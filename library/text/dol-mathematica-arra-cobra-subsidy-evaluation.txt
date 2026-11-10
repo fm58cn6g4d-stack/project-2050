@@ -1,0 +1,4340 @@
+Source: https://www.dol.gov/sites/dolgov/files/EBSA/researchers/analysis/health-and-welfare/evaluation-of-the-arra-cobra-subsidy.pdf
+Publisher: U.S. Department of Labor, Employee Benefits Security Administration (Mathematica Policy Research)
+Retrieved: 2026-11-10
+Original SHA-256: 92ec36bab7f34e88e6d5d16522aa3f01dff7ca63ee34d9f4c2c26acf14da4164
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+FINAL REPORT
+
+Evaluation of the ARRA COBRA
+Subsidy: Final Report
+February 18, 2015
+Jillian Berk
+Anu Rangarajan
+Submitted to:
+Chief Evaluation Office
+U.S. Department of Labor
+200 Constitution Ave., NW
+Washington, DC 20210
+Project Officer: Jonathan Simonetta
+Contract Number: GS10F0050L/DOLF109631343
+Submitted by:
+Mathematica Policy Research
+1100 1st Street, NE
+12th Floor
+Washington, DC 20002-4221
+Telephone: (202) 484-9220
+Facsimile: (202) 863-1763
+Project Director: Anu Rangarajan
+Reference Number: 06859.710
+
+This page has been left blank for double-sided copying.
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+ACKNOWLEDGMENTS
+
+We would like to thank the many people whose cooperation and efforts have made this
+report possible. In particular, we would like to thank the people at the U.S. Department of Labor
+who supported this study including our Project Officer Jonathan Simonetta and staff in the
+Employee Benefits Security Administration’s Office of Policy and Research.
+A large team at Mathematica made important contributions to this effort. Nathan Wozny,
+Hanley Chiang, and Nan Maxwell helped to design the study. Grace Roemer and Brandon Kyler
+worked tirelessly to collect administrative unemployment insurance data from the states.
+Heinrich Hock directed a team of programmers working to clean the administrative data. Our
+excellent team of statisticians led by Frank Potter, with support from Sheng Wang and Yuhong
+Zheng, selected the survey sample and calculated the analytic weights. The survey team was
+indispensable to the project. Julita Milliner-Waddell, the survey director throughout the study,
+was in charge of the instrument development, survey design, and survey operations for the study.
+She was assisted by Rebecca DiGiuseppe, the deputy survey director for the project. Anne
+Hower was the senior lead programmer who managed the sample release and reporting, and
+Tong Li was the lead CATI programmer. Theresa Boujada played a key role as lead supervisor
+for telephone interviewing. We are grateful to the many telephone interviewers who were
+involved in the data collection effort and, finally, to the workers in the sample who patiently
+answered our many questions.
+We would like to thank Alma Moedano and Joseph Mastrianni for their hard work on data
+programming tasks and their close attention to detail. We also thank Brigitte Tran for designing
+some of the graphics included in this report. Diane Herz reviewed the initial draft of the report
+and provided helpful comments. Bridget Gutierrez edited the report and Jackie McGee assisted
+with formatting.
+
+iii
+
+This page has been left blank for double-sided copying.
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+CONTENTS
+EXECUTIVE SUMMARY ............................................................................................................................. xii
+I
+
+INTRODUCTION.............................................................................................................................. 1
+A. The U.S. health care system and employer-provided insurance .............................................. 2
+B. COBRA coverage and the ARRA subsidy................................................................................. 3
+C. Existing evidence on the impact of the COBRA subsidy ........................................................... 5
+D. Our approach ............................................................................................................................. 6
+1. Selecting a survey sample .................................................................................................. 7
+2. Collecting survey data ......................................................................................................... 8
+E. Organization of the report .......................................................................................................... 9
+
+II
+
+UNDERSTANDING COBRA ELIGIBILITY, AWARENESS, AND ENROLLMENT ........................ 11
+A. COBRA eligibility ..................................................................................................................... 11
+B. Reasons for COBRA ineligibility .............................................................................................. 14
+C. COBRA awareness and understanding .................................................................................. 16
+D. COBRA take-up ....................................................................................................................... 19
+E. Willingness to pay for COBRA coverage ................................................................................. 23
+
+III
+
+UNDERSTANDING SUBSIDY ELIGIBILITY, AWARENESS, AND USE ...................................... 27
+A. COBRA subsidy eligibility ........................................................................................................ 27
+B. COBRA subsidy awareness and understanding ..................................................................... 28
+C. COBRA subsidy use ................................................................................................................ 33
+
+IV
+
+EXPERIENCES OF COBRA-ELIGIBLE UI CLAIMANTS .............................................................. 37
+A. Labor market experiences ....................................................................................................... 37
+B. Health insurance experiences ................................................................................................. 40
+C. Financial hardship ................................................................................................................... 41
+
+V
+
+IMPACT OF THE ARRA COBRA SUBSIDY.................................................................................. 45
+A. Approach to estimating impacts .............................................................................................. 45
+1. Selecting the survey sample ............................................................................................. 46
+2. Identifying subsidy-eligible and subsidy-comparison workers .......................................... 47
+3. Regression methods for estimating impacts ..................................................................... 50
+
+v
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+V
+
+MATHEMATICA POLICY RESEARCH
+
+(continued)
+B. Impact on COBRA take-up and health insurance ................................................................... 50
+C. Impact on labor market outcomes ........................................................................................... 53
+D. Impact on financial well-being ................................................................................................. 57
+
+VI
+
+CONCLUSION ............................................................................................................................... 59
+
+REFERENCES ............................................................................................................................................ 61
+APPENDIX A: SURVEY METHODOLOGY ............................................................................................. A.1
+APPENDIX B: MODEL GENERAL NOTICE OF COBRA CONTINUATION COVERAGE
+RIGHTS ............................................................................................................................ B.1
+
+vi
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+TABLES
+I.1
+
+Health coverage sources for nonelderly population, 1988-2008 ..................................................... 2
+
+I.2
+
+Average annual private-sector group premiums, employee contributions, and estimated
+COBRA premiums before and after the ARRA subsidy, 2010......................................................... 5
+
+II.1
+
+COBRA eligibility rate, by industry ................................................................................................. 14
+
+II.2
+
+Awareness of COBRA, by worker characteristics .......................................................................... 17
+
+II.3
+
+First source of COBRA notification ................................................................................................ 18
+
+II.4
+
+COBRA take-up, by worker characteristics.................................................................................... 22
+
+II.5
+
+Reasons for not using COBRA ...................................................................................................... 23
+
+III.1
+
+Subsidy eligibility, by individual characteristics .............................................................................. 29
+
+III.2
+
+Subsidy awareness, by individual characteristics .......................................................................... 31
+
+III.3
+
+Source of knowledge about COBRA subsidy ................................................................................ 32
+
+III.4
+
+Self-reported subsidy use, by individual characteristics ................................................................ 35
+
+IV.1
+
+Labor market outcomes following job loss ..................................................................................... 40
+
+IV.2
+
+Health insurance and access to health care after job loss ............................................................ 41
+
+IV.3
+
+Financial trouble in the year following job loss .............................................................................. 42
+
+IV.4
+
+Financial hardship in the year following job loss ............................................................................ 43
+
+V.1
+
+Baseline characteristics of subsidy-eligible and subsidy-comparison workers.............................. 49
+
+V.2
+
+Impact on COBRA take-up, by household income ........................................................................ 52
+
+V.3
+
+Impact on quarterly and annual employment ................................................................................. 55
+
+V.4
+
+Impact on quarterly and annual earnings....................................................................................... 56
+
+vii
+
+This page has been left blank for double-sided copying.
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+FIGURES
+ES.1
+
+ARRA COBRA subsidy evaluation timeline ................................................................................... xiii
+
+ES.2
+
+Impact on COBRA take-up .............................................................................................................xv
+
+I.1
+
+ARRA COBRA subsidy time line ...................................................................................................... 4
+
+I.2
+
+States included in the COBRA subsidy study .................................................................................. 8
+
+II.1
+
+COBRA eligibility rate, by demographic characteristics ................................................................. 13
+
+II.2
+
+COBRA eligibility rate, by UI base-period wages .......................................................................... 13
+
+II.3
+
+Reasons for COBRA ineligibility .................................................................................................... 15
+
+II.4
+
+Reasons for COBRA ineligibility, by UI base-period wages .......................................................... 15
+
+II.5
+
+Understanding of COBRA .............................................................................................................. 19
+
+II.6
+
+Factors that influence the COBRA take-up decision ..................................................................... 20
+
+II.7
+
+Likely insurance decision without COBRA access ........................................................................ 23
+
+II.8
+
+Willingness to pay for COBRA, by family coverage status ............................................................ 25
+
+II.9
+
+Willingness to pay for COBRA, by household income ................................................................... 25
+
+II.10
+
+Willingness to pay for COBRA, by chronic condition ..................................................................... 26
+
+III.1
+
+Reason for subsidy ineligibility ....................................................................................................... 30
+
+III.2
+
+Understanding of the COBRA subsidy........................................................................................... 33
+
+IV.1
+
+Unemployment rates in sample counties in 2010 .......................................................................... 37
+
+IV.2
+
+Reemployment expectations .......................................................................................................... 39
+
+IV.3
+
+Employment rates by quarter after job loss ................................................................................... 39
+
+IV.4
+
+Mean and median hourly wage in pre-UI and post-UI employment .............................................. 40
+
+IV.5
+
+Months without health insurance after job loss .............................................................................. 41
+
+V.1
+
+ARRA COBRA subsidy evaluation timeline ................................................................................... 46
+
+V.2
+
+COBRA eligibility and subsidy eligibility for subsidy and post-subsidy periods ............................. 48
+
+V.3
+
+Impact on COBRA take-up ............................................................................................................ 51
+
+V.4
+
+Impact on COBRA take-up, by chronic condition status ................................................................ 52
+
+V.5
+
+Impact on gaps in health insurance ............................................................................................... 53
+
+V.6
+
+Impact on months without health insurance................................................................................... 53
+
+V.7
+
+Difference in job quality at first reemployment ............................................................................... 56
+
+V.8
+
+Impact on trouble paying bills ........................................................................................................ 57
+
+ix
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+V.9
+
+Impact on financial hardship .......................................................................................................... 58
+
+A.1
+
+Initial contact timeline .................................................................................................................... A.5
+
+A.2
+
+Revised contact timeline ............................................................................................................... A.5
+
+A.3
+
+Data collection flow and incentive strategy ................................................................................... A.7
+
+x
+
+This page has been left blank for double-sided copying.
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+EXECUTIVE SUMMARY
+
+For many Americans, the recession that began in 2007 led not only to job loss, but also to
+losing health insurance for themselves and their families. Three-quarters of nonelderly
+Americans who have health insurance receive coverage through an employer. In most cases, the
+employer pays for a relatively large portion of the cost of the coverage. Given the predominance
+of health insurance that is sponsored and subsidized by employers, the loss of a job is often
+accompanied by the loss of health care coverage.
+The Consolidated Omnibus Budget Reconciliation Act of 1985 (COBRA) was intended to
+help prevent the loss of health insurance among workers and their dependents. When employees
+change or lose their jobs, private employers with 20 or more employees are required to continue
+health care coverage for workers and their qualified dependents where, in many circumstances,
+coverage would otherwise cease. However, even though COBRA requires employers to provide
+continued health care coverage, the act does not require them to continue subsidizing premium
+payments. Instead, plans are allowed to charge workers up to the entire premium plus a 2 percent
+administrative fee. Given the high costs of COBRA coverage, some previously insured workers
+and their dependents cannot afford this insurance and, therefore, may experience gaps in
+coverage—particularly in times of recession when unemployment durations can be long. To help
+workers who lost their jobs involuntarily during the “great recession” of the late 2000s, the
+American Recovery and Reinvestment Act (ARRA) provided large subsidies for premium
+payments to most COBRA-eligible people who experienced a job loss between September 2008
+and May 2010.
+Despite the importance of COBRA as a potential source of health insurance, remarkably
+little is known about the number and characteristics of workers who might qualify for COBRA
+coverage or the personal and environmental factors that drive coverage. Additionally, there is not
+much rigorous evidence on the effects of the offer of the subsidy on COBRA coverage. The U.S.
+Department of Labor (DOL) contracted with Mathematica Policy Research to conduct a study to
+fill the knowledge gaps about COBRA coverage and take-up, as well as to assess the impacts of
+the subsidy on COBRA coverage and other outcomes.
+A. Research questions and methodology
+
+This report uses survey data collected from unemployed workers who experienced a job loss
+in 2010. In particular, this report addresses the following four broad questions:
+1.
+
+Which types of workers were eligible for COBRA coverage and which of them signed up
+for it?
+
+2.
+
+To what extent did workers know about the ARRA COBRA subsidy and use it?
+
+3.
+
+What were the health insurance and labor market experiences of COBRA-eligible
+unemployment insurance (UI) claimants?
+
+4.
+
+What were the impacts of the subsidy on COBRA take-up and other outcomes?
+
+The analyses in this report are based primarily on data from the Mathematica COBRA
+Subsidy Survey. Because there were no readily available data from a sample of COBRA-eligible
+
+xii
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+individuals or subsidy-eligible individuals, we screened a large sample of unemployed
+individuals and identified COBRA-eligible and subsidy-eligible individuals to whom we
+administered the survey. We constructed the sample frame using administrative data on UI
+claimants from a geographically diverse set of nine states—Arkansas, California, Colorado,
+Florida, Georgia, New Jersey, Ohio, Pennsylvania, and Wisconsin. In total, we sampled
+28,513 UI claimants who filed a claim in 2010. More than 10,000 UI claimants were screened as
+part of the survey, and we completed interviews with 3,476 COBRA-eligible individuals.
+In order to estimate the impact of the COBRA subsidy on outcomes, we compared the
+outcomes of subsidy-eligible individuals with similar individuals who were not eligible for the
+subsidy due to the timing of their job loss. Figure ES.1 shows our approach and the timing of the
+subsidy that enabled us to identify those eligible for the subsidy and comparison groups. One key
+concern about the comparison group was that workers who lost jobs in the post-subsidy period
+may have experienced different outcomes from those who lost their jobs in the subsidy period
+even in the absence of the subsidy. To minimize this concern, we selected the initial sample of
+UI claimants to be surveyed in a manner such that the subsidy-eligible and subsidy-comparison
+workers had similar demographic and job characteristics. In addition, all of our impact models
+control for a rich set of pre-job loss characteristics including demographic characteristics, the
+characteristics of the pre-UI job, health status, and financial status.
+Figure ES.1. ARRA COBRA subsidy evaluation timeline
+
+B. Key findings
+
+•
+
+About 39 percent of UI claimants in 2010 were eligible for COBRA. Although COBRA
+eligibility rates were similar across gender and race, Hispanic workers were significantly
+less likely to be eligible. COBRA eligibility was strongly related to pre-UI earnings, with
+significantly higher rates of eligibility for higher earners.
+
+•
+
+More than 80 percent of COBRA-eligible UI claimants were aware of COBRA, but few
+understood the implication of COBRA for their health care premiums, deductibles,
+and co-pays. Awareness of COBRA was lower among disadvantaged groups, but more than
+60 percent of those earning less than $10 per hour were familiar with COBRA. The majority
+recalled first learning of their COBRA eligibility through written notification from their
+employers.
+
+xiii
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+•
+
+Among COBRA-eligible UI claimants, 34 percent opted for COBRA coverage.
+Consistent with expectations, COBRA take-up was significantly more common among
+workers with better financial circumstances. Eighty percent of workers who did not select
+COBRA coverage reported that cost was the most important factor in their decision.
+
+•
+
+Seventy-one percent of COBRA-eligible UI claimants with a job loss in the subsidy
+period were likely eligible for the subsidy. Individuals were classified as subsidy-eligible
+if they lacked access to other group insurance at the time of job loss. The most advantaged
+groups were the least likely to be eligible suggesting that subsidy eligibility was
+appropriately targeted.
+
+•
+
+Only 31 percent of subsidy-eligible individuals reported awareness of the subsidy. This
+is a surprising finding as past studies of the COBRA subsidy have assumed that all eligible
+workers were aware of the subsidy due to the employer notification requirements. Although
+our survey may understate awareness, the questionnaire was designed to facilitate recall by
+asking workers about the subsidy twice. Even if this study understated the extent of subsidy
+awareness, it seems reasonable to conclude that awareness of the subsidy was far from
+universal.
+
+•
+
+Workers who experienced a job lost in 2010 faced significant challenges becoming
+reemployed, and the majority reported financial trouble in the year following job loss.
+Individuals expected to return to work quickly, but the return to employment was more
+gradual than individuals had anticipated. Most workers experienced gaps in health insurance
+coverage, and nearly 25 percent were without health insurance for 24 months or more.
+Workers had trouble paying bills or loans, and 39 percent of those surveyed reported that
+financial trouble led them to sell property, withdraw money from retirement accounts, or
+move to a new place to live.
+
+•
+
+The subsidy significantly increased the take-up of COBRA coverage (Figure ES.2).
+Thirty-five percent of subsidy-eligible workers used COBRA compared to 30 percent of
+subsidy-comparison workers. After adjusting for differences in the characteristics of
+subsidy-eligible and subsidy-comparison workers, we found a statistically significant 4.7
+percentage point impact on COBRA take-up or a 15.5 percent increase relative to the takeup rate of the comparison workers.
+
+•
+
+While the ARRA subsidy increased COBRA take-up, it did not significantly reduce the
+share of workers who experienced gaps in health insurance or the total number of
+months that workers were without health insurance. These findings suggest that at least
+some of the workers who opted for COBRA coverage in response to the availability of the
+ARRA subsidy would have found another form of health insurance without the subsidy.
+
+xiv
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure ES.2. Impact on COBRA take-up
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample 2,454 subsidy-eligible and subsidy-comparison workers. Standard errors are clustered at the
+state-level.
+**The adjusted difference is significantly different from zero at the .05 level, two-tailed test.
+
+•
+
+Consistent with theoretical predictions, having access to the COBRA subsidy appeared
+to slow the return to work, but the small impact suggests that the subsidy was a minor
+disincentive. Subsidy-eligible individuals were less likely to work in the second and third
+quarters after job loss, but over the course of the year, those eligible for the subsidy worked
+only one week fewer than the subsidy-comparisons.
+
+•
+
+Eligibility for the subsidy did not affect financial wellbeing. Subsidy-eligible and
+subsidy-comparison workers were equally likely to report that they had trouble paying bills
+in the year following job loss or that financial trouble led them sell property, withdraw
+money from retirement accounts, or move to a new place to live.
+
+C. Looking forward
+
+Policymakers who introduced the ARRA COBRA subsidy anticipated that the reduction in
+the price of COBRA would increase take-up of continuation coverage and help ease the burden
+of the unemployed, but the expected magnitude of the response was unknown. The impact of the
+subsidy on COBRA take-up was significantly lower than one would have predicted from the
+responses that unemployed individuals gave to hypothetical questions about their health
+insurance decisions. These responses suggested that the subsidy should have doubled the use of
+COBRA—69 percent reported willingness to use COBRA with a 65 percent subsidy.
+The gap between this hypothetical reaction to subsidy and the observed impact likely stems
+from two factors. First, it is very hard for unemployed workers to know how they would actually
+respond when faced with a choice between subsidized COBRA premiums and other pressing
+financial concerns. Therefore, the reported willingness to pay for COBRA may significantly
+overstate their actual behavior. Second, many subsidy-eligible individuals seemed unaware of
+the subsidy or confused about how the subsidy would affect their health insurance and health
+care costs. Although there is certainly concern about recall error in a survey fielded three years
+after the subsidy period, less than one-third of subsidy-eligible workers reported knowledge of
+
+xv
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+the subsidy. Employers were required to notify eligible workers about the subsidy and DOL
+conducted outreach, but these efforts seemed to fail to reach all eligible workers.
+It is important to remember that the ARRA COBRA subsidy was implemented in a period
+prior to the implementation of the Patient Protection and Affordable Care Act (PPACA). This act
+significantly altered the health insurance landscape for unemployed individuals. In 2010, the
+unemployed without access to other forms of group insurance had the option of continuing
+coverage through COBRA or entering the private non-group market, where they would likely
+face coverage restrictions on pre-existing conditions. Under PPACA, the unemployed have
+access to insurance exchanges. There, they can purchase coverage with premium support
+available for individuals and families with incomes between 133 percent and 400 percent of the
+federal poverty line (FPL). Depending upon the state of residence, those with incomes below 133
+percent of the FPL may be eligible for expanded Medicaid coverage. Unlike the ARRA COBRA
+subsidy, the subsidies available under PPACA are based on income and also include cost-sharing
+credits. In addition to financial support, PPACA improved the health insurance alternatives that
+are available for unemployed individuals. Through insurance market regulations, those
+individuals are now guaranteed the issue of insurance and no longer face exclusions for preexisting conditions.
+
+xvi
+
+This page has been left blank for double-sided copying.
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+I.
+
+MATHEMATICA POLICY RESEARCH
+
+INTRODUCTION
+
+For many Americans, the recession that began in 2007 led not only to job loss, but also to
+losing health insurance for themselves and their families. Three-quarters of nonelderly
+Americans who have health insurance receive coverage through an employer. In most cases, the
+employer pays for a relatively large portion of the cost of the coverage. Given the predominance
+of health insurance that is sponsored and subsidized by employers, the loss of a job is often
+accompanied by the loss of health care coverage.
+The Consolidated Omnibus Budget Reconciliation Act of 1985 (COBRA) was intended to
+help prevent the loss of health insurance among workers and their dependents. When workers or
+their dependents experience qualifying events, including a job loss for the covered worker,
+private employers with 20 or more employees are required to continue health care coverage
+where, in many circumstances, coverage would otherwise cease. 1 However, even though
+COBRA requires employers to provide continued health care coverage, 2 the act does not require
+them to continue subsidizing premium payments. Instead, the worker may be responsible for up
+to the entire payment plus a 2 percent administrative fee. Given the high costs of COBRA
+coverage, some previously insured workers and their dependents cannot afford this insurance
+and, therefore, may experience gaps in coverage—particularly in times of recession when
+unemployment durations can be long. To help workers who lost their jobs involuntarily during
+the “great recession” of the late 2000s, the American Recovery and Reinvestment Act (ARRA)
+provided large subsidies for premium payments to most COBRA-eligible people who
+experienced a job loss between September 2008 and May 2010.
+Despite the importance of COBRA as a potential source of health insurance, remarkably
+little is known about the number and characteristics of workers who might qualify for COBRA
+coverage or the personal and environmental factors that drive coverage. Additionally, there is not
+much rigorous evidence on the effects of the offer of the subsidy on COBRA coverage. The U.S.
+Department of Labor (DOL) contracted with Mathematica Policy Research to conduct a study to
+fill the knowledge gaps about COBRA coverage and take-up, as well as to assess the impacts of
+the subsidy on COBRA coverage. This report includes data collected from unemployed workers
+in nine states across the country to learn more about COBRA eligibility and use, as well as
+subsidy eligibility and use. All of the unemployed workers surveyed experienced a job loss in
+2010. In particular, this report addresses the following four broad questions:
+1.
+
+Which types of workers were eligible for COBRA coverage and which of them signed up
+for it?
+
+2.
+
+To what extent did workers know about the ARRA COBRA subsidy and use it?
+
+1
+
+Qualifying events are events that cause an individual to lose his or her group health coverage. For covered
+employees, qualifying events include the termination of a job for any reason other than gross misconduct or a
+reduction in hours that changes eligibility for health coverage. Spouses and dependent children can qualify for
+COBRA because of changes in the covered employee’s job as described above or due to other events that would
+affect access to the employee’s group insurance including a transition to Medicare, divorce or legal separation from
+the spouse, death of the covered employee, or a dependent child ceasing to be dependent.
+
+2
+In 2010, continuation coverage was generally available for 18 months for workers and for up to 36 months for
+dependents in certain situations.
+
+1
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+3.
+
+What were the health insurance and labor market experiences of COBRA-eligible
+unemployment insurance (UI) claimants?
+
+4.
+
+What were the impacts of the subsidy on COBRA take-up and other outcomes?
+
+Before presenting our findings in the next four chapters, below we provide additional
+context and background for the evaluation by briefly describing the U.S. health care system and
+employer-provided insurance (Section A), COBRA coverage and the ARRA subsidy
+(Section B), and existing evidence on the impact of the ARRA subsidies (Section C). In
+Section D, we expand on the research questions and provide a brief overview of our approach to
+the evaluation. We conclude this chapter with a road map for the rest of the report (Section E).
+A. The U.S. health care system and employer-provided insurance
+
+The U.S. health care system generally provides Americans with access to health care in
+three ways: (1) private group coverage, mostly through an employer; (2) private non-group
+(individual) coverage; and, (3) government coverage, which focuses mostly on the poor and the
+elderly through the Medicaid and Medicare programs. A majority of the nonelderly population
+receives coverage through an employer, although the percentage receiving coverage through this
+source has decreased since the 1980s (Table I.1). For example, in 1988, nearly 70 percent of the
+nonelderly population received employer-sponsored health coverage, about 6 percent had
+individual coverage, slightly over 13 percent had public coverage, and 15.5 percent were
+uninsured. By 2008, coverage for the nonelderly had shifted away from employer-sponsored
+coverage toward public or no coverage. Only about 61 percent of nonelderly Americans had
+employer-sponsored coverage, nearly 20 percent had public coverage, and just over 17 percent
+had no coverage.
+The U.S. health care system has changed significantly in recent years. This evaluation is
+focused on a period before the implementation of the Patient Protection and Affordable Care Act
+(PPACA). PPACA changed the individual health insurance market in important ways including
+prohibiting issuers from denying coverage due to health status, offering states incentives to
+expand Medicaid, establishing insurance exchanges, and offerings income-based subsidies for
+health insurance purchased through the exchanges. Workers who experience a loss of employersponsored insurance in 2014 have more options for health insurance coverage than the workers
+who lost coverage in the last recession.
+Table I.1. Health coverage sources for nonelderly population, 1988-2008
+(percentages)
+
+1988
+1998
+2008
+
+EmployerSponsored
+
+Non-Group
+(Individual)
+
+Public
+
+Uninsured
+
+69.0
+
+6.3
+
+13.3
+
+15.5
+
+67.2
+61.1
+
+6.9
+6.3
+
+14.3
+19.4
+
+Source: 1988 data are from Fronstin (2000); 1998 and 2008 data are from Fronstin (2009).
+Note:
+Numbers exceed 100 percent because some individuals have multiple sources of coverage.
+
+2
+
+16.5
+17.4
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Each source of coverage has its own set of requirements and standards. For individuals to
+receive employer-sponsored health insurance, they must (1) have access to an employer that
+offers coverage, (2) receive the offer of coverage, and (3) accept the offer of coverage
+(Fronstin 2007; Clemans-Cope and Garrett 2006). Research suggests that between a quarter and
+a third of employed workers who were not covered by their employers declined the offer of
+insurance (Fronstin 2007; U.S. Bureau of Labor Statistics 2009). The take-up (or enrollment) rate
+among those offered employer-sponsored coverage has declined steadily since the late 1980s,
+with some research finding that decisions by employees to decline the offer of insurance
+coverage was responsible for almost two-thirds of the shift away from such coverage (Blumberg
+and Holahan 2004). Furthermore, data from the Insurance Component (IC) of the Medical
+Expenditure Panel Survey (MEPS) suggest that the proportion of eligible workers who accept the
+offer of health insurance is far lower in firms that have a majority of low-wage workers (those
+earning at or below the 25th percentile of hourly wages).
+Why would workers not take coverage when offered? Certainly, some workers decline the
+offer because they receive coverage from other sources. Indeed, over 60 percent of those not
+taking the offer in 2005 did so because they were covered by another health plan (Fronstin
+2007). Others decline coverage because of the costs; 23 percent of those who declined the offer
+did so because it was too costly. Cost considerations might be especially germane to low-wage
+workers, as only about 50 percent of private-sector workers in the lowest 10 percent of wages
+took their firm’s offer of health coverage in 2008, compared to 80 percent in the highest
+10 percent (U.S. Bureau of Labor Statistics 2009).
+B. COBRA coverage and the ARRA subsidy
+
+Job loss is a critical cause of becoming uninsured because losing one’s job often means
+losing health insurance, unless alternative sources are available (such as employer-sponsored
+coverage through a spouse or government coverage). The tie between health insurance and
+employment is so strong that some workers feel locked into their job (known as “job lock”) for
+fear of losing their health insurance. This was particularly true prior to the passage of the
+PPACA. COBRA was intended to ease job lock and prevent loss of health coverage during gaps
+in employment by offering individuals and their dependents the option of continuing their
+previous employer’s coverage for limited periods of time. In 2010, continuation coverage was
+generally available for 18 months for workers and for up to 36 months for dependents in certain
+situations.
+Because most recipients are required to pay up to 102 percent of the cost of the plan (on an
+after-tax basis) for COBRA coverage, affordability, especially at the time of job loss, is an issue
+for those considering COBRA take-up. This issue is especially acute during recessions when
+people face longer lags between jobs and, hence, may be unable to make the financial
+commitment needed for COBRA coverage.
+One provision of ARRA was designed to make COBRA health insurance continuation more
+affordable to the unemployed by subsidizing their premium payments. In particular, the ARRA
+COBRA subsidy required employers to pay 65 percent of the premium for qualified workers and
+dependents for up to 9 months (later extended to 15 months). Employers received a credit on
+their federal payroll taxes for their payment amount. Employers were required to update COBRA
+
+3
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+forms and other plan materials to reflect the new subsidies, and send these notices (patterned on
+model notices developed by DOL) to any worker who involuntarily lost employment (other than
+for gross misconduct) on or after September 1, 2008. Qualified workers and dependents were
+eligible to receive ARRA subsidies for COBRA if the employment loss was involuntary and they
+met the following conditions:
+•
+
+They were ineligible for other forms of group health coverage (such as through the plan of a
+spouse or new employer) or Medicare.
+
+•
+
+They had adjusted gross income under $125,000 (filing singly) or $250,000 (filing jointly).
+More modest subsidies were made available for those with higher incomes: under $145,000
+(filing singly) or $290,000 (filing jointly).
+
+•
+
+They had an involuntary termination of employment between September 1, 2008, and
+December 31, 2009—which was later extended to May 31, 2010 (see Figure I.1).
+
+Figure I.1. ARRA COBRA subsidy time line
+
+Subsequent legislation extended the definition of qualifying event to include workers whose
+hours had been reduced but who had not taken COBRA and then became involuntarily
+terminated. 3 ARRA also authorized a “special election period” to include those who had not
+taken COBRA within 60 days of involuntary employment termination. During that period,
+qualified people could elect either the same COBRA package they would have had at the time
+their employment terminated or (subject to employer approval) a different package offered to
+active employees, if the premium did not exceed the coverage they had at termination.
+The ARRA subsidy significantly reduced the price of COBRA coverage for those eligible.
+But even with the subsidy, COBRA coverage could potentially have been too expensive for
+many of the recently unemployed. Table I.2 presents an example of the potential increase in the
+cost of coverage for individuals transitioning from employer-sponsored coverage to COBRA
+coverage. In 2010, the average annual premium per covered employee for employer-sponsored
+group coverage was $13,770 for family coverage, while the employee contribution to the
+premium was $3,997. Without a premium subsidy, the worker would pay $14,045 for family
+COBRA coverage. With a 65 percent premium reduction through the ARRA subsidy, the
+3
+
+Under COBRA, a reduction of hours is a qualifying event when the employee and his or her family lose coverage
+because the employee is no longer working enough hours to satisfy the group health plan’s eligibility requirements.
+
+4
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+average cost of single COBRA coverage would be $4,916—considerably lower than the
+nonsubsidized COBRA premium, but well above the average premium of $3,997 that the worker
+had for family coverage while employed. Some reports estimate that the average COBRA
+premium for family coverage consumed more than 80 percent of the average unemployment
+benefit in 2009 (Families USA 2009). The ARRA subsidy would reduce the payment to about
+28 percent of the average unemployment benefit.
+Table I.2. Average annual private-sector group premiums, employee
+contributions, and estimated COBRA premiums before and after the ARRA
+subsidy, 2010
+
+Total cost of health insurance premium
+Employee contribution
+COBRA
+COBRA net of ARRA subsidy
+
+Single coverage
+
+Family coverage
+
+$5,049
+
+$13,770
+
+$1,802
+
+$4,916
+
+$899
+
+$5,150
+
+$3,997
+
+$14,045
+
+Source: Kaiser Family Health Foundation/Health Research and Educational Trust (HRET) (2010).
+Note:
+COBRA and ARRA estimates are calculated using the average premium amounts.
+
+C. Existing evidence on the impact of the COBRA subsidy
+
+The existing evidence on the impact of the COBRA subsidy is relatively limited. The
+U.S. Treasury Department estimates that as many as 2 million households claimed the COBRA
+subsidy in 2009 (Treasury Department 2010a). Calculating the precise number of households
+benefiting from the subsidy is difficult because employers filed claims each quarter and the same
+employees might have been counted in multiple quarters. Reports from benefits management
+organizations suggest that COBRA take-up increased during the subsidy period. Hewitt
+Associates reported that COBRA enrollments doubled, from 19 percent in August 2009 to nearly
+40 percent in December 2009. Ceridian found that COBRA enrollment increased from
+12.4 percent to 17.7 percent, over a similar period. Comparing enrollment in 2008 and 2009, Aon
+reported that COBRA enrollment increased from 14.1 percent to 15.9 percent, and Deseret
+Mutual saw enrollment increase from 5.3 percent to 22.5 percent (Bovbjerg et. Al. 2010).
+Benefits management organizations cover different groups of employers so the significant
+variation in the COBRA take-up is not unexpected.
+Two single-state surveys measured COBRA use during the subsidy period for the
+unemployed. A survey of a representative sample in New Jersey of those receiving UI in late
+2009 found that roughly 15 percent of UI beneficiaries received health insurance coverage via
+COBRA (Treasury 2010b). Although this study could not measure the COBRA take-up directly
+because it did not measure COBRA or subsidy eligibility, the authors estimated that a quarter to
+a third of those eligible in New Jersey enrolled in subsidized COBRA. A survey of laid-off,
+COBRA-eligible individuals covered by Kaiser Permanente–Northern California found a
+COBRA take-up rate of 38 percent during the subsidy period (Graetz et al. 2012). Neither the
+New Jersey survey nor the Kaiser Permanente–Northern California study measured COBRA
+take-up during a nonsubsidized period.
+
+5
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Researchers have also used the Survey of Income and Program Participation (SIPP) to
+compare workers who experienced a job loss during the COBRA subsidy period to workers with
+a job loss outside of the subsidy period. Moriya and Simon (2014) found that the COBRA
+subsidy was associated with a 3.4 percentage point increase in the COBRA take-up rate. The
+3.4 percentage point impact was a 15 percent increase from the base COBRA take-up rate of
+22 percent. Hu (2013) used a similar approach to look at the impact of the COBRA subsidy on
+unemployment duration and found that subsidy-eligible individuals increased their
+unemployment duration by 2.1 months.
+D. Our approach
+
+DOL sponsored this study to learn about the effects of the ARRA subsidy on COBRA
+coverage and other outcomes. Measuring the impact of the subsidy and developing a better
+understanding of health insurance decisions after job loss will enable DOL to evaluate the
+efficacy of the subsidy and inform future policies aimed at increasing health insurance coverage.
+Although the overarching objective of this study was to measure the impact of the ARRA
+subsidy on COBRA take-up, the study also paints a broad picture of potential COBRA
+recipients, their health care coverage status, and their labor market experiences. In particular, this
+evaluation answers the following research questions:
+•
+
+What were the characteristics of COBRA-eligible individuals and were they aware of
+the benefit? What fraction of unemployed individuals was eligible for COBRA coverage?
+What were the reasons for ineligibility? How did the rate of COBRA eligibility vary by
+workers’ demographic and job characteristics? Were COBRA eligible individuals aware of
+the benefit? Did individuals understand how the COBRA benefit worked?
+
+•
+
+What were the characteristics of COBRA enrollees? What fraction of those eligible for
+COBRA coverage actually enrolled? What factors were associated with COBRA
+enrollment? What reasons did individuals give for choosing to enroll or not enroll in
+COBRA?
+
+•
+
+What were the characteristics of subsidy-eligible individuals and were they aware of
+the benefit? What fraction of COBRA-eligible individuals was eligible for the ARRA
+subsidy? What were the reasons for ineligibility? How does the rate of subsidy eligibility
+vary by a worker’s demographic and job characteristics? Were subsidy-eligible individuals
+aware of the benefit? Did individuals understand how the subsidy worked?
+
+•
+
+What were the characteristics of COBRA subsidy users? What fraction of those eligible
+for the subsidy actually enrolled? What factors were associated with subsidy use? What
+reasons did individuals give for choosing to enroll or not enroll in COBRA?
+
+•
+
+What were the experiences of COBRA-eligible UI claimants with a job loss in 2010?
+How quickly did these individuals return to work? What share of workers experienced
+periods of being uninsured? Did these individuals experience financial hardship?
+
+•
+
+What was the impact of the subsidy on COBRA take-up and other outcomes? How did
+the offer of the subsidy affect other outcomes such as the duration of health insurance
+coverage during unemployment, length of unemployment, and measures of financial wellbeing? How do impacts differ across key subgroups, such as individuals with low income or
+those with chronic health conditions at the time of the job loss?
+6
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+The analyses in this report are based primarily on data from the Mathematica COBRA
+Subsidy Survey. 4 Because there were no readily available data from a sample of COBRAeligible individuals or subsidy-eligible individuals, we screened a large sample of unemployed
+individuals and identified COBRA-eligible and subsidy-eligible individuals to whom we
+administered the survey. Below, we describe how we selected the survey sample and our
+approach to data collection.
+1.
+
+Selecting a survey sample
+
+Because there is no single comprehensive frame of COBRA-eligible individuals available
+through either administrative records or existing surveys, we identified a sample of job losers
+using administrative UI claims data. 5 Our sample frame was constructed using administrative
+data on UI claimants from nine states. 6 This geographically diverse set of states included
+Arkansas, California, Colorado, Florida, Georgia, New Jersey, Ohio, Pennsylvania, and
+Wisconsin (see Figure I.2). In particular, from each state, we selected approximately
+3,000 individuals who experienced a job loss in 2010 and who had received a first UI benefit
+payment. 7 Because not all UI recipients belonged to the target population of those who were
+COBRA eligible, the study used a two-stage data collection process. Stage 1 screened sample
+members for eligibility for the survey by documenting whether they had employer-sponsored
+health insurance at the time of their job loss. Those who reported that they had employersponsored health insurance at the time of their job loss were administered the telephone survey.
+
+4
+
+Some of the analyses used data from UI administrative records.
+
+5
+Details on the study and sample design are available in Rangarajan et al. 2011. The vast majority of unemployed,
+COBRA-eligible job losers are likely to be eligible for UI. By limiting the sample to UI recipients, we excluded
+individuals who were determined to be ineligible for benefits or who chose not to collect benefits—likely because
+they became reemployed very quickly.
+6
+
+Initially, we selected a nationally representative sample of 20 states (see Rangarajan et al. 2011). Some states were
+unwilling to participate and others could not provide information on job separation date and separating employer
+required for the survey. Nine of the 20 states were able to provide sufficient data by the deadline for survey fielding.
+
+7
+We selected the sample size so that the study’s minimum detectable impact (MDI)—the smallest impact that the
+study can reliably detect—was a 4.1 percentage point impact on COBRA take-up.
+
+7
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure I.2. States included in the COBRA subsidy study
+
+Because we selected individuals who lost their jobs throughout 2010, our sample includes
+those who had a job loss prior to May 31, 2010, who may have been eligible for the ARRA
+COBRA subsidy, as well as those who experienced a job loss between June 2010 and
+December 2010 who were not eligible for the COBRA subsidy. (Details on the reasons for this
+sample and our approach to estimating the impacts of the ARRA COBRA subsidy are included
+in Chapter V).
+2.
+
+Collecting survey data
+
+Individuals identified as COBRA-eligible in the short screener survey were administered the
+full survey, which collected a wide range of information including demographic characteristics;
+employment and job search information; income, program participation, and financial wellbeing; and, most importantly, health insurance coverage, knowledge of COBRA and of the
+ARRA COBRA subsidy, health status of the individual and his or her family, and unmet health
+needs.
+In total, we sampled 28,513 UI claimants who filed a claim in 2010 across the nine states.
+Using telephone numbers and contact information reported in the UI claims data, sample
+members were contacted for interviews between March 2013 and February 2014. More than
+10,000 UI claimants (10,174) were screened as part of the survey—3,476 were COBRA eligible
+and completed the Stage 2 survey; 5,889 were ineligible to receive COBRA benefits and
+completed the survey screener; and 809 were ineligible to participate in the study because their
+UI claims were based on reduced work hours rather than job loss. Overall, we achieved a
+response rate of approximately 36 percent. Because survey respondents and nonrespondents
+differed in some ways, we used sample weights throughout our analysis to help reduce the
+potential bias due to nonresponse. For more information on the survey, see Appendix A.
+
+8
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+E. Organization of the report
+
+In the remainder of this report, we examine COBRA eligibility, awareness, and enrollment
+(Chapter II); subsidy eligibility, awareness, and use (Chapter III); and, the experiences of
+COBRA-eligible UI claimants (Chapter IV). In Chapter V, we provide estimates of the impacts
+of the subsidy on COBRA take-up and other outcomes. We provide our conclusions in
+Chapter VI.
+
+9
+
+This page has been left blank for double-sided copying.
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+II. UNDERSTANDING COBRA ELIGIBILITY, AWARENESS, AND ENROLLMENT
+
+COBRA gives workers and their families who lose health benefits the right to continue
+group health benefits for limited periods of time under certain circumstances, including a job
+loss. Despite the importance of COBRA as a potential source of health insurance, remarkably
+little is known about the number and characteristics of workers who might qualify for COBRA
+coverage or the personal and environmental factors that drive coverage. In this chapter, we
+document the rate of COBRA-eligibility among UI claimants, the reasons for ineligibility,
+awareness of the benefit, and the take-up rate. Given that the cost of COBRA coverage is likely
+to be a major factor in its take-up, we also describe the self-reported willingness of individuals to
+use COBRA coverage at different hypothetical subsidy levels.
+Key findings from this chapter
+•
+
+Thirty-nine percent of UI claimants in 2010 were eligible for COBRA, but the
+eligibility rate was lower for disadvantaged groups.
+
+•
+
+The majority of COBRA ineligibles lacked access to an employer-sponsored
+plan.
+
+•
+
+More than 80 percent of COBRA-eligible UI claimants were aware of the
+benefit, and the majority first learned of their eligibility through written
+notification from their employer.
+
+•
+
+Although most were aware of COBRA, few understood the implications of
+COBRA for their health care premiums, deductibles, and co-pays.
+
+•
+
+Among COBRA-eligible UI claimants, 34 percent opted for COBRA coverage.
+Take-up was significantly more common among workers with better financial
+circumstances.
+
+A. COBRA eligibility
+
+In our COBRA Subsidy Survey, we screened individuals for COBRA eligibility and
+classified workers who reported having employer-sponsored health insurance at the time of job
+loss as being COBRA eligible. 8 This definition may slightly overstate the true rate of eligibility
+due to a couple of factors. For instance, employers going out of business and ending their health
+plans are not required to offer COBRA insurance. Additionally, federal regulations do not
+require employers with fewer than 20 workers to offer COBRA. Officials in 40 states and the
+District of Columbia have introduced legislation to give such employees access to COBRA. 9 We
+8
+
+Although COBRA eligibility depends on a few more factors related to the employer and what the employer may
+have offered the worker, attempting to get such information from the workers as part of a short screening survey
+would have reduced the success of the screening process.
+
+9
+
+See http://kff.org/private-insurance/state-indicator/expanded-cobra-continuation-coverage-for-small-firmemployees/. The eligibility rules and coverage provisions under these state COBRA expansion or “mini-COBRA”
+laws may differ from those under federal law. For example, the maximum duration of continuation coverage
+available ranges from 3 to 36 months.
+
+11
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+do not expect the exclusions to be a factor in our definition of COBRA eligibility because all
+nine states included in this study have “mini-COBRA” laws that provide small business
+employees with access to continuation coverage.
+Using data from the screener survey, the following profile of COBRA eligibility among
+UI claimants in our study emerged:
+•
+
+About 39 percent of UI claimants in 2010 were eligible for COBRA (Figure II.1).
+Estimates of COBRA eligibility rates from this survey exceed estimates for the overall
+population of job losers. For example, one study that examined the 1996 Medical Expenditures
+Panel Survey found that 22 percent of involuntary job leavers were COBRA eligible (Kapur and
+Marquis 2003). This difference is expected because job losers eligible for UI benefits have
+stronger labor market attachment and, thus, are more likely to have access to employersponsored health insurance.
+
+•
+
+COBRA eligibility rates were similar across gender and race, but Hispanic workers
+were significantly less likely to be eligible for COBRA (Figure II.1). Thirty percent of
+Hispanic workers were eligible compared to 41 percent of non-Hispanic workers. Eligibility
+rates were very similar for white and black workers—about 40 percent.
+
+•
+
+Over most of the age distribution, COBRA eligibility increased with age (Figure II.1).
+Fewer than 30 percent of workers younger than 30 were eligible, compared to 46 percent of
+workers between ages 50 and 59. COBRA-eligibility rates declined for the oldest workers,
+perhaps because access to Medicare reduced their use of employer-sponsored insurance.
+
+•
+
+Claimants with higher earnings before their job loss were more likely to be COBRA
+eligible (Figure II.2). Only 12 percent of workers with earnings less than $10,000 were
+eligible for COBRA, compared to 65 percent of workers with earnings greater than $40,000.
+The earnings measure used here is UI base-period wages, which are used to determine the
+eligibility for UI benefits and the benefit level. Typically, base-period wages are defined as
+earnings in the first four of the last five completed quarters.
+
+•
+
+COBRA eligibility rates also varied significantly across industries (Table II.1). Sixty
+percent of workers who lost jobs in manufacturing were COBRA eligible, compared to less
+than 20 percent of workers in the accommodation and food industry. Because COBRA
+eligibility is based on an employer-provided benefit, it is not unexpected to find this
+variation. This is also consistent with evidence from the Current Population Survey that
+workers in manufacturing are more likely than other workers to have employer-sponsored
+insurance, in part because of higher rates of unionization.
+
+12
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure II.1. COBRA eligibility rate, by demographic characteristics
+
+Source: Mathematica COBRA Subsidy Survey and UI claims data.
+Note:
+The sample consisted of 9,365 people who lost their jobs in 2010 who completed the survey screener.
+
+Figure II.2. COBRA eligibility rate, by UI base-period wages
+
+Source: Mathematica COBRA Subsidy Survey and UI claims data.
+Note:
+The sample consisted of 9,365 people who lost their jobs in 2010 who completed the survey screener.
+
+13
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table II.1. COBRA eligibility rate, by industry
+Industry at job loss
+
+COBRA eligibility rate
+
+Average of all industries
+
+𝟑𝟑𝟑𝟑. 𝟕𝟕
+59.6
+
+Manufacturing
+
+42.2
+
+Education
+
+39.3
+
+Health care
+
+39.0
+
+Construction
+
+36.5
+
+Public administration
+
+28.6
+
+Retail
+
+26.8
+
+Administrative support
+
+23.0
+
+Agriculture
+Accommodation and food
+
+17.8
+
+Source: COBRA survey and UI claims data.
+Note:
+The sample consisted of 9,365 people who lost their jobs in 2010 who completed the survey screener.
+
+B. Reasons for COBRA ineligibility
+
+Having access to employer-sponsored insurance at the time of job loss requires three
+conditions: (1) the employer has to offer health insurance, (2) the worker needs to be eligible for
+the insurance, and (3) the worker has to accept the offer of insurance. If any of these conditions
+is not met, a worker is not eligible for COBRA at job loss. The survey screener provided some
+insight into reasons why job losers were not eligible for COBRA:
+•
+
+The majority of COBRA ineligibles lacked access to an employer plan (Figure II.3).
+Fifty-four percent of those ineligible for COBRA reported that their employer did not offer
+health insurance. Another 14 percent were not eligible to enroll in the health plan offered at
+their job—perhaps because they were not full-time or they had recently joined the employer.
+About 22 percent of ineligibles had access to an employer plan, but chose not to enroll in the
+plan. Eleven percent could not provide sufficient information to determine their reason for
+ineligibility.
+
+•
+
+Lack of access to an employer plan was more common among workers with low
+earnings (Figure II.4). Among COBRA ineligibles with base-period wages less than
+$10,000, 61 percent worked for an employer that did not offer health insurance and
+13 percent were not eligible for their employer plan. Only 13 percent of the lowest-earning
+COBRA ineligibles reported that they were eligible for health insurance but chose not to use
+the benefit. In contrast, 35 percent of the highest-earning COBRA ineligibles had access to
+employer-sponsored insurance but did not take up the insurance.
+
+14
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure II.3. Reasons for COBRA ineligibility
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample consisted of 5,889 people without employer-sponsored health insurance who lost their jobs in
+2010.
+
+Figure II.4. Reasons for COBRA ineligibility, by UI base-period wages
+Base-period wages less than $10,000
+
+Base-period wages greater than $40,000
+
+Don't
+know,
+13.2%
+Not
+enrolled,
+12.8%
+Not
+eligible,
+13.2%
+
+Don't
+know,
+9.5%
+No
+No
+employer
+plan,
+60.8%
+
+employer
+
+Not
+enrolled,
+34.5%
+
+plan,
+42.7%
+
+Not
+eligible,
+13.3%
+
+Source: Mathematica COBRA Subsidy Survey and UI claims data.
+Note:
+The sample consisted of individuals without employer-sponsored health insurance who lost their jobs in
+2010—1,473 had base-period wages less than $10,000 and 699 had base-period wages greater than
+$40,000.
+
+15
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+C. COBRA awareness and understanding
+
+Before job losers can decide to take COBRA coverage, they need to be aware of the benefit.
+To make a well-informed decision, they would also need to understand how COBRA would
+affect their monthly premiums, deductibles, and co-pays. Employers are required to notify
+workers in writing about their eligibility for COBRA (see Appendix B for DOL’s Model General
+Notice of COBRA Continuation Coverage Rights).
+The survey allowed us to assess whether workers were aware of COBRA and understood the
+benefit:
+•
+
+More than 80 percent of COBRA-eligible UI claimants in the study were aware of the
+benefit (Table II.2). Among these claimants, women were more likely than men to report
+awareness of COBRA.
+
+•
+
+Disadvantaged workers were the least aware of COBRA (Table II.2). For example,
+74 percent of black workers and 67 percent of Hispanic workers were aware of COBRA,
+compared to 90 percent of white workers. Awareness of COBRA was also lower among
+workers with lower levels of education, among the youngest workers, and among workers
+with lower hourly wages. 10 Only 63 percent of workers earning less than $10 per hour were
+aware of COBRA, compared to 93 percent of workers earning $25 per hour or more.
+
+•
+
+Among workers aware of COBRA, 59 percent recalled first learning of their COBRA
+eligibility through written notification from their employer (Table II.3). Employers also
+provided information on COBRA through other channels. For example, slightly less than
+15 percent of workers reported that they first learned of their COBRA eligibility from a
+verbal notification from their employer and 10 percent reported learning about this benefit at
+an on-site job meeting. Other sources of information included written notification from the
+insurer, from colleagues and associates, or from a union.
+
+•
+
+Although most eligible workers were aware of COBRA, few understood the
+implications of COBRA for their health care premiums, deductibles, and co-pays
+(Figure II.5). Approximately a third of workers with awareness of COBRA understood how
+it would affect the pricing of their health insurance and health care. With COBRA, workers
+are responsible for up to 102 percent of the full premium. For most workers, this is a
+significant increase in the premium because their employer is no longer subsidizing the
+coverage. Yet, almost a quarter of workers in the survey believed that premiums would stay
+the same or decrease with COBRA. Workers were also confused about COBRA’s potential
+impact on health care pricing. With COBRA, workers still have the same plan and do not
+see any change in their deductible or co-pays. Yet, more than half of surveyed workers
+thought these would change.
+
+10
+
+For COBRA-eligible workers, we calculated hourly wages for the pre-UI job using the survey data.
+
+16
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table II.2. Awareness of COBRA, by worker characteristics
+Percentage aware of COBRA
+𝟖𝟖𝟖𝟖. 𝟑𝟑
+
+Total
+Demographic characteristics
+Sex
+Women
+Men
+Age at job separation
+Younger than 30 years old
+30–39 years old
+40–49 years old
+50–59 years old
+60 years or older
+Race
+Black
+Hispanic
+White
+Other
+Education
+Less than high school
+High school diploma
+Some college
+College graduate
+Self-reported health status
+Excellent
+Very good
+Good
+Fair
+Poor
+Presence of health condition
+Chronic condition
+No chronic condition
+Pre-UI employment
+
+89.4
+78.7
+73.5
+84.5
+85.8
+85.6
+89.2
+74.0
+66.5
+89.7
+80.0
+53.1
+78.5
+88.3
+94.8
+83.5
+88.3
+82.5
+78.3
+71.5
+78.6
+84.4
+
+Hourly wage
+Less than $10
+$10–$15
+$15–$20
+$20–$25
+$25 or more
+Job tenure
+Less than 5 years
+6 to 10 years
+11 or more years
+Union membership
+Unionized
+Not unionized
+Employer size
+Less than 20 employees
+20 or more employees
+Pre-UI industry
+Accommodation and food
+Construction
+Education
+Health care
+
+63.1
+78.3
+85.5
+87.9
+92.6
+82.7
+82.9
+85.4
+79.9
+84.3
+77.7
+84.4
+74.1
+75.5
+92.7
+85.0
+
+17
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table II.2 (continued)
+Percentage aware of COBRA
+85.3
+82.3
+80.5
+85.9
+
+Manufacturing
+Public administration
+Retail
+Other
+Financial status
+Total household income
+Less than $36,000
+$36,000–$48,000
+$48,000–$60,000
+$60,000–$84,000
+$84,000 or more
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample consisted of 3,476 COBRA-eligible workers.
+
+73.3
+86.1
+87.3
+92.3
+96.4
+
+Table II.3. First source of COBRA notification
+First source of notification
+
+Percentage
+58.8
+14.3
+10.2
+3.4
+2.7
+1.7
+1.5
+1.2
+6.1
+
+Written notification from employer
+Verbal notification from employer
+On-site job meeting
+Written notification from insurer
+Already knowledgeable
+Multiple forms of notification
+Colleagues or associates
+Notified by union
+Other source or don’t know
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample consisted of 2,464 COBRA-eligible workers with awareness of COBRA and self-reported
+eligibility. The survey asked, “Did you first learn that you were eligible to continue participating in your
+health plan through written notification from your employer, verbal notification from your employer, in a
+meeting at your job site, or in some other way?”
+
+18
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure II.5. Understanding of COBRA
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+Sample consisted of 2,906 COBRA-eligible workers with awareness of COBRA.
+
+•
+
+Understanding of COBRA was lower among disadvantaged groups. Although the
+overall rate of understanding about COBRA was low, understanding was lower for
+disadvantaged groups including black and Hispanic workers, workers with less education,
+and workers with low hourly wages (not shown).
+
+D. COBRA take-up
+
+The decision to select COBRA coverage may be influenced by a number of factors,
+including the price of COBRA, awareness and understanding of the benefit, demand for health
+insurance, the availability and quality of alternative insurance options, expectations about the
+timing of reemployment, and financial resources (See Figure II.6). Some of these factors are
+likely to increase the COBRA take-up rate. For example, demand for COBRA should be
+relatively higher for individuals and households with pre-existing health conditions, particularly
+in 2010 before the PPACA was implemented. Workers who are satisfied with their health
+insurance or who are generally more risk adverse should also be more likely to continue
+coverage. Those with greater financial resources face fewer barriers to selecting COBRA. Other
+factors, such as the price of coverage and the availability of other coverage options, are likely
+negatively associated with COBRA take-up. An individual’s decision about COBRA coverage
+may also be influenced by expectations about the timing of reemployment, but the relationship
+between expectations and the COBRA decision is not clear. For example, an individual who
+expects to return to work quickly may think that COBRA coverage is unnecessary because the
+gap in health insurance coverage would be short. An individual who anticipates a long period of
+unemployment may be more concerned about financial resources and also less willing to pay for
+COBRA coverage.
+
+19
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure II.6. Factors that influence the COBRA take-up decision
+
+Estimates of COBRA take-up rates vary widely. A long-running survey of employers
+published in Spencer’s Benefits Reports found the rate of take-up to vary from 29 percent in
+1989 to 10 percent in 2008, with the rate ranging from 18 to 21 percent in about half of those
+years (as reported in Bovbjerg et al. 2010). Low take-up rates by COBRA-eligible workers might
+be explained by a number of factors, including less-costly alternative coverage options, the lack
+of continued coverage by the employer, or an inability to afford coverage without an employer
+contribution to the premium.
+In this section, we examine the COBRA take-up rate for a distinct population of workers—
+UI claimants who lost their jobs in 2010. Because these workers all received UI benefits, we
+know they experienced an involuntary job loss and did not immediately move to a different job.
+Additionally, some of the workers who lost their jobs between January 2010 and May 2010 were
+eligible for the ARRA COBRA subsidy. For both of these reasons, we might expect our
+observed take-up rate to exceed previously published estimates:
+•
+
+Among COBRA-eligible UI claimants, 34 percent opted for COBRA coverage
+(Table II.4). As expected, the take-up rate for our study sample was significantly higher
+than the estimates from Spencer’s Benefits Reports (as reported in Bovbjerg et al. 2010) for
+a broader population of COBRA-eligible individuals, which included voluntary and
+involuntary job leavers as well as spouses and dependents who were eligible due to a change
+in family status. But our rate is similar to other estimates based on surveys of smaller
+populations of workers laid off in the last recession. A survey of COBRA-eligible, Kaiser
+Permanente–Northern California clients who experienced involuntary job separations in
+2009 found a COBRA take-up rate of 38 percent (Graetz et al. 2012). A survey of people in
+New Jersey who were receiving UI in 2009 found that approximately 15 percent of UI
+
+20
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+beneficiaries were receiving health insurance coverage via COBRA (U.S. Treasury 2010b).
+In our survey, 13 percent of UI beneficiaries received health insurance via COBRA (39
+percent COBRA eligible * 34 percent COBRA take-up rate).
+•
+
+The take-up rate varied considerably across demographic groups—including by race
+and ethnicity, education level, age, and marital status (Table II.4). Forty-one percent of
+eligible white workers used COBRA compared to 17 percent of black eligibles and
+22 percent of Hispanic eligibles. Use of COBRA was also more common among more
+highly educated workers, older workers, and married or previously married workers. The
+associations between demographic characteristics and COBRA take-up are robust to
+regression adjustment.
+
+•
+
+Although the take-up was not higher for workers with chronic health conditions, there
+was a positive association after regression adjustment (Table II.4). One would expect
+that individuals with chronic conditions would have a greater demand for continued group
+health insurance coverage and be more likely to use COBRA, but there are other important
+differences between those with and without chronic conditions (such as income). After
+controlling for demographic characteristics and financial circumstances, we found the
+expected positive relationship between chronic conditions and COBRA take-up.
+
+•
+
+COBRA take-up was significantly more common among workers with better financial
+circumstances (Table II.4). Among workers who earned less than $10 per hour before their
+job loss, only 13 percent used COBRA. In contrast, 55 percent of workers with hourly
+wages above $25 elected to continue coverage through COBRA. Similar patterns were
+evident in the COBRA take-up rates across other measures of financial well-being, including
+household income and financial savings. Unionized workers and workers with longer job
+tenures were also more likely to use COBRA. The associations between financial
+circumstances and COBRA take-up are robust to regression adjustment.
+
+•
+
+Among COBRA users, one-third reported that without access to COBRA coverage
+they would have gone without insurance (Figure II.7). For these workers, COBRA
+coverage was a critical source of health insurance coverage. The other two-thirds of workers
+who had taken up COBRA coverage reported that they would have looked for other health
+insurance options if COBRA had not been available.
+
+•
+
+Eighty percent of workers who did not select COBRA coverage reported that cost was
+the most important factor in their decision (Table II.5). Other reasons included having
+other coverage, expecting to find a new job soon, and confusion about how to enroll.
+
+21
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table II.4. COBRA take-up, by worker characteristics
+COBRA take-up rate (percentage)
+𝟑𝟑𝟑𝟑. 𝟕𝟕
+
+Total
+Demographic characteristics
+Sex
+Women
+Men
+Age at job separation
+Younger than 30 years old
+30–39 years old
+40–49 years old
+50–59 years old
+60 years or older
+Race
+Black
+Hispanic
+White
+Other
+Education
+Less than high school
+High school diploma
+Some college
+College graduate
+Self-reported health status
+Excellent
+Very good
+Good
+Fair
+Poor
+Presence of health condition
+Chronic condition
+No chronic condition
+Pre-UI employment
+Hourly wage
+Less than $10
+$10–$15
+$15–$20
+$20–$25
+$25 or more
+Job tenure
+Less than 5 years
+6 to 10 years
+11 or more years
+Union membership
+Unionized
+Not unionized
+Employer size
+Less than 20 employees
+20 or more employees
+Financial status
+Total household income
+Less than $36,000
+$36,000–$48,000
+$48,000–$60,000
+$60,000–$84,000
+$84,000 or more
+
+32.2
+34.7
+20.1
+27.6
+36.0
+44.0
+46.9
+17.0
+22.2
+40.5
+31.2
+18.9
+29.7
+33.5
+42.3
+33.4
+37.3
+34.2
+26.0
+24.5
+34.4
+33.1
+12.8
+20.2
+26.2
+44.0
+54.6
+27.0
+35.0
+50.2
+50.1
+30.1
+36.9
+33.2
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample consisted of 3,476 COBRA-eligible workers.
+
+22
+
+20.5
+30.6
+41.5
+46.1
+48.8
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure II.7. Likely insurance decision without COBRA access
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample consisted of 993 COBRA-eligible workers who used COBRA. The survey asked, “If COBRA
+had not been available to you (and your family) at the time your job ended, would you have looked for some
+other health insurance option or would you have gone without insurance?”
+
+Table II.5. Reasons for not using COBRA
+Reason for not enrolling in COBRA
+
+Percentage
+79.9
+7.4
+5.3
+1.4
+0.8
+5.3
+
+Too expensive
+Had coverage from a spouse, partner, or parent’s plan
+Had other coverage
+Expected to find a new job soon
+Didn’t understand how to enroll
+Other
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample consisted of 1,461 COBRA-eligible workers who were aware of COBRA but did not use it. The
+survey asked, “At the time your coverage with [EMPLOYER NAME] ended, what was the main reason you
+did not enroll in COBRA?”
+
+E. Willingness to pay for COBRA coverage
+
+Because the high cost of COBRA coverage was the most important reason why workers did
+not select COBRA, we would expect take-up to increase if the price of COBRA coverage was
+reduced. The survey included a series of hypothetical questions for both COBRA users and
+nonusers that asked how decisions about health insurance continuation coverage would have
+changed if COBRA had been subsidized at different levels. To provide an anchor price for these
+hypothetical questions, respondents were told that without a subsidy the average family plan (for
+those with a spouse or dependent children) would cost $1,000 per month and the individual plan
+would cost $400 per month. This analysis of willingness to pay is limited to workers with a job
+loss between June 2010 and December 2010 because the COBRA take-up decision for these
+workers was not affected by awareness of or access to the ARRA subsidy.
+
+23
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Thirty-four percent of workers demonstrated a willingness to continue coverage without
+receiving a subsidy (Figure II.8). By selecting COBRA coverage without a subsidy offer, these
+workers revealed a willingness to pay full price for COBRA coverage; we can assume that they
+would have made the same decision if a subsidy had been available. For workers who did not use
+COBRA, below we report results from a series of hypothetical questions that asked workers if
+they would have taken up COBRA if a subsidy had been available:
+•
+
+Workers’ willingness to continue coverage significantly increased as the hypothetical
+subsidy increased (Figure II.8). With a subsidy of 35 percent, 43 percent of workers
+reported that they would have used COBRA. When offered a 65 percent subsidy (the level
+of subsidy available during the ARRA period), 69 percent of workers reported that they
+would have been willing to continue coverage. Not surprisingly, if COBRA was subsidized
+by 90 percent, 91 percent of workers were willing to take up the coverage.
+
+•
+
+Workers’ willingness to continue coverage at different subsidy levels was unrelated to
+the type of coverage they had at the time of job loss (Figure II.8). In the survey, the
+hypothetical questions about willingness to pay were different based on whether the worker
+had individual or family coverage at the time of job loss. Although the actual take-up rates
+of COBRA were higher for those with family coverage, the willingness to continue coverage
+at different subsidy levels was very similar for the two groups.
+
+•
+
+Willingness to pay varied substantially by total household income (Figure II.9). Among
+workers with an annual household income of less than $36,000, 31 percent reported that
+they would have continued COBRA with a 35 percent subsidy, compared to 57 percent of
+workers with household incomes of $60,000 or more. Willingness to pay for COBRA was
+significantly greater with a 65 percent subsidy, ranging from 60 percent for the lowestincome households to 80 percent in the highest-income households.
+
+•
+
+Willingness to pay was similar for workers who reported chronic conditions and those
+who did not (Figure II.10). Although workers with a chronic condition may have more
+reasons to value health insurance, worker’s self-reported willingness to use COBRA at
+different subsidy levels was unrelated to the presence of a chronic health condition.
+
+24
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure II.8. Willingness to pay for COBRA, by family coverage status
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample consisted of 1,626 COBRA-eligible workers who experienced a job loss in the post-ARRA
+period.
+
+Figure II.9. Willingness to pay for COBRA, by household income
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample consisted of 1,626 COBRA-eligible workers who experienced a job loss in the post-ARRA
+period.
+
+25
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure II.10. Willingness to pay for COBRA, by chronic condition
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample consisted of 1,626 COBRA-eligible workers who experienced a job loss in the post-ARRA
+period.
+
+26
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+III. UNDERSTANDING SUBSIDY ELIGIBILITY, AWARENESS, AND USE
+
+To take advantage of the COBRA subsidy, workers needed to be both eligible for the
+subsidy and aware of their eligibility. A worker who did not understand the subsidy notification
+may not have considered COBRA as a possible health insurance option. Although employers
+were required to inform eligible workers about the subsidy and offer it to them, employers did
+not have an incentive to take additional efforts to promote use of the subsidy and encourage
+enrollment. Enrolling in the subsidy required individuals to contact their former employers and
+to complete some amount of paperwork. This process was likely to be substantially more
+difficult than enrolling in an employer-sponsored health plan as a current employee or continuing
+COBRA without the subsidy. Thus, we would expect that some of the individuals who were
+eligible for the subsidy did not complete the steps necessary to receive it.
+Key findings from this chapter
+•
+
+Seventy-one percent of COBRA-eligible UI claimants did not have access to
+other group insurance and were likely eligible for the subsidy.
+
+•
+
+Subsidy eligibility was appropriately targeted—that is, the most advantaged
+groups were least likely to be eligible.
+
+•
+
+Only 31 percent of subsidy-eligible individuals reported awareness of the
+subsidy.
+
+A. COBRA subsidy eligibility
+
+Workers who experienced an involuntary job loss between September 1, 2008 and May 31,
+2010 were eligible to receive ARRA subsidies for COBRA if they were not eligible for other
+group health coverage and had adjusted gross incomes (AGI) below a relatively high cutoff.
+Since all workers in our sample received at least one UI benefit payment, it is reasonable to
+assume these workers suffered an involuntary job loss. The survey asked about other sources of
+group health insurance coverage that were available to them at the time of job loss including a
+spouse’s employer plan, a union plan, Medicare (for workers 65 and older), and a parent’s plan
+(for workers younger than 30). For our study, workers without an alternative source of group
+health insurance were classified as subsidy eligible—regardless of household income. Although
+this may have potentially overstated subsidy eligibility, the income limit for a full subsidy was
+high (AGI under $125,000 for those filing singly or under $250,000 for those filing jointly) and
+very few workers in our sample had such high income levels. 11
+Our study found the following regarding subsidy eligibility:
+
+11
+
+The AGI income limit pertained to the tax year the worker would have been COBRA eligible. Although we do not
+measure 2010 AGI in the survey, fewer than 5 percent of COBRA-eligible workers had household incomes above
+the threshold in the year prior to job loss. We would expect the share affected by the income threshold to be
+significantly lower than 5 percent because AGI accounts for deductions. Income in the calendar year of the job loss
+also was likely lower than income in the 12 months prior to the job loss.
+
+27
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+•
+
+Seventy-one percent of COBRA-eligible UI claimants did not have access to other
+group insurance and were likely eligible for the subsidy (Table III.1). Among the
+29 percent who had access to other group insurance (Figure III.1), a spouse’s plan was the
+most common reason for subsidy ineligibility. Forty-three percent of subsidy ineligibles
+reported that they had access to a spouse’s plan. Other common reasons included access to
+union plans (21 percent) and to Medicare (15 percent).
+
+•
+
+The variation in subsidy eligibility was consistent with potential alternative sources for
+group coverage (Table III.1). Subsidy eligibility was lower for married workers—who
+were more likely to have access to a spouse’s health plan—compared to other workers
+(about 55 percent of married workers versus 83 percent of divorced, separated, and widowed
+workers and 85 percent of never married workers). Similarly, the oldest workers in our
+sample (those 60 years or older, who were more likely to be Medicare eligible) had
+considerably lower eligibility rates (around 56 percent) compared to younger workers
+(between 70 percent and 77 percent).
+
+•
+
+Subsidy eligibility was appropriately targeted—that is, the most advantaged groups
+were least likely to be eligible (Table III.1). Subsidy eligibility was lower for workers with
+higher hourly wages, higher household incomes, and longer job tenures. Eligibility was also
+significantly lower for unionized workers, many of whom had access to group health
+insurance through their union.
+
+B. COBRA subsidy awareness and understanding
+
+Before workers could take advantage of the COBRA subsidy, they needed to be aware of the
+benefit. To make a well-informed decision, workers would also need to understand how the
+subsidy would affect their monthly premiums, deductibles, and co-pays.
+•
+
+Only 31 percent of subsidy-eligible individuals reported awareness of the subsidy
+(Table III.2). This is a surprising finding. Past studies of the COBRA subsidy have assumed
+that all eligible workers were aware of the subsidy offer (Moriya and Simon 2014), partially
+based on qualitative work reported in Bovbjerg et al. (2010) that stakeholders, including
+employers and union members, believed that the information on the ARRA subsidy was
+communicated successfully. Although our survey may have understated awareness because
+workers were asked to recall a subsidy offer from three years ago, the questionnaire was
+designed to facilitate recall by asking workers about the subsidy twice. 12 Even if this study
+understated the extent of subsidy awareness at the time of job loss, it seems reasonable to
+conclude that awareness of the subsidy was far from universal.
+
+12
+
+The initial survey question was as follows: “The Stimulus Bill or the Recovery Act helped some groups of
+unemployed workers pay part of COBRA health insurance costs. This is sometimes called the COBRA subsidy.
+Does this sound familiar?” If workers did not recall the COBRA subsidy, they were prompted with additional
+information: “This program was intended to help people who were laid off as a result of the recession with some
+support in continuing health insurance coverage through COBRA. Are you aware of anything like this?”
+
+28
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table III.1. Subsidy eligibility, by individual characteristics
+Subsidy eligibility
+𝟕𝟕𝟕𝟕. 𝟕𝟕
+
+Total
+Demographic characteristics
+Sex
+Women
+Men
+Age at job separation
+Younger than 30 years old
+30–39 years old
+40–49 years old
+50–59 years old
+60 years or older
+Race
+Black
+Hispanic
+White
+Other
+Education
+Less than high school
+High school diploma
+Some college
+College graduate
+Marital Status
+Married
+Divorced, separated, widowed
+Never married
+Pre-UI employment
+
+76.0
+67.1
+70.1
+76.7
+70.8
+71.1
+56.4
+69.8
+70.9
+71.2
+67.1
+62.8
+68.8
+70.6
+75.9
+55.7
+83.1
+84.6
+
+Hourly wage
+Less than $10
+$10–$15
+$15–$20
+$20–$25
+$25 or more
+Job tenure
+Up to 5 years
+6 to 10 years
+11 or more years
+Union membership
+Unionized
+Not unionized
+Financial status
+
+72.0
+74.1
+75.1
+75.1
+60.5
+73.3
+70.1
+65.4
+38.1
+78.3
+
+Total household income
+Less than $36,000
+$36,000–$48,000
+$48,000–$60,000
+$60,000–$84,000
+$84,000 or more
+
+78.0
+74.8
+71.8
+65.6
+56.0
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample was limited to 1,834 COBRA-eligible workers with a job loss in the ARRA period.
+
+29
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure III.1. Reason for subsidy ineligibility
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample consisted of 533 COBRA-eligible workers with a job loss during the ARRA subsidy period who
+were not eligible for the subsidy.
+
+30
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table III.2. Subsidy awareness, by individual characteristics
+Subsidy awareness
+(percentage of individuals)
+𝟑𝟑𝟑𝟑. 𝟕𝟕
+
+Total
+Demographic characteristics
+Sex
+Women
+Men
+Age at job separation
+Younger than 30 years old
+30–39 years old
+40–49 years old
+50–59 years old
+60 years or older
+Race
+Black
+Hispanic
+White
+Other
+Education
+Less than high school
+High school diploma
+Some college
+College graduate
+Marital status
+Married
+Divorced, separated, widowed
+Never married
+Pre-UI employment
+
+34.3
+27.6
+17.5
+28.6
+34.5
+36.4
+41.2
+30.3
+21.1
+34.2
+19.4
+19.0
+23.0
+29.6
+41.2
+33.1
+30.4
+30.6
+
+Hourly wage
+Less than $10
+$10–$15
+$15–$20
+$20–$25
+$25 or more
+Job tenure
+Up to 5 years
+6 to 10 years
+11 or more years
+Union membership
+Unionized
+Not unionized
+Financial status
+
+24.7
+22.4
+25.7
+32.2
+48.9
+26.7
+35.7
+39.3
+21.4
+31.7
+
+Total household income
+Less than $36,000
+$36,000–$48,000
+$48,000–$60,000
+$60,000–$84,000
+$84,000 or more
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample was limited to 1,276 subsidy-eligible workers.
+
+31
+
+23.3
+26.2
+29.1
+39.4
+48.0
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+•
+
+Workers aware of the subsidy learned about it through their employer or through the
+media (Table III.3). Forty-six percent of those who were aware of the subsidy reported that
+their former employer was the source of the subsidy information. The other common source
+was the media, including television and newspaper reports.
+
+•
+
+Awareness was higher among more advantaged groups; however, even in the highestearning households, fewer than half of the individuals recalled the COBRA subsidy
+(Table III.2). Approximately 25 percent of workers earning less than $20 per hour were
+aware of the subsidy, compared to 49 percent of workers earning $25 or more per hour.
+
+•
+
+Knowledge of how the subsidy worked was also low (Figure III.2). Among workers
+aware of the subsidy, 36 percent of those surveyed understood how the subsidy would affect
+the pricing of their health insurance and health care. The subsidy was intended to reduce the
+premium but the deductible and co-pays remained at the same level as what the employee
+had at the time of the job loss. However, nearly 50 percent of workers who were aware of
+the subsidy thought their premium would remain constant or increase. Understanding of the
+impact of the subsidy on health care costs was lower for disadvantaged groups. This was
+similar to patterns observed for the understanding of COBRA generally.
+
+Table III.3. Source of knowledge about COBRA subsidy
+Source of subsidy information
+
+Percentage
+46.3
+
+Former employer
+
+25.6
+9.1
+
+Media
+Friends
+
+7.4
+
+Mail (source unspecified)
+
+5.5
+
+Written COBRA notice
+
+4.3
+
+Unemployment agency
+
+4.1
+
+Other government agency
+Colleagues
+
+4.1
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample was limited to 382 subsidy-eligible workers who reported awareness of the subsidy.
+The survey asked, “How did you hear about the COBRA subsidy? Mark all that apply.”
+
+32
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure III.2. Understanding of the COBRA subsidy
+
+Source: Mathematica COBRA Subsidy Survey.
+Notes: The sample consisted of 398 subsidy-eligible workers who were aware of the subsidy.
+
+C. COBRA subsidy use
+
+Workers interested in using the COBRA subsidy needed to coordinate with their former
+employer to take advantage of the benefit. Employers were required to front 65 percent of the
+COBRA premium for subsidy-eligible workers. In return, employers would receive a credit on
+their federal payroll taxes. Employers were required to update COBRA forms and other plan
+materials to notify workers about the subsidy, but employers did not necessarily have an
+incentive to promote subsidy use because they were responsible for the costs of administering the
+subsidy.
+Because the COBRA subsidy was administered through employers, there were no
+systematically tracked administrative data on (1) the number of workers who used the subsidy,
+(2) the share of eligible workers who claimed the subsidy, or (3) the characteristics of subsidy
+users. Using Internal Revenue Service (IRS) reporting data, researchers have tried to estimate the
+number of households using the subsidy (U.S. Treasury 2010a). But this calculation relies on
+assumptions about the duration of subsidy use because the IRS only received counts of the
+number of households being claimed by employers each quarter. From the IRS data, it is not
+possible to determine if the same household is included in multiple quarterly filings.
+The survey conducted as part of this study provided a unique opportunity to examine the
+characteristics of workers using the subsidy. However, it should be noted that the survey
+captured self-reported subsidy use and, thus, relied on respondents’ understanding of COBRA.
+Because the employer was responsible for processing the subsidy, workers may not have realized
+that the COBRA premium they were paying was the subsidized premium level amount.
+
+33
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Therefore, subsidy use may have been underreported. Even with the 65 percent ARRA subsidy,
+the worker’s COBRA premium was likely higher than the portion of the premium the worker had
+paid while employed—potentially contributing to any confusion about subsidy use.
+Our study found the following with regard to subsidy use:
+•
+
+Eleven percent of subsidy-eligible workers reported using the subsidy (Table III.4).
+Workers were asked about subsidy use if they self-reported awareness and eligibility for the
+subsidy. Only 32 percent of those workers who reported that they opted for COBRA
+coverage and were eligible for the subsidy actually received it. The overwhelming majority
+of these subsidy users (88 percent) reported that the subsidy was very important in their
+decision to use COBRA coverage.
+
+•
+
+Subsidy use was higher among more advantaged demographic groups (Table III.4).
+Eligible white workers were twice as likely to have reported using the subsidy as eligible
+black and Hispanic workers (14 percent versus 7 percent and 6 percent, respectively).
+Subsidy use also varied significantly by education level. College graduates were four times
+as likely to report receiving the subsidy as those with a high school diploma—21 percent
+versus 5 percent, respectively.
+
+•
+
+Subsidy use was lower for at-risk groups (Table III.4). Subsidy-eligible workers with fair
+or poor health and those with dependent children were less likely to take advantage of the
+subsidy. Usage was also lower for workers with low hourly wages and lower household
+incomes. Only 4 percent of workers with household incomes below $36,000 used the
+subsidy compared to 18 percent of workers with household incomes of $36,000 or more.
+
+34
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table III.4. Self-reported subsidy use, by individual characteristics
+Self-reported subsidy use
+𝟏𝟏𝟏𝟏. 𝟒𝟒
+
+Total
+Sex
+Women
+
+15.0
+8.4
+
+Men
+Age at job separation
+Younger than 30 years old
+
+2.7
+9.4
+
+30–39 years old
+
+13.6
+
+40–49 years old
+
+15.5
+
+50–59 years old
+
+20.3
+
+60 years or older
+Race
+Black
+
+7.2
+6.4
+
+Hispanic
+
+14.3
+
+White
+
+4.8
+
+Other
+Education
+Less than high school
+
+3.6
+5.0
+
+High school diploma
+
+10.0
+21.1
+
+Some college
+College graduate
+Hourly wage at pre-UI employment
+Less than $15
+
+3.5
+
+16.6
+
+$15 or more
+Total Household Income
+Less than $36,000
+
+4.3
+
+17.5
+
+$36,000 or more
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample was limited to 1,287 subsidy-eligible workers with a job loss in the ARRA period.
+
+35
+
+This page has been left blank for double-sided copying.
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+IV. EXPERIENCES OF COBRA-ELIGIBLE UI CLAIMANTS
+
+Workers who lost their jobs in 2010 faced many challenges. The national unemployment
+rate exceeded 9 percent in every month, while the annual unemployment rate in some counties
+included in the COBRA study sample exceeded 13 percent (Figure IV.1). As context for the
+impact results, in this chapter we describe the labor market and health insurance experiences of
+COBRA-eligible UI claimants in the years following their job loss in 2010. We also describe the
+financial situations of these claimants, including their reported financial hardships.
+Figure IV.1. Unemployment rates in sample counties in 2010
+
+Source: Mathematica tabulation of Bureau of Labor Statistics data.
+
+Key findings from this chapter
+•
+
+Individuals expected to return to work quickly, but the return to employment
+was more gradual than individuals had anticipated.
+
+•
+
+Most workers experienced gaps in health insurance coverage, and nearly 25
+percent were without health insurance for 24 months or more.
+
+•
+
+The majority of COBRA-eligible UI claimants reported financial trouble in the
+year following job loss.
+
+A. Labor market experiences
+
+Workers who experienced a job loss in 2010 faced significant challenges in becoming
+reemployed. In the COBRA Subsidy Survey, we gathered information on expectations about
+reemployment as well as actual labor market experiences in the three years following the job
+loss. A summary of the findings follows:
+
+37
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+•
+
+Individuals expected to return to work quickly (Figure IV.2). Despite the weak labor
+market at that time, 40 percent of the individuals surveyed reported that they expected to be
+reemployed within three months of job loss. More than 85 percent expected to be
+reemployed within a year of the job loss.
+
+•
+
+The return to employment was more gradual than individuals had expected
+(Figure IV.3). Four quarters after job loss, slightly more than half of those surveyed
+(53 percent) were employed—a significantly lower share than the more than 85 percent who
+expected to be reemployed by that time. The percentage of these individuals who were
+employed increased over the next year to 65 percent and remained fairly steady after that—
+peaking at 67 percent in the 12th quarter after job loss.
+
+•
+
+In the first year following job loss, workers reported an average of 19 weeks of
+employment (Table IV.1). Weeks of employment increased in subsequent years, with an
+average of 29 weeks worked in the second year and 32 weeks worked in the third year.
+
+•
+
+By the end of 12 quarters following job loss, 79 percent of workers had at least one job
+(Table IV.1). For those who became reemployed, the average time between job loss and
+first reemployment was 39 weeks.
+
+•
+
+In their initial post-UI jobs, workers earned an average of $20.27, only slightly lower
+than the pre-UI average wage of $20.80 (Figure IV.4). The average hourly wage was
+affected by workers who reported very high wages. 13 The median wage at first
+reemployment was $15.16 compared to $17.29 in the pre-UI job.
+
+13
+
+We examined hourly wages for the 3.7 percent of cases with hourly wages greater than $50. In the majority of
+cases, the high hourly wage was consistent with the reported occupation—chief executive, pharmacist, vice
+president of marketing, and so on—or was a consulting rate with relatively few hours of work. For a limited number
+of cases that were clear outliers, we imputed the hourly wage using the average wage for the worker’s gender and
+education.
+
+38
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure IV.2. Reemployment expectations
+
+Source: Mathematica COBRA Subsidy Survey.
+Notes: The sample included 3,476 COBRA-eligible workers who were asked: “Think back to when your job at
+[EMPLOYER NAME] ended in [JOB SEPARATION DATE]. At that time, how long did you think it would
+take to find another job?”
+
+Figure IV.3. Employment rates by quarter after job loss
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 3,476 COBRA-eligible workers.
+
+39
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table IV.1. Labor market outcomes following job loss
+Labor market outcomes
+Weeks of employment
+19.1
+
+Quarters 1–4
+Quarters 5–8
+Quarters 9–12
+
+29.2
+32.9
+78.9
+
+Ever employed quarters 1–12 (percentage)
+Annual earnings
+
+$17,672
+
+Quarters 1–4
+Quarters 5–8
+Quarters 9–12
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 3,476 COBRA-eligible workers.
+
+$27,456
+$30,219
+
+Figure IV.4. Mean and median hourly wage in pre-UI and post-UI employment
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample consisted of COBRA-eligible workers with a valid wage report: 3,357 for the pre-UI job and
+2,613 for the first post-UI job.
+
+B. Health insurance experiences
+
+For the COBRA-eligible workers in our study, a job loss also disrupted their health
+insurance coverage. All of these workers had employer-provided health insurance at the time of
+job loss. Individuals had the option to continue this coverage by electing COBRA coverage but,
+as reported previously, only 34 percent did so. As shown in Chapter III, Figure III.1, many had
+access to alternative sources of coverage—including, a spouse’s employer plan, public insurance,
+or private-market insurance. Our findings on the individuals’ health insurance experiences
+follow:
+
+40
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+•
+
+Most workers experienced gaps in health insurance coverage (Figure IV.5). Only
+34 percent of workers reported no months without health insurance after job loss, while
+nearly 25 percent were without health insurance for 24 months or more.
+
+•
+
+More than 40 percent of workers who became reemployed did not have access to
+employer-sponsored health insurance at their new job (Table IV.2). In their pre-UI jobs,
+all of these workers had employer-sponsored health insurance. At the time of reemployment,
+only 57 percent had an employer who offered health insurance.
+
+•
+
+Nearly 35 percent of workers reported that their access to health care was worse after
+the job loss (Table IV.2). The majority of workers did not perceive a change in their access
+to health care. Only about 11 percent of workers reported an improvement in health care
+access.
+
+Figure IV.5. Months without health insurance after job loss
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 3,410 COBRA-eligible workers.
+
+Table IV.2. Health insurance and access to health care after job loss
+Percentage
+Access to insurance at first reemployment
+No insurance available
+Health insurance available
+Access to health care since job loss
+Better
+Same
+Worse
+
+42.9
+57.1
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 3,410 COBRA-eligible workers.
+
+10.5
+54.9
+34.6
+
+C. Financial hardship
+
+As describer earlier, workers who lost their jobs in 2010 were out of work significantly
+longer than they expected to be. When individuals returned to work, the median hourly wage was
+
+41
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+lower than their pre-UI wage level and they were less likely to have employer-provided health
+insurance. Individuals in our study did have access to UI benefits. However, even with UI
+benefits, these households likely experienced significant reductions in household income. In this
+section, we document the financial challenges workers faced in the year following job loss and
+how they responded to these challenges:
+•
+
+The majority of individuals reported financial trouble in the year following job loss
+(Table IV.3). Fifty-four percent of those surveyed had trouble paying at least one bill or
+loan. Individuals were most likely to report trouble with paying utility and credit card bills,
+but as many as 25 percent of the individuals reported trouble with paying medical bills.
+
+•
+
+For many of these individuals, trouble paying bills or loans led to financial hardship
+(Table IV.4). Almost 25 percent of those surveyed reported that financial trouble led them
+to sell a car, appliance, furniture, or jewelry. A similar share reported that financial trouble
+led them to withdraw money from retirement accounts. Fifteen percent were forced to move
+to a new place to live. Although there was some overlap between different forms of financial
+hardship, 39 percent of individuals reported that trouble paying bills or loans caused them to
+take one of these actions.
+
+•
+
+Some individuals turned to public assistance for additional support (Table IV.4). In the
+year following job loss, 16 percent of those surveyed started receiving new public
+assistance. The Supplemental Nutrition Assistance Program (SNAP) was the most common
+public benefit (13 percent). Some also started to receive disability benefits and cash
+assistance (9 percent and 2 percent, respectively).
+
+Table IV.3. Financial trouble in the year following job loss
+Percentage
+𝟓𝟓𝟓𝟓. 𝟎𝟎
+
+Any trouble paying bills or loans
+Trouble paying:
+Utility bills
+Credit card bills
+Medical bills
+Auto loans
+Mortgage payments
+Student loans
+Personal loans
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 3,410 COBRA-eligible workers.
+
+42
+
+35.2
+30.4
+25.3
+20.2
+17.7
+14.6
+8.9
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table IV.4. Financial hardship in the year following job loss
+Percentage
+Trouble paying bills or loans caused individual to:
+24.0
+
+Sell a car, appliance, furniture, or jewelry
+Withdraw money from retirement accounts
+Move to a new place to live
+Any hardship response (sell car, withdraw money, or move)
+Public assistance
+
+23.9
+15.3
+38.8
+16.4
+13.2
+
+New public assistance recipient
+Supplemental Nutrition Assistance Program
+Disability benefit
+Cash assistance
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 3,410 COBRA-eligible workers.
+
+43
+
+8.9
+2.1
+
+This page has been left blank for double-sided copying.
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+V. IMPACT OF THE ARRA COBRA SUBSIDY
+
+The ARRA COBRA subsidy dramatically reduced the cost of continuing enrollment in an
+employer’s health insurance plan among those who were eligible. Thus, the subsidy may have
+encouraged some individuals to enroll in COBRA who otherwise would not have. However, the
+magnitude of the policy’s effect on COBRA enrollment is difficult to predict. Although the cost
+reduction provided to recipients by the COBRA subsidy was substantial, the net cost of health
+insurance with the subsidy still exceeded the average contribution that workers paid while
+employed. Furthermore, jobless individuals would need to make this larger health insurance
+payment from a reduced income.
+The ARRA COBRA subsidy may have affected outcomes beyond COBRA take-up. Most
+directly, the subsidy might have reduced uninsured periods of time and increased access to health
+care. COBRA coverage might also have reduced pressure on individuals to take the first
+available job that offered health insurance. Although this might have slowed their return to
+employment, it may have also improved the quality of the jobs eventually attained by providing
+individuals with more time to search for the best fit. Furthermore, if the subsidy increased access
+to health insurance coverage by increasing COBRA take-up, it might have also reduced financial
+hardship by allowing individuals to avoid large medical bills.
+In order to evaluate the effectiveness of the policy, we must estimate its impact, or how
+much COBRA take-up rates and other outcomes changed directly as a result of the subsidy. In
+this chapter, we describe our approach to estimating the impact of the subsidy and report
+estimates of the impact of the subsidy on COBRA take-up as well as other health insurance
+outcomes, employment, earnings, and financial well-being.
+Key findings from this chapter
+•
+
+The subsidy significantly increased the take-up of COBRA coverage, but did
+not reduce the share of workers who experienced gaps in health insurance
+coverage.
+
+•
+
+Being eligible for the COBRA subsidy appeared to slow the return to work, but
+the small impact suggests that the subsidy was a minor disincentive.
+
+•
+
+Eligibility for the subsidy did not affect financial wellbeing.
+
+A. Approach to estimating impacts
+
+Ideally, to answer questions related to the impacts of the subsidy, we would want to know
+what the outcomes were for individuals who were offered the subsidy compared to what the
+outcomes would have been for these same individuals if the subsidy had not been available.
+However, as with any policy or program, we cannot observe what an individual would do both
+with and without the availability of the subsidy. To determine the impacts of the program,
+therefore, it was important to find a strong “counterfactual” that would provide information on
+what the status quo would have been in the absence of the program or policy change.
+
+45
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Although there were several possible choices for a comparison group, we chose individuals
+who met all eligibility criteria for the subsidy, except for the timing of job loss. In other words,
+our comparison group included workers who lost their jobs involuntarily and were not eligible
+for other group health insurance—such as from a spouse’s or parent’s plan or public insurance
+such as Medicare—but their job loss occurred soon after the subsidy qualification period ended.
+These individuals, whom we refer to as the subsidy-comparison group, are likely to be similar to
+the subsidy-eligible group. They are a more credible comparison group than other possible
+comparison groups we considered. (For example, individuals who lost their jobs around the same
+time as those who were subsidy eligible but had other insurance options were likely to have
+made very different COBRA enrollment decisions.)
+Figure V.1 shows our approach and the timing of the subsidy that enabled us to identify
+those eligible for the subsidy and comparison groups. As seen in Figure V.1, the subsidy was
+available to individuals who were laid off between September 1, 2008, and May 31, 2010, and
+met certain other requirements. However, individuals who met these eligibility criteria, but were
+laid off before or after that period were not eligible for the subsidy, simply because the
+legislation was not in effect for that time period. In order to ensure that the subsidy-comparison
+individuals were as similar as possible to the subsidy-eligible individuals, we focused the
+evaluation on workers who lost their jobs in 2010. The treatment group who experienced a job
+loss between January 1, 2010, and May 31, 2010, were eligible for the COBRA subsidy. We
+defined the subsidy-comparison group as those who experienced a job loss between June 1,
+2010, and December 31, 2010. At a basic level, our impact analysis compared COBRA take-up
+and other outcomes of the subsidy-eligible group to those of the subsidy-comparison group.
+Figure V.1. ARRA COBRA subsidy evaluation timeline
+
+1.
+
+Selecting the survey sample
+
+The target population of interest to assess the effects of the ARRA COBRA subsidy
+included individuals who experienced an involuntary termination of employment during the
+subsidy qualification period or shortly after, and who were eligible for COBRA coverage
+through their employer at that time. The study sample, which was expected to cover the majority
+of the target population, consisted of UI recipients who lost their jobs during that same period. In
+particular, the sample surveyed included randomly selected individuals who lost their jobs
+
+46
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+between January 1, 2010, and May 31, 2010, a period in which a job loss could potentially
+enable workers to qualify for the subsidy. The study also included a comparison sample,
+consisting of workers who lost their jobs following the end of the subsidy qualification period,
+between June 1, 2010 and December 31, 2010.
+One key concern about the comparison group was that workers who lost jobs in the postsubsidy period may have experienced different outcomes from those who lost jobs in the subsidy
+period, even in the absence of the subsidy. For example, different types of workers could have
+lost jobs at different points in time and those workers might have made different decisions
+related to health insurance coverage because they faced different external conditions. To
+minimize this concern, we selected the initial sample of UI claimants to be surveyed in a manner
+such that the samples from the subsidy and post-subsidy periods had similar observable
+characteristics. The factors included in this matching model were constructed from UI claims
+data and linked local area characteristics and included the following:
+•
+
+Demographic information: gender, age, race, and ethnicity
+
+•
+
+Job characteristics: base-period earnings, occupation, and industry
+
+•
+
+UI claim information: days between job separation and UI claim, weekly benefit amount,
+and indicator for worker profiling referral
+
+•
+
+Local area characteristics: unemployment rate, urban or rural classification, and indicator
+for out-of-state claim
+
+2.
+
+Identifying subsidy-eligible and subsidy-comparison workers
+
+From our initial sample of UI claimants, we identified subsidy-eligible and subsidycomparison workers from survey responses. As described in Chapter II, the survey included a
+short screener to identify COBRA-eligible workers who had employer-sponsored health
+insurance at the time of job loss. We then determined whether workers had access to another
+form of group insurance at the time of job loss. These individuals would have been ineligible for
+the subsidy. The survey included the same set of questions for individuals in the ARRA subsidy
+period and the post–ARRA subsidy period.
+Rates of COBRA eligibility and subsidy eligibility were very similar in the ARRA and postARRA periods (Figure V.2). In both periods, 39 percent of the UI recipients had employersponsored insurance at the time of job loss and were likely eligible for COBRA. Among
+COBRA-eligible workers, 71 percent of the ARRA job losers and 70 percent of the post-ARRA
+job losers lacked access to another form of group insurance at the time of job loss and likely met
+the qualifications for subsidy eligibility. These workers constituted our subsidy-eligible and
+subsidy-comparison analytic samples. The similar rates of eligibility provided some confirmation
+that the workers selected from the post-ARRA period were similar to the ARRA workers, but
+below we provide additional evidence by examining the baseline characteristics of these workers
+across multiple dimensions.
+
+47
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure V.2. COBRA eligibility and subsidy eligibility for subsidy and postsubsidy periods
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample for COBRA eligibility included 8,956 people who lost their jobs in 2010 who completed the
+survey screener. The sample for subsidy eligibility included the 3,476 COBRA-eligible workers.
+
+Although our initial selection of UI claimants was designed to ensure that subsidy and postsubsidy periods had similar observable characteristics, we made this selection based on the
+limited set of characteristics available in the UI administrative data. The survey included a much
+richer set of baseline characteristics, including more detailed information on demographic
+characteristics, health status, job characteristics, and financial status. When comparing the
+subsidy-eligible treatment group with the subsidy-comparison group, we found some differences
+in particular characteristics, but there was no consistent pattern across the characteristics
+(Table V.1). In particular, there was no indication that the subsidy-eligible treatment group was
+more or less advantaged than the subsidy-comparison group.
+
+48
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table V.1. Baseline characteristics of subsidy-eligible and subsidycomparison workers
+Subsidy-eligible
+group
+
+Subsidy-comparison
+group
+
+Difference
+
+44.3
+
+47.3
+
+−3.0
+
+16.0
+13.1
+64.2
+6.7
+
+17.0
+14.6
+62.6
+5.8
+
+−1.0
+−1.5
+1.6
+0.9
+
+Demographic characteristics
+Female
+Age at job separation
+Younger than 30 years old
+30–39 years old
+40–49 years old
+50–59 years old
+60 years or older
+Race
+Black
+Hispanic
+White
+Other
+Education
+Less than high school
+High school diploma
+Some college
+College graduate
+Marital status
+Married
+Partnered
+Divorced, separated, widowed
+Never married
+No children under 18
+Self-reported health status
+Excellent
+Very good
+Good
+Fair
+Poor
+Has a chronic condition
+Pre-UI employment
+Hourly wage
+Job tenure (years)
+Unionized
+Employer had less than 20 employees
+Employer offered paid vacation
+Employer offered retirement benefits
+Financial status
+Total household income
+No financial savings
+
+19.0
+25.9
+24.7
+22.6
+7.8
+
+5.8
+38.1
+23.9
+32.3
+36.8
+6.4
+22.3
+34.5
+52.9
+23.1
+30.3
+28.8
+11.1
+6.8
+25.8
+
+20.0
+22.2
+27.3
+23.9
+6.6
+
+8.2
+37.8
+24.1
+30.0
+35.3
+7.1
+22.9
+34.8
+49.0
+21.4
+30.5
+28.1
+12.9
+7.1
+30.0
+
+−1.1
+3.7
+−2.6
+−1.3
+1.2
+
+−2.4
+0.3
+−0.2
+2.3
+1.5
+−0.6
+−0.6
+−0.2
+3.8
+1.6
+−0.2
+0.7
+−1.8
+−0.3
+−4.1
+
+$20.38
+
+$19.87
+
+$0.51
+
+15.3
+
+11.9
+
+3.4
+
+6.3
+9.7
+
+86.5
+74.0
+
+$50,491
+42.9
+
+6.9
+
+12.6
+84.0
+76.6
+
+$48,665
+43.1
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 2,454 subsidy-eligible and subsidy-comparison workers.
+
+49
+
+−0.6
+−2.9
+2.5
+
+−2.7
+
+$1,826
+−0.2
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+3.
+
+MATHEMATICA POLICY RESEARCH
+
+Regression methods for estimating impacts
+
+We estimated impacts using regression methods, where each study outcome, such as
+COBRA take-up or weeks of employment, was regressed on a treatment status indicator variable
+and a fixed set of baseline characteristics. The baseline characteristics included demographic
+characteristics, characteristics of the pre-UI job, health status, and financial status. Baseline
+covariates were used in the analysis to improve the precision of the impact estimates, and to
+adjust for the small pre-existing, observable differences between the treatment and comparison
+groups that remained after using matching methods to select subsidy-comparison individuals
+who were similar to subsidy-eligible individuals.
+This report also addresses two important questions about impacts for subgroups: (1) Does
+the impact of the ARRA subsidy on COBRA take-up differ by an individual’s income level? and
+(2) Does the impact of the ARRA subsidy on COBRA take-up differ by an individual’s health
+status? We can directly test whether the impact is different for two or more subgroups by
+including in the basic impact regression the interaction between subsidy-eligible status and the
+subgroup indicator.
+B. Impact on COBRA take-up and health insurance
+
+Policymakers who introduced the ARRA subsidy expected that the reduction in the price of
+COBRA would increase take-up, but experts were uncertain about the size of the response and
+what types of workers would change their decisions in response to the subsidy. This evaluation
+addresses this question by comparing the COBRA take-up rates of workers who lost employment
+in the ARRA subsidy window with similar workers who lost a job later in 2010, who were not
+eligible for the subsidy due to the timing of the job loss. We also examined the impact of the
+subsidy for key subgroups of vulnerable workers including low-income workers and workers
+with chronic health conditions.
+Beyond the question of COBRA take-up, it is important to understand whether the ARRA
+subsidy affected the share of workers who experienced an uninsured period in the years
+following job loss. Observing a significant increase in COBRA take-up does not necessarily
+mean that the ARRA subsidy reduced the number of workers without health insurance coverage.
+The workers that were influenced by the subsidy to opt for COBRA coverage might have
+purchased health insurance on the private market or returned to work sooner in the absence of the
+subsidy.
+•
+
+The ARRA subsidy significantly increased the take-up of COBRA coverage (Figure
+V.3). Thirty-five percent of subsidy-eligible workers used COBRA compared to 30 percent
+of subsidy-comparison workers. After adjusting for differences in the characteristics of
+subsidy-eligible and subsidy-comparison workers, we found a statistically significant 4.7
+percentage point impact on COBRA take-up or a 15.5 percent increase relative to the takeup rate of the comparison workers. 14
+
+14
+
+The increased take-up of COBRA coverage implies an own-price elasticity of demand of -0.24. Elasticity
+measures how much demand changes in response to a change in price. This estimated elasticity matches Moriya and
+Simon’s (2014) estimate from SIPP data.
+
+50
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+•
+
+The subsidy appeared to have the largest impact on the COBRA decisions of
+individuals with household incomes between $25,000 and $40,000 and above $70,000
+(Table V.2). As we saw in Chapter II, the COBRA take-up rate was strongly related to
+income. Subsidy-eligible individuals with household incomes greater than $70,000 were
+more than three times as likely to use COBRA as individuals with household incomes less
+than $25,000 (58 percent compared to 19 percent). The relationship between the impact of
+the subsidy offer and income was less linear than the relationship between COBRA take-up
+and income. The largest adjusted differences in COBRA take-up occurred in the second and
+fourth income quartiles, although the differences between subgroups were not statistically
+significant.
+
+•
+
+Workers with chronic health conditions did not alter their COBRA decisions in
+response to the subsidy offer (Figure V.4). The entire observed impact of the ARRA
+subsidy was concentrated among those individuals who did not report having a chronic
+condition at the time of job loss.
+
+•
+
+While the ARRA subsidy increased COBRA take-up, it did not significantly reduce the
+share of workers who experienced gaps in health insurance or the total number of
+months that workers were without health insurance (Figures V.5 and V.6). Twenty-nine
+percent of subsidy-eligible workers reported no gaps in health insurance coverage compared
+to 25 percent of subsidy-comparison workers. The regression adjusted difference of
+3 percentage points was not statistically significant. Similarly, both subsidy-eligible and
+subsidy-comparison workers reported about 13 months without health insurance coverage in
+the time since job loss. These findings suggest that at least some of the workers who opted
+for COBRA coverage in response to the availability of the ARRA subsidy would have found
+another form of health insurance without the subsidy.
+
+Figure V.3. Impact on COBRA take-up
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 2,454 subsidy-eligible and subsidy-comparison workers. Standard errors are clustered
+at the state level.
+**The adjusted difference is significantly different from zero at the .05 level, two-tailed test.
+
+51
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table V.2. Impact on COBRA take-up, by household income
+
+Household income
+Less than $25,000
+$25,000–$40,000
+$40,000–$70,000
+$70,000 or more
+
+Subsidy-eligible
+group
+
+Subsidycomparison
+group
+
+Difference
+
+Adjusted
+difference
+
+18.9
+
+15.7
+
+3.2
+
+1.4
+
+58.1
+
+48.8
+
+9.3
+
+7.9
+
+28.2
+
+21.8
+
+40.4
+
+39.6
+
+6.4
+0.8
+
+7.2
+2.7
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+Household income represents income in the year prior to the job loss. The sample included 2,454 subsidyeligible and subsidy-comparison workers. Standard errors are clustered at the state level. The adjusted
+differences are not significantly different from zero at the .05 level, two-tailed test.
+
+Figure V.4. Impact on COBRA take-up, by chronic condition status
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 2,454 subsidy-eligible and subsidy-comparison workers. Standard errors are clustered
+at the state level.
+***The adjusted difference is significantly different from zero at the .01 level, two-tailed test.
+
+52
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure V.5. Impact on gaps in health insurance
+40
+35
+Percentage
+
+30
+
+28.8
+25.0
+
+25
+20
+15
+10
+
+3.8
+
+5
+0
+
+Subsidy eligible
+No gap
+
+Subsidy comparison
+Difference
+
+3.0
+
+Difference
+
+Adjusted difference
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 2,454 subsidy-eligible and subsidy-comparison workers. Standard errors are clustered
+at the state level. The adjusted difference is not significantly different from zero at the .05 level, two-tailed
+test.
+
+Figure V.6. Impact on months without health insurance
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 2,454 subsidy-eligible and subsidy-comparison workers. Standard errors are clustered
+at the state level. The adjusted difference is not significantly different from zero at the .05 level, two-tailed
+test.
+
+C. Impact on labor market outcomes
+
+Given the strong links between health insurance and employment, the availability of the
+subsidy may have affected labor market decisions. From a theoretical perspective, the subsidy
+reduced the cost of being unemployed by making it more affordable for workers to obtain health
+insurance without returning to the labor market (Ehrenberg and Oaxaca 1976). As a consequence,
+workers may have delayed reemployment—resulting in short-term negative impacts on
+employment and earnings. On the other hand, job search theory suggests that by reducing the
+cost of unemployment, workers can spend more time searching for a better job. Without COBRA
+coverage, workers might feel forced to take the first position that offers employer-sponsored
+53
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+insurance. With COBRA, workers can spend additional time searching for a higher quality job
+(Gruber and Madrian 1997). If this job search theory is correct, the ARRA subsidy offer may
+have improved long-term labor market outcomes for the subsidy-eligible group.
+Using data collected in the COBRA Subsidy Survey, we examined the labor market
+experiences of the subsidy-eligible and subsidy-comparison group members during the
+12 quarters following job loss. We examined impacts by quarters and years after job loss, and
+over the entire three-year, post–job loss period. We expect that any impact of the subsidy on
+labor market outcomes would occur through the channel of COBRA take-up. The decision to
+select COBRA coverage must be made within the 60 days after the COBRA notice is given, but
+any impact the subsidy offer has on COBRA decisions could results in longer term impacts on
+employment. Since we found that the subsidy offer increased the take-up of COBRA coverage
+by five percentage points, we would expect any impact on employment to be relatively small.
+•
+
+Access to the subsidy lowered employment rates in the second and third quarters after
+job loss (Table V.3). Consistent with the theoretical predictions, being eligible for the
+COBRA subsidy appeared to slow the return to work. In the second quarter after job loss,
+the negative employment impact was 3.4 percentage points, or an 8 percent reduction in
+employment. The employment impact was slightly more negative in the third quarter, but by
+the fourth quarter after job loss, the difference in employment rates between subsidy-eligible
+and subsidy-comparison workers was not statistically significant. Overall, those eligible for
+the subsidy worked one week less in the first year after job loss than the subsidy-comparison
+workers—suggesting that the COBRA subsidy was a relatively minor disincentive for
+reemployment.
+
+•
+
+The impact on earnings was only significant in the second quarter after job loss (Table
+V.4). The impacts on quarterly earnings generally mirrored the employment findings with
+negative differences in the short-term and positive differences in the long-term. Although
+the subsidy-eligible individuals had two more weeks of employment in the third year
+following job loss, they did not have significantly higher annual earnings.
+
+•
+
+The delayed reemployment associated with the ARRA subsidy did not necessarily
+improve job quality (Figure V.7). We examined differences in job quality across the two
+groups for the first reemployment position, focusing on the hourly wage and whether the
+worker was eligible for employer-provided health insurance. We found no evidence that the
+subsidy was associated with higher hourly wages or better employment benefits at first
+reemployment. Access to the subsidy may have allowed workers to take jobs that did not
+offer health insurance but were preferable along a different dimension that we did not
+measure.
+
+54
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table V.3. Impact on quarterly and annual employment
+Quarter following job loss
+Percentage employed
+Q1
+Q2
+Q3
+Q4
+Q5
+Q6
+Q7
+Q8
+Q9
+Q10
+Q11
+Q12
+Weeks of employment
+Q1–Q4
+Q5–Q8
+Q9–Q12
+Percentage ever employed
+Q1–Q12
+
+Subsidy-eligible
+group
+
+Subsidy-comparison
+group
+
+Adjusted difference
+
+28.2
+40.5
+47.0
+52.2
+56.0
+59.7
+63.0
+66.5
+68.6
+69.4
+70.2
+70.4
+
+29.6
+43.3
+50.8
+53.6
+57.4
+58.6
+61.6
+65.4
+66.7
+66.1
+66.6
+67.4
+
+−1.3
+−3.4**
+−4.0***
+−1.7
+−1.6
+0.8
+1.5
+2.0
+2.2
+4.3**
+4.3**
+2.9*
+
+80.9
+
+79.5
+
+0.8
+
+18.5
+29.7
+34.4
+
+19.6
+29.5
+32.9
+
+−1.1**
+0.2
+2.0*
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 2,454 subsidy-eligible and subsidy-comparison workers. Standard errors are clustered
+at the state level.
+* Significantly different at the .10 level, two-tailed test.
+** Significantly different from zero at the .05 level, two-tailed test.
+*** Significantly different from zero at the .01 level, two-tailed test.
+
+55
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table V.4. Impact on quarterly and annual earnings
+Quarter following job
+loss
+Quarterly earnings
+Q1
+Q2
+Q3
+Q4
+Q5
+Q6
+Q7
+Q8
+Q9
+Q10
+Q11
+Q12
+Annual earnings
+Q1–Q4
+Q5–Q8
+Q9–Q12
+
+Subsidy-eligible
+group
+
+Subsidy-comparison
+group
+
+$2,070
+$3,887
+$5,067
+$5,797
+$6,289
+$6,816
+$7,110
+$7,382
+$7,510
+$7,678
+$7,676
+$7,543
+
+$1,952
+$4,084
+$5,176
+$5,748
+$6,192
+$6,386
+$6,569
+$6,794
+$6,816
+$6,990
+$7,034
+$6,990
+
+$16,896
+$27,617
+$30,484
+
+$16,960
+$25,947
+$29,185
+
+Adjusted difference
+
+$26
+−$493**
+−$390
+−$311
+−$348
+$16
+$139
+$260
+$412
+$379
+$259
+$34
+
+−$1,122
+$68
+−$81
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 2,454 subsidy-eligible and subsidy-comparison workers. Standard errors are clustered
+at the state level.
+**Significantly different from zero at the .05 level, two-tailed test.
+
+Figure V.7. Difference in job quality at first reemployment
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 2,454 subsidy-eligible and subsidy-comparison workers. Standard errors are clustered
+at the state level. The adjusted differences are not significantly different from zero at the .05 level, twotailed test.
+
+56
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+D. Impact on financial well-being
+
+Individuals without health insurance face potentially high financial burdens when they
+accrue uncovered medical expenditures. By reducing the cost of COBRA coverage, the ARRA
+subsidy had the potential to improve the financial well-being of eligible households. Although
+we did not find an impact of the subsidy on the number of months workers spent without health
+insurance, the subsidy may still have reduced financial hardship if the coverage available through
+the subsidized COBRA policy was less expensive or more comprehensive than the worker would
+have had in the absence of the subsidy.
+•
+
+Eligibility for the ARRA subsidy did not impact the share of workers who reported
+trouble paying their bills in the year following job loss (Figure V.8). Almost 60 percent
+of both subsidy-eligible and subsidy-comparison workers had trouble paying their bills. The
+survey asked workers about different types of bills including utility bills, automobile loans,
+student loans, credit card bills, medical bills, personal loans, mortgages, and rent payments.
+Subsidy eligibility had no impact on any type of financial trouble, including trouble paying
+medical bills.
+
+•
+
+Eligibility for the subsidy did not reduce self-reported financial hardship (Figure V.9).
+Subsidy-eligible and subsidy-comparison workers were equally likely to report that financial
+hardship led them to withdraw funds from a retirement account. They were also equally
+likely to start receiving a new public assistance benefit.
+
+Figure V.8. Impact on trouble paying bills
+Any trouble paying bills in 12 months after job
+loss
+
+Trouble paying medical bills
+40
+
+58.7
+
+57.5
+
+Percentage
+
+Percentage
+
+55
+35
+15
+-1.2
+
+30
+
+27.7
+
+26.7
+
+20
+10
+
+0.0
+
+0.0
+
+-5
+
+0
+Subsidy eligible
+Any trouble
+
+Subsidy comparison
+Difference
+
+Difference
+
+Subsidy eligible
+Medical bills
+
+Adjusted difference
+
+Subsidy comparison
+Difference
+
+Difference
+
+Adjusted difference
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample 2,454 subsidy-eligible and subsidy-comparison workers. Standard errors are clustered at the
+state level. The adjusted differences are not significantly different from zero at the .05 level, two-tailed test.
+
+57
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure V.9. Impact on financial hardship
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The sample included 2,454 subsidy-eligible and subsidy-comparison workers. Standard errors are clustered
+at the state level. The adjusted differences are not significantly different from zero at the .05 level, twotailed test.
+
+58
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+VI. CONCLUSION
+
+Policymakers who introduced the ARRA COBRA subsidy anticipated that the reduction in
+the price of COBRA would increase take-up of continuation coverage and help ease the burden
+of the unemployed, but the expected magnitude of the response was unknown. Our evaluation
+examined the impact of the subsidy offer by comparing the outcomes of workers who lost
+employment in 2010 while the subsidy was available with similar workers who lost a job later in
+2010 who were not eligible for the subsidy due to the timing of the job loss. In addition to
+looking at the impacts of the subsidy offer on COBRA and health insurance coverage, we
+explored whether access to the subsidy affected employment outcomes and financial well-being.
+We found that access to the subsidy significantly increased COBRA take-up, but did not
+reduce the number of months these workers lacked health insurance. It appears that workers who
+were induced by the subsidy to use COBRA would have had another source of health insurance
+in the absence of the subsidy. Although the subsidy did not increase insurance coverage, one can
+assume that workers who chose to take advantage of the subsidy were made better off by the
+subsidy either because of reduced premium costs or enhanced health insurance coverage.
+Even with the subsidy, COBRA remained expensive and out of reach for many of the
+unemployed individuals in our study. The rate of COBRA take-up is strongly related to income,
+and the subsidy did not alter this relationship. With or without the subsidy, the COBRA take-up
+rate for those with household incomes greater than $75,000 in the year prior to job loss was three
+times higher than the COBRA take-up rate for those with household incomes less than $25,000.
+Given the strong links between health insurance and employment and between medical bills
+and financial well-being, the availability of the subsidy could have affected labor market
+decisions and financial hardship. Since the subsidy offer affected the decision to take-up
+COBRA, it may have also delayed the return to work since workers selecting COBRA in
+response to the subsidy had an alternative form of health insurance. We do find that subsidyeligible individuals were less likely to be employed in the second and third quarters following
+their job loss. Although the employment impacts are consistent with the theoretical prediction
+that policies that reduce the cost of being unemployed will delay reemployment, the impact was
+small—a one week difference in weeks worked in the year following job loss. Individuals with a
+2010 job loss experienced significant financial hardship, but access to the COBRA subsidy did
+not appear to have significantly reduced this hardship. The relatively small impacts on labor
+market outcomes and lack of impact on financial hardship were not surprising given the size of
+the impact on the most proximate outcome of COBRA take-up.
+The impact of the subsidy on COBRA take-up was significantly lower than one would have
+predicted from the responses that unemployed individuals gave to hypothetical questions about
+their health insurance decisions. These responses suggested that the subsidy should have doubled
+the use of COBRA—69 percent reported willingness to use COBRA with a 65 percent subsidy.
+The gap between this hypothetical reaction to subsidy and the observed impact likely stems from
+two factors. First, it is very hard for unemployed workers to know how they would actually
+respond when faced with a choice between subsidized COBRA premiums and other pressing
+financial concerns. Therefore, the reported willingness to pay for COBRA may significantly
+
+59
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+overstate their actual behavior. Second, many subsidy-eligible individuals seemed unaware of
+the subsidy or confused about how the subsidy would affect their health insurance and health
+care costs. Although there is certainly concern about recall error in a survey fielded three years
+after the subsidy period, less than one-third of subsidy-eligible workers reported knowledge of
+the subsidy. Employers were required to notify eligible workers about the subsidy and DOL
+conducted outreach, but these efforts seemed to fail to reach all eligible workers.
+It is important to remember that the ARRA COBRA subsidy was implemented in a period
+prior to the PPACA. This act significantly altered the health insurance landscape for unemployed
+individuals. In 2010, the unemployed without access to other forms of group insurance had the
+option of continuing coverage through COBRA or entering the private market, where they would
+likely face coverage restrictions on pre-existing conditions. Under PPACA, the unemployed have
+access to insurance exchanges. There, they can purchase coverage with premium support
+available for individuals and families with incomes between 133 percent and 400 percent of the
+federal poverty line (FPL). Depending upon the state of residence, those with incomes below 133
+percent of the FPL may be eligible for expanded Medicaid coverage. Unlike the ARRA COBRA
+subsidy, the subsidies available under PPACA are based on income and also include cost-sharing
+credits. In addition to financial support, PPACA improved the health insurance alternatives that
+are available for unemployed individuals. Through insurance market regulations, those
+individuals are now guaranteed the issue of insurance and no longer face exclusions for preexisting conditions.
+
+60
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+REFERENCES
+
+Blumberg, Linda J. and John Holahan. 2004. “Work, Offers, and Take-Up: Decomposing the
+Source of Recent Declines in Employer- Sponsored Insurance.” Health Policy Online, The
+Urban Institute. Available at
+http://www.urbaninstitute.org/UploadedPDF/1000645_healthpolicyonline_no9.pdf, last
+accessed August 27, 2009.
+Bovbjerg, Randall R., Stan Dorn, Juliana Macri, and Jack Meyer. 2010. Federal Subsidy for
+Laid-Off Workers’ Health Insurance: A First Year’s Report Card for the New COBRA
+Premium Assistance. Washington, DC: Urban Institute Health Policy Center. Retrieved
+August 31, 2010, from http://www.urban.org/uploadedpdf/412172-laid-off-workers.pdf.
+Clemans-Cope, Lisa and Bowen Garrett. 2006. Changes in the Employer-Sponsored Health
+Insurance Sponsorship, Eligibility, and Participation: 2001-2005. Kaiser Commission on
+Medicaid and the Uninsured. Available at http://www.kff.org/uninsured/7599.cfm, last
+accessed May 7, 2008.
+Ehrenberg, Ronald and Ronald Oaxaca. 1976. “Unemployment Insurance, Duration of
+Unemployment, and Subsequent Wage Gain.” American Economic Review, 66(5), 754-766.
+Families USA. 2009. “Squeezed! Caught between Unemployment Benefits and Health Care
+Costs.” Available at http://www.lahealthaction.org/library/cobra-2009.pdf (last accessed on
+September 15, 2014).
+Fronstin, Paul. 2000. “Sources of Health Insurance and Characteristics of the Uninsured:
+Analysis of the March 2000 Current Population Survey.” EBRI Issue Brief, no. 228,
+Retrieved February 24, 2011, from http://www.ebri.org/pdf/briefspdf/1200ib.pdf.
+Fronstin, Paul. 2007 “Employment-Based Health Benefits: Access and Coverage, 1988-2005.”
+EBRI Issue Brief, No. 303, Available at
+http://ebri.org/publications/ib/index.cfm?fa=ibDisp&content_id=3789, last accessed May 5,
+2008.
+Fronstin, Paul. 2009. “Sources of Health Insurance and Characteristics of the Uninsured:
+Analysis of the March 2009 Current Population Survey,” EBRI Issue Brief, No. 334.
+Available at http://www.ebri.org/pdf/briefspdf/EBRI_IB_9-2009_No334_HI-Cvg1.pdf, last
+accessed October 30, 2010.
+Graetz, Ilana, Mary Reed, Vicki Fung, William H. Dow, Joseph P. Newhouse, and John Hsu.
+2012. “COBRA ARRA Subsidies: Was the Carrot Enticing Enough?” Health Services
+Research, 47(5): 1980-1998.
+Gruber, Jonathan and Brigitte Madrian. 1997. “Employment Separation and Health Insurance
+Coverage.” Journal of Public Economics, 66(3), 349-382.
+
+61
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Hu, Chun-Chieh. 2013. “The Impact of the COBRA Premium Subsidy on the Duration of
+Unemployment: Evidence from the 2009 American Recovery and Reinvestment Act
+(ARRA).” Working Paper, Syracuse University.
+Kaiser Family Foundation. 2010. Employer Health Benefits 2010 Annual Survey. Menlo Park,
+CA.
+Kapur, Kanika, and M. Susan Marquis. 2003. “Health Insurance for Workers Who Lose Jobs:
+Implications for Various Subsidy Schemes.” Health Affairs, 22(3), 203–213.
+
+Moriya, Asako and Kosali Simon. 2014. “Impact of Premium Subsidies on the Take-Up of
+Health Insurance: Evidence from the 2009 American Recovery and Reinvestment Act
+(ARRA).” NBER Working Paper 20196.
+Rangarajan, Anu, Nathan Wozny, Hanley Chiang, Nan Maxwell, Julita Milliner-Waddell, Frank
+Potter, Eric Grau, Grace Roemer, and Yingying Xu. 2011. “Impact of the ARRA Subsidy on
+COBRA Take-Up: Draft Design Report.” Submitted to the U.S. Department of Labor
+Princeton, NJ: Mathematica Policy Research.
+U.S. Bureau of Labor Statistics. 2009. “Employee Benefits in the United States, March 2009.”
+Available at http://www.bls.gov/news.release/pdf/ebs2.pdf, last accessed August 30, 2009.
+U.S. Treasury Department. 2010a. “Interim Report to the Congress on COBRA Premium
+Assistance.” Available at http://www.treasury.gov/resource-center/taxpolicy/Documents/COBRAInterimReport.pdf, last accessed July 17, 2014.
+U.S. Treasury Department, Office of Economic Policy. 2010b. “COBRA Insurance Coverage
+Since the Recovery Act: Results from New Survey Data.” Available at
+http://www.treasury.gov/resource-center/economicpolicy/Documents/cobra%20final%20report.pdf, last accessed January 6, 2011.
+
+62
+
+APPENDIX A
+SURVEY METHODOLOGY
+
+This page has been left blank for double-sided copying.
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+APPENDIX A. SURVEY METHODOLOGY
+
+The COBRA Subsidy Survey was the primary source of data for Mathematica’s Evaluation
+of the ARRA COBRA Subsidy. The survey included a brief screening survey to identify
+individuals with employer-sponsored insurance at job loss. Those with insurance at job loss were
+classified as COBRA-eligible and administered the full survey.
+A. Study sample
+
+A total of 28,513 UI claimants were sampled for the COBRA Subsidy Study survey. These
+sample members lost a job in 2010 and received a UI benefit payment. Sample members with a
+job loss between January 1, 2010 and May 31, 2010 represented claimants who were potentially
+eligible for the ARRA subsidy—the ARRA group, and filers between June 1, 2010 and
+December 31, 2010 represented claimants with a job loss outside of the ARRA subsidy window.
+Our study sample came from nine states—Arkansas, California, Colorado, Florida, Georgia,
+New Jersey, Ohio, Pennsylvania, and Wisconsin. Variation in the dates by which data sharing
+agreements between Mathematica and each state were signed and the receipt of usable data files,
+resulted in uneven releases of sample and fielding periods across the states. Data collection
+began in March 2013 with a partial release of sample from the state of Arkansas to pilot the data
+collection processes and systems. Sample from the second state, Georgia, followed with a first
+release of cases in May 2013. The remaining states had first sample releases between August and
+November 2013. Approximately 3,167 cases were released for each state in two sample waves;
+sample from Arkansas and Georgia were released in three waves. 15 Fielding periods ranged from
+11 months 16 for the Arkansas sample to 12 weeks for Ohio, the final state released.
+B. Data collection overview
+
+A two-staged approach to data collection was utilized for the survey. The first stage was a
+screening survey to identify COBRA-eligible UI claimants, a requirement for study participation.
+The second stage of data collection was a full interview with study-eligible sample members.
+Each stage is discussed in detail below.
+1.
+
+Stage 1—Screening survey
+
+To facilitate screening the large number of UI claimants needed to identify the COBRAeligible study sample, sample members were offered two screening options. They could either
+call into an interactive voice response (IVR) system to complete the screener using their
+telephone keypad, or they could call Mathematica’s Survey Operations Center (SOC) and
+complete the screener with an interviewer using computer assisted telephone interviewing
+(CATI). We selected IVR as a screening mode because of its cost-effectiveness compared to
+15
+Attempts to balance response rate goals with the uncertainty surrounding the ultimate number of states that would
+participate in the study led to conservative releases of sample for the first two sample states.
+16
+
+While incoming calls were accepted for the remaining field period following each sample release, active calling
+out to sample members from early release states was concluded sooner to focus on reaching newly released sample.
+
+A.3
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+other forms of data collection that require interviewer labor. To encourage use of the IVR,
+sample members were offered an increased incentive if they screened in through IVR and
+completed the full interview. (The incentive strategy is discussed in detail later.) The IVR system
+was developed and administered by Interviewing Services of America (ISA) under a subcontract
+with Mathematica.
+The screening survey was designed to be short and easy to complete. It could be completed
+in English or Spanish using either data collection mode. Sample members selecting the IVR
+option could access the approximately three-minute survey at their convenience, 24 hours a day,
+seven days a week. Once their identity was verified, sample members were asked if they had
+health insurance through their employer at the time of job loss. If yes, they screened in as study
+eligible and were immediately routed to a dedicated phone line at the SOC to complete the full
+survey with an interviewer. If the respondent disconnected the call prior to the transfer, or if the
+transfer was not successful for any reason, attempts to contact screened-in sample members
+commenced the next business day. These contacts were facilitated by the entry of a contact
+telephone number which respondents provided as part of the IVR screener. IVR callers who
+screened in outside of SOC operating hours were routed to a dedicated study voice mail box on
+which they could leave a message and were attempted during the next business day.
+Sample members who screened out (i.e., did not have health insurance through their
+employer at the time of job loss) were asked two additional questions to provide insights about
+their reasons for COBRA ineligibility and job quality. Specifically, they were asked whether
+their employer offered health insurance and if they were eligible to participate in the health
+insurance program that was offered.
+Sample members who completed the screener using CATI were administered the same
+screening protocol, adapted for interviewer administration. If they passed the screener, they were
+asked to continue with the full survey immediately.
+2.
+
+Stage 2—Full interview
+
+All sample members who passed the screener and moved on to the full interview stage
+began by verifying that they were insured through their employer at job loss. During the
+verification stage, we learned that some sample members had filed for UI benefits due to reduced
+work hours rather than job loss. Those sample members were not eligible to participate in the
+study. Approximately 12 percent (809) of our confirmed ineligible sample filed for UI benefits
+because of reduced work hours.
+The full interview asked questions about household characteristics, employment and work
+search activities, health insurance coverage, health and health care utilization, income and
+participation in other transfer programs, financial well-being, COBRA knowledge and take-up,
+and subsidy knowledge and use.
+CATI was the only mode used for completing the full survey. The instrument was
+programmed using Blaise software which maximizes data quality by enforcing question skip
+logic and checking data items as they are entered to make sure they are in appropriate ranges and
+are consistent with previous responses. The full interview took an average of 51 minutes to
+
+A.4
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+complete. This average length was longer than anticipated based on pretest results which
+estimated completion at 45 minutes. Actual interview times ranged from 41 minutes to 98
+minutes.
+Interviewers were trained and ready to conduct full interviews for the study at the same time
+that letters of invitation were mailed. Direct transfers from the IVR system and call-ins were
+accepted immediately. However, to give sample members time to access the IVR and to
+minimize screening costs, we did not begin to make calls to sample members until the fifteenth
+day after the initial mailing. In the interim, we sent a reminder postcard six days following the
+mailing. In addition, a first email reminder was sent to sample members 22 days after the first
+mailing. Email addresses were received only for some sample members in four of the nine
+sample states. Figure A.1 shows the initial contact strategy.
+Figure A.1. Initial contact timeline
+
+Response to both IVR and CATI screening was slower than expected. Therefore, the initial
+contact timeline depicted above was amended when releasing from our third, fourth, and fifth
+states—Florida, New Jersey, and Wisconsin. Using the revised timeline, interviewers began
+making calls out to sample members seven days following the mailing of the invitation letter,
+and the first reminder postcard was sent after 15 days. Timing of the first email reminder
+remained unchanged. The revised timeline was applied for all subsequent sample releases (see
+Figure A.2).
+Figure A.2. Revised contact timeline
+
+A.5
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Additional attempts to contact non-responders included at least one additional reminder
+postcard, and/or other specialty mailings such as locating letters sent to addresses believed to be
+current, refusal conversion letters, email reminders, and special experiment mailings. 17
+C. Incentive strategy
+
+A monetary incentive was offered to all respondents who were eligible to complete the full
+interview. As noted earlier, respondents who screened in through the IVR within four weeks of
+Mathematica mailing the advance letter were offered a higher incentive than non-IVR
+completers. IVR-eligible respondents were offered $40 for completing the full survey; non-IVR
+completers were offered $30. This differential incentive strategy was approved by OMB. The
+cost savings of IVR screening compared to screening with an interviewer made the differential
+payment offer defensible given the anticipated high volume of screeners needed to identify the
+survey sample.
+Sample members were informed about the opportunity to receive a higher incentive for
+using the IVR screening option in their letter of invitation to participate in the study. The letter
+was sent via regular mail using U.S. Department of Labor letterhead and the DOL logo on the
+envelopes. Mathematica’s SOC location was used as the return address to facilitate the
+processing of undeliverable mail. Figure A.3 shows the data collection flow and incentive
+strategy for the study.
+
+17
+
+To increase survey participation rates, which lagged behind survey goals, Mathematica adapted the survey design
+from the original plan through several experiments. The adaptations tested different incentive amounts, the use of
+pre-pays, extending the $40 incentive offer beyond the four week window, and different types of mailers including
+holiday-themed communication.
+
+A.6
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Figure A.3. Data collection flow and incentive strategy
+
+D. Response rates
+
+More than 10,000 UI claimants (10,714) were screened as part of the COBRA Subsidy
+Survey—3,476 were COBRA eligible and completed surveys using CATI; 5,889 were ineligible
+to receive COBRA benefits; and 809 were ineligible to participate in the study because their UI
+claims were based on reduced work hours rather than job loss.
+Overall, we achieved a response rate of approximately 36 percent. 18 While there was some
+variation in response across states, the differences were not as divergent as might be expected
+given the differences in fielding durations. Georgia led the way with a weighted response rate of
+42 percent; Colorado had the lowest response at 30 percent. The weighted response rates, by
+state are presented in Table A.1.
+
+18
+
+The unweighted response rate was 35.7 percent. The weighted response rate was 35.8 percent.
+
+A.7
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Table A.1. Weighted survey response rates, by state
+State
+
+Weighted response rate (Percentage)
+38.1
+32.1
+30.2
+33.8
+42.3
+39.0
+30.8
+35.7
+42.3
+
+Arkansas
+California
+Colorado
+Florida
+Georgia
+New Jersey
+Ohio
+Pennsylvania
+Wisconsin
+
+35.8
+
+All States
+
+Source: Mathematica COBRA Subsidy Survey.
+Note:
+The survey sample consisted of 28,513 UI claimants. Individuals identified as study ineligible, COBRA
+ineligible, and COBRA eligible were counted as respondents. The response rate calculation excluded
+sample members confirmed to be deceased.
+
+A.8
+
+APPENDIX B
+MODEL GENERAL NOTICE OF COBRA CONTINUATION COVERAGE RIGHTS
+
+This page has been left blank for double-sided copying.
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Model General Notice Of COBRA Continuation Coverage Rights
+(For use by single-employer group health plans)
+
+**Continuation Coverage Rights Under COBRA**
+
+Introduction
+You’re getting this notice because you recently gained coverage under a group health plan (the
+Plan). This notice has important information about your right to COBRA continuation coverage,
+which is a temporary extension of coverage under the Plan. This notice explains COBRA
+continuation coverage, when it may become available to you and your family, and what you
+need to do to protect your right to get it. When you become eligible for COBRA, you may
+also become eligible for other coverage options that may cost less than COBRA continuation
+coverage.
+The right to COBRA continuation coverage was created by a federal law, the Consolidated
+Omnibus Budget Reconciliation Act of 1985 (COBRA). COBRA continuation coverage can
+become available to you and other members of your family when group health coverage would
+otherwise end. For more information about your rights and obligations under the Plan and under
+federal law, you should review the Plan’s Summary Plan Description or contact the Plan
+Administrator.
+You may have other options available to you when you lose group health coverage. For
+example, you may be eligible to buy an individual plan through the Health Insurance
+Marketplace. By enrolling in coverage through the Marketplace, you may qualify for lower costs
+on your monthly premiums and lower out-of-pocket costs. Additionally, you may qualify for a
+30-day special enrollment period for another group health plan for which you are eligible (such
+as a spouse’s plan), even if that plan generally doesn’t accept late enrollees.
+What is COBRA continuation coverage?
+
+COBRA continuation coverage is a continuation of Plan coverage when it would otherwise end
+because of a life event. This is also called a “qualifying event.” Specific qualifying events are
+listed later in this notice. After a qualifying event, COBRA continuation coverage must be
+offered to each person who is a “qualified beneficiary.” You, your spouse, and your dependent
+children could become qualified beneficiaries if coverage under the Plan is lost because of the
+qualifying event. Under the Plan, qualified beneficiaries who elect COBRA continuation
+coverage [choose and enter appropriate information: must pay or aren’t required to pay] for
+COBRA continuation coverage.
+If you’re an employee, you’ll become a qualified beneficiary if you lose your coverage under the
+Plan because of the following qualifying events:
+
+B.3
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+•
+•
+
+MATHEMATICA POLICY RESEARCH
+
+Your hours of employment are reduced, or
+Your employment ends for any reason other than your gross misconduct.
+
+If you’re the spouse of an employee, you’ll become a qualified beneficiary if you lose your
+coverage under the Plan because of the following qualifying events:
+•
+•
+•
+•
+•
+
+Your spouse dies;
+Your spouse’s hours of employment are reduced;
+Your spouse’s employment ends for any reason other than his or her gross misconduct;
+Your spouse becomes entitled to Medicare benefits (under Part A, Part B, or both); or
+You become divorced or legally separated from your spouse.
+
+Your dependent children will become qualified beneficiaries if they lose coverage under the Plan
+because of the following qualifying events:
+•
+•
+•
+•
+•
+•
+
+The parent-employee dies;
+The parent-employee’s hours of employment are reduced;
+The parent-employee’s employment ends for any reason other than his or her gross
+misconduct;
+The parent-employee becomes entitled to Medicare benefits (Part A, Part B, or both);
+The parents become divorced or legally separated; or
+The child stops being eligible for coverage under the Plan as a “dependent child.”
+
+[If the Plan provides retiree health coverage, add the following paragraph:]
+Sometimes, filing a proceeding in bankruptcy under title 11 of the United States Code can be
+a qualifying event. If a proceeding in bankruptcy is filed with respect to [enter name of
+employer sponsoring the Plan], and that bankruptcy results in the loss of coverage of any
+retired employee covered under the Plan, the retired employee will become a qualified
+beneficiary. The retired employee’s spouse, surviving spouse, and dependent children will
+also become qualified beneficiaries if bankruptcy results in the loss of their coverage under
+the Plan.
+When is COBRA continuation coverage available?
+The Plan will offer COBRA continuation coverage to qualified beneficiaries only after the Plan
+Administrator has been notified that a qualifying event has occurred. The employer must notify
+the Plan Administrator of the following qualifying events:
+• The end of employment or reduction of hours of employment;
+• Death of the employee;
+• [add if Plan provides retiree health coverage: Commencement of a proceeding in
+bankruptcy with respect to the employer;]; or
+• The employee’s becoming entitled to Medicare benefits (under Part A, Part B, or both).
+
+B.4
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+For all other qualifying events (divorce or legal separation of the employee and spouse or a
+dependent child’s losing eligibility for coverage as a dependent child), you must notify the
+Plan Administrator within 60 days [or enter longer period permitted under the terms of the
+Plan] after the qualifying event occurs. You must provide this notice to: [Enter name of
+appropriate party]. [Add description of any additional Plan procedures for this notice,
+including a description of any required information or documentation.]
+How is COBRA continuation coverage provided?
+Once the Plan Administrator receives notice that a qualifying event has occurred, COBRA
+continuation coverage will be offered to each of the qualified beneficiaries. Each qualified
+beneficiary will have an independent right to elect COBRA continuation coverage. Covered
+employees may elect COBRA continuation coverage on behalf of their spouses, and parents may
+elect COBRA continuation coverage on behalf of their children.
+COBRA continuation coverage is a temporary continuation of coverage that generally lasts for
+18 months due to employment termination or reduction of hours of work. Certain qualifying
+events, or a second qualifying event during the initial period of coverage, may permit a
+beneficiary to receive a maximum of 36 months of coverage.
+There are also ways in which this 18-month period of COBRA continuation coverage can be
+extended:
+Disability extension of 18-month period of COBRA continuation coverage
+If you or anyone in your family covered under the Plan is determined by Social Security to be
+disabled and you notify the Plan Administrator in a timely fashion, you and your entire family
+may be entitled to get up to an additional 11 months of COBRA continuation coverage, for a
+maximum of 29 months. The disability would have to have started at some time before the 60th
+day of COBRA continuation coverage and must last at least until the end of the 18-month period
+of COBRA continuation coverage. [Add description of any additional Plan procedures for this
+notice, including a description of any required information or documentation, the name of the
+appropriate party to whom notice must be sent, and the time period for giving notice.]
+Second qualifying event extension of 18-month period of continuation coverage
+If your family experiences another qualifying event during the 18 months of COBRA
+continuation coverage, the spouse and dependent children in your family can get up to 18
+additional months of COBRA continuation coverage, for a maximum of 36 months, if the Plan is
+properly notified about the second qualifying event. This extension may be available to the
+spouse and any dependent children getting COBRA continuation coverage if the employee or
+former employee dies; becomes entitled to Medicare benefits (under Part A, Part B, or both);
+gets divorced or legally separated; or if the dependent child stops being eligible under the Plan as
+a dependent child. This extension is only available if the second qualifying event would have
+caused the spouse or dependent child to lose coverage under the Plan had the first qualifying
+event not occurred.
+
+B.5
+
+EVALUATION OF THE ARRA COBRA SUBSIDY: FINAL REPORT
+
+MATHEMATICA POLICY RESEARCH
+
+Are there other coverage options besides COBRA Continuation Coverage?
+Yes. Instead of enrolling in COBRA continuation coverage, there may be other coverage options
+for you and your family through the Health Insurance Marketplace, Medicaid, or other group
+health plan coverage options (such as a spouse’s plan) through what is called a “special
+enrollment period.” Some of these options may cost less than COBRA continuation coverage.
+You can learn more about many of these options at www.healthcare.gov.
+If you have questions
+Questions concerning your Plan or your COBRA continuation coverage rights should be
+addressed to the contact or contacts identified below. For more information about your rights
+under the Employee Retirement Income Security Act (ERISA), including COBRA, the Patient
+Protection and Affordable Care Act, and other laws affecting group health plans, contact the
+nearest Regional or District Office of the U.S. Department of Labor’s Employee Benefits
+Security Administration (EBSA) in your area or visit www.dol.gov/ebsa. (Addresses and phone
+numbers of Regional and District EBSA Offices are available through EBSA’s website.) For
+more information about the Marketplace, visit www.HealthCare.gov.
+Keep your Plan informed of address changes
+To protect your family’s rights, let the Plan Administrator know about any changes in the
+addresses of family members. You should also keep a copy, for your records, of any notices you
+send to the Plan Administrator.
+Plan contact information
+[Enter name of the Plan and name (or position), address and phone number of party or
+parties from whom information about the Plan and COBRA continuation coverage can be
+obtained on request.]
+
+B.6
+
+This page has been left blank for double-sided copying.
+
+www.mathematica-mpr.com
+
+Improving public well-being by conducting high quality,
+objective research and data collection
+PRINCETON, NJ ■ ANN ARBOR, MI ■ CAMBRIDGE, MA ■ CHICAGO, IL ■ OAKLAND, CA ■ WASHINGTON, DC
+
+Mathematica® is a registered trademark
+of Mathematica Policy Research, Inc.
+
+

@@ -39,8 +39,13 @@ OPEN = re.compile(r'(CC0|CC BY(-SA|-NC|-ND|-NC-SA|-NC-ND)?|public domain)\b', re
 
 
 def html_text(raw):
-    body = re.sub(r'<(script|style|nav|header|footer)\b.*?</\1>', '', raw, flags=re.S | re.I)
+    # In bill XML <header> is a section heading, not page chrome, so it is kept.
+    chrome = 'script|style|nav|footer' if re.search(r'<bill\b', raw) else 'script|style|nav|header|footer'
+    body = re.sub(rf'<({chrome})\b.*?</\1>', '', raw, flags=re.S | re.I)
     body = re.sub(r'<(br|/p|/div|/h\d|/li|/tr)\b[^>]*>', '\n', body, flags=re.I)
+    # Congressional bill XML (govinfo BILLS-*.xml): one line per section, subsection, paragraph and so on.
+    body = re.sub(r'(?=<(title|subtitle|part|subpart|chapter|section|subsection|paragraph|subparagraph'
+                  r'|clause|subclause|item|subitem|quoted-block)\b)', '\n', body, flags=re.I)
     text = html.unescape(re.sub(r'<[^>]+>', ' ', body))
     lines = [re.sub(r'\s+', ' ', line).strip() for line in text.split('\n')]
     return '\n'.join(line for line in lines if line) + '\n'

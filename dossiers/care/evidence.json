@@ -4916,5 +4916,1107 @@
    "dossiers/care/2-what-works.md",
    "dossiers/care/3-design.md"
   ]
+ },
+ {
+  "id": "EV-CAR-270",
+  "statement": "The Senate bill entitles every resident of the United States to benefits and leaves residency criteria to a rule by the Secretary; it lets the Secretary make other individuals eligible and requires a rule against traveling to the United States for the sole purpose of obtaining care.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3260",
+  "anchor": [
+   "Every individual who is a resident of the United States is entitled to benefits for health care items and services under this Act. The Secretary shall promulgate a rule that provides criteria for determining residency for eligibility purposes under this Act.",
+   "shall promulgate a rule, consistent with Federal immigration laws, to prevent an individual from traveling to the United States for the sole purpose of obtaining health care items and services provided under this Act."
+  ],
+  "locator": "secs. 102(a), 102(b)(2)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-271",
+  "statement": "The Senate bill requires automatic enrollment at birth or on establishing residency and a Medicare for All card that does not carry the Social Security number.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3260",
+  "anchor": [
+   "include a process for the automatic enrollment of individuals at the time of birth in the United States (or upon establishment of residency in the United States)",
+   "The card shall not include an individual’s Social Security number."
+  ],
+  "locator": "sec. 105",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-272",
+  "statement": "Under the Senate bill, benefits start on January 1 of the fourth calendar year that begins after enactment, and earlier, from January 1 of the first calendar year after enactment, for people not yet 19 one year after enactment.",
+  "claim": "data",
+  "figures": [
+   "19",
+   "1 year"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "benefits shall first be available under the Medicare for All Program for items and services furnished on January 1 of the fourth calendar year that begins after the date of enactment of this Act.",
+   "has not yet attained the age of 19 as of the date that is 1 year after the date of enactment of this Act"
+  ],
+  "locator": "sec. 106(a), (b)(1)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-273",
+  "statement": "The Senate bill opens a temporary Medicare buy-in at age 55 from January 1 of the first year after enactment, 45 from the second year and 35 from the third, at a premium of 1/12 of the average annual per capita cost of Parts A, B and D.",
+  "claim": "data",
+  "figures": [
+   "55",
+   "45",
+   "35",
+   "1/12"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "(A) effective January 1 of the first year following the date of enactment of the Medicare for All Act , the age of 55;",
+   "(B) effective January 1 of the second year following such date of enactment, the age of 45; and",
+   "(C) effective January 1 of the third year following such date of enactment, the age of 35.",
+   "Such monthly premium shall be equal to 1/12 of the annual premium"
+  ],
+  "locator": "sec. 1011 (new SSA sec. 1899D(c), (d))",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-274",
+  "statement": "The Senate bill creates a Medicare Transition plan sold only through the Exchanges until the full program starts, open to any United States resident and to qualified employers, covering title II's benefits at 90 percent actuarial value and paying original Medicare's rates.",
+  "claim": "data",
+  "figures": [
+   "90 percent"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "shall be made available only through the Exchanges, and shall be available to individuals wishing to enroll and to qualified employers",
+   "Any United States resident may enroll in the Medicare Transition plan.",
+   "coverage of benefits that are actuarially equivalent to 90 percent of the full actuarial value of the benefits provided under the plan.",
+   "the Administrator shall reimburse such providers at rates determined for equivalent items and services under the original Medicare fee-for-service program"
+  ],
+  "locator": "sec. 1012(b)-(d)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-275",
+  "statement": "From the date the full program starts, the Senate bill makes it unlawful for an insurer to sell, or an employer to provide, coverage that duplicates the program, while allowing coverage of benefits the program does not cover, bars duplicative employee benefit plans and repeals ERISA continuation coverage (COBRA).",
+  "claim": "data",
+  "figures": [
+   "107",
+   "801",
+   "802"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "a private health insurer to sell health insurance coverage that duplicates the benefits provided under the Medicare for All Program",
+   "Nothing in this Act shall be construed as prohibiting the sale of health insurance coverage for any additional benefits not covered by the Medicare for All Program",
+   "no employee benefit plan may provide benefits that duplicate payment for any items or services for which payment may be made under the Medicare for All Program",
+   "Part 6 of subtitle B of title I of the Employee Retirement Income Security Act of 1974 ( 29 U.S.C. 1161 et seq. ) is repealed.",
+   "107. Prohibition against duplicating coverage",
+   "801. Prohibition of employee benefits duplicative",
+   "802. Repeal of continuation coverage requirements"
+  ],
+  "locator": "secs. 107, 801, 802",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-276",
+  "statement": "The Senate bill covers hospital, ambulatory, primary and preventive care, prescription drugs, mental health and substance use treatment, reproductive care including abortion, maternity, oral health, audiology and vision, and home- and community-based long-term care services and supports.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3260",
+  "anchor": [
+   "(7) Comprehensive reproductive care, including abortion, contraception, and assistive reproductive technology.",
+   "Home- and community-based long-term care services and supports"
+  ],
+  "locator": "sec. 201(a)(7), (16)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-277",
+  "statement": "The Senate bill bars all cost sharing except an optional prescription-drug schedule of at most $200 a year per person, inflation-adjusted, not imposed at or below 250 percent of the poverty line.",
+  "claim": "data",
+  "figures": [
+   "$200",
+   "250 percent"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "such cost-sharing does not exceed $200 annually per individual, adjusted annually for inflation",
+   "such cost-sharing is not imposed on individuals with a household income equal to or below 250 percent of the poverty line for a family of the size involved"
+  ],
+  "locator": "sec. 202(b)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-278",
+  "statement": "The Senate bill keeps institutional long-term care in Medicaid, with a state maintenance-of-effort floor based on fiscal year 2024 spending on those services.",
+  "claim": "data",
+  "figures": [
+   "2024"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "a State plan for medical assistance shall provide for making medical assistance available for institutional long-term care services",
+   "the amount of the State's expenditures for fiscal year 2024 on medical assistance for institutional long-term care services"
+  ],
+  "locator": "sec. 204 (new SSA sec. 1949(a), (c))",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-279",
+  "statement": "The Senate bill allows private contracts only for care for which no claim is paid by the program, with a provider affidavit binding for a 1-year period.",
+  "claim": "data",
+  "figures": [
+   "1-year"
+  ],
+  "source": "SRC-3260",
+  "anchor": "during the 1-year period beginning on the date the affidavit is signed",
+  "locator": "sec. 303",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-280",
+  "statement": "The Senate bill's administration title requires regional offices, each with a deputy director for home- and community-based services, and a Beneficiary Ombudsman who handles complaints and appeals but may not advocate payment increases or new coverage.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3260",
+  "anchor": [
+   "The Secretary shall establish and maintain regional offices",
+   "one deputy director appointed by the regional director to oversee home- and community-based services and supports.",
+   "The Secretary shall appoint a Beneficiary Ombudsman",
+   "The Ombudsman shall not serve as an advocate for any increases in payments or new coverage of items or services"
+  ],
+  "locator": "secs. 403, 404",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-281",
+  "statement": "The Senate bill sets a yearly national health budget with operating, capital, special projects, quality, health professional education, administration, a reserve fund, and prevention and public health components.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3260",
+  "anchor": [
+   "The national health budget shall consist of at least the following components:",
+   "A reserve fund."
+  ],
+  "locator": "sec. 601(a)(2)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-282",
+  "statement": "The Senate bill allocates at least 1 percent of the national health budget, for up to 5 years after benefits start, to assistance for workers in health insurance administration and related functions, including wage replacement, retirement benefits, training, placement and preferential hiring.",
+  "claim": "data",
+  "figures": [
+   "1 percent",
+   "5 years"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "For up to 5 years following the date on which benefits are first available under section 106(a), at least 1 percent of the national health budget shall be allocated",
+   "Assistance described in subsection (a) shall include wage replacement, retirement benefits, job training and placement, preferential hiring, and education benefits."
+  ],
+  "locator": "sec. 602",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-283",
+  "statement": "The Senate bill pays hospitals, skilled nursing facilities and dialysis facilities a quarterly global budget negotiated each year with the regional director, which may not cover capital expenditures, and pays individual providers from a national fee schedule.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3260",
+  "anchor": [
+   "shall be determined before the start of each calendar year through negotiations between the provider and the regional director with jurisdiction over such provider.",
+   "take into account capital expenditures of the provider or any other expenditure not directly associated with the provision of items and services by the provider to an individual;"
+  ],
+  "locator": "secs. 611(b), 612",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-284",
+  "statement": "The Senate bill bars program payments from being used for marketing or for the profit or net revenue of a provider, and bars using quality metrics to set payment methods.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3260",
+  "anchor": [
+   "the profit or net revenue of the provider, or increasing the profit or net revenue of the provider;",
+   "The Secretary may not utilize any quality metrics or standards for the purposes of establishing provider payment methodologies"
+  ],
+  "locator": "sec. 615(a), (e)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-285",
+  "statement": "The Senate bill has the Secretary negotiate prices for drugs, supplies and equipment annually and set a national formulary that promotes generics.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3260",
+  "anchor": [
+   "shall be negotiated annually by the Secretary.",
+   "The formulary under this subsection shall promote the use of generic medications to the greatest extent possible."
+  ],
+  "locator": "sec. 614",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-286",
+  "statement": "The Senate bill create an Office of Health Equity and, within it, an Office of Primary Health Care that publishes national primary care goals within 1 year; data collected may not be used for law enforcement or immigration purposes.",
+  "claim": "data",
+  "figures": [
+   "1 year"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "There is established, in the Office of the Secretary of Health and Human Services, an Office of Health Equity, to be headed by a Director",
+   "Not later than 1 year after the date of enactment of this section, the Director of the Office of Primary Health Care shall publish national goals",
+   "for any law enforcement or immigration purpose"
+  ],
+  "locator": "secs. 616, 617",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-287",
+  "statement": "The Senate bill funds the Medicare for All Trust Fund with 100 percent of the net revenue increase attributable to secs. 801 and 902 (the end of duplicative employer plans and of the Exchanges) and, in its first year, the prior year's appropriations for Medicare (other than premiums), Medicaid, the Federal Employees Health Benefits program and other federal programs; laws restricting federal funds for reproductive health care do not apply to the fund.",
+  "claim": "data",
+  "figures": [
+   "100 percent",
+   "801",
+   "902"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "amounts equivalent to 100 percent of the net increase in revenues to the Treasury which is attributable to the amendments made by section 801 and section 902.",
+   "(other than amounts attributable to any premiums under such title).",
+   "The Federal Employees Health Benefits program, under chapter 89 of title 5, United States Code.",
+   "shall not apply to monies in the Trust Fund."
+  ],
+  "locator": "sec. 701(b)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-288",
+  "statement": "The Senate bill ends Medicare benefits and Medicaid and CHIP entitlement once the program starts, except Medicaid institutional long-term care, and leaves veterans, TRICARE and Indian Health Service benefits unaffected, and ends the Exchanges.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3260",
+  "anchor": [
+   "no benefits shall be available under title XVIII of the Social Security Act",
+   "Nothing in this Act shall affect the eligibility of veterans for the medical benefits and services provided under title 38, United States Code",
+   "the Federal and State Exchanges established pursuant to title I of the Patient Protection and Affordable Care Act ( Public Law 111–148 ) shall terminate"
+  ],
+  "locator": "secs. 901, 902",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-289",
+  "statement": "The Senate bill caps traditional Medicare's Part A and B cost sharing at $1,500 a year and sets both deductibles at $0 from the year after enactment and sets a $300 Part D out-of-pocket threshold.",
+  "claim": "data",
+  "figures": [
+   "$1,500",
+   "$0",
+   "$300"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "equals or exceeds $1,500, the individual shall not be responsible for additional out-of-pocket cost-sharing that occurred during that year.",
+   "the inpatient hospital deductible for the year shall be $0.",
+   "the annual out-of-pocket threshold specified in this subparagraph is equal to $300."
+  ],
+  "locator": "secs. 1001, 1002",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-290",
+  "statement": "The House bill starts benefits 2 years after enactment, and 1 year after enactment for people 55 or older or not yet 19.",
+  "claim": "data",
+  "figures": [
+   "2 years",
+   "1 year",
+   "55",
+   "19"
+  ],
+  "source": "SRC-3261",
+  "anchor": [
+   "benefits shall first be available under this Act for items and services furnished 2 years after the date of the enactment of this Act.",
+   "has not yet attained the age of 19 as of the date that is 1 year after the date of the enactment of this Act; or",
+   "has attained the age of 55 as of the date that is 1 year after the date of the enactment of this Act"
+  ],
+  "locator": "sec. 106",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. House bill H.R. 3069 (Jayapal and cosponsors), introduced April 29, 2025, the House companion to S. 1506; not enacted. Graded A as the text of the bill itself.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-291",
+  "statement": "The House bill bars all cost sharing and covers long-term services and supports, institutional and home- and community-based, with priority to home- and community-based care.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3261",
+  "anchor": [
+   "The Secretary shall ensure that no cost-sharing, including deductibles, coinsurance, copayments, or similar charges, is imposed on an individual for any benefits provided under this Act.",
+   "include any long-term nursing services for the enrollee, whether provided in an institution or in a home- and community-based setting;",
+   "prioritize delivery of long-term services and supports through home- and community-based services over institutionalization;"
+  ],
+  "locator": "secs. 202(a), 204(c)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. House bill H.R. 3069 (Jayapal and cosponsors), introduced April 29, 2025, the House companion to S. 1506; not enacted. Graded A as the text of the bill itself.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-292",
+  "statement": "The House bill's trust fund adds the purchased care component of TRICARE to the streams the Senate bill names, and like it credits it with 100 percent of the net revenue increase from secs. 801 and 902.",
+  "claim": "data",
+  "figures": [
+   "100 percent",
+   "801",
+   "902"
+  ],
+  "source": "SRC-3261",
+  "anchor": [
+   "The purchased care component of the TRICARE program, under chapter 55 of title 10, United States Code",
+   "100 percent of the net increase in revenues to the Treasury which is attributable to the amendments made by sections 801 and 902."
+  ],
+  "locator": "sec. 701(b)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. House bill H.R. 3069 (Jayapal and cosponsors), introduced April 29, 2025, the House companion to S. 1506; not enacted. Graded A as the text of the bill itself.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-293",
+  "statement": "Thirty-eight percent of covered workers in 2026 were in a plan with a single-coverage deductible of $2,000 or more: 55% at smaller firms against 33% at larger firms.",
+  "claim": "data",
+  "figures": [
+   "$2,000",
+   "55%",
+   "33%"
+  ],
+  "source": "SRC-3112",
+  "anchor": "Thirty-eight percent of covered workers in 2026 are in a plan with a general annual deductible of $2,000 or more for single coverage, similar to the percentage (34%) last year. Over half (55%) of covered workers in smaller firms are in such a plan, compared with 33% of covered workers in larger firms",
+  "locator": "Summary of Findings, Employee Cost Sharing",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-21",
+  "context": "KFF Employer Health Benefits Survey 2026 (1,937 firms); nonpartisan; employer survey data.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-294",
+  "statement": "Over the five years to 2026 the average family premium for employer coverage rose 28%, against 26.9% for workers' wages and 24.4% inflation; in 2026 alone premiums rose 5% against 3.7% for wages.",
+  "claim": "data",
+  "figures": [
+   "28%",
+   "26.9%",
+   "24.4%",
+   "5%",
+   "3.7%"
+  ],
+  "source": "SRC-3112",
+  "anchor": [
+   "Over the last year, the average single premium increased by 5%, and the average family premium increased by 5%. By comparison, workers’ wages increased by 3.7%, while inflation was 2.7%.",
+   "Over the last five years, the average premium for family coverage has increased by 28%, compared with a 26.9% increase in workers’ wages and inflation of 24.4%"
+  ],
+  "locator": "Summary of Findings, Health Insurance Premiums and Worker Contributions",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-21",
+  "context": "KFF Employer Health Benefits Survey 2026. Over five years premiums ran only a little ahead of wages; the one-year gap is wider.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-295",
+  "statement": "In 2026, 92% of workers were employed by a firm offering health benefits, but only 55% were covered by their own employer's plan; at offering firms, 47% of workers at firms with many lower-wage workers were covered against 61% elsewhere; employer coverage covers almost 157 million people under 65.",
+  "claim": "data",
+  "figures": [
+   "92%",
+   "55%",
+   "47%",
+   "61%",
+   "157 million",
+   "65"
+  ],
+  "source": "SRC-3112",
+  "anchor": [
+   "Overall, 92% of workers are employed by a firm that offers health benefits to at least some of its workers",
+   "those working at firms with a relatively large share of lower-wage workers are less likely to be covered by their own firm than workers at firms with a smaller share of lower-wage workers (47% vs. 61%)",
+   "Across firms that offer health benefits and firms that do not, 55% of workers are covered by a health plan offered by their employer",
+   "Employer-sponsored insurance covers almost 157 million people under age 65"
+  ],
+  "locator": "Summary of Findings, Availability of Employer-Sponsored Coverage",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-21",
+  "context": "KFF Employer Health Benefits Survey 2026.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-296",
+  "statement": "Baicker and Chandra estimate that a 10% rise in health insurance premiums lowers the probability of employment by 1.2 percentage points and, for workers with employer coverage, lowers wages by 2.3%.",
+  "claim": "analysis",
+  "figures": [
+   "10%",
+   "1.2",
+   "2.3%"
+  ],
+  "source": "SRC-3262",
+  "anchor": [
+   "We estimate that a 10% increase in health insurance premiums reduces the aggregate probability of being employed by 1.2 percentage points",
+   "For workers covered by employer provided health insurance, this increase in premiums results in an offsetting decrease in wages of 2.3%."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2006",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Academic, peer-reviewed (2006); malpractice payments as an instrument for premiums. Shows premium growth reaching workers through wages and jobs; data from before the ACA.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-297",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-298",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-299",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-297",
+  "statement": "Arnold and Whaley find hospital mergers raise hospital prices by $521 and private-insurance hospital spending by $579, with a similar $638 reduction in wages.",
+  "claim": "analysis",
+  "figures": [
+   "$521",
+   "$579",
+   "$638"
+  ],
+  "source": "SRC-3263",
+  "anchor": "We find that hospital mergers lead to a $521 increase in hospital prices, a $579 increase in hospital spending among the privately insured population and a similar, $638 reduction in wages.",
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "RAND working paper (2020), not peer reviewed; nonpartisan research organization.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-296",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-298",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-298",
+  "statement": "Brot-Goldberg and coauthors estimate that a 1% rise in health care prices lowers payroll and employment at non-health employers by 0.4%, acting as a de facto payroll tax on labor.",
+  "claim": "analysis",
+  "figures": [
+   "1%",
+   "0.4%"
+  ],
+  "source": "SRC-3264",
+  "anchor": [
+   "By increasing the cost of employer-sponsored health insurance, rising prices serve as a de facto payroll tax on labor.",
+   "we estimate that a 1% increase in health care prices lowers payroll and employment at non-health-care employers by 0.4%."
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "NBER working paper (2024), funded by Arnold Ventures (which funds health cost-reduction advocacy) and the National Institute on Aging; IRS-linked data.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-296",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-297",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-299",
+  "statement": "Anand finds total hourly compensation falls $0.52 for each dollar of higher health insurance cost, mostly through higher employee premium contributions rather than lower wages.",
+  "claim": "analysis",
+  "figures": [
+   "$0.52"
+  ],
+  "source": "SRC-3265",
+  "anchor": "I find that total hourly compensation reduces by $0.52 for each dollar increase in health insurance costs. This reduction in total compensation is primarily in the form of higher employee premium contributions, and there is no evidence of a change in wages and non-health fringe benefits.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2017",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Peer-reviewed (2017); BLS microdata. Qualifies the wage-offset finding: workers bear about half, through contributions.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-296",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-300",
+  "statement": "Madrian estimated that job lock cut the voluntary turnover of workers with employer coverage by 25%, from 16% to 12% a year, in 1987 data.",
+  "claim": "analysis",
+  "figures": [
+   "1987",
+   "25",
+   "16",
+   "12"
+  ],
+  "source": "SRC-3266",
+  "anchor": "Using data from the 1987 National Medical Expenditure Survey, I estimate that job-lock reduces the voluntary turnover rate of those with employer-provided health insurance by 25 percent, from 16 percent to 12 percent per year.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "1994",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Peer-reviewed (1994); before HIPAA and the ACA limited pre-existing condition exclusions, so the effect is likely smaller today.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-301",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-302",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-301",
+  "statement": "Gooptu and coauthors found the 2014 Medicaid expansion did not significantly change employment, job switching or full- versus part-time status.",
+  "claim": "analysis",
+  "figures": [
+   "2014"
+  ],
+  "source": "SRC-3267",
+  "anchor": [
+   "Medicaid expansion did not result in significant changes in employment, job switching, or full- versus part-time status.",
+   "Medicaid Expansion Did Not Result In Significant Employment Changes Or Job Reductions In 2014"
+  ],
+  "locator": "abstract; title",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Peer-reviewed (2016); first 15 months only; a low-income population, not the employer-covered.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-300",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-302",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-302",
+  "statement": "Blume-Kohout found the ACA raised self-employment by 1.4 to 1.8 percentage points among adults 30 to 64 with a pre-ACA declinable condition and no other source of coverage, but the effects were short-lived.",
+  "claim": "analysis",
+  "figures": [
+   "1.4",
+   "1.8",
+   "30",
+   "64"
+  ],
+  "source": "SRC-3268",
+  "anchor": "The probability of self-employment increased by 1.4 to 1.8 percentage points among adults ages 30 to 64 with at least one pre-ACA declinable condition and no alternative source of health insurance through a spouse's employer or public programs. However, these effects were short-lived.",
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Peer-reviewed (2024). Job lock is real for a narrow group; the effect of removing it was small and temporary.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-300",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-301",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-303",
+  "statement": "In a 2010 survey of COBRA-eligible unemployment insurance claimants, 34 percent took COBRA, most who did not named cost as the main reason, and nearly 25 percent were uninsured for 24 months or more; unsubsidized family COBRA cost $14,045.",
+  "claim": "data",
+  "figures": [
+   "34 percent",
+   "25 percent",
+   "24 months",
+   "$14,045"
+  ],
+  "source": "SRC-3269",
+  "anchor": [
+   "Among COBRA-eligible UI claimants, 34 percent opted for COBRA coverage.",
+   "coverage, and nearly 25 percent were without health insurance for 24 months or more.",
+   "Without a premium subsidy, the worker would pay $14,045 for family",
+   "Eighty percent of workers who did not select COBRA coverage reported that cost was"
+  ],
+  "locator": "Executive summary",
+  "grade": "B",
+  "fact_date": "2010",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Mathematica for the U.S. Department of Labor (2015, Obama administration); a survey in nine states during the Great Recession, with a temporary federal COBRA subsidy; before the ACA marketplaces.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-304",
+  "statement": "The Commonwealth Fund estimated that of about 15 million working-age adults who lost a job with health benefits in 2008-2010, 57% became uninsured and 14% continued coverage through COBRA.",
+  "claim": "data",
+  "figures": [
+   "15 million",
+   "57%",
+   "14"
+  ],
+  "source": "SRC-3270",
+  "anchor": "an estimated 15 million working-age adults lost their jobs and health benefits over the period 2008 to 2010. A majority of these individuals (57%) became uninsured. One-quarter of adults were able to go on their spouse's insurance policy or find another source of coverage, while 14 percent continued their coverage through COBRA",
+  "locator": "p. 1",
+  "grade": "C",
+  "fact_date": "2011",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Commonwealth Fund (2011), which favors coverage expansion; survey estimate from the Great Recession, before the ACA marketplaces and Medicaid expansion; likely high for today.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-305",
+  "statement": "In KFF's 2023 consumer survey, 81% of insured adults rated their insurance excellent or good, while 60% of those with employer coverage reported a problem with their insurance in the past 12 months.",
+  "claim": "data",
+  "figures": [
+   "81%",
+   "60%",
+   "12"
+  ],
+  "source": "SRC-3271",
+  "anchor": [
+   "Most insured adults (81%) give their health insurance an overall rating of “excellent” or “good,” though ratings vary based on health status",
+   "About six in ten (58%) insured adults report having experienced a problem with their health insurance in the past 12 months, including majorities of those with ESI (60%)"
+  ],
+  "locator": "Key findings",
+  "grade": "B",
+  "fact_date": "2023-03",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "KFF (2023); 3,605 insured adults. Problems include denied claims, network and prior-authorization issues.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-306",
+  "statement": "In November 2025, 65% of Americans rated their own health coverage excellent or good, against 24% who rated coverage nationally that way.",
+  "claim": "data",
+  "figures": [
+   "65%",
+   "24%"
+  ],
+  "source": "SRC-3272",
+  "anchor": "Currently, 65% of Americans say their own healthcare coverage is excellent or good, just slightly below the average of 68% since 2001. At the same time, 24% rate healthcare coverage nationally this positively",
+  "locator": "body",
+  "grade": "B",
+  "fact_date": "2025-11",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-15",
+  "context": "Gallup with West Health; all adults, not only the employer-covered.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-307",
+  "statement": "An AHIP-commissioned 2026 poll reported that 89% of workers are satisfied with their employer-provided coverage.",
+  "claim": "data",
+  "figures": [
+   "89%"
+  ],
+  "source": "SRC-3273",
+  "anchor": "89% of workers are satisfied with their employer-provided coverage.",
+  "locator": "headline findings",
+  "grade": "C",
+  "fact_date": "2026-03",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-05",
+  "context": "Insurers' trade group, an interested party that lobbies for the employer tax exclusion; method not reviewed. Its own 2024 poll reported 75%.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-308",
+  "statement": "In September 2026, 66% of adults favored Medicare-for-all, and 52% favored it if it eliminated private health insurance companies (47% opposed), against 37% in October 2020; opposition rose to 76% on hearing of possible delays in care and 64% on higher taxes.",
+  "claim": "data",
+  "figures": [
+   "66%",
+   "52%",
+   "47%",
+   "37%",
+   "76%",
+   "64%"
+  ],
+  "source": "SRC-3274",
+  "anchor": [
+   "The latest KFF Health Tracking Poll finds that two-thirds of the public (66%) say they favor Medicare-for-all",
+   "about half (52%) saying they would favor Medicare-for-all if it eliminated private health insurance companies, while 47% oppose. This marks a departure from when KFF last asked this question in October 2020, when the prospect of eliminating private insurance companies led to lower support for Medicare-for-all (37% favored, 58% opposed).",
+   "potential delays in medical tests and treatments (76% oppose), an increase in taxes (64%)"
+  ],
+  "locator": "Two-Thirds Favor Medicare-for-All, but Opinion Shifts When Public Hears Arguments",
+  "grade": "B",
+  "fact_date": "2026-09",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-06",
+  "context": "KFF; 1,328 adults; plus or minus 3 points. KFF notes support shifts as people hear arguments.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-309",
+  "statement": "In November 2025, 66% of adults said the federal government is responsible for ensuring coverage for all; 35% favored a single national government system and 31% a mix of private and public coverage.",
+  "claim": "data",
+  "figures": [
+   "66%",
+   "35%",
+   "31%"
+  ],
+  "source": "SRC-3275",
+  "anchor": [
+   "Most Americans (66%) say the federal government has a responsibility to make sure all Americans have health care coverage.",
+   "35% of all adults favor a single national health insurance system run by the government.",
+   "31% say insurance should continue to be provided through a mix of private companies and government programs."
+  ],
+  "locator": "body",
+  "grade": "B",
+  "fact_date": "2025-11",
+  "checked": "2026-11-10",
+  "recheck": "2026-12-10",
+  "context": "Pew Research Center, nonpartisan; 10,357 adults.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-310",
+  "statement": "When Medicare began on July 1, 1966, about 19 million people enrolled.",
+  "claim": "data",
+  "figures": [
+   "1966",
+   "19 million"
+  ],
+  "source": "SRC-3276",
+  "anchor": "When Medicare began on July 1, 1966, approximately 19 million people enrolled.",
+  "locator": "Overview",
+  "grade": "A",
+  "fact_date": "1966",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Social Security Administration historical data. Enrollees were people 65 and over, most already in Social Security records.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-311",
+  "statement": "GAO found CMS launched HealthCare.gov without verification that it met performance requirements, after the federal marketplace contract grew from $56 million to more than $209 million.",
+  "claim": "analysis",
+  "figures": [
+   "$56 million",
+   "$209 million"
+  ],
+  "source": "SRC-3277",
+  "anchor": [
+   "From September 2011 to February 2014, FFM obligations increased from $56 million to more than $209 million.",
+   "As a result, CMS launched Healthcare.gov without verification that it met performance requirements."
+  ],
+  "locator": "What GAO Found",
+  "grade": "C",
+  "fact_date": "2014-07",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "GAO, the legislative-branch auditor (2014).",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-312",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-312",
+  "statement": "HHS's inspector general found that missteps and the absence of clear leadership led to HealthCare.gov's poor launch, and that CMS recovered the site for high consumer use within 2 months.",
+  "claim": "analysis",
+  "figures": [
+   "2 months"
+  ],
+  "source": "SRC-3278",
+  "anchor": [
+   "We found that HHS and CMS made many missteps throughout development and implementation that led to the poor launch of HealthCare.gov. Most critical was the absence of clear leadership",
+   "CMS recovered the website for high consumer use within 2 months, and adopted more effective organizational practices."
+  ],
+  "locator": "What We Found",
+  "grade": "C",
+  "fact_date": "2016-02",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "HHS Office of Inspector General (2016, Obama administration), an independent office reviewing its own department.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-311",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-313",
+  "statement": "By January 2024 the Medicaid unwinding had disenrolled over 14 million people and reenrolled more than 27 million, and states reported the volume of renewals, systems issues and staffing shortages as significant challenges.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "14 million",
+   "27 million"
+  ],
+  "source": "SRC-3279",
+  "anchor": [
+   "As of January 2024, states had renewal outcomes for more than four in ten enrollees with over 14 million people disenrolled and more than 27 million reenrolled in Medicaid coverage.",
+   "The volume of renewals, systems issues, and staffing shortages have posed significant challenges to states."
+  ],
+  "locator": "Executive Summary; Renewal Processes",
+  "grade": "B",
+  "fact_date": "2024-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "KFF (2024); counts from state reports and interviews in four states.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-314",
+  "statement": "In KFF and the Los Angeles Times's survey of adults with employer coverage, most were satisfied with their plans, while four in ten had problems paying medical bills or affording premiums, deductibles or copays in the past year.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3280",
+  "anchor": [
+   "most people with employer-sponsored insurance (ESI) are generally satisfied with their health plans",
+   "Four in ten adults with employer coverage say that in the past year they had problems paying medical bills or difficulty affording their premium, deductible, co-pays, or an unexpected medical bill for themselves or a family member."
+  ],
+  "locator": "Overview",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "KFF with the Los Angeles Times (2019); 1,407 adults with employer coverage.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
  }
 ]
