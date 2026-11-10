@@ -6018,5 +6018,48 @@
   "supports": [
    "dossiers/care/research-s1506-comparison.md"
   ]
+ },
+ {
+  "id": "EV-CAR-315",
+  "statement": "The Senate bill leaves eligibility for veterans' care, TRICARE and the Indian Health Service unaffected, bars any re-evaluation of the Indian Health Service without consultation with Tribal leaders, treats VA, IHS and uniformed-services providers as qualified providers, ends Federal Employees Health Benefits coverage for anyone eligible for the program, and, for its transition plan only, falls back to the VA's purchase price for a drug when negotiation fails.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3260",
+  "anchor": [
+   "Nothing in this Act shall affect the eligibility of veterans for the medical benefits and services provided under title 38, United States Code, the eligibility of individuals for TRICARE medical benefits and services provided under sections 1079 and 1086 of title 10, United States Code, or of Indians for the medical benefits and services provided by or through the Indian Health Service.",
+   "No reevaluation of the Indian Health Service shall be undertaken without consultation with Tribal leaders and stakeholders.",
+   "Any provider qualified to provide health care items and services at a facility of the Department of Veterans Affairs, the Indian Health Service, or the uniformed services",
+   "No benefits shall be made available under chapter 89 of title 5, United States Code, with respect to items and services furnished to any individual eligible to enroll under the Medicare for All Program.",
+   "(A) the price paid by the Secretary of Veterans Affairs to procure the drug under the laws administered by the Secretary of Veterans Affairs;"
+  ],
+  "locator": "secs. 901(b), 901(c), 302(b), 1012(d)(2)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. Senate bill S. 1506 (Sanders and cosponsors), introduced April 29, 2025; not enacted. Primary text of the sponsors' design, graded A as the text of the bill itself, not as evidence of effects.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-316",
+  "statement": "The House bill keeps TRICARE's direct care at military facilities, ends TRICARE purchased-care benefits for anyone eligible for the program, and keeps veterans' and Indian Health Service eligibility.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3261",
+  "anchor": [
+   "no benefits shall be made available under the purchased care component of the TRICARE program for items or services furnished to any individual eligible to enroll under this Act.",
+   "Nothing in this Act shall affect the eligibility of beneficiaries under chapter 55 of title 10, United States Code, who are entitled to receive care furnished at facilities of the uniformed services under the TRICARE program for such care."
+  ],
+  "locator": "sec. 901(c)-(d)",
+  "grade": "A",
+  "fact_date": "2025-04-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-04-29",
+  "context": "U.S. House bill H.R. 3069 (Jayapal and cosponsors), introduced April 29, 2025, the House companion to S. 1506; not enacted. Graded A as the text of the bill itself.",
+  "supports": [
+   "dossiers/care/research-s1506-comparison.md"
+  ]
  }
 ]
