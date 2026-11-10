@@ -14,7 +14,7 @@ Before: common outputs rebuilt at `ffe461d32dc0f50f58213bcb5347d49343e46611`, be
 | Scenario Q, Q4 annual average ($) | 1,261 | 1,158 |
 | Mixed recovery Q4 FY2039 ($) | -2,906 | -3,000 |
 
-The climate package's own mature-year delta is zero in the conservative case (second table), so it moves neither maturity measure; any change in them above comes from other parts of the plan. The climate package raises debt because early general-fund and capital costs are borrowed, with interest. D4 is not relaxed: DEC still fails maturity; the mixed recovery illustration retains only narrow GF headroom and does not certify all-fund solvency. The mixed recovery tax rates remain illustrative.
+The climate package's own mature-year delta is zero in the conservative case (second table), so it moves neither maturity measure; any change in them above comes from other parts of the plan. The climate package raises debt because early general-fund and capital costs are borrowed, with interest. D4 is not relaxed: DEC still fails maturity; the mixed recovery illustration is short of general-fund balance at maturity by 0.09% of GDP, reported to the financing settlement and does not certify all-fund solvency. The mixed recovery tax rates remain illustrative.
 
 | Climate case | GF 2030–39 $B | D4-B capital $B | GF 2040 $B | GF 2050 $B |
 | --- | ---: | ---: | ---: | ---: |
