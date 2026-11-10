@@ -668,7 +668,7 @@ def benchmarks(I_rows, scn, results, m, I):
     add('BM-5', 'CBO Medicare at 60 (2022): 7.3 million enrollees',
         f'{enroll:.1f} million movers in 2032', '7.3 million (spec target; the saved CBO text gives shares, not this count)', '25%',
         within(enroll, 7.3), 'EV-CAR-207; EV-CAR-208',
-        'Unverified target: the figure comes from the model spec, and the saved text (SRC-3204) does not contain it. The model counts uninsured, nongroup and ESI people who move to Medicare; it does not count people who add Part A while keeping employer coverage.')
+        'Unverified target: the 7.3 million is CBO 2022 as cited in the legacy memo (legacy/sources/health-working-group-memo-analysis.md, line 420); the saved CBO text (SRC-3204) gives shares, not this count. The model counts uninsured, nongroup and ESI people who move to Medicare; it does not count people who add Part A while keeping employer coverage.')
     # BM-6 Urban (secondary)
     denom = I['sub_medicare'] + I['sub_medicaid'] + I['sub_ptc']
     spc = results['single_payer_project_central']['federal']['net_change_bn']
