@@ -24,8 +24,8 @@ Health comes first, because its choice (single-payer, a public option or a stage
 | --- | --- | --- |
 | **A. Health** | 1. The problem: `1-problem.md`. Who is uninsured and underinsured, medical debt, spending and prices against peers, Medicare Advantage overpayment, long-term care waiting lists, outcomes; and the January 2029 baseline: the enhanced credits' expiry (not extended), the 2025 reconciliation law's Medicaid and marketplace changes date by date from the statute, CBO's 36.6 million uninsured in 2029 | Draft (stage D, step 2) |
 | | 2. What works: `2-what-works.md`. Coverage and mortality, automatic enrollment, churn and work requirements; single-payer estimates (CBO, Urban, RAND, Mercatus, the Lancet, PERI) and what drives their range; Vermont and California; state public options (Washington, Colorado, Nevada); Taiwan, Canada, the Netherlands, Switzerland, Germany, Australia; price caps and Maryland; a lower Medicare age; failures to avoid | Draft (stage D, step 2) |
-| | 3: design choices, one batched memo set for Espen: single-payer, a public option or a staged path; transition; the financing interface; benefits; provider payment. Medicare for All gets the same evidence, cost, coverage and transition work as a public option | Later (step 3) |
-| | The health coverage model (`charter/PLAN.md` 3.4): only what the memo set needs to compare the options on coverage, federal cost and household cost, with a model card, benchmarked to CBO | Later (step 3m, alongside step 3) |
+| | 3. Design choices: `3-design.md` and five memos in `memos/` (1 the shape: public option, staged path to single-payer, single-payer, universal multi-payer; 2 the transition; 3 the financing interface; 4 benefits; 5 provider payment), plus seven yes-or-no points (restore first; automatic enrollment, no work requirement; every resident, proposed to immigration; Medicare upgrades; Medicare Advantage at MedPAC's estimate; rural health through USDA's Community Facilities program; the hospital trust fund). One batched set for Espen; each decided on its own | Draft (stage D, step 3), for Espen |
+| | The health coverage model (`charter/PLAN.md` 3.4): `models/tools/health-coverage/` (exploratory), only what the memo set needs: coverage, federal cost and household cost by option, with a model card and CBO benchmarks | In review (step 3m, PR #201) |
 | | 4-9: specification, delivery, cost, validation, what would change our minds, the public case | After Espen decides section 3 |
 | **B. Care at home for all ages** | 1-3, building on health's choice; the legacy long-term-care direction of October 26 (an all-age home-support benefit) is weighed as an option; meets housing's aging-in-place work (`dossiers/home/memos/12-aging-in-place.md`) and shared rule 7 | Later |
 | **C. Child care and pre-K** | 1-3 (FAM-2 and its options) | Later |
@@ -37,7 +37,7 @@ Sections 4-9 are written once per dossier where the parts can share them, or per
 
 - `1-problem.md`, `2-what-works.md` (health, sections 1-2).
 - `evidence.json`: EV-CAR-001 to 050 (the 2029 baseline), 100 to 141 (the problem), 200 to 268 (what works). Sources SRC-3000 to 3399 are reserved for care.
-- Next: `3-design.md` with memos in `memos/`, and the coverage model in `models/tools/health-coverage/`.
+- `3-design.md` and `memos/1-architecture.md` to `5-provider-payment.md` (health, section 3).
 
 ## Shared rules care is likely to own or touch
 
@@ -49,4 +49,4 @@ From `dossiers/shared-rules.md`; proposed in the design section, never overwritt
 
 ## Open questions for Espen
 
-None yet. Health's section 3 will bring one batched set of decision memos, each decided on its own.
+1. **Health, section 3:** five memos and seven yes-or-no points, listed at the end of `3-design.md`, "Questions for Espen". Each is decided on its own.
