@@ -34,7 +34,7 @@ Section 1, part 8: the enhanced credits expired and were not extended; the 2025 
 | B. Staged path (2032 status) | about 11.4 million with children in the first wave (14.0 million without) | about $250 billion, rising to C's by the endpoint | endpoint 2037: about $17-28 trillion; 2040: about $3-22 trillion (project arithmetic; the lower end is nearer memo 2's order, which moves employer groups last) | about $40-80 billion lower, then C's |
 | C. Single-payer | 3.6 million | about $3.4-3.5 trillion | about $28-29 trillion (2032-35 phase-in) | about −$130 billion to +$95 billion |
 
-- These are exploratory. The model runs high against CBO's 2020 single-payer range (its card explains why) and misses CBO's cost of permanent enhanced credits; both are reported, not tuned away.
+- These are exploratory. The model's CBO-like single-payer variant, about $3.44 trillion in 2032, is above the high end of CBO's 2020 range grown to 2032 (about $3.32 trillion), so its single-payer figures read high. More generally the model runs high against that range (its card explains why) and misses CBO's cost of permanent enhanced credits; both are reported, not tuned away.
 - Single-payer's federal cost replaces about $1.7 trillion of household premiums and out-of-pocket costs and about $1.5 trillion of employer premiums in 2032. Who pays the new taxes is the financing settlement's decision, under D3.
 - FY2040 permanent cost (`DEC-2026-11-10-05`): section 6 will report it from the model once Espen chooses; on the model's growth path, single-payer's net federal cost (and any staged path once it reaches the endpoint) would be about $5.5 trillion in FY2040, and the public option's about $0.4 trillion (project arithmetic, to be confirmed in section 6).
 
