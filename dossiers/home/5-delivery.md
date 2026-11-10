@@ -217,7 +217,7 @@ Section 4 defines the system (HOU-4.02). Delivery has to make it work across hou
 | HOU-3C.01 revolving fund | Its share goes, in order, to eligible cities and counties in the state, then to a nonprofit or regional fund HUD selects, then to HOU-3C.02's direct loans in that state. It stays in the state | Federal money for people in the state is not lost because of a governor (judgment) |
 | HOU-1D emergency fund | Eligible cities and counties run it; HUD names a nonprofit or regional administrator for the rest of the state | Point 5's one-administrator rule still holds |
 | New awards (HOU-4A, 4D, 4.08) | Not a state program; housing agencies run them; backstop administrator where an agency declines | No state veto |
-| Services (HOU-4.12) | Where a state does not cover tenancy services in Medicaid, the HUD services backstop pays for them | Section 4 limits the backstop to tenants without Medicaid; delivery suggests it also cover tenants whose state Medicaid program does not pay for the service. A question for Espen |
+| Services (HOU-4.12) | Where a state does not cover tenancy services in Medicaid, the HUD services backstop pays for them | Section 4 limits the backstop to tenants without Medicaid; delivery suggests it also cover tenants whose state Medicaid program does not pay for the service. Decided: the wider backstop (`DEC-2026-11-09-10`) |
 | Source-of-income protection (HOU-4.06) | Applies everywhere; state laws that protect more stay [EV-HOU-247] | Federal civil-rights floor |
 | Zoning reward (HOU-6.01) | Voluntary: a state that declines does not compete; its localities may | Spending condition limits (`NFIB v. Sebelius`, HOU-6.02) |
 
@@ -339,7 +339,7 @@ For the section 4 owner and section 6; not made here.
 | Funding for navigator shortfalls where HOU-4.11's duty cannot be met (2.6) | HOU-4.12 | Section 6 prices |
 | Inspector general set-aside for audits of the new programs (section 7) | Each R2 program | Section 6 prices |
 | Readiness tranche in R1 (question 1) | HOU-4.02, item 7 (R1) | Adopted (`DEC-2026-11-09-10`); priced in section 6 |
-| Tribal set-asides: size in the emergency fund, and reach into HOU-3C.01 and the new awards (question 2) | HOU-4.13, with HOU-1D.03, HOU-3C.01, HOU-4A.01, HOU-4D.01 | Adopted; sizes proposed, for Espen; shares of existing money (section 6, 2.6) |
+| Tribal set-asides: size in the emergency fund, and reach into HOU-3C.01 and the new awards (question 2) | HOU-4.13, with HOU-1D.03, HOU-3C.01, HOU-4A.01, HOU-4D.01 | Adopted; sizes decided (`DEC-2026-11-09-16`); shares of existing money (section 6, 2.6) |
 | Wider services backstop through 2035 (question 3) | HOU-4.12 | Adopted; priced in section 6 (placeholder) |
 | Mandatory fair housing testing and enforcement grants, 2030-34 (question 4) | HOU-4.06 (money in R2, rules in the regular bill) | Adopted; priced in section 6 (placeholder) |
 | Fees for successful private suits (question 6) | HOU-4D.01, HOU-5.02, HOU-4.11 | Adopted; unpriced (section 6, 6) |

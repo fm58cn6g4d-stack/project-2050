@@ -484,7 +484,7 @@
       "DEC-2026-11-09-06",
       "DEC-2026-11-09-10"
     ],
-    "parameters": "250,000 new awards a year 2030-33 with continuing help; form per HOU-4.04; mandatory, outside the yearly renewal vote; tribal share of new-award money through tribes (HOU-4.13; proposed 3%)",
+    "parameters": "250,000 new awards a year 2030-33 with continuing help; form per HOU-4.04; mandatory, outside the yearly renewal vote; tribal share of new-award money through tribes (HOU-4.13; 3%, DEC-2026-11-09-16)",
     "eligibility": "Stage 1, then the start of stage 2",
     "vehicle": [
       {
@@ -578,7 +578,7 @@
       "DEC-2026-11-09-16",
       "DEC-2026-11-09-17"
     ],
-    "parameters": "Back rent and utilities plus up to two months ahead, deposit or moving; cap four months of FMR (HUD indexes); one episode in 12 months, two in 3 years; legal help paid separately; permanent; annual cap of four months' FMR per household per 12 months across any number of crises (replaces the episode limits); second crisis in 12 months prompts referral to long-term help; administrator tracks use, income verified through tax data where possible and easy; repeat use published with a review trigger",
+    "parameters": "Back rent and utilities plus up to two months ahead, deposit or moving; cap four months of FMR (HUD indexes); legal help paid separately; permanent; annual cap of four months' FMR per household per 12 months across any number of crises (DEC-2026-11-09-17); second crisis in 12 months prompts referral to long-term help; administrator tracks use, income verified through tax data where possible and easy; repeat use published with a review trigger",
     "eligibility": "Renters at or below 50% AMI or enrolled in SNAP, Medicaid or SSI, facing a crisis now",
     "vehicle": [
       {
@@ -643,7 +643,7 @@
       "DEC-2026-11-09-10",
       "DEC-2026-11-09-16"
     ],
-    "parameters": "One administrator per place (states, localities of 200,000+, and tribes or tribally designated housing entities); links to courts, legal aid, 211; need-and-performance formula; first-year error-rate sample published yearly; monthly payment-level data standard shared with HOU-4.02; tribal share set aside and paid by the block grant formula (HOU-4.13; proposed 3%)",
+    "parameters": "One administrator per place (states, localities of 200,000+, and tribes or tribally designated housing entities); links to courts, legal aid, 211; need-and-performance formula; first-year error-rate sample published yearly; monthly payment-level data standard shared with HOU-4.02; tribal share set aside and paid by the block grant formula (HOU-4.13; 3%, DEC-2026-11-09-16)",
     "eligibility": "Grantees",
     "vehicle": [
       {
@@ -712,7 +712,7 @@
       "DEC-2026-11-09-19",
       "DEC-2026-11-10-01"
     ],
-    "parameters": "About $72B awarded FY2030-37 so it is spent by 2039: $3B 2030, $5B 2031, $10B a year 2032-33, $11B a year 2034-37 (yearly split judgment); 20% state match; at least 30% grants or forgivable loans for ELI homes; acquisition and preservation eligible; tribal share through tribes (HOU-4.13; proposed 5%)",
+    "parameters": "About $72B awarded FY2030-37 so it is spent by 2039: $3B 2030, $5B 2031, $10B a year 2032-33, $11B a year 2034-37 (yearly split judgment); 20% state match; at least 30% grants or forgivable loans for ELI homes; acquisition and preservation eligible; tribal share through tribes (HOU-4.13; 5%, DEC-2026-11-09-16)",
     "eligibility": "States",
     "vehicle": [
       {
