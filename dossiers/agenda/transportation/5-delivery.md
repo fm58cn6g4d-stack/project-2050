@@ -36,7 +36,8 @@ Dates follow the scenario calendar (`dossiers/scenario/`): R1, the plan's first 
 ## 3. Capacity
 
 - **Treasury.** The per-mile charges are a new kind of excise.
-  - The design keeps them on records that exist: odometer readings at state registration, and quarterly filings carriers make under the fuel-tax agreement.
+  - The design keeps them on records that exist: odometer readings at state registration, and quarterly filings carriers make under the fuel-tax agreement (IFTA).
+  - Trucks that run only inside one state file no IFTA return. Those of 55,000 lb or more already file the annual heavy-vehicle use tax return (26 U.S.C. 4481) [EV-MOV-209], which the charge replaces; those between 26,000 and 55,000 lb file nothing federal today. Working choice for the 2030 act's drafting: intrastate carriers report odometer miles once a year on that annual return, with the declared weight their state registration already records, instead of quarterly. It is still a new line on a return for the lighter group, the one added burden; the IFTA route is unchanged for interstate carriers (MOV-30.01).
   - It provides implementation money ($750 million through FY2033 in Draft 2) and a 10% ceiling on collection cost.
   - The working assumption is that collection costs start high and fall. Oregon and Utah's experience puts the range at about 11% to 14% of revenue at small scale [EV-MOV-118] [EV-MOV-120], so the ceiling may bind in the early years. That is something to study in implementation, with GAO's three-year review as the check.
 - **Audits.** Weight-mile taxes are evaded at an estimated 5% to 11% [EV-MOV-122]. Working assumption: an audit program sized to bring evasion toward the low end, paid within the collection ceiling. Its exact rate is left to Treasury rule.
@@ -77,7 +78,7 @@ None of this stops an administration from slowing work it opposes. It does make 
 
 ## 6. Remedies
 
-- **Taxpayers.** Per-mile charge readings are tax return information, with the Internal Revenue Code's remedies for disclosure, from the charge's first day. From the charge's start on October 1, 2030, the 2029 act defines it by odometer readings only and the readings are tax return information; the bar on collecting location data, the three-year deletion and the private right of action are in the 2031 bill and apply from October 1, 2031, unless a standalone privacy bill passes first, as Draft 2 proposes (sec. 111, MOV-31.11).
+- **Taxpayers.** Per-mile charge readings are tax return information, with the Internal Revenue Code's remedies for disclosure, from the charge's first day. From the charge's start on October 1, 2030, the 2029 act defines it by odometer readings only and the readings are tax return information; the bar on collecting location data, the three-year deletion and the private right of action are in the 2031 bill and apply from October 1, 2031 (sec. 111, MOV-31.11). Draft 2 suggests a standalone privacy bill before October 1, 2030 to close that year. That is Draft 2's suggestion, not a plan commitment: no provision, vehicle or agenda row carries it (a question for Espen on the board).
 - **States and sponsors.** Executed agreements can be terminated only after notice, a cure period and judicial review (section 4 above).
 - **Riders.** The service floor is a grant condition. An area that drops below 95% of its FY2028-30 service hours loses the operating tier for that year.
 - **The public.** Each state's condition trend, each large lane-adding project's lifecycle analysis, and each transit area's preventive-maintenance share and cost per service hour are published every year. FHWA and FTA review the outliers (memos 4 and 5).

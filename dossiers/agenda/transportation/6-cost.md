@@ -18,7 +18,7 @@ From the ledger (built from the transportation model by `models/tools/ledger-bui
 
 | Law | General-fund spending | New dedicated revenue (net of the offset) | Net | Window |
 | --- | --- | --- | --- | --- |
-| 2028 extension (MOV-28, 2027-28 exception) | A transfer keeping both accounts solvent through FY2031, **not yet sized** | Extends current rates; no new rates | — | FY2029-31 |
+| 2028 extension (MOV-28, 2027-28 exception) | A transfer keeping both accounts solvent through FY2031, not yet sized; working range up to about $131B (below) | Extends current rates; no new rates | — | FY2029-31 |
 | 2029 act (MOV-29, R1) | $47.0B package one + $209.74B renewal top-ups for FY2032-35 | $290.0B ($386.7B gross): fuel taxes indexed with steps, the clean-vehicle charge, truck excises | About $33.3B deficit reduction | FY2029-38 |
 | 2030 act (MOV-30, R3) | $33.5B package two + $57.33B top-ups for FY2035-36 | $95.0B ($126.7B gross): weight-distance charge, rail diesel, aviation surcharge | About $4.2B deficit reduction | FY2030-39, to be rescored on FY2031-40 if carried on the FY2031 resolution |
 | Moving America Act of 2031 (MOV-31) | $123.70B expansion and about $1B for division E | Restates the 2029-30 revenue | Cost | FY2032-36 |
@@ -31,7 +31,7 @@ Over FY2032-36 the 2031 bill authorizes $936.57B. Dedicated receipts cover $545.
   - the 25% offset (CBO's convention);
   - 2.5% inflation and 4.1% nominal GDP growth in the transportation model;
   - no demand response (an upper bound on receipts).
-- **Open:** the size of the 2028 extension's transfer. It depends on the baseline case (`3-design.md`) and is sized when the 2028 law is drafted.
+- **The 2028 extension's transfer: a working assumption.** Up to about $131 billion: CBO's cumulative shortfalls through FY2031 of $86.0 billion (highway account) and $45.2 billion (transit account) [EV-MOV-002], the upper bound under baseline case 1 (`3-design.md`). It is lower if a five-year law changes outlays or the 2029 act's receipts arrive first, and it is sized when the 2028 law is drafted. **How it scores:** under CBO's convention the baseline already assumes trust-fund outlays continue at current levels, so a general-fund transfer into the fund adds little or nothing to the measured deficit. The settlement should not count it as new cost. The cost of being wrong is small for this dossier: it is a 2027-28 exception and no 2029-on choice turns on it.
 
 ## 2. The general-fund draw by year
 
@@ -131,7 +131,7 @@ Fuel taxes are a larger share of lower-income households' budgets, and transport
 ## Open questions
 
 None for Espen; each is a question about money that stays with the settlement or the budget model:
-1. **The 2028 extension's transfer** is not sized. It is sized when the extension is drafted, on the baseline case then known.
+1. **The 2028 extension's transfer** has a working range (up to about $131 billion, scoring at little or nothing against CBO's baseline; section 1). It is sized when the extension is drafted, on the baseline case then known.
 2. **FY2040 booking of spending** ($22.1 billion booked; $29.0 billion on the model's spending path). For the budget model owner, with B6 item 4; a tier-3 inputs change if adopted.
 3. **The 2030 act's window.** Rescore on FY2031-40 if it rides the FY2031 resolution (R3), as the ledger notes.
 4. **The offset (MR6)** is not a question but a correction: $29.0 billion in FY2040, not yet booked; booking pending (step 2), a tier-3 inputs change because it touches `models/data/inputs/`.

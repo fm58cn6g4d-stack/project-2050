@@ -1,6 +1,6 @@
 # Dossier: transportation (wave two; the reference dossier)
 
-Role: the transportation dossier, converted from the legacy Moving America design as the reference example of a finished dossier (`charter/PLAN.md` 3.1). Status: in progress, stage C step 7: sections 1-9 drafted; the memo set decided as recommended (`DEC-2026-11-10-08`). Level: MOV-28 to MOV-31 and MR1 to MR6 at L2 (decided); L3 after the milestone review. Level: every item is at L1 in `agenda/agenda.csv`; the target is L3, with priority pieces at L4.
+Role: the transportation dossier, converted from the legacy Moving America design as the reference example of a finished dossier (`charter/PLAN.md` 3.1). Status: in progress, stage C step 7: sections 1-9 drafted; the memo set decided as recommended (`DEC-2026-11-10-08`). Level: MOV-28 to MOV-31 and MR1 to MR6 are at L2 (decided) in `agenda/agenda.csv`, L3 after the milestone review's fixes and re-check (`review-milestone.md`); the target is L3, with priority pieces at L4.
 
 **What it brings together:** highways and highway safety, public transportation, intercity passenger rail, and the Surface Transportation Trust Fund that pays for them, carried by four laws: a 2028 extension (a labeled 2027-28 exception), the 2029 and 2030 reconciliation acts, and the Moving America Act of 2031.
 
@@ -24,7 +24,7 @@ Role: the transportation dossier, converted from the legacy Moving America desig
 | 8. What would change our minds | Draft (PR 3): `8-change-our-minds.md`. For each decision, the uncertainty, a threshold, who sees it and when, and the fallback; political and legal events; the fallback tiers; three hard stops; when the evidence arrives |
 | 9. The public case | Draft (PR 3): `9-public-case.md`. A brief, the case in one paragraph, seven messages with the line each must not cross, hard questions, composite stories, a can-say list and a source table; only from sections 1-8 |
 
-Evidence register: `evidence.json` (EV-MOV-001 to 099 section 1; 100 to 199 transit, rail and section 2; 200 to 299 project estimates from the legacy model). Source IDs numbered 3500 to 3599 are reserved for this dossier (the care dossier uses 3000 to 3299). Provisions: `provisions.json`, IDs under the agenda's MOV- rows (from section 4).
+Evidence register: `evidence.json` (EV-MOV-001 to 099 section 1; 100 to 199 transit, rail and section 2; 200 to 299 project estimates from the legacy model). Source IDs numbered 3500 to 3599 are reserved for this dossier (the care dossier has SRC-3000 to 3499, as the board reserves them in `charter/PROGRESS.md`). Provisions: `provisions.json`, IDs under the agenda's MOV- rows (from section 4).
 
 ## Open questions for Espen
 

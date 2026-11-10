@@ -10,8 +10,8 @@ Outcomes the choices serve:
 
 ## How to read this section
 
-- **Six forks, one memo set.** Each fork that is Espen's to decide has a memo in `memos/`, with two to four options, a recommendation and its evidence. The six are sent together as one batch, so they can be decided in one round (`memos/README.md`). Approval is per memo, never as a package.
-- **Recommended without a memo.** Eight narrower points, each a yes-or-no question. None is adopted by silence.
+- **Six forks, one memo set.** Each fork that is Espen's to decide has a memo in `memos/`, with two to four options, a recommendation and its evidence. The six were sent together as one batch and decided in one round (`DEC-2026-11-10-08`; `memos/README.md`). Approval was per memo, never as a package.
+- **Recommended without a memo.** Eight narrower points, each a yes-or-no question. Espen decided all eight as recommended (`DEC-2026-11-10-08`).
 - **Everything else stays a working choice.** The table at the end lists all twenty-eight legacy calls (A-1 to A-28) and what this section does with each.
 - Numbers from the plan's own model are project estimates (grade D): the legacy model's arithmetic, with no demand response. Sections 6 and 7 rerun and test them.
 
@@ -56,7 +56,7 @@ Under `DEC-2026-11-10-05` the dossier reports instead: yearly cost, permanent co
 
 `DEC-2026-11-09-13` (guide, don't police) bears on four places:
 - **The clean-vehicle charge** reads the odometer at registration or inspection and bars location data [EV-MOV-204]. That is one plain test, using records the government already holds.
-- **The weight-distance charge** uses the mileage records carriers already file each quarter under the fuel-tax agreement (memo 2).
+- **The weight-distance charge** uses the mileage records interstate carriers already file each quarter under the fuel-tax agreement (memo 2). Intrastate trucks file no such return; they report once a year (section 5), a new line or filing for them.
 - **Conditions on states' formula money** are the main case where the legacy design polices up front. Memo 5 weighs a lighter version: published condition reports and a review trigger, with one price signal kept.
 - **The transit operating help** has conditions (maintenance of effort, service floors, a use rule). Memo 4 says what each costs agencies in burden as well as what it buys.
 
@@ -90,6 +90,7 @@ Transportation relies on few of `dossiers/shared-rules.md`'s rules, because it h
   - Indexing alone raises the general-fund draw from 0.180% to 0.267% of GDP [EV-MOV-203].
   - Dropping the premium more than doubles the FY2042-46 draw [EV-MOV-206].
 - **Recommendation: A.** The premium is the long-run signal and the cheapest way to retire the general-fund draw, and clean vehicles never pay it. Its receipts are an upper bound, because the model has no demand response [EV-MOV-206].
+- **Decided:** option A, as recommended (`DEC-2026-11-10-08`).
 
 ## Fork 2. Trucks, rail and air (memo 2)
 
@@ -98,7 +99,8 @@ Transportation relies on few of `dossiers/shared-rules.md`'s rules, because it h
   - Trucks over 26,000 lb pay a weight-distance charge (a 3-cent average for the heaviest classes) in place of the use tax, with zero-emission trucks at a 4% excise.
   - Rail diesel is taxed at 15 or 7.5 cents by railroad class, with short lines exempt.
   - The aviation segment surcharge rises from $4 to $16.
-- **Recommendation: A**, with section 4 keeping the charge on records carriers already file. A 2-cent average raises the draw slightly [EV-MOV-207]. Without the rail and air taxes, rail's coverage roughly halves [EV-MOV-208].
+- **Recommendation: A**, with section 4 keeping the charge on records interstate carriers already file (intrastate carriers report once a year; section 5). A 2-cent average raises the draw slightly [EV-MOV-207]. Without the rail and air taxes, rail's coverage roughly halves [EV-MOV-208].
+- **Decided:** option A, as recommended (`DEC-2026-11-10-08`).
 
 ## Fork 3. How large, and how split (memo 3)
 
@@ -109,6 +111,7 @@ Transportation relies on few of `dossiers/shared-rules.md`'s rules, because it h
   - Take the first fallback tier.
 - **The split.** It does not change the total draw. It decides which account reaches self-sufficiency, and moving it in FY2037 strands nothing [EV-MOV-211].
 - **Recommendation: A.** Keep the envelope and the split; publish the benchmark as a comparison; keep section 108's capped backstop. Resizing by need is the alternative the settlement can choose if the plan-wide margin allows.
+- **Decided:** option A, as recommended (`DEC-2026-11-10-08`).
 
 ## Fork 4. Transit operating help (memo 4)
 
@@ -119,6 +122,7 @@ Transportation relies on few of `dossiers/shared-rules.md`'s rules, because it h
   - C: $70.00B [EV-MOV-210].
   - D: B's money with lighter conditions.
 - **Recommendation: D**, under the design lens. Keep the money, the maintenance of effort and the service floor, which protect riders. Replace the narrower use rules with published reporting. Memo 4 lists each condition with its burden.
+- **Decided:** option D, as recommended (`DEC-2026-11-10-08`).
 
 ## Fork 5. Conditions on states (memo 5)
 
@@ -127,6 +131,7 @@ Transportation relies on few of `dossiers/shared-rules.md`'s rules, because it h
   - a lifecycle test applies to projects over $100M that add lanes;
   - the federal share falls to 70% for new general-purpose lanes.
 - **Recommendation: B.** Keep the lower federal share for new lanes, a simple price signal that needs no review. Turn the preservation shift and the lifecycle test into published reports, with a review trigger where a state's condition falls. The design lens favors published counts and review triggers over gates enforced up front. Safety and local access (A-25) stay as chosen: they set shares, not reviews.
+- **Decided:** option B, as recommended (`DEC-2026-11-10-08`).
 
 ## Fork 6. Intercity passenger rail (memo 6)
 
@@ -136,21 +141,22 @@ Transportation relies on few of `dossiers/shared-rules.md`'s rules, because it h
   - a contingent reserve of up to $25B is released only as projects clear their gates;
   - terminal money is a single program.
 - **Recommendation: A.** Memo 6 weighs firmer gates (B) and a slower start for high-speed lines (C).
+- **Decided:** option A, as recommended (`DEC-2026-11-10-08`).
 
 ## Recommended without a memo
 
-Each point is a yes-or-no question for Espen. None is adopted by silence.
+Each point was a yes-or-no question for Espen. Espen decided all eight as recommended (`DEC-2026-11-10-08`).
 
-1. **If no multi-year law is in place by the end of 2028, authorize programs in 2029-30.** Under baseline cases 2 and 3, the plan writes a regular-order authorization for the years to FY2031 alongside the 2029 act (MOV-31.90), and the 2031 bill becomes its renewal. Recommended: yes. The reconciliation acts cannot authorize programs (the Byrd rule), so without this the money has nowhere to go.
-2. **The 2028 extension (A-9), as a labeled 2027-28 exception.** It is a one-year extension of the expiring rates and fund credits, plus a transfer through FY2031, with no new revenue in FY2029. Recommended: yes. It keeps 2029's forcing event: an expiring tax base to reform.
+1. **If no multi-year law is in place by the end of 2028, authorize programs in 2029-30.** Under baseline cases 2 and 3, the plan writes a regular-order authorization for the years to FY2031 alongside the 2029 act (MOV-31.90), and the 2031 bill becomes its renewal. Recommended: yes. The reconciliation acts cannot authorize programs (the Byrd rule), so without this the money has nowhere to go. Decided: yes (`DEC-2026-11-10-08`).
+2. **The 2028 extension (A-9), as a labeled 2027-28 exception.** It is a one-year extension of the expiring rates and fund credits, plus a transfer through FY2031, with no new revenue in FY2029. Recommended: yes. It keeps 2029's forcing event: an expiring tax base to reform. Decided: yes (`DEC-2026-11-10-08`).
 3. **Money paths and timing (A-14, A-15, A-16).**
    - Contract authority is capped at receipts.
    - Renewal top-ups go to programs in the two reconciliation acts.
    - Expansion is appropriated in the 2031 bill.
    - The packages obligate over FY2029-31.
 
-   Recommended: yes. Obligating each package in its enactment year leaves a $26.7B rail cliff [EV-MOV-217], and placing top-ups by fiscal year would make the 2030 act fail the Byrd out-year test [EV-MOV-218].
-4. **The Charging Gap Program replaces NEVI (A-27).** National reverse auctions on a published gap map: half paid at energization, half over five years for uptime, a 24-month lapse rule, unspent NEVI balances folded in. It costs $2.63B of formula money, with no new money, but the method is untested at federal scale [EV-MOV-216]. Recommended: yes, with the auction treated as something to study in implementation (section 8).
+   Recommended: yes. Obligating each package in its enactment year leaves a $26.7B rail cliff [EV-MOV-217], and placing top-ups by fiscal year would make the 2030 act fail the Byrd out-year test [EV-MOV-218]. Decided: yes (`DEC-2026-11-10-08`).
+4. **The Charging Gap Program replaces NEVI (A-27).** National reverse auctions on a published gap map: half paid at energization, half over five years for uptime, a 24-month lapse rule, unspent NEVI balances folded in. It costs $2.63B of formula money, with no new money, but the method is untested at federal scale [EV-MOV-216]. Recommended: yes, with the auction treated as something to study in implementation (section 8). Decided: yes (`DEC-2026-11-10-08`).
 5. **Resilience, clean fuels and freight (A-26).**
    - A 4% resilience set-aside.
    - The Carbon Reduction Program restored inside formula money.
@@ -158,8 +164,8 @@ Each point is a yes-or-no question for Espen. None is adopted by silence.
    - The 91,000-lb truck pilot ends in 2031.
    - 15% of freight formula money goes to truck parking.
 
-   The set-asides move about $2.6B a year of formula money out of state discretion [EV-MOV-215]. Recommended: yes, kept as set-asides of existing money rather than new programs.
-6. **One renewal definition for all three accounts (A-19); drafted dates shifted one year, except the transit base years (A-20).** Recommended: yes.
+   The set-asides move about $2.6B a year of formula money out of state discretion [EV-MOV-215]. Recommended: yes, kept as set-asides of existing money rather than new programs. Decided: yes (`DEC-2026-11-10-08`).
+6. **One renewal definition for all three accounts (A-19); drafted dates shifted one year, except the transit base years (A-20).** Recommended: yes. Decided: yes (`DEC-2026-11-10-08`).
 7. **A transportation outcome.** Add to `charter/outcomes.md`: "People can get where they need to go, safely and affordably." Measures:
    - traffic deaths (NHTSA's FARS);
    - the share of roads and bridges in poor condition (FHWA);
@@ -167,8 +173,8 @@ Each point is a yes-or-no question for Espen. None is adopted by silence.
    - transit access for households without a car;
    - transportation emissions (EPA).
 
-   Recommended: yes. It is a tier-3 charter change in its own PR.
-8. **Division letters and the hybrid highway division (A-1, A-2).** Drafting choices; recommended: keep. If no five-year law passes, the hybrid becomes a full drafted title I (point 1).
+   Recommended: yes. It is a tier-3 charter change in its own PR. Decided: yes; added as OUT-12 (`DEC-2026-11-10-08`).
+8. **Division letters and the hybrid highway division (A-1, A-2).** Drafting choices; recommended: keep. If no five-year law passes, the hybrid becomes a full drafted title I (point 1). Decided: yes (`DEC-2026-11-10-08`).
 
 ## The legacy calls and what this section does with them
 
