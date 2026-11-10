@@ -15,6 +15,8 @@ Role: verifies every link between project records (`charter/PLAN.md`, section 4)
 
 In Markdown, an ID in a fenced code block is a format example and is not checked. Any other ID, plain or in inline code, is a citation and must resolve; placeholders such as `DEC-YYYY-MM-DD-NN` never match an ID pattern.
 
+**Restatement check** (`restatement.py`, `charter/PLAN.md` 4). When legacy content becomes a dossier, it lists every number and policy ID in the legacy file that the dossier files no longer contain: `python3 models/registry/restatement.py SOURCE RESULT... [--accounted LOG...]`, or `--map dossiers/<name>/restatement.json` for one dossier's pairs. Thousands commas and trailing decimal zeros are ignored ("$55.00B" matches "$55B"); leading zeros are dropped; numbers inside IDs and URLs are skipped. Matching is set-wide: a token counts as carried over if it appears anywhere in the result files, so the report finds what was dropped, not what was changed. The map and the accounted files never count as results. A token dropped on purpose counts as accounted for when it is written in `backticks` in an accounted file (the dossier's restatement log or the decision log). Step 8e runs it on every map (`--all`) as a report; it never fails the checks (`--strict` makes it exit 1 for local use). Tests: `test_restatement.py`.
+
 The figure and rounding rules live in `claims.py`. The public story builder uses the same module, so essays and evidence registers follow one rule set.
 
 An evidence entry looks like this:

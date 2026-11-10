@@ -1,0 +1,115 @@
+{
+  "role": "Restatement map for the transportation dossier: each legacy file and the dossier files that replace it (models/registry/restatement.py; charter/PLAN.md section 4). Tokens dropped on purpose are listed in backticks in restatement-log.md with the reason or the DEC- entry.",
+  "pairs": [
+    {
+      "source": "legacy/domains/transportation-moving-america-act-2031-draft-2.md",
+      "result": [
+        "dossiers/agenda/transportation/*.md",
+        "dossiers/agenda/transportation/*.json"
+      ],
+      "accounted": [
+        "dossiers/agenda/transportation/restatement-log.md"
+      ]
+    },
+    {
+      "source": "legacy/frameworks/transportation-transit-rail-split.md",
+      "result": [
+        "dossiers/agenda/transportation/*.md",
+        "dossiers/agenda/transportation/*.json"
+      ],
+      "accounted": [
+        "dossiers/agenda/transportation/restatement-log.md"
+      ]
+    },
+    {
+      "source": "legacy/sources/transportation-arca-2031-bill-architecture.md",
+      "result": [
+        "dossiers/agenda/transportation/*.md",
+        "dossiers/agenda/transportation/*.json"
+      ],
+      "accounted": [
+        "dossiers/agenda/transportation/restatement-log.md"
+      ]
+    },
+    {
+      "source": "legacy/sources/transportation-arca-status-oct12.md",
+      "result": [
+        "dossiers/agenda/transportation/*.md",
+        "dossiers/agenda/transportation/*.json"
+      ],
+      "accounted": [
+        "dossiers/agenda/transportation/restatement-log.md"
+      ]
+    },
+    {
+      "source": "legacy/sources/transportation-atra-2031-bill-architecture.md",
+      "result": [
+        "dossiers/agenda/transportation/*.md",
+        "dossiers/agenda/transportation/*.json"
+      ],
+      "accounted": [
+        "dossiers/agenda/transportation/restatement-log.md"
+      ]
+    },
+    {
+      "source": "legacy/sources/transportation-atra-merge-contribution-oct12.md",
+      "result": [
+        "dossiers/agenda/transportation/*.md",
+        "dossiers/agenda/transportation/*.json"
+      ],
+      "accounted": [
+        "dossiers/agenda/transportation/restatement-log.md"
+      ]
+    },
+    {
+      "source": "legacy/sources/transportation-calendar-fy2032-36.md",
+      "result": [
+        "dossiers/agenda/transportation/*.md",
+        "dossiers/agenda/transportation/*.json"
+      ],
+      "accounted": [
+        "dossiers/agenda/transportation/restatement-log.md"
+      ]
+    },
+    {
+      "source": "legacy/sources/transportation-merge-status-oct12.md",
+      "result": [
+        "dossiers/agenda/transportation/*.md",
+        "dossiers/agenda/transportation/*.json"
+      ],
+      "accounted": [
+        "dossiers/agenda/transportation/restatement-log.md"
+      ]
+    },
+    {
+      "source": "legacy/sources/transportation-package-section-by-section.md",
+      "result": [
+        "dossiers/agenda/transportation/*.md",
+        "dossiers/agenda/transportation/*.json"
+      ],
+      "accounted": [
+        "dossiers/agenda/transportation/restatement-log.md"
+      ]
+    },
+    {
+      "source": "legacy/sources/transportation-transit-context-notes-oct04.md",
+      "result": [
+        "dossiers/agenda/transportation/*.md",
+        "dossiers/agenda/transportation/*.json"
+      ],
+      "accounted": [
+        "dossiers/agenda/transportation/restatement-log.md"
+      ]
+    },
+    {
+      "source": "legacy/sources/transportation-transit-package-status-oct12.md",
+      "result": [
+        "dossiers/agenda/transportation/*.md",
+        "dossiers/agenda/transportation/*.json"
+      ],
+      "accounted": [
+        "dossiers/agenda/transportation/restatement-log.md"
+      ]
+    }
+  ]
+}
