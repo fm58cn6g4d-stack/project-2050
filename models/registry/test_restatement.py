@@ -76,6 +76,20 @@ class RestatementTests(unittest.TestCase):
         self.assertEqual(r['results'], ['d/1.md'])
         self.assertEqual(([m['token'] for m in r['missing']], [m['token'] for m in r['accounted']]), ([], ['91000']))
 
+    def test_statute_and_table_labels_are_not_ids(self):
+        root = self.tree('A-23 $55B FY2032-36 MR1 3 1000 0.18 91000')
+        (root / 'legacy/old.md').write_text(SOURCE + 'Under MAP-21 and the FY31-35 table.\n')
+        missing, _ = self.missing(root)
+        self.assertEqual(missing, set())
+
+    def test_by_reference_pairs_report_one_line_and_skip_strict(self):
+        root = self.tree('nothing restated')
+        (root / 'd/restatement.json').write_text(json.dumps(
+            {'pairs': [{'source': 'legacy/old.md', 'result': ['d/1.md'], 'by_reference': 'drafting base'}]}))
+        r = restatement.run_map(root, 'd/restatement.json', limit=None)[0]
+        self.assertEqual(r['by_reference'], 'drafting base')
+        self.assertTrue(r['missing'])
+
     def test_leading_zeros_are_ignored(self):
         self.assertEqual([restatement.norm(n) for n in ('07', '0.50', '007.10', '0')], ['7', '0.5', '7.1', '0'])
 

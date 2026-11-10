@@ -1,0 +1,2293 @@
+[
+ {
+  "id": "MOV-28.01",
+  "title": "The 2028 extension: rates and fund credits for one more year, with a transfer keeping both accounts solvent through FY2031 (a 2027-28 exception)",
+  "agenda": "MOV-28",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "A labeled 2027-28 exception: it is enacted before the plan's January 2029 start, by Sept 30, 2028, and needs a bipartisan 60-vote regular bill under divided government. (1) Extend 26 U.S.C. 9503(b) and (e) and the expiring rates one year, to Sept 30, 2029, with no change to the Mass Transit Account's 2.86 cents and no merger of the accounts (the Secretary's July 2026 proposal to eliminate the Mass Transit Account is not adopted). (2) A general-fund transfer that keeps both accounts solvent through FY2031; the transfer is not yet sized. Reconciliation cannot make an intragovernmental transfer later (Byrd rule), and BUILD America 250-Plus's proposed $108.0B transfer covers only CBO's shortfall through FY2030 (CBO's end-FY2031 shortfalls under H.R. 8870 are $99.5B highway and $48.2B transit, assuming the expiring taxes continue; a cash-flow model is needed to size it). (3) Extend the heavy-vehicle use tax to Sept 30, 2030, so it runs until the weight-distance charge starts (Draft 2's vehicle table at L24 omits this; L208 and L1830 include it; this provision follows the longer text). No new revenue in FY2029: FY2029 receipts are current-law rates, $49.3B. New rates start Oct 1, 2029 (fuel), Oct 1, 2030 (per-mile charges, trucks, rail diesel at 10 and 5 cents) and Oct 1, 2031 (aviation; rail diesel at 15 and 7.5 cents). Why a one-year extension: it keeps 2029's forcing event, an expiring tax base to reform. A-9 (3-design.md, point 2, decided as recommended). Not modelled: the case with no extension, or one that runs past FY2029 (the forcing event is lost, though reconciliation can still raise rates).",
+  "eligibility": "Owners and users of the taxed fuels, vehicles and trips; no income test (transportation has no income-tested benefit); the transfer pays the Highway and Mass Transit Accounts",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "revenue",
+    "note": "60 votes; extends rates and fund credits to Sept 30, 2029 and the use tax to Sept 30, 2030; a 2027-28 exception, by Sept 30, 2028"
+   },
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "general-fund transfer keeping both accounts solvent through FY2031; not yet sized"
+   }
+  ],
+  "agency": "Treasury (IRS); DOT (the fund's accounts)",
+  "current_law": "Current law credits the fund only with taxes received before Oct 1, 2028; gasoline 18.3 cents and diesel 24.3 cents fall to 4.3 cents after Sept 30, 2028 [EV-MOV-016]. Fund credits and expenditure authority in 26 U.S.C. 9503 end Sept 30, 2028. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028. In case 3 the extension is what prevents a cash crisis on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-001",
+   "EV-MOV-002",
+   "EV-MOV-004",
+   "EV-MOV-015",
+   "EV-MOV-016",
+   "EV-MOV-131"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md: transfer not yet sized (needs the cash-flow model); FY2029 receipts $49.3B at current-law rates (Draft 2 section 6.1); the 250-Plus transfer of $108.0B is a different, 2026 proposal",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-29.01",
+  "title": "Fuel taxes permanent and indexed, with ten 3-cent Fix-It-First steps and a gas-price pause (MR1; 2029 act)",
+  "agenda": "MOV-29",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2029 reconciliation act (vehicle R1); effective for removals, entries and sales after Sept 30, 2029 (MR1; A-10; memo 1 option A; Draft 2 div. A sec. 103(a)-(d), (f)). (1) Strike 26 U.S.C. 4081(d)(1), so the rates are permanent. (2) New 4081(a)(2)(E): for fiscal years beginning after Sept 30, 2029 the rate is the clause rate plus the Fix-It-First amount plus the fossil transition amount (MOV-29.02), multiplied by 1 plus the cost-of-living adjustment, rounded to the nearest 0.1 cent, never lower than the prior year. The adjustment is CPI-U for the 12 months ending June 30 against the 12 months ending June 30, 2028 (indexed from FY2030). (3) Fix-It-First amount: 3 cents times the number of steps taken, at most 10; one step on Oct 1, 2029 and one each Oct 1 after, until 10. (4) Price pause: no step in a year if the EIA average retail regular gasoline price for the 12 months ending June 30 exceeded $4.00 times 1 plus that October's adjustment, or exceeded the preceding 12-month average by more than 20 percent; a deferred step is taken on the first Oct 1 that neither test applies, never more than one step on an Oct 1 (deferred, not forfeited). Other fuels under 26 U.S.C. 4041 follow. (5) Permanent fund credits and expenditure authority: strike 'before October 1, 2028' in 9503(b)(1), conform (b)(2), strike the expenditure end dates in 9503(c)(1) and (e)(3) and refer to divisions A-D. Draft 2 notes the dates assume the 2028 extension carries credits only to Sept 30, 2029 (MOV-28.01). Cost to drivers: a 25-mpg car driven 12,000 miles pays $88 a year now, $105 in FY2030, $142 in FY2032 and $225 in FY2036; with no pause gasoline reaches 62.0 cents nominal in FY2039, 48.4 cents in 2029 dollars, against 45.3 cents for the 1993 rate in 2029 dollars (other Draft 2 passages say 'about 48 cents' and 'near where 1993 left it'; the 48.4 / 45.3 pair governs). Receipts FY2032-36: $426.7B of fuel tax (gasoline $294.2B, diesel $132.5B). Alternatives weighed (memo 1): indexing only (draw 0.267% of GDP; coverage in FY2042-46 62 / 42 / 75), 2-cent steps (0.209%; 85 / 88 / 111), three pauses (0.204%, recovered later; about $53.3B of FY2032-36 receipts). Model has no demand response (probably 2-3% of fuel receipts). Score: +$380.4B gross over FY2029-38 for indexing and steps.",
+  "eligibility": "Owners and users of the taxed fuels, vehicles and trips; no income test (transportation has no income-tested benefit)",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "revenue",
+    "note": "fuel-tax rates, indexing and steps credited to the fund; the 1990 motor-fuel precedent"
+   }
+  ],
+  "agency": "Treasury (IRS); DOT",
+  "current_law": "Current law credits the fund only with taxes received before Oct 1, 2028; gasoline 18.3 cents and diesel 24.3 cents fall to 4.3 cents after Sept 30, 2028 [EV-MOV-016]. Rates have not risen since 1993; state indexing is common (26 states and DC have variable-rate gas taxes) [EV-MOV-123]. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028; the act works in every case because it sets revenue.",
+  "evidence": [
+   "EV-MOV-016",
+   "EV-MOV-123",
+   "EV-MOV-124",
+   "EV-MOV-129",
+   "EV-MOV-134",
+   "EV-MOV-200",
+   "EV-MOV-201",
+   "EV-MOV-202",
+   "EV-MOV-203",
+   "EV-MOV-219"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.1 and 6.8: $426.7B FY2032-36; +$380.4B gross FY2029-38 (net of the 25% offset see MOV-29.10)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-29.02",
+  "title": "The fossil transition premium, FY2040-44 (A-28; MR1; enacted in 2029, scores nothing inside either window)",
+  "agenda": "MOV-29",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2029 reconciliation act (R1); memo 1 option A; Draft 2 div. A sec. 103(b) (new 4081(a)(2)(E)(iv), (v)) and sec. 101(l), (m). Fossil transition amount: 2 cents times the number of transition steps, at most 5, one step each Oct 1 not earlier than Oct 1, 2039 and only after all ten Fix-It-First steps are taken; the same price pause applies. Clean vehicles pay the road-use rate (the rate without the fossil transition amount, 4081(a)(2)(E)(v)), never the premium. Receipts are credited outside the sec. 101(c)-(d) split, in proportion to each account's projected excess of obligations over other receipts in the latest report under div. A sec. 108(a) (MOV-31.08), and by the 35/50/15 or 45/40/15 shares if there is no report (the report exists only if the 2031 bill is law). Policy statement (sec. 101(m)): reduce dependence on fossil fuels. Effect: it starts in FY2040, outside both reconciliation windows, so the acts score nothing for it. Receipts: $16.3B in FY2037-41 and $124.8B in FY2042-46, an upper bound because the model has no demand response and a premium meant to move drivers off fossil fuel shrinks its own base. Without it FY2042-46 draws 0.065% of GDP instead of 0.026%, and renewal coverage (highway / transit / rail) is 89 / 96 / 104 instead of 95 / 109 / 135 (Draft 2's A-8 line quotes 89 / 96 / 104 without saying it excludes the premium; the base case with the premium is 95 / 109 / 135). Crediting by need is insurance: credited by the regular split it stranded $28.9B in transit under a 25-mpg peg. Alternatives: no premium; a larger, open-ended one.",
+  "eligibility": "Owners and users of the taxed fuels, vehicles and trips; no income test (transportation has no income-tested benefit) (gasoline and diesel users; clean vehicles exempt)",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "revenue",
+    "note": "premium steps FY2040-44; scores nothing inside the 2029 window"
+   }
+  ],
+  "agency": "Treasury (IRS); DOT",
+  "current_law": "Current law credits the fund only with taxes received before Oct 1, 2028; gasoline 18.3 cents and diesel 24.3 cents fall to 4.3 cents after Sept 30, 2028 [EV-MOV-016]. No premium exists; the premium is a new component of the fuel rate.",
+  "evidence": [
+   "EV-MOV-016",
+   "EV-MOV-200",
+   "EV-MOV-206",
+   "EV-MOV-211"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.1: $16.3B FY2037-41, $124.8B FY2042-46 (upper bound); sec. 6.8: scores nothing in FY2029-38",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-29.03",
+  "title": "The clean-vehicle per-mile charge, odometer base only (MR2; A-11; 2029 act, starts Oct 1, 2030)",
+  "agenda": "MOV-29",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2029 reconciliation act (R1); memo 1 option A; Draft 2 div. A sec. 102 (new 26 U.S.C. 4491-4493, subchapter E of chapter 36). Rate per mile: for a covered vehicle of 26,000 lb gross vehicle weight or less, the gasoline road-use rate on Oct 1 of the fiscal year divided by 40; for a plug-in hybrid, 30 percent of that; for any other covered vehicle, the diesel road-use rate divided by 6.5. Parity is with what an efficient (40-mpg) gas car pays to keep roads funded, never with the fossil premium, so no clean car pays more per mile than a 40-mpg hybrid. Covered: battery-electric (external recharge) or fuel-cell vehicles. Exempt: the United States, States and political subdivisions, tribal governments, public transportation. No tax on miles before Oct 1, 2030 (a year after enactment, to give Treasury and the States time to build collection). Base (4492): the difference between odometer readings at registration, renewal, inspection or an owner-submitted reading, for a period of not more than 15 months; no location data (the bar and the retention rules are in the 2031 bill, MOV-31.11, because reconciliation may not carry them; readings are return information under 26 U.S.C. 6103 from the first day, so the gap is narrow, and a standalone privacy bill before Oct 1, 2030 would close it). Payment (4493): annual; State agreements remit not less than 99 percent of collections within 60 days; a cost allowance of not more than 10 percent of collections, not credited to the Fund. Credited to the fund under 9503(b)(1)(F). Implementation: $750,000,000 to Treasury, available until Sept 30, 2033, for systems and State agreements; $25,000,000 to DOT for a highway cost allocation study by class, weight and axle configuration, due to Ways and Means and Finance by March 31, 2030. Amounts: 0.64 cents a mile in FY2031 ($77 a year at 12,000 miles), 1.17 cents in FY2036 ($141, equal to a 40-mpg hybrid) and 1.84 cents in FY2046 ($221, against $267 for the hybrid and $427 for a 25-mpg car); a plug-in driven 40% on electricity pays about $126 in FY2036. Receipts FY2032-36: $14.5B (cars $8.5B, trucks $6.0B). Alternative weighed: pegging to 25 mpg with plug-ins at 50% (about $5.7B more in FY2032-36). Score: +$16.5B (cars) and +$12.9B (trucks) over FY2029-38.",
+  "eligibility": "Owners of battery-electric, fuel-cell and plug-in hybrid vehicles; no income test",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "revenue",
+    "note": "per-mile charge defined by odometer records, credited to the fund; implementation money $750M (Treasury) and $25M (DOT study)"
+   }
+  ],
+  "agency": "Treasury (IRS); States by agreement; DOT (cost allocation study)",
+  "current_law": "No federal charge on clean vehicles; the 250-Plus EV fee (H.R. 8870 sec. 1129) goes to the general fund and is bridged by MOV-29.04. Oregon's mandatory charge phases in from July 2027 and Utah runs a voluntary one [EV-MOV-117] [EV-MOV-119]. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-116",
+   "EV-MOV-117",
+   "EV-MOV-119",
+   "EV-MOV-120",
+   "EV-MOV-204",
+   "EV-MOV-205"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.1 and 6.8: $14.5B FY2032-36; +$16.5B cars, +$12.9B trucks FY2029-38; implementation $0.775B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-29.04",
+  "title": "Truck and tire excises permanent, 4% for zero-emission trucks; the EV fee as a one-year bridge (MR3; 2029 act)",
+  "agenda": "MOV-29",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2029 reconciliation act (R1); memo 2 and memo 1 (A-12 truck excises; MR3); Draft 2 div. A sec. 104(c) and sec. 103(e). (1) Repeal the end dates in 26 U.S.C. 4051(c) and 4071(d), so the 12 percent retail excise on trucks and the tire tax are permanent. (2) For a zero-emission chassis, body or tractor sold after Sept 30, 2029, '4 percent' replaces '12 percent' (it carries a purchase incentive; it scores -$8.4B over FY2029-38). (3) The BUILD America 250-Plus EV fee (H.R. 8870 sec. 1129): amounts for registration periods beginning after Sept 30, 2029 are deposited in the Surface Transportation Trust Fund instead of the general fund; no fee for any registration period beginning after Sept 30, 2030 on a vehicle subject to the charge in 4491 (MOV-29.03). The bridge lasts one year (about $1.2B in FY2030) and ends when the per-mile charge begins; ending it scores -$14.7B over FY2029-38 against a baseline that sends the fee to the general fund through FY2036. Working assumption: if no multi-year law with an EV fee passes (baseline cases 2 and 3) there is nothing to bridge, and the per-mile charge begins alone on Oct 1, 2030. 'Other fund taxes' (truck sales and tire taxes net of the 4% rate, plus the use tax until it ends Sept 30, 2030) are $32.6B in FY2032-36. Pending Code check: 4081/6427(l) conforming rules.",
+  "eligibility": "Buyers of heavy trucks and tires; owners of electric vehicles for the bridge year",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "revenue",
+    "note": "truck and tire excises and the EV-fee deposit credited to the fund"
+   }
+  ],
+  "agency": "Treasury (IRS); DOT",
+  "current_law": "The truck and tire excise rates end Sept 30, 2028 under current law [EV-MOV-016 covers fuel rates only; the excise end dates are in 26 U.S.C. 4051(c) and 4071(d)]. H.R. 8870 would send the EV fee ($16.8B gross, $12.4B net, FY2026-36) to the general fund. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-001",
+   "EV-MOV-016",
+   "EV-MOV-204"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.8: -$8.4B (4% excise) and -$14.7B (EV fee ended) over FY2029-38; other fund taxes $32.6B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-29.05",
+  "title": "The three-account fund and its shares of new revenue: 35 / 50 / 15 (2029 act); 45 / 40 / 15 from FY2037 is in the 2031 bill (MOV-31.01)",
+  "agenda": "MOV-29",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2029 reconciliation act (R1), revenue title; Draft 2 div. A sec. 101 (a)-(f), (h), (j)-(m); memo 3 option A (A-7). (a) Redesignate the Highway Trust Fund in 26 U.S.C. 9503 as the Surface Transportation Trust Fund. (b) Accounts: Highway Account, Mass Transit Account (9503(e)), Intercity Passenger Rail Account. (c) Base amounts: for FY2029 and after, the amount credited for FY2028 increased by the percentage change in CPI-U since FY2028 is credited first to the Highway and Mass Transit Accounts; pro rata if receipts fall short. (d)(1) New revenue above the base, FY2029-2036: 35 percent Highway, 50 percent Mass Transit, 15 percent Intercity Passenger Rail. The FY2037 shares (d)(2), 45 / 40 / 15 'unless a later Act provides otherwise after the report under subsection (i)', are added by the 2031 bill (MOV-31.01), not by this act. (e) Rail-specific receipts (the 4283 aviation surcharge and the 4041(a)(1)(C)(ii) rail diesel rates (IV) and (V)) are credited to the Rail Account outside (c) and (d). (f) Renewal first: account amounts are available for expansion programs only to the extent they exceed renewal amounts; expansion = CIG (5309), div. C sec. 606, div. D secs. 303, 310, 311, 312 and the readiness reserve; renewal = every Highway Account program, Mass Transit Account chapter 53 programs and the rest of div. C, and Rail Account programs other than expansion; div. B sec. 1112 is neither (A-19, one renewal definition for all three accounts). (h) Rail Account subaccounts in div. D sec. 101(b). (j) Policy: federal assistance for intercity rail and public transportation combined equals highways by FY2045 ('federal assistance' is not defined; FY2032-36 already shows transit plus rail $475.45B against highways $461.12B). (k) committees; (l) fossil transition receipts as in MOV-29.02. Why 35 / 50 / 15: the incremental shares (A-7, decided); the equal-coverage solve (50.0 / 38.2 / 11.8) is the alternative, and the move to 45 / 40 / 15 in FY2037 is A-8. Kept forever, the first split leaves transit $5.9B it cannot spend while highway renewal coverage sits at 80% in FY2042-46; with the move nothing is stranded. The split does not change the general-fund draw; it decides which account reaches self-sufficiency first. Not in this act: striking 'capital' from 9503(e)(3) (sec. 101(g)), which has no budgetary effect and rides in the 2031 bill (the Draft 2 section index lists all of sec. 101 as '2029 act'; its Byrd table puts 101(g) in the 2031 bill; this provision follows the Byrd table). Dedicated receipts by account FY2032-36: highways $321.19B, transit $154.27B, rail $70.38B.",
+  "eligibility": "Accounts of the fund; no individuals",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "revenue",
+    "note": "creating the accounts and setting their shares of receipts is available inside a revenue title (Byrd table); the 2031 bill adds the FY2037 shares"
+   }
+  ],
+  "agency": "Treasury; DOT",
+  "current_law": "26 U.S.C. 9503 has a Highway Account and a Mass Transit Account (2.86 cents of the fuel tax); no rail account; credits end Sept 30, 2028 [EV-MOV-004]. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-004",
+   "EV-MOV-131",
+   "EV-MOV-200",
+   "EV-MOV-211"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.2: dedicated receipts $545.84B FY2032-36 (highways $321.19B, transit $154.27B, rail $70.38B)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-29.06",
+  "title": "Package one, rail: $35.00B (2029 act)",
+  "agenda": "MOV-29",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2029 reconciliation act (R1); Draft 2 package table (L228-262). Every line is a general-fund appropriation 'to carry out' an existing program, with obligation and expenditure deadlines (Byrd). Lines: (1) RRIF credit risk premium subsidy, 49 U.S.C. 22402, $6.00B (supports $35-50B of lending; credit subsidy scores at obligation under FCRA); (2) zero-emission rail, electrification and trainsets, 22907 and 24911, $9.00B (discrete segments, firm orders); (3) state-of-good-repair backlog, NEC and national, 24911 and Amtrak grants, $8.00B (documented, designed work); (4) Amtrak long-distance fleet replacement, Amtrak grants, $5.50B (firm delivery schedule); (5) Corridor ID planning and design, 25101, $3.50B (100% federal share below a sponsor-capacity threshold); (6) station access and ADA, Amtrak grants, $3.00B (Amtrak-served stations only; package two's station line covers rail transit and commuter stations, so the two do not overlap). Deadlines: every package line obligated by Sept 30, 2031; capital lines expended by Sept 30, 2036; credit subsidy lines need no expenditure deadline. Obligation timing: MOV-29.09. Rail's credit subsidy is the most efficient line in either package: at quoted risk premiums $10B across both packages supports $60-80B of face-value lending. Package one total across rail and transit: $47.00B.",
+  "eligibility": "States, transit agencies, Amtrak and other rail sponsors under the programs named; no income test",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "general-fund appropriations to existing programs; conditions ride on the new money only"
+   },
+   {
+    "vehicle": "R1",
+    "kind": "credit subsidy",
+    "note": "RRIF $6.00B"
+   }
+  ],
+  "agency": "DOT (FRA, Amtrak grants); Treasury for credit",
+  "current_law": "Rail has no dedicated receipts outside the split and no mandatory money; Amtrak grants and 49 U.S.C. 22907, 24911 are annual appropriations. In case 1, H.R. 8870 authorizes about $62.4B of rail, all subject to appropriation. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-106",
+   "EV-MOV-107",
+   "EV-MOV-108",
+   "EV-MOV-110",
+   "EV-MOV-217",
+   "EV-MOV-222"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.5: package one rail $35.00B; both packages $80.50B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-29.07",
+  "title": "Package one, transit: $12.00B (2029 act)",
+  "agenda": "MOV-29",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2029 reconciliation act (R1); Draft 2 package table (L228-262). Lines: (1) operating transition grants, 49 U.S.C. 5307, $4.00B (support held at the 3-year average; service hours at least 95% of base; this is the one-time bridge, not the 5307(i) operating tier of MOV-31.40, and it keeps only the two rider protections that memo 4 option D also keeps); (2) state of good repair, shovel-ready backlog, 5337, $4.00B (projects in asset management plans); (3) bus and railcar replacement, 5339 and 5337, $3.00B (firm orders); (4) credit subsidy, transit and joint development, TIFIA, $1.00B (scores at obligation). Deadlines as MOV-29.06. Obligation: $4.0B in each of FY2029, FY2030 and FY2031. Package one total across rail and transit: $47.00B.",
+  "eligibility": "States, transit agencies, Amtrak and other rail sponsors under the programs named; no income test",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "general-fund appropriations to existing programs"
+   },
+   {
+    "vehicle": "R1",
+    "kind": "credit subsidy",
+    "note": "TIFIA $1.00B"
+   }
+  ],
+  "agency": "DOT (FTA)",
+  "current_law": "Transit operating and capital money comes from the Mass Transit Account and annual appropriations; the account runs dry in FY2027 under CBO's projection [EV-MOV-002]. Pandemic relief of $69.5B is spent [EV-MOV-103]. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-002",
+   "EV-MOV-100",
+   "EV-MOV-103",
+   "EV-MOV-104",
+   "EV-MOV-105",
+   "EV-MOV-128"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.5: package one transit $12.00B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-29.08",
+  "title": "Renewal top-ups for FY2032-34, plus FY2035 highway and transit: $209.74B, with their deadlines (A-14, A-15; 2029 act)",
+  "agenda": "MOV-29",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2029 reconciliation act (R1); point 3 of 3-design.md (A-14, A-15); Draft 2 'Renewal top-ups' table (L280-294). The renewal shortfall that dedicated receipts cannot yet cover reaches programs directly, not through the fund: reconciliation cannot make a general-fund transfer into a trust fund (Byrd rule), so top-ups are general-fund appropriations to existing programs. Highway (title 23 formula programs): $28.55B FY2032, $28.47B FY2033, $28.20B FY2034, $27.72B FY2035 = $112.94B, limited to preservation, rehabilitation, reconstruction or replacement (fix-it-first in practice). Transit (49 U.S.C. 5307, 5337, 5339, 5311): $14.04B, $11.01B, $7.68B, $3.96B = $36.69B (transit's top-up reaches zero in FY2036). Rail (Amtrak grants, 24911, 22907, 22909): $20.60B FY2032, $20.44B FY2033, $19.07B FY2034 = $60.11B. FY2035 highway and transit together are $31.68B. Total $209.74B. Deadlines: obligated by Sept 30, 2036 and spent by Sept 30, 2038; each spending title needs its own expenditure deadline because the out-year test runs title by title. Placement (A-15): FY2032-34 plus FY2035 highway and transit here; FY2035 rail and FY2036 in the 2030 act (MOV-30.06). Placing top-ups by fiscal year (FY2032-34 / FY2035-36) would add about $27.5B to deficits in the 2030 act and fail the Byrd out-year test without offsets. Locking top-ups in 2029-30 means the 60-vote 2031 bill carries only expansion appropriations, and renewal funding survives if the 2031 bill stalls or the 2030 midterms end the trifecta. The distribution among programs inside each mode is made by div. A sec. 110(b) (MOV-31.10) in the 2031 bill, so until then this act's text names the programs. Score: -$209.74B of spending in the FY2029-38 window.",
+  "eligibility": "States, transit agencies, Amtrak and other rail sponsors under the programs named; no income test",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "general-fund appropriations to existing programs with obligation and expenditure deadlines"
+   }
+  ],
+  "agency": "DOT (FHWA, FTA, FRA); Amtrak",
+  "current_law": "Existing formula programs are funded by contract authority from the Highway and Mass Transit Accounts, which CBO projects run dry in FY2028 (highway) and FY2027 (transit) [EV-MOV-002]; without top-ups the 2031 bill's contract authority is capped at receipts (MOV-31.10). 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-002",
+   "EV-MOV-015",
+   "EV-MOV-131",
+   "EV-MOV-200",
+   "EV-MOV-218"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.7: $209.74B (2029 act); total top-ups $267.07B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-29.09",
+  "title": "The obligation ramp for both packages over FY2029-31 (A-16)",
+  "agenda": "MOV-29",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Acts: the 2029 act (package one) and the 2030 act (package two); point 3 of 3-design.md. Reconciliation money obligates over FY2029-31, ramping because the 2029 act passes partway through FY2029. Package one: rail $6.0B, $13.0B, $16.0B (= $35.0B); transit $4.0B in each year (= $12.0B). Package two (MOV-30.04, MOV-30.05): rail $4.0B in FY2030 and $9.5B in FY2031 (= $13.5B); transit $9.0B in FY2030 and $11.0B in FY2031 (= $20.0B). Program totals including BUILD America 250-Plus: rail $17.90B / $29.90B / $38.80B and transit $23.93B / $33.24B / $35.71B in FY2029 / 2030 / 2031, then $39.95B and $40.30B in FY2032. Draw: 0.194% / 0.225% / 0.215% of GDP (CBO net basis 0.194% / 0.231% / 0.229%), over the old 0.206% benchmark in FY2030-31, which Draft 2 accepted and which is now only a published comparison (MOV-31.08). Why: obligating each package in its enactment year puts $35B of rail obligations into a half-year and leaves rail at $13.3B in FY2031, a $26.7B cliff into FY2032; the ramp makes it a step. Deadlines: every package line obligated by Sept 30, 2031; capital lines expended by Sept 30, 2036. Division F sec. 104 (MOV-31.86) counts this money toward a program's FY2032-36 baseline only where obligated. FY2031 solvency is the extension's job (MOV-28.01), not 250-Plus's; if both accounts are not solvent on Oct 1, 2031, the sec. 101(c) base amounts are credited against receipts already spoken for (unmodelled until the cash-flow model exists).",
+  "eligibility": "States, transit agencies, Amtrak and other rail sponsors under the programs named; no income test",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "conditions",
+    "note": "obligation schedule and deadlines on package one"
+   },
+   {
+    "vehicle": "R3",
+    "kind": "conditions",
+    "note": "obligation schedule and deadlines on package two"
+   }
+  ],
+  "agency": "DOT (FTA, FRA)",
+  "current_law": "Authorizations under the 2021 law end Sept 30, 2026 (extended to Dec 11, 2026); H.R. 8870 (case 1) would carry FY2027-31 at roughly the 2021 law's nominal levels. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-001",
+   "EV-MOV-217",
+   "EV-MOV-200"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.6: schedule; draw 0.194% / 0.225% / 0.215%",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-29.10",
+  "title": "Scoring convention for the new excises: the 25% income and payroll tax offset (MR6)",
+  "agenda": "MOV-29",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Both reconciliation acts (R1, R3); no statutory text. Draft 2's scores (sec. 6.8) are the project's estimates, not a JCT or CBO score: revenue gross +$386.7B (2029 act, FY2029-38) and +$126.7B (2030 act, FY2030-39); net of the 25% offset +$290.0B and +$95.0B; less package and top-ups, the net deficit reduction is about +$33.3B (2029 act: 290.0 - 47.00 - 209.74) and about +$4.2B (2030 act: 95.0 - 33.50 - 57.33). The 2029 act carries $256.74B of spending ($47.00B package plus $209.74B top-ups) and the 2030 act $90.83B ($33.50B plus $57.33B). The baseline follows CBO's convention: expiring trust-fund excises continue at current rates, and the 250-Plus EV fee runs to the general fund through FY2036. Spending is budget authority and, with the deadlines, all outlays fall inside each window. The CBO net basis nets out the 25% offset on new excise receipts; it is why the draw is also given on a 'CBO net' line. Not modelled: a trust-fund cash-flow model, a JCT or CBO score, and fuel demand response (2-3% of fuel receipts).",
+  "eligibility": "Not applicable (a scoring convention)",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "none",
+    "note": "applied by JCT and CBO in scoring; the act text does not state it"
+   },
+   {
+    "vehicle": "R3",
+    "kind": "none",
+    "note": "same"
+   }
+  ],
+  "agency": "JCT, CBO (scoring); Treasury",
+  "current_law": "JCT and CBO conventionally apply an income and payroll tax offset to excise receipts; Draft 2 uses 25%.",
+  "evidence": [
+   "EV-MOV-200",
+   "EV-MOV-218"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.8: net deficit reduction about +$33.3B (2029 act) and +$4.2B (2030 act)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-30.01",
+  "title": "A weight-distance charge for trucks over 26,000 lb, replacing the heavy-vehicle use tax (MR4; A-12; 2030 act, starts Oct 1, 2030)",
+  "agenda": "MOV-30",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2030 reconciliation act (vehicle R3); memo 2 option A; Draft 2 div. A sec. 104(a), (b) (new 26 U.S.C. 4495; 4481). Charge on a highway motor vehicle with a declared combined gross weight over 26,000 pounds, per mile on U.S. public highways. FY2031 rate per mile: 0.8 cent for a declared weight of not more than 33,000 lb; 1.6 cents for more than 33,000 up to 55,000; 2.6 cents for more than 55,000 up to 70,000; 3.4 cents for more than 70,000 up to 80,000; and 3.4 cents plus 0.4 cent for each 2,000 lb or fraction over 80,000. Vehicles with fewer than 5 axles over 55,000 lb pay 125 percent. Indexed by the cost-of-living adjustment relative to FY2031. Miles come from IFTA distance records or odometer readings, on quarterly returns under State IFTA agreements: the filings carriers already make. It applies in addition to the clean-vehicle charge for zero-emission trucks (4491(b)(3)), so clean trucks pay both. No tax on miles before Oct 1, 2030. The heavy-vehicle use tax: 4481(f) 'October 1, 2029' becomes 'October 1, 2030' and 4481 does not apply to use after Sept 30, 2030 (the 2028 extension carries it to that date, MOV-28.01). Credited under 9503(b)(1)(G). Calibration: about a 3-cent average across Class 7-8 miles (about $6.4B in FY2031); the final schedule is set by the 2030 act from the cost allocation study ordered in MOV-29.03 (due March 31, 2030). Example: an 80,000-lb tractor running 100,000 miles pays about $3,400 a year in place of the $550 use tax, plus the diesel steps. Receipts FY2032-36: $35.8B. Alternatives weighed: a 2-cent average (draw 0.185% of GDP average, all-in peak 0.213%); a diesel increase alone; keeping the use tax. Experience: Oregon's weight-mile tax costs about 11% of revenue to collect against 0.3% for fuel tax, and a 2021 study put evasion at roughly 5-11% of revenue [EV-MOV-118] [EV-MOV-122], which is why the evaluation in div. E sec. 103 (MOV-31.82) reports collection cost and evasion yearly. Score: +$67.3B weight-distance and -$13.9B use tax repealed (FY2030-39).",
+  "eligibility": "Owners and operators of trucks over 26,000 lb; no income test",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "revenue",
+    "note": "charge defined by distance records, credited to the fund; the 1990 motor-fuel precedent"
+   }
+  ],
+  "agency": "Treasury (IRS); States (IFTA agreements)",
+  "current_law": "The heavy-vehicle use tax is a flat tax capped at $550, unindexed since 1984 [EV-MOV-209]; pavement wear rises with axle load while fuel use barely rises with weight (Draft 2's statement; no source stated). 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-118",
+   "EV-MOV-121",
+   "EV-MOV-122",
+   "EV-MOV-207",
+   "EV-MOV-209"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.1 and 6.8: $35.8B FY2032-36; +$67.3B and -$13.9B FY2030-39",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-30.02",
+  "title": "Rail diesel tax by Surface Transportation Board class (MR5; A-13; 2030 act)",
+  "agenda": "MOV-30",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2030 reconciliation act (R3); memo 2 option A; Draft 2 div. A sec. 104(e), (f). Amend 26 U.S.C. 4041(a)(1)(C)(ii): (III) zero after Dec 31, 2006 and before Oct 1, 2030; (IV) after Sept 30, 2030 and before Oct 1, 2031: 10 cents a gallon for Class I and 5 cents for Class II railroads; (V) after Sept 30, 2031: 15 cents for Class I and 7.5 cents for Class II. Class is the Surface Transportation Board's; the Code has no railroad-class concept, so the provision defines it by reference to the Board. Zero for Class III railroads and for trains providing intercity passenger or commuter rail. Credit under 9503(b)(4)(C) so rates (IV) and (V) go to the Rail Account, outside the split. Together with the aviation surcharge (MOV-30.03), rail taxes are $36.2B in FY2032-36, rail's only dedicated receipts outside the split; without them rail coverage roughly halves. Rate dial in Draft 2: 4.3 to 24.4 cents (the highway diesel rate). Alternative: a flat rate. Open Code checks: 4081/6427(l) conforming rule.",
+  "eligibility": "Class I and II freight railroads",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "revenue",
+    "note": "rail diesel rates credited to the Rail Account"
+   }
+  ],
+  "agency": "Treasury (IRS); Surface Transportation Board (class)",
+  "current_law": "Rail diesel was taxed at 4.3 cents until the tax lapsed in 2007; current law has a zero rate for rail (clause (III)). 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-208",
+   "EV-MOV-222"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.1: rail taxes (diesel plus aviation) $36.2B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-30.03",
+  "title": "The aviation segment surcharge: $4 in FY2032 rising to $16 (MR5; A-13; 2030 act)",
+  "agenda": "MOV-30",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2030 reconciliation act (R3); memo 2 option A; Draft 2 div. A sec. 104(d). New 26 U.S.C. 4283: a tax in addition to the 4261(b) tax on each domestic air segment beginning after Sept 30, 2031: $4 for a segment beginning in FY2032; for FY2033-2036 the prior year's amount plus $2 (reaching $12 in FY2036); for later years the prior year's amount plus $0.40, not more than $16 (reached in FY2046). Collected as under 4261(b); credited to the Rail Account under 9503 (rail-specific receipts, MOV-29.05). Dropped: ARCA's corridor competitiveness surcharge ($12 on itineraries between corridor city pairs; about $1B, with its own machinery and an airline fight). Drafting flags: the section heading reads 'Intercity Passenger Rail Segment Surcharge' while subsection (d) is captioned 'Aviation Segment Surcharge' (the tax applies to domestic air segments); 9502(b) must not send the 4283 receipts to the Airport and Airway Trust Fund. Alternatives: a flat higher fee, a percentage fee, keeping the corridor surcharge. Rail taxes combined: $36.2B in FY2032-36 (MOV-30.02).",
+  "eligibility": "Domestic air passengers; no income test",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "revenue",
+    "note": "per-segment tax credited to the Rail Account"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "The 26 U.S.C. 4261 segment tax is credited to the Airport and Airway Trust Fund; there is no rail-directed aviation tax. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-208"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.1: rail taxes $36.2B FY2032-36 (diesel plus aviation); sec. 6.8: +$73.3B rail diesel and aviation FY2030-39",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-30.04",
+  "title": "Package two, rail: $13.50B (2030 act)",
+  "agenda": "MOV-30",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2030 reconciliation act (R3); Draft 2 package table (L228-262). Lines: (1) RRIF credit risk premium, second tranche, 49 U.S.C. 22402, $4.00B (as package one); (2) grade crossing elimination, 22909, $4.00B (discrete, locally delivered); (3) electrification, second tranche, 24911, $3.00B (as package one); (4) workforce and domestic supplier base, 22907, $2.50B (grants and cooperative agreements). Obligation: $4.0B in FY2030 and $9.5B in FY2031 (MOV-29.09); deadlines as MOV-29.06. Package two total across rail and transit: $33.50B.",
+  "eligibility": "States, transit agencies, Amtrak and other rail sponsors under the programs named; no income test",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "general-fund appropriations to existing programs"
+   },
+   {
+    "vehicle": "R3",
+    "kind": "credit subsidy",
+    "note": "RRIF $4.00B"
+   }
+  ],
+  "agency": "DOT (FRA); Treasury for credit",
+  "current_law": "As MOV-29.06. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-106",
+   "EV-MOV-110",
+   "EV-MOV-217",
+   "EV-MOV-222"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.5: package two rail $13.50B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-30.05",
+  "title": "Package two, transit: $20.00B (2030 act)",
+  "agenda": "MOV-30",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2030 reconciliation act (R3); Draft 2 package table (L228-262). Lines: (1) operating transition grants, 5307, $5.00B (as in package one); (2) state of good repair, 5337, $6.00B; (3) bus replacement, 5339, $1.00B (firm orders); (4) station accessibility, 5337 and the All Stations Accessibility program, $3.00B (rail transit and commuter stations only; package one's station line covers Amtrak-served stations); (5) Capital Investment Grants, 5309, $3.00B (executed agreements plus projects that sign by the deadline); (6) credit subsidy, TIFIA, $1.00B (scores at obligation); (7) workforce and FTA capacity, 5314 and administration, $1.00B (grants and salaries; FTA staffing fell from 781 in FY2024 to 552 in FY2026, Draft 2's figures with no source stated). Obligation: $9.0B in FY2030 and $11.0B in FY2031 (MOV-29.09); deadlines as MOV-29.06.",
+  "eligibility": "States, transit agencies, Amtrak and other rail sponsors under the programs named; no income test",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "general-fund appropriations to existing programs"
+   },
+   {
+    "vehicle": "R3",
+    "kind": "credit subsidy",
+    "note": "TIFIA $1.00B"
+   }
+  ],
+  "agency": "DOT (FTA)",
+  "current_law": "As MOV-29.07. CIG has 47 projects on FTA's November 2026 dashboard and one grant since January 20, 2025 [EV-MOV-112]. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-100",
+   "EV-MOV-103",
+   "EV-MOV-112",
+   "EV-MOV-113",
+   "EV-MOV-128"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.5: package two transit $20.00B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-30.06",
+  "title": "Renewal top-ups for FY2035 rail and FY2036: $57.33B, with their deadlines (A-14, A-15; 2030 act)",
+  "agenda": "MOV-30",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2030 reconciliation act (R3); point 3 of 3-design.md; Draft 2 'Renewal top-ups' table. Rail (Amtrak grants, 24911, 22907, 22909): FY2035 $16.65B and FY2036 $13.69B = $30.34B. Highway (title 23 formula programs, preservation, rehabilitation, reconstruction or replacement only): FY2036 $26.99B. Transit: none (its top-up reaches zero in FY2036). Total $57.33B (FY2036 total $40.68B). Deadlines: obligated by Sept 30, 2037 and spent by Sept 30, 2039. Why these years sit here: see MOV-29.08 (A-15); as placed, both acts reduce deficits (about +$33.3B and +$4.2B).",
+  "eligibility": "States, transit agencies, Amtrak and other rail sponsors under the programs named; no income test",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "general-fund appropriations to existing programs with obligation and expenditure deadlines"
+   }
+  ],
+  "agency": "DOT (FHWA, FRA); Amtrak",
+  "current_law": "As MOV-29.08. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-200",
+   "EV-MOV-218"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.7: $57.33B (2030 act); total top-ups $267.07B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.01",
+  "title": "Division A sec. 101: the fund and shares restated, with the FY2037 shares 45 / 40 / 15 added (cross-refers to MOV-29.05)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. A sec. 101. Cross-refers to, and does not re-enact, subsections (a)-(c), (d)(1), (e), (f), (h), (j)-(m), which are law from the 2029 act (MOV-29.05); the 2031 bill prints the whole section so the statute reads as one, and a reader who finds a difference follows the act (a drafting choice, 'cross-refer' not 'restate'). New in the 2031 bill: (d)(2) for FY2037 and after, 45 percent Highway / 40 percent Mass Transit / 15 percent Rail 'unless a later Act provides otherwise after the report under subsection (i)' (A-8; memo 3 option A); (g) in 9503(e)(3) strike 'capital or capital related expenditures (including capital expenditures for new projects)' and insert 'expenditures authorized under chapter 53 of title 49' (the amendment the 5307(i) operating tier cannot work without; no budgetary effect, so it cannot ride reconciliation); (i) a report not later than 18 months before the expiration of each authorization (about March 2035 for FY2036), by Treasury and DOT, of the percentages that give equal coverage over the following 10 fiscal years, and whether further steps under 4081(a)(2)(E)(iv) should be taken. Why the FY2037 move: kept at 35 / 50 / 15, transit piles up $5.9B it cannot spend while highway renewal coverage sits at 80% in FY2042-46; with the move coverage is 89 / 96 / 104 before the premium and 95 / 109 / 135 with it, nothing stranded. The split does not change the draw. Alternative: keep 35 / 50 / 15 permanently.",
+  "eligibility": "Accounts of the fund and the programs they pay for; no individuals",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "shares from FY2037, the 9503(e)(3) amendment and the reset report have no budgetary effect of their own; 60 votes"
+   }
+  ],
+  "agency": "Treasury; DOT",
+  "current_law": "26 U.S.C. 9503(e)(3) limits Mass Transit Account spending to capital; the 2029 act's fund has the FY2029-36 shares only. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-004",
+   "EV-MOV-200",
+   "EV-MOV-211"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 3 A-8: no change to the draw; coverage 89 / 96 / 104 before the premium",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.02",
+  "title": "Division A sec. 102: the clean-vehicle road user charge (cross-reference to MOV-29.03)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill. Sec. 102's revenue is enacted in the 2029 act (MOV-29.03), effective Oct 1, 2030, $14.5B in FY2032-36. The 2031 bill cross-refers: it carries no second charge and does not re-enact the rates; it adds what reconciliation cannot carry, the location-data bar, retention limits and private right of action (MOV-31.11), and the State registration coordination (MOV-31.31). A working choice: Draft 2 lists sec. 102 as '2029 act' and does not say what the 2031 bill's copy does.",
+  "eligibility": "Owners of battery-electric, fuel-cell and plug-in hybrid vehicles",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "cross-reference only"
+   }
+  ],
+  "agency": "Treasury; States",
+  "current_law": "As MOV-29.03.",
+  "evidence": [
+   "EV-MOV-204"
+  ],
+  "sources": [],
+  "cost_source": "none added (see MOV-29.03: $14.5B FY2032-36)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.03",
+  "title": "Division A sec. 103: fuel taxes, steps, the premium and the EV-fee bridge (cross-reference to MOV-29.01, .02, .04)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill. Sec. 103 is enacted in the 2029 act (MOV-29.01, MOV-29.02, MOV-29.04), effective Oct 1, 2029. The 2031 bill cross-refers and adds no rate. Sec. 103(d)'s permanent credits and expenditure authority refer to divisions A-D, which exist only once the 2031 bill is law; until then the 2029 act's reference is to the programs then in force (a working choice; Draft 2 does not spell it out).",
+  "eligibility": "Owners and users of the taxed fuels, vehicles and trips; no income test (transportation has no income-tested benefit)",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "cross-reference only"
+   }
+  ],
+  "agency": "Treasury; DOT",
+  "current_law": "As MOV-29.01.",
+  "evidence": [
+   "EV-MOV-200"
+  ],
+  "sources": [],
+  "cost_source": "none added (see MOV-29.01: $426.7B FY2032-36)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.04",
+  "title": "Division A sec. 104: truck and rail taxes (cross-reference to MOV-29.04, MOV-30.01 to .03)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill. Sec. 104's excises are enacted in the 2029 act and the rest in the 2030 act (MOV-30.01 to MOV-30.03). The 2031 bill cross-refers and adds no rate; the cost allocation study (MOV-29.03) reports to the committees before the 2030 act sets the final weight-distance schedule. Open Code checks stay with the acts.",
+  "eligibility": "Owners and operators of trucks, railroads and air passengers",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "cross-reference only"
+   }
+  ],
+  "agency": "Treasury",
+  "current_law": "As MOV-30.01 to MOV-30.03.",
+  "evidence": [
+   "EV-MOV-208",
+   "EV-MOV-209"
+  ],
+  "sources": [],
+  "cost_source": "none added (see MOV-30.01 to .03)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.05",
+  "title": "Division A sec. 105: mandatory appropriations for expansion, $123.70B",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-14 (point 3 of 3-design.md). Out of the Treasury, available until expended, not from the Trust Fund. (1) CIG, 49 U.S.C. 5309: $4.5B FY2032, $5.0B, $5.5B, $6.0B, $6.5B FY2036 = $27.50B. (2) Div. C sec. 606: $0.60B each year = $3.00B. (3) Div. D sec. 303: $6.0B, $9.0B, $11.0B, $13.5B, $15.5B = $55.00B. (4) Sec. 310: $2.5B, $3.7B, $4.5B, $4.8B, $4.7B = $20.20B. (5) Sec. 311: $1.6B, $1.4B, $1.1B, $0.95B, $0.95B = $6.00B. (6) Sec. 312: $1.5B, $2.0B, $2.5B, $3.0B, $3.0B = $12.00B. Total $123.70B ($16.70B / $21.70B / $25.20B / $28.85B / $31.25B by year). One appropriation for all expansion, so ARCA 401(a) and ARCA 105 do not double-appropriate. (b) Full obligation on execution of a grant agreement; 5338(d)(2) as amended by div. C sec. 401(b) applies to (a)(1). Note: the general-fund draw table shows $123.66B because in FY2036 transit receipts cover $0.04B of CIG (transit draws $30.46B, not $30.50B); the authorization, $123.70B, governs. Expansion is paid by the nation (users pay for repair, the nation pays to build).",
+  "eligibility": "States, transit agencies, Amtrak and other rail sponsors under the programs named; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "expansion appropriations out of the general fund"
+   }
+  ],
+  "agency": "DOT (FTA, FRA)",
+  "current_law": "CIG is authorized at about $3.0B a year subject to appropriation under 5338(b); rail and terminals have no mandatory money; H.R. 8870 (case 1) authorizes about $62.4B of passenger rail, all subject to appropriation. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-112",
+   "EV-MOV-200",
+   "EV-MOV-222",
+   "EV-MOV-224"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $123.70B expansion ($123.66B on the draw table)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.06",
+  "title": "Division A sec. 106: contract authority, contingent commitments, and the readiness reserve of up to $25.00B",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. A sec. 106 (memo 6 option A; A-21, A-22). (a) Amounts from the Trust Fund under divisions B, C and D are available for obligation on enactment or Oct 1 of the fiscal year, until expended; obligations may exceed appropriations (31 U.S.C. 1341(a)(1)). (b) The obligation limitation is set by an appropriations Act; a limitation below 90 percent of the amount made available for an account is applied first to expansion programs. (c) Contingent commitments through FY2046; the aggregate against any single year for any program may not exceed 60 percent. (d) A lapse in appropriations does not affect the amounts. (e) Readiness reserve: not more than $25,000,000,000 appropriated to carry out div. D sec. 303 (a contingent general-fund appropriation, not contract authority against a short account); available only on the Secretary's certification of the entry requirements, design 'complete to not less than 30 percent for each Tier 1 element', and amounts otherwise available that fiscal year fully obligated; a combined per-corridor cap with sec. 303 of $19,250,000,000; amounts not available lapse Sept 30, 2036; reduced first under sec. 108. Illustrated at $0 / 0 / 5 / 8 / 12B for FY2032-36 (presentation only: release follows gate clearance; back-loading keeps the reserve out of the tight FY2032-33; ARCA's alternative was 0 / 5 / 7 / 7 / 6). The real limitation applies to $812.87B of renewal and none to expansion.",
+  "eligibility": "States, transit agencies, Amtrak and other rail sponsors under the programs named; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority within receipts (sec. 110); limitation set by appropriators"
+   },
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "discretionary",
+    "note": "obligation limitation in the annual appropriations act"
+   }
+  ],
+  "agency": "DOT; Treasury",
+  "current_law": "Contract authority from the Highway and Mass Transit Accounts under a limitation set annually; no rail contract authority; no reserve. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-222",
+   "EV-MOV-224",
+   "EV-MOV-225",
+   "EV-MOV-200"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.4: reserve up to $25.00B, contingent, illustrated 0 / 0 / 5 / 8 / 12",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.07",
+  "title": "Division A sec. 107: continuation of renewal programs if the authorizations lapse",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. A sec. 107. If authorizations under divisions B, C and D expire without reauthorization, the Secretary continues to apportion and obligate the renewal programs of each account (the sec. 101(f)(3) list) at the levels made available for FY2036, adjusted for inflation; expansion programs are excluded. Direct spending, so no annual appropriation or obligation limitation is needed to keep it going; a lapse in appropriations does not affect it (sec. 106(d)); division F sec. 105 invokes it. On lapse it carries $34.44B of rail renewal in FY2036 under the one renewal definition (A-19), against $12.62B under ARCA's narrower list.",
+  "eligibility": "Accounts of the fund and the programs they pay for; no individuals",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "continuation as direct spending"
+   }
+  ],
+  "agency": "DOT",
+  "current_law": "Current law has no continuation; programs lapse when authorizations expire (the 2021 law expired on Sept 30, 2026) [EV-MOV-001].",
+  "evidence": [
+   "EV-MOV-001",
+   "EV-MOV-131",
+   "EV-MOV-222"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 4A: $34.44B of rail renewal in FY2036",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.08",
+  "title": "Division A sec. 108: the annual report and the capped $25B solvency backstop; the 0.206% benchmark is a published comparison, not a trigger (memo 3)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; memo 3 option A as decided (DEC-2026-11-10-08). Changed from Draft 2 (A-4, A-17, A-18 superseded): the 0.206% of GDP figure, FY2026's peak general-fund draw on surface transportation (no statute or CBO rule sets it), stops being a design rule. (a) Kept: an annual joint report by the Secretary and the CBO Director, for the current and the next 5 fiscal years, of the projected excess of obligations over receipts as a percentage of GDP, gross and net of the income and payroll tax offset; it reports sec. 105, sec. 106(e), sec. 110(b) and sec. 1112 amounts, states any deferred steps, and sets the figure beside 0.206% as a published comparison. (b) Draft 2's trigger (a report within 60 days of reductions or deferrals in expansion programs when the projection exceeds 0.206 percent) is removed. (c) Kept: if an account's projected unexpended balance at the end of a fiscal year is less than 25 percent of the obligations projected for the following year, appropriate the amount to restore 25 percent, 'not to exceed $25,000,000,000 in the aggregate for fiscal years 2032 through 2036'; only after the backstop is exhausted are reductions made, first to expansion programs; amounts in secs. 105 and 106(e) are not reduced for an account shortfall. (d) Kept: executed agreements (full funding grant agreements, sec. 105(b) agreements, contingent commitments) are exempt. Why a backstop: price pauses can leave accounts short; three pauses cost about $53.3B of FY2032-36 receipts. A hard GDP trigger would buy no CBO credit unless projected to fire. Costs the draw, reported to the financing settlement (DEC-2026-11-10-05): FY2032-36 average 0.180% of GDP, peak 0.200% in FY2032 (0.208% with sec. 1112; 0.220% on the CBO net basis); FY2037-41 0.067%; FY2042-46 0.026%. Resizing by need (Interstate renewal from FY2032) stays an option for the settlement (memo 3 option B).",
+  "eligibility": "Accounts of the fund and the programs they pay for; no individuals",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "reporting; no budgetary effect"
+   },
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "backstop appropriation, capped at $25B, contingent"
+   }
+  ],
+  "agency": "Treasury; CBO; DOT",
+  "current_law": "No such report or backstop exists; the fund is topped up by transfers (2008-2014 patches). 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-200",
+   "EV-MOV-213",
+   "EV-MOV-219"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.3: draw 0.180% / 0.200% (FY2032-36); backstop at most $25B, contingent",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.09",
+  "title": "Division A sec. 109: joint facilities, attributed by train movements",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-6 (memo 6 option A). (a) Attribute Mass Transit Account, Rail Account and sec. 310 amounts by share of train movements: for renewal, the most recent fiscal year; for expansion, the additional movements projected; method of 49 U.S.C. 5309(q)(4). (b) Sec. 310 (MOV-31.64) pays only the intercity share; the transit share is eligible under 5307, 5309(q), 5337 and div. B sec. 1107. (c) Where movements are unreported, use scheduled movements or weekday boardings, and publish the basis. Why: a flat 30% placeholder for transit's share was wrong by any measure of use.",
+  "eligibility": "Accounts of the fund and the programs they pay for; no individuals",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "attribution rule; money in secs. 310 and 606"
+   }
+  ],
+  "agency": "DOT (FTA, FRA)",
+  "current_law": "49 U.S.C. 5309(q)(4) attributes cost on a project-by-project basis; no standing rule for terminals.",
+  "evidence": [
+   "EV-MOV-222"
+  ],
+  "sources": [],
+  "cost_source": "none added (see MOV-31.64 and MOV-31.47)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.10",
+  "title": "Division A sec. 110: contract authority within receipts; coordination with the top-ups ($267.07B)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-14 (point 3). (a) Amounts made available from an account by divisions B, C and D for a fiscal year shall not exceed the receipts the Secretary of the Treasury projects will be credited to that account for that fiscal year, plus its unobligated balance; reduced proportionally within each division (the fund is solvent by construction). (b) Top-ups for FY2032-36 from the sections of the 2029 and 2030 reconciliation Acts (MOV-29.08, MOV-30.06): highway top-ups are distributed among division B programs in proportion to the reductions, only for preservation, rehabilitation, reconstruction or replacement; transit and rail top-ups go to the corresponding division C or D program (chapter 53; Amtrak; 22907, 22909, 24911). (c) Fallback: if no appropriation is in place as of Oct 1 of a fiscal year, appropriate the amount in the table in the report accompanying the Act and add it to receipts for (a); this is a general-fund transfer reconciliation cannot make, kept as insurance and costing nothing if the top-ups are enacted. Totals: $267.07B (highways $139.93B, transit $36.69B, rail $90.45B). Renewal coverage with top-ups: 70% highways, 81% transit, 44% rail (whole program 70 / 70 / 28%).",
+  "eligibility": "Accounts of the fund and the programs they pay for; no individuals",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority within receipts; coordination and fallback"
+   }
+  ],
+  "agency": "Treasury; DOT",
+  "current_law": "The Highway and Mass Transit Accounts are authorized above receipts (CBO projects shortfalls from FY2027-28) [EV-MOV-002].",
+  "evidence": [
+   "EV-MOV-002",
+   "EV-MOV-200",
+   "EV-MOV-218"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.2 and 6.7: top-ups $267.07B ($209.74B + $57.33B)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.11",
+  "title": "Division A sec. 111: privacy and administration of the road user charges (odometer only)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; memo 1 option A and the design lens (odometer only). (a) New 4492(b): no information about location, route, time or manner of travel may be collected or retained, except per-jurisdiction distance records under 4495(c) (MOV-30.01); no device is required. (b) New 4494: odometer readings and records are return information under 6103; no disclosure beyond tax administration; they may not be sold; they are destroyed not later than 3 years after the end of the taxable period unless needed; remedies under 7431, including against State officers and contractors; GAO reports on collection costs, evasion and compliance not later than Sept 30, 2033 and every 3 years. The 4494(a) bar is stricter than the court-order route in 6103(i)(1). Accepted costs: miles driven abroad or on private land are taxed; fraud is handled by audit and 49 U.S.C. 32703; the 10% collection allowance is a ceiling reviewed by GAO. Division E sec. 103 adds a yearly evaluation (MOV-31.82). Rules kept in one place so every road user charge cites this section (MOV-29.03, MOV-30.01). A suggested standalone privacy bill before Oct 1, 2030 would close the gap before this bill.",
+  "eligibility": "Drivers and carriers subject to the charges; the data rules protect them",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "location-data bar, retention limits and private right of action have no budgetary effect of their own (Byrd table)"
+   }
+  ],
+  "agency": "Treasury (IRS); States; GAO",
+  "current_law": "26 U.S.C. 6103 protects return information; the charges' readings become return information on the first day; no charge-specific rules exist. Oregon and Utah run their own programs [EV-MOV-116] [EV-MOV-119].",
+  "evidence": [
+   "EV-MOV-116",
+   "EV-MOV-117",
+   "EV-MOV-119",
+   "EV-MOV-120",
+   "EV-MOV-204"
+  ],
+  "sources": [],
+  "cost_source": "none directly; GAO review and the 10% allowance are inside MOV-29.03 and MOV-31.82",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.20",
+  "title": "Division B sec. 1101: highway authorizations, $418.28B (H.R. 8870 title I continued at 2.5% a year)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-2 (point 8: hybrid highway division, decided as recommended). (a) H.R. 8870 title I applies to FY2032-2036, each FY2031 Highway Account authorization increased by 2.5 percent for each fiscal year after FY2031. (b) The obligation limitation, for all obligations including sec. 1104: $80,971,000,000 FY2032; $84,995,000,000 FY2033; $89,070,000,000 FY2034; $93,197,000,000 FY2035; $97,377,000,000 FY2036. (c) Exempt amounts are grown 2.5 percent a year (the limitation is the FHWA total less exempt amounts plus sec. 1104; the canonical table shows FHWA plus 1104 as $81.63B in FY2032, the difference being the exempt amounts, which Draft 2 does not quantify). The rest of title I, about $40.6B (STAG at $2.4B a year, PROTECT grants at $0.5B, wildlife crossings, federal lands and tribal, emergency relief, TIFIA, administration), continues under this section; so do categorical exclusion thresholds of $12M and $70M, a single lead agency, and Buy America. Dependency: this is by reference to H.R. 8870 as enacted, which Draft 2 forecast in the 2026 lame duck and called 'this project's forecast, not law'; division B must be checked against the enacted text. If no multi-year law is in place (baseline cases 2 and 3), title I is drafted in full by MOV-31.90. Kept from H.R. 8870: about 90% formula money, a larger STBG share, bridges on contract authority, faster environmental review.",
+  "eligibility": "States, metropolitan planning organizations, local governments and tribes as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Highway Account within receipts (sec. 110); limitation set annually"
+   }
+  ],
+  "agency": "DOT (FHWA)",
+  "current_law": "The 2021 authorization expired Sept 30, 2026 (extended to Dec 11, 2026); H.R. 8870 (BUILD America 250, about $580 billion over FY2027-31) was reported 62-2 on May 22, 2026 and has not passed the House [EV-MOV-003]; CBO: $470.7B of contract authority over 2027-31 [EV-MOV-001]. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-001",
+   "EV-MOV-003",
+   "EV-MOV-005",
+   "EV-MOV-008",
+   "EV-MOV-132",
+   "EV-MOV-133",
+   "EV-MOV-200"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $418.28B FHWA FY2032-36 (division B $461.12B)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.21",
+  "title": "Division B secs. 1102 and 1103: apportioned formula programs and the bridge formula program (specified, not drafted)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 secs. 1102 and 1103 (specified, not drafted). Sec. 1102: H.R. 8870 shares carry: NHPP, STBG at 31 percent, HSIP, CMAQ with the cost-effectiveness table, freight, metropolitan planning at a 90 percent federal share; transportation alternatives transferable out only if unobligated after three years; about $325.5B, within sec. 1101, after the sec. 1116 set-aside. Sec. 1103: the bridge formula program on contract authority, a $75M State floor, 20 percent off-system, a 3 percent tribal set-aside and a 25 percent local competition at a 95 percent federal share; about $49.6B, within sec. 1101. Source conflict kept open: the bridge formula is '$9.0B or $9.2B a year' in the sources; the enacted text decides. The apportionment needs a data run.",
+  "eligibility": "States, metropolitan planning organizations, local governments and tribes as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "inside sec. 1101's contract authority"
+   }
+  ],
+  "agency": "DOT (FHWA)",
+  "current_law": "As MOV-31.20. 41,148 of 624,939 bridges were in poor condition in the 2026 National Bridge Inventory [EV-MOV-006].",
+  "evidence": [
+   "EV-MOV-005",
+   "EV-MOV-006",
+   "EV-MOV-018"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 4B: about $325.5B and $49.6B, both inside $418.28B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.22",
+  "title": "Division B sec. 1104: Interstate and Bridge Renewal, $30.77B (A-23)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-23 (memo 3 option A; new money starts at zero and builds $2B a year, as decided). Table ($B, FY2032-36): converted bridge program 2.05 / 2.10 / 2.15 / 2.21 / 2.26 = 10.77; new money 0.00 / 2.00 / 4.00 / 6.00 / 8.00 = 20.00; total 2.05 / 4.10 / 6.15 / 8.21 / 10.26 = 30.77. The Highway Account authorization text reads $2,050,000,000, $4,101,000,000, $6,154,000,000, $8,208,000,000 and $10,263,000,000, which sums to $30.776B; the table's $30.77B governs. New 23 U.S.C. [178]. Apportionment after the set-aside: 50 percent on Interstate lane-miles, 25 percent on Interstate VMT, 25 percent on deck area of NHS bridges in poor or fair condition; each State at least 0.5 percent. Eligible: reconstruction, rehabilitation or replacement of Interstate pavements, bridges, tunnels and interchanges at or within 10 years of the end of design service life; NHS bridges in poor or fair condition; resilience and safety as part of a project; tolling equipment. No general-purpose through lane (an auxiliary lane between adjacent interchanges or a demand-priced tolled lane is permitted). Large projects: a 20 percent set-aside for projects costing not less than $500,000,000 under a multiyear agreement (sec. 106(c)); grant not more than 50 percent. Renewal plan in the asset management plan (20-year expected year and cost per segment). Federal share 90 percent. Tolling on reconstructed segments with: toll after contract award, revenue only for the facility, its corridor highways and transit, a low-income and frequent-user discount, a public hearing (as TRB recommended). (b) No general-fund competitive bridge appropriation is authorized after FY2031 (H.R. 8870's is $2B a year subject to appropriation). Need: the Interstate needs $45-70B a year over 20 years against $20-25B spent [EV-MOV-010]. Cost: each $2B a year more adds about 0.005 points to the draw; resizing so new money starts in FY2032 is memo 3 option B, left to the financing settlement. Section number and apportionment are placeholders pending a data run.",
+  "eligibility": "States and large-project sponsors",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Highway Account; renewal program"
+   }
+  ],
+  "agency": "DOT (FHWA)",
+  "current_law": "No program rebuilds the Interstate; H.R. 8870 leaves the competitive bridge program at $2B a year subject to appropriation. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-006",
+   "EV-MOV-010",
+   "EV-MOV-018",
+   "EV-MOV-212"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.9: $30.77B FY2032-36; +0.005 points of draw per $2B a year",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.23",
+  "title": "Division B sec. 1105: renewal classification",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-19 (point 6: one renewal definition for all three accounts, decided as recommended). Every Highway Account program, including sec. 1104, is a renewal program for division A secs. 101(f), 107 and 108. Division B sec. 1112 is neither renewal nor expansion (sec. 101(f)(4)). Each 5% of the highway program classed as expansion would lower highways' equal-coverage share by about 3 points (the alternative to A-2).",
+  "eligibility": "Accounts of the fund and the programs they pay for; no individuals",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "classification"
+   }
+  ],
+  "agency": "DOT (FHWA)",
+  "current_law": "No renewal/expansion classification exists in current law.",
+  "evidence": [
+   "EV-MOV-200"
+  ],
+  "sources": [],
+  "cost_source": "none added",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.24",
+  "title": "Division B sec. 1106: fix-it-first as published reports and a review, with the lower federal share for new lanes (memo 5 option B)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; memo 5 option B as decided (DEC-2026-11-10-08); changes Draft 2 sec. 1106 (A-24). Kept: (c) new 23 U.S.C. 120(l): the federal share for the added general-purpose lane portion of a project is 10 percentage points less than it would otherwise be, which gives 70 percent for non-Interstate and 80 percent for Interstate lanes if the usual shares are 80 and 90 (Draft 2 does not state the baseline shares; this is an assumption to check against 23 U.S.C. 120); (d) annual State reporting in the division E sec. 102 database of the share of obligations for preservation and reconstruction, safety, added capacity and other. Converted to published reports: (1) the preservation shift (Draft 2: after two consecutive biennial determinations under 150(e) without progress, a State obligates at least 50 percent of its NHPP apportionment for preservation, rising 10 points a step to 80) becomes each State's published condition trend for NHS pavement and bridges, set against its own targets; (2) the lifecycle test (Draft 2: no federal funds for a project of $100,000,000 or more adding general-purpose through lane-miles unless the State certifies 20 years of maintenance funding and publishes its traffic forecast with the forecasts and observed outcomes of its three most recent comparable projects) becomes a published lifecycle analysis for each lane-adding project of $100,000,000 or more, with the same contents, published before construction funds are obligated and with no federal approval step (publication timing is a working choice). Review trigger: FHWA reviews a State whose NHS pavement or bridge condition falls for two consecutive years and agrees a repair plan with it; how 'falls' is measured is set by FHWA rule from data States already report (a working choice). Burden removed: a federal approval step on large projects and a binding spending requirement; given up: a binding requirement to spend on repair first. No federal cost. Evidence for the price signal: driving rises about one-for-one with new Interstate lane-kilometers [EV-MOV-114] and long-run elasticities run from 0.6 to just over 1.0 [EV-MOV-115]; the register holds no evaluation of fix-it-first conditions, so the choice between A and B rests on judgment. State DOTs and road builders resist strings on formula money; the share cut is the tradeable part.",
+  "eligibility": "States (formula recipients)",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "no federal cost; conditions on formula money"
+   }
+  ],
+  "agency": "DOT (FHWA)",
+  "current_law": "23 U.S.C. 119 and 150(e) set condition targets and biennial determinations; no federal-share reduction for lane additions; the share is 80 percent (90 percent on the Interstate). H.R. 8870 moves asset-plan review to every two years. FHWA: poor-ride pavement rose from 15.8 to 22.6 percent between 2008 and 2018 [EV-MOV-017].",
+  "evidence": [
+   "EV-MOV-017",
+   "EV-MOV-114",
+   "EV-MOV-115",
+   "EV-MOV-214"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 A-24: no federal cost",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.25",
+  "title": "Division B sec. 1109: Safe System (A-25)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-25 (memo 5: stays as chosen in every option, because it sets shares, not reviews). (a) A 15 percent reservation for SS4A planning (H.R. 8870 has 5 percent; the 2021 law 40 percent; most small places still lack a plan); implementation grants require a comprehensive safety action plan using the Safe System approach with a stated date for eliminating fatalities and serious injuries. (b) New 148(i)(4): if a State's target exceeds its 5-year average, or its targets are neither met nor progressing for 2 consecutive years, it may obligate HSIP only for 'proven safety countermeasures' in the next fiscal year. (c) Speed management is eligible, including Safe System speed limits. (d) 148(l): a State whose vulnerable-road-user fatalities are not less than 15 percent of total must obligate at least that percentage of its HSIP apportionment for vulnerable-user safety. Context: 36,640 deaths in 2025, down 6.7 percent [EV-MOV-007]; roundabouts cut fatal and injury crashes by 82 percent at two-way stops [EV-MOV-126]; road diets 19-47 percent [EV-MOV-127]. Within sec. 1101; no federal cost.",
+  "eligibility": "States and local governments",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "shares inside sec. 1101's money"
+   }
+  ],
+  "agency": "DOT (FHWA, NHTSA)",
+  "current_law": "HSIP funds the 2021 law's safety programs; H.R. 8870 cuts SS4A's planning share to 5 percent and only reports regressive targets.",
+  "evidence": [
+   "EV-MOV-007",
+   "EV-MOV-126",
+   "EV-MOV-127"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 A-25: no federal cost",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.26",
+  "title": "Division B sec. 1110: resilience, carbon reduction and clean fuels set-asides (A-26)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-26 (point 5, decided as recommended: kept as set-asides of existing money, not new programs). (a) New 119(l): not less than 4 percent of NHPP apportionment for activities eligible under 176 (about $1.4B a year); federal share 90 percent for such activities under a resilience improvement plan. (b) Section 175 (Carbon Reduction Program, as of Sept 30, 2026) restored with a set-aside of 2 percent of the total apportioned to the State under 104(b), taken proportionally from other apportionments (about $1.24B a year against the 2021 law's $1.34B in FY2026; 65 percent suballocated by population as before); EV charging projects meet the standards in sec. [179](f). (c) CMAQ (149) alternative fueling minimum 10 percent for each of FY2032-2036 (H.R. 8870 phases it from 10 to 7 percent). The set-asides take about $2.6B a year of formula money out of State discretion; restoring the Carbon Reduction Program as new money would add about $1.3B a year. H.R. 8870 repeals the PROTECT formula ($7.3B under the 2021 law).",
+  "eligibility": "States",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "set-asides inside sec. 1101's money"
+   }
+  ],
+  "agency": "DOT (FHWA)",
+  "current_law": "The 2021 law has the PROTECT formula, the Carbon Reduction Program and a 10 percent CMAQ alternative-fuel set-aside; H.R. 8870 repeals the first two and phases the third to 7 percent. Transportation is the largest source of U.S. greenhouse emissions, 28.4 percent in 2022 [EV-MOV-011].",
+  "evidence": [
+   "EV-MOV-011",
+   "EV-MOV-215"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 A-26: about $2.6B a year inside formula money; no new money",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.27",
+  "title": "Division B sec. 1112: general-fund grants for multimodal freight and National Infrastructure Grants, $17.24B, reported and not counted against a benchmark (memo 3)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; memo 3 option A as decided (DEC-2026-11-10-08); changes A-18. Authorized to be appropriated from the general fund: (1) 23 U.S.C. 117 grants, $1,230,000,000 for FY2032; (2) sec. [7105] of H.R. 8870 (National Infrastructure Grants), $2,050,000,000 for FY2032; each grown 2.5 percent a year for FY2033-2036 ($17.24B in all). No other FY2031 general-fund amounts are authorized later (the competitive bridge program became sec. 1104). Changed: Draft 2 counted these grants against the 0.206% benchmark (FY2032 reached 0.208%, 0.002 points over); under the decision they are reported in the sec. 108(a) report, beside the comparison figure, and not counted against a benchmark. Prose elsewhere in Draft 2 rounds them to $1.2B (multimodal freight) and $2.0B (National Infrastructure Grants); the section's $1.23B and $2.05B govern. They are subject to appropriation, so they are neither renewal nor expansion (sec. 101(f)(4)) and sit outside the $936.57B. Peak draw with them: 0.208% of GDP.",
+  "eligibility": "States, local governments and project sponsors under the grant programs",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "discretionary",
+    "note": "authorization of appropriations from the general fund; subject to appropriation"
+   }
+  ],
+  "agency": "DOT (FHWA, Office of the Secretary)",
+  "current_law": "23 U.S.C. 117 and the National Infrastructure Grants program are discretionary; H.R. 8870 (case 1) authorizes $26B of general-fund highway grants (bridge $10B, multimodal freight $6B, National Infrastructure Grants $10B), with none guaranteed.",
+  "evidence": [
+   "EV-MOV-001",
+   "EV-MOV-213"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 4B: $17.24B subject to appropriation (peak draw 0.208% with sec. 1112)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.28",
+  "title": "Division B sec. 1113: truck parking",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-26 (point 5). New 23 U.S.C. 167(n): a State obligates not less than 15 percent of its freight apportionment for commercial motor vehicle parking unless it certifies, per the national truck parking survey (MAP-21 sec. 1401(c)), that needs on the National Highway Freight Network are met. About $0.28B a year on top of H.R. 8870's $0.15B competitive grants, roughly tripling federal parking money without a new program. The 'one parking space for every 11 truck drivers' figure in Draft 2 comes from ATRI, which is not in its source list.",
+  "eligibility": "States",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "set-aside inside the freight formula"
+   }
+  ],
+  "agency": "DOT (FHWA, FMCSA)",
+  "current_law": "No parking set-aside; parking is eligible under the freight program.",
+  "evidence": [
+   "EV-MOV-215"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2: about $0.28B a year inside formula money",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.29",
+  "title": "Division B sec. 1114: truck size and weight; the 91,000-lb pilot ends in 2031",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-26 (point 5). The 91,000-lb pilot (H.R. 8870 sec. [1302]) terminates Sept 30, 2031. The Secretary reports not later than Sept 30, 2033 on the pavement, bridge and safety effects of vehicles over 80,000 lb and on the 4495(b)(1)(E) rate that would recover their cost. The question of heavier trucks can return once the weight-distance charge (MOV-30.01) makes them pay their way: it already charges 0.4 cent a mile for each 2,000 lb over 80,000. The pilot passed the committee 35-29 over county, safety and trucking opposition (Draft 2's statement).",
+  "eligibility": "Truck operators and States",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "terminates a pilot; commissions a report"
+   }
+  ],
+  "agency": "DOT (FHWA)",
+  "current_law": "H.R. 8870 (case 1) would start a 91,000-lb pilot; current law limits Interstate trucks to 80,000 lb.",
+  "evidence": [
+   "EV-MOV-209"
+  ],
+  "sources": [],
+  "cost_source": "none",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.30",
+  "title": "Division B sec. 1116: the Charging Gap Program replaces NEVI (A-27)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-27 (point 4, decided as recommended, with the auction treated as something to study in implementation). New 23 U.S.C. [179]. (a) A gap map within 180 days of enactment, then yearly: NHS segments more than 50 miles of travel from qualifying public charging; freight, port and truck-parking locations needing medium- and heavy-duty charging. (b) Auctions not less than twice each fiscal year; any person may bid; awards within 60 days of close. (c) A standard agreement: 50 percent of an award not later than 30 days after the site is energized, the rest in equal annual installments over 5 years conditioned on uptime; the award lapses if the site is not energized within 24 months (one extension of up to 12 months for utility delay). (d) An award is not more than 80 percent of documented cost (including make-ready and storage); at least 40 percent of awards for freight, port and parking sites (A-27's summary says 'medium and heavy trucks'; the text governs); at least 30 percent rural. (e) Categorical exclusion on private or disturbed land; not a Federal-aid highway project except for sections 113 and 313; a State may run its own auction (election 90 days before). (f) Standards: at least 4 ports of 150 kW each (light duty) or 2 ports of 1 megawatt each (freight); contactless payment, no membership; SAE J3400; real-time open data; uptime of not less than 97 percent. (g) Reporting per auction and site. (h) Funding: set aside before apportionment $500,000,000 for FY2032, increased 2.5 percent for each later year ($2.63B, no new federal money). NEVI balances unobligated Oct 1, 2031 may be obligated by the State until Sept 30, 2032, then go to the Secretary for the auctions (about $4B unspent in mid-2026). Why: NEVI gave $5B to 50 State plans, applied federal-aid procedures to private sites, and had obligated about $526M by early 2025 when it was suspended; $503.8M was rescinded in January 2026. Risk: paying by auction and for uptime is untested at federal scale for charging; the lapse rule and the uptime holdback are what should make it faster than NEVI.",
+  "eligibility": "Charging developers and operators (any person); States that elect their own auction",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "set-aside inside sec. 1101's formula money; no new money"
+   }
+  ],
+  "agency": "DOT (FHWA, Joint Office)",
+  "current_law": "NEVI (2021 law, $5B) was suspended and $503.8M rescinded in January 2026; H.R. 8870 repeals it [EV-MOV-014].",
+  "evidence": [
+   "EV-MOV-014",
+   "EV-MOV-216"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 A-27: $2.63B FY2032-36 inside formula money",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.31",
+  "title": "Division B secs. 1107, 1108 and 1111: multimodal flexibility, State coordination of the road user charge, delivery and unit-cost reporting (specified)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 secs. 1107, 1108, 1111 (specified, not drafted). Sec. 1107: STBG and CMAQ may flex to chapter 53 and intercity rail capital; STBG can pay a State's share of a joint facility under division A sec. 109. Sec. 1108: a State may collect the 4491 charge and its own road usage charge in one registration transaction under 4493(b); the 250-Plus EV fee's '125% withholding penalty' lapses with the fee; the FHWA per-mile pilot continues, testing truck distance reporting under 4495. Sec. 1111: unit costs for projects over $100M and the work-type shares of sec. 1106(d) go into the division E database (MOV-31.81).",
+  "eligibility": "States",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "policy inside sec. 1101's money"
+   }
+  ],
+  "agency": "DOT (FHWA)",
+  "current_law": "STBG and CMAQ are already flexible to some transit uses; no joint-facility rule.",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "none added",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.32",
+  "title": "Division B sec. 1115: local access and suballocation (A-25)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-25 (memo 5: stays as chosen). STBG suballocation by population rises 'from 55% to 60%'; 1 percent of the amount for areas under 50,000 funds rural transportation planning organizations; the consolidated funding pilot suballocates 30 percent, not 25 percent; MPOs keep the direct-recipient option. Local governments own about 80% of roads and see over half of traffic deaths (NACTO, as Draft 2 reports it). Sec. 1115 is specified, not drafted. No federal cost.",
+  "eligibility": "Metropolitan planning organizations, local governments and rural planning organizations",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "shares inside sec. 1101's money"
+   }
+  ],
+  "agency": "DOT (FHWA)",
+  "current_law": "STBG suballocation is 55 percent in H.R. 8870 and the current formula.",
+  "evidence": [
+   "EV-MOV-012"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 A-25: no federal cost",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.33",
+  "title": "Division B secs. 1201 and 1301: NHTSA and FMCSA at H.R. 8870 levels, grown, $12.07B",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 secs. 1201 and 1301 (specified). Highway Account authorizations for the National Highway Traffic Safety Administration and the Federal Motor Carrier Safety Administration at H.R. 8870 levels grown, $12.07B together (the row is rounded so each year's division B total matches the model); the sec. 402/405 merger with a speed priority, the automated-truck safety case and the lease-purchase rule carry forward. Renewal programs.",
+  "eligibility": "States and motor carriers under the programs",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Highway Account"
+   }
+  ],
+  "agency": "DOT (NHTSA, FMCSA)",
+  "current_law": "NHTSA and FMCSA are funded from the Highway Account under the 2021 law.",
+  "evidence": [
+   "EV-MOV-007"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $12.07B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.40",
+  "title": "Division C title II: transit operating help, the new 5307(i) tier, $35.00B (memo 4 option D)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; memo 4 option D as decided (DEC-2026-11-10-08); changes A-3's conditions. New 49 U.S.C. 5307(i): grants to designated recipients in urbanized areas of not fewer than 200,000 for operating costs, including rail fixed guideway. Amounts (sec. 717): $6.0B, $6.5B, $7.0B, $7.5B, $8.0B in FY2032-36 = $35.00B. Apportionment: 50 percent on vehicle revenue hours, 30 percent on trips, 20 percent on low-income residents; no area is apportioned more than 25 percent of its net operating cost (operating costs less fares), the excess reapportioned. Federal share: operating grants under 5307(d)(2) may not exceed 50 percent of net project cost (ATRA drafting base). On 2024 National Transit Database data the first-year tier is 11.9 percent of national net operating cost; New York's share (27.7 percent) equals its share of that cost, and the ceiling binds in 69 small areas and costs New York nothing (Draft 2's figures; the NTD is not in its source list). Conditions kept: (A) maintenance of effort, State and local operating support at least the average of the 3 preceding fiscal years, increased by CPI-U; (B) a service floor, vehicle revenue hours at least 95 percent of the average for FY2028-30 (the base years are not shifted, A-20); (C) no outstanding direction under 5326(e)(3) (MOV-31.41). Converted: Draft 2's condition (D), a cap on the preventive-maintenance share of 5307(a)(1)/5337 apportionment above its FY2027-29 average, and condition (5), a published cost plan when operating cost per vehicle revenue hour rises more than 1.5 points above the State and local government wage index for 3 consecutive years, become one annual published report: each recipient's preventive-maintenance spending and operating cost per vehicle revenue hour, with an FTA review where an area's figures move sharply; 'sharply' is a review trigger set by FTA rule (a working choice, not a parameter for Espen). Burden removed: two tests an agency must track and certify each year; given up: a hard stop on shifting capital money to operations, and on cost growth. Also kept: the 5307(a)(2) bus-count rule (systems of 100 or fewer peak buses; H.R. 8870 sec. 3005 allows operating costs up to 25% for systems with 101 to 125 peak buses) with an election between that and this tier; annual publication; an emergency waiver of the service floor and maintenance of effort. Requires MOV-31.01 (9503(e)(3) amended to allow operating). Subject to sec. 110(a); reductions restored by transit top-ups. Alternatives (memo 4): none (draw 0.164% of GDP average, all-in peak 0.193%); the same at $70.00B (0.196%, 0.223%). Rests on judgment: no study of the 1998 capital-only rule's conditions is in the register.",
+  "eligibility": "Designated recipients in urbanized areas of 200,000 or more",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Mass Transit Account; renewal program; conditions on the money"
+   }
+  ],
+  "agency": "DOT (FTA)",
+  "current_law": "Federal transit money has paid for capital, not operations, in large cities since 1998; 5307(a)(2) allows operating grants only for systems with 100 or fewer peak buses. Fares were $12.0B in 2025 against operating costs of $70.1B [EV-MOV-100]; pandemic relief of $69.5B is spent [EV-MOV-103]. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-100",
+   "EV-MOV-101",
+   "EV-MOV-102",
+   "EV-MOV-103",
+   "EV-MOV-128",
+   "EV-MOV-210",
+   "EV-MOV-220",
+   "EV-MOV-221"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $35.00B FY2032-36; scenarios A and C in sec. 7",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.41",
+  "title": "Division C title III: state of good repair formula, asset management enforcement and transit resilience ($31.50B)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 title III (secs. 301, 303, 304; sec. 302 is MOV-31.42). Sec. 301: the 5337 state of good repair formula, $5.2B, $5.4B, $5.6B, $5.8B, $6.0B = $28.00B, 80 percent federal share. Sec. 303: asset management accountability, new 5326(e), $0.10B a year at 100 percent federal share ($0.50B): a determination whether the cost of assets not in state of good repair increased; a corrective plan within 180 days after two consecutive years; in the third year the recipient directs not less than 25 percent of its 5307(a)(1) apportionment to projects in its investment prioritization; no money is withheld; an annual report of capital funds applied to operations. A 5326(e)(3) direction is what disqualifies a recipient from the operating tier (MOV-31.40). Sec. 304: transit resilience, $0.60B a year ($3.00B) at 80 percent. Title III in all (with sec. 302) is $63.03B. Four corrections to ATRA's dates: 5337(g)(1) 'September 30, 2030' becomes 'September 30, 2031'; 5337(g)(3) 'beginning with fiscal year 2031' becomes 'fiscal year 2032'; strike sec. 301(1) (sec. 715(a) does the same); 5337(g)(2) cites sec. 717 for the backlog retirement program (A-20: drafted dates shift one year, except the 5307(i)(4) base years).",
+  "eligibility": "Urbanized areas, States, transit agencies and tribes as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Mass Transit Account; renewal programs"
+   }
+  ],
+  "agency": "DOT (FTA)",
+  "current_law": "5337 is the state of good repair formula; no 5326(e) enforcement of the kind drafted. FTA's reinvestment backlog is $101 billion in 2018 dollars [EV-MOV-104].",
+  "evidence": [
+   "EV-MOV-104",
+   "EV-MOV-105",
+   "EV-MOV-200"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $28.00B + $0.50B + $3.00B (title III total $63.03B)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.42",
+  "title": "Division C sec. 302: the 5337(g) backlog retirement schedule, $31.53B over a 20-year schedule",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 title III sec. 302 with its corrections. New 49 U.S.C. 5337(g): a baseline backlog published within one year of enactment from transit asset management plans, measured on Sept 30, 2031 (corrected from 2030); apportioned in the ratio of baseline backlogs; in each of the 20 fiscal years beginning with FY2032 a recipient obligates, from all sources, not less than one-twentieth of its baseline backlog, adjusted for inflation; use only for baseline assets, not preventive maintenance; maintenance of effort on State and local capital support; an annual report. Federal share 80 percent. The $127.8B repair backlog (CRS, 2018 backlog in 2025 dollars) is retired in FY2051; the authorization of $6.00B in FY2032 exceeds the $5.93B federal share of the first-year schedule so as to cover assets entering later (ATRA: $5.93B of $7.41B in the first year, on its old calendar). Alternative: a 30-year schedule saves about $10.5B over the bill (tradeable). The $127.8B and the $101 billion in FTA's own 2018 report differ by price year and source [EV-MOV-104] [EV-MOV-105].",
+  "eligibility": "Urbanized areas, States, transit agencies and tribes as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Mass Transit Account; renewal program"
+   }
+  ],
+  "agency": "DOT (FTA)",
+  "current_law": "No backlog retirement program; 5337 formula only. Backlog $101 billion (2018 dollars, FHWA/FTA) or $127.8 billion (2018 backlog in 2025 dollars, CRS).",
+  "evidence": [
+   "EV-MOV-104",
+   "EV-MOV-105"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $31.53B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.43",
+  "title": "Division C title IV sec. 401: Capital Investment Grants, $27.50B, obligated in full at signing",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 title IV sec. 401 (drafted). (a) The amounts of division A sec. 105(a)(1) (MOV-31.05) are available for 5309. (b) 5338(d)(2) is amended so that a full funding grant agreement or small start agreement financed by sec. 105(a)(1) is a contractual obligation and the Secretary obligates that share in full on the date the agreement is executed. (c) Contingent commitments under 5338(d)(2) and 5309(k)(2) for years after 2036 may not exceed 60 percent of the amount appropriated for FY2036 multiplied by the number of such fiscal years, through FY2046. Carried from H.R. 8870: Streamlined Starts up to $1B, design at 30 percent before project development, a transit-oriented development rating credit, guidance every two years. Not changed: the 60 percent ceiling in 5309(l)(1)(B)(ii). Expansion (users pay for repair, the nation pays to build); transit draws $30.46B of the $30.50B expansion (CIG and sec. 606) because FY2036 receipts cover $0.04B of CIG. Pipeline: 47 projects on FTA's November 2026 dashboard, one grant since January 20, 2025, and 30 slipped by a median of 12 months [EV-MOV-112] [EV-MOV-113].",
+  "eligibility": "Project sponsors (transit agencies, States)",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "appropriations in div. A sec. 105(a)(1); obligated in full at signing"
+   }
+  ],
+  "agency": "DOT (FTA)",
+  "current_law": "CIG is authorized at about $3.0B a year subject to appropriation (5338(b)); agreements obligate year by year.",
+  "evidence": [
+   "EV-MOV-112",
+   "EV-MOV-113",
+   "EV-MOV-200"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $27.50B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.44",
+  "title": "Division C secs. 402-407: CIG delivery reforms (specified, not drafted)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 title IV secs. 402-407 (specified). 402: warrants are the default for projects seeking 50 percent or less from 5309. 403: local financial commitment in five match categories, with the unobligated-appropriation categories capped at 40 percent. 404: FTA decides engineering entry, letters of no prejudice and grant agreements within 120 days of a complete submission or publishes why not. 405: projects with a federal share above $1B take the division D tranche gates and cure and termination rules (MOV-31.66, MOV-31.67). 406: one application and one finance plan for joint 5309(q) projects with division D secs. 302 or 303. 407: projects over $1B report standardized unit costs; an independent cost review at 30 percent design.",
+  "eligibility": "Project sponsors",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "conditions and process on sec. 401's money"
+   }
+  ],
+  "agency": "DOT (FTA)",
+  "current_law": "5309(g)(3) calls for warrants 'to the maximum extent practicable'; no fixed decision clock.",
+  "evidence": [
+   "EV-MOV-112",
+   "EV-MOV-113"
+  ],
+  "sources": [],
+  "cost_source": "none added",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.45",
+  "title": "Division C title V: labor and workforce, $2.85B (specified, not drafted)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 title V secs. 501-506 (specified), $0.50B / 0.55 / 0.60 / 0.60 / 0.60 = $2.85B. 5333(b) is left as it is; 502 confirms 'without referral' certification for recurring 5307(i) and 5337(g) grants. 501 apprenticeships $1.60B; 503 a frontline training set-aside of 1 percent of each recipient's 5307 and 5337 apportionment, matched, $0.75B; 504 operator safety, enclosed workstations (H.R. 8870 sec. 3102) plus retrofit grants, $0.40B; 505 the Transit Workforce Development Center made permanent, $0.10B; 506 no money: FTA issues minimum safety standards covering operator presence before federal funds pay for automated revenue service. Commuter rail employees bargain under the Railway Labor Act. Division F sec. 103 carries labor protections through any Amtrak reorganization.",
+  "eligibility": "Transit workers and employers",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Mass Transit Account; renewal"
+   }
+  ],
+  "agency": "DOT (FTA); Labor",
+  "current_law": "5333(b) labor protections apply to federal transit grants.",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $2.85B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.46",
+  "title": "Division C title VI: formula capital, buses, rural, seniors and disabilities, accessibility, ferries and emergency relief, $85.30B",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 title VI (specified except sec. 606, MOV-31.47). Sec. 601 urbanized area formula: $10.0B, $10.4B, $10.8B, $11.2B, $11.7B = $54.10B (against about $9.3B under 250-Plus in FY2031). Sec. 602 buses and bus facilities: $2.6B to $3.0B = $14.00B, the zero-emission increment as a cost share not a mandate, 90 percent federal share of the incremental cost. Sec. 603 rural, tribal and intercity bus (5311): $1.40B to $1.60B = $7.50B, rural operating share 50 percent to 80 percent. Sec. 604 seniors and disabilities (5310): $0.60B to $0.68B = $3.20B. Sec. 605 All Stations Accessibility: $1.00B a year = $5.00B, an annual list by name; FTA publishes the national count and cost within a year. Sec. 607 ferries $0.20B a year = $1.00B. Sec. 608 emergency relief (5324) $0.10B a year = $0.50B. Subtotal $85.30B; with sec. 606 title VI is $88.30B. Station accessibility is shared with division D (classes split so lines do not double count; package two covers rail transit and commuter stations). 5302(15) is untouched. Prose elsewhere: legacy ATRA title VI was $91.30B before sec. 606 was cut to $3.00B (A-6); Draft 2's $88.30B governs.",
+  "eligibility": "Urbanized areas, States, transit agencies and tribes as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Mass Transit Account; renewal programs"
+   }
+  ],
+  "agency": "DOT (FTA)",
+  "current_law": "5307, 5339, 5311, 5310 and 5324 are funded from the Mass Transit Account and appropriations at 2021-law levels; H.R. 8870 funds 5307/5336 at $7.75B to $8.26B and 5339 at $1.70B to $2.30B a year.",
+  "evidence": [
+   "EV-MOV-104",
+   "EV-MOV-200"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $85.30B FY2032-36 (title VI $88.30B with sec. 606)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.47",
+  "title": "Division C sec. 606: joint facilities outside the five sec. 310 nodes, $3.00B (A-6)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; A-6 (memo 6 option A); Draft 2 sec. 606 (drafted). Grants from sec. 105(a)(2), $0.60B a year ($3.00B), for joint facilities other than sec. 310 projects; may pay only the share of a project attributed to public transportation under division A sec. 109(a), at a federal share of not more than 80 percent of that share; one combined application with division D. Retargeted: ATRA carried $6.00B for the terminals; Draft 2 cuts it to $3.00B and aims it away from the five nodes because sec. 310 ($20.20B) is the single program for them. Open: the transit share of the five terminals is between roughly $3B and $14B ($13.96B if all renewal, 23.5 percent of all five-year 5337 formula and backlog money nationwide), with no dedicated program; if sec. 310 does not cover it, up to $13.96B of terminal renewal falls to commuter operators' formula money. How that is financed is unsolved and goes to the financing settlement.",
+  "eligibility": "Transit agencies and States with joint facilities",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "expansion appropriation in div. A sec. 105(a)(2)"
+   }
+  ],
+  "agency": "DOT (FTA, FRA)",
+  "current_law": "49 U.S.C. 5309(q) covers joint projects case by case.",
+  "evidence": [
+   "EV-MOV-222"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $3.00B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.48",
+  "title": "Division C title VII secs. 701-705: planning, FTA capacity, safety, research and delivery, $4.74B",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 title VII (specified), $0.90B / 0.92 / 0.95 / 0.97 / 1.00 = $4.74B. 701 planning (5305) $1.55B; 702 FTA administration, staffing restored to at least 800 (FTA had 781 in FY2024 and 552 in FY2026, Draft 2's figures with no source stated) $1.05B; 703 safety oversight (5329) and the National Transit Database $0.55B; 704 research, technical assistance and bus testing $0.80B; 705 cost benchmarking, standard designs and owner-side engineering $0.79B, cross-referring to division D secs. 705-709 and division E (the public unit-cost database). Conforming amendments 711-716 (planning targets, the 5311(g)(2)(A) share, 5324(g), 5329(g)(2)(C), technical corrections, the 5338(c)(1)(B) fix); 5329(d)(4)(B) and 5310's 50 percent operating share are left alone.",
+  "eligibility": "Urbanized areas, States, transit agencies and tribes as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Mass Transit Account; renewal"
+   }
+  ],
+  "agency": "DOT (FTA)",
+  "current_law": "FTA's staffing and capacity are limited; no unit-cost database.",
+  "evidence": [
+   "EV-MOV-125"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $4.74B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.49",
+  "title": "Division C sec. 706: Buy America for jointly funded rolling stock",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 sec. 706 (drafted) and division F sec. 102. For rolling stock jointly funded by transit and intercity rail money, the equipment pool's standard (division D sec. 1201: domestic content and final assembly in the United States) applies in lieu of 5323(j)(2)(C); each mode keeps its own rule elsewhere. Open: Amtrak purchases need over 50 percent domestic content, FTA 70 percent and FRA-funded purchases 100 percent of manufactured-product components, while ARCA's sec. 704 says 75 percent; sec. 1201 must state which standard governs so a single fleet faces one standard, not three. Buy America in highways continues under sec. 1101.",
+  "eligibility": "Manufacturers and agencies buying rolling stock",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "domestic content rule"
+   }
+  ],
+  "agency": "DOT (FTA, FRA)",
+  "current_law": "49 U.S.C. 5323(j) and 24305(f) set separate domestic content rules by mode.",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "none",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.50",
+  "title": "Division C sec. 717: the transit authorizations by program name, $190.92B",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 sec. 717 (drafted); division F sec. 101. Rewrites 49 U.S.C. 5338(a)(2) (in millions, FY2032 / 33 / 34 / 35 / 36): 5307(i) 6,000 / 6,500 / 7,000 / 7,500 / 8,000; 5307 and 5340 10,000 / 10,400 / 10,800 / 11,200 / 11,700; 5337(c) and (d) 5,200 / 5,400 / 5,600 / 5,800 / 6,000; 5337(g) backlog 6,000 / 6,150 / 6,300 / 6,460 / 6,620; 5326 100 each year; resilience (sec. 304) 600 each; workforce 500 / 550 / 600 / 600 / 600; 5339 2,600 / 2,700 / 2,800 / 2,900 / 3,000; 5311 1,400 / 1,450 / 1,500 / 1,550 / 1,600; 5310 600 / 620 / 640 / 660 / 680; All Stations Accessibility (sec. 605) 1,000 each; ferries (sec. 607) 200 each; emergency relief 5324 100 each; planning, administration, safety, research and delivery 900 / 920 / 950 / 970 / 1,000. Total $190,920,000,000. Division C overall is $221.42B ($190.92B renewal from the Mass Transit Account plus $30.50B expansion); by year $40.30B / 42.29 / 44.29 / 46.24 / 48.30. Programs are cited by name, not subparagraph letter, so a relettering in a later bill cannot misdirect money (division F sec. 101). Subject to division A sec. 110(a); reductions are restored by the transit top-ups. Check: the lines sum to $190.92B.",
+  "eligibility": "Urbanized areas, States, transit agencies and tribes as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Mass Transit Account within receipts"
+   }
+  ],
+  "agency": "DOT (FTA)",
+  "current_law": "5338(a)(2) lists FY2022-26 amounts under the 2021 law; H.R. 8870 would extend it to FY2031 (case 1).",
+  "evidence": [
+   "EV-MOV-001",
+   "EV-MOV-200"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $190.92B renewal; division C $221.42B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.60",
+  "title": "Division D title I: the Intercity Passenger Rail Account and its subaccounts",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. D sec. 101 (drafted), which keeps only sec. 101 of ARCA title I (ARCA secs. 102-104 became division A sec. 104; 105 became division A sec. 105; 106-109 became division A secs. 106-109). Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. The Rail Account is the source of contract authority; there is no separate trust fund. Subaccounts: Core Network, Corridor Development, High-Speed Rail, Credit, and Commission. Amounts are available without further appropriation for titles II-XIII other than secs. 303, 310, 311 and 312 (the expansion programs, which division A sec. 105 appropriates). The Mass Transit Account remains available for joint facilities (division A sec. 109). The corridor competitiveness surcharge is dropped (A-13): the Commission Subaccount is funded from the title V authorization alone. Division D is $254.03B over FY2032-36: $160.83B renewal from the Rail Account and $93.20B expansion (secs. 303, 310, 311, 312), by year $39.95B / 47.29 / 52.07 / 56.13 / 58.59, plus up to $25.00B readiness reserve (contingent; MOV-31.06). Dedicated receipts cover 44% of rail renewal and 28% of the whole rail program in FY2032-36 (different bases, both stated).",
+  "eligibility": "States, interstate compacts, regional commissions, Amtrak and private operators on identical terms, as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account"
+   }
+  ],
+  "agency": "DOT (FRA); Treasury",
+  "current_law": "Rail has no trust fund or contract authority; Amtrak and the rail programs are annual appropriations. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-208",
+   "EV-MOV-222",
+   "EV-MOV-223"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: division D $254.03B; rail receipts $70.38B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.61",
+  "title": "Division D title II: the core network, $59.95B",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. D title II, ARCA secs. 201-205 as the drafting base. 201(a) Amtrak NEC base grant $10.00B ($2.00B a year, 100 percent federal); 201(b) NEC Capital Program $17.00B (80 percent federal share; named projects in the NEC Project Inventory; a project over $500M gets no second tranche until the Commission certifies every non-federal share committed at its stated legal status, sec. 403); 202 National Network operating grant $11.00B ($2.20B a year, restoring daily service where it is now tri-weekly; route-level cost and revenue reporting; failing a financial target is not by itself grounds for discontinuance); 203 long-distance preservation and renewal $4.70B (90 percent federal); 204 National Fleet Program $13.10B (long-distance single-level fleet $7.50B, NEC and high-speed trainsets $2.85B, locomotives $1.85B, maintenance and layover $0.90B; US final assembly, multi-year firm orders, a published standard specification so a second carbuilder can bid); 205 stations and ADA $4.15B ($2.5B ADA with a hard FY2036 completion deadline and annual per-station certification by name; $1.65B small-station platforms and hubs). Title II total $59.95B. Amtrak: 34.5 million trips and an adjusted operating loss of $598.4M in FY2025 [EV-MOV-106] [EV-MOV-107]. Renewal, from the Rail Account.",
+  "eligibility": "Amtrak, States and station owners",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; renewal"
+   }
+  ],
+  "agency": "DOT (FRA); Amtrak",
+  "current_law": "Amtrak receives annual appropriations (a $1.577B National Network grant in FY2026); no multi-year dedicated rail money.",
+  "evidence": [
+   "EV-MOV-106",
+   "EV-MOV-107",
+   "EV-MOV-223"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $59.95B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.62",
+  "title": "Division D title III renewal sections: Corridor ID, intercity capital for Tier 2-3, CRISI, grade crossings and safety ($67.25B)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. D title III secs. 301-306 (renewal), ARCA as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. Sec. 301 Corridor ID and Service Development Program $2.50B: three steps, each funded, permanent (the Corridor ID new-selection sunset of Oct 1, 2031 falls on this bill's first day and division D makes the program permanent); a corridor is removed if Step 2 is not completed within six years of receiving its Step 2 obligation; FRA must obligate Step 2 funds within 18 months of a sponsor completing Step 1 or publish why. Sec. 302 Intercity Passenger Rail Capital Program (Tier 2 and 3) $38.00B: 45 percent formula (35 percent on population within 25 miles of a designated corridor, 25 on corridor route-miles, 25 on intercity boardings, 15 divided equally; a 0.5 percent floor; a 25 percent cap on one commission), 55 percent competitive; federal share 80 percent for Tier 3, 70 percent for Tier 2 falling to 60 percent after FY2034; the formula is specified, not drafted. Sec. 304 CRISI $12.50B. Sec. 305 grade crossing elimination and safety $12.50B (half formula, half competitive for eliminations over $50M). Sec. 306 safety implementation $1.75B. Sum $67.25B of renewal in title III; the expansion sections are MOV-31.63 to MOV-31.65. Sec. 313 strikes the 750-mile ceiling in 49 U.S.C. 25101(h) (14 of 15 long-distance options are otherwise ineligible). Pipeline: 69 corridors selected in December 2023 [EV-MOV-108]; the FRA Administrator said in September 2026 the agency is still deciding what happens to the Corridor ID program [EV-MOV-109]; the rail division projects three to five corridors with a completed environmental record at enactment, and none had a Step 3 obligation in March 2026 [EV-MOV-225].",
+  "eligibility": "States, interstate compacts, regional commissions, Amtrak and private operators on identical terms, as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; renewal"
+   }
+  ],
+  "agency": "DOT (FRA)",
+  "current_law": "Corridor ID and CRISI are annual appropriations; the Corridor ID program sunsets for new selections on Oct 1, 2031.",
+  "evidence": [
+   "EV-MOV-108",
+   "EV-MOV-109",
+   "EV-MOV-225"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $2.50B + $38.00B + $12.50B + $12.50B + $1.75B = $67.25B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.63",
+  "title": "Division D sec. 303: the National High-Speed Rail Program (Tier 1), $55.00B, with the $14.0B corridor cap (A-21)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; memo 6 option A (A-21, A-22); Draft 2 sec. 303 (drafted). Grants for Tier 1 corridors from division A sec. 105(a)(3): $6.0B, $9.0B, $11.0B, $13.5B, $15.5B = $55.00B. Applicants: a State, an interstate compact, a regional commission (title V), Amtrak, or a private operator on identical terms. Entry gates (c): a record of decision or programmatic agreement; an executed rolling stock procurement or a strategy with a firm solicitation date; an independent ridership and revenue certification (sec. 402); the non-Federal share committed (sec. 403). Federal share may not exceed 50 percent; no project under $1,000,000,000 total cost is eligible; not more than $14,000,000,000 to any corridor. Combined cap with the readiness reserve under division A sec. 106(e)(2): $19,250,000,000, which is 35 percent of $55B written in dollars so it does not loosen as the program grows (A-21); a corridor at the cap can draw $5.25B from the reserve. Tier 1 allocation ($B): Dallas-Houston 14.00 (greenfield, no legacy alignment, at the cap); California Merced-Bakersfield, Bakersfield-Palmdale and Palmdale-Los Angeles design and early works 12.00 (gated on the sec. 401 remediation conditions); Seattle-Portland 7.00 (Service Development Plan completes 2028); Charlotte-Atlanta 6.50; Brightline West, Los Angeles Union and Phoenix extensions and Phoenix-Las Vegas 7.50 (private-led; federal share on public segments only); unallocated, the first corridor to clear its gates, 8.00 (released in the 2034-36 readiness window) = $55.00B. Draft 2's prose at L1588 says '$2.0B to California and $5.0B to Brightline West'; those are ARCA-era increments, and the table's figures govern. Evidence: the EU's audited high-speed lines averaged 25 million euro a kilometre and ran 5.7 billion euro over budget at project level [EV-MOV-130]; the division projects three to five corridors with a completed environmental record at enactment [EV-MOV-225]. Expansion; paid by the general fund.",
+  "eligibility": "States, interstate compacts, regional commissions, Amtrak and private operators on identical terms, as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "appropriation in div. A sec. 105(a)(3); gates condition release"
+   }
+  ],
+  "agency": "DOT (FRA)",
+  "current_law": "No federal high-speed rail construction program is in the baseline; California's project is funded by prior grants.",
+  "evidence": [
+   "EV-MOV-108",
+   "EV-MOV-130",
+   "EV-MOV-222",
+   "EV-MOV-224",
+   "EV-MOV-225"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $55.00B FY2032-36; combined cap $19.25B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.64",
+  "title": "Division D sec. 310: terminals of national significance, $20.20B for five nodes (A-6)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; memo 6 option A (A-6: sec. 310 is the single program for the five nodes). Appropriated by division A sec. 105(a)(4): $2.5B, $3.7B, $4.5B, $4.8B, $4.7B = $20.20B. Nodes ($B; transit share of renewal under division A sec. 109): Chicago Union Station and CREATE 9.0 (commuter trains are 79 percent of movements; 7.11); New York Penn and Sunnyside 4.0 (LIRR and NJ Transit about 92 percent of riders; 3.68); Washington Union Station 3.5 (MARC and VRE about 45,000 of 61,500 weekday riders, a 2008 baseline, unverified; 2.56; the $8.8B expansion was cancelled in July 2026 and there is no current design); Los Angeles Union Station 0.7 (Metrolink and Metro about 20,000 of 22,900 boardings; 0.61); Atlanta 3.0 (no intercity terminal exists; an access negotiation with Norfolk Southern; none to compute). The existing four are $17.2B, of which $13.96B is transit's share if all of it is renewal. Only Chicago's share is a movement count; the other three are ridership proxies, and Draft 2's own range for transit's true share is roughly $3B to $14B (these station figures carry no source in Draft 2). Sec. 310 pays only the intercity share (division A sec. 109(b)); the transit share is eligible under 5307, 5309(q), 5337 and div. B sec. 1107, and sec. 606 (MOV-31.47) covers joint facilities elsewhere. ARCA sec. 602 covenants apply to Atlanta/Norfolk Southern. Scoping is open.",
+  "eligibility": "States, interstate compacts, regional commissions, Amtrak and private operators on identical terms, as each program provides; no income test; transit agencies as co-sponsors",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "appropriation in div. A sec. 105(a)(4)"
+   }
+  ],
+  "agency": "DOT (FRA, FTA)",
+  "current_law": "No terminal program; 49 U.S.C. 5309(q) covers joint projects case by case.",
+  "evidence": [
+   "EV-MOV-222"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $20.20B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.65",
+  "title": "Division D secs. 311 and 312: federally initiated corridors ($6.00B) and long-distance network implementation ($12.00B)",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 secs. 311 and 312 (expansion, division A sec. 105(a)(5), (6)); ARCA text as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. Sec. 311: $1.6B, $1.4B, $1.1B, $0.95B, $0.95B = $6.00B. The Secretary may designate a corridor of national significance on her own motion if it meets criteria (connects two or more 25101 corridors with joint benefits; serves a metropolitan area over 1,000,000 with no intercity station; crosses 3 or more States with no compact or authority; or is terminal, junction or approach capacity two or more corridors depend on); federal share 100 percent through preliminary engineering and environmental review; the Secretary is sponsor of last resort and must solicit a State, compact or public authority before final design obligations; not more than 14 corridors during FY2032-2036 (ARCA read 2031-2035; Draft 2 changed it). Sec. 312: $1.5B, $2.0B, $2.5B, $3.0B, $3.0B = $12.00B, a first tranche for FRA's five highest-rated long-distance options (Houston-New York, Chicago-Miami, Dallas/Fort Worth-New York, Detroit-New Orleans, Phoenix-Minneapolis); the Secretary is sponsor; a route-specific assessment is required before obligation (FRA marked those pages 'not an FRA proposal for service'; the summed per-route capital of $46-59B is a floor for incomplete scope). FRA's January 2025 study found no sustained financial support or program to build or operate the routes [EV-MOV-110] [EV-MOV-111].",
+  "eligibility": "States, interstate compacts, regional commissions, Amtrak and private operators on identical terms, as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "appropriations in div. A sec. 105(a)(5), (6)"
+   }
+  ],
+  "agency": "DOT (FRA)",
+  "current_law": "49 U.S.C. 25101(h) caps corridors at 750 miles and limits long-distance options; the Secretary cannot initiate a corridor.",
+  "evidence": [
+   "EV-MOV-109",
+   "EV-MOV-110",
+   "EV-MOV-111",
+   "EV-MOV-222"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $6.00B + $12.00B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.66",
+  "title": "Division D sec. 401: tranche gates for the larger rail projects",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; memo 6 option A (the gates and the sec. 403 match rules survive every fallback round); ARCA sec. 401 as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. Applies to each project under sec. 302 or 303 with a federal share over $300,000,000. (b) Four tranches of not more than 25 percent each; tranches 2-4 need independent-reviewer certification (sec. 402). (c) Gate requirements: (1) the non-Federal share committed, with amounts by the sec. 403(a) category; (2) rolling stock under contract or solicitation with a stated award date; (3) updated ridership and revenue forecasts on the original methodology, with reconciliation of every variance over 10 percent; (4) a cure plan if cost at completion exceeds baseline by more than 15 percent or the revenue service date has slipped more than 12 months; (5) the sec. 404 disclosures published. (d) The Secretary grants or denies within 90 days of a complete submission (consequence of silence set in ARCA). Gates 401(d)-(f) are anti-pretext provisions: objective, scheduled, public gates protect a project from a pretext termination (MOV-31.67 sec. 407). The California project is gated on the sec. 401 remediation conditions (MOV-31.63). Held to the same entry rules, the pipeline is thin: three to five corridors have a completed environmental record at enactment [EV-MOV-225].",
+  "eligibility": "States, interstate compacts, regional commissions, Amtrak and private operators on identical terms, as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "conditions on release of sec. 303 and 302 money; no added cost"
+   }
+  ],
+  "agency": "DOT (FRA)",
+  "current_law": "No statutory gates; FRA grant agreements set milestones case by case.",
+  "evidence": [
+   "EV-MOV-130",
+   "EV-MOV-225"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; inside Title IV $1.33B (MOV-31.67)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.67",
+  "title": "Division D title IV secs. 402-407: independent review, match rules, variance reporting, cure and funding certainty ($1.33B)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; ARCA title IV as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. Title IV is $1.33B ($0.25B / 0.27 / 0.27 / 0.27 / 0.27) and survives every fallback tier. 402: an Office of Rail Project Delivery in FRA; independent reviewers (engineering firms, academic transport economists, and the DOT Inspector General for projects above $2B) nominated by the recipient, the commission and the Comptroller General, none with a design or construction contract on the project. 403: match taxonomy A (obligated under an executed agreement) to E (planned, no legal action; not countable); A and B count in full and C and D together may not exceed 40 percent of the non-Federal share for a tranche (the ARCA table caps each at 40 percent; the statute text governs); two-sided contingent commitments published within 30 days; misrepresenting a match category makes a project ineligible for the next tranche until corrected. 404: quarterly machine-readable public posting of cost, schedule, ridership and revenue against the original business case for every project above $300M. 405: deobligated funds go to the sec. 302 competitive pool, not to Treasury. 406: an identical application for non-Amtrak and private operators. 407: funding certainty, an executed agreement may not be terminated, suspended or materially altered except on the grounds in 401(f), and a wrongly terminated recipient may recover costs incurred (not in the authorization table; division E sec. 104 extends it to all modes).",
+  "eligibility": "States, interstate compacts, regional commissions, Amtrak and private operators on identical terms, as each program provides; no income test",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; renewal"
+   }
+  ],
+  "agency": "DOT (FRA)",
+  "current_law": "Grant agreements can be terminated on notice; no common match taxonomy.",
+  "evidence": [
+   "EV-MOV-009",
+   "EV-MOV-130"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $1.33B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.68",
+  "title": "Division D title V: regional corridor commissions, $1.00B, and labor continuity",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; ARCA title V as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. Sec. 501 five regional corridor commissions: Northeast Corridor (existing, 49 U.S.C. 24905), Southeast, Cascadia, Midwest Hub and Texas Triangle; $40M a year each for planning staff, $1.00B in all; each may adopt a regional rail plan and allocate its sec. 302 formula apportionment. Sec. 504 advance congressional consent to interstate rail compacts meeting stated criteria (duplicates the sec. 1003 consent in title X; the file has no sec. 502). Sec. 503 amends 49 U.S.C. 24706 and 24701 so that collective bargaining agreements and the obligation to run basic-system routes continue if Amtrak transfers a function to a subsidiary or contractor (division F sec. 103 carries 49 U.S.C. 5333(b) and Railway Labor Act protections through any Amtrak reorganization). The commissions are the 'sponsor' the pipeline lacks; the Commission Subaccount is funded from this authorization alone.",
+  "eligibility": "States and regional commissions",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; renewal"
+   }
+  ],
+  "agency": "DOT (FRA)",
+  "current_law": "Only the Northeast Corridor Commission exists in law.",
+  "evidence": [
+   "EV-MOV-109"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $1.00B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.69",
+  "title": "Division D title VI: access, operations and ticketing, $0.85B",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; ARCA title VI as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. Sec. 601 preference enforcement ($125M for STB and FRA capacity): if the customer on-time performance of an intercity route is under 80 percent for 2 consecutive calendar quarters, delay attributable to dispatching is presumed a failure to provide preference and the carrier bears the burden; civil penalty not more than $25,000 a day after the Board's finding; the Board decides within 240 days (one extension of up to 90 days); standing for Amtrak, the funding State, a regional commission and any operator of a route selected under title III. Sec. 602 capacity-for-access covenants ($640M of dispatching modernization grants): for projects on right-of-way the recipient does not own, the owner records an instrument fixing passenger slots and schedule windows and an on-time standard, running with the right-of-way for not less than 30 years; no cash ask of freight railroads, only slots and data. Sec. 603 on-time standard 80 percent, rising to 85 percent for routes receiving sec. 302 or 303 assistance after FY2034, and certified delay reporting ($85M). Sec. 604 interoperable ticketing and scheduling (included). Total $0.85B.",
+  "eligibility": "Passenger rail operators and host railroads",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; renewal"
+   }
+  ],
+  "agency": "DOT (FRA); Surface Transportation Board",
+  "current_law": "49 U.S.C. 24308(c) gives Amtrak preference; the STB may investigate when on-time performance falls under 80 percent for two quarters, but first investigations took years.",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $0.85B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.70",
+  "title": "Division D title VII: industrial base, workforce and project delivery, $3.95B",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; ARCA title VII as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. Sec. 701 rolling-stock manufacturing capacity grants including suppliers $1.75B, conditioned on committed multi-year orders under sec. 204; 702 standard specification and pooled procurement; 703 workforce (apprenticeships in signal, catenary and car maintenance; State DOT and FRA technical capacity) $1.75B; 704 Buy America (75 percent domestic content, final assembly in the US, a published waiver register) with $0.45B of transition assistance; 705 cost benchmarking, a public unit-cost database for projects over $100M; 706 standard designs; 707 owner-side engineering capacity ('$600M in grants' sits outside the $3.95B: unfunded or a double count, an open item); 708 progressive design-build and alliance contracting as of right; 709 utility relocation deadlines. The Transit Costs Project finds the United States the sixth most expensive country to build rapid-rail transit [EV-MOV-125]. Total $3.95B ($0.90B / 0.90 / 0.80 / 0.70 / 0.65).",
+  "eligibility": "Manufacturers, workers and project sponsors",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; renewal"
+   }
+  ],
+  "agency": "DOT (FRA)",
+  "current_law": "No rail-specific manufacturing or workforce program; separate Buy America rules by mode.",
+  "evidence": [
+   "EV-MOV-125",
+   "EV-MOV-130"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $3.95B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.71",
+  "title": "Division D title VIII: credit, $5.00B",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; ARCA title VIII as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. $1.00B a year ($5.00B). ARCA itemized a credit risk premium of $3.3B for public-sector and commission borrowers and an interest-rate buy-down of $1.25B (the remaining $0.45B of Draft 2's $5.00B is not itemized in the sources). H.R. 8870 raises the RRIF lending ceiling from $35B to $50B and lets rail grant money pay the premium; ARCA would go to $150B. Term: the lesser of 75 years or useful life (from 35); the Bureau acts on a complete application within 180 days and publishes the reason for any extension; master credit agreements for multi-phase corridors; eligible borrowers add regional commissions, equipment pools, transit-oriented development within half a mile of a station and shippers' facilities. Rail's credit subsidy is the most efficient line in either reconciliation package ($10B supports $60-80B of face-value lending), so packages one and two (MOV-29.06, MOV-30.04) carry $10B of it ahead of this title.",
+  "eligibility": "Public and private rail borrowers",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; credit subsidy scored at obligation"
+   }
+  ],
+  "agency": "DOT (FRA, Build America Bureau)",
+  "current_law": "RRIF is a $35B-ceiling program with a 35-year term limit; subsidy comes from borrowers.",
+  "evidence": [
+   "EV-MOV-222"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $5.00B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.72",
+  "title": "Division D title IX: permitting parity, $0.50B",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; ARCA title IX as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. $0.50B ($0.3B for the national programmatic review plus $0.2B). 901 ESA parity (extend the MAP-21 sec. 1316 right-of-way exemption to FRA-assisted projects in existing operational railroad right-of-way); 902 a statutory categorical exclusion for work wholly within existing operating rail right-of-way that adds no new alignment (sidings, double-tracking, signaling and train control, grade separations, electrification, platforms and stations); 903 Section 4(f) alignment; 904 enforceable deadlines for Coast Guard bridge permits and Army Corps sec. 408 reviews, concurrent; 905 judicial review parity; 906 a national programmatic review ($300M): a national first-tier review of the high-speed network and regional first-tier reviews, valid 10 years. Division E sec. 105 extends the Coast Guard and Corps clocks to transit and highway bridges (MOV-31.83).",
+  "eligibility": "Rail project sponsors",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; renewal"
+   }
+  ],
+  "agency": "DOT (FRA); Interior; Army Corps; Coast Guard",
+  "current_law": "Rail projects follow the NEPA, ESA and Section 4(f) processes without the parity exclusions that highway projects have.",
+  "evidence": [
+   "EV-MOV-225"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $0.50B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.73",
+  "title": "Division D title X: operating support for state-supported corridors, $8.00B",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; ARCA title X as the drafting base; A-19 (one renewal definition): Draft 2 reclassifies it as contract authority from the Rail Account, a renewal program, where ARCA said mandatory. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. Sec. 1001 amends 49 U.S.C. 22908(e): (e)(1) six years becomes ten, renewable once for up to five on a finding that ridership and revenue are within 20 percent of the Service Development Plan projections; strike the six-active-grants limit in (e)(2); (e)(3) maximum federal share 90 percent in the first year declining 5 points a year to 50 percent and staying there; new (i) for interstate routes: federal share not below 50 percent, the non-Federal share allocated among States by relative use, a State's failure to pay does not discontinue the route, and the Secretary funds the unmet share for not more than 2 years. Sec. 1002 limits the State-Supported Route Committee: no allocation of a cost the route's discontinuance would not avoid within two years, no shared-cost allocation except on a published relative-use factor, and an annual route-level cost statement to each funding partner. Sec. 1003 advance consent to interstate compacts (one vote per State; no taxing authority without separate State legislation). Sizing: about $5.5B corridor ramp, $2.0B for the first long-distance routes (which may overlap sec. 312's scope; flagged in ARCA's digest) and $0.5B interstate floor and two-year shortfall backstop. Six corridors are stalled at the six-grant limit.",
+  "eligibility": "States and compacts operating intercity corridors",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; renewal program"
+   }
+  ],
+  "agency": "DOT (FRA)",
+  "current_law": "22908(e) limits operating grants to six active at once, six years, no renewal, at 90 / 80 / 70 / 60 / 50 / 30 percent.",
+  "evidence": [
+   "EV-MOV-106",
+   "EV-MOV-107"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $8.00B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.74",
+  "title": "Division D title XI: access, competition and structure, $1.50B",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; ARCA title XI as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. $1.50B ($0.40B / 0.30 / 0.30 / 0.25 / 0.25; no itemized split in the sources). Drafted first with vertical separation in mind; the evidence says not to, so the money goes to horizontal separation and leaves vertical structure alone. Sec. 1101 defines a 'designated corridor operator' and extends Amtrak's 49 U.S.C. 24308 rights to it (access rights should attach to the service obligation, not the firm). Sec. 1102 raises the Competitive Passenger Rail Service Pilot (49 U.S.C. 24711) from three long-distance routes to eight routes of any length and strikes the advance host-railroad agreement requirement (no petition was ever filed). Sec. 1103 extends the NEC Commission cost allocation policy to every funded corridor and adds a state-of-good-repair component to the charge when an owner's backlog exceeds a stated share of asset value. Sec. 1104 makes horizontal separation a design standard: above a density threshold set by the Secretary, dedicated passenger track is presumptive for Tier 1 and 2.",
+  "eligibility": "Passenger rail operators and host railroads",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; renewal"
+   }
+  ],
+  "agency": "DOT (FRA); Surface Transportation Board",
+  "current_law": "Only Amtrak has statutory access and preference rights; the 2017 competitive pilot drew no petitions.",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $1.50B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.75",
+  "title": "Division D title XII: the National Passenger Rail Equipment Pool, $8.50B",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; ARCA title XII as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. $8.50B ($1.30B / 1.70 / 1.80 / 1.90 / 1.80). Sec. 1201: the Secretary establishes a National Passenger Rail Equipment Pool to acquire, own, maintain and lease equipment to Amtrak, a State, a compact, a public authority or a designated corridor operator; performance-based national specifications for not more than six equipment families; a lessee that varies bears the incremental cost; lease terms follow useful life, not the operating agreement; a published annual ten-year order book; framework contracts across fiscal years. Sec. 1202: a final rule completing Tier III crashworthiness within 18 months of enactment (the proposed rule dates from April 2023), with an alternative path for individual vehicles. Sec. 1203: a protocol within 12 months by which European test evidence is presumptively accepted. Buy America: the pool's standard governs (division C sec. 706, division F sec. 102); sec. 1201 must say which of the three current standards applies. The $1.90B pool line in sec. 204 and this $8.00B pool double counted before ARCA moved the State pooled fleet here.",
+  "eligibility": "States, compacts and operators leasing equipment",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; renewal"
+   }
+  ],
+  "agency": "DOT (FRA)",
+  "current_law": "Each operator buys its own fleet; no pool; FRA's Tier III rule was proposed in April 2023 and is not final.",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $8.50B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.76",
+  "title": "Division D title XIII: the night network, $3.00B",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; ARCA title XIII as the drafting base. Division D is drafted here for title I and sec. 303 only; American Rail Competitiveness Act (ARCA) text is the drafting base by reference for the rest. $3.00B for the night network. Three further moves: (1) one ticket, no new money, a conforming amendment to sec. 604 adding connection protection (the second train honors the ticket; the cost falls on the operator causing the delay); (2) stations as value: a station development authority structure for sec. 310 projects, part of a terminal grant repayable from the captured increment, and a value-capture analysis for any terminal grant above a threshold (authority, no appropriation); (3) an airline bargain: a carrier discontinuing a route displaced by a Tier 1 corridor keeps its slot value by converting to a rail codeshare (authority, no appropriation; aviation jurisdiction).",
+  "eligibility": "Passenger rail operators",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "mandatory",
+    "note": "contract authority from the Rail Account; renewal"
+   }
+  ],
+  "agency": "DOT (FRA)",
+  "current_law": "No night-network program.",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 6.10: $3.00B FY2032-36",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.80",
+  "title": "Division E secs. 101 and 107: the national intercity travel forecast and multi-area apportionment data ($0.25B)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. E secs. 101 and 107 (specified, not drafted; division E is about $1.0B outside the $936.57B and the fiscal model). A national intercity passenger travel forecast, all modes, every five years ($0.10B); BTS and the National Transit Database publish the data for multi-area apportionment with each apportionment ($0.15B). The apportionment data run is one of the built-later items.",
+  "eligibility": "DOT and the public (data)",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "discretionary",
+    "note": "authorization outside the $936.57B"
+   }
+  ],
+  "agency": "DOT (BTS, FTA)",
+  "current_law": "BTS publishes some mode data; no all-mode forecast.",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 4E: $0.25B (division E $1.00B in all)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.81",
+  "title": "Division E sec. 102: one public unit-cost database for projects over $100M ($0.15B)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. E sec. 102 (specified), $0.15B. One public unit-cost database for highway, transit and rail projects over $100M, fed by division B secs. 1106(d) and 1111 (MOV-31.24, MOV-31.31), division C sec. 705 (MOV-31.48) and division D sec. 705 (MOV-31.70); it also holds the States' yearly report of obligations by purpose. Reporting, with no penalty. U.S. rapid-rail costs are the sixth highest of 59 countries [EV-MOV-125].",
+  "eligibility": "State DOTs, transit agencies and rail sponsors (reporting)",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "discretionary",
+    "note": "authorization outside the $936.57B"
+   }
+  ],
+  "agency": "DOT",
+  "current_law": "No common unit-cost database across modes.",
+  "evidence": [
+   "EV-MOV-125"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 4E: $0.15B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.82",
+  "title": "Division E sec. 103: evaluation of the road user charges ($0.10B)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. E sec. 103 (specified), $0.10B. A yearly evaluation, reported to the tax-writing committees, of collection cost, evasion, privacy compliance, and rural and income incidence of the charges in 26 U.S.C. 4491 and 4495; it complements GAO's review under 4494(d) (MOV-31.11). Oregon's weight-mile tax costs about 11% of revenue to collect and a 2021 study put its evasion at roughly 5-11% of revenue [EV-MOV-118] [EV-MOV-122]; Utah's program spends 14.2% of its revenue on operations [EV-MOV-120].",
+  "eligibility": "Treasury and DOT (reporting)",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "discretionary",
+    "note": "authorization outside the $936.57B"
+   }
+  ],
+  "agency": "DOT; Treasury; GAO",
+  "current_law": "No evaluation of the charges exists; no charge exists yet.",
+  "evidence": [
+   "EV-MOV-118",
+   "EV-MOV-120",
+   "EV-MOV-122"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 4E: $0.10B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.83",
+  "title": "Division E secs. 104 and 105: the grant pipeline and permitting parity (policy)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. E secs. 104 and 105 (specified, no money). Sec. 104, all modes: an agreement executed within 180 days of selection, or the Secretary reports why; pre-award authority for costs after selection; scope changes within 10 percent without reselection; executed agreements protected by a decision deadline, a cure period, a published basis and judicial review before termination (division D sec. 407, extended). It answers a GAO survey in which 23 percent of discretionary IIJA awardees had no signed agreement [EV-MOV-009]. Sec. 105: permitting parity, division D secs. 901-905 for rail plus the Coast Guard and Corps sec. 408 clocks for transit and highway bridges. Adds about $0.2B a year to the draw (Draft 2 section 4E note; division E is outside the fiscal model).",
+  "eligibility": "Grantees of all modes",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "process rules on existing grants"
+   }
+  ],
+  "agency": "DOT (all modes)",
+  "current_law": "Grant agreements may take years; no statutory clock.",
+  "evidence": [
+   "EV-MOV-009"
+  ],
+  "sources": [],
+  "cost_source": "none (policy); Draft 2: division E as a whole about $1.0B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.84",
+  "title": "Division E sec. 106: owner-side engineering and delivery capacity grants ($0.50B)",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. E sec. 106 (specified), $0.50B, matching division D sec. 707's rail authority. Grants to State DOTs and transit agencies for owner-side engineering and delivery capacity. FTA's own staffing fell from 781 in FY2024 to 552 in FY2026 (Draft 2's figures; no source stated), and a package-two line adds $1.00B for workforce and FTA capacity (MOV-30.05).",
+  "eligibility": "State DOTs and transit agencies",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "discretionary",
+    "note": "authorization outside the $936.57B"
+   }
+  ],
+  "agency": "DOT",
+  "current_law": "No federal grant for owner-side engineering outside rail ARCA proposals.",
+  "evidence": [
+   "EV-MOV-125"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md; Draft 2 sec. 4E: $0.50B",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.85",
+  "title": "Division F sec. 101: cross-references cite programs by name, not by letter",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. F sec. 101 (specified, no money). Cross-references to 49 U.S.C. 5338(a) and 23 U.S.C. 104 cite programs by name, not subparagraph letter, so a relettering in any later bill cannot misdirect money. Division C sec. 717 is written that way.",
+  "eligibility": "Not applicable (drafting rule)",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "drafting rule"
+   }
+  ],
+  "agency": "DOT; Office of Legislative Counsel",
+  "current_law": "Statutory references use letters that change with each bill.",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "none",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.86",
+  "title": "Division F sec. 104: reconciliation money counts toward a program's FY2032-36 baseline only where obligated",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. F sec. 104 (specified; A-16). Reconciliation money obligated in FY2029-31 counts toward a program's FY2032-36 baseline only where it is obligated, and the top-ups are not double counted in the division A sec. 108 report (MOV-31.08). Pairs with the obligation ramp (MOV-29.09) and with the sec. 110(b) distribution of top-ups (MOV-31.10).",
+  "eligibility": "Not applicable (accounting rule)",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "accounting rule"
+   }
+  ],
+  "agency": "DOT; Treasury",
+  "current_law": "No such rule.",
+  "evidence": [
+   "EV-MOV-217"
+  ],
+  "sources": [],
+  "cost_source": "none",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.87",
+  "title": "Division F sec. 102: Buy America for jointly funded rolling stock",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. F sec. 102 (specified, no money). Buy America for jointly funded rolling stock follows the equipment pool's standard (division D sec. 1201; division C sec. 706); each mode's own rule applies elsewhere. See MOV-31.49 for the open question of which standard governs.",
+  "eligibility": "Manufacturers and agencies",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "domestic content rule"
+   }
+  ],
+  "agency": "DOT (FTA, FRA)",
+  "current_law": "Separate Buy America rules by mode (50% Amtrak, 70% FTA, 100% FRA components).",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "none",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.88",
+  "title": "Division F sec. 103: labor protections carried through any Amtrak reorganization and to joint facilities",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. F sec. 103 (specified, no money). 49 U.S.C. 5333(b) and Railway Labor Act protections are carried through any Amtrak reorganization and to joint facilities under division A sec. 109 (MOV-31.09). Pairs with the continuity rules in division D title V (MOV-31.68).",
+  "eligibility": "Transit and rail workers",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "labor protection"
+   }
+  ],
+  "agency": "DOT; Labor",
+  "current_law": "5333(b) protects transit workers; the Railway Labor Act governs rail.",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "none",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.89",
+  "title": "Division F sec. 105: effective date Oct 1, 2031, and continuation if the bill lapses",
+  "agenda": "MOV-31",
+  "status": "chosen (drafting detail)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Act: the 2031 bill; Draft 2 div. F sec. 105 (specified, no money; A-20). The bill takes effect on Oct 1, 2031, the first day of FY2032, which is also the day the Corridor ID new-selection sunset falls; if the bill lapses, continuation under division A sec. 107 applies (MOV-31.07). Drafted dates shift one year from ATRA and ARCA, except the 5307(i)(4) base years (service hours FY2028-30, preventive maintenance FY2027-29). Under baseline cases 2 and 3 this bill is the renewal of the contingency authorization (MOV-31.90).",
+  "eligibility": "Not applicable (effective date)",
+  "vehicle": [
+   {
+    "vehicle": "Moving America Act of 2031 (regular bill, 60 votes or regular order)",
+    "kind": "none",
+    "note": "effective date"
+   }
+  ],
+  "agency": "DOT",
+  "current_law": "Authorizations run to FY2026 and, in case 1, to FY2031 (H.R. 8870).",
+  "evidence": [
+   "EV-MOV-001"
+  ],
+  "sources": [],
+  "cost_source": "none",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.90",
+  "title": "The contingency authorization: if no multi-year surface transportation law is in place by Dec 31, 2028, a regular-order authorization in 2029-30, with highway title I drafted in full",
+  "agenda": "MOV-31",
+  "status": "decided (DEC-2026-11-10-08)",
+  "decisions": [
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "Vehicle: a regular bill, 60 votes, in 2029-30; decided as recommended (point 1 of 3-design.md). Trigger: no multi-year surface transportation authorization is law on Dec 31, 2028 (baseline case 2, short extensions through 2028, or case 3, a lapse on Oct 1, 2028; the scenario dossier puts a multi-year bill by the end of 2028 at 40-55%, so this authorization is about as likely as not to be needed). Content: an authorization covering the years to FY2031, written by regular order alongside or after the 2029 act, with division B's highway title I drafted in full (MOV-31.20 and MOV-31.21 otherwise adopt H.R. 8870's title I by reference, which assumes it was enacted), and with the transit and rail programs it needs for those years at roughly current levels (case 2) or to restart them (case 3). The 2031 bill (MOV-31.01 to MOV-31.89, effective Oct 1, 2031) then becomes its renewal for FY2032-36. Why: the reconciliation acts cannot authorize programs (Byrd rule), so without this the top-up and package money (MOV-29.06 to MOV-29.09, MOV-30.04 to MOV-30.06) has no programs to flow to in FY2029-31. The design text names the years as FY2029-31 or FY2030-34; this provision follows the brief's years-to-FY2031 and leaves levels to section 6, which states which case it prices. The 2029 and 2030 acts work in every case, because they set revenue and top up existing programs; only the 2031 bill's timing changes. Not priced here; the cost depends on the case.",
+  "eligibility": "States, transit agencies and rail sponsors, as the programs provide",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "contract authority within receipts; limitation set by appropriations; 60 votes, enacted 2029-30"
+   },
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "highway title I drafted in full; hybrid division B (point 8) becomes a full drafted title if no five-year law passes"
+   }
+  ],
+  "agency": "DOT",
+  "current_law": "The 2021 authorization expired Sept 30, 2026 and was extended to Dec 11, 2026; H.R. 8870 (BUILD America 250) was reported 62-2 on May 22, 2026 and has not passed the House, and the Senate has no bill [EV-MOV-001] [EV-MOV-003]. 2029 baseline cases (3-design.md): (1) a five-year law through FY2031 as Draft 2 assumed; (2) short extensions through 2028; (3) a lapse on Oct 1, 2028.",
+  "evidence": [
+   "EV-MOV-001",
+   "EV-MOV-003",
+   "EV-MOV-016",
+   "EV-MOV-131"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md (states the case it prices); Draft 2 gives no figure; 250-Plus levels: CBO $470.7B of contract authority over 2027-31 [EV-MOV-001]",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ },
+ {
+  "id": "MOV-31.91",
+  "title": "Housing's zoning condition on new transportation money (HOU-6.02), carried in this bill",
+  "agenda": "MOV-31",
+  "status": "decided by reference (housing's DEC-2026-11-09-04); where it applies is a working choice",
+  "decisions": [
+   "DEC-2026-11-09-04",
+   "DEC-2026-11-10-08"
+  ],
+  "parameters": "The housing dossier's condition (HOU-6.02): a share of new Moving America money goes only to places that adopt the zoning reward's reforms. Working choice for where it applies: the 2031 bill's new and incremental money, meaning the expansion appropriations under division A sec. 105 ($123.70B) and the new money in sec. 1104 above H.R. 8870's converted bridge program; never the renewal formula base, the operating tier or safety money. The share and the reform list are housing's (dossiers/home/4-specification.md, HOU-6.01 and HOU-6.02)",
+  "eligibility": "Grantees of the 2031 bill's new and incremental money",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "Moving America Act of 2031"
+   }
+  ],
+  "agency": "DOT with HUD",
+  "current_law": "New",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "No cost (a condition on money already counted)",
+  "spec": "dossiers/agenda/transportation/4-specification.md"
+ }
+]

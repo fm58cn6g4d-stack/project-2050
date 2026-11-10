@@ -1,6 +1,6 @@
 # Memo 3: How large, and how the money is split
 
-Role: decision memo for Espen, fork 3 of the transportation design (`../3-design.md`). Status: for decision (one of six in this batch, `README.md`). It goes to Espen because the choice is mainly about money (`charter/STANDARDS.md`, "Fiscal rule in dossiers"). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). "The plan's model" is the legacy Moving America design's own arithmetic (2026), a project estimate.
+Role: decision memo for Espen, fork 3 of the transportation design (`../3-design.md`). Status: decided by Espen: A, as recommended (November 10, 2026; `DEC-2026-11-10-08`). One of six in the batch (`README.md`). It goes to Espen because the choice is mainly about money (`charter/STANDARDS.md`, "Fiscal rule in dossiers"). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). "The plan's model" is the legacy Moving America design's own arithmetic (2026), a project estimate.
 
 ## In short
 
