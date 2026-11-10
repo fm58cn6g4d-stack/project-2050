@@ -74,7 +74,7 @@ def row_path(B, mid10, prof, rid=None):
         components=PR.COMPONENTS[rid]
         if abs(sum(amount for _,amount,_ in components)-mid10)>1e-9:
             raise ValueError("Fiscal component totals differ from ledger: "+rid)
-        paths=[row_path(B,amount,p) for _,amount,p in components]
+        paths=[row_path(B,amount,p,p.get("years")) for _,amount,p in components]
         return {y:sum(path[y] for path in paths) for y in range(Y0,Y1+1)}
     if rid in PR.YEARS:
         vals = PR.YEARS[rid]; s = sum(vals)

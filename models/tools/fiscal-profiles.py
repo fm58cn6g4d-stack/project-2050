@@ -56,4 +56,8 @@ for r in read("fiscal-components.csv"):
         raise ValueError("fiscal-components.csv: %s/%s ends before it starts" % (r["owner"], r["component"]))
     if not 0 <= p.get("fade", 0) <= 1:
         raise ValueError("fiscal-components.csv: %s/%s fade outside 0-1" % (r["owner"], r["component"]))
+    # A component whose key owner/component has a row in fiscal-years.csv takes that year-by-year shape
+    # inside the window (its start and ramp are then unused); grow and perm still set the path after 2039.
+    key = "%s/%s" % (r["owner"], r["component"])
+    if key in YEARS: p["years"] = key
     COMPONENTS.setdefault(r["owner"],[]).append((r["component"],num(r["mid10"]),p))
