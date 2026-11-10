@@ -1,6 +1,6 @@
 # Care you can count on, part A (health): design choices
 
-Role: section 3 of the care dossier, health part: the real forks, the options weighed and a recommendation for each, with one decision memo per fork in `memos/`. Status: draft (stage D, step 3), for Espen's decisions. Nothing here is adopted until Espen decides; each memo and each point below is decided on its own (`charter/STANDARDS.md`, "Decision memos"). Cost and coverage figures come from the coverage model (`models/tools/health-coverage/`, exploratory; its results file and card name its limits) and from the evidence register.
+Role: section 3 of the care dossier, health part: the real forks, the options weighed and a recommendation for each, with one decision memo per fork in `memos/`. Status: draft (stage D, step 3); decided by Espen, November 10, 2026 (`DEC-2026-11-10-09`), except the timing of memo 2's employer wave and the confirmation of memo 3, which wait on the comparison with S. 1506. Nothing here is adopted until Espen decides; each memo and each point below is decided on its own (`charter/STANDARDS.md`, "Decision memos"). Cost and coverage figures come from the coverage model (`models/tools/health-coverage/`, exploratory; its results file and card name its limits) and from the evidence register.
 
 ## How to read this section
 
@@ -84,6 +84,8 @@ From `dossiers/shared-rules.md`; working answers, not decisions of other owners.
 - The current all-payer average hospital rate as a multiple of Medicare, to anchor memo 5's starting point.
 
 ## Questions for Espen
+
+**Answered by Espen, November 10, 2026 (`DEC-2026-11-10-09`):** memo 1 B with a 2037 endpoint; memo 2 by payer with children first and all five protections, with the employer wave's timing reopened; memo 3 B provisionally, pending a comparison with S. 1506; memo 4 C; memo 5 B with the Medicare Advantage fix; points 1-7 yes, with point 6 as option (b). The list below is kept as asked.
 
 One answer per item; each is decided on its own.
 

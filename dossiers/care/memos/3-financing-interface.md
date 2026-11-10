@@ -1,6 +1,6 @@
 # Memo 3: How money flows into the health system
 
-Role: decision memo for Espen, fork 3 of the health design (`../3-design.md`). Status: for Espen's decision. Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`); "the coverage model" is this project's exploratory analysis (`models/tools/health-coverage/results.md`).
+Role: decision memo for Espen, fork 3 of the health design (`../3-design.md`). Status: **B chosen provisionally** by Espen, November 10, 2026 (`DEC-2026-11-10-09`), to be confirmed after a comparison with the financing structure of the Medicare for All Act of 2025 (S. 1506, 119th Congress) (`research-s1506-comparison.md`, to follow). Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`); "the coverage model" is this project's exploratory analysis (`models/tools/health-coverage/results.md`).
 
 **This memo decides the plumbing, not the taxes.** Which taxes pay for the plan, and who bears them, is the financing settlement's job (`charter/PLAN.md` 3.1; `DEC-2026-11-10-05`: dossiers report their cost, the settlement balances the plan). What the health design must decide now is which existing money streams stay, which end, and what the new revenue must fill, because that sets the size of the gap the settlement closes.
 
