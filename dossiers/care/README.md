@@ -1,10 +1,9 @@
 # Dossier: Care you can count on (flagship 2)
 
-Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D (November 10, 2026). Level: every care item is at L1 in `agenda/agenda.csv` (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
+Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D. Level: every care item is at L1 in `agenda/agenda.csv` (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
 
 **What it brings together** (`charter/PLAN.md` 3.1):
-- health coverage restored and extended;
-- a public option, weighed beside single-payer Medicare for All in full (`DEC-2026-11-09-07`);
+- health coverage restored and extended, by single-payer Medicare for All, a public option or a staged path between them, weighed in full (`DEC-2026-11-09-07`; the charter wording is #195, for Espen);
 - care at home for all ages;
 - child care and pre-K;
 - the care workforce.
@@ -23,7 +22,8 @@ Health comes first, because its choice (single-payer, a public option or a stage
 
 | Part | Sections | Status |
 | --- | --- | --- |
-| **A. Health** | 1-2: the problem; what works, at home and abroad, with the 2029 baseline (the 2025 reconciliation law's Medicaid and marketplace changes, the enhanced premium credits' expiry, current law as it will stand in 2029) | Next (stage D, step 2) |
+| **A. Health** | 1. The problem: `1-problem.md`. Who is uninsured and underinsured, medical debt, spending and prices against peers, Medicare Advantage overpayment, long-term care waiting lists, outcomes; and the January 2029 baseline: the enhanced credits' expiry (not extended), the 2025 reconciliation law's Medicaid and marketplace changes date by date from the statute, CBO's 36.6 million uninsured in 2029 | Draft (stage D, step 2) |
+| | 2. What works: `2-what-works.md`. Coverage and mortality, automatic enrollment, churn and work requirements; single-payer estimates (CBO, Urban, RAND, Mercatus, the Lancet, PERI) and what drives their range; Vermont and California; state public options (Washington, Colorado, Nevada); Taiwan, Canada, the Netherlands, Switzerland, Germany, Australia; price caps and Maryland; a lower Medicare age; failures to avoid | Draft (stage D, step 2) |
 | | 3: design choices, one batched memo set for Espen: single-payer, a public option or a staged path; transition; the financing interface; benefits; provider payment. Medicare for All gets the same evidence, cost, coverage and transition work as a public option | Later (step 3) |
 | | The health coverage model (`charter/PLAN.md` 3.4): only what the memo set needs to compare the options on coverage, federal cost and household cost, with a model card, benchmarked to CBO | Later (step 3m, alongside step 3) |
 | | 4-9: specification, delivery, cost, validation, what would change our minds, the public case | After Espen decides section 3 |
@@ -35,7 +35,9 @@ Sections 4-9 are written once per dossier where the parts can share them, or per
 
 ## Files
 
-None yet beyond this page. Health's files will be `1-problem.md`, `2-what-works.md` and `3-design.md` with memos in `memos/`, and `evidence.json` (entries numbered from 001 with the prefix EV-CAR) (`dossiers/TEMPLATE.md`).
+- `1-problem.md`, `2-what-works.md` (health, sections 1-2).
+- `evidence.json`: EV-CAR-001 to 050 (the 2029 baseline), 100 to 141 (the problem), 200 to 268 (what works). Sources SRC-3000 to 3399 are reserved for care.
+- Next: `3-design.md` with memos in `memos/`, and the coverage model in `models/tools/health-coverage/`.
 
 ## Shared rules care is likely to own or touch
 
