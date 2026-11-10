@@ -500,12 +500,12 @@ SS-1 after 2039: the D8 package's net saving shrinks about 1.5% a year relative 
 
 ### ASM-PROF-YEARS
 
-Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy and the carbon excise offset CX.
+Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy and the excise offsets CX (carbon) and MR6 (Moving America).
 
-- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73 ($B a year)
+- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73; MR6 -2 to -27 (shape) ($B a year)
 - **How much it matters:** medium: CAP-7S is about $0.6T and its FY2029 cash is unpriced
-- **Where:** models/data/inputs/fiscal-years.csv:2-3; models/tools/fiscal-model.py:79-85
-- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26)
+- **Where:** models/data/inputs/fiscal-years.csv:2-4; models/tools/fiscal-model.py:79-85
+- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26); MR6: transportation model (moving_america.py)
 - **Decided by:** unrecorded
 - **Notes:** CAP-7S is "interim cash proxy only" per its own note.
 

@@ -126,7 +126,7 @@ def channels(bills):
     add("Medicare HI", (0.5+0.5,0.5+0.7,0.5+0.9), (0.8,0.85,0.9), "H1a ($0.5T) plus HLT-6's Part A share (~$0.7T, est.); D4 read on a 75-year window, so the ~$0.3T is HI's reserve")
     add("Paid-leave fund", rv["Paid-leave fund"], o("FAM-3"), "Step-up toward 0.85% and a repayable Treasury loan; no general-fund backstop")
     st = rv["Surface transportation trust fund"]
-    add("Surface transportation trust fund", st, st, "Receipts net of the 25% offset; spent within receipts; general-fund top-ups counted in MOV-29 and MOV-30")
+    add("Surface transportation trust fund", st, st, "Gross receipts, spent within receipts; the 25% income and payroll tax offset is MR6, booked on the general fund as CX; general-fund top-ups counted in MOV-29 and MOV-30")
     add("Carbon fee (REV-C1)", rv["Carbon fee"], rv["Carbon fee"], f"80% dividend (CLI-2, ~${0.8 * rv['Carbon fee'][1]:.2f}T) plus 20% transition share to CLI-5 (~${0.2 * rv['Carbon fee'][1]:.2f}T)")
     add("Carbon border adjustment and methane fee (REV-C2, REV-C3)", rv["Carbon border adjustment"], o("CLI-5"), "Outlay is CLI-5's gross add-ons, financed by REV-C2, REV-C3 and REV-C1's transition share; residual to the general fund")
     add("Public safety", rv["Public safety"], o("SAF-10"), "Durable sources only (alcohol, fraud assessment, firearms, fees); residual (~$2.9B a year) to the general fund")

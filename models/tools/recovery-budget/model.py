@@ -177,9 +177,10 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
     ledger=json.loads((ROOT/'build/ledger.json').read_text())
     rev={r['id']:r for r in ledger['revenue']}
     # Show gross matched receipts and uses already netted in GF lines. Transport uses the
-    # recorded NET new-receipt estimate, not the entire existing HTF budget. Cash profile
-    # is an authored proxy; it cannot verify actual highway baseline or outlay timing.
-    matched_ids=['C1','C2','C3','C1P','CB1','PS1','MF1','IF1','MR1','MR2','MR3','MR4','MR5','MR6']
+    # recorded new-receipt estimate (MR1-MR5, gross), not the entire existing HTF budget; its
+    # 25% offset, MR6, is a general-fund base revenue row (as CX), so it is not matched here.
+    # Cash profile is an authored proxy; it cannot verify actual highway baseline or outlay timing.
+    matched_ids=['C1','C2','C3','C1P','CB1','PS1','MF1','IF1','MR1','MR2','MR3','MR4','MR5']
     matched={k:f.row_path(b,rev[k]['mid'],dict(ramp=1,grow='gdp')) for k in matched_ids}
     # Carbon uses its recorded declining fee profile rather than a GDP perpetuity.
     carbon={r['year']:r for r in u.carbon}
