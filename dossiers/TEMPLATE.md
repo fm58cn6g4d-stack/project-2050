@@ -64,6 +64,7 @@ Sections are written in order. A section is added when it is drafted; the README
   - Every number in the public case appears in sections 1 to 8 with its evidence ID, and a source table at the end traces each one.
   - A project estimate is shown as one, with "about", its range or "on our estimates", and a result that holds only under conditions carries them.
   - Section 9 is written last, and revised in the same PR as any section it draws on.
+  - A promise in section 9 holds from the date the provision behind it takes effect. Where provisions start at different times, say when each protection begins. Transportation's first draft promised privacy rules from the charge's first day, although they arrive a year later in the 2031 bill (#203 review).
   - Housing's review blocked section 9 for estimates stated as facts and a fiscal pass stated without its conditions (`dossiers/home/review-milestone.md`, W-1, E-1 to E-5).
 - **Converting legacy content.**
   - Run the restatement check (`models/registry/restatement.py`) on each legacy file against the dossier.
