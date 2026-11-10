@@ -35,7 +35,7 @@ Sections 4-9 are written once per dossier where the parts can share them, or per
 
 ## Files
 
-None yet beyond this page. Health's files will be `1-problem.md`, `2-what-works.md` and `3-design.md` with memos in `memos/`, and `evidence.json` (entries `EV-CAR-001` onward) (`dossiers/TEMPLATE.md`).
+None yet beyond this page. Health's files will be `1-problem.md`, `2-what-works.md` and `3-design.md` with memos in `memos/`, and `evidence.json` (entries numbered from 001 with the prefix EV-CAR) (`dossiers/TEMPLATE.md`).
 
 ## Shared rules care is likely to own or touch
 
