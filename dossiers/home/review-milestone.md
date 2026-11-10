@@ -174,6 +174,7 @@ Each rests on one or more inputs that section 6 or 4 marks as judgment:
 **O-6. The budget model has not run the plan.** Blocking (L3's cost part).
 - *Where:* `6-cost.md:9-10`, `:374-401`. The model's benchmarks have not all passed. The provision-level figures are arithmetic, not a score. The 13 changes are proposals.
 - *Fix:* the tier-3 ledger PR, then a model run of FY2040-42 and the high case.
+- **Done (fix step 7):** the tier-3 PR books section 6's provisions and the models are rerun. The model books housing at $0.81 trillion over FY2030-39 and $111 billion of permanent cost in FY2040. Plan-wide, the recovery budget's FY2040 balance goes from a $4.5 billion margin to a $50.8 billion shortfall, FY2041's from $49.6 billion to a $7.3 billion shortfall, and FY2042 keeps a $37.8 billion margin (`6-cost.md`, 3.2). The high case stays section 6's arithmetic, since the model computes midpoints only (`ASM-CALIB-MID`). Under `DEC-2026-11-10-05` these readings go to the financing settlement.
 
 **O-7. Prices under buyer subsidies, and the FHA cut.** Not blocking.
 - *Down payment help:* the price watch is a review trigger, "well above their region's for two years" (`4-specification.md:605`). It has no number, and it reads prices only after two years.
@@ -372,4 +373,4 @@ In order; each is small.
 4. **Section 9** follows steps 2 and 3 (E-1 to E-6, W-1, W-6).
 5. **Evidence register tidy-up** (W-3, W-4, W-7): tag OMB's subsidy rate with its administration and a CBO check; regrade the letters and the USICH announcement; add D or E entries for section 6's material judgments. Tier: Standard.
 6. **Espen's answers** to "For Espen" items 1-5, recorded as `DEC-` entries.
-7. **The tier-3 ledger PR and a model run** (O-6). This is the last L3 blocker. Then a short L3 re-check by a reviewer, limited to the blocking findings above.
+7. **The tier-3 ledger PR and a model run** (O-6). This is the last L3 blocker. **Done** (`6-cost.md`, 3.2). Then a short L3 re-check by a reviewer, limited to the blocking findings above.

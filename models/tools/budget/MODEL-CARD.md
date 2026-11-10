@@ -53,8 +53,8 @@ The budget model projects the whole federal budget, year by year from FY2026 to 
 | --- | --- | --- | --- | --- | --- | --- |
 | BL-1 | The baseline equals CBO's February 2026 projections plus the documented adjustments | **pass** | B2's 3 reproduction tests: 3 pass | every cell of models/data/fiscal-baseline.csv, FY1962-2056 | exact (the file's three decimals; the unrounded values are the same floating-point numbers) | — |
 | ID-1 | Deficit equals outlays minus revenue, every year and scenario | **pass** | 3.64e-12 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion): floating-point error only | — |
-| ID-2 | The program's added debt grows by exactly its added deficit (spending, revenue and interest) | **pass** | 1.93e-12 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
-| ID-3 | Debt held by the public: the residual after deficits is CBO's own other means of financing, in every scenario | **pass** | 6.18e-11 ($B, largest gap from CBO's residual) | 0.00 | $1,000 (1e-6 billion) | — |
+| ID-2 | The program's added debt grows by exactly its added deficit (spending, revenue and interest) | **pass** | 3.07e-12 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
+| ID-3 | Debt held by the public: the residual after deficits is CBO's own other means of financing, in every scenario | **pass** | 4.46e-11 ($B, largest gap from CBO's residual) | 0.00 | $1,000 (1e-6 billion) | — |
 | ID-4a | Interest on the program's borrowing follows from its debt and the stated rates | **pass** | 0.00 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
 | ID-4b | The baseline's net interest is consistent with its debt and CBO's average interest rate | **pass** | 0.10 (points, largest gap (implied minus CBO)) | 0.00 | 0.25 percentage point in every year FY2027-36 | — |
 | ID-5 | Nominal equals real times the deflator, and share of GDP times GDP (B2's two conversions) | **pass** | 2.07e-16 (largest relative error) | 0.00 | relative error 1e-12 | — |
@@ -71,7 +71,7 @@ The budget model projects the whole federal budget, year by year from FY2026 to 
 | TF-2 | Medicare Hospital Insurance: current law | **fail** | depletion 2034, 89% payable, balance -0.64% | depletion 2033, 89% payable, balance -0.56% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | depletion +1 year, balance -0.08 points of payroll |
 | TF-3 | SSA's own scores of seven Social Security provisions, rebuilt by the engine | **pass** | -0.02 (points, largest gap) | 0.00 | 0.05 point of taxable payroll for each provision | — |
 
-Unknown fields in the 112 provision specs the model scores (B3, `provisions.md`): vehicle 12, appropriation type 9, budget authority 18. The growth index is the model's own assumption, not the law's, for 104 rows, and the end year for 100.
+Unknown fields in the 142 provision specs the model scores (B3, `provisions.md`): vehicle 12, appropriation type 9, budget authority 16. The growth index is the model's own assumption, not the law's, for 134 rows, and the end year for 115.
 <!-- generated:results:end -->
 
 **What the groups test.**

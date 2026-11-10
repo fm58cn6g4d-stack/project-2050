@@ -6,12 +6,13 @@
     "cap_surge_tn": 0.105,
     "cap_sustained_tn": 0.3,
     "ai_transition_tn": 0.12,
-    "housing_extra_tn": 0.135,
+    "housing_extra_tn": 0.115,
+    "housing_extra_profile": {"start": 2035, "ramp": 5, "grow": "gdp", "perm": 0.946},
     "participation_tn": 0.1,
     "delivery_contingency_tn": 0.1,
     "early_admin_bn": 5,
     "irs_receipt_risk_tn": 0.25,
-    "housing_base_admin_tn": 0.0122,
+    "housing_base_admin_tn": 0.0,
     "development_program_tn": 0.092
   },
   "units": "Nominal $T FY2030\u201339 except CAP surge is a lifetime envelope and early_admin_bn is $B shifted from FY2030 to FY2029, not additional lifetime funding. IRS risk is a reduction in expected receipts, not spending.",
@@ -47,7 +48,7 @@
     "review_mid_sustained_bn": 254.6,
     "review_high_sustained_bn": 355.1
   },
-  "housing_admin_basis": "HOU-4A: $12.2B rounded planning correction on whole $150B package, fully permanent CPI path; inside total housing cost, separate from CAP. HOU-4D remains fixed $135B, no award count adopted.",
+  "housing_admin_basis": "HOU-4A fees are paid in full inside the HOU-4A component of HOU-1 (fiscal-components.csv), so the separate allowance is 0 (was $12.2B on the $150B package). HOU-4D is stage 2 of dossiers/home/6-cost.md: $81B for the guarantee, $17B for the wider entry and $17B for the restated count over FY2030-39, about $39B in FY2040; profile fitted to those figures (enrollment from FY2034, spending booked from FY2035).",
   "administration": {
     "leave_fraction": 0.03,
     "leave_startup_bn": 3,

@@ -52,4 +52,8 @@ for r in read("fiscal-components.csv"):
     for k in ("end", "fade"):
         v = opt(r, k, num)
         if v is not None: p[k] = v
+    if p.get("end") is not None and p["end"] < p["start"]:
+        raise ValueError("fiscal-components.csv: %s/%s ends before it starts" % (r["owner"], r["component"]))
+    if not 0 <= p.get("fade", 0) <= 1:
+        raise ValueError("fiscal-components.csv: %s/%s fade outside 0-1" % (r["owner"], r["component"]))
     COMPONENTS.setdefault(r["owner"],[]).append((r["component"],num(r["mid10"]),p))
