@@ -8660,10 +8660,10 @@
   "anchor": [
    "In the last year, EHVs have helped more than 26,000 households secure permanent housing, and nearly 35,000 are searching for a unit or completing the leasing process. 87% of EHVs have been either leased or issued , and on average, the time between an EHV being issued to leasing a home is 77 days."
   ],
-  "grade": "A",
+  "grade": "C",
   "fact_date": "2022-07",
   "recheck": "2027-07-01",
-  "context": "USICH announcement, Biden administration, July 2022, with a stake in presenting the program well; the counts come from HUD's EHV dashboard. 'Leased or issued' counts vouchers still searching; the leased share alone was about a third of 70,000 (26,000). Data.",
+  "context": "USICH announcement, Biden administration, July 2022, with a stake in presenting the program well; the counts come from HUD's EHV dashboard. 'Leased or issued' counts vouchers still searching; the leased share alone was about a third of 70,000 (26,000). Data. Graded C, not A: the announcement is the Biden administration's own account of its program, so it is secondary even where the counts come from HUD's dashboard. It drives section 6's lease-lag input; the HUD dashboard itself is the primary source to cite once it is in the library.",
   "checked": "2026-11-09",
   "supports": [
    "dossiers/home/5-delivery.md"
@@ -17167,7 +17167,7 @@
   "fact_date": "2025",
   "checked": "2026-11-10",
   "recheck": "2027-11-10",
-  "context": "USDA budget justification for FY2027 (second Trump administration). The staff-year columns are FY2024 to FY2026 (R1, section 1.1).",
+  "context": "USDA budget justification for FY2027 (second Trump administration). The staff-year columns are FY2024 to FY2026 (R1, section 1.1). The staff counts are data; 'historically low staffing' and the plan to hold 2026's level are the administration's own budget judgment, not independent analysis, and memo 13 presents them as that.",
   "figures": [],
   "supports": [
    "dossiers/home/memos/13-rural.md"
@@ -17205,11 +17205,11 @@
   ],
   "locator": "Letter, page 1",
   "claim": "data",
-  "grade": "B",
+  "grade": "C",
   "fact_date": "2026-05-15",
   "checked": "2026-11-10",
   "recheck": "2027-11-10",
-  "context": "Letter from Members of Congress (Democrats and others named in the catalog), May 15, 2026; it describes USDA's rule changes, which USDA's own bulletin confirms (SRC-2169).",
+  "context": "Letter from Members of Congress (Democrats and others named in the catalog), May 15, 2026; it describes USDA's rule changes, which USDA's own bulletin confirms (SRC-2169). Graded C: a letter from legislators is a secondary account, and the facts it relays are as good as the agency record behind them.",
   "figures": [],
   "supports": [
    "dossiers/home/memos/13-rural.md"
@@ -17225,11 +17225,11 @@
   ],
   "locator": "Letter, page 1",
   "claim": "data",
-  "grade": "B",
+  "grade": "C",
   "fact_date": "2026-09-30",
   "checked": "2026-11-10",
   "recheck": "2027-11-10",
-  "context": "Letter from Members of Congress; 'could expire' is their estimate on the last day of the year. USDA reported $571 million lent (EV-HOU-700).",
+  "context": "Letter from Members of Congress; 'could expire' is their estimate on the last day of the year. USDA reported $571 million lent (EV-HOU-700). Graded C: a letter from legislators is a secondary account, and the facts it relays are as good as the agency record behind them. USDA's own lending figure is EV-HOU-700.",
   "figures": [],
   "supports": [
    "dossiers/home/memos/13-rural.md"
@@ -17858,7 +17858,7 @@
  },
  {
   "id": "EV-HOU-810",
-  "statement": "FHA's 2025 mortgagee letter ended FHA eligibility for non-permanent resident borrowers for case numbers assigned on or after May 25, 2025.",
+  "statement": "FHA's 2025 mortgagee letter ended FHA eligibility for non-permanent resident borrowers for case numbers assigned on or after May 25, 2025; citizens of Micronesia, the Marshall Islands and Palau remain eligible on the same terms as U.S. citizens.",
   "claim": "data",
   "figures": [
    "25",
@@ -17867,7 +17867,8 @@
   "source": "SRC-2431",
   "anchor": [
    "This ML removes the Non-permanent Residents sections in its entirety,\neliminating eligibility for non-permanent resident Borrowers",
-   "must be\nimplemented for FHA case numbers assigned on or after May 25, 2025."
+   "must be\nimplemented for FHA case numbers assigned on or after May 25, 2025.",
+   "A Borrower with citizenship in the Federated States of Micronesia,\nthe Republic of the Marshall Islands, or the Republic of Palau may\nbe eligible for FHA-insured financing provided the Borrower\nsatisfies the same requirements, terms, and conditions as those for\nU.S. citizens."
   ],
   "grade": "A",
   "fact_date": "2025",
@@ -17978,5 +17979,81 @@
    "dossiers/home/4-specification.md"
   ],
   "locator": "Abstract, Results"
+ },
+ {
+  "id": "EV-HOU-820",
+  "statement": "OMB's latest Federal Credit Supplement gives the subsidy rate on Section 502 direct loans as 13.06 percent for 2026 and 13.29 percent for the following year.",
+  "claim": "analysis",
+  "figures": [
+   "13.06",
+   "13.29"
+  ],
+  "source": "SRC-2125",
+  "anchor": [
+   "Section 502 Single Family Housing ...............................................................",
+   "13.06\n30.26\n17.33",
+   "13.29\n33.28"
+  ],
+  "locator": "Table 1, direct loans: subsidy rates, Rural Housing Insurance Fund, Section 502 Single Family Housing (first row of the discretionary rural housing block)",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "OMB, second Trump administration, 2026 (DEC-2026-10-30-01): executive-branch estimates of credit cost, so the administration's view, not independent analysis. Read from the text version's column order (the catalog row says to check against the PDF); the row is matched by position and agrees with the other rates in the rural delivery note (Section 515 about 30%, community facility loans about -3.5%). CBO cross-check: not yet done. No CBO credit estimate for the 502 direct account is in the library, so section 6 and memo 13 use 13% as OMB's rate with a $2.5-5 billion range, and CBO's estimates for the same account should replace or confirm it before L3. Used in 6-cost.md (HOU-14.02) and memos/13-rural.md.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/home/6-cost.md",
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-821",
+  "statement": "The project's earlier estimate for the low-income housing credit increase with the extremely-low-income boost (HOU-2B) was a range of 0.08 to 0.12 trillion dollars.",
+  "claim": "analysis",
+  "figures": [
+   "0.08",
+   "0.12"
+  ],
+  "source": "SRC-0022",
+  "anchor": [
+   "| HOU-2B | LIHTC increase and extremely-low-income boost only | About 0.08-0.12 | estimate |"
+  ],
+  "locator": "Housing domain file, options table (HOU-2A to HOU-2C)",
+  "grade": "D",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Project estimate from the legacy domain file (before October 28, 2026), not a JCT score: the file itself says a JCT score is needed. Section 6 (HOU-2D.01) takes the midpoint as its central figure and the range as its range.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-822",
+  "statement": "The project's earlier estimate for the construction loans assumed a subsidy rate of 2-10 percent, with 5 percent in the middle, so that $300 billion of commitments costs about 0.015 trillion dollars, in a range of 0.006 to 0.03 trillion.",
+  "claim": "analysis",
+  "figures": [
+   "2-10%",
+   "5%",
+   "$300B",
+   "0.015",
+   "0.006",
+   "0.03"
+  ],
+  "source": "SRC-0022",
+  "anchor": [
+   "Assuming a subsidy rate of 2-10% (mid 5%, estimate), $300B of commitments costs **about $0.015T, range $0.006T to $0.03T**."
+  ],
+  "locator": "Housing domain file, construction loans, Cost",
+  "grade": "D",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Project estimate from the legacy domain file (before October 28, 2026), not a CBO score; the rate is an assumption within a wide range. Section 6 (HOU-3C.02) uses the 5% and says it needs CBO's rate, which would also settle the lower rate short loans to builders of homes for sale might carry.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
  }
 ]
