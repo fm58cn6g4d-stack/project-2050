@@ -24,7 +24,7 @@ Role: the transportation dossier, converted from the legacy Moving America desig
 | 8. What would change our minds | Not started (PR 3) |
 | 9. The public case | Not started (PR 3), only from sections 1-8 |
 
-Evidence register: `evidence.json` (EV-MOV-001 to 099 section 1; 100 to 199 transit, rail and section 2; 200 to 299 project estimates from the legacy model). Source IDs numbered 3000 to 3199 are reserved for this dossier. Provisions: `provisions.json`, IDs under the agenda's MOV- rows (from section 4).
+Evidence register: `evidence.json` (EV-MOV-001 to 099 section 1; 100 to 199 transit, rail and section 2; 200 to 299 project estimates from the legacy model). Source IDs numbered 3500 to 3599 are reserved for this dossier (the care dossier uses 3000 to 3299). Provisions: `provisions.json`, IDs under the agenda's MOV- rows (from section 4).
 
 ## Open questions for Espen
 

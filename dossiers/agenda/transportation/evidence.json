@@ -10,7 +10,7 @@
    "2027-2031",
    "2026-2031"
   ],
-  "source": "SRC-3000",
+  "source": "SRC-3500",
   "anchor": [
    "The most recent authorization for surface transportation (divisions A, B, and C of the Infrastructure Investment and Jobs Act, 2021, subsequently extended in division C of the Continuing Appropriations and Extensions Act, 2027) expires on December 11, 2026.",
    "Over the 2027-2031 period, H.R. 8870 would provide $470.7 billion in contract authority that would be subject to obligation limitations.",
@@ -38,7 +38,7 @@
    "4.3 cents",
    "September 30, 2028"
   ],
-  "source": "SRC-3001",
+  "source": "SRC-3501",
   "anchor": [
    "Actual, 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036",
    "Cumulative Shortfall Highway Account n.a. n.a. n.a. -11,914 -36,770 -61,427 -86,010",
@@ -74,14 +74,14 @@
    "62 to 2",
    "May 22, 2026"
   ],
-  "source": "SRC-3002",
+  "source": "SRC-3502",
   "anchor": "On May 22, 2026, the Committee marked up and approved the BUILD America 250 Act – Building Unrivaled Infrastructure and Long-term Development for America’s 250 th Act by a vote of 62 to 2.",
   "grade": "A",
   "fact_date": "2026-05-22",
   "checked": "2026-11-10",
   "recheck": "2027-01-03",
   "context": "The committee's own page (Republican-led majority; the bill is the joint product of the Chairman and Ranking Member). The vote is a recorded fact; the page's descriptions of the bill are advocacy and are not used.",
-  "note": "CBO's estimate (SRC-3000) describes the bill as H.R. 8870 'as ordered reported ... on May 22, 2026'. The committee's press release of the same day (DocumentID=410054) does not state the tally. The 119th Congress ends January 3, 2027, when an unpassed bill lapses.",
+  "note": "CBO's estimate (SRC-3500) describes the bill as H.R. 8870 'as ordered reported ... on May 22, 2026'. The committee's press release of the same day (DocumentID=410054) does not state the tally. The 119th Congress ends January 3, 2027, when an unpassed bill lapses.",
   "supports": [
    "dossiers/agenda/transportation/1-problem.md"
   ]
@@ -94,7 +94,7 @@
    "October 1, 2028",
    "July 1, 2029"
   ],
-  "source": "SRC-3003",
+  "source": "SRC-3503",
   "anchor": [
    "There are hereby appropriated to the Highway Trust Fund amounts equivalent to the taxes received in the Treasury before October 1, 2028, under the following provisions—",
    "There are hereby appropriated to the Highway Trust Fund amounts equivalent to the taxes which are received in the Treasury after September 30, 2028, and before July 1, 2029, and which are attributable to liability for tax incurred before October 1, 2028, under the provisions described in paragraph (1)."
@@ -119,7 +119,7 @@
    "31.3 percent",
    "$115.1 billion"
   ],
-  "source": "SRC-3005",
+  "source": "SRC-3505",
   "anchor": [
    "The Improve Conditions and Performance scenario seeks to identify the level of capital\ninvestment needed to address all potential investments estimated to be cost-beneficial.",
    "investment associated with this scenario is\n$151.1 billion, 31.3 percent higher than the",
@@ -153,7 +153,7 @@
    "268,737",
    "315,054"
   ],
-  "source": "SRC-3006",
+  "source": "SRC-3506",
   "anchor": [
    "All Bridges\nState\nBridge Counts\nBridge Area (Square Feet)\nAll\nGood\nFair\nPoor",
    "TOTALS\n624,939\n268,737\n315,054\n41,148"
@@ -179,7 +179,7 @@
    "1.19",
    "8 percent"
   ],
-  "source": "SRC-3008",
+  "source": "SRC-3508",
   "anchor": [
    "That report shows an estimated 36,640\npeople died in motor vehicle traffic crashes in 2025, a decrease of about 6.7 percent as compared to 39,254\nfatalities reported to have occurred in 2024. The estimated fatality rate for 2025 is 1.10 fatalities per 100 million\nVMT, down from the report rate of 1.19 fatalities per 100 million VMT in 2024.",
    "Total estimated pedestrian fatalities decreased 8 percent."
@@ -202,7 +202,7 @@
    "32 percent",
    "63 percent"
   ],
-  "source": "SRC-3009",
+  "source": "SRC-3509",
   "anchor": [
    "The most recent National Highway Construction Cost Index (NHCCI) data show that increases in highway construction costs reduced IIJA funds by 32 percent from FY 2022 to 2025.",
    "Overall, highway construction costs grew 63 percent from FY 2021 to 2025 [FHWA n.d.], which has reduced the amount of highway infrastructure that funding recipients can buy."
@@ -239,7 +239,7 @@
    "75 percent",
    "69 percent"
   ],
-  "source": "SRC-3010",
+  "source": "SRC-3510",
   "anchor": [
    "Approximately 23 percent of surveyed awardees for\nselected fiscal year 2022 discretionary grant programs reported that they did\nnot have a signed grant agreement when they responded to GAO’s survey from\nDecember 2024 to March 2025.",
    "at the time they submitted our survey, 23 percent (49 of 213) of\nrespondents indicated they did not have a signed grant agreement.",
@@ -263,7 +263,7 @@
    "$45–$70 billion",
    "$20–$25 billion"
   ],
-  "source": "SRC-3011",
+  "source": "SRC-3511",
   "anchor": [
    "Recent combined state and federal capital spending on the Interstates has been $20–$25 billion annually.",
    "Thus, an approximation of the total state and federal spending needed to renew and modernize the Interstates over the next 20 years averages $45–$70 billion per year.",
@@ -293,7 +293,7 @@
   "figures": [
    "28.4 percent"
   ],
-  "source": "SRC-3012",
+  "source": "SRC-3512",
   "anchor": "Using this categorization, transportation activities accounted for the largest portion (28.4 percent) of total U.S.\ngreenhouse gas emissions in 2022.",
   "grade": "A",
   "fact_date": "2022",
@@ -318,7 +318,7 @@
    "659,843",
    "167,565"
   ],
-  "source": "SRC-3013",
+  "source": "SRC-3513",
   "anchor": [
    "Public Road Length - 2024\nMiles By Ownership",
    "STATE\nHIGHWAY\nAGENCY\nCOUNTY\nTOWN,\nTOWNSHIP,\nMUNICIPAL (1)",
@@ -343,7 +343,7 @@
    "33.9 percent",
    "$27,790"
   ],
-  "source": "SRC-3014",
+  "source": "SRC-3514",
   "anchor": [
    "Average annual expenditures for all consumer units in 2025 were $81,905",
    "On average, consumer units spent $27,790 on housing in 2025, which was 33.9 percent of total average annual expenditures. The next largest shares of total expenditures were transportation (16.5 percent), food (13.0 percent), and personal insurance and pensions (12.4 percent)."
@@ -370,7 +370,7 @@
    "$503 million",
    "30 states and territories"
   ],
-  "source": "SRC-3015",
+  "source": "SRC-3515",
   "anchor": [
    "By early 2025, more than $526 million had been obligated and contracts had been awarded for nearly 4,000 direct current fast charging (DCFC) ports at 990 locations.",
    "in January 2026, Congress passed a budget law that rescinded just over $503 million in NEVI funding across 30 states and territories."
@@ -396,7 +396,7 @@
    "$99.5 billion",
    "$48.2 billion"
   ],
-  "source": "SRC-3000",
+  "source": "SRC-3500",
   "anchor": [
    "CBO’s baseline projections for HTF accounts anticipate cumulative shortfalls of $86.0 billion at the end of 2031 for the highway account and of $45.2 billion for the transit account.",
    "CBO estimates that under the bill, the cumulative shortfall at the end of 2031 would be $99.5 billion for the highway account and $48.2 billion for the transit account"
@@ -432,7 +432,7 @@
    "4.3 cents",
    "September 30, 2028"
   ],
-  "source": "SRC-3004",
+  "source": "SRC-3504",
   "anchor": [
    "(i) in the case of gasoline other than aviation gasoline, 18.3 cents per gallon,",
    "(iii) in the case of diesel fuel or kerosene, 24.3 cents per gallon.",
@@ -457,7 +457,7 @@
    "14.6 percent",
    "15.2 percent"
   ],
-  "source": "SRC-3005",
+  "source": "SRC-3505",
   "anchor": "basis worsened more significantly during the 2008–2018 period (rising from 15.8 percent to\n22.6 percent) than ride quality measured on a VMT-weighted basis (rising from 14.6 percent\nto 15.2 percent).",
   "grade": "A",
   "fact_date": "2018",
@@ -479,7 +479,7 @@
    "272,779",
    "309,729"
   ],
-  "source": "SRC-3007",
+  "source": "SRC-3507",
   "anchor": [
    "All Bridges\nState\nBridge Counts\nBridge Area (Square Meters)\nAll\nGood\nFair\nPoor",
    "TOTALS\n624,193\n272,779\n309,729\n41,685"
@@ -1160,7 +1160,7 @@
     "places": 1
    }
   ],
-  "source": "SRC-3100",
+  "source": "SRC-3520",
   "anchor": [
    "\"2025\",\"Fares\",\"12014009930\"",
    "\"2019\",\"Fares\",\"16069887831\"",
@@ -1171,7 +1171,7 @@
   "fact_date": "2025",
   "checked": "2026-11-10",
   "recheck": "2027-10-15",
-  "context": "FTA, U.S. DOT, second Trump administration, 2026. National Transit Database figures are reported by agencies and compiled by FTA; they are nominal dollars, and each agency reports on its own fiscal year (July-June, calendar or federal), so a 'year' mixes fiscal years. The totals are sums the project asked the FTA data portal to compute over every agency-mode row in the 2025 time-series dataset (SRC-3100). I did not check whether FTA changed the method or the release schedule for the 2025 data.",
+  "context": "FTA, U.S. DOT, second Trump administration, 2026. National Transit Database figures are reported by agencies and compiled by FTA; they are nominal dollars, and each agency reports on its own fiscal year (July-June, calendar or federal), so a 'year' mixes fiscal years. The totals are sums the project asked the FTA data portal to compute over every agency-mode row in the 2025 time-series dataset (SRC-3520). I did not check whether FTA changed the method or the release schedule for the 2025 data.",
   "note": "Project arithmetic from the same rows: fares are about 25% below 2019 in nominal dollars (12,014,009,930 / 16,069,887,831 = 0.75) while operating expenses are about 38% above (70,119,170,791 / 50,733,632,762 = 1.38), so fares covered about 17% of operating expenses in 2025 against about 32% in 2019. The real-dollar comparison is EV-MOV-102 (CRS). FTA's National Transit Summaries and Trends (transit.dot.gov) returned 403 to the script and could not be saved; this dataset is the same NTD source.",
   "supports": [
    "dossiers/agenda/transportation/1-problem.md"
@@ -1199,7 +1199,7 @@
     "places": 2
    }
   ],
-  "source": "SRC-3100",
+  "source": "SRC-3520",
   "anchor": [
    "\"2025\",\"Unlinked Passenger Trips\",\"8050799881\"",
    "\"2019\",\"Unlinked Passenger Trips\",\"9879910957\""
@@ -1208,7 +1208,7 @@
   "fact_date": "2025",
   "checked": "2026-11-10",
   "recheck": "2027-10-15",
-  "context": "FTA, U.S. DOT, second Trump administration, 2026. Agency-reported counts compiled by FTA; each agency reports on its own fiscal year. Unlinked trips count every boarding, so a trip with a transfer counts twice. Totals are the project's query over the 2025 time-series dataset (SRC-3100); I did not check for changes in method or schedule.",
+  "context": "FTA, U.S. DOT, second Trump administration, 2026. Agency-reported counts compiled by FTA; each agency reports on its own fiscal year. Unlinked trips count every boarding, so a trip with a transfer counts twice. Totals are the project's query over the 2025 time-series dataset (SRC-3520); I did not check for changes in method or schedule.",
   "note": "Project arithmetic: 8,050,799,881 / 9,879,910,957 = 0.815, so 2025 boardings were about 81% of 2019. CRS (EV-MOV-102) gives 81% for the final quarter of 2025 against the final quarter of 2019, from the American Public Transportation Association's ridership report, a trade group of transit agencies. The CRS 2025 annual figure is about 8.1 billion trips against about 10.0 billion in 2018 and 2019 (CRS text, not anchored here); the small gap with FTA's 9.88 billion is not explained in either source.",
   "supports": [
    "dossiers/agenda/transportation/1-problem.md"
@@ -1225,7 +1225,7 @@
    "$1.53",
    "81%"
   ],
-  "source": "SRC-3101",
+  "source": "SRC-3521",
   "anchor": [
    "In the final quarter of 2025, total public transit ridership was 81% compared with the final quarter of 2019.",
    "the average fare per trip declined from $2.03 in 2019 to $1.53 in 2024, the most recent year data are available (in inflation-adjusted 2025 dollars). Consequently, total fare revenue collected in 2024 was about $11.8 billion, down from $20.2 billion in 2019 (in inflation-adjusted 2025 dollars)."
@@ -1254,7 +1254,7 @@
    "16%",
    "24%"
   ],
-  "source": "SRC-3101",
+  "source": "SRC-3521",
   "anchor": [
    "Additionally, $69.5 billion in emergency funding from the general fund was provided to transit agencies in response to the COVID-19 pandemic.",
    "$25 billion was provided in FY2020 in the Coronavirus Aid, Relief, and Economic Security Act (CARES Act; P.L. 116-136 ), $14 billion was provided in FY2021 in the Consolidated Appropriations Act, 2021 ( P.L. 116-260 ), and $30.5 billion was provided in FY2021 in the American Rescue Plan Act of 2021",
@@ -1264,7 +1264,7 @@
   "fact_date": "2024",
   "checked": "2026-11-10",
   "recheck": "2027-03-31",
-  "context": "CRS, nonpartisan; the federal-share figures are stated to come from FTA data and the appropriations from the three public laws, so this is a secondary restatement of official data. CRS's footnote names the second law as the Consolidated Appropriations Act, 2021 (P.L. 116-260); the transit relief in it is commonly called CRRSAA, and GAO's text in SRC-3121 uses that name.",
+  "context": "CRS, nonpartisan; the federal-share figures are stated to come from FTA data and the appropriations from the three public laws, so this is a secondary restatement of official data. CRS's footnote names the second law as the Consolidated Appropriations Act, 2021 (P.L. 116-260); the transit relief in it is commonly called CRRSAA, and GAO's text in SRC-3541 uses that name.",
   "note": "The federal share of capital expenses was 42% in 2019 and 39% in 2024. The $69.5 billion is about five times the roughly $12 billion of federal transit support in 2019 (CRS, R47900, not catalogued). The relief funds could pay operating costs at a 100% federal share; the ordinary maximum federal share for operating costs is 50%.",
   "supports": [
    "dossiers/agenda/transportation/1-problem.md"
@@ -1282,7 +1282,7 @@
    "50 percent",
    "$13.5 billion"
   ],
-  "source": "SRC-3005",
+  "source": "SRC-3505",
   "anchor": [
    "the magnitude of the $101-billion\ninvestment required to replace them\n(referred to as the reinvestment backlog)",
    "Sustain 2014–2018 Spending Scenario",
@@ -1314,7 +1314,7 @@
    "9%",
    "$133.9 billion"
   ],
-  "source": "SRC-3101",
+  "source": "SRC-3521",
   "anchor": [
    "DOT estimated the reinvestment backlog to be $127.8 billion in 2018 (in 2025 dollars), about 9% of the total value of transit assets.",
    "If that level of spending were continued in the 20-year period from 2019 through 2038, DOT estimated that the condition of transit systems would marginally decline through 2038, and the backlog would increase from $127.8 billion to $133.9 billion (in 2025 dollars)"
@@ -1344,7 +1344,7 @@
    "$598.4 million",
    "87%"
   ],
-  "source": "SRC-3102",
+  "source": "SRC-3522",
   "anchor": [
    "providing 34.5 million customer trips",
    "Adjusted operating earnings improved by 15.1% over FY 2024 to ($598.4 million)",
@@ -1372,7 +1372,7 @@
    "83.7 percent",
    "86.8 percent"
   ],
-  "source": "SRC-3103",
+  "source": "SRC-3523",
   "anchor": [
    "The passenger railroad posted an overall operating loss of $1.76 billion, which was $49 million less than the $1.81 billion loss it had shown for fiscal 2024.",
    "The adjusted operating loss was $598.4 million",
@@ -1406,7 +1406,7 @@
    "47",
    "7"
   ],
-  "source": "SRC-3104",
+  "source": "SRC-3524",
   "anchor": [
    "FRA is announcing 69 corridor selections across 44 states through the Corridor Identification and Development (Corridor ID) Program",
    "aims to upgrade 15 existing rail routes, add or extend service on 47 new routes, and advance 7 new high-speed rail projects"
@@ -1430,7 +1430,7 @@
    "22%",
    "37%"
   ],
-  "source": "SRC-3105",
+  "source": "SRC-3525",
   "anchor": [
    "In an interview on the Sept. 26 inaugural run of the Amtrak Cascades Airo equipment, Fink was asked about the status of another IIJA creation",
    "looking at all of the corridors trying to decide what [will happen] going forward",
@@ -1456,7 +1456,7 @@
    "61",
    "39 million"
   ],
-  "source": "SRC-3106",
+  "source": "SRC-3526",
   "anchor": [
    "+61Number of Additional MSAs Served +39 millionAdditional U.S. Population Served",
    "23,200Long-Distance Route Miles Added"
@@ -1483,7 +1483,7 @@
   "statement": "FRA's January 2025 Amtrak Daily Long-Distance Service Study states that there is no sustained financial support or program to construct or operate the selected preferred route options, and that existing intercity passenger rail grant programs are not structured to meet the funding needs of new long-distance service.",
   "claim": "data",
   "figures": [],
-  "source": "SRC-3106",
+  "source": "SRC-3526",
   "anchor": [
    "there is no sustained financial support or program to construct or operate the selected preferred route options identified in the Final Report",
    "the scope and scale of these passenger rail grant programs are insufficient to fund capital needs for the existing national network and are not structured to meet the significant funding needs associated with new long-distance passenger rail service."
@@ -1506,7 +1506,7 @@
   "figures": [
    "47"
   ],
-  "source": "SRC-3107",
+  "source": "SRC-3527",
   "anchor": [
    "Of the 47 projects on FTA's Nov 2026 Capital Investment Grants dashboard",
    "only one project has received a grant since Jan 20, 2025."
@@ -1532,7 +1532,7 @@
    "12 months",
    "22.5 months"
   ],
-  "source": "SRC-3107",
+  "source": "SRC-3527",
   "anchor": [
    "Of the 47 projects on FTA's Nov 2026 Capital Investment Grants dashboard, 30 were expected to get their grant under the second Trump administration and have since seen that date slip, by a median of 12 months since January 2025 (22.5 months since their first estimate)."
   ],
@@ -1562,7 +1562,7 @@
    "0.86",
    "1.00"
   ],
-  "source": "SRC-3108",
+  "source": "SRC-3528",
   "anchor": [
    "VKT increases proportionately to roadway lane kilometers for interstate highways and probably slightly less rapidly for other types of roads.",
    "Our estimates of the elasticity of MSA interstate highway VKT with respect to lane kilometers are 0.86 in OLS, 1.00 in first difference, and 1.03 with IV.",
@@ -1594,7 +1594,7 @@
    "0.6",
    "1.0"
   ],
-  "source": "SRC-3109",
+  "source": "SRC-3529",
   "anchor": [
    "Elasticity estimates of the short-run effect of increased highway capacity range from 0.3 to 0.6,",
    "Estimates of the long-run effect of increased highway capacity are considerably higher, mostly falling into the range from 0.6 to just over 1.0.",
@@ -1625,7 +1625,7 @@
    "1,160",
    "2 cents"
   ],
-  "source": "SRC-3110",
+  "source": "SRC-3530",
   "anchor": [
    "1,160 vehicles as of June 30, 2026",
    "Participants currently pay 2 cents per mile, receive credit for fuel tax paid"
@@ -1651,7 +1651,7 @@
    "July 1, 2028",
    "$340"
   ],
-  "source": "SRC-3110",
+  "source": "SRC-3530",
   "anchor": [
    "HB 3991 (2025) - Mandatory RUC Provisions",
    "Non-new EVs (at next reg. renewal) July 1, 2027",
@@ -1665,7 +1665,7 @@
   "checked": "2026-11-10",
   "recheck": "2027-02-01",
   "context": "ODOT staff summarizing a statute in a presentation; the statute itself was not read, so the dates and fee should be checked against the enrolled bill. Graded C for that reason.",
-  "note": "The slide also says vehicles paying the charge are not subject to the supplemental registration fees based on efficiency. The 2025 task force report (SRC-3111) says a road usage charge will cost more to collect than the fuels tax and 'will not produce significant net revenue in the near future'; see EV-MOV-118.",
+  "note": "The slide also says vehicles paying the charge are not subject to the supplemental registration fees based on efficiency. The 2025 task force report (SRC-3531) says a road usage charge will cost more to collect than the fuels tax and 'will not produce significant net revenue in the near future'; see EV-MOV-118.",
   "supports": [
    "dossiers/agenda/transportation/2-what-works.md"
   ]
@@ -1678,7 +1678,7 @@
    "0.3%",
    "11 percent"
   ],
-  "source": "SRC-3115",
+  "source": "SRC-3535",
   "anchor": [
    "fuel tax collection costs are approximately 0.3% and weight-mile tax collection costs are approximately 11 percent",
    "initial costs are likely to be higher than the weight-mile program"
@@ -1689,7 +1689,7 @@
   "checked": "2026-11-10",
   "recheck": "2027-02-01",
   "context": "ODOT staff answers recorded in draft minutes (not yet approved when posted); percentages are stated as rounded approximations without a base year or definition of what counts as a cost. Agency describing its own programs.",
-  "note": "The 2025 task force report (SRC-3111, Report to the Oregon Legislative Assembly) says the fuels tax is 'extremely inexpensive to collect' because a handful of wholesalers remit almost all of it, and that a road usage charge 'will be comparatively more expensive to administer than the fuels tax'. Utah's projected ratio is EV-MOV-120.",
+  "note": "The 2025 task force report (SRC-3531, Report to the Oregon Legislative Assembly) says the fuels tax is 'extremely inexpensive to collect' because a handful of wholesalers remit almost all of it, and that a road usage charge 'will be comparatively more expensive to administer than the fuels tax'. Utah's projected ratio is EV-MOV-120.",
   "supports": [
    "dossiers/agenda/transportation/2-what-works.md"
   ]
@@ -1702,7 +1702,7 @@
    "9,703",
    "45%"
   ],
-  "source": "SRC-3112",
+  "source": "SRC-3532",
   "anchor": [
    "IN JUL 2025 THERE WERE 9,703 Vehicles Enrolled",
    "45% increase from July 2024 to July 2025"
@@ -1726,7 +1726,7 @@
    "$668K",
    "14.2%"
   ],
-  "source": "SRC-3112",
+  "source": "SRC-3532",
   "anchor": [
    "FY27 Growth Scenario #1",
    "RUC Expenses = $668K RUC Exp/Rev Ratio = 14.2%"
@@ -1758,7 +1758,7 @@
    "15%",
    "277,000"
   ],
-  "source": "SRC-3113",
+  "source": "SRC-3533",
   "anchor": [
    "responsible for registering commercial vehicles weighing more than 26,000 pounds, and administering Oregon's weight-mile tax",
    "Proceeds from the weight-mile tax totaled approximately $252 million during FY 2013, or 15% of total revenues for ODOT.",
@@ -1788,7 +1788,7 @@
    "5.09",
    "7.15"
   ],
-  "source": "SRC-3114",
+  "source": "SRC-3534",
   "anchor": [
    "average annual WMT evasion estimates ranging from 8.63 percent to 11.33 percent of total revenue collected from 2016 to 2018",
    "potential WMT revenue evasion rates ranging from 8.13 to 10.66 percent",
@@ -1816,7 +1816,7 @@
    "18",
    "24"
   ],
-  "source": "SRC-3116",
+  "source": "SRC-3536",
   "anchor": [
    "Figure 1 highlights the 26 states, plus D.C., that levy variable-rate gas taxes.",
    "a fixed-rate tax that does not change over time (as is done in 24 states today)",
@@ -1843,7 +1843,7 @@
    "26",
    "35"
   ],
-  "source": "SRC-3117",
+  "source": "SRC-3537",
   "anchor": [
    "26 states and Washington, D.C., have a variable-rate gas tax that adjusts, to some degree, with inflation or prices without regular legislative action.",
    "Since 2013, 35 states and Washington, D.C., have enacted legislation to increase their state gas taxes."
@@ -1868,7 +1868,7 @@
    "59",
    "8 to 12 times"
   ],
-  "source": "SRC-3118",
+  "source": "SRC-3538",
   "anchor": [
    "our database (Transit Costs Project n.d.) of more than 900 projects in 59 countries, including Hong Kong, the United States is the sixth most expensive country in the world to build rapid-rail transit infrastructure.",
    "The five countries with greater average costs than the United States are building projects that are more than 65% tunneled.",
@@ -1895,7 +1895,7 @@
    "82%",
    "78%"
   ],
-  "source": "SRC-3119",
+  "source": "SRC-3539",
   "anchor": [
    "Two-Way Stop-Controlled Intersection to a Roundabout 82% reduction in fatal and injury crashes.",
    "Signalized Intersection to a Roundabout 78% reduction in fatal and injury crashes."
@@ -1924,7 +1924,7 @@
   "figures": [
    "19 to 47 percent"
   ],
-  "source": "SRC-3120",
+  "source": "SRC-3540",
   "anchor": [
    "The resulting benefits include a crash reduction of 19 to 47 percent, reduced vehicle speed differential, improved mobility and access by all road users"
   ],
@@ -1955,7 +1955,7 @@
    "28 percent",
    "9 percent"
   ],
-  "source": "SRC-3121",
+  "source": "SRC-3541",
   "anchor": [
    "Slightly more than half of systems (17) reported in our survey they were still using federal COVID-19 relief funding in FY 2023.",
    "The laws gave recipients flexibilities to use the funding for a wide array of payroll and operating expenses",
@@ -1985,7 +1985,7 @@
    "39%",
    "2,522"
   ],
-  "source": "SRC-3122",
+  "source": "SRC-3542",
   "anchor": [
    "A nationally representative sample of 2,522 respondents completed the online survey",
    "74% of respondents supported increasing the federal gas tax by 10 cents per gallon if the revenue would be dedicated to maintenance.",
@@ -2016,7 +2016,7 @@
    "78%",
    "45%"
   ],
-  "source": "SRC-3123",
+  "source": "SRC-3543",
   "anchor": [
    "lines we audited cost 25 million euro per km (not taking into account the more expensive tunnelling projects)",
    "Aggregate cost overruns for the lines and projects we audited were 5.7 billion euro at project level, and 25.1 billion euro at line level (44 % and 78 %, respectively).",
@@ -2041,7 +2041,7 @@
   "figures": [
    "40%"
   ],
-  "source": "SRC-3124",
+  "source": "SRC-3544",
   "anchor": [
    "CBO estimates the Highway Trust Fund will run out of reserves in FY 2028",
    "The result would be a 40% immediate cut to highway spending"
@@ -2099,7 +2099,7 @@
     "places": 2
    }
   ],
-  "source": "SRC-3125",
+  "source": "SRC-3545",
   "anchor": [
    "\"2003 Q1\",\"1\",\"1.011968272\"",
    "\"2021 Q2\",\"2.036274797\",\"2.014311442\"",
@@ -2127,7 +2127,7 @@
    "$87.6 billion",
    "32 percent"
   ],
-  "source": "SRC-3126",
+  "source": "SRC-3546",
   "anchor": [
    "the raw cost index has risen 58.8 percent since that time (from a rebased 1.0000 to the October-December 2025 adjusted 1.5584).",
    "in the April-June 2021, NHCCI had doubled to 2.0363",
@@ -2167,7 +2167,7 @@
    "44%",
    "2,539"
   ],
-  "source": "SRC-3127",
+  "source": "SRC-3547",
   "anchor": [
    "A nationally representative sample of 2,539 respondents completed the online survey from February 3 to February 27, 2025.",
    "75% of respondents supported increasing the federal gas tax by 10 cents per gallon if the revenue would be dedicated to maintenance",

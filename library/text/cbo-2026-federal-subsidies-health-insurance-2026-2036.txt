@@ -1,0 +1,1734 @@
+Source: https://www.cbo.gov/publication/62539
+Publisher: Congressional Budget Office
+Retrieved: 2026-11-10 (copy uploaded by Espen)
+Original SHA-256: 1891c0df9abe362cdabbbcc9bc4398975f8a9e105858e062899c9594c9fa5ce2
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+# Federal Subsidies for Health Insurance, 2026 to 2036
+Total federal subsidies $33.6 trillion
+Employment-based coverage $7.2 trillion (21.4%)
+Medicaid and CHIP $8.4 trillion (24.9%)
+Medicare $16.1 trillion (47.9%)
+Premium tax credit and related spending $1.2 trillion (3.7%)
+Supplemental or partial benefits $0.7 trillion (2.2%)
+© Garun.Prdt/Shutterstock.com
+---
+## At a Glance
+The federal government subsidizes health insurance for most Americans through various programs
+and tax provisions. The Congressional Budget Office and the staff of the Joint Committee on
+Taxation (JCT) regularly prepare projections of the federal costs of those subsidies and the number of
+people with health insurance coverage through different sources. This report presents details underlying the projections released in February 2026, including details about health insurance coverage
+by age and income, factors underlying growth in federal subsidies, and the effects of legislation and
+administrative actions.
+**Federal Subsidies.** In 2026, federal subsidies for health insurance, net of related payments to
+the government, are projected to equal $2.4 trillion, or 7.4 percent of gross domestic product
+(GDP). In CBO and JCT’s projections, those subsidies grow by 65 percent, reaching $3.9 trillion,
+or 8.4 percent of GDP, in 2036. Subsidies for Medicare contribute most to that overall growth,
+increasing by $900 billion.
+Over the entire 2026–2036 period, federal subsidies for health insurance total $33.6 trillion,
+distributed as follows:
+• Medicare—$16.1 trillion (48 percent),
+• Medicaid and the Children’s Health Insurance Program (CHIP)—$8.4 trillion (25 percent),
+• Employment-based coverage—$7.2 trillion (21 percent),
+• The premium tax credit and related spending—$1.2 trillion (4 percent), and
+• Supplemental or partial benefits—$0.7 trillion (2 percent).
+**Health Insurance Coverage.** An average of 318 million people are projected to have health insurance
+in any given month from 2026 to 2036; nearly 50 percent of the total population would be enrolled
+in employment-based coverage. An average of 36 million people—10 percent of the population—are
+projected to be uninsured in any given month over that period.
+The number of uninsured people in CBO’s projections grows from 30 million in 2026 to 37 million in 2036, largely because of provisions of the 2025 reconciliation act that are expected to reduce
+enrollment in Medicaid and CHIP and, to a lesser extent, in the health insurance marketplaces
+established by the Affordable Care Act and the Basic Health Program. About 60 percent of uninsured
+people in 2036 would be eligible for subsidized coverage.
+b
+---
+## Contents
+**Federal Subsidies for Health Insurance, 2026 to 2036**
+**Overview of Sources of and Subsidies for Health Insurance**
+1
+2
+**Composition of Federal Subsidies for and Enrollment in Health Insurance Coverage** 3
+**Growth in Federal Subsidies for Health Insurance**
+4
+**Factors Underlying Growth in Federal Subsidies for Health Insurance** 5
+**Average Federal Subsidies for People With Subsidized Coverage** 6
+**Changes in Coverage Among Age Groups**
+7
+**Differences in Coverage Among Income Groups for People Younger Than 65** 8
+**Medicare**
+**Medicaid and CHIP**
+Policy Changes
+Changes in Enrollment and Spending
+Enrollment and Federal Spending, by Eligibility Category
+**The Premium Tax Credit and Related Spending**
+Policy Changes
+Changes in Enrollment and Spending
+**Private Health Insurance Premiums**
+**The Uninsured Population**
+Eligibility for Subsidized Coverage
+9
+10
+10
+11
+12
+13
+13
+14
+15
+16
+16
+Access to Coverage Among Uninsured People Younger Than 65, by Income 17
+**Uncertainty**
+18
+**Appendix A: Details of CBO and JCT’s Projections of Health Insurance Coverage and Federal Subsidies** 19
+**Appendix B: Data and Methods Underlying CBO’s Projections**
+23
+**Appendix C: Projections of Per-Beneficiary Spending in Medicare Advantage and the**
+**Medicare Fee-for-Service Program** 27
+**Appendix D: Related Publications**
+**About This Document**
+33
+34
+---
+# Notes About This Report
+The estimates presented in this report underlie the Congressional Budget Office’s February 2026
+baseline budget projections. They are based on CBO’s February 2026 economic projections and
+incorporate the effects of legislation enacted through January 14, 2026. The baseline projections,
+which reflect the assumption that current laws governing taxes and spending would generally remain
+unchanged, serve as a benchmark for assessing proposed policy changes.
+The population referred to in this report is the Social Security area population, which includes all
+residents of the 50 states and of the District of Columbia, as well as civilian residents of U.S. territories. It also includes federal civilian employees and members of the U.S. Armed Forces living
+abroad and their dependents, U.S. citizens living abroad, and noncitizens living abroad who are
+eligible for Social Security benefits.
+Estimates of health insurance coverage reflect average monthly enrollment during a calendar year.
+Those estimates include spouses and dependents covered under family policies and exclude people
+with supplemental or partial coverage that, on its own, would not provide financial protection against
+major medical expenses. Estimates of employment-based coverage include people enrolled in veterans’
+health care programs, the Federal Employees Health Benefits (FEHB) program, and the military’s
+TRICARE health care program.
+Federal subsidies for health insurance include both outlays (also referred to as spending in this report)
+and reductions in revenues. Estimates exclude discretionary outlays (such as spending on veterans’ health
+care programs), outlays made by the federal government in its capacity as an employer (such as spending
+on FEHB and TRICARE), and certain reductions in revenues (such as the medical expense deduction).
+In 2026, discretionary outlays for veterans’ health care programs, FEHB, and TRICARE are estimated
+to total $196 billion; mandatory outlays for those programs are estimated to total $91 billion.
+Estimates of average subsidies per enrollee are for calendar years. All other estimates of federal
+spending and revenues are for federal fiscal years, which run from October 1 to September 30 and are
+designated by the calendar year in which they end.
+Income in this report is measured as a percentage of the federal poverty guidelines, commonly known as
+the federal poverty level (FPL). In most states, the FPL in 2026 begins at $15,960 of modified adjusted
+gross income for a single person and increases by $5,680 for each additional person in a household.
+Numbers may not add up to totals because of rounding.
+All figures related to enrollment, spending on Medicare, and spending on Medicaid and the
+Children’s Health Insurance Program are based on estimates by CBO. All other figures are based on
+estimates by CBO and the staff of the Joint Committee on Taxation.
+b
+---
+# Federal Subsidies for Health Insurance, 2026 to 2036
+Most Americans’ health insurance is subsidized by the federal government, either through a program such as Medicare
+or Medicaid or through tax provisions.
+This report, the latest in a regular series, presents the Congressional Budget Office and the staff of the Joint Committee
+on Taxation’s (JCT’s) projections of what health insurance coverage and the federal costs of that coverage would look
+like over the next 10 years if current laws governing taxes and spending generally remained unchanged.
+These projections underlie CBO’s baseline budget projections, which serve as a benchmark for assessing the budgetary effects of proposed policy changes. They reflect CBO’s economic and demographic projections as well as data
+on health insurance enrollment and premiums; they also incorporate the effects of enacted legislation, including the
+2025 reconciliation act (Public Law 119-21), which made significant changes to Medicaid and to the health insurance
+marketplaces established under the Affordable Care Act (ACA).
+For a list of CBO’s recent publications on policies that affect health insurance coverage, including provisions of the
+2025 reconciliation act and a final rule related to the marketplaces that was published by the Department of Health
+and Human Services in June 2025, see Appendix D.
+b
+---
+### Overview of Sources of and Subsidies for Health Insurance
+Eligibility to enroll in coverage and federal subsidies for that coverage differ among sources of
+health insurance. The sources in the table below are listed in descending order by total federal
+subsidies in 2026.
+| | Eligibility | Federal subsidies |
+| --- | --- | --- |
+| Medicare | People typically become eligible for Medicare at age 65. About one-tenth of enrollees are people younger than 65 who receive benefits from the Social Security Disability Insurance program or have certain medical conditions. | The federal government pays for most of the cost of Medicare coverage through the Hospital Insurance Trust Fund, which is financed largely through payroll taxes, and the Supplementary Medical Insurance Trust Fund, which is financed through payments from the Treasury's general fund and covers outpatient services and prescription drugs. |
+| Medicaid and the Children's Health Insurance Program (CHIP) | Eligibility for both Medicaid and CHIP varies by state. Medicaid generally covers children, parents, pregnant women, older adults, people with disabilities, and some childless adults, particularly in states that expanded Medicaid eligibility under the ACA. CHIP primarily covers children in families with income above their state's Medicaid eligibility threshold but below a state-determined limit. States may operate their CHIP program as an expansion of Medicaid, a separate program, or a combination of those two approaches. | The federal government provides about two-thirds of all funding, and states finance the remainder. |
+| Employment-based coverage | Full-time workers, workers employed by large employers, and workers with higher income are more likely to have an offer of employment-based coverage than part-time or seasonal workers, workers employed by small employers, and workers with lower income. Most full-time workers and their dependents are enrolled in employment-based coverage. | The federal government subsidizes employment-based coverage by generally excluding amounts paid by employers and employees for health insurance premiums from income and payroll taxes. That exclusion subsidizes about 30 percent of the cost of premiums, on average. People with higher income, who are taxed at higher rates on the additional dollars they earn, generally receive larger subsidies for a given premium. |
+| Nongroup coverage and the Basic Health Program | Nongroup health insurance is private health coverage that is purchased by an individual through the marketplaces established by the ACA or outside the marketplaces, rather than being obtained through an employer. People purchasing coverage through the marketplaces may qualify for the premium tax credit, which subsidizes that coverage, if they are within certain income ranges, are ineligible for other sources of subsidized coverage, and meet other eligibility criteria. In addition, under the ACA, states have the option to establish a Basic Health Program intended primarily for people with income between 138 and 200 percent of the federal poverty level (FPL). Three states and the District of Columbia have established such programs. | For eligible enrollees in the marketplaces, the federal government offers a premium tax credit that reduces out-of-pocket costs for premiums. For states that modify their nongroup market through waivers under section 1332 of the ACA, the federal government provides funding equal to any reductions in the premium tax credit that result from the waiver. For states that establish a Basic Health Program, the federal government provides much of the cost of coverage. Altogether, the federal government subsidizes about 50 percent of the costs of nongroup coverage and the Basic Health Program. |
+| Other coverage | Other sources of coverage include student health plans, state-sponsored health plans, correctional facilities, the Indian Health Service, and foreign sources of coverage. | Federal funding for correctional facilities and the Indian Health Service is excluded from this report because it mostly takes the form of discretionary outlays, which are subject to future appropriation action by lawmakers. |
+---
+### Composition of Federal Subsidies for and Enrollment in Health Insurance Coverage
+Total federal subsidies are larger for Medicare than for other types of coverage. Although the
+program does not cover the largest number of people, the federal government subsidizes a
+larger share of health care costs for its enrollees, who use more health care services, on average,
+than people with other types of coverage. Employment-based coverage has the largest number
+of enrollees, but subsidies for that coverage tend to be smaller because the tax benefit amounts
+to only a portion of the cost of the premium based on a person’s marginal tax rate. The federal
+costs of subsidies are smallest for nongroup coverage and coverage through the Basic Health
+Program because relatively few people receive those subsidies (which are provided through the
+premium tax credit and related spending).
+CBO’s estimates of enrollment and subsidies for a given source of coverage exclude supplemental
+or partial coverage that, on its own, would not provide financial protection against major medical
+expenses. In addition, to better align its estimates with underlying data on coverage, CBO does
+not assign people reporting multiple sources of coverage to a primary source. As a result, the sum
+of enrollment in each source and the number of uninsured people exceeds the total population.
+**Total Federal Subsidies for Health Insurance Over the 2026–2036 Period**
+Trillions of dollars
+Total = 33.6
+| Category | Share of total subsidies (%) | Total subsidies (USD tn) |
+| --- | --- | --- |
+| Medicare | 47.9 | 16.1 |
+| Medicaid and CHIP | 24.9 | 8.4 |
+| Employment-based coverage | 21.4 | 7.2 |
+| Premium tax credit and related spending | 3.7 | 1.2 |
+| Supplemental or partial benefits | 2.2 | 0.7 |
+**Average Annual Enrollment in Health Insurance Over the 2026–2036 Period, by Source of Coverage**
+| Category | Average annual enrollment (millions of people) |
+| --- | --- |
+| Medicare | 70 |
+**In CBO’s projections, over
+the 2026–2036 period,
+subsidies for Medicare
+represent nearly half of
+federal subsidies for health
+insurance. Subsidies for**
+**Medicaid and employmentbased coverage account for
+most of the rest.**
+**Average Annual Enrollment in Health Insurance Over the 2026–2036 Period, by Source of Coverage**
+Millions of people
+**Medicare**
+| Category | Average annual enrollment (millions of people) |
+| --- | --- |
+| Medicare | 70 |
+| Medicaid and CHIP | 73 |
+| Employment-based coverage | 169 |
+| Nongroup coverage and the Basic Health Program | 19 |
+| Other coverage | 7 |
+| Uninsured | 36 |
+**In each year, the average
+number of people enrolled
+in employment-based
+coverage, 169 million, is
+about equal to the sum
+of enrollees in all other
+sources of coverage. An
+average of 36 million
+people are uninsured.**
+169 coverage, 169 million, is
+---
+### Growth in Federal Subsidies for Health Insurance
+Total federal subsidies for health insurance are projected to grow faster than the overall economy over the next decade. In CBO’s projections, those subsidies grow by 65 percent between
+2026 and 2036, from $2.4 trillion to $3.9 trillion. Gross domestic product (GDP), a measure of the size of the economy, increases by 46 percent over the same period. Because total
+subsidies grow faster than the overall economy, subsidies as a percentage of GDP increase by
+about 1 percentage point.
+##### Federal Subsidies for Health Insurance, 2026 and 2036
+Billions of dollars
+**Medicare**
+| Category | 2026 (USD bn) | 2036 (USD bn) |
+| --- | --- | --- |
+| Medicare | 1050 | 1950 |
+| Medicaid and CHIP | 670 | 890 |
+| Employment-based coverage | 480 | 840 |
+| Premium tax credit and related spending | 120 | 150 |
+| Supplemental or partial benefits | 50 | 80 |
+| Category | 2026 (USD bn) | 2036 (USD bn) |
+| --- | --- | --- |
+| Total | 2365 | 3913 |
+**More than half of the
+projected $1.5 trillion
+increase in total federal
+subsidies stems from**
+**Medicare. Subsidies for**
+**Medicare are projected to
+nearly double over the next
+decade, increasing by about
+$900 billion, or 86 percent.**
+## subsidies stems from 2,365
+**Federal Subsidies for Health Insurance as a Percentage of GDP, 2026 and 2036**
+Percent
+## From 2026 to 2036, total Medicare
+## federal subsidies are 8.4
+**Medicare**
+| Category | 2026 (% of GDP) | 2036 (% of GDP) |
+| --- | --- | --- |
+| Medicare | 3.3 | 4.2 |
+| Medicaid and CHIP | 2.1 | 1.9 |
+| Employment-based coverage | 1.5 | 1.8 |
+| Premium tax credit and related spending | 0.4 | 0.3 |
+| Supplemental or partial benefits | 0.15 | 0.15 |
+**Total**
+| Category | Total |
+| --- | --- |
+| 2026 | 7.4 |
+| 2036 | 8.4 |
+**From 2026 to 2036, total
+federal subsidies are
+projected to increase by
+about 1 percentage point as
+a percentage of GDP.**
+**Subsidies for Medicare
+and employment-based
+coverage are projected to
+grow the most quickly in
+relation to GDP.**
+---
+### Factors Underlying Growth in Federal Subsidies for Health Insurance
+CBO attributed the projected growth in federal subsidies to three factors.
+**Growth in prices for health care services** contributes to growth in subsidies for each source of
+health insurance.
+**Growth in the average real subsidy per beneficiary,** largely due to beneficiaries’ greater use of
+medical care, also contributes to growth in subsidies for each source of health insurance. (Real
+subsidies are nominal subsidies that have been adjusted to remove the effects of price growth.)
+**Increases in enrollment** are expected to increase subsidies for Medicare and
+employment-based coverage over the next decade.
+For more information about the methods underlying CBO’s estimates, see Appendix B.
+**Composition of Growth in Federal Subsidies for Health Insurance Over the 2026–2036 Period**
+Percentage points
+| Category | Medicare Growth in federal subsidies (percentage points) | Medicaid and CHIP Growth in federal subsidies (percentage points) | Employment-based coverage Growth in federal subsidies (percentage points) | Premium tax credit and related spending Growth in federal subsidies (percentage points) |
+| --- | --- | --- | --- | --- |
+| Total growth (percent) | 85.7 | 33.6 | 75.5 | 23.2 |
+| Growth from price increases | 27.2 | 33.8 | 29.3 | 24.2 |
+| Growth from real per-beneficiary subsidies | 39.1 | 17.5 | 42.7 | 27.8 |
+| Growth from enrollment | 19.4 | -17.8 | 3.5 | -28.9 |
+**From 2026 to 2036,
+total federal subsidies are
+projected to increase by**
+**86 percent for Medicare
+and by 75 percent for
+employment-based
+coverage. In both cases,
+growth in the average
+real subsidy per enrollee
+contributes the most to
+the increase, and growth
+in enrollment contributes
+the least.**
+**Policy changes are
+projected to reduce
+enrollment in Medicaid
+and CHIP and in coverage
+subsidized through the
+premium tax credit, but the
+resulting reductions in total
+subsidies are more than
+offset by growth in prices
+and per-enrollee subsidies.**
+b
+---
+### Average Federal Subsidies for People With Subsidized Coverage
+Average federal subsidies for health insurance per subsidized enrollee vary, both among the
+sources of health insurance and within the group of people enrolled in coverage through a
+given source. Among the sources of coverage, subsidies vary because of factors such as
+enrollees’ demographic characteristics, the share of costs borne by the federal government,
+and the prices paid to providers. Among people with the same source of coverage, subsidies
+vary because of factors including age, health status, income, and disability status. For example, in CBO’s projections, the average subsidy per Medicare enrollee in 2036 is $26,030 for
+those age 65 or older and $35,590 for those younger than 65 (who qualify because they have
+a disability or certain medical conditions).
+**Average Federal Subsidy per Subsidized Enrollee, by Source of Coverage, 2036**
+| Category | Average Federal Subsidy per Subsidized Enrollee, 2036 (Dollars) |
+| --- | --- |
+| Medicare | 26920 |
+| Medicaid and CHIP | 13070 |
+| Employment-based coverage | 4990 |
+| Nongroup coverage and the Basic Health Program | 11500 |
+**On a per-enrollee basis, the
+largest federal subsidies
+for health insurance are for**
+**Medicare, and the smallest
+are for employmentbased coverage. Medicare
+enrollees tend to use more
+services, and the federal
+government subsidizes most
+of the program’s costs. By
+comparison, the federal
+government subsidizes about**
+**30 percent of the cost of
+premiums for employmentbased coverage.**
+---
+### Changes in Coverage Among Age Groups
+To estimate federal subsidies for health insurance, CBO projects the number of people with
+coverage through the different sources as well as the number of uninsured people. Those
+estimates reflect both access to and take-up of coverage.
+For insured people under age 65, employment-based coverage is the predominant source of
+coverage, followed by Medicaid and CHIP. For those age 65 and older, the vast majority are
+enrolled in Medicare.
+Most uninsured people are estimated to be between ages 19 and 64. Children are less likely
+to be uninsured, in part because they have more access to Medicaid and CHIP.
+The uninsured rate is the lowest among adults age 65 or older because of their high levels of
+access to and take-up of Medicare. (For details about CBO’s projections of health insurance
+coverage, see Appendix B.)
+**Health Insurance Coverage, by Age, 2026 and 2036**
+Millions of people
+| Category | 2026 (Millions of people) | 2036 (Millions of people) |
+| --- | --- | --- |
+| Medicare | 62 | 67 |
+| Medicaid and CHIP | 69 | 65 |
+| Employment-based coverage | 154 | 156 |
+| Nongroup coverage and the Basic Health Program | 17 | 17 |
+| Other coverage | 3 | 2 |
+| Uninsured | 19 | 21 |
+**Total population**
+| Category | Series 1 (unlabelled) (Millions of people) | Series 2 (unlabelled) (Millions of people) |
+| --- | --- | --- |
+| 2026 | 100 | 249 |
+| 2036 | 95 | 263 |
+**Total population**
+**From 2026 to 2036, an
+increase in the population
+age 65 or older is projected
+to boost Medicare
+enrollment.**
+**By contrast, the population
+age 18 or younger is
+projected to fall, which
+contributes to estimated
+decreases in enrollment in**
+**Medicaid and CHIP.**
+**For adults ages 19 to 64,
+enrollment in Medicaid and**
+**CHIP is projected to decline,
+and rates of uninsurance
+are projected to increase,
+because of provisions of the**
+**2025 reconciliation act.**
+---
+### Differences in Coverage Among Income Groups for People Younger Than 65
+For people younger than 65, sources of health insurance coverage are strongly associated
+with income. Those with lower income are more likely to be uninsured, and when they have
+insurance, it is often through Medicaid or CHIP. Those with higher income are predominantly insured through employment-based coverage. (To focus on how people’s sources of
+health insurance coverage vary by income, this figure excludes people age 65 or older, nearly
+all of whom are covered by Medicare.)
+Some Medicaid and CHIP enrollees in the underlying data have annual income that exceeds
+the upper limit for their eligibility category. That can occur in any year when, for example,
+people’s income and enrollment status changed during the year and their income exceeded
+the eligibility thresholds when they were not enrolled in one of those programs.
+**Health Insurance Coverage for People Younger Than 65, by Income, 2036**
+Millions of people
+**Less than 150% of the FPL (Total: 78 million)**
+| Category | Millions of people |
+| --- | --- |
+| Medicare | 3.5 |
+| Medicaid and CHIP | 42 |
+| Employment-based coverage | 13.5 |
+| Nongroup coverage and the Basic Health Program | 4 |
+| Other coverage | 2.5 |
+| Uninsured | 14.5 |
+**150% to 400% of the FPL (Total: 93 million)**
+| Category | Millions of people |
+| --- | --- |
+| Medicare | 1.5 |
+| Medicaid and CHIP | 17 |
+| Employment-based coverage | 54 |
+| Nongroup coverage and the Basic Health Program | 9 |
+| Other coverage | 1 |
+| Uninsured | 14 |
+**More than 400% of the FPL (Total: 109 million)**
+| Category | Millions of people |
+| --- | --- |
+| Medicare | 0.5 |
+| Medicaid and CHIP | 2 |
+| Employment-based coverage | 97 |
+| Nongroup coverage and the Basic Health Program | 7 |
+| Other coverage | 0.5 |
+| Uninsured | 4 |
+**In CBO’s projections, of the**
+**78 million people younger
+than 65 with income below**
+**150 percent of the federal
+poverty level in 2036,**
+**44 million are enrolled in**
+**Medicaid or CHIP.**
+**Coverage for the 93 million**
+**people younger than**
+**65 with income between**
+**150 and 400 percent**
+**of the FPL is more**
+**varied: 55 million have**
+**employment-based**
+**coverage, 16 million are**
+**enrolled in Medicaid or**
+**CHIP, and 9 million have**
+**nongroup coverage or**
+**coverage through the Basic**
+**Health Program (almost all**
+**of it subsidized).**
+**Nearly all people younger
+than 65 with income above**
+**400 percent of the FPL
+have employment-based
+coverage.**
+b
+---
+### Medicare
+Medicare has three components available to enrollees in the traditional fee-for-service (FFS) program:
+Part A (Hospital Insurance), Part B (Medical Insurance, which covers doctors’ services, outpatient care, and
+other medical services), and Part D (which covers outpatient prescription drugs). Medicare Part C, known
+as Medicare Advantage (MA), allows people to enroll in private plans for their Part A and Part B coverage;
+many MA plans also provide Part D benefits and offer supplemental benefits such as dental, vision, and
+hearing coverage. More than 90 percent of Medicare enrollees participate in both Part A and Part B, either
+directly or through MA. The remaining enrollees typically have only Part A coverage and often have an alternative source of primary coverage. Estimates of enrollment and total spending in this section include people
+enrolled in Part A, Part B, or both; elsewhere in the report, only people who are enrolled in both Part A and
+Part B are included.
+The share of Medicare beneficiaries enrolled in MA rose from about 30 percent to about 50 percent between
+2015 and 2024, but that growth slowed in 2025 and is projected to slow further. Nevertheless, CBO
+projects that MA will account for an increasing share of spending for Part A and Part B benefits, from
+54 percent in 2026 to 61 percent in 2036. Over that period, annual spending per MA enrollee is projected
+to be 7 percent higher, on average, than spending per FFS enrollee with both Part A and Part B coverage.
+(That estimate excludes categories of spending that are always paid through FFS, such as hospice, and
+includes supplemental MA benefits that are federally financed through plan rebates.) On the basis of
+historical trends, CBO projects that the gap in per-beneficiary spending between FFS and MA will grow
+over time. For more details about MA and potential reasons for that spending differential, see Appendix C.
+**Enrollment in the Medicare Fee-for-Service Program and Medicare Advantage, 2015 to 2036**
+| Category | Fee-for-service (Millions of people) | Medicare Advantage (Millions of people) |
+| --- | --- | --- |
+| 2016 | 39 | 19 |
+| 2021 | 38 | 24 |
+| 2026 | 35 | 31 |
+| 2031 | 35 | 35 |
+| 2036 | 35 | 39 |
+**Average Federal Subsidy per Enrollee in the Medicare Fee-for-Service Program and**
+**Medicare Advantage, 2026 to 2036**
+**In CBO’s projections, the share of Medicare
+enrollees who opt for MA continues to increase
+over the next decade, though at a slower pace.**
+**That share rises from 51 percent in 2026 to**
+**57 percent in 2036.**
+| Category | Medicare Advantage (Dollars) | Fee-for-service (Dollars) |
+| --- | --- | --- |
+| 2026 | 15800 | 15200 |
+| 2028 | 17200 | 16300 |
+| 2030 | 18800 | 17700 |
+| 2032 | 20900 | 19500 |
+| 2034 | 23800 | 22000 |
+| 2036 | 26500 | 24100 |
+**When categories of spending that are always
+paid through FFS are excluded, average
+spending is about 5 to 10 percent higher for**
+**MA beneficiaries than for FFS beneficiaries
+with both Part A and Part B coverage. That
+differential is projected to grow over the next**
+**10 years.**
+b
+---
+### Medicaid and CHIP
+Together, Medicaid and CHIP provide coverage to a broad range of low-income populations, including
+children, parents, pregnant women, older adults, and people with disabilities. The ACA allows states to
+expand Medicaid eligibility to all nondisabled adults with income less than or equal to 138 percent of
+the FPL. Children may qualify for Medicaid or CHIP at higher income levels than adults, with eligibility
+thresholds that vary by state.
+#### Policy Changes
+The 2025 reconciliation act made major changes to Medicaid that, on net, are expected to decrease enrollment and reduce the federal deficit. This discussion focuses on the provisions of the law most relevant to
+those effects.
+Some provisions directly affect eligibility and enrollment:
+• Community engagement requirements, which stipulate that certain adults made eligible for Medicaid
+under the ACA expansion or under a similar waiver-based expansion must document their participation
+in work or other qualifying activities (such as education or community service) to maintain coverage;
+• Moratoria on certain regulations, which pause the implementation of rules finalized near the end of the
+previous Administration that affect application, enrollment, and renewal procedures, including rules
+related to returned mail and limits on the frequency of redeterminations for certain groups; and
+• More frequent redeterminations for adults made eligible for Medicaid under the ACA expansion or
+under a similar waiver-based expansion, which require states to reassess their eligibility every six months.
+Other provisions modify federal financing arrangements:
+• Changes to provider taxes, which limit states’ ability to use taxes on providers to finance their Medicaid
+programs; and
+• Changes to state directed payments, which limit states’ ability to direct Medicaid managed care plans to
+pay providers at rates above Medicare levels.
+Those modifications lead to lower enrollment indirectly, through states’ responses. For example, states may
+respond to reduced resources for financing their share of Medicaid by tightening their eligibility requirements or scaling back optional coverage.
+##### Timelines of Selected Policies Affecting Medicaid, 2026 to 2036
+| Category | Policy effective | Policy fully phased in |
+| --- | --- | --- |
+| Community engagement requirements | 2027 | 2030 |
+| Moratoria on certain regulations | 2026 | 2026 |
+| Six-month eligibility redeterminations | 2027 | 2029 |
+| Changes to provider taxes | 2026 | 2032 |
+| Changes to state directed payments | 2026 | 2031 |
+**Provisions of the 2025**
+**reconciliation act related to**
+**Medicaid will take effect at**
+**different times over the next**
+**several years. CBO expects**
+**that some policies will be**
+**implemented gradually,**
+**as states prepare for and**
+**phase in new requirements.**
+**As a result, their effects**
+**on enrollment and federal**
+**spending will emerge**
+**over time.**
+---
+#### Changes in Enrollment and Spending
+Medicaid enrollment is projected to decline over the coming decade, largely because of policy
+changes under the 2025 reconciliation act. That decline also reflects reductions in enrollment among children, in part because lower fertility rates in CBO’s demographic projections
+reduce the number of children eligible for Medicaid. At the same time, federal spending on
+Medicaid is projected to increase as per-enrollee health care costs rise.
+CHIP enrollment is projected to decline as well. Over the next few years, those reductions in
+enrollment are slow and are driven by lower fertility rates. Reductions in later years are more
+substantial because of how CBO has to project CHIP’s funding. Through 2029, federal
+funding for CHIP is provided through state-specific allotments, which reflect recent spending and allow for annual increases based on a statutory formula. As required by statute, CBO
+constructs its baseline projections so that in later years, funding for CHIP continues at a
+fixed lower level. In the baseline projections, states use their unspent balances to temporarily
+supplement that funding, but those balances are not sufficient to sustain the enrollment that
+would be projected under full funding levels.
+##### Enrollment in Medicaid and CHIP, 2026 to 2036
+Millions of people
+| Category | Enrollment in Medicaid and CHIP (Millions of people) |
+| --- | --- |
+| 2026 | 80.7 |
+| 2028 | 76.5 |
+| 2030 | 72.8 |
+| 2032 | 70.8 |
+| 2034 | 69.8 |
+| 2036 | 68.9 |
+**Federal Spending for Medicaid and CHIP, 2026 to 2036**
+**Projected declines in Medicaid**
+**enrollment are mainly due**
+**to policy changes under the**
+**2025 reconciliation act. Most**
+**people who disenroll are**
+**expected to become uninsured,**
+**but some would obtain**
+**coverage through employment-**
+**based insurance, the health**
+**insurance marketplaces,**
+**or other sources. Projected**
+**declines in CHIP enrollment are**
+**largest after authorized funding**
+**for the program expires.**
+Billions of dollars
+| Category | Federal Spending for Medicaid and CHIP (USD bn) |
+| --- | --- |
+| 2026 | 670 |
+| 2028 | 704 |
+| 2030 | 724 |
+| 2032 | 764 |
+| 2034 | 828 |
+| 2036 | 893 |
+**Federal spending for**
+**Medicaid and CHIP is
+projected to rise from
+$668 billion in 2026 to
+$892 billion in 2036. That
+change reflects growing
+health care costs and
+increases in the severity
+and complexity of enrollees’
+health needs, partly offset
+by declines in enrollment
+stemming from the 2025
+reconciliation act.**
+---
+#### Enrollment and Federal Spending, by Eligibility Category
+The federal government pays a portion of the cost of medical services for Medicaid enrollees,
+and states pay the remainder. For most enrollees—those who would be eligible without the
+ACA—that share varies by state and is generally larger in states with lower per capita income.
+On average, the federal government pays about 60 percent of the cost of Medicaid services
+for that group. Within that group, per-person and total federal spending vary widely by eligibility category; spending is lowest for children and highest for blind and disabled people. By
+contrast, for enrollees who became eligible for Medicaid under the ACA, the federal government pays a fixed 90 percent of the cost of Medicaid services.
+For CHIP, the federal government pays roughly 70 percent of the cost of covered services, on
+average, though that share varies among states.
+**Enrollment in and Federal Spending for Medicaid and CHIP, by Eligibility Category, 2036**
+Percent
+| Category | Medicaid enrollment (%) | CHIP enrollment (%) | Blind and disabled people spending (%) | Adults age 65 or older spending (%) | Adults made eligible by the ACA spending (%) | Adults otherwise eligible spending (%) | Children spending (%) | CHIP spending (%) | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Total enrollees 69 million | 12 | 10 | 14 | 19 | 41 | 4 | 34 | 23 | 17 | 11 | 14 | 2 |
+| Total spending $892 billion | | | | | | | | | | | | |
+**Some groups of enrollees**
+**in Medicaid and CHIP**
+**account for much different**
+**shares of enrollment**
+**and spending in those**
+**programs. For example, in**
+**CBO’s projections, adults**
+**age 65 or older and people**
+**with disabilities account for**
+**22 percent of enrollment**
+**and 57 percent of spending**
+**in 2036. Children account**
+**for 41 percent of Medicaid**
+**enrollment but only**
+**14 percent of spending.**
+22 percent of enrollment 17
+---
+### The Premium Tax Credit and Related Spending
+The premium tax credit was established under the ACA to lower the out-of-pocket cost of
+premiums for eligible people who obtain health insurance through the marketplaces.
+Related spending includes subsidies for health insurance that states provide through the Basic
+Health Program; funding for states that modify the nongroup market through waivers under
+section 1332 of the ACA; and net collections and payments for the risk adjustment program.
+#### Policy Changes
+Several provisions of the 2025 reconciliation act are projected to reduce enrollment in the
+marketplaces and the Basic Health Program, including the following:
+• Removal of eligibility for the premium tax credit from certain immigrants with income
+below the FPL and several other groups of immigrants;
+• Effective elimination of a special enrollment period that allowed people with income at or
+below 150 percent of the FPL to enroll in coverage at any time in the year; and
+• Modifications of enrollment processes, with the intent to reduce improper enrollments, and
+limits on beneficiaries’ ability to receive the premium tax credit without filing a tax return.
+In 2026, a final rule governing the marketplaces that was published by the Department of
+Health and Human Services in June 2025 changed enrollees’ premium contributions, enrollment periods, verification procedures, and payment requirements for purchasing coverage.
+That rule is projected to reduce enrollment about equally in all years over the next decade.
+**Timelines of Selected Policies Affecting the Health Insurance Marketplaces and the**
+**Basic Health Program, 2026 to 2036**
+**Policy**
+| Category | Policy effective | Policy fully phased in |
+| --- | --- | --- |
+| Removal of eligibility for certain immigrants | 2026 | 2027 |
+| Effective elimination of income-based special enrollment periods | 2026 | 2026 |
+| Modifications of enrollment processes | 2028 | 2028 |
+| June 2025 final rule | 2026 | 2026 |
+| Expiration of authorized funding for CHIP | 2029 | 2031 |
+**Several policies under the 2025
+reconciliation act that are related to
+the health insurance marketplaces
+and the Basic Health Program are
+scheduled to take effect through**
+**2028. CBO expects their effects on
+enrollment to be concentrated in the
+marketplaces. Because the policies
+change eligibility and enrollment
+processes, CBO expects that their
+full effects will be realized quickly.**
+---
+#### Changes in Enrollment and Spending
+In CBO’s projections, enrollment in the marketplaces and the Basic Health Program totals
+17.9 million in 2026 and 16.0 million in 2036. In both years, the majority of those enrollees
+receive a subsidy. Declines in enrollment chiefly reflect responses to the implementation of
+provisions of the 2025 reconciliation act and the expiration of the expanded premium tax
+credit, which was in place from 2021 to 2025. (The American Rescue Plan Act of 2021,
+P.L. 117-2, and the 2022 reconciliation act, P.L. 117-169, expanded eligibility for the
+premium tax credit to include people with income above 400 percent of the FPL and
+reduced the maximum out-of-pocket contribution toward marketplace premiums.) The
+declines in enrollment are partly offset by other factors, particularly an increase in marketplace enrollment after the authorized funding for CHIP expires.
+**Subsidized Enrollment in the Health Insurance Marketplaces and the Basic Health Program,**
+**2026 to 2036**
+| Category | Subsidized Enrollment in the Health Insurance Marketplaces and the Basic Health Program (Millions of people) |
+| --- | --- |
+| 2026 | 14.2 |
+| 2028 | 10.7 |
+| 2030 | 11.4 |
+| 2032 | 12.4 |
+| 2034 | 12.6 |
+| 2036 | 12.8 |
+**Federal Cost of the Premium Tax Credit and Related Spending, 2026 to 2036**
+**Subsidized enrollment in the marketplaces**
+**and the Basic Health Program is projected**
+**to decline through 2028 as policies of the**
+**2025 reconciliation act are implemented**
+**and the effects of the expanded premium tax**
+**credit dissipate. Starting in 2029, enrollment**
+**increases—largely because CHIP funding falls**
+**to a fixed lower level in CBO’s baseline, shifting**
+**people into the marketplaces.**
+Billions of dollars
+| Category | Federal Cost of the Premium Tax Credit and Related Spending (USD bn) |
+| --- | --- |
+| 2026 | 116 |
+| 2028 | 85 |
+| 2030 | 97 |
+| 2032 | 116 |
+| 2034 | 127 |
+| 2036 | 144 |
+**In CBO and JCT’s projections, the federal cost
+of the premium tax credit and related spending
+grows from $117 billion in 2026 to $144 billion
+in 2036. That growth is the net result of factors
+that increase costs, including rising premiums,
+and factors that decrease costs, including
+reduced enrollment.**
+---
+### Private Health Insurance Premiums
+Federal subsidies for employment-based and nongroup coverage depend on the premiums
+in those markets. Premiums for employment-based coverage are typically paid by both
+the employer and the employee. The employer’s portion is excluded from federal income
+and payroll taxes, and in most cases, the employee’s portion is as well. In general, people
+with higher income, and thus higher marginal tax rates, receive a larger federal subsidy for
+employment-based coverage. For nongroup coverage, federal subsidies take the form of the
+premium tax credit. The amount of the credit is the difference between the benchmark premium (that is, the premium for the second-lowest-cost silver plan available in a region) and
+the percentage of income that an enrollee is expected to pay toward premiums.
+From 2026 to 2036, spending per enrollee in private health insurance is projected to grow by
+an average of 5 percent per year. That growth generally reflects trends in the prices of medical
+care and in personal income, which affects the amount people spend on medical care. CBO
+uses the projected growth in private health insurers’ per-enrollee spending to forecast premiums for employment-based and nongroup health insurance. CBO’s projections of the average
+marketplace benchmark premium are based on that per-enrollee spending in the broader
+private market and on factors unique to the marketplaces, such as policies that are expected
+to affect the relative health of enrollees.
+The average benchmark premium increased sharply in 2026, largely driven by the disproportionate disenrollment of healthier marketplace enrollees after the expiration of the expanded
+premium tax credit, higher-than-expected recent claims costs, and insurers’ uncertainty about
+policy changes and their effects on average health spending among enrollees.
+**Annual Changes in Private Health Insurers’ Spending per Enrollee and in the**
+**Average Benchmark Premium in the Marketplaces, 2015 to 2036**
+| Year | Private health insurers' spending per enrollee (%) | Average benchmark premium in the marketplaces (%) |
+| --- | --- | --- |
+| 2016 | 5.0 | 8.7 |
+| 2021 | 3.6 | -4.1 |
+| 2026 | 7.3 | 25.0 |
+| 2031 | 4.8 | 4.7 |
+| 2036 | 5.0 | 4.0 |
+**Growth in the average**
+**benchmark premium is**
+**projected to be modest**
+**in 2027, similar to trends**
+**observed in 2019, and then**
+**to roughly follow the growth**
+**in per-enrollee spending in**
+**private health insurance.**
+---
+### The Uninsured Population
+CBO counts people as uninsured if they are not covered by an insurance plan or enrolled in
+a government program that provides financial protection against major medical expenses.
+Many uninsured people receive some health care and often are not required to pay the full
+cost of that care, but they have substantially less access to care and financial protection from
+major medical expenses than insured people. Uninsured people who are eligible for Medicaid
+have more financial protection than others because they can enroll throughout the year—in
+some cases, as they are seeking care in hospitals or other settings—and may receive coverage
+retroactively. People who are enrolled only in Medicare Part A or Part B, whom CBO counts
+as uninsured, also have some financial protection because they receive coverage for inpatient
+hospital services or for nonhospital services, such as physicians’ services, respectively.
+#### Eligibility for Subsidized Coverage
+CBO classified people who lack insurance into groups based on the most heavily subsidized
+option available to them or the main reason they were ineligible for subsidized coverage.
+Some uninsured people are eligible for one or more sources of coverage but have not
+enrolled—for example, because they did not complete application processes or had difficulty
+providing sufficient evidence that they met eligibility requirements.
+##### Eligibility for Subsidized Coverage Among the Uninsured Population, 2036
+Millions of people
+**Made eligible for Medicaid by the ACA**
+| Category | Millions of people |
+| --- | --- |
+| Total uninsured population | 37.4 |
+| Eligible for Medicaid or CHIP | 6.1 |
+| Made eligible for Medicaid by the ACA | 3.3 |
+| Otherwise eligible for Medicaid or CHIP | 2.8 |
+| Eligible for subsidized coverage other than Medicaid or CHIP | 16.9 |
+| Eligible for the premium tax credit | 9.5 |
+| Eligible for subsidized employment-based coverage | 5.3 |
+| Eligible for Medicare Part B | 2.0 |
+| Not eligible for subsidized coverage | 14.5 |
+| Income below the FPL and living in a state that has not expanded Medicaid | 2.4 |
+| Not eligible for Medicaid because of community engagement requirements | 4.3 |
+| Not eligible for the premium tax credit | 2.0 |
+| Not eligible for subsidized coverage because of immigration status | 5.8 |
+---
+#### Access to Coverage Among Uninsured People Younger Than 65, by Income
+Rates of uninsurance and access to health insurance among the uninsured vary by income.
+That variation reflects both access to and take-up of coverage. People with lower income are
+more likely to be uninsured, though most uninsured people with income up to 400 percent
+of the FPL have access to subsidized coverage. A smaller share of uninsured people with
+income over 400 percent of the FPL have access to subsidized coverage, in part because of
+income eligibility limits for Medicaid, CHIP, and the premium tax credit.
+**Eligibility for Subsidized Coverage Among Uninsured People Younger Than 65, by Income, 2036**
+Percent
+| Income group width = share of the uninsured population | Less than 150% of the FPL (%) | 150% to 400% of the FPL (%) | More than 400% of the FPL (%) |
+| --- | --- | --- | --- |
+| Eligible for Medicaid or CHIP | 30.0 | 9.6 | 1.0 |
+| Eligible for subsidized coverage other than Medicaid or CHIP | 20.7 | 69.7 | 27.5 |
+| Not eligible for subsidized coverage | 49.2 | 20.8 | 71.4 |
+Income group width = share of the uninsured population
+**In CBO’s projections,
+about 80 percent of
+uninsured people with
+income between 150 and**
+**400 percent of the federal
+poverty level have access
+to, but are not enrolled
+in, subsidized health
+insurance in 2036.**
+400 percent of the federal Not eligible
+**By comparison, about**
+**50 percent of uninsured
+people with income below
+that range and about**
+**30 percent of those with
+income above it have
+access to subsidized
+coverage.**
+---
+### Uncertainty
+The projections in this report are based on CBO’s best assessment of the available evidence.
+Nevertheless, they are subject to uncertainty because they reflect complex interactions among
+many entities, including federal and state policymakers, employers, households, and insurers.
+They depend on economic conditions, which depend, in turn, on a wide variety of national
+and global forces, and they reflect the assumption that current laws and regulations will
+remain in place. Beyond those general sources of uncertainty, specific sources of uncertainty
+apply to particular programs.
+**Medicare.** Projections of Medicare enrollment and spending are inherently uncertain. Future
+health care utilization, costs, and enrollment in Medicare Advantage may all diverge—
+upward or downward—from CBO’s projections, driven by factors such as changes in administrative policy, shifts in demographics, and advances in technology.
+**Medicaid.** Uncertainty about projections of Medicaid enrollment and spending primarily
+relates to the implementation of provisions of the 2025 reconciliation act. To the extent that
+the implementation of those provisions differs from CBO’s estimates, enrollment and spending will diverge from the baseline projections.
+The changes in policy will also elicit reactions from states, employers, insurers, and individual Medicaid enrollees, and those responses are generally uncertain. For example, CBO’s
+estimates incorporate the assumption that no additional states will expand Medicaid in the
+future, mainly because, starting in 2028, the 2025 reconciliation act will limit the ability of
+states that have expanded Medicaid to finance the program’s costs through taxes on providers. If additional states did expand Medicaid under the ACA, the federal savings associated
+with that provision of the law would be smaller than estimated; if more states withdrew their
+Medicaid expansions than CBO expects, those savings would be larger. In addition, considerable uncertainty surrounds responses by states and providers to provisions that modify
+Medicaid’s federal financing arrangements and provisions that change the program’s eligibility and enrollment processes, such as community engagement requirements.
+**Health Insurance Marketplaces.** CBO projects that average monthly enrollment in the
+marketplaces will decline from 22 million in 2025 to 17 million in 2026. That projected
+near-term decline is subject to considerable uncertainty because it reflects expected responses
+by insurers and individuals to the expiration of the expanded premium tax credit and to the
+implementation of provisions of the 2025 reconciliation act. From 2021 to 2025, when the
+expanded premium tax credit was in place, marketplace enrollment increased significantly,
+but administrative actions also contributed to increases in enrollment. Because those changes
+overlapped, isolating their effects on enrollment is difficult. Estimating the pace at which
+people will respond to policy changes is also difficult. If enrollment in 2026 is higher than
+projected, the federal costs of the premium tax credit and related spending will be, too.
+CBO projects that marketplace benchmark premiums will grow modestly in 2027, after a
+double-digit percentage increase, following a pattern similar to that observed from 2017 to 2019.
+Two factors make that projection uncertain. First, uncertainty about enrollment translates directly
+to uncertainty about premiums because marketplace premiums depend on how many people
+remain enrolled in the marketplaces and how their health care utilization compares with that
+of people who have disenrolled. Second, insurers are developing and submitting premiums for
+2027 on the basis of only a few months of 2026 data and amid regulatory uncertainty. Incomplete
+data and continued uncertainty could place upward pressure on premiums in 2027, causing premiums—and the federal costs of the premium tax credit—to exceed CBO’s projections.
+---
+# Appendix A: Details of CBO and JCT’s Projections of Health Insurance Coverage and Federal Subsidies
+The tables in this appendix show the Congressional
+Budget Office and the staff of the Joint Committee on
+Taxation’s current projections of health insurance coverage and of federal subsidies for health insurance for each
+year from 2025 to 2036. Those projections were produced in February 2026. For the projections of net federal subsidies for health insurance, see Table A-1; for the
+projections of health insurance coverage, see Table A-2.
+b
+---
+##### Table A-1 .
+**CBO and JCT’s February 2026 Projections of Net Federal Subsidies for Health Insurance**
+Billions of dollars, by fiscal year
+| | 2025a | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | Total, 2026–2036 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Medicareb | 977 | 1,051 | 1,128 | 1,190 | 1,272 | 1,342 | 1,422 | 1,511 | 1,622 | 1,735 | 1,841 | 1,952 | 16,066 |
+| Medicaid and CHIPc | | | | | | | | | | | | | |
+| Blind and disabled people in Medicaid | 187 | 197 | 206 | 215 | 223 | 233 | 242 | 253 | 265 | 278 | 290 | 303 | 2,707 |
+| Adults age 65 or older in Medicaid | 123 | 131 | 139 | 146 | 152 | 158 | 164 | 171 | 178 | 186 | 194 | 202 | 1,821 |
+| Adults made eligible for Medicaid by the ACA | 144 | 153 | 148 | 145 | 134 | 132 | 131 | 132 | 137 | 141 | 145 | 150 | 1,549 |
+| Adults otherwise eligible for Medicaid | 68 | 73 | 75 | 76 | 75 | 77 | 79 | 83 | 86 | 90 | 94 | 98 | 907 |
+| Children in Medicaid | 85 | 88 | 91 | 93 | 95 | 99 | 105 | 109 | 113 | 116 | 119 | 124 | 1,152 |
+| CHIP | 23 | 25 | 26 | 27 | 28 | 24 | 15 | 15 | 15 | 15 | 15 | 15 | 223 |
+| Subtotal | 629 | 668 | 685 | 702 | 708 | 723 | 737 | 763 | 796 | 826 | 858 | 892 | 8,359 |
+| Employment-based coveragea | | | | | | | | | | | | | |
+| Tax exclusion for employment-based coveraged,e | n.a. | 471 | 508 | 540 | 572 | 603 | 636 | 670 | 705 | 743 | 784 | 827 | 7,058 |
+| Income tax deduction for self-employment health insurance | n.a. | 7 | 8 | 8 | 9 | 9 | 10 | 10 | 11 | 12 | 12 | 13 | 111 |
+| Small business health insurance tax credite | n.a. | * | * | * | * | * | * | * | * | * | * | * | * |
+| Gross collections of penalty payments by employersf | n.a. | ** | ** | ** | ** | ** | ** | ** | ** | ** | ** | ** | -4 |
+| Subtotal | n.a. | 478 | 515 | 548 | 580 | 612 | 645 | 680 | 716 | 755 | 796 | 840 | 7,166 |
+| Premium tax credit and related spending | | | | | | | | | | | | | |
+| Outlays for the premium tax credita | 111 | 88 | 69 | 66 | 70 | 77 | 86 | 92 | 95 | 101 | 108 | 116 | 967 |
+| Revenue reductions from the premium tax credita | n.a. | 17 | 9 | 8 | 8 | 9 | 10 | 11 | 11 | 12 | 12 | 12 | 119 |
+| Outlays for ACA section 1332 waivers and the Basic Health Programg | 18 | 12 | 11 | 11 | 11 | 12 | 12 | 13 | 14 | 15 | 15 | 16 | 142 |
+| Collections for risk adjustmenth | -11 | -13 | -12 | -11 | -12 | -12 | -14 | -15 | -16 | -16 | -17 | -18 | -157 |
+| Payments for risk adjustmenth | 11 | 12 | 13 | 12 | 11 | 12 | 13 | 15 | 16 | 16 | 17 | 18 | 155 |
+| Subtotal | n.a. | 117 | 90 | 85 | 89 | 97 | 108 | 116 | 120 | 127 | 135 | 144 | 1,227 |
+Continued
+---
+**Table A-1.**
+**Continued**
+### CBO and JCT’s February 2026 Projections of Net Federal Subsidies for Health Insurance
+Billions of dollars, by fiscal year
+| | 2025a | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | Total, 2026–2036 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Other federal subsidies associated with supplemental or partial benefitsi | n.a. | 51 | 54 | 56 | 59 | 62 | 65 | 69 | 73 | 77 | 81 | 86 | 733 |
+| Net subsidies | n.a. | 2,365 | 2,471 | 2,581 | 2,708 | 2,837 | 2,978 | 3,139 | 3,328 | 3,520 | 3,711 | 3,913 | 33,550 |
+| Addendum: Net subsidies as a percentage of GDP | n.a. | 7.41 | 7.42 | 7.45 | 7.52 | 7.59 | 7.67 | 7.79 | 7.96 | 8.11 | 8.24 | 8.38 | 7.82 |
+Data source: Congressional Budget Office; staff of the Joint Committee on Taxation. See www.cbo.gov/publication/62539#data.
+The table shows federal subsidies for the Social Security area population—the relevant population for the calculation of Social Security payroll taxes and
+benefits. The table excludes discretionary outlays and outlays made by the federal government in its capacity as an employer. Positive numbers indicate an
+increase in the deficit, and negative numbers indicate a decrease in the deficit.
+ACA = Affordable Care Act; CHIP = Children’s Health Insurance Program; GDP = gross domestic product; JCT = Joint Committee on Taxation; n.a. = not available;
+* = between zero and $500 million; ** = between -$500 million and zero.
+a. Estimates are preliminary and subject to revision.
+b. Spending for Medicare beneficiaries enrolled in both Part A and Part B. Estimates include Part D benefits, which are calculated net of premiums and certain
+other payments to the government, and have been adjusted to exclude the effects of shifts that occur in the timing of monthly payments when October 1 (the
+first day of the fiscal year) falls on a weekend.
+c. For Medicaid, estimates reflect spending for medical services only for those enrollees who have full benefits.
+d. The estimates shown, produced by JCT, reflect the tax value of the exclusion of employment-based health insurance from federal income and payroll taxes,
+as well as penalty payments by employers, but not the tax value of the exclusion associated with Medicare wraparound coverage for former employees.
+The tax value is the change in tax revenues that would result if the exclusion of employment-based health insurance were repealed and employees’ wages
+and employers’ payroll taxes were increased so that employers’ total compensation costs remained constant. The estimates differ from those of the tax
+expenditure for the exclusion. The tax expenditure is the change in tax revenues that would result if the amount of excluded compensation was taxed and
+was larger than the tax value.
+e. Estimates include increases in outlays and reductions in revenues.
+f. Estimates exclude the associated effects on revenues of changes in taxable compensation, which are included in the estimates of the tax exclusion for
+employment-based insurance. If those effects were included, net revenues from penalty payments by employers would total $3 billion over the 2026–2036 period.
+g. Section 1332 of the ACA allows states to apply for federal waivers of some of the law’s rules governing insurance markets and to receive federal assistance
+in paying for programs that offer health insurance. To obtain a waiver, a state must submit a proposal that is budget neutral and must provide insurance
+coverage that is comparable to coverage required by the ACA. The Basic Health Program allows states to establish a coverage program primarily for people
+with income between 138 and 200 percent of the federal poverty level. The federal government provides states with funding equal to 95 percent of the
+amount of subsidies for which enrollees would otherwise have been eligible through a marketplace. Only the District of Columbia, Minnesota, New York, and
+Oregon currently operate such programs.
+h. The risk adjustment program is intended to stabilize premiums in the nongroup and small-group markets. The federal government collects fees from insurers
+with healthier enrollees and makes roughly offsetting payments to insurers with less healthy enrollees.
+i. Federal subsidies in this category are for people with supplemental or partial coverage that, on its own, would not provide financial protection against major
+medical expenses and thus would not meet CBO’s definition of health insurance. Estimates include the tax value of the exclusion associated with Medicare
+wraparound coverage provided to former employees; Medicare spending on enrollees who receive only Part A or Part B benefits; and Medicaid spending
+on enrollees who receive partial benefits, such as beneficiaries who are also eligible for Medicare and for whom Medicaid pays only Medicare premiums
+or cost sharing.
+---
+##### Table A-2 .
+### CBO’s February 2026 Projections of Health Insurance Coverage, by Source
+Millions of people, on average in each month, by calendar year
+| | 2025a | 2026 | 2027 | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Total population | 348.6 | 349.4 | 350.3 | 351.2 | 352.2 | 353.3 | 354.3 | 355.2 | 356.1 | 356.9 | 357.7 | 358.5 |
+| Insured | 322.0 | 319.4 | 316.2 | 315.9 | 315.6 | 316.5 | 317.0 | 318.0 | 318.9 | 319.6 | 320.3 | 321.0 |
+| Uninsuredb | 26.6 | 30.0 | 34.1 | 35.3 | 36.6 | 36.8 | 37.2 | 37.2 | 37.2 | 37.3 | 37.4 | 37.4 |
+| Medicarec | 62.8 | 64.2 | 65.6 | 67.0 | 68.3 | 69.3 | 70.1 | 70.8 | 71.5 | 72.3 | 73.0 | 73.6 |
+| Medicaid and CHIPd | | | | | | | | | | | | |
+| Blind and disabled people in Medicaid | 7.5 | 7.6 | 7.7 | 7.8 | 7.9 | 7.9 | 8.0 | 8.1 | 8.1 | 8.2 | 8.3 | 8.3 |
+| Adults age 65 or older in Medicaid | 6.0 | 6.2 | 6.3 | 6.4 | 6.5 | 6.5 | 6.6 | 6.6 | 6.7 | 6.7 | 6.8 | 6.9 |
+| Adults made eligible for Medicaid by the ACA | 15.5 | 15.3 | 13.8 | 12.6 | 11.1 | 10.5 | 10.1 | 9.9 | 9.8 | 9.7 | 9.6 | 9.4 |
+| Adults otherwise eligible for Medicaid | 14.0 | 14.3 | 14.0 | 13.7 | 13.3 | 13.1 | 13.0 | 13.0 | 13.0 | 13.0 | 12.9 | 12.9 |
+| Children in Medicaid | 30.2 | 29.9 | 29.3 | 28.8 | 28.6 | 29.1 | 29.8 | 29.6 | 29.3 | 28.9 | 28.6 | 28.3 |
+| CHIP | 7.3 | 7.3 | 7.2 | 7.1 | 6.8 | 5.5 | 3.6 | 3.5 | 3.4 | 3.3 | 3.2 | 3.1 |
+| Subtotal | 80.5 | 80.5 | 78.4 | 76.5 | 74.3 | 72.7 | 71.1 | 70.7 | 70.4 | 69.9 | 69.4 | 69.0 |
+| Employment-based coveragee | 165.5 | 166.5 | 167.2 | 168.1 | 168.4 | 168.9 | 169.2 | 169.5 | 169.8 | 170.1 | 170.5 | 170.7 |
+| Nongroup coveragef | | | | | | | | | | | | |
+| Purchased through ACA marketplaces | | | | | | | | | | | | |
+| Subsidized | 20.9 | 13.4 | 10.3 | 9.7 | 10.0 | 10.3 | 11.1 | 11.4 | 11.3 | 11.5 | 11.6 | 11.7 |
+| Unsubsidized | 1.6 | 3.5 | 2.8 | 2.7 | 2.8 | 2.9 | 3.0 | 3.0 | 3.2 | 3.1 | 3.2 | 3.2 |
+| Subtotal, purchased through ACA marketplaces | 22.4 | 16.9 | 13.1 | 12.5 | 12.8 | 13.3 | 14.1 | 14.4 | 14.5 | 14.6 | 14.8 | 14.9 |
+| Purchased outside ACA marketplaces | 3.0 | 3.1 | 3.8 | 4.0 | 4.1 | 4.2 | 4.3 | 4.3 | 4.5 | 4.4 | 4.5 | 4.6 |
+| Subtotal, nongroup coverage | 25.4 | 20.0 | 16.9 | 16.4 | 16.9 | 17.5 | 18.4 | 18.7 | 19.0 | 19.1 | 19.3 | 19.5 |
+| Basic Health Programg | 1.8 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 | 1.0 |
+| Other coverageh | 8.4 | 8.0 | 7.4 | 7.0 | 6.9 | 6.8 | 6.8 | 6.8 | 6.8 | 6.8 | 6.8 | 6.8 |
+| Addendum: | | | | | | | | | | | | |
+| People with multiple sources of coveragei | 22.5 | 20.8 | 20.2 | 20.1 | 20.2 | 19.8 | 19.6 | 19.6 | 19.6 | 19.6 | 19.6 | 19.6 |
+| Uninsured people with Medicare Part A or Part B only | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 | 0.8 |
+| Share of the population that is uninsured (percent) | 7.6 | 8.6 | 9.7 | 10.1 | 10.4 | 10.4 | 10.5 | 10.5 | 10.4 | 10.5 | 10.5 | 10.4 |
+Data source: Congressional Budget Office. See www.cbo.gov/publication/62539#data.
+The table shows coverage for the Social Security area population—the relevant population for the calculation of Social Security payroll taxes and benefits.
+Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies. Estimates for each
+source of health insurance exclude people with supplemental or partial coverage that, on its own, would not provide financial protection against major medical
+expenses and thus would not meet CBO’s definition of health insurance. The sum of enrollment in each source and the number of uninsured people exceeds the
+total population because some people have multiple sources of coverage, and CBO did not assign them to a primary source.
+ACA = Affordable Care Act; CHIP = Children’s Health Insurance Program.
+a. Estimates are preliminary and subject to revision.
+b. CBO considers people uninsured if they are not covered by an insurance plan or enrolled in a government program that provides financial protection from
+major medical expenses. Estimates include people enrolled only in Medicare Part A or Part B, people receiving only partial Medicaid benefits, and people
+enrolled in some short-term plans.
+c. Estimates include only people who are enrolled in both Medicare Part A and Part B.
+d. Medicaid enrollment includes only enrollees with full benefits. Estimates have been adjusted so that people enrolled in more than one state are counted only once.
+e. Estimates include enrollees in the military’s TRICARE program and veterans’ health care programs but not people with Medicare wraparound coverage
+provided through a former employer.
+f. The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two. Estimates do not
+include enrollees in supplemental medigap plans.
+g. The Basic Health Program allows states to establish a coverage program primarily for people with income between 138 and 200 percent of the federal
+poverty level. The federal government provides states with funding equal to 95 percent of the amount of subsidies for which enrollees would otherwise have
+been eligible through a marketplace. Only the District of Columbia, Minnesota, New York, and Oregon currently operate such programs.
+h. In 2026, the other sources that cover the most people are student health plans (3 million people), correctional facilities (2 million people), and state-sponsored
+health plans (2 million people). The Indian Health Service and foreign sources of coverage account for most of the remaining people in this category.
+i. Estimates are calculated as the sum of enrollment in each source of coverage and the uninsured population, minus the total population.
+b
+---
+# Appendix B: Data and Methods Underlying CBO’s Projections
+To prepare its projections of health insurance coverage
+and federal subsidies for that coverage, the Congressional
+Budget Office uses data from many sources as inputs to
+models that it has developed. This appendix describes
+those data and the methods underlying the projections
+of health insurance coverage in this report, as well as
+how growth in each program was measured, how health
+insurance coverage was projected for different age and
+income groups, and how annual changes in the average
+benchmark premium were calculated.
+### Projections of Health Insurance Coverage for the Social Security Area Population
+This report presents projections of health insurance
+coverage for the entire population, which is defined as
+the Social Security area population used to project Social
+Security payroll taxes and benefits. That population
+includes all residents of the 50 states and the District of
+Columbia, as well as civilian residents of U.S. territories.
+It also includes federal civilian employees and members
+of the U.S. Armed Forces living abroad and their dependents, U.S. citizens living abroad, and noncitizens living
+abroad who are eligible for Social Security benefits.
+CBO combines output from multiple models to produce projections of health insurance coverage for that
+population. Those models are updated at least annually
+to incorporate the most recent survey and administrative
+data on enrollment, premiums, and subsidies; the effects
+of recently enacted legislation, judicial decisions, and regulatory changes; and CBO’s most recent macroeconomic
+and demographic forecasts. 1 The sum of the projected
+number of people with coverage through each source and
+the projected number of uninsured people exceeds the
+total projected population. That occurs because CBO
+does not assign people with multiple sources of coverage
+to a primary source. The agency’s approach better aligns
+the projections with administrative and survey data on
+enrollment and subsidies than would assigning such
+people to a single category.
+Projections of health insurance coverage for the Social
+Security area population comprise projections for three
+smaller populations: the civilian noninstitutionalized
+population younger than 65, the rest of the population
+younger than 65, and people age 65 or older.
+#### The Civilian Noninstitutionalized Population Younger Than 65
+Over the 2026–2036 period, an average of 275 million
+noninstitutionalized civilians younger than 65 will reside
+in the 50 states and the District of Columbia, CBO
+estimates. To project that population’s health insurance
+coverage, CBO primarily relies on its health insurance
+simulation model, HISIM2. 2 The agency augments estimates from HISIM2 with estimates from other models,
+such as Medicaid and Medicare models. 3
+#### The Rest of the Population Younger Than 65
+CBO estimates that in each year over the 2026–
+2036 period, 6 million to 7 million members of the
+Social Security area population who are younger than
+65 will live in U.S. territories, serve on active duty in
+the armed forces, reside in correctional facilities or
+other institutions, be federal civilian employees or other
+2. For details about HISIM2, see Caroline Hanson and others,
+“Health Insurance for People Younger Than Age 65: Expiration
+of Temporary Policies Projected to Reshuffle Coverage, 2023–
+33,” *Health Affairs,* vol. 42, no. 6 (May 2023), Supplemental
+Appendix, https://doi.org/10.1377/hlthaff.2023.00325.
+1. For CBO’s latest macroeconomic and demographic forecasts, see
+Congressional Budget Office, *The Budget and Economic Outlook:*
+*2026 to 2036* (February 2026), www.cbo.gov/publication/61882,
+and *The Demographic Outlook: 2026 to 2056* (January 2026),
+www.cbo.gov/publication/61879.
+3. For more information, see Congressional Budget Office,
+*How CBO and JCT Analyze Major Proposals That Would*
+*Affect Health Insurance Coverage* (February 2018),
+www.cbo.gov/publication/53571; and Joint Committee on
+Taxation, *Estimating Changes in the Federal Individual Income Tax:*
+*Description of the Individual Tax Model,* JCX-75-15 (April 23,
+2015), www.jct.gov/publications/2015/jcx-75-15.
+b
+---
+U.S. citizens living overseas, or be noncitizens living
+overseas who are eligible for Social Security benefits. To
+produce that estimate, CBO subtracted its projections
+of the civilian noninstitutionalized population younger
+than 65 from its projections of the Social Security area
+population in that age group. The agency then used data
+from the Census Bureau, the Centers for Disease Control
+and Prevention, the Department of Defense, and the
+Social Security Administration to estimate the relative
+size of each subpopulation.
+In some cases, CBO assigned one source of health insurance coverage to an entire subpopulation. Specifically,
+employment-based coverage was assigned to members
+of the armed forces on active duty and to federal civilian employees and their dependents living overseas, and
+“other coverage” was assigned to other people living
+overseas and to people residing in correctional facilities. 4
+To estimate the distribution of health insurance coverage
+for the remaining subpopulations, CBO used a combination of data from the American Community Survey,
+the Centers for Medicare & Medicaid Services’ (CMS’s)
+Transformed Medicaid Statistical Information System,
+CMS’s form CMS-64 regarding monthly Medicaid
+enrollment, the Medicare Current Beneficiary Survey,
+the Medicare Beneficiary Summary File, and the Health
+Coverage Portal TM by Mark Farrah Associates.
+#### People Age 65 or Older
+Over the 2026–2036 period, the Social Security area
+population will include an average of 73 million people
+who are age 65 or older, CBO estimates. Most people in
+that age group will be enrolled in Medicare, including
+nearly all of those who are enrolled in Medicaid.
+CBO’s projections of Medicare and Medicaid enrollment
+are based on administrative data. To project the number
+of people age 65 or older with employment-based coverage, the agency uses HISIM2 and makes minor adjustments to the model’s output to account for populations
+that the model does not simulate. The number of people
+with nongroup coverage is projected using a combination of data from CMS’s Marketplace Open Enrollment
+Period Public Use Files and Enrollee-Level External Data
+Gathering Environment (EDGE) Limited Data Set;
+the number of people with other coverage is projected
+using HISIM2 and data from the Census Bureau and
+the Social Security Administration; and the uninsured
+population is projected using data from HISIM2 and
+the National Health Interview Survey conducted by the
+National Center for Health Statistics, which is a part of
+the Centers for Disease Control and Prevention.
+### Growth in Federal Subsidies for Health Insurance
+CBO and the staff of the Joint Committee on Taxation
+project that over the 2026–2036 period, federal subsidies
+for health insurance will increase from $2.4 trillion to
+$3.9 trillion, or by a total of 65 percent.
+For a given program, estimates of federal subsidies reflect
+subsidies for enrollees whose coverage meets CBO’s definition of health insurance (that is, coverage that provides
+financial protection against major medical expenses):
+• Subsidies for Medicare include spending on Part A
+and Part B benefits for beneficiaries enrolled in both
+parts and spending on Part D benefits. Spending
+is calculated net of premiums and certain other
+payments to the government.
+• Subsidies for Medicaid and the Children’s Health
+Insurance Program (CHIP) reflect spending for
+enrollees with full benefits in either program.
+• Subsidies for employment-based coverage consist
+of the tax exclusion for such coverage, the income
+tax deduction for health insurance premiums paid
+by self-employed people, the small business health
+insurance tax credit, and collections of penalty
+payments by employers. Estimates reflect both 5
+outlays and revenues.
+• Subsidies for premium tax credits and related
+spending support nongroup coverage and coverage
+4. Consistent with its definition of health insurance coverage, CBO
+classifies the coverage of people residing in correctional facilities
+by considering the extent to which they bear health care costs. In
+CBO’s estimation, most of their cost of care is paid by state or
+local governments, contracted vendors, or a combination of the
+two, so incarcerated people are largely protected from medical
+expenses. Thus, CBO classified them as having “other coverage”
+rather than as being uninsured. For more information about
+the coverage of people in correctional facilities, see Kil Huh and
+others, *State Prisons and the Delivery of Hospital Care: How States
+Set Up and Finance Off-Site Care for Incarcerated Individuals* (Pew
+Charitable Trusts, July 2018), https://tinyurl.com/ac3ffnvd.
+5. The estimate of the tax exclusion for employment-based coverage
+reflects the tax value of the exclusion of such coverage from
+federal income and payroll taxes and penalty payments by
+employers. The tax value is the change in tax revenues that would
+result if the exclusion were repealed and employees’ wages and
+employers’ payroll taxes were increased so that employers’ total
+compensation costs remained constant. Employers with more
+than 50 full-time-equivalent employees face a penalty if they do
+not offer health insurance that meets certain standards under the
+Affordable Care Act.
+b through the Basic Health Program. Related spending
+includes section 1332 waiver payments to states and
+net collections and payments for the risk adjustment
+program. 6 Estimates of subsidies in this category
+reflect both outlays and revenues.
+CBO used different measures to isolate the effects of
+price growth in each program because the composition
+of spending varies by program. For Medicare and for
+Medicaid and CHIP, CBO used a weighted average of
+estimated changes in prices for the services those programs provide. For subsidies related to employment-based
+coverage and the premium tax credit, CBO used increases
+in the price index for personal consumption expenditures
+for medical services, which measures changes in prices for
+all health care goods and services. After estimating how
+price growth affected subsidies for each program, CBO
+estimated changes in the average real subsidy per beneficiary. 7 (Real subsidies are nominal subsidies adjusted to
+remove the effects of price growth.)
+Estimates of enrollment for each program include
+enrollees whose coverage meets CBO’s definition of
+health insurance:
+• Enrollment in Medicare includes only people enrolled
+in both Part A and Part B.
+• Enrollment in Medicaid and CHIP includes only
+enrollees with full benefits. Estimates are adjusted
+so that people enrolled in more than one state are
+counted only once.
+• Enrollment in employment-based coverage includes
+people with coverage through a current employer,
+as well as those enrolled in the military’s TRICARE
+program or receiving care through the Department
+of Veterans Affairs. Estimates do not include people
+with Medicare wraparound coverage provided
+through a former employer.
+• Enrollment in nongroup coverage subsidized through
+the premium tax credit and related spending includes
+people enrolled in the health insurance marketplaces
+receiving the premium tax credit and people enrolled
+in the Basic Health Program.
+CBO allocated the total growth in federal subsidies for
+each program to three factors: price growth, the average
+real subsidy per beneficiary, and enrollment. For each
+program, those components of growth sum to the total
+nominal growth in federal subsidies, and the weight for
+each factor equals the natural logarithm of the growth
+rate of that factor divided by the natural logarithm of the
+growth in total nominal subsidies.
+### Health Insurance Coverage by Age and Income
+Projections of health insurance coverage for different age
+and income groups in the noninstitutionalized civilian
+population under age 65 rely on the projected age and
+income distributions from HISIM2. Both distributions
+are based on age and income reported by respondents
+to the Current Population Survey; the distributions are
+adjusted to match CBO’s demographic and income
+projections and are extended over the projection period
+in a way that is consistent with CBO’s demographic and
+macroeconomic forecasts.
+For subpopulations under age 65 that are not included
+in HISIM2, CBO considered whether the age and
+income distributions of people with different sources
+of coverage would differ from the distributions for the
+noninstitutionalized civilian population under age 65.
+For example, when incorporating income for people
+younger than 65 in correctional facilities, CBO relied
+on research from the Brookings Institution and the
+Prison Policy Initiative. 8
+6. States may modify the nongroup market through waivers under
+section 1332 of the Affordable Care Act and receive federal
+funding equal to the amount of the premium tax credit that
+enrollees in that state would have received in the absence of
+the waiver. States may also establish a Basic Health Program,
+intended primarily for people with income between 138 and
+200 percent of the federal poverty level, and have much of the
+cost of coverage through that program provided by the federal
+government. The risk adjustment program is intended to
+stabilize premiums in the nongroup and small-group markets
+by transferring money from insurers with healthier enrollees to
+insurers with less healthy enrollees.
+7. Estimated changes in the average real subsidy per beneficiary
+include the effects of some policy and economic changes between
+2026 and 2036. For example, average subsidies for employmentbased coverage increase in part because of anticipated income
+growth, while growth in average subsidies for Medicaid and
+CHIP is dampened by states’ anticipated responses to provisions
+of the 2025 reconciliation act.
+8. See Adam Looney and Nicholas Turner, *Work and Opportunity
+Before and After Incarceration* (Brookings Institution, 2018),
+https://tinyurl.com/4tp8mttz; and Bernadette Rabuy and
+Daniel Kopf, *Detaining the Poor: How Money Bail Perpetuates an
+Endless Cycle of Poverty and Jail Time* (Prison Policy Initiative,
+May 2016), www.prisonpolicy.org/reports/incomejails.html.
+---
+### Annual Changes in the Average Benchmark Premium
+Premium growth rates are calculated as the percentage
+change in CBO’s estimate of the national average benchmark premium for marketplace plans. CBO relies on its
+health insurance simulation model, HISIM2, to produce estimates of the annual change in the marketplace
+benchmark premium for a 21-year-old from calendar
+year 2018 onward. For years in that period for which
+data on marketplace premiums are available (2018 to
+2026), population-weighted estimates of states’ average benchmark premiums are constructed using health
+plan data from the Robert Wood Johnson Foundation’s
+HIX Compare datasets. For later years, projections of
+growth in marketplace premiums depend in part on
+CBO’s premium growth model and in part on estimated
+changes in the relative health of marketplace enrollees
+over time. The national average marketplace benchmark 9
+premium is estimated on the basis of the geographic distribution of simulated marketplace coverage. Technical
+changes to HISIM2 can cause CBO’s historical estimates
+of premium growth to change slightly from year to year.
+Because HISIM2 does not contain the data needed to
+estimate growth rates for marketplace benchmark premiums over the 2015–2017 period, CBO bases its estimates for those years on data from KFF. 10 KFF estimates
+the average annual marketplace benchmark premium on
+the basis of a weighted average of county-level CMS data
+from the prior year’s open enrollment period.
+9. See Congressional Budget Office, “CBO’s Private
+Health Insurance Premium Growth Model” (GitHub,
+updated February 2026), https://github.com/US-CBO/
+premium-growth-model.
+10. KFF, “Marketplace Average Monthly Benchmark Premiums”
+(accessed May 4, 2026), https://tinyurl.com/3apnvfam.
+---
+# Appendix C: Projections of Per-Beneficiary Spending in Medicare Advantage and the Medicare Fee-for-Service Program
+The Congressional Budget Office projects that over the
+next 10 years, average per-beneficiary spending will be
+5 to 10 percent higher for Medicare Advantage (MA)
+enrollees than for enrollees in the Medicare fee-forservice (FFS) program with both Part A and Part B
+coverage. This appendix describes how CBO estimated
+per-beneficiary spending in MA and Medicare FFS in
+this report, how payments are determined in the two
+programs, and the factors that contribute to differences
+in their per-beneficiary spending.
+### Per-Beneficiary Spending
+CBO’s projections of per-beneficiary spending in this
+report were developed from the total amounts the government spends on Medicare FFS and MA under current
+law. To estimate per-person spending in Medicare FFS,
+the agency used its baseline projections of per-person
+spending for Medicare Parts A and B. Part A spending
+was adjusted downward to account for three categories of
+spending that benefit both MA and FFS enrollees but are
+always paid for through Medicare Part A: hospice, indirect medical education spending, and graduate medical
+education spending. Part A spending was then adjusted
+upward to reflect the fact that some FFS beneficiaries are
+enrolled only in Part A, and those beneficiaries typically
+spend less than the average FFS beneficiary because they
+have an alternative source of primary coverage, such as
+an employment-based plan. That upward adjustment
+made CBO’s estimates of FFS spending more representative of enrollees in both Parts A and B, and therefore
+more comparable to spending for MA beneficiaries.
+CBO’s projections of per-beneficiary spending in MA
+reflect total spending on the program, divided by enrollment. Those spending totals are not adjusted to reflect
+the relative health of MA beneficiaries compared with
+FFS beneficiaries or differences in the benefits covered
+by the two programs. As a result, to the extent that MA
+beneficiaries are healthier than FFS beneficiaries, those
+differences will contribute to differences in the programs’
+total spending. Likewise, MA plans provide supplemental benefits that are not provided through Medicare FFS,
+such as dental, vision, or hearing benefits, transportation
+services, or reduced cost sharing. The federal payments
+that support those benefits also contribute to differences
+in total spending.
+### Federal Payments to MA Plans
+Federal subsidies are determined differently in Medicare
+FFS and MA. In Medicare FFS, spending primarily
+consists of payments to hospitals, physicians, and other
+health care providers for services provided to beneficiaries. Spending is therefore driven by the quantity of services used and the prices paid for those services. In MA,
+by contrast, the federal government pays private insurers
+a fixed amount per enrollee, and insurers bear the cost of
+covered services provided to beneficiaries.
+The amount paid to insurers for a particular enrollee in
+a given plan is determined by a formula. That formula is
+based on three key factors:
+• A benchmark set by the federal government. The
+benchmark is the maximum amount that the
+government will pay for an MA beneficiary with the
+same health status as the average FFS beneficiary.
+Benchmarks are adjusted on the basis of relative FFS
+spending levels across counties and are increased
+for MA plans whose quality metrics meet a certain
+threshold under the Quality Bonus Program.
+• A bid submitted by an insurer. A bid indicates the
+amount that the insurer agrees to accept for providing
+the benefits covered by Medicare Part A and Part
+B for an MA beneficiary with the same expected
+b health status as the average FFS beneficiary. The bid
+incorporates the MA plan’s projected payments to
+providers, administrative costs, and profits.
+• A risk score assigned to the enrollee. Risk scores
+are designed to capture how much more or less
+covered medical spending a beneficiary is expected
+to incur, compared with the average beneficiary in
+Medicare FFS.
+For each enrollee, the insurer receives a base payment
+multiplied by that enrollee’s risk score. How the base
+payment is set depends on whether the plan’s bid is
+below or above the benchmark in the enrollee’s county of
+residence. If the bid is below the benchmark, the insurer
+receives the bid amount plus a “rebate”—a percentage
+(between 50 and 70 percent) of the difference between
+the bid and the benchmark. Plans are required to spend
+those rebates on supplemental benefits for enrollees. If
+the bid is above the benchmark, the insurer receives only
+the benchmark amount and collects an additional premium from enrollees to cover the difference between the
+bid and the benchmark. In 2026, nearly all MA plans
+bid below their benchmarks.
+### Factors Contributing to Differences Between MA and Medicare FFS in Per-Beneficiary Spending
+Differences between MA and Medicare FFS in
+per-beneficiary spending reflect differences between MA
+and FFS beneficiaries’ risk scores, features of the MA
+payment system, and differences in the benefits covered
+by the two programs.
+One factor contributing to higher per-beneficiary
+spending in MA is higher average risk scores among MA
+enrollees compared with Medicare FFS beneficiaries.
+Those higher average risk scores among MA beneficiaries are partly due to different coding behaviors of MA
+plans and FFS providers (that is, differences in how
+MA plans and FFS providers document beneficiaries’
+diagnoses). Because risk scores increase on the basis of
+enrollees’ recorded diagnoses, and payments to plans
+increase on the basis of enrollees’ risk scores, MA plans
+have stronger incentives than FFS providers to document diagnoses completely. That difference in coding
+behavior, referred to as coding intensity, can cause MA
+beneficiaries to have higher risk scores than FFS beneficiaries with similar underlying health. 1 To account for
+coding intensity, CMS applies a statutorily mandated
+adjustment to risk scores—a decrease of 5.9 percent—in
+its calculation of payments for MA plans. However, most
+estimates suggest that, even after that adjustment, risk
+scores are about 4 percent higher for a given MA enrollee
+than they would be for an FFS enrollee with similar
+health. Higher risk scores contribute to higher spending
+per enrollee in MA than in Medicare FFS. 2
+Although risk scores are higher in MA than in FFS
+because of greater coding intensity, the difference is
+partly offset by differences in health between enrollees in
+the two programs. Many studies comparing the health
+of FFS and MA enrollees suggest that those in MA are
+healthier. To the degree that better health is reflected
+in lower risk scores, Medicare will pay MA plans less
+for covering healthier enrollees, reducing per-enrollee
+spending in MA. 3
+Differences between county-level MA benchmarks and
+average spending in Medicare FFS also contribute to
+differences between the two programs in per-beneficiary
+spending. For example, benchmarks are set as a percentage of local Medicare FFS spending, ranging from 95 to
+115 percent; higher percentages are assigned to counties
+whose FFS spending is lower than the national average.
+That geographic variation in benchmarks generally leads
+plans to enter counties with higher benchmarks at higher
+rates than they would otherwise, thereby increasing
+spending. Benchmarks are also increased by 5 or 10 per- 4
+centage points above the county-level FFS spending as a
+*Services Research,* vol. 60, no. 5 (October 2025), article e14628,
+https://doi.org/10.1111/1475-6773.14628; Richard Kronick and
+F. Michael Chua, “Industry-Wide and Sponsor-Specific Estimates
+of Medicare Advantage Coding Intensity,” SSRN (November 17,
+2021), https://doi.org/10.2139/ssrn.3959446; and David J.
+Meyers and Amal N. Trivedi, “Medicare Advantage Chart
+Reviews Are Associated With Billions in Additional Payments
+for Some Plans,” *Medical Care,* vol. 59, no. 2 (February 2021),
+pp. 96–100, https://doi.org/10.1097/MLR.0000000000001412.
+2. In CBO’s assessment, all published studies of differential coding
+show that the CMS adjustment does not fully correct for coding
+differences. For relevant research, see “Effects of Coding Intensity
+on Risk Scores and Spending for MA Beneficiaries" in the final
+section of this appendix.
+1. Paul D. Jacobs and Timothy J. Layton, “Identifying Coding
+Intensity in Medicare Advantage Through Switchers,” *Health*
+3. For relevant research, see “Health Differences Between MA and
+FFS Beneficiaries and Their Effects on Spending” in the final
+section of this appendix.
+4. Medicare Payment Advisory Commission, *Report to the Congress:*
+*Medicare and the Health Care Delivery System* (June 2021),
+Chapter 1, https://tinyurl.com/mwsd88da.
+b bonus for plans with high quality ratings in the Quality
+Bonus Program.
+Differences in per-beneficiary spending between MA and
+FFS also reflect the bidding process in MA. Most plans
+bid below the benchmark and receive their bid plus the
+rebate. All else being equal, lower bids reduce federal
+spending on MA because the rebate is only a percentage
+of the difference between the bid and the benchmark.
+Plans bid below the benchmark if they expect to provide
+covered benefits at a lower cost than FFS. That can occur
+if plans use prior authorization (which limits coverage to
+cases that meet the plan’s standards of review) or other
+utilization management tools to reduce service use. 5
+Plans’ bids will also be lower because MA enrollees are
+healthier and have lower expected health care costs, on
+average, than FFS beneficiaries with the same risk scores.
+Evidence suggests that beneficiaries who incur less spending than their risk scores would predict are more likely
+to enroll in MA—a pattern called favorable selection. 6
+However, MA plans might not fully adjust their bids to
+reflect the lower costs of healthier enrollees, so the savings from favorable selection will not necessarily accrue
+to the government or beneficiaries.
+Finally, differences in per-beneficiary spending reflect the
+fact that most MA plans are paid to provide benefits that
+Medicare FFS does not. Plans that bid below the benchmark are required to spend their rebates on such benefits,
+which contributes to higher federal spending. Plans can
+reduce beneficiaries’ out-of-pocket expenses for services
+covered by MA, lower limits on such expenses, reduce
+beneficiaries’ Part B or Part D premiums, or provide
+supplemental benefits, such as dental, vision, hearing,
+or transportation services. 7 In 2025, virtually all MA
+beneficiaries were enrolled in plans that provided supplemental benefits; more than 90 percent were in plans that
+provided eye exams or glasses, dental coverage, hearing
+exams or hearing aids, or fitness benefits. 8
+### Implications for CBO’s Cost Estimates
+For the purposes of this report, CBO reported per-person
+spending amounts with minimal adjustments. In estimating the effects of policy proposals, CBO considers
+how Medicare’s payments would change if beneficiaries
+switched between MA and FFS. Those changes cannot
+be determined from the projected differences in spending
+for the programs in this report, which reflect payments
+for different populations rather than payments for the
+same beneficiaries under different sources of coverage.
+Because beneficiaries are not observed in both MA and
+FFS simultaneously, estimating the federal cost of their
+coverage in each program requires statistical methods.
+Currently, CBO estimates that if a beneficiary switched
+from Medicare FFS to MA, federal spending on that
+enrollee would increase by roughly 15 percent. That
+increase would be driven primarily by coding intensity and favorable selection. Other factors, such as the
+Quality Bonus Program and geographic differences in
+benchmarks, would have smaller or offsetting effects.
+CBO’s estimate is based on its assessment of the empirical literature. CBO regularly reviews the literature,
+monitors regulatory changes made to risk adjustment,
+and reassesses its methods in light of new evidence.
+### Research on Spending, Risk Scores, and Beneficiaries’ Health in Medicare Advantage
+To support its analysis of per-beneficiary spending in
+MA, CBO drew on several intersecting bodies of research.
+This section presents some of CBO’s sources, organized
+by topic and in reverse chronological order. Studies that
+address multiple topics are listed under each one.
+5. For instance, evidence suggests that MA plans are successful at
+reducing spending on post-acute care, inpatient hospitalizations,
+and physician-administered drugs. For relevant research, see
+“MA Plans’ Utilization Management Tools and Their Effects on
+Costs” in the final section of this appendix.
+6. For relevant research, see “Health Differences Between MA and
+FFS Beneficiaries and Their Effects on Spending” in the final
+section of this appendix.
+7. In 2025, the statutory limit on beneficiaries’ out-of-pocket
+spending in MA plans was $9,350 for in-network care and
+$14,000 for out-of-network care. In Medicare FFS, there is no
+such limit for Parts A and B services, but legislation was enacted
+to cap out-of-pocket Part D spending at $2,000 in 2025; for
+details, see Nancy Ochieng and others, “Medicare Advantage
+in 2025: Premiums, Out-of-Pocket Limits, Supplemental
+Benefits, and Prior Authorization,” KFF (July 28, 2025;
+archived August 25, 2025), https://tinyurl.com/57r3dp3d.
+For information about supplemental benefits in MA plans,
+see Government Accountability Office, *Medicare Advantage:*
+*Plans Generally Offered Some Supplemental Benefits, but CMS Has*
+*Limited Data on Utilization,* GAO-23-105527 (January 2023),
+www.gao.gov/products/gao-23-105527.
+8. Nancy Ochieng and others, “Medicare Advantage in 2025:
+Premiums, Out-of-Pocket Limits, Supplemental Benefits, and
+Prior Authorization,” KFF (July 28, 2025; archived August 25,
+2025), https://tinyurl.com/57r3dp3d.
+---
+#### Health Differences Between MA and FFS Beneficiaries and Their Effects on Spending
+Stuart Hammond and others, “The Medicare
+Advantage Program: Status Report” (Medicare Payment
+Advisory Commission, January 16, 2026), slide 18,
+www.medpac.gov/wp-content/uploads/2026/01/Tab-
+N-MA_Status-Jan-2026.pdf.
+Daria Pelech and others, “Favorable Selection Among
+Dually Enrolled Beneficiaries in Private Medicare
+Plans,” *Health Affairs,* vol. 44, no. 10 (October 2025),
+pp. 1256–1265, https://doi.org/10.1377/
+hlthaff.2025.00330.
+Grace McCormack and Erin Trish, “Out-of-Network
+Utilization and Plan Selection Among Medicare
+Advantage Cost Plan Enrollees,” *Health Services
+Research,* vol. 60, no. S2 (April 2025), article e14438,
+https://doi.org/10.1111/1475-6773.14438.
+Medicare Payment Advisory Commission, *Report to the
+Congress: Medicare and the Health Care Delivery System*
+(June 2023), Chapter 4, www.medpac.gov/document/
+june-2023-report-to-the-congress-medicare-and-thehealth-care-delivery-system.
+Joseph P. Newhouse and others, “Adjusted Mortality
+Rates Are Lower for Medicare Advantage Than
+Traditional Medicare, but the Rates Converge Over
+Time,” *Health Affairs,* vol. 38, no. 4 (April 2019),
+pp. 554–560, https://doi.org/10.1377/
+hlthaff.2018.05390.
+David J. Meyers and others, “Analysis of Drivers
+of Disenrollment and Plan Switching Among
+Medicare Advantage Beneficiaries,” *JAMA Internal
+Medicine,* vol. 179, no. 4 (April 2019), pp. 524–532,
+https://doi.org/10.1001/jamainternmed.2018.7639.
+Momotazur Rahman and others, “High-Cost Patients
+Had Substantial Rates of Leaving Medicare Advantage
+and Joining Traditional Medicare,” *Health Affairs,*
+vol. 34, no. 10 (October 2015), pp. 1675–1681,
+https://doi.org/10.1377/hlthaff.2015.0272.
+#### Effects of Coding Intensity on Risk Scores and Spending for MA Beneficiaries
+Alicia L. Cooper and Amal N. Trivedi, “Fitness
+Memberships and Favorable Selection in Medicare
+Advantage Plans,” *New England Journal of Medicine,*
+vol. 366, no. 2 (January 2012), pp. 150–157,
+https://doi.org/10.1056/NEJMsa1104273.
+Stuart Hammond and others, “The Medicare
+Advantage Program: Status Report” (Medicare Payment
+Advisory Commission, January 16, 2026), slide 18,
+www.medpac.gov/wp-content/uploads/2026/01/Tab-
+N-MA_Status-Jan-2026.pdf.
+Joe Albanese and others, “An Updated Analysis of Coding
+Pattern Differences in Medicare Advantage,” *Health Affairs
+Scholar,* vol. 4, no. 1 (January 2026), article qxag010,
+https://doi.org/10.1093/haschl/qxag010.
+Kyle J. Caswell, Timothy A. Waidmann, and Keqin Wei,
+*Upcoding in Medicare Advantage Among Dual Medicare-*
+*Medicaid Enrollees* (Urban Institute, December 2025),
+https://tinyurl.com/yfvsydvk.
+Paul D. Jacobs and Timothy J. Layton, “Identifying
+Coding Intensity in Medicare Advantage
+Through Switchers,” *Health Services Research,*
+vol. 60, no. 5 (October 2025), article e14628,
+https://doi.org/10.1111/1475-6773.14628.
+Medicare Payment Advisory Commission, *Report to
+the Congress: Medicare Payment Policy* (March 2024),
+Chapter 13, www.medpac.gov/document/march-2024-
+report-to-the-congress-medicare-payment-policy.
+Richard Kronick and F. Michael Chua, “Industry-Wide
+and Sponsor-Specific Estimates of Medicare Advantage
+Coding Intensity,” SSRN (November 17, 2021),
+https://doi.org/10.2139/ssrn.3959446.
+Richard Kronick and F. Michael Chua, “Estimating the
+Magnitude of Medicare Advantage Coding Intensity
+and of the Budgetary Effects of Fully Adjusting for
+Differential MA Coding,” SSRN (April 5, 2021),
+https://doi.org/10.2139/ssrn.3792038.
+David J. Meyers and Amal N. Trivedi, “Medicare
+Advantage Chart Reviews Are Associated With Billions
+in Additional Payments for Some Plans,” *Medical
+Care,* vol. 59, no. 2 (February 2021), pp. 96–100,
+https://doi.org/10.1097/MLR.0000000000001412.
+Michael Geruso and Timothy Layton, “Upcoding:
+Evidence From Medicare on Squishy Risk
+Adjustment,” *Journal of Political Economy,* vol. 128, no. 3 (March 2020), pp. 984–1026,
+https://doi.org/10.1086/704756.
+Paul D. Jacobs and Richard Kronick, “Getting What
+We Pay For: How Do Risk-Based Payments to Medicare
+Advantage Plans Compare With Alternative Measures
+of Beneficiary Health Risk?” *Health Services Research,*
+vol. 53, no. 6 (December 2018), pp. 4997–5015,
+https://doi.org/10.1111/1475-6773.12977.
+Tamara Beth Hayford and Alice Levy Burns, “Medicare
+Advantage Enrollment and Beneficiary Risk Scores:
+Difference-in-Differences Analyses Show Increases
+for All Enrollees on Account of Market-Wide
+Changes,” *Inquiry,* vol. 55 (January–December 2018),
+https://doi.org/10.1177/0046958018788640.
+**MA Plans’ Utilization Management Tools
+and Their Effects on Costs**
+Christie Teigland and others, *Harvard-Inovalon
+Medicare Study: Utilization and Efficiency*
+*Under Medicare Advantage vs. Medicare*
+*Fee-for-Service,* INO-25-0592 (Inovalon, 2025),
+https://tinyurl.com/3xch456j.
+Ravi Gupta and others, “Comparison of Prior
+Authorization Across Insurers: Cross Sectional
+Evidence From Medicare Advantage,” *British Medical
+Journal,* vol. 384 (March 2024), article e077797,
+https://doi.org/10.1136/bmj-2023-077797.
+Aaron L. Schwartz and others, “Health Care Utilization
+and Spending in Medicare Advantage vs Traditional
+Medicare: A Difference-in-Differences Analysis,”
+*JAMA Health Forum,* vol. 2, no. 12 (December 2021),
+article e214001, https://doi.org/10.1001/
+jamahealthforum.2021.4001.
+Vilsa Curto and others, “Health Care Spending
+and Utilization in Public and Private Medicare,”
+*American Economic Journal: Applied Economics,*
+vol. 11, no. 2 (April 2019), pp. 302–332,
+https://doi.org/10.1257/app.20170295.
+---
+---
+# Appendix D: Related Publications
+The following publications provide additional information about the Congressional Budget Office’s recent
+estimates and projections related to health insurance
+coverage and federal health care programs.
+For CBO’s analysis of provisions of the 2025 reconciliation act related to health insurance, see *Estimated
+Budgetary Effects of Public Law 119-21, to Provide for*
+*Reconciliation Pursuant to Title II of H. Con. Res. 14,*
+*Relative to CBO’s January 2025 Baseline* (July 2025),
+www.cbo.gov/publication/61570; letter to the Honorable
+Brendan F. Boyle and others about the distributional
+effects of Public Law 119-21 (August 11, 2025),
+www.cbo.gov/publication/61367; and cost estimate
+for Public Law 119-21, to Provide for Reconciliation
+Pursuant to Title II of H. Con. Res. 14 Title VII,
+Finance, Subtitle B, Health, Chapter 1, Medicaid
+(October 28, 2025), www.cbo.gov/publication/61837.
+For CBO’s analysis of how the health insurance market
+places would be affected by the 2025 reconciliation
+act and the final rule published by the Department of
+Health and Human Services in June 2025, see letter to
+the Honorable Jodey Arrington and others about clarifications of marketplace coverage and eligibility under
+Public Law 119-21 (H.R. 1) and the 2025 Marketplace
+Integrity and Affordability Rule (August 25, 2025),
+www.cbo.gov/publication/61506; and letter to the
+Honorable Chuck Schumer and others about the estimated effects of enacting selected health coverage policies
+on the federal budget and on the number of people with
+health insurance (September 18, 2025), www.cbo.gov/
+publication/61734.
+For CBO’s descriptions of mechanisms underlying states’ responses to Medicaid policies, see letter
+to the Honorable Ron Wyden and the Honorable
+Frank Pallone, Jr., about estimates for Medicaid
+policy options and state responses (May 7, 2025),
+www.cbo.gov/publication/61377.
+For CBO’s projections of federal spending on Medicare,
+see “Details About Baseline Projections for Selected
+Programs: Medicare” (February 2026), www.cbo.gov/
+recurring-data/51298.
+For CBO’s projections of federal spending on Medicaid,
+see “Details About Baseline Projections for Selected
+Programs: Medicaid” (February 2026), www.cbo.gov/
+recurring-data/51298.
+For CBO and the staff of the Joint Committee on
+Taxation’s projections of the premium tax credit and
+related spending, see “Details About Baseline Projections
+for Selected Programs: Premium Tax Credit and
+Related Spending” (February 2026), www.cbo.gov/
+recurring-data/51298.
+For a presentation delivered by CBO to Congressional
+staff on projections of federal subsidies for health
+insurance, see Phill Swagel and others, Congressional
+Budget Office, “CBO’s Baseline Projections of Federal
+Subsidies for Health Insurance” (May 11, 2026),
+www.cbo.gov/publication/62380.
+b
+---
+# About This Document
+Each year, the Congressional Budget Office issues a series of publications describing its projections
+of the federal budget. This report provides background information that helps explain some of the
+projections in the most recent of those publications. In keeping with CBO’s mandate to provide
+objective, impartial analysis, the report makes no recommendations.
+Jessica Hale and Emily Vreeland prepared the report with contributions from Carolyn Burton,
+Caroline Hanson, Claire Hou, Daria Pelech, Allison Percy, and Noah Zwiefel (formerly of CBO) and
+with guidance from Berna Demiralp, Sean Dunbar, Sarah Masi, and Sarah Sajewski. Nianyi Hong,
+Ben Hopkins, Sean Lyons, Eamon Molloy, Romain Parsad, Aaron Pervin (formerly of CBO),
+Robert Stewart, Rajan Topiwala (formerly of CBO), Amy Zettle, and the staff of the Joint Committee
+on Taxation also contributed to the analysis. Chad Chirico, Tamara Hayford, John McClelland,
+Alexandra Minicozzi, Asha Saavoss, and Chapin White offered comments. Ravza Aykan,
+Cyrus Ekland, Ruth Payne, and Youstiena Shafeek fact-checked the report.
+Jeffrey Kling reviewed the report. Christine Browne edited it, and Jorge Salazar created the graphics
+and prepared the text for publication. The report is available at www.cbo.gov/publication/62539.
+CBO seeks feedback to make its work as useful as possible. Please send comments to
+communications@cbo.gov.
+Philipson
+Phillip L. Swagel
+Director
+July 2026
