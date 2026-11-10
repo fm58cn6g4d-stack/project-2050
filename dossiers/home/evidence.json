@@ -17837,12 +17837,13 @@
  },
  {
   "id": "EV-HOU-809",
-  "statement": "In New York v. Department of Justice, a federal court declared the agencies\u2019 notices reinterpreting the welfare law (PRWORA) unlawful under the Administrative Procedure Act and vacated them as to the plaintiffs, twenty states and DC, while leaving the agencies free to issue new rules after notice and comment.",
+  "statement": "In New York v. Department of Justice, a federal court declared the agencies' notices reinterpreting the welfare law (PRWORA) unlawful under the Administrative Procedure Act and set them aside and vacated them; it separately enjoined the agencies from enforcing them against the plaintiffs, twenty states and DC, and left the agencies free to issue new rules after notice and comment.",
   "claim": "data",
   "figures": [],
   "source": "SRC-2433",
   "anchor": [
    "The PRWORA Notices are declared unlawful\nunder the APA and are ordered set aside and vacated.",
+   "Defendants are enjoined from\nimplementing or enforcing the PRWORA Notices or the interpretations contained\ntherein against Plaintiffs by any other means.",
    "The plaintiffs, who are\ntwenty states and the District of Columbia",
    "this injunction does not prohibit HHS, ED, DOL, HUD, and their respective\nheads from promulgating new rules related to PRWORA after a period of notice-andcomment rulemaking"
   ],
@@ -17850,7 +17851,7 @@
   "fact_date": "2026-09-21",
   "checked": "2026-11-10",
   "recheck": "2027-11-10",
-  "context": "U.S. District Court for the District of Rhode Island, No. 1:25-cv-00345, memorandum and order of September 21, 2026. Relief runs to the plaintiff states. The court did not decide the substantive claims against the HUD, HHS, Education and Labor notices. Appeal status not checked.",
+  "context": "U.S. District Court for the District of Rhode Island, No. 1:25-cv-00345, memorandum and order of September 21, 2026. The vacatur sets the notices aside as rules; only the injunction is limited to the plaintiffs (the court records, at footnote 6, the government's request that vacatur apply only to the named plaintiffs, and does not grant it). The court did not decide the substantive claims against the HUD, HHS, Education and Labor notices. Subject to appeal; appeal status not checked.",
   "supports": [
    "dossiers/home/4-specification.md"
   ]
