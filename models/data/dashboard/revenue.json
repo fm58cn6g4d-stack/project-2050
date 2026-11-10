@@ -39,6 +39,19 @@
   "source": "Revenue tab (Treasury via CRFB $412B 2025-34)"
  },
  {
+  "id": "HX",
+  "option": "End of the employer tax exclusion as groups join the single plan (HLT-7.22), on CBO's full pass-through convention (total compensation fixed: former premiums not paid as a contribution become taxable wages)",
+  "channel": "General fund",
+  "lo": 3.367,
+  "mid": 5.219,
+  "hi": 5.219,
+  "in_base": "Yes",
+  "reaches_middle": "Yes",
+  "legal_risk": "Low",
+  "overlap": "Counted only on premiums that become taxable wages. Low: half of the employer-paid share passed into pay (Anand, 2017; care review F-3), about $370B less in FY2040. The employer contribution (net $1,061B in FY2040 at 65%) is not booked until the settlement sets its share and is never added to this full figure; FEHB's contribution would be intragovernmental. Includes the payroll-tax part that current law credits to OASDI and HI, booked here on the general fund (care review F-4)",
+  "source": "dossiers/care/6-cost.md parts 4-5; dossiers/care/tools/health_path.py"
+ },
+ {
   "id": "G3",
   "option": "Top rate back to 39.6% above $400K",
   "channel": "General fund",

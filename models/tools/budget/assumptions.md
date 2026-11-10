@@ -500,22 +500,22 @@ SS-1 after 2039: the D8 package's net saving shrinks about 1.5% a year relative 
 
 ### ASM-PROF-YEARS
 
-Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy and the excise offsets CX (carbon) and MR6 (Moving America).
+Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy, the excise offsets CX (carbon) and MR6 (Moving America), and the health rows HLT-1, HLT-2, HLT-6 and HX and the HLT-4 and HLT-7 component shapes (care dossier's fiscal-year path).
 
-- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73; MR6 -2 to -27 (shape) ($B a year)
+- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73; MR6 -2 to -27 (shape); HLT-1 $64B in FY2030; HLT-7 plan spending $704B in FY2031 to about $5.7T in FY2040; HX $53B in FY2031 to $987B in FY2039 (shapes) ($B a year)
 - **How much it matters:** medium: CAP-7S is about $0.6T and its FY2029 cash is unpriced
-- **Where:** models/data/inputs/fiscal-years.csv:2-4; models/tools/fiscal-model.py:79-85
-- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26); MR6: transportation model (moving_america.py)
+- **Where:** models/data/inputs/fiscal-years.csv:2-4,5-13; models/tools/fiscal-model.py:79-85
+- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26); MR6: transportation model (moving_america.py); health rows: care dossier's path (models/tools/health_booking.py)
 - **Decided by:** unrecorded
 - **Notes:** CAP-7S is "interim cash proxy only" per its own note.
 
 ### ASM-PROF-COMPONENTS
 
-HOU-1 is split into two paths: the legacy title ($0.47T, 55% continuing) and 600,000 more vouchers ($0.09T, CPI-grown, fully permanent).
+HOU-1 (housing, line by line), HLT-4 (legacy title split, care review F-4) and HLT-7 (the single plan: spending line, transition fund, territories) are booked as components, each with its own path.
 
-- **Value:** 0.47 + 0.09 ($T)
-- **How much it matters:** low: one bill
-- **Where:** models/data/inputs/fiscal-components.csv:2-3; models/tools/fiscal-model.py:73-78
+- **Value:** Sum of the component amounts equals each bill's ledger midpoint ($T)
+- **How much it matters:** low: three bills
+- **Where:** models/data/inputs/fiscal-components.csv; models/tools/fiscal-model.py:73-78
 - **Source:** Oct 24 adoption (fiscal-components.csv basis)
 - **Decided by:** unrecorded
 
