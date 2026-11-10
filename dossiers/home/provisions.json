@@ -3,14 +3,15 @@
     "id": "HOU-4.01",
     "title": "Shared rules for all housing help",
     "agenda": "HOU-4",
-    "status": "decided by reference (shared-rules.md working answers); screening rule proposed, for Espen",
+    "status": "decided by reference (shared-rules.md working answers); screening rule decided (DEC-2026-11-10-06)",
     "decisions": [
       "DEC-2026-11-09-02",
       "DEC-2026-11-09-05",
       "DEC-2026-11-09-10",
-      "DEC-2026-11-10-03"
+      "DEC-2026-11-10-03",
+      "DEC-2026-11-10-06"
     ],
-    "parameters": "Income, income lines, immigrant eligibility, verification, conditions and residency, kept in one place; no work or treatment condition; no residency rules; mixed-status families keep prorated help indefinitely, with the right not to contend status, written into Section 214; HUD's February 2026 proposed rule withdrawn or rescinded; voucher rent ignores the value of free or capped child care (a standard child care deduction per child in care, set yearly by area, for families whose care FAM-2 makes free or caps; DEC-2026-11-10-03); owner and buyer programs (HOU-10.01, HOU-10.02, HOU-12, HOU-13.01, HOU-14.02) follow current law's immigrant-eligibility defaults, checking only the buyer or owner of record through records the agency can query (working answers for the immigration flagship's table); proposed, for Espen: the new awards use only the criminal-record screening federal law requires (the two statutory bans and the mandatory drug rules), not the discretionary authority in 42 U.S.C. 13661(c)",
+    "parameters": "Income, income lines, immigrant eligibility, verification, conditions and residency, kept in one place; no work or treatment condition; no residency rules; mixed-status families keep prorated help indefinitely, with the right not to contend status, written into Section 214; HUD's February 2026 proposed rule withdrawn or rescinded; voucher rent ignores the value of free or capped child care (a standard child care deduction per child in care, set yearly by area, for families whose care FAM-2 makes free or caps; DEC-2026-11-10-03); owner and buyer programs (HOU-10.01, HOU-10.02, HOU-12, HOU-13.01, HOU-14.02) follow current law's immigrant-eligibility defaults, checking only the buyer or owner of record through records the agency can query (working answers for the immigration flagship's table); the new awards use only (DEC-2026-11-10-06) the criminal-record screening federal law requires (the two statutory bans and the mandatory drug rules), not the discretionary authority in 42 U.S.C. 13661(c)",
     "eligibility": "All households under HOU-4, HOU-4A, HOU-4D, HOU-1D",
     "vehicle": [
       {
@@ -103,7 +104,7 @@
     "id": "HOU-4.03",
     "title": "Order of reach",
     "agenda": "HOU-4",
-    "status": "decided; the 2040s route's date and pace proposed, for Espen; reentry, foster youth and screening additions from the milestone review, partly proposed, for Espen",
+    "status": "decided; the 2040s route's date and pace decided (DEC-2026-11-10-04); reentry, foster youth and screening additions from the milestone review, decided (DEC-2026-11-10-06)",
     "decisions": [
       "DEC-2026-11-09-06",
       "DEC-2026-11-09-01",
@@ -111,9 +112,11 @@
       "DEC-2026-11-09-10",
       "DEC-2026-11-09-12",
       "DEC-2026-11-09-14",
-      "DEC-2026-11-10-03"
+      "DEC-2026-11-10-03",
+      "DEC-2026-11-10-06",
+      "DEC-2026-11-10-04"
     ],
-    "parameters": "Stage 1 people with no home of their own: literally homeless, and families with children doubled up, shown by their own word or a school record, no deadline test and no cap; order by local need-based intake, counts published yearly, a two-year imbalance triggers review (DEC-2026-11-09-12); stage 2 ELI families with children with severe problems; stage 3 disabled ELI renters of any age from 2038 (62 and over included, DEC-2026-11-10-03); stage 1 expected to take the whole million, so stage 2 starts with HOU-4D.01 in 2034; within stage: severity, youngest children, date; older non-disabled renters reconsidered once the care program is scoped; within stages 2 and 3, memo 2's order is national guidance and local need-based intake decides; a stated route for the 2040s (DEC-2026-11-10-03): ELI renters with worst case needs outside stages 1-3 (single adults and others not disabled, older renters not disabled) and families with children at 30-50% of AMI with worst case needs, enrollment proposed from 2042 at up to 400,000 a year, stated in the regular bill and funded only with its financing (date and pace proposed, for Espen); people leaving prison, jail, hospitals, treatment or other institutions, and youth leaving foster care, with no home to go to count as without a home and may apply up to 90 days (foster youth 180 days) before leaving; proposed, for Espen: those leaving to a couch also count for 12 months; a foster youth voucher ending at its time limit with no other home leads to a turnover award",
+    "parameters": "Stage 1 people with no home of their own: literally homeless, and families with children doubled up, shown by their own word or a school record, no deadline test and no cap; order by local need-based intake, counts published yearly, a two-year imbalance triggers review (DEC-2026-11-09-12); stage 2 ELI families with children with severe problems; stage 3 disabled ELI renters of any age from 2038 (62 and over included, DEC-2026-11-10-03); stage 1 expected to take the whole million, so stage 2 starts with HOU-4D.01 in 2034; within stage: severity, youngest children, date; older non-disabled renters reconsidered once the care program is scoped; within stages 2 and 3, memo 2's order is national guidance and local need-based intake decides; a stated route for the 2040s (DEC-2026-11-10-03): ELI renters with worst case needs outside stages 1-3 (single adults and others not disabled, older renters not disabled) and families with children at 30-50% of AMI with worst case needs, enrollment proposed from 2042 at up to 400,000 a year, stated in the regular bill and funded only with its financing (DEC-2026-11-10-04); people leaving prison, jail, hospitals, treatment or other institutions, and youth leaving foster care, with no home to go to count as without a home and may apply up to 90 days (foster youth 180 days) before leaving; people leaving prison, jail or foster care for a friend's or relative's home also count for 12 months (DEC-2026-11-10-06); a foster youth voucher ending at its time limit with no other home leads to a turnover award",
     "eligibility": "As stated; local preferences allowed, no residency rules",
     "vehicle": [
       {
@@ -539,7 +542,8 @@
     "agenda": "HOU-4A",
     "status": "decided with HOU-4A",
     "decisions": [
-      "DEC-2026-11-09-06"
+      "DEC-2026-11-09-06",
+      "DEC-2026-11-10-06"
     ],
     "parameters": "$12.2B FY2030-39 planning allowance, covering intake through the common application; fees paid in full, never prorated, plus a one-time issuance fee per new award",
     "eligibility": "Housing agencies",
@@ -842,7 +846,7 @@
       "DEC-2026-11-09-17",
       "DEC-2026-11-10-03"
     ],
-    "parameters": "(1) homes the plan pays for, credits included: about 1.3 million built or preserved over 2030-39 (0.8-1.9 million): construction money about 900,000 (grant-financed plus loan-only homes), low-income credit 300,000, middle-income trial 60,000, neighborhood credit 150,000, less 100,000 counted twice; at least 120,000 for ELI renters (100,000-160,000); current-law credit production not counted; new, preserved, rental, for sale and net additions reported apart. (2) Zoning-reward places: homes finished at least 1% of their stock within five years of the award above their prior pace; about 600,000 added homes nationally (250,000-1.8 million). (3) National goal: 15 million homes finished over 2030-39 (13-16.5 million), holding the 2022-25 pace; the plan's own net addition about 1.0 million, net of crowd-out and of the overlap between (1) and (2). Yearly reporting by place and income band; state shares of (1) follow grant and credit shares (proposed, for Espen) and gate HOU-9A.01; each state's expected count of number 1 is its money divided by its own cost per home, from the cost reports state agencies already file; a state misses when it finishes well under that count two years running, which only triggers HOU-9A.01's builder (DEC-2026-11-10-03)",
+    "parameters": "(1) homes the plan pays for, credits included: about 1.3 million built or preserved over 2030-39 (0.8-1.9 million): construction money about 900,000 (grant-financed plus loan-only homes), low-income credit 300,000, middle-income trial 60,000, neighborhood credit 150,000, less 100,000 counted twice; at least 120,000 for ELI renters (100,000-160,000); current-law credit production not counted; new, preserved, rental, for sale and net additions reported apart. (2) Zoning-reward places: homes finished at least 1% of their stock within five years of the award above their prior pace; about 600,000 added homes nationally (250,000-1.8 million). (3) National goal: 15 million homes finished over 2030-39 (13-16.5 million), holding the 2022-25 pace; the plan's own net addition about 1.0 million, net of crowd-out and of the overlap between (1) and (2). Yearly reporting by place and income band; each state's expected count of number 1 is its money divided by its own cost per home, from the cost reports state agencies already file; a state misses when it finishes well under that count two years running, which only triggers HOU-9A.01's builder (DEC-2026-11-10-03)",
     "eligibility": "—",
     "vehicle": [
       {
@@ -1298,11 +1302,12 @@
     "id": "HOU-8.01",
     "title": "Social housing pilot",
     "agenda": "HOU-8",
-    "status": "legacy working choice; a size target and an evaluation date (DEC-2026-11-10-03), the numbers proposed, for Espen",
+    "status": "legacy working choice; a size target and an evaluation date (DEC-2026-11-10-03), the numbers decided (DEC-2026-11-10-04)",
     "decisions": [
-      "DEC-2026-11-10-03"
+      "DEC-2026-11-10-03",
+      "DEC-2026-11-10-04"
     ],
-    "parameters": "Mixed-income public development pilot; first HOU-3C.02 borrower plus small equity grant; size target about 60,000 homes (40,000-100,000) from at least ten public or nonprofit owners in at least five states, awarded 2030-35; independent evaluation reporting in 2034 and 2037 (numbers proposed, for Espen)",
+    "parameters": "Mixed-income public development pilot; first HOU-3C.02 borrower plus small equity grant; size target about 60,000 homes (40,000-100,000) from at least ten public or nonprofit owners in at least five states, awarded 2030-35; independent evaluation reporting in 2034 and 2037 (DEC-2026-11-10-04)",
     "eligibility": "Public and nonprofit developers",
     "vehicle": [
       {
