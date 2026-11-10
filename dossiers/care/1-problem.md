@@ -114,7 +114,7 @@ Dates are from the statute (SRC-1374). Where a summary differs, the statute gove
 
 ### 8.4 The combined baseline
 
-- **Uninsured.** CBO projects 26.6 million in 2025 rising to 36.6 million in 2029 (10.4%) [EV-CAR-020]. Read from CBO's tables, the 2025 law alone adds 8.6 million uninsured in 2029 and 10 million by 2034 [EV-CAR-038]; with the credit expiry the total increase tops 14 million [EV-CAR-037].
+- **Uninsured.** CBO projects 26.6 million in 2025 rising to 36.6 million in 2029 (10.4%) [EV-CAR-020]. Read from CBO's tables, the 2025 law alone adds 8.6 million uninsured in 2029 and 10 million by 2034 [EV-CAR-038]; with the credit expiry the total increase tops 14 million by 2034 [EV-CAR-037].
 - **Medicaid.** Expansion adults fall from 15.5 million to 11.1 million by 2029, and Medicaid and CHIP from 80.5 million to 74.3 million [EV-CAR-021].
 - **Marketplaces.** Enrollment falls from 22.4 million in 2025 to 12.8 million in 2029, with subsidized enrollment down from 20.9 million to 10.0 million [EV-CAR-022].
 - The legacy files expected uninsurance "toward 40 million"; CBO's 36.6 million for 2029 is the baseline used here.
@@ -126,7 +126,7 @@ Dates are from the statute (SRC-1374). Where a summary differs, the statute gove
 
 ## What this means for the design
 
-1. **Restoration is the floor, not the plan.** Reversing the 2025 law and the credit expiry would bring back roughly 14 million people [EV-CAR-037], but it would still leave about 27 million uninsured, the 2025 level [EV-CAR-100], and half of working-age adults avoiding care for cost [EV-CAR-110].
+1. **Restoration is the floor, not the plan.** In 2029, the 2025 law adds 8.6 million uninsured [EV-CAR-038] and the credit expiry about 3.8 million [EV-CAR-028]. Reversing both would bring back about 12 million people (project arithmetic), leaving about 24 million of CBO's 36.6 million [EV-CAR-020] still uninsured, near the 2025 level of 26.7 million [EV-CAR-100]. By 2034 the two together add more than 14 million [EV-CAR-037]. Restoration also leaves half of working-age adults avoiding care for cost [EV-CAR-110].
 2. **Prices are the main cost lever.** Commercial hospital prices at 254% of Medicare [EV-CAR-131] are where a public option or single-payer saves money and where hospitals will fight hardest.
 3. **Paperwork is a coverage killer.** The 2025 law's six-month checks, verification and work rules work mainly by removing people who are eligible (section 2: Arkansas and the unwinding). Any design under the design lens (`DEC-2026-11-09-13`) should make coverage automatic.
 4. **Immigrant coverage diverges.** The 2025 law drops many lawfully present immigrants from Medicaid and the credits [EV-CAR-008] [EV-CAR-016]; noncitizens are already the least covered group [EV-CAR-103]. Who a new system covers is a shared rule (`dossiers/shared-rules.md`, rule 3) for section 3.
