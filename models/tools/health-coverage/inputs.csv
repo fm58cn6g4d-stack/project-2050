@@ -1,0 +1,177 @@
+id,value,low,high,unit,kind,evidence_id_or_basis,note
+cbo_pop,355.2,355.2,355.2,million people,evidence,EV-CAR-051,Total population (Social Security area)
+cbo_unins,37.2,37.2,37.2,million people,evidence,EV-CAR-051,Uninsured; includes 0.8M with Part A or B only
+cbo_medicare,70.8,70.8,70.8,million people,evidence,EV-CAR-051,Medicare enrollees
+cbo_medicaid,70.7,70.7,70.7,million people,evidence,EV-CAR-051,Medicaid and CHIP enrollees
+cbo_medicaid_exp,9.9,9.9,9.9,million people,evidence,EV-CAR-051,Adults made eligible for Medicaid by the ACA
+cbo_esi,169.5,169.5,169.5,million people,evidence,EV-CAR-051,"Employment-based coverage (includes FEHB, TRICARE, veterans programs)"
+cbo_ng_mkt_sub,11.4,11.4,11.4,million people,evidence,EV-CAR-051,"Marketplace, subsidized"
+cbo_ng_mkt_unsub,3.0,3.0,3.0,million people,evidence,EV-CAR-051,"Marketplace, unsubsidized"
+cbo_ng_outside,4.3,4.3,4.3,million people,evidence,EV-CAR-051,Nongroup bought outside the marketplaces (treated as unsubsidized)
+cbo_bhp,1.0,1.0,1.0,million people,evidence,EV-CAR-051,Basic Health Program (grouped with subsidized nongroup)
+cbo_other,6.8,6.8,6.8,million people,evidence,EV-CAR-051,"Other coverage (student plans, state plans, IHS and similar); held fixed in every scenario"
+cbo_multi,19.6,19.6,19.6,million people,evidence,EV-CAR-051,People with more than one source; the model nets them out with the overlap assumptions (check value)
+sub_medicare,1511,1511,1511,"$ billion, FY2032",evidence,EV-CAR-052,Medicare
+sub_medicaid,763,763,763,"$ billion, FY2032",evidence,EV-CAR-052,Medicaid and CHIP subtotal
+sub_medicaid_exp,132,132,132,"$ billion, FY2032",evidence,EV-CAR-052,of which adults made eligible by the ACA
+sub_esi,680,680,680,"$ billion, FY2032",evidence,EV-CAR-052,Employment-based coverage subtotal (tax exclusion and related items)
+sub_ptc,116,116,116,"$ billion, FY2032",evidence,EV-CAR-052,Premium tax credit and related spending subtotal
+sub_other,69,69,69,"$ billion, FY2032",evidence,EV-CAR-052,Supplemental or partial benefits; held fixed
+net_sub_2030,2837,2837,2837,$ billion,evidence,EV-CAR-052,Net federal subsidies for health insurance; growth path for the FY2030-39 window
+net_sub_2031,2978,2978,2978,$ billion,evidence,EV-CAR-052,Net federal subsidies for health insurance; growth path for the FY2030-39 window
+net_sub_2032,3139,3139,3139,$ billion,evidence,EV-CAR-052,Net federal subsidies for health insurance; growth path for the FY2030-39 window
+net_sub_2033,3328,3328,3328,$ billion,evidence,EV-CAR-052,Net federal subsidies for health insurance; growth path for the FY2030-39 window
+net_sub_2034,3520,3520,3520,$ billion,evidence,EV-CAR-052,Net federal subsidies for health insurance; growth path for the FY2030-39 window
+net_sub_2035,3711,3711,3711,$ billion,evidence,EV-CAR-052,Net federal subsidies for health insurance; growth path for the FY2030-39 window
+net_sub_2036,3913,3913,3913,$ billion,evidence,EV-CAR-052,Net federal subsidies for health insurance; growth path for the FY2030-39 window
+mcd_sub_2025,629,629,629,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+mcd_sub_2026,668,668,668,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+mcd_sub_2027,685,685,685,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+mcd_sub_2028,702,702,702,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+mcd_sub_2029,708,708,708,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+mcd_sub_2030,723,723,723,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+mcd_sub_2031,737,737,737,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+mcd_sub_2032,763,763,763,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+mcd_sub_2033,796,796,796,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+mcd_sub_2034,826,826,826,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+mcd_sub_2035,858,858,858,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+mcd_sub_2036,892,892,892,$ billion,evidence,EV-CAR-052,Medicaid and CHIP federal subsidies (benchmark profile only)
+ptc_sub_2026,117,117,117,$ billion,evidence,EV-CAR-052,PTC and related spending (benchmark profile only)
+ptc_sub_2027,90,90,90,$ billion,evidence,EV-CAR-052,PTC and related spending (benchmark profile only)
+ptc_sub_2028,85,85,85,$ billion,evidence,EV-CAR-052,PTC and related spending (benchmark profile only)
+ptc_sub_2029,89,89,89,$ billion,evidence,EV-CAR-052,PTC and related spending (benchmark profile only)
+ptc_sub_2030,97,97,97,$ billion,evidence,EV-CAR-052,PTC and related spending (benchmark profile only)
+ptc_sub_2031,108,108,108,$ billion,evidence,EV-CAR-052,PTC and related spending (benchmark profile only)
+ptc_sub_2032,116,116,116,$ billion,evidence,EV-CAR-052,PTC and related spending (benchmark profile only)
+ptc_sub_2033,120,120,120,$ billion,evidence,EV-CAR-052,PTC and related spending (benchmark profile only)
+ptc_sub_2034,127,127,127,$ billion,evidence,EV-CAR-052,PTC and related spending (benchmark profile only)
+ptc_sub_2035,135,135,135,$ billion,evidence,EV-CAR-052,PTC and related spending (benchmark profile only)
+ptc_sub_2036,144,144,144,$ billion,evidence,EV-CAR-052,PTC and related spending (benchmark profile only)
+xchk_pp_medicare,26920,26920,26920,"$ per subsidized enrollee, 2036",evidence,EV-CAR-053,"Medicare; cross-check only, not used in the arithmetic"
+xchk_pp_medicaid,13070,13070,13070,"$ per subsidized enrollee, 2036",evidence,EV-CAR-053,"Medicaid and CHIP; cross-check only, not used in the arithmetic"
+xchk_pp_esi,4990,4990,4990,"$ per subsidized enrollee, 2036",evidence,EV-CAR-053,"Employment-based; cross-check only, not used in the arithmetic"
+xchk_pp_ng,11500,11500,11500,"$ per subsidized enrollee, 2036",evidence,EV-CAR-053,"Nongroup and BHP; cross-check only, not used in the arithmetic"
+grp_medicaid_1,42,42,42,"million people, 2036",evidence,EV-CAR-054,"medicaid: people younger than 65 in income group 1 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_medicaid_2,17,17,17,"million people, 2036",evidence,EV-CAR-054,"medicaid: people younger than 65 in income group 2 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_medicaid_3,2,2,2,"million people, 2036",evidence,EV-CAR-054,"medicaid: people younger than 65 in income group 3 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_esi_1,13.5,13.5,13.5,"million people, 2036",evidence,EV-CAR-054,"esi: people younger than 65 in income group 1 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_esi_2,54,54,54,"million people, 2036",evidence,EV-CAR-054,"esi: people younger than 65 in income group 2 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_esi_3,97,97,97,"million people, 2036",evidence,EV-CAR-054,"esi: people younger than 65 in income group 3 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_ng_1,4,4,4,"million people, 2036",evidence,EV-CAR-054,"ng: people younger than 65 in income group 1 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_ng_2,9,9,9,"million people, 2036",evidence,EV-CAR-054,"ng: people younger than 65 in income group 2 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_ng_3,7,7,7,"million people, 2036",evidence,EV-CAR-054,"ng: people younger than 65 in income group 3 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_other_1,2.5,2.5,2.5,"million people, 2036",evidence,EV-CAR-054,"other: people younger than 65 in income group 1 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_other_2,1,1,1,"million people, 2036",evidence,EV-CAR-054,"other: people younger than 65 in income group 2 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_other_3,0.5,0.5,0.5,"million people, 2036",evidence,EV-CAR-054,"other: people younger than 65 in income group 3 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_unins_1,14.5,14.5,14.5,"million people, 2036",evidence,EV-CAR-054,"unins: people younger than 65 in income group 1 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_unins_2,14,14,14,"million people, 2036",evidence,EV-CAR-054,"unins: people younger than 65 in income group 2 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+grp_unins_3,4,4,4,"million people, 2036",evidence,EV-CAR-054,"unins: people younger than 65 in income group 3 (1 = under 150% FPL, 2 = 150-400%, 3 = over 400%); used for shares only"
+nhe_total_2024,5300,5300,5300,"$ billion, 2024",evidence,EV-CAR-120,National health expenditure
+nhe_medicare,1118.0,1118.0,1118.0,"$ billion, 2024",evidence,EV-CAR-121,Medicare
+nhe_medicaid,931.7,931.7,931.7,"$ billion, 2024",evidence,EV-CAR-121,Medicaid
+nhe_phi,1644.6,1644.6,1644.6,"$ billion, 2024",evidence,EV-CAR-121,Private health insurance
+nhe_oop,556.6,556.6,556.6,"$ billion, 2024",evidence,EV-CAR-121,Out of pocket
+nhe_hospital,1634.7,1634.7,1634.7,"$ billion, 2024",evidence,EV-CAR-055,Hospitals
+nhe_physician,1109.7,1109.7,1109.7,"$ billion, 2024",evidence,EV-CAR-055,Physician and clinical services
+nhe_rx,467.0,467.0,467.0,"$ billion, 2024",evidence,EV-CAR-055,Retail prescription drugs
+nhe_g_total,0.054,0.044,0.064,"per year, 2025-34",evidence,EV-CAR-056,"All NHE (CMS projection, grown 8 years from 2024 to 2032); range is plus or minus one point as a stated allowance"
+nhe_g_medicare,0.077,0.067,0.087,"per year, 2025-34",evidence,EV-CAR-056,"Medicare (CMS projection, grown 8 years from 2024 to 2032); range is plus or minus one point as a stated allowance"
+nhe_g_medicaid,0.05,0.04,0.060000000000000005,"per year, 2025-34",evidence,EV-CAR-056,"Medicaid (CMS projection, grown 8 years from 2024 to 2032); range is plus or minus one point as a stated allowance"
+nhe_g_phi,0.05,0.04,0.060000000000000005,"per year, 2025-34",evidence,EV-CAR-056,"Private health insurance (CMS projection, grown 8 years from 2024 to 2032); range is plus or minus one point as a stated allowance"
+hosp_commercial_ratio,2.54,2.0,2.8,x Medicare,evidence,EV-CAR-131,Employers and private insurers paid 254 percent of Medicare for hospital services in 2022 (RAND round 5; about 6 percent of commercial hospital spending). Range is a project allowance.
+admin_phi,0.12,0.1,0.14,share of spending,evidence,EV-CAR-217,Private insurers administrative costs about 12 percent (includes profit)
+admin_medicare,0.06,0.014,0.08,share of spending,evidence,EV-CAR-217,Medicare about 6 percent including Medicare Advantage and Part D (1.4 percent for traditional Medicare alone)
+ma_gap,0.07,0.05,0.14,share,evidence,EV-CAR-061,CBO: spending per Medicare Advantage enrollee 7 percent above fee-for-service on average (2032: 20900 vs 19500). Upper end is MedPAC 14 percent (EV-CAR-135)
+fpl_single,15960,15960,15960,$,evidence,EV-CAR-059,"2026 poverty guideline, single person"
+fpl_add,5680,5680,5680,$,evidence,EV-CAR-059,"2026 poverty guideline, each additional person"
+esi_employee_share,0.264,0.22,0.3,share of premium,evidence,EV-CAR-111,Workers paid 7471 of 28303 dollars family premium in 2026 (EV-CAR-112 over EV-CAR-111 = 0.264); applied to all ESI
+law_unins_2029,8.6,8.6,8.6,million people,evidence,EV-CAR-038,Increase in uninsured caused by P.L. 119-21 in 2029 (Georgetown CCF reading of CBO)
+law_unins_2034,10.0,10.0,10.0,million people,evidence,EV-CAR-038,Increase in uninsured caused by P.L. 119-21 by 2034; benchmark target and phase-in shape
+law_mcd_unins_2034,7.5,5.0,7.5,million people,evidence,EV-CAR-025,Increase in uninsured from the law Medicaid provisions in FY2034 (CBO via CRS); restored by the restore scenario
+law_mcd_outlays_10yr,989.7,989.7,989.7,"$ billion, FY2025-34",evidence,EV-CAR-025,Federal Medicaid outlay reduction from the law; benchmark only
+mkt_insured_2030,2.8,2.1,2.8,million people,evidence,EV-CAR-049,"Insured people gained by repealing the law marketplace sections, 2030"
+mkt_insured_2035,2.9,2.1,2.9,million people,evidence,EV-CAR-049,"Same, 2035"
+credits_insured_2030,3.6,3.6,3.6,million people,evidence,EV-CAR-029,"Insured people gained by permanent enhanced credits, 2030"
+credits_insured_2035,3.8,3.8,3.8,million people,evidence,EV-CAR-029,"Same, 2035"
+credits_cost_10yr,350,350,350,"$ billion, 2026-35",evidence,EV-CAR-029,Deficit increase from permanent enhanced credits; benchmark only
+takeup_unins_med,0.7,0.5,0.9,share,evidence,EV-CAR-208,CBO: 70 percent of uninsured newly eligible at age 60 take up Medicare A and B
+takeup_ng_med,0.53,0.4,0.7,share,evidence,EV-CAR-207,CBO: 53 percent of newly eligible enroll in Parts A and B (no auto-enrollment under 62)
+esi_dropout_med,0.23,0.1,0.35,share,evidence,EV-CAR-209,"Urban: 23 percent of employer-covered 60-64 year olds would drop employer coverage, mostly for Medicare"
+unins_paid_share,0.35,0.2,0.5,share,assumption,project judgment; evidence still needed (uncompensated care shares),Share of an uninsured person care that they pay out of pocket; the rest is uncompensated or cost-shifted. Sets total use by the uninsured
+new_enrollee_factor,0.8,0.6,1.0,share,assumption,project judgment; EV-CAR-201 (Oregon: coverage raises use) gives direction only,Newly covered people use this share of the average use of the plan they join
+overlap_medicaid,0.55,0.45,0.7,share,assumption,project judgment; CBO gives only the 19.6M total (EV-CAR-051),Share of people with more than one source removed from Medicaid (dual eligibles); the rest is split by the next three weights
+overlap_w_esi,0.3,0.3,0.3,weight,assumption,project judgment,Weight for ESI in the remaining overlap (renormalized with the next two)
+overlap_w_ng,0.05,0.05,0.05,weight,assumption,project judgment,Weight for nongroup
+overlap_w_other,0.1,0.1,0.1,weight,assumption,project judgment,Weight for other coverage
+band_f1,0.9,0.85,0.95,share,assumption,"project judgment; CBO groups at 150 percent FPL, bands at 138 (EV-CAR-054)",Share of CBO under-150-percent group below 138 percent FPL
+band_f2,0.45,0.35,0.55,share,assumption,project judgment; EV-CAR-054,Share of CBO 150-400 percent group at 150-250 percent FPL
+ngu_share_b3,0.04,0.0,0.1,share,assumption,"project judgment; CBO: unsubsidized nongroup 7.3M vs 7M above 400 percent (EV-CAR-051, EV-CAR-054)",Share of unsubsidized nongroup in the 250-400 band; the rest is above 400 percent
+medicare_low_share,0.3,0.25,0.4,share,assumption,project judgment; replace with a CPS tabulation,Share of Medicare enrollees below 250 percent FPL (split 40/60 between the two low bands)
+medicare_b3_share,0.22,0.18,0.26,share,assumption,project judgment,Share of Medicare enrollees at 250-400 percent FPL
+mid_b1,90,70,110,% FPL,assumption,project judgment,Midpoint income of the under-138 band
+mid_b2,190,175,210,% FPL,assumption,project judgment,Midpoint of 138-250
+mid_b3,320,300,340,% FPL,assumption,project judgment,Midpoint of 250-400
+mid_b4,550,480,700,% FPL,assumption,project judgment,Typical income of the 400+ band
+fpl_growth,0.025,0.02,0.035,per year,assumption,project judgment,Growth of the poverty guideline from 2026 to 2032
+hh_size,2.0,1.5,2.5,persons,assumption,project judgment,Household size used to turn the guideline into income per person
+ap_orig_b1,0.021,0.016,0.026,share of income,assumption,"ACA applicable-percentage table (law, not saved in the library); evidence still needed","Required contribution, original schedule, band 1 average"
+ap_orig_b2,0.05,0.04,0.06,share of income,assumption,"ACA applicable-percentage table (law, not saved in the library); evidence still needed","Required contribution, original schedule, band 2 average"
+ap_orig_b3,0.095,0.085,0.0996,share of income,assumption,"ACA applicable-percentage table (law, not saved in the library); evidence still needed","Required contribution, original schedule, band 3 average"
+ap_enh_b1,0.0,0.0,0.0,share of income,assumption,enhanced schedule in the ARPA/IRA law (not saved in the library); evidence still needed,"Required contribution, enhanced schedule, band 1 average (cap 8.5 percent, no cliff)"
+ap_enh_b2,0.015,0.01,0.02,share of income,assumption,enhanced schedule in the ARPA/IRA law (not saved in the library); evidence still needed,"Required contribution, enhanced schedule, band 2 average (cap 8.5 percent, no cliff)"
+ap_enh_b3,0.065,0.05,0.075,share of income,assumption,enhanced schedule in the ARPA/IRA law (not saved in the library); evidence still needed,"Required contribution, enhanced schedule, band 3 average (cap 8.5 percent, no cliff)"
+ap_enh_b4,0.085,0.085,0.085,share of income,assumption,enhanced schedule in the ARPA/IRA law (not saved in the library); evidence still needed,"Required contribution, enhanced schedule, band 4 average (cap 8.5 percent, no cliff)"
+oop_sh_esi,0.42,0.336,0.504,share of OOP,assumption,project judgment; NHE gives only the total (EV-CAR-121); evidence still needed (MEPS),Share of national out-of-pocket spending paid by people in source esi (renormalized to 1)
+oop_sh_medicare,0.3,0.24,0.36,share of OOP,assumption,project judgment; NHE gives only the total (EV-CAR-121); evidence still needed (MEPS),Share of national out-of-pocket spending paid by people in source medicare (renormalized to 1)
+oop_sh_medicaid,0.03,0.024,0.036,share of OOP,assumption,project judgment; NHE gives only the total (EV-CAR-121); evidence still needed (MEPS),Share of national out-of-pocket spending paid by people in source medicaid (renormalized to 1)
+oop_sh_ng,0.09,0.072,0.108,share of OOP,assumption,project judgment; NHE gives only the total (EV-CAR-121); evidence still needed (MEPS),Share of national out-of-pocket spending paid by people in source ng (renormalized to 1)
+oop_sh_unins,0.12,0.096,0.144,share of OOP,assumption,project judgment; NHE gives only the total (EV-CAR-121); evidence still needed (MEPS),Share of national out-of-pocket spending paid by people in source unins (renormalized to 1)
+oop_sh_other,0.02,0.016,0.024,share of OOP,assumption,project judgment; NHE gives only the total (EV-CAR-121); evidence still needed (MEPS),Share of national out-of-pocket spending paid by people in source other (renormalized to 1)
+oop_idx_b1,0.7,0.6,0.8,index,assumption,project judgment; evidence still needed (MEPS),Relative out-of-pocket spending in band 1; normalized within each source
+oop_idx_b2,0.9,0.8,1.0,index,assumption,project judgment; evidence still needed (MEPS),Relative out-of-pocket spending in band 2; normalized within each source
+oop_idx_b3,1.05,0.95,1.15,index,assumption,project judgment; evidence still needed (MEPS),Relative out-of-pocket spending in band 3; normalized within each source
+oop_idx_b4,1.2,1.1,1.3,index,assumption,project judgment; evidence still needed (MEPS),Relative out-of-pocket spending in band 4; normalized within each source
+medicare_prem_pp,3500,2500,4500,$ per person,assumption,"project judgment; Part B, Part D and Medigap premiums not in the register (KFF Medigap 2604 in 2023, EV-CAR-137 context)",Household premium for Medicare coverage
+medicaid_fee_idx,0.72,0.6,0.85,x Medicare,assumption,project judgment; evidence still needed (MACPAC/KFF fee index),Medicaid provider payment rates relative to Medicare
+phys_commercial_ratio,1.4,1.2,1.7,x Medicare,assumption,project judgment; hospital figure is EV-CAR-131,Commercial physician payment relative to Medicare
+admin_medicaid,0.06,0.04,0.1,share of spending,assumption,"project judgment, by analogy to EV-CAR-217",Medicaid administrative share
+ma_spend_share,0.58,0.54,0.61,share,assumption,"CBO 54 percent (2026) to 61 percent (2036), interpolated for 2032 (EV-CAR-061)",Medicare Advantage share of Part A and B spending
+mcd_fmap_exp,0.9,0.85,0.9,share,assumption,"ACA expansion match rate (law, not saved in the library); evidence still needed",Federal share of the cost of restored expansion adults; sets their total cost
+mcd_financing_restore,0,0,60,$ billion,assumption,project judgment; EV-CAR-025 gives only the total outlay cut,"Medicaid financing changes in the law (provider taxes, directed payments) restored beyond coverage; 0 means only the coverage-linked part is restored"
+restore_mcd_w1,0.9,0.8,1.0,share,assumption,project judgment (expansion adults are below 138 percent FPL),Share of restored Medicaid adults in the under-138 band
+restore_ng_w1,0.25,0.15,0.35,share,assumption,project judgment,Share of newly subsidized marketplace enrollees under 138 percent FPL
+restore_ng_w2,0.4,0.3,0.5,share,assumption,project judgment,Share at 138-250 percent FPL (the rest at 250-400)
+po_rate_pct_medicare,1.6,1.2,2.0,x Medicare,assumption,"EV-CAR-236 (Washington Cascade Select cap, 160 percent of Medicare); EV-CAR-263 (Oregon 200 percent)",Public option provider payment relative to Medicare
+po_admin,0.06,0.04,0.1,share of spending,assumption,EV-CAR-217 (Medicare about 6 percent),Public option administrative share
+po_benchmark_pass,0.5,0.25,0.75,share,assumption,project judgment; EV-CAR-243 (Nevada: premiums about 4.7 percent lower),Share of the public option premium advantage that reaches the marketplace benchmark and private premiums
+po_eligible_share,0.55,0.4,0.65,share,assumption,EV-CAR-058 (61.5 percent of the 2036 uninsured eligible for subsidized coverage; lower after restoration),Share of remaining uninsured who can be auto-enrolled
+po_autoenroll_takeup,0.7,0.5,0.9,share,assumption,EV-CAR-206 and EV-CAR-208 by analogy,Share of eligible uninsured who stay enrolled once auto-enrolled
+po_shift_ng_sub,0.3,0.1,0.6,share,assumption,"EV-CAR-237 (94,000 of 309,000 Washington marketplace customers in the public option); EV-CAR-237 context: about 1 percent in the first year",Share of subsidized nongroup enrollees who move to the public option
+po_shift_ng_unsub,0.3,0.1,0.6,share,assumption,as above,Same for unsubsidized nongroup
+po_shift_esi,0.02,0.0,0.06,share,assumption,project judgment,Share of ESI enrollees who move to the public option
+po_ap_mult,0.85,0.7,1.0,multiplier,assumption,project judgment (richer subsidies lever),Multiplier on required contributions when the public option scenario sets richer subsidies
+win_unins_m60,0.05,0.04,0.06,share,assumption,project judgment; EV-CAR-208 (1.3M uninsured aged 60-64 of about 26M); evidence still needed (CPS ages),Share of uninsured in the m60 window
+win_esi_m60,0.07,0.056,0.084,share,assumption,project judgment; EV-CAR-209 (12.0M ESI at 60-64),Share of ESI enrollees in the m60 window
+win_ng_m60,0.18,0.144,0.216,share,assumption,project judgment,Share of nongroup enrollees in the m60 window
+age_idx_m60,1.7,1.4,2.0,index,assumption,"EV-CAR-057 (age gradient: 65+ 22,356; working-age 9,154; children 4,217)",Cost of the m60 window relative to the average private-insurance enrollee
+win_unins_m50,0.17,0.136,0.204,share,assumption,project judgment; EV-CAR-208 (1.3M uninsured aged 60-64 of about 26M); evidence still needed (CPS ages),Share of uninsured in the m50 window
+win_esi_m50,0.16,0.128,0.192,share,assumption,project judgment; EV-CAR-209 (12.0M ESI at 60-64),Share of ESI enrollees in the m50 window
+win_ng_m50,0.22,0.176,0.264,share,assumption,project judgment,Share of nongroup enrollees in the m50 window
+age_idx_m50,1.25,1.1,1.4,index,assumption,"EV-CAR-057 (age gradient: 65+ 22,356; working-age 9,154; children 4,217)",Cost of the m50 window relative to the average private-insurance enrollee
+win_unins_kids,0.14,0.112,0.168,share,assumption,project judgment; EV-CAR-208 (1.3M uninsured aged 60-64 of about 26M); evidence still needed (CPS ages),Share of uninsured in the kids window
+win_esi_kids,0.22,0.176,0.264,share,assumption,project judgment; EV-CAR-209 (12.0M ESI at 60-64),Share of ESI enrollees in the kids window
+win_ng_kids,0.15,0.12,0.18,share,assumption,project judgment,Share of nongroup enrollees in the kids window
+age_idx_kids,0.5,0.4,0.6,index,assumption,"EV-CAR-057 (age gradient: 65+ 22,356; working-age 9,154; children 4,217)",Cost of the kids window relative to the average private-insurance enrollee
+m50_takeup_scale,0.6,0.3,1.0,multiplier,assumption,"project judgment; the 60-64 take-up evidence (EV-CAR-207 to EV-CAR-209) does not cover ages 50-59, where employer coverage is more common",Scale on the Medicare take-up and employer drop-out rates for ages 50-59
+kids_takeup_unins,0.9,0.7,1.0,share,assumption,EV-CAR-206 (auto-enrollment) by analogy,Uninsured children auto-enrolled in children Medicare
+kids_switch,0.1,0.0,0.3,share,assumption,project judgment,ESI and nongroup children who move to children Medicare when it is optional
+sp_rate_pct_medicare,1.15,1.0,1.4,x Medicare,assumption,project judgment; EV-CAR-220 (rates dominate cost),Project-central single-payer payment rate relative to Medicare
+sp_drug_cut,0.15,0.05,0.25,share,assumption,EV-CAR-220 (CBO lower-rate scenario: drug prices 23 percent lower),Reduction in prescription drug prices
+sp_admin,0.05,0.03,0.08,share of spending,assumption,EV-CAR-217,Single-plan administrative share
+sp_util_uplift,0.06,0.03,0.1,share,assumption,"EV-CAR-228 (RAND: 9.8 percent total demand increase without supply limits, includes newly insured and long-term care)",Demand increase for the already insured from removing cost sharing
+sp_unmet_share,0.5,0.25,0.75,share,assumption,EV-CAR-228 (RAND assumes unmet demand is half of new demand); EV-CAR-219,Share of the demand increase that goes unmet (supply limits)
+sp_ltc_added,200,100,400,"$ billion, 2032",assumption,project judgment; evidence still needed (NHE nursing and home health lines),"Added spending when long-term care is included, beyond what Medicare and Medicaid pay now"
+sp_cs_low_rate,0.03,0.01,0.06,share of claims,assumption,project judgment,Cost sharing paid by patients under the low cost sharing design
+sp_state_moe,0.5,0.0,0.8,share,assumption,project judgment (maintenance of effort); register has no state financing design,Share of baseline state and local Medicaid spending that states keep paying into the plan
+sp_retained_other,0,0,100,$ billion,assumption,project judgment,Other retained non-federal flows (for example local government contributions)
+sp_residual_unins,0.01,0.0,0.03,share of population,assumption,project judgment; EV-CAR-217 context (Urban: 10.8M undocumented left out in the lite design),People who remain uninsured under single payer (residual)

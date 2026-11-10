@@ -1,0 +1,5609 @@
+{
+ "as_of": "2026-11-10",
+ "baseline_checks": {
+  "cbo_net_subsidies_2032_bn": 3139.0,
+  "cbo_per_enrollee_2036_for_comparison": {
+   "esi": 4990.0,
+   "medicaid": 13070.0,
+   "medicare": 26920.0,
+   "ng": 11500.0
+  },
+  "cbo_population": 355.2,
+  "commercial_to_medicare_price_ratio": 2.079,
+  "federal_subsidies_total_bn": 3139.0,
+  "implied_marketplace_premium_pp": 11768.127,
+  "model_federal_per_person_2032": {
+   "esi": 4155.209,
+   "medicaid": 12721.967,
+   "medicare": 21341.808,
+   "ptc": 9841.94
+  },
+  "nhe_2032_bn": 8275.789,
+  "nhe_baseline_by_payer_bn": {
+   "medicaid": 1376.545,
+   "medicare": 2023.799,
+   "oop": 847.751,
+   "other": 1597.871,
+   "phi": 2429.823
+  },
+  "overlap_removed_millions": 19.5,
+  "population_total": 355.2,
+  "private_plan_cost_pp": 12842.617,
+  "public_option_premium_ratio": 0.72
+ },
+ "benchmarks": [
+  {
+   "benchmark": "CBO 2020 single-payer options: change in federal subsidies (corners reproduce the range)",
+   "id": "BM-1a",
+   "model": "2,874 to 4,214 $B in 2032",
+   "note": "Corners use only the payment-rate, cost-sharing and long-term-care assumptions the register gives (EV-CAR-220); CBO option specifications are not saved.",
+   "pass": false,
+   "source": "EV-CAR-218",
+   "target": "1,660 to 3,319 $B (CBO $1.5-3.0T in 2030, grown to 2032 at CBO subsidy growth)",
+   "tolerance": "each corner inside the range or within 25% of the nearer end"
+  },
+  {
+   "benchmark": "CBO 2020 single-payer options: change in national health expenditures",
+   "id": "BM-1b",
+   "model": "-562 to 606 $B in 2032",
+   "note": "CBO also changes provider supply and uses its 2020 baseline; the model grows both ends of the range to 2032.",
+   "pass": false,
+   "source": "EV-CAR-218",
+   "target": "-778 to 333 $B (CBO -$0.7T to +$0.3T in 2030, grown at NHE growth)",
+   "tolerance": "each corner inside the range or within 25% of the nearer end"
+  },
+  {
+   "benchmark": "P.L. 119-21: about 10 million more uninsured in 2034 (restoring the law provisions reverses it)",
+   "id": "BM-2",
+   "model": "9.9 million fewer uninsured in 2032",
+   "note": "In-sample by construction: the restore flows are set from these same CBO estimates (7.5 million Medicaid, 2.8-2.9 million marketplace). The test checks the phase-in and band arithmetic, not an independent estimate.",
+   "pass": true,
+   "source": "EV-CAR-038; EV-CAR-025; EV-CAR-049",
+   "target": "10.0 million (2034); 9.4 million on the 2029-34 CBO path interpolated to 2032",
+   "tolerance": "25%"
+  },
+  {
+   "benchmark": "Enhanced credits permanent: 3.8 million more insured",
+   "id": "BM-3a",
+   "model": "3.7 million in 2032",
+   "note": "In-sample by construction (flow set from CBO).",
+   "pass": true,
+   "source": "EV-CAR-029",
+   "target": "3.6 million (2030), 3.8 million (2035)",
+   "tolerance": "25%"
+  },
+  {
+   "benchmark": "Enhanced credits permanent: about $350 billion over ten years (2032 annual cost against the ten-year average, shaped by CBO PTC growth)",
+   "id": "BM-3b",
+   "model": "65.1 $B in 2032",
+   "note": "Independent of the coverage inputs. The model prices new enrollees, repricing of existing enrollees and removal of the 400% cliff at CBO-calibrated premiums; it has no risk-pool premium reduction or employer-coverage offset.",
+   "pass": false,
+   "source": "EV-CAR-029; EV-CAR-052",
+   "target": "37.5 $B ($350B over 2026-35, spread on the PTC profile)",
+   "tolerance": "25%"
+  },
+  {
+   "benchmark": "P.L. 119-21 Medicaid provisions cut federal outlays $989.7 billion over FY2025-34 (restore reverses it)",
+   "id": "BM-4",
+   "model": "94.4 $B in 2032",
+   "note": "The model restores only the coverage-linked cost unless mcd_financing_restore is raised; CBO also counts provider-tax and state-directed-payment cuts.",
+   "pass": true,
+   "source": "EV-CAR-025; EV-CAR-052",
+   "target": "104.3 $B (average spread on CBO Medicaid growth)",
+   "tolerance": "25%"
+  },
+  {
+   "benchmark": "CBO Medicare at 60 (2022): 7.3 million enrollees",
+   "id": "BM-5",
+   "model": "5.7 million movers in 2032",
+   "note": "Unverified target: the figure comes from the model spec, and the saved text (SRC-3204) does not contain it. The model counts uninsured, nongroup and ESI people who move to Medicare; it does not count people who add Part A while keeping employer coverage.",
+   "pass": true,
+   "source": "EV-CAR-207; EV-CAR-208",
+   "target": "7.3 million (spec target; the saved CBO text gives shares, not this count)",
+   "tolerance": "25%"
+  },
+  {
+   "benchmark": "Urban 2019 single-payer federal cost (secondary): rise in federal spending relative to current federal health spending",
+   "id": "BM-6a",
+   "model": "140% (project central)",
+   "note": "Indicative only: Urban's baseline is not in the register, so RAND's federal base (EV-CAR-229) stands in; the model also counts the tax exclusion.",
+   "pass": true,
+   "source": "EV-CAR-222; EV-CAR-224; EV-CAR-229",
+   "target": "138% (Urban lite, $1.5T in 2020) to 257% (enhanced, $2.8T), on RAND's $1,090B 2019 federal base",
+   "tolerance": "inside the range or within 25% of an end"
+  },
+  {
+   "benchmark": "Urban 2019 hybrid reform with a public option (secondary): federal cost relative to current federal health spending",
+   "id": "BM-6b",
+   "model": "10% (restore plus public option)",
+   "note": "Urban's bundle adds a mandate and rate caps and covers fewer people than restore plus public option; not a like-for-like test.",
+   "pass": true,
+   "source": "EV-CAR-225; EV-CAR-229",
+   "target": "11% ($122.1B in 2020 on $1,090B)",
+   "tolerance": "25%"
+  }
+ ],
+ "fy2030_39": {
+  "public_option": {
+   "series": [
+    {
+     "federal_bn": 85.834,
+     "nhe_bn": 26.805,
+     "year": 2030
+    },
+    {
+     "federal_bn": 203.675,
+     "nhe_bn": 33.821,
+     "year": 2031
+    },
+    {
+     "federal_bn": 239.429,
+     "nhe_bn": 11.74,
+     "year": 2032
+    },
+    {
+     "federal_bn": 253.845,
+     "nhe_bn": 12.374,
+     "year": 2033
+    },
+    {
+     "federal_bn": 268.49,
+     "nhe_bn": 13.042,
+     "year": 2034
+    },
+    {
+     "federal_bn": 283.059,
+     "nhe_bn": 13.746,
+     "year": 2035
+    },
+    {
+     "federal_bn": 298.466,
+     "nhe_bn": 14.488,
+     "year": 2036
+    },
+    {
+     "federal_bn": 315.373,
+     "nhe_bn": 15.271,
+     "year": 2037
+    },
+    {
+     "federal_bn": 333.238,
+     "nhe_bn": 16.095,
+     "year": 2038
+    },
+    {
+     "federal_bn": 352.115,
+     "nhe_bn": 16.964,
+     "year": 2039
+    }
+   ],
+   "total_2030_39": {
+    "federal_bn": 2633.524,
+    "nhe_bn": 174.345
+   }
+  },
+  "restore": {
+   "series": [
+    {
+     "federal_bn": 85.834,
+     "nhe_bn": 26.805,
+     "year": 2030
+    },
+    {
+     "federal_bn": 180.201,
+     "nhe_bn": 56.505,
+     "year": 2031
+    },
+    {
+     "federal_bn": 189.943,
+     "nhe_bn": 59.556,
+     "year": 2032
+    },
+    {
+     "federal_bn": 201.379,
+     "nhe_bn": 62.772,
+     "year": 2033
+    },
+    {
+     "federal_bn": 212.997,
+     "nhe_bn": 66.162,
+     "year": 2034
+    },
+    {
+     "federal_bn": 224.555,
+     "nhe_bn": 69.734,
+     "year": 2035
+    },
+    {
+     "federal_bn": 236.778,
+     "nhe_bn": 73.5,
+     "year": 2036
+    },
+    {
+     "federal_bn": 250.191,
+     "nhe_bn": 77.469,
+     "year": 2037
+    },
+    {
+     "federal_bn": 264.363,
+     "nhe_bn": 81.652,
+     "year": 2038
+    },
+    {
+     "federal_bn": 279.338,
+     "nhe_bn": 86.062,
+     "year": 2039
+    }
+   ],
+   "total_2030_39": {
+    "federal_bn": 2125.578,
+    "nhe_bn": 660.217
+   }
+  },
+  "single_payer_cbo_like": {
+   "series": [
+    {
+     "federal_bn": 0.0,
+     "nhe_bn": 0.0,
+     "year": 2030
+    },
+    {
+     "federal_bn": 0.0,
+     "nhe_bn": 0.0,
+     "year": 2031
+    },
+    {
+     "federal_bn": 821.443,
+     "nhe_bn": -34.428,
+     "year": 2032
+    },
+    {
+     "federal_bn": 1741.805,
+     "nhe_bn": -72.574,
+     "year": 2033
+    },
+    {
+     "federal_bn": 2763.441,
+     "nhe_bn": -114.739,
+     "year": 2034
+    },
+    {
+     "federal_bn": 3884.518,
+     "nhe_bn": -161.247,
+     "year": 2035
+    },
+    {
+     "federal_bn": 4095.963,
+     "nhe_bn": -169.955,
+     "year": 2036
+    },
+    {
+     "federal_bn": 4327.985,
+     "nhe_bn": -179.132,
+     "year": 2037
+    },
+    {
+     "federal_bn": 4573.149,
+     "nhe_bn": -188.805,
+     "year": 2038
+    },
+    {
+     "federal_bn": 4832.201,
+     "nhe_bn": -199.001,
+     "year": 2039
+    }
+   ],
+   "total_2030_39": {
+    "federal_bn": 27040.505,
+    "nhe_bn": -1119.881
+   }
+  },
+  "single_payer_cbo_like_high": {
+   "series": [
+    {
+     "federal_bn": 0.0,
+     "nhe_bn": 0.0,
+     "year": 2030
+    },
+    {
+     "federal_bn": 0.0,
+     "nhe_bn": 0.0,
+     "year": 2031
+    },
+    {
+     "federal_bn": 1053.483,
+     "nhe_bn": 151.503,
+     "year": 2032
+    },
+    {
+     "federal_bn": 2233.826,
+     "nhe_bn": 319.368,
+     "year": 2033
+    },
+    {
+     "federal_bn": 3544.051,
+     "nhe_bn": 504.921,
+     "year": 2034
+    },
+    {
+     "federal_bn": 4981.808,
+     "nhe_bn": 709.583,
+     "year": 2035
+    },
+    {
+     "federal_bn": 5252.981,
+     "nhe_bn": 747.9,
+     "year": 2036
+    },
+    {
+     "federal_bn": 5550.543,
+     "nhe_bn": 788.287,
+     "year": 2037
+    },
+    {
+     "federal_bn": 5864.961,
+     "nhe_bn": 830.854,
+     "year": 2038
+    },
+    {
+     "federal_bn": 6197.189,
+     "nhe_bn": 875.72,
+     "year": 2039
+    }
+   ],
+   "total_2030_39": {
+    "federal_bn": 34678.842,
+    "nhe_bn": 4928.136
+   }
+  },
+  "single_payer_cbo_like_low": {
+   "series": [
+    {
+     "federal_bn": 0.0,
+     "nhe_bn": 0.0,
+     "year": 2030
+    },
+    {
+     "federal_bn": 0.0,
+     "nhe_bn": 0.0,
+     "year": 2031
+    },
+    {
+     "federal_bn": 718.475,
+     "nhe_bn": -140.384,
+     "year": 2032
+    },
+    {
+     "federal_bn": 1523.47,
+     "nhe_bn": -295.929,
+     "year": 2033
+    },
+    {
+     "federal_bn": 2417.044,
+     "nhe_bn": -467.863,
+     "year": 2034
+    },
+    {
+     "federal_bn": 3397.594,
+     "nhe_bn": -657.504,
+     "year": 2035
+    },
+    {
+     "federal_bn": 3582.535,
+     "nhe_bn": -693.009,
+     "year": 2036
+    },
+    {
+     "federal_bn": 3785.472,
+     "nhe_bn": -730.432,
+     "year": 2037
+    },
+    {
+     "federal_bn": 3999.905,
+     "nhe_bn": -769.875,
+     "year": 2038
+    },
+    {
+     "federal_bn": 4226.485,
+     "nhe_bn": -811.448,
+     "year": 2039
+    }
+   ],
+   "total_2030_39": {
+    "federal_bn": 23650.98,
+    "nhe_bn": -4566.445
+   }
+  },
+  "single_payer_project_central": {
+   "series": [
+    {
+     "federal_bn": 0.0,
+     "nhe_bn": 0.0,
+     "year": 2030
+    },
+    {
+     "federal_bn": 0.0,
+     "nhe_bn": 0.0,
+     "year": 2031
+    },
+    {
+     "federal_bn": 836.525,
+     "nhe_bn": 11.238,
+     "year": 2032
+    },
+    {
+     "federal_bn": 1773.784,
+     "nhe_bn": 23.69,
+     "year": 2033
+    },
+    {
+     "federal_bn": 2814.176,
+     "nhe_bn": 37.454,
+     "year": 2034
+    },
+    {
+     "federal_bn": 3955.836,
+     "nhe_bn": 52.635,
+     "year": 2035
+    },
+    {
+     "federal_bn": 4171.163,
+     "nhe_bn": 55.477,
+     "year": 2036
+    },
+    {
+     "federal_bn": 4407.444,
+     "nhe_bn": 58.473,
+     "year": 2037
+    },
+    {
+     "federal_bn": 4657.11,
+     "nhe_bn": 61.631,
+     "year": 2038
+    },
+    {
+     "federal_bn": 4920.918,
+     "nhe_bn": 64.959,
+     "year": 2039
+    }
+   ],
+   "total_2030_39": {
+    "federal_bn": 27536.956,
+    "nhe_bn": 365.557
+   }
+  },
+  "staged": {
+   "series": [
+    {
+     "federal_bn": 85.834,
+     "nhe_bn": 26.805,
+     "year": 2030
+    },
+    {
+     "federal_bn": 209.406,
+     "nhe_bn": 33.176,
+     "year": 2031
+    },
+    {
+     "federal_bn": 251.513,
+     "nhe_bn": 10.379,
+     "year": 2032
+    },
+    {
+     "federal_bn": 266.656,
+     "nhe_bn": 10.939,
+     "year": 2033
+    },
+    {
+     "federal_bn": 282.04,
+     "nhe_bn": 11.53,
+     "year": 2034
+    },
+    {
+     "federal_bn": 297.344,
+     "nhe_bn": 12.152,
+     "year": 2035
+    },
+    {
+     "federal_bn": 313.529,
+     "nhe_bn": 12.809,
+     "year": 2036
+    },
+    {
+     "federal_bn": 331.29,
+     "nhe_bn": 13.5,
+     "year": 2037
+    },
+    {
+     "federal_bn": 350.056,
+     "nhe_bn": 14.229,
+     "year": 2038
+    },
+    {
+     "federal_bn": 369.885,
+     "nhe_bn": 14.998,
+     "year": 2039
+    }
+   ],
+   "total_2030_39": {
+    "federal_bn": 2757.554,
+    "nhe_bn": 160.516
+   }
+  },
+  "staged_full": {
+   "series": [
+    {
+     "federal_bn": 85.834,
+     "nhe_bn": 26.805,
+     "year": 2030
+    },
+    {
+     "federal_bn": 209.406,
+     "nhe_bn": 33.176,
+     "year": 2031
+    },
+    {
+     "federal_bn": 251.513,
+     "nhe_bn": 10.379,
+     "year": 2032
+    },
+    {
+     "federal_bn": 266.656,
+     "nhe_bn": 10.939,
+     "year": 2033
+    },
+    {
+     "federal_bn": 282.04,
+     "nhe_bn": 11.53,
+     "year": 2034
+    },
+    {
+     "federal_bn": 300.41,
+     "nhe_bn": 1.023,
+     "year": 2035
+    },
+    {
+     "federal_bn": 319.996,
+     "nhe_bn": -10.653,
+     "year": 2036
+    },
+    {
+     "federal_bn": 338.122,
+     "nhe_bn": -11.228,
+     "year": 2037
+    },
+    {
+     "federal_bn": 357.276,
+     "nhe_bn": -11.834,
+     "year": 2038
+    },
+    {
+     "federal_bn": 377.514,
+     "nhe_bn": -12.473,
+     "year": 2039
+    }
+   ],
+   "total_2030_39": {
+    "federal_bn": 2788.768,
+    "nhe_bn": 47.662
+   }
+  },
+  "staged_full_kids": {
+   "series": [
+    {
+     "federal_bn": 85.834,
+     "nhe_bn": 26.805,
+     "year": 2030
+    },
+    {
+     "federal_bn": 209.406,
+     "nhe_bn": 33.176,
+     "year": 2031
+    },
+    {
+     "federal_bn": 251.513,
+     "nhe_bn": 10.379,
+     "year": 2032
+    },
+    {
+     "federal_bn": 266.656,
+     "nhe_bn": 10.939,
+     "year": 2033
+    },
+    {
+     "federal_bn": 282.04,
+     "nhe_bn": 11.53,
+     "year": 2034
+    },
+    {
+     "federal_bn": 297.052,
+     "nhe_bn": -20.194,
+     "year": 2035
+    },
+    {
+     "federal_bn": 312.914,
+     "nhe_bn": -55.377,
+     "year": 2036
+    },
+    {
+     "federal_bn": 330.639,
+     "nhe_bn": -58.367,
+     "year": 2037
+    },
+    {
+     "federal_bn": 349.369,
+     "nhe_bn": -61.519,
+     "year": 2038
+    },
+    {
+     "federal_bn": 369.159,
+     "nhe_bn": -64.841,
+     "year": 2039
+    }
+   ],
+   "total_2030_39": {
+    "federal_bn": 2754.584,
+    "nhe_bn": -167.47
+   }
+  }
+ },
+ "growth": {
+  "net_subsidy_cagr_2032_36": 0.057
+ },
+ "hidden": [
+  "single_payer_cbo_like_high",
+  "single_payer_cbo_like_low",
+  "bench_law_only",
+  "bench_credits_only",
+  "bench_medicare60_only"
+ ],
+ "model": "MOD-health-coverage",
+ "results": {
+  "baseline_2029": {
+   "cells": {
+    "esi": [
+     12.087,
+     25.517,
+     29.547,
+     96.499
+    ],
+    "medicaid": [
+     37.165,
+     11.651,
+     9.193,
+     1.966
+    ],
+    "medicaid_new": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     8.496,
+     12.744,
+     15.576,
+     33.984
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m60": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_sub": [
+     3.264,
+     4.035,
+     4.488,
+     0.0
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.278,
+     6.661
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "sp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "uninsured": [
+     14.937,
+     8.871,
+     8.814,
+     4.578
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Employer-coverage tax exclusion": 680.0,
+     "Medicaid and CHIP, existing enrollees": 763.0,
+     "Medicaid and CHIP, restored adults": 0.0,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 1511.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 0.0,
+     "Other subsidies (held fixed)": 69.0,
+     "Premium tax credit, marketplace": 116.0,
+     "Premium tax credit, public option": 0.0
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion": 0.0,
+     "Medicaid and CHIP, existing enrollees": 0.0,
+     "Medicaid and CHIP, restored adults": 0.0,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 0.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 0.0,
+     "Other subsidies (held fixed)": 0.0,
+     "Premium tax credit, marketplace": 0.0,
+     "Premium tax credit, public option": 0.0
+    },
+    "gross_new_bn": 0,
+    "net_change_bn": 0,
+    "offsets_bn": 0,
+    "total_subsidies_bn": 3139.0
+   },
+   "flows": [],
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 97.622,
+      "people": 78.677,
+      "per_person": 2149.452,
+      "premiums_bn": 71.491
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 133.062,
+      "people": 63.666,
+      "per_person": 4225.016,
+      "premiums_bn": 135.929
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 175.346,
+      "people": 68.561,
+      "per_person": 5111.096,
+      "premiums_bn": 175.077
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 425.318,
+      "people": 144.295,
+      "per_person": 6582.523,
+      "premiums_bn": 524.508
+     }
+    ],
+    "by_source": {
+     "esi": {
+      "oop_pp": 2143.491,
+      "people": 163.65,
+      "premium_pp": 3390.451
+     },
+     "medicaid": {
+      "oop_pp": 367.066,
+      "people": 59.975,
+      "premium_pp": 0.0
+     },
+     "medicare": {
+      "oop_pp": 3665.473,
+      "people": 70.8,
+      "premium_pp": 3500.0
+     },
+     "ng_sub": {
+      "oop_pp": 3952.012,
+      "people": 11.786,
+      "premium_pp": 1926.187
+     },
+     "ng_unsub": {
+      "oop_pp": 5232.94,
+      "people": 6.939,
+      "premium_pp": 11768.127
+     },
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "uninsured": {
+      "oop_pp": 2790.489,
+      "people": 37.2,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 1546.847,
+    "matrix": {
+     "esi": [
+      4768.003,
+      5161.59,
+      5456.78,
+      5751.969
+     ],
+     "medicaid": [
+      317.651,
+      408.409,
+      476.477,
+      544.545
+     ],
+     "medicaid_new": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m60": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_sub": [
+      3305.043,
+      5136.476,
+      8416.388,
+      null
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      16369.958,
+      17027.363
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 831.348,
+    "premiums_bn": 907.005,
+    "total_bn": 1738.353
+   },
+   "insured_change": -0.0,
+   "nhe_bn": 8275.789,
+   "nhe_change_bn": 0.0,
+   "people": {
+    "esi": 163.65,
+    "medicaid": 59.975,
+    "medicaid_new": 0.0,
+    "medicare": 70.8,
+    "medicare_kids": 0.0,
+    "medicare_m50": 0.0,
+    "medicare_m60": 0.0,
+    "ng_sub": 11.786,
+    "ng_unsub": 6.939,
+    "other": 4.85,
+    "po": 0.0,
+    "sp": 0.0,
+    "uninsured": 37.2
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 0.0,
+    "household_premiums_and_oop": 0.0
+   },
+   "uninsured": 37.2,
+   "uninsured_change": 0.0
+  },
+  "bench_credits_only": {
+   "cells": {
+    "esi": [
+     12.087,
+     25.517,
+     29.547,
+     96.499
+    ],
+    "medicaid": [
+     37.165,
+     11.651,
+     9.193,
+     1.966
+    ],
+    "medicaid_new": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     8.496,
+     12.744,
+     15.576,
+     33.984
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m60": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_sub": [
+     4.184,
+     5.507,
+     5.776,
+     2.737
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.278,
+     3.924
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "sp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "uninsured": [
+     14.017,
+     7.399,
+     7.526,
+     4.578
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Employer-coverage tax exclusion": 680.0,
+     "Medicaid and CHIP, existing enrollees": 763.0,
+     "Medicaid and CHIP, restored adults": 0.0,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 1511.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 0.0,
+     "Other subsidies (held fixed)": 69.0,
+     "Premium tax credit, marketplace": 181.122,
+     "Premium tax credit, public option": 0.0
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion": 0.0,
+     "Medicaid and CHIP, existing enrollees": 0.0,
+     "Medicaid and CHIP, restored adults": 0.0,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 0.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 0.0,
+     "Other subsidies (held fixed)": 0.0,
+     "Premium tax credit, marketplace": 65.122,
+     "Premium tax credit, public option": 0.0
+    },
+    "gross_new_bn": 65.122,
+    "net_change_bn": 65.122,
+    "offsets_bn": 0,
+    "total_subsidies_bn": 3204.122
+   },
+   "flows": [
+    {
+     "frm": "uninsured",
+     "label": "restore: enhanced credits",
+     "millions": 3.68,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "restore: credits reach above 400% FPL",
+     "millions": 2.737,
+     "to": "ng_sub"
+    }
+   ],
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 98.43,
+      "people": 78.677,
+      "per_person": 2149.886,
+      "premiums_bn": 70.717
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 134.725,
+      "people": 63.666,
+      "per_person": 4206.518,
+      "premiums_bn": 133.089
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 177.043,
+      "people": 68.561,
+      "per_person": 5106.03,
+      "premiums_bn": 173.033
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 425.318,
+      "people": 144.295,
+      "per_person": 6470.555,
+      "premiums_bn": 508.351
+     }
+    ],
+    "by_source": {
+     "esi": {
+      "oop_pp": 2143.491,
+      "people": 163.65,
+      "premium_pp": 3390.451
+     },
+     "medicaid": {
+      "oop_pp": 367.066,
+      "people": 59.975,
+      "premium_pp": 0.0
+     },
+     "medicare": {
+      "oop_pp": 3665.473,
+      "people": 70.8,
+      "premium_pp": 3500.0
+     },
+     "ng_sub": {
+      "oop_pp": 4149.273,
+      "people": 18.204,
+      "premium_pp": 1818.432
+     },
+     "ng_unsub": {
+      "oop_pp": 5215.806,
+      "people": 4.201,
+      "premium_pp": 11768.127
+     },
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "uninsured": {
+      "oop_pp": 2786.936,
+      "people": 33.52,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 1546.847,
+    "matrix": {
+     "esi": [
+      4768.003,
+      5161.59,
+      5456.78,
+      5751.969
+     ],
+     "medicaid": [
+      317.651,
+      408.409,
+      476.477,
+      544.545
+     ],
+     "medicaid_new": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m60": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_sub": [
+      3067.888,
+      4302.042,
+      7211.791,
+      11125.371
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      16369.958,
+      17027.363
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 835.516,
+    "premiums_bn": 885.19,
+    "total_bn": 1720.706
+   },
+   "insured_change": 3.68,
+   "nhe_bn": 8292.73,
+   "nhe_change_bn": 16.94,
+   "people": {
+    "esi": 163.65,
+    "medicaid": 59.975,
+    "medicaid_new": 0.0,
+    "medicare": 70.8,
+    "medicare_kids": 0.0,
+    "medicare_m50": 0.0,
+    "medicare_m60": 0.0,
+    "ng_sub": 18.204,
+    "ng_unsub": 4.201,
+    "other": 4.85,
+    "po": 0.0,
+    "sp": 0.0,
+    "uninsured": 33.52
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 0.0,
+    "household_premiums_and_oop": 17.647
+   },
+   "uninsured": 33.52,
+   "uninsured_change": -3.68
+  },
+  "bench_law_only": {
+   "cells": {
+    "esi": [
+     12.087,
+     25.517,
+     29.547,
+     96.499
+    ],
+    "medicaid": [
+     37.165,
+     11.651,
+     9.193,
+     1.966
+    ],
+    "medicaid_new": [
+     6.372,
+     0.708,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     8.496,
+     12.744,
+     15.576,
+     33.984
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m60": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_sub": [
+     3.974,
+     5.171,
+     5.482,
+     0.0
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.278,
+     6.661
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "sp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "uninsured": [
+     7.855,
+     7.027,
+     7.82,
+     4.578
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Employer-coverage tax exclusion": 680.0,
+     "Medicaid and CHIP, existing enrollees": 763.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 1511.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 0.0,
+     "Other subsidies (held fixed)": 69.0,
+     "Premium tax credit, marketplace": 144.107,
+     "Premium tax credit, public option": 0.0
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion": 0.0,
+     "Medicaid and CHIP, existing enrollees": 0.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 0.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 0.0,
+     "Other subsidies (held fixed)": 0.0,
+     "Premium tax credit, marketplace": 28.107,
+     "Premium tax credit, public option": 0.0
+    },
+    "gross_new_bn": 122.507,
+    "net_change_bn": 122.507,
+    "offsets_bn": 0,
+    "total_subsidies_bn": 3261.507
+   },
+   "flows": [
+    {
+     "frm": "uninsured",
+     "label": "restore: Medicaid",
+     "millions": 7.08,
+     "to": "medicaid_new"
+    },
+    {
+     "frm": "uninsured",
+     "label": "restore: marketplace provisions",
+     "millions": 2.84,
+     "to": "ng_sub"
+    }
+   ],
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 86.318,
+      "people": 78.677,
+      "per_person": 2007.923,
+      "premiums_bn": 71.66
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 132.642,
+      "people": 63.666,
+      "per_person": 4239.675,
+      "premiums_bn": 137.283
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 176.655,
+      "people": 68.561,
+      "per_person": 5185.502,
+      "premiums_bn": 178.869
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 425.318,
+      "people": 144.295,
+      "per_person": 6582.523,
+      "premiums_bn": 524.508
+     }
+    ],
+    "by_source": {
+     "esi": {
+      "oop_pp": 2143.491,
+      "people": 163.65,
+      "premium_pp": 3390.451
+     },
+     "medicaid": {
+      "oop_pp": 367.066,
+      "people": 59.975,
+      "premium_pp": 0.0
+     },
+     "medicaid_new": {
+      "oop_pp": 326.727,
+      "people": 7.08,
+      "premium_pp": 0.0
+     },
+     "medicare": {
+      "oop_pp": 3665.473,
+      "people": 70.8,
+      "premium_pp": 3500.0
+     },
+     "ng_sub": {
+      "oop_pp": 3952.667,
+      "people": 14.626,
+      "premium_pp": 1915.511
+     },
+     "ng_unsub": {
+      "oop_pp": 5232.94,
+      "people": 6.939,
+      "premium_pp": 11768.127
+     },
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "uninsured": {
+      "oop_pp": 2926.868,
+      "people": 27.28,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 1546.847,
+    "matrix": {
+     "esi": [
+      4768.003,
+      5161.59,
+      5456.78,
+      5751.969
+     ],
+     "medicaid": [
+      317.651,
+      408.409,
+      476.477,
+      544.545
+     ],
+     "medicaid_new": [
+      317.651,
+      408.409,
+      null,
+      null
+     ],
+     "medicare": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m60": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_sub": [
+      3305.043,
+      5136.476,
+      8416.388,
+      null
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      16369.958,
+      17027.363
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 820.933,
+    "premiums_bn": 912.32,
+    "total_bn": 1733.253
+   },
+   "insured_change": 9.92,
+   "nhe_bn": 8318.405,
+   "nhe_change_bn": 42.616,
+   "people": {
+    "esi": 163.65,
+    "medicaid": 59.975,
+    "medicaid_new": 7.08,
+    "medicare": 70.8,
+    "medicare_kids": 0.0,
+    "medicare_m50": 0.0,
+    "medicare_m60": 0.0,
+    "ng_sub": 14.626,
+    "ng_unsub": 6.939,
+    "other": 4.85,
+    "po": 0.0,
+    "sp": 0.0,
+    "uninsured": 27.28
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 0.0,
+    "household_premiums_and_oop": 5.1
+   },
+   "uninsured": 27.28,
+   "uninsured_change": -9.92
+  },
+  "bench_medicare60_only": {
+   "cells": {
+    "esi": [
+     11.893,
+     25.107,
+     29.071,
+     94.945
+    ],
+    "medicaid": [
+     37.165,
+     11.651,
+     9.193,
+     1.966
+    ],
+    "medicaid_new": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     8.496,
+     12.744,
+     15.576,
+     33.984
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m60": [
+     1.029,
+     1.106,
+     1.239,
+     2.349
+    ],
+    "ng_sub": [
+     2.953,
+     3.65,
+     4.06,
+     0.0
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.251,
+     6.026
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "sp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "uninsured": [
+     14.414,
+     8.56,
+     8.505,
+     4.418
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Employer-coverage tax exclusion": 669.052,
+     "Medicaid and CHIP, existing enrollees": 763.0,
+     "Medicaid and CHIP, restored adults": 0.0,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 1511.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 42.007,
+     "Other subsidies (held fixed)": 69.0,
+     "Premium tax credit, marketplace": 104.934,
+     "Premium tax credit, public option": 0.0
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion": -10.948,
+     "Medicaid and CHIP, existing enrollees": 0.0,
+     "Medicaid and CHIP, restored adults": 0.0,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 0.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 42.007,
+     "Other subsidies (held fixed)": 0.0,
+     "Premium tax credit, marketplace": -11.066,
+     "Premium tax credit, public option": 0.0
+    },
+    "gross_new_bn": 42.007,
+    "net_change_bn": 19.993,
+    "offsets_bn": 22.014,
+    "total_subsidies_bn": 3158.993
+   },
+   "flows": [
+    {
+     "frm": "uninsured",
+     "label": "m60: uninsured",
+     "millions": 1.302,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "ng_sub",
+     "label": "m60: from ng_sub",
+     "millions": 1.124,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "m60: from ng_unsub",
+     "millions": 0.662,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "po",
+     "label": "m60: from po",
+     "millions": 0.0,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "esi",
+     "label": "m60: from esi",
+     "millions": 2.635,
+     "to": "medicare_m60"
+    }
+   ],
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 97.761,
+      "people": 78.677,
+      "per_person": 2187.658,
+      "premiums_bn": 74.358
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 133.408,
+      "people": 63.666,
+      "per_person": 4262.175,
+      "premiums_bn": 137.949
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 175.785,
+      "people": 68.561,
+      "per_person": 5128.859,
+      "premiums_bn": 175.856
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 427.519,
+      "people": 144.295,
+      "per_person": 6566.432,
+      "premiums_bn": 519.985
+     }
+    ],
+    "by_source": {
+     "esi": {
+      "oop_pp": 2143.491,
+      "people": 161.015,
+      "premium_pp": 3390.451
+     },
+     "medicaid": {
+      "oop_pp": 367.066,
+      "people": 59.975,
+      "premium_pp": 0.0
+     },
+     "medicare": {
+      "oop_pp": 3665.473,
+      "people": 70.8,
+      "premium_pp": 3500.0
+     },
+     "medicare_m60": {
+      "oop_pp": 3549.44,
+      "people": 5.723,
+      "premium_pp": 3500.0
+     },
+     "ng_sub": {
+      "oop_pp": 3952.012,
+      "people": 10.662,
+      "premium_pp": 1926.187
+     },
+     "ng_unsub": {
+      "oop_pp": 5232.94,
+      "people": 6.277,
+      "premium_pp": 11768.127
+     },
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "uninsured": {
+      "oop_pp": 2790.489,
+      "people": 35.898,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 1521.943,
+    "matrix": {
+     "esi": [
+      4768.003,
+      5161.59,
+      5456.78,
+      5751.969
+     ],
+     "medicaid": [
+      317.651,
+      408.409,
+      476.477,
+      544.545
+     ],
+     "medicaid_new": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m60": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "ng_sub": [
+      3305.043,
+      5136.476,
+      8416.388,
+      null
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      16369.958,
+      17027.363
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 834.473,
+    "premiums_bn": 908.148,
+    "total_bn": 1742.621
+   },
+   "insured_change": 1.302,
+   "nhe_bn": 8271.569,
+   "nhe_change_bn": -4.22,
+   "people": {
+    "esi": 161.015,
+    "medicaid": 59.975,
+    "medicaid_new": 0.0,
+    "medicare": 70.8,
+    "medicare_kids": 0.0,
+    "medicare_m50": 0.0,
+    "medicare_m60": 5.723,
+    "ng_sub": 10.662,
+    "ng_unsub": 6.277,
+    "other": 4.85,
+    "po": 0.0,
+    "sp": 0.0,
+    "uninsured": 35.898
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 24.904,
+    "household_premiums_and_oop": -4.268
+   },
+   "uninsured": 35.898,
+   "uninsured_change": -1.302
+  },
+  "public_option": {
+   "cells": {
+    "esi": [
+     11.845,
+     25.007,
+     28.956,
+     94.569
+    ],
+    "medicaid": [
+     37.165,
+     11.651,
+     9.193,
+     1.966
+    ],
+    "medicaid_new": [
+     6.372,
+     0.708,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     8.496,
+     12.744,
+     15.576,
+     33.984
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m60": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_sub": [
+     3.426,
+     4.65,
+     4.739,
+     1.916
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.194,
+     2.747
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     4.38,
+     4.642,
+     5.22,
+     5.691
+    ],
+    "sp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "uninsured": [
+     4.265,
+     3.416,
+     4.017,
+     2.816
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Employer-coverage tax exclusion": 666.4,
+     "Medicaid and CHIP, existing enrollees": 763.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 1511.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 0.0,
+     "Other subsidies (held fixed)": 69.0,
+     "Premium tax credit, marketplace": 127.642,
+     "Premium tax credit, public option": 146.987
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion": -13.6,
+     "Medicaid and CHIP, existing enrollees": 0.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 0.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 0.0,
+     "Other subsidies (held fixed)": 0.0,
+     "Premium tax credit, marketplace": 11.642,
+     "Premium tax credit, public option": 146.987
+    },
+    "gross_new_bn": 253.029,
+    "net_change_bn": 239.429,
+    "offsets_bn": 13.6,
+    "total_subsidies_bn": 3378.429
+   },
+   "flows": [
+    {
+     "frm": "uninsured",
+     "label": "restore: Medicaid",
+     "millions": 7.08,
+     "to": "medicaid_new"
+    },
+    {
+     "frm": "uninsured",
+     "label": "restore: marketplace provisions",
+     "millions": 2.84,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "uninsured",
+     "label": "restore: enhanced credits",
+     "millions": 3.68,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "restore: credits reach above 400% FPL",
+     "millions": 2.737,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "uninsured",
+     "label": "public option: auto-enrolled uninsured",
+     "millions": 9.086,
+     "to": "po"
+    },
+    {
+     "frm": "ng_sub",
+     "label": "public option: from ng_sub",
+     "millions": 6.313,
+     "to": "po"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "public option: from ng_unsub",
+     "millions": 1.26,
+     "to": "po"
+    },
+    {
+     "frm": "esi",
+     "label": "public option: from esi",
+     "millions": 3.273,
+     "to": "po"
+    }
+   ],
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 89.881,
+      "people": 78.677,
+      "per_person": 2030.803,
+      "premiums_bn": 69.898
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 137.829,
+      "people": 63.666,
+      "per_person": 4219.357,
+      "premiums_bn": 130.803
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 183.164,
+      "people": 68.561,
+      "per_person": 5124.279,
+      "premiums_bn": 168.163
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 433.565,
+      "people": 144.295,
+      "per_person": 6441.766,
+      "premiums_bn": 495.95
+     }
+    ],
+    "by_source": {
+     "esi": {
+      "oop_pp": 2143.491,
+      "people": 160.377,
+      "premium_pp": 3390.451
+     },
+     "medicaid": {
+      "oop_pp": 367.066,
+      "people": 59.975,
+      "premium_pp": 0.0
+     },
+     "medicaid_new": {
+      "oop_pp": 326.727,
+      "people": 7.08,
+      "premium_pp": 0.0
+     },
+     "medicare": {
+      "oop_pp": 3665.473,
+      "people": 70.8,
+      "premium_pp": 3500.0
+     },
+     "ng_sub": {
+      "oop_pp": 4123.106,
+      "people": 14.731,
+      "premium_pp": 1458.267
+     },
+     "ng_unsub": {
+      "oop_pp": 5215.806,
+      "people": 2.941,
+      "premium_pp": 10123.315
+     },
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "po": {
+      "oop_pp": 4299.371,
+      "people": 19.933,
+      "premium_pp": 1104.246
+     },
+     "uninsured": {
+      "oop_pp": 2943.088,
+      "people": 14.514,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 1515.91,
+    "matrix": {
+     "esi": [
+      4768.003,
+      5161.59,
+      5456.78,
+      5751.969
+     ],
+     "medicaid": [
+      317.651,
+      408.409,
+      476.477,
+      544.545
+     ],
+     "medicaid_new": [
+      317.651,
+      408.409,
+      null,
+      null
+     ],
+     "medicare": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m60": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_sub": [
+      3067.888,
+      4248.399,
+      6820.297,
+      10245.451
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      14725.147,
+      15382.551
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      3067.888,
+      3944.427,
+      5175.486,
+      8600.64
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 844.438,
+    "premiums_bn": 864.813,
+    "total_bn": 1709.251
+   },
+   "insured_change": 22.686,
+   "nhe_bn": 8287.529,
+   "nhe_change_bn": 11.74,
+   "people": {
+    "esi": 160.377,
+    "medicaid": 59.975,
+    "medicaid_new": 7.08,
+    "medicare": 70.8,
+    "medicare_kids": 0.0,
+    "medicare_m50": 0.0,
+    "medicare_m60": 0.0,
+    "ng_sub": 14.731,
+    "ng_unsub": 2.941,
+    "other": 4.85,
+    "po": 19.933,
+    "sp": 0.0,
+    "uninsured": 14.514
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 30.937,
+    "household_premiums_and_oop": 29.102
+   },
+   "uninsured": 14.514,
+   "uninsured_change": -22.686
+  },
+  "restore": {
+   "cells": {
+    "esi": [
+     12.087,
+     25.517,
+     29.547,
+     96.499
+    ],
+    "medicaid": [
+     37.165,
+     11.651,
+     9.193,
+     1.966
+    ],
+    "medicaid_new": [
+     6.372,
+     0.708,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     8.496,
+     12.744,
+     15.576,
+     33.984
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m60": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_sub": [
+     4.894,
+     6.643,
+     6.77,
+     2.737
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.278,
+     3.924
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "sp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "uninsured": [
+     6.935,
+     5.555,
+     6.532,
+     4.578
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Employer-coverage tax exclusion": 680.0,
+     "Medicaid and CHIP, existing enrollees": 763.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 1511.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 0.0,
+     "Other subsidies (held fixed)": 69.0,
+     "Premium tax credit, marketplace": 211.543,
+     "Premium tax credit, public option": 0.0
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion": 0.0,
+     "Medicaid and CHIP, existing enrollees": 0.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 0.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 0.0,
+     "Other subsidies (held fixed)": 0.0,
+     "Premium tax credit, marketplace": 95.543,
+     "Premium tax credit, public option": 0.0
+    },
+    "gross_new_bn": 189.943,
+    "net_change_bn": 189.943,
+    "offsets_bn": 0,
+    "total_subsidies_bn": 3328.943
+   },
+   "flows": [
+    {
+     "frm": "uninsured",
+     "label": "restore: Medicaid",
+     "millions": 7.08,
+     "to": "medicaid_new"
+    },
+    {
+     "frm": "uninsured",
+     "label": "restore: marketplace provisions",
+     "millions": 2.84,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "uninsured",
+     "label": "restore: enhanced credits",
+     "millions": 3.68,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "restore: credits reach above 400% FPL",
+     "millions": 2.737,
+     "to": "ng_sub"
+    }
+   ],
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 87.127,
+      "people": 78.677,
+      "per_person": 2006.216,
+      "premiums_bn": 70.717
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 134.304,
+      "people": 63.666,
+      "per_person": 4206.288,
+      "premiums_bn": 133.495
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 178.352,
+      "people": 68.561,
+      "per_person": 5162.972,
+      "premiums_bn": 175.627
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 425.318,
+      "people": 144.295,
+      "per_person": 6470.555,
+      "premiums_bn": 508.351
+     }
+    ],
+    "by_source": {
+     "esi": {
+      "oop_pp": 2143.491,
+      "people": 163.65,
+      "premium_pp": 3390.451
+     },
+     "medicaid": {
+      "oop_pp": 367.066,
+      "people": 59.975,
+      "premium_pp": 0.0
+     },
+     "medicaid_new": {
+      "oop_pp": 326.727,
+      "people": 7.08,
+      "premium_pp": 0.0
+     },
+     "medicare": {
+      "oop_pp": 3665.473,
+      "people": 70.8,
+      "premium_pp": 3500.0
+     },
+     "ng_sub": {
+      "oop_pp": 4123.106,
+      "people": 21.044,
+      "premium_pp": 1715.609
+     },
+     "ng_unsub": {
+      "oop_pp": 5215.806,
+      "people": 4.201,
+      "premium_pp": 11768.127
+     },
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "uninsured": {
+      "oop_pp": 2943.088,
+      "people": 23.6,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 1546.847,
+    "matrix": {
+     "esi": [
+      4768.003,
+      5161.59,
+      5456.78,
+      5751.969
+     ],
+     "medicaid": [
+      317.651,
+      408.409,
+      476.477,
+      544.545
+     ],
+     "medicaid_new": [
+      317.651,
+      408.409,
+      null,
+      null
+     ],
+     "medicare": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m60": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_sub": [
+      3067.888,
+      4302.042,
+      7211.791,
+      11125.371
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      16369.958,
+      17027.363
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 825.101,
+    "premiums_bn": 888.191,
+    "total_bn": 1713.292
+   },
+   "insured_change": 13.6,
+   "nhe_bn": 8335.345,
+   "nhe_change_bn": 59.556,
+   "people": {
+    "esi": 163.65,
+    "medicaid": 59.975,
+    "medicaid_new": 7.08,
+    "medicare": 70.8,
+    "medicare_kids": 0.0,
+    "medicare_m50": 0.0,
+    "medicare_m60": 0.0,
+    "ng_sub": 21.044,
+    "ng_unsub": 4.201,
+    "other": 4.85,
+    "po": 0.0,
+    "sp": 0.0,
+    "uninsured": 23.6
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 0.0,
+    "household_premiums_and_oop": 25.062
+   },
+   "uninsured": 23.6,
+   "uninsured_change": -13.6
+  },
+  "single_payer_cbo_like": {
+   "cells": {
+    "esi": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicaid": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicaid_new": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m60": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_sub": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "sp": [
+     74.523,
+     61.971,
+     67.053,
+     143.252
+    ],
+    "uninsured": [
+     1.426,
+     0.847,
+     0.842,
+     0.437
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Less: state maintenance of effort and retained flows": -0.0,
+     "Other subsidies (held fixed)": 69.0,
+     "Single-payer plan outlays, net of cost sharing": 6355.773
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion ended": -680.0,
+     "Medicaid and CHIP federal funding replaced": -763.0,
+     "Medicare subsidies replaced": -1511.0,
+     "Premium tax credit and related spending replaced": -116.0,
+     "Single-payer plan outlays, net of cost sharing": 6355.773,
+     "State maintenance of effort and other retained non-federal flows": -0.0
+    },
+    "gross_new_bn": 6355.773,
+    "net_change_bn": 3285.773,
+    "offsets_bn": 3070.0,
+    "total_subsidies_bn": 6424.773
+   },
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 36.338,
+      "people": 78.677,
+      "per_person": 461.864,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 34.052,
+      "people": 63.666,
+      "per_person": 534.851,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 41.945,
+      "people": 68.561,
+      "per_person": 611.787,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 94.35,
+      "people": 144.295,
+      "per_person": 653.87,
+      "premiums_bn": 0.0
+     }
+    ],
+    "by_source": {
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "sp": {
+      "oop_pp": 531.819,
+      "people": 346.798,
+      "premium_pp": 0.0
+     },
+     "uninsured": {
+      "oop_pp": 2790.489,
+      "people": 3.552,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 0.0,
+    "matrix": {
+     "esi": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicaid": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicaid_new": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m60": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_sub": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "sp": [
+      368.607,
+      473.924,
+      552.911,
+      631.899
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 206.685,
+    "premiums_bn": 0.0,
+    "total_bn": 206.685
+   },
+   "insured_change": 33.648,
+   "nhe_bn": 8138.078,
+   "nhe_change_bn": -137.712,
+   "people": {
+    "esi": 0.0,
+    "medicaid": 0.0,
+    "medicaid_new": 0.0,
+    "medicare": 0.0,
+    "medicare_kids": 0.0,
+    "medicare_m50": 0.0,
+    "medicare_m60": 0.0,
+    "ng_sub": 0.0,
+    "ng_unsub": 0.0,
+    "other": 4.85,
+    "po": 0.0,
+    "sp": 346.798,
+    "uninsured": 3.552
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 1546.847,
+    "household_premiums_and_oop": 1531.668
+   },
+   "single_payer": {
+    "admin_bn": 392.412,
+    "amount_to_be_financed_bn": 3285.773,
+    "baseline_claims_bn": 6182.319,
+    "claims_before_use_bn": 5820.882,
+    "cost_sharing_bn": 184.434,
+    "ltc_bn": 0.0,
+    "new_use_bn": 239.599,
+    "newly_covered_millions": 33.648,
+    "plan_gross_bn": 6540.207,
+    "plan_outlay_bn": 6355.773,
+    "provider_revenue_bn": 6147.794,
+    "rate_multiple_of_medicare": 1.157,
+    "state_and_retained_bn": 0.0,
+    "use_increase": 0.015
+   },
+   "uninsured": 3.552,
+   "uninsured_change": -33.648
+  },
+  "single_payer_cbo_like_high": {
+   "cells": {
+    "esi": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicaid": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicaid_new": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m60": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_sub": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "sp": [
+     74.523,
+     61.971,
+     67.053,
+     143.252
+    ],
+    "uninsured": [
+     1.426,
+     0.847,
+     0.842,
+     0.437
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Less: state maintenance of effort and retained flows": -0.0,
+     "Other subsidies (held fixed)": 69.0,
+     "Single-payer plan outlays, net of cost sharing": 7283.93
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion ended": -680.0,
+     "Medicaid and CHIP federal funding replaced": -763.0,
+     "Medicare subsidies replaced": -1511.0,
+     "Premium tax credit and related spending replaced": -116.0,
+     "Single-payer plan outlays, net of cost sharing": 7283.93,
+     "State maintenance of effort and other retained non-federal flows": -0.0
+    },
+    "gross_new_bn": 7283.93,
+    "net_change_bn": 4213.93,
+    "offsets_bn": 3070.0,
+    "total_subsidies_bn": 7352.93
+   },
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 8.869,
+      "people": 78.677,
+      "per_person": 112.72,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 4.683,
+      "people": 63.666,
+      "per_person": 73.55,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 4.871,
+      "people": 68.561,
+      "per_person": 71.04,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 3.83,
+      "people": 144.295,
+      "per_person": 26.541,
+      "premiums_bn": 0.0
+     }
+    ],
+    "by_source": {
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "sp": {
+      "oop_pp": 0.0,
+      "people": 346.798,
+      "premium_pp": 0.0
+     },
+     "uninsured": {
+      "oop_pp": 2790.489,
+      "people": 3.552,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 0.0,
+    "matrix": {
+     "esi": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicaid": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicaid_new": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m60": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_sub": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "sp": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 22.252,
+    "premiums_bn": 0.0,
+    "total_bn": 22.252
+   },
+   "insured_change": 33.648,
+   "nhe_bn": 8881.801,
+   "nhe_change_bn": 606.012,
+   "people": {
+    "esi": 0.0,
+    "medicaid": 0.0,
+    "medicaid_new": 0.0,
+    "medicare": 0.0,
+    "medicare_kids": 0.0,
+    "medicare_m50": 0.0,
+    "medicare_m60": 0.0,
+    "ng_sub": 0.0,
+    "ng_unsub": 0.0,
+    "other": 4.85,
+    "po": 0.0,
+    "sp": 346.798,
+    "uninsured": 3.552
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 1546.847,
+    "household_premiums_and_oop": 1716.102
+   },
+   "single_payer": {
+    "admin_bn": 437.036,
+    "amount_to_be_financed_bn": 4213.93,
+    "baseline_claims_bn": 6182.319,
+    "claims_before_use_bn": 6182.319,
+    "cost_sharing_bn": 0.0,
+    "ltc_bn": 200.0,
+    "new_use_bn": 279.106,
+    "newly_covered_millions": 33.648,
+    "plan_gross_bn": 7283.93,
+    "plan_outlay_bn": 7283.93,
+    "provider_revenue_bn": 6846.894,
+    "rate_multiple_of_medicare": 1.221,
+    "state_and_retained_bn": 0.0,
+    "use_increase": 0.03
+   },
+   "uninsured": 3.552,
+   "uninsured_change": -33.648
+  },
+  "single_payer_cbo_like_low": {
+   "cells": {
+    "esi": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicaid": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicaid_new": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m60": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_sub": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "sp": [
+     74.523,
+     61.971,
+     67.053,
+     143.252
+    ],
+    "uninsured": [
+     1.426,
+     0.847,
+     0.842,
+     0.437
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Less: state maintenance of effort and retained flows": -0.0,
+     "Other subsidies (held fixed)": 69.0,
+     "Single-payer plan outlays, net of cost sharing": 5943.902
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion ended": -680.0,
+     "Medicaid and CHIP federal funding replaced": -763.0,
+     "Medicare subsidies replaced": -1511.0,
+     "Premium tax credit and related spending replaced": -116.0,
+     "Single-payer plan outlays, net of cost sharing": 5943.902,
+     "State maintenance of effort and other retained non-federal flows": -0.0
+    },
+    "gross_new_bn": 5943.902,
+    "net_change_bn": 2873.902,
+    "offsets_bn": 3070.0,
+    "total_subsidies_bn": 6012.902
+   },
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 34.558,
+      "people": 78.677,
+      "per_person": 439.239,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 32.149,
+      "people": 63.666,
+      "per_person": 504.958,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 39.542,
+      "people": 68.561,
+      "per_person": 576.745,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 88.484,
+      "people": 144.295,
+      "per_person": 613.217,
+      "premiums_bn": 0.0
+     }
+    ],
+    "by_source": {
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "sp": {
+      "oop_pp": 497.356,
+      "people": 346.798,
+      "premium_pp": 0.0
+     },
+     "uninsured": {
+      "oop_pp": 2790.489,
+      "people": 3.552,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 0.0,
+    "matrix": {
+     "esi": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicaid": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicaid_new": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m60": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_sub": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "sp": [
+      344.721,
+      443.212,
+      517.081,
+      590.95
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 194.734,
+    "premiums_bn": 0.0,
+    "total_bn": 194.734
+   },
+   "insured_change": 33.648,
+   "nhe_bn": 7714.255,
+   "nhe_change_bn": -561.535,
+   "people": {
+    "esi": 0.0,
+    "medicaid": 0.0,
+    "medicaid_new": 0.0,
+    "medicare": 0.0,
+    "medicare_kids": 0.0,
+    "medicare_m50": 0.0,
+    "medicare_m60": 0.0,
+    "ng_sub": 0.0,
+    "ng_unsub": 0.0,
+    "other": 4.85,
+    "po": 0.0,
+    "sp": 346.798,
+    "uninsured": 3.552
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 1546.847,
+    "household_premiums_and_oop": 1543.62
+   },
+   "single_payer": {
+    "admin_bn": 366.983,
+    "amount_to_be_financed_bn": 2873.902,
+    "baseline_claims_bn": 6182.319,
+    "claims_before_use_bn": 5459.445,
+    "cost_sharing_bn": 172.482,
+    "ltc_bn": 0.0,
+    "new_use_bn": 208.064,
+    "newly_covered_millions": 33.648,
+    "plan_gross_bn": 6116.384,
+    "plan_outlay_bn": 5943.902,
+    "provider_revenue_bn": 5749.401,
+    "rate_multiple_of_medicare": 1.092,
+    "state_and_retained_bn": 0.0,
+    "use_increase": 0.015
+   },
+   "uninsured": 3.552,
+   "uninsured_change": -33.648
+  },
+  "single_payer_project_central": {
+   "cells": {
+    "esi": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicaid": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicaid_new": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m60": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_sub": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "sp": [
+     74.523,
+     61.971,
+     67.053,
+     143.252
+    ],
+    "uninsured": [
+     1.426,
+     0.847,
+     0.842,
+     0.437
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Less: state maintenance of effort and retained flows": -306.773,
+     "Other subsidies (held fixed)": 69.0,
+     "Single-payer plan outlays, net of cost sharing": 6722.871
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion ended": -680.0,
+     "Medicaid and CHIP federal funding replaced": -763.0,
+     "Medicare subsidies replaced": -1511.0,
+     "Premium tax credit and related spending replaced": -116.0,
+     "Single-payer plan outlays, net of cost sharing": 6722.871,
+     "State maintenance of effort and other retained non-federal flows": -306.773
+    },
+    "gross_new_bn": 6722.871,
+    "net_change_bn": 3346.098,
+    "offsets_bn": 3376.773,
+    "total_subsidies_bn": 6485.098
+   },
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 8.869,
+      "people": 78.677,
+      "per_person": 112.72,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 4.683,
+      "people": 63.666,
+      "per_person": 73.55,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 4.871,
+      "people": 68.561,
+      "per_person": 71.04,
+      "premiums_bn": 0.0
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 3.83,
+      "people": 144.295,
+      "per_person": 26.541,
+      "premiums_bn": 0.0
+     }
+    ],
+    "by_source": {
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "sp": {
+      "oop_pp": 0.0,
+      "people": 346.798,
+      "premium_pp": 0.0
+     },
+     "uninsured": {
+      "oop_pp": 2790.489,
+      "people": 3.552,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 0.0,
+    "matrix": {
+     "esi": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicaid": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicaid_new": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m60": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_sub": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "sp": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 22.252,
+    "premiums_bn": 0.0,
+    "total_bn": 22.252
+   },
+   "insured_change": 33.648,
+   "nhe_bn": 8320.742,
+   "nhe_change_bn": 44.953,
+   "people": {
+    "esi": 0.0,
+    "medicaid": 0.0,
+    "medicaid_new": 0.0,
+    "medicare": 0.0,
+    "medicare_kids": 0.0,
+    "medicare_m50": 0.0,
+    "medicare_m60": 0.0,
+    "ng_sub": 0.0,
+    "ng_unsub": 0.0,
+    "other": 4.85,
+    "po": 0.0,
+    "sp": 346.798,
+    "uninsured": 3.552
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 1546.847,
+    "household_premiums_and_oop": 1716.102
+   },
+   "single_payer": {
+    "admin_bn": 336.144,
+    "amount_to_be_financed_bn": 3346.098,
+    "baseline_claims_bn": 6182.319,
+    "claims_before_use_bn": 5770.919,
+    "cost_sharing_bn": 0.0,
+    "ltc_bn": 200.0,
+    "new_use_bn": 242.681,
+    "newly_covered_millions": 33.648,
+    "plan_gross_bn": 6722.871,
+    "plan_outlay_bn": 6722.871,
+    "provider_revenue_bn": 6386.727,
+    "rate_multiple_of_medicare": 1.15,
+    "state_and_retained_bn": 306.773,
+    "use_increase": 0.03
+   },
+   "uninsured": 3.552,
+   "uninsured_change": -33.648
+  },
+  "staged": {
+   "cells": {
+    "esi": [
+     11.655,
+     24.604,
+     28.489,
+     93.046
+    ],
+    "medicaid": [
+     37.165,
+     11.651,
+     9.193,
+     1.966
+    ],
+    "medicaid_new": [
+     6.372,
+     0.708,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     8.496,
+     12.744,
+     15.576,
+     33.984
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m60": [
+     1.085,
+     1.409,
+     1.575,
+     2.609
+    ],
+    "ng_sub": [
+     3.099,
+     4.206,
+     4.287,
+     1.733
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.176,
+     2.485
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     3.962,
+     4.199,
+     4.722,
+     5.148
+    ],
+    "sp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "uninsured": [
+     4.116,
+     3.297,
+     3.876,
+     2.717
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Employer-coverage tax exclusion": 655.671,
+     "Medicaid and CHIP, existing enrollees": 763.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 1511.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 49.012,
+     "Other subsidies (held fixed)": 69.0,
+     "Premium tax credit, marketplace": 115.465,
+     "Premium tax credit, public option": 132.965
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion": -24.329,
+     "Medicaid and CHIP, existing enrollees": 0.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 0.0,
+     "Medicare, new at 50-59": 0.0,
+     "Medicare, new at 60-64": 49.012,
+     "Other subsidies (held fixed)": 0.0,
+     "Premium tax credit, marketplace": -0.535,
+     "Premium tax credit, public option": 132.965
+    },
+    "gross_new_bn": 276.377,
+    "net_change_bn": 251.513,
+    "offsets_bn": 24.864,
+    "total_subsidies_bn": 3390.513
+   },
+   "flows": [
+    {
+     "frm": "uninsured",
+     "label": "restore: Medicaid",
+     "millions": 7.08,
+     "to": "medicaid_new"
+    },
+    {
+     "frm": "uninsured",
+     "label": "restore: marketplace provisions",
+     "millions": 2.84,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "uninsured",
+     "label": "restore: enhanced credits",
+     "millions": 3.68,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "restore: credits reach above 400% FPL",
+     "millions": 2.737,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "uninsured",
+     "label": "public option: auto-enrolled uninsured",
+     "millions": 9.086,
+     "to": "po"
+    },
+    {
+     "frm": "ng_sub",
+     "label": "public option: from ng_sub",
+     "millions": 6.313,
+     "to": "po"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "public option: from ng_unsub",
+     "millions": 1.26,
+     "to": "po"
+    },
+    {
+     "frm": "esi",
+     "label": "public option: from esi",
+     "millions": 3.273,
+     "to": "po"
+    },
+    {
+     "frm": "uninsured",
+     "label": "m60: uninsured",
+     "millions": 0.508,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "ng_sub",
+     "label": "m60: from ng_sub",
+     "millions": 1.405,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "m60: from ng_unsub",
+     "millions": 0.281,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "po",
+     "label": "m60: from po",
+     "millions": 1.902,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "esi",
+     "label": "m60: from esi",
+     "millions": 2.582,
+     "to": "medicare_m60"
+    }
+   ],
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 89.649,
+      "people": 78.677,
+      "per_person": 2067.898,
+      "premiums_bn": 73.047
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 137.695,
+      "people": 63.666,
+      "per_person": 4271.144,
+      "premiums_bn": 134.233
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 183.04,
+      "people": 68.561,
+      "per_person": 5158.302,
+      "premiums_bn": 170.62
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 435.302,
+      "people": 144.295,
+      "per_person": 6444.039,
+      "premiums_bn": 494.541
+     }
+    ],
+    "by_source": {
+     "esi": {
+      "oop_pp": 2143.491,
+      "people": 157.795,
+      "premium_pp": 3390.451
+     },
+     "medicaid": {
+      "oop_pp": 367.066,
+      "people": 59.975,
+      "premium_pp": 0.0
+     },
+     "medicaid_new": {
+      "oop_pp": 326.727,
+      "people": 7.08,
+      "premium_pp": 0.0
+     },
+     "medicare": {
+      "oop_pp": 3665.473,
+      "people": 70.8,
+      "premium_pp": 3500.0
+     },
+     "medicare_m60": {
+      "oop_pp": 3550.984,
+      "people": 6.677,
+      "premium_pp": 3500.0
+     },
+     "ng_sub": {
+      "oop_pp": 4123.106,
+      "people": 13.325,
+      "premium_pp": 1458.267
+     },
+     "ng_unsub": {
+      "oop_pp": 5215.806,
+      "people": 2.66,
+      "premium_pp": 10123.315
+     },
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "po": {
+      "oop_pp": 4299.371,
+      "people": 18.031,
+      "premium_pp": 1104.246
+     },
+     "uninsured": {
+      "oop_pp": 2943.088,
+      "people": 14.006,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 1491.504,
+    "matrix": {
+     "esi": [
+      4768.003,
+      5161.59,
+      5456.78,
+      5751.969
+     ],
+     "medicaid": [
+      317.651,
+      408.409,
+      476.477,
+      544.545
+     ],
+     "medicaid_new": [
+      317.651,
+      408.409,
+      null,
+      null
+     ],
+     "medicare": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m60": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "ng_sub": [
+      3067.888,
+      4248.399,
+      6820.297,
+      10245.451
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      14725.147,
+      15382.551
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      3067.888,
+      3944.427,
+      5175.486,
+      8600.64
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 845.687,
+    "premiums_bn": 872.441,
+    "total_bn": 1718.128
+   },
+   "insured_change": 23.194,
+   "nhe_bn": 8286.168,
+   "nhe_change_bn": 10.379,
+   "people": {
+    "esi": 157.795,
+    "medicaid": 59.975,
+    "medicaid_new": 7.08,
+    "medicare": 70.8,
+    "medicare_kids": 0.0,
+    "medicare_m50": 0.0,
+    "medicare_m60": 6.677,
+    "ng_sub": 13.325,
+    "ng_unsub": 2.66,
+    "other": 4.85,
+    "po": 18.031,
+    "sp": 0.0,
+    "uninsured": 14.006
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 55.343,
+    "household_premiums_and_oop": 20.226
+   },
+   "uninsured": 14.006,
+   "uninsured_change": -23.194
+  },
+  "staged_full": {
+   "cells": {
+    "esi": [
+     11.397,
+     24.061,
+     27.86,
+     90.992
+    ],
+    "medicaid": [
+     37.165,
+     11.651,
+     9.193,
+     1.966
+    ],
+    "medicaid_new": [
+     6.372,
+     0.708,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     8.496,
+     12.744,
+     15.576,
+     33.984
+    ],
+    "medicare_kids": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "medicare_m50": [
+     1.045,
+     1.367,
+     1.548,
+     2.904
+    ],
+    "medicare_m60": [
+     1.085,
+     1.409,
+     1.575,
+     2.609
+    ],
+    "ng_sub": [
+     2.882,
+     3.912,
+     3.987,
+     1.612
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.163,
+     2.311
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     3.685,
+     3.905,
+     4.391,
+     4.788
+    ],
+    "sp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "uninsured": [
+     3.822,
+     3.061,
+     3.6,
+     2.523
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Employer-coverage tax exclusion": 641.194,
+     "Medicaid and CHIP, existing enrollees": 763.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 1511.0,
+     "Medicare, new at 50-59": 37.045,
+     "Medicare, new at 60-64": 49.012,
+     "Other subsidies (held fixed)": 69.0,
+     "Premium tax credit, marketplace": 107.387,
+     "Premium tax credit, public option": 123.663
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion": -38.806,
+     "Medicaid and CHIP, existing enrollees": 0.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 0.0,
+     "Medicare, existing enrollees": 0.0,
+     "Medicare, new at 50-59": 37.045,
+     "Medicare, new at 60-64": 49.012,
+     "Other subsidies (held fixed)": 0.0,
+     "Premium tax credit, marketplace": -8.613,
+     "Premium tax credit, public option": 123.663
+    },
+    "gross_new_bn": 304.119,
+    "net_change_bn": 256.7,
+    "offsets_bn": 47.42,
+    "total_subsidies_bn": 3395.7
+   },
+   "flows": [
+    {
+     "frm": "uninsured",
+     "label": "restore: Medicaid",
+     "millions": 7.08,
+     "to": "medicaid_new"
+    },
+    {
+     "frm": "uninsured",
+     "label": "restore: marketplace provisions",
+     "millions": 2.84,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "uninsured",
+     "label": "restore: enhanced credits",
+     "millions": 3.68,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "restore: credits reach above 400% FPL",
+     "millions": 2.737,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "uninsured",
+     "label": "public option: auto-enrolled uninsured",
+     "millions": 9.086,
+     "to": "po"
+    },
+    {
+     "frm": "ng_sub",
+     "label": "public option: from ng_sub",
+     "millions": 6.313,
+     "to": "po"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "public option: from ng_unsub",
+     "millions": 1.26,
+     "to": "po"
+    },
+    {
+     "frm": "esi",
+     "label": "public option: from esi",
+     "millions": 3.273,
+     "to": "po"
+    },
+    {
+     "frm": "uninsured",
+     "label": "m60: uninsured",
+     "millions": 0.508,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "ng_sub",
+     "label": "m60: from ng_sub",
+     "millions": 1.405,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "m60: from ng_unsub",
+     "millions": 0.281,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "po",
+     "label": "m60: from po",
+     "millions": 1.902,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "esi",
+     "label": "m60: from esi",
+     "millions": 2.582,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "uninsured",
+     "label": "m50: uninsured",
+     "millions": 1.0,
+     "to": "medicare_m50"
+    },
+    {
+     "frm": "ng_sub",
+     "label": "m50: from ng_sub",
+     "millions": 0.932,
+     "to": "medicare_m50"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "m50: from ng_unsub",
+     "millions": 0.186,
+     "to": "medicare_m50"
+    },
+    {
+     "frm": "po",
+     "label": "m50: from po",
+     "millions": 1.261,
+     "to": "medicare_m50"
+    },
+    {
+     "frm": "esi",
+     "label": "m50: from esi",
+     "millions": 3.484,
+     "to": "medicare_m50"
+    }
+   ],
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 89.683,
+      "people": 78.677,
+      "per_person": 2103.73,
+      "premiums_bn": 75.833
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 138.033,
+      "people": 63.666,
+      "per_person": 4321.239,
+      "premiums_bn": 137.085
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 183.533,
+      "people": 68.561,
+      "per_person": 5199.153,
+      "premiums_bn": 172.927
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 438.405,
+      "people": 144.295,
+      "per_person": 6462.981,
+      "premiums_bn": 494.171
+     }
+    ],
+    "by_source": {
+     "esi": {
+      "oop_pp": 2143.491,
+      "people": 154.311,
+      "premium_pp": 3390.451
+     },
+     "medicaid": {
+      "oop_pp": 367.066,
+      "people": 59.975,
+      "premium_pp": 0.0
+     },
+     "medicaid_new": {
+      "oop_pp": 326.727,
+      "people": 7.08,
+      "premium_pp": 0.0
+     },
+     "medicare": {
+      "oop_pp": 3665.473,
+      "people": 70.8,
+      "premium_pp": 3500.0
+     },
+     "medicare_m50": {
+      "oop_pp": 3586.433,
+      "people": 6.864,
+      "premium_pp": 3500.0
+     },
+     "medicare_m60": {
+      "oop_pp": 3550.984,
+      "people": 6.677,
+      "premium_pp": 3500.0
+     },
+     "ng_sub": {
+      "oop_pp": 4123.106,
+      "people": 12.393,
+      "premium_pp": 1458.267
+     },
+     "ng_unsub": {
+      "oop_pp": 5215.806,
+      "people": 2.474,
+      "premium_pp": 10123.315
+     },
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "po": {
+      "oop_pp": 4299.371,
+      "people": 16.769,
+      "premium_pp": 1104.246
+     },
+     "uninsured": {
+      "oop_pp": 2943.088,
+      "people": 13.006,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 1458.572,
+    "matrix": {
+     "esi": [
+      4768.003,
+      5161.59,
+      5456.78,
+      5751.969
+     ],
+     "medicaid": [
+      317.651,
+      408.409,
+      476.477,
+      544.545
+     ],
+     "medicaid_new": [
+      317.651,
+      408.409,
+      null,
+      null
+     ],
+     "medicare": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_kids": [
+      null,
+      null,
+      null,
+      null
+     ],
+     "medicare_m50": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_m60": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "ng_sub": [
+      3067.888,
+      4248.399,
+      6820.297,
+      10245.451
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      14725.147,
+      15382.551
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      3067.888,
+      3944.427,
+      5175.486,
+      8600.64
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 849.655,
+    "premiums_bn": 880.015,
+    "total_bn": 1729.67
+   },
+   "insured_change": 24.194,
+   "nhe_bn": 8267.158,
+   "nhe_change_bn": -8.632,
+   "people": {
+    "esi": 154.311,
+    "medicaid": 59.975,
+    "medicaid_new": 7.08,
+    "medicare": 70.8,
+    "medicare_kids": 0.0,
+    "medicare_m50": 6.864,
+    "medicare_m60": 6.677,
+    "ng_sub": 12.393,
+    "ng_unsub": 2.474,
+    "other": 4.85,
+    "po": 16.769,
+    "sp": 0.0,
+    "uninsured": 13.006
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 88.276,
+    "household_premiums_and_oop": 8.683
+   },
+   "uninsured": 13.006,
+   "uninsured_change": -24.194
+  },
+  "staged_full_kids": {
+   "cells": {
+    "esi": [
+     11.147,
+     23.532,
+     27.247,
+     88.99
+    ],
+    "medicaid": [
+     37.165,
+     11.651,
+     9.193,
+     1.966
+    ],
+    "medicaid_new": [
+     6.372,
+     0.708,
+     0.0,
+     0.0
+    ],
+    "medicare": [
+     8.496,
+     12.744,
+     15.576,
+     33.984
+    ],
+    "medicare_kids": [
+     0.831,
+     1.032,
+     1.195,
+     2.45
+    ],
+    "medicare_m50": [
+     1.045,
+     1.367,
+     1.548,
+     2.904
+    ],
+    "medicare_m60": [
+     1.085,
+     1.409,
+     1.575,
+     2.609
+    ],
+    "ng_sub": [
+     2.839,
+     3.853,
+     3.927,
+     1.588
+    ],
+    "ng_unsub": [
+     0.0,
+     0.0,
+     0.161,
+     2.276
+    ],
+    "other": [
+     2.728,
+     0.849,
+     0.667,
+     0.606
+    ],
+    "po": [
+     3.63,
+     3.847,
+     4.326,
+     4.716
+    ],
+    "sp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "uninsured": [
+     3.34,
+     2.676,
+     3.146,
+     2.205
+    ]
+   },
+   "federal": {
+    "components_bn": {
+     "Employer-coverage tax exclusion": 627.087,
+     "Medicaid and CHIP, existing enrollees": 763.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 11.891,
+     "Medicare, existing enrollees": 1511.0,
+     "Medicare, new at 50-59": 37.045,
+     "Medicare, new at 60-64": 49.012,
+     "Other subsidies (held fixed)": 69.0,
+     "Premium tax credit, marketplace": 105.776,
+     "Premium tax credit, public option": 121.808
+    },
+    "delta_components_bn": {
+     "Employer-coverage tax exclusion": -52.913,
+     "Medicaid and CHIP, existing enrollees": 0.0,
+     "Medicaid and CHIP, restored adults": 94.4,
+     "Medicaid financing restored (provider taxes, directed payments)": 0.0,
+     "Medicare, children": 11.891,
+     "Medicare, existing enrollees": 0.0,
+     "Medicare, new at 50-59": 37.045,
+     "Medicare, new at 60-64": 49.012,
+     "Other subsidies (held fixed)": 0.0,
+     "Premium tax credit, marketplace": -10.224,
+     "Premium tax credit, public option": 121.808
+    },
+    "gross_new_bn": 314.156,
+    "net_change_bn": 251.019,
+    "offsets_bn": 63.137,
+    "total_subsidies_bn": 3390.019
+   },
+   "flows": [
+    {
+     "frm": "uninsured",
+     "label": "restore: Medicaid",
+     "millions": 7.08,
+     "to": "medicaid_new"
+    },
+    {
+     "frm": "uninsured",
+     "label": "restore: marketplace provisions",
+     "millions": 2.84,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "uninsured",
+     "label": "restore: enhanced credits",
+     "millions": 3.68,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "restore: credits reach above 400% FPL",
+     "millions": 2.737,
+     "to": "ng_sub"
+    },
+    {
+     "frm": "uninsured",
+     "label": "public option: auto-enrolled uninsured",
+     "millions": 9.086,
+     "to": "po"
+    },
+    {
+     "frm": "ng_sub",
+     "label": "public option: from ng_sub",
+     "millions": 6.313,
+     "to": "po"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "public option: from ng_unsub",
+     "millions": 1.26,
+     "to": "po"
+    },
+    {
+     "frm": "esi",
+     "label": "public option: from esi",
+     "millions": 3.273,
+     "to": "po"
+    },
+    {
+     "frm": "uninsured",
+     "label": "m60: uninsured",
+     "millions": 0.508,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "ng_sub",
+     "label": "m60: from ng_sub",
+     "millions": 1.405,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "m60: from ng_unsub",
+     "millions": 0.281,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "po",
+     "label": "m60: from po",
+     "millions": 1.902,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "esi",
+     "label": "m60: from esi",
+     "millions": 2.582,
+     "to": "medicare_m60"
+    },
+    {
+     "frm": "uninsured",
+     "label": "m50: uninsured",
+     "millions": 1.0,
+     "to": "medicare_m50"
+    },
+    {
+     "frm": "ng_sub",
+     "label": "m50: from ng_sub",
+     "millions": 0.932,
+     "to": "medicare_m50"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "m50: from ng_unsub",
+     "millions": 0.186,
+     "to": "medicare_m50"
+    },
+    {
+     "frm": "po",
+     "label": "m50: from po",
+     "millions": 1.261,
+     "to": "medicare_m50"
+    },
+    {
+     "frm": "esi",
+     "label": "m50: from esi",
+     "millions": 3.484,
+     "to": "medicare_m50"
+    },
+    {
+     "frm": "uninsured",
+     "label": "children: uninsured",
+     "millions": 1.639,
+     "to": "medicare_kids"
+    },
+    {
+     "frm": "esi",
+     "label": "children: from esi",
+     "millions": 3.395,
+     "to": "medicare_kids"
+    },
+    {
+     "frm": "ng_sub",
+     "label": "children: from ng_sub",
+     "millions": 0.186,
+     "to": "medicare_kids"
+    },
+    {
+     "frm": "ng_unsub",
+     "label": "children: from ng_unsub",
+     "millions": 0.037,
+     "to": "medicare_kids"
+    },
+    {
+     "frm": "po",
+     "label": "children: from po",
+     "millions": 0.252,
+     "to": "medicare_kids"
+    }
+   ],
+   "household": {
+    "by_band": [
+     {
+      "band": "<138%",
+      "oop_bn": 90.005,
+      "people": 78.677,
+      "per_person": 2133.982,
+      "premiums_bn": 77.891
+     },
+     {
+      "band": "138-250%",
+      "oop_bn": 138.781,
+      "people": 63.666,
+      "per_person": 4361.273,
+      "premiums_bn": 138.885
+     },
+     {
+      "band": "250-400%",
+      "oop_bn": 184.554,
+      "people": 68.561,
+      "per_person": 5241.865,
+      "premiums_bn": 174.835
+     },
+     {
+      "band": "400%+",
+      "oop_bn": 442.033,
+      "people": 144.295,
+      "per_person": 6495.593,
+      "premiums_bn": 495.248
+     }
+    ],
+    "by_source": {
+     "esi": {
+      "oop_pp": 2143.491,
+      "people": 150.916,
+      "premium_pp": 3390.451
+     },
+     "medicaid": {
+      "oop_pp": 367.066,
+      "people": 59.975,
+      "premium_pp": 0.0
+     },
+     "medicaid_new": {
+      "oop_pp": 326.727,
+      "people": 7.08,
+      "premium_pp": 0.0
+     },
+     "medicare": {
+      "oop_pp": 3665.473,
+      "people": 70.8,
+      "premium_pp": 3500.0
+     },
+     "medicare_kids": {
+      "oop_pp": 3605.689,
+      "people": 5.508,
+      "premium_pp": 3500.0
+     },
+     "medicare_m50": {
+      "oop_pp": 3586.433,
+      "people": 6.864,
+      "premium_pp": 3500.0
+     },
+     "medicare_m60": {
+      "oop_pp": 3550.984,
+      "people": 6.677,
+      "premium_pp": 3500.0
+     },
+     "ng_sub": {
+      "oop_pp": 4123.106,
+      "people": 12.207,
+      "premium_pp": 1458.267
+     },
+     "ng_unsub": {
+      "oop_pp": 5215.806,
+      "people": 2.437,
+      "premium_pp": 10123.315
+     },
+     "other": {
+      "oop_pp": 2544.269,
+      "people": 4.85,
+      "premium_pp": 0.0
+     },
+     "po": {
+      "oop_pp": 4299.371,
+      "people": 16.518,
+      "premium_pp": 1104.246
+     },
+     "uninsured": {
+      "oop_pp": 2943.088,
+      "people": 11.367,
+      "premium_pp": 0.0
+     }
+    },
+    "employer_premiums_bn": 1426.483,
+    "matrix": {
+     "esi": [
+      4768.003,
+      5161.59,
+      5456.78,
+      5751.969
+     ],
+     "medicaid": [
+      317.651,
+      408.409,
+      476.477,
+      544.545
+     ],
+     "medicaid_new": [
+      317.651,
+      408.409,
+      null,
+      null
+     ],
+     "medicare": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_kids": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_m50": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "medicare_m60": [
+      5936.687,
+      6632.883,
+      7155.03,
+      7677.177
+     ],
+     "ng_sub": [
+      3067.888,
+      4248.399,
+      6820.297,
+      10245.451
+     ],
+     "ng_unsub": [
+      null,
+      null,
+      14725.147,
+      15382.551
+     ],
+     "other": [
+      2106.121,
+      2707.87,
+      3159.182,
+      3610.493
+     ],
+     "po": [
+      3067.888,
+      3944.427,
+      5175.486,
+      8600.64
+     ],
+     "uninsured": [
+      2189.468,
+      2815.03,
+      3284.202,
+      3753.374
+     ]
+    },
+    "oop_bn": 855.374,
+    "premiums_bn": 886.859,
+    "total_bn": 1742.233
+   },
+   "insured_change": 25.833,
+   "nhe_bn": 8230.918,
+   "nhe_change_bn": -44.871,
+   "people": {
+    "esi": 150.916,
+    "medicaid": 59.975,
+    "medicaid_new": 7.08,
+    "medicare": 70.8,
+    "medicare_kids": 5.508,
+    "medicare_m50": 6.864,
+    "medicare_m60": 6.677,
+    "ng_sub": 12.207,
+    "ng_unsub": 2.437,
+    "other": 4.85,
+    "po": 16.518,
+    "sp": 0.0,
+    "uninsured": 11.367
+   },
+   "private_flows_removed_bn": {
+    "employer_premiums": 120.364,
+    "household_premiums_and_oop": -3.88
+   },
+   "uninsured": 11.367,
+   "uninsured_change": -25.833
+  }
+ },
+ "run_log": {
+  "as_of": "2026-11-10",
+  "evidence_register": "dossiers/care/evidence.json (EV-CAR-020 to 061, 120-121, 131, 135, 206-209, 217-229, 236-237, 243, 263)",
+  "inputs_csv_sha256": "f2cd9186f81f",
+  "model_version": "0.1.0",
+  "scenarios_csv_sha256": "92cf583c7b79"
+ },
+ "scenario_titles": {
+  "baseline_2029": "Current law in 2029",
+  "bench_credits_only": "Benchmark helper: credits only",
+  "bench_law_only": "Benchmark helper: law provisions only",
+  "bench_medicare60_only": "Benchmark helper: Medicare at 60 only",
+  "public_option": "Public option",
+  "restore": "Restore",
+  "single_payer_cbo_like": "Single payer (CBO-like middle option)",
+  "single_payer_cbo_like_high": "Single payer (CBO-like higher-cost corner)",
+  "single_payer_cbo_like_low": "Single payer (CBO-like lower-cost corner)",
+  "single_payer_project_central": "Single payer (project central)",
+  "staged": "Staged (2032 status)",
+  "staged_full": "Staged (all stages in force)",
+  "staged_full_kids": "Staged with children's Medicare"
+ },
+ "staged_path_to_single_payer": [
+  {
+   "federal_bn": 85.834,
+   "nhe_bn": 26.805,
+   "weight_single_payer": 0.0,
+   "year": 2030
+  },
+  {
+   "federal_bn": 505.913,
+   "nhe_bn": 34.123,
+   "weight_single_payer": 0.1,
+   "year": 2031
+  },
+  {
+   "federal_bn": 870.43,
+   "nhe_bn": 17.293,
+   "weight_single_payer": 0.2,
+   "year": 2032
+  },
+  {
+   "federal_bn": 1250.93,
+   "nhe_bn": 21.871,
+   "weight_single_payer": 0.3,
+   "year": 2033
+  },
+  {
+   "federal_bn": 1670.118,
+   "nhe_bn": 26.893,
+   "weight_single_payer": 0.4,
+   "year": 2034
+  },
+  {
+   "federal_bn": 2126.444,
+   "nhe_bn": 16.221,
+   "weight_single_payer": 0.5,
+   "year": 2035
+  },
+  {
+   "federal_bn": 2627.864,
+   "nhe_bn": 11.136,
+   "weight_single_payer": 0.6,
+   "year": 2036
+  },
+  {
+   "federal_bn": 3184.403,
+   "nhe_bn": 23.421,
+   "weight_single_payer": 0.7,
+   "year": 2037
+  },
+  {
+   "federal_bn": 3795.562,
+   "nhe_bn": 37.001,
+   "weight_single_payer": 0.8,
+   "year": 2038
+  },
+  {
+   "federal_bn": 4465.742,
+   "nhe_bn": 51.979,
+   "weight_single_payer": 0.9,
+   "year": 2039
+  }
+ ],
+ "status": "exploratory",
+ "uncertainty": {
+  "public_option": {
+   "central": {
+    "fed": 239.429,
+    "nhe": 11.74,
+    "unins": 14.514
+   },
+   "corners": {
+    "all_high": {
+     "fed": 333.761,
+     "nhe": 159.266,
+     "unins": 9.794
+    },
+    "all_low": {
+     "fed": 184.061,
+     "nhe": -98.998,
+     "unins": 21.36
+    },
+    "cost_max": {
+     "fed": 531.34,
+     "nhe": 356.632,
+     "unins": 9.794
+    },
+    "cost_min": {
+     "fed": 52.892,
+     "nhe": -213.616,
+     "unins": 21.36
+    }
+   },
+   "n_ranged_inputs": 88,
+   "tornado": [
+    {
+     "fed_at_high": 285.727,
+     "fed_at_low": 190.594,
+     "high_value": 2.0,
+     "input": "po_rate_pct_medicare",
+     "low_value": 1.2,
+     "nhe_at_high": 69.499,
+     "nhe_at_low": -46.02,
+     "swing": 95.133,
+     "unins_at_high": 14.514,
+     "unins_at_low": 14.514
+    },
+    {
+     "fed_at_high": 299.429,
+     "fed_at_low": 239.429,
+     "high_value": 60.0,
+     "input": "mcd_financing_restore",
+     "low_value": 0.0,
+     "nhe_at_high": 11.74,
+     "nhe_at_low": 11.74,
+     "swing": 60.0,
+     "unins_at_high": 14.514,
+     "unins_at_low": 14.514
+    },
+    {
+     "fed_at_high": 226.59,
+     "fed_at_low": 273.324,
+     "high_value": 2.8,
+     "input": "hosp_commercial_ratio",
+     "low_value": 2.0,
+     "nhe_at_high": -4.277,
+     "nhe_at_low": 54.026,
+     "swing": 46.734,
+     "unins_at_high": 14.514,
+     "unins_at_low": 14.514
+    },
+    {
+     "fed_at_high": 218.341,
+     "fed_at_low": 259.218,
+     "high_value": 0.75,
+     "input": "po_benchmark_pass",
+     "low_value": 0.25,
+     "nhe_at_high": -2.794,
+     "nhe_at_low": 26.273,
+     "swing": 40.877,
+     "unins_at_high": 14.514,
+     "unins_at_low": 14.514
+    },
+    {
+     "fed_at_high": 259.344,
+     "fed_at_low": 219.514,
+     "high_value": 0.9,
+     "input": "po_autoenroll_takeup",
+     "low_value": 0.5,
+     "nhe_at_high": 16.858,
+     "nhe_at_low": 6.621,
+     "swing": 39.83,
+     "unins_at_high": 11.918,
+     "unins_at_low": 17.11
+    }
+   ]
+  },
+  "restore": {
+   "central": {
+    "fed": 189.943,
+    "nhe": 59.556,
+    "unins": 23.6
+   },
+   "corners": {
+    "all_high": {
+     "fed": 247.154,
+     "nhe": 129.551,
+     "unins": 23.6
+    },
+    "all_low": {
+     "fed": 152.634,
+     "nhe": -36.377,
+     "unins": 26.7
+    },
+    "cost_max": {
+     "fed": 274.682,
+     "nhe": 138.254,
+     "unins": 23.6
+    },
+    "cost_min": {
+     "fed": 132.141,
+     "nhe": -39.884,
+     "unins": 26.7
+    }
+   },
+   "n_ranged_inputs": 88,
+   "tornado": [
+    {
+     "fed_at_high": 249.943,
+     "fed_at_low": 189.943,
+     "high_value": 60.0,
+     "input": "mcd_financing_restore",
+     "low_value": 0.0,
+     "nhe_at_high": 59.556,
+     "nhe_at_low": 59.556,
+     "swing": 60.0,
+     "unins_at_high": 23.6,
+     "unins_at_low": 23.6
+    },
+    {
+     "fed_at_high": 189.943,
+     "fed_at_low": 158.476,
+     "high_value": 7.5,
+     "input": "law_mcd_unins_2034",
+     "low_value": 5.0,
+     "nhe_at_high": 59.556,
+     "nhe_at_low": 49.708,
+     "swing": 31.467,
+     "unins_at_high": 23.6,
+     "unins_at_low": 25.96
+    },
+    {
+     "fed_at_high": 187.224,
+     "fed_at_low": 194.02,
+     "high_value": 0.075,
+     "input": "ap_enh_b3",
+     "low_value": 0.05,
+     "nhe_at_high": 59.556,
+     "nhe_at_low": 59.556,
+     "swing": 6.796,
+     "unins_at_high": 23.6,
+     "unins_at_low": 23.6
+    },
+    {
+     "fed_at_high": 185.563,
+     "fed_at_low": 191.987,
+     "high_value": 700.0,
+     "input": "mid_b4",
+     "low_value": 480.0,
+     "nhe_at_high": 59.556,
+     "nhe_at_low": 59.556,
+     "swing": 6.423,
+     "unins_at_high": 23.6,
+     "unins_at_low": 23.6
+    },
+    {
+     "fed_at_high": 191.423,
+     "fed_at_low": 186.725,
+     "high_value": 0.1,
+     "input": "ap_orig_b3",
+     "low_value": 0.085,
+     "nhe_at_high": 59.923,
+     "nhe_at_low": 58.759,
+     "swing": 4.697,
+     "unins_at_high": 23.6,
+     "unins_at_low": 23.6
+    }
+   ]
+  },
+  "single_payer_cbo_like": {
+   "central": {
+    "fed": 3285.773,
+    "nhe": -137.712,
+    "unins": 3.552
+   },
+   "corners": {
+    "all_high": {
+     "fed": 3428.377,
+     "nhe": -206.84,
+     "unins": 10.656
+    },
+    "all_low": {
+     "fed": 2837.15,
+     "nhe": -226.409,
+     "unins": 0.0
+    },
+    "cost_max": {
+     "fed": 4654.214,
+     "nhe": 597.901,
+     "unins": 0.0
+    },
+    "cost_min": {
+     "fed": 2139.552,
+     "nhe": -562.702,
+     "unins": 10.656
+    }
+   },
+   "n_ranged_inputs": 85,
+   "tornado": [
+    {
+     "fed_at_high": 3466.505,
+     "fed_at_low": 3116.697,
+     "high_value": 0.06,
+     "input": "nhe_g_phi",
+     "low_value": 0.04,
+     "nhe_at_high": -143.154,
+     "nhe_at_low": -132.62,
+     "swing": 349.808,
+     "unins_at_high": 3.552,
+     "unins_at_low": 3.552
+    },
+    {
+     "fed_at_high": 3101.339,
+     "fed_at_low": 3408.729,
+     "high_value": 0.06,
+     "input": "sp_cs_low_rate",
+     "low_value": 0.01,
+     "nhe_at_high": -137.712,
+     "nhe_at_low": -137.712,
+     "swing": 307.39,
+     "unins_at_high": 3.552,
+     "unins_at_low": 3.552
+    },
+    {
+     "fed_at_high": 3442.405,
+     "fed_at_low": 3138.997,
+     "high_value": 0.087,
+     "input": "nhe_g_medicare",
+     "low_value": 0.067,
+     "nhe_at_high": -131.84,
+     "nhe_at_low": -143.214,
+     "swing": 303.409,
+     "unins_at_high": 3.552,
+     "unins_at_low": 3.552
+    },
+    {
+     "fed_at_high": 3368.976,
+     "fed_at_low": 3077.764,
+     "high_value": 0.5,
+     "input": "unins_paid_share",
+     "low_value": 0.2,
+     "nhe_at_high": -52.094,
+     "nhe_at_low": -351.756,
+     "swing": 291.212,
+     "unins_at_high": 3.552,
+     "unins_at_low": 3.552
+    },
+    {
+     "fed_at_high": 3417.035,
+     "fed_at_low": 3154.51,
+     "high_value": 1.0,
+     "input": "new_enrollee_factor",
+     "low_value": 0.6,
+     "nhe_at_high": -2.64,
+     "nhe_at_low": -272.783,
+     "swing": 262.525,
+     "unins_at_high": 3.552,
+     "unins_at_low": 3.552
+    }
+   ]
+  },
+  "single_payer_project_central": {
+   "central": {
+    "fed": 3346.098,
+    "nhe": 44.953,
+    "unins": 3.552
+   },
+   "corners": {
+    "all_high": {
+     "fed": 4386.257,
+     "nhe": 934.238,
+     "unins": 10.656
+    },
+    "all_low": {
+     "fed": 2858.844,
+     "nhe": -260.769,
+     "unins": 0.0
+    },
+    "cost_max": {
+     "fed": 8663.024,
+     "nhe": 4533.415,
+     "unins": 0.0
+    },
+    "cost_min": {
+     "fed": 788.497,
+     "nhe": -1821.439,
+     "unins": 10.656
+    }
+   },
+   "n_ranged_inputs": 88,
+   "tornado": [
+    {
+     "fed_at_high": 4704.697,
+     "fed_at_low": 2530.939,
+     "high_value": 1.4,
+     "input": "sp_rate_pct_medicare",
+     "low_value": 1.0,
+     "nhe_at_high": 1403.551,
+     "nhe_at_low": -770.207,
+     "swing": 2173.758,
+     "unins_at_high": 3.552,
+     "unins_at_low": 3.552
+    },
+    {
+     "fed_at_high": 3006.726,
+     "fed_at_low": 3789.893,
+     "high_value": 0.85,
+     "input": "medicaid_fee_idx",
+     "low_value": 0.6,
+     "nhe_at_high": -294.42,
+     "nhe_at_low": 488.747,
+     "swing": 783.167,
+     "unins_at_high": 3.552,
+     "unins_at_low": 3.552
+    },
+    {
+     "fed_at_high": 3162.035,
+     "fed_at_low": 3652.871,
+     "high_value": 0.8,
+     "input": "sp_state_moe",
+     "low_value": 0.0,
+     "nhe_at_high": 44.953,
+     "nhe_at_low": 44.953,
+     "swing": 490.836,
+     "unins_at_high": 3.552,
+     "unins_at_low": 3.552
+    },
+    {
+     "fed_at_high": 3223.159,
+     "fed_at_low": 3670.668,
+     "high_value": 2.8,
+     "input": "hosp_commercial_ratio",
+     "low_value": 2.0,
+     "nhe_at_high": -77.987,
+     "nhe_at_low": 369.523,
+     "swing": 447.51,
+     "unins_at_high": 3.552,
+     "unins_at_low": 3.552
+    },
+    {
+     "fed_at_high": 3532.192,
+     "fed_at_low": 3171.715,
+     "high_value": 0.087,
+     "input": "nhe_g_medicare",
+     "low_value": 0.067,
+     "nhe_at_high": 75.74,
+     "nhe_at_low": 16.102,
+     "swing": 360.477,
+     "unins_at_high": 3.552,
+     "unins_at_low": 3.552
+    }
+   ]
+  },
+  "staged": {
+   "central": {
+    "fed": 251.513,
+    "nhe": 10.379,
+    "unins": 14.006
+   },
+   "corners": {
+    "all_high": {
+     "fed": 359.931,
+     "nhe": 166.817,
+     "unins": 9.265
+    },
+    "all_low": {
+     "fed": 188.791,
+     "nhe": -104.923,
+     "unins": 20.933
+    },
+    "cost_max": {
+     "fed": 592.612,
+     "nhe": 397.554,
+     "unins": 9.265
+    },
+    "cost_min": {
+     "fed": 56.206,
+     "nhe": -220.541,
+     "unins": 20.933
+    }
+   },
+   "n_ranged_inputs": 88,
+   "tornado": [
+    {
+     "fed_at_high": 293.393,
+     "fed_at_low": 207.336,
+     "high_value": 2.0,
+     "input": "po_rate_pct_medicare",
+     "low_value": 1.2,
+     "nhe_at_high": 62.321,
+     "nhe_at_low": -41.564,
+     "swing": 86.057,
+     "unins_at_high": 14.006,
+     "unins_at_low": 14.006
+    },
+    {
+     "fed_at_high": 311.513,
+     "fed_at_low": 251.513,
+     "high_value": 60.0,
+     "input": "mcd_financing_restore",
+     "low_value": 0.0,
+     "nhe_at_high": 10.379,
+     "nhe_at_low": 10.379,
+     "swing": 60.0,
+     "unins_at_high": 14.006,
+     "unins_at_low": 14.006
+    },
+    {
+     "fed_at_high": 236.501,
+     "fed_at_low": 291.145,
+     "high_value": 2.8,
+     "input": "hosp_commercial_ratio",
+     "low_value": 2.0,
+     "nhe_at_high": -8.507,
+     "nhe_at_low": 60.238,
+     "swing": 54.644,
+     "unins_at_high": 14.006,
+     "unins_at_low": 14.006
+    },
+    {
+     "fed_at_high": 270.679,
+     "fed_at_low": 232.346,
+     "high_value": 0.9,
+     "input": "po_autoenroll_takeup",
+     "low_value": 0.5,
+     "nhe_at_high": 15.504,
+     "nhe_at_low": 5.253,
+     "swing": 38.332,
+     "unins_at_high": 11.501,
+     "unins_at_low": 16.511
+    },
+    {
+     "fed_at_high": 232.437,
+     "fed_at_low": 269.414,
+     "high_value": 0.75,
+     "input": "po_benchmark_pass",
+     "low_value": 0.25,
+     "nhe_at_high": -2.768,
+     "nhe_at_low": 23.525,
+     "swing": 36.977,
+     "unins_at_high": 14.006,
+     "unins_at_low": 14.006
+    }
+   ]
+  },
+  "staged_full": {
+   "central": {
+    "fed": 256.7,
+    "nhe": -8.632,
+    "unins": 13.006
+   },
+   "corners": {
+    "all_high": {
+     "fed": 370.077,
+     "nhe": 113.744,
+     "unins": 7.564
+    },
+    "all_low": {
+     "fed": 190.856,
+     "nhe": -111.775,
+     "unins": 20.506
+    },
+    "cost_max": {
+     "fed": 644.797,
+     "nhe": 389.178,
+     "unins": 7.564
+    },
+    "cost_min": {
+     "fed": 57.937,
+     "nhe": -229.259,
+     "unins": 20.506
+    }
+   },
+   "n_ranged_inputs": 88,
+   "tornado": [
+    {
+     "fed_at_high": 295.651,
+     "fed_at_low": 215.614,
+     "high_value": 2.0,
+     "input": "po_rate_pct_medicare",
+     "low_value": 1.2,
+     "nhe_at_high": 39.451,
+     "nhe_at_low": -56.715,
+     "swing": 80.037,
+     "unins_at_high": 13.006,
+     "unins_at_low": 13.006
+    },
+    {
+     "fed_at_high": 239.933,
+     "fed_at_low": 300.967,
+     "high_value": 2.8,
+     "input": "hosp_commercial_ratio",
+     "low_value": 2.0,
+     "nhe_at_high": -29.787,
+     "nhe_at_low": 47.219,
+     "swing": 61.034,
+     "unins_at_high": 13.006,
+     "unins_at_low": 13.006
+    },
+    {
+     "fed_at_high": 316.7,
+     "fed_at_low": 256.7,
+     "high_value": 60.0,
+     "input": "mcd_financing_restore",
+     "low_value": 0.0,
+     "nhe_at_high": -8.632,
+     "nhe_at_low": -8.632,
+     "swing": 60.0,
+     "unins_at_high": 13.006,
+     "unins_at_low": 13.006
+    },
+    {
+     "fed_at_high": 274.527,
+     "fed_at_low": 238.873,
+     "high_value": 0.9,
+     "input": "po_autoenroll_takeup",
+     "low_value": 0.5,
+     "nhe_at_high": -3.891,
+     "nhe_at_low": -13.372,
+     "swing": 35.654,
+     "unins_at_high": 10.68,
+     "unins_at_low": 15.332
+    },
+    {
+     "fed_at_high": 238.959,
+     "fed_at_low": 273.349,
+     "high_value": 0.75,
+     "input": "po_benchmark_pass",
+     "low_value": 0.25,
+     "nhe_at_high": -20.859,
+     "nhe_at_low": 3.595,
+     "swing": 34.39,
+     "unins_at_high": 13.006,
+     "unins_at_low": 13.006
+    }
+   ]
+  },
+  "staged_full_kids": {
+   "central": {
+    "fed": 251.019,
+    "nhe": -44.871,
+    "unins": 11.367
+   },
+   "corners": {
+    "all_high": {
+     "fed": 344.34,
+     "nhe": 3.706,
+     "unins": 6.293
+    },
+    "all_low": {
+     "fed": 194.206,
+     "nhe": -126.784,
+     "unins": 18.898
+    },
+    "cost_max": {
+     "fed": 649.756,
+     "nhe": 392.717,
+     "unins": 6.293
+    },
+    "cost_min": {
+     "fed": 19.259,
+     "nhe": -364.38,
+     "unins": 18.898
+    }
+   },
+   "n_ranged_inputs": 88,
+   "tornado": [
+    {
+     "fed_at_high": 289.386,
+     "fed_at_low": 210.549,
+     "high_value": 2.0,
+     "input": "po_rate_pct_medicare",
+     "low_value": 1.2,
+     "nhe_at_high": 2.443,
+     "nhe_at_low": -92.185,
+     "swing": 78.836,
+     "unins_at_high": 11.367,
+     "unins_at_low": 11.367
+    },
+    {
+     "fed_at_high": 233.589,
+     "fed_at_low": 297.035,
+     "high_value": 2.8,
+     "input": "hosp_commercial_ratio",
+     "low_value": 2.0,
+     "nhe_at_high": -66.851,
+     "nhe_at_low": 13.158,
+     "swing": 63.445,
+     "unins_at_high": 11.367,
+     "unins_at_low": 11.367
+    },
+    {
+     "fed_at_high": 311.019,
+     "fed_at_low": 251.019,
+     "high_value": 60.0,
+     "input": "mcd_financing_restore",
+     "low_value": 0.0,
+     "nhe_at_high": -44.871,
+     "nhe_at_low": -44.871,
+     "swing": 60.0,
+     "unins_at_high": 11.367,
+     "unins_at_low": 11.367
+    },
+    {
+     "fed_at_high": 268.033,
+     "fed_at_low": 234.005,
+     "high_value": 0.9,
+     "input": "po_autoenroll_takeup",
+     "low_value": 0.5,
+     "nhe_at_high": -39.524,
+     "nhe_at_low": -50.218,
+     "swing": 34.028,
+     "unins_at_high": 9.334,
+     "unins_at_low": 13.4
+    },
+    {
+     "fed_at_high": 233.544,
+     "fed_at_low": 267.418,
+     "high_value": 0.75,
+     "input": "po_benchmark_pass",
+     "low_value": 0.25,
+     "nhe_at_high": -56.915,
+     "nhe_at_low": -32.827,
+     "swing": 33.874,
+     "unins_at_high": 11.367,
+     "unins_at_low": 11.367
+    }
+   ]
+  }
+ },
+ "version": "0.1.0",
+ "year": 2032
+}

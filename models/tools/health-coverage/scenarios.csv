@@ -1,0 +1,84 @@
+scenario,parameter,value,note
+baseline_2029,_title,Current law in 2029,"CBO February 2026 baseline: P.L. 119-21 in force, enhanced credits expired"
+restore,_title,Restore,"Repeal the Medicaid and marketplace provisions of P.L. 119-21 and make the enhanced credits permanent"
+restore,restore,1,"Turns on restore_medicaid, restore_marketplace and restore_credits"
+public_option,_title,Public option,"Restore plus a public plan at Medicare-based rates, on and off the marketplace, auto-enrollment of eligible uninsured and richer subsidies"
+public_option,restore,1,
+public_option,po,1,
+public_option,po_richer,1,"Applies the input po_ap_mult to required contributions"
+staged,_title,Staged (2032 status),"Restore, public option and Medicare at 60 (in force from 2031). Medicare at 50 starts in 2035, so it is not yet in force in 2032"
+staged,restore,1,
+staged,po,1,
+staged,po_richer,1,
+staged,m60,1,
+staged_full,_title,Staged (all stages in force),"Adds Medicare at 50; the 2032 population with every stage in force"
+staged_full,restore,1,
+staged_full,po,1,
+staged_full,po_richer,1,
+staged_full,m60,1,
+staged_full,m50,1,
+staged_full_kids,_title,Staged with children's Medicare,"Adds the optional children's Medicare stage"
+staged_full_kids,restore,1,
+staged_full_kids,po,1,
+staged_full_kids,po_richer,1,
+staged_full_kids,m60,1,
+staged_full_kids,m50,1,
+staged_full_kids,kids,1,
+single_payer_cbo_like,_title,Single payer (CBO-like middle option),"Midpoint of CBO's two payment-rate scenarios (EV-CAR-220), low cost sharing, no long-term care, no state maintenance of effort. The register does not give CBO's option specifications in full"
+single_payer_cbo_like,sp,1,
+single_payer_cbo_like,sp_rate_basis,blended,"Rates relative to the volume-weighted average of current rates"
+single_payer_cbo_like,sp_rate_factor,0.947,"Midpoint of 1.000 (higher-rate scenario) and 0.894 (lower-rate scenario)"
+single_payer_cbo_like,sp_drug_cut,0.115,"Midpoint of 0 and 23 percent (EV-CAR-220)"
+single_payer_cbo_like,sp_cs,low,
+single_payer_cbo_like,sp_ltc,0,
+single_payer_cbo_like,sp_state_moe,0,"CBO counts all federal subsidies; no state contribution assumed"
+single_payer_cbo_like,sp_admin,0.06,"Medicare-like (EV-CAR-217)"
+single_payer_cbo_like_high,_title,Single payer (CBO-like higher-cost corner),"Higher-rate scenario, no cost sharing, long-term care included; benchmark corner"
+single_payer_cbo_like_high,_hidden,1,
+single_payer_cbo_like_high,sp,1,
+single_payer_cbo_like_high,sp_rate_basis,blended,
+single_payer_cbo_like_high,sp_rate_factor,1.0,"EV-CAR-220: higher-rate scenario is close to the average of current-law rates"
+single_payer_cbo_like_high,sp_drug_cut,0,
+single_payer_cbo_like_high,sp_cs,none,
+single_payer_cbo_like_high,sp_ltc,1,
+single_payer_cbo_like_high,sp_state_moe,0,
+single_payer_cbo_like_high,sp_admin,0.06,
+single_payer_cbo_like_low,_title,Single payer (CBO-like lower-cost corner),"Lower-rate scenario (hospitals 13 percent, physicians 7 percent, drugs 23 percent below the higher-rate scenario), low cost sharing, no long-term care; benchmark corner"
+single_payer_cbo_like_low,_hidden,1,
+single_payer_cbo_like_low,sp,1,
+single_payer_cbo_like_low,sp_rate_basis,blended,
+single_payer_cbo_like_low,sp_rate_factor,0.894,"1 less 0.13 times the hospital weight and 0.07 times the physician weight (hospital 1634.7, physician 1109.7; EV-CAR-055)"
+single_payer_cbo_like_low,sp_drug_cut,0.23,
+single_payer_cbo_like_low,sp_cs,low,
+single_payer_cbo_like_low,sp_ltc,0,
+single_payer_cbo_like_low,sp_state_moe,0,
+single_payer_cbo_like_low,sp_admin,0.06,
+single_payer_project_central,_title,Single payer (project central),"Medicare rates plus 15 percent, 15 percent lower drug prices, 5 percent administration, no cost sharing, long-term care included, states keep paying half of their Medicaid spending"
+single_payer_project_central,sp,1,
+single_payer_project_central,sp_rate_basis,medicare,"Uses the input sp_rate_pct_medicare"
+single_payer_project_central,sp_cs,none,
+single_payer_project_central,sp_ltc,1,
+bench_law_only,_title,Benchmark helper: law provisions only,"Medicaid and marketplace provisions restored, credits not"
+bench_law_only,_hidden,1,
+bench_law_only,restore_medicaid,1,
+bench_law_only,restore_marketplace,1,
+bench_credits_only,_title,Benchmark helper: credits only,"Enhanced credits made permanent, law provisions not restored"
+bench_credits_only,_hidden,1,
+bench_credits_only,restore_credits,1,
+bench_medicare60_only,_title,Benchmark helper: Medicare at 60 only,"On the current-law baseline"
+bench_medicare60_only,_hidden,1,
+bench_medicare60_only,m60,1,
+_phase,restore.start,2030,"First year with any effect; law assumed enacted 2029"
+_phase,restore.full,2031,
+_phase,po.start,2031,
+_phase,po.full,2032,
+_phase,m60.start,2031,"CBO 2022 analysis: take-up measured in 2031 (EV-CAR-208)"
+_phase,m60.full,2032,
+_phase,m50.start,2035,
+_phase,m50.full,2036,
+_phase,kids.start,2035,
+_phase,kids.full,2036,
+_phase,sp.start,2032,"Four-year phase-in assumed; the 2032 representative-year effect is the full-implementation effect"
+_phase,sp.full,2035,
+_phase,path.start,2030,"Staged path to single payer: linear blend of the fully staged option and single payer"
+_phase,path.target,2040,
