@@ -84,7 +84,7 @@
     "models/tools/recovery-budget/assumptions.json": "68e2d292428bec651aa40c9e807c8863c744fceb01c32e3122d233dad1798194",
     "build/fiscal-model.json": "2577049cd7b6af0bd253ef4ec47ce3cf0995e1cdb768b1546022d847702e7574",
     "build/ledger.json": "c09b92709f988dee03105f2cf8b2535f5aef01d567f7133a4434d194fcd41e77",
-    "models/tools/fiscal-profiles.py": "c51c783fd8627e7a49ba635b6e529bd5a5861ec8e329adcbd6459b937233ee92",
+    "models/tools/fiscal-profiles.py": "46232c14d7773cec04cfe29ccebcb82b25ef464e4ac85e5cfa2d4c6ec9ebd423",
     "models/tools/funds-model.py": "db06773631703d14485526c64fe0ddd0c2897b63f501483c84117ef5f84b3ffa",
     "legacy/sources/education-transforming-education-act-analysis-and-trust-fund.md": "650339290894199f44c0450abfc89292fb9537810baf5aed5f0ce5fbd914625c",
     "models/data/inputs/funds-hi-rates.csv": "3c7205fb818b3d3cd39956b2550b1792af6e0ff0b250b99e2ac02ae047812245",
