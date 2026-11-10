@@ -2191,6 +2191,25 @@
   ]
  },
  {
+  "id": "EV-MOV-135",
+  "statement": "CRS reports that the motor fuel taxes that are the Highway Trust Fund's main revenue source were last raised in 1993.",
+  "claim": "data",
+  "figures": [
+   "1993"
+  ],
+  "source": "SRC-3521",
+  "anchor": "The primary revenue source for the HTF is motor fuel taxes, which were last raised in 1993.",
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-31",
+  "context": "CRS, the nonpartisan research arm of Congress (report updated September 2, 2026). A secondary statement of legislative history; the primary record is 26 U.S.C. 4081's amendment notes, where Pub. L. 103-66 (August 10, 1993) set the current rates and later amendments leave them unchanged [EV-MOV-016].",
+  "supports": [
+   "dossiers/agenda/transportation/3-design.md",
+   "dossiers/agenda/transportation/9-public-case.md"
+  ]
+ },
+ {
   "id": "EV-MOV-227",
   "statement": "The second fallback tier cuts the Moving America Act to $804.30B with an average draw of 0.119% of GDP; the third to $739.25B and 0.089%.",
   "claim": "analysis",
@@ -2233,6 +2252,28 @@
   "supports": [
    "dossiers/agenda/transportation/7-validation.md",
    "dossiers/agenda/transportation/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-229",
+  "statement": "In FY2046 the decided fuel-tax path, with indexing and the fossil premium, costs a 25-mpg car $427 a year in federal fuel tax, against $267 for the hybrid the clean-car rate is pegged to and $221 for a clean car.",
+  "claim": "analysis",
+  "figures": [
+   "$427",
+   "$267",
+   "$221"
+  ],
+  "source": "SRC-0032",
+  "anchor": "1.84¢ in FY2046 ($221, against $267 for the hybrid and $427 for a 25-mpg car)",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py, Revenue.gr(t); golden/report.txt, 'rates 2046'). Draft 2's annual figures are for 12,000 miles a year. No outside publisher; it is the plan's own arithmetic, with no demand response. The intermediate years (FY2040, FY2044) and the 2029-dollar figures are model runs reported in section 7, not in Draft 2.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/7-validation.md",
+   "dossiers/agenda/transportation/9-public-case.md"
   ]
  }
 ]
