@@ -14,8 +14,9 @@ for when it appears in `backticks` in an accounted file (the dossier's restateme
 log), so an explicit flag is needed, not a stray match.
 
 What counts:
-- policy IDs: hyphenated IDs (A-23, MOV-29, HOU-4A.01, DEC-2026-10-30-02) and every agenda ID in
-  agenda/agenda.csv that the source names (MR1, R2);
+- policy IDs: the project's record IDs (A-23, DEC-2026-10-30-02, EV-, SRC-, OUT-, ASM-), and every agenda
+  ID in agenda/agenda.csv, or provision under one, that the source names (MOV-29, HOU-4A.01, MR1, R2).
+  Other hyphenated labels (MAP-21, FY31-35) are neither IDs nor numbers;
 - numbers: every other run of digits, with thousands commas and trailing decimal zeros dropped, so
   "$55.00B" in the source matches "$55B" in the result, "1,000" matches "1000" and "07" matches "7".
   Matching is set-wide: a token counts as carried over if it appears anywhere in the result files, not
@@ -25,6 +26,8 @@ What counts:
 
 A restatement map (JSON) lists the pairs for one dossier:
   {"role": "...", "pairs": [{"source": "legacy/...md", "result": ["dossiers/x/*.md"], "accounted": ["..."]}]}
+A pair may add "by_reference": "<reason>" when the dossier incorporates the file's remaining detail by
+reference; the report then prints one line with the reason, and --strict does not count it.
 """
 import argparse
 import csv
@@ -39,6 +42,7 @@ NUMBER = re.compile(r'\d+(?:,\d{3})*(?:\.\d+)?')
 LINK_TARGET = re.compile(r'\]\([^)]*\)')
 URL = re.compile(r'https?://\S+')
 TICKED = re.compile(r'`([^`\n]+)`')
+PROJECT_PREFIXES = {'A', 'DEC', 'EV', 'SRC', 'OUT', 'ASM', 'MOD', 'RUN'}
 
 
 def norm(number):
@@ -63,12 +67,16 @@ def tokens(text, known_ids=frozenset()):
     ids, nums = {}, {}
     for lineno, line in enumerate(text.splitlines(), 1):
         line = URL.sub(' ', LINK_TARGET.sub(']', line))
-        found = HYPHEN_ID.findall(line)
+        hyphen = HYPHEN_ID.findall(line)
+        # A hyphenated token is a policy ID only if it is a project record ID (A-23, DEC-, EV-, SRC-, OUT-,
+        # ASM-) or an agenda ID or a provision under one; statute and table labels (MAP-21, FY31-35) are not.
+        found = [w for w in hyphen if w.split('-')[0] in PROJECT_PREFIXES
+                 or w in known_ids or w.rsplit('.', 1)[0] in known_ids]
         found += [w for w in re.findall(r'\b[A-Z][A-Z0-9.-]*[0-9A-Za-z]\b', line)
                   if w in known_ids and w not in found]
         for tok in found:
             ids.setdefault(tok, lineno)
-        rest = HYPHEN_ID.sub(' ', line)
+        rest = HYPHEN_ID.sub(' ', line)  # numbers inside any hyphenated label are skipped too
         for tok in found:
             rest = re.sub(rf'\b{re.escape(tok)}\b', ' ', rest)
         for raw in NUMBER.findall(rest):
@@ -149,6 +157,14 @@ def run_map(root, map_path, limit):
             print(f"{map_path}: source {pair['source']} not found")
             continue
         r = compare(root, pair['source'], results, accounted)
+        if pair.get('by_reference'):
+            # The dossier incorporates this file's remaining detail by reference (for example drafting text kept
+            # as the base for later work); the reason is printed, and --strict does not count its tokens.
+            r['by_reference'] = pair['by_reference']
+            print(f"{r['source']}: by reference ({pair['by_reference']}); "
+                  f"{len(r['missing'])} tokens not restated, {len(r['accounted'])} accounted for in the log")
+            reports.append(r)
+            continue
         print_report(root, r, limit)
         reports.append(r)
     return reports
@@ -179,7 +195,7 @@ def main(argv=None):
         reports = [r]
     else:
         ap.error('give SOURCE and RESULT files, --map or --all')
-    missing = sum(len(r['missing']) for r in reports)
+    missing = sum(len(r['missing']) for r in reports if not r.get('by_reference'))
     return 1 if a.strict and missing else 0
 
 

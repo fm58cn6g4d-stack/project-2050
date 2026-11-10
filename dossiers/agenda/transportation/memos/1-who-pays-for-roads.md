@@ -1,6 +1,6 @@
 # Memo 1: Who pays for road repair
 
-Role: decision memo for Espen, fork 1 of the transportation design (`../3-design.md`). Status: for decision (one of six in this batch, `README.md`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). The figures marked "the plan's model" are the legacy Moving America design's own arithmetic (2026), a project estimate with no demand response.
+Role: decision memo for Espen, fork 1 of the transportation design (`../3-design.md`). Status: decided by Espen: A, as recommended (November 10, 2026; `DEC-2026-11-10-08`). One of six in the batch (`README.md`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). The figures marked "the plan's model" are the legacy Moving America design's own arithmetic (2026), a project estimate with no demand response.
 
 ## In short
 

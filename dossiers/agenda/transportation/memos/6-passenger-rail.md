@@ -1,6 +1,6 @@
 # Memo 6: How much passenger rail to build, and how money waits for readiness
 
-Role: decision memo for Espen, fork 6 of the transportation design (`../3-design.md`). Status: for decision (one of six in this batch, `README.md`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). The rail figures are the legacy rail design's own (the American Rail Competitiveness Act draft and Moving America Draft 2, 2026), project estimates.
+Role: decision memo for Espen, fork 6 of the transportation design (`../3-design.md`). Status: decided by Espen: A, as recommended (November 10, 2026; `DEC-2026-11-10-08`). One of six in the batch (`README.md`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). The rail figures are the legacy rail design's own (the American Rail Competitiveness Act draft and Moving America Draft 2, 2026), project estimates.
 
 ## In short
 
