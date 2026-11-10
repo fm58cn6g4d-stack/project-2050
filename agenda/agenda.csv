@@ -290,7 +290,7 @@ HLT-A1,Dental in traditional Medicare,care,L2,decided,legacy/domains/domain-heal
 HLT-A2,Medicare at 60,care,L2,decided,legacy/domains/domain-health.md:31,"Medicare at 60 in wave 1, 2031 (DEC-2026-11-10-09; HLT-2.04)"
 HLT-A3,Medicare at 55,care,L2,alternative,legacy/domains/domain-health.md:32,Not chosen: the plan reaches everyone by 2035 (HLT-7.03)
 HLT-A4,Medicare for Kids / Medicare at Home,care,L2,decided,legacy/domains/domain-health.md:33,"Every child joins the plan in wave 1, 2031 (DEC-2026-11-10-09, memo 2; HLT-7.03)"
-HLT-7,"Medicare for All Act of 2029: a staged path to one public plan for every resident (wave 1 2031, wave 2 2033-35, endpoint January 1, 2035)",care,L2,decided,dossiers/care/memos/1-architecture.md:1,DEC-2026-11-10-09 and DEC-2026-11-10-11 (memos 1-5); provisions HLT-7.01 to .26 in dossiers/care/provisions.json; L3 after the milestone review
+HLT-7,"Medicare for All Act of 2029: a staged path to one public plan for every resident (wave 1 2031, wave 2 2033-35, endpoint January 1, 2035)",care,L2,decided,dossiers/care/memos/1-architecture.md:1,DEC-2026-11-10-09, -11 and -12 (memos 1-5); provisions HLT-7.01 to .27 in dossiers/care/provisions.json; L3 after the milestone review
 HLT-8,"Rural health through USDA Rural Development: Community Facilities lending and grants, offices as a front door",care,L2,decided,dossiers/care/3-design.md:1,"DEC-2026-11-10-09 (point 6, option b); provision HLT-8.01"
 HOU-1,Emergency housing aid,home,L2,decided,legacy/domains/domain-housing.md:13,DEC-2026-11-09-04 (memo 6 C): a standing emergency-rent fund plus a smaller one-time start
 HOU-1A,$85B in R2 (fall 2029),home,L1,alternative,legacy/domains/domain-housing.md:49,"Replaced by HOU-1D (DEC-2026-11-09-04, memo 6 C)"
