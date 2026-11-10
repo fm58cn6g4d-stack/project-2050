@@ -56,6 +56,9 @@ Evidence still needed (tracked as assumptions with ranges until sourced): the AC
 
 ## Judgment calls
 
+- **Newly covered people under single payer** are paid for in full by the plan; the care they received while uninsured (beyond what they paid themselves) is counted as displaced, lowering national spending, with no funding transfer recorded as a federal offset (for example from hospital uncompensated-care payments). That is a cautious reading of federal cost. People who stay outside the plan (other coverage, the residual uninsured) keep their own out-of-pocket spending outside the plan's claims.
+- **Movers into Medicare at 60, at 50 and children** are removed from their old coverage at age-adjusted cost (the window's age index applied to the source's premium, or to total care for the uninsured), so the move compares the same people before and after; out-of-pocket spending is not age-adjusted.
+- **Public option enrollees** are priced on one basis (the marketplace premium at the public option's rates, plus marketplace out-of-pocket) in the spending, federal and household ledgers, whichever coverage they came from.
 - **Who stays uninsured under single payer** (`sp_residual_unins`, 1% of the population, range 0 to 3%): a judgment under shared rule 3 (`dossiers/shared-rules.md`), which the immigration flagship owns. It covers people not yet enrolled and people not covered because of immigration status; 0 means every resident is covered. No register source sizes it yet; it sets single payer's 3.6 million remaining uninsured.
 - **Quoting restore's cost**: restore includes permanent enhanced credits, whose cost the model overstates against CBO (benchmark BM-3b, about $65 billion in 2032 against about $37 billion implied); quote restore's federal cost with that caveat.
 - **Medicare Advantage in single payer**: enrollees are folded into the single plan at fee-for-service-equivalent rates, so the 7 percent MA premium over fee-for-service (EV-CAR-061; MedPAC finds 14 percent, EV-CAR-135) is removed (`sp_ma_to_ffs`, `ma_gap`, `ma_spend_share`).
@@ -87,14 +90,14 @@ Inputs: 176 in inputs.csv, 98 traced to evidence IDs and 78 labeled assumptions 
 
 | ID | Benchmark | Model | Target | Tolerance | Result | Note |
 | --- | --- | --- | --- | --- | --- | --- |
-| BM-1a | CBO 2020 single-payer options: change in federal subsidies (corners reproduce the range) (EV-CAR-218) | 2,874 to 4,214 $B in 2032 | 1,660 to 3,319 $B (CBO $1.5-3.0T in 2030, grown to 2032 at CBO subsidy growth) | each corner inside the range or within 25% of the nearer end | **miss** | Corners use only the payment-rate, cost-sharing and long-term-care assumptions the register gives (EV-CAR-220); CBO option specifications are not saved. |
-| BM-1b | CBO 2020 single-payer options: change in national health expenditures (EV-CAR-218) | -562 to 606 $B in 2032 | -778 to 333 $B (CBO -$0.7T to +$0.3T in 2030, grown at NHE growth) | each corner inside the range or within 25% of the nearer end | **miss** | CBO also changes provider supply and uses its 2020 baseline; the model grows both ends of the range to 2032. |
+| BM-1a | CBO 2020 single-payer options: change in federal subsidies (corners reproduce the range) (EV-CAR-218) | 3,034 to 4,361 $B in 2032 | 1,660 to 3,319 $B (CBO $1.5-3.0T in 2030, grown to 2032 at CBO subsidy growth) | each corner inside the range or within 25% of the nearer end | **miss** | Corners use only the payment-rate, cost-sharing and long-term-care assumptions the register gives (EV-CAR-220); CBO option specifications are not saved. |
+| BM-1b | CBO 2020 single-payer options: change in national health expenditures (EV-CAR-218) | -549 to 601 $B in 2032 | -778 to 333 $B (CBO -$0.7T to +$0.3T in 2030, grown at NHE growth) | each corner inside the range or within 25% of the nearer end | **miss** | CBO also changes provider supply and uses its 2020 baseline; the model grows both ends of the range to 2032. |
 | BM-2 | P.L. 119-21: about 10 million more uninsured in 2034 (restoring the law provisions reverses it) (EV-CAR-038; EV-CAR-025; EV-CAR-049) | 9.9 million fewer uninsured in 2032 | 10.0 million (2034); 9.4 million on the 2029-34 CBO path interpolated to 2032 | 25% | pass | In-sample by construction: the restore flows are set from these same CBO estimates (7.5 million Medicaid, 2.8-2.9 million marketplace). The test checks the phase-in and band arithmetic, not an independent estimate. |
 | BM-3a | Enhanced credits permanent: 3.8 million more insured (EV-CAR-029) | 3.7 million in 2032 | 3.6 million (2030), 3.8 million (2035) | 25% | pass | In-sample by construction (flow set from CBO). |
 | BM-3b | Enhanced credits permanent: about $350 billion over ten years (2032 annual cost against the ten-year average, shaped by CBO PTC growth) (EV-CAR-029; EV-CAR-052) | 65.1 $B in 2032 | 37.5 $B ($350B over 2026-35, spread on the PTC profile) | 25% | **miss** | Independent of the coverage inputs. The model prices new enrollees, repricing of existing enrollees and removal of the 400% cliff at CBO-calibrated premiums; it has no risk-pool premium reduction or employer-coverage offset. |
 | BM-4 | P.L. 119-21 Medicaid provisions cut federal outlays $989.7 billion over FY2025-34 (restore reverses it) (EV-CAR-025; EV-CAR-052) | 94.4 $B in 2032 | 104.3 $B (average spread on CBO Medicaid growth) | 25% | pass | The model restores only the coverage-linked cost unless mcd_financing_restore is raised; CBO also counts provider-tax and state-directed-payment cuts. |
 | BM-5 | CBO Medicare at 60 (2022): 7.3 million enrollees (EV-CAR-207; EV-CAR-208) | 5.7 million movers in 2032 | 7.3 million (spec target; the saved CBO text gives shares, not this count) | 25% | pass | Unverified target: the 7.3 million is CBO 2022 as cited in the legacy memo (legacy/sources/health-working-group-memo-analysis.md, line 420); the saved CBO text (SRC-3204) gives shares, not this count. The model counts uninsured, nongroup and ESI people who move to Medicare; it does not count people who add Part A while keeping employer coverage. |
-| BM-6a | Urban 2019 single-payer federal cost (secondary): rise in federal spending relative to current federal health spending (EV-CAR-222; EV-CAR-224; EV-CAR-229) | 140% (project central) | 138% (Urban lite, $1.5T in 2020) to 257% (enhanced, $2.8T), on RAND's $1,090B 2019 federal base | inside the range or within 25% of an end | pass | Indicative only: Urban's baseline is not in the register, so RAND's federal base (EV-CAR-229) stands in; the model also counts the tax exclusion. |
+| BM-6a | Urban 2019 single-payer federal cost (secondary): rise in federal spending relative to current federal health spending (EV-CAR-222; EV-CAR-224; EV-CAR-229) | 149% (project central) | 138% (Urban lite, $1.5T in 2020) to 257% (enhanced, $2.8T), on RAND's $1,090B 2019 federal base | inside the range or within 25% of an end | pass | Indicative only: Urban's baseline is not in the register, so RAND's federal base (EV-CAR-229) stands in; the model also counts the tax exclusion. |
 | BM-6b | Urban 2019 hybrid reform with a public option (secondary): federal cost relative to current federal health spending (EV-CAR-225; EV-CAR-229) | 10% (restore plus public option) | 11% ($122.1B in 2020 on $1,090B) | 25% | pass | Urban's bundle adds a mandate and rate caps and covers fewer people than restore plus public option; not a like-for-like test. |
 
 Headline results, 2032 (net federal change in $ billion, national spending change in $ billion, uninsured in millions):
@@ -103,12 +106,12 @@ Headline results, 2032 (net federal change in $ billion, national spending chang
 | --- | --- | --- | --- |
 | Current law in 2029 | 37.2 | +0 | +0 |
 | Restore | 23.6 | +190 | +60 |
-| Public option | 14.5 | +239 | +12 |
-| Staged (2032 status) | 14.0 | +252 | +10 |
-| Staged (all stages in force) | 13.0 | +257 | -9 |
-| Staged with children's Medicare | 11.4 | +251 | -45 |
-| Single payer (CBO-like middle option) | 3.6 | +3,286 | -138 |
-| Single payer (project central) | 3.6 | +3,346 | +45 |
+| Public option | 14.5 | +239 | +15 |
+| Staged (2032 status) | 14.0 | +252 | -37 |
+| Staged (all stages in force) | 13.0 | +257 | -76 |
+| Staged with children's Medicare | 11.4 | +251 | -81 |
+| Single payer (CBO-like middle option) | 3.6 | +3,439 | -133 |
+| Single payer (project central) | 3.6 | +3,549 | +96 |
 <!-- generated:results:end -->
 
 ### Differences explained
