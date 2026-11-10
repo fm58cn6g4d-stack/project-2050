@@ -1,0 +1,1127 @@
+[
+ {
+  "id": "HLT-1.01",
+  "title": "Repeal the 2025 law's Medicaid eligibility cuts",
+  "agenda": "HLT-1",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Repeal the work requirement (sec. 71119), six-month redeterminations for expansion adults (sec. 71107), the retroactive-coverage limit (sec. 71112) and cost sharing for expansion adults (sec. 71120); effective on enactment, before the work requirement's later state start dates bite",
+  "eligibility": "Medicaid expansion adults and other Medicaid enrollees the 2025 law's eligibility cuts reach; states stop applying the work requirement, six-month redeterminations, the retroactive-coverage limit and expansion-adult cost sharing",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HHS (CMS); states",
+  "current_law": "The 2025 law requires community engagement for Medicaid eligibility from the first quarter after December 31, 2026 (sec. 71119) [EV-CAR-001], six-month redeterminations for expansion adults (sec. 71107) [EV-CAR-006], a shorter retroactive-coverage window (sec. 71112) [EV-CAR-007] and cost sharing for expansion adults from October 1, 2028 (sec. 71120) [EV-CAR-010].",
+  "evidence": [
+   "EV-CAR-001",
+   "EV-CAR-002",
+   "EV-CAR-006",
+   "EV-CAR-007",
+   "EV-CAR-010",
+   "EV-CAR-025",
+   "EV-CAR-026"
+  ],
+  "sources": [],
+  "cost_source": "part 2 (restoration, FY2030)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-1.02",
+  "title": "Restore lawfully present immigrants to Medicaid and the premium credit",
+  "agenda": "HLT-1",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Repeal secs. 71109 and 71301's limits and the emergency-Medicaid match cut (sec. 71110); people without status are the immigration flagship's decision (point 3)",
+  "eligibility": "Lawfully present immigrants, who regain Medicaid and the premium credit; people without status are left to the immigration flagship (point 3)",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HHS (CMS); Treasury (IRS)",
+  "current_law": "The 2025 law bars federal Medicaid payment for many lawfully present immigrants from October 1, 2026 (sec. 71109) and caps the emergency-Medicaid match at the state's regular rate (sec. 71110) [EV-CAR-008, EV-CAR-009]; sec. 71301 limits the premium credit to certain immigrants [EV-CAR-016].",
+  "evidence": [
+   "EV-CAR-008",
+   "EV-CAR-009",
+   "EV-CAR-016",
+   "EV-CAR-103"
+  ],
+  "sources": [],
+  "cost_source": "part 2 (restoration, FY2030)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-1.03",
+  "title": "Restore Medicaid financing: provider taxes and state directed payments",
+  "agenda": "HLT-1",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Repeal secs. 71115 and 71116 and the expansion-incentive limit (sec. 71114); lasts until each state's Medicaid enrollees join the plan (HLT-7.03)",
+  "eligibility": "States and their providers; federal Medicaid financing is restored for each state until its Medicaid enrollees join the plan",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "The 2025 law limits provider taxes (sec. 71115) and caps state directed payments (sec. 71116) [EV-CAR-011, EV-CAR-012], and limits the expansion incentive to states that expanded before January 1, 2026 (sec. 71114) [EV-CAR-013].",
+  "evidence": [
+   "EV-CAR-011",
+   "EV-CAR-012",
+   "EV-CAR-013",
+   "EV-CAR-024"
+  ],
+  "sources": [],
+  "cost_source": "part 2 (restoration, FY2030)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-1.04",
+  "title": "Restore the enhanced premium credits and repeal the marketplace verification rules until wave 1",
+  "agenda": "HLT-1",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Enhanced credit schedule for plan year 2030; repeal secs. 71303 and 71304 (verification before credits; special-enrollment limits); the individual market joins the plan on January 1, 2031, which ends the credits",
+  "eligibility": "People who buy marketplace coverage and receive the enhanced premium credit, for plan year 2030 only; the individual market joins the plan on January 1, 2031, which ends the credits",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS); HHS (CMS)",
+  "current_law": "The enhanced premium credits expired [EV-CAR-028]; the 2025 law withholds the credit until the Exchange verifies eligibility (sec. 71303) and denies it for income-based special enrollment (sec. 71304) [EV-CAR-017, EV-CAR-018].",
+  "evidence": [
+   "EV-CAR-017",
+   "EV-CAR-018",
+   "EV-CAR-028",
+   "EV-CAR-029",
+   "EV-CAR-049",
+   "EV-CAR-050"
+  ],
+  "sources": [],
+  "cost_source": "part 2 (restoration, FY2030)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-6.01",
+  "title": "Medicare Advantage: fix coding and benchmarks on MedPAC's method",
+  "agenda": "HLT-6",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Risk scores from two years of encounter data with a coding-intensity adjustment set to MedPAC's estimate; benchmarks rebased so Advantage pays no more than traditional Medicare for similar people; payment year 2030 at half strength, 2031 in full; savings counted at MedPAC's lower 2026 estimate (14%, about $76 billion in 2026); Advantage ends at the endpoint (HLT-7.25)",
+  "eligibility": "Medicare Advantage plans (their payment is reduced to traditional Medicare's level for similar people); Medicare Advantage enrollees keep their coverage until Advantage ends at the endpoint",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "Medicare Advantage spending runs above traditional Medicare's for similar people [EV-CAR-061]; MedPAC estimates 14%, about $76 billion, more in 2026 [EV-CAR-135]. Current law does not adjust benchmarks or coding on MedPAC's method.",
+  "evidence": [
+   "EV-CAR-061",
+   "EV-CAR-135"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 2 (Advantage fix savings)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-6.02",
+  "title": "Drug price negotiation extended to all drugs Medicare covers, then to the plan",
+  "agenda": "HLT-6",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Builds on the 2022 law's Medicare negotiation; removes its yearly drug count and small-molecule wait; negotiated prices apply to the plan from 2031 (HLT-7.13)",
+  "eligibility": "Everyone who takes drugs Medicare covers; from 2031 the plan's enrollees; the manufacturers whose prices are negotiated pay through lower prices",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "The 2022 law lets Medicare negotiate prices for a limited number of drugs a year, with a wait for small-molecule drugs; this extends it to all drugs Medicare covers.",
+  "evidence": [
+   "EV-CAR-220"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, inside the plan's cost (the model's drug price cut)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-8.01",
+  "title": "Rural health through USDA Rural Development: scale what exists",
+  "agenda": "HLT-8",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Community Facilities direct lending for rural hospitals, clinics and nursing homes raised to $3-5 billion a year; $200-500 million a year of competitive grants restored; Rural Development's state offices as a front door to HRSA, CMS and the Rural Health Transformation Program; no new service. The navigator's remit is set in section 5",
+  "eligibility": "Rural hospitals, clinics and nursing homes, and their communities, through Rural Development lending and competitive grants; no new service",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "USDA (Rural Development); HHS (HRSA, CMS)",
+  "current_law": "Rural Development's Community Facilities lending and competitive grants exist today; the 2025 law adds a separate Rural Health Transformation Program [EV-CAR-015]. This scales the existing USDA programs without a new service.",
+  "evidence": [
+   "EV-CAR-015"
+  ],
+  "sources": [
+   "SRC-2112",
+   "SRC-2125",
+   "SRC-2131"
+  ],
+  "cost_source": "6-cost.md, part 2 (USDA lending and grants)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.01",
+  "title": "Entitlement: every resident",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09, DEC-2026-11-09-07)",
+  "decisions": [
+   "DEC-2026-11-10-09",
+   "DEC-2026-11-09-07"
+  ],
+  "parameters": "Every person who lives in the United States is entitled to the plan once their wave starts; residency by rule, on the S. 1506 model (sec. 102), which the immigration flagship receives as the proposal for shared rule 3; people without status: the immigration flagship decides (open for that owner)",
+  "eligibility": "Every person who lives in the United States, once their wave starts; people without status are decided by the immigration flagship",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "New. Medicare, Medicaid and the marketplaces cover people by age, income or category; no program entitles every resident.",
+  "evidence": [
+   "EV-CAR-103",
+   "EV-CAR-270"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.02",
+  "title": "Automatic enrollment and renewal from records; no premiums; a card without a Social Security number",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09); the card adopted from the S. 1506 comparison (follows from DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Enrolled at birth, on establishing residency, or on the group's wave date, from records the government holds (tax, Social Security, Medicaid, employer payroll); renewal at most yearly and without forms where records suffice; no work requirement; no premium; the card shows no Social Security number (S. 1506 sec. 105); anyone missed is enrolled at the point of care",
+  "eligibility": "Every person entitled to the plan; no premium, no work requirement; anyone missed is enrolled at the point of care",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS); SSA; Treasury (IRS) for records",
+  "current_law": "New. Medicaid and the marketplaces require applications and renewals; removing auto-enrollment cut enrollment by a third in one state's exchange [EV-CAR-206], and many Medicaid disenrollments were for paperwork [EV-CAR-210].",
+  "evidence": [
+   "EV-CAR-206",
+   "EV-CAR-210",
+   "EV-CAR-211",
+   "EV-CAR-212",
+   "EV-CAR-271"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.03",
+  "title": "The waves and the endpoint, written as automatic",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-11)",
+  "decisions": [
+   "DEC-2026-11-10-11"
+  ],
+  "parameters": "Wave 1, January 1, 2031: the uninsured, the individual market and every child under 19, plus Medicare at 60 (HLT-2.04). Wave 2, 2033-35: Medicaid and CHIP enrollees and employer groups together, required, in three cohorts on January 1 of 2033, 2034 and 2035 (working choice: about a third of each group a year; Medicaid by state, employer groups by firm size, smallest firms first). Endpoint, January 1, 2035: everyone else, including today's Medicare enrollees, FEHB enrollees and any group not yet moved. Each date takes effect unless Congress votes to delay it; HHS publishes a readiness report 18 months before each date (a published count, not a gate)",
+  "eligibility": "Wave 1: the uninsured, the individual market, every child under 19 and people 60 to 64 (HLT-2.04); wave 2: Medicaid and CHIP enrollees and employer groups in three cohorts; endpoint: everyone else, including Medicare and FEHB enrollees",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS); Labor and Treasury for employer cohorts",
+  "current_law": "New. Coverage now depends on the payer: Medicaid, employer plans, the individual market and Medicare each start and end on their own rules.",
+  "evidence": [
+   "EV-CAR-200",
+   "EV-CAR-272",
+   "EV-CAR-293",
+   "EV-CAR-310",
+   "EV-CAR-313"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.04",
+  "title": "No gap in anyone's coverage",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "A person leaves their old coverage only when the plan is active for them; an employer or state may not end coverage before its cohort's date; anyone who loses coverage before their wave is enrolled in the plan at once",
+  "eligibility": "Everyone entering the plan; people who lose coverage before their wave; employers and states are barred from ending coverage early",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "New. Current law has no guarantee that a person leaves old coverage only when new coverage is active; unwinding showed many people lost Medicaid for procedural reasons [EV-CAR-210].",
+  "evidence": [
+   "EV-CAR-210"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.05",
+  "title": "Comprehensive benefits, including abortion and reproductive care",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-11)",
+  "decisions": [
+   "DEC-2026-11-10-11"
+  ],
+  "parameters": "Hospital, outpatient, primary and preventive care, prescription drugs, mental health and addiction treatment, maternity and newborn care, comprehensive reproductive care including abortion, contraception and fertility care, dental, vision and hearing, rehabilitation and devices, laboratory and imaging; the S. 1506 list (sec. 201) as the drafting base, without its long-term care title (HLT-7.07)",
+  "eligibility": "Every person enrolled in the plan",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "New. Medicare, Medicaid and private plans each cover different benefit lists; the Hyde limits keep federal programs from covering most abortion care (RTS-2).",
+  "evidence": [
+   "EV-CAR-110",
+   "EV-CAR-276"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.06",
+  "title": "Small capped copays above 200% of poverty",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "No cost sharing below 200% of the poverty guideline, or for anyone for primary care, prevention, maternity, mental health and chronic-condition drugs; small fixed copays for other services above that line; a yearly cap of $1,000 a person (working figure); income from the prior year's tax records, and no copay where no record shows income above the line; no deductibles, coinsurance or networks. S. 1506's stricter protection (no cost sharing at or below 250%) is noted as the alternative",
+  "eligibility": "Enrollees above 200% of the poverty guideline pay the small copays; no cost sharing below that line or for the listed services",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS); Treasury (IRS) for income",
+  "current_law": "New. Traditional Medicare has deductibles and coinsurance; many workers face deductibles [EV-CAR-113]. The plan replaces them with small fixed copays above 200% of poverty.",
+  "evidence": [
+   "EV-CAR-113",
+   "EV-CAR-219",
+   "EV-CAR-223",
+   "EV-CAR-224",
+   "EV-CAR-277"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.07",
+  "title": "Long-term care left to part B; Medicaid's long-term care continues meanwhile",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Home and community services and nursing-home care stay in Medicaid, with today's eligibility and state roles, when Medicaid enrollees' other care moves to the plan; part B decides whether and how they move; estate recovery is a part B question",
+  "eligibility": "Medicaid enrollees who use long-term care; today's eligibility and state roles continue",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS); states",
+  "current_law": "Medicaid pays for most long-term care today, with state roles and waiting lists for home and community services [EV-CAR-138]; this keeps that arrangement meanwhile.",
+  "evidence": [
+   "EV-CAR-138",
+   "EV-CAR-278"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.08",
+  "title": "Participation, no balance billing, all-in or all-out private contracts, no utilization bonuses",
+  "agenda": "HLT-7",
+  "status": "adopted from the S. 1506 comparison (follows from DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "A participating provider accepts the plan's payment in full; a provider who contracts privately for covered services does so for all patients for a year, as Medicare's opt-out works today; no pay or bonus tied to the volume of care used; the VA, IHS, tribal and military facilities qualify as providers (S. 1506 secs. 301-303, 302(b))",
+  "eligibility": "Every provider that takes part in the plan, and the patients they treat; VA, IHS, tribal and military facilities qualify as providers",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "Medicare's opt-out lets a provider contract privately for a period; providers may accept or refuse Medicare and Medicaid patients, and Medicaid may bar balance billing. This adds one participation rule.",
+  "evidence": [
+   "EV-CAR-279",
+   "EV-CAR-315"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.09",
+  "title": "Non-discrimination, with a private right of action",
+  "agenda": "HLT-7",
+  "status": "adopted from the S. 1506 comparison (follows from DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "No provider or the plan may discriminate on the grounds in S. 1506 sec. 104; a person may sue to enforce it",
+  "eligibility": "Everyone seeking care from a provider in the plan; any person may sue to enforce it",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (Office for Civil Rights); courts",
+  "current_law": "New. Existing law bars discrimination in federally funded health programs in part, enforced mainly by the Office for Civil Rights; the plan adds a private right of action.",
+  "evidence": [
+   "EV-CAR-270"
+  ],
+  "sources": [
+   "SRC-3260"
+  ],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.10",
+  "title": "Hospital rates on a five-year glide path to about 1.15 times Medicare",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "In 2031 the plan's hospital conversion factor pays, on average, today's all-payer average hospital rate (about 1.25 times Medicare on the coverage model's inputs; project arithmetic); it falls in five equal steps to about 1.15 times Medicare in 2036; the target by service is set by rule (working figure 1.15)",
+  "eligibility": "Hospitals paid by the plan; the plan (the fund) pays the rates",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "Employers and private insurers pay hospitals far more than Medicare does, 254 percent of Medicare on average in 2022 [EV-CAR-131]; Medicare and Medicaid pay set rates. The plan adopts one rate path.",
+  "evidence": [
+   "EV-CAR-131",
+   "EV-CAR-220",
+   "EV-CAR-259"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.11",
+  "title": "Global budgets for rural, critical-access and safety-net hospitals",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "A fixed yearly budget, set from the hospital's prior net patient revenue and indexed, with a volume corridor, on Maryland's model; eligible: critical-access and sole-community hospitals, hospitals in areas under the plan's rural test (the housing dossier's one rural test, up to 35,000 people, `DEC-2026-11-10-02`), and safety-net hospitals (top quarter by share of Medicaid and uninsured patient days); during and after the glide",
+  "eligibility": "Critical-access and sole-community hospitals, hospitals in areas under the plan's rural test, and safety-net hospitals (top quarter by share of Medicaid and uninsured patient days)",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "Hospitals are paid by service; Maryland's global-budget model is the only all-payer example [EV-CAR-259].",
+  "evidence": [
+   "EV-CAR-259",
+   "EV-CAR-261"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.12",
+  "title": "Physicians and other clinicians at Medicare's fee schedule, with primary-care and rural add-ons",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Medicare's fee schedule from 2031; a primary-care add-on and a rural and shortage-area add-on (working figure: 10% each, on Medicare's shortage-area bonus); no glide",
+  "eligibility": "Physicians and other clinicians who take part in the plan, with add-ons for primary care and for rural and shortage areas",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "Medicare pays physicians on its fee schedule; Medicaid and private plans pay by their own rates. The plan uses Medicare's schedule with two add-ons.",
+  "evidence": [
+   "EV-CAR-220"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.13",
+  "title": "Drug prices: negotiated for all drugs, a fallback price, a formulary",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09); the fallback and formulary adopted from the S. 1506 comparison (follows from DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Annual negotiation for every covered drug (HLT-6.02); if no agreement is reached, the price is the lowest of the VA's price and Medicaid's best price (the fallback in S. 1506 sec. 1012(d)); a national formulary that favors generics and biosimilars",
+  "eligibility": "Drug manufacturers (negotiated prices) and everyone who takes covered drugs",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS); VA (price data)",
+  "current_law": "Medicare negotiates prices for a limited set of drugs (HLT-6.02); there is no national formulary or fallback price.",
+  "evidence": [
+   "EV-CAR-220",
+   "EV-CAR-285",
+   "EV-CAR-315"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, inside the plan's cost (the model's drug price cut)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.14",
+  "title": "Medicare Advantage ends at the endpoint",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "No new Advantage contracts after plan year 2034; the plan pays providers directly from January 1, 2035",
+  "eligibility": "Medicare Advantage plans and their enrollees, who move to the plan at the endpoint",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "Medicare Advantage plans run today under contracts with CMS and cover most of Part A and B spending [EV-CAR-061].",
+  "evidence": [
+   "EV-CAR-135",
+   "EV-CAR-288"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.15",
+  "title": "Hospital transition fund and a revenue floor for global-budget hospitals",
+  "agenda": "HLT-7",
+  "status": "recommended; for Espen (question 1)",
+  "decisions": [],
+  "parameters": "A capped fund, $100 billion over FY2033-38 (working figure, range $50-150 billion), for hospitals whose net patient revenue falls more than 5% below their pre-transition level as their patients' coverage moves; first claim for global-budget hospitals (HLT-7.11) and sole providers in their area; for three years after their area moves, global budgets are at least the hospital's pre-transition net patient revenue, indexed, paid from the fund; replacement falls from 100% of the loss in the first year to 20% in the fifth; conditions: keep emergency, obstetric and behavioral health services open, no fund money for executive bonuses or distributions to owners. Keeps the five-year glide unchanged",
+  "eligibility": "Hospitals whose net patient revenue falls more than 5% below their pre-transition level as their patients' coverage moves; global-budget hospitals and sole providers in their area have first claim; the federal government pays the fund",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "New. No federal fund supports hospitals whose revenue falls as coverage moves.",
+  "evidence": [
+   "EV-CAR-333",
+   "EV-CAR-335",
+   "EV-CAR-336",
+   "EV-CAR-337",
+   "EV-CAR-338",
+   "EV-CAR-339",
+   "EV-CAR-340",
+   "EV-CAR-341"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 3 (hospital options)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.16",
+  "title": "Help for insurance and billing workers",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Wage replacement and continued pay toward retirement for up to three years, training, job placement, and first claim on the plan's administrative jobs; eligibility from employer records (an insurer, billing firm or provider billing office certifies the layoff), not individual proof; FY2033-38",
+  "eligibility": "Insurance and billing workers laid off because of the plan, certified by the employer (an insurer, billing firm or provider billing office); not individual proof",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "Labor; HHS",
+  "current_law": "New. Trade adjustment assistance and unemployment insurance help displaced workers generally; no program is built for insurance and billing workers (whether trade adjustment was reauthorized after 2021 is still to be checked).",
+  "evidence": [
+   "EV-CAR-232",
+   "EV-CAR-233",
+   "EV-CAR-282",
+   "EV-CAR-345",
+   "EV-CAR-346",
+   "EV-CAR-347"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 2 (worker help)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.17",
+  "title": "States keep paying a share: maintenance of effort",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Each state pays the fund a fixed amount for its residents who move: half of its own current Medicaid spending for them (working figure; range 0-80%, set by the financing settlement), indexed to the plan's per-person cost growth; long-term care stays with the state under HLT-7.07",
+  "eligibility": "States pay: each state pays the fund a fixed amount for its residents who move",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "revenue",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS); states",
+  "current_law": "States now pay about a third of Medicaid and CHIP costs [EV-CAR-060]; the plan keeps part of that money flowing as a fixed payment.",
+  "evidence": [
+   "EV-CAR-060",
+   "EV-CAR-278"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4 (the fund's streams)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.18",
+  "title": "Employers' transitional contribution, required",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-11)",
+  "decisions": [
+   "DEC-2026-11-10-11"
+  ],
+  "parameters": "From the date an employer's workers or their children move until the financing settlement's payroll contribution takes effect, the employer pays the fund a set share of what it paid toward premiums for that coverage in a base year (2030), indexed to the plan's per-person cost growth; paid with payroll tax deposits; an employer that offered no coverage pays nothing; the share is the financing settlement's (working figure: about 65%, the share at which employer moves cost the federal budget nothing on the coverage model; project arithmetic)",
+  "eligibility": "Employers pay: those whose workers or their children move to the plan; an employer that offered no coverage pays nothing",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "revenue",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "Treasury (IRS); Labor",
+  "current_law": "New. Employers now buy coverage for their workers; the cost is excluded from workers' taxable pay.",
+  "evidence": [
+   "EV-CAR-111",
+   "EV-CAR-295",
+   "EV-CAR-296",
+   "EV-CAR-299"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4 (the fund's streams)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.19",
+  "title": "The administering agency",
+  "agenda": "HLT-7",
+  "status": "decided in substance (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "CMS runs the plan, with Medicare's contractors and claims systems; its staffing, regional structure and the readiness reports are in section 5",
+  "eligibility": "The plan's enrollees, served through CMS and Medicare's contractors",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "CMS runs Medicare through its contractors and claims systems; this extends that machinery to the plan [EV-CAR-310].",
+  "evidence": [
+   "EV-CAR-310",
+   "EV-CAR-311",
+   "EV-CAR-312",
+   "EV-CAR-313"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.20",
+  "title": "A Beneficiary Ombudsman",
+  "agenda": "HLT-7",
+  "status": "adopted from the S. 1506 comparison (follows from DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Handles complaints and appeals and reports yearly; may not advocate for higher payments (S. 1506 title IV)",
+  "eligibility": "The plan's enrollees, who use the Ombudsman for complaints and appeals",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS",
+  "current_law": "Medicare has had a Medicare Beneficiary Ombudsman within CMS since the 2003 Medicare law; the plan's Ombudsman extends the role to every enrollee, on S. 1506's terms [EV-CAR-280].",
+  "evidence": [
+   "EV-CAR-280"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.21",
+  "title": "An Office of Health Equity, an Office of Primary Health Care and a data firewall",
+  "agenda": "HLT-7",
+  "status": "adopted from the S. 1506 comparison (follows from DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Both offices as in S. 1506 secs. 616-617, the primary-care office setting national goals within a year; plan and equity data may not be used for any law enforcement or immigration purpose (its immigration side goes to the immigration flagship with point 3)",
+  "eligibility": "The plan's enrollees and the public; the data firewall protects people whose data the plan holds",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS",
+  "current_law": "New. No federal Office of Health Equity or Office of Primary Health Care of this kind exists in law, and no data firewall covers health data for immigration use [EV-CAR-286].",
+  "evidence": [
+   "EV-CAR-286"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.22",
+  "title": "One trust fund with named streams",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-11)",
+  "decisions": [
+   "DEC-2026-11-10-11"
+  ],
+  "parameters": "Receives: Medicare's payroll tax and general revenue for Parts B and D (premiums end for each group as it moves); the federal Medicaid and CHIP money and premium-credit money the plan replaces; FEHB's employer share; the revenue from ending the employer tax exclusion, counted only on former premiums that become taxable wages, never on premiums replaced by the employer contribution; the states' payments (HLT-7.17); the employer contribution (HLT-7.18); new revenue from the financing settlement. The hospital insurance trust fund is kept whole until the endpoint, with Medicare savings credited to it first, then folds in",
+  "eligibility": "Pays for the plan from its named streams: Medicare's payroll tax and general revenue, federal Medicaid, CHIP and premium-credit money, FEHB's employer share, revenue from ending the employer tax exclusion, state payments, the employer contribution and new financing revenue",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "trust fund",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "Treasury; HHS (CMS)",
+  "current_law": "Medicare, Medicaid and the premium credits are paid from separate trust funds and appropriations [EV-CAR-052]; this brings them into one fund.",
+  "evidence": [
+   "EV-CAR-052",
+   "EV-CAR-287"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4 (the fund's streams)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.23",
+  "title": "No duplicative private coverage from the endpoint; supplemental coverage allowed",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-12)",
+  "decisions": [
+   "DEC-2026-11-10-12"
+  ],
+  "parameters": "From January 1, 2035 no one may sell or offer coverage that duplicates the plan's benefits; coverage of benefits the plan does not cover stays legal; COBRA ends then (S. 1506 secs. 107, 801-802). Before then, private and employer coverage continue for groups not yet moved Decided as in Canada and S. 1506, rather than parallel private insurance as in the UK and Australia; private firms may serve as the plan's claims contractors.",
+  "eligibility": "Insurers and employers, who may not sell or offer duplicative coverage from the endpoint; anyone may still buy coverage of benefits the plan does not cover",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS; Labor; Treasury",
+  "current_law": "Employers and insurers may offer coverage that duplicates one another; COBRA continues coverage after job loss [EV-CAR-275].",
+  "evidence": [
+   "EV-CAR-275"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.24",
+  "title": "The VA, TRICARE and the Indian Health Service continue, and the people they serve are also entitled to the plan",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-11)",
+  "decisions": [
+   "DEC-2026-11-10-11"
+  ],
+  "parameters": "Eligibility for VA care, TRICARE and the IHS is unchanged; their facilities are plan providers, and the plan pays IHS and tribal facilities at its rates for the plan's enrollees, as Medicaid and Medicare do now; no change to the IHS without consultation with tribal leaders (S. 1506 sec. 901(c)). Open: how the IHS is funded alongside the plan, including whether advance appropriations continue; whether TRICARE's purchased care folds into the plan (the House bill's choice) or continues",
+  "eligibility": "People served by the VA, TRICARE and the Indian Health Service, who keep that eligibility and are also entitled to the plan; IHS and tribal facilities are paid at the plan's rates",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (IHS, CMS); VA; Defense",
+  "current_law": "The VA, TRICARE and the IHS are separate federal programs with their own eligibility [EV-CAR-315]; the IHS is funded by annual and advance appropriations [EV-CAR-348]. This keeps them and adds plan entitlement.",
+  "evidence": [
+   "EV-CAR-292",
+   "EV-CAR-315",
+   "EV-CAR-316",
+   "EV-CAR-348",
+   "EV-CAR-349",
+   "EV-CAR-350"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.25",
+  "title": "Today's Medicare moves into the plan at the endpoint",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-11)",
+  "decisions": [
+   "DEC-2026-11-10-11"
+  ],
+  "parameters": "Parts A, B and D, Advantage and Medigap end for covered services on January 1, 2035; enrollees get the plan's benefit and copay rules (HLT-7.05, 7.06); Part B and D premiums end then",
+  "eligibility": "Today's Medicare enrollees, who move into the plan at the endpoint",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "Medicare Parts A, B and D, Advantage and Medigap run as separate coverage today; the plan replaces them at the endpoint [EV-CAR-288].",
+  "evidence": [
+   "EV-CAR-288"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.26",
+  "title": "FEHB folds in at the endpoint",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-11)",
+  "decisions": [
+   "DEC-2026-11-10-11"
+  ],
+  "parameters": "Federal employees and retirees join the plan with the endpoint cohort; the federal government pays the employer contribution (HLT-7.18) for them like any employer",
+  "eligibility": "Federal employees and retirees (FEHB enrollees), who join with the endpoint cohort; the federal government pays the employer contribution for them",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "OPM; HHS",
+  "current_law": "FEHB covers federal employees and retirees through private plans, with the government paying an employer share [EV-CAR-315].",
+  "evidence": [
+   "EV-CAR-315"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the plan on the coverage model)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-7.27",
+  "title": "Ownership stays as it is, with targeted guardrails",
+  "agenda": "HLT-7",
+  "status": "decided (DEC-2026-11-10-12)",
+  "decisions": [
+   "DEC-2026-11-10-12"
+  ],
+  "parameters": "No public takeover of hospitals or clinics. Guardrails: ownership transparency (every owner of a participating provider reported to CMS and published); limits on private-equity buyouts of hospitals, nursing homes and physician practices (working choice: prior notice and review of any such acquisition, with authority to block one that would reduce access or quality); regional review of large capital projects so new money goes where care is short (working choice: projects above a threshold set by rule). Not adopted: S. 1506's bar on profit from the plan's payments and its public capital budget for every hospital.",
+  "eligibility": "Owners and acquirers of participating hospitals, nursing homes and physician practices; sponsors of large capital projects",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS); FTC and Justice for acquisitions",
+  "current_law": "Medicare collects some ownership data on enrolled providers; acquisitions are reviewed only under general antitrust law; no federal review of capital projects. Commercial prices rise with provider market power [EV-CAR-340].",
+  "evidence": [
+   "EV-CAR-283",
+   "EV-CAR-284",
+   "EV-CAR-336",
+   "EV-CAR-340",
+   "EV-CAR-341"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md: no material federal cost (administration inside the plan's 5%)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-2.01",
+  "title": "The legacy upgrades from 2031",
+  "agenda": "HLT-2",
+  "status": "decided (DEC-2026-11-10-11)",
+  "decisions": [
+   "DEC-2026-11-10-11"
+  ],
+  "parameters": "A $5,000 yearly out-of-pocket cap in traditional Medicare and hearing and vision coverage from January 1, 2031; dental phased in from 2033; the plan's benefit replaces them in 2035",
+  "eligibility": "Today's Medicare enrollees in traditional Medicare, until the plan's benefit replaces the upgrades in 2035",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "Traditional Medicare has no yearly limit on out-of-pocket spending for Parts A and B, while Medicare Advantage plans must cap costs [EV-CAR-137]; hearing, vision and most dental care are not covered.",
+  "evidence": [
+   "EV-CAR-137",
+   "EV-CAR-289"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 2 (Medicare upgrades, FY2031-34)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-2.02",
+  "title": "Guaranteed issue of Medigap, 2031-34",
+  "agenda": "HLT-2",
+  "status": "adopted from the S. 1506 comparison (follows from DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Any Medicare enrollee may buy any Medigap plan at any time without medical underwriting (S. 1506 sec. 1005)",
+  "eligibility": "Any Medicare enrollee, who may buy any Medigap plan without medical underwriting; Medigap insurers must sell to them",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS); state insurance regulators",
+  "current_law": "Medigap insurers may underwrite medically outside a person's first enrollment window in most states.",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "no federal cost",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-2.03",
+  "title": "No 24-month wait for people on disability",
+  "agenda": "HLT-2",
+  "status": "adopted from the S. 1506 comparison (follows from DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "From January 1, 2031, people awarded Social Security disability benefits are entitled to Medicare at once (S. 1506 sec. 1004)",
+  "eligibility": "People awarded Social Security disability benefits, who become entitled to Medicare at once",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "SSA; HHS (CMS)",
+  "current_law": "People awarded Social Security disability benefits wait 24 months before Medicare coverage starts [EV-CAR-342, EV-CAR-343].",
+  "evidence": [
+   "EV-CAR-342",
+   "EV-CAR-343",
+   "EV-CAR-344"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 2 (disability wait)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "HLT-2.04",
+  "title": "Medicare at 60",
+  "agenda": "HLT-2",
+  "status": "decided (DEC-2026-11-10-09)",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "From January 1, 2031, people 60 to 64 are entitled to Medicare with the upgrades; those uninsured or in the individual market are enrolled in the plan instead; those with employer coverage may choose Medicare as primary, with their employer paying the transitional contribution (HLT-7.18)",
+  "eligibility": "People 60 to 64: those uninsured or in the individual market are enrolled in the plan; those with employer coverage may choose Medicare as primary, with the employer paying the transitional contribution",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS); SSA",
+  "current_law": "Medicare eligibility starts at 65, with exceptions for disability and end-stage renal disease; people 60 to 64 are not eligible.",
+  "evidence": [
+   "EV-CAR-207",
+   "EV-CAR-208",
+   "EV-CAR-268"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (Medicare at 60 in the model's staged path)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "RTS-2.01",
+  "title": "No abortion funding limit on the plan's fund",
+  "agenda": "RTS-2",
+  "status": "decided (DEC-2026-11-10-11)",
+  "decisions": [
+   "DEC-2026-11-10-11"
+  ],
+  "parameters": "The plan pays for abortion like any covered service, notwithstanding any appropriations limit (as S. 1506 sec. 701(b)(3) does for its fund)",
+  "eligibility": "Everyone enrolled in the plan who needs abortion care",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "none",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "The Hyde limits keep federal funds from paying for abortion in most programs, set by annual appropriations riders [EV-CAR-330, EV-CAR-331].",
+  "evidence": [
+   "EV-CAR-276",
+   "EV-CAR-287"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 2 (small; inside the plan's cost)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
+  "id": "RTS-2.02",
+  "title": "End the Hyde Amendment and the other federal abortion funding limits",
+  "agenda": "RTS-2",
+  "status": "decided (DEC-2026-11-10-11)",
+  "decisions": [
+   "DEC-2026-11-10-11"
+  ],
+  "parameters": "Repeal the statutory limits (for Defense health care, 10 U.S.C. 1093; the statutory cross-reference that applies Hyde to the IHS; CHIP's own limits; the ACA's segregation rule, 42 U.S.C. 18023) and override the annual appropriations riders (the Labor-HHS Hyde sections 506 and 507, FEHB's sections 613 and 614, D.C.'s section 810, and the State-Foreign Operations limits) by a \"notwithstanding\" clause in the 2029 Act; the plan's appropriations acts carry none. Federal conscience laws are unchanged here (the rights dossier owns them with RTS-1)",
+  "eligibility": "People covered by federal programs with abortion funding limits: Defense health care, the IHS, CHIP, ACA plans, FEHB, D.C. and the State-Foreign Operations programs",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   },
+   {
+    "vehicle": "appropriations",
+    "kind": "none",
+    "note": "plan-era appropriations acts carry no Hyde-type riders"
+   }
+  ],
+  "agency": "HHS; OPM; Defense; VA; Justice",
+  "current_law": "The Labor-HHS act bars funds for abortion (sec. 506) with exceptions (sec. 507); FEHB (secs. 613-614), D.C. (sec. 810), State-Foreign Operations funds, Defense (10 U.S.C. 1093), the IHS (by cross-reference) and CHIP (its own statute) have their own limits [EV-CAR-330, EV-CAR-331, EV-CAR-332]; the ACA segregates abortion funds (42 U.S.C. 18023).",
+  "evidence": [
+   "EV-CAR-330",
+   "EV-CAR-331",
+   "EV-CAR-332"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 2 (small; inside the plan's cost)",
+  "spec": "dossiers/care/4-specification.md"
+ }
+]

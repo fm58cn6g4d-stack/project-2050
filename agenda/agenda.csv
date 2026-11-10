@@ -280,16 +280,18 @@ FAM-3C,"4 weeks, general-fund (the 2021 Build Back Better end point)",secure-flo
 FAM-3D,12 weeks at 0.85% from the start (fully self-financed at FMLA take-up),secure-floor,L1,alternative,legacy/domains/domain-family.md:87,Register: A chosen
 FAM-3E,"12 weeks, 0.6% contribution, open general-fund backstop",secure-floor,L1,alternative,legacy/domains/domain-family.md:84,Register: A chosen
 FAM-4,Education,agenda/education,L1,pointer,legacy/domains/domain-family.md:12,Register: Pointer
-HLT-1,Restore,care,L1,chosen,legacy/domains/domain-health.md:11,Register: Decided (D6); decided in the legacy files; a working choice under DEC-2026-10-30-02
-HLT-2,Medicare upgrades,care,L1,chosen,legacy/domains/domain-health.md:12,
-HLT-3,Public option guarantee,care,L1,chosen,legacy/domains/domain-health.md:13,
-HLT-4,"Medicaid, long-term care, safety net",care,L1,chosen,legacy/domains/domain-health.md:14,
-HLT-5,Prices and market power,care,L1,chosen,legacy/domains/domain-health.md:15,
-HLT-6,Medicare payment reform,care,L1,chosen,legacy/domains/domain-health.md:16,
-HLT-A1,Dental in traditional Medicare,care,L1,chosen,legacy/domains/domain-health.md:30,Register: Decided (kept); decided in the legacy files; a working choice under DEC-2026-10-30-02
-HLT-A2,Medicare at 60,care,L1,option,legacy/domains/domain-health.md:31,Register: Option
-HLT-A3,Medicare at 55,care,L1,option,legacy/domains/domain-health.md:32,Register: Option
-HLT-A4,Medicare for Kids / Medicare at Home,care,L1,option,legacy/domains/domain-health.md:33,Register: Option
+HLT-1,Restore,care,L2,decided,legacy/domains/domain-health.md:11,DEC-2026-11-10-09 (point 1): restore first in the 2029 reconciliation act; provisions HLT-1.01 to .04 in dossiers/care/provisions.json
+HLT-2,Medicare upgrades,care,L2,decided,legacy/domains/domain-health.md:12,"DEC-2026-11-10-11 (item 3): the legacy upgrades for people already on Medicare from 2031 until the 2035 endpoint, plus Medigap guaranteed issue, no disability wait and Medicare at 60; provisions HLT-2.01 to .04"
+HLT-3,Public option guarantee,care,L2,alternative,legacy/domains/domain-health.md:13,"Memo 1 A, not chosen (DEC-2026-11-10-09): the staged path to one public plan (HLT-7) replaces the public option"
+HLT-4,"Medicaid, long-term care, safety net",care,L1,chosen,legacy/domains/domain-health.md:14,Health part: Medicaid enrollees join the plan in wave 2 (HLT-7.03); long-term care stays in Medicaid until part B decides (HLT-7.07)
+HLT-5,Prices and market power,care,L2,alternative,legacy/domains/domain-health.md:15,"Memo 5 D, not chosen (DEC-2026-11-10-09): the plan sets rates (HLT-7.10); drug negotiation moves to HLT-6.02 and HLT-7.13"
+HLT-6,Medicare payment reform,care,L2,decided,legacy/domains/domain-health.md:16,"DEC-2026-11-10-09 (point 5, memo 5 B): Medicare Advantage fix at MedPAC's lower estimate and drug negotiation for all drugs; provisions HLT-6.01, .02"
+HLT-A1,Dental in traditional Medicare,care,L2,decided,legacy/domains/domain-health.md:30,Dental from 2033 within HLT-2.01 (DEC-2026-11-10-11)
+HLT-A2,Medicare at 60,care,L2,decided,legacy/domains/domain-health.md:31,"Medicare at 60 in wave 1, 2031 (DEC-2026-11-10-09; HLT-2.04)"
+HLT-A3,Medicare at 55,care,L2,alternative,legacy/domains/domain-health.md:32,Not chosen: the plan reaches everyone by 2035 (HLT-7.03)
+HLT-A4,Medicare for Kids / Medicare at Home,care,L2,decided,legacy/domains/domain-health.md:33,"Every child joins the plan in wave 1, 2031 (DEC-2026-11-10-09, memo 2; HLT-7.03)"
+HLT-7,"Medicare for All Act of 2029: a staged path to one public plan for every resident (wave 1 2031, wave 2 2033-35, endpoint January 1, 2035)",care,L2,decided,dossiers/care/memos/1-architecture.md:1,DEC-2026-11-10-09, -11 and -12 (memos 1-5); provisions HLT-7.01 to .27 in dossiers/care/provisions.json; L3 after the milestone review
+HLT-8,"Rural health through USDA Rural Development: Community Facilities lending and grants, offices as a front door",care,L2,decided,dossiers/care/3-design.md:1,"DEC-2026-11-10-09 (point 6, option b); provision HLT-8.01"
 HOU-1,Emergency housing aid,home,L2,decided,legacy/domains/domain-housing.md:13,DEC-2026-11-09-04 (memo 6 C): a standing emergency-rent fund plus a smaller one-time start
 HOU-1A,$85B in R2 (fall 2029),home,L1,alternative,legacy/domains/domain-housing.md:49,"Replaced by HOU-1D (DEC-2026-11-09-04, memo 6 C)"
 HOU-1B,"$85B in R1 (spring 2029), as Bill Book 12 wrote it",home,L1,alternative,legacy/domains/domain-housing.md:50,Register: A chosen
@@ -451,7 +453,7 @@ RTS-1,Reproductive Freedom Act,agenda/rights,L1,chosen,legacy/domains/domain-rig
 RTS-1A,The full statutory right plus the access titles,agenda/rights,L1,chosen,legacy/domains/domain-rights.md:50,Register: A chosen
 RTS-1B,"Access only: medication abortion, telehealth, travel, contraception, IVF and EMTALA, with no viability standard",agenda/rights,L1,alternative,legacy/domains/domain-rights.md:51,Register: A chosen
 RTS-1C,"RTS-1B as the opening bill, with the viability right after a second rules fight",agenda/rights,L1,alternative,legacy/domains/domain-rights.md:52,Register: A chosen
-RTS-2,Coverage,agenda/rights,L1,chosen,legacy/domains/domain-rights.md:12,
+RTS-2,Coverage,care,L2,decided,legacy/domains/domain-rights.md:12,"Home moved to care (DEC-2026-11-10-11, item 4): no abortion funding limit on the plan and the Hyde Amendment ended in general; provisions RTS-2.01, .02 in dossiers/care/provisions.json"
 RTS-3,Equality Act,agenda/rights,L1,chosen,legacy/domains/domain-rights.md:13,
 RTS-3A,H.R. 15 as drafted,agenda/rights,L1,chosen,legacy/domains/domain-rights.md:80,"Register: A chosen; athletics is Espen's call (A, B or E)"
 RTS-3B,H.R. 15 with an athletics provision deferring to sports governing bodies and state law,agenda/rights,L1,alternative,legacy/domains/domain-rights.md:81,"Register: A chosen; athletics is Espen's call (A, B or E)"

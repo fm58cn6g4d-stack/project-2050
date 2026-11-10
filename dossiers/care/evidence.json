@@ -6061,5 +6061,530 @@
   "supports": [
    "dossiers/care/research-s1506-comparison.md"
   ]
+ },
+ {
+  "id": "EV-CAR-330",
+  "statement": "Division D (Labor, Health and Human Services, Education) of the Further Consolidated Appropriations Act, 2024 bars its funds, and funds in trust funds it appropriates to, from being spent on any abortion or on health benefits coverage that includes abortion (sec. 506), except where the pregnancy results from rape or incest or a physician certifies a physical condition that would place the woman in danger of death (sec. 507(a)); state, local and private funds, other than a state's Medicaid matching funds, are not restricted (sec. 507(b)).",
+  "claim": "data",
+  "figures": [
+   "506",
+   "507"
+  ],
+  "source": "SRC-3281",
+  "anchor": [
+   "Sec. 506. <<NOTE: Abortion.>> (a) None of the funds appropriated in\nthis Act, and none of the funds in any trust fund to which funds are\nappropriated in this Act, shall be expended for any abortion.",
+   "(b) None of the funds appropriated in this Act, and none of the\nfunds in any trust fund to which funds are appropriated in this Act,\nshall be expended for health benefits coverage that includes coverage of\nabortion.",
+   "Sec. 507. <<NOTE: Abortion.>> (a) The limitations established in\nthe preceding section shall not apply to an abortion--\n(1) if the pregnancy is the result of an act of rape or\nincest; or\n(2) in the case where a woman suffers from a physical\ndisorder, physical injury, or physical illness, including a\nlife-endangering physical condition caused by or arising from\nthe pregnancy itself, that would, as certified by a physician,\nplace the woman in danger of death unless an abortion is\nperformed.",
+   "(b) Nothing in the preceding section shall be construed as\nprohibiting the expenditure by a State, locality, entity, or private\nperson of State, local, or private funds (other than a State's or\nlocality's contribution of Medicaid matching funds)."
+  ],
+  "grade": "A",
+  "locator": "Division D, Title V, secs. 506-507",
+  "fact_date": "2024-03-23",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-23",
+  "context": "Enacted law: Public Law 118-47, approved March 23, 2024 (Biden administration, 118th Congress); primary text as published by the Government Publishing Office, Division D, secs. 506 and 507. The Hyde provisions are carried in each year's full-year Labor-HHS act or continuing resolution and lapse with the fiscal year, so the version in force for the current year must be re-checked; the FY2024 text is the one read here.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-331",
+  "statement": "In the same act, Division B bars its funds from paying for an abortion or for administrative expenses of any Federal Employees Health Benefits plan that covers abortion (sec. 613), except where the mother's life would be endangered or the pregnancy results from rape or incest (sec. 614), and bars the District of Columbia government from spending any funds on an abortion except in those cases (sec. 810).",
+  "claim": "data",
+  "figures": [
+   "613",
+   "614",
+   "810"
+  ],
+  "source": "SRC-3281",
+  "anchor": [
+   "Sec. 613. <<NOTE: Abortion.>> No funds appropriated by this Act\nshall be available to pay for an abortion, or the administrative\nexpenses in connection with any health plan under the Federal employees\nhealth benefits program which provides any benefits or coverage for\nabortions.\nSec. 614. The provision of section 613 shall not apply where the\nlife of the mother would be endangered if the fetus were carried to\nterm, or the pregnancy is the result of an act of rape or incest.",
+   "Sec. 810. <<NOTE: Abortion.>> No funds available for obligation or\nexpenditure by the District of Columbia government under any authority\nshall be expended for any abortion except where the life of the mother\nwould be endangered if the fetus were carried to term or where the\npregnancy is the result of an act of rape or incest."
+  ],
+  "grade": "A",
+  "locator": "Division B, Title VI sec. 613-614; Title VIII sec. 810",
+  "fact_date": "2024-03-23",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-23",
+  "context": "Enacted law: Public Law 118-47, approved March 23, 2024 (Biden administration); Division B, Financial Services and General Government, secs. 613, 614 and 810, as published by the Government Publishing Office. Annual provisions: they lapse with the fiscal year unless renewed.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-332",
+  "statement": "CRS reports that Hyde-like limits also reach the Indian Health Service (by cross-reference to the Hyde Amendment), Peace Corps and global health funds (in the State-Foreign Operations act) and Department of Defense funds (10 U.S.C. 1093), while CHIP, funded outside the Labor-HHS act, has its own limits in its statute.",
+  "claim": "data",
+  "figures": [
+   "1093"
+  ],
+  "source": "SRC-3282",
+  "anchor": [
+   "Hyde-like restrictions on abortion. For example, the Hyde",
+   "Amendment has been incorporated by statutory cross-",
+   "reference to apply to the Indian Health Service, which",
+   "and the Peace Corps), Title VII, §§ 7018 and 7057;",
+   "10 U.S.C. § 1093 (placing restrictions on funds available",
+   "the CHIP statute includes its own independent limitations"
+  ],
+  "grade": "C",
+  "fact_date": "2022-07-20",
+  "checked": "2026-11-10",
+  "recheck": "2027-07-20",
+  "context": "CRS In Focus IF12167, updated July 20, 2022 (nonpartisan legislative-branch research service); a legal summary, not primary law, and it describes the FY2022 act (P.L. 117-103). Two-column PDF: the saved text interleaves the columns line by line, so each anchor is a single line. Re-check against current acts; this item is the CRS list, not a count of every federal program.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-333",
+  "statement": "MedPAC counted about 4,530 unique hospital provider numbers in fiscal year 2024, including 1,370 critical access hospitals.",
+  "claim": "data",
+  "figures": [
+   "4,530",
+   "1,370",
+   "2024"
+  ],
+  "source": "SRC-3283",
+  "anchor": [
+   "Since 2021 the supply of hospitals has been relatively\nstable, with about 4,530 unique provider numbers in FY\n2024",
+   "FFS Medicare beneficiaries also received care\nat 1,370 critical access hospitals"
+  ],
+  "grade": "A",
+  "locator": "Chapter 3, hospital supply",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-15",
+  "context": "MedPAC (Medicare Payment Advisory Commission), an independent congressional agency; March 2026 Report to the Congress, chapter 3; counts from CMS Provider of Services data. A provider number can represent more than one hospital location. Critical access hospitals are small rural hospitals (25 or fewer beds) paid at cost.",
+  "supports": [
+   "dossiers/care/4-specification.md",
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-334",
+  "statement": "The Sheps Center counted 4,306 acute hospitals in the United States as of December 2020, of which 2,176 were in rural locations and 1,334 were critical access hospitals.",
+  "claim": "data",
+  "figures": [
+   "4,306",
+   "2,176",
+   "1,334",
+   "2020"
+  ],
+  "source": "SRC-3292",
+  "anchor": [
+   "As of December 2020, there are 4,306 acute hospitals in the U.S.",
+   "1,334 Critical Access Hospitals",
+   "2,176 hospitals are in rural locations"
+  ],
+  "grade": "C",
+  "locator": "Key findings box, p. 1",
+  "fact_date": "2020-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "Cecil G. Sheps Center for Health Services Research, University of North Carolina at Chapel Hill (academic center; its rural health research program is federally funded through HRSA's Federal Office of Rural Health Policy); December 2020 snapshot, so stale for 2029 planning: the counts move with closures and conversions. Quotation normalizes the PDF's ligature glyphs; the reviewer checks it at the key-findings box. Rural location here follows the Sheps definition, not MedPAC's county classes.",
+  "supports": [
+   "dossiers/care/4-specification.md",
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-335",
+  "statement": "Hospitals paid under Medicare's inpatient prospective payment systems had an all-payer operating margin of 6.5 percent in fiscal year 2024, up 1.3 percentage points, and an all-payer total margin of 7.9 percent.",
+  "claim": "data",
+  "figures": [
+   "6.5",
+   "1.3",
+   "7.9",
+   "2024"
+  ],
+  "source": "SRC-3283",
+  "anchor": [
+   "Hospitals’ all-payer operating margin (including\ncoronavirus relief funds) increased 1.3 percentage\npoints in FY 2024, to 6.5 percent",
+   "led hospitals’ all-payer total margin\nto increase 1.5 percentage points (more than their\noperating margin), up to 7.9 percent."
+  ],
+  "grade": "A",
+  "locator": "Chapter 3, Table 3-10 and text",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-15",
+  "context": "MedPAC (Medicare Payment Advisory Commission), an independent congressional agency; March 2026 Report to the Congress, chapter 3, from hospital cost reports; the operating margin includes coronavirus relief funds and MedPAC notes a one-time 340B remedy payment lifted it; the total margin also counts investment and donation income (investment income rose nearly 40 percent). MedPAC's July 2026 Data Book gives the same 7.9 and 6.5 figures.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-336",
+  "statement": "In fiscal year 2024 the all-payer operating margin was 14.5 percent at for-profit hospitals against 5.9 percent at nonprofit hospitals, and 6.6 percent at urban hospitals against 1.5 percent at hospitals in rural nonmicropolitan areas.",
+  "claim": "data",
+  "figures": [
+   "14.5",
+   "5.9",
+   "6.6",
+   "1.5"
+  ],
+  "source": "SRC-3283",
+  "anchor": [
+   "For-profit\nhospitals’ all-payer operating margin continued to be\nmuch higher than nonprofit hospitals’ margin (14.5\npercent vs. 5.9 percent, including relief funds).",
+   "nonmicropolitan areas (6.6 percent vs. 1.5 percent,\nrespectively)."
+  ],
+  "grade": "A",
+  "locator": "Chapter 3, Table 3-10 and text",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-15",
+  "context": "MedPAC (Medicare Payment Advisory Commission), an independent congressional agency; March 2026 Report to the Congress, chapter 3; IPPS hospitals; operating margins include relief funds. MedPAC says part of the for-profit gap reflects a lower average hourly wage.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-337",
+  "statement": "MedPAC found that in fiscal year 2024 the fee-for-service Medicare margin of rural nonmicropolitan hospitals was –3.4 percent against –12.6 percent for urban hospitals.",
+  "claim": "data",
+  "figures": [
+   "–3.4",
+   "–12.6"
+  ],
+  "source": "SRC-3283",
+  "anchor": [
+   "Rural hospitals’ FFS Medicare margin\nalso continued to exceed urban hospitals’ margin,\nespecially for rural hospitals in nonmicropolitan areas\n(–3.4 percent vs. –12.6 percent, respectively)"
+  ],
+  "grade": "A",
+  "locator": "Chapter 3, Table 3-10 and text",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-15",
+  "context": "MedPAC (Medicare Payment Advisory Commission), an independent congressional agency; March 2026 Report to the Congress, chapter 3; Medicare-only margin, which MedPAC reports separately from the all-payer margin. Read with the all-payer figures: rural hospitals lose less on Medicare than urban hospitals but earn less overall.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-338",
+  "statement": "The Sheps Center's tracker listed 87 complete closures and 68 converted closures of rural hospitals since 2010, a count that excludes conversions to Rural Emergency Hospitals.",
+  "claim": "data",
+  "figures": [
+   "87",
+   "68",
+   "2010"
+  ],
+  "source": "SRC-3291",
+  "anchor": [
+   "since 2010 87 complete closures* + 68 converted closures**",
+   "do not include conversions to Rural Emergency Hospitals (REHs)"
+  ],
+  "grade": "C",
+  "locator": "Rural Hospital Closures page, counts since 2010",
+  "fact_date": "2025-12-04",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "Cecil G. Sheps Center for Health Services Research, University of North Carolina at Chapel Hill; tracker page marked updated 12/4/25 and revised as hospitals close, so the totals change. A converted closure ends inpatient services but keeps some other care. The reviewer checks the quotation on the page, where the figures sit under the headings 'since 2010' and the closure types.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-339",
+  "statement": "MedPAC's data book reports that in fiscal year 2025 ten hospitals opened and 17 closed, none of the closures being critical access hospitals, and another 11 hospitals converted to Rural Emergency Hospitals.",
+  "claim": "data",
+  "figures": [
+   "10",
+   "17",
+   "11",
+   "2025"
+  ],
+  "source": "SRC-3284",
+  "anchor": [
+   "In FY 2025, 10 hospitals opened while 17 closed; another 11 converted to rural emergency\nhospitals (REHs).",
+   "None of the openings or closures in FY 2025 were critical access hospitals."
+  ],
+  "grade": "A",
+  "locator": "Data Book chapter 6, chart 6-2 and text",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-07-15",
+  "context": "MedPAC (Medicare Payment Advisory Commission), an independent congressional agency; July 2026 Data Book, chapter 6, chart 6-2. MedPAC's March 2026 report counts 18 closures for fiscal year 2025 (the count was revised between the two); the majority of closures were in urban counties, so these are all-hospital, not rural-only, counts.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-340",
+  "statement": "CBO's review of five studies found that commercial insurers paid hospitals more than twice what Medicare fee-for-service paid, with combined price ratios from 167 percent to 250 percent of Medicare's, and concluded that greater provider market power consistently leads to higher commercial prices.",
+  "claim": "analysis",
+  "figures": [
+   "167",
+   "250"
+  ],
+  "source": "SRC-3290",
+  "anchor": [
+   "On average, the five studies that looked at overall prices for hospitals’ services suggest that the prices paid by commercial insurers were more than twice those paid by Medicare FFS.",
+   "ranged from 167 percent of Medicare FFS’s prices to 250 percent.",
+   "Greater market power among providers consistently leads to prices for commercial insurers that are higher than Medicare FFS’s prices"
+  ],
+  "grade": "C",
+  "locator": "Summary and section on hospitals' prices",
+  "fact_date": "2022-01",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-20",
+  "context": "Congressional Budget Office, report of January 20, 2022; nonpartisan; a review of published studies from 2010 to 2020 plus CBO's own analysis, so the ratio is a literature average and the market-power finding is CBO's reading of that literature. CBO also found that providers' share of Medicare and Medicaid patients is not related to the prices they negotiate, which contests the 'cost shifting' explanation. CBO's site refused the download tools (403) on 2026-11-10; read through a full-text fetch.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-341",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-341",
+  "statement": "MedPAC reported that hospital consolidation had produced market power that widened the gap between Medicare and commercial prices, that commercial prices averaged about 50 percent above hospital costs, and that hospitals' all-payer profit margins reached a 30-year high of 7.3 percent in 2014.",
+  "claim": "analysis",
+  "figures": [
+   "50",
+   "7.3",
+   "2014"
+  ],
+  "source": "SRC-3285",
+  "anchor": [
+   "market power has contributed to a growing divergence between the prices Medicare",
+   "prices average about 50 percent higher than hospital costs and often far more than",
+   "a 30-year high in 2014, averaging 7.3 percent nationwide"
+  ],
+  "grade": "C",
+  "locator": "Chapter 10, introduction",
+  "fact_date": "2017-06",
+  "checked": "2026-11-10",
+  "recheck": "2027-03-15",
+  "context": "MedPAC (Medicare Payment Advisory Commission), an independent congressional agency; June 2017 Report to the Congress, chapter 10; its causal account of market power and prices is analysis, drawing on studies by others (Cooper and others 2015, Health Care Cost Institute). It predates the 2024 margins above, which are about the same level (7.9 percent total).",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-340",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-342",
+  "statement": "As of December 2007, about 1.8 million of 7.6 million SSDI beneficiaries were in the 24-month waiting period for Medicare coverage.",
+  "claim": "data",
+  "figures": [
+   "1.8",
+   "7.6",
+   "24",
+   "2007"
+  ],
+  "source": "SRC-3293",
+  "anchor": [
+   "As of December 2007, there were 7.6 million SSDI beneficiaries; of those, approximately 1.8 million were in the 24-month waiting period for Medicare coverage."
+  ],
+  "grade": "C",
+  "locator": "p. 1",
+  "fact_date": "2007-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "Guterman and Drake, Commonwealth Fund issue brief, May 2009; a private foundation, nonpartisan, with a track record of advocating an end to the wait; the figure is from 2007 state-level data and is stale, as KFF's 2024 analysis (next entry) says the current count is unknown. Treat as order of magnitude only.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-343",
+  "statement": "KFF reported that 8.3 million people under 65 were eligible for Medicare through disability in 2021, 8.1 million of them through SSDI, and that it is unknown how many people are currently in the Medicare waiting period.",
+  "claim": "data",
+  "figures": [
+   "8.3",
+   "8.1",
+   "2021"
+  ],
+  "source": "SRC-3295",
+  "anchor": [
+   "In 2021, 8.3 million people under the age of 65 were eligible for Medicare because of a disabling condition. Nearly all (8.1 million) were eligible through SSDI",
+   "It is unknown how many people are currently in the waiting period"
+  ],
+  "grade": "C",
+  "locator": "Section on Medicare eligibility through SSDI",
+  "fact_date": "2024-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-24",
+  "context": "KFF (health policy research and polling nonprofit), October 24, 2024, using SSA and CMS data; nonpartisan. The unknown count is why the Commonwealth Fund figure above is the only direct count of the waiting-period population found.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-344",
+  "statement": "Mathematica estimated that eliminating the Medicare waiting period for new SSDI beneficiaries would raise annual Medicare costs by about $14 billion, about three percent of Medicare spending in 2006, if all were enrolled throughout the 24 months.",
+  "claim": "analysis",
+  "figures": [
+   "$14 billion",
+   "2006",
+   "24"
+  ],
+  "source": "SRC-3294",
+  "anchor": [
+   "would increase annual Medicare costs by approximately $14 billion, provided that all beneficiaries are enrolled throughout the 24-month period.",
+   "about three percent of total Medicare expenditures in 2006"
+  ],
+  "grade": "C",
+  "locator": "Abstract",
+  "fact_date": "2009-03",
+  "checked": "2026-11-10",
+  "recheck": "2027-06-30",
+  "context": "Livermore, Stapleton and Claypool, Mathematica Policy Research, Center for Studying Disability Policy, March 30, 2009; 2006 dollars and 2006 Medicare spending, so well out of date for a 2029 plan; the brief also lists offsetting benefits (lower Medicaid spending for states). No independent corroborating estimate was read: a Medicare Rights Center fact sheet cites a CBO option of $113 billion over ten years, but CBO's original was not reachable.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-345",
+  "statement": "The Trade Adjustment Assistance for Workers programs received a $633.6 million appropriation in fiscal year 2021, of which $406.6 million was for training and other activities and $227 million for income support and wage insurance.",
+  "claim": "data",
+  "figures": [
+   "$633.6 mil ion",
+   "$406.6 mil ion",
+   "$227 mil ion",
+   "2021"
+  ],
+  "source": "SRC-3289",
+  "anchor": [
+   "In FY2021, Congress appropriated $633.6 mil ion for the TAA for Workers programs.18 Of this\namount, $406.6 mil ion was for training and other activities and the remaining $227 mil ion was\nfor income support and wage insurance."
+  ],
+  "grade": "A",
+  "locator": "Section on FY2021 appropriation",
+  "fact_date": "2021",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-17",
+  "context": "CRS report R44153, updated February 17, 2021 (nonpartisan); mandatory appropriations before sequestration (5.7 percent). The saved text drops the double l in 'million' (ligature), so anchors keep 'mil ion'. The program's authority was due to lapse after 2021; check whether it has been reauthorized.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-346",
+  "statement": "Among Trade Adjustment Assistance participants who exited in fiscal year 2019 and completed training, the average enrollment was 459 days and the average training cost was $15,087.",
+  "claim": "data",
+  "figures": [
+   "459",
+   "$15,087",
+   "2019"
+  ],
+  "source": "SRC-3289",
+  "anchor": [
+   "Among the training participants who\ncompleted their training programs in FY2019, the average duration of enrollment in the program\nwas 459 days and the average training cost was $15,087."
+  ],
+  "grade": "A",
+  "locator": "Section on training",
+  "fact_date": "2019",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-17",
+  "context": "CRS report R44153, updated February 17, 2021, reporting the Department of Labor's FY2019 TAA annual report; official data on training only, not the program's total cost per participant (income support, wage insurance and health tax credit come on top).",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-347",
+  "statement": "Mathematica's evaluation for the Labor Department found that participants spent 79.8 weeks in the program on average and, in the fourth year after job loss, earned either $3,300 less than comparison workers or about the same; it estimated the net benefit to society at negative $53,802 per participant, before counting any benefit from making free trade politically feasible.",
+  "claim": "analysis",
+  "figures": [
+   "79.8",
+   "$3,300",
+   "$53,802"
+  ],
+  "source": "SRC-3288",
+  "anchor": [
+   "the long period of time participants were in the program—on average 79.8 weeks",
+   "In the fourth-year, their earnings either were about $3,300 less\nthan the earnings of comparison-group members or were no different",
+   "was negative $53,802 per participant."
+  ],
+  "grade": "C",
+  "locator": "Executive summary and benefit-cost section",
+  "fact_date": "2012-12",
+  "checked": "2026-11-10",
+  "recheck": "2027-12-31",
+  "context": "Mathematica Policy Research for the Department of Labor, final report December 2012 (Obama administration contract); quasi-experimental matched comparison of workers certified under the 2002 amendments, four years of follow-up, which the report says may be too short and excludes the trade-policy benefit it says could outweigh the costs. Cited by the Heritage Foundation against the program, so framing differs by source. No independent corroborating evaluation was read.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-348",
+  "statement": "The Consolidated Appropriations Act, 2023 appropriated $4,919,670,000 for Indian Health Services and, in addition, $4,627,968,000 that becomes available on October 1, 2023, an advance appropriation for fiscal year 2024.",
+  "claim": "data",
+  "figures": [
+   "$4,919,670,000",
+   "$4,627,968,000",
+   "2023"
+  ],
+  "source": "SRC-3287",
+  "anchor": [
+   "$4,919,670,000, to remain available until September 30, 2024, except as\notherwise provided herein; and, in addition, $4,627,968,000, which shall\nbecome available on October 1, 2023"
+  ],
+  "grade": "A",
+  "locator": "Division G, Title II, Indian Health Service",
+  "fact_date": "2022-12-29",
+  "checked": "2026-11-10",
+  "recheck": "2027-10-01",
+  "context": "Enacted law: Public Law 117-328, approved December 29, 2022 (Biden administration), Division G (Interior), Indian Health Service, 'Indian Health Services' account, as published by the Government Publishing Office. Whether it was the first advance appropriation for the Indian Health Service is from advocacy sources (tribal health organizations) and is not shown by this text.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-349",
+  "statement": "CRS reports that the full-year Interior appropriation for fiscal year 2026 (Division C of Public Law 119-74, January 23, 2026) included $5.31 billion in advance appropriations for the Indian Health Service for fiscal year 2027, after $5.23 billion enacted in fiscal year 2025 for fiscal year 2026; the President's fiscal year 2026 request included none.",
+  "claim": "data",
+  "figures": [
+   "119-74",
+   "$5.31 billion",
+   "$5.23 billion",
+   "2027",
+   "2026"
+  ],
+  "source": "SRC-3286",
+  "anchor": [
+   "On January 23, 2026, FY2026 full-year appropriations for Interior, Environment, and Related Agencies were included in P.L. 119-74 , Division C.",
+   "This total in P.L. 119-74 , Division C also reflected $5.31 billion in advance appropriations for the Indian Health Service for FY2027.",
+   "the FY2025 enacted total included $5.23 billion in advance appropriations for FY2026; the FY2026 request did not include advance appropriations for FY2027"
+  ],
+  "grade": "A",
+  "locator": "Overview of FY2026 action; Table 1 note d",
+  "fact_date": "2026-01-23",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-23",
+  "context": "CRS report R48726 (nonpartisan; March 2026 version) describing enacted law (second Trump administration; the administration's request omitted the advance appropriation and Congress added it). Advance appropriations let the Indian Health Service keep operating through a funding lapse; CRS notes that comparisons across years are hard because of them.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-350",
+  "statement": "CRS's table of Interior-bill appropriations lists the Indian Health Service at $8,121,474 thousand as enacted for fiscal year 2026, against $8,266,149 thousand enacted for the year before, with each figure including advance appropriations for the following year.",
+  "claim": "data",
+  "figures": [
+   "$8,121,474",
+   "$8,266,149"
+  ],
+  "source": "SRC-3286",
+  "anchor": [
+   "Indian Health Service d\n$8,266,149\n$2,739,008\n$9,219,034\n$8,154,790\n$8,121,474",
+   "Amounts in this row reflect newly appropriated funds for the applicable fiscal year and advance appropriations provided for the subsequent fiscal year."
+  ],
+  "grade": "A",
+  "locator": "Table 1 and note d",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-01-23",
+  "context": "CRS report R48726, Table 1 (thousands of dollars; columns are FY2025 enacted, FY2026 requested, House committee, Senate committee, FY2026 enacted). The saved text lists table cells one per line. Because each year's row mixes new funds with the next year's advance, the two years are not like-for-like; the row is not the whole IHS budget (offsetting collections and mandatory funds are outside it).",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
  }
 ]

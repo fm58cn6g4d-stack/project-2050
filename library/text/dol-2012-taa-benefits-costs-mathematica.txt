@@ -1,0 +1,1710 @@
+Source: https://www.dol.gov/sites/dolgov/files/ETA/publications/ETAOP_2013_08.pdf
+Publisher: U.S. Department of Labor
+Retrieved: 2026-11-10
+Original SHA-256: 2f7b77940fc3d8ae6cde273fd7c958c736be04da5ca074c8e4c5d287dc6a5806
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Prepared for:
+The U.S. Department of Labor
+Employment and Training
+Administration
+Office of Policy Development and
+Research
+200 Constitution Ave., N.W.
+Washington, DC 20210
+DOL Contract Nos.
+AK-13690000430
+DOLB111A21774
+DOLQ101A21449
+Order DOLU121A21859
+Order DOLU121A21894
+SPR Project No. 1213
+Project Director:
+Ronald D'Amico (SPR)
+Principal Investigators:
+Ronald D'Amico (SPR)
+Peter Z. Schochet (Mathematica)
+
+The Evaluation of the Trade
+Adjustment Assistance Program:
+A Synthesis of Major Findings
+Final Report
+Prepared as Part of the
+Evaluation of the Trade Adjustment Assistance Program
+December 2012
+
+Prepared by:
+Ronald D’Amico, SPR
+Peter Z. Schochet, Mathematica
+
+DISCLAIMER
+This report and associated work have been funded, either wholly or in part, with Federal funds
+from the U.S. Department of Labor (USDOL), Employment and Training Administration (ETA),
+Office of Policy Development and Research (OPDR) under Contract Numbers AK-13690000430,
+DOLB111A21774, and DOLQ101A21449. The contents of this publication do not necessarily
+reflect the views or policies of the Department of Labor, nor does mention of trade names,
+commercial products, or organizations imply endorsement of same by the U.S. Government.
+
+ACKNOWLEDGEMENTS
+We would like to thank the many people whose cooperation and efforts have made this
+evaluation possible. Our biggest debt of gratitude is owed to the representatives of the states who
+provided us with the data we needed to carry out the analyses for this study. These individuals
+received from us numerous and complex requests for data, often at times when they were engaged
+with other urgent priorities, such as upgrading their data systems to process extended and
+emergency Unemployment Insurance benefits. We are extremely grateful for their perseverance on
+our behalf.
+We would also like to thank the many people at the U.S. Department of Labor’s Employment
+and Training Administration (ETA) who supported this study in many ways. Special thanks are due
+to our Project Officer, Charlotte “Sande” Schifferes, of ETA’s Office of Policy Development and
+Research, who was tremendously supportive of the project team throughout and unstinting in her
+willingness to do what she could to unclog logjams when they occurred. We would not have been
+nearly as successful in getting states to cooperate with our study without her persistent efforts on
+our behalf. We also appreciate the support provided by ETA’s Office of Trade Adjustment
+Assistance (OTAA), whose staff members responded to our frequent requests for Federal
+administrative data pertaining to the TAA program. We are especially grateful for the support
+provided by OTAA’s Erin Fitzgerald and Terry Clark, who patiently answered our many questions
+about the TAA program and shared their insights regarding pressing policy matters.
+
+i
+
+ii
+
+FINDINGS IN BRIEF
+This paper presents a synthesis of findings described in detail in more than a dozen separate reports
+prepared as part of the Evaluation of the Trade Adjustment Assistance (TAA) Program. The evaluation focused on
+providing answers to two broad questions: (1) Is TAA effective in helping workers rebound from their job
+losses?, and (2) What services are delivered to participants? To answer these questions we collected and
+analyzed data of a variety of types, including administrative data, data from surveys of TAA participants and a
+statistically matched comparison group of Unemployment Insurance (UI) claimants not eligible for TAA, and
+data from site visits conducted from 2004 to 2011 to 34 states and more than 100 local offices.
+In examining TAA’s effectiveness as it operated under the Trade Act of 2002, we found that:
+•
+
+TAA participation significantly increased the receipt of reemployment services and education and training services.
+TAA participants were much more likely than those in the comparison group to receive career
+planning and job search assistance, as well as to participate in occupational skills training and other
+forms of training and education.
+
+•
+
+Participants were engaged in some form of productive activity at about the same rate as the comparison group. To a
+large degree, TAA participants engaged in training in the period after job loss, in lieu of seeking and
+obtaining employment. Thus, impacts on being employed or being in training were not statistically
+significant, except in the first year when effects were negative but small.
+
+•
+
+As we would expect, the labor market outcomes for participants were significantly worse during the first two years after
+the workers’ UI claim dates than they were for their matched comparison group members who were not eligible for
+TAA. This finding was entirely expected because TAA participants were much more likely to be in
+training than comparison group members in the few years after job loss.
+
+•
+
+By the end of the four-year observation period, TAA participants had almost entirely closed the gap in employment
+and earnings, and, by one measure, they had pulled slightly ahead. Depending on the specification of the
+comparison group, TAA participants in the fourth year of follow-up worked either about the same
+number of weeks on average as comparison group members or about three weeks more.
+Participants’ fourth-year earnings were either $3,300 less than, or about the same as, those of
+comparison-group members. The differing results represent lower- and upper-bound estimates of
+TAA’s likely true impacts in the fourth year after job loss.
+
+•
+
+Some groups of TAA participants fared better than others on measures of employment and earnings. TAA
+participants who were younger and those who received TAA-funded training were more likely to
+have caught up to their comparison group members by the fourth year of follow-up, while impacts
+remained negative and significant for TAA participants who were older and those who received
+TAA income support but not TAA-funded training. TAA-funded trainees’ employment rates in the
+last four quarters were similar to that of the full matched comparison group of UI claimants (and,
+relative to a comparison group of UI exhaustees, the trainees’ employment rates during the last three
+quarters were statistically significant and positive, rising to 11.3 percentage points higher in the 16th
+and final quarter). TAA-funded trainees’ earnings relative to the full comparison group were
+negative and statistically significant in all quarters (but, compared to the UI-exhaustee sample, there
+were no statistically significant earnings impacts during the final four quarters).
+
+•
+
+Overall, participation in TAA as the program operated under the 2002 amendments had a negative effect on total
+income during the four-year follow-up period. Participants collected more in UI payments and Trade
+Readjustment Allowances (TRA). However, TAA had a negative impact on total income, suggesting
+that these additional income payments did not fully compensate for participants’ lower earnings.
+
+iii
+
+Projecting into the future, for the program to provide positive benefits for them the 2002 TAA
+participants would have to earn at least $2,124 per year more than the full comparison group from
+year five (after job loss) until retirement, or $757 per year more than the UI-exhaustee comparison
+group.
+•
+
+Without considering the benefits of TAA stemming from the possibility that it promotes free trade, the net benefits of
+the TAA program as it operated under the 2002 amendments were negative, whether calculated from the
+perspective of society as a whole, participants, or other members of society. However, if TAA made
+even a relatively modest contribution to the ease of enacting free-trade policies, the program’s
+benefits would outweigh its costs.
+
+•
+
+There are important caveats to these findings. Because many participants were in TAA-funded training
+for a long period of time, the four-year follow-up period may not be long enough to evaluate the full
+returns of such training. Furthermore, TAA trainees completed their training and re-entered the
+labor market when the nation’s economy was mired in severe economic recession, whereas the
+comparison group—who spent considerably less time in training—were more likely to have
+returned to the labor market before economic conditions deteriorated. Thus, longer follow-up may
+be necessary to account for all the benefits of training in the 2002 TAA program.
+
+In examining the implementation of TAA services, we found that:
+•
+
+Most of the provisions of the Trade Act of 2002 were well received by state TAA administrators, but there were some
+implementation challenges. The U.S. Department of Labor’s improved response time in making petition
+determination decisions and the expansion of benefits and eligibility were greeted enthusiastically.
+The Act’s wage insurance program for older workers and the tax credit it allowed to cover health
+insurance costs were viewed as providing helpful benefits to workers, but they were challenging to
+implement at first, and take-up for these new benefits was low. The new 8/16-week deadline by
+which participants needed to enroll in training to maintain eligibility for TRA was designed to
+promote speedy entry into training, but was viewed by some as rushing workers to make training
+decisions too quickly. Some provisions of the Act led states to expand their use of waivers to
+protect workers’ eligibility for various benefits, which caused states a greatly increased paperwork
+burden.
+
+•
+
+TAA program administrators were diligent in carrying out their obligations to promote petition filing and notify
+workers of their potential eligibility for services. Rapid Response was helpful in spreading the word about
+the TAA program to employers and affected workers. States also made sure to obtain lists of
+eligible workers from employers and mail these workers notification letters informing them of the
+TAA services for which they might qualify. More aggressive outreach efforts were less common,
+but some states hosted hotlines, used social networking, collaborated with labor organizations, and
+used peer counselors to increase the take-up of program services.
+
+•
+
+Those eligible for TAA tended to be full-time workers with long tenures who were displaced from relatively high-paying
+positions. Contributing to the challenges they faced in finding new employment, these workers were
+also older and less educated than other workers looking for employment.
+
+•
+
+About 50 percent of those eligible for TAA received a “significant” TAA service, defined as including TAA-funded
+training, TRA, Alternative Trade Adjustment Assistance (ATAA), the Health Coverage Tax Credit (HCTC),
+or allowances other than TRA. More than 90 percent of participants received TRA and about half
+received TAA-funded training. Other services were much less common. The TAA participation
+rate and types of services emphasized differed markedly from state to state.
+
+•
+
+Certain characteristics of TAA training were associated with better labor market outcomes. Although our
+analysis was not causal, it appears that workers who entered training more quickly experienced
+
+iv
+
+better labor market outcomes, but the length of the training did not seem to matter. Females who
+trained in healthcare practitioner or technical fields or in office and administrative support fared
+better, as did the 37 percent of TAA-funded trainees who found employment in their training fields.
+Those who received a career assessment to guide them in their training choices were more likely to
+obtain training-related job placement.
+
+•
+
+Most of the provisions of the Trade and Globalization Adjustment Assistance Act (TGAAA) of 2009 were well
+received, but the poor economic climate made it difficult for state officials and eligible workers to take full advantage of
+them. TAA staff members felt that TGAAA’s expansion of benefits and broadened eligibility rules
+were of considerable benefit, and they welcomed the relaxation of the 8/16-week deadlines by
+which participants needed to enroll in training to protect TRA eligibility. TGAAA also mandated
+case management services for TAA participants; the nature of these services did not seem to change
+much from what they had been previously, but states were more careful to document the case
+management services that they offered. An overriding factor affecting the implementation of many
+provisions of the new law was the weakened state of the economy, which caused long waiting lists
+for training and made it difficult for older workers interested in the expanded wage supplement
+program to find jobs.
+
+v
+
+vi
+
+CONTENTS
+
+A. Introduction ....................................................................................................... 1
+
+B.
+
+1.
+
+About the TAA Program .............................................................................. 1
+
+2.
+
+Research Design and Data Collection .......................................................... 3
+
+What are the Impacts and Costs and Benefits for the 2002 TAA Program? .......... 6
+1.
+
+The Impacts of TAA on TAA Participants ..................................................... 6
+
+2.
+
+The Impacts of TAA on TAA Nonparticipants ............................................. 10
+
+3.
+
+The Costs and Benefits of the 2002 TAA Program ..................................... 11
+
+C. How Does TAA Operate and What Services Does It Provide?.............................. 13
+1.
+
+The Implementation of the Trade Act of 2002 ........................................... 13
+
+2.
+
+TAA and Its American Job Center Partners ................................................. 15
+
+3.
+
+Outreach to Employers and Eligible Workers ............................................. 15
+
+4.
+
+Case Management in TAA ......................................................................... 17
+
+5.
+
+The Characteristics of Workers Eligible for TAA and the Decision to
+Participate................................................................................................. 19
+
+6.
+
+Participants’ Experiences in TAA ............................................................... 19
+
+7.
+
+The Outcomes of TAA-Funded Trainees..................................................... 20
+
+8.
+
+The Implementation of TGAAA .................................................................. 21
+
+REFERENCES ............................................................................................................... 27
+APPENDIX A: OTHER REPORTS PREPARED AS PART OF THE EVALUATION ..................... 29
+APPENDIX B: INDEX OF REPORTS BY MAJOR TOPICS IN THE SYNTHESIS REPORT ........... 31
+
+vii
+
+EXHIBITS
+
+Exhibit 1:
+
+Impacts on Employment Rates Using Samples of UI Exhaustees
+versus UI Claimants ............................................................................. 8
+
+Exhibit 2:
+
+Impacts on Earnings Using Samples of UI Exhaustees versus UI
+Claimants ............................................................................................ 8
+
+Exhibit 3:
+
+Summary of Key Provisions of the Trade Act of 2002 and
+Accompanying ETA Guidance ............................................................. 14
+
+Exhibit 4:
+
+Summary of Key Provisions of TGAAA ................................................... 22
+
+viii
+
+THE EVALUATION OF THE TRADE ADJUSTMENT ASSISTANCE PROGRAM:
+A SYNTHESIS OF MAJOR FINDINGS
+
+Although beneficial to the economy as a whole, the expansion of international trade has
+heightened competition from foreign producers, which has caused some U.S. industrial sectors to
+contract markedly (Kletzer 2002). U.S. government policy recognizes the potential for localized
+harm due to foreign competition and, through the Trade Adjustment Assistance (TAA) program,
+aims to help America’s workers rebound from job separations that the competition might cause.
+Although TAA has a compensatory component, the program’s primary goal is to help trade-affected
+workers obtain reemployment at suitable wages by providing training, temporary income support,
+and other services.
+In 2004, the U.S. Department of Labor’s Employment and Training Administration (ETA)
+funded a comprehensive Evaluation of the TAA Program, which was designed to document the
+program’s implementation and assess the ability of the program to achieve its goal of helping
+participants find rapid and suitable reemployment. The evaluation, conducted jointly by Social
+Policy Research Associates (SPR) and Mathematica Policy Research (Mathematica), yielded a series
+of more than a dozen reports, along with additional memos, briefs, and presentations. This report
+serves as a concise synthesis of the major findings presented in these prior products. It is focused
+on the answers the evaluation provided to two major categories of questions, with one focusing on
+TAA’s impacts and the second on the program’s implementation.
+1. Is TAA effective in helping workers rebound from their job losses and, in light of these
+impacts, do the program’s benefits outweigh its costs?
+2. How is TAA managed at the local level and what services are delivered to participants?
+We present major findings relating to these two questions in successive sections of the report,
+after we first present a brief introduction to the study that includes an overview of TAA’s key
+features and the evaluation’s research design. Appendix A lists other reports prepared as part of the
+evaluation, to which readers desiring more information might refer; Appendix B functions as an
+index to Appendix A, directing the reader to the reports where the topics presented in this synthesis
+are most directly addressed.
+A. INTRODUCTION
+TAA offers a rich set of services to participants. After outlining these services, we describe the
+data the research team collected to learn about these services and their impacts on participants.
+1. About the TAA Program
+The TAA program has been amended a number of times since it was first authorized with the
+enactment of the Trade Act of 1974. The Trade Adjustment Assistance Reform Act of 2002
+(hereafter, the Trade Act of 2002 or the 2002 TAA program), enacted shortly before the evaluation
+began, represented a significant change, as it expanded eligibility, promoted early intervention,
+1
+
+fostered greater collaboration between the TAA and Workforce Investment Act (WIA) programs,
+and expanded benefits and services. As the evaluation was winding down, additional changes to the
+TAA program occurred. The Trade and Globalization Adjustment Assistance Act (TGAAA) was
+enacted in 2009 as part of the American Recovery and Reinvestment Act (ARRA), but this
+legislation included a sunset provision and its amendments to TAA expired on February 12, 2011. 1
+Changes were next mandated under the Trade Adjustment Assistance Extension Act of 2011
+(TAAEA), enacted on October 21, 2011 (TAAEA is set to expire in late 2013). Among their key
+provisions, TGAAA and TAAEA expanded eligibility to trade-affected workers in the service sector
+(prior to TGAAA, only workers in the goods-producing sector were eligible), required that case
+management services be made available to TAA participants, and significantly expanded certain
+other program benefits.
+Regardless of which of these program rules were in effect, to be eligible for TAA a worker must
+be covered by a petition certified for TAA. A petition is filed with ETA by an eligible entity, and, if
+ETA determines that the job losses were significantly caused by foreign competition, it certifies the
+affected worker group for TAA. The date on which a petition is certified for TAA is the
+determination date. Recognizing that layoffs may have occurred before the petition was certified, or
+may occur after certification, TAA allows workers to be covered by the certified petition if they have
+experienced full or partial separations within a date range defined as beginning with the impact date,
+which is usually one year before the date the petition was filed, and ending with the termination date,
+which is usually two years after the determination date. This range represents slightly more than a
+three-year period of participant eligibility.
+Once a petition is certified, state workforce agency staff members contact the employer of the
+affected firm to offer early intervention services and obtain a list of affected workers. The state
+agency then contacts the workers on the list and invites them in for services (and to make a
+determination of individual TAA eligibility). These services can include the following:
+•
+
+Training. Workers are eligible to receive tuition assistance for training and education
+that can last more than two years.
+
+•
+
+Trade Readjustment Allowances (TRA). TRA represents weekly cash payments made to
+eligible workers in amounts equivalent to their weekly Unemployment Insurance (UI)
+benefit amounts. Under normal circumstances, basic TRA can be paid for 52 weeks less
+any weeks of UI benefits available (which is usually 26 weeks); additional TRA can be
+paid for an additional 65 weeks (extended from 52 weeks by TAAEA), as long as the
+worker is enrolled in full-time training. TRA beyond these amounts is also possible in
+some circumstances.
+
+1 TGAAA was originally set to sunset on December 31, 2010. On December 29, 2010, Congress enacted
+Omnibus
+Trade Act of 2010, extending the sunset date until February 12, 2011.
+the
+
+2
+
+•
+
+Waivers. Basic TRA is only payable to workers in full-time training, those who have
+completed training, or those who received a waiver from the training requirement.
+
+•
+
+Alternative Trade Adjustment Assistance for Older Workers (ATAA). Because training may
+not pay off for older workers who are close to retiring, ATAA allows certain workers
+aged 50 and older who find new employment to receive a wage supplement of up to 50
+percent of the difference between the wage in the worker’s new job and the wage at
+separation. Benefits can be paid for up to two years, up to a maximum payment
+amount of $10,000. (ATAA was renamed Reemployment Trade Adjustment Assistance
+with the TGAAA and TAAEA amendments.)
+
+•
+
+Case Management and Reemployment Services. Under the 2002 TAA program, case
+management, assessment, and other employment services generally could not be
+provided using TAA funds and thus had to be provided through partner programs in
+the workforce system. However, under TGAAA and TAAEA, case management and
+reemployment services became entitlements for eligible workers, and can include a
+comprehensive assessment of skill levels and service needs, short-term pre-vocational
+services, and individual career counseling.
+
+•
+
+Other Allowances. Job search and relocation allowances provide support to eligible
+workers who conduct out-of-area job searches or relocate to take advantage of out-ofarea job opportunities. Subsistence and travel allowances are also available to workers
+undertaking training out of their local areas.
+
+•
+
+Health Coverage Tax Credit (HCTC). Established in the Trade Act of 2002, and amended
+through TAAEA in 2011, this tax credit is available to trade-affected workers under
+certain circumstances. It equals 72.5 percent of the cost of health insurance coverage
+for the individual and qualified family members.
+
+2. Research Design and Data Collection
+The evaluation included both qualitative and quantitative research components. For the
+qualitative data collection, research team members carried out multi-day site visits to conduct
+interviews with state TAA administrators and program staff members in local offices where TAA
+services were delivered. Waves of site visits occurred at approximately annual intervals over six
+years, with each wave focused on unique topics. Altogether, 34 states and more than 100 local
+offices were visited, some more than once, from 2004 through 2011. Early waves of site visits
+concentrated on learning about the implementation of the Trade Act of 2002, which had been
+enacted shortly before the evaluation commenced. Middle waves looked at special topics in the
+operation of the TAA program, including case management, early intervention and rapid response
+services, and the TAA program’s coordination with American Job Center system partners. The final
+wave occurred just after the enactment of TGAAA and focused on the implementation of these
+amendments. (Data collection concluded prior to the enactment of TAAEA, so the implementation
+of these latest amendments could not be examined). During the site visits, field staff conducted
+interviews with state and local-level administrators, line staff, fiscal staff, and program participants.
+The quantitative component of the evaluation involved the collection of both administrative
+data and survey data. These data were used to describe the operation of the program and the
+3
+
+services that participants received, as well as to estimate the impacts of TAA on employment,
+earnings, and other outcomes. One type of administrative data, provided by ETA, consisted of lists
+of petitions filed for TAA; each petition record included an indication as to whether or not the
+petition was certified and the petition-filer’s estimate of the likely number of affected workers.
+These data were used to randomly select a sample of 26 states for further analysis.
+We received administrative data from the 26 states. These data were of the following types:
+•
+
+Lists of workers covered by certified petitions, which we call certified worker lists, that
+were provided by employers to state workforce officials so that states could notify
+workers of their potential eligibility for TAA;
+
+•
+
+UI and TRA claimant data, used to identify those on the certified worker lists who in
+fact experienced job loss (the TAA treatment group) and those not on the lists who
+might be selected for a sample of non-eligibles (the comparison group);
+
+•
+
+UI wage data, used to measure employment and earnings for both treatment and
+comparison group members in the quarters before and after workers’ job separations; 2
+
+•
+
+Client-level records maintained by states on TAA participants’ characteristics, services,
+and outcomes, which states use to meet reporting required for the Trade Act Participant
+Report (TAPR); and
+
+•
+
+WIA participant data, drawn from the Workforce Investment Act Standardized Record
+Data (WIASRD), the client-level records maintained by states on WIA participants’
+characteristics, services, and outcomes.
+
+Finally, we administered two telephone surveys to a sample of TAA participants and a
+statistically matched comparison group drawn from each of the 26 states that initially provided the
+administrative data:
+•
+
+An initial survey, administered approximately 29 months after each worker’s UI claim
+date;
+
+•
+
+A follow-up survey, administered approximately 23 months after the initial survey,
+which allowed for the measurement of outcomes at least four years after job loss for
+about 65 percent of the sample and at least three years after job loss for about 95
+percent of the sample.
+
+Random assignment, the ideal design for estimating program impacts, was not feasible for the
+evaluation because TAA functions as an entitlement program and, hence, denying services and
+benefits to eligible workers, as would be necessary for the random selection of a control group, was
+
+2
+
+One of the 26 states was not able to provide UI claimant or wage data.
+
+4
+
+not possible. Consequently, the evaluation used a comparison group design to obtain nationally
+representative estimates of the impact of TAA on participants’ employment, earnings, and other
+outcomes. Operationally, we first used the lists of petitions certified for TAA to randomly select 26
+states, with probabilities proportional to the expected number of TAA participants in the state. Of
+these states, 25 agreed to participate in the study and provided all data, and together they contained
+almost 90 percent of all TAA-eligible workers nationwide. We then selected all petitions certified in
+these states in the one-year period between November 1, 2005, and October 31, 2006, and asked the
+states to provide the administrative data described above.
+Next, we selected treatment group samples from each of those states:
+1. The “certified worker sample.” This sample, which was the one primarily used for the impact
+analysis, included those on the certified worker lists who also appeared in the UI
+claimant files as having received a UI payment during the period of eligibility covered by
+the petition. Because only about one half of workers eligible for TAA services received
+significant program services, we subdivided the certified worker sample into two groups:
+− TAA participants—those who received significant TAA services, as measured from the
+TAPR and TRA claims files.
+− TAA nonparticipants—those eligible for TAA who did not receive significant TAA
+services, but who might have received light-touch TAA services or American Job
+Center core services provided through WIA or the Employment Services (ES).
+Note that TAA participants and TAA nonparticipants were both considered treatment
+groups, and impacts were estimated separately for each group.
+2. The “TRA-beneficiary sample.” This supplementary sample consisted of workers who
+received TRA after they exhausted their regular UI benefits. These workers were
+selected independently from the certified worker sample, but had similar UI claim dates
+as those in the certified worker sample.
+We next selected a separate comparison group for each treatment group sample (the TAAparticipant, TAA-nonparticipant, and TRA-beneficiary samples). Using administrative data and data
+from the initial survey, we used propensity score matching to select comparison groups that in
+aggregate were similar to the treatment groups on a host of baseline characteristics, including
+demographics and other personal attributes (e.g., age, gender, race and ethnicity, highest grade of
+education completed, marital status, number of children, self-reported health), as well as on work
+history and characteristics of the jobs from which they were separated (e.g., reason for job loss,
+expectations of recall, job tenure, occupation from which displaced, hourly earnings, hours worked
+per week, firm size, union status, average number of jobs in the three years before the UI claim date,
+total earnings in the year prior to the claim). Comparison group members were also selected so that
+they were from local areas similar to those of the treatment group members and experienced their
+job losses in about the same months and years that treatment group members lost their jobs (most
+of those in both groups lost their jobs in either 2005 or 2006). The distributions of these
+characteristics for the comparison group samples closely matched the distributions for the treatment
+group samples in every state and nationally. Though this matching was exhaustive for the
+observable characteristics, it is still possible there were differences between the treatment and
+comparison groups on some unobservable characteristics.
+5
+
+B. WHAT ARE THE IMPACTS AND COSTS AND BENEFITS FOR THE 2002 TAA
+PROGRAM?
+We estimated the impacts of the 2002 TAA program both for those eligible for TAA who
+received significant TAA services (TAA participants) and for those eligible for TAA for did not
+receive significant TAA services but might have received lighter-touch services (TAA
+nonparticipants). Estimated impacts for both groups are described below, followed by a description
+of findings from a cost-benefit analysis.
+1. The Impacts of TAA on TAA Participants
+The research literature presents a sobering picture of the future job prospects of workers who
+experience job displacements. Couch and Placzek (2007) report that earnings losses in the quarter
+following separation exceeded 30 percent for those they studied who were displaced through mass
+layoff. Moreover, losses remained substantial over the six-year period studied by these authors.
+Other evidence suggests that earnings losses are particularly large and sustained for older workers,
+those displaced from manufacturing, those who change industry upon reemployment (Couch et al.
+2009), those who have high seniority at the time of job loss (Jacobson et al. 1993a), and those who
+are displaced during economic downturns (Jacobsen et al. 1993b). The intent of the TAA program
+is to provide some remedy for trade-affected workers, who are likely to find themselves in many of
+these categories.
+The main impact findings were estimated for TAA participants in the certified worker sample,
+and, because of the timing of the project’s data collection, represent estimated impacts of the TAA
+program as it operated under the Trade Act of 2002 (that is, before the TGAAA or TAAEA
+amendments took effect). For these analyses, TAA participants were defined to include those
+eligible for TAA who received a significant TAA service, including TAA-funded training, TRA,
+ATAA, HCTC, or allowances other than TRA. This group made up about 50 percent of those
+eligible for TAA. To test the robustness of the study’s conclusions, sensitivity analyses were
+conducted that varied the specification of the treatment group, the comparison group, and the
+estimation model. For example, we conducted analyses for the TAA sample just described and then
+repeated many analyses defining the treatment group as the TRA-beneficiary sample. Among other
+sensitivity tests, we used only UI exhaustees to define the comparison sample (rather than UI
+claimants, regardless of whether they exhausted), as well as various methods of restricting the
+samples, such as excluding those from more rural areas (where it might be harder to find wellmatched comparisons) or those who were recalled to their jobs. Estimated impacts varied
+somewhat depending on which of these specifications was used, but can generally be summarized as
+follows:
+•
+
+TAA participation significantly increased the receipt of reemployment services, such as career planning
+and job search assistance. According to survey data, more than 94 percent of TAA
+participants received at least one reemployment service, while 77 percent of comparison
+group members reported doing so. Overwhelmingly, TAA participants and their
+comparison-group counterparts used American Job Centers to access these services.
+
+•
+
+TAA participation significantly increased the receipt of education and training and the attainment of
+educational credentials. Nearly 66 percent of TAA participants received training (and about
+50 percent received TAA-funded training), compared to 27 percent of comparison
+6
+
+group members. The average TAA participant spent about 8 times as many weeks in
+education and training as the average comparison group member. Impacts on
+participation in education and training programs were largest during the first two years
+of the follow-up period, but persisted in the third and fourth years.
+•
+
+TAA participants were engaged in a productive activity at about the same rate as the comparisons. To
+a large degree, TAA participants engaged in training in the period just after job loss, in
+lieu of seeking and obtaining employment. Thus, impacts on being employed or being
+in training—that is, engaging in any productive activity—were not statistically
+significant, except in the first year, when effects were negative but small.
+
+•
+
+As we would expect, the labor market outcomes for participants were significantly worse during the first
+two years after the workers’ UI claim dates than they were for the matched comparison group members
+who were not eligible for TAA. This finding was entirely expected, because, as was noted,
+TAA participants were much more likely to be in training than comparison group
+members in the few years after job loss.
+
+•
+
+By the end of the four-year observation period, TAA participants had almost entirely closed the gap in
+employment and earnings, and, by some measures, they had pulled slightly ahead. Depending on the
+specification of the comparison group, TAA participants were either slightly more or
+slightly less likely to be employed than comparison group members in the fourth year of
+follow-up (see Exhibit 1). Depending on the specification, TAA participants on average
+worked about the same number of weeks as comparison group members or worked
+about three weeks more. In the fourth-year, their earnings either were about $3,300 less
+than the earnings of comparison-group members or were no different (see Exhibit 2).
+These ranges for impacts on employment rates, weeks worked, and earnings can be
+thought of as representing lower-bound and upper-bound estimates of the true impacts
+of TAA.
+
+•
+
+Some groups of TAA participants fared better than others. Analyses for various subgroups
+defined by demographic characteristics and service receipt showed that impacts were
+most dependent on workers’ ages and the TAA services they received. Impacts on
+employment and earnings were more favorable for participants who received TAAfunded training than for those who received income support without such training.
+Employment and earnings impacts for the latter group were negative and significant
+throughout the entire follow-up period.
+− Participants in TAA-funded training were more likely to have caught up to comparison group members
+in the matched UI-claimant comparison sample on measures of employment and earnings by the fourth
+year. TAA-funded trainees’ employment rates in the last four quarters were similar to
+that of the full matched comparison group of UI claimants (and, relative to a
+comparison group of UI exhaustees, the trainees’ employment rates during the last three
+quarters were statistically significant and positive, rising to 11.3 percentage points higher
+in the 16th and final quarter). TAA-funded trainees’ earnings relative to the full
+comparison group were negative and statistically significant in all quarters (but,
+compared to the UI-exhaustee sample, there were no statistically significant earnings
+impacts for trainees during the final four quarters).
+
+7
+
+Exhibit 1: Impacts on Employment Rates Using Samples of
+UI Exhaustees versus UI Claimants
+
+Impact on Percent Employed
+
+10
+0
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+-10
+-20
+
+UI Claimants as
+Comparison
+
+-30
+
+UI Exhaustees as
+Comparison
+
+-40
+-50
+
+Quarters after UI Claim
+
+Source:
+
+TAA Initial and Follow-up Surveys and UI Claims data.
+
+Exhibit 2: Impacts on Earnings Using Samples of
+UI Exhaustees versus UI Claimants
+500
+0
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10 11 12 13 14 15 16
+
+Impacts on Earnings
+
+-500
+-1,000
+-1,500
+
+UI Claimants as
+Comparison
+
+-2,000
+
+UI Exhaustees as
+Comparison
+
+-2,500
+-3,000
+-3,500
+-4,000
+-4,500
+
+Source:
+
+Quarters after UI Claim
+
+TAA Initial and Follow-up Surveys and UI Claims data.
+
+8
+
+− By the end of the follow-up period, younger TAA participants caught up to the comparison-group
+members, but older participants did not. Younger TAA participants, the group with the
+largest positive training impacts, had the largest negative employment and earnings
+impacts during the first two years of the follow-up period, but impacts became
+statistically insignificant starting by the middle of the third year. By contrast, the
+employment and earnings impacts for the older age groups remained negative and
+statistically significant throughout the four-year follow-up period.
+•
+
+When TAA participants returned to work, they had lower wages and were less likely to have access to
+fringe benefits than the comparison-group members. The gap between participants and
+comparisons in hourly wages and fringe benefit receipt was largest early in the follow-up
+period; by the end of the follow-up period, this gap had decreased but not completely
+closed.
+
+•
+
+Among TAA participants who received occupational skills training and were employed in the fourth
+year of follow-up, 37 percent were employed in the occupations for which they trained. The likelihood
+that an occupational trainee was employed in his or her training field varied by the
+occupational focus of the training program, with those who trained as healthcare
+practitioners or in production or transportation and material moving more likely than
+others to be employed in their training fields.
+
+•
+
+TAA participation had a negative effect on total income overall. Participants collected more in
+UI payments and were much more likely to exhaust their benefits than comparisongroup members, which is as expected given that so many TAA participants entered
+training. TAA participation also increased income from TRA, because those in the
+comparison group were not eligible to receive income from this source. However,
+participation in the 2002 program had a negative impact on total income over the fouryear follow-up period, since participants’ combined income support payments and
+earnings were lower than that for the comparison group. Also, despite their lengthy
+training and additional re-employment services, TAA participants had lower initial pay
+levels upon reemployment than those in the comparison group.
+
+The findings described above are in some ways puzzling. Given the substantial duration of
+their program participation, we would expect TAA to delay participants’ onset of reemployment,
+and indeed that was the case. However, the hypothesized rebound in employment and earnings
+after services ended did not fully materialize. As their participation in training and other TAA
+services drew to a close, participants began to catch up with comparison-group members, but they
+were not clearly ahead even four years after job loss, and, by some measures, were still somewhat
+behind them.
+We suggest several reasons why clear positive economic returns to the services TAA
+participants received did not materialize by the end of the four-year observation period. First, about
+one half of TAA participants received TRA without undertaking TAA-funded training. As we have
+noted, impacts were particularly unfavorable for study participants who fell into this group, and
+
+9
+
+previous evidence on the work disincentive effects of UI suggests why this finding might have
+occurred (see, for example, Katz and Meyer 1990; Card and Levine 2000). 3 In fact, under the Trade
+Act of 2002 workers could receive waivers from the training requirement if their retirement was
+expected, which explicitly acknowledges that some in the TRA-only group were not expected to
+return to work. (Waivers for retirement were disallowed with the TAAEA amendments.)
+Even so, TAA trainees also did not appear to reap clear economic returns from the training
+they received, at least by the end of the four-year observation period. In studies of workforce
+investment programs it is quite common for treatment groups to record much lower earnings than
+comparison groups during an “in-program” period, but then have their earnings rebound and
+overtake the comparisons’ earnings shortly after the period of program participation ends. Findings
+from the random assignment evaluations of the Job Training Partnership Act (JTPA) and of Job
+Corps both show this pattern (Bloom et al. 1997; Schochet et al. 2001). Why, then, do impacts for
+TAA participants not follow suit?
+One possible reason is that the onset of the outcome measurement periods in the JTPA and
+Job Corps evaluations was the point at which program applicants were requesting services, whereas,
+in our study, it was at the point of job loss, which was often many months before TAA participants
+began program services (and, in some cases, before they were even eligible for TAA). In fact, the
+peak participation for TAA participants was not reached until the third quarter of participants’
+outcome measurement periods. Further, the duration of participation was typically much longer for
+our sample of TAA participants than it was for the JTPA and Job Corps participant samples. Both
+the slower onset and longer duration of services, then, can help explain why it might take longer for
+TAA participants to catch up to their comparisons than it did for JTPA or Job Corps participants.
+Further, TAA trainees completed their training and re-entered the labor market when the
+nation’s economy was mired in its worst recession since the Great Depression. About one half of
+TAA trainees completed their training—and, hence, presumably began their job searches—after the
+onset of the recession. By contrast, because they spent less time in training, those in the comparison
+group were more likely to have returned to the labor market before economic conditions
+deteriorated. Trainees may begin to see positive returns to their training investment when the labor
+market begins to rebound and they can make better use of the new job skills they have acquired.
+Only additional data covering a longer follow-up period will tell us for sure.
+2. The Impacts of TAA on TAA Nonparticipants
+About 50 percent of those eligible for TAA did not receive a significant TAA service (TAAfunded training, TRA, ATAA, HCTC, or allowances other than TRA). However, these individuals,
+referred to as TAA nonparticipants, could have received a variety of other services either partly
+
+3 Although a number of studies (including the ones cited here) report a significant effect of UI on the duration of
+
+unemployment, the magnitude of the effect is not clear. Decker (1997) reviews the literature and concludes that a one
+week increase in the potential duration of UI extends unemployment by between 0.1 and 0.5 weeks.
+
+10
+
+funded by TAA or precipitated by TAA but funded from other sources. For example, these
+individuals might have received Rapid Response or other early intervention services, which were
+required by the Trade Act of 2002 to be made available to those covered by a petition when it was
+filed, regardless of whether the petition was eventually certified. These services could have helped
+eligible nonparticipants become reemployed quickly, thereby obviating their need for more intensive
+TAA services. Further, some workers received a waiver from the TAA training requirement and no
+other TAA service. The issuance of a waiver implies that these individuals had some contact with
+TAA counselors, and this too could have helped them obtain reemployment.
+For these reasons, we count TAA-eligible nonparticipants as a treatment group in its own right
+and estimate impacts for this group. The TAA nonparticipant sample was selected by identifying
+those on the certified worker lists who appeared on the states’ UI claimant files but who did not
+receive a significant TAA service. A matched comparison group consisting of UI claimants who
+were not TAA-eligible was selected using propensity score methods. Members of the comparison
+group were drawn from the same local areas as those in the treatment group sample and matched
+the nonparticipants very closely on demographic attributes and pre-layoff job characteristics.
+We followed nonparticipants and those in the comparison group for two years after the
+workers’ UI claim dates (in contrast to the four years we followed TAA participants and their
+comparisons). Key impact findings for the nonparticipant sample are summarized below.
+•
+
+Nonparticipants were more likely to receive reemployment services than those in the comparison group,
+but were not more likely to receive education and training services. TAA nonparticipants in our
+sample were significantly more likely to access reemployment services than their
+matched comparison-group members. Some of these reemployment services may have
+been delivered through WIA, since TAA nonparticipants were significantly more likely
+than comparison workers to be enrolled in WIA. However, nonparticipants did not
+receive more education and training services.
+
+•
+
+Both TAA nonparticipants and comparison workers had similar employment rates and worked an
+equivalent number of weeks in the follow-up period. The estimated impacts on employment
+rates and weeks of employment were not statistically significant for any quarter during
+the two-year follow-up period.
+
+•
+
+TAA nonparticipants earned about the same as those in the comparison sample. The pattern of
+program impacts for earnings was found to be similar to that for employment: there
+were no significant differences in the quarterly earnings of nonparticipants and
+comparison workers.
+
+In sum, TAA appeared to moderately increase the receipt of light-touch reemployment services
+by TAA-eligible nonparticipants relative to what these workers would have received in the absence
+of TAA. However, these increases in reemployment services did not clearly translate into increases
+in employment and earnings.
+3. The Costs and Benefits of the 2002 TAA Program
+To analyze the relative costs and benefits of the TAA program, we estimated the program’s
+benefits in dollar terms and compared them to the program’s costs. We used 2006 as the base year
+11
+
+for calculating costs, because most program services were received in that year. We converted all
+future benefits and costs to their present value, using a discount rate of 4 percent, the approximate
+real rate of return on 30-year Treasury bonds. Subtracting the costs from the benefits provides a
+measure of the net benefits of TAA. We estimated net benefits per participant from three
+perspectives: society as a whole, TAA participants, and society exclusive of TAA participants.
+We estimated six categories of potential benefits resulting from the TAA program: (a) increased
+output, measured as the cost to an employer in payments in wages and fringe benefits, after netting
+out the lost output that occurred while participants were receiving TAA services, (b) reductions in
+the use of education and training programs not funded by TAA; (c) changes in the use of
+reemployment services not funded by TAA; (d) changes in the receipt of UI benefits; (e) reductions
+in the use of other public assistance programs; and (f) other benefits, such as the facilitation of free
+trade. We then estimated six categories of costs of operating the TAA program: (a) TRA payments
+to program participants; (b) training costs; (c) allowances to participants other than TRA, including
+job search, relocation, transportation, and subsistence allowances; (d) ATAA wage supplements; (e)
+HCTC tax credits paid to cover the costs of health insurance premiums; and (f) TAA administrative
+costs.
+Without considering the benefits of TAA stemming from the possibility that it promotes free
+trade, the estimated net benefit to society of the TAA program as it operated under the 2002
+amendments was negative $53,802 per participant. The main reason for the negative net benefit was
+that participants had lower income than comparison group members over the study period (due to
+the long period of time participants were in the program—on average 79.8 weeks—and lower
+income from employment when most participants returned to work). The best estimate of the net
+benefit to TAA participants was negative $26,837. Participants incurred losses, since income (from all
+sources) was lower than what was received by the matched comparison group. Participants’ benefits
+of reduced taxes and greater receipt of income support from UI and TRA were not enough to offset
+their lower earnings from paid employment, relative to the matched comparison group. Projecting
+into the future, the 2002 TAA participants would have to earn at least $2,124 per year more than the
+full comparison group or $757 more than the UI-exhaustee comparison group, from year five (after
+job loss) until retirement for the program to provide positive benefits to them.
+The net benefit to the rest of society was estimated as around negative $26,965. Just over half of this
+amount came from program costs, while the rest was due to negative net benefits including the cost
+of training and reemployment services for TAA participants.
+From society’s perspective, the 2002 TAA program was not cost-effective for any of the age or
+service subgroups examined. As noted earlier, there are several important caveats to these findings,
+however, since the four-year follow-up period may not be long enough to evaluate the full returns of
+the TAA program. Further, it should be noted that the calculations do not include the potentially
+large benefits of the TAA program in making free trade politically feasible. Incorporating estimates
+of the trade-related benefit of TAA has a substantial effect on the program’s net benefits, with the
+magnitude of the effect depending on the parameters used and, in particular, the extent to which
+TAA accounts for trade liberalization. However, if TAA made even a relatively modest contribution
+to the ease of enacting free trade policies, the program’s benefits would outweigh its costs.
+
+12
+
+C. HOW DOES TAA OPERATE AND WHAT SERVICES DOES IT PROVIDE?
+Using qualitative data from site visits, survey data, and administrative data, the evaluation team
+extensively documented how the TAA program operated and what services participants received.
+These findings are presented in this section. We first describe the implementation of the Trade Act
+of 2002, the legislation that was prevailing during most of the time the evaluation was underway.
+We next discuss TAA’s partnerships with other programs in the American Job Center system, and
+then describe some novel practices in outreach and case management that we observed. After next
+describing TAA services, we conclude this section be describing our findings on the implementation
+of TGAAA, amendments to TAA that were enacted as the evaluation was drawing to a close.
+1. The Implementation of the Trade Act of 2002
+The Trade Act of 2002, and ETA’s accompanying guidance, significantly amended TAA, and
+emphasized several program goals, including expanding access, promoting early intervention services
+and rapid reemployment, enhancing benefits to assist workers in obtaining suitable new jobs, and
+promoting collaboration of the TAA program with partners within the workforce investment
+system. 4 Some of the specific provisions used to advance these goals are shown in Exhibit 3.
+The research team conducted site visits in 2004 focused on documenting the implementation of
+this legislation. We found that many of the legislation’s provisions had been well received and were
+expected to achieve their objectives. For example, respondents were very appreciative of ETA’s
+much faster turnaround on certification decisions (spurred by the legislation’s requirement that
+decisions be made within 40 days), and they reported that this change allowed them to get workers
+into services more quickly. They were also enthusiastic about the extension of additional TRA by 26
+weeks and the provision allowing additional weeks of TRA for workers in remedial training, which
+they felt held the prospect of supporting workers in their training needs, improving training
+completion rates, and promoting high-quality long-term employment outcomes.
+Other provisions seemed to have little practical effect for one reason or another. For example,
+the new guidance’s emphasis on Rapid Response and coordination with the American Job Center
+Network, though rated positively, was viewed as supporting developments that were already well
+underway rather than spurring something new. The expansion of eligibility to secondary worker
+groups also seemed to have only a very modest effect, as relatively few petitions covering secondary
+workers were being filed, at least as of the date of the team’s data collection on this topic in 2004.
+State respondents posited several explanations for why more petitions were not being filed on behalf
+of secondary worker groups: they surmised that few secondary workers were being adversely
+affected by trade, that eligibility requirements for secondary workers were too strict, that secondary
+worker groups were hard to identify, and that workers and firms lacked awareness about secondary
+worker eligibility.
+
+4 U.S. Department of Labor, Employment and Training Administration.
+Guidance Letter (TEGL) 11-02.
+
+13
+
+2002.
+
+Training and Employment
+
+Finally, still other provisions did not appear to work well, or at least not as well as intended.
+For example, the 8/16 deadlines did not generally appear to have spurred earlier entry into training,
+because their effect had been almost entirely countermanded by the widespread issuance of training
+waivers. The expanded use of training waivers, in turn, resulted in a huge new paperwork burden
+for TAA administrators and line staff.
+Other provisions of the Act were viewed favorably, but their implementation encountered
+obstacles that impeded their full effectiveness. For example, many state respondents described
+HCTC as one of the most challenging aspects of the Trade Act of 2002. The major problems
+included a lack of understanding of the program among workforce staff members, coupled with a
+high volume of inquiries from customers and insufficient resources to administer the new program
+and establish the necessary reporting systems. Moreover, take-up rates were low. According to local
+staff, this was partly because the cost of covering 35 percent of health insurance premiums was
+viewed as still too high to be affordable for most trade-affected workers.
+
+Exhibit 3: Summary of Key Provisions of the Trade Act of 2002,
+and Accompanying ETA Guidance
+Goal
+
+Key Provisions
+
+Expand eligibility
+
+• Eligibility is expanded to include secondary worker groups (that is, those
+who supply component parts or perform finishing work for directly
+affected firms that are certified for TAA)
+
+Promote rapid
+reemployment
+
+• ETA is required to make certification decisions within 40 days of the filing
+of a complete petition
+• Rapid Response assistance, and appropriate core and intensive
+services, are to be made available to affected workers whenever a
+petition is filed (regardless of whether the petition is certified )
+• Workers lose their eligibility for TRA unless they enroll in training 8 weeks
+after certification of a petition or 16 weeks after complete separation
+(referred to as the 8/16 deadlines), whichever occurs later, unless they
+receive a waiver from the training requirement
+
+Promote suitable
+employment through
+enhanced services
+
+• Additional TRA is expanded from 26 to 52 weeks
+• TRA can be provided for up to an additional 26 weeks for those needing
+remedial training
+• Reimbursements for job search and relocation allowances are increased
+• HCTC is instituted as a new program benefit, providing a tax credit
+covering 65 percent of the cost of health insurance premiums
+• ATAA is instituted as a new program benefit for workers aged 50 and
+over who find new employment within 26 weeks and who are covered by
+a petition separately certified for ATAA
+
+Promote system
+collaboration
+
+• The American Job Center network is to be the main point of participant
+intake
+
+14
+
+The implementation of ATAA was also found to be challenging and time consuming, as states
+struggled with modifying their management information systems and establishing new payment
+structures. These efforts, program administrators pointed out, constituted a new drain on their
+already limited TAA administrative funds. They also reported that take-up rates among age-eligible
+customers were extremely low, which they attributed to a lack of awareness of the program among
+eligible workers and TAA program staff members, low numbers of petitions certified as being
+ATAA-eligible, workers’ reluctance to forgo training and TRA benefits (under the Trade Act of
+2002, workers could not receive ATAA if they had already received training or TRA), and the
+inability of many who might benefit from the program to become reemployed within the 26-week
+deadline that the law required.
+However, our state and local-level respondents felt that both HCTC and ATAA had the
+potential to become popular and successful program components once customers and staff became
+more familiar with them and start-up problems were resolved. In fact, ETA made aggressive efforts
+to help with implementation problems, such as by providing special funds for states to use in HCTC
+implementation, and these efforts seemed to help.
+2. TAA and Its American Job Center Partners
+ETA has aggressively promoted the development of partnerships among program partners in
+the American Job Center network, and we saw evidence that these partnerships were flourishing
+during a round of site visits we conducted in 2005-2006 that was focused on this topic. We noted
+that, at that time, TAA had developed strong and extensive linkages with the ES, UI, and the WIA
+Dislocated Worker programs. These linkages were in evidence in many states and local American
+Job Centers and led to service delivery that appeared better coordinated and seemed to improve
+participants’ access to the services and supports they needed. By contrast, linkages were generally
+weaker with other partners, including Vocational Rehabilitation and veterans’ workforce programs,
+possibly because relatively few TAA participants needed or were eligible for the services these
+partners provided.
+Beyond the extensive guidance that ETA issued promoting the coordination of services, factors
+that contributed to the TAA program’s ability to develop strong linkages with its partners included
+formal administrative arrangements that brought partners together, state and local-level initiatives
+that strongly promoted coordination, the co-location of partners, and a consolidated management
+information system that enabled partners to track participants’ progress. Factors that seemed to
+impede stronger linkages, by contrast, included the TAA program’s limited staffing, constraints on
+the use of TAA funds for program administration, and program rules and requirements that were
+not aligned across the partners.
+3. Outreach to Employers and Eligible Workers
+Accessing services and benefits in TAA is complicated, involving multiple steps, many actors,
+and specific deadlines. Workers must be part of a group for whom a petition has been filed and the
+petition must be certified by ETA as being the result of foreign trade. After a petition is certified,
+states are required by law to identify workers covered by the petition and notify them of their
+potential eligibility for TAA. The workers then must meet strict enrollment deadlines in seeking out
+services, typically at local offices, where they must be determined individually eligible for TAA. As
+15
+
+part of its data collection, the research team conducted a series of site visits focused on states’
+efforts to help workers navigate through these processes, increase awareness of TAA, and promote
+the filing of petitions and the take-up of services.
+We found that each state took its obligation to conduct outreach very seriously and made
+diligent efforts to both promote the filing of petitions and notify affected workers of their potential
+eligibility once a petition was certified. States recognized the important role that Rapid Response
+could play in these efforts. Demonstrating due diligence, Rapid Response staff members inquired
+about potential trade impacts when they first contacted employers and unions to set up a Rapid
+Response event, and encouraged petition filing if trade was even remotely suspected as a cause of
+the dislocation.
+The amount of information provided to workers during Rapid Response events varied
+depending on whether a certification for TAA had already occurred or, at least, was deemed likely, in
+which case much more information about TAA was provided than otherwise. In any case, Rapid
+Response staff members were very diligent about connecting workers to the broader array of
+services available from the public workforce system, in keeping with the requirement of the Trade
+Act of 2002 that workers should be given prompt access to core and intensive services.
+Furthermore, once certification was in hand, states aggressively reached out to employers to
+obtain lists of affected workers, and they then mailed notification letters to these workers, inviting
+the workers to come in for services.
+However, as part of specially targeted telephone interviews with state and local TAA staff
+members that occurred in 2011, we identified some states that were making efforts beyond these.
+For example, to stimulate the filing of petitions, some states carried out the following activities:
+•
+
+Mined administrative data to find dislocations. To identify trade-affected workers, several
+states used data sources such as UI claimant and ES mandatory registration files to find
+dislocations that Rapid Response may have missed, with possible TAA petitioning as a
+corollary.
+
+•
+
+Conducted outreach using multiple methods. Some states tried to increase awareness of TAA
+and petition-filing through a variety of means. These included:
+− developing a web site with links to information about TAA,
+− supporting a telephone hotline,
+− developing program brochures,
+− holding regular meetings with partner organizations, such as community colleges,
+economic development agencies, and local employer and labor organizations,
+− conducting Town Hall meetings with workers and communities, and
+− adding information about TAA to UI seminars for employers.
+
+16
+
+These more aggressive methods were likely to be particularly important in spurring the filing of
+petitions to cover worker groups made newly eligible for TAA with the passage of TGAAA. These
+worker groups and their employers were unlikely to have had any prior exposure to TAA and
+typically knew little about the program or the requirements for filing for program services.
+We found other instances of special efforts that states were making to increase the take-up of
+TAA services once petitions were certified. These efforts went beyond the typical steps that all
+states took (e.g., mailing covered workers notification letters), and included the following:
+•
+
+Collaborating with labor organizations. In some states, unions had a special role in helping to
+overcome workers’ reluctance to seek services.
+
+•
+
+Peer counseling. Peer counseling (where co-workers are paid by the workforce system,
+typically through Rapid Response funds, to reach out to affected workers) created an
+effective division of labor in which the outreach work was carried out by trusted coworkers, allowing TAA staff members to focus on counseling, deadlines, and other
+aspects of service delivery.
+
+•
+
+Social networking. Social networking updates a very traditional—and often highly
+effective—outreach method: word-of-mouth. The possibility of quick and broad
+information-sharing at a very low cost made social networking an attractive tool in some
+states.
+
+•
+
+Enhanced intake processes. Several states developed scripts or checklists to facilitate
+enrollment and reduce the risk that eligible workers would slip through the cracks or
+feel overwhelmed by intake requirements. Such strategies seemed particularly important
+in the case of large dislocations.
+
+•
+
+Special assistance to limited-English speakers. Knowledge gaps about TAA were likely to be
+especially acute among those with limited-English skills. Some states addressed this
+problem by identifying (during Rapid Response) the special language requirements of
+affected workers and ensuring that forms and notification letters were provided in the
+identified languages and that translators were available.
+
+4. Case Management in TAA
+As part of their participation in TAA and other American Job Center programs, TAA
+participants often accessed a variety of case management services, including assessment, career
+guidance, and post-training assistance. The specific services that were provided, and their depth,
+were affected by which program staff provided them, in which programs in addition to TAA the
+worker was co-enrolled, and whether the worker had an interest in undertaking training (assessment
+and career counseling tended to be greatly curtailed for workers not pursuing training).
+
+17
+
+Data the research team collected during multiple rounds of site visits suggest that, in general,
+TAA participants co-enrolled in WIA received more in-depth case management services than those
+not co-enrolled. Prior to the enactment of TGAAA and TAAEA, it seems clear that this should
+have been the case, because TAA as it operated under the Trade Act of 2002 generally did not
+permit case management services to be funded under the program. 5 Recognizing this restriction,
+ETA strongly encouraged the co-enrollment of TAA participants in WIA and other American Job
+Center partner programs (see TEGL 11-02). As a reflection of this guidance, there was a gradual
+shift towards higher levels of co-enrollment in WIA in many of the states in this study.
+Still, the co-enrollment of TAA participants in WIA was far from widespread, especially for
+those not enrolled in training. The reasons for limited co-enrollment, and the challenges faced even
+by those sites that decided to practice widespread co-enrollment, were multiple. For example, some
+state agencies were reluctant to mandate what co-enrollment practices local workforce areas should
+follow and there were concerns that widespread co-enrollment would greatly increase WIA frontline workers’ caseloads (especially in those local areas with the highest levels of trade activity) or
+would drag down the WIA program’s performance on the common measures.
+States demonstrated a variety of ways of overcoming each of these challenges and concerns,
+and, in a study of practices gleaned from sites nominated for their strong case management
+practices, undertook other efforts to improve the quality of and access to case management for TAA
+participants. States’ efforts were of four major types. First, some states endeavored to improve the
+case management skills of TAA caseworkers by providing them with specialized training or by
+changing hiring practices to include upgraded skill requirements. Training on core case management
+skills and “person-centered” approaches was provided through mentoring and experiential
+approaches (role-playing and simulations), delivered in the classroom and through webinars, by a
+variety of providers (e.g., state training agencies, state and local managers, public institutions, or
+external consultants) and targeted to both new and veteran staff. By modifying their hiring
+practices, some states sought to bring in staff with specific skills, credentials, and experience related
+to delivering effective case management.
+A second approach that some of the nominated states took was to improve program
+coordination and system integration. Some states’ efforts were more limited, such as by better
+aligning policies across programs, while others states embarked on more ambitious system-wide
+transformations. All these approaches required the development of cross-cutting visions on how
+services should be delivered and efforts to secure buy-in from staff.
+Third, some states rethought case managers’ roles and responsibilities and, particularly, how
+case managers from different programs should work together to serve customers. For example,
+some states adopted a functional alignment model, in which staff (funded under different programs)
+were cross-trained to serve TAA (and other) customers. Several states also changed case managers’
+job titles to emphasize their roles in helping to guide customers through career choices.
+5 As was noted, TGAAA (2009) and TAAEA (2011) required case management and reemployment services to be
+offered to TAA eligible workers and authorized the use of TAA funds for this purpose.
+
+18
+
+Finally, some of the states studied redesigned management information systems and engineered
+a variety of new intake and customer flow processes. These efforts permitted enrollment
+information to be shared across programs, decreased points at which customers had to provide data,
+and allowed common ways of documenting customer activities and progress.
+5. The Characteristics of Workers Eligible for TAA and the Decision to
+Participate
+Based on information we collected from the initial survey, we learned that, under the Trade Act
+of 2002, TAA eligible workers tended to be full-time workers who were displaced from relatively
+high-paying positions (given the workers’ levels of education) with generous employment benefits.
+Contributing to the challenges they faced in finding new employment, these workers had long
+tenures with their former employers and likely developed a specialized set of non-transferrable skills.
+They were also older and less educated than other workers looking for employment, and were more
+likely to live in non-metropolitan areas and areas with lower average earnings.
+Using the definition of “TAA participant” established earlier in this paper, about 50 percent of
+those eligible for TAA became TAA participants. However, the TAA participation rate differed
+markedly from state to state—in some states, no more than 30 percent of eligibles participated,
+while in other states more than 80 percent did. TAA participation rates also were higher among
+females, older workers, and workers with less education.
+About 70 percent of persons who became TAA participants cited their interest in training or
+schooling as a reason for applying to the program. Other reasons, such as an interest in receiving
+TRA or HCTC, were much less commonly cited. The most common reason that TAA-eligible
+workers did not apply for TAA services was that they had found a job (36 percent), but lack of
+information about the program or the application process was another common reason for not
+applying (38 percent in total).
+6. Participants’ Experiences in TAA
+Among TAA participants, about 90 percent received TRA and about one half received TAAfunded training. Receipt of ATAA, HCTC, and allowances for job search, relocation, subsistence,
+and travel were much less common. However, states differed markedly from each other in the
+extent to which their participants accessed training. Among participants, women and those who
+were younger were more likely to undertake training than others.
+Once eligible for TAA, workers who became participants tended to access services quickly, with
+about half doing so within the first six weeks. Their duration of participation—defined as time
+elapsed between the date of first service and date of last service—was quite variable; participants can
+be divided into roughly three equal groups, with about one-third participating for up to one year,
+another third participating for between one and two years, and another third participating for more
+than two years. The average duration of participation was considerably longer for trainees than it
+was for those accessing other services, with trainees receiving an average of 89 weeks of service
+(which includes time in training and time enrolled in the TAA program before and after training).
+
+19
+
+Because training is such an essential component of the TAA program model, we focused
+specifically on participants’ motivations in seeking training and the types of jobs for which
+participants trained. Overall, more than 85 percent of TAA training participants pursued training in
+order to prepare for a new career, while only nine percent aimed to upgrade their skills in their
+current occupations. Training goals were also related to the age of the TAA participant, with
+younger trainees more likely to be training for new occupations than trainees who were older.
+Of those in TAA-funded training, about 85 percent participated in occupational skills training,
+while nine percent received only remedial education and the remainder reported enrolling in higher
+education that was not focused on a particular occupation. Among workers enrolled in occupational
+skills programs, there were strong gender differences in the types of occupational programs pursued,
+with females more likely to chose training in health care and office and administrative support, and
+males training for jobs in installation, maintenance, and repair, transportation and material moving,
+and production.
+Community colleges were the biggest providers of education and occupational skills training,
+with about 53 percent of TAA-funded trainees reporting having received services at either a
+community college or a two-year school. Another 21 percent trained at vocational training centers,
+with smaller numbers attending adult education, four-year colleges, or institutions of other types.
+TAA participants enrolled in training of relatively long duration, spending an average of about 79
+weeks in their programs.
+More than 85 percent of training participants who completed a TAA-funded training program
+said they received a certificate or degree, and this was more common for occupational skills
+participants.
+7. The Outcomes of TAA-Funded Trainees
+The impact study findings described earlier suggest that TAA participants who undertook
+training recorded better employment outcomes than those who received only income support. We
+conducted exploratory analyses to identify what characteristics of training programs seemed to be
+associated with better outcomes. These analyses are not causal, but nonetheless provide potentially
+useful evidence. Using multivariate methods, we found that workers who entered into training more
+quickly had better employment outcomes than those whose entry was delayed. On average, 32
+weeks elapsed between a trainee’s UI claim date and his or her enrollment into training, but those
+who enrolled within 13 weeks worked significantly more weeks in the fourth year of follow-up, and
+earned more, than workers who entered training a year or more after job loss. One reason why
+workers were delayed in entering training is that some were not TAA-eligible at the time of their job
+losses, because the petitions under which they were covered had not yet been certified. Additional
+influences on the timing of training entry can include the worker’s readiness to train, the training
+approval process, and the availability of openings in the training programs in which participants
+wanted to enroll.
+We found that females who trained in healthcare practitioner and technical occupations, or in
+office and administrative support, had significantly higher earnings and more weeks of employment
+in the fourth year of follow-up than females who trained in other fields. However, field of study did
+not seem to matter among male trainees. Females who trained at two-year colleges worked more in
+the fourth year than females who trained elsewhere, but training venue was not significantly related
+20
+
+to employment outcomes for males or to earnings for females. Receiving a degree or certificate was
+associated with more weeks of employment for males and females, but was not related to earnings.
+Length of the training program did not seem to affect weeks worked or earnings.
+About 37 percent of trainees who were employed in the fourth year of follow-up were working
+in the field in which they trained. However, the rate of training-related placements varied by the
+training field, with more than 50 percent of those training as healthcare practitioners or in
+production or transportation and material moving finding a job in their training fields. Those who
+obtained training-related placements had significantly better employment outcomes than those who
+obtained a placement in a field different from the one in which they trained—those in the former
+group worked six or seven weeks more in the fourth year of follow-up and earned $5,000 to $6,000
+more. Also, trainees who received a career assessment were more likely to obtain training-related
+job placements, suggesting that assessment and counseling to help participants make informed
+choices about training options was beneficial.
+8. The Implementation of TGAAA
+The Trade and Globalization Adjustment Assistance Act (TGAAA), enacted in 2009, made
+significant changes to the TAA program related to program eligibility, TRA benefits and eligibility,
+case management services, training, ATAA, and HCTC (all briefly summarized in Exhibit 4).
+Research team members conducted site visits to states and local offices in 2010 to examine the
+implementation of TGAAA, and found that changed circumstances, caused directly or indirectly by
+the recession, had a profound effect in how TAA operated, completely apart from TGAAA itself.
+For example, there was a dramatic surge in petitions certified after the effective date of
+TGAAA, with the numbers certified increasing from roughly 350 per quarter in the years prior to
+TGAAA’s effective date to more than 700 per quarter in the quarters just after. However, factors
+other than TGAAA’s expanded eligibility were just as important in accounting for this increase.
+These factors included the persistence of the economic downturn and the fact that petition filers
+delayed filing until the more generous provisions of TGAAA took effect. In fact, the filing of
+petitions for worker groups in the service sector seemed rather modest in light of figures suggesting
+that potential trade-affected job loss in the nonmanufacturing sector outnumbered the potential loss
+in the manufacturing sector by three to one (Topoleski 2007). The limited nature of outreach
+efforts specifically targeted to newly eligible worker groups and their firms, who were for the most
+part unfamiliar with TAA and the program’s services, was perhaps a factor contributing to the
+modest rate of petition filing on behalf of new groups.
+Meanwhile, the surge in petition filing caused delays in ETA’s certification determinations.
+Whereas in the years prior to TGAAA ETA was consistently making determination decisions within
+the 40 days required by law, the huge influx of petitions filed once TGAAA was enacted caused
+backlogs for ETA’s examiners. ETA took aggressive efforts to reduce response time to near-normal
+levels within about six quarters, but states noted that, in the interim, delayed certification was
+causing problems with ensuring workers’ timely access to TAA services. In particular, delayed
+certification made it more difficult for states to obtain certified worker lists from employers, made it
+more difficult to locate affected workers to advise them of their potential TAA eligibility, and
+delayed workers’ access to TAA benefits and services.
+
+21
+
+Exhibit 4: Summary of Key Provisions of TGAAA
+Key Provisions
+Eligibility
+
+• Eligibility is expanded to include trade-affected workers in the public
+sector and service sector
+
+TRA benefits and
+eligibility
+
+• TRA can be provided for up to 130 weeks for workers in full-time training
+(up from 104 weeks) and up to 156 weeks for workers who also receive
+remedial or prerequisite training (up from 130 weeks)
+• The 8/16 deadlines are revoked, replaced by the requirement that
+workers must be enrolled in training (or receive a waiver) by 26 weeks
+after certification or job separation, whichever comes later
+• The eligibility period for TRA begins with the date the petition is certified,
+(rather than 60 days after petition filing, which was previously the case)
+
+Case management
+services
+
+• Case management services (including assessment, prevocational
+services, and career counseling) must be made available
+• At least one-third of the program’s administrative funds are to be used for
+this purpose, and an additional $350,000 per year per state is also made
+available
+
+Training
+
+• Clarifies that prerequisite training is also an acceptable training type
+• Training choices cannot be limited to programs on the WIA eligible
+training provider list
+• Allows pre-layoff and part-time training (although these do not entitle one
+to receive TRA)
+
+ATAA
+
+• ATAA is renamed Reemployment Trade Adjustment Assistance (RTAA)
+• Group eligibility requirements are eliminated
+• The requirement from the Trade Act of 2002 that new employment be
+found within 26 weeks of separation is removed
+• Workers can start receiving TRA or training, and then shift to receiving
+RTAA (under the Trade Act of 2002, this was not allowed)
+
+HCTC
+
+• The amount of the tax credit is increased
+
+Note: TGAAA had a sunset provision, and in any case has been superseded by the Trade Adjustment Assistance Extension Act
+(TAAEA), enacted in 2011. Thus, some of the provisions noted above no longer apply. Among the changes, TAAEA expanded
+eligibility to service sector workers (but not workers in the public sector), restricted conditions under which waivers could be granted,
+curtailed funding (relative to TGAAA) for case management services (but still made case management services an entitlement), and
+made other important changes. The evaluation’s data collection concluded before TAAEA’s enactment.
+
+In one of TGAAA’s most important changes, states were required to make employment and
+case management services available to eligible workers, and funding was to be set-aside for this
+purpose, whereas previously states were admonished merely to make “every reasonable effort” to
+provide these services and were restricted in their ability to use TAA dollars to fund them (TEGLs
+11-02 and 5-00). Furthermore, to ensure “consistency, efficiency, accountability, and transparency”
+in the way these services were provided, ETA issued guidance that states should carry out TAAfunded administrative activities—including case-management functions—using only state merit staff
+
+22
+
+personnel, except in states with an exemption from the state merit staffing requirement for the
+administration of the Wagner-Peyser program (Final Rule 20 CFR Part 618, issued April 2, 2010).
+The evaluation team conducted site visits to 14 states to study TGAAA implementation, and all
+visits occurred before the effective date of the merit staffing requirement. In these 14 states, we
+found that state merit staff were already typically approving TAA training plans, but that
+responsibility for direct case management services was more diffuse. Specifically, in some states,
+state merit staff were the primary providers of case management services to TAA participants and in
+others WIA staff or cross-trained staff undifferentiated by source of funding were the primary
+providers. Some states not using merit staff as the primary providers of case management services
+were exempt from the merit-staffing requirement, but, at the time the site visits occurred, the others
+were giving thought to changes to staffing arrangements they felt they needed to make to come into
+compliance. A few of these states were concerned that the merit staffing requirement could weaken
+the TAA program’s linkages with WIA and reduce rates of co-enrollment. Because we found that
+TAA participants co-enrolled in WIA generally received more comprehensive case management
+services, declines in co-enrollment could be unfortunate.
+Among other infrastructure changes we observed in response to TGAAA’s case management
+requirements, some states increased the training on case management that they provided to line
+staff, modified hiring practices to increase system capacity, and worked to develop better data
+systems to allow the sharing of data across programs.
+However, most states made relatively few changes to the types of case management services
+actually provided. Among the few changes we observed, some states expanded the assessments they
+routinely provided, believing that TGAAA required this; however, in some of these cases, case
+managers viewed the expansion of routine assessments as leading them to provide unneeded
+services to some participants. Few other changes in the types of case management occurred,
+because states believed they were already in compliance with TGAAA’s requirements and were
+confident that they were providing good quality case management to TAA participants. Rather than
+changing the services per se, however, states commonly increased the care with which they
+documented the services that were provided and offered. This documentation took place in
+electronic record-keeping systems and via paper checklists.
+TGAAA changed a number of the requirements for accessing services or loosened restrictions
+on available benefits. These were generally viewed favorably, but mixed sentiments about their
+desirability or effectiveness were also expressed. For example, states appreciated the additional
+flexibility afforded by the replacement of the 8/16 deadlines with the 26-week rule, as they felt that
+this change allowed workers the additional time they often needed to test the labor market,
+determine whether training was appropriate, and make informed decisions regarding which training
+program to pursue. However, extended and emergency UI benefits, which went into effect shortly
+before TGAAA’s enactment, caused some workers to lose focus on the training enrollment
+deadlines, because they did not understand the impact that delaying enrollment would have on their
+ability to access TRA once their period of UI receipt ended.
+TGAAA prohibited restricting training choices to WIA’s eligible training provider list (ETPL).
+States understood that this provision had the desired effect of broadening workers’ training choices,
+but feared that it could make collaboration between TAA and WIA more difficult for workers who
+were co-enrolled in both programs.
+23
+
+The new legislation authorized pre-separation training and part-time training. This expansion
+of allowable training types was viewed favorably, but respondents reported that take-up was quite
+low for each new type of training, for a variety of reasons. For example, respondents noted that
+offering pre-separation training required states to identify incumbent workers threatened with
+separation, as opposed to just those who had experienced separation, and therefore represented a
+significant expansion of the lists of adversely affected workers that most states were accustomed to
+collecting. Moreover, incumbent workers who were notified and expressed interest often could not
+find training programs with class times that accommodated their work schedules. Part-time training
+was also unattractive because workers were not eligible for TRA payments when only in part-time
+training.
+More generally, states noted that it was difficult to oversee two separate sets of TAA program
+requirements—one set of rules for petitions filed on or after the effective date of TGAAA, and
+another for petitions filed before that date. Managing the two sets of requirements was particularly
+difficult when workers from the same firm were covered under two separate petitions, with one
+petition each under the old and new sets of rules.
+Additionally, the changes that TGAAA made were complex, and caused states to reshape
+program services, design new guidance for their staffs, and develop new orientation materials for
+eligible workers. Fortunately, ETA’s guidance on TGAAA’s changes was described by state
+respondents as clear and comprehensive, leaving state workforce agency staff members feeling well
+equipped to carry out the legislation’s key provisions.
+However, a number of larger factors, most of which were external to the TAA program itself,
+complicated the implementation of TGAAA in significant ways. An overriding factor affecting the
+implementation of many provisions of TGAAA was the weakened state of the economy. With
+unemployment rates at stubbornly high levels not seen in the post-World War II period, workers’
+employment opportunities were greatly curtailed. As a direct effect of this economic environment,
+states’ efforts to secure suitable, long-term employment for workers through TAA were
+understandably undermined. For example, although under other circumstances the provisions in
+TGAAA enhancing the attractiveness of RTAA could have been expected to lead to a marked
+increase in take-up of this program benefit, poor economic opportunities greatly curtailed workers’
+ability to take advantage of it.
+The weakened state of the economy had marked indirect effects on TGAAA implementation as
+well. The Federal response to the nation’s economic distress was to enact the Unemployment
+Compensation Extension Acts of 2008 and 2010, which, together with other UI benefits, allowed
+claimants in states with high unemployment rates to collect UI for up to a total of 99 weeks.
+Although of value in providing an economic cushion to economically distressed families and
+stimulating the economy, the availability of extended benefits removed an incentive that tradeeligible workers might otherwise have felt to take quick advantage of TAA benefits and services.
+Thus, as some state and local respondents reported, workers delayed entry into training and
+sometimes lost eligibility for TRA altogether because of their lack of attentiveness to training
+enrollment deadlines.
+Indirect effects of the poor economy delayed workers’ access to training for other reasons as
+well. With job opportunities relatively bleak, unprecedented numbers of the unemployed and
+discouraged workers (whether trade eligible or not) were applying for enrollment at two-year
+24
+
+colleges and other training institutions, at precisely a time when state budget deficits were causing
+many state-funded community colleges to curtail course offerings. As a result, there were often long
+waiting lists for TAA participants who wanted to take advantage of TAA-funded training,
+particularly for those who were interested in pursuing careers in the health and medical fields. The
+waits delayed the onset of workers’ training and in some cases jeopardized their ability to maintain
+the full-time loads necessary to qualify for TRA income support.
+Moreover, high caseloads brought about by the dramatic influx of new customers to the public
+workforce investment system limited case managers’ ability to provide the level of attentiveness to
+individual customers that they might have wanted to. Even though TGAAA dramatically increased
+funding for the TAA program, and for case management services in particular, states could not
+ramp up that quickly, particularly in the face of the hiring freezes that were in effect in some states.
+Finally, the effective application of TGAAA’s new benefits and broadened eligibility rules
+seemed hampered by some workers’ lack of familiarity with them, as well as by states’ relatively weak
+efforts to promote them. Although Rapid Response events and TAA orientation sessions
+mentioned the array of TAA benefits and services available (and were by all accounts quite
+thorough), the welter of program services could be confusing to workers coping with the trauma of
+job loss. Rather than engaging in aggressive outreach (such as to promote incumbent worker
+training or the enrollment in TAA of workers in newly eligible sectors), states seemed to rely on the
+strategy of describing the range of program services in orientation sessions and notification letters,
+and then relying on workers to take the initiative in accessing services. Given that TGAAA’s
+provisions were to sunset in early 2011, states might have been disinclined to aggressively promote
+program services that they thought might no longer be available in a short while. Moreover,
+American Job Center staff were overwhelmed by the flood of new UI claimants and job seekers, and
+aggressive outreach to promote services was the last thing on their minds.
+
+25
+
+26
+
+REFERENCES
+
+Bloom, Howard, Larry Orr, Stephen Bell, George Cave, Fred Doolittle, Winston Lin, and Johannes
+Bos. 1997. “The Benefits and Costs of JTPA Title II-A Programs: Key Findings from the
+National Job Training Partnership Act Study.” Journal of Human Resources 32: 549-576.
+Card, David and Phillip B. Levine. 2000. “Extended Benefits and the Duration of UI Spells:
+Evidence from the New Jersey Extended Benefit Program.” Journal of Public Economics 78: 107138.
+Couch, Kenneth and Dana Placzek. 2007. “Earnings Losses of Displaced Workers Revisited.”
+American Economic Review 100: 572-589.
+Couch, Kenneth, Nicholas Jolly, and Dana Placzek. 2009. “Earnings Losses of Older Displaced
+Workers: A Detailed Analysis with Administrative Data.” Research on Aging 31: 17-40.
+Decker, Paul. 1997. “Work Incentives and Disincentives.” In Unemployment Insurance in the United
+States: Analysis of Policy Issues, edited by C. O’Leary and S. Wandner, 285-315. Kalamazoo, MI:
+W.E. Upjohn Institute for Employment Research.
+Jacobson, Louis, Robert LaLonde, and Daniel G. Sullivan. 1993a. “Long-term Earnings Losses of
+High-seniority Displaced Workers.” Economic Perspectives 17: 2-20
+Jacobson, Louis, Robert LaLonde, and Daniel Sullivan. 1993b. “Earnings Losses of Displaced
+Workers.” American Economic Review 83: 685-709.
+Katz, Lawrence, and Bruce D. Meyer. 1990. “The Impact of the Potential Duration of
+Unemployment Benefits on the Duration of Unemployment.” Journal of Public Economics 41: 4572.
+Kletzer, Lori G. 2002. Imports, Exports, and Jobs: What Does Trade Mean for Employment and Job Loss?
+Kalamazoo, MI: W.E. Upjohn Institute for Employment Research.
+Schochet, Peter Z., John Burghardt, and Steven Glazerman. 2001. National Job Corps Study: The
+Impacts of Job Corps on Participants’ Employment and Related Outcomes. Princeton, NJ: Mathematica
+Policy Research, Inc.
+Topoleski, John J. 2007. “Extending Trade Adjustment Assistance (TAA) to Service Workers: How
+Many Workers.” Congressional Research Service Report for Congress RS22761.
+
+27
+
+28
+
+APPENDIX A:
+OTHER REPORTS PREPARED AS PART OF THE EVALUATION
+
+Impact Study, Benefit-Cost Reports, and Methodological Notes
+Berk, Jillian and Peter Schochet. 2012. Impact Estimates Regarding Nonparticipants in the Trade
+Adjustment Assistance (TAA) Program Under the 2002 Amendments. Princeton, NJ: Mathematica
+Policy Research.
+Dolfin, Sarah. 2012. National Evaluation of the Trade Adjustment Assistance Program: The Benefits and Costs
+of the 2002 TAA Program. Princeton, NJ: Mathematica Policy Research.
+Schochet, Peter, Ronald D’Amico, Jillian Berk, Sarah Dolfin, and Nathan Wozny. 2012. Estimated
+Impacts for Participants in the Trade Adjustment Assistance (TAA) Program Under the 2002 Amendments.
+Oakland, CA: Social Policy Research Associates and Mathematica Policy Research.
+Schochet, Peter, Ronald D’Amico, Jillian Berk, and Nathan Wozny. 2012. Methodological Notes
+Regarding the Impact Analysis. Oakland, CA: Social Policy Research Associates and Mathematica
+Policy Research.
+Reports About Participants’ Experiences in TAA
+Berk, Jillian. 2012a. Characteristics of Trainees and Training Programs in the Trade Adjustment Assistance
+(TAA) Program Under the 2002 Amendments. Princeton, NJ: Mathematica Policy Research.
+Berk, Jillian. 2012b. Understanding the Employment Outcomes of Trainees in the Trade Adjustment Assistance
+(TAA) Program Under the 2002 Amendments. Princeton, NJ: Mathematica Policy Research.
+Dolfin, Sarah and Jillian Berk. 2010. National Evaluation of the Trade Adjustment Assistance Program:
+Characteristics of Workers Eligible under the 2002 TAA Program and Their Early Program Experiences.
+Princeton, NJ: Mathematica Policy Research. Released as ETAOP 2010-16.
+Implementation Study Reports
+D’Amico, Ronald, Kate Dunham, Annelies Goger, Melissa Mack, Rebekah Kebede, Johanna Lacoe,
+Jeffrey Salzman. 2009. Initial Implementation of the Trade Act of 2002: A Report Prepared as Part of the
+Evaluation of the Trade Adjustment Assistance Program. Oakland, CA: Social Policy Research
+Associates. Released as ETAOP 2009-14.
+D’Amico, Ronald, Christian Geckeler, Deanna Khemani, Deborah Kogan, and Michael Midling.
+2012. The Evaluation of the Implementation of the Trade and Globalization Adjustment Assistance Act.
+Oakland, CA: Social Policy Research Associates.
+Dunham, Kate. 2009. Linkages Between TAA, One-Stop Career Center Partners, and Economic Development
+Agencies: An Occasional Paper Prepared as Part of the Evaluation of the Trade Adjustment Assistance
+Program. Oakland, CA: Social Policy Research Associates. Released as ETAOP 2009-16.
+29
+
+Geckeler, Christian. 2012. Practices from the Field for Improving Case Management and Increasing Workforce
+System Integration in the Trade Adjustment Assistance (TAA) Program. Oakland, CA: Social Policy
+Research Associates.
+Mack, Melissa. 2009. Assessment, Case Management, and Post-Training Assistance for TAA Participants: An
+Occasional Paper Prepared as Part of the Evaluation of the Trade Adjustment Assistance Program. Oakland,
+CA: Social Policy Research Associates. Released as ETAOP 2009-15.
+Salzman, Jeffrey. 2009. Rapid Response and TAA: An Occasional Paper Prepared as Part of the Evaluation
+of the Trade Adjustment Assistance Program. Oakland, CA: Social Policy Research Associates.
+Released as ETAOP 2009-17.
+Salzman, Jeffrey. 2012. Practices from the Field in Outreach to Employers and Participants in the Trade
+Adjustment Assistance (TAA) Program. Oakland, CA: Social Policy Research Associates.
+
+30
+
+APPENDIX B:
+INDEX OF REPORTS BY MAJOR TOPICS IN THE SYNTHESIS REPORT
+
+Section of Synthesis
+
+Report Where this Topic is Best Addressed
+
+Research Design and Data
+Collection
+
+• Schochet, D’Amico, Berk, and Wozny 2012
+
+Impacts on TAA Participants
+
+• Schochet, D’Amico, Berk, Dolfin, and Wozny 2012
+
+Impacts on TAA Nonparticipants
+
+• Berk and Schochet 2012
+
+Assessing the Costs and Benefits of
+TAA Participation
+
+• Dolfin 2012
+
+The Implementation of the Trade
+Act of 2002
+
+• D’Amico, Dunham, Goger, Mack, Kebede, Lacoe, and
+Salzman 2009
+
+TAA and its American Job Center
+Partners
+
+• Dunham 2009
+
+Outreach to Employers and Eligible
+Workers
+
+• Salzman 2012
+
+Case Management in TAA
+
+• Mack 2009
+
+• Salzman 2009
+
+• Geckeler 2012
+The Characteristics of Workers
+Eligible for TAA and the Decision
+to Participate
+
+• Dolfin and Berk 2010
+
+Participants’ Experiences in TAA
+
+• Berk 2012a
+• Berk 2012b
+• Schochet, D’Amico, Berk, Dolfin, and Wozny 2012
+(Chapter IV)
+
+The Training Outcomes of TAAFunded Trainees
+
+• Berk 2012b
+
+The Implementation of TGAAA
+
+• D’Amico, Geckeler, Khemani, Kogan, and Midling 2012
+
+31
+
+
