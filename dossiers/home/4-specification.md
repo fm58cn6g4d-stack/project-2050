@@ -208,7 +208,7 @@ Espen's condition on memo 2 (`DEC-2026-11-09-01`): extremely low-income renters 
 1. In January 2029 the President revokes the July 2025 executive order's conditions [EV-HOU-107].
 2. A regular bill makes Housing First the standard for homelessness help that HUD and HHS fund, including McKinney-Vento grants and the new awards: no requirement of treatment, sobriety or service participation to get or keep housing; services offered.
 3. The National Strategic Plan due in July 2027 [EV-HOU-238] is reissued to match.
-4. **No sweeps** (`DEC-2026-11-09-10`). Extending current law's precedent in the Emergency Solutions Grants [EV-HOU-237], new federal homelessness money does not go to places that remove people or their belongings without offering shelter or housing.
+4. **No sweeps** (`DEC-2026-11-09-10`). Extending current law's precedent in the Emergency Solutions Grants [EV-HOU-237], new federal homelessness money does not go to places that remove people or their belongings without offering shelter or housing. The ROAD to Housing Act's version covers only FY2027-2030 grants [EV-HOU-237], so the regular bill must pass before the FY2031 grants (`road-funding.md`, 5).
 
 - **A baseline expectation of engagement.** Espen's direction for section 4 (`DEC-2026-11-09-05`, paraphrased there) asks for supportive housing in which no one is threatened with a return to homelessness for declining treatment, but where there is a baseline expectation of engaging with service navigators. HOU-4.11 drafts that as a duty on providers, not a condition on tenants.
 - **Vehicle.** Executive action, then a regular bill, which carries item 4. Where R2 money is new homelessness money (HOU-4.10's grants, HOU-4.12's backstop), R2 restates item 4 as a condition on it (judgment). No direct cost.
@@ -399,6 +399,7 @@ Rules 6, 7 and 8 of the point 5 note.
 - **Cost source.** Legacy file. The grant channel is about $0.06 trillion of HOU-3C's $0.075 trillion midpoint (range $0.061-0.10 trillion), and it is the part C21 borrows. The rest, about $0.015 trillion, is the loans' subsidy cost (HOU-3C.02). Both sit inside the ledger's housing title component ($0.47 trillion).
 - **Agency.** HUD, with state housing finance agencies.
 - **Current law.** New. It works beside HOME, with no set amount, and CDBG's new construction use (ROAD to Housing Act sections 501 and 204) [EV-HOU-215] [EV-HOU-226].
+- **Vacant-building conversions (proposed, for Espen; `road-funding.md`).** Converting empty commercial buildings is an eligible use, so the ROAD to Housing Act's RESIDE grants (sec. 210, ending FY2031) [EV-HOU-229] get no plan money of their own after FY2029. A FY2029 bridge of about $100 million for RESIDE in FY2029 appropriations counts inside the $72 billion.
 - **Evidence.** [EV-HOU-118] [EV-HOU-150] [EV-HOU-119] [EV-HOU-024].
 
 ### HOU-3C.02 Federal construction and acquisition loans
@@ -516,6 +517,7 @@ Espen's direction (`DEC-2026-11-09-10`): publish a target for homes built and pr
 
 - **Build Now.** Its CDBG reallocation stays as the only test on community development grants [EV-HOU-208]. HUD studies whether it penalizes steady builders below 4% growth [EV-HOU-244] and reports by 2032, with a proposed fix if it does.
 - **Vehicle (split).** The money is a direct appropriation in R2, mandatory. The changes to who may apply and what is paid for go in a regular bill. The R2 money is written so it can be spent under the Act's current rules until the regular bill passes (judgment; memo 4).
+- **Funding before R2 and counting it once (proposed, for Espen; `road-funding.md`).** The $30 billion is the fund's total for FY2030-39, counting any yearly appropriation that continues beside it. Up to about $1 billion of it may pay for the Act's planning grants (sec. 207), pattern books (sec. 209) and single-stair grants (sec. 102), which the regular bill folds into the fund. The plan seeks the authorized $200 million a year in FY2027 and FY2028 appropriations and a FY2029 bridge of about $270 million (the fund, the planning grants and the small grants) in FY2029 appropriations, counted inside the $30 billion (`6-cost.md`, 2.10). Nothing is funded in FY2027 so far [EV-HOU-751] [EV-HOU-754].
 - **Evidence.** [EV-HOU-123] [EV-HOU-124] [EV-HOU-177] [EV-HOU-206] [EV-HOU-208].
 - **Cost source.** Legacy file: about $0.03 trillion (range $0.02-0.05 trillion, an estimate), inside the ledger's housing title.
 
@@ -637,7 +639,7 @@ Espen decided memos 9 and 10 on November 9, 2026 (`DEC-2026-11-09-19`, `-20`), f
 3. **Resident purchases of communities.** Fund the ROAD to Housing Act's grants for manufactured-home communities (PRICE), authorized but unfunded [EV-HOU-220], at $350 million a year for FY2030-39 (decided by Espen, `DEC-2026-11-09-24`), with priority to resident and nonprofit purchases; the regular bill extends the program past its 2033 end.
 
 - **Agency.** FHFA (the companies); HUD (PRICE).
-- **Vehicle.** FHFA action; regular bill; R2 for the grants.
+- **Vehicle.** FHFA action; regular bill; R2 for the grants. Before R2 (proposed, for Espen; `road-funding.md`): PRICE at $100 million in FY2027 and FY2028 appropriations and $200 million in FY2029, the FY2029 amount counted inside the $3.5 billion.
 - **Evidence.** [EV-HOU-575] [EV-HOU-576] [EV-HOU-577] [EV-HOU-578] [EV-HOU-219] [EV-HOU-220]. No study shows how far chattel rates would fall.
 - **Cost source.** Section 6, 2.8: about $3.5 billion over FY2030-39 for the grants; the companies' new credit risk is unpriced (CBO counts their guarantees as governmental [EV-HOU-556]).
 
@@ -696,6 +698,7 @@ Espen decided memos 11 and 12 on November 9, 2026 (`DEC-2026-11-09-21`, `-22`), 
 - **Agency.** HUD (Office of Community Planning and Development), with CDBG and HOME grantees; HUD's Office of Native American Programs and tribes for the tribal share. USDA's rural repair loans and grants [EV-HOU-615] continue alongside it.
 - **Vehicle.** R2, mandatory, time-limited (FY2030-39). As time-limited capital it can borrow inside the D4-B envelope, like HOU-3C.01 and HOU-5.01 (section 6, 2.9). The wage rule and the eligibility of heirs go in the regular bill if reconciliation cannot carry them.
 - **Current law.** The ROAD to Housing Act's whole-home repair pilot (sec. 202) runs only if appropriated and ends October 1, 2031 [EV-HOU-230]; this fund replaces it. HOME, CDBG and Section 504 continue [EV-HOU-611] [EV-HOU-616].
+- **Funding before R2 (proposed, for Espen; `road-funding.md`).** The pilot is funded in appropriations at about $100 million in FY2027, $150 million in FY2028 and $300 million in FY2029, so grantees are staffed before FY2030. The FY2029 amount counts inside this fund's $38 billion; the FY2027-28 amounts are spent before it and are not part of it. If R2 slips past FY2030, FY2030 appropriations carry the pilot one more year. HOME and CDBG, whose grantees run this fund, are held at FY2026 levels against the House's FY2027 HOME cut [EV-HOU-753].
 - **Evidence.** [EV-HOU-601] [EV-HOU-602] [EV-HOU-603] [EV-HOU-606] [EV-HOU-609] [EV-HOU-610] [EV-HOU-645] [EV-HOU-646] [EV-HOU-647] [EV-HOU-649] [EV-HOU-656] [EV-HOU-660] [EV-HOU-661].
 - **Cost source.** Section 6, 2.9: $38 billion of budget authority, about $37 billion of outlays over FY2030-39 and a $1.2 billion tail in FY2040.
 

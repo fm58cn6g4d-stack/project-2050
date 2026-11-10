@@ -127,7 +127,7 @@ The rows above, grouped by the questions this dossier asks of the Act:
 
 | Claim | Source | Status |
 | --- | --- | --- |
-| Whether Congress has funded any ROAD program in FY2027 | FY2027 HUD appropriations act or continuing resolution | Not checked; the dossier assumes none until shown |
+| Whether Congress has funded any ROAD program in FY2027 | FY2027 continuing resolution (P.L. 119-103), the House THUD and Agriculture bills, CRS | Checked November 9, 2026: none. The CR runs to December 11, 2026 and bars new starts; the House THUD bill has no ROAD line; the Senate has no THUD or Agriculture bill [EV-HOU-750] [EV-HOU-751] [EV-HOU-753] [EV-HOU-754] [EV-HOU-757]. The funding map is `road-funding.md`; recheck when full-year FY2027 bills pass |
 | HUD's first Build Now growth rates and the list of places gaining and losing | HUD notification due within 60 days of enactment, and HUD's Build Now page (named by CRS) | Not yet read; needed before section 4 sizes fork 4 |
 | Independent analysis of the investor limit's likely effects | Academic or Federal Reserve analysis of the enacted limit | None in the register; HOU-7 rests on the earlier studies [EV-HOU-138] [EV-HOU-139] [EV-HOU-140] |
 | A cost estimate for the Act | CBO cost estimate for H.R. 6644 | Not read |
