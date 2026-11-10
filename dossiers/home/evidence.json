@@ -17333,5 +17333,33 @@
   "supports": [
    "dossiers/home/memos/13-rural.md"
   ]
+ },
+ {
+  "id": "EV-HOU-786",
+  "statement": "At the end of 2023, among HUD-assisted households whose head or spouse (whoever is older) was 62 or older, 47 percent had a head, spouse or co-head with a disability, against 34 percent of households below 62; among Housing Choice Voucher households the shares were 67 and 35 percent, and among public housing households 53 and 30 percent.",
+  "claim": "data",
+  "figures": [
+   "47",
+   "34",
+   "67",
+   "35",
+   "53",
+   "30",
+   "62"
+  ],
+  "source": "SRC-0428",
+  "anchor": [
+   "Summary of All HUD Programs | pct_disabled_lt62 = 34\nSummary of All HUD Programs | pct_disabled_ge62 = 47",
+   "Housing Choice Vouchers | pct_disabled_lt62 = 35\nHousing Choice Vouchers | pct_disabled_ge62 = 67",
+   "Public Housing | pct_disabled_lt62 = 30\nPublic Housing | pct_disabled_ge62 = 53"
+  ],
+  "grade": "A",
+  "fact_date": "2023-12-31",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "HUD, A Picture of Subsidized Households, 2023 (published 2024, Biden administration; HUD administrative records, data). The field is the percentage of households age 62 or older where the head, spouse or co-head has a disability (data dictionary). These are assisted households, not the unassisted worst-case group, and voucher holders include people who qualified as disabled before 62, so section 6 uses the all-programs share as central and the voucher share as its high case (judgment).",
+  "supports": [
+   "dossiers/home/6-cost.md"
+  ]
  }
 ]

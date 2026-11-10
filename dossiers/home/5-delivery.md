@@ -151,7 +151,37 @@ ERA built about 740 grantees almost from nothing in 2021 [SRC-1068], spent about
 5. **The rural map (HOU-14.05).** USDA publishes the new map and the count of places and people gaining and losing eligibility before it takes effect, then each year for five years. The map takes effect only when the loan system checks addresses against it. No household loses help in the change.
 6. **Published speed.** Quarterly decision times by state from 2029, so the claim that local offices deliver can be checked.
 
-## 3. Timeline, 2029-2038
+### 2.10 Staffing by program, and what moves if hiring lags
+
+The milestone review asked for a staffing number and a hiring path for each new program, and for which launches move a year if hiring lags (`review-milestone.md`, O-5). Every number below is this section's judgment: the register has HUD's 2025 losses [EV-HOU-340] and Rural Development's counts [EV-HOU-777], but no staffing standard for any of these programs. The figures are full-time staff working on the plan's programs, at their peak.
+
+| Program | Who staffs it | Federal staff at peak | Other staff, paid by the program's own administration money | Hiring path | Paid from |
+| --- | --- | --- | --- | --- | --- |
+| The one rental help system: HOU-4A, HOU-4D, HOU-4.08 (the delivery office, data, oversight, appeals, the backstop administrator) | HUD's public and Indian housing office and the delivery office (2.1) | About 400 by 2031 (the delivery office about 60); about 700 by 2037, when stage 2 is a right and stage 3 opens | Housing agency caseworkers and inspectors, about one for every 120 leased households: about 7,500 by 2034, 20,000 by 2039 and 30,000 by about 2041 | Direct hire in 2029-31 (2.1, item 2); 250 by the first awards in 2030 | Federal: the 0.5% set-aside. Agencies: full fees and the issuance fee (HOU-4A.02) |
+| Construction loans (HOU-3C.02, with HOU-3C.05) | A new HUD lending office (2.4) | About 200 by 2031, working through state agencies on the risk-share model | State agency underwriters and servicers, paid from loan fees | 50 in 2029, 150 by mid-2030, 200 by 2031 | The set-aside; loan fees |
+| Revolving funds, public housing repair, the zoning reward (HOU-3C.01, HOU-5.01, HOU-6.01) | HUD's community planning and public housing offices | About 150 | State fund staff, about 10-30 a state, about 1,000 in all | Plans reviewed in 2029-30; full staff before the 2032 step to $10 billion | The set-aside; up to 2% of each grant for state administration (judgment) |
+| The emergency fund (HOU-1D) | HUD | About 100 (grantee oversight, the payment-error sample, the data standard) | Grantee staff, paid from the fund's administration share | Named in 2030 with the start (2.5) | The set-aside; the fund's administration share |
+| The repair fund, down payment help, legal help, coordinators, home sharing (HOU-12, HOU-10.01, HOU-13.02 to .04) | HUD's community planning and housing counseling offices | About 100 | Existing CDBG, HOME and state agency staff, and the grantees' own | Notices within 90 days of R2 (2.7, 2.8) | The set-aside; each program's administration share |
+| FHA's premium cut (HOU-10.02) | FHA | None added | — | — | — |
+| The property-tax match (HOU-13.01) | Treasury | About 30 | State revenue offices, already running relief | 2029-30 standards | The set-aside |
+| Rural Development (HOU-14) | USDA | About 2,000 more, to about 5,000 | — | 1,000 by FY2031, 2,000 by FY2032 (2.9) | HOU-14.01 |
+| Audits of the new programs | HUD's inspector general | About 200 | — | From 2030 | The $50 million a year set-aside |
+
+- **Is the money there?** At HUD, the peak is about 1,250 federal staff for the plan's programs, around 2037-40, at about $200,000 each with benefits and systems: about $0.25 billion a year. The 0.5% set-aside gives about $0.2 billion in FY2032, when about 800 are needed, and about $0.4 billion by FY2040 (`6-cost.md`, 1.2), so it covers them, with room for systems and evaluation (this section's arithmetic). The federal staff are a small share of the work; the housing agencies' caseworkers are the large one. Full fees pay for them: 8.1% of the subsidy is about $1,400-1,700 a leased household a year in the 2030s, about $170,000-200,000 for each caseworker's 120 households, with overhead (this section's arithmetic; `6-cost.md`, 1.1).
+- **The test.** The delivery office publishes HUD's hiring each quarter against the path above. If a program's office is below 75% of its path at mid-year, the next ramp step in the table below waits a year, and the money stays available until spent.
+
+**What moves a year if hiring lags, and what never moves.**
+
+| Launch | Date in law | If hiring lags | Effect |
+| --- | --- | --- | --- |
+| Revolving funds' step to $10 billion a year | 2032 | Holds at $5 billion a year in 2032; the later years absorb it, with the last awards still by 2037 | More spending in FY2038-40 (`6-cost.md`, 3.5) |
+| Construction loans' step to $30-40 billion | 2032-33 | Holds a year | Commitments still end in 2038 |
+| Attached awards in tight markets | 2032 | Start in 2033 | Tenant-based awards meanwhile |
+| Repair fund at $4 billion a year | FY2031 | Holds at $2 billion for FY2031 | The rest spread over FY2032-38 |
+| Section 502 loan levels | FY2030-33 | Already follow staff (2.9) | — |
+| The first 250,000 awards; stage 2's 2034 opening; the 2037 right; stage 3's 2038 opening; the standing fund | Fixed | **Never move.** Lagging offices get the backstop administrator and extra administration money instead (2.2, item 4; 3, "Readiness gates") | A right on a date in law cannot wait on a slow agency (section 8) |
+
+## 3. Timeline, 2029-2042
 
 ### The vehicles in the calendar
 
@@ -177,11 +207,13 @@ ERA built about 740 grantees almost from nothing in 2021 [SRC-1068], spent about
 | 2030 | First 250,000 awards, all tenant-based; full fees; search help | Grantees named; one-time start begins (HOU-1D.04) | Revolving funds $3 billion; loans $10 billion; Capital Fund rises; right-to-return rules on repair money | Recovery-housing grants (HOU-4.10, 2030-34); HUD services backstop begins; peer training | Source-of-income protection in force, with testing grants for 2030-34; payment limits in tight markets |
 | 2031 | Second 250,000; reallocation of unused awards | Start ends; standing fund runs | Funds $5 billion; loans $20 billion | Medicaid tenancy services, if the care flagship's bill passes | First payment-error estimate published (from year one's sample) |
 | 2032 | Third 250,000; attached awards may begin in tight markets (up to 25%) | Standing | Funds $10 billion a year (2032-33), then $11 billion (2034-37); loans $30 billion, then $40 billion a year (2033-38) | — | Payment limits by ZIP code in all metros; HUD's Build Now study due |
-| 2033 | Fourth 250,000; stage 1 served, stage 2 begun | Standing | — | — | The plan's second-term election is in 2032: section 8's protections are tested from here |
+| 2033 | Fourth 250,000, still in stage 1: with no cap, stage 1 is expected to take the whole million (`6-cost.md`, 2.12) | Standing | — | — | The plan's second-term election is in 2032: section 8's protections are tested from here |
 | 2034 | Stage 2 opens: up to 300,000 families a year | Standing | — | Recovery-housing evaluation; renewal by appropriations | — |
 | 2035-36 | Stage 2 enrollment; attached-help evaluation reports (2036) | Standing | — | — | — |
 | 2037 | **Stage 2 becomes a right**: every eligible family that applies gets help, with the duty to house | Standing | Last revolving-fund and repair awards | — | Guarantee remedies in force (6.3); GAO and HUD investor-limit reports |
-| 2038 | **Stage 3 opens** for disabled extremely low-income renters, with Medicaid services and reserved accessible units | Standing | Last loan commitments; accessible-unit reservations begin at turnover | HCBS with tenancy supports must be in place where stage 3 lands | — |
+| 2038 | **Stage 3 opens** for disabled extremely low-income renters of any age (`DEC-2026-11-10-03`), with Medicaid services and reserved accessible units; HUD reports the 2040s route's count and cost | Standing | Last loan commitments; accessible-unit reservations begin at turnover; HUD's FHA premium review in the actuarial report | HCBS with tenancy supports must be in place where stage 3 lands | — |
+| 2039 | Stage 3 enrolling (to 2040) | Standing | Last FHA loans at the lower premium, unless renewed; down payment help, the repair fund and the zoning reward end with their money unless renewed (`DEC-2026-11-10-03`) | — | The social housing pilot's 2037 evaluation informs the 2040s choices |
+| 2042 | **The 2040s route opens** (proposed date, for Espen; HOU-4.03), only with its financing enacted | Standing | — | — | — |
 
 Readiness gates (judgment): stage 2's 2034 opening and stage 3's 2038 opening each need HUD to certify, a year ahead, that the data system, fees and agency agreements are in place. If HUD does not certify, the opening still happens on the date in law; the certification only triggers extra administrative money. A gate that could delay a right would hand a slow agency a veto (section 8).
 
