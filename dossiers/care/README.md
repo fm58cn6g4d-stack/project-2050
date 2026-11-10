@@ -1,10 +1,9 @@
 # Dossier: Care you can count on (flagship 2)
 
-Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D (November 10, 2026). Level: every care item is at L1 in `agenda/agenda.csv` (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
+Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D. Level: every care item is at L1 in `agenda/agenda.csv` (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
 
 **What it brings together** (`charter/PLAN.md` 3.1):
-- health coverage restored and extended;
-- a public option, weighed beside single-payer Medicare for All in full (`DEC-2026-11-09-07`);
+- health coverage restored and extended, by single-payer Medicare for All, a public option or a staged path between them, weighed in full (`DEC-2026-11-09-07`; the charter wording is #195, for Espen);
 - care at home for all ages;
 - child care and pre-K;
 - the care workforce.
