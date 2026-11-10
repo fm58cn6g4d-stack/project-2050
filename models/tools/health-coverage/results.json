@@ -35,7 +35,7 @@
   {
    "benchmark": "CBO 2020 single-payer options: change in federal subsidies (corners reproduce the range)",
    "id": "BM-1a",
-   "model": "2,874 to 4,214 $B in 2032",
+   "model": "3,034 to 4,361 $B in 2032",
    "note": "Corners use only the payment-rate, cost-sharing and long-term-care assumptions the register gives (EV-CAR-220); CBO option specifications are not saved.",
    "pass": false,
    "source": "EV-CAR-218",
@@ -45,7 +45,7 @@
   {
    "benchmark": "CBO 2020 single-payer options: change in national health expenditures",
    "id": "BM-1b",
-   "model": "-562 to 606 $B in 2032",
+   "model": "-549 to 601 $B in 2032",
    "note": "CBO also changes provider supply and uses its 2020 baseline; the model grows both ends of the range to 2032.",
    "pass": false,
    "source": "EV-CAR-218",
@@ -105,7 +105,7 @@
   {
    "benchmark": "Urban 2019 single-payer federal cost (secondary): rise in federal spending relative to current federal health spending",
    "id": "BM-6a",
-   "model": "140% (project central)",
+   "model": "149% (project central)",
    "note": "Indicative only: Urban's baseline is not in the register, so RAND's federal base (EV-CAR-229) stands in; the model also counts the tax exclusion.",
    "pass": true,
    "source": "EV-CAR-222; EV-CAR-224; EV-CAR-229",
@@ -133,53 +133,53 @@
     },
     {
      "federal_bn": 203.675,
-     "nhe_bn": 33.821,
+     "nhe_bn": 35.427,
      "year": 2031
     },
     {
      "federal_bn": 239.429,
-     "nhe_bn": 11.74,
+     "nhe_bn": 15.125,
      "year": 2032
     },
     {
      "federal_bn": 253.845,
-     "nhe_bn": 12.374,
+     "nhe_bn": 15.942,
      "year": 2033
     },
     {
      "federal_bn": 268.49,
-     "nhe_bn": 13.042,
+     "nhe_bn": 16.803,
      "year": 2034
     },
     {
      "federal_bn": 283.059,
-     "nhe_bn": 13.746,
+     "nhe_bn": 17.71,
      "year": 2035
     },
     {
      "federal_bn": 298.466,
-     "nhe_bn": 14.488,
+     "nhe_bn": 18.666,
      "year": 2036
     },
     {
      "federal_bn": 315.373,
-     "nhe_bn": 15.271,
+     "nhe_bn": 19.674,
      "year": 2037
     },
     {
      "federal_bn": 333.238,
-     "nhe_bn": 16.095,
+     "nhe_bn": 20.737,
      "year": 2038
     },
     {
      "federal_bn": 352.115,
-     "nhe_bn": 16.964,
+     "nhe_bn": 21.857,
      "year": 2039
     }
    ],
    "total_2030_39": {
     "federal_bn": 2633.524,
-    "nhe_bn": 174.345
+    "nhe_bn": 208.747
    }
   },
   "restore": {
@@ -253,49 +253,49 @@
      "year": 2031
     },
     {
-     "federal_bn": 821.443,
-     "nhe_bn": -34.428,
+     "federal_bn": 859.626,
+     "nhe_bn": -33.168,
      "year": 2032
     },
     {
-     "federal_bn": 1741.805,
-     "nhe_bn": -72.574,
+     "federal_bn": 1822.768,
+     "nhe_bn": -69.919,
      "year": 2033
     },
     {
-     "federal_bn": 2763.441,
-     "nhe_bn": -114.739,
+     "federal_bn": 2891.892,
+     "nhe_bn": -110.542,
      "year": 2034
     },
     {
-     "federal_bn": 3884.518,
-     "nhe_bn": -161.247,
+     "federal_bn": 4065.08,
+     "nhe_bn": -155.348,
      "year": 2035
     },
     {
-     "federal_bn": 4095.963,
-     "nhe_bn": -169.955,
+     "federal_bn": 4286.353,
+     "nhe_bn": -163.736,
      "year": 2036
     },
     {
-     "federal_bn": 4327.985,
-     "nhe_bn": -179.132,
+     "federal_bn": 4529.159,
+     "nhe_bn": -172.578,
      "year": 2037
     },
     {
-     "federal_bn": 4573.149,
-     "nhe_bn": -188.805,
+     "federal_bn": 4785.719,
+     "nhe_bn": -181.897,
      "year": 2038
     },
     {
-     "federal_bn": 4832.201,
-     "nhe_bn": -199.001,
+     "federal_bn": 5056.812,
+     "nhe_bn": -191.72,
      "year": 2039
     }
    ],
    "total_2030_39": {
-    "federal_bn": 27040.505,
-    "nhe_bn": -1119.881
+    "federal_bn": 28297.409,
+    "nhe_bn": -1078.908
    }
   },
   "single_payer_cbo_like_high": {
@@ -311,49 +311,49 @@
      "year": 2031
     },
     {
-     "federal_bn": 1053.483,
-     "nhe_bn": 151.503,
+     "federal_bn": 1090.279,
+     "nhe_bn": 150.269,
      "year": 2032
     },
     {
-     "federal_bn": 2233.826,
-     "nhe_bn": 319.368,
+     "federal_bn": 2311.851,
+     "nhe_bn": 316.767,
      "year": 2033
     },
     {
-     "federal_bn": 3544.051,
-     "nhe_bn": 504.921,
+     "federal_bn": 3667.84,
+     "nhe_bn": 500.808,
      "year": 2034
     },
     {
-     "federal_bn": 4981.808,
-     "nhe_bn": 709.583,
+     "federal_bn": 5155.816,
+     "nhe_bn": 703.802,
      "year": 2035
     },
     {
-     "federal_bn": 5252.981,
-     "nhe_bn": 747.9,
+     "federal_bn": 5436.461,
+     "nhe_bn": 741.808,
      "year": 2036
     },
     {
-     "federal_bn": 5550.543,
-     "nhe_bn": 788.287,
+     "federal_bn": 5744.417,
+     "nhe_bn": 781.865,
      "year": 2037
     },
     {
-     "federal_bn": 5864.961,
-     "nhe_bn": 830.854,
+     "federal_bn": 6069.817,
+     "nhe_bn": 824.086,
      "year": 2038
     },
     {
-     "federal_bn": 6197.189,
-     "nhe_bn": 875.72,
+     "federal_bn": 6413.649,
+     "nhe_bn": 868.587,
      "year": 2039
     }
    ],
    "total_2030_39": {
-    "federal_bn": 34678.842,
-    "nhe_bn": 4928.136
+    "federal_bn": 35890.13,
+    "nhe_bn": 4887.992
    }
   },
   "single_payer_cbo_like_low": {
@@ -369,49 +369,49 @@
      "year": 2031
     },
     {
-     "federal_bn": 718.475,
-     "nhe_bn": -140.384,
+     "federal_bn": 758.592,
+     "nhe_bn": -137.134,
      "year": 2032
     },
     {
-     "federal_bn": 1523.47,
-     "nhe_bn": -295.929,
+     "federal_bn": 1608.535,
+     "nhe_bn": -289.077,
      "year": 2033
     },
     {
-     "federal_bn": 2417.044,
-     "nhe_bn": -467.863,
+     "federal_bn": 2552.002,
+     "nhe_bn": -457.031,
      "year": 2034
     },
     {
-     "federal_bn": 3397.594,
-     "nhe_bn": -657.504,
+     "federal_bn": 3587.303,
+     "nhe_bn": -642.281,
      "year": 2035
     },
     {
-     "federal_bn": 3582.535,
-     "nhe_bn": -693.009,
+     "federal_bn": 3782.57,
+     "nhe_bn": -676.965,
      "year": 2036
     },
     {
-     "federal_bn": 3785.472,
-     "nhe_bn": -730.432,
+     "federal_bn": 3996.839,
+     "nhe_bn": -713.521,
      "year": 2037
     },
     {
-     "federal_bn": 3999.905,
-     "nhe_bn": -769.875,
+     "federal_bn": 4223.245,
+     "nhe_bn": -752.051,
      "year": 2038
     },
     {
-     "federal_bn": 4226.485,
-     "nhe_bn": -811.448,
+     "federal_bn": 4462.476,
+     "nhe_bn": -792.662,
      "year": 2039
     }
    ],
    "total_2030_39": {
-    "federal_bn": 23650.98,
-    "nhe_bn": -4566.445
+    "federal_bn": 24971.562,
+    "nhe_bn": -4460.722
    }
   },
   "single_payer_project_central": {
@@ -427,49 +427,49 @@
      "year": 2031
     },
     {
-     "federal_bn": 836.525,
-     "nhe_bn": 11.238,
+     "federal_bn": 887.317,
+     "nhe_bn": 24.0,
      "year": 2032
     },
     {
-     "federal_bn": 1773.784,
-     "nhe_bn": 23.69,
+     "federal_bn": 1881.485,
+     "nhe_bn": 50.591,
      "year": 2033
     },
     {
-     "federal_bn": 2814.176,
-     "nhe_bn": 37.454,
+     "federal_bn": 2985.048,
+     "nhe_bn": 79.984,
      "year": 2034
     },
     {
-     "federal_bn": 3955.836,
-     "nhe_bn": 52.635,
+     "federal_bn": 4196.028,
+     "nhe_bn": 112.405,
      "year": 2035
     },
     {
-     "federal_bn": 4171.163,
-     "nhe_bn": 55.477,
+     "federal_bn": 4424.43,
+     "nhe_bn": 118.475,
      "year": 2036
     },
     {
-     "federal_bn": 4407.444,
-     "nhe_bn": 58.473,
+     "federal_bn": 4675.057,
+     "nhe_bn": 124.872,
      "year": 2037
     },
     {
-     "federal_bn": 4657.11,
-     "nhe_bn": 61.631,
+     "federal_bn": 4939.882,
+     "nhe_bn": 131.615,
      "year": 2038
     },
     {
-     "federal_bn": 4920.918,
-     "nhe_bn": 64.959,
+     "federal_bn": 5219.708,
+     "nhe_bn": 138.723,
      "year": 2039
     }
    ],
    "total_2030_39": {
-    "federal_bn": 27536.956,
-    "nhe_bn": 365.557
+    "federal_bn": 29208.954,
+    "nhe_bn": 780.665
    }
   },
   "staged": {
@@ -481,53 +481,53 @@
     },
     {
      "federal_bn": 209.406,
-     "nhe_bn": 33.176,
+     "nhe_bn": 10.484,
      "year": 2031
     },
     {
      "federal_bn": 251.513,
-     "nhe_bn": 10.379,
+     "nhe_bn": -37.457,
      "year": 2032
     },
     {
      "federal_bn": 266.656,
-     "nhe_bn": 10.939,
+     "nhe_bn": -39.479,
      "year": 2033
     },
     {
      "federal_bn": 282.04,
-     "nhe_bn": 11.53,
+     "nhe_bn": -41.611,
      "year": 2034
     },
     {
      "federal_bn": 297.344,
-     "nhe_bn": 12.152,
+     "nhe_bn": -43.858,
      "year": 2035
     },
     {
      "federal_bn": 313.529,
-     "nhe_bn": 12.809,
+     "nhe_bn": -46.226,
      "year": 2036
     },
     {
      "federal_bn": 331.29,
-     "nhe_bn": 13.5,
+     "nhe_bn": -48.723,
      "year": 2037
     },
     {
      "federal_bn": 350.056,
-     "nhe_bn": 14.229,
+     "nhe_bn": -51.354,
      "year": 2038
     },
     {
      "federal_bn": 369.885,
-     "nhe_bn": 14.998,
+     "nhe_bn": -54.127,
      "year": 2039
     }
    ],
    "total_2030_39": {
     "federal_bn": 2757.554,
-    "nhe_bn": 160.516
+    "nhe_bn": -325.546
    }
   },
   "staged_full": {
@@ -539,53 +539,53 @@
     },
     {
      "federal_bn": 209.406,
-     "nhe_bn": 33.176,
+     "nhe_bn": 10.484,
      "year": 2031
     },
     {
      "federal_bn": 251.513,
-     "nhe_bn": 10.379,
+     "nhe_bn": -37.457,
      "year": 2032
     },
     {
      "federal_bn": 266.656,
-     "nhe_bn": 10.939,
+     "nhe_bn": -39.479,
      "year": 2033
     },
     {
      "federal_bn": 282.04,
-     "nhe_bn": 11.53,
+     "nhe_bn": -41.611,
      "year": 2034
     },
     {
      "federal_bn": 300.41,
-     "nhe_bn": 1.023,
+     "nhe_bn": -66.195,
      "year": 2035
     },
     {
      "federal_bn": 319.996,
-     "nhe_bn": -10.653,
+     "nhe_bn": -93.314,
      "year": 2036
     },
     {
      "federal_bn": 338.122,
-     "nhe_bn": -11.228,
+     "nhe_bn": -98.353,
      "year": 2037
     },
     {
      "federal_bn": 357.276,
-     "nhe_bn": -11.834,
+     "nhe_bn": -103.664,
      "year": 2038
     },
     {
      "federal_bn": 377.514,
-     "nhe_bn": -12.473,
+     "nhe_bn": -109.261,
      "year": 2039
     }
    ],
    "total_2030_39": {
     "federal_bn": 2788.768,
-    "nhe_bn": 47.662
+    "nhe_bn": -552.045
    }
   },
   "staged_full_kids": {
@@ -597,53 +597,53 @@
     },
     {
      "federal_bn": 209.406,
-     "nhe_bn": 33.176,
+     "nhe_bn": 10.484,
      "year": 2031
     },
     {
      "federal_bn": 251.513,
-     "nhe_bn": 10.379,
+     "nhe_bn": -37.457,
      "year": 2032
     },
     {
      "federal_bn": 266.656,
-     "nhe_bn": 10.939,
+     "nhe_bn": -39.479,
      "year": 2033
     },
     {
      "federal_bn": 282.04,
-     "nhe_bn": 11.53,
+     "nhe_bn": -41.611,
      "year": 2034
     },
     {
      "federal_bn": 297.052,
-     "nhe_bn": -20.194,
+     "nhe_bn": -69.432,
      "year": 2035
     },
     {
      "federal_bn": 312.914,
-     "nhe_bn": -55.377,
+     "nhe_bn": -100.137,
      "year": 2036
     },
     {
      "federal_bn": 330.639,
-     "nhe_bn": -58.367,
+     "nhe_bn": -105.544,
      "year": 2037
     },
     {
      "federal_bn": 349.369,
-     "nhe_bn": -61.519,
+     "nhe_bn": -111.243,
      "year": 2038
     },
     {
      "federal_bn": 369.159,
-     "nhe_bn": -64.841,
+     "nhe_bn": -117.251,
      "year": 2039
     }
    ],
    "total_2030_39": {
     "federal_bn": 2754.584,
-    "nhe_bn": -167.47
+    "nhe_bn": -584.865
    }
   }
  },
@@ -1846,8 +1846,8 @@
     "total_bn": 1742.621
    },
    "insured_change": 1.302,
-   "nhe_bn": 8271.569,
-   "nhe_change_bn": -4.22,
+   "nhe_bn": 8225.901,
+   "nhe_change_bn": -49.888,
    "people": {
     "esi": 161.015,
     "medicaid": 59.975,
@@ -2191,8 +2191,8 @@
     "total_bn": 1709.251
    },
    "insured_change": 22.686,
-   "nhe_bn": 8287.529,
-   "nhe_change_bn": 11.74,
+   "nhe_bn": 8290.915,
+   "nhe_change_bn": 15.125,
    "people": {
     "esi": 160.377,
     "medicaid": 59.975,
@@ -2616,49 +2616,49 @@
     "components_bn": {
      "Less: state maintenance of effort and retained flows": -0.0,
      "Other subsidies (held fixed)": 69.0,
-     "Single-payer plan outlays, net of cost sharing": 6355.773
+     "Single-payer plan outlays, net of cost sharing": 6508.503
     },
     "delta_components_bn": {
      "Employer-coverage tax exclusion ended": -680.0,
      "Medicaid and CHIP federal funding replaced": -763.0,
      "Medicare subsidies replaced": -1511.0,
      "Premium tax credit and related spending replaced": -116.0,
-     "Single-payer plan outlays, net of cost sharing": 6355.773,
+     "Single-payer plan outlays, net of cost sharing": 6508.503,
      "State maintenance of effort and other retained non-federal flows": -0.0
     },
-    "gross_new_bn": 6355.773,
-    "net_change_bn": 3285.773,
+    "gross_new_bn": 6508.503,
+    "net_change_bn": 3438.503,
     "offsets_bn": 3070.0,
-    "total_subsidies_bn": 6424.773
+    "total_subsidies_bn": 6577.503
    },
    "household": {
     "by_band": [
      {
       "band": "<138%",
-      "oop_bn": 36.338,
+      "oop_bn": 36.998,
       "people": 78.677,
-      "per_person": 461.864,
+      "per_person": 470.254,
       "premiums_bn": 0.0
      },
      {
       "band": "138-250%",
-      "oop_bn": 34.052,
+      "oop_bn": 34.758,
       "people": 63.666,
-      "per_person": 534.851,
+      "per_person": 545.936,
       "premiums_bn": 0.0
      },
      {
       "band": "250-400%",
-      "oop_bn": 41.945,
+      "oop_bn": 42.836,
       "people": 68.561,
-      "per_person": 611.787,
+      "per_person": 624.781,
       "premiums_bn": 0.0
      },
      {
       "band": "400%+",
-      "oop_bn": 94.35,
+      "oop_bn": 96.525,
       "people": 144.295,
-      "per_person": 653.87,
+      "per_person": 668.945,
       "premiums_bn": 0.0
      }
     ],
@@ -2669,7 +2669,7 @@
       "premium_pp": 0.0
      },
      "sp": {
-      "oop_pp": 531.819,
+      "oop_pp": 544.599,
       "people": 346.798,
       "premium_pp": 0.0
      },
@@ -2748,10 +2748,10 @@
       null
      ],
      "sp": [
-      368.607,
-      473.924,
-      552.911,
-      631.899
+      377.465,
+      485.312,
+      566.198,
+      647.083
      ],
      "uninsured": [
       2189.468,
@@ -2760,13 +2760,13 @@
       3753.374
      ]
     },
-    "oop_bn": 206.685,
+    "oop_bn": 211.117,
     "premiums_bn": 0.0,
-    "total_bn": 206.685
+    "total_bn": 211.117
    },
    "insured_change": 33.648,
-   "nhe_bn": 8138.078,
-   "nhe_change_bn": -137.712,
+   "nhe_bn": 8143.116,
+   "nhe_change_bn": -132.673,
    "people": {
     "esi": 0.0,
     "medicaid": 0.0,
@@ -2784,21 +2784,21 @@
    },
    "private_flows_removed_bn": {
     "employer_premiums": 1546.847,
-    "household_premiums_and_oop": 1531.668
+    "household_premiums_and_oop": 1527.236
    },
    "single_payer": {
-    "admin_bn": 392.412,
-    "amount_to_be_financed_bn": 3285.773,
-    "baseline_claims_bn": 6182.319,
-    "claims_before_use_bn": 5820.882,
-    "cost_sharing_bn": 184.434,
+    "admin_bn": 401.842,
+    "amount_to_be_financed_bn": 3438.503,
+    "baseline_claims_bn": 6066.173,
+    "claims_before_use_bn": 5711.526,
+    "cost_sharing_bn": 188.866,
     "ltc_bn": 0.0,
-    "new_use_bn": 239.599,
+    "new_use_bn": 498.328,
     "newly_covered_millions": 33.648,
-    "plan_gross_bn": 6540.207,
-    "plan_outlay_bn": 6355.773,
-    "provider_revenue_bn": 6147.794,
-    "rate_multiple_of_medicare": 1.157,
+    "plan_gross_bn": 6697.369,
+    "plan_outlay_bn": 6508.503,
+    "provider_revenue_bn": 6295.527,
+    "rate_multiple_of_medicare": 1.148,
     "state_and_retained_bn": 0.0,
     "use_increase": 0.015
    },
@@ -2890,20 +2890,20 @@
     "components_bn": {
      "Less: state maintenance of effort and retained flows": -0.0,
      "Other subsidies (held fixed)": 69.0,
-     "Single-payer plan outlays, net of cost sharing": 7283.93
+     "Single-payer plan outlays, net of cost sharing": 7431.117
     },
     "delta_components_bn": {
      "Employer-coverage tax exclusion ended": -680.0,
      "Medicaid and CHIP federal funding replaced": -763.0,
      "Medicare subsidies replaced": -1511.0,
      "Premium tax credit and related spending replaced": -116.0,
-     "Single-payer plan outlays, net of cost sharing": 7283.93,
+     "Single-payer plan outlays, net of cost sharing": 7431.117,
      "State maintenance of effort and other retained non-federal flows": -0.0
     },
-    "gross_new_bn": 7283.93,
-    "net_change_bn": 4213.93,
+    "gross_new_bn": 7431.117,
+    "net_change_bn": 4361.117,
     "offsets_bn": 3070.0,
-    "total_subsidies_bn": 7352.93
+    "total_subsidies_bn": 7500.117
    },
    "household": {
     "by_band": [
@@ -3039,8 +3039,8 @@
     "total_bn": 22.252
    },
    "insured_change": 33.648,
-   "nhe_bn": 8881.801,
-   "nhe_change_bn": 606.012,
+   "nhe_bn": 8876.865,
+   "nhe_change_bn": 601.075,
    "people": {
     "esi": 0.0,
     "medicaid": 0.0,
@@ -3061,18 +3061,18 @@
     "household_premiums_and_oop": 1716.102
    },
    "single_payer": {
-    "admin_bn": 437.036,
-    "amount_to_be_financed_bn": 4213.93,
-    "baseline_claims_bn": 6182.319,
-    "claims_before_use_bn": 6182.319,
+    "admin_bn": 445.867,
+    "amount_to_be_financed_bn": 4361.117,
+    "baseline_claims_bn": 6066.173,
+    "claims_before_use_bn": 6066.173,
     "cost_sharing_bn": 0.0,
     "ltc_bn": 200.0,
-    "new_use_bn": 279.106,
+    "new_use_bn": 537.092,
     "newly_covered_millions": 33.648,
-    "plan_gross_bn": 7283.93,
-    "plan_outlay_bn": 7283.93,
-    "provider_revenue_bn": 6846.894,
-    "rate_multiple_of_medicare": 1.221,
+    "plan_gross_bn": 7431.117,
+    "plan_outlay_bn": 7431.117,
+    "provider_revenue_bn": 6985.25,
+    "rate_multiple_of_medicare": 1.212,
     "state_and_retained_bn": 0.0,
     "use_increase": 0.03
    },
@@ -3164,49 +3164,49 @@
     "components_bn": {
      "Less: state maintenance of effort and retained flows": -0.0,
      "Other subsidies (held fixed)": 69.0,
-     "Single-payer plan outlays, net of cost sharing": 5943.902
+     "Single-payer plan outlays, net of cost sharing": 6104.369
     },
     "delta_components_bn": {
      "Employer-coverage tax exclusion ended": -680.0,
      "Medicaid and CHIP federal funding replaced": -763.0,
      "Medicare subsidies replaced": -1511.0,
      "Premium tax credit and related spending replaced": -116.0,
-     "Single-payer plan outlays, net of cost sharing": 5943.902,
+     "Single-payer plan outlays, net of cost sharing": 6104.369,
      "State maintenance of effort and other retained non-federal flows": -0.0
     },
-    "gross_new_bn": 5943.902,
-    "net_change_bn": 2873.902,
+    "gross_new_bn": 6104.369,
+    "net_change_bn": 3034.369,
     "offsets_bn": 3070.0,
-    "total_subsidies_bn": 6012.902
+    "total_subsidies_bn": 6173.369
    },
    "household": {
     "by_band": [
      {
       "band": "<138%",
-      "oop_bn": 34.558,
+      "oop_bn": 35.252,
       "people": 78.677,
-      "per_person": 439.239,
+      "per_person": 448.054,
       "premiums_bn": 0.0
      },
      {
       "band": "138-250%",
-      "oop_bn": 32.149,
+      "oop_bn": 32.89,
       "people": 63.666,
-      "per_person": 504.958,
+      "per_person": 516.604,
       "premiums_bn": 0.0
      },
      {
       "band": "250-400%",
-      "oop_bn": 39.542,
+      "oop_bn": 40.478,
       "people": 68.561,
-      "per_person": 576.745,
+      "per_person": 590.397,
       "premiums_bn": 0.0
      },
      {
       "band": "400%+",
-      "oop_bn": 88.484,
+      "oop_bn": 90.77,
       "people": 144.295,
-      "per_person": 613.217,
+      "per_person": 629.056,
       "premiums_bn": 0.0
      }
     ],
@@ -3217,7 +3217,7 @@
       "premium_pp": 0.0
      },
      "sp": {
-      "oop_pp": 497.356,
+      "oop_pp": 510.783,
       "people": 346.798,
       "premium_pp": 0.0
      },
@@ -3296,10 +3296,10 @@
       null
      ],
      "sp": [
-      344.721,
-      443.212,
-      517.081,
-      590.95
+      354.027,
+      455.178,
+      531.041,
+      606.904
      ],
      "uninsured": [
       2189.468,
@@ -3308,13 +3308,13 @@
       3753.374
      ]
     },
-    "oop_bn": 194.734,
+    "oop_bn": 199.39,
     "premiums_bn": 0.0,
-    "total_bn": 194.734
+    "total_bn": 199.39
    },
    "insured_change": 33.648,
-   "nhe_bn": 7714.255,
-   "nhe_change_bn": -561.535,
+   "nhe_bn": 7727.255,
+   "nhe_change_bn": -548.534,
    "people": {
     "esi": 0.0,
     "medicaid": 0.0,
@@ -3332,21 +3332,21 @@
    },
    "private_flows_removed_bn": {
     "employer_premiums": 1546.847,
-    "household_premiums_and_oop": 1543.62
+    "household_premiums_and_oop": 1538.963
    },
    "single_payer": {
-    "admin_bn": 366.983,
-    "amount_to_be_financed_bn": 2873.902,
-    "baseline_claims_bn": 6182.319,
-    "claims_before_use_bn": 5459.445,
-    "cost_sharing_bn": 172.482,
+    "admin_bn": 376.89,
+    "amount_to_be_financed_bn": 3034.369,
+    "baseline_claims_bn": 6066.173,
+    "claims_before_use_bn": 5356.879,
+    "cost_sharing_bn": 177.139,
     "ltc_bn": 0.0,
-    "new_use_bn": 208.064,
+    "new_use_bn": 467.385,
     "newly_covered_millions": 33.648,
-    "plan_gross_bn": 6116.384,
-    "plan_outlay_bn": 5943.902,
-    "provider_revenue_bn": 5749.401,
-    "rate_multiple_of_medicare": 1.092,
+    "plan_gross_bn": 6281.508,
+    "plan_outlay_bn": 6104.369,
+    "provider_revenue_bn": 5904.618,
+    "rate_multiple_of_medicare": 1.083,
     "state_and_retained_bn": 0.0,
     "use_increase": 0.015
    },
@@ -3438,20 +3438,20 @@
     "components_bn": {
      "Less: state maintenance of effort and retained flows": -306.773,
      "Other subsidies (held fixed)": 69.0,
-     "Single-payer plan outlays, net of cost sharing": 6722.871
+     "Single-payer plan outlays, net of cost sharing": 6926.04
     },
     "delta_components_bn": {
      "Employer-coverage tax exclusion ended": -680.0,
      "Medicaid and CHIP federal funding replaced": -763.0,
      "Medicare subsidies replaced": -1511.0,
      "Premium tax credit and related spending replaced": -116.0,
-     "Single-payer plan outlays, net of cost sharing": 6722.871,
+     "Single-payer plan outlays, net of cost sharing": 6926.04,
      "State maintenance of effort and other retained non-federal flows": -306.773
     },
-    "gross_new_bn": 6722.871,
-    "net_change_bn": 3346.098,
+    "gross_new_bn": 6926.04,
+    "net_change_bn": 3549.268,
     "offsets_bn": 3376.773,
-    "total_subsidies_bn": 6485.098
+    "total_subsidies_bn": 6688.268
    },
    "household": {
     "by_band": [
@@ -3587,8 +3587,8 @@
     "total_bn": 22.252
    },
    "insured_change": 33.648,
-   "nhe_bn": 8320.742,
-   "nhe_change_bn": 44.953,
+   "nhe_bn": 8371.788,
+   "nhe_change_bn": 95.998,
    "people": {
     "esi": 0.0,
     "medicaid": 0.0,
@@ -3609,17 +3609,17 @@
     "household_premiums_and_oop": 1716.102
    },
    "single_payer": {
-    "admin_bn": 336.144,
-    "amount_to_be_financed_bn": 3346.098,
-    "baseline_claims_bn": 6182.319,
-    "claims_before_use_bn": 5770.919,
+    "admin_bn": 346.302,
+    "amount_to_be_financed_bn": 3549.268,
+    "baseline_claims_bn": 6066.173,
+    "claims_before_use_bn": 5703.636,
     "cost_sharing_bn": 0.0,
     "ltc_bn": 200.0,
-    "new_use_bn": 242.681,
+    "new_use_bn": 504.994,
     "newly_covered_millions": 33.648,
-    "plan_gross_bn": 6722.871,
-    "plan_outlay_bn": 6722.871,
-    "provider_revenue_bn": 6386.727,
+    "plan_gross_bn": 6926.04,
+    "plan_outlay_bn": 6926.04,
+    "provider_revenue_bn": 6579.738,
     "rate_multiple_of_medicare": 1.15,
     "state_and_retained_bn": 306.773,
     "use_increase": 0.03
@@ -3983,8 +3983,8 @@
     "total_bn": 1718.128
    },
    "insured_change": 23.194,
-   "nhe_bn": 8286.168,
-   "nhe_change_bn": 10.379,
+   "nhe_bn": 8238.333,
+   "nhe_change_bn": -37.457,
    "people": {
     "esi": 157.795,
     "medicaid": 59.975,
@@ -4398,8 +4398,8 @@
     "total_bn": 1729.67
    },
    "insured_change": 24.194,
-   "nhe_bn": 8267.158,
-   "nhe_change_bn": -8.632,
+   "nhe_bn": 8200.179,
+   "nhe_change_bn": -75.611,
    "people": {
     "esi": 154.311,
     "medicaid": 59.975,
@@ -4848,8 +4848,8 @@
     "total_bn": 1742.233
    },
    "insured_change": 25.833,
-   "nhe_bn": 8230.918,
-   "nhe_change_bn": -44.871,
+   "nhe_bn": 8194.65,
+   "nhe_change_bn": -81.139,
    "people": {
     "esi": 150.916,
     "medicaid": 59.975,
@@ -4903,56 +4903,56 @@
    "year": 2030
   },
   {
-   "federal_bn": 505.913,
-   "nhe_bn": 34.123,
+   "federal_bn": 525.188,
+   "nhe_bn": 18.543,
    "weight_single_payer": 0.1,
    "year": 2031
   },
   {
-   "federal_bn": 870.43,
-   "nhe_bn": 17.293,
+   "federal_bn": 911.064,
+   "nhe_bn": -10.766,
    "weight_single_payer": 0.2,
    "year": 2032
   },
   {
-   "federal_bn": 1250.93,
-   "nhe_bn": 21.871,
+   "federal_bn": 1315.55,
+   "nhe_bn": 2.719,
    "weight_single_payer": 0.3,
    "year": 2033
   },
   {
-   "federal_bn": 1670.118,
-   "nhe_bn": 26.893,
+   "federal_bn": 1761.25,
+   "nhe_bn": 17.692,
    "weight_single_payer": 0.4,
    "year": 2034
   },
   {
-   "federal_bn": 2126.444,
-   "nhe_bn": 16.221,
+   "federal_bn": 2246.54,
+   "nhe_bn": 21.486,
    "weight_single_payer": 0.5,
    "year": 2035
   },
   {
-   "federal_bn": 2627.864,
-   "nhe_bn": 11.136,
+   "federal_bn": 2779.823,
+   "nhe_bn": 31.03,
    "weight_single_payer": 0.6,
    "year": 2036
   },
   {
-   "federal_bn": 3184.403,
-   "nhe_bn": 23.421,
+   "federal_bn": 3371.732,
+   "nhe_bn": 55.747,
    "weight_single_payer": 0.7,
    "year": 2037
   },
   {
-   "federal_bn": 3795.562,
-   "nhe_bn": 37.001,
+   "federal_bn": 4021.779,
+   "nhe_bn": 83.044,
    "weight_single_payer": 0.8,
    "year": 2038
   },
   {
-   "federal_bn": 4465.742,
-   "nhe_bn": 51.979,
+   "federal_bn": 4734.653,
+   "nhe_bn": 113.125,
    "weight_single_payer": 0.9,
    "year": 2039
   }
@@ -4962,13 +4962,13 @@
   "public_option": {
    "central": {
     "fed": 239.429,
-    "nhe": 11.74,
+    "nhe": 15.125,
     "unins": 14.514
    },
    "corners": {
     "all_high": {
      "fed": 333.761,
-     "nhe": 159.266,
+     "nhe": 160.836,
      "unins": 9.794
     },
     "all_low": {
@@ -4978,7 +4978,7 @@
     },
     "cost_max": {
      "fed": 531.34,
-     "nhe": 356.632,
+     "nhe": 355.487,
      "unins": 9.794
     },
     "cost_min": {
@@ -4995,8 +4995,8 @@
      "high_value": 2.0,
      "input": "po_rate_pct_medicare",
      "low_value": 1.2,
-     "nhe_at_high": 69.499,
-     "nhe_at_low": -46.02,
+     "nhe_at_high": 72.251,
+     "nhe_at_low": -42.001,
      "swing": 95.133,
      "unins_at_high": 14.514,
      "unins_at_low": 14.514
@@ -5007,8 +5007,8 @@
      "high_value": 60.0,
      "input": "mcd_financing_restore",
      "low_value": 0.0,
-     "nhe_at_high": 11.74,
-     "nhe_at_low": 11.74,
+     "nhe_at_high": 15.125,
+     "nhe_at_low": 15.125,
      "swing": 60.0,
      "unins_at_high": 14.514,
      "unins_at_low": 14.514
@@ -5019,8 +5019,8 @@
      "high_value": 2.8,
      "input": "hosp_commercial_ratio",
      "low_value": 2.0,
-     "nhe_at_high": -4.277,
-     "nhe_at_low": 54.026,
+     "nhe_at_high": -0.716,
+     "nhe_at_low": 56.948,
      "swing": 46.734,
      "unins_at_high": 14.514,
      "unins_at_low": 14.514
@@ -5031,8 +5031,8 @@
      "high_value": 0.75,
      "input": "po_benchmark_pass",
      "low_value": 0.25,
-     "nhe_at_high": -2.794,
-     "nhe_at_low": 26.273,
+     "nhe_at_high": 0.592,
+     "nhe_at_low": 29.658,
      "swing": 40.877,
      "unins_at_high": 14.514,
      "unins_at_low": 14.514
@@ -5043,8 +5043,8 @@
      "high_value": 0.9,
      "input": "po_autoenroll_takeup",
      "low_value": 0.5,
-     "nhe_at_high": 16.858,
-     "nhe_at_low": 6.621,
+     "nhe_at_high": 20.243,
+     "nhe_at_low": 10.007,
      "swing": 39.83,
      "unins_at_high": 11.918,
      "unins_at_low": 17.11
@@ -5145,91 +5145,91 @@
   },
   "single_payer_cbo_like": {
    "central": {
-    "fed": 3285.773,
-    "nhe": -137.712,
+    "fed": 3438.503,
+    "nhe": -132.673,
     "unins": 3.552
    },
    "corners": {
     "all_high": {
-     "fed": 3428.377,
-     "nhe": -206.84,
+     "fed": 3456.854,
+     "nhe": -209.384,
      "unins": 10.656
     },
     "all_low": {
-     "fed": 2837.15,
-     "nhe": -226.409,
+     "fed": 3143.035,
+     "nhe": -291.944,
      "unins": 0.0
     },
     "cost_max": {
-     "fed": 4654.214,
-     "nhe": 597.901,
+     "fed": 4715.302,
+     "nhe": 589.685,
      "unins": 0.0
     },
     "cost_min": {
-     "fed": 2139.552,
-     "nhe": -562.702,
+     "fed": 2257.794,
+     "nhe": -765.007,
      "unins": 10.656
     }
    },
    "n_ranged_inputs": 85,
    "tornado": [
     {
-     "fed_at_high": 3466.505,
-     "fed_at_low": 3116.697,
+     "fed_at_high": 3619.235,
+     "fed_at_low": 3269.427,
      "high_value": 0.06,
      "input": "nhe_g_phi",
      "low_value": 0.04,
-     "nhe_at_high": -143.154,
-     "nhe_at_low": -132.62,
+     "nhe_at_high": -138.116,
+     "nhe_at_low": -127.581,
      "swing": 349.808,
      "unins_at_high": 3.552,
      "unins_at_low": 3.552
     },
     {
-     "fed_at_high": 3101.339,
-     "fed_at_low": 3408.729,
+     "fed_at_high": 3249.637,
+     "fed_at_low": 3564.414,
      "high_value": 0.06,
      "input": "sp_cs_low_rate",
      "low_value": 0.01,
-     "nhe_at_high": -137.712,
-     "nhe_at_low": -137.712,
-     "swing": 307.39,
+     "nhe_at_high": -132.673,
+     "nhe_at_low": -132.673,
+     "swing": 314.776,
      "unins_at_high": 3.552,
      "unins_at_low": 3.552
     },
     {
-     "fed_at_high": 3442.405,
-     "fed_at_low": 3138.997,
+     "fed_at_high": 3595.136,
+     "fed_at_low": 3291.727,
      "high_value": 0.087,
      "input": "nhe_g_medicare",
      "low_value": 0.067,
-     "nhe_at_high": -131.84,
-     "nhe_at_low": -143.214,
+     "nhe_at_high": -126.801,
+     "nhe_at_low": -138.176,
      "swing": 303.409,
      "unins_at_high": 3.552,
      "unins_at_low": 3.552
     },
     {
-     "fed_at_high": 3368.976,
-     "fed_at_low": 3077.764,
-     "high_value": 0.5,
-     "input": "unins_paid_share",
-     "low_value": 0.2,
-     "nhe_at_high": -52.094,
-     "nhe_at_low": -351.756,
-     "swing": 291.212,
+     "fed_at_high": 3567.3,
+     "fed_at_low": 3309.707,
+     "high_value": 1.0,
+     "input": "new_enrollee_factor",
+     "low_value": 0.6,
+     "nhe_at_high": -0.139,
+     "nhe_at_low": -265.207,
+     "swing": 257.593,
      "unins_at_high": 3.552,
      "unins_at_low": 3.552
     },
     {
-     "fed_at_high": 3417.035,
-     "fed_at_low": 3154.51,
-     "high_value": 1.0,
-     "input": "new_enrollee_factor",
-     "low_value": 0.6,
-     "nhe_at_high": -2.64,
-     "nhe_at_low": -272.783,
-     "swing": 262.525,
+     "fed_at_high": 3547.872,
+     "fed_at_low": 3336.187,
+     "high_value": 0.06,
+     "input": "nhe_g_medicaid",
+     "low_value": 0.04,
+     "nhe_at_high": -128.573,
+     "nhe_at_low": -136.509,
+     "swing": 211.685,
      "unins_at_high": 3.552,
      "unins_at_low": 3.552
     }
@@ -5237,91 +5237,91 @@
   },
   "single_payer_project_central": {
    "central": {
-    "fed": 3346.098,
-    "nhe": 44.953,
+    "fed": 3549.268,
+    "nhe": 95.998,
     "unins": 3.552
    },
    "corners": {
     "all_high": {
-     "fed": 4386.257,
-     "nhe": 934.238,
+     "fed": 4466.527,
+     "nhe": 981.785,
      "unins": 10.656
     },
     "all_low": {
-     "fed": 2858.844,
-     "nhe": -260.769,
+     "fed": 3197.962,
+     "nhe": -295.974,
      "unins": 0.0
     },
     "cost_max": {
-     "fed": 8663.024,
-     "nhe": 4533.415,
+     "fed": 8732.017,
+     "nhe": 4532.525,
      "unins": 0.0
     },
     "cost_min": {
-     "fed": 788.497,
-     "nhe": -1821.439,
+     "fed": 930.258,
+     "nhe": -2007.291,
      "unins": 10.656
     }
    },
    "n_ranged_inputs": 88,
    "tornado": [
     {
-     "fed_at_high": 4704.697,
-     "fed_at_low": 2530.939,
+     "fed_at_high": 4892.871,
+     "fed_at_low": 2743.105,
      "high_value": 1.4,
      "input": "sp_rate_pct_medicare",
      "low_value": 1.0,
-     "nhe_at_high": 1403.551,
-     "nhe_at_low": -770.207,
-     "swing": 2173.758,
+     "nhe_at_high": 1439.602,
+     "nhe_at_low": -710.164,
+     "swing": 2149.766,
      "unins_at_high": 3.552,
      "unins_at_low": 3.552
     },
     {
-     "fed_at_high": 3006.726,
-     "fed_at_low": 3789.893,
+     "fed_at_high": 3209.895,
+     "fed_at_low": 3993.062,
      "high_value": 0.85,
      "input": "medicaid_fee_idx",
      "low_value": 0.6,
-     "nhe_at_high": -294.42,
-     "nhe_at_low": 488.747,
+     "nhe_at_high": -243.374,
+     "nhe_at_low": 539.793,
      "swing": 783.167,
      "unins_at_high": 3.552,
      "unins_at_low": 3.552
     },
     {
-     "fed_at_high": 3162.035,
-     "fed_at_low": 3652.871,
+     "fed_at_high": 3365.204,
+     "fed_at_low": 3856.04,
      "high_value": 0.8,
      "input": "sp_state_moe",
      "low_value": 0.0,
-     "nhe_at_high": 44.953,
-     "nhe_at_low": 44.953,
+     "nhe_at_high": 95.998,
+     "nhe_at_low": 95.998,
      "swing": 490.836,
      "unins_at_high": 3.552,
      "unins_at_low": 3.552
     },
     {
-     "fed_at_high": 3223.159,
-     "fed_at_low": 3670.668,
+     "fed_at_high": 3431.11,
+     "fed_at_low": 3861.213,
      "high_value": 2.8,
      "input": "hosp_commercial_ratio",
      "low_value": 2.0,
-     "nhe_at_high": -77.987,
-     "nhe_at_low": 369.523,
-     "swing": 447.51,
+     "nhe_at_high": -22.159,
+     "nhe_at_low": 407.944,
+     "swing": 430.103,
      "unins_at_high": 3.552,
      "unins_at_low": 3.552
     },
     {
-     "fed_at_high": 3532.192,
-     "fed_at_low": 3171.715,
-     "high_value": 0.087,
-     "input": "nhe_g_medicare",
-     "low_value": 0.067,
-     "nhe_at_high": 75.74,
-     "nhe_at_low": 16.102,
-     "swing": 360.477,
+     "fed_at_high": 3775.117,
+     "fed_at_low": 3406.463,
+     "high_value": 0.08,
+     "input": "sp_admin",
+     "low_value": 0.03,
+     "nhe_at_high": 321.847,
+     "nhe_at_low": -46.807,
+     "swing": 368.654,
      "unins_at_high": 3.552,
      "unins_at_low": 3.552
     }
@@ -5330,28 +5330,28 @@
   "staged": {
    "central": {
     "fed": 251.513,
-    "nhe": 10.379,
+    "nhe": -37.457,
     "unins": 14.006
    },
    "corners": {
     "all_high": {
      "fed": 359.931,
-     "nhe": 166.817,
+     "nhe": 27.948,
      "unins": 9.265
     },
     "all_low": {
      "fed": 188.791,
-     "nhe": -104.923,
+     "nhe": -118.883,
      "unins": 20.933
     },
     "cost_max": {
      "fed": 592.612,
-     "nhe": 397.554,
+     "nhe": 232.118,
      "unins": 9.265
     },
     "cost_min": {
      "fed": 56.206,
-     "nhe": -220.541,
+     "nhe": -232.504,
      "unins": 20.933
     }
    },
@@ -5363,8 +5363,8 @@
      "high_value": 2.0,
      "input": "po_rate_pct_medicare",
      "low_value": 1.2,
-     "nhe_at_high": 62.321,
-     "nhe_at_low": -41.564,
+     "nhe_at_high": 11.031,
+     "nhe_at_low": -85.944,
      "swing": 86.057,
      "unins_at_high": 14.006,
      "unins_at_low": 14.006
@@ -5375,8 +5375,8 @@
      "high_value": 60.0,
      "input": "mcd_financing_restore",
      "low_value": 0.0,
-     "nhe_at_high": 10.379,
-     "nhe_at_low": 10.379,
+     "nhe_at_high": -37.457,
+     "nhe_at_low": -37.457,
      "swing": 60.0,
      "unins_at_high": 14.006,
      "unins_at_low": 14.006
@@ -5387,8 +5387,8 @@
      "high_value": 2.8,
      "input": "hosp_commercial_ratio",
      "low_value": 2.0,
-     "nhe_at_high": -8.507,
-     "nhe_at_low": 60.238,
+     "nhe_at_high": -55.384,
+     "nhe_at_low": 9.874,
      "swing": 54.644,
      "unins_at_high": 14.006,
      "unins_at_low": 14.006
@@ -5399,8 +5399,8 @@
      "high_value": 0.9,
      "input": "po_autoenroll_takeup",
      "low_value": 0.5,
-     "nhe_at_high": 15.504,
-     "nhe_at_low": 5.253,
+     "nhe_at_high": -33.294,
+     "nhe_at_low": -41.619,
      "swing": 38.332,
      "unins_at_high": 11.501,
      "unins_at_low": 16.511
@@ -5411,8 +5411,8 @@
      "high_value": 0.75,
      "input": "po_benchmark_pass",
      "low_value": 0.25,
-     "nhe_at_high": -2.768,
-     "nhe_at_low": 23.525,
+     "nhe_at_high": -50.603,
+     "nhe_at_low": -24.31,
      "swing": 36.977,
      "unins_at_high": 14.006,
      "unins_at_low": 14.006
@@ -5422,28 +5422,28 @@
   "staged_full": {
    "central": {
     "fed": 256.7,
-    "nhe": -8.632,
+    "nhe": -75.611,
     "unins": 13.006
    },
    "corners": {
     "all_high": {
      "fed": 370.077,
-     "nhe": 113.744,
+     "nhe": -116.132,
      "unins": 7.564
     },
     "all_low": {
      "fed": 190.856,
-     "nhe": -111.775,
+     "nhe": -127.666,
      "unins": 20.506
     },
     "cost_max": {
      "fed": 644.797,
-     "nhe": 389.178,
+     "nhe": 190.055,
      "unins": 7.564
     },
     "cost_min": {
      "fed": 57.937,
-     "nhe": -229.259,
+     "nhe": -247.688,
      "unins": 20.506
     }
    },
@@ -5455,8 +5455,8 @@
      "high_value": 2.0,
      "input": "po_rate_pct_medicare",
      "low_value": 1.2,
-     "nhe_at_high": 39.451,
-     "nhe_at_low": -56.715,
+     "nhe_at_high": -31.651,
+     "nhe_at_low": -119.571,
      "swing": 80.037,
      "unins_at_high": 13.006,
      "unins_at_low": 13.006
@@ -5467,8 +5467,8 @@
      "high_value": 2.8,
      "input": "hosp_commercial_ratio",
      "low_value": 2.0,
-     "nhe_at_high": -29.787,
-     "nhe_at_low": 47.219,
+     "nhe_at_high": -95.622,
+     "nhe_at_low": -22.778,
      "swing": 61.034,
      "unins_at_high": 13.006,
      "unins_at_low": 13.006
@@ -5479,8 +5479,8 @@
      "high_value": 60.0,
      "input": "mcd_financing_restore",
      "low_value": 0.0,
-     "nhe_at_high": -8.632,
-     "nhe_at_low": -8.632,
+     "nhe_at_high": -75.611,
+     "nhe_at_low": -75.611,
      "swing": 60.0,
      "unins_at_high": 13.006,
      "unins_at_low": 13.006
@@ -5491,8 +5491,8 @@
      "high_value": 0.9,
      "input": "po_autoenroll_takeup",
      "low_value": 0.5,
-     "nhe_at_high": -3.891,
-     "nhe_at_low": -13.372,
+     "nhe_at_high": -71.825,
+     "nhe_at_low": -79.396,
      "swing": 35.654,
      "unins_at_high": 10.68,
      "unins_at_low": 15.332
@@ -5503,8 +5503,8 @@
      "high_value": 0.75,
      "input": "po_benchmark_pass",
      "low_value": 0.25,
-     "nhe_at_high": -20.859,
-     "nhe_at_low": 3.595,
+     "nhe_at_high": -87.837,
+     "nhe_at_low": -63.384,
      "swing": 34.39,
      "unins_at_high": 13.006,
      "unins_at_low": 13.006
@@ -5514,28 +5514,28 @@
   "staged_full_kids": {
    "central": {
     "fed": 251.019,
-    "nhe": -44.871,
+    "nhe": -81.139,
     "unins": 11.367
    },
    "corners": {
     "all_high": {
      "fed": 344.34,
-     "nhe": 3.706,
+     "nhe": -153.954,
      "unins": 6.293
     },
     "all_low": {
      "fed": 194.206,
-     "nhe": -126.784,
+     "nhe": -130.204,
      "unins": 18.898
     },
     "cost_max": {
      "fed": 649.756,
-     "nhe": 392.717,
+     "nhe": 196.653,
      "unins": 6.293
     },
     "cost_min": {
      "fed": 19.259,
-     "nhe": -364.38,
+     "nhe": -271.227,
      "unins": 18.898
     }
    },
@@ -5547,8 +5547,8 @@
      "high_value": 2.0,
      "input": "po_rate_pct_medicare",
      "low_value": 1.2,
-     "nhe_at_high": 2.443,
-     "nhe_at_low": -92.185,
+     "nhe_at_high": -37.682,
+     "nhe_at_low": -124.596,
      "swing": 78.836,
      "unins_at_high": 11.367,
      "unins_at_low": 11.367
@@ -5559,8 +5559,8 @@
      "high_value": 2.8,
      "input": "hosp_commercial_ratio",
      "low_value": 2.0,
-     "nhe_at_high": -66.851,
-     "nhe_at_low": 13.158,
+     "nhe_at_high": -102.05,
+     "nhe_at_low": -25.933,
      "swing": 63.445,
      "unins_at_high": 11.367,
      "unins_at_low": 11.367
@@ -5571,8 +5571,8 @@
      "high_value": 60.0,
      "input": "mcd_financing_restore",
      "low_value": 0.0,
-     "nhe_at_high": -44.871,
-     "nhe_at_low": -44.871,
+     "nhe_at_high": -81.139,
+     "nhe_at_low": -81.139,
      "swing": 60.0,
      "unins_at_high": 11.367,
      "unins_at_low": 11.367
@@ -5583,8 +5583,8 @@
      "high_value": 0.9,
      "input": "po_autoenroll_takeup",
      "low_value": 0.5,
-     "nhe_at_high": -39.524,
-     "nhe_at_low": -50.218,
+     "nhe_at_high": -77.776,
+     "nhe_at_low": -84.502,
      "swing": 34.028,
      "unins_at_high": 9.334,
      "unins_at_low": 13.4
@@ -5595,8 +5595,8 @@
      "high_value": 0.75,
      "input": "po_benchmark_pass",
      "low_value": 0.25,
-     "nhe_at_high": -56.915,
-     "nhe_at_low": -32.827,
+     "nhe_at_high": -93.183,
+     "nhe_at_low": -69.096,
      "swing": 33.874,
      "unins_at_high": 11.367,
      "unins_at_low": 11.367

@@ -20,11 +20,11 @@ import model as M  # noqa: E402
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
 
 EXPECTED_MISSES = {
-    'BM-1a': 'Both single-payer corners sit above CBO\'s 2020 range after it is grown to 2032 (low corner about $2.9 trillion against $1.7 to $3.3 trillion). '
+    'BM-1a': 'Both single-payer corners sit above CBO\'s 2020 range after it is grown to 2032 (low corner about $3.0 trillion against $1.7 to $3.3 trillion). '
              'The plan carries 79 to 82 percent of national spending, close to the federal share CBO\'s range implies, so the gap is in scale: the model\'s '
              'national spending base is CMS\'s projection ($8.3 trillion in 2032) and the register does not give CBO\'s option specifications or its 2020 baseline.',
     'BM-1b': 'The low corner is about $0.56 trillion below baseline against CBO\'s scaled -$0.78 trillion (just outside 25 percent); the high corner is about '
-             '+$0.6 trillion against +$0.33 trillion because it includes long-term care ($0.2 trillion), the newly covered (about $0.28 trillion) and added use. '
+             '+$0.6 trillion against +$0.33 trillion because it includes long-term care ($0.2 trillion), the newly covered (about $0.5 trillion, paid in full by the plan) and added use. '
              'The register does not say which of CBO\'s five options include long-term care or how much cost sharing each has.',
     'BM-3b': 'The model prices 3.7 million new enrollees, repricing of about 12 million existing enrollees and the end of the 400 percent cliff, about 65 billion in 2032 '
              'against 37.5 billion; CBO\'s $350 billion also nets a premium reduction from a healthier pool and offsets from employer coverage, which the model leaves out.',
@@ -162,6 +162,27 @@ class BoundaryTests(unittest.TestCase):
         for s in ['esi', 'ng_sub', 'ng_unsub', 'medicaid', 'medicare', 'po']:
             self.assertEqual(sum(r['cells'][s]), 0.0)
         self.assertEqual(r['cells']['other'], self.base['cells']['other'])  # held fixed
+
+    def test_single_payer_federal_cost_ignores_how_uninsured_care_was_paid(self):
+        # Codex review of #201: the share of uninsured care paid out of pocket changes national spending only
+        P = {'sp': 1}
+        nets = []
+        for v in (0.2, 0.5):
+            I = dict(self.I, unins_paid_share=v)
+            nets.append(M.run(I, P, M.build_base(I))['federal']['net_change_bn'])
+        self.assertAlmostEqual(nets[0], nets[1], places=6)
+
+    def test_age_window_movers_compare_like_with_like(self):
+        # Codex review of #201: with equal prices and administration, an employer-covered 60-64-year-old who moves
+        # to Medicare changes national spending only by the difference in out-of-pocket spending
+        I = dict(self.I, hosp_commercial_ratio=1.0, phys_commercial_ratio=1.0, admin_medicare=self.I['admin_phi'],
+                 win_unins_m60=0.0, win_ng_m60=0.0)
+        B = M.build_base(I)
+        r = M.run(I, {'m60': 1}, B)
+        moved = sum(r['cells']['medicare_m60'])
+        self.assertGreater(moved, 0)
+        per = r['nhe_change_bn'] * 1000 / moved
+        self.assertAlmostEqual(per, B['oop_pp']['medicare'] - B['oop_pp']['esi'], places=6)
 
     def test_single_payer_identities(self):
         r = M.run(self.I, {'sp': 1, 'sp_cs': 'low', 'sp_ltc': 1}, self.B)
