@@ -109,6 +109,9 @@ class Specs(unittest.TestCase):
             s = S["%s/%s" % (c["owner"], c["component"])]
             for k, sk in (("start", "start"), ("ramp", "ramp"), ("perm", "continues_after_2039")):
                 self.assertEqual(s[sk], P._num(c[k]))
+            # Optional columns: end and fade (blank or absent means none).
+            self.assertEqual(s["expiry_year"], P._num(c["end"]) if c.get("end") else None)
+            self.assertEqual(s["fade"], P._num(c["fade"]) if c.get("fade") else 0.0)
             self.assertEqual((s["indexation"], s["category"]), (c["grow"], c["cat"]))
 
     def test_scores_exactly_the_rows_the_model_scores(self):

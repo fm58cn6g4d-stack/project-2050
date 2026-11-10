@@ -48,4 +48,8 @@ COMPONENTS = {}
 for r in read("fiscal-components.csv"):
     p={"cat":r["cat"], "start":num(r["start"]), "ramp":num(r["ramp"]),
        "grow":r["grow"], "perm":num(r["perm"]), "basis":r["basis"]}
+    # Optional columns: end (last year with any effect; after 2039 it closes a tail) and fade.
+    for k in ("end", "fade"):
+        v = opt(r, k, num)
+        if v is not None: p[k] = v
     COMPONENTS.setdefault(r["owner"],[]).append((r["component"],num(r["mid10"]),p))

@@ -32,4 +32,34 @@ class ComponentTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             fiscal.row_path(self.base,.47,fiscal.PR.BILLS['HOU-1'],'HOU-1')
 
+class BookingShapeTests(unittest.TestCase):
+    """Optional shapes: a ramp that runs past 2039, an end year after 2039 that closes a tail,
+    and fade. Rows without them keep their old paths exactly."""
+    @classmethod
+    def setUpClass(cls):
+        cls.base=fiscal.read_baseline(HERE.parent/'data/fiscal-baseline.csv')
+
+    def test_ramp_past_2039_keeps_rising(self):
+        p=fiscal.row_path(self.base,.01,dict(start=2039,ramp=3,grow='cpi'))
+        self.assertAlmostEqual(sum(p[y] for y in range(2030,2040)),10)
+        self.assertGreater(p[2040],p[2039]*1.9); self.assertGreater(p[2041],p[2040]*1.4)
+        self.assertAlmostEqual(p[2042]/p[2041],p[2043]/p[2042],places=2)
+
+    def test_end_after_2039_closes_a_tail(self):
+        p=fiscal.row_path(self.base,.07,dict(ramp=1,grow='cpi',perm=.2,end=2040))
+        self.assertGreater(p[2040],0); self.assertEqual(p[2041],0); self.assertEqual(p[2056],0)
+
+    def test_end_inside_window_keeps_perm_continuation(self):
+        p=fiscal.row_path(self.base,.01,dict(start=2032,ramp=1,end=2036,perm=.3))
+        self.assertEqual(p[2037],0); self.assertGreater(p[2040],0)
+
+    def test_library_matches_model_for_new_shapes(self):
+        spec=importlib.util.spec_from_file_location('prov',HERE/'budget/provisions.py')
+        P=importlib.util.module_from_spec(spec);spec.loader.exec_module(P)
+        B=P.baseline()
+        for prof in (dict(start=2039,ramp=3,grow='cpi'),dict(ramp=1,grow='cpi',perm=.2,end=2040),
+                     dict(start=2031,ramp=3,grow='gdp',perm=.4,fade=.1)):
+            a=fiscal.row_path(self.base,.02,prof); b=P.profile_path(B,.02,prof)
+            for y in range(2030,2057): self.assertEqual(a[y],b[y],(prof,y))
+
 if __name__=='__main__':unittest.main()

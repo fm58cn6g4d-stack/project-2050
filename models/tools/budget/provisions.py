@@ -361,7 +361,12 @@ def profile_path(B, mid10, prof):
             gg = growth_index(B, "gdp")
             out[y] = out[W1] * gg[y] / gg[W1] * (1 - SS_FADE) ** (y - W1)
         else:
-            out[y] = perm * scale * (g[y] / g[W0]) * (1 - fade) ** (y - W1)
+            # As fiscal-model.py: a ramp running past 2039 keeps rising; an end year after 2039
+            # closes a tail. Rows fully phased in by 2040 with no such end get ph = 1.0 exactly.
+            ph = 0.0 if y < start else min(1.0, (y - start + 1) / ramp)
+            if end and end > W1 and y > end:
+                ph = 0.0
+            out[y] = perm * scale * ph * (g[y] / g[W0]) * (1 - fade) ** (y - W1)
     return out
 
 
