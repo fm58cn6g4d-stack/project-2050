@@ -4876,7 +4876,7 @@
  "run_log": {
   "as_of": "2026-11-10",
   "evidence_register": "dossiers/care/evidence.json (EV-CAR-020 to 061, 120-121, 131, 135, 206-209, 217-229, 236-237, 243, 263)",
-  "inputs_csv_sha256": "f2cd9186f81f",
+  "inputs_csv_sha256": "02448551c022",
   "model_version": "0.1.0",
   "scenarios_csv_sha256": "92cf583c7b79"
  },

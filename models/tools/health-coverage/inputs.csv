@@ -174,4 +174,4 @@ sp_ltc_added,200,100,400,"$ billion, 2032",assumption,project judgment; evidence
 sp_cs_low_rate,0.03,0.01,0.06,share of claims,assumption,project judgment,Cost sharing paid by patients under the low cost sharing design
 sp_state_moe,0.5,0.0,0.8,share,assumption,project judgment (maintenance of effort); register has no state financing design,Share of baseline state and local Medicaid spending that states keep paying into the plan
 sp_retained_other,0,0,100,$ billion,assumption,project judgment,Other retained non-federal flows (for example local government contributions)
-sp_residual_unins,0.01,0.0,0.03,share of population,assumption,project judgment; EV-CAR-217 context (Urban: 10.8M undocumented left out in the lite design),People who remain uninsured under single payer (residual)
+sp_residual_unins,0.01,0.0,0.03,share of population,assumption,project judgment under shared rule 3 (immigrant eligibility; owner: the immigration flagship); no register source yet,People who remain uninsured under single payer: not yet enrolled or not covered because of immigration status (0 = every resident covered)
