@@ -16795,5 +16795,512 @@
   "grade": "A",
   "fact_date": "2026-07-11",
   "context": "Enacted text. 'None appropriated' follows from section 1202 (EV-HOU-201)."
+ },
+ {
+  "id": "EV-HOU-760",
+  "statement": "Section 504 of the Housing Act of 1949 lets USDA make a repair loan, grant or both to an eligible very low-income applicant, leaves the maximum amounts to the Secretary, and sets no age limit.",
+  "source": "SRC-2300",
+  "anchor": [
+   "The Secretary may make a loan, grant, or combined loan and grant to an eligible very low-income applicant in order to improve or modernize a rural dwelling, to make the dwelling safer or more sanitary, or to remove hazards.",
+   "The maximum amount of a grant, a loan, or a loan and grant shall not exceed such limitations as the Secretary determines to be appropriate.",
+   "(July 15, 1949, ch. 338, title V, \u00a7504"
+  ],
+  "locator": "42 U.S.C. 1474(a)",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Statute text, 2024 edition. 'No age limit' is this dossier's reading of the whole subsection: the age-62 rule for grants is in USDA's regulation, 7 CFR 3550.103(b) (EV-HOU-761). The ROAD to Housing Act later opened loans to low-income applicants (EV-HOU-762).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-761",
+  "statement": "USDA's own regulation, not the statute, limits Section 504 grants to applicants 62 or older; it also requires applicants to be unable to get help elsewhere, makes older families first use net assets above $20,000 and younger ones above $15,000, and makes grants repayable if the home is sold within 3 years.",
+  "source": "SRC-1912",
+  "anchor": [
+   "( b ) Age (grant only). To be eligible for grant assistance, an applicant must be 62 years of age or older at the time of application.",
+   "Applicants must be unable to obtain financial assistance at reasonable terms and conditions from non-RHS credit or grant sources and lack the personal resources to meet their needs. Elderly families must use any net family assets in excess of $20,000 to reduce their section 504 request. Non-elderly families must use any net family assets in excess of $15,000 to reduce their section 504 request.",
+   "Grant recipients are required to sign a repayment agreement which specifies that the full amount of the grant must be repaid if the property is sold in less than 3 years from the date the grant agreement was signed."
+  ],
+  "locator": "7 CFR 3550.103(b) and (e); 3550.114",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Regulation text as retrieved November 9, 2026. Read with the statute (EV-HOU-760): the age rule can be changed by rule.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-762",
+  "statement": "The ROAD to Housing Act lets USDA make Section 504 repair loans to low-income applicants, not only very low-income ones, and raises from $7,500 to $15,000 the size of loan that needs only a promissory note rather than a lien.",
+  "source": "SRC-0438",
+  "anchor": "Section 504(a) of the\nHousing Act of 1949 (42 U.S.C. 1474(a)) is amended--\n(1) in the first sentence, by inserting ``and may make a\nloan to an eligible low-income applicant'' after ``applicant'';\nand\n(2) by striking ``$7,500'' and inserting ``$15,000''.",
+  "locator": "Section 502(g)",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted text. The $7,500 in section 504(a) is the loan size below which a promissory note suffices (EV-HOU-760's source); grants were not opened to low-income owners.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-763",
+  "statement": "The ROAD to Housing Act says USDA should decide Section 502 and 504 applications within 90 days and must report each year on how long its decisions take, until it meets the 90 days for 5 years.",
+  "source": "SRC-0438",
+  "anchor": [
+   "It is the sense of Congress, not\nlater than 90 days after the date on which the Secretary of\nAgriculture receives an application for a loan, grant, or\ncombined loan and grant under section 502 or 504 of the Housing\nAct of 1949",
+   "detailing the timeliness of eligibility\ndeterminations and final determinations with\nrespect to applications under sections 502 and 504",
+   "during the preceding 5-year period"
+  ],
+  "locator": "Section 502(s)",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted text; a sense of Congress, not a binding deadline.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-764",
+  "statement": "The ROAD to Housing Act lets USDA refinance or modify any Section 502 loan, including existing loans, to a total term of up to 40 years.",
+  "source": "SRC-0438",
+  "anchor": [
+   "The Secretary may refinance or\nmodify the period of any loan, including any refinanced loan,\nmade under this section in accordance with terms and conditions\nas the Secretary shall prescribe, but in no event shall the\ntotal term of the loan from the date of the refinance or\nmodification exceed 40 years.",
+   "under section 502 of the Housing Act of 1949 (42 U.S.C. 1472)"
+  ],
+  "locator": "Section 502(o)",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2026-07-11",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted text. A servicing tool for delinquent direct borrowers (EV-HOU-701).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-765",
+  "statement": "The Housing Act of 1949 requires applicants for USDA's direct rural housing help to show they lack the resources to provide the housing themselves and cannot get credit elsewhere on terms they could reasonably meet.",
+  "source": "SRC-2300",
+  "anchor": [
+   "(2) that he is without sufficient resources to provide the necessary housing and buildings on his own account; and (3) that he is unable to secure the credit necessary for such housing and buildings from other sources upon terms and conditions which he could reasonably be expected to fulfill.",
+   "(July 15, 1949, ch. 338, title V, \u00a7501"
+  ],
+  "locator": "42 U.S.C. 1471(c)",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Statute text, 2024 edition. This is the 'credit elsewhere' test for Section 502 Direct and 504.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-766",
+  "statement": "For USDA's rural housing programs, low income and very low income mean the limits set under the United States Housing Act of 1937 (80% of area median income for low income), and USDA's guaranteed home loans go to borrowers up to 115 percent of area median income.",
+  "source": "SRC-2300",
+  "anchor": [
+   "the terms \"low income families or persons\" and \"very low-income families or persons\" means those families and persons whose incomes do not exceed the respective levels established for lower income families and very low-income families under the United States Housing Act of 1937",
+   "Loans guaranteed pursuant to this subsection shall be made only to borrowers who are low or moderate income families or persons, whose incomes do not exceed 115 percent of the median income of the area, as determined by the Secretary.",
+   "persons of low income as those whose incomes do not exceed 80 per centum of the area median income"
+  ],
+  "locator": "42 U.S.C. 1471(b)(4); 1472(h)(2)",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Statute text. The 80% and 50% figures are the 1937 Act's standard limits; HUD adjusts them by area.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-767",
+  "statement": "The Housing Act defines a rural area for USDA housing as a place of up to 2,500 people; up to 10,000 if rural in character; or up to 20,000 outside a metropolitan area with a serious lack of mortgage credit; places that lost eligibility after the 1990 to 2020 censuses keep it up to 35,000 until data from the 2030 census arrive.",
+  "source": "SRC-2300",
+  "anchor": [
+   "(1) has a population not in excess of 2,500 inhabitants, or (2) has a population in excess of 2,500 but not in excess of 10,000 if it is rural in character, or (3) has a population in excess of 10,000 but not in excess of 20,000, and (A) is not contained within a standard metropolitan statistical area, and (B) has a serious lack of mortgage credit for lower and moderate-income families",
+   "determined not to be \"rural\" or a \"rural area\" as a result of data received from or after the 1990, 2000, 2010, or 2020 decennial census",
+   "shall continue to be so classified until the receipt of data from the decennial census in the year 2030, if such area has a population in excess of 10,000 but not in excess of 35,000",
+   "\u00a71490. \"Rural\" and \"rural area\" defined"
+  ],
+  "locator": "42 U.S.C. 1490 (Housing Act of 1949, section 520)",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Statute text. Congress has renewed the grandfather clause after each census (amendment notes in the same source).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-768",
+  "statement": "Section 533 housing preservation grants go to nonprofits, tribes, local governments, counties and states to repair or replace rural homes owned by low- and very low-income people, and rental or cooperative housing serving them.",
+  "source": "SRC-2300",
+  "anchor": [
+   "The purpose of this section is to authorize the Secretary to make grants to eligible grantees including private nonprofit organizations, Indian tribes, general units of local government, counties, States, and consortia of other eligible grantees, in order to\u2014",
+   "(1) rehabilitate or replace single family housing in rural areas which is owned by low- and very low-income persons and families, and",
+   "\u00a71490m. Housing preservation grants",
+   "title V, \u00a7533, as added"
+  ],
+  "locator": "42 U.S.C. 1490m(a) (Housing Act of 1949, section 533)",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Statute text. Section 533 has no age limit; it already reaches owners up to 80% of area median income through local intermediaries.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-769",
+  "statement": "USDA farm labor housing serves people who earn a substantial part of their income from farm work, including retired or disabled former farmworkers, and limits occupants to citizens, permanent residents and people legally admitted and authorized to work in agriculture.",
+  "source": "SRC-2300",
+  "anchor": [
+   "the term \"domestic farm labor\" means any person (and the family of such person) who receives a substantial portion of his or her income from primary production of agricultural or aquacultural commodities",
+   "(B) such term includes any person (and the family of such person) who is retired or disabled, but who was domestic farm labor at the time of retirement or becoming disabled; and",
+   "(A) such person shall be a citizen of the United States, or a person legally admitted for permanent residence, or a person legally admitted to the United States and authorized to work in agriculture;"
+  ],
+  "locator": "42 U.S.C. 1484(b)(3)",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Statute text. Section 516 grants use the same definition (42 U.S.C. 1486).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-770",
+  "statement": "Section 523 pays nonprofits, agencies and tribes to give technical help and supervision to low-income families who build their own rural homes, providing substantially all of their own labor.",
+  "source": "SRC-2300",
+  "anchor": [
+   "to make grants to, or contract with, public or private nonprofit corporations, agencies, institutions, organizations, Indian tribes, and other associations approved by him, to pay part or all of the costs of developing, conducting, administering, or coordinating effective and comprehensive programs of technical and supervisory assistance which will aid needy low-income individuals and their families in carrying out mutual or self-help housing efforts",
+   "by providing substantially all of their own labor",
+   "\u00a71490c. Mutual and self-help housing",
+   "title V, \u00a7523, as added"
+  ],
+  "locator": "42 U.S.C. 1490c(b) (Housing Act of 1949, section 523)",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Statute text.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-771",
+  "statement": "In FY2025 USDA obligated $752.8 million for 2,756 direct single-family loans, and 41,012 guaranteed loans worth $8.4 billion.",
+  "source": "SRC-2131",
+  "anchor": [
+   "Total Obligations: RHS obligated $752.8 million and supported 2,756 SFH Direct Loans.",
+   "loans combined: 41,012 loans with total program level obligations of $8.4 billion"
+  ],
+  "locator": "Single Family Housing program summaries, FY2025 results",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "USDA budget justification for FY2027 (second Trump administration). Counts of loans are used as records.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-772",
+  "statement": "USDA's latest budget request says Section 504 repair grants serve very low-income homeowners 62 or older who cannot afford a loan, that RHS obligated nearly $26 million of them in 2025, and asks to raise the unsecured grant limit from $7,500 to $15,000 because the old limit discourages small repairs.",
+  "source": "SRC-2131",
+  "anchor": [
+   "repair grants assist very low-income elderly\nrural homeowners, aged 62 or older, needing critical home repairs. Recipients are unable to\nafford a loan and have no other means or access to funding.",
+   "In 2025, RHS obligated nearly $26 million, as a demonstration of\nthe need and popularity of the Section 504 grant program.",
+   "The seventh change (lines 41 to 43 of paragraph 2) add language that adjusts the $7,500 nonsecured cap for section 504 grants to $15,000.",
+   "The $7,500 limit has become\noutdated, and discourages small repairs"
+  ],
+  "locator": "Very Low-Income Housing Repair Grants; appropriations language changes",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "USDA budget justification for FY2027 (second Trump administration). The proposal points toward fewer liens.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-773",
+  "statement": "In 2025 USDA obligated about $1.64 billion of rural rental assistance for 212,630 units; the average income of households receiving it in Section 515 homes was $14,342, and in farm labor housing $23,199.",
+  "source": "SRC-2131",
+  "anchor": [
+   "MFH obligated approximately $1.64 billion in RA. This program provided assistance for 212,630 units.",
+   "average income of households receiving RA was $14,342 in the Section 515 portfolio and the Farm",
+   "Labor Housing income for RA is $23,199."
+  ],
+  "locator": "Rental Assistance Program, FY2025",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "USDA budget justification for FY2027 (second Trump administration).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-774",
+  "statement": "USDA projects Section 515 preservation needs above $30 billion between December 2025 and 2050, about $1.2 billion a year; in 2025 it obligated just under $8.0 million to preserve three projects with 134 units.",
+  "source": "SRC-2131",
+  "anchor": [
+   "projected preservation demand of the\nportfolio exceeding $30 billion between December 2025 and 2050 ($1.2 billion per year).",
+   "In 2025, RD obligated just under $8.0 million to preserve three projects totaling 134 units in the\nSection 515 Rural Rental Housing Direct Loan program."
+  ],
+  "locator": "Multifamily Housing preservation, FY2025",
+  "claim": "analysis",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "USDA budget justification for FY2027 (second Trump administration). The $30 billion is the agency's projection, an analysis; no independent estimate is in the register. The obligations are records.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-783",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-HOU-775",
+  "statement": "USDA reports that in 2025, 547 Section 515 units, 60 percent of the 911 units eligible to leave, stayed in the program, and that 32 borrowers with 364 units paid off their mortgages and left.",
+  "source": "SRC-2131",
+  "anchor": [
+   "As of September 20, 2025, 32 borrowers, totaling 364 units,\npaid their mortgage in full and exited the Section 515 program",
+   "In 2025, 547 units, 60 percent of the total 911 units"
+  ],
+  "locator": "Rental Assistance decoupling and maturing mortgages, FY2025",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "USDA budget justification for FY2027 (second Trump administration).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-776",
+  "statement": "USDA's latest request of $983.2 million for direct single-family loans would finance about 5,355 units, including purchases, rehabilitation and refinancing; 2025's self-help grants totaled $22.8 million for 29 nonprofit grants, and $32.7 million of farm labor housing went to 11 states.",
+  "source": "SRC-2131",
+  "anchor": [
+   "The 2027 requested funding of $983.2 million will provide direct financing for an estimated 5,355\nunits, including home purchases, rehabilitation, and refinancing of existing RHS loans.",
+   "2025 program obligations totaling $22.8\nmillion for 29 grants provided to non-profit organizations in rural America.",
+   "In 2025, $32.7 million was invested across 11 states."
+  ],
+  "locator": "Section 502 Direct; Section 523; Farm Labor Housing",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "USDA budget justification for FY2027 (second Trump administration).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-777",
+  "statement": "USDA's latest budget notes say Rural Development is at historically low staffing for its loan and grant portfolio, put its staff at 4,455 full-time equivalents in FY2025 and 3,058 in FY2026, and plan to keep the reduced staffing of 2026 while ending some origination.",
+  "source": "SRC-2130",
+  "anchor": [
+   "RD is at historically low staffing\nlevels compared to its loan and\ngrant portfolio, which is likely to\ngrow.",
+   "Total Adjusted Appropriation ........ 844,864 4,411\n920,067 4,455 780,965 3,058",
+   "while maintaining the\nreduced staffing levels realized in 2026.",
+   "Some RD\nloan and grant origination activities will be terminated."
+  ],
+  "locator": "Salaries and expenses: summary of performance; appropriations table (staff years); account narrative",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "USDA budget justification for FY2027 (second Trump administration). The staff-year columns are FY2024 to FY2026 (R1, section 1.1).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-778",
+  "statement": "CRS: Rural Development's state offices accept and process applications for direct loans and grants, and USDA's direct home loans peaked at nearly 133,000 in FY1976.",
+  "source": "SRC-1898",
+  "anchor": [
+   "These state offices administer the federal assistance programs, including accepting and\nprocessing applications for direct loans and grants.",
+   "peaked in FY1976, at nearly 133,000"
+  ],
+  "locator": "Structure; Issues: should RHS programs move to HUD; Section 502 trends",
+  "claim": "data",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "CRS report; facts about the agency's structure and the program's history.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-779",
+  "statement": "House members wrote that USDA's February 10, 2026 handbook revisions cut the Section 502 direct loan limit from 80 percent to 60 percent of FHA area limits, added state director reviews, sharply cut packaging fees for nonprofit intermediaries and excluded SNAP benefits from repayment calculations.",
+  "source": "SRC-2123",
+  "anchor": [
+   "reduction in the maximum loan limit from 80 percent to 60 percent of Federal Housing\nAdministration (FHA) Section 203(b) area limits, new state director review requirements that\nadd additional layers of approval, a sharp reduction in packaging fees relied upon by nonprofit\nintermediaries",
+   "the February 10 handbook revisions",
+   "Section 502 Direct Loan Program handbook",
+   "Supplemental Nutrition Assistance Program (SNAP) benefits from repayment calculations"
+  ],
+  "locator": "Letter, page 1",
+  "claim": "data",
+  "grade": "B",
+  "fact_date": "2026-05-15",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Letter from Members of Congress (Democrats and others named in the catalog), May 15, 2026; it describes USDA's rule changes, which USDA's own bulletin confirms (SRC-2169).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-780",
+  "statement": "House members wrote in 2026 that about $232 million of FY2026 Section 502 direct loan money could expire after USDA obligated only part of about $1 billion Congress provided.",
+  "source": "SRC-2124",
+  "anchor": [
+   "approximately $232 million in Fiscal Year 2026 (FY26)\nSection 502 Direct Loan funding could expire by the end of today",
+   "obligated only a portion of the approximately $1 billion Congress provided"
+  ],
+  "locator": "Letter, page 1",
+  "claim": "data",
+  "grade": "B",
+  "fact_date": "2026-09-30",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Letter from Members of Congress; 'could expire' is their estimate on the last day of the year. USDA reported $571 million lent (EV-HOU-700).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-781",
+  "statement": "The FY2026 Agriculture appropriation provides $1,000,000,000 for Section 502 direct loans, $25,000,000,000 for Section 502 guaranteed loans and $1,715,000,000 for rural rental assistance, and lets USDA keep paying rental assistance after a mortgage ends for up to 5,000 units.",
+  "source": "SRC-2126",
+  "anchor": [
+   "$1,000,000,000 shall be for section 502 direct loans",
+   "$25,000,000,000 shall be for section 502",
+   "Act of 1949, $1,715,000,000, and in addition such sums as may be",
+   "agreements for a maximum of 5,000 units where the Secretary determines"
+  ],
+  "locator": "Division A, title III, Rural Housing Insurance Fund Program Account and Rental Assistance Program",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "Enacted text (P.L. 119-37); the continuing resolution carries it into FY2027 (EV-HOU-756).",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-782",
+  "statement": "USDA's Inspector General reports that LoanServ, the system that records and services Rural Development's single-family housing loans, is a commercial mainframe product.",
+  "source": "SRC-2146",
+  "anchor": "LoanServ is a commercial mainframe product. It records and manages obligations,\ndisbursements, collections, and servicing for Rural Development SFH programs",
+  "locator": "Information systems, LoanServ",
+  "claim": "data",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "USDA Inspector General audit of FY2025 financial statements.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ]
+ },
+ {
+  "id": "EV-HOU-783",
+  "statement": "GAO found that between 2028 and 2050 over 90 percent of USDA's rural rental properties and units could leave the program, about 13,000 properties with 407,000 units, and that about 60 percent of properties with maturing mortgages left in 2014 through 2017.",
+  "source": "SRC-2148",
+  "anchor": [
+   "between 2028 and 2050, over 90 percent of RHS's properties and units could exit the program (about 13,000 properties with 407,000 units)",
+   "about 60 percent of properties with maturing mortgages exited the program between 2014 through 2017"
+  ],
+  "locator": "What GAO Found (report summary page)",
+  "claim": "analysis",
+  "grade": "A",
+  "fact_date": "2018-05-17",
+  "checked": "2026-11-10",
+  "recheck": "2027-11-10",
+  "context": "GAO, May 2018. The exit dates are estimates from RHS's preservation tool, which GAO found lacked data controls; an analysis. Read through a fetch tool, since gao.gov blocks agent downloads; the reviewer should check the quotation against the original.",
+  "figures": [],
+  "supports": [
+   "dossiers/home/memos/13-rural.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-HOU-774",
+    "stance": "supports"
+   }
+  ]
  }
 ]
