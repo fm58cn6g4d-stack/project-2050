@@ -1,6 +1,6 @@
 # Memo 2: The transition
 
-Role: decision memo for Espen, fork 2 of the health design (`../3-design.md`). Status: for Espen's decision. Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`); "the coverage model" is this project's exploratory analysis (`models/tools/health-coverage/results.md`).
+Role: decision memo for Espen, fork 2 of the health design (`../3-design.md`). Status: partly decided by Espen, November 10, 2026 (`DEC-2026-11-10-09`): **by payer with children in the first wave, and yes to all five protections**. When employer groups move (wave 3, last) is **reopened**: Espen is not yet convinced that employer plans should move last and asked for the claims behind it to be defended further or the position changed (`research-s1506-comparison.md`, to follow). Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`); "the coverage model" is this project's exploratory analysis (`models/tools/health-coverage/results.md`).
 
 **This memo decides how people, workers and providers get from today's system to the one memo 1 chooses.** Its first part (the order) matters for memo 1's options B and C. Its second part (the protections) applies to every option, including A.
 

@@ -1,6 +1,6 @@
 # Memo 5: What the public plan pays hospitals, doctors and drug makers
 
-Role: decision memo for Espen, fork 5 of the health design (`../3-design.md`). Status: for Espen's decision. Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`); "the coverage model" is this project's exploratory analysis (`models/tools/health-coverage/results.md`).
+Role: decision memo for Espen, fork 5 of the health design (`../3-design.md`). Status: decided by Espen, November 10, 2026 (`DEC-2026-11-10-09`): **B, a glide path to about 1.15 times Medicare with global budgets for rural and safety-net hospitals, plus the Medicare Advantage fix at MedPAC's lower estimate**. Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`); "the coverage model" is this project's exploratory analysis (`models/tools/health-coverage/results.md`).
 
 **This memo decides the payment rates of the public plan (memo 1's A), of each stage (B), or of the single plan (C), and how fast they move.** It also covers Medicare Advantage while it exists. It is the most consequential number in the design: in the coverage model, moving the single plan's rate from 1.0 to 1.4 times Medicare moves the federal cost from about $2.7 trillion to $4.9 trillion a year in 2032.
 

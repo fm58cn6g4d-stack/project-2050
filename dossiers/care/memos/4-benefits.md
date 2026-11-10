@@ -1,6 +1,6 @@
 # Memo 4: What the coverage covers, and what people pay at the point of care
 
-Role: decision memo for Espen, fork 4 of the health design (`../3-design.md`). Status: for Espen's decision. Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`); "the coverage model" is this project's exploratory analysis (`models/tools/health-coverage/results.md`).
+Role: decision memo for Espen, fork 4 of the health design (`../3-design.md`). Status: decided by Espen, November 10, 2026 (`DEC-2026-11-10-09`): **C, comprehensive benefits with small capped copays above 200% of poverty; long-term care decided in part B**. Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`); "the coverage model" is this project's exploratory analysis (`models/tools/health-coverage/results.md`).
 
 **This memo decides the benefit the new system guarantees and its cost sharing.** It applies to the single plan under memo 1's B or C, to each stage of B, and to Medicare under every option. Long-term care at home is decided in part B of this dossier (care at home for all ages), so it is a switch here, not a choice.
 
