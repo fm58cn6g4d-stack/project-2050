@@ -36,8 +36,9 @@ Sections 4-9 are written once per dossier where the parts can share them, or per
 ## Files
 
 - `1-problem.md`, `2-what-works.md` (health, sections 1-2).
-- `evidence.json`: EV-CAR-001 to 050 (the 2029 baseline), 100 to 141 (the problem), 200 to 268 (what works). Sources SRC-3000 to 3399 are reserved for care.
+- `evidence.json`: EV-CAR-001 to 050 (the 2029 baseline), 100 to 141 (the problem), 200 to 268 (what works), 270 to 314 (the S. 1506 comparison). Sources SRC-3000 to 3399 are reserved for care.
 - `3-design.md` and `memos/1-architecture.md` to `5-provider-payment.md` (health, section 3).
+- `research-s1506-comparison.md` (stage D, step 3c): the design against the Medicare for All Act of 2025 (S. 1506, H.R. 3069), the employer wave re-examined, memo 3 confirmed; its arithmetic in `tools/employer_wave.py`. Evidence EV-CAR-270 to 314 (block 270-329 reserved for this note); sources SRC-3260 to 3280.
 
 ## Shared rules care is likely to own or touch
 
