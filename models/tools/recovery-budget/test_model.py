@@ -17,6 +17,13 @@ class BudgetTests(unittest.TestCase):
         self.assertAlmostEqual(sum(r['revenue_change_bn'] for r in c['audit'] if r['line']=='IRS yield allowance with smaller capacity budget' and r['year'] in M.W),-250)
         self.assertEqual(M.ADOPTION['spending']['cap_sustained_tn'],.3)
 
+    def test_added_allocation_profile_defaults_and_override(self):
+        self.assertEqual(M.extra_profile({},'housing_extra'),dict(ramp=4,grow='gdp'))
+        prof=M.extra_profile({'housing_extra_profile':dict(start=2036,ramp=3)},'housing_extra')
+        self.assertEqual(prof,dict(start=2036,ramp=3,grow='gdp'))
+        p=self.f.row_path(self.b,.1,prof)
+        self.assertEqual(p[2035],0); self.assertAlmostEqual(sum(p[y] for y in M.W),100)
+
     def test_administration_costs_and_fund_routing(self):
         c=self.d['cases']['mixed']
         for r in c['leave']['rows']:

@@ -19,6 +19,12 @@ def module(name,path):
     return m
 
 def phase(y,start,n): return min(1,max(0,(y-start+1)/n))
+def extra_profile(spending,key):
+    """Year profile for an added allocation: a four-year GDP-grown ramp from 2030 unless the
+    spending block gives '<key>_profile' (any of start, ramp, grow, perm, end, fade)."""
+    prof=dict(ramp=4,grow='gdp')
+    prof.update(spending.get(key+'_profile',{}))
+    return prof
 def geometric(points,y):
     if y in points: return points[y]
     lo=max(k for k in points if k<y); hi=min(k for k in points if k>y)
@@ -192,7 +198,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
             p=f.row_path(b,amt,prof,rid)
             for y in Y: losses[y]+=p[y]
         for y in range(2040,2057): losses[y]+=-old['G11']['gf'][str(y)]*st['g11_post2039_loss_fraction']
-    extras={k:f.row_path(b,s[k+'_tn'],dict(ramp=4,grow='gdp')) for k in ('housing_extra','participation','delivery_contingency')}
+    extras={k:f.row_path(b,s[k+'_tn'],extra_profile(s,k)) for k in ('housing_extra','participation','delivery_contingency')}
     housing_admin=f.row_path(b,s['housing_base_admin_tn'],dict(ramp=4,grow='cpi',perm=1))
     development=f.row_path(b,s['development_program_tn'],dict(ramp=3,grow='cpi',perm=1))
     irs_risk=f.row_path(b,s['irs_receipt_risk_tn'],f.PR.REVENUE['G8'],'G8')
@@ -342,7 +348,7 @@ def household_diagnostic(d,f,b,m,u):
             add(y,-high,'surtax'); add(y,-broad,'broad_income')
             # Same fiscal profiles as modeled new offers; AI cut reduces actual benefits.
             for k,key in [('housing_extra','housing'),('participation','workers_ai')]:
-                add(y,f.row_path(b,A['spending'][k+'_tn'],dict(ramp=4,grow='gdp'))[y],key)
+                add(y,f.row_path(b,A['spending'][k+'_tn'],extra_profile(A['spending'],k))[y],key)
             add(y,f.row_path(b,A['spending']['ai_transition_tn'],f.PR.BILLS['AI-4'],'AI-4')[y],'workers_ai')
         output[case]={y:{g:round(v) for g,v in r.items()} for y,r in result.items()}
     return dict(per_household_annual_dollars=output,

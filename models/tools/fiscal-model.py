@@ -104,7 +104,11 @@ def row_path(B, mid10, prof, rid=None):
                 gg = growth_index(B, "gdp")
                 out[y] = out[W1] * gg[y] / gg[W1] * (1 - 0.015) ** (y - W1)
             else:
-                out[y] = perm * scale * (g[y] / g[W0]) * (1 - fade) ** (y - W1)
+                # A ramp still running in 2039 keeps rising, and an end year after 2039 closes
+                # a tail; every row fully phased in by 2040 with no such end gets ph = 1.0 exactly.
+                ph = 0.0 if y < start else min(1.0, (y - start + 1) / ramp)
+                if end and end > W1 and y > end: ph = 0.0
+                out[y] = perm * scale * ph * (g[y] / g[W0]) * (1 - fade) ** (y - W1)
     return out
 
 
