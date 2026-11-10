@@ -59,7 +59,7 @@ Items section 4 keeps that the year-by-year table does not include. Firm items (
 | --- | --- | --- | --- | --- |
 | Medicare Advantage fix | HLT-6.01 | **about −$0.55 trillion** (−51 / −110 / −119 / −128 / −138 billion, FY2030-34) | MedPAC's 14%, $76 billion in 2026 [EV-CAR-135], grown at Medicare's projected 7.7% a year [EV-CAR-056]; half in 2030; Advantage ends in 2035, and the plan's cost already prices Advantage enrollees at traditional Medicare's rates | Firm (a saving) |
 | Medicare upgrades for today's enrollees, FY2031-34 | HLT-2.01 | about $0.30 trillion (range $0.25-0.35 trillion) | The legacy HLT-2 profile as booked (29 / 61 / 97 / 112 billion in its first four years), moved to start in 2031 (`legacy/domains/domain-health.md`, HLT-2: $0.90-1.24 trillion over a full decade); grade D, legacy estimate | Firm |
-| No disability waiting period, FY2031-34 | HLT-2.03 | about $0.08 trillion (range $0.04-0.12 trillion) | Working assumption of $10-30 billion a year: Mathematica put the full cost at about $14 billion a year in 2006, about 3% of Medicare spending (Mathematica, 2009) [EV-CAR-344], a single source; many people in the wait are uninsured or in the individual market and join the plan in wave 1 anyway | Firm |
+| No disability waiting period, FY2031-34 | HLT-2.03 | about $0.10 trillion (range $0.06-0.18 trillion) | Working assumption of $15-45 billion a year (central $25 billion). Mathematica put the full cost at about $14 billion a year in 2006, about 3% of Medicare spending (Mathematica, 2009) [EV-CAR-344], a single source; 3% of Medicare's spending in FY2031 would be about $55-60 billion. People in the wait who are uninsured or in the individual market are already in the plan from wave 1, which lowers it, but how many are is unknown: no current count of people in the wait exists (KFF, 2024) [EV-CAR-343] | Firm |
 | Worker help, FY2033-38 | HLT-7.16 | about $0.06 trillion (range $0.03-0.15 trillion) | Working assumption, widened from memo 2's $5-15 billion a year. Up to 1.8 million gross insurance and billing jobs (EPI, 2020) [EV-CAR-232], about 602,000 at insurers (BLS, 2026) [EV-CAR-233]; trade adjustment's training averaged $15,087 per completer (CRS, 2022) [EV-CAR-346], and its evaluation found weak earnings gains (Mathematica for the Labor Department, 2012) [EV-CAR-347], a single source. S. 1506 would spend at least 1% of its national budget, about $69 billion a year on the plan's scale [EV-CAR-282] | Firm |
 | Hospital transition fund, FY2033-38 | HLT-7.15 | $0 or about $0.10 trillion (range $0.05-0.15 trillion) | Working figure; illustrated 10 / 20 / 25 / 20 / 15 / 10 billion; part 3 | **Contingent on Espen** (question 1) |
 | USDA rural health grants | HLT-8.01 | about $0.002-0.005 trillion | $200-500 million a year (judgment, point 6); the $3-5 billion of yearly loans costs little, at about zero subsidy (`dossiers/foundations/rural-delivery.md`) | Firm, subject to appropriation for the grants |
@@ -68,33 +68,35 @@ Items section 4 keeps that the year-by-year table does not include. Firm items (
 | Covering people without status | HLT-7.01 | Not priced | The immigration flagship decides (point 3) | Open |
 | The IHS alongside the plan | HLT-7.24 | Not priced; $0 assumed | Open item | Open |
 
-**All-in, FY2030-39:** the plan's $25.68 trillion, less the Advantage fix ($0.55 trillion), plus the firm items above ($0.44 trillion) is **about $25.6 trillion**; with the transition fund, about $25.7 trillion. That is an upper reading of firm items plus the model's path, before the employer contribution. It is not a score.
+**All-in, FY2030-39:** the plan's $25.68 trillion, less the Advantage fix ($0.55 trillion), plus the firm items above ($0.46 trillion) is **about $25.6 trillion**; with the transition fund, about $25.7 trillion. That is an upper reading of firm items plus the model's path, before the employer contribution. It is not a score.
 
 ## 3. Softening the transition for hospitals: the options
 
 Espen's direction (`DEC-2026-11-10-11`): "we can alter the hospital pay glide path and/or add some extra funding to soften the blow of a faster transition, especially for rural providers".
 
-**What the move does to hospital revenue** (project arithmetic, `hospital_revenue()`; nominal $ billion, all hospitals; before the relief of uncompensated care, a further gain for hospitals that serve the uninsured):
+**What the move does to hospital revenue** (project arithmetic, `hospital_revenue()`; nominal $ billion, all hospitals). For the newly insured, the plan's payment is counted net of what hospitals collect for them today: the low reading subtracts all of their current care (their own payments and the uncompensated care that Medicaid DSH, state programs and cost shifting now fund), the high reading only their own payments (the coverage model's `unins_paid_share`, 35%):
 
-| FY | Commercial revenue lost as employer and individual groups move | Net change, all hospitals |
+| FY | Commercial revenue lost as employer and individual groups move | Net change, all hospitals (low to high reading) |
 | --- | --- | --- |
-| 2031 | −137 | +242 |
-| 2033 | −362 | +180 |
-| 2034 | −607 | +90 |
-| 2035 | −885 | +141 |
-| 2036 | −946 | +81 |
-| 2039 | −1,108 | +95 |
+| 2031 | −137 | +104 to +193 |
+| 2033 | −362 | +26 to +126 |
+| 2034 | −607 | −72 to +33 |
+| 2035 | −885 | −29 to +81 |
+| 2036 | −946 | −99 to +18 |
+| 2039 | −1,108 | −116 to +21 |
 
-At the plan's rates, the hospital revenue lost on commercial patients is more than made up across all hospitals by Medicaid's patients (about +$437 billion in 2032 terms), today's Medicare patients (+$126 billion) and the newly insured (+$270 billion). So the move redistributes hospital revenue more than it cuts it. Who loses is the hospitals with many commercial patients and high prices, where for-profit and urban hospitals earn the largest margins (MedPAC, 2026) [EV-CAR-336]. Rural hospitals depend more on Medicare, which pays them closer to cost [EV-CAR-337], so many gain. The ones at risk are rural hospitals with a large commercial share and thin margins: 87 rural hospitals have closed and 68 converted since 2010 (Sheps Center, 2026) [EV-CAR-338]. The finding rests on national averages of rates and payer mix; hospital-level data is needed to confirm it (section 4, "Evidence still needed").
+At the target rate (2032 terms), hospitals lose about $767 billion on commercial patients and gain about $437 billion from Medicaid's patients, $126 billion from today's Medicare patients and $125-219 billion from the newly insured. The net is between about −$80 billion and +$15 billion, or between about 4% lower and 1% higher on hospital revenue of about $2 trillion (CMS's $1,634.7 billion in 2024 grown; EV-CAR-055). So the move shifts revenue between hospitals on a scale about ten times its net effect on hospitals as a whole. While the glide keeps rates above the target (through 2035) the total stays near or above today's; after it, the total may fall a little. Medicaid DSH inside Medicaid's spending is repriced with Medicaid's claims, a small upward bias on the gains.
+
+Who loses is the hospitals with many commercial patients and high prices, where for-profit and urban hospitals earn the largest margins (MedPAC, 2026) [EV-CAR-336]. Rural hospitals depend more on Medicare, which pays them closer to cost [EV-CAR-337], so many gain. The ones at risk are rural hospitals with a large commercial share and thin margins: 87 rural hospitals have closed and 68 converted since 2010 (Sheps Center, 2026) [EV-CAR-338]. The finding rests on national averages of rates and payer mix; hospital-level data is needed to confirm it (section 4, "Evidence still needed").
 
 | Option | What it does | FY2030-39 cost | Who it reaches |
 | --- | --- | --- | --- |
 | **A. Keep the five-year glide; add a capped transition fund and a revenue floor for global-budget hospitals (recommended)** | HLT-7.15: $100 billion over FY2033-38 for hospitals whose net patient revenue falls more than 5%, rural and sole providers first; global budgets held at least at pre-transition revenue for three years | about $0.10 trillion (range $0.05-0.15 trillion) | The hospitals that lose, and first the ones a community depends on |
-| B. Slow the glide to seven years (2038) | The plan's hospital rate falls from 1.25 to 1.15 times Medicare over seven years | about +$0.29 trillion (3 / 13 / 28 / 81 / 107 / 57 billion, FY2032-37) | Every hospital by volume, including those that gain; little for the losers, because the glide starts at the all-payer average |
+| B. Slow the glide to seven years (2038) | The plan's hospital rate falls from 1.25 to 1.15 times Medicare over seven years | about +$0.29 trillion (3 / 13 / 28 / 81 / 107 / 57 billion, FY2032-37) | Every hospital by volume, including those that gain; little for the losers, because the glide starts at the all-payer average; it would cover the possible dip in hospitals' total revenue in FY2035-37 |
 | C. Both | A and B | about +$0.39 trillion | Both |
 | D. Neither | The decided glide alone (it costs $0.31 trillion over FY2031-35 against moving straight to 1.15) | $0 | No targeted help |
 
-**Recommendation: A.** It reaches the hospitals Espen named for about a third of B's cost, and it does not raise the plan's rates for hospitals that are already gaining. If hospital-level data shows the losses are wider than the national averages suggest, the fund's cap is the number to raise, not the glide. This is the one question for Espen in this PR.
+**Recommendation: A.** The transition's main effect is a shift between hospitals, and A reaches the hospitals that lose, rural and sole providers first, for about a third of B's cost, without raising rates for hospitals that gain. B's case is the low reading: if hospitals as a whole lose up to about 4% after the glide ends, a seven-year glide would roughly cover that dip in FY2035-37 (it adds $81 billion and $107 billion in FY2035 and 2036). But a lasting shortfall in hospitals as a whole is a question about the 1.15 target (memo 5; section 8 sets its trigger), not about the transition, and a longer glide would not fix it. If hospital-level data shows losses wider than the national averages suggest, raise the fund's cap first. This is the one question for Espen in this PR.
 
 ## 4. The fund's streams and the amount to be financed
 
@@ -122,15 +124,15 @@ Under `DEC-2026-11-10-05`, health reports its effect and passes it to the settle
 | FY2040, spending line | the same $569 billion, all spending | **$5,800 billion**: the plan's outlays less the federal money it replaces and the states' payments |
 | FY2040, revenue line | none | **+$1,057 billion** from ending the tax exclusion; **+$1,075 billion** net from the employer contribution at 65% while it lasts |
 | FY2040, net after the contribution | — | **$3,668 billion** (6.8% of GDP) |
-| Share of the plan-wide margin, FY2040 | The plan-wide FY2040 balance is **$75.9 billion short** with legacy health booked (`models/data/recovery-budget-paths.csv`, case `mixed`, `agenda_gf_primary_bn`); legacy health's $569 billion is about 7.5 times it | Rebooked on this design, the plan-wide FY2040 gap would be about **$4.25 trillion** (7.8% of GDP) before the employer contribution and about **$3.17 trillion** (5.9% of GDP) with it. Health's net cost is nearly all of it: the plan-wide balance cannot be read until the settlement books health's financing |
+| Share of the plan-wide margin, FY2040 | The plan-wide FY2040 balance is **$75.9 billion short** with legacy health booked (`models/data/recovery-budget-paths.csv`, case `mixed`, `agenda_gf_primary_bn`); legacy health's $569 billion is about 7.5 times it | Rebooked as part 5 proposes (HLT-4's $85 billion kept until part B), the plan-wide FY2040 gap would be about **$4.33 trillion** (8.0% of GDP) before the employer contribution and about **$3.26 trillion** (6.0% of GDP) with it. Health's net cost is nearly all of it: the plan-wide balance cannot be read until the settlement books health's financing |
 
-GDP is the budget model's ($54,167 billion in FY2040; `recovery-budget-paths.csv`). The plan-wide figures are this section's arithmetic: $75.9 billion, less legacy health's $569 billion, plus the design's $4,743 billion (and less $1,075 billion for the contribution), before interest.
+GDP is the budget model's ($54,167 billion in FY2040; `recovery-budget-paths.csv`). The plan-wide figures are this section's arithmetic: $75.9 billion, less the legacy health rows the booking retires or replaces ($484 billion: all of the $569 billion except HLT-4's $85 billion), plus the design's $4,743 billion (and less $1,075 billion for the contribution), before interest.
 
 **Why the two columns differ.** The booked rows are the legacy public-option design, which the decisions replaced. The difference is not a gap in measurement: the plan moves about $3.1 trillion a year (2032) of premiums from households and employers onto the federal budget, and the settlement replaces them with taxes (memo 1; `3-design.md`). Both figures are on the same basis of measure (net federal cost, outlays less revenue gained), but the model's nets the exclusion revenue into one figure. Reported apart, as above, the spending and revenue lines are never added to each other.
 
 **Proposed booking, for the lead** (adopted inputs, `models/data/inputs/`, tier 3; this dossier does not change them):
 1. Retire HLT-3 (public option) and HLT-5 (commercial price cap): memo 1 A and memo 5 D were not chosen.
-2. Rebook HLT-1 as restoration in FY2030, about $86 billion, with HLT-1.03's provider-tax range noted, and HLT-2 as the FY2031-34 upgrades (about $0.30 trillion) plus the disability wait (about $0.08 trillion).
+2. Rebook HLT-1 as restoration in FY2030, about $86 billion, with HLT-1.03's provider-tax range noted, and HLT-2 as the FY2031-34 upgrades (about $0.30 trillion) plus the disability wait (about $0.10 trillion).
 3. Rebook HLT-6 at MedPAC's lower estimate through FY2034 (about −$0.55 trillion), ending at the endpoint.
 4. Add HLT-7 as two rows: a spending row (the plan, net of replaced federal money and state payments, on part 1's path: about $5.80 trillion in FY2040) and a revenue row for the end of the tax exclusion (about $1.06 trillion in FY2040), so the exclusion is booked on the revenue side, where it falls. The employer contribution is a third, revenue row, booked only once the settlement sets its share; until then it is reported here.
 5. HLT-4 (Medicaid, long-term care) stays as booked until part B decides long-term care.

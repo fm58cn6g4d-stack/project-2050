@@ -124,10 +124,15 @@ def groups(I, B, P, hosp_rate=TARGET):
     return net, cost, today, facts
 
 
-def hospital_revenue(I, B, P, hosp_rate):
-    """Change in hospital revenue, 2032, when each group moves (project arithmetic; before relief of uncompensated
-    care, which is a further gain to hospitals that serve the uninsured). Hospital and physician rates by payer are the
-    model's (commercial hospital 2.54 and physician 1.4 times Medicare; Medicaid at its fee index; Medicare 1.04)."""
+def hospital_revenue(I, B, P, hosp_rate, net_current='all'):
+    """Change in hospital revenue, 2032, when each group moves (project arithmetic). Hospital and physician rates by
+    payer are the model's (commercial hospital 2.54 and physician 1.4 times Medicare; Medicaid at its fee index;
+    Medicare 1.04). For the newly covered, the plan's payment for their hospital care is new revenue less what
+    hospitals collect for them today (review of #220): net_current='selfpay' subtracts only their own payments
+    (unins_paid_share of their current care), the high reading; 'all' also subtracts the rest of their current care
+    (uncompensated care funded by Medicaid DSH, state and other payments, and cost shifting), treating all of it as
+    revenue hospitals lose, the low reading. Medicaid DSH inside Medicaid's spending is repriced with it, a small
+    upward bias on the Medicaid line."""
     S, c, adm = B['S'], B['c'], B['adm']
     g = B['gross']
     ng = g['ng_sub'] + g['ng_unsub']
@@ -148,7 +153,10 @@ def hospital_revenue(I, B, P, hosp_rate):
     # newly covered: the hospital part of their new care, at the plan's rates
     a, cs = I['sp_admin'], I['sp_cs_low_rate']
     claims_new = net['uninsured'] / (1 / (1 - a) - cs)
-    out['uninsured'] = claims_new * (1 - rx) * wh * hosp_rate / (wh * hosp_rate + (1 - wh) * TARGET)
+    gain = claims_new * (1 - rx) * wh * hosp_rate / (wh * hosp_rate + (1 - wh) * TARGET)
+    new_n = max(0.0, sum(B['cells0']['uninsured']) - I['sp_residual_unins'] * B['pop'])
+    current = new_n * (B['oop_pp']['unins'] if net_current == 'selfpay' else B['unins_total_pp']) / 1000
+    out['uninsured'] = gain - current * (1 - rx) * wh
     return out
 
 
@@ -253,13 +261,17 @@ def main():
     hosp = {}
     for y in YEARS:
         hr = hospital_revenue(I, B, P, base_glide[y])
+        hs = hospital_revenue(I, B, P, base_glide[y], 'selfpay')
         sh = series[y]['shares']
         hosp[y] = {'net': sum(sh[k] * hr[k] for k in hr) * gn_[y],
+                   'net_high': sum(sh[k] * hs[k] for k in hs) * gn_[y],
                    'commercial_loss': (sh['employer'] * hr['employer'] + sh['individual'] * hr['individual']) * gn_[y]}
     exclusion = {y: series[y]['employer_moved'] * f['tax_exclusion'] * gf[y] for y in YEARS + [2040]}
     out = {
         'hospital_revenue_change': {y: {k_: round(v, 1) for k_, v in hosp[y].items()} for y in YEARS},
         'hospital_by_group_2032_at_target': {k_: round(v, 1) for k_, v in hospital_revenue(I, B, P, TARGET).items()},
+        'hospital_by_group_2032_at_target_high': {k_: round(v, 1) for k_, v in
+                                                  hospital_revenue(I, B, P, TARGET, 'selfpay').items()},
         'exclusion_by_year': {y: round(v, 1) for y, v in exclusion.items()},
         'full_2032': {'net_model': full['federal']['net_change_bn'], 'net_groups': sum(net.values()),
                       'plan_outlay': sp['plan_outlay_bn'], 'cost_sharing': sp['cost_sharing_bn'],
@@ -305,9 +317,9 @@ def main():
     print(f"FY2040: {out['fy2040']:.0f} billion; of which the ended tax exclusion (a revenue effect) "
           f"{exclusion[2040]:.0f}, so spending net of replaced federal funding and state payments "
           f"{out['fy2040'] + exclusion[2040]:.0f}")
-    print('\nHospital revenue change (all hospitals, $ billion, nominal): year, net, of which commercial loss')
+    print('\nHospital revenue change (all hospitals, $ billion, nominal): year, net (low to high reading), commercial loss')
     for y in YEARS:
-        print(f"  {y}  {hosp[y]['net']:8.0f}  {hosp[y]['commercial_loss']:8.0f}")
+        print(f"  {y}  {hosp[y]['net']:8.0f} to {hosp[y]['net_high']:6.0f}  {hosp[y]['commercial_loss']:8.0f}")
     print('  2032 by group at the target rate:', out['hospital_by_group_2032_at_target'])
 
 
