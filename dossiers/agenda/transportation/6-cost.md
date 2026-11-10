@@ -48,7 +48,7 @@ On the transportation model's own path. These are the plan's figures (grade D, p
 | 2044 | 234.8 | 220.8 | 14.0 | 0.022% |
 | 2046 | 245.3 | 231.7 | 13.6 | 0.019% |
 
-Source: `Model().allocate(t)` in `moving_america.py`, run on November 10, 2026. The period averages match `golden/report.txt`: 0.180% in FY2032-36, 0.067% in FY2037-41, 0.026% in FY2042-46.
+Source: `Model().allocate(t)` in `moving_america.py`, run on November 10, 2026. Section 3 reports the same draw on CBO's net basis, which adds the 25% offset on new excise receipts. The period averages match `golden/report.txt`: 0.180% in FY2032-36, 0.067% in FY2037-41, 0.026% in FY2042-46.
 
 By FY2042-46, users cover 95% of highway renewal and all of transit's and rail's [EV-MOV-200] [EV-MOV-206].
 
@@ -60,15 +60,28 @@ Under `DEC-2026-11-10-05`, the dossier reports its fiscal-rule effect and passes
 | --- | --- | --- |
 | FY2030-39, general-fund lines (MOV-29, -30, -31) | **$473.0 billion** (0.257 + 0.091 + 0.125 trillion), outlays spread over the window | The same lines, timed as obligated: packages in FY2029-31, top-ups and expansion in FY2032-36 |
 | FY2030-39, new dedicated revenue | About $0.39 trillion (the surface trust fund channel, net of the offset) | $290.0B + $95.0B over each act's window |
-| Permanent cost in FY2040 | **$22.1 billion**: a 30% tail on the reconciliation lines plus a successor authorization at 30% of MOV-31's run rate (`fiscal-profiles.csv`) | **$29.0 billion** (0.053% of GDP), the whole general-fund draw that year, falling to $14.0 billion by FY2044 as the premium phases in |
-| Share of the plan-wide margin | Already inside the plan-wide totals the housing close-out reported (FY2040 short of balance by $50.8 billion; `dossiers/home/6-cost.md`) | Up to about $7 billion more in FY2040 than booked, if the successor's draw follows the model |
+| Permanent cost in FY2040 | **$22.1 billion**: a 30% tail on the reconciliation lines plus a successor authorization at 30% of MOV-31's run rate (`fiscal-profiles.csv`) | **$58.0 billion (0.105% of GDP) on CBO's net basis**: the general fund's share of the program plus the 25% offset on new excise receipts, falling to $52.6 billion (0.081%) by FY2044 as the premium phases in |
+| Share of the plan-wide margin | Already inside the plan-wide totals the housing close-out reported (FY2040 short of balance by $50.8 billion; `dossiers/home/6-cost.md`) | About $36 billion more in FY2040 than booked, if the successor and the offset follow the model |
 
-**Reading the difference.** The two columns differ for three reasons:
-- **Timing.** The budget model spreads each act's ten-year amount evenly. The real money is packages in FY2029-31 and top-ups in FY2032-36.
-- **Successor.** The budget model's successor authorization is a placeholder at 30% of the run rate.
-- **Basis.** The transportation model's draw is the whole general-fund share, not the increment over CBO's baseline.
+**The figure reported to the settlement: FY2040 permanent cost of $58.0 billion, 0.105% of GDP, on CBO's net basis from the transportation model.** It is one basis, CBO's convention for new excises. Its path (`Model().cbo_basis(t)` in `moving_america.py`, run November 10, 2026):
 
-The range for FY2040, $22 to $29 billion (about 0.04% to 0.05% of GDP), is reported to the settlement as a working assumption. No transportation choice turns on where in the range it falls.
+| FY | CBO-net draw ($B) | % of GDP |
+| --- | --- | --- |
+| 2032 | 87.4 | 0.218% |
+| 2036 | 89.9 | 0.191% |
+| 2037 | 69.9 | 0.143% |
+| 2040 | 58.0 | 0.105% |
+| 2044 | 52.6 | 0.081% |
+| 2046 | 54.7 | 0.078% |
+
+The period averages match Draft 2's CBO-basis column: 0.220% in FY2032-36 and 0.143% in FY2037-41 (`golden/report.txt`).
+
+**Why the booked figure is lower.** The budget model books $22.1 billion for three reasons:
+- **Timing.** It spreads each act's ten-year amount evenly. The real money is packages in FY2029-31 and top-ups in FY2032-36.
+- **Successor.** Its successor authorization is a placeholder at 30% of MOV-31's run rate. The model's successor need is the whole remaining draw.
+- **Offset.** It books the new revenue net of the 25% offset in its own revenue channel, not as a cost on the spending lines.
+
+Part of the gap may be a difference of measure rather than of cost. The model's draw is the general fund's share of the whole program, and CBO's baseline already carries trust-fund outlays at current levels. Reconciling the two is the budget model's step that puts each bill in its own CBO window (B6 item 4). Until then, the settlement should plan on the model's $58.0 billion as the upper figure, with $22.1 billion as booked. No transportation choice turns on which it is.
 
 **Booking.** PR #192's booking shapes (an end year and a fade after 2039) can express the model's path:
 - the reconciliation lines closed at their expenditure deadlines (time-limited, under the ledger's C30 resolution);
@@ -101,5 +114,5 @@ Fuel taxes are a larger share of lower-income households' budgets, and transport
 
 None for Espen; each is a question about money that stays with the settlement or the budget model:
 1. **The 2028 extension's transfer** is not sized. It is sized when the extension is drafted, on the baseline case then known.
-2. **FY2040 booking** ($22.1 billion booked; $29.0 billion on the model's path). For the budget model owner, with B6 item 4; a tier-3 inputs change if adopted.
+2. **FY2040 booking** ($22.1 billion booked; $58.0 billion on CBO's net basis from the model). For the budget model owner, with B6 item 4; a tier-3 inputs change if adopted.
 3. **The 2030 act's window.** Rescore on FY2031-40 if it rides the FY2031 resolution (R3), as the ledger notes.
