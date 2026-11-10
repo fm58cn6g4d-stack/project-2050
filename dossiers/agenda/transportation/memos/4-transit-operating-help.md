@@ -1,6 +1,6 @@
 # Memo 4: Federal help to run transit
 
-Role: decision memo for Espen, fork 4 of the transportation design (`../3-design.md`). Status: for decision (one of six in this batch, `README.md`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). "The plan's model" is the legacy design's own arithmetic (2026), a project estimate. Facts on fares, ridership and agency budgets are in section 1.
+Role: decision memo for Espen, fork 4 of the transportation design (`../3-design.md`). Status: decided by Espen: D, as recommended (November 10, 2026; `DEC-2026-11-10-08`). One of six in the batch (`README.md`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). "The plan's model" is the legacy design's own arithmetic (2026), a project estimate. Facts on fares, ridership and agency budgets are in section 1.
 
 ## In short
 

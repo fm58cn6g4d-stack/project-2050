@@ -495,17 +495,18 @@
  },
  {
   "id": "EV-MOV-200",
-  "statement": "As chosen, the Moving America Act of 2031 authorizes $936.57B over FY2032-36; dedicated receipts cover $545.84B and the general fund pays $390.73B, or 0.180% of GDP a year, falling to 0.026% by FY2042-46.",
+  "statement": "As chosen, the Moving America Act of 2031 authorizes $936.57B over FY2032-36; dedicated receipts cover $545.84B and the general fund pays $390.73B, or 0.180% of GDP a year, falling to 0.026% by FY2042-46. User fees then cover 95% of highway renewal and all of transit's and rail's.",
   "claim": "analysis",
   "figures": [
    "$936.57B",
    "$545.84B",
    "$390.73B",
    "0.180%",
-   "0.026%"
+   "0.026%",
+   "95%"
   ],
   "source": "SRC-0032",
-  "anchor": "The Moving America Act of 2031 authorizes **$936.57B** over FY2032-36 for highways, highway safety, public transportation and intercity passenger rail. Users pay for repair and the nation pays to build. Dedicated receipts cover **$545.84B**, and the general fund pays **$390.73B**, or **0.180% of GDP** a year. By FY2042-46 the draw falls to 0.026%.",
+  "anchor": "The Moving America Act of 2031 authorizes **$936.57B** over FY2032-36 for highways, highway safety, public transportation and intercity passenger rail. Users pay for repair and the nation pays to build. Dedicated receipts cover **$545.84B**, and the general fund pays **$390.73B**, or **0.180% of GDP** a year. By FY2042-46 the draw falls to 0.026%. User fees then cover 95% of highway renewal and all of transit's and rail's",
   "grade": "D",
   "fact_date": "2026-10",
   "checked": "2026-11-10",
@@ -702,25 +703,28 @@
  },
  {
   "id": "EV-MOV-209",
-  "statement": "The heavy-vehicle use tax has been flat, capped at $550 and unindexed since 1982.",
+  "statement": "The heavy-vehicle use tax is a flat annual amount by weight with no indexing, $550 a year for vehicles over 75,000 pounds; its current schedule was enacted in 1984 (Pub. L. 98–369).",
   "claim": "data",
   "figures": [
    "$550",
-   "1982"
+   "75,000",
+   "1984"
   ],
-  "source": "SRC-0032",
-  "anchor": "the use tax has been flat, capped at $550 and unindexed since 1982",
-  "grade": "D",
-  "fact_date": "2026-10",
+  "source": "SRC-3548",
+  "anchor": [
+   "Over 75,000 pounds",
+   "$550.",
+   "1984 —Subsec. (a). Pub. L. 98–369, §901(a), in amending subsec. (a) generally, substituted \"55,000\" for \"33,000\" in provisions preceding table"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
   "checked": "2026-11-10",
-  "recheck": "2027-02-15",
-  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
-  "corroboration": [],
+  "recheck": "2027-11-10",
   "supports": [
    "dossiers/agenda/transportation/3-design.md",
    "dossiers/agenda/transportation/memos/2-trucks-rail-air.md"
   ],
-  "note": "A statutory fact (26 U.S.C. 4481) as the legacy file states it; replace with the Code text when section 4 cites it."
+  "note": "Primary law (26 U.S.C. 4481, 2024 edition). Replaces the legacy file's \"unindexed since 1982\": the current table dates from the 1984 amendment."
  },
  {
   "id": "EV-MOV-210",
@@ -2184,6 +2188,51 @@
   "note": "Compared with 2024 (EV-MOV-129): the maintenance-dedicated gas tax increase 74% to 75%, the base case 35% to 38%, the flat-rate mileage fee 39% to 44%, the pollution-rate fee 51% in both. The brief reports 63% support for lower mileage-fee rates for low-income drivers and 74% preference for paying a mileage fee in small installments.",
   "supports": [
    "dossiers/agenda/transportation/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-227",
+  "statement": "The second fallback tier cuts the Moving America Act to $804.30B with an average draw of 0.119% of GDP; the third to $739.25B and 0.089%.",
+  "claim": "analysis",
+  "figures": [
+   "$804.30B",
+   "0.119%",
+   "$739.25B",
+   "0.089%"
+  ],
+  "source": "SRC-0032",
+  "anchor": [
+   "| Second | — | −$30.02B → $164.40B | −$30.70B → $178.78B | **$804.30B** | 0.119% |",
+   "| Third | — | −$34.40B → $130.00B | −$30.65B → $148.13B | **$739.25B** | 0.089% |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-MOV-228",
+  "statement": "The legacy design estimated fuel demand response to the steps at probably 2-3% of fuel receipts, unmodelled.",
+  "claim": "analysis",
+  "figures": [
+   "2-3%"
+  ],
+  "source": "SRC-0032",
+  "anchor": "fuel demand response to the steps, probably 2-3% of fuel receipts",
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-10",
+  "recheck": "2027-02-15",
+  "context": "Project estimate: the legacy Moving America design (Draft 2, October 12, 2026), computed by the project's transportation model (models/tools/transportation/moving_america.py; golden/report.txt). No outside publisher; it is the plan's own arithmetic, with no demand response.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/agenda/transportation/7-validation.md",
+   "dossiers/agenda/transportation/8-change-our-minds.md"
   ]
  }
 ]

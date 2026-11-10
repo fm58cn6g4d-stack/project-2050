@@ -1,8 +1,8 @@
 # Transportation decision memos: the batch
 
-Role: the one set of transportation decisions for Espen, sent together so they can be decided in one round (`../3-design.md`). Status: for decision. Approval is per memo, never as a package; a memo can be answered "as recommended", with another option, or with a question.
+Role: the one set of transportation decisions for Espen, sent together so they can be decided in one round (`../3-design.md`). Status: decided. Espen answered "yes to all as recommended" on November 10, 2026: memos 1-6 and the eight points in `../3-design.md` (`DEC-2026-11-10-08`), with the transportation outcome added as OUT-12.
 
-| Memo | Question | Recommended |
+| Memo | Question | Decided (as recommended) |
 | --- | --- | --- |
 | [1](1-who-pays-for-roads.md) | How fuel taxes and electric cars pay for road repair | A: index, ten 3-cent steps, a per-mile charge on electric cars at a 40-mpg rate, a fossil premium in FY2040-44 (as chosen) |
 | [2](2-trucks-rail-air.md) | What heavy trucks, railroads and flyers pay | A: a weight-distance charge for heavy trucks, rail diesel by railroad class, a $16 aviation surcharge (as chosen) |

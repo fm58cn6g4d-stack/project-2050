@@ -1,10 +1,10 @@
 # Memo 2: What trucks, railroads and flyers pay
 
-Role: decision memo for Espen, fork 2 of the transportation design (`../3-design.md`). Status: for decision (one of six in this batch, `README.md`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). "The plan's model" is the legacy Moving America design's own arithmetic (2026), a project estimate.
+Role: decision memo for Espen, fork 2 of the transportation design (`../3-design.md`). Status: decided by Espen: A, as recommended (November 10, 2026; `DEC-2026-11-10-08`). One of six in the batch (`README.md`). Sources are named in plain text; the bracketed tags point to the evidence register (`../evidence.json`). "The plan's model" is the legacy Moving America design's own arithmetic (2026), a project estimate.
 
 ## In short
 
-Heavy trucks do most of the damage to pavement, but they pay almost the same fuel tax per mile as a car, plus a flat yearly tax that hasn't changed since 1982. Intercity rail has no money of its own. The plan as filed charges heavy trucks by weight and distance, and adds small taxes on rail diesel and air trips for the rail account.
+Heavy trucks do most of the damage to pavement, but they pay almost the same fuel tax per mile as a car, plus a flat yearly tax that hasn't changed since 1984. Intercity rail has no money of its own. The plan as filed charges heavy trucks by weight and distance, and adds small taxes on rail diesel and air trips for the rail account.
 
 **Recommendation: keep it (A).**
 
@@ -17,7 +17,7 @@ Should heavy trucks pay by weight and miles driven, and should freight railroads
 ## The options
 
 **A. Weight-distance charge, rail diesel and an aviation surcharge (as chosen; recommended).**
-- **Trucks over 26,000 lb** pay per mile by weight class, averaging 3 cents on the heaviest classes. It replaces the heavy-vehicle use tax, which is flat, capped at $550 and unindexed since 1982 (Moving America Draft 2, 2026) [EV-MOV-209].
+- **Trucks over 26,000 lb** pay per mile by weight class, averaging 3 cents on the heaviest classes. It replaces the heavy-vehicle use tax, which is flat, capped at $550 and unindexed since 1984 (the Internal Revenue Code, 26 U.S.C. 4481) [EV-MOV-209].
 - **The data** are the mileage records carriers already file each quarter under the interstate fuel-tax agreement, so there is no new reporting system.
 - **Truck excises.** The truck and tire excises become permanent, at 4% for zero-emission trucks.
 - **Rail diesel** is taxed at 15 cents a gallon for the largest railroads and 7.5 cents for regional ones; short lines are exempt.

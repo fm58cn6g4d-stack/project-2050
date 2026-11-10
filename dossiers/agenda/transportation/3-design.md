@@ -1,12 +1,12 @@
 # Transportation: design choices
 
-Role: section 3 of the transportation dossier: the real forks in the Moving America design, the options at each, what the evidence says, how they fit together, and a recommendation. Status: draft (stage C, step 7, PR 2). It converts the legacy design (`legacy/domains/transportation-moving-america-act-2031-draft-2.md`, "Draft 2", which governs where the legacy sources disagree). Under `DEC-2026-10-30-02` every legacy call, including the seven Draft 2 records as decided by Espen, is a working choice (`chosen`): it is weighed here as an option, not assumed. The plan begins in January 2029 (`DEC-2026-10-29-01`); anything meant for 2027-28 is labeled as an exception.
+Role: section 3 of the transportation dossier: the real forks in the Moving America design, the options at each, what the evidence says, how they fit together, and a recommendation. Status: draft (stage C, step 7); every memo and point decided as recommended (`DEC-2026-11-10-08`, November 10, 2026). It converts the legacy design (`legacy/domains/transportation-moving-america-act-2031-draft-2.md`, "Draft 2", which governs where the legacy sources disagree). Under `DEC-2026-10-30-02` every legacy call, including the seven Draft 2 records as decided by Espen, is a working choice (`chosen`): it is weighed here as an option, not assumed. The plan begins in January 2029 (`DEC-2026-10-29-01`); anything meant for 2027-28 is labeled as an exception.
 
 Outcomes the choices serve:
 - OUT-05, clean, affordable power and a prepared country (transportation is the largest source of U.S. greenhouse emissions; section 1);
 - OUT-11, the fiscal and fairness tests.
 
-`charter/outcomes.md` has no outcome for getting around safely and affordably. Point 7 below asks Espen whether to add one.
+- OUT-12, getting where you need to go safely and affordably (added with point 7, `DEC-2026-11-10-08`).
 
 ## How to read this section
 
@@ -93,7 +93,7 @@ Transportation relies on few of `dossiers/shared-rules.md`'s rules, because it h
 
 ## Fork 2. Trucks, rail and air (memo 2)
 
-- **The question.** Fuel taxes cannot price axle weight, which drives most pavement wear, and the heavy-vehicle use tax is flat at $550 and unindexed since 1982 [EV-MOV-209]. Rail has no dedicated receipts.
+- **The question.** Fuel taxes cannot price axle weight, which drives most pavement wear, and the heavy-vehicle use tax is flat at $550 and unindexed since 1984 [EV-MOV-209]. Rail has no dedicated receipts.
 - **As chosen (option A).**
   - Trucks over 26,000 lb pay a weight-distance charge (a 3-cent average for the heaviest classes) in place of the use tax, with zero-emission trucks at a 4% excise.
   - Rail diesel is taxed at 15 or 7.5 cents by railroad class, with short lines exempt.
@@ -141,7 +141,7 @@ Transportation relies on few of `dossiers/shared-rules.md`'s rules, because it h
 
 Each point is a yes-or-no question for Espen. None is adopted by silence.
 
-1. **If no multi-year law is in place by the end of 2028, authorize programs in 2029-30.** Under baseline cases 2 and 3, the plan writes a regular-order authorization for FY2029-31 or FY2030-34 alongside the 2029 act, and the 2031 bill becomes its renewal. Recommended: yes. The reconciliation acts cannot authorize programs (the Byrd rule), so without this the money has nowhere to go.
+1. **If no multi-year law is in place by the end of 2028, authorize programs in 2029-30.** Under baseline cases 2 and 3, the plan writes a regular-order authorization for the years to FY2031 alongside the 2029 act (MOV-31.90), and the 2031 bill becomes its renewal. Recommended: yes. The reconciliation acts cannot authorize programs (the Byrd rule), so without this the money has nowhere to go.
 2. **The 2028 extension (A-9), as a labeled 2027-28 exception.** It is a one-year extension of the expiring rates and fund credits, plus a transfer through FY2031, with no new revenue in FY2029. Recommended: yes. It keeps 2029's forcing event: an expiring tax base to reform.
 3. **Money paths and timing (A-14, A-15, A-16).**
    - Contract authority is capped at receipts.
@@ -210,4 +210,4 @@ These are only the items that would change a choice now (`charter/STANDARDS.md`,
 
 ## Questions for Espen
 
-One batch, decided in one round: memos 1 to 6 (`memos/README.md`), and points 1 to 8 above.
+None open. The batch (memos 1 to 6 and points 1 to 8) was decided in one round as recommended (`DEC-2026-11-10-08`). Point 7's outcome is OUT-12 in `charter/outcomes.md`.

@@ -1,12 +1,12 @@
 # Transportation: the problem
 
-Role: section 1 of the transportation dossier: what is wrong with how the country pays for and runs its roads, transit and passenger rail, for whom, and how large. Status: draft (stage C, step 7, PR 2). It is a conversion: the legacy design (`legacy/domains/transportation-moving-america-act-2031-draft-2.md`) stated most of these facts without sources. Each is now traced to its source or dropped, and the legacy figures superseded by newer data are noted.
+Role: section 1 of the transportation dossier: what is wrong with how the country pays for and runs its roads, transit and passenger rail, for whom, and how large. Status: draft (stage C, step 7). It is a conversion: the legacy design (`legacy/domains/transportation-moving-america-act-2031-draft-2.md`) stated most of these facts without sources. Each is now traced to its source or dropped, and the legacy figures superseded by newer data are noted.
 
 Outcomes this section bears on:
 - OUT-05, clean, affordable power and a prepared country: transportation is the largest source of emissions;
 - OUT-11, the fiscal tests: the trust fund's gap is the plan's to close or to fund.
 
-`charter/outcomes.md` has no transportation outcome; section 3, point 7, asks Espen whether to add one.
+- OUT-12, people can get where they need to go, safely and affordably (added with `DEC-2026-11-10-08`): traffic deaths, roads and bridges in poor condition, household transportation cost, transit access and emissions are its measures.
 
 ## In short
 

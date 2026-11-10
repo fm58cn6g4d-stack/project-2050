@@ -1,5 +1,5 @@
 {
-  "role": "Restatement map for the transportation dossier: each legacy file and the dossier files that replace it (models/registry/restatement.py; charter/PLAN.md section 4). Tokens dropped on purpose are listed in backticks in restatement-log.md with the reason or the DEC- entry.",
+  "role": "Restatement map for the transportation dossier: each legacy file and the dossier files that replace it (models/registry/restatement.py; charter/PLAN.md section 4). Tokens dropped on purpose are listed in backticks in restatement-log.md with the reason or the DEC- entry. Draft 2 is restated in full; the other files are incorporated by reference (each pair says why), and restatement-log.md lists what was dropped on purpose.",
   "pairs": [
     {
       "source": "legacy/domains/transportation-moving-america-act-2031-draft-2.md",
@@ -19,7 +19,8 @@
       ],
       "accounted": [
         "dossiers/agenda/transportation/restatement-log.md"
-      ]
+      ],
+      "by_reference": "framework note; its split and envelope are superseded by Draft 2 and memo 3"
     },
     {
       "source": "legacy/sources/transportation-arca-2031-bill-architecture.md",
@@ -29,7 +30,8 @@
       ],
       "accounted": [
         "dossiers/agenda/transportation/restatement-log.md"
-      ]
+      ],
+      "by_reference": "the rail division drafting base (division D); Draft 2 governs where they differ; section 4 states the parameters"
     },
     {
       "source": "legacy/sources/transportation-arca-status-oct12.md",
@@ -39,7 +41,8 @@
       ],
       "accounted": [
         "dossiers/agenda/transportation/restatement-log.md"
-      ]
+      ],
+      "by_reference": "status note on the rail division (ARCA rev 354) after the transit handoff and the FY2032-36 calendar correction; its figures are re-verified into Draft 2's division D, which governs"
     },
     {
       "source": "legacy/sources/transportation-atra-2031-bill-architecture.md",
@@ -49,7 +52,8 @@
       ],
       "accounted": [
         "dossiers/agenda/transportation/restatement-log.md"
-      ]
+      ],
+      "by_reference": "the transit division drafting base (division C); Draft 2 governs where they differ; section 4 states the parameters"
     },
     {
       "source": "legacy/sources/transportation-atra-merge-contribution-oct12.md",
@@ -59,7 +63,8 @@
       ],
       "accounted": [
         "dossiers/agenda/transportation/restatement-log.md"
-      ]
+      ],
+      "by_reference": "the transit session's hand-off to the October 12 merge (state of division C and the shared divisions); merged into Draft 2, which governs"
     },
     {
       "source": "legacy/sources/transportation-calendar-fy2032-36.md",
@@ -69,7 +74,8 @@
       ],
       "accounted": [
         "dossiers/agenda/transportation/restatement-log.md"
-      ]
+      ],
+      "by_reference": "Espen's October 12, 2026 calendar decision: the 2031 bill covers FY2032-36, with every FY2031-35 figure restated. Draft 2 applies it throughout, and its one design consequence, nominal levels not re-indexed (A-5), is carried as a working choice in 3-design.md"
     },
     {
       "source": "legacy/sources/transportation-merge-status-oct12.md",
@@ -79,7 +85,8 @@
       ],
       "accounted": [
         "dossiers/agenda/transportation/restatement-log.md"
-      ]
+      ],
+      "by_reference": "status note of October 12, 2026 recording Draft 2 as the current document and A-1 to A-28; superseded by Draft 2 itself"
     },
     {
       "source": "legacy/sources/transportation-package-section-by-section.md",
@@ -89,7 +96,8 @@
       ],
       "accounted": [
         "dossiers/agenda/transportation/restatement-log.md"
-      ]
+      ],
+      "by_reference": "the 2026-2036 package section-by-section (October 12, 2026), one of the four documents Draft 2 merges; Draft 2 governs where they differ, and section 4 states the parameters"
     },
     {
       "source": "legacy/sources/transportation-transit-context-notes-oct04.md",
@@ -99,7 +107,8 @@
       ],
       "accounted": [
         "dossiers/agenda/transportation/restatement-log.md"
-      ]
+      ],
+      "by_reference": "October 4, 2026 notes from reading the rail architecture for the transit package, written before the transit model; background to division C, superseded by the ATRA architecture and Draft 2"
     },
     {
       "source": "legacy/sources/transportation-transit-package-status-oct12.md",
@@ -109,7 +118,8 @@
       ],
       "accounted": [
         "dossiers/agenda/transportation/restatement-log.md"
-      ]
+      ],
+      "by_reference": "transit package status and decisions (October 12, 2026), recording the FY2032-36 calendar and division letters; merged into Draft 2, which governs"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Dossier: transportation (wave two; the reference dossier)
 
-Role: the transportation dossier, converted from the legacy Moving America design as the reference example of a finished dossier (`charter/PLAN.md` 3.1). Status: in progress, stage C step 7 (sections 1-3 drafted; memo set with Espen). Level: every item is at L1 in `agenda/agenda.csv`; the target is L3, with priority pieces at L4.
+Role: the transportation dossier, converted from the legacy Moving America design as the reference example of a finished dossier (`charter/PLAN.md` 3.1). Status: in progress, stage C step 7: sections 1-9 drafted; the memo set decided as recommended (`DEC-2026-11-10-08`). Level: MOV-28 to MOV-31 and MR1 to MR6 at L2 (decided); L3 after the milestone review. Level: every item is at L1 in `agenda/agenda.csv`; the target is L3, with priority pieces at L4.
 
 **What it brings together:** highways and highway safety, public transportation, intercity passenger rail, and the Surface Transportation Trust Fund that pays for them, carried by four laws: a 2028 extension (a labeled 2027-28 exception), the 2029 and 2030 reconciliation acts, and the Moving America Act of 2031.
 
@@ -10,22 +10,22 @@ Role: the transportation dossier, converted from the legacy Moving America desig
 
 **Restatement check:** `restatement.json` maps each legacy file to the files that replace it; `python3 models/registry/restatement.py --map dossiers/agenda/transportation/restatement.json` lists every number and policy ID not carried over. Anything dropped on purpose goes in `restatement-log.md` (from section 4 on) or the decision log.
 
-**Outcomes it serves:** OUT-05 (clean power and a prepared country: transport emissions and resilience) and OUT-11 (the fiscal tests). `charter/outcomes.md` has no transportation outcome of its own; whether it needs one is a question for section 1.
+**Outcomes it serves:** OUT-12 (getting where you need to go, safely and affordably; added with `DEC-2026-11-10-08`), OUT-05 (clean power and a prepared country: transport emissions and resilience) and OUT-11 (the fiscal and fairness tests).
 
 | Section | Status |
 | --- | --- |
-| 1. The problem | Draft (PR 2): `1-problem.md`. The trust fund's 2028 cliff, repair, the Interstate, buying power, deaths, slow grants, transit, rail, household cost and emissions; legacy facts traced or left out. Evidence EV-MOV-001 to 018 and 100 onward |
-| 2. What works | Draft (PR 2): `2-what-works.md` |
-| 3. Design choices | Draft (PR 2): `3-design.md`. The baseline in 2029 as a working assumption with three cases; the 0.206% benchmark retired as a design rule (`DEC-2026-11-10-05`); six forks, each with a memo in `memos/`, sent as one batch (`memos/README.md`); eight yes-or-no points; all 28 legacy calls (A-1 to A-28) placed. Project-estimate figures EV-MOV-200 to 226 |
-| 4. Specification | Not started (PR 3), with `provisions.json` |
-| 5. Delivery | Not started (PR 3) |
-| 6. Cost and financing | Not started (PR 3), on the transportation model and the budget model |
-| 7. Validation | Not started (PR 3) |
-| 8. What would change our minds | Not started (PR 3) |
-| 9. The public case | Not started (PR 3), only from sections 1-8 |
+| 1. The problem | Draft: `1-problem.md`. The trust fund's 2028 cliff, repair, the Interstate, buying power, deaths, slow grants, transit, rail, household cost and emissions; legacy facts traced or left out. Evidence EV-MOV-001 to 018 and 100 onward |
+| 2. What works | Draft: `2-what-works.md`. Paying for roads (indexing, polling, per-mile and weight-mile experience), induced demand, safety countermeasures, transit relief and costs, European high-speed rail, failures to avoid |
+| 3. Design choices | Draft, decided (`DEC-2026-11-10-08`): `3-design.md`. The baseline in 2029 as a working assumption with three cases; the 0.206% benchmark retired as a design rule (`DEC-2026-11-10-05`); six forks, each with a memo in `memos/`, sent as one batch (`memos/README.md`); eight yes-or-no points; all 28 legacy calls (A-1 to A-28) placed. Project-estimate figures EV-MOV-200 to 226 |
+| 4. Specification | Draft (PR 3): `4-specification.md` and `provisions.json`, the four laws provision by provision (MOV-28.01; MOV-29.xx; MOV-30.xx; MOV-31.xx by division), with the decisions applied (memo 3's report in place of the benchmark trigger, memo 4's published reports, memo 5's published reports and review, point 1's contingency authorization, MOV-31.90), a design-lens note and a consistency table. Dropped legacy figures are in `restatement-log.md` |
+| 5. Delivery | Draft (PR 3): `5-delivery.md`. Who runs what; a 2027-2044 timeline on the scenario calendar; capacity (Treasury collection, audits, FRA and FTA staff, states, agencies); getting money to projects; what the statute must say for a reluctant agency; remedies; where a state refuses; lessons |
+| 6. Cost and financing | Draft (PR 3): `6-cost.md`. Each law's spending and revenue from the ledger; the general-fund draw by year on the transportation model; the fiscal-rule report: $473.0 billion over FY2030-39 as the budget model books it, and FY2040 permanent cost of $22.1 billion booked, $29.0 billion on the model's spending path, reported to the settlement; sensitivities; fairness. No adopted input changed |
+| 7. Validation | Draft (PR 3): `7-validation.md`. The design against CBO, FHWA, the National Academies, the NTD, FRA, NEVI and state per-mile programs; what the models miss (demand response, construction costs, the baseline, CBO scoring); how it lands with housing, clean power, fair financing and the floor; reach; seven objections; failure signals |
+| 8. What would change our minds | Draft (PR 3): `8-change-our-minds.md`. For each decision, the uncertainty, a threshold, who sees it and when, and the fallback; political and legal events; the fallback tiers; three hard stops; when the evidence arrives |
+| 9. The public case | Draft (PR 3): `9-public-case.md`. A brief, the case in one paragraph, seven messages with the line each must not cross, hard questions, composite stories, a can-say list and a source table; only from sections 1-8 |
 
 Evidence register: `evidence.json` (EV-MOV-001 to 099 section 1; 100 to 199 transit, rail and section 2; 200 to 299 project estimates from the legacy model). Source IDs numbered 3500 to 3599 are reserved for this dossier (the care dossier uses 3000 to 3299). Provisions: `provisions.json`, IDs under the agenda's MOV- rows (from section 4).
 
 ## Open questions for Espen
 
-One batch (`memos/README.md`): memos 1 to 6 and the eight yes-or-no points in `3-design.md`, "Recommended without a memo". Point 7 (a transportation outcome) would be a charter change in its own PR. Sections 4-9 are written on the recommendations and revised for any other answer.
+None open. Espen decided the memo set and the eight points as recommended on November 10, 2026 (`DEC-2026-11-10-08`). The open items left are for the settlement and the budget model, not decisions: the 2028 extension's transfer size, the FY2040 booking ($22.1 billion booked, $29.0 billion on the model's spending path; `6-cost.md`) and the household fuel-tax burden for the fairness test (`7-validation.md`).
