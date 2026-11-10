@@ -228,7 +228,9 @@ def path(I, B, P, glide):
     for y in YEARS + [2040]:
         a, b = cal[y - 1], cal[y]
         out[y] = {k: 0.25 * a[k] + 0.75 * b[k] for k in ('plan', 'other', 'total', 'employer_moved')}
-        out[y].update({'shares': b['shares'], 'rate': b['rate'], 'calendar_total': b['total']})
+        out[y].update({'shares': b['shares'], 'rate': b['rate'], 'calendar_total': b['total'],
+                       # the employer share moved times growth, on the same fiscal-year blend (review of #226)
+                       'moved_gf': 0.25 * a['employer_moved'] * gf.get(y - 1, 0.0) + 0.75 * b['employer_moved'] * gf[y]})
     return out, gf
 
 
@@ -244,7 +246,7 @@ def contribution(I, B, P, series, gf, share, until=None):
         if until is not None and y > until:
             out[y] = 0.0
             continue
-        out[y] = v['employer_moved'] * share * emp * (1 - f['tau']) * gf[y]
+        out[y] = v['moved_gf'] * share * emp * (1 - f['tau'])
     return out, emp
 
 
@@ -274,9 +276,9 @@ def main():
         hosp[y] = {'net': sum(sh[k] * hr[k] for k in hr) * gn_[y],
                    'net_high': sum(sh[k] * hs[k] for k in hs) * gn_[y],
                    'commercial_loss': (sh['employer'] * hr['employer'] + sh['individual'] * hr['individual']) * gn_[y]}
-    exclusion = {y: series[y]['employer_moved'] * f['tax_exclusion'] * gf[y] for y in YEARS + [2040]}
+    exclusion = {y: series[y]['moved_gf'] * f['tax_exclusion'] for y in YEARS + [2040]}
     # half pass-through of employer-paid premiums into wages (review F-3): revenue lost against CBO's convention
-    half = {s_: {y: series[y]['employer_moved'] * 0.5 * f['tau'] * emp * (1 - s_) * gf[y] for y in [2032, 2040]}
+    half = {s_: {y: series[y]['moved_gf'] * 0.5 * f['tau'] * emp * (1 - s_) for y in [2032, 2040]}
             for s_ in (0.0, neutral)}
     out = {
         'hospital_revenue_change': {y: {k_: round(v, 1) for k_, v in hosp[y].items()} for y in YEARS},

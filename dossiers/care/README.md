@@ -1,6 +1,6 @@
 # Dossier: Care you can count on (flagship 2)
 
-Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D. Level: every care item is at L1 in `agenda/agenda.csv` (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
+Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D. Level: the health rows (HLT-1, 2, 6, 7, 8, A1, A2, A4 and RTS-2) are at L2 in `agenda/agenda.csv`, with HLT-3, HLT-5 and HLT-A3 as alternatives, and L3 follows the milestone review's fix steps and re-check; the other care items are at L1 (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
 
 **What it brings together** (`charter/PLAN.md` 3.1):
 - health coverage restored and extended, by single-payer Medicare for All, a public option or a staged path between them, weighed in full (`DEC-2026-11-09-07`; the charter wording is #195, for Espen);
@@ -8,7 +8,7 @@ Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D. Level
 - child care and pre-K;
 - the care workforce.
 
-**Agenda items:** HLT-1 to HLT-6, HLT-A1 to HLT-A4, FAM-2 and FAM-2A to 2D (`agenda/agenda.csv`, `home_dossier` = `care`). Legacy designs: `legacy/domains/domain-health.md`, `legacy/domains/domain-family.md` (FAM-2) and the `legacy/sources/health-*` files.
+**Agenda items:** HLT-1 to HLT-8, HLT-A1 to HLT-A4, RTS-2 (its home moved to care in `DEC-2026-11-10-11`), FAM-2 and FAM-2A to 2D (`agenda/agenda.csv`, `home_dossier` = `care`). Legacy designs: `legacy/domains/domain-health.md`, `legacy/domains/domain-family.md` (FAM-2) and the `legacy/sources/health-*` files.
 
 **Outcomes it serves:**
 - OUT-03, care people can count on, for every age;
@@ -24,8 +24,8 @@ Health comes first, because its choice (single-payer, a public option or a stage
 | --- | --- | --- |
 | **A. Health** | 1. The problem: `1-problem.md`. Who is uninsured and underinsured, medical debt, spending and prices against peers, Medicare Advantage overpayment, long-term care waiting lists, outcomes; and the January 2029 baseline: the enhanced credits' expiry (not extended), the 2025 reconciliation law's Medicaid and marketplace changes date by date from the statute, CBO's 36.6 million uninsured in 2029 | Draft (stage D, step 2) |
 | | 2. What works: `2-what-works.md`. Coverage and mortality, automatic enrollment, churn and work requirements; single-payer estimates (CBO, Urban, RAND, Mercatus, the Lancet, PERI) and what drives their range; Vermont and California; state public options (Washington, Colorado, Nevada); Taiwan, Canada, the Netherlands, Switzerland, Germany, Australia; price caps and Maryland; a lower Medicare age; failures to avoid | Draft (stage D, step 2) |
-| | 3. Design choices: `3-design.md` and five memos in `memos/` (1 the shape: public option, staged path to single-payer, single-payer, universal multi-payer; 2 the transition; 3 the financing interface; 4 benefits; 5 provider payment), plus seven yes-or-no points (restore first; automatic enrollment, no work requirement; every resident, proposed to immigration; Medicare upgrades; Medicare Advantage at MedPAC's estimate; rural health through USDA's Community Facilities program; the hospital trust fund). One batched set for Espen; each decided on its own | Draft (stage D, step 3), for Espen |
-| | The health coverage model (`charter/PLAN.md` 3.4): `models/tools/health-coverage/` (exploratory), only what the memo set needs: coverage, federal cost and household cost by option, with a model card and CBO benchmarks | In review (step 3m, PR #201) |
+| | 3. Design choices: `3-design.md` and five memos in `memos/` (1 the shape: public option, staged path to single-payer, single-payer, universal multi-payer; 2 the transition; 3 the financing interface; 4 benefits; 5 provider payment), plus seven yes-or-no points (restore first; automatic enrollment, no work requirement; every resident, proposed to immigration; Medicare upgrades; Medicare Advantage at MedPAC's estimate; rural health through USDA's Community Facilities program; the hospital trust fund). One batched set for Espen; each decided on its own | Decided (`DEC-2026-11-10-09`, `-11`, `-12`, `-13`) |
+| | The health coverage model (`charter/PLAN.md` 3.4): `models/tools/health-coverage/` (exploratory), only what the memo set needs: coverage, federal cost and household cost by option, with a model card and CBO benchmarks | Done (step 3m, #201 and #204) |
 | | 4. Specification: `4-specification.md`, `provisions.json` (41 provisions: HLT-1, 2, 6, 7, 8 and RTS-2). The 2029 reconciliation act restores coverage; the Medicare for All Act of 2029 builds one public plan in waves (2031; 2033-35) to the January 1, 2035 endpoint | Draft (stage D, step 4, PR 1) |
 | | 5. Delivery: `5-delivery.md`. CMS runs the plan from records; the timeline to 2035; remedies; states' roles; rural delivery | Draft (step 4, PR 1) |
 | | 6. Cost: `6-cost.md`, on the coverage model with `tools/health_path.py`, on fiscal years. About $24.6 trillion over FY2030-39 and $4.7 trillion in FY2040 ($4,680 billion) net federal cost before the employer contribution (about $19.2 trillion and $3.6 trillion with it at 65%); exploratory, not a score | Draft (step 4; revised after the milestone review) |
