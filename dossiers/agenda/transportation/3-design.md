@@ -80,7 +80,7 @@ Transportation relies on few of `dossiers/shared-rules.md`'s rules, because it h
 
 ## Fork 1. Who pays for road repair (memo 1)
 
-- **The question.** Fuel taxes have not risen since 1993, and electric cars pay no fuel tax. What fills the gap: higher fuel taxes, a per-mile charge on clean vehicles, the general fund, or a mix?
+- **The question.** Fuel taxes have not risen since 1993 [EV-MOV-135], and electric cars pay no fuel tax. What fills the gap: higher fuel taxes, a per-mile charge on clean vehicles, the general fund, or a mix?
 - **As chosen (option A).**
   - Fuel taxes are made permanent and indexed, plus ten 3-cent steps from October 2029, each deferred in a year of high gas prices.
   - Clean vehicles pay per mile at the rate a 40-mpg car pays in fuel tax.
