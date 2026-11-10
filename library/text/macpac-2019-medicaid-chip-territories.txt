@@ -1,0 +1,710 @@
+Source: https://www.macpac.gov/wp-content/uploads/2019/07/Medicaid-and-CHIP-in-the-Territories.pdf
+Publisher: Medicaid and CHIP Payment and Access Commission
+Retrieved: 2026-11-10
+Original SHA-256: 2b0f37ee895925f0bc3d6932b351d02b3c592b34d47c84cc12871b436da46c42
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+February 2021
+
+Advising Congress on Medicaid and CHIP Policy
+
+Medicaid and CHIP in the Territories
+Medicaid and the State Children’s Health Insurance Program (CHIP) operate in the five U.S. territories—
+American Samoa, the Commonwealth of the Northern Mariana Islands (CNMI), Guam, Puerto Rico, and the
+U.S. Virgin Islands (USVI). This fact sheet summarizes federal requirements and design features of these
+programs in the territories, including eligibility and enrollment, benefits, financing and spending, data and
+reporting, and quality and program integrity. For more details on each territory’s individual program, see
+MACPAC’s territory-specific fact sheets.
+Individuals born in CNMI, Guam, Puerto Rico, and USVI are U.S. citizens, and those born in American
+Samoa are U.S. nationals. 1 Their eligibility for federally subsidized programs varies by territory and
+program. For example, residents of all five territories may participate in Medicaid, CHIP, Medicare, and
+Social Security, but none except those in CNMI are eligible for Supplemental Security Income (SSI)
+(Committee on Ways and Means 2014).
+Under the Social Security Act (the Act) the territories are considered states for the purposes of Medicaid
+and CHIP, unless otherwise indicated (§ 1101(a)(1) of the Act). However, their programs differ in many
+respects from those in the 50 states and the District of Columbia. The most notable difference is that
+rather than having an open-ended financing structure, Medicaid in the territories operates with an annual
+ceiling on federal financial participation, referred to as the Section 1108 cap or Section 1108 allotment (§
+1108(g) of the Act). The federal government matches territory dollars up to the specified annual Section
+1108 allotment, and beyond that, the territories generally must fund their programs with local funds.
+Because Medicaid still operates as an entitlement with benefits guaranteed to all eligible individuals who
+apply, territories historically have exceeded their annual Section 1108 allotments.
+Two territories, CNMI and American Samoa, operate their Medicaid and CHIP programs under a Section
+1902(j) waiver that is uniquely available to them (§ 1902(j) of the Act). This provision allows the Secretary
+of the U.S. Department of Health and Human Services (the Secretary) to waive or modify any Medicaid
+requirement except for the statutory annual limit on federal Medicaid funding, the federal medical
+assistance percentage (FMAP), and the requirement that payment can only be for services otherwise
+coverable by Medicaid. For example, while neither of these territories provides all of Medicaid’s mandatory
+benefits, they are considered in compliance with federal Medicaid law.
+
+Eligibility and Enrollment
+All five territories are permitted to establish income-based eligibility using a measure other than the federal
+poverty level (FPL). Guam, Puerto Rico, and USVI use local poverty levels to establish eligibility, which are
+updated by an amendment to the Medicaid state plan. These three territories are also statutorily exempt
+from providing Medicaid coverage to certain mandatory coverage groups including poverty-related children
+
+2
+and pregnant women and qualified Medicare beneficiaries (§§ 1902(l)(4)(B) and 1905(p)(4)(A) of the Act).
+American Samoa and CNMI are also exempt from these requirements under their 1902(j) waivers.
+American Samoa and CNMI use unique methods to establish income-based eligibility. In American Samoa,
+Medicaid eligibility is not determined on an individual basis and individuals do not enroll in Medicaid or
+CHIP as they do in all other territories and states. Instead, federal Medicaid and CHIP funds pay for care
+provided in the territory in proportion to the population of American Samoans with income that would have
+fallen below the Medicaid and CHIP income eligibility threshold of 200 percent FPL (CMS 2014). CNMI, the
+only territory participating in SSI, uses SSI income and asset standards to determine Medicaid eligibility
+(CMS 2016a).
+Guam, Puerto Rico, and USVI have elected to expand their Medicaid programs to the new adult group
+under the Patient Protection and Affordable Care Act (ACA, P.L. 111-148, as amended) up to 133 percent of
+local poverty (CMS 2016a).
+All five territories operate Medicaid-expansion CHIP programs (CMS 2015). Puerto Rico is the only territory
+that uses its CHIP funds to cover additional children whose income levels exceed regular Medicaid
+eligibility levels. The other four territories use their CHIP funds to pay for services provided to children
+under age 19 in their Medicaid programs and can access the CHIP enhanced match for these individuals
+(CMS 2016a).
+Territories vary widely in the percentage of their populations covered by Medicaid or CHIP due to
+differences in eligibility standards and methodologies, as well as differences in the economic conditions
+for the territories (Table 1).
+TABLE 1. Medicaid and CHIP Enrollment as a Share of the Population, June 2019
+
+Territory
+
+Approximate percentage of
+population enrolled in Medicaid or
+CHIP
+
+Number of enrollees
+
+American Samoa
+
+37,829
+
+68.4%
+
+CNMI
+
+16,336
+
+28.6%
+
+Guam
+
+35,499
+
+21.2%
+
+1,209,026
+
+37.9%
+
+29,033
+
+27.2%
+
+Puerto Rico
+USVI
+
+Notes: CNMI is the Commonwealth of the Northern Mariana Islands. USVI is the U.S. Virgin Islands. Enrollment figures for American
+Samoa are estimates of the portion of the population below 200 percent FPL, the population for which Medicaid pays for health care
+services. American Samoa does not make individual eligibility determinations and does not have an enrolled population.
+
+3
+Sources: MACPAC analysis of Medicaid enrollment data collected through the Medicaid Budget and Expenditure System, April –
+June 2019 and 2019 World Populations Prospects data.
+
+Benefits
+Medicaid benefits vary across territories. American Samoa and CNMI are not required to offer mandatory
+Medicaid benefits under their Section 1902(j) waivers. Guam, Puerto Rico, and USVI are required to offer all
+mandatory benefits, but currently Guam is the only territory to do so. For example, USVI does not cover
+freestanding birth center or rural health clinic services; and Puerto Rico does not cover non-emergency
+medical transportation or nursing facility services, citing lack of infrastructure and funding (GAO 2016). In
+all territories, individuals under age 21 are eligible to receive early and periodic screening, diagnostic, and
+treatment services (EPSDT) (GAO 2016, CMS 2016e). 2 Additionally, all territories provide some optional
+benefits. For example, all territories cover prescription drugs, clinic services, dental services, and
+eyeglasses. 3
+All five territories’ Medicaid programs offer some form of cost-sharing assistance for Medicare enrollees
+who are also eligible for full Medicaid benefits (CMS 2016b). Medicaid programs in American Samoa,
+Guam, CNMI, and USVI pay Medicare Part B premiums for dually eligible individuals (CMS 2014d). Puerto
+Rico pays premiums and cost sharing for Medicare Platino plans, a type of Medicare Advantage special
+needs plan that includes Medicare Part A and B services as well as outpatient prescription drugs. Almost
+all dually eligible Puerto Ricans are enrolled in Medicare Platino (HHS 2013).
+The Medicare Savings Programs, which provide cost sharing assistance to individuals who would qualify
+as partially dually eligible individuals in the states, are not available in the territories. 4 Similarly, Medicare
+Part D plans are not available in the territories, but territorial Medicaid programs typically provide
+prescription drugs to dually eligible beneficiaries. To offset the cost of doing this, each territory receives an
+additional allotment from the Enhanced Allotment Plan, also referred to as 1935(e) funding. This allotment
+is separate from the Section 1108 allotment and can only be used to help pay for prescription drugs for
+low-income beneficiaries (§ 1935(e) of the Act). 5
+
+Delivery System
+Puerto Rico is currently the only territory to use Medicaid managed care, in which the entire Medicaid
+population is enrolled. Managed care organizations (MCOs) provide commonwealth-wide acute, primary,
+specialty, and behavioral health services. They are paid risk-based capitated payments. MCOs contract
+with primary medical groups, which in turn create preferred provider networks (PPNs). Enrollees are autoassigned to a health plan but may switch once per year, and do not need referrals for specialists in their
+PPN (MACPAC 2019b).
+The Medicaid programs in the other four territories operate on a fee-for-service basis. In American Samoa,
+Guam, and CNMI, the majority of Medicaid services are provided by one hospital with affiliated clinics that
+are owned and operated by the territory. In recent years, these territories have expanded the availability of
+
+4
+services at other locations and increased access to off-island services when medically necessary or when
+services are not available in the territory (CMS 2016a, MACPAC 2021a–c).
+The territories do not receive a Medicaid disproportionate share hospital (DSH) allotment and therefore do
+not make DSH payments to hospitals (§ 1923(f)(9) of the Act).
+
+Financing and Spending
+The federal government and territorial governments jointly finance the territories’ Medicaid programs. Each
+territory must contribute its non-federal share of Medicaid spending in order to access federal dollars,
+which are matched at the designated FMAP, or matching rate. Unlike the states and the District of
+Columbia, for which federal Medicaid spending is open ended, the territories can only access federal
+dollars up to the annual Section 1108 allotment.
+
+Federal funding
+The territories’ Section 1108 allotments are specified in statute, and grow with the medical component of
+the Consumer Price Index for All Urban Consumers (§ 1108(g)). The territories’ CHIP allotments are
+determined by the Centers for Medicare & Medicaid Services (CMS) based on prior-year spending, the
+same methodology used for states.
+In general, once a territory exhausts its annual federal Medicaid and CHIP allotments, it must fund its
+program with local funds. However, Congress has provided additional federal Medicaid funds on a
+temporary basis to the territories for over a decade. Most recently, Congress provided additional funds to
+the territories through the FY 2020 appropriations package, signed into law on December 20, 2019 (P.L.
+116-94), and the Families First Coronavirus Response Act, signed into law on March 18, 2020 (FFCRA, P.L.
+116-127). These actions raise each territory’s Section 1108 allotment for FYs 2020 and 2021 substantially
+(Table 2). 6
+TABLE 2. Territory Section 1108 Allotments FYs 2019–2022 (millions)
+2020
+
+Territories
+American
+Samoa
+
+2019
+$12.2
+
+Without P.L.
+116-94,
+FFCRA
+$12.4
+
+2021
+
+Current law
+
+Without P.L.
+116-94,
+FFCRA1
+
+Current law
+
+$86.3
+
+$12.7
+
+$85.6
+
+20221
+$13.0
+
+CNMI
+
+6.7
+
+6.9
+
+63.1
+
+7.1
+
+62.3
+
+7.2
+
+Guam
+
+18.0
+
+18.4
+
+130.9
+
+18.8
+
+129.7
+
+19.2
+
+Puerto Rico
+
+366.7
+
+375.1
+
+2,716.2
+
+383.7
+
+2,809.1
+
+392.5
+
+USVI
+
+18.3
+
+18.8
+
+128.7
+
+19.2
+
+127.9
+
+19.6
+
+Notes: FY is fiscal year. Section 1108 allotments reflect the annual federal allotments (or caps) for federal funds that territories
+receive under Section 1108(g) of the Social Security Act. P.L. 116-94 is the Further Consolidated Appropriations Act of 2020. FFCRA
+is the Families First Coronavirus Response Act (P.L. 116-127). CNMI is Commonwealth of the Northern Mariana Islands. USVI is U.S.
+
+5
+Virgin Islands. P.L. 116-94 initially raised each territory’s FYs 2020 and 2021 allotments to $84.0 million per fiscal year for American
+Samoa, $60.0 million per FY for CNMI, $127.0 million per fiscal year for Guam, and $126.0 million per fiscal year for USVI; it also
+raised Puerto Rico’s FY 2020 allotment to $2.6 billion and its FY 2021 allotment to $2.7 billion. FFCRA subsequently raised these
+allotments to the amounts shown.
+P.L. 116-94 included an additional $200 million per FY 2020 and FY 2021 for Puerto Rico if the Secretary certifies that Puerto Rico
+establishes a payment floor for physician services of at least 70 percent of the payment rates that would apply for such services
+under Medicare Part B. Puerto Rico implemented this payment increase in 2020 (ASES 2020).
+Estimated by trending pre-P.L 116-94 FY 2020 allotments by 2.3 percent (percent change in the medical component of the
+Consumer Price Index for All Urban Consumers for the 12-month period ending March 2019).
+
+1
+
+Source: MACPAC analysis of P.L. 116-94, FFCRA, CMS 2019b, and CMS 2019c.
+
+Congress previously provided additional federal Medicaid funds on several occasions. The American
+Recovery and Reinvestment Act (ARRA, P.L. 111-5) raised each territory’s annual allotment by 30 percent
+for the period between October 1, 2009 and June 30, 2011 (§ 5001(d) of ARRA). The ACA provided the
+territories with additional federal Medicaid funding on top of their existing Section 1108 allotments:
+Section 2005 provided a total of $6.3 billion in additional federal funds for the territories available to be
+drawn down between July 2011 and September 2019. Section 1323 provided an additional $1 billion to the
+territories available to be drawn down between January 2014 and December 2019.7 Total additional
+funding for each territory initially ranged from $109.2 million for CNMI to $6.3 billion for Puerto Rico (CMS
+2016a). 8
+The territories accessed these funds at different rates, reflecting differences in the structure of their
+programs and availability of funds to provide the non-federal share. Puerto Rico and CNMI drew their
+allotments down more quickly than other territories, with Puerto Rico facing imminent funding shortfalls in
+FYs 2017 and 2018, and CNMI experiencing a gap in federal Medicaid funds in March 2019. Congress
+subsequently provided additional appropriations to address imminent funding shortfalls in Puerto Rico and
+CNMI and to respond to natural disasters affecting all five territories in 2017, 2018, and 2019.
+•
+•
+
+•
+
+The Consolidated Appropriations Act of 2017 (P.L. 115-31) provided Puerto Rico with an additional
+$295.9 million.
+The Bipartisan Budget Act of 2018 (BBA 2018, P.L. 115-123) provided Puerto Rico with an additional
+$4.8 billion and USVI with an additional $142.5 million in federal Medicaid funds in response to the
+impact of Hurricane Maria on those territories’ health systems.9
+The Additional Supplemental Appropriations for Disaster Relief Act of 2019 (P.L. 116-20) provided
+CNMI with an additional $36 million.
+
+Congress has not made additional funding available after FY 2021 (i.e., September 30, 2021), which means
+that for FY 2022, territory Section 1108 allotments will revert back to their pre-P.L. 116-94 levels (Table 2).
+Territories will generally need to finance any Medicaid spending over the annual Section 1108 allotment
+with local funds. 10
+
+Federal medical assistance percentage
+The FMAP for the territories is set statutorily at 55 percent, unlike that of the states, which is set using a
+formula based on state per capita income (§ 1905(b) of the Act). There are several exceptions to the 55
+
+6
+percent FMAP. For FYs 2020 and 2021, the territories each have an increased FMAP. For American Samoa,
+CNMI, Guam, and USVI, the FMAP is 83 percent, and for Puerto Rico, it is 76 percent. During the national
+emergency declared in response to the COVID-19 outbreak, the territories will receive the 6.2 percentage
+point increase provided by FFCRA to all states and territories, effective January 1, 2020. This brings Puerto
+Rico’s FMAP to 82.2 percent and the other territories’ FMAPs to 89.2 percent during the emergency period
+(CMS 2020a). The territories will also receive a higher CHIP enhanced FMAP during the emergency period;
+99 percent for Puerto Rico and 100 percent for the other territories (CMS 2020a, b). 11 Like the states, the
+territories’ federal matching rate for almost all program administration is set at 50 percent (§ 1903(a)(7) of
+the Act).
+Territories are also eligible for certain enhanced FMAPs. While the territories cannot claim the higher
+FMAP for covering the ACA’s new adult group, they were eligible for a temporary 2.2 percentage point
+increase in their regular FMAP for all state plan populations between January 1, 2014 and December 31,
+2015 (§§ 1905(y)(1) and 1905(z)(1)(A) of the Act) (CMS 2016b). This raised their FMAPs to 57.2 percent
+during this period. Additionally, territories are eligible for the expansion-state enhanced FMAP for adults
+without dependent children that states were eligible to receive for expansions prior to the ACA, which is 90
+percent in calendar year 2020 (§ 1905(z)(2) of the Act). Currently, only Guam, Puerto Rico, and USVI are
+accessing this early expansion FMAP.12
+In general, territories must contribute a non-federal share at the applicable matching rate in order to gain
+access to federal funds. However, Congress has at times made some of the territories’ supplemental
+appropriations available at a 100 percent matching rate, including
+•
+•
+•
+
+funds provided for Puerto Rico and USVI under BBA 2018;
+ACA funds expended by American Samoa and Guam between January 1, 2019 and September 30,
+2019; and,
+funds provided to CNMI by P.L. 116-20. 13
+
+Additionally, through the Continuing Appropriations Act, 2020, and Health Extenders Act of 2019 (P.L. 11659) and the Further Continuing Appropriations Act, 2020, and Further Health Extenders Act of 2019 (P.L.
+116- 69), Congress provided all five territories with a temporary 100 percent matching rate for expenditures
+occurring from October 1, 2019 to December 20, 2019. 14
+The territories fund the non-federal share of their Medicaid and CHIP programs through general fund
+revenues and certified public expenditures. Puerto Rico, USVI, and Guam primarily operate using general
+funds, American Samoa primarily uses certified public expenditures, and CNMI uses a combination (CMS,
+2016e).
+
+Spending
+As noted above, additional funds provided to the territories by P.L. 116-94 and FFCRA were structured as
+part of the territories’ FYs 2020 and 2021 Section 1108 allotments. As a result, federal spending in FY 2020
+did not exceed the allotment in any territory and is unlikely do so in FY 2021 (unlike in years past, when
+additional federal funds were structured as separate allotments). Spending in Puerto Rico accounts for
+most of the federal Medicaid and CHIP spending in the territories. In FY 2020, federal Medicaid spending in
+
+7
+all five territories totaled $2.8 billion, with $2.5 billion (90 percent) attributable to Puerto Rico. Federal CHIP
+funding totaled $174.5 million, with $111.4 million (64 percent) attributable to Puerto Rico (Table 3).
+TABLE 3. Medicaid and CHIP Funding and Spending in the Territories, FY 2020 (millions)
+Medicaid
+
+Territory
+American
+Samoa
+
+Section
+1108
+allotment
+$86.3
+
+CHIP
+
+Spending
+Federal
+
+Federal
+allotment
+
+Territory
+
+$46.1
+
+Spending
+Federal
+
+Territory
+
+4.9
+
+$5.1
+
+$5.8
+
+$0.0
+
+CNMI
+
+63.1
+
+39.1
+
+3.6
+
+11.8
+
+16.5
+
+0.0
+
+Guam
+
+130.9
+
+122.8
+
+12.0
+
+35.0
+
+29.1
+
+0.0
+
+2,716.2
+
+2,516.9
+
+327.9
+
+192.8
+
+111.5
+
+0.8
+
+128.7
+
+77.8
+
+8.6
+
+11.6
+
+11.8
+
+0.0
+
+Puerto Rico
+USVI
+
+Notes: FY is fiscal year. CNMI is the Commonwealth of the Northern Mariana Islands. USVI is the U.S. Virgin Islands. Section 1108
+allotment reflects the annual federal allotments (or caps) that territories receive under Section 1108(g) of the Social Security Act.
+Federal CHIP allotments are provided under Section 2104 of the Social Security Act. If states and territories exhaust their own
+available CHIP allotments, they may receive additional funding from unused state CHIP allotments. American Samoa, CNMI, and
+USVI received these redistributed funds in FY 2020. For spending and allotments for FYs 2011–2019, see individual territory fact
+sheets.
+0.0 indicates a value less than 0.05.
+Sources: MACPAC 2021 analysis of the Families First Coronavirus Response Act (FFCRA, P.L. 116-127) and CMS-64 financial
+management report net expenditure data as of February 3, 2021; MACPAC 2020.
+
+Data and Reporting
+Like states, the territories report data on Medicaid and CHIP budget projections using Form CMS-37 and on
+enrollment and spending (both aggregate and by category) using Form CMS-64. The territories are not
+required to report expenditures beyond their federal limits, although, in general, they do report all of their
+spending (CMS 2016e).
+Under their Section 1902(j) waivers, American Samoa and CNMI are exempt from all data and reporting
+requirements. Additionally, none of the territories are considered states for the purpose of required
+quarterly reporting of statistical and program expenditure data for CHIP (42 CFR 457.740). Due to
+administrative capacity constraints USVI, Guam, and Puerto Rico are unable to report all of the same data
+as states even when they are not statutorily exempt. For example, CMS does not collect EPSDT service
+data via Form CMS-416 from any of the territories, or data on upper payment limit payments for any of the
+territories except Guam (CMS 2016d).
+Use of the Medicaid Management Information System (MMIS), which states typically use for processing
+claims, has been limited among the territories but this is changing. Puerto Rico and USVI now both have a
+fully operational MMIS certified to report data to the CMS Transformed Medicaid Statistical Information
+System (T-MSIS).15 T-MSIS is the primary administrative data set used for Medicaid program oversight and
+
+8
+accountability, and includes data on eligibility, enrollment, utilization, and spending. USVI implemented its
+MMIS in partnership with West Virginia (GAO 2015). 16 American Samoa, CNMI, and Guam do not have
+MMIS nor do they report information to T-MSIS, but they are required to demonstrate reasonable progress
+towards doing so by October 1, 2021 (P.L. 116-94). For the purposes of developing MMIS, territories can
+access federal Medicaid funds that do not apply toward their annual Section 1108 allotments at a 90
+percent federal match (CMS, 2016c).
+Territories are also facing new reporting requirements. Each territory must report to the chair and ranking
+member of the House Committee on Energy and Commerce and of the Senate Committee on Finance on
+how they used the extra funds provided by P.L. 116-94 within 30 days of the end of FYs 2020 and 2021.
+Puerto Rico is subject to additional requirements, including that it must establish and maintain a system
+for tracking amounts paid by the federal government to the territory and provide information about how
+these amounts were spent; report on selected measures in the Medicaid and CHIP Scorecard; and, upon
+CMS request, submit all documentation on contracts awarded by the territory Medicaid program.
+
+Quality Measurement and Program Integrity
+Territories are not required to participate in many of the federally required quality and program integrity
+efforts that apply to states. CNMI and American Samoa are exempt from these requirements through their
+1902(j) waivers. USVI, and Guam are statutorily exempt from the Payment Error Rate Measurement
+(PERM) program, from facing repayments under the Medicaid Eligibility Quality Control program (MEQC),
+and are not required to implement asset verification systems with financial institutions (42 CFR 431.954;
+and §§ 1903(u)(4) and 1940(a)(4) of the Act). Puerto Rico is now required to develop and publish plans to
+satisfy PERM and MEQC program requirements by June 2021.
+All five territories are required to designate a program integrity lead other than the Medicaid director within
+the Medicaid agency. 17 Some territories have implemented provider screening, as well as provisions
+related to non-payment for health care-acquired conditions and provider-preventable conditions. Puerto
+Rico, whose entire Medicaid population is enrolled in managed care, requires quality reporting in its
+managed care contracts (CMS 2016e). It further increased expectations for plans’ quality and program
+integrity responsibilities in its most recent managed care restructuring, implemented in 2018 (MACPAC
+2019b).
+While territories have not historically had Medicaid fraud control units (MFCUs), Puerto Rico established
+them in 2018 and USVI in 2019 (CMS 2018c). American Samoa, CNMI, and Guam must now take
+reasonable steps towards establishing MFCUs by October 2021. 18 Expenditures for establishing an MFCU
+do not count toward the Section 1108 allotment. 19
+Endnote
+
+1
+
+Residents of all territories may travel to or establish residency in any state on the mainland without restriction. However,
+while residing in the territory, they cannot vote in U.S. presidential elections, and do not have a voting representative in
+Congress. Additionally, they generally do not pay federal income taxes except on income from sources outside of their
+
+9
+
+territories, including the other territories and states, if that income is over the filing threshold. Residents of the territories do
+pay most other federal taxes, including Medicare taxes (IRS 2016).
+2
+
+While all territories technically provide the EPSDT benefit under the state plan, there are instances of limitations on the
+benefit. For example, a report by the 2011 President’s Task Force on Puerto Rico’s Status found that the children in Puerto
+Rico’s Medicaid program only received limited benefits through EPSDT (Muñoz et al. 2011).
+3
+
+Historically, territories were not included in the Medicaid drug rebate program but could receive territorial governmentmandated price concessions and other discounts. Effective April 1 2022, territories will be included in the Medicaid drug
+rebate program but may request a waiver to opt out (CMS 2019a).
+
+4
+
+Unlike the states, the territories are not required to establish Medicare Savings Programs (§ 1905(p)(4)(A) of the Act).
+
+5
+
+Individuals in the territories are not eligible for the Medicare Part D Low-Income Subsidy (§1935(e)(1)(A) of the Act).
+
+6
+
+P.L. 116-94 initially raised each territory’s FYs 2020 and 2021 allotments to $84.0 million per FY for American Samoa,
+$60.0 million per FY for CNMI, $127.0 million per FY for Guam, and $126.0 million per FY for USVI; it also raised Puerto Rico’s
+FY 2020 allotment to $2.6 billion and its FY 2021 allotment to $2.7 billion. FFCRA subsequently raised these allotments
+further (Table 2).
+
+7
+
+With the funds from Section 1323, territories could choose to establish a health insurance exchange or supplement their
+available federal Medicaid funds. None of the territories chose to establish an exchange.
+
+8
+
+Section 2005 funds were allocated to each territory by the Secretary. Of the $1 billion provided by Section 1323, $925
+million was directed to Puerto Rico by Congress and the remainder was allocated by the Secretary.
+
+9
+
+Of the BBA funds, $1.2 billion for Puerto Rico and $35.6 million for USVI were conditional on them meeting certain targets
+related to data reporting and program integrity, which they have met (CMS 2018b).
+10
+
+Federal funds for the Enhanced Allotment Plan, electronic health record incentive program payments, establishment and
+operation of eligibility systems, Medicaid Management Information Systems (MMIS), and—beginning on July 1, 2017 for
+Puerto Rico and January 1, 2018 for USVI—Medicaid fraud control units (MFCUs), do not apply toward the annual Section
+1108 allotment.
+
+11
+
+Prior to P.L. 116-94 and FFCRA, the territories’ FY 2020 CHIP enhanced FMAP was 80 percent (§ 2101(a) of the ACA;
+MACPAC 2019a). The higher FMAPs provided during the emergency period (82.2 percent for Puerto Rico and 89.2 percent
+for the other territories) serve as the base for calculating CHIP enhanced FMAPs during the emergency period (CMS 2020a,
+b).
+12
+
+Because of these exceptions to the FMAP, the overall federal share of spending can be higher than 55 percent. For
+example, in FY 2017, federal spending covered 66.4 percent of total spending in Puerto Rico (MACPAC 2019b).
+13
+
+P.L. 116-20 allowed American Samoa and Guam to access their remaining ACA Section 2005 funds at a 100 percent
+matching rate because prior to this legislation, both territories were projected to leave a significant amount of ACA funds
+unspent at the time of expiration, due to difficulty generating the non-federal share needed to draw down these funds.
+14
+P.L. 116-59 provided a 100 percent matching rate from October 1, 2019 to November 21, 2019; P.L. 116-69 extended the
+100 percent matching rate through December 20, 2019.
+
+10
+
+15
+
+The Bipartisan Budget Act of 2018 conditioned a portion of the additional funds it provided to Puerto Rico and USVI on
+making improvements to their data reporting and program integrity capacity. The territories were required to make
+reasonable and appropriate steps, as certified by and on a timeline specified by the Secretary, toward establishing methods
+of collecting and reporting reliable data to the Transformed Medicaid Statistical Information System (T-MSIS) and
+establishing an MFCU. Both Puerto Rico and USVI met their targets on schedule and received the full amount of BBA funds
+(CMS 2018b).
+
+16
+
+West Virginia began allowing USVI to use its MMIS in 2013 in a first-of-its-kind partnership. While West Virginia does not
+charge for the use of the system, USVI does contribute toward maintenance and operating costs, which it pays directly to
+the fiscal agent. This arrangement allows USVI to avoid having to construct a system from scratch and allows West Virginia
+to reduce its own contribution towards maintenance and operations (GAO 2015, CMS 2016b).
+
+17
+
+Territories that do not satisfy this requirement will be subject to an FMAP reduction in each quarter of FY 2021. The
+amount of the potential reduction is 0.25 percentage points multiplied by the number of quarters the requirement is not
+satisfied (not to exceed 5 percentage points).
+
+18
+
+American Samoa and CNMI are not required to establish MFCUs under their Section 1902(j) waivers, but P.L. 116-94
+required the Secretary to periodically reevaluate whether the waivers should continue to apply to MFCU requirements.
+19
+Federal financial participation for such expenditures has been excluded from Puerto Rico’s annual Section 1108 allotment
+since July 1, 2017 and from the USVI’s annual allotment since January 1, 2018 (§ 1108(g)(4) of the Act).
+
+References
+Administración de Seguros de Salud de Puerto Rico (ASES 2020a). History of obligated fiscal year 2020 federal Medicaid
+funding. Provided to MACPAC in an e-mail, September 11.
+Administración de Seguros de Salud de Puerto Rico (ASES). 2017. Projected Puerto Rico Medicaid funding for fiscal year
+2017 (July 1, 2017–July 1, 2018). Data provided to MACPAC, August 18.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2020a. E-mail to MACPAC,
+March 27.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2020b. Families first
+Coronavirus Response Act—Increased FMAP FAQs. March 24. Baltimore, MD: CMS. https://www.medicaid.gov/stateresource-center/downloads/covid-19-section-6008-faqs.pdf.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2019a. Medicaid program:
+Covered outpatient drug; further delay of inclusion of territories in definitions of states and United States. Federal Register
+84, no. 227 (November 25): 64783–64787. https://www.federalregister.gov/documents/2019/11/25/2019-25514/medicaidprogram-covered-outpatient-drug-further-delay-of-inclusion-of-territories-in-definitions-of.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2019b. Calculation of
+territory Medicaid limits fiscal year 2020 per Sections 1108(f) and 1108(g) of the Social Security Act. Provided to MACPAC
+by e-mail, May 17.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2019c. Medicaid funding
+for the territories. Data provided to MACPAC by e-mail, April 26.
+
+11
+
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2018a. Total Medicaid
+enrollees—VIII group breakout report, August 2017. November 2018. Baltimore, MD: CMS.
+https://www.medicaid.gov/medicaid/program-information/medicaid-and-chip-enrollment-data/enrollment-mbes/index.html.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2018b. Telephone
+conversation with MACPAC, October 12.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2016a. State Medicaid
+and CHIP profiles. https://www.medicaid.gov/state-overviews.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2016b. Telephone
+conversation with MACPAC, January 13.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2016c. E-mail to MACPAC,
+January 15.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2016d. Medicaid program;
+covered outpatient drug; delay in change in definitions of states and United States. Interim final rule with comment period.
+Federal Register 81, no. 220 (November 15): 80003–80005. https://www.govinfo.gov/content/pkg/FR-2016-11-15/pdf/201627423.pdf.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2016e. E-mail to MACPAC,
+March 23.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2015a. Children’s Health
+Insurance Program Plan Activity as of May 1, 2015. http://www.medicaid.gov/chip/downloads/chip-map.pdf.
+Center for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2014. Amendment to the
+American Samoa state plan. June 6, 2014. San Francisco, CA: CMS. http://www.medicaid.gov/State-resourcecenter/Medicaid-State-Plan-Amendments/Downloads/AS/AS-12-004.pdf.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2013. Report to the
+President’s task force on Puerto Rico’s status. Baltimore, MD: CMS. Report provided to MACPAC by e-mail, January 14, 2016.
+Central Intelligence Agency (CIA). 2015. Country Comparison: Population. In The World Factbook. Langley, VA: CIA.
+https://www.cia.gov/library/publications/the-world-factbook/rankorder/2119rank.html.
+Committee on Ways and Means, U.S. House of Representatives. 2014. Green book: Background material and data on the
+programs within the jurisdiction of the Committee on Ways and Means. Appendix B. Washington, DC: Committee on Ways
+and Means. https://greenbook-waysandmeans.house.gov/2014-green-book/appendix-b-social-welfare-programs-in-theterritories.
+Departamento de Salud (DS), Goberniero de Puerto Rico. 2019. Programa de Medicaid: Estadísticas. San Juan, PR: DS.
+http://www.medicaid.pr.gov/Statistics.aspx.
+Internal Revenue Service (IRS). 2016. Tax topic 901: Is a person with income from Puerto Rico required to file a U.S. federal
+income tax return? June 20, 2016. Washington, DC: IRS. https://www.irs.gov/taxtopics/tc901.html.
+
+12
+
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2021a. Medicaid and CHIP in American Samoa. February
+2021. Washington, DC: MACPAC. https://www.macpac.gov/publication/medicaid-and-chip-in-american-samoa/.
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2021b. Medicaid and CHIP in the Commonwealth of the
+Northern Mariana Islands. February 2021. Washington, DC: MACPAC. https://www.macpac.gov/publication/medicaid-andchip-in-the-commonwealth-of-the-northern-mariana-islands/.
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2021c. Medicaid and CHIP in Guam. February 2021.
+Washington, DC: MACPAC. https://www.macpac.gov/publication/medicaid-and-chip-in-guam/.
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2020. Exhibit 34: Federal CHIP allotments, FYs 2018–
+2020. In MACStats: Medicaid and CHIP data book. December 2020. Washington, DC: MACPAC.
+https://www.macpac.gov/publication/federal-chip-allotments/.
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2019a. Exhibit 6: Federal medical assistance percentages
+(FMAPs) and enhanced federal medical assistance percentages (E-FMAPS) by state, FYs 2016–2020. In MACStats:
+Medicaid and CHIP data book. December 2019. Washington, DC: MACPAC. https://www.macpac.gov/publication/federalmedical-assistance-percentages-fmaps-and-enhanced-fmaps-e-fmaps-by-state-selected-periods/.
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2019b. Chapter 5: Mandated report—Medicaid in Puerto
+Rico. In June 2019 Report to Congress on Medicaid and CHIP. Washington, DC: MACPAC.
+https://www.macpac.gov/publication/mandated-report-medicaid-in-puerto-rico-2/.
+Muñoz, C., T.J. Perrelli, T. Trevino et al. 2011. Report by the President’s task force on Puerto Rico’s status. Washington, DC: The
+White House. https://obamawhitehouse.archives.gov/sites/default/files/uploads/Puerto_Rico_Task_Force_Report.pdf.
+U.S. Census Bureau. 2017. Annual estimates of the resident population for the United States, Regions, States, and Puerto
+Rico: April 1, 2010 to July 1, 2016.
+https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
+U.S. Government Accountability Office (GAO). 2016. Medicaid and CHIP: Increased funding in U.S. territories merits improved
+program integrity efforts. Report no. GAO-16-324. Washington, DC: GAO. http://www.gao.gov/assets/680/676438.pdf.
+U.S. Government Accountability Office (GAO). 2015. CMS supports use of program integrity system but should require states to
+determine effectiveness: Report to the ranking member, U.S. Senate Committee on Homeland Security and Governmental Affairs.
+Report no. GAO-15-207. Washington, DC: GAO. http://gao.gov/assets/670/668233.pdf.
+
+

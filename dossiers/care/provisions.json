@@ -318,6 +318,38 @@
   "spec": "dossiers/care/4-specification.md"
  },
  {
+  "id": "HLT-7.28",
+  "title": "The territories",
+  "agenda": "HLT-7",
+  "status": "decided in substance (point 3, DEC-2026-11-10-09: every resident); the wave and the share are working choices",
+  "decisions": [
+   "DEC-2026-11-10-09"
+  ],
+  "parameters": "Residents of Puerto Rico, Guam, the U.S. Virgin Islands, the Northern Mariana Islands and American Samoa are residents under HLT-7.01 and are entitled on the same dates: the uninsured, the individual market and children in wave 1 (2031); Medicaid enrollees in wave 2's first cohort (2033, working choice: their programs are the smallest and run on capped allotments); employer groups by firm size with the rest of wave 2; Medicare enrollees at the endpoint. Each territory pays the fund the same share as a state under HLT-7.17 (half of its own current Medicaid spending for the people who move), which is small because federal Medicaid money there is capped; the cap and the territories' separate matching rate end for the care that moves",
+  "eligibility": "Residents of Puerto Rico, Guam, the U.S. Virgin Islands, the Northern Mariana Islands and American Samoa (about 3.5 million people)",
+  "vehicle": [
+   {
+    "vehicle": "regular bill",
+    "kind": "mandatory",
+    "note": "Medicare for All Act of 2029 (regular order under D2)"
+   }
+  ],
+  "agency": "HHS (CMS); the territories' governments",
+  "current_law": "Territories' federal Medicaid money is capped by an annual allotment, with the territory paying all costs above it; the statutory matching rate is 55%, with higher rates set by recent laws (83% for four territories; 76% for Puerto Rico through FY2027) [EV-CAR-358] [EV-CAR-359]; Puerto Rico's rate reverts to 55% and its cap is cut from FY2028 under current law [EV-CAR-362].",
+  "evidence": [
+   "EV-CAR-356",
+   "EV-CAR-357",
+   "EV-CAR-358",
+   "EV-CAR-359",
+   "EV-CAR-360",
+   "EV-CAR-361",
+   "EV-CAR-362"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 2 (the territories, about $0.13 trillion over FY2030-39)",
+  "spec": "dossiers/care/4-specification.md"
+ },
+ {
   "id": "HLT-7.05",
   "title": "Comprehensive benefits, including abortion and reproductive care",
   "agenda": "HLT-7",
@@ -596,8 +628,10 @@
   "id": "HLT-7.15",
   "title": "Hospital transition fund and a revenue floor for global-budget hospitals",
   "agenda": "HLT-7",
-  "status": "recommended; for Espen (question 1)",
-  "decisions": [],
+  "status": "decided (DEC-2026-11-10-13)",
+  "decisions": [
+   "DEC-2026-11-10-13"
+  ],
   "parameters": "A capped fund, $100 billion over FY2033-38 (working figure, range $50-150 billion), for hospitals whose net patient revenue falls more than 5% below their pre-transition level as their patients' coverage moves; first claim for global-budget hospitals (HLT-7.11) and sole providers in their area; for three years after their area moves, global budgets are at least the hospital's pre-transition net patient revenue, indexed, paid from the fund; replacement falls from 100% of the loss in the first year to 20% in the fifth; conditions: keep emergency, obstetric and behavioral health services open, no fund money for executive bonuses or distributions to owners. Keeps the five-year glide unchanged",
   "eligibility": "Hospitals whose net patient revenue falls more than 5% below their pre-transition level as their patients' coverage moves; global-budget hospitals and sole providers in their area have first claim; the federal government pays the fund",
   "vehicle": [
@@ -620,7 +654,7 @@
    "EV-CAR-341"
   ],
   "sources": [],
-  "cost_source": "6-cost.md, part 3 (hospital options)",
+  "cost_source": "6-cost.md, part 2 (firm, about $0.10 trillion over FY2033-38) and part 3 (hospital options)",
   "spec": "dossiers/care/4-specification.md"
  },
  {
@@ -658,24 +692,29 @@
   "id": "HLT-7.17",
   "title": "States keep paying a share: maintenance of effort",
   "agenda": "HLT-7",
-  "status": "decided (DEC-2026-11-10-09)",
+  "status": "decided (DEC-2026-11-10-09); the mechanism, a direct obligation on the Part D clawback model, is a drafting and legal choice that follows from it",
   "decisions": [
    "DEC-2026-11-10-09"
   ],
-  "parameters": "Each state pays the fund a fixed amount for its residents who move: half of its own current Medicaid spending for them (working figure; range 0-80%, set by the financing settlement), indexed to the plan's per-person cost growth; long-term care stays with the state under HLT-7.07",
+  "parameters": "Amount: each state pays the fund, monthly, half of its own current Medicaid spending for its residents who move (working figure; range 0-80%, set by the financing settlement), indexed to the plan's per-person cost growth; a state's spending on dual eligibles' Medicare premiums and cost sharing, which end at the endpoint, counts in that spending; long-term care stays with the state under HLT-7.07. Mechanism (one, used in every section): a direct obligation written in the Act, on the model of Medicare Part D's \"phased-down state contribution\" (the clawback) that states have paid since 2006 (42 U.S.C. 1396u-5(c)). It is not a condition on Medicaid or on any grant: a state owes it whether or not it keeps a Medicaid program, and it is collected by offset against federal payments to the state, with interest, as the clawback is. Legal risk, stated: the Supreme Court held in 2012 that threatening states' existing Medicaid funds to force a new program was coercive (*NFIB v. Sebelius*); the clawback is a different instrument (an obligation, not a condition) and has never been decided on the merits, so a court could still read the offset as the same leverage. If it fails in court, the payment ends (hold harmless) and the financing settlement covers the difference, about $307 billion in 2032 (section 6, part 6). When part B decides long-term care, if it brings new federal money for states' long-term care, the payment moves to become a condition on that new money, which a state may decline, and the offset ends",
   "eligibility": "States pay: each state pays the fund a fixed amount for its residents who move",
   "vehicle": [
    {
     "vehicle": "regular bill",
     "kind": "revenue",
-    "note": "Medicare for All Act of 2029 (regular order under D2)"
+    "note": "Medicare for All Act of 2029 (regular order under D2): a direct obligation of states, collected by offset; offsetting receipts in the booking"
    }
   ],
   "agency": "HHS (CMS); states",
-  "current_law": "States now pay about a third of Medicaid and CHIP costs [EV-CAR-060]; the plan keeps part of that money flowing as a fixed payment.",
+  "current_law": "States pay about a third of Medicaid's cost [EV-CAR-060]. Since 2006 states have paid Medicare Part D a monthly phased-down contribution for dual eligibles' drugs, collected with interest by offset against federal Medicaid payments (42 U.S.C. 1396u-5(c)) [EV-CAR-353] [EV-CAR-354]. NFIB v. Sebelius (2012) held that threatening existing Medicaid funds to force a new program was coercive [EV-CAR-351].",
   "evidence": [
    "EV-CAR-060",
-   "EV-CAR-278"
+   "EV-CAR-278",
+   "EV-CAR-351",
+   "EV-CAR-352",
+   "EV-CAR-353",
+   "EV-CAR-354",
+   "EV-CAR-355"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 4 (the fund's streams)",
@@ -799,7 +838,7 @@
   "decisions": [
    "DEC-2026-11-10-11"
   ],
-  "parameters": "Receives: Medicare's payroll tax and general revenue for Parts B and D (premiums end for each group as it moves); the federal Medicaid and CHIP money and premium-credit money the plan replaces; FEHB's employer share; the revenue from ending the employer tax exclusion, counted only on former premiums that become taxable wages, never on premiums replaced by the employer contribution; the states' payments (HLT-7.17); the employer contribution (HLT-7.18); new revenue from the financing settlement. The hospital insurance trust fund is kept whole until the endpoint, with Medicare savings credited to it first, then folds in",
+  "parameters": "Receives: Medicare's payroll tax and general revenue for Parts B and D (premiums end for each group as it moves); the federal Medicaid and CHIP money and premium-credit money the plan replaces; FEHB's employer share, which is the contribution the government pays for its own workers under HLT-7.26 (intragovernmental, counted once and not as revenue); the revenue from ending the employer tax exclusion, counted only on former premiums that become taxable wages, never on premiums replaced by the employer contribution; the states' payments (HLT-7.17); the employer contribution (HLT-7.18); new revenue from the financing settlement. The hospital insurance trust fund is kept whole until the endpoint, with Medicare savings credited to it first, then folds in",
   "eligibility": "Pays for the plan from its named streams: Medicare's payroll tax and general revenue, federal Medicaid, CHIP and premium-credit money, FEHB's employer share, revenue from ending the employer tax exclusion, state payments, the employer contribution and new financing revenue",
   "vehicle": [
    {
@@ -909,7 +948,7 @@
   "decisions": [
    "DEC-2026-11-10-11"
   ],
-  "parameters": "Federal employees and retirees join the plan with the endpoint cohort; the federal government pays the employer contribution (HLT-7.18) for them like any employer",
+  "parameters": "Federal employees and retirees join the plan with the endpoint cohort; the federal government pays the employer contribution (HLT-7.18) for them like any employer, the same money as HLT-7.22's FEHB employer share (an intragovernmental transfer, not revenue)",
   "eligibility": "Federal employees and retirees (FEHB enrollees), who join with the endpoint cohort; the federal government pays the employer contribution for them",
   "vehicle": [
    {
