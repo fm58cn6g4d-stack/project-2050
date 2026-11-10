@@ -172,7 +172,7 @@ class Ctx:
         self.cells = {s: list(v) for s, v in B['cells0'].items()}
         self.flows = []
 
-    def move(self, frm, to, n, weights=None, spend_to=None, label=''):
+    def move(self, frm, to, n, weights=None, spend_to=None, label='', spend_from=None):
         src = self.cells[frm]
         w = weights if weights is not None else [x / sum(src) if sum(src) else 0 for x in src]
         moved = 0.0
@@ -181,7 +181,7 @@ class Ctx:
             src[b] -= k
             self.cells[to][b] += k
             moved += k
-        self.flows.append({'label': label, 'from': frm, 'to': to, 'n': moved, 'spend_to': spend_to})
+        self.flows.append({'label': label, 'from': frm, 'to': to, 'n': moved, 'spend_to': spend_to, 'spend_from': spend_from})
         return moved
 
     def total(self, s):
@@ -208,6 +208,28 @@ def spend_pp(B, s):
     if s == 'uninsured':
         return B['unins_total_pp']
     return 0.0
+
+
+def oop_of(B, s):
+    """Out-of-pocket spending per person for a source cell, $."""
+    oop = B['oop_pp']
+    if s in ('ng_sub', 'ng_unsub', 'po'):
+        return oop['ng']
+    if s == 'uninsured':
+        return oop['unins']
+    if s.startswith('medicare'):
+        return oop['medicare']
+    return oop.get(s, 0.0)
+
+
+def spend_from_age(B, I, s, w):
+    """Source spending for a mover into an age window: the source's premium (or, for the uninsured, total care)
+    scaled by the window's age index, plus the source's out-of-pocket spending, so before and after compare the
+    same people (Codex review of #201)."""
+    a = I[f'age_idx_{w}']
+    if s == 'uninsured':
+        return B['unins_total_pp'] * a
+    return (spend_pp(B, s) - oop_of(B, s)) * a + oop_of(B, s)
 
 
 def apply_scenario(I, B, P):
@@ -245,7 +267,8 @@ def apply_scenario(I, B, P):
                None, spend_pp(B, 'po') * nf, 'public option: auto-enrolled uninsured')
         for src, key, prem in [('ng_sub', 'po_shift_ng_sub', B['prem_ng']), ('ng_unsub', 'po_shift_ng_unsub', B['prem_ng']),
                                ('esi', 'po_shift_esi', B['P_phi'])]:
-            C.move(src, 'po', C.total(src) * I[key] * k, None, spend_pp(B, src) - prem * (1 - rho), f'public option: from {src}')
+            # one destination basis across the spending, federal and household ledgers (Codex review of #201)
+            C.move(src, 'po', C.total(src) * I[key] * k, None, spend_pp(B, 'po'), f'public option: from {src}')
     # 3. Medicare age stages
     mk = P.get('medicare_takeup_scale', 1.0)
     for w in WINDOWS:
@@ -255,15 +278,20 @@ def apply_scenario(I, B, P):
         to = 'medicare_' + w
         cost = spend_pp(B, to)
         if w == 'kids':
-            C.move('uninsured', to, C.total('uninsured') * I['win_unins_kids'] * I['kids_takeup_unins'] * mk, None, cost * nf, 'children: uninsured')
+            C.move('uninsured', to, C.total('uninsured') * I['win_unins_kids'] * I['kids_takeup_unins'] * mk, None, cost * nf, 'children: uninsured',
+                   spend_from=spend_from_age(B, I, 'uninsured', w))
             for src in ['esi', 'ng_sub', 'ng_unsub', 'po']:
                 key = 'win_esi_kids' if src == 'esi' else 'win_ng_kids'
-                C.move(src, to, C.total(src) * I[key] * I['kids_switch'] * mk, None, cost, f'children: from {src}')
+                C.move(src, to, C.total(src) * I[key] * I['kids_switch'] * mk, None, cost, f'children: from {src}',
+                       spend_from=spend_from_age(B, I, src, w))
         else:
-            C.move('uninsured', to, C.total('uninsured') * I[f'win_unins_{w}'] * I['takeup_unins_med'] * mk, None, cost * nf, f'{w}: uninsured')
+            C.move('uninsured', to, C.total('uninsured') * I[f'win_unins_{w}'] * I['takeup_unins_med'] * mk, None, cost * nf, f'{w}: uninsured',
+                   spend_from=spend_from_age(B, I, 'uninsured', w))
             for src in ['ng_sub', 'ng_unsub', 'po']:
-                C.move(src, to, C.total(src) * I[f'win_ng_{w}'] * I['takeup_ng_med'] * mk, None, cost, f'{w}: from {src}')
-            C.move('esi', to, C.total('esi') * I[f'win_esi_{w}'] * I['esi_dropout_med'] * mk, None, cost, f'{w}: from esi')
+                C.move(src, to, C.total(src) * I[f'win_ng_{w}'] * I['takeup_ng_med'] * mk, None, cost, f'{w}: from {src}',
+                       spend_from=spend_from_age(B, I, src, w))
+            C.move('esi', to, C.total('esi') * I[f'win_esi_{w}'] * I['esi_dropout_med'] * mk, None, cost, f'{w}: from esi',
+                   spend_from=spend_from_age(B, I, 'esi', w))
     return C, X
 
 
@@ -344,7 +372,8 @@ def run(I, P, B=None):
     dK = {k: K[k] - K0[k] for k in K}
     gross = sum(v for v in dK.values() if v > 0)
     offsets = -sum(v for v in dK.values() if v < 0)
-    nhe_d = sum(f['n'] * ((f['spend_to'] if f['spend_to'] is not None else spend_pp(B, f['to'])) - spend_pp(B, f['from']))
+    nhe_d = sum(f['n'] * ((f['spend_to'] if f['spend_to'] is not None else spend_pp(B, f['to']))
+                          - (f['spend_from'] if f.get('spend_from') is not None else spend_pp(B, f['from'])))
                 for f in C.flows) / 1000
     if P.get('po', 0):  # private premiums fall as the public option competes
         nhe_d -= (C.total('ng_sub') + C.total('ng_unsub')) * B['prem_ng'] * X['red'] / 1000
@@ -392,7 +421,13 @@ def assemble(I, B, cells, K, dK, gross, offsets, nhe_d, hh, X, extra=None):
 def run_single_payer(I, B, P):
     S, c, adm = B['S'], dict(B['c']), dict(B['adm'])
     ma_ffs = P.get('sp_ma_to_ffs', 1)
-    claims0 = {g: S[g] * (1 - adm[g]) for g in ['medicare', 'medicaid', 'phi', 'oop']}
+    # out-of-pocket spending of people outside the plan today (uninsured) or staying outside (other coverage)
+    # is not plan claims (Codex review of #201)
+    oop_unins_tot = B['oop_pp']['unins'] * sum(B['cells0']['uninsured']) / 1000
+    oop_other_tot = B['oop_pp']['other'] * sum(B['cells0']['other']) / 1000
+    S_in = dict(S)
+    S_in['oop'] = S['oop'] - oop_unins_tot - oop_other_tot
+    claims0 = {g: S_in[g] * (1 - adm[g]) for g in ['medicare', 'medicaid', 'phi', 'oop']}
     if P.get('sp_rate_basis', 'medicare') == 'blended':
         r = sum(claims0.values()) / sum(claims0[g] / c[g] for g in claims0) * P.get('sp_rate_factor', 1.0)
     else:
@@ -411,7 +446,10 @@ def run_single_payer(I, B, P):
     covered_now = B['pop'] - sum(B['cells0']['other']) - unins0
     new_n = max(0.0, unins0 - resid)
     avg_pp = C1 / covered_now * 1000
-    new_spend = new_n * max(0.0, I['new_enrollee_factor'] * avg_pp - B['unins_total_pp']) / 1000
+    # the plan pays newly covered people's full care; their earlier uncompensated care is displaced, which
+    # lowers national spending but transfers no recorded funding (Codex review of #201)
+    new_spend = new_n * I['new_enrollee_factor'] * avg_pp / 1000
+    displaced = new_n * max(0.0, B['unins_total_pp'] - B['oop_pp']['unins']) / 1000
     ltc = I['sp_ltc_added'] * P.get('sp_ltc', 0)
     Cc = C1 + new_spend + ltc  # provider revenue under the plan
     adm_sp = I['sp_admin']
@@ -431,7 +469,7 @@ def run_single_payer(I, B, P):
     gross = plan_outlay
     offsets = R + sum(replaced.values())
     net = gross - offsets
-    nhe_sp = plan_gross + S['other']
+    nhe_sp = plan_gross + S['other'] - displaced + oop_other_tot + resid * B['oop_pp']['unins'] / 1000
     # cells: everyone except other coverage and the residual uninsured is in the plan
     cells = {s: [0.0] * 4 for s in SRCS}
     cells['other'] = list(B['cells0']['other'])
