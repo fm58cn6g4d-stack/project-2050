@@ -195,3 +195,4 @@ Every decided amount and date, and where it appears. Search the dossier for an o
 - A current count of people in Medicare's disability waiting period and CBO's cost of ending it (the entries are from 2007-09).
 - S. 1506's secs. 104 (non-discrimination), 1004 (waiting period) and 1005 (Medigap) as entries anchored in SRC-3260.
 - Whether the trade-adjustment program was reauthorized after 2021 (HLT-7.16).
+- Check EV-CAR-340 (CBO, 2022) and EV-CAR-342 (Commonwealth Fund, 2009) against the originals: their quotations came from search extracts, before the milestone review.
