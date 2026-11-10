@@ -743,14 +743,14 @@
  {
   "id": "MR6",
   "option": "Income and payroll tax offset on new excises (25%)",
-  "channel": "Surface transportation trust fund",
+  "channel": "General fund",
   "lo": -0.1284,
   "mid": -0.1284,
   "hi": -0.1284,
-  "in_base": "No",
+  "in_base": "Yes",
   "reaches_middle": "No",
   "legal_risk": "",
-  "overlap": "Scoring convention",
+  "overlap": "Scoring convention, as CX for the carbon fees; lower income and payroll tax receipts fall on the general fund, while the trust fund keeps gross receipts",
   "source": "Moving America Draft 2"
  },
  {
