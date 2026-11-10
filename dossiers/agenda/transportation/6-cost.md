@@ -92,7 +92,7 @@ The model's CBO-net basis (`Model().cbo_basis(t)`) is the general fund's draw **
 | 2040 | 58.0 | 0.105% |
 | 2044 | 52.6 | 0.081% |
 
-Its period averages match Draft 2's CBO-basis column: 0.220% in FY2032-36 and 0.143% in FY2037-41 (`golden/report.txt`).
+Its period averages are 0.209% in FY2032-36, 0.117% in FY2037-41 and 0.085% in FY2042-46 (`cbo_basis(t)`, run November 10, 2026). Draft 2's CBO-basis column, 0.220% in FY2032-36 and 0.143% in FY2037-41, gives each period's highest year, as `golden/report.txt` does (`report.py` prints the maximum), not its average.
 
 **Why the booked figure is lower.** The budget model books $22.1 billion for three reasons:
 - **Timing.** It spreads each act's ten-year amount evenly. The real money is packages in FY2029-31 and top-ups in FY2032-36.
