@@ -1,0 +1,882 @@
+Source: https://www.oversight.gov/sites/default/files/documents/reports/2025-11/09803-0002-51_FR_508_FOIA_redacted_public.pdf
+Publisher: USDA Office of Inspector General
+Retrieved: 2026-11-09
+Original SHA-256: f4013f788cd7df2ffa358c5dd24a43b51b951cfa6c9880299a82f6712c5c5a49
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+U.S. Department of Agriculture
+Office of Inspector General
+
+IIJA – Rural Utilities Service’s
+Evaluation and Prioritization of
+the Level of Service for its
+Broadband ReConnect Program
+
+September 2025
+
+Inspection Report 09803-0002-51
+
+IMPORTANT NOTICE
+This report contains sensitive information that has been redacted for public release because it
+contains content that has been deemed privileged.
+
+The subsequent sections of the report are not being publicly released due to
+privileged content:
+Information related to Finding 2 (pages 10-11, 20-22).
+
+IIJA – Rural Utilities Service’s Evaluation and
+Prioritization of the Level of Service for its
+Broadband ReConnect Program
+
+Inspection Report 09803-0002-51
+
+OIG contracted an Independent Public Accounting firm to review the Rural
+Utilities Service’s process for evaluating and prioritizing the level of service
+provided for its broadband program, as well as how the current mapping
+software addresses previously identified programming errors.
+
+OBJECTIVES
+
+WHAT OIG FOUND
+
+The objectives were to determine:
+(1) how RUS evaluated and
+prioritized the level of service for
+its broadband program, funded by
+the Infrastructure Investment and
+Jobs Act, and the factors and tools it
+used to determine project selection
+for broadband service needs; and
+(2) whether RUS addressed and
+remediated the known issues with
+the mapping software currently
+utilized, and how that software was
+being utilized.
+
+The Independent Public Accounting (IPA) firm found
+that the Rural Utilities Service’s (RUS) Application
+Review Guides regarding the Program Manager’s
+Level 2 reviews of Summary Reports were not clear,
+and
+
+REVIEWED
+The IPA firm reviewed 62 out of
+489 application packages submitted
+in response to Round 3 and Round 4
+Funding Opportunity Announcements. They reviewed applicable rules,
+regulations, policies, and procedures,
+and conducted walkthroughs with RUS
+officials to gain an understanding of
+subject matters related to the objectives.
+
+RECOMMENDS
+We recommend that RUS: (1) align
+its Level 2 reviews of Summary
+Reports with its policies; and (2)
+
+Additionally, the IPA
+firm determined that RUS addressed and remediated
+the known issues with the current mapping software,
+which were identified in Round 1 and Round 2.
+RUS agreed with the IPA firm’s findings and
+recommendations, and we accepted management
+decision for all recommendations.
+
+OFFICE OF INSPECTOR GENERAL
+United States Department of Agriculture
+DATE:
+
+September 30, 2025
+
+INSPECTION
+NUMBER: 09803-0002-51
+TO:
+
+Karl Elmshaeuser
+Administrator
+Rural Utilities Service
+
+ATTN:
+
+CB Alonso
+Chief Risk Officer
+Office of the Chief Risk Officer Operations and Management
+Digitally signed by
+
+YARISIS
+YARISIS RIVERA ROJAS
+2025.09.30
+RIVERA ROJAS Date:
+14:42:33 -04'00'
+
+FROM:
+
+Yarisis Rivera-Rojas
+Acting Assistant Inspector General for Audit
+
+SUBJECT:
+
+IIJA – Rural Utilities Service’s Evaluation and Prioritization of the Level of
+Service for its Broadband ReConnect Program
+
+This report presents the results of our inspection of IIJA – Rural Utilities Service’s Evaluation
+and Prioritization of the Level of Service for its Broadband ReConnect Program. Your written
+response to the official draft is included in its entirety at the end of the report. Based on your
+written response, we are accepting management decision for the two recommendations in the
+report, and no further response to this office is necessary.
+In accordance with Departmental Regulation 1720-1, final action needs to be taken within 1 year
+of the date of each management decision. Please follow your internal agency procedures in
+forwarding final action correspondence to the Office of the Chief Financial Officer.
+We appreciate the courtesies and cooperation extended to us by members of your staff during our
+fieldwork and subsequent discussions. This report contains publicly available information and
+only publicly available information will be posted to our website (https://usdaoig.oversight.gov)
+in the near future.
+
+Table of Contents
+Background and Objectives ................................................................................... 1
+Objective Part 1: How Did RUS Evaluate and Prioritize the Level of Service
+for Its Broadband Program? ................................................................................. 7
+Finding 1: RUS’ Application Review Guides Regarding Level 2 Reviews of
+Summary Reports of Eligible Applications Were Not Clear .............................. 7
+Recommendation 1 ........................................................................................8
+Finding 2:
+
+................ 10
+
+Recommendation 2 ......................................................................................10
+Objective Part 2: Did RUS Address and Remediate the Known Issues with the
+Mapping Software Currently Utilized? .............................................................. 12
+Scope and Methodology ........................................................................................ 16
+Abbreviations ........................................................................................................ 18
+Agency’s Response ................................................................................................ 19
+
+Background and Objectives
+Background
+The U.S. Department of Agriculture (USDA), Rural Utilities Service (RUS), administers the
+Rural eConnectivity Pilot Program (ReConnect Program), which was authorized by Congress, as
+part of the Consolidated Appropriations Act of 2018.1 The ReConnect Program provides funding
+in the form of loans, grants, and loan/grant combinations for the cost of construction,
+improvement, or acquisition of facilities and equipment needed to facilitate broadband
+deployment in rural areas.2 On November 15, 2021, the Infrastructure Investment and Jobs Act
+(IIJA) was signed into law and provided $1.926 billion in ReConnect Program funding3 to
+provide loans, grants, and loan/grant combinations to broadband service providers for facilitating
+broadband deployment in rural areas without sufficient access to broadband.4 5 RUS awarded
+funds that were appropriated under IIJA, via Round 3 and Round 4 ReConnect Program Funding
+Opportunity Announcements (FOAs) announced in the Federal Register in October 2021 and
+August 2022 respectively.6
+The focus of this report is the applications received in relation to funding Rounds 3 and 4. RUS
+previously announced and awarded ReConnect Program funding via Round 1 and Round 2
+FOAs in 2018 and 2019 respectively and via Round 5 FOA in February 2024. The ReConnect
+Program’s timeline and amounts awarded in Round 1 through Round 5 are depicted in Figure 1,
+below.
+
+Consolidated Appropriations Act, 2018, Pub. L. No. 115-141, 779,132 Stat. 348, 399.
+The term “broadband” refers to high-speed internet access.
+3
+Infrastructure Investment and Jobs Act, Pub. L. No. 117-58 (Nov. 15, 2021).
+4
+7 C.F.R. § 1740.2 defines sufficient access to broadband as a rural area in which households have broadband
+service at the minimum acceptable level of broadband, as set forth in the latest Federal Register notice announcing
+funding for the program. RUS published Rounds 3 and 4 Funding Opportunity Announcements in the Federal
+Register and defined sufficient access to broadband as any rural area in which households have fixed, terrestrial
+broadband service, defined as 10 megabits per second (Mbps) downstream and 1 Mbps upstream (10/1Mbps) for
+Round 3 and 100/20 Mbps for Round 4, respectively. IIJA, however, defined sufficient access to broadband as
+having speeds of not less than 25/3 Mbps.
+5
+7 C.F.R. § 1740.1(a) provides an overview of the ReConnect Program.
+6
+The Round 3 FOA was published in the Federal Register, on October 25, 2021, prior to when IIJA was signed into
+law on November 15, 2021. Round 3 was drafted to use annual appropriations funds; however, the FOA afforded
+USDA the authority to apply additional funds. RUS chose to use the IIJA funds when administering Round 3, for
+applications that met the IIJA-specific requirements. A total of $1,686,519,098 was obligated, while administering
+Round 3 of the ReConnect Program. Of that amount, $547,776,394 was financed with IIJA funds.
+1
+2
+
+INSPECTION REPORT 09803-0002-51
+
+1
+
+Figure 1: ReConnect Program Timeline. This figure was created using information provided by RUS.
+
+RUS’ Evaluation and Prioritization of the Level of Service
+RUS evaluates and prioritizes the level of service for its broadband program based on the
+definition of eligible service areas, application evaluation criteria, network capability
+requirements identified in the ReConnect Program’s FOAs for funding Rounds 3 and 4, as well
+as service area validation performed as part of the application review process.
+The ReConnect Program’s Round 3 FOA defined the service area eligible for funding, in part, as
+a Proposed Funding Service Area (PFSA) where at least 90 percent of the households in the
+PFSA lack sufficient access to broadband of 100/20 Mbps. The ReConnect Program’s Round 4
+FOA defined the service area eligible for funding, in part, as a PFSA where at least 50 percent of
+the households in the PFSA lack sufficient access to broadband of 100/20 Mbps. In addition,
+Round 4 FOA had a new funding category for projects, where 90 percent of households lack
+sufficient access to broadband. For both FOAs, applicants were required to submit evidence that
+sufficient access to broadband did not exist.
+RUS evaluates applications that have a grant component based on the scoring criteria outlined in
+the FOA. The ReConnect Program’s Round 3 and Round 4 FOAs included 10 evaluation criteria,
+of which one was “level of existing service.” Applicants received 25 points if the projects they
+were proposing to build were in areas that were not receiving service of at least 25/3 Mbps.
+Points were awarded based on the number of households lacking such service that the project
+
+2
+
+INSPECTION REPORT 09803-0002-51
+
+would serve.7 Applicants were required to provide supporting evidence that 25/3 Mbps service
+did not exist for those households. To the extent possible, applicants were required to identify all
+existing providers in the PFSA and indicate what level of service was being provided.
+According to 7 C.F.R. § 1740.3(a)(2) and Round 3 and Round 4 FOAs, applicants of the
+ReConnect Program must propose a network capable of delivering 100 Mbps symmetrical
+service to each of the premises located in the PFSA.8 Additionally, IIJA required that 10 percent
+of its direct appropriation funds be set aside for service areas where at least 90 percent of the
+households are in a rural area that did not have sufficient access to broadband. The available
+funds for projects where 90 percent of households lack sufficient access to broadband under the
+Reconnect Program Round 4 FOA was up to $200 million.
+RUS conducts a service area validation to determine whether a PFSA lacks sufficient access to
+broadband, per the ReConnect Program eligibility requirements, as defined by the respective
+FOA.
+Factors and Tools RUS Uses to Determine Project Selection for Broadband Service Needs
+All Round 3 and Round 4 applications are subject to the submission and evaluation requirements
+contained in 7 C.F.R. § 1740(e) in addition to requirements included in the FOA, published in
+the Federal Register, for that specific round of funding. The RUS application review process
+consists of two levels of reviews: Level 1 (L1) review and Level 2 (L2) review, as depicted in
+Figure 2, below.
+
+Round 4 applications were awarded points when at least 50 percent of the households in each proposed service
+area were not receiving service of at least 25/3 Mbps.
+8
+“Capable of delivering 100 Mbps symmetrical service to every premises,” means that all premises in the PFSA
+must be able to receive this service at the same time.
+7
+
+INSPECTION REPORT 09803-0002-51
+
+3
+
+Figure 2: RUS’ ReConnect Program Application Review Process. This figure was created using information
+provided by RUS.
+
+All applications must be submitted through RUS’ Online ReConnect Application Portal.9 The
+portal conducts validation of applications to assess their completeness and consistency.
+Applications that successfully pass the validation review undergo the L1 review. The L1 review
+verifies that all the correct documents have been uploaded and that the application is eligible.
+The L1 review process also includes the preliminary desktop review of project service areas prior
+to the closing of the public notice filing (PNF) window.10 The L1 reviewers use the L1 checklist
+to complete their reviews. An application that successfully passes the L1 review is routed to the
+L2 review. Any application that does not pass the L1 review is deemed ineligible and routed to
+the Program Manager for review and final decision making.
+
+RUS’ online application portal can be accessed at https://www.usda.gov/reconnect.
+A PNF is triggered by the successful submission of a Reconnect Program application. The notice is posted on the
+RUS Reconnect Program’s website for 45 days to give existing service providers an opportunity to submit
+information regarding their service offerings. PNFs for the competitive awards (loan-grant combination and 100
+percent grant) will all be posted at the time of the application window closing. For 100 percent loan applications,
+PNFs will be posted on a rolling basis, as applications are successfully submitted.
+
+9
+
+10
+
+4
+
+INSPECTION REPORT 09803-0002-51
+
+The L2 review consists of four different review components: Service Area Validation (SAV) and
+technical, environmental, and financial reviews. RUS conducts SAVs to determine whether the
+PFSAs submitted by applicants meet the ReConnect Program’s lack of sufficient broadband
+access eligibility requirements. The technical review verifies whether the applicant proposed a
+project that is feasible from cost, timeline, and technological perspectives. The technological
+review ensures that the proposed technology has the capability to deliver 100 Mbps symmetrical
+service to each of the premises in the PFSA. The environmental review assesses whether the
+project falls within one or more of the categorical exclusions and whether all necessary
+documentation supporting the categorical exclusions were included.11 The financial review
+ensures that the documents supporting the financial and business risks presented by the applicant
+validate the assumptions set forth by the applicant.
+The L2 reviewers submit the L2 summary reports that are recommended for approval or rejection
+to the Program Manager for review and decision. The Program Manager has the authority to
+approve grant applications for awards. Applications requesting 100 percent loans or 50/50
+percent loan grant combinations that are recommended for approval are presented to the Credit
+Committee. With the support of the review team, the Program Manager is required to request a
+Credit Committee meeting to present the application for consideration.12 The Credit Committee
+provides a recommendation, relative to the approval or rejection of the application. If the
+recommendation is to approve the application, the award approval process begins.
+During the review process, the L1 and L2 reviewers use checklists to assist them in conducting
+the required due diligence, as well as generating reports to summarize the results of their
+reviews. L2 reviewers also use Notebooks for each component (such as technical, financial, and
+environmental) of the L2 review. The Notebooks are workbooks of varying complexity that
+serve as guiding tools for the L2 reviewers and a repository of the findings for record keeping.
+The answers within the respective component areas’ Notebooks feed into the L2 Summary
+Report. L2 reviewers additionally use a risk-rating tool to document the risk criteria and program
+benchmarks, document the credit analysis and rationale for each risk attribute, and calculate an
+internal credit risk rating as an output for the financial feasibility review.
+Known Issues with the Mapping Software
+In a July 2023 audit report, USDA Office of Inspector General (OIG) found that the RUS’
+mapping software had a systemic programming error that caused the number of households
+without sufficient access to broadband to be overstated for some applications.13 USDA OIG
+recommended that RUS: (1) implement a process to test the mapping software to ensure that the
+software programming error found does not exist in the new systems; and (2) review and confirm
+that the percentage of households without access to broadband was within the eligibility
+Under 7 C.F.R. §1970.54, the applicant is required to submit an Environmental Report (ER) with their application,
+if the applicant’s proposed actions are classified as, “Categorical Exclusions Involving Small-scale Development.”
+The ER provides project-specific information, including an evaluation of the proposal’s potential to impact specific
+environmental resources and historical properties, so that the agency can either complete the required environmental
+review process or determine whether additional impact analyses may be needed.
+12
+The review team consists of the project management team, case managers, L1 reviewers, and L2 reviewers.
+13
+USDA OIG, Audit Report 09601-0001-23, Rural eConnectivity Pilot Program (ReConnect Program)-Award
+Process, July 2023.
+11
+
+INSPECTION REPORT 09803-0002-51
+
+5
+
+parameters for approved applications in ReConnect Program Round 1, Round 2, and the CARES
+Act to ensure that only eligible projects received ReConnect Program funding. RUS officials
+agreed with USDA OIG’s findings and recommendations. RUS stated that it would review the
+testing process for new information technology (IT) development and implement specific test
+scripts that would be run whenever a mapping software change occurs. RUS also stated that it
+would complete an analysis of the percentage of households without access to broadband to
+demonstrate that eligibility parameters were satisfied for all approved projects. RUS provided
+USDA OIG with an estimated completion date of September 30, 2023. RUS indicated that it
+addressed USDA OIG’s recommendations.
+
+Objectives
+The objectives were to determine: (1) how RUS evaluated and prioritized the level of service for
+its broadband program, funded by the Infrastructure Investment and Jobs Act, and the factors and
+tools it used to determine project selection for broadband service needs; and (2) whether RUS
+addressed and remediated the known issues with the mapping software currently utilized, and
+how that software was being utilized.
+
+6
+
+INSPECTION REPORT 09803-0002-51
+
+Objective Part 1: How Did RUS Evaluate and Prioritize the Level of
+Service for Its Broadband Program?
+Finding 1: RUS’ Application Review Guides Regarding Level 2 Reviews of
+Summary Reports of Eligible Applications Were Not Clear
+The Independent Public Accounting (IPA) firm determined that the RUS Program Manager did
+not consistently review L2 Summary Reports and document their decisions for 26 of the 62
+ReConnect Program eligible applications in Round 3 and Round 4 phase. 14 This occurred
+because the internal review guides in Round 3 and Round 4 application phase did not clearly
+explain the procedures on how to proceed reviewing eligible applications at the conclusion of the
+L2 review. Instead, according to RUS, it adopted the current practice to discontinue reviewing
+L2 Summary Reports of eligible applications which did not score or rank high enough and once
+the funds for a funding category were fully utilized for other higher scoring or ranking
+applications.15 This current practice was not stated or explained in RUS internal review guides
+for Round 3 and Round 4 phase. As a result, without clear guidance in RUS’ internal review may
+cause ambiguities in the process on how applications proceed to be reviewed for eligibilities. It
+may also potentially increase the risk of uncertainties in the process that certain applications
+were ineffectively reviewed and awarded.
+RUS’ ReConnect Program Application Review Guides for Round 3 and Round 4 state that when
+an application successfully passed the L1 review, it is routed to the L2 review. After L2 reviews
+have been conducted, the case manager compiles the outputs into a summary report with the
+review team’s recommendations. Any application that does not pass the L1 review and
+application that passed and moves to L2 review will be routed to the Program Manager for
+review and final decision-making.16 17 The Program Manager reviews recommendations made by
+the review team and makes decisions on whether to move an application forward to the award
+process.
+The IPA firm did not observe evidence of L2 review of Summary Reports and RUS decisions
+regarding the 26 applications identified above. According to RUS officials, they did not review
+the 26 applications further because they reviewed applications based on a prioritized list of
+applications organized by funding category, which they updated throughout the review and
+award process. Once the funding for all categories was expended, RUS discontinued the
+remaining reviews of L2 Summary Reports of applications that did not score high enough and
+The 62 applications were judgmentally selected from a total of 489 applications that were subject to our
+inspection. There were 563 applications submitted in Round 3 and Round 4. The IPA firm excluded 74 approved
+applications that were funded by annual appropriations, leaving 489 that were either funded by IIJA or rejected.
+15
+The L2 Summary Report provides a comprehensive overview of an applicant’s proposed project. The report
+aggregates all the L2 review findings and relevant applicant information into a format that can be used to guide
+award eligibility decisions. It is used to inform the Program Manager and Credit Committee in selecting an applicant
+for award funding.
+16
+ReConnect Program Review Guide for Fiscal Year 2022, Rural Utilities Service, Telecommunications Program,
+June 30, 2022.
+17
+ReConnect Program Review Guide for Fiscal Year 2022, Rural Utilities Service, Telecommunications Program,
+December 9, 2022.
+14
+
+INSPECTION REPORT 09803-0002-51
+
+7
+
+directed its effort in remitting legal documents for all approved applications. RUS sends
+notifications to applicants who did not receive awards, informing them that they will not receive
+an award, and the reason for the decision. According to RUS, a Summary Report is created for
+any application that reaches L2 review. However, if an application did not score high enough in
+L2 review and funding was no longer available, the Summary Report was not sent to the
+Program Manager for further review and consideration. RUS believed that they were not
+required to conduct L2 review of Summary Reports if the applications were not recommended to
+be funded.
+In discussions with RUS officials, the IPA firm noted that the current practice of discontinuing to
+review the remaining L2 summaries of applications because they did not score high enough to be
+funded and if the funding was no longer available was not clearly explained or stated in their
+internal review guides. According to the guidance, an application that successfully passes the L1
+review is routed to the L2 review. Any application that does not pass the L1 review is deemed
+ineligible and routed to the Program Manager for review. The L2 reviewers submit the L2
+Summary Reports that are recommended for approval or rejection to the Program Manager for
+review and final decision making. However, the guidance did not contain procedures that would
+explain the next steps for applications that were eligible in L1 review but did not score high
+enough and lack of funding for recommendations of approval or rejection review by the Program
+Manager. To verify that RUS sent out letters of notifications to applicants who did not receive
+awards, the IPA firm reviewed the letters and noted that their applications were not approved for
+award and the reason for the decision.
+As a result, to address transparency, the absence of clear guidance in different levels of review
+and awarding process may cause ambiguities and may also potentially increase the risk of
+uncertainties that certain applications were ineffectively reviewed and awarded.
+
+Recommendation 1
+We recommend that RUS ensure that its current practices regarding Level 2 reviews of Summary
+Reports of eligible applications are consistent with its written policies, and vice versa.
+Agency Response
+RUS concurred with the finding and recommendation. To address the finding and
+recommendation and to avoid confusion during the administration of Round 5, RUS
+stated that the following statement has been added to its Round 5 Review Guide “L2
+Summaries will be submitted to the Program Manager’s Decision page for the Program
+Manager’s review until funding is exhausted for all the respective funding categories.”
+Furthermore, RUS stated that a comprehensive re-write of internal review and training
+materials to be used to administer Round 6 is scheduled to take place following several
+Information Technology releases to RUS’ intake system and review module.
+RUS’ estimated completion date is Quarter One of Calendar Year 2026. This is
+dependent on when RUS’ Information Technology 12.0.0 release is deployed to
+production, and when the Round 6 Notice of Funding Opportunity is published to the
+
+8
+
+INSPECTION REPORT 09803-0002-51
+
+Federal Register, officially announcing the application window open and close dates for
+Round 6.
+OIG Position
+We accept management decision for this recommendation.
+
+INSPECTION REPORT 09803-0002-51
+
+9
+
+Finding 2:
+
+Recommendation 2
+
+Agency Response
+
+18
+
+10
+
+INSPECTION REPORT 09803-0002-51
+
+OIG Position
+
+INSPECTION REPORT 09803-0002-51
+
+11
+
+Objective Part 2: Did RUS Address and Remediate the Known
+Issues with the Mapping Software Currently Utilized?
+The IPA firm determined that RUS addressed and remediated the known issues with the current
+mapping software, which were identified in Round 1 and Round 2. According to RUS’ corrective
+action plan, RUS revamped its overall mapping software through various stages of IT systems
+enhancements that included a new mapping tool and multiple rounds of testing for Round 3 and
+Round 4 of the ReConnect Program. Using the data for all applications submitted in Round 3 and
+Round 4, RUS tabulated the percentage of households without sufficient access to broadband for
+all applications in Round 3 and Round 4. RUS observed that the percentages of households
+without sufficient access to broadband were all either less than, or equal to, 100 percent.
+IT System Enhancements
+Some of the key IT systems enhancements made by RUS, included:
+•
+
+•
+•
+•
+
+Adding new features to the mapping tool in Round 3, including multiple service
+regions for Non-Funded Service Areas (NFSAs);19 new eligibility and evaluation
+layers; and updated census demographic retrieval methods for service areas compared
+to previous rounds.
+In Round 4, RUS introduced a new mapping tool.
+Error handling solutions were developed in the mapping software in both rounds to
+prevent bad data from being saved thereby protecting downstream processes.20 21
+Updating the way the system extracts census data. The system extracts information
+that is more current, and the underserved data updates in real time as the service area
+polygons are drawn, updated, and saved.22
+
+RUS Testing Approach
+RUS conducted intensive testing of the mapping tools in both Round 3 and Round 4. According
+to RUS, during the testing phase, 200 applications with real applicant geometry data from
+previous rounds were completed and found to meet specifications. Additionally, a collection of
+geometries that were known to have caused problems in the past were run through safeguards to
+ensure their integrity. According to RUS’ management, there were two layers of testing involved
+in ensuring mapping functionality related to the IT system enhancement measures. RUS
+A Non-Funded Service Area (NFSA) is an area in which the applicant offers service or intends to offer
+telecommunications service during the forecast period but is not a part of its PFSA.
+20
+“Downstream processes” relate to wherever the Total Households, and Households without Sufficient Access to
+Broadband Service information is used. For a PFSA to be eligible for funding under the ReConnect Program, a
+minimum percentage of households must be without sufficient access to broadband service. RUS reviews the service
+area information to determine service area eligibility. The service area eligibility requirements are defined in each
+funding Round FOA.
+21
+“Bad data” refers to Round 1 and Round 2 PFSA records where, primarily, the total households without sufficient
+access to broadband service numbers was calculated incorrectly by RUS’ mapping tool.
+22
+“Underserved Area” is an area that is not unserved but lacks a speed of 100 megabits per second for downloads,
+and 20 megabits per second for uploads.
+19
+
+12
+
+INSPECTION REPORT 09803-0002-51
+
+performed iteration testing and regression testing and remedied any identified defects. When
+RUS reached the end of development for a release, the developers and the product owners
+performed full regression testing. RUS noted, based on its testing, that the households without
+sufficient access to broadband were correctly tabulated for all applications submitted in Round 3
+and Round 4.
+Current Application of the Mapping Software
+To address the household count issues, the new mapping tool has the following enhancements:
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+Unavailable external service: The data obtained for GeoEnrichment and census
+metrics, such as population and households, comes from external services, which the
+map accesses via Application Programming Interface (API) calls. The new mapping
+tool was enhanced to ensure that the saving of that service area data would be
+blocked, until the application was able to access the API service.
+Union and clip of unserved areas: The new mapping tool enhanced the ability to edit
+and add to unserved areas, without double counting and without artificially inflating
+the unserved percentage.23Additional features included the feature to ensure that
+unserved regions are clipped to the base PFSA area, trimming off any geometry that
+goes outside of the bounds of the PFSA area.24 The unserved regions are clipped
+whenever the base PFSA is moved. As an added feature, once a user starts to edit an
+unserved region, other unserved regions in that PFSA cannot be edited until the user
+completes updating the one that the user started with.
+Quick subsequent edits: Each time a service region is updated, GeoEnrichment and
+census calls initiate. If another update is made to that service region while the system
+is still processing data fetches from the first update, the original data fetches are
+discarded (or cancelled if they were still enqueued) so that it is not possible for data
+from both updates to be mixed, thus preventing bad data.
+Unexpected errors related to fetching census data: The mapping tool prevents saving
+of data if there are any unexpected errors during the data fetching and processing of
+GeoEnrichment and census data.
+Frequency of calculating unserved households’ percentage: A recalculation of
+unserved households’ percentage occurs whenever there is an action that results in the
+change of a geometry, for example, modifying base PFSA, or adding or deleting an
+unserved region, etc.
+Preventing household/population values of zero: The application defaults a value of
+1, for population and households, in the event that the data does not exist, and a zero
+value is returned from the services.25 This is necessary because of the mathematical
+inability to divide by zero.
+
+23
+Unserved areas are areas that do not have access to broadband service or lacks a minimum rate-of-data
+transmission of 25 megabits downstream and 3 megabits upstream.
+24
+The first polygon added to the map as a PFSA polygon is considered the base area.
+25
+There are some parts of the United States and relevant international areas that do not have GeoEnrichment and
+census data (for example, parts of the Marshall Islands).
+
+INSPECTION REPORT 09803-0002-51
+
+13
+
+•
+
+Slight variance for 100 percent overlap: In the event that an unserved percent value is
+slightly over 100 percent, the application rounds that value down to 100 percent.
+This, however, does not happen if it goes more than slightly over 100 percent.26
+
+RUS provided a virtual walkthrough demonstration of the new mapping system. During this
+walkthrough, RUS used sample applications to demonstrate how the mapping software extracts
+information related to a service area, including level of poverty, Tribal land, overlapping areas,
+census information, etc. RUS manually drew the PFSA base area layer and then drew additional
+polygons into the map to show how the unserved areas were created. The IPA firm observed the
+following:
+•
+•
+•
+
+•
+•
+
+•
+•
+
+26
+
+The unserved area data updates in real time as the unserved service region is drawn
+and saved. Any action that resulted in the change of a geometry resulted in a
+recalculation of unserved households’ percentages.
+The system generated an error message when two unserved areas overlapped. When
+the overlapping polygons (unserved areas) were saved, the system ignored the
+NFSAs, and the overlapping did not result in double counting.
+The new mapping software did not process a PFSA when there was no
+GeoEnrichment and census data available. The service map cannot be created in any
+area where there is no data for the region. In this instance, the system generated an
+error message, and the data was not saved.
+The new mapping software provided demographic census data information for the
+selected unserved areas. The calculated percentages of households without sufficient
+access to broadband were less than or equal to 100 percent.
+When the unserved areas were drawn outside of the base area layer, the unserved
+region was clipped to the base PFSA area, trimming off any geometry outside of the
+bounds of the base PFSA area. The unserved region was clipped whenever the base
+PFSA was moved. The software clipped the outside area and provided demographic
+information of the unserved area within the base layer.
+When the base area layer moved, the selected unserved area and overlapped areas
+disappeared.
+When a proposed service area did not have GeoEnrichment and census data (for
+example, parts of the Marshall Islands), the system returned a value of 1 for
+population and households. This was necessary because of the mathematical inability
+to divide by zero.
+
+More than slightly refers to a variance greater than 1 percent.
+
+14
+
+INSPECTION REPORT 09803-0002-51
+
+Figure 3, below, shows an example of a redrawn PFSA (outlined in dark green) in the mapping
+software. The areas outlined in dark green show that the percentage of households without
+sufficient access to broadband was 100.
+
+Figure 3: Round 2 Sample of Redrawn PFSA Households Without Sufficient Access to Broadband. This
+figure was created using information provided by RUS.
+
+INSPECTION REPORT 09803-0002-51
+
+15
+
+Scope and Methodology
+An IPA firm was contracted by the Government on September 13, 2023, to conduct an
+inspection to analyze how RUS evaluated and prioritized the level of service for its broadband
+program, including determining what factors and tools were used to determine project selection
+for broadband service needs. Additionally, the IPA firm obtained updated information on the
+known issues with the mapping software currently utilized by RUS and observed the remediation
+of the mapping software issues and the current application of the software. The IPA firm
+conducted site visits to the offices and project sites of two awardees in Decatur, Mississippi and
+Princeton, Missouri on May 9, 2024; and May 14, 2024; respectively. The IPA firm discussed
+the results of the inspection with RUS officials on July 29, 2024, and included their comments,
+as appropriate.
+The IPA firm judgmentally selected 62 out of 489 applications based on consideration of risk to
+determine whether RUS’ project selection process was in accordance with the respective FOA
+for Round 3 and Round 4, and 7 C.F.R. § 1740, and to determine whether RUS appropriately
+evaluated and prioritized the level of service for its broadband program.
+To accomplish the inspection objectives, the IPA firm performed the following:
+•
+•
+•
+
+•
+•
+•
+
+Obtained and reviewed RUS’ relevant policies, procedures, and related controls.
+Obtained and reviewed applicable statutory requirements, including the rules and
+regulations (7 C.F.R. § 1740 and FOA) established for the ReConnect Program.
+Conducted walkthrough interviews with RUS employees, to gain an understanding of
+how the current mapping software was enhanced; and to determine whether the
+changes that were made corrected the programming errors identified in Round 1 and
+Round 2.
+Conducted walkthrough interviews with RUS employees, to gain an understanding of
+their applications review and scoring process, and how RUS used its online site to
+review applications and manage related supporting documentation for applications.
+Obtained and reviewed sample applications and supporting documentation submitted
+in Round 3 and Round 4, to determine whether applications were evaluated in
+accordance with the RUS’ ReConnect Program’s Application Guides.
+Filtered and reviewed the total scores and household percentages for the sampled
+applications and compared the results to what was contained in the documents in the
+RUS internal SharePoint site, to ensure accuracy and completeness of the evaluation
+process.
+
+On February 14, 2025, the contract between the Government and the IPA firm was terminated at
+the convenience of the Government. OIG obtained and reviewed all the inspection supporting
+documentation provided by the IPA firm. On April 1, 2025, OIG conducted an exit conference
+with RUS and discussed the results of the inspection prepared by the IPA firm. As a result of the
+exit conference, OIG reviewed the additional information provided by RUS and made some
+modifications to the IPA firm’s inspection results.
+
+16
+
+INSPECTION REPORT 09803-0002-51
+
+The IPA firm and OIG conducted this inspection in accordance with the Council of the
+Inspectors General on Integrity and Efficiency’s Quality Standards for Inspection and
+Evaluation.
+
+INSPECTION REPORT 09803-0002-51
+
+17
+
+Abbreviations
+API ......................................... Application Programming Interface
+CARES Act ............................ Coronavirus Aid, Relief, and Economic Security Act
+C.F.R. ..................................... Code of Federal Regulations
+ER. .......................................... Environmental Report
+FOA......................................... Funding Opportunity Announcement
+IT ............................................ information technology
+IIJA.......................................... Infrastructure Investment and Jobs Act
+IPA .......................................... Independent Public Accounting
+L1 ............................................ Level 1
+L2 ............................................ Level 2
+Mbps........................................ Megabits per second
+NFSA ...................................... Non-Funded Service Area
+OIG ......................................... Office of Inspector General
+PFSA ....................................... Proposed Funding Service Area
+PNF ......................................... Public Notice Filing
+PNR. .........................................Public Notice Response
+ReConnect Program. .................Rural eConnectivity Pilot Program
+RUS ..........................................Rural Utilities Service
+SAV.......................................... Service Area Validation
+USDA .......................................U.S. Department of Agriculture
+
+18
+
+INSPECTION REPORT 09803-0002-51
+
+Agency’s Response
+
+Rural Utilities Service
+Response to Inspection Report
+
+INSPECTION REPORT 09803-0002-51
+
+19
+
+DATE:
+
+September 5, 2025
+
+INSPECTION
+NUMBER:
+09803-0002-51
+TO:
+
+Yaris Rivera-Rojas
+Acting Assistant Inspector General for Audit
+Office of Inspector General
+
+THRU:
+
+CB Alonso
+Chief Risk Officer
+Office of the Chief Risk Officer
+Rural Development
+
+FROM:
+
+Karl Elmshaeuser
+Administrator
+Rural Utilities Service
+
+SUBJECT:
+
+Response to the Office of Inspector General’s Infrastructure Investment and
+Jobs Act – Rural Utilities Service’s Evaluation and Prioritization of the Level of
+Service for its Broadband Rural eConnectivity Program Official Draft Report
+
+Thank you for the opportunity to comment on the Office of Inspector General’s (OIG) recent
+audit of Rounds Three (3) and Four (4) of the Rural Utilities Service’s (RUS) Rural
+eConnectivity Program (ReConnect). RUS appreciates the Inspector General’s input to ensure
+that ReConnect meets the statutory and regulatory missions and that RUS has established
+controls over the ReConnect Award process, including the obligation of Infrastructure
+Investment and Jobs Act (IIJA) funds first made available during Round 3 of ReConnect.
+This is RUS’ written response to each finding, a proposed corrective action plan for
+Recommendation 1, along with the completion date for implementation of the corrective action
+for Recommendation 1.
+
+Finding 1: RUS’ Application Review Guides Regarding Level 2 Reviews of Summary
+Reports of Eligible Applications Were Not Clear
+Recommendation 1
+We recommend that RUS ensure that its current practices regarding Level 2 reviews of
+summary reports of eligible applications are consistent with its policies, and vice versa.
+
+Agency Corrective Action Plan
+Although RUS followed the guidance approved by program leadership and outlined in the
+review guides used for Rounds 3 and 4 of ReConnect, RUS agrees that the procedures need to be
+more clearly written to ensure review steps are easily understood and are adhered to by everyone
+who is involved with the ongoing administration of ReConnect.
+To avoid confusion during the administration of Round Five (5) of ReConnect, a clarifying
+statement was added to the Level 2 (L2) Summary Submission section of the Round 5 Review
+Guide on April 4, 2024, approximately two weeks before the Round 5 application window
+closed.
+
+A comprehensive re-write of internal review and training materials to be used to administer
+Round Six (6) of ReConnect is scheduled to take place following several major Information
+Technology (IT) releases to RUS’ intake system and review module.
+RUS released 10.1.0 functionality on April 22, 2025, to our Salesforce platform, which included
+Level One (L1) functionality as part of an automated review process. The remaining review
+module features, including all L2 reviews, automated review and approval workflows, and
+document generation functionality, were included in our 11.0.0 release on August 26, 2025. A
+third (12.0.0) release is scheduled to be deployed to production on November 6, 2025. This
+release includes the new National Environmental Policy Act (NEPA) and USDA’s new
+implementation procedures of NEPA. Additional Round 6 changes (e.g., new funding types), are
+also included in this release.
+The new review module, changes to NEPA, and updates to Round 6 requirements must all be
+incorporated into all internal Round 6 review and training materials before RUS can commence
+reviewing Round 6 applications under a window that is expected to close in early 2026.
+Estimated Completion Date – Quarter One of Calendar Year 2026. This date is dependent on
+when RUS’ 12.0.0 release is deployed to production, and when Round 6 Notice of Funding
+Opportunity is published to the Federal Register, officially announcing the application window
+open and close dates for Round 6.
+Finding 2:
+Recommendation 2
+
+Agency Response
+
+Estimated Completion Date –
+
+Learn more about USDA OIG
+at https://usdaoig.oversight.gov
+Find us on LinkedIn: US Department of
+Agriculture OIG
+Find us on X: @OIGUSDA
+
+Report suspected wrongdoing in
+USDA programs:
+
+https://usdaoig.oversight.gov/hotline-information
+
+U.S. Department of Agriculture (USDA) is an equal
+opportunity provider, employer, and lender.
+In accordance with Federal civil rights law and USDA civil rights regulations and
+policies, the USDA, its Agencies, offices, and employees, and institutions participating
+in or administering USDA programs are prohibited from discriminating based on race,
+color, national origin, religion, sex, sexual orientation, disability, age, marital status,
+family/parental status, income derived from a public assistance program, political
+beliefs, or reprisal or retaliation for prior civil rights activity, in any program or activity
+conducted or funded by USDA (not all bases apply to all programs). Remedies and
+complaint filing deadlines vary by program or incident.
+Persons with disabilities who require alternative means of communication for program
+information (e.g., Braille, large print, audiotape, American Sign Language, etc.) should
+contact the responsible Agency or USDA’s TARGET Center at (202) 720-2600 (voice
+and TTY) or contact USDA through the Federal Relay Service at (800) 877-8339.
+Additionally, program information may be made available in languages other than
+English.
+To file a program discrimination complaint, complete the USDA Program
+Discrimination Complaint Form, AD-3027, found online at How to File a
+Program Discrimination Complaint and at any USDA office or write a letter addressed
+to USDA and provide in the letter all of the information requested in the form. To
+request a copy of the complaint form, call (866) 632-9992. Submit your completed
+form or letter to USDA by: (1) mail: U.S. Department of Agriculture, Office of the
+Assistant Secretary for Civil Rights, 1400 Independence Avenue, SW, Washington, D.C.
+20250-9410; (2) fax: (202) 690-7442; or (3) email: program.intake@usda.gov.
+
+All photographs on the front and back covers are from
+USDA Flickr and are in the public domain. They do not
+depict any particular audit, inspection, or investigation.
+
+

@@ -1,11 +1,10 @@
-Source: https://www.congress.gov/crs_external_products/R/HTML/R49503.html
+Source: https://www.everycrsreport.com/files/2026-11-04_R49503_9f359a9a94fea12f637c60f5e16a3a054d7abd49.html
 Publisher: Congressional Research Service
 Retrieved: 2026-11-09
-Original SHA-256: 66874d34b65455cc875a7b585e78e4dd8ff564ff30f2671bf9dcc80033565aa6
+Original SHA-256: 6c6c5738d134c2765e0cdb2876c4ae2adeb0e32dc50a8a6e3abd5aa4583746fb
 Rights: public domain (U.S. government work)
 Text version made by library/fetch_public.py; passages are verbatim.
 ---
-<%@ Control Language="C#" ClassName="CRSgov.UI.Product" %>
 Appropriations for Rural Development Programs: Proposals for FY2027
 November 4, 2026
 (R49503)
@@ -463,9 +462,9 @@ For example, in the emergency and imminent community water assistance grant prog
 8 .
 "For the purpose of this clause, the term 'congressional earmark' means a provision or report language included primarily at the request of a Member, Delegate, Resident Commissioner, or Senator providing, authorizing or recommending a specific amount of discretionary budget authority, credit authority, or other spending authority for a contract, loan, loan guarantee, grant, loan authority, or other expenditure with or to an entity, or targeted to a specific State, locality or Congressional district, other than through a statutory or administrative formula-driven or competitive award process." See Rule XXI, clause 9(e), in U.S. Congress, House Committee on Rules, Rules of the House of Representatives , 119 th Cong., January 16, 2025, https://rules.house.gov/sites/evo-subsites/rules.house.gov/files/documents/houserules119thupdated.pdf . For more on congressional earmarks in agriculture appropriations, see CRS Report R48471, Agriculture Appropriations: Earmarks Disclosed from FY2022 to FY2024 .
 9 .
-See for example, USDA water and wastewater disposal grant programs between FY2025 and FY2026 in Table 2 .
+See for example USDA water and wastewater disposal grant programs between FY2025 and FY2026 in Table 2 .
 10 .
-See for example, USDA community facilities grant programs between FY2025 and FY2026 in Table 4 .
+See for example USDA community facilities grant programs between FY2025 and FY2026 in Table 4 .
 11 .
 CRS Report R49343, Agriculture and Related Agencies: FY2027 Appropriations .
 12 .
