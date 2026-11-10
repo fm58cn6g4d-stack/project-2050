@@ -17,7 +17,7 @@ Meanwhile:
 1. **Keep the money flowing.** Extend today's fuel taxes for one year, so the trust fund doesn't hit a cliff in 2028. This is a bipartisan step in 2027-28.
 2. **Make users pay for repair** (2029).
    - The gas tax rises with prices, plus ten small 3-cent steps that pause when gas prices spike.
-   - Electric cars pay by the mile, at what an efficient gas car pays, read from the odometer at registration. No tracking device, and by law no location data (the full privacy rules start in 2031; see the hard questions).
+   - Electric cars pay by the mile, at what an efficient gas car pays, read from the odometer at registration. No tracking device; the ban on collecting location data is law from 2031 (see the hard questions).
 3. **Make the heaviest trucks pay for the damage they do** (2030).
    - A charge by weight and miles replaces a flat $550 tax that hasn't changed since 1984 (the Internal Revenue Code, 26 U.S.C. 4481) [EV-MOV-209].
    - Railroads and air travelers pay small taxes toward passenger rail.

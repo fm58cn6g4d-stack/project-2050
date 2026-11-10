@@ -35,7 +35,7 @@ Over FY2032-36 the 2031 bill authorizes $936.57B. Dedicated receipts cover $545.
 
 ## 2. The general-fund draw by year
 
-On the transportation model's own path. These are the plan's figures (grade D, project estimate). The draw is the general fund's share of the whole surface program, not the increment over CBO's baseline:
+On the transportation model's own path. These are the plan's figures (grade D, project estimate). The draw is the general fund's share of the surface program's trust-fund, package and expansion lines (not sec. 1112's grants or the readiness reserve, below), not the increment over CBO's baseline:
 
 | FY | Program ($B) | Dedicated receipts ($B) | General fund ($B) | % of GDP |
 | --- | --- | --- | --- | --- |
@@ -52,6 +52,17 @@ Source: `Model().allocate(t)` in `moving_america.py`, run on November 10, 2026. 
 
 By FY2042-46, users cover 95% of highway renewal and all of transit's and rail's [EV-MOV-200] [EV-MOV-206].
 
+### What the draw leaves out
+
+The model's draw covers the trust-fund programs, the reconciliation packages and the 2031 bill's expansion appropriations. It leaves out two general-fund items that section 4 keeps. Both are disclosed here and not booked:
+
+| Item | FY2032-36 | By year ($B) | Why it is separate |
+| --- | --- | --- | --- |
+| Sec. 1112's general-fund grants (multimodal freight and National Infrastructure Grants; MOV-31.27) | $17.24B authorized | 3.28 / 3.36 / 3.45 / 3.53 / 3.62 | Subject to appropriation, so these are authorizations, not expected outlays. H.R. 8870 authorizes similar grants, so part may already be in the baseline the plan starts from (`3-design.md`, baseline cases) |
+| The readiness reserve (division A sec. 106(e); MOV-31.06) | $0 to $25B, contingent | illustrated 0 / 0 / 5 / 8 / 12 | Released only when a Tier 1 corridor clears its gates. Use could be anywhere from nothing to the cap |
+
+If both were authorized and spent in full, the general fund's FY2032-36 figure would be $432.97 billion rather than $390.73 billion, and the peak year's all-in draw 0.208% of GDP rather than 0.200% (`moving_america.py`, `G1112`, `RESERVE`, `all_in_peak()`; run November 10, 2026). That is an upper bound, not an increment to book. How much of the grants is new depends on the baseline case, and how much of the reserve is used depends on readiness (section 8). Section 3's figures exclude both.
+
 ## 3. The fiscal-rule report
 
 Under `DEC-2026-11-10-05`, the dossier reports its fiscal-rule effect and passes it to the settlement.
@@ -60,7 +71,7 @@ Under `DEC-2026-11-10-05`, the dossier reports its fiscal-rule effect and passes
 | --- | --- | --- |
 | FY2030-39, general-fund lines (MOV-29, -30, -31) | **$473.0 billion** (0.257 + 0.091 + 0.125 trillion), outlays spread over the window | The same lines, timed as obligated: packages in FY2029-31, top-ups and expansion in FY2032-36 |
 | FY2030-39, new dedicated revenue | About $0.39 trillion (the surface trust fund channel, net of the offset) | $290.0B + $95.0B over each act's window |
-| Permanent cost in FY2040 | **$22.1 billion**: a 30% tail on the reconciliation lines plus a successor authorization at 30% of MOV-31's run rate (`fiscal-profiles.csv`) | **$29.0 billion** (0.053% of GDP), the general fund's share of the program that year, falling to $14.0 billion by FY2044 as the premium phases in |
+| Permanent cost in FY2040 | **$22.1 billion**: a 30% tail on the reconciliation lines plus a successor authorization at 30% of MOV-31's run rate (`fiscal-profiles.csv`) | **$29.0 billion** (0.053% of GDP), the general fund's share of the program that year (excluding sec. 1112's grants and the reserve), falling to $14.0 billion by FY2044 as the premium phases in |
 | Share of the plan-wide margin | Already inside the plan-wide totals the housing close-out reported (FY2040 short of balance by $50.8 billion; `dossiers/home/6-cost.md`) | About $7 billion more in FY2040 than booked, if the successor's draw follows the model |
 
 **The figure reported to the settlement: FY2040 permanent cost of $29.0 billion (0.053% of GDP) on the model's spending path, against $22.1 billion booked, a gap of about $7 billion.** Both columns count spending only. The 25% income and payroll tax offset on the new excises is a revenue effect, booked separately in the ledger as MR6 (`models/data/inputs/ledger-revenue.csv`). Adding it to these figures would count it twice.
@@ -79,7 +90,7 @@ Its period averages match Draft 2's CBO-basis column: 0.220% in FY2032-36 and 0.
 **Why the booked figure is lower.** The budget model books $22.1 billion for three reasons:
 - **Timing.** It spreads each act's ten-year amount evenly. The real money is packages in FY2029-31 and top-ups in FY2032-36.
 - **Successor.** Its successor authorization is a placeholder at 30% of MOV-31's run rate.
-- **Measure.** The model's draw is the general fund's share of the whole program, and CBO's baseline already carries trust-fund outlays at current levels. So part of the gap may be a difference of measure rather than of cost.
+- **Measure.** The model's draw is the general fund's share of the program (excluding sec. 1112's grants and the reserve), and CBO's baseline already carries trust-fund outlays at current levels. So part of the gap may be a difference of measure rather than of cost.
 
 The range for FY2040, $22.1 to $29.0 billion on spending (about 0.04% to 0.05% of GDP), is reported to the settlement as a working assumption. No transportation choice turns on where in it the figure falls. Reconciling the two is the budget model's step that puts each bill in its own CBO window (B6 item 4).
 
