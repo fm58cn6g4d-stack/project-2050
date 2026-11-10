@@ -20,7 +20,9 @@ formulas (models/tools/health-coverage/model.py) for the design Espen decided (D
     python3 dossiers/care/tools/health_path.py --json    # the same numbers as JSON
 
 Simplifications, each labeled in 6-cost.md: each group's 2032 cost is grown on the model's growth path (CBO's growth
-in net federal health subsidies); a move on January 1 counts for the whole fiscal year; people restored to Medicaid in
+in net federal health subsidies); each fiscal year takes a quarter of the calendar year before it and three quarters
+of its own (FY2031 runs from October 2030), so a January move counts for nine months of its first fiscal year
+(review of the milestone, F-2); people restored to Medicaid in
 2030 are counted with the uninsured who join the plan in 2031; children's share of Medicaid spending is an assumption
 (CHILD_MCD_SHARE); the glide path is applied to hospital claims only, as a hospital share of non-drug claims; items
 the model does not price (the Medicare upgrades, the Advantage fix, worker help, the hospital transition fund and the
@@ -204,7 +206,7 @@ def path(I, B, P, glide):
     staged = {r['year']: r['federal_bn'] for r in res['fy2030_39']['staged']['series']}
     pubopt = {r['year']: r['federal_bn'] for r in res['fy2030_39']['public_option']['series']}
     m60 = {y: staged[y] - pubopt[y] for y in staged}
-    out = {}
+    cal = {2029: {'plan': 0.0, 'other': 0.0, 'total': 0.0, 'employer_moved': 0.0, 'shares': None, 'rate': None}}
     cache = {}
     for y in YEARS + [2040]:
         r = glide[y]
@@ -219,8 +221,14 @@ def path(I, B, P, glide):
             extra = restore[2030]                      # restoration only, before wave 1
         elif y < ENDPOINT:
             extra = m60.get(y, m60[2039] * gf[y] / gf[2039])  # Medicare at 60 until the endpoint (an upper bound)
-        out[y] = {'plan': plan, 'other': extra, 'total': plan + extra, 'shares': sh, 'rate': r,
+        cal[y] = {'plan': plan, 'other': extra, 'total': plan + extra, 'shares': sh, 'rate': r,
                   'employer_moved': sh['employer']}
+    # fiscal years: FY y = October of y-1 to September of y
+    out = {}
+    for y in YEARS + [2040]:
+        a, b = cal[y - 1], cal[y]
+        out[y] = {k: 0.25 * a[k] + 0.75 * b[k] for k in ('plan', 'other', 'total', 'employer_moved')}
+        out[y].update({'shares': b['shares'], 'rate': b['rate'], 'calendar_total': b['total']})
     return out, gf
 
 
@@ -267,12 +275,19 @@ def main():
                    'net_high': sum(sh[k] * hs[k] for k in hs) * gn_[y],
                    'commercial_loss': (sh['employer'] * hr['employer'] + sh['individual'] * hr['individual']) * gn_[y]}
     exclusion = {y: series[y]['employer_moved'] * f['tax_exclusion'] * gf[y] for y in YEARS + [2040]}
+    # half pass-through of employer-paid premiums into wages (review F-3): revenue lost against CBO's convention
+    half = {s_: {y: series[y]['employer_moved'] * 0.5 * f['tau'] * emp * (1 - s_) * gf[y] for y in [2032, 2040]}
+            for s_ in (0.0, neutral)}
     out = {
         'hospital_revenue_change': {y: {k_: round(v, 1) for k_, v in hosp[y].items()} for y in YEARS},
         'hospital_by_group_2032_at_target': {k_: round(v, 1) for k_, v in hospital_revenue(I, B, P, TARGET).items()},
         'hospital_by_group_2032_at_target_high': {k_: round(v, 1) for k_, v in
                                                   hospital_revenue(I, B, P, TARGET, 'selfpay').items()},
         'exclusion_by_year': {y: round(v, 1) for y, v in exclusion.items()},
+        'half_passthrough_loss_full_scale_2032': {'no_contribution': round(0.5 * f['tau'] * emp, 1),
+                                                  'neutral_contribution': round(0.5 * f['tau'] * emp * (1 - neutral), 1)},
+        'half_passthrough_loss_fy2040': {str(round(k_, 3)): round(v[2040], 1) for k_, v in half.items()},
+        'calendar_series': {y: round(series[y]['calendar_total'], 1) for y in YEARS + [2040]},
         'full_2032': {'net_model': full['federal']['net_change_bn'], 'net_groups': sum(net.values()),
                       'plan_outlay': sp['plan_outlay_bn'], 'cost_sharing': sp['cost_sharing_bn'],
                       'admin': sp['admin_bn'], 'state_moe': sp['state_and_retained_bn'],

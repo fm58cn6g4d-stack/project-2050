@@ -9,7 +9,7 @@ Role: section 5 of the care dossier, health part. It says who runs each provisio
 | Run the plan: enrollment, claims, payment, rules | HHS (CMS) | Medicare's claims contractors and payment systems, extended to every enrollee | HLT-7.01 to 7.14, 7.19 |
 | Find and enroll people from records | CMS with SSA and the IRS | Social Security and tax records, state Medicaid files, marketplace files, and the coverage reports employers already file with the IRS | HLT-7.02, 7.03 |
 | Collect the employer contribution | Treasury (IRS) | The quarterly payroll tax deposit; the base-year premium from the employer-paid cost of coverage already reported on W-2s | HLT-7.18 |
-| Collect the states' payments | CMS | One yearly formula per state, netted against the federal Medicaid money it still receives for long-term care | HLT-7.17 |
+| Collect the states' and territories' payments | CMS with Treasury | One yearly formula per state and territory, billed monthly as a direct obligation on the Part D clawback model and collected by offset against federal payments to the state, with interest, as the clawback is; not a condition on Medicaid or any grant | HLT-7.17, 7.28 |
 | Worker help | Labor | American Job Centers, the channel trade adjustment uses (TAA for Workers had $633.6 million in FY2021: CRS, 2022) [EV-CAR-345] | HLT-7.16 |
 | Hospital transition fund and global budgets | CMS | Medicare cost reports for each hospital's baseline revenue and payer mix | HLT-7.11, 7.15 |
 | Rural front door | USDA Rural Development state offices | Community Facilities loans and grants; referral to HRSA, CMS and the Rural Health Transformation Program | HLT-8.01 |
@@ -42,7 +42,7 @@ What the plan needs:
 | Plan year 2030 | Restoration in force; enhanced credits for 2030; Advantage fix at half strength | CMS, IRS |
 | January 1, 2031 | **Wave 1**: the uninsured, the individual market, every child; Medicare at 60; upgrades for today's Medicare enrollees (cap, hearing, vision); no disability wait; Medigap guaranteed issue; drug negotiation applies to the plan; hospital glide starts at about 1.25 times Medicare | CMS |
 | July 2031 | Readiness report for wave 2 | HHS |
-| 2032 | HHS publishes each hospital's projected revenue change under the plan from its cost report, and the transition fund's formula (if Espen approves HLT-7.15) | CMS |
+| 2032 | HHS publishes each hospital's projected revenue change under the plan from its cost report, and the transition fund's formula (HLT-7.15, `DEC-2026-11-10-13`) | CMS |
 | January 1, 2033 | Wave 2, first cohort: a third of Medicaid (by state) and of employer groups (smallest firms first); employer contribution starts for them; worker help opens; dental for Medicare enrollees | CMS, IRS, Labor |
 | July 2033 | Readiness report for the endpoint | HHS |
 | January 1, 2034 | Wave 2, second cohort | CMS, IRS |
@@ -69,7 +69,7 @@ What the plan needs:
 | --- | --- |
 | 2029-30 | Run restored Medicaid (HLT-1.01 to 1.03) |
 | 2031 | Their children move into the plan; Medicaid continues for adults until their cohort |
-| Their cohort (2033, 2034 or 2035) | Medicaid's acute care moves to the plan; the state starts paying its fixed share (HLT-7.17) |
+| Their cohort (2033, 2034 or 2035; the territories in 2033) | Medicaid's acute care moves to the plan; the state or territory starts paying its fixed share (HLT-7.17, 7.28) |
 | From then | Long-term care stays in Medicaid until part B decides (HLT-7.07); insurance regulators oversee supplemental coverage and Medigap (HLT-2.02, 7.23) |
 
 State public options and state-funded premium help fold into the plan when their enrollees move.
@@ -77,7 +77,7 @@ State public options and state-funded premium help fold into the plan when their
 ## 6. Rural delivery
 
 - **Capital:** USDA Community Facilities direct loans of $3-5 billion a year for rural hospitals, clinics and nursing homes, and $200-500 million of grants (HLT-8.01), through the offices that housing's rebuild of Rural Development staffs (`DEC-2026-11-10-02`).
-- **Operating:** global budgets for rural, critical-access and safety-net hospitals (HLT-7.11), and the transition fund if approved (HLT-7.15).
+- **Operating:** global budgets for rural, critical-access and safety-net hospitals (HLT-7.11), and the transition fund (HLT-7.15, `DEC-2026-11-10-13`).
 - **The navigator's remit** (point 6 left it to this section). Working choice: each Rural Development state office has a health facilities lead who helps rural providers apply for Community Facilities money, the Rural Health Transformation Program (whose $10 billion a year runs through FY2030: Public Law 119-21) [EV-CAR-015], HRSA's rural grants and the plan's global budgets. It does not run a program of its own.
 
 ## 7. What delivery leaves open

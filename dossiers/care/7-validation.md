@@ -25,15 +25,17 @@ Role: section 7 of the care dossier, health part: the model runs behind sections
 | Hospital-by-hospital effects, and what hospitals collect for the uninsured today | Distribution, and the sign of the total | `6-cost.md`, part 3 uses national averages of rates and payer mix, and a range for the uninsured's current payments (35% self-pay to all current care); MedPAC's margins by type point the same way [EV-CAR-336] [EV-CAR-337] | Medicare cost reports (2032, HLT-7.15); uncompensated-care and DSH data |
 | Long-term care | Higher cost when part B decides | The model's working figure is $200 billion a year (2032; range $100-400 billion) | Part B |
 | People without status | Higher cost | The 3.6 million left uninsured include them; covering them is the immigration flagship's decision (point 3) | Shared rule 3 |
-| Employer wages | Revenue | Ending premiums raises taxable wages only as far as pay rises; about half of premium cost passes into pay (Anand, 2017) [EV-CAR-299]. The exclusion revenue assumes the former premiums, less the contribution, all become wages | The settlement's revenue estimate |
+| Employer wages | Revenue | Ending premiums raises taxable wages only as far as pay rises; about half of premium cost passes into pay (Anand, 2017) [EV-CAR-299]. The exclusion revenue assumes the former premiums, less the contribution, all become wages. That is CBO's convention (total compensation fixed); at half pass-through of the employer-paid share the revenue is about $242 billion lower at full scale in 2032, or $85 billion with the contribution at 65% (`6-cost.md`, part 6) | The settlement's revenue estimate |
 | Behavior of states and employers before their cohort | Cost timing | Employers or states might cut coverage early; HLT-7.04 forbids it and HLT-7.18 charges the contribution | Implementation data |
 | Interest and economic feedback | Higher deficit before financing | Neither model computes interest on the plan; no growth or labor-supply effect | The budget model, once booked |
-| Fiscal versus calendar years | Timing | Each January move counts for the whole fiscal year | Fiscal-year phasing when the bill is drafted |
+| Fiscal versus calendar years | Fixed | `health_path.py` now blends calendar years into fiscal years (a quarter and three quarters), as the budget model books; the calendar-year count read about $1.1 trillion high over FY2030-39 (review F-2) | — |
 | The federal systems | Small | The IHS, VA and TRICARE are held at baseline; the plan's payments to their facilities are not priced | HLT-7.24's open items |
+| The territories | Higher cost | The model is CBO's 50-state and D.C. baseline; the territories' residents are priced outside it (`6-cost.md`, part 2; HLT-7.28) | Territory-level spending data |
+| TRICARE, the VA and FEHB inside the employer cell | Employer savings and contribution read high | The model's employment-based cell includes them; TRICARE and the VA continue and FEHB's contribution is intragovernmental (`6-cost.md`, part 4) | The model's cell shares |
 
 ## 3. How it lands with the rest of the plan
 
-- **The financing settlement.** The amount to be financed, about $2.4 trillion at full scale in 2032 and $3.7 trillion in FY2040 after the employer contribution (`6-cost.md`, part 4), is far larger than any other dossier's. Health's financing is the settlement's main task.
+- **The financing settlement.** The amount to be financed, about $2.4 trillion at full scale in 2032 and $3.6 trillion in FY2040 after the employer contribution (`6-cost.md`, part 4), is far larger than any other dossier's. Health's financing is the settlement's main task.
 - **Housing.** Rule 7 (services that make housing work) is unchanged until part B; Medicaid's home and community services continue (HLT-7.07). Rural Development's offices are shared with housing's rebuild (HLT-8.01; `DEC-2026-11-10-02`).
 - **The workforce (part D).** The design's demand rise and rate cuts both bear on supply; part D sizes the workforce the endpoint needs.
 - **Rights.** The Hyde Amendment's end (RTS-2) sits beside the Reproductive Freedom Act (RTS-1), which keeps the conscience laws.

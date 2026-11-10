@@ -1,0 +1,461 @@
+Source: https://www.everycrsreport.com/reports/RL32440.html
+Publisher: Congressional Research Service
+Retrieved: 2026-11-10
+Original SHA-256: 0a7d2e195af2dc471c8c048581104002f75e138d6a8a88ad6f0ac4a37ba9c7be
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Implications of the Medicare Prescription Drug Benefit for State Budgets - EveryCRSReport.com
+Internet Explorer version 8 or any modern web browser is required to use this website, sorry.
+Implications of the Medicare Prescription Drug Benefit for State Budgets
+June 23, 2004
+RL32440
+Order Code RL32440
+CRS Report for Congress
+Received through the CRS Web
+Implications of the Medicare Prescription Drug
+Benefit for State Budgets
+June 23, 2004
+April Grady
+Analyst in Social Legislation
+Domestic Social Policy Division
+Christine Scott
+Specialist in Tax Economics
+Domestic Social Policy Division
+Congressional Research Service ˜ The Library of Congress
+Implications of the Medicare Prescription Drug Benefit
+for State Budgets
+Summary
+The Medicare Prescription Drug, Improvement, and Modernization Act of 2003
+(MMA, P.L. 108-173) made several major changes to Medicare including (1) adding
+a voluntary Medicare Part D outpatient prescription drug benefit effective January 1,
+2006; (2) offering Medicare beneficiaries discounted prescription drugs in 2004 and
+2005 through an endorsed discount card; (3) modifying various Medicare payment
+rates.
+The new Medicare drug benefit is funded in two ways: (1) by traditional
+Medicare funding through enrollee payments and the Health Insurance Trust Fund;
+and (2) by phased-down (commonly referred to as “clawback”) payments from the
+states to the federal government. The state payments reflect the fact that starting in
+2006, Medicare Part D will replace the prescription drug benefits currently received
+by dual eligibles (individuals enrolled in both Medicaid and Medicare) through state
+Medicaid programs.
+The funding mechanism for the new Medicare prescription drug benefit has the
+potential to reduce both Medicaid and other state health expenditures. However, two
+types of issues associated with the financing of Part D may affect the potential for
+state budget savings: (1) technical issues associated with the formula for calculating
+phased-down state payments to the federal government; and (2) policy issues raised
+by MMA that may directly or indirectly impact Medicaid and other state health
+programs.
+This report outlines the issues associated with the financing of Part D coverage
+through phased-down state payments to the federal government, as well as the
+potential impacts of the Medicare drug benefit on Medicaid and other state health
+expenditures. It will not be updated.
+Contents
+Overview . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+Phased-Down State Payments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+Phased-Down State Payment Formula Issues . . . . . . . . . . . . . . . . . . . . . . . . 3
+Inflation Adjustment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+Selection of 2003 as the Base Year . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+Quality and Availability of Base Year Data . . . . . . . . . . . . . . . . . . . . . . 3
+State Medicaid Expenditures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Low-Income Subsidies . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Administrative Costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+New Enrollee Costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+Pharmacy Plus and Other Section 1115 Waivers . . . . . . . . . . . . . . . . . . . . . . 6
+Future Drug Expenditures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+Other State Health Expenditures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+State Pharmacy Assistance Programs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+State Retiree Health Plans . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+List of Tables
+Table 1. Calculation of Phased-Down State Payments . . . . . . . . . . . . . . . . . . . . . 2
+Implications of the Medicare Prescription
+Drug Benefit for State Budgets
+Overview
+The Medicare Prescription Drug, Improvement, and Modernization Act of 2003
+(MMA, P.L. 108-173) made several major changes to Medicare including (1) adding
+a voluntary Part D outpatient prescription drug benefit effective January 1, 2006; (2)
+offering Medicare beneficiaries discounted prescription drugs in 2004 and 2005
+through an endorsed discount card; (3) modifying various Medicare payment rates.1
+In general, Medicare is the primary payer for those services covered by both
+Medicare and Medicaid, and Medicaid usually covers those costs in excess of what
+is covered by Medicare. For Medicaid benefits that are not available under Medicare
+(for example, many long-term care services), Medicaid covers the entire cost unless
+there is another third-party payer. While these rules will still apply for most Medicare
+and Medicaid services, MMA will significantly change the interaction of Medicare
+and Medicaid for coverage of prescription drugs.
+Federal Medicaid law allows states to offer a number of benefits that are not
+covered by Medicare, including (at state option) prescription drugs. All 50 states and
+the District of Columbia currently cover prescription drugs for at least some
+Medicaid enrollees. Starting in 2006, full-benefit dual eligibles2 will qualify for
+prescription drug benefits under Medicare Part D, and states will no longer be
+allowed to claim federal Medicaid matching funds for state dollars spent on drug
+coverage for these individuals. In order to receive prescription drug coverage, full-
+benefit dual eligibles must enroll in the new Medicare Part D benefit. This benefit
+will be offered through drug plans that have received approval from the Secretary of
+Health and Human Services (HHS).
+The new Part D benefit is funded in two ways: (1) by traditional Medicare
+funding through enrollee payments and the Health Insurance Trust Fund; and (2) by
+phased-down (commonly referred to as “clawback”) state payments to the federal
+1 For additional information, see CRS Report RL31966, Overview of the Medicare
+Prescription Drug, Improvement, and Modernization Act of 2003 , by Jennifer O’Sullivan
+et al. and CRS Report RL32283, Medicare Endorsed Prescription Drug Discount Card
+Program , by Jennifer O’Sullivan.
+2 The term “dual eligible” refers to individuals who qualify for both Medicare and Medicaid.
+Some dual eligibles receive only a limited set of Medicaid benefits (for example, pharmacy
+only or assistance with Medicare Part A and Part B premiums and cost-sharing only). Those
+who receive the full range of Medicaid benefits offered in their state are referred to as “full-
+benefit” dual eligibles.
+CRS-2
+government. The state payments reflect the fact that starting in 2006, Medicare Part
+D will replace the prescription drug benefits currently received by full-benefit dual
+eligibles through state Medicaid programs.
+Two types of issues associated with the financing of Part D may have an impact
+on state budgets: (1) technical issues associated with the formula for calculating
+phased-down state payments to the federal government; and (2) policy issues raised
+by MMA that may directly or indirectly affect Medicaid and other state health
+programs. This report focuses on these issues for the Part D provisions in MMA that
+may impact state budgets.3 It does not address other provisions with a potential
+impact on states, including disproportionate share hospital (DSH) payment changes
+and new Medicare payments for services that previously have been covered by
+Medicaid for dual eligibles (for example, initial preventive physical exams).
+Phased-Down State Payments
+Starting in 2006, full-benefit dual eligibles will qualify for Medicare Part D
+coverage, and states will no longer be allowed to claim federal Medicaid matching
+funds for state dollars spent on prescription drug benefits for these individuals.
+However, states will continue to be responsible for a significant portion of their drug
+costs through phased-down payments to the federal government. These monthly
+amounts are calculated under a formula (see Table 1 ) relating past state Medicaid
+drug expenditures and the current number of full-benefit dual eligibles in a state.
+Table 1. Calculation of Phased-Down State Payments
+Formula:
+Monthly payment
+=
+[ (1/12) x Base year per capita
+x (1-FMAP
+) x Inflation
+state
+state
+state
+adjustment ] x Enrollment
+x Annual adjustment factor
+state
+Where:
+Base year per capita
+=
+State Medicaid per capita spending on covered Part D drugs for
+state
+full-benefit dual eligibles in 2003
+FMAP
+=
+Federal matching assistance percentage (FMAP) is the federal
+state
+share of Medicaid financing for a given state (determined by a
+formula related to state personal income); one minus FMAP is
+the state share of Medicaid financing
+Inflation adjustment
+=
+For 2006, the annual increase in per capita expenditures for all
+prescription drugs from National Health Expenditure
+projections; for later years, the annual increase in actual per
+capita expenditures for drugs covered under Part D
+Enrollment
+=
+State number of full-benefit dual eligibles in a given month
+state
+Annual adjustment factor
+=
+90% for 2006, declining to 75% for 2015 and later years
+Source: Table prepared by the Congressional Research Service (CRS) based on Section 1935(c) of
+the Social Security Act.
+3 For a discussion of the impact on dual eligibles and on state Medicaid programs, see CRS
+Report RS21837, Implications of the Medicare Prescription Drug Benefit for Dual Eligibles
+and State Medicaid Programs , by Karen Tritz.
+CRS-3
+The phased-down payment formula is designed to approximate what the state
+share of Medicaid spending on prescription drugs for dual eligibles would have been
+in the absence of the new Medicare Part D benefit and to provide some shifting of
+these costs to the federal government. The partial shifting of prescription drug costs
+for these individuals from the states to the federal government is done over time
+through the annual adjustment factor (the factor is 90% for 2006 and gradually
+declines to 75% for years after 2014).
+Phased-Down State Payment Formula Issues
+Inflation Adjustment. As with most inflation adjustments, the inflation rate
+used in the phased-down state payment formula is calculated on a national basis.
+However, the new Part D benefit provides coverage through approved plans on both
+a national and a regional basis. Differences between regions and plans related to
+drug formularies, ability to negotiate drug prices, and cost control mechanisms may
+lead to differences in increases in prescription drug prices. Using a national inflation
+adjustment assumes that there are no such differences. Another issue is that until the
+new Medicare Part D benefit begins, the inflation rates used for 2004, 2005, and
+2006 will be based on increases for all prescription drugs, not just those covered
+under the Part D benefit. To the extent that the prices of Part D drugs grow at a rate
+that is different than the average for all drugs, phased-down state payments will not
+reflect the difference until 2007.
+Selection of 2003 as the Base Year. One issue associated with the base
+year per capita expenditure amounts is the timing of the data used to calculate them.
+The use of 2003 locks in a base level of state funding that does not reflect recent
+changes made by states to control their Medicaid drug spending. To the extent that
+a state made changes after 2003, including the use of a drug formulary or co-pays to
+limit costs under Medicaid, the state will not realize these savings in their phased-
+down payments.4 The use of 2003 also locks in a base level of state funding that
+reflects the profile of a state’s full-benefit dual eligible population in one particular
+year. As a result, states with higher levels of drug utilization in 2003 will have
+higher base year per capita drug expenditures and will permanently fund the
+Medicare drug benefit at a higher rate than other states. Regardless of how utilization
+patterns may change in future years, phased-down state payments will continue to
+reflect the level of full-benefit dual eligible drug utilization in 2003.
+Quality and Availability of Base Year Data. The first piece of
+information needed for the calculation of base year per capita expenditures is the
+number of full-benefit dual eligibles enrolled in Medicaid fee-for-service and
+managed care arrangements in 2003. While states are required to submit information
+to the Centers for Medicare & Medicaid Services (CMS) on the dual eligible status
+of every Medicaid enrollee through the Medicaid Statistical Information System
+4 A recent survey of the 50 states found that 46 took some type of pharmacy cost
+containment action in state fiscal year (SFY) 2003; 44 took action in SFY2004. See Kaiser
+Commission on Medicaid and the Uninsured, States Respond to Fiscal Pressure: State
+Medicaid Spending Growth and Cost Containment in FY2003 and FY2004 (Sept. 2003),
+Appendices B — E.
+CRS-4
+(MSIS), some have difficulty doing so. Based on fiscal year (FY) 2001 data, nine
+states could not identify the Medicare status (that is, whether or not an individual was
+enrolled in the program) of 10% or more of Medicaid enrollees.
+Even when states are able to identify dual eligibles in their MSIS data, they may
+not be able to identify whether or not they are entitled to full Medicaid benefits. In
+FY2001, 18 states could not identify the benefit status (that is, whether an individual
+was entitled to full benefits or limited assistance only) of 25% or more of dual
+eligibles.5 CMS is currently working with the states to improve the quality of data
+reporting in this area, but if some states are not able to provide complete information
+for 2003, it is unclear how the number of full-benefit dual eligibles will be
+determined for purposes of calculating base year per capita expenditures and how this
+will affect the size of phased-down state payments.
+Also required for the calculation of base year per capita expenditures is total
+Medicaid spending on covered Part D drugs for full-benefit dual eligibles in 2003.
+This may come from some combination of MSIS and Medicaid financial
+management (Form CMS-64) information submitted by the states. However, there
+are a number of data issues that will need to be addressed. One such issue is the fact
+that CMS-64 reports do not include a separate accounting for the cost of outpatient
+prescription drugs provided under capitated plans. A second issue is that
+expenditures for drugs purchased directly from physicians or included in claims for
+other services (such as institutional and home and community-based care) may also
+not be identified separately in these reports. While MMA addresses managed care
+by specifying that an estimated actuarial value of drug benefits provided under
+capitated plans be used in base year per capita expenditure calculations, it does not
+address how the other types of non-itemized drug spending mentioned above will be
+included in the calculations.
+A third issue with Medicaid spending data and the calculation of base year per
+capita expenditures is the identification of expenditures attributable to drugs not
+covered under Part D. MMA specifies that these are to be excluded from the base
+year calculations, but it is unclear how non-covered drugs will be defined and how
+the non-covered drug expenditures will be separated out from available data.6
+State Medicaid Expenditures
+Starting in 2006, full-benefit dual eligibles will qualify for prescription drug
+benefits under Medicare Part D, and states will no longer be allowed to claim federal
+Medicaid matching funds for state dollars spent on drug coverage for these
+individuals. However, as discussed below, state Medicaid savings that result from
+5 CRS analysis of MSIS state summary data provided by CMS.
+6 For example, if a state covered a broad range of brand-name drugs in 2003 that are not
+available or not widely available through Part D prescription drug plans (presumably
+because the plan formularies include less expensive substitutes), it is not clear whether the
+full cost of providing the brand-name drugs will be included in the calculation of base year
+per capita expenditures.
+CRS-5
+this shift may be offset if the screening process for the Part D low-income subsidy
+program leads to a greater proportion of Medicare beneficiaries being identified as
+eligible for Medicaid benefits. Depending on whether or not dual eligibles enrolled
+in Medicaid waiver programs are included in the base year per capita expenditures
+used to calculate phased-down payments to the federal government, some states may
+be able to realize savings by allowing the cost of drug coverage for these enrollees
+to fall solely on the Medicare program.
+According to Congressional Budget Office (CBO) estimates, the elimination of
+Medicaid prescription drug coverage for full-benefit dual eligibles will reduce state
+Medicaid spending by $114.6 billion between FY2004 and FY2013. However, all
+but $17.2 billion of this amount will be offset by phased-down state payments ($88.5
+billion), spending on new dual eligibles7 ($5.8 billion), and administrative and other
+costs ($3.1 billion).8
+Low-Income Subsidies
+Under MMA, certain low-income Medicare beneficiaries are entitled to
+subsidies that provide assistance with Part D premiums and cost-sharing (deductibles,
+co-insurance, and co-payments). State Medicaid agencies are responsible for
+determining eligibility for these subsidies and are likely to incur both administrative
+and new enrollee costs as a result of the subsidy screening process.
+Administrative Costs. As a condition of receiving federal financial
+participation for their Medicaid programs, states are required under MMA to
+determine eligibility for Medicare Part D’s low-income subsidy program for all
+Medicare beneficiaries, not just those who are dual eligibles. Social Security offices
+will also share in this responsibility. CBO estimates that more than 14 million
+individuals will be eligible for low-income subsidies in 2006, although not all of
+them are expected to participate in the program. State Medicaid programs will
+receive federal reimbursement for 50% of costs associated with administering the
+subsidy, such as hiring new staff and modifying eligibility determination systems.
+New Enrollee Costs. Starting in 2006, full-benefit dual eligibles will qualify
+for Medicare Part D and will no longer be eligible for Medicaid prescription drug
+benefits. Despite the fact that this will lead to a decrease in Medicaid prescription
+drug expenditures, total state Medicaid expenditures may still increase if the Part D
+subsidy screening process leads to a greater proportion of Medicare beneficiaries
+being identified as eligible for Medicaid benefits.
+When screening Medicare beneficiaries for Part D subsidy eligibility, states
+must determine their eligibility for Medicaid-funded subsidies that provide assistance
+7 This includes both full-benefit dual eligibles and those who receive limited assistance (for
+example, Medicare Part A and Part B premium and cost-sharing subsidies only).
+8 Congressional Budget Office, letter to Senator Don Nickles (Nov. 20, 2003), Table 3.
+CRS-6
+with Medicare Part A and Part B premiums and cost-sharing.9 They may also
+determine eligibility for full Medicaid benefits.10 Although states will not be allowed
+to claim federal Medicaid matching funds for state dollars spent on drug coverage for
+full-benefit dual eligibles, they will continue to receive federal reimbursement for a
+portion of the other Medicaid costs associated with serving dual eligibles (including
+both full-benefit dual eligibles and those who receive limited assistance only).
+Pharmacy Plus and Other Section 1115 Waivers
+Under MMA, it is unclear which, if any, Medicare beneficiaries who receive
+prescription drugs through a Section 1115 Medicaid waiver11 will be considered full-
+benefit dual eligibles for purposes of calculating phased-down state payments.
+Section 1115 waivers vary in their scope and comprehensiveness, and CMS has yet
+to release official guidance on the treatment of dual eligibles covered under these
+programs. Pharmacy Plus waivers, which are Section 1115 waivers that give states
+the option to extend Medicaid drug coverage to certain low-income elderly and
+disabled individuals who otherwise are not eligible for Medicaid benefits and who
+have limited or no access to prescription drug coverage, may have a particular impact
+on some state budgets.
+The majority of current Pharmacy Plus enrollees are Medicare beneficiaries who
+will qualify for Part D in 2006. However, since they do not receive full Medicaid
+benefits, Medicaid drug expenditures made on their behalf in 2003 will likely not be
+included in the base year per capita expenditures used to calculate phased-down state
+payments. States, therefore, will not be required to share in the financing of Part D
+benefits for these individuals, and they may choose to abandon or revise their waivers
+to allow the cost of drug coverage for dual eligible Pharmacy Plus enrollees to fall
+solely on the Medicare program. In three of the four states with programs in FY2003,
+state spending on Pharmacy Plus benefits was approximately $945 million.12
+Although states may opt to allow the cost of drug coverage for some dual
+eligible waiver enrollees to fall on the Medicare program, the impact this will have
+on beneficiaries may be a consideration. Currently, state Medicaid programs are
+permitted to impose nominal co-payments for prescription drugs (with most falling
+between $0.50 and $3.00 per prescription) on non-institutionalized Medicaid
+beneficiaries, and they are prohibited from imposing co-payments on institutionalized
+9 These Part A and Part B subsidies are also known as the Medicare Savings Programs.
+10 For individuals eligible for both Medicare and full Medicaid benefits, Medicare is the
+primary payer. Medicaid covers the cost of services above the Medicare payment, as well
+as the cost of state-offered Medicaid services that are not covered by Medicare (such as
+long-term care).
+11 Section 1115 of the Social Security Act allows the federal government to waive certain
+sections of Medicaid law for research and demonstration purposes.
+12 Estimate based on CRS analysis of waiver data provided by CMS.
+CRS-7
+beneficiaries. There are no premiums charged and there is no additional cost-sharing
+required for Medicaid prescription drug coverage.13
+Under Part D, individuals who reside in an institution will have no cost-sharing
+obligations, and those who are full-benefit dual eligibles will qualify for a premium
+subsidy equal to the weighted average Part D plan premium for their region or the
+actual premium amount for basic coverage under the plan they enroll in (whichever
+is less). As a result, the amount that institutionalized dual eligibles pay for
+prescription drugs under Part D may not differ substantially from what they would
+have paid under Medicaid. However, for dual eligibles who do not reside in an
+institution, they amount they pay for prescription drugs may increase under Part D.
+The size of that increase is unknown and will vary by person depending on income
+level, the prescription drugs used, increases in the Consumer Price Index (CPI), and
+increases in Part D expenditures.14
+Future Drug Expenditures
+Medicaid law requires drug manufacturers that wish to have their drugs
+available for Medicaid enrollees to enter into rebate agreements with the Secretary
+of HHS, on behalf of the states. Under these agreements, manufacturers must
+provide state Medicaid programs with rebates on drugs paid for on behalf of
+Medicaid beneficiaries. The “best price” formulas used to compute the rebates are
+intended to ensure that Medicaid pays the lowest price offered by the manufacturer
+for the drugs. In exchange, states are required to cover all drugs marketed by the
+manufacturers. A few states have negotiated supplemental rebates in addition to the
+federal agreements.
+The potential impacts of MMA on drug prices paid by state Medicaid programs
+are unclear. Since more than half of Medicaid expenditures for outpatient
+prescription drugs are for dual eligibles,15 it remains to be seen whether the reduction
+in purchasing volume created by the shifting of these individuals to Part D in 2006
+will affect the ability of state and federal Medicaid officials to negotiate rebates with
+drug manufacturers. A separate issue is the effect of an MMA provision that
+exempts prices negotiated for drugs under Medicare-endorsed discount drug card
+plans, Part D plans, and certain other qualified entities from the best price formulas
+used by manufacturers in calculating rebates to the states. If the prices negotiated by
+these exempt purchasers are lower than those negotiated by non-exempt purchasers,
+states will not be allowed to benefit from these lower prices through increased rebates
+on their Medicaid drug expenditures.
+13 See CRS Report RL3076, Prescription Drug Coverage Under Medicaid , by Jean Hearne
+and April Grady.
+14 For more information, see CRS Report RS21837, Implications of the Medicare
+Prescription Drug Benefit for Dual Eligibles and State Medicaid Programs , by Karen Tritz.
+15 See CRS Report RL31987, Dual Eligibles: Medicaid Expenditures for Prescription Drugs
+and Other Services , by Karen Tritz and Megan Lindley.
+CRS-8
+Other State Health Expenditures
+State Pharmacy Assistance Programs
+State Pharmacy Assistance Programs (SPAPs) are state-sponsored programs that
+provide prescription drug subsidies and discounts, most often for low-income aged
+and disabled individuals who do not qualify for Medicaid. Twenty-nine states
+currently have SPAPs in operation, and nine have enacted laws to create programs
+but have not yet implemented them. States appropriated an estimated $1.5 billion for
+SPAPs in 2001.16
+Starting in June 2004, Medicare beneficiaries (with the exception of those who
+have Medicaid drug coverage) will have access to Medicare-endorsed discount cards
+that provide some assistance with drug costs until Part D is implemented in 2006.
+States may use SPAP dollars to cover discount card enrollment fees for beneficiaries.
+They may also continue to assist individuals with their drug costs. Beneficiaries may
+be enrolled in both a Medicare discount card program and an SPAP, and states may
+encourage them to utilize their Medicare benefits before turning to the SPAP for
+assistance.
+Starting in 2006, many Medicare beneficiaries who currently qualify for SPAPs
+will be eligible for the Part D low-income subsidy program. Regardless of
+beneficiaries’ low-income subsidy eligibility, states may choose to use SPAP dollars
+to supplement beneficiaries’ Part D coverage by (1) purchasing additional benefits
+from a qualifying Medicare prescription drug plan; (2) by providing their own state
+programs; or (3) by helping beneficiaries meet their Part D premium and cost-sharing
+obligations.
+In June 2004, the Secretary of HHS announced the appointment of a 24-member
+State Pharmaceutical Assistance Transition Commission. The commission was
+mandated by MMA and is charged with developing a detailed proposal to address
+issues faced by SPAPs and SPAP beneficiaries as a result of the new Medicare drug
+benefit. A report from the group is due to the President and Congress in January
+2005.
+State Retiree Health Plans
+MMA provides financial incentives for employers, including the states, to
+continue offering prescription drug coverage for retirees. Starting in 2006, employers
+that elect to provide drug plan benefits that are at least as generous as Part D will
+receive direct subsidies from Medicare equal to 28% of drug costs incurred between
+$250 and $5,000 per retiree who is eligible for Part D but chooses not to enroll.
+Employers that instead provide wrap-around or supplemental benefits for retirees
+with Part D coverage will not qualify for the subsidy. Further, their contributions
+will not count toward retirees’ Part D cost-sharing for purposes of calculating
+whether an individual has reached the catastrophic out-of-pocket limit for Part D.
+16 National Health Policy Forum, State Pharmacy Assistance Programs (Apr. 26, 2004).
+CRS-9
+Based on a recent survey, an estimated 1.7 million Medicare-eligible individuals
+were enrolled in state-based retiree health plans (all of which offered prescription
+drug benefits) in 2002. When asked in the survey to speculate on what would happen
+if a Medicare prescription drug benefit were to be enacted by Congress, more than
+three-fourths of responding states anticipated retaining their drug coverage as a wrap-
+around supplement to whatever Medicare offered. A small number anticipated either
+dropping coverage altogether or retaining their current coverage in exchange for a
+federal subsidy.17 In light of the budgetary pressures faced by states, those that wish
+to retain some type of prescription drug benefit for retirees have a strong incentive
+to choose the least expensive option, whether it be comprehensive coverage with a
+federal subsidy or limited wrap-around coverage with no subsidy.
+However, as with the decision over whether to allow prescription drug costs for
+dual eligible Medicaid waiver enrollees to fall solely on the Medicare program, the
+impact on beneficiaries may be a factor in a state’s decision over whether to provide
+comprehensive drug coverage for retirees. Individuals who do not qualify for low-
+income subsidies under Part D may be subject to significantly higher out-of-pocket
+prescription drug costs than they would be under a state-based retiree health plan.
+As a result, budget costs may be only one consideration when states determine the
+level of prescription drug benefits that will be offered to retirees.
+17 Jack Hoadley, How States Are Responding to the Challenge of Financing Health Care for
+Retirees (Henry J. Kaiser Family Foundation, Sept. 2003).
+Download PDF
+Download EPUB
+Revision History
+Jun. 23, 2004
+HTML
+·
+PDF
+Metadata
+Topic areas
+Domestic Social Policy
+Economic Policy
+Health Policy
+Report Type: CRS Report
+Source: University of North Texas Libraries Government Documents Department
+Raw Metadata: JSON
