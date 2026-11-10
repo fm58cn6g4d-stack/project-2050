@@ -43,7 +43,7 @@ Americans pay the most in the world for health care and still go without it. By 
 
 **Will I wait longer for care?** Waits may grow at first, as the Congressional Budget Office expects for any single-payer plan (Congressional Budget Office, 2020) [EV-CAR-219]. The plan starts with smaller groups to test it, keeps a small copay where care is scarcest, and pays doctors and hospitals above Medicare's rates.
 
-**Will my hospital close?** Rural and safety-net hospitals get fixed yearly budgets. On our estimates, hospitals as a whole don't lose revenue: what they lose on high-priced private patients they gain from patients who were on Medicaid or uninsured. A transition fund for hospitals that do lose is proposed and awaits a decision.
+**Will my hospital close?** Rural and safety-net hospitals get fixed yearly budgets. On our estimates, hospitals as a whole end up with about the same revenue, within a few percent: most of what they lose on high-priced private patients they gain from patients who were on Medicaid or uninsured. A transition fund for hospitals that do lose is proposed and awaits a decision.
 
 **What about abortion?** The plan covers reproductive care, including abortion, and ends the Hyde Amendment's limits on federal funding.
 
@@ -86,4 +86,4 @@ Americans pay the most in the world for health care and still go without it. By 
 | About $1.5 trillion of household and $1.5 trillion of employer premiums removed; about $200 billion less national spending (project estimate; $212 billion in section 6) | Section 6, part 1; section 7, part 5 | Project arithmetic, `tools/health_path.py` |
 | About 3.6 million uninsured at the endpoint (project estimate) | Section 6, part 1; section 7, part 4 | Project arithmetic; EV-CAR-051 |
 | Federal cost up about $3 trillion a year at full scale (project estimate; $3.05 trillion in 2032) | Section 6, part 1 | Project arithmetic |
-| Hospitals as a whole don't lose revenue (project estimate) | Section 6, part 3 | Project arithmetic; EV-CAR-336, EV-CAR-337 |
+| Hospitals as a whole end up with about the same revenue, within a few percent (project estimate: about 4% lower to 1% higher after the glide) | Section 6, part 3 | Project arithmetic; EV-CAR-336, EV-CAR-337 |
