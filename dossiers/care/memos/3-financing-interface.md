@@ -17,8 +17,8 @@ Role: decision memo for Espen, fork 3 of the health design (`../3-design.md`). S
 - *Against:* the largest new tax, about $3.5 trillion a year at full scale, with no credit for money states and employers already spend. Vermont's plan stopped when its full tax became visible (VTDigger, 2014; State of Vermont, 2014) [EV-CAR-245] [EV-CAR-244].
 
 **B. Keep the existing public streams and replace premiums with contributions (recommended).**
-- *Medicare's streams stay:* the payroll tax for hospital insurance, the premiums and general revenue that fund doctors' and drug coverage, all folded into one fund. Under a staged path, the hospital trust fund is kept whole as the legacy design required (D4; `legacy/domains/domain-health.md`).
-- *States pay a fixed maintenance of effort* equal to their current share of Medicaid spending for the people who move, growing with a set index. In the coverage model, states keeping half their current spending lowers the federal cost by about $300 billion a year at full scale.
+- *Medicare's public streams stay:* the payroll tax for hospital insurance and the general revenue that funds doctors' and drug coverage, folded into one fund. Medicare's premiums (Parts B and D) end for each group as it moves into the single plan, as memo 1's C and memo 4 promise (no premiums); until then they continue. Under a staged path, the hospital trust fund is kept whole as the legacy design required (D4; `legacy/domains/domain-health.md`).
+- *States pay a fixed maintenance of effort*: a set share of what they now spend on Medicaid for the people who move, growing with a set index. The working figure is half their current spending (range 0 to 80%, the coverage model's `sp_state_moe`), which lowers the federal cost by about $300 billion a year at full scale; each 10 points of share moves it by about $60 billion (the coverage model). The share is a working assumption for the financing settlement, not a commitment here.
 - *Employers' premiums become a contribution* while their workers move (memo 2, point 4), then a broad payroll contribution the settlement sets. Employers already pay about $1.5 trillion a year in premiums in 2032 (the coverage model).
 - *New revenue fills the rest,* chosen by the financing settlement under D3 (households below the top come out ahead).
 - *For:* the new tax is far smaller than A's because existing money keeps flowing; households see premiums and deductibles end while the employer contribution is a known, capped amount.
@@ -39,4 +39,4 @@ Role: decision memo for Espen, fork 3 of the health design (`../3-design.md`). S
 ## Questions for you
 
 1. Which plumbing: A, B (recommended) or C?
-2. Should states pay a fixed maintenance of effort (recommended), and at about their current share?
+2. Should states pay a fixed maintenance of effort (recommended), with half their current Medicaid spending as the working figure and the final share left to the financing settlement?
