@@ -33,6 +33,8 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
   1. When #171 merges, start row 4j (housing memo 13, USDA rural housing: bigger programs *and* broader eligibility, such as the 504 age limit, income limits and the rural definition), reading R1. Then Espen decides, the memo is folded in, and section 9 gets a small update.
   2. **Section 7 is stale.** 3.6 still calls the 140% limit and the 3% FHA line "proposed", and 5.3-5.4 still quote $0.65 trillion, $90 billion and $20-28 billion (flagged by #173's author). It needs a small tier-2 fix against section 6 and `DEC-2026-11-09-24`/`-25`.
   3. The L2/L3 milestone review (row 6), then Espen's strategic review.
+- **Still proposed, not decided** (carried from the November 9 note): each state's share of the direct production count (an allocation rule for the milestone review) and the rural high-cost credit boost (a small question for Espen at the milestone review).
+- **How Espen works.** They answer in whichever session is in front of them, worker sessions included. Verify their words in that session's events, then record a `DEC-` entry; only Espen applies `espen-approved`. Apply the design lens (`DEC-2026-11-09-13`) to every recommendation. Keep updates short and plain, with clear asks.
 - **Reviewer.** `session_01UQzgBsqHbGYJ5i5GLpEhWu` since November 9 at 23:38, so its context is still low. Codex is out of review credits, so the Claude review is the one the gate counts. Ask the reviewer by `review-request` for every PR you open.
 - **Lessons.**
   - The gate's "merging now" can come before an out-of-date check. Report a merge only on the closed event.
