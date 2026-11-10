@@ -907,6 +907,206 @@
     "spec": "dossiers/home/4-specification.md"
   },
   {
+    "id": "HOU-14.01",
+    "agenda": "HOU-14",
+    "title": "Rural Development's field staff, local decisions and one loan system, 2030-39",
+    "status": "decided (memo 13 part 1 B)",
+    "decisions": [
+      "DEC-2026-11-10-02"
+    ],
+    "spec": "dossiers/home/4-specification.md",
+    "agency": "USDA Rural Development (Rural Housing Service), state and area offices",
+    "eligibility": "Applicants to USDA rural housing programs",
+    "parameters": "About 2,000 more staff over FY2030-32, to about 5,000; applications taken and decided in state and area offices; one origination and servicing platform with online applications, single-family first; packaging fees that cover nonprofit cost; quarterly decision times and satisfaction by state, review past 90 days for two quarters; about $0.3B a year for staff and about $0.15B a year for systems FY2030-34 (judgment)",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "time-limited FY2030-39"
+      },
+      {
+        "vehicle": "appropriations",
+        "kind": "discretionary",
+        "note": "staff carried in regular Agriculture appropriations from FY2040"
+      }
+    ],
+    "current_law": "Salaries and expenses in annual Agriculture appropriations; ROAD sec. 502 permits staff and technology without funding",
+    "cost_source": "Section 6, 2.11: about $3.5B FY2030-39; about $0.35B a year from FY2040 if kept",
+    "evidence": [
+      "EV-HOU-758",
+      "EV-HOU-763",
+      "EV-HOU-777",
+      "EV-HOU-778",
+      "EV-HOU-779",
+      "EV-HOU-780",
+      "EV-HOU-782"
+    ],
+    "sources": []
+  },
+  {
+    "id": "HOU-14.02",
+    "agenda": "HOU-14",
+    "title": "Section 502: direct loans at scale, to 100% of area median income; guaranteed loans to HOU-10.01's limits",
+    "status": "decided (memo 13 part 2 C)",
+    "decisions": [
+      "DEC-2026-11-10-02"
+    ],
+    "spec": "dossiers/home/4-specification.md",
+    "agency": "USDA Rural Housing Service with nonprofit packagers",
+    "eligibility": "Direct loans to 100% AMI (from 80%); guaranteed loans to 140% AMI, 160% in high-cost areas (from 115%); credit-elsewhere test read from the credit report",
+    "parameters": "Direct loan levels $1.5B FY2030, $2.5B FY2031, $3.5B FY2032, $4B a year FY2033-39 (about 15,000 loans; judgment), subsidy available until spent; first-generation priority by signed statement; 80% of FHA limits; one state-office approval; early modification up to 40 years; published loans by income band, review if the share below 50% AMI falls",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "credit subsidy",
+        "note": "credit subsidy for FY2030-39 loan levels"
+      },
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "income limits and priority"
+      }
+    ],
+    "current_law": "Direct loans to 80% AMI, guaranteed to 115%; $1B of direct loans in FY2026",
+    "cost_source": "Section 6, 2.11: about $3.5B of credit subsidy FY2030-39; guaranteed loans about zero or negative subsidy",
+    "evidence": [
+      "EV-HOU-599",
+      "EV-HOU-700",
+      "EV-HOU-701",
+      "EV-HOU-702",
+      "EV-HOU-764",
+      "EV-HOU-765",
+      "EV-HOU-766",
+      "EV-HOU-771",
+      "EV-HOU-781"
+    ],
+    "sources": []
+  },
+  {
+    "id": "HOU-14.03",
+    "agenda": "HOU-14",
+    "title": "Rural rental homes: rent help after every mortgage ends, vouchers and a preservation fund",
+    "status": "decided (memo 13 part 4 B)",
+    "decisions": [
+      "DEC-2026-11-10-02"
+    ],
+    "spec": "dossiers/home/4-specification.md",
+    "agency": "USDA Rural Housing Service (multifamily)",
+    "eligibility": "Tenants of Section 515 and 514 properties; nonprofit, public, tribal and tenant buyers",
+    "parameters": "Automatic offer of continued rental assistance a year before maturity or on prepayment, no unit cap; rural vouchers for tenants of prepaid, foreclosed or matured properties sized to all eligible; preservation and transfer fund $0.5B a year FY2030-39, available until spent; HOU-3C may also finance purchases; published exits by state, review where more than a fifth of maturing units leave",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "preservation fund, time-limited FY2030-39"
+      },
+      {
+        "vehicle": "appropriations",
+        "kind": "discretionary",
+        "note": "rental assistance without a unit cap; vouchers"
+      }
+    ],
+    "current_law": "ROAD Act made decoupling and the preservation program permanent; FY2026 decoupling up to 5,000 units",
+    "cost_source": "Section 6, 2.11: fund about $5B FY2030-39; vouchers about $0.06B a year, permanent; rental assistance inside the baseline",
+    "evidence": [
+      "EV-HOU-239",
+      "EV-HOU-240",
+      "EV-HOU-773",
+      "EV-HOU-774",
+      "EV-HOU-775",
+      "EV-HOU-781",
+      "EV-HOU-783",
+      "EV-HOU-784",
+      "EV-HOU-785"
+    ],
+    "sources": []
+  },
+  {
+    "id": "HOU-14.04",
+    "agenda": "HOU-14",
+    "title": "Self-help and farmworker housing, 2030-39",
+    "status": "decided (memo 13 part 5 B; immigration-status question left for later)",
+    "decisions": [
+      "DEC-2026-11-10-02"
+    ],
+    "spec": "dossiers/home/4-specification.md",
+    "agency": "USDA Rural Housing Service with nonprofit self-help grantees and farmworker housing sponsors",
+    "eligibility": "Low-income self-help families (Section 502 direct); farmworker households as the statute defines them (immigration-status rule unchanged, left for later)",
+    "parameters": "Section 523 technical-assistance grants about $100M a year; family labor counted toward value for the loan limit; Sections 514 and 516 loans and grants about $200M a year with Section 521 rental assistance",
+    "vehicle": [
+      {
+        "vehicle": "R2",
+        "kind": "mandatory",
+        "note": "time-limited FY2030-39"
+      }
+    ],
+    "current_law": "About $25M for self-help grants and about $21M for farmworker housing in FY2026",
+    "cost_source": "Section 6, 2.11: about $2.5B FY2030-39",
+    "evidence": [
+      "EV-HOU-756",
+      "EV-HOU-769",
+      "EV-HOU-770",
+      "EV-HOU-776"
+    ],
+    "sources": []
+  },
+  {
+    "id": "HOU-14.05",
+    "agenda": "HOU-14",
+    "title": "One rural test for USDA housing, up to 35,000 people, with no one losing eligibility",
+    "status": "decided (memo 13 part 6 B, with Espen's condition: \"carefully implemented to improve systems and delivery without leaving people behind\")",
+    "decisions": [
+      "DEC-2026-11-10-02"
+    ],
+    "spec": "dossiers/home/4-specification.md",
+    "agency": "USDA Rural Development with Census urban-area files",
+    "eligibility": "Places up to 35,000 people outside an urbanized core; every place and household eligible on the effective date keeps eligibility",
+    "parameters": "One published map; rural-in-character and mortgage-credit judgments dropped; hold-harmless for places and for households with loans, grants, rental assistance or pending applications; map takes effect once published and checked in the loan system, current definition and grandfather clause (extended past the 2030 census) until then; published count of places and people gaining and losing eligibility before and for five years after, any loss triggers review and a fix",
+    "vehicle": [
+      {
+        "vehicle": "regular bill",
+        "kind": "none",
+        "note": "definition, hold-harmless and grandfather extension"
+      }
+    ],
+    "current_law": "42 U.S.C. 1490 tiers (2,500; 10,000; 20,000) and grandfather clause to 35,000 until 2030 census data",
+    "cost_source": "None of its own (section 6, 2.11)",
+    "evidence": [
+      "EV-HOU-767"
+    ],
+    "sources": []
+  },
+  {
+    "id": "HOU-14.06",
+    "agenda": "HOU-14",
+    "title": "Day-one rule changes at USDA, 2029",
+    "status": "decided (memo 13, day one)",
+    "decisions": [
+      "DEC-2026-11-10-02"
+    ],
+    "spec": "dossiers/home/4-specification.md",
+    "agency": "USDA",
+    "eligibility": "As each program",
+    "parameters": "Start rulemaking to drop the 504 age-62, assets and three-year repayment rules; restore the 502 direct loan limit to 80% of FHA limits, packaging fees and single approval; keep origination local; offer continued rental assistance before maturity within appropriations; publish decision times and satisfaction by state quarterly",
+    "vehicle": [
+      {
+        "vehicle": "executive action",
+        "kind": "none",
+        "note": "January 2029; handbook and notice-and-comment rule"
+      }
+    ],
+    "current_law": "7 CFR 3550 subpart C; Handbook-1-3550 as revised February 2026",
+    "cost_source": "None",
+    "evidence": [
+      "EV-HOU-760",
+      "EV-HOU-761",
+      "EV-HOU-763",
+      "EV-HOU-779",
+      "EV-HOU-781"
+    ],
+    "sources": []
+  },
+  {
     "id": "HOU-5.01",
     "title": "Public housing repair",
     "agenda": "HOU-5",
@@ -1259,9 +1459,10 @@
     "decisions": [
       "DEC-2026-11-09-19",
       "DEC-2026-11-09-23",
-      "DEC-2026-11-09-24"
+      "DEC-2026-11-09-24",
+      "DEC-2026-11-10-02"
     ],
-    "parameters": "Up to $20,000 or 10% of price (up to 25% more for new homes or homes in zoning-reward places); grant, forgivable or deferred zero-interest second, or shared-appreciation loan, by state; stacks freely with other help, with no separate federal cap or form on the total (normal underwriting settles it); counseling offered free, not required by federal rule (counseling already in an agency's normal loan process stays); $1.5B FY2030 then $3B a year FY2031-39; yearly reporting and a price review trigger",
+    "parameters": "Up to $20,000 or 10% of price (up to 25% more for new homes or homes in zoning-reward places); grant, forgivable or deferred zero-interest second, or shared-appreciation loan, by state; stacks freely with other help, with no separate federal cap or form on the total (normal underwriting settles it); counseling offered free, not required by federal rule (counseling already in an agency's normal loan process stays); $1.5B FY2030 then $3B a year FY2031-39; yearly reporting and a price review trigger; stacks with USDA Section 502 direct and guaranteed loans, whose guaranteed limit matches this one (HOU-14.02; DEC-2026-11-10-02)",
     "eligibility": "First-time buyers (no ownership in three years) at or below 140% of area median income, 160% in high-cost areas; first-generation priority by signed statement",
     "vehicle": [
       {
@@ -1432,9 +1633,10 @@
       "DEC-2026-11-09-21",
       "DEC-2026-11-09-22",
       "DEC-2026-11-09-25",
-      "DEC-2026-11-10-01"
+      "DEC-2026-11-10-01",
+      "DEC-2026-11-10-02"
     ],
-    "parameters": "Formula money to CDBG and HOME grantees, with a 5% tribal share (decided, DEC-2026-11-09-25); grants to owner-occupants at or below 80% AMI, zero-interest loans repaid at sale for 80-120% AMI; up to $25,000 a home plus $15,000 for lead or accessibility (decided, DEC-2026-11-09-25); health, safety, systems, lead, mold, accessibility and readiness repairs, not whole-house code; loans may pay toward an older owner's accessory unit; no prevailing-wage trigger for owner-occupied 1-7 unit homes; $2B FY2030, $4B a year FY2031-38 and $3.7B FY2039 (decided, DEC-2026-11-09-25; FY2039 amended by DEC-2026-11-10-01); published counts and reviews, no set-asides; FY2029 bridge of $300M through the sec. 202 pilot counted inside the $38B total (DEC-2026-11-10-01)",
+    "parameters": "Formula money to CDBG and HOME grantees, with a 5% tribal share (decided, DEC-2026-11-09-25); grants to owner-occupants at or below 80% AMI, zero-interest loans repaid at sale for 80-120% AMI; up to $25,000 a home plus $15,000 for lead or accessibility (decided, DEC-2026-11-09-25); health, safety, systems, lead, mold, accessibility and readiness repairs, not whole-house code; loans may pay toward an older owner's accessory unit; no prevailing-wage trigger for owner-occupied 1-7 unit homes; $2B FY2030, $4B a year FY2031-38 and $3.7B FY2039 (decided, DEC-2026-11-09-25; FY2039 amended by DEC-2026-11-10-01); published counts and reviews, no set-asides; FY2029 bridge of $300M through the sec. 202 pilot counted inside the $38B total (DEC-2026-11-10-01); rural door (memo 13 part 3 B, decided, DEC-2026-11-10-02): in USDA-eligible areas owners apply at a USDA office or Section 533 grantee or the HUD grantee on this fund's terms (no age, assets, credit or three-year repayment test); about a sixth of the fund (about $6B, judgment until counted) to USDA by interagency transfer from states' rural shares; no new money",
     "eligibility": "Owner-occupants at or below 120% AMI, heirs in residence included, by signed statement or enrollment in SNAP, Medicaid, SSI, LIHEAP or Weatherization; no credit or tax-current test",
     "vehicle": [
       {
@@ -1453,7 +1655,7 @@
         "note": "ROAD sec. 202 pilot at about $100M FY2027, $150M FY2028, $300M FY2029; decided, DEC-2026-11-10-01 (road-funding.md); FY2029 counted inside the $38B"
       }
     ],
-    "agency": "HUD (CPD) with CDBG and HOME grantees; HUD ONAP and tribes",
+    "agency": "HUD (CPD) with CDBG and HOME grantees; HUD ONAP and tribes; USDA Rural Development and Section 533 grantees for the rural door",
     "current_law": "ROAD sec. 202 whole-home repair pilot (only if appropriated; ends October 1, 2031), replaced; HOME, CDBG, USDA sec. 504 continue",
     "evidence": [
       "EV-HOU-601",
@@ -1471,7 +1673,9 @@
       "EV-HOU-661",
       "EV-HOU-230",
       "EV-HOU-676",
-      "EV-HOU-753"
+      "EV-HOU-753",
+      "EV-HOU-761",
+      "EV-HOU-768"
     ],
     "sources": [],
     "cost_source": "Section 6, 2.9: $38B BA, about $37B of outlays FY2030-39 (25-54), time-limited; tail about $1.2B in FY2040",

@@ -72,6 +72,12 @@ Role: section 4 of the housing dossier. It writes each design Espen has decided 
 | HOU-13.03 | Service coordinators in older renters' buildings | Decided (memo 12 part 4 C, `DEC-2026-11-09-22`); amount decided (`DEC-2026-11-09-25`) | R2, mandatory, permanent |
 | HOU-13.04 | Home-sharing grants | Decided (memo 12 smaller point 2, `DEC-2026-11-09-22`); amount decided (`DEC-2026-11-09-25`) | R2, mandatory, time-limited |
 | HOU-3C.06 | Homes for older and disabled renters inside HOU-3C, by each state's need | Decided (memo 12 part 4 C, `DEC-2026-11-09-22`) | R2 (inside HOU-3C's amounts) |
+| HOU-14.01 | Rural Development's field staff, local decisions and one loan system, 2030-39 | Decided (memo 13 part 1 B, `DEC-2026-11-10-02`) | R2, mandatory, time-limited; then appropriations |
+| HOU-14.02 | Section 502: direct loans at scale, to 100% of area median income; guaranteed loans to HOU-10.01's limits | Decided (memo 13 part 2 C, `DEC-2026-11-10-02`) | R2 (credit subsidy); regular bill (income limits) |
+| HOU-14.03 | Rural rental homes: rent help after every mortgage ends, vouchers, a preservation fund | Decided (memo 13 part 4 B, `DEC-2026-11-10-02`) | R2 (fund); appropriations (rental assistance, vouchers) |
+| HOU-14.04 | Self-help and farmworker housing, 2030-39 | Decided (memo 13 part 5 B, `DEC-2026-11-10-02`); the immigration-status rule left for later | R2, mandatory, time-limited |
+| HOU-14.05 | One rural test for housing, up to 35,000 people, with no one losing eligibility | Decided (memo 13 part 6 B, `DEC-2026-11-10-02`, as Espen qualified it) | Regular bill |
+| HOU-14.06 | Day-one rule changes at USDA, 2029 | Decided (memo 13, "Day one", `DEC-2026-11-10-02`) | Executive action and rule |
 
 ## 1. Rules shared by all housing help
 
@@ -597,6 +603,7 @@ Espen decided memos 9 and 10 on November 9, 2026 (`DEC-2026-11-09-19`, `-20`), f
 7. **Counseling, offered, not required by federal rule (decided by Espen, `DEC-2026-11-09-24`, point 5).** Each state offers every buyer free homebuyer counseling, which state agencies already provide and which is part of the package tied to lower default [EV-HOU-537]. Federal law does not make it a condition of the help: a required course adds a step and a wait before closing, and the evidence ties lower default to the agency's whole package (counseling with sound loans and its own servicing), not to counseling alone. States that already require it may keep doing so. Where counseling is simply part of an agency's or lender's normal loan process, it stays as it is and is not an added requirement (Espen: "yes unless 'counseling' just means a part of the normal loan process, which might be the case").
 8. **Money.** $3 billion a year to states by formula through their housing finance agencies, FY2031-39, with $1.5 billion in FY2030 while programs start (about $28.5 billion; judgment). Each year's money stays available until spent. A tribal share goes through tribes (HOU-4.13's set-aside rule).
 9. **Review, not a cap.** HUD publishes each year who was helped (income, age, race, first-generation status, new or existing home) and the price trend in the places using the most help. A price rise in those places well above their region's for two years triggers a review of the amounts there (section 8). Missing a group's projected share is a published finding, not a reason to withhold money (`DEC-2026-11-09-13`).
+10. **Rural buyers (memo 13 part 2 C, `DEC-2026-11-10-02`).** This help stacks with USDA's Section 502 direct and guaranteed loans under item 6, and HOU-14.02 gives the guaranteed loans this provision's income limits, so a rural buyer who qualifies for one qualifies for both. State agencies and USDA offices refer buyers to each other.
 
 - **Agency.** HUD, through state housing finance agencies; tribes for the tribal share.
 - **Vehicle.** R2, mandatory, time-limited (FY2030-39). As a time-limited program it can borrow inside the D4-B envelope (section 6, 2.8).
@@ -694,8 +701,9 @@ Espen decided memos 11 and 12 on November 9, 2026 (`DEC-2026-11-09-21`, `-22`), 
 8. **Wage rule.** Repairs to owner-occupied homes of one to seven units do not trigger federal prevailing-wage rules, the line CDBG already draws for small residential buildings (judgment; Pennsylvania's counties capped grants below their state's wage trigger [EV-HOU-657]).
 9. **Money: decided (`DEC-2026-11-09-25`, amended by `DEC-2026-11-10-01`).** A $300 million FY2029 bridge through the ROAD to Housing Act's repair pilot, then $2 billion in FY2030 while grantees start, $4 billion a year in FY2031-38 and $3.7 billion in FY2039, about $38 billion in all, available until spent. HOU-12.02 to .04 are paid from the same money; there are no set-asides inside it.
 10. **Review, not a cap.** HUD publishes each year homes repaired, waits, cost per home, and the share of grants to owners under 30% and 50% of area median income, to older owners and to renters (HOU-12.02), by place. A grantee whose waits run past a year, or whose poorest owners get a falling share, gets a published review, not a funding cut (`DEC-2026-11-09-13`).
+11. **The rural door (memo 13 part 3 B, `DEC-2026-11-10-02`).** In USDA-eligible rural areas (HOU-14.05), an owner may apply at a USDA Rural Development office or a Section 533 grantee [EV-HOU-768], or at the state or local grantee. Either door gives the same help on this fund's terms: items 1 to 5, with no age test, no assets test, no credit test and no repayment on sale within three years, the Section 504 rules this fund does not use [EV-HOU-761]. About a sixth of the fund, about $6 billion over FY2030-39, goes to USDA by interagency transfer, out of the states' rural shares; a state may pass more of its rural share to USDA. The sixth is judgment until USDA and HUD count low-income owners in eligible areas; section 6 resets it from that count without changing the fund's total. USDA reports on item 10's terms, by state. HOU-12.04's older-adult track runs through both doors. No new money.
 
-- **Agency.** HUD (Office of Community Planning and Development), with CDBG and HOME grantees; HUD's Office of Native American Programs and tribes for the tribal share. USDA's rural repair loans and grants [EV-HOU-615] continue alongside it.
+- **Agency.** HUD (Office of Community Planning and Development), with CDBG and HOME grantees; HUD's Office of Native American Programs and tribes for the tribal share. USDA Rural Development runs the rural door (item 11) through its offices funded under HOU-14.01; Section 504 continues alongside it, opened to owners of any age by rule (HOU-14.06) [EV-HOU-615].
 - **Vehicle.** R2, mandatory, time-limited (FY2030-39). As time-limited capital it can borrow inside the D4-B envelope, like HOU-3C.01 and HOU-5.01 (section 6, 2.9). The wage rule and the eligibility of heirs go in the regular bill if reconciliation cannot carry them.
 - **Current law.** The ROAD to Housing Act's whole-home repair pilot (sec. 202) runs only if appropriated and ends October 1, 2031 [EV-HOU-230]; this fund replaces it. HOME, CDBG and Section 504 continue [EV-HOU-611] [EV-HOU-616].
 - **Funding before R2 (decided, `DEC-2026-11-10-01`; `road-funding.md`).** The pilot is funded in appropriations at about $100 million in FY2027, $150 million in FY2028 and $300 million in FY2029, so grantees are staffed before FY2030. The FY2029 amount counts inside this fund's $38 billion; the FY2027-28 amounts are spent before it and are not part of it. If R2 slips past FY2030, FY2030 appropriations carry the pilot one more year. HOME and CDBG, whose grantees run this fund, are held at FY2026 levels against the House's FY2027 HOME cut [EV-HOU-753].
@@ -809,6 +817,104 @@ Espen decided memos 11 and 12 on November 9, 2026 (`DEC-2026-11-09-21`, `-22`), 
 - **HOU-4.01.** The repair fund and the tax match use their own plain test, not the rental help's income rules, so a household on rental help has no second income check.
 - **Clean power and care.** HOU-12.03 is the boundary with clean power; HOU-12.04 and HOU-13.03 with care. Each later dossier may change its side of the line.
 
+## 9. The rural channel (memo 13)
+
+Espen decided memo 13 on November 10, 2026 (`DEC-2026-11-10-02`): every part as recommended, with two words of their own. On Part 5: "grow both, leave immigration question for later". On Part 6: "carefully implemented to improve systems and delivery without leaving people behind". The research is the rural delivery note (`../foundations/rural-delivery.md`). These provisions make USDA Rural Development the plan's rural delivery channel: its field offices take and decide applications, and the plan's rural repair money flows through them. The design lens applies throughout: one plain income test, records the government already holds, local decisions in state and area offices, and published counts with review triggers instead of caps. Amounts and counts marked judgment are this section's; the headline numbers are the memo's, which Espen accepted.
+
+### HOU-14.01 Rural Development's field staff, offices and systems, 2030-39
+
+**Parameters** (memo 13 part 1 B).
+1. **Staff.** About 2,000 more Rural Development staff over FY2030-32, back to about 5,000, FY2012's level, mostly housing loan and repair specialists in state and area offices, plus engineers and inspectors [EV-HOU-777] [EV-HOU-778]. The yearly hiring path is USDA's to set; the target is a published count by state.
+2. **Decisions stay local.** Direct loan and grant applications under HOU-14.02 to .04 and HOU-12.01's rural door are taken and decided in state and area offices. National offices keep servicing support and systems. This reverses the June 2026 plan to centralize origination (rural delivery note, section 1.1).
+3. **One loan system.** One origination and servicing platform with online applications, replacing the mainframe single-family system [EV-HOU-782], built in stages, single-family housing first. The ROAD to Housing Act already lets USDA use appropriated money for this [EV-HOU-758]; GAO's July 2027 technology report informs the build.
+4. **Nonprofit packagers.** Local nonprofits that help families assemble applications are paid a packaging fee set to cover their cost, paid from the loan as now [EV-HOU-779].
+5. **Review, not a rule.** USDA publishes each quarter, by state, how long decisions take, the share decided within 90 days and applicants' satisfaction, building on the ROAD Act's yearly timeliness reports [EV-HOU-763]. A state office past 90 days for two quarters gets a published review and more staff, not a penalty (`DEC-2026-11-09-13`).
+6. **Money.** About $0.3 billion a year once staffed, plus about $0.15 billion a year for the system over FY2030-34, available until spent (judgment; section 6, 2.11).
+
+- **Agency.** USDA Rural Development (Rural Housing Service), state and area offices.
+- **Vehicle.** R2, mandatory, time-limited (FY2030-39), a salaries-and-systems appropriation like the Inflation Reduction Act's money through USDA (rural delivery note, section 1.4). From FY2040 the staff move to regular Agriculture appropriations.
+- **Current law.** Salaries and expenses in annual Agriculture appropriations; USDA plans to keep FY2026's lower staffing [EV-HOU-777]. ROAD sec. 502 permits, without funding, more staff and better systems [EV-HOU-758].
+- **Evidence.** [EV-HOU-763] [EV-HOU-777] [EV-HOU-778] [EV-HOU-779] [EV-HOU-780] [EV-HOU-782].
+- **Cost source.** Section 6, 2.11: about $3.5 billion over FY2030-39; about $0.35 billion a year from FY2040 if kept.
+
+### HOU-14.02 Section 502: direct loans at scale, with broader limits
+
+**Parameters** (memo 13 part 2 C).
+1. **Scale.** Direct loan levels of about $1.5 billion in FY2030, $2.5 billion in FY2031, $3.5 billion in FY2032 and $4 billion a year in FY2033-39, about 15,000 loans a year at full scale (judgment, at about $270,000 a loan [EV-HOU-700]). Each year's subsidy stays available until spent, so money unused in one year is not lost [EV-HOU-780].
+2. **Direct loans to 100% of area median income.** The statutory limit rises from 80% [EV-HOU-766]. Payment help keeps its formula, so it shrinks as income rises; no new test is added.
+3. **Guaranteed loans to HOU-10.01's limits.** 140% of area median income, and 160% in high-cost areas (the places HOU-10.01 already lists), instead of 115% [EV-HOU-766].
+4. **First-generation priority.** Where requests exceed a state's direct loan money, first-generation buyers come first, by the buyer's signed statement, as in HOU-10.01, item 3.
+5. **Loan limit and approvals.** The direct loan limit is 80% of FHA's area limits, and one state-office approval suffices (HOU-14.06).
+6. **Servicing that acts early.** A borrower two payments behind is offered a modification, including a term of up to 40 years under the ROAD Act [EV-HOU-764], before any foreclosure step [EV-HOU-701].
+7. **Credit elsewhere.** The statute's test [EV-HOU-765] stays, read from the credit report USDA already pulls; no lender denial letters.
+8. **Review, not a cap.** USDA publishes each year loans by income band, first-generation status, race and county, and delinquency by state. A falling share of loans below 50% of area median income triggers a published review of the priority order, not an income cap.
+
+- **Agency.** USDA Rural Housing Service, through HOU-14.01's offices and nonprofit packagers.
+- **Vehicle.** R2, credit subsidy for the FY2030-39 loan levels; the income limits and the priority in the regular bill.
+- **Current law.** Section 502 direct loans to 80% and guaranteed loans to 115% of area median income [EV-HOU-766]; $1 billion of direct loans in FY2026 [EV-HOU-781].
+- **Evidence.** [EV-HOU-599] [EV-HOU-700] [EV-HOU-701] [EV-HOU-702] [EV-HOU-764] [EV-HOU-765] [EV-HOU-766] [EV-HOU-771] [EV-HOU-781].
+- **Cost source.** Section 6, 2.11: about $3.5 billion of credit subsidy over FY2030-39; the guaranteed loans earn more in fees than they cost.
+
+### HOU-14.03 Rural rental homes: rent help after every mortgage, and a preservation fund
+
+**Parameters** (memo 13 part 4 B).
+1. **An automatic offer.** A year before a Section 515 or 514 mortgage matures, or when an owner seeks to prepay, USDA offers continued rental assistance with no unit cap, using the authority the ROAD Act made permanent [EV-HOU-239]. Appropriations language drops the unit cap [EV-HOU-781].
+2. **Vouchers when an owner leaves.** Tenants of a property that is prepaid, foreclosed or matured get rural vouchers, as the ROAD Act allows [EV-HOU-240], sized to everyone eligible.
+3. **The preservation and transfer fund.** $0.5 billion a year, FY2030-39, for repairs and for sales to nonprofit, public, tribal and tenant buyers, available until spent. HOU-3C.01 and HOU-3C.02 may also finance these purchases, already an eligible use.
+4. **Review, not a rule.** USDA publishes each year properties and units maturing, staying, leaving and transferred, by state, and its preservation pipeline. A state where more than a fifth of maturing units leave in a year gets a published review (judgment).
+
+- **Agency.** USDA Rural Housing Service, multifamily staff funded under HOU-14.01.
+- **Vehicle.** R2, mandatory, time-limited for the fund; appropriations for rental assistance and vouchers.
+- **Current law.** Decoupling and the preservation program made permanent by the ROAD Act [EV-HOU-239]; rental assistance at $1.715 billion with decoupling up to 5,000 units in FY2026 [EV-HOU-781].
+- **Evidence.** [EV-HOU-239] [EV-HOU-240] [EV-HOU-773] [EV-HOU-774] [EV-HOU-775] [EV-HOU-781] [EV-HOU-783] [EV-HOU-784] [EV-HOU-785].
+- **Cost source.** Section 6, 2.11: the fund about $5 billion over FY2030-39; vouchers about $0.06 billion a year, permanent; continued rental assistance inside the baseline.
+
+### HOU-14.04 Self-help and farmworker housing, 2030-39
+
+**Parameters** (memo 13 part 5 B).
+1. **Self-help (Section 523).** Technical-assistance grants of about $100 million a year [EV-HOU-770] [EV-HOU-776]. The family's own labor counts toward the home's value for the loan limit.
+2. **Farmworker housing (Sections 514 and 516).** Loans and grants of about $200 million a year together, with rental assistance through Section 521 [EV-HOU-769] [EV-HOU-773].
+3. **Not decided here.** The statute's immigration-status rule for farmworker housing occupants [EV-HOU-769] stays as it is; Espen left it for later immigration work.
+
+- **Agency.** USDA Rural Housing Service, with nonprofit self-help grantees and farmworker housing sponsors.
+- **Vehicle.** R2, mandatory, time-limited (FY2030-39).
+- **Current law.** About $25 million for self-help grants and about $21 million for farmworker housing loans and grants in FY2026 [EV-HOU-756].
+- **Evidence.** [EV-HOU-756] [EV-HOU-769] [EV-HOU-770] [EV-HOU-776].
+- **Cost source.** Section 6, 2.11: about $2.5 billion over FY2030-39.
+
+### HOU-14.05 One rural test for housing, with no one losing eligibility
+
+**Parameters** (memo 13 part 6 B, as Espen qualified it).
+1. **The test.** For USDA's housing programs, a rural area is any place of up to 35,000 people outside an urbanized core, on one published map. The "rural in character" and "serious lack of mortgage credit" judgments go [EV-HOU-767].
+2. **No one loses eligibility.** Every place eligible on the day the law takes effect stays eligible, whatever later censuses show. Every household with a USDA loan, grant, rental assistance or a pending application keeps its help and its place in line, wherever the line moves.
+3. **One step at a time.** The new map takes effect only once USDA has published it and the loan system (HOU-14.01) checks addresses against it. Until then the current definition and its grandfather clause apply, and Congress extends the grandfather clause past the 2030 census so no place falls out in the meantime [EV-HOU-767].
+4. **A published count, not a gate.** Before the map takes effect and each year for five years after, USDA publishes how many places and people gained and lost eligibility, by state, and the number of applications from newly eligible places. Any place or household recorded as losing eligibility triggers a published review and a fix under item 2 (judgment; the count is the review trigger, not a condition on anyone's help).
+
+- **Agency.** USDA Rural Development, with the Census Bureau's urban-area files.
+- **Vehicle.** Regular bill (the definition and the hold-harmless).
+- **Current law.** 42 U.S.C. 1490's tiers and grandfather clause to the 2030 census [EV-HOU-767]; seven definitions across Rural Development (rural delivery note, section 1.6).
+- **Evidence.** [EV-HOU-767].
+- **Cost source.** None of its own; it spreads fixed program money over somewhat more places (section 6, 2.11).
+
+### HOU-14.06 Day-one rule changes, 2029
+
+**Parameters** (memo 13, "Day one").
+1. Start rulemaking to drop Section 504's age-62 grant rule, its assets test and the three-year repayment rule [EV-HOU-760] [EV-HOU-761]. A notice-and-comment rule, so it starts in 2029 and takes effect when final.
+2. Restore the Section 502 direct loan limit to 80% of FHA's area limits, a packaging fee that covers cost and single approval in state offices [EV-HOU-779].
+3. Keep loan origination in state and area offices (HOU-14.01, item 2).
+4. Offer continued rental assistance before every maturing mortgage, up to the appropriations limit then in force (HOU-14.03) [EV-HOU-781].
+5. Publish decision times and applicant satisfaction by state each quarter (HOU-14.01, item 5) [EV-HOU-763].
+
+- **Agency.** USDA. **Vehicle.** Executive action (January 2029), handbook and rule. **Cost source.** None.
+
+### How these fit the rest of section 4
+
+- **HOU-12.01.** Its rural door (item 11) is the repair half of this channel; it adds no money.
+- **HOU-10.01.** Its down payment help stacks with Section 502 loans (item 10), and HOU-14.02 gives the guaranteed loans the same income limits.
+- **HOU-3C.** Its funds may buy and preserve Section 515 properties; HOU-3C.04's number 1 does not count USDA loans for owners, which are reported separately.
+- **HOU-4.13.** Tribal areas: USDA's Native American relending pilot and Section 502 on trust land are not yet researched (rural delivery note, section 5); a later step should weigh them with the tribal set-asides.
+- **Other dossiers.** The rural delivery note's other channels (water, power, broadband, community facilities) and the single test for all of Rural Development go to their own dossiers.
+
 ## Interactions with the rest of the plan
 
 Espen asked how housing lands with the home health coverage expansion, child care, the expanded child tax credit and the secure floor, for each group in need (`DEC-2026-11-09-06`). This table states the mechanism and the check. The figures belong to the household model and section 7; none is estimated here.
@@ -874,6 +980,13 @@ Each decided item, the provisions that carry it, and where its cost comes from. 
 | Memo 12 part 2 B: older-adult home changes | HOU-12.04 | R2 (inside HOU-12.01) | 2030-39 | Inside HOU-12.01 |
 | Memo 12 part 3 B: equity protection | HOU-13.02 | R2 (grants); regular bill (reverse-mortgage rules) | From 2030 | About $2 billion; $0.2 billion a year permanent |
 | Memo 12 part 4 C and smaller points: older renters' homes, service coordinators, accessory units, home sharing | HOU-3C.06, HOU-13.03, HOU-12.01 (point 5), HOU-13.04 | R2 | From 2030-31 | Coordinators about $1.35 billion and $0.15 billion a year permanent; home sharing about $0.27 billion; HOU-3C.06 inside HOU-3C |
+| Memo 13 part 1 B: Rural Development's staff, local decisions, one loan system (`DEC-2026-11-10-02`) | HOU-14.01 | R2, mandatory, time-limited; then appropriations | 2030-39 | About $3.5 billion; about $0.35 billion a year from FY2040 if kept (`6-cost.md`, 2.11) |
+| Memo 13 part 2 C: Section 502 at scale, broader limits | HOU-14.02, HOU-10.01 (item 10) | R2 (credit subsidy); regular bill (limits) | 2030-39 | About $3.5 billion of subsidy |
+| Memo 13 part 3 B: the rural door into the repair fund | HOU-12.01 (item 11) | R2 (inside HOU-12.01); regular bill (routing) | 2030-39 | Inside HOU-12.01 |
+| Memo 13 part 4 B: rent help after every mortgage, vouchers, preservation fund | HOU-14.03 | R2 (fund); appropriations | 2030-39; vouchers permanent | About $5 billion for the fund plus about $0.6 billion of vouchers; $0.06 billion a year permanent |
+| Memo 13 part 5 B: self-help and farmworker housing (immigration rule left for later) | HOU-14.04 | R2, time-limited | 2030-39 | About $2.5 billion |
+| Memo 13 part 6 B: one rural test, no one losing eligibility | HOU-14.05 | Regular bill | From the new map's publication | None |
+| Memo 13, day one | HOU-14.06 | Executive action and rule | 2029 | None |
 
 **Consistency notes.**
 - **Totals.** The ledger's housing title ($0.56 trillion midpoint: the $0.47 trillion title and $0.09 trillion of vouchers) predates every section 3 decision. It still carries HOU-1A, HOU-2A and HOU-6's separate fund as filed. HOU-4D is carried outside the ledger in `recovery-adoption.json`. Section 6 rebuilds them from this section's provisions: about $0.65 trillion over FY2030-39 (central, with option D's credits) and about $90 billion a year of permanent cost in FY2040, with stage 2's wider entry under `DEC-2026-11-09-12`. Its ledger and model changes are tier-3 proposals (`6-cost.md`, 5).
