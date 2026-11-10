@@ -1,0 +1,2257 @@
+Source: https://www.govinfo.gov/content/pkg/USCOURTS-rid-1_25-cv-00345/pdf/USCOURTS-rid-1_25-cv-00345-0.pdf
+Publisher: U.S. District Court for the District of Rhode Island (via GPO)
+Retrieved: 2026-11-10
+Original SHA-256: 167d7e9892c147d66505cea05b5fcaa1f174633895aaf531630dc80ed83f578b
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 1 of 60 PageID #:
+
+UNITED STATES DISTRICT COURT
+FOR THE DISTRICT OF RHODE ISLAND
+STATE OF NEW YORK, et al.,
+Plaintiffs,
+v.
+U.S. DEPARTMENT OF JUSTICE, et
+al.,
+Defendants.
+
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+
+C.A. No. 1:25-cv-00345-MSM-PAS
+
+MEMORANDUM AND ORDER
+Mary S. McElroy, United States District Judge.
+At its face, this is primarily an administrative law case. It turns on mundane,
+technical questions far afield from the day-to-day concerns of ordinary people. Those
+questions circle around four new Notices that four federal agencies—the Department
+of Justice (“DOJ”), the Department of Labor (“DOL”), the Department of Education
+(“ED”), and the Department of Health and Human Services (“HHS”)—issued about
+the Personal Responsibility and Work Opportunity Reconciliation Act of 1996
+(“PRWORA”). The Plaintiff States argue that these Notices violate several provisions
+of the Administrative Procedure Act (“APA”) and the Spending Clause of the United
+States Constitution. 1
+Here are some examples of the abstruse (but important) questions that the
+
+The “Plaintiff States” refers to the collection of twenty states and the District of
+Columbia that filed suit. For ease of reading, the Court refers to them simply as “the
+States.”
+
+1
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 2 of 60 PageID #:
+
+Court must answer. Are the Notices best understood as “legislative,” such that they
+needed to go through a notice-and-comment period, or “interpretive,” such that they
+did not? Are the Notices “arbitrary” and “capricious,” meaning that the Agencies did
+not properly explain their decisions and should take another look at them, or are they
+reasonable and reasonably explained?
+
+And as a pure matter of statutory
+
+interpretation, did the Agencies do a better job interpreting the term “federal public
+benefit” the first time they took a stab at it—back when PRWORA was passed in the
+1990s—or the second time two months ago?
+The Government’s new policy, across the board, seems to be this: “Show me
+your papers.” 2 If the Government’s plan goes into effect, immigration verification will
+be necessary for individuals to access emergency services for domestic violence
+victims and veterans, homeless shelters, soup kitchens, mental health crisis
+programs, and plenty more. See, e.g., ECF No. 4-46 ¶ 38 (“Worse still, the population
+served primarily by PATH funding, which includes a significant portion of unhoused
+individuals (including veterans, victims of domestic violence, and individuals with
+chronic health disorders), are highly unlikely to have access to documentation now
+necessary to prove their eligibility as of July 14, 2025.”); No. 4-55 ¶ 14 (“People going
+to access a soup kitchen or a food bank would have to produce I.D. to get inside,
+regardless of immigration status. The result is that fewer people will get critical antipoverty resources due to immigrant communities avoiding services but also because,
+generally, people living in poverty at times lack government identification.”); No. 4-
+
+2 The Court uses the term “the Government” to refer to the Defendants collectively.
+
+2
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 3 of 60 PageID #:
+
+71 ¶¶ 26–30 (explaining similar problems for emergency mental health crisis
+programs).
+While reasonable policymakers can debate the merits of restricting access to
+programs to lawful citizens—and it is surely not this Court’s job to wade into that
+debate—the Agencies offer at best incomplete answers to serious questions. Under
+the APA, that is a serious problem. See 5 U.S.C. § 706(2)(A). And they did so in a
+rushed way, without seeking comment from the public or interested parties. Under
+the APA, that is also a serious problem. See 5 U.S.C. § 553(b)(A).
+One last problem (at least to start). The Government argues that it has
+somehow interpreted this statute incorrectly for the nearly thirty years that it has
+been the law.
+
+In its view, everyone (from every past administration) has
+
+misunderstood it from the start—at least until last month, when the right way to
+read it became clear to the Government. The Court is skeptical of that. See Loper
+
+Bright Enters. v. Raimondo, 603 U.S. 369, 385–86 (2024) (overturning Chevron
+deference but explaining that, since the Founding, “very great respect” for an agency’s
+interpretation of an ambiguous statute has been “especially warranted when an
+Executive Branch interpretation was issued roughly contemporaneously with
+enactment of the statute and remained consistent over time”) (cleaned up). And that
+makes the Government’s case even less tenable.
+The bottom line is this: the States’ Motion for a Preliminary Injunction—a
+temporary court order that maintains the status quo, at least while the case works
+its way through the judicial system—is GRANTED.
+
+3
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+I.
+A.
+
+Page 4 of 60 PageID #:
+
+BACKGROUND
+
+Personal Responsibility and Work Opportunity Reconciliation Act of
+1996 (“PRWORA”)
+
+As part of a broad overhaul of the federal welfare system in the 1990s,
+Congress enacted PRWORA.
+
+Relevant here is Title IV of PRWORA, governing
+
+noncitizens’ eligibility for federal, state, and local public benefits. 8 U.S.C. §§ 1601–
+1646. Sections 1611 and 1621 generally make “qualified aliens” eligible for certain
+federal and state public benefits, while noncitizens who do not meet that definition—
+such as foreign students and temporary workers—are ineligible absent a statutory or
+state-law exception. See 8 U.S.C. §§ 1611(a), 1621(a).
+The statute defines “federal public benefit” to include grants, contracts, loans,
+licenses, and a broad range of welfare, health, housing, education, and similar
+programs funded by the federal government. 8 U.S.C. § 1611(c)(1). DOJ has long
+interpreted this definition to not include “regular, widely available services” such as
+police, fire, and sanitation. 61 Fed. Reg. 45,985, 45,986 (Aug. 30, 1996). PRWORA
+also contains specific exemptions, including emergency medical care, disaster relief,
+and certain community-based life-or-safety services designated by the Attorney
+General. 8 U.S.C. § 1611(b)(1).
+Section 1642 requires states that administer federal public benefits to operate
+systems for verifying the immigration status of applicants. Id. § 1642(a)–(b). At the
+same time, nonprofit charitable organizations providing federal public benefits are
+not required to verify eligibility. Id. § 1642(d).
+
+4
+
+Case 1:25-cv-00345-MSM-PAS
+
+B.
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 5 of 60 PageID #:
+
+Interpretations of PRWORA
+
+Since shortly after PRWORA’s enactment, multiple federal agencies have
+issued guidance interpreting the statute’s scope and exemptions. The DOJ was the
+first, publishing interim guidance in August 1996 that interpreted PRWORA not to
+apply to “widely available services” such as police and sanitation, and invoking the
+Life/Safety Exemption to exclude a range of services, including domestic violence
+programs, emergency shelters, soup kitchens, and youth safety initiatives. 61 Fed.
+Reg. 45,985 (Aug. 30, 1996). These categories were reaffirmed in a 2001 Final Order.
+66 Fed. Reg. 3,613 (Jan. 16, 2001).
+ED and HHS also issued guidance in 1997 and 1998, respectively.
+
+ED’s
+
+interpretation was that federally funded K–12 education programs were not covered
+by PRWORA, as the statute applies only to “postsecondary education” benefits. (ECF
+No. 4-6.) HHS explained that programs lacking eligibility criteria or that distribute
+block grants to states generally fall outside the definition of “federal public benefit.”
+63 Fed. Reg. 41,658, 41,659 (Aug 4. 1998). It listed thirty-one covered programs but
+noted that not all benefits within those programs necessarily require immigration
+status verification. Id. at 41,660.
+Over the following decades, agencies continued to rely on DOJ’s 1996 guidance
+and the 2001 Final Order to determine which programs qualify for exemption under
+PRWORA. Examples include HHS and HUD programs addressing homelessness,
+
+5
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 6 of 60 PageID #:
+
+substance abuse, and mental health. (ECF No. 2 at 17, 18 n.3.) 3
+Most recently, in 2024, DOL issued updated guidance explaining that while
+some workforce development services may be covered by PRWORA—such as those
+providing direct financial aid or postsecondary education—others, like informational
+services or assistance with paperwork, do not meet the statutory definition of a
+federal public benefit. (ECF No. 4-4 at 3–4.)
+C.
+
+The July 2025 PRWORA Notices
+
+Between July 10 and 16, 2025, the four agency defendants issued new notices,
+altering the interpretation and implementation of PRWORA. These notices were
+prompted by Executive Order 14218, which directed agencies to “align” their
+programs with PRWORA’s requirements. 90 Fed. Reg. 10,581.
+Specifically, the DOJ revoked all Life/Safety Exemptions it had maintained
+since PRWORA’s enactment, asserting that earlier exemptions were either
+unnecessary or inconsistent with efforts to deter unlawful immigration. Id. at 32,023,
+32,025.
+HHS withdrew its 1998 interpretations and newly designated thirteen
+programs as subject to PRWORA. Id. at 31,232, 31,238. The HHS notice reinterprets
+PRWORA to cover programs without eligibility criteria, to include non-postsecondary
+education programs like Head Start, and to treat block grants as federal public
+benefits. Id. at 31,234-35, 31,235-37. The notice also states that HHS may add
+
+3 Throughout the opinion, the Court’s citations to the parties’ filings refer to the blue
+
+ECF pagination at the top of each page, rather than the pagination that the parties
+put at the bottom of the page.
+6
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 7 of 60 PageID #:
+
+additional programs in the future. Id. at 31,237.
+ED reversed its longstanding view that PRWORA covers only postsecondary
+education benefits. Id. at 30,899. The ED notice now applies PRWORA to nearly all
+adult and youth education benefits except basic public education. Id. Further, ED
+identified Title II of the Workforce Innovation and Opportunity Act (“WIOA”) and
+career and technical education programs under the Carl D. Perkins Career and
+Technical Education Act (“Perkins V”) as newly covered federal public benefits. Id.
+30,899–900.
+
+The notice also narrowed the nonprofit verification exemption and
+
+provided that states remain responsible for ensuring compliance, even when services
+are provided by charitable nonprofits. Id. at 30,900.
+DOL similarly reversed its 2024 guidance and now considers all participantlevel workforce services to be federal public benefits under PRWORA. (ECF No. 4-4.)
+DOL instructed recipients to update policies and procedures accordingly. Id.
+D.
+
+The Notices’ Impact
+
+The July 2025 PRWORA Notices reflect a sweeping policy shift toward
+requiring immigration status verification for access to a broad array of federally
+funded social, educational, workforce, and emergency services. For decades, states
+have administered these programs—such as Title X clinics, Head Start, WIOAfunded education and job training, emergency shelters, mental health services, and
+victim assistance—under the understanding that they were open to all eligible
+individuals regardless of immigration status. See, e.g., ECF Nos. 4-18 ¶¶ 13–15; 425 ¶ 38; 4-63 ¶ 6; 4-69 ¶ 36. The new requirements, the States argue, upend these
+assumptions and demand immediate and costly implementation of screening systems
+7
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 8 of 60 PageID #:
+
+that many programs are neither legally mandated nor practically equipped to carry
+out. (ECF No. 2 at 13.)
+More specifically, the States warn that the new verification mandates are
+incompatible with the nature and purpose of these programs.
+
+Many affected
+
+services—like crisis counseling, domestic violence shelters, emergency housing, or
+substance use treatment—are designed for individuals in immediate need, who are
+often unable to produce legal documentation. See, e.g., ECF Nos. 4-39 ¶¶ 24–29; 442 ¶¶ 7–9; 4-51 ¶ 17; 4-57 ¶ 14. Others, such as WIOA-funded adult education and
+Perkins career training, rely on continuity of instruction and inclusive access to
+enable economic mobility. See, e.g., ECF Nos. 4-16 ¶ 39; 4-18 ¶ 8; 4-33 ¶ 16; 4-60
+¶ 51.
+
+Verification requirements are expected to exclude current participants
+
+midstream, chill participation among even eligible individuals who lack paperwork
+or fear enforcement, and lead to program closures where compliance is logistically or
+financially infeasible. See, e.g., ECF Nos. 4-16 ¶ 53; 4-36 ¶ 23; 4-43 ¶ 13.
+The States also present evidence about the heavy administrative burdens of
+implementing these Notices.
+
+Developing verification systems, retraining staff,
+
+modifying intake procedures, and addressing legal compliance risks will require
+extensive time and resources. See, e.g., ECF Nos. 4-24 ¶ 55; 4-50 ¶ 11; 4-52 ¶ 16; 468 ¶ 20. Yet the Notices provide no additional funding or transition period. 4 In some
+cases—such as Perkins V—attempting to backfill lost federal funds with state dollars
+
+This is in contrast to 8 U.S.C. § 1642(b), which allowed states two years to develop
+a program to comply with verification regulations.
+
+4
+
+8
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 9 of 60 PageID #:
+
+could violate statutory prohibitions on supplanting, jeopardizing future eligibility.
+
+See, e.g., ECF Nos. 4-16 ¶ 43, 51; 4-24 ¶ 52; 4-25 ¶ 40. The result will be reduced
+program enrollment, lower federal allocations, and increased reliance on emergency
+departments, shelters, or law enforcement. See, e.g., ECF Nos. 4-27 ¶ 18; 4-54 ¶ 46;
+4-69 ¶¶ 38–39. Programs meant to prevent high-cost interventions—like Title IV-E
+family stabilization, 988 crisis hotlines, and Certified Community Behavioral Health
+Clinics—will be severely undermined. See, e.g., ECF Nos. 4-21 ¶ 14; 4-51 ¶ 26; 4-70
+¶ 31.
+Ultimately, the States present evidence that they may be forced to scale back
+or abandon federally funded services altogether to avoid violating their own inclusive
+policies or exposing providers to liability. See, e.g., ECF Nos. 4-15 ¶ 24; 4-20 ¶ 17; 423 ¶ 21; 4-36 ¶ 33; 4-59 ¶¶ 13–16. To the States, these actions will reverse years of
+coordinated public investment in equitable service delivery, exacerbate economic and
+health disparities, and inflict lasting harm on the populations these programs were
+designed to serve.
+E.
+
+This Case
+
+The States assert that the July 2025 PRWORA Notices violate the APA, 5
+U.S.C. § 551 et seq., and the Spending Clause of the United States Constitution, U.S.
+Const. art. I, § 8, cl. 1.
+
+They seek injunctive relief to restrain and enjoin the
+
+Government from implementing the July 2025 PRWORA Notices in the States party
+to this suit. (ECF No. 2.)
+
+9
+
+Case 1:25-cv-00345-MSM-PAS
+
+II.
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 10 of 60 PageID #:
+
+STANDARD OF REVIEW
+
+“A request for a preliminary injunction is a request for extraordinary relief.”
+
+Cushing v. Packard, 30 F.4th 27, 35 (1st Cir. 2022). “To secure a preliminary
+injunction, a plaintiff must show: (1) a substantial likelihood of success on the merits,
+(2) a significant risk of irreparable harm if the injunction is withheld, (3) a favorable
+balance of hardships, and (4) a fit (or lack of friction) between the injunction and the
+public interest.” NuVasive, Inc. v. Day, 954 F.3d 439, 443 (1st Cir. 2020) (cleaned
+up). Here, the last two factors merge because the Government is the opposing party.
+
+Nken v. Holder, 556 U.S. 418, 435 (2009).
+“The first two factors” here “are the most critical.” Id. at 434. “To demonstrate
+likelihood of success on the merits, plaintiffs must show more than mere possibility
+of success—rather, they must establish a strong likelihood that they will ultimately
+prevail.” Sindicato Puertorriqueño de Trabajadores, SEIU Loc. 1996 v. Fortuño, 699
+F.3d 1, 10 (1st Cir. 2012) (per curiam) (citation modified). In evaluating whether the
+States have shown a likelihood of success on the merits, the Court must keep in mind
+that the merits need not be “conclusively determine[d]”; instead, at this stage,
+decisions “are to be understood as statements of probable outcomes only.” Akebia
+
+Therapeutics, Inc. v. Azar, 976 F.3d 86, 93 (1st Cir. 2020) (citation modified).
+III.
+
+DISCUSSION
+
+The Court begins with an extended discussion of the States’ likelihood of
+success on the merits. Finding that the States are likely to succeed on its claims, it
+proceeds to analyze irreparable harm, the balance of the equities, and the public
+
+10
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 11 of 60 PageID #:
+
+interest. It concludes by addressing the scope of the remedy, the issuance of a bond,
+and the Government’s request for a seven-day stay.
+A.
+
+Likelihood of Success on the Merits
+
+The Court now turns to the States’ likelihood of success on the merits of their
+three APA claims and one constitutional claim.
+As to the three APA claims, the States first argue that the HHS, ED, and DOL
+Notices failed to comply with APA procedural requirements—particularly, the
+necessary notice-and-comment period. Second, the States submit that the Notices
+are arbitrary and capricious and thus in violation of the APA, because the Notices are
+neither “reasonable” nor “reasonably explained,” each independently being fatal to
+their viability. See Ohio v. EPA, 603 U.S. 279, 292 (2024). Third, the States contend
+that the Notices are contrary to law, mostly in that the Agencies have misinterpreted
+the term “federal public benefit” as a basic matter of statutory interpretation.
+As to the constitutional claim, the States argue that all four Notices impose
+new conditions on spending that violate the U.S. Constitution’s Spending Clause.
+At this stage, the States need only show a substantial likelihood of success on
+one of their claims against each defendant to merit a preliminary injunction. See,
+
+e.g., Woonasquatucket River Watershed Council v. U.S. Dep’t of Agric., 778 F. Supp.
+3d 440, 461 (D.R.I. 2025); Worthley v. Sch. Comm. of Gloucester, 652 F. Supp. 3d 204,
+215 (D. Mass. 2023) (collecting cases).
+1. “Final Agency Action” Analysis
+Before reaching the merits of the APA claims, though, the Court must
+
+11
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 12 of 60 PageID #:
+
+determine whether the States are likely to show that the Notices constitute “final
+agency action.” 5 U.S.C. § 704. If the Notices do not, then they cannot be subject to
+judicial review under the APA. Id.
+A final agency action has two essential qualities.
+
+First, it “marks the
+
+consummation of the agency’s decisionmaking process.” Corner Post, Inc. v. Bd. of
+
+Governors of Fed. Rsrv. Sys., 603 U.S. 799, 808 (2024) (cleaned up). And second, it
+either is an action “by which rights or obligations have been determined, or from
+which legal consequences will flow.” Id. (cleaned up).
+The States argue that the HHS, ED, and DOL Notices “mark the
+consummation of agency decisionmaking from which legal consequences will flow”
+because the Notices “identify new programs as providing “federal public benefit[s]”
+requiring immigration status verification under PRWORA. (ECF No. 2 at 49.) In
+HHS’s case, for instance, this is “effective immediately.” Id. (citing 90 Fed. Reg.
+at 31,238). So no further action is necessary to issue a decision and the decision
+affects the Agencies’ commitments to funding programs. Id.
+The Government responds that the Notices are not “final agency action”
+because they are interpretive rules.
+
+In its view, the “critical feature” of the
+
+interpretive rule is “that it does not have independent legal force,” and that is the
+case here. (ECF No. 48 at 22 (quoting Ctr. For Auto Safety v. Nat’l Highway Traffic
+
+Safety Admin., 452 F.3d 798, 805–06 (D.C. Cir. 2006))). These Notices only set “forth
+the agency’s understanding of PRWORA’s purpose and plain text,” and although
+there may be practical consequences, those practical consequences do not create final
+
+12
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 13 of 60 PageID #:
+
+agency action. For instance, the Government notes that the Notices “do not require
+adoption of specific verification methods and do not identify any consequences that
+will follow failure to verify.” (ECF No. 48 at 23.)
+The States have the better of the argument. The Supreme Court has held that
+even internal memoranda that bind staff constitute “final agency action.” Biden v.
+
+Texas, 597 U.S. 785, 808–09 (2022). These Notices go beyond that, insofar as two of
+the three Notices are issued in the Federal Register with immediate effect. The HHS
+Notice explains that “it is necessary to apply this interpretation to HHS programs
+immediately.” 90 Fed. Reg. at 31,238. The ED Notice is not as clear, stating only
+that “entities administering [the covered programs] may consider this interpretation
+when taking action to comply with PRWORA,” but that still implies that it is effective
+immediately. 90 Fed. Reg. 30,900. And either way, these bind staff and notify the
+public of changing obligations for specific programs.
+Meanwhile, the DOL Notice, though not issued in the Federal Register,
+specifically “directs the public workforce development system to update all policies
+and procedures to ensure that all participants served by the programs identified in
+the guidance are legally authorized to work in the United States.” (ECF No. 4-4 at 3.)
+That is akin to the memoranda found to be a “final agency action” in Biden v. Texas.
+597 U.S. at 808–09.
+Read in that context, both facets of the final agency action test are satisfied as
+to all three Notices. These Notices clearly “mark the consummation” of the Agencies’
+decisionmaking about the scope of PRWORA, and, specifically, how it applies to
+
+13
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+programs that each Agency administers.
+
+603 U.S. at 808.
+
+Page 14 of 60 PageID #:
+
+And by extending
+
+PRWORA to cover new programs, “legal consequences will flow” and both rights and
+obligations “have been determined.” Id. The legal consequences include the new
+verification regimes; from that, individuals’ rights to access newly covered PRWORA
+programs are narrowed, and obligations to states and localities who administer
+covered programs are expanded, because as they need to establish these verification
+regimes.
+While the Court understands the Government’s argument that the Notices are
+best understood as “interpretive,” that analysis is better suited for the Court’s
+consideration of Count I than it is the “final agency action” analysis.
+
+See Cal.
+
+Communities Against Toxics v. EPA, 934 F.3d 627, 635 (D.C. Cir. 2019) (“Because
+only final agency action is reviewable under the APA . . . , Perez [v. Mortg. Bankers
+
+Ass’n, 575 U.S. 92 (2015)] thus affirms that interpretive rules can be final, and, by
+implication, that the test for finality is independent of the analysis for whether an
+agency action is a legislative rule rather than an interpretive rule.”)
+2. Count I: APA Procedural Violations
+The Court now turns to the APA claims’ merits. Under Count I, the States
+argue that the Notices were “unlawfully promulgated” because the agencies failed to
+go through the requisite notice-and-comment period. (ECF No. 2 at 50–54.) The
+central issue here is whether these Notices were “legislative” or “interpretive.” If the
+Notices are “legislative,” then notice-and-comment rules apply; if interpretive, they
+do not.
+
+See 5 U.S.C. § 553(b)(A).
+
+Despite this binary choice, the analysis is
+
+14
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 15 of 60 PageID #:
+
+complicated.
+Background from the First Circuit is the natural starting place. “The APA
+generally requires that before a federal agency adopts a rule it must first publish the
+proposed rule in the Federal Register and provide interested parties with an
+opportunity to submit comments and information concerning the proposal.” New
+
+Hampshire Hosp. Ass’n v. Azar, 887 F.3d 62, 70 (1st Cir. 2018). “Failure to abide by
+these requirements renders a rule procedurally invalid.” Id. Still, “exempted from
+this requirement are ‘interpretive rules, general statements of policy, or rules of
+agency organization, procedure, or practice.’” Id. (quoting 5 U.S.C. § 553(b) (emphasis
+added)). The first exception is central, because this claim turns on whether the HHS,
+ED, and DOL Notices are “interpretive” or “substantive/legislative.”
+The First Circuit has explained that an interpretive rule is issued “merely to
+advise the public of the agency’s construction of the statutes and rules which it
+administers.” Azar, 887 F.3d at 70 (quoting Perez v. Mortg. Bankers Ass’n, 575 U.S.
+92, 97 (2015)). These rules “do not have the force and effect of law” but “nevertheless
+may have a substantial impact on regulated entities.” 887 F.3d at 70.
+In contrast, a legislative rule “creates rights, assigns duties, or imposes
+obligations, the basic tenor of which is not already outlined in the law itself.” Id. The
+D.C. Circuit, the leading Court of Appeals on issues of administrative law, has also
+said that a rule is legislative “if it supplements a statute, adopts a new position
+inconsistent with existing regulations, or otherwise effects a substantive change in
+
+15
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 16 of 60 PageID #:
+
+existing law or policy.” Mendoza v. Perez, 754 F.3d 1002, 1021 (D.C. Cir. 2014).
+The distinction between the two is not very clear.
+
+“Somewhere along a
+
+spectrum, a rule transitions from being interpretive to being legislative,” but “the
+point at which a rule crosses that line is a question enshrouded in considerable smog.”
+
+Azar, 887 F.3d at 70 (cleaned up). Still, Azar says “five considerations” are relevant:
+statutory text; the explanation (or lack thereof) given by an agency in adopting a
+policy; whether the rule is “inconsistent with another rule having the force of law” or
+otherwise “alters or enlarges obligations imposed by a preexisting regulation”; the
+“manner in which the Secretary’s actions fit within the statutory and regulatory
+scheme;” and, finally, “pragmatic considerations.” 887 F.3d at 73 (cleaned up).
+The States argue that the Notices are legislative for three reasons. First, the
+Notices “substantially change eligibility for several foundational programs.” (ECF
+No. 2 at 51.) Second, they have “massive effects,” requiring notice and comment.
+(ECF No. 2 at 53.)
+
+Third, the Agencies’ characterization of the Notices as
+
+“interpretive” should be afforded little deference. (ECF No. 2 at 53–54.)
+The Government responds that the Notices are interpretive because they only
+reflect the Government’s new interpretation of the statutes, and do not modify legal
+consequences or add obligations. Likewise, the Government posits that a change in
+position alone is not enough to transform an interpretive rule into a legislative one.
+Finally, the Government observes that the Agencies “were free to change or withdraw
+their prior interpretations without engaging in notice-and-comment rulemaking,” so
+
+16
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 17 of 60 PageID #:
+
+the same is true here. (ECF No. 48 at 25.)
+The Court structures its analysis around the considerations that the First
+Circuit identified in Azar.
+a.
+
+Text
+
+This factor favors the Government. This case turns on what a “federal public
+benefit” is. Recall the statutory text: an “alien who is not a qualified alien” is “not
+eligible for any Federal public benefit (as defined in subsection (c)).”
+
+8 U.S.C.
+
+§ 1611(a). Congress expressly notes here that the definition of “federal public benefit”
+is defined in subsection (c) of the statute, seeming to downsize the Agencies’ role in
+the deliberative process.
+
+Cf. Mendoza, 764 F.3d at 1022 (“Where Congress has
+
+specifically declined to create a standard, the Department cannot claim its
+implementing rule is an interpretation of the statute.”) Subsection (c) then provides
+a robust (though not necessarily clear) definition of “federal public benefit.” See 8
+U.S.C. § 1611(c). So the Agency Notices serve a somewhat narrow function: to decide
+whether specific programs they administer provide a “federal public benefit.”
+That is unlike Azar. There, the “textual silence on whether to offset other
+sources of payment” led the First Circuit to conclude that “any authority that the
+Secretary may have to adopt the rule at issue would most likely flow from Congress’s
+delegation of a power to make a decision that Congress chose not to make itself.” 887
+F.3d at 71.
+
+Azar also drew on a Supreme Court case called Guernsey Memorial Hospital,
+describing it as a case where “the Secretary argued, and the Court appeared to agree,
+
+17
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 18 of 60 PageID #:
+
+that the only plausible interpretation of the statutory and regulatory scheme was the
+one advanced by the Secretary” and that the Secretary was “thus simply following
+the statutory command, and was not making a discretionary policy judgment.” 887
+F.3d at 70–71 (citing Shalala v. Guernsey Mem. Hosp. 514 U.S. 87, 89–90 (1995)).
+The First Circuit then offered a hypothetical: “We would have a similar situation in
+this case if, for example, Congress had expressly specified that all sources of thirdparty reimbursements be offset from costs incurred, and the Secretary then
+implemented that directive by identifying Medicare payments as just such a
+reimbursement.” 887 F.3d at 71.
+That hypothetical seems close to the Notices in this case. Congress states that
+the term “federal public benefit” means “any grant, contract, loan, professional
+license, or commercial license provided by an agency of the United States” or “any
+retirement, welfare, health, disability, public or assisted housing, postsecondary
+education, food assistance, unemployment benefit, or any other similar benefit.” 8
+U.S.C. § 1611(c)(1)(A)-(B). So Congress here “expressly specified” PRWORA’s scope,
+and the Notices, like the Azar hypothetical, “implemented that directive by
+identifying” the Agency programs that fall under its umbrella. 887 F.3d at 71. So
+this factor favors the Government insofar as it supports the conclusion that the
+Notices are interpretive.
+b.
+
+Explanation
+
+This factor also favors the Government as to the HHS and ED Notices, but not
+
+18
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 19 of 60 PageID #:
+
+the DOL Notice.
+Both the HHS and ED Notices rely heavily on canons of statutory
+interpretation in their analysis. The HHS Notice relies on the “plain meaning” canon,
+the statutory term “any” as compelling an expansive reading, the noscitur a sociis
+canon, the expressio unius canon (albeit by a different name), the presumption
+against superfluity, the role of the residual clause in discerning meaning, and the
+
+ejusdem generis canon. The ED Notice relies on arguments about context and
+statutory structure, dictionary definitions, the presumption against superfluity, the
+statute’s built-in Plyler construction rule, and the 1997 Notice’s improper use of
+legislative history.
+
+These are all bread-and-butter statutory interpretation
+
+arguments and observations.
+The fact that these are the building blocks of the HHS and ED Notices cuts
+against the States’ position that these notices are “legislative.” In Azar, the First
+Circuit explained that had “the Secretary merely been interpreting the governing
+statute and regulation, then one would expect that the agency’s justification for the
+rule would rely on an interpretive methodology.” Id. at 71–72. And Azar collects
+cases to illustrate the point. See Warder v. Shalala, 149 F.3d 73, 78 (1st Cir. 1998)
+(noting that the agency discussed “relevant statutes, regulations, legislative history,
+and administrative materials before reaching its conclusion”); Metro. Sch. Dist. of
+
+Wayne Twp. v. Davila, 969 F.2d 485, 490 (7th Cir. 1992) (stating that the Secretary’s
+reliance on “the language of both the statute and an implementing regulation, and
+the legislative history of the Act” in a letter announcing the rule was an “important”
+
+19
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 20 of 60 PageID #:
+
+factor weighing “in favor of a determination that the rule is interpretive” (cleaned
+up)); Gen. Motors Corp. v. Ruckelshaus, 742 F.2d 1561, 1565 (D.C. Cir. 1984) (noting
+that the agency’s “entire justification for the rule” in the Federal Register was
+“comprised of reasoned statutory interpretation, with reference to the language,
+purpose and legislative history of” the statute, so it was interpretive).
+But the DOL Notice reads differently than the other two. It includes none of
+the same arguments and instead focuses mostly on the impact of the change. See
+
+generally ECF No. 4-4. That is similar to the FAQ in Azar, where the Secretary
+“offered no meaningful hint that the Secretary derived the policy announced in the
+FAQs from an interpretation of the statute or the regulation.” 887 F.3d at 72. That
+favors its classification as legislative.
+The Court digresses here to consider the States’ argument about how the
+Agencies’ characterizations of the Notices should be afforded little deference. On this
+point, the States are right. HHS and ED characterize their rules as interpretive. See,
+
+e.g., 90 Fed. Reg. at 31,238 (HHS describing the notice as an “interpretation”); 90
+Fed. Reg. at 30,900 (ED describing the Notice as an “interpretive rule”). But the First
+Circuit has stated that “the probative value of the Secretary’s own characterization
+of a pronouncement as interpretive is limited, and we do not place on it more weight
+than its merits can bear.” Azar, 887 F.3d at 70. If the Agency’s characterization were
+decisive, it “would create an easy end run around the APA’s procedural protections.”
+
+Id. The substance of the claim, rather than just the classification, matters most.
+In short, this factor favors the ED and HHS Notices being interpretive but the
+
+20
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 21 of 60 PageID #:
+
+DOL Notice being legislative.
+c.
+
+Inconsistency
+
+“Inconsistency with past regulations” heavily favors the States. These Notices
+substantially change eligibility for a host of federal programs, strongly indicating that
+the Notices are legislative, not interpretive.
+First, HHS. In 1998, HHS made three decisions that it reversed in 2025,
+adding thirteen new programs to PRWORA’s sweep. First, in 1998, it found that the
+term “grant” only “refers to financial awards to individuals” and “does not include socalled ‘block grants’ which are provided to states or localities, since that would give
+the word an entirely different meaning than the other terms in that Part.” 63 Fed
+Reg. 41,658, 41,659 (Aug. 4, 1998). In 2025, HHS walked this back, because the
+division it made in 1998 “reads a limitation into” the statutory term “any grant” that
+“Congress intentionally left out.” 90 Fed. Reg. at 31,233. Instead, block grants to
+states and localities are covered and thus subject to PRWORA.
+Second, in 1998, HHS found that “by explicitly identifying ‘postsecondary
+education’ the statute excludes non-postsecondary education programs, such as Head
+Start and elementary and secondary education.” 63 Fed. Reg. at 41,659. In 2025,
+HHS reversed this decision because it “rests on a misapplication of canons of
+statutory interpretation,” particularly ejusdem generis. 90 Fed. Reg. at 31,233.
+Third, in 1998, HHS said that PRWORA does not cover programs that do not
+include an “eligibility unit” in determining who gets benefits. 63 Fed. Reg. at 41,659.
+For example, “in order for a program to be determined to provide benefits to ‘eligibility
+
+21
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 22 of 60 PageID #:
+
+units’ the authorizing statute must be interpreted to mandate ineligibility for
+individuals, households, or families that do not meet certain criteria, such as a
+specified income level or a specified age.” Id. In 2025, HHS reversed that decision,
+explaining that the 1998 Notice “gave greater significance to ‘eligibility unit’ than
+that text can bear.” 90 Fed. Reg. at 31,235.
+The result of those three changes is that the 2025 HHS Notice interpreted
+PRWORA to cover thirteen additional programs. See 90 Fed. Reg. at 31,237 (listing
+the programs). That is a textbook inconsistency with its past position not covering
+those programs, and HHS does acknowledge that it is changing position.
+
+Id.
+
+at 31,237–38.
+Next, ED. In 1997, ED issued a Dear Colleague Letter stating that the statute
+did not cover “assistance provided under federally funded preschool, elementary, and
+secondary education programs,” because the definition of “federal public benefits” is
+limited to postsecondary education benefits. (ECF No. 4-6 at 2.) Reversing that
+decision in 2025, it added several more programs.
+
+90 Fed. Reg. at 30,899–900
+
+(explaining that ED now interprets “PRWORA to apply to benefits provided to
+individuals under programs authorized under Title II of the Workforce Innovation
+and Opportunity Act of 2014 (WIOA) and career and technical education (CTE)
+programs authorized under the Carl D. Perkins Career and Technical Education Act
+of 2006, as amended (Perkins V), as well as benefits provided through postsecondary
+education programs”). This expansion of regulation constitutes an inconsistency.
+Finally, DOL. Just last year, it explained that “many, but not all, services
+
+22
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 23 of 60 PageID #:
+
+authorized” by workforce training did not fall under PRWORA’s scope. (ECF No. 4-7
+at 6.) After all, those services “are not included in the definition of ‘federal public
+benefits,’” as it later defined it. Id. Not so anymore. The 2024 Notice was “rescinded
+on March 27, 2025” and replaced with the current one, which states that DOL is
+“changing its prior guidance to clarify and establish that all participant-level services
+are considered ‘federal public benefits’ under PRWORA.” (ECF No. 4-4 at 3.)
+The Court does not know how to interpret this as anything other than being
+“inconsistent” with past rules and altering (really enlarging) “obligations imposed by
+a preexisting regulation.” Azar, 887 F.3d at 73. With more programs subject to
+PRWORA verification, more subgrantees and actors will need to verify individuals’
+immigration statuses to receive federal funds for the program. That is a major change
+from past practice, favoring the States.
+d.
+
+Fit within the Statutory Scheme
+
+For the reasons just described, the Notices significantly expand the reach of
+the statute while also being just that: interpretations of an existing statute. On the
+available caselaw, it seems that the Notices’ expansive practical effects and
+inconsistency with past interpretations outweigh its interpretive reasoning for
+purposes of this factor.
+Admittedly, the Notices do not easily map on to past cases favoring either
+position. They are not quite like Azar, where, because the FAQ document addressed
+a “gap rather than an overlap,” it was more legislative than interpretive. 887 F.3d
+at 773. Here there is no gap, but rather a vigorous debate about what “federal public
+
+23
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 24 of 60 PageID #:
+
+benefit” means.
+But the Notices also are not like Warder, where an agency action that the court
+held was interpretive only addressed “a small overlap” in the scheme and provided
+an answer that was clearly “consistent with the existing definitions.” 149 F.3d at 81.
+This is far from a small or narrow decision, and it conflicts with—specifically
+rejecting—past regulations.
+That seems dispositive for this factor, as the Supreme Court in Guernsey
+
+Memorial Hospital observed.
+
+See 514 U.S. at 100 (“We can agree that APA
+
+rulemaking would still be required if PRM § 233 adopted a new position inconsistent
+with any of the Secretary's existing regulations.”). This factor thus favors the States.
+e.
+
+Practical Considerations
+
+Finally, this factor favors finding that the Notices are legislative. Here is
+where the FAQ Document from Azar is on all-fours with the Notices.
+Like in Azar, the Notices call “for a categorical resolution that affects a broad
+range of payments and scenarios and likely involves large sums of money.” 887 F.3d
+at 73. HHS, for instance, estimates that its Notice could “result in an annual effect
+on the economy of $100 million or more.” (ECF No. 4-5 at 4.)
+Like in Azar, the Government cannot point to “evidence that the [agencies]
+consistently implemented the statute” between the 1990s and 2025 “in accord with
+the Secretary’s present policy.” 887 F.3d at 73. Quite the opposite: as discussed, all
+three Notices recognize that the Notices depart from past practices.
+Like in Azar, the Notices “announced a new policy on a matter of some
+
+24
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 25 of 60 PageID #:
+
+considerable import.” 887 F.3d at 74. That is true economically, politically, and
+socially. The new Notices, in the States’ estimate, will curtail access to federally
+funded programs for millions. (ECF No. 2 at 12.)
+And like in Azar, “the burdens that might weigh against requiring notice and
+comment for interstitial, minor, or confirmatory pronouncements guiding agency
+operation are much more easily justified in order to ensure the benefits of notice and
+comment.” 887 F.3d at 74. As explained thus far, and highlighted more fully in the
+irreparable harm section, these Notices are far from “interstitial, minor, or
+confirmatory.” Id.
+f.
+
+Weighing the Factors
+
+Though text (as to all three Notices) and explanation (as to HHS and ED but
+not DOL) favor the Government’s position, the other three factors weigh against the
+Government and counsel a holding that the Notices are legislative.
+The First Circuit did not state how the factors should be weighed in Azar, aside
+from noting that the Government’s characterization of the rule should not be afforded
+all that much weight. 887 F.3d at 70. But the caselaw’s emphasis on practicality,
+consistency with past regulations, and the significance of the regulation—or perhaps,
+its “import,” as stated in Azar, or put more colloquially, how “big of a deal” the
+regulation is—suggests that the last three factors should be given more weight than
+the first two. Azar, 887 F.3d at 74; Guernsey Mem. Hosp., 514 U.S. at 100; see also
+
+Appalachian Power Co v. EPA, 208 F.3d 1015, 1024 (“It is well-established that an
+agency may not escape the notice and comment requirements . . . by labeling a major
+
+25
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 26 of 60 PageID #:
+
+substantive legal addition to a rule a mere interpretation.”); id. at 1028 (explaining
+that EPA could not “in effect amend” a statute “without complying with the
+rulemaking procedures required”).
+The Court thus holds that the rules are legislative and subject to notice-andcomment.
+B.
+
+Count II: Arbitrary and Capricious
+
+Next, the States argue that the Notices were arbitrary and capricious. (ECF
+No. 2 at 54–61.) In their view, all three fail to consider reliance interests and costs,
+and all three fail to adequately explain why the newly restricted programs are
+considered “federal public benefits” under the statute.
+The APA requires reviewing courts to “hold unlawful and set aside agency
+action” that is “arbitrary, capricious, an abuse of discretion, or otherwise not in
+accordance with law.” 5 U.S.C. § 706(2)(A).
+
+An agency action is arbitrary or
+
+capricious “if it is not reasonable and reasonably explained.” Ohio v. EPA, 603 U.S.
+279, 292 (2024). The Court cannot “substitute its judgment for that of the agency,”
+but it must take care to “ensure” that the agency has “offered a satisfactory
+explanation for its action, including a rational connection between the facts found
+and the choice made.” Id. (cleaned up). And “an agency cannot simply ignore an
+important aspect of the problem.” Id. (cleaned up).
+“In
+
+arbitrary
+
+and
+
+capricious
+
+cases,
+
+we
+
+distinguish
+
+substantive
+
+unreasonableness claims from lack-of-reasoned-explanation claims.” Multicultural
+
+Media, Telecom & Internet Council v. Fed. Commc’ns Comm’n, 873 F.3d 932, 936
+
+26
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 27 of 60 PageID #:
+
+(D.C. Cir. 2017) (Kavanaugh, J.). “A substantive unreasonableness claim ordinarily
+is an argument that, given the facts, the agency exercised its discretion
+unreasonably,” and a “decision that the agency’s action was substantively
+unreasonable generally means that, on remand, the agency must exercise its
+discretion differently and reach a different bottom-line decision.” Id. Meanwhile, “a
+lack-of-reasoned-explanation claim in this context ordinarily consists of a more
+modest claim that the agency has failed to adequately address all of the relevant
+factors or to adequately explain its exercise of discretion in light of the information
+before it.” Id.
+A decision is not reasonably explained if, among other things, “the agency has
+relied on factors which Congress has not intended it to consider, entirely failed to
+consider an important aspect of the problem, offered an explanation for its decision
+that runs counter to the evidence before the agency, or is so implausible that it could
+not be ascribed to a difference in view or the product of agency expertise.” Melone v.
+
+Coit, 100 F.4th 21, 29 (1st Cir. 2024).
+The starting place is the reasoning that the agencies employed in the Notices.
+After all, “it is well-established that an agency’s action must be upheld, if at all, on
+the basis articulated by the agency itself.” Motor Vehicle Mfrs. Ass’n of U.S., Inc. v.
+
+State Farm Mut. Auto. Ins., 463 U.S. 29, 50 (1983). The Court considers the three
+Notices individually.
+a.
+
+HHS Notice
+
+In the States’ view, three problems are apparent with the HHS Notice. The
+
+27
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 28 of 60 PageID #:
+
+States first say that the HHS Notice “all but explicitly declines to obey the binding
+precedent requiring it to consider reliance interests.” (ECF No. 2 at 55.) And those
+reliance interests are, in the States’ view, “extensive.” Id. For instance, Title X and
+Head Start have “served people regardless of immigration status” for “nearly thirty
+years,” and States have developed networks and devoted resources to this
+interpretation of the statute. Id. at 55–56. Bolstering that are the reliance interests
+of the “millions of people who have relied on these services for early childhood
+education, substance abuse treatment, and other necessities.” Id. at 56.
+The States also highlight HHS’s failure to consider important aspects of the
+problem: the “significant time and resources to implement new processes to verify
+immigration status” for the services, the fact that “any other vulnerable still-eligible
+people who rely on safety net benefits but lack ready proof of citizenship or
+immigration status,” and the potential for “covered programs to close because they do
+not have the resources to implement a complex system.” (ECF No. 2 at 56–58.)
+Finally, the States emphasize how the HHS Notice “fails to explain why eleven
+of the thirteen” newly covered programs are “federal public benefits,” despite the
+“immediate practical effect.” (ECF No. 2 at 58.) For example, the “Health Center
+Program” funds over 1,400 community health centers nationwide and serves over 30
+million people a year, but the Notice “provides no explanation as to why services at
+those centers are now designated as federal public benefits.” Id. at 58. The result, in
+the States’ view, is confusion: providers “and patients are left to wonder: is it due to
+a broader definition of ‘grant’? The change in ‘eligibility unit’? An ‘other similar
+
+28
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 29 of 60 PageID #:
+
+benefit’?” Id.
+The Government responds by suggesting that HHS need not “minutely explain
+why every individual program listed in the HHS Notice provides Federal public
+benefits.” (ECF No. 48 at 35.) Nor does it need to provide “an exhaustive explanation
+that addresses all possible alternatives.”
+
+Id.
+
+Instead, the Notice’s “extensive
+
+discussions and explanations” suffice to justify revision of their prior interpretations
+of PRWORA. As for reliance interests, the Government says that they deserve little
+weight given HHS’s decision to correct course on what it sees as an incorrect reading
+of a statute. Id. at 35–37.
+Starting with the first argument, the States have the better of it. Because
+HHS was “not writing on a blank slate,” it “was required to assess whether there were
+reliance interests, determine whether they were significant, and weigh any such
+interests against competing policy concerns.” DHS v. Regents of the Univ. of Cal.,
+591 U.S. 1, 33 (2020) (cleaned up).
+Here, HHS failed to do any of that—and even seemed to spurn the thought of
+it. All HHS had to say about reliance interests was this:
+Some may argue that there are reliance interests that are affected by the
+Department’s change in position. Some may argue that the Department’s new
+position will negatively impact public health.
+However strong these
+hypothetical policy arguments may be, the Department has no power to
+override Congress’s will, expressed in the clear statutory text of PROWRA.
+90 Fed. Reg. at 31,238. It then cited Loper Bright Enterprises, Inc. v. Raimondo, 603
+U.S. 369, 400 (2024), for the proposition that, “in the business of statutory
+interpretation, if [an agency’s interpretation of the statute] is not the best, it is not
+
+29
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 30 of 60 PageID #:
+
+permissible.” Id. But Loper Bright—a case about statutory interpretation—is not a
+get-out-of-considering-reliance-interests free card. (And, as explained later, the 2025
+HHS Notice’s interpretation of the statutes is likely not the “best,” either.)
+To try to save this claim, the Government cites to Justice Thomas’s separate
+opinion in Regents, a partial concurrence and partial dissent, to support HHS’s
+punting on reliance interests. (ECF No. 48 at 36 (citing 591 U.S. at 60)). That
+authority is unconvincing. Writing for the Regents majority, Chief Justice Roberts
+explained that “nothing about” the agency’s determination that the program was
+unlawful “foreclosed or even addressed the options of retaining forbearance or
+accommodating particular reliance interests.” 591 U.S. at 33. The Government, here
+as there, “should have considered those matters but did not,” and “that failure was
+arbitrary and capricious in violation of the APA,” even if the Government considered
+the program unlawful. 591 U.S. at 33; see also FDA v. Wages & White Lion Invs.,
+
+LLC, 145 S. Ct. 898, 917–18 (“Under [the change-in-position doctrine], agencies are
+free to change their existing policies as long as they provide a reasoned explanation
+for the change, display awareness that they are changing position, and consider
+serious reliance interests.”) (cleaned up). To that extent, the Government’s efforts to
+distinguish Regents are unconvincing; in fact, concerns about reliance interests here
+are likely weightier than in Regents, given that some of the programs here have
+operated for nearly 30 years, while DACA had operated for only eight at the time of
+the Regents decision.
+The failure to consider reliance interests is sufficient to settle Count II against
+
+30
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 31 of 60 PageID #:
+
+HHS, so the Court declines to delve into the States’ other arguments.
+b.
+
+ED Notice
+
+Next, ED. In the States’ view, ED “simply ignores reliance entirely.” (ECF
+No. 2 at 59.) Its failure to do so is significant, given the newly covered programs are
+expansive and PRWORA coverage will “immediately exclude thousands of
+participants in the middle of programs without any regard to the impact on them,
+their families, their employers, and their communities.” Id. Likewise, the States
+contend that ED failed “to consider the disadvantages of its decision, as it was
+required to do.” Id.
+For its part, the Government’s arguments here largely track those that it made
+for the HHS Notice. (ECF No. 48 at 34–37.)
+The Court agrees that the ED Notice did not grapple with reliance interests at
+all. Again, like in Regents, the Government “should have considered those matters
+but did not,” and “that failure was arbitrary and capricious in violation of the APA,”
+even if the Government considered the program unlawful. 591 U.S. at 33. Nothing
+more is needed on the question.
+c.
+
+DOL Notice
+
+Finally, DOL. The Court need not repeat the arguments from either party
+because they largely track the arguments from above.
+And for the same reason—the lack of consideration of reliance interests—the
+Court holds that the DOL Notice is arbitrary and capricious. The Court notes also
+that, while the HHS and ED Notices at least attempted to justify their interpretations
+
+31
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 32 of 60 PageID #:
+
+based on legal principles, the DOL Notice barely attempts to do that, beyond a single
+vague paragraph. (ECF No. 4-6 at 3–7.) That makes the case that it is “arbitrary”
+and “capricious” even clearer.
+C.
+
+Count III: Contrary to Law
+
+The States’ third claim is that the Notices are contrary to law. At bottom, this
+claim boils down to who offers the best interpretation of PRWORA, because it largely
+concerns whether the Notices’ extension of PRWORA to new programs violates the
+definition of “federal public benefit” in § 1611(c). Again, it is best to take each Notice
+on its own.
+a.
+
+HHS Notice
+
+The States argue that the HHS Notice is contrary to law for five reasons. First,
+it “unlawfully applies PRWORA to benefits that are generally available to the public,”
+extending the statute’s coverage largely based on a misreading of the term “eligibility
+unit.”
+
+(ECF No. 2 at 62.)
+
+Second, it “unlawfully extends PRWORA to non-
+
+postsecondary educational benefits, including Head Start.” (ECF No. 2 at 66.) Third,
+it “improperly deems programs subject to PRWORA in their entirety, rather than
+identifying ‘federal public benefits’ on a benefit-by-benefit basis.” (ECF No. 2 at 69.)
+Fourth, it “incorrectly includes all benefits funded by block grants to State or local
+governments.” (ECF No. 2 at 71.) Fifth, it “includes several programs that Congress
+exempted from PRWORA in subsequent statutes.” (ECF No. 2 at 72.)
+The Government responds that the HHS Notice is grounded in the “plain
+meaning” of the term “federal public benefit.” (ECF No. 48 at 28–29.) Though it does
+
+32
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 33 of 60 PageID #:
+
+not take each of the States’ arguments in turn, the Court sees the matching
+counterarguments as follows. First, the statute does sweep as broadly as HHS says,
+and the Attorney General’s previous exercise of discretion to exclude a host of
+programs—the exercise of discretion that has now been revoked—shows as much. Id.
+at 31. Second, Head Start and other non-postsecondary educational benefits are
+covered under the catch-all term, “any other similar benefit,” based on ejusdem
+
+generis. Id. at 29–31. Third, not identifying benefits on an individualized basis
+demonstrates how the States’ claims are “premature.” Id. at 32. As to the States’
+fourth argument, the same is true. Id. at 31. Fifth, the excepting statutes that the
+States identify do not really exempt programs from PRWORA’s requirements. Id.
+at 32.
+As to the first argument, the Court agrees with the States that PRWORA is
+limited to programs that have eligibility requirements. The statute first defines a
+“federal public benefit” as “any grant, contract, loan, professional license, or
+commercial license.” 8 U.S.C. § 1611(c)(1)(A). By their nature, contracts, loans,
+professional licenses, and commercial licenses all require an application or a similar
+transaction in order to take effect. Those transactions necessarily require eligibility.
+The statute’s second definition of “federal public benefit” is admittedly more
+expansive, but eligibility is still a prerequisite. A federal public benefit is also “any
+retirement, welfare, health, disability, public or assisted housing, postsecondary
+education, food assistance, unemployment benefit, or any other similar benefit for
+which payments or assistance are provided to an individual, household, or family
+
+33
+
+Case 1:25-cv-00345-MSM-PAS
+
+eligibility unit.”
+
+Document 64 Filed 09/10/25
+<pageID>
+
+8 U.S.C. § 1611(c)(1)(B).
+
+Page 34 of 60 PageID #:
+
+The crux here is that last phrase,
+
+“eligibility unit.”
+The States, relying on the series-qualifier canon, argue that a program “that
+imposes no limits on eligibility is not provided to ‘eligibility units,’ and so cannot
+constitute a ‘federal public benefit’” under this provision. (ECF No. 2 at 63.) More
+simply, their position is that the phrase “eligibility unit” modifies all three preceding
+items in the list, not just the last one. To paraphrase, their position is that the statute
+should be read like this: a “federal public benefit” is one that is “provided to an
+individual [eligibility unit], household [eligibility unit], or family eligibility unit.”
+In contrast, the Government, relying on the last-antecedent rule, argues that
+the term “eligibility unit” only modifies “family,” so programs that serve individuals
+or households, even without eligibility criteria, are covered under PRWORA. (ECF
+No. 48 at 28.) In its view, “eligibility unit” only modifies “family.” To paraphrase, its
+position is that PRWORA requirements extend to cases involving conferral of a
+benefit to an “individual,” a “household, or a “family eligibility unit.” So “eligibility
+unit” only modifies “family.”
+The States have the better read of the statute here, because the last-antecedent
+rule does not control. The Supreme Court’s decision in Lockhart v. United States,
+577 U.S. 347 (2016), illustrates why.
+
+In considering the phrase, “relating to
+
+aggravated sexual abuse, sexual abuse, or abusive sexual conduct involving a minor
+or ward,” the Court held that the phrase “involving a minor or ward” only applies to
+“abusive sexual conduct” based on the last antecedent rule. Id. at 349 (quoting 18
+
+34
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 35 of 60 PageID #:
+
+U.S.C. § 2552(b)(2)). But it explained that the rule “is not an absolute and can
+assuredly be overcome by other indicia of meaning.” Id. at 352 (cleaned up).
+For instance, the Lockhart majority explained that the last antecedent rule did
+not apply to the phrase “the laws, the treaties, and the Constitution of the United
+States,” such that “of the United States” only modified “the Constitution,” because (1)
+laws, treaties, and the Constitution are cited together, (2) readers are used to seeing
+them together, and (3) the “listed items are simple and parallel without unexpected
+internal modifiers or structure.”
+
+Id. at 352; see also id. at 367 n.2 (Kagan, J.,
+
+dissenting) (collecting similar examples). The Court sees the phrase “individual,
+household, or family eligibility unit” as more like that example than the phrase from
+§ 2252(b), because the items in § 1611(c)(1)(B) are “simple and parallel without
+unexpected internal modifiers or structure.”
+
+Id. at 352; id. at 362 (Kagan, J.,
+
+dissenting) (noting that the last antecedent rule would not apply to the phrase “an
+actor, director, or producer involved with the new Star Wars movie”).
+Context bolsters the Court’s conclusion here. See 577 U.S. at 352 (“More
+importantly, here the interpretation urged by the rule of the last antecedent is not
+overcome by other indicia of meaning.”) For instance, another part of the statute, its
+verification provisions, direct the Attorney General to promulgate regulations
+“requiring verification that a person applying for a federal public benefit” is “a
+qualified alien and is eligible to receive such benefit.” 8 U.S.C. § 1642(a)(1). That
+indicates an application is necessary for something to qualify as a federal public
+benefit. So too later on. See 8 U.S.C. § 1642(d) (requiring “proof of eligibility of any
+
+35
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 36 of 60 PageID #:
+
+applicant for such benefits”). While the Government points to the phrase “the same
+household or family eligibility unit” in another part of the statute, § 1631(f)(2), as
+evidence that “eligibility unit” should not be carried over to individual or household
+in § 1611(c)(1)(B), the Court believes that the phrase in § 1631(f)(2) just replicates the
+same ambiguity, rather than providing evidence that clearly resolves it.
+The Government’s interpretation also makes the term “eligibility unit”
+meaningless. The HHS Notice practically gives as much away: “Now, if an HHS
+program provides a benefit that falls within the categories set forth in the first half
+of subparagraph (c)(1)(B), and it does so on a per-individual, per-household, or perfamily basis, it will be a ‘Federal public benefit.’” 90 Fed. Reg. at 31,235. Note that,
+in this paraphrase, the term “eligibility unit” has fallen away.
+If Congress had wanted the statute not to include the term, it could have easily
+drafted as much. But the presumption against superfluidity, the “rule that instructs
+a court, in undertaking the interpretation of a statute, to give meaning whenever
+possible to every word and phrase in a statute’s text,” counsels that “eligibility unit”
+should probably have a meaning. Kholi v. Wall, 582 F.3d 147, 153 (1st Cir. 2009)
+(cleaned up). Reading “eligibility unit” to limit PRWORA’s reach to programs that
+include eligibility criteria is a natural way to give it meaning. To boot, the Court
+agrees with the States that inclusion of the term would make little sense if “federal
+public benefit” included programs that did not have “eligibility” to determine. See
+
+N.H. Lottery Comm. v. Rosen, 986 F.3d 38, 55 (1st Cir. 2018) (explaining that courts
+should not apply the last antecedent rule “in a mechanical way where it would require
+
+36
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 37 of 60 PageID #:
+
+accepting unlikely premises”) (quoting Paroline v. United States, 572 U.S. 434, 447
+(2014)).
+
+Other parts of the statute make that clear.
+
+See 8 U.S.C. §§ 1641(d),
+
+1642(a)(1).
+One last point: the Court takes special note of DOJ’s original interpretation of
+the statute, that it excluded generally available public benefits that lacked eligibility
+criteria. 62 Fed. Reg. at 61,361 (explaining that, “if you provide generally available
+services such as fire or ambulance services,” the “definition does not apply”). As the
+States observe, DOJ issued this interpretation one day after PRWORA was enacted,
+and—before this case—the Government has read the statute this way consistently
+since that moment.
+True, after Loper Bright, most deference to agencies’ interpretation of statutes
+is unwarranted. Loper Bright, 603 U.S. at 412 (“Chevron is overruled.”) But the
+Supreme Court specifically carved out one type of agency interpretation that still
+merited respect: those cases when “an Executive Branch interpretation” of an
+ambiguous law “was issued roughly contemporaneously with enactment of the statute
+and remained consistent over time,” that interpretation is “entitled to very great
+respect.” Id. at 386 (cleaned up). 5 The original interpretations offered by DOJ (and
+soon after HHS) seem to fit neatly within this paradigm, further favoring the States’
+
+5 Whether a statute is “ambiguous” is, in and of itself, another issue.
+
+See, e.g., Brett
+
+Kavanaugh, Fixing Statutory Interpretation, 129 Harv. L. Rev. 2118, 2118 (2016)
+(explaining that judges cannot decide whether a statute is clear or ambiguous “in a
+settled, principled, or evenhanded way”). But here, given the two detailed, competing
+visions of the statute espoused by the parties, read against the backdrop of thirty
+years of interpretation favoring one, the Court feels comfortable stating that the
+statute is ambiguous.
+37
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 38 of 60 PageID #:
+
+position.
+With all that in mind, the best reading of the statute is likely that PRWORA
+does not extend to programs that do not have eligibility requirements. Of the thirteen
+programs added, the States say that “at most” three of them impose limits on
+eligibility. (ECF No. 2 at 66.) Any program without eligibility requirements is not
+covered.
+Second, the Court agrees with the States that Head Start, a program providing
+early childhood education for needy children, is not covered under the best reading of
+the statute. The Government argues that Head Start is covered because the statute
+extends to “any other similar benefit,” a catch-all related to the preceding enumerated
+items of “retirement, welfare, health, disability public or assisted housing,
+postsecondary education, food assistance,” and “employment benefit.” (ECF No. 48
+at 29.)
+
+Recognizing that the inclusion of “postsecondary education” implies the
+
+exclusion of secondary and presecondary education, the Government tries to hang its
+hat on Head Start being like a “welfare” benefit via the ejusdem generis canon. Id.
+at 29–30. But its appeals are unconvincing.
+
+Circuit City Stores, Inc. v. Adams, 532 U.S. 105, 114–15 (2001) is instructive.
+There, the Supreme Court considered whether the FAA provision exempting
+arbitration in cases involving “contracts of employment of seamen, railroad
+employees, or any other class of workers engaged in foreign or interstate commerce,”
+and specifically, the catch-all at the end, applied to a regular retail worker in a
+national company. 532 U.S. at 109 (quoting 9 U.S.C. § 1). The Court held that it did
+
+38
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 39 of 60 PageID #:
+
+not, and that it only extended to other “transportation workers.” Id. That was
+because “construing the residual phrase to exclude all employment contracts fails to
+give independent effect to the statute’s enumeration of the specific categories of
+workers which precedes it; there would be no need for Congress to use the phrases
+‘seamen’ and ‘railroad employees’ if those same classes of workers were subsumed
+within the meaning of the ‘engaged in . . . commerce’ residual clause.” Id. at 114.
+So too here: if the Court construed the residual phrase to cover all education
+programs (including Head Start) because they were “a similar benefit” to “welfare,”
+“there would be no need for Congress to use” the phrase “postsecondary education.”
+
+Id. Or more simply, if “welfare” covered education programs writ-large, that would
+render another item in the list, “postsecondary education,” meaningless. That cannot
+be.
+The Court thus holds that Head Start is likely not covered by PRWORA, based
+on the best reading of the statute.
+Third, the Court agrees with the Government that, under the statute, the
+PRWORA Notices likely need not list the covered programs on a benefit-by-benefit
+basis. HHS’s approach here seems consistent with its original approach. The original
+1997 DOJ Notice stated that, “If one program provides several public benefits, the
+Act’s requirements apply only to those benefits that are non-exempted federal public
+benefits under the Act.” 62 Fed. Reg. at 61,346. And the original 1998 HHS Notice
+listed more than thirty programs, and in that list, made occasional exceptions. See
+63 Fed. Reg. at 41,659 (noting coverage for “Medicaid (except assistance for an
+
+39
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 40 of 60 PageID #:
+
+emergency medical condition)”). But, right after the list, HHS explained that the list
+itself “does not mean, however, that all benefits or services provided by these
+programs are ‘federal public benefits’ and require verification.” Id. It then carved
+out an example exception for benefit funds under LIHEAP, even though LIHEAP was
+not qualified in the list above. Id. But it did not, beyond that, explain that all benefits
+in each program are covered. With that in mind, the Court does not see why more is
+required at this point—especially given the Agencies’ statements that further
+guidance about specific programs may be coming. The Notice itself informs the
+stakeholders that their programs are subject to PRWORA unless otherwise
+instructed. (ECF No. 48-2 at 3.)
+As to the fourth argument, the Court agrees that block grants to the states are
+not covered. 8 U.S.C. § 1611(a) states that “an alien who is not a qualified alien” is
+“not eligible for any Federal public benefit.” A grant issued to a state is not provided
+to an alien, so PRWORA only applies if the State or local government itself funds
+payments or assistance that are “federal public benefits” under the statute. DOJ’s
+contemporaneous interpretation of the statute confirmed as much. “Although the Act
+prohibits certain aliens from receiving non-exempted ‘federal public benefits,’ it does
+not prohibit governmental or private entities from receiving federal public benefits
+that they might then use to provide assistance to aliens, so long as the benefit
+ultimately provided to the non-qualified aliens does not itself constitute a ‘federal
+public benefit.’” 62 Fed. Reg. at 61,361. To illustrate the point, “if a local agency were
+to receive a “grant” (which is expressly identified as a federal public benefit), but the
+
+40
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 41 of 60 PageID #:
+
+agency uses it to provide police services, fire protection or crime victim counseling
+(which are not federal public benefits under the Act’s definition because they are not
+similar to an enumerated benefit), the prohibition would not apply.” Id. The States
+make a good point that the fact that a State receives a block grant does not mean that
+the grant itself provides a federal public benefit, or that noncitizens are necessarily
+barred from it.
+Finally, the Court agrees that the Health Center Program is exempted from
+PRWORA. 6 The statute governing the Health Center Program specifically requires
+that health centers receiving funding must “provide services for all residents within
+a catchment area” to receive funding. 42 U.S.C. § 254(b)(2). That is in direct tension
+with PRWORA’s general requirement (cutting across federal law) that any alien who
+is not a “qualified alien” cannot receive “federal public benefits.” 8 U.S.C. § 1611(a).
+Navigating the tension among statutes like these is hard, but two points favor
+the States’ approach.
+
+The Health Center Program statute only extends to one
+
+program, while PRWORA covers all federal public benefits; this situation fits neatly
+into the rule that “the specific controls the general.” See, e.g., Morton v. Mancari, 417
+U.S. 535, 550–51 (1974) (explaining that “a specific statute will not be controlled or
+nullified by a general one, regardless of the priority of the enactment.”); see also
+
+Noerand v. Devos, 474 F. Supp. 3d 394, 403 (D. Mass. 2020) (“Section 18004 of the
+CARES Act is a specific statutory enactment in which Congress unambiguously
+
+6 Finding that Head Start was not covered by PRWORA under a previous argument,
+
+the Court need not address it again here.
+
+41
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 42 of 60 PageID #:
+
+directed certain aid to a plainly defined group of people. In these circumstances, to
+the extent that the CARES Act directs a federal public benefit, it constitutes a
+statutory exception to Section 1611’s general denial of federal public benefits.”)
+Likewise, the Health Center Program statute was enacted after PRWORA (though
+by the same Congress), further favoring reading it as an exception to the general
+PRWORA rule. See, e.g., Dorsey v. United States, 567 U.S. 260, 273–75 (2012)
+(discussing how earlier statutes do not bind Congress from excepting them later on).
+So because the Health Center Program statute is specific and later-in-time, it is best
+read as an exception and thus not covered.
+The Court thus holds that the States have shown that the HHS Notice is likely
+contrary to law in at least four ways.
+b.
+
+ED Notice
+
+The States next argue that the ED Notice is contrary to law in its extension of
+PRWORA’s coverage to all educational benefits, regardless of whether they are
+“postsecondary.” The arguments largely track the same arguments about HHS’s
+(likely unlawful) decision to cover Headstart—that using the catch-all to extend
+“federal public benefit” beyond postsecondary education, the Government renders
+that term superfluous. From that (and other more minor points), the States argues
+that neither WIOA II nor Perkins V should be covered by PRWORA.
+The Government responds that its interpretation of PRWORA complies with
+the statutory text and the Plyler provision of construction, too. More specifically, it
+argues that WOIA II is covered as a “similar benefit” to those enumerated under 8
+
+42
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 43 of 60 PageID #:
+
+U.S.C. § 1611(c)(1)(B), because it provides educational services to adults and children
+who lack certain skills or abilities. (ECF No. 48 at 26–27.) Secondary-level Perkins
+V programs, in turn, are not covered under PRWORA when they are “provided to
+minors in the secondary school setting,” but otherwise are. 90 Fed. Reg. at 30,900;
+ECF No. 48 at 27.
+Again, the States have the better of the argument.
+
+To start, the Court
+
+struggles to see how WIOA II/AEFLA, which focuses on providing education for
+adults who lack a secondary school education, could be construed as akin to a
+“postsecondary education” benefit or “any other similar kind” of benefit. See 29
+U.S.C. § 3271; 90 Fed. Reg. at 30,899 (describing the program as an “alternative” to
+“secondary school”). For the same reasons that Head Start did not qualify, neither
+does WIOA II/AEFLA. See, e.g., Circuit City Stores, 532 U.S. at 114–15. And in fact,
+the case is clearer here, where rather than trying to hook the program to “any other
+similar benefit” as “welfare” (as with Head Start), the Government here tries to hook
+WIOA II/AEFLA as another “similar benefit” as “postsecondary education.” (ECF No.
+48 at 26–27.) As Congress explained, it is not similar to postsecondary education, but
+instead preservative of the possibility of attaining any postsecondary education. See,
+
+e.g., 29 U.S.C. § 3271(3) (explaining that AEFLA aims to “assist adults in attaining a
+secondary school diploma and in the transition to postsecondary education and
+training”); 4-25 ¶ 16 (“AEFLA funds education benefits below the postsecondary level
+for students who lack a secondary-school education.”). And again, such an expansive
+reading of the residual phrase would render the term “postsecondary” useless. Cf.
+
+43
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 44 of 60 PageID #:
+
+532 U.S. at 114.
+Perkins V is a closer call. Congress expressly designated it to cover both
+“secondary” and “postsecondary” programs.
+
+20 U.S.C. § 2301.
+
+“Postsecondary”
+
+programs are covered by PRWORA under § 1611(c)(1)(B). That leaves “secondary”
+programs. ED seems to recognize that when Perkins V programs are “provided to
+minors in the secondary school setting,” they are exempt from PRWORA under the
+
+Plyler rule. The harder question, then, is when they are secondary-level programs
+but do not otherwise satisfy that test. But the test itself is not in the statute, so it
+should get little weight.
+And either way, as ED acknowledged in its Notice, Perkins V did not “create a
+test for eligibility,” 90 Fed. Reg. at 30,900, so it is hard to say that it confers a federal
+public benefit upon an “individual” “eligibility unit” as the Court interpreted the
+statute above.
+The Court thus holds that including WIOA II and Perkins V’s nonpostsecondary programs under PRWORA is contrary to law, because it finds no
+support in the statute.
+c.
+
+DOL Notice
+
+Finally, the States argue that the DOL’s decision to designate “all participantlevel services” as subject to PRWORA is contrary to law. The States attack what they
+see as the DOL’s “spare” justification in favor of PRWORA covering all participantlevel services, largely appealing to the “overall goal” of the program being “to move
+participants into gainful employment.” (ECF No. 2 at 79–80 (quoting ECF No. 4-4
+
+44
+
+Case 1:25-cv-00345-MSM-PAS
+
+at 2–3)).
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 45 of 60 PageID #:
+
+The States highlight other minor issues, too, like DOL’s inclusion of
+
+secondary-level education services and programs about information, referral, and
+assistance in completing paperwork. (ECF No. 2 at 80–81.)
+The Government responds that the States misapprehend what “participantlevel” services actually are. These services include “comprehensive and specialized
+assessments, development of individual employment plans, group counseling,
+individual
+
+counseling,
+
+career
+
+planning,
+
+short-term
+
+prevocational
+
+services,
+
+internships and work experiences, workforce preparation activities, financial literacy
+services, out-of-area job search and relocation assistance, English-language
+acquisition and integrated education and training programs, and certain incumbent
+worker training.” ECF No. 48 at 33; see also ECF No. 48-6 ¶ 5. The Government
+argues that these are benefits listed in 8 U.S.C. § 1611(c)(1)(B) because they are
+similar to “postsecondary education.” (ECF No. 48 at 33–34.) And the Government
+argues that the States’ argument about informational paperwork is incorrect, because
+these “light-touch and self-services” are for “reportable individuals,” rather than
+“participants.” Id. at 34.
+The DOL Notice presents a much closer call than either the HHS or ED
+Notices. It may be that the Government has the better argument with respect to
+“light-touch services” based on a fair reading of the 2024 Guidance Letter. (ECF No.
+4-7.) However, the States may well have the better argument that the language “all
+participant-level services are ‘federal public benefits’ under PRWORA, because they
+are the same or similar as benefits listed in PRWORA” sweeps too broadly and
+
+45
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 46 of 60 PageID #:
+
+includes programs specifically exempted by the statute such as those provided in a
+secondary school setting. That reading of the statute is contradicted by the clear text.
+The Court, reviewing the Notice as a whole may well find that in its broad language
+it is contrary to law. At this stage the States have made a sufficient showing that the
+DOL Notice is likely contrary to law. And, because the States need only show a
+likelihood of success on the merits on one of their claims to prevail at this stage, the
+Court need not address the specifics of the impacts of the DOL notice at this stage.
+D.
+
+Count IV: Spending Clause
+
+By now, the States have more than made the requisite showing under this
+prong of the preliminary injunction analysis, because they have shown that three of
+their claims will likely be successful. See Woonasquatucket, 778 F. Supp. 3d at 461;
+
+Worthley, 652 F. Supp. 3d at 215 (collecting cases). But because their only claim
+against the DOJ is Count IV, a constitutional claim grounded in the Spending Clause,
+the Court proceeds to consider that claim.
+The Spending Clause provides that “[t]he Congress shall have Power to . . .
+provide for the general Welfare of the United States.” U.S. Const. art. I, § 8, cl. 1.
+Under the Spending Clause, Congress may “attach conditions on the receipt of federal
+funds.” South Dakota v. Dole, 483 U.S. 203, 206 (1987). But “[t]he spending power
+is of course not unlimited.” Id. at 207. Conditions attached to federal spending are
+“much in the nature of a contract,” and States must be able to “voluntarily and
+knowingly accept[] the terms” without undue “coercion” from the federal government.
+
+Nat’l Fed. of Indep. Bus. v. Sebelius (“NFIB”), 567 U.S. 519, 577 (2012) (plurality
+
+46
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 47 of 60 PageID #:
+
+opinion) (quoting Barnes v. Gorman, 536 U.S. 181, 186 (2002)).
+More specifically, the government must provide states “clear notice” of the
+terms of their grants and may not “surprise[e] participating States with post
+acceptance or ‘retroactive’ conditions.” Pennhurst State Sch. & Hosp., 451 U.S. 1, 25
+(1981). Second, the “financial inducement” must not be “impermissibly coercive.”
+
+NFIB, 567 U.S. at 580. These limits constrain Congress when it enacts spending
+legislation, id., and they apply as well to federal agencies when adopting or enforcing
+spending conditions, see, e.g., New York v. U.S. Dep’t of Health & Human Servs., 414
+F. Supp. 3d 475, 572 (S.D.N.Y. 2019).
+The States challenge the PRWORA Notices under the Spending Clause,
+arguing that they (1) impermissibly impose retroactive conditions that were
+unforeseeable at the time the States accepted federal funding, and (2) are
+unconstitutionally coercive because of the severe financial pressure to comply. The
+Government responds that the statute’s conditions were ascertainable from its text
+when enacted and that the Notices merely implement those terms without coercion.
+a. Retroactive Conditions
+The Spending Clause allows Congress to attach conditions to federal funds but
+requires that states receive clear notice at the time they accept funding.
+
+See
+
+Pennhurst, 451 U.S. at 25. Here, when the States accepted funding, the governing
+agencies had publicly adopted interpretations exempting many programs from
+PRWORA. By abruptly revoking these exemptions—including for programs such as
+emergency shelters, the 988 crisis line, and domestic violence services—and directing
+
+47
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 48 of 60 PageID #:
+
+compliance within thirty days, the Notices upset decades of reliance. The States were
+not afforded a genuine choice to accept or reject the new conditions. This constitutes
+the type of post-acceptance change that Pennhurst forbids.
+a. Coercion
+The Notices implicate programs central to state social-service systems—Head
+Start, health centers, WIOA training, foster care, and others. For many of these,
+compliance would require significant restructuring, new verification regimes, and
+operational overhauls. The scale of threatened loss leaves States with no real option
+but to comply. Unlike the “mild encouragement” upheld in Dole, 483 U.S. at 212, the
+Notices effectively compel States to accept conditions under threat of dismantling
+essential programs.
+In all, because the PRWORA Notices failed to provide clear notice and imposed
+conditions that function as coercive ultimatums, the States have demonstrated a
+likelihood of success on the merits of their Spending Clause claim.
+E.
+
+Irreparable Harm
+
+Still, likelihood of success on the merits is necessary but not sufficient for a
+preliminary injunction. Proof of irreparable harm “constitutes a necessary threshold
+showing,” too. Charlesbank Equity Fund II v. Blinds To Go, Inc., 370 F.3d 151, 162
+(1st Cir. 2004). “The burden of demonstrating that a denial of interim relief is likely
+to cause irreparable harm rests squarely upon the movant.”
+
+Id. “A finding of
+
+irreparable harm must be grounded on something more than conjecture, surmise, or
+a party’s unsubstantiated fears of what the future may have in store.” Id. It “most
+
+48
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 49 of 60 PageID #:
+
+often exists where a party has no adequate remedy at law.” Id. Put differently, “the
+necessary concomitant of irreparable harm is the inadequacy of traditional legal
+remedies. The two are flip sides of the same coin: if money damages will fully
+alleviate harm, then the harm cannot be said to be irreparable.” K-Mart Corp. v.
+
+Oriental Plaza, Inc., 875 F.2d 907, 914 (1st Cir. 1989). And the Court has “broad
+discretion to evaluate the irreparability of alleged harm and to make determinations
+regarding the propriety of injunctive relief.” Id.
+The States argue that absent judicial action, they stand to suffer immediate,
+irreparable harm through both proprietary injuries and harm to their sovereign
+interests. (ECF No. 2 at 87.) The Government responds that the States’ injuries are
+not irreparable and instead are merely “speculative injuries that may never
+materialize.” (ECF No. 48 at 42.)
+The Court sees four main types of irreparable harm: (1) harm arising from the
+incompatibility between verification requirements and emergency services; (2) harm
+arising to the individuals whose access to programs are cut-off based on an unlawful
+expansion of PRWORA; (3) harm arising from the immediate nature of the Notices;
+(4) harm arising from the costs of compliance. Each is sufficient.
+First, the States make a compelling argument that the PRWORA verification
+program is not fundamentally compatible with the emergency services offered by
+many of the now-covered programs, constituting a form of irreparable harm. Recall,
+for instance, the declarations cited at the start of the opinion. See ECF No. 4-46 ¶ 38
+(“Worse still, the population served primarily by PATH funding, which includes a
+
+49
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 50 of 60 PageID #:
+
+significant portion of unhoused individuals (including veterans, victims of domestic
+violence, and individuals with chronic health disorders), are highly unlikely to have
+access to documentation now necessary to prove their eligibility as of July 14, 2025.”);
+No. 4-55 ¶ 14 (“People going to access a soup kitchen or a food bank would have to
+produce I.D. to get inside, regardless of immigration status. The result is that fewer
+people will get critical anti-poverty resources due to immigrant communities avoiding
+services but also because, generally, people living in poverty may at times lack
+government identification.”); No. 4-71 ¶¶ 26–30 (explaining similar problems for
+emergency mental health crisis programs).
+
+These are only some of the many
+
+declarations provided showing how verification regimes do not comport well with the
+emergency services that the States provide.
+The “new obstacles” that PRWORA verification puts between the States’
+programs and their constituents are a well-established irreparable harm. League of
+
+Women Voters of United States v. Newby, 838 F.3d 1, 9 (D.C. Cir. 2016) (“Because,
+as a result of the Newby Decisions, those new obstacles unquestionably make it more
+difficult for the Leagues to accomplish their primary mission of registering voters,
+they provide injury for purposes . . . [of] irreparable harm.”); Woonasquatucket, 778
+F. Supp. 3d at 475 (finding illegal funding freeze caused irreparable harm when it
+caused work stoppages and indefinitely delayed progress for grantees); see also
+
+California v. Dep’t of Transp., No. 25-cv-208-JJM-PAS, 2025 WL 1711531, at *3
+(finding irreparable harm when states “face losing billions of dollars in federal
+funding, are being put in a position of relinquishing their sovereign right to decide
+
+50
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 51 of 60 PageID #:
+
+how to use their own police officers, are at risk of losing the trust built between local
+law enforcement and immigrant communities, and will have to scale back, reconsider,
+or cancel ongoing transportation projects”).
+Second, the nature of the constituents’ crises is worth highlighting. In life-ordeath
+
+scenarios—times
+
+of
+
+crisis,
+
+when
+
+someone
+
+faces
+
+domestic
+
+violence,
+
+homelessness, or a mental health crisis—it practically goes without saying that
+“there can be no do over and no redress” if services are unlawfully denied and someone
+suffers for it. Newby, 838 F.3d at 9. That of course constitutes irreparable harm.
+
+Woonasquatucket offers a helpful comparison here. This Court previously
+held, for instance, that damage to “irreparable giant sequoia trees” based on funding
+delays for a project to mitigate bark-beetle attacks was a form of irreparable harm
+for a similar reason: that “there can be no do over and no redress” if a valuable tree
+were lost because of the downstream effects of an illegal funding freeze. 778 F. Supp.
+3d at 475. The case for irreparable harm is all the clearer here. Rather than trees,
+human lives that the States have deemed worthy of protection are at stake. The
+State’s interest here is important. See Dobbs v. Jackson Women’s Health Org., 597
+U.S. 215, 256 (2022) (reversing Roe v. Wade in part because “the people of the various
+States” are best positioned to make decisions about what defines life and how to
+protect it).
+Third, the confusion and chaos imposed by an overnight change to a thirtyyear-old interpretation of a law, as well as the resulting change in plans that comes
+from it, is a form of irreparable harm. See, e.g., ECF No. 4-44 ¶ 14 (explaining that
+
+51
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 52 of 60 PageID #:
+
+immediate compliance “is certainly not feasible” and instead requires “many months
+of preparation, potentially a year or more, due to the extensive planning, guidance
+development, communication to Perkins V grantees, and the time required for their
+responsive actions”); ECF No. 4-41 ¶ 8 (explaining that implementing changes “will
+take at a minimum nine months and cost an untold amount of funding and staffing
+hours,” and explaining that, while making those changes, the program “runs the risk
+of being found in noncompliance . . . risking reimbursement for drawdown requests
+and future federal funding). The Court notes that the rapidity of the change here is
+in stark contrast to the two years that Congress provided to establish initial
+verification systems, back in 1997. 8 U.S.C. § 1642(b) (“Not later than 24 months
+after the date the regulations described in subsection (a) are adopted, a State that
+administers a program that provides a Federal public benefit shall have in effect a
+verification system that complies with the regulations.”).
+And confusion aside, these compliance costs are, indeed, costly—a fourth form
+of irreparable harm. HHS itself recognizes that compliance costs (dubbed “transition
+costs”) will range “from about $115 million to $175 million. (ECF No. 4-5 at 15–16.)
+At least one federal circuit court has recognized irreparable harm in similar
+circumstances. New York v. United States Dep’t of Homeland Sec., 969 F.3d 42, 86
+(2d Cir. 2020) (finding irreparable harm where states alleged they were “required to
+undertake costly revisions to their eligibility systems to ensure that non-citizens are
+not automatically made eligible for or enrolled in benefits they may no longer wish to
+receive after the Rule’s implementation””).
+
+52
+
+And because “money damages are
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 53 of 60 PageID #:
+
+prohibited in APA actions,” these compliance costs really are irreparable. Id.
+The
+
+Government’s
+
+unconvincing.
+
+arguments
+
+about
+
+non-enforcement
+
+are
+
+largely
+
+The Notices take effect immediately, and the Government has
+
+explained that it maintains the authority to enforce them against the States starting
+on September 11, 2025 (absent injunctive relief). Given the “unequivocal position” of
+the Government that PRWORA now covers a host of new programs, the Court “cannot
+see why” the States “should be forced to sit like Damocles while the Government
+draws out” any subsequent enforcement measures. Rosen, 986 F.3d at 53. 7 And
+either way, even the threat of enforcement and the uncertainty that stems from that
+threat is likely sufficient here. See, e.g., City & Cnty. of San Francisco v. Trump,
+No. 25-CV-01350-WHO, 2025 WL 1282637, at *24 (N.D. Cal. May 3, 2025) (finding
+irreparable harm where “governing bodies face looming budget deadlines without
+knowing whether they will receive reimbursements for funds already expended in the
+last fiscal year, much less whether they will be able to rely on federal funds in the
+next”).
+F.
+
+Balance of the Equities and the Public Interest
+
+Finally, the Court must weigh the equities and the public interest. It “must
+balance the competing claims of injury and must consider the effect on each party of
+the granting or withholding of the requested relief,” and it “should pay particular
+
+The above language from Rosen is related to the First Circuit’s discussion of
+ripeness, rather than irreparable harm. 986 F.3d at 52–53. But because the
+Government’s arguments about the speculative nature of the harm largely sound in
+ripeness, Rosen remains instructive.
+7
+
+53
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 54 of 60 PageID #:
+
+regard for the public consequences in employing the extraordinary remedy of
+injunction.” Winter v. Nat. Res. Def. Council, Inc., 555 U.S. 7, 24 (2008).
+The Court digresses briefly to address how important balancing the equities
+is. Though commentators have observed that “there is usually no balancing” these
+days, see Samuel Bray, The Purpose of the Preliminary Injunction, 78 Vand. L. Rev.
+809, 831 (2025), the equities have indeed proven decisive in important cases recently.
+
+See, e.g., NetChoice, LLC v. Fitch, 606 U.S. ___, slip op. at 2, (2025) (Kavanaugh, J.,
+concurring in the denial of the application to vacate stay) (explaining that although
+a law is “likely unconstitutional,” a stay should remain in place “because NetChoice
+has not sufficiently demonstrated that the balance of harms and equities favors”
+emergency relief”); Rhode Island Latino Arts v. Nat’l Endowment for the Arts, 777 F.
+Supp. 3d 87, 112 (D.R.I. 2025) (“Although Plaintiffs can show a substantial likelihood
+of success on the merits of their (not moot) eligibility-bar claim, the balance of the
+equities and public interest weigh heavily against preliminary injunctive relief, at
+this time.”).
+How, exactly, the equities should be weighed, though, is a different—and
+open—question. See, e.g., Labrador v. Poe, 144 S. Ct. 921, 929 (2024) (Kavanaugh,
+J., concurring) (“But not infrequently—especially with important new laws—the
+harms and equities are very weighty on both sides. Courts historically have relied on
+likelihood of success as a factor because, if the harms and equities are sufficiently
+weighty on both sides, the best and fairest way to decide whether to temporarily
+enjoin a law pending the final decision is to evaluate which party is most likely to
+
+54
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 55 of 60 PageID #:
+
+prevail in the end.”)).
+To be sure, there is an occasional “rare case where the balance of the harms
+and equities plus the public interest caution against” a preliminary injunction, even
+if the plaintiff has demonstrated a likelihood of success on the merits. 777 F. Supp.
+3d at 99. But this is not one of them.
+On one side of the ledger, the States argue that they seek “to preserve the
+status quo as it existed for nearly three decades before the PRWORA Notices upended
+longstanding practice, immediately and with no opportunity for public input.” (ECF
+No. 2 at 91.) Without an injunction, the Notices will “have a tremendous impact on
+States’ social service programs and safety net, jeopardize billions of dollars States
+rely on, and cause immense harm to the individuals and communities that rely on
+these programs.” Id.
+On the other side of the ledger, the Government argues that the injunction
+would “disrupt the agencies’ efforts” to comply with an Executive Order and “to
+correctly interpret PRWORA’s plain text consistent with the statutory purpose.”
+(ECF No. 48 at 46.) The injunction would, in the Government’s view, “effectively
+disable several federal agencies, as well as the President himself, from implementing”
+his priorities. Id.
+The States have the better of the argument. The Government’s “equities”
+argument largely binds itself up with the merits, because the thrust of it is that the
+Government should be entitled to enforce its correct interpretation of the law. (ECF
+No. 48 at 46.) But that argument begs a question that the Court already answered.
+
+55
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 56 of 60 PageID #:
+
+As the Court already held, the Notices likely did not interpret the law correctly. Why,
+then, should the Government be entitled to enforce that interpretation? The States’
+“high likelihood of success on the merits is a strong indicator that a preliminary
+injunction would serve the public interest,” especially given that there “is generally
+no public interest in the perpetuation of unlawful agency action” while there is a
+“substantial public interest in having governmental agencies abide by the federal
+laws that govern their existence and operations.” Newby, 838 F.3d at 12 (cleaned up)
+(collecting cases).
+Of course, there are also competing claims of dollars at stake here: either the
+Government gives money to states without imposing the new PRWORA requirements
+that it seeks, or the States spend significant amounts of their own money to come into
+compliance with the new (and flawed) interpretation of PRWORA. As between the
+two, the Court believes that the balance of the equities and the public interest favors
+maintaining the status quo before the Notices. Avoiding compliance costs based on a
+likely unlawful reading of the statute makes more sense.
+G.
+
+Scope of the Remedy
+
+Having decided that the States have made the requisite showing under the
+four-factor test for a preliminary injunction, the Court must next decide the
+injunction’s scope.
+The Government argues that relief should be “narrowly tailored” in two ways:
+first, “to the Plaintiff States who have met their burden of establishing irreparable
+harm,” and for those states, “to relief from the agency notices for which they have met
+
+56
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 57 of 60 PageID #:
+
+this burden.” (ECF No. 48 at 47.) For example, the Government suggests that
+Arizona should be exempt because it “did not submit declarations to demonstrate
+irreparable harm resulting from” the ED, HHS, and DOL Notices.” Id. Likewise, it
+says that Connecticut, Minnesota, and Wisconsin should not be exempted from the
+ED notices, because they “only submitted declarations alleging irreparable harm
+caused by the HHS notice.” Id. And, in the Government’s view, there should be no
+relief as to Nevada and Hawaii because these States submitted “no evidence
+regarding their asserted harms from the challenged notices.” Id.
+What the Government casts as narrow tailoring should better be understand
+as gerrymandering. The Court declines to complicate things further, especially given
+that the States have demonstrated that they deserve a preliminary injunction based
+on the four factors. For one, it is this Court’s “duty—and its prerogative—to assess
+the facts, draw whatever reasonable inferences it might favor, and decide the likely
+ramifications.” Weaver v. Henderson, 984 F.2d 11, 14 (1st Cir. 1993). The extensive
+record that the States have already produced—more than sixty declarations and
+hundreds of pages—shows the obvious effects of the unlawful Notices.
+
+It is
+
+reasonable to infer that similar harms will flow from each Notice across each state,
+based on the extensive record already provided. With the addition of Nevada and
+Hawaii’s declarations, each state has indeed shown irreparable harm. (ECF No. 551, No. 55-2.) To instead write a complicated injunction that prohibits (just by way of
+hypothetical) the DOL and HHS Notices in Connecticut, but the ED, DOL, and HHS
+Notice in Rhode Island, but just the HHS Notice in New York (and on and on for
+
+57
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 58 of 60 PageID #:
+
+seventeen more states), would be unnecessary.
+The Government’s references to Trump v. CASA Inc. are likewise irrelevant.
+(ECF No. 48 at 47.) For one, CASA expressly declined to evaluate relief under the
+APA. 145 S. Ct. 2540, 2554 n.10 (2025) (“Nothing we say today resolves the distinct
+question whether the Administrative Procedure Act authorizes federal courts to
+vacate federal agency action. See 5 U.S.C. § 706(2) (authorizing courts to ‘hold
+unlawful and set aside agency action’).”) Anyway, the relief here is limited to the
+Plaintiff States, well-within the more general principles undergirding CASA Inc., 145
+S. Ct. at 2548 (“Traditionally, courts issued injunctions prohibiting executive officials
+from enforcing a challenged law or policy only against the plaintiffs in the lawsuit.”)
+H.
+
+Bond
+
+Federal Rule of Civil Procedure 65(c) states that the court may issue a TRO or
+preliminary injunction “only if the movant gives security in an amount that the court
+considers proper to pay the costs and damages sustained by any party found to have
+been wrongfully enjoined or restrained.” The Government asks the Court to require
+the States to post “an appropriate bond commensurate with the scope of any such
+order.” (ECF No. 48 at 48.) The Court declines.
+Rule 65(c) “has been read to vest broad discretion in the district court to
+determine the appropriate amount of an injunction bond,” DSE, Inc. v. United States,
+169 F.3d 21, 33 (D.C. Cir. 1999), “including the discretion to require no bond at all,”
+
+P.J.E.S. ex rel. Escobar Francisco v. Wolf, 502 F. Supp. 3d 492, 520 (D.D.C. 2020)
+(internal quotation omitted). A bond “is not necessary where requiring [one] would
+
+58
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 59 of 60 PageID #:
+
+have the effect of denying the plaintiffs their right to judicial review of administrative
+action.” Nat. Res. Def. Council, Inc. v. Morton, 337 F. Supp. 167, 168 (D.D.C. 1971)
+(collecting cases); Woonasquatucket, 778 F. Supp. 3d 440, 477 (D.R.I. 2025) (declining
+to impose bond); cf. Nat’l Ass’n of Diversity Officers in Higher Educ. v. Trump, No. 25CV-333, 2025 WL 573764, at *30 (D. Md. Feb. 21, 2025) (setting a nominal bond of
+zero dollars because granting the defendants’ request “would essentially forestall
+[the] [p]laintiffs’ access to judicial review”).
+I.
+
+Stay
+
+The Government also requests a seven-day stay. (ECF No. 48 at 48–49.) The
+Court declines.
+IV.
+
+ORDER
+
+Upon consideration of the Plaintiff States’ Motion for a Preliminary Injunction
+(ECF No. 2), it is hereby:
+1. ORDERED that the Plaintiff States’ Motion for a Preliminary Injunction
+(ECF No. 2) is GRANTED; it is further
+2. ORDERED that Defendants, their employees, and anyone acting in concert
+with them, are and until further order of this Court shall remain
+ENJOINED from enforcing or implementing in the Plaintiff States:
+a. 90 Fed. Reg. 32,025 (July 16, 2025) (“DOJ PRWORA Notice”);
+b. 90 Fed. Reg. 31,232 (July 14, 2025) (“HHS PRWORA Notice”);
+c. 90 Fed. Reg. 30,896 (July 11, 2025) (“ED PRWORA Notice”); and
+d. Training and Employment Guidance Letter No. 10-23, Change 2
+
+59
+
+Case 1:25-cv-00345-MSM-PAS
+
+Document 64 Filed 09/10/25
+<pageID>
+
+Page 60 of 60 PageID #:
+
+(“DOL PRWORA Notice”); it is further
+3. ORDERED that this Order shall apply to the maximum extent provided for
+by Federal Rule of Civil Procedure 65(d)(2) and 5 U.S.C. §§ 705 and 706; it
+is further
+4. ORDERED that Defendants shall provide notice of this Order within 72
+hours of entry to all Defendants, their employees, and anyone acting in
+concert with them. Defendants shall file a copy of the notice on the docket
+within 72 hours of its dissemination; it is further
+5. ORDERED that this Order shall become effective immediately upon entry
+by this Court.
+IT IS SO ORDERED.
+
+_________________________________
+Mary S. McElroy,
+United States District Judge
+September 10, 2025
+
+60
+
+
