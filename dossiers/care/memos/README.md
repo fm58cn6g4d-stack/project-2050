@@ -1,6 +1,10 @@
-# Care decision memos (health part): the batch
+# Care decision memos: the batches
 
-Role: the one set of health decisions for Espen, sent together so they could be decided in one round (`../3-design.md`). Status: decided. Espen answered the batch on November 10, 2026 (`DEC-2026-11-10-09`). Two questions were reopened and answered after the comparison with S. 1506 (`../research-s1506-comparison.md`; `DEC-2026-11-10-11`). Two follow-ups were then decided: private coverage and ownership (`DEC-2026-11-10-12`) and the hospital transition fund (`DEC-2026-11-10-13`).
+Role: the care dossier's decision memos, one batch per part, each sent together so it can be decided in one round. Status: part A (health, memos 1-5) decided; part B (care at home, memos 6-9) for Espen.
+
+## Part A: health (decided)
+
+The health batch (`../3-design.md`) is decided. Espen answered the batch on November 10, 2026 (`DEC-2026-11-10-09`). Two questions were reopened and answered after the comparison with S. 1506 (`../research-s1506-comparison.md`; `DEC-2026-11-10-11`). Two follow-ups were then decided: private coverage and ownership (`DEC-2026-11-10-12`) and the hospital transition fund (`DEC-2026-11-10-13`).
 
 | Memo | Question | Decided |
 | --- | --- | --- |
@@ -11,3 +15,14 @@ Role: the one set of health decisions for Espen, sent together so they could be 
 | [5](5-provider-payment.md) | What the plan pays providers | B: a five-year glide to about 1.15 times Medicare, global budgets for rural and safety-net hospitals, the Medicare Advantage fix (`-09`); a capped hospital transition fund (`-13`); ownership kept with guardrails, no duplicative coverage at the endpoint (`-12`) |
 
 `../3-design.md` also has seven yes-or-no points, all decided yes, with point 6 as option (b) (`-09`). The VA, TRICARE and the Indian Health Service continue alongside the plan (`-11`). The specification is `../4-specification.md`.
+
+## Part B: care at home for all ages (the batch, for Espen)
+
+Status: **for Espen, not decided.** Sent together so they can be decided in one round (`../3b-design-home-care.md`). Each memo is decided on its own; `../3b-design-home-care.md` also has ten yes-or-no points.
+
+| Memo | Question | Recommended |
+| --- | --- | --- |
+| [6](6-home-care-guarantee.md) | How care at home is guaranteed: a stronger Medicaid, a home and community care benefit in the single plan, or catastrophic insurance | B: an all-age home and community care benefit in the single plan from January 1, 2035, no asset test, with a Medicaid bridge in 2030-34 |
+| [7](7-benefit-scope.md) | Who qualifies and how much the benefit covers | Part 1 A: help with two daily activities or the equivalent; part 2 B: set budgets by need tier, indexed, with the top tier at nursing-home level |
+| [8](8-institutional-care.md) | Nursing homes and other institutional care | C: the plan pays the care part from 2035; residents pay room and board from income above a protected allowance; B's protections in the bridge |
+| [9](9-family-caregivers.md) | Family caregivers | A: paid through self-direction at the benefit's rates, spouses and parents included, with respite and training |

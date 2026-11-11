@@ -1,6 +1,6 @@
 # Dossier: Care you can count on (flagship 2)
 
-Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D. Level: the health rows HLT-1, 2, 6, 7, 8, A1, A2 and A4 are at L3 in `agenda/agenda.csv` after the milestone review (`review-milestone.md`), its fixes (#225-#228) and the L3 re-check on the close-out PR; RTS-2 is at L3 since Espen settled its foreign-assistance scope (`DEC-2026-11-11-01`: the Helms amendment ends too); HLT-3, HLT-5 and HLT-A3 are alternatives; the other care items are at L1 (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
+Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D; part B (care at home) sections 1-3 drafted, its memo set (memos 6-9) for Espen. Level: the health rows HLT-1, 2, 6, 7, 8, A1, A2 and A4 are at L3 in `agenda/agenda.csv` after the milestone review (`review-milestone.md`), its fixes (#225-#228) and the L3 re-check on the close-out PR; RTS-2 is at L3 since Espen settled its foreign-assistance scope (`DEC-2026-11-11-01`: the Helms amendment ends too); HLT-3, HLT-5 and HLT-A3 are alternatives; the other care items are at L1 (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
 
 **What it brings together** (`charter/PLAN.md` 3.1):
 - health coverage restored and extended, by single-payer Medicare for All, a public option or a staged path between them, weighed in full (`DEC-2026-11-09-07`; the charter wording is #195, for Espen);
@@ -33,18 +33,23 @@ Health comes first, because its choice (single-payer, a public option or a stage
 | | 8. What would change our minds: `8-change-our-minds.md`. Triggers by choice, political and legal events (the rules reform; the states' payment and coercion), hard stops | Draft (step 4, PR 2) |
 | | 9. The public case: `9-public-case.md`. Brief, messages, hard questions, can say / can't say, source table; only from sections 1-8 | Draft (step 4, PR 2) |
 | | Health milestone review: `review-milestone.md` (#224). L2 passes; L3 after the fix steps (states' payment, territories, fiscal-year basis, section 9, delivery and record fixes) and a short re-check | Fix steps in progress |
-| **B. Care at home for all ages** | 1-3, building on health's choice; the legacy long-term-care direction of October 26 (an all-age home-support benefit) is weighed as an option; meets housing's aging-in-place work (`dossiers/home/memos/12-aging-in-place.md`) and shared rule 7 | Later |
+| **B. Care at home for all ages** | 1. The problem: `1b-problem-home-care.md`. Who needs help and for how long (all ages; half of Medicaid home-care users are under 65), who pays, waiting lists, family caregivers, the workforce, and the January 2029 baseline (the 2025 law's long-term care provisions, Money Follows the Person's expiry, the 2024 access rule at risk) | Draft (stage D, step 5) |
+| | 2. What works: `2b-what-works-home-care.md`. Home against institutional care and what expansion costs; Medicaid's tools (waivers, Community First Choice, ARPA sec. 9817, Money Follows the Person, self-direction, PACE); CLASS and WA Cares; Germany, Japan, the Netherlands and the Nordic countries; failures to avoid | Draft (step 5) |
+| | 3. Design choices: `3b-design-home-care.md` and four memos (6 the guarantee: stronger Medicaid, a home and community care benefit in the single plan, or catastrophic insurance; 7 who qualifies and how much; 8 nursing homes; 9 family caregivers), plus ten yes-or-no points (the 2030-34 bridge, Money Follows the Person, estate recovery, resource limits, tenancy services under rule 7, CAPABLE, reporting in law, one assessment, PACE, the staffing moratorium left to part D). One batched set for Espen; each decided on its own | For Espen (step 5) |
 | **C. Child care and pre-K** | 1-3 (FAM-2 and its options) | Later |
 | **D. The care workforce** | 1-3, across health, home care and child care; meets shared rule 8 | Later |
 
 Sections 4-9 are written once per dossier where the parts can share them, or per part where they can't; the choice is made when part B starts.
 
+**Layout for parts B to D (chosen when part B started, November 11, 2026).** Each later part gets its own numbered files with a letter: `1b-problem-home-care.md`, `2b-what-works-home-care.md`, `3b-design-home-care.md`, and later `1c-`, `1d-` and so on, with memos numbered on from health's (part B's are 6-9). *Why:* health's sections 1-9 are decided and at L3. Adding part B inside them would put draft text under status lines that say decided, and every later edit would risk the reviewed health text. Separate files keep each part's status honest, let each part be reviewed on its own, and keep health's files stable. Sections 4-9 for part B are a separate choice, made when part B's memos are decided: part B's provisions belong inside health's bill (the home benefit is a title of the Medicare for All Act of 2029), so its section 4 rows will likely join `4-specification.md` and `provisions.json` under new HLT-9 IDs, while its delivery, cost and public case may need their own `5b-` to `9b-` files.
+
 ## Files
 
 - `1-problem.md`, `2-what-works.md` (health, sections 1-2).
-- `evidence.json`: EV-CAR-001 to 050 (the 2029 baseline), 100 to 141 (the problem), 200 to 268 (what works), 270 to 316 (the S. 1506 comparison), 330 to 350 (sections 4-6). Sources SRC-3000 to 3399 are reserved for care.
+- `evidence.json`: EV-CAR-001 to 050 (the 2029 baseline), 100 to 141 (the problem), 200 to 268 (what works), 270 to 316 (the S. 1506 comparison), 330 to 350 (sections 4-6), 400 to 451 (part B, sections 1-3). Sources SRC-3000 to 3399 are reserved for care.
 - `3-design.md` and `memos/1-architecture.md` to `5-provider-payment.md` (health, section 3).
 - `4-specification.md`, `provisions.json`, `5-delivery.md`, `6-cost.md`, `7-validation.md`, `8-change-our-minds.md`, `9-public-case.md` (health, sections 4-9); `tools/health_path.py` prices the decided path on the coverage model. Evidence EV-CAR-330 to 350 (sources SRC-3281 to 3295) back them.
+- `1b-problem-home-care.md`, `2b-what-works-home-care.md`, `3b-design-home-care.md` and `memos/6-home-care-guarantee.md` to `9-family-caregivers.md` (part B, sections 1-3). Evidence **EV-CAR-400 to 499 is reserved for part B's sections 1-3** (400 to 451 used); sources SRC-3313 to 3354 (23 saved federal texts and 19 citation rows). Care's source range ends at SRC-3399, so later parts may need a new reservation (`dossiers/TEMPLATE.md`, "Reserve ID ranges first").
 - `research-s1506-comparison.md` (stage D, step 3c): the design against the Medicare for All Act of 2025 (S. 1506, H.R. 3069), the employer wave re-examined, memo 3 confirmed; its arithmetic in `tools/employer_wave.py`. Evidence EV-CAR-270 to 316 (block 270-329 reserved for this note); sources SRC-3260 to 3280.
 
 ## Shared rules care is likely to own or touch
@@ -59,3 +64,4 @@ From `dossiers/shared-rules.md`; proposed in the design section, never overwritt
 
 1. **Health, section 3:** decided (`DEC-2026-11-10-09`, `-11`, `-12`).
 2. **Health, section 6, part 3:** the hospital transition fund, decided (`DEC-2026-11-10-13`).
+3. **Part B, care at home:** memos 6-9 and points 1-10 (`3b-design-home-care.md`, "Questions for Espen"); for Espen.
