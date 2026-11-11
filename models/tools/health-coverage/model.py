@@ -419,8 +419,9 @@ def assemble(I, B, cells, K, dK, gross, offsets, nhe_d, hh, X, extra=None):
 
 # ---------------------------------------------------------------- single payer
 def mcd_ltc(I):
-    """Medicaid long-term care in 2032 and its federal part ($ billion): CMS's 2024 Medicaid nursing-facility,
-    home-health and other residential and personal care lines (EV-CAR-460), grown with Medicaid."""
+    """Medicaid long-term care in 2032 and its federal part ($ billion): nhe_mcd_ltc (CRS's share of Medicaid personal
+    health care on CMS's 2024 figures, EV-CAR-462; CMS's three setting lines, EV-CAR-460, the high end), grown with
+    Medicaid."""
     ltc = I['nhe_mcd_ltc'] * (1 + I['nhe_g_medicaid']) ** NYEARS
     return ltc, ltc * I['nhe_mcd_ltc_fed_share']
 
