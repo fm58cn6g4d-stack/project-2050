@@ -93,7 +93,7 @@ def check_headlines():
             for name, val, fmt, pats, (lo, hi) in FACTS:
                 ctx = FACT_CONTEXT.get(name)
                 if ctx and not ctx.search(line): continue
-                if "quintile" in name and re.search(r"scenario Q-(?:EDU|C19|H5p|SAF)", line): continue   # a variant's figure
+                if "quintile" in name and re.search(r"scenario Q-(?:EDU|C19|H5p|H7|SAF)", line): continue   # a variant's figure
                 for p in pats:
                     for m in re.finditer(p, line):
                         x = parse_num(m.group(1))

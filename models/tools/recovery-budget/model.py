@@ -165,9 +165,9 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
     sr=u.run_ss(ss_paths)
     # Internal HI grant: improves that account, never consolidated external resources.
     his=u.HIS
-    hi_fraction=(.5+.7*(st['hi_health_savings_fraction'] if stress else 1))/1.2
+    hlt6_fraction=st['hi_health_savings_fraction'] if stress else 1
     hp=A['hi']; grant_rate=lambda y:hp['gf_support_payroll_points']*phase(y,hp['start'],hp['phase_years'])
-    u.HIS=lambda y:his(y)*hi_fraction+grant_rate(y)
+    u.HIS=lambda y:u.HIS_H1A(y)+u.HIS_HLT6(y)*hlt6_fraction+grant_rate(y)
     try: hr=u.run_hi(True,administration=lambda y:100*fund_dollars(y,'hi')/u.hi_payroll(y))
     finally: u.HIS=his
     hi_ratios=[r['reserve']/(r['cost']/100*u.hi_payroll(r['year'])) for r in hr['rows']]
@@ -244,9 +244,8 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         wage_ss=max(0,u.SSF['SS-1'](y)[0]+ss['broad_rate_points']*phase(y,ss['start'],ss['phase_years']))/100*u.payroll(y)*factor
         ss_offset=wage_ss*ss['income_tax_offset_fraction']
         entry('SS actual 2031 start, high-base package and later rate',revenue=si-ss_offset,outlay=so)
-        hi_amount=his(y)/100*u.hi_payroll(y)*factor
-        hi_tax=hi_amount*.5/1.2
-        hi_saving=hi_amount*.7/1.2*(st['hi_health_savings_fraction'] if stress else 1)
+        hi_tax=u.HIS_H1A(y)/100*u.hi_payroll(y)*factor
+        hi_saving=u.HIS_HLT6(y)/100*u.hi_payroll(y)*factor*(st['hi_health_savings_fraction'] if stress else 1)
         hi_grant=grant_rate(y)/100*u.hi_payroll(y)*factor
         entry('HI H1a and Part A HLT-6 share',revenue=hi_tax,outlay=-hi_saving)
         lv=leave.get(y,dict(receipts=0,benefits=0,administration=0,loan=0))

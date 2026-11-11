@@ -38,7 +38,7 @@ class RecoveryTests(unittest.TestCase):
         self.assertEqual(model.E['estate_receipts'],0)
         m=self.r['fiscal_scenarios'][0]; d=self.r['fiscal_scenarios'][1]
         self.assertAlmostEqual(d['gf_2030_39_primary_tn']-m['gf_2030_39_primary_tn'],self.r['delayed_middle_receipts_2030_39_tn'])
-        self.assertGreater(self.r['delayed_middle_receipts_2030_39_tn'],.39)
+        self.assertGreater(self.r['delayed_middle_receipts_2030_39_tn'],.30)   # $0.36T once C19b ends with the exclusion (care follow-up 2; was .39)
     def test_old_rate_fails_but_central_funded_cases_do_not(self):
         c=self.r['education_cases']
         self.assertEqual(c['source_1.4_immediate_no_estate']['first_negative_reserve'],2034)

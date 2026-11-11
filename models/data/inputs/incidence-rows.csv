@@ -20,7 +20,7 @@ package,C3,Methane fee (REV-C3),cost,[C3],energy,,ledger; full pass-through into
 package,MR,Moving America fuel steps and per-mile charge,cost,[MR1]+[MR2],gasoline,,ledger MR1+MR2
 package,MRc,"Moving America truck, rail and aviation charges",cost,[MR4]+[MR5],consumption,,ledger MR4+MR5
 package,PS1,"Safe Everywhere revenue title, durable sources (alcohol $0.07T, fraud assessment $0.012T, firearms and check fees $0.009T)",cost,0.091,alcohol 0.07; consumption 0.021,[PS1],ledger PS1; full pass-through
-package,PB,Part B premium increase (a quarter of HLT-2's new benefits),cost,0.3,partb,,estimate from go-big tab (~$18/month)
+package,PB,Part B premium increase for HLT-2's upgrades (the legacy ratio: 28% of HLT-2's cost),cost,0.28*[HLT-2],partb,,"estimate: legacy $0.30T on legacy HLT-2's $1.07T, scaled to the rebooked HLT-2 (care follow-up 2)"
 package,MA,MA plans' reduced extras after full capture (30% pass-through),cost,-0.3*[HLT-6],ma,,estimate: 30% of HLT-6's $1.25T
 package,EDU7,Scholarship tax credit repealed (EDU-7): donors lose the credit,cost,-[EDU-7],donors,,ledger EDU-7
 package,F1,Child Tax Credit (FAM-1),benefit,[FAM-1],ctc,,ledger
@@ -30,10 +30,13 @@ package,EDU,"Education formula funding and higher education (EDU-1, EDU-5)",bene
 package,EDU3,Universal school meals and Summer EBT (EDU-3),benefit,[EDU-3],meals,,ledger EDU-3
 package,EDU4,Educator pipeline (EDU-4),benefit,[EDU-4],education,,ledger EDU-4
 package,H1,Health restoration (HLT-1),benefit,[HLT-1],aca_medicaid,,ledger
-package,H2,"Medicare upgrades, gross of premiums (HLT-2)",benefit,[HLT-2]+0.30,medicare,,ledger 1.07 + premiums 0.30
+package,H2,"Medicare upgrades and no disability wait, gross of premiums (HLT-2)",benefit,1.28*[HLT-2],medicare,,ledger HLT-2 plus PB
 package,H3,Public option and cost-sharing help (HLT-3),benefit,[HLT-3],public_opt,,ledger
 package,H4,"Medicaid, long-term care, safety net (HLT-4)",benefit,[HLT-4],medicaid_ltc,,ledger
-package,H5p,Hospital and drug price caps: lower employer premiums passed to wages,benefit,0.5,employer_cov,,estimate (go-big tab ~6% premium cut; conservative)
+option,H7h,"Single plan (HLT-7): premiums and out-of-pocket costs households stop paying, less the plan's copays",benefit,11.729,health_hh,,"models/tools/health_booking.py incidence(): the coverage model's household cost less the plan's copays ($1,527B at 2032 full scale) on the fiscal-year path; cash flows only, not the value of new coverage to the uninsured"
+option,H7w,"Single plan (HLT-7): employer-paid premiums that become wages (full pass-through, HX's convention; no employer contribution booked)",benefit,11.872,employer_cov,,"models/tools/health_booking.py incidence(): employer premiums removed ($1,547B at 2032 full scale) on HX's moved-share path; at half pass-through about half of it"
+option,H7x,End of the employer tax exclusion (HX): tax on former premiums that become pay,cost,[HX],exclusion_end,,ledger HX; key from employer_cov and marginal rates (health_booking.py exclusion_key)
+package,H5p,"[Retired: memo 5 D not chosen, HLT-5 at $0] Hospital and drug price caps: lower employer premiums passed to wages; the single plan's wage pass-through is H7w",benefit,0,employer_cov,,retired with HLT-5 (care follow-up 2)
 package,F5,"Social Security minimum benefit and CPI-E (SS-3, SS-4)",benefit,[SS-1],ss_benefit,,ledger
 package,E2d,"Climate Dividend (CLI-2, 80%, per adult)",benefit,[CLI-2],adults,,ledger (durability path)
 package,E2t,Carbon transition share: low-income energy help (40% of $0.27T),benefit,0.4*0.2*[C1],low_income_energy,,estimate

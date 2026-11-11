@@ -178,15 +178,25 @@ HI_INC = {int(r["year"]): float(r["income_rate"]) for r in HI if r["income_rate"
 def hi_payroll(t): return payroll(t) * P["hi_payroll_ratio"]
 
 def hi_sources():
-    """REV-H1a and HLT-6's Part A share, spread over 2030-39 on a ramp, then held as a share of HI payroll."""
+    """HI's program sources, % of HI payroll: REV-H1a, spread over 2030-39 on a ramp and then held as a share of HI
+    payroll; and Part A's share of HLT-6's Advantage savings on HLT-6's own fiscal-year path, ending with Advantage at
+    the 2035 endpoint (care follow-up 3). Returns (H1a, HLT-6)."""
     ramp = [float(x) for x in str(P["hi_ramp"]).split("/")]
-    tot = (REV["H1a"]["mid"] + P["hi_hlt6_share_tn"]) * 1000
+    tot = REV["H1a"]["mid"] * 1000
     w = {t: ramp[t - 2030] * hi_payroll(t) for t in W}
     s = tot / sum(w.values())
-    out = {t: s * w[t] / hi_payroll(t) * 100 for t in W}           # % of HI payroll
-    return lambda t: 0.0 if t < 2030 else out.get(t, out[2039])
+    h1a = {t: s * w[t] / hi_payroll(t) * 100 for t in W}
+    shape = next(r for r in read("fiscal-years.csv") if r["id"] == "HLT-6")
+    tot6 = sum(-num(shape["y%d" % t]) for t in W)
+    gf6 = -BILL["HLT-6"]["gf_mid"] * 1000                          # the general-fund share the ledger books
+    a = P["hi_hlt6_part_a_share"]
+    hlt6 = {t: -num(shape["y%d" % t]) / tot6 * gf6 / (1 - a) * a / hi_payroll(t) * 100 for t in W}
+    return (lambda t: 0.0 if t < 2030 else h1a.get(t, h1a[2039]),
+            lambda t: hlt6.get(t, 0.0))
 
-HIS = hi_sources()
+HIS_H1A, HIS_HLT6 = hi_sources()
+def HIS(t): return HIS_H1A(t) + HIS_HLT6(t)
+hi_hlt6_window = sum(HIS_HLT6(t) / 100 * hi_payroll(t) for t in W) / 1000
 def run_hi(with_program, administration=None):
     R = P["hi_reserve_2025"]; depl = None; rows = []
     for t in YEARS:
@@ -334,7 +344,7 @@ w("## Medicare HI (summary level)\n")
 hc, hp = hi["Current law"], hi["With HI's program sources"]
 w(f"Rates are the 2026 Trustees' HI cost and income rates at the years they publish, interpolated between (sourced); HI's taxable payroll is taken as {P['hi_payroll_ratio']:.2f} times OASDI's because it is uncapped (estimate). **Check:** the model puts depletion in **{hc['depletion']}** with {hc['payable']:.0f}% payable and a 75-year balance of **{hc['balance']:.2f}%**, against the Trustees' 2033, 89% and −0.56% (sourced).\n")
 gain = hp["balance"] - hc["balance"]
-w(f"**With the program.** HI's sources in the program are REV-H1a (${REV['H1a']['mid']:.1f}T) and HLT-6's Part A share (${P['hi_hlt6_share_tn']:.1f}T, estimate), ${hi_window:.2f}T in 2030-39, held at the same share of HI payroll after 2039 (estimate). They improve the 75-year balance by **{gain:+.2f}%** of HI payroll, against the Trustees' 0.56% gap"
+w(f"**With the program.** HI's sources in the program are REV-H1a (${REV['H1a']['mid']:.1f}T) and HLT-6's Part A share (${hi_hlt6_window:.2f}T at {P['hi_hlt6_part_a_share']:.0%} of the Advantage savings, FY2030-34 only, working assumption), ${hi_window:.2f}T in 2030-39; REV-H1a is held at the same share of HI payroll after 2039 (estimate). Under the plan HI folds into the plan's fund at the 2035 endpoint (HLT-7.22), so the reading that matters is that HI is kept whole until then; the years after 2035 are shown for current-law comparison only. They improve the 75-year balance by **{gain:+.2f}%** of HI payroll, against the Trustees' 0.56% gap"
   + (", so they close it on this reading" if gain >= 0.56 else f", leaving about {0.56-gain:.2f}% for a further HI source") + f"; on the model's own rates HI then depletes in {hp['depletion'] or 'no year before 2100'}"
   + f" and the balance is {hp['balance']:+.2f}%. Because the model's current-law balance is {hc['balance']-(-0.56):+.2f} points off the Trustees', the gain (not the model's absolute balance) is the reading to use; a year-by-year Trustees HI table would sharpen it.\n")
 

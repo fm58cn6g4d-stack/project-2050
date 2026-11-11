@@ -128,11 +128,11 @@ Under `DEC-2026-11-10-05`, health reports its effect and passes it to the settle
 | HLT-2 | Medicare upgrades and no disability wait, calendar 2031-34 | 0.399 | 0 | 157.6 |
 | HLT-3, HLT-5 | Retired (public option; commercial price cap) | 0 | 0 | 285.7 and −72.2 |
 | HLT-4 | Long-term care and the safety-net items kept; children's coverage and Medicaid dental end as their groups join the plan | 0.498 | **62.3** | 85.1 |
-| HLT-6 | Advantage fix at MedPAC's lower estimate, calendar 2030-34 | −0.546 | 0 | −192.6 |
+| HLT-6 | Advantage fix at MedPAC's lower estimate, calendar 2030-34: Part B's 60% on the general fund; Part A's 40% ($0.218 trillion) is credited to HI | −0.328 | 0 | −192.6 |
 | HLT-7 | The plan's spending line: outlays less the federal money it replaces and the states' payments, plus the hospital transition fund and the territories | 29.922 | **5,745.2** (the plan 5,722.1; the territories 23.0; the fund 0) | — |
 | HLT-8 | USDA rural health grants | 0.004 | 0.5 | — |
 | HX (revenue) | End of the employer tax exclusion, general fund, full pass-through | −5.219 | **−1,042.5** | — |
-| **Health, net as booked** | | **25.14** | **4,765.4** | 569.2 |
+| **Health, net as booked** | | **25.36** | **4,765.4** | 569.2 |
 
 The two FY2040 differences from this section's earlier proposal cancel. HLT-4 is booked at about $62 billion, not $85 billion, because its children's and Medicaid dental parts end once those groups are in the plan (review F-4, item 2). The territories add about $23 billion inside HLT-7. So the plan-wide figure is the one part 5 predicted.
 
@@ -146,12 +146,12 @@ GDP is the budget model's ($54,167 billion in FY2040). Health's net cost is near
 
 **The employer contribution is reported, not booked.** At 65% it yields **$1,061 billion net in FY2040** and about $5.31 trillion over FY2030-39 (part 4). It stays off the books until the settlement sets its share (HLT-7.18; review F-4, item 3), and `test_fiscal_health.py` checks that no contribution row is booked. When it is booked, it must be booked **net of the exclusion revenue it displaces**: the contribution's gross $1,006 billion (2032) is money employers no longer pay as wages, so HX must fall by the tax on it, about $314 billion in 2032. HX assumes full pass-through: every former premium not paid as the contribution becomes taxable pay. Without that reduction, the same premium dollars would be counted twice, once as wages taxed through HX and once as the contribution.
 
-**Why the totals differ from the all-in reading in part 2.** The booked FY2030-39 total, $25.14 trillion, is part 2's $24.7 trillion plus HLT-4 ($0.50 trillion, which part 2 leaves to part B) and less worker help (HLT-7.16, about $0.06 trillion over FY2033-38), which has no booked row. Worker help ends before FY2040, so it does not touch the FY2040 figures. It goes in the next tier-3 change to the health rows.
+**Why the totals differ from the all-in reading in part 2.** The booked general-fund FY2030-39 total, $25.36 trillion, is part 2's $24.7 trillion plus HLT-4 ($0.50 trillion, which part 2 leaves to part B), plus the Advantage fix's Part A share ($0.22 trillion), which goes to HI rather than the general fund, and less worker help (HLT-7.16, about $0.06 trillion over FY2033-38), which has no booked row. Worker help ends before FY2040, so it does not touch the FY2040 figures. It goes in the next tier-3 change to the health rows.
 
 **What the booking does not yet correct** (each labeled on its row):
-1. **FEHB, TRICARE and the VA** are priced as employer-group movers (part 4), so HLT-7 and HX read high. Part 6 bounds it: net cost high by about $75-105 billion in FY2040.
-2. **The household test (D3)** has no incidence row for HLT-7 yet. Until it does, don't quote D3 (part 8).
-3. **The hospital trust fund (HI)** still credits the legacy HLT-6 Part A share, about $0.7 trillion, through `H1a`. It does not enter the general-fund balance above, but don't quote an HI solvency figure until it is corrected.
+1. **FEHB, TRICARE and the VA** are priced as employer-group movers (part 4), so HLT-7 and HX read high. Part 6 bounds it: net cost high by about $35-105 billion in FY2040.
+2. **The household test (D3)** now carries HLT-7's household rows, but only as scenario Q-H7, before the settlement's new taxes (part 8). Neither Q nor Q-H7 is health's D3 result.
+3. **The hospital trust fund (HI)** now gets Part A's share of the Advantage fix (40%, $0.22 trillion, FY2030-34; a working assumption, range 36-45%), on the fix's own path, in place of the legacy $0.7 trillion held as a share of payroll forever. MedPAC's 14% is a total over Parts A and B, so the old credit counted the same savings twice. This reads `DEC-2026-11-10-09`'s "Medicare savings credited to it first" as Part A's share going to HI first, the usual trust-fund attribution; a stricter reading would credit HI with all of HLT-6's savings until it is whole. With its program sources HI lasts to 2040 on the funds model's rates, past the 2035 endpoint, when it folds into the plan's fund (HLT-7.22); that is the HI reading to quote, and only to the endpoint.
 4. **HX's payroll-tax part** would by law go to the Social Security and HI trust funds. It is booked on the general fund, as the review asked; the settlement can redirect it.
 
 ## 6. Sensitivities
@@ -184,10 +184,10 @@ The payment rate dominates, as memo 5 said: each 0.1 of the target moves FY2040 
   - Together, 10.5-15.4 million people, 6-9% of the cell.
 - **The spending line (HLT-7) reads high.**
   - For FEHB, the government's own share of the premiums, 72% by law [EV-CAR-373], is federal money the plan replaces, but the model treats it as a private premium. That is $55-64 billion in 2032.
-  - For TRICARE and the VA, which continue (HLT-7.24), either the plan's cost for these people is not incurred or the federal programs' purchased care falls. Neither is counted. That is $36-68 billion.
-  - Total: **$90-130 billion in 2032; about $140-200 billion in FY2040.**
+  - For TRICARE and the VA, which continue (HLT-7.24), either the plan's cost for these people is not incurred or the federal programs' purchased care falls. Neither is counted. That is up to $36-68 billion if purchased care falls one for one; military and VA facilities' own costs are mostly fixed and do not fall when patients use the plan, so the low end is about $10 billion.
+  - Total: **$65-130 billion in 2032; about $100-200 billion in FY2040.**
 - **The revenue line (HX) also reads high.** None of these people's coverage turns into taxable wages: FEHB's employer share goes into the fund (HLT-7.26), and TRICARE and the VA charge no employer premium. That is **$40-60 billion in 2032; about $65-95 billion in FY2040.**
-- **Net federal cost reads high by about $50-70 billion in 2032 and $75-105 billion in FY2040.** That is 1.6-2.3% of the $4,680 billion, and about $0.35-0.5 trillion over FY2030-39 (employer groups move from 2033).
+- **Net federal cost reads high by about $25-70 billion in 2032 and $35-105 billion in FY2040.** That is 0.8-2.3% of the $4,680 billion, and about $0.2-0.5 trillion over FY2030-39 (employer groups move from 2033).
 - **Timing.** FEHB moves at the endpoint (HLT-7.26), not in wave 2 as the model has it. This shifts some of the cost later within the window but does not change FY2040.
 
 The range is smaller than one step of 0.05 in the target rate, and no decision turns on it. The correction (lower HLT-7 and HX by the central figures) goes in the next tier-3 change to the health rows. Until then, the rows stay labeled as overstated.
@@ -202,7 +202,7 @@ The range is smaller than one step of 0.05 in the target rate, and no decision t
 
 ## 8. Fit with the fairness test (D3)
 
-At full scale households stop paying about $1.53 trillion a year in premiums and out-of-pocket costs (2032), keeping only the plan's copays above 200% of poverty. Employers stop paying $1.55 trillion of premiums and pay the contribution meanwhile. Whether households below the top come out ahead depends on the taxes the settlement chooses to replace those payments (D3); section 7 reports household cost by income from the coverage model before the new taxes. The project's household test does not yet count this: it books the exclusion's tax on wages (HX) but has no incidence row for HLT-7, so the premiums and out-of-pocket costs households stop paying are missing. Don't quote D3's health reading until that row is added (the next step on this line).
+At full scale households stop paying about $1.53 trillion a year in premiums and out-of-pocket costs (2032), keeping only the plan's copays above 200% of poverty. Employers stop paying $1.55 trillion of premiums and pay the contribution meanwhile. Whether households below the top come out ahead depends on the taxes the settlement chooses to replace those payments (D3); section 7 reports household cost by income from the coverage model before the new taxes. The project's household test now has the plan's household rows (`models/tools/health_booking.py`, `incidence()`), over FY2030-39: premiums and out-of-pocket costs households stop paying ($11.7 trillion, H7h), employer premiums that become pay on HX's full pass-through ($11.9 trillion, H7w), and HX's tax on that pay ($5.2 trillion, H7x). They count cash only, not the value of new coverage to the uninsured. They sit in scenario Q-H7, not in the decided package Q, because the plan's financing (about $3.6 trillion a year by FY2040) has no rows yet: with the relief and none of the taxes, Q-H7's fourth quintile gains about $17,500 a year, a reading before financing, not a pass. Q leaves health out on both sides. Health's D3 result can be read only once the settlement's taxes are rowed against Q-H7. Package B's exclusion cap (C19b, and its fallback C19) now ends with the exclusion it caps: it is scaled to the employer coverage not yet in the plan ($0.66 trillion to $0.16 trillion over FY2030-39, nothing from FY2036), since the cap has no base once a group's premiums leave the exclusion. That removes a double count with HX: the decided package's FY2040 general-fund shortfall in the fiscal model rises by about $101 billion (to $4,431 billion), and accepted revenue falls from $3.71 trillion to $3.21 trillion; the plan-wide figure above ($4,272 billion) already left C19b out.
 
 ## Open questions
 
