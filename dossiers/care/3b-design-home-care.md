@@ -96,7 +96,7 @@ These are working assumptions with their basis and range (`DEC-2026-11-10-07`), 
   - in total, **about $2.6 trillion (range about $1.5-4.8 trillion)**, before any part D wage floor. Before the audit this read $1.6-1.8 trillion.
 - **FY2040**, the permanent cost: about $590 billion (range about $305 billion to $1.1 trillion).
 - **Who pays now.** Most of 6 B's cost replaces what families now pay out of pocket or give unpaid [EV-CAR-401] [EV-CAR-436]. CBO counts about two-fifths of its broader benefit's federal cost as replacing state and out-of-pocket spending [EV-CAR-452]. It is a shift to public money as well as new care. Who pays the new taxes is the financing settlement's decision (Codex), not this part's.
-- **Part D's wage floor sits on top.** Part D priced memo 14's floor on a home-care base built from the old new-user line (`3d-design-workforce.md`). On the rebuilt line the base is about $617 billion in 2035 (today's Medicaid home care, $312 billion, plus richer budgets and new users), not $454 billion, so memo 14 B at $20 costs about $47 billion in 2035, not $36 billion (about 12% of payroll on a 60% labor share; project arithmetic). Part D's files are not edited here; this is noted for the lead.
+- **Part D's wage floor sits on top.** Part D prices memo 14's floor on part B's rebuilt home-care base: about $617 billion in 2035 (today's Medicaid home care, $312 billion, plus richer budgets for today's users and new users), so memo 14 B at $20 costs about $47 billion in 2035 (about 12% of payroll on a 60% labor share; `3d-design-workforce.md`, updated in #246).
 
 ## Against the bills
 
