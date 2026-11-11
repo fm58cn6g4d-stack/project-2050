@@ -1,0 +1,684 @@
+Source: https://aspe.hhs.gov/sites/default/files/documents/423242373901e0901d36fc56c3d55a21/CCDF%20Eligibility%20and%20Receipt_FY22.pdf
+Publisher: Office of the Assistant Secretary for Planning and Evaluation
+Retrieved: 2026-11-11
+Original SHA-256: 3e89eba61bcbe1bb1bb323efeddb570f804c55c8b5b707669d459716ad13a454
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+DATA POINT
+July 2026
+
+Estimates of Child Care Subsidy Eligibility & Receipt
+for Fiscal Year 2022
+Jessica Rendon and Kendall Swenson
+
+KEY POINTS
+•
+
+In 2022, 11.8 million children were eligible for child care subsidies under federal rules; under state
+rules – which can be more restrictive – 9.1 million were eligible.
+
+•
+
+1.8 million children received subsidies, representing 16 percent of those eligible under federal rules
+and 20 percent under state rules.
+
+•
+
+Children living in deeper poverty were more likely to receive subsidies than those who were less poor.
+
+•
+
+Younger children (ages one through five) were more likely to receive subsidies than older, school-aged
+children.
+
+OVERVIEW AND FUNDING
+Child Care and Development Fund (CCDF) subsidies help parents pay for child care so parents can work or
+participate in education and training activities. The federal government and states spent $14.6 billion1 to
+subsidize child care for working families with low incomes in 2022. Roughly two-thirds of this funding was from
+the Child Care and Development Fund (CCDF), which in FY2022 included funding from the Coronavirus
+Response and Relief Supplemental Appropriations (CRRSA) Act (Public Law 116-260) and Supplemental
+Discretionary Funds in the American Rescue Plan (ARP) Act (Public Law 117-2), while the remaining one-third
+came from other government funding streams (Temporary Assistance for Needy Families (TANF) and the Social
+Services Block Grant). CCDF and TANF include both federal and state funding.
+
+WHO IS ELIGIBLE FOR CHILD CARE SUBSIDIES?
+Under federal rules, 11.8 million children were eligible for child care subsidies in an average month in 2022
+(Figure 1);2 this number is updated by the office of the Assistant Secretary for Planning and Evaluation (ASPE)
+annually. That represents 23 percent of the total 51 million children who were ages 0 through 12 in 2022.
+
+1 The estimated $14.6 billion includes: expenditures on direct child care services of $11.4 billion in federal and state CCDF funds, which includes
+
+$1.0 billion in TANF transfers; $1.3 billion in TANF funding spent directly on child care services; $1.7 billion in “excess TANF Maintenance of
+Effort (MOE)”; and $0.2 billion in Social Services Block Grant expenditures related to child care. Some states spend additional amounts for child
+care, beyond match and maintenance and effort requirements, that are not reported to the federal government and therefore not reflected in
+these amounts.
+2 The eligibility estimates were produced using the Transfer Income Model (TRIM), a micro-simulation model developed and maintained by the
+Urban Institute under contract with ASPE. TRIM is based on the Annual Social and Economic Supplement of the Current Population Survey (CPSASEC). TRIM compares family income and work status data from the CPS against CCDF rules to generate estimates of children and families
+eligible for subsidies.
+
+aspe.hhs.gov
+
+DATA POINT
+
+1
+
+Federal eligibility rules are:
+•
+•
+
+•
+
+The child must be under age 13 (or be
+Figure 1: Number of children eligible under federal and
+under age 19 if the child has a
+state rules and number receiving subsidies
+disability or is in foster care3).
+The child’s family income must be less
+than 85 percent of the state median
+income (SMI) for a family of the same size
+in their state.4,5 In FY 2022, 85 percent of
+average SMI for three-person families
+was $68,211.
+The child’s parents must be working,
+searching for work, or participating in
+education or training activities.6
+
+Under state rules, 9.1 million children were
+eligible for subsidies. That represents 18 percent
+of the total 51 million children who are ages 0
+through 12 in 2022, and 77 percent of children
+eligible under federal rules. States have flexibility
+within the federal CCDF eligibility parameters to set income eligibility thresholds, co-payment fees, maximum
+reimbursement rates to providers, and other criteria. Based on state rules, the average income eligibility limit
+(for initial service receipt) for a three-person family across all states and D.C. was $52,303, equivalent on
+average to 67 percent of the SMI for three-person families.7
+
+THE NUMBER OF CHILDREN ELIGIBLE INCREASED FROM 2021 TO 2022
+Following large declines in eligibility from 2019 to 2020 due to widespread job loss from the COVID-19
+pandemic, the number of children eligible under federal rules increased from 2020 (10.9 million) to 2021 (11.5
+million), further rebounding in 2022 (11.8 million). Still, it fell short of the number eligible under federal rules
+in 2019 (12.5 million). The number of children eligible for child care subsidies under state rules increased from
+2020 (7.5 million) to 2021 (8.0 million). In 2022, that number increased again to 9.1 million, surpassing for the
+first time the number that were eligible in 2019 (8.7 million). Microsimulation methods were used to
+determine that the increase from 2021 to 2022 is explained by both demographic changes related to eligibility
+in the U.S. population (driving an eight percent increase in eligible children) and changes in state eligibility
+rules (driving a six percent increase). For example, the unemployment rate fell from 5.4 percent in July of 2021
+to 3.56 percent in July of 2022.8 Additionally, several states increased their income eligibility limits, allowing
+more previously ineligible families to qualify for child care subsidies at higher income levels.
+
+3 Children who are under age 19 and physically or mentally incapable of caring for themselves, or are under court supervision, are eligible.
+4 States have flexibility to decide what family income is countable for purposes of determining a child’s eligibility. For example, states could
+
+disregard TANF payments or exclude income from some adult family members (e.g., an adult sibling or an aunt). As a result, some states may
+serve children in families with unadjusted incomes greater than 85 percent of the state median income, as defined in this factsheet. Families
+must also pass an assets test ($1 million).
+5 The state median incomes used for this factsheet come from the American Community Survey, 2019 (5-year estimates):
+https://acf.gov/sites/default/files/documents/ocs/COMM_LIHEAP_IM03%20Attachment1%20SMITable_FY2022.pdf
+6 For this eligibility estimate, “working” is defined as employed one hour or more in a month. The majority (93 percent) of federally-eligible
+children come from families where the single parent or both parents were employed at least 20 hours per week or were in school/training
+activities. Job search eligibility is simplified in this model as three months of continued eligibility for families who—just prior to the period of job
+search—were receiving CCDF assistance.
+7 Kwon, Dwyer, Todd, and Minton (2023). Key Cross-State Variations in CCDF Policies as of October 1, 2021: The CCDF Policies Database Book of
+Tables: https://www.acf.hhs.gov/opre/report/key-cross-state-variations-ccdf-policies-october-1-2021-ccdf-policies-database-book
+8 https://data.bls.gov/timeseries/LNS14000000
+
+aspe.hhs.gov
+
+DATA POINT
+
+2
+
+AMONG CHILDREN WHO ARE FEDERALLY ELIGIBLE, WHO IS MOST LIKELY TO RECEIVE
+SUBSIDIES?
+An estimated 1.8 million children9 received subsidies through CCDF and related government funding streams10
+in an average month in fiscal year 2022 (see Figure 1). This is equal to 16 percent of all children eligible under
+federal rules and 20 percent of all children eligible under state rules.
+Children living in deeper poverty were more likely to receive subsidies than children who were less poor,
+among all children who were federally eligible (see Figure 2). For example, 66 percent of eligible 4-year-old
+children with family incomes below the poverty line received subsidies, while only 18 percent with family
+incomes between 150 and 199 percent of poverty received subsidies.
+Younger children ages one through five were more likely to receive subsidies compared to older, school-age
+children. For example, 60 percent of three-year-old children with family incomes below the poverty line
+received subsidies, while 29 percent of six-to-nine-year-old children with family incomes below the poverty
+line received subsidies. This pattern is observed across all income levels.
+Figure 2: Percent of federally-eligible children receiving subsidies, for each age and income group
+< 100% poverty
+
+100% to 149% poverty
+
+150% to 199% poverty
+
+70%
+
+66%
+60%
+
+60%
+
+56%
+
+55%
+
+50%
+
+43%
+38%
+
+40%
+
+34%
+
+31%
+30%
+
+200% + poverty
+
+10%
+
+15%
+
+15%
+
+18%
+
+21%
+
+18%
+
+16%
+
+16%
+
+12%
+
+9%
+
+6%
+
+3%
+
+2%
+
+29%
+
+27%
+
+25%
+
+20%
+
+33%
+
+7%
+
+5%
+
+4%
+
+7%
+2%
+
+8%
+3%
+1%
+
+Ages 6-9
+
+Ages 10-12
+
+0%
+Age <1
+
+Age 1
+
+Age 2
+
+Age 3
+
+Age 4
+
+Age 5
+
+Note: Poverty figures are based on 2022 poverty thresholds published by the U.S. Census Bureau. For families with one
+adult and two children, 150 percent of poverty is $35,367 ($2,947 monthly).
+
+Reports for prior years can be found at: https://aspe.hhs.gov/estimates-child-care-eligibility-and-receipt
+
+9 This estimate of receipt excludes about 17,300 children served in U.S. territories (because territories are not included in the eligibility
+
+estimate, which is developed using the CPS), as well as children served through subsidies administered solely by Indian reservations/tribes.
+10 TANF funding spent directly on child care services; “excess TANF MOE”; and Social Services Block Grant expenditures related to child care.
+
+aspe.hhs.gov
+
+DATA POINT
+
+3
+
+APPENDIX TABLE: NUMBER OF CHILDREN POTENTIALLY ELIGIBLE FOR CHILD CARE
+SUBSIDIES BY STATE, CALENDAR YEAR 2022
+Estimate of Children Eligible under Federal Parameters
+(Family Incomes < 85% SMI)
+State
+Estimate
+Alabama
+175,800
+Alaska
+18,000
+Arizona
+193,300
+Arkansas
+135,200
+California*
+1,347,700
+Colorado
+156,500
+Connecticut
+124,500
+Delaware
+51,300
+DC
+19,600
+Florida
+724,800
+Georgia
+466,500
+Hawaii
+46,400
+Idaho
+65,800
+Illinois
+421,200
+Indiana
+202,400
+Iowa
+153,800
+Kansas
+103,400
+Kentucky
+146,700
+Louisiana
+202,700
+Maine*
+52,100
+Maryland
+268,000
+Massachusetts
+223,900
+Michigan
+377,900
+Minnesota
+246,000
+Mississippi
+121,900
+Missouri
+263,800
+Montana
+31,600
+Nebraska
+93,100
+Nevada
+89,700
+New Hampshire
+33,200
+New Jersey
+367,500
+New Mexicoa
+74,500
+New York
+751,500
+North Carolina
+334,000
+North Dakota
+31,200
+Ohio
+453,400
+Oklahoma*
+144,700
+Oregon
+98,500
+Pennsylvania
+416,100
+Rhode Island
+35,400
+South Carolina
+196,600
+South Dakota
+29,000
+Tennessee
+210,900
+Texas*
+1,163,800
+Utah
+96,500
+Vermont*
+16,300
+Virginia
+293,800
+Washington
+279,900
+West Virginia
+45,500
+Wisconsin
+225,700
+Wyoming
+18,200
+See notes on following page.
+
+aspe.hhs.gov
+
+95% Confidence Interval (LowHigh)
+131,200
+220,500
+12,200
+23,800
+143,400
+243,200
+103,600
+166,800
+1,215,000
+1,480,400
+112,200
+200,800
+91,400
+157,600
+40,700
+62,000
+13,700
+25,400
+632,900
+816,800
+392,800
+540,200
+34,100
+58,800
+49,200
+82,400
+350,300
+492,200
+154,400
+250,400
+119,300
+188,400
+74,000
+132,800
+105,500
+187,900
+157,200
+248,200
+37,700
+66,500
+212,100
+323,800
+173,700
+274,100
+312,500
+443,200
+192,900
+299,000
+92,700
+151,100
+208,800
+318,700
+23,400
+39,900
+71,000
+115,200
+63,100
+116,300
+22,600
+43,800
+302,000
+433,100
+54,800
+94,200
+656,100
+846,800
+270,400
+397,500
+23,900
+38,600
+382,200
+524,600
+105,200
+184,200
+65,500
+131,400
+347,400
+484,900
+25,400
+45,500
+150,300
+242,900
+21,000
+37,100
+162,100
+259,700
+1,038,800
+1,288,800
+73,500
+119,400
+10,800
+21,700
+234,100
+353,600
+221,900
+337,900
+30,500
+60,500
+174,800
+276,700
+12,700
+23,600
+
+Estimate of Children Eligible under State-Defined Rules
+Estimate
+98,900
+18,900
+151,800
+136,500
+1,676,700
+91,800
+93,700
+36,000
+14,700
+430,900
+461,400
+42,800
+31,900
+314,000
+77,800
+35,500
+85,600
+133,100
+187,900
+54,700
+221,500
+133,000
+223,000
+110,100
+115,800
+109,300
+23,900
+41,800
+97,400
+14,500
+143,000
+81,900
+728,900
+192,400
+33,700
+174,100
+147,900
+55,300
+213,600
+18,700
+122,500
+19,500
+104,200
+1,150,900
+97,900
+21,400
+236,200
+208,300
+16,400
+103,600
+10,800
+
+95% Confidence Interval (LowHigh)
+65,200
+132,700
+12,900
+24,800
+107,400
+196,100
+104,800
+168,200
+1,529,300
+1,824,000
+57,700
+126,000
+64,900
+122,500
+27,000
+45,000
+9,600
+19,700
+359,600
+502,300
+388,100
+534,800
+31,000
+54,700
+20,200
+43,500
+252,400
+375,500
+47,800
+107,900
+18,600
+52,400
+58,700
+112,400
+93,800
+172,400
+144,000
+231,700
+40,000
+69,500
+170,600
+272,500
+94,000
+171,900
+172,400
+273,700
+74,200
+146,000
+87,300
+144,200
+73,500
+145,100
+16,700
+31,100
+26,800
+56,800
+69,600
+125,100
+7,400
+21,600
+101,600
+184,400
+61,300
+102,500
+634,900
+822,900
+143,800
+240,900
+26,100
+41,300
+129,400
+218,800
+107,900
+187,800
+30,400
+80,100
+163,900
+263,300
+11,300
+26,100
+85,700
+159,200
+12,800
+26,100
+69,600
+138,700
+1,026,600
+1,275,200
+74,800
+121,000
+15,100
+27,600
+182,500
+290,000
+158,000
+258,600
+7,400
+25,500
+68,700
+138,400
+6,600
+15,100
+
+DATA POINT
+
+4
+
+*The estimate of children eligible under state rules may be larger than the estimate of children eligible under federal rules for the following
+reasons: the state uses a different source for SMI (e.g., a different year; or the 1-year ACS instead of the 5-year ACS) than that used by
+TRIM3 for the federal estimate; the state disregards some income sources; the state excludes some family members from the assistance
+unit.
+a
+
+New Mexico sets a state income eligibility threshold above the federal limit of 85 percent SMI. Children who are above the federal income
+eligibility threshold are paid for out of state funds; these children are not included in the estimate of children served in this factsheet.
+Notes: Data source is CPS-ASEC data for CY 2022 combined with estimates from TRIM3's modeling of CCDF eligibility. This population
+also includes children ages 13 to 18 who receive SSI according to TRIM3's simulation of SSI.
+
+aspe.hhs.gov
+
+DATA POINT
+
+5
+
+U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Office of the Assistant Secretary for Planning and Evaluation
+200 Independence Avenue SW
+Washington, D.C. 20201
+For more ASPE briefs and other publications, visit: aspe.hhs.gov/reports
+
+SUGGESTED CITATION
+Rendon, J., and Swenson, K. Estimates of Child Care Eligibility & Receipt for Fiscal
+Year 2022. Office of the Assistant Secretary for Planning and Evaluation, U.S.
+Department of Health and Human Services. July 2026.
+COPYRIGHT INFORMATION
+All material appearing in this report is in the public domain and may be reproduced
+or copied without permission; citation as to source, however, is appreciated.
+DISCLOSURE
+This communication was printed, published, or produced and disseminated at U.S.
+taxpayer expense.
+Links and references to information from non-governmental organizations are
+provided for informational purposes and are not an HHS endorsement,
+recommendation, or preference for the non-governmental organizations.
+___________________________________
+Subscribe to ASPE mailing list to receive email updates on new publications:
+https://list.nih.gov/cgi-bin/wa.exe?SUBED1=ASPE-HEALTH-POLICY&A=1
+For general questions or general information about ASPE: aspe.hhs.gov/about
+
+aspe.hhs.gov
+
+DATA POINT
+
+6
+
+

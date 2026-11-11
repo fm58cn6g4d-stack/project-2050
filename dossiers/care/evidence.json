@@ -8660,5 +8660,1956 @@
    "models/tools/health-coverage/MODEL-CARD.md",
    "dossiers/care/6-cost.md"
   ]
+ },
+ {
+  "id": "EV-CAR-500",
+  "statement": "Section 70401 of the 2025 reconciliation law raises the employer-provided child care credit (section 45F) from 2026 to 40% of qualified child care expenditures (50% for an eligible small business), with a maximum of $500,000 ($600,000 for an eligible small business), up from 25% and $150,000.",
+  "claim": "data",
+  "figures": [
+   "70401",
+   "40%",
+   "50%",
+   "$500,000",
+   "$600,000",
+   "25%",
+   "$150,000",
+   "2026"
+  ],
+  "source": "SRC-3011",
+  "anchor": [
+   "Section 70401 of the law",
+   "Section 45F of the IRC",
+   "credit of up to $150,000 (not adjusted for inflation). The credit was worth 25% of qualified child care expenditures",
+   "This provision raises the maximum credit to $500,000 ($600,000 in the case of an eligible small business; both figures adjusted for inflation) and the credit rate for child care expenditures to 40% (50% in the case of an eligible small business).",
+   "This provision applies from 2026 onward."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-11",
+  "recheck": "2027-07-01",
+  "context": "CRS description of enacted law (P.L. 119-21, July 4, 2025). Permanent: no expiration date in the provision. CRS says the dollar caps are adjusted for inflation.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-501",
+  "statement": "Section 70404 of the 2025 reconciliation law raises the exclusion for employer-provided dependent care assistance (section 129) from $5,000 to $7,500 a year ($3,750 for married filing separately), not adjusted for inflation, from 2026.",
+  "claim": "data",
+  "figures": [
+   "70404",
+   "$5,000",
+   "$7,500",
+   "$3,750",
+   "2026"
+  ],
+  "source": "SRC-3011",
+  "anchor": [
+   "Section 70404 of the law",
+   "Section 129 of the IRC",
+   "Currently, taxpayers can exclude up to $5,000 per year",
+   "This provision raises the maximum exclusion to $7,500 ($3,750 for those married filing separately; not adjusted for inflation).",
+   "This provision would apply from 2026 onward."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-11",
+  "recheck": "2027-07-01",
+  "context": "CRS description of enacted law. Permanent.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-502",
+  "statement": "Section 70405 of the 2025 reconciliation law raises the child and dependent care tax credit's (section 21) maximum rate from 35% to 50%, phasing to 35% and then, above $75,000 of AGI ($150,000 joint), to 20%; expense limits stay $3,000 for one person and $6,000 for two or more, the credit stays nonrefundable, and the dollar amounts are not indexed; from 2026.",
+  "claim": "data",
+  "figures": [
+   "70405",
+   "35%",
+   "50%",
+   "$75,000",
+   "$150,000",
+   "20%",
+   "$3,000",
+   "$6,000",
+   "2026"
+  ],
+  "source": "SRC-3011",
+  "anchor": [
+   "Section 70405 of the law",
+   "Section 21 of the IRC",
+   "The child and dependent care tax credit (CDCTC) is a nonrefundable tax credit",
+   "Currently, the credit is worth the amount spent (up to $3,000 for one person cared for, or $6,000 for two or more) times a credit rate. The maximum credit rate of 35%",
+   "This provision raises the maximum credit rate to 50%, which would then phase down by one percentage point for each $2,000 a taxpayer's AGI exceeds $15,000 (not adjusted for filing status), until reaching 35%. It will remain 35% until a taxpayer's AGI exceeds $75,000 ($150,000 in the case of those married, filing jointly)",
+   "until reaching 20%. The dollar amounts will not be adjusted for inflation.",
+   "This provision applies from 2026 onward."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-11",
+  "recheck": "2027-07-01",
+  "context": "CRS description of enacted law. Permanent.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-503",
+  "statement": "JCT estimates the 2025 law's permanent change to the child and dependent care credit, effective 2026, will cost $9.257 billion over FY2025-2034; TPC notes that low-income families receive little from a nonrefundable credit.",
+  "claim": "analysis",
+  "figures": [
+   "$9.257 billion",
+   "2026",
+   "2025",
+   "2034"
+  ],
+  "source": "SRC-3012",
+  "anchor": [
+   "The Joint Committee on Taxation (JCT) estimates this permanent change, which goes into effect in 2026, will cost $9.257 billion between FY2025 and FY2034.",
+   "since low-income families tend to owe little or nothing in income taxes, they receive little if any benefit from nonrefundable credits"
+  ],
+  "grade": "C",
+  "fact_date": "2025-07",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "TaxVox post, credit paragraph and refundability paragraph",
+  "context": "Tax Policy Center (Urban-Brookings, nonpartisan), July 2025, reporting JCT's official estimate. JCT (congressional, nonpartisan) put the dependent care exclusion at $5.973 billion and the 45F change at $0.731 billion over the same window (JCX-34-25, not saved: its PDF table does not convert to anchorable text).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-502",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-504",
+  "statement": "The enacted FY2026 appropriation gives $8.8 billion for the Child Care and Development Block Grant, $85 million more than FY2025, and $12.4 billion for Head Start, also $85 million more.",
+  "claim": "data",
+  "figures": [
+   "$8.8 billion",
+   "$85 million",
+   "2025",
+   "$12.4 billion"
+  ],
+  "source": "SRC-3013",
+  "anchor": [
+   "The bill includes $8.8 billion for the\nChild Care and Development Block Grant (CCDBG), an $85 million increase over fiscal\nyear 2025; and $12.4 billion for Head Start, an $85 million increase."
+  ],
+  "grade": "A",
+  "fact_date": "2026-02",
+  "checked": "2026-11-11",
+  "recheck": "2027-03-01",
+  "context": "Senate Appropriations Committee Democratic staff, January 2026. CLASP puts the CCDBG total at $8.831 billion, $160 million short of inflation (not in the register).",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-505",
+  "statement": "Since ARPA amended Social Security Act section 418, the mandatory Child Care Entitlement to States has a permanent annual appropriation of $3.550 billion for FY2021 and beyond.",
+  "claim": "data",
+  "figures": [
+   "418",
+   "$3.550 billion",
+   "2021"
+  ],
+  "source": "SRC-3014",
+  "anchor": [
+   "Act (ARPA, P.L. 117-2) amended Section 418 to provide",
+   "permanent annual appropriations of $3.550 billion for",
+   "FY2021 and beyond."
+  ],
+  "grade": "A",
+  "fact_date": "2024-02",
+  "checked": "2026-11-11",
+  "recheck": "2027-02-01",
+  "context": "CRS (nonpartisan). The text version interleaves two columns, so the passage is anchored in three pieces.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-506",
+  "statement": "The House Appropriations Committee's FY2027 bill (June 2026, not enacted) gives the Child Care and Development Block Grant $8.84 billion and Head Start $12.37 billion, $10 million more each.",
+  "claim": "data",
+  "figures": [
+   "2027",
+   "$8.84 billion",
+   "$12.37 billion",
+   "$10 million"
+  ],
+  "source": "SRC-3015",
+  "anchor": [
+   "AGENCIES APPROPRIATIONS BILL, 2027",
+   "Provides a $10 million increase for the Child Care and Development Block Grants at $8.84 billion,",
+   "Provides a $10 million increase for Head Start at $12.37 billion"
+  ],
+  "grade": "A",
+  "fact_date": "2026-06",
+  "checked": "2026-11-11",
+  "recheck": "2027-03-01",
+  "context": "House majority (Republican) summary of a committee bill; a proposal, not law.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-507",
+  "statement": "ASPE estimates that in 2022, 11.8 million children were eligible for child care subsidies under federal rules and 1.8 million received them, 16 percent of those eligible (20 percent under states' stricter rules).",
+  "claim": "analysis",
+  "figures": [
+   "2022",
+   "11.8 million",
+   "1.8 million",
+   "16 percent",
+   "20 percent"
+  ],
+  "source": "SRC-3016",
+  "anchor": [
+   "In 2022, 11.8 million children were eligible for child care subsidies under federal rules",
+   "1.8 million children received subsidies, representing 16 percent of those eligible under federal rules\nand 20 percent under state rules."
+  ],
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-11",
+  "recheck": "2027-07-01",
+  "context": "HHS ASPE, second Trump administration (July 2026), continuing a long-running series with the same TRIM3 method; the count of recipients is administrative data, the eligible count a model estimate. Earlier editions under other administrations found similar shares (about 15 percent).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-508",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-508",
+  "statement": "CRS's table shows CCDBG appropriations rising from $2.435 billion in FY2015 to $8.746 billion in FY2024 while the average number of children served each month barely moved (1.394 million in FY2015, 1.429 million in FY2019, 1.314 million in FY2021).",
+  "claim": "data",
+  "figures": [
+   "$2.435",
+   "$8.746",
+   "1.394",
+   "1.429",
+   "1.314",
+   "2015",
+   "2024",
+   "2019",
+   "2021"
+  ],
+  "source": "SRC-3017",
+  "anchor": [
+   "FY2015 $2.360 $2.435 $2.917 $1.251 1.394",
+   "FY2019 $2.669 $5.258 + $0.030 $2.917 $1.302 1.429",
+   "FY2021 n/a $5.878 + $10.000 + $14.990 $3.550 $1.158 1.314",
+   "FY2024 n/a $8.746 $3.550 not available not available"
+  ],
+  "grade": "A",
+  "fact_date": "2024-12",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-01",
+  "context": "CRS (nonpartisan) from HHS budget justifications and program statistics; children served is the average monthly count.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md",
+   "dossiers/care/2c-what-works-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-509",
+  "statement": "ARPA's child care stabilization grants were $23.975 billion, to be obligated by September 30, 2022 and liquidated by September 30, 2023; ARPA's supplemental CCDBG money could be spent one year longer.",
+  "claim": "data",
+  "figures": [
+   "$23.975",
+   "30",
+   "2022",
+   "2023"
+  ],
+  "source": "SRC-3018",
+  "anchor": [
+   "FY2021 ARPA Child Care Stabilization\n$23.975\nSeptember 30, 2022",
+   "Most of these appropriations must be liquidated by the end of FY2023 (September 30). Only the ARPA\nCCDBG funds may remain available for expenditure for another year"
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "CRS (nonpartisan) on enacted appropriations.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md",
+   "dossiers/care/2c-what-works-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-510",
+  "statement": "HHS's May 2026 final rule, effective July 13, 2026, rescinds the Biden administration's CCDF rule's requirements to cap family copayments at 7 percent of income, to fund some care through grants or contracts, to pay providers prospectively and to pay them by enrollment; states may keep those policies.",
+  "claim": "data",
+  "figures": [
+   "2026",
+   "13",
+   "7 percent"
+  ],
+  "source": "SRC-3019",
+  "anchor": [
+   "It rescinds the requirements to limit family co-payments to 7 percent of family income, to provide some direct services through grants or contracts, to pay providers prospectively, and to pay providers based on enrollment.",
+   "Effective: July 13, 2026."
+  ],
+  "grade": "A",
+  "fact_date": "2026-05-12",
+  "checked": "2026-11-11",
+  "recheck": "2027-05-12",
+  "locator": "SUMMARY and DATES",
+  "context": "Second Trump administration; the rule is primary law (data). Its stated rationale (state waivers, cost) is the administration's view. The 2024 rule was a Biden administration rule.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-511",
+  "statement": "HHS reports that in FY2023, CCDF subsidized more than 1.6 million children from 994,000 families each month, and that FY2026 enacted CCDF funding is $12.381 billion.",
+  "claim": "data",
+  "figures": [
+   "2023",
+   "1.6 million",
+   "994,000",
+   "2026",
+   "$12.381 billion"
+  ],
+  "source": "SRC-3019",
+  "anchor": [
+   "Federal Fiscal year (FFY) 2026 enacted CCDF funding is $12.381 billion awarded by formula to States, Territories, and Tribes.",
+   "In FFY 2023, the most recent year for which data is available, CCDF provided subsidies to more than 1.6 million children from 994,000 families each month."
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-11",
+  "recheck": "2027-05-12",
+  "locator": "II. Background",
+  "context": "Administrative counts in the rule's background, second Trump administration.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-512",
+  "statement": "In FY2024 Head Start (including Early Head Start) was funded to serve 715,873 children and pregnant women.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "715,873"
+  ],
+  "source": "SRC-3020",
+  "anchor": [
+   "In fiscal year (FY) 2024, the Head Start program was funded to serve 715,873 children, pregnant women, in centers, family homes, and family child care homes."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-11",
+  "recheck": "2027-06-01",
+  "locator": "opening paragraph",
+  "context": "Federal program data; the FY2025 edition was not found.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-513",
+  "statement": "On July 14, 2025 HHS reinterpreted \"federal public benefit\" under the 1996 welfare law (PRWORA) to include Head Start, which would bar many immigrant children; a federal court enjoined it, and on December 15, 2025 the appeals court granted the government's motion to drop its appeal.",
+  "claim": "data",
+  "figures": [
+   "14",
+   "2025",
+   "1996",
+   "15"
+  ],
+  "source": "SRC-3021",
+  "anchor": [
+   "on July 14, 2025, HHS issued a directive reinterpreting the phrase 'federal public benefit' in the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (PRWORA) to include Head Start effective immediately",
+   "On December 4, 2025, the Defendants filed a motion to voluntarily dismiss their appeal, which the appellate court granted on December 15."
+  ],
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-11",
+  "recheck": "2027-03-01",
+  "locator": "case summary",
+  "context": "A law school's summary of court records (W.D. Wash.; preliminary injunction September 2025). A separate injunction (D.R.I.) covers plaintiff states. The case continued as of September 2026; this register does not hold the orders themselves.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-514",
+  "statement": "In 2022 families spent 8.9% to 16.0% of median family income on full-day care for one child, with annual prices of $6,552 to $15,600 (National Database of Childcare Prices).",
+  "claim": "data",
+  "figures": [
+   "8.9%",
+   "16.0%",
+   "$6,552",
+   "$15,600",
+   "2022"
+  ],
+  "source": "SRC-3022",
+  "anchor": [
+   "U.S. families spend between 8.9% and 16.0% of their median income on full-day care for just one child, with annual prices ranging from $6,552 to $15,600 in 2022, the most recent year for which data are available."
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-01",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-515",
+  "statement": "Child Care Aware of America finds the national average annual price of child care was $13,184 in 2025.",
+  "claim": "data",
+  "figures": [
+   "2025",
+   "$13,184"
+  ],
+  "source": "SRC-3023",
+  "anchor": [
+   "CCAoA found that the national average annual price of child care in 2025 was $13,184."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-05-01",
+  "locator": "2025 National Price",
+  "context": "Child care advocacy organization with a stake in showing high prices; state-reported data, averaged by its own method ($12,609 to $13,644 by method). Consistent with the DOL database's range (EV-CAR-514).",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-516",
+  "statement": "The median hourly wage for childcare workers was $16.82 in May 2025, and there were 1,010,300 childcare worker jobs in 2025 (including the self-employed).",
+  "claim": "data",
+  "figures": [
+   "$16.82",
+   "2025",
+   "1,010,300"
+  ],
+  "source": "SRC-3024",
+  "anchor": [
+   "The median hourly wage for childcare workers was $16.82 in May 2025.",
+   "Number of Jobs, 2025 | 1,010,300"
+  ],
+  "grade": "A",
+  "fact_date": "2025-05",
+  "checked": "2026-11-11",
+  "recheck": "2027-04-01",
+  "locator": "Summary and Quick Facts",
+  "context": "BLS OEWS and employment projections. About $34,980 a year at full time (project arithmetic, 2,080 hours).",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-517",
+  "statement": "The median annual wage for preschool teachers was $38,140 in May 2025, with 583,200 jobs in 2025.",
+  "claim": "data",
+  "figures": [
+   "$38,140",
+   "2025",
+   "583,200"
+  ],
+  "source": "SRC-3025",
+  "anchor": [
+   "The median annual wage for preschool teachers was $38,140 in May 2025.",
+   "Number of Jobs, 2025 | 583,200"
+  ],
+  "grade": "A",
+  "fact_date": "2025-05",
+  "checked": "2026-11-11",
+  "recheck": "2027-04-01",
+  "locator": "Summary and Quick Facts",
+  "context": "BLS. Preschool teachers include public-school pre-K teachers, who are paid more (EV-CAR-521).",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-518",
+  "statement": "In 2025 the labor force participation rate of women with own children under 6 was 68.0 percent (68.3 percent a year earlier), against 95.3 percent for men.",
+  "claim": "data",
+  "figures": [
+   "68.0",
+   "68.3",
+   "95.3"
+  ],
+  "source": "SRC-3026",
+  "anchor": [
+   "WITH OWN CHILDREN UNDER 6 YEARS",
+   "Participation rate | 80.5 | 94.9 | 68.3 | 80.5 | 95.3 | 68.0"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-04-23",
+  "locator": "Table 5, \"With own children under 6 years\"",
+  "context": "BLS CPS; columns are 2024 total, men, women, then 2025 total, men, women. 2025 averages omit October 2025.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-519",
+  "statement": "In the 2024-2025 school year state-funded preschool enrolled nearly 1.8 million children, 37% of 4-year-olds and 9% of 3-year-olds; states spent nearly $14.4 billion, about $8,124 per child.",
+  "claim": "data",
+  "figures": [
+   "1.8 million",
+   "37%",
+   "9%",
+   "$14.4 billion",
+   "$8,124"
+  ],
+  "source": "SRC-3027",
+  "anchor": [
+   "Nationally, enrollment reached nearly 1.8 million children during the 2024-2025 school year, including 37% of 4-year-olds and 9% of 3-year-olds.",
+   "states invested nearly $14.4 billion, or an average of $8,124 per child enrolled."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-04-30",
+  "locator": "Executive summary, \"Historic and Emerging Preschool Leaders\"; yearbook landing page",
+  "context": "NIEER, a pre-K research and advocacy institute; the data are state-reported and compiled consistently over 23 years. State spending only (federal Head Start excluded).",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-520",
+  "statement": "The Census Bureau estimates the U.S. population at 341,784,857 on July 1, 2025, with 5.4% under 5 years old ",
+  "claim": "data",
+  "figures": [
+   "341,784,857",
+   "2025",
+   "5.4%"
+  ],
+  "source": "SRC-3028",
+  "anchor": [
+   "Persons under 5 years, percent | 5.4%",
+   "Population estimates, July 1, 2025, (V2025) | 341,784,857"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-11",
+  "recheck": "2027-06-30",
+  "locator": "Age and Sex",
+  "context": "Census estimates; the 18.5 million is project arithmetic (5.4% of the total).",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-521",
+  "statement": "Markowitz and Bassok report early educators' median salaries are highest in school-based public pre-K ($53,200 in 2022), then Head Start ($35,819) and child care ($29,570).",
+  "claim": "data",
+  "figures": [
+   "$53,200",
+   "2022",
+   "$35,819",
+   "$29,570"
+  ],
+  "source": "SRC-3029",
+  "anchor": [
+   "salaries are highest in school-based public pre-k ($53,200 in 2022), followed by Head Start ($35,819), and child care ($29,570, both home- and center-based)"
+  ],
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "wage section",
+  "context": "Academic review (UVA); secondary compilation of survey data. Supports the pay gap that drives the under-3 staffing critique; it does not measure staff moving from infant care to pre-K.",
+  "supports": [
+   "dossiers/care/1c-problem-child-care.md",
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-530",
+  "statement": "Baker, Gruber and Milligan find Quebec's low-fee universal child care raised mothers' labor supply (an elasticity of 0.236) but left children worse off on behavior and health, from aggression to motor-social skills to illness.",
+  "claim": "analysis",
+  "figures": [
+   "0.236"
+  ],
+  "source": "SRC-3030",
+  "anchor": [
+   "The labor supply impact is highly significant, and our measured elasticity of 0.236 is slightly smaller than previous credible estimates. Finally, we uncover striking evidence that children are worse off in a variety of behavioral and health dimensions, ranging from aggression to motor-social skills to illness."
+  ],
+  "grade": "B",
+  "fact_date": "2008",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Quasi-experimental (difference-in-differences) peer-reviewed economics; the authors are not advocates for or against the program. Quality and the care children would otherwise have had shape the sign (compare Norway, EV-CAR-543).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-531",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-532",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-535",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-543",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-531",
+  "statement": "Baker, Gruber and Milligan find the negative effects of Quebec's program on noncognitive outcomes persisted, and exposed cohorts had worse health, lower life satisfaction and higher crime: accusations rose 353 per 100,000 against a mean of 1,872, about 19 percent.",
+  "claim": "analysis",
+  "figures": [
+   "353",
+   "100,000",
+   "1,872",
+   "19 percent"
+  ],
+  "source": "SRC-3031",
+  "anchor": [
+   "We find that the negative effects on noncognitive outcomes persisted to school ages, and also that cohorts with increased child care access had worse health, lower life satisfaction, and higher crime rates later in life.",
+   "For accused across all categories, we estimate a rise of 353 per 100,000 children, compared to a mean of 1,872 accusations. This is a rise of 19 percent."
+  ],
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract; crime section",
+  "context": "Same research team as EV-CAR-530; finds no lasting effect on cognitive scores. Province-level cohorts, so other Quebec changes could confound. Independent qualification: Haeck, Lefebvre and Merrigan (EV-CAR-535) find the harms do not show for teens in their data.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-530",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-535",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-543",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-532",
+  "statement": "Lefebvre and Merrigan find Quebec's child care policy had a large and statistically significant effect on the labor supply of mothers with preschool children.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3032",
+  "anchor": [
+   "the results show that the policy had a large and statistically significant impact on the labor supply of mothers with preschool children."
+  ],
+  "grade": "B",
+  "fact_date": "2008",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Quasi-experimental, independent of Baker, Gruber and Milligan; Quebec economists.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-530",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-533",
+  "statement": "Fortin, Godbout and St-Cerny estimate that in 2008 Quebec's low-fee child care led nearly 70,000 more mothers to hold jobs (3.8% more women employed) and raised Quebec's GDP by about 1.7% ($5 billion).",
+  "claim": "analysis",
+  "figures": [
+   "2008",
+   "70,000",
+   "3.8%",
+   "1.7%",
+   "$5 billion"
+  ],
+  "source": "SRC-3033",
+  "anchor": [
+   "in 2008 universal access to low-fee childcare in Quebec induced nearly 70,000 more mothers to hold jobs than if no such program had existed - an increase of 3.8% in women employment. By our calculation, Quebec's domestic income (GDP) was higher by about 1.7% ($5 billion) as a result."
+  ],
+  "grade": "C",
+  "fact_date": "2008",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Simulation by Quebec public-finance economists who argue the program pays for itself; the employment effect rests on earlier studies. Contested: Haeck, Lefebvre and Merrigan (2015) find the costs exceed the provincial fiscal return (reported via the Fraser Institute, not in the register); Baker, Gruber and Milligan (2026, EV-CAR-534) find 75-117 percent recaptured.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-534",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-532",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-534",
+  "statement": "Baker, Gruber and Milligan (2026) estimate the net present value of the fiscal benefits of Quebec's program may recapture between 75 and 117 percent of its upfront costs, through mothers' higher lifetime employment and earnings.",
+  "claim": "analysis",
+  "figures": [
+   "75",
+   "117 percent"
+  ],
+  "source": "SRC-3034",
+  "anchor": [
+   "the net present value of the flow of fiscal benefits may recapture between 75 and 117 percent of the upfront costs of the program."
+  ],
+  "grade": "B",
+  "fact_date": "2026-07",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "NBER working paper (not yet peer-reviewed); same team that found child harms (EV-CAR-530, 531), so not a team inclined to favor the program. Independent of Fortin and others (EV-CAR-533), which it qualifies.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-533",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-535",
+  "statement": "Haeck, Lefebvre and Merrigan find that ten years on, Quebec's reform did not improve school readiness and may have harmed children from low-income families, while mothers' participation rose durably.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3035",
+  "anchor": [
+   "our results on cognitive development suggest the reform did not improve school readiness and may even have had negative impacts on children from low-income families."
+  ],
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Quasi-experimental, independent of Baker, Gruber and Milligan. A later paper by Haeck and others (2018) finds the harms do not persist for teens 12-19.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-530",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-536",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-536",
+  "statement": "Quebec's 2003 quality survey found 53% of preschool-age children in nonprofit centres (CPEs) received care of only fair quality and 42% good or very good; for-profit centres rated lower.",
+  "claim": "data",
+  "figures": [
+   "53%",
+   "42%"
+  ],
+  "source": "SRC-3036",
+  "anchor": [
+   "slightly more than half of children in the preschool age category (53%) were receiving daycare services judged to be of Fair quality, while 42% were receiving Good or Very Good educational daycare."
+  ],
+  "grade": "A",
+  "fact_date": "2003",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "Highlights",
+  "context": "Official Quebec survey; for-profit centres scored about 2.6 of 4 against 2.93 for CPEs (ISQ's private-daycare brochure, not in the register). The 2014 survey renamed \"fair\" as \"acceptable\".",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-537",
+  "statement": "Canada's Budget 2021 committed up to $27.2 billion over five years from 2021-22 to a Canada-wide early learning and child care system.",
+  "claim": "data",
+  "figures": [
+   "2021",
+   "$27.2 billion"
+  ],
+  "source": "SRC-3037",
+  "anchor": [
+   "Budget 2021 proposes to invest up to $27.2 billion over five years, starting in 2021-22 as part of initial 5-year agreements."
+  ],
+  "grade": "A",
+  "fact_date": "2021-04",
+  "checked": "2026-11-11",
+  "recheck": "2027-04-01",
+  "locator": "announcement",
+  "context": "Government of Canada (Liberal government). Canadian dollars. Later stated as about $30 billion with Indigenous child care.",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-538",
+  "statement": "Canada's Auditor General found that by March 2024 provinces and territories had cut average fees in federally funded spaces to about $16.50 a day, against a $10 target for March 2026, which 5 provinces and 3 territories had met.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "$16.50",
+   "$10",
+   "2026",
+   "5",
+   "3"
+  ],
+  "source": "SRC-3038",
+  "anchor": [
+   "as of March 2024, provincial and territorial governments reduced the average out-of-pocket fees for regulated child care spaces that received federal funding to approximately $16.50 per day across Canada. The target is to reach an average of $10 per day by March 2026. As of March 2024, 5 provinces and 3 territories had already met this target."
+  ],
+  "grade": "A",
+  "fact_date": "2024-03",
+  "checked": "2026-11-11",
+  "recheck": "2027-10-01",
+  "locator": "findings summary",
+  "context": "Independent auditor (Office of the Auditor General). It also found about 112,000 new spaces after three years, against a 250,000 target by 2026.",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-539",
+  "statement": "C.D. Howe reports that the share of Canadian children under six on a child care waitlist rose from 19.1 percent in 2022 to 30.8 percent in 2025 among children not in care, and from 16.7 to 23.6 percent among those already in care.",
+  "claim": "data",
+  "figures": [
+   "19.1 percent",
+   "2022",
+   "30.8 percent",
+   "2025",
+   "16.7",
+   "23.6 percent"
+  ],
+  "source": "SRC-3039",
+  "anchor": [
+   "Nationally, the share of children under age six who were on a waitlist rose from 19.1 percent in 2022 to 30.8 percent in 2025 among children not in childcare, and from 16.7 percent to 23.6 percent among those already using childcare."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "waitlist section",
+  "context": "A critic's use of Statistics Canada survey data; it also cautions that waitlists overstate demand (children are on many lists).",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-540",
+  "statement": "Canada's Parliamentary Budget Officer projected that in 2026 the budgeted money would subsidize 678,800 full-time spaces, 182,000 fewer than the estimated demand.",
+  "claim": "analysis",
+  "figures": [
+   "2026",
+   "678,800",
+   "182,000"
+  ],
+  "source": "SRC-3040",
+  "anchor": [
+   "PBO projected that in 2026, with 90% of gross funding allocated to subsidies, the 2021 budgeted funding would subsidize 678,800 full-time equivalent spaces, which is 182,000 fewer slots than required to meet the estimated demand at that time."
+  ],
+  "grade": "C",
+  "fact_date": "2022-02",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "news release",
+  "context": "Independent budget office projection. Supported by the later waitlist data (EV-CAR-539) and the Auditor General's space count (EV-CAR-538).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-539",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-538",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-543",
+  "statement": "Havnes and Mogstad find Norway's subsidized child care expansion had strong positive effects on children's educational attainment and labor market participation and reduced welfare dependency.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3042",
+  "anchor": [
+   "Our precise and robust difference-in-differences estimates show that subsidized child care had strong positive effects on children's educational attainment and labor market participation, and also reduced welfare dependency."
+  ],
+  "grade": "B",
+  "fact_date": "2011",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Quasi-experimental, independent of the Quebec studies; Norwegian public, regulated, mostly high-quality kindergartens in the 1970s. Contrasts with Quebec (EV-CAR-530, 531).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-530",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-569",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-544",
+  "statement": "Havnes and Mogstad find Norway's .1785 increase in child care coverage (as a share of children) caused less than a 1 percentage point rise in maternal employment, mostly replacing informal care.",
+  "claim": "analysis",
+  "figures": [
+   "1785",
+   "1"
+  ],
+  "source": "SRC-3043",
+  "anchor": [
+   "The .1785 increase in child care coverage is estimated to have caused less than 1 percentage point increase in maternal employment."
+  ],
+  "grade": "B",
+  "fact_date": "2011",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "maternal employment section",
+  "context": "Same authors as EV-CAR-543. Contests the Quebec employment results (EV-CAR-530, 532): employment gains depend on how many mothers already work and on informal care.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-530",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-532",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-545",
+  "statement": "The OECD reports total education spending on 3-5-year-olds averages 0.59% of GDP across OECD countries, highest in Iceland (1.05%), Norway (0.87%), Israel (0.85%) and Sweden (0.82%).",
+  "claim": "data",
+  "figures": [
+   "0.59%",
+   "1.05%",
+   "0.87%",
+   "0.85%",
+   "0.82%",
+   "3",
+   "5"
+  ],
+  "source": "SRC-3044",
+  "anchor": [
+   "total education expenditure on 3-5 year-olds averages 0.59% of GDP across OECD countries, with the highest shares in Iceland (1.05% of GDP), Norway (0.87%), Israel (0.85%) and Sweden (0.82%)"
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-11",
+  "recheck": "2027-09-15",
+  "locator": "Indicator C2 text",
+  "context": "OECD official statistics; covers educational programs for ages 3-5, not all child care. A separate OECD measure puts all public ECEC at 0.8% of GDP on average in 2021 and 1.7% in Norway.",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-547",
+  "statement": "New Mexico's Legislative Finance Committee estimates that if universal assistance drew 90 percent of privately paid slots, the program's cost would almost double to $849.7 million a year.",
+  "claim": "analysis",
+  "figures": [
+   "90 percent",
+   "$849.7 million"
+  ],
+  "source": "SRC-3046",
+  "anchor": [
+   "LFC estimates that if universal assistance include 90 percent uptake of all available slots in the state currently paying privately, the cost of Childcare Assistance to taxpayers would almost double to $849.7 million annually"
+  ],
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-15",
+  "locator": "cost section",
+  "context": "Legislative fiscal staff, independent of the agency running the program (ECECD), whose own brief projects $445.8 million in FY2026 rising to $728.1 million in FY2029 (not in the register). The two disagree on take-up; no outcome evaluation exists yet.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-548",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-548",
+  "statement": "Urban Institute estimates New Mexico's rule changes between October 2019 and May 2022, raised the number of children eligible for subsidies by 70 percent.",
+  "claim": "analysis",
+  "figures": [
+   "2019",
+   "2022",
+   "70 percent",
+   "71 percent"
+  ],
+  "source": "SRC-3047",
+  "anchor": [
+   "changes to the rules between October 2019 and May 2022 increased the number of New Mexico children eligible for CCDF by 70 percent and increased the number of families eligible for CCDF by 71 percent"
+  ],
+  "grade": "C",
+  "fact_date": "2022-05",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "summary",
+  "context": "Microsimulation of eligibility, not of use. The University of New Mexico's data show children served rose about 39 percent (19,366 to 26,941) while license-exempt home providers fell 38 percent (not in the register).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-547",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-549",
+  "statement": "Washington's 2025 budget law delays the Working Connections Child Care expansion from 60 to 75 percent of state median income from July 2025 to July 2029, and to 85 percent from 2027 to 2031.",
+  "claim": "data",
+  "figures": [
+   "2025",
+   "60",
+   "75 percent",
+   "2029",
+   "85 percent",
+   "2027",
+   "2031"
+  ],
+  "source": "SRC-3048",
+  "anchor": [
+   "Delays the Working Connections Child Care (WCCC) Program eligibility expansion from 60 to 75 percent of State Median Income (SMI) from July 1, 2025, to July 1, 2029, and delays the eligibility expansion from 75 to 85 percent of SMI from July 1, 2027, to July 1, 2031."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-07-01",
+  "locator": "summary",
+  "context": "State law (legislative staff summary). The 2021 Fair Start for Kids Act had capped copayments at 7 percent of income; a 2026 DCYF page says the expansion is now canceled and eligibility stays at 60 percent (not verified against a bill).",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-550",
+  "statement": "Urban Institute's evaluation finds DC child care centers that took subsidies and joined the pay equity fund had 37 percent educator turnover, against 51 percent at subsidy-serving centers without the wage increases. The fund's FY2025 minimum salaries ran from about $51,000 to $75,000, against an average of about $37,300 for DC child care workers before it.",
+  "claim": "analysis",
+  "figures": [
+   "37 percent",
+   "51 percent",
+   "$51,000",
+   "$75,000",
+   "$37,300"
+  ],
+  "source": "SRC-3049",
+  "anchor": [
+   "Centers that accepted children with subsidies and participated in the fund had a turnover rate that matched the District average (37 percent), but turnover jumped to 51 percent in centers that did not offer wage enhancements and accepted children with subsidies.",
+   "minimum annual salaries range from about $51,000",
+   "to $75,000 (for lead teachers with a bachelor's degree)",
+   "compares with an average of about $37,300 for all workers employed in DC child care in May 2021, before the fund's implementation"
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "testimony, turnover and wage paragraphs",
+  "context": "Program evaluation on administrative data; participation was voluntary, so selection may explain part of the gap. The fund was cut 20 percent in FY2025, minimum salaries lowered 4-5 percent from January 2026, and the mayor proposed ending it for FY2027 (Urban and OSSE, not in the register). Supports the wage-retention link with the Military Child Care system (EV-CAR-551).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-551",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-551",
+  "statement": "RAND finds the Military Child Care Act required at least 50 military child development centers to become accredited, a provision that alone led to significant quality improvements; the Act also set fees by family income and DoD tied pay rises to training.",
+  "claim": "analysis",
+  "figures": [
+   "50"
+  ],
+  "source": "SRC-3050",
+  "anchor": [
+   "As a means of promoting excellence and professionalism, the act called for at least 50 military CDCs to become accredited. This provision alone led to significant quality improvements"
+  ],
+  "grade": "C",
+  "fact_date": "1998",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "research brief",
+  "context": "RAND program evaluation for DoD. GAO (2023) finds families largely satisfied with quality but concerned about long waitlists, and notes little research on child outcomes (GAO-23-105518, not in the register). The National Women's Law Center documents the income-based fee schedule and pay tied to training.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-550",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-555",
+  "statement": "Gormley and others find Tulsa's universal pre-K raised kindergarten-entry scores by 0.79 standard deviations in letter-word identification, 0.64 in spelling and 0.38 in applied problems.",
+  "claim": "analysis",
+  "figures": [
+   "3.00",
+   "0.79",
+   "1.86",
+   "0.64",
+   "1.94",
+   "0.38"
+  ],
+  "source": "SRC-3051",
+  "anchor": [
+   "The authors found test impacts of 3.00 points (0.79 of the standard deviation for the control group) for the Letter-Word Identification score, 1.86 points (0.64 of the standard deviation of the control group) for the Spelling score, and 1.94 points (0.38 of the standard deviation of the control group) for the Applied Problems score."
+  ],
+  "grade": "B",
+  "fact_date": "2005",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Regression discontinuity (strong for the short run). Georgetown team.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-557",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-560",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-556",
+  "statement": "Gormley and others find college enrollment was 12 percentage points higher for Tulsa pre-K alumni than for students who attended neither Tulsa pre-K nor Head Start.",
+  "claim": "analysis",
+  "figures": [
+   "12"
+  ],
+  "source": "SRC-3052",
+  "anchor": [
+   "college enrollment was 12 percentage points higher for Tulsa pre-K alumni compared with former students who did not attend Tulsa pre-K or Head Start."
+  ],
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Observational (propensity weighting), weaker than a lottery; same Tulsa team as EV-CAR-555. Consistent with Boston's lottery result (EV-CAR-557).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-557",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-557",
+  "statement": "Gray-Lobe, Pathak and Walters find, from Boston's admissions lotteries, that public preschool raised college attendance, SAT-taking and high school graduation and cut disciplinary measures including juvenile incarceration, with no detectable effect on state test scores.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3053",
+  "anchor": [
+   "Preschool enrollment boosts college attendance as well as SAT test taking and high school graduation. Preschool also decreases high school disciplinary measures including juvenile incarceration, but has no detectable effect on state achievement test scores."
+  ],
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Lottery-based natural experiment (the strongest long-run U.S. design); Boston's program used a set curriculum and coaching, with cohorts from about 1997-2003. Independent of the Tulsa team. Contested on the short run by Tennessee (EV-CAR-559).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-555",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-556",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-559",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-559",
+  "statement": "The Tennessee Voluntary Pre-K randomized trial found pre-K children had lower state achievement scores in third through sixth grades than control children, strongest in sixth grade, and more disciplinary infractions, worse attendance and more special education.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3054",
+  "anchor": [
+   "had lower state achievement test scores in third through sixth grades than control children, with the strongest negative effects in sixth grade. A negative effect was also found for disciplinary infractions, attendance, and receipt of special education services, with null effects on retention."
+  ],
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Randomized trial (Vanderbilt team). Critics (NIEER, MDRC researchers) point to low measured classroom quality and low spending (about $4,524 a child in 2009); the authors answer that the program met standard structural benchmarks. The early gains faded by kindergarten (Lipsey and others, 2018).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-557",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-560",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-560",
+  "statement": "The Head Start Impact Study, a randomized trial, found access to Head Start improved children's preschool outcomes across developmental domains but had few impacts in kindergarten through third grade.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3055",
+  "anchor": [
+   "access to Head Start improved children's preschool outcomes across developmental domains, but had few impacts on children in kindergarten through 3rd grade."
+  ],
+  "grade": "B",
+  "fact_date": "2012",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "Key Findings",
+  "context": "HHS ACF, Obama administration, reporting a randomized trial run by independent contractors. Qualified by Kline and Walters (EV-CAR-561): about a third of the control group attended other preschools.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-561",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-562",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-561",
+  "statement": "Kline and Walters find Head Start draws about a third of its participants from other preschools, many publicly funded, and that counting this pushes Head Start's benefit-cost ratio well above one.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3056",
+  "anchor": [
+   "Head Start draws roughly a third of its participants from competing preschool programs, many of which receive public funds. We show that accounting for the fiscal impacts of such program substitution pushes estimates of Head Start's benefit-cost ratio well above one under a wide range of assumptions"
+  ],
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Independent reanalysis of the federal trial.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-560",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-562",
+  "statement": "Deming finds Head Start participants gain 0.23 standard deviations on a summary index of young-adult outcomes, about 80 percent as large as model programs such as Perry Preschool, despite the fade-out of test score gains.",
+  "claim": "analysis",
+  "figures": [
+   "0.23",
+   "80 percent"
+  ],
+  "source": "SRC-3057",
+  "anchor": [
+   "I estimate that Head Start participants gain 0.23 standard deviations on a summary index of young adult outcomes. This closes one-third of the gap between children with median and bottom quartile family income, and is about 80 percent as large as model programs such as Perry Preschool."
+  ],
+  "grade": "B",
+  "fact_date": "2009",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Sibling comparison (quasi-experimental); supported by Garces, Thomas and Currie (2002) and Bailey, Sun and Timpe (EV-CAR-563).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-563",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-563",
+  "statement": "Bailey, Sun and Timpe find Head Start's rollout raised adult schooling by 0.65 years, high school completion by 2.7 percent, college enrollment by 8.5 percent and college completion by 39 percent.",
+  "claim": "analysis",
+  "figures": [
+   "0.65",
+   "2.7 percent",
+   "8.5 percent",
+   "39 percent"
+  ],
+  "source": "SRC-3058",
+  "anchor": [
+   "Head Start generated large increases in adult human capital and economic self-sufficiency, including a 0.65-year increase in schooling, a 2.7 percent increase in high school completion, an 8.5 percent increase in college enrollment, and a 39 percent increase in college completion."
+  ],
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Quasi-experimental (rollout timing); cohorts from the 1960s-70s, when the alternative was usually no preschool.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-562",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-564",
+  "statement": "García and others estimate the Abecedarian/CARE birth-to-five program's internal rate of return at 13.7%, with a benefit-cost ratio of 7.3.",
+  "claim": "analysis",
+  "figures": [
+   "13.7%",
+   "7.3"
+  ],
+  "source": "SRC-3059",
+  "anchor": [
+   "Our point estimate of the internal rate of return is 13.7%, with an associated benefit/cost ratio of 7.3."
+  ],
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Small randomized trials plus forecasting; an intensive full-day program from infancy, unlike one year of pre-K. At scale, returns are smaller (WSIPP, EV-CAR-565).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-565",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-565",
+  "statement": "WSIPP estimates state pre-K for low-income children returns $4.78 in benefits per dollar of cost, with a 91% chance benefits exceed costs, mostly from earnings linked to test scores.",
+  "claim": "analysis",
+  "figures": [
+   "$4.78",
+   "91%"
+  ],
+  "source": "SRC-3060",
+  "anchor": [
+   "Benefit to cost ratio | $4.78 | Chance the program will produce | benefits greater than the costs | 91%"
+  ],
+  "grade": "C",
+  "fact_date": "2024-12",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "benefit-cost table",
+  "context": "Nonpartisan state institute; excludes Perry and Abecedarian as small programs. Its benefits rest on test-score effects, the ones that fade (EV-CAR-560) or reverse (EV-CAR-559), so the ratio is uncertain.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-564",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-559",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-566",
+  "statement": "NIEER estimates high-quality full-day pre-K with pay parity costs about $12,500 per child a year on average, from $9,368 in Oklahoma to $16,221 in New York.",
+  "claim": "analysis",
+  "figures": [
+   "$12,500",
+   "$9,368",
+   "$16,221"
+  ],
+  "source": "SRC-3061",
+  "anchor": [
+   "On average, the annual per child cost is about $12,500. But state-by-state rates ranged from $9,368 in Oklahoma to $16,221 in New York"
+  ],
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "executive summary",
+  "context": "Pre-K advocacy institute's cost model, 2020 dollars. Supported in scale by the National Academies' system cost (EV-CAR-567) and Maryland's $14,473 per pupil in FY2026 (not in the register).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-567",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-567",
+  "statement": "The National Academies estimate the total cost of high-quality early care and education for all children is at least $140 billion a year from all sources, about 0.75 percent of GDP, with public spending needing to rise by $5 billion to $53 billion a year over four phases.",
+  "claim": "analysis",
+  "figures": [
+   "$140 billion",
+   "0.75",
+   "$5 billion",
+   "$53 billion"
+  ],
+  "source": "SRC-3062",
+  "anchor": [
+   "the total cost of providing high quality ECE for all children is at least $140 billion per year (from all sources public and private), equivalent to about three-quarters of 1 percent (0.75 %) of U.S. gross domestic product",
+   "by at least $5 billion (in phase 1) to $53 billion (phase 4) a year above"
+  ],
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "summary",
+  "context": "Consensus cost model in 2016-18 dollars; parity with K-3 teachers adds about 10 percent. The $5-53 billion phases are in the same summary (quoted as \"by at least $5 billion (in phase 1) to $53 billion (phase 4) a year above\").",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-566",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-568",
+  "statement": "Cascio and Schanzenbach find Georgia's and Oklahoma's universal pre-K raised lower-income children's test performance as late as eighth grade and the likelihood their mothers work, while among higher-income families it mostly shifted children from private to public preschool.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3063",
+  "anchor": [
+   "Among lower-income families, our findings also suggest that the programs have increased the amount of time mothers and children spend together on activities such as reading, the likelihood that mothers work, and children's test performance as late as eighth grade.",
+   "Among higher-income families, however, we find that the programs have shifted children from private to public pre-schools"
+  ],
+  "grade": "B",
+  "fact_date": "2013",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "Quasi-experimental. Cascio (2023, Journal of Human Resources) finds universal programs produce larger gains for low-income children than targeted ones.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-555",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-569",
+  "statement": "Brown estimates New York City's public pre-K reduced capacity for children under 2 at private child care centers by 2,700 seats, all in high-poverty areas, not offset by home-based care.",
+  "claim": "analysis",
+  "figures": [
+   "2",
+   "2,700"
+  ],
+  "source": "SRC-3064",
+  "anchor": [
+   "I estimate that the public pre-K program reduced the capacity for children younger than 2 years old at private child care centers by 2,700 seats. The entire decrease in capacity occurs in areas with high poverty, and this decline was not offset by an increase in provision in the home day care market."
+  ],
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "abstract",
+  "context": "A single working paper; another version of the paper gives 562 seats from the 2014 expansion and 2,248 extrapolated, so the size is uncertain. The mechanism (pre-K revenue cross-subsidizes infant rooms) is argued by the Bipartisan Policy Center and New America. The only quasi-experimental estimate found for the under-3 critique.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-521",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-580",
+  "statement": "The Child Care for Working Families Act (H.R. 4418, 2025) charges no copayment at or below 85 percent of state median income and caps copayments at 7 percent of income above 150 percent, with a 90 percent federal share of direct services for children under 6 whose parents work or study.",
+  "claim": "data",
+  "figures": [
+   "4418",
+   "85 percent",
+   "7",
+   "150 percent",
+   "90 percent",
+   "6"
+  ],
+  "source": "SRC-3065",
+  "anchor": [
+   "(I) of not more than 85 percent of\nthe State median income for a family of\nthe same size, the family shall not pay\na copayment,",
+   "(V) of more than 150 percent of the\nState median income for a family of the\nsame size, the copayment shall be 7\npercent of that family income,",
+   "to 90 percent of expenditures (which shall be\nthe Federal share of such expenditures)",
+   "(i) who is less than 6 years of age;",
+   "[H.R. 4418 Introduced in House (IH)]",
+   "parents who are participating in an\neligible activity;"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-03",
+  "context": "Bill text (a proposal). Murray and Scott have introduced versions every Congress since 2017.",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-581",
+  "statement": "The Child Care for Working Families Act requires payment rates that provide a living wage for all staff and are equivalent to elementary educators' wages, and its pre-K title (ages 3 and 4) steps the federal share from 90 percent in FY2026 to 60 percent in FY2031.",
+  "claim": "data",
+  "figures": [
+   "90 percent",
+   "2026",
+   "60 percent",
+   "2031",
+   "3",
+   "4"
+  ],
+  "source": "SRC-3065",
+  "anchor": [
+   "provide a living wage\nfor all staff of such\nchild care providers;",
+   "to wages for elementary\neducators with similar\ncredentials",
+   "(A) 90 percent of the State's expenditures in the\nyear for preschool services provided under section 304,\nfor fiscal year 2026;",
+   "(F) 60 percent of the State's expenditures in the\nyear for such preschool services, for fiscal year 2031.",
+   "child who is age 3 or 4"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-03",
+  "context": "Bill text (a proposal).",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-582",
+  "statement": "The Transforming Education for the Future Act (H.R. 10421, September 2026) funds free universal preschool (\"Preschool for All\") at 100 percent federal cost for FY2027-2029, stepping down from FY2030, with at least 1,020 hours a year.",
+  "claim": "data",
+  "figures": [
+   "10421",
+   "100 percent",
+   "2027",
+   "2029",
+   "2030",
+   "1,020"
+  ],
+  "source": "SRC-3066",
+  "anchor": [
+   "(i) 100 percent of the State's expenditures\nin the year for preschool services described in\nsubsection (d), for each of fiscal years 2027,\n2028, and 2029;",
+   "(ii) 90 percent of the State's expenditures\nin the year for such preschool services, for\nfiscal year 2030;",
+   "duration requirements of at least 1,020 annual",
+   "[H.R. 10421 Introduced in House (IH)]"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-03",
+  "context": "Bill text (a proposal). The federal share steps to 60 percent later in the schedule (legacy FAM-2D).",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-583",
+  "statement": "The bipartisan Child Care Availability and Affordability Act (S. 847, March 4, 2025; Britt, Kaine and seven others) expands the employer-provided child care credit and the dependent care assistance exclusion; most of it passed in the 2025 law.",
+  "claim": "data",
+  "figures": [
+   "847",
+   "2025",
+   "4"
+  ],
+  "source": "SRC-3067",
+  "anchor": [
+   "Mrs. Britt (for herself, Mr. Kaine, Ms. Ernst, Mrs. Shaheen, Mr.\nCurtis, Mr. King, Ms. Collins, Mrs. Gillibrand, and Mrs. Capito)",
+   "To amend the Internal Revenue Code of 1986 to expand the employer-\nprovided child care credit and the dependent care assistance exclusion.",
+   "March 4, 2025",
+   "[S. 847 Introduced in Senate (IS)]"
+  ],
+  "grade": "A",
+  "fact_date": "2025-03",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-03",
+  "context": "Bill text. Its enactment through P.L. 119-21 is in EV-CAR-500 and 501; TPC says the law \"largely\" incorporates the Britt-Kaine proposals except refundability (EV-CAR-503's source).",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-584",
+  "statement": "The bipartisan PACE Act (H.R. 2900, 2025) would make the child and dependent care tax credit refundable, which the 2025 law did not.",
+  "claim": "data",
+  "figures": [
+   "2900"
+  ],
+  "source": "SRC-3068",
+  "anchor": [
+   "refundable the Child and Dependent Care Tax Credit, to increase the",
+   "[H.R. 2900 Introduced in House (IH)]"
+  ],
+  "grade": "A",
+  "fact_date": "2025-04",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-03",
+  "context": "Bill text (a proposal).",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-585",
+  "statement": "The CCDBG Act of 2014 established a 12-month eligibility period, so a child found eligible generally keeps assistance for a full year, and set a $1 million family asset limit.",
+  "claim": "data",
+  "figures": [
+   "2014",
+   "12",
+   "$1 million"
+  ],
+  "source": "SRC-3069",
+  "anchor": [
+   "established a 12-month eligibility period. This means that",
+   "once a child is deemed eligible, the child should generally",
+   "assets may not exceed $1 million.",
+   "2014 law added one new eligibility requirement: family"
+  ],
+  "grade": "A",
+  "fact_date": "2016-11",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "context": "CRS (nonpartisan) on P.L. 113-186. The law also added background checks, health and safety training and annual inspections; it has not been reauthorized since.",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-586",
+  "statement": "CLASP reports about 373,100 fewer children received CCDBG-funded child care in 2015 than in 2006, a 21 percent drop over nine years, as costs per child rose without matching funds.",
+  "claim": "data",
+  "figures": [
+   "373,100",
+   "2015",
+   "2006",
+   "21 percent"
+  ],
+  "source": "SRC-3070",
+  "anchor": [
+   "Approximately 373,100 fewer children received CCDBG-funded child care in 2015 than in 2006, representing a 21 percent reduction in the average monthly number of children served over 9 years."
+  ],
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "p. 1",
+  "context": "Advocacy group using HHS counts; the decline began before the 2014 law, so the law is one cause among several. An Oregon State University study found the new training and inspection rules were associated with a large drop in license-exempt nonrelative providers.",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-587",
+  "statement": "CBO's official cost of the House Build Back Better Act's universal pre-K and child care for six years was $381 billion; CBO estimated $752 billion if made permanent.",
+  "claim": "analysis",
+  "figures": [
+   "$381 billion",
+   "$752 billion"
+  ],
+  "source": "SRC-3071",
+  "anchor": [
+   "Provide Universal Pre-K and Child Care for six years | $381 billion | $752 billion"
+  ],
+  "grade": "C",
+  "fact_date": "2021-12",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "table",
+  "context": "CRFB tabulating CBO (official scorekeeper). CRFB's separate rows: child care $270 billion and pre-K $110 billion over six years. CBO assumed about a third of children live in states that would not take part (Bruenig, People's Policy Project), which lowers the cost. Penn Wharton put the pair at about $400 billion as written.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-588",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-588",
+  "statement": "Penn Wharton estimated the Build Back Better Act's child care and preschool provisions at $400 billion over ten years as proposed, plus $394 billion if made permanent.",
+  "claim": "analysis",
+  "figures": [
+   "400",
+   "394"
+  ],
+  "source": "SRC-3072",
+  "anchor": [
+   "Child care and pre-school | 400 | 394"
+  ],
+  "grade": "C",
+  "fact_date": "2021-11",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "table (billions)",
+  "context": "Independent of CRFB and CBO; supports the scale.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-587",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-589",
+  "statement": "In December 2021 Senator Manchin said he would not vote for Build Back Better: \"I cannot vote to continue with this piece of legislation.\"",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3073",
+  "anchor": [
+   "I cannot vote to continue with this piece of legislation. I just can't. I tried everything humanly possible. I can't get there."
+  ],
+  "grade": "C",
+  "fact_date": "2021-12",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "article",
+  "context": "News report. His stated reasons were inflation, debt and temporary programs written to look cheaper, not the child care design itself.",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-590",
+  "statement": "Niskanen's Stevens argues Build Back Better would have moved resources from nonparticipating to participating states, given large new benefits to relatively high-income families, and larger benefits to families in wealthier states.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3074",
+  "anchor": [
+   "BBB would have redistributed resources from nonparticipating to participating states, giving large new benefits to relatively high-income families, and providing larger benefits to families in wealthier states."
+  ],
+  "grade": "C",
+  "fact_date": "2023-07",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "article",
+  "context": "A critic's analysis. Supported in part by Bruenig (left) on the state-participation assumption in CBO's score.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-587",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-591",
+  "statement": "PERI cites an estimated cost of $60 billion a year for the 2025 Child Care for Working Families Act (universal preschool for 3- and 4-year-olds and a 7% copay cap for younger children).",
+  "claim": "analysis",
+  "figures": [
+   "2025",
+   "3",
+   "4",
+   "7%",
+   "$60 billion"
+  ],
+  "source": "SRC-3075",
+  "anchor": [
+   "The Child Care for Working Families Act introduced in 2025 proposed funding universal preschool for 3- to 4-year olds, and subsidizing child care costs for younger children at 7% of income for more working families, at an estimated cost of $60 billion per year."
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "article",
+  "context": "An estimate cited without its method; CBO has not scored the bill. CAP put an earlier version at about $700 billion over ten years (2019). Qualified by CBO's Build Back Better scores (EV-CAR-587), a similar design.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-587",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-592",
+  "statement": "Child Trends finds the number of Vermont families receiving child care subsidies rose 55 percent, from 5,059 to 7,851, between July 2022 and May 2025, after the state widened eligibility and added a payroll tax to fund it.",
+  "claim": "data",
+  "figures": [
+   "55 percent",
+   "5,059",
+   "7,851",
+   "2022",
+   "2025"
+  ],
+  "source": "SRC-3076",
+  "anchor": [
+   "The number of Vermont families receiving child care subsidies increased by 55 percent, rising from 5,059 to 7,851 from July 2022 to May 2025."
+  ],
+  "grade": "C",
+  "fact_date": "2025-05",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "locator": "summary",
+  "context": "Program data reported by an independent research organization; not a causal evaluation. The payroll tax and eligibility levels are from Vermont's tax department and Act 76 (not in the register); care for children under 3 remains hard to find.",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md",
+   "dossiers/care/3c-design-child-care.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-593",
+  "statement": "Colorado appropriated $344 million for Universal Preschool in FY2024-25 ($197.7 million from its nicotine-tax preschool fund and $146.3 million general fund), for free hours in the year before kindergarten.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "$344 million",
+   "$197.7 million",
+   "$146.3 million"
+  ],
+  "source": "SRC-3077",
+  "anchor": [
+   "For FY 2024-25, the Legislature appropriated a total of $344 million for the Universal Preschool program, combining $197.7 million in Preschool Cash Funds with $146.3 million in General Funds."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-15",
+  "locator": "funding section",
+  "context": "State agency report; it funded 43,398 children. The 15-hour design is from the 2022 law (HB22-1295).",
+  "supports": [
+   "dossiers/care/2c-what-works-child-care.md"
+  ]
  }
 ]
