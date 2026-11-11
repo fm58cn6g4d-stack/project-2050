@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated November 10, 2026 by Claude Code (row D-4r by session_01UQzgBupQZyXMABBVLAHyji; stage C review and known gaps by the lead, session_01UQzgBtSLEoy7fgPMAW76LL; stage D care rows by session_01UQzgBteuY7VHnyGhjMpgaF; lead handoff; row 4j by session_01UQzgBvSpaCT7ye9hJyhFCR; row 6 fix step 1 and the reviewer change by the fix-step-1 worker; row 6 fix step 7 and the housing close-out by session_01UQzgBsm7aCCDHvH83imA21).
+Updated November 11, 2026 by Claude Code (lead handoff to session_01UQzgBwthb9wvzFajiwYkhG; row D-4r by session_01UQzgBupQZyXMABBVLAHyji; stage C review and known gaps by the lead, session_01UQzgBtSLEoy7fgPMAW76LL; stage D care rows by session_01UQzgBteuY7VHnyGhjMpgaF; lead handoff; row 4j by session_01UQzgBvSpaCT7ye9hJyhFCR; row 6 fix step 1 and the reviewer change by the fix-step-1 worker; row 6 fix step 7 and the housing close-out by session_01UQzgBsm7aCCDHvH83imA21).
 
 ## Standing sessions
 
@@ -10,11 +10,12 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
-| Lead | `session_01UQzgBtSLEoy7fgPMAW76LL` | Project 2050: lead | November 10 (from about 06:20 UTC) |
+| Lead | `session_01UQzgBwthb9wvzFajiwYkhG` | Project 2050: lead | November 11 (from about 04:45 UTC) |
 | Reviewer | `session_01UQzgBwM92trGLhKkGBSjEP` | Project 2050: reviewer | November 10, about 06:12 UTC; woken by the reviewer scheduled task `trig_012Z7PTs2E1GqeqJcmybLXc6` (older tasks `trig_015EmnThrjyxP9fc1C1M1TQx`, `trig_01FZTMijXSFbmgJQqdmwxtkN`, `trig_01Ev3YUmoFDLvTk2Negkwi9u` and `trig_01QPXBRZzoMHhTSs3k8PAAuP` are disabled). Codex reviews again; ask it by PR comment where its review matters (budget model milestones) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 **Former standing sessions**
+- Lead `session_01UQzgBtSLEoy7fgPMAW76LL`: transportation from sections 4-9 to L3, stage C's close, health from the memo set to L3 and its booking; November 10 to 11.
 - Lead `session_01UQzgBuj6qYPfkf6a7uYH69`: housing close-out (ROAD funding, memo 13, the milestone review and its fixes, the model booking), the two process rules (`DEC-2026-11-10-05`, `-07`), the start of transportation and stage D care; November 10.
 - Reviewer `session_01UQzgBuFWeZrsZdcaG9sMkZ`: PRs #183 to #204; November 10.
 - Lead `session_01UQzgBwqphpchudhq51her6`: housing section 3 addendum (memos 9-12, `DEC-2026-11-09-19` to `-25`), the USDA rural and ROAD funding work, two reviewer handovers; November 9 to 10.
@@ -26,7 +27,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 - Reviewer `session_01UQzgBtEveznkR76gmgDdVm`: PRs #133 to #144; November 9.
 - Reviewer `session_01QHgvhVvafmiGMqU7Vewnst`: October 26 to 29.
 
-**Lead handoff (November 11, 2026, about 04:40 UTC)** from `session_01UQzgBtSLEoy7fgPMAW76LL` (context about 655,000 tokens; lineage depth 5, so the strategy session starts the successor). The new lead puts its own ID in the Standing sessions table in its first board PR and moves this session to "Former standing sessions" (lead, November 10 to 11: transportation from sections 4-9 to L3, stage C's close, health from the memo set to L3 and its booking).
+**Lead handoff (November 11, 2026, about 04:40 UTC)** from `session_01UQzgBtSLEoy7fgPMAW76LL` (context about 655,000 tokens; lineage depth 5, so the strategy session starts the successor). The new lead is `session_01UQzgBwthb9wvzFajiwYkhG` (Standing sessions table above).
 - **Done since November 10 morning.**
   - Transportation is at L3 (#203, #206-#214). Stage C is closed: Espen's strategic review said "no changes for now", with a fuel-tax revisit noted under "Directions for later stages".
   - Health is at L3 (#220-#229, #233). The health part's decisions are `DEC-2026-11-10-09` to `-13` and `DEC-2026-11-11-01`: a staged path to single-payer with a 2035 endpoint; employer groups with Medicaid in 2033-35, required, with a contribution; memo 3 B; no duplicative coverage; ownership kept, with guardrails; the hospital transition fund; Hyde and Helms ended.
@@ -47,7 +48,18 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
   - The IHS funding item is open in care section 6.
 - **How Espen works.**
   - Short, plain updates with numbered one-line asks. Decision sheets as artifacts work well.
-  - Espen answers in the lead session. Record each answer as a `DEC-` entry in a tier-3 PR, and update its branch before asking for the label.
+  - Espen answers in the lead session. Record each answer as a `DEC-` entry in a tier-3 PR.
+  - Update a PR's branch with GitHub's update rather than pushing, so approvals and the label carry over. When the update tool refuses with a head mismatch, ask the PR's author to update it.
+  - Tier-3 PRs fall behind within minutes. Espen labels when ready and tells the lead, and the lead updates the branch at once; the label carries over.
+  - Report a merge only on the closed event, or `merged: true`.
+  - Work efficiently (Espen, November 10):
+    - one PR at a time on overlapping files (the board included), each started from main after the last merges;
+    - the mid-tier model, or subagents, for mechanical work;
+    - reuse a live session that holds the context;
+    - batch Espen's decisions into one tier-3 PR per round;
+    - the lead relies on workers' done messages rather than watching every PR.
+  - Reserve source and evidence ID ranges per dossier: care has SRC-3000 to 3399 (`dossiers/care/README.md`), transportation SRC-3500 to 3599.
+  - Each standing session fills its context in about 6 to 12 hours of heavy work. Check `get_session` at each board update and hand over before 600,000 tokens.
   - Codex was at its usage limit on November 10-11. One Claude review is enough meanwhile; note it on budget-model PRs.
 - **Lessons.**
   - Ask a fresh reviewer, or the standing one, for the L3 re-check on the close-out PR itself. Housing, transportation and health all did this.
