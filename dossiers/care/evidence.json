@@ -7065,5 +7065,76 @@
     "stance": "supports"
    }
   ]
+ },
+ {
+  "id": "EV-CAR-371",
+  "statement": "OPM says the FEHB Program, including the Postal Service Health Benefits Program, covers approximately 8.2 million federal employees, Postal Service employees and their eligible family members, as well as certain Tribal employees, about 2.4% of the U.S. population.",
+  "claim": "data",
+  "figures": [
+   "8.2 million",
+   "2.4%"
+  ],
+  "source": "SRC-3310",
+  "anchor": [
+   "benefits to approximately 8.2 million federal employees, U.S. Postal Service",
+   "and their eligible family members. This represents roughly 2.4% of the total U.S."
+  ],
+  "grade": "A",
+  "locator": "Page 1, opening paragraph",
+  "fact_date": "2025-11",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Office of Personnel Management (Trump administration), plan year 2026 open season summary. The count includes annuitants and family members of every age; OPM does not split it here by Medicare status, so the project's share of it inside CBO's employment-based count is a working range (6-7 million people under 65 or without Medicare as primary coverage).",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-372",
+  "statement": "CRS reports 9.4 million Military Health System beneficiaries in FY2024, of whom about 2.5 million are TRICARE for Life eligibles: Medicare-eligible retirees and family members aged 65 or older.",
+  "claim": "data",
+  "figures": [
+   "9.4 million",
+   "2.5M"
+  ],
+  "source": "SRC-3311",
+  "anchor": [
+   "In FY2024, there were 9.4 million total MHS beneficiaries (see Figure 1).",
+   "name: 'TRICARE for Life Eligibles',",
+   "customValue: '2.5M',",
+   "\"TRICARE for Life Eligibles\" are Medicare-eligible beneficiaries, including retirees and retiree family members ≥65."
+  ],
+  "grade": "A",
+  "locator": "'Beneficiaries' section and Figure 1 (chart data, first slice, and notes)",
+  "fact_date": "2024",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Congressional Research Service (nonpartisan) primer IF10530, updated January 14, 2026, citing DOD data; the category counts are the chart's labels. People under 65 with civilian employer coverage as their primary coverage are counted by CBO as ordinary employment-based enrollees, so the TRICARE share of CBO's cell is a working range (4.5-6.9 million).",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-373",
+  "statement": "By law the Government's biweekly contribution for an FEHB enrollee equals 72 percent of the program-wide weighted average premium, and may not exceed 75 percent of the plan's subscription charge.",
+  "claim": "data",
+  "figures": [
+   "72 percent",
+   "75 percent"
+  ],
+  "source": "SRC-3312",
+  "anchor": [
+   "is adjusted to an amount equal to 72 percent of the weighted average under subsection (a)(1)(A) or (B), as applicable.",
+   "shall not exceed 75 percent of the subscription charge."
+  ],
+  "grade": "A",
+  "locator": "Subsection (b)(1) and (b)(2)",
+  "fact_date": "2023",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Current law, U.S. Code 2023 edition (govinfo). This is the share of FEHB premiums the federal government pays today, which the plan would replace (HLT-7.26).",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
  }
 ]
