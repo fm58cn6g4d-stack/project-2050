@@ -95,14 +95,15 @@ def gf_test(opts):
     return round(total, 2), round(top1, 2), round(corpstat, 2), round(100 * (top1 + corpstat) / total)
 
 QO = ["C18", "C35", "C19b", "C20", "C38", "C39", "C40", "C41", "C43"]   # the decided package (Decision Briefs 1 and 2)
+QH7 = ["H7h", "H7w", "H7x"]   # the single plan (HLT-7) and HX: premiums and out-of-pocket costs removed, premiums into pay, the exclusion's tax
 QEDU = ["C18", "C35", "C38", "C39", "C40", "C41", "C43", "EDUP", "EDUB"]   # EDU-9B (held) in place of C19b and C20
 SCEN = {
     "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, C39-C41 and C43": (QO, ()),
     "A. Base package only (gap unfunded)": ([], ()),
     "Q-C19. Q with the exclusion cap at the median premium (C19, the fallback)": ([o if o != "C19b" else "C19" for o in QO], ()),
-    "Q-H5p. Q with no hospital-price pass-through to wages": (QO, ("H5p",)),
     "Q-SAF. Q with SAF-R2 (alcohol excise dropped)": (QO + ["SAFR2"], ()),
     "Q-EDU. Q with the EDU-9B education fund (held) in place of C19b and C20": (QEDU, ()),
+    "Q-H7. Q with the single plan's household rows (H7h, H7w, H7x), before the settlement's new taxes; not a pass or fail": (QO + QH7, ()),
 }
 
 if __name__ == "__main__":

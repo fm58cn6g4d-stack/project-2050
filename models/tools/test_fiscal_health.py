@@ -8,7 +8,9 @@ only, plus the dossier's own path script through health_booking.py. Checks that:
 - the plan's net cost on the model's basis (HLT-1 plus HLT-7's spending line, less HX) is the dossier's $24.56T;
 - the employer contribution is not booked on any channel, and HX is general-fund base revenue;
 - HLT-3 and HLT-5 are retired, HLT-1, HLT-2 and HLT-6 end with the 2035 endpoint, and HLT-4's retired parts end
-  with their waves while its long-term care and safety-net parts continue.
+  with their waves while its long-term care and safety-net parts continue;
+- the household test's health rows (incidence-rows.csv H7h, H7w, H7x, with PB, H2 and H5p; their keys and phase-in
+  shapes) equal health_booking.py's incidence() derivation (care follow-up 2).
 """
 import csv
 import importlib.util
@@ -114,6 +116,39 @@ class HealthBooking(unittest.TestCase):
         self.assertGreater(ltc[2040], ltc[2039])
         total = self.path("HLT-4")
         self.assertAlmostEqual(sum(total[y] for y in W) / 1000, self.bills["HLT-4"]["gf_mid"], places=9)
+
+
+class HealthIncidence(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.inc = HB.incidence()
+        cls.rows = {r["id"]: r for r in rows("incidence-rows.csv")}
+        cls.keys = {r["key"]: r for r in rows("incidence-keys.csv")}
+        cls.phase = {r["id"]: r for r in rows("incidence-phase-in.csv")}
+
+    def test_rows_equal_the_derivation(self):
+        for rid in ("H7h", "H7w"):
+            self.assertEqual(float(self.rows[rid]["amount"]), self.inc["rows"][rid], rid)
+        self.assertEqual(self.rows["H7x"]["amount"], "[HX]")
+        self.assertEqual((self.rows["H7x"]["side"], self.rows["H7h"]["side"], self.rows["H7w"]["side"]),
+                         ("cost", "benefit", "benefit"))
+        self.assertEqual(self.rows["H5p"]["amount"], "0")
+        self.assertEqual((self.rows["PB"]["amount"], self.rows["H2"]["amount"]), ("0.28*[HLT-2]", "1.28*[HLT-2]"))
+
+    def test_keys_and_shapes_equal_the_derivation(self):
+        for key, (q, t1) in self.inc["key"].items():
+            k = self.keys[key]
+            self.assertEqual([float(k[c]) for c in ("q1", "q2", "q3", "q4", "q5")], q, key)
+            self.assertEqual(float(k["top1"]), t1, key)
+            self.assertAlmostEqual(sum(q), 100, places=6)
+        for rid, v in self.inc["shapes"].items():
+            r = self.phase[rid]
+            self.assertEqual(r["method"], "norm", rid)
+            self.assertEqual([float(r["y%d" % y]) for y in W], v, rid)
+        self.assertEqual((self.phase["PB"]["same_as"], self.phase["H7x"]["same_as"]), ("H2", "H7w"))
+
+    def test_household_total_is_the_dossiers(self):
+        self.assertAlmostEqual(self.inc["full_scale"]["household_removed"], 1527.5, delta=1.0)  # 6-cost.md part 8
 
 
 if __name__ == "__main__":

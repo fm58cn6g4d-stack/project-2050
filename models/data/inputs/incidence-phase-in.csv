@@ -2,8 +2,8 @@ id,method,same_as,y2030,y2031,y2032,y2033,y2034,y2035,y2036,y2037,y2038,y2039,no
 flat,ramp,,1,1,1,1,1,1,1,1,1,1,default for every row without its own profile
 F2,ramp,,.4,.5,.9,1,1,1,1,1,1,1,
 H3,ramp,,0,.5,1,1,1,1,1,1,1,1,
-H2,ramp,,.3,.7,.8,1,1,1,1,1,1,1,
-PB,ramp,,.3,.7,.8,1,1,1,1,1,1,1,
+H2,norm,,0.0,0.304,0.585,0.848,1.0,0.257,0.0,0.0,0.0,0.0,HLT-2's booked fiscal-year path (health_booking.py legacy_shapes)
+PB,,H2,,,,,,,,,,,as H2
 F3,ramp,,0,1,1,1,1,1,1,1,1,1,
 MR,ramp,,.2,.3,.4,.5,.6,.7,.8,.9,1,1,
 F5,ramp,,.2,.4,.5,.6,.7,.8,.85,.9,.95,1,
@@ -19,3 +19,9 @@ EDUB,ramp,,.1,.4,.8,1,1,1,1,1,1,1,EDU-9B's added benefits ramp with pre-K (v1.3)
 C1,norm,,66.0,91.0,113.9,157.9,197.9,233.5,264.3,290.7,290.1,290.7,"carbon fee: the carbon model's year-by-year REV-C1 receipts on the revised D7 path ($25 in 2030, D7's steps to 2032, $150 by 2037; build/carbon.json c1_by_year_bn, Oct 26), replacing the v1.4 $25-110 profile"
 E2d,,C1,,,,,,,,,,,the dividend follows the fee
 E2t,,C1,,,,,,,,,,,the transition share follows the fee
+H1,norm,,1.0,0.333,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,HLT-1's booked fiscal-year path (calendar 2030 only)
+H4,norm,,0.295,0.621,0.952,0.94,0.904,0.865,0.883,0.919,0.959,1.0,HLT-4's booked path: its children's and dental parts end as the groups move
+MA,norm,,0.282,0.703,0.862,0.928,1.0,0.255,0.0,0.0,0.0,0.0,HLT-6's booked fiscal-year path (calendar 2030-34)
+H7h,norm,,0.0,0.109,0.152,0.246,0.38,0.715,0.848,0.896,0.946,1.0,health_booking.py incidence(): the groups' moves on the fiscal-year path
+H7w,norm,,0.0,0.054,0.075,0.242,0.482,0.747,0.848,0.896,0.946,1.0,health_booking.py incidence(): HX's moved-share path
+H7x,,H7w,,,,,,,,,,,as H7w (the exclusion ends on the same path)

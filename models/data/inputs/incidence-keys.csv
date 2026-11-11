@@ -39,3 +39,5 @@ low_income_energy,60,40,0,0,0,0,
 brackets_top,0,0,1,8,91,50,
 exclusion_cap,2,10,24,33,31,2,
 surtax,0,0,0,6,94,55,
+health_hh,5.9,12.1,20.6,28.5,32.9,1.4,"premiums and out-of-pocket costs households stop paying under the single plan: the coverage model's four income bands (2032 full scale) crossed to quintiles on the persons key, uniform within a band (health_booking.py band_key); estimate"
+exclusion_end,0.9,9.3,22.4,31.8,35.6,2.5,"tax on former employer premiums that become pay (HX): employer_cov times combined income and payroll marginal rates by quintile (health_booking.py exclusion_key); estimate"

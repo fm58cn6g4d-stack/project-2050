@@ -90,7 +90,8 @@ def health_path():
     res = json.load(open(os.path.join(HP.MODEL, "results.json")))
     restore_cal = {r["year"]: r["federal_bn"] for r in res["fy2030_39"]["restore"]["series"]}[2030]
     return dict(net={y: series[y]["total"] for y in W + [2040]}, excl=excl, contribution=contrib,
-                restore_cal=restore_cal, neutral=neutral, moved=HP.shares_moved, wave2=HP.WAVE2)
+                restore_cal=restore_cal, neutral=neutral, moved=HP.shares_moved, wave2=HP.WAVE2,
+                HP=HP, I=I, B=B, P=P, gf=gf, kids=f["child_share_employer"], employer_premiums=emp)
 
 
 def fiscal():
@@ -177,8 +178,120 @@ def booking():
     totals = dict(net_window=sum(hp["net"][y] for y in W) / 1000,
                   with_contribution=(sum(hp["net"][y] for y in W) - sum(hp["contribution"][y] for y in W)) / 1000,
                   contribution_window=sum(hp["contribution"][y] for y in W) / 1000)
-    return dict(years=years, components=comps, ledger=ledger, perms=perms, fy2040=fy2040, totals=totals,
+    hlt4_path = [round(part["ltc"][y] + part["safety_net"][y] + kids[y] + dental[y], 2) for y in W]
+    return dict(years=years, components=comps, ledger=ledger, perms=perms, fy2040=fy2040, totals=totals, hlt4_path=hlt4_path,
                 contribution={y: hp["contribution"][y] for y in W + [2040]})
+
+
+# ---- the household test (D3): HLT-7's household rows (incidence-rows.csv H7h, H7w, H7x) ----
+# Quintile boundaries on the persons key of incidence-keys.csv (cumulative shares of people), for the crosswalk from
+# the coverage model's four income bands (<138%, 138-250%, 250-400%, 400%+ of poverty) to quintiles.
+PERSONS_KEY = (15, 18, 21, 22, 24)
+PERSONS_TOP1 = 1.0
+GROUP_KEY = {"esi": "employer", "ng_sub": "individual", "ng_unsub": "individual", "medicaid": "medicaid",
+             "medicare": "medicare", "uninsured": "uninsured"}
+
+
+def household_removed(hp):
+    """Premiums and out-of-pocket costs households stop paying, by moving group and by income band, at the coverage
+    model's full scale (2032 basis, $ billion): the baseline's household cost less the plan's copays."""
+    M, I, B, P = hp["HP"].M, hp["I"], hp["B"], hp["P"]
+    base = M.run(I, {}, B)["household"]
+    sp = hp["HP"].model_full(I, B, P)["household"]
+    sp_pp = sp["by_source"]["sp"]["oop_pp"]
+    left_unins = sp["by_source"].get("uninsured", {"people": 0.0})["people"]
+    by_group = {}
+    for s, k in GROUP_KEY.items():
+        v = base["by_source"][s]
+        n = v["people"] - (left_unins if s == "uninsured" else 0.0)
+        by_group[k] = by_group.get(k, 0.0) + n * (v["premium_pp"] + v["oop_pp"] - sp_pp) / 1000
+    total = base["total_bn"] - sp["total_bn"]
+    scale = total / sum(by_group.values())          # the group split's rounding, so the groups add to the total
+    by_group = {k: v * scale for k, v in by_group.items()}
+    bands = [(b0["people"], b0["premiums_bn"] + b0["oop_bn"] - b1["premiums_bn"] - b1["oop_bn"])
+             for b0, b1 in zip(base["by_band"], sp["by_band"])]
+    return dict(total=total, by_group=by_group, bands=bands)
+
+
+def band_key(bands):
+    """Crosswalk of band amounts to quintile shares (%), uniform per person within a band, people ranked by income;
+    the top 1% is the top 1% of people at the 400%+ band's average."""
+    pop = sum(n for n, _ in bands)
+    total = sum(a for _, a in bands)
+    edges, c = [], 0.0
+    for n, a in bands:
+        edges.append((c, c + n / pop, a))
+        c += n / pop
+    q, lo = [], 0.0
+    for s in PERSONS_KEY:
+        hi = lo + s / 100
+        q.append(sum(a * max(0.0, min(hi, e1) - max(lo, e0)) / (e1 - e0) for e0, e1, a in edges) / total * 100)
+        lo = hi
+    n4, a4 = bands[-1]
+    top1 = (PERSONS_TOP1 / 100) * (a4 / (n4 / pop)) / total * 100
+    return close(q), round(top1, 1)
+
+
+def close(q):
+    """Shares rounded to 0.1 that add to exactly 100 (the largest takes the rounding)."""
+    q = [round(x, 1) for x in q]
+    big = q.index(max(q))
+    q[big] = round(100 - sum(x for k, x in enumerate(q) if k != big), 1)
+    return q
+
+
+# The tax on former premiums (HX) by quintile: the employer_cov key (incidence-keys.csv, where employer premiums
+# fall) times a combined income and payroll marginal rate per quintile. Working assumption: payroll tax (15.3%) for
+# every quintile, less the EITC's offset in Q1, the income tax brackets above it, and the payroll cap in the top 1%.
+EMPLOYER_COV_KEY = ((3, 12, 24, 31, 30), 2)
+MARGINAL_RATES = ((0.10, 0.25, 0.30, 0.33, 0.38), 0.40)
+
+
+def exclusion_key():
+    (q, t1), (r, rt1) = EMPLOYER_COV_KEY, MARGINAL_RATES
+    w = [a * b for a, b in zip(q, r)]
+    return close([x / sum(w) * 100 for x in w]), round(t1 * rt1 / sum(w) * 100, 1)
+
+
+def incidence():
+    """HLT-7's household rows on the booked fiscal-year path, FY2030-39 ($ trillion), with their year shapes and the
+    distribution key for household premiums and out-of-pocket costs removed."""
+    hp = health_path()
+    HP, gf = hp["HP"], hp["gf"]
+    hh = household_removed(hp)
+    cal = {}
+    for y in range(2030, 2041):
+        sh = HP.shares_moved(y)
+        sh["employer"] = HP.employer_share(y, hp["kids"])
+        cal[y] = sum(hh["by_group"][k] * sh[k] for k in hh["by_group"]) * gf[y]
+    h7h = fy(cal)
+    # employer-paid premiums that become wages (full pass-through, HX's convention): the same moved-share path as HX
+    wages = {y: hp["excl"][y] * hp["employer_premiums"] / excl_full(hp) for y in W + [2040]}
+    tn = lambda d: round(sum(d.get(y, 0.0) for y in W) / 1000, 3)  # noqa: E731
+    shape = lambda d: [round(d.get(y, 0.0) / max(d.get(y2, 0.0) for y2 in W), 3) for y in W]  # noqa: E731
+    key, top1 = band_key(hh["bands"])
+    return dict(
+        rows={"H7h": tn(h7h), "H7w": tn(wages), "H7x": tn(hp["excl"])},
+        shapes={"H7h": shape(h7h), "H7w": shape(wages), **legacy_shapes()},
+        key={"health_hh": (key, top1), "exclusion_end": exclusion_key()},
+        full_scale=dict(household_removed=hh["total"], by_group=hh["by_group"], bands=hh["bands"],
+                        employer_premiums=hp["employer_premiums"]),
+        fy2040={"H7h": h7h[2040], "H7w": wages[2040], "H7x": hp["excl"][2040]})
+
+
+def legacy_shapes():
+    """Phase-in shapes (incidence-phase-in.csv, method norm) for the health rows rebooked in #230: H1 (HLT-1), H2 and
+    PB (HLT-2), H4 (HLT-4) and MA (HLT-6), each its booked fiscal-year path scaled to its largest year."""
+    b = booking()
+    sc = lambda v: [round(x / max(v, key=abs), 3) + 0.0 if max(v, key=abs) else 0.0 for x in v]  # noqa: E731
+    return {"H1": sc(b["years"]["HLT-1"]), "H2": sc(b["years"]["HLT-2"]), "H4": sc(b["hlt4_path"]),
+            "MA": sc(b["years"]["HLT-6"])}
+
+
+def excl_full(hp):
+    """The exclusion revenue at full scale (2032 basis), the base HX's path scales."""
+    _, _, _, f = hp["HP"].groups(hp["I"], hp["B"], hp["P"])
+    return f["tax_exclusion"]
 
 
 if __name__ == "__main__":
@@ -193,3 +306,5 @@ if __name__ == "__main__":
         print("perms", b["perms"])
         print("FY2040", {k: round(v, 1) for k, v in b["fy2040"].items()})
         print("totals", {k: round(v, 3) for k, v in b["totals"].items()})
+        if "--incidence" in sys.argv:
+            print("incidence", json.dumps(incidence(), default=str))

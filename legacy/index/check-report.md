@@ -8,19 +8,19 @@
 
 ## 1. Headline numbers
 
-Current values from this run: general-fund claims $37.82T; top-end base $10.94T; ten-year gap $26.88T; gap after accepted options +21.87T; accepted revenue $3.71T; envelope borrowing $1.30T; legacy Senate floor days under F 172; legacy assumed floor-day budget 163; DEC ten-year general-fund deficit $23.30T; DEC total debt, 2056 365.5%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$-1,135.
+Current values from this run: general-fund claims $37.82T; top-end base $10.94T; ten-year gap $26.88T; gap after accepted options +21.87T; accepted revenue $3.71T; envelope borrowing $1.30T; legacy Senate floor days under F 172; legacy assumed floor-day budget 163; DEC ten-year general-fund deficit $23.30T; DEC total debt, 2056 365.5%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$-1,661.
 
 | File | Line | Figure | Quoted | This run |
 | --- | --- | --- | --- | --- |
 | legacy/domains/domain-revenue.md | 12 | ten-year gap | gap of **$5.87T** | $26.88T |
 | legacy/domains/domain-revenue.md | 26 | general-fund claims | $11.72T claims | $37.82T |
-| legacy/domains/domain-revenue.md | 302 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-1,135 |
-| legacy/governing/project-2050-governing-decisions.md | 100 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-1,135 |
+| legacy/domains/domain-revenue.md | 302 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-1,661 |
+| legacy/governing/project-2050-governing-decisions.md | 100 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-1,661 |
 | legacy/governing/project-2050-governing-decisions.md | 104 | ten-year gap | a $5.87T gap | $26.88T |
 | legacy/governing/project-2050-governing-decisions.md | 104 | top-end base | against a $5.85T top-end base | $10.94T |
 | legacy/index/revenue-assignment-audit.md | 72 | general-fund claims | $11.72T of claims | $37.82T |
 | legacy/index/revenue-assignment-audit.md | 118 | general-fund claims | $11.72T of claims | $37.82T |
-| legacy/index/revenue-assignment-audit.md | 176 | incidence scenario Q, fourth quintile | fourth quintile at about +$1,139 | +$-1,135 |
+| legacy/index/revenue-assignment-audit.md | 176 | incidence scenario Q, fourth quintile | fourth quintile at about +$1,139 | +$-1,661 |
 | legacy/index/revenue-assignment-audit.md | 180 | ten-year gap | gap $5.87T | $26.88T |
 | legacy/index/revenue-assignment-audit.md | 180 | top-end base | base $5.85T | $10.94T |
 
