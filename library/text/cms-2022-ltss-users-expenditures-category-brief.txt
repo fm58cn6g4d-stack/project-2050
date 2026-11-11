@@ -1,0 +1,462 @@
+Source: https://www.medicaid.gov/medicaid/long-term-services-supports/downloads/ltss-users-expenditures-category-brief-2022.pdf
+Publisher: Centers for Medicare & Medicaid Services
+Retrieved: 2026-11-11
+Original SHA-256: 226d83eebcfb700217affab7fe99eb4a26ee88d92bf4008440cb8532a607707b
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Medicaid Long-Term Services and Supports Users
+and Expenditures by Service Category, 2022
+Cara Stepanczuk, Alexandra Carpenter, Caitlin Murray, and Andrea Wysocki, Mathematica
+August 29, 2024
+
+Background
+Federal Medicaid rules allow states to cover a wide
+range of institutional and home and community-
+
+Key findings
+•
+
+In 2022, 7.8 million HCBS users accounted for
+$129.4 billion in HCBS spending. HCBS users and
+expenditures increased by 5.1 percent and 12.5
+percent, respectively, from 2021 to 2022.
+
+•
+
+In 2022, 1.5 million institutional service users
+accounted for $71.0 billion in institutional
+spending. Institutional users and expenditures
+increased by 0.8 percent and 6.1 percent,
+respectively, from 2021 to 2022.
+
+•
+
+Fee-for-service (FFS) accounted for 45.8 percent
+of LTSS users and 62.6 percent of LTSS
+expenditures in 2022, whereas managed care
+accounted for 60.2 percent of LTSS users and
+37.4 percent of LTSS expenditures. 1
+
+based long-term services and supports (LTSS).
+
+States use a combination of different programs,
+types of services, and delivery models to serve
+people who need LTSS. This brief presents the
+
+national distribution of Medicaid users and
+expenditures across different home and
+
+community-based services (HCBS) and institutional
+categories for 2022, based on data from the
+
+Transformed Medicaid Statistical Information
+
+System (T-MSIS) Analytic Files (TAF). 2, 3 It also
+1F
+
+2F
+
+describes trends in HCBS and institutional users
+and expenditures between 2021 and 2022. 4
+
+0F
+
+3F
+
+The following 10 HCBS categories used in this analysis align with the services eligible for a temporary
+
+increase of 10 percentage points in the federal medical assistance percentage (FMAP) under section 9817
+of the American Rescue Plan Act of 2021 (ARP): 5 section 1915(c) waiver programs; the section 1915(i)
+4F
+
+HCBS state plan option; section 1915(j) self-directed personal assistance services (PAS) option; section
+1915(k) Community First Choice; the Program of All-Inclusive Care for the Elderly (PACE); state plan
+
+1 The percentage of users who received LTSS through FFS versus managed care does not sum to 100 because some
+
+beneficiaries received both FFS and managed care services at some point during the year.
+
+2 When interpreting findings, please note that the completeness, quality, and consistency of TAF data vary by state.
+
+For more information on the data source, methodology, state anomalies, and data tables, see the Methods box at the
+end of this brief.
+
+3 For more information on the user and expenditure rebalancing ratios, refer to “Trends in Users and Expenditures for
+Home and Community-Based Services as a Share of Total Medicaid LTSS Users and Expenditures,” available at
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+4 The analysis excluded Alabama’s 2021 LTSS measures due to concerns about the quality of the TAF data used in the
+
+calculations. Specifically, the analysis suppresses Alabama’s state-level LTSS measures and excludes the state’s data
+from all national calculations for 2021, which is used as a comparison year in this brief.
+5 For more information on HCBS categories eligible for the temporary FMAP increase under the ARP section 9817,
+
+refer to https://www.medicaid.gov/sites/default/files/2022-03/smd21003-update.pdf.
+
+Mathematica® Inc.
+
+1
+
+personal care services; state plan home health services; state plan rehabilitative services; state plan case
+management services; and state plan private duty nursing services. 6
+5F
+
+We defined four institutional categories that align with previously published expenditure analyses: 7
+6F
+
+nursing facility, intermediate care facility for individuals with intellectual disabilities (ICF/IID), mental health
+facility, and mental health facility disproportionate-share hospital (DSH) payments. 8, 9
+7F
+
+8F
+
+Distribution of Users and Expenditures by HCBS Category
+HCBS users by category. Nationwide, 7,845,187 people received HCBS in 2022 through a variety of
+
+Medicaid HCBS waiver programs and state plan options. 10 The largest share of HCBS users received state
+9F
+
+plan rehabilitative services (2,370,845, or 30.2 percent); state plan home health services (2,366,700, or 30.2
+percent); state plan case management services (1,763,778, or 22.5 percent); and section 1915(c) waiver
+
+program services (1,759,329, or 22.4 percent) (Figure 1). Fewer HCBS users received HCBS through other
+programs and options, including state plan personal care services (852,984, or 10.9 percent); the section
+
+1915(j) self-directed PAS option 11 (593,924, or 7.6 percent); the section 1915(i) HCBS state plan option
+10F
+
+425,429, or 5.4 percent); section 1915(k) Community First Choice (162,815, or 2.1 percent); PACE (79,413,
+
+or 1.0 percent); and state plan private duty nursing services (66,711, or 0.8 percent).
+
+6 We assigned each claim to one category, with program-based services, for which enrollment information exists,
+
+assigned first (including section 1915(c) waiver programs, section 1915(i) HCBS state plan option, section 1915(j) selfdirected PAS option, section 1915(k) Community First Choice, Money Follows the Person [MFP] demonstration, and
+PACE), followed by state plan services. State plan benefits refer to section 1905(a) state plan services. MFP
+demonstration services are included as an individual category in accompanying table output, but they are not
+included in the aggregate calculations of total HCBS or total LTSS expenditures or users in this brief because they are
+not part of section 9817 of the ARP.
+7 LTSS expenditure reports for prior years are available at https://www.medicaid.gov/medicaid/long-term-servicessupports/reports-evaluations/index.html.
+8 Data for mental health facilities included institutions for mental disease (IMDs) for people ages 65 and older and
+inpatient psychiatric facilities for people younger than 21. In addition, data on mental health facilities may have
+included services furnished in accordance with section 1915(l) of the Act - services provided to Medicaid beneficiaries
+aged 21 through 64 who have at least one substance use disorder diagnosis and reside in an eligible IMD. Some
+states cover services for adults ages 21 to 64 receiving inpatient treatment in IMDs through section 1115
+demonstration authority or as an “in lieu of service or setting” (ILOS) under managed care in accordance with 42 CFR
+438.3(e)(2) and 438.6(e); however, we could not ensure this group was included in the mental health facilities category
+because there was no recommended (tested) method of reliably identifying this population in the TAF. Hospitals are
+not included in the definition of institutional LTSS; although, these are Medicaid facilities. CMS has not historically
+counted hospitals as part of institutional LTSS for tracking LTSS expenditures and use.
+9 As required by federal law, state Medicaid agencies distribute DSH payments to institutions that serve a large
+number of Medicaid beneficiaries and people without insurance to support the institutions’ financial stability. These
+direct provider payments can be viewed as part of a state’s overhead cost for providing institutional LTSS to people
+with low resources.
+10 The percentage of users across different HCBS categories does not sum to 100 because some beneficiaries received
+more than one type of HCBS during the year.
+11 Based on data quality checks and feedback from states, relative to other categories, many states misreported data
+on users of the section 1915(j) self-directed PAS option, so counts and expenditures for this category should be
+interpreted with caution.
+Mathematica® Inc.
+
+2
+
+HCBS expenditures by category. The ordering of HCBS categories by expenditures is much different
+
+from the ordering of categories by user counts. This could be due to the cost of services per unit, different
+
+populations served, and variation in the intensity and duration of services for different categories of HCBS
+(Figure 1). These factors result in larger variation across the categories for expenditures. HCBS
+
+expenditures totaled $129.4 billion nationwide in 2022, with the largest share for people receiving section
+1915(c) waiver program services ($62.4 billion, or 48.3 percent). Much smaller shares of HCBS
+
+expenditures went toward the section 1915(j) self-directed PAS option ($14.9 billion, or 11.5 percent); the
+
+section 1915(i) HCBS state plan option ($13.3 billion, or 10.3 percent); state plan personal care services
+
+($11.2 billion, or 8.6 percent); state plan home health services ($7.8 billion, or 6.0 percent); state plan
+
+rehabilitative services ($6.7 billion, or 5.2 percent); section 1915(k) Community First Choice ($4.2 billion, or
+
+3.3 percent); state plan case management services ($3.6 billion, or 2.8 percent); PACE ($3.2 billion, or 2.5
+
+percent); and state plan private duty nursing services ($1.9 billion, or 1.5 percent).
+
+Mathematica® Inc.
+
+3
+
+Figure 1. Distribution of Medicaid HCBS users and expenditures by category, 2022
+
+Source: Mathematica’s analysis of the 2022 TAF Release 1.
+
+Mathematica® Inc.
+
+4
+
+Note:
+
+We defined HCBS categories based on section 9817 of the ARP. The percentage of users across the categories does not
+sum to 100 because some beneficiaries received more than one type of HCBS during the year. Based on data quality checks
+and feedback from states, relative to other categories, many states misreported data on section 1915(j) self-directed PAS
+claims, resulting in higher counts than expected; therefore, these counts should be interpreted with caution.
+
+ARP = American Rescue Plan Act of 2021; HCBS = home and community-based services; PACE = Program of All-Inclusive Care for
+the Elderly; PAS = personal assistance services; TAF = Transformed Medicaid Statistical Information System Analytic File.
+
+HCBS users and expenditures by delivery system. More HCBS users received services through
+
+managed care (62.4 percent) versus FFS (43.2 percent). 12 However, HCBS delivered through FFS accounted
+11F
+
+for a higher proportion of expenditures (62.0 percent for FFS versus 38.0 percent for managed care). 13
+12F
+
+Distribution of Users and Expenditures by Institutional Category
+Institutional service users by category. Far fewer people (1,474,778 users) received institutional services
+
+than HCBS in 2022. There were 81.2 percent fewer users of institutional services than HCBS. The vast
+
+majority of people using institutional care received services at nursing facilities (1,281,127, or 86.9 percent)
+
+(Figure 2). 14 Fewer people received services at mental health facilities (137,368, or 9.3 percent) or at
+13F
+
+ICFs/IID (71,659, or 4.9 percent).
+
+Institutional LTSS expenditures by category. Expenditures for institutional LTSS totaled $71.0 billion
+
+nationwide in 2022, 45.1 percent less than HCBS expenditures. Similar to the patterns for institutional
+
+service users, the vast majority of institutional LTSS expenditures were for services at nursing facilities
+
+($59.1 billion, or 83.2 percent) (Figure 2). Although mental health facility users outnumbered ICF/IID users,
+
+expenditures were higher for services at ICFs/IID ($9.2 billion, or 12.9 percent). Mental health facility
+
+expenditures were a small share of total institutional expenditures ($2.6 billion, or 3.7 percent), and mental
+
+health facility DSH payments 15 accounted for about $89.4 million, or 0.1 percent of total institutional
+expenditures.
+
+14F
+
+Institutional LTSS users and expenditures by delivery system. FFS delivery of institutional services was
+more common than delivery through managed care (58.2 percent versus 47.5 percent), and FFS delivery
+
+made up a greater share of total institutional expenditures (63.5 percent versus 36.3 percent).
+
+12 The percentage of users who received HCBS through FFS versus managed care does not sum to 100 because some
+
+beneficiaries received both FFS and managed care services at some point during the year.
+
+13 FFS expenditures represent state payments to providers, whereas managed care expenditures in this analysis
+
+represent managed care plan payments to providers (except for PACE expenditures, which represent capitation
+payments from states to PACE plans). Therefore, the managed care expenditures in this analysis likely underestimate
+the total amount states pay to managed care plans to cover HCBS for their members because the capitation
+payments from states to managed care plans are based on both the amount to cover the anticipated health care costs
+of covered enrollees as well as payments to cover plan administration, reserves, and profit.
+
+14 The percentage of users across different institutional service categories does not sum to 100 because some
+
+beneficiaries received more than one type of institutional care during the year.
+
+15 We have not directly assessed the quality and completeness of TAF data on mental health facility DSH payments
+
+and other financial transactions. Therefore, the expenditures attributed to that category should be interpreted with
+caution.
+
+Mathematica® Inc.
+
+5
+
+Figure 2. Distribution of Medicaid institutional users and expenditures by category, 2022
+
+Source: Mathematica’s analysis of the 2022 TAF Release 1.
+Note:
+
+Expenditure calculations include mental health facility DSH payments but the user counts do not include these payments,
+as they cannot be linked to specific Medicaid enrollees. In addition, we have not directly assessed the quality and
+completeness of the TAF data on mental health facility DSH payments and other financial transactions. Therefore, the
+expenditures attributed to that category should be interpreted with caution.
+
+DSH = disproportionate-share hospital; ICFs/IID = intermediate care facilities for individuals with intellectual disabilities; TAF =
+Transformed Medicaid Statistical Information System Analytic File.
+
+Trends in LTSS Users and Expenditures
+LTSS user and expenditure trends by category. The balance of LTSS continued to shift toward HCBS
+from 2019 to 2022, as users and expenditures for HCBS increased and users and expenditures for
+
+institutional LTSS declined from 2019 to 2021 before increasing in 2022 (Figure 3). From 2021 to 2022
+
+alone, the number of HCBS users rose 5.1 percent (from 7.5 to 7.8 million), while the number of
+
+institutional service users rose only 0.8 percent (from 1.46 to 1.47 million). Expenditures for HCBS
+
+increased by 12.5 percent (from $115.0 to $129.4 billion), whereas expenditures for institutional services
+increased by 6.1 percent (from $66.9 to $71.0 billion).
+
+From 2021 to 2022, the HCBS categories with the largest percentage of increases in users were state plan
+private duty nursing services (24.4 percent, from 53,624 to 66,711); the section 1915(i) HCBS state plan
+
+option (19.7 percent, from 355,524 to 425,429); 16 and the section 1915(j) self-directed PAS option (14.7
+15F
+
+percent, from 517,901 to 593,924). In the same period, the HCBS categories with the largest percentage of
+
+16 We identified section 1915(i) HCBS state plan option users and expenditures for New York in 2022 but not in 2019.
+This was a major contributor to the change in section 1915(i) HCBS state plan option users and expenditures during
+that time.
+
+Mathematica® Inc.
+
+6
+
+increases in HCBS expenditures were the section 1915(j) self-directed PAS option 17 (25.6 percent, from
+16F
+
+$11.9 billion to $14.9 billion) and section 1915(k) Community First Choice (24.5 percent, from $3.4 to $4.2
+
+billion). None of the HCBS categories had decreases in users or expenditures from 2021 to 2022.
+
+Two institutional categories had increases in users and expenditures from 2021 to 2022. Users of nursing
+
+facility services rose 0.8 percent (from 1.27 to 1.28 million), and users of mental health facility services rose
+
+3.8 percent (from 132,299 to 137,368). Likewise, expenditures for nursing facility services rose 7.2 percent
+
+(from $55.1 to $59.1 billion), and expenditures for mental health facility services rose 7.8 percent (from
+
+$2.4 to $2.6 billion). In contrast, users of ICF/IID services fell by 3.8 percent (from 74,498 to 71,659), and
+
+expenditures fell by 1.4 percent (from $9.3 billion to $9.2 billion).
+
+Figure 3. Medicaid HCBS and institutional LTSS users and expenditures, 2019–2022
+
+Source: Mathematica’s analysis of the 2022 TAF Release 1. We obtained data for 2019 to 2021 from Stepanczuk, Cara, Michelle
+Eckstein, Aparna Kachalia, Alexandra Carpenter, and Andrea Wysocki. “Medicaid Long-Term Services and Supports Use and
+Expenditures by Service Category, 2019–2021.” Mathematica, July 24, 2024.
+Note:
+
+Due to data quality concerns, national user and expenditure calculations for 2021 exclude Alabama’s data.
+
+HCBS = home and community-based services; TAF = Transformed Medicaid Statistical Information System Analytic File.
+
+17 Based on data quality checks and feedback from states, relative to other categories, many states misreported data
+
+on section 1915(j) self-directed PAS option claims, resulting in higher counts than expected; therefore, counts and
+expenditures for this category should be interpreted with caution.
+
+Mathematica® Inc.
+
+7
+
+LTSS user and expenditure trends by delivery system. From 2021 to 2022, the number of users
+
+nationwide who received LTSS through FFS increased by 4.0 percent (from 4.0 to 4.2 million), and the
+
+number of users who received LTSS through managed care increased by 4.6 percent (from 5.2 to 5.5
+
+million). Expenditures for LTSS delivered through FFS rose by 11.2 percent (from $112.7 to $125.3 billion),
+
+and expenditures for LTSS delivered through managed care rose by 8.5 percent (from $69.1 to $74.9
+
+billion).
+
+From 2021 to 2022, the number of users who received HCBS increased at similar rates by delivery system:
+
+the number receiving HCBS through FFS rose by 4.4 percent, and the number receiving HCBS through
+
+managed care rose by 4.8 percent. Expenditures for HCBS delivered through FFS and managed care also
+
+both increased (14.4 percent and 9.7 percent, respectively).
+
+From 2021 to 2022, the number of institutional service users increased slightly for both delivery system
+
+types. Users of institutional services delivered through FFS rose by 1.8 percent (from 843,037 to 858,131),
+and users of institutional services delivered through managed care rose by 0.1 percent (from 698,957 to
+
+699,882). FFS expenditures for institutional services increased by 5.9 percent (from $42.6 to $45.1 billion),
+
+and managed care expenditures for institutional services increased by 6.3 percent (from $24.3 to $25.8
+
+billion).
+
+Conclusions
+Far more people received HCBS than institutional services in 2022, and HCBS expenditures accounted for
+a larger share of LTSS spending than institutional services. States used a combination of different
+
+programs and state plan options to deliver these services. State plan rehabilitative services were the most
+common among HCBS users, section 1915(c) waiver program services comprised the largest HCBS
+expenditure category, and nursing facility users and expenditures accounted for the majority of
+
+institutional users and expenditures. Although fewer users received LTSS through FFS than through
+
+managed care in 2022 (4.2 million and 5.5 million, respectively), most LTSS expenditures were for services
+
+delivered through FFS ($125.3 billion, or 62.6 percent). These trends suggest that although the use of
+
+managed care to deliver LTSS has grown considerably over time, FFS is still a major delivery model for
+LTSS.
+
+Mathematica® Inc.
+
+8
+
+Methods
+This brief contains a snapshot of LTSS user and expenditure output, focusing on trends in HCBS and institutional
+users and expenditures by service category. All LTSS user and expenditure calculations are based on TAF data. For
+this analyses, institutional LTSS include nursing facilities, ICFs/IID, and mental health facilities. Hospitals are not
+included in the definition of institutional LTSS, although these are Medicaid facilities. For expenditures only,
+institutional LTSS also include DSH payments to mental health facilities. HCBS include section 1915(c) waiver
+programs, the section 1915(i) HCBS state plan option, the section 1915(j) self-directed PAS option, section 1915(k)
+Community First Choice, the PACE, state plan personal care services, state plan home health services, state plan
+rehabilitative services, state plan case management services, and state plan private duty nursing services. We
+reported Money Follows the Person demonstration services as an individual category in accompanying table
+output but did not include these services in the aggregate calculations of total HCBS or total LTSS expenditures or
+users. Except for PACE expenditures and DSH payments to mental health facilities, LTSS expenditures include FFS
+expenditures, managed care plan payments to providers for managed care services, and supplemental wraparound
+payments that are associated with a specific beneficiary above the negotiated per-service rate; these add-on
+payments are distinct from the supplemental payments made under the Upper Payment Limit (UPL) demonstration.
+We assigned these expenditures to a specific LTSS category based on relevant TAF claim codes, including type of
+service, benefit type, program type, and waiver type. For PACE expenditures, we used capitation payment records
+and service-tracking claims. For DSH payments to mental health facilities, we used service-tracking claims and
+supplemental payment records. Except for PACE, we identified LTSS users for each LTSS category using FFS claims
+and managed care encounters, based on the same codes used to identify claims for the expenditure calculations.
+For PACE user counts, we identified enrollees based on enrollment records. Except for dual-eligibility status, which
+is based on the majority of enrolled months, we based the characteristics of enrollees on the most recent valid
+values in the calendar year.
+In addition, refer to the following resources:
+•
+
+More information on data and methods can be found in the accompanying document titled “Methodology for
+Identifying Medicaid Long-Term Services and Supports Expenditures and Users, 2022.”
+
+•
+
+State data and anomaly notes are included in the accompanying document titled “Data Notes for Medicaid TAF
+Long-Term Services and Supports Annual Expenditures and Users, 2022.”
+
+•
+
+Data tables for 2022 are available at https://www.medicaid.gov/medicaid/long-term-services-supports/reportsevaluations/index.html.
+
+Acknowledgments
+This research brief was prepared by Mathematica under contract with the Centers for Medicare &
+Medicaid Services (HHSM-500-2014-00034I/75FCMC19F0007). The authors thank the Division of
+
+Community Systems Transformation within the Centers for Medicare & Medicaid Services for its guidance
+
+and feedback. At Mathematica, we thank Miaomiao Shen, Aparna Kachalia, and Rachel Hildrich Gross for
+programming support.
+
+Suggested citation: Stepanczuk, Cara, Alexandra Carpenter, Caitlin Murray, and Andrea
+Wysocki. “Medicaid Long-Term Services and Supports Users and Expenditures by Service
+Category, 2022.” Mathematica, August 29, 2024.
+
+Mathematica® Inc.
+
+9
+
+

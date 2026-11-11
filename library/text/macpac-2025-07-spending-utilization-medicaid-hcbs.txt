@@ -1,0 +1,2182 @@
+Source: https://www.macpac.gov/wp-content/uploads/2025/07/Spending-and-Utilization-for-Medicaid-Home-and-Community-Based-Services.pdf
+Publisher: Medicaid and CHIP Payment and Access Commission
+Retrieved: 2026-11-11
+Original SHA-256: 2cd7b7b06ea135bf0b63d745a25b2fa6631e5e3679e640ce43c76235b052dbb1
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+July 2025
+
+Advising Congress on Medicaid and CHIP Policy
+
+Spending and Utilization for Medicaid Homeand Community-Based Services
+Medicaid home- and community-based services (HCBS) are designed to allow people with long-term services and
+supports (LTSS) needs to live in their homes or a home-like setting in the community. While all states operate
+HCBS programs and provide services to a diverse population, there is limited research and data on how spending
+and utilization, a measure of access to HCBS, vary across subpopulation groupings of LTSS users. LTSS
+subpopulation groupings include individuals belonging to at least one of the following groups: intellectual and
+developmental disabilities (I/DD) or autism spectrum disorder (ASD); under age 65 with potentially disabling
+conditions; older adults; brain injuries; mental illness or serious emotional disturbance (SED) or substance use
+disorder (SUD); and HIV/AIDS. 1
+Access to HCBS has been a long-standing policy priority for the Commission. In the June 2022 report to
+Congress, the Commission discussed a Medicaid access monitoring framework that captures four key domains of
+access: (1) provider availability and accessibility, (2) use of services, (3) beneficiary perceptions and experiences
+of care, and (4) administrative complexity (MACPAC 2022). The Commission discussed analyzing Medicaid
+spending and utilization, which is a measure of the second access domain that addresses use of services, among
+LTSS subpopulation groupings. To this end, we have undertaken a foundational analysis of Medicaid HCBS
+spending and utilization data from calendar years (CY) 2019 through 2021. Our objectives for this analysis are to
+understand how many Medicaid beneficiaries use HCBS, the proportion of the total Medicaid population they
+comprise, the differences that exist across LTSS subpopulation groupings who use HCBS (e.g., types of HCBS
+used or demographic characteristics), and Medicaid spending and utilization patterns for HCBS users from CY
+2019 to 2021.
+In this brief, we focus on HCBS users and expenditures. First, we provide background on the provision of HCBS
+and limitations among existing analyses on HCBS spending and utilization. Then, we describe the methodology
+for this analysis and discuss key findings across subpopulation groupings of HCBS users.
+
+Background
+LTSS refers to both institutional care and HCBS. It encompasses a wide range of nonmedical services and
+supports for people who need help performing activities of daily living (ADLs) because of physical, cognitive,
+mental, or other disabilities and conditions. Medicaid is the primary payer of LTSS, covering over half of total
+LTSS expenditures nationally in federal fiscal year (FY) 2019 (Murray et al. 2021). HCBS is an optional benefit
+and all states choose to cover some HCBS. States may authorize HCBS through an amendment to their state
+plan, but most states cover HCBS via Section 1915(c) waivers and Section 1115 demonstrations (MACPAC
+2023). States can choose to operate one or multiple HCBS programs under several authorities simultaneously to
+serve different populations. Some states choose state plan options to serve a larger number of individuals, while
+others use waivers as an option to comprehensively serve the needs of select LTSS subpopulation groupings.
+States must also choose whether to administer HCBS through fee-for-service (FFS) or managed care delivery
+systems, or both.
+
+HCBS users and services
+Medicaid beneficiaries who use LTSS are a diverse group, spanning a range of ages, with different types of
+physical and cognitive disabilities, and various service and support needs. In CY 2021, HCBS users accounted for
+
+2
+2.6 percent of the total Medicaid population or over 2.5 million individuals. 2,3 States vary in the types of services
+they offer HCBS users and in how those services are defined, with over 60 specific and distinct services available
+to HCBS users (Peebles and Bohl 2014). To facilitate national analyses of HCBS users and expenditures by
+service type, researchers classified these services into 18 taxonomy categories. 4 In an analysis of HCBS waiver
+utilization by taxonomy category in 2010, case management; home-based services; and equipment, technology,
+and modifications were the most commonly used taxonomy services among HCBS waiver users (Peebles and
+Bohl 2014).
+The Centers for Medicare & Medicaid Services (CMS) provides a list of 12 subpopulation groupings from which
+states can choose to serve HCBS populations for Section 1915(c) waivers (CMS 2022). In our review of waivers,
+we found that many serve more than one of these subpopulation groupings, so for the purpose of this analysis we
+consolidated them into six subpopulation groupings: I/DD or ASD; under age 65 with potentially disabling
+conditions; older adults; brain injuries; mental illness, SED, or SUD; and HIV/AIDS. 5 This organization mirrors
+other studies that used similar groupings and allows for comparisons across similar populations (O’Malley Watts
+et al. 2022, Ross et al. 2021). The services that HCBS users require vary both across and within subpopulation
+groupings by type, intensity, and cost, depending on the recipient’s health and functional status, the nature and
+severity of their disability, the setting in which they reside, and the availability of formal and informal supports.
+
+HCBS expenditures
+As a component of LTSS, Medicaid spending on HCBS surpassed spending on institutional care starting in FY
+2013 (CMS 2023). In CY 2021, Medicaid programs spent approximately $82.5 billion on HCBS compared to
+about $66.6 billion on institutional care. 6 Among HCBS users, total spending on HCBS per user in CY 2021 was
+more than $32,000 and total spending on institutional LTSS per user was more than $45,000.
+Spending on LTSS varies by population, and some beneficiary populations account for a disproportionate share
+of LTSS expenditures relative to their share of LTSS users. For example, beneficiaries with I/DD or ASD
+accounted for 52.5 percent of HCBS spending but only accounted for 30.7 percent of HCBS users in CY 2021
+(Figure 2). However, limited research on spending and utilization across LTSS subpopulations has prevented us
+from identifying the extent of these differences and stratifying these findings by factors that may influence access
+to HCBS.
+
+Analysis
+While research exists on use and spending of LTSS in Medicaid, there is relatively little detailed information
+across various demographic characteristics, LTSS subpopulation groupings, HCBS taxonomy categories, and
+delivery systems (Chidambaram and Burns 2023, Greener et al. 2023, Murray et al. 2023, Rooney et al. 2023).
+Absent additional research, it is challenging to identify the extent to which differences in use and spending in
+Medicaid LTSS occur across these different groups. Through previous MACPAC work, state and federal officials,
+as well as national experts, shared the need to identify potential differences in utilization and spending among
+LTSS subpopulation groupings, but data are lacking. Stakeholders emphasized the importance of stratifying data
+by, for example, race and ethnicity or geographic location to identify differences. One expert noted that these data
+would allow policymakers to monitor and ensure all populations are adequately served.
+In 2017, MACPAC, in collaboration with Mathematica, analyzed HCBS use and spending patterns for Medicaid
+FFS HCBS users and beneficiary subgroups from 2010 through 2013 using Medicaid Analytic eXtract (MAX) data
+(Peebles et al. 2017). 7 However, due to data quality concerns with the MAX files, the study did not include HCBS
+delivered under a state plan or managed care. In the 2017 report, Mathematica suggested expanding research
+efforts to classify state plan services to the HCBS taxonomy categories (Peebles et al. 2017). This brief updates
+the 2017 study using data from the Transformed Medicaid Statistical Information System (T-MSIS) analytic files
+(TAF), and summarizes HCBS utilization and spending by subpopulation groupings.
+
+3
+
+Methodology
+We partnered with Mathematica to analyze TAF data for calendar years 2019 through 2021, the most recent
+years that were available when we started the project. 8 The TAF include eligibility, demographic, and claims
+information for all Medicaid beneficiaries. We used the TAF Demographics and Eligibility (DE) file, Other Services
+(OT) file, Inpatient (IP) file, and Long-Term Care (LT) file for this analysis. In addition, we used the Race and
+Ethnicity Imputation (REI) TAF companion file to supplement the state-reported TAF race and ethnicity variable.
+There are several approaches to identifying HCBS users and their expenditures (MACPAC 2024). For this
+analysis, we adapted the methodology from several existing approaches; therefore, the results are not directly
+comparable to other published reports mentioned throughout this brief. We adapted the methodology developed
+for CMS’s LTSS Expenditures and Users Reports to identify Section 1915 claims and the KFF State Health Facts
+approach to identify Section 1115 demonstration claims for select states that do not deliver HCBS under Section
+1915 authorities (Stepanczuk et al. 2024a, Chidambaram and Burns 2023). We also used the HCBS taxonomy
+approach to isolate Section 1115 demonstration HCBS claims and to identify service categories under Section
+1915 and 1115 HCBS authorities (Rooney et al. 2023). For more information on the various methodological
+approaches to identifying HCBS users and expenditures, please see MACPAC’s publication on Methodological
+Approaches for Analyzing Use and Spending in Medicaid Long-Term Services and Supports: A Comparative
+Review (MACPAC 2024).
+
+LTSS claims
+To identify HCBS and institutional LTSS claims, we adapted the approach used in the TAF-based LTSS
+Expenditure and User Reports (Stepanczuk et al. 2024a). To determine whether a claim was paid for by an HCBS
+authority (i.e., Sections 1915(c), 1915(i), 1915(j), and 1915(k) of the Social Security Act), we relied on the claim’s
+program type, waiver type, HCBS service type, or benefit type. Because what a state reports in these four data
+elements can conflict, we employed a hierarchical approach tested and validated by the LTSS Expenditure and
+User Reports, which prioritizes the program type code found on the claim, followed by the waiver type code,
+HCBS service code, and benefit type code. For four states without Section 1915(c) waivers—Arizona, New
+Jersey, Rhode Island, and Vermont—we adapted the KFF State Health Facts methodology to identify claims
+under their Section 1115 demonstrations (Chidambaram and Burns 2023). To identify institutional LTSS claims
+and classify the service by facility type, we used service type and benefit type on claims in the LT TAF file.
+
+Beneficiary characteristics
+After identifying LTSS claims, we linked the claims to the eligibility file using beneficiaries’ unique identification
+numbers to retain beneficiaries that met the inclusion criteria. To be included in the study population of HCBS or
+institutional LTSS users and expenditures, beneficiaries needed at least one month of Medicaid or Medicaidexpansion Children’s Health Insurance Program (M-CHIP) enrollment and evidence of HCBS or institutional LTSS
+use in a given year. 9,10 Beneficiary characteristics were identified as follows:
+•
+
+Age. We used beneficiaries’ age as of December 31 of the calendar year to classify them into four age
+categories: 0 through 18 years, 19 through 64 years, 65 through 84 years, and 85 years and older.
+
+•
+
+Medicaid eligibility group. Using a combination of age, sex, CHIP code, and Medicaid eligibility group code
+data elements in the TAF DE file, we classified beneficiaries into one of the following eligibility groups: aged,
+blind or disabled, new adults (VIII group), other adults (non-VIII group), children (non-M-CHIP), M-CHIP
+children, pregnancy, and missing/unknown. 11
+
+•
+
+Dual eligibility status. We determined whether a beneficiary was dually eligible for both Medicare and
+Medicaid using the dual eligible code data element in the TAF DE file that shows the beneficiary’s most recent
+status. We classified beneficiaries as full-benefit dual eligibility status, partial-benefit dual eligibility status, or
+Medicaid-only.
+
+4
+•
+
+Sex. We identified beneficiary sex using the same two categories that the DE file uses: female or male.
+
+•
+
+Race and ethnicity. The TAF data element for race and ethnicity is unusable or unreliable in many states.
+Therefore, we used the TAF REI companion file for more complete beneficiary race and ethnicity information
+for this analysis. The REI file supplements state-reported data by estimating race and ethnicity based on
+beneficiary information in the TAF DE file (first name, surname, self-reported race and ethnicity, and
+American Indian or Alaska Native certification); data from the TAF geocoded address companion file for
+beneficiaries; and geographic, race and ethnicity, and surname data from the Census Bureau. LTSS user
+counts and expenditures stratified by race and ethnicity should be interpreted as approximations because the
+calculations use both self-reported and imputed probabilities of a person being classified as a given race and
+ethnicity. In addition, total user counts that are calculated by summing the values of the different race and
+ethnicity amounts may not be equivalent to the true totals because they are approximations.
+
+•
+
+Geographic location. We classified beneficiary ZIP codes as either rural or urban using the U.S. Department
+of Education National Center for Education Statistics (NCES) Education Demographic and Geographic
+Estimates (EDGE) locale classification indicators. We used each year’s corresponding urban or rural locale
+assignment file from NCES EDGE.
+
+LTSS subpopulation groupings
+We adapted the methodology from the CMS LTSS Users and Expenditures reports to identify seven LTSS
+subpopulation groupings (Stepanczuk et al. 2024b). We used beneficiary characteristics such as age, enrollment
+in Section 1915(c) waiver programs, chronic condition diagnoses, and service use to classify LTSS users into any
+of the following LTSS subpopulation groupings: (1) beneficiaries with I/DD or ASD; (2) beneficiaries younger than
+age 65 with potentially disabling conditions; (3) older adults (age 65 and older); (4) beneficiaries with mental
+illness, SED, or SUD; (5) beneficiaries with brain injuries; (6) beneficiaries with HIV/AIDS; and (7) other people
+who use LTSS (i.e., people in our study population that do not meet the criteria for any of the other six
+subpopulation groupings). Beneficiaries who met the criteria for more than one subpopulation were included in
+each of the applicable subpopulation groupings; therefore, subpopulation groupings are not mutually exclusive.
+For purposes of this issue brief, the subpopulation grouping-specific findings focus on the first six subpopulation
+groupings. For more detailed information on the methodology used to identify the LTSS subpopulation groupings,
+refer to Appendix B.
+
+Findings
+Nationally, the number of Medicaid beneficiaries using HCBS increased from 2019 through 2021, while the
+number of institutional LTSS users decreased over that time period (Table 1). However, based on 2021 data, we
+found that there was variation in each state in the share of Medicaid beneficiaries that used HCBS or institutional
+LTSS (Figure 1). In most states, the share of HCBS users was larger than the share of institutional LTSS users.
+The characteristics of HCBS users generally differed from the characteristics of the overall Medicaid population;
+HCBS users were older, more likely to be in the blind or disabled eligibility group, and more likely to be dually
+eligible for Medicare and Medicaid (Table 2). HCBS users generally shared common user characteristics across
+LTSS subpopulation groupings, however there were some variations (Table 2). Also, we found that each
+subpopulation varied in the most used HCBS taxonomy category services, likely reflecting each subpopulation’s
+unique needs (Figures 3–6).
+
+HCBS and institutional LTSS users from 2019 to 2021
+From 2019 through 2021, the total number of Medicaid beneficiaries using HCBS increased, while the total
+number of institutional LTSS users decreased (Table 1). Nationally, the number of Medicaid beneficiaries
+increased from 91.6 million in 2019 to 97.7 million in 2021 (Table 1). In 2019, there were approximately 2.2
+million, or 2.4 percent of Medicaid beneficiaries using HCBS, which increased to 2.5 million users, or 2.6 percent
+
+5
+of Medicaid beneficiaries, in 2021. Over the same time period, the number of institutional LTSS users decreased
+from 1.8 million in 2019 to 1.5 million in 2021.
+TABLE 1. Total Medicaid Beneficiaries, HCBS Users, and Institutional LTSS Users, CYs 2019–2021
+2019
+2020
+2021
+Total
+Total
+Total
+Population
+(thousands)
+% of total (thousands)
+% of total
+(thousands) % of total
+All Medicaid
+91,559
+100%
+91,790
+100%
+97,668
+100%
+beneficiaries
+HCBS users
+2,204
+2.4
+2,494
+2.7
+2,545
+2.6
+Institutional LTSS
+1,769
+1.9
+1,621
+1.8
+1,456
+1.5
+users
+Notes: HCBS is home- and community-based services. LTSS is long-term services and supports. CY is calendar year. This
+table includes data from 49 states and the District of Columbia; Alabama’s data are excluded due to a data reporting issue,
+which impacted national trends. Medicaid beneficiaries who met the enrollment criteria and used both HCBS and institutional
+LTSS in a given year are counted in both groups.
+Source: MACPAC, 2024, analysis of Transformed Medicaid Statistical Information System analytic files data.
+
+State distribution of HCBS users and institutional LTSS users in 2021. The share of Medicaid beneficiaries
+that used HCBS, institutional LTSS, or both varied by state in 2021 (Figure 1). The share of beneficiaries using
+HCBS across states ranged between less than one percent and nine percent. Compared to HCBS users, the
+share of institutional LTSS users across states was lower, which varied between less than one percent and three
+percent. Forty states had a higher share of HCBS users than institutional LTSS users. In 18 states, the share of
+HCBS users was greater than the national average, and in 27 states the share of institutional LTSS users was
+greater than the national average.
+FIGURE 1. State Distribution of HCBS and Institutional LTSS Users as a Share of All Medicaid Beneficiaries, CY
+2021
+12%
+10%
+8%
+
+United States
+
+6%
+4%
+
+0%
+
+New Jersey
+Rhode Island
+Wyoming
+North Dakota
+South Dakota
+New York
+Kansas
+Minnesota
+Pennsylvania
+Illinois
+Idaho
+Mississippi
+Washington
+Ohio
+New Hampshire
+Indiana
+Iowa
+Vermont
+Nebraska
+Massachusetts
+Missouri
+United States
+West Virginia
+Delaware
+Connecticut
+Wisconsin
+Virginia
+Maine
+District of Columbia
+Oklahoma
+Colorado
+South Carolina
+Maryland
+Arkansas
+Georgia
+Florida
+North Carolina
+Montana
+Kentucky
+Oregon
+Utah
+Louisiana
+Nevada
+Texas
+Alaska
+California
+Michigan
+New Mexico
+Hawaii
+Tennessee
+
+2%
+
+HCBS users
+
+Institutional LTSS users
+
+Notes: HCBS is home- and community-based services. LTSS is long-term services and supports. CY is calendar year. Data
+from Alabama and Arizona are excluded from this graph due to data reporting issues. Medicaid beneficiaries who met the
+enrollment criteria and used both HCBS and institutional LTSS in a given year are counted in both groups.
+Source: MACPAC, 2024, analysis of Transformed Medicaid Statistical Information System analytic files data.
+
+6
+
+Medicaid beneficiary and HCBS user characteristics
+The characteristics of HCBS users generally differed from the characteristics of the overall Medicaid population
+but remained relatively consistent from 2019 through 2021; therefore, the remainder of this issue brief will focus
+on data from 2021. Medicaid and M-CHIP covered 97.7 million beneficiaries in CY 2021 (Table 2). Most of the
+overall Medicaid population was younger than age 65 (90.4 percent), not dually eligible for Medicare and
+Medicaid (86.0 percent), and more likely to be in either a child-related eligibility group (i.e., children and M-CHIP
+children) (39.6 percent) or an adult-related eligibility group (i.e., new adult and other adult groups) (37.5 percent).
+Compared to the overall Medicaid population, HCBS users were older, more likely to be in the blind or disabled
+eligibility group, more likely to be dually eligible for Medicare and Medicaid, and less likely to identify as Hispanic.
+Among HCBS users, 40.5 percent were 65 years and older, compared to 9.5 percent of the overall Medicaid
+population. However, beneficiaries between ages 19 and 64 comprised the largest age group among HCBS users
+(49.7 percent), a proportion similar to the overall Medicaid population (50.5 percent). The largest eligibility group
+among HCBS users was the blind or disabled eligibility group (50.1 percent), followed by beneficiaries in the aged
+eligibility group (40.1 percent). In contrast, children made up the largest eligibility group of Medicaid beneficiaries
+overall (34.5 percent), followed by the new adult group (VIII group) (23.5 percent). HCBS users were also less
+likely to identify as Hispanic (15.7 percent), compared to the overall Medicaid population (27.0 percent). The
+distribution of sex and geographic location among HCBS users generally aligned with those of the overall
+Medicaid population.
+TABLE 2. Comparing Demographic Characteristics of Medicaid Beneficiaries and HCBS Users, CY 2021
+
+Demographic
+characteristics
+
+All Medicaid All HCBS
+beneficiaries users
+97,668
+2,545
+
+Total (thousands)
+Age
+0–18
+19–64
+65–84
+85 and older
+Sex
+Male
+Female
+Eligibility
+Aged
+Blind or disabled
+New adults (VIII
+group)1
+Other adults (nonVIII group)
+Children
+M-CHIP children2
+Pregnancy
+Dually eligible status3
+Full-benefit
+Partial-benefit
+
+I/DD or
+ASD
+782
+
+<65 with
+Mental
+potentially
+illness,
+disabling
+Older
+Brain SED, or
+condition(s) adults injuries
+SUD
+555
+1,029
+31
+1,030
+
+HIV/
+AIDS
+27
+
+39.9%
+50.5
+8.1
+1.4
+
+9.8%
+49.7
+30.9
+9.6
+
+20.3%
+71.8
+7.6
+0.3
+
+8.9%
+91.1
+–
+–
+
+–
+–
+76.4%
+23.6
+
+6.4%
+66.7
+23.6
+3.2
+
+6.6%
+62.6
+26.3
+4.4
+
+0.3%
+65.4
+32.4
+2.0
+
+45.0
+55.0
+
+44.6
+55.4
+
+60.0
+40.0
+
+49.5
+50.5
+
+31.0
+69.0
+
+54.7
+45.3
+
+44.8
+55.2
+
+50.1
+49.9
+
+9.1
+10.1
+
+40.1
+50.1
+
+7.8
+83.8
+
+–
+88.7
+
+99.1
+0.4
+
+26.2
+61.1
+
+30.4
+58.5
+
+33.6
+56.2
+
+23.5
+
+4.7
+
+2.1
+
+7.1
+
+0.5
+
+8.0
+
+6.1
+
+8.4
+
+14.0
+
+1.4
+
+0.5
+
+2.0
+
+–
+
+1.0
+
+1.9
+
+1.5
+
+34.5
+5.1
+1.8
+
+2.9
+0.5
+0.0
+
+4.6
+0.9
+0.0
+
+1.6
+0.2
+0.0
+
+–
+–
+–
+
+2.8
+0.2
+–
+
+2.5
+0.3
+0.0
+
+0.1
+–
+–
+
+10.4
+3.7
+
+63.5
+1.1
+
+47.8
+0.4
+
+50.8
+0.7
+
+92.5
+1.5
+
+63.1
+0.6
+
+60.9
+0.9
+
+61.2
+1.1
+
+7
+
+Demographic
+All Medicaid All HCBS
+characteristics
+beneficiaries users
+86.0
+35.4
+Medicaid-only
+4
+Race and ethnicity
+43.1
+52.3
+White, non-Hispanic
+21.1
+22.3
+Black, non-Hispanic
+Asian or Pacific
+Islander, non5.7
+8.1
+Hispanic
+1.3
+0.8
+AIAN, non-Hispanic
+Multiracial, non1.7
+0.8
+Hispanic
+27.0
+15.7
+Hispanic, all races
+5
+Geographic location
+79.7
+83.4
+Urban
+19.1
+15.8
+Rural
+
+I/DD or
+ASD
+51.8
+
+<65 with
+Mental
+potentially
+illness,
+disabling
+Older
+Brain SED, or
+condition(s) adults injuries
+SUD
+48.5
+5.9
+36.3
+38.2
+
+HIV/
+AIDS
+37.8
+
+62.8
+16.5
+
+53.9
+27.4
+
+47.9
+21.6
+
+62.9
+23.4
+
+59.1
+21.9
+
+23.2
+55.0
+
+4.1
+
+3.7
+
+13.3
+
+3.5
+
+3.6
+
+2.1
+
+0.8
+
+0.9
+
+0.7
+
+1.0
+
+0.9
+
+0.6
+
+1.0
+
+1.0
+
+0.5
+
+0.8
+
+0.9
+
+0.4
+
+14.8
+
+13.0
+
+16.0
+
+8.4
+
+13.6
+
+18.7
+
+81.3
+18.3
+
+80.4
+19.1
+
+84.8
+14.7
+
+80.9
+18.6
+
+82.2
+16.8
+
+92.5
+7.2
+
+Notes: HCBS is home- and community-based services. CY is calendar year. I/DD is intellectual or developmental disabilities.
+ASD is autism spectrum disorder. <65 is under 65 years old. “Potentially disabling conditions” refers to beneficiaries with the
+presence of diagnosis codes that indicate a possible disability; because there is no disease severity or functional assessment
+data in the Transformed Medicaid Statistical Information System (T-MSIS) analytic files (TAF), we must rely on diagnosis
+codes to indicate that the beneficiaries in the subpopulation grouping have at least one condition that could be the basis of a
+disability. Older adults are those age 65 and older. SED is serious emotional disturbance. SUD is substance use disorder.
+AIAN is American Indian and Alaska Native, non-Hispanic. This table includes data from 49 states and the District of
+Columbia; Alabama’s data are excluded due to a data reporting issue, which impacted national trends. The sum of users
+across the long-term services and supports subpopulation groupings is greater than the total number of HCBS users because
+beneficiaries are counted in each subpopulation grouping for which they which met the criteria. Beneficiaries with missing or
+unknown eligibility group, age, sex, race and ethnicity, or geographic location accounted for less than 2 percent of the
+population and are excluded from this table. Children and adults under age 65 who qualify for Medicaid on the basis of
+disability are included in the blind or disabled eligibility category. Individuals age 65 and older eligible through an aged, blind,
+or disabled pathway are included in the aged eligibility category.
+– Dash indicates zero. 0.0 indicates a value less than 0.05 percent that rounds to zero.
+1 The new adult group includes those enrollees who are eligible under Section 1902(a)(10)(A)(i)(VIII) of the Social Security Act
+(the Act).
+2 Medicaid-expansion CHIP (M-CHIP) is CHIP-financed Medicaid coverage of targeted low-income children that meet the
+
+requirements of section 2103 of the Act.
+
+3 Full-benefit dually eligible beneficiaries receive the full range of Medicaid benefits offered in a given state, in addition to their
+
+Medicare benefits. Medicaid pays Medicare premiums and may also pay the cost-sharing for their Medicare services. When
+individuals receive Medicaid assistance with their Medicare premiums and cost-sharing but are not simultaneously enrolled in
+full Medicaid benefits, they are considered partial-benefit dually eligible beneficiaries.
+
+4 The TAF data element for race and ethnicity is unusable or unreliable in many states. Therefore, we used the TAF race and
+ethnicity imputation (REI) companion file for more complete beneficiary race and ethnicity information. For more information
+regarding the REI file, refer to Appendix B.
+5 Urban or rural location is classified based on beneficiary ZIP codes using the U.S. Department of Education National Center
+
+for Education Statistics Education Demographic and Geographic Estimates locale classification indicators.
+Source: MACPAC, 2024, analysis of TAF data.
+
+8
+
+Characteristics of LTSS subpopulation groupings
+HCBS users generally shared common user characteristics across LTSS subpopulation groupings. For example,
+beneficiaries across most LTSS subpopulation groupings were primarily adults, eligible for HCBS through the
+blind or disabled pathway, identified as white, and resided in urban settings (Table 2). However, some variations
+exist in these trends by LTSS subpopulation grouping.
+Age group. Across all subpopulation groupings, except for older adults, most beneficiaries were adults aged 19–
+64 years (Table 2). Age was used as the primary criteria for inclusion for two subpopulation groupings, older
+adults and beneficiaries under age 65 with potentially disabling conditions, which we observe in the age
+composition of each subpopulation. Older adults only include beneficiaries age 65 years and older and
+beneficiaries under age 65 with potentially disabling conditions only include beneficiaries under age 65.
+Beneficiaries with I/DD or ASD had the largest share of beneficiaries age 18 and younger (20.3 percent), and
+older adults had the largest share of beneficiaries age 85 and older (23.6 percent).
+Sex. The distribution by sex was fairly similar across all subpopulation groupings, with a few slight variations.
+Older adults had the largest share of female HCBS users (69.0 percent) (Table 2). Beneficiaries with I/DD or ASD
+had the largest share of males (60.0 percent), followed by beneficiaries with brain injuries (54.7 percent).
+Eligibility. Most beneficiaries were in the blind or disabled eligibility category across all subpopulation groupings
+except for the older adult subpopulation, which was almost exclusively in the aged eligibility group (age is used as
+part of the definition for the aged eligibility group) (Table 2). After older adults, beneficiaries with HIV/AIDS had
+the lowest share of HCBS users in the blind or disabled eligibility group (56.2 percent), compared to all other
+subpopulation groupings, which ranged from 58.5 percent to 88.7 percent of beneficiaries eligible via the blind or
+disabled pathway by subpopulation grouping. In addition, beneficiaries with I/DD or ASD had largest share of
+HCBS users in the children eligibility group (4.6 percent) compared to all other subpopulation groupings.
+Beneficiaries with HIV/AIDS, had the largest share of beneficiaries in an adult eligibility group (9.9 percent).
+Beneficiaries in M-CHIP and pregnancy-related eligibility groups accounted for the smallest share of users across
+all subpopulation groupings (less than one percent).
+Dually eligible status. HCBS users with full-benefit dually eligible status were most prevalent in the older adult
+(92.5 percent) subpopulation, followed by the brain injuries (63.1 percent), HIV/AIDS (61.2 percent), and mental
+illness, SED, or SUD (60.9 percent) subpopulation groupings (Table 2). Beneficiaries eligible for Medicaid only
+(i.e., not dually eligible for Medicare and Medicaid) comprised more than half of beneficiaries with I/DD or ASD
+(51.8 percent). Beneficiaries with partial-benefit dually eligible status accounted for less than two percent of each
+subpopulation.
+Race and ethnicity. Across all subpopulation groupings, most beneficiaries identified as white, non-Hispanic,
+with the exception of beneficiaries with HIV/AIDS, whose majority identified as Black, non-Hispanic (55.0 percent)
+(Table 2). Beneficiaries with brain injuries and beneficiaries with I/DD or ASD had the largest share of HCBS
+users who identified as white, non-Hispanic, with 62.9 percent and 62.8 percent, respectively. Beneficiaries with
+I/DD or ASD had the lowest share of HCBS users who identified as Black, non-Hispanic (16.5 percent).
+Compared to other subpopulation groupings, beneficiaries with HIV/AIDS and older adults had a higher share of
+HCBS users who identified as Hispanic, 18.7 percent and 16.0 percent, respectively. Beneficiaries who identified
+as Asian or Pacific Islander were most prevalent among older adults (13.3 percent) and accounted for
+approximately four percent or less of other subpopulation groupings. Beneficiaries who identified as American
+Indian and Alaska Native or multiracial, non-Hispanic, accounted for one percent or less of each subpopulation
+grouping.
+Geographic location. Most beneficiaries across all subpopulation groupings resided in an urban area, ranging
+from 80.4 percent to 92.5 percent of beneficiaries in a given subpopulation grouping, and those who lived in a
+rural area ranged from 7.2 percent to 19.1 percent of their HCBS subpopulation grouping (Table 2). Beneficiaries
+with HIV/AIDS comprised the largest share of HCBS users that lived in an urban area (92.5 percent in urban
+
+9
+areas versus 7.2 percent lived in rural areas). Beneficiaries under age 65 with potentially disabling conditions had
+the largest share of users that lived in a rural area (19.1 percent) compared to all other subpopulation groupings.
+
+HCBS utilization and expenditures by taxonomy category
+In 2021, the most commonly used HCBS taxonomy categories among all HCBS users were round-the-clock
+services (43.6 percent), home-based services (24.4 percent), and case management (23.4 percent) (Table 3). In
+addition to being the most commonly used service, round-the-clock services comprised the largest share of HCBS
+spending (45.0 percent). Case management was one of the most commonly used services across all HCBS
+users, but only accounted for 2.2 percent of total spending. These findings align with previous research, which
+found that case management was a widely used service but did not account for a large share of spending
+(Peebles and Bohl 2014).
+TABLE 3. HCBS Users and Spending by HCBS Taxonomy Category, CY 2021
+HCBS users
+HCBS taxonomy category
+2,545
+Total users (thousands) and spending (millions)
+Share of total
+Round-the-clock services
+43.6%
+Home-based services
+24.4
+Case management
+23.4
+Nonmedical transportation
+16.1
+Equipment, technology, and modifications
+14.1
+Other health and therapeutic services
+13.1
+Day services
+10.8
+Other mental health and behavioral services
+8.1
+Caregiver support
+7.1
+Home-delivered meals
+7.0
+Nursing
+3.5
+Services supporting participant direction
+3.5
+Participant training
+3.2
+Supported employment
+2.3
+Community transition services
+0.2
+
+HCBS spending
+$82,450
+45.0%
+16.6
+2.2
+2.5
+0.5
+5.6
+5.5
+6.4
+1.8
+0.4
+0.8
+0.6
+1.2
+0.9
+0.0
+
+Notes: HCBS is home- and community-based services. CY is calendar year. This table includes data from 49 states and the
+District of Columbia; Alabama’s data are excluded due to a data reporting issue, which impacted national trends. The sum of
+user and spending percentages across HCBS taxonomy categories will be greater than 100 percent because users and
+expenditures can be counted in more than one HCBS taxonomy category. Expenditures on a claim are attributed to each
+HCBS taxonomy category on the claim.
+– Dash indicates zero. 0.0 indicates a value less than 0.05 percent that rounds to zero.
+Source: MACPAC, 2024, analysis of Transformed Medicaid Statistical Information System analytic files data.
+
+HCBS utilization and spending by subpopulation grouping
+The distribution of HCBS users and spending varied by subpopulation grouping. The four largest LTSS
+subpopulation groupings among HCBS users were beneficiaries with mental illness, SED, or SUD and older
+adults (both with 40.5 percent), beneficiaries with I/DD or ASD (30.7 percent), and beneficiaries younger than age
+65 with potentially disabling conditions (21.8 percent) (Figure 2). Despite comprising 30.7 percent of HCBS users,
+those with I/DD or ASD accounted for the largest share of spending at 52.5 percent of total HCBS spending.
+Beneficiaries with mental illness, SED, or SUD accounted for the second largest share of HCBS spending (47.1
+percent) followed by older adults (33.1 percent), and beneficiaries under age 65 with potentially disabling
+
+10
+conditions (24.6 percent). Beneficiaries with HIV/AIDS and with brain injuries comprised the smallest share of
+HCBS users and spending. Beneficiaries with brain injuries accounted for approximately one percent of HCBS
+users and two percent of HCBS spending and beneficiaries with HIV/AIDS accounted for about one percent of
+HCBS users and spending.
+FIGURE 2. Distribution of HCBS Users and Spending by LTSS Subpopulation, CY 2021
+60%
+
+52.5%
+
+50%
+40%
+30%
+
+47.1%
+40.5%
+
+40.5%
+33.1%
+
+30.7%
+21.8%
+
+24.6%
+
+20%
+10%
+0%
+
+1.2% 1.7%
+I/DD or ASD
+
+Older adults
+
+<65 with
+potentially
+disabling
+condition(s)
+
+HCBS Users
+
+Brain injuries
+
+1.0% 0.7%
+Mental illness,
+SED, or SUD
+
+HIV/AIDS
+
+HCBS Expenditures
+
+Notes: HCBS is home- and community-based services. LTSS is long-term services and supports. CY is calendar year. I/DD is
+intellectual or developmental disabilities. ASD is autism spectrum disorder. <65 is under 65 years old. “Potentially disabling
+condition(s)” refers to beneficiaries with the presence of diagnosis codes that indicate a possible disability; because there is no
+disease severity or functional assessment data in the Transformed Medicaid Statistical Information System (T-MSIS) analytic
+files (TAF), we must rely on diagnosis codes to indicate that the beneficiaries in the subpopulation grouping have at least one
+condition that could be the basis of a disability. SED is serious emotional disturbance. SUD is substance use disorder. This
+figure includes data from 49 states and the District of Columbia; Alabama’s data are excluded due to a data reporting issue,
+which impacted national trends. The sum of percentages across the subpopulation groupings will total more than 100 because
+beneficiaries are counted in each subpopulation for which they which meet the criteria.
+Source: MACPAC, 2024, analysis of TAF data.
+
+Each subpopulation varied in the HCBS taxonomy category services used, likely reflecting each subpopulation’s
+unique needs. Round-the-clock services and case management were among the most commonly used taxonomy
+across all subpopulation groupings (Figures 3–6). The remainder of this section highlights findings from the four
+largest subpopulation groupings for the five most commonly used taxonomy categories within each
+subpopulation.
+HCBS utilization and spending among beneficiaries with mental illness, SED, or SUD. The most commonly
+used HCBS taxonomy among beneficiaries with mental illness, SED, or SUD was round-the-clock services (43.4
+percent), which also accounted for the largest share of spending (43.0 percent) (Figure 3). Case management
+was the second most commonly used taxonomy (27.0 percent), but accounted for the smallest share of spending
+(2.6 percent). Compared to other subpopulation groupings, beneficiaries with mental illness, SED, or SUD used
+other mental health and behavioral services at a higher rate (20.1 percent).
+
+11
+FIGURE 3. Share of HCBS Utilization and Spending Among the Mental Illness, SED, or SUD Subpopulation by
+Taxonomy, CY 2021
+60%
+50%
+
+43.4% 43.0%
+
+40%
+27.0%
+
+30%
+
+22.7%
+
+20%
+
+12.8%
+
+10%
+0%
+
+20.1%
+13.6%
+
+18.7%
+
+2.6%
+Round-the-clock
+services
+
+2.2%
+
+Case management Home-based services Other mental health
+and behavioral
+services
+
+Mental illness, SED, or SUD users
+
+Nonmedical
+transportation
+
+Mental illness, SED, or SUD expenditures
+
+Notes: HCBS is home- and community-based services. SED is serious emotional disturbance. SUD is substance use
+disorder. CY is calendar year. This figure includes data from 49 states and the District of Columbia; Alabama’s data are
+excluded due to data reporting issue, which impacted national trends. The sum of user and expenditure percentages across
+HCBS taxonomy categories will be greater than 100 because users and spending can be counted in more than one HCBS
+taxonomy category. Total expenditures on a claim are attributed to each HCBS taxonomy category that appear on the claim.
+Source: MACPAC, 2024, analysis of Transformed Medicaid Statistical Information System analytic files data.
+
+HCBS utilization and spending among older adults. Just over half of older adults (52.1 percent) used roundthe-clock services, which accounted for 57.2 percent of their HCBS spending (Figure 4). Compared to other
+subpopulation groupings, older adults used round-the-clock services at a higher rate. There were 31.1 percent of
+older adults that used home-based services, which accounted for 23.5 percent of their HCBS spending. Utilization
+of case management and equipment, technology, and modifications was similar among older adults, at 17.8
+percent and 17.6 percent, respectively. Both service types accounted for a small share of spending: 1.7 percent
+for case management and 0.4 percent for equipment, technology, or modifications.
+
+12
+FIGURE 4. Share of HCBS Utilization and Spending Among Older Adults by Taxonomy, CY 2021
+60%
+
+57.2%
+52.1%
+
+50%
+40%
+
+31.1%
+
+30%
+
+23.5%
+
+20%
+
+17.6%
+10.7%
+
+10%
+0%
+
+17.8%
+
+1.7%
+Round-the-clock
+services
+
+Home-based services Case management
+
+Older adults users
+
+0.7%
+
+0.4%
+Equipment,
+technology, and
+modifications
+
+Home-delivered
+meals
+
+Older adults expenditures
+
+Notes: HCBS is home- and community-based services. CY is calendar year This figure includes data from 49 states and the
+District of Columbia; Alabama’s data are excluded due to data reporting issue, which impacted national trends. The sum of
+user and expenditure percentages across HCBS taxonomy categories will be greater than 100 because users and spending
+can be counted in more than one HCBS taxonomy category. Total expenditures on a claim are attributed to each HCBS
+taxonomy category that appear on the claim.
+Source: MACPAC, 2024, analysis of Transformed Medicaid Statistical Information System analytic files data.
+
+HCBS utilization and spending among beneficiaries with I/DD or ASD. Among beneficiaries with I/DD or
+ASD, 37.7 percent used round-the-clock services, which accounted for a similar share of their HCBS spending
+(37.1 percent) (Figure 5). Their use of case management and day services, 32.7 percent and 25.1 percent,
+respectively, was higher than any other subpopulation grouping. Additionally, beneficiaries with I/DD or ASD are
+the only subpopulation group to have day services as one of their top service utilization categories. Day services
+accounted for 8.4 percent of HCBS spending among beneficiaries with I/DD or ASD, and case management
+accounted for the smallest share (1.9 percent) of their HCBS spending. Other mental health and behavioral
+services accounted for 10.1 percent of HCBS spending, which is the second largest share after round-the-clock
+services.
+
+13
+FIGURE 5. Share of HCBS Utilization and Spending Among Beneficiaries with I/DD or ASD by Taxonomy, CY
+2021
+60%
+50%
+40%
+
+37.7%
+
+37.1%
+
+32.7%
+
+30%
+
+25.1%
+19.0%
+
+20%
+
+10.1%
+
+8.4%
+
+10%
+0%
+
+16.7%
+2.0%
+
+1.9%
+Round-the-clock
+services
+
+Case management
+
+I/DD or ASD users
+
+Day services
+
+Nonmedical
+transportation
+
+Other mental health
+and behavioral
+services
+
+I/DD or ASD expenditures
+
+Notes: HCBS is home- and community-based services. I/DD is intellectual or developmental disabilities. ASD is autism
+spectrum disorder. CY is calendar year. This figure includes data from 49 states and the District of Columbia; Alabama’s data
+are excluded due to a data reporting issue, which impacted national trends. The sum of user and expenditure percentages
+across HCBS taxonomy categories will be greater than 100 because users and spending can be counted in more than one
+HCBS taxonomy category. Total expenditures on a claim are attributed to each HCBS taxonomy category that appear on the
+claim.
+Source: MACPAC, 2024, analysis of Transformed Medicaid Statistical Information System analytic files data.
+
+HCBS utilization and spending among individuals under age 65 with potentially disabling conditions.
+Round-the-clock services were used by 39.7 percent of individuals under age 65 with potentially disabling
+conditions, which accounted for a similar share of their HCBS spending (39.1 percent) (Figure 6). Case
+management and home-based services were the second most commonly used services and had a similar share
+of users, 27.8 percent and 27.7 percent, respectively. Almost 20 percent of individuals under age 65 with
+potentially disabling conditions used equipment, technology, and modifications, but those services accounted for
+less than one percent of spending.
+
+14
+FIGURE 6. Share of HCBS Utilization and Spending Among Individuals under Age 65 with Potentially Disabling
+Conditions by Taxonomy, CY 2021
+60%
+50%
+40%
+
+39.7% 39.1%
+27.8%
+
+30%
+
+27.7%
+17.6%
+
+20%
+10%
+0%
+
+2.3%
+Round-the-clock
+services
+
+Case management
+
+19.8%
+
+16.7%
+
+0.8%
+Home-based
+services
+
+Equipment,
+technology, and
+modifications
+<65 with potentially disabling condition(s) users
+
+2.3%
+Nonmedical
+transportation
+
+<65 with potentially disabling condition(s) expenditures
+Notes: HCBS is home- and community-based services. CY is calendar year. <65 is under 65 years old. “Potentially disabling
+condition(s)” refers to beneficiaries with the presence of diagnosis codes that indicate a possible disability. Because there is no
+disease severity or functional assessment data in the Transformed Medicaid Statistical Information System (T-MSIS) analytic
+files (TAF), we must rely on diagnosis codes to indicate that the beneficiaries in the subpopulation grouping have at least one
+condition that could be the basis of a disability. This figure includes data from 49 states and the District of Columbia;
+Alabama’s data are excluded due to a data reporting issue, which impacted national trends. The sum of user and expenditure
+percentages across HCBS taxonomy categories will be greater than 100 because users and spending can be counted in more
+than one HCBS taxonomy category. Total expenditures on a claim are attributed to each HCBS taxonomy category that
+appear on the claim.
+Source: MACPAC, 2024, analysis of TAF data.
+
+Conclusion
+This analysis found that, nationally, the number of Medicaid beneficiaries using HCBS increased while the
+number of institutional LTSS users decreased from CYs 2019 to 2021. The data show that the share of Medicaid
+beneficiaries that used HCBS or institutional LTSS varied by state. In most states, the share of HCBS users was
+larger than the share of institutional LTSS users in CY 2021. Compared to the overall Medicaid population, HCBS
+users were older, more likely to be in the blind or disabled eligibility group, more likely to be dually eligible for
+Medicare and Medicaid, and less likely to identify as Hispanic. Across LTSS subpopulation groupings, HCBS
+users generally shared common user characteristics with some variations. Beneficiaries across most LTSS
+subpopulation groupings were primarily adults, eligible for Medicaid through the blind or disabled pathway,
+identified as white, and resided in urban settings. We found that each subpopulation grouping varied in their
+HCBS use and spending, including the HCBS taxonomy category services used, likely reflecting each
+subpopulation grouping’s unique needs.
+
+Data limitations
+TAF data quality varies by state. Some states have missing or inconsistent TAF data. For example, Alabama
+overreported Section 1915(c) users and expenditures in 2020 and 2021, which impacted national trends. In 2019
+results, Alabama reported around 34,000 HCBS users, compared to around 780,000 in 2021. As a result,
+Alabama is excluded from this issue brief. Arizona did not have any claims flagged as HCBS despite the state
+delivering HCBS through a Section 1115 demonstration. TAF data do not include claims for the acute health care
+
+15
+services that dually eligible beneficiaries receive through Medicare; this lack of information may result in (1) an
+underestimate of the prevalence of chronic conditions and (2) under-identification of relevant LTSS subpopulation
+groupings based on such chronic conditions for dually eligible beneficiaries.
+States vary in how they bill for HCBS and how they define LTSS subpopulation groupings. We used a
+version of the HCBS taxonomy that was originally developed for the MAX data system, the TAF predecessor.
+Although updates have been made to the code set, it is possible that some HCBS claims may not be classified
+into one of the taxonomy categories or may be classified into the incorrect HCBS taxonomy category. We refer to
+claims identified as being covered by a Section 1915 waiver or a Section 1115 demonstration but not as part of
+the HCBS taxonomy as “non-taxonomy” HCBS, which were included in the total HCBS user counts and
+expenditures throughout this brief, but were not included as a taxonomy category in figures stratified by HCBS
+taxonomy.
+We used a standard methodology to identify LTSS subpopulation groupings across all states based on
+information available in TAF, a method that may not align with how each state defines its own target populations.
+States’ internal data on LTSS users and expenditures for each subpopulation grouping might differ from our
+results, particularly if states have functional status or assessment data in their internal systems (and not in the
+TAF) that can be used to classify individuals.
+
+16
+Endnotes
+
+1 The HCBS Section 1915(c) waiver technical guidance document uses the term “aged” and notes that although generally
+“aged” refers to individuals age 65 and older (aligning with § 1905(a)(iii) of the Social Security Act), states can identify a
+minimum age that is lower than 65 to align with state systems (CMS 2024).
+2 The total number of HCBS users varies based on the methodology used to identify HCBS users. Please see Methodological
+
+Approaches for Analyzing Use and Spending in Medicaid Long-Term Services and Supports: A Comparative Review, for more
+information (MACPAC 2024).
+
+3 These figures are based on data from 49 states and the District of Columbia. The analysis excluded Alabama due to a
+
+reporting issue that erroneously inflated the number of total HCBS users in the state in 2021. In the 2019 results, Alabama had
+around 34,000 HCBS users, compared to almost 780,000 in 2021. This reporting issue impacts national trends. Also, we did
+not identify any HCBS claims under Sections 1915 or 1115 HCBS authorities for Arizona, potentially resulting in an undercount
+of HCBS users.
+
+4 HCBS taxonomy categories include: case management; round-the-clock services; supported employment; day services;
+
+nursing; home-delivered meals; rent and food expenses for live-in caregiver; home-based services; caregiver support; other
+mental health and behavioral services; other health and therapeutic services; services supporting participant direction;
+participant training; equipment, technology, and modifications; nonmedical transportation; community transition services; other
+services; and unknown (Peebles and Bohl 2014).
+
+5 Because there is no disease severity or functional assessment data in the Transformed Medicaid Statistical Information
+
+System (T-MSIS) analytic files (TAF), we must rely on diagnosis codes to identify possible disabilities for this LTSS
+subpopulation. We use the phrase “potentially disabling conditions” to indicate that the beneficiaries in the subpopulation have
+at least one condition that could be the basis of a disability.
+
+6 The Medicaid expenditures in this report are derived from claims data; as such, they comprise the state and federal share of
+
+LTSS expenditures. Institutional LTSS expenditure data do not include non-claims based payments such as disproportionate
+share hospital (DSH) payments to mental health facilities or non-DSH supplemental payments to nursing facilities.
+7 Medicaid Analytic eXtract (MAX) data contain Medicaid eligibility, service utilization, and payment information, and is the
+
+predecessor to the TAF.
+
+8 The analytic period includes data that cover the COVID-19 Public Health Emergency (PHE) in 2020, which had a major
+
+impact on the use of all health care services, including LTSS paid by Medicaid. We have not made any adjustments to the
+data to address changes in LTSS utilization and spending that may be attributable to the PHE.
+
+9 Medicaid-expansion CHIP (M-CHIP) is CHIP-financed Medicaid coverage of targeted low-income children that meet the
+
+requirements of section 2103 of the Social Security Act.
+
+10 We excluded State CHIP (S-CHIP) beneficiaries from our analysis because S-CHIP provides a more limited suite of
+coverage compared to Medicaid and M-CHIP.
+11 The new adult group includes those enrollees who are eligible under Section 1902(a)(10)(A)(i)(VIII) of the Social Security
+Act (the Act).
+
+17
+References
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2024. Instructions,
+technical guide, and review criteria. Baltimore, MD: CMS. https://wms-mmdl.cms.gov/WMS/faces/portal.jsp.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2023. Medicaid long term
+services and supports annual expenditures report: Federal fiscal year 2020. Baltimore, MD: CMS.
+https://www.medicaid.gov/medicaid/long-term-services-supports/downloads/ltssexpenditures2020.pdf.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2022. Application for a
+§1915(c) home and community-based services waiver. Baltimore, MD: CMS. https://www.medicaid.gov/medicaid/homecommunity-based-services/downloads/hcbs-waivers-application.pdf.
+Chidambaram, P., and A. Burns. 2023. How many people use Medicaid long-term services and supports and how much does
+Medicaid spend on those people? Washington, DC: KFF.https://www.kff.org/report-section/how-many-people-use-medicaidlong-term-services-and-supports-and-how-much-does-medicaid-spend-on-those-people-methods/.
+Greener, E., A. Carpenter, and L. Nolan. 2023. Identifying enrollees who use home and community-based services in the TAF.
+Baltimore, MD: CMS. https://www.medicaid.gov/dq-atlas/downloads/supplemental/7061-Identifying-HCBS-in-TAF.pdf.
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2024. Methodological Approaches for Analyzing Use and
+Spending in Medicaid Long-Term Services and Supports: A Comparative Review. August 2024. Washington, DC: MACPAC.
+https://www.macpac.gov/wp-content/uploads/2024/10/Methodological-Approaches-for-Analyzing-Use-and-Spending-inMedicaid-Long-Term-Services-and-Supports-A-Comparative-Review.pdf.
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2023. Chapter 4: Access to home- and community-based
+services. In Report to Congress on Medicaid and CHIP. June 2023. Washington, DC: MACPAC. https://www.macpac.gov/wpcontent/uploads/2023/06/Chapter-4-Access-to-Home-and-Community-Based-Services.pdf.
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2022. Chapter 1: A New Medicaid Access Monitoring
+System. In Report to Congress on Medicaid and CHIP. June 2022. Washington, DC: MACPAC. https://www.macpac.gov/wpcontent/uploads/2022/06/Chapter-1-A-New-Medicaid-Access-Monitoring-System.pdf.
+Murray, C., M. Eckstein, D. Lipson, and A. Wysocki. 2023. Medicaid long term services and supports annual expenditures
+report: Federal fiscal year 2020. Chicago, IL: Mathematica. https://www.medicaid.gov/media/164316.
+Murray, C., A. Tourtellotte, D. Lipson, and A. Wysocki. 2021. Medicaid long term services and supports annual expenditures
+report: Federal fiscal year 2019. Chicago, IL: Mathematica. https://www.medicaid.gov/medicaid/long-term-servicessupports/downloads/ltssexpenditures2019.pdf.
+O’Malley Watts, M., M. Musumeci, and M. Ammula. 2022. State policy choices about Medicaid home and community-based
+services amid the pandemic. Washington, DC: KFF. https://www.kff.org/report-section/state-policy-choices-about-medicaidhome-and-community-based-services-amid-the-pandemic-issue-brief/.
+Peebles V. and A. Bohl. 2014. The HCBS taxonomy: a new language for classifying home‐ and community‐based services.
+Medicare & Medicaid Research Review 4, no. 3: E1–E17. https://pmc.ncbi.nlm.nih.gov/articles/PMC4204915/pdf/mmrr2014004-03-b01.pdf.
+Peebles, V., M. Kim, A. Bohl, B. Morales, and D. Lipson. 2017. HCBS claims analysis chartbook: Final report. Report to the
+Medicaid and CHIP Payment and Access Commission. Chicago, IL: Mathematica Policy Research.
+https://www.macpac.gov/publication/hcbs-claims-analysis-chartbook-final-report/.
+Ross, J., K. Liao, and A. Wysocki. 2021. Medicaid section 1915(c) waiver programs annual expenditures and beneficiaries
+report, 2017–2018. Chicago, IL: Mathematica. https://www.mathematica.org/publications/medicaid-section-1915c-waiverprograms-annual-expenditures-and-beneficiaries-report.
+Rooney, J., C. Irvin, J. Self, et al. 2023. Identifying and classifying Medicaid home and community-based services claims in the
+transformed Medicaid statistical information system, 2016-2020. Washington, DC: Office of the Assistant Secretary for
+Planning and Evaluation (ASPE).
+https://aspe.hhs.gov/sites/default/files/documents/5ddae662bdcd7b04379e6f176a283441/identify-classify-hcbs-claims-tmsisbrief.pdf.
+
+18
+Stepanczuk, C., C. Murray, M. Eckstein, and A. Wysocki. 2024a. Methodology for Identifying Medicaid Long-Term Services
+and Supports Expenditures and Users, 2019–2021. Chicago, IL: Mathematica. https://www.medicaid.gov/medicaid/long-termservices-supports/downloads/ltss-users-expenditures-method.pdf.
+Stepanczuk, C., C. Murray, A. Carpenter, and A. Wysocki. 2024b. Methodology for Identifying Medicaid Long-Term Services
+and Supports Expenditures and Users, 2022. Chicago, IL: Mathematica. https://www.medicaid.gov/medicaid/long-termservices-supports/downloads/ltss-users-expenditures-method-2022.pdf.
+Wysocki, A., C. Murray, A. Kachalia, A. Carpenter, and C. Stepanczuk. 2024. Trends in the Use of and Spending for Home
+and Community-Based Services as a Share of Total LTSS Use and Spending in Medicaid, 2019–2021. Chicago, IL:
+Mathematica. https://www.medicaid.gov/medicaid/long-term-services-supports/downloads/ltss-rebalancing-brief.pdf.
+
+19
+
+APPENDIX A: Detailed Tables
+TABLE A-1. Utilization by HCBS Taxonomy Category and Subpopulation Grouping, CY 2021
+
+HCBS taxonomy category
+Users (thousands)
+Share of total HCBS users
+Caregiver support
+Case management
+Community transition
+services
+Day services
+Equipment, technology,
+and modifications
+Home-based services
+Home-delivered meals
+Nonmedical transportation
+Nursing
+Other health and
+therapeutic services
+Other mental health and
+behavioral services
+Participant training
+Round-the-clock services
+Services supporting
+participant direction
+Supported employment
+
+I/DD or
+ASD
+782
+
+<65 with
+Potentially
+Disabling
+Conditions
+555
+
+Brain
+injuries
+31
+
+Mental
+illness,
+SED, or
+SUD
+1,030
+
+Older
+adults
+1,029
+
+HIV/AIDS
+27
+
+7.1%
+23.4
+
+14.3%
+32.7
+
+7.6%
+27.8
+
+2.6%
+17.8
+
+4.3%
+24.4
+
+4.8%
+27.0
+
+1.2%
+15.7
+
+0.2
+10.8
+
+0.1
+25.1
+
+0.2
+10.0
+
+0.1
+5.5
+
+0.3
+8.9
+
+0.3
+11.8
+
+0.2
+2.5
+
+14.1
+24.4
+7.0
+16.1
+3.5
+
+9.3
+14.9
+1.0
+19.0
+3.2
+
+19.8
+27.7
+8.5
+16.7
+6.5
+
+17.6
+31.1
+10.7
+10.7
+3.5
+
+26.5
+33.1
+6.7
+13.2
+2.5
+
+14.7
+22.7
+8.3
+18.7
+4.0
+
+15.2
+34.0
+11.5
+14.6
+2.2
+
+13.1
+
+13.9
+
+15.2
+
+10.1
+
+13.5
+
+13.6
+
+6.4
+
+8.1
+3.2
+43.6
+
+16.7
+5.9
+37.7
+
+7.3
+4.5
+39.7
+
+2.7
+1.2
+52.1
+
+13.9
+6.1
+39.1
+
+20.1
+3.9
+43.4
+
+2.3
+1.2
+43.4
+
+3.5
+
+7.0
+
+4.6
+
+1.3
+
+4.5
+
+3.8
+
+0.7
+
+2.3
+
+6.3
+
+1.5
+
+0.2
+
+2.4
+
+2.9
+
+0.4
+
+All
+HCBS
+Users
+2,545
+
+Notes: HCBS is home- and community-based services. CY is calendar year. I/DD is intellectual or developmental disabilities.
+ASD is autism spectrum disorder. <65 is under 65 years old. “Potentially disabling condition(s)” refers to beneficiaries with the
+presence of diagnosis codes that indicate a possible disability; because there is no disease severity or functional assessment
+data in the TAF, we must rely on diagnosis codes to indicate that the beneficiaries in the subpopulation grouping have at least
+one condition that could be the basis of a disability. SED is serious emotional disturbance. SUD is substance use disorder.
+This table includes data from 49 states and the District of Columbia; Alabama’s data are excluded due to data reporting issue,
+which impacted national trends. The sum of users across the LTSS subpopulation groupings is greater than the total number
+of HCBS users because beneficiaries are counted in each subpopulation grouping for which they which met the criteria. The
+sum of user percentages across HCBS taxonomy categories will be greater than 100 because users and expenditures can be
+counted in more than one HCBS taxonomy category.
+Source: MACPAC, 2024, analysis of Transformed Medicaid Statistical Information System analytic files data.
+
+20
+TABLE A-2. Spending by HCBS Taxonomy Category and Subpopulation Grouping, CY 2021
+
+HCBS taxonomy
+category
+Total HCBS
+expenditures (millions)
+
+All HCBS
+Users
+
+I/DD or
+ASD
+
+<65 with
+potentially
+disabling
+condition(s)
+
+Older
+adults
+
+Brain
+injuries
+
+Mental
+illness,
+SED, or
+SUD
+
+HIV/AIDS
+
+$82,450
+
+$43,253
+
+$20,315
+
+$27,325
+
+$1,424
+
+$38,843
+
+$548
+
+2.4%
+1.9
+
+1.7%
+2.3
+
+0.6%
+1.7
+
+1.1%
+1.7
+
+1.1%
+2.6
+
+0.4%
+3.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+0.0
+
+8.4
+
+5.4
+
+2.5
+
+3.4
+
+5.2
+
+1.4
+
+0.3
+
+0.8
+
+0.4
+
+0.8
+
+0.4
+
+0.4
+
+6.9
+0.0
+2.0
+0.8
+
+17.6
+0.4
+2.3
+2.2
+
+23.5
+0.7
+2.4
+0.3
+
+16.4
+0.3
+1.4
+1.0
+
+12.8
+0.4
+2.2
+0.4
+
+34.5
+1.3
+1.4
+0.3
+
+5.0
+
+6.9
+
+4.0
+
+6.2
+
+5.5
+
+3.3
+
+6.4
+
+10.1
+
+7.1
+
+2.7
+
+7.0
+
+13.6
+
+1.5
+
+1.2
+45.0
+
+1.5
+37.1
+
+1.3
+39.1
+
+0.4
+57.2
+
+5.7
+57.2
+
+1.3
+43.0
+
+0.7
+50.3
+
+0.6
+
+0.9
+
+0.6
+
+0.1
+
+0.8
+
+0.5
+
+0.1
+
+0.9
+
+1.5
+
+0.6
+
+0.2
+
+1.2
+
+0.9
+
+0.3
+
+Share of total HCBS expenditures
+Caregiver support
+1.8%
+Case management
+2.2
+Community transition
+0.0
+services
+Day services
+5.5
+Equipment, technology,
+0.5
+and modifications
+Home-based services
+16.6
+Home-delivered meals
+0.4
+Nonmedical transportation
+2.5
+Nursing
+0.8
+Other health and
+5.6
+therapeutic services
+Other mental health and
+behavioral services
+Participant training
+Round-the-clock services
+Services supporting
+participant direction
+Supported employment
+
+Notes: HCBS is home- and community-based services. CY is calendar year. I/DD is intellectual or developmental disabilities.
+ASD is autism spectrum disorder. <65 is under 65 years old. “Potentially disabling condition(s)” refers to beneficiaries with the
+presence of diagnosis codes that indicate a possible disability; because there is no disease severity or functional assessment
+data in the TAF, we must rely on diagnosis codes to indicate that the beneficiaries in the subpopulation grouping have at least
+one condition that could be the basis of a disability. SED is serious emotional disturbance. SUD is substance use disorder.
+This table includes data from 49 states and the District of Columbia; Alabama’s data are excluded due to data reporting issue,
+which impacted national trends. The sum of expenditures across the LTSS subpopulation groupings is greater than total
+HCBS expenditures because beneficiaries are counted in each subpopulation grouping for which they which met the criteria.
+The sum of expenditure percentages across HCBS taxonomy categories will be greater than 100 because expenditures can
+be counted in more than one HCBS taxonomy category. Total expenditures on a claim are attributed to each HCBS taxonomy
+category that appear on the claim.
+Source: MACPAC, 2024, analysis of Transformed Medicaid Statistical Information System (T-MSIS) analytic files (TAF) data.
+
+21
+TABLE A-3. Spending per User by HCBS Taxonomy Category and Subpopulation Grouping, CY 2021
+
+HCBS taxonomy
+category
+All HCBS
+Caregiver support
+Case management
+Community transition
+services
+Day services
+Equipment,
+technology, and
+modifications
+Home-based
+services
+Home-delivered
+meals
+Nonmedical
+transportation
+Nursing
+Other health and
+therapeutic services
+Other mental health
+and behavioral
+services
+Participant training
+Round-the-clock
+services
+Services supporting
+participant direction
+Supported
+employment
+
+I/DD or
+ASD
+$55,339
+$9,291
+3,290
+
+<65 with
+Potentially
+Disabling
+Conditions
+$36,605
+$8,369
+3,076
+
+Brain
+injuries
+$46,299
+$11,506
+3,240
+
+Mental
+illness,
+SED, or
+SUD
+$37,707
+$8,480
+3,639
+
+Older
+adults
+$26,544
+$6,061
+2,464
+
+HIV/AIDS
+$20,593
+$6,499
+3,972
+
+2,116
+
+2,796
+
+2,497
+
+1,626
+
+2,797
+
+2,082
+
+2,876
+
+16,307
+
+18,523
+
+19,847
+
+12,120
+
+17,677
+
+16,681
+
+12,015
+
+1,040
+
+1,929
+
+1,489
+
+661
+
+1,342
+
+1,026
+
+523
+
+22,044
+
+25,808
+
+23,287
+
+20,031
+
+22,988
+
+21,270
+
+20,923
+
+1,739
+
+2,019
+
+1,827
+
+1,700
+
+2,000
+
+1,714
+
+2,346
+
+5,050
+
+5,687
+
+5,005
+
+6,081
+
+4,851
+
+4,403
+
+1,975
+
+7,255
+
+14,380
+
+12,201
+
+1,956
+
+17,881
+
+4,155
+
+2,860
+
+13,821
+
+19,787
+
+16,655
+
+10,617
+
+21,141
+
+15,300
+
+10,778
+
+25,503
+
+33,365
+
+35,810
+
+26,710
+
+23,329
+
+25,503
+
+13,450
+
+11,564
+
+14,470
+
+10,243
+
+9,279
+
+42,890
+
+12,700
+
+11,578
+
+33,495
+
+54,379
+
+36,006
+
+29,157
+
+67,740
+
+37,363
+
+23,835
+
+5,399
+
+6,877
+
+5,010
+
+1,863
+
+8,067
+
+4,525
+
+2,957
+
+12,224
+
+12,923
+
+14,090
+
+17,382
+
+24,044
+
+12,330
+
+15,205
+
+All
+HCBS
+Users
+$32,402
+$8,259
+2,999
+
+Notes: HCBS is home- and community-based services. CY is calendar year. I/DD is intellectual or developmental disabilities.
+ASD is autism spectrum disorder. <65 is under 65 years old. “Potentially disabling condition(s)” refers to beneficiaries with the
+presence of diagnosis codes that indicate a possible disability; because there is no disease severity or functional assessment
+data in the Transformed Medicaid Statistical Information System (T-MSIS) analytic files (TAF), we must rely on diagnosis
+codes to indicate that the beneficiaries in the subpopulation grouping have at least one condition that could be the basis of a
+disability. SED is serious emotional disturbance. SUD is substance use disorder. This table includes data from 49 states and
+the District of Columbia; Alabama’s data are excluded due to data reporting issue, which impacted national trends. The sum of
+expenditures across the LTSS subpopulation groupings is greater than total HCBS expenditures because beneficiaries are
+counted in each subpopulation grouping for which they which met the criteria.
+Source: MACPAC, 2024, analysis of TAF data.
+
+22
+
+APPENDIX B: Methods
+Long-term services and supports subpopulation groupings
+We adapted the methodology from the Centers for Medicare & Medicaid Services (CMS) Long-Term Services and
+Supports (LTSS) Users and Expenditures reports to identify seven LTSS subpopulation groupings (Stepanczuk et
+al. 2024b). We used characteristics such as age, enrollment in Section 1915(c) waiver programs, chronic
+condition flags, and service use to classify LTSS users into any subpopulation for which they qualify (Table B-1).
+For two of the subpopulation groupings—older adults (age 65 and older) and beneficiaries with autism spectrum
+disorder (ASD) or intellectual disabilities or developmental disabilities (I/DD)—we use the same approach as the
+CMS reports. For another two subpopulation groupings, we modified the methodology: we removed having a
+traumatic brain injury diagnosis from the beneficiaries younger than age 65 with potentially disabling conditions
+subpopulation definition as we have a separate subpopulation for beneficiaries with brain injuries. We included
+other mental health and behavioral services from the Assistant Secretary for Planning and Evaluation Home- and
+Community-Based Services Module in the beneficiaries with mental illness, serious emotional disturbance (SED),
+or substance use disorder (SUD) subpopulation definition. We also added two new subpopulation groupings that
+are not included in the CMS reports: beneficiaries with brain injuries and beneficiaries with HIV/AIDS. The final
+subpopulation—other beneficiaries who use LTSS—includes beneficiaries in our sample that do not meet the
+criteria for any of the other six subpopulation groupings; this subpopulation was excluded from the figures
+throughout this memo.
+TABLE B-1. Relevant Criteria for LTSS Subpopulation Identification
+
+Population
+Older adults
+Beneficiaries younger than age 65
+with potentially disabling conditions
+Beneficiaries with I/DD or ASD
+Beneficiaries with mental illness,
+SED, or SUD
+Beneficiaries with brain injuries
+Beneficiaries with HIV/AIDS
+
+Age
+X
+X
+
+Waiver program
+enrollment from
+TAF eligibility file
+
+Claims-based
+chronic
+conditions
+
+Claimsbased
+service use
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+X
+
+X
+X
+
+Notes: LTSS is long-term services and supports. TAF is the Transformed Medicaid Statistical Information System (T-MSIS)
+Analytic File. “Potentially disabling condition(s)” refers to beneficiaries with the presence of diagnosis codes that indicate a
+possible disability; because there is no disease severity or functional assessment data in the TAF, we must rely on diagnosis
+codes to indicate that the beneficiaries in the subpopulation grouping have at least one condition that could be the basis of a
+disability. I/DD is intellectual or developmental disabilities. ASD is autism spectrum disorder. SED is serious emotional
+disturbance. SUD is substance use disorder.
+Source: Stepanczuk et al. 2024b.
+
+
