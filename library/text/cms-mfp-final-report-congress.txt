@@ -1,0 +1,2377 @@
+Source: https://www.medicaid.gov/sites/default/files/2019-12/mfp-rtc.pdf
+Publisher: Centers for Medicare & Medicaid Services
+Retrieved: 2026-11-11
+Original SHA-256: c10049721d53c65a0746fc70b03ec7d238b61507ec2d892b8f21f0c5106d0ce0
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Report to the President and Congress
+The Money Follows the Person (MFP) Rebalancing Demonstration
+
+As Required by the
+Deficit Reduction Act of 2005 (P.L. 109-171)
+and Amended by the
+Patient Protection and Affordable Care Act of 2010 (P.L. 111-148)
+from the
+Department of Health and Human Services
+Office of the Secretary
+
+Eric D. Hargan
+Acting Secretary of the Department of Health and Human Services
+June 2017
+
+This page left blank for double-sided printing.
+
+CONTENTS
+A. Introduction ............................................................................................................................................. 1
+B. Conduct of the MFP demonstration ........................................................................................................ 7
+1. Grantee progress on numerical benchmarks for transitions and home and communitybased LTSS expenditures ................................................................................................................ 7
+2. Compliance with the maintenance of effort requirement ............................................................... 10
+C. The effectiveness of the MFP demonstration, key findings from the national evaluation .................... 10
+1. Savings related to the transition of individuals to qualified residences .......................................... 11
+D. Conclusions .......................................................................................................................................... 26
+APPENDIX A: COST SAVINGS PER STATE ........................................................................................... 29
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+iii
+
+This page left blank for double-sided printing.
+
+A. Introduction
+
+Section 6071 of the Deficit Reduction Act (DRA) of 2005 established the Money Follows
+the Person (MFP) rebalancing demonstration. The DRA legislation specified that the Secretary
+of the Department of Health and Human Services provide for a national evaluation of the MFP
+demonstration and submit a final report to the President and Congress that presents the findings
+and conclusions of this evaluation [DRA, §6071(g)(2)]. The Patient Protection and Affordable
+Care Act (Affordable Care Act) of 2010 then extended and expanded the MFP rebalancing
+demonstration [Affordable Care Act, §2403(a)]. This report satisfies the legislation’s
+requirement for a final report to the President and Congress.
+The legislation that authorized the MFP demonstration did not include specific research
+questions for the national evaluation. Instead, it requested that
+“The Secretary shall make a final report to the President and
+Congress…providing findings and conclusions on the conduct and effectiveness of
+MFP demonstration projects.” [DRA §6071(g)(2)].
+The national evaluation conducted a range of different analyses to address this statutory
+requirement. Specifically, the analyses described the following:
+1) The conduct of the MFP demonstration projects:
+a) assessed whether state grantees demonstrated that they met numerical benchmarks for (i)
+the numbers of eligible individuals assisted and transitioned to qualified residences and
+(ii) Medicaid spending on home and community-based long-term services and supports
+(LTSS) [DRA §6071(d)(4)(A)] 1 and
+b) determined the extent to which state grantees complied with the demonstration’s
+maintenance of effort requirement [DRA §6071(c)(9)].
+2) The effectiveness of the MFP demonstration projects:
+a) assessed the savings related to the transition of individuals to qualified residences in each
+state conducting an MFP demonstration [DRA §6071(g)(1)];
+
+1
+
+Throughout this report, home and community-based LTSS refers to section 1915(c) home and community based
+waiver program services and all state plan community-based LTSS which include: home health care services;
+personal care assistance services; rehabilitative services authorized under 1905(a)(13); in-home private duty nursing
+authorized under section 1905(a)(8); employment support services; and LTSS provided under managed long-term
+care programs authorized under sections 1915(b), 1932, or 1115. Grantees could also count expenditures for
+Program of All-Inclusive Care for the Elderly (PACE) programs, hospice, and any section 1915(i) state plan home
+and community-based services, 1915(j) self-directed personal assistance services, 1915(k) Community First Choice,
+and section 1945 Health Homes for people with chronic conditions established after the passage of the Affordable
+Care Act. The 1915(k) option provides for additional enhanced matching funds, but MFP grantees cannot receive
+both the 1915(k) enhanced Federal Medical Assistance Percentage (FMAP) and MFP-enhanced FMAP when
+providing 1915(k) services to an MFP participant.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+1
+
+b) analyzed a range of state-level outcomes including transitions from institutions to the
+community and re-institutionalization rates, as well as state progress on rebalancing
+LTSS expenditures; and
+c) described changes in the quality of life of MFP participants.
+The MFP rebalancing demonstration program represents a major federal initiative to give
+people needing LTSS more choice about where they live and receive care, and to increase the
+capacity of state LTSS systems to serve people in community settings. 2 The DRA of 2005
+specified the MFP demonstration was designed to (1) increase the use of home and communitybased, rather than institutional, long-term care services; (2) eliminate barriers whether in state
+law, the state Medicaid plan, and the state budget, or otherwise, that prevent or restrict the
+flexible use of Medicaid funds to enable Medicaid-eligible individuals to receive support for
+appropriate and necessary long-term services in the settings of their choice, (3) increase the
+ability of Medicaid programs to assure continued provision of home and community-based longterm care services to eligible individuals who choose to transition from an institutional to a
+community setting of their choice; and (4) ensure that procedures are in place (at least
+comparable to those required under the qualified HCBS program) to provide quality assurance
+for eligible individuals receiving Medicaid home and community-based long-term care services
+and to provide for continuous quality improvement in such services.
+To be eligible, participants must be Medicaid beneficiaries residing in an institution for 90
+days or more, not counting short-term rehabilitation days. 3 For purposes of the demonstration,
+institutions include nursing homes, intermediate care facilities for individuals with intellectual
+disabilities (ICFs/IID), institutions for mental diseases (IMDs) for individuals 65 and older,
+inpatient psychiatric facilities for individuals under the age of 21, and hospitals. 4 In addition,
+participants must move to a qualified residence in the community, which include homes either
+owned or leased by the participant or a family member; apartments with an individual lease,
+lockable access and egress, and living, sleeping, bathing, and cooking areas over which the
+participant or the participant’s family has domain and control; and small group homes of no
+more than 4 unrelated residents.
+Once transitioned to a qualified residence in the community, participants are eligible for
+MFP for a year, or 365 days. During this period, MFP demonstrations can provide up to three
+2
+
+LTSS more generally includes not only home and community-based LTSS, but also care provided in Medicaid
+medical institutions including nursing homes, intermediate care facilities for individuals with intellectual disabilities,
+inpatient hospital and nursing facility services for individuals 65 years of age or over in an institution for mental
+diseases, inpatient psychiatric services for individuals under age 21, and hospitals.
+3
+
+The DRA of 2005 set forth eligibility requirements for the MFP demonstration, including beneficiaries reside in
+institutional care for at least 6 months. The Affordable Care Act reduced the length of stay requirement to the
+current requirement of 90 days, not counting days for short-term rehabilitation services [Affordable Care Act
+§2403(b)(1)(A)-(B)].
+4
+
+The IMD exclusion in Medicaid, which excludes Medicaid payments for care or services for any individual who
+has not attained 65 years of age and who is a patient in an IMD (except for inpatient psychiatric hospital services for
+individuals under age 21), applies to the MFP demonstration as well (§1905(a)(29)(B) of the Social Security Act).
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+2
+
+categories of services: (1) qualified home and
+community-based LTSS, (2) demonstration services,
+and (3) supplemental services. Qualified home and
+community-based LTSS are services that beneficiaries
+would have received regardless of their status as MFP
+participants, such as personal assistance services
+available through a 1915(c) waiver program.
+Demonstration services are either allowable Medicaid
+services not currently included in the state’s array of
+home and community-based LTSS (such as assistive
+technologies) or qualified services above what would
+be available to non-MFP Medicaid beneficiaries (such
+as 24-hour personal care, 7 days a week).
+Demonstration services tend to be short-term services
+aimed at helping people adjust to community living.
+States can also provide MFP participants with
+supplemental services that are not typically
+reimbursable outside waiver programs but facilitate an
+easier transition to a community setting (such as a trial
+visit to the proposed community residence). States
+receive an MFP-enhanced Federal Medical Assistance
+Percentage (FMAP) through the grant for either
+qualified or demonstration home and communitybased LTSS. 5 The enhanced matching funds are
+known as the grantee’s rebalancing funds. Grantees
+receive MFP demonstration funding at the regular
+FMAP rate for supplemental services. In general, the
+MFP rebalancing demonstration has allowed states to
+provide a richer mix of community services for a
+limited time to help facilitate a successful transition to
+the community.
+
+Facts
+•
+
+The MFP rebalancing
+demonstration has been
+popular among states. The
+evaluation focused on 43
+states and the District of
+Columbia, known as the 44
+grantee states throughout
+this report.
+
+•
+
+MFP grantee states have
+transitioned 63,337
+Medicaid beneficiaries to
+the community through
+2015.
+
+•
+
+In 2015, grantees
+transitioned 11,661
+beneficiaries which
+represents a 6 percent
+increase in the number of
+transitions from the
+previous year, the largest
+volume of MFP transitions
+in a single year since the
+launch of the MFP
+rebalancing demonstration
+in 2007.
+
+•
+
+MFP provides strong
+evidence that beneficiaries’
+quality of life improves and
+the improvement is
+sustainable when they
+transition to communitybased LTSS.
+
+The MFP rebalancing demonstration program
+launched in 2007, when 30 states and the District of
+Columbia received grant awards. Additional grants
+were awarded to 13 states in 2011 and 3 states in
+2012. Of the 47 grants awarded, Florida and New
+Mexico opted to rescind their awards before
+implementing a demonstration. In 2014, Oregon formally withdrew its demonstration, after
+having suspended operations in 2010 to retool their procedures. As of the end of December 2015,
+5
+
+The MFP-enhanced FMAP is set in statute and cannot exceed 90 percent. The enhanced FMAP is equal to
+(state 's.regular.FMAP + [1 − state 's.regular.FMAP] ∗ 0.5) . The state’s regular FMAP also included the enhancements
+that states received through the American Recovery and Reinvestment Act of 2009, retroactive to October 1, 2008.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+3
+
+43 states and the District of Columbia, or 44 grantee states, were actively transitioning
+participants through their MFP demonstrations. In addition, 5 states received additional grant
+funding in 2013 to work with tribal partners to build sustainable home and community-based
+LTSS specifically for Indian country. 6 As of September 2016, the 44 grantee states have been
+awarded nearly $3.7 billion in grant funding.
+As of the end of calendar year 2015, grantee states had transitioned a total of 63,337
+Medicaid beneficiaries from long-term institutional care to community residences and home and
+community-based LTSS, representing a 23 percent increase in the cumulative number over the
+previous year (Figure 1). Grantee states are primarily transitioning four targeted populations, (1)
+older adults residing in nursing homes (about 31 percent of all MFP participants); (2) younger
+adult nursing home residents, referred to as people with physical disabilities in this report (about
+40 percent of participants); (3) individuals with intellectual or developmental disabilities (about
+14 percent of participants); and (4) people with severe mental illness residing in IMDs (about 1
+percent). 7 Another 3 percent of MFP participants transitioned from other types of facilities,
+primarily long-term hospital settings. Approximately 10 percent of MFP participants could not
+be classified because of incomplete reporting by state grantees. Although few MFP participants
+are transitioning from psychiatric facilities, analyses of assessment and claims data suggest that
+approximately 46 percent of MFP participants with intellectual disabilities and 70 percent of
+older adult and people with physical disabilities were treated for mental illness—including major
+depression, schizophrenia, anxiety, and mood disorders—during the year before they transitioned
+to the community.
+
+6
+
+The 5 states are: Minnesota, Oklahoma, North Dakota, Washington, and Wisconsin.
+
+7
+
+The group transitioning from IMDs is almost exclusively 65 and older.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+4
+
+Figure 1. Cumulative total number of MFP transitions, 2008–2015
+70,000
+63,337
+
+60,000
+
+51,676
+
+Number of enrollees
+
+50,000
+
+8,016
+
+3,338
+40,693
+
+40,000
+
+1,969
+30,141
+
+30,000
+
+954
+
+55,321
+
+19,728
+
+20,000
+
+48,338
+124
+
+11,924
+
+10,000
+
+38,724
+29,187
+
+19,604
+
+5,673
+1,473
+
+0
+Dec 2008
+
+Dec 2009
+
+Dec 2010
+
+Dec 2011
+
+Dec 2012
+
+Dec 2013
+
+Dec 2014
+
+Dec 2015
+
+Calendar year
+2011-2012 MFP grant awardees: cumulative number of people enrolled in MFP
+2007 MFP grant awardees: cumulative number of people enrolled in MFP
+Source: Mathematica’s analysis of State MFP Grantee Semiannual Progress Reports, 2008–2015.
+Note:
+Annual and cumulative counts of transitions may not match numbers from previous reports, as grantee states
+can update their data as their reporting becomes more complete. Oregon implemented its program in 2008
+but then suspended operations in 2010 and later withdrew from its MFP grant. Oregon’s cumulative
+transitions through 2010 are captured in the national transition totals for all years. The data represent
+transitions from 30 grantees in 2008 through 2010, 33 grantees in 2011, 37 in 2012, 42 in 2013, and 44 in
+2014 and 2015.
+
+As the number of annual transitions under the MFP demonstration has grown steadily over
+time, the number of people eligible for MFP in the participating states has slowly declined (Table
+1). By 2008, the first year of MFP transitions, the number eligible for MFP had decreased by 1.2
+percent on a yearly basis to approximately 1.2 million. From 2008 through 2014, the decline was
+a little more rapid at an annual rate of 1.6 percent per year and less than 1.1 million were eligible
+for the MFP demonstration in 2014.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+5
+
+Table 1. Trends in the number of people eligible for the MFP demonstration, by target population 2006–2014
+
+Target
+population
+
+Average
+Average
+yearly
+yearly
+percentage percentage
+change,
+change,
+2006 to
+2008 to
+2008
+2014
+
+2006
+
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+Older adults
+922,610
+Physical disabilities
+183,828
+Intellectual
+92,302
+disabilities
+Mental illness
+22,284
+Total
+1,221,024
+
+901,610
+189,272
+
+886,718
+193,021
+
+860,629
+188,724
+
+848,956
+189,903
+
+840,670
+190,813
+
+832,065
+191,119
+
+803,501
+188,161
+
+785,638
+188,018
+
+-2.0%
+2.5%
+
+-2.0%
+-0.4%
+
+90,892
+21,866
+1,203,640
+
+88,893
+23,301
+1,191,933
+
+86,565
+24,214
+1,160,132
+
+83,926
+24,579
+1,147,364
+
+82,027
+25,254
+1,138,764
+
+80,416
+24,846
+1,128,446
+
+78,127
+28,360
+1,098,149
+
+77,109
+34,021
+1,084,786
+
+-1.9%
+2.3%
+-1.2%
+
+-2.3%
+6.8%
+-1.6%
+
+Source:
+
+Mathematica’s analysis of Medicaid Analytic eXtract (MAX) data from 2006 to 2014.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+6
+
+The number of Medicare- and/or Medicaid-certified nursing home beds and nursing home
+occupancy rates have declined over the last decade, which provides more evidence of larger
+secular trends driving the decline in the number of nursing home residents who would be eligible
+for MFP (Centers for Medicare & Medicaid Services 2015). Similar data published by CMS
+suggest that the population of Medicaid beneficiaries in ICFs/IID has steadily declined in recent
+decades as well (Centers for Medicare & Medicaid Services 2013).
+For the older adult population, MFP participants have been younger and disproportionately
+minorities, men, and Medicaid-only beneficiaries (less likely to be dually eligible for Medicaid
+and Medicare) compared with the older adults eligible for the MFP demonstration. Older adult
+MFP participants have also been less functionally impaired; the functional impairment scores for
+MFP participants in 2008 indicate that on average they were completely dependent in 2.5 out of
+7 activities of daily living and the eligible population had scores that indicated complete
+dependence in 4.0 out of 7 activities on average (impairment was higher in 2012, the eligible
+population on average was completely dependent in 4.5 activities compared to 3.0 activities
+among MFP participants that year). However, depending on the year, between 59 and 79 percent
+of older adults transitioned by MFP had moderate to high level of care needs and between 39 and
+57 percent had moderate to severe cognitive impairment. 8 Similarly, between 52 and 78 percent
+of younger adults with physical disabilities transitioned by MFP demonstrations had moderate to
+high level of care needs and between 22 and 59 percent had moderate to severe cognitive
+impairment depending on the year. MFP participants with intellectual disabilities have been
+slightly younger and disproportionately minorities, men, and Medicaid-only beneficiaries, and
+more likely to live in a rural area.
+B. Conduct of the MFP demonstration
+
+To draw conclusions about the conduct of MFP demonstration projects [DRA §6071(g)(2)],
+the national evaluation assessed:
+a) numerical benchmarks for (i) the numbers of eligible individuals assisted to transition to
+qualified residences and (ii) Medicaid spending on home and community-based longterm care services [DRA §6071(d)(4)(A)] and
+b) states’ compliance with the demonstration’s maintenance of effort requirement [DRA
+§6071(c)(9)].
+1.
+
+Grantee progress on numerical benchmarks for transitions and home and communitybased LTSS expenditures
+
+The DRA of 2005, required state grantees to project the number of transitions their MFP
+demonstrations would achieve each year and by target population. In addition, the statute
+8
+
+Using data from the nursing home minimum data set assessments, care levels were determined based on each
+person’s Resource Utilization Group (RUG-III) assignment. Low care individuals were identified using the
+definition employed by Ikegami (1997) and Mor et al. (2007), that is, individuals who do not require physical
+assistance in any late-loss activities of daily living (ADLs) and were in the three lowest RUG-III categories. This
+definition of low care focuses primarily on physical functioning, and therefore individuals with impaired cognition
+or behavioral problems who can perform the late-loss ADLs without assistance may be included in the low-care
+group.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+7
+
+required states to establish annual goals for spending on home and community-based LTSS for
+the entire Medicaid program [DRA, §6071(c)(5) and (d)(4)(A)(i-ii)].
+MFP grantees have progressively transitioned more beneficiaries to community living
+each year (Figure 2). During 2015, the 44 grantee states actively transitioning Medicaid
+beneficiaries achieved 97 percent of their goal for the year, transitioning 11,661 people of the
+11,985 projected for the year. Calendar year 2015 marked the largest number of transitions in a
+single year for the MFP rebalancing demonstration.
+Figure 2. MFP grantees’ progress toward annual transition goals, 2008–2015
+14000
+12,521
+11,581
+
+12000
+
+Number of transitions
+
+10,413
+10000
+7,966
+
+11,661
+
+7,804
+6,251
+5,723
+
+6000
+
+2000
+
+10,983
+
+9,015
+
+8000
+
+4000
+
+10,552
+
+11,985
+
+3,927
+
+6,912
+
+Number of proposed
+transitions each year
+Number of actual
+transitions each year
+
+4,200
+
+1,473
+
+0
+2008
+Source:
+Note:
+
+2009
+
+2010
+
+2011
+
+2012
+
+Calendar Year
+
+2013
+
+2014
+
+2015
+
+Mathematica’s analysis of State MFP Grantee Semiannual Progress Reports, 2008 – 2015.
+The data for 2008 through 2010 represent people transitioned by 30 grantee states; 2011 from 33
+grantees; 2012 from 37 grantees; 2013 from 42 grantees; and 2014 and 2015 represent people
+transitioned from 44 grantee states. Annual counts of actual transitions may differ from earlier reports as
+grantee states may update their data as their reporting becomes more complete.
+
+In years when grantees have missed their transition goals, the cause has been due in
+part to particularly ambitious goals. Historically, grantee states set ambitious transition goals
+in the first year or two of their programs, but then experienced fewer-than-expected transitions
+because their procedures and systems took longer to implement than expected, which made it
+difficult for new programs to meet or exceed their goals. This trend was observed in 2008 and
+2009 when the 30 original grantees began to operationalize their MFP programs and again in
+2013 and 2014 when the last group of MFP grantee awardees were in the first years of their
+transition programs. In addition, grantees have always reported challenges to transitioning
+beneficiaries. In 2015, 55 percent of all MFP grantees (24 states) reported challenges
+transitioning the projected number of participants they proposed to transition during the year
+(compared to 61 percent in 2014). Reported challenges included:
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+8
+
+•
+
+Insufficient supply of affordable and accessible housing, including lack of available housing
+choice vouchers (the most commonly reported challenge since the inception of the
+demonstration);
+
+•
+
+Reductions in the number of referrals received;
+
+•
+
+Staff shortages, including transition coordinators and case managers;
+
+•
+
+Lengthy transition periods; and
+
+•
+
+Difficulty coordinating with relevant state agencies.
+
+Grantee states have consistently achieved their expenditure goals for home and
+community-based LTSS. Grantee states reported spending $74.5 billion in total on home and
+community-based LTSS in 2015, achieving 98 percent of the aggregate expenditure goal they
+had set for the year ($76.0 billion). This achievement mirrors what was seen in 2014 (nearly 100
+percent) and 2013 (100 percent) (Figure 3). 9 This level of spending represents a 3 percent
+increase in expenditures from 2014 ($72.4 billion), and an 8 percent increase from 2013 ($69.2
+billion). Because grantee states did not all implement their MFP demonstrations at the same time,
+and the last two grantees began MFP transitions in 2014, the growth noted in Figure 3 represents
+both general growth in home and community-based LTSS expenditures, but also the growing
+number of grantee states.
+When yearly spending amounts are aggregated, grantee states spent more than $473.3 billion
+on community-based LTSS from 2008 through 2015. Given that the $4 billion set aside for the
+MFP demonstration represents less than 1 percent of total spending on community-based LTSS,
+the grantee states have made considerable progress during these 8 years.
+
+9
+
+Spending on home and community-based LTSS for 2015 may show stronger growth once states finish processing
+claims for the year. In addition, previous year expenditures might not be consistent with counts provided in earlier
+MFP-related reports, because some state grantees experience lags in their information systems when trying to
+process claims. These states provide updated expenditure reports once their systems are able to process all claims
+associated with a given year.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+9
+
+Figure 3. Projected and actual qualified home and community-based LTSS
+expenditures, December 2008 to December 2015
+
+Source:
+Note:
+
+2.
+
+Mathematica’s analysis of State MFP Grantee Semiannual Progress Reports, 2008–2015.
+This figure only represents spending on home and community-based LTSS and does not include
+spending on institutional services. The data for 2008-2010 are from 29 grantee states, 33 grantees in
+2011, 37 grantees in 2012, 42 grantees in 2013, 45 grantees in 2014, and 44 grantees in 2015. Oregon
+formally withdrew in 2014.
+
+Compliance with the maintenance of effort requirement
+
+All state grantees complied with the maintenance-of-effort requirement. As noted
+above, a maintenance-of-effort requirement stipulated that grantee states maintain their spending
+on home and community-based LTSS at or above pre-MFP levels. 10 Using data from Eiken et al.
+(2016), all grantee states met this requirement. All maintained or increased their spending on
+home and community-based LTSS when compared to their spending in the year before they
+received the MFP grant award.
+C. The effectiveness of the MFP demonstration, key findings from the
+national evaluation
+
+To draw conclusions about the effectiveness of the MFP demonstration [DRA §6071(g)(2)],
+the national evaluation assessed:
+10
+
+The DRA of 2005 specifies that total expenditures under the State Medicaid program for home and communitybased LTSS were not to be less during the MFP demonstration than these expenditures were for fiscal year 2005 or
+any succeeding fiscal year before the first year of the MFP demonstration, whichever is greater [DRA §6071(c)(9)].
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+10
+
+-
+
+1.
+
+the savings related to the transition of individuals to qualified residences [DRA
+§6071(g)(1)];
+a range of state-level outcomes analyses including state transition and reinstitutionalization rates, as well as state progress on rebalancing LTSS expenditures;
+and
+changes in the quality of life of MFP participants.
+
+Savings related to the transition of individuals to qualified residences
+
+When MFP participants transitioned to community living, Medicaid programs
+experienced cost savings. On average, per-beneficiary per-month expenditures (PBPM)
+declined by $1,840 (23 percent) among older adults transitioning from nursing homes (Figure 4),
+which translates to average cost savings for Medicaid and Medicare programs of $22,080 during
+the first year after the transition to home and community-based LTSS. 11 By the end of 2013,
+grantee states had transitioned 12,434 older adults from nursing homes, which translates to
+roughly $275 million in medical and LTSS cost savings for the first year after the transition. 12
+State estimates of cost savings are presented in Appendix A.
+
+11
+
+The analyses presented in this section are based on all fee-for-services Medicaid and Medicare expenditures
+captured in claims data. However, prescription drug expenditures are excluded.
+
+12
+
+Per-beneficiary per-month cost savings are based on those with available data, but the number of MFP
+participants used to assess total cost savings are based on all MFP participants regardless of data availability.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+11
+
+Figure 4. Distribution of Medicare and Medicaid pre- and post-transition
+monthly expenditures for older adult MFP participants transitioning from
+nursing homes
+
+Source:
+
+Mathematica’s analysis of Medicaid and Medicare claims and enrollment data for MFP participants who
+transitioned from institutional to home and community-based LTSS from 2008 through 2013 in 32
+states.
+Note:
+This analysis is based on an unweighted sample of 4,413 older adult MFP participants who had
+transitioned by the end of 2013. Monthly expenditures are based on 6 months of pre-transition data and
+12 months of post-transition data.
+PBPM = per-beneficiary-per-month.
+
+Similarly, the monthly expenditures for people with physical disabilities and
+participants with intellectual disabilities decline. For people with physical disabilities,
+monthly expenditures decline on average by $1,783 (23 percent) per beneficiary (Figure 5),
+which represents total Medicaid and Medicare cost savings of $21,396 per beneficiary for the
+first year after transitioning to the community. Grantee states had transitioned 16,039 people
+with physical disabilities by the end of 2013, which means their first year of community living
+represents about $343 million in cost savings for the Medicaid and Medicare programs. For the
+population with intellectual disabilities, monthly expenditures decline by $4,013 (30 percent) per
+beneficiary (Figure 6), for a total savings of $48,156 for each person for the first year after the
+transition. By the end of 2013, states had transitioned 7,487 beneficiaries with intellectual
+disabilities for a cost savings of $361 million for the Medicaid and Medicare programs. Among
+these two populations of people with physical disabilities and intellectual disabilities, Medicarepaid expenditures increase slightly due to gains in Medicare eligibility after transition. 13 A
+
+13
+
+Some MFP participants with physical and intellectual disabilities become eligible for Medicare after they
+transition either because they age into the program or because they have completed the two-year waiting period after
+becoming eligible for Social Security Disability Insurance benefits.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+12
+
+separate analysis of participants who transition from IMDs was not conducted because the
+sample size was too small to support the development of reliable estimates.
+Figure 5. Distribution of Medicare and Medicaid pre- and post-transition
+monthly expenditures for MFP participants with physical disabilities
+transitioning from nursing homes
+
+Source:
+
+Mathematica’s analysis of Medicaid and Medicare claims and enrollment data for MFP participants who
+transitioned from institutional to home and community-based LTSS from 2008 through 2013 in 32
+states.
+Note:
+This analysis is based on an unweighted sample of 11,215 MFP participants with physical disabilities
+who had transitioned by the end of 2013. Monthly expenditures are based on 6 months of pre-transition
+data and 12 months of post-transition data.
+PBPM = per-beneficiary-per-month.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+13
+
+Figure 6. Distribution of Medicare and Medicaid pre- and post-transition
+monthly expenditures for MFP participants transitioning from intermediate
+care facilities for individuals with intellectual disabilities
+
+Source:
+
+Mathematica’s analysis of Medicaid and Medicare claims and enrollment data for Medicaid beneficiaries
+who transitioned from institutional to home and community-based LTSS from 2008 through 2013 in 32
+states.
+Note:
+This analysis is based on an unweighted sample of 4,271 MFP participants with intellectual disabilities
+who had transitioned by the end of 2013. Monthly expenditures are based on 6 months of pre-transition
+data and 12 months of post-transition data.
+PBPM = per-beneficiary-per-month.
+
+Combining all three population groups, MFP participants transitioned through 2013
+generated $978 million in reduced Medicaid and Medicare costs during the first year after
+the transition to home and community-based LTSS.14 When broken out into Medicaid and
+Medicare costs, the estimates suggest that Medicaid programs realized $1,003 million in savings,
+but Medicare realized $25 million in additional costs because some MFP participants became
+eligible for Medicare after transitioning. The overall estimate for the reduction in expenditures
+does not account for program administrative costs.
+The overall cost savings estimate is an upper-bound on cost savings because it assumes
+that the entire decrease is attributable to the MFP program. A proportion of MFP
+participants would likely not have transitioned in the absence of the MFP demonstration and
+some may have transitioned on their own even if MFP had not been there to help them. Other
+Medicaid beneficiaries who also transition from long-term residence in an institution to home
+
+14
+
+The overall estimates assume that MFP participants would have maintained their pre-transition level of spending.
+In a sample of Medicaid beneficiaries residing in institutions for at least 24 continuous months between 2006 and
+2011, expenditures increased by 3.8 percent per year on average.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+14
+
+and community-based LTSS without the benefit of the MFP demonstration, have similar declines
+in their total Medicaid and Medicare costs.
+Typically, MFP participants have higher Medicaid costs in the first year after the transition
+compared to others who transition from institutional care to community-based LTSS, primarily
+because they receive more home and community-based LTSS, which is by design. MFP
+participants appear to have longer institutional stays before the transition and are less likely to
+have previous experience with home and community-based LTSS compared to others who also
+experience the same transition, but without the support of the MFP demonstration (Table 2). This
+descriptive evidence suggests that grantee states may be focusing resources on helping
+beneficiaries who have fewer connections to community services than others. That is, exposure
+to living in the community with supports—such as what a diversion program might provide—
+may influence the likelihood of returning to the community when a stay in an institution is
+necessary15.
+Table 2. Pre-transition characteristics for a sample of MFP participants and
+other transitioners
+Older adults
+
+Characteristics
+Age (mean)
+Dual status (%)
+Mental health condition prior to
+transition (%)
+Used community-based LTSS
+prior to transition (%)
+> 6 months in institution (%)
+ED visit leading to an IP
+admission (%)
+
+MFP
+76
+96
+
+Other
+transitioners
+
+People with
+physical disabilities
+
+People with ID/DD
+
+Other
+transitioners
+
+Other
+transitioners
+
+MFP
+
+77
+95
+
+52
+47
+
+MFP
+
+52
+45
+
+45
+59
+
+43
+61
+
+70
+
+46
+
+70
+
+69
+
+48
+
+41
+
+23
+
+33
+
+13
+
+29
+
+9
+
+25
+
+83
+
+66
+
+89
+
+72
+
+97
+
+88
+
+22
+
+32
+
+27
+
+37
+
+7
+
+13
+
+Source:
+
+Mathematica’s analysis of Medicaid and Medicare claims and enrollment data for Medicaid beneficiaries
+who transitioned from institutional to community-based LTSS from 2008 through 2013 from 32 states.
+Note:
+Use of community-based LTSS, months institutionalized, and ED visits and IP admissions assessed
+during the 6 months before the transition.
+ED = emergency department; ID/DD = intellectual or developmental disabilities; and IP = inpatient.
+
+If MFP increases transition rates and helps people transition who would not have otherwise
+done so, then the cost savings that occur when an MFP participant transitions can be directly
+attributed to the MFP demonstration. The size of the decline in total Medicaid and Medicare
+
+15
+
+One of the most well-known diversion programs was the Long-Term Care Channeling Demonstration developed
+in 1980 (Applebaum 2012) which provided case management services and payment for community-based LTSS
+such as personal assistance, home-delivered meals, home health services, and respite care to more than 6,000 older
+people who qualified for Medicaid and nursing home level of care.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+15
+
+costs 16 is large enough on average to generate sufficient savings to offset the MFP administrative
+costs, which are about 14 percent of the costs of the home and community-based LTSS financed
+by the MFP demonstration. However, assessing the cost savings is a complex analysis because
+savings can be realized in a number of different ways. Cost savings may be particularly large if
+MFP is able to help participants remain longer in the community and avoid readmissions to
+institutional care, but the evidence that aggregated state-level re-institutionalization rates
+declined after the MFP demonstration began is weak so far.
+The evaluation has focused on costs during the first year post transition and has been
+constrained in its ability to assess costs and service utilization further into the future. Another
+avenue for cost savings may be through lower medical care costs that result if home and
+community-based LTSS is of higher quality than it would have been if MFP had not been
+implemented. Again, the evaluation finds little evidence in the data that this mechanism is a
+factor. Another way in which MFP may generate cost savings is if this type of program shortens
+the length of stay in institutional care and beneficiaries are able to move back to the community
+more quickly than otherwise. Comparisons of MFP participants to other beneficiaries who also
+transition, but without the help of the MFP demonstration, indicate that other transitioners have
+prior exposure to community-based LTSS and their institutional stays were shorter. 17 MFP
+participants tend to have less experience with community-based LTSS before the transition.
+However, this is descriptive information and more robust research is needed before definitive
+conclusions can be drawn.
+2.
+
+Key findings from a range of state-level outcomes analyses
+
+In many states, the MFP demonstration helped states establish formal transition and
+rebalancing programs that did not exist previously. Congress set aside $4 billion in funding
+for the MFP rebalancing demonstration and this funding incentivized Medicaid programs in 44
+states and the District of Columbia to develop formal transition programs for Medicaid
+beneficiaries residing in long-term institutional care. State personnel have found these programs
+challenging to develop because of the need to coordinate program functions and processes across
+multiple state agencies and an array of home and community-based LTSS providers. They also
+have learned how difficult transitions can be when affordable and accessible housing is scarce
+and communities’ capacity to provide home and community-based LTSS is insufficient. At least
+29 grantee states also reported having parallel transition programs for others who want to
+transition but do not meet the MFP eligibility criteria and 12 reported having formal transition
+programs for individuals residing in intermediate care facilities for individuals with intellectual
+disabilities.
+MFP has been the catalyst to interagency collaboration between health and housing to
+help individuals in institutions to locate and secure affordable and accessible housing, a key
+16
+
+Although Medicaid and Medicare costs are key costs associated with beneficiaries who need institutional level
+care, these costs do not include the costs of informal care provided by family and friends or costs of other programs,
+such as services provided by the Veteran’s Administration, that may provide services to MFP beneficiaries.
+17
+
+The analysis restricted the comparison group of others who made the same transition to those who also had at
+least a 90-day stay in institutional care.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+16
+
+achievement of this demonstration. States have used MFP funding to support health-housing
+collaborations, hire housing specialists who work on housing and health policy at the state level,
+educate and inform health agency staff and transition coordinators on the availability of housing
+resources, and help beneficiaries in institutional care locate and secure affordable and accessible
+housing in the community. Many of the grantee states are extending the interagency
+collaborations they started under the MFP demonstration to the Section 811 Project Rental
+Assistance program administered by the U.S. Department of Housing and Urban Development.
+By the end of calendar year 2014, the most recent year available, state grantees had
+spent nearly $240 million in MFP rebalancing funds on a wide array of initiatives to
+improve access to community-based LTSS (Figure 7). Grantees have most commonly used
+MFP rebalancing funds to increase the capacity of their 1915(c) waiver programs and to increase
+access to affordable and accessible housing for individuals in need of LTSS. However, states
+continue to note that insufficient supply of home and community based LTSS is a barrier to
+transitions, second only to the scarcity of affordable and accessible housing. They have also used
+rebalancing funds to promote awareness, use, or access to transition services; support the direct
+care workforce, including new tools (such as videos) to attract the right workers; develop new
+education and training options to increase job commitment and the system’s ability to manage
+the difficult behaviors of some who use LTSS; create new registries to link workers with people
+who need them; engage potential participants through outreach; support the development or use
+of tools to assess consumer needs and preferences; promote employment for individuals through
+support services and infrastructure changes; and develop or improve administrative data or
+tracking systems.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+17
+
+Figure 7. Cumulative accrual and expenditure of state rebalancing funds (in
+millions of dollars) December 2008–December 2014
+
+Sources:
+Note:
+
+Mathematica analysis of State MFP Grantee Semiannual Progress Reports, 2009–2013, and the 2014
+state budget worksheets.
+The data are from 30 grantee states for 2008 through 2010, 37 grantees in 2011, and 43 grantees from
+2012 through 2015.
+
+Based on an analysis of 26 MFP grantee states awarded grants in 2007, the national
+evaluation has not detected an increase in the proportion of LTSS expenditures accounted
+for by home and community-based LTSS after MFP transitions began. Home and
+community-based LTSS expenditures as a percentage of total LTSS expenditures were already
+increasing before the MFP demonstration began in grantee states and the pre-demonstration
+upward trend did not change after grantee states started their MFP transition programs. 18 While
+the evaluation has been unable to detect an MFP effect on the balance of state LTSS
+expenditures, it is important to note that the first grantees were implementing their MFP
+demonstrations in the midst of the great recession, which began in December 2007. 19 The
+evaluation has not attempted to determine whether the MFP demonstration effectively blunted
+18
+
+This pattern is seen for all targeted populations, with one exception. Among people with physical disabilities, the
+data suggest that MFP was associated with a decrease in the percentage of LTSS expenditures for home and
+community-based LTSS starting in the third year of the demonstration. The unexpected result merits more
+investigation to determine whether it is driven by a data anomaly or a specific state.
+19
+
+The Medicaid claims data used for this analysis included only fee-for-service expenditures and the extent to
+which managed LTSS programs alter the proportion of LTSS expenditures accounted for by home and communitybased LTSS is not captured in the analysis. In addition, any services provided through 1915(i) state plan home and
+community-based services, 1915(j) self-directed personal assistance services, and 1915(k) Community First Choice
+programs during the time period of the analysis (2007 through 2013), may be missed because the national uniform
+Medicaid data files during this period did not specifically identify these services.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+18
+
+the effects of the recession and resulting tight state budgets, but it is possible that the MFP
+demonstration helped grantee states maintain their spending on home and community-based
+LTSS during the recession. Grantee spending of MFP rebalancing funds to expand the capacity
+of their 1915(c) waiver programs is consistent with this possibility, and during the recessionary
+period state grantees routinely reported in their semiannual progress reports that challenging
+economic conditions made it difficult for them to expand home and community-based LTSS.
+National data compiled by Wenzlow et al. (2016) indicate that spending on community-based
+LTSS has grown steadily since the 1990s while spending on institutional care services has been
+stable but started to decline on a yearly basis in 2010. Between 2007 and 2014, inflation-adjusted
+spending on community-based LTSS increased nationally by nearly 55 percent (or a little less
+than 8 percent per year on average) compared to a 4 percent decline (or nearly a 0.6 percent
+decline per year on average) in spending for institutional care services (Table 3). These postMFP changes in spending compares to the 89 percent growth in spending on community-based
+LTSS and a 1 percent increase in spending on institutional care services during the years leading
+up to the MFP demonstration from 2000 through 2007.
+Table 3. Long-term services and supports expenditures for the United States
+Percentage increase in total spending
+Category of LTSS
+
+1993-2000
+
+2000-2007
+
+2007-2014
+
+Community-based LTSS
+
+173.5%
+
+89.1%
+
+54.7%
+
+Institutional care services
+
+20.8%
+
+1.2%
+
+-4.0%
+
+Source:
+Note:
+
+Mathematica analysis of data from Wenzlow et al. (2016).
+Based on inflation-adjusted spending amounts.
+
+A comprehensive analysis of the outcomes from the MFP demonstration was difficult
+to achieve due to considerable constraints of the Medicaid claims data systems and states’
+varying capacity to report timely MFP and Medicaid data. The national evaluation has not
+been able to secure a complete set of Medicaid enrollment and claims data from all grantee states
+and all demonstration years because of delays in state reporting of these data. As a result, many
+of the analyses are based on samples of states and samples of participants within states that may
+not always account for the wide variability across the grantee states and targeted populations.
+The inability to construct a representative sample of MFP participants from each grantee state
+means that the evaluation results based on Medicaid administrative data are not as robust as
+possible. For example, earlier evaluation results suggested that MFP was associated with an
+increase in transition rates among people with physical disabilities residing in nursing homes
+(Irvin et al. 2015), but these results did not hold up when the sample of grantee states in the
+analysis and the estimation methodology changed.
+The most recent empirical analyses suggest that after five years of operating an MFP
+demonstration, approximately 25 percent of older adult MFP participants and 50 percent
+of MFP participants with intellectual disabilities in 17 grantee states would not have
+transitioned if MFP had not been implemented. When observable characteristics and previous
+trends were controlled for in a regression framework, the national evaluation of the MFP
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+19
+
+demonstration finds that over time there was an overall decline in transition rates (Figure 8). 20
+Given the existing decline in transition rates before the launch of MFP, the model predicted a
+continuing downward trend in transition rates had MFP not been implemented. However, the
+regression-adjusted transition rates were higher after MFP started than what was predicted.
+These results suggest that the launch of MFP was positively associated with the probability of
+transitioning older adults from nursing homes to community-based LTSS, despite the overall
+declining transition rates. MFP in the study states appears to have moderated the downward trend
+in transitions among older adults residing in nursing homes.
+In other analyses, the national evaluation found that the transition rates among people with
+intellectual disabilities were higher than what would have been expected in most post-MFP
+quarters. The difference between the actual and the predicted transition rates without MFP grew
+for post-MFP quarters 7–12 but then started to converge again in later post-MFP quarters. These
+results suggest that in the 17 study states, the launch of MFP increased transition rates in the
+post-MFP period among people with intellectual disabilities. The results also suggest, however,
+that this increase was transitory and did not persist for more than 18–20 months. Nevertheless,
+the overall transition rates among this target population grew over time. In additional analyses,
+the evaluation broke out the overall number of transitions observed into MFP participants and
+other transitioners and estimated the percentage of the change in the overall number of
+transitions due to MFP. The evaluation estimated about 25 percent of transitions among older
+adults can be attributed to MFP and 50 percent among individuals with intellectual disabilities,
+representing people who would not have transitioned had MFP not been implemented. These
+estimated effects do not control or account for other parallel transition programs operationalized
+alongside the MFP demonstration at the same time and may have accounted for a proportion of
+the transitions attributed to the MFP demonstration.
+
+20
+
+The recently published AARP state LTSS scorecard also indicates that transitions from institutional care to
+community-based LTSS among older adults and younger adults with disabilities have declined in approximately 40
+percent of states (Reinhard et al. 2017).
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+20
+
+Figure 8. Regression-adjusted trends in transition rates: Older adults in
+nursing homes
+
+Source:
+Note:
+
+Mathematica analysis of 2008–2012 Medicaid Analytic eXtract (MAX).
+The transition rate includes both MFP participants and other transitioners to community-based longterm services and supports (LTSS) in 17 grantee states that started MFP transitions in 2008. Quarter 0
+corresponds to the state’s first MFP transition. Quarters -8 through -1 correspond to the pre-MFP
+period, and quarters 0 through 20 correspond to the post-MFP period. The solid line shows the
+observed quarterly rate of transitions per 1,000 eligible beneficiaries, after controlling for individual-level
+characteristics. The dotted line shows what the transition rate would have been if the MFP
+demonstration had not been implemented and the existing trends in transition rates from per-MFP
+period had continued in the post-MFP period. The vertical distance between the solid and the dotted
+line is the estimated change in overall quarterly transition rates that occurred after the launch of the
+MFP demonstration in each grantee state.
+
+Similar to the trends over time for older adults in nursing homes, the transition rates for
+younger adults with physical disabilities in nursing homes also declined over time (results not
+shown). Transition rates in post-MFP quarters for this target group were slightly lower but very
+similar to what would have been predicted given existing trends. These results suggest that,
+among people with physical disabilities, the launch of MFP did not affect transition rates in the
+post-MFP period. This result is contrary to what was reported in the 2014 annual evaluation
+report for the national demonstration (Irvin et al. 2015) and suggests that results are sensitive to
+the states included in the analysis and the methodology used. Essentially, results are not robust
+and the findings presented in this report should be considered preliminary. Among people with
+severe mental illness who transition from long-term psychiatric facilities, transition rates in postMFP quarters were very similar to what would have been predicted given existing trends (results
+not shown). The results indicate that the launch of MFP in the 17 study states was not associated
+with a change in transition rates among people with severe mental illness.
+Use of medical and rehabilitation services are high for everyone transitioning to the
+community, not just MFP participants, but there are few significant differences in
+utilization between MFP participants and other transitioners. Nearly half of people
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+21
+
+transitioning from nursing homes are hospitalized in the year after transition, and emergency
+department (ED) use ranges from 52 to 55 percent among people with intellectual disabilities to
+67 to 68 percent among persons with physical disabilities. For reference, 30 to 40 percent of
+Medicaid beneficiaries residing in an institution for two or more years during the post-MFP
+period visited the ED each year, and 14 to 30 percent were hospitalized (Irvin et al. 2015). There
+are few significant differences in the use of services between MFP participants and other
+transitioners, but utilization varies by target population. Older adult MFP participants are
+significantly less likely to be hospitalized than other transitioners (the odds ratio [OR] = 0.86, p
+< 0.001), and after discharge, are more likely to use home health (OR = 1.33, p <0.001). For
+persons with physical disabilities, patterns are somewhat reversed: MFP participants have greater
+odds of emergency hospitalization (OR = 1.12, p <0.001) and are less likely to use home health
+after discharge (OR = 0.75, p < 0.001). These results suggest that regardless of someone’s
+participation in MFP, those who use LTSS and transition from institutional to community
+settings are vulnerable and use acute-care services at high rates.
+Quality of care indicators suggest MFP participants are less likely to be readmitted to
+institutional care during the first year after the transition. Although MFP participants incur
+more costs after transitioning to the community relative to others who transition without the
+benefit of MFP, the evaluation hypothesized that this differential might translate to higher quality
+of care or more desirable post-transition outcomes. One hypothesis is that the additional services
+MFP participants receive help them stay connected to medical and social services and thus
+remain in the community longer. For example, the additional community services might help
+MFP participants prevent returns to institutional care or costly medical care related to accidents
+and injuries; these services might also help them return to the community more quickly after an
+inpatient stay.
+Compared with others who transition, MFP participants are less likely to be readmitted to
+institutional-level care after the initial transition to the community (Table 4). In addition, MFP
+participants have statistically significantly lower institutional care use within 180 days of
+transition. Interestingly, although re-institutionalizations vary between MFP participants and
+other transitioners, post-transition expenditures for institutional care are similar between the
+groups. The conflicting cost and utilization results suggest that if and when re-institutionalization
+happens, it happens either with a delay for MFP participants or they have longer stays compared
+with other transitioners.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+22
+
+Table 4. Difference in post-transition quality of care for MFP participants
+relative to a matched comparison group of other transitioners
+Persons with physical
+disabilities
+
+Older adults
+Utilization
+outcome
+
+Other
+MFP transitioners
+
+OR
+
+Other
+MFP transitioners
+
+OR
+
+Persons with ID/DD
+Other
+MFP transitioners
+
+OR
+
+Reinstitutionalized 30 days or
+more within 180
+days
+
+6%
+
+15%
+
+0.37***
+
+5%
+
+8%
+
+0.59***
+
+2%
+
+2%
+
+0.57***
+
+Any institutional
+LTSS use within
+180 days
+
+42%
+
+48%
+
+0.76***
+
+43%
+
+51%
+
+0.71***
+
+43%
+
+53%
+
+0.64***
+
+IP admission 90
+days posttransition
+
+22%
+
+23%
+
+0.90*
+
+23%
+
+21%
+
+1.07
+
+9%
+
+8%
+
+0.92
+
+90-day
+readmission after
+IP discharge
+
+9%
+
+10%
+
+0.92
+
+9%
+
+9%
+
+0.80*
+
+5%
+
+3%
+
+1.22
+
+ACSC within 90
+days
+
+9%
+
+8%
+
+0.99
+
+8%
+
+8%
+
+1.07
+
+3%
+
+3%
+
+0.98
+
+Physician visit 30
+days posttransition
+
+62%
+
+59%
+
+1.11*
+
+61%
+
+59%
+
+1.01
+
+51%
+
+49%
+
+0.97
+
+Source:
+
+Mathematica’s analysis of Medicaid and Medicare claims and enrollment data for Medicaid beneficiaries
+who transitioned from institutional to community-based LTSS from 2008 through 2013 from 33 states.
+Note:
+The matched sample of other transitions is based on a propensity-score-matching approach. The
+percentages show the unadjusted utilization of each service in the matched sample. The effect
+estimates are presented as odds ratios (OR) based on a logistic regression model that adjusts for
+individual characteristics.
+ACSC = ambulatory care sensitive condition; ID/DD = intellectual or developmental disabilities; IP = inpatient shortstay hospital; LTSS = long-term services and supports.
+Statistical notation: */**/*** = P-value < *0.05/**0.001/***0.0001.
+
+Quality measures related to hospitalization and health care use indicate few statistically
+significant differences. Older adult MFP participants transitioning from nursing homes are more
+likely to visit a physician within 30 days of the transition relative to other transitioners (they are
+1.11 times more likely to have this visit compared to other transitioners after adjusting for
+observable differences). MFP participants with physical disabilities have lower odds of hospital
+readmissions within 90 days of a hospital discharge.
+MFP provides strong evidence of success at improving the quality of life of
+participants. The results of these analyses show that MFP is having a broad effect on improving
+participants’ quality of life in fundamental ways:
+After transitioning to the community, participants experience increases across all seven
+quality-of-life domains measured, and the improvements are largely sustained two years
+post-transition (Figure 9). The changes observed between pre-transition (baseline) and one and
+two years post-transition are positive and statistically significant across all measures. Participants
+experienced the highest levels of satisfaction with their living arrangements; nearly all
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+23
+
+participants (92 percent) reported liking where they lived one year after community living, which
+represents a 32-percentage-point increase compared to when they were in institutional care. The
+next biggest improvement was reported in the domain of community integration, where the
+evaluation finds an 18-percentage-point decrease in barriers to community integration one year
+post-transition (from 53 to 18 percent).
+Figure 9. Quality of life over time
+
+Source:
+
+Mathematica’s analysis of MFP Quality-of-Life surveys and program participation data submitted to
+CMS through May 2016.
+Note:
+Number of observations = 13,795. Excludes data from Alabama, Colorado, Delaware, Indiana,
+Minnesota, Montana, South Dakota, and West Virginia.
+(a) A declining percentage indicates improvement in depressive symptoms, or fewer unmet needs, or
+fewer barriers to community integration.
+(b) Measured as “Any unmet care need” in bathing, eating, medication management, and toileting.
+(c) Measured as affirmative responses to the question: “Is there anything you want to do outside [the
+facility/your home] that you cannot do now?”
+***Significantly different from pre-transition at the .01 level, two-tailed test.
+
+Contrary to concerns that transitioning to the community could lead to unintended
+declines in meeting personal care needs, quality-of-life data indicate that after one year in
+the community, the care needs of most participants were met at similar or higher levels
+than what was reported while in institutional care. Eight percent of participants in the study
+sample reported any unmet need for personal assistance services after one year in the
+community, compared to 18 percent pre-transition; assistance with bathing was the most
+frequently reported unmet need (4 percent) at one year post-transition, followed by toileting (3
+percent). When reported unmet needs were assessed by target population, across all groups fewer
+participants reported unmet needs for personal assistance services one year post-transition
+compared to pre-transition, with the exception of participants with mental illness, who reported
+higher levels of unmet needs related to bathing and taking medication one year after transition
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+24
+
+(however, the small number of participants in this component of the sample makes these results
+unreliable).
+Focused analyses of unmet need for personal care assistance services found that among
+all the diagnoses considered, participants with bipolar disorder who exited nursing
+facilities reported the highest level of unmet needs for personal assistance services (slightly
+more than 12 percent, compared to 9 percent for the overall sample) after one year in the
+community, followed by participants with anxiety disorder (slightly less than 12 percent).
+Reports of higher levels of unmet needs for personal assistance services among participants with
+psychiatric disorders suggests that this population could benefit from increased monitoring of
+formal or informal supports to ensure that their care needs are addressed and they are adequately
+supported during their first year in the community.
+The biggest declines in unmet needs for personal assistance services appear among
+participants with the highest care needs and the severest cognitive impairment. Overall, 22
+percent of participants in the study sample had high care needs while in the institution, and this
+group reported the largest improvement in their access to personal care assistance services: 28
+percent reported any unmet need for personal assistance services pre-transition, which declined
+to 8 percent after one year of community living. A similar sharp decline in the reports of unmet
+need were seen among those who had severe or very severe cognitive impairment: 27 percent
+reported any unmet need for personal assistance services pre-transition, which decreased to 4
+percent one year post-transition. These steep declines of 20 percentage points or more suggest
+that nursing home residents with high care levels have the greatest need for personal assistance
+services and experience the greatest improvement after moving to the community. However,
+without controls for who answers the surveys (the participant or a proxy), these results should
+not be interpreted as indicating causation, in part, because these groups can be small (the group
+with severe cognitive impairment only included 321 participants, or represented 2.9 percent of
+the study sample) and the estimates may not be precise.
+•
+
+In-depth analyses of depressive symptoms indicated that while these symptoms
+declined after the transition to community living, self-reported depressive symptoms
+remained stable and more than one-third of participants had depressive symptoms
+one and two years after the transition. Across four areas of quality of life assessed
+(community integration, autonomy, sleep quality, and unmet needs for personal
+assistance services), MFP participants with depressive symptoms reported lower quality
+of life than participants without these symptoms. Further analyses indicate little
+relationship between depressive symptoms and unmet need for personal care assistance
+services.
+
+•
+
+The evaluation identified an inverse relationship between depressive symptoms and
+quality of life, particularly in the community integration domain. Of participants
+whose depressive symptoms declined one year after moving, 60 percent also reported that
+their community integration increased. In comparison, only 36 percent of participants
+whose depressive symptoms increased upon moving reported an increase in community
+integration. This analysis suggests that as community integration increases, MFP
+participants are less likely to have depressive symptoms. After the transition to the
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+25
+
+community, MFP participants who were more integrated into their communities had
+lower rates of depressive symptoms compared to participants who were less integrated.
+Although these analyses cannot be used to imply causation, increasing participants’
+community integration through informal and formal social connections, such as
+volunteering, employment, and clubs, may be a means by which MFP grantees can help
+alleviate depressive symptoms among its participants.
+D. Conclusions
+
+The legislation that enabled the MFP demonstration requested that
+“The Secretary …[provide] findings and conclusions on the conduct and effectiveness of
+MFP demonstration projects.” [DRA §6071(g)(2)].
+In terms of the conduct of the MFP demonstration, state grantees routinely met their
+benchmarks. They were particularly accurate with their spending benchmarks and all achieved
+the maintenance of effort requirement. In the early years of most MFP demonstrations, state
+grantees struggled with their annual transition benchmarks because program staff did not
+anticipate how difficult it would be to transition beneficiaries who had been in long-term
+institutional care. However, state grantees were better able to estimate their annual transition
+benchmarks within two or three years of launching their demonstrations.
+The national evaluation found positive signs that the demonstration was effective. Since
+2012, MFP grantee states have transitioned more than 10,000 beneficiaries on an annual basis
+and by the end of December 2015, the grantee states transitioned a cumulative total of 63,337
+Medicaid beneficiaries from long-term institutional care to community-based LTSS. When MFP
+participants transitioned to community living, Medicaid programs experienced cost savings. The
+national evaluation estimated that the MFP participants transitioned through 2013 generated
+$978 million in cost savings during the first year after the transition to home and communitybased LTSS. However, this is an upper-bound on cost savings because it assumes that the entire
+decrease is attributable to the MFP program. If MFP increases transition rates and helps people
+transition who would not have otherwise done so, then the cost savings that occur when an MFP
+participant transitions can be directly attributed to the MFP demonstration. The most recent
+empirical analyses suggest that after five years of operating an MFP demonstration,
+approximately 25 percent of older adult MFP participants and 50 percent of MFP participants
+with intellectual disabilities in 17 grantee states would not have transitioned if MFP had not been
+implemented.
+Assessing the cost savings is a complex analysis because savings can be realized in a
+number of different ways. Cost savings may be particularly large if MFP is able to help
+participants remain longer in the community and avoid readmissions to institutional care, but the
+evidence that aggregate state-level re-institutionalization rates declined after the MFP
+demonstration began is weak so far. However, a second type of analysis compares the likelihood
+an MFP participant is re-institutionalized compared to other beneficiaries who experience the
+same transition but do not participate in MFP. This analysis suggests that MFP has a positive
+effect and participants are less likely to be readmitted to institutional care compared to other
+transitioners who do not benefit from MFP. Another avenue for cost savings may be through
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+26
+
+lower medical care costs that result if home and community-based LTSS is of higher quality than
+it would have been if MFP had not been implemented. Again, the evaluation finds little evidence
+in the data that this mechanism is a factor and the results suggest that regardless of someone’s
+participation in MFP, those who use LTSS and transition from institutional to community
+settings are vulnerable and use acute-care services at high rates. Another way in which MFP may
+generate cost savings is if this type of program shortens the length of stay in institutional care
+and beneficiaries are able to move back to the community more quickly than otherwise.
+Comparisons of MFP participants to other beneficiaries who also transition, but without the help
+of the MFP demonstration, indicate that other transitioners have prior exposure to communitybased LTSS and their institutional stays were shorter. MFP participants tend to have less
+experience with community-based LTSS before the transition.
+In other findings of effectiveness, the national evaluation has noted that in many states,
+formal transition and rebalancing programs did not exist before the MFP demonstration began.
+MFP has also been the catalyst to interagency collaboration between health and housing. The
+MFP demonstration has been instrumental to new health and housing collaborations at both the
+federal and state levels.
+MFP also provides strong evidence of success at improving the quality of life of
+participants. After transitioning to the community, participants experience increases across all
+seven quality-of-life domains measured, and the improvements are largely sustained two years
+post-transition. The changes in the quality of life that occur when participants move to the
+community are remarkable and important indicators that this demonstration has had positive
+impacts on participants’ lives. Estimating the value of the quality-of-life improvements reported
+by MFP participants would be extremely difficult, and any dollar value placed on these
+improvements would not adequately reflect what it means for people with significant disabilities
+when they can live in and contribute to their local communities.
+
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+27
+
+REFERENCE
+
+Applebaum, R. “Channeling: What We Learned, What We Didn’t Learn—What It All Means
+Twenty-Five Years Later.” Generations by the Journal of the American Society on Aging.
+April 11, 2012. Accessed on June 2, 2017 at http://www.asaging.org/blog/channeling-whatwe-learned-what-we-didnt-and-what-it-all-means-twenty-five-years-later.
+Centers for Medicare & Medicaid Services. “Intermediate Care Facilities for Individuals with
+Intellectual Disabilities (ICFs/IDD).” July 2013. Available at
+https://www.cms.gov/Medicare/Provider-Enrollment-andCertification/CertificationandComplianc/ICFIID.html. Accessed on May 24, 2016.
+Centers for Medicare & Medicaid Services. “Nursing Home Data Compendium 2015 Edition.”
+2015. Available at https://www.cms.gov/Medicare/Provider-Enrollment-andCertification/CertificationandComplianc/Downloads/nursinghomedatacompendium_5082015.pdf. Accessed on August 9, 2016.
+Eiken, Steve, Kate Sredl, Brian Burwell, and Paul Saucier. “Medicaid Expenditures for LongTerm Services and Supports (LTSS) in FY 2014.” Report by Truven Health Analytics,
+Cambridge, MA: Truven Health Analytics, April 15, 2016.
+Ikegami, N., J.N. Morris, and B.E. Fries. “Low Care Cases in Long-Term Care Settings:
+Variation Among Nations.” Age and Ageing, vol. 26, suppl. 2, September 1997, pp. 67–71.
+Irvin, Carol, Noelle Denny-Brown, Alex Bohl, John Schurrer, Wilfredo Lim, Rebecca
+Sweetland Lester, and Victoria Peebles. “Money Follows the Person 2013 Annual
+Evaluation Report.” Final report submitted to the Centers for Medicare & Medicaid
+Services, Division of Community Services Transformation, Disabled and Elderly Health
+Programs Group. Cambridge, MA: Mathematica Policy Research. February 20, 2015.
+Irvin, Carol, Noelle Denny-Brown, Alex Bohl, John Schurrer, Andrea Wysocki, Rebecca
+Coughlin, and Susan R. Williams. “Money Follows the Person 2014 Annual Evaluation
+Report.” Final report submitted to the Centers for Medicare & Medicaid Services, Division
+of Community Services Transformation, Disabled and Elderly Health Programs Group.
+Cambridge, MA: Mathematica Policy Research. December 18, 2015.
+Mor, V., J. Zinn, et al. “Prospects for Transferring Nursing Home Residents to the Community.”
+Health Affairs, vol. 26, no. 6, 2007, pp. 1762–1771.
+Reinhard, Susan, Jean Accius, Ari Houser, Kathleen Ujvari, Julia Alexis, and Wendy Fox-Grage.
+“Picking up the Pace of Change: A State Scorecard on Long-Term Services and Supports for
+Older Adults, People with Physical Disabilities, and Family Caregivers.” Washington D.C.:
+AARP.
+Wenzlow, Audra, Steve Eiken, and Kate Sredl. “Improving the Balance: The Evolution of
+Medicaid Expenditures for Long-Term Services and Supports (LTSS), FY 1981-2014.”
+Truven Health Analytics, June 3, 2016.
+Report to Congress
+Money Follows the Person Rebalancing Demonstration
+
+28
+
+APPENDIX A
+COST SAVINGS PER STATE
+
+This page left blank for double-sided printing.
+
+Table A.1. Average change in per-beneficiary, per-month Medicaid and Medicare expenditures for MFP
+participants post transition, by state
+Older adults
+
+People with physical disabilities
+
+21
+
+Medicaid
+($)
+-1,397
+
+Medicare
+($)
+-111
+
+N
+64
+
+Medicaid
+($)
+-2,684
+
+CA
+
+60
+
+-3,882
+
+-305
+
+139
+
+CT
+
+514
+
+-2,578
+
+-571
+
+747
+
+DC
+
+N/A
+
+N/A
+
+N/A
+
+DE
+
+14
+
+-4,360
+
+GA
+
+175
+
+-1,942
+
+IA
+
+N/A
+
+IL
+IN
+
+People with ID/DD
+
+A-3
+
+Medicare
+($)
+452
+
+N
+113
+
+Medicaid
+($)
+1,131
+
+-5,555
+
+-1,039
+
+151
+
+-10,613
+
+554
+
+-4,694
+
+481
+
+14
+
+-18,989
+
+-274
+
+N/A
+
+N/A
+
+N/A
+
+69
+
+4,207
+
+-172
+
+-418
+
+22
+
+-3,663
+
+2,725
+
+N/A
+
+N/A
+
+N/A
+
+66
+
+459
+
+-1,506
+
+712
+
+536
+
+-1,864
+
+467
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+2226
+
+-5,829
+
+481
+
+104
+
+-628
+
+-226
+
+410
+
+-1,899
+
+454
+
+73
+
+-9,455
+
+722
+
+124
+
+-162
+
+709
+
+121
+
+-639
+
+236
+
+213
+
+-230
+
+-52
+
+KY
+
+71
+
+-659
+
+417
+
+137
+
+-215
+
+96
+
+90
+
+-7,524
+
+617
+
+LA
+
+34
+
+-331
+
+-566
+
+73
+
+-1,636
+
+1,213
+
+84
+
+-7,764
+
+219
+
+MA
+
+25
+
+1,231
+
+-959
+
+14
+
+9,160
+
+-3,028
+
+N/A
+
+N/A
+
+N/A
+
+MD
+
+388
+
+-1,723
+
+-427
+
+405
+
+-1,867
+
+763
+
+95
+
+-12,671
+
+428
+
+MI
+
+384
+
+-2,047
+
+-199
+
+435
+
+-2,097
+
+270
+
+N/A
+
+N/A
+
+N/A
+
+MO
+
+97
+
+-1,610
+
+104
+
+263
+
+-1,960
+
+726
+
+256
+
+1,801
+
+138
+
+State
+
+N
+
+AR
+
+Medicare
+($)
+-50
+
+MS
+
+N/A
+
+N/A
+
+N/A
+
+15
+
+-2,755
+
+741
+
+35
+
+-4,141
+
+323
+
+NC
+
+18
+
+-1,815
+
+-1,289
+
+27
+
+-1,304
+
+2,817
+
+53
+
+-3,309
+
+334
+
+ND
+
+N/A
+
+N/A
+
+N/A
+
+15
+
+-4,355
+
+117
+
+35
+
+-3,128
+
+64
+
+NE
+
+35
+
+-2,084
+
+-942
+
+62
+
+-4,281
+
+-501
+
+52
+
+-2,792
+
+576
+
+NH
+
+22
+
+-2,585
+
+-970
+
+39
+
+-4,723
+
+-679
+
+15
+
+-9,219
+
+1,321
+
+NJ
+
+56
+
+-2,729
+
+1,567
+
+60
+
+-3,408
+
+857
+
+118
+
+-15,784
+
+650
+
+NY
+
+188
+
+2,931
+
+752
+
+576
+
+1,255
+
+918
+
+83
+
+-40,004
+
+362
+
+OH
+
+164
+
+-1,955
+
+471
+
+594
+
+-1,700
+
+957
+
+192
+
+798
+
+-60
+
+OK
+
+76
+
+-1,160
+
+1,116
+
+145
+
+-1,154
+
+1,542
+
+90
+
+-6,888
+
+1,050
+
+OR
+
+25
+
+-620
+
+146
+
+31
+
+-567
+
+-2,84
+
+23
+
+-14,716
+
+493
+
+PA
+
+271
+
+-2,514
+
+-723
+
+236
+
+-2,549
+
+1,757
+
+44
+
+-3,307
+
+458
+
+Table A.1 (continued)
+
+Older adults
+
+People with physical disabilities
+
+People with ID/DD
+
+815
+
+Medicaid
+($)
+-1,305
+
+Medicare
+($)
+-129
+
+N
+842
+
+Medicaid
+($)
+-1,699
+
+Medicare
+($)
+222
+
+N
+1,442
+
+28
+
+-1,090
+
+32
+
+54
+
+-1,776
+
+814
+
+255
+
+-3,152
+
+143
+
+VT
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+N/A
+
+WA
+
+587
+
+-2,076
+
+-1,373
+
+837
+
+-2,515
+
+-792
+
+N/A
+
+N/A
+
+N/A
+
+WI
+
+59
+
+-2,812
+
+-1,501
+
+103
+
+-5,939
+
+-2,386
+
+54
+
+-10,770
+
+322
+
+State
+
+N
+
+TX
+VA
+
+Source:
+
+Medicaid
+($)
+-3,125
+
+Medicare
+($)
+275
+
+Mathematica’s analysis of Medicaid and Medicare claims and enrollment data for Medicaid beneficiaries who transitioned from institutional to
+community-based LTSS from 2008 through 2013 from 32 states.
+Notes:
+The small number of transitions from psychiatric facilities precluded the evaluation from including the population with severe mental illness. Negative
+values indicate a decrease in expenditures on average after the transition to community-based LTSS and positive values indicate an increase in
+expenditures. All expenditures are in per beneficiary per month, comparing 180 days pre to 365 days. Only persons with sufficient data are included.
+N/A indicates fewer than 10 MFP participants in the sample for the targeted population in the state.
+ID/DD = individuals with intellectual or developmental disabilities.
+
+A-4
+
+

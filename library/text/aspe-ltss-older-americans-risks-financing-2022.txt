@@ -1,0 +1,2664 @@
+Source: https://aspe.hhs.gov/sites/default/files/private/pdf/265126/LTSSOlAmRB.pdf
+Publisher: Office of the Assistant Secretary for Planning and Evaluation
+Retrieved: 2026-11-11
+Original SHA-256: 76b089b4fd7b999c10749aab141cc367a92a056d3484d365bd6ea20fde8ba83d
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+January 2021
+
+ASPE RESEARCH BRIEF
+HHS OFFICE OF THE ASSISTANT SECRETARY FOR PLANNING AND EVALUATION
+
+OFFICE OF BEHAVIORAL HEALTH, DISABILITY, AND AGING POLICY
+
+LONG-TERM SERVICES AND SUPPORTS FOR
+OLDER AMERICANS: RISKS AND FINANCING, 2020
+Most Americans underestimate the risk of developing a disability and needing long-term
+services and supports (LTSS). Using microsimulation modeling, we estimate that over half
+(56%) of Americans turning 65 today will develop a disability serious enough to require LTSS,
+although many will need assistance for less than three years. About one in five adults,
+however, will have a disability for more than five years. On average, an American turning 65
+today will incur $137,800 in future LTSS costs, which could be financed by setting aside
+$80,200 today. When we include residential care in the calculations, families will pay more
+than half (almost 59%) of the costs themselves out-of-pocket, with the rest covered by public
+programs and private insurance. While most people with LTSS needs will spend relatively
+little on their care, almost two in ten will spend at least $100,000 out-of-pocket for future
+LTSS. Consistent with prior research, we find that family caregivers provide large amounts of
+care. When we value the unpaid care contributions of family and friends of older adults with
+severe disabilities at a replacement wage, we estimate that the value of the care they provide
+($111,000) is approximately equal to the expected cost of paid LTSS. Without help from these
+caregivers, families’ out-of-pocket LTSS costs would be much higher.
+
+Background
+Long-term services and supports (LTSS) includes a range of services and supports
+individuals may need to meet their health or personal needs over a long period of time. 1
+Most LTSS is not medical care, but rather assistance with the basic personal tasks of
+everyday life, sometimes called "Activities of Daily Living" (or ADLs) which include such
+everyday tasks as bathing, dressing, toileting and eating (Katz et al. 1963).2 Many
+Americans prefer not to think about this need for assistance or who will provide it. They
+underestimate how likely it is they will need it and how much it will cost (Wiener et al.
+2015; Kane 2013; Tompson et al. 2013). Even if they correctly consider the chances of
+becoming disabled and needing daily help, many Americans mistakenly assume their
+health insurance covers these costs. However, health insurance does not cover LTSS
+costs, and Medicare, the major public insurance program for older Americans, does not
+cover most LTSS expenses (CMS 2015).3
+While Medicaid provides LTSS to those with chronic disabling conditions (Komisar
+2013; Tompson et al. 2013),4 it is only available for individuals who meet income and
+other eligibility requirements (HHS 2015). A private market for LTSS insurance exists,
+but less than 8% of Americans have purchased it (Freundlich 2014), in part due to high
+RESEARCH BRIEF | 1
+
+and rising premiums, and exit of insurers from the market (Scism 2015). Sales figures
+from recent years suggest there has been stagnation, or even decline, in the market
+(Cohen 2016; Schmitz and Giese 2019; Ujvari 2018). In 2018, just 276,000 people
+received benefits from long-term care insurance (LTCI) and about 6.58 million people-less than 6% of the population ages 50 and older--had a long-term care policy (NAIC
+2019). For some older adults, the costs of LTSS are likely to outstrip retirement savings.
+Researchers at the Employee Benefit Research Institute found that projected LTSS
+expenses greatly contributed to projections of retirement deficits (VanDerhei 2015).
+As the United States population ages, a growing number of older adults will likely need
+and use LTSS. Most Americans who receive paid LTSS pay some share out-of-pocket.
+Those with longer spells may pay out-of-pocket until they qualify for Medicaid. Reliance
+on Medicaid for those that cannot afford the full costs of LTSS may result in increased
+federal and state spending for LTSS. According to projections produced by the
+Congressional Budget Office, due to population growth, LTSS expenses (including all
+paid care, Medicaid and other private and public sources of payment, including
+Medicare payments for post-acute services) could more than double from 1.3% of gross
+domestic product (GDP) in 2010 to 3% of GDP in 2050 if the rate of functional
+limitations among those age 65 and older remains constant (Hagen 2013).
+This Brief presents information about the risk of needing care and associated costs to
+provide context for policymakers and others considering LTSS financing proposals. A
+microsimulation model was used to describe the future care needs of Americans. This
+model projected what percentage of older adults will develop a disability, have LTSS
+needs, use paid LTSS, and among those that use paid LTSS, how much they use and
+for how long. It estimates care costs, and how they would be financed under current
+policies. Microsimulation modeling provides not only the average likelihood of these
+outcomes, but also describes the distribution of these needs and costs. Throughout this
+Brief we focus on significant disabilities that result in LTSS needs at the threshold for
+benefits under a tax-qualified LTCI policy, set in the Health Insurance Portability and
+Accountability Act (HIPAA): a need for assistance with at least two ADLs5 that is
+expected to last at least 90 days or need for substantial supervision for health and
+safety threats due to severe cognitive impairment (SCI).6 Stallard (2011) notes that
+HIPAA does not count ADL limitations that can be resolved with special equipment
+(e.g., wheelchairs, walkers, handrails, ramps, catheters, and related devices). Estimates
+of disability prevalence are higher when we include those with less severe disabilities
+and those that can be resolved with special equipment.
+
+Methods
+The findings in this Brief--an update of our revised 2016 Research Brief--are derived
+from analyses using the Urban Institute’s Dynamic Simulation of Income Model 4
+(DYNASIM4), a microsimulation model designed to analyze retirement and aging issues
+over time. Starting with a representative sample of individuals and families, the model
+“ages” cohorts year-by-year, simulating such demographic events as births, deaths,
+marriages and divorces, and such economic and health events as labor force
+participation, earnings, hours of work, disability onset and recovery, retirement, and use
+RESEARCH BRIEF | 2
+
+and costs of LTSS based on demographic and other characteristics of the population. 7
+As the model ages the population, it calibrates many key demographic and economic
+outcomes to the intermediate assumptions of the Social Security and Medicare
+Trustees’ Reports (Board of Trustees, Federal Old-Age and Survivors Insurance and
+Federal Disability Insurance Trust Funds 2019; Boards of Trustees, Federal Hospital
+Insurance and Federal Supplementary Medical Insurance Trust Funds 2019). Data to
+inform the model are drawn from the Health and Retirement Study (HRS), specifically in
+the areas of health, disability status (including limitations in ADLs and instrumental
+activities of daily living [IADLs] and cognitive impairment), LTSS use, and private LTCI
+coverage.8 Because we rely on historic data and 2019 trustees report assumptions, the
+projections do not account for the 2020 novel coronavirus outbreak’s on-going
+demographic and economic effects.
+BOX 1: Should We Include Medicare as a Payer for LTSS?
+Many adults are confused about whether Medicare covers personal assistance if they develop
+LTSS needs (also referred to as long-term care needs).
+The Centers for Medicare & Medicaid Services (CMS) is quite clear about Medicare policies on
+in its website (https://www.medicare.gov/coverage/long-term-care), which states the following:
+• “Medicare doesn’t cover long-term care (also called custodial care), if that’s the only care
+you need. Most nursing home care is custodial care.”
+• “You pay 100% for non-covered services, including most long-term care.”
+• “Long-term care is a range of services and support for your personal care needs. Most
+long-term care isn’t medical care. Instead, most long-term care is help with basic personal
+tasks of everyday life, sometimes called activities of daily living.”
+Because Medicare does not cover LTSS when it is the only care people need, some analysts
+exclude Medicare when describing who pays for LTSS (Hado and Komisar 2019). However,
+several prominent government publications describe Medicare as an important LTSS payer
+(Hagen 2013; Colello 2017) and include all Medicare services delivered in certain settings as
+LTSS. They choose to do so because National Health Expenditure Accounts (NHEA) data
+enable researchers to determine the settings in which care is delivered, but not to determine
+whether the care is non-medical; disaggregation is challenging.
+In a departure from our 2016 brief, we follow Hado and Komisar (2019) and do not include any
+incidental care that Medicare pays for in our projections in this 2020 Brief.
+
+Current and past LTSS prices are set equal to average or median prices reported in the
+literature by state of residence, setting (home care, residential care, nursing home), and
+whether Medicaid is the payer (Genworth 2019; Fossett and Burke 2010; Grabowski et
+al. 2004; Hansen Hunter and Company 2018; Mollica 2009; Ng et al. 2014). 9
+Importantly, these base projections incorporate the full cost of residential care, including
+room and board in addition to costs associated with meeting care needs. They also
+incorporate home care services that families purchase in private transactions, which are
+rapidly evolving and which some other studies undercount (Doty 2017; HomecarePulse
+2019; Newquist, DeLiema and Wilber 2015). Also, the projections exclude services that
+Medicare pays for that are strictly post-acute (see Box 1). These choices affect
+comparability with other estimates of LTSS expenses, including our own in 2016, and
+payer mix. Finally, we value unpaid family care using a replacement cost framework,
+specifically assigning the state-specific median hourly wage for home care workers for
+each hour of care for a person with disabilities. Because we focus on care to people
+RESEARCH BRIEF | 3
+
+with significant disabilities, our estimate is a lower-bound for the value of unpaid family
+care; assistance is frequently provided to older Americans with lower levels of disability
+that are not reflected in the total. Additional details about the model’s assumptions are
+available in Favreault and Johnson (2020).
+
+Results
+Figure 1 presents projections of the number of persons age 65 and older, including the
+number with significant levels of disability from 2020 to 2065. As expected, given the
+aging population, the number with significant disability is expected to grow from 7.2
+million to almost 14.3 million. In percentage terms, the share of the aged population with
+disabilities increases from about 13% to about 15%.
+FIGURE 1. Total Population Aged 65 or Older,
+Including Number of People Projected to Have Disabilities, 2020-2065
+
+NOTE: Estimates are for adults born between 1941 and 1974 who survive to age 65.
+
+Table 1 displays expected LTSS needs from age 65 to death. It presents life expectancy
+at age 65 and the mean and distribution of the duration of disability for those turning 65
+in 2020-2024.10 The typical person in this cohort who is alive at age 65 can expect to
+live another 20.5 years. Fifty-six percent can anticipate having at least some needs for
+LTSS; 10% are expected to have needs that last less than a year, and about 22% are
+expected to have needs that extend beyond five years. It is important to bear in mind
+that estimates such as these are sensitive to one’s definition of disability. Many people
+whose disabilities do not reach higher levels of significance still need and use LTSS.
+With a more expansive definition, for example one that includes those with one ADL
+limitation and/or multiple IADLs limitations, the number of people with LTSS needs
+would be significantly higher (Kemper, Komisar and Alecxih 2005/2006; Freedman and
+Spillman 2014).
+
+RESEARCH BRIEF | 4
+
+TABLE 1. Projected Need for LTSS for Persons Turning 65 in 2020-2024,
+by Gender, Income Quintile and Self-Reported Health Status at Age 65
+
+20.5
+
+2.8
+
+Average
+Years of
+LTSS Need
+Given Any
+Need
+5.0
+
+19.1
+21.7
+
+2.3
+3.2
+
+4.5
+5.3
+
+50.9
+61.1
+
+49.1
+38.9
+
+9.9
+10.7
+
+8.7
+8.7
+
+14.2
+16.2
+
+18.0
+25.6
+
+17.7
+19.3
+20.2
+21.0
+23.1
+
+3.4
+3.0
+2.8
+2.5
+2.5
+
+5.6
+5.2
+4.9
+4.7
+4.6
+
+61.6
+57.3
+55.8
+53.1
+54.1
+
+38.4
+42.7
+44.2
+46.9
+45.9
+
+10.7
+9.5
+11.4
+10.2
+10.0
+
+8.5
+9.8
+9.1
+8.3
+8.1
+
+14.2
+14.9
+14.3
+15.4
+16.8
+
+28.3
+23.1
+21.0
+19.2
+19.3
+
+22.3
+21.6
+20.1
+18.6
+
+2.6
+2.7
+2.8
+3.0
+
+4.8
+5.0
+5.1
+5.0
+
+55.4
+53.9
+55.1
+60.5
+
+44.7
+46.1
+44.9
+39.5
+
+10.3
+10.3
+9.6
+11.3
+
+8.8
+8.5
+8.5
+9.1
+
+15.2
+13.8
+15.4
+16.8
+
+21.0
+21.4
+21.6
+23.3
+
+21.5
+19.8
+
+2.6
+3.2
+
+4.7
+5.4
+
+55.2
+59.0
+
+44.8
+41.0
+
+10.7
+9.8
+
+8.9
+8.7
+
+15.7
+15.1
+
+20.0
+25.4
+
+Life
+Expectancy
+at Age 65 (full
+population)
+Total
+Gender
+Men
+Women
+Income Quintile at Age 65
+Lowest
+Second
+Middle
+Fourth
+Highest
+Health Status at Age 65
+Excellent
+Very good
+Good
+Fair/Poor
+Marital Status at Age 65
+Married
+Unmarried
+
+Average
+Years of
+LTSS Need
+(all)
+
+Percent
+with Any
+LTSS
+Need
+
+Distribution for All
+None
+
+<1 Year
+
+1.00-1.99
+Years
+
+2.00-4.99
+Years
+
+>5 Years
+
+56.2
+
+43.8
+
+10.3
+
+8.7
+
+15.2
+
+21.9
+
+LTSS needs vary substantially by subpopulation. The average duration of disability is
+much higher for women than for men--about 3.2 years for all women as compared to 2.3
+year for all men. Among women, 61% are likely to develop a chronic disability, and the
+share needing at least five years of care is 26%. Similarly, the proportion needing at
+least five years of care is higher among those in the lowest income quintile at age 65
+(28%),11 and among those reporting fair or poor health at age 65 (23%). Among those
+who ever develop a disability, the average duration increases to 5.3 years for women
+and 4.6 years for men, respectively.
+TABLE 2. Projected Use of Paid LTSS for Persons Turning 65 in 2020-2024, by Gender,
+Income Quintile, Self-Reported Health Status at Age 65, and Marital Status at Age 65
+
+Total
+Gender
+Men
+Women
+Income Quintile
+Lowest
+Second
+Middle
+Fourth
+Highest
+Health Status
+Excellent
+Very good
+Good
+Fair/Poor
+Marital Status
+Married
+Unmarried
+
+Distribution for All
+1.00-1.99
+2.00-4.99
+Years
+Years
+8.3
+12.4
+
+Average Years
+with Paid LTSS
+Use
+1.1
+
+Percent with Any
+Paid LTSS Use
+(all)
+47.3
+
+None
+
+<1 Year
+
+52.7
+
+19.7
+
+0.9
+1.3
+
+41.4
+52.8
+
+58.6
+47.2
+
+18.4
+20.9
+
+7.9
+8.8
+
+10.3
+14.5
+
+4.9
+8.7
+
+1.4
+1.2
+1.1
+0.9
+1.0
+
+50.1
+48.3
+45.1
+45.3
+47.7
+
+49.9
+51.7
+54.9
+54.7
+52.3
+
+17.5
+20.1
+19.1
+20.3
+20.9
+
+8.7
+7.3
+7.5
+8.5
+9.4
+
+14.6
+12.7
+11.5
+11.3
+12.2
+
+9.3
+8.2
+7.0
+5.2
+5.2
+
+1.1
+1.1
+1.1
+1.2
+
+46.0
+46.5
+46.3
+50.1
+
+54.0
+53.5
+53.7
+49.9
+
+19.4
+19.7
+19.4
+20.3
+
+7.7
+8.3
+8.0
+9.1
+
+12.6
+12.1
+12.2
+13.1
+
+6.3
+6.5
+6.8
+7.7
+
+1.0
+1.3
+
+45.7
+51.1
+
+54.3
+48.9
+
+20.0
+19.9
+
+8.2
+8.9
+
+12.0
+13.5
+
+5.6
+8.9
+
+>5 Years
+6.8
+
+Table 2 examines use of paid LTSS for a disability from age 65 onward measured in
+service days (where one year is 365 days of paid LTSS--regardless of whether all the
+days occurred in the same calendar year). Of the average 2.8 years that an older adult
+RESEARCH BRIEF | 5
+
+will have a severe disability, they will receive paid care for about 1.1 year, and informal
+caregivers only, such as family and friends, will make up most of the difference.12
+Again, patterns vary by a range of characteristics. For example, people who are
+unmarried at age 65 use more paid services than those who are married at age 65, an
+average of 1.3 years compared to 1.0 years. Those that have poorer health or lower
+income at age 65 use more paid services.
+While on average, individuals will need 1.1 years of paid LTSS, 53% of older adults will
+not use paid LTSS at all. About 20% will use less than a year (measured in service
+days), and about 7% will use five years or more. These projections are similar to
+Johnson’s (2019) estimates of care use based on recent historic data.
+TABLE 3A. Average Sum ($2020) of LTSS Expenditures
+from Age 65 through Death Projected for Adults Turning 65 in 2020-2024
+Community-Based
+Nursing Facility
+(includes residential care)
+Dollars
+Percentage
+Dollars
+Percentage
+Dollars
+Percentage
+Public
+$53,100
+38.5%
+$12,500
+22.1%
+$40,600
+50.0%
+Medicaid
+50,800
+36.9%
+12,100
+21.4%
+38,700
+47.7%
+Other Public
+2,300
+1.7%
+400
+0.7%
+1,900
+2.3%
+Private
+$24,700
+61.5%
+$44,100
+77.9%
+$40,600
+50.0%
+Out-of-Pocket
+80,600
+58.5%
+41,700
+73.7%
+38,900
+47.9%
+Private Insurance
+4,100
+3.0%
+2,400
+4.2%
+1,700
+2.1%
+Total Paid
+$137,800
+100.0%
+$56,600
+100.0%
+$81,200
+100.0%
+SOURCES: Authors’ tabulations from DYNASIM4, run id974.
+NOTES: Residential care is included in community-based, not nursing facilities. LTSS prices are state and settingspecific, based on Genworth (2019), Hansen Hunter and Company PC (2018), and other sources. Nursing home and
+residential care prices are adjusted for wage inflation; home care prices grow with the average of wage and price
+inflation.
+Payer
+
+Total Expenditures
+
+Table 3A and Table 3B present the average sum of expenditures (in 2020 dollars) that
+could be expected for LTSS from age 65 until death (thus mostly reflecting future years)
+for the whole population and then for those with a significant level of disability using paid
+LTSS. The table displays this projected sum of expenditures (from age 65 onward) by
+setting and payer for those reaching age 65 over the next five years. Unlike many other
+estimates, the table includes residential care costs and home care that families pay for
+in private transactions. This differs from the present discounted value (PDV), the
+amount that an individual would need to set aside at age 65 to pay for LTSS
+expenses.13
+TABLE 3B. Average Sum ($2020) of Expenditures from Age 65 through Death
+Projected for Users of Paid LTSS Who Turn 65 in 2020-2024
+Payer
+Public
+Medicaid
+Other Public
+Private
+Out-of-Pocket
+Private Insurance
+Total Paid
+
+Total Expenditures
+Dollars
+$121,000
+97,000
+5,000
+$163,000
+156,000
+7,000
+$278,000
+
+Percentage
+42.4%
+34.2%
+1.6%
+57.4%
+54.9%
+2.5%
+100.0%
+
+Community-Based
+(includes residential care)
+Dollars
+Percentage
+$33,000
+27.3%
+23,000
+19.0%
+1,000
+0.8%
+$88,000
+72.7%
+84,000
+69.4%
+4,000
+3.3%
+$114,000
+100.0%
+
+Nursing Facility
+Dollars
+$87,000
+73,000
+4,000
+$77,000
+74,000
+3,000
+$163,000
+
+Percentage
+52.7%
+44.5%
+2.1%
+47.0%
+45.1%
+1.8%
+100.0%
+
+Table 3A and Table 3B combine care that is received at home and that which is
+received in residential care into a single category of “community care,” which is
+contrasted with institutional care, to provide assistance with a significant level of
+RESEARCH BRIEF | 6
+
+disability.14 On average, about $137,800 will be spent per person on paid LTSS or
+$80,200 in PDV (Table A1).
+Medicaid is the largest public payer of LTSS ($50,800; 37% of total LTSS spending).
+However, most spending for LTSS is paid for out-of-pocket, averaging about $80,600,
+or 59% of total LTSS expenditures. Payer predominance varies by setting, however. For
+example, Medicaid pays for about half of the total for institutional settings. For
+community expenses, in contrast, out-of-pocket payments by families comprise the
+majority, about 74%.15
+As shown in Table 3B, among those who ever use paid LTSS, the average cost will be
+about $278,000 or $161,400 in PDV (Table A2). Although the costs by payer and
+setting are higher once we condition on use of LTSS, the distribution is very similar to
+that shown in Table 3A.
+As a large body of literature finds (Reinhard et al. 2019; Spillman et al. 2014), family
+caregivers are a crucial resource to older adults with disabilities. Many older adults with
+severe disabilities are able to stay in their homes much longer than they could have on
+their own (Spillman 2016)--sometimes even until their deaths--because they are
+supported by family and friends (Spillman, Favreault and Allen 2020). The estimated
+value of unpaid care is about $111,000 when including all people, or $192,600
+considering those receiving unpaid care.
+TABLE 4A. Average Sum ($2020) of Expenditures from Age 65 through Death
+Projected for Men Turning 65 in 2020-2024
+Payer
+Public
+Medicaid
+Other Public
+Private
+Out-of-Pocket
+Private Insurance
+Total Paid
+
+Total Expenditures
+Dollars
+$40,500
+37,700
+2,800
+$62,000
+59,200
+2,800
+$102,500
+
+Percentage
+39.5%
+36.8%
+2.7%
+60.5%
+57.8%
+2.7%
+100.0%
+
+Community-Based
+(includes residential care)
+Dollars
+Percentage
+$9,700
+21.0%
+9,400
+20.3%
+300
+0.6%
+$36,500
+79.0%
+34,300
+74.2%
+2,200
+4.8%
+$46,200
+100.0%
+
+Nursing Facility
+Dollars
+$30,800
+28,300
+2,500
+$25,600
+25,000
+600
+$56,400
+
+Percentage
+54.6%
+50.2%
+4.4%
+45.4%
+44.3%
+1.1%
+100.0%
+
+Expected LTSS costs are higher for women than for men. Women’s costs average
+$171,000 (Table 4B) compared to $102,500 for men (Table 4A). These could be
+financed by setting aside about $97,000 for women (Table A5) and about $62,000 for
+men (Table A3). However, when we focus on those with any LTSS expenditures, this
+average jumps to approximately $309,000 for women and $236,000 for men (not
+shown). These estimates are equivalent to about $176,000 and $142,000, respectively,
+in present value terms (Table A6 and Table A4). Part of the reason for women’s higher
+costs is simply their longer life expectancy at age 65 and potential exposure to the need
+of LTSS. However, another factor is that married women are often younger than their
+husbands and more likely to be widowed at older ages. Women are thus less likely to
+receive--and more likely to provide--unpaid spousal care.
+
+RESEARCH BRIEF | 7
+
+TABLE 4B. Average Sum ($2020) of Expenditures from Age 65 through Death
+Projected for Women Turning 65 in 2020-2024
+Total Expenditures
+
+Payer
+
+Dollars
+$65,100
+63,200
+1,900
+$105,900
+100,600
+5,300
+$171,000
+
+Public
+Medicaid
+Other Public
+Private
+Out-of-Pocket
+Private Insurance
+Total Paid
+
+Percentage
+38.1%
+37.0%
+1.1%
+61.9%
+58.8%
+3.1%
+100.0%
+
+Community-Based
+(includes residential care)
+Dollars
+Percentage
+$15,100
+22.7%
+14,700
+22.1%
+400
+0.6%
+$51,300
+77.3%
+48,600
+73.2%
+2,700
+4.1%
+$66,400
+100.0%
+
+Nursing Facility
+Dollars
+$49,900
+48,500
+1,400
+$54,700
+52,100
+2,600
+$104,600
+
+Percentage
+47.7%
+46.4%
+1.3%
+52.3%
+49.8%
+2.5%
+100.0%
+
+Table 5 presents the distribution associated with Table 3A's and Table 3B's sum of
+expected costs for those ages 65 and older in 2020-2024. Approximately 18% of older
+adults can expect their LTSS expenses from age 65 onward to amount to more than
+$250,000, while about 6% will have positive but low costs (<$10,000). When looked at
+by payer source, a much smaller percentage (approximately 11%) will spend $250,000
+or more on LTSS out-of-pocket.
+TABLE 5. Distribution of Sum ($2020) of LTSS Expenditures from Age 65 through Death
+Projected for Adults Turning 65 in 2020-2024
+Distribution of Sum ($2020) of LTSS Expenditures
+(% of people)
+Payer
+
+Public
+Medicaid
+Other Public
+Private
+Out-of-Pocket
+Private Insurance
+Total Paid
+
+Average
+Expend.
+
+$53,100
+50,800
+2,300
+$84,700
+80,600
+4,100
+$137,800
+
+Percent of
+People
+with
+Expend.
+
+None
+
+<$10,000
+
+$10,000$24,999
+
+$25,000$49,999
+
+$50,000$74,999
+
+$75,000$99,999
+
+$100,000$149,999
+
+$150,000$199,999
+
+$200,000$249,999
+
+>$250,000
+
+20.5
+11.5
+
+79.5
+88.6
+
+1.9
+9.6
+
+1.4
+0.5
+
+1.7
+0.2
+
+1.5
+0.3
+
+1.4
+0.3
+
+2.2
+0.4
+
+1.9
+0.1
+
+1.5
+0.1
+
+7.2
+0.2
+
+40.1
+3.1
+47.7
+
+59.9
+96.8
+52.3
+
+5.0
+0.3
+5.9
+
+4.8
+0.5
+4.8
+
+4.5
+0.5
+4.1
+
+3.5
+0.3
+3.1
+
+2.7
+0.4
+2.7
+
+3.8
+0.4
+3.7
+
+2.9
+0.3
+3.1
+
+2.4
+0.2
+2.6
+
+10.6
+0.4
+17.8
+
+However, these figures mask differences by income. People with lower incomes are
+more likely to have more of their costs covered by Medicaid and pay less on average
+out-of-pocket. Table 6A and Table 6B focus on Medicaid and family out-of-pocket
+expenses for those turning 65 in 2020-2024. The mean sum and the distribution of the
+sum are shown by income quintile at age 65. The DYNASIM projections suggest that
+although Medicaid is used by older adults in all income quintiles at age 65, it primarily
+serves those in the bottom two quintiles. For example, about 39% of people in the
+bottom income quintile at age 65 will ever use Medicaid LTSS, compared to less than
+8% in the top quintile at that age. Those in upper income quintiles who use Medicaid are
+typically individuals who have survived until their mid to late 90s, consistent with other
+research (DeNardi et al. 2013, Borella et al. 2017).16
+
+RESEARCH BRIEF | 8
+
+TABLE 6A. Mean and Distribution of Sum ($2020) of Lifetime Medicaid LTSS
+Expenditures Projected for Adults Turning 65 in 2020-2024
+Distribution of Sum ($2020) of Medicaid LTSS Expenditures
+(% of people)
+Income Quintile
+
+Lowest
+Second
+Middle
+Fourth
+Highest
+Total
+
+Average
+Expend.
+
+Percent of
+People
+with
+Expend.
+
+None
+
+<$10,000
+
+$10,000$24,999
+
+$25,000$49,999
+
+$50,000$74,999
+
+$75,000$99,999
+
+$100,000$149,999
+
+$150,000$199,999
+
+$200,000$249,999
+
+>$250,000
+
+98,000
+71,000
+54,000
+32,000
+18,000
+$51,000
+
+39.3
+27.4
+21.6
+13.7
+7.6
+20.5
+
+60.7
+72.6
+78.4
+86.3
+92.4
+79.5
+
+4.3
+2.3
+2.4
+1.1
+0.2
+1.9
+
+3.1
+2.3
+0.9
+0.8
+0.6
+1.4
+
+3.6
+1.9
+1.8
+1.2
+0.5
+1.7
+
+2.1
+2.2
+2.0
+1.3
+0.4
+1.5
+
+2.5
+1.7
+1.4
+1.0
+0.6
+1.4
+
+4.1
+2.8
+2.2
+1.2
+1.3
+2.2
+
+3.9
+1.9
+2.0
+1.2
+0.8
+1.8
+
+2.6
+2.2
+1.1
+1.1
+0.7
+1.5
+
+13.1
+10.0
+7.9
+4.8
+2.4
+7.2
+
+Family out-of-pocket expenditures, in contrast, are more concentrated in the higher
+quintiles. The average out-of-pocket LTSS expense in the top quintile is approximately
+$121,000 compared to closer to $38,000 in the bottom quintile. But again the mean
+obscures important distributional information. About 17% of people in the top income
+quintile at age 65 can expect out-of-pocket expenses in excess of a quarter million
+dollars. In the bottom quintile, where more are protected by Medicaid, the expected
+share with very high spending is closer to 5%.
+TABLE 6B. Mean and Distribution of Sum ($2020) of Lifetime Family Out-of-Pocket LTSS
+Expenditures Projected for Adults Turning 65 in 2020-2024
+Distribution of Sum ($2020) of LTSS Expenditures
+(% of people)
+Payer
+
+Lowest
+Second
+Middle
+Fourth
+Highest
+Total
+
+Average
+Expend.
+38,000
+60,000
+78,000
+82,000
+121,000
+$77,000
+
+Percent of
+People
+with
+Expend.
+31.5
+40.5
+39.7
+41.9
+46.9
+40.1
+
+None
+
+<$10,000
+
+$10,000$24,999
+
+$25,000$49,999
+
+$50,000$74,999
+
+$75,000$99,999
+
+$100,000$149,999
+
+$150,000$199,999
+
+$200,000$249,999
+
+>$250,000
+
+68.5
+59.5
+60.3
+58.1
+53.1
+59.9
+
+5.6
+4.8
+5.5
+5.3
+4.3
+5.0
+
+3.9
+6.5
+4.2
+5.1
+4.7
+4.8
+
+5.0
+4.8
+4.2
+4.0
+4.7
+4.5
+
+3.0
+4.3
+3.7
+4.0
+2.9
+3.5
+
+2.5
+2.9
+2.4
+2.9
+2.8
+2.7
+
+3.0
+4.8
+3.9
+3.0
+4.4
+3.8
+
+2.5
+2.2
+3.2
+3.3
+3.2
+2.9
+
+1.5
+2.2
+2.6
+2.5
+3.0
+2.4
+
+4.5
+8.1
+10.1
+11.9
+16.9
+10.6
+
+Conclusion
+Most Americans who survive to age 65 can expect to need and use LTSS--our
+estimates suggest more than half the population (roughly 56%) will have a significant
+level of disability. On average, the projected duration of LTSS need is 2.8 years, and the
+projected length of paid LTSS is just over one year. The average cost of this care is
+$137,800. However, a number of people can expect to need LTSS for many years and
+to have care costs that total hundreds of thousands of dollars. Average long-term care
+costs can be out of reach for many Americans. Medicaid is an important payer of LTSS,
+but because it serves only those who meet income and asset criteria, many families pay
+for LTSS out-of-pocket. We project that the share of LTSS spending paid by Medicaid
+will grow modestly as a share of the economy, while the share paid out-of-pocket will
+grow even more rapidly over the next 30 years. Private LTSS insurance has only a
+modest reach, and it predominantly covers costs for those high in the income
+distribution. Similarly, other public expenditures (for example, including U.S. Department
+of Veterans Affairs care) only help to cover small shares of the population with longterm care needs. Critically, assistance provided by family members and friends with this
+care is roughly equal in value to paid care during periods when one has significant
+RESEARCH BRIEF | 9
+
+disabilities--and far exceeds paid care in periods of less severe disability. The results
+presented here highlight the need for better planning for LTSS to accommodate both
+average and catastrophic financial risks associated with chronic disability.
+Reasons for Differences from Our Earlier Brief
+One important substantive change between this brief and the 2016 version is that we
+removed incidental LTSS that Medicare covers from our expected cost tables. As Box 1
+discusses, Medicare generally does not pay for long-term care when it is the only
+service a person needs. However, sometimes a person may have some of their LTSS
+needs met through the course of receiving post-acute care. Given recent Medicare
+payment rule changes, we expect that this type of overlap will be less common in
+coming years.
+After factoring in our changes to the treatment of services covered by Medicare, the
+LTSS cost estimates expressed as sums in this brief are modestly higher than those
+from our earlier brief (Favreault and Dey 2016), largely because we examine later
+cohorts in later years. Inflation is thus an important contributor to the differences.
+Between 2015 and 2020, prices increased by about 10.5% and wages increased by
+about 17.3%; wage growth is a good proxy for LTSS cost growth because LTSS is so
+labor intensive. So, all else equal, we would expect long-run LTSS costs to increase by
+about 11%-17% between the last brief and this one.
+The differences in present values of care costs at age 65--the amount required to set
+aside to prepay care, accounting for the fact that the lump sum could earn interest--are
+greater than the differences in the sums of care costs between the prior brief and this
+one. This is due to sustained drops in interest rates in recent years. Correspondingly,
+the Social Security trustees reduced their assumed long-range interest rates. When we
+discount future care costs, we now use a rate of 2.5% rather than 2.9% in the prior brief.
+This change increases the amount one needs to set aside earlier in life to pay for later
+life care--even absent any other changes in risk.
+Ordinarily, longevity changes would also contribute to differences across cohorts. As the
+members of each successive generation reach retirement, they live a little bit longer
+than their predecessors. Even if most will spend much of that additional life generally
+healthy, many will spend some portion of it disabled. According to the 2019 Social
+Security Trustees Report, men turning age 65 in 2020 can expect to live about 0.36
+years longer than those turning age 65 in 2015; for women, the difference is about 0.33
+years longer. However, the 2015 trustees report, on which the earlier analyses were
+based, had more optimistic longevity assumptions than the 2019 trustees report. It
+projected that men born in 1955 would live an average of 19.68 additional years, while
+the more recent report projected they would live an average of 19.05 more years--a
+reduction of 0.63 years. For women, the projection was 21.94 years in the 2015 trustees
+report, compared to 21.56 in the 2019 trustees report, a reduction of 0.38 years. These
+two factors--increased longevity across cohorts but moving to more pessimistic
+longevity growth assumptions--thus largely offset for women but lead to a net reduction
+in lifespans and thus LTSS risk for men.
+
+RESEARCH BRIEF | 10
+
+We also made many technical changes and updates between the two analyses. For
+example, we updated the DYNASIM starting sample to rely on later panels of the
+Survey of Income and Program Participation. We also use more recent state-specific
+price data (Genworth 2019, Hansen Hunter and Company 2018). Further, we reestimated many of the parameters so that they use more recent data from the HRS and
+other data sources. As we re-estimated some of the parameters, we sometimes
+changed equation specification, mostly notably for our model of SCI. We closely
+compare our dementia projections with the literature on distribution of duration of
+impairment (for example, Brookmeyer et al. 2002, Larson et al. 2004). Although
+literature on cognitive impairment has been growing rapidly in recent years, estimates
+on the distribution of durations severely impaired is still limited. As more data become
+available and this literature evolves, we will continue to update these functions, given
+that dementia is such a significant driver of the need for LTSS, and especially paid care.
+These technical changes plus a definitional change (focusing more on days in need
+rather than years in need to better capture partial year impairments) led to a notable
+increase in the expected duration of time with LTSS needs relative to our earlier brief:
+2.8 years in this brief compared to 2.0 years in the prior versions. However, our
+estimates of LTSS costs and utilization are less affected. Utilization of paid services is
+much easier to measure and benchmark than LTSS need, which is more subjective.
+LTSS need is often measured in yearly or even two-year increments, as opposed to
+days and months of service use. Further, subtle changes to definitions can change the
+estimates markedly.
+Despite these differences, our substantive conclusions remain unchanged: older adults
+face significant risk of needing LTSS, potentially incurring large out-of-pocket costs and
+requiring unpaid help from family members.
+
+End Notes
+1.
+
+Long-term services and supports is also sometimes called “long-term care.”
+
+2.
+
+Services may be provided in a person's home, in the community, or in residential
+facilities (e.g., nursing homes or assisted living facilities) (ASPE 2012).
+
+3.
+
+Most LTSS is not medical care, but rather help with basic personal tasks of
+everyday life. Medicare does not cover this LTSS (also called custodial care), if
+that is the only care needed. Most nursing home care is custodial care. Medicare
+does cover care in a LTSS hospital, skilled nursing care in a skilled nursing facility,
+eligible home health services, and hospice and respite care.
+
+4.
+
+In a recent representative survey of Americans aged 40-70 conducted by GfK on
+behalf of the Office of the Assistant Secretary for Planning and Evaluation (ASPE),
+only 25% of respondents correctly identified Medicaid as the government program
+that pays the most for LTSS in the United States.
+
+RESEARCH BRIEF | 11
+
+5.
+
+The ADLs enumerated in the statute are eating, toileting, transferring, bathing,
+dressing, and continence.
+
+6.
+
+Throughout we reference this level of need as “significant LTSS needs,” or “higher
+levels of disability.”
+
+7.
+
+DYNASIM's LTSS projections draw information from a wide range of crosssectional and longitudinal sources, including the HRS, Medicare Current
+Beneficiary Study, and National Health and Aging Trends Survey.
+
+8.
+
+One challenge is how to capture trends in LTSS outcomes. When there is a clear
+trend, such as the decline in mortality, DYNASIM follows the Trustees'
+assumptions. Otherwise, DYNASIM assumes that the underlying propensity to
+develop LTSS needs or use LTSS continues at current levels, but that the
+aggregate rates observed change as the composition of the population shifts. For
+example, as the population becomes better educated, more people in the
+population will experience the rates for more highly educated adults, but the rate
+for an adult with a certain level of education will not change.
+
+9.
+
+DYNASIM varies LTSS prices somewhat based on income, so that some lowerincome families use lower-cost providers--especially for home care--and some
+higher-income families--especially those covered by private LTSS insurance--use
+higher-cost providers.
+
+10. Multiple cohorts are used to provide a larger enough sample size for subpopulation
+analysis.
+11. Income quintile is based on income relative to poverty. This accounts for
+economies of scale for households with more than one person. It includes
+earnings, pensions, Social Security, Supplemental Security Income, and asset
+income (defined as the annuitized value of financial assets using a multivariate
+annuity function) for both oneself and, if married, one’s spouse.
+12. Use of unpaid services is substantial at both the HIPAA and non-HIPAA disability
+levels, while use of paid services is more concentrated at the HIPPA-level.
+13. All age 65 plus cost projections are presented in constant 2020 dollars. Dollar
+amounts are rounded to the nearest $100 or $1000, depending on the metric,
+reflecting the inherent uncertainty surrounding the projections. Tables expressed in
+PDV are in the Appendix (Tables A1-A9). PDV is computed using the Social
+Security Trustees' ultimate real interest rate of 2.5%. (Because the trustees
+assume long-range price growth to average 2.6%, this amounts to a nominal longrun discount rate of about 5.1%.)
+14. Both Table 3A and Table 3B focuses on the HIPAA-level of need, with a few
+exceptions: nursing home care costs are counted regardless of disability status,
+residential care is included only if an individual reports difficulty with at least two
+
+RESEARCH BRIEF | 12
+
+ADLs or is severely cognitively impaired, home care costs are only included for
+those meeting HIPAA criteria.
+15. As noted earlier, the relative share of costs borne by different payers is quite
+sensitive to whether and how residential care is incorporated in these projections.
+Some researchers prefer to exclude the housing component of residential care
+which is included in these estimates. The NHEA exclude some related sectors
+altogether (Hartman, Kornfeld and Catlin 2010). Removing the housing component
+of residential care (Appendix Table A10A)--or removing residential care altogether
+(Appendix Table A10B)--reduces out-of-pocket costs markedly and thus reduces
+the percent families pay relative to public and other payers.
+16. This addresses the literature on the distributional effects of Medicaid LTSS
+programs (Baird et al. 2014; Warshawsky 2014; Wiener et al. 2013; Willink et al.
+2019).
+
+References
+Baird M, Hurd M, and Rohwedder S (2014). Medicaid Spend-Down: The Importance of
+Strategic Asset Transfers to Reach Medicaid Eligibility. Presentation. RAND.
+Board of Trustees, Federal Old-Age and Survivors Insurance and Federal Disability
+Insurance Trust Funds (2019). 2019 Annual Report of the Board of Trustees of the
+Federal Old-Age and Survivors Insurance and Federal Disability Insurance Trust Funds.
+Washington, DC: Government Printing Office.
+Boards of Trustees, Federal Hospital Insurance and Federal Supplementary Medical
+Insurance Trust Funds (2019). 2019 Annual Report of the Boards of Trustees of the
+Federal Hospital Insurance and Federal Supplementary Medical Insurance Trust Funds.
+Washington, DC.
+Borella M, De Nardi M, and French E (2017). “Who Receives Medicaid in Old Age?
+Rules and Reality.” Fiscal Studies, 39(1): 65-93.
+Brookmeyer R, Corrada M, Curriero F, and Kawas C (2002). “Survival Following a
+Diagnosis of Alzheimer’s Disease.” Archives of Neurology, 59: 1764-1767.
+Centers for Medicare & Medicaid Services (CMS) (2015). Your Medicare Coverage:
+Long-Term Care. Baltimore, MD: U.S. Department of Health and Human Services,
+Centers for Medicare & Medicaid Services. http://www.medicare.gov/coverage/longterm-care.html (accessed April 29, 2015).
+Cohen MA (2016). The State of the Long-Term Care Insurance Market. In Nordman,
+EC. The State of Long-Term Care Insurance: The Market, Challenges and Future
+Innovations. National Association of Insurance Commissioners and Center for
+Insurance Policy Research.
+RESEARCH BRIEF | 13
+
+Colello KJ (2018). “Who Pays for Long-Term Services and Supports?” In Focus.
+Washington, DC: Congressional Research Service.
+DeNardi M, French E, and Baily Jones J (2013). Medicaid Insurance in Old Age.
+Working Paper number 2012-2013. Chicago, IL: Federal Reserve Bank of Chicago.
+Doty P (2017). Private Pay Home Care: New Models of Access and Service Delivery.
+Public Policy and Aging Report 27(3): 111-120. doi:10.1093/ppar/prx021
+Favreault M, and Dey J (2016). Long-Term Services and Supports for Older Americans:
+Risks and Financing. Washington, DC: U.S. Department of Health and Human Services,
+Office of the Assistant Secretary for Planning and Evaluation. http://aspe.hhs.gov/basicreport/long-term-services-and-supports-older-americans-risks-and-financing-researchbrief.
+Favreault M, and Johnson R (2020). Projections of Risk of Long-term Services and
+Supports at Ages 65 and Older under Current Law from DYNASIM. Memorandum for
+ASPE. Washington, DC: Urban Institute.
+Fossett J, and Burke C (2010). Medicaid Policy and Long-Term Care Spending: An
+Interactive View. Albany, NY: Rockefeller Institute.
+Freedman VA and Spillman BC (2014). Disability and Care Needs among Older
+Americans. Milbank Quarterly, 92(3): 509-541.
+Freundlich N (2014). Long-Term Care: What are the Issues? Princeton, NJ: Robert
+Wood Johnson Foundation.
+Genworth (2019). Cost of Care Survey, 2019: Median Cost Data Tables.
+https://pro.genworth.com/riiproweb/productinfo/pdf/282102.pdf.
+Grabowski D, Feng Z, Intrator O, and Mor V (2004). Recent Trends in State Nursing
+Home Payment Policies. Health Affairs, 23(1).
+Hado E, and Komisar H (2019). “Long-Term Services and Supports.” Washington, DC:
+AARP Public Policy Institute. https://www.aarp.org/content/dam/aarp/ppi/2019/08/longterm-services-and-supports.doi.10.26419-2Fppi.00079.001.pdf.
+Hagen S (2013). Rising Demand for Long-Term Services and Supports for Elderly
+People. Washington, DC: Congressional Budget Office.
+Hansen Hunter and Company PC (2018). A Report on Shortfalls in Medicaid Funding
+for Nursing Center Care. Washington, DC: American Health Care Association.
+https://www.ahcancal.org/facility_operations/medicaid/Documents/2017%20Shortfall%2
+0Methodology%20Summary.pdf.
+
+RESEARCH BRIEF | 14
+
+Hartman MB, Kornfeld RJ, and Catlin AC (2010). A Reconciliation of Health Care
+Expenditures in the National Health Expenditures Accounts and in Gross Domestic
+Product. Suitland, MD: US Bureau of Economic Analysis.
+https://apps.bea.gov/scb/pdf/2010/09%20September/0910_healthcare.pdf.
+HomecarePulse (2019). Homecare Benchmarking Study 2019, Spring Edition. Rexburg,
+ID.
+Johnson R (2019). What Is the Lifetime Risk of Needing and Receiving Long-Term
+Services and Supports? Washington, DC: U.S. Department of Health and Human
+Services, Office of the Assistant Secretary for Planning and Evaluation.
+https://aspe.hhs.gov/basic-report/what-lifetime-risk-needing-and-receiving-long-termservices-and-supports.
+Kane J (2013). PBS Newshour: Americans Seriously Unprepared for Long-Term Care,
+Survey Finds. http://www.pbs.org/newshour/rundown/as-boomers-age-most-woefullyunprepared-for-long-term-care/ (accessed May 5, 2015).
+Katz S, Ford AB, Moskowitz RW, Jackson BA, and Jaffe MW (1963). Studies of Illness
+in the Aged: The Index of ADL: A Standardized Measure of Biological and Psychosocial
+Function. JAMA, 185(12): 914-919. doi:10.1001/jama.1963.03060120024016.
+Kaye HS, Harrington C, and LaPlante M (2010). Long-term Care: Who Gets it, Who
+Provides it, Who Pays, and How Much? Health Affairs, 29(1): 11-21.
+Kemper P, Komisar HL, and Alecxih L (2005/2006). Long-term Care over an Uncertain
+Future: What Can Current Retirees Expect? Inquiry, 42: 335-350.
+Komisar H (2013). AARP Thinking Policy. http://blog.aarp.org/2013/08/22/medicaredoes-not-pay-for-long-term-care/ (accessed April 29, 2015).
+Larson EB, Shadlen M-F, Wang L, McCormick WC, Bowen JD, Teri L, and Kukull WA
+(2004). “Survival after Initial Diagnosis of Alzheimer Disease.” Annals of Internal
+Medicine, 140(7): 501-511.
+Mollica R (2009). State Medicaid Reimbursement Policies and Practices in Assisted
+Living. National Center for Assisted Living, American Health Care Association.
+National Association of Insurance Commissioners (NAIC) (2019). Long-Term Care
+Insurance Experience Reports for 2018. Washington, DC: National Association of
+Insurance Commissioners. https://naic.org/prod_serv/LTC-LR-19.pdf.
+Newquist DD, DeLiema M, and Wilber KH (2015). “Beware of Data Gaps in Home Care
+Research: The Streetlight Effect and Its Implications for Policy Making on Long-Term
+Services and Supports.” Med Care Res Rev, 72(5): 622-640.
+doi:10.1177/1077558715588437.
+
+RESEARCH BRIEF | 15
+
+Ng T, Harrington C, Musumeci M, and Reaves E (2014). Medicaid Home and
+Community-Based Services Programs: 2010 Data Update. Menlo Park, CA: Kaiser
+Commission on Medicaid and the Uninsured.
+Office of the Assistant Secretary for Planning and Evaluation (ASPE) (2012). Glossary
+of Terms. Washington, DC: U.S. Department of Health and Human Services, Office of
+the Assistant Secretary for Planning and Evaluation. https://aspe.hhs.gov/glossaryterms (accessed May 1, 2015).
+Reinhard SC, Feinberg LF, Houser A, Choula R, and Evans M (2019). Valuing the
+Invaluable 2019 Update: Charting a Path Forward. Washington, DC: AARP Public
+Policy Institute. https://www.aarp.org/content/dam/aarp/ppi/2019/11/valuing-theinvaluable-2019-update-charting-a-path-forward.doi.10.26419-2Fppi.00082.001.pdf.
+Scism L (2015). Long-term Care Insurance: Is it Worth it? Wall Street Journal.
+Schmitz A, and Giese C (2019). “Is Insurance the Answer to the Long-Term-Care
+Financing Challenge?” Generations, 43(1): 86-88.
+Spillman BC (2016). Does Home Care Prevent or Defer Nursing Home Use?
+Washington, DC: U.S. Department of Health and Human Services, Office of the
+Assistant Secretary for Planning and Evaluation. https://aspe.hhs.gov/basic-report/doeshome-care-prevent-or-defer-nursing-home-use.
+Spillman BC, Favreault MM, and Allen EH (2020). Snapshot of Current Relationships
+between Family Characteristics and Informal Caregivers and Implications for Future
+Availability of Caregivers. Washington, DC: U.S. Department of Health and Human
+Services, Office of the Assistant Secretary for Planning and Evaluation.
+Spillman BC, Wolff J, Freedman VA, and Kasper JD (2014). Informal Caregiving for
+Older Americans: An Analysis of the 2011 National Study of Caregiving. Washington,
+DC: U.S. Department of Health and Human Services, Office of the Assistant Secretary
+for Planning and Evaluation. https://aspe.hhs.gov/report/informal-caregiving-olderamericans-analysis-2011-national-study-caregiving.
+Stallard E (2011). “Estimates of the Incidence, Prevalence, Duration, Intensity and Cost
+of Chronic Disability among the U.S. Elderly.” North American Actuarial Journal, 15(1):
+32-58.
+Tompson T, Benz J, Junius A, Nguyen K, and Lowell K (2013). Long-Term Care:
+Perceptions, Experiences and Attitudes among Americans 40 or Older. Research
+Highlights, Associated Press-NORC Center for Public Affairs Research.
+Ujvari K (2018). Disrupting the Marketplace: The State of Private Long-Term Care
+Insurance, 2018 Update. Washington, DC: AARP Public Policy Institute.
+https://www.aarp.org/content/dam/aarp/ppi/2018/08/disrupting-the-marketplace-thestate-of-private-long-term-care-insurance.pdf.
+
+RESEARCH BRIEF | 16
+
+U.S. Department of Health and Human Services (HHS) (2015). LongTermCare.gov.
+http://longtermcare.gov/medicare-medicaid-more/medicaid/medicaid-eligibility/
+(accessed May 1, 2015).
+VanDerhei J (2015). Retirement Savings Shortfalls: Evidence from EBRI's Retirement
+Security Projection Model. Issue Brief, Employee Benefit Research Institute.
+Warshawsky M (2014). Millionaires on Medicaid. Wall Street Journal.
+Wiener J, Anderson W, Khatutsky G, Kaganova Y, and O'Keeffe J (2013). Medicaid
+Spend Down: New Estimates and Implications for Long-Term Services and Supports
+Financing Reform: Final Report. Research Triangle Park, NC: RTI International,
+prepared for the SCAN Foundation.
+Wiener J, Khatutsky G, Thach N, and Greene A (2015). What Americans Think About
+Long-Term Care. Washington, DC: U.S. Department of Health and Human Services,
+Office of the Assistant Secretary for Planning and Evaluation.
+Willink A, Wolff JL, Mulcahy J, Davis K, and Kasper JD (2019). Financial Stress and
+Risk for Entry into Medicaid Among Older Adults. Innovation in Aging, 3(4): 1-8.
+
+RESEARCH BRIEF | 17
+
+Appendix: Projections of LTSS Expenditures Using Present
+Discounted Value
+TABLE A1. Average PVD ($2020) of Expenditures from Age 65 through Death
+Projected for Adults Turning 65 in 2020-2024
+Payer
+Public
+Medicaid
+Other Public
+Private
+Out-of-Pocket
+Private Insurance
+Total Paid
+
+Total Expenditures
+Dollars
+$32,300
+30,900
+1,400
+$47,900
+45,400
+2,500
+$80,200
+
+Percentage
+40%
+39%
+2%
+60%
+57%
+3%
+100%
+
+Community-Based
+(includes residential care)
+Dollars
+Percentage
+$8,600
+25%
+8,300
+24%
+300
+1%
+$25,400
+75%
+23,900
+70%
+1,500
+4%
+$34,000
+100%
+
+Nursing Facility
+Dollars
+$23,700
+22,600
+1,100
+$22,400
+21,400
+1,000
+$46,100
+
+Percentage
+51%
+49%
+2%
+49%
+46%
+2%
+100%
+
+TABLE A2. Average PVD ($2020) of Expenditures from Age 65 through Death Projected for
+Adults who Use Paid LTSS and Turn 65 in 2020-2024
+Payer
+Public
+Medicaid
+Other Public
+Private
+Out-of-Pocket
+Private Insurance
+Total
+
+Total Expenditures
+Dollars
+$64,300
+61,500
+2,800
+$97,100
+92,200
+4,900
+$161,400
+
+Percentage
+39.8%
+38.1%
+1.7%
+60.2%
+57.1%
+3.0%
+100.0%
+
+Community-Based
+(includes residential care)
+Dollars
+Percentage
+$16,600
+24.2%
+16,100
+23.5%
+500
+0.7%
+$52,000
+75.8%
+49,000
+71.4%
+3,000
+4.4%
+$68,600
+100.0%
+
+Nursing Facility
+Dollars
+$47,700
+45,400
+2,300
+$45,000
+43,100
+1,900
+$92,700
+
+Percentage
+51.5%
+49.0%
+2.5%
+48.5%
+46.5%
+2.0%
+100.0%
+
+TABLE A3. Average PVD ($2020) of Expenditures from Age 65 through Death
+Projected for Men Turning 65 in 2020-2024
+Payer
+Public
+Medicaid
+Other Public
+Private
+Out-of-Pocket
+Private Insurance
+Total
+
+Total Expenditures
+Dollars
+$25,600
+23,900
+1,700
+$36,300
+34,500
+1,800
+$61,900
+
+Percentage
+41.4%
+38.6%
+2.7%
+58.6%
+55.7%
+2.9%
+100.0%
+
+Community-Based
+(includes residential care)
+Dollars
+Percentage
+$6,700
+23.6%
+6,500
+22.9%
+200
+0.7%
+$21,700
+76.4%
+20,300
+71.5%
+1,400
+4.9%
+$28,400
+100.0%
+
+Nursing Facility
+Dollars
+$18,830
+17,330
+1,500
+$14,800
+14,400
+400
+$33,600
+
+Percentage
+56.0%
+51.6%
+4.5%
+44.0%
+42.9%
+1.2%
+100.0%
+
+TABLE A4. Average PVD ($2020) of Expenditures from Age 65 through Death
+Projected for Men Who Use LTSS at the HIPAA-Level and Turn 65 in 2020-2024
+Payer
+Public
+Medicaid
+Other Public
+Private
+Out-of-Pocket
+Private Insurance
+Total
+
+Total Expenditures
+Dollars
+$57,900
+54,000
+3,900
+$84,300
+80,300
+4,000
+$142,200
+
+Percentage
+40.7%
+38.0%
+2.7%
+59.3%
+56.5%
+2.8%
+100.0%
+
+Community-Based
+(includes residential care)
+Dollars
+Percentage
+$14,800
+22.6%
+14,300
+21.9%
+500
+0.8%
+$50,600
+77.4%
+47,500
+72.6%
+3,100
+4.7%
+$65,400
+100.0%
+
+RESEARCH BRIEF | 18
+
+Nursing Facility
+Dollars
+$43,100
+39,700
+3,400
+$33,700
+32,800
+900
+$76,800
+
+Percentage
+56.1%
+51.7%
+4.4%
+43.9%
+42.7%
+1.2%
+100.0%
+
+TABLE A5. Average PVD ($2020) of Expenditures from Age 65 through Death
+Projected for Women Turning 65 in 2020-2024
+Total Expenditures
+
+Payer
+
+Dollars
+$38,600
+37,500
+1,100
+$58,700
+55,600
+3,100
+$97,300
+
+Public
+Medicaid
+Other Public
+Private
+Out-of-Pocket
+Private Insurance
+Total
+
+Percentage
+39.7%
+38.5%
+1.1%
+60.3%
+57.1%
+3.2%
+100.0%
+
+Community-Based
+(includes residential care)
+Dollars
+Percentage
+$10,300
+26.3%
+10,000
+25.5%
+300
+0.8%
+$28,900
+73.7%
+27,300
+69.6%
+1,600
+4.1%
+$39,200
+100.0%
+
+Nursing Facility
+Dollars
+$28,400
+27,600
+800
+$29,600
+28,100
+1,500
+$58,000
+
+Percentage
+49.0%
+47.6%
+1.4%
+51.0%
+48.4%
+2.6%
+100.0%
+
+TABLE A6. Average PVD ($2020) of Expenditures from Age 65 through Death
+Projected for Women Who Use LTSS at the HIPAA-Level and Turn 65 in 2020-2024
+Total Expenditures
+
+Payer
+
+Dollars
+$69,000
+67,100
+1,900
+$106,500
+100,900
+5,600
+$175,500
+
+Public
+Medicaid
+Other Public
+Private
+Out-of-Pocket
+Private Insurance
+Total
+
+Percentage
+39.3%
+38.2%
+1.1%
+60.7%
+57.5%
+3.2%
+100.0%
+
+Community-Based
+(includes residential care)
+Dollars
+Percentage
+$17,900
+25.2%
+17,400
+24.5%
+500
+0.7%
+$53,100
+74.8%
+50,200
+70.7%
+2,900
+4.1%
+$71,000
+100.0%
+
+Nursing Facility
+Dollars
+$51,000
+49,600
+1,400
+$53,500
+50,800
+2,700
+$104,500
+
+Percentage
+48.8%
+47.5%
+1.3%
+51.2%
+48.6%
+2.6%
+100.0%
+
+TABLE A7. Distribution of PVD ($2020) of LTSS Expenditures from Age 65 through Death
+Projected for Adults Turning 65 in 2020-2024
+Distribution of Sum ($2020) of LTSS Expenditures
+(% of people)
+Payer
+
+Public
+Medicaid
+Other Public
+Private
+Out-of-Pocket
+Private Insurance
+Total
+
+Average
+Expend.
+
+$37,100
+29,800
+1,300
+$46,500
+44,300
+2,200
+$83,600
+
+Percent of
+People
+with
+Expend.
+
+None
+
+<$10,000
+
+$10,000$24,999
+
+$25,000$49,999
+
+$50,000$74,999
+
+$75,000$99,999
+
+$100,000$149,999
+
+$150,000$199,999
+
+$200,000$249,999
+
+>$250,000
+
+20.4
+11.5
+
+79.6
+88.5
+
+2.5
+10.0
+
+2.0
+0.3
+
+2.6
+0.4
+
+1.9
+0.3
+
+2.0
+0.2
+
+2.6
+0.2
+
+1.7
+0.1
+
+1.4
+0.0
+
+3.8
+0.1
+
+40.4
+3.1
+50.2
+
+59.6
+96.9
+49.8
+
+7.6
+0.5
+8.1
+
+5.3
+0.6
+5.8
+
+6.4
+0.5
+6.0
+
+3.9
+0.5
+4.0
+
+3.3
+0.3
+3.1
+
+4.2
+0.3
+4.8
+
+2.7
+0.1
+3.5
+
+2.1
+0.1
+2.9
+
+5.0
+0.2
+12.0
+
+TABLE A8. Mean and Distribution of PVD ($2020) of Lifetime Medicaid LTSS Expenditures
+Projected for Adults Turning 65 in 2020-2024
+Distribution of Sum ($2020) of LTSS Expenditures
+(% of people)
+Payer
+
+Lowest
+Second
+Middle
+Fourth
+Highest
+Total
+
+Average
+Expend.
+
+Percent of
+People
+with
+Expend.
+
+None
+
+<$10,000
+
+$10,000$24,999
+
+$25,000$49,999
+
+$50,000$74,999
+
+$75,000$99,999
+
+$100,000$149,999
+
+$150,000$199,999
+
+$200,000$249,999
+
+>$250,000
+
+68,800
+40,100
+30,000
+15,200
+8,300
+$29,800
+
+41.6
+27.1
+21.1
+13.2
+7.1
+20.4
+
+58.4
+73.0
+78.9
+86.8
+92.9
+79.6
+
+5.6
+3.2
+2.6
+1.6
+0.4
+2.5
+
+4.6
+2.2
+2.1
+1.2
+0.8
+2.0
+
+3.8
+3.8
+3.2
+1.9
+1.3
+2.6
+
+3.5
+2.5
+2.0
+1.3
+0.7
+1.9
+
+4.0
+2.2
+2.1
+1.4
+1.0
+2.0
+
+5.4
+3.3
+2.0
+2.1
+1.1
+2.6
+
+2.9
+2.0
+1.7
+1.5
+0.6
+1.7
+
+2.5
+2.5
+1.5
+0.7
+0.5
+1.4
+
+9.4
+5.3
+4.0
+1.5
+0.7
+3.8
+
+RESEARCH BRIEF | 19
+
+TABLE A9. Mean and Distribution of PVD ($2020) of Lifetime Family Out-of-Pocket LTSS Expenditures
+Projected for Adults Turning 65 in 2020-2024
+Distribution of Sum ($2020) of LTSS Expenditures
+(% of people)
+Payer
+
+Lowest
+Second
+Middle
+Fourth
+Highest
+Total
+
+Average
+Expend.
+
+Percent of
+People
+with
+Expend.
+
+None
+
+<$10,000
+
+$10,000$24,999
+
+$25,000$49,999
+
+$50,000$74,999
+
+$75,000$99,999
+
+$100,000$149,999
+
+$150,000$199,999
+
+$200,000$249,999
+
+>$250,000
+
+23,400
+33,100
+40,300
+46,900
+64,200
+$42,900
+
+33.1
+40.4
+39.2
+41.7
+47.2
+40.4
+
+66.9
+59.7
+60.8
+58.3
+52.8
+59.6
+
+8.0
+8.4
+7.8
+7.8
+6.6
+7.6
+
+5.8
+6.4
+4.3
+4.7
+5.5
+5.3
+
+5.4
+7.8
+5.3
+6.2
+7.4
+6.4
+
+3.8
+3.0
+4.6
+3.3
+4.8
+3.9
+
+2.6
+4.3
+4.0
+3.0
+3.1
+3.3
+
+3.2
+3.3
+4.3
+5.8
+4.4
+4.2
+
+1.6
+2.3
+2.5
+3.2
+3.6
+2.7
+
+0.9
+1.9
+1.7
+2.6
+2.9
+2.1
+
+1.9
+3.0
+4.7
+5.1
+8.9
+5.0
+
+TABLE A10A. Average PVD ($2020) of Expenditures from Age 65 through Death Projected for
+Adults Who Turn 65 in 2020-2024, Including Only One-Third of Residential Care Projections
+Community-Based
+Nursing Facility
+(includes residential care)
+Dollars
+Percentage
+Dollars
+Percentage
+Dollars
+Percentage
+Public
+32,300
+44.0%
+8,600
+31.5%
+23,700
+51.4%
+Medicaid
+30,900
+42.1%
+8,300
+30.4%
+22,600
+49.0%
+Other Public
+1,400
+1.9%
+300
+1.1%
+1,100
+2.4%
+Private
+41,100
+56.0%
+18,700
+68.5%
+22,400
+48.6%
+Out-of-Pocket
+38,600
+52.6%
+17,200
+63.0%
+21,400
+46.4%
+Private Insurance
+2,500
+3.4%
+1,500
+5.5%
+1,000
+2.2%
+Total
+73,400
+100.0%
+27,300
+100.0%
+46,100
+100.0%
+NOTE: Table A10A and Table A10B show two alternative estimates to Table A1. In the first (Table A10A), only one-third of
+family residential care costs are included, reflecting that some prefer to exclude the housing component of residential care. Using
+this approach, the out-of-pocket share declines (from 57% in Table A1 to 53%), and shares to all other payers increase. In the
+second (Table A10B), no family residential care costs are included. This approach compares more directly to estimates that rely
+on NHEA data, as they exclude most residential care, as it is not considered health care (Hartman, Kornfeld and Catlin 2010).
+Using this approach, the out-of-pocket share declines (from 57% in Table A1 to 50%), and shares to all other payers again
+increase mechanically.
+Payer
+
+Total Expenditures
+
+TABLE A10B. Average PVD ($2020) of Expenditures from Age 65 through Death Projected for
+Adults Who Turn 65 in 2020-2024, Including No Residential Care Costs
+Community-Based
+Nursing Facility
+(includes residential care)
+Dollars
+Percentage
+Dollars
+Percentage
+Dollars
+Percentage
+Public
+$32,300
+46.1%
+$8,600
+35.8%
+$23,700
+51.4%
+Medicaid
+30,900
+44.1%
+8,300
+34.6%
+22,600
+49.0%
+Other Public
+1,400
+2.0%
+300
+1.3%
+1,100
+2.4%
+Private
+$37,800
+53.9%
+$15,400
+64.2%
+$22,400
+48.6%
+Out-of-Pocket
+35,300
+50.4%
+13,900
+57.9%
+21,400
+46.4%
+Private Insurance
+2,500
+3.6%
+1,500
+6.3%
+1,000
+2.2%
+Total Paid
+$70,100
+100.0%
+$24,000
+100.0%
+$46,100
+100.0%
+NOTE: Table A10A and Table A10B show two alternative estimates to Table A1. In the first (Table A10A), only one-third of
+family residential care costs are included, reflecting that some prefer to exclude the housing component of residential care. Using
+this approach, the out-of-pocket share declines (from 57% in Table A1 to 53%), and shares to all other payers increase. In the
+second (Table A10B), no family residential care costs are included. This approach compares more directly to estimates that rely
+on NHEA data, as they exclude most residential care, as it is not considered health care (Hartman, Kornfeld and Catlin 2010).
+Using this approach, the out-of-pocket share declines (from 57% in Table A1 to 50%), and shares to all other payers again
+increase mechanically.
+Payer
+
+Total Expenditures
+
+RESEARCH BRIEF | 20
+
+This Research Brief, authored by Melissa Favreault (Urban Institute) and Judith Dey (U.S. Department of
+Health and Human Services), presents information about the risk of needing care and associated costs to
+provide content for policymakers and others considering long-term care financing proposals.
+The authors gratefully acknowledge conceptual and modeling help from Owen Haaga, Paul Johnson,
+Richard Johnson, and Brenda Spillman. We also thank Lauren Anderson, Chris Giese, Richard Johnson,
+Harriet Komisar, William Marton, Al Schmitz, Brenda Spillman, Anne Tumlinson, and the late Joshua
+Wiener for helpful comments on earlier drafts of earlier versions of this brief and the longer report on
+which this brief is based. We are also grateful to them and others in the LTSS research community for
+extensive conversations about specification issues. Many advisory panel members and attendees of
+seminars describing earlier versions of these projections helped to refine our work. This remains work in
+progress that we will update regularly as new data become available. All errors are our own.
+This brief was prepared under contract #HHSP233201600024I between HHS’s ASPE/BHDAP and the
+Urban Institute. For additional information about this subject, you can visit the BHDAP home page at
+https://aspe.hhs.gov/bhdap or contact the ASPE Project Officers, at HHS/ASPE/BHDAP, Room 424E,
+H.H. Humphrey Building, 200 Independence Avenue, S.W., Washington, D.C., 20201;
+Judith.Dey@hhs.gov, Lauren.Anderson@hhs.gov, Helen.Lamont@hhs.gov.
+The opinions and views expressed in this report are those of the authors. They do not reflect the views of
+the Department of Health and Human Services, the contractor or any other funding organization. This
+report was completed and submitted on October 2020.
+
+RESEARCH BRIEF | 21
+
+IMPROVING HEALTH AND
+LONG-TERM CARE MODELING CAPACITY
+Reports Available
+Economic Hardship and Medicaid Enrollment in Later Life: Assessing the Impact
+of Disability, Health, and Marital Status Shocks
+HTML
+https://aspe.hhs.gov/basic-report/economic-hardship-and-medicaidenrollment-later-life-assessing-impact-disability-health-and-marital-statusshocks
+PDF
+https://aspe.hhs.gov/pdf-report/economic-hardship-and-medicaidenrollment-later-life-assessing-impact-disability-health-and-marital-statusshocks
+
+Extended LTSS Utilization Makes Older Adults More Reliant on Medicaid Issue
+Brief
+HTML
+https://aspe.hhs.gov/basic-report/extended-ltss-utilization-makes-olderadults-more-reliant-medicaid-issue-brief
+PDF
+https://aspe.hhs.gov/pdf-report/extended-ltss-utilization-makes-olderadults-more-reliant-medicaid-issue-brief
+
+Most Older Adults Are Likely to Need and Use Long-Term Services and Supports
+Issue Brief
+HTML
+https://aspe.hhs.gov/basic-report/most-older-adults-are-likely-need-anduse-long-term-services-and-supports-issue-brief
+PDF
+https://aspe.hhs.gov/pdf-report/most-older-adults-are-likely-need-and-uselong-term-services-and-supports-issue-brief
+
+Risk of Economic Hardship Among Older Adults Issue Brief
+HTML
+https://aspe.hhs.gov/basic-report/risk-economic-hardship-among-olderadults-issue-brief
+PDF
+https://aspe.hhs.gov/pdf-report/risk-economic-hardship-among-olderadults-issue-brief
+
+The Risk and Costs of Severe Cognitive Impairment at Older Ages: Literature
+Review and Projection Analyses
+HTML
+https://aspe.hhs.gov/basic-report/risk-and-costs-severe-cognitiveimpairment-older-ages-literature-review-and-projection-analyses
+PDF
+https://aspe.hhs.gov/pdf-report/risk-and-costs-severe-cognitiveimpairment-older-ages-literature-review-and-projection-analyses
+
+Long-Term Services and Supports for Older Americans: Risks and Financing,
+2020 Research Brief
+HTML
+https://aspe.hhs.gov/basic-report/long-term-services-and-supports-olderamericans-risks-and-financing-2020-research-brief
+PDF
+https://aspe.hhs.gov/pdf-report/long-term-services-and-supports-olderamericans-risks-and-financing-2020-research-brief
+
+Projections of Risk of Needing Long-Term Services and Supports at Ages 65 and
+Older
+HTML
+https://aspe.hhs.gov/basic-report/projections-risk-needing-long-termservices-and-supports-ages-65-and-older
+PDF
+https://aspe.hhs.gov/pdf-report/projections-risk-needing-long-termservices-and-supports-ages-65-and-older
+
+The Risk and Costs of Severe Cognitive Impairment at Older Ages: Key Findings
+from our Literature Review and Projection Analyses Research Brief
+HTML
+https://aspe.hhs.gov/basic-report/risk-and-costs-severe-cognitiveimpairment-older-ages-key-findings-our-literature-review-and-projectionanalyses-research-brief
+PDF
+https://aspe.hhs.gov/pdf-report/risk-and-costs-severe-cognitiveimpairment-older-ages-key-findings-our-literature-review-and-projectionanalyses-research-brief
+
+

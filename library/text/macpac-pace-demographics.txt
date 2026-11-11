@@ -1,0 +1,2160 @@
+Source: https://www.macpac.gov/wp-content/uploads/2026/07/PACE-Demographics-Issue-Brief.pdf
+Publisher: MACPAC
+Retrieved: 2026-11-11
+Original SHA-256: fdf768061864fe5c939a1f403c97d42ac30f7743b87d6720f6aa58b98815c525
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+July 2026
+
+Advising Congress on Medicaid and CHIP Policy
+
+Demographic Characteristics of Medicaid
+Beneficiaries Enrolled in the Program of AllInclusive Care for the Elderly
+The Program of All-Inclusive Care for the Elderly (PACE) is a fully integrated care model that provides Medicare
+and Medicaid services to individuals age 55 or older who meet a nursing facility level of care and can live safely in
+the community at the time of enrollment. In 2023, approximately 89,659 individuals were enrolled in PACE
+nationwide based on Medicare and Medicaid administrative data used in this analysis. The majority of enrollees
+were dually eligible for Medicare and Medicaid, while a smaller share were Medicaid-only enrollees. PACE
+operates under a capitated payment model and provides comprehensive services without typical benefit limits,
+allowing providers to tailor care to participant needs (CMS 2011). As a result, differences in enrollee
+characteristics may influence patterns of service use and outcomes.
+Despite steady growth in enrollment, publicly available data on PACE participants remain limited beyond monthly
+reporting of enrollment totals by organization and state (CMS 2026, NPA 2026). This lack of information limits the
+ability of policymakers and program administrators to understand who PACE serves and how enrollee
+characteristics may shape service use and outcomes. Understanding the demographic composition of PACE
+enrollees is important because factors such as age, sex, and race and ethnicity are associated with differences in
+health care utilization, outcomes, and spending within Medicaid (MACPAC 2026a).
+MACPAC’s June 2025 and June 2026 reports to Congress both examined the PACE model, including participant
+characteristics, service delivery, quality measurement, oversight, and data transparency (MACPAC 2026b, 2025).
+This issue brief complements that work by examining differences in demographic characteristics and long-term
+nursing facility use between PACE enrollees who are full-benefit dually eligible beneficiaries and those who are
+Medicaid-only using linked Medicare and Medicaid administrative data from calendar year 2023. Data sources
+include the Common Medicare Enrollment database, Transformed Medicaid Statistical Information System (TMSIS), and Minimum Data Set nursing facility assessment data. Additional detail on data sources and analytic
+methods is provided in Appendix A.
+The following key findings highlight differences in demographic characteristics and long-term nursing facility use
+between full-benefit dually eligible and Medicaid-only PACE enrollees.
+•
+
+Most PACE enrollees are dually eligible for Medicare and Medicaid and are eligible for full Medicaid
+benefits while the share of Medicaid-only PACE enrollees is relatively small across all states, with
+some exceptions. In most states, Medicaid-only enrollees account for less than 10 percent of the PACE
+population, but shares are substantially higher in some states, including California (29 percent) and New York
+(47 percent).
+
+•
+
+Medicaid-only PACE enrollees differ substantially from full-benefit dually eligible enrollees in terms of
+age. More than half of Medicaid-only enrollees are under age 65 (54.3 percent), compared to fewer than 10
+percent of full-benefit dually eligible enrollees (8.7 percent).
+
+•
+
+The racial and ethnic composition of PACE enrollees varies by coverage type. Compared to full-benefit
+dually eligible beneficiaries, Medicaid-only beneficiaries have higher shares of Hispanic (29.4 percent versus
+17.9 percent) and Asian (24.8 percent versus 7.4 percent) enrollees. In contrast, full-benefit dually eligible
+
+2
+beneficiaries have higher shares of white (54.4 percent versus 18.3 percent) and Black (17.7 percent versus
+11.3 percent) enrollees.
+•
+
+Medicare-covered PACE enrollees (defined as full-benefit dually eligible beneficiaries, partial-benefit
+dually eligible beneficiaries, and individuals who only have Medicare coverage) have higher rates of
+long-stay nursing facility use than Medicaid-only enrollees. In 2023, 7.1 percent of Medicare-covered
+enrollees had a long-stay nursing facility episode, compared to 1.7 percent of Medicaid-only enrollees.
+
+•
+
+Most PACE enrollees remain enrolled during long-stay nursing facility episodes. Among those with
+long-stay use, more than 85 percent remained enrolled in PACE throughout the stay, with similar rates across
+coverage groups and demographic characteristics.
+
+State Variation in PACE Coverage
+The share of Medicaid-only PACE enrollees varies widely across the 33 states and the District of Columbia that
+offered PACE in 2023, providing context for differences in enrollee characteristics and outcomes (Figure 1). In
+most states, Medicaid-only enrollees account for a relatively small share of the PACE population, typically less
+than 10 percent, with a median of about 8 percent. However, a small number of states have substantially higher
+shares, including California (29 percent) and New York (47 percent). State policy changes may help explain some
+of these variations. For example, prior analyses have identified California’s PACE Modernization Act and MediCal eligibility expansions as potential contributors to growth in Medicaid-only PACE enrollment in the state (NORC
+2025). Nationally, Medicaid-only enrollees represent 19 percent of PACE participants.
+FIGURE 1. Distribution of PACE Enrollees by Coverage Type and State, CY 2023
+100%
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+
+0%
+
+New Mexico
+Delaware
+Texas
+Michigan
+Tennessee
+Colorado
+Massachusetts
+Oregon
+Maryland
+Pennsylvania
+South Carolina
+Arkansas
+North Carolina
+Florida
+Alabama
+North Dakota
+Iowa
+Wisconsin
+Washington
+Louisiana
+Indiana
+Nebraska
+Rhode Island
+Virginia
+New Jersey
+District of Columbia
+Oklahoma
+Kansas
+United States
+Missouri
+Ohio
+Kentucky
+California
+New York
+
+10%
+
+Full-Benefit Dually Eligible
+
+Medicaid-only
+
+Notes: PACE is Program of All-Inclusive Care for the Elderly. CY is calendar year. Beneficiaries are counted as dually eligible
+if they were ever enrolled in both Medicare and Medicaid while enrolled in PACE.
+
+3
+Sources: MACPAC, 2026, analysis of Common Medicare Enrollment (CME) and Transformed Medicaid Statistical Information
+System (T-MSIS) data.
+
+Enrollee Demographics
+Table 1 presents demographic characteristics of all PACE enrollees and compares full-benefit dually eligible and
+Medicaid-only populations. Differences in racial and ethnic composition are shown in Figure 2.
+As of 2023, PACE served 89,659 enrollees nationwide, including 72,369 full-benefit dually eligible enrollees and
+16,593 Medicaid-only enrollees (Table 1). Full-benefit dually eligible enrollees accounted for 81 percent of the
+PACE population, while Medicaid-only enrollees accounted for 19 percent. Medicaid-only PACE enrollees differ
+substantially from full-benefit dually eligible enrollees in several ways. Medicaid-only enrollees are significantly
+younger, with 54.3 percent under age 65 compared to 8.7 percent of dually eligible enrollees, and are more
+racially and ethnically diverse, with lower shares of white enrollees (18.3 percent compared to 54.4 percent).
+Across both groups, PACE enrollees are predominantly located in urban areas, although Medicaid-only enrollees
+are even more concentrated in urban settings (97.0 percent compared to 92.3 percent).
+TABLE 1. Demographic Characteristics of PACE Enrollees by Dually Eligible Status, CY 20231
+
+Demographic
+characteristics
+Total enrollment
+Distribution of enrollees
+Age
+<65
+65+
+Sex
+Male
+Female
+Race and ethnicity
+White, non-Hispanic
+Hispanic
+Black, non-Hispanic
+Asian, non-Hispanic
+Other
+Rurality
+Urban
+Rural
+
+All PACE enrollees
+
+Full-benefit dually
+eligible
+
+Medicaid-only
+
+89,659
+
+72,369
+
+16,593
+
+17.1%
+
+8.7%
+
+54.3%
+
+82.9
+
+91.3
+
+45.7
+
+35.9
+64.1
+
+35.1
+64.9
+
+39.2
+60.8
+
+47.8
+
+54.4
+
+18.3
+
+20.0
+16.5
+10.6
+5.2
+
+17.9
+17.7
+7.4
+2.1
+
+29.4
+11.3
+24.8
+16.2
+
+93.1
+
+92.3
+
+97.0
+
+6.8
+
+7.7
+
+2.9
+
+Notes: Percentages may not add to 100 percent due to rounding. PACE is Program of All-Inclusive Care for the Elderly. CY is
+calendar year. Beneficiaries are counted as dually eligible if they were ever enrolled in both Medicare and Medicaid while
+enrolled in PACE. “Other” includes enrollees identified as multiracial, those whose race and ethnicity were reported in
+categories other than those listed above, and those with unknown or missing race and ethnicity data in the enrollment files.
+
+4
+1 This table presents demographic characteristics of all PACE enrollees and compares full-benefit dually eligible and Medicaidonly enrollees. Medicare-only (n=524) and partial-benefit dually eligible (n=173) enrollees together comprised less than 1
+percent of PACE enrollees nationwide in 2023. These enrollees are included in the total population but are not shown
+separately. See Appendix Table B-1 for demographic information on these groups.
+
+Source: MACPAC, 2026, analysis of Census Bureau delineation files, Common Medicare Enrollment data, Transformed
+Medicaid Statistical Information System (T-MSIS) data, and United States Department of Agriculture Rural-Urban Commuting
+Area codes.
+
+PACE enrollees represent a diverse population with differences in racial and ethnic composition by coverage type
+(Figure 2). Full-benefit dually eligible beneficiaries, representing 81 percent of PACE enrollees, include higher
+shares of white enrollees (54.4 percent vs. 18.3 percent) and Black enrollees (17.7 percent vs. 11.3 percent) than
+Medicaid-only enrollees. Among Medicaid-only enrollees, we found higher shares of Hispanic enrollees (29.4
+percent vs. 17.9 percent) and Asian enrollees (24.8 percent vs. 7.4 percent) when compared to the full-benefit
+group. These differences in enrollee characteristics may have implications for how states design their PACE
+programs and deliver services to different populations.
+FIGURE 2. Racial and Ethnic Composition of PACE Enrollees by Coverage Type, CY 2023
+100%
+
+2.1%
+
+7.4%
+
+90%
+
+16.2%
+
+17.7%
+
+80%
+
+24.8%
+
+70%
+17.9%
+
+60%
+
+11.3%
+
+50%
+40%
+
+29.4%
+
+30%
+
+54.4%
+
+20%
+10%
+0%
+
+18.3%
+Full-benefit dually eligible
+White, non-Hispanic
+
+Hispanic
+
+Medicaid-only
+Black, non-Hispanic
+
+Asian, non-Hispanic
+
+Other
+
+Notes: Percentages may not add to 100 percent due to rounding. PACE is Program of All-Inclusive Care for the Elderly. CY is
+calendar year. “Other” includes enrollees identified as multiracial, those whose race and ethnicity were reported in categories
+other than those listed above, and those with unknown or missing race and ethnicity data in the enrollment files.
+Source: MACPAC, 2026, analysis of Common Medicare Enrollment and Transformed Medicaid Statistical Information
+System (T-MSIS) data.
+
+The demographic composition of PACE enrollees also varies substantially across states (Appendix Table B-2).
+For example, Hispanic enrollees account for large shares of participants in Texas and California (66.5 percent
+and 45.9 percent), while Asian enrollees comprise one-third of participants in New York (33.6). Although most
+
+5
+PACE enrollees nationally reside in urban areas, several states also have comparatively larger rural PACE
+populations, with nearly half (48.9 percent) of Kentucky PACE enrollees living in rural areas.
+
+Long-Stay Nursing Facility Use
+Table 2 examines long-stay nursing facility use among PACE enrollees by coverage group and demographic
+characteristics, including whether individuals remained enrolled in PACE during the entire stay or disenrolled
+during the episode. For the purposes of this analysis, long-stay nursing facility use is defined as stays of 90 days
+or more.
+Medicare-covered PACE participants had higher rates of long-stay nursing facility use than Medicaid-only
+participants (Table 2, 7.1 percent compared to 1.7 percent). Among participants with long-stay nursing facility use,
+most remained enrolled in PACE during these episodes, and rates of continued enrollment were similar across
+coverage groups and demographic characteristics. Disenrollment rates were higher among rural participants and
+among Medicaid-only participants age 65 and older.
+TABLE 2. Long-Stay Nursing Facility Use Among PACE Enrollees, CY 2023
+Enrollees with ≥ 90-day NF stay
+
+Demographic
+characteristics
+
+Coverage
+type
+
+#
+
+%
+
+Enrolled in
+PACE during
+entire NF
+stay
+
+All enrollees
+
+Any Medicare
+Medicaid-only
+
+5,171
+287
+
+7.1%
+1.7
+
+86.2%
+86.4
+
+14.7%
+14.6
+
+Age <65
+
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+
+250
+138
+4,921
+149
+1,632
+119
+
+3.9
+1.5
+7.4
+2.0
+6.4
+1.8
+
+85.6
+89.9
+86.2
+83.2
+87.1
+87.4
+
+15.2
+10.9
+14.6
+18.1
+13.7
+13.4
+
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+
+3,539
+168
+3,266
+121
+566
+57
+
+7.5
+1.7
+8.2
+4.0
+4.3
+1.2
+
+85.8
+85.7
+85.8
+85.1
+82.9
+87.7
+
+15.1
+15.5
+15.1
+16.5
+18.4
+12.3
+
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+
+1,113
+76
+140
+–
+86
+25
+
+8.6
+4.1
+2.6
+–
+4.4
+0.9
+
+89.0
+84.2
+85.0
+–
+88.4
+96.0
+
+11.6
+15.8
+15.7
+–
+12.8
+
+Any Medicare
+
+4,716
+
+7.0
+
+86.8
+
+14.0
+
+Age 65+
+Male
+Female
+White, non-Hispanic
+Hispanic
+Black, non-Hispanic
+Asian, non-Hispanic
+Other
+Urban
+
+Total
+
+Disenrolled
+from PACE
+during NF
+stay
+
+–
+
+6
+
+Enrollees with ≥ 90-day NF stay
+
+Demographic
+characteristics
+Rural
+
+Coverage
+type
+
+#
+
+%
+
+Enrolled in
+PACE during
+entire NF
+stay
+
+Medicaid-only
+Any Medicare
+
+267
+454
+
+1.7
+8.0
+
+87.3
+80.0
+
+13.9
+20.9
+
+Medicaid-only
+
+20
+
+4.1
+
+75.0
+
+–
+
+Total
+
+Disenrolled
+from PACE
+during NF
+stay
+
+Notes: Percentages may not add to 100 percent due to rounding. PACE is Program of All-Inclusive Care for the Elderly. CY is
+calendar year. NF is nursing facility. “Any Medicare” includes full-benefit dually eligible, Medicare-only (n=524), and partialbenefit dually eligible (n=173) enrollees. Medicare-only and partial-benefit dually eligible enrollees together comprised less
+than 1 percent of PACE enrollees nationwide in 2023. “Other” includes enrollees identified as multiracial, those whose race
+and ethnicity were reported in categories other than those listed above, and those with unknown or missing race and ethnicity
+data in the enrollment files. Restricted to beneficiaries with NF stays of at least 90 days in 2023, regardless of whether the stay
+began or ended in another year, and to NF stays occurring after the start of PACE enrollment in 2023. Percentages in the
+“Enrollees with ≥90-day NF stay” column represent the share of PACE enrollees in each subgroup with a ≥90-day nursing
+facility stay. Percentages in the “Enrolled in PACE entire NF stay” and “Disenrolled from PACE during NF stay” columns are
+calculated among enrollees with a ≥90-day NF stay. Includes beneficiaries who voluntarily disenrolled from PACE or passed
+away during their NF stay. For full count totals, see Appendix Table B-3.
+– Cells suppressed due to small counts.
+Source: MACPAC, 2026, analysis of Census Bureau delineation files, Common Medicare Enrollment data, Long Term
+Minimum Data Set data, Transformed Medicaid Statistical Information System (T-MSIS) data, and United States Department
+of Agriculture Rural-Urban Commuting Area codes.
+
+Conclusion
+This analysis highlights important differences in the characteristics of PACE enrollees by coverage type, including
+variation in age and racial and ethnic composition. These differences are associated with variation in patterns of
+service use, including long-term nursing facility use, while PACE enrollment remains largely consistent during
+these episodes. As enrollment in PACE continues to grow, improved data on enrollee characteristics and service
+use may help policymakers and program administrators better understand how the program serves different
+populations.
+
+7
+References
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2026. Medicare
+Advantage/Part D contract and enrollment data: Monthly enrollment by contract. Baltimore, MD: CMS.
+https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-advantagepart-d-contract-and-enrollmentdata/monthly-enrollment-contract.
+Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services. 2011. Programs of All
+Inclusive Care for the Elderly (PACE) manual. Baltimore, MD: CMS. https://www.cms.gov/regulations-andguidance/guidance/manuals/internet-only-manuals-ioms-items/cms019036.
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2026a. MACStats: Medicaid and CHIP data book.
+February 2026. Washington, DC: MACPAC. https://www.macpac.gov/publication/macstats-medicaid-and-chip-data-book-2/.
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2026b. Chapter 6: Exploring the role of the state Medicaid
+agency in the Program of All-Inclusive Care for the Elderly. In Report to Congress on Medicaid and CHIP. June 2026.
+Washington, DC: MACPAC. https://www.macpac.gov/publication/exploring-the-role-of-the-state-medicaid-agency-in-theprogram-of-all-inclusive-care-for-the-elderly/.
+Medicaid and CHIP Payment and Access Commission (MACPAC). 2025. Chapter 4: Understanding the Program of AllInclusive Care for the Elderly. In Report to Congress on Medicaid and CHIP. June 2025. Washington, DC: MACPAC.
+https://www.macpac.gov/publication/understanding-the-program-of-all-inclusive-care-for-the-elderly/.
+National Pace Association (NPA). 2026. Find a PACE program near you. Alexandria, VA: NPA. https://www.npaonline.org/finda-pace-program.
+NORC at the University of Chicago. 2025. Program of All-Inclusive Care for the Elderly (PACE) market assessment: For-profit
+expansion and growth. Chicago, IL: NORC. https://www.norc.org/research/projects/pace-market-assessment-for-profitexpansion.html.
+
+8
+
+Appendix A: Data and Methods
+This analysis uses linked Medicare and Medicaid administrative data to examine characteristics of individuals
+enrolled in PACE and their use of long-term nursing facility services in calendar year 2023. Primary data sources
+include the Common Medicare Enrollment (CME) database, the Transformed Medicaid Statistical Information
+System (T-MSIS) eligibility and managed care files, and the Minimum Data Set (MDS) for nursing facility
+assessments. Additional geographic data from the U.S. Department of Agriculture and the U.S. Census Bureau
+support classification of beneficiary residence as urban or rural. Individuals residing outside of the 50 states and
+the District of Columbia are excluded from the analysis. Enrollment counts include individuals enrolled in PACE at
+any point during calendar year 2023.
+We identified PACE enrollees using enrollment indicators in both Medicare and Medicaid data. In Medicare,
+beneficiaries were classified as PACE participants based on coverage type codes indicating PACE enrollment
+during the study period. In Medicaid, PACE enrollment was identified using managed care plan type codes. We
+constructed a linked Medicare-Medicaid dataset by matching beneficiary identifiers and demographic
+characteristics across data sources. For dually eligible beneficiaries, Medicare data served as the primary source
+when discrepancies occurred. Demographic characteristics (e.g., age, sex, race and ethnicity) and geographic
+variables (e.g., state, county, and urban or rural status) reflect the most recent enrollment period overlapping with
+PACE participation.
+We categorized beneficiaries by dual eligibility status and reason for Medicare enrollment using standard
+administrative codes. To improve completeness of Medicaid enrollment histories, we applied a national-level
+beneficiary identifier to link multiple state identifiers associated with a single individual. This approach produces
+unduplicated counts of Medicaid enrollees and captures cross-state enrollment where applicable.
+To examine long-term nursing facility use, we linked MDS assessment data to the Medicare-Medicaid dataset and
+used it to construct nursing facility stays by grouping sequential assessments into episodes of care. We defined
+long-term nursing facility stays as stays lasting at least 90 days in 2023. Among PACE enrollees with a qualifying
+stay, indicators captured enrollment status at the start of the stay and continuity of enrollment throughout the stay.
+We used these data to produce descriptive statistics on PACE enrollees by demographic characteristics, dual
+eligibility status, and geography, as well as measures of long-term nursing facility use. All estimates are reported
+at the state level and stratified, where relevant, by Medicare and Medicaid enrollment status.
+
+9
+
+APPENDIX B: Detailed Tables
+TABLE B-1. Demographic Characteristics of PACE Enrollees by Coverage Type, CY 2023
+
+Demographic
+characteristics
+
+Total
+enrollment
+
+Full-benefit
+dually eligible
+
+Medicaid-only
+
+Medicare-only
+
+Partial-benefit
+dually eligible
+
+#
+
+%
+
+#
+
+%
+
+#
+
+%
+
+#
+
+%
+
+#
+
+%
+
+89,659
+
+100.0%
+
+72,369
+
+100.0%
+
+16,593
+
+100.0%
+
+524
+
+100.0%
+
+173
+
+100.0%
+
+15,344
+
+17.1
+
+6,276
+
+8.7
+
+9,011
+
+54.3
+
+38
+
+7.3
+
+19
+
+11.0
+
+74,315
+82.9
+65+
+Sex
+32,144
+35.9
+Male
+57,515
+64.1
+Female
+Race and ethnicity
+White, non42,832
+47.8
+Hispanic
+17,898
+20.0
+Hispanic
+Black, non14,810
+16.5
+Hispanic
+Asian, non9,477
+10.6
+Hispanic
+Other or
+2,297
+2.6
+multiracial
+Unknown
+2,345
+2.6
+or missing
+Rurality
+83,496
+93.1
+Urban
+6,133
+6.8
+Rural
+Medicare enrollment reason
+Aged
+64,700
+72.2
+without
+ESRD
+Aged with
+1,383
+1.5
+ESRD
+Disabled
+5,964
+6.7
+without
+ESRD
+Disabled
+295
+0.3
+with ESRD
+116
+0.1
+ESRD only
+
+66,093
+
+91.3
+
+7,582
+
+45.7
+
+486
+
+92.7
+
+154
+
+89.0
+
+25,366
+
+35.1
+
+6,504
+
+39.2
+
+220
+
+42.0
+
+54
+
+31.2
+
+47,003
+
+64.9
+
+10,089
+
+60.8
+
+304
+
+58.0
+
+119
+
+68.8
+
+39,346
+
+54.4
+
+3,033
+
+18.3
+
+364
+
+69.5
+
+89
+
+51.4
+
+12,297
+
+17.9
+
+4,880
+
+29.4
+
+59
+
+11.3
+
+32
+
+18.5
+
+12,820
+
+17.7
+
+1,871
+
+11.3
+
+74
+
+14.1
+
+45
+
+26.0
+
+5,344
+
+7.4
+
+4,118
+
+24.8
+
+12
+
+2.3
+
+–
+
+–
+
+909
+
+1.3
+
+1,375
+
+8.3
+
+–
+
+–
+
+–
+
+–
+
+602
+
+0.8
+
+1,316
+
+7.9
+
+–
+
+–
+
+–
+
+–
+
+66,773
+
+92.3
+
+16,089
+
+97.0
+
+476
+
+90.8
+
+158
+
+91.3
+
+5,583
+
+7.7
+
+487
+
+2.9
+
+48
+
+9.2
+
+15
+
+8.7
+
+64,086
+
+88.6
+
+–
+
+–
+
+468
+
+89.3
+
+146
+
+84.4
+
+1,365
+
+1.9
+
+–
+
+–
+
+13
+
+2.5
+
+–
+
+–
+
+5,911
+
+8.2
+
+–
+
+–
+
+35
+
+6.7
+
+18
+
+10.4
+
+290
+
+0.4
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+115
+
+0.2
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+Total
+Age
+<65
+
+10
+Notes: Percentages may not add to 100 percent due to rounding. PACE is Program of All-Inclusive Care for the Elderly. CY is
+calendar year. ESRD is end-stage renal disease. Beneficiaries are counted as dually eligible if they were ever enrolled in both
+Medicare and Medicaid while enrolled in PACE.
+– Cells suppressed due to small counts.
+Source: MACPAC, 2026, analysis of Census Bureau delineation files, Common Medicare Enrollment data, Transformed
+Medicaid Statistical Information System (T-MSIS) data, and United States Department of Agriculture Rural-Urban Commuting
+Area codes.
+
+11
+TABLE B-2. Demographic Characteristics of PACE Enrollees by State, CY 2023
+Demographic Characteristic
+
+Age
+65+
+
+White,
+nonHispanic
+
+Hispanic
+
+Black,
+nonHispanic
+
+Asian,
+nonHispanic
+
+Male
+
+Female
+
+Urban
+
+Rural
+
+21.8%
+
+78.2%
+
+28.4%
+
+–
+
+66.8%
+
+–
+
+33.2%
+
+66.8%
+
+99.1%
+
+–
+
+695
+
+13.1
+
+24,264
+
+20.9
+
+86.9
+
+79.0
+
+3.3%
+
+16.3
+
+–
+
+32.1
+
+67.9
+
+81.4
+
+18.6%
+
+79.1
+
+23.0
+
+45.9
+
+7.8
+
+19.2%
+
+40.5
+
+59.5
+
+98.0
+
+2.0
+
+5,272
+
+12.0
+
+88.0
+
+74.2
+
+15.9
+
+6.9
+
+1.1
+
+32.7
+
+67.3
+
+92.7
+
+7.3
+
+420
+
+6.2
+
+93.8
+
+38.3
+
+8.3
+
+49.3
+
+–
+
+32.1
+
+67.9
+
+90.7
+
+72
+
+–
+
+86.1
+
+–
+
+–
+
+83.3
+
+–
+
+38.9
+
+61.1
+
+100.0
+
+9.3
+–
+
+3,493
+
+9.4
+
+90.6
+
+51.4
+
+27.3
+
+16.1
+
+1.1
+
+37.4
+
+62.6
+
+99.8
+
+–
+
+Indiana
+
+775
+
+18.5
+
+81.5
+
+75.4
+
+4.3
+
+16.4
+
+–
+
+31.2
+
+68.8
+
+87.5
+
+12.5
+
+Iowa
+
+811
+
+26.5
+
+73.5
+
+82.6
+
+4.1
+
+6.8
+
+–
+
+36.5
+
+63.5
+
+93.0
+
+6.9
+
+Kansas
+
+1,179
+
+31.2
+
+68.8
+
+70.7
+
+8.7
+
+17.6
+
+35.7
+
+64.3
+
+77.7
+
+22.1
+
+Kentucky
+
+188
+
+31.9
+
+68.1
+
+60.6
+
+17.6
+
+17.0
+
+0.9
+–
+
+36.7
+
+63.3
+
+51.1
+
+Louisiana
+
+529
+
+10.4
+
+89.6
+
+21.7
+
+7.9
+
+67.7
+
+–
+
+28.9
+
+71.1
+
+98.7
+
+48.9
+–
+
+Maryland
+
+228
+
+9.2
+
+90.8
+
+40.4
+
+–
+
+52.2
+
+–
+
+34.2
+
+65.8
+
+99.1
+
+–
+
+Massachusetts
+
+6,128
+
+9.6
+
+90.4
+
+71.1
+
+10.6
+
+9.1
+
+1.9
+
+32.4
+
+67.6
+
+99.3
+
+0.7
+
+Michigan
+
+5,956
+
+16.5
+
+83.5
+
+67.9
+
+3.2
+
+26.4
+
+64.2
+
+85.9
+
+89
+
+36.0
+
+64.0
+
+31.5
+
+–
+
+64.0
+
+1.0
+–
+
+35.8
+
+Missouri
+
+40.4
+
+59.6
+
+89.9
+
+14.1
+–
+
+Nebraska
+
+261
+
+18.4
+
+81.6
+
+64.8
+
+5.0
+
+26.1
+
+–
+
+42.5
+
+57.5
+
+96.6
+
+–
+
+New Jersey
+
+1,650
+
+19.3
+
+80.7
+
+43.6
+
+16.1
+
+36.0
+
+1.3
+
+37.9
+
+62.1
+
+93.9
+
+6.1
+
+New Mexico
+
+558
+
+7.5
+
+92.5
+
+59.1
+
+33.0
+
+5.2
+
+–
+
+32.8
+
+67.2
+
+98.6
+
+–
+
+New York
+
+12,009
+
+22.3
+
+77.7
+
+24.9
+
+10.9
+
+13.5
+
+33.6
+
+34.3
+
+65.7
+
+98.0
+
+2.0
+
+North Carolina
+
+2,641
+
+14.8
+
+85.2
+
+49.1
+
+5.9
+
+42.3
+
+29.5
+
+70.5
+
+85.7
+
+14.3
+
+North Dakota
+
+225
+
+24.9
+
+75.1
+
+89.8
+
+–
+
+–
+
+1.5
+–
+
+33.8
+
+66.2
+
+62.2
+
+37.8
+
+Ohio
+
+869
+
+16.2
+
+83.8
+
+23.8
+
+9.1
+
+65.2
+
+–
+
+32.2
+
+67.8
+
+99.8
+
+–
+
+Oklahoma
+
+942
+
+19.6
+
+80.4
+
+57.4
+
+4.7
+
+20.4
+
+1.8
+
+32.4
+
+67.6
+
+73.4
+
+26.6
+
+Oregon
+
+2,248
+
+10.1
+
+89.9
+
+84.0
+
+4.1
+
+6.1
+
+2.7
+
+34.7
+
+65.3
+
+92.8
+
+7.1
+
+Pennsylvania
+
+9,832
+
+14.4
+
+85.6
+
+75.1
+
+3.9
+
+19.4
+
+0.4
+
+33.8
+
+66.2
+
+81.5
+
+18.5
+
+Rhode Island
+
+500
+
+17.2
+
+82.8
+
+56.8
+
+21.6
+
+12.4
+
+32.8
+
+67.2
+
+98.0
+
+–
+
+South Carolina
+
+671
+
+16.1
+
+83.9
+
+29.2
+
+3.7
+
+61.5
+
+2.2
+–
+
+35.8
+
+64.2
+
+84.4
+
+15.6
+
+State
+
+Total
+enrollment
+
+Age
+<65
+
+Alabama
+
+229
+
+Arkansas
+California
+Colorado
+Delaware
+District of
+Columbia
+Florida
+
+Tennessee
+
+360
+
+9.7
+
+90.3
+
+45.8
+
+3.6
+
+48.6
+
+–
+
+29.2
+
+70.8
+
+98.6
+
+–
+
+Texas
+
+1,411
+
+9.5
+
+90.5
+
+25.3
+
+66.5
+
+5.8
+
+0.9
+
+37.4
+
+62.6
+
+99.1
+
+0.9
+
+Virginia
+
+2,435
+
+18.8
+
+81.2
+
+55.2
+
+2.1
+
+40.8
+
+1.2
+
+35.0
+
+65.0
+
+82.9
+
+17.1
+
+Washington
+
+1,762
+
+13.8
+
+86.2
+
+67.8
+
+5.0
+
+11.7
+
+11.4
+
+36.9
+
+63.1
+
+98.4
+
+1.6
+
+Wisconsin
+
+639
+
+12.7
+
+87.3
+
+66.7
+
+7.7
+
+21.9
+
+–
+
+31.6
+
+68.4
+
+98.9
+
+–
+
+12
+Notes: Percentages may not add to 100 percent due to rounding. PACE is Program of All-Inclusive Care for the Elderly. CY is
+calendar year.
+– Cells suppressed due to small counts.
+Source: MACPAC, 2026, analysis of Census Bureau delineation files, Common Medicare Enrollment data, Transformed
+Medicaid Statistical Information System (T-MSIS) data, and United States Department of Agriculture Rural-Urban Commuting
+Area codes.
+
+TABLE B-3. Detailed Long-Stay Nursing Facility Use Among PACE Participants, CY 2023
+Enrollees with >= 90-Day NF Stay
+
+Demographic
+characteristics
+All enrollees
+Age <65
+Age 65+
+Male
+Female
+White, nonHispanic
+Hispanic
+Black, nonHispanic
+Asian, nonHispanic
+Other or
+multiracial
+Unknown or
+missing
+Urban
+Rural
+
+Total enrollment
+
+Enrolled in PACE
+during entire NF
+stay
+
+Disenrolled from
+PACE during NF stay
+
+Coverage type
+
+#
+
+%
+
+#
+
+%
+
+#
+
+%
+
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+
+5,171
+287
+250
+138
+
+7.1%
+1.7
+3.9
+1.5
+
+4458
+248
+214
+124
+
+86.2%
+86.4
+85.6
+89.9
+
+758
+42
+38
+15
+
+14.7%
+14.6
+15.2
+10.9
+
+4,921
+149
+1,632
+119
+3,539
+168
+
+7.4
+2.0
+6.4
+1.8
+7.5
+1.7
+
+4,244
+124
+1,422
+104
+3,036
+144
+
+86.2
+83.2
+87.1
+87.4
+85.8
+85.7
+
+720
+27
+223
+16
+535
+26
+
+14.6
+18.1
+13.7
+13.4
+15.1
+15.5
+
+3,266
+121
+566
+57
+1,113
+76
+140
+
+8.2
+4.0
+4.3
+1.2
+8.6
+4.1
+2.6
+
+2,803
+103
+469
+50
+991
+64
+119
+
+85.8
+85.1
+82.9
+87.7
+89.0
+84.2
+85.0
+
+492
+20
+104
+7
+129
+12
+22
+
+15.1
+16.5
+18.4
+12.3
+11.6
+15.8
+15.7
+
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+Any Medicare
+Medicaid-only
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+54
+
+5.9
+
+47
+
+87.0
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+32
+19
+4,716
+
+3.1
+1.4
+7.0
+
+29
+19
+4,095
+
+90.6
+100.0
+86.8
+
+4
+
+12.5
+
+–
+
+–
+
+662
+
+14.0
+
+267
+454
+20
+
+1.7
+8.0
+4.1
+
+233
+363
+15
+
+87.3
+80.0
+75.0
+
+37
+95
+
+13.9
+20.9
+
+–
+
+–
+
+13
+Notes: Percentages may not add to 100 percent due to rounding. PACE is Program of All-Inclusive Care for the Elderly. CY is
+calendar year. NF is nursing facility. “Any Medicare” includes full-benefit dually eligible, Medicare-only (n=524), and partialbenefit dually eligible (n=173) enrollees. Medicare-only and partial-benefit dually eligible enrollees together comprised less
+than 1 percent of PACE enrollees nationwide in 2023. Restricted to beneficiaries with NF stays of at least 90 days in 2023,
+regardless of whether the stay began or ended in another year, and to NF stays occurring after the start of PACE enrollment in
+2023. Percentages in the “Enrollees with ≥90-day NF stay” column represent the share of PACE enrollees in each subgroup
+with a ≥90-day nursing facility stay. Percentages in the “Enrolled in PACE entire NF stay” and “Disenrolled from PACE during
+NF stay” columns are calculated among enrollees with a ≥90-day NF stay. Includes beneficiaries who voluntarily disenrolled
+from PACE or passed away during their NF stay.
+– Cells suppressed due to small counts.
+Source: MACPAC, 2026, analysis of Census Bureau delineation files, Common Medicare Enrollment data, Minimum Data Set
+data, Transformed Medicaid Statistical Information System (T-MSIS) data, and United States Department of Agriculture RuralUrban Commuting Area codes.
+
+
