@@ -43,7 +43,7 @@ Americans pay the most in the world for health care and still go without it. By 
 
 **Will I wait longer for care?** Waits may grow at first, as the Congressional Budget Office expects for any single-payer plan (Congressional Budget Office, 2020) [EV-CAR-219]. The plan starts with smaller groups to test it, keeps a small copay where care is scarcest, and pays doctors and hospitals above Medicare's rates.
 
-**Will my hospital close?** Rural and safety-net hospitals get fixed yearly budgets. On our estimates, hospitals as a whole end up with about the same revenue, within a few percent: most of what they lose on high-priced private patients they gain from patients who were on Medicaid, on Medicare or uninsured. A capped transition fund, about $100 billion over 2033-38, helps hospitals that do lose, rural, safety-net and sole-community hospitals first, and holds rural and safety-net hospitals' budgets at least at their old revenue for three years.
+**Will my hospital close?** Rural and safety-net hospitals get fixed yearly budgets. On our estimates, hospitals as a whole end up with about the same revenue or a little more, within a few percent: what they lose on high-priced private patients they gain from patients who were on Medicaid, on Medicare or uninsured. A capped transition fund, about $100 billion over 2033-38, helps hospitals that do lose, rural, safety-net and sole-community hospitals first, and holds rural and safety-net hospitals' budgets at least at their old revenue for three years.
 
 **What about abortion?** The plan covers reproductive care, including abortion, and ends the Hyde Amendment's limits on federal funding.
 
@@ -65,7 +65,7 @@ Americans pay the most in the world for health care and still go without it. By 
 | "Households stop paying about $1.5 trillion a year of premiums and out-of-pocket costs" (on our estimates) | "Families come out ahead" until the settlement sets the taxes |
 | "No premiums, no deductibles, no networks"; "a small copay above twice the poverty line, capped" | "Completely free care for everyone" |
 | "Children covered from 2031; Medicare's cap, hearing and vision from 2031" | Promising dental for Medicare before 2033, or the plan's benefit to Medicare enrollees before 2035 |
-| "Rural and safety-net hospitals get fixed yearly budgets"; "a capped transition fund, about $100 billion over 2033-38, for hospitals that lose revenue" (decided) | "No hospital will lose money": on our estimates hospitals as a whole could be up to about 4% lower after the glide |
+| "Rural and safety-net hospitals get fixed yearly budgets"; "a capped transition fund, about $100 billion over 2033-38, for hospitals that lose revenue" (decided) | "No hospital will lose money": on our estimates hospitals as a whole gain a little, but hospitals with many high-priced private patients lose |
 | "On our estimates, new taxes of about $2.0 trillion a year at full scale (2032), alongside the employers' contribution, while about $3 trillion of premiums and out-of-pocket costs end" | "No new taxes"; the tax figure without "on our estimates"; or "the new taxes are smaller than the premiums they replace" (the figures are on different bases: section 6, part 4) |
 
 ## Source table
@@ -89,4 +89,4 @@ Americans pay the most in the world for health care and still go without it. By 
 | About $1.5 trillion of household and $1.5 trillion of employer premiums removed; about $500 billion less national spending (project estimate; $491 billion in section 6) | Section 6, part 1; section 7, part 5 | Project arithmetic, `tools/health_path.py` |
 | About 3.6 million uninsured at the endpoint (project estimate) | Section 6, part 1; section 7, part 4 | Project arithmetic; EV-CAR-051 |
 | Federal cost up about $2.7 trillion a year at full scale (project estimate; $2.71 trillion in 2032) | Section 6, part 1 | Project arithmetic |
-| Hospitals as a whole end up with about the same revenue, within a few percent (project estimate: about 4% lower to 1% higher after the glide) | Section 6, part 3 | Project arithmetic; EV-CAR-336, EV-CAR-337 |
+| Hospitals as a whole end up with about the same revenue or a little more, within a few percent (project estimate: about 2% to 6% higher after the glide) | Section 6, part 3 | Project arithmetic; EV-CAR-336, EV-CAR-337 |
