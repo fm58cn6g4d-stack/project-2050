@@ -11322,5 +11322,1187 @@
   "supports": [
    "dossiers/care/2c-what-works-child-care.md"
   ]
+ },
+ {
+  "id": "EV-CAR-600",
+  "statement": "CMS's 2024 rule required nursing homes to provide at least 3.48 total nurse staffing hours per resident day, including 0.55 registered-nurse hours and 2.45 nurse-aide hours.",
+  "claim": "data",
+  "figures": [
+   "3.48",
+   "0.55",
+   "2.45"
+  ],
+  "source": "SRC-3124",
+  "anchor": [
+   "3.48 total nurse staffing hours per resident day (HPRD) of nursing\ncare, with 0.55 RN HPRD and 2.45 NA HPRD."
+  ],
+  "locator": "Executive summary; 42 CFR 483.35",
+  "grade": "A",
+  "fact_date": "2024-05-10",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Final rule, Biden administration (CMS-3442-F). It also required a registered nurse on site 24 hours a day, 7 days a week (SRC-3125's description). Vacated in part, suspended and repealed in part since (EV-CAR-602, EV-CAR-603, EV-CAR-416).",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-601",
+  "statement": "CMS estimated the 2024 standards would raise staffing in more than 79 percent of nursing facilities, cost $43.0 billion over 10 years ($4.30 billion a year on average), and require hiring about 16,000 registered nurses.",
+  "claim": "analysis",
+  "figures": [
+   "79 percent",
+   "$43.0",
+   "$4.30 billion",
+   "16,000"
+  ],
+  "source": "SRC-3124",
+  "anchor": [
+   "staffing requirements will increase staffing in more than 79 percent of",
+   "We estimate the total cost over 10 years will be $43.0\nbillion with an average annual cost of $4.30 billion.",
+   "require the hiring of approximately 16,000 RNs to meet both the 24/7 RN"
+  ],
+  "locator": "Preamble; regulatory impact analysis",
+  "grade": "C",
+  "fact_date": "2024-05-10",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "The rule's own regulatory impact analysis (CMS, Biden administration), a party to the rule. ASPE's and KFF's counts of facilities below the standards support its scale (EV-CAR-604, EV-CAR-605); the second Trump administration's repeal analysis puts savings from repeal higher (EV-CAR-603).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-604",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-605",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-603",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-602",
+  "statement": "Two federal district courts vacated the rule's hours-per-resident-day and 24/7 registered-nurse requirements in 2025, the Texas court relying on the major questions doctrine; the Texas case was appealed to the Fifth Circuit on June 2, 2025.",
+  "claim": "data",
+  "figures": [
+   "2025"
+  ],
+  "source": "SRC-3125",
+  "anchor": [
+   "two district courts have vacated at the summary",
+   "judgment stage the minimum staffing provisions related to HPRD and the\n24/7 RN requirement",
+   "appealed June 2, 2025 to the Fifth",
+   "Circuit), the court relied on the major questions doctrine in its"
+  ],
+  "locator": "Background",
+  "grade": "A",
+  "fact_date": "2025-06-18",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "As described in CMS's 2025 repeal rule (second Trump administration): American Health Care Association v. Kennedy (N.D. Tex., April 7, 2025) and Kansas v. Kennedy (N.D. Iowa, June 18, 2025). The Iowa court read the 24/7 rule as conflicting with the statute's eight-hour RN floor (opinion not saved). The appeal's outcome was not checked.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-603",
+  "statement": "CMS repealed the earlier rule's suspended staffing minimums and its round-the-clock registered-nurse requirement by an interim final rule effective February 2, 2026, keeping the facility assessment requirement, and estimated savings of $55,089,104,265 over 10 years.",
+  "claim": "analysis",
+  "figures": [
+   "February 2, 2026",
+   "$55,089,104,265"
+  ],
+  "source": "SRC-3125",
+  "anchor": [
+   "DATES: These regulations are effective on February 2, 2026.",
+   "we are repealing certain suspended\nprovisions of Sec. Sec. 483.5 and 483.35 and restoring the previous\nlanguage of Sec. 483.35",
+   "Sec. 483.70(e) with a reference to Sec. 483.71, where facility\nassessment requirements are now located.",
+   "$55,089,104,265 for long-term care facilities, patients and payors over\n10 years"
+  ],
+  "locator": "Dates; summary; regulatory impact",
+  "grade": "C",
+  "fact_date": "2025-12-03",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-15",
+  "context": "Interim final rule with comment (CMS-3442-IFC), second Trump administration; its savings figure is that administration's analysis and is presented as its view. Its own basis is Public Law 119-21 sec. 71111 and the two vacaturs. Whether the Medicaid payment-transparency reporting survives was not confirmed in the text. A final rule had not been checked for.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-601",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-604",
+  "statement": "In May 2024, 30 percent of 14,413 nursing homes staffed at or above the 2.45 nurse-aide minimum, 50 percent at or above the 0.55 registered-nurse minimum and 59 percent at or above the 3.48 total minimum; 78 percent provided at least 24 registered-nurse hours a day.",
+  "claim": "data",
+  "figures": [
+   "30 percent",
+   "14,413",
+   "2.45",
+   "50 percent",
+   "0.55",
+   "59 percent",
+   "3.48",
+   "78 percent"
+  ],
+  "source": "SRC-3126",
+  "anchor": [
+   "In May 2024 (N=14,413 facilities total), 30 percent of facilities staffed at or above the NA minimum (2.45\nHPRD), 50 percent staffed at or above the RN minimum (0.55 HPRD), and 59 percent staffed at or above the total nurse\nminimum (3.48 HPRD). Additionally, 78 percent of nursing homes provided at least 24 RN hours per day."
+  ],
+  "locator": "Key points; figure 1",
+  "grade": "A",
+  "fact_date": "2024-05",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "ASPE (HHS, Biden administration) from CMS Payroll-Based Journal data. The data cannot show round-the-clock coverage.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-605",
+  "statement": "KFF found that less than one in five (19%) nursing facilities met all three of the final rule's staffing minimums in late 2023.",
+  "claim": "data",
+  "figures": [
+   "19%"
+  ],
+  "source": "SRC-3138",
+  "anchor": [
+   "Less than one in five (19%) of nursing facilities currently meet all three staffing minimums required in the final rule"
+  ],
+  "locator": "Key takeaways",
+  "grade": "C",
+  "fact_date": "2023-12",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "KFF (independent nonprofit) analysis of Payroll-Based Journal data for October-December 2023.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-606",
+  "statement": "Abt Associates' study for CMS found that nursing home quality and safety rise with staffing levels with no obvious plateau or cliff, that registered-nurse staffing has the strongest relationship with quality, and that moving from a 3.30 to a 3.88 hours-per-resident-day minimum is associated with a 6-percentage-point rise in the share of homes predicted to exceed median quality.",
+  "claim": "analysis",
+  "figures": [
+   "3.30",
+   "3.88",
+   "6"
+  ],
+  "source": "SRC-3137",
+  "anchor": [
+   "quality and safety, as measured using claims, resident assessments, and health inspection data, increase with staffing levels, with no obvious plateau",
+   "RN staffing has the strongest relationship with nursing home quality and safety.",
+   "moving from the Low (3.30 total nurse staff HPRD) to Highest (3.88 nurse staff HPRD) nurse staff HPRD is associated with a 6-percentage point increase"
+  ],
+  "locator": "Executive summary; section 4.1",
+  "grade": "C",
+  "fact_date": "2023-06",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "CMS contractor study (Biden administration), observational and simulation analysis. Independent peer-reviewed work finds registered-nurse staffing matters most (EV-CAR-608) and that state minimums raised hours with mixed effects (EV-CAR-607).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-607",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-608",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-607",
+  "statement": "Chen and Grabowski find state minimum staffing standards raised total nursing hours per resident day by 5% on average and reduced severe deficiency citations, but lowered the direct-care skill mix because they treated all direct care staff alike.",
+  "claim": "analysis",
+  "figures": [
+   "5%"
+  ],
+  "source": "SRC-3135",
+  "anchor": [
+   "minimum staffing standards increased total nursing hours per resident day by 5% on average. However, because the minimum staffing standards treated all direct care staff uniformly and ignored indirect care staff, the regulation had the unintended consequences of both lowering the direct care nursing skill mix",
+   "the staffing regulations led to a reduction in severe deficiency citations"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "context": "Peer-reviewed quasi-experimental study (California and Ohio standards), academic authors.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-608",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-608",
+  "statement": "Lin, using eight states' 2000-2001 minimum staffing laws as natural experiments, finds registered-nurse staffing has a large and significant effect on nursing home quality and finds no significant association for nurse-aide staffing.",
+  "claim": "analysis",
+  "figures": [
+   "2000",
+   "2001"
+  ],
+  "source": "SRC-3136",
+  "anchor": [
+   "We exploit legislation changes regarding minimum staffing requirements in eight states between 2000 and 2001 as exogenous shocks to nurse staffing levels. We find that registered nurse staffing has a large and significant impact on quality of care, and that there is no evidence of a significant association between nurse aide staffing and quality of care."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "context": "Peer-reviewed instrumental-variables study, academic author.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-607",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-609",
+  "statement": "BLS counts 1,505.9 thousand nursing assistant jobs in 2025, projected to grow 2.6% to 1,544.9 thousand by 2035, with about 196.2 thousand openings a year, at a median wage of $42,260.",
+  "claim": "analysis",
+  "figures": [
+   "1,505.9",
+   "2.6",
+   "1,544.9",
+   "2035",
+   "196.2",
+   "$42,260"
+  ],
+  "source": "SRC-3330",
+  "anchor": [
+   "Employment 2035:",
+   "Nursing assistants\nShow/hide Example Job Titles\n* C.N.A.",
+   "31-1131\n1,505.9\n1,544.9\n39.0\n2.6\n196.2\n42,260"
+  ],
+  "locator": "Occupational Projections Data, SOC 31-1131",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-09-01",
+  "context": "BLS projection (second Trump administration); openings are mostly replacements. Presented as BLS's view.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-610",
+  "statement": "BLS counts 3,465.4 thousand registered nurse jobs in 2025, projected to grow 5.6% to 3,660.1 thousand by 2035, with about 180.8 thousand openings a year.",
+  "claim": "analysis",
+  "figures": [
+   "3,465.4",
+   "5.6",
+   "3,660.1",
+   "2035",
+   "180.8"
+  ],
+  "source": "SRC-3330",
+  "anchor": [
+   "Employment 2035:",
+   "29-1141\n3,465.4\n3,660.1\n194.7\n5.6\n180.8"
+  ],
+  "locator": "Occupational Projections Data, SOC 29-1141",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-09-01",
+  "context": "BLS projection (second Trump administration). HRSA's projections of a shortage are the independent check (EV-CAR-611).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-611",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-611",
+  "statement": "HRSA's National Center for Health Workforce Analysis, as cited in CMS's 2024 rule, projects a 10 percent shortage of registered nurses in 2026 and 2031, falling to 9 percent by 2036.",
+  "claim": "analysis",
+  "figures": [
+   "10 percent",
+   "2026",
+   "2031",
+   "9 percent",
+   "2036"
+  ],
+  "source": "SRC-3124",
+  "anchor": [
+   "The National Center projects a 10 percent shortage\nof RN in 2026 and 2031, that will be reduced to 9 percent by 2036."
+  ],
+  "locator": "Access to care comments",
+  "grade": "C",
+  "fact_date": "2024-03",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "HRSA projection (Biden administration, March 2024), quoted by CMS; HRSA's own fact sheet refused automated download. BLS projects growth, not a shortage, which measures something different (EV-CAR-610).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-610",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-612",
+  "statement": "BLS counts 1,010.3 thousand childcare worker jobs in 2025, projected to fall 2.0% to 990.4 thousand by 2035, with about 150.3 thousand openings a year, and 583.2 thousand preschool teacher jobs projected to reach 609.4 thousand.",
+  "claim": "analysis",
+  "figures": [
+   "1,010.3",
+   "2.0",
+   "990.4",
+   "2035",
+   "150.3",
+   "583.2",
+   "609.4"
+  ],
+  "source": "SRC-3330",
+  "anchor": [
+   "Employment 2035:",
+   "39-9011\n1,010.3\n990.4\n-19.9\n-2.0\n150.3",
+   "25-2011\n583.2\n609.4"
+  ],
+  "locator": "Occupational Projections Data, SOC 39-9011 and 25-2011",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-09-01",
+  "context": "BLS projection under current law (second Trump administration); it assumes no new child care program.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-613",
+  "statement": "PHI counts nearly 5.4 million direct care workers in 2024, up from nearly 3.5 million in 2014, with a median hourly wage of $17.36 ($16.77 in home care); more than a third live in low-income households and 49 percent rely on public assistance.",
+  "claim": "data",
+  "figures": [
+   "5.4 million",
+   "2024",
+   "3.5 million",
+   "2014",
+   "$17.36",
+   "$16.77",
+   "49 percent"
+  ],
+  "source": "SRC-3143",
+  "anchor": [
+   "growing from nearly 3.5 million workers in 2014 to nearly 5.4 million in 2024",
+   "the median hourly wage for all direct care workers was just $17.36 in 2024, with home care workers earning the least at $16.77 per hour",
+   "Thirty-six percent of direct care workers live in low-income households",
+   "49 percent rely on public assistance"
+  ],
+  "locator": "Introduction",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-11",
+  "recheck": "2027-09-15",
+  "context": "PHI, a direct care workforce advocacy and research nonprofit, from ACS and BLS data. Its count is wider than BLS's aide category (EV-CAR-422) because it adds nursing assistants and residential aides. Thirty-six is written out in the source.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-614",
+  "statement": "Immigrants are 30% of the direct care workforce, against 18% of all adult workers; 33% in home care, 25% in nursing facilities and 23% in residential care facilities (2024).",
+  "claim": "data",
+  "figures": [
+   "30%",
+   "18%",
+   "33%",
+   "25%",
+   "23%",
+   "2024"
+  ],
+  "source": "SRC-3133",
+  "anchor": [
+   "Immigrants, including naturalized citizens and noncitizens, make up 30% of the overall direct care workforce, higher than the share of all adult workers in the U.S. who are immigrants (18%).",
+   "A higher share of direct care workers in home care settings are immigrants (33%) when compared to direct care workers in nursing facilities (25%) and residential care facilities (23%)",
+   "This analysis uses the 2024 American Community Survey"
+  ],
+  "locator": "Demographics; figure 3",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "KFF (independent nonprofit) analysis of the 2024 ACS. PHI's 2025 figures agree for home care (33 percent).",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-615",
+  "statement": "KFF notes that one Labor Department proposal would roll back minimum wage and overtime protections for home care workers and another would make it easier to classify direct care workers as independent contractors, and that CMS delayed enforcement of the access rule's advisory group on direct care worker rates.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3133",
+  "anchor": [
+   "One rule would roll back minimum wage and overtime protections for home care workers. The other rule would make it easier for employers to classify direct care workers as independent contractors",
+   "CMS has also delayed enforcement of a provision in the Medicaid Access Final Rule that would have required states to establish an advisory group"
+  ],
+  "locator": "Introduction",
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-15",
+  "context": "KFF, July 2026. The home care proposal is SRC-3130 (EV-CAR-616).",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-616",
+  "statement": "The Labor Department proposed on July 2, 2025 to return to its 1975 regulations, which let third-party employers of home care workers claim the Fair Labor Standards Act's companionship and live-in exemptions, citing concern that the 2013 rule makes services more expensive; comments closed September 2, 2025.",
+  "claim": "data",
+  "figures": [
+   "2025",
+   "1975",
+   "2013",
+   "September 2, 2025"
+  ],
+  "source": "SRC-3130",
+  "anchor": [
+   "Department is proposing to return to the 1975 regulations.",
+   "In 2013, the Department revised the regulations to\nnarrow the definition of companionship services and prevent third party\nemployers from claiming either of the exemptions.",
+   "companionship services by making these services more expensive",
+   "DATES: Comments must be received by September 2, 2025."
+  ],
+  "locator": "Summary; dates",
+  "grade": "A",
+  "fact_date": "2025-07-02",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-15",
+  "context": "Proposed rule, second Trump administration. No final rule appeared in the Federal Register through November 11, 2026 (project search of Wage and Hour Division documents).",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-617",
+  "statement": "The Better Care Better Jobs Act (S. 100, 118th Congress) would have raised the federal match for home and community-based services by 10 percentage points for states that, among other things, ensure rate increases are at a minimum proportionately passed through to direct care workers, show that most direct care workers receive competitive wages and benefits, and allow cooperation with labor organizations where workers have organized.",
+  "claim": "data",
+  "figures": [
+   "100",
+   "118",
+   "10 percentage points"
+  ],
+  "source": "SRC-3129",
+  "anchor": [
+   "S. 100",
+   "118th CONGRESS",
+   "increased by 10 percentage points (but not to exceed 95",
+   "proportionately passed through\nto direct care workers",
+   "workers receive competitive wages and benefits.",
+   "allow for cooperation with labor organizations that\nbargain on behalf of direct care workers"
+  ],
+  "locator": "Secs. 101-102; new SSA sec. 1905(jj)",
+  "grade": "A",
+  "fact_date": "2023-01-26",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Bill text as introduced (Sen. Casey); never enacted. It sets no wage number and mandates no bargaining. No 119th-Congress reintroduction was found.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-618",
+  "statement": "Minnesota's Nursing Home Workforce Standards Board's minimum wages took effect September 10, 2026: $19.00 an hour for nursing home workers, $22.50 for certified nursing assistants, $23.50 for trained medication aides and $27.00 for licensed practical nurses, with a $1.50 increase on January 1, 2027; about 76% of certified nursing assistants get a raise.",
+  "claim": "data",
+  "figures": [
+   "September 10, 2026",
+   "$19.00",
+   "$22.50",
+   "$23.50",
+   "$27.00",
+   "$1.50",
+   "2027",
+   "76%"
+  ],
+  "source": "SRC-3144",
+  "anchor": [
+   "As of Sept. 10, 2026, the minimum wages for nursing home workers are: nursing home worker (general): $19.00 an hour; certified nursing assistant: $22.50 an hour; trained medication aide: $23.50 an hour; and licensed practical nurse: $27.00 an hour.",
+   "Nursing home workers will also receive a $1.50 increase that will take effect on Jan. 1, 2027.",
+   "about 76% of certified nursing assistants will get a raise"
+  ],
+  "locator": "Release",
+  "grade": "A",
+  "fact_date": "2026-09-10",
+  "checked": "2026-11-11",
+  "recheck": "2027-03-01",
+  "context": "State agency announcement. The standards took effect after CMS approved Minnesota's Medicaid state plan amendment on August 11, 2026, which funds them through rates. A reported federal challenge by providers was not confirmed from a primary source.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-619",
+  "statement": "California's health care worker minimum wage reaches $25 an hour from 7/1/26 for large hospital systems (including the nursing facilities they run) and covers licensed home health agencies, but does not yet apply to free-standing skilled nursing facilities, pending a patient-care minimum spending requirement.",
+  "claim": "data",
+  "figures": [
+   "$25",
+   "10,000"
+  ],
+  "source": "SRC-3145",
+  "anchor": [
+   "Hospital or integrated health system with 10,000 or more full-time employees (including skilled nursing facilities operated by these employers) 10/16/24 to 6/30/25: $23 7/1/25 to 6/30/26: $24 7/1/26 to 12/31/27: $25",
+   "A licensed home health care agency",
+   "Not at this time. The increased minimum wage for health care workers providing services for skilled nursing facilities not owned, operated, or controlled by hospitals will go into effect only when there is a patient care minimum spending requirement"
+  ],
+  "locator": "FAQ, schedule and covered facilities",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-11",
+  "recheck": "2027-07-01",
+  "context": "California Labor Commissioner's guidance on SB 525 (2023) as amended by SB 159 (2024). Smaller covered facilities reach $25 later (to 2033). Home health agencies' tier was not confirmed.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-620",
+  "statement": "Washington law makes the governor the public employer of individual home care providers for collective bargaining, in one statewide unit.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3146",
+  "anchor": [
+   "the governor is the public employer, as defined in chapter 41.56 RCW, of individual providers"
+  ],
+  "locator": "RCW 74.39A.270(1)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-11",
+  "recheck": "2027-07-01",
+  "context": "State statute (RCW 74.39A.270), from Initiative 775 (2001). The state, as payer, bargains wages and the legislature funds them.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-621",
+  "statement": "The union's 2025-2027 agreement with Consumer Direct Care Network Washington raises the starting wage from $21.44 to $22.52 on July 1, 2025 and to $23.68 by January 1, 2027, with at least 10% wage increases over the two years.",
+  "claim": "data",
+  "figures": [
+   "$21.44",
+   "$22.52",
+   "$23.68",
+   "2025",
+   "2027",
+   "10%"
+  ],
+  "source": "SRC-3147",
+  "anchor": [
+   "CDWA WAGE SCALE 2025 – 2027 CCH Current Wage July 1, 2025 January 1, 2026 July 1, 2026 January 1, 2027 0-2,000 $21.44 $22.52 $22.63 $23.54 $23.68",
+   "At least 10% wage increases over the 2-year agreement for all caregivers."
+  ],
+  "locator": "Wage scale table",
+  "grade": "C",
+  "fact_date": "2025-05",
+  "checked": "2026-11-11",
+  "recheck": "2027-07-01",
+  "context": "The union's description of a tentative agreement (a party with a stake); ratification and the state's funding were not checked.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-622",
+  "statement": "Nevada's Home Care Employment Standards Board recommended raising the Medicaid personal care rate to $25 an hour and requiring agencies to pay at least $15 an hour to workers giving Medicaid-funded personal care.",
+  "claim": "data",
+  "figures": [
+   "$25",
+   "$15"
+  ],
+  "source": "SRC-3148",
+  "anchor": [
+   "the Medicaid reimbursement rate for personal care services shall be increased to $25 per hour",
+   "require personal care agencies to pay a minimum wage of $15 per hour to workers providing Medicaid-funded personal care services"
+  ],
+  "locator": "Recommendation letter",
+  "grade": "A",
+  "fact_date": "2022-06-29",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Board recommendation to the state director (SB 340, 2021), not an adopted wage; adoption was not checked.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-623",
+  "statement": "The Supreme Court held in Harris v. Quinn that the First Amendment prohibits collecting an agency fee from Illinois Medicaid-funded personal assistants who do not want to join or support the union.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3149",
+  "anchor": [
+   "The First Amendment prohibits the collection of an agency fee from Rehabilitation Program PAs who do not want to join or support the union."
+  ],
+  "locator": "Syllabus, Held",
+  "grade": "A",
+  "fact_date": "2014-06-30",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "context": "Holding; Janus v. AFSCME (2018) later extended the rule to all public employees (not in the register). Bargaining itself remains lawful.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-624",
+  "statement": "Ruffini finds that a ten percent increase in the minimum wage raises low-skilled nursing home workers' earnings one to two percent, reduces separations and would prevent at least 15,000 deaths, lowering inspection violations by one to two percent, with no significant change in profitability.",
+  "claim": "analysis",
+  "figures": [
+   "15,000"
+  ],
+  "source": "SRC-3140",
+  "anchor": [
+   "I find that a ten percent increase in the minimum wage raises low-skilled nursing home workers’ earnings one to two percent, reduces separations, and increases stable hires.",
+   "A ten percent increase in the minimum wage would prevent at least 15,000 deaths, lower the number of inspection violations by one to two percent",
+   "resulting in no significant change in profitability"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2020-06",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "context": "Quasi-experimental (state minimum wage reforms). Working paper read; the peer-reviewed version (Review of Economics and Statistics, 2024) may differ. Funder: Washington Center for Equitable Growth (progressive). Howes's home care study points the same way (EV-CAR-625).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-625",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-625",
+  "statement": "Howes finds the annual retention rate of new San Francisco home care providers rose from 39 percent to 74 percent after significant wage and benefit increases, and estimates a $1 raise from $8 an hour would increase retention by 17 percentage points.",
+  "claim": "analysis",
+  "figures": [
+   "39 percent",
+   "74 percent",
+   "$1",
+   "$8",
+   "17"
+  ],
+  "source": "SRC-3141",
+  "anchor": [
+   "the annual retention rate of new providers rose from 39 percent to 74 percent following significant wage and benefit increases and that a $1 increase in the wage rate from $8 an hour—the national average wage for homecare—would increase retention by 17 percentage points"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2005",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "context": "Peer-reviewed; before-and-after and regression evidence from one county's IHSS program after bargaining raised wages, not a randomized or difference-in-differences design. Urban's DC evaluation (EV-CAR-550) and Ruffini (EV-CAR-624) point the same way.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-624",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-550",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-626",
+  "statement": "LeadingAge's LTSS Center estimates that raising all direct care workers to a living wage in 2022 would give 75.3% of them a raise averaging 15.5% at a cost of about $9.4 billion, with turnover lower by only 0.7 to 1.7 percentage points; its summary says lower turnover and higher productivity would offset most, if not all, of the cost.",
+  "claim": "analysis",
+  "figures": [
+   "2022",
+   "75.3%",
+   "15.5%",
+   "$9.4 billion",
+   "0.7",
+   "1.7"
+  ],
+  "source": "SRC-3142",
+  "anchor": [
+   "Raising pay to a living wage in 2022 will give 75.3% of direct care workers a higher wage than they would otherwise receive.",
+   "the average wage gain for workers receiving a pay increase would be 15.5%",
+   "estimated to be $9.4 billion",
+   "Higher pay would result in a modest reduction in turnover of between 0.7 and 1.7 percentage points.",
+   "Lower turnover and higher productivity would offset most, if not all, of the costs of higher pay."
+  ],
+  "locator": "Executive summary",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "context": "Provider trade association with UMass Boston (a stake in higher Medicaid rates). Its own numbers do not support the headline offset: turnover savings are put at \"possibly covering more than 10% of the total wage increase\" in the same summary, and the offset rests mainly on a productivity estimate. The project uses its cost, not its offset. The $9.4 billion is the raise for workers below a living wage, not a floor above it.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-624",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-627",
+  "statement": "In KFF's 2024 survey, more than half of the 34 states reporting hourly personal care rates paid less than $20 an hour; as the American Rescue Plan's added home-care funding ended, most states (30) hoped to keep their increased rates and five planned to eliminate them.",
+  "claim": "data",
+  "figures": [
+   "34",
+   "$20",
+   "30"
+  ],
+  "source": "SRC-3139",
+  "anchor": [
+   "Among the 34 states that reported time-based payment rates for personal care providers, more than half pay less than $20 per hour.",
+   "most states (30) are hoping to keep their increased payment rates for home care providers",
+   "five states reported plans to eliminate provider payment increases after federal funds are exhausted"
+  ],
+  "locator": "Issue brief",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "KFF (independent nonprofit) survey of state Medicaid programs.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-628",
+  "statement": "MACPAC reports that about two-thirds of states (33) described plans to sustain some American Rescue Plan home-care initiatives, that states were sustaining about one-third of activities supporting the direct care workforce, and that Colorado raised direct care hourly wages from $12.41 to nearly $18 with legislative support to keep them.",
+  "claim": "analysis",
+  "figures": [
+   "33",
+   "$12.41",
+   "$18"
+  ],
+  "source": "SRC-3334",
+  "anchor": [
+   "About two-thirds of all\nstates (33) included detail on the sustainability of some or all of the initiatives included in their plans.",
+   "states are sustaining about one-third of activities\nthat bolster the direct care workforce",
+   "increased DCW hourly wages from $12.41 to nearly\n$18 an hour"
+  ],
+  "locator": "Sustainability",
+  "grade": "B",
+  "fact_date": "2026-01",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "MACPAC (nonpartisan, legislative branch). The one-third figure is a CMS official's statement on MACPAC's January 2024 panel. KFF's survey agrees that most states tried to keep rates (EV-CAR-627).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-627",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-629",
+  "statement": "Early educators' national median wage was $13.07 an hour, against $31.80 for elementary and middle school teachers.",
+  "claim": "data",
+  "figures": [
+   "$13.07",
+   "$31.80"
+  ],
+  "source": "SRC-3150",
+  "anchor": [
+   "Nationally, early educators are paid a median wage of $13.07 per hour, much less than hourly earnings for elementary and middle school teachers ($31.80)"
+  ],
+  "locator": "Key findings",
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-11",
+  "recheck": "2028-10-01",
+  "context": "Center for the Study of Child Care Employment (advocates higher pay), from the 2022 ACS; its early-educator category differs from BLS's (EV-CAR-516).",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-630",
+  "statement": "The DC Council restored $60 million for the Early Childhood Educator Pay Equity Fund in FY2027 after the mayor proposed cutting it, but did not fund it beyond FY2027.",
+  "claim": "data",
+  "figures": [
+   "$60 million",
+   "2027"
+  ],
+  "source": "SRC-3151",
+  "anchor": [
+   "Restored $60 million in funding for the Pay Equity Fund in FY 2027",
+   "Councilmembers also failed to fund the program beyond FY 2027"
+  ],
+  "locator": "DC Council list",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-11",
+  "recheck": "2027-07-01",
+  "context": "DC Fiscal Policy Institute (progressive), on the Council's initial vote; the final amount after the July 2026 vote was not confirmed.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-631",
+  "statement": "In the randomized HPOG evaluation, access to the program raised employment in a healthcare occupation six years later from 32 percent to 37 percent and receipt of any postsecondary credential from 70 to 78 percent, but did not detectably raise quarterly earnings.",
+  "claim": "analysis",
+  "figures": [
+   "32 percent",
+   "37 percent",
+   "70",
+   "78 percent"
+  ],
+  "source": "SRC-3131",
+  "anchor": [
+   "HPOG increased employment in a healthcare occupation by 5 percentage points, from 32 percent in the control group to 37 percent in the group that could access the program.",
+   "HPOG did not detectably increase quarterly earnings",
+   "HPOG increased receipt of a postsecondary credential of any length by 8 percentage points, from 70 percent in the control group to 78 percent."
+  ],
+  "locator": "Highlights",
+  "grade": "B",
+  "fact_date": "2022-02",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "context": "Randomized trial run for HHS (OPRE Report 2022-45) by its evaluator, Abt Associates. Most HPOG training was short-term, and the control group could get similar courses. Sector-training trials with job placement show larger earnings gains (EV-CAR-632).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-632",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-632",
+  "statement": "A review of randomized evaluations of sector-focused training programs for low-wage workers finds substantial and persistent earnings gains of 11 to 40 percent after training.",
+  "claim": "analysis",
+  "figures": [
+   "11",
+   "40 percent"
+  ],
+  "source": "SRC-3132",
+  "anchor": [
+   "The programs generate substantial and persistent earnings gains (11 to 40 percent) following training completion."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2020-12",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "context": "NBER working paper (Katz, Roth, Hendra and Schaberg); two authors at MDRC, which ran one of the trials. The programs mostly trained for IT, manufacturing and health jobs with higher pay than direct care; HPOG's health-care result is weaker (EV-CAR-631).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-631",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-633",
+  "statement": "At the end of FY2025 there were 41,311 registered apprentices across the health and human services industry, a 47 percent increase over five years.",
+  "claim": "data",
+  "figures": [
+   "41,311",
+   "47 percent"
+  ],
+  "source": "SRC-3127",
+  "anchor": [
+   "there were 41,311 apprentices served across the health\nand human services industry, a 47 percent increase"
+  ],
+  "locator": "Fact sheet",
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Department of Labor fact sheet (second Trump administration). It gives no count for direct care or early-educator apprenticeships.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-634",
+  "statement": "The Resident Physician Shortage Reduction Act of 2025 would add 2,000 Medicare-supported residency positions in each of fiscal years 2027 through 2033, 14,000 in all.",
+  "claim": "data",
+  "figures": [
+   "2,000",
+   "2027",
+   "2033",
+   "14,000"
+  ],
+  "source": "SRC-3128",
+  "anchor": [
+   "2,000 in each of fiscal years 2027 through\n2033.",
+   "equal to 14,000."
+  ],
+  "locator": "Sec. 2",
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Bill as introduced (bipartisan, Sen. Boozman); not enacted. The legacy HLT-4's 14,000 residency slots come from this bill's design.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-635",
+  "statement": "Gunadi finds the Secure Communities immigration enforcement program reduced direct-care staff hours per resident day in nursing homes by 0.073, about a 2% decline.",
+  "claim": "analysis",
+  "figures": [
+   "0.073",
+   "2%"
+  ],
+  "source": "SRC-3134",
+  "anchor": [
+   "the program reduced directcare staff hours per resident day by 0.073, an approximately 2% decline relative to the mean of treatment counties in the baseline period"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2028-11-11",
+  "context": "Peer-reviewed difference-in-differences study. The abstract's spelling \"directcare\" is as printed on RePEc. Consistent with the high immigrant share in direct care (EV-CAR-614).",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-614",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-636",
+  "statement": "The 2024 access rule lets states set a separate minimum performance level for small providers under its worker-pay rule and exempt certain providers on reasonable, objective criteria.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3324",
+  "anchor": [
+   "revising § 441.302(k)(3)(ii) to allow\nStates to set a separate minimum\nperformance level for small providers;",
+   "develop reasonable, objective criteria to\nexempt certain providers from meeting"
+  ],
+  "locator": "Summary of changes",
+  "grade": "A",
+  "fact_date": "2024-05-10",
+  "checked": "2026-11-11",
+  "recheck": "2027-01-15",
+  "context": "Final rule, Biden administration. The rule names no fixed lower figure for small providers. As of November 11, 2026 the 80 percent rule stands unamended and CMS's proposal to rescind or revise the 2024 rules (EV-CAR-420) had not been published (project search of the Federal Register).",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-637",
+  "statement": "S. 1506, the Senate's Medicare for All Act, has institutions' global budgets take into account wages, including increases needed for mandatory minimum safe registered nurse-to-patient ratios, and lets budgets rise for reasonable labor cost increases, including collective bargaining agreements and prevailing wages.",
+  "claim": "data",
+  "figures": [
+   "1506"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "(D) wages for employees, including any necessary increases to ensure mandatory minimum safe registered nurse-to-patient ratios and optimal staffing levels for physicians and other health care workers;",
+   "(C) Reasonable increases in labor costs, including salaries and benefits, and changes in collective bargaining agreements, prevailing wages, or local law.",
+   "Sec. 611. Payments to institutional providers based on global budgets.",
+   "S. 1506 IN THE SENATE"
+  ],
+  "locator": "Sec. 611",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Bill as introduced (Sen. Sanders); not enacted. It sets no wage floor for home care workers, whose services it covers (sec. 201).",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-638",
+  "statement": "H.R. 3069, the House's Medicare for All Act, requires national minimum provider standards that include mandatory minimum safe registered nurse-to-patient staffing ratios.",
+  "claim": "data",
+  "figures": [
+   "3069"
+  ],
+  "source": "SRC-3261",
+  "anchor": [
+   "(B) mandatory minimum safe registered nurse-to-patient staffing ratios and optimal staffing levels for physicians and other health care practitioners;",
+   "H. R. 3069"
+  ],
+  "locator": "Sec. 301(c)",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Bill as introduced (Rep. Jayapal); not enacted.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-639",
+  "statement": "The HCBS Access Act (H.R. 8540) would have states review home care rates at least every 2 years with an emphasis on rates adequate to recruit and retain a sufficient workforce, pass rate increases at a minimum proportionately through to direct care workers, and cooperate with, or stay neutral toward, labor organizations of direct care workers.",
+  "claim": "data",
+  "figures": [
+   "2"
+  ],
+  "source": "SRC-3367",
+  "anchor": [
+   "services at least every 2 years, with an emphasis on\nensuring that rates are adequate to recruit and retain\na sufficient workforce",
+   "at a minimum, proportionately passed\nthrough to direct care workers",
+   "are neutral with regard to such workers joining\nor forming such a labor organization",
+   "H.R. 8540"
+  ],
+  "locator": "New SSA sec. 1905(ll)",
+  "grade": "A",
+  "fact_date": "2026-04-28",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Bill as introduced (H.R. 8540); not enacted. Its pass-through and labor clauses follow Better Care Better Jobs (EV-CAR-617).",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-640",
+  "statement": "The 2024 rule allowed a facility an exemption from the staffing minimums where the nursing workforce for the relevant staff type is at least 20 percent below the national average, as calculated by CMS from BLS and Census data, among other criteria.",
+  "claim": "data",
+  "figures": [
+   "20 percent"
+  ],
+  "source": "SRC-3124",
+  "anchor": [
+   "measured by having a nursing workforce per labor category that is a\nminimum of 20 percent below the national average for the applicable\nnurse staffing type, as calculated by CMS, by using the Bureau of Labor\nStatistics and Census Bureau data"
+  ],
+  "locator": "Executive summary, hardship exemptions",
+  "grade": "A",
+  "fact_date": "2024-05-10",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Final rule, Biden administration; the other criteria are good-faith recruitment and a financial commitment to staffing.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
  }
 ]

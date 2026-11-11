@@ -1,0 +1,474 @@
+Source: https://aspe.hhs.gov/sites/default/files/documents/8e343af705b07063ad7effcc84ba370a/nurse-staffing-estimates-us-nhs.pdf
+Publisher: Office of the Assistant Secretary for Planning and Evaluation
+Retrieved: 2026-11-11
+Original SHA-256: ddb1d83c8a65a6004d77c8a20182ff77f31e3335b64caecf4cecd46f1bcb5c12
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+OFFICE OF BEHAVIORAL HEALTH,
+DISABILITY, AND AGING POLICY
+
+g
+
+DATA POINT
+June 28,2024
+
+Nurse Staffing Estimates in US Nursing Homes,
+May 2024
+KEY POINTS
+•
+
+•
+
+•
+
+•
+
+•
+
+In April 2024, CMS issued the Minimum Staffing Standards for Long-Term Care Facilities and
+Medicaid Institutional Payment Transparency Reporting final rule, which established new minimum
+nurse staffing requirements for nursing homes by nurse type.
+As of May 2024, 50 percent of nursing homes already staffed at or above the rule’s 0.55 registered
+nurse (RN) hours per resident day (HPRD) minimum staffing requirement; 59 percent of nursing
+homes staffed at or above the rule’s 3.48 HPRD total nurse staffing minimum requirement; and 78
+percent of nursing homes provided at least 24 hours of total RN staffing per day, before accounting
+for facilities that might be eligible for an exemption. The data do not allow us to assess whether
+facilities provided 24/7 “around the clock” RN coverage consistent with the requirement in the final
+rule.
+The largest observed gaps in staffing relative to the final rule’s requirements were for nurse aides
+(NAs): 30 percent of nursing homes staffed at or above the rule’s minimum requirement of 2.45
+HPRD for NAs. NAs are usually required to complete official training and certifications, though the
+duration of required training is typically only 2 to 3 weeks.
+Staffing levels varied by nursing home characteristics, particularly size and non-profit/for-profit
+status. In May 2024, smaller nursing homes (i.e., fewer than 100 beds) and non-profit nursing homes
+were more likely to staff at or above the minimum RN, NA, and total nurse HPRD requirements than
+larger or for-profit nursing homes.
+Among average-sized (i.e., 100-bed) facilities with staffing below the final rule’s minimum HPRD
+requirements, average staffing levels were still relatively close to the minimum requirements:
+among these facilities, we estimate that between 0.7 and 2 nurse staff, depending on the type,
+would need to be added per 8-hour shift to staff at the level of the minimum HPRD requirements.
+
+INTRODUCTION
+On April 22, 2024, the Centers for Medicare & Medicaid Services (CMS) issued the Minimum Staffing Standards for LongTerm Care Facilities and Medicaid Institutional Payment Transparency Reporting final rule (hereafter referred to as “the
+final rule”) establishing new minimum requirements for nurse staffing levels in nursing homes.1 The final rule requires a
+total nurse minimum staffing standard of 3.48 hours per resident day (HPRD), which must include at least 0.55 HPRD of
+direct registered nurse (RN) care and 2.45 HPRD of direct nurse aide (NA) care. Facilities may use any combination of
+nurse staff (RN, NA, licensed practical nurse [LPN] or licensed vocational nurse [LVN]) to account for the additional 0.48
+
+1
+
+HPRD needed to comply with the total nurse minimum staffing standard. In addition, the rule also requires nursing homes
+to have an RN onsite 24 hours a day, 7 days a week, to provide skilled nursing care. In addition to the existing statutory
+waiver of the requirement to provide licensed nurses on a 24-hour basis, the final rule also allows for temporary hardship
+exemptions to the HPRD and 24/7 onsite RN requirements, depending on a facility’s location and local supply of nurse
+staff, the facility’s good faith efforts to add and retain staff, and demonstrated financial commitment to staffing. Within
+two years of the final rule publication (i.e., May 2026), non-rural facilities must meet the 3.48 HPRD total nurse minimum
+staffing requirement and the 24/7 RN requirement, and within three years of the final rule publication (i.e., May 2027),
+non-rural facilities must meet the 0.55 RN and 2.45 NA HPRD requirements. CMS allowed more time for rural facilities,
+requiring compliance within three years to meet the 3.48 HPRD total nurse staffing requirement and the 24/7 RN
+requirement (i.e., May 2027), and five to meet the 0.55 RN and 2.45 NA HPRD requirements (i.e., May 2029).
+This brief uses Nursing Home Care Compare Data from May 2024 to examine current staffing levels in US nursing homes,
+relative to specific minimum staffing requirements in the final rule. In addition to understanding how many facilities are
+currently staffing at levels at or above the HPRD requirements in the final rule, among facilities who are currently staffing
+at levels below the minimum HPRD requirements, we use an illustrative example of a 100-bed facility to examine how
+many staff would need to be added per 8-hour shift in order to achieve the minimum HPRD requirements and provide at
+least 24 hours of RN staffing in a day, using recent data not previously available.
+
+DATA and METHODS
+Data
+To estimate staffing levels, we used publicly available data from the CMS Care Compare Nursing Home Provider May 2024
+Information file.a The Care Compare provider information file contains data on nurse staffing submitted by nursing homes
+on a quarterly basis from the Payroll Based Journal (PBJ) Daily Nurse Staffing System b, facility daily census calculated using
+the Minimum Data Set (MDS)c, ownership type (for-profit, non-profit, and government), and number of certified beds for
+each facility (i.e., facility size). Using the Care Compare provider information files, we obtained information on reported
+NA HPRD, reported RN HPRD, reported total nursing HPRD, average resident daily census, ownership type, and number of
+certified beds.
+We supplemented CMS’ Care Compare provider information files with metropolitan and micropolitan statistical area
+Rural-Urban Continuum Codes (RUCC) from U.S. Department of Agriculture – Economic Research Service. RUCC codes are
+delineated by the U.S. Office of Management and Budget (OMB) and are used to designate rural and urban areas by
+population. The RUCC codes identify U.S. metropolitan and nonmetropolitan counties by their degree of urbanization. We
+used the 2013 Rural-Urban Continuum Codes file which was last updated in December 2020. Urban facilities were defined
+as facilities located in counties in metro areas of 1 million population or more (1), counties in metro areas of 250,000 to 1
+million population (2), and counties in metro areas of fewer than 250,000 population (3). Rural Facilities were defined as
+facilities with urban population of 20,000 or more, adjacent to a metro area (4), urban population of 20,000 or more, not
+adjacent to a metro area (5), urban population of 5,000 to 20,000, adjacent to a metro area (6), urban population of 5,000
+to 20,000, not adjacent to a metro area (7), urban population of fewer than 5,000, adjacent to a metro area (8), and urban
+population of fewer than 5,000, not adjacent to a metro area (9). We obtained Rural-Urban designations by merging RUCC
+data with Care Compare files using the (SSA-to-FIPS) crosswalk file from National Bureau of Economic Research (NBER).d
+
+_______________________
+a https://data.cms.gov/provider-data/archived-data/nursing-homes
+b https://data.cms.gov/quality-of-care/payroll-based-journal-daily-nurse-staffing
+c https://www.cms.gov/medicare/quality/nursing-home-improvement/minimum-data-sets-swing-bed-providers
+d https://www.nber.org/research/data/ssa-federal-information-processing-series-fips-state-and-county-crosswalk
+
+2
+
+Methods
+First, we estimated the proportion of all US nursing homes that staff at or above the final rule's minimum HPRD
+requirements, and the proportion that provide at least 24 RN hours daily. Specifically, we separately identified facilities
+with an NA HPRD level greater than or equal to 2.45; an RN HPRD level greater than or equal to 0.55; or a total nurse (i.e.,
+RN, NA, LPN, and LVN combined) HPRD greater than or equal to 3.48. We calculated total RN hours per facility day by
+multiplying RN HPRD by the average resident daily census. We examined whether or not a facility provided at least 24
+total RN hours per day as an approximation of whether the facility might currently meet the final rule’s 24/7 RN
+requirement, assuming the facility could distribute the 24 total RN hours to cover the entire 24-hr period. Our analyses
+were also stratified by ownership type (for-profit, non-profit, or government-owned), urban-rural location of the facility,
+and facility size. Facility size was obtained by categorizing the number of certified beds for each facility. Facility sizes were
+split into 7 categories: 0-49 beds (1), 50-99 beds (2), 100-149 beds (3), 150-199 beds (4), 200-249 beds (5), 250-299 beds
+(6), and >300 beds (7). Observations that had missing values were dropped from all our analyses.
+Second, we estimated the mean staffing levels for different size facilities. We calculated mean staffing levels expressed in
+HPRD for NAs, RNs, and total nurse staff; and calculated average total RN hours per day.
+Third, as an illustrative example, we calculated how many staff an average-sized (i.e., 100-bed) facility that staffs below
+the minimum levels required by the final rule would need to add per 8-hour shift to achieve the final rule’s minimum
+requirements. We used a 100-bed facility example because it closely approximates the average size nursing home in the
+US (106.6 beds in 2023).e To do this, we first estimated the proportion of 100-bed facilities with current staffing levels that
+meet or exceed each of the final rule’s minimum HPRD requirements (NA HPRD, RN HPRD, total nurse HPRD), and the
+proportion providing a total of at least 24 RN hours per day. Among facilities with staffing levels below each of these
+minimum thresholds, we then estimated the mean staffing levels and calculated the number of nursing staff a facility
+would need to add, on average, per 8-hr shift to staff at or above each of the final rule’s minimum HPRD requirements, or
+to achieve a minimum of 24 RN hours per day. The formulas we used assume a 100-bed facility, and that nurse staff work
+8-hour shifts (see Appendix A and B).
+For example, a facility whose NA staffing level is 1.45 HPRD would need to add 1.00 HPRD (2.45-1.45 = 1.00) to staff at or
+above the final rule’s minimum NA requirement of 2.45 HPRD. With 100 residents, this amounts to a need for 100
+additional hours of NA care per day (1.00 HPRD x 100 residents = 100 hours/day), or 33.3 additional hours of care per 8hour shift, given there are 3 such shifts in a day (100 hours/day ÷ 3 shifts/day = 33.3 hours per shift). Since each shift is 8
+hours long, each NA can provide a maximum of 8 hours of care per shift – therefore, providing an additional 33.3 hours of
+care per shift would require the addition of between 4 and 5 NAs per shift (33.3 hours ÷ 8 hours/shift).
+
+LIMITATIONS
+There are a few limitations in our analysis. First, neither Care Compare data nor the Payroll Based Journal (PBJ) Daily
+Nurse Staffing Data show specific times during the day when a facility staffed RNs, so we cannot determine whether a
+facility had 24/7 “around the clock” RN coverage consistent with the requirement in the final rule. For example, if a facility
+has 24 hours of RN presence in a day, we cannot distinguish whether the facility had 1 RN present during each of three
+separate, 8-hour non-overlapping shifts (i.e., 24/7 RN coverage), or whether the facility is staffed with 3 RNs
+simultaneously during a single 8-hour shift. As an approximation for 24/7 coverage, we instead report whether a facility’s
+total RN hours/day exceeded 24 hours, at which point it is possible for the facility to distribute these hours over the
+course of the day to achieve 24/7 coverage. As a consequence of this approximation, we note that larger facilities will be
+more likely to offer a minimum of 24 hours of RN care per day as a result of having more beds/residents. Second, this
+brief only estimates levels of staffing relative the final rule’s minimum HPRD requirements, and total RN hours – we are
+
+_______________________
+e https://www.kff.org/other/state-indicator/average-number-of-certified-nursing-facility-
+
+beds/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D
+
+3
+
+unable to estimate what level of staffing would be required based on resident acuity and to comply with the final rule’s
+enhanced facility assessment. Third, our estimates also do not account for facilities that may be eligible for exemptions.
+Fourth, in our 100-bed illustrative example, in estimating the number of nurse staff that would need to be added to each
+shift in order to staff at our above minimum HPRD requirements, we note that these calculations may differ from the
+number of nurse staff full-time equivalents (FTEs) who would need to be hired by a facility to achieve this coverage – this
+is due to the need to account for time off, that nurse staff may work multiple or partial shifts in a day, etc. This brief
+therefore does not estimate the number of nurse staff FTEs who would need to be hired. Finally, certain variables such as
+average resident census, number of beds or HPRD measures had missing values. For example, Care Compare May 2024
+data (N = 14,858) had 74 (0.50%) missing observations on average resident census and 424 (2.85%) missing observations
+on reported HPRD. Some additional observations were dropped when merging datasets: for example, 28 (0.19%)
+observations were dropped when merging RUCC files using SSA county codes with May 2024 Care Compare data.
+Cumulatively, however, this resulted in only 452 observations (i.e. 3%) being dropped from our calculations.
+
+RESULTS
+Overall Staffing Levels of US Nursing Homes
+Figure 1 shows the percent of US nursing homes in May 2024 with staffing levels that meet or exceed the final rule’s
+HPRD minimums, and the percent of nursing homes providing a minimum of 24 RN hours per day, overall and by facility
+characteristics. In May 2024 (N=14,413 facilities total), 30 percent of facilities staffed at or above the NA minimum (2.45
+HPRD), 50 percent staffed at or above the RN minimum (0.55 HPRD), and 59 percent staffed at or above the total nurse
+minimum (3.48 HPRD). Additionally, 78 percent of nursing homes provided at least 24 RN hours per day. There is marked
+variation in the percent of facilities staffing at or above the final rule’s HPRD minimums by size, as well as by profit status.
+Starting with variations by size, smaller facilities under 100 beds were most likely to staff at or above the NA, RN, and total
+nurse HPRD minimums. Facilities under 50 beds were the group where the largest percentage of facilities staffed at or
+above these HPRD minimums: 55 percent staffed at or above the NA minimum, 82 percent staffed at or above the RN
+minimum, and 79 percent staffed at or above the total nurse minimum. In contrast, the percent of facilities providing a
+minimum of 24 RN hours per day increased with facility size.
+For-profit facilities were markedly less likely than non-profit facilities to staff at or above the final rule’s minimum HPRD
+requirements: 22 percent of for-profit facilities staffed at or above the NA HPRD minimum compared to 51 percent of
+non-profit facilities; 42 percent of for-profit facilities staffed at or above the RN HPRD minimum compared to 74 percent
+of non-profit facilities; and 52 percent of for-profit facilities staffed at or above the total nurse HPRD minimum compared
+to 80 percent of non-profit facilities. Differences by urban versus rural status were more variable. A greater percentage of
+rural facilities staffed at or above the final rule’s minimum NA or RN HPRD requirements than urban facilities, whereas a
+greater percentage of urban facilities staffed at or above the total nurse minimum HPRD requirement, and a greater
+percentage of urban facilities provided at least 24 RN hours per day.
+
+4
+
+Figure 1. Percent of Nursing Homes Staffing at or Above Specified Levels in May 2024 (N=14,413) by
+Facility Characteristics
+
+Sources: May 2024 Care Compare. Accessed 6/14/2024. 452 observations were dropped in this analysis due to merge or missing HPRD values. Urban and
+Rural Classification from USDA delineated by the U.S. Office of Management and Budget (OMB)). “RN Hrs./day” column shows the percent of facilities with at
+least 24 total RN hours per day.
+
+Current Mean Nursing Home Staffing Levels
+Figure 2 displays mean staffing levels by facility size for facilities in May 2024 (N=14,413). The mean value for RN HPRD
+(0.65) exceeds the minimum RN HPRD requirement in the final rule (0.55); the mean total nursing HPRD (3.78) exceeds
+the minimum total nursing HPRD requirement (3.48), and the mean RN hours per facility day is 48, exceeding the
+minimum of 24 hours. For nearly all facility size categories, the mean RN and total nurse HPRD exceed the minimum HPRD
+requirements in the final rule; and the mean total RN hours per day exceeds 24. In contrast, mean NA HPRD (2.26) is the
+only category that does not exceed the minimum requirement in the final rule (i.e., 2.45), and with the exception of
+facilities with fewer than 50 beds, all other facility size categories have a mean NA HPRD that is below the final rule’s
+minimum requirement. Facilities with fewer than 50 beds have the highest mean levels of NA, RN, and total nurse HPRD.
+Mean HPRD levels by different nurse staff types generally exceeded the minimum HPRD levels required in the final rule.
+This finding suggests that even among facilities that staff below the final rule’s minimum requirements, on average it is
+still likely that their staffing levels are relatively close to the minimum requirements. We examine this question next
+through an illustrative example.
+
+5
+
+Figure 2. Mean Staffing Levels for Different Size Facilities in May 2024 (N=14,413)
+
+Sources: May 2024 Care Compare. Accessed 6/14/2024. 452 observations were dropped in this analysis dure to missing HPRD or Resident Census.
+
+An Illustrative Example: 100-bed Facilities and Staffing Levels
+Figure 3 displays the proportion of 100-bed nursing facilities that staff at or above specific minimum HPRD requirements,
+or provide at least 24 RN hours per day, by facility characteristics. The patterns observed are similar to those in the full
+sample of facilities.
+
+Figure 3. 100-Bed Nursing Homes Staffing at or Above Specified Minimum Levels in May 2024
+(N=371) Data
+
+Sources: May 2024 Care Compare. Accessed 6/14/2024. 452 observations were dropped in this analysis due to merge or missing HPRD values. Urban and
+Rural Classification from USDA delineated by the U.S. Office of Management and Budget (OMB)).
+
+Additional Nurse Staff Needed per Shift Among 100-bed Facilities Staffing Below the Minimum
+Requirements
+Table 1 displays mean staffing levels for four subsets of 100-bed facilities: those staffing below the final rule’s NA HPRD
+minimum (n=271), RN HPRD minimum (n=211), or total nursing HPRD minimum (n=157); and those providing fewer than
+24 RN hours per day (n=75). For facilities in each of these categories, it also shows the estimated number and types of
+nurse staff who would need to be added per shift in order to staff at or above the final rule’s minimum requirements.
+
+6
+
+Mean NA HPRD among 100-bed facilities that staff below the minimum NA HPRD (2.45 HPRD) is 1.97. On average, a 100bed facility that staffs below the final rule’s NA HPRD minimum would need to add 2 NAs per 8-hour shift to staff at the
+level of the minimum requirement.
+Mean RN HPRD among 100-bed facilities that staff below the minimum RN HPRD standard (0.55 HPRD) is 0.38. On
+average, a 100-bed facility that staffs below the final rule’s RN HPRD minimum would need to add 0.7 RNs per 8-hour shift
+in order to staff at the level of the minimum requirement.
+Mean total nurse HPRD among 100-bed facilities that staff below the minimum total nurse HPRD standard (3.48 HPRD) is
+3.07. On average, a 100-bed facility that staffs below the total nurse HPRD minimum would need to add 1.7 nurse staff
+(either RNs, NAs, LPNs or LVNs) per 8-hour shift in order to staff at the level of the minimum requirement.
+Mean RN hours per facility day among 100-bed facilities that staff below 24 RN hours per day is 16.86. On average, a 100bed facility that does not provide 24 RN hours per day would need to add 7.1 more RN hours per facility day in order to
+achieve this level.
+An alternative way to understand the final rule’s HPRD minimum requirements is by considering the number of residents
+each nurse staff member would, on average, be responsible for at different levels of HPRD. In the case of NAs, we know
+that 100-bed facilities that staff below the minimum NA HPRD in the final rule currently staff at a mean of 1.97 NA HPRD.
+This implies that the facility provides 65.2 hours of NA care per 8-hour shift (1.97 HPRD × 100 residents ÷ 3 shifts/day);
+since each NA can provide a maximum of 8 hours of care per shift, between 8 and 9 NAs would be needed per shift (65.2
+hours ÷ 8 hours/NA), and with 100 residents, each NA would on average be responsible for between 12 and 13 residents.
+In contrast, if these facilities add NAs in order to staff at the level of the final rule’s 2.45 NA HPRD minimum requirement,
+they would have between 10 and 11 NAs per shift, and each would on average be responsible for 9 or 10 residents.
+The number of nurse staff that a facility would need to add per shift in order to staff at the level of the final rule’s
+minimum requirements also differs by facility size. For example, among 50-bed facilities that are staffing below the final
+rule’s NA HPRD minimum, mean NA HPRD is 1.97, meaning that such facilities would need to add 1 NA per 8-hour shift to
+achieve the final rule’s 2.45 HPRD minimum requirement. Among 50-bed facilities that are staffing below the final rule’s
+RN HPRD requirements (i.e., 0.55 HPRD), the mean RN HPRD is 0.41, meaning that on average, a 50-bed facility that staffs
+below the RN HPRD minimum requirement would need to add 0.3 RNs per 8-hour shift in order to achieve the final rule’s
+minimum RN HPRD requirement. Among 50-bed facilities that are staffing below the final rule’s total nurse HPRD
+requirements (i.e., 3.48 HPRD), the mean total nurse staffing level is 3.07 HPRD, meaning that on average, a 50-bed
+facility that staffs below the total nurse HPRD minimum would need to add 0.9 nurse staff (either RNs, NAs, LPNs or LVNs)
+per 8-hour shift in order to staff at or above the final rule’s minimum total nurse HPRD requirement. Among 50-bed
+facilities that staff below 24 RN hours per day, mean RN hours per facility day is 18.10. On average, a 50-bed facility that
+does not provide 24 RN hours per day would need to add 5.9 more RN hours per facility day.
+
+7
+
+Table 1. Current Mean Staffing Levels and Number of Additional Nurse Staff Needed for 100-Bed
+Facilities that Currently Staff Below the Final Rule’s Minimum Requirements
+
+Sources: May 2024 Care Compare. Accessed 6/14/2024. 452 observations were dropped in this analysis due to merge or missing HPRD values. Urban and
+Rural Classification from USDA delineated by the U.S. Office of Management and Budget (OMB)).
+
+DISCUSSION AND CONCLUSIONS
+Our results show that a majority of US nursing facilities currently staff at or above the level of two of the three minimum
+HPRD requirements of the final rule: RN HPRD, and total nurse staff HPRD. While data limitations preclude us from
+determining if facilities currently provide 24/7 “around the clock” RN coverage, we do find that 78 percent of nursing
+homes provide at least 24 hours of RN care per day.
+In contrast, the most significant gaps in nursing home staffing are for NAs. Thirty percent of facilities provide 2.45 or
+greater HPRD of NA care, leaving 70 percent of facilities who staff below this minimum. In 2023, 458,590 NAs provided
+care in nursing homes 2 , where they are typically responsible for assisting residents with activities of daily living including
+but not limited to feeding, bathing, and dressing. NAs are required to complete training and a competency evaluation,
+though typically training is of only short duration: federal requirements for certified nursing assistants are at least 75
+hours (i.e., the equivalent of two weeks) of training, including at least 16 hours of supervised practical training; f only 11
+states require more than 120 hours (i.e., the equivalent of three weeks) of training.3 Although NA jobs require
+considerable technical and interpersonal skills, they receive low pay, rarely receive benefits, and experience high rates of
+occupational injuries. 4,5 A recent study conducted by the U.S. Department of Health and Human Services Office of the
+Assistant Secretary for Planning and Evaluation (ASPE) found that in 2019, median wages of nursing assistants were lower
+
+_______________________
+f 42 CFR 483.152
+
+8
+
+than the wages of other entry-level jobs in 40 states and DC.6 These findings together with other research highlight
+opportunities for nursing homes to increase NA staff through improving the quality and pay of these jobs.
+Even among facilities that staff below the final rule’s minimum HPRD requirements, mean staffing levels are generally
+close to these minimum requirements. Our analysis finds that for an average-sized (i.e. 100-bed) nursing home that
+staffed below at least one of the minimum HPRD requirements, relatively few staff would need to be added to each shift
+(between 0.7 and 2 additional staff per shift, depending on the role) in order to staff at or above the minimum HPRD
+requirements. The final rule allows between 3 and 5 years for facilities to recruit these additional staff, and also allows for
+temporary hardship exemptions to the HPRD and 24/7 onsite RN requirements depending on a facility’s location and local
+supply of nurse staff, the facility’s good faith efforts to add and retain staff, and demonstrated financial commitment to
+staffing.
+Our analysis found that similar percentages of rural and urban facilities currently staff at or above the final rule’s NA and
+total nurse HPRD minimum requirements; urban facilities are more likely to provide at least 24 RN hours (82 percent
+versus 68 percent of rural facilities), but rural facilities are more likely to staff at or above the 0.55 RN HPRD minimum (52
+percent versus 49 percent of urban facilities). We found marked differences, however, in the percent of facilities staffing
+at or above each of the minimum HPRD requirements, or providing at least 24 RN hours, by facility size and profit status.
+The smallest facilities (particularly under 50 beds) were the most likely to staff at or above the final rule’s minimum HPRD
+requirements, whereas larger facilities were more likely to provide 24 RN hours per day. Non-profit facilities were more
+likely than for-profit facilities to staff at or above each of the HPRD minimum requirements and were more likely to
+provide 24 RN hours per day. For the HPRD minimum requirements, there was a difference of nearly 30 percentage points
+in the percent of non-profit facilities versus for-profit facilities who staffed at or above these levels. This observation
+aligns with prior research, which has found that for-profit facilities on average have lower staffing and worse quality of
+care.g Recent evidence has shown how certain types of for-profit nursing home ownership arrangements – particularly
+private equity (PE) and real estate investment trust (REIT) ownership – can divert resources from staffing and direct
+resident care resulting in worse quality. A recent ASPE analysis, for example, studied PE and REIT investment in nursing
+homes between 2013 and 2022 and found that PE investment resulted in a 12 percent relative decline in RN HPRD
+compared to other for-profit facilities and a 14 percent relative increase (i.e., worsening) in their deficiency score index;
+similarly, REIT investment resulted in a 7 percent relative decline in RN HPRD and a 14 percent relative increase in
+deficiency score index. Together, these studies and our analysis highlight opportunities for for-profit nursing homes to
+enhance safety and quality of care through greater investments in staffing. 7
+
+_______________________
+g Comondore VR, Devereaux PJ, Zhou Q, Stone SB, Busse JW, Ravindran NC, Burns KE, Haines T, Stringer B, Cook DJ, Walter SD, Sullivan T,
+
+Berwanger O, Bhandari M, Banglawala S, Lavis JN, Petrisor B, Schünemann H, Walsh K, Bhatnagar N, Guyatt GH. Quality of care in forprofit and not-for-profit nursing homes: systematic review and meta-analysis. BMJ. 2009 Aug 4;339:b2732. doi: 10.1136/bmj.b2732.
+PMID: 19654184; PMCID: PMC2721035.
+
+9
+
+APPENDIX
+Appendix A. Minimum Nurse staff per shift needed to staff at or above HPRD minimums (100-Bed and 50-Bed*
+Facilities)
+Minimum number of NAs to add
+Minimum number of RNs to add
+Minimum number of NAs, RNs or
+LPNs/LVNs to add
+
+𝑍=
+
+𝑋=
+
+((2.45 − 𝑚𝑒𝑎𝑛 𝑁𝐴 𝐻𝑃𝑅𝐷) × 100)
+(8 ÷ 3)
+
+X= NA/8-hour shift
+
+𝑌=
+
+((0.55 − 𝑚𝑒𝑎𝑛 𝑅𝑁 𝐻𝑃𝑅𝐷) × 100)
+8÷3
+
+Y= RNs/8-hour shift
+
+((3.48 − 𝑚𝑒𝑎𝑛 𝑇𝑜𝑡𝑎𝑙 𝑁𝑢𝑟𝑠𝑒 𝐻𝑃𝑅𝐷) × 100)
+8÷3
+
+Z= Total Nurse Staff/8-hour
+shift
+
+*The same equations were used to calculate 50-Bed Facility (using 50 instead of 100 as multiplier).
+
+Appendix B. Overall Nurse staff per shift needed to staff at or above HPRD minimums (100-Bed Facilities)
+Overall number of NAs to staff at or
+above 2.45 NA HPRD.
+
+𝑋=
+
+((2.45 𝑁𝐴 𝐻𝑃𝑅𝐷) × 100)
+8÷3
+
+10-11 NA/8-hour shift
+
+Overall number of RNs to staff at or
+above 0.55 RN HPRD.
+
+𝑌=
+
+((0.55 𝑅𝑁 𝐻𝑃𝑅𝐷) × 100)
+8÷3
+
+2-3 RNs/8-hour shift
+
+Overall number of NAs, RNs or
+LPNs/LVNs to staff at or above 3.48
+total nurse HPRD.
+
+𝑍 = ((3.48 𝑇𝑜𝑡𝑎𝑙 𝑁𝑢𝑟𝑠𝑒 𝐻𝑃𝑅𝐷) × 100)
+8÷3
+
+14-15 Total Nurse Staff/8hour shift
+
+10
+
+REFERENCES
+1
+
+Medicare and Medicaid Programs; Minimum Staffing Standards for Long-Term Care Facilities and Medicaid Institutional
+Payment Transparency Reporting, 89 FR 40876 (publication date May 10, 2024). https://www.federalregister.gov/publicinspection/2024-08273/medicare-and-medicaid-programs-minimum-staffing-standards-for-long-term-care-facilities-andmedicaid
+2
+
+U.S. Bureau of Labor Statistics Occupational Employment Statistics broken out by occupation and industry (31-1131
+Nursing Assistants), May 2023. Nursing Assistants (bls.gov).
+3
+
+PHI. (2016). Nursing Assistant Training Requirements by State. Bronx, NY: PHI. Accessed November 2021 at
+https://www.phinational.org/advocacy/nurse-aide-training-requirements-state-2016/.
+4
+
+Institute of Medicine (IOM). (2008). Committee on the Future Health Care Workforce for Older Americans. Washington
+(DC): National Academies Press. Accessed May 2021 at https://www.ncbi.nlm.nih.gov/books/NBK215393/.
+5
+
+Weller, C., B. Almeida, M. Cohen, & R. Stone. (2020). Making Care Work Pay: How Paying at Least a Living Wage to Direct
+Care Workers Could Benefit Care Recipients, Workers, and Communities. Washington, DC: LeadingAge LTSS Center,
+University of Massachusetts Boston. Accessed at https://leadingage.org/makingcare-work-pay.
+6
+
+Khavjou, O., Suarez, G., Tyler, D., Squillace, M., Dey, J., & Oliveira, I. Wages of Direct Care Workers Lower Than Other
+Entry-Level Jobs in Most States (Issue Brief). Washington, DC: Office of the Assistant Secretary for Planning and
+Evaluation, U.S. Department of Health and Human Services. August 2, 2023. Accessed at
+https://aspe.hhs.gov/sites/default/files/documents/7a611d901c615e5611ea095b1dcf8d08/wages-dcw-lower-ib.pdf.
+7
+
+Stevenson, D., Peterson, H., Skinner, R., Ndrianasy, E., Braun, R.T., Unruh, M., & Fernandez, R. Trends in Ownership
+Structures of U.S. Nursing Homes and the Relationship with Facility Traits and Quality of Care (Research Brief).
+Washington, DC: Office of the Assistant Secretary for Planning and Evaluation, U.S. Department of Health and Human
+Services. November 13, 2023. Accessed at https://aspe.hhs.gov/reports/nh-ownership-its-implications-quality-availabilitycare.
+
+11
+
+U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES
+Office of the Assistant Secretary for Planning and Evaluation
+200 Independence Avenue SW, Mailstop 434E
+Washington, D.C. 20201
+For more ASPE briefs and other publications, visit:
+Aspe.hhs.gov/reports
+
+ABOUT THE AUTHORS
+Martin Blanco is a Social Science Analyst in the Office of
+Behavioral Health, Disability, and Aging Policy (BHDAP) in ASPE.
+Iara Oliveira is a Senior Policy Analyst in the Office of Behavioral
+Health, Disability, and Aging Policy (BHDAP) in ASPE.
+Marie Squillace is a Senior Policy Analyst in the Office of
+Behavioral Health, Disability, and Aging Policy (BHDAP) in ASPE.
+Damian Da Costa is a Social Science Analyst in the Office of
+Behavioral Health, Disability, and Aging Policy (BHDAP) in ASPE.
+SUGGESTED CITATION
+Blanco, M., Oliveira, I., Squillace, M., and Da Costa, D. Nurse
+Staffing Estimates in US Nursing Homes, May 2024. Office of the
+Assistant Secretary for Planning and Evaluation, U.S. Department
+of Health and Human Services. June 2024.
+COPYRIGHT INFORMATION
+All material appearing in this report is in the public domain and
+may be reproduced or copied without permission; citation as to
+source, however, is appreciated.
+For general questions or general
+information about ASPE:
+aspe.hhs.gov/about
+
+Disclaimer: Links and references to information from non-governmental organizations is provided for informational
+purposes and is not an HHS endorsement, recommendation, or preference for the non-governmental organizations.
+
+12
+
+
