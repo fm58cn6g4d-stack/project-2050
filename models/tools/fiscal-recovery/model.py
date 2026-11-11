@@ -222,10 +222,13 @@ def run():
             u={y:uni[y]-k/100*B[y]['gdp']*phase(y,2035,10) for y in Y}
             ii,dd=F.debt_roll(B,u)
             return {y:100*(old[str(y)]['base_debt']+dd[y])/B[y]['gdp'] for y in Y}
-        lo,hi_=0,10
-        for _ in range(42):
+        # Search ceiling 30% of GDP (10% until the health plan was booked, care review F-4); reaching it is an error.
+        flat=lambda rr:all(rr[y]<=rr[y-1]+1e-9 for y in range(2045,2057))
+        lo,hi_=0,30
+        if not flat(stabilized(hi_)): raise ValueError(name+': no stabilizing adjustment below 30% of GDP')
+        for _ in range(46):
             mid=(lo+hi_)/2; rr=stabilized(mid)
-            if all(rr[y]<=rr[y-1]+1e-9 for y in range(2045,2057)): hi_=mid
+            if flat(rr): hi_=mid
             else: lo=mid
         scenarios.append(dict(name=name,stabilizing_net_gdp_percent=hi_,stabilized_debt_gdp=stabilized(hi_),net_new_gdp_requirement_with_margin=need,binding_year=binding,
             gf_2030_39_primary_tn=sum(gf[y] for y in W)/1000,

@@ -120,6 +120,11 @@ def check_ids():
     for p, fn in PREFIX_FILE.items():
         text = open(os.path.join(ROOT, "legacy/domains", fn), encoding="utf-8").read()
         defined[p] = {f"{p}-{m.group(2)}" for m in ID.finditer(text) if m.group(1) == p}
+    # IDs defined since the legacy freeze (read-only domain files) live in agenda/agenda.csv, e.g. HLT-7 and HLT-8.
+    with open(os.path.join(ROOT, "agenda", "agenda.csv"), newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            m = ID.fullmatch(r["id"])
+            if m: defined[m.group(1)].add(r["id"])
     def known(p, i):
         if i in defined[p]: return True
         base = re.sub(r"[a-z]$", "", i)          # REV-C1a style sub-letters count if the parent is defined
@@ -139,7 +144,7 @@ def check_ids():
         if p in PREFIX_FILE and p != "MOV" and b["id"] not in defined[p]:
             ledger.append((b["id"], f"not found in legacy/domains/{PREFIX_FILE[p]}"))
     rv = open(os.path.join(ROOT, "legacy/domains", "domain-revenue.md"), encoding="utf-8").read()
-    channel_rows = re.compile(r"^(MR\d|PS\d|MF1|IF1|AI6|W\d|O\d|OX|P1|T1|E1|H1[ab]|C\d)$")
+    channel_rows = re.compile(r"^(MR\d|PS\d|MF1|IF1|AI6|W\d|O\d|OX|P1|T1|E1|H1[ab]|HX|C\d)$")   # HX: the health plan's exclusion revenue (dossiers/care/6-cost.md)
     for r in L["revenue"]:
         if f"REV-{r['id']}" not in rv and not channel_rows.match(r["id"]):
             ledger.append((r["id"], "no REV- entry in legacy/domains/domain-revenue.md"))

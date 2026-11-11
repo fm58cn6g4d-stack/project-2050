@@ -1,10 +1,12 @@
 table,id,kind,cat,start,ramp,grow,end,perm,fade,unified_zero,basis
-bill,HLT-1,,out_health_other,,1,out_health_other,,,,,Repeal of H.R. 1 cuts and permanent ACA credits take full effect at once
-bill,HLT-2,,out_medicare_net,,3,out_medicare_net,,,,,Medicare cap and benefits phase in over three years (dental last)
-bill,HLT-3,,out_health_other,2031,3,out_health_other,,,,,Public option enrollment builds from 2031
-bill,HLT-4,,out_health_other,,3,out_health_other,,,,,Medicaid and LTC expansions phase in
-bill,HLT-5,,out_medicare_net,2031,5,out_medicare_net,,,,,Price caps tighten over five years
-bill,HLT-6,,out_medicare_net,,4,out_medicare_net,,,,,MA payment reform phases in over four years
+bill,HLT-1,,out_health_other,,1,out_health_other,,0,,,"Restoration in calendar 2030 only, on fiscal years (year-by-year shape in fiscal-years.csv); from 2031 the single plan (HLT-7) carries it (care fix step 5, 6-cost.md part 5)"
+bill,HLT-2,,out_medicare_net,,3,out_medicare_net,,0,,,"Upgrades and no disability wait for today's Medicare enrollees, calendar 2031-34, on fiscal years (fiscal-years.csv); the plan covers them from the 2035 endpoint"
+bill,HLT-3,,out_health_other,2031,3,out_health_other,,,,,"Retired from the budget ($0): memo 1 A, the public option, was not chosen (DEC-2026-11-10-09); profile kept for reference"
+bill,HLT-4,,out_health_other,,3,out_health_other,,,,,"Components in fiscal-components.csv: long-term care and the safety-net items on this legacy profile; children's continuous coverage and Medicaid dental retired from their waves (care review F-4 item 2)"
+bill,HLT-5,,out_medicare_net,2031,5,out_medicare_net,,,,,"Retired from the budget ($0): memo 5 D, price caps, was not chosen (DEC-2026-11-10-09); profile kept for reference"
+bill,HLT-6,,out_medicare_net,,4,out_medicare_net,,0,,,"Advantage fix at MedPAC's lower estimate, calendar 2030-34, on fiscal years (fiscal-years.csv); Advantage ends at the 2035 endpoint"
+bill,HLT-7,,out_health_other,,1,out_medicare_net,,,,,"Components in fiscal-components.csv: the plan's spending line on the dossier's fiscal-year path, the hospital transition fund and the territories (care fix step 5, 6-cost.md part 5)"
+bill,HLT-8,,out_disc_nondefense,,1,cpi,,,,,"USDA rural health grants, $200-500M a year, subject to appropriation (HLT-8.01)"
 bill,FAM-1,,out_other_mandatory,,1,cpi,,,,,CTC indexed to prices; child population roughly flat
 bill,FAM-2,,out_other_mandatory,,6,gdp,,,,,"Child care and pre-K phase in over six years, then track wages (GDP)"
 bill,FAM-3,,out_other_mandatory,,1,gdp,,,,yes,"Paid leave is self-funded by its contribution (net zero, automatic step-up)"
@@ -71,6 +73,7 @@ base revenue,G10,,rev_other,,1,gdp,,,,,
 base revenue,GX,,rev_individual,,1,rev_individual,,,,,
 base revenue,CX,,rev_individual,,1,gdp,,,,,"Excise offset on the carbon, border and methane fees; shape follows their receipts (fiscal-years.csv)"
 base revenue,MR6,,rev_individual,,1,gdp,,,,,"Excise offset on Moving America's new excises; shape follows their receipts (fiscal-years.csv), as CX"
+base revenue,HX,,rev_individual,,1,out_medicare_net,,1.000136,,,"Ending the employer tax exclusion as groups move (HLT-7.22); shape from the dossier's path (fiscal-years.csv); grows with premiums after 2039 (CBO's Medicare category, as C19b); perm fitted so FY2040 is the path's $1,043B"
 option,C18,revenue,rev_individual,,1,rev_individual,,,,,
 option,C35,revenue,rev_other,,1,gdp,,,,,"Estate tax increment; exemption frozen in nominal terms, so it grows faster than GDP in practice (held at GDP)"
 option,C19b,revenue,rev_individual,2031,2,out_medicare_net,,,,,Exclusion cap revenue tracks premium growth (proxied by Medicare per-GDP growth)

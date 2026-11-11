@@ -395,7 +395,9 @@ def deficit_path(spec, mid10, S=None, B=None):
         amounts = [amt[(spec["id"], c["id"].split("/", 1)[1])] for c in parts]
         if abs(sum(amounts) - mid10) > 1e-9:
             raise ValueError("component amounts differ from the ledger: " + spec["id"])
-        paths = [profile_path(B, a, _profile(c)) for a, c in zip(amounts, parts)]
+        shapes = year_shapes()   # a component with a fiscal-years.csv row (key owner/component) takes its shape
+        paths = [years_path(B, a, shapes[c["id"]], _profile(c)) if c["method"] == "years" else profile_path(B, a, _profile(c))
+                 for a, c in zip(amounts, parts)]
         return {y: sum(p[y] for p in paths) for y in range(Y0, Y1 + 1)}
     if m == "split":
         paths = [deficit_path(S[pid], share * mid10, S, B) for pid, share in read_splits()[spec["id"]]]
