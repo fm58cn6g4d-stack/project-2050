@@ -1,0 +1,3645 @@
+Source: https://home.treasury.gov/system/files/136/Report-Federal-Interagency-Task-Force-Long-Term-Care-Insurance.pdf
+Publisher: U.S. Department of the Treasury
+Retrieved: 2026-11-11
+Original SHA-256: 388c03ee4189536b00f5695483c7b3d71bee066200494978e810e1407f1018d5
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+U.S. DEPARTMENT OF THE TREASURY
+U.S. DEPARTMENT OF THE TREASURY
+
+Long-Term Care Insurance:
+Recommendations for Improvement
+of Regulation
+Report of the Federal Interagency Task Force
+on Long-Term Care Insurance
+
+AUGUST 2020
+Long-Term Care Insurance: Recommendations for Improvement of Regulation i
+
+U.S. DEPARTMENT OF THE TREASURY
+
+Long-Term Care Insurance:
+Recommendations for Improvement of
+Regulation
+Report of the Federal Interagency Task Force on
+Long-Term Care Insurance
+
+Steven T. Mnuchin
+Secretary
+
+Michael Faulkender
+Assistant Secretary for Economic Policy
+
+Acknowledgments
+The Federal Interagency Task Force on Long-Term Care Insurance consists of representatives
+from the U.S. Department of the Treasury (Treasury), the U.S. Department of Health and Human
+Services (HHS), the U.S. Department of Labor (DOL), and the Office of Management and
+Budget (OMB). Secretary Mnuchin and Treasury Assistant Secretary Michael Faulkender would
+like to thank the following individuals for their service as members of the Task Force and their
+contributions to this report:
+Treasury: Jason Brown, Diana Furchtgott-Roth, Anne Hall, Alex Hart, Eda Herzog-Vitto, Gillian
+Hunter, Louisa Quittman, Shanthi Ramnath, Bruce Saul, Steven Seitz, Angela Walitt, and Harlan
+Weller
+HHS: William Marton and Mary Nugent
+DOL: Jeanne Klinefelter Wilson
+OMB: Amy Batchelor and Rebecca Spavins
+Secretary Mnuchin and Assistant Secretary Michael Faulkender would also like to thank
+Treasury staff members Bruce Saul and Elizabeth Sawyer for supporting the Task Force and
+leading Treasury staff’s work on the report.
+
+Table of Contents
+Executive Summary ...................................................................................................1
+Introduction ......................................................................................................................... 1
+Scope and Objectives of the Task Force ............................................................................. 2
+Long-Term Care Insurance in the United States................................................................. 2
+Review of the Process for this Report................................................................................. 3
+Summary of Analysis and Recommendations .................................................................... 4
+
+The Role of Insurance in Long-Term Care ..............................................................10
+Prevalence of Need for LTSS ........................................................................................... 10
+Projections of Demand for LTSS ...................................................................................... 12
+Financing of LTSS ............................................................................................................ 14
+Factors Impeding the Market for Private LTCI ................................................................ 19
+
+Innovation and Product Development .....................................................................23
+Combination Products....................................................................................................... 23
+Other New Product Designs.............................................................................................. 27
+
+Regulatory Efficiency and Alignment .....................................................................34
+Inflation Protection ........................................................................................................... 34
+Other Consumer Protections ............................................................................................. 37
+Review and Approval of Rate Increases ........................................................................... 37
+
+Financial Literacy and Education ............................................................................40
+Reviewing the Federal Role in Financial Education......................................................... 40
+Stakeholder Recommendations Relating to Education ..................................................... 41
+Best Practices for Financial Education ............................................................................. 42
+
+Tax Incentives ..........................................................................................................44
+Current Tax Rules Regarding LTCI ................................................................................. 44
+Analysis of Tax Incentives Considered ............................................................................ 48
+
+Alternative Financing Approaches ..........................................................................55
+Front-End Benefit Options ................................................................................................ 55
+Back-End (Catastrophic) Options ..................................................................................... 58
+Comprehensive Options .................................................................................................... 59
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation iv
+
+Appendices ...............................................................................................................60
+Appendix A: Participants in the Engagement Process ...................................................... 60
+Appendix B: Summary of Analysis and Recommendations............................................. 61
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation v
+
+Abbreviations
+Acronym
+
+Abbreviation
+
+ACI
+
+Annual Compound Inflation
+
+ADLs
+
+Activities of Daily Living
+
+AGI
+
+Adjusted Gross Income
+
+CBO
+
+Congressional Budget Office
+
+CDC
+
+Centers for Disease Control and Prevention
+
+CMS
+
+U.S. Department of Health and Human Services, Centers for
+Medicare & Medicaid Services
+
+Code
+
+Internal Revenue Code
+
+DOL
+
+U.S. Department of Labor
+
+DRA
+
+Deficit Reduction Act of 2005
+
+EBSA
+
+U.S. Department of Labor, Employee Benefits Security
+Administration
+
+EPDV
+
+Expected Present Discounted Value
+
+ERISA
+
+Employee Retirement Income Security Act of 1974
+
+FIO
+
+U.S. Department of the Treasury, Federal Insurance Office
+
+FLEC
+
+Financial Literacy Education Commission
+
+FSA
+
+Flexible Spending Arrangement
+
+HDHP
+
+High-Deductible Health Plan
+
+HHS
+
+U.S. Department of Health and Human Services
+
+HIPAA
+
+Health Insurance Portability and Accountability Act of 1996
+
+HRS
+
+Health and Retirement Study
+
+HSA
+
+Health Savings Account
+
+IADLs
+
+Instrumental Activities of Daily Living
+
+IRA
+
+Individual Retirement Account
+
+LTC
+
+Long-Term Care
+
+LTCI
+
+Long-Term Care Insurance
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation v
+
+Acronym
+
+Abbreviation
+
+LTCI Model Act
+
+NAIC Long-Term Care Insurance Model Act
+
+LTCI Model Regulation
+
+NAIC Long-Term Care Insurance Model Regulation
+
+LTCSA
+
+Long-Term Care Savings Account
+
+LTSS
+
+Long-Term Services and Supports
+
+MA
+
+Medicare Advantage
+
+NAIC
+
+National Association of Insurance Commissioners
+
+NAIC 2017 List
+
+Long-Term Care Federal Options Presented by the NAIC in April
+2017
+
+NHEA
+
+National Health Expenditure Accounts
+
+Partnership program
+
+Partnerships for Long-Term Care Federal-State Program
+
+SECURE Act
+
+Setting Every Community Up for Retirement and Enhancement Act
+of 2019
+
+SOA
+
+Society of Actuaries
+
+SSA
+
+U.S. Social Security Administration
+
+Task Force
+
+Federal Interagency Task Force on Long-Term Care Insurance
+
+Treasury
+
+U.S. Department of the Treasury
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation vi
+
+Executive Summary
+Introduction
+In July 2018, the U.S. Department of the Treasury (Treasury) convened a federal interagency
+task force on long-term care insurance (Task Force) in response to recommendations in
+Treasury’s October 2017 Report on Asset Management and Insurance (Insurance Report). 1 The
+Insurance Report identified the challenges of financing long-term care (LTC) as a matter of
+national interest requiring a coordinated response from the federal government, while affirming
+the primary role of the U.S. states as insurance regulators in the United States. Accordingly, the
+Insurance Report recommended that Treasury convene the Task Force to develop policies to
+complement reforms at the state level relating to the regulation of long-term care insurance
+(LTCI). The Insurance Report stated that the Task Force should coordinate its work with the
+ongoing work of state insurance regulators and the National Association of Insurance
+Commissioners (NAIC). 2
+The Task Force consists of representatives from Treasury’s Office of Economic Policy
+(including the Assistant Secretary for Economic Policy, who chairs the Task Force); other
+Treasury offices (Tax Policy, Consumer Policy, and the Federal Insurance Office (FIO)); the
+U.S. Department of Health and Human Services (HHS); the Centers for Medicare & Medicaid
+Services (CMS); the U.S. Department of Labor (DOL); and the Office of Management and
+Budget.
+Since its inception in 2018, the Task Force has identified and analyzed proposed reforms to the
+regulation of LTCI and consulted with a range of stakeholders. The Task Force concludes that
+LTCI can play a role in providing financial protection against LTC risks and helping individuals
+plan their financial future. To that end, this report describes the work conducted by the Task
+Force and presents its recommendations to improve the regulation of LTCI in the United States.
+In making these recommendations, the Task Force does not intend to either promote or
+discourage LTCI over other solutions to the challenges of financing LTC. Implementation of the
+recommendations will remove barriers to innovation and increase regulatory efficiency and
+alignment, potentially making LTCI more affordable and accessible while allowing the market to
+continue shaping the evolution of this product line.
+
+1
+
+U.S. Department of the Treasury, A Financial System That Creates Economic Opportunities: Asset Management
+and Insurance (Treasury, October 2017), 163 [hereinafter Insurance Report], available at:
+https://www.treasury.gov/press-center/press-releases/Documents/A-Financial-System-That-Creates-EconomicOpportunities-Asset_Management-Insurance.pdf.
+2
+
+Treasury, Insurance Report, 144. The NAIC is the U.S. standard-setting and regulatory support organization
+created and governed by the chief insurance regulators from the 50 states, District of Columbia, and five U.S.
+territories.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 1
+
+Scope and Objectives of the Task Force
+The Task Force determined that its primary objectives were to analyze, evaluate, and make
+recommendations concerning:
+•
+
+The LTC federal policy options presented to federal agencies and Congress by the NAIC
+in April 2017 (NAIC 2017 List); 3
+
+•
+
+Other potential new federal policies, or modifications of existing policies, to complement
+state-based regulation of LTCI; and
+
+•
+
+The manner and degree to which current laws and regulations appropriately recognize
+and respond to newer product designs and features in the LTCI market.
+
+In conducting its work, the Task Force focused on federal laws and regulations relating to the
+private insurance market. The Task Force also examined certain state laws and regulations,
+primarily those referenced in federal laws.
+The Task Force substantially completed its analysis and recommendations prior to the onset of
+the COVID-19 pandemic. The pandemic is likely to affect the provision of LTC and the market
+for LTCI, but the full effects will continue to emerge over time. 4 For these reasons, this report
+does not seek to assess the potential impacts of COVID-19 on LTC or LTCI.
+
+Long-Term Care Insurance in the United States
+The terms “long-term care” (LTC) and “long-term services and supports” (LTSS) cover a range
+of services provided to people with long-term physical or cognitive limitations. The private
+insurance industry typically uses LTC as a shorthand term, while academic and public policy
+literature, as well as some governmental publications, typically use LTSS. With some
+exceptions, this report generally adopts LTC. 5
+Most LTC is not medical care, but rather assistance with the basic personal tasks of everyday
+life, such as bathing, dressing, using the toilet, transferring (to or from bed or a chair), caring for
+3
+
+National Association of Insurance Commissioners, Long-Term Care Innovation (B) Subgroup: Federal Policy
+Options to Present to Congress (Kansas City: NAIC, April 2017), 2, available at:
+https://www.naic.org/documents/cmte_e_res_mech_wg_related_federal_policy_issues.pdf.
+4
+
+Treasury will continue to monitor the effects of COVID-19 on insurance products and markets, including LTCI.
+COVID-19 disproportionally affects older adults and individuals with chronic illnesses or other high-risk health
+conditions, making the LTC population (particularly those in nursing homes or assisted living facilities) more
+vulnerable to the virus than the general population. Relevant factors with respect to the pricing of LTCI include
+mortality, policy lapses, the incidence of claims, utilization of benefits, and changes in interest rates. See Andrew
+Dalton et al., “Pandemic Risk on LTC Insurance Reserves,” Milliman, April 2020, available at:
+https://us.milliman.com/en/insight/pandemic-risk-on-ltc-insurance-reserves.
+5
+
+The Role of Insurance in Long-Term Care and the Alternative Financing Approaches sections generally adopt
+LTSS.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 2
+
+incontinence, and eating. 6 Approximately half of Americans turning age 65 today will need
+some type of LTC in their lives. The older a person is, the more likely it is that he or she will
+need LTC at some point. The Congressional Budget Office (CBO) has projected that U.S.
+spending on LTC for the elderly (age 65 and above) will increase from 1% of gross domestic
+product in 2010 to 3% in 2050.
+Based on data from the National Health Expenditure Accounts (NHEA), the Medicaid program
+was the largest payer of LTSS expenses in 2018 (total payments of $159.1 billion), followed by
+out-of-pocket spending by individuals ($55.0 billion). By contrast, based on industry data,
+private LTCI paid $10.3 billion in claims in 2018.
+Private insurers began offering LTCI in the 1970s in response to demand for financial protection
+against the risk of having to enter a nursing home. Sales of new policies peaked in the early
+2000s, but have since declined as numerous insurers decided to exit the market due to the poor
+financial performance of the product line. The market remains in flux, with sales of traditional,
+standalone LTCI continuing to drop while “combination” insurance products have become more
+popular with consumers. 7 The role of the private insurance market in addressing the growing
+need for LTC will largely depend on the four main subject areas examined in this report:
+innovation in product design and delivery; the efficiency and effectiveness of regulation;
+education and awareness with respect to LTC needs and planning; and federal income tax
+treatment of LTCI.
+
+Review of the Process for this Report
+For this report, the Task Force consulted with a wide range of stakeholders, including consumer
+and other advocacy groups, trade groups, insurance companies and insurance product
+distributors, actuaries, academics, legal experts, state insurance regulators, the NAIC, and other
+stakeholders with relevant knowledge. See Appendix A for a list of organizations and individuals
+providing input to the Task Force. The Task Force also reviewed data, research, and
+publications from both public and private sector sources.
+On July 25, 2019, the Task Force held a public meeting at Treasury to obtain additional input for
+this report. Topics discussed at the meeting included the social need for LTC; the individual
+private LTCI market; employer, group, and worksite LTCI products; state regulation of LTCI;
+the federal government and LTCI; and federal-state partnerships and other financing approaches.
+
+6
+
+“Long-Term Care – The Basics – What is Long-Term Care?” LongTermCare.gov, U.S. Department of Health and
+Human Services, last modified October 2017, available at: https://longtermcare.acl.gov/the-basics/what-is-longterm-care.html.
+7
+
+In this report, “traditional” or “stand-alone” LTCI refers to policies that provide only LTCI coverage, as
+distinguished from “combination” policies or other product designs that combine LTCI with other coverages, such
+as life insurance or an annuity.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 3
+
+Through a posting on Treasury’s website and an announcement at the public meeting, the Task
+Force offered the public an opportunity to provide written comments. The Task Force received
+comments from a total of 16 consumers and consumer advocacy groups, actuarial organizations,
+and industry experts and consultants. 8 This report addresses several recommendations from the
+comments, and incorporates certain data and other information provided by commenters.
+
+Summary of Analysis and Recommendations
+The Task Force organized its analysis and recommendations into four subject areas:
+•
+
+Innovation and Product Development – product development and other innovation in
+the private market, including policies that combine LTCI with other types of insurance
+products or product features offering alternatives to traditional, stand-alone LTCI.
+
+•
+
+Regulatory Efficiency and Alignment – improvements in regulatory efficiency and
+alignment with respect to LTCI, including inflation protection requirements, harmony
+between federal and state laws and regulations, and cross-state subsidization and other
+issues relating to state regulatory review and approval of premium increases.
+
+•
+
+Financial Literacy and Education – the appropriate federal role in financial literacy and
+education relating to LTC needs and LTCI.
+
+•
+
+Tax Incentives – current tax law treatment of LTCI and proposals to provide additional
+tax incentives for the purchase and use of LTCI.
+
+Although public programs providing LTC benefits were not in scope for specific
+recommendations, the Task Force also reviewed several proposed public insurance options as
+described in the Alternative Financing Approaches section of this report.
+Appendix B presents the analysis and recommendations of the Task Force and identifies the
+policymakers and other stakeholders the Task Force considers well positioned to implement each
+recommendation. Following publication of this report, Treasury will continue to monitor
+implementation of the recommendations.
+
+Innovation and Product Development
+In response to the decline in the market for traditional LTCI, insurers have introduced alternative
+product designs and new features to both increase the consumer appeal of LTCI and improve the
+financial returns on LTCI for insurers. These designs and features include combination products,
+limited LTCI, group products, and incidental benefits.
+Innovation and product development have the potential to significantly strengthen the private
+LTCI market and better address the LTC needs of consumers. Accordingly, the Task Force
+8
+
+See “Public Comments Received by the Task Force,” U.S. Department of the Treasury, August 2019, available at:
+https://home.treasury.gov/system/files/226/Public-Comments-Received-by-the-Task-Force.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 4
+
+recommends that federal and state policymakers foster a regulatory environment that encourages
+flexibility, experimentation, and innovation in product design to improve consumer choice and
+access to benefits, while appropriately protecting the rights of consumers and the solvency of
+insurers.
+Combination Products
+Insurers have introduced a variety of products that combine LTCI with different types of
+insurance, primarily life insurance and annuities. These combination products offer potential
+advantages to consumers and insurance distributors, but also present challenges for these groups
+due to their complexity and the wide range of combinations available. Although claims
+experience on these relatively new products is limited, companies report that the incidence of
+claims and other actuarial results to date have been positive.
+Policymakers could benefit from analysis of the impact of combination products on the market
+for LTCI risk protection. The Task Force recommends that actuaries, academics, and other
+stakeholders explore such an analysis, with coordination by FIO.
+Limited LTCI Products
+Compared to traditional LTCI, “short” or “limited” LTCI policies (i.e., policies that pay benefits
+for less than 12 months) generally have lower benefits, but also typically have no deductible or
+waiting period, as well as less stringent underwriting and lower premiums. Because limited
+LTCI emerged later than traditional LTCI, regulation of this market is less mature than the
+traditional market. In late 2018, the NAIC adopted a model act and model regulation for this
+product. However, the states generally have not yet adopted either model.
+The Task Force recommends that federal policymakers work with their state counterparts and
+with private sector stakeholders to evaluate and monitor the market for limited LTCI, including
+potential impacts on the risk pool for longer-term products and on Medicaid. The Task Force
+further recommends that state legislators and insurance regulators take steps to better streamline
+and standardize the regulation of this market.
+Group Products
+The Task Force considered two policy proposals for LTCI group products that were included
+under the NAIC 2017 List, both involving the fiduciary provisions of the Employee Retirement
+Income Security Act of 1974 (ERISA). The first proposal is to create a safe harbor to remove
+potential exposure to ERISA fiduciary liability as a factor in employers’ decisions not to offer
+LTCI to employees. The second proposal is to permit 401(k) and individual retirement account
+(IRA) participants to purchase LTCI within their accounts. The objective of both proposals is to
+promote a more viable group LTCI market by increasing employee participation, resulting in a
+larger and more favorable risk pool for insurers and, potentially, lower premiums.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 5
+
+Based on stakeholder input and an assessment of the market and legal landscapes for the
+employer market, the Task Force does not recommend either option because it is uncertain
+whether either proposal would have a meaningful impact on participation levels.
+Incidental Benefits
+Under most LTCI policies, the insured is not eligible to submit a claim for benefits until he or
+she becomes “chronically ill” as defined under state insurance laws and the Internal Revenue
+Code (Code). Some stakeholders proposed that Congress should amend the Code to permit
+payment of incidental benefits (such as home assessments to identify safety hazards, home
+modifications, or caregiver training for family members) from a LTCI policy prior to the onset of
+chronic illness, without causing the policy to forfeit its tax-qualified status.
+Supporting the ability of those needing LTC to remain in their homes could benefit both
+consumers and insurers. Accordingly, the Task Force encourages industry, federal
+policymakers, and other experts, in consultation with consumer representatives, to identify and
+assess research-based evidence of cost-effective interventions. If cost-effective incidental
+benefits are identified, Congress could consider amending the Code to permit payment of those
+benefits under a tax-qualified LTCI contract prior to the insured becoming chronically ill, subject
+to a monetary cap and other conditions set by regulation.
+
+Regulatory Efficiency and Alignment
+The Task Force considered various recommendations to improve the efficiency and effectiveness
+of regulation of LTCI at the federal and state levels, including federal policies identified in the
+NAIC 2017 List.
+Inflation Protection Under the Health Insurance Portability and Accountability Act of 1996
+(HIPAA)
+Because LTCI policies often remain in force for many years, purchasers of LTCI face a
+significant risk that inflation will erode the value of their benefits over time. Under current state
+laws and regulations, insurers must offer policyholders the right to purchase a policy feature that
+increases benefits at an annual compounded rate not less than 5%. In 2006, when it codified
+requirements for tax-qualified LTCI as part of HIPAA, Congress incorporated the 5% compound
+standard through reference to the 1993 version of the NAIC Long-Term Care Insurance Model
+Regulation (LTCI Model Regulation). 9
+The NAIC and Congress based the 5% compound inflation standard on inflation rates that
+prevailed in the 1980s and 1990s. Since then, particularly following the financial crisis, this
+standard has become a costly feature that increases premiums to levels most consumers will not
+
+9
+
+HIPAA amended the Code to add Section 7702B, which sets forth the requirements for a “qualified long-term care
+insurance contract.” See 26 U.S.C. § 7702B(a)(1).
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 6
+
+accept. The Task Force concludes that inflation protection requirements under HIPAA and state
+insurance laws should be revised to increase the efficiency and effectiveness of regulation.
+To both address outdated inflation protection requirements and provide flexibility to adapt
+inflation protection to evolving economic conditions, the Task Force recommends that Congress
+amend the Code to authorize Treasury to set inflation protections for tax-qualified LTCI.
+Inflation Protection Under the DRA
+In the early 1990s, four states (California, Connecticut, Indiana, and New York) implemented a
+federal-state program known as “Partnerships for Long-Term Care” (Partnership program). As
+part of the Deficit Reduction Act of 2005 (the DRA), Congress extended the Partnership
+program nationwide, subject to specified conditions including inflation protection and other
+consumer protections. 10 The states have adopted widely varying inflation protection
+requirements for LTCI policies under the Partnership program, resulting in a regulatory
+patchwork with uneven consumer protections and additional complexity that makes it more
+difficult to write LTCI. Additionally, high inflation protection mandates in some states may
+raise the costs and reduce the attractiveness of Partnership policies.
+The Task Force recommends that state policymakers—legislators, state Medicaid directors,
+insurance commissioners, and the NAIC—improve regulatory efficiency and effectiveness by
+harmonizing and streamlining inflation protection requirements under the Partnership program.
+Alternatively, Congress should consider delegating to HHS the authority to set Partnership
+program inflation protection requirements.
+Other Consumer Protections
+Apart from inflation protection, both HIPAA and the DRA mandate compliance with certain
+consumer protections contained in the NAIC Long-Term Care Insurance Model Act (LTCI
+Model Act) and the LTCI Model Regulation. However, the DRA defines “model regulation”
+and “model Act” by reference to the NAIC models adopted as of October 2000, while HIPAA
+defines these terms by reference to the January 1993 versions. This cross-referencing in two
+federal statutes of two outdated and conflicting versions of NAIC models creates confusion and
+adds complexity to conducting LTCI business.
+The Task Force recommends that Congress consider options to address this regulatory
+inefficiency. For example, as one option, Congress could consider giving Treasury the authority,
+in consultation with HHS, to set consumer protection standards using one version of the LTCI
+Model Act and LTCI Model Regulation for purposes of both tax qualification under HIPAA and
+Partnership eligibility under the DRA, with flexibility to update the standards periodically (e.g.,
+every 10 years).
+
+10
+
+See 42 U.S.C. § 1396p.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 7
+
+Review and Approval of Rate Increases
+The authority of state insurance regulators to review and approve proposed rate increases for
+LTCI before the insurer implements those changes is a critical factor in the LTCI marketplace.
+Due to the non-uniform nature of the state-by-state rate increase process, policyholders in states
+where regulators have approved rate increases may subsidize the cost of premiums for
+policyholders in other states where regulators have either approved limited increases or rejected
+rate increases in their entirety.
+In 2019, the NAIC identified the regulation of LTCI as the organization’s top priority. The Task
+Force recommends that the NAIC and the states maintain their focus on LTCI and continue
+working together in 2020 to develop a consistent national approach to regulatory reviews of
+LTCI rate increase requests. The Task Force also recommends that FIO continue to monitor and
+report on this issue.
+
+Financial Literacy and Education
+The NAIC 2017 List included a federal education program around retirement security and the
+importance of planning for potential LTC needs. In 2019, Treasury released a report (Financial
+Literacy Report), laying out an appropriate federal role for financial education based on a
+literature review and consultations with experts and stakeholders inside and outside of the
+government. 11 In the Financial Literacy Report, Treasury recommended that the primary federal
+role in this area should be to empower financial education providers, as opposed to attempting to
+reach every American household directly.
+The Task Force recommends that Treasury, HHS, DOL, and other agencies, working through the
+Financial Literacy Education Commission (FLEC), assess federal education resources on LTC
+needs and planning, and modify, update, and supplement these resources as needed.
+
+Tax Incentives
+The NAIC 2017 List included consideration of more generous tax incentives for the purchase of
+LTCI. Multiple stakeholders encouraged the Task Force to consider a range of amendments to
+tax laws or regulations aimed at increasing the take-up of private LTCI. The Task Force
+analyzed several potential new tax incentives and other potential tax reforms.
+In its analysis, the Task Force took into account that the Code already provides favorable income
+tax treatment to LTCI. The Task Force concludes that the proposed incentives, in general, would
+reduce tax revenues and primarily benefit higher-income taxpayers, and may not be fully
+effective in targeting lower and middle-income individuals who need financial protection against
+LTC risks. Finally, the proposals would increase the complexity of the Code and could, in some
+11
+
+U.S. Department of the Treasury, Federal Financial Literacy Reform: Coordinating and Improving Financial
+Literacy Efforts (Treasury, July 2019) [hereinafter Financial Literacy Report], available at:
+https://home.treasury.gov/system/files/136/FFLRCoordinatingImprovingFinancialLiteracyEfforts.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 8
+
+cases, be difficult to implement, monitor, and enforce. For these reasons, the Task Force does
+not recommend adoption of any of the proposed additional tax incentives, with the exception of
+the proposal to eliminate the additional tax on early withdrawal of funds from an IRA, 401(k), or
+403(b) account that are used to pay LTCI premiums.
+
+Alternative Financing Approaches
+Experts and policymakers have proposed a range of alternative approaches to the financing of
+LTC, including public programs administered by the federal and state governments. Most of
+these approaches have focused on either front-end insurance (providing limited coverage for
+short, initial durations) or back-end or catastrophic insurance (coverage for longer durations
+beyond a specified level of need or cost). The Task Force does not recommend pursuing any
+particular alternative financing approach at this time. Policymakers and stakeholders should
+continue to develop, monitor, and analyze LTC and LTCI reform proposals—including those
+discussed in this report—to better understand the advantages and disadvantages of specific
+options, tradeoffs, program costs, and distributional impacts.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 9
+
+The Role of Insurance in Long-Term Care
+As the elderly population continues to grow in both size and as a percentage of the overall
+population, the need for LTSS becomes increasingly important for social welfare. This section
+discusses the prevalence of need, projected future demand, and financing of LTSS, including the
+roles of public programs and the private LTCI market. The section concludes with an overview
+of supply and demand factors impeding the private market.
+
+Prevalence of Need for LTSS
+The terms “long-term care” or “long-term services and supports” encompass a wide variety of
+services provided to individuals with long-term physical or cognitive limitations who need help
+with certain daily activities. These activities include “activities of daily living” (ADLs) and
+“instrumental activities of daily living” (IADLs).
+HIPAA defines ADLs as six basic activities: 12
+•
+
+Eating
+
+•
+
+Toileting
+
+•
+
+Transferring
+
+•
+
+Bathing
+
+•
+
+Dressing
+
+•
+
+Continence
+
+The IADLs include activities necessary for independent life such as paying bills and managing
+money, medication management, meal preparation, shopping, and using the telephone.
+LTSS, therefore, include services such as direct physical assistance with ADLs, meal provision,
+housekeeping services, and transportation services, as well as medical services. These services
+and supports can be provided in individuals’ homes or in institutional settings such as assisted
+living facilities or nursing homes. Individuals’ needs for LTSS vary widely, ranging from roundthe-clock assistance with all six ADLs to assistance with one or two IADLs.
+Table 1 provides summary statistics on the prevalence of difficulty with at least one IADL, the
+prevalence of needing assistance with two or more ADLs, and the use of home health care in
+approximately the previous two years among individuals age 60 and above in the Health and
+Retirement Study (HRS) during 2016. 13 The prevalence of difficulty with IADLs and the need
+12
+
+26 U.S.C. § 7702B(c)(2)(B).
+
+13
+
+The HRS is conducted every two years and follows individuals over time, with new respondents added each round
+to replace deceased respondents. Questions about medical utilization focus mainly on utilization since the previous
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 10
+
+for assistance with ADLs rise sharply in both sexes above age 75. The share using home health
+care in the previous two years rises in parallel with the need for assistance with daily activities.
+Women above age 85 have the highest need for LTSS; around half in this group report having
+difficulty with at least one IADL, and nearly a quarter need assistance with two or more ADLs.
+A lower share (17%) used home health care in the past two years.
+Table 1: Prevalence of Serious Disability and Use of Long-Term Services and
+Supports Among Those Age 60 and Over
+Share Having
+Share Needing Help
+Share with Home
+Difficulty with at Least with Two or More of
+Health Care Use in
+One IADL (%)
+Five ADLs (%)
+Past Two Years (%)
+Whole
+16
+5
+3
+Sample
+Female
+60-69
+11
+3
+0
+70-84
+
+18
+
+5
+
+3
+
+85+
+
+50
+
+24
+
+17
+
+Male
+60-69
+
+9
+
+2
+
+1
+
+70-84
+
+15
+
+3
+
+2
+
+85+
+
+39
+
+16
+
+10
+
+Notes: The sample consists of respondents in the 2016 HRS age 60+. The sample size is 13,153. All means
+are weighted using sample weights for the 2016 wave. For purposes of the HRS, IADLs include preparing
+hot meals, shopping for groceries, using the telephone, managing medications, and managing money. ADLs
+include dressing, bathing, eating, transferring into or out of a bed or chair, and using the toilet.
+
+Table 2 shows statistics on nursing home use and estimated spending on stays in excess of 90
+days in the previous two years among HRS respondents age 60 and over. 14 The table focuses on
+stays longer than 90 days to illustrate exposure to financial risk for stays not covered by
+insurance (private LTCI plans generally have an exclusion period of 90 days). As Table 2
+shows, spending on nursing homes is estimated to be only about $2,900 on average over two
+years across those age 60 and over. However, this average figure encompasses a wide range of
+
+interview (approximately two years earlier) for continuing respondents and in the last two years for new
+respondents. For more information about the HRS, see “The Health and Retirement Study – About,” available at:
+https://hrs.isr.umich.edu/about.
+14
+Because the HRS tracks only the total number of nights in a nursing home in the past two years, not whether any
+particular stay is longer than 90 days, the table may slightly overstate the risk of long-term stays. The HRS assumes
+$225 in spending for one night in a nursing home based on the average cost according to HHS. See
+“LongTermCare.gov – Costs of Care,” available at: https://longtermcare.acl.gov/costs-how-to-pay/costs-ofcare.html.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 11
+
+spending. Among these individuals, the risk of having a long nursing home stay is low, but the
+average cost of a long-term stay is approximately $112,000.
+Table 2: Spending on Stays of More Than 90 Nights in a Nursing Home
+
+Whole Sample
+
+13
+
+Estimated Mean
+Spending on
+Stays of More
+Than 90 Nights
+Across Whole
+Sample ($)
+2,898
+
+Female
+60-69
+
+2
+
+407
+
+0.3
+
+136,629
+
+70-84
+
+11
+
+2,545
+
+2.7
+
+94,150
+
+85+
+
+105
+
+23,651
+
+18.8
+
+125,957
+
+Male
+60-69
+
+3
+
+636
+
+0.7
+
+91,578
+
+70-84
+
+9
+
+1,916
+
+1.8
+
+108,315
+
+85+
+
+51
+
+11,584
+
+11.4
+
+102,047
+
+Mean Number of
+Nights in a Nursing
+Home in Excess of
+90 Nights in the
+past Two Years
+
+Share with More
+Than 90 Nights
+in a Nursing
+Home in past
+Two Years (%)
+
+Mean
+Spending for
+Those with
+More Than 90
+Nights ($)
+
+2.6
+
+111,744
+
+Notes: The sample consists of respondents in the 2016 HRS age 60+. The sample size is 13,153. All means are
+weighted using sample weights for the 2016 wave. Returning respondents were asked about nursing home
+utilization since their previous interview approximately two years earlier; new respondents were asked about
+utilization in the past two years.
+
+Projections of Demand for LTSS
+The share of the U.S. population who are elderly is expected to rise steadily throughout most of
+the twenty-first century. In their 2019 report, the trustees for Social Security project that the
+ratio of the number of people age 65 and over to the number of people age 15 through 64 (the
+aged-dependency ratio) will rise from 0.268 in 2018 to 0.425 in 2075, an increase of nearly
+60%. 15
+Accordingly, the demand for LTSS is projected to rise in upcoming years. The CBO projected in
+2013 that spending for LTSS for the elderly (age 65 and above) will rise from 1.3% of gross
+domestic product in 2010 to 3% in 2050, if age- and sex-specific rates of impairment are held
+
+15
+
+Board of Trustees of the Federal Old-Age and Survivors Insurance and Federal Insurance Trust Fund, The 2019
+Annual Report of the Board of Trustees of the Federal Old-Age and Survivors Insurance and Federal Disability
+Insurance Trust Funds (Board of Trustees, April 2019), available at:
+https://www.ssa.gov/OACT/TR/2019/tr2019.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 12
+
+constant over time and the increase is due solely to the aging of the population. 16 If increased
+obesity results in higher age-specific impairment rates, spending for LTSS for the elderly will
+rise to 3.3% of gross domestic product in 2050, according to the CBO. These estimates do not
+include the value of informal care. The CBO also projected that the share of nonelderly adults
+engaged in caregiving, either formally or informally, will increase from around 5% in 2010 to
+10% in 2050, if impairment rates are held constant, and to 11% under the more pessimistic
+scenario of increasing impairment rates.
+Dementia, LTSS, and LTCI
+Dementia is a general term for impairment in a person’s ability to remember, think, or make
+decisions that interferes with performing everyday activities. Alzheimer’s disease is the most
+common type of dementia. According to the Centers for Disease Control and Prevention (CDC),
+5.8 million Americans have Alzheimer’s, and the number of individuals with dementia is
+expected to triple over the next 40 years. Deaths from Alzheimer’s in the United States
+increased by 145% from 2000 to 2017, making Alzheimer’s the sixth leading cause of death (and
+the third leading cause when combined with other types of dementia). Part of the increase may
+be due to a greater emphasis on reporting dementia and Alzheimer’s disease as a cause of death.
+In any case, the burdens of dementia fall heavily on families and other caregivers—more than 16
+million Americans provide unpaid care for people with Alzheimer’s or other dementias. 17
+The CDC estimates that in 2016, the percentage of LTSS users diagnosed with Alzheimer’s
+disease or other dementias was 41.9% for residential care community residents, 44.5% for
+hospice patients, and 47.8% for nursing home residents. 18 Because a diagnosis of severe
+cognitive impairment triggers coverage under most LTCI policies, many LTCI claims (roughly
+half, according to some industry sources), are filed by policyholders with Alzheimer’s or other
+dementias. Therefore, dementia already accounts for a large portion of LTCI claim payments.
+While there is evidence that the prevalence of dementia is declining in the United States, 19
+population aging is likely to increase demand for LTSS in the future, which may in turn increase
+16
+
+Congressional Budget Office, Rising Demand for Long-Term Services and Supports for Elderly People (CBO,
+June 2013), available at: https://www.cbo.gov/publication/44363.
+17
+
+See “Promoting Health for Older Adults,” Centers for Disease Control and Prevention, last modified September
+2019, available at: https://www.cdc.gov/chronicdisease/resources/publications/factsheets/promoting-health-forolder-adults.htm; “What Is Dementia?” Centers for Disease Control and Prevention, last modified April 2019,
+available at: https://www.cdc.gov/aging/dementia/index.html; Alzheimer’s Association, 2019 Alzheimer’s Disease
+Facts and Figures (Chicago: Alzheimer’s Association, 2019), 24-25, available at:
+https://www.alz.org/media/Documents/alzheimers-facts-and-figures-2019-r.pdf; Ellen A. Kramarow and Betzaida
+Tejada-Vera, “Dementia Mortality in the United States, 2000-2017,” National Vital Statistics Reports 68, no. 2
+(March 2019), available at: https://brainhealthinstitute.rutgers.edu/wp-content/uploads/2019/03/DementiaReport_March-2019.pdf; “Alzheimer's Disease and Healthy Aging,” Centers for Disease Control and Prevention,
+last modified September 2019, available at: https://www.cdc.gov/aging/aginginfo/alzheimers.htm.
+18
+
+“National Center for Health Statistics: Alzheimer’s Disease,” Centers for Disease Control and Prevention, last
+modified March 2016, available at: https://www.cdc.gov/nchs/fastats/alzheimers.htm.
+
+19
+
+Kenneth M. Langa et al., “A Comparison of the Prevalence of Dementia in the United States in 2000 and 2012,”
+JAMA Intern Med. 177, no. 1 (January 2017): 51-58, available at: https://www.ncbi.nlm.nih.gov/pubmed/27893041.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 13
+
+demand for financial protection against LTSS risks. In addition, higher than expected claims,
+together with other factors, have led many insurers to set aside more assets to cover future
+liability and to increase premiums on both in-force and newly issued policies. Notwithstanding
+these challenges, the social need for protection against the costs of LTSS for dementia is also a
+major opportunity for insurers to develop new products and services to improve the quality of
+life of a large and growing segment of the U.S. population.
+
+Financing of LTSS
+Payment Sources
+Public financing of LTSS in the United States is provided largely through the Medicaid program.
+To be eligible to receive LTSS through Medicaid, individuals generally must be 65 or over (or
+found to be disabled by the Social Security Administration (SSA)), and must meet tests designed
+to limit benefits to individuals with very low income and wealth. Because Medicaid is partly
+financed by the states, eligibility and benefits vary, but rules follow broad federal guidelines.
+Formulas for determining Medicaid eligibility are complex; in general, single individuals with
+more than $2,000 in assets, other than their home and car, are not eligible. 20 All states must
+cover nursing home care through Medicaid, and nearly all offer some level of home- and
+community-based care through waivers provided by CMS. 21
+Based on data from the NHEA, Medicaid was the largest payer of LTSS expenses in 2018 (total
+payments of $159.1 billion), followed by out-of-pocket spending ($55.0 billion). 22 By contrast,
+an industry association estimates that private LTCI paid $10.3 billion in claims in 2018. 23
+
+20
+
+Married couples with both spouses applying for nursing home coverage are allowed $3,000 in countable assets to
+qualify for Medicaid. However, if only one spouse applies, the non-applicant is permitted to transfer a specified
+amount of assets (from $25,728 to $128,640 in 2020) to the non-applicant spouse. See “2020 SSI and Spousal
+Impoverishment Standards,” CMS, available at: https://www.medicaid.gov/sites/default/files/2020-01/ssi-andspousal-impoverishment-standards_0.pdf. In addition, the value of the applicant’s primary home does not count
+against the asset limit.
+21
+
+Section 915(c) of the Social Security Act, 42 U.S.C. §1396n, establishes standards for these waivers.
+
+22
+
+Amounts provided by CMS Office of the Actuary. For information about the NHEA, see “National Health
+Expenditure Data: Historical,” CMS, available at: https://www.cms.gov/Research-Statistics-Data-andSystems/Statistics-Trends-and-Reports/NationalHealthExpendData/NationalHealthAccountsHistorical. Although
+the NHEA tracks Medicare spending, that program only covers home health and skilled nursing care for a relatively
+short period (100 days) following an acute episode such as surgery. Out-of-pocket expenses are likely understated
+in the NHEA because it does not include payments to independent home health care providers. One study using the
+National Long-Term Care Survey suggests that nearly half of LTSS (as measured by hours of care) are paid for out
+of pocket. John Ermisch and Alexander L. Janus, “Who pays for home care? A study of nationally representative
+data on disabled older Americans,” BMC Health Services Research 15, no. 301 (July 2015), available at:
+https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-015-0978-x.
+23
+
+“Long-Term Care Insurance Industry Paid $10.3 Billion in Claims in 2018,” American Association for LongTerm Care Insurance, last modified January 2019, available at: https://www.aaltci.org/news/long-term-careinsurance-association-news/long-term-care-insurance-industry-paid-10-3-billion-in-claims-in-2018.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 14
+
+The Value of Informal Care
+Notably, statistics on LTSS spending omit the value of informal (and unpaid) care. Estimates of
+the value of this care range widely depending on the value attributed to the unpaid hours from
+caregivers. A 2013 study estimated that the total value of informal care for those age 65 and
+over in 2011 was $234 billion, while a 2015 study estimated that value to be $522 billion for the
+same year. 24 The difference between the two analyses rested largely on whether to value the
+caregivers’ hours at the wage of a home health aide or at the actual or imputed wage of the
+caregiver, which gives a higher value for their time in most cases.
+A later study, in 2018, noted that the method used by the 2013 and 2015 analyses to estimate the
+value of informal care does not take into account the effects on caregivers from future foregone
+wages from leaving employment, the value of foregone leisure time, or intrinsic benefits to
+caregivers from caregiving. 25 Using methods designed to account for these other costs and
+benefits, the 2018 study found that the value of informal care in 2011 was $277 billion. In all
+three of these studies, the estimated total value of informal care in 2011 exceeded formal
+spending on LTSS for the elderly (age 65 and above) in that year, which the CBO estimated to
+be $192 billion.
+Private LTCI
+Since the 1970s, private insurers have offered LTCI to protect against the financial risk of high
+LTSS expenditures. Unlike short-term medical insurance or publicly-funded Medicaid, the
+structure of LTCI relies on the pre-funding of benefits. Typically, purchasers buy LTCI at
+relatively younger ages, in their 50s or 60s, and then hold the insurance while paying premiums
+for a lengthy period, often over twenty years.
+The private market for traditional individual LTCI is in steep decline. After rising from 380,000
+in 1990 to a peak of 754,000 in 2002, the number of individual LTCI policies sold declined to
+129,000 by 2014. 26 As shown in Figure 1, based on sales reports from the LIMRA
+organization, 27 this downward trend accelerated over the five-year period from 2014 to 2018, as
+CBO, Rising Demand, 2; Amalavoyal V. Chari et al., “The Opportunity Costs of Informal Elder‐Care in the
+United States: New Estimates from the American Time Use Survey,” Health Services Research 50, no. 3 (June
+2015): 871-882, available at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4450934/.
+24
+
+25
+
+Norma B. Coe, Eric B. Larson, and Meghan M. Skira, “A Comprehensive Measure of the Costs of Caring for a
+Parent: Differences According to Functional Status,” Journal of the American Geriatrics Society 66, no. 10
+(September 2018): 2003-2008, available at: https://onlinelibrary.wiley.com/doi/full/10.1111/jgs.15552.
+26
+
+Marc A. Cohen, “The State of the Long-Term Care Insurance Market,” in The State of Long-Term Care
+Insurance: The Market, Challenges and Future Innovations, ed. by Eric C. Nordman (Kansas City: NAIC and the
+Center for Insurance Policy and Research, May 2016), 7-29, available at:
+https://www.naic.org/documents/cipr_current_study_160519_ltc_insurance.pdf.
+27
+
+LIMRA is a worldwide research, consulting, and professional development trade association focused on the life
+insurance industry. It is a recognized source for product data and other metrics in the U.S. life insurance, annuity,
+and LTCI markets.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 15
+
+the industry sold only 67,000 individual policies in 2017 and 57,000 in 2018. 28 In addition, as
+shown in Figure 2, individual new annualized premiums fell to record lows, below $200 million,
+in 2017 and 2018. Meanwhile, Figure 3 shows that the level of combined premiums paid by inforce policyholders has increased only modestly in recent years. Lower sales have occurred even
+as the share of the population in the age group most likely to purchase private LTCI, those age
+60 to 69, rose from 9.5% in 2010 to 11.4% in 2018, based on Census population estimates.
+
+New Lives
+
+Figure 1: Individual LTCI New Lives
+
+250,000
+
+200,000
+
+150,000
+
+100,000
+
+50,000
+
+0
+
+Source: LIMRA.
+
+28
+
+The market for employer-sponsored group LTCI has fallen even more precipitously, with annual new lives
+insured reaching 140,000 in 2012 before declining to 22,000 by 2015. Currently, only one carrier continues to offer
+employer-sponsored group LTCI. This discussion does not include LTCI products offered to employees through
+employers at the worksite.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 16
+
+$ Millions
+
+Figure 2: Individual LTCI Annualized Premiums
+
+1,200
+
+1,000
+
+800
+
+600
+
+400
+
+200
+
+0
+
+Source: LIMRA.
+
+$ Millions
+
+Figure 3: Individual LTCI Premiums in Force
+
+12,000
+
+10,000
+
+8,000
+
+6,000
+
+4,000
+
+2,000
+
+0
+
+Source: LIMRA.
+
+Table 3 shows ownership rates of private LTCI in the 2016 HRS for respondents age 60 and
+above, by gender, marital status, age, and wealth quintile. Overall, 11.4% of those age 60 and
+over own a private LTCI policy. Men own policies at a slightly higher rate than women, and
+married people are more likely to own a policy than are unmarried individuals. Ownership rates
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 17
+
+rise by wealth quintile, with around one-fifth of the top quintile having bought policies compared
+to only 6-7% of the bottom two quintiles. Ownership rates also rise with age, up to age 85.
+Additionally, Table 3 updates a 2011 study that reported the same statistics for respondents in the
+2008 HRS. 29 Compared with 2008, overall ownership rates declined slightly by 2016, from
+13.8% in 2008 to 11.4%. The declines from 2008 to 2016 were driven by those age 60 to 69, the
+group most likely to purchase new LTCI; ownership rates among those age 70 and over rose
+between 2008 and 2016. This finding is consistent with reports from the industry, as shown in
+Figures 1-3, that sales are in sharp decline and the number of in-force policies has plateaued.
+In summary, older individuals are exposed to financial risk from the consequences of serious
+disability. This exposure may be increasing over time, as sales of new policies decline and the
+age 60 to 69 cohort appear to be less likely to purchase LTCI than previous cohorts. The
+eligibility requirements for Medicaid and the limited and declining purchasing of private LTCI
+imply that a large proportion of LTC costs are paid for out-of-pocket by individuals not covered
+by Medicaid.
+Table 3: Private Long-Term Care Insurance Ownership Rates Among the Elderly
+Percentage by Wealth Quintile
+Whole Sample
+Top
+Fourth Third Second Bottom
+Whole Sample
+11.4
+21.8
+12.7
+9.8
+6.5
+6.1
+By Gender
+Men
+
+12.0
+
+23.6
+
+13.4
+
+10.8
+
+6.6
+
+6.7
+
+Women
+
+10.8
+
+20.0
+
+12.0
+
+8.7
+
+6.5
+
+5.3
+
+Married
+
+12.7
+
+21.8
+
+12.8
+
+9.3
+
+7.3
+
+6.1
+
+Single
+
+9.5
+
+22.0
+
+12.6
+
+10.6
+
+5.7
+
+6.1
+
+60-64
+
+9.9
+
+18.4
+
+11.6
+
+7.4
+
+5.5
+
+5.4
+
+65-69
+
+13.3
+
+22.9
+
+13.2
+
+10.3
+
+8.1
+
+8.0
+
+70-74
+
+15.1
+
+27.5
+
+12.9
+
+14.5
+
+8.3
+
+5.6
+
+75-79
+
+17.2
+
+29.2
+
+20.9
+
+16.4
+
+7.4
+
+6.4
+
+80-84
+
+18.9
+
+31.3
+
+17.5
+
+18.6
+
+12.3
+
+12.4
+
+85+
+
+16.0
+
+30.2
+
+21.3
+
+10.1
+
+9.0
+
+8.3
+
+By Marital Status
+
+By Age Cohort
+
+Notes: The sample consists of respondents in the 2016 HRS age 60+. The sample size is 13,271. All means are
+weighted using sample weights for the 2016 wave. Wealth is defined as total non-housing wealth.
+
+29
+
+Jeffrey R. Brown and Amy Finkelstein, “Insuring Long-Term Care in the United States,” Journal of Economic
+Perspectives 25, no. 4 (Fall 2011): 119-42, available at: https://www.aeaweb.org/articles?id=10.1257/jep.25.4.119.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 18
+
+Factors Impeding the Market for Private LTCI
+The utilization statistics in Table 2 show that individuals over age 60 face a risk of having to stay
+a greater number of nights in nursing homes, thereby incurring significant expenses.
+Furthermore, nursing homes represent only a part of spending on LTSS; as Table 1 shows, a
+small but significant share of individuals also use paid home health care or require assistance
+with two or more ADLs.
+Standard economic models suggest that in the presence of potentially severe financial risk,
+individuals should be willing to pay to insure themselves against that risk. However, private
+LTCI appears to be underutilized relative to the potential demand and relative to the market for
+short-term medical insurance. Factors impeding the development of the market can largely be
+divided into the supply side and the demand side.
+
+Supply-Side Factors
+•
+
+Asymmetric information and adverse selection. Like other insurers, LTC insurers face
+the challenge of managing their risk pool when individuals purchasing insurance know
+more about their own risks than the insurer. This asymmetry of information between
+seller and buyer likely leads to buyers purchasing insurance only when they believe the
+benefits they will receive outweigh the premiums they will pay. This tilts the market
+towards buyers with higher average costs, driving up premiums and further limiting the
+pool of potential buyers.
+o Underwriting. LTC insurers manage adverse selection with medical underwriting,
+i.e., the practice of assessing applicants for policies for medical issues likely to result
+in future use of LTSS. A 2016 study found that between 2000 and 2009,
+underwriting standards tightened and the share of applications rejected for failing
+underwriting rose. 30 Another 2016 study found that 20-25% of applicants for private
+LTCI are ultimately rejected on medical grounds. 31 More recent data suggests that
+firms may be starting to relax underwriting standards by reducing requirements for
+medical testing in the past few years. 32
+
+•
+
+30
+
+Moral hazard. Beneficiaries of insurance incur a lower cost for services covered by
+insurance and, as a result, may use those services more than they would if they did not
+have insurance--a phenomenon is known as “moral hazard.” A 2019 study found
+evidence of significant moral hazard in the use of home care (and, potentially, nursing
+
+LifePlans, Inc., “Tolerating Risk: A Look at LTC Underwriting Strategies,” Behind the Data, January 2011.
+
+31
+
+Portia Y. Cornell et al., “Medical Underwriting in Long-Term Care Insurance: Market Conditions Limit Options
+for Higher-Risk Consumers,” Health Affairs 35, no. 8 (August 2016): 1494-1503, available at:
+https://www.healthaffairs.org/doi/10.1377/hlthaff.2015.1133.
+32
+
+Chris Giese, Allen Schmitz, and Claude Thau, “2019 Milliman Long-Term Care Insurance Survey,” Broker World
+Magazine, July 2019, available at: https://brokerworldmag.com/2019-milliman-long-term-care-insurance-survey/.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 19
+
+homes) among owners of private LTCI. 33 Another study, which surveyed private LTCI
+claimants, found that the majority reported they would have used less paid care if they
+had not had insurance. 34 Insurers must take moral hazard into account when pricing
+plans, which may raise premiums above what some purchasers are willing to pay.
+The issues of adverse selection and moral hazard are common to all insurance markets and not
+unique to private LTCI. Other insurance markets, however, have features that address adverse
+selection, such as a mandate for the purchase of insurance or a subsidy, both of which have the
+effect of improving the risk pool. For example, automobile owners in all states are required to
+purchase liability insurance, and employers usually subsidize health insurance they offer to
+employees.
+In addition, management of these supply-side factors can impose significant administrative costs
+on private LTCI, resulting in low comprehensiveness (share of LTSS spending paid for by
+private LTCI) and high “loads,” which is a measure of the difference between the expected
+present discounted value (EPDV) of future benefits received and the EPDV of future premiums
+paid over the life of the policy.
+
+Demand-Side Factors
+•
+
+Use of substitutes for private LTCI
+o Medicaid. As discussed above, Medicaid covers LTSS for individuals with very low
+income and assets. Therefore, Medicaid pays for some services that would be
+covered by private LTCI, which reduces the incentive to purchase private LTCI.
+According to studies conducted by the same authors in 2008 and 2011, for the lower
+60% of the wealth distribution, it is rational not to purchase actuarially fair private
+LTCI because of the availability of Medicaid. 35 For example, for a 65-year-old
+woman at the median of the wealth distribution, 75% of the EPDV of the benefits of a
+private LTCI policy would be paid for by Medicaid in the absence of the policy,
+significantly reducing the policy’s net financial benefit. Other papers have
+maintained that, in practice, the effect of Medicaid may not be as pronounced. A
+2018 paper modeled the effects on private LTCI purchase, savings, and nursing home
+
+33
+
+R. Tamara Konetzka et al., “Moral Hazard and Long-Term Care Insurance,” The Geneva Papers on Risk and
+Insurance: Issues and Practice 44, no. 2 (April 2019): 231-251, available at:
+https://link.springer.com/article/10.1057%2Fs41288-018-00119-1.
+
+34
+Marc A. Cohen, Jessica S. Miller, and Xiaomei Shi, “Following an Admissions Cohort: Care Management, Claim
+Experience and Transitions among an Admissions Cohort of Privately Insured Disabled Elders over a 16 Month
+Period,” Office of the Assistant Secretary for Planning and Evaluation, May 2007, available at:
+https://aspe.hhs.gov/system/files/pdf/75086/16moclm.pdf.
+35
+
+Jeffrey Brown and Amy Finkelstein, “The Interaction of Public and Private Insurance: Medicaid and the LongTerm Care Insurance Market,” American Economic Review 98, no. 3 (June 2008): 1083-1102, available at:
+https://www.aeaweb.org/articles?id=10.1257/aer.98.3.1083; Brown and Finkelstein, “Insuring Long-Term Care,”
+119-42.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 20
+
+entry by single elderly women if Medicaid is assumed to be unavailable. The study
+found that the main effects were increased savings and reduced nursing home entry,
+with only a small increase in private LTCI purchase. 36
+o Unpaid care. As discussed earlier in this section of the report, the aggregate value of
+unpaid care is likely higher than the value of paid care. A 2015 study found that the
+presence of LTCI coverage leads to reduced reliance on informal care, fewer children
+residing with parents, and a greater likelihood that children will be in the formal labor
+force. 37 These results suggest that the ability to receive informal care from family
+results in lower demand for private LTCI. Similarly, a 2012 survey found that
+respondents who reported receiving care from family were less likely to buy private
+LTCI. 38
+•
+
+Bequest motives. Some sellers of private LTCI present the preservation of assets for
+heirs as a reason to purchase the product. A 2018 study, however, suggested that a desire
+to leave assets to heirs can suppress demand for private insurance because these motives
+reduce the negative consequences of postponing consumption in order to save. 39
+
+•
+
+Lack of information and awareness. Two surveys, one published in 2012 and the other
+in 2015, have studied individuals’ awareness of LTC needs and financing. 40 In general,
+respondents exhibited low knowledge of LTC costs, ways to finance those costs, and
+private LTCI. For example, the 2015 survey found that only 20% of respondents
+correctly estimated the average cost of a month in a nursing home and only 25% correctly
+identified Medicaid as the government program that pays the most for LTSS. In the 2012
+survey, 72% of respondents reported they knew only “a little” about private LTCI, while
+29% believed incorrectly that Medicare covered LTSS.
+
+•
+
+Lack of trust in insurers. The same surveys assessed respondents’ level of trust in LTC
+insurers as low. In the 2015 survey, 32% of respondents agreed with the statement “I do
+not trust private insurers.” In the 2012 survey, 46% of respondents agreed with the
+statement “I am concerned that an insurance company might deny reasonable claims for
+
+36
+
+Geena Kim, “Medicaid Crowd-Out of Long-Term Care Insurance with Endogenous Medicaid
+Enrollment,” Journal of Human Capital 12, no. 3 (Fall 2018): 431-474, available at: https://doi.org/10.1086/698134.
+37
+
+Norma B. Coe, Gopi Shah Goda, and Courtney Harold Van Houtven, “Family Spillovers of Long-Term Care
+Insurance,” National Bureau of Economic Research, Working Paper no. w21483 (August 2015), available at:
+https://www.nber.org/papers/w21483.
+
+38
+Jeffrey R. Brown, Gopi Shah Goda, and Kathleen McGarry, “Long-Term Care Insurance Demand Limited by
+Beliefs about Needs, Concerns about Insurers, and Care Available from Family,” Health Affairs 31, no. 6 (June
+2012): 1294-1302, available at: https://doi.org/10.1377/hlthaff.2011.1307.
+39
+
+Lee M. Lockwood, “Incidental Bequests and the Choice to Self-Insure Late-Life Risks,” American Economic
+Review 108, no. 9 (September 2018): 2513-50, available at:
+https://www.aeaweb.org/articles?id=10.1257/aer.20141651.
+40
+
+Brown, Goda, and McGarry, “Long-Term Care Insurance Demand,” 1294-1302; “Findings from the Survey of
+Long-Term Care Awareness and Planning,” Office of the Assistant Secretary for Planning and Evaluation, July
+2015, available at: https://aspe.hhs.gov/system/files/pdf/110366/SLTCAPrb.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 21
+
+long-term care,” while 58% of respondents expressed concern that their premiums would
+increase. In addition, policyholders in recent years have experienced a number of
+unexpected premium rate increases, and this history is likely an impediment to growing
+the market for private LTCI.
+•
+
+Premiums, costs and loads. Lower demand for LTCI is likely attributable in part to the
+high level of premiums charged under new LTCI policies compared to older designs. 41
+Premiums vary widely and are based on multiple factors, including the insured’s age,
+gender, and health, the period of coverage selected, the elimination period, and the
+premium for optional riders. The administrative costs and high loads of private LTCI
+also play a role in limiting demand. 42 For additional information on LTCI pricing, see
+the “Premium Increases on LTCI” box in the Regulatory Efficiency and Alignment
+section of this report.
+
+41
+
+A recent report estimates that in 2019 the average individual LTCI policyholder paid $3,036 during the first year
+of coverage, 2% more than in 2018. LIMRA, U.S. Individual Long-Term Care Insurance (Annual Review 2019), 3.
+
+42
+
+The 2012 survey reported that, in response to open-ended questions, the most common reason cited for not
+purchasing private LTCI was the cost. The authors noted, however, that this answer does not distinguish among
+potential inhibitors such as lack of actuarial fairness, administrative costs, and affordability of premiums.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 22
+
+Innovation and Product Development
+In response to the decline of LTCI in the traditional market, insurers have introduced alternative
+product designs and new features to both increase the consumer appeal of LTCI and improve
+financial returns on this product line for insurers. In addition, insurers and industry experts have
+researched and proposed new designs and features that have not been introduced in the market
+for several reasons, including regulatory considerations and uncertain demand from consumers
+and insurance distributors. This section of the report describes several innovations that have
+generated activity and attracted attention from insurers, consumers, regulators, and other
+stakeholders.
+Recommendation: Overall, the Task Force believes that innovation and product development
+have the potential to significantly strengthen the private LTCI market and better address the LTC
+needs of consumers. 43 Accordingly, the Task Force recommends that federal and state
+policymakers and regulators foster a regulatory environment that encourages flexibility,
+experimentation, and innovation in product design to improve consumer choice and access to
+benefits, while appropriately protecting the rights of consumers and the solvency of insurers.
+
+Combination Products
+Insurers have introduced a variety of products that combine LTCI with other types of insurance.
+One popular “combination” or “hybrid” product combines a life insurance policy with a rider
+that accelerates payment of the death benefit for qualifying “chronic illness” (as defined under
+federal tax law) needs. 44 Another common design features a life insurance policy that
+accelerates the death benefit for qualifying LTC needs. These accelerated chronic illness or
+accelerated LTC riders limit the payout to 100% of the death benefit amount. Insurers also offer
+life insurance policies with extension of benefits riders that allow payouts higher than the death
+benefit. 45 Finally, some insurers offer deferred annuity contracts with LTC riders that also allow
+payouts exceeding the death benefit.
+Figures 4-6 present data for combination products during the five years from 2014 to 2018. Life
+combination products generated $4.3 billion in premiums in 2018, which is 2% lower than in
+43
+
+The NAIC has studied and commented on the important role of innovation in LTC financing. For example, a
+2016 study by the NAIC’s research arm aimed to stimulate debate to support innovation and the future development
+of LTC. See National Association of Insurance Commissioners and the Center for Insurance and Policy Research,
+The State of Long-Term Care Insurance: The Market, Challenges and Future Innovations, ed. by Eric C. Nordman
+(Kansas City: NAIC and the Center for Insurance Policy and Research), May 2016, available at:
+https://www.naic.org/documents/cipr_current_study_160519_ltc_insurance.pdf. As another example, the NAIC
+2017 List was produced by the NAIC’s Long Term Care Innovations (B) Subgroup.
+44
+
+Chronic illness riders may have triggers identical to traditional LTCI (i.e., severe cognitive impairment or inability
+to perform two ADLs), but they are regulated differently for federal tax law and state law purposes, and cannot be
+marketed as LTCI.
+45
+
+Stakeholders indicated that some EOB riders pay up to two or three times higher than the death benefit amount.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 23
+
+2017 but almost 80% higher than $2.4 billion in premiums in 2014. New policy counts increased
+2% year-over-year in 2018, with over 400,000 policies sold, a fourfold increase compared to the
+number of new policies sold in 2014. Measured by new lives insured, life combination products
+constituted more than 87% of the market for individual LTCI solutions in 2018. 46 Annuity
+combination sales reached $575 million in 2018, 4.5% higher than the prior year, while the
+number of contracts sold grew from 4,940 to 5,130, or 4%.
+Figure 4: Life Combination Premiums
+
+$ Millions
+4,500
+
+4,000
+
+3,500
+
+3,000
+
+2,500
+
+2,000
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+Source: LIMRA.
+
+46
+
+Source: LIMRA.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 24
+
+Figure 5: Life Combination New Lives
+
+New Lives
+450,000
+400,000
+350,000
+300,000
+250,000
+200,000
+150,000
+100,000
+50,000
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+Source: LIMRA.
+
+Figure 6 : Annuity Combination Premiums
+$ Millions
+600
+575
+550
+525
+500
+475
+450
+425
+400
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+Source: LIMRA.
+
+Combination products offer potential advantages from the consumer perspective, particularly for
+those consumers who are deterred by the “use or lose” aspect of stand-alone LTCI policies. The
+underlying life insurance policy builds cash value and provides a death benefit even if the
+policyholder does not make a claim for LTCI expenses. The ability to combine different
+coverages into a single policy, with one purchasing decision instead of two or more, appeals to
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 25
+
+some consumers. In addition, consumers may perceive that premiums for stand-alone LTCI, or
+for both a life insurance policy and a stand-alone LTCI policy, are too expensive and that a
+combination product is more affordable. 47
+On the other hand, navigating the market for combination products can be challenging for both
+consumers and distributors. Because these products differ from each other in their basic designs
+(accelerated benefits, extension of benefits, and either a life insurance or an annuity chassis),
+pricing, and features, selecting an appropriate solution to an individual’s particular needs can be
+highly complex. For this reason, the quality of consumer information and education, the clarity
+of marketing materials, and the training of insurance producers are important attributes in the
+market.
+From the insurers’ perspective, combination products are less risky than LTC stand-alone
+products. 48 According to a 2017 survey of 11 insurers in the LTCI market, the incidence of
+claims and other actuarial results with respect to combination products have been positive for
+insurers. 49 Given their consumer appeal, lower risk profile, and favorable actuarial experience,
+combination products are likely to continue growing in variety and volume (although cost may
+limit their upside potential). 50
+Recommendation: Policymakers could benefit from analysis of the impact of combination
+products on the market for LTC risk protection. To the extent that combination products are
+attracting purchasers who would otherwise buy stand-alone products, they are not necessarily
+expanding overall LTCI coverage. However, if combination products are attracting consumers
+who would not otherwise buy LTC protection, on balance they likely are increasing coverage.
+The Task Force recommends that actuaries, academics, and other stakeholders explore such an
+analysis, with coordination by FIO.
+
+47
+Comparative pricing between combination products and stand-alone LTCI is not straightforward because the
+products provide different coverages with different features and payment structures. For a comparison of premiums
+and benefits under life combination products, annuity combination products, and stand-alone LTCI at issue ages 50
+and 65, see Carl Friedrich et al., “Unlocking Potential – New Combination Long-Term Care Insurance Solutions
+Show Promise,” Contingencies Magazine, May/June 2019, Figures 2 and 3, available at:
+http://contingencies.org/unlocking-potential-new-combination-long-term-care-insurance-solutions-show-promise/.
+48
+
+See “Quantification of the Natural Hedge Characteristics of Combination Life or Annuity Products Linked to
+Long Term-Care Insurance,” Milliman, March 2012, available at:
+https://www.soa.org/globalassets/assets/files/research/projects/research-2012-03-quant-nat-hedge-report.pdf.
+
+49
+
+Friedrich et al, “Unlocking Potential.”
+
+50
+
+Earlier versions of life combination products were largely funded by single premiums, requiring large up-front
+payments compared to a recurring premium design. A 2018 LIMRA market overview found that in 2017, the
+average single premium for a life combination product with an extension of benefits rider was $91,000, well beyond
+the price range of the middle market (households with annual income of $35,000 to $99,999). However, the
+overview noted that newer recurring premium policies offer more affordable premiums, and that life combination
+products with chronic illness or LTC acceleration riders can be less expensive.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 26
+
+Other New Product Designs
+“Morphing” Policies
+Innovation and experimentation in the LTCI market extend beyond combination products. The
+NAIC 2017 List included allowing products that begin as life insurance (or other type of
+coverage, such as disability or chronic illness) and later automatically convert (“morph”) into
+LTCI at a pre-determined date, such as after the policyholder reaches a certain age. In addition,
+the Society of Actuaries (SOA) has developed a product concept it refers to as “LifeStage
+Protection,” an insurance policy that starts as term life insurance during prime income-earning
+years and switches to LTCI in later years. 51
+The Task Force is not aware of any insurers that have developed and launched a morphing
+product such as LifeStage Protection. The level of potential demand from consumers and
+insurance distributors is uncertain, and it is possible that insurers are hesitant to incur the expense
+of fully developing this type of product due to uncertainty regarding its regulatory treatment
+under state law. 52 At the same time, state regulators may be reluctant to define precisely how
+they would treat the product if they do not have access to product specifications or a policy
+form. 53
+
+Limited LTCI
+“Short” or “limited” LTCI policies have attracted attention from some insurers and consumers as
+a lower-cost alternative to traditional products. This interest is reflected in the NAIC 2017 List,
+which includes the option of “allowing shorter maximum benefit plans (<1 year) to be tax
+qualified to incent market expansion through lower-price, shorter duration policies.” Unlike
+traditional LTCI, which must provide coverage for a period of not less than 12 consecutive
+months, limited LTCI typically stops providing coverage after one year from the commencement
+of benefit payments. 54
+51
+
+“Society of Actuaries Drives Innovation in the Long-Term Care Market; Conceptualizes New, Low-Risk Products
+That Could Help Ease Industry Challenges,” Society of Actuaries, July 2018, available at:
+https://www.soa.org/globalassets/assets/files/resources/research-report/2018/ltc-market-fact-sheet.pdf; see also
+Treasury, “Public Comments,” Society of Actuaries.
+52
+
+State law uncertainty derives from the absence of product specifications and policy forms tailored to this new
+product concept. At the federal level, the Task Force did not identify any federal income tax barriers to the
+morphing product concept.
+53
+
+Several states have demonstrated openness to considering innovative product designs. For example, the state of
+Minnesota has been directly involved in developing LifeStage Protection and has stated that “there appear to be
+pathways available to overcome potential regulatory hurdles.” See “LifeStage Protection Product Final Report,”
+Minnesota Department of Human Services, December 2018, available at: https://mn.gov/dhs/assets/LifeStageprotection-product%E2%80%93final-report_tcm1053-373463.pdf.
+54
+
+Under the NAIC’s LTCI Model Act, a policy does not meet the definition of “long-term care insurance” unless it
+provides coverage for not less than 12 consecutive months for each person covered. National Association of
+Insurance Commissioners, Long-Term Care Insurance Model Act (Kansas City: NAIC, Quarter 1 2017), Section
+4.A, available at: https://www.naic.org/store/free/MDL-640.pdf?10.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 27
+
+Although metrics for this market are not widely published, one insurance association estimates
+that:
+•
+
+Almost half (49%) of traditional LTCI claims last one year or less;
+
+•
+
+The typical limited LTCI policy provides coverage for one year or less;
+
+•
+
+The majority of limited policies have no deductible or elimination period, while about
+94% of traditional policies feature a 90-day waiting period before benefits can be paid;
+
+•
+
+Most applications for limited policies have seven to ten health questions with no
+additional underwriting requirements;
+
+•
+
+The typical buyer of limited LTCI is between the ages of 65 and 74 and has a net worth
+of less than $500,000;
+
+•
+
+A typical premium at age 65 is $105 monthly; and
+
+•
+
+Typical benefit amounts are $100, $150, or $200 per day. 55
+
+Based on these estimates, limited LTCI may be an alternative to traditional policies for
+individuals who cannot afford the higher premiums charged for traditional products. However,
+consumer representatives note that limited LTCI policies may not pay for coverage outside of
+nursing homes, such as assisted living or home care, and likely do not provide adequate
+protection against a catastrophic LTCI event. 56 In addition, some insurers and insurance
+regulators have expressed concerns that the labels “short long-term care” or “limited long-term
+care” are counter-intuitive and inherently confusing for consumers, and that policies with shorter
+benefit periods are susceptible to misunderstanding and inappropriate marketing practices. 57
+In late 2018, the NAIC adopted the Limited Long-Term Care Insurance Model Act and the
+Limited Long-Term Insurance Model Regulation. 58 In general, these models track those for
+traditional LTCI, with adjustments to reflect a benefit period of less than twelve months. In
+particular, the models contain substantially the same consumer protections as their traditional
+55
+
+“National Advisory Center for Short-Term Care Information,” American Association for Long-Term Care
+Insurance, last accessed February 2020, available at: https://www.aaltci.org/short-term-care-insurance/.
+
+56
+
+Ellen Stark, “Long-Term-Care Insurance Gets a Makeover,” Consumer Reports, August 2017, available at:
+https://www.consumerreports.org/long-term-care-insurance/long-term-care-insurance-gets-a-makeover/; Eleanor
+Laise, “Short-Term-Care Insurance Policies on the Rise,” Kiplinger, October 2015, available at:
+https://www.kiplinger.com/article/insurance/T027-C000-S004-short-term-care-insurance-policies-on-the-rise.html.
+57
+
+Allison Bell, “Short-Term Care Insurance Faces a Name Fight,” ThinkAdvisor, May 2018, available at:
+https://www.thinkadvisor.com/2018/05/30/short-term-care-insurance-faces-a-name-fight/?kw=%27ShortTerm%20Care%20Insurance%27%20Faces%20a%20Name%20Fight&et=editorial&bu=TA&cn=20180530&src=E
+MC-Email&pt=LifeHealthNewsFlash.
+58
+
+National Association of Insurance Commissioners, Limited Long-Term Care Insurance Model Act (Kansas City:
+NAIC, Quarter 4 2018), available at: https://www.naic.org/store/free/MDL-642.pdf; National Association of
+Insurance Commissioners, Limited Long-Term Care Insurance Model Regulation (Kansas City: NAIC, Quarter 4
+2018), available at: https://www.naic.org/store/free/MDL-643.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 28
+
+counterparts, except that insurers must offer inflation protection at a 3% annual compound rate
+instead of a 5% annual compound rate. However, the states generally have not yet adopted either
+model. 59
+Recommendation: The Task Force recommends that federal policymakers work with their state
+counterparts and with private sector stakeholders to evaluate and monitor the market for limited
+LTCI, including potential impacts on the risk pool for longer-term products and on Medicaid.
+The Task Force further recommends that state legislators and insurance regulators take steps to
+better streamline and standardize the regulation of this market.
+
+Group Products
+The Task Force considered two policy proposals for LTCI group products that were included
+under the NAIC 2017 List, both involving the fiduciary provisions of ERISA. ERISA safeguards
+the participants and beneficiaries of employee benefit plans by imposing standards of care and
+loyalty on plan fiduciaries, and by holding fiduciaries accountable when they breach those
+obligations. ERISA does not require any employer to establish a plan, but does require those
+who establish plans to meet certain standards.
+One policy proposal is to create a safe harbor to remove potential exposure to ERISA fiduciary
+liability as a factor in employers’ decisions not to offer LTCI to employees, including offering it
+on an automatic enrollment or “opt-out” basis. A second policy proposal is to permit 401(k) and
+IRA participants to purchase LTCI within their accounts (“Retirement Plus”). The objective of
+both proposals is to promote a more viable group LTCI market by increasing employee
+participation, resulting in a larger and more favorable risk pool for insurers and, potentially,
+lower premiums.
+Recommendation: Based on stakeholder input and an assessment of the market and legal
+landscapes, the Task Force questions whether either proposal would have a meaningful impact
+on participation levels. Accordingly, the Task Force does not recommend either proposal.
+In general, while automatic enrollment has increased employees’ participation in 401(k) plans, 60
+the effect may not be the same with respect to LTCI. Low take-up rates for LTCI appear to stem
+at least in part from low demand for these products, as reflected in some stakeholders’ comments
+to the Task Force. Currently, employees generally must affirmatively enroll or “opt-in” to LTCI
+and shoulder the entire premium cost without favorable tax treatment. According to the U.S.
+
+59
+
+Utah adopted the Limited Long-Term Insurance Model Act in April 2020. Utah Code Ann. §§ 31A-22-20012006.
+60
+
+See Brigitte C. Madrian and Dennis F. Shea, “The Power of Suggestion: Inertia in 401(k) Participation and
+Savings Behavior,” The Quarterly Journal of Economics 116, no. 4 (November 2001): 1149-1187, available at:
+https://www.ssc.wisc.edu/~scholz/Teaching_742/Madrian_Shea.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 29
+
+Bureau of Labor Statistics, 17% of civilian employees had access to LTCI in 2019. 61 Employee
+take-up rates are typically between 5% and 7% based on a report from the NAIC and the Center
+for Insurance Policy and Research in 2016. 62
+Without higher demand for LTCI on the part of employees, the Task Force does not expect
+employers to choose to provide LTCI as part of their compensation package. The Task Force
+considers it unlikely that employers would default a percentage of their workers’ payroll towards
+contributions for LTCI premiums, regardless of a fiduciary safe harbor. Similarly, with respect
+to the purchase of LTCI as a 401(k) plan “investment” option, the Task Force questions whether
+employers or workers would be willing to increase their contributions to the plan to fund LTCI
+premiums or replace current contributions to retirement savings with LTCI premium payments.
+In addition to considerations of employee demand, 401(k) plans and LTCI impose different
+obligations on plan sponsors, as discussed below.
+Fiduciary Safe Harbor
+The NAIC 2017 List suggests “addressing concerns that may prevent an employer from
+providing LTCI on an opt-out basis by providing a safe harbor to limit the employer’s fiduciary
+liability.” 63 The Task Force recognizes both employers’ concerns and the power of automatic
+enrollment to promote participation in many contexts, but generally considers it unlikely that this
+proposal would promote a significant increase in demand for LTCI.
+As an initial matter, the proposal is premised on the possibility that potential exposure to ERISA
+fiduciary liability may be a significant factor in employers’ decisions not to offer LTCI,
+especially with respect to opt-out arrangements where the employee is not making an affirmative
+choice to participate. Similar concerns about long-term fiduciary liability exposure for selection
+of the insurance provider have been cited as an obstacle to employers offering annuities in
+401(k) plans, but efforts to address the issue in that context to date have not had a significant
+effect on availability or use of annuity options in 401(k) plans. 64
+
+61
+
+“Table 41. “Health-related Benefits: Access, Civilian Workers, March 2019,” Bureau of Labor Statistics,
+available at:https://www.bls.gov/ncs/ebs/benefits/2019/ownership/civilian/table41a.pdf.
+
+62
+
+NAIC and CIPR, State of Long-Term Care Insurance, 10.
+
+63
+
+The NAIC 2017 list additionally proposes expanding “catch-up” contributions to retirement plans and allowing
+LTCI purchases through a cafeteria plan. These are primarily tax-related rather than ERISA-related proposals, and
+as such are addressed in the Tax Incentives section of this report.
+64
+In 2008, DOL issued a rule that provides plan fiduciaries with the steps they should take when selecting annuities
+in such cases. In 2015, DOL publicly emphasized that, under this rule, a fiduciary decision is evaluated based on the
+information available at the time the decision was made, and not on subsequent events (e.g., an insurer’s subsequent
+failure, which was not foreseeable at the time of the decision). See 29 CFR § 2550.404a-4; “Field Assistance
+Bulletin No. 2015-02,” Employee Benefits Security Administration, July 13, 2015, available at:
+https://www.dol.gov/agencies/ebsa/employers-and-advisers/guidance/field-assistance-bulletins/2015-02. This rule
+and guidance, however, are generally perceived to have stopped short of fulfilling employers’ wishes for bright-line
+safe harbor criteria. Congress responded to these concerns in the Setting Every Community Up for Retirement and
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 30
+
+In circumstances where workplace LTCI is not covered by ERISA, a fiduciary safe harbor would
+be of no consequence. ERISA includes a statutory enumeration of classes of benefits it covers,
+including retirement, medical benefits, and benefits in the event of sickness or disability, but
+does not explicitly include LTCI benefits. 65 Therefore, whether LTCI constitutes an ERISAcovered benefit depends, in part, on whether particular LTCI benefits fall within the scope of one
+of the listed classes of benefits. Further, the statutory definition covers enumerated benefits only
+when they are offered as part of a covered “employee benefit plan,” which requires a certain
+level of involvement by the employer. A DOL regulation provides conditions under which
+voluntary arrangements funded entirely with employee contributions are not treated as ERISAcovered employee benefit plans. 66
+Potential conflicts with state wage payment laws pose a challenge to mandating auto-enrollment.
+DOL has taken the position that ERISA generally preempts state laws that limit, prohibit, or
+regulate an employer’s adoption of automatic enrollment arrangements in connection with an
+ERISA-covered plan, or from making related deductions from employee wages for contributions
+to such a plan. 67
+Finally, the success of an existing statutory safe harbor for 401(k) default investments may not
+provide evidence for the likely success of a safe harbor for LTCI. 68 As described below, there
+are three important differences between this 401(k) precedent and a potential safe harbor for
+LTCI.
+First, the current 401(k) safe harbor for default investments is narrower than the contemplated
+LTCI safe harbor insofar as it addresses only the selection of the broad types of investments
+
+Enhancement Act of 2019 (SECURE Act). Section 204 of the SECURE Act amended ERISA to provide a statutory
+safe harbor for complying with ERISA’s prudent person standard of care for the selection of an insurer to provide a
+guaranteed retirement income contract. There is no data yet available on whether this statutory version of a
+fiduciary safe harbor will materially affect employers’ decisions to offer annuity options in 401(k) plans or
+employee use of such options.
+65
+See U.S. House, H.R.2 – Employee Retirement Income Security Act (Washington: 93rd Congress, 1974), Sections
+3(1) and 3(2).
+66
+
+These types of voluntary group and group-type insurance programs are not treated as ERISA plans if the employer
+merely offers such insurance for employee purchase by payroll deduction and neither endorses nor helps pay for the
+insurance. See 29 CFR 2510.3-1(j).
+
+67
+
+While ERISA generally does not preempt state criminal laws of general application, it generally does preempt
+state civil laws that otherwise would interfere with automatic enrollment in ERISA-covered welfare plans. For a
+fuller discussion of this topic, see “Information Letter 12-4-2018,” Employee Benefits Security Administration,
+December 2018, available at: https://www.dol.gov/agencies/ebsa/employers-and-advisers/guidance/informationletters/12-4-2018.
+68
+
+A 2006 federal pension law amended ERISA and the Code to add a fiduciary safe harbor and other provisions to
+facilitate automatic enrollment in, and automatic payroll withholding contributions to, 401(k)-type plans. U.S.
+House, H.R.4 – Pension Protection Act of 2006 (Washington: 109th Congress, 2006); U.S. House, ERISA, Section
+514(e). That law addressed two obstacles to automatic 401(k) plans: fiduciary concern about the selection of default
+investments and state wage payment laws. The 2006 law charged DOL with issuing a fiduciary safe harbor for
+qualified default investments, and preempted state wage payment laws for plans that operate within the safe harbor.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 31
+
+(generally, a diversified mix of stocks and bonds) available under the plan. 69 Default options are
+also easier for plan sponsors to implement for 401(k) plans than for LTCI. Employers who offer
+LTCI have to consider whether, or under what circumstances, automatic enrollment in LTCI
+would be appropriate for their workforce in light of variation in employees’ circumstances and
+needs.
+Second, the current 401(k) safe harbor bears less weight than its potential LTCI counterpart
+because 401(k) participants can more easily shift out of default investments, while LTCI
+participants are more constrained.
+Third, as noted above, it is unclear how many of these LTCI arrangements would be covered by
+ERISA. For these reasons, while the 401(k) fiduciary safe harbor is generally regarded as a
+success in increasing participation in 401(k) plans, an LTCI safe harbor would likely be less
+effective.
+In summary, even if Congress or DOL could craft an appropriate fiduciary safe harbor, there
+remains substantial doubt regarding whether it would materially expand the demand for LTCI.
+Demand is low in the marketplace and it is unclear whether concern for fiduciary liability is an
+important driver in employers’ decisions on LTCI. The lack of employer and employee demand,
+as reflected in some stakeholders’ comments to the Task Force, also would likely continue to
+discourage employers from deciding to auto-enroll employees (and direct a portion of their pay)
+into LTCI. 70
+Retirement Plus
+The SOA, in its comment letter to the Task Force, references its “Retirement Plus” proposal. 71
+The proposal would make LTCI available as an option within a 401(k) or IRA, with premiums
+deducted directly from the account balance. However, the Task Force notes that adding LTCI as
+a 401(k) “investment” option would likely require changes to current law.
+ERISA generally classifies plans as providing either retirement or welfare benefits, and includes
+separate provisions tailored for each. ERISA’s fiduciary provisions applicable to 401(k)
+accounts generally speak to the “investment” of “assets” in the account. If ERISA were
+amended to facilitate LTCI within a 401(k) plan, employers still might be reluctant to offer this
+feature, fearing fiduciary liability.
+
+69
+
+The current 401(k) safe harbor does not address the evaluation of insurers’ claims-paying capability, the amount
+of premiums, or the appropriateness of alternative insurance policy provisions.
+70
+
+For example, some stakeholders expressed that employers are disinclined to offer LTCI benefits because they face
+more pressing issues, such as compliance with health care laws. Stakeholders further cited wariness of financial
+products stemming from the 2007-2009 recession as a factor in the low demand for LTCI.
+71
+
+Treasury, “Public Comments,” Society of Actuaries.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 32
+
+Incidental Benefits
+Under most LTCI policies, the insured is not eligible to submit a claim for benefits until he or
+she becomes “chronically ill” as defined under state insurance laws and the Code. Policies
+typically define chronic illness as severe cognitive impairment or the inability to perform without
+substantial assistance at least two ADLs. In order for an LTCI policy to qualify for favorable tax
+treatment under the Code, it must condition the payment of benefits upon certification by a
+licensed health care practitioner that the insured is chronically ill. 72
+Some stakeholders proposed that Congress should amend the Code to permit payment of
+incidental benefits from a LTCI policy prior to the onset of chronic illness, without causing the
+policy to forfeit its tax-qualified status. These benefits could include limited provision of
+evidence-based, cost-effective incidental benefits that would reduce the likelihood of someone at
+higher than average risk of becoming chronically ill. For example, a LTCI policy could pay for
+home assessments or modifications to identify and mitigate fall risks or other safety hazards to
+mobility- or vision-impaired individuals. In addition, incidental benefits might include caregiver
+training for non-professional caregivers, including family, or sharing information regarding local
+LTC providers to policyholders who need or anticipate needing assistance to remain in their
+homes. The rationale for this proposal is that permitting these types of benefits would support
+healthy, independent living and aging in place.
+Recommendation: Supporting the ability of those potentially needing LTC to remain in their
+homes could benefit both consumers and insurers. Accordingly, the Task Force encourages
+industry, federal policymakers, and other experts, in consultation with consumer representatives,
+to identify and assess evidence of cost-effective interventions. Depending on the results of the
+analysis, Congress could consider amending the Code to permit payment of evidence-based,
+cost-effective incidental benefits under a tax-qualified LTCI contract prior to the insured
+becoming chronically ill, subject to a monetary cap and other conditions set by regulation.
+
+72
+
+26 U.S.C. §7702B(c)(2).
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 33
+
+Regulatory Efficiency and Alignment
+The Task Force considered various recommendations to improve the efficiency and effectiveness
+of regulation of LTCI at the federal and state levels, including options under the NAIC 2017 List.
+This section discusses proposed regulatory reforms in the areas of inflation protection, other
+consumer protections, and the review and approval of premium increases on LTCI policies.
+
+Inflation Protection
+An LTCI policy is, by definition, a long-term financial obligation of the insurer that issues the
+policy. 73 Although the period between issuance of the policy and a claim for benefits will vary
+widely by policyholder, that period can exceed 20 years or more. Accordingly, consumers face a
+significant risk that inflation will erode the value of their benefits over time.
+Recognizing this risk, the NAIC included inflation protection as a core consumer safeguard when
+it adopted the LTCI Model Regulation in 1988. Under the LTCI Model Regulation, insurers
+must offer to each policyholder, at the time of purchase, the option to purchase a policy with an
+inflation protection feature that increases benefit levels at an annual compounded rate not less
+than 5%. Insurers must also provide a graphic comparison between the benefit levels of a policy
+that increases benefits over a period of at least 20 years and a policy that does not increase
+benefits. The LTCI Model Regulation further requires insurers to include inflation protection in
+the policy unless the policyholder rejects it in writing. 74
+Inflation protection is also required under two federal statutes addressing LTCI: HIPAA and the
+DRA. These statutes address two different subjects—tax qualification under HIPAA, and a
+federal-state partnership program under the DRA—and their inflation protections operate
+differently. The Task Force concludes that the efficiency and effectiveness of both statutes can
+be improved, as detailed below.
+
+Inflation Protection for Tax-Qualified LTCI Policies Under HIPAA
+As part of enacting HIPAA in 1996, Congress amended the Code to add Section 7702B, which
+sets requirements that an LTCI policy must meet in order to be “qualified” LTCI for purposes of
+the itemized expense deduction and certain other Code purposes. Among these requirements is
+compliance with consumer protections contained in specified sections of the 1993 versions of the
+73
+Under the LTCI Model Act, a “long-term care insurance” policy must provide coverage for not less than 12
+consecutive months for each person covered. NAIC, LTCI Model Act, Section 4.A. However, according to the
+American Association for Long-Term Care Insurance, the average time elapsed between purchase of a LTCI policy
+and eligibility for benefits is 13.4 years. “Long-Term Care Insurance Facts – Data – Statistics – 2019 Report,”
+American Association for Long-Term Care Insurance, last modified October 2019, Figure 13, available at:
+https://www.aaltci.org/long-term-care-insurance/learning-center/ltcfacts-2019.php#2019claims2.
+74
+
+National Association of Insurance Commissioners, Long-Term Care Insurance Model Regulation (Kansas City:
+NAIC, Quarter 1 2017), Section 13, available at: https://www.naic.org/store/free/MDL-641.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 34
+
+LTCI Model Act and LTCI Model Regulation, including the provision in the LTCI Model
+Regulation requiring insurers to offer 5% annual compound inflation (ACI) protection. 75
+Accordingly, although HIPAA does not directly impose a requirement to offer ACI protection, it
+accomplishes the same result by reference to the LTCI Model Regulation.
+Because almost all currently sold LTCI policies are tax-qualified under HIPAA, the requirement
+to offer 5% ACI protection is effectively universal. 76 For every sale, the insurer or producer
+must explain and graphically illustrate a benefit feature that is misaligned with actual economic
+conditions and that very few consumers accept. 77 The benefit is costly, potentially increasing
+premiums by four or five times over a policy with no inflation protection. 78 For these reasons,
+the Task Force concludes that inflation protection requirements under HIPAA and state
+insurance laws should be revised to increase the efficiency and effectiveness of regulation. At
+the same time, the Task Force believes that inflation continues to represent a risk to consumers
+and, accordingly, policymakers should revise the current 5% ACI standard rather than eliminate
+the offer of inflation protection. 79
+Unless Congress changes the existing statutory structure, with its intertwining of HIPAA and the
+NAIC models, revising the inflation protection standard is dependent upon both (1) the NAIC
+amending the LTCI Model Regulation to set a different standard, and (2) Congressional
+legislation amending HIPAA to define the “model regulation” by reference to the updated
+model. 80 Finally, even if Congress and the NAIC did so, the revised standard would itself likely
+become outdated and uncorrelated with economic conditions.
+Recommendation: To both address the outdated inflation requirement and to provide flexibility
+to adapt inflation protection to evolving economic conditions, the Task Force recommends that
+Congress amend the Code to authorize Treasury to set inflation protections for tax-qualified
+75
+
+For purposes of these consumer protections, the Code defines the LTCI Model Regulation and LTCI Model Act as
+“the long-term care insurance model regulation, and the long-term care insurance model Act, respectively,
+promulgated by the [NAIC] (as adopted as of January 1993).” 26 U.S.C. § 7702B(g)(2)(B)(i).
+76
+
+Giese, Schmitz, and Thau, “Milliman Survey,” 17.
+
+77
+
+Over time, and particularly in the prevailing interest rate environment following the financial crisis, this 5%
+standard has become an anachronism, with inflation in recent years running significantly lower than 20 years ago
+when the NAIC and (by reference) Congress set the ACI at 5%. See Treasury, “Public Comments,” American
+Academy of Actuaries. Consumers have reacted to this change by increasingly rejecting the initial offer of 5% ACI
+because of the higher premium costs associated with this level of protection. According to one survey, in 2018 only
+2% of LTCI sales included 5% ACI protection, compared to 56% in 2003 and more than 47% each year from 2006
+to 2008. Giese, Schmitz, and Thau, “Milliman Survey,” 11-13.
+78
+
+Treasury, “Public Comments,” American Academy of Actuaries.
+
+79
+
+Some stakeholders suggested that inflation in the cost of LTSS might be a more appropriate HIPAA benchmark
+than a fixed percentage or the rate of inflation in the general economy. For estimates of increases in the cost of
+various categories of LTSS from 2018 to 2019, see “Genworth Cost of Care Survey 2019: Summary and
+Methodology,” Genworth Financial, Inc., last modified October 2019, available at:
+https://pro.genworth.com/riiproweb/productinfo/pdf/131168.pdf.
+80
+
+In addition, even if the NAIC and Congress took these two steps, state insurance laws and regulations would
+continue to require the 5% ACI offer until the states conformed those laws and regulations to the revised model.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 35
+
+LTCI. With this authority, Treasury and Congress could coordinate with the NAIC and the
+states to implement changes in inflation protection through the regulatory process without the
+necessity of additional Congressional legislation.
+
+Inflation Protection for the Partnership Program Under the DRA
+In the early 1990s, four states—California, Connecticut, Indiana, and New York—implemented
+the Partnership program. The program aims to lower federal LTC costs by encouraging
+individuals who might otherwise “spend down” their assets (in order to qualify for Medicaid) to
+rely instead on a LTCI policy. For every dollar of coverage paid by a Partnership policy, the
+policyholder may disregard one dollar of the asset amount necessary to become eligible for
+Medicaid LTC benefits. 81
+The DRA opened the Partnership program to all states, subject to specified conditions including
+inflation protection and other consumer protections. 82 The DRA inflation protection rules differ
+from those under HIPAA in three significant ways: (1) under the DRA, inflation protection must
+be not only offered, but also included in the policy; (2) the DRA links inflation protection to
+three age tiers; 83 and (3) the DRA does not specify the amount of inflation protection required,
+leaving that issue to the states.
+Based on Treasury staff research, states that have adopted the Partnership program vary widely
+in their inflation protection requirements. 84 This lack of uniformity has created a regulatory
+patchwork with uneven consumer protection standards and additional complexity that makes it
+more difficult to write LTCI. Additionally, high inflation protection requirements may raise
+costs and reduce the attractiveness of Partnership policies. For example, insurers sell almost no
+Partnership policies in California, a populous state that requires 5% inflation protection.
+Although multiple factors can affect sales volume in a given state, the effect of 5% compound
+inflation on pricing is significant. 85
+
+81
+
+See generally “Long-Term Care Partnership Expansion: A New Opportunity for States,” Center for Health Care
+Strategies, Inc., last modified May 2007, available at: https://www.chcs.org/media/LongTerm_Care_Partnership_Expansion.pdf; “Long Term Care Insurance Partnership Plans,” American Association for
+Long-Term Care Insurance, last accessed February 2020, available at: https://www.aaltci.org/long-term-careinsurance/learning-center/long-term-care-insurance-partnership-plans.php.
+82
+
+42 U.S.C. § 1396p.
+
+83
+
+The DRA requires the policy to provide ACI protection for individuals under age 61, “some level” of inflation
+protection for individuals between ages 61 and 75, and no inflation protection for individuals age 76 and over
+(although inflation protection may be included). 42 U.S.C. § 1396p(b)(1)(C)(iii)(IV).
+84
+
+Four require no less than 5%; 17 require no less than 3%; six require no less than 1%; three have other formulas;
+and 17 do not specify a level of inflation protection. Approximately 25 states link the level of protection to either a
+stated percentage or changes in the Consumer Price Index. As an example of additional variations, some states
+specifically prohibit guaranteed purchase options as a means of meeting inflation protection requirements, others are
+silent, and a smaller number specifically allow guaranteed purchase options.
+85
+
+According to one estimate, in early 2019 a typical Partnership policy for a 57-year-old couple in California costs
+$15,099 per year with 5% compound protection compared to $7,312 per year with 3% compound. Louis H.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 36
+
+Recommendation: The Task Force recommends that state policymakers—legislators, state
+Medicaid directors, insurance commissioners, and the NAIC—improve regulatory efficiency and
+effectiveness by harmonizing and streamlining inflation protection requirements under the
+Partnership program. Alternatively, Congress could delegate to HHS the authority to set
+Partnership program inflation protection requirements under the DRA. 86
+
+Other Consumer Protections
+Apart from inflation protection, both HIPAA and the DRA mandate compliance with certain
+consumer protections contained in the NAIC’s LTCI Model Act and LTCI Model Regulation.
+However, the DRA defines “model regulation” and “model Act” by reference to the NAIC
+models adopted as of October 2000, while HIPAA does so by reference to the January 1993
+versions. This federal cross-referencing in two separate statutes of two outdated and conflicting
+versions of NAIC models creates confusion and adds complexity to writing LTCI business.
+Recommendation: The Task Force recommends that Congress consider options to address this
+regulatory inefficiency. For example, as one option, Congress could empower Treasury, in
+consultation with HHS, to set consumer protection standards using one version of the LTCI
+Model Act and LTCI Model Regulation for purposes of both tax qualification under HIPAA and
+Partnership eligibility under the DRA, with flexibility to update the standards periodically (e.g.,
+every 10 years). Under this approach, Treasury and HHS could coordinate with the NAIC and
+the states to maintain consistency between federal and state laws with respect to consumer
+protection, without the necessity of additional federal legislation.
+
+Review and Approval of Rate Increases
+In most states, the chief insurance regulator has the authority to approve fully, approve in part, or
+reject premium rate increases proposed by an insurer. The regulator may also condition its
+approval on actions or commitments by the insurer, such as agreeing to withhold requests for
+future rate increases for a specified number of years. The authority of state regulators to review
+and approve proposed rate increases before the insurer implements those changes is a critical
+factor in the LTCI marketplace.
+Historically, some state insurance regulators have been more receptive than others to proposed
+rate increases. Policyholders in states where regulators have approved rate increases may
+
+Brownstone, “The California Partnership for Long-Term Care Revives,” Broker World Magazine, February 2019,
+available at: https://brokerworldmag.com/the-california-partnership-for-long-term-care-revives/. In September
+2016, California enacted Senate Bill 1384. This bill requires insurers to offer both 5% compound inflation and at
+least one lower cost option. See California Welfare and Institutions Code § 22005.1(b)(3). To date, the California
+Department of Health Care Services has not issued guidance or regulations identifying a lower cost option.
+86
+
+The DRA already allows the Secretary of HHS to incorporate revisions to consumer protections under the LTCI
+Model Act and LTCI Model Regulation into Partnership requirements. See 42 U.S.C. § 1396p(b)(5)(C).
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 37
+
+subsidize premiums in other states where regulators have limited or rejected rate increases. 87
+Insurers’ uncertainty concerning regulatory treatment of requested rate increases limits their
+ability to remain active in the LTCI market. In addition, the inability to obtain timely and
+consistent approvals of actuarially justified rate increases may threaten the financial stability of
+in-force blocks of LTCI policies and, in some cases, an insurer itself. 88
+Premium Rate Increases for LTCI
+Insurers set rates, or premiums, for their products based on actuarial assumptions about risk,
+future policyholder behavior, and future economic conditions. The accuracy of these
+assumptions is particularly important for products such as LTCI that remain in force for long
+periods. Primary determinants of pricing for LTCI include morbidity (how many policyholders
+need LTC, and for how long), lapse (how many policyholders voluntarily drop their coverage),
+and interest rates (which determine the amount of income earned by insurers on assets supporting
+their liabilities). Since 2000, all of these factors have gone in an unfavorable direction for
+insurers: morbidity is somewhat worse than expected; voluntary lapse rates are lower than for
+other insurance products; and interest rates are significantly lower than levels assumed in
+pricing. 89
+As the profitability of in-force LTCI policies has eroded over the past two decades, many
+insurers have increased premiums on those policies, in some cases by a cumulative 100% or
+more. Although regulators often require insurers to phase in these increases over a specified
+timeframe, such as three years, the impact on affordability for policyholders can be severe. In
+addition, repeated rate increases generate both adverse publicity for insurers and distrust among
+consumers and insurance producers, lowering demand for LTCI.
+The financial performance of in-force LTCI policies remains a key issue for the insurance
+industry, investors, regulators, and policyholders. LTCI carriers continue to increase their
+reserves (funds set aside to pay future claims), update their actuarial assumptions, and disclose
+their reserving methodologies in more detail. One rating agency estimates that most insurers will
+87
+
+See, e.g., Jason Wobelen, “Regulator Rejects LTC Rate Hike, Says Request Biased against Utah Policyholders,”
+S&P Global Market Intelligence, November 2019, available at:
+https://platform.marketintelligence.spglobal.com/web/client?auth=inherit&ignoreIDMContext=1#news/article?id=5
+5482328&KeyProductLinkType=2.
+88
+
+Insurers that focus mainly on the LTCI product line may be particularly vulnerable. For example, on February 3,
+2020, the Pennsylvania Insurance Commissioner obtained a state court order placing Senior Health Insurance
+Company of Pennsylvania into rehabilitation. As of December 31, 2019, the company had approximately 54,000
+LTCI policyholders, $2.7 billion in liabilities, and a surplus deficit of $466 million. See Allison Bell, “Pennsylvania
+Puts LTCI Issuer in Rehabilitation,” ThinkAdvisor, February 2020, available at:
+https://www.thinkadvisor.com/2020/02/06/pennsylvania-puts-ltci-issuer-in-rehabilitation/. When an insurer is
+liquidated, state insurance guaranty associations pay certain covered claims and fund those payments by assessments
+on solvent insurers in the states of residence of the policyholders.
+89
+
+Marc A. Cohen “The Current State of the Long-Term Care Insurance Market,” presentation to the Federal
+Advisory Committee on Insurance, February 2018, available at:
+https://home.treasury.gov/system/files/311/FACIFebruary2018_UMass.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 38
+
+not reach their peak reserves for in-force business for another 10 to 15 years. 90 Accordingly,
+uncertainty about the profitability of in-force business will persist. This uncertainty, combined
+with negative trends in claims experience as well as ongoing questions regarding the ability of
+insurers to obtain regulatory approvals of rate increases, has led many insurers to exit the LTCI
+market, creating a drain in capital. 91 Concerns over the financial solvency of insurers, and the
+potential impact of insolvencies on state insurance guaranty associations, are also important
+considerations for this market.
+In 2019, the NAIC identified the regulation of LTCI as the organization’s top priority, noting
+significant issues posed by the current LTCI environment to both consumers and the state-based
+system of insurance regulation. The NAIC formed an Executive Task Force charged with
+developing “a consistent national approach for reviewing LTCI rates that results in actuarially
+appropriate increases being granted by the states in a timely manner and eliminates cross-state
+rate subsidization.” 92 The Executive Task Force is also charged with identifying options to
+provide choices for consumers regarding modifications to LTCI contract benefits where policies
+are no longer affordable due to rate increases.
+The primary work stream of the Executive Task Force is a multistate review of LTCI focusing on
+different actuarial methodologies used by the states. In addition, the Executive Task Force has
+organized five other work streams to:
+•
+
+explore alternatives for protecting policyholders from caps on state guaranty association
+coverage and potential inequities arising from the states’ inconsistent approaches to
+premium rate increase requests;
+
+•
+
+ensure policyholders understand their options when faced with a rate increase;
+
+•
+
+evaluate the interaction between rate increase issues and reserving issues;
+
+•
+
+address non-actuarial variances among the states when reviewing rate increases; and
+
+•
+
+consider whether the task force needs additional data to support its work.
+
+Recommendation: The Task Force recommends that the NAIC and the states maintain their
+focus on LTCI and work together in 2020 to develop a consistent national approach to regulatory
+reviews of LTCI rate increase requests. The Task Force also recommends that FIO continue to
+monitor and report on this issue.
+
+90
+
+“Following the Trail of U.S. Insurers’ Long-Term Care Assumptions,” S&P Global Ratings, January 10, 2019,
+available at: https://www.spratings.com/documents/20184/908539/LifeINSHT_Jan2419_Article4.pdf/2f9c67366f26-36ae-d32e-3f2d8c265818.
+91
+
+The number of insurers offering LTCI policies has dropped from more than 100 in 2000 to only a dozen or so in
+2020.
+92
+
+“Long-Term Care Insurance (EX) Task Force,” National Association of Insurance Commissioners, last accessed
+February 2020, available at: https://content.naic.org/cmte_ex_ltci_tf.htm.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 39
+
+Financial Literacy and Education
+Reviewing the Federal Role in Financial Education
+The NAIC 2017 List included a federal education program around retirement security and the
+importance of planning for potential LTC needs. In July 2019, Treasury issued the Financial
+Literacy Report, which laid out an appropriate federal role for financial education and considered
+the roles of the private and non-profit sectors, and other government entities in this field. 93 The
+issuance of the Financial Literacy Report followed a literature review and extensive
+consultations with experts and stakeholders inside and outside of the government.
+In the Financial Literacy Report, Treasury recommended that the primary federal role for
+financial literacy and education should be to empower financial education providers as opposed
+to attempting to reach every American household directly. This federal role could include
+developing and implementing policy, encouraging research, and other activities, such as
+conducting financial education programs and developing educational resources to advance best
+practices and standards. The Financial Literacy Report further recommended that the federal
+government should consider the impact of the lack of financial literacy on households and the
+risk to the economy from negative externalities and market failures.
+The Financial Literacy Report defined high-priority areas for financial education, including
+retirement saving and investor education. Treasury noted the significant level and
+interconnection among retirement planning concerns. For example, 25% of Americans have no
+retirement savings, less than 40% of non-retired adults believe they are on track for a secure
+retirement, and many working age Americans face difficult challenges in planning for their old
+age. 94
+The Financial Literacy Report also described current federal programs on retirement planning,
+including programs and information provided by DOL’s Employee Benefits Security
+Administration (EBSA) and by SSA. EBSA provides education materials and tools, conducts
+outreach, and answers questions from employers and employees about all aspects of workplace
+retirement savings plans; and SSA conducts outreach through websites, mass media, and inperson events. Other federal agencies promote their retirement planning resources through
+networks of relevant organizations and through social media. However, despite the number of
+programs and resources available, in fiscal year 2017, retirement savings education was one of
+the least-funded financial education priorities in the federal government, totaling less than 1% of
+expenditures on financial education ($2.2 million out of $273 million). 95
+
+93
+
+Treasury, Financial Literacy Report.
+
+94
+
+Treasury, Financial Literacy Report, 32.
+
+95
+
+Treasury, Financial Literacy Report, 1, 53.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 40
+
+From 2005 to 2010, HHS, along with 24 states and the District of Columbia, participated in the
+Own Your Future Awareness Campaign, which was designed to raise awareness about the risks
+of needing LTC and to encourage LTC financial awareness. 96 The National Clearinghouse for
+Long-Term Care Information website was launched in 2006 to supplement the campaign by
+helping Americans actively engage in planning for LTC. 97 Through this campaign,
+approximately 20 million households were reached and 1.5 million LTC planning guides were
+distributed. 98
+A post-campaign survey found that people who received the planning guide were more likely to
+take action (as compared to those who did not), such as reviewing existing coverage, talking to
+an advisor about LTC needs, or buying LTCI. 99 Additionally, a 2004 survey of consumers aged
+45 to 70 found that those who had heard about LTC were more likely to request additional
+information, especially those who received direct mail. 100 However, there is evidence that those
+who requested the guide would have been more likely to take those steps even without the
+prompt. 101
+
+Stakeholder Recommendations Relating to Education
+A number of organizations have recommended education as an important way to improve
+awareness of LTCI and LTC planning; however, these recommendations do not provide
+evidence or specificity about how to implement education in ways that will have a measurable
+impact.
+In 2019, the NAIC organized a Retirement Security Working Group, which drafted a work plan
+that includes researching and developing financial education curricula for each life stage from
+high school through retirement (financial literacy and decision-making, the time value of money,
+LTC, and debt and credit are subjects to be considered). Additionally, the plan includes
+developing an education campaign targeting employers to provide retirement plans and assist
+
+96
+
+See “Empowering Consumers Through Education,” America’s Health Insurance Plans, last modified September
+2018, available at: https://www.ahip.org/empowering-consumers-through-education/.
+
+97
+
+Section 6021(d) of the DRA directed the Secretary of HHS to establish the Clearinghouse.
+
+98
+
+“Final Report on the “Own Your Future” Consumer Survey,” U.S. Department of Health and Human Services,
+Office of the Assistant Secretary for Planning and Evaluation, last modified November 2006, available at:
+https://aspe.hhs.gov/basic-report/final-report-own-your-future-consumer-survey.
+99
+
+Eileen J. Tell, “The Own Your Future Long-Term Care Awareness Campaign: Implications for CLASS,” CLASS
+Technical Assistance Brief Series, Spring 2011, available at:
+http://www.thescanfoundation.org/sites/default/files/TSF_CLASS_TA_No_13_Own_Your_Future_FINAL.pdf.
+
+100
+
+Tell, “Own Your Future.”
+
+101
+
+Office of the Assistant Secretary for Planning and Evaluation, “Final Report.”
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 41
+
+employees with saving for retirement. 102 While these concepts are promising, additional work
+will be needed to develop specifics about how to effectively attain goals through these strategies.
+Insurance industry organizations favor more federally-funded education. For example,
+America’s Health Insurance Plans and the American Council of Life Insurers recommended restarting the Own Your Future Awareness Campaign, and the National Association of Insurance
+and Financial Advisors similarly pointed to the value of such a campaign. 103
+In 2018, the Maryland Governor’s Task Force on Long-Term Care Planning recommended
+methods to educate residents about LTC. The group concluded that current workers should be a
+key target of outreach and education, especially through employers, and young people should be
+introduced to LTC planning early. 104 Industry stakeholders similarly identified employers as a
+venue for effectively providing education about LTCI at the July 25, 2019 public meeting of the
+Task Force. However, these recommendations reflect a wide variety of strategies and are not
+backed by clear evidence of effectiveness or plans for implementation.
+Task Force consultations with consumer advocates pointed to the challenges of LTCI education.
+One group noted that insurance products, including LTCI, can be complex, and emphasized the
+need for understandable, plain language information, and the need to train insurance and
+investment professionals on appropriate application of suitability standards. 105 Another
+consumer organization commented that promotion of stand-alone LTCI is not consistent with
+government efforts to help consumers understand lifetime insurance and retirement income
+needs. 106 Finally, a health policy group pointed to the value of personalized assistance with
+navigating the care delivery system at critical points, such as before or after retirement. 107
+
+Best Practices for Financial Education
+The Financial Literacy Report details best practices for financial education that are applicable to
+educating consumers about LTC planning and LTCI. These include:
+•
+
+Provide Actionable, Relevant, and Timely Information. Delivering financial
+information in an actionable, relevant, and timely manner results in greater likelihood of
+
+102
+
+“Retirement Security Working Group,” National Association of Insurance Commissioners Retirement Security
+(A) Working Group, last modified November 2019, available at: https://content.naic.org/sites/default/files/inlinefiles/Taylor%20Retirement%20Security%20Work%20Plan%20November%202019a.pdf.
+103
+Treasury, “Public Comments,” America’s Health Insurance Plans, American Council of Life Insurers, and
+National Association of Insurance and Financial Advisors.
+104
+
+Maryland Governor’s Task Force on Long Term Care Planning, Report of the Maryland Governor’s Task Force
+on Long Term Care Planning (Annapolis: October 2018), available at:
+http://dlslibrary.state.md.us/publications/NonMd/SB696Ch212HB953Ch213(2017)_2018.pdf.
+105
+
+Treasury, “Public Comments,” California Health Advocates.
+
+106
+
+Treasury, “Public Comments,” Center for Economic Justice.
+
+107
+
+Treasury, “Public Comments,” Healthsperien.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 42
+
+retention and action. This practice underscores the need for information that is clear and
+provides actionable steps for the consumer at appropriate times in their decision-making.
+•
+
+Build on Motivation. Effective financial literacy and education programs capitalize on
+people’s motivations. This may mean that financial education on LTC planning could be
+effectively delivered by trusted sources, such as faith-based or community
+organizations. 108
+
+•
+
+Make It Easy to Make Good Decisions and Follow Through. The environment or
+context can make it easier for people to carry out their intentions. For example, changing
+the options presented, removing hassles and barriers, and adding supports can help people
+bridge the gap between intentions and actions. Simplifying options is often key to
+helping people make good choices. 109
+
+Recommendations: There is a clear need for consumers to plan for retirement and later life,
+including consideration of LTC costs and how to finance those costs. Yet, decisions about these
+topics are complex, unpredictable, and often made more challenging by social and emotional
+hurdles to planning for possible disability. In addition, LTCI can be difficult to understand and
+easy to avoid. These factors likely detract from the effectiveness of financial education focused
+solely on LTC and LTCI. Rather, planning for LTC costs and ways to pay for them should be
+included as part of other financial education on planning, saving, and investing for retirement.
+The Task Force recommends that Treasury, HHS, DOL, and other agencies working through the
+FLEC, assess federal education resources on LTC needs and planning, and modify, update, and
+supplement these resources as needed. 110 As part of its efforts to improve consumers’ capability
+in retirement planning, the FLEC should clearly integrate LTC planning into retirement
+education topics. These efforts should be consistent with the recommendations and best
+practices set forth in the Financial Literacy Report. In particular, educational programs and
+materials should be clear, simple, avoid jargon, and point people to concrete actions that they can
+take or avoid. Interagency cooperation is necessary in modifying, updating, and supplementing
+resources, alongside coordination with private sector entities, state government agencies, and
+other appropriate parties.
+
+108
+
+Although multiple stakeholders recommend that consumers make LTC decisions in consultation with family
+members, a 2014 survey found that barely one-quarter of adults had a detailed discussion about LTC preferences
+with a partner or family member. Benjamin Allaire et al., “Long-Term Care Awareness and Planning: What Do
+Americans Want?” Office of the Assistant Secretary for Planning and Evaluation, July 30, 2015, available at:
+https://aspe.hhs.gov/system/files/pdf/111341/Awareness.pdf.
+109
+
+For the full list of best practices, see Treasury, Financial Literacy Report, 54-58.
+
+110
+
+Congress established the FLEC under the Fair and Accurate Credit Transactions Act of 2003 for the purpose of
+coordinating the federal government’s financial literacy efforts.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 43
+
+Tax Incentives
+The Code currently provides favorable federal income tax treatment for LTCI. Multiple
+stakeholders encouraged the Task Force to consider a range of amendments to tax laws or
+regulations aimed at increasing the take-up of private LTCI. This section of the report begins
+with an overview of current tax rules regarding LTCI, and then presents an analysis of various
+tax proposals considered by the Task Force.
+
+Current Tax Rules Regarding LTCI
+The Code currently treats a “qualified” LTCI contract as an accident and health insurance
+contract and provides various tax preferences. 111 For example, the Code permits individuals to
+deduct premiums paid for LTCI under limited circumstances. It also permits employers to
+provide LTCI to their employees on a pre-tax basis. The requirements for a LTCI contract to be
+tax qualified and the current tax treatment of qualified LTCI are summarized below.
+
+Requirements for Qualified LTCI Contracts
+The Code defines a qualified LTCI contract as any insurance contract if the only insurance
+protection provided under the contract is coverage of qualified long-term care services. 112 A
+qualified LTCI contract also may not provide for a cash surrender value in excess of premiums
+paid under the contract or provide other money that can be paid, assigned, pledged as collateral
+for a loan, or borrowed. 113 As discussed in more detail below, premiums paid for a qualified
+LTCI contract are eligible to be deducted as medical expenses, subject to specified, age-based
+dollar limits. In addition, amounts received under the contract generally are excludable from
+gross income as amounts received for personal injuries or sickness.
+The Code defines qualified LTC services as necessary diagnostic, preventive, therapeutic,
+curing, treating, mitigating, and rehabilitative services, and maintenance or personal care
+services, which are required by a chronically ill individual, and are provided pursuant to a plan of
+care prescribed by a licensed health care practitioner. 114
+A “chronically ill individual” means any individual who has been certified by a licensed health
+care practitioner as:
+
+111
+
+26 U.S.C. §7702B(a)(1).
+
+112
+
+26 U.S.C. §7702B(b).
+
+113
+
+In this regard, 26 U.S.C. §7702B(b)(2)(C) permits a refund that does not exceed the aggregate premiums paid
+under the contract upon: (i) the death of the insured or (ii) a complete surrender or cancellation of the LTCI contract.
+Any such refund must be includible in gross income to the extent that any deduction or exclusion from income was
+allowed with respect to the premiums paid. See also 26 U.S.C. §7702B(b)(1)(D) (additional requirements for
+qualified LTCI contracts).
+
+114
+
+26 U.S.C. §7702B(c)(1).
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 44
+
+i. Being unable to perform (without substantial assistance from another individual) at least
+two of six ADLs (eating, toileting, transferring, bathing, dressing, and continence) for a
+period of at least 90 days due to a loss of functional capacity;
+ii. Having a level of disability similar (as determined under regulations) to the level of
+disability described in i.; or
+iii. Requiring substantial supervision to protect such individual from threats to health and
+safety due to severe cognitive impairment. 115
+
+Tax Treatment of LTCI Premium Payments by Individuals
+Under current law, qualified LTCI premiums are eligible to be deducted as medical expenses
+only to the extent that total medical expenses, including qualified LTC expenses, exceed the
+threshold of adjusted gross income (AGI). Currently, the threshold is 7.5% of AGI. 116 The
+annual amount of LTCI premiums that qualify as medical expenses is capped at an agedependent amount indexed for inflation. This cap on LTCI premiums (Age-Dependent Cap) is
+applied before calculating whether total eligible medical expenses exceed 7.5% of AGI. 117
+Table 4: 2020 Age-Dependent Caps
+Age at End of Tax Year
+
+Maximum LTCI Premium Deduction
+
+40 or less
+
+$430
+
+41 to 50
+
+$810
+
+51 to 60
+
+$1,630
+
+61 to 70
+
+$4,350
+
+Over 70
+
+$5,430
+
+Further, an individual taxpayer may claim a medical expense deduction only if itemizing
+deductions on Schedule A of Form 1040. The Tax Cuts and Jobs Act almost doubled the
+standard deduction amount for tax years beginning after December 31, 2017. 118 Standard
+deductions for 2020 are:
+
+115
+
+•
+
+$12,400 if the taxpayer is single or uses married filing separately status,
+
+•
+
+$24,800 if the taxpayer is married and files a joint return with spouse, and
+
+26 U.S.C. §7702B(c)(2).
+
+116
+
+For tax years beginning on or after January 1, 2021, the AGI threshold for deducting medical expenses will
+increase to 10% unless Congress chooses to extend the 7.5% threshold. See 26 U.S.C. §213(a) and (f).
+117
+
+26 U.S.C. §213(d)(10).
+
+118
+
+U.S. House, H.R.1 – An Act to Provide for Reconciliation Pursuant to Titles II and V of the Concurrent
+Resolution on the Budget for Fiscal Year 2018 (115th Congress, December 2017).
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 45
+
+•
+
+$18,650 if the taxpayer is a head of household.
+
+Thus, in order to deduct LTCI premium payments under the existing rules, a taxpayer must have
+a proportionally large amount of medical expenses (to meet the 7.5% of AGI threshold) and have
+sufficient additional itemized deductions for itemizing to be tax-advantageous. As an example, a
+married couple filing jointly for the 2020 tax year that earns $100,000 in annual income may
+include medical expenses in itemized deductions only to the extent that they exceed $7,500 in
+2020. In addition, unless the couple’s total medical expenses were in the range of 32.5% of AGI,
+or $32,500, they would need additional itemizable deductions in order for itemizing to be
+economically advantageous. The increased standard deduction is more tax-advantageous than
+itemizing for many taxpayers.
+For the 2017 tax year (the latest year for which data is available), approximately 10 million tax
+returns claimed an itemized medical deduction. 119 It is likely that this number will decrease for
+the 2018 tax year, given the increase in the standard deduction. The extent to which LTCI
+premiums are a component of the itemized medical deduction is not known, but it may be
+relatively uncommon. Individuals in poor health are less likely to qualify for LTCI protection
+due to medical underwriting for these policies, and individuals in good health may be unlikely to
+incur enough out-of-pocket medical expenses to exceed the 7.5% of AGI threshold, particularly
+if they have employer-provided health insurance and pay their own share of health insurance
+premiums pre-tax.
+
+Restrictions on Retirement Account Distributions
+Distributions from qualified retirement plans (such as 401(k) and 403(b) plans and IRAs) prior to
+age 59½ generally are subject to an additional 10% tax on the amount of the distribution,
+although certain exceptions apply. 120 The exceptions include distributions to pay premiums for
+LTCI under two circumstances:
+i. Qualified LTCI premiums (up to the Age-Dependent Cap amount) can be paid with
+401(k), 403(b), or IRA distributions with no additional early withdrawal tax to the extent
+that, in combination with other out-of-pocket medical expenses, they exceed the
+threshold for deductible medical expenses. 121 It is not necessary to itemize deductions for
+tax return purposes to obtain this additional tax relief. However, taxpayers would still
+need relatively high total medical expenses to take advantage of this exception.
+ii. Qualified LTCI premiums (up to the Age-Dependent Cap amount), as well as other health
+insurance premiums, can be paid with IRA (but not 401(k) or 403(b)) distributions with
+no additional early withdrawal tax if the policyholder experiences a substantial period of
+119
+
+“Individual Income Tax Returns Complete Report 2017,” Internal Revenue Service, 91, available at:
+https://www.irs.gov/pub/irs-pdf/p1304.pdf.
+120
+
+26 U.S.C. §72(t)(1).
+
+121
+
+26 U.S.C. §72(t)(2)(B).
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 46
+
+unemployment, regardless of whether the taxpayer’s total medical expenses exceed the
+threshold for deductible medical expenses. 122 This provision can help taxpayers keep up
+with LTCI premiums when the loss of a job interrupts disposable income.
+In 2016, a majority of families at relevant ages held retirement accounts (IRAs, 401(k)s, and
+403(b)s), including 57% of those headed by someone age 35-44, 60% age 45-54, and 59% age
+55-64. Among those holding accounts, the median amounts held at these same ages were
+$37,000, $83,000, and $120,000, respectively. 123 These amounts are quite low compared to
+projected retirement income needs. For example, at the federal employee Thrift Savings Plan
+annuity rate, $120,000 at age 65 would provide a level annuity of $7,488 each year for life. 124
+
+Tax Treatment of LTCI Purchases in the Employment Context
+The costs of employer-provided accident and health plans are excluded from employees’ gross
+income and tax-qualified LTCI qualifies as an accident and health plan for this purpose (although
+the employer’s deduction for premiums paid is limited to the Age-Dependent Cap). 125
+Accordingly, employers can currently provide LTCI to employees tax-free. However, employers
+cannot currently offer LTCI as part of a cafeteria plan, which is a common vehicle for providing
+employees with benefits for which the employer does not incur additional costs.
+Cafeteria plans (often incorporating a flexible spending arrangement (FSA), discussed below)
+provide employees an opportunity to substitute a portion of their taxable cash compensation with
+one or more qualified benefits on a pre-tax basis. 126 If an employee chooses to receive a
+qualified benefit under a cafeteria plan, the fact that the employee could have received cash or a
+taxable benefit instead will not make the qualified benefit taxable. Under current law, qualified
+benefits include most accident and health insurance benefits, including insurance policy
+purchases, adoption assistance, dependent care assistance, group term life insurance, and health
+savings accounts (HSA) (including the ability to use HSA funds to pay for qualified LTC
+services). However, cafeteria plans may not offer LTCI. 127
+
+122
+
+Generally, the relief from the additional early withdrawal tax applies if the individual receives unemployment
+compensation for 12 consecutive weeks under a federal or state unemployment compensation law in the current year
+(or received it in the preceding year) and the relief extends to distributions for up to 60 days after employment
+resumes. A self-employed individual may be treated as meeting this requirement if the individual would have
+received unemployment compensation under federal or state law but for the fact that the individual was selfemployed. See 26 U.S.C. §72(t)(2)(D).
+
+123
+
+“Survey of Consumer Finances – 2016 SCF Chartbook,” Board of Governors of the Federal Reserve System,
+October 16, 2017, 442, available at: https://www.federalreserve.gov/econres/files/BulletinCharts.pdf. The Board of
+Governors of the Federal Reserve System conducts the Survey of Consumer Finances every three years. The Board
+has not yet published the 2019 survey.
+
+124
+
+Calculated at the current 1.75% interest rate assumption.
+
+125
+
+See 26 U.S.C. §106(a).
+
+126
+
+See 26 U.S.C. §125(f)(1).
+
+127
+
+See 26 U.S.C. §125(f)(2).
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 47
+
+A Health FSA may be established under an employer’s cafeteria plan, either as one of several
+components or as the sole component. Health FSAs are accounts funded each year with pre-tax
+income (i.e., income that is not subject to federal income and payroll tax) that may be used to
+pay for qualified medical expenses during the relevant year that are not reimbursable by health
+insurance or otherwise. Most common uses are to cover health insurance policy deductibles and
+co-pays, as well as qualified medical expenses that may not be covered by insurance, such as
+vision care. The annual Health FSA funding cap is indexed for inflation, and the maximum
+contribution for 2020 is $2,750. A Health FSA differs from an HSA (discussed below) in that
+HSA balances carry over in full from year to year and can earn tax-free investment income,
+whereas Health FSA annual contributions are generally “use or lose,” with the exception of a
+permissible grace period or carryover limit. An employer may either choose to allow Health
+FSAs a two and a half month grace period at the end of the plan year so that account holders can
+use their remaining Health FSA balance to pay for expenses incurred during that extended
+period, or choose to allow account holders to carry over an amount equal to 20 percent of the
+maximum salary reduction contribution for any given plan year ($550 for the 2020 plan year).
+Health FSA balances do not accrue interest. Under current law, insurance premium payments,
+including LTCI premiums, are not eligible expenses for Health FSAs.
+An HSA is a tax-advantaged medical savings account available to taxpayers who enroll in a
+high-deductible health plan (HDHP). The funds contributed to an HSA are not subject to federal
+income tax at the time of deposit. Annual contributions in 2020 are limited to $3,550 for an
+individual and $7,100 for a family, with HSA holders age 55 and over being allowed to
+contribute an additional $1,000 per year. Further, individuals eligible for Medicare cannot
+contribute to HSAs. Around 22 million people held an HSA-qualified HDHP in 2017. 128
+HSAs (in combination with an HDHP) are also available to persons who are self-employed or to
+persons whose employer does not offer a health plan, but most often are offered in conjunction
+with an employer-sponsored HDHP.
+
+Analysis of Tax Incentives Considered
+Based on the NAIC 2017 List (Options 1, 2, 4, and 8) and stakeholder feedback, the Task Force
+considered the following additional tax incentives to encourage the purchase of LTCI:
+•
+
+Allow a full federal tax deduction for LTCI premiums paid by individuals.
+
+•
+
+Allow increased contributions to an HSA if the HSA is used to fund LTCI premiums.
+
+•
+
+Create a new type of account modeled after HSAs (but without the requirement that the
+account holder have an HDHP) that could be used to fund both direct LTC expenses and
+LTCI premiums.
+
+128
+
+“Health Savings Accounts and Consumer-Directed Health Plans Grow as Valuable Financial Planning Tools,”
+America’s Health Insurance Plans, April 2018, available at: https://www.ahip.org/wpcontent/uploads/2018/04/HSA_Report_4.12.18-1.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 48
+
+•
+
+Allow purchase of LTCI through cafeteria plans offered by employers.
+
+•
+
+Allow purchase of LTCI through Health FSAs.
+
+•
+
+Allow cash value beyond a return of premium under qualified LTCI contracts.
+
+•
+
+Allow retirement plan participants to receive a distribution from 401(k)s, 403(b)s, or
+IRAs to purchase LTCI with no additional early withdrawal tax.
+
+Recommendation: In its analysis of these proposed incentives, the Task Force took into account
+that the Code already provides favorable income tax treatment to LTCI. The Task Force
+recognizes that the proposed incentives could have the beneficial effect of motivating individuals
+to plan their financial future and help protect their retirement savings against depletion by LTCI
+expenses. However, the proposals would likely reduce tax revenues and the amount of the
+reductions could be significant. In addition, the proposals would primarily benefit higher income
+taxpayers with higher marginal tax rates, and may not be fully effective in targeting lower- and
+middle-income families who need financial protection against LTC risks. Finally, the proposals
+would increase the complexity of the Code and could, in some cases, be difficult to implement,
+monitor, and enforce. Accordingly, the Task Force does not recommend adoption of any of the
+proposed additional tax incentives, with the exception of the proposal to eliminate the early
+withdrawal tax if funds from an IRA, 401(k), or 403(b) account are used to pay LTCI premiums.
+
+Federal Income Tax Deduction for LTCI Premiums
+The Code currently allows taxpayers to deduct a limited set of expenses “above the line” from
+their gross income. These deductions, which reduce AGI, are available irrespective of whether a
+taxpayer claims the standard deduction or itemizes deductions. The permitted above the line
+expense deductions are mostly business expenses or other expenses incurred for the production
+of income, but include other categories of expenses, such as IRA contributions, HSA
+contributions, and student loan interest expense deductions. The Task Force considered a
+proposal to add LTCI premiums (with or without Age-Dependent Caps) as an above the line
+deduction category.
+The argument in support of this proposal is that the current rules regarding LTCI premium
+deductions do not provide an incentive to purchase LTCI for most individual taxpayers, because
+(1) most taxpayers take the standard deduction rather than itemize, and (2) only medical
+expenses in excess of the AGI threshold (7.5%) may be deducted as an itemized deduction—a
+threshold not reached by most taxpayers who itemize deductions.
+However, from a tax policy perspective, an above the line tax deduction is a very significant
+subsidy that would decrease tax revenue. Although increasing the number of U.S. persons with
+LTCI may be desirable, it is debatable whether LTCI premiums should have a privileged
+deductibility status compared to other medical expenses (which are subject to the 7.5% AGI cap)
+and other expense categories (such as the charitable contribution deduction) that cannot be
+deducted unless the taxpayer itemizes. As previously discussed, the Tax Cuts and Jobs Act
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 49
+
+almost doubled the standard deduction for individual taxpayers. The standard deduction
+simplifies tax filing by not requiring taxpayers to track which of their expenses may be claimed
+as itemized deductions. A separate deduction for LTCI premiums would increase complexity
+and largely benefit higher-income taxpayers.
+
+Increased Contributions to an HSA to Fund LTCI Premiums
+The Task Force considered a proposal to allow increased contributions to an HSA if the HSA is
+used to fund LTCI premiums. Because HSA funds may already be used to purchase LTCI (up to
+the Age-Dependent Cap amounts), this proposal would increase the overall HSA contribution
+allowed (currently capped at $3,550 for an individual and $7,100 for a family, plus an additional
+$1,000 for HSA holders age 55 and over) if the HSA is used to purchase LTCI. This proposal
+would make LTCI more affordable for persons with HSAs who are already maximizing their
+HSA contributions and could stimulate demand for private purchases of LTCI.
+However, HSA contribution limits are already high and the tax treatment for HSAs is currently
+the most generous treatment for health care expenses because it is mathematically equivalent to
+combining tax-free build-up on earnings with an above-the-line deduction for medical care. For
+individuals who use their HSAs to fund medical care a few years in the future, the tax-free buildup on earnings is relatively modest. For LTC, where the build-up can occur over decades, the
+tax-free build-up on earnings combined with tax-free contributions and withdrawals for qualified
+LTCI or LTC services already provide a substantial tax subsidy.
+Furthermore, this proposed change would be likely to primarily benefit persons with relatively
+high incomes who can afford larger HSA contributions, rather than lower- or middle-income
+taxpayers, since this proposal would affect only individuals who already contribute the
+maximum annual amount to HSAs (e.g., $7,100 yearly for a family). In addition, the proposal
+would only help individuals with HSAs, which are limited to those with HDHPs. 129 Individuals
+eligible for Medicare, who might be more likely to take advantage of this new rule, cannot
+contribute to HSAs.
+
+New Type of Account to Fund LTC Expenses and LTCI Premiums
+The Task Force considered a proposal to create a new type of account modeled after HSAs,
+without the requirement that the account holder have a HDHP, which could be used to fund
+direct LTC expenses and LTCI premiums on a pre-tax basis (a LTC savings account (LTCSA)).
+If the HSA model were followed, distributions from an LTCSA would receive more generous tax
+treatment than distributions from other retirement savings accounts because a distribution from a
+401(k), 403(b), or IRA is generally included in income at least in part; in addition, any deduction
+for medical expenses (including qualified LTC expenses) would be subject to the 7.5% AGI
+129
+
+Approximately 22 million people held an HSA-qualified HDHP in 2017. America’s Health Insurance Plans,
+“Health Savings Accounts,” available at: https://www.ahip.org/wp-content/uploads/2018/04/HSA_Report_4.12.181.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 50
+
+floor for medical expenses deductions and would not be available to taxpayers who itemize. By
+contrast, a distribution from the LTCSA would be tax-free, provided it was used to pay LTC
+premiums (up to the Age-Dependent Cap) or other LTC expenses.
+This proposal could increase saving for LTC expenses generally, if the contribution limits for
+LTCSAs did not affect the limits for retirement savings accounts. Because the benefit would not
+be limited to persons with HDHPs, it could incentivize LTCI purchases by a larger number of
+taxpayers than the proposal to increase HSA contribution limits.
+However, because the new LTCSA would be available to all taxpayers, and not just taxpayers
+with HDHPs, the tax revenue impact of this proposal would be correspondingly larger.
+Availability of the LTCSA would potentially provide a large tax subsidy that likely would
+benefit mainly higher income taxpayers because individuals with high marginal tax rates are
+most likely to take advantage of this type of account.
+With respect to the use of the LTCSA to pay LTC expenses (as opposed to insurance premiums),
+there is not always a clear line between an LTC expense and post-retirement living expenses
+generally, and people cannot know in advance whether they will need LTC. It may be
+advantageous for most taxpayers to contribute more robustly to existing retirement accounts than
+to isolate a stream of savings specifically for LTC expenses when there is no guarantee that a
+particular taxpayer will incur expenses that clearly qualify as LTC expenses. In addition, if the
+LTCSA were allowed, taxpayers would have an incentive to characterize a larger amount of
+expenses as LTC expenses because LTCSA distributions would often receive more generous tax
+treatment than distributions from retirement accounts. Federal tax authorities would need to
+monitor appropriate use and develop rules regarding how to treat unused LTCSA balances, if a
+taxpayer does not need LTC.
+
+Purchase of LTCI Under Cafeteria Plans
+The Task Force considered a proposal to allow employers to add tax-qualified LTCI to the group
+of qualified benefits that employees may receive on a pre-tax basis under a cafeteria plan. Under
+this proposal, LTCI premium exclusions from income could be limited based on the current AgeDependent Caps.
+Under current law, employers can provide LTCI to employees outside of a cafeteria plan,
+although not very many employers do so. If employers could provide LTCI through a cafeteria
+plan, they might be more likely to offer it. Employees might be more likely to opt to purchase
+LTCI offered on a pre-tax basis under a cafeteria plan. Employers also might be able to
+negotiate more favorable product terms than an individual could obtain independently. Allowing
+the offer of LTCI on a pre-tax basis within cafeteria plans would further encourage employers to
+include information about LTC options in their employee benefits packages.
+Like any tax incentive, this proposal would decrease tax revenue to the extent that additional
+employees purchased LTCI through their cafeteria plan. Higher income taxpayers may be most
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 51
+
+likely to take advantage of this new cafeteria plan option, as they can better afford to purchase
+LTCI, whether on a pre- or post-tax basis.
+Employers can already provide LTCI to their employees on a pre-tax basis outside of cafeteria
+plans. It seems unlikely that a statutory change permitting employers to offer LTCI as a pre-tax
+option within a cafeteria plan would also cause employers to make additional contributions to the
+cafeteria plan to help fund the employees’ purchase. If so, the cost of the LTCI cafeteria plan
+offering would still come out of employee pockets (although it would be on a pre-tax basis).
+
+Purchase of LTCI Through Health FSAs
+The Task Force considered a proposal to add tax-qualified LTCI to the group of expenses that an
+employee can pay with Health FSA funds, subject to Age-Dependent Caps on LTCI premium
+payments. Allowing the funding of LTCI on a pre-tax basis through Health FSAs could
+encourage purchase of LTCI.
+One purpose of Health FSAs is to help fund medical expenses not covered by insurance (e.g.,
+deductibles and co-pays). The maximum annual contribution to Health FSAs is only $2,750 (for
+2020), and allowing Health FSA contributions to cover premiums would reduce amounts
+available to meet the types of costs that Health FSAs were intended to cover. Unless other types
+of insurance premiums were also eligible for payment from a Health FSA, the proposal would
+privilege LTCI over other types of insurance. In addition, higher income taxpayers may be most
+likely to take advantage of the option to use Health FSA contributions to fund LTCI because they
+can better afford it, even on a pre-tax basis.
+
+Cash Value Under Qualified LTCI Contracts
+Under current law, a qualified LTCI contract generally may not provide for a cash surrender
+value or other money that can be paid, assigned, pledged as collateral for a loan, or borrowed.
+As a limited exception, a qualified LTCI contract may provide for a refund that does not exceed
+the aggregate premiums paid on the death of the insured, complete surrender, or cancellation of
+the contract. Any such refund is includible in gross income to the extent that any deduction or
+exclusion was allowable with respect to the premiums paid. In addition, premium refunds and
+dividends credited while the contract is in force may be used to reduce future premiums or
+increase future benefits, but may not be paid out to the policyholder.
+The Task Force considered a proposal to allow cash value beyond a return of premium under
+qualified LTCI contracts. Cash value or cash surrender value is the amount of money the
+insurance company is obligated to pay a policyholder or beneficiary if a life insurance or annuity
+contract is terminated. Policyholders also may be able to borrow against or otherwise benefit
+from the cash value. If the Code permitted qualified LTCI to accumulate cash value, LTCI could
+be more attractive because policyholders could receive a benefit (cash value withdrawal) even if
+they did not become chronically ill.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 52
+
+However, if a qualified LTCI contract were permitted to have cash surrender value beyond the
+limited return of premium currently allowed, it would to that extent be an investment vehicle and
+more closely resemble a type of life insurance contract than an accident and health insurance
+contract. While the Code permits earnings on life insurance and annuity contracts with cash
+value generally to accumulate tax-free, it generally does not permit policyholders to deduct
+premiums paid for life insurance or annuity contracts. Policyholders are also required to pay
+taxes on the investment component of distributions made under life insurance and annuity
+contracts (other than payment of death benefits under life insurance contracts). Congress
+imposed the current cash value restrictions on qualified LTCI in exchange for permitting LTCI to
+receive some of the more favored tax treatment provided to health insurance premium payments,
+including deductions for premium payments under some circumstances and tax-free treatment of
+policy benefits when received. Allowing qualified LTCI to have substantial cash value would
+give it more of a life insurance character and undermine the rationale for the tax-favored
+treatment currently accorded to qualified LTCI.
+
+Receiving 401(k), 403(b), or IRA Distributions to Purchase LTCI
+The Task Force considered a proposal to allow retirement plan participants to receive
+distributions from 401(k)s, 403(b)s, or IRAs to purchase LTCI with no additional early
+withdrawal tax. This could be accomplished by adding a new exception to the Code to fully
+exempt distributions from 401(k)s, 403(b)s, and IRAs used to purchase LTCI from the 10%
+additional income tax. The retirement account distributions in many cases would still be subject
+to regular income tax (depending on whether the taxpayer’s retirement account contribution was
+originally made pre-tax or post-tax), but the additional early withdrawal tax would not apply.
+The proposal could lower an obstacle to LTCI affordability (or perceived affordability) for some
+individuals with retirement savings but limited disposable income.
+In some cases, the proposal may provide little or no true economic advantage over using current
+income to pay LTCI premiums. For example, there would be no economic difference for active
+401(k) or 403(b) participants who are contributing more than needed to receive the maximum
+employer matching contributions (and to any active IRA contributor) between taking a
+distribution and alternatively redirecting some contributions to LTCI premiums. On the other
+hand, individuals who wish to contribute just enough to their 401(k) or 403(b) plan to receive the
+maximum employer matching contribution, but who also have limited funds available to pay
+LTCI premiums, might be more likely to purchase LTCI if they had the option of receiving an
+early distribution of previously-contributed funds without the additional 10% early withdrawal
+tax.
+Arguments against the proposal include the concerns that too many Americans have insufficient
+retirement savings, an individual who diverts funds otherwise earmarked for retirement income
+to LTCI could erode retirement security, and the proposed exemption would not benefit the large
+minority of families without retirement accounts.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 53
+
+Given that the Code provides exceptions to the additional 10% early withdrawal tax for the
+purchase of LTCI insurance in certain circumstances already (including as medical expenses
+above the itemized medical deduction floor regardless of whether an itemized deduction is
+claimed, as well as health insurance and LTCI premiums for unemployed individuals), 130 the
+Task Force recommends that the Code be amended to allow retirement plan participants to
+receive distributions from 401(k)s, 403(b)s, or IRAs to purchase LTCI with no early withdrawal
+tax. This change may make it easier for some individuals with retirement savings, but limited
+disposable income, to pay LTCI premiums, and the individuals most likely to take advantage of
+the early distribution option may be individuals in their mid-to-late 50s when LTCI premiums
+are becoming more expensive, but the individuals are not yet age-eligible to take ordinary
+retirement account distributions. This recommendation will likely have a minimal effect on tax
+revenues as taxpayers most likely to purchase long-term care insurance could avoid the penalty
+by reducing contributions to these accounts, reducing other consumption, or borrowing.
+
+130
+
+26 U.S.C. §72(t)(2)(B) and (D).
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 54
+
+Alternative Financing Approaches
+This section briefly reviews proposals for public insurance approaches to reform in the United
+States organized around the structure of the benefit and how it protects individuals from the
+financial risk of needing LTC. Most of these approaches focus on either front-end insurance
+(coverage of initial LTC costs for mostly short durations or limited scope) or back-end, or
+catastrophic, insurance (coverage beyond a specified level of need or cost for longer durations).
+Very few options provide comprehensive coverage of the entire spectrum of LTC risk. In
+addition, this review is limited to proposals and approaches that include detailed descriptions of
+major program features such as program eligibility, scope of coverage, and, most importantly,
+financing and cost estimates. The Task Force has not attempted to review in detail conceptual
+proposals and ideas that are not supported by specific financing and cost estimates.
+
+Front-End Benefit Options
+Options that address initial LTC costs are frequently referred to as front-end coverage
+benefits. 131 These options are also typically limited in their duration of coverage. Option 9
+under the NAIC 2017 List is a good example of a type of front-end benefit. Specifically, this
+option recommends that policymakers:
+Explore adding a home care benefit to Medicare or Medicare Supplement and/or
+Medicare Advantage plans. Medicare provides extensive acute care coverage but more
+limited post-acute coverage (home health and skilled nursing facility care). Medicare
+Advantage and Medigap plans fill the gaps in Medicare coverage. But most LTC
+services are not covered by Medicare, leaving a considerable gap in coverage for postacute care… There has been discussion of adding either something akin to a long-term
+care benefit or, less extensive, new home and community-based benefits either to
+Medicare (which would affect supplemental carriers) or to Medicare Advantage and/or
+Medigap plans.
+Establishing a home care benefit, a type of front-end insurance option that addresses initial needs
+for LTC services, has been an objective of policymakers for decades. For example, the 1993
+Health Security Act included a state-run home care program for persons with disabilities that
+would be funded largely through federal grants. Rather than establishing a new, completely
+independent program, a 2016 report 132 recommended adding a home-care benefit to Medicare or,
+like Option 9, including it as part of Medicare Supplement Insurance (such as Medigap) policies
+or Medicare Advantage (MA).
+
+131
+Melissa M. Favreault, Howard Gleckman, and Richard W. Johnson, “Financing Long-Term Services and
+Supports: Options Reflect Trade-Offs for Older Americans and Federal Spending,” Health Affairs 34, no. 12
+(December 2015): 2181–91, available at: https://www.healthaffairs.org/doi/full/10.1377/hlthaff.2015.1226.
+132
+
+Karen Davis, Cathy Schoen, and Amber Willink, “Medicare Help At Home,” Health Affairs, April 2016,
+available at: https://www.healthaffairs.org/do/10.1377/hblog20160413.054429/full/.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 55
+
+The home-care benefit proposal would pay for 20 hours per week of home care and other
+services for Medicare beneficiaries with two or more limitations in ADL or severe cognitive
+impairment, a benefit trigger similar to that for tax-qualified LTCI policies. Like Medicare
+Supplement Insurance, people turning age 65 who are eligible for Medicare would have the
+option to enroll in the program without medical underwriting. The home care benefit would be
+financed through a combination of co-insurance varying by income, beneficiary premiums, and a
+payroll tax. Beneficiaries would have a co-pay requirement ranging from 5% of the cost of
+service for low-income beneficiaries to 50% for those with income greater than 400 percent of
+the federal poverty level. The 2016 report estimated that a monthly premium of $35 and a
+payroll tax of 0.35% paid by both employer and worker would cover the public costs of the
+program under specific assumptions.133
+One of the policy options explored by the Bipartisan Policy Center in their 2017 report is the
+provision of a limited home care benefit through Medigap or MA plans. 134 The basic structure
+of the benefit is similar to the home-care benefit proposal with some significant differences. For
+example, the amount of the daily benefit available to pay for services is much higher, $100 per
+day, but is limited to one year. In addition, enrollees are not eligible to receive a benefit until 90
+days after a documented need for LTC. Most importantly, private insurers rather than the
+government provide the benefit and the program is financed exclusively through premiums paid
+after voluntary enrollment in the program. Assuming a discount rate of 3% and a loss ratio of
+85%, estimated monthly premium costs range from $55 if all eligible beneficiaries enroll at age
+65 to approximately $200 if only 5% enroll at that age. Although the Bipartisan Policy Center
+does not specify the participation rate, it estimates that reducing the benefit to $75 per day and
+increasing the elimination period to 180 days could result in monthly premiums of $35 to $40.
+
+Washington State’s Long-Term Services and Supports Trust Program
+In 2019, Washington State passed a public LTCI program, the Long-Term Services and Supports
+Trust Program. 135 Beginning in 2025, the program will pay, per individual, up to $36,500 of
+LTSS received from approved providers. The list of services that can be reimbursed is quite
+broad and includes services and equipment provided in the community (e.g., in-home personal
+care, adaptive equipment and technology, home modifications, respite for family caregivers,
+home delivered meals, transportation, etc.) as well as those provided in assisted living and
+nursing facilities. The program will be funded through a mandatory payroll tax of 0.58% on
+
+133
+
+These estimates assume that home care services cost approximately $20 per hour ($15 per hour plus 33% for
+fringe benefits) and that 75% of those eligible for the home care benefit who are not already on Medicaid would
+participate each year. Benefits would, therefore, cost up to $400 per week or $20,800 per year.
+134
+
+“Financing Long-Term Services and Support: Seeking Bipartisan Solutions in Politically Challenging Times,”
+Bipartisan Policy Center, July 2017, 22-24, available at: https://bipartisanpolicy.org/wpcontent/uploads/2019/03/BPC-Health-Financing-Long-Term-Services-and-Supports.pdf.
+135
+
+Washington State Legislature, Title 50B Long-Term Care – Chapter 50B.04 RCW: Long-Term Services and
+Supports Trust Program (Olympia: 2019).
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 56
+
+employees. Self-employed workers may opt into the program, while persons with LTCI could
+choose not to participate. Payroll tax withholding is scheduled to begin in 2022.
+In order to be a qualified program participant, an individual must have paid the payroll tax for
+ten years (without interruption for five consecutive years) or three years within the last six, and
+worked at least 500 hours during each of those years. Once qualified, an individual is eligible to
+receive a benefit if he or she is 18 years or older, was not disabled before the age of 18, is a
+Washington State resident, and requires assistance with at least three ADLs. Because the
+legislation did not identify specific ADLs, eligibility criteria could be more or less restrictive
+than those for tax-qualified LTCI. The lack of consistency between the two sets of eligibility
+criteria will likely create a barrier to the development of private insurance that supplements the
+benefits of the new program.
+In November 2019, a nonbinding advisory measure was included on the state’s general election
+ballot and voters voted against the idea of paying a new tax on wages to fund the program. A
+media representative for the Washington State Office of the Insurance Commissioner said the
+vote was an advisory measure that would not affect the enacted legislation. 136
+
+Medicare Advantage
+The Bipartisan Budget Act of 2018 amended Section 1852(a) of the Social Security Act to
+expand the types of supplemental benefits that may be offered by MA plans to chronically ill
+enrollees. 137 These benefits, referred to as Special Supplemental Benefits for the Chronically Ill
+(SSBCI), include supplemental benefits that are not primarily health-related and may be offered
+non-uniformly to eligible chronically ill enrollees. The purpose of the new category of
+supplemental benefits is to enable MA plans to better tailor benefit offerings, address gaps in
+care, and improve health outcomes for the chronically ill population.
+As a result of these changes, beginning in 2020 many MA plans are allowed to cover certain
+“non-primarily health related” items or services as a supplemental benefit for certain
+beneficiaries. This includes adult day health care, home based palliative care, caregiver support,
+in-home support services, transportation, and general supports for living, food, and other
+expenses. 138 In general, MA organizations have broad discretion in developing items and
+services they may offer as SSBCI, if the item or service has a reasonable expectation of
+improving or maintaining the overall health or overall function of the chronically ill enrollee.
+
+136
+
+Allison Bell, “Wash. State Continues Public LTCI Effort, in Spite of Ballot Measure Results,” ThinkAdvisor,
+November 2019, available at: https://www.thinkadvisor.com/2019/11/26/wash-state-continues-public-ltci-effort-inspite-of-ballot-measure-results/.
+137
+
+U.S. House, H.R. 1892 – Bipartisan Budget Act of 2018 (115th Congress, February 2018).
+
+138
+
+“Implementing Supplemental Benefits for Chronically Ill Enrollees,” Centers for Medicare & Medicaid Services,
+April 24, 2019, available at: https://www.cms.gov/Medicare/HealthPlans/HealthPlansGenInfo/Downloads/Supplemental_Benefits_Chronically_Ill_HPMS_042419.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 57
+
+Furthermore, MA organizations have broad discretion in determining what may be considered “a
+reasonable expectation” when choosing to offer specific items and services as SSBCI.
+While the 2018 legislation provides increased flexibility to MA plans, it does not change the
+payment structure used to finance supplemental benefits. Medicare pays MA plans a capitated
+amount to provide all Medicare Part A and B benefits. Plans submit bids every year in each
+county of operation and each bid is compared to a payment area’s benchmark, which is the
+maximum amount that Medicare will pay MA plans in that area. CMS also risk adjusts the
+benchmark base rate payments for each enrollee to account for various demographic and health
+status differences. If a plan bids below the benchmark, the plan and Medicare split the difference
+(with the plan’s share known as the “rebate”) between the bid and the benchmark. The rebate
+must be used to lower out-of-pocket costs, provide supplemental benefits, or both. If a plan bids
+above the benchmark, enrollees pay the difference between the bid and the benchmark in the
+form of a monthly premium in addition to the Part B premium. 139
+
+Back-End (Catastrophic) Options
+Back-end, or catastrophic, coverage options mitigate the risk of long durations of LTC and
+associated high costs. This approach addresses the risk of an unlikely, but potentially very costly
+and financially ruinous, event. An advantage to focusing on the tail of the risk distribution is that
+the cost of the insurance should be lower than other more comprehensive approaches. Several
+advocacy and non-partisan organizations have supported, at least in principle, the development
+of a catastrophic coverage option, and a 2018 paper proposed and modeled a detailed
+catastrophic insurance option. 140 The latter effort is notable because it is one of the few
+catastrophic reform efforts to estimate the cost of the program and explore distributional impacts.
+The authors of the 2018 paper maintained that a public catastrophic insurance option could
+provide a platform for private insurers to offer supplemental policies that in combination would
+provide more comprehensive coverage. Their proposed program is structured around a lifetime
+$110 per day cash benefit that would be available once enrollees had a demonstrated need for
+services beyond a specified duration. The 2018 paper referred to this duration as an “income139
+
+“Medicare Advantage,” Kaiser Family Foundation, last modified June 2019, available at:
+https://www.kff.org/medicare/fact-sheet/medicare-advantage/.
+
+140
+
+See, e.g., Treasury, “Public Comments,” America’s Health Insurance Plans and American Council of Life
+Insurers; Bipartisan Policy Center, “Financing Long-Term Services and Support;” Treasury, “Public Comments,”
+California Health Advocates; Marc Cohen, Melissa Favreault, and Judith Feder, “A New Public-Private Partnership:
+Catastrophic Public and Front-End Private LTC Insurance,” LeadingAge LTSS Center @UMass Boston, Urban
+Institute, and Office of the Assistant Secretary for Planning and Evaluation, last modified January 2018, available at:
+https://www.urban.org/research/publication/new-public-private-partnership-catastrophic-public-and-front-endprivate-ltc-insurance; “A Consensus Framework for Long-Term Care Financing Reform,” Convergence Center for
+Policy Resolution, last modified February 2016, available at: https://www.convergencepolicy.org/wpcontent/uploads/2016/02/LTCFC-FINAL-REPORT-Feb-2016.pdf; U.S. Senate, Commission on Long-Term Care:
+Report to Congress (September 2013), available at: https://www.govinfo.gov/content/pkg/GPOLTCCOMMISSION/pdf/GPO-LTCCOMMISSION.pdf.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 58
+
+related waiting period” ranging from one to four years depending on an enrollee’s lifetime
+income. 141 The waiting period would begin once an enrollee met the same criteria for LTC
+needs found in tax-qualified LTCI policies, i.e., need for assistance with two or more ADLs or
+severe cognitive impairment. A surcharge on the Medicare payroll tax paid by workers age 40
+and older would finance the benefit. The program would be phased in over ten years and
+enrollees would be eligible for benefit after having paid the requisite payroll tax for 40 quarters.
+Assuming an average waiting period of 2.2 years, the 2018 paper estimated that the program
+could be funded with a payroll tax surcharge of 1%. Approximately one-third of enrollees would
+eventually receive benefits, and payouts would cover 31% of all LTC costs. Compared to the
+current system, the new program would lead to an increase in overall LTC spending, but family
+out-of-pocket costs would decline by 15% and spending for Medicaid would be 25% lower,
+according to the authors.
+
+Comprehensive Options
+Recent LTC reform efforts have generally not focused on covering the full risk and cost of LTC
+services. The few full risk options have largely been conceptual and lack critical program
+details, such as specific financing mechanisms and cost estimates. For example, the 2013 Report
+to Congress of the Commission on Long-Term Care outlined a comprehensive Medicare benefit
+for LTSS as a model of what can achieved through social insurance. 142 Enrollees would be
+eligible for benefits under roughly the same criteria as those for tax-qualified private LTCI, and
+an increase in the Medicare payroll tax and premiums would finance the program. However, this
+report discussed neither the scope of benefits nor the requisite tax rates and premium amounts.
+In fact, the Commission did not agree on a financing mechanism for any of its proposals and thus
+made no formal recommendation.
+Recommendation: The Task Force does not recommend pursuing any particular alternative
+financing approach at this time. Policymakers and stakeholders should continue to develop,
+monitor, and analyze LTC and LTCI reform proposals—including those discussed in this
+report—to better understand the advantages and disadvantages of specific options, tradeoffs,
+program costs, and distributional impacts.
+
+141
+
+The specific waiting period schedule is one year for enrollees with lifetime income in the lowest two income
+quintiles, two years if one’s lifetime income was in the third highest quintile, and three and four years if lifetime
+income was in the two highest quintiles.
+142
+
+U.S. Senate, Commission on Long-Term Care.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 59
+
+Appendices
+Appendix A: Participants in the Engagement Process
+Actuarial Organizations and Consultants
+American Academy of Actuaries
+
+Oliver Wyman
+
+Milliman
+
+Society of Actuaries
+Consumer Advocates
+
+AARP
+
+California Health Advocates
+
+Alzheimer's Association
+
+Center for Economic Justice
+Government-Related Entities
+
+National Association of Insurance Commissioners
+Industry and Trade Groups
+America’s Health Insurance Plans
+
+Lincoln National
+
+American Council of Life Insurers
+
+National Association of Insurance and
+Financial Advisors
+
+Davis and Harmon
+
+New York Life Insurance Company
+
+Genworth Financial
+
+O’Leary Marketing Associates, LLC
+
+The Golleher Group, LLC
+
+Transamerica Life Insurance Co.
+
+John Hancock
+Regulators
+Alaska Department of Commerce,
+Community, and Economic Development
+Division of Insurance
+
+Maryland Insurance Administration
+
+Colorado Department of Regulatory Agencies
+Division of Insurance
+
+Nebraska Department of Insurance
+
+Connecticut Insurance Department
+
+Pennsylvania Insurance Department
+Think Tanks
+
+The LeadingAge LTSS Center @UMass
+Boston
+
+Urban Institute
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 60
+
+Appendix B: Summary of Analysis and Recommendations
+Implementation
+Analysis/Recommendation
+Federal
+
+State
+
+Other
+Stakeholders
+
+Innovation and Product Development
+Innovation and product development have the
+potential to significantly strengthen the private
+LTCI market and better address consumers’
+needs for LTC. The Task Force recommends
+that federal and state policymakers and
+Treasury, Insurance
+regulators foster a regulatory environment that IRS, HHS, Regulators,
+encourages flexibility, experimentation, and
+DOL
+NAIC
+innovation in policy design to improve
+consumer choice and access to benefits, while
+appropriately protecting the rights of consumers
+and the solvency of insurers.
+Policymakers could benefit from analysis of the
+impact of combination products on the market
+Treasury,
+for LTC risk protection. The Task Force
+FIO
+recommends that actuaries, academics, and
+other stakeholders explore such an analysis with
+coordination by FIO.
+
+Actuaries,
+Academics,
+Policy Experts
+
+The Task Force recommends that federal
+policymakers work with their state counterparts
+Treasury, Insurance
+and with private sector stakeholders to evaluate
+IRS, HHS, Regulators,
+and monitor the market for limited LTCI,
+CMS
+NAIC
+including potential impacts on the risk pool for
+longer-term products and on Medicaid.
+
+Industry,
+Consumer
+Groups, Policy
+Experts
+
+The Task Force recommends that state
+legislators and insurance regulators take steps to
+better streamline and standardize the regulation
+of the limited LTCI market.
+
+Legislators,
+Insurance
+Regulators
+
+The Task Force considered two policy
+proposals for LTCI group products, both
+involving the fiduciary provisions of ERISA.
+The Task Force does not recommend either
+proposal.
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 61
+
+Implementation
+Analysis/Recommendation
+Federal
+
+State
+
+Supporting the ability of individuals who need
+LTC to remain in their homes could benefit
+both consumers and insurers. The Task Force
+encourages industry, federal policymakers, and
+other experts, in consultation with consumer
+representatives, to identify and assess evidence
+Congress,
+of cost-effective pre-claim interventions under
+Treasury,
+LTCI policies. Depending on the results of the
+IRS
+analysis, Congress could consider amending the
+Code to permit payment of evidence-based,
+cost-effective incidental benefits under a taxqualified LTCI contract prior to the insured
+becoming chronically ill, subject to a monetary
+cap and other conditions set by regulation.
+
+Other
+Stakeholders
+
+Industry,
+Policy Experts,
+Consumer
+Groups
+
+Regulatory Efficiency and Alignment
+Inflation protection requirements under HIPAA
+and state insurance laws should be revised to
+improve the efficiency and effectiveness of
+regulation. To both address outdated
+Congress,
+requirements and provide flexibility to adapt
+Treasury,
+inflation protection to evolving economic
+IRS
+conditions, the Task Force recommends that
+Congress amend the Code to authorize Treasury
+to set inflation protections for tax-qualified
+LTCI.
+
+Insurance
+Regulators,
+NAIC
+
+The Task Force recommends that state
+policymakers—legislators, Medicaid directors,
+insurance regulators, and the NAIC—improve
+regulatory efficiency and effectiveness by
+Congress,
+harmonizing and streamlining inflation
+HHS
+protection requirements under the Partnership
+program. Alternatively, Congress could
+delegate to HHS the authority to set Partnership
+program inflation protection requirements.
+
+Legislators,
+Medicaid
+Directors,
+Insurance
+Regulators,
+NAIC
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 62
+
+Implementation
+Analysis/Recommendation
+Federal
+
+State
+
+Other
+Stakeholders
+
+HIPAA and the DRA create regulatory
+inefficiency by incorporating two outdated and
+conflicting versions of NAIC models with
+respect to consumer protections for LTCI. The
+Task Force recommends that Congress consider
+options to address this regulatory inefficiency.
+Congress,
+One option is to empower Treasury, in
+Treasury,
+consultation with HHS, to set consumer
+HHS
+protection standards using one version of the
+LTCI Model Act and Model Regulation for
+purposes of both tax qualification under HIPAA
+and Partnership eligibility under the DRA, with
+flexibility to update the standards periodically
+(e.g., every ten years).
+The Task Force recommends that the NAIC and
+the states maintain their focus on LTCI and
+work together in 2020 to develop a consistent
+Treasury,
+national approach to regulatory reviews of
+FIO
+LTCI rate increase requests. The Task Force
+also recommends that FIO continue to monitor
+and report on this issue.
+
+NAIC,
+Insurance
+Regulators
+
+Industry,
+Consumer
+Groups
+
+Financial Literacy and Education
+The Task Force recommends that Treasury,
+HHS, DOL, and other agencies, working
+through the FLEC, assess federal education
+resources on LTC needs and planning, and
+modify, update, and supplement these resources
+as needed. As part of its efforts to improve
+consumers’ capability in retirement planning,
+the FLEC should clearly integrate LTC
+planning into retirement education topics.
+
+Treasury,
+HHS,
+DOL,
+FLEC
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 63
+
+Implementation
+Analysis/Recommendation
+Federal
+
+State
+
+Other
+Stakeholders
+
+Tax Incentives
+The Task Force considered multiple proposals
+to amend federal tax laws and regulations to
+encourage the purchase of LTCI. The Task
+Force does not recommend adoption of any of
+Congress,
+the proposed additional tax incentives, with the Treasury,
+exception of the proposal to eliminate the
+IRS
+additional tax on early withdrawal of funds
+from an IRA, 401(k), or 403(b) account that are
+used to pay LTCI premiums.
+Alternative Financing Approaches
+The Task Force conducted a high-level review
+of select public insurance approaches to
+financing LTC. The Task Force does not
+recommend pursuing any particular alternative
+financing approach at this time. Policymakers
+and other stakeholders should continue to
+develop, monitor, and analyze LTC and LTCI
+reform proposals to better understand the
+advantages and disadvantages of specific
+options, tradeoffs, program costs, and
+distributional impacts.
+
+Treasury,
+HHS,
+CMS
+
+Legislators,
+Medicaid
+Directors,
+Insurance
+Regulators
+
+Long-Term Care Insurance: Recommendations for Improvement of Regulation 64
+
+
