@@ -81,7 +81,7 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money in
 | Points 5 and 7 (training; health supply beyond HLT-4) | about 1.5-2.5 a year | about 0.02 | about 2 |
 
 - **The recommended set** (14 B at $20, 15 B, 16 C, the points):
-  - about $0.65 trillion over FY2030-39 (range $0.45-0.9 trillion);
+  - about $0.65 trillion over FY2030-39 (range $0.45-1.0 trillion);
   - about $130 billion in FY2040 (range $85-215 billion).
 
   It sits on top of parts B and C's own costs.
