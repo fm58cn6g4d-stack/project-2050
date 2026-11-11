@@ -1,6 +1,6 @@
 # Care decision memos: the batches
 
-Role: the care dossier's decision memos, one batch per part, each sent together so it can be decided in one round. Status: part A (health, memos 1-5) decided; part B (care at home, memos 6-9) for Espen.
+Role: the care dossier's decision memos, one batch per part, each sent together so it can be decided in one round. Status: part A (health, memos 1-5) decided; part B (care at home, memos 6-9) and part C (child care and pre-K, memos 10-13) for Espen.
 
 ## Part A: health (decided)
 
@@ -26,3 +26,14 @@ Status: **for Espen, not decided.** Sent together so they can be decided in one 
 | [7](7-benefit-scope.md) | Who qualifies and how much the benefit covers | Part 1 A: help with two daily activities or the equivalent; part 2 B: set budgets by need tier, indexed, with the top tier at nursing-home level |
 | [8](8-institutional-care.md) | Nursing homes and other institutional care | C: the plan pays the care part from 2035; residents pay room and board from income above a protected allowance; B's protections in the bridge |
 | [9](9-family-caregivers.md) | Family caregivers | A: paid through self-direction at the benefit's rates, spouses and parents included, with respite and training |
+
+## Part C: child care and pre-K (the batch, for Espen)
+
+Status: **for Espen, not decided.** Sent together so they can be decided in one round (`../3c-design-child-care.md`). Each memo is decided on its own; `../3c-design-child-care.md` also has ten yes-or-no points and the proposed pre-K seam with education.
+
+| Memo | Question | Recommended |
+| --- | --- | --- |
+| [10](10-child-care-guarantee.md) | What families of children under 5 are guaranteed: grow the block grant, a capped-cost guarantee, or a universal flat fee | B: free at or below 85% of state median income, never more than 7% of income, no upper limit, no activity test |
+| [11](11-pre-k.md) | Pre-K for 3s and 4s: free school-day pre-K in any setting, inside the child care guarantee, or 4-year-olds only | A: free school-day pre-K for 3s and 4s, one rate in every setting |
+| [12](12-phasing-supply.md) | How fast, and how supply is built | A: free care at or below 85% and pre-K from 2030-31, the full cap from July 2032, providers paid by enrollment with operating and facility grants |
+| [13](13-delivery-head-start.md) | Who runs it, and Head Start | A: states under a federal floor, HHS directly where a state declines, Head Start kept federal-to-local at the common rates |
