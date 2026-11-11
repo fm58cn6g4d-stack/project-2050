@@ -32,10 +32,20 @@ Section 1, part 6, gives the full baseline:
 
 ## What the options cost
 
-These are working assumptions with their basis and range (`DEC-2026-11-10-07`), not a model run. Sections 4-6 price the decided design on the coverage model, whose single-payer variant assumes $200 billion a year for all long-term care (range $100-400 billion; `models/tools/health-coverage/MODEL-CARD.md`). The estimates below put home care alone at about that level, so section 6 must reconcile the two.
+These are working assumptions with their basis and range (`DEC-2026-11-10-07`), not a model run. They are measured **against current law, with HLT-7.07 honored**: today's Medicaid long-term care stays in Medicaid, and states keep paying their share of it.
+
+**How they relate to health's booking (a seam section 6 must settle).**
+- **The booked path already includes Medicaid long-term care.** The decided health path that the budget model books (`tools/health_path.py`, PR #230) reprices NHE's whole Medicaid line into the plan, home and institutional long-term care included, and nets half of states' share of that whole line as their payment. That runs against HLT-7.07's text.
+- **The model's own long-term care line is zero.** The coverage model's `sp_ltc_added` ($200 billion, range $100-400 billion) is added spending *beyond* what Medicare and Medicaid pay now, and the booked path sets it to 0. So there is no $200 billion long-term care line in the booking.
+- **Measured against the booking, part B's new money is smaller.**
+  - *Memo 6 B:* the state-relief line (about 73) is already in HLT-7's booked cost. What is new is the new users and the waiting lists, about $142 billion a year in 2035 (range $94-223 billion), plus any wage floor.
+  - *Memo 8 C:* the states' institutional share (about 42 of its 50-90) is booked too. What is new is the care part of private-pay stays, about $25-45 billion.
+  - *Memo 6 A:* the booking already moves Medicaid's home care into the plan from 2033-35, so A's match increase would matter only until then, unless health's booking is corrected.
+- **What settles it.** Two health follow-ups, flagged to the lead, will settle which basis is right: take long-term care out of the booked Medicaid line while HLT-7.07 keeps it in Medicaid, and stop repricing it at hospital and physician rate ratios. Until then both readings are shown. The choice between A and B is about whom the guarantee reaches, and the gap between them is large on either basis.
 
 **The basis (project arithmetic, judgment where marked).**
 - **Medicaid spending.** Medicaid long-term care was $257.0 billion in 2023 (CRS, 2025) [EV-CAR-404], 63.8% of it for home care (CMS, 2025) [EV-CAR-406]: about $164 billion for home care and $93 billion for institutions.
+- **Two totals mixed.** The $164 billion uses CRS's NHEA-based 2023 total, and CMS's T-MSIS count gives $129.4 billion for 2022 [EV-CAR-407]. The gap (about 27%) is mostly the difference between the two totals' coverage, so the base carries that uncertainty. The range below absorbs it.
 - **Users.** The 2022 cost per home-care user was about $16,600, from $129.4 billion for 7.8 million users [EV-CAR-407].
 - **States' share.** States pay about 47 percent [EV-CAR-448].
 - **Growth (working assumption).** Spending grows 5.5% a year in nominal terms, range 4.5-6.5%, from wage growth and a population 85 and older that nearly doubles by 2040 [EV-CAR-403]. This multiplies 2023 spending by about 1.9 by 2035.
@@ -45,14 +55,14 @@ These are working assumptions with their basis and range (`DEC-2026-11-10-07`), 
 | Option | New federal cost in 2035, first full year ($ billion) | Main pieces | FY2040 permanent cost (about) |
 | --- | --- | --- | --- |
 | Memo 6 A, stronger Medicaid | about 45 (35-70) | 10-point match increase on home care, about 31; states must serve everyone eligible, which ends waiting lists, with a federal share of about 13; resource limits updated, 2-5 (judgment) | about 60 |
-| **Memo 6 B, home benefit in the plan** (memo 7 A and B) | **about 215 (125-370)** | Relief of states' home-care share net of maintenance of effort, about 73 (29-147); waiting lists served, about 22; new users, about 120 (72-201). Federal Medicaid home-care money, about $165 billion, moves in as a transfer and is not counted as new | **about 280 (165-485)** |
+| **Memo 6 B, home benefit in the plan** (memo 7 A and B) | **about 215 (125-370)** against current law; **about 142 (94-223)** against health's booking | Relief of states' home-care share net of maintenance of effort, about 73 (29-147); waiting lists served, about 22; new users, about 120 (72-201). Federal Medicaid home-care money, about $165 billion, moves in as a transfer and is not counted as new | **about 280 (165-485)** |
 | Memo 6 C, catastrophic insurance | about 100-200 (judgment; Urban finds front-end and catastrophic benefits cost about the same [EV-CAR-446]) | The front end stays with Medicaid and families, and so do the waiting lists unless A is added | about 130-260 |
 | Part D wage floor, if it raises home-care pay 20% (part D's decision) | about 55 on top of 6 B | 20% on the labor share (about 60%, judgment) of the benefit | about 70 |
 | Memo 8 C, the care part of institutional care in the plan | about 50-90 | States' institutional share net of maintenance of effort; the care part (60-70%, judgment) of private-pay stays for the roughly 23% of residents whose primary payer is neither Medicaid nor Medicare [EV-CAR-438], at CareScout's $114,975 [EV-CAR-437] | about 65-120 |
 | Memo 8 D, all institutional care in the plan | about 80-140 | C plus room and board | about 105-185 |
 | Point 1, the bridge, FY2030-34 | about 24 a year in 2030; about 0.13 trillion over FY2030-34 | 10-point match on about $239 billion of home care in 2030 | ends 2034 |
 
-- **Over FY2030-39**, the recommended set adds up as follows, roughly, in calendar years; section 6 converts to fiscal years:
+- **Over FY2030-39**, against current law, the recommended set adds up as follows, roughly, in calendar years; section 6 converts to fiscal years. Against health's booking it is lower by about $0.6 trillion, the state-relief lines already booked:
   - the bridge, about $0.13 trillion;
   - memo 6 B from 2035, about $1.2 trillion (range $0.7-2.1 trillion);
   - memo 8 C from 2035, about $0.3-0.5 trillion;
