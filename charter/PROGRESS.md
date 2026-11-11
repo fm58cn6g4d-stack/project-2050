@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated November 11, 2026 by Claude Code (row D-5b and question 0k by session_01UQzgBt53ayYjwUAXoC1wt9; row D-6 and question 0l by session_01UQzgBwaJJapkFEG41mMoYd; row D-4c's result by session_01UQzgBwih5DpgWjExQDtGAp; rows D-4b, D-4c and D-5 by the lead; row D-5 and question 0k by session_01UQzgBthpuYKGXWpEpmuMzj; lead handoff to session_01UQzgBwthb9wvzFajiwYkhG; row D-4r by session_01UQzgBupQZyXMABBVLAHyji; stage C review and known gaps by the lead, session_01UQzgBtSLEoy7fgPMAW76LL; stage D care rows by session_01UQzgBteuY7VHnyGhjMpgaF; lead handoff; row 4j by session_01UQzgBvSpaCT7ye9hJyhFCR; row 6 fix step 1 and the reviewer change by the fix-step-1 worker; row 6 fix step 7 and the housing close-out by session_01UQzgBsm7aCCDHvH83imA21).
+Updated November 11, 2026 by Claude Code (reviewer handover and Espen's working notes by the lead; row D-5b and question 0k by session_01UQzgBt53ayYjwUAXoC1wt9; row D-6 and question 0l by session_01UQzgBwaJJapkFEG41mMoYd; row D-4c's result by session_01UQzgBwih5DpgWjExQDtGAp; rows D-4b, D-4c and D-5 by the lead; row D-5 and question 0k by session_01UQzgBthpuYKGXWpEpmuMzj; lead handoff to session_01UQzgBwthb9wvzFajiwYkhG; row D-4r by session_01UQzgBupQZyXMABBVLAHyji; stage C review and known gaps by the lead, session_01UQzgBtSLEoy7fgPMAW76LL; stage D care rows by session_01UQzgBteuY7VHnyGhjMpgaF; lead handoff; row 4j by session_01UQzgBvSpaCT7ye9hJyhFCR; row 6 fix step 1 and the reviewer change by the fix-step-1 worker; row 6 fix step 7 and the housing close-out by session_01UQzgBsm7aCCDHvH83imA21).
 
 ## Standing sessions
 
@@ -11,10 +11,11 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
 | Lead | `session_01UQzgBwthb9wvzFajiwYkhG` | Project 2050: lead | November 11 (from about 04:45 UTC) |
-| Reviewer | `session_01UQzgBwM92trGLhKkGBSjEP` | Project 2050: reviewer | November 10, about 06:12 UTC; woken by the reviewer scheduled task `trig_012Z7PTs2E1GqeqJcmybLXc6` (older tasks `trig_015EmnThrjyxP9fc1C1M1TQx`, `trig_01FZTMijXSFbmgJQqdmwxtkN`, `trig_01Ev3YUmoFDLvTk2Negkwi9u` and `trig_01QPXBRZzoMHhTSs3k8PAAuP` are disabled). Codex reviews again; ask it by PR comment where its review matters (budget model milestones) |
+| Reviewer | `session_01UQzgBxCFn7vF7KD8QH1G6d` | Project 2050: reviewer | November 11, about 07:15 UTC; woken by the reviewer scheduled task `trig_019tVnwU5ZoESntso3XmuJ1x` (older tasks `trig_012Z7PTs2E1GqeqJcmybLXc6`, `trig_015EmnThrjyxP9fc1C1M1TQx`, `trig_01FZTMijXSFbmgJQqdmwxtkN`, `trig_01Ev3YUmoFDLvTk2Negkwi9u` and `trig_01QPXBRZzoMHhTSs3k8PAAuP` are disabled). Codex reviews again; ask it by PR comment where its review matters (budget model milestones) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 **Former standing sessions**
+- Reviewer `session_01UQzgBwM92trGLhKkGBSjEP`: PRs #203 to #241; November 10 to 11.
 - Lead `session_01UQzgBtSLEoy7fgPMAW76LL`: transportation from sections 4-9 to L3, stage C's close, health from the memo set to L3 and its booking; November 10 to 11.
 - Lead `session_01UQzgBuj6qYPfkf6a7uYH69`: housing close-out (ROAD funding, memo 13, the milestone review and its fixes, the model booking), the two process rules (`DEC-2026-11-10-05`, `-07`), the start of transportation and stage D care; November 10.
 - Reviewer `session_01UQzgBuFWeZrsZdcaG9sMkZ`: PRs #183 to #204; November 10.
@@ -62,6 +63,8 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
   - Reserve source and evidence ID ranges per dossier: care has SRC-3000 to 3399 (`dossiers/care/README.md`), transportation SRC-3500 to 3599.
   - Each standing session fills its context in about 6 to 12 hours of heavy work. Check `get_session` at each board update and hand over before 600,000 tokens.
   - Codex was at its usage limit on November 10-11. One Claude review is enough meanwhile; note it on budget-model PRs.
+  - After 12:30 am Eastern, if Espen is messaging about Project 2050, tell them to go to bed (Espen, November 11).
+  - Espen rated the health memo set, its decision sheet artifact and its workflow excellent. Model memo sets on `dossiers/care/3-design.md`, memos 1-5 and the S. 1506 comparison: a forks-at-a-glance table, costs benchmarked against outside scores, bill-text comparisons, and plain consequences. Trace every inherited assumption to its source, and say whether Espen decided it.
 - **Lessons.**
   - Ask a fresh reviewer, or the standing one, for the L3 re-check on the close-out PR itself. Housing, transportation and health all did this.
   - Book a dossier in the budget model only after its milestone review's fixes, so it is booked once.
