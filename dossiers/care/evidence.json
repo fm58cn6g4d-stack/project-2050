@@ -7183,5 +7183,28 @@
   "supports": [
    "dossiers/care/4-specification.md"
   ]
+ },
+ {
+  "id": "EV-CAR-376",
+  "statement": "In the State-Foreign Operations division of the fiscal-year appropriations act, the Global Health Programs heading provides that none of the funds made available under the act may be used to pay for the performance of abortion as a method of family planning or to lobby for or against abortion, and that none may go to an organization or program the President determines supports or participates in the management of a program of coercive abortion or involuntary sterilization.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3004",
+  "anchor": [
+   "GLOBAL HEALTH PROGRAMS",
+   "supports or participates in the management of a program of coercive",
+   "funds made available under this Act may be used to pay for the",
+   "performance of abortion as a method of family planning or to",
+   "to lobby for or against abortion: Provided further, That in order"
+  ],
+  "grade": "A",
+  "locator": "Division F, title III, Global Health Programs, provisos",
+  "fact_date": "2026-02-03",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Enacted law, Public Law 119-75 (February 3, 2026), as published by GPO. The abortion-payment proviso restates the Helms amendment (EV-CAR-369) for every fund in the act, which RTS-2.02 overrides; the coercion proviso (Kemp-Kasten) and the lobbying proviso (Siljander) are kept. Appropriations limits last only for the fiscal year unless re-enacted.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
  }
 ]
