@@ -1140,11 +1140,12 @@
   "id": "RTS-2.02",
   "title": "End the Hyde Amendment and the other federal abortion funding limits",
   "agenda": "RTS-2",
-  "status": "decided (DEC-2026-11-10-11)",
+  "status": "decided (DEC-2026-11-10-11; DEC-2026-11-11-01)",
   "decisions": [
-   "DEC-2026-11-10-11"
+   "DEC-2026-11-10-11",
+   "DEC-2026-11-11-01"
   ],
-  "parameters": "Repeal the statutory limits (for Defense health care, 10 U.S.C. 1093; the statutory cross-reference that applies Hyde to the IHS; CHIP's own limits; the ACA's segregation rule, 42 U.S.C. 18023) and override the annual appropriations riders (the Labor-HHS Hyde sections 506 and 507, FEHB's sections 613 and 614, D.C.'s section 810, the Peace Corps proviso, and the Department of Justice limit that reaches federal prisoners) by a \"notwithstanding\" clause in the 2029 Act; the plan's appropriations acts carry none. Scope of \"in general\" (`DEC-2026-11-10-11`), working reading: every federal limit on paying for abortion in domestic programs, federal custody and federal service (the Peace Corps), which also brings in Title X's section 1008 (42 U.S.C. 300a-6). Out of scope here: foreign assistance, meaning the Helms amendment (22 U.S.C. 2151b(f)) and its yearly restatements in the State-Foreign Operations act's sections 7018 and 7057, which this row does not override; no dossier owns foreign assistance yet, so the lead holds it. Federal conscience laws are unchanged here (the rights dossier owns them with RTS-1)",
+  "parameters": "Repeal the statutory limits (for Defense health care, 10 U.S.C. 1093; the statutory cross-reference that applies Hyde to the IHS; CHIP's own limits; the ACA's segregation rule, 42 U.S.C. 18023) and override the annual appropriations riders (the Labor-HHS Hyde sections 506 and 507, FEHB's sections 613 and 614, D.C.'s section 810, the Peace Corps proviso, and the Department of Justice limit that reaches federal prisoners) by a \"notwithstanding\" clause in the 2029 Act; the plan's appropriations acts carry none. Scope of \"in general\" (`DEC-2026-11-10-11`, extended by `DEC-2026-11-11-01`), working reading: every federal limit on paying for abortion in domestic programs, federal custody and federal service (the Peace Corps), which also brings in Title X's section 1008 (42 U.S.C. 300a-6). Foreign assistance is in scope (`DEC-2026-11-11-01`): repeal the Helms amendment (Foreign Assistance Act sec. 104(f)(1), 22 U.S.C. 2151b(f)(1)) and the abortion clause of sec. 104(f)(3) (research on abortion as a method of family planning), and override their yearly restatements in the State-Foreign Operations act by the same \"notwithstanding\" clause: in the FY2026 act (Division F), the Global Health Programs proviso that none of the act's funds may pay for abortion as a method of family planning (it reaches every fund in the act, wider than part I), sec. 7018's abortion clauses and sec. 7057(d)(2)'s condition that UNFPA not fund abortions. Kept: the bars on involuntary sterilization and on funding programs of coercive abortion or involuntary sterilization (the Kemp-Kasten proviso), which bar coercion rather than paying for abortion; and the bar on using the act's funds to lobby for or against abortion (the Siljander proviso), which limits advocacy either way rather than paying for care. Ending either would go beyond `DEC-2026-11-11-01` and would be Espen's call. This dossier holds foreign assistance until a dossier owns it. Federal conscience laws are unchanged here (the rights dossier owns them with RTS-1)",
   "eligibility": "People covered by federal programs with abortion funding limits: Defense health care, the IHS, CHIP, ACA plans, FEHB, D.C. and the State-Foreign Operations programs",
   "vehicle": [
    {
@@ -1158,8 +1159,8 @@
     "note": "plan-era appropriations acts carry no Hyde-type riders"
    }
   ],
-  "agency": "HHS; OPM; Defense; VA; Justice",
-  "current_law": "The Labor-HHS act bars funds for abortion (sec. 506) with exceptions (sec. 507); FEHB (secs. 613-614), D.C. (sec. 810), State-Foreign Operations funds, Defense (10 U.S.C. 1093), the IHS (by cross-reference) and CHIP (its own statute) have their own limits [EV-CAR-330, EV-CAR-331, EV-CAR-332]; the ACA segregates abortion funds (42 U.S.C. 18023).",
+  "agency": "HHS; OPM; Defense; VA; Justice; State",
+  "current_law": "The Labor-HHS act bars funds for abortion (sec. 506) with exceptions (sec. 507); FEHB (secs. 613-614), D.C. (sec. 810), State-Foreign Operations funds, Defense (10 U.S.C. 1093), the IHS (by cross-reference) and CHIP (its own statute) have their own limits [EV-CAR-330, EV-CAR-331, EV-CAR-332]; the ACA segregates abortion funds (42 U.S.C. 18023). The Foreign Assistance Act bars part I funds from paying for abortion as a method of family planning (sec. 104(f), the Helms amendment) [EV-CAR-369], and the FY2026 State-Foreign Operations act restates it for all of the act's funds (the Global Health Programs proviso) [EV-CAR-376] and for part I (sec. 7018) and conditions UNFPA funds on UNFPA not funding abortions (sec. 7057(d)(2)) [EV-CAR-374, EV-CAR-375].",
   "evidence": [
    "EV-CAR-330",
    "EV-CAR-331",
@@ -1168,7 +1169,10 @@
    "EV-CAR-366",
    "EV-CAR-367",
    "EV-CAR-368",
-   "EV-CAR-369"
+   "EV-CAR-369",
+   "EV-CAR-374",
+   "EV-CAR-375",
+   "EV-CAR-376"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 2 (small; inside the plan's cost)",
