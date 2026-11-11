@@ -59,7 +59,7 @@ Outcomes this section frames:
 ## 6. Long-term care
 
 - Medicaid pays for more than two-thirds of long-term care delivered at home and in the community. At least half a million people have been on state waiting or interest lists every year since 2016, almost 650,000 in 2026 [EV-CAR-138].
-- This is part B's problem (care at home for all ages) and is not sized here, but it bears on health's choice: a single-payer design can include long-term care or leave it out, and that one switch changes its cost a great deal (section 2).
+- This is part B's problem (long-term care: support at home and in nursing homes for older and disabled people) and is not sized here, but it bears on health's choice: a single-payer design can include long-term care or leave it out, and that one switch changes its cost a great deal (section 2).
 
 ## 7. Health outcomes
 

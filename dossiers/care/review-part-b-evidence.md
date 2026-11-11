@@ -2,6 +2,8 @@
 
 Role: an independent check of care part B's recommendations (`1b-problem-home-care.md`, `2b-what-works-home-care.md`, `3b-design-home-care.md`, memos 6-9 and points 1-10, evidence EV-CAR-400 to 451). For each one it asks what evidence it rests on and how strong that evidence is, where it has been tried, and where it matches or departs from US bills, and why. Board row D-5a, asked by Espen before deciding question 0k. Status: draft for Espen and the lead. **It changes no recommendation**: Espen decides. New evidence is EV-CAR-470 to 499; new sources are SRC-3361 to 3386. Written by a session that did not write part B.
 
+**Applied (board row D-5b, PR #244):** all seven factual corrections in section 2 are made in `1b-`, `2b-`, `3b-` and memos 6-9, the claims in section 6 are softened, memo 6's costs are rebuilt with Urban and CBO as benchmarks, memo 9 offers and now recommends the lighter option (E), point 1's condition uses the access rule's measures, point 4 uses the bipartisan limits, memo 7 adds the hold-harmless, and the proposed name is applied in part B's files.
+
 Costs are on the current-law basis that #237 settled. Health's booking keeps Medicaid long-term care in Medicaid, so the withdrawn "$142 billion against health's booking" reading is not used.
 
 ## In brief

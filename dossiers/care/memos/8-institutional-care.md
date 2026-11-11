@@ -1,6 +1,8 @@
 # Memo 8: Nursing homes and other institutional care
 
-Role: decision memo for Espen, fork 8 of the care dossier (part B; `../3b-design-home-care.md`). Status: **for Espen, not decided.** Health's working position is option A: institutional long-term care stays in Medicaid, as S. 1506 sec. 204 has it (`../4-specification.md`, HLT-7.07). This memo weighs keeping that against changing it. Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions; their basis is in `../3b-design-home-care.md`.
+Role: decision memo for Espen, fork 8 of the care dossier (part B, long-term care: support at home and in nursing homes for older and disabled people; `../3b-design-home-care.md`). Status: **for Espen, not decided**; revised after the independent audit (`../review-part-b-evidence.md`). Health's working position is option A: institutional long-term care stays in Medicaid, as S. 1506 sec. 204 has it (`../4-specification.md`, HLT-7.07). This memo weighs keeping that against changing it. Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions; their basis is in `../3b-design-home-care.md`.
+
+**What changed after the audit.** The recommendation is still C. One correction: the earlier text said "Japan's and Germany's insurance work the same way", with residents paying only room and board. That is true of Japan since its 2005 reform [EV-CAR-457] [EV-CAR-458], but not of Germany, where insurance pays a capped share of care and residents paid on average about 3,108 euros a month in their first year in July 2025, of which room and board was 1,018 [EV-CAR-484]. Germany is now cited as the counter-example, and Medicaid's own assisted-living rule is added as the US precedent [EV-CAR-498]. The room-and-board share stays a judgment.
 
 **This memo decides who pays for long stays in nursing homes and in intermediate care facilities for people with intellectual disabilities, after 2035.** Short post-hospital stays are already plan medical care (HLT-7.05). Psychiatric hospital care is plan medical care too.
 
@@ -22,7 +24,7 @@ Role: decision memo for Espen, fork 8 of the care dossier (part B; `../3b-design
 
 **B. It stays in Medicaid, with federal protections against impoverishment.**
 - **What it does.** It adds, from 2030:
-  - higher resource limits ($4,100 and $6,200, indexed; S. 1506 sec. 1101) [EV-CAR-431];
+  - higher resource limits ($10,000 and $20,000, indexed, the bipartisan SSI Savings Penalty Elimination Act's figures [EV-CAR-478]; S. 1506 has $4,100 and $6,200 [EV-CAR-431]);
   - no estate recovery (S. 1506 sec. 205) [EV-CAR-431];
   - the home always protected while a spouse or dependent lives there;
   - a higher personal-needs allowance for residents (judgment: about double today's typical amount).
@@ -36,9 +38,13 @@ Role: decision memo for Espen, fork 8 of the care dossier (part B; `../3b-design
   - Residents pay the room-and-board part from their income, keeping a protected personal allowance. A resident's spouse at home keeps the household income they need, as under today's spousal rules.
   - Residents who cannot pay room and board get it from Medicaid, with no asset test beyond income (judgment: a state program paid at the regular match).
   - States keep paying half of what they now spend on institutional care (maintenance of effort, as S. 1506's floor does) [EV-CAR-278].
-- **Why it is built this way.** Japan's and Germany's insurance work the same way: insurance pays for care, and people pay for their room and food as they would at home [EV-CAR-442] [EV-CAR-440]. People at home pay their own rent too, so the line between home and institution falls in the same place.
+- **Why it is built this way.** People at home pay their own rent and food, so the line between home and institution falls in the same place.
+  - *Japan:* since October 2005, residence and meal costs in care facilities are no longer insurance benefits and are paid by users, "as for people at home", with capped amounts for low incomes (Japan's health ministry, 2005; Ikegami, 2007) [EV-CAR-458] [EV-CAR-457].
+  - *Medicaid already draws this line* in assisted living: it may pay for care but is barred from paying room and board, and 41 of 47 responding states cover assisted-living services this way (KFF, 2025) [EV-CAR-498].
+  - *Germany is a counter-example:* its insurance pays a capped share of care, so residents pay room and board, investment costs and a large share of care themselves, about 3,108 euros a month in the first year [EV-CAR-484]. Option C pays the whole care part, which Germany does not.
+- *Evidence strength:* international practice (Japan) and a US precedent; the room-and-board share is judgment. The audit rates it plausible but thin.
 - *For people:* the widow keeps her savings. Her Social Security pays most of her room and board, and the plan pays for her care.
-- *Cost:* about $50-90 billion a year of new federal money in 2035, about $65-120 billion in FY2040 (judgment: states' share net of their payment, plus the care part of private-pay stays). That is against current law, which health's booking now matches for long-term care (board row D-4c; `../3b-design-home-care.md`, "How they relate to health's booking"). The room-and-board share (30-40%, judgment) is the main unknown. Section 6 needs nursing-home spending by payer.
+- *Cost:* about $50-90 billion a year of new federal money in 2035, about $65-120 billion in FY2040 (judgment: states' share net of their payment, plus the care part of private-pay stays). CBO finds that under a broad long-term care benefit the added demand is entirely for home care, not institutions [EV-CAR-452], so this cost is mostly relief and private-pay stays, not new use. That is against current law, which health's booking now matches for long-term care (board row D-4c; `../3b-design-home-care.md`, "How they relate to health's booking"). The room-and-board share (30-40%, judgment) is the main unknown. Section 6 needs nursing-home spending by payer.
 - *Risk:* nursing homes could shift costs into room-and-board charges. The plan sets the room-and-board rate it recognizes, which needs rate rules (section 4). Without memo 6 B, C alone would favor institutions over home, so C makes sense only with B.
 - *Burden:* an income statement for room and board, from records the government already holds.
 
@@ -47,6 +53,25 @@ Role: decision memo for Espen, fork 8 of the care dossier (part B; `../3b-design
 - *Cost:* about $80-140 billion a year in 2035 (judgment), about $30-50 billion more than C.
 - *Risk:* it pays for room and board in an institution but not at home, which tilts choices toward institutions. That runs against the evidence that people who leave institutions do better at home [EV-CAR-429].
 - *Burden:* none.
+
+## Against the bills
+
+| Bill | Nursing homes | Match or diverge with C, and why |
+| --- | --- | --- |
+| **S. 1506** [EV-CAR-278] [EV-CAR-471] | Stay in Medicaid; states may not tighten eligibility below January 1, 2025 rules; a state spending floor | Diverge: that is option A. C removes the asset-test cliff 6 B would create; it keeps S. 1506's state payment |
+| **H.R. 3069** [EV-CAR-470] [EV-CAR-291] | All institutional care covered, no cost sharing | Diverge: that is option D. C leaves room and board to residents, as at home |
+| **WISH Act** [EV-CAR-472] | Its cash benefit can be used in any setting | Match in part: pays toward care wherever given |
+| **HCBS Access Act** [EV-CAR-474] | Home care only; nursing homes stay as they are | — |
+| **Medicaid's assisted-living rule** [EV-CAR-498] | Care paid, room and board not | Match: C applies the same line to nursing homes |
+
+## Consequences at a glance
+
+| | A. Medicaid, state floor | B. Medicaid with protections | **C. Plan pays care part** | D. Plan pays all |
+| --- | --- | --- | --- | --- |
+| A widow with $90,000 | Spends to $2,000 | Keeps a little more and her house | Keeps her savings; pays room and board from income | Pays nothing |
+| Cliff between home and nursing home under memo 6 B | Yes | Yes, smaller | No | No, but tilts toward institutions |
+| New federal cost, 2035 | 0 | about $3-10 billion | about $50-90 billion | about $80-140 billion |
+| Precedent | S. 1506 | S. 1506's protections | Japan since 2005; Medicaid assisted living | H.R. 3069 |
 
 ## Recommendation: C, with B's protections in the 2030-34 bridge
 
