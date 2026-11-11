@@ -7136,5 +7136,52 @@
   "supports": [
    "dossiers/care/6-cost.md"
   ]
+ },
+ {
+  "id": "EV-CAR-374",
+  "statement": "In the State-Foreign Operations division of the fiscal-year appropriations act, section 7018 bars use of the funds made available to carry out part I of the Foreign Assistance Act to pay for the performance of abortions as a method of family planning or to motivate or coerce any person to practice abortions; it also bars use of those funds for involuntary sterilization and for biomedical research relating to abortion or involuntary sterilization as a means of family planning.",
+  "claim": "data",
+  "figures": [
+   "7018"
+  ],
+  "source": "SRC-3004",
+  "anchor": [
+   "SEC. 7018. None of the funds made available to carry out",
+   "be used to pay for the performance of abortions as a method of",
+   "used to pay for the performance of involuntary sterilization as",
+   "of 1961, as amended, may be used to pay for any biomedical research"
+  ],
+  "grade": "A",
+  "locator": "Division F, title VII, sec. 7018",
+  "fact_date": "2026-02-03",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Enacted law, Public Law 119-75 (February 3, 2026), the consolidated appropriations act for fiscal year 2026, as published by GPO. Section 7018 is the yearly restatement of the Helms amendment (EV-CAR-369). Its abortion clauses are what RTS-2.02 overrides; the bars on involuntary sterilization stay. Appropriations limits last only for the fiscal year unless re-enacted.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-375",
+  "statement": "In the State-Foreign Operations division of the fiscal-year appropriations act, section 7057 makes funds for UNFPA unavailable unless UNFPA keeps them in an account separate from its other accounts and does not fund abortions.",
+  "claim": "data",
+  "figures": [
+   "7057"
+  ],
+  "source": "SRC-3004",
+  "anchor": [
+   "SEC. 7057. (a) CONTRIBUTION.—Of the funds made available",
+   "(d) CONDITIONS ON AVAILABILITY OF FUNDS.—Funds made available by this Act for UNFPA may not be made available unless—",
+   "(2) UNFPA does not fund abortions."
+  ],
+  "grade": "A",
+  "locator": "Division F, title VII, sec. 7057(d)",
+  "fact_date": "2026-02-03",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Enacted law, Public Law 119-75 (February 3, 2026), the consolidated appropriations act for fiscal year 2026, as published by GPO. Subsection (d) conditions the funds for UNFPA (the United Nations Population Fund) on UNFPA not funding abortions; it is a yearly foreign-assistance abortion condition that RTS-2.02 overrides. Appropriations limits last only for the fiscal year unless re-enacted.",
+  "supports": [
+   "dossiers/care/4-specification.md"
+  ]
  }
 ]

@@ -453,7 +453,7 @@ RTS-1,Reproductive Freedom Act,agenda/rights,L1,chosen,legacy/domains/domain-rig
 RTS-1A,The full statutory right plus the access titles,agenda/rights,L1,chosen,legacy/domains/domain-rights.md:50,Register: A chosen
 RTS-1B,"Access only: medication abortion, telehealth, travel, contraception, IVF and EMTALA, with no viability standard",agenda/rights,L1,alternative,legacy/domains/domain-rights.md:51,Register: A chosen
 RTS-1C,"RTS-1B as the opening bill, with the viability right after a second rules fight",agenda/rights,L1,alternative,legacy/domains/domain-rights.md:52,Register: A chosen
-RTS-2,Coverage,care,L2,decided,legacy/domains/domain-rights.md:12,"Home moved to care (DEC-2026-11-10-11, item 4): no abortion funding limit on the plan and the Hyde Amendment ended in general; provisions RTS-2.01, .02 in dossiers/care/provisions.json"
+RTS-2,Coverage,care,L3,decided,legacy/domains/domain-rights.md:12,"Home moved to care (DEC-2026-11-10-11, item 4): no abortion funding limit on the plan and the Hyde Amendment ended in general; provisions RTS-2.01, .02 in dossiers/care/provisions.json; foreign assistance included (DEC-2026-11-11-01): the Helms amendment and its yearly restatement end too; L3 after the milestone review and the scope decision"
 RTS-3,Equality Act,agenda/rights,L1,chosen,legacy/domains/domain-rights.md:13,
 RTS-3A,H.R. 15 as drafted,agenda/rights,L1,chosen,legacy/domains/domain-rights.md:80,"Register: A chosen; athletics is Espen's call (A, B or E)"
 RTS-3B,H.R. 15 with an athletics provision deferring to sports governing bodies and state law,agenda/rights,L1,alternative,legacy/domains/domain-rights.md:81,"Register: A chosen; athletics is Espen's call (A, B or E)"
