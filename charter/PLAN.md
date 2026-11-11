@@ -45,7 +45,7 @@ The project specifies a core of defining commitments first, to a professional st
 | # | Flagship | What it brings together |
 | --- | --- | --- |
 | 1 | **A secure floor for every household** | Monthly child benefit, income support and participation help, paid leave, Social Security protection |
-| 2 | **Care you can count on** | Health coverage restored and extended, by single-payer Medicare for All, a public option or a staged path between them (weighed in full in the care dossier), care at home for all ages, child care and pre-K, the care workforce |
+| 2 | **Care you can count on** | Health coverage restored and extended, by single-payer Medicare for All, a public option or a staged path between them (weighed in full in the care dossier), long-term care (support at home and in nursing homes for older and disabled people), child care and pre-K, the care workforce |
 | 3 | **A home you can keep** | Rental help as a guarantee, building and repair, zoning incentives |
 | 4 | **Clean, affordable power and a prepared country** | Carbon fee and dividend, clean power and grid, adaptation and insurance, the clean-industry transition |
 | 5 | **Fair pay and real power at work** | Labor law, wage floors, sectoral standards, support when jobs change |
