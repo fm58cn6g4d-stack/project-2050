@@ -1,0 +1,405 @@
+Defense Primer: Military Health System
+
+Updated January 14, 2026
+            (IF10530)
+
+The Department of Defense (DOD), which is "using a secondary Department of War designation," under Executive Order 14347 dated September 5, 2025, administers a statutory health entitlement (under Title 10, Chapter 55, of the U.S. Code) through the Military Health System (MHS). The MHS offers health care benefits and services through its TRICARE program to approximately 9.4 million beneficiaries composed of servicemembers, military retirees, and family members. Health care services are available through DOD-operated hospitals and clinics, referred to collectively as military treatment facilities (MTFs), or through civilian health care providers participating in the TRICARE program. 
+
+Purpose
+
+The MHS was established to support medical readiness through the provision of "medically ready and ready medical forces" and "by improving the health of all those entrusted to [their] care." Congress instructed that the MHS was to "create and maintain high morale in the uniformed services by providing an improved and uniform program of medical and dental care for members and certain former members of those services, and for their dependents" (10 U.S.C. §1071). Congress authorized some MHS resources to be used for humanitarian assistance (10 U.S.C. §401) and to perform medical research (10 U.S.C. §4001).
+
+Organization
+
+The Under Secretary of Defense for Personnel and Readiness (USD[P&R]) is the principal staff assistant and advisor to the Secretary of Defense and to the Deputy Secretary of Defense for military and civilian personnel matters and quality of life matters, including health affairs (see 10 U.S.C. §136).
+Office of the Assistant Secretary of Defense for Health Affairs (OASD[HA])
+
+Defense Health Agency (DHA)
+
+Army Medical Command, Navy Bureau of Medicine and Surgery, and the Air Force Medical Command
+The Assistant Secretary of Defense for Health Affairs (ASD[HA]) reports to the USD(P&R). The ASD(HA) is the principal advisor to the Secretary of Defense on all "DOD health policies, programs and activities and for the Integrated Disability Evaluation System" and has primary responsibility for the MHS (see DOD Directive 5136.01). Reporting to the USD(P&R) through the ASD(HA), the Defense Health Agency (DHA) is a joint combat support agency whose purpose is to enable the Army, Navy, and Air Force medical services to provide a medically ready forces and a ready medical force to combatant commands in both peacetime and wartime.
+
+DOD is using secondary titles for the aforementioned positions, including "Secretary of War," "Deputy Secretary of War," "Under Secretary of War," and "Assistant Secretary of War" under Executive Order 14347 dated September 5, 2025.
+
+Beneficiaries
+
+In FY2024, there were 9.4 million total MHS beneficiaries (see Figure 1). 
+
+ Figure 1. MHS Beneficiaries, FY2024
+
+Figure is interactive in the HTML version of this report.
+
+<script type="text/javascript">//Based on IAG in AP 7.4.1 (Revised 20240624)
+
+$(function () {
+
+	$('#IAG-144717911').bind('mousedown', function () { /* saveRptHighChartClick(); */ });
+
+	//#### HIGHCHART LIBRARIES ####//
+        	var files = ["https://code.highcharts.com/highcharts.js","https://code.highcharts.com/highcharts-more.js","https://code.highcharts.com/modules/exporting.js","https://code.highcharts.com/modules/export-data.js","https://code.highcharts.com/modules/drilldown.js","https://code.highcharts.com/modules/accessibility.js","https://code.highcharts.com/modules/data.js","https://code.highcharts.com/themes/adaptive.js"],
+		        		loaded = 0;
+				        	if (typeof window["HighchartsEditor"] === "undefined") {
+				        		window.HighchartsEditor = {
+				        			ondone: [cl],
+				        			hasWrapped: false,
+				        			hasLoaded: false
+				        		};
+				        		include(files[0]);
+				        	} else {
+				        		if (window.HighchartsEditor.hasLoaded) {
+				        			cl();
+				        		} else {
+				        			window.HighchartsEditor.ondone.push(cl);
+				        		}
+				        	}
+
+		        	function isScriptAlreadyIncluded(src) {
+		        		var scripts = document.getElementsByTagName("script");
+		        		for (var i = 0; i < scripts.length; i++) {
+		        			if (scripts[i].hasAttribute("src")) {
+		        				if ((scripts[i].getAttribute("src") || "").indexOf(src) >= 0 || (scripts[i].getAttribute("src") === "http://code.highcharts.com/highcharts.js" && src === "https://code.highcharts.com/stock/highstock.js")) {
+		        					return true;
+		        				}
+		        			}
+		        		}
+		        		return false;
+		        	}
+
+		        	function check() {
+		        		if (loaded === files.length) {
+		        			for (var i = 0; i < window.HighchartsEditor.ondone.length; i++) {
+		        				try {
+		        					window.HighchartsEditor.ondone[i]();
+		        				} catch (e) {
+		        					console.error(e);
+		        				}
+		        			}
+		        			window.HighchartsEditor.hasLoaded = true;
+		        		}
+		        	}
+
+		        	function include(script) {
+		        		function next() {
+		        			++loaded;
+		        			if (loaded < files.length) {
+		        				include(files[loaded]);
+		        			}
+		        			check();
+		        		}
+		        		if (isScriptAlreadyIncluded(script)) {
+		        			return next();
+		        		}
+		        		var sc = document.createElement("script");
+		        		sc.src = script;
+		        		sc.type = "text/javascript";
+		        		sc.onload = function () {
+		        			next();
+		        		};
+		        		document.head.appendChild(sc);
+		        	}
+
+		        	function each(a, fn) {
+		        		if (typeof a.forEach !== "undefined") {
+		        			a.forEach(fn);
+		        		} else {
+		        			for (var i = 0; i < a.length; i++) {
+		        				if (fn) {
+		        					fn(a[i]);
+		        				}
+		        			}
+		        		}
+		        	}
+		        	var inc = {},
+		        		incl = [];
+		        	each(document.querySelectorAll("script"), function (t) {
+		        		inc[t.src.substr(0, t.src.indexOf("?"))] = 1;
+		        	});
+
+        	function cl() {
+        		if (typeof window["Highcharts"] !== "undefined") {
+  //#### HIGHCHART LIBRARIES END  ####//
+	//##### CRS THEME START (v1.2, 20220510)#####//
+	        Highcharts.theme = {
+	                colors: ['#0C90FC', '#003865', '#F1B434', '#7060A8', '#6CC8BD', '#757048', '#B4C7D0', '#D36127'],
+	                chart: {backgroundColor: 'white',},
+	                title: {
+	                  style: {
+	                    color: 'black',
+	                    font: '15px "Calibri", Verdana, sans-serif',
+	                    fontWeight: 'bold'
+	                          }
+	                        },
+	                subtitle: {
+	                      style: {
+	                        color: 'black',
+	                        font: '14px "Calibri", Verdana, sans-serif'
+	                              }},
+	                credits: {
+	                      enabled: false
+	                            },
+
+	                legend: {
+	                        itemStyle: {
+	                            fontFamily: '"Calibri", Verdana, sans-serif',
+	                            fontSize: '14px',
+	                            color: 'black',
+	                            "text-decoration": 'none !important'
+	                            },
+	                        verticalAlign: 'top',
+	                        itemMarginBottom: 7,
+	                            },
+
+	                yAxis: {
+	                    title: {
+	                        style: {
+	                            font: '14px "Calibri", Verdana, sans-serif',
+	                            fontWeight: 'bold',
+	                            color: 'black'}
+	                                },
+
+	                    labels: {
+	                        style: {
+	                          font: '14px "Calibri", Verdana,sans-serif',
+	                          color: 'black'}},
+	                        },
+
+	                xAxis: {
+	                    title: {
+	                        style: {
+	                            font: '14px "Calibri", Verdana, sans-serif',
+	                            fontWeight: 'bold',
+	                            color: 'black'},
+	                            y: 8
+	                            },
+
+	                    labels: {
+	                        style: {
+	                                font: '14px "Calibri", Verdana, sans-serif',
+	                                color: 'black'
+	                                },
+	                            },
+
+	                    lineColor: 'black',
+	                    lineWidth: 0.5
+	                            }
+	                        };
+	        Highcharts.setOptions(Highcharts.theme);
+	        Highcharts.setOptions({
+	                        lang: {thousandsSep: ','},
+	                        chart: {style: {fontFamily: 'Calibri'}},
+	                        exporting: { enabled: false }
+	                    });
+	//##### CRS THEME END #####//
+
+  //#### START chart elements before Highcharts container ####//
+
+  //#### END chart elements before the Highcharts container ####//
+
+  var options = {
+  //#### START code inside Highcharts.chart('container', {  ####//
+
+        				 chart: {
+        type: 'pie',
+        custom: {},
+        events: {
+            render() {
+                const chart = this,
+                    series = chart.series[0];
+                let customLabel = chart.options.chart.custom.label;
+
+                if (!customLabel) {
+                    customLabel = chart.options.chart.custom.label =
+                        chart.renderer.label(
+                            'Total
+' +
+                            'Beneficiaries
+ 9.4 million'
+                        )
+                            .css({
+                                color:
+                                    'var(--highcharts-neutral-color-100, #000)',
+                                textAnchor: 'middle'
+                            })
+                            .add();
+                }
+
+                const x = series.center[0] + chart.plotLeft - 2; 
+                    y = series.center[1] + chart.plotTop -
+                    (customLabel.attr('height') / 2) -10;
+
+                customLabel.attr({
+                    x,
+                    y
+                });
+
+                customLabel.css({
+                    fontSize: `${series.center[2] / 15}px`
+                });
+            }
+        }
+    },
+    accessibility: {
+        point: {
+            valueSuffix: '%'
+        }
+    },
+    title: {
+        text: null
+    },
+    subtitle: {
+        text: null
+    },
+    tooltip: {
+    useHTML: true,
+    formatter: function () {
+        return `
+
+                \u25CF
+
+                    ${this.point.name}
+
+                FY2024 Actuals: ${this.point.percentage.toFixed(0)}%, ${this.point.customValue}
+
+        `;
+    }
+},
+    legend: {
+        enabled: false
+    },
+    plotOptions: {
+        series: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            borderRadius: 0,
+            dataLabels: [{
+                enabled: true,
+                distance: 20,
+                format: '{point.name}',
+                connectorWidth: 1,
+                style: {
+                    fontSize: '0.9em'
+                }
+            }, {
+                enabled: true,
+                distance: -38,
+                format: '{point.percentage:.0f}%',
+                style: {
+                    fontSize: '1em',
+                    textOutline: 'none',
+                    color: 'white'
+                }
+            }],
+            showInLegend: true
+        }
+    },
+
+    series: [{
+        name: 'Beneficiaries',
+        colorByPoint: true,
+        innerSize: '55%',
+        data: [
+            {
+            name: 'TRICARE for Life Eligibles',
+            y: 27,
+            customValue: '2.5M',
+            color: '#003865'
+        },{
+            name: 'Retiree Family Members',
+            y: 27,
+            customValue: '2.5M',
+            color: '#418FDE'
+        },  {
+            name: 'Active Duty Family Members',
+            y: 19,
+            customValue: '1.8M',
+            color: '#9B945F',
+          }, {
+            name: 'Active Duty Servicemembers',
+             customValue: '1.5M',
+            y: 16,
+            color: '#E7A07B'
+        }, {
+            name: 'Retirees',
+            y: 11,
+            customValue: '1.1M',
+            color: '#009483'
+        },
+     ]
+    }]
+	//#### END container ####//
+
+        			};
+
+			new Highcharts.Chart("IAG-144717911", options);
+		}
+	}
+});
+</script>
+
+Source: CRS graphic based on DOD, "Defense Health Program Fiscal Year (FY) 2026 Budget Estimates," June 2025, p. 139.
+
+Notes: Numbers may not add up to total due to rounding. "TRICARE for Life Eligibles" are Medicare-eligible beneficiaries, including retirees and retiree family members ≥65.
+
+Military Treatment Facilities (MTFs)
+
+DHA administers all MTFs worldwide. Generally, these facilities are located on or near a U.S. military base. There are three types of MTFs that provide a range of clinical services depending on facility size, mission, and level of capabilities: (1) medical centers, (2) hospitals, and (3) ambulatory care centers. MTFs are typically staffed by military, civil service, and contract personnel. In FY2024, DHA administered 601 MTFs.
+
+TRICARE Options
+
+With the exception of active duty servicemembers (who are assigned to the TRICARE Prime option and pay no out-of-pocket costs for TRICARE coverage), MHS beneficiaries may have a choice of TRICARE plan options depending upon their status (e.g., active-duty family member, retiree, reservist, child under age 26 ineligible for family coverage, Medicare-eligible) and geographic location. Each plan option has different beneficiary cost-sharing features. Cost sharing may include an annual enrollment fee or monthly premiums, annual deductible, copayments, and an annual catastrophic cap. Pharmacy copayments are established separately and are the same for all beneficiaries under each option. The current major plan options are listed below.
+
+TRICARE Prime
+
+TRICARE Prime is a health maintenance organization (HMO)-style option in which beneficiaries typically get most care at an MTF. Beneficiaries may be eligible to enroll in this option if they live within or near a designated Prime Service Area. TRICARE Prime features an annual enrollment fee for retirees but does not have an annual deductible and has minimal copayments.
+
+TRICARE Select
+
+TRICARE Select is a self-managed, preferred-provider option (PPO). This plan allows beneficiaries greater flexibility with accessing health care and typically does not require a referral for specialty care. Eligible beneficiaries must enroll annually and may be subject to an enrollment fee, annual deductible, and copayments depending on their status. Lower out-of-pocket costs are associated with care from a TRICARE network provider. 
+
+TRICARE for Life
+
+In general, certain retired TRICARE beneficiaries must enroll in Medicare and pay Medicare Part B premiums to retain TRICARE coverage. The coverage provided is known as TRICARE for Life. There is no enrollment fee or premium; beneficiaries pay no out-of-pocket costs for services covered by both Medicare and TRICARE for Life.
+
+Funding
+
+Congress has funded the MHS through several accounts in the annual defense appropriations bill. These include the Operation & Maintenance account for the Defense Health Program and the services' Military Personnel accounts for military personnel costs and the Medicare-Eligible Retiree Health Care Fund (MERHCF). Congress also funds MHS construction projects through the Defense-wide Military Construction account within the annual Military Construction, Veterans Affairs and Related Agencies appropriations bill. Together, DOD refers to these funds as the Unified Medical Budget (UMB). The FY2026 request for the UMB is $64.0 billion—about 7.5% of DOD's total budget request. The request includes $39.2 billion for the Defense Health Program, of which $10.7 billion would be for MTF care (also called "In-House Care") and $21.0 billion would be for "Private Sector Care." Also included in the request are $10.0 billion in the Military Personnel account, $0.6 billion for Military Construction, and $12.9 billion for accrual payments to the MERHCF. 
+
+Current Challenges
+
+There are a number of perceived areas for potential improvement within the MHS, many of which have attracted congressionally directed reform efforts and ongoing oversight activities.
+
+Reattracting Beneficiaries to MTF Care
+
+The MHS Strategy for Fiscal Years 2024-2029 lists four goals to become the "world's role model of an integrated military system of health and medical readiness." One of these goals focuses on "attract[ing] and reattract[ing] beneficiaries to the MTF" to "stabilize the MHS." According to DOD, the "MHS purchases more than 65 percent of the total care provided to beneficiaries." In a December 2023 memorandum, the Deputy Secretary of Defense directed a series of actions to reattract beneficiaries to MTF care in order to "support the National Defense Strategy, increase clinical readiness, mitigate risks to [military] requirements, and reduce long-term cost growth in private sector care." These actions, which focus on maintaining a "stable, predictable workforce sufficiently staffed, trained, and routinely available" to provide care to beneficiaries, include
+conducting a comprehensive review of all DOD medical workforce requirements (active and reserve components, civilian, and contract personnel);
+
+improving MTF capacity to "sustain clinical readiness of active-duty health care personnel";
+
+prioritizing military medical personnel assignments to MTFs;
+
+improving civilian recruitment and retention through implementation of alternative salary rates; and
+
+reattracting at least 7% of beneficiary care to the MTFs by December 31, 2026.
+Sustaining Wartime Medical Readiness Skills
+
+Sustaining readiness of the medical force remains an ongoing challenge for DOD. The FY2017 NDAA created new authorities for the Secretary of Defense to expand partnerships with certain civilian health care systems and Veterans Affairs medical facilities and to expand access to care at MTFs to non-beneficiaries for the purposes of preserving core clinical competencies, combat casualty care capabilities, and enhancing wartime medical readiness skills. In 2021, the Government Accountability Office (GAO) found that the "military departments lack reasonable assurance that all enlisted medical personnel are ready to perform during deployed operations." Congress could consider how, if at all, DOD might implement the GAO's 30 recommendations to define, implement, track, and assess wartime medical skills for enlisted medical personnel. 
+
+Relevant Statutes and Regulations
+
+Title 10, Chapter 55, U.S. Code – Medical and Dental Care 
+
+Title 10, Chapter 56, U.S. Code – DOD MERHCF 
+
+Title 32, Part 199, Code of Federal Regulations – Civilian Health and Medical Program of the Uniformed Services
+
+CRS Products
+
+CRS Report R45399, Military Medical Care: Frequently Asked Questions, by Bryce H. P. Mendez
+
+CRS In Focus IF13108, FY2026 Budget Request for the Military Health System, by Bryce H. P. Mendez 
+
+Other Resources
+
+DHA, Evaluation of the TRICARE Program: Fiscal Year 2024 Report to Congress, 2024
+
+GAO, Defense Health Care: Actions Needed to Define and Sustain Wartime Medical Skills for Enlisted Personnel, GAO-21-337, June 17, 2021
