@@ -12405,5 +12405,81 @@
    "dossiers/care/2d-what-works-workforce.md",
    "dossiers/care/3d-design-workforce.md"
   ]
+ },
+ {
+  "id": "EV-CAR-637",
+  "statement": "S. 1506, the Senate's Medicare for All Act, has institutions' global budgets take into account wages, including increases needed for mandatory minimum safe registered nurse-to-patient ratios, and lets budgets rise for reasonable labor cost increases, including collective bargaining agreements and prevailing wages.",
+  "claim": "data",
+  "figures": [
+   "1506"
+  ],
+  "source": "SRC-3260",
+  "anchor": [
+   "(D) wages for employees, including any necessary increases to ensure mandatory minimum safe registered nurse-to-patient ratios and optimal staffing levels for physicians and other health care workers;",
+   "(C) Reasonable increases in labor costs, including salaries and benefits, and changes in collective bargaining agreements, prevailing wages, or local law.",
+   "Sec. 611. Payments to institutional providers based on global budgets.",
+   "S. 1506 IN THE SENATE"
+  ],
+  "locator": "Sec. 611",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Bill as introduced (Sen. Sanders); not enacted. It sets no wage floor for home care workers, whose services it covers (sec. 201).",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-638",
+  "statement": "H.R. 3069, the House's Medicare for All Act, requires national minimum provider standards that include mandatory minimum safe registered nurse-to-patient staffing ratios.",
+  "claim": "data",
+  "figures": [
+   "3069"
+  ],
+  "source": "SRC-3261",
+  "anchor": [
+   "(B) mandatory minimum safe registered nurse-to-patient staffing ratios and optimal staffing levels for physicians and other health care practitioners;",
+   "H. R. 3069"
+  ],
+  "locator": "Sec. 301(c)",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Bill as introduced (Rep. Jayapal); not enacted.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-639",
+  "statement": "The HCBS Access Act (H.R. 8540) would have states review home care rates at least every 2 years with an emphasis on rates adequate to recruit and retain a sufficient workforce, pass rate increases at a minimum proportionately through to direct care workers, and cooperate with, or stay neutral toward, labor organizations of direct care workers.",
+  "claim": "data",
+  "figures": [
+   "2"
+  ],
+  "source": "SRC-3367",
+  "anchor": [
+   "services at least every 2 years, with an emphasis on\nensuring that rates are adequate to recruit and retain\na sufficient workforce",
+   "at a minimum, proportionately passed\nthrough to direct care workers",
+   "are neutral with regard to such workers joining\nor forming such a labor organization",
+   "H.R. 8540"
+  ],
+  "locator": "New SSA sec. 1905(ll)",
+  "grade": "A",
+  "fact_date": "2026-04-28",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Bill as introduced (H.R. 8540); not enacted. Its pass-through and labor clauses follow Better Care Better Jobs (EV-CAR-617).",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
  }
 ]
