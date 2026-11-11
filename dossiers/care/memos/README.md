@@ -37,3 +37,13 @@ Status: **for Espen, not decided.** Sent together so they can be decided in one 
 | [11](11-pre-k.md) | Pre-K for 3s and 4s: free school-day pre-K in any setting, inside the child care guarantee, or 4-year-olds only | A: free school-day pre-K for 3s and 4s, one rate in every setting |
 | [12](12-phasing-supply.md) | How fast, and how supply is built | A: free care at or below 85% and pre-K from 2030-31, the full cap from July 2032, providers paid by enrollment with operating and facility grants |
 | [13](13-delivery-head-start.md) | Who runs it, and Head Start | A: states under a federal floor, HHS directly where a state declines, Head Start kept federal-to-local at the common rates |
+
+## Part D: the care workforce (the batch, for Espen)
+
+Status: **for Espen, not decided.** Sent together so they can be decided in one round (`../3d-design-workforce.md`). Each memo is decided on its own; `../3d-design-workforce.md` also has nine yes-or-no points (training, immigration asks, health supply and others). Part D's costs sit on top of parts B and C's, which were priced at today's wages.
+
+| Memo | Question | Recommended |
+| --- | --- | --- |
+| [14](14-care-pay.md) | How pay is set in publicly paid home care and nursing homes, and at what level: a pass-through, a federal floor the payer funds, state bargaining everywhere, or no floor | Part 1 B: a federal care wage floor funded in Medicaid and plan rates, with the 80% share as its check and states free to go higher; part 2 B: $20 an hour in 2026 dollars, indexed |
+| [15](15-early-educator-pay.md) | Early educators' pay: parity from 2032, a floor then a scale to parity by 2036, the floor only, or a supplement | B: memo 14's floor from 2030-31, then a salary scale by role and credential that reaches parity with elementary teachers by 2036 |
+| [16](16-nursing-home-staffing.md) | Nursing home staffing: current law, the 2024 standards in statute, a phased standard that puts registered nurses first, or reporting and bonuses | C: a registered nurse around the clock and 0.55 hours from 2031, the 3.48 total from 2035 with licensed nurses counting, funded in rates (answers part B's point 10) |

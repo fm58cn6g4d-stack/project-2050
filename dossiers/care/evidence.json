@@ -12481,5 +12481,28 @@
    "dossiers/care/2d-what-works-workforce.md",
    "dossiers/care/3d-design-workforce.md"
   ]
+ },
+ {
+  "id": "EV-CAR-640",
+  "statement": "The 2024 rule allowed a facility an exemption from the staffing minimums where the nursing workforce for the relevant staff type is at least 20 percent below the national average, as calculated by CMS from BLS and Census data, among other criteria.",
+  "claim": "data",
+  "figures": [
+   "20 percent"
+  ],
+  "source": "SRC-3124",
+  "anchor": [
+   "measured by having a nursing workforce per labor category that is a\nminimum of 20 percent below the national average for the applicable\nnurse staffing type, as calculated by CMS, by using the Bureau of Labor\nStatistics and Census Bureau data"
+  ],
+  "locator": "Executive summary, hardship exemptions",
+  "grade": "A",
+  "fact_date": "2024-05-10",
+  "checked": "2026-11-11",
+  "recheck": "2027-11-11",
+  "context": "Final rule, Biden administration; the other criteria are good-faith recruitment and a financial commitment to staffing.",
+  "supports": [
+   "dossiers/care/1d-problem-workforce.md",
+   "dossiers/care/2d-what-works-workforce.md",
+   "dossiers/care/3d-design-workforce.md"
+  ]
  }
 ]
