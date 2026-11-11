@@ -1,6 +1,6 @@
 # Dossier: Care you can count on (flagship 2)
 
-Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D. Level: the health rows HLT-1, 2, 6, 7, 8, A1, A2 and A4 are at L3 in `agenda/agenda.csv` after the milestone review (`review-milestone.md`), its fixes (#225-#228) and the L3 re-check on the close-out PR; RTS-2 stays at L2 until Espen settles its foreign-assistance scope (board 0j); HLT-3, HLT-5 and HLT-A3 are alternatives; the other care items are at L1 (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
+Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D. Level: the health rows HLT-1, 2, 6, 7, 8, A1, A2 and A4 are at L3 in `agenda/agenda.csv` after the milestone review (`review-milestone.md`), its fixes (#225-#228) and the L3 re-check on the close-out PR; RTS-2 is at L3 since Espen settled its foreign-assistance scope (`DEC-2026-11-11-01`: the Helms amendment ends too); HLT-3, HLT-5 and HLT-A3 are alternatives; the other care items are at L1 (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
 
 **What it brings together** (`charter/PLAN.md` 3.1):
 - health coverage restored and extended, by single-payer Medicare for All, a public option or a staged path between them, weighed in full (`DEC-2026-11-09-07`; the charter wording is #195, for Espen);
