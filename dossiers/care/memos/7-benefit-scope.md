@@ -13,7 +13,7 @@ Costs are restated on memo 6's rebuilt basis. The tier amounts in part 2 are wor
 
 ## Why it matters
 
-- **Breadth, depth and cost.** These two choices set most of the benefit's cost and whom it reaches. CBO's broad option, from one limitation and with no limits, adds $599 billion of federal spending in 2030 [EV-CAR-452] [EV-CAR-453]; memo 6 B, at two activities with set budgets, about $400 billion in 2035.
+- **Breadth, depth and cost.** These two choices set most of the benefit's cost and whom it reaches. CBO's broad option, from one limitation and with no limits, adds $599 billion of federal spending in 2030 [EV-CAR-452] [EV-CAR-453]; memo 6 B, at two activities with set budgets, about $380 billion in 2035.
 - **The threshold.** Private policies and two bipartisan bills use the tax code's test: help with two daily activities for 90 days, or supervision for severe cognitive impairment [EV-CAR-499]. ASPE counted 5.7 million people 65 and over meeting it in 2011 [EV-CAR-482]. The House bill starts at one [EV-CAR-470]; WA Cares requires three [EV-CAR-497]. Medicaid uses each state's nursing-home level of care.
 - **Depth.** Germany pays a set budget by care grade: up to 2,299 euros a month in services at grade 5. Its ministry calls it a "partial-benefit system" (German Federal Ministry of Health, 2026) [EV-CAR-440]. Its benefits lost value until they were indexed (Nadash and others, 2018) [EV-CAR-441], and German nursing-home residents still pay about 3,108 euros a month themselves in their first year [EV-CAR-484]. S. 1506 sets no limit [EV-CAR-276].
 - **The legacy test.** The October 26 legacy direction asked for "protection against prolonged intensive-care costs" and warned against calling a modest allowance complete care insurance (`legacy/domains/domain-health.md`, line 137).
@@ -55,7 +55,7 @@ Costs are restated on memo 6's rebuilt basis. The tier amounts in part 2 are wor
   - A clinical exceptions process covers needs above the top tier, for example ventilator users or people needing two-person transfers.
 - *For people:* a person in the top tier can get about 40 hours a week of agency care, or more hours if self-directed at lower wages. That is the care part of a nursing-home year (about 65% of $114,975) at $35 an hour (CareScout, 2025) [EV-CAR-437] (project arithmetic and judgment). Family fills the rest, or the exceptions process covers more.
 - *Where tried:* Germany's and Japan's graded benefits [EV-CAR-440] [EV-CAR-442]; Medicaid's self-directed budgets, tested in the Cash and Counseling randomized trial [EV-CAR-428].
-- *Cost:* memo 6 B's central estimate, about $400 billion a year of new federal money in 2035 (judgment).
+- *Cost:* memo 6 B's central estimate, about $380 billion a year of new federal money in 2035 (judgment).
 - *Why it is not a partial benefit:* the amounts are meant to meet each tier's typical need, not to share the cost, and they are indexed. Germany's are neither. Whether the amounts in fact meet typical need is a working assumption until a national assessment study sets them.
 - *Evidence strength:* international practice and one trial for the structure; the amounts are judgment. The audit rates it plausible but thin.
 - *Burden:* none beyond the assessment. The budget follows the tier.

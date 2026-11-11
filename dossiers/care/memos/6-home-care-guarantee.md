@@ -2,7 +2,7 @@
 
 Role: decision memo for Espen, fork 6 of the care dossier (part B, long-term care: support at home and in nursing homes for older and disabled people; `../3b-design-home-care.md`). Status: **for Espen, not decided**; revised after the independent audit (`../review-part-b-evidence.md`). Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`). Costs marked "judgment" are this dossier's working assumptions, not official scores; their basis is in `../3b-design-home-care.md`, "What the options cost".
 
-**What changed after the audit.** The recommendation is still B. **Its cost is now about $400 billion a year in 2035 (range $250-750 billion), not about $215 billion.** The audit found the old figure well below the one independent model of a similar design (Urban, 2020) [EV-CAR-483]; CBO's December 2020 working paper, now in the register, points the same way [EV-CAR-452]. The rebuilt figure counts more new users, prices them closer to Medicaid's and Urban's averages, and adds richer budgets for today's users. A now costs about a ninth of B, not a fifth. Two corrections: tenancy supports are part B's addition, not S. 1506's list; and the claim that outside estimates were "consistent" is replaced by the benchmark table below.
+**What changed after the audit.** The recommendation is still B. **Its cost is now about $380 billion a year in 2035 (range $185-740 billion), not about $215 billion.** The audit found the old figure well below the one independent model of a similar design (Urban, 2020) [EV-CAR-483]; CBO's December 2020 working paper, now in the register, points the same way [EV-CAR-452]. The rebuilt figure counts more new users, prices them closer to Medicaid's and Urban's averages, adds richer budgets for today's users, and no longer counts the waiting lists twice (a reviewer's catch). A now costs about an eighth of B, not a fifth. Two corrections: tenancy supports are part B's addition, not S. 1506's list; and the claim that outside estimates were "consistent" is replaced by the benchmark table below.
 
 **This memo decides who is guaranteed help with daily living at home, and through which program.** Memos 7-9 then decide the benefit's scope, nursing homes and family caregivers under whichever option you choose.
 
@@ -56,8 +56,8 @@ Your October 26 direction asked for the second, compared against the other two (
   - States keep paying half of what they now spend on home care (working figure; maintenance of effort, as in HLT-7.17).
 - *Where tried:* Germany, Japan and the Netherlands nationally; WA Cares as a small state program since July 2026 [EV-CAR-445]. No US federal program.
 - *For people:* the same retired machinist gets an assessment at home and a set monthly budget for an aide and adult day care, without spending down. A family with an autistic teenager gets respite and habilitation without a waiting list.
-- *Cost:* **about $400 billion a year of new federal money in 2035 (range $250-750 billion); about $520 billion in FY2040 (range $325-980 billion)**; about $2.2 trillion over 2035-39 (judgment), against current law, which health's booking matches for long-term care (board row D-4c).
-  - *Pieces:* relief of states' home-care share net of their payment, about $73 billion; waiting lists served, about $22 billion; richer budgets for today's users, about $30 billion; new users, about $275 billion (6.5 million people at about $42,000 each in 2035 dollars, range 5-8 million at $28,000-66,000). About $165 billion of federal Medicaid home-care money moves in as a transfer and is not counted.
+- *Cost:* **about $380 billion a year of new federal money in 2035 (range $185-740 billion); about $495 billion in FY2040 (range $240-965 billion)**; about $2.1 trillion over 2035-39 (judgment), against current law, which health's booking matches for long-term care (board row D-4c).
+  - *Pieces:* relief of states' home-care share net of their payment, about $73 billion; richer budgets for today's users, about $30 billion; new users, about $275 billion, including the almost 650,000 people on waiting lists (6.5 million people at about $42,000 each in 2035 dollars, range 5-8 million at $28,000-66,000). About $165 billion of federal Medicaid home-care money moves in as a transfer and is not counted.
   - *Benchmarks (table below):* Urban's model scaled to this design gives about $500-740 billion; CBO's broader option, adjusted to the two-activity threshold and with institutions removed, gives about $350-400 billion.
   - *Who pays now:* most of it replaces what families pay out of pocket or give unpaid [EV-CAR-401] [EV-CAR-436]. Part D's wage floor would sit on top.
 - *Evidence strength:* international practice for the direction (strong for feasibility); two models for the cost, which differ by about a factor of two; no US trial.
@@ -85,7 +85,7 @@ Your October 26 direction asked for the second, compared against the other two (
 | --- | --- | --- | --- | --- |
 | Urban Institute, 2020, option 1 [EV-CAR-483] | Two-activity test, home care only, no cost sharing, up to $150 a day | $355 billion more federal spending in 2020 (best guess) | about $500-740 billion | No cost sharing and a cap rather than tier budgets; one modeler, who calls it "highly speculative" |
 | CBO, 2020, option 5 against 4 [EV-CAR-452] [EV-CAR-453] | One limitation in a daily or household activity; home and institutions; no cost sharing or limits | $599 billion more in 2030 | about $350-400 billion | Broader threshold and no limits (higher); includes institutions (removed) |
-| The project, rebuilt | B with memo 7 A and B | — | **about $400 billion (250-750)** | — |
+| The project, rebuilt | B with memo 7 A and B | — | **about $380 billion (185-740)** | — |
 | The project, before the audit | The same | — | about $215 billion | Too few new users, priced too low |
 
 ## Against the bills
@@ -106,8 +106,8 @@ Your October 26 direction asked for the second, compared against the other two (
 | --- | --- | --- | --- |
 | Who is guaranteed care at home | Medicaid-eligible people, without waiting | Everyone who meets memo 7's need test | People with needs lasting past the wait |
 | Middle-income family with $60,000 saved | Spends it down first | Covered, no spend-down | Covered after two years |
-| New federal cost, 2035 | about $45 billion | **about $400 billion ($250-750 billion)** | about $150-250 billion |
-| FY2040 | about $60 billion | about $520 billion | about $195-325 billion |
+| New federal cost, 2035 | about $45 billion | **about $380 billion ($185-740 billion)** | about $150-250 billion |
+| FY2040 | about $60 billion | about $495 billion | about $195-325 billion |
 | Outside benchmark | CBO on Build Back Better: in line | Urban about $500-740 billion; CBO-based about $350-400 billion | WISH actuaries: 1.7-2.2% payroll |
 | Evidence for the design | Program evaluations | International practice | Actuarial models |
 | Closest US bill | HCBS Access Act; Better Care Better Jobs | S. 1506 | WISH Act |
@@ -122,14 +122,14 @@ Your October 26 direction asked for the second, compared against the other two (
 - **It meets each test your October 26 direction set.** It protects against long intensive needs, gives assessed help without spend-down, keeps a paid family-caregiver option (memo 9) and an outside-care option.
 - **It follows the design lens.** One assessment and no asset test, where today people prove poverty to a state.
 - **Its evidence is international practice, not a US trial.** Germany and Japan show a universal system can be run and sustained; the US models agree it costs hundreds of billions a year.
-- **The cost is large, uncertain and real.** It is about $400 billion in 2035 on the project's rebuilt estimate and could be $500-750 billion if Urban's model is right. Most of it moves spending families already bear onto the public side, where peer countries put four-fifths of long-term care spending [EV-CAR-444].
-- **Why not change the recommendation on cost.** The audit's finding changes how much B costs, not which option reaches the most people, and the fiscal rule reports costs rather than trimming designs. If the financing settlement cannot carry B, A's permanent Medicaid changes are the fallback. They reach the people waiting today at about a ninth of B's cost, but not the middle-income families B is mainly for.
+- **The cost is large, uncertain and real.** It is about $380 billion in 2035 on the project's rebuilt estimate and could be $500-740 billion if Urban's model is right. Most of it moves spending families already bear onto the public side, where peer countries put four-fifths of long-term care spending [EV-CAR-444].
+- **Why not change the recommendation on cost.** The audit's finding changes how much B costs, not which option reaches the most people, and the fiscal rule reports costs rather than trimming designs. If the financing settlement cannot carry B, A's permanent Medicaid changes are the fallback. They reach the people waiting today at about an eighth of B's cost, but not the middle-income families B is mainly for.
 
 **What would change this:** a financing settlement that cannot carry B even at its central cost (toward A, with B later); a US evaluation showing take-up far above the models (toward tighter tiers in memo 7); a bipartisan path for WISH that B would block (toward C as a first step).
 
 ## If you decide
 
-- **Under B:** section 4 writes the benefit as a new title of the Medicare for All Act of 2029, effective January 1, 2035, with the bridge (point 1) in the 2029 reconciliation act. HLT-7.07 changes so that home and community care moves to the plan in 2035. The financing settlement plans on about $400 billion in 2035 and $520 billion in FY2040, with the top of the range visible. Part D's wage floor is priced on the larger base.
+- **Under B:** section 4 writes the benefit as a new title of the Medicare for All Act of 2029, effective January 1, 2035, with the bridge (point 1) in the 2029 reconciliation act. HLT-7.07 changes so that home and community care moves to the plan in 2035. The financing settlement plans on about $380 billion in 2035 and $495 billion in FY2040, with the top of the range visible. Part D's wage floor is priced on the larger base.
 - **Under A:** amendments to Medicaid, mostly in reconciliation. Points 1-4 become permanent. About $45 billion a year.
 - **Under C:** a new insurance title, priced on the WISH actuarial work, with A's Medicaid changes for the front end if you add them.
 - **The agenda.** HLT-9 (`option`) carries B; HLT-4 keeps the bridge and Medicaid's remaining role.
