@@ -47,8 +47,8 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money in
 **The basis (project arithmetic; judgment where marked).**
 - **Home care base in 2035.**
   - *Today's Medicaid home care,* about $164 billion in 2023 [EV-CAR-404] [EV-CAR-406], grown 5.5% a year (part B's working assumption): about $312 billion.
-  - *Plus memo 6 B's new money:* about $215 billion (part B).
-  - *Total:* about $527 billion of publicly paid home care.
+  - *Plus the part of memo 6 B's new money that buys new hours:* waiting lists, about $22 billion, and new users, about $120 billion (part B). Memo 6 B's other $73 billion relieves states of their share of spending already inside the Medicaid line, buys no new hours and is not added.
+  - *Total:* about $454 billion of publicly paid home care that pays for hours of work. Part B's own 20% placeholder implies about the same base.
   - *Labor:* about 60% of it (part B's judgment).
 - **What a floor adds to payroll** (judgment).
   - *The anchor:* the 2024 median is $16.77 an hour in home care [EV-CAR-613], so a $20 floor in 2026 dollars lifts most home care workers. LeadingAge's living-wage model gave 75.3% of direct care workers a raise averaging 15.5% [EV-CAR-626].
@@ -66,10 +66,10 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money in
 | Option | 2035, first year of memo 6 B ($ billion) | FY2030-39 ($ trillion) | FY2040 (about, $ billion) |
 | --- | --- | --- | --- |
 | Memo 14 A, pass-through only | about 0-10 (judgment: a pass-through moves no money unless rates rise) | about 0.03 | 5-10 |
-| **Memo 14 B, $20 floor** (part 2 B) | **about 40 (25-60)**: home care about 38, nursing homes 2-4 | **about 0.3 (0.2-0.45)**: the bridge about 0.09; from 2035 about 0.22 | **about 50 (30-75)** |
-| Memo 14 B at $18 (part 2 A) | about 17 | about 0.13 | about 22 |
-| Memo 14 B at $22.50 (part 2 C) | about 80 | about 0.6 | about 100 |
-| Memo 14 C, bargaining in every state | about 80-110 at maturity, if wages reach Washington's (judgment: $22.52 to $23.68 there [EV-CAR-621], about 35-40% above the national home care median); timing set by bargaining | about 0.4-0.6 | about 100-140 |
+| **Memo 14 B, $20 floor** (part 2 B) | **about 36 (22-55)**: home care about 33, nursing homes 2-4 | **about 0.29 (0.2-0.42)**: the bridge about 0.09; from 2035 about 0.2 | **about 47 (28-70)** |
+| Memo 14 B at $18 (part 2 A) | about 15 | about 0.12 | about 19 |
+| Memo 14 B at $22.50 (part 2 C) | about 73 | about 0.59 | about 95 |
+| Memo 14 C, bargaining in every state | up to about 95-110 at maturity, if wages reach Washington's everywhere, less where bargaining lags (judgment: $22.52 to $23.68 there [EV-CAR-621], about 35-40% above the national home care median); timing set by bargaining | about 0.3-0.5 | about 100-145 |
 | Memo 14 D, no floor | 0 | 0 | 0 |
 | Memo 15 A, parity from 2032 | about 45 (30-65), part C's line | about 0.4 (part C) | about 60 |
 | **Memo 15 B, phased to parity by 2036** | **about 25 (15-35) in 2033** | **about 0.25 (0.15-0.35)** | **about 60 (40-85)**, the same end point as A |
@@ -81,15 +81,15 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money in
 | Points 5 and 7 (training; health supply beyond HLT-4) | about 1.5-2.5 a year | about 0.02 | about 2 |
 
 - **The recommended set** (14 B at $20, 15 B, 16 C, the points):
-  - about $0.6 trillion over FY2030-39 (range $0.4-0.85 trillion);
-  - about $120 billion in FY2040 (range $80-170 billion).
+  - about $0.6 trillion over FY2030-39 ($0.59 trillion; range $0.4-0.8 trillion);
+  - about $115 billion in FY2040 (range $75-160 billion).
 
   It sits on top of parts B and C's own costs.
 - **If parts B and C choose otherwise.**
-  - *Memo 6 A, stronger Medicaid:* the home care base is about $312 billion with no new benefit. Memo 14 B then costs about $23 billion a year in 2035, and states pay about 47% of it unless the federal government pays the floor's cost.
+  - *Memo 6 A, stronger Medicaid:* the home care base is about $312 billion with no new benefit. Memo 14 B then costs about $22 billion a year in 2035, and states pay about 47% of it unless the federal government pays the floor's cost.
   - *Memo 10 A, the block grant:* child care's base is a fraction of memo 10 B's, so memo 15's lines fall by about two-thirds. The pull of pre-K staff out of infant care (memo 15) is then worse.
 - **Checks against outside estimates.**
-  - *LeadingAge's model:* $9.4 billion in 2022 to lift all direct care workers to a living wage [EV-CAR-626]. Grown to 2035 at part B's rate, that is about $19 billion on today's workforce. Memo 6 B roughly doubles the paid hours, so memo 14 B's about $38 billion for home care is consistent with it.
+  - *LeadingAge's model:* $9.4 billion in 2022 to lift all direct care workers to a living wage [EV-CAR-626]. Grown to 2035 at part B's rate, that is about $19 billion on today's workforce. Memo 6 B adds about 45% to the home care base, and LeadingAge's figure covers all direct care workers (nursing homes and private pay included) at its living-wage level, not $20. So it is a rough order-of-magnitude check on memo 14 B's about $33 billion for home care, not a match.
   - *CBO's Build Back Better score:* the home care provisions, about $150 billion over ten years (KFF's report of CBO) [EV-CAR-447]. That bought a match increase with conditions like memo 14 A's, not a floor, and sits between A and B.
   - *CMS's staffing estimate:* about $4.3 billion a year for the 2024 standards [EV-CAR-601]. The repeal's higher figure is the second Trump administration's view [EV-CAR-603].
   - *Part C's parity line:* judgment, not an independent model (part C names no outside estimate). It stays a working assumption, and finding one is in "Evidence still needed".

@@ -52,25 +52,34 @@ PREK_PER_STAFF = 10.0  # a lead teacher and an assistant for 20 children (the NI
 # 1.8% (EV-CAR-228). The gap, about 8% of spending, is care demanded that supply would not meet. Read as
 # extra clinical labor demanded at the endpoint, before memo 4 C's copays damp it (judgment: 3-8%).
 HEALTH_EXTRA_DEMAND = (0.03, 0.05, 0.08)
-RN_2025 = 3_465_400        # BLS, 2025 (SRC-3330 table)
-NA_2025 = 1_505_900        # nursing assistants, BLS 2025
+RN_2025 = 3_465_400        # BLS, 2025 (EV-CAR-610)
+NA_2025 = 1_505_900        # nursing assistants, BLS 2025 (EV-CAR-609)
 PHYSICIANS = 1_000_000     # judgment: about a million active physicians (not in the register)
 
 # ---------- Nursing homes: the 2024 staffing standards (memo 16) ----------
 RN_HIRES_2024_RULE = 16_000  # CMS's own estimate (89 FR 40876, regulatory impact analysis)
 
 # ---------- Wage options (memo 14) ----------
-# The care part of part B's benefit and Medicaid home care that is labor: about 60% (part B's judgment).
-# A floor that raises home-care pay by 20% costs about 12% of the benefit; part B put that at about
-# $55 billion a year on top of memo 6 B in 2035. Here the same arithmetic is run on the whole publicly
-# paid home-care base in 2035: today's Medicaid home care (about $164 billion in 2023, EV-CAR-404,
-# EV-CAR-406) grown 5.5% a year (part B's working assumption) plus memo 6 B's new money (about $215
-# billion, 3b). Under memo 6 B the plan pays the whole benefit and states' maintenance of effort is a fixed
-# amount, so a raise falls on federal money; under memo 6 A states would pay about 47% of it (EV-CAR-448).
+# The payroll a floor raises is the publicly paid home care that pays for hours of work. In 2035, under
+# memo 6 B, that is today's Medicaid home care (about $164 billion in 2023, EV-CAR-404, EV-CAR-406, federal
+# and state money together) grown 5.5% a year (part B's working assumption), plus the parts of memo 6 B's
+# new money that buy new hours: waiting lists served (about $22 billion) and new users (about $120
+# billion). Memo 6 B's other part, relief of states' home-care share net of maintenance of effort (about
+# $73 billion), moves state money already inside the Medicaid line onto the federal side and buys no new
+# hours, so it is not added (review of PR #242). Part B's own 20% placeholder, about $55 billion on about
+# 60% labor, implies the same base, about $458 billion. Under memo 6 B the plan pays the whole benefit and
+# states' maintenance of effort is a fixed amount, so a raise falls on federal money; under memo 6 A states
+# would pay about 47% of it (EV-CAR-448).
 MEDICAID_HOME_2023 = 164e9
 GROWTH = 1.055
-NEW_BENEFIT_2035 = 215e9
+NEW_HOURS_MONEY_2035 = 22e9 + 120e9   # part B memo 6 B: waiting lists and new users (3b-design-home-care.md)
 LABOR_SHARE = 0.6
+# Average payroll increase a floor causes, by level in 2026 dollars (judgment; section 3d): $18, $20, $22.50.
+LEVELS = {'$18': 0.05, '$20': 0.12, '$22.50': 0.25}
+# Nursing homes, where the median nursing assistant already earns about $20.30 an hour (EV-CAR-609):
+# judgment, $ billion in 2035.
+NURSING_HOMES_2035 = {'$18': 1e9, '$20': 3e9, '$22.50': 5e9}
+FEDERAL_SHARE_BRIDGE = 0.9   # the federal government pays 90% of the floor's added cost in 2030-34 (judgment)
 
 
 def three(f):
@@ -102,13 +111,20 @@ def main():
     print('  care recruits, home care plus child care:', ', '.join(fmt(x) for x in total))
     print(f'  nursing-home RNs, 2024 rule restored:     {RN_HIRES_2024_RULE:,}')
 
-    medicaid_home_2035 = MEDICAID_HOME_2023 * GROWTH ** 12
-    base_2035 = medicaid_home_2035 + NEW_BENEFIT_2035
+    medicaid = {y: MEDICAID_HOME_2023 * GROWTH ** (y - 2023) for y in range(2030, 2041)}
+    base_2035 = medicaid[2035] + NEW_HOURS_MONEY_2035
     print()
-    print(f'Publicly paid home care, 2035: Medicaid ${medicaid_home_2035 / 1e9:.0f}B '
-          f'+ memo 6 B new money ${NEW_BENEFIT_2035 / 1e9:.0f}B = ${base_2035 / 1e9:.0f}B')
-    for raise_ in (0.10, 0.20, 0.30):
-        print(f'  a {raise_:.0%} raise on the labor share: ${base_2035 * LABOR_SHARE * raise_ / 1e9:.0f}B a year')
+    print(f'Publicly paid home care that buys hours, 2035: Medicaid ${medicaid[2035] / 1e9:.0f}B '
+          f'+ memo 6 B new hours ${NEW_HOURS_MONEY_2035 / 1e9:.0f}B = ${base_2035 / 1e9:.0f}B')
+    print('Memo 14 B by level: 2035 ($B), FY2030-39 ($T, calendar years), FY2040 ($B)')
+    for level, raise_ in LEVELS.items():
+        bridge = sum(medicaid[y] * LABOR_SHARE * raise_ * FEDERAL_SHARE_BRIDGE for y in range(2030, 2035))
+        first = base_2035 * LABOR_SHARE * raise_ + NURSING_HOMES_2035[level]
+        later = sum(first * GROWTH ** (y - 2035) for y in range(2035, 2040))
+        fy2040 = first * GROWTH ** 5
+        print(f'  {level:>6}: 2035 {first / 1e9:5.0f}  FY2030-39 {(bridge + later) / 1e12:4.2f} '
+              f'(bridge {bridge / 1e12:.2f})  FY2040 {fy2040 / 1e9:4.0f}')
+    print(f'  under memo 6 A ($20, no new benefit): 2035 {medicaid[2035] * LABOR_SHARE * 0.12 / 1e9:.0f}')
 
 
 if __name__ == '__main__':
