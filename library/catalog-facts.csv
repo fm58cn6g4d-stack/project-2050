@@ -685,6 +685,14 @@ SRC-3336,library/text/macpac-pace-demographics.txt,28997,ec3d9efb68988331ff45fa4
 SRC-3337,library/text/va-pcafc-stipend.txt,9933,51227a67c1ba4b097e8d23c01fed870fb2bc3eed16a12f193b31ab22d1667220,2026-11-11,2026-11-11
 SRC-3360,library/text/cms-2024-nhe-table19-expenditure-by-program.txt,19842,0f626ce6fb21abfea4edb46a6e8c29d3be8516a8c36aa8d39914d828670956f8,2026-11-11,2026-11-11
 SRC-3361,library/text/s1234-119-ssi-savings-penalty-elimination-act.txt,2915,9309c4cde9c1f292c56fa1aaf58c55c3ab52e6d095acb8e17f94f9644736db71,2026-11-11,2026-11-11
-SRC-3362,library/text/aspe-2016-bip-final-process-evaluation.txt,83856,062278c0ce470fb189d7f61d4a128719d440879effa24b4b85acf84f04a60501,,
-SRC-3363,library/text/aspe-2014-evaluating-pace-literature.txt,198290,62fd7c2d0151f2999d9c2a5b0010b068f5d5a9e7843fb0300cfbfae0aa3a1dc2,,
-SRC-3364,library/text/aspe-2015-measuring-need-ltss.txt,22807,473501a50cfeffe4b42eddc85e3505fbfda97cebec1a8cad9bb536cd0f830993,,
+SRC-3362,library/text/aspe-2016-bip-final-process-evaluation.txt,83856,062278c0ce470fb189d7f61d4a128719d440879effa24b4b85acf84f04a60501,2026-11-11,2026-11-11
+SRC-3363,library/text/aspe-2014-evaluating-pace-literature.txt,198290,62fd7c2d0151f2999d9c2a5b0010b068f5d5a9e7843fb0300cfbfae0aa3a1dc2,2026-11-11,2026-11-11
+SRC-3364,library/text/aspe-2015-measuring-need-ltss.txt,22807,473501a50cfeffe4b42eddc85e3505fbfda97cebec1a8cad9bb536cd0f830993,2026-11-11,2026-11-11
+SRC-3365,library/text/hr2082-119-wish-act.txt,20996,f8d1729ba64270ca0f367811fe54d8b3a38930ccac6624ed4fec20c5a80d8088,,
+SRC-3366,library/text/s2210-117-better-care-better-jobs-act.txt,46225,2648b8146e421f80662246e1877181fc606975a2d19d450f40c02df467dcd11f,,
+SRC-3367,library/text/hr8540-119-hcbs-access-act.txt,95446,ddc1c130a8ea37add336bb8a9ab3ec5a0459788c90c795d6a27b745b11dea423,,
+SRC-3368,library/text/s925-119-credit-for-caring-act.txt,10448,453c011761c4f79e273048bd06766bd69586d17fdac3a63bacbc7afe1d060a39,,
+SRC-3369,library/text/aspe-2011-class-program-memorandum.txt,9868,e048a3f69f9f9ef07d58770eba19a4b5ab1bfae8772c50c93ce3ae8b8b2c4314,,
+SRC-3370,library/text/gao-26-108070-va-caregiver-program.txt,99554,bc5d60a9794b253429b56b423c8006fad2402a47351c5b3c78bd9cbd76e8dd3e,,
+SRC-3371,library/text/aspe-2005-cash-counseling-informal-caregivers.txt,9558,d35fafd7d989a6f2cc902617252c1a23134f012b418dc13e04287470ab65b812,,
+SRC-3372,library/text/aspe-2005-cash-counseling-workers.txt,10965,bdb6d820d295456bd9d654fa52449c0c27d1f5025757d6c42c9559de922eaeda,,

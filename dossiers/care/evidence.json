@@ -8660,5 +8660,716 @@
    "models/tools/health-coverage/MODEL-CARD.md",
    "dossiers/care/6-cost.md"
   ]
+ },
+ {
+  "id": "EV-CAR-470",
+  "statement": "The House Medicare for All bill entitles enrollees to long-term services and supports for a condition that causes a functional limitation in one or more activities of daily living, or a similar need for help with instrumental activities, and covers nursing services in an institution or at home.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3261",
+  "anchor": [
+   "(1) causes a functional limitation in performing one or more activities of daily living; or",
+   "(2) requires a similar need of assistance in performing instrumental activities of daily living.",
+   "(1) include any long-term nursing services for the enrollee, whether provided in an institution or in a home- and community-based setting;"
+  ],
+  "grade": "A",
+  "fact_date": "2025-04",
+  "recheck": "2027-01-03",
+  "context": "H.R. 3069, 119th Congress, introduced text, sec. 204(a) and (c); referred to committee, no action (GPO bill status, October 2026).",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-471",
+  "statement": "The Senate Medicare for All bill, which keeps institutional long-term care in Medicaid, bars states from adopting income, resource or other eligibility standards more restrictive than those applied as of January 1, 2025.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3260",
+  "anchor": [
+   "(A) In general Beginning on the date described in subsection (a), no payment may be made under section 1903 with respect to medical assistance provided under a State plan for medical assistance if the State adopts income, resource, or other standards and methodologies for purposes of determining an individual's eligibility for medical assistance under the State plan that are more restrictive than those applied as of January 1, 2025."
+  ],
+  "grade": "A",
+  "fact_date": "2025-04",
+  "recheck": "2027-01-03",
+  "context": "S. 1506, 119th Congress, introduced text, sec. 204 (new Social Security Act sec. 1949(c)(1)); referred to Finance, no action.",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-472",
+  "statement": "The WISH Act would pay a monthly benefit equal to the median cost of 6 hours a day of paid personal assistance, scaled by quarters of coverage up to 40, to people who meet the tax code's chronic-illness test for at least 1 year, after a waiting period of 12 months, plus 1 month for each 1.25 percentile of earnings above the 40th percentile; benefits do not count as income or resources for other programs, and the minimum-wage rule applies only when the beneficiary hires someone who is not a family member.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3365",
+  "anchor": [
+   "of Labor, of the median cost of 6 hours per day of paid",
+   "quarters of coverage the individual has during the applicable",
+   "base period (as defined in subsection (c)(2)) to 40.",
+   "individual (as so determined) for at least 1 year or until the",
+   "calendar year, 12 months; and",
+   "plus 1 additional month for each 1.25 percentile",
+   "interval above the 40th percentile for which the",
+   "benefit payment shall not be regarded as",
+   "individual hires an employee who is not a family member to"
+  ],
+  "grade": "A",
+  "fact_date": "2025-03",
+  "recheck": "2027-01-03",
+  "context": "H.R. 2082, 119th Congress (Rep. Suozzi, with Rep. Moolenaar), introduced text, sec. 3 (new Social Security Act sec. 235); referred to Ways and Means. The introduced text sets no payroll tax; its trust fund receives appropriations (sec. 4).",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-473",
+  "statement": "The Better Care Better Jobs Act would have raised the federal match for Medicaid home and community-based services by 10 percentage points (but not above 95 percent) for states meeting conditions, including not lowering the amount, duration or scope of services, and would have made Money Follows the Person and the home-care spousal impoverishment protection permanent.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3366",
+  "anchor": [
+   "10 percentage points (but not to exceed 95",
+   "(A) lower the amount, duration, or scope of home",
+   "SEC. 203. PERMANENT EXTENSION OF MONEY FOLLOWS THE PERSON REBALANCING",
+   "SERVICES AGAINST SPOUSAL IMPOVERISHMENT."
+  ],
+  "grade": "A",
+  "fact_date": "2021-06",
+  "recheck": "2027-11-11",
+  "context": "S. 2210, 117th Congress (Sen. Casey; House companion H.R. 4131, Rep. Dingell), introduced text; reintroduced in the 118th as S. 100 and H.R. 547; never enacted. The Build Back Better Act's House-passed version cut the increase to 6 points (EV-CAR-447 has CBO's cost).",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-474",
+  "statement": "The HCBS Access Act, introduced April 28, 2026, would set the federal match for Medicaid home and community-based services at 100 percent, on conditions that include supports for family caregivers with respite care, and would repeal the requirement that states run estate recovery.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3367",
+  "anchor": [
+   "the enactment of this subsection shall be equal to 100 percent.",
+   "``(C) Providing supports to family caregivers,",
+   "which shall include providing respite care, and may",
+   "Sec. 112. Repealing the requirement that States establish a Medicaid",
+   "April 28, 2026"
+  ],
+  "grade": "A",
+  "fact_date": "2026-04",
+  "recheck": "2027-01-03",
+  "context": "H.R. 8540, 119th Congress (Rep. Dingell, with Rep. Schakowsky), introduced text; Senate companion S. 5321 (Sen. Luján, August 2026); both in committee. It also requires HCBS coverage in the state plan (title) and makes Money Follows the Person and the spousal protection permanent (secs. 108-109).",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-475",
+  "statement": "The bipartisan Credit for Caring Act of 2025 would give working family caregivers with earned income above $7,500 a credit of 30 percent of care expenses above $2,000, up to $5,000, for a recipient who needs help with at least 2 activities of daily living or supervision; it sits in the tax code's subpart of nonrefundable personal credits and phases out above $75,000 of income ($150,000 joint).",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3368",
+  "anchor": [
+   "qualified expenses paid by the taxpayer during the taxable year to the",
+   "extent that such expenses exceed $2,000.",
+   "subsection (a) for the taxable year shall not exceed $5,000.",
+   "for the taxable year in excess of $7,500.",
+   "at least 2 activities of daily living (as",
+   "(a) In General.--Subpart A of part IV of subchapter A of chapter 1",
+   "``(A) $150,000 in the case of a joint return, and",
+   "``(B) $75,000 in any other case.",
+   "chapter for the taxable year an amount equal to 30 percent of the"
+  ],
+  "grade": "A",
+  "fact_date": "2025-03",
+  "recheck": "2027-01-03",
+  "context": "S. 925, 119th Congress (Sens. Capito and Bennet), introduced text, new IRC sec. 25F; House companion H.R. 2036; in committee. Subpart A of part IV holds nonrefundable personal credits (project reading of the Code's structure).",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-476",
+  "statement": "HHS found that the CLASS Act's basic plan would cost $235 to $391 a month, and as much as $3,000 if adverse selection were severe, and that without healthy purchasers the program would quickly collapse.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3369",
+  "anchor": [
+   "produces a benefit costing between $235 and $391 dollars a month, and may cost as much as $3,000 per month, if adverse selection is particularly serious.",
+   "This imbalance in the beneficiary pool would cause the program to quickly collapse."
+  ],
+  "grade": "C",
+  "fact_date": "2011-10",
+  "recheck": "2027-11-11",
+  "context": "HHS (ASPE, CLASS Office and General Counsel), Obama administration, October 2011; the administration that had backed CLASS concluded against it.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-477",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-477",
+  "statement": "CMS's Chief Actuary warned in 2009 that voluntary, unsubsidized, non-underwritten insurance programs such as CLASS face a significant risk of failure from adverse selection.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3373",
+  "anchor": [
+   "In general, voluntary, unsubsidized, and non-underwritten insurance programs such as CLASS face a significant risk of failure as a result of adverse selection by participants."
+  ],
+  "locator": "CLASS program section, about p. 10",
+  "grade": "C",
+  "fact_date": "2009-11",
+  "recheck": "2027-11-11",
+  "context": "CMS Office of the Actuary (Foster), November 13, 2009, on the House bill (H.R. 3962), not the enacted text; the office describes itself as an independent technical adviser to the administration and Congress.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-476",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-424",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-478",
+  "statement": "The bipartisan SSI Savings Penalty Elimination Act would raise SSI's resource limit to $10,000 for an individual and $20,000 for a couple in 2025 and index both to inflation.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3361",
+  "anchor": [
+   "``$20,000 in calendar year 2025, and shall be increased as",
+   "``$10,000 in calendar year 2025, and shall be increased as",
+   "``(d) In the case of any calendar year after 2025, each of the"
+  ],
+  "grade": "A",
+  "fact_date": "2025-04",
+  "recheck": "2027-01-03",
+  "context": "S. 1234, 119th Congress (Sen. Cortez Masto; cosponsors include Sens. Cassidy, Collins, Lankford, Murkowski and Scott of Florida), introduced text. Subparagraph (A) of 42 U.S.C. 1382(a)(3) is the couple's limit and (B) the individual's (project reading of the statute).",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-479",
+  "statement": "The Balancing Incentive Program, a match increase tied to rebalancing targets and structural reforms, accepted 21 states; by the end of FY2015 fourteen had completed all the required infrastructure goals, and 19 of the 20 reporting states had completed conflict-free case management.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3362",
+  "anchor": [
+   "Although 21 states were accepted into the Balancing Incentive Program, this report",
+   "all meet goals by September 30, 2015. Fourteen states had completed work toward",
+   "progress toward CFCM, with 19 of the 20 states being 100% complete. The CSA was"
+  ],
+  "grade": "C",
+  "fact_date": "2015",
+  "recheck": "2027-11-11",
+  "context": "HHS (ASPE) process evaluation, May 2016 (Obama administration), from states' own quarterly reports; it measures structural changes, not effects on spending.",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-480",
+  "statement": "A synthetic-control study found that states in the Balancing Incentive Program raised home and community-based services' share of long-term care spending by an average of 5.2 percentage points by 2019 relative to comparison states, though no penalty applied to states that missed the benchmarks.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3375",
+  "anchor": [
+   "increased their HCBS spending as a percentage of LTSS spending by an average of 5.2 percentage points (95% CI",
+   "No penalty was applied if a state did not meet the infrastructure changes or spending benchmarks."
+  ],
+  "locator": "Abstract; Introduction",
+  "grade": "B",
+  "fact_date": "2019",
+  "recheck": "2027-11-11",
+  "context": "Ghosh-Dastidar and others (RAND), Medical Care, 2026; 17 participating against 17 eligible non-participating states, FY2013-2019; the confidence interval's lower bound is 0.0, so the effect is at the edge of significance.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-479",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-481",
+  "statement": "An HHS-commissioned literature review concluded that PACE does not save costs for Medicare or Medicaid and raises overall cost through higher Medicaid spending.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3363",
+  "anchor": [
+   "currently available evidence in the literature, we conclude that PACE does not",
+   "save costs for either program, and it raises overall cost through an increase in",
+   "Medicaid expenditures. Prior findings on Medicare and Medicaid costs need to"
+  ],
+  "grade": "C",
+  "fact_date": "2014-01",
+  "recheck": "2027-11-11",
+  "context": "Mathematica for HHS (ASPE), January 2014 (Obama administration); reviews studies with evidence ratings. Its later study (Ghosh, Schmitz and Brown, 2015, same team) found lower nursing-home use and longer survival, not in the register.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-427",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-482",
+  "statement": "ASPE estimates that 5.7 million people 65 and over, 16 percent of the Medicare population, met HIPAA's long-term care disability test (help with at least 2 activities of daily living for 90 days, or supervision for severe cognitive impairment) in 2011, rising from 6% at ages 65-69 to 52% at 90 and over.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3364",
+  "anchor": [
+   "we estimate that 5.7 million people age 65 and over meet the disability criteria established in",
+   "for help of another person in performing at least 2 of 5 activities of daily living for 90 days or",
+   "increases sharply with age, increasing from 6% of people ages 65-69 to 52% of those age 90",
+   "about 5.7 million people (16 percent of the Medicare population) met the HIPAA"
+  ],
+  "grade": "C",
+  "fact_date": "2011",
+  "recheck": "2027-11-11",
+  "context": "HHS (ASPE) research brief, July 2015 (Obama administration), National Health and Aging Trends Study 2011; a survey estimate, so graded C. The test is 26 U.S.C. 7702B(c)(2), also used by private policies, the WISH Act and the Credit for Caring Act.",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-483",
+  "statement": "Urban Institute modeling of a home-care benefit for everyone meeting the HIPAA disability test, with no cost sharing, a limit of up to $150 a day, and Medicaid still covering institutional care, projects total long-term care spending of about $547 billion in 2020 against $309 billion under current law, and federal spending $355 billion higher, for 10.0 million beneficiaries averaging $40,900; the author calls the projections highly speculative.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3374",
+  "anchor": [
+   "We project total LTSS spending of about $547 billion, an increase of over 75 percent from current law.",
+   "by nearly $240 billion and federal spending by $355 billion.",
+   "Under current law in 2020, our best guess is that LTSS spending will be about $309 billion.",
+   "(up to $150/day) for those with",
+   "Total (best guess) 10.0 million $40,900",
+   "Our projections of LTSS costs and distributional effects under these proposals are highly speculative."
+  ],
+  "locator": "Executive summary; Option 1 results, p. 25; Table 4; p. 30",
+  "grade": "C",
+  "fact_date": "2020",
+  "recheck": "2027-11-11",
+  "context": "Urban Institute (Favreault), May 2020, DYNASIM microsimulation; option 1, which the author says resembles the Senate Medicare for All bill's split. Best-guess figures; the low-cost case gives $443 billion total. Same modeler as EV-CAR-446 and EV-CAR-448, so those are not independent corroboration. Table quotation joins the row label and cells.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-228",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-484",
+  "statement": "In German nursing homes in July 2025, a resident paid on average 3.387 euros a month (German notation) before the length-of-stay subsidy and 3.108 euros in the first year after it; room and board (1.018 euros) and investment costs (507 euros) are paid in full by residents.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3376",
+  "anchor": [
+   "Eigenbeteiligung 3.387 3.108 2.828 2.456 1.991",
+   "Investitionskosten 507 507 507 507 507",
+   "Verpflegung 1.018 1.018 1.018 1.018 1.018",
+   "Zuschuss 15 % = 279 30 % = 559 50 % = 931 75 % = 1.397"
+  ],
+  "locator": "Chart 'Finanzielle Belastung ... nach Aufenthaltsdauer', p. 1",
+  "grade": "C",
+  "fact_date": "2025-07",
+  "recheck": "2027-07-31",
+  "context": "vdek (association of Germany's substitute sickness funds, which pay into the system), national averages; in German (3.387 = 3,387). The subsidy (15% in year one rising to 75%) applies only to the care-related share; table rows are quoted label and cells.",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-485",
+  "statement": "Of Germany's 5,7 million people in need of care in December 2023 (German notation), 4,9 million (86 percent) were cared for at home, and 3,1 million received only the cash benefit and were cared for mostly by relatives.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3377",
+  "anchor": [
+   "(86 % beziehungsweise 4,9 Millionen) wurden im Dezember 2023 zu Hause versorgt.",
+   "Davon erhielten 3,1 Millionen Pflegebedürftige ausschließlich Pflegegeld und wurden überwiegend durch Angehörige gepflegt.",
+   "5,7 Millionen Pflegebedürftige zum Jahresende 2023"
+  ],
+  "locator": "Press release text, first paragraphs",
+  "grade": "A",
+  "fact_date": "2023-12",
+  "recheck": "2026-12-31",
+  "context": "Statistisches Bundesamt (German federal statistical office), press release 478, December 18, 2024, in German (4,9 = 4.9). 3.1 of 5.7 million is about 54% (project arithmetic).",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-486",
+  "statement": "The Cash and Counseling randomized evaluation found that the program raised paid care hours but had no effect on total hours of care, because unpaid care hours fell or did not differ from the control group.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3378",
+  "anchor": [
+   "The program increased hours of paid care received by the elderly in Arkansas and New Jersey, and by the nonelderly in Florida and New Jersey, but had no effect on total hours of care for any of these groups because the hours of unpaid care decreased or were not significantly different"
+  ],
+  "locator": "Publication summary",
+  "grade": "B",
+  "fact_date": "2005",
+  "recheck": "2027-11-11",
+  "context": "Mathematica (the evaluators), 2005, randomized trial in Arkansas, Florida and New Jersey. Within a capped budget among people already eligible for Medicaid, paid hours partly replaced unpaid hours. Same team as EV-CAR-428 and EV-CAR-450.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-490",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-491",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-487",
+  "statement": "In the Cash and Counseling trial, caregivers of the treatment group were less likely to report high physical and financial strain, and 56 percent of them in Arkansas, 29 percent in Florida and 42 percent in New Jersey were paid for caregiving.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3371",
+  "anchor": [
+   "the caregivers of treatment group members were less likely than their control group counterparts to report high levels of physical and financial strain.",
+   "(56 percent in Arkansas, 29 percent in Florida, and 42 percent in New Jersey)"
+  ],
+  "grade": "B",
+  "fact_date": "2005",
+  "recheck": "2027-11-11",
+  "context": "Mathematica for HHS (ASPE), 2005, randomized trial; same evaluators as EV-CAR-428.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-488",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-488",
+  "statement": "Most workers hired directly under Cash and Counseling were relatives (from 58 percent in Florida to 78 percent in Arkansas), and about 80 percent had given unpaid care before; related workers reported more emotional strain than agency workers.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3372",
+  "anchor": [
+   "the majority of directly hired workers were related to the consumer (ranging from 58 percent in Florida to 78 percent in Arkansas), and about 80 percent provided unpaid care to the consumer before the demonstration began.",
+   "these differences were due to their being related to the care recipient"
+  ],
+  "grade": "B",
+  "fact_date": "2005",
+  "recheck": "2027-11-11",
+  "context": "Mathematica for HHS (ASPE), 2005, worker survey within the randomized trial; same evaluators as EV-CAR-428.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-487",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-494",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-489",
+  "statement": "A difference-in-differences study found that state expansions of home and community-based services raised the likelihood that adult children gave any informal care by 5 percentage points (14% of the mean), challenging the view that formal and informal care are only substitutes.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3379",
+  "anchor": [
+   "We find that HCBS expansions increase the likelihood of providing any informal care by 5 percentage points (14\\% relative to the mean)",
+   "Our findings challenge the view that formal and informal care are solely substitutes."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2026",
+  "recheck": "2027-11-11",
+  "context": "Zai, Social Science & Medicine, 2026 (Max Planck Institute for Demographic Research), two-way fixed effects; the effect is reported as temporary.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-486",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-490",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-490",
+  "statement": "A study of private long-term care insurance found no evidence that coverage reduced informal care over about eight years.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3380",
+  "anchor": [
+   "We do not find evidence of reductions in informal care use over a horizon of approximately eight years."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2023",
+  "recheck": "2027-11-11",
+  "context": "Coe, Goda and Van Houtven, Journal of Health Economics, 2023 (Health and Retirement Study). Their 2015 working paper version reported less informal care; the published version does not. Insurance, not a public benefit.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-489",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-491",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-491",
+  "statement": "An unpublished difference-in-differences paper finds that Medicaid home care's main effect is to replace informal care from family members, particularly spouses and daughters.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3381",
+  "anchor": [
+   "the policy’s main effect is to replace informal care from"
+  ],
+  "locator": "Abstract",
+  "grade": "C",
+  "fact_date": "2021",
+  "recheck": "2027-11-11",
+  "context": "Shen, 2021 working paper presented at an NBER conference; not peer reviewed. The quoted sentence continues 'family members, particularly spouses and daughters' on the next line of the PDF.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-486",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-489",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-492",
+  "statement": "VA's Caregiver Support Program served about 98,000 caregivers in fiscal year 2025, about 70,000 of them in the comprehensive (stipend) component; VA obligated $2.6 billion, about $1.8 billion (72 percent) of it for stipends, travel and health coverage for comprehensive-component caregivers.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3370",
+  "anchor": [
+   "fiscal year 2025, VHA data show the program served about 98,000 caregivers. In",
+   "Approximately 70,000 caregivers",
+   "2025, VA obligated $2.6 billion for the Caregiver Support Program, according to",
+   "VA officials. About $1.8 billion (72 percent) of those obligations were for"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "recheck": "2027-04-30",
+  "context": "GAO-26-108070, April 2026, reporting VHA data and officials; legislative branch.",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-493",
+  "statement": "KFF's 2025 survey finds that all responding states pay family caregivers through at least one Medicaid home care program, 11 states run structured family caregiving, and over two-thirds of states could not report how many waiver recipients get paid care from relatives.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3338",
+  "anchor": [
+   "All responding states pay family caregivers under some circumstances",
+   "11 states have adopted programs known as structured family caregiving",
+   "Over two-thirds of states were unable to report the percentage of waiver recipients receiving paid care"
+  ],
+  "locator": "Key findings; structured family caregiving section",
+  "grade": "B",
+  "fact_date": "2025",
+  "recheck": "2027-01-05",
+  "context": "KFF (nonpartisan), January 5, 2026, survey of state Medicaid programs; companion to EV-CAR-439.",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-494",
+  "statement": "California counties estimate that 70% of In-Home Supportive Services recipients hire a family member as their provider.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3383",
+  "anchor": [
+   "an estimated 70% of IHSS recipients hiring a family member"
+  ],
+  "locator": "Program overview",
+  "grade": "C",
+  "fact_date": "2025",
+  "recheck": "2027-05-31",
+  "context": "California State Association of Counties (which administers IHSS locally), 2025-26 issue brief; an estimate, not a count.",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-495",
+  "statement": "In a March 2026 YouGov survey for New America, 64 percent said government should compensate all family caregivers rather than only low-income ones, and 40 percent favored paying caregivers of adult relatives against 30 percent opposed.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3382",
+  "anchor": [
+   "Nearly two-thirds of respondents, 64 percent, say that the government should compensate all family caregivers, versus 36 percent who say compensation should only go to low-income family caregivers",
+   "with 40 percent agreeing versus 30 percent disagreeing"
+  ],
+  "locator": "Key findings",
+  "grade": "C",
+  "fact_date": "2026-03",
+  "recheck": "2027-03-31",
+  "context": "New America (Better Life Lab, which advocates for care policy), YouGov online panel of 1,000 adults, March 19-27, 2026, margin of error 3.5 points; one poll, advocate-sponsored.",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-496",
+  "statement": "A Cochrane review of four randomized trials found no significant effects of respite care on any caregiver outcome, on very low-quality evidence.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3384",
+  "anchor": [
+   "Re-analysis of outcomes using data from the published studies found no significant effects of respite care compared to no respite care on any caregiver variable."
+  ],
+  "locator": "Abstract, main results",
+  "grade": "B",
+  "fact_date": "2014",
+  "recheck": "2027-11-11",
+  "context": "Maayan, Soares-Weiser and Lee, Cochrane Database of Systematic Reviews, 2014 (dementia carers); absence of evidence from few small trials, not evidence of no effect.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-487",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-497",
+  "statement": "Washington's WA Cares Fund requires help with three or more activities of daily living expected to last at least 90 days, began paying benefits July 1, 2026, will let out-of-state participants use benefits from July 1, 2030, and is projected by an outside actuarial firm to be fully solvent through 2099 under most scenarios.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3385",
+  "anchor": [
+   "we must determine whether you need help with three or more activities of daily living and will continue to need help for at least 90 days.",
+   "Workers began contributing to WA Cares on July 1, 2023, and benefits became available July 1, 2026.",
+   "for out-of-state participants starting July 1, 2030.",
+   "the WA Cares Fund is projected to be fully solvent through 2099 (the full period evaluated in the study) under most evaluated scenarios."
+  ],
+  "locator": "Eligibility, Timeline, Out-of-state coverage and Solvency answers",
+  "grade": "C",
+  "fact_date": "2026-10",
+  "recheck": "2027-10-31",
+  "context": "Washington State DSHS program FAQ, updated October 2026; the solvency finding is the state's summary of its 2024 actuarial study, not the study itself.",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-498",
+  "statement": "Medicaid law bars states from covering room and board in assisted living, though 41 of 47 responding states cover assisted-living services through home care programs.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3386",
+  "anchor": [
+   "Although Medicaid law prohibits states from covering assisted living room and board expenses, states' home care programs may",
+   "41 of the 47 responding states"
+  ],
+  "locator": "Introduction; key findings",
+  "grade": "B",
+  "fact_date": "2025-03",
+  "recheck": "2027-03-14",
+  "context": "KFF (nonpartisan), March 14, 2025, survey of state Medicaid programs; the US precedent for paying care but not room and board.",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-499",
+  "statement": "Both the WISH Act and the Credit for Caring Act use the tax code's chronic-illness test of help with at least two activities of daily living or supervision for severe cognitive impairment, the same line private long-term care policies use.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3364",
+  "anchor": [
+   "at least two ADLs for a period of at least 90 days due to a loss of functional",
+   "and safety due to severe cognitive impairment."
+  ],
+  "grade": "A",
+  "fact_date": "2015",
+  "recheck": "2027-11-11",
+  "context": "ASPE's July 2015 brief quoting 26 U.S.C. 7702B(c)(2); the bills' use of it is in EV-CAR-472 and EV-CAR-475.",
+  "supports": [
+   "dossiers/care/review-part-b-evidence.md"
+  ],
+  "checked": "2026-11-11"
  }
 ]
