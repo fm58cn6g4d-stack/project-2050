@@ -71,32 +71,32 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money at
   - *Infant-toddler care at cost-of-care rates.* About $22,000 a year (range $18,000-28,000; judgment).
   - *Its basis.* It is above today's prices of $6,552-15,600 a year [EV-CAR-514], because infant rooms lose money at today's prices.
   - *School-day pre-K with parity.* About $17,500 (NIEER's $12,500 in 2020 grown with prices and wages) [EV-CAR-566].
-  - *Wraparound care around the pre-K day.* About $6,000.
+  - *Wraparound care around the pre-K day.* About $6,000 a child, used by about 60% of pre-K children, those whose parents' hours run past the school day: about 3.1 million (judgment; range 45-75%).
 - **Families' payments.** Copayments under memo 10 B recover about 15% of gross child care cost (range 10-20%; judgment, from the share of families above 85% of state median income).
-- **The federal share.** 90% of child care direct services, as in the CCWFA [EV-CAR-580]. Pre-K is 90% for three years, then 75%. States keep their current pre-K and child care spending as maintenance of effort.
+- **The federal share.** 90% of child care direct services net of copayments, as in the CCWFA [EV-CAR-580]; today's CCDF money (about $12 billion, federal) is netted as moving in. Administration is about 5% of gross child care cost, paid federally (judgment). Pre-K is 90% for three years, then 75%. States keep their current pre-K and child care spending as maintenance of effort.
 
 | Option | New federal cost at maturity, 2033 ($ billion) | Main pieces | FY2040 (about) |
 | --- | --- | --- | --- |
 | Memo 10 A, block grant tripled and the credit refundable | about 25 (15-35) | CCDBG to about $26 billion, about 18; a refundable dependent care credit, about 7 (judgment). Still rationed by states | about 30 |
-| **Memo 10 B, capped-cost guarantee** | **about 110 (70-160)** | Under-3 care, about 99 gross; wraparound for 3s and 4s, about 18; less copayments, about 18, and today's CCDF, about 12; plus administration | **about 145** |
-| Memo 10 C, universal low flat fee or free | about 140 (95-200) | B plus copayments forgone above 85% of state median income, about 18, and more use by higher-income families, about 10-20 | about 185 |
+| **Memo 10 B, capped-cost guarantee** | **about 85 (50-145)** | Under-3 care, 4.5 million × $22,000 ≈ 99 gross; wraparound, 3.1 million × $6,000 ≈ 19; gross 118. Less copayments, 15% ≈ 18: net 100. Federal share 90% ≈ 90, less today's CCDF ≈ 12: 78. Plus administration, 5% of gross ≈ 6. Total ≈ 84 | **about 110** |
+| Memo 10 C, universal low flat fee or free | about 115 (75-185) | B plus copayments forgone above 85% of state median income, 18 × 90% ≈ 16, and more use by higher-income families, 10-20 gross, about 9-18 federal | about 150 |
 | **Memo 11 A, universal school-day pre-K, 3s and 4s** | **about 60 (45-80)** | About 5.2 million children at about $17,500, about 91 gross; the federal share of the cost above states' current $14.4 billion [EV-CAR-519]; Head Start's 3- and 4-year-olds stay in its own budget | **about 80** |
 | Memo 11 C, 4-year-olds only | about 35 (25-45) | Half the children, higher take-up | about 45 |
-| Part D wage floor at elementary-educator parity, if part D chooses it | **about 55 on top of 10 B (35-80)** | Labor is about two-thirds of child care cost; parity raises most staff pay by half or more (judgment; Bruenig, People's Policy Project, 2021, illustrates unsubsidized infant care rising to about $29,000 under parity; not in the register) | about 70 |
+| Part D wage floor at elementary-educator parity, if part D chooses it | **about 45 on top of 10 B (30-65)** | Labor is about two-thirds of the 118 gross ≈ 79; parity raises most staff pay by half or more, ≈ +40-60 gross, at the 90% share (judgment; Bruenig, People's Policy Project, 2021, illustrates unsubsidized infant care rising to about $29,000 under parity; not in the register) | about 60 |
 | Facilities grants (point 7) | about 5 a year, 2030-34 | Capital for new rooms, infant rooms first | 0 |
 
 **Over FY2030-39**, on memo 12 A's phasing (calendar years, roughly; section 6 converts):
 - pre-K, about $0.56 trillion;
-- child care (memo 10 B), about $1.0 trillion;
+- child care (memo 10 B), about $0.8 trillion (about $20 billion in 2030 for the free tier, rising to about $85 billion in 2033 and about $107 billion in 2039);
 - facilities, about $0.03 trillion;
-- **in total, about $1.6 trillion (range $1.1-2.4 trillion)** before any part D wage floor, which would add about $0.35 trillion if adopted from 2032. FY2040's permanent cost is about $225 billion (range $160-330 billion) plus any wage line.
+- **in total, about $1.4 trillion (range $0.9-2.1 trillion)** before any part D wage floor, which would add about $0.4 trillion if adopted from 2032. FY2040's permanent cost is about $190 billion (range $140-280 billion) plus any wage line.
 
 **Checks against outside estimates.**
 - **CBO, Build Back Better.**
   - *As written.* $381 billion over six years for the pair (CBO, via CRFB) [EV-CAR-587].
   - *If permanent.* $752 billion over ten years.
   - *What lowers those figures.* CBO assumed a third or more of children lived in states that would not take part, and the window was 2022-31, in lower prices.
-  - *Scaled.* At full participation and 2030s prices, that points to roughly $150-200 billion a year at maturity for the pair. This set's about $170 billion (10 B plus 11 A) sits inside it.
+  - *Scaled.* At full participation and 2030s prices, that points to roughly $150-200 billion a year at maturity for the pair. This set's about $145 billion (10 B plus 11 A) sits at the bottom of it, mainly because families above 85% of state median income pay copays and the rates are at today's wage levels.
 - **Penn Wharton.** About $400 billion as written, plus $394 billion if permanent [EV-CAR-588], the same scale as CBO.
 - **The National Academies.** At least $140 billion a year from all sources in 2018 dollars for a high-quality birth-to-five system, with public money rising by up to $53 billion a year [EV-CAR-567].
   - *Comparability.* This set's federal cost is higher, because it makes care free for most families and covers pre-K at parity.
@@ -104,7 +104,7 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money at
 - **The CCWFA.** About $60 billion a year in one estimate with no method given (PERI) [EV-CAR-591]. That looks low against CBO's scores of a similar design, and this dossier does not rely on it.
 - **New Mexico.** The state's fiscal staff warn that universal free care could nearly double its program's cost if families now paying privately join [EV-CAR-547]. Take-up is the risk in every option.
 
-**Against the legacy figure.** FAM-2A's $0.6 trillion (range $0.4-0.9 trillion) over 2030-39 was scaled from CRFB's BBB figure (`legacy/domains/domain-family.md`). This set is about $1.6 trillion for three reasons:
+**Against the legacy figure.** FAM-2A's $0.6 trillion (range $0.4-0.9 trillion) over 2030-39 was scaled from CRFB's BBB figure (`legacy/domains/domain-family.md`). This set is about $1.4 trillion for three reasons:
 - the legacy figure kept BBB's state non-participation and its 2021 prices;
 - it ended before the program matured;
 - this set adds 3-year-olds at parity and drops the activity test.
@@ -128,7 +128,7 @@ The legacy file itself warned that "mature-program years cost more".
 | Eligibility up to 250% of state median income | Legacy FAM-2 (BBB-era figure) | Working choice | Dropped: the 2025 CCWFA has no upper limit; everyone pays at most 7% |
 | Wage parity for care workers from 2030-31 | Legacy FAM-2A | Working choice | Moved to part D (shared rule 8); priced as a separate line |
 | Mandatory funding, not appropriations | Legacy FAM-2; legacy design rule "durable instruments" | Principle settled; the vehicle is a working choice | Kept |
-| Cost $0.6 trillion over 2030-39 | Legacy, scaled from CRFB | Working estimate | Replaced (about $1.6 trillion); reasons above |
+| Cost $0.6 trillion over 2030-39 | Legacy, scaled from CRFB | Working estimate | Replaced (about $1.4 trillion); reasons above |
 | Pre-K standards: 1,020 hours, K-12 pay parity, BA within seven years, 4% to tribes, localities apply directly, federal share 100% stepping to 60% (FAM-2D) | The Bonamici omnibus, now H.R. 10421 [EV-CAR-582] | Working choice (an alternative in the legacy) | Memo 11 A takes hours and parity; point 6 makes the BA a supported goal; point 9 sets the tribal share; memo 13 A's federal fallback covers direct applications |
 | The under-3 staffing critique | Legacy education session (`domain-family.md`, FAM-2) | Analysis, not a decision | Weighed: memos 11 and 12, with New York City's evidence [EV-CAR-569] |
 | Pre-K's one home is FAM-2, not education | Legacy `domain-education.md` and `domain-family.md`; `agenda.csv` (FAM-2 in care) | Working choice, consistent with `charter/PLAN.md` 3.1, which Espen adopted (`DEC-2026-10-28-02`) | Kept; the split is proposed below |

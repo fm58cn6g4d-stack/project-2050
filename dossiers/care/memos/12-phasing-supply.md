@@ -32,7 +32,7 @@ Role: decision memo for Espen, fork 12 of the care dossier (part C; `../3c-desig
 - *2033-34:* 3-year-olds everywhere.
 - *Where tried:* the legacy FAM-2A; New Mexico's expansion in steps (2019-22, then 2025) [EV-CAR-548]; Washington's planned steps [EV-CAR-549]; ARPA's grants [EV-CAR-509].
 - *For people:* families at or below 85% of state median income get free care in the first year. The family at 150% waits until 2032 for the cap, by which time more rooms exist.
-- *Cost:* about $1.6 trillion over FY2030-39 with memos 10 B and 11 A (range $1.1-2.4 trillion; judgment), rising from about $40 billion in 2030 to about $170 billion in 2033.
+- *Cost:* about $1.4 trillion over FY2030-39 with memos 10 B and 11 A (range $0.9-2.1 trillion; judgment), rising from about $35 billion in 2030 to about $145 billion in 2033.
 - *Evidence strength:* international practice (Canada's failure mode) and program evaluation (ARPA, DC). The phasing dates are judgment.
 - *Political risk:* "free for some first" invites the charge that the middle class waits. The two years are short, and the first step reaches about half of families with young children (judgment).
 - *Burden:* providers report enrollment monthly, as most already do.
@@ -42,13 +42,14 @@ Role: decision memo for Espen, fork 12 of the care dossier (part C; `../3c-desig
 - *Where tried:* Canada's fee cut, in effect [EV-CAR-538].
 - *For people:* everyone is promised it at once. In much of the country there are not enough rooms or staff to keep the promise for two or three years.
 - *Cost:* about $0.15-0.25 trillion more over FY2030-34 on paper (judgment). Much of it would show up as higher prices rather than more care.
+- *Evidence strength:* international practice, against it: Canada's fee cut ahead of supply produced waitlists [EV-CAR-538] [EV-CAR-539].
 - *Political risk:* the clearest promise. Waitlists in the first years become the story.
 
 **C. Each state starts when it shows the slots.**
 - *What it is:* federal money for the full guarantee flows to a state once it certifies enough licensed capacity and staff. Until then the state gets facilities and operating grants only.
 - *Where tried:* the CCWFA's certification that a state serves every family at or below 85% before expanding is a version of it [EV-CAR-580].
 - *For people:* families' access depends on their state's pace. The slowest states may be those that least want the program.
-- *Cost:* lower in the 2030s and uncertain, about $1.0-1.4 trillion over FY2030-39 (judgment).
+- *Cost:* lower in the 2030s and uncertain, about $0.9-1.2 trillion over FY2030-39 (judgment).
 - *Political risk:* a state that does not want the program can delay it indefinitely, BBB's opt-out problem [EV-CAR-587].
 - *Burden:* a certification process the design lens counsels against.
 
@@ -58,7 +59,7 @@ Role: decision memo for Espen, fork 12 of the care dossier (part C; `../3c-desig
 | --- | --- | --- | --- |
 | Free care at or below 85% | 2030 | 2030 | When the state certifies |
 | 7% cap for everyone | 2032 | 2030 | When the state certifies |
-| FY2030-39 federal cost (with memos 10 B and 11 A) | about $1.6 trillion | about $1.75-1.85 trillion | about $1.0-1.4 trillion |
+| FY2030-39 federal cost (with memos 10 B and 11 A) | about $1.4 trillion | about $1.55-1.65 trillion | about $0.9-1.2 trillion |
 | Waitlist and price risk | Moderate | High | Low, but access varies |
 | Fit with the legacy | FAM-2A | FAM-2B | New |
 

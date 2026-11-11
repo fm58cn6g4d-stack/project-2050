@@ -48,9 +48,9 @@ Role: decision memo for Espen, fork 10 of the care dossier (part C, child care a
 - *For people (illustrative):*
   - *Two parents earning $70,000 in Ohio:* they pay nothing for their toddler instead of about $10,000 a year.
   - *A family earning $180,000:* it pays no more than about $12,600 for two children.
-- *Cost:* about $110 billion a year of new federal money at maturity (2033), range $70-160 billion (judgment). About $145 billion in FY2040.
-  - *How it compares.* CBO put Build Back Better's six-year child care and pre-K at $381 billion and $752 billion if permanent, with a third of children in non-participating states (CBO via CRFB) [EV-CAR-587]. Scaled to full participation and the 2030s, that is about $150-200 billion a year for child care and pre-K together. This option plus memo 11 A is about $170 billion.
-  - *Wages.* Part D's wage floor at parity would add about $55 billion.
+- *Cost:* about $85 billion a year of new federal money at maturity (2033), range $50-145 billion (judgment). About $110 billion in FY2040. The arithmetic: about $118 billion of gross care, less copays and today's block grant, at a 90% federal share, plus administration (`../3c-design-child-care.md`, "What the options cost").
+  - *How it compares.* CBO put Build Back Better's six-year child care and pre-K at $381 billion and $752 billion if permanent, with a third of children in non-participating states (CBO via CRFB) [EV-CAR-587]. Scaled to full participation and the 2030s, that is about $150-200 billion a year for child care and pre-K together. This option plus memo 11 A is about $145 billion, at the bottom of that range, because families above 85% of state median income pay copays.
+  - *Wages.* Part D's wage floor at parity would add about $45 billion.
 - *Evidence strength:* international practice and program evaluation for capped fees (DoD, Washington). The employment and child effects are quasi-experimental and depend on quality and supply (lines 1-3).
 - *Political risk:*
   - The cost is large. BBB's version died with a senator's objection to the bill's size and its temporary programs [EV-CAR-589].
@@ -66,7 +66,7 @@ Role: decision memo for Espen, fork 10 of the care dossier (part C, child care a
   - *Canada since 2021* [EV-CAR-537]. Fees cut fast; spaces short, waitlists up [EV-CAR-538] [EV-CAR-539] [EV-CAR-540].
   - *New Mexico since November 2025.* Too new to evaluate, with its cost disputed [EV-CAR-547].
 - *For people:* everyone pays the same small fee, the simplest offer to explain. The family earning $180,000 saves $25,000 a year, more than the family at 85% saves under B.
-- *Cost:* about $140 billion a year at maturity (range $95-200 billion; judgment). It is about $30 billion more than B, mostly copayments forgone by families above 85% of state median income and more use by higher-income families. New Mexico's fiscal staff warn of the same take-up risk [EV-CAR-547].
+- *Cost:* about $115 billion a year at maturity (range $75-185 billion; judgment). It is about $30 billion more than B, mostly copayments forgone by families above 85% of state median income and more use by higher-income families. New Mexico's fiscal staff warn of the same take-up risk [EV-CAR-547].
 - *Evidence strength:* international practice and quasi-experimental studies, positive for employment and mixed for children.
 - *Political risk:* the most popular offer and the hardest to fund. Demand outruns supply first here, and rationing by waitlist is the visible failure.
 - *Burden:* none on families.
@@ -78,8 +78,8 @@ Role: decision memo for Espen, fork 10 of the care dossier (part C, child care a
 | Who is guaranteed care | No one; states ration | Every child under 5 | Every child under 5 |
 | What a family at 85% of state median income pays | A state copay, if served | Nothing | A flat fee or nothing |
 | What a family at 200% pays | Market price, less a credit | At most 7% of income | A flat fee or nothing |
-| New federal cost, maturity (2033) | about $25 billion | about $110 billion | about $140 billion |
-| FY2040 | about $30 billion | about $145 billion | about $185 billion |
+| New federal cost, maturity (2033) | about $25 billion | about $85 billion | about $115 billion |
+| FY2040 | about $30 billion | about $110 billion | about $150 billion |
 | Supply pressure | Low | High | Highest |
 | Paperwork | State eligibility and activity checks | One statement a year | None |
 | Political base | Bipartisan, low salience | Democratic bills since 2017; BBB | Most popular, least proven at U.S. scale |

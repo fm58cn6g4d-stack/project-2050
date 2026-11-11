@@ -36,6 +36,7 @@ Role: decision memo for Espen, fork 13 of the care dossier (part C; `../3c-desig
 - *What it is:* Head Start's grants become part of each state's allotment. States may keep local grantees.
 - *Where tried:* proposed in past Republican budgets, never enacted.
 - *For people:* one system. Head Start's comprehensive services survive only where states keep them.
+- *Evidence strength:* none for the change itself. Head Start's long-run results come from its federal-to-local form [EV-CAR-562] [EV-CAR-563], and state-run programs are exposed to state budgets [EV-CAR-549] (program experience).
 - *Political risk:* Head Start's advocates and grantees oppose it strongly. It hands the program to states at the moment some have sought to restrict it.
 
 **C. A federal program paying providers directly in every state.**
