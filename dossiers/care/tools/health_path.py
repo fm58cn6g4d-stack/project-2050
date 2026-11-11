@@ -6,7 +6,9 @@ formulas (models/tools/health-coverage/model.py) for the design Espen decided (D
 
   - the single plan at full scale: rates about 1.15 times Medicare (memo 5 B), comprehensive benefits with small
     capped copays above 200% of poverty (memo 4 C: the model's "low" cost sharing), long-term care left to part B
-    (sp_ltc = 0), states paying half their Medicaid spending (memo 3 B's working figure);
+    (sp_ltc = 0) and Medicaid's long-term care kept in Medicaid at current-law cost (HLT-7.07; sp_mcd_ltc_kept = 1:
+    not repriced into the plan, not replaced federal money, not in the states' payment base; board row D-4c),
+    states paying half their non-long-term-care Medicaid spending (memo 3 B's working figure);
   - the order (memo 2 by payer, children first; DEC-2026-11-10-11): 2030 restoration; wave 1 in 2031 (the uninsured,
     the individual market and every child, plus Medicare at 60); wave 2 in 2033-35 (Medicaid and employer groups, a
     third of each on January 1 of 2033, 2034 and 2035, a working assumption); the endpoint, January 1, 2035
@@ -43,7 +45,9 @@ WAVE2 = (2033, 2034, 2035)          # a third of Medicaid and of employer groups
 ENDPOINT = 2035
 GLIDE_START, GLIDE_YEARS = 2031, 5  # hospital rates reach the target in 2036
 TARGET = 1.15
-CHILD_MCD_SHARE = 0.20              # children's share of Medicaid and CHIP spending (assumption; range 0.15-0.25)
+CHILD_MCD_SHARE = 0.20              # children's share of Medicaid and CHIP spending (assumption; range 0.15-0.25),
+                                    # all of it outside long-term care (a simplification), so a larger share of the
+                                    # Medicaid spending that moves (child_share_moving in groups())
 NEUTRAL = None                      # computed: the employer contribution share that makes employer moves cost nothing
 
 
@@ -52,8 +56,14 @@ def setup():
     I = M.central(rows)
     I['sp_rate_pct_medicare'] = TARGET
     B = M.build_base(I)
-    P = {'sp': 1.0, 'sp_rate_basis': 'medicare', 'sp_cs': 'low', 'sp_ltc': 0.0}
+    P = {'sp': 1.0, 'sp_rate_basis': 'medicare', 'sp_cs': 'low', 'sp_ltc': 0.0, 'sp_mcd_ltc_kept': 1}
     return I, B, P
+
+
+def mcd_ltc_kept(I, P):
+    """Medicaid long-term care kept in Medicaid at current-law cost, 2032, and its federal part ($ billion); zero when
+    the variant moves it into the plan."""
+    return M.mcd_ltc(I) if P.get('sp_mcd_ltc_kept', 0) else (0.0, 0.0)
 
 
 def model_full(I, B, P):
@@ -65,6 +75,8 @@ def groups(I, B, P, hosp_rate=TARGET):
     """Net 2032 federal cost of moving each group into the single plan, at the target rate for physicians and other
     services and at `hosp_rate` for hospital claims. Returns (net, cost, today, facts)."""
     S, c, adm = B['S'], B['c'], B['adm']
+    ltc, ltc_fed = mcd_ltc_kept(I, P)
+    mcd, sub_mcd = S['medicaid'] - ltc, I['sub_medicaid'] - ltc_fed   # what moves; the federal money it replaces
     g = B['gross']
     ng = g['ng_sub'] + g['ng_unsub']
     esi_sh = g['esi'] / (g['esi'] + ng)
@@ -85,15 +97,15 @@ def groups(I, B, P, hosp_rate=TARGET):
 
     cost = {
         'medicare': plan(S['medicare'], 'medicare') + plan(oopg['medicare'], 'oop'),
-        'medicaid': plan(S['medicaid'], 'medicaid') + plan(oopg['medicaid'], 'oop'),
+        'medicaid': plan(mcd, 'medicaid') + plan(oopg['medicaid'], 'oop'),
         'employer': plan(S['phi'] * esi_sh, 'phi') + plan(oopg['esi'], 'oop'),
         'individual': plan(S['phi'] * (1 - esi_sh), 'phi') + plan(oopg['ng'], 'oop'),
     }
-    today = {'medicare': S['medicare'] + oopg['medicare'], 'medicaid': S['medicaid'] + oopg['medicaid'],
+    today = {'medicare': S['medicare'] + oopg['medicare'], 'medicaid': mcd + oopg['medicaid'],
              'employer': S['phi'] * esi_sh + oopg['esi'], 'individual': S['phi'] * (1 - esi_sh) + oopg['ng']}
     # newly covered people: the model's own formula, at this rate
-    claims_now = sum(S[x] * (1 - adm[x]) * ((1 - rx) * (r_eff / c[x]) + rx * (1 - d))
-                     for x in ['medicare', 'medicaid', 'phi'])
+    claims_now = sum(amt * (1 - adm[x]) * ((1 - rx) * (r_eff / c[x]) + rx * (1 - d))
+                     for x, amt in [('medicare', S['medicare']), ('medicaid', mcd), ('phi', S['phi'])])
     claims_now += (S['oop'] - B['oop_pp']['unins'] * sum(B['cells0']['uninsured']) / 1000
                    - B['oop_pp']['other'] * sum(B['cells0']['other']) / 1000) * (1 - adm['oop']) \
         * ((1 - rx) * (r_eff / c['oop']) + rx * (1 - d))
@@ -101,10 +113,10 @@ def groups(I, B, P, hosp_rate=TARGET):
     covered_now = B['pop'] - sum(B['cells0']['other']) - unins0
     new_n = max(0.0, unins0 - I['sp_residual_unins'] * B['pop'])
     new_cost = new_n * I['new_enrollee_factor'] * claims_now * (1 + u) / covered_now * (1 / (1 - a) - cs)
-    R = I['sp_state_moe'] * max(0.0, S['medicaid'] - I['sub_medicaid']) + I['sp_retained_other']
+    R = I['sp_state_moe'] * max(0.0, mcd - sub_mcd) + I['sp_retained_other']
     net = {
         'medicare': cost['medicare'] - I['sub_medicare'],
-        'medicaid': cost['medicaid'] - I['sub_medicaid'] - R,
+        'medicaid': cost['medicaid'] - sub_mcd - R,
         'employer': cost['employer'] - I['sub_esi'],
         'individual': cost['individual'] - I['sub_ptc'],
         'uninsured': new_cost,
@@ -118,6 +130,8 @@ def groups(I, B, P, hosp_rate=TARGET):
         'state_moe': R,
         'child_share_employer': kids_esi,
         'child_share_medicaid': CHILD_MCD_SHARE,
+        'child_share_moving': CHILD_MCD_SHARE * S['medicaid'] / mcd,
+        'medicaid_ltc_kept': ltc, 'medicaid_ltc_kept_federal': ltc_fed,
         'hospital_weight': wh,
         'people': {'employer': g['esi'], 'individual': ng, 'medicaid': g['medicaid'], 'medicare': g['medicare'],
                    'uninsured': I['cbo_unins']},
@@ -126,16 +140,27 @@ def groups(I, B, P, hosp_rate=TARGET):
     return net, cost, today, facts
 
 
+def hospital_claims(I, B):
+    """Hospital care by payer, 2032 ($ billion): CMS's 2024 hospital lines (EV-CAR-461), grown on each payer's NHE
+    growth. Medicaid's line has no long-term care in it."""
+    n = M.NYEARS
+    return {'medicare': I['nhe_hosp_medicare'] * (1 + I['nhe_g_medicare']) ** n,
+            'medicaid': I['nhe_hosp_medicaid'] * (1 + I['nhe_g_medicaid']) ** n,
+            'phi': I['nhe_hosp_phi'] * (1 + I['nhe_g_phi']) ** n}
+
+
 def hospital_revenue(I, B, P, hosp_rate, net_current='all'):
-    """Change in hospital revenue, 2032, when each group moves (project arithmetic). Hospital and physician rates by
-    payer are the model's (commercial hospital 2.54 and physician 1.4 times Medicare; Medicaid at its fee index;
-    Medicare 1.04). For the newly covered, the plan's payment for their hospital care is new revenue less what
+    """Change in hospital revenue, 2032, when each group moves (project arithmetic). Each payer's hospital claims are
+    CMS's hospital lines (hospital_claims(); D-4c: an earlier version took a national hospital share of each payer's
+    whole non-drug spending, which overstated hospital claims by about 30% for Medicare, 50% for Medicaid, long-term
+    care included, and 70% for private insurance). Hospital rates by payer are the model's (commercial 2.54 times
+    Medicare; Medicaid at its fee index; Medicare 1.04). For the newly covered, the plan's payment for their hospital care is new revenue less what
     hospitals collect for them today (review of #220): net_current='selfpay' subtracts only their own payments
     (unins_paid_share of their current care), the high reading; 'all' also subtracts the rest of their current care
     (uncompensated care funded by Medicaid DSH, state and other payments, and cost shifting), treating all of it as
     revenue hospitals lose, the low reading. Medicaid DSH inside Medicaid's spending is repriced with it, a small
     upward bias on the Medicaid line."""
-    S, c, adm = B['S'], B['c'], B['adm']
+    c = B['c']
     g = B['gross']
     ng = g['ng_sub'] + g['ng_unsub']
     esi_sh = g['esi'] / (g['esi'] + ng)
@@ -143,14 +168,11 @@ def hospital_revenue(I, B, P, hosp_rate, net_current='all'):
     wh = I['nhe_hospital'] / (I['nhe_hospital'] + I['nhe_physician'])
     u = I['sp_util_uplift'] * 0.5 * (1 - I['sp_unmet_share'])
     h = {'medicare': c['medicare'], 'medicaid': I['medicaid_fee_idx'], 'phi': I['hosp_commercial_ratio']}
-    f = {'medicare': c['medicare'], 'medicaid': I['medicaid_fee_idx'], 'phi': I['phys_commercial_ratio']}
+    hc = hospital_claims(I, B)
     net, _, _, _ = groups(I, B, P, hosp_rate)
     out = {}
-    for grp, payer, amount in [('medicare', 'medicare', S['medicare']), ('medicaid', 'medicaid', S['medicaid']),
-                               ('employer', 'phi', S['phi'] * esi_sh), ('individual', 'phi', S['phi'] * (1 - esi_sh))]:
-        D = amount * (1 - adm[payer]) * (1 - rx)
-        share = wh * h[payer] / (wh * h[payer] + (1 - wh) * f[payer])
-        H = D * share
+    for grp, payer, H in [('medicare', 'medicare', hc['medicare']), ('medicaid', 'medicaid', hc['medicaid']),
+                          ('employer', 'phi', hc['phi'] * esi_sh), ('individual', 'phi', hc['phi'] * (1 - esi_sh))]:
         out[grp] = H / h[payer] * hosp_rate * (1 + u) - H
     # newly covered: the hospital part of their new care, at the plan's rates
     a, cs = I['sp_admin'], I['sp_cs_low_rate']
@@ -163,11 +185,13 @@ def hospital_revenue(I, B, P, hosp_rate, net_current='all'):
 
 
 def hospital_start(I, B):
-    """Today's all-payer average hospital rate, as a multiple of Medicare (claims-weighted by payer)."""
-    S, c, adm = B['S'], B['c'], B['adm']
-    hosp = {'medicare': c['medicare'], 'medicaid': I['medicaid_fee_idx'], 'phi': I['hosp_commercial_ratio']}
-    vol = {x: S[x] * (1 - adm[x]) / c[x] for x in hosp}
-    return sum(vol[x] * hosp[x] for x in hosp) / sum(vol.values())
+    """Today's all-payer average hospital rate, as a multiple of Medicare: each payer's hospital claims
+    (hospital_claims()) weighted by the volume they buy at its hospital rate (D-4c: an earlier version weighted by each
+    payer's whole spending, at its blended rate)."""
+    hosp = {'medicare': B['c']['medicare'], 'medicaid': I['medicaid_fee_idx'], 'phi': I['hosp_commercial_ratio']}
+    hc = hospital_claims(I, B)
+    vol = {x: hc[x] / hosp[x] for x in hosp}
+    return sum(hc.values()) / sum(vol.values())
 
 
 def rate_path(start, years=GLIDE_YEARS, begin=GLIDE_START):
@@ -175,14 +199,16 @@ def rate_path(start, years=GLIDE_YEARS, begin=GLIDE_START):
             for y in YEARS + [2040]}
 
 
-def shares_moved(y):
-    """Share of each group in the single plan in year y (memo 2's order, DEC-2026-11-10-11)."""
+def shares_moved(y, child_mcd=CHILD_MCD_SHARE):
+    """Share of each group in the single plan in year y (memo 2's order, DEC-2026-11-10-11). child_mcd: children's
+    share of the group's moving amount (path() passes it of the Medicaid spending that moves, without long-term
+    care; the household rows keep the 20% of Medicaid spending)."""
     third = sum(1 for w in WAVE2 if y >= w) / 3.0
     full = y >= ENDPOINT
     return {
         'uninsured': 1.0 if y >= WAVE1 else 0.0,
         'individual': 1.0 if y >= WAVE1 else 0.0,
-        'medicaid': 1.0 if full else (CHILD_MCD_SHARE if y >= WAVE1 else 0.0) + (1 - CHILD_MCD_SHARE) * third,
+        'medicaid': 1.0 if full else (child_mcd if y >= WAVE1 else 0.0) + (1 - child_mcd) * third,
         'employer': 1.0 if full else 0.0,   # set in employer_share() (children first, then thirds)
         'medicare': 1.0 if full else 0.0,
     }
@@ -213,7 +239,7 @@ def path(I, B, P, glide):
         if r not in cache:
             cache[r] = groups(I, B, P, hosp_rate=r)
         net, _, _, f = cache[r]
-        sh = shares_moved(y)
+        sh = shares_moved(y, f['child_share_moving'])
         sh['employer'] = employer_share(y, f['child_share_employer'])
         plan = sum(sh[k] * net[k] for k in net) * gf[y]
         extra = 0.0

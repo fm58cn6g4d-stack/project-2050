@@ -8,20 +8,20 @@
 
 ## 1. Headline numbers
 
-Current values from this run: general-fund claims $38.04T; top-end base $10.94T; ten-year gap $27.10T; gap after accepted options +22.59T; accepted revenue $3.21T; envelope borrowing $1.30T; legacy Senate floor days under F 172; legacy assumed floor-day budget 163; DEC ten-year general-fund deficit $24.02T; DEC total debt, 2056 371.0%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$-1,038.
+Current values from this run: general-fund claims $35.22T; top-end base $10.94T; ten-year gap $24.28T; gap after accepted options +19.77T; accepted revenue $3.21T; envelope borrowing $1.30T; legacy Senate floor days under F 172; legacy assumed floor-day budget 163; DEC ten-year general-fund deficit $21.20T; DEC total debt, 2056 344.9%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$-1,038.
 
 | File | Line | Figure | Quoted | This run |
 | --- | --- | --- | --- | --- |
-| legacy/domains/domain-revenue.md | 12 | ten-year gap | gap of **$5.87T** | $27.10T |
-| legacy/domains/domain-revenue.md | 26 | general-fund claims | $11.72T claims | $38.04T |
+| legacy/domains/domain-revenue.md | 12 | ten-year gap | gap of **$5.87T** | $24.28T |
+| legacy/domains/domain-revenue.md | 26 | general-fund claims | $11.72T claims | $35.22T |
 | legacy/domains/domain-revenue.md | 302 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-1,038 |
 | legacy/governing/project-2050-governing-decisions.md | 100 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-1,038 |
-| legacy/governing/project-2050-governing-decisions.md | 104 | ten-year gap | a $5.87T gap | $27.10T |
+| legacy/governing/project-2050-governing-decisions.md | 104 | ten-year gap | a $5.87T gap | $24.28T |
 | legacy/governing/project-2050-governing-decisions.md | 104 | top-end base | against a $5.85T top-end base | $10.94T |
-| legacy/index/revenue-assignment-audit.md | 72 | general-fund claims | $11.72T of claims | $38.04T |
-| legacy/index/revenue-assignment-audit.md | 118 | general-fund claims | $11.72T of claims | $38.04T |
+| legacy/index/revenue-assignment-audit.md | 72 | general-fund claims | $11.72T of claims | $35.22T |
+| legacy/index/revenue-assignment-audit.md | 118 | general-fund claims | $11.72T of claims | $35.22T |
 | legacy/index/revenue-assignment-audit.md | 176 | incidence scenario Q, fourth quintile | fourth quintile at about +$1,139 | +$-1,038 |
-| legacy/index/revenue-assignment-audit.md | 180 | ten-year gap | gap $5.87T | $27.10T |
+| legacy/index/revenue-assignment-audit.md | 180 | ten-year gap | gap $5.87T | $24.28T |
 | legacy/index/revenue-assignment-audit.md | 180 | top-end base | base $5.85T | $10.94T |
 
 In dated passages (an "after X" note or a saved state). Usually history to leave alone, sometimes a state line to refresh or mark as dated:
@@ -29,8 +29,8 @@ In dated passages (an "after X" note or a saved state). Usually history to leave
 | File | Line | Figure | Quoted | This run |
 | --- | --- | --- | --- | --- |
 | legacy/index/revenue-assignment-audit.md | 134 | envelope borrowing | $1.15T of borrowing | $1.30T |
-| legacy/index/revenue-assignment-audit.md | 134 | general-fund claims | claims of $11.10T | $38.04T |
-| legacy/index/revenue-assignment-audit.md | 134 | ten-year gap | gap of $5.12T | $27.10T |
+| legacy/index/revenue-assignment-audit.md | 134 | general-fund claims | claims of $11.10T | $35.22T |
+| legacy/index/revenue-assignment-audit.md | 134 | ten-year gap | gap of $5.12T | $24.28T |
 
 ## 2. IDs
 
@@ -65,7 +65,7 @@ For each ledger row with a cost, the domain file's lines that name the ID are se
 | HLT-2 | 0.399 | legacy/domains/domain-health.md | ledger middle not among the figures given for this ID | 0.3, 0.55, 0.65, 0.001 | Rebooked (care fix step 5, 6-cost.md part 5 item 2): HLT-2.01 upgrades $0.30T (0.25-0.35; legacy profile moved to 2031) plus HLT-2.03 no disability wait $0.10T (0.06-0.18), calendar 2031-34, on fiscal years; Medicare at 60 is in HLT-7's wave 1 |
 | HLT-4 | 0.498 | legacy/domains/domain-health.md | ledger middle not among the figures given for this ID | 0.4, 0.63, 0.85 | Go-big tab, Title IV, split (care review F-4 item 2; fiscal-components.csv): HCBS and the care workforce kept until part B decides long-term care; health centers, residency slots, the Momnibus and Title X kept; children's continuous coverage retired from wave 1 (2031) and Medicaid dental with the items costed with it from Medicaid's thirds (2033-35). Range scaled from the legacy 0.40-0.85. LAB-3's home-care wage floor adds an unscored Medicaid rate cost |
 | HLT-6 | -0.328 | legacy/domains/domain-health.md | ledger middle not among the figures given for this ID | 0.5, 0.55, 0.6, 0.7 | Rebooked (care fix step 5, 6-cost.md part 5 item 3): MedPAC's 14% ($76B in 2026, a total over Parts A and B) grown at Medicare's 7.7%, half in 2030, calendar 2030-34, on fiscal years ($0.546T); Advantage ends at the endpoint and the plan prices its enrollees at traditional rates. Booked here is Part B's 60%; Part A's 40% ($0.218T, FY2030-34) is credited to HI first in the funds model (funds-parameters.csv hi_hlt6_part_a_share; care follow-up 3), replacing the legacy ~$0.7T credit |
-| HLT-7 | 29.922 | legacy/domains/domain-health.md | no dollar figure next to the ID | — | Care fix step 5 (6-cost.md part 5 item 4; review F-4): the spending line on the fiscal-year path of dossiers/care/tools/health_path.py ($29.69T; FY2040 $5,722B), plus HLT-7.15's transition fund ($0.10T, 0.05-0.15) and the territories ($0.13T, 0.09-0.22); range from the target-rate sensitivity (1.05 to 1.25 x Medicare). The exclusion revenue is HX on the revenue side. The employer contribution (net $1,061B in FY2040 at 65%) is not booked until the settlement sets its share; FEHB's contribution would be intragovernmental. Known overstatement, not sized: FEHB, TRICARE and veterans' coverage are priced as employer-group movers (6-cost.md part 4). Floor time stays on HLT-3's slot |
+| HLT-7 | 27.106 | legacy/domains/domain-health.md | no dollar figure next to the ID | — | Care fix step 5 (6-cost.md part 5 item 4; review F-4): the spending line on the fiscal-year path of dossiers/care/tools/health_path.py ($26.88T; FY2040 $5,200B; Medicaid long-term care kept in Medicaid at current-law cost, HLT-7.07, board row D-4c), plus HLT-7.15's transition fund ($0.10T, 0.05-0.15) and the territories ($0.13T, 0.09-0.22); range from the target-rate sensitivity (1.05 to 1.25 x Medicare) and Medicaid long-term care's size ($274-317B in 2024). The exclusion revenue is HX on the revenue side. The employer contribution (net $1,061B in FY2040 at 65%) is not booked until the settlement sets its share; FEHB's contribution would be intragovernmental. Known overstatement, not sized: FEHB, TRICARE and veterans' coverage are priced as employer-group movers (6-cost.md part 4). Floor time stays on HLT-3's slot |
 | HLT-8 | 0.004 | legacy/domains/domain-health.md | no dollar figure next to the ID | — | HLT-8.01 grants, $200-500M a year, subject to appropriation (6-cost.md part 2; part 5 item 6); the $3-5B of yearly loans costs about zero |
 | FAM-3 | 0.9 | legacy/domains/domain-family.md | no dollar figure next to the ID | — | CBO $547B (BBB-era design); JCT break-even 0.85%; 0.6% raises ~$0.9T |
 | HOU-1 | 0.691 | legacy/domains/domain-housing.md | ledger middle not among the figures given for this ID | 0.733, 0.56, 0.47, 0.4 | Booked provision by provision from dossiers/home/6-cost.md section 1.2 (central; low and high from its ranges less HOU-4D's), as section 5 proposes (housing fix step 7, O-6): one component per line in fiscal-components.csv, the legacy fee allowance folded into HOU-4A, the option D credits (HOU-2D) booked in the title. HOU-4D's stage 2 guarantee stays in recovery-adoption.json (housing_extra). FY2029's R1 readiness tranche ($0.75B) is outside the window (ASM-WINDOW). No expansion borrowing or pay-for adopted; C21 and C31 unchanged. |

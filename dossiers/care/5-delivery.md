@@ -40,7 +40,7 @@ What the plan needs:
 | 2029 | The Medicare for All Act of 2029, regular order under the rules reform (D2) | Congress |
 | 2029-30 | Rules: the plan's fee schedules and hospital conversion factor, copay schedule, provider agreements, the employer contribution's base year and collection; readiness report for wave 1, within nine months of enactment (HLT-7.03) | CMS, IRS |
 | Plan year 2030 | Restoration in force; enhanced credits for 2030; Advantage fix at half strength | CMS, IRS |
-| January 1, 2031 | **Wave 1**: the uninsured, the individual market, every child; Medicare at 60; upgrades for today's Medicare enrollees (cap, hearing, vision); no disability wait; Medigap guaranteed issue; drug negotiation applies to the plan; hospital glide starts at about 1.25 times Medicare | CMS |
+| January 1, 2031 | **Wave 1**: the uninsured, the individual market, every child; Medicare at 60; upgrades for today's Medicare enrollees (cap, hearing, vision); no disability wait; Medigap guaranteed issue; drug negotiation applies to the plan; hospital glide starts at about 1.20 times Medicare | CMS |
 | July 2031 | Readiness report for wave 2 | HHS |
 | 2032 | HHS publishes each hospital's projected revenue change under the plan from its cost report, and the transition fund's formula (HLT-7.15, `DEC-2026-11-10-13`) | CMS |
 | January 1, 2033 | Wave 2, first cohort: a third of Medicaid (by state) and of employer groups (smallest firms first); employer contribution starts for them; worker help opens; dental for Medicare enrollees | CMS, IRS, Labor |

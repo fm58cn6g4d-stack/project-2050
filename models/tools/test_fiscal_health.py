@@ -5,7 +5,7 @@ only, plus the dossier's own path script through health_booking.py. Checks that:
 - every health shape, component and ledger amount in models/data/inputs/ equals health_booking.py's derivation from
   dossiers/care/tools/health_path.py, so a change to the dossier's path fails here instead of drifting;
 - the fiscal model books the spending line at the path's FY2040 figure and the exclusion revenue (HX) at its own;
-- the plan's net cost on the model's basis (HLT-1 plus HLT-7's spending line, less HX) is the dossier's $24.56T;
+- the plan's net cost on the model's basis (HLT-1 plus HLT-7's spending line, less HX) is the dossier's $21.74T;
 - the employer contribution is not booked on any channel, and HX is general-fund base revenue;
 - HLT-3 and HLT-5 are retired, HLT-1, HLT-2 and HLT-6 end with the 2035 endpoint, and HLT-4's retired parts end
   with their waves while its long-term care and safety-net parts continue;
@@ -93,8 +93,8 @@ class HealthBooking(unittest.TestCase):
         hx = fiscal.row_path(self.base, -self.rev["HX"]["mid"], fiscal.PR.REVENUE["HX"], "HX")
         net = t(self.path("HLT-1")) + t(self.part("HLT-7", "plan-spending")) + t(hx)
         self.assertAlmostEqual(net, self.b["totals"]["net_window"], delta=0.002)
-        self.assertAlmostEqual(round(net, 2), 24.56)
-        self.assertAlmostEqual(round(self.b["totals"]["with_contribution"], 2), 19.25)
+        self.assertAlmostEqual(round(net, 2), 21.74)
+        self.assertAlmostEqual(round(self.b["totals"]["with_contribution"], 2), 16.43)
 
     def test_contribution_is_not_booked(self):
         # the only revenue row from the health plan is HX: no employer contribution (HLT-7.18) and no FEHB money
@@ -161,7 +161,7 @@ class HealthIncidence(unittest.TestCase):
         self.assertEqual(self.phase["C19"]["same_as"], "C19b")
 
     def test_household_total_is_the_dossiers(self):
-        self.assertAlmostEqual(self.inc["full_scale"]["household_removed"], 1527.5, delta=1.0)  # 6-cost.md part 8
+        self.assertAlmostEqual(self.inc["full_scale"]["household_removed"], 1547.3, delta=1.0)  # 6-cost.md part 8
 
 
 if __name__ == "__main__":
