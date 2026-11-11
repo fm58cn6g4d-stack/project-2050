@@ -1,0 +1,841 @@
+Source: https://www.medicaid.gov/medicaid/long-term-services-supports/downloads/ltss-rebalancing-brief-2023.pdf
+Publisher: Centers for Medicare & Medicaid Services
+Retrieved: 2026-11-11
+Original SHA-256: 1167b486471178dfd7464bbb1056f041d1b1eae236605b8ac74a13140f358fec
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Trends in Users and Expenditures for Home and
+Community-Based Services as a Share of Total
+Medicaid Long-Term Services and Supports
+Users and Expenditures, 2023
+Alexandra Carpenter, Cara Stepanczuk, Caitlin Murray, and Andrea Wysocki, Mathematica
+October 17, 2025
+
+Background
+Federal Medicaid rules allow states to cover a wide
+range of institutional and home and communitybased long-term services and supports (LTSS). The
+types of services, populations covered, and delivery
+models differ greatly across states based on each
+state’s Medicaid program structure. Over the last
+several decades, states have sought to rebalance their
+Medicaid LTSS systems by increasing access to home
+and community-based services (HCBS) and reducing
+reliance on institutional care. Measurement of national
+and state progress toward this goal includes both the
+share of total Medicaid LTSS users receiving HCBS and
+the share of total Medicaid LTSS spending for HCBS.
+These measures are commonly referred to as LTSS
+user and expenditure rebalancing ratios.
+This brief presents national and state 1 trends in
+Medicaid LTSS user and expenditure rebalancing ratios
+for 2023, 2 based on data from the Transformed
+Medicaid Statistical Information System (T-MSIS)
+
+Key findings
+•
+
+In 2023, 87.1 percent of Medicaid LTSS users
+received HCBS.
+
+•
+
+In 2023, HCBS accounted for 63.8 percent of
+Medicaid LTSS expenditures.
+
+•
+
+At the national level, the LTSS user
+rebalancing ratio increased slightly from 2022
+to 2023 while the expenditure rebalancing
+ratio decreased slightly.
+
+•
+
+Expenditure rebalancing ratios showed
+greater variation across states than user
+rebalancing ratios.
+
+•
+
+Both user and expenditure rebalancing ratios
+varied the most by age group compared to
+other demographic characteristics: those ages
+0 to 20 had the highest user rebalancing
+ratio, those ages 21 to 44 had the highest
+expenditure rebalancing ratio, and those ages
+65 and older had the lowest rebalancing
+ratios for both users and expenditures.
+
+•
+
+The LTSS subpopulation with the lowest user
+and expenditure rebalancing ratios was older
+adults (66.6 and 46.7, respectively).
+
+1 This analysis includes data for all 50 states and the District of Columbia. It does not include data for U.S. territories
+
+because they do not generally cover LTSS, and only three territories (Guam, Puerto Rico, and the Virgin Islands) report
+Transformed Medicaid Statistical Information System (T-MSIS) data.
+2 Expenditure rebalancing ratios for prior years are available at
+
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+Mathematica® Inc.
+
+1
+
+Analytic Files (TAF). 3 It also presents national rebalancing ratios by select characteristics, including age,
+sex, dual-eligibility status, 4 urban or rural residence, primary spoken language, race and ethnicity, and for
+five LTSS subpopulations: (1) older adults (ages 65 and older); (2) people under age 65 with potentially
+disabling conditions; (3) people with autism spectrum disorder (ASD), intellectual disabilities (ID), or
+developmental disabilities (DD); (4) people with mental health (MH) conditions or substance use disorders
+(SUD); and (5) other people who use LTSS. 5
+The categories of HCBS included in total user and expenditure calculations include section 1915(c) waiver
+programs, section 1915(i) state plan HCBS benefit, section 1915(j) self-directed personal assistance
+services (PAS) option, section 1915(k) Community First Choice option, PACE, and the following section
+1905(a) state plan benefits: personal care services, home health services, rehabilitative services, case
+management services, and private duty nursing services. 6,7
+The categories of institutional LTSS included in total user and expenditure calculations align with
+previously published expenditure analyses: 8 nursing facility, intermediate care facility for individuals with
+
+3 For additional information regarding LTSS TAF data quality, refer to the document titled “Analysis of Data Quality in
+
+the Transformed Medicaid Statistical Information System Analytic Files for Identifying Medicaid Home and
+Community-Based Services and Institutional Long-Term Services and Supports, 2023” available at
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+4 Dually eligible enrollees are Medicaid enrollees also enrolled in Medicare Part A and/or Part B. Medicare is the
+
+primary payer for services that are covered by both programs for enrollees who are eligible for the covered services.
+Full-benefit dually eligible enrollees are entitled to full-scope Medicaid coverage, including for services that Medicare
+does not cover, such as LTSS.
+5 For more information about the definitions of each LTSS subpopulation, refer to the document titled “Methodology
+
+for Identifying Medicaid Long-Term Services and Supports Expenditures and Users, 2023,” available at
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+6 We assigned each claim to one category, with program-based services, for which enrollment information exists,
+
+assigned first (including section 1915(c) waiver programs, section 1915(i) state plan HCBS benefit, section 1915(j) selfdirected PAS option, section 1915(k) Community First Choice option, Money Follows the Person [MFP] demonstration,
+and PACE), followed by state plan services. State plan benefits refer to section 1905(a) state plan services. MFP
+demonstration services are included as an individual category in accompanying table output, but they are not
+included in the aggregate calculations of total HCBS or total LTSS expenditures or users in this brief. For more
+information about the categories of HCBS included in total user and expenditure calculations, refer to the document
+titled “Methodology for Identifying Medicaid Long-Term Services and Supports Expenditures and Users, 2019-2021,”
+available at https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+7 Sections 1915(c), 1915(i), 1915(j), and 1915(k) refer to section 1915 of the Social Security Act.
+8 LTSS expenditure reports for prior years are available at
+
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+Mathematica® Inc.
+
+2
+
+intellectual disabilities (ICF/IID), mental health facility, and mental health facility disproportionate share
+hospital (DSH) payments. 9,10
+When interpreting findings, please note that completeness, quality, and consistency of the TAF data vary
+by state. To support interpretability of findings in this brief, we created LTSS TAF data quality measures to
+identify potential data quality issues that may affect states’ LTSS expenditure and user results. These
+measures can be found in accompanying documentation. 11,12
+
+National Trends in Medicaid LTSS User and Expenditure Rebalancing
+Ratios
+Total LTSS users. Nationally, the number of Medicaid LTSS users increased from 9.1 million users in 2022
+to 9.7 million users in 2023. The number of HCBS users increased from 7.5 million in 2021 to 7.8 million in
+2022 then to 8.4 million in 2023. The number of institutional service users in 2023 (1.5 million) was about
+the same as in 2021 and 2022. These two groups are not mutually exclusive, and like 2021 and 2022, a
+small proportion (0.3 million people) used both HCBS and institutional services in 2023.
+Total LTSS expenditures. Total Medicaid LTSS and HCBS spending rose between 2022 and 2023.
+National Medicaid LTSS expenditures totaled $200.4 billion in 2022, with HCBS accounting for $129.4
+billion and institutional services accounting for $71.0 billion. In 2023, national Medicaid LTSS expenditures
+totaled $228.6 billion, with HCBS accounting for $145.9 billion and institutional services accounting for
+$82.7 billion.
+The average LTSS expenditure per LTSS user in 2023 was $23,620, compared to $22,109 in 2022. People
+9 Data for mental health facilities include institutions for mental diseases (IMD) for people ages 65 and older and
+
+inpatient psychiatric facilities for people younger than 21. In addition, data on mental health facilities may have
+included services furnished in accordance with section 1915(l) of the Social Security Act - services provided to
+Medicaid beneficiaries ages 21 through 64 who have at least one substance use disorder diagnosis and reside in an
+eligible IMD. Some states cover services for adults ages 21 to 64 in IMDs through section 1115 demonstration
+authority or as an “in lieu of service or setting” (ILOS) under managed care in accordance with 42 CFR 438.3(e)(2) and
+438.6(e); however, we could not ensure this group was included in the mental health facilities category because there
+was no recommended (tested) method of reliably identifying this population in the TAF. Hospitals are not included in
+the definition of institutional LTSS, although these are Medicaid facilities. CMS has not historically counted hospitals
+as part of institutional LTSS for tracking LTSS expenditures and use.
+10 As required by federal law, state Medicaid agencies distribute DSH payments to institutions that serve a large
+
+number of Medicaid beneficiaries and people without insurance to support the institutions’ financial stability. These
+direct provider payments can be viewed as part of a state’s overhead cost for providing institutional LTSS to people
+with low resources.
+11 State data and anomaly notes and LTSS TAF data quality rating results are included in the document titled “Data
+
+Notes for Medicaid Transformed Medicaid Statistical Information System Analytic File Long-Term Services and
+Supports Annual Expenditures and Users, 2023,” available at
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+12 Details on the LTSS TAF data quality analysis using 2023 data can be found in the document titled “Analysis of Data
+Quality in the Transformed Medicaid Statistical Information System Analytic Files for Identifying Medicaid Home and
+Community-Based Services and Institutional Long-Term Services and Supports, 2023,” available at
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+Mathematica® Inc.
+
+3
+
+who received institutional services continued to have much higher average expenditures ($54,462 per
+user) than people who received HCBS ($17,298 per user).
+Recent LTSS user and expenditure rebalancing ratios. Both the LTSS user and expenditure rebalancing
+ratios increased between 2019 and 2023 (Figure 1). From 2022 to 2023, HCBS users as a percentage of
+total Medicaid LTSS users grew from 86.6 to 87.1 percent. HCBS expenditures as a percentage of total
+Medicaid LTSS expenditures fell from 64.6 to 63.8 percent during those years.
+
+Figure 1. National user and expenditure rebalancing ratios for Medicaid LTSS, 2019–2023
+
+Source: Mathematica’s analysis of the 2023 TAF Release 1. We obtained data for 2022 from Murray, Caitlin, Cara Stepanczuk,
+Alexandra Carpenter, and Andrea Wysocki. “Trends in Users and Expenditures for Home and Community-Based Services as
+a Share of Total Medicaid LTSS Users and Expenditures, 2022.” Mathematica, August 29, 2024. We obtained data for 20192021 from Wysocki, Andrea, Caitlin Murray, Aparna Kachalia, Alexandra Carpenter, and Cara Stepanczuk, “Trends in the Use
+of and Spending for Home and Community-Based Services as a Share of Total LTSS Use and Spending in Medicaid, 2019–
+2021.” Mathematica, July 24, 2024.
+Note:
+
+The LTSS user rebalancing ratio is the total unduplicated number of HCBS users as a percentage of the total unduplicated
+number of LTSS users. The LTSS expenditure rebalancing ratio is calculated as the total HCBS expenditures as a percentage
+of total LTSS expenditures. Due to data quality concerns, national user and expenditure rebalancing ratio calculations for
+2021 exclude Alabama’s data.
+
+HCBS = home and community-based services; LTSS = long-term services and supports; TAF = Transformed Medicaid Statistical
+Information System Analytic File.
+
+Mathematica® Inc.
+
+4
+
+Historical LTSS expenditure rebalancing ratios. The proportion of total Medicaid LTSS expenditures
+spent on HCBS has increased over time, from 1.1 percent in 1981 to 63.8 percent in 2023 (Figure 2). 13 The
+rebalancing ratio decreased only four times in this period. Most recently, the proportion of total Medicaid
+LTSS expenditures spent on HCBS decreased from 64.6 percent in 2022 to 63.8 percent in 2023.
+Nationally, HCBS expenditures surpassed 50 percent of Medicaid LTSS expenditures in 2013 and have
+continued to account for the majority of Medicaid LTSS expenditures since that time. Growth in the share
+of Medicaid LTSS expenditures spent on HCBS has varied over time, but on average it has grown 1.5
+percentage points each year between 1981 and 2023.
+
+Figure 2. National Medicaid HCBS and institutional LTSS expenditures as a percentage of total
+Medicaid LTSS expenditures, 1981–2023
+
+Source: Mathematica’s analysis of the 2023 TAF Release 1. We obtained data for 2022 from Murray, Caitlin, Cara Stepanczuk,
+Alexandra Carpenter, and Andrea Wysocki. “Trends in Users and Expenditures for Home and Community-Based Services as
+a Share of Total Medicaid LTSS Users and Expenditures, 2022.” Mathematica, August 29, 2024. We obtained data for CY
+2019-2021 from Wysocki, Andrea, Caitlin Murray, Aparna Kachalia, Alexandra Carpenter, and Cara Stepanczuk, “Trends in
+the Use of and Spending for Home and Community-Based Services as a Share of Total LTSS Use and Spending in Medicaid,
+13 Due to limitations with the data sources used to produce the Medicaid LTSS expenditure reports, we do not have
+
+similar historical LTSS user rebalancing ratios. LTSS user rebalancing ratios for 2010 through 2013, calculated using
+Medicaid Analytical eXtract (MAX) and Alpha-MAX data, and for 2019 through 2023, calculated using TAF data, are
+available at https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+Mathematica® Inc.
+
+5
+
+Note:
+
+2019–2021.” Mathematica, July 24, 2024. We obtained data for FY 2017 and 2018 from Murray, Caitlin, Alena Tourtellotte,
+Debra Lipson, and Andrea Wysocki, “Medicaid Long Term Services and Supports Annual Expenditures Report: Federal Fiscal
+Year 2019.” Mathematica, December 9, 2021. We obtained data for FY 2015 and 2016 from an unpublished version of the
+FY 2017 LTSS Expenditure Report. We obtained data for FY 1981 to 2014 from Wenzlow, Audra, Steve Eiken, and Kate Sredl,
+“Improving the Balance: The Evolution of Medicaid Expenditures for Long-Term Services and Supports (LTSS), FY 1981–
+2014.” Truven Health Analytics, June 3, 2016.
+
+The LTSS expenditure rebalancing ratio is calculated as the total HCBS expenditures as a percentage of total LTSS
+expenditures. The dotted yellow line indicates that the data source changed between 2018 and 2019. LTSS expenditure
+data for FY 1981 through 2018 come primarily from Medicaid CMS-64 expenditure reports and LTSS expenditure data for
+CY 2019 through 2023 come solely from TAF. Further details about the data limitations, methods, and the change in data
+sources are available at https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+CMS = Centers for Medicare & Medicaid Services; CY = calendar year; FY = fiscal year; HCBS = home and community-based services;
+LTSS = long-term services and supports; TAF = Transformed Medicaid Statistical Information System Analytic File.
+
+State Trends in Medicaid LTSS User and Expenditure Rebalancing
+Ratios
+LTSS user rebalancing ratio by state. In 2023, the user rebalancing ratio ranged from 55.8 percent in
+Kentucky to 99.4 percent in Oregon (Figure 3). In addition to Oregon, the states in the quartile with the
+highest percentage of HCBS users among total LTSS users in 2023 were Wisconsin (99.1 percent),
+Minnesota (94.0 percent), Hawaii (93.5 percent), New Mexico (93.4 percent), Ohio (93.3 percent), Alaska
+(93.2 percent), New York (93.1 percent), Colorado (91.0), Michigan (90.9 percent), Nevada (90.8 percent),
+West Virginia (90.8 percent), and Texas (90.3 percent). 14 In addition to Kentucky, the states in the bottom
+quartile with the lowest percentage of HCBS users among total LTSS users in 2023 were Mississippi (60.6
+percent), Oklahoma (63.4 percent), South Dakota (65.2 percent), Arkansas (65.4 percent), Louisiana (67.5
+percent), Tennessee (72.0 percent), Nebraska (72.2 percent), Indiana (72.3 percent), Utah (73.1 percent),
+Maine (73.3 percent), Florida (75.8 percent), and Missouri (77.0 percent).
+Most states (32) had similar user rebalancing ratios in 2022 and 2023. States with the largest increases in
+their ratios during those years were Maine (67.1 to 73.3 percent) and North Carolina (78.3 to 82.6 percent).
+States with the largest decreases in their ratios during those years were Tennessee (79.9 to 72.0 percent)
+and Pennsylvania (92.4 to 87.0 percent).
+
+14 For additional information regarding 2023 LTSS TAF data quality, refer to the document titled “Analysis of Data
+Quality in the Transformed Medicaid Statistical Information System Analytic Files for Identifying Medicaid Home and
+Community-Based Services and Institutional Long-Term Services and Supports, 2023.” As identified in the publication,
+five states in the top quartile for the user rebalancing ratios (Hawaii, Colorado, Ohio, Alaska, and New York) received
+high concern ratings for institutional LTSS or HCBS user data quality measures in 2023, which should be considered
+when interpreting the user rebalancing ratios for these states. Hawaii received a high concern for 2023 institutional
+LTSS fee-for-service (FFS) users. Colorado received a high concern rating for 2023 institutional LTSS managed care
+users. Ohio, Alaska, and New York each received a high concern rating for 2023 HCBS FFS users. Ohio and New York
+each received a high concern rating for 2023 HCBS managed care users. State data quality measure ratings should be
+referenced to support interpretation of findings in this brief.
+
+Mathematica® Inc.
+
+6
+
+Figure 3. State Medicaid HCBS users as a percentage of total Medicaid LTSS users, 2023
+
+Source: Mathematica’s analysis of the 2023 TAF Release 1.
+Note:
+
+The LTSS user rebalancing ratio is the total unduplicated number of HCBS users as a percentage of the total unduplicated
+number of LTSS users. We rounded the state percentages to one decimal place in the figure, but we grouped states into
+quartiles based on the unrounded values.
+
+HCBS = home and community-based services; LTSS = long-term services and supports; TAF = Transformed Medicaid Statistical
+Information System Analytic File.
+
+LTSS expenditure rebalancing ratio by state. In 2023, the expenditure rebalancing ratios showed
+greater variation across states than the user rebalancing ratios. The expenditure rebalancing ratios ranged
+from 35.8 percent in Arkansas to 94.8 percent in Wisconsin (Figure 4). In addition to Wisconsin, the states
+in the top quartile with the highest percentage of HCBS expenditures out of total LTSS expenditures in
+2023 were Minnesota (84.0 percent), Washington (82.7 percent), Colorado (81.2 percent), Oregon (80.5
+percent), New Mexico (77.4 percent), Idaho (77.3 percent), New York (76.6 percent), Arizona (73.9 percent),
+Florida (69.9 percent), Missouri (69.7 percent), Delaware (69.6 percent), and Maryland (69.5 percent). 15 In
+addition to Arkansas, the states in the bottom quartile with the lowest percentage of HCBS expenditures
+out of total LTSS expenditures in 2023 were Alabama (38.0 percent), Mississippi (38.2 percent), Louisiana
+(39.8 percent), West Virginia (40.8 percent), North Dakota (41.4 percent), North Carolina (41.8 percent),
+California (47.5 percent), Oklahoma (48.0 percent), Kentucky (48.4 percent), Illinois (49.4 percent), South
+Dakota (52.0 percent), and Tennessee (52.1 percent).
+15 Six states in the top quartile for the expenditure rebalancing ratios (Wisconsin, Florida, Colorado, Minnesota, New
+
+York, and Oregon) received high concern ratings for institutional LTSS or HCBS expenditure data quality measures in
+2023, which should be considered when interpreting the expenditure rebalancing ratios for these states. Wisconsin
+and Florida each received a high concern rating for 2023 institutional LTSS FFS expenditures. Colorado and Florida
+each received a high concern rating for 2023 institutional LTSS managed care expenditures. Minnesota and New York
+each received a high concern rating for 2023 HCBS FFS expenditures. Minnesota, Oregon, and New York each
+received a high concern rating for 2023 HCBS managed care expenditures. State data quality measure ratings should
+be referenced to support interpretation of findings in this brief.
+
+Mathematica® Inc.
+
+7
+
+Sixteen states had similar expenditure rebalancing ratios in 2022 and 2023. States with the largest
+increases in their expenditure rebalancing ratios during those years were Wisconsin (84.5 to 94.8 percent),
+and Indiana (48.8 to 52.8 percent). 16 States with the largest decreases in their expenditure rebalancing
+ratios during that time were Pennsylvania (75.4 to 65.1 percent) and West Virgina (46.7 to 40.8 percent). 17
+
+Figure 4. State Medicaid HCBS expenditures as a percentage of total Medicaid LTSS
+expenditures, 2023
+
+Source: Mathematica’s analysis of the 2023 TAF Release 1.
+Note:
+
+The LTSS expenditure rebalancing ratio is calculated as the total HCBS expenditures as a percentage of total LTSS
+expenditures. We rounded the state percentages to one decimal place in the figure, but we grouped states into quartiles
+based on the unrounded values.
+
+HCBS = home and community-based services; LTSS = long-term services and supports; TAF = Transformed Medicaid Statistical
+Information System Analytic File.
+
+Comparison of states’ LTSS user and expenditure rebalancing ratios. Several states had low values for
+both user and expenditure rebalancing ratios (Mississippi, Arkansas, Louisiana, Oklahoma, and Kentucky),
+whereas several other states had high values for both rebalancing ratios (Wisconsin, Minnesota, Oregon,
+
+16 Indiana received high concern ratings for both the HCBS FFS and HCBS managed care expenditure data quality
+
+measures in 2023. Wisconsin received a high concern rating for the institutional FFS expenditure data quality measure
+in 2023. Data quality measures are only available starting with 2023 data, so we do not have similar information about
+states with high concern ratings for 2022. When available, state data quality measure ratings should be referenced to
+support interpretation of findings in this brief.
+17 Pennsylvania received high concern ratings for both the HCBS FFS and HCBS managed care expenditure measures
+
+in 2023. Data quality measures are only available starting with 2023 data, so we do not have similar information about
+states with high concern ratings for 2022. State data quality measure ratings should be referenced to support
+interpretation of findings in this brief.
+
+Mathematica® Inc.
+
+8
+
+New Mexico, and Colorado) (Figure 5). 18 However, states with the highest user rebalancing ratios were not
+always the states with the highest expenditure rebalancing ratios, and vice versa. For example, Hawaii and
+West Virginia had low values for their expenditure rebalancing ratios and high values for their user
+rebalancing ratios, and Florida and Missouri had moderate values for their expenditure rebalancing ratios
+and low values for their user rebalancing ratios. 19 The expenditure and user rebalancing rankings could
+differ for many reasons, such as different drivers of costs across states and TAF data quality issues.
+Eleven states had a change of less than 1 percentage point in their user and expenditure rebalancing
+ratios between 2022 and 2023, suggesting stability in their user and expenditure ratios. Among the 40
+states in which either the user or expenditure rebalancing ratio changed by more than 1 percentage point
+during those years, 19 states had increases in both measures, seven states had decreases in both
+measures, and 14 states had user and expenditure rebalancing measures that moved in different
+directions (one positive, one negative). The relative magnitude of the changes over time was not always
+congruent; in most cases, the expenditure rebalancing ratio changed by more than the user rebalancing
+ratio did.
+
+18 Minnesota received a high concern rating for each of the four HCBS data quality measures in 2023; HCBS FFS users,
+
+HCBS managed care users, HCBS FFS expenditures, HCBS managed care users. Oregon received a high concern rating
+for 2023 HCBS managed care expenditures. Wisconsin received a high concern rating for 2023 institutional LTSS FFS
+expenditures. Colorado received high concern ratings for both 2023 institutional LTSS managed care users and 2023
+institutional LTSS managed care expenditures. State data quality measure ratings should be referenced to support
+interpretation of findings in this brief.
+
+19 Hawaii received high concern ratings for both institutional LTSS FFS users and expenditures data quality measures
+in 2023. Florida received high concern ratings for both 2023 institutional LTSS FFS expenditures and 2023 institutional
+LTSS managed care expenditures. State data quality measure ratings should be referenced to support interpretation
+of findings in this brief.
+
+Mathematica® Inc.
+
+9
+
+Figure 5. State rankings for the LTSS user and expenditure rebalancing ratios, 2023
+
+Source: Mathematica’s analysis of the 2023 TAF Release 1.
+Note:
+
+This figure compares the ranking of states in the LTSS user and expenditure rebalancing ratios. For each measure, the
+highest rank is 1 and the lowest rank is 51. States with higher ranks reflect a higher percentage of HCBS users or
+expenditures, which suggests more progress toward LTSS rebalancing. The diagonal line represents the point at which the
+ranking in the user rebalancing ratio equals the ranking in the expenditure rebalancing ratio. States closer to the diagonal
+line have more similar rankings in their LTSS rebalancing ratios, and states further from the diagonal line have more
+dissimilar rankings between the two measures. States in the lower left quadrant of the figure have high rankings on both
+LTSS rebalancing ratios, whereas states in the upper right quadrant of the figure have low rankings on both ratios.
+
+HCBS = home and community-based services; LTSS = long-term services and supports; TAF = Transformed Medicaid Statistical
+Information System Analytic File.
+
+National User and Expenditure Rebalancing Ratios for Medicaid LTSS
+by Demographic Characteristic
+In addition to overall rebalancing ratios, we assessed rebalancing ratios and tracked changes in
+rebalancing ratios for LTSS users with different demographic characteristics. We examined the expenditure
+and user rebalancing ratios by age, sex, dual-eligibility status, urban or rural residence, primary spoken
+language, and race and ethnicity.
+
+Mathematica® Inc.
+
+10
+
+LTSS user rebalancing ratio by demographic characteristic. In 2023, the user rebalancing ratios ranged
+from 66.6 for those ages 65 and older to 97.0 percent for those ages 0 to 20 (Table 1). 20 In addition to
+people ages 0 to 20, demographic groups with the highest user rebalancing ratios (above 90 percent)
+were people ages 21 to 44 (96.8 percent), those who were not dually eligible (93.3 percent), those who
+primarily spoke Spanish (95.2 percent) or a language other than English or Spanish (93.5 percent), those of
+any race who identified as Hispanic (93.8), those who identified as Asian and Pacific Islander, non-Hispanic
+(93.3 percent), and those who identified as multiracial, non-Hispanic (92.8 percent). Along with users ages
+65 and older (66.6 percent), people with full-benefit dual eligibility for most of the year (76.0 percent) had
+the lowest user rebalancing ratio (below 80 percent).
+Demographic groups with the largest increase in their user rebalancing ratio between 2022 and 2023
+included those with partial dual eligibility for most of the year (76.4 to 82.9 percent) and those who
+primarily spoke Spanish (94.1 to 95.2 percent) or a language other than English or Spanish (92.0 to 93.5
+percent). No demographic group had a decrease in their user rebalancing ratio from 2022 to 2023.
+LTSS expenditure rebalancing ratio by demographic characteristic. In 2023, the expenditure
+rebalancing ratios ranged from 46.7 percent for people ages 65 and older to 87.2 percent for people ages
+21 to 44 (Table 1). Besides those ages 21 to 44, demographic groups with the highest expenditure
+rebalancing ratios (above 79 percent) were those who primarily spoke a language other than English or
+Spanish (84.4 percent), those ages 0 to 20 (83.0 percent), and those who identified as Asian and Pacific
+Islander, non-Hispanic (80.0 percent). In addition to those ages 65 and older, demographic groups with
+the lowest expenditure rebalancing ratios (below 60 percent) were people living in a rural area (52.7
+percent), those with full- or partial-benefit dual eligibility for most of the year (58.7 and 59.5 percent,
+respectively), and those who identified as White, non-Hispanic (58.9 percent).
+Demographic groups with the largest increase in the expenditure rebalancing ratios between 2022 and
+2023 were those with partial-benefit dual eligibility for most of the year (58.2 to 59.5 percent), those who
+primarily spoke a language other than English or Spanish (83.6 to 84.4 percent), those who identified as
+American Indian and Alaska Native (67.6 to 68.2 percent). The demographic group with the largest
+decrease in the expenditure rebalancing ratio from 2022 to 2023 was people who identified as White,
+non-Hispanic (60.2 to 58.9 percent).
+Comparison across demographic characteristics for the LTSS user and expenditure rebalancing
+ratios. The patterns for individual demographic groups were generally similar for both the LTSS user and
+expenditure rebalancing ratios; that is, the demographic groups with the highest value for one ratio often
+also had the highest value for the other ratio. For example, people who were eligible only for Medicaid
+had a higher value than dually eligible individuals on both ratios in 2023. In 2023, both rebalancing ratios
+varied the most by age group: those ages 0 to 20 had the highest user rebalancing ratio, those ages 21 to
+44 had the highest expenditure rebalancing ratio, and those ages 65 and older had the lowest rebalancing
+ratios for both users and expenditures. There was less variation for other characteristics.
+
+20 For analyses from 2019 to 2022, the age breakouts included those ages 0 to 20, 21 to 64, and 65 and older. For
+
+2023, the age breakouts were updated to include those ages 0 to 20, 21 to 44, 45 to 64, and 65 and older. We are
+unable to describe trends in the ages 21 to 64 breakout because of the updated groups in 2023.
+
+Mathematica® Inc.
+
+11
+
+Table 1. LTSS user and expenditure rebalancing ratios by demographic characteristic, 2023
+Characteristic
+
+% of LTSS users using HCBS
+
+% of LTSS expenditures for HCBS
+
+0–20
+
+97.0
+
+83.0
+
+21–44
+
+96.8
+
+87.2
+
+45-64
+
+88.2
+
+66.2
+
+65 and older
+
+66.6
+
+46.7
+
+Female
+
+86.2
+
+61.4
+
+Male
+
+88.2
+
+66.6
+
+Non-dually eligible
+
+93.3
+
+73.9
+
+Full-benefit dually eligible
+
+76.0
+
+58.7
+
+Partial-benefit dually eligible
+
+82.9
+
+59.5
+
+Rural
+
+84.3
+
+52.7
+
+Urban
+
+87.9
+
+66.2
+
+English
+
+86.4
+
+62.3
+
+Spanish
+
+95.2
+
+79.7
+
+Any other language
+
+93.5
+
+84.4
+
+AIAN, non-Hispanic
+
+88.8
+
+68.2
+
+API, non-Hispanic
+
+93.3
+
+80.0
+
+Black, non-Hispanic
+
+88.3
+
+65.3
+
+Hispanic, any race
+
+93.8
+
+74.5
+
+Multiracial, non-Hispanic
+
+92.8
+
+68.1
+
+White, non-Hispanic
+
+83.3
+
+58.9
+
+Total
+
+Age groupa
+
+87.1
+
+63.8
+
+Sexa
+
+Dual-eligibility status
+
+Rural/urban residencea
+
+Primary language
+
+Race and ethnicitya
+
+Source: Mathematica’s analysis of the 2023 TAF Release 1.
+Note:
+
+The LTSS user rebalancing ratio is the total unduplicated number of HCBS users as a percentage of the total unduplicated
+number of LTSS users. The LTSS expenditure rebalancing ratio is calculated as the total HCBS expenditures as a percentage
+of total LTSS expenditures.
+
+a
+Unknown values for age group, sex, urban/rural residence, and race and ethnicity are not shown because their small sample sizes
+make their rebalancing ratios unreliable. Primary spoken language and dual-eligibility status do not have any unknown values.
+
+AIAN = American Indian and Alaska Native; API = Asian and Pacific Islander; HCBS = home and community-based services; LTSS =
+long-term services and supports; NA = not available; TAF = Transformed Medicaid Statistical Information System Analytic File.
+
+Mathematica® Inc.
+
+12
+
+National User and Expenditure Rebalancing Ratios for Medicaid LTSS
+among LTSS Subpopulations
+Starting with the 2022 TAF data, we developed TAF-based definitions 21 to approximate the LTSS
+subpopulations that appeared in historical LTSS expenditure reports: (1) older adults (ages 65 and older);
+(2) people under age 65 with potentially disabling conditions 22; (3) people with ASD/ID/DD; (4) people
+with MH/SUD; and (5) other people who use LTSS. We used characteristics including age, section 1915(c)
+waiver programs enrollment, chronic condition indicators, and service use to classify LTSS users in our
+sample into the first four subpopulations. These four subpopulations are not mutually exclusive, as we
+allow LTSS users to be classified in all subpopulations for which they qualify. The fifth LTSS
+subpopulation—other people who use LTSS—comprises LTSS users in our sample who do not meet the
+criteria of any of the other four subpopulations.
+LTSS user rebalancing ratio by LTSS subpopulation. In 2023, people who were not part of any of the
+four main LTSS subpopulations had the highest user rebalancing ratio (98.7 percent), and older adults had
+the lowest user rebalancing ratio (66.6 percent). People with ASD/ID/DD had the second-highest user
+rebalancing ratio (94.7 percent), followed by people under age 65 with potentially disabling conditions
+(84.0 percent), and people with MH/SUD (82.6 percent). The user rebalancing ratio was similar between
+2022 and 2023 for each LTSS subpopulation group. The LTSS subpopulation with the largest change
+between 2022 and 2023 was older adults (64.9 percent to 66.6 percent).
+LTSS expenditure rebalancing ratio by LTSS subpopulation. In 2023, people who were not part of any
+of the four main LTSS subpopulations had the highest expenditure rebalancing ratio (86.6 percent), and
+older adults had the lowest expenditure rebalancing ratio (46.7 percent). People with ASD/ID/DD had the
+second-highest expenditure rebalancing ratio (82.2 percent), followed by people under age 65 with
+potentially disabling conditions (66.7 percent), and people with MH/SUD (54.4 percent).
+Comparison across LTSS subpopulations for the LTSS user and expenditure rebalancing ratios. The
+LTSS subpopulations had consistent patterns across both the LTSS user and expenditure rebalancing
+ratios. People who were not part of any of the four main LTSS subpopulations and people with
+ASD/ID/DD had higher rebalancing ratios compared with the other subpopulations we analyzed. Older
+adults, people with MH/SUD, and people under age 65 with potentially disabling conditions had relatively
+lower rebalancing ratios.
+
+21 For more information about the definition of each LTSS subpopulation, refer to the document titled “Methodology
+
+for Identifying Medicaid Long-Term Services and Supports Expenditures and Users, 2023,” available at
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+22 Historical LTSS expenditure reports included a subpopulation that combined older adults and people with physical
+or other disabilities, for a total of four subpopulations. Based on feedback from interested parties for the new TAFbased definitions, we created one subpopulation for older adults (ages 65 and older) and one subpopulation for
+people under age 65 with potentially disabling conditions, resulting in five subpopulations.
+
+Mathematica® Inc.
+
+13
+
+Table 2. LTSS user and expenditure rebalancing ratios by LTSS subpopulation, 2023
+Characteristic
+
+% of LTSS users using HCBS
+
+% of LTSS expenditures for HCBS
+
+Older adults (ages 65 and older)
+
+66.6
+
+46.7
+
+People under age 65 with potentially
+disabling conditions
+
+84.0
+
+66.7
+
+People with ASD/ID/DD
+
+94.7
+
+82.2
+
+People with MH/SUD
+
+82.6
+
+54.4
+
+Other people who use LTSSa
+
+98.7
+
+86.6
+
+Total
+
+LTSS subpopulation
+
+87.1
+
+63.8
+
+Source: Mathematica’s analysis of the 2023 TAF Release 1.
+Note:
+
+a
+
+The LTSS user rebalancing ratio is the total unduplicated number of HCBS users as a percentage of the total unduplicated
+number of LTSS users. The LTSS expenditure rebalancing ratio is calculated as the total HCBS expenditures as a percentage
+of total LTSS expenditures.
+
+This subpopulation includes people who were not part of any of the four main LTSS subpopulations.
+
+ASD = autism spectrum disorder; DD = developmental disabilities; HCBS = home and community-based services; ID = intellectual
+disabilities; LTSS = long-term services and supports; MH = mental health conditions; SUD = substance use disorders; TAF =
+Transformed Medicaid Statistical Information System Analytic File.
+
+Conclusions
+The share of total Medicaid LTSS users receiving HCBS grew modestly from 2022 to 2023, reaching an alltime high in 2023, as states continued to focus on LTSS rebalancing initiatives to serve more people in
+their homes and communities and reduce use of institutional services. The share of total Medicaid LTSS
+spending devoted to HCBS decreased slightly from 2022 to 2023. Most states had similar user rebalancing
+ratios and slightly higher expenditure rebalancing ratios in 2023 compared to 2022. Expenditure
+rebalancing ratios showed greater variation across states than user rebalancing ratios. Among users’
+demographic characteristics, both rebalancing ratios varied the most by age group: people ages 0 to 20
+had the highest user rebalancing ratio, people ages 21 to 44 had the highest expenditure rebalancing
+ratio, and those ages 65 and older had the lowest rebalancing ratio for both users and expenditures.
+There was less variation for other characteristics. Among the LTSS subpopulations, people who were not
+part of one of the four main subpopulations and people with ASD/ID/DD had the highest user and
+expenditure rebalancing ratios, whereas older adults and people with MH/SUD had the lowest user and
+expenditure rebalancing ratios.
+
+Mathematica® Inc.
+
+14
+
+Methods
+This brief contains a snapshot of LTSS user and expenditure output, focusing on trends in HCBS users and
+expenditures as a percentage of total Medicaid LTSS users and expenditures. All LTSS user and expenditure
+calculations are based on TAF data. For these analyses, institutional LTSS include nursing facilities, intermediate
+care facilities for individuals with intellectual disabilities, and mental health facilities. Hospitals are not included in
+the definition of institutional LTSS, although these are Medicaid facilities. For expenditures only, institutional LTSS
+also include DSH payments to mental health facilities. HCBS include section 1915(c) waiver programs, section
+1915(i) state plan HCBS benefit, section 1915(j) self-directed PAS option, section 1915(k) Community First Choice
+option, the Program of All-Inclusive Care for the Elderly (PACE), and the following section 1905(a) state plan
+benefits: personal care services, home health services, rehabilitative services, case management services, and
+private duty nursing services. We reported MFP demonstration services as an individual category in accompanying
+table output but did not include these services in the aggregate calculations of total HCBS or total LTSS
+expenditures or users. Except for PACE expenditures and DSH payments to mental health facilities, LTSS
+expenditures include fee-for-service (FFS) expenditures, managed care plan payments to providers for managed
+care services, and supplemental wraparound payments that are associated with a specific beneficiary above the
+negotiated per-service rate; these add-on payments are distinct from supplemental payments made under the
+Upper Payment Limit (UPL) demonstration. We assigned these expenditures to a specific LTSS category based on
+relevant codes found on TAF claims, including type of service, benefit type, program type, and waiver type. For
+PACE expenditures, we used capitation payment records and service-tracking claims. For DSH payments to mental
+health facilities, we used service-tracking claims and supplemental payment records (to account for the rare case
+that DSH payments appear there). Except for PACE, we identified LTSS users for each LTSS category using FFS
+claims and managed care encounters, based on the same codes used to identify claims for the expenditure
+calculations. For PACE user counts, we identified enrollees based on enrollment records. Except for dual-eligibility
+status, which is based on the majority of enrolled months, we based the characteristics of enrollees on the most
+recent valid values in the calendar year. To define subpopulations (older adults (ages 65 and older); people under
+age 65 with potentially disabling conditions; people with ASD/ID/DD; people with MH/SUD; other people who use
+LTSS), we used individual-level characteristics including age, section 1915(c) waiver programs enrollment, chronic
+condition indicators, and service use to classify LTSS users in our sample into the first four subpopulations. These
+four subpopulations are not mutually exclusive, as we allow LTSS users to be classified in all subpopulations for
+which they qualify. The fifth LTSS subpopulation—other people who use LTSS—comprises LTSS users in our sample
+who do not meet the criteria of any of the other four subpopulations. To support our understanding of states’ TAF
+data quality, we created LTSS TAF data quality measures to identify potential data quality issues that may affect
+states’ LTSS expenditure and user results. There are separate FFS and managed care measures covering the
+following topics: institutional LTSS users, institutional LTSS expenditures, HCBS users, and HCBS expenditures.
+For more information, refer to the following resources:
+•
+
+More information on data and methods, including a description of the LTSS TAF data quality summary
+measures, can be found in the document titled “Methodology for Identifying Medicaid Long-Term Services and
+Supports Expenditures and Users, 2023,” available at
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+•
+
+Details on the LTSS TAF data quality analysis using 2023 data can be found in the document titled “Analysis of
+Data Quality in the Transformed Medicaid Statistical Information System Analytic Files for Identifying Medicaid
+Home and Community-Based Services and Institutional Long-Term Services and Supports, 2023,” available at
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+•
+
+State data and anomaly notes and LTSS TAF data quality measure results are included in the document titled
+“Data Notes for Medicaid Transformed Medicaid Statistical Information System Analytic File Long-Term Services
+and Supports Annual Expenditures and Users, 2023,” available at
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+Mathematica® Inc.
+
+15
+
+•
+
+Data tables for this brief, titled “Part B.1: Medicaid Long-Term Services and Supports User Rebalancing Measure
+for Calendar Year 2023” and “Part B.2: Medicaid Long-Term Services and Supports Expenditure Rebalancing
+Measure for Calendar Year 2023,” are available at
+https://www.medicaid.gov/medicaid/long-term-services-supports/reports-evaluations/index.html.
+
+Acknowledgments
+This research brief was prepared by Mathematica under contract with the Centers for Medicare &
+Medicaid Services (75FCMC19D0091/75FCMC24F0194). The authors thank the Medicaid Benefits and
+Health Programs Group within the Centers for Medicare & Medicaid Services for its guidance and
+feedback. At Mathematica, we thank Miaomiao Shen, Aparna Kachalia, Christina Alva, Rachel Hildrich
+Gross, and Kerianne Hourihan for programming support.
+
+Suggested citation: Carpenter, Alexandra, Cara Stepanczuk, Caitlin Murray, and Andrea
+Wysocki. “Trends in Users and Expenditures for Home and Community-Based Services as a
+Share of Total Medicaid Long-Term Services and Supports Users and Expenditures, 2023.”
+Mathematica, October 17, 2025.
+
+Mathematica® Inc.
+
+16
+
+
