@@ -2793,6 +2793,8 @@
     "claims_before_use_bn": 5711.526,
     "cost_sharing_bn": 188.866,
     "ltc_bn": 0.0,
+    "medicaid_ltc_kept_bn": 0.0,
+    "medicaid_ltc_kept_federal_bn": 0.0,
     "new_use_bn": 498.328,
     "newly_covered_millions": 33.648,
     "plan_gross_bn": 6697.369,
@@ -3067,6 +3069,8 @@
     "claims_before_use_bn": 6066.173,
     "cost_sharing_bn": 0.0,
     "ltc_bn": 200.0,
+    "medicaid_ltc_kept_bn": 0.0,
+    "medicaid_ltc_kept_federal_bn": 0.0,
     "new_use_bn": 537.092,
     "newly_covered_millions": 33.648,
     "plan_gross_bn": 7431.117,
@@ -3341,6 +3345,8 @@
     "claims_before_use_bn": 5356.879,
     "cost_sharing_bn": 177.139,
     "ltc_bn": 0.0,
+    "medicaid_ltc_kept_bn": 0.0,
+    "medicaid_ltc_kept_federal_bn": 0.0,
     "new_use_bn": 467.385,
     "newly_covered_millions": 33.648,
     "plan_gross_bn": 6281.508,
@@ -3615,6 +3621,8 @@
     "claims_before_use_bn": 5703.636,
     "cost_sharing_bn": 0.0,
     "ltc_bn": 200.0,
+    "medicaid_ltc_kept_bn": 0.0,
+    "medicaid_ltc_kept_federal_bn": 0.0,
     "new_use_bn": 504.994,
     "newly_covered_millions": 33.648,
     "plan_gross_bn": 6926.04,
@@ -4876,7 +4884,7 @@
  "run_log": {
   "as_of": "2026-11-10",
   "evidence_register": "dossiers/care/evidence.json (EV-CAR-020 to 061, 120-121, 131, 135, 206-209, 217-229, 236-237, 243, 263)",
-  "inputs_csv_sha256": "02448551c022",
+  "inputs_csv_sha256": "71db5175ffbc",
   "model_version": "0.1.0",
   "scenarios_csv_sha256": "92cf583c7b79"
  },
@@ -4987,7 +4995,7 @@
      "unins": 21.36
     }
    },
-   "n_ranged_inputs": 88,
+   "n_ranged_inputs": 89,
    "tornado": [
     {
      "fed_at_high": 285.727,
@@ -5079,7 +5087,7 @@
      "unins": 26.7
     }
    },
-   "n_ranged_inputs": 88,
+   "n_ranged_inputs": 89,
    "tornado": [
     {
      "fed_at_high": 249.943,
@@ -5171,7 +5179,7 @@
      "unins": 10.656
     }
    },
-   "n_ranged_inputs": 85,
+   "n_ranged_inputs": 86,
    "tornado": [
     {
      "fed_at_high": 3619.235,
@@ -5263,7 +5271,7 @@
      "unins": 10.656
     }
    },
-   "n_ranged_inputs": 88,
+   "n_ranged_inputs": 89,
    "tornado": [
     {
      "fed_at_high": 4892.871,
@@ -5355,7 +5363,7 @@
      "unins": 20.933
     }
    },
-   "n_ranged_inputs": 88,
+   "n_ranged_inputs": 89,
    "tornado": [
     {
      "fed_at_high": 293.393,
@@ -5447,7 +5455,7 @@
      "unins": 20.506
     }
    },
-   "n_ranged_inputs": 88,
+   "n_ranged_inputs": 89,
    "tornado": [
     {
      "fed_at_high": 295.651,
@@ -5539,7 +5547,7 @@
      "unins": 18.898
     }
    },
-   "n_ranged_inputs": 88,
+   "n_ranged_inputs": 89,
    "tornado": [
     {
      "fed_at_high": 289.386,

@@ -36,7 +36,7 @@ Section 1, part 8: the enhanced credits expired and were not extended; the 2025 
 
 - These are exploratory. The model's CBO-like single-payer variant, about $3.44 trillion in 2032, is above the high end of CBO's 2020 range grown to 2032 (about $3.32 trillion), so its single-payer figures read high. More generally the model runs high against that range (its card explains why) and misses CBO's cost of permanent enhanced credits; both are reported, not tuned away.
 - Single-payer's federal cost replaces about $1.7 trillion of household premiums and out-of-pocket costs and about $1.5 trillion of employer premiums in 2032. Who pays the new taxes is the financing settlement's decision, under D3.
-- FY2040 permanent cost (`DEC-2026-11-10-05`): section 6 reports about $4.7 trillion ($4,680 billion) for the decided design before the employer contribution. The $5.5 trillion given at the memo stage was the model's project-central variant, which adds long-term care and has no cost sharing; the public option's was about $0.4 trillion.
+- FY2040 permanent cost (`DEC-2026-11-10-05`): section 6 reports about $4.2 trillion ($4,157 billion) for the decided design before the employer contribution, with Medicaid's long-term care kept in Medicaid (HLT-7.07; board row D-4c). The $5.5 trillion given at the memo stage was the model's project-central variant, which adds long-term care and has no cost sharing; the public option's was about $0.4 trillion.
 
 ## Recommended without a memo: seven yes-or-no points
 

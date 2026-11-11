@@ -82,7 +82,7 @@ mixed,2031,HLT-1,0,21.5,21.5
 mixed,2031,HLT-2,0,40.5,40.5
 mixed,2031,HLT-4,0,37.058,37.058
 mixed,2031,HLT-6,0,-57.22,-57.22
-mixed,2031,HLT-7,0,707.446,707.446
+mixed,2031,HLT-7,0,651.168,651.168
 mixed,2031,HLT-8,0,0.369,0.369
 mixed,2031,FAM-1,0,175.298,175.298
 mixed,2031,FAM-2,0,22.434,22.434
@@ -163,7 +163,7 @@ mixed,2031,delivery_contingency,0,5.016838999005365,5.016838999005365
 mixed,2032,HLT-2,0,78.0,78.0
 mixed,2032,HLT-4,0,56.876,56.876
 mixed,2032,HLT-6,0,-70.136,-70.136
-mixed,2032,HLT-7,0,977.249,977.249
+mixed,2032,HLT-7,0,903.717,903.717
 mixed,2032,HLT-8,0,0.377,0.377
 mixed,2032,FAM-1,0,179.26,179.26
 mixed,2032,FAM-2,0,34.921,34.921
@@ -245,7 +245,7 @@ mixed,2032,delivery_contingency,0,7.809049435113141,7.809049435113141
 mixed,2033,HLT-2,0,113.0,113.0
 mixed,2033,HLT-4,0,56.129,56.129
 mixed,2033,HLT-6,0,-75.542,-75.542
-mixed,2033,HLT-7,0,1593.864,1593.864
+mixed,2033,HLT-7,0,1431.905,1431.905
 mixed,2033,HLT-8,0,0.386,0.386
 mixed,2033,FAM-1,0,183.311,183.311
 mixed,2033,FAM-2,0,48.317,48.317
@@ -330,7 +330,7 @@ mixed,2033,New indexed income contributions,68.81617351381303,0,-68.816173513813
 mixed,2034,HLT-2,0,133.25,133.25
 mixed,2034,HLT-4,0,53.998,53.998
 mixed,2034,HLT-6,0,-81.399,-81.399
-mixed,2034,HLT-7,0,2446.732,2446.732
+mixed,2034,HLT-7,0,2165.433,2165.433
 mixed,2034,HLT-8,0,0.395,0.395
 mixed,2034,FAM-1,0,187.454,187.454
 mixed,2034,FAM-2,0,62.676,62.676
@@ -415,7 +415,7 @@ mixed,2034,New indexed income contributions,142.82666666666668,0,-142.8266666666
 mixed,2035,HLT-2,0,34.25,34.25
 mixed,2035,HLT-4,0,51.672,51.672
 mixed,2035,HLT-6,0,-20.725,-20.725
-mixed,2035,HLT-7,0,4062.827,4062.827
+mixed,2035,HLT-7,0,3653.628,3653.628
 mixed,2035,HLT-8,0,0.404,0.404
 mixed,2035,FAM-1,0,191.691,191.691
 mixed,2035,FAM-2,0,78.052,78.052
@@ -499,7 +499,7 @@ mixed,2035,participation,0,11.636132853271599,11.636132853271599
 mixed,2035,delivery_contingency,0,11.636132853271599,11.636132853271599
 mixed,2035,New indexed income contributions,252.28598460343113,0,-252.28598460343113
 mixed,2036,HLT-4,0,52.758,52.758
-mixed,2036,HLT-7,0,4650.612,4650.612
+mixed,2036,HLT-7,0,4221.646,4221.646
 mixed,2036,HLT-8,0,0.413,0.413
 mixed,2036,FAM-1,0,196.023,196.023
 mixed,2036,FAM-2,0,81.001,81.001
@@ -582,7 +582,7 @@ mixed,2036,participation,0,12.075762892934211,12.075762892934211
 mixed,2036,delivery_contingency,0,12.075762892934211,12.075762892934211
 mixed,2036,New indexed income contributions,292.903616114061,0,-292.903616114061
 mixed,2037,HLT-4,0,54.901,54.901
-mixed,2037,HLT-7,0,4886.594,4886.594
+mixed,2037,HLT-7,0,4443.885,4443.885
 mixed,2037,HLT-8,0,0.422,0.422
 mixed,2037,FAM-1,0,200.532,200.532
 mixed,2037,FAM-2,0,84.055,84.055
@@ -662,7 +662,7 @@ mixed,2037,participation,0,12.530981366909218,12.530981366909218
 mixed,2037,delivery_contingency,0,12.530981366909218,12.530981366909218
 mixed,2037,New indexed income contributions,336.20290676522194,0,-336.20290676522194
 mixed,2038,HLT-4,0,57.25,57.25
-mixed,2038,HLT-7,0,5157.547,5157.547
+mixed,2038,HLT-7,0,4689.764,4689.764
 mixed,2038,HLT-8,0,0.432,0.432
 mixed,2038,FAM-1,0,205.144,205.144
 mixed,2038,FAM-2,0,87.226,87.226
@@ -742,7 +742,7 @@ mixed,2038,participation,0,13.003804689585284,13.003804689585284
 mixed,2038,delivery_contingency,0,13.003804689585284,13.003804689585284
 mixed,2038,New indexed income contributions,382.36353221913026,0,-382.36353221913026
 mixed,2039,HLT-4,0,59.718,59.718
-mixed,2039,HLT-7,0,5439.129,5439.129
+mixed,2039,HLT-7,0,4944.854,4944.854
 mixed,2039,HLT-8,0,0.442,0.442
 mixed,2039,FAM-1,0,209.862,209.862
 mixed,2039,FAM-2,0,90.511,90.511
@@ -822,7 +822,7 @@ mixed,2039,participation,0,13.49343146550025,13.49343146550025
 mixed,2039,delivery_contingency,0,13.49343146550025,13.49343146550025
 mixed,2039,New indexed income contributions,431.49582254520647,0,-431.49582254520647
 mixed,2040,HLT-4,0,62.273,62.273
-mixed,2040,HLT-7,0,5745.188,5745.188
+mixed,2040,HLT-7,0,5222.808,5222.808
 mixed,2040,HLT-8,0,0.452,0.452
 mixed,2040,FAM-1,0,214.689,214.689
 mixed,2040,FAM-2,0,93.928,93.928
@@ -899,7 +899,7 @@ mixed,2040,participation,0,14.002963870636675,14.002963870636675
 mixed,2040,delivery_contingency,0,14.002963870636675,14.002963870636675
 mixed,2040,New indexed income contributions,483.8367338431708,0,-483.8367338431708
 mixed,2041,HLT-4,0,64.939,64.939
-mixed,2041,HLT-7,0,6075.806,6075.806
+mixed,2041,HLT-7,0,5523.333,5523.333
 mixed,2041,HLT-8,0,0.462,0.462
 mixed,2041,FAM-1,0,219.627,219.627
 mixed,2041,FAM-2,0,97.481,97.481
@@ -976,7 +976,7 @@ mixed,2041,participation,0,14.532660419659782,14.532660419659782
 mixed,2041,delivery_contingency,0,14.532660419659782,14.532660419659782
 mixed,2041,New indexed income contributions,539.5495894478861,0,-539.5495894478861
 mixed,2042,HLT-4,0,67.698,67.698
-mixed,2042,HLT-7,0,6411.843,6411.843
+mixed,2042,HLT-7,0,5828.786,5828.786
 mixed,2042,HLT-8,0,0.473,0.473
 mixed,2042,FAM-1,0,224.678,224.678
 mixed,2042,FAM-2,0,101.139,101.139
@@ -1052,7 +1052,7 @@ mixed,2042,participation,0,15.077867848595714,15.077867848595714
 mixed,2042,delivery_contingency,0,15.077867848595714,15.077867848595714
 mixed,2042,New indexed income contributions,598.6053724295822,0,-598.6053724295822
 mixed,2043,HLT-4,0,70.567,70.567
-mixed,2043,HLT-7,0,6754.278,6754.278
+mixed,2043,HLT-7,0,6140.057,6140.057
 mixed,2043,HLT-8,0,0.484,0.484
 mixed,2043,FAM-1,0,229.846,229.846
 mixed,2043,FAM-2,0,104.926,104.926
@@ -1128,7 +1128,7 @@ mixed,2043,participation,0,15.642463877422685,15.642463877422685
 mixed,2043,delivery_contingency,0,15.642463877422685,15.642463877422685
 mixed,2043,New indexed income contributions,661.2878001904397,0,-661.2878001904397
 mixed,2044,HLT-4,0,73.489,73.489
-mixed,2044,HLT-7,0,7105.204,7105.204
+mixed,2044,HLT-7,0,6459.045,6459.045
 mixed,2044,HLT-8,0,0.495,0.495
 mixed,2044,FAM-1,0,235.132,235.132
 mixed,2044,FAM-2,0,108.841,108.841
@@ -1204,7 +1204,7 @@ mixed,2044,participation,0,16.22618999147548,16.22618999147548
 mixed,2044,delivery_contingency,0,16.22618999147548,16.22618999147548
 mixed,2044,New indexed income contributions,727.7350111704667,0,-727.7350111704667
 mixed,2045,HLT-4,0,76.444,76.444
-mixed,2045,HLT-7,0,7464.198,7464.198
+mixed,2045,HLT-7,0,6785.366,6785.366
 mixed,2045,HLT-8,0,0.506,0.506
 mixed,2045,FAM-1,0,240.54,240.54
 mixed,2045,FAM-2,0,112.862,112.862
@@ -1280,7 +1280,7 @@ mixed,2045,participation,0,16.825685500106314,16.825685500106314
 mixed,2045,delivery_contingency,0,16.825685500106314,16.825685500106314
 mixed,2045,New indexed income contributions,754.6220296818549,0,-754.6220296818549
 mixed,2046,HLT-4,0,79.48,79.48
-mixed,2046,HLT-7,0,7836.34,7836.34
+mixed,2046,HLT-7,0,7123.638,7123.638
 mixed,2046,HLT-8,0,0.518,0.518
 mixed,2046,FAM-1,0,246.073,246.073
 mixed,2046,FAM-2,0,116.977,116.977
@@ -1356,7 +1356,7 @@ mixed,2046,participation,0,17.439140800658695,17.439140800658695
 mixed,2046,delivery_contingency,0,17.439140800658695,17.439140800658695
 mixed,2046,New indexed income contributions,782.1351365932499,0,-782.1351365932499
 mixed,2047,HLT-4,0,82.686,82.686
-mixed,2047,HLT-7,0,8209.804,8209.804
+mixed,2047,HLT-7,0,7463.116,7463.116
 mixed,2047,HLT-8,0,0.53,0.53
 mixed,2047,FAM-1,0,251.732,251.732
 mixed,2047,FAM-2,0,121.222,121.222
@@ -1432,7 +1432,7 @@ mixed,2047,participation,0,18.07198470110211,18.07198470110211
 mixed,2047,delivery_contingency,0,18.07198470110211,18.07198470110211
 mixed,2047,New indexed income contributions,810.5178107268758,0,-810.5178107268758
 mixed,2048,HLT-4,0,85.904,85.904
-mixed,2048,HLT-7,0,8600.052,8600.052
+mixed,2048,HLT-7,0,7817.847,7817.847
 mixed,2048,HLT-8,0,0.542,0.542
 mixed,2048,FAM-1,0,257.522,257.522
 mixed,2048,FAM-2,0,125.597,125.597
@@ -1508,7 +1508,7 @@ mixed,2048,participation,0,18.724217201436563,18.724217201436563
 mixed,2048,delivery_contingency,0,18.724217201436563,18.724217201436563
 mixed,2048,New indexed income contributions,839.7700520827328,0,-839.7700520827328
 mixed,2049,HLT-4,0,89.302,89.302
-mixed,2049,HLT-7,0,9001.262,9001.262
+mixed,2049,HLT-7,0,8182.545,8182.545
 mixed,2049,HLT-8,0,0.555,0.555
 mixed,2049,FAM-1,0,263.445,263.445
 mixed,2049,FAM-2,0,130.111,130.111
@@ -1584,7 +1584,7 @@ mixed,2049,participation,0,19.397130874988125,19.397130874988125
 mixed,2049,delivery_contingency,0,19.397130874988125,19.397130874988125
 mixed,2049,New indexed income contributions,869.94983180897,0,-869.94983180897
 mixed,2050,HLT-4,0,92.776,92.776
-mixed,2050,HLT-7,0,9407.153,9407.153
+mixed,2050,HLT-7,0,8551.499,8551.499
 mixed,2050,HLT-8,0,0.567,0.567
 mixed,2050,FAM-1,0,269.504,269.504
 mixed,2050,FAM-2,0,134.755,134.755
@@ -1660,7 +1660,7 @@ mixed,2050,participation,0,20.089433148430718,20.089433148430718
 mixed,2050,delivery_contingency,0,20.089433148430718,20.089433148430718
 mixed,2050,New indexed income contributions,900.9991787574384,0,-900.9991787574384
 mixed,2051,HLT-4,0,96.254,96.254
-mixed,2051,HLT-7,0,9832.332,9832.332
+mixed,2051,HLT-7,0,8937.98,8937.98
 mixed,2051,HLT-8,0,0.58,0.58
 mixed,2051,FAM-1,0,275.703,275.703
 mixed,2051,FAM-2,0,139.537,139.537
@@ -1736,7 +1736,7 @@ mixed,2051,participation,0,20.802416595090417,20.802416595090417
 mixed,2051,delivery_contingency,0,20.802416595090417,20.802416595090417
 mixed,2051,New indexed income contributions,932.9760640762867,0,-932.9760640762867
 mixed,2052,HLT-4,0,99.964,99.964
-mixed,2052,HLT-7,0,10261.045,10261.045
+mixed,2052,HLT-7,0,9327.681,9327.681
 mixed,2052,HLT-8,0,0.594,0.594
 mixed,2052,FAM-1,0,282.044,282.044
 mixed,2052,FAM-2,0,144.471,144.471
@@ -1812,7 +1812,7 @@ mixed,2052,participation,0,21.537890817623715,21.537890817623715
 mixed,2052,delivery_contingency,0,21.537890817623715,21.537890817623715
 mixed,2052,New indexed income contributions,965.9616473729229,0,-965.9616473729229
 mixed,2053,HLT-4,0,103.73,103.73
-mixed,2053,HLT-7,0,10699.076,10699.076
+mixed,2053,HLT-7,0,9725.851,9725.851
 mixed,2053,HLT-8,0,0.607,0.607
 mixed,2053,FAM-1,0,288.531,288.531
 mixed,2053,FAM-2,0,149.569,149.569
@@ -1888,7 +1888,7 @@ mixed,2053,participation,0,22.297923933352333,22.297923933352333
 mixed,2053,delivery_contingency,0,22.297923933352333,22.297923933352333
 mixed,2053,New indexed income contributions,1000.0486824843855,0,-1000.0486824843855
 mixed,2054,HLT-4,0,107.63,107.63
-mixed,2054,HLT-7,0,11148.327,11148.327
+mixed,2054,HLT-7,0,10134.221,10134.221
 mixed,2054,HLT-8,0,0.621,0.621
 mixed,2054,FAM-1,0,295.167,295.167
 mixed,2054,FAM-2,0,154.837,154.837
@@ -1964,7 +1964,7 @@ mixed,2054,participation,0,23.0832914862719,23.0832914862719
 mixed,2054,delivery_contingency,0,23.0832914862719,23.0832914862719
 mixed,2054,New indexed income contributions,1035.2719520995636,0,-1035.2719520995636
 mixed,2055,HLT-4,0,111.759,111.759
-mixed,2055,HLT-7,0,11624.287,11624.287
+mixed,2055,HLT-7,0,10566.87,10566.87
 mixed,2055,HLT-8,0,0.636,0.636
 mixed,2055,FAM-1,0,301.956,301.956
 mixed,2055,FAM-2,0,160.287,160.287
@@ -2040,7 +2040,7 @@ mixed,2055,participation,0,23.89580307903892,23.89580307903892
 mixed,2055,delivery_contingency,0,23.89580307903892,23.89580307903892
 mixed,2055,New indexed income contributions,1071.7126158258652,0,-1071.7126158258652
 mixed,2056,HLT-4,0,115.959,115.959
-mixed,2056,HLT-7,0,12120.084,12120.084
+mixed,2056,HLT-7,0,11017.547,11017.547
 mixed,2056,HLT-8,0,0.65,0.65
 mixed,2056,FAM-1,0,308.901,308.901
 mixed,2056,FAM-2,0,165.931,165.931
@@ -2198,7 +2198,7 @@ larger_payroll,2031,HLT-1,0,21.5,21.5
 larger_payroll,2031,HLT-2,0,40.5,40.5
 larger_payroll,2031,HLT-4,0,37.058,37.058
 larger_payroll,2031,HLT-6,0,-57.22,-57.22
-larger_payroll,2031,HLT-7,0,707.446,707.446
+larger_payroll,2031,HLT-7,0,651.168,651.168
 larger_payroll,2031,HLT-8,0,0.369,0.369
 larger_payroll,2031,FAM-1,0,175.298,175.298
 larger_payroll,2031,FAM-2,0,22.434,22.434
@@ -2279,7 +2279,7 @@ larger_payroll,2031,delivery_contingency,0,5.016838999005365,5.016838999005365
 larger_payroll,2032,HLT-2,0,78.0,78.0
 larger_payroll,2032,HLT-4,0,56.876,56.876
 larger_payroll,2032,HLT-6,0,-70.136,-70.136
-larger_payroll,2032,HLT-7,0,977.249,977.249
+larger_payroll,2032,HLT-7,0,903.717,903.717
 larger_payroll,2032,HLT-8,0,0.377,0.377
 larger_payroll,2032,FAM-1,0,179.26,179.26
 larger_payroll,2032,FAM-2,0,34.921,34.921
@@ -2361,7 +2361,7 @@ larger_payroll,2032,delivery_contingency,0,7.809049435113141,7.809049435113141
 larger_payroll,2033,HLT-2,0,113.0,113.0
 larger_payroll,2033,HLT-4,0,56.129,56.129
 larger_payroll,2033,HLT-6,0,-75.542,-75.542
-larger_payroll,2033,HLT-7,0,1593.864,1593.864
+larger_payroll,2033,HLT-7,0,1431.905,1431.905
 larger_payroll,2033,HLT-8,0,0.386,0.386
 larger_payroll,2033,FAM-1,0,183.311,183.311
 larger_payroll,2033,FAM-2,0,48.317,48.317
@@ -2447,7 +2447,7 @@ larger_payroll,2033,delivery_contingency,0,10.804853095810058,10.804853095810058
 larger_payroll,2034,HLT-2,0,133.25,133.25
 larger_payroll,2034,HLT-4,0,53.998,53.998
 larger_payroll,2034,HLT-6,0,-81.399,-81.399
-larger_payroll,2034,HLT-7,0,2446.732,2446.732
+larger_payroll,2034,HLT-7,0,2165.433,2165.433
 larger_payroll,2034,HLT-8,0,0.395,0.395
 larger_payroll,2034,FAM-1,0,187.454,187.454
 larger_payroll,2034,FAM-2,0,62.676,62.676
@@ -2533,7 +2533,7 @@ larger_payroll,2034,delivery_contingency,0,11.21263412871833,11.21263412871833
 larger_payroll,2035,HLT-2,0,34.25,34.25
 larger_payroll,2035,HLT-4,0,51.672,51.672
 larger_payroll,2035,HLT-6,0,-20.725,-20.725
-larger_payroll,2035,HLT-7,0,4062.827,4062.827
+larger_payroll,2035,HLT-7,0,3653.628,3653.628
 larger_payroll,2035,HLT-8,0,0.404,0.404
 larger_payroll,2035,FAM-1,0,191.691,191.691
 larger_payroll,2035,FAM-2,0,78.052,78.052
@@ -2619,7 +2619,7 @@ larger_payroll,2035,participation,0,11.636132853271599,11.636132853271599
 larger_payroll,2035,delivery_contingency,0,11.636132853271599,11.636132853271599
 larger_payroll,2035,New indexed income contributions,29.954186930669334,0,-29.954186930669334
 larger_payroll,2036,HLT-4,0,52.758,52.758
-larger_payroll,2036,HLT-7,0,4650.612,4650.612
+larger_payroll,2036,HLT-7,0,4221.646,4221.646
 larger_payroll,2036,HLT-8,0,0.413,0.413
 larger_payroll,2036,FAM-1,0,196.023,196.023
 larger_payroll,2036,FAM-2,0,81.001,81.001
@@ -2703,7 +2703,7 @@ larger_payroll,2036,participation,0,12.075762892934211,12.075762892934211
 larger_payroll,2036,delivery_contingency,0,12.075762892934211,12.075762892934211
 larger_payroll,2036,New indexed income contributions,62.171799443436406,0,-62.171799443436406
 larger_payroll,2037,HLT-4,0,54.901,54.901
-larger_payroll,2037,HLT-7,0,4886.594,4886.594
+larger_payroll,2037,HLT-7,0,4443.885,4443.885
 larger_payroll,2037,HLT-8,0,0.422,0.422
 larger_payroll,2037,FAM-1,0,200.532,200.532
 larger_payroll,2037,FAM-2,0,84.055,84.055
@@ -2784,7 +2784,7 @@ larger_payroll,2037,participation,0,12.530981366909218,12.530981366909218
 larger_payroll,2037,delivery_contingency,0,12.530981366909218,12.530981366909218
 larger_payroll,2037,New indexed income contributions,96.77322260468998,0,-96.77322260468998
 larger_payroll,2038,HLT-4,0,57.25,57.25
-larger_payroll,2038,HLT-7,0,5157.547,5157.547
+larger_payroll,2038,HLT-7,0,4689.764,4689.764
 larger_payroll,2038,HLT-8,0,0.432,0.432
 larger_payroll,2038,FAM-1,0,205.144,205.144
 larger_payroll,2038,FAM-2,0,87.226,87.226
@@ -2865,7 +2865,7 @@ larger_payroll,2038,participation,0,13.003804689585284,13.003804689585284
 larger_payroll,2038,delivery_contingency,0,13.003804689585284,13.003804689585284
 larger_payroll,2038,New indexed income contributions,133.89960441100865,0,-133.89960441100865
 larger_payroll,2039,HLT-4,0,59.718,59.718
-larger_payroll,2039,HLT-7,0,5439.129,5439.129
+larger_payroll,2039,HLT-7,0,4944.854,4944.854
 larger_payroll,2039,HLT-8,0,0.442,0.442
 larger_payroll,2039,FAM-1,0,209.862,209.862
 larger_payroll,2039,FAM-2,0,90.511,90.511
@@ -2946,7 +2946,7 @@ larger_payroll,2039,participation,0,13.49343146550025,13.49343146550025
 larger_payroll,2039,delivery_contingency,0,13.49343146550025,13.49343146550025
 larger_payroll,2039,New indexed income contributions,173.6765872091817,0,-173.6765872091817
 larger_payroll,2040,HLT-4,0,62.273,62.273
-larger_payroll,2040,HLT-7,0,5745.188,5745.188
+larger_payroll,2040,HLT-7,0,5222.808,5222.808
 larger_payroll,2040,HLT-8,0,0.452,0.452
 larger_payroll,2040,FAM-1,0,214.689,214.689
 larger_payroll,2040,FAM-2,0,93.928,93.928
@@ -3024,7 +3024,7 @@ larger_payroll,2040,participation,0,14.002963870636675,14.002963870636675
 larger_payroll,2040,delivery_contingency,0,14.002963870636675,14.002963870636675
 larger_payroll,2040,New indexed income contributions,216.28185376717934,0,-216.28185376717934
 larger_payroll,2041,HLT-4,0,64.939,64.939
-larger_payroll,2041,HLT-7,0,6075.806,6075.806
+larger_payroll,2041,HLT-7,0,5523.333,5523.333
 larger_payroll,2041,HLT-8,0,0.462,0.462
 larger_payroll,2041,FAM-1,0,219.627,219.627
 larger_payroll,2041,FAM-2,0,97.481,97.481
@@ -3102,7 +3102,7 @@ larger_payroll,2041,participation,0,14.532660419659782,14.532660419659782
 larger_payroll,2041,delivery_contingency,0,14.532660419659782,14.532660419659782
 larger_payroll,2041,New indexed income contributions,261.87378797555175,0,-261.87378797555175
 larger_payroll,2042,HLT-4,0,67.698,67.698
-larger_payroll,2042,HLT-7,0,6411.843,6411.843
+larger_payroll,2042,HLT-7,0,5828.786,5828.786
 larger_payroll,2042,HLT-8,0,0.473,0.473
 larger_payroll,2042,FAM-1,0,224.678,224.678
 larger_payroll,2042,FAM-2,0,101.139,101.139
@@ -3179,7 +3179,7 @@ larger_payroll,2042,participation,0,15.077867848595714,15.077867848595714
 larger_payroll,2042,delivery_contingency,0,15.077867848595714,15.077867848595714
 larger_payroll,2042,New indexed income contributions,310.5122829021541,0,-310.5122829021541
 larger_payroll,2043,HLT-4,0,70.567,70.567
-larger_payroll,2043,HLT-7,0,6754.278,6754.278
+larger_payroll,2043,HLT-7,0,6140.057,6140.057
 larger_payroll,2043,HLT-8,0,0.484,0.484
 larger_payroll,2043,FAM-1,0,229.846,229.846
 larger_payroll,2043,FAM-2,0,104.926,104.926
@@ -3256,7 +3256,7 @@ larger_payroll,2043,participation,0,15.642463877422685,15.642463877422685
 larger_payroll,2043,delivery_contingency,0,15.642463877422685,15.642463877422685
 larger_payroll,2043,New indexed income contributions,362.4069642844792,0,-362.4069642844792
 larger_payroll,2044,HLT-4,0,73.489,73.489
-larger_payroll,2044,HLT-7,0,7105.204,7105.204
+larger_payroll,2044,HLT-7,0,6459.045,6459.045
 larger_payroll,2044,HLT-8,0,0.495,0.495
 larger_payroll,2044,FAM-1,0,235.132,235.132
 larger_payroll,2044,FAM-2,0,108.841,108.841
@@ -3333,7 +3333,7 @@ larger_payroll,2044,participation,0,16.22618999147548,16.22618999147548
 larger_payroll,2044,delivery_contingency,0,16.22618999147548,16.22618999147548
 larger_payroll,2044,New indexed income contributions,417.70091000684755,0,-417.70091000684755
 larger_payroll,2045,HLT-4,0,76.444,76.444
-larger_payroll,2045,HLT-7,0,7464.198,7464.198
+larger_payroll,2045,HLT-7,0,6785.366,6785.366
 larger_payroll,2045,HLT-8,0,0.506,0.506
 larger_payroll,2045,FAM-1,0,240.54,240.54
 larger_payroll,2045,FAM-2,0,112.862,112.862
@@ -3410,7 +3410,7 @@ larger_payroll,2045,participation,0,16.825685500106314,16.825685500106314
 larger_payroll,2045,delivery_contingency,0,16.825685500106314,16.825685500106314
 larger_payroll,2045,New indexed income contributions,433.13335715751396,0,-433.13335715751396
 larger_payroll,2046,HLT-4,0,79.48,79.48
-larger_payroll,2046,HLT-7,0,7836.34,7836.34
+larger_payroll,2046,HLT-7,0,7123.638,7123.638
 larger_payroll,2046,HLT-8,0,0.518,0.518
 larger_payroll,2046,FAM-1,0,246.073,246.073
 larger_payroll,2046,FAM-2,0,116.977,116.977
@@ -3487,7 +3487,7 @@ larger_payroll,2046,participation,0,17.439140800658695,17.439140800658695
 larger_payroll,2046,delivery_contingency,0,17.439140800658695,17.439140800658695
 larger_payroll,2046,New indexed income contributions,448.92516271531105,0,-448.92516271531105
 larger_payroll,2047,HLT-4,0,82.686,82.686
-larger_payroll,2047,HLT-7,0,8209.804,8209.804
+larger_payroll,2047,HLT-7,0,7463.116,7463.116
 larger_payroll,2047,HLT-8,0,0.53,0.53
 larger_payroll,2047,FAM-1,0,251.732,251.732
 larger_payroll,2047,FAM-2,0,121.222,121.222
@@ -3564,7 +3564,7 @@ larger_payroll,2047,participation,0,18.07198470110211,18.07198470110211
 larger_payroll,2047,delivery_contingency,0,18.07198470110211,18.07198470110211
 larger_payroll,2047,New indexed income contributions,465.21607717190074,0,-465.21607717190074
 larger_payroll,2048,HLT-4,0,85.904,85.904
-larger_payroll,2048,HLT-7,0,8600.052,8600.052
+larger_payroll,2048,HLT-7,0,7817.847,7817.847
 larger_payroll,2048,HLT-8,0,0.542,0.542
 larger_payroll,2048,FAM-1,0,257.522,257.522
 larger_payroll,2048,FAM-2,0,125.597,125.597
@@ -3641,7 +3641,7 @@ larger_payroll,2048,participation,0,18.724217201436563,18.724217201436563
 larger_payroll,2048,delivery_contingency,0,18.724217201436563,18.724217201436563
 larger_payroll,2048,New indexed income contributions,482.0061005272829,0,-482.0061005272829
 larger_payroll,2049,HLT-4,0,89.302,89.302
-larger_payroll,2049,HLT-7,0,9001.262,9001.262
+larger_payroll,2049,HLT-7,0,8182.545,8182.545
 larger_payroll,2049,HLT-8,0,0.555,0.555
 larger_payroll,2049,FAM-1,0,263.445,263.445
 larger_payroll,2049,FAM-2,0,130.111,130.111
@@ -3718,7 +3718,7 @@ larger_payroll,2049,participation,0,19.397130874988125,19.397130874988125
 larger_payroll,2049,delivery_contingency,0,19.397130874988125,19.397130874988125
 larger_payroll,2049,New indexed income contributions,499.32850670804385,0,-499.32850670804385
 larger_payroll,2050,HLT-4,0,92.776,92.776
-larger_payroll,2050,HLT-7,0,9407.153,9407.153
+larger_payroll,2050,HLT-7,0,8551.499,8551.499
 larger_payroll,2050,HLT-8,0,0.567,0.567
 larger_payroll,2050,FAM-1,0,269.504,269.504
 larger_payroll,2050,FAM-2,0,134.755,134.755
@@ -3795,7 +3795,7 @@ larger_payroll,2050,participation,0,20.089433148430718,20.089433148430718
 larger_payroll,2050,delivery_contingency,0,20.089433148430718,20.089433148430718
 larger_payroll,2050,New indexed income contributions,517.1500217875974,0,-517.1500217875974
 larger_payroll,2051,HLT-4,0,96.254,96.254
-larger_payroll,2051,HLT-7,0,9832.332,9832.332
+larger_payroll,2051,HLT-7,0,8937.98,8937.98
 larger_payroll,2051,HLT-8,0,0.58,0.58
 larger_payroll,2051,FAM-1,0,275.703,275.703
 larger_payroll,2051,FAM-2,0,139.537,139.537
@@ -3872,7 +3872,7 @@ larger_payroll,2051,participation,0,20.802416595090417,20.802416595090417
 larger_payroll,2051,delivery_contingency,0,20.802416595090417,20.802416595090417
 larger_payroll,2051,New indexed income contributions,535.5039196925297,0,-535.5039196925297
 larger_payroll,2052,HLT-4,0,99.964,99.964
-larger_payroll,2052,HLT-7,0,10261.045,10261.045
+larger_payroll,2052,HLT-7,0,9327.681,9327.681
 larger_payroll,2052,HLT-8,0,0.594,0.594
 larger_payroll,2052,FAM-1,0,282.044,282.044
 larger_payroll,2052,FAM-2,0,144.471,144.471
@@ -3949,7 +3949,7 @@ larger_payroll,2052,participation,0,21.537890817623715,21.537890817623715
 larger_payroll,2052,delivery_contingency,0,21.537890817623715,21.537890817623715
 larger_payroll,2052,New indexed income contributions,554.4367839200614,0,-554.4367839200614
 larger_payroll,2053,HLT-4,0,103.73,103.73
-larger_payroll,2053,HLT-7,0,10699.076,10699.076
+larger_payroll,2053,HLT-7,0,9725.851,9725.851
 larger_payroll,2053,HLT-8,0,0.607,0.607
 larger_payroll,2053,FAM-1,0,288.531,288.531
 larger_payroll,2053,FAM-2,0,149.569,149.569
@@ -4026,7 +4026,7 @@ larger_payroll,2053,participation,0,22.297923933352333,22.297923933352333
 larger_payroll,2053,delivery_contingency,0,22.297923933352333,22.297923933352333
 larger_payroll,2053,New indexed income contributions,574.0018527527303,0,-574.0018527527303
 larger_payroll,2054,HLT-4,0,107.63,107.63
-larger_payroll,2054,HLT-7,0,11148.327,11148.327
+larger_payroll,2054,HLT-7,0,10134.221,10134.221
 larger_payroll,2054,HLT-8,0,0.621,0.621
 larger_payroll,2054,FAM-1,0,295.167,295.167
 larger_payroll,2054,FAM-2,0,154.837,154.837
@@ -4103,7 +4103,7 @@ larger_payroll,2054,participation,0,23.0832914862719,23.0832914862719
 larger_payroll,2054,delivery_contingency,0,23.0832914862719,23.0832914862719
 larger_payroll,2054,New indexed income contributions,594.2190905464884,0,-594.2190905464884
 larger_payroll,2055,HLT-4,0,111.759,111.759
-larger_payroll,2055,HLT-7,0,11624.287,11624.287
+larger_payroll,2055,HLT-7,0,10566.87,10566.87
 larger_payroll,2055,HLT-8,0,0.636,0.636
 larger_payroll,2055,FAM-1,0,301.956,301.956
 larger_payroll,2055,FAM-2,0,160.287,160.287
@@ -4180,7 +4180,7 @@ larger_payroll,2055,participation,0,23.89580307903892,23.89580307903892
 larger_payroll,2055,delivery_contingency,0,23.89580307903892,23.89580307903892
 larger_payroll,2055,New indexed income contributions,615.1350807985558,0,-615.1350807985558
 larger_payroll,2056,HLT-4,0,115.959,115.959
-larger_payroll,2056,HLT-7,0,12120.084,12120.084
+larger_payroll,2056,HLT-7,0,11017.547,11017.547
 larger_payroll,2056,HLT-8,0,0.65,0.65
 larger_payroll,2056,FAM-1,0,308.901,308.901
 larger_payroll,2056,FAM-2,0,165.931,165.931
@@ -4340,7 +4340,7 @@ mixed_downside,2031,HLT-1,0,21.5,21.5
 mixed_downside,2031,HLT-2,0,40.5,40.5
 mixed_downside,2031,HLT-4,0,37.058,37.058
 mixed_downside,2031,HLT-6,0,-57.22,-57.22
-mixed_downside,2031,HLT-7,0,707.446,707.446
+mixed_downside,2031,HLT-7,0,651.168,651.168
 mixed_downside,2031,HLT-8,0,0.369,0.369
 mixed_downside,2031,FAM-1,0,175.298,175.298
 mixed_downside,2031,FAM-2,0,22.434,22.434
@@ -4422,7 +4422,7 @@ mixed_downside,2031,Downside net loss allowance,0,131.83646364846643,131.8364636
 mixed_downside,2032,HLT-2,0,78.0,78.0
 mixed_downside,2032,HLT-4,0,56.876,56.876
 mixed_downside,2032,HLT-6,0,-70.136,-70.136
-mixed_downside,2032,HLT-7,0,977.249,977.249
+mixed_downside,2032,HLT-7,0,903.717,903.717
 mixed_downside,2032,HLT-8,0,0.377,0.377
 mixed_downside,2032,FAM-1,0,179.26,179.26
 mixed_downside,2032,FAM-2,0,34.921,34.921
@@ -4505,7 +4505,7 @@ mixed_downside,2032,Downside net loss allowance,0,153.07793643386697,153.0779364
 mixed_downside,2033,HLT-2,0,113.0,113.0
 mixed_downside,2033,HLT-4,0,56.129,56.129
 mixed_downside,2033,HLT-6,0,-75.542,-75.542
-mixed_downside,2033,HLT-7,0,1593.864,1593.864
+mixed_downside,2033,HLT-7,0,1431.905,1431.905
 mixed_downside,2033,HLT-8,0,0.386,0.386
 mixed_downside,2033,FAM-1,0,183.311,183.311
 mixed_downside,2033,FAM-2,0,48.317,48.317
@@ -4591,7 +4591,7 @@ mixed_downside,2033,Downside net loss allowance,0,161.81319432033453,161.8131943
 mixed_downside,2034,HLT-2,0,133.25,133.25
 mixed_downside,2034,HLT-4,0,53.998,53.998
 mixed_downside,2034,HLT-6,0,-81.399,-81.399
-mixed_downside,2034,HLT-7,0,2446.732,2446.732
+mixed_downside,2034,HLT-7,0,2165.433,2165.433
 mixed_downside,2034,HLT-8,0,0.395,0.395
 mixed_downside,2034,FAM-1,0,187.454,187.454
 mixed_downside,2034,FAM-2,0,62.676,62.676
@@ -4677,7 +4677,7 @@ mixed_downside,2034,Downside net loss allowance,0,171.00498932940675,171.0049893
 mixed_downside,2035,HLT-2,0,34.25,34.25
 mixed_downside,2035,HLT-4,0,51.672,51.672
 mixed_downside,2035,HLT-6,0,-20.725,-20.725
-mixed_downside,2035,HLT-7,0,4062.827,4062.827
+mixed_downside,2035,HLT-7,0,3653.628,3653.628
 mixed_downside,2035,HLT-8,0,0.404,0.404
 mixed_downside,2035,FAM-1,0,191.691,191.691
 mixed_downside,2035,FAM-2,0,78.052,78.052
@@ -4762,7 +4762,7 @@ mixed_downside,2035,delivery_contingency,0,11.636132853271599,11.636132853271599
 mixed_downside,2035,New indexed income contributions,189.21448845257333,0,-189.21448845257333
 mixed_downside,2035,Downside net loss allowance,0,109.3340679942636,109.3340679942636
 mixed_downside,2036,HLT-4,0,52.758,52.758
-mixed_downside,2036,HLT-7,0,4650.612,4650.612
+mixed_downside,2036,HLT-7,0,4221.646,4221.646
 mixed_downside,2036,HLT-8,0,0.413,0.413
 mixed_downside,2036,FAM-1,0,196.023,196.023
 mixed_downside,2036,FAM-2,0,81.001,81.001
@@ -4846,7 +4846,7 @@ mixed_downside,2036,delivery_contingency,0,12.075762892934211,12.075762892934211
 mixed_downside,2036,New indexed income contributions,219.67771208554572,0,-219.67771208554572
 mixed_downside,2036,Downside net loss allowance,0,90.99741982826058,90.99741982826058
 mixed_downside,2037,HLT-4,0,54.901,54.901
-mixed_downside,2037,HLT-7,0,4886.594,4886.594
+mixed_downside,2037,HLT-7,0,4443.885,4443.885
 mixed_downside,2037,HLT-8,0,0.422,0.422
 mixed_downside,2037,FAM-1,0,200.532,200.532
 mixed_downside,2037,FAM-2,0,84.055,84.055
@@ -4927,7 +4927,7 @@ mixed_downside,2037,delivery_contingency,0,12.530981366909218,12.530981366909218
 mixed_downside,2037,New indexed income contributions,252.1521800739164,0,-252.1521800739164
 mixed_downside,2037,Downside net loss allowance,0,94.73195025290379,94.73195025290379
 mixed_downside,2038,HLT-4,0,57.25,57.25
-mixed_downside,2038,HLT-7,0,5157.547,5157.547
+mixed_downside,2038,HLT-7,0,4689.764,4689.764
 mixed_downside,2038,HLT-8,0,0.432,0.432
 mixed_downside,2038,FAM-1,0,205.144,205.144
 mixed_downside,2038,FAM-2,0,87.226,87.226
@@ -5008,7 +5008,7 @@ mixed_downside,2038,delivery_contingency,0,13.003804689585284,13.003804689585284
 mixed_downside,2038,New indexed income contributions,286.7726491643476,0,-286.7726491643476
 mixed_downside,2038,Downside net loss allowance,0,98.72301040692976,98.72301040692976
 mixed_downside,2039,HLT-4,0,59.718,59.718
-mixed_downside,2039,HLT-7,0,5439.129,5439.129
+mixed_downside,2039,HLT-7,0,4944.854,4944.854
 mixed_downside,2039,HLT-8,0,0.442,0.442
 mixed_downside,2039,FAM-1,0,209.862,209.862
 mixed_downside,2039,FAM-2,0,90.511,90.511
@@ -5089,7 +5089,7 @@ mixed_downside,2039,delivery_contingency,0,13.49343146550025,13.49343146550025
 mixed_downside,2039,New indexed income contributions,323.6218669089048,0,-323.6218669089048
 mixed_downside,2039,Downside net loss allowance,0,103.20692349452834,103.20692349452834
 mixed_downside,2040,HLT-4,0,62.273,62.273
-mixed_downside,2040,HLT-7,0,5745.188,5745.188
+mixed_downside,2040,HLT-7,0,5222.808,5222.808
 mixed_downside,2040,HLT-8,0,0.452,0.452
 mixed_downside,2040,FAM-1,0,214.689,214.689
 mixed_downside,2040,FAM-2,0,93.928,93.928
@@ -5167,7 +5167,7 @@ mixed_downside,2040,delivery_contingency,0,14.002963870636675,14.002963870636675
 mixed_downside,2040,New indexed income contributions,362.877550382378,0,-362.877550382378
 mixed_downside,2040,Downside net loss allowance,0,148.47999675023996,148.47999675023996
 mixed_downside,2041,HLT-4,0,64.939,64.939
-mixed_downside,2041,HLT-7,0,6075.806,6075.806
+mixed_downside,2041,HLT-7,0,5523.333,5523.333
 mixed_downside,2041,HLT-8,0,0.462,0.462
 mixed_downside,2041,FAM-1,0,219.627,219.627
 mixed_downside,2041,FAM-2,0,97.481,97.481
@@ -5245,7 +5245,7 @@ mixed_downside,2041,delivery_contingency,0,14.532660419659782,14.532660419659782
 mixed_downside,2041,New indexed income contributions,404.66219208591457,0,-404.66219208591457
 mixed_downside,2041,Downside net loss allowance,0,155.03796260860537,155.03796260860537
 mixed_downside,2042,HLT-4,0,67.698,67.698
-mixed_downside,2042,HLT-7,0,6411.843,6411.843
+mixed_downside,2042,HLT-7,0,5828.786,5828.786
 mixed_downside,2042,HLT-8,0,0.473,0.473
 mixed_downside,2042,FAM-1,0,224.678,224.678
 mixed_downside,2042,FAM-2,0,101.139,101.139
@@ -5322,7 +5322,7 @@ mixed_downside,2042,delivery_contingency,0,15.077867848595714,15.077867848595714
 mixed_downside,2042,New indexed income contributions,448.95402932218667,0,-448.95402932218667
 mixed_downside,2042,Downside net loss allowance,0,161.6705358538519,161.6705358538519
 mixed_downside,2043,HLT-4,0,70.567,70.567
-mixed_downside,2043,HLT-7,0,6754.278,6754.278
+mixed_downside,2043,HLT-7,0,6140.057,6140.057
 mixed_downside,2043,HLT-8,0,0.484,0.484
 mixed_downside,2043,FAM-1,0,229.846,229.846
 mixed_downside,2043,FAM-2,0,104.926,104.926
@@ -5399,7 +5399,7 @@ mixed_downside,2043,delivery_contingency,0,15.642463877422685,15.642463877422685
 mixed_downside,2043,New indexed income contributions,495.96585014282977,0,-495.96585014282977
 mixed_downside,2043,Downside net loss allowance,0,168.5513171014596,168.5513171014596
 mixed_downside,2044,HLT-4,0,73.489,73.489
-mixed_downside,2044,HLT-7,0,7105.204,7105.204
+mixed_downside,2044,HLT-7,0,6459.045,6459.045
 mixed_downside,2044,HLT-8,0,0.495,0.495
 mixed_downside,2044,FAM-1,0,235.132,235.132
 mixed_downside,2044,FAM-2,0,108.841,108.841
@@ -5476,7 +5476,7 @@ mixed_downside,2044,delivery_contingency,0,16.22618999147548,16.22618999147548
 mixed_downside,2044,New indexed income contributions,545.8012583778499,0,-545.8012583778499
 mixed_downside,2044,Downside net loss allowance,0,175.61538018466803,175.61538018466803
 mixed_downside,2045,HLT-4,0,76.444,76.444
-mixed_downside,2045,HLT-7,0,7464.198,7464.198
+mixed_downside,2045,HLT-7,0,6785.366,6785.366
 mixed_downside,2045,HLT-8,0,0.506,0.506
 mixed_downside,2045,FAM-1,0,240.54,240.54
 mixed_downside,2045,FAM-2,0,112.862,112.862
@@ -5553,7 +5553,7 @@ mixed_downside,2045,delivery_contingency,0,16.825685500106314,16.825685500106314
 mixed_downside,2045,New indexed income contributions,565.9665222613912,0,-565.9665222613912
 mixed_downside,2045,Downside net loss allowance,0,182.8995481103967,182.8995481103967
 mixed_downside,2046,HLT-4,0,79.48,79.48
-mixed_downside,2046,HLT-7,0,7836.34,7836.34
+mixed_downside,2046,HLT-7,0,7123.638,7123.638
 mixed_downside,2046,HLT-8,0,0.518,0.518
 mixed_downside,2046,FAM-1,0,246.073,246.073
 mixed_downside,2046,FAM-2,0,116.977,116.977
@@ -5630,7 +5630,7 @@ mixed_downside,2046,delivery_contingency,0,17.439140800658695,17.439140800658695
 mixed_downside,2046,New indexed income contributions,586.6013524449373,0,-586.6013524449373
 mixed_downside,2046,Downside net loss allowance,0,190.8074495255756,190.8074495255756
 mixed_downside,2047,HLT-4,0,82.686,82.686
-mixed_downside,2047,HLT-7,0,8209.804,8209.804
+mixed_downside,2047,HLT-7,0,7463.116,7463.116
 mixed_downside,2047,HLT-8,0,0.53,0.53
 mixed_downside,2047,FAM-1,0,251.732,251.732
 mixed_downside,2047,FAM-2,0,121.222,121.222
@@ -5707,7 +5707,7 @@ mixed_downside,2047,delivery_contingency,0,18.07198470110211,18.07198470110211
 mixed_downside,2047,New indexed income contributions,607.8883580451568,0,-607.8883580451568
 mixed_downside,2047,Downside net loss allowance,0,198.56326253026842,198.56326253026842
 mixed_downside,2048,HLT-4,0,85.904,85.904
-mixed_downside,2048,HLT-7,0,8600.052,8600.052
+mixed_downside,2048,HLT-7,0,7817.847,7817.847
 mixed_downside,2048,HLT-8,0,0.542,0.542
 mixed_downside,2048,FAM-1,0,257.522,257.522
 mixed_downside,2048,FAM-2,0,125.597,125.597
@@ -5784,7 +5784,7 @@ mixed_downside,2048,delivery_contingency,0,18.724217201436563,18.724217201436563
 mixed_downside,2048,New indexed income contributions,629.8275390620496,0,-629.8275390620496
 mixed_downside,2048,Downside net loss allowance,0,206.52013792853552,206.52013792853552
 mixed_downside,2049,HLT-4,0,89.302,89.302
-mixed_downside,2049,HLT-7,0,9001.262,9001.262
+mixed_downside,2049,HLT-7,0,8182.545,8182.545
 mixed_downside,2049,HLT-8,0,0.555,0.555
 mixed_downside,2049,FAM-1,0,263.445,263.445
 mixed_downside,2049,FAM-2,0,130.111,130.111
@@ -5861,7 +5861,7 @@ mixed_downside,2049,delivery_contingency,0,19.397130874988125,19.397130874988125
 mixed_downside,2049,New indexed income contributions,652.4623738567275,0,-652.4623738567275
 mixed_downside,2049,Downside net loss allowance,0,214.7025528486487,214.7025528486487
 mixed_downside,2050,HLT-4,0,92.776,92.776
-mixed_downside,2050,HLT-7,0,9407.153,9407.153
+mixed_downside,2050,HLT-7,0,8551.499,8551.499
 mixed_downside,2050,HLT-8,0,0.567,0.567
 mixed_downside,2050,FAM-1,0,269.504,269.504
 mixed_downside,2050,FAM-2,0,134.755,134.755
@@ -5938,7 +5938,7 @@ mixed_downside,2050,delivery_contingency,0,20.089433148430718,20.089433148430718
 mixed_downside,2050,New indexed income contributions,675.7493840680787,0,-675.7493840680787
 mixed_downside,2050,Downside net loss allowance,0,223.14418623463473,223.14418623463473
 mixed_downside,2051,HLT-4,0,96.254,96.254
-mixed_downside,2051,HLT-7,0,9832.332,9832.332
+mixed_downside,2051,HLT-7,0,8937.98,8937.98
 mixed_downside,2051,HLT-8,0,0.58,0.58
 mixed_downside,2051,FAM-1,0,275.703,275.703
 mixed_downside,2051,FAM-2,0,139.537,139.537
@@ -6015,7 +6015,7 @@ mixed_downside,2051,delivery_contingency,0,20.802416595090417,20.802416595090417
 mixed_downside,2051,New indexed income contributions,699.7320480572149,0,-699.7320480572149
 mixed_downside,2051,Downside net loss allowance,0,232.12783631533506,232.12783631533506
 mixed_downside,2052,HLT-4,0,99.964,99.964
-mixed_downside,2052,HLT-7,0,10261.045,10261.045
+mixed_downside,2052,HLT-7,0,9327.681,9327.681
 mixed_downside,2052,HLT-8,0,0.594,0.594
 mixed_downside,2052,FAM-1,0,282.044,282.044
 mixed_downside,2052,FAM-2,0,144.471,144.471
@@ -6092,7 +6092,7 @@ mixed_downside,2052,delivery_contingency,0,21.537890817623715,21.537890817623715
 mixed_downside,2052,New indexed income contributions,724.4712355296922,0,-724.4712355296922
 mixed_downside,2052,Downside net loss allowance,0,241.48381930280317,241.48381930280317
 mixed_downside,2053,HLT-4,0,103.73,103.73
-mixed_downside,2053,HLT-7,0,10699.076,10699.076
+mixed_downside,2053,HLT-7,0,9725.851,9725.851
 mixed_downside,2053,HLT-8,0,0.607,0.607
 mixed_downside,2053,FAM-1,0,288.531,288.531
 mixed_downside,2053,FAM-2,0,149.569,149.569
@@ -6169,7 +6169,7 @@ mixed_downside,2053,delivery_contingency,0,22.297923933352333,22.297923933352333
 mixed_downside,2053,New indexed income contributions,750.0365118632892,0,-750.0365118632892
 mixed_downside,2053,Downside net loss allowance,0,250.97567488175235,250.97567488175235
 mixed_downside,2054,HLT-4,0,107.63,107.63
-mixed_downside,2054,HLT-7,0,11148.327,11148.327
+mixed_downside,2054,HLT-7,0,10134.221,10134.221
 mixed_downside,2054,HLT-8,0,0.621,0.621
 mixed_downside,2054,FAM-1,0,295.167,295.167
 mixed_downside,2054,FAM-2,0,154.837,154.837
@@ -6246,7 +6246,7 @@ mixed_downside,2054,delivery_contingency,0,23.0832914862719,23.0832914862719
 mixed_downside,2054,New indexed income contributions,776.4539640746726,0,-776.4539640746726
 mixed_downside,2054,Downside net loss allowance,0,260.91856698058723,260.91856698058723
 mixed_downside,2055,HLT-4,0,111.759,111.759
-mixed_downside,2055,HLT-7,0,11624.287,11624.287
+mixed_downside,2055,HLT-7,0,10566.87,10566.87
 mixed_downside,2055,HLT-8,0,0.636,0.636
 mixed_downside,2055,FAM-1,0,301.956,301.956
 mixed_downside,2055,FAM-2,0,160.287,160.287
@@ -6323,7 +6323,7 @@ mixed_downside,2055,delivery_contingency,0,23.89580307903892,23.89580307903892
 mixed_downside,2055,New indexed income contributions,803.7844618693989,0,-803.7844618693989
 mixed_downside,2055,Downside net loss allowance,0,271.17292989952887,271.17292989952887
 mixed_downside,2056,HLT-4,0,115.959,115.959
-mixed_downside,2056,HLT-7,0,12120.084,12120.084
+mixed_downside,2056,HLT-7,0,11017.547,11017.547
 mixed_downside,2056,HLT-8,0,0.65,0.65
 mixed_downside,2056,FAM-1,0,308.901,308.901
 mixed_downside,2056,FAM-2,0,165.931,165.931
@@ -6482,7 +6482,7 @@ mixed_all_debt_rate_plus1,2031,HLT-1,0,21.5,21.5
 mixed_all_debt_rate_plus1,2031,HLT-2,0,40.5,40.5
 mixed_all_debt_rate_plus1,2031,HLT-4,0,37.058,37.058
 mixed_all_debt_rate_plus1,2031,HLT-6,0,-57.22,-57.22
-mixed_all_debt_rate_plus1,2031,HLT-7,0,707.446,707.446
+mixed_all_debt_rate_plus1,2031,HLT-7,0,651.168,651.168
 mixed_all_debt_rate_plus1,2031,HLT-8,0,0.369,0.369
 mixed_all_debt_rate_plus1,2031,FAM-1,0,175.298,175.298
 mixed_all_debt_rate_plus1,2031,FAM-2,0,22.434,22.434
@@ -6563,7 +6563,7 @@ mixed_all_debt_rate_plus1,2031,delivery_contingency,0,5.016838999005365,5.016838
 mixed_all_debt_rate_plus1,2032,HLT-2,0,78.0,78.0
 mixed_all_debt_rate_plus1,2032,HLT-4,0,56.876,56.876
 mixed_all_debt_rate_plus1,2032,HLT-6,0,-70.136,-70.136
-mixed_all_debt_rate_plus1,2032,HLT-7,0,977.249,977.249
+mixed_all_debt_rate_plus1,2032,HLT-7,0,903.717,903.717
 mixed_all_debt_rate_plus1,2032,HLT-8,0,0.377,0.377
 mixed_all_debt_rate_plus1,2032,FAM-1,0,179.26,179.26
 mixed_all_debt_rate_plus1,2032,FAM-2,0,34.921,34.921
@@ -6645,7 +6645,7 @@ mixed_all_debt_rate_plus1,2032,delivery_contingency,0,7.809049435113141,7.809049
 mixed_all_debt_rate_plus1,2033,HLT-2,0,113.0,113.0
 mixed_all_debt_rate_plus1,2033,HLT-4,0,56.129,56.129
 mixed_all_debt_rate_plus1,2033,HLT-6,0,-75.542,-75.542
-mixed_all_debt_rate_plus1,2033,HLT-7,0,1593.864,1593.864
+mixed_all_debt_rate_plus1,2033,HLT-7,0,1431.905,1431.905
 mixed_all_debt_rate_plus1,2033,HLT-8,0,0.386,0.386
 mixed_all_debt_rate_plus1,2033,FAM-1,0,183.311,183.311
 mixed_all_debt_rate_plus1,2033,FAM-2,0,48.317,48.317
@@ -6730,7 +6730,7 @@ mixed_all_debt_rate_plus1,2033,New indexed income contributions,68.8161735138130
 mixed_all_debt_rate_plus1,2034,HLT-2,0,133.25,133.25
 mixed_all_debt_rate_plus1,2034,HLT-4,0,53.998,53.998
 mixed_all_debt_rate_plus1,2034,HLT-6,0,-81.399,-81.399
-mixed_all_debt_rate_plus1,2034,HLT-7,0,2446.732,2446.732
+mixed_all_debt_rate_plus1,2034,HLT-7,0,2165.433,2165.433
 mixed_all_debt_rate_plus1,2034,HLT-8,0,0.395,0.395
 mixed_all_debt_rate_plus1,2034,FAM-1,0,187.454,187.454
 mixed_all_debt_rate_plus1,2034,FAM-2,0,62.676,62.676
@@ -6815,7 +6815,7 @@ mixed_all_debt_rate_plus1,2034,New indexed income contributions,142.826666666666
 mixed_all_debt_rate_plus1,2035,HLT-2,0,34.25,34.25
 mixed_all_debt_rate_plus1,2035,HLT-4,0,51.672,51.672
 mixed_all_debt_rate_plus1,2035,HLT-6,0,-20.725,-20.725
-mixed_all_debt_rate_plus1,2035,HLT-7,0,4062.827,4062.827
+mixed_all_debt_rate_plus1,2035,HLT-7,0,3653.628,3653.628
 mixed_all_debt_rate_plus1,2035,HLT-8,0,0.404,0.404
 mixed_all_debt_rate_plus1,2035,FAM-1,0,191.691,191.691
 mixed_all_debt_rate_plus1,2035,FAM-2,0,78.052,78.052
@@ -6899,7 +6899,7 @@ mixed_all_debt_rate_plus1,2035,participation,0,11.636132853271599,11.63613285327
 mixed_all_debt_rate_plus1,2035,delivery_contingency,0,11.636132853271599,11.636132853271599
 mixed_all_debt_rate_plus1,2035,New indexed income contributions,252.28598460343113,0,-252.28598460343113
 mixed_all_debt_rate_plus1,2036,HLT-4,0,52.758,52.758
-mixed_all_debt_rate_plus1,2036,HLT-7,0,4650.612,4650.612
+mixed_all_debt_rate_plus1,2036,HLT-7,0,4221.646,4221.646
 mixed_all_debt_rate_plus1,2036,HLT-8,0,0.413,0.413
 mixed_all_debt_rate_plus1,2036,FAM-1,0,196.023,196.023
 mixed_all_debt_rate_plus1,2036,FAM-2,0,81.001,81.001
@@ -6982,7 +6982,7 @@ mixed_all_debt_rate_plus1,2036,participation,0,12.075762892934211,12.07576289293
 mixed_all_debt_rate_plus1,2036,delivery_contingency,0,12.075762892934211,12.075762892934211
 mixed_all_debt_rate_plus1,2036,New indexed income contributions,292.903616114061,0,-292.903616114061
 mixed_all_debt_rate_plus1,2037,HLT-4,0,54.901,54.901
-mixed_all_debt_rate_plus1,2037,HLT-7,0,4886.594,4886.594
+mixed_all_debt_rate_plus1,2037,HLT-7,0,4443.885,4443.885
 mixed_all_debt_rate_plus1,2037,HLT-8,0,0.422,0.422
 mixed_all_debt_rate_plus1,2037,FAM-1,0,200.532,200.532
 mixed_all_debt_rate_plus1,2037,FAM-2,0,84.055,84.055
@@ -7062,7 +7062,7 @@ mixed_all_debt_rate_plus1,2037,participation,0,12.530981366909218,12.53098136690
 mixed_all_debt_rate_plus1,2037,delivery_contingency,0,12.530981366909218,12.530981366909218
 mixed_all_debt_rate_plus1,2037,New indexed income contributions,336.20290676522194,0,-336.20290676522194
 mixed_all_debt_rate_plus1,2038,HLT-4,0,57.25,57.25
-mixed_all_debt_rate_plus1,2038,HLT-7,0,5157.547,5157.547
+mixed_all_debt_rate_plus1,2038,HLT-7,0,4689.764,4689.764
 mixed_all_debt_rate_plus1,2038,HLT-8,0,0.432,0.432
 mixed_all_debt_rate_plus1,2038,FAM-1,0,205.144,205.144
 mixed_all_debt_rate_plus1,2038,FAM-2,0,87.226,87.226
@@ -7142,7 +7142,7 @@ mixed_all_debt_rate_plus1,2038,participation,0,13.003804689585284,13.00380468958
 mixed_all_debt_rate_plus1,2038,delivery_contingency,0,13.003804689585284,13.003804689585284
 mixed_all_debt_rate_plus1,2038,New indexed income contributions,382.36353221913026,0,-382.36353221913026
 mixed_all_debt_rate_plus1,2039,HLT-4,0,59.718,59.718
-mixed_all_debt_rate_plus1,2039,HLT-7,0,5439.129,5439.129
+mixed_all_debt_rate_plus1,2039,HLT-7,0,4944.854,4944.854
 mixed_all_debt_rate_plus1,2039,HLT-8,0,0.442,0.442
 mixed_all_debt_rate_plus1,2039,FAM-1,0,209.862,209.862
 mixed_all_debt_rate_plus1,2039,FAM-2,0,90.511,90.511
@@ -7222,7 +7222,7 @@ mixed_all_debt_rate_plus1,2039,participation,0,13.49343146550025,13.493431465500
 mixed_all_debt_rate_plus1,2039,delivery_contingency,0,13.49343146550025,13.49343146550025
 mixed_all_debt_rate_plus1,2039,New indexed income contributions,431.49582254520647,0,-431.49582254520647
 mixed_all_debt_rate_plus1,2040,HLT-4,0,62.273,62.273
-mixed_all_debt_rate_plus1,2040,HLT-7,0,5745.188,5745.188
+mixed_all_debt_rate_plus1,2040,HLT-7,0,5222.808,5222.808
 mixed_all_debt_rate_plus1,2040,HLT-8,0,0.452,0.452
 mixed_all_debt_rate_plus1,2040,FAM-1,0,214.689,214.689
 mixed_all_debt_rate_plus1,2040,FAM-2,0,93.928,93.928
@@ -7299,7 +7299,7 @@ mixed_all_debt_rate_plus1,2040,participation,0,14.002963870636675,14.00296387063
 mixed_all_debt_rate_plus1,2040,delivery_contingency,0,14.002963870636675,14.002963870636675
 mixed_all_debt_rate_plus1,2040,New indexed income contributions,483.8367338431708,0,-483.8367338431708
 mixed_all_debt_rate_plus1,2041,HLT-4,0,64.939,64.939
-mixed_all_debt_rate_plus1,2041,HLT-7,0,6075.806,6075.806
+mixed_all_debt_rate_plus1,2041,HLT-7,0,5523.333,5523.333
 mixed_all_debt_rate_plus1,2041,HLT-8,0,0.462,0.462
 mixed_all_debt_rate_plus1,2041,FAM-1,0,219.627,219.627
 mixed_all_debt_rate_plus1,2041,FAM-2,0,97.481,97.481
@@ -7376,7 +7376,7 @@ mixed_all_debt_rate_plus1,2041,participation,0,14.532660419659782,14.53266041965
 mixed_all_debt_rate_plus1,2041,delivery_contingency,0,14.532660419659782,14.532660419659782
 mixed_all_debt_rate_plus1,2041,New indexed income contributions,539.5495894478861,0,-539.5495894478861
 mixed_all_debt_rate_plus1,2042,HLT-4,0,67.698,67.698
-mixed_all_debt_rate_plus1,2042,HLT-7,0,6411.843,6411.843
+mixed_all_debt_rate_plus1,2042,HLT-7,0,5828.786,5828.786
 mixed_all_debt_rate_plus1,2042,HLT-8,0,0.473,0.473
 mixed_all_debt_rate_plus1,2042,FAM-1,0,224.678,224.678
 mixed_all_debt_rate_plus1,2042,FAM-2,0,101.139,101.139
@@ -7452,7 +7452,7 @@ mixed_all_debt_rate_plus1,2042,participation,0,15.077867848595714,15.07786784859
 mixed_all_debt_rate_plus1,2042,delivery_contingency,0,15.077867848595714,15.077867848595714
 mixed_all_debt_rate_plus1,2042,New indexed income contributions,598.6053724295822,0,-598.6053724295822
 mixed_all_debt_rate_plus1,2043,HLT-4,0,70.567,70.567
-mixed_all_debt_rate_plus1,2043,HLT-7,0,6754.278,6754.278
+mixed_all_debt_rate_plus1,2043,HLT-7,0,6140.057,6140.057
 mixed_all_debt_rate_plus1,2043,HLT-8,0,0.484,0.484
 mixed_all_debt_rate_plus1,2043,FAM-1,0,229.846,229.846
 mixed_all_debt_rate_plus1,2043,FAM-2,0,104.926,104.926
@@ -7528,7 +7528,7 @@ mixed_all_debt_rate_plus1,2043,participation,0,15.642463877422685,15.64246387742
 mixed_all_debt_rate_plus1,2043,delivery_contingency,0,15.642463877422685,15.642463877422685
 mixed_all_debt_rate_plus1,2043,New indexed income contributions,661.2878001904397,0,-661.2878001904397
 mixed_all_debt_rate_plus1,2044,HLT-4,0,73.489,73.489
-mixed_all_debt_rate_plus1,2044,HLT-7,0,7105.204,7105.204
+mixed_all_debt_rate_plus1,2044,HLT-7,0,6459.045,6459.045
 mixed_all_debt_rate_plus1,2044,HLT-8,0,0.495,0.495
 mixed_all_debt_rate_plus1,2044,FAM-1,0,235.132,235.132
 mixed_all_debt_rate_plus1,2044,FAM-2,0,108.841,108.841
@@ -7604,7 +7604,7 @@ mixed_all_debt_rate_plus1,2044,participation,0,16.22618999147548,16.226189991475
 mixed_all_debt_rate_plus1,2044,delivery_contingency,0,16.22618999147548,16.22618999147548
 mixed_all_debt_rate_plus1,2044,New indexed income contributions,727.7350111704667,0,-727.7350111704667
 mixed_all_debt_rate_plus1,2045,HLT-4,0,76.444,76.444
-mixed_all_debt_rate_plus1,2045,HLT-7,0,7464.198,7464.198
+mixed_all_debt_rate_plus1,2045,HLT-7,0,6785.366,6785.366
 mixed_all_debt_rate_plus1,2045,HLT-8,0,0.506,0.506
 mixed_all_debt_rate_plus1,2045,FAM-1,0,240.54,240.54
 mixed_all_debt_rate_plus1,2045,FAM-2,0,112.862,112.862
@@ -7680,7 +7680,7 @@ mixed_all_debt_rate_plus1,2045,participation,0,16.825685500106314,16.82568550010
 mixed_all_debt_rate_plus1,2045,delivery_contingency,0,16.825685500106314,16.825685500106314
 mixed_all_debt_rate_plus1,2045,New indexed income contributions,754.6220296818549,0,-754.6220296818549
 mixed_all_debt_rate_plus1,2046,HLT-4,0,79.48,79.48
-mixed_all_debt_rate_plus1,2046,HLT-7,0,7836.34,7836.34
+mixed_all_debt_rate_plus1,2046,HLT-7,0,7123.638,7123.638
 mixed_all_debt_rate_plus1,2046,HLT-8,0,0.518,0.518
 mixed_all_debt_rate_plus1,2046,FAM-1,0,246.073,246.073
 mixed_all_debt_rate_plus1,2046,FAM-2,0,116.977,116.977
@@ -7756,7 +7756,7 @@ mixed_all_debt_rate_plus1,2046,participation,0,17.439140800658695,17.43914080065
 mixed_all_debt_rate_plus1,2046,delivery_contingency,0,17.439140800658695,17.439140800658695
 mixed_all_debt_rate_plus1,2046,New indexed income contributions,782.1351365932499,0,-782.1351365932499
 mixed_all_debt_rate_plus1,2047,HLT-4,0,82.686,82.686
-mixed_all_debt_rate_plus1,2047,HLT-7,0,8209.804,8209.804
+mixed_all_debt_rate_plus1,2047,HLT-7,0,7463.116,7463.116
 mixed_all_debt_rate_plus1,2047,HLT-8,0,0.53,0.53
 mixed_all_debt_rate_plus1,2047,FAM-1,0,251.732,251.732
 mixed_all_debt_rate_plus1,2047,FAM-2,0,121.222,121.222
@@ -7832,7 +7832,7 @@ mixed_all_debt_rate_plus1,2047,participation,0,18.07198470110211,18.071984701102
 mixed_all_debt_rate_plus1,2047,delivery_contingency,0,18.07198470110211,18.07198470110211
 mixed_all_debt_rate_plus1,2047,New indexed income contributions,810.5178107268758,0,-810.5178107268758
 mixed_all_debt_rate_plus1,2048,HLT-4,0,85.904,85.904
-mixed_all_debt_rate_plus1,2048,HLT-7,0,8600.052,8600.052
+mixed_all_debt_rate_plus1,2048,HLT-7,0,7817.847,7817.847
 mixed_all_debt_rate_plus1,2048,HLT-8,0,0.542,0.542
 mixed_all_debt_rate_plus1,2048,FAM-1,0,257.522,257.522
 mixed_all_debt_rate_plus1,2048,FAM-2,0,125.597,125.597
@@ -7908,7 +7908,7 @@ mixed_all_debt_rate_plus1,2048,participation,0,18.724217201436563,18.72421720143
 mixed_all_debt_rate_plus1,2048,delivery_contingency,0,18.724217201436563,18.724217201436563
 mixed_all_debt_rate_plus1,2048,New indexed income contributions,839.7700520827328,0,-839.7700520827328
 mixed_all_debt_rate_plus1,2049,HLT-4,0,89.302,89.302
-mixed_all_debt_rate_plus1,2049,HLT-7,0,9001.262,9001.262
+mixed_all_debt_rate_plus1,2049,HLT-7,0,8182.545,8182.545
 mixed_all_debt_rate_plus1,2049,HLT-8,0,0.555,0.555
 mixed_all_debt_rate_plus1,2049,FAM-1,0,263.445,263.445
 mixed_all_debt_rate_plus1,2049,FAM-2,0,130.111,130.111
@@ -7984,7 +7984,7 @@ mixed_all_debt_rate_plus1,2049,participation,0,19.397130874988125,19.39713087498
 mixed_all_debt_rate_plus1,2049,delivery_contingency,0,19.397130874988125,19.397130874988125
 mixed_all_debt_rate_plus1,2049,New indexed income contributions,869.94983180897,0,-869.94983180897
 mixed_all_debt_rate_plus1,2050,HLT-4,0,92.776,92.776
-mixed_all_debt_rate_plus1,2050,HLT-7,0,9407.153,9407.153
+mixed_all_debt_rate_plus1,2050,HLT-7,0,8551.499,8551.499
 mixed_all_debt_rate_plus1,2050,HLT-8,0,0.567,0.567
 mixed_all_debt_rate_plus1,2050,FAM-1,0,269.504,269.504
 mixed_all_debt_rate_plus1,2050,FAM-2,0,134.755,134.755
@@ -8060,7 +8060,7 @@ mixed_all_debt_rate_plus1,2050,participation,0,20.089433148430718,20.08943314843
 mixed_all_debt_rate_plus1,2050,delivery_contingency,0,20.089433148430718,20.089433148430718
 mixed_all_debt_rate_plus1,2050,New indexed income contributions,900.9991787574384,0,-900.9991787574384
 mixed_all_debt_rate_plus1,2051,HLT-4,0,96.254,96.254
-mixed_all_debt_rate_plus1,2051,HLT-7,0,9832.332,9832.332
+mixed_all_debt_rate_plus1,2051,HLT-7,0,8937.98,8937.98
 mixed_all_debt_rate_plus1,2051,HLT-8,0,0.58,0.58
 mixed_all_debt_rate_plus1,2051,FAM-1,0,275.703,275.703
 mixed_all_debt_rate_plus1,2051,FAM-2,0,139.537,139.537
@@ -8136,7 +8136,7 @@ mixed_all_debt_rate_plus1,2051,participation,0,20.802416595090417,20.80241659509
 mixed_all_debt_rate_plus1,2051,delivery_contingency,0,20.802416595090417,20.802416595090417
 mixed_all_debt_rate_plus1,2051,New indexed income contributions,932.9760640762867,0,-932.9760640762867
 mixed_all_debt_rate_plus1,2052,HLT-4,0,99.964,99.964
-mixed_all_debt_rate_plus1,2052,HLT-7,0,10261.045,10261.045
+mixed_all_debt_rate_plus1,2052,HLT-7,0,9327.681,9327.681
 mixed_all_debt_rate_plus1,2052,HLT-8,0,0.594,0.594
 mixed_all_debt_rate_plus1,2052,FAM-1,0,282.044,282.044
 mixed_all_debt_rate_plus1,2052,FAM-2,0,144.471,144.471
@@ -8212,7 +8212,7 @@ mixed_all_debt_rate_plus1,2052,participation,0,21.537890817623715,21.53789081762
 mixed_all_debt_rate_plus1,2052,delivery_contingency,0,21.537890817623715,21.537890817623715
 mixed_all_debt_rate_plus1,2052,New indexed income contributions,965.9616473729229,0,-965.9616473729229
 mixed_all_debt_rate_plus1,2053,HLT-4,0,103.73,103.73
-mixed_all_debt_rate_plus1,2053,HLT-7,0,10699.076,10699.076
+mixed_all_debt_rate_plus1,2053,HLT-7,0,9725.851,9725.851
 mixed_all_debt_rate_plus1,2053,HLT-8,0,0.607,0.607
 mixed_all_debt_rate_plus1,2053,FAM-1,0,288.531,288.531
 mixed_all_debt_rate_plus1,2053,FAM-2,0,149.569,149.569
@@ -8288,7 +8288,7 @@ mixed_all_debt_rate_plus1,2053,participation,0,22.297923933352333,22.29792393335
 mixed_all_debt_rate_plus1,2053,delivery_contingency,0,22.297923933352333,22.297923933352333
 mixed_all_debt_rate_plus1,2053,New indexed income contributions,1000.0486824843855,0,-1000.0486824843855
 mixed_all_debt_rate_plus1,2054,HLT-4,0,107.63,107.63
-mixed_all_debt_rate_plus1,2054,HLT-7,0,11148.327,11148.327
+mixed_all_debt_rate_plus1,2054,HLT-7,0,10134.221,10134.221
 mixed_all_debt_rate_plus1,2054,HLT-8,0,0.621,0.621
 mixed_all_debt_rate_plus1,2054,FAM-1,0,295.167,295.167
 mixed_all_debt_rate_plus1,2054,FAM-2,0,154.837,154.837
@@ -8364,7 +8364,7 @@ mixed_all_debt_rate_plus1,2054,participation,0,23.0832914862719,23.0832914862719
 mixed_all_debt_rate_plus1,2054,delivery_contingency,0,23.0832914862719,23.0832914862719
 mixed_all_debt_rate_plus1,2054,New indexed income contributions,1035.2719520995636,0,-1035.2719520995636
 mixed_all_debt_rate_plus1,2055,HLT-4,0,111.759,111.759
-mixed_all_debt_rate_plus1,2055,HLT-7,0,11624.287,11624.287
+mixed_all_debt_rate_plus1,2055,HLT-7,0,10566.87,10566.87
 mixed_all_debt_rate_plus1,2055,HLT-8,0,0.636,0.636
 mixed_all_debt_rate_plus1,2055,FAM-1,0,301.956,301.956
 mixed_all_debt_rate_plus1,2055,FAM-2,0,160.287,160.287
@@ -8440,7 +8440,7 @@ mixed_all_debt_rate_plus1,2055,participation,0,23.89580307903892,23.895803079038
 mixed_all_debt_rate_plus1,2055,delivery_contingency,0,23.89580307903892,23.89580307903892
 mixed_all_debt_rate_plus1,2055,New indexed income contributions,1071.7126158258652,0,-1071.7126158258652
 mixed_all_debt_rate_plus1,2056,HLT-4,0,115.959,115.959
-mixed_all_debt_rate_plus1,2056,HLT-7,0,12120.084,12120.084
+mixed_all_debt_rate_plus1,2056,HLT-7,0,11017.547,11017.547
 mixed_all_debt_rate_plus1,2056,HLT-8,0,0.65,0.65
 mixed_all_debt_rate_plus1,2056,FAM-1,0,308.901,308.901
 mixed_all_debt_rate_plus1,2056,FAM-2,0,165.931,165.931
@@ -8598,7 +8598,7 @@ mixed_no_macro_translation,2031,HLT-1,0,21.5,21.5
 mixed_no_macro_translation,2031,HLT-2,0,40.5,40.5
 mixed_no_macro_translation,2031,HLT-4,0,37.058,37.058
 mixed_no_macro_translation,2031,HLT-6,0,-57.22,-57.22
-mixed_no_macro_translation,2031,HLT-7,0,707.446,707.446
+mixed_no_macro_translation,2031,HLT-7,0,651.168,651.168
 mixed_no_macro_translation,2031,HLT-8,0,0.369,0.369
 mixed_no_macro_translation,2031,FAM-1,0,175.298,175.298
 mixed_no_macro_translation,2031,FAM-2,0,22.434,22.434
@@ -8679,7 +8679,7 @@ mixed_no_macro_translation,2031,delivery_contingency,0,5.016838999005365,5.01683
 mixed_no_macro_translation,2032,HLT-2,0,78.0,78.0
 mixed_no_macro_translation,2032,HLT-4,0,56.876,56.876
 mixed_no_macro_translation,2032,HLT-6,0,-70.136,-70.136
-mixed_no_macro_translation,2032,HLT-7,0,977.249,977.249
+mixed_no_macro_translation,2032,HLT-7,0,903.717,903.717
 mixed_no_macro_translation,2032,HLT-8,0,0.377,0.377
 mixed_no_macro_translation,2032,FAM-1,0,179.26,179.26
 mixed_no_macro_translation,2032,FAM-2,0,34.921,34.921
@@ -8761,7 +8761,7 @@ mixed_no_macro_translation,2032,delivery_contingency,0,7.809049435113141,7.80904
 mixed_no_macro_translation,2033,HLT-2,0,113.0,113.0
 mixed_no_macro_translation,2033,HLT-4,0,56.129,56.129
 mixed_no_macro_translation,2033,HLT-6,0,-75.542,-75.542
-mixed_no_macro_translation,2033,HLT-7,0,1593.864,1593.864
+mixed_no_macro_translation,2033,HLT-7,0,1431.905,1431.905
 mixed_no_macro_translation,2033,HLT-8,0,0.386,0.386
 mixed_no_macro_translation,2033,FAM-1,0,183.311,183.311
 mixed_no_macro_translation,2033,FAM-2,0,48.317,48.317
@@ -8846,7 +8846,7 @@ mixed_no_macro_translation,2033,New indexed income contributions,68.816173513813
 mixed_no_macro_translation,2034,HLT-2,0,133.25,133.25
 mixed_no_macro_translation,2034,HLT-4,0,53.998,53.998
 mixed_no_macro_translation,2034,HLT-6,0,-81.399,-81.399
-mixed_no_macro_translation,2034,HLT-7,0,2446.732,2446.732
+mixed_no_macro_translation,2034,HLT-7,0,2165.433,2165.433
 mixed_no_macro_translation,2034,HLT-8,0,0.395,0.395
 mixed_no_macro_translation,2034,FAM-1,0,187.454,187.454
 mixed_no_macro_translation,2034,FAM-2,0,62.676,62.676
@@ -8931,7 +8931,7 @@ mixed_no_macro_translation,2034,New indexed income contributions,142.82666666666
 mixed_no_macro_translation,2035,HLT-2,0,34.25,34.25
 mixed_no_macro_translation,2035,HLT-4,0,51.672,51.672
 mixed_no_macro_translation,2035,HLT-6,0,-20.725,-20.725
-mixed_no_macro_translation,2035,HLT-7,0,4062.827,4062.827
+mixed_no_macro_translation,2035,HLT-7,0,3653.628,3653.628
 mixed_no_macro_translation,2035,HLT-8,0,0.404,0.404
 mixed_no_macro_translation,2035,FAM-1,0,191.691,191.691
 mixed_no_macro_translation,2035,FAM-2,0,78.052,78.052
@@ -9015,7 +9015,7 @@ mixed_no_macro_translation,2035,participation,0,11.636132853271599,11.6361328532
 mixed_no_macro_translation,2035,delivery_contingency,0,11.636132853271599,11.636132853271599
 mixed_no_macro_translation,2035,New indexed income contributions,252.28598460343113,0,-252.28598460343113
 mixed_no_macro_translation,2036,HLT-4,0,52.758,52.758
-mixed_no_macro_translation,2036,HLT-7,0,4650.612,4650.612
+mixed_no_macro_translation,2036,HLT-7,0,4221.646,4221.646
 mixed_no_macro_translation,2036,HLT-8,0,0.413,0.413
 mixed_no_macro_translation,2036,FAM-1,0,196.023,196.023
 mixed_no_macro_translation,2036,FAM-2,0,81.001,81.001
@@ -9098,7 +9098,7 @@ mixed_no_macro_translation,2036,participation,0,12.075762892934211,12.0757628929
 mixed_no_macro_translation,2036,delivery_contingency,0,12.075762892934211,12.075762892934211
 mixed_no_macro_translation,2036,New indexed income contributions,292.903616114061,0,-292.903616114061
 mixed_no_macro_translation,2037,HLT-4,0,54.901,54.901
-mixed_no_macro_translation,2037,HLT-7,0,4886.594,4886.594
+mixed_no_macro_translation,2037,HLT-7,0,4443.885,4443.885
 mixed_no_macro_translation,2037,HLT-8,0,0.422,0.422
 mixed_no_macro_translation,2037,FAM-1,0,200.532,200.532
 mixed_no_macro_translation,2037,FAM-2,0,84.055,84.055
@@ -9178,7 +9178,7 @@ mixed_no_macro_translation,2037,participation,0,12.530981366909218,12.5309813669
 mixed_no_macro_translation,2037,delivery_contingency,0,12.530981366909218,12.530981366909218
 mixed_no_macro_translation,2037,New indexed income contributions,336.20290676522194,0,-336.20290676522194
 mixed_no_macro_translation,2038,HLT-4,0,57.25,57.25
-mixed_no_macro_translation,2038,HLT-7,0,5157.547,5157.547
+mixed_no_macro_translation,2038,HLT-7,0,4689.764,4689.764
 mixed_no_macro_translation,2038,HLT-8,0,0.432,0.432
 mixed_no_macro_translation,2038,FAM-1,0,205.144,205.144
 mixed_no_macro_translation,2038,FAM-2,0,87.226,87.226
@@ -9258,7 +9258,7 @@ mixed_no_macro_translation,2038,participation,0,13.003804689585284,13.0038046895
 mixed_no_macro_translation,2038,delivery_contingency,0,13.003804689585284,13.003804689585284
 mixed_no_macro_translation,2038,New indexed income contributions,382.36353221913026,0,-382.36353221913026
 mixed_no_macro_translation,2039,HLT-4,0,59.718,59.718
-mixed_no_macro_translation,2039,HLT-7,0,5439.129,5439.129
+mixed_no_macro_translation,2039,HLT-7,0,4944.854,4944.854
 mixed_no_macro_translation,2039,HLT-8,0,0.442,0.442
 mixed_no_macro_translation,2039,FAM-1,0,209.862,209.862
 mixed_no_macro_translation,2039,FAM-2,0,90.511,90.511
@@ -9338,7 +9338,7 @@ mixed_no_macro_translation,2039,participation,0,13.49343146550025,13.49343146550
 mixed_no_macro_translation,2039,delivery_contingency,0,13.49343146550025,13.49343146550025
 mixed_no_macro_translation,2039,New indexed income contributions,431.49582254520647,0,-431.49582254520647
 mixed_no_macro_translation,2040,HLT-4,0,62.273,62.273
-mixed_no_macro_translation,2040,HLT-7,0,5745.188,5745.188
+mixed_no_macro_translation,2040,HLT-7,0,5222.808,5222.808
 mixed_no_macro_translation,2040,HLT-8,0,0.452,0.452
 mixed_no_macro_translation,2040,FAM-1,0,214.689,214.689
 mixed_no_macro_translation,2040,FAM-2,0,93.928,93.928
@@ -9415,7 +9415,7 @@ mixed_no_macro_translation,2040,participation,0,14.002963870636675,14.0029638706
 mixed_no_macro_translation,2040,delivery_contingency,0,14.002963870636675,14.002963870636675
 mixed_no_macro_translation,2040,New indexed income contributions,483.8367338431708,0,-483.8367338431708
 mixed_no_macro_translation,2041,HLT-4,0,64.939,64.939
-mixed_no_macro_translation,2041,HLT-7,0,6075.806,6075.806
+mixed_no_macro_translation,2041,HLT-7,0,5523.333,5523.333
 mixed_no_macro_translation,2041,HLT-8,0,0.462,0.462
 mixed_no_macro_translation,2041,FAM-1,0,219.627,219.627
 mixed_no_macro_translation,2041,FAM-2,0,97.481,97.481
@@ -9492,7 +9492,7 @@ mixed_no_macro_translation,2041,participation,0,14.532660419659782,14.5326604196
 mixed_no_macro_translation,2041,delivery_contingency,0,14.532660419659782,14.532660419659782
 mixed_no_macro_translation,2041,New indexed income contributions,539.5495894478861,0,-539.5495894478861
 mixed_no_macro_translation,2042,HLT-4,0,67.698,67.698
-mixed_no_macro_translation,2042,HLT-7,0,6411.843,6411.843
+mixed_no_macro_translation,2042,HLT-7,0,5828.786,5828.786
 mixed_no_macro_translation,2042,HLT-8,0,0.473,0.473
 mixed_no_macro_translation,2042,FAM-1,0,224.678,224.678
 mixed_no_macro_translation,2042,FAM-2,0,101.139,101.139
@@ -9568,7 +9568,7 @@ mixed_no_macro_translation,2042,participation,0,15.077867848595714,15.0778678485
 mixed_no_macro_translation,2042,delivery_contingency,0,15.077867848595714,15.077867848595714
 mixed_no_macro_translation,2042,New indexed income contributions,598.6053724295822,0,-598.6053724295822
 mixed_no_macro_translation,2043,HLT-4,0,70.567,70.567
-mixed_no_macro_translation,2043,HLT-7,0,6754.278,6754.278
+mixed_no_macro_translation,2043,HLT-7,0,6140.057,6140.057
 mixed_no_macro_translation,2043,HLT-8,0,0.484,0.484
 mixed_no_macro_translation,2043,FAM-1,0,229.846,229.846
 mixed_no_macro_translation,2043,FAM-2,0,104.926,104.926
@@ -9644,7 +9644,7 @@ mixed_no_macro_translation,2043,participation,0,15.642463877422685,15.6424638774
 mixed_no_macro_translation,2043,delivery_contingency,0,15.642463877422685,15.642463877422685
 mixed_no_macro_translation,2043,New indexed income contributions,661.2878001904397,0,-661.2878001904397
 mixed_no_macro_translation,2044,HLT-4,0,73.489,73.489
-mixed_no_macro_translation,2044,HLT-7,0,7105.204,7105.204
+mixed_no_macro_translation,2044,HLT-7,0,6459.045,6459.045
 mixed_no_macro_translation,2044,HLT-8,0,0.495,0.495
 mixed_no_macro_translation,2044,FAM-1,0,235.132,235.132
 mixed_no_macro_translation,2044,FAM-2,0,108.841,108.841
@@ -9720,7 +9720,7 @@ mixed_no_macro_translation,2044,participation,0,16.22618999147548,16.22618999147
 mixed_no_macro_translation,2044,delivery_contingency,0,16.22618999147548,16.22618999147548
 mixed_no_macro_translation,2044,New indexed income contributions,727.7350111704667,0,-727.7350111704667
 mixed_no_macro_translation,2045,HLT-4,0,76.444,76.444
-mixed_no_macro_translation,2045,HLT-7,0,7464.198,7464.198
+mixed_no_macro_translation,2045,HLT-7,0,6785.366,6785.366
 mixed_no_macro_translation,2045,HLT-8,0,0.506,0.506
 mixed_no_macro_translation,2045,FAM-1,0,240.54,240.54
 mixed_no_macro_translation,2045,FAM-2,0,112.862,112.862
@@ -9796,7 +9796,7 @@ mixed_no_macro_translation,2045,participation,0,16.825685500106314,16.8256855001
 mixed_no_macro_translation,2045,delivery_contingency,0,16.825685500106314,16.825685500106314
 mixed_no_macro_translation,2045,New indexed income contributions,754.6220296818549,0,-754.6220296818549
 mixed_no_macro_translation,2046,HLT-4,0,79.48,79.48
-mixed_no_macro_translation,2046,HLT-7,0,7836.34,7836.34
+mixed_no_macro_translation,2046,HLT-7,0,7123.638,7123.638
 mixed_no_macro_translation,2046,HLT-8,0,0.518,0.518
 mixed_no_macro_translation,2046,FAM-1,0,246.073,246.073
 mixed_no_macro_translation,2046,FAM-2,0,116.977,116.977
@@ -9872,7 +9872,7 @@ mixed_no_macro_translation,2046,participation,0,17.439140800658695,17.4391408006
 mixed_no_macro_translation,2046,delivery_contingency,0,17.439140800658695,17.439140800658695
 mixed_no_macro_translation,2046,New indexed income contributions,782.1351365932499,0,-782.1351365932499
 mixed_no_macro_translation,2047,HLT-4,0,82.686,82.686
-mixed_no_macro_translation,2047,HLT-7,0,8209.804,8209.804
+mixed_no_macro_translation,2047,HLT-7,0,7463.116,7463.116
 mixed_no_macro_translation,2047,HLT-8,0,0.53,0.53
 mixed_no_macro_translation,2047,FAM-1,0,251.732,251.732
 mixed_no_macro_translation,2047,FAM-2,0,121.222,121.222
@@ -9948,7 +9948,7 @@ mixed_no_macro_translation,2047,participation,0,18.07198470110211,18.07198470110
 mixed_no_macro_translation,2047,delivery_contingency,0,18.07198470110211,18.07198470110211
 mixed_no_macro_translation,2047,New indexed income contributions,810.5178107268758,0,-810.5178107268758
 mixed_no_macro_translation,2048,HLT-4,0,85.904,85.904
-mixed_no_macro_translation,2048,HLT-7,0,8600.052,8600.052
+mixed_no_macro_translation,2048,HLT-7,0,7817.847,7817.847
 mixed_no_macro_translation,2048,HLT-8,0,0.542,0.542
 mixed_no_macro_translation,2048,FAM-1,0,257.522,257.522
 mixed_no_macro_translation,2048,FAM-2,0,125.597,125.597
@@ -10024,7 +10024,7 @@ mixed_no_macro_translation,2048,participation,0,18.724217201436563,18.7242172014
 mixed_no_macro_translation,2048,delivery_contingency,0,18.724217201436563,18.724217201436563
 mixed_no_macro_translation,2048,New indexed income contributions,839.7700520827328,0,-839.7700520827328
 mixed_no_macro_translation,2049,HLT-4,0,89.302,89.302
-mixed_no_macro_translation,2049,HLT-7,0,9001.262,9001.262
+mixed_no_macro_translation,2049,HLT-7,0,8182.545,8182.545
 mixed_no_macro_translation,2049,HLT-8,0,0.555,0.555
 mixed_no_macro_translation,2049,FAM-1,0,263.445,263.445
 mixed_no_macro_translation,2049,FAM-2,0,130.111,130.111
@@ -10100,7 +10100,7 @@ mixed_no_macro_translation,2049,participation,0,19.397130874988125,19.3971308749
 mixed_no_macro_translation,2049,delivery_contingency,0,19.397130874988125,19.397130874988125
 mixed_no_macro_translation,2049,New indexed income contributions,869.94983180897,0,-869.94983180897
 mixed_no_macro_translation,2050,HLT-4,0,92.776,92.776
-mixed_no_macro_translation,2050,HLT-7,0,9407.153,9407.153
+mixed_no_macro_translation,2050,HLT-7,0,8551.499,8551.499
 mixed_no_macro_translation,2050,HLT-8,0,0.567,0.567
 mixed_no_macro_translation,2050,FAM-1,0,269.504,269.504
 mixed_no_macro_translation,2050,FAM-2,0,134.755,134.755
@@ -10176,7 +10176,7 @@ mixed_no_macro_translation,2050,participation,0,20.089433148430718,20.0894331484
 mixed_no_macro_translation,2050,delivery_contingency,0,20.089433148430718,20.089433148430718
 mixed_no_macro_translation,2050,New indexed income contributions,900.9991787574384,0,-900.9991787574384
 mixed_no_macro_translation,2051,HLT-4,0,96.254,96.254
-mixed_no_macro_translation,2051,HLT-7,0,9832.332,9832.332
+mixed_no_macro_translation,2051,HLT-7,0,8937.98,8937.98
 mixed_no_macro_translation,2051,HLT-8,0,0.58,0.58
 mixed_no_macro_translation,2051,FAM-1,0,275.703,275.703
 mixed_no_macro_translation,2051,FAM-2,0,139.537,139.537
@@ -10252,7 +10252,7 @@ mixed_no_macro_translation,2051,participation,0,20.802416595090417,20.8024165950
 mixed_no_macro_translation,2051,delivery_contingency,0,20.802416595090417,20.802416595090417
 mixed_no_macro_translation,2051,New indexed income contributions,932.9760640762867,0,-932.9760640762867
 mixed_no_macro_translation,2052,HLT-4,0,99.964,99.964
-mixed_no_macro_translation,2052,HLT-7,0,10261.045,10261.045
+mixed_no_macro_translation,2052,HLT-7,0,9327.681,9327.681
 mixed_no_macro_translation,2052,HLT-8,0,0.594,0.594
 mixed_no_macro_translation,2052,FAM-1,0,282.044,282.044
 mixed_no_macro_translation,2052,FAM-2,0,144.471,144.471
@@ -10328,7 +10328,7 @@ mixed_no_macro_translation,2052,participation,0,21.537890817623715,21.5378908176
 mixed_no_macro_translation,2052,delivery_contingency,0,21.537890817623715,21.537890817623715
 mixed_no_macro_translation,2052,New indexed income contributions,965.9616473729229,0,-965.9616473729229
 mixed_no_macro_translation,2053,HLT-4,0,103.73,103.73
-mixed_no_macro_translation,2053,HLT-7,0,10699.076,10699.076
+mixed_no_macro_translation,2053,HLT-7,0,9725.851,9725.851
 mixed_no_macro_translation,2053,HLT-8,0,0.607,0.607
 mixed_no_macro_translation,2053,FAM-1,0,288.531,288.531
 mixed_no_macro_translation,2053,FAM-2,0,149.569,149.569
@@ -10404,7 +10404,7 @@ mixed_no_macro_translation,2053,participation,0,22.297923933352333,22.2979239333
 mixed_no_macro_translation,2053,delivery_contingency,0,22.297923933352333,22.297923933352333
 mixed_no_macro_translation,2053,New indexed income contributions,1000.0486824843855,0,-1000.0486824843855
 mixed_no_macro_translation,2054,HLT-4,0,107.63,107.63
-mixed_no_macro_translation,2054,HLT-7,0,11148.327,11148.327
+mixed_no_macro_translation,2054,HLT-7,0,10134.221,10134.221
 mixed_no_macro_translation,2054,HLT-8,0,0.621,0.621
 mixed_no_macro_translation,2054,FAM-1,0,295.167,295.167
 mixed_no_macro_translation,2054,FAM-2,0,154.837,154.837
@@ -10480,7 +10480,7 @@ mixed_no_macro_translation,2054,participation,0,23.0832914862719,23.083291486271
 mixed_no_macro_translation,2054,delivery_contingency,0,23.0832914862719,23.0832914862719
 mixed_no_macro_translation,2054,New indexed income contributions,1035.2719520995636,0,-1035.2719520995636
 mixed_no_macro_translation,2055,HLT-4,0,111.759,111.759
-mixed_no_macro_translation,2055,HLT-7,0,11624.287,11624.287
+mixed_no_macro_translation,2055,HLT-7,0,10566.87,10566.87
 mixed_no_macro_translation,2055,HLT-8,0,0.636,0.636
 mixed_no_macro_translation,2055,FAM-1,0,301.956,301.956
 mixed_no_macro_translation,2055,FAM-2,0,160.287,160.287
@@ -10556,7 +10556,7 @@ mixed_no_macro_translation,2055,participation,0,23.89580307903892,23.89580307903
 mixed_no_macro_translation,2055,delivery_contingency,0,23.89580307903892,23.89580307903892
 mixed_no_macro_translation,2055,New indexed income contributions,1071.7126158258652,0,-1071.7126158258652
 mixed_no_macro_translation,2056,HLT-4,0,115.959,115.959
-mixed_no_macro_translation,2056,HLT-7,0,12120.084,12120.084
+mixed_no_macro_translation,2056,HLT-7,0,11017.547,11017.547
 mixed_no_macro_translation,2056,HLT-8,0,0.65,0.65
 mixed_no_macro_translation,2056,FAM-1,0,308.901,308.901
 mixed_no_macro_translation,2056,FAM-2,0,165.931,165.931
@@ -10714,7 +10714,7 @@ mixed_leave_admin_high,2031,HLT-1,0,21.5,21.5
 mixed_leave_admin_high,2031,HLT-2,0,40.5,40.5
 mixed_leave_admin_high,2031,HLT-4,0,37.058,37.058
 mixed_leave_admin_high,2031,HLT-6,0,-57.22,-57.22
-mixed_leave_admin_high,2031,HLT-7,0,707.446,707.446
+mixed_leave_admin_high,2031,HLT-7,0,651.168,651.168
 mixed_leave_admin_high,2031,HLT-8,0,0.369,0.369
 mixed_leave_admin_high,2031,FAM-1,0,175.298,175.298
 mixed_leave_admin_high,2031,FAM-2,0,22.434,22.434
@@ -10795,7 +10795,7 @@ mixed_leave_admin_high,2031,delivery_contingency,0,5.016838999005365,5.016838999
 mixed_leave_admin_high,2032,HLT-2,0,78.0,78.0
 mixed_leave_admin_high,2032,HLT-4,0,56.876,56.876
 mixed_leave_admin_high,2032,HLT-6,0,-70.136,-70.136
-mixed_leave_admin_high,2032,HLT-7,0,977.249,977.249
+mixed_leave_admin_high,2032,HLT-7,0,903.717,903.717
 mixed_leave_admin_high,2032,HLT-8,0,0.377,0.377
 mixed_leave_admin_high,2032,FAM-1,0,179.26,179.26
 mixed_leave_admin_high,2032,FAM-2,0,34.921,34.921
@@ -10877,7 +10877,7 @@ mixed_leave_admin_high,2032,delivery_contingency,0,7.809049435113141,7.809049435
 mixed_leave_admin_high,2033,HLT-2,0,113.0,113.0
 mixed_leave_admin_high,2033,HLT-4,0,56.129,56.129
 mixed_leave_admin_high,2033,HLT-6,0,-75.542,-75.542
-mixed_leave_admin_high,2033,HLT-7,0,1593.864,1593.864
+mixed_leave_admin_high,2033,HLT-7,0,1431.905,1431.905
 mixed_leave_admin_high,2033,HLT-8,0,0.386,0.386
 mixed_leave_admin_high,2033,FAM-1,0,183.311,183.311
 mixed_leave_admin_high,2033,FAM-2,0,48.317,48.317
@@ -10962,7 +10962,7 @@ mixed_leave_admin_high,2033,New indexed income contributions,68.81617351381303,0
 mixed_leave_admin_high,2034,HLT-2,0,133.25,133.25
 mixed_leave_admin_high,2034,HLT-4,0,53.998,53.998
 mixed_leave_admin_high,2034,HLT-6,0,-81.399,-81.399
-mixed_leave_admin_high,2034,HLT-7,0,2446.732,2446.732
+mixed_leave_admin_high,2034,HLT-7,0,2165.433,2165.433
 mixed_leave_admin_high,2034,HLT-8,0,0.395,0.395
 mixed_leave_admin_high,2034,FAM-1,0,187.454,187.454
 mixed_leave_admin_high,2034,FAM-2,0,62.676,62.676
@@ -11047,7 +11047,7 @@ mixed_leave_admin_high,2034,New indexed income contributions,142.82666666666668,
 mixed_leave_admin_high,2035,HLT-2,0,34.25,34.25
 mixed_leave_admin_high,2035,HLT-4,0,51.672,51.672
 mixed_leave_admin_high,2035,HLT-6,0,-20.725,-20.725
-mixed_leave_admin_high,2035,HLT-7,0,4062.827,4062.827
+mixed_leave_admin_high,2035,HLT-7,0,3653.628,3653.628
 mixed_leave_admin_high,2035,HLT-8,0,0.404,0.404
 mixed_leave_admin_high,2035,FAM-1,0,191.691,191.691
 mixed_leave_admin_high,2035,FAM-2,0,78.052,78.052
@@ -11131,7 +11131,7 @@ mixed_leave_admin_high,2035,participation,0,11.636132853271599,11.63613285327159
 mixed_leave_admin_high,2035,delivery_contingency,0,11.636132853271599,11.636132853271599
 mixed_leave_admin_high,2035,New indexed income contributions,252.28598460343113,0,-252.28598460343113
 mixed_leave_admin_high,2036,HLT-4,0,52.758,52.758
-mixed_leave_admin_high,2036,HLT-7,0,4650.612,4650.612
+mixed_leave_admin_high,2036,HLT-7,0,4221.646,4221.646
 mixed_leave_admin_high,2036,HLT-8,0,0.413,0.413
 mixed_leave_admin_high,2036,FAM-1,0,196.023,196.023
 mixed_leave_admin_high,2036,FAM-2,0,81.001,81.001
@@ -11214,7 +11214,7 @@ mixed_leave_admin_high,2036,participation,0,12.075762892934211,12.07576289293421
 mixed_leave_admin_high,2036,delivery_contingency,0,12.075762892934211,12.075762892934211
 mixed_leave_admin_high,2036,New indexed income contributions,292.903616114061,0,-292.903616114061
 mixed_leave_admin_high,2037,HLT-4,0,54.901,54.901
-mixed_leave_admin_high,2037,HLT-7,0,4886.594,4886.594
+mixed_leave_admin_high,2037,HLT-7,0,4443.885,4443.885
 mixed_leave_admin_high,2037,HLT-8,0,0.422,0.422
 mixed_leave_admin_high,2037,FAM-1,0,200.532,200.532
 mixed_leave_admin_high,2037,FAM-2,0,84.055,84.055
@@ -11294,7 +11294,7 @@ mixed_leave_admin_high,2037,participation,0,12.530981366909218,12.53098136690921
 mixed_leave_admin_high,2037,delivery_contingency,0,12.530981366909218,12.530981366909218
 mixed_leave_admin_high,2037,New indexed income contributions,336.20290676522194,0,-336.20290676522194
 mixed_leave_admin_high,2038,HLT-4,0,57.25,57.25
-mixed_leave_admin_high,2038,HLT-7,0,5157.547,5157.547
+mixed_leave_admin_high,2038,HLT-7,0,4689.764,4689.764
 mixed_leave_admin_high,2038,HLT-8,0,0.432,0.432
 mixed_leave_admin_high,2038,FAM-1,0,205.144,205.144
 mixed_leave_admin_high,2038,FAM-2,0,87.226,87.226
@@ -11374,7 +11374,7 @@ mixed_leave_admin_high,2038,participation,0,13.003804689585284,13.00380468958528
 mixed_leave_admin_high,2038,delivery_contingency,0,13.003804689585284,13.003804689585284
 mixed_leave_admin_high,2038,New indexed income contributions,382.36353221913026,0,-382.36353221913026
 mixed_leave_admin_high,2039,HLT-4,0,59.718,59.718
-mixed_leave_admin_high,2039,HLT-7,0,5439.129,5439.129
+mixed_leave_admin_high,2039,HLT-7,0,4944.854,4944.854
 mixed_leave_admin_high,2039,HLT-8,0,0.442,0.442
 mixed_leave_admin_high,2039,FAM-1,0,209.862,209.862
 mixed_leave_admin_high,2039,FAM-2,0,90.511,90.511
@@ -11454,7 +11454,7 @@ mixed_leave_admin_high,2039,participation,0,13.49343146550025,13.49343146550025
 mixed_leave_admin_high,2039,delivery_contingency,0,13.49343146550025,13.49343146550025
 mixed_leave_admin_high,2039,New indexed income contributions,431.49582254520647,0,-431.49582254520647
 mixed_leave_admin_high,2040,HLT-4,0,62.273,62.273
-mixed_leave_admin_high,2040,HLT-7,0,5745.188,5745.188
+mixed_leave_admin_high,2040,HLT-7,0,5222.808,5222.808
 mixed_leave_admin_high,2040,HLT-8,0,0.452,0.452
 mixed_leave_admin_high,2040,FAM-1,0,214.689,214.689
 mixed_leave_admin_high,2040,FAM-2,0,93.928,93.928
@@ -11531,7 +11531,7 @@ mixed_leave_admin_high,2040,participation,0,14.002963870636675,14.00296387063667
 mixed_leave_admin_high,2040,delivery_contingency,0,14.002963870636675,14.002963870636675
 mixed_leave_admin_high,2040,New indexed income contributions,483.8367338431708,0,-483.8367338431708
 mixed_leave_admin_high,2041,HLT-4,0,64.939,64.939
-mixed_leave_admin_high,2041,HLT-7,0,6075.806,6075.806
+mixed_leave_admin_high,2041,HLT-7,0,5523.333,5523.333
 mixed_leave_admin_high,2041,HLT-8,0,0.462,0.462
 mixed_leave_admin_high,2041,FAM-1,0,219.627,219.627
 mixed_leave_admin_high,2041,FAM-2,0,97.481,97.481
@@ -11608,7 +11608,7 @@ mixed_leave_admin_high,2041,participation,0,14.532660419659782,14.53266041965978
 mixed_leave_admin_high,2041,delivery_contingency,0,14.532660419659782,14.532660419659782
 mixed_leave_admin_high,2041,New indexed income contributions,539.5495894478861,0,-539.5495894478861
 mixed_leave_admin_high,2042,HLT-4,0,67.698,67.698
-mixed_leave_admin_high,2042,HLT-7,0,6411.843,6411.843
+mixed_leave_admin_high,2042,HLT-7,0,5828.786,5828.786
 mixed_leave_admin_high,2042,HLT-8,0,0.473,0.473
 mixed_leave_admin_high,2042,FAM-1,0,224.678,224.678
 mixed_leave_admin_high,2042,FAM-2,0,101.139,101.139
@@ -11684,7 +11684,7 @@ mixed_leave_admin_high,2042,participation,0,15.077867848595714,15.07786784859571
 mixed_leave_admin_high,2042,delivery_contingency,0,15.077867848595714,15.077867848595714
 mixed_leave_admin_high,2042,New indexed income contributions,598.6053724295822,0,-598.6053724295822
 mixed_leave_admin_high,2043,HLT-4,0,70.567,70.567
-mixed_leave_admin_high,2043,HLT-7,0,6754.278,6754.278
+mixed_leave_admin_high,2043,HLT-7,0,6140.057,6140.057
 mixed_leave_admin_high,2043,HLT-8,0,0.484,0.484
 mixed_leave_admin_high,2043,FAM-1,0,229.846,229.846
 mixed_leave_admin_high,2043,FAM-2,0,104.926,104.926
@@ -11760,7 +11760,7 @@ mixed_leave_admin_high,2043,participation,0,15.642463877422685,15.64246387742268
 mixed_leave_admin_high,2043,delivery_contingency,0,15.642463877422685,15.642463877422685
 mixed_leave_admin_high,2043,New indexed income contributions,661.2878001904397,0,-661.2878001904397
 mixed_leave_admin_high,2044,HLT-4,0,73.489,73.489
-mixed_leave_admin_high,2044,HLT-7,0,7105.204,7105.204
+mixed_leave_admin_high,2044,HLT-7,0,6459.045,6459.045
 mixed_leave_admin_high,2044,HLT-8,0,0.495,0.495
 mixed_leave_admin_high,2044,FAM-1,0,235.132,235.132
 mixed_leave_admin_high,2044,FAM-2,0,108.841,108.841
@@ -11836,7 +11836,7 @@ mixed_leave_admin_high,2044,participation,0,16.22618999147548,16.22618999147548
 mixed_leave_admin_high,2044,delivery_contingency,0,16.22618999147548,16.22618999147548
 mixed_leave_admin_high,2044,New indexed income contributions,727.7350111704667,0,-727.7350111704667
 mixed_leave_admin_high,2045,HLT-4,0,76.444,76.444
-mixed_leave_admin_high,2045,HLT-7,0,7464.198,7464.198
+mixed_leave_admin_high,2045,HLT-7,0,6785.366,6785.366
 mixed_leave_admin_high,2045,HLT-8,0,0.506,0.506
 mixed_leave_admin_high,2045,FAM-1,0,240.54,240.54
 mixed_leave_admin_high,2045,FAM-2,0,112.862,112.862
@@ -11912,7 +11912,7 @@ mixed_leave_admin_high,2045,participation,0,16.825685500106314,16.82568550010631
 mixed_leave_admin_high,2045,delivery_contingency,0,16.825685500106314,16.825685500106314
 mixed_leave_admin_high,2045,New indexed income contributions,754.6220296818549,0,-754.6220296818549
 mixed_leave_admin_high,2046,HLT-4,0,79.48,79.48
-mixed_leave_admin_high,2046,HLT-7,0,7836.34,7836.34
+mixed_leave_admin_high,2046,HLT-7,0,7123.638,7123.638
 mixed_leave_admin_high,2046,HLT-8,0,0.518,0.518
 mixed_leave_admin_high,2046,FAM-1,0,246.073,246.073
 mixed_leave_admin_high,2046,FAM-2,0,116.977,116.977
@@ -11988,7 +11988,7 @@ mixed_leave_admin_high,2046,participation,0,17.439140800658695,17.43914080065869
 mixed_leave_admin_high,2046,delivery_contingency,0,17.439140800658695,17.439140800658695
 mixed_leave_admin_high,2046,New indexed income contributions,782.1351365932499,0,-782.1351365932499
 mixed_leave_admin_high,2047,HLT-4,0,82.686,82.686
-mixed_leave_admin_high,2047,HLT-7,0,8209.804,8209.804
+mixed_leave_admin_high,2047,HLT-7,0,7463.116,7463.116
 mixed_leave_admin_high,2047,HLT-8,0,0.53,0.53
 mixed_leave_admin_high,2047,FAM-1,0,251.732,251.732
 mixed_leave_admin_high,2047,FAM-2,0,121.222,121.222
@@ -12064,7 +12064,7 @@ mixed_leave_admin_high,2047,participation,0,18.07198470110211,18.07198470110211
 mixed_leave_admin_high,2047,delivery_contingency,0,18.07198470110211,18.07198470110211
 mixed_leave_admin_high,2047,New indexed income contributions,810.5178107268758,0,-810.5178107268758
 mixed_leave_admin_high,2048,HLT-4,0,85.904,85.904
-mixed_leave_admin_high,2048,HLT-7,0,8600.052,8600.052
+mixed_leave_admin_high,2048,HLT-7,0,7817.847,7817.847
 mixed_leave_admin_high,2048,HLT-8,0,0.542,0.542
 mixed_leave_admin_high,2048,FAM-1,0,257.522,257.522
 mixed_leave_admin_high,2048,FAM-2,0,125.597,125.597
@@ -12140,7 +12140,7 @@ mixed_leave_admin_high,2048,participation,0,18.724217201436563,18.72421720143656
 mixed_leave_admin_high,2048,delivery_contingency,0,18.724217201436563,18.724217201436563
 mixed_leave_admin_high,2048,New indexed income contributions,839.7700520827328,0,-839.7700520827328
 mixed_leave_admin_high,2049,HLT-4,0,89.302,89.302
-mixed_leave_admin_high,2049,HLT-7,0,9001.262,9001.262
+mixed_leave_admin_high,2049,HLT-7,0,8182.545,8182.545
 mixed_leave_admin_high,2049,HLT-8,0,0.555,0.555
 mixed_leave_admin_high,2049,FAM-1,0,263.445,263.445
 mixed_leave_admin_high,2049,FAM-2,0,130.111,130.111
@@ -12216,7 +12216,7 @@ mixed_leave_admin_high,2049,participation,0,19.397130874988125,19.39713087498812
 mixed_leave_admin_high,2049,delivery_contingency,0,19.397130874988125,19.397130874988125
 mixed_leave_admin_high,2049,New indexed income contributions,869.94983180897,0,-869.94983180897
 mixed_leave_admin_high,2050,HLT-4,0,92.776,92.776
-mixed_leave_admin_high,2050,HLT-7,0,9407.153,9407.153
+mixed_leave_admin_high,2050,HLT-7,0,8551.499,8551.499
 mixed_leave_admin_high,2050,HLT-8,0,0.567,0.567
 mixed_leave_admin_high,2050,FAM-1,0,269.504,269.504
 mixed_leave_admin_high,2050,FAM-2,0,134.755,134.755
@@ -12292,7 +12292,7 @@ mixed_leave_admin_high,2050,participation,0,20.089433148430718,20.08943314843071
 mixed_leave_admin_high,2050,delivery_contingency,0,20.089433148430718,20.089433148430718
 mixed_leave_admin_high,2050,New indexed income contributions,900.9991787574384,0,-900.9991787574384
 mixed_leave_admin_high,2051,HLT-4,0,96.254,96.254
-mixed_leave_admin_high,2051,HLT-7,0,9832.332,9832.332
+mixed_leave_admin_high,2051,HLT-7,0,8937.98,8937.98
 mixed_leave_admin_high,2051,HLT-8,0,0.58,0.58
 mixed_leave_admin_high,2051,FAM-1,0,275.703,275.703
 mixed_leave_admin_high,2051,FAM-2,0,139.537,139.537
@@ -12368,7 +12368,7 @@ mixed_leave_admin_high,2051,participation,0,20.802416595090417,20.80241659509041
 mixed_leave_admin_high,2051,delivery_contingency,0,20.802416595090417,20.802416595090417
 mixed_leave_admin_high,2051,New indexed income contributions,932.9760640762867,0,-932.9760640762867
 mixed_leave_admin_high,2052,HLT-4,0,99.964,99.964
-mixed_leave_admin_high,2052,HLT-7,0,10261.045,10261.045
+mixed_leave_admin_high,2052,HLT-7,0,9327.681,9327.681
 mixed_leave_admin_high,2052,HLT-8,0,0.594,0.594
 mixed_leave_admin_high,2052,FAM-1,0,282.044,282.044
 mixed_leave_admin_high,2052,FAM-2,0,144.471,144.471
@@ -12444,7 +12444,7 @@ mixed_leave_admin_high,2052,participation,0,21.537890817623715,21.53789081762371
 mixed_leave_admin_high,2052,delivery_contingency,0,21.537890817623715,21.537890817623715
 mixed_leave_admin_high,2052,New indexed income contributions,965.9616473729229,0,-965.9616473729229
 mixed_leave_admin_high,2053,HLT-4,0,103.73,103.73
-mixed_leave_admin_high,2053,HLT-7,0,10699.076,10699.076
+mixed_leave_admin_high,2053,HLT-7,0,9725.851,9725.851
 mixed_leave_admin_high,2053,HLT-8,0,0.607,0.607
 mixed_leave_admin_high,2053,FAM-1,0,288.531,288.531
 mixed_leave_admin_high,2053,FAM-2,0,149.569,149.569
@@ -12520,7 +12520,7 @@ mixed_leave_admin_high,2053,participation,0,22.297923933352333,22.29792393335233
 mixed_leave_admin_high,2053,delivery_contingency,0,22.297923933352333,22.297923933352333
 mixed_leave_admin_high,2053,New indexed income contributions,1000.0486824843855,0,-1000.0486824843855
 mixed_leave_admin_high,2054,HLT-4,0,107.63,107.63
-mixed_leave_admin_high,2054,HLT-7,0,11148.327,11148.327
+mixed_leave_admin_high,2054,HLT-7,0,10134.221,10134.221
 mixed_leave_admin_high,2054,HLT-8,0,0.621,0.621
 mixed_leave_admin_high,2054,FAM-1,0,295.167,295.167
 mixed_leave_admin_high,2054,FAM-2,0,154.837,154.837
@@ -12596,7 +12596,7 @@ mixed_leave_admin_high,2054,participation,0,23.0832914862719,23.0832914862719
 mixed_leave_admin_high,2054,delivery_contingency,0,23.0832914862719,23.0832914862719
 mixed_leave_admin_high,2054,New indexed income contributions,1035.2719520995636,0,-1035.2719520995636
 mixed_leave_admin_high,2055,HLT-4,0,111.759,111.759
-mixed_leave_admin_high,2055,HLT-7,0,11624.287,11624.287
+mixed_leave_admin_high,2055,HLT-7,0,10566.87,10566.87
 mixed_leave_admin_high,2055,HLT-8,0,0.636,0.636
 mixed_leave_admin_high,2055,FAM-1,0,301.956,301.956
 mixed_leave_admin_high,2055,FAM-2,0,160.287,160.287
@@ -12672,7 +12672,7 @@ mixed_leave_admin_high,2055,participation,0,23.89580307903892,23.89580307903892
 mixed_leave_admin_high,2055,delivery_contingency,0,23.89580307903892,23.89580307903892
 mixed_leave_admin_high,2055,New indexed income contributions,1071.7126158258652,0,-1071.7126158258652
 mixed_leave_admin_high,2056,HLT-4,0,115.959,115.959
-mixed_leave_admin_high,2056,HLT-7,0,12120.084,12120.084
+mixed_leave_admin_high,2056,HLT-7,0,11017.547,11017.547
 mixed_leave_admin_high,2056,HLT-8,0,0.65,0.65
 mixed_leave_admin_high,2056,FAM-1,0,308.901,308.901
 mixed_leave_admin_high,2056,FAM-2,0,165.931,165.931
@@ -12829,7 +12829,7 @@ mixed_ssa_medicare_all_hi,2031,HLT-1,0,21.5,21.5
 mixed_ssa_medicare_all_hi,2031,HLT-2,0,40.5,40.5
 mixed_ssa_medicare_all_hi,2031,HLT-4,0,37.058,37.058
 mixed_ssa_medicare_all_hi,2031,HLT-6,0,-57.22,-57.22
-mixed_ssa_medicare_all_hi,2031,HLT-7,0,707.446,707.446
+mixed_ssa_medicare_all_hi,2031,HLT-7,0,651.168,651.168
 mixed_ssa_medicare_all_hi,2031,HLT-8,0,0.369,0.369
 mixed_ssa_medicare_all_hi,2031,FAM-1,0,175.298,175.298
 mixed_ssa_medicare_all_hi,2031,FAM-2,0,22.434,22.434
@@ -12910,7 +12910,7 @@ mixed_ssa_medicare_all_hi,2031,delivery_contingency,0,5.016838999005365,5.016838
 mixed_ssa_medicare_all_hi,2032,HLT-2,0,78.0,78.0
 mixed_ssa_medicare_all_hi,2032,HLT-4,0,56.876,56.876
 mixed_ssa_medicare_all_hi,2032,HLT-6,0,-70.136,-70.136
-mixed_ssa_medicare_all_hi,2032,HLT-7,0,977.249,977.249
+mixed_ssa_medicare_all_hi,2032,HLT-7,0,903.717,903.717
 mixed_ssa_medicare_all_hi,2032,HLT-8,0,0.377,0.377
 mixed_ssa_medicare_all_hi,2032,FAM-1,0,179.26,179.26
 mixed_ssa_medicare_all_hi,2032,FAM-2,0,34.921,34.921
@@ -12992,7 +12992,7 @@ mixed_ssa_medicare_all_hi,2032,delivery_contingency,0,7.809049435113141,7.809049
 mixed_ssa_medicare_all_hi,2033,HLT-2,0,113.0,113.0
 mixed_ssa_medicare_all_hi,2033,HLT-4,0,56.129,56.129
 mixed_ssa_medicare_all_hi,2033,HLT-6,0,-75.542,-75.542
-mixed_ssa_medicare_all_hi,2033,HLT-7,0,1593.864,1593.864
+mixed_ssa_medicare_all_hi,2033,HLT-7,0,1431.905,1431.905
 mixed_ssa_medicare_all_hi,2033,HLT-8,0,0.386,0.386
 mixed_ssa_medicare_all_hi,2033,FAM-1,0,183.311,183.311
 mixed_ssa_medicare_all_hi,2033,FAM-2,0,48.317,48.317
@@ -13077,7 +13077,7 @@ mixed_ssa_medicare_all_hi,2033,New indexed income contributions,68.8161735138130
 mixed_ssa_medicare_all_hi,2034,HLT-2,0,133.25,133.25
 mixed_ssa_medicare_all_hi,2034,HLT-4,0,53.998,53.998
 mixed_ssa_medicare_all_hi,2034,HLT-6,0,-81.399,-81.399
-mixed_ssa_medicare_all_hi,2034,HLT-7,0,2446.732,2446.732
+mixed_ssa_medicare_all_hi,2034,HLT-7,0,2165.433,2165.433
 mixed_ssa_medicare_all_hi,2034,HLT-8,0,0.395,0.395
 mixed_ssa_medicare_all_hi,2034,FAM-1,0,187.454,187.454
 mixed_ssa_medicare_all_hi,2034,FAM-2,0,62.676,62.676
@@ -13162,7 +13162,7 @@ mixed_ssa_medicare_all_hi,2034,New indexed income contributions,142.826666666666
 mixed_ssa_medicare_all_hi,2035,HLT-2,0,34.25,34.25
 mixed_ssa_medicare_all_hi,2035,HLT-4,0,51.672,51.672
 mixed_ssa_medicare_all_hi,2035,HLT-6,0,-20.725,-20.725
-mixed_ssa_medicare_all_hi,2035,HLT-7,0,4062.827,4062.827
+mixed_ssa_medicare_all_hi,2035,HLT-7,0,3653.628,3653.628
 mixed_ssa_medicare_all_hi,2035,HLT-8,0,0.404,0.404
 mixed_ssa_medicare_all_hi,2035,FAM-1,0,191.691,191.691
 mixed_ssa_medicare_all_hi,2035,FAM-2,0,78.052,78.052
@@ -13246,7 +13246,7 @@ mixed_ssa_medicare_all_hi,2035,participation,0,11.636132853271599,11.63613285327
 mixed_ssa_medicare_all_hi,2035,delivery_contingency,0,11.636132853271599,11.636132853271599
 mixed_ssa_medicare_all_hi,2035,New indexed income contributions,252.28598460343113,0,-252.28598460343113
 mixed_ssa_medicare_all_hi,2036,HLT-4,0,52.758,52.758
-mixed_ssa_medicare_all_hi,2036,HLT-7,0,4650.612,4650.612
+mixed_ssa_medicare_all_hi,2036,HLT-7,0,4221.646,4221.646
 mixed_ssa_medicare_all_hi,2036,HLT-8,0,0.413,0.413
 mixed_ssa_medicare_all_hi,2036,FAM-1,0,196.023,196.023
 mixed_ssa_medicare_all_hi,2036,FAM-2,0,81.001,81.001
@@ -13329,7 +13329,7 @@ mixed_ssa_medicare_all_hi,2036,participation,0,12.075762892934211,12.07576289293
 mixed_ssa_medicare_all_hi,2036,delivery_contingency,0,12.075762892934211,12.075762892934211
 mixed_ssa_medicare_all_hi,2036,New indexed income contributions,292.903616114061,0,-292.903616114061
 mixed_ssa_medicare_all_hi,2037,HLT-4,0,54.901,54.901
-mixed_ssa_medicare_all_hi,2037,HLT-7,0,4886.594,4886.594
+mixed_ssa_medicare_all_hi,2037,HLT-7,0,4443.885,4443.885
 mixed_ssa_medicare_all_hi,2037,HLT-8,0,0.422,0.422
 mixed_ssa_medicare_all_hi,2037,FAM-1,0,200.532,200.532
 mixed_ssa_medicare_all_hi,2037,FAM-2,0,84.055,84.055
@@ -13409,7 +13409,7 @@ mixed_ssa_medicare_all_hi,2037,participation,0,12.530981366909218,12.53098136690
 mixed_ssa_medicare_all_hi,2037,delivery_contingency,0,12.530981366909218,12.530981366909218
 mixed_ssa_medicare_all_hi,2037,New indexed income contributions,336.20290676522194,0,-336.20290676522194
 mixed_ssa_medicare_all_hi,2038,HLT-4,0,57.25,57.25
-mixed_ssa_medicare_all_hi,2038,HLT-7,0,5157.547,5157.547
+mixed_ssa_medicare_all_hi,2038,HLT-7,0,4689.764,4689.764
 mixed_ssa_medicare_all_hi,2038,HLT-8,0,0.432,0.432
 mixed_ssa_medicare_all_hi,2038,FAM-1,0,205.144,205.144
 mixed_ssa_medicare_all_hi,2038,FAM-2,0,87.226,87.226
@@ -13489,7 +13489,7 @@ mixed_ssa_medicare_all_hi,2038,participation,0,13.003804689585284,13.00380468958
 mixed_ssa_medicare_all_hi,2038,delivery_contingency,0,13.003804689585284,13.003804689585284
 mixed_ssa_medicare_all_hi,2038,New indexed income contributions,382.36353221913026,0,-382.36353221913026
 mixed_ssa_medicare_all_hi,2039,HLT-4,0,59.718,59.718
-mixed_ssa_medicare_all_hi,2039,HLT-7,0,5439.129,5439.129
+mixed_ssa_medicare_all_hi,2039,HLT-7,0,4944.854,4944.854
 mixed_ssa_medicare_all_hi,2039,HLT-8,0,0.442,0.442
 mixed_ssa_medicare_all_hi,2039,FAM-1,0,209.862,209.862
 mixed_ssa_medicare_all_hi,2039,FAM-2,0,90.511,90.511
@@ -13569,7 +13569,7 @@ mixed_ssa_medicare_all_hi,2039,participation,0,13.49343146550025,13.493431465500
 mixed_ssa_medicare_all_hi,2039,delivery_contingency,0,13.49343146550025,13.49343146550025
 mixed_ssa_medicare_all_hi,2039,New indexed income contributions,431.49582254520647,0,-431.49582254520647
 mixed_ssa_medicare_all_hi,2040,HLT-4,0,62.273,62.273
-mixed_ssa_medicare_all_hi,2040,HLT-7,0,5745.188,5745.188
+mixed_ssa_medicare_all_hi,2040,HLT-7,0,5222.808,5222.808
 mixed_ssa_medicare_all_hi,2040,HLT-8,0,0.452,0.452
 mixed_ssa_medicare_all_hi,2040,FAM-1,0,214.689,214.689
 mixed_ssa_medicare_all_hi,2040,FAM-2,0,93.928,93.928
@@ -13646,7 +13646,7 @@ mixed_ssa_medicare_all_hi,2040,participation,0,14.002963870636675,14.00296387063
 mixed_ssa_medicare_all_hi,2040,delivery_contingency,0,14.002963870636675,14.002963870636675
 mixed_ssa_medicare_all_hi,2040,New indexed income contributions,483.8367338431708,0,-483.8367338431708
 mixed_ssa_medicare_all_hi,2041,HLT-4,0,64.939,64.939
-mixed_ssa_medicare_all_hi,2041,HLT-7,0,6075.806,6075.806
+mixed_ssa_medicare_all_hi,2041,HLT-7,0,5523.333,5523.333
 mixed_ssa_medicare_all_hi,2041,HLT-8,0,0.462,0.462
 mixed_ssa_medicare_all_hi,2041,FAM-1,0,219.627,219.627
 mixed_ssa_medicare_all_hi,2041,FAM-2,0,97.481,97.481
@@ -13723,7 +13723,7 @@ mixed_ssa_medicare_all_hi,2041,participation,0,14.532660419659782,14.53266041965
 mixed_ssa_medicare_all_hi,2041,delivery_contingency,0,14.532660419659782,14.532660419659782
 mixed_ssa_medicare_all_hi,2041,New indexed income contributions,539.5495894478861,0,-539.5495894478861
 mixed_ssa_medicare_all_hi,2042,HLT-4,0,67.698,67.698
-mixed_ssa_medicare_all_hi,2042,HLT-7,0,6411.843,6411.843
+mixed_ssa_medicare_all_hi,2042,HLT-7,0,5828.786,5828.786
 mixed_ssa_medicare_all_hi,2042,HLT-8,0,0.473,0.473
 mixed_ssa_medicare_all_hi,2042,FAM-1,0,224.678,224.678
 mixed_ssa_medicare_all_hi,2042,FAM-2,0,101.139,101.139
@@ -13799,7 +13799,7 @@ mixed_ssa_medicare_all_hi,2042,participation,0,15.077867848595714,15.07786784859
 mixed_ssa_medicare_all_hi,2042,delivery_contingency,0,15.077867848595714,15.077867848595714
 mixed_ssa_medicare_all_hi,2042,New indexed income contributions,598.6053724295822,0,-598.6053724295822
 mixed_ssa_medicare_all_hi,2043,HLT-4,0,70.567,70.567
-mixed_ssa_medicare_all_hi,2043,HLT-7,0,6754.278,6754.278
+mixed_ssa_medicare_all_hi,2043,HLT-7,0,6140.057,6140.057
 mixed_ssa_medicare_all_hi,2043,HLT-8,0,0.484,0.484
 mixed_ssa_medicare_all_hi,2043,FAM-1,0,229.846,229.846
 mixed_ssa_medicare_all_hi,2043,FAM-2,0,104.926,104.926
@@ -13875,7 +13875,7 @@ mixed_ssa_medicare_all_hi,2043,participation,0,15.642463877422685,15.64246387742
 mixed_ssa_medicare_all_hi,2043,delivery_contingency,0,15.642463877422685,15.642463877422685
 mixed_ssa_medicare_all_hi,2043,New indexed income contributions,661.2878001904397,0,-661.2878001904397
 mixed_ssa_medicare_all_hi,2044,HLT-4,0,73.489,73.489
-mixed_ssa_medicare_all_hi,2044,HLT-7,0,7105.204,7105.204
+mixed_ssa_medicare_all_hi,2044,HLT-7,0,6459.045,6459.045
 mixed_ssa_medicare_all_hi,2044,HLT-8,0,0.495,0.495
 mixed_ssa_medicare_all_hi,2044,FAM-1,0,235.132,235.132
 mixed_ssa_medicare_all_hi,2044,FAM-2,0,108.841,108.841
@@ -13951,7 +13951,7 @@ mixed_ssa_medicare_all_hi,2044,participation,0,16.22618999147548,16.226189991475
 mixed_ssa_medicare_all_hi,2044,delivery_contingency,0,16.22618999147548,16.22618999147548
 mixed_ssa_medicare_all_hi,2044,New indexed income contributions,727.7350111704667,0,-727.7350111704667
 mixed_ssa_medicare_all_hi,2045,HLT-4,0,76.444,76.444
-mixed_ssa_medicare_all_hi,2045,HLT-7,0,7464.198,7464.198
+mixed_ssa_medicare_all_hi,2045,HLT-7,0,6785.366,6785.366
 mixed_ssa_medicare_all_hi,2045,HLT-8,0,0.506,0.506
 mixed_ssa_medicare_all_hi,2045,FAM-1,0,240.54,240.54
 mixed_ssa_medicare_all_hi,2045,FAM-2,0,112.862,112.862
@@ -14027,7 +14027,7 @@ mixed_ssa_medicare_all_hi,2045,participation,0,16.825685500106314,16.82568550010
 mixed_ssa_medicare_all_hi,2045,delivery_contingency,0,16.825685500106314,16.825685500106314
 mixed_ssa_medicare_all_hi,2045,New indexed income contributions,754.6220296818549,0,-754.6220296818549
 mixed_ssa_medicare_all_hi,2046,HLT-4,0,79.48,79.48
-mixed_ssa_medicare_all_hi,2046,HLT-7,0,7836.34,7836.34
+mixed_ssa_medicare_all_hi,2046,HLT-7,0,7123.638,7123.638
 mixed_ssa_medicare_all_hi,2046,HLT-8,0,0.518,0.518
 mixed_ssa_medicare_all_hi,2046,FAM-1,0,246.073,246.073
 mixed_ssa_medicare_all_hi,2046,FAM-2,0,116.977,116.977
@@ -14103,7 +14103,7 @@ mixed_ssa_medicare_all_hi,2046,participation,0,17.439140800658695,17.43914080065
 mixed_ssa_medicare_all_hi,2046,delivery_contingency,0,17.439140800658695,17.439140800658695
 mixed_ssa_medicare_all_hi,2046,New indexed income contributions,782.1351365932499,0,-782.1351365932499
 mixed_ssa_medicare_all_hi,2047,HLT-4,0,82.686,82.686
-mixed_ssa_medicare_all_hi,2047,HLT-7,0,8209.804,8209.804
+mixed_ssa_medicare_all_hi,2047,HLT-7,0,7463.116,7463.116
 mixed_ssa_medicare_all_hi,2047,HLT-8,0,0.53,0.53
 mixed_ssa_medicare_all_hi,2047,FAM-1,0,251.732,251.732
 mixed_ssa_medicare_all_hi,2047,FAM-2,0,121.222,121.222
@@ -14179,7 +14179,7 @@ mixed_ssa_medicare_all_hi,2047,participation,0,18.07198470110211,18.071984701102
 mixed_ssa_medicare_all_hi,2047,delivery_contingency,0,18.07198470110211,18.07198470110211
 mixed_ssa_medicare_all_hi,2047,New indexed income contributions,810.5178107268758,0,-810.5178107268758
 mixed_ssa_medicare_all_hi,2048,HLT-4,0,85.904,85.904
-mixed_ssa_medicare_all_hi,2048,HLT-7,0,8600.052,8600.052
+mixed_ssa_medicare_all_hi,2048,HLT-7,0,7817.847,7817.847
 mixed_ssa_medicare_all_hi,2048,HLT-8,0,0.542,0.542
 mixed_ssa_medicare_all_hi,2048,FAM-1,0,257.522,257.522
 mixed_ssa_medicare_all_hi,2048,FAM-2,0,125.597,125.597
@@ -14255,7 +14255,7 @@ mixed_ssa_medicare_all_hi,2048,participation,0,18.724217201436563,18.72421720143
 mixed_ssa_medicare_all_hi,2048,delivery_contingency,0,18.724217201436563,18.724217201436563
 mixed_ssa_medicare_all_hi,2048,New indexed income contributions,839.7700520827328,0,-839.7700520827328
 mixed_ssa_medicare_all_hi,2049,HLT-4,0,89.302,89.302
-mixed_ssa_medicare_all_hi,2049,HLT-7,0,9001.262,9001.262
+mixed_ssa_medicare_all_hi,2049,HLT-7,0,8182.545,8182.545
 mixed_ssa_medicare_all_hi,2049,HLT-8,0,0.555,0.555
 mixed_ssa_medicare_all_hi,2049,FAM-1,0,263.445,263.445
 mixed_ssa_medicare_all_hi,2049,FAM-2,0,130.111,130.111
@@ -14331,7 +14331,7 @@ mixed_ssa_medicare_all_hi,2049,participation,0,19.397130874988125,19.39713087498
 mixed_ssa_medicare_all_hi,2049,delivery_contingency,0,19.397130874988125,19.397130874988125
 mixed_ssa_medicare_all_hi,2049,New indexed income contributions,869.94983180897,0,-869.94983180897
 mixed_ssa_medicare_all_hi,2050,HLT-4,0,92.776,92.776
-mixed_ssa_medicare_all_hi,2050,HLT-7,0,9407.153,9407.153
+mixed_ssa_medicare_all_hi,2050,HLT-7,0,8551.499,8551.499
 mixed_ssa_medicare_all_hi,2050,HLT-8,0,0.567,0.567
 mixed_ssa_medicare_all_hi,2050,FAM-1,0,269.504,269.504
 mixed_ssa_medicare_all_hi,2050,FAM-2,0,134.755,134.755
@@ -14407,7 +14407,7 @@ mixed_ssa_medicare_all_hi,2050,participation,0,20.089433148430718,20.08943314843
 mixed_ssa_medicare_all_hi,2050,delivery_contingency,0,20.089433148430718,20.089433148430718
 mixed_ssa_medicare_all_hi,2050,New indexed income contributions,900.9991787574384,0,-900.9991787574384
 mixed_ssa_medicare_all_hi,2051,HLT-4,0,96.254,96.254
-mixed_ssa_medicare_all_hi,2051,HLT-7,0,9832.332,9832.332
+mixed_ssa_medicare_all_hi,2051,HLT-7,0,8937.98,8937.98
 mixed_ssa_medicare_all_hi,2051,HLT-8,0,0.58,0.58
 mixed_ssa_medicare_all_hi,2051,FAM-1,0,275.703,275.703
 mixed_ssa_medicare_all_hi,2051,FAM-2,0,139.537,139.537
@@ -14483,7 +14483,7 @@ mixed_ssa_medicare_all_hi,2051,participation,0,20.802416595090417,20.80241659509
 mixed_ssa_medicare_all_hi,2051,delivery_contingency,0,20.802416595090417,20.802416595090417
 mixed_ssa_medicare_all_hi,2051,New indexed income contributions,932.9760640762867,0,-932.9760640762867
 mixed_ssa_medicare_all_hi,2052,HLT-4,0,99.964,99.964
-mixed_ssa_medicare_all_hi,2052,HLT-7,0,10261.045,10261.045
+mixed_ssa_medicare_all_hi,2052,HLT-7,0,9327.681,9327.681
 mixed_ssa_medicare_all_hi,2052,HLT-8,0,0.594,0.594
 mixed_ssa_medicare_all_hi,2052,FAM-1,0,282.044,282.044
 mixed_ssa_medicare_all_hi,2052,FAM-2,0,144.471,144.471
@@ -14559,7 +14559,7 @@ mixed_ssa_medicare_all_hi,2052,participation,0,21.537890817623715,21.53789081762
 mixed_ssa_medicare_all_hi,2052,delivery_contingency,0,21.537890817623715,21.537890817623715
 mixed_ssa_medicare_all_hi,2052,New indexed income contributions,965.9616473729229,0,-965.9616473729229
 mixed_ssa_medicare_all_hi,2053,HLT-4,0,103.73,103.73
-mixed_ssa_medicare_all_hi,2053,HLT-7,0,10699.076,10699.076
+mixed_ssa_medicare_all_hi,2053,HLT-7,0,9725.851,9725.851
 mixed_ssa_medicare_all_hi,2053,HLT-8,0,0.607,0.607
 mixed_ssa_medicare_all_hi,2053,FAM-1,0,288.531,288.531
 mixed_ssa_medicare_all_hi,2053,FAM-2,0,149.569,149.569
@@ -14635,7 +14635,7 @@ mixed_ssa_medicare_all_hi,2053,participation,0,22.297923933352333,22.29792393335
 mixed_ssa_medicare_all_hi,2053,delivery_contingency,0,22.297923933352333,22.297923933352333
 mixed_ssa_medicare_all_hi,2053,New indexed income contributions,1000.0486824843855,0,-1000.0486824843855
 mixed_ssa_medicare_all_hi,2054,HLT-4,0,107.63,107.63
-mixed_ssa_medicare_all_hi,2054,HLT-7,0,11148.327,11148.327
+mixed_ssa_medicare_all_hi,2054,HLT-7,0,10134.221,10134.221
 mixed_ssa_medicare_all_hi,2054,HLT-8,0,0.621,0.621
 mixed_ssa_medicare_all_hi,2054,FAM-1,0,295.167,295.167
 mixed_ssa_medicare_all_hi,2054,FAM-2,0,154.837,154.837
@@ -14711,7 +14711,7 @@ mixed_ssa_medicare_all_hi,2054,participation,0,23.0832914862719,23.0832914862719
 mixed_ssa_medicare_all_hi,2054,delivery_contingency,0,23.0832914862719,23.0832914862719
 mixed_ssa_medicare_all_hi,2054,New indexed income contributions,1035.2719520995636,0,-1035.2719520995636
 mixed_ssa_medicare_all_hi,2055,HLT-4,0,111.759,111.759
-mixed_ssa_medicare_all_hi,2055,HLT-7,0,11624.287,11624.287
+mixed_ssa_medicare_all_hi,2055,HLT-7,0,10566.87,10566.87
 mixed_ssa_medicare_all_hi,2055,HLT-8,0,0.636,0.636
 mixed_ssa_medicare_all_hi,2055,FAM-1,0,301.956,301.956
 mixed_ssa_medicare_all_hi,2055,FAM-2,0,160.287,160.287
@@ -14787,7 +14787,7 @@ mixed_ssa_medicare_all_hi,2055,participation,0,23.89580307903892,23.895803079038
 mixed_ssa_medicare_all_hi,2055,delivery_contingency,0,23.89580307903892,23.89580307903892
 mixed_ssa_medicare_all_hi,2055,New indexed income contributions,1071.7126158258652,0,-1071.7126158258652
 mixed_ssa_medicare_all_hi,2056,HLT-4,0,115.959,115.959
-mixed_ssa_medicare_all_hi,2056,HLT-7,0,12120.084,12120.084
+mixed_ssa_medicare_all_hi,2056,HLT-7,0,11017.547,11017.547
 mixed_ssa_medicare_all_hi,2056,HLT-8,0,0.65,0.65
 mixed_ssa_medicare_all_hi,2056,FAM-1,0,308.901,308.901
 mixed_ssa_medicare_all_hi,2056,FAM-2,0,165.931,165.931
@@ -14945,7 +14945,7 @@ mixed_ssa_medicare_all_smi,2031,HLT-1,0,21.5,21.5
 mixed_ssa_medicare_all_smi,2031,HLT-2,0,40.5,40.5
 mixed_ssa_medicare_all_smi,2031,HLT-4,0,37.058,37.058
 mixed_ssa_medicare_all_smi,2031,HLT-6,0,-57.22,-57.22
-mixed_ssa_medicare_all_smi,2031,HLT-7,0,707.446,707.446
+mixed_ssa_medicare_all_smi,2031,HLT-7,0,651.168,651.168
 mixed_ssa_medicare_all_smi,2031,HLT-8,0,0.369,0.369
 mixed_ssa_medicare_all_smi,2031,FAM-1,0,175.298,175.298
 mixed_ssa_medicare_all_smi,2031,FAM-2,0,22.434,22.434
@@ -15026,7 +15026,7 @@ mixed_ssa_medicare_all_smi,2031,delivery_contingency,0,5.016838999005365,5.01683
 mixed_ssa_medicare_all_smi,2032,HLT-2,0,78.0,78.0
 mixed_ssa_medicare_all_smi,2032,HLT-4,0,56.876,56.876
 mixed_ssa_medicare_all_smi,2032,HLT-6,0,-70.136,-70.136
-mixed_ssa_medicare_all_smi,2032,HLT-7,0,977.249,977.249
+mixed_ssa_medicare_all_smi,2032,HLT-7,0,903.717,903.717
 mixed_ssa_medicare_all_smi,2032,HLT-8,0,0.377,0.377
 mixed_ssa_medicare_all_smi,2032,FAM-1,0,179.26,179.26
 mixed_ssa_medicare_all_smi,2032,FAM-2,0,34.921,34.921
@@ -15108,7 +15108,7 @@ mixed_ssa_medicare_all_smi,2032,delivery_contingency,0,7.809049435113141,7.80904
 mixed_ssa_medicare_all_smi,2033,HLT-2,0,113.0,113.0
 mixed_ssa_medicare_all_smi,2033,HLT-4,0,56.129,56.129
 mixed_ssa_medicare_all_smi,2033,HLT-6,0,-75.542,-75.542
-mixed_ssa_medicare_all_smi,2033,HLT-7,0,1593.864,1593.864
+mixed_ssa_medicare_all_smi,2033,HLT-7,0,1431.905,1431.905
 mixed_ssa_medicare_all_smi,2033,HLT-8,0,0.386,0.386
 mixed_ssa_medicare_all_smi,2033,FAM-1,0,183.311,183.311
 mixed_ssa_medicare_all_smi,2033,FAM-2,0,48.317,48.317
@@ -15193,7 +15193,7 @@ mixed_ssa_medicare_all_smi,2033,New indexed income contributions,68.816173513813
 mixed_ssa_medicare_all_smi,2034,HLT-2,0,133.25,133.25
 mixed_ssa_medicare_all_smi,2034,HLT-4,0,53.998,53.998
 mixed_ssa_medicare_all_smi,2034,HLT-6,0,-81.399,-81.399
-mixed_ssa_medicare_all_smi,2034,HLT-7,0,2446.732,2446.732
+mixed_ssa_medicare_all_smi,2034,HLT-7,0,2165.433,2165.433
 mixed_ssa_medicare_all_smi,2034,HLT-8,0,0.395,0.395
 mixed_ssa_medicare_all_smi,2034,FAM-1,0,187.454,187.454
 mixed_ssa_medicare_all_smi,2034,FAM-2,0,62.676,62.676
@@ -15278,7 +15278,7 @@ mixed_ssa_medicare_all_smi,2034,New indexed income contributions,142.82666666666
 mixed_ssa_medicare_all_smi,2035,HLT-2,0,34.25,34.25
 mixed_ssa_medicare_all_smi,2035,HLT-4,0,51.672,51.672
 mixed_ssa_medicare_all_smi,2035,HLT-6,0,-20.725,-20.725
-mixed_ssa_medicare_all_smi,2035,HLT-7,0,4062.827,4062.827
+mixed_ssa_medicare_all_smi,2035,HLT-7,0,3653.628,3653.628
 mixed_ssa_medicare_all_smi,2035,HLT-8,0,0.404,0.404
 mixed_ssa_medicare_all_smi,2035,FAM-1,0,191.691,191.691
 mixed_ssa_medicare_all_smi,2035,FAM-2,0,78.052,78.052
@@ -15362,7 +15362,7 @@ mixed_ssa_medicare_all_smi,2035,participation,0,11.636132853271599,11.6361328532
 mixed_ssa_medicare_all_smi,2035,delivery_contingency,0,11.636132853271599,11.636132853271599
 mixed_ssa_medicare_all_smi,2035,New indexed income contributions,252.28598460343113,0,-252.28598460343113
 mixed_ssa_medicare_all_smi,2036,HLT-4,0,52.758,52.758
-mixed_ssa_medicare_all_smi,2036,HLT-7,0,4650.612,4650.612
+mixed_ssa_medicare_all_smi,2036,HLT-7,0,4221.646,4221.646
 mixed_ssa_medicare_all_smi,2036,HLT-8,0,0.413,0.413
 mixed_ssa_medicare_all_smi,2036,FAM-1,0,196.023,196.023
 mixed_ssa_medicare_all_smi,2036,FAM-2,0,81.001,81.001
@@ -15445,7 +15445,7 @@ mixed_ssa_medicare_all_smi,2036,participation,0,12.075762892934211,12.0757628929
 mixed_ssa_medicare_all_smi,2036,delivery_contingency,0,12.075762892934211,12.075762892934211
 mixed_ssa_medicare_all_smi,2036,New indexed income contributions,292.903616114061,0,-292.903616114061
 mixed_ssa_medicare_all_smi,2037,HLT-4,0,54.901,54.901
-mixed_ssa_medicare_all_smi,2037,HLT-7,0,4886.594,4886.594
+mixed_ssa_medicare_all_smi,2037,HLT-7,0,4443.885,4443.885
 mixed_ssa_medicare_all_smi,2037,HLT-8,0,0.422,0.422
 mixed_ssa_medicare_all_smi,2037,FAM-1,0,200.532,200.532
 mixed_ssa_medicare_all_smi,2037,FAM-2,0,84.055,84.055
@@ -15525,7 +15525,7 @@ mixed_ssa_medicare_all_smi,2037,participation,0,12.530981366909218,12.5309813669
 mixed_ssa_medicare_all_smi,2037,delivery_contingency,0,12.530981366909218,12.530981366909218
 mixed_ssa_medicare_all_smi,2037,New indexed income contributions,336.20290676522194,0,-336.20290676522194
 mixed_ssa_medicare_all_smi,2038,HLT-4,0,57.25,57.25
-mixed_ssa_medicare_all_smi,2038,HLT-7,0,5157.547,5157.547
+mixed_ssa_medicare_all_smi,2038,HLT-7,0,4689.764,4689.764
 mixed_ssa_medicare_all_smi,2038,HLT-8,0,0.432,0.432
 mixed_ssa_medicare_all_smi,2038,FAM-1,0,205.144,205.144
 mixed_ssa_medicare_all_smi,2038,FAM-2,0,87.226,87.226
@@ -15605,7 +15605,7 @@ mixed_ssa_medicare_all_smi,2038,participation,0,13.003804689585284,13.0038046895
 mixed_ssa_medicare_all_smi,2038,delivery_contingency,0,13.003804689585284,13.003804689585284
 mixed_ssa_medicare_all_smi,2038,New indexed income contributions,382.36353221913026,0,-382.36353221913026
 mixed_ssa_medicare_all_smi,2039,HLT-4,0,59.718,59.718
-mixed_ssa_medicare_all_smi,2039,HLT-7,0,5439.129,5439.129
+mixed_ssa_medicare_all_smi,2039,HLT-7,0,4944.854,4944.854
 mixed_ssa_medicare_all_smi,2039,HLT-8,0,0.442,0.442
 mixed_ssa_medicare_all_smi,2039,FAM-1,0,209.862,209.862
 mixed_ssa_medicare_all_smi,2039,FAM-2,0,90.511,90.511
@@ -15685,7 +15685,7 @@ mixed_ssa_medicare_all_smi,2039,participation,0,13.49343146550025,13.49343146550
 mixed_ssa_medicare_all_smi,2039,delivery_contingency,0,13.49343146550025,13.49343146550025
 mixed_ssa_medicare_all_smi,2039,New indexed income contributions,431.49582254520647,0,-431.49582254520647
 mixed_ssa_medicare_all_smi,2040,HLT-4,0,62.273,62.273
-mixed_ssa_medicare_all_smi,2040,HLT-7,0,5745.188,5745.188
+mixed_ssa_medicare_all_smi,2040,HLT-7,0,5222.808,5222.808
 mixed_ssa_medicare_all_smi,2040,HLT-8,0,0.452,0.452
 mixed_ssa_medicare_all_smi,2040,FAM-1,0,214.689,214.689
 mixed_ssa_medicare_all_smi,2040,FAM-2,0,93.928,93.928
@@ -15762,7 +15762,7 @@ mixed_ssa_medicare_all_smi,2040,participation,0,14.002963870636675,14.0029638706
 mixed_ssa_medicare_all_smi,2040,delivery_contingency,0,14.002963870636675,14.002963870636675
 mixed_ssa_medicare_all_smi,2040,New indexed income contributions,483.8367338431708,0,-483.8367338431708
 mixed_ssa_medicare_all_smi,2041,HLT-4,0,64.939,64.939
-mixed_ssa_medicare_all_smi,2041,HLT-7,0,6075.806,6075.806
+mixed_ssa_medicare_all_smi,2041,HLT-7,0,5523.333,5523.333
 mixed_ssa_medicare_all_smi,2041,HLT-8,0,0.462,0.462
 mixed_ssa_medicare_all_smi,2041,FAM-1,0,219.627,219.627
 mixed_ssa_medicare_all_smi,2041,FAM-2,0,97.481,97.481
@@ -15839,7 +15839,7 @@ mixed_ssa_medicare_all_smi,2041,participation,0,14.532660419659782,14.5326604196
 mixed_ssa_medicare_all_smi,2041,delivery_contingency,0,14.532660419659782,14.532660419659782
 mixed_ssa_medicare_all_smi,2041,New indexed income contributions,539.5495894478861,0,-539.5495894478861
 mixed_ssa_medicare_all_smi,2042,HLT-4,0,67.698,67.698
-mixed_ssa_medicare_all_smi,2042,HLT-7,0,6411.843,6411.843
+mixed_ssa_medicare_all_smi,2042,HLT-7,0,5828.786,5828.786
 mixed_ssa_medicare_all_smi,2042,HLT-8,0,0.473,0.473
 mixed_ssa_medicare_all_smi,2042,FAM-1,0,224.678,224.678
 mixed_ssa_medicare_all_smi,2042,FAM-2,0,101.139,101.139
@@ -15915,7 +15915,7 @@ mixed_ssa_medicare_all_smi,2042,participation,0,15.077867848595714,15.0778678485
 mixed_ssa_medicare_all_smi,2042,delivery_contingency,0,15.077867848595714,15.077867848595714
 mixed_ssa_medicare_all_smi,2042,New indexed income contributions,598.6053724295822,0,-598.6053724295822
 mixed_ssa_medicare_all_smi,2043,HLT-4,0,70.567,70.567
-mixed_ssa_medicare_all_smi,2043,HLT-7,0,6754.278,6754.278
+mixed_ssa_medicare_all_smi,2043,HLT-7,0,6140.057,6140.057
 mixed_ssa_medicare_all_smi,2043,HLT-8,0,0.484,0.484
 mixed_ssa_medicare_all_smi,2043,FAM-1,0,229.846,229.846
 mixed_ssa_medicare_all_smi,2043,FAM-2,0,104.926,104.926
@@ -15991,7 +15991,7 @@ mixed_ssa_medicare_all_smi,2043,participation,0,15.642463877422685,15.6424638774
 mixed_ssa_medicare_all_smi,2043,delivery_contingency,0,15.642463877422685,15.642463877422685
 mixed_ssa_medicare_all_smi,2043,New indexed income contributions,661.2878001904397,0,-661.2878001904397
 mixed_ssa_medicare_all_smi,2044,HLT-4,0,73.489,73.489
-mixed_ssa_medicare_all_smi,2044,HLT-7,0,7105.204,7105.204
+mixed_ssa_medicare_all_smi,2044,HLT-7,0,6459.045,6459.045
 mixed_ssa_medicare_all_smi,2044,HLT-8,0,0.495,0.495
 mixed_ssa_medicare_all_smi,2044,FAM-1,0,235.132,235.132
 mixed_ssa_medicare_all_smi,2044,FAM-2,0,108.841,108.841
@@ -16067,7 +16067,7 @@ mixed_ssa_medicare_all_smi,2044,participation,0,16.22618999147548,16.22618999147
 mixed_ssa_medicare_all_smi,2044,delivery_contingency,0,16.22618999147548,16.22618999147548
 mixed_ssa_medicare_all_smi,2044,New indexed income contributions,727.7350111704667,0,-727.7350111704667
 mixed_ssa_medicare_all_smi,2045,HLT-4,0,76.444,76.444
-mixed_ssa_medicare_all_smi,2045,HLT-7,0,7464.198,7464.198
+mixed_ssa_medicare_all_smi,2045,HLT-7,0,6785.366,6785.366
 mixed_ssa_medicare_all_smi,2045,HLT-8,0,0.506,0.506
 mixed_ssa_medicare_all_smi,2045,FAM-1,0,240.54,240.54
 mixed_ssa_medicare_all_smi,2045,FAM-2,0,112.862,112.862
@@ -16143,7 +16143,7 @@ mixed_ssa_medicare_all_smi,2045,participation,0,16.825685500106314,16.8256855001
 mixed_ssa_medicare_all_smi,2045,delivery_contingency,0,16.825685500106314,16.825685500106314
 mixed_ssa_medicare_all_smi,2045,New indexed income contributions,754.6220296818549,0,-754.6220296818549
 mixed_ssa_medicare_all_smi,2046,HLT-4,0,79.48,79.48
-mixed_ssa_medicare_all_smi,2046,HLT-7,0,7836.34,7836.34
+mixed_ssa_medicare_all_smi,2046,HLT-7,0,7123.638,7123.638
 mixed_ssa_medicare_all_smi,2046,HLT-8,0,0.518,0.518
 mixed_ssa_medicare_all_smi,2046,FAM-1,0,246.073,246.073
 mixed_ssa_medicare_all_smi,2046,FAM-2,0,116.977,116.977
@@ -16219,7 +16219,7 @@ mixed_ssa_medicare_all_smi,2046,participation,0,17.439140800658695,17.4391408006
 mixed_ssa_medicare_all_smi,2046,delivery_contingency,0,17.439140800658695,17.439140800658695
 mixed_ssa_medicare_all_smi,2046,New indexed income contributions,782.1351365932499,0,-782.1351365932499
 mixed_ssa_medicare_all_smi,2047,HLT-4,0,82.686,82.686
-mixed_ssa_medicare_all_smi,2047,HLT-7,0,8209.804,8209.804
+mixed_ssa_medicare_all_smi,2047,HLT-7,0,7463.116,7463.116
 mixed_ssa_medicare_all_smi,2047,HLT-8,0,0.53,0.53
 mixed_ssa_medicare_all_smi,2047,FAM-1,0,251.732,251.732
 mixed_ssa_medicare_all_smi,2047,FAM-2,0,121.222,121.222
@@ -16295,7 +16295,7 @@ mixed_ssa_medicare_all_smi,2047,participation,0,18.07198470110211,18.07198470110
 mixed_ssa_medicare_all_smi,2047,delivery_contingency,0,18.07198470110211,18.07198470110211
 mixed_ssa_medicare_all_smi,2047,New indexed income contributions,810.5178107268758,0,-810.5178107268758
 mixed_ssa_medicare_all_smi,2048,HLT-4,0,85.904,85.904
-mixed_ssa_medicare_all_smi,2048,HLT-7,0,8600.052,8600.052
+mixed_ssa_medicare_all_smi,2048,HLT-7,0,7817.847,7817.847
 mixed_ssa_medicare_all_smi,2048,HLT-8,0,0.542,0.542
 mixed_ssa_medicare_all_smi,2048,FAM-1,0,257.522,257.522
 mixed_ssa_medicare_all_smi,2048,FAM-2,0,125.597,125.597
@@ -16371,7 +16371,7 @@ mixed_ssa_medicare_all_smi,2048,participation,0,18.724217201436563,18.7242172014
 mixed_ssa_medicare_all_smi,2048,delivery_contingency,0,18.724217201436563,18.724217201436563
 mixed_ssa_medicare_all_smi,2048,New indexed income contributions,839.7700520827328,0,-839.7700520827328
 mixed_ssa_medicare_all_smi,2049,HLT-4,0,89.302,89.302
-mixed_ssa_medicare_all_smi,2049,HLT-7,0,9001.262,9001.262
+mixed_ssa_medicare_all_smi,2049,HLT-7,0,8182.545,8182.545
 mixed_ssa_medicare_all_smi,2049,HLT-8,0,0.555,0.555
 mixed_ssa_medicare_all_smi,2049,FAM-1,0,263.445,263.445
 mixed_ssa_medicare_all_smi,2049,FAM-2,0,130.111,130.111
@@ -16447,7 +16447,7 @@ mixed_ssa_medicare_all_smi,2049,participation,0,19.397130874988125,19.3971308749
 mixed_ssa_medicare_all_smi,2049,delivery_contingency,0,19.397130874988125,19.397130874988125
 mixed_ssa_medicare_all_smi,2049,New indexed income contributions,869.94983180897,0,-869.94983180897
 mixed_ssa_medicare_all_smi,2050,HLT-4,0,92.776,92.776
-mixed_ssa_medicare_all_smi,2050,HLT-7,0,9407.153,9407.153
+mixed_ssa_medicare_all_smi,2050,HLT-7,0,8551.499,8551.499
 mixed_ssa_medicare_all_smi,2050,HLT-8,0,0.567,0.567
 mixed_ssa_medicare_all_smi,2050,FAM-1,0,269.504,269.504
 mixed_ssa_medicare_all_smi,2050,FAM-2,0,134.755,134.755
@@ -16523,7 +16523,7 @@ mixed_ssa_medicare_all_smi,2050,participation,0,20.089433148430718,20.0894331484
 mixed_ssa_medicare_all_smi,2050,delivery_contingency,0,20.089433148430718,20.089433148430718
 mixed_ssa_medicare_all_smi,2050,New indexed income contributions,900.9991787574384,0,-900.9991787574384
 mixed_ssa_medicare_all_smi,2051,HLT-4,0,96.254,96.254
-mixed_ssa_medicare_all_smi,2051,HLT-7,0,9832.332,9832.332
+mixed_ssa_medicare_all_smi,2051,HLT-7,0,8937.98,8937.98
 mixed_ssa_medicare_all_smi,2051,HLT-8,0,0.58,0.58
 mixed_ssa_medicare_all_smi,2051,FAM-1,0,275.703,275.703
 mixed_ssa_medicare_all_smi,2051,FAM-2,0,139.537,139.537
@@ -16599,7 +16599,7 @@ mixed_ssa_medicare_all_smi,2051,participation,0,20.802416595090417,20.8024165950
 mixed_ssa_medicare_all_smi,2051,delivery_contingency,0,20.802416595090417,20.802416595090417
 mixed_ssa_medicare_all_smi,2051,New indexed income contributions,932.9760640762867,0,-932.9760640762867
 mixed_ssa_medicare_all_smi,2052,HLT-4,0,99.964,99.964
-mixed_ssa_medicare_all_smi,2052,HLT-7,0,10261.045,10261.045
+mixed_ssa_medicare_all_smi,2052,HLT-7,0,9327.681,9327.681
 mixed_ssa_medicare_all_smi,2052,HLT-8,0,0.594,0.594
 mixed_ssa_medicare_all_smi,2052,FAM-1,0,282.044,282.044
 mixed_ssa_medicare_all_smi,2052,FAM-2,0,144.471,144.471
@@ -16675,7 +16675,7 @@ mixed_ssa_medicare_all_smi,2052,participation,0,21.537890817623715,21.5378908176
 mixed_ssa_medicare_all_smi,2052,delivery_contingency,0,21.537890817623715,21.537890817623715
 mixed_ssa_medicare_all_smi,2052,New indexed income contributions,965.9616473729229,0,-965.9616473729229
 mixed_ssa_medicare_all_smi,2053,HLT-4,0,103.73,103.73
-mixed_ssa_medicare_all_smi,2053,HLT-7,0,10699.076,10699.076
+mixed_ssa_medicare_all_smi,2053,HLT-7,0,9725.851,9725.851
 mixed_ssa_medicare_all_smi,2053,HLT-8,0,0.607,0.607
 mixed_ssa_medicare_all_smi,2053,FAM-1,0,288.531,288.531
 mixed_ssa_medicare_all_smi,2053,FAM-2,0,149.569,149.569
@@ -16751,7 +16751,7 @@ mixed_ssa_medicare_all_smi,2053,participation,0,22.297923933352333,22.2979239333
 mixed_ssa_medicare_all_smi,2053,delivery_contingency,0,22.297923933352333,22.297923933352333
 mixed_ssa_medicare_all_smi,2053,New indexed income contributions,1000.0486824843855,0,-1000.0486824843855
 mixed_ssa_medicare_all_smi,2054,HLT-4,0,107.63,107.63
-mixed_ssa_medicare_all_smi,2054,HLT-7,0,11148.327,11148.327
+mixed_ssa_medicare_all_smi,2054,HLT-7,0,10134.221,10134.221
 mixed_ssa_medicare_all_smi,2054,HLT-8,0,0.621,0.621
 mixed_ssa_medicare_all_smi,2054,FAM-1,0,295.167,295.167
 mixed_ssa_medicare_all_smi,2054,FAM-2,0,154.837,154.837
@@ -16827,7 +16827,7 @@ mixed_ssa_medicare_all_smi,2054,participation,0,23.0832914862719,23.083291486271
 mixed_ssa_medicare_all_smi,2054,delivery_contingency,0,23.0832914862719,23.0832914862719
 mixed_ssa_medicare_all_smi,2054,New indexed income contributions,1035.2719520995636,0,-1035.2719520995636
 mixed_ssa_medicare_all_smi,2055,HLT-4,0,111.759,111.759
-mixed_ssa_medicare_all_smi,2055,HLT-7,0,11624.287,11624.287
+mixed_ssa_medicare_all_smi,2055,HLT-7,0,10566.87,10566.87
 mixed_ssa_medicare_all_smi,2055,HLT-8,0,0.636,0.636
 mixed_ssa_medicare_all_smi,2055,FAM-1,0,301.956,301.956
 mixed_ssa_medicare_all_smi,2055,FAM-2,0,160.287,160.287
@@ -16903,7 +16903,7 @@ mixed_ssa_medicare_all_smi,2055,participation,0,23.89580307903892,23.89580307903
 mixed_ssa_medicare_all_smi,2055,delivery_contingency,0,23.89580307903892,23.89580307903892
 mixed_ssa_medicare_all_smi,2055,New indexed income contributions,1071.7126158258652,0,-1071.7126158258652
 mixed_ssa_medicare_all_smi,2056,HLT-4,0,115.959,115.959
-mixed_ssa_medicare_all_smi,2056,HLT-7,0,12120.084,12120.084
+mixed_ssa_medicare_all_smi,2056,HLT-7,0,11017.547,11017.547
 mixed_ssa_medicare_all_smi,2056,HLT-8,0,0.65,0.65
 mixed_ssa_medicare_all_smi,2056,FAM-1,0,308.901,308.901
 mixed_ssa_medicare_all_smi,2056,FAM-2,0,165.931,165.931
@@ -17061,7 +17061,7 @@ mixed_reserve_corridor,2031,HLT-1,0,21.5,21.5
 mixed_reserve_corridor,2031,HLT-2,0,40.5,40.5
 mixed_reserve_corridor,2031,HLT-4,0,37.058,37.058
 mixed_reserve_corridor,2031,HLT-6,0,-57.22,-57.22
-mixed_reserve_corridor,2031,HLT-7,0,707.446,707.446
+mixed_reserve_corridor,2031,HLT-7,0,651.168,651.168
 mixed_reserve_corridor,2031,HLT-8,0,0.369,0.369
 mixed_reserve_corridor,2031,FAM-1,0,175.298,175.298
 mixed_reserve_corridor,2031,FAM-2,0,22.434,22.434
@@ -17142,7 +17142,7 @@ mixed_reserve_corridor,2031,delivery_contingency,0,5.016838999005365,5.016838999
 mixed_reserve_corridor,2032,HLT-2,0,78.0,78.0
 mixed_reserve_corridor,2032,HLT-4,0,56.876,56.876
 mixed_reserve_corridor,2032,HLT-6,0,-70.136,-70.136
-mixed_reserve_corridor,2032,HLT-7,0,977.249,977.249
+mixed_reserve_corridor,2032,HLT-7,0,903.717,903.717
 mixed_reserve_corridor,2032,HLT-8,0,0.377,0.377
 mixed_reserve_corridor,2032,FAM-1,0,179.26,179.26
 mixed_reserve_corridor,2032,FAM-2,0,34.921,34.921
@@ -17224,7 +17224,7 @@ mixed_reserve_corridor,2032,delivery_contingency,0,7.809049435113141,7.809049435
 mixed_reserve_corridor,2033,HLT-2,0,113.0,113.0
 mixed_reserve_corridor,2033,HLT-4,0,56.129,56.129
 mixed_reserve_corridor,2033,HLT-6,0,-75.542,-75.542
-mixed_reserve_corridor,2033,HLT-7,0,1593.864,1593.864
+mixed_reserve_corridor,2033,HLT-7,0,1431.905,1431.905
 mixed_reserve_corridor,2033,HLT-8,0,0.386,0.386
 mixed_reserve_corridor,2033,FAM-1,0,183.311,183.311
 mixed_reserve_corridor,2033,FAM-2,0,48.317,48.317
@@ -17309,7 +17309,7 @@ mixed_reserve_corridor,2033,New indexed income contributions,68.81617351381303,0
 mixed_reserve_corridor,2034,HLT-2,0,133.25,133.25
 mixed_reserve_corridor,2034,HLT-4,0,53.998,53.998
 mixed_reserve_corridor,2034,HLT-6,0,-81.399,-81.399
-mixed_reserve_corridor,2034,HLT-7,0,2446.732,2446.732
+mixed_reserve_corridor,2034,HLT-7,0,2165.433,2165.433
 mixed_reserve_corridor,2034,HLT-8,0,0.395,0.395
 mixed_reserve_corridor,2034,FAM-1,0,187.454,187.454
 mixed_reserve_corridor,2034,FAM-2,0,62.676,62.676
@@ -17394,7 +17394,7 @@ mixed_reserve_corridor,2034,New indexed income contributions,142.82666666666668,
 mixed_reserve_corridor,2035,HLT-2,0,34.25,34.25
 mixed_reserve_corridor,2035,HLT-4,0,51.672,51.672
 mixed_reserve_corridor,2035,HLT-6,0,-20.725,-20.725
-mixed_reserve_corridor,2035,HLT-7,0,4062.827,4062.827
+mixed_reserve_corridor,2035,HLT-7,0,3653.628,3653.628
 mixed_reserve_corridor,2035,HLT-8,0,0.404,0.404
 mixed_reserve_corridor,2035,FAM-1,0,191.691,191.691
 mixed_reserve_corridor,2035,FAM-2,0,78.052,78.052
@@ -17478,7 +17478,7 @@ mixed_reserve_corridor,2035,participation,0,11.636132853271599,11.63613285327159
 mixed_reserve_corridor,2035,delivery_contingency,0,11.636132853271599,11.636132853271599
 mixed_reserve_corridor,2035,New indexed income contributions,252.28598460343113,0,-252.28598460343113
 mixed_reserve_corridor,2036,HLT-4,0,52.758,52.758
-mixed_reserve_corridor,2036,HLT-7,0,4650.612,4650.612
+mixed_reserve_corridor,2036,HLT-7,0,4221.646,4221.646
 mixed_reserve_corridor,2036,HLT-8,0,0.413,0.413
 mixed_reserve_corridor,2036,FAM-1,0,196.023,196.023
 mixed_reserve_corridor,2036,FAM-2,0,81.001,81.001
@@ -17561,7 +17561,7 @@ mixed_reserve_corridor,2036,participation,0,12.075762892934211,12.07576289293421
 mixed_reserve_corridor,2036,delivery_contingency,0,12.075762892934211,12.075762892934211
 mixed_reserve_corridor,2036,New indexed income contributions,292.903616114061,0,-292.903616114061
 mixed_reserve_corridor,2037,HLT-4,0,54.901,54.901
-mixed_reserve_corridor,2037,HLT-7,0,4886.594,4886.594
+mixed_reserve_corridor,2037,HLT-7,0,4443.885,4443.885
 mixed_reserve_corridor,2037,HLT-8,0,0.422,0.422
 mixed_reserve_corridor,2037,FAM-1,0,200.532,200.532
 mixed_reserve_corridor,2037,FAM-2,0,84.055,84.055
@@ -17641,7 +17641,7 @@ mixed_reserve_corridor,2037,participation,0,12.530981366909218,12.53098136690921
 mixed_reserve_corridor,2037,delivery_contingency,0,12.530981366909218,12.530981366909218
 mixed_reserve_corridor,2037,New indexed income contributions,336.20290676522194,0,-336.20290676522194
 mixed_reserve_corridor,2038,HLT-4,0,57.25,57.25
-mixed_reserve_corridor,2038,HLT-7,0,5157.547,5157.547
+mixed_reserve_corridor,2038,HLT-7,0,4689.764,4689.764
 mixed_reserve_corridor,2038,HLT-8,0,0.432,0.432
 mixed_reserve_corridor,2038,FAM-1,0,205.144,205.144
 mixed_reserve_corridor,2038,FAM-2,0,87.226,87.226
@@ -17721,7 +17721,7 @@ mixed_reserve_corridor,2038,participation,0,13.003804689585284,13.00380468958528
 mixed_reserve_corridor,2038,delivery_contingency,0,13.003804689585284,13.003804689585284
 mixed_reserve_corridor,2038,New indexed income contributions,382.36353221913026,0,-382.36353221913026
 mixed_reserve_corridor,2039,HLT-4,0,59.718,59.718
-mixed_reserve_corridor,2039,HLT-7,0,5439.129,5439.129
+mixed_reserve_corridor,2039,HLT-7,0,4944.854,4944.854
 mixed_reserve_corridor,2039,HLT-8,0,0.442,0.442
 mixed_reserve_corridor,2039,FAM-1,0,209.862,209.862
 mixed_reserve_corridor,2039,FAM-2,0,90.511,90.511
@@ -17801,7 +17801,7 @@ mixed_reserve_corridor,2039,participation,0,13.49343146550025,13.49343146550025
 mixed_reserve_corridor,2039,delivery_contingency,0,13.49343146550025,13.49343146550025
 mixed_reserve_corridor,2039,New indexed income contributions,431.49582254520647,0,-431.49582254520647
 mixed_reserve_corridor,2040,HLT-4,0,62.273,62.273
-mixed_reserve_corridor,2040,HLT-7,0,5745.188,5745.188
+mixed_reserve_corridor,2040,HLT-7,0,5222.808,5222.808
 mixed_reserve_corridor,2040,HLT-8,0,0.452,0.452
 mixed_reserve_corridor,2040,FAM-1,0,214.689,214.689
 mixed_reserve_corridor,2040,FAM-2,0,93.928,93.928
@@ -17878,7 +17878,7 @@ mixed_reserve_corridor,2040,participation,0,14.002963870636675,14.00296387063667
 mixed_reserve_corridor,2040,delivery_contingency,0,14.002963870636675,14.002963870636675
 mixed_reserve_corridor,2040,New indexed income contributions,483.8367338431708,0,-483.8367338431708
 mixed_reserve_corridor,2041,HLT-4,0,64.939,64.939
-mixed_reserve_corridor,2041,HLT-7,0,6075.806,6075.806
+mixed_reserve_corridor,2041,HLT-7,0,5523.333,5523.333
 mixed_reserve_corridor,2041,HLT-8,0,0.462,0.462
 mixed_reserve_corridor,2041,FAM-1,0,219.627,219.627
 mixed_reserve_corridor,2041,FAM-2,0,97.481,97.481
@@ -17955,7 +17955,7 @@ mixed_reserve_corridor,2041,participation,0,14.532660419659782,14.53266041965978
 mixed_reserve_corridor,2041,delivery_contingency,0,14.532660419659782,14.532660419659782
 mixed_reserve_corridor,2041,New indexed income contributions,539.5495894478861,0,-539.5495894478861
 mixed_reserve_corridor,2042,HLT-4,0,67.698,67.698
-mixed_reserve_corridor,2042,HLT-7,0,6411.843,6411.843
+mixed_reserve_corridor,2042,HLT-7,0,5828.786,5828.786
 mixed_reserve_corridor,2042,HLT-8,0,0.473,0.473
 mixed_reserve_corridor,2042,FAM-1,0,224.678,224.678
 mixed_reserve_corridor,2042,FAM-2,0,101.139,101.139
@@ -18031,7 +18031,7 @@ mixed_reserve_corridor,2042,participation,0,15.077867848595714,15.07786784859571
 mixed_reserve_corridor,2042,delivery_contingency,0,15.077867848595714,15.077867848595714
 mixed_reserve_corridor,2042,New indexed income contributions,598.6053724295822,0,-598.6053724295822
 mixed_reserve_corridor,2043,HLT-4,0,70.567,70.567
-mixed_reserve_corridor,2043,HLT-7,0,6754.278,6754.278
+mixed_reserve_corridor,2043,HLT-7,0,6140.057,6140.057
 mixed_reserve_corridor,2043,HLT-8,0,0.484,0.484
 mixed_reserve_corridor,2043,FAM-1,0,229.846,229.846
 mixed_reserve_corridor,2043,FAM-2,0,104.926,104.926
@@ -18107,7 +18107,7 @@ mixed_reserve_corridor,2043,participation,0,15.642463877422685,15.64246387742268
 mixed_reserve_corridor,2043,delivery_contingency,0,15.642463877422685,15.642463877422685
 mixed_reserve_corridor,2043,New indexed income contributions,661.2878001904397,0,-661.2878001904397
 mixed_reserve_corridor,2044,HLT-4,0,73.489,73.489
-mixed_reserve_corridor,2044,HLT-7,0,7105.204,7105.204
+mixed_reserve_corridor,2044,HLT-7,0,6459.045,6459.045
 mixed_reserve_corridor,2044,HLT-8,0,0.495,0.495
 mixed_reserve_corridor,2044,FAM-1,0,235.132,235.132
 mixed_reserve_corridor,2044,FAM-2,0,108.841,108.841
@@ -18183,7 +18183,7 @@ mixed_reserve_corridor,2044,participation,0,16.22618999147548,16.22618999147548
 mixed_reserve_corridor,2044,delivery_contingency,0,16.22618999147548,16.22618999147548
 mixed_reserve_corridor,2044,New indexed income contributions,727.7350111704667,0,-727.7350111704667
 mixed_reserve_corridor,2045,HLT-4,0,76.444,76.444
-mixed_reserve_corridor,2045,HLT-7,0,7464.198,7464.198
+mixed_reserve_corridor,2045,HLT-7,0,6785.366,6785.366
 mixed_reserve_corridor,2045,HLT-8,0,0.506,0.506
 mixed_reserve_corridor,2045,FAM-1,0,240.54,240.54
 mixed_reserve_corridor,2045,FAM-2,0,112.862,112.862
@@ -18259,7 +18259,7 @@ mixed_reserve_corridor,2045,participation,0,16.825685500106314,16.82568550010631
 mixed_reserve_corridor,2045,delivery_contingency,0,16.825685500106314,16.825685500106314
 mixed_reserve_corridor,2045,New indexed income contributions,754.6220296818549,0,-754.6220296818549
 mixed_reserve_corridor,2046,HLT-4,0,79.48,79.48
-mixed_reserve_corridor,2046,HLT-7,0,7836.34,7836.34
+mixed_reserve_corridor,2046,HLT-7,0,7123.638,7123.638
 mixed_reserve_corridor,2046,HLT-8,0,0.518,0.518
 mixed_reserve_corridor,2046,FAM-1,0,246.073,246.073
 mixed_reserve_corridor,2046,FAM-2,0,116.977,116.977
@@ -18335,7 +18335,7 @@ mixed_reserve_corridor,2046,participation,0,17.439140800658695,17.43914080065869
 mixed_reserve_corridor,2046,delivery_contingency,0,17.439140800658695,17.439140800658695
 mixed_reserve_corridor,2046,New indexed income contributions,782.1351365932499,0,-782.1351365932499
 mixed_reserve_corridor,2047,HLT-4,0,82.686,82.686
-mixed_reserve_corridor,2047,HLT-7,0,8209.804,8209.804
+mixed_reserve_corridor,2047,HLT-7,0,7463.116,7463.116
 mixed_reserve_corridor,2047,HLT-8,0,0.53,0.53
 mixed_reserve_corridor,2047,FAM-1,0,251.732,251.732
 mixed_reserve_corridor,2047,FAM-2,0,121.222,121.222
@@ -18411,7 +18411,7 @@ mixed_reserve_corridor,2047,participation,0,18.07198470110211,18.07198470110211
 mixed_reserve_corridor,2047,delivery_contingency,0,18.07198470110211,18.07198470110211
 mixed_reserve_corridor,2047,New indexed income contributions,810.5178107268758,0,-810.5178107268758
 mixed_reserve_corridor,2048,HLT-4,0,85.904,85.904
-mixed_reserve_corridor,2048,HLT-7,0,8600.052,8600.052
+mixed_reserve_corridor,2048,HLT-7,0,7817.847,7817.847
 mixed_reserve_corridor,2048,HLT-8,0,0.542,0.542
 mixed_reserve_corridor,2048,FAM-1,0,257.522,257.522
 mixed_reserve_corridor,2048,FAM-2,0,125.597,125.597
@@ -18487,7 +18487,7 @@ mixed_reserve_corridor,2048,participation,0,18.724217201436563,18.72421720143656
 mixed_reserve_corridor,2048,delivery_contingency,0,18.724217201436563,18.724217201436563
 mixed_reserve_corridor,2048,New indexed income contributions,839.7700520827328,0,-839.7700520827328
 mixed_reserve_corridor,2049,HLT-4,0,89.302,89.302
-mixed_reserve_corridor,2049,HLT-7,0,9001.262,9001.262
+mixed_reserve_corridor,2049,HLT-7,0,8182.545,8182.545
 mixed_reserve_corridor,2049,HLT-8,0,0.555,0.555
 mixed_reserve_corridor,2049,FAM-1,0,263.445,263.445
 mixed_reserve_corridor,2049,FAM-2,0,130.111,130.111
@@ -18563,7 +18563,7 @@ mixed_reserve_corridor,2049,participation,0,19.397130874988125,19.39713087498812
 mixed_reserve_corridor,2049,delivery_contingency,0,19.397130874988125,19.397130874988125
 mixed_reserve_corridor,2049,New indexed income contributions,869.94983180897,0,-869.94983180897
 mixed_reserve_corridor,2050,HLT-4,0,92.776,92.776
-mixed_reserve_corridor,2050,HLT-7,0,9407.153,9407.153
+mixed_reserve_corridor,2050,HLT-7,0,8551.499,8551.499
 mixed_reserve_corridor,2050,HLT-8,0,0.567,0.567
 mixed_reserve_corridor,2050,FAM-1,0,269.504,269.504
 mixed_reserve_corridor,2050,FAM-2,0,134.755,134.755
@@ -18639,7 +18639,7 @@ mixed_reserve_corridor,2050,participation,0,20.089433148430718,20.08943314843071
 mixed_reserve_corridor,2050,delivery_contingency,0,20.089433148430718,20.089433148430718
 mixed_reserve_corridor,2050,New indexed income contributions,900.9991787574384,0,-900.9991787574384
 mixed_reserve_corridor,2051,HLT-4,0,96.254,96.254
-mixed_reserve_corridor,2051,HLT-7,0,9832.332,9832.332
+mixed_reserve_corridor,2051,HLT-7,0,8937.98,8937.98
 mixed_reserve_corridor,2051,HLT-8,0,0.58,0.58
 mixed_reserve_corridor,2051,FAM-1,0,275.703,275.703
 mixed_reserve_corridor,2051,FAM-2,0,139.537,139.537
@@ -18715,7 +18715,7 @@ mixed_reserve_corridor,2051,participation,0,20.802416595090417,20.80241659509041
 mixed_reserve_corridor,2051,delivery_contingency,0,20.802416595090417,20.802416595090417
 mixed_reserve_corridor,2051,New indexed income contributions,932.9760640762867,0,-932.9760640762867
 mixed_reserve_corridor,2052,HLT-4,0,99.964,99.964
-mixed_reserve_corridor,2052,HLT-7,0,10261.045,10261.045
+mixed_reserve_corridor,2052,HLT-7,0,9327.681,9327.681
 mixed_reserve_corridor,2052,HLT-8,0,0.594,0.594
 mixed_reserve_corridor,2052,FAM-1,0,282.044,282.044
 mixed_reserve_corridor,2052,FAM-2,0,144.471,144.471
@@ -18791,7 +18791,7 @@ mixed_reserve_corridor,2052,participation,0,21.537890817623715,21.53789081762371
 mixed_reserve_corridor,2052,delivery_contingency,0,21.537890817623715,21.537890817623715
 mixed_reserve_corridor,2052,New indexed income contributions,965.9616473729229,0,-965.9616473729229
 mixed_reserve_corridor,2053,HLT-4,0,103.73,103.73
-mixed_reserve_corridor,2053,HLT-7,0,10699.076,10699.076
+mixed_reserve_corridor,2053,HLT-7,0,9725.851,9725.851
 mixed_reserve_corridor,2053,HLT-8,0,0.607,0.607
 mixed_reserve_corridor,2053,FAM-1,0,288.531,288.531
 mixed_reserve_corridor,2053,FAM-2,0,149.569,149.569
@@ -18867,7 +18867,7 @@ mixed_reserve_corridor,2053,participation,0,22.297923933352333,22.29792393335233
 mixed_reserve_corridor,2053,delivery_contingency,0,22.297923933352333,22.297923933352333
 mixed_reserve_corridor,2053,New indexed income contributions,1000.0486824843855,0,-1000.0486824843855
 mixed_reserve_corridor,2054,HLT-4,0,107.63,107.63
-mixed_reserve_corridor,2054,HLT-7,0,11148.327,11148.327
+mixed_reserve_corridor,2054,HLT-7,0,10134.221,10134.221
 mixed_reserve_corridor,2054,HLT-8,0,0.621,0.621
 mixed_reserve_corridor,2054,FAM-1,0,295.167,295.167
 mixed_reserve_corridor,2054,FAM-2,0,154.837,154.837
@@ -18943,7 +18943,7 @@ mixed_reserve_corridor,2054,participation,0,23.0832914862719,23.0832914862719
 mixed_reserve_corridor,2054,delivery_contingency,0,23.0832914862719,23.0832914862719
 mixed_reserve_corridor,2054,New indexed income contributions,1035.2719520995636,0,-1035.2719520995636
 mixed_reserve_corridor,2055,HLT-4,0,111.759,111.759
-mixed_reserve_corridor,2055,HLT-7,0,11624.287,11624.287
+mixed_reserve_corridor,2055,HLT-7,0,10566.87,10566.87
 mixed_reserve_corridor,2055,HLT-8,0,0.636,0.636
 mixed_reserve_corridor,2055,FAM-1,0,301.956,301.956
 mixed_reserve_corridor,2055,FAM-2,0,160.287,160.287
@@ -19019,7 +19019,7 @@ mixed_reserve_corridor,2055,participation,0,23.89580307903892,23.89580307903892
 mixed_reserve_corridor,2055,delivery_contingency,0,23.89580307903892,23.89580307903892
 mixed_reserve_corridor,2055,New indexed income contributions,1071.7126158258652,0,-1071.7126158258652
 mixed_reserve_corridor,2056,HLT-4,0,115.959,115.959
-mixed_reserve_corridor,2056,HLT-7,0,12120.084,12120.084
+mixed_reserve_corridor,2056,HLT-7,0,11017.547,11017.547
 mixed_reserve_corridor,2056,HLT-8,0,0.65,0.65
 mixed_reserve_corridor,2056,FAM-1,0,308.901,308.901
 mixed_reserve_corridor,2056,FAM-2,0,165.931,165.931
@@ -19178,7 +19178,7 @@ mixed_corridor_downside,2031,HLT-1,0,21.5,21.5
 mixed_corridor_downside,2031,HLT-2,0,40.5,40.5
 mixed_corridor_downside,2031,HLT-4,0,37.058,37.058
 mixed_corridor_downside,2031,HLT-6,0,-57.22,-57.22
-mixed_corridor_downside,2031,HLT-7,0,707.446,707.446
+mixed_corridor_downside,2031,HLT-7,0,651.168,651.168
 mixed_corridor_downside,2031,HLT-8,0,0.369,0.369
 mixed_corridor_downside,2031,FAM-1,0,175.298,175.298
 mixed_corridor_downside,2031,FAM-2,0,22.434,22.434
@@ -19260,7 +19260,7 @@ mixed_corridor_downside,2031,Downside net loss allowance,0,131.83646364846643,13
 mixed_corridor_downside,2032,HLT-2,0,78.0,78.0
 mixed_corridor_downside,2032,HLT-4,0,56.876,56.876
 mixed_corridor_downside,2032,HLT-6,0,-70.136,-70.136
-mixed_corridor_downside,2032,HLT-7,0,977.249,977.249
+mixed_corridor_downside,2032,HLT-7,0,903.717,903.717
 mixed_corridor_downside,2032,HLT-8,0,0.377,0.377
 mixed_corridor_downside,2032,FAM-1,0,179.26,179.26
 mixed_corridor_downside,2032,FAM-2,0,34.921,34.921
@@ -19343,7 +19343,7 @@ mixed_corridor_downside,2032,Downside net loss allowance,0,153.07793643386697,15
 mixed_corridor_downside,2033,HLT-2,0,113.0,113.0
 mixed_corridor_downside,2033,HLT-4,0,56.129,56.129
 mixed_corridor_downside,2033,HLT-6,0,-75.542,-75.542
-mixed_corridor_downside,2033,HLT-7,0,1593.864,1593.864
+mixed_corridor_downside,2033,HLT-7,0,1431.905,1431.905
 mixed_corridor_downside,2033,HLT-8,0,0.386,0.386
 mixed_corridor_downside,2033,FAM-1,0,183.311,183.311
 mixed_corridor_downside,2033,FAM-2,0,48.317,48.317
@@ -19429,7 +19429,7 @@ mixed_corridor_downside,2033,Downside net loss allowance,0,161.81319432033453,16
 mixed_corridor_downside,2034,HLT-2,0,133.25,133.25
 mixed_corridor_downside,2034,HLT-4,0,53.998,53.998
 mixed_corridor_downside,2034,HLT-6,0,-81.399,-81.399
-mixed_corridor_downside,2034,HLT-7,0,2446.732,2446.732
+mixed_corridor_downside,2034,HLT-7,0,2165.433,2165.433
 mixed_corridor_downside,2034,HLT-8,0,0.395,0.395
 mixed_corridor_downside,2034,FAM-1,0,187.454,187.454
 mixed_corridor_downside,2034,FAM-2,0,62.676,62.676
@@ -19515,7 +19515,7 @@ mixed_corridor_downside,2034,Downside net loss allowance,0,171.00498932940675,17
 mixed_corridor_downside,2035,HLT-2,0,34.25,34.25
 mixed_corridor_downside,2035,HLT-4,0,51.672,51.672
 mixed_corridor_downside,2035,HLT-6,0,-20.725,-20.725
-mixed_corridor_downside,2035,HLT-7,0,4062.827,4062.827
+mixed_corridor_downside,2035,HLT-7,0,3653.628,3653.628
 mixed_corridor_downside,2035,HLT-8,0,0.404,0.404
 mixed_corridor_downside,2035,FAM-1,0,191.691,191.691
 mixed_corridor_downside,2035,FAM-2,0,78.052,78.052
@@ -19600,7 +19600,7 @@ mixed_corridor_downside,2035,delivery_contingency,0,11.636132853271599,11.636132
 mixed_corridor_downside,2035,New indexed income contributions,189.21448845257333,0,-189.21448845257333
 mixed_corridor_downside,2035,Downside net loss allowance,0,109.3340679942636,109.3340679942636
 mixed_corridor_downside,2036,HLT-4,0,52.758,52.758
-mixed_corridor_downside,2036,HLT-7,0,4650.612,4650.612
+mixed_corridor_downside,2036,HLT-7,0,4221.646,4221.646
 mixed_corridor_downside,2036,HLT-8,0,0.413,0.413
 mixed_corridor_downside,2036,FAM-1,0,196.023,196.023
 mixed_corridor_downside,2036,FAM-2,0,81.001,81.001
@@ -19684,7 +19684,7 @@ mixed_corridor_downside,2036,delivery_contingency,0,12.075762892934211,12.075762
 mixed_corridor_downside,2036,New indexed income contributions,219.67771208554572,0,-219.67771208554572
 mixed_corridor_downside,2036,Downside net loss allowance,0,90.99741982826058,90.99741982826058
 mixed_corridor_downside,2037,HLT-4,0,54.901,54.901
-mixed_corridor_downside,2037,HLT-7,0,4886.594,4886.594
+mixed_corridor_downside,2037,HLT-7,0,4443.885,4443.885
 mixed_corridor_downside,2037,HLT-8,0,0.422,0.422
 mixed_corridor_downside,2037,FAM-1,0,200.532,200.532
 mixed_corridor_downside,2037,FAM-2,0,84.055,84.055
@@ -19765,7 +19765,7 @@ mixed_corridor_downside,2037,delivery_contingency,0,12.530981366909218,12.530981
 mixed_corridor_downside,2037,New indexed income contributions,252.1521800739164,0,-252.1521800739164
 mixed_corridor_downside,2037,Downside net loss allowance,0,94.73195025290379,94.73195025290379
 mixed_corridor_downside,2038,HLT-4,0,57.25,57.25
-mixed_corridor_downside,2038,HLT-7,0,5157.547,5157.547
+mixed_corridor_downside,2038,HLT-7,0,4689.764,4689.764
 mixed_corridor_downside,2038,HLT-8,0,0.432,0.432
 mixed_corridor_downside,2038,FAM-1,0,205.144,205.144
 mixed_corridor_downside,2038,FAM-2,0,87.226,87.226
@@ -19846,7 +19846,7 @@ mixed_corridor_downside,2038,delivery_contingency,0,13.003804689585284,13.003804
 mixed_corridor_downside,2038,New indexed income contributions,286.7726491643476,0,-286.7726491643476
 mixed_corridor_downside,2038,Downside net loss allowance,0,98.72301040692976,98.72301040692976
 mixed_corridor_downside,2039,HLT-4,0,59.718,59.718
-mixed_corridor_downside,2039,HLT-7,0,5439.129,5439.129
+mixed_corridor_downside,2039,HLT-7,0,4944.854,4944.854
 mixed_corridor_downside,2039,HLT-8,0,0.442,0.442
 mixed_corridor_downside,2039,FAM-1,0,209.862,209.862
 mixed_corridor_downside,2039,FAM-2,0,90.511,90.511
@@ -19927,7 +19927,7 @@ mixed_corridor_downside,2039,delivery_contingency,0,13.49343146550025,13.4934314
 mixed_corridor_downside,2039,New indexed income contributions,323.6218669089048,0,-323.6218669089048
 mixed_corridor_downside,2039,Downside net loss allowance,0,103.20692349452834,103.20692349452834
 mixed_corridor_downside,2040,HLT-4,0,62.273,62.273
-mixed_corridor_downside,2040,HLT-7,0,5745.188,5745.188
+mixed_corridor_downside,2040,HLT-7,0,5222.808,5222.808
 mixed_corridor_downside,2040,HLT-8,0,0.452,0.452
 mixed_corridor_downside,2040,FAM-1,0,214.689,214.689
 mixed_corridor_downside,2040,FAM-2,0,93.928,93.928
@@ -20005,7 +20005,7 @@ mixed_corridor_downside,2040,delivery_contingency,0,14.002963870636675,14.002963
 mixed_corridor_downside,2040,New indexed income contributions,362.877550382378,0,-362.877550382378
 mixed_corridor_downside,2040,Downside net loss allowance,0,148.47999675023996,148.47999675023996
 mixed_corridor_downside,2041,HLT-4,0,64.939,64.939
-mixed_corridor_downside,2041,HLT-7,0,6075.806,6075.806
+mixed_corridor_downside,2041,HLT-7,0,5523.333,5523.333
 mixed_corridor_downside,2041,HLT-8,0,0.462,0.462
 mixed_corridor_downside,2041,FAM-1,0,219.627,219.627
 mixed_corridor_downside,2041,FAM-2,0,97.481,97.481
@@ -20083,7 +20083,7 @@ mixed_corridor_downside,2041,delivery_contingency,0,14.532660419659782,14.532660
 mixed_corridor_downside,2041,New indexed income contributions,404.66219208591457,0,-404.66219208591457
 mixed_corridor_downside,2041,Downside net loss allowance,0,155.03796260860537,155.03796260860537
 mixed_corridor_downside,2042,HLT-4,0,67.698,67.698
-mixed_corridor_downside,2042,HLT-7,0,6411.843,6411.843
+mixed_corridor_downside,2042,HLT-7,0,5828.786,5828.786
 mixed_corridor_downside,2042,HLT-8,0,0.473,0.473
 mixed_corridor_downside,2042,FAM-1,0,224.678,224.678
 mixed_corridor_downside,2042,FAM-2,0,101.139,101.139
@@ -20160,7 +20160,7 @@ mixed_corridor_downside,2042,delivery_contingency,0,15.077867848595714,15.077867
 mixed_corridor_downside,2042,New indexed income contributions,448.95402932218667,0,-448.95402932218667
 mixed_corridor_downside,2042,Downside net loss allowance,0,161.6705358538519,161.6705358538519
 mixed_corridor_downside,2043,HLT-4,0,70.567,70.567
-mixed_corridor_downside,2043,HLT-7,0,6754.278,6754.278
+mixed_corridor_downside,2043,HLT-7,0,6140.057,6140.057
 mixed_corridor_downside,2043,HLT-8,0,0.484,0.484
 mixed_corridor_downside,2043,FAM-1,0,229.846,229.846
 mixed_corridor_downside,2043,FAM-2,0,104.926,104.926
@@ -20237,7 +20237,7 @@ mixed_corridor_downside,2043,delivery_contingency,0,15.642463877422685,15.642463
 mixed_corridor_downside,2043,New indexed income contributions,495.96585014282977,0,-495.96585014282977
 mixed_corridor_downside,2043,Downside net loss allowance,0,168.5513171014596,168.5513171014596
 mixed_corridor_downside,2044,HLT-4,0,73.489,73.489
-mixed_corridor_downside,2044,HLT-7,0,7105.204,7105.204
+mixed_corridor_downside,2044,HLT-7,0,6459.045,6459.045
 mixed_corridor_downside,2044,HLT-8,0,0.495,0.495
 mixed_corridor_downside,2044,FAM-1,0,235.132,235.132
 mixed_corridor_downside,2044,FAM-2,0,108.841,108.841
@@ -20314,7 +20314,7 @@ mixed_corridor_downside,2044,delivery_contingency,0,16.22618999147548,16.2261899
 mixed_corridor_downside,2044,New indexed income contributions,545.8012583778499,0,-545.8012583778499
 mixed_corridor_downside,2044,Downside net loss allowance,0,175.61538018466803,175.61538018466803
 mixed_corridor_downside,2045,HLT-4,0,76.444,76.444
-mixed_corridor_downside,2045,HLT-7,0,7464.198,7464.198
+mixed_corridor_downside,2045,HLT-7,0,6785.366,6785.366
 mixed_corridor_downside,2045,HLT-8,0,0.506,0.506
 mixed_corridor_downside,2045,FAM-1,0,240.54,240.54
 mixed_corridor_downside,2045,FAM-2,0,112.862,112.862
@@ -20391,7 +20391,7 @@ mixed_corridor_downside,2045,delivery_contingency,0,16.825685500106314,16.825685
 mixed_corridor_downside,2045,New indexed income contributions,565.9665222613912,0,-565.9665222613912
 mixed_corridor_downside,2045,Downside net loss allowance,0,182.8995481103967,182.8995481103967
 mixed_corridor_downside,2046,HLT-4,0,79.48,79.48
-mixed_corridor_downside,2046,HLT-7,0,7836.34,7836.34
+mixed_corridor_downside,2046,HLT-7,0,7123.638,7123.638
 mixed_corridor_downside,2046,HLT-8,0,0.518,0.518
 mixed_corridor_downside,2046,FAM-1,0,246.073,246.073
 mixed_corridor_downside,2046,FAM-2,0,116.977,116.977
@@ -20468,7 +20468,7 @@ mixed_corridor_downside,2046,delivery_contingency,0,17.439140800658695,17.439140
 mixed_corridor_downside,2046,New indexed income contributions,586.6013524449373,0,-586.6013524449373
 mixed_corridor_downside,2046,Downside net loss allowance,0,190.8074495255756,190.8074495255756
 mixed_corridor_downside,2047,HLT-4,0,82.686,82.686
-mixed_corridor_downside,2047,HLT-7,0,8209.804,8209.804
+mixed_corridor_downside,2047,HLT-7,0,7463.116,7463.116
 mixed_corridor_downside,2047,HLT-8,0,0.53,0.53
 mixed_corridor_downside,2047,FAM-1,0,251.732,251.732
 mixed_corridor_downside,2047,FAM-2,0,121.222,121.222
@@ -20545,7 +20545,7 @@ mixed_corridor_downside,2047,delivery_contingency,0,18.07198470110211,18.0719847
 mixed_corridor_downside,2047,New indexed income contributions,607.8883580451568,0,-607.8883580451568
 mixed_corridor_downside,2047,Downside net loss allowance,0,198.56326253026842,198.56326253026842
 mixed_corridor_downside,2048,HLT-4,0,85.904,85.904
-mixed_corridor_downside,2048,HLT-7,0,8600.052,8600.052
+mixed_corridor_downside,2048,HLT-7,0,7817.847,7817.847
 mixed_corridor_downside,2048,HLT-8,0,0.542,0.542
 mixed_corridor_downside,2048,FAM-1,0,257.522,257.522
 mixed_corridor_downside,2048,FAM-2,0,125.597,125.597
@@ -20622,7 +20622,7 @@ mixed_corridor_downside,2048,delivery_contingency,0,18.724217201436563,18.724217
 mixed_corridor_downside,2048,New indexed income contributions,629.8275390620496,0,-629.8275390620496
 mixed_corridor_downside,2048,Downside net loss allowance,0,206.52013792853552,206.52013792853552
 mixed_corridor_downside,2049,HLT-4,0,89.302,89.302
-mixed_corridor_downside,2049,HLT-7,0,9001.262,9001.262
+mixed_corridor_downside,2049,HLT-7,0,8182.545,8182.545
 mixed_corridor_downside,2049,HLT-8,0,0.555,0.555
 mixed_corridor_downside,2049,FAM-1,0,263.445,263.445
 mixed_corridor_downside,2049,FAM-2,0,130.111,130.111
@@ -20699,7 +20699,7 @@ mixed_corridor_downside,2049,delivery_contingency,0,19.397130874988125,19.397130
 mixed_corridor_downside,2049,New indexed income contributions,652.4623738567275,0,-652.4623738567275
 mixed_corridor_downside,2049,Downside net loss allowance,0,214.7025528486487,214.7025528486487
 mixed_corridor_downside,2050,HLT-4,0,92.776,92.776
-mixed_corridor_downside,2050,HLT-7,0,9407.153,9407.153
+mixed_corridor_downside,2050,HLT-7,0,8551.499,8551.499
 mixed_corridor_downside,2050,HLT-8,0,0.567,0.567
 mixed_corridor_downside,2050,FAM-1,0,269.504,269.504
 mixed_corridor_downside,2050,FAM-2,0,134.755,134.755
@@ -20776,7 +20776,7 @@ mixed_corridor_downside,2050,delivery_contingency,0,20.089433148430718,20.089433
 mixed_corridor_downside,2050,New indexed income contributions,675.7493840680787,0,-675.7493840680787
 mixed_corridor_downside,2050,Downside net loss allowance,0,223.14418623463473,223.14418623463473
 mixed_corridor_downside,2051,HLT-4,0,96.254,96.254
-mixed_corridor_downside,2051,HLT-7,0,9832.332,9832.332
+mixed_corridor_downside,2051,HLT-7,0,8937.98,8937.98
 mixed_corridor_downside,2051,HLT-8,0,0.58,0.58
 mixed_corridor_downside,2051,FAM-1,0,275.703,275.703
 mixed_corridor_downside,2051,FAM-2,0,139.537,139.537
@@ -20853,7 +20853,7 @@ mixed_corridor_downside,2051,delivery_contingency,0,20.802416595090417,20.802416
 mixed_corridor_downside,2051,New indexed income contributions,699.7320480572149,0,-699.7320480572149
 mixed_corridor_downside,2051,Downside net loss allowance,0,232.12783631533506,232.12783631533506
 mixed_corridor_downside,2052,HLT-4,0,99.964,99.964
-mixed_corridor_downside,2052,HLT-7,0,10261.045,10261.045
+mixed_corridor_downside,2052,HLT-7,0,9327.681,9327.681
 mixed_corridor_downside,2052,HLT-8,0,0.594,0.594
 mixed_corridor_downside,2052,FAM-1,0,282.044,282.044
 mixed_corridor_downside,2052,FAM-2,0,144.471,144.471
@@ -20930,7 +20930,7 @@ mixed_corridor_downside,2052,delivery_contingency,0,21.537890817623715,21.537890
 mixed_corridor_downside,2052,New indexed income contributions,724.4712355296922,0,-724.4712355296922
 mixed_corridor_downside,2052,Downside net loss allowance,0,241.48381930280317,241.48381930280317
 mixed_corridor_downside,2053,HLT-4,0,103.73,103.73
-mixed_corridor_downside,2053,HLT-7,0,10699.076,10699.076
+mixed_corridor_downside,2053,HLT-7,0,9725.851,9725.851
 mixed_corridor_downside,2053,HLT-8,0,0.607,0.607
 mixed_corridor_downside,2053,FAM-1,0,288.531,288.531
 mixed_corridor_downside,2053,FAM-2,0,149.569,149.569
@@ -21007,7 +21007,7 @@ mixed_corridor_downside,2053,delivery_contingency,0,22.297923933352333,22.297923
 mixed_corridor_downside,2053,New indexed income contributions,750.0365118632892,0,-750.0365118632892
 mixed_corridor_downside,2053,Downside net loss allowance,0,250.97567488175235,250.97567488175235
 mixed_corridor_downside,2054,HLT-4,0,107.63,107.63
-mixed_corridor_downside,2054,HLT-7,0,11148.327,11148.327
+mixed_corridor_downside,2054,HLT-7,0,10134.221,10134.221
 mixed_corridor_downside,2054,HLT-8,0,0.621,0.621
 mixed_corridor_downside,2054,FAM-1,0,295.167,295.167
 mixed_corridor_downside,2054,FAM-2,0,154.837,154.837
@@ -21084,7 +21084,7 @@ mixed_corridor_downside,2054,delivery_contingency,0,23.0832914862719,23.08329148
 mixed_corridor_downside,2054,New indexed income contributions,776.4539640746726,0,-776.4539640746726
 mixed_corridor_downside,2054,Downside net loss allowance,0,260.91856698058723,260.91856698058723
 mixed_corridor_downside,2055,HLT-4,0,111.759,111.759
-mixed_corridor_downside,2055,HLT-7,0,11624.287,11624.287
+mixed_corridor_downside,2055,HLT-7,0,10566.87,10566.87
 mixed_corridor_downside,2055,HLT-8,0,0.636,0.636
 mixed_corridor_downside,2055,FAM-1,0,301.956,301.956
 mixed_corridor_downside,2055,FAM-2,0,160.287,160.287
@@ -21161,7 +21161,7 @@ mixed_corridor_downside,2055,delivery_contingency,0,23.89580307903892,23.8958030
 mixed_corridor_downside,2055,New indexed income contributions,803.7844618693989,0,-803.7844618693989
 mixed_corridor_downside,2055,Downside net loss allowance,0,271.17292989952887,271.17292989952887
 mixed_corridor_downside,2056,HLT-4,0,115.959,115.959
-mixed_corridor_downside,2056,HLT-7,0,12120.084,12120.084
+mixed_corridor_downside,2056,HLT-7,0,11017.547,11017.547
 mixed_corridor_downside,2056,HLT-8,0,0.65,0.65
 mixed_corridor_downside,2056,FAM-1,0,308.901,308.901
 mixed_corridor_downside,2056,FAM-2,0,165.931,165.931
@@ -21320,7 +21320,7 @@ mixed_legacy_education_floor,2031,HLT-1,0,21.5,21.5
 mixed_legacy_education_floor,2031,HLT-2,0,40.5,40.5
 mixed_legacy_education_floor,2031,HLT-4,0,37.058,37.058
 mixed_legacy_education_floor,2031,HLT-6,0,-57.22,-57.22
-mixed_legacy_education_floor,2031,HLT-7,0,707.446,707.446
+mixed_legacy_education_floor,2031,HLT-7,0,651.168,651.168
 mixed_legacy_education_floor,2031,HLT-8,0,0.369,0.369
 mixed_legacy_education_floor,2031,FAM-1,0,175.298,175.298
 mixed_legacy_education_floor,2031,FAM-2,0,22.434,22.434
@@ -21401,7 +21401,7 @@ mixed_legacy_education_floor,2031,delivery_contingency,0,5.016838999005365,5.016
 mixed_legacy_education_floor,2032,HLT-2,0,78.0,78.0
 mixed_legacy_education_floor,2032,HLT-4,0,56.876,56.876
 mixed_legacy_education_floor,2032,HLT-6,0,-70.136,-70.136
-mixed_legacy_education_floor,2032,HLT-7,0,977.249,977.249
+mixed_legacy_education_floor,2032,HLT-7,0,903.717,903.717
 mixed_legacy_education_floor,2032,HLT-8,0,0.377,0.377
 mixed_legacy_education_floor,2032,FAM-1,0,179.26,179.26
 mixed_legacy_education_floor,2032,FAM-2,0,34.921,34.921
@@ -21483,7 +21483,7 @@ mixed_legacy_education_floor,2032,delivery_contingency,0,7.809049435113141,7.809
 mixed_legacy_education_floor,2033,HLT-2,0,113.0,113.0
 mixed_legacy_education_floor,2033,HLT-4,0,56.129,56.129
 mixed_legacy_education_floor,2033,HLT-6,0,-75.542,-75.542
-mixed_legacy_education_floor,2033,HLT-7,0,1593.864,1593.864
+mixed_legacy_education_floor,2033,HLT-7,0,1431.905,1431.905
 mixed_legacy_education_floor,2033,HLT-8,0,0.386,0.386
 mixed_legacy_education_floor,2033,FAM-1,0,183.311,183.311
 mixed_legacy_education_floor,2033,FAM-2,0,48.317,48.317
@@ -21568,7 +21568,7 @@ mixed_legacy_education_floor,2033,New indexed income contributions,68.8161735138
 mixed_legacy_education_floor,2034,HLT-2,0,133.25,133.25
 mixed_legacy_education_floor,2034,HLT-4,0,53.998,53.998
 mixed_legacy_education_floor,2034,HLT-6,0,-81.399,-81.399
-mixed_legacy_education_floor,2034,HLT-7,0,2446.732,2446.732
+mixed_legacy_education_floor,2034,HLT-7,0,2165.433,2165.433
 mixed_legacy_education_floor,2034,HLT-8,0,0.395,0.395
 mixed_legacy_education_floor,2034,FAM-1,0,187.454,187.454
 mixed_legacy_education_floor,2034,FAM-2,0,62.676,62.676
@@ -21653,7 +21653,7 @@ mixed_legacy_education_floor,2034,New indexed income contributions,142.826666666
 mixed_legacy_education_floor,2035,HLT-2,0,34.25,34.25
 mixed_legacy_education_floor,2035,HLT-4,0,51.672,51.672
 mixed_legacy_education_floor,2035,HLT-6,0,-20.725,-20.725
-mixed_legacy_education_floor,2035,HLT-7,0,4062.827,4062.827
+mixed_legacy_education_floor,2035,HLT-7,0,3653.628,3653.628
 mixed_legacy_education_floor,2035,HLT-8,0,0.404,0.404
 mixed_legacy_education_floor,2035,FAM-1,0,191.691,191.691
 mixed_legacy_education_floor,2035,FAM-2,0,78.052,78.052
@@ -21737,7 +21737,7 @@ mixed_legacy_education_floor,2035,participation,0,11.636132853271599,11.63613285
 mixed_legacy_education_floor,2035,delivery_contingency,0,11.636132853271599,11.636132853271599
 mixed_legacy_education_floor,2035,New indexed income contributions,252.28598460343113,0,-252.28598460343113
 mixed_legacy_education_floor,2036,HLT-4,0,52.758,52.758
-mixed_legacy_education_floor,2036,HLT-7,0,4650.612,4650.612
+mixed_legacy_education_floor,2036,HLT-7,0,4221.646,4221.646
 mixed_legacy_education_floor,2036,HLT-8,0,0.413,0.413
 mixed_legacy_education_floor,2036,FAM-1,0,196.023,196.023
 mixed_legacy_education_floor,2036,FAM-2,0,81.001,81.001
@@ -21820,7 +21820,7 @@ mixed_legacy_education_floor,2036,participation,0,12.075762892934211,12.07576289
 mixed_legacy_education_floor,2036,delivery_contingency,0,12.075762892934211,12.075762892934211
 mixed_legacy_education_floor,2036,New indexed income contributions,292.903616114061,0,-292.903616114061
 mixed_legacy_education_floor,2037,HLT-4,0,54.901,54.901
-mixed_legacy_education_floor,2037,HLT-7,0,4886.594,4886.594
+mixed_legacy_education_floor,2037,HLT-7,0,4443.885,4443.885
 mixed_legacy_education_floor,2037,HLT-8,0,0.422,0.422
 mixed_legacy_education_floor,2037,FAM-1,0,200.532,200.532
 mixed_legacy_education_floor,2037,FAM-2,0,84.055,84.055
@@ -21900,7 +21900,7 @@ mixed_legacy_education_floor,2037,participation,0,12.530981366909218,12.53098136
 mixed_legacy_education_floor,2037,delivery_contingency,0,12.530981366909218,12.530981366909218
 mixed_legacy_education_floor,2037,New indexed income contributions,336.20290676522194,0,-336.20290676522194
 mixed_legacy_education_floor,2038,HLT-4,0,57.25,57.25
-mixed_legacy_education_floor,2038,HLT-7,0,5157.547,5157.547
+mixed_legacy_education_floor,2038,HLT-7,0,4689.764,4689.764
 mixed_legacy_education_floor,2038,HLT-8,0,0.432,0.432
 mixed_legacy_education_floor,2038,FAM-1,0,205.144,205.144
 mixed_legacy_education_floor,2038,FAM-2,0,87.226,87.226
@@ -21980,7 +21980,7 @@ mixed_legacy_education_floor,2038,participation,0,13.003804689585284,13.00380468
 mixed_legacy_education_floor,2038,delivery_contingency,0,13.003804689585284,13.003804689585284
 mixed_legacy_education_floor,2038,New indexed income contributions,382.36353221913026,0,-382.36353221913026
 mixed_legacy_education_floor,2039,HLT-4,0,59.718,59.718
-mixed_legacy_education_floor,2039,HLT-7,0,5439.129,5439.129
+mixed_legacy_education_floor,2039,HLT-7,0,4944.854,4944.854
 mixed_legacy_education_floor,2039,HLT-8,0,0.442,0.442
 mixed_legacy_education_floor,2039,FAM-1,0,209.862,209.862
 mixed_legacy_education_floor,2039,FAM-2,0,90.511,90.511
@@ -22060,7 +22060,7 @@ mixed_legacy_education_floor,2039,participation,0,13.49343146550025,13.493431465
 mixed_legacy_education_floor,2039,delivery_contingency,0,13.49343146550025,13.49343146550025
 mixed_legacy_education_floor,2039,New indexed income contributions,431.49582254520647,0,-431.49582254520647
 mixed_legacy_education_floor,2040,HLT-4,0,62.273,62.273
-mixed_legacy_education_floor,2040,HLT-7,0,5745.188,5745.188
+mixed_legacy_education_floor,2040,HLT-7,0,5222.808,5222.808
 mixed_legacy_education_floor,2040,HLT-8,0,0.452,0.452
 mixed_legacy_education_floor,2040,FAM-1,0,214.689,214.689
 mixed_legacy_education_floor,2040,FAM-2,0,93.928,93.928
@@ -22137,7 +22137,7 @@ mixed_legacy_education_floor,2040,participation,0,14.002963870636675,14.00296387
 mixed_legacy_education_floor,2040,delivery_contingency,0,14.002963870636675,14.002963870636675
 mixed_legacy_education_floor,2040,New indexed income contributions,483.8367338431708,0,-483.8367338431708
 mixed_legacy_education_floor,2041,HLT-4,0,64.939,64.939
-mixed_legacy_education_floor,2041,HLT-7,0,6075.806,6075.806
+mixed_legacy_education_floor,2041,HLT-7,0,5523.333,5523.333
 mixed_legacy_education_floor,2041,HLT-8,0,0.462,0.462
 mixed_legacy_education_floor,2041,FAM-1,0,219.627,219.627
 mixed_legacy_education_floor,2041,FAM-2,0,97.481,97.481
@@ -22214,7 +22214,7 @@ mixed_legacy_education_floor,2041,participation,0,14.532660419659782,14.53266041
 mixed_legacy_education_floor,2041,delivery_contingency,0,14.532660419659782,14.532660419659782
 mixed_legacy_education_floor,2041,New indexed income contributions,539.5495894478861,0,-539.5495894478861
 mixed_legacy_education_floor,2042,HLT-4,0,67.698,67.698
-mixed_legacy_education_floor,2042,HLT-7,0,6411.843,6411.843
+mixed_legacy_education_floor,2042,HLT-7,0,5828.786,5828.786
 mixed_legacy_education_floor,2042,HLT-8,0,0.473,0.473
 mixed_legacy_education_floor,2042,FAM-1,0,224.678,224.678
 mixed_legacy_education_floor,2042,FAM-2,0,101.139,101.139
@@ -22290,7 +22290,7 @@ mixed_legacy_education_floor,2042,participation,0,15.077867848595714,15.07786784
 mixed_legacy_education_floor,2042,delivery_contingency,0,15.077867848595714,15.077867848595714
 mixed_legacy_education_floor,2042,New indexed income contributions,598.6053724295822,0,-598.6053724295822
 mixed_legacy_education_floor,2043,HLT-4,0,70.567,70.567
-mixed_legacy_education_floor,2043,HLT-7,0,6754.278,6754.278
+mixed_legacy_education_floor,2043,HLT-7,0,6140.057,6140.057
 mixed_legacy_education_floor,2043,HLT-8,0,0.484,0.484
 mixed_legacy_education_floor,2043,FAM-1,0,229.846,229.846
 mixed_legacy_education_floor,2043,FAM-2,0,104.926,104.926
@@ -22366,7 +22366,7 @@ mixed_legacy_education_floor,2043,participation,0,15.642463877422685,15.64246387
 mixed_legacy_education_floor,2043,delivery_contingency,0,15.642463877422685,15.642463877422685
 mixed_legacy_education_floor,2043,New indexed income contributions,661.2878001904397,0,-661.2878001904397
 mixed_legacy_education_floor,2044,HLT-4,0,73.489,73.489
-mixed_legacy_education_floor,2044,HLT-7,0,7105.204,7105.204
+mixed_legacy_education_floor,2044,HLT-7,0,6459.045,6459.045
 mixed_legacy_education_floor,2044,HLT-8,0,0.495,0.495
 mixed_legacy_education_floor,2044,FAM-1,0,235.132,235.132
 mixed_legacy_education_floor,2044,FAM-2,0,108.841,108.841
@@ -22442,7 +22442,7 @@ mixed_legacy_education_floor,2044,participation,0,16.22618999147548,16.226189991
 mixed_legacy_education_floor,2044,delivery_contingency,0,16.22618999147548,16.22618999147548
 mixed_legacy_education_floor,2044,New indexed income contributions,727.7350111704667,0,-727.7350111704667
 mixed_legacy_education_floor,2045,HLT-4,0,76.444,76.444
-mixed_legacy_education_floor,2045,HLT-7,0,7464.198,7464.198
+mixed_legacy_education_floor,2045,HLT-7,0,6785.366,6785.366
 mixed_legacy_education_floor,2045,HLT-8,0,0.506,0.506
 mixed_legacy_education_floor,2045,FAM-1,0,240.54,240.54
 mixed_legacy_education_floor,2045,FAM-2,0,112.862,112.862
@@ -22518,7 +22518,7 @@ mixed_legacy_education_floor,2045,participation,0,16.825685500106314,16.82568550
 mixed_legacy_education_floor,2045,delivery_contingency,0,16.825685500106314,16.825685500106314
 mixed_legacy_education_floor,2045,New indexed income contributions,754.6220296818549,0,-754.6220296818549
 mixed_legacy_education_floor,2046,HLT-4,0,79.48,79.48
-mixed_legacy_education_floor,2046,HLT-7,0,7836.34,7836.34
+mixed_legacy_education_floor,2046,HLT-7,0,7123.638,7123.638
 mixed_legacy_education_floor,2046,HLT-8,0,0.518,0.518
 mixed_legacy_education_floor,2046,FAM-1,0,246.073,246.073
 mixed_legacy_education_floor,2046,FAM-2,0,116.977,116.977
@@ -22594,7 +22594,7 @@ mixed_legacy_education_floor,2046,participation,0,17.439140800658695,17.43914080
 mixed_legacy_education_floor,2046,delivery_contingency,0,17.439140800658695,17.439140800658695
 mixed_legacy_education_floor,2046,New indexed income contributions,782.1351365932499,0,-782.1351365932499
 mixed_legacy_education_floor,2047,HLT-4,0,82.686,82.686
-mixed_legacy_education_floor,2047,HLT-7,0,8209.804,8209.804
+mixed_legacy_education_floor,2047,HLT-7,0,7463.116,7463.116
 mixed_legacy_education_floor,2047,HLT-8,0,0.53,0.53
 mixed_legacy_education_floor,2047,FAM-1,0,251.732,251.732
 mixed_legacy_education_floor,2047,FAM-2,0,121.222,121.222
@@ -22670,7 +22670,7 @@ mixed_legacy_education_floor,2047,participation,0,18.07198470110211,18.071984701
 mixed_legacy_education_floor,2047,delivery_contingency,0,18.07198470110211,18.07198470110211
 mixed_legacy_education_floor,2047,New indexed income contributions,810.5178107268758,0,-810.5178107268758
 mixed_legacy_education_floor,2048,HLT-4,0,85.904,85.904
-mixed_legacy_education_floor,2048,HLT-7,0,8600.052,8600.052
+mixed_legacy_education_floor,2048,HLT-7,0,7817.847,7817.847
 mixed_legacy_education_floor,2048,HLT-8,0,0.542,0.542
 mixed_legacy_education_floor,2048,FAM-1,0,257.522,257.522
 mixed_legacy_education_floor,2048,FAM-2,0,125.597,125.597
@@ -22746,7 +22746,7 @@ mixed_legacy_education_floor,2048,participation,0,18.724217201436563,18.72421720
 mixed_legacy_education_floor,2048,delivery_contingency,0,18.724217201436563,18.724217201436563
 mixed_legacy_education_floor,2048,New indexed income contributions,839.7700520827328,0,-839.7700520827328
 mixed_legacy_education_floor,2049,HLT-4,0,89.302,89.302
-mixed_legacy_education_floor,2049,HLT-7,0,9001.262,9001.262
+mixed_legacy_education_floor,2049,HLT-7,0,8182.545,8182.545
 mixed_legacy_education_floor,2049,HLT-8,0,0.555,0.555
 mixed_legacy_education_floor,2049,FAM-1,0,263.445,263.445
 mixed_legacy_education_floor,2049,FAM-2,0,130.111,130.111
@@ -22822,7 +22822,7 @@ mixed_legacy_education_floor,2049,participation,0,19.397130874988125,19.39713087
 mixed_legacy_education_floor,2049,delivery_contingency,0,19.397130874988125,19.397130874988125
 mixed_legacy_education_floor,2049,New indexed income contributions,869.94983180897,0,-869.94983180897
 mixed_legacy_education_floor,2050,HLT-4,0,92.776,92.776
-mixed_legacy_education_floor,2050,HLT-7,0,9407.153,9407.153
+mixed_legacy_education_floor,2050,HLT-7,0,8551.499,8551.499
 mixed_legacy_education_floor,2050,HLT-8,0,0.567,0.567
 mixed_legacy_education_floor,2050,FAM-1,0,269.504,269.504
 mixed_legacy_education_floor,2050,FAM-2,0,134.755,134.755
@@ -22898,7 +22898,7 @@ mixed_legacy_education_floor,2050,participation,0,20.089433148430718,20.08943314
 mixed_legacy_education_floor,2050,delivery_contingency,0,20.089433148430718,20.089433148430718
 mixed_legacy_education_floor,2050,New indexed income contributions,900.9991787574384,0,-900.9991787574384
 mixed_legacy_education_floor,2051,HLT-4,0,96.254,96.254
-mixed_legacy_education_floor,2051,HLT-7,0,9832.332,9832.332
+mixed_legacy_education_floor,2051,HLT-7,0,8937.98,8937.98
 mixed_legacy_education_floor,2051,HLT-8,0,0.58,0.58
 mixed_legacy_education_floor,2051,FAM-1,0,275.703,275.703
 mixed_legacy_education_floor,2051,FAM-2,0,139.537,139.537
@@ -22974,7 +22974,7 @@ mixed_legacy_education_floor,2051,participation,0,20.802416595090417,20.80241659
 mixed_legacy_education_floor,2051,delivery_contingency,0,20.802416595090417,20.802416595090417
 mixed_legacy_education_floor,2051,New indexed income contributions,932.9760640762867,0,-932.9760640762867
 mixed_legacy_education_floor,2052,HLT-4,0,99.964,99.964
-mixed_legacy_education_floor,2052,HLT-7,0,10261.045,10261.045
+mixed_legacy_education_floor,2052,HLT-7,0,9327.681,9327.681
 mixed_legacy_education_floor,2052,HLT-8,0,0.594,0.594
 mixed_legacy_education_floor,2052,FAM-1,0,282.044,282.044
 mixed_legacy_education_floor,2052,FAM-2,0,144.471,144.471
@@ -23050,7 +23050,7 @@ mixed_legacy_education_floor,2052,participation,0,21.537890817623715,21.53789081
 mixed_legacy_education_floor,2052,delivery_contingency,0,21.537890817623715,21.537890817623715
 mixed_legacy_education_floor,2052,New indexed income contributions,965.9616473729229,0,-965.9616473729229
 mixed_legacy_education_floor,2053,HLT-4,0,103.73,103.73
-mixed_legacy_education_floor,2053,HLT-7,0,10699.076,10699.076
+mixed_legacy_education_floor,2053,HLT-7,0,9725.851,9725.851
 mixed_legacy_education_floor,2053,HLT-8,0,0.607,0.607
 mixed_legacy_education_floor,2053,FAM-1,0,288.531,288.531
 mixed_legacy_education_floor,2053,FAM-2,0,149.569,149.569
@@ -23126,7 +23126,7 @@ mixed_legacy_education_floor,2053,participation,0,22.297923933352333,22.29792393
 mixed_legacy_education_floor,2053,delivery_contingency,0,22.297923933352333,22.297923933352333
 mixed_legacy_education_floor,2053,New indexed income contributions,1000.0486824843855,0,-1000.0486824843855
 mixed_legacy_education_floor,2054,HLT-4,0,107.63,107.63
-mixed_legacy_education_floor,2054,HLT-7,0,11148.327,11148.327
+mixed_legacy_education_floor,2054,HLT-7,0,10134.221,10134.221
 mixed_legacy_education_floor,2054,HLT-8,0,0.621,0.621
 mixed_legacy_education_floor,2054,FAM-1,0,295.167,295.167
 mixed_legacy_education_floor,2054,FAM-2,0,154.837,154.837
@@ -23202,7 +23202,7 @@ mixed_legacy_education_floor,2054,participation,0,23.0832914862719,23.0832914862
 mixed_legacy_education_floor,2054,delivery_contingency,0,23.0832914862719,23.0832914862719
 mixed_legacy_education_floor,2054,New indexed income contributions,1035.2719520995636,0,-1035.2719520995636
 mixed_legacy_education_floor,2055,HLT-4,0,111.759,111.759
-mixed_legacy_education_floor,2055,HLT-7,0,11624.287,11624.287
+mixed_legacy_education_floor,2055,HLT-7,0,10566.87,10566.87
 mixed_legacy_education_floor,2055,HLT-8,0,0.636,0.636
 mixed_legacy_education_floor,2055,FAM-1,0,301.956,301.956
 mixed_legacy_education_floor,2055,FAM-2,0,160.287,160.287
@@ -23278,7 +23278,7 @@ mixed_legacy_education_floor,2055,participation,0,23.89580307903892,23.895803079
 mixed_legacy_education_floor,2055,delivery_contingency,0,23.89580307903892,23.89580307903892
 mixed_legacy_education_floor,2055,New indexed income contributions,1071.7126158258652,0,-1071.7126158258652
 mixed_legacy_education_floor,2056,HLT-4,0,115.959,115.959
-mixed_legacy_education_floor,2056,HLT-7,0,12120.084,12120.084
+mixed_legacy_education_floor,2056,HLT-7,0,11017.547,11017.547
 mixed_legacy_education_floor,2056,HLT-8,0,0.65,0.65
 mixed_legacy_education_floor,2056,FAM-1,0,308.901,308.901
 mixed_legacy_education_floor,2056,FAM-2,0,165.931,165.931
@@ -23436,7 +23436,7 @@ mixed_larger_credit,2031,HLT-1,0,21.5,21.5
 mixed_larger_credit,2031,HLT-2,0,40.5,40.5
 mixed_larger_credit,2031,HLT-4,0,37.058,37.058
 mixed_larger_credit,2031,HLT-6,0,-57.22,-57.22
-mixed_larger_credit,2031,HLT-7,0,707.446,707.446
+mixed_larger_credit,2031,HLT-7,0,651.168,651.168
 mixed_larger_credit,2031,HLT-8,0,0.369,0.369
 mixed_larger_credit,2031,FAM-1,0,175.298,175.298
 mixed_larger_credit,2031,FAM-2,0,22.434,22.434
@@ -23517,7 +23517,7 @@ mixed_larger_credit,2031,delivery_contingency,0,5.016838999005365,5.016838999005
 mixed_larger_credit,2032,HLT-2,0,78.0,78.0
 mixed_larger_credit,2032,HLT-4,0,56.876,56.876
 mixed_larger_credit,2032,HLT-6,0,-70.136,-70.136
-mixed_larger_credit,2032,HLT-7,0,977.249,977.249
+mixed_larger_credit,2032,HLT-7,0,903.717,903.717
 mixed_larger_credit,2032,HLT-8,0,0.377,0.377
 mixed_larger_credit,2032,FAM-1,0,179.26,179.26
 mixed_larger_credit,2032,FAM-2,0,34.921,34.921
@@ -23599,7 +23599,7 @@ mixed_larger_credit,2032,delivery_contingency,0,7.809049435113141,7.809049435113
 mixed_larger_credit,2033,HLT-2,0,113.0,113.0
 mixed_larger_credit,2033,HLT-4,0,56.129,56.129
 mixed_larger_credit,2033,HLT-6,0,-75.542,-75.542
-mixed_larger_credit,2033,HLT-7,0,1593.864,1593.864
+mixed_larger_credit,2033,HLT-7,0,1431.905,1431.905
 mixed_larger_credit,2033,HLT-8,0,0.386,0.386
 mixed_larger_credit,2033,FAM-1,0,183.311,183.311
 mixed_larger_credit,2033,FAM-2,0,48.317,48.317
@@ -23684,7 +23684,7 @@ mixed_larger_credit,2033,New indexed income contributions,172.04043378453258,0,-
 mixed_larger_credit,2034,HLT-2,0,133.25,133.25
 mixed_larger_credit,2034,HLT-4,0,53.998,53.998
 mixed_larger_credit,2034,HLT-6,0,-81.399,-81.399
-mixed_larger_credit,2034,HLT-7,0,2446.732,2446.732
+mixed_larger_credit,2034,HLT-7,0,2165.433,2165.433
 mixed_larger_credit,2034,HLT-8,0,0.395,0.395
 mixed_larger_credit,2034,FAM-1,0,187.454,187.454
 mixed_larger_credit,2034,FAM-2,0,62.676,62.676
@@ -23769,7 +23769,7 @@ mixed_larger_credit,2034,New indexed income contributions,357.0666666666667,0,-3
 mixed_larger_credit,2035,HLT-2,0,34.25,34.25
 mixed_larger_credit,2035,HLT-4,0,51.672,51.672
 mixed_larger_credit,2035,HLT-6,0,-20.725,-20.725
-mixed_larger_credit,2035,HLT-7,0,4062.827,4062.827
+mixed_larger_credit,2035,HLT-7,0,3653.628,3653.628
 mixed_larger_credit,2035,HLT-8,0,0.404,0.404
 mixed_larger_credit,2035,FAM-1,0,191.691,191.691
 mixed_larger_credit,2035,FAM-2,0,78.052,78.052
@@ -23853,7 +23853,7 @@ mixed_larger_credit,2035,participation,0,11.636132853271599,11.636132853271599
 mixed_larger_credit,2035,delivery_contingency,0,11.636132853271599,11.636132853271599
 mixed_larger_credit,2035,New indexed income contributions,585.783681112574,0,-585.783681112574
 mixed_larger_credit,2036,HLT-4,0,52.758,52.758
-mixed_larger_credit,2036,HLT-7,0,4650.612,4650.612
+mixed_larger_credit,2036,HLT-7,0,4221.646,4221.646
 mixed_larger_credit,2036,HLT-8,0,0.413,0.413
 mixed_larger_credit,2036,FAM-1,0,196.023,196.023
 mixed_larger_credit,2036,FAM-2,0,81.001,81.001
@@ -23936,7 +23936,7 @@ mixed_larger_credit,2036,participation,0,12.075762892934211,12.075762892934211
 mixed_larger_credit,2036,delivery_contingency,0,12.075762892934211,12.075762892934211
 mixed_larger_credit,2036,New indexed income contributions,639.0013411199977,0,-639.0013411199977
 mixed_larger_credit,2037,HLT-4,0,54.901,54.901
-mixed_larger_credit,2037,HLT-7,0,4886.594,4886.594
+mixed_larger_credit,2037,HLT-7,0,4443.885,4443.885
 mixed_larger_credit,2037,HLT-8,0,0.422,0.422
 mixed_larger_credit,2037,FAM-1,0,200.532,200.532
 mixed_larger_credit,2037,FAM-2,0,84.055,84.055
@@ -24016,7 +24016,7 @@ mixed_larger_credit,2037,participation,0,12.530981366909218,12.530981366909218
 mixed_larger_credit,2037,delivery_contingency,0,12.530981366909218,12.530981366909218
 mixed_larger_credit,2037,New indexed income contributions,695.3474330060197,0,-695.3474330060197
 mixed_larger_credit,2038,HLT-4,0,57.25,57.25
-mixed_larger_credit,2038,HLT-7,0,5157.547,5157.547
+mixed_larger_credit,2038,HLT-7,0,4689.764,4689.764
 mixed_larger_credit,2038,HLT-8,0,0.432,0.432
 mixed_larger_credit,2038,FAM-1,0,205.144,205.144
 mixed_larger_credit,2038,FAM-2,0,87.226,87.226
@@ -24096,7 +24096,7 @@ mixed_larger_credit,2038,participation,0,13.003804689585284,13.003804689585284
 mixed_larger_credit,2038,delivery_contingency,0,13.003804689585284,13.003804689585284
 mixed_larger_credit,2038,New indexed income contributions,755.0594239313127,0,-755.0594239313127
 mixed_larger_credit,2039,HLT-4,0,59.718,59.718
-mixed_larger_credit,2039,HLT-7,0,5439.129,5439.129
+mixed_larger_credit,2039,HLT-7,0,4944.854,4944.854
 mixed_larger_credit,2039,HLT-8,0,0.442,0.442
 mixed_larger_credit,2039,FAM-1,0,209.862,209.862
 mixed_larger_credit,2039,FAM-2,0,90.511,90.511
@@ -24176,7 +24176,7 @@ mixed_larger_credit,2039,participation,0,13.49343146550025,13.49343146550025
 mixed_larger_credit,2039,delivery_contingency,0,13.49343146550025,13.49343146550025
 mixed_larger_credit,2039,New indexed income contributions,818.2246755492434,0,-818.2246755492434
 mixed_larger_credit,2040,HLT-4,0,62.273,62.273
-mixed_larger_credit,2040,HLT-7,0,5745.188,5745.188
+mixed_larger_credit,2040,HLT-7,0,5222.808,5222.808
 mixed_larger_credit,2040,HLT-8,0,0.452,0.452
 mixed_larger_credit,2040,FAM-1,0,214.689,214.689
 mixed_larger_credit,2040,FAM-2,0,93.928,93.928
@@ -24253,7 +24253,7 @@ mixed_larger_credit,2040,participation,0,14.002963870636675,14.002963870636675
 mixed_larger_credit,2040,delivery_contingency,0,14.002963870636675,14.002963870636675
 mixed_larger_credit,2040,New indexed income contributions,885.1690539571581,0,-885.1690539571581
 mixed_larger_credit,2041,HLT-4,0,64.939,64.939
-mixed_larger_credit,2041,HLT-7,0,6075.806,6075.806
+mixed_larger_credit,2041,HLT-7,0,5523.333,5523.333
 mixed_larger_credit,2041,HLT-8,0,0.462,0.462
 mixed_larger_credit,2041,FAM-1,0,219.627,219.627
 mixed_larger_credit,2041,FAM-2,0,97.481,97.481
@@ -24330,7 +24330,7 @@ mixed_larger_credit,2041,participation,0,14.532660419659782,14.532660419659782
 mixed_larger_credit,2041,delivery_contingency,0,14.532660419659782,14.532660419659782
 mixed_larger_credit,2041,New indexed income contributions,956.0632916563875,0,-956.0632916563875
 mixed_larger_credit,2042,HLT-4,0,67.698,67.698
-mixed_larger_credit,2042,HLT-7,0,6411.843,6411.843
+mixed_larger_credit,2042,HLT-7,0,5828.786,5828.786
 mixed_larger_credit,2042,HLT-8,0,0.473,0.473
 mixed_larger_credit,2042,FAM-1,0,224.678,224.678
 mixed_larger_credit,2042,FAM-2,0,101.139,101.139
@@ -24406,7 +24406,7 @@ mixed_larger_credit,2042,participation,0,15.077867848595714,15.077867848595714
 mixed_larger_credit,2042,delivery_contingency,0,15.077867848595714,15.077867848595714
 mixed_larger_credit,2042,New indexed income contributions,1030.7450067207244,0,-1030.7450067207244
 mixed_larger_credit,2043,HLT-4,0,70.567,70.567
-mixed_larger_credit,2043,HLT-7,0,6754.278,6754.278
+mixed_larger_credit,2043,HLT-7,0,6140.057,6140.057
 mixed_larger_credit,2043,HLT-8,0,0.484,0.484
 mixed_larger_credit,2043,FAM-1,0,229.846,229.846
 mixed_larger_credit,2043,FAM-2,0,104.926,104.926
@@ -24482,7 +24482,7 @@ mixed_larger_credit,2043,participation,0,15.642463877422685,15.642463877422685
 mixed_larger_credit,2043,delivery_contingency,0,15.642463877422685,15.642463877422685
 mixed_larger_credit,2043,New indexed income contributions,1109.6090540493808,0,-1109.6090540493808
 mixed_larger_credit,2044,HLT-4,0,73.489,73.489
-mixed_larger_credit,2044,HLT-7,0,7105.204,7105.204
+mixed_larger_credit,2044,HLT-7,0,6459.045,6459.045
 mixed_larger_credit,2044,HLT-8,0,0.495,0.495
 mixed_larger_credit,2044,FAM-1,0,235.132,235.132
 mixed_larger_credit,2044,FAM-2,0,108.841,108.841
@@ -24558,7 +24558,7 @@ mixed_larger_credit,2044,participation,0,16.22618999147548,16.22618999147548
 mixed_larger_credit,2044,delivery_contingency,0,16.22618999147548,16.22618999147548
 mixed_larger_credit,2044,New indexed income contributions,1192.7861629158951,0,-1192.7861629158951
 mixed_larger_credit,2045,HLT-4,0,76.444,76.444
-mixed_larger_credit,2045,HLT-7,0,7464.198,7464.198
+mixed_larger_credit,2045,HLT-7,0,6785.366,6785.366
 mixed_larger_credit,2045,HLT-8,0,0.506,0.506
 mixed_larger_credit,2045,FAM-1,0,240.54,240.54
 mixed_larger_credit,2045,FAM-2,0,112.862,112.862
@@ -24634,7 +24634,7 @@ mixed_larger_credit,2045,participation,0,16.825685500106314,16.825685500106314
 mixed_larger_credit,2045,delivery_contingency,0,16.825685500106314,16.825685500106314
 mixed_larger_credit,2045,New indexed income contributions,1236.8550384683663,0,-1236.8550384683663
 mixed_larger_credit,2046,HLT-4,0,79.48,79.48
-mixed_larger_credit,2046,HLT-7,0,7836.34,7836.34
+mixed_larger_credit,2046,HLT-7,0,7123.638,7123.638
 mixed_larger_credit,2046,HLT-8,0,0.518,0.518
 mixed_larger_credit,2046,FAM-1,0,246.073,246.073
 mixed_larger_credit,2046,FAM-2,0,116.977,116.977
@@ -24710,7 +24710,7 @@ mixed_larger_credit,2046,participation,0,17.439140800658695,17.439140800658695
 mixed_larger_credit,2046,delivery_contingency,0,17.439140800658695,17.439140800658695
 mixed_larger_credit,2046,New indexed income contributions,1281.950097410158,0,-1281.950097410158
 mixed_larger_credit,2047,HLT-4,0,82.686,82.686
-mixed_larger_credit,2047,HLT-7,0,8209.804,8209.804
+mixed_larger_credit,2047,HLT-7,0,7463.116,7463.116
 mixed_larger_credit,2047,HLT-8,0,0.53,0.53
 mixed_larger_credit,2047,FAM-1,0,251.732,251.732
 mixed_larger_credit,2047,FAM-2,0,121.222,121.222
@@ -24786,7 +24786,7 @@ mixed_larger_credit,2047,participation,0,18.07198470110211,18.07198470110211
 mixed_larger_credit,2047,delivery_contingency,0,18.07198470110211,18.07198470110211
 mixed_larger_credit,2047,New indexed income contributions,1328.4704110593384,0,-1328.4704110593384
 mixed_larger_credit,2048,HLT-4,0,85.904,85.904
-mixed_larger_credit,2048,HLT-7,0,8600.052,8600.052
+mixed_larger_credit,2048,HLT-7,0,7817.847,7817.847
 mixed_larger_credit,2048,HLT-8,0,0.542,0.542
 mixed_larger_credit,2048,FAM-1,0,257.522,257.522
 mixed_larger_credit,2048,FAM-2,0,125.597,125.597
@@ -24862,7 +24862,7 @@ mixed_larger_credit,2048,participation,0,18.724217201436563,18.724217201436563
 mixed_larger_credit,2048,delivery_contingency,0,18.724217201436563,18.724217201436563
 mixed_larger_credit,2048,New indexed income contributions,1376.4159794159077,0,-1376.4159794159077
 mixed_larger_credit,2049,HLT-4,0,89.302,89.302
-mixed_larger_credit,2049,HLT-7,0,9001.262,9001.262
+mixed_larger_credit,2049,HLT-7,0,8182.545,8182.545
 mixed_larger_credit,2049,HLT-8,0,0.555,0.555
 mixed_larger_credit,2049,FAM-1,0,263.445,263.445
 mixed_larger_credit,2049,FAM-2,0,130.111,130.111
@@ -24938,7 +24938,7 @@ mixed_larger_credit,2049,participation,0,19.397130874988125,19.397130874988125
 mixed_larger_credit,2049,delivery_contingency,0,19.397130874988125,19.397130874988125
 mixed_larger_credit,2049,New indexed income contributions,1425.881819460359,0,-1425.881819460359
 mixed_larger_credit,2050,HLT-4,0,92.776,92.776
-mixed_larger_credit,2050,HLT-7,0,9407.153,9407.153
+mixed_larger_credit,2050,HLT-7,0,8551.499,8551.499
 mixed_larger_credit,2050,HLT-8,0,0.567,0.567
 mixed_larger_credit,2050,FAM-1,0,269.504,269.504
 mixed_larger_credit,2050,FAM-2,0,134.755,134.755
@@ -25014,7 +25014,7 @@ mixed_larger_credit,2050,participation,0,20.089433148430718,20.089433148430718
 mixed_larger_credit,2050,delivery_contingency,0,20.089433148430718,20.089433148430718
 mixed_larger_credit,2050,New indexed income contributions,1476.7729142121996,0,-1476.7729142121996
 mixed_larger_credit,2051,HLT-4,0,96.254,96.254
-mixed_larger_credit,2051,HLT-7,0,9832.332,9832.332
+mixed_larger_credit,2051,HLT-7,0,8937.98,8937.98
 mixed_larger_credit,2051,HLT-8,0,0.58,0.58
 mixed_larger_credit,2051,FAM-1,0,275.703,275.703
 mixed_larger_credit,2051,FAM-2,0,139.537,139.537
@@ -25090,7 +25090,7 @@ mixed_larger_credit,2051,participation,0,20.802416595090417,20.802416595090417
 mixed_larger_credit,2051,delivery_contingency,0,20.802416595090417,20.802416595090417
 mixed_larger_credit,2051,New indexed income contributions,1529.1842806519219,0,-1529.1842806519219
 mixed_larger_credit,2052,HLT-4,0,99.964,99.964
-mixed_larger_credit,2052,HLT-7,0,10261.045,10261.045
+mixed_larger_credit,2052,HLT-7,0,9327.681,9327.681
 mixed_larger_credit,2052,HLT-8,0,0.594,0.594
 mixed_larger_credit,2052,FAM-1,0,282.044,282.044
 mixed_larger_credit,2052,FAM-2,0,144.471,144.471
@@ -25166,7 +25166,7 @@ mixed_larger_credit,2052,participation,0,21.537890817623715,21.537890817623715
 mixed_larger_credit,2052,delivery_contingency,0,21.537890817623715,21.537890817623715
 mixed_larger_credit,2052,New indexed income contributions,1583.248942552215,0,-1583.248942552215
 mixed_larger_credit,2053,HLT-4,0,103.73,103.73
-mixed_larger_credit,2053,HLT-7,0,10699.076,10699.076
+mixed_larger_credit,2053,HLT-7,0,9725.851,9725.851
 mixed_larger_credit,2053,HLT-8,0,0.607,0.607
 mixed_larger_credit,2053,FAM-1,0,288.531,288.531
 mixed_larger_credit,2053,FAM-2,0,149.569,149.569
@@ -25242,7 +25242,7 @@ mixed_larger_credit,2053,participation,0,22.297923933352333,22.297923933352333
 mixed_larger_credit,2053,delivery_contingency,0,22.297923933352333,22.297923933352333
 mixed_larger_credit,2053,New indexed income contributions,1639.118927081868,0,-1639.118927081868
 mixed_larger_credit,2054,HLT-4,0,107.63,107.63
-mixed_larger_credit,2054,HLT-7,0,11148.327,11148.327
+mixed_larger_credit,2054,HLT-7,0,10134.221,10134.221
 mixed_larger_credit,2054,HLT-8,0,0.621,0.621
 mixed_larger_credit,2054,FAM-1,0,295.167,295.167
 mixed_larger_credit,2054,FAM-2,0,154.837,154.837
@@ -25318,7 +25318,7 @@ mixed_larger_credit,2054,participation,0,23.0832914862719,23.0832914862719
 mixed_larger_credit,2054,delivery_contingency,0,23.0832914862719,23.0832914862719
 mixed_larger_credit,2054,New indexed income contributions,1696.8512444291764,0,-1696.8512444291764
 mixed_larger_credit,2055,HLT-4,0,111.759,111.759
-mixed_larger_credit,2055,HLT-7,0,11624.287,11624.287
+mixed_larger_credit,2055,HLT-7,0,10566.87,10566.87
 mixed_larger_credit,2055,HLT-8,0,0.636,0.636
 mixed_larger_credit,2055,FAM-1,0,301.956,301.956
 mixed_larger_credit,2055,FAM-2,0,160.287,160.287
@@ -25394,7 +25394,7 @@ mixed_larger_credit,2055,participation,0,23.89580307903892,23.89580307903892
 mixed_larger_credit,2055,delivery_contingency,0,23.89580307903892,23.89580307903892
 mixed_larger_credit,2055,New indexed income contributions,1756.5789183668292,0,-1756.5789183668292
 mixed_larger_credit,2056,HLT-4,0,115.959,115.959
-mixed_larger_credit,2056,HLT-7,0,12120.084,12120.084
+mixed_larger_credit,2056,HLT-7,0,11017.547,11017.547
 mixed_larger_credit,2056,HLT-8,0,0.65,0.65
 mixed_larger_credit,2056,FAM-1,0,308.901,308.901
 mixed_larger_credit,2056,FAM-2,0,165.931,165.931

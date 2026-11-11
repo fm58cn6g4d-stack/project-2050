@@ -21,7 +21,8 @@ What is booked (all $ billion by federal fiscal year unless noted; a cost positi
 - HLT-6, the Advantage fix at MedPAC's lower estimate, calendar 2030-34, on the blend: the general fund books Part B's
   share; Part A's share (funds-parameters.csv hi_hlt6_part_a_share) is HI's, in the funds model (care follow-up 3).
 - HLT-7, the single plan's spending line: outlays less the federal money it replaces and the states' payments
-  (offsetting receipts, netted here), plus the hospital transition fund and the territories.
+  (offsetting receipts, netted here), plus the hospital transition fund and the territories. Medicaid's long-term care
+  stays in Medicaid at current-law cost (HLT-7.07; board row D-4c), so it is in none of these.
 - HX, the revenue from ending the employer tax exclusion, on the general fund, on CBO's convention (full pass-through).
 - HLT-8, USDA rural health grants (discretionary).
 The employer contribution and FEHB's money are not booked (review F-4 item 3): contribution() is reported only.
@@ -57,7 +58,9 @@ HLT4_PARTS = {"ltc": 325.0, "medicaid_bundle": 170.0, "safety_net": 140.0}
 CHILDREN_SHARE_OF_BUNDLE = 0.25   # working assumption: a quarter each for the four items of the bundle
 
 # Rate sensitivity on the plan's window (6-cost.md part 6): target 1.05 and 1.25 x Medicare, $T
-RATE_RANGE_TN = (24.56 - 20.99, 28.12 - 24.56)
+RATE_RANGE_TN = (21.74 - 18.57, 24.92 - 21.74)
+# Medicaid long-term care kept in Medicaid (6-cost.md part 6, board row D-4c): nhe_mcd_ltc at 317 and 274, $T
+LTC_RANGE_TN = (21.74 - 21.40, 21.81 - 21.74)
 HALF_PASSTHROUGH_FY2040 = 370.0   # exclusion revenue lost at half pass-through, no contribution (review F-3), $B
 
 
@@ -175,7 +178,8 @@ def booking():
         "HLT-3": (0, 0, 0), "HLT-5": (0, 0, 0),
         "HLT-4": (r3(HLT4_LEGACY[0] * hlt4_mid / HLT4_LEGACY[1]), hlt4_mid, r3(HLT4_LEGACY[2] * hlt4_mid / HLT4_LEGACY[1])),
         "HLT-6": (r3(amt["HLT-6"] * (1 - hlt6_part_a_share())),) * 3,   # Part B's share; Part A's goes to HI (funds model)
-        "HLT-7": (r3(hlt7_mid - RATE_RANGE_TN[0] - 0.05 - 0.04), hlt7_mid, r3(hlt7_mid + RATE_RANGE_TN[1] + 0.05 + 0.09)),
+        "HLT-7": (r3(hlt7_mid - RATE_RANGE_TN[0] - LTC_RANGE_TN[0] - 0.05 - 0.04), hlt7_mid,
+                  r3(hlt7_mid + RATE_RANGE_TN[1] + LTC_RANGE_TN[1] + 0.05 + 0.09)),
         "HLT-8": HLT8_TN,
         "HX": (r3(amt["HX"] * (1 - HALF_PASSTHROUGH_FY2040 / hp["excl"][2040])), r3(amt["HX"]), r3(amt["HX"])),
     }

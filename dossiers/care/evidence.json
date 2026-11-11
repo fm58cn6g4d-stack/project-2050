@@ -8562,5 +8562,103 @@
    "dossiers/care/2b-what-works-home-care.md"
   ],
   "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-460",
+  "statement": "CMS's National Health Expenditure Accounts (levels in millions of dollars, calendar year 2024) put Medicaid (Title XIX) spending at 931692, of which 78939 on nursing care facilities and continuing care retirement communities, 38189 on home health care and 199841 on other health, residential and personal care; the federal government paid 49523, 22631 and 119215 of those three lines, and states and localities 29416, 15558 and 80626.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "931692",
+   "78939",
+   "38189",
+   "199841",
+   "49523",
+   "22631",
+   "119215",
+   "29416",
+   "15558",
+   "80626"
+  ],
+  "source": "SRC-3360",
+  "anchor": [
+   "National Health Expenditures by Type of Expenditure and Program: Calendar Year 2024",
+   "row 13 |  = Medicaid (Title XIX)",
+   "row 13 |  = 931692",
+   "row 13 |  = 199841",
+   "row 13 |  = 38189",
+   "row 13 |  = 78939",
+   "row 14 |  = 119215",
+   "row 14 |  = 22631",
+   "row 14 |  = 49523",
+   "row 15 |  = 80626",
+   "row 15 |  = 15558",
+   "row 15 |  = 29416"
+  ],
+  "locator": "Table 19, rows 13-15 of the text version (Medicaid total, federal, state and local); columns in row 7's order: other health, residential and personal care, then home health, then nursing care facilities",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-11",
+  "recheck": "2026-12-15",
+  "context": "CMS Office of the Actuary, National Health Expenditure Accounts, 2024 data released December 2025, second Trump administration; official accounts. The three lines are Medicaid's long-term care settings as CRS reads them (EV-CAR-404, EV-CAR-462): 317.0 of 931.7 billion, 34.0%, with a federal share of 60.4% (191.4 billion). 'Other health, residential and personal care' holds home- and community-based waiver services and residential care for people with intellectual and developmental disabilities, mental health conditions or substance use disorders, but also items that are not long-term care, such as ambulance services, so the three lines are an upper bound on Medicaid long-term care. Used by models/tools/health-coverage/inputs.csv (nhe_mcd_ltc, nhe_mcd_ltc_fed_share).",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md",
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-461",
+  "statement": "CMS's National Health Expenditure Accounts (levels in millions of dollars, calendar year 2024) put hospital care at 1634738, of which Medicare paid 439834, Medicaid (Title XIX) 318870 and private health insurance 558936.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "1634738",
+   "439834",
+   "318870",
+   "558936"
+  ],
+  "source": "SRC-3360",
+  "anchor": [
+   "National Health Expenditures by Type of Expenditure and Program: Calendar Year 2024",
+   "row 8 |  = 1634738",
+   "row 12 |  = Medicare",
+   "row 12 |  = 439834",
+   "row 13 |  = 318870",
+   "row 11 |  = Private Health Insurance",
+   "row 11 |  = 558936"
+  ],
+  "locator": "Table 19, column 'Hospital Care' (the second value in each row of the text version): row 8 national total, row 11 private health insurance, row 12 Medicare, row 13 Medicaid",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-11",
+  "recheck": "2026-12-15",
+  "context": "CMS Office of the Actuary, as EV-CAR-460. Hospital spending by payer, used by dossiers/care/tools/health_path.py for hospital revenue and the start of the hospital glide path, in place of a national hospital share applied to each payer's whole spending (board row D-4c). The total matches EV-CAR-055.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md",
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-462",
+  "statement": "CRS finds that in 2023 Medicaid long-term services and supports accounted for 33.2% of all Medicaid personal health care spending.",
+  "claim": "data",
+  "figures": [
+   "2023",
+   "33.2%"
+  ],
+  "source": "SRC-3313",
+  "anchor": [
+   "In 2023, Medicaid LTSS\naccounted for 33.2% of all Medicaid personal health care\nspending."
+  ],
+  "locator": "p. 2, \"Medicaid\"",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-11",
+  "recheck": "2027-09-01",
+  "context": "Congressional Research Service (nonpartisan), IF10343, August 28, 2025: CRS analysis of CMS National Health Expenditure Account data, the same analysis as EV-CAR-404 ($257.0 billion). Applied to Medicaid's 2024 personal health care in Table 19 (931.7 billion less 85.6 billion of administration and net cost of insurance, 846.1 billion; EV-CAR-460's source), it gives about 281 billion, the coverage model's central nhe_mcd_ltc; CMS's three setting lines (317.0 billion, EV-CAR-460) are the upper end.",
+  "supports": [
+   "models/tools/health-coverage/MODEL-CARD.md",
+   "dossiers/care/6-cost.md"
+  ]
  }
 ]
