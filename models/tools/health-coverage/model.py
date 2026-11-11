@@ -418,6 +418,13 @@ def assemble(I, B, cells, K, dK, gross, offsets, nhe_d, hh, X, extra=None):
 
 
 # ---------------------------------------------------------------- single payer
+def mcd_ltc(I):
+    """Medicaid long-term care in 2032 and its federal part ($ billion): CMS's 2024 Medicaid nursing-facility,
+    home-health and other residential and personal care lines (EV-CAR-460), grown with Medicaid."""
+    ltc = I['nhe_mcd_ltc'] * (1 + I['nhe_g_medicaid']) ** NYEARS
+    return ltc, ltc * I['nhe_mcd_ltc_fed_share']
+
+
 def run_single_payer(I, B, P):
     S, c, adm = B['S'], dict(B['c']), dict(B['adm'])
     ma_ffs = P.get('sp_ma_to_ffs', 1)
@@ -427,6 +434,11 @@ def run_single_payer(I, B, P):
     oop_other_tot = B['oop_pp']['other'] * sum(B['cells0']['other']) / 1000
     S_in = dict(S)
     S_in['oop'] = S['oop'] - oop_unins_tot - oop_other_tot
+    # sp_mcd_ltc_kept = 1: Medicaid's long-term care stays in Medicaid at current-law cost (the care dossier's
+    # HLT-7.07), so it is neither repriced into the plan, nor replaced federal money, nor in the states' payment base
+    kept = P.get('sp_mcd_ltc_kept', 0)
+    ltc_k, ltc_k_fed = mcd_ltc(I) if kept else (0.0, 0.0)
+    S_in['medicaid'] = S['medicaid'] - ltc_k
     claims0 = {g: S_in[g] * (1 - adm[g]) for g in ['medicare', 'medicaid', 'phi', 'oop']}
     if P.get('sp_rate_basis', 'medicare') == 'blended':
         r = sum(claims0.values()) / sum(claims0[g] / c[g] for g in claims0) * P.get('sp_rate_factor', 1.0)
@@ -458,8 +470,9 @@ def run_single_payer(I, B, P):
     oop_sp = cs * Cc
     plan_gross = Cc + A
     plan_outlay = plan_gross - oop_sp
-    R = I['sp_state_moe'] * max(0.0, S['medicaid'] - I['sub_medicaid']) + I['sp_retained_other']
-    replaced = {'Medicare subsidies replaced': I['sub_medicare'], 'Medicaid and CHIP federal funding replaced': I['sub_medicaid'],
+    R = I['sp_state_moe'] * max(0.0, S_in['medicaid'] - (I['sub_medicaid'] - ltc_k_fed)) + I['sp_retained_other']
+    replaced = {'Medicare subsidies replaced': I['sub_medicare'],
+                'Medicaid and CHIP federal funding replaced': I['sub_medicaid'] - ltc_k_fed,
                 'Premium tax credit and related spending replaced': I['sub_ptc'],
                 'Employer-coverage tax exclusion ended': I['sub_esi']}
     dK = {'Single-payer plan outlays, net of cost sharing': plan_outlay,
@@ -469,7 +482,7 @@ def run_single_payer(I, B, P):
     gross = plan_outlay
     offsets = R + sum(replaced.values())
     net = gross - offsets
-    nhe_sp = plan_gross + S['other'] - displaced + oop_other_tot + resid * B['oop_pp']['unins'] / 1000
+    nhe_sp = plan_gross + S['other'] - displaced + oop_other_tot + resid * B['oop_pp']['unins'] / 1000 + ltc_k
     # cells: everyone except other coverage and the residual uninsured is in the plan
     cells = {s: [0.0] * 4 for s in SRCS}
     cells['other'] = list(B['cells0']['other'])
@@ -490,6 +503,7 @@ def run_single_payer(I, B, P):
                            'use_increase': u, 'newly_covered_millions': new_n, 'new_use_bn': new_spend, 'ltc_bn': ltc,
                            'admin_bn': A, 'cost_sharing_bn': oop_sp, 'plan_gross_bn': plan_gross, 'plan_outlay_bn': plan_outlay,
                            'state_and_retained_bn': R, 'baseline_claims_bn': sum(claims0.values()),
+                           'medicaid_ltc_kept_bn': ltc_k, 'medicaid_ltc_kept_federal_bn': ltc_k_fed,
                            'amount_to_be_financed_bn': net}
     return res
 

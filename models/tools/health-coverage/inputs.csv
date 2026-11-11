@@ -74,6 +74,11 @@ nhe_oop,556.6,556.6,556.6,"$ billion, 2024",evidence,EV-CAR-121,Out of pocket
 nhe_hospital,1634.7,1634.7,1634.7,"$ billion, 2024",evidence,EV-CAR-055,Hospitals
 nhe_physician,1109.7,1109.7,1109.7,"$ billion, 2024",evidence,EV-CAR-055,Physician and clinical services
 nhe_rx,467.0,467.0,467.0,"$ billion, 2024",evidence,EV-CAR-055,Retail prescription drugs
+nhe_mcd_ltc,281.0,274.0,317.0,"$ billion, 2024",evidence,EV-CAR-462; EV-CAR-404; EV-CAR-460,"Medicaid long-term care (long-term services and supports): CRS's 33.2% of Medicaid personal health care (2023) applied to CMS's 2024 Medicaid personal health care, 846.1. Low: CRS's $257.0 billion for 2023 grown at Medicaid's 6.6% in 2024. High: CMS's three setting lines (nursing care facilities 78.9, home health 38.2, other health, residential and personal care 199.8), which include some items that are not long-term care"
+nhe_mcd_ltc_fed_share,0.604,0.604,0.604,share,evidence,EV-CAR-460,"Federal share of those three Medicaid lines (191.4 of 317.0)"
+nhe_hosp_medicare,439.8,439.8,439.8,"$ billion, 2024",evidence,EV-CAR-461,"Hospital care paid by Medicare (used by the care dossier's health_path.py for hospital revenue and the glide path's start)"
+nhe_hosp_medicaid,318.9,318.9,318.9,"$ billion, 2024",evidence,EV-CAR-461,Hospital care paid by Medicaid (Title XIX)
+nhe_hosp_phi,558.9,558.9,558.9,"$ billion, 2024",evidence,EV-CAR-461,Hospital care paid by private health insurance
 nhe_g_total,0.054,0.044,0.064,"per year, 2025-34",evidence,EV-CAR-056,"All NHE (CMS projection, grown 8 years from 2024 to 2032); range is plus or minus one point as a stated allowance"
 nhe_g_medicare,0.077,0.067,0.087,"per year, 2025-34",evidence,EV-CAR-056,"Medicare (CMS projection, grown 8 years from 2024 to 2032); range is plus or minus one point as a stated allowance"
 nhe_g_medicaid,0.05,0.04,0.060000000000000005,"per year, 2025-34",evidence,EV-CAR-056,"Medicaid (CMS projection, grown 8 years from 2024 to 2032); range is plus or minus one point as a stated allowance"
