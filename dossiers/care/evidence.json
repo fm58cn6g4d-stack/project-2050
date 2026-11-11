@@ -8565,23 +8565,24 @@
  },
  {
   "id": "EV-CAR-460",
-  "statement": "CMS's National Health Expenditure Accounts put Medicaid (Title XIX) spending in 2024 at $931,692 million, of which $78,939 million on nursing care facilities and continuing care retirement communities, $38,189 million on home health care and $199,841 million on other health, residential and personal care; the federal government paid $49,523 million, $22,631 million and $119,215 million of those three lines, and states and localities $29,416 million, $15,558 million and $80,626 million.",
+  "statement": "CMS's National Health Expenditure Accounts (levels in millions of dollars, calendar year 2024) put Medicaid (Title XIX) spending at 931692, of which 78939 on nursing care facilities and continuing care retirement communities, 38189 on home health care and 199841 on other health, residential and personal care; the federal government paid 49523, 22631 and 119215 of those three lines, and states and localities 29416, 15558 and 80626.",
   "claim": "data",
   "figures": [
    "2024",
-   "931,692",
-   "78,939",
-   "38,189",
-   "199,841",
-   "49,523",
-   "22,631",
-   "119,215",
-   "29,416",
-   "15,558",
-   "80,626"
+   "931692",
+   "78939",
+   "38189",
+   "199841",
+   "49523",
+   "22631",
+   "119215",
+   "29416",
+   "15558",
+   "80626"
   ],
   "source": "SRC-3360",
   "anchor": [
+   "National Health Expenditures by Type of Expenditure and Program: Calendar Year 2024",
    "row 13 |  = Medicaid (Title XIX)",
    "row 13 |  = 931692",
    "row 13 |  = 199841",
@@ -8607,17 +8608,18 @@
  },
  {
   "id": "EV-CAR-461",
-  "statement": "CMS's National Health Expenditure Accounts put hospital care in 2024 at $1,634,738 million, of which Medicare paid $439,834 million, Medicaid (Title XIX) $318,870 million and private health insurance $558,936 million.",
+  "statement": "CMS's National Health Expenditure Accounts (levels in millions of dollars, calendar year 2024) put hospital care at 1634738, of which Medicare paid 439834, Medicaid (Title XIX) 318870 and private health insurance 558936.",
   "claim": "data",
   "figures": [
    "2024",
-   "1,634,738",
-   "439,834",
-   "318,870",
-   "558,936"
+   "1634738",
+   "439834",
+   "318870",
+   "558936"
   ],
   "source": "SRC-3360",
   "anchor": [
+   "National Health Expenditures by Type of Expenditure and Program: Calendar Year 2024",
    "row 8 |  = 1634738",
    "row 12 |  = Medicare",
    "row 12 |  = 439834",
