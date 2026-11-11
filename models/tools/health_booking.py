@@ -295,6 +295,28 @@ def legacy_shapes():
             "MA": sc(b["years"]["HLT-6"])}
 
 
+# C19b (Package B's cap on the employer exclusion at the 75th-percentile premium) taxes a base that HX ends: as each
+# employer group moves (children 2031, thirds 2033-35) its premiums leave the exclusion, so the cap has nothing left to
+# collect on them. The cap's ten-year amount before the plan, on its own profile (fiscal-profiles.csv: from 2031, a
+# two-year ramp, premium growth), is scaled each fiscal year by the share of employer coverage not yet moved.
+C19B_BEFORE_PLAN_TN = 0.66
+C19_BEFORE_PLAN_TN = 1.25   # C19, the median-premium cap (the listed fallback), on the same profile and base
+C19B_PROFILE = dict(cat="rev_individual", start=2031, ramp=2, grow="out_medicare_net")
+
+
+def c19b(before_tn=C19B_BEFORE_PLAN_TN):
+    """C19b's (or C19's) path with the exclusion it caps ending as groups move (care follow-up 2, the lead's item)."""
+    hp = health_path()
+    F = fiscal()
+    B = F.read_baseline(os.path.join(ROOT, "models", "data", "fiscal-baseline.csv"))
+    before = F.row_path(B, before_tn, C19B_PROFILE)
+    cal_left = {y: 1.0 - hp["HP"].employer_share(y, hp["kids"]) for y in range(2029, 2041)}
+    left = fy(cal_left)
+    after = {y: before[y] * left.get(y, 0.0) for y in W}
+    mid = round(sum(after.values()) / 1000, 3)
+    return dict(years=window(after), mid=mid, before_2040=before[2040], before=window(before))
+
+
 def excl_full(hp):
     """The exclusion revenue at full scale (2032 basis), the base HX's path scales."""
     _, _, _, f = hp["HP"].groups(hp["I"], hp["B"], hp["P"])
@@ -313,5 +335,8 @@ if __name__ == "__main__":
         print("perms", b["perms"])
         print("FY2040", {k: round(v, 1) for k, v in b["fy2040"].items()})
         print("totals", {k: round(v, 3) for k, v in b["totals"].items()})
+        if "--c19b" in sys.argv:
+            print("c19b", c19b())
+            print("c19", c19b(C19_BEFORE_PLAN_TN))
         if "--incidence" in sys.argv:
             print("incidence", json.dumps(incidence(), default=str))

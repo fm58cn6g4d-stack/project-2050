@@ -6,12 +6,12 @@ Before: common outputs rebuilt at `ffe461d32dc0f50f58213bcb5347d49343e46611`, be
 
 | Measure | Before the climate package | Now (all changes) |
 | --- | ---: | ---: |
-| DEC FY2040 GF primary gap ($B) | 71.9 | 4,329.5 |
-| DEC FY2040 GF primary gap (% GDP) | 0.133 | 7.993 |
+| DEC FY2040 GF primary gap ($B) | 71.9 | 4,430.9 |
+| DEC FY2040 GF primary gap (% GDP) | 0.133 | 8.180 |
 | Recovery mature GF gap (% GDP; negative is headroom) | -0.0083 | 8.8897 |
-| DEC 2056 debt (% GDP) | 155.7 | 366.1 |
+| DEC 2056 debt (% GDP) | 155.7 | 371.0 |
 | Mixed reserve-corridor 2056 debt (% GDP) | 115.3 | 330.4 |
-| Scenario Q, Q4 annual average ($) | 1,261 | -1,624 |
+| Scenario Q, Q4 annual average ($) | 1,261 | -1,038 |
 | Mixed recovery Q4 FY2039 ($) | -2,906 | -6,955 |
 
 The climate package's own mature-year delta is zero in the conservative case (second table), so it moves neither maturity measure; any change in them above comes from other parts of the plan. The climate package raises debt because early general-fund and capital costs are borrowed, with interest. D4 is not relaxed: DEC still fails maturity; the mixed recovery illustration is short of general-fund balance at maturity by 8.89% of GDP (reported to the financing settlement), and it does not certify all-fund solvency. The mixed recovery tax rates remain illustrative.

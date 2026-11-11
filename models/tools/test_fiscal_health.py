@@ -147,6 +147,19 @@ class HealthIncidence(unittest.TestCase):
             self.assertEqual([float(r["y%d" % y]) for y in W], v, rid)
         self.assertEqual((self.phase["PB"]["same_as"], self.phase["H7x"]["same_as"]), ("H2", "H7w"))
 
+    def test_exclusion_caps_end_with_the_exclusion(self):
+        """C19b and C19 cap a base HX ends: their inputs equal health_booking.c19b() and they collect nothing once
+        the last employer cohort has moved (care follow-up 2)."""
+        cuts = {r["id"]: r for r in rows("ledger-cuts.csv")}
+        years = {r["id"]: [float(r["y%d" % y]) for y in W] for r in rows("fiscal-years.csv")}
+        for rid, before in (("C19b", HB.C19B_BEFORE_PLAN_TN), ("C19", HB.C19_BEFORE_PLAN_TN)):
+            d = HB.c19b(before)
+            self.assertEqual(float(cuts[rid]["saves_tn"]), d["mid"], rid)
+            self.assertEqual(years[rid], [float(x) for x in d["years"]], rid)
+            self.assertTrue(all(v == 0 for v in d["years"][6:]), rid)   # FY2036-39
+        self.assertEqual(self.phase["C19b"]["method"], "norm")
+        self.assertEqual(self.phase["C19"]["same_as"], "C19b")
+
     def test_household_total_is_the_dossiers(self):
         self.assertAlmostEqual(self.inc["full_scale"]["household_removed"], 1527.5, delta=1.0)  # 6-cost.md part 8
 

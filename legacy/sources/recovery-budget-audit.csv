@@ -2424,7 +2424,7 @@ larger_payroll,2033,MR6,-8.968,0,8.968
 larger_payroll,2033,CXP,-3.432,0,3.432
 larger_payroll,2033,C18,57.625,0,-57.625
 larger_payroll,2033,C35,14.109,0,-14.109
-larger_payroll,2033,C19b,23.991666666666664,0,-23.991666666666664
+larger_payroll,2033,C19b,16.034,0,-16.034
 larger_payroll,2033,C20,20.757666666666665,0,-20.757666666666665
 larger_payroll,2033,C38,88.411,0,-88.411
 larger_payroll,2033,C39,37.178,0,-37.178
@@ -2510,7 +2510,7 @@ larger_payroll,2034,MR6,-11.268,0,11.268
 larger_payroll,2034,CXP,-3.574,0,3.574
 larger_payroll,2034,C18,60.069,0,-60.069
 larger_payroll,2034,C35,14.642,0,-14.642
-larger_payroll,2034,C19b,48.09533333333333,0,-48.09533333333333
+larger_payroll,2034,C19b,17.856666666666666,0,-17.856666666666666
 larger_payroll,2034,C20,43.27533333333333,0,-43.27533333333333
 larger_payroll,2034,C38,90.62,0,-90.62
 larger_payroll,2034,C39,38.754,0,-38.754
@@ -2596,7 +2596,7 @@ larger_payroll,2035,MR6,-13.714,0,13.714
 larger_payroll,2035,CXP,-3.466,0,3.466
 larger_payroll,2035,C18,62.675,0,-62.675
 larger_payroll,2035,C35,15.195,0,-15.195
-larger_payroll,2035,C19b,71.059,0,-71.059
+larger_payroll,2035,C19b,5.277,0,-5.277
 larger_payroll,2035,C20,67.729,0,-67.729
 larger_payroll,2035,C38,92.779,0,-92.779
 larger_payroll,2035,C39,40.435,0,-40.435
@@ -2681,7 +2681,6 @@ larger_payroll,2036,MR6,-16.341,0,16.341
 larger_payroll,2036,CXP,-3.2,0,3.2
 larger_payroll,2036,C18,65.401,0,-65.401
 larger_payroll,2036,C35,15.769,0,-15.769
-larger_payroll,2036,C19b,80.769,0,-80.769
 larger_payroll,2036,C20,70.675,0,-70.675
 larger_payroll,2036,C38,96.769,0,-96.769
 larger_payroll,2036,C39,42.194,0,-42.194
@@ -2763,7 +2762,6 @@ larger_payroll,2037,MR6,-18.859,0,18.859
 larger_payroll,2037,CXP,-2.728,0,2.728
 larger_payroll,2037,C18,68.298,0,-68.298
 larger_payroll,2037,C35,16.363,0,-16.363
-larger_payroll,2037,C19b,85.434,0,-85.434
 larger_payroll,2037,C20,73.806,0,-73.806
 larger_payroll,2037,C38,100.146,0,-100.146
 larger_payroll,2037,C39,44.063,0,-44.063
@@ -2845,7 +2843,6 @@ larger_payroll,2038,MR6,-21.477,0,21.477
 larger_payroll,2038,CXP,-1.658,0,1.658
 larger_payroll,2038,C18,71.394,0,-71.394
 larger_payroll,2038,C35,16.981,0,-16.981
-larger_payroll,2038,C19b,90.597,0,-90.597
 larger_payroll,2038,C20,77.151,0,-77.151
 larger_payroll,2038,C38,103.756,0,-103.756
 larger_payroll,2038,C39,46.06,0,-46.06
@@ -2927,7 +2924,6 @@ larger_payroll,2039,MR6,-24.194,0,24.194
 larger_payroll,2039,CXP,-0.517,0,0.517
 larger_payroll,2039,C18,74.548,0,-74.548
 larger_payroll,2039,C35,17.62,0,-17.62
-larger_payroll,2039,C19b,95.977,0,-95.977
 larger_payroll,2039,C20,80.56,0,-80.56
 larger_payroll,2039,C38,108.715,0,-108.715
 larger_payroll,2039,C39,48.095,0,-48.095
@@ -3006,7 +3002,6 @@ larger_payroll,2040,MR6,-25.108,0,25.108
 larger_payroll,2040,CXP,0.491,0,-0.491
 larger_payroll,2040,C18,77.771,0,-77.771
 larger_payroll,2040,C35,18.286,0,-18.286
-larger_payroll,2040,C19b,101.401,0,-101.401
 larger_payroll,2040,C20,84.043,0,-84.043
 larger_payroll,2040,C38,113.549,0,-113.549
 larger_payroll,2040,C39,50.175,0,-50.175
@@ -3085,7 +3080,6 @@ larger_payroll,2041,MR6,-26.058,0,26.058
 larger_payroll,2041,CXP,0.494,0,-0.494
 larger_payroll,2041,C18,81.198,0,-81.198
 larger_payroll,2041,C35,18.977,0,-18.977
-larger_payroll,2041,C19b,107.242,0,-107.242
 larger_payroll,2041,C20,87.746,0,-87.746
 larger_payroll,2041,C38,118.6,0,-118.6
 larger_payroll,2041,C39,52.386,0,-52.386
@@ -3163,7 +3157,6 @@ larger_payroll,2042,MR6,-27.035,0,27.035
 larger_payroll,2042,CXP,0.059,0,-0.059
 larger_payroll,2042,C18,84.747,0,-84.747
 larger_payroll,2042,C35,19.689,0,-19.689
-larger_payroll,2042,C19b,113.179,0,-113.179
 larger_payroll,2042,C20,91.581,0,-91.581
 larger_payroll,2042,C38,123.344,0,-123.344
 larger_payroll,2042,C39,54.675,0,-54.675
@@ -3241,7 +3234,6 @@ larger_payroll,2043,MR6,-28.048,0,28.048
 larger_payroll,2043,CXP,0.266,0,-0.266
 larger_payroll,2043,C18,88.404,0,-88.404
 larger_payroll,2043,C35,20.426,0,-20.426
-larger_payroll,2043,C19b,119.228,0,-119.228
 larger_payroll,2043,C20,95.534,0,-95.534
 larger_payroll,2043,C38,128.37,0,-128.37
 larger_payroll,2043,C39,57.035,0,-57.035
@@ -3319,7 +3311,6 @@ larger_payroll,2044,MR6,-29.094,0,29.094
 larger_payroll,2044,CXP,0.566,0,-0.566
 larger_payroll,2044,C18,92.148,0,-92.148
 larger_payroll,2044,C35,21.189,0,-21.189
-larger_payroll,2044,C19b,125.428,0,-125.428
 larger_payroll,2044,C20,99.579,0,-99.579
 larger_payroll,2044,C38,133.582,0,-133.582
 larger_payroll,2044,C39,59.45,0,-59.45
@@ -3397,7 +3388,6 @@ larger_payroll,2045,MR6,-30.169,0,30.169
 larger_payroll,2045,CXP,0.58,0,-0.58
 larger_payroll,2045,C18,95.983,0,-95.983
 larger_payroll,2045,C35,21.972,0,-21.972
-larger_payroll,2045,C19b,131.77,0,-131.77
 larger_payroll,2045,C20,103.723,0,-103.723
 larger_payroll,2045,C38,139.064,0,-139.064
 larger_payroll,2045,C39,61.924,0,-61.924
@@ -3475,7 +3465,6 @@ larger_payroll,2046,MR6,-31.269,0,31.269
 larger_payroll,2046,CXP,0.507,0,-0.507
 larger_payroll,2046,C18,100.012,0,-100.012
 larger_payroll,2046,C35,22.773,0,-22.773
-larger_payroll,2046,C19b,138.345,0,-138.345
 larger_payroll,2046,C20,108.077,0,-108.077
 larger_payroll,2046,C38,145.609,0,-145.609
 larger_payroll,2046,C39,64.524,0,-64.524
@@ -3553,7 +3542,6 @@ larger_payroll,2047,MR6,-32.404,0,32.404
 larger_payroll,2047,CXP,0.385,0,-0.385
 larger_payroll,2047,C18,104.115,0,-104.115
 larger_payroll,2047,C35,23.599,0,-23.599
-larger_payroll,2047,C19b,144.942,0,-144.942
 larger_payroll,2047,C20,112.511,0,-112.511
 larger_payroll,2047,C38,151.363,0,-151.363
 larger_payroll,2047,C39,67.171,0,-67.171
@@ -3631,7 +3619,6 @@ larger_payroll,2048,MR6,-33.574,0,33.574
 larger_payroll,2048,CXP,0.221,0,-0.221
 larger_payroll,2048,C18,108.34,0,-108.34
 larger_payroll,2048,C35,24.451,0,-24.451
-larger_payroll,2048,C19b,151.836,0,-151.836
 larger_payroll,2048,C20,117.078,0,-117.078
 larger_payroll,2048,C38,157.191,0,-157.191
 larger_payroll,2048,C39,69.897,0,-69.897
@@ -3709,7 +3696,6 @@ larger_payroll,2049,MR6,-34.78,0,34.78
 larger_payroll,2049,CXP,0.051,0,-0.051
 larger_payroll,2049,C18,112.65,0,-112.65
 larger_payroll,2049,C35,25.329,0,-25.329
-larger_payroll,2049,C19b,158.923,0,-158.923
 larger_payroll,2049,C20,121.734,0,-121.734
 larger_payroll,2049,C38,163.345,0,-163.345
 larger_payroll,2049,C39,72.677,0,-72.677
@@ -3787,7 +3773,6 @@ larger_payroll,2050,MR6,-36.021,0,36.021
 larger_payroll,2050,CXP,-0.185,0,0.185
 larger_payroll,2050,C18,117.065,0,-117.065
 larger_payroll,2050,C35,26.233,0,-26.233
-larger_payroll,2050,C19b,166.093,0,-166.093
 larger_payroll,2050,C20,126.506,0,-126.506
 larger_payroll,2050,C38,169.828,0,-169.828
 larger_payroll,2050,C39,75.526,0,-75.526
@@ -3865,7 +3850,6 @@ larger_payroll,2051,MR6,-37.3,0,37.3
 larger_payroll,2051,CXP,-0.189,0,0.189
 larger_payroll,2051,C18,121.901,0,-121.901
 larger_payroll,2051,C35,27.164,0,-27.164
-larger_payroll,2051,C19b,173.605,0,-173.605
 larger_payroll,2051,C20,131.732,0,-131.732
 larger_payroll,2051,C38,176.125,0,-176.125
 larger_payroll,2051,C39,78.646,0,-78.646
@@ -3943,7 +3927,6 @@ larger_payroll,2052,MR6,-38.619,0,38.619
 larger_payroll,2052,CXP,-0.193,0,0.193
 larger_payroll,2052,C18,126.98,0,-126.98
 larger_payroll,2052,C35,28.125,0,-28.125
-larger_payroll,2052,C19b,181.178,0,-181.178
 larger_payroll,2052,C20,137.221,0,-137.221
 larger_payroll,2052,C38,182.492,0,-182.492
 larger_payroll,2052,C39,81.923,0,-81.923
@@ -4021,7 +4004,6 @@ larger_payroll,2053,MR6,-39.981,0,39.981
 larger_payroll,2053,CXP,-0.197,0,0.197
 larger_payroll,2053,C18,132.138,0,-132.138
 larger_payroll,2053,C35,29.117,0,-29.117
-larger_payroll,2053,C19b,188.915,0,-188.915
 larger_payroll,2053,C20,142.795,0,-142.795
 larger_payroll,2053,C38,188.932,0,-188.932
 larger_payroll,2053,C39,85.251,0,-85.251
@@ -4099,7 +4081,6 @@ larger_payroll,2054,MR6,-41.39,0,41.39
 larger_payroll,2054,CXP,-0.202,0,0.202
 larger_payroll,2054,C18,137.562,0,-137.562
 larger_payroll,2054,C35,30.143,0,-30.143
-larger_payroll,2054,C19b,196.851,0,-196.851
 larger_payroll,2054,C20,148.656,0,-148.656
 larger_payroll,2054,C38,195.587,0,-195.587
 larger_payroll,2054,C39,88.75,0,-88.75
@@ -4177,7 +4158,6 @@ larger_payroll,2055,MR6,-42.846,0,42.846
 larger_payroll,2055,CXP,-0.206,0,0.206
 larger_payroll,2055,C18,143.116,0,-143.116
 larger_payroll,2055,C35,31.204,0,-31.204
-larger_payroll,2055,C19b,205.258,0,-205.258
 larger_payroll,2055,C20,154.657,0,-154.657
 larger_payroll,2055,C38,202.627,0,-202.627
 larger_payroll,2055,C39,92.333,0,-92.333
@@ -4255,7 +4235,6 @@ larger_payroll,2056,MR6,-44.355,0,44.355
 larger_payroll,2056,CXP,-0.211,0,0.211
 larger_payroll,2056,C18,148.98,0,-148.98
 larger_payroll,2056,C35,32.303,0,-32.303
-larger_payroll,2056,C19b,214.016,0,-214.016
 larger_payroll,2056,C20,160.994,0,-160.994
 larger_payroll,2056,C38,210.727,0,-210.727
 larger_payroll,2056,C39,96.116,0,-96.116

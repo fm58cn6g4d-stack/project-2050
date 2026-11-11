@@ -25,3 +25,5 @@ MA,norm,,0.282,0.703,0.862,0.928,1.0,0.255,0.0,0.0,0.0,0.0,HLT-6's booked fiscal
 H7h,norm,,0.0,0.109,0.152,0.246,0.38,0.715,0.848,0.896,0.946,1.0,health_booking.py incidence(): the groups' moves on the fiscal-year path
 H7w,norm,,0.0,0.054,0.075,0.242,0.482,0.747,0.848,0.896,0.946,1.0,health_booking.py incidence(): HX's moved-share path
 H7x,,H7w,,,,,,,,,,,as H7w (the exclusion ends on the same path)
+C19b,norm,,0.0,0.485,1.0,0.862,0.48,0.095,0.0,0.0,0.0,0.0,the exclusion cap ends as employer groups join the single plan (health_booking.py c19b)
+C19,,C19b,,,,,,,,,,,as C19b

@@ -32,7 +32,9 @@ class RedesignChecks(unittest.TestCase):
         replace = self.case('Replace C19b and C20', 'Central')
         removed = sum((replace['gf_path_bn'][y] + replace['new_receipts_path_bn'][y]) -
                       (keep['gf_path_bn'][y] + keep['new_receipts_path_bn'][y]) for y in range(2030,2040))
-        self.assertAlmostEqual(removed, 1330)
+        cuts = {r['id']: float(r['saves_tn']) for r in __import__('csv').DictReader(open(
+            __import__('pathlib').Path(__file__).resolve().parents[3] / 'models/data/inputs/ledger-cuts.csv'))}
+        self.assertAlmostEqual(removed, 1000 * (cuts['C19b'] + cuts['C20']))   # was 1,330; C19b now ends with the exclusion (care follow-up 2)
         self.assertGreater(replace['minimum_net_gdp_percent'], keep['minimum_net_gdp_percent'])
 
     def test_deeper_window_loss_excludes_later_g11_haircut(self):

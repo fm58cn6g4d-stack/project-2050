@@ -38,19 +38,19 @@
  {
   "id": "C19",
   "change": "Cap the employer health exclusion at the median premium",
-  "saves_tn": 1.25,
+  "saves_tn": 0.308,
   "saves_days": 0,
   "kind": "Revenue (fallback to C19b)",
-  "why": "Median cap; the fallback if the sprint package falls short (Decision Brief 1)",
+  "why": "Median cap; the fallback if the sprint package falls short (Decision Brief 1); scaled from $1.25T the same way as C19b (the exclusion ends as groups move)",
   "alternative_to": "C19b"
  },
  {
   "id": "C19b",
   "change": "Cap the employer health exclusion at the 75th percentile of premiums (Package B)",
-  "saves_tn": 0.66,
+  "saves_tn": 0.163,
   "saves_days": 0,
   "kind": "Revenue (accepted, Decision Brief 1)",
-  "why": "Package B, Decision Brief 1: CBO alternative scaled; part of the decided package (incidence scenario Q)",
+  "why": "Package B, Decision Brief 1: CBO alternative scaled; part of the decided package (incidence scenario Q); scaled from $0.66T to the employer coverage not yet in the single plan: the exclusion it caps ends as groups move (children 2031, thirds 2033-35), so it collects nothing from FY2036 (care follow-up 2; models/tools/health_booking.py c19b)",
   "alternative_to": ""
  },
  {

@@ -7,7 +7,7 @@
 | Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |
 | --- | ---: | ---: | ---: | --- | ---: |
 | mixed | 166.8% | 330.4% | 21.91% | False | 31.31 |
-| larger_payroll | 166.5% | 328.7% | 21.74% | False | 31.01 |
+| larger_payroll | 167.5% | 333.5% | 22.15% | False | 31.69 |
 | mixed_downside | 172.0% | 348.6% | 23.37% | False | 44.19 |
 | mixed_all_debt_rate_plus1 | 176.1% | 385.3% | 27.56% | False | 35.77 |
 | mixed_no_macro_translation | 166.7% | 329.1% | 21.76% | False | — |
@@ -46,7 +46,7 @@ Totals above are $B, not $T. The audit CSV exposes every increment and matched g
 | Household diagnostic, FY2039 annual net $/household | Q1 | Q2 | Q3 | Q4 | Q5 |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | mixed | 10,032 | 6,111 | 856 | -6,955 | -79,672 |
-| larger_payroll | 9,853 | 5,461 | -473 | -8,566 | -76,443 |
+| larger_payroll | 9,908 | 5,740 | 197 | -7,643 | -75,577 |
 | mixed_larger_credit | 12,327 | 8,847 | 4,019 | -4,650 | -89,271 |
 
 These are approximate quintile averages including modeled benefits, not a D3 certification or guarantees for individual households. See the assumptions and limits in the assessment.
