@@ -1,0 +1,3356 @@
+Source: https://aspe.hhs.gov/sites/default/files/migrated_legacy_files/170576/BIPfinalproc.pdf
+Publisher: Office of the Assistant Secretary for Planning and Evaluation
+Retrieved: 2026-11-11
+Original SHA-256: 5c487a8d81b1a8b95c92e5107ca0b073d03733dc1af4719820f2696ad4edd72b
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+U.S. Department of Health and Human Services
+Assistant Secretary for Planning and Evaluation
+Office of Disability, Aging and Long-Term Care Policy
+
+FINAL PROCESS EVALUATION
+OF THE BALANCING
+INCENTIVE PROGRAM
+
+May 2016
+
+Office of the Assistant Secretary for Planning and Evaluation
+The Office of the Assistant Secretary for Planning and Evaluation (ASPE) is the
+principal advisor to the Secretary of the Department of Health and Human Services
+(HHS) on policy development issues, and is responsible for major activities in the areas
+of legislative and budget development, strategic planning, policy research and
+evaluation, and economic analysis.
+ASPE develops or reviews issues from the viewpoint of the Secretary, providing a
+perspective that is broader in scope than the specific focus of the various operating
+agencies. ASPE also works closely with the HHS operating agencies. It assists these
+agencies in developing policies, and planning policy research, evaluation and data
+collection within broad HHS and administration initiatives. ASPE often serves a
+coordinating role for crosscutting policy and administrative activities.
+ASPE plans and conducts evaluations and research--both in-house and through support
+of projects by external researchers--of current and proposed programs and topics of
+particular interest to the Secretary, the Administration and the Congress.
+
+Office of Disability, Aging and Long-Term Care Policy
+The Office of Disability, Aging and Long-Term Care Policy (DALTCP), within ASPE, is
+responsible for the development, coordination, analysis, research and evaluation of
+HHS policies and programs which support the independence, health and long-term care
+of persons with disabilities--children, working aging adults, and older persons. DALTCP
+is also responsible for policy coordination and research to promote the economic and
+social well-being of the elderly.
+In particular, DALTCP addresses policies concerning: nursing home and communitybased services, informal caregiving, the integration of acute and long-term care,
+Medicare post-acute services and home care, managed care for people with disabilities,
+long-term rehabilitation services, children’s disability, and linkages between employment
+and health policies. These activities are carried out through policy planning, policy and
+program analysis, regulatory reviews, formulation of legislative proposals, policy
+research, evaluation and data planning.
+This report was prepared under contract #HHSP23320100021WI between HHS’s
+ASPE/DALTCP and the Research Triangle Institute. For additional information about
+this subject, you can visit the DALTCP home page at http://aspe.hhs.gov/officedisability-aging-and-long-term-care-policy-daltcp or contact the ASPE Project Officers,
+Pamela Doty and Jhamirah Howard, at HHS/ASPE/DALTCP, Room 424E, H.H.
+Humphrey Building, 200 Independence Avenue, S.W., Washington, D.C. 20201. Their
+e-mail addresses are: Pamela.Doty@hhs.gov and Jhamirah.Howard@hhs.gov.
+
+FINAL PROCESS EVALUATION OF
+THE BALANCING INCENTIVE PROGRAM
+
+Sarita L. Karon, PhD
+Molly Knowles, MPP
+Brieanne Lyda-McDonald, MS
+Trini Thach, BS
+Joshua M. Wiener, PhD
+RTI International
+Diane Justice, MA
+Scott Holladay, MPA
+John Tranfaglia, BA
+National Academy for State Health Policy
+Mary Sowers, BA
+National Association of State Directors of Developmental Disability Services
+
+May 2016
+
+Prepared for
+Office of Disability, Aging and Long-Term Care Policy
+Office of the Assistant Secretary for Planning and Evaluation
+U.S. Department of Health and Human Services
+Contract #HHSP23320100021WI
+
+The opinions and views expressed in this report are those of the authors. They do not necessarily reflect
+the views of the Department of Health and Human Services, the contractor or any other funding
+organization.
+
+TABLE OF CONTENTS
+ACRONYMS .............................................................................................................................. iii
+EXECUTIVE SUMMARY ........................................................................................................... iv
+1. INTRODUCTION ................................................................................................................... 1
+2. DATA AND METHODS ......................................................................................................... 2
+3. FINDINGS ............................................................................................................................. 5
+4. DISCUSSION ...................................................................................................................... 25
+REFERENCES ......................................................................................................................... 27
+
+i
+
+LIST OF EXHIBITS
+EXHIBIT 1.
+
+Key Research Questions and Data Sources ........................................................ 3
+
+EXHIBIT 2.
+
+Medicaid Coverage and Eligibility Options Used by Balancing
+Incentive Program States ..................................................................................... 6
+
+EXHIBIT 3.
+
+Strategies Used to Expand HCBS as a Share of Total LTSS
+Expenditures ........................................................................................................ 8
+
+EXHIBIT 4.
+
+Status of NWD/SEP Requirements as of September 30, 2015........................... 11
+
+EXHIBIT 5.
+
+Status of CSA Requirements as of September 30, 2015 .................................... 13
+
+EXHIBIT 6.
+
+Status of CFCM as of September 30, 2015 ........................................................ 14
+
+EXHIBIT 7.
+
+Discretionary Goals Set by Balancing Incentive Program States ........................ 15
+
+EXHIBIT 8.
+
+Strategies Used to Increase HCBS Expenditures by Subpopulations................. 17
+
+EXHIBIT 9.
+
+Stakeholders Who Provided Input on Balancing Incentive Program
+Implementation .................................................................................................. 23
+
+ii
+
+ACRONYMS
+The following acronyms are mentioned in this report.
+ACA
+ADRC
+AIDS
+
+Affordable Care Act
+Aging and Disability Resource Center
+Acquired Immune Deficiency Syndrome
+
+CDS
+CFCM
+CMS
+CSA
+
+Core Dataset
+Conflict-Free Case Management
+Centers for Medicare and Medicaid Services
+Core Standardized Assessment
+
+FMAP
+FY
+
+Federal Medical Assistance Percentage
+Fiscal Year
+
+HCBS
+HIV
+
+Home and Community-Based Services
+Human Immunodeficiency Virus
+
+I/DD
+
+Intellectual or Developmental Disabilities
+
+LTSS
+
+Long-Term Services and Supports
+
+MFP
+
+Money Follows the Person
+
+NASUAD
+NWD
+
+National Association of States United for Aging and Disabilities
+No Wrong Door
+
+SEP
+SIM
+SMI
+SPA
+SUD
+
+Single Entry Point
+State Innovation Model
+Serious Mental Illness
+State Plan Amendment
+Substance Use Disorder
+
+TBI
+
+Traumatic Brain Injury
+
+iii
+
+EXECUTIVE SUMMARY
+Long-term services and supports (LTSS) are used by people with disabilities or
+chronic health conditions who need help with activities of daily living (e.g., bathing,
+dressing, eating) or instrumental activities of daily living (e.g., preparing meals,
+managing money, engaging in community activities). Historically, the financing and
+delivery of Medicaid LTSS has favored institutional care over home and communitybased services (HCBS), despite the fact that people with disabilities generally prefer to
+live in the community.
+The 2010 Patient Protection and Affordable Care Act included several initiatives
+designed to increase the use of Medicaid HCBS and to improve the infrastructure for
+provision of those services, one of which was the Balancing Incentive Program. States
+that were, in 2009, spending less than 50% of their total Medicaid LTSS expenditures
+on HCBS were eligible to participate in the Balancing Incentive Program. Participating
+states were expected to increase the share of LTSS dollars spent on HCBS and to
+improve the LTSS infrastructure to create a more consumer-friendly, consistent, and
+equitable system, in exchange for which they received an enhanced federal match rate
+for HCBS. The rate of the enhanced federal match and the targeted rate of HCBS
+expenditures were dependent on the baseline (FY2009) spending of the state. States
+that spent less than 25% of their Medicaid LTSS dollars on HCBS in 2009 were eligible
+to receive a 5 percentage point enhanced federal match rate on Medicaid HCBS
+expenditures and were required to meet or exceed the 25% HCBS spending benchmark
+by the end of federal FY2015. States whose LTSS spending on HCBS in 2009 was at
+least 25% but less than 50% were eligible for a 2 percentage point enhanced federal
+match rate on Medicaid HCBS expenditures and were required to meet or exceed the
+50% HCBS spending benchmark by September 30, 2015.
+In addition to increasing the percentage of total Medicaid LTSS spending directed
+to HCBS, participating states were required to meet three infrastructure goals: create a
+no wrong door/single entry point (NWD/SEP) process for people seeking LTSS; develop
+a core standardized assessment (CSA) for use with all populations; and ensure a
+conflict-free case management (CFCM) process. Although all states were required to
+implement these infrastructure reforms according to Centers for Medicare and Medicaid
+Services (CMS) protocols specifying certain essential elements, they were free to do so
+in whatever way they determined worked best.
+This process evaluation describes the actions taken by states from the time they
+first began participation in the Balancing Incentive Program (April 1, 2012, through July
+1, 2014, depending on the state) through the end of the program, September 30, 2015.
+Although 21 states were accepted into the Balancing Incentive Program, this report
+includes data for only 20 of them. Three states ended their participation early. Nebraska
+began participation in October 2014, but ended participation by March 2015 and did not
+
+iv
+
+submit any quarterly reports describing their activities during the brief time they were
+involved; it, therefore, is excluded from this report. Two additional states, Indiana and
+Louisiana, also ended participation in the Balancing Incentive Program early. This report
+includes information for those two states, from the time of their enrollment to the end of
+their participation.
+Data were obtained through document review, with the key documents being the
+quarterly progress reports from states participating in the Balancing Incentive Program.
+Information from these documents was compared against the information from the
+states’ applications and work plans, as reported in our baseline report, to assess how
+the actual activities compared to what had been planned. Additional sources of
+information include notes and supplemental materials from stakeholder advisory group
+meetings; summary briefs on state Balancing Incentive Program activities from the
+technical assistance contractor, Mission Analytics; and information from CMS staff
+based on their knowledge of the participating states.
+This process evaluation identified the following strategies used by states to
+implement and achieve the goals of the Balancing Incentive Program.
+
+
+In addition to the Balancing Incentive Program, states were engaged in a range
+of Medicaid State Plan options, waiver programs and grant activities, which they
+used to help attain the goals of the Balancing Incentive Program. All states were
+using Money Follows the Person and Section 1915(c) waivers, and many also
+were using State Plan options. Although many of these programs were in
+operation in the states before implementation of the Balancing Incentive
+Program, several states also expanded or added new programs during this time.
+
+
+
+States also used the enhanced matching funds generated from the Balancing
+Incentive Program to help support activities of these other Medicaid programs.
+For example, some states used Balancing Incentive Funds to increase Section
+1915(c) waiver capacity and reduce waiting lists, or to support the development
+of health homes and other HCBS authorities.
+
+
+
+Most states used multiple methods of increasing the share of LTSS dollars spent
+on HCBS. The most frequently used method was to increase the capacity of
+HCBS waivers to serve more individuals (14 states). Other commonly used
+methods included expanding mental health services (12 states), expanding the
+types of populations served by HCBS (11 states), increasing the services
+available to current HCBS recipients (11 states), and increasing the HCBS
+payment rates (ten states), among other means.
+
+
+
+Although state eligibility to participate in the Balancing Incentive Program was
+based on total, not population-specific, LTSS expenditures, states could target
+their Balancing Incentive Program efforts to increase HCBS expenditures to
+specific populations. Most commonly, such efforts addressed the main LTSS
+populations--people with intellectual or developmental disabilities, older adults,
+
+v
+
+younger adults with physical disabilities, or people with mental health or
+substance use disorders. People with HIV/AIDS or brain injuries were targeted
+less often.
+
+
+Fourteen states completed all of the requirements of the NWD/SEP system by
+the end of FY2015. Completion of this task included establishing a toll-free
+telephone number (accomplished by 17 states), developing standardized
+informational materials (accomplished by 16 states), training staff on eligibility
+determination and enrollment processes (accomplished by 15 states),
+implementing a process to guide individuals through assessment and eligibility
+determination (accomplished by 16 states), and establishing a NWD/SEP
+website (accomplished by 14 states).
+
+
+
+Sixteen states, including Louisiana (which ended participation early), completed
+the requirements of a CSA. This included developing a Level I screen
+assessment to review a person’s financial and functional status and determine
+likely eligibility for services (accomplished by all states except Indiana, which
+ended its participation early); incorporating the required domains and topics in
+their assessments (accomplished by 18 states); and training staff at the
+NWD/SEPs in the coordination of the CSAs (accomplished by 17 states).
+
+
+
+All but one state (Indiana, which ended its participation early) had developed
+protocols needed to remove conflict of interest as defined within the Balancing
+Incentive Program from case management. Several (six states) reported delays
+in establishing CFCM, often related to challenges working with specific provider
+types. Challenges also arose in rural parts of states, in which the limited
+availability of providers could mean that the same organization provided case
+management and direct care services.
+
+
+
+Stakeholders were engaged in the Balancing Incentive Program in a variety of
+ways. Three-quarters of the states (15) convened formal advisory boards, which
+included LTSS providers, policy makers, consumers, and consumer advocates.
+
+Together, these findings indicate that participating states used a variety of
+strategies and processes to achieve the required rebalancing of expenditures and
+improvements in infrastructure. Although states indicated delays and challenges in
+meeting an ambitious timeline, many, although not all, accomplished all the required
+goals within the designated timeframe. States may yet achieve these goals after the
+formal end of the Balancing Incentive Program, as many take advantage of the time
+extension granted by CMS to use remaining funds and complete their work toward the
+required goals.
+
+vi
+
+1. INTRODUCTION
+The Affordable Care Act (ACA) included several initiatives designed to increase
+the use of Medicaid home and community-based services (HCBS) and to improve the
+infrastructure for provision of those services. States that were, in 2009, spending less
+than 50% of total Medicaid long-term services and supports (LTSS) expenditures on
+HCBS were eligible to participate in the Balancing Incentive Program. Participating
+states were expected to increase the share of LTSS dollars spent on HCBS and to
+improve the LTSS infrastructure to create a more consumer-friendly, consistent, and
+equitable system, in exchange for which they receive an enhanced federal match rate
+for HCBS. The rate of the enhanced federal match and the targeted rate of HCBS
+expenditures were dependent on the baseline spending of the state. States spending
+less than 25% of LTSS dollars on HCBS at baseline received a 5% enhanced federal
+medical assistance percentages (FMAP) and were required to increase HCBS spending
+to at least 25% of total LTSS dollars. States spending between 25% and 50% of LTSS
+on HCBS at baseline received a 2% enhanced FMAP and were required to spend at
+least 50% of LTSS dollars on HCBS by the end of the Balancing Incentive Program,
+September 30, 2015.
+States participating in the Balancing Incentive Program were required to
+accomplish four goals: increase the percentage of total Medicaid LTSS dollars
+expended for HCBS to target goals, create a no wrong door/single entry point
+(NWD/SEP) system for people seeking LTSS, develop a core standardized assessment
+(CSA) to be used with all populations, and ensure a conflict-free case management
+(CFCM) process. Although all states were required to address the same goals, they
+were afforded great flexibility in the means they used to accomplish those goals. This
+report describes the processes used by participating states to achieve these goals
+through the end of the Balancing Incentive Program (September 30, 2015).
+
+1
+
+2. DATA AND METHODS
+This report describes how participating states implemented the Balancing Incentive
+Program. Data were obtained through document review, with the key documents being
+the quarterly progress reports to the Centers for Medicare and Medicaid Services
+(CMS) from states participating in the initiative. Information from these documents was
+compared against the information from the states’ applications and work plans as
+reported in our baseline report (Wiener et al., 2015) to assess how the actual activities
+compared to what had been planned. Additional sources of information included notes
+and supplemental materials from stakeholder advisory group meetings; summary policy
+briefs on state Balancing Incentive Program activities from the CMS’s technical
+assistance contractor, Mission Analytics; and information provided by CMS staff based
+on their knowledge of the states. RTI International and National Academy for State
+Health Policy team members reviewed these documents for each of the participating
+states and extracted data using a single set of data summary tools. To ensure a
+consistent process, the team discussed the data sources used, information found, and
+questions of interpretation.
+To determine whether, how, and how much state Balancing Incentive Program
+actions interacted with the existing HCBS options, we examined state applications and
+work plans for provisions that specifically mention planned collaboration between the
+different coverage options. We also consulted the quarterly progress reports for state
+reporting of any interaction with other HCBS programs. For HCBS benefit expansions
+funded through Money Follows the Person (MFP) programs, we also consulted data
+provided on that program. The National Association of States United for Aging and
+Disabilities’ (NASUAD’s) State Medicaid Integration Tracker, which pulls together
+information from a variety of CMS and state Medicaid websites on state LTSS
+programs, also provided information on state HCBS activities. Our review of these
+materials focused on whether and how other HCBS programs are used by states to
+further progress toward the expenditure and infrastructure goals of the Balancing
+Incentive Program.
+This final process evaluation covers the entire period of the Balancing Incentive
+Program, from the time each state began participation (which, depending on the state,
+was anytime between April 1, 2012, and October 1, 2014) until the end of the Balancing
+Incentive Program (September 30, 2015). Although 21 states were accepted into the
+Balancing Incentive Program, this report includes data for only 20 of them. Nebraska
+began participation in October 2014, but ended participation by March 2015 and did not
+submit any quarterly reports describing its activities during the brief time it was involved.
+Therefore, it is excluded from this report. Two additional states, Indiana and Louisiana,
+also ended their participation in the Balancing Incentive Program early. This report
+includes information for those two states, from the time of their enrollment through the
+end of their participation.
+
+2
+
+This process evaluation addresses seven research questions. The questions and
+the key data sources used to address them are shown in Exhibit 1. Together, these
+questions address the various processes used by states to work toward the goals of the
+Balancing Incentive Program.
+EXHIBIT 1. Key Research Questions and Data Sources
+Research Questions
+Research Question 1: What Medicaid
+coverage and eligibility options did the state
+use to implement its Balancing Incentive
+Program? For example, did the state adopt
+a new SPA or a HCBS waiver?
+
+
+
+
+
+
+
+Research Question 2: Did the state
+increase HCBS provider rates or expand the
+type and amount of HCBS available to
+program participants?
+
+Research Question 3: Did the state make
+other policy changes to its Medicaid
+program, such as increasing the number of
+waiver slots or establishing a process for
+reducing waitlists?
+
+Research Question 4: What actions were
+taken to address the infrastructure and
+state-specific goals?
+
+Research Question 5: Did state activities
+specifically address one or more
+subpopulations of individuals who need
+LTSS? If so, did activities to increase
+access to and availability of HCBS differ for
+these subpopulations?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data Sources
+State applications and work plans for the Balancing
+Incentive Program (CMS Balancing Incentive Program
+website) (http://www.medicaid.gov/Medicaid-CHIPProgram-Information/By-Topics/Long-Term-Servicesand-Supports/Balancing/Balancing-IncentiveProgram.html)
+CMS SPA database (http://medicaid.gov/stateresource-center/medicaid-state-planamendments/medicaid-state-plan-amendments.html)
+CMS waiver database
+(http://www.medicaid.gov/medicaid-chip-programinformation/by-topics/waivers/waivers_faceted.html)
+NASUAD State Medicaid Integration Tracker
+(http://www.nasuad.org/initiatives/tracking-stateactivity/state-medicaid-integration-tracker)
+Mathematica Policy Research MFP program database
+CMS Transition Plan Portal (when available)
+State applications and work plans for the Balancing
+Incentive Program
+CMS SPA database
+CMS waiver database
+Mission Analytics’ profiles of state programs, including
+progress reports
+(http://www.balancingincentiveprogram.org/stateactivities)
+Mathematica Policy Research MFP program database
+State applications and work plans for the Balancing
+Incentive Program
+CMS SPA database
+CMS waiver database
+Mission Analytics’ profiles of state programs, including
+states’ quarterly progress reports
+Mathematica Policy Research MFP program database
+Previous information collected from state applications
+and work plans for the Baseline Report
+Mission Analytics’ profiles of state programs, including
+states’ quarterly progress reports
+Mathematica Policy Research MFP program database
+State applications and work plans for the Balancing
+Incentive Program
+CMS SPA database
+CMS waiver database
+Mission Analytics’ profiles of state programs, including
+states’ quarterly progress reports
+Mathematica Policy Research evaluation reports on
+the MFP program
+
+3
+
+EXHIBIT 1 (continued)
+Research Questions
+Research Question 6: Did Balancing
+Incentive Program policies interact with
+HCBS benefit options that were established
+before Balancing Incentive Program
+implementation, and if so, how?
+
+
+
+
+
+
+
+
+
+
+
+Research Question 7: How did the states
+work with stakeholders (e.g., LTSS
+providers) when implementing the
+Balancing Incentive Program?
+
+
+
+
+
+
+Data Sources
+State applications and work plans for the Balancing
+Incentive Program
+CMS SPA database
+CMS waiver database
+Mission Analytics’ profiles of state programs, including
+progress reports
+NASUAD State Medicaid Integration Tracker
+Mathematica Policy Research evaluation reports on
+the MFP program
+Urban Institute Health Homes evaluation
+U.S. Department of Health and Human Services report
+on Community First Choice
+Technical Assistance Exchange information on
+expansion of ADRC programs (http://www.adrctae.acl.gov/tiki-index.php?page=HomePage)
+State applications and work plans for the Balancing
+Incentive Program
+Mission Analytics’ profiles of state programs, including
+progress reports
+Notes from stakeholder advisory group meetings
+Public input sections from applicable HCBS waiver
+applications
+
+4
+
+3. FINDINGS
+Research Question 1: What Medicaid coverage and eligibility
+options did the state use to implement its Balancing Incentive
+Program? For example, did the state adopt a new State Plan
+Amendment (SPA) or an HCBS waiver?
+Although the Balancing Incentive Program set goals for states to achieve and
+provided funding through enhanced FMAP, the specific process for implementing the
+Balancing Incentive Program was left to the states within broad CMS guidelines. States
+could increase the percentage of their LTSS spending used for HCBS by broadening
+service coverage and increasing eligibility through a variety of Medicaid State Plan
+options and waivers. They could do this by expanding on State Plan options and
+waivers that already were in operation, or by implementing new State Plan options or
+waivers. States used a mix of these approaches. Exhibit 2 shows the HCBS State Plan
+options and waiver programs that were used to help implement the Balancing Incentive
+Program goals, and whether these programs were being used before or adopted after
+the implementation of the Balancing Incentive Program. States used anywhere from
+three to seven types of programs to help implement the Balancing Incentive Program.
+States primarily expanded existing programs (especially MFP and Section 1915(c)
+waivers) rather than developing wholly new programs. Depending on the state, program
+expansion was accomplished by broadening the range of services covered, increasing
+the number of people served (and sometimes the types of populations served), or both.
+At the start of their participation in the Balancing Incentive Program, all states were
+participating in the MFP program (Wiener et al., 2015). Nearly half of the states (nine of
+20) expanded their MFP programs during the implementation period to serve greater
+numbers of people.
+All states also had Medicaid Section 1915(c) waivers in place before participation
+in the Balancing Incentive Program and were able to use those programs to help
+implement their Balancing Incentive Programs. Most (15) of the participating states
+expanded use of their existing Section 1915(c) waivers, either by increasing the number
+of people served or the range of services covered. New Jersey, however, eliminated its
+1915(c) waivers, subsuming the covered services and populations into its 1115
+demonstration program.
+Several State Plan options were available during the initial Balancing Incentive
+Program operation. Over half (11) of the participating states were using the State Plan
+Personal Care option at the time they implemented the Balancing Incentive Program,
+and they continued to use that option. One of these states (New Hampshire) expanded
+the use of this option.
+
+5
+
+EXHIBIT 2. Medicaid Coverage and Eligibility Options Used
+by Balancing Incentive Program States
+Balancing
+Incentive
+Program
+State
+
+State Plan
+MFP
+
+1915(c)
+Waivers
+
+Personal
+Care
+
+Option
+1915(i)
+
+Option
+1915(k)
+
+Health
+Homes
+
+1115 Research
+and
+Demonstration
+Waiver
+X
+
+Number of
+Program
+Types
+Used
+4
+4
+2
+4
+4
+4
+2
+4
+4
+7
+3
+4
+4
+5
+
+Arkansas
+X
+X
+X
+Connecticut
+E
+E
+X
+N
+Georgia
+X
+E
+f
+Illinois
+X
+E
+N
+N
+Indiana*
+E
+E
+N
+X
+Iowa
+E
+E
+E
+N
+Kentucky
+X
+E
+Louisiana*
+E
+E
+X
+X
+Maine
+X
+E
+X
+E
+a
+Maryland
+X
+X
+N
+N
+N
+X
+X
+Massachusetts
+X
+E
+X
+Mississippi
+E
+E
+N
+X
+Missouri
+E
+E
+X
+X
+Nevada
+E
+X
+X
+N
+X
+New
+E
+E
+E
+3
+Hampshire
+b
+New Jersey
+E
+X
+N
+X
+5
+X
+c
+New York
+X
+E
+X
+N
+X
+6
+X
+d
+Ohio
+X
+E
+3
+E, N
+Pennsylvania
+X
+E
+N
+3
+e
+Texas
+X
+X
+X
+N
+5
+E
+Total
+20
+20
+11
+7
+4
+10
+8
+80
+Existing
+11
+5
+10
+2
+0
+3
+6
+37
+Expanded
+9
+15
+1
+1
+0
+2
+1
+29
+New
+0
+1
+0
+4
+4
+5
+1
+15
+NOTES: X = Existed before and continued since start of the Balancing Incentive Program; E = Existed before and expanded
+since start the state’s participation in the Balancing Incentive Program; N = New since the state began participation in the
+Balancing Incentive Program.
+
+* Participation in the program ended early.
+a. Merged 2 existing waivers into a single, combined waiver.
+b. New Jersey’s Section 1915(c) waivers were subsumed under its Section 1115 demonstration program and eliminated as
+separate waivers during this time period.
+c. New York’s Section 1115 waiver was in operation at the start of the Balancing Incentive Program, but authority has since
+expired. A new Section 1115 application has been submitted, but was not approved as of September 30, 2015.
+d. Ohio implemented a waiver for an integrated care delivery system as part of its demonstration for dually eligible individuals.
+e. Texas’ 1115 waiver was amended to authorize managed LTSS statewide, and to add additional HCBS to capitation.
+f. Illinois has an 1115 waiver pending that would consolidate 9 distinct 1915(c) waivers.
+
+Two other State Plan options were used less often. Section 1915(i) allows states to
+provide HCBS as a State Plan option. Section 1915(k), also called the Community First
+Choice option, provides enhanced FMAP for states that are providing community-based
+attendant services and supports to people who need assistance to live in the community
+and who meet an institutional level of care. Three states had a 1915(i) State Plan option
+in place at the start of the Balancing Incentive Program, and one of those expanded it
+after beginning participation in the Balancing Incentive Program. Another four states
+implemented a new 1915(i) State Plan option during the course of the Balancing
+Incentive Program. None of the states taking part in the Balancing Incentive Program
+had a Section 1915(k) (Community First Choice) State Plan option in place at the start
+of their Balancing Incentive Program participation. Four states (Maryland, Connecticut,
+New York, and Texas) adopted the Section 1915(k) option after beginning participation
+in the Balancing Incentive Program.
+
+6
+
+Health Homes, a third type of relevant State Plan option, offer integrated and
+coordinated primary, acute, and behavioral health services and LTSS to Medicaid
+beneficiaries with chronic conditions, including people with mental health disabilities.
+Five states had adopted Health Homes before beginning the Balancing Incentive
+Program, and two of those expanded their Health Homes programs during this time.
+Five other states began Health Home State Plan programs after beginning the
+Balancing Incentive Program.
+Section 1115 Research and Demonstration Waivers offer states the opportunity to
+test innovative approaches to serving people who may not otherwise be covered by
+Medicaid; to provide services that typically would not be covered by Medicaid; or to test
+other service delivery innovations to improve care, decrease costs, and enhance
+efficiency. Depending on the state, Section 1115 waivers may or may not provide LTSS;
+many are limited to medical care. At the time that they implemented their Balancing
+Incentive Programs, seven of the states were operating 1115 demonstration waivers
+that covered LTSS, including HCBS. One of those states (Texas) expanded its Section
+1115 demonstration waiver following the implementation of the Balancing Incentive
+Program to add additional types of HCBS to the program and to extend its coverage
+statewide. Another state (New Jersey) used its 1115 waiver to combine all of its 1915(c)
+waivers that had been operating before the Balancing Incentive Program and eliminate
+those as separate programs. Illinois submitted an 1115 demonstration application in
+2014, but implementation was pending at the end of the Balancing Incentive Program.
+
+Research Question 2: Did the state increase HCBS provider rates or
+expand the type and amount of HCBS available to program
+participants?
+Research Question 3: Did the state make other policy changes to its
+Medicaid program, such as increasing the number of waiver slots or
+establishing a process for reducing waitlists?
+States could meet the requirement to increase the share of LTSS dollars spent on
+HCBS by increasing expenditures for people already being served (Research Question
+2), by increasing the number of people being served (Research Question 3), or by a
+combination of the two. Because of the interplay of these approaches, we present
+responses to these two research questions together.
+Fourteen of the states increased the share of total LTSS expenditures for HCBS
+through strategies that focused on people already receiving HCBS. Three did this by
+increasing the payment rates to HCBS providers, and three did this by increasing the
+scope of services or amount of benefits for existing HCBS recipients. Eight states used
+both approaches (Exhibit 3).
+
+7
+
+EXHIBIT 3. Strategies Used to Expand HCBS as a Share of Total LTSS Expenditures
+
+Balancing
+Incentive
+Program State
+
+a
+
+Increase Share of HCBS
+Expenditures for
+Current Population
+(Research Question 2)
+Increase Scope
+Increase
+or Amount
+HCBS
+of HCBS
+Provider
+Benefits to
+Rates
+Current Users
+X
+X
+X
+X
+X
+X
+X
+
+Increase Number of People Receiving HCBS
+(Research Question 3)
+Expand
+Mental
+Health
+Services
+
+Support
+Transitions
+from
+Institutions to
+Community
+
+Expansion of
+HCBS to
+Serve More
+People, New
+Populations
+
+Reduce HCBS
+Waitlists
+
+Increase
+HCBS Waiver
+Slots
+
+Other
+Strategies
+
+Total
+Strategies
+Used by State
+
+X
+2
+Arkansas
+Connecticut
+X
+X
+X
+X
+6
+Georgia
+X
+X
+X
+5
+Illinois
+X
+X
+X
+X
+X
+7
+Indiana*
+X
+X
+2
+Iowa
+X
+X
+X
+X
+4
+Kentucky
+X
+1
+Louisiana*
+X
+X
+X
+X
+4
+Maine
+X
+1
+Maryland
+X
+X
+X
+X
+X
+X
+X
+7
+Massachusetts
+X
+X
+X
+3
+Mississippi
+X
+X
+X
+X
+X
+X
+6
+Missouri
+X
+X
+2
+Nevada
+X
+X
+2
+b
+X
+X
+2
+New Hampshire
+New Jersey
+X
+X
+X
+X
+X
+X
+6
+New York
+X
+X
+2
+Ohio
+X
+X
+X
+X
+4
+Pennsylvania
+X
+1
+Texas
+X
+X
+X
+X
+X
+X
+6
+Total
+11
+11
+12
+5
+11
+4
+14
+5
+73
+* Participation in the program ended early.
+a. In addition to the accomplishments indicated in this table, Arkansas was engaged in planning for a Section 1915(i) State Plan option; Health Homes for participants in I/DD,
+physical disabilities, and aging waivers, and for individuals with SMI; and a Community First Choice SPA. All three initiatives were on hold at the time of this report. Rate
+increases for waiver and State Plan personal assistance services have been implemented.
+b. New Hampshire provided trainings to staff at community mental health centers to enhance its capacity to serve adults and children with serious mental or emotional disturbance,
+but did not directly support the expansion of mental health services.
+
+8
+
+States used several methods to increase the number of people receiving HCBS.
+Twelve states used strategies to increase access to HCBS for people with mental health
+disabilities. Some states achieved this through implementing new programs, such as
+1915(i) State Plan options, and others expanded the number of people served through
+existing programs. Another method to increase the number of people receiving HCBS
+was to support the transition of people from institutions into the community. This did not
+increase the overall number of people receiving LTSS, but shifted people from
+institutions to the community, thereby increasing the number of Medicaid beneficiaries
+receiving HCBS. Five states used this approach. Other approaches included expanding
+current HCBS programs by serving new populations (11 states), reducing waiting lists
+(four states), and increasing the number of waiver slots (14 states).
+
+Research Question 4: What actions were taken to address the
+infrastructure and state-specific goals?
+As part of the Balancing Incentive Program legislation, each state was required to
+meet three structural reform goals--establishment of a NWD/SEP system, creation and
+implementation of a CSA, and implementation of a process to ensure CFCM. In
+addition, some states set additional goals for themselves beyond those required of all
+participating states.
+No Wrong Door/Single Entry Point
+One of the structural requirements was the establishment of a NWD/SEP system
+to make it easier for beneficiaries to access the service system. The NWD/SEP staff are
+key to the process of guiding individuals through assessment and eligibility
+determination. A single NWD/SEP eligibility coordinator or a case management system
+should guide the individual through the entire assessment and eligibility determination
+process. To fulfill this requirement, the NWD/SEP staff coordinate completion of the
+functional assessment, completion of the financial eligibility assessment, final eligibility
+determinations, enrollment in services, and setup of supports for individuals with LTSS
+needs (Mission Analytics, 2013). As established by CMS, the required NWD/SEP
+system has five key components:
+1. Standardized informational materials for consumers.
+2. Training staff on eligibility determination and enrollment processes.
+3. Implementing a clear and consistent process to guide individuals through
+assessment and eligibility determination.
+
+9
+
+4. Establishing a NWD/SEP website.
+5. Establishing a NWD/SEP 1-800 telephone number through which consumers
+may ask a representative any questions they have about available HCBS.
+For each of these components, states reported the percentage completed and
+whether they had experienced any delays in completion as compared to the proposed
+timetable each state submitted with its application (Exhibit 4). The number of states
+experiencing delays indicates which components were most difficult to address.
+Although all states were expected to complete these tasks before the end of the
+Balancing Incentive Program, not all states were able to do so. Six of the 20 states were
+unable to complete all of the activities related to establishing a NWD/SEP by the end of
+the project period. Of these six, two were states that ended their participation in
+Balancing Incentive Program early. The other four states ranged in completeness from
+an average across tasks of 27% in Nevada, which was unable to complete any of the
+tasks, to Ohio, which had an average of 99% completion but was experiencing delays
+with establishing its NWD/SEP website. Regardless of whether they ultimately
+completed all tasks, most states reported experiencing some delays. Only three of the
+states that completed all tasks had no delays, and others had delays on as many as
+four of the five tasks.
+Establishing a 1-800 telephone number associated with their NWD/SEP appeared
+to be the easiest task for states to complete. Most states (17) had successfully
+completed this task, with an average completion rate of 93%, and only five states
+reported delays in accomplishing that task. Illinois, for example, had requested an
+extension from CMS to allow time for a vendor to be selected and branding to be
+developed specific to the 1-800 telephone number. Arkansas, Missouri, New Jersey,
+and Ohio, the other four states with delays, successfully established their 1-800
+numbers.
+Most (16 of 20) of the states reported that they had completed the task of
+developing standardized informational materials that their NWD/SEP s could provide to
+individuals, and the same number of states reported completing a process to guide
+individuals through the state’s assessment and eligibility determination.
+The most challenging tasks were training staff on the eligibility and determination
+and enrollment processes, and establishing a NWD/SEP website. Only 15 states had
+trained staff and 14 states had established a NWD/SEP website.
+
+10
+
+EXHIBIT 4. Status of NWD/SEP Requirements as of September 30, 2015
+Balancing
+Incentive
+Program
+State
+
+Develop Standardized
+Informational
+Materials
+
+Train Staff on
+Eligibility
+Determination and
+Enrollment Processes
+
+Implement Process to
+Guide Individual
+Through Assessment
+and Eligibility
+Determination
+
+Establish NWD/SEP
+Website
+
+Establish NWD/SEP
+1-800 Number
+
+Percent
+Complete
+
+Percent
+Complete
+
+Delays
+
+Percent
+Complete
+
+Delays
+
+Percent
+Complete
+
+Delays
+
+Percent
+Complete
+
+Delays
+
+100
+100
+100
+55
+25
+100
+100
+0
+100
+100
+100
+100
+100
+
+No
+No
+No
+No
+Yes
+Yes
+Yes
+No
+No
+No
+Yes
+Yes
+Yes
+
+100
+100
+100
+100
+10
+100
+100
+0
+100
+100
+100
+100
+100
+
+No
+No
+No
+No
+Yes
+Yes
+No
+No
+No
+No
+No
+Yes
+Yes
+
+100
+100
+100
+60
+80
+100
+100
+75
+100
+100
+100
+100
+100
+
+Yes
+No
+No
+Yes
+Yes
+Yes
+Yes
+No
+No
+No
+No
+No
+No
+
+100
+100
+100
+95
+100
+100
+100
+100
+100
+100
+100
+100
+100
+
+Yes
+No
+No
+Yes
+No
+No
+No
+No
+No
+No
+No
+No
+Yes
+
+Average
+Percent
+Complete
+100
+100
+100
+77
+58
+100
+100
+55
+100
+100
+100
+100
+100
+
+100
+
+Yes
+
+100
+
+Yes
+
+100
+
+Yes
+
+100
+
+No
+
+100
+
+4
+
+100
+100
+20
+100
+25
+100
+
+No
+Yes
+Yes
+No
+Yes
+Yes
+
+100
+100
+35
+100
+30
+100
+
+Yes
+No
+Yes
+Yes
+Yes
+No
+
+100
+100
+30
+95
+50
+100
+
+No
+Yes
+Yes
+Yes
+Yes
+No
+
+100
+100
+10
+100
+50
+100
+
+Yes
+No
+No
+Yes
+No
+No
+
+100
+100
+27
+99
+41
+100
+
+3
+3
+4
+3
+4
+1
+
+Delays
+
+Arkansas
+100
+No
+Connecticut
+100
+No
+Georgia
+100
+No
+Illinois
+75
+Yes
+Indiana*
+75
+Yes
+Iowa
+100
+No
+Kentucky
+100
+Yes
+Louisiana*
+100
+No
+Maine
+100
+Yes
+Maryland
+100
+No
+Massachusetts
+100
+Yes
+Mississippi
+100
+Yes
+Missouri
+100
+Yes
+New
+100
+Yes
+Hampshire
+New Jersey
+100
+Yes
+New York
+100
+Yes
+Nevada
+40
+Yes
+Ohio
+100
+No
+Pennsylvania
+50
+Yes
+Texas
+100
+No
+Total States
+100%
+16
+complete
+Average
+percentage
+92
+completed
+Total States
+Experiencing
+12
+Delays
+* Participation in the program ended early.
+
+Overall
+
+15
+
+16
+
+14
+
+17
+
+14
+
+81
+
+84
+
+90
+
+93
+
+88
+
+11
+
+9
+
+11
+
+10
+
+5
+
+Number
+of Delays
+2
+0
+0
+3
+4
+3
+3
+0
+1
+0
+2
+3
+4
+
+16
+
+Core Standardized Assessment
+A second required component of the Balancing Incentive Program is the use of a
+CSA to ensure that similar key information is collected for all populations receiving
+LTSS. In addition to a required core set of domains and items used for all populations,
+states may use additional items for specific populations, so that the assessment may
+vary by populations; however, the assessment for any given population must be
+consistent across the state--it may not vary by region or program. Successful
+development of a CSA includes the following three criteria:
+
+
+Criterion 1: Develop a Level I screen assessment. This assessment is used to
+assess a person’s financial and functional status, and determine likely eligibility
+for services when that person first makes inquiry about services.
+
+
+
+Criterion 2: Incorporate additional domains and topics into assessments as
+needed to ensure that components of the CMS-required Core Dataset (CDS) are
+addressed. States are not required to use a single assessment for all
+populations; they may use different assessments tools for different population
+groups. However, all of the assessment tools used must include a minimum set
+of domains and topics that make up the CDS.
+
+
+
+Criterion 3: Train staff at NWD/SEP s in the use of the CSA.
+
+Sixteen of the states reported that they had met all of these criteria by September
+30, 2015. States were most likely to have completed development of the Level I Screen
+Assessment; 19 of the 20 states had completed that activity. Ten states had
+experienced delays in completing the task when compared to the state’s timetable
+submitted in its application, but nine of those ten had completed it despite the delays
+(Exhibit 5).
+Most states also had completed the remaining stages of CSA development.
+Eighteen states reported completely incorporating the required core domains and topics
+into their assessments. Eleven states reported delays in completing this task. Nine of
+the 11 states that had been delayed had since completed that task. Two states had
+made limited progress toward the goal, completing only 30% or less of the required
+work; one of those states (Indiana) ended participation early in the Balancing Incentive
+Program. Maine, one of the states that had incorporated all required domains and topics
+into its assessments, did not, in fact, need to update its assessment tools at all during
+the course of the Balancing Incentive Program, as its existing assessment tools already
+included the required CDS domains and items.
+States also had made less progress toward accomplishing the necessary training
+of staff in the use of the CSA. Seventeen states had completed that task, and 11 states
+had encountered delays. Seven of the states that had experienced delays had,
+however, since completed that task. Of the four states that had failed to complete staff
+
+12
+
+training, two did not report the level of completion of that criterion. One of those two was
+Indiana, which ended its participation early.
+Overall, 16 states completed all of the required tasks associated with development
+of the CSA. These states faced varying numbers of delays, from none to three. Two
+states had 77% of the goals completed (with one delay each), and one had 80%
+complete (with two delays). The overall rate of completion could not be computed for
+one state because of missing data.
+EXHIBIT 5. Status of CSA Requirements as of September 30, 2015
+Balancing
+Incentive
+Program
+State
+
+Develop Level I
+Screen Assessment
+
+Incorporate Additional
+Domains and Topics
+into Assessments
+
+Percent
+Complete
+
+Percent
+Complete
+
+Delays
+
+Delays
+
+Train Staff at
+NWD/SEPs to
+Coordinate CSA
+Percent
+Complete
+
+Delays
+
+Overall
+Average
+Percent
+Complete
+100
+100
+100
+77
+100
+100
+100
+100
+100
+100
+100
+100
+
+Number
+of Delays
+
+Arkansas
+100
+No
+100
+No
+100
+No
+0
+Connecticut
+100
+No
+100
+No
+100
+No
+0
+Georgia
+100
+Yes
+100
+Yes
+100
+Yes
+3
+Illinois
+100
+No
+100
+No
+30
+Yes
+1
+a
+Indiana*
+75
+Yes
+25
+Yes
+Yes
+3
+Iowa
+100
+Yes
+100
+Yes
+100
+Yes
+3
+Kentucky
+100
+Yes
+100
+No
+100
+No
+1
+Louisiana*
+100
+No
+100
+Yes
+100
+No
+1
+b
+Maine
+100
+No
+No
+100
+No
+0
+100
+Maryland
+100
+Yes
+100
+Yes
+100
+Yes
+3
+Massachusetts
+100
+No
+100
+No
+100
+No
+0
+Mississippi
+100
+Yes
+100
+Yes
+100
+Yes
+3
+Missouri
+100
+Yes
+100
+No
+100
+Yes
+2
+New
+100
+Yes
+100
+Yes
+100
+No
+100
+2
+Hampshire
+New Jersey
+100
+Yes
+100
+Yes
+100
+Yes
+100
+3
+New York
+100
+No
+100
+No
+100
+Yes
+100
+1
+Nevada
+100
+No
+100
+Yes
+40
+Yes
+80
+2
+Ohio
+100
+Yes
+100
+Yes
+100
+Yes
+100
+3
+Pennsylvania
+100
+No
+30
+Yes
+100
+No
+77
+1
+Texas
+100
+No
+100
+No
+100
+No
+100
+0
+Total States
+100%
+19
+18
+17
+16
+completed
+Average
+percentage
+99
+93
+93
+97c
+completed
+Total States
+Experiencing
+10
+11
+11
+15
+Delays
+* Participation in the program ended early.
+a. No report of percentage complete.
+b. Maine did not update its assessment tool because its existing assessment tools included the required core domains and
+items.
+c. Average includes only those 19 states for which complete data were available.
+
+Conflict-Free Case Management
+The third key required infrastructure improvement in the Balancing Incentive
+Program is the establishment of CFCM, which is designed to remove potential conflict of
+interest regarding conducting assessments and developing care plans and the provision
+of services. In some states, care providers both develop the care plan and provide the
+services, which may create incentives for the provider to overstate the level of need and
+
+13
+
+to include the services they provide in the care plan. Requirements for CFCM are not
+unique to the Balancing Incentive Program. Similar, but not identical, requirements are
+included as part of the Community First Choice (Section 1915(k)) provisions of the ACA
+and in the Medicaid Program Final Rule on State Plan Home and Community-Based
+Services (CMS, 2014). While states participating in the Balancing Incentive Program
+have made progress on this requirement, they must undertake continued evaluation of
+their structures to ensure regulatory compliance.
+Nearly all states (19 of 20) met the requirement concerning CFCM; the only state
+that failed to do so was Indiana, which ended its participation in the Balancing Incentive
+Program early. Six states, including Indiana, reported delays in developing a protocol for
+removing conflict of interest (Exhibit 6). Among states that faced delays in establishing
+the CFCM protocol, some states described additional effort required to work with certain
+providers. For example, Maryland reported that it faced some delays when working with
+its behavioral health programs. Some other states described challenges ensuring
+CFCM in rural areas, where the same organization may provide both care planning and
+services, and there are few options to for other organizations to take on those roles.
+EXHIBIT 6. Status of CFCM as of September 30, 2015
+Establish Protocol for Removing Conflict of Interest
+Percent Complete
+Delays
+100
+No
+100
+Yes
+100
+No
+50
+Yes
+100
+Yes
+100
+No
+100
+No
+100
+No
+100
+Yes
+100
+No
+100
+Yes
+100
+No
+100
+No
+100
+No
+100
+Yes
+100
+No
+100
+No
+100
+No
+100
+No
+
+Connecticut
+Georgia
+Illinois
+Indiana*
+Iowa
+Kentucky
+Louisiana*
+Maine
+Maryland
+Massachusetts
+Mississippi
+Missouri
+New Hampshire
+New Jersey
+New York
+Nevada
+Ohio
+Pennsylvania
+Texas
+Total States
+100% complete
+Average percentage completed
+Total States Experiencing Delays
+* Participation in the program ended early.
+
+19
+98
+6
+
+14
+
+State Discretionary Goals
+EXHIBIT 7. Discretionary Goals Set by Balancing Incentive Program States
+Balancing
+Incentive
+Program State
+
+Expand Waiver
+Slots/Eliminate
+Waiver Waiting
+Lists
+
+Expand State Plan
+HCBS to Serve
+More Individuals,
+New Populations
+X
+X
+
+Expand
+Mental
+Health
+Services
+Xa
+Xc
+X
+X
+X
+
+Increase
+Rates for
+HCBS
+
+Support
+Transitions from
+Institutions to
+Community
+
+Improve
+Quality
+Measurement
+
+Other
+
+Arkansas
+Xb
+d
+Connecticut
+X
+X
+X
+Xe
+Georgia
+X
+X
+X
+Illinois
+X
+X
+X
+Xf
+Indiana*
+X
+X
+Iowa
+X
+X
+X
+Kentucky
+X
+Louisiana*
+X
+X
+Maine
+X
+Og
+Maryland
+X
+X
+X
+O
+Xh
+Massachusetts
+O
+X
+X
+Xi
+Mississippi
+X
+O
+Xj
+Missouri
+X
+O
+Nevada
+O
+New Hampshire
+Xk
+New Jersey
+X
+O
+O
+O
+O
+O
+New Yorkl
+Ohio
+X
+X
+Xm
+Pennsylvania
+X
+X
+X
+O
+X
+O
+Texasn
+Oo
+X p, Oq
+Total Number
+14
+7
+10
+8
+8
+4
+11r
+of States
+Work is underway
+12
+5
+8
+6
+6
+4
+7
+No activity yet/
+2
+2
+2
+2
+2
+0
+5
+status unknown
+NOTE: X = work on goals began before September 30, 2015. O = no evidence exists to show that work had begun on these goals as of September 30,
+2015. Blank cells indicate that the state did not have any such goal.
+* Participation in the program ended early.
+a. Planning for 1915(i) is on hold.
+b. Offering substance abuse treatment services.
+c. Slots added to 1915(c) Mental Health Waiver.
+d. Connecticut’s Department of Developmental Services conversion of intermediate care facilities for individuals with intellectual disabilities to Community
+Living Arrangements.
+e. Developed HCBS waiver case management system.
+f. Using MFP for people with mental health disabilities.
+g. Developing Olmstead Request for Proposal, establishing a Shared Living Demonstration, conducting the Personal Support Specialist Rate Study.
+h. Adding personal care services for people in group homes for people with mental health disabilities.
+i. Enhancing services for elders and individuals with autism.
+j. Mississippi is still evaluating the quality measures that will be reported from LTSS.
+k. New Hampshire intends to use the Subset of Medicaid Adult Health Quality Measures as stated in the Balancing Incentive Program manual.
+l. New York has spent most of its enhanced FMAPs for “enhancement of community services offered under waivers/managed care.” It is unclear exactly
+what has been done and how it meets these goals.
+m. Expanding the Program of All-inclusive Care for the Elderly.
+n. Texas reports having used enhanced FMAP for “service expansion,” but does not provide detail about which services have been expanded, waiver or
+State Plan.
+o. Texas reported plans to establish recovery support centers. That status of those efforts was unclear.
+p. Actively working to expand I/DD behavioral health intervention teams, using funds from MFP. Also actively working to develop I/DD managed care pilots
+and to implement “electronic life records” for people with I/DD living in state-supported living centers.
+q. Status of planned efforts to increase data sharing between Texas Department of State Health Services and homeless program is unclear.
+r. Two states had begun work on some discretionary goals, but not on others. They are counted only once in the total.
+
+In addition to the required goals, states had the opportunity to set additional goals
+of their own choosing at the time of their application. The available state-provided
+administrative reports vary in the detail provided about activities related to these goals,
+but suggest several types of activities in which states were engaged and ways in which
+
+15
+
+the enhanced funds from the Balancing Incentive Program were used. In several cases,
+the optional state goals can be understood as discretionary methods of attaining
+required goals. Optional state goals such as increasing waiver slots, implementing State
+Plan options, and funding activities to support transition from institutions to the
+community, for example, can be understood on their own, but also were strategies for
+helping to increase the share of LTSS expenditures for HCBS (Exhibit 7).
+Expand Mental Health Services
+Several states identified goals related to expanding mental health services and
+were engaged in activities toward that end. Some states were doing this through
+expanding the services offered. For example, Arkansas and Texas both were focused
+on providing support for substance abuse treatment. Maryland was adding personal
+care to services for people receiving support in group homes for people with mental
+health concerns, and Georgia was supporting a variety of plans to expand services for
+people with mental health needs (rehabilitation, home health, and targeted case
+management). Other states were engaged in similar initiatives to expand services to this
+population.
+Improve Services for People with Intellectual or Developmental Disabilities
+Two states (Illinois and Texas) indicated a focus on improving services for people
+with intellectual or developmental disabilities (I/DD) using a variety of means. Both
+states were working to increase the capacity of their adult waivers to serve people with
+I/DD in the community. Texas also was planning for a pilot test of managed LTSS for
+people with I/DD, but that program was not implemented as of September 2015.
+Other discretionary goals have no direct linkage to the required Balancing
+Incentive Program goals, but are consistent with the desired aims of the program.
+Efforts to improve access to HCBS through community health workers in rural areas
+(Arkansas), for example, may not directly link to the NWD/SEP requirement, but can
+help to achieve the desired goal of getting necessary information to the people who may
+benefit from services.
+
+Research Question 5: Did the state activities specifically address
+one or more subpopulations of individuals who need long-term
+services and supports (LTSS)? If so, did activities to increase
+access to and availability of HCBS differ for these subpopulations?
+Although states were not permitted to target the required structural changes to
+specific populations, the activities that states used to increase the share of LTSS
+expenditures for HCBS could be targeted to specific populations. At the time of their
+application, all states had indicated plans to focus efforts to increase the share of
+spending for HCBS on two or more populations, and most states (13) had plans to
+address at least four distinct populations (Wiener et al., 2015). The four populations
+16
+
+commonly addressed were adults or children with I/DD, individuals age 65 or older,
+adults younger than 65 with physical disabilities, and people with serious mental illness
+or substance use disorders (SMI/SUD). Six states had planned at baseline to focus on
+other populations as well, including people with HIV/AIDS and people with traumatic
+brain injury (TBI), as well as others (Exhibit 8).
+During the course of the Balancing Incentive Program, several states implemented
+programs or activities that targeted a subpopulation they had not identified in their
+original application. Other states did not report activities targeted to populations that
+they had identified at baseline as a focus of activities. Arkansas, for example, had
+planned to focus activities on all of the four key populations, but ultimately addressed
+only people with physical disabilities and those age 65 or older. A few states also
+focused efforts on other populations, including individuals with HIV/AIDS, people with
+TBIs, dual eligible individuals, and children. States addressing these other populations
+were as likely to adopt new waivers or State Plan options as to increase provider rates.
+States used a variety of strategies to target subpopulations. Strategies generally
+could be considered methods of increasing access to services, methods of increasing
+payment for services, or other methods. Approaches to increasing access, such as
+increasing the number of people served under existing waivers or adopting new HCBS
+waivers or State Plan options, were the most commonly used method for all
+populations.
+Twelve of the states used more than one of these strategies overall, and nine
+states used more than one strategy for a given population. For the four most commonly
+targeted populations, states were more likely to focus efforts on increasing access than
+on increasing payment. Increased access was generally accomplished by increasing
+the number of waiver slots of existing waivers or by adopting new waivers or State Plan
+options.
+EXHIBIT 8. Strategies Used to Increase HCBS Expenditures by Subpopulations
+Balancing
+Incentive
+Program State
+Arkansas
+
+Connecticut
+
+Georgia
+
+Illinois
+
+Strategy
+
+Age 65+
+
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+
+X
+
+Population
+Physical
+I/DD
+Disabilities
+X
+X
+
+X
+X
+X
+
+X
+X
+X
+
+X
+X
+
+SMI/SUD
+
+Other
+
+X
+
+X
+X
+X
+
+X
+X
+X
+
+X
+X
+X
+
+X
+X
+
+X
+
+X
+
+X
+X
+
+X
+X
+
+X
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+17
+
+X
+X
+X
+
+Total
+4
+0
+0
+2
+4
+4
+1
+0
+4
+4
+3
+0
+5
+3
+0
+5
+
+EXHIBIT 8 (continued)
+Balancing
+Incentive
+Program State
+Indiana*
+
+Iowa
+
+Kentucky
+
+Louisiana*
+
+Maine
+
+Maryland
+
+Massachusetts
+
+Mississippi
+
+Missouri
+
+Nevada
+
+New
+Hampshire
+
+New Jersey
+
+New York
+
+Ohio
+
+Pennsylvania
+
+Strategy
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+Baseline plan to target
+Increase access
+Increase payment
+Other
+
+Age 65+
+
+Population
+Physical
+I/DD
+Disabilities
+X
+X
+
+X
+
+X
+
+X
+X
+X
+
+SMI/SUD
+X
+X
+X
+X
+X
+X
+
+X
+X
+
+X
+X
+
+X
+X
+
+X
+X
+
+X
+X
+
+X
+X
+
+X
+X
+
+X
+X
+X
+
+X
+X
+X
+
+X
+
+Other
+
+X
+X
+X
+
+X
+
+X
+
+X
+X
+X
+X
+X
+
+X
+
+X
+X
+X
+X
+
+X
+
+X
+X
+
+X
+X
+X
+X
+
+X
+
+X
+X
+
+X
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+X
+
+X
+X
+X
+
+X
+
+X
+
+X
+X
+X
+
+X
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+X
+X
+
+X
+X
+X
+
+X
+X
+X
+
+X
+X
+
+X
+X
+X
+
+X
+X
+
+X
+X
+
+18
+
+X
+X
+
+X
+
+X
+X
+
+Total
+2
+2
+0
+1
+2
+2
+5
+0
+2
+2
+0
+0
+4
+3
+0
+1
+3
+3
+0
+0
+2
+3
+2
+0
+1
+0
+5
+3
+5
+5
+0
+0
+5
+2
+0
+0
+3
+0
+0
+0
+4
+1
+1
+0
+4
+3
+1
+0
+4
+0
+0
+4
+5
+4
+0
+2
+4
+3
+0
+0
+
+EXHIBIT 8 (continued)
+Balancing
+Incentive
+Program State
+Texas
+
+Strategy
+
+Age 65+
+
+Population
+Physical
+I/DD
+Disabilities
+X
+X
+X
+X
+X
+X
+
+SMI/SUD
+
+Other
+
+Total
+
+Baseline plan to target
+X
+X
+X
+5
+Increase access
+X
+3
+Increase payment
+X
+3
+Other
+X
+X
+2
+Total
+Baseline plan to target
+16
+16
+18
+16
+6
+72
+Increase access
+9
+10
+15
+8
+5
+47
+Increase payment
+5
+5
+4
+2
+5
+21
+Other
+5
+3
+3
+7
+2
+20
+NOTES: “Baseline plan to target” indicates populations that the state identified in their application as a focus for their efforts.
+Rows for “Increase access” and “Increase payment” indicate the strategies used and populations of focus for activities that
+took place from implementation through September 30, 2015. “Other” populations include people with HIV/AIDS, people with
+TBIs, and others.
+Strategies to increase access include increasing waiver slots, reducing waiting lists, or creating new waivers or State Plan
+options. Strategies to increase payment are based on increasing the payment rates to providers. Other strategies include the
+development of provider-specific grants or initiatives.
+Nevada began implementation of its Balancing Incentive Program in April 2014 and, on the basis of available documentation, did
+not appear to have undertaken any of these strategies.
+* Participation in the program ended early.
+
+Research Question 6: Did Balancing Incentive Program policies
+interact with HCBS benefit options that were established before
+Balancing Incentive Program implementation, and if so, how?
+Before implementation of the Balancing Incentive Programs, states were making
+progress toward increasing the share of LTSS provided through HCBS (Wiener et al.,
+2015). Understanding which options states have been using provides an important
+context for recognizing both the resources available to them and the level of interaction
+they may have with the Balancing Incentive Program. Before the Balancing Incentive
+Program, all participating states had at least one Section 1915(c) waiver and were
+implementing MFP initiatives. States also were engaged in a variety of other programs,
+including State Plan personal care, the 1915(i) State Plan option, the 1915(k) State Plan
+options (Community First Choice program), and Health Homes. States could use
+activities under these programs to help further the goals of the Balancing Incentive
+Program, and states could undertake activities through the Balancing Incentive Program
+that were independent of any of these other HCBS options.
+Money Follows the Person Program
+All states participating in the Balancing Incentive Program also were participating
+in the MFP program, resulting in several areas where the programs supported and built
+off of each other. Many states used Balancing Incentive Program funding to further the
+goals of their MFP programs. For example, Georgia used Balancing Incentive Program
+resources to build on an outreach plan developed under their MFP program that
+educates nursing facility staff and residents about community-based supports available
+for transitioning MFP residents. Similarly, Missouri used funds from the Balancing
+Incentive Program to train providers at nursing facilities, potential MFP participants and
+guardians, public administrators, and the judicial system on available community living
+
+19
+
+options for nursing home residents who are seeking to return to the community (Lester
+et al., 2013). Two states reported planning to use their Balancing Incentive Program
+funding to expand the MFP program to additional populations. Before ending
+participation in the Balancing Incentive Program, Indiana expanded its MFP program to
+include transitioning children and adolescents with serious and emotional disturbances
+from psychiatric residential treatment facilities into the community (Irvin et al., 2015).
+New York planned to expand its MFP program to individuals with I/DD with Balancing
+Incentive Program funding (Lester et al., 2013).
+Some states also used the MFP program to further the goals and requirements of
+the Balancing Incentive Program. In their applications to the Balancing Incentive
+Program, eight states (Connecticut, Maryland, Mississippi, Missouri, New Hampshire,
+Texas, Louisiana, and New York) referenced using MFP funds to support the initial
+costs of implementing the three required structural changes under the program. Other
+states described using MFP funds to help develop new assessment tools and train staff
+in their use. For example, Arkansas used MFP funds to pay for implementing its
+interRAI assessments, which it used to meet Balancing Incentive Program CSA
+requirements. Connecticut used MFP funds to build on its expedited system for
+determining eligibility for and enrollment into the program, expanding it from the MFP
+program to all Medicaid-funded programs. Connecticut also used MFP funds to develop
+the assessment items for the CSA required by the Balancing Incentive Program, and to
+develop an online, pre-screening assessment that individuals could use to determine
+their likely functional and financial eligibility for state HCBS. Connecticut tested the
+online pre-screen assessment with MFP participants and staff prior to implementing it
+statewide (Lester et al., 2013). Many states relied on stakeholder groups established
+through MFP to support system change activities for the Balancing Incentive Program
+(Mission Analytics, 2015a).
+1915(c) HCBS Waiver Programs
+All states had one or more Section 1915(c) HCBS waiver programs before the
+implementation of their Balancing Incentive Programs. As seen in Exhibit 2, several
+states used Balancing Incentive Program funds to increase HCBS waiver spots, reduce
+HCBS waitlists, and increase Medicaid payment rates for providers participating under
+HCBS waivers. For example, Georgia used its enhanced FMAP to fund increased
+services and additional slots for several of its 1915(c) waivers, including the New
+Options, Elderly and Disability, Comprehensive Supports, and Community-Based
+Alternatives for Youth waivers. Missouri expanded access to the Partnership for Hope
+Waiver, the Missouri Children with Developmental Disabilities Waiver, the
+Comprehensive Waiver, and the Adult Day Care Waiver. Another example of utilizing
+Section 1915(c) waiver programs to increase HCBS is Pennsylvania, which expanded
+waiver slots for seniors, adults with physical disabilities, and people with intellectual
+disabilities or autism.
+
+20
+
+1915(i) and 1915(k) (Community First Choice) State Plan Options
+Some states used the Balancing Incentive Program funding to plan and implement
+new programs, including the 1915(i) State Plan and 1915(k) State Plan options
+(Community First Choice program). At least five states (Arkansas,1 Connecticut, Iowa,
+Mississippi, and New York) used Balancing Incentive Program funding to implement
+their 1915(i) State Plan programs (Mission Analytics, 2015a). In addition, some states
+used Balancing Incentive Program funds for their Community First Choice program. For
+example, Maryland reported using Balancing Incentive Program funding to implement
+its Community First Choice program, including funding for self-direction training among
+Community First Choice participants.
+Health Homes
+Four states (Maine, Missouri, New York, and Ohio) had Health Homes before
+implementing their Balancing Incentive Program (Wiener et al., 2015). Several other
+Balancing Incentive Program states established Health Homes after implementation of
+the Balancing Incentive Program. In Iowa, the higher federal match rate of the
+Balancing Incentive Program was used to increase Medicaid payment rates by 2% for
+providers participating in Health Homes. Arkansas2 used Balancing Incentive Program
+funding to support development of its Health Homes (Mission Analytics, 2015b).
+Aging and Disability Resource Centers
+Several states reported working with Aging and Disability Resource Centers
+(ADRCs) to implement their NWD/SEP systems. Some states used funding from the
+Balancing Incentive Program to support and enhance current ADRCs. For example,
+Georgia’s Balancing Incentive Program funding was used for structural enhancements
+to the state’s ADRCs. Illinois reported that its Balancing Incentive Program funds were
+used for improving the ADRCs’ branding, including additional populations and
+strengthening relationships with stakeholder groups. In other states, the Balancing
+Incentive Program benefited from the resources of the ADRCs. In New Hampshire, for
+example, the state used the existing ADRC website and phone number to meet the
+requirements to have a designated NWD/SEP website and 1-800 telephone number.
+Several states are using ADRCs, as well as Area Agencies on Aging, for their
+NWD/SEP.
+State Innovation Model Demonstrations
+Several of the states also are participating in the State Innovation Model (SIM)
+Initiative demonstrations, which are state-led programs to test the development of
+programs to integrate funding and service delivery across payers. Illinois’ Alliance for
+Health LTSS Subcommittee, which is supported by its SIM initiative, collaborated with
+1
+2
+
+Arkansas has ended their 1915(i) State Plan program since the end of the Balancing Incentive Program.
+Arkansas has since ended its Health Homes program.
+
+21
+
+the Balancing Incentive Program stakeholder group on developing CFCM guidelines
+(Governor’s Office for Health Innovation and Transformation, 2014).
+Other Funding Sources
+Through the CMS initiative Enhanced Funding for Eligibility Enrollment Systems
+(90/10), federal Medicaid funds cover 90% of the costs of the design, development, and
+installation or enhancement of Medicaid eligibility determination systems. Both Texas
+and Connecticut used these federal matching funds to cover much of the costs of the
+NWD/SEP information technology systems to meet the requirements of the Balancing
+Incentive Program (Mission Analytics, 2015a).
+
+Research Question 7: How did the states work with stakeholders
+(e.g., LTSS providers) when implementing the Balancing Incentive
+Program?
+The changes required under the Balancing Incentive Program have the potential to
+affect many stakeholder groups, including policy makers, service providers, consumers,
+and advocates. Exhibit 9 indicates the types of stakeholders each state worked with
+while implementing the Balancing Incentive Program, and the ways in which input was
+sought from each (e.g., public meetings, requests for written public comment, advisory
+groups).
+Fifteen states had created formal advisory boards. For example, Connecticut
+convened a global communications workgroup to assist with the NWD/SEP advertising
+strategies. Ten states reported that they held meetings with stakeholder groups. Each of
+those states held meetings of providers and meetings of consumers and their
+advocates, and five also held meetings with policy makers. These meetings may have
+been conducted jointly or separately. For example, Maine reported that it had several
+focus groups through the state for providers, advocates, and consumers with mental
+health conditions to determine and better understand the barriers to access,
+information, and service for people with mental health conditions, and so to improve the
+process by which this population obtains determinations of program eligibility.
+Information about stakeholders’ interaction with the state around Balancing Incentive
+Program activities was limited in the documentary record and may be incomplete.
+Six states reported that they worked with stakeholders to test or pilot proposed
+actions or assessments for the state LTSS system. Most (five) of those states used
+consumers to test proposed systems, and three also sought assistance from providers.
+For example, Connecticut reported in its progress reports that it tested its Level I screen
+for its assessment with consumers to make sure that the screen was simple enough for
+consumers to complete it and be appropriately routed. Only one state (Arkansas)
+reported engaging stakeholders through requests for written comments.
+
+22
+
+EXHIBIT 9. Stakeholders Who Provided Input on Balancing Incentive Program Implementation
+Balancing
+Incentive
+Program State
+Arkansas
+
+Connecticut
+
+Georgia
+
+Illinois
+
+Indiana*
+
+Iowa
+
+Kentucky
+
+Louisiana*
+
+Maine
+
+Maryland
+
+Massachusetts
+
+Mississippi
+
+Missouri
+
+Nevada
+
+New Hampshire
+
+New Jersey
+
+New York
+
+Ohio
+
+Pennsylvania
+
+Texas
+
+Type of Input
+Stakeholder Group
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+Providers
+Policy makers
+Consumers/advocates
+
+Advisory
+Board
+X
+
+Meetings
+X
+X
+X
+X
+
+X
+
+Pilot Test
+
+X
+
+X
+X
+
+X
+
+X
+X
+X
+X
+X
+X
+a
+
+X
+X
+X
+X
+
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+b
+
+X
+X
+X
+X
+X
+X
+
+X
+X
+X
+X
+X
+X
+
+X
+X
+
+X
+
+X
+X
+
+X
+
+X
+
+X
+X
+
+X
+
+X
+
+X
+X
+X
+
+23
+
+Written
+Comment
+
+X
+
+Total
+2
+1
+4
+1
+1
+2
+1
+1
+1
+1
+1
+1
+0
+0
+0
+1
+1
+1
+1
+0
+0
+1
+1
+1
+1
+1
+1
+1
+0
+1
+0
+1
+1
+1
+1
+1
+1
+0
+1
+1
+0
+0
+2
+1
+2
+1
+1
+2
+0
+1
+0
+3
+0
+3
+1
+0
+0
+1
+1
+1
+
+EXHIBIT 9 (continued)
+Balancing
+Incentive
+Program State
+Total States
+
+Type of Input
+Stakeholder Group
+c
+
+Advisory
+Board
+d
+15
+9
+8
+8
+
+Meetings
+e
+
+Pilot Test
+
+Written
+Comment
+1
+0
+0
+1
+
+Total
+
+6
+19
+Any stakeholders
+10
+f
+Providers
+9
+3
+17
+f
+Policy makers
+5
+0
+13
+f
+Consumers/advocates
+9
+5
+15
+* Participation in the program ended early.
+a. Indiana had an advisory board, but its composition is unknown so none of the specific stakeholder groups are indicated in the
+table.
+b. Mississippi had stakeholder meetings, but it is unclear which specific stakeholder groups were included. Therefore, no groups
+are indicated in the table.
+c. The total number of states across all stakeholders may not equal the sum of states by stakeholder group, as states may have
+used the same method with more than one stakeholder group.
+d. The total number of states with an advisory board includes Indiana, which was known to have a stakeholder group of
+unspecified membership.
+e. The total number of states that held meetings includes Mississippi which held stakeholder meetings, with the types of
+stakeholders involved being unspecified.
+f. The total number of states reports those states seeking any input from a provider group. The total number may not equal the
+sum of states across type of input, as states may have sought multiple types of input from any provider group.
+
+24
+
+4. DISCUSSION
+The Balancing Incentive Program established by the ACA was designed to help
+states provide a greater share of LTSS through HCBS while improving the LTSS
+infrastructure to create a more consumer-friendly, consistent, and equitable system.
+This report describes the processes used by the participating states to work toward
+these goals. Findings from this process evaluation indicate the following:
+States engaged in a wide range of activities to achieve the required
+expenditure and infrastructure goals. States continued activities that they began
+before the Balancing Incentive Program and also implemented new activities to reach
+the required goals. Activities include those that are designed to better serve people who
+were receiving HCBS before the Balancing Incentive Program and others that are
+designed to expand services to people who were not previously receiving HCBS.
+States combined activities and funding from a range of Medicaid programs
+to achieve the goals of the Balancing Incentive Programs and the goals of these
+other programs. All states used MFP and 1915(c) waivers to help achieve the
+expenditure goals of the Balancing Incentive Program. States also used other Medicaid
+programs, such as State Plan options and 1115 demonstration programs, to help
+increase the use of HCBS. Enhanced matching funds generated from the Balancing
+Incentive Program also helped to support these other programs by such means as
+increasing waiver slots, reducing waiting lists, and supporting the development of Health
+Homes.
+States targeted activities to different populations. Although the infrastructure
+changes were required to address all populations, activities to rebalance spending could
+be directed to specific populations. Most states addressed activities to each of the four
+key populations (people with I/DD, people with physical disabilities, people age 65 and
+older, and people with SMI/SUD), and did so in various ways. Efforts to increase access
+were more common than were strategies to increase payments.
+States made much progress toward infrastructure development, but did not
+all meet goals by September 30, 2015. Fourteen states had completed work toward
+all of the required infrastructure goals by the end of FY2015. States had made the most
+progress toward CFCM, with 19 of the 20 states being 100% complete. The CSA was
+the second most commonly completed requirement; 17-19 states had completed each
+of the individual components of the goal, and 16 states had completed all of the
+components of that goal. For the NWD/SEP goal, some states struggled with training
+staff on eligibility determination and enrollment processes (15 of 20 states completed),
+implementing processes to guide individuals through assessment and eligibility
+determination (16 of 20 states completed), and establishing a NWD/SEP website (14 of
+20 states completed).
+
+25
+
+States also made progress toward optional goals. As part of their application,
+states had the opportunity to identify optional goals. Often, these optional goals were
+also methods of achieving the required goals. For example, expanding waiver slots or
+eliminating waiting lists for waivers was an optional goal of 14 states. This activity, while
+valuable in its own right, also supported efforts to increase the share of LTSS
+expenditures for HCBS. Most optional state goals also helped to increase the share of
+LTSS expenditures for HCBS. The notable exception was a goal to improve quality
+measurement, identified by four states.
+States made significant efforts to achieve the goals of the Balancing Incentive
+Program, but were not always able to achieve these goals by the end of the
+demonstration period. CMS granted several states extensions of time to achieve the
+required goals and/or to continue spending enhanced FMAP funds received. The
+experience of those extensions is beyond the scope of this evaluation.
+The findings reported here were obtained primarily from review of states’ quarterly
+reports. Data from those reports were somewhat limited, and it is possible that states
+engaged in efforts and strategies beyond those described here. Nonetheless, these
+findings paint a picture of states that were highly engaged in rebalancing efforts and
+were employing numerous strategies to achieve the required improvements in service
+and infrastructure. Such flexibility is necessary to accommodate each state’s specific
+situation and build on each state’s strengths. The extensions granted by CMS reflect
+support for that flexibility.
+
+26
+
+REFERENCES
+Centers for Medicare and Medicaid Services. 2014. 42 CFR Part 430, 431, 435, 436, 440, 441,
+and 447. [CMS-2249-F] Medicaid Programs; State Plan Home and Community-Based
+Services, 5-0Year Period for Waivers, Provider Payment Reassignment, and Home and
+Community-Based Setting Requirements for Community First Choice and Home and
+Community-Based Services (HCBS) Waivers; Final Rule. Federal Register, January 16,
+2014.
+Governor’s Office for Health Innovation and Transformation. 2014. Alliance for Health Steering
+Committee, October 29, 2014. Available at:
+https://www2.illinois.gov/gov/healthcarereform/Documents/GOHIT/AllianceSteering%2010%2029%2014%20FINAL.pdf.
+Irvin, C.V., N. Denny-Brown, A. Bohl, J. Schurrer, W. Lim, R.S. Lester, V. Peebles. 2015. Money
+Follows the Person 2013 Annual Evaluation Report. Mathematica Policy Research.
+Available at: http://www.mathematicampr.com/~/media/publications/pdfs/health/mfp_2013_annualrpt.pdf.
+Lester, R.S., C.I. Irwin, W. Lim. 2013. Recent Developments in State Efforts to Rebalance LongTerm Services and Supports. Mathematica Policy Research. Available at:
+http://mathematica-mpr.com/~/media/publications/pdfs/health/mfpfieldrpt13.pdf.
+Mission Analytics Group. 2013. The Balancing Incentive Program: Implementation Manual.
+Available at:
+http://www.balancingincentiveprogram.org/sites/default/files/Balancing_Incentive_Program_
+Manual_2.0.pdf.
+Mission Analytics Group. 2015a. Sustaining Program-Funded Activities. Available at:
+http://www.balancingincentiveprogram.org/sites/default/files/BIP_Sustainability_3_18_15_0.
+pdf.
+Mission Analytics Group. 2015b. States’ Use of Enhanced FMAP. Available at:
+http://www.balancingincentiveprogram.org/sites/default/files/Uses_of_Enhanced_FMAP_Sta
+te_Summary_2015.v3_0.pdf.
+Wiener, J.M., S.L. Karon, M. McGinn-Shapiro, B. Lyda-McDonald, T. Thach, D. Justice, S.
+Holladay, K. Mooney, M. Sowers. 2015. Task 2 of the Evaluation of the Balancing Incentive
+Program: Descriptive Overview and Summary of Balancing Incentive Program Participating
+States at Baseline. U.S. Department of Health and Human Services, Office of the Assistant
+Secretary for Planning and Evaluation. https://aspe.hhs.gov/basic-report/descriptiveoverview-and-summary-balancing-incentive-program-participating-states-baseline.
+
+27
+
+EVALUATION OF THE BALANCING INCENTIVES PROGRAM
+Reports Available
+CASE STUDIES OF BALANCING INCENTIVE PROGRAM IMPLEMENTATION
+PROCESS
+HTML
+https://aspe.hhs.gov/basic-report/case-studies-balancing-incentiveprogram-implementation-process
+PDF
+https://aspe.hhs.gov/pdf-report/case-studies-balancing-incentive-programimplementation-process
+
+DESCRIPTIVE OVERVIEW AND SUMMARY OF BALANCING INCENTIVE
+PROGRAM PARTICIPATING STATES AT BASELINE
+HTML
+http://aspe.hhs.gov/basic-report/descriptive-overview-and-summarybalancing-incentive-program-participating-states-baseline
+PDF
+http://aspe.hhs.gov/pdf-report/descriptive-overview-and-summarybalancing-incentive-program-participating-states-baseline
+
+FINAL PROCESS EVALUATION OF THE BALANCING INCENTIVE PROGRAM
+HTML
+https://aspe.hhs.gov/basic-report/final-process-evlauation-balancingincentive-program
+PDF
+https://aspe.hhs.gov/pdf-report/final-process-evlauation-balancingincentive-program
+
+PRELIMINARY PROCESS EVALUATION OF THE BALANCING INCENTIVE
+PROGRAM
+HTML
+https://aspe.hhs.gov/basic-report/preliminary-process-evaluationbalancing-incentive-program
+PDF
+https://aspe.hhs.gov/pdf-report/preliminary-process-evaluation-balancingincentive-program
+
+To obtain a printed copy of this report, send the full report title and your mailing
+information to:
+U.S. Department of Health and Human Services
+Office of Disability, Aging and Long-Term Care Policy
+Room 424E, H.H. Humphrey Building
+200 Independence Avenue, S.W.
+Washington, D.C. 20201
+FAX: 202-401-7733
+Email: webmaster.DALTCP@hhs.gov
+NOTE: All requests must be in writing.
+
+RETURN TO:
+Office of Disability, Aging and Long-Term Care Policy (DALTCP) Home
+http://aspe.hhs.gov/office_specific/daltcp.cfm
+Assistant Secretary for Planning and Evaluation (ASPE) Home
+http://aspe.hhs.gov
+U.S. Department of Health and Human Services (HHS) Home
+http://www.hhs.gov
+
+
