@@ -41,7 +41,7 @@ These are working assumptions with their basis and range (`DEC-2026-11-10-07`), 
   - *Memo 6 B:* the state-relief line (about 73) is already in HLT-7's booked cost. What is new is the new users and the waiting lists, about $142 billion a year in 2035 (range $94-223 billion), plus any wage floor.
   - *Memo 8 C:* the states' institutional share (about 42 of its 50-90) is booked too. What is new is the care part of private-pay stays, about $25-45 billion.
   - *Memo 6 A:* the booking already moves Medicaid's home care into the plan from 2033-35, so A's match increase would matter only until then, unless health's booking is corrected.
-- **What settles it.** Two health follow-ups, flagged to the lead, will settle which basis is right: take long-term care out of the booked Medicaid line while HLT-7.07 keeps it in Medicaid, and stop repricing it at hospital and physician rate ratios. Until then both readings are shown. The choice between A and B is about whom the guarantee reaches, and the gap between them is large on either basis.
+- **What settles it.** A health follow-up now under way (branch `claude/care-hlt7-ltc`) will settle which basis is right: take long-term care out of the booked Medicaid line while HLT-7.07 keeps it in Medicaid, and stop repricing it at hospital and physician rate ratios. Until then both readings are shown. The choice between A and B is about whom the guarantee reaches, and the gap between them is large on either basis.
 
 **The basis (project arithmetic, judgment where marked).**
 - **Medicaid spending.** Medicaid long-term care was $257.0 billion in 2023 (CRS, 2025) [EV-CAR-404], 63.8% of it for home care (CMS, 2025) [EV-CAR-406]: about $164 billion for home care and $93 billion for institutions.
