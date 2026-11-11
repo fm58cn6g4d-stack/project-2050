@@ -15,7 +15,7 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 | Kind | Rows | Scored | Bills and base revenue | FY2030-39, $T |
 | --- | --- | --- | --- | --- |
 | Discretionary appropriation | 24 | 24 | 22 | 1.33 |
-| Mandatory (direct) spending | 38 | 38 | 34 | 31.88 |
+| Mandatory (direct) spending | 38 | 38 | 34 | 32.10 |
 | Revenue | 81 | 34 | 15 | -10.94 |
 | Interest-neutral transfer (self-funded) | 2 | 2 | 2 | 0 |
 | No direct budget effect | 23 | 16 | 16 | 0 |

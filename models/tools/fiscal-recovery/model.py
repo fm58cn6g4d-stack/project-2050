@@ -88,7 +88,7 @@ def fund_experiments():
         funds.P['leave_cap']=cap
         leave[str(cap)]=funds.run_leave('high')
     old=funds.HIS
-    funds.HIS=lambda y: old(y)*(.5+.35)/1.2
+    funds.HIS=lambda y: funds.HIS_H1A(y)+.5*funds.HIS_HLT6(y)
     hi_low=funds.run_hi(True)
     funds.HIS=old
     hi_cases={k:compact(v) for k,v in funds.hi.items()}

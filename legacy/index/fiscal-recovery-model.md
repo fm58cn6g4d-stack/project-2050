@@ -61,21 +61,21 @@ Delaying C19b/C20 to a three-year 2033–35 phase-in forgoes $0.400T; these rece
 
 | Case | GF primary 2030–39 ($T) | Extra net receipts needed at maturity (% GDP) | FY2040 GF gap ($B) | Total debt/GDP 2056 | FY2056 extra primary adjustment for flat debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Education reference | 22.952 | 9.314% | 4256.0 | 360.0% | 12.91% GDP |
-| Recovery: delay C19b/C20 | 23.352 | 9.314% | 4256.0 | 361.2% | 12.92% GDP |
-| Recovery downside | 24.592 | 9.622% | 4411.3 | 369.7% | 13.29% GDP |
-| Recovery plus housing/service space | 23.853 | 9.495% | 4358.4 | 365.7% | 13.13% GDP |
-| Recovery plus housing/service space downside | 25.093 | 9.803% | 4513.8 | 374.3% | 13.50% GDP |
-| Replace C19b/C20 plus housing/service space downside | 26.023 | 10.195% | 4699.2 | 383.2% | 13.95% GDP |
+| Education reference | 23.170 | 9.314% | 4256.0 | 360.6% | 12.92% GDP |
+| Recovery: delay C19b/C20 | 23.570 | 9.314% | 4256.0 | 361.7% | 12.93% GDP |
+| Recovery downside | 24.810 | 9.622% | 4411.3 | 370.3% | 13.29% GDP |
+| Recovery plus housing/service space | 24.071 | 9.495% | 4358.4 | 366.3% | 13.14% GDP |
+| Recovery plus housing/service space downside | 25.311 | 9.803% | 4513.8 | 374.9% | 13.50% GDP |
+| Replace C19b/C20 plus housing/service space downside | 26.241 | 10.195% | 4699.2 | 383.8% | 13.96% GDP |
 
 | Case | Additional net resources phased 2035–44 (% GDP at maturity) | Debt/GDP 2056 after illustrative adjustment |
 | --- | ---: | ---: |
-| Education reference | 11.41% | 146.4% |
-| Recovery: delay C19b/C20 | 11.41% | 147.4% |
-| Recovery downside | 11.74% | 149.9% |
-| Recovery plus housing/service space | 11.60% | 148.4% |
-| Recovery plus housing/service space downside | 11.93% | 151.0% |
-| Replace C19b/C20 plus housing/service space downside | 12.33% | 152.3% |
+| Education reference | 11.41% | 146.9% |
+| Recovery: delay C19b/C20 | 11.42% | 147.9% |
+| Recovery downside | 11.74% | 150.4% |
+| Recovery plus housing/service space | 11.60% | 149.0% |
+| Recovery plus housing/service space downside | 11.93% | 151.5% |
+| Replace C19b/C20 plus housing/service space downside | 12.33% | 152.9% |
 
 The second table solves for nonincreasing debt/GDP in every year 2045–56, with additional net resources phased 2035–44. These are financing requirements after any offsets and protection, not tax rates or scored receipts; SS/HI reforms are not added again. No behavior, inflation or implementation forecast is implied.
 
@@ -87,12 +87,12 @@ Average annual net benefit by quintile, dollars per household. All existing bene
 
 | FY | Q1 | Q2 | Q3 | Q4 |
 | --- | ---: | ---: | ---: | ---: |
-| 2030 | 4,976 | 3,191 | 907 | -1,910 |
-| 2031 | 5,845 | 4,079 | 1,650 | -1,368 |
-| 2032 | 6,821 | 4,787 | 1,965 | -1,538 |
-| 2033 | 7,775 | 5,557 | 2,272 | -1,773 |
-| 2034 | 8,145 | 5,720 | 2,086 | -2,356 |
-| 2035 | 7,640 | 5,055 | 1,290 | -3,410 |
+| 2030 | 5,012 | 3,235 | 944 | -1,884 |
+| 2031 | 5,934 | 4,189 | 1,744 | -1,302 |
+| 2032 | 6,931 | 4,922 | 2,080 | -1,458 |
+| 2033 | 7,893 | 5,702 | 2,396 | -1,687 |
+| 2034 | 8,273 | 5,876 | 2,219 | -2,263 |
+| 2035 | 7,672 | 5,095 | 1,324 | -3,386 |
 | 2036 | 7,729 | 5,028 | 1,113 | -3,779 |
 | 2037 | 8,026 | 5,176 | 1,060 | -4,052 |
 | 2038 | 8,259 | 5,295 | 1,041 | -4,241 |
@@ -119,7 +119,7 @@ Social Security: D8 plus SS-5, with a 0.34-point joint-interaction haircut, need
 | Medicare HI | Depletion | Model balance (% payroll) |
 | --- | --- | ---: |
 | Current law | 2034 | -0.64 |
-| With HI's program sources | 2064 | -0.04 |
-| Half HLT6 HI savings | 2042 | -0.21 |
+| With HI's program sources | 2040 | -0.37 |
+| Half HLT6 HI savings | 2039 | -0.38 |
 
 HI baseline does not reproduce the Trustees exactly; use improvement against its own baseline, not the absolute balance as certification. Transportation is modeled only to 2046: renewal coverage then does not prove 75-year solvency. The CSV [financial inventory](../sources/fiscal-recovery-inventory.csv) preserves all 148 bill/revenue/option/dynamic rows without summing alternatives. Full assumptions, annual paths and source hashes are in the [JSON](data/fiscal-recovery-model.json).

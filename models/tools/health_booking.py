@@ -18,7 +18,8 @@ What is booked (all $ billion by federal fiscal year unless noted; a cost positi
 - HLT-4 split (review F-4 item 2): long-term care and the safety-net items kept on the legacy profile; children's
   continuous coverage retired from wave 1 (January 2031), Medicaid dental and the items costed with it retired with
   Medicaid's wave-2 thirds (January 2033, 2034, 2035).
-- HLT-6, the Advantage fix at MedPAC's lower estimate, calendar 2030-34, on the blend.
+- HLT-6, the Advantage fix at MedPAC's lower estimate, calendar 2030-34, on the blend: the general fund books Part B's
+  share; Part A's share (funds-parameters.csv hi_hlt6_part_a_share) is HI's, in the funds model (care follow-up 3).
 - HLT-7, the single plan's spending line: outlays less the federal money it replaces and the states' payments
   (offsetting receipts, netted here), plus the hospital transition fund and the territories.
 - HX, the revenue from ending the employer tax exclusion, on the general fund, on CBO's convention (full pass-through).
@@ -98,6 +99,12 @@ def fiscal():
     return _load("hb_fiscal", os.path.join(HERE, "fiscal-model.py"))
 
 
+def hlt6_part_a_share():
+    """Part A's share of HLT-6's Advantage savings, credited to HI (funds-parameters.csv; care follow-up 3)."""
+    with open(os.path.join(INPUTS, "funds-parameters.csv"), newline="", encoding="utf-8") as f:
+        return float(next(r["value"] for r in csv.DictReader(f) if r["key"] == "hi_hlt6_part_a_share"))
+
+
 def perm_for(B, F, path, target2040, grow=GROW):
     """The perm that makes a years row's FY2040 equal target2040 (row_path: FY2039 x perm x growth)."""
     g = F.growth_index(B, grow)
@@ -167,7 +174,7 @@ def booking():
         "HLT-2": (0.31, r3(amt["HLT-2"]), 0.53),                                 # 0.25-0.35 upgrades + 0.06-0.18 wait
         "HLT-3": (0, 0, 0), "HLT-5": (0, 0, 0),
         "HLT-4": (r3(HLT4_LEGACY[0] * hlt4_mid / HLT4_LEGACY[1]), hlt4_mid, r3(HLT4_LEGACY[2] * hlt4_mid / HLT4_LEGACY[1])),
-        "HLT-6": (r3(amt["HLT-6"]),) * 3,
+        "HLT-6": (r3(amt["HLT-6"] * (1 - hlt6_part_a_share())),) * 3,   # Part B's share; Part A's goes to HI (funds model)
         "HLT-7": (r3(hlt7_mid - RATE_RANGE_TN[0] - 0.05 - 0.04), hlt7_mid, r3(hlt7_mid + RATE_RANGE_TN[1] + 0.05 + 0.09)),
         "HLT-8": HLT8_TN,
         "HX": (r3(amt["HX"] * (1 - HALF_PASSTHROUGH_FY2040 / hp["excl"][2040])), r3(amt["HX"]), r3(amt["HX"])),
