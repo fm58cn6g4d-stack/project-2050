@@ -8564,6 +8564,220 @@
   "checked": "2026-11-11"
  },
  {
+  "id": "EV-CAR-452",
+  "statement": "CBO estimates that adding a long-term services and supports benefit to an otherwise identical single-payer option (CBO's fifth option against its fourth) would raise federal subsidies for health care from $5,217 billion to $5,816 billion, $599 billion or 11 percent more, and national health expenditures by $333 billion; about two-fifths of the federal increase replaces state and out-of-pocket long-term care spending, and the added demand is entirely for home and community-based services.",
+  "claim": "analysis",
+  "figures": [
+   "$5,217 billion",
+   "$5,816 billion",
+   "$599 billion",
+   "11 percent",
+   "$333 billion"
+  ],
+  "source": "SRC-3387",
+  "anchor": [
+   "Federal Subsidies for Health Care (Billions of dollars) | 5,217 | 5,816 | 599 | 11 |",
+   "National Health Expenditures (Billions of dollars) | 6,589 | 6,922 | 333 | 5 |",
+   "About two-fifths of that increase would result because federal spending would replace state and out-of-pocket spending on long-term services and supports that would have occurred under current law.",
+   "The additional demand for LTSS under that option would be entirely for home- and community-based services (rather than for institutional care), CBO estimates."
+  ],
+  "locator": "Section 1, Exhibit 1-4 and the text beside it",
+  "grade": "B",
+  "fact_date": "2020-12",
+  "recheck": "2027-11-11",
+  "context": "CBO (nonpartisan), Working Paper 2020-08, December 2020; illustrative options for the year 2030, not a score of a bill. Option 5 differs from option 4 only by the LTSS benefit. Exhibit row quoted as label and cells. Read from a third-party copy of CBO's PDF because cbo.gov blocks automated downloads.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-483",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-453",
+  "statement": "CBO's single-payer option 5 specifies a long-term care benefit for anyone with one or more limitations in activities of daily living or instrumental activities of daily living, covering institutional and home care, without regard to income or assets, without cost sharing and without explicit limits on quantity or cost; Medicaid would cease to exist.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3387",
+  "anchor": [
+   "CBO specified a broad LTSS benefit that would be available to anyone who had one or more limitations to either activities of daily living or instrumental activities of daily living.",
+   "In the single-payer option with LTSS coverage, benefits would be available without regard to people's income or assets and without cost sharing.",
+   "There would not be explicit limits on the quantity or costs of LTSS that people could use.",
+   "Under Option 5, whose single-payer system includes an LTSS benefit, Medicaid would cease to exist."
+  ],
+  "locator": "Section 2, Covered services and Changes in the role of existing programs",
+  "grade": "A",
+  "fact_date": "2020-12",
+  "recheck": "2027-11-11",
+  "context": "CBO's specification of its own illustrative option (a fact about the option, so data). Its threshold is broader than memo 7 A's two daily activities, and it has no cost sharing or budget limits, so it is an upper check on memo 6 B.",
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-454",
+  "statement": "Milliman's actuarial modeling for ASPE estimates the WISH Act could require a 2.2% payroll surtax over 2023-2097, and 4.7% beyond 75 years, without crediting Medicaid savings; two one-year front-end alternatives would need 0.4% to 0.6%.",
+  "claim": "analysis",
+  "figures": [
+   "2.2%",
+   "4.7%",
+   "0.4%",
+   "0.6%"
+  ],
+  "source": "SRC-3388",
+  "anchor": [
+   "We estimate the WISH Act could require a 2.2% payroll surtax rate over the 75-year period 2023 through 2097 under baseline assumptions in this report.",
+   "we expect a higher tax rate of 4.7% could be required, once the population receiving benefits has stabilized.",
+   "The payroll tax rates in this section do not reflect any assumed savings or reductions in other public programs such as Medicaid.",
+   "the estimated payroll tax associated with these plans ranges from 0.4% to 0.6%."
+  ],
+  "locator": "Section III, WISH Act modeling; front-end alternatives (Figure 24)",
+  "grade": "C",
+  "fact_date": "2025-01",
+  "recheck": "2027-11-11",
+  "context": "ASPE (HHS) report under the Biden administration, by RTI with Milliman, submitted September 2024. The introduced WISH Act names a 0.6% tax; the actuaries find more is needed. Feasibility estimates, not a rate recommendation; the actuaries call results highly sensitive to assumptions.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-455",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-455",
+  "statement": "An Oliver Wyman, GCG Consulting and ARC analysis finds the current WISH Act proposal would require a 1.7% payroll tax over the next 75 years, and that its benefits could offset up to 25% of future Medicaid long-term care spending once mature.",
+  "claim": "analysis",
+  "figures": [
+   "1.7%",
+   "25%"
+  ],
+  "source": "SRC-3389",
+  "anchor": [
+   "The current WISH Act proposal would require a 1.7% payroll tax to fund over the next 75 years.",
+   "The report estimates WISH Act benefits could offset up to 25% of future Medicaid LTSS spending once the program matures and covers a large portion of the population."
+  ],
+  "locator": "News post, key findings",
+  "grade": "D",
+  "fact_date": "2026-07",
+  "recheck": "2027-07-31",
+  "context": "Announcement by one of the three actuarial firms; the full report was not located. Funded by the insurers Genworth Financial and Nationwide Financial (SRC-3390), which sell long-term care products, so it carries their stake. Independent of the Milliman modeling (EV-CAR-454), which it broadly matches.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-454",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-456",
+  "statement": "Howard Gleckman reports that a team of actuarial firms estimated early versions of the WISH Act would cost about $200 billion, equal to a payroll tax rate of 1.7%, in work funded by Genworth Financial and Nationwide Financial.",
+  "claim": "analysis",
+  "figures": [
+   "$200 billion",
+   "1.7%"
+  ],
+  "source": "SRC-3390",
+  "anchor": [
+   "a team of actuarial firms estimated early versions of that bill would cost about $200 billion, equal to a payroll tax rate of 1.7%.",
+   "It was funded by insurance companies Genworth Financial and Nationwide Financial."
+  ],
+  "locator": "Paragraphs 3-5",
+  "grade": "D",
+  "fact_date": "2026-07",
+  "recheck": "2027-07-31",
+  "context": "Journalist's report of EV-CAR-455's study; the $200 billion is not said to be a single year's cost. Gleckman discloses an unpaid advisory role on WISH's financing.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-454",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-457",
+  "statement": "Japan's 2005 long-term care insurance reform introduced 'hotel' and meal charges for nursing home residents and new preventive benefits.",
+  "claim": "data",
+  "figures": [
+   "2005"
+  ],
+  "source": "SRC-3391",
+  "anchor": [
+   "Japan's Universal Long-Term Care System Reform of 2005",
+   "The reform involves introduction of two major elements: 'hotel' and meal charges for nursing home residents and new preventive benefits."
+  ],
+  "locator": "Title and abstract",
+  "grade": "B",
+  "fact_date": "2007",
+  "recheck": "2027-11-11",
+  "context": "Ikegami (Keio University), peer-reviewed, 2007. The primary text is MHLW's 2005 notice (EV-CAR-458).",
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-458",
+  "statement": "Japan's health ministry announced in 2005 that residence and meal costs in long-term care insurance services would no longer be insurance benefits and would in principle be paid by users, as for people living at home.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3392",
+  "anchor": [
+   "介護保険サービスにおいては、「居住費」や「食費」は、保険給付の対象外となり、在宅の場合と同じように、利用者の方にお支払いいただくことが原則となります。"
+  ],
+  "locator": "Section on facility benefits (居住費・食費の見直し)",
+  "grade": "A",
+  "fact_date": "2005-08",
+  "recheck": "2027-11-11",
+  "context": "Ministry of Health, Labour and Welfare (Japan), in Japanese; translated by the project. Low-income residents pay capped amounts with a supplementary benefit (補足給付). Effective October 2005.",
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
+  "id": "EV-CAR-459",
+  "statement": "Washington voters rejected Initiative 2124, which would have made WA Cares optional, in November 2024: 2,077,216 No (55.46%) to 1,668,435 Yes (44.54%).",
+  "claim": "data",
+  "figures": [
+   "2,077,216",
+   "55.46%",
+   "1,668,435",
+   "44.54%"
+  ],
+  "source": "SRC-3393",
+  "anchor": [
+   "Initiative Measure No. 2124",
+   "Yes | 1,668,435 | 44.54%",
+   "No | 2,077,216 | 55.46%"
+  ],
+  "locator": "Statewide measures table, Initiative Measure No. 2124",
+  "grade": "A",
+  "fact_date": "2024-11",
+  "recheck": "2027-11-11",
+  "context": "Washington Secretary of State results page, last updated November 26, 2024. Table rows quoted as label and cells.",
+  "supports": [
+   "dossiers/care/2b-what-works-home-care.md"
+  ],
+  "checked": "2026-11-11"
+ },
+ {
   "id": "EV-CAR-460",
   "statement": "CMS's National Health Expenditure Accounts (levels in millions of dollars, calendar year 2024) put Medicaid (Title XIX) spending at 931692, of which 78939 on nursing care facilities and continuing care retirement communities, 38189 on home health care and 199841 on other health, residential and personal care; the federal government paid 49523, 22631 and 119215 of those three lines, and states and localities 29416, 15558 and 80626.",
   "claim": "data",
@@ -8660,6 +8874,29 @@
    "models/tools/health-coverage/MODEL-CARD.md",
    "dossiers/care/6-cost.md"
   ]
+ },
+ {
+  "id": "EV-CAR-463",
+  "statement": "HHS's inspector general found that in FY 2015 fraud cases involving personal care providers or attendants were 12 percent of Medicaid Fraud Control Unit investigations, and from FY 2012 through FY 2015, 38 percent of indictments and 34 percent of convictions.",
+  "claim": "data",
+  "figures": [
+   "12 percent",
+   "38 percent",
+   "34 percent"
+  ],
+  "source": "SRC-3394",
+  "anchor": [
+   "In FY 2015, fraud cases involving PCS providers or attendants constituted 12 percent of total investigations. From FY 2012 through FY 2015, fraud cases involving PCS providers or attendants constituted 38 percent of indictments and 34 percent of convictions."
+  ],
+  "locator": "What we found",
+  "grade": "B",
+  "fact_date": "2017-12",
+  "recheck": "2027-11-11",
+  "context": "HHS Office of Inspector General, OEI-12-16-00500, December 2017. Enforcement counts, not a rate of improper payment; the inspector general concludes personal care remains vulnerable to fraud and needs more oversight.",
+  "supports": [
+   "dossiers/care/memos/9-family-caregivers.md"
+  ],
+  "checked": "2026-11-11"
  },
  {
   "id": "EV-CAR-470",
