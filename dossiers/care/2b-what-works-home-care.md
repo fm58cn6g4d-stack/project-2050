@@ -67,7 +67,7 @@ On CRS's 2023 figures, the United States spends about $460 billion a year on lon
 1. Who is guaranteed care at home, and through which program: a stronger Medicaid, a federal benefit in the single plan, or catastrophic insurance.
 2. How much the benefit covers and who qualifies: the need threshold, and full assessed need, set budgets by need tier, or a basic allowance.
 3. Whether nursing-home and other institutional care stay in Medicaid, as S. 1506 and health's working position have it, or join the plan, in whole or for the care part.
-4. How the benefit treats family caregivers: paid through self-direction, a cash option, services only, or a tax credit.
+4. How the benefit treats family caregivers: paid through self-direction nationally, today's state options kept while a national evaluation runs, a cash option, services only, or a tax credit.
 
 The bridge from 2029 to the endpoint, Money Follows the Person, estate recovery and the seams with housing and the workforce are narrower points for section 3's yes-or-no list.
 
