@@ -13,23 +13,26 @@ most direct care jobs are part-time.
 """
 
 # ---------- Home care: part B, memo 6 B (recommended, not decided) ----------
-# New users and their paid cost: part B's own working assumption (3b-design-home-care.md, "What the options
-# cost"): 3-5 million new users at $12,000-20,000 a year in 2022 dollars; waiting lists of about 650,000
-# people (EV-HOU-691) at Medicaid's 2022 cost per home-care user, about $16,600 (EV-CAR-407).
-NEW_USERS = (3.0e6, 4.0e6, 5.0e6)
-COST_PER_NEW_USER = (12_000, 16_000, 20_000)
-WAITLIST = 650_000
-COST_PER_MEDICAID_USER = 16_600
-# Cost per paid hour of agency or self-directed care, 2022 dollars (judgment): the aide median wage of
-# $35,800 a year in 2025 (EV-CAR-422), about $17.20 an hour, over part B's labor share of about 60%,
-# deflated to 2022, is about $26; agencies' overhead and benefits put it nearer $30. Range $26-36.
-COST_PER_HOUR = (36.0, 30.0, 26.0)  # ordered so that the low reading uses the high cost
+# Part B's working assumptions as revised after its audit (3b-design-home-care.md, "What the options
+# cost", #244): 5-8 million new users in 2035 (central 6.5 million), waiting lists included, at
+# $28,000-66,000 each in 2035 dollars (central $42,000), about $275 billion; plus richer tier budgets for
+# today's Medicaid users, about $30 billion (range $15-45 billion). The same figures set memo 14's base.
+NEW_USERS = (5.0e6, 6.5e6, 8.0e6)
+COST_PER_NEW_USER = (28_000, 42_000, 66_000)
+RICHER_BUDGETS = (15e9, 30e9, 45e9)
+# Cost per paid hour of agency or self-directed care in 2035 dollars (judgment): the aide median wage of
+# $35,800 a year in 2025 (EV-CAR-422), about $17.20 an hour, over part B's labor share of about 60%, with
+# overhead and benefits, is about $30 in 2022 dollars ($26-36), grown with wages at part B's 4% a year:
+# about $50 in 2035, range $43-60.
+COST_PER_HOUR = (60.0, 50.0, 43.0)  # ordered so that the low reading uses the high cost
 # Hours a direct care worker is paid in a year (judgment; most work part-time). Range 1,200-1,700.
 HOURS_PER_WORKER = (1_700, 1_400, 1_200)
-# Share of the new paid hours given by relatives already caring unpaid, under memo 9 A (judgment, from
-# Cash and Counseling, where most hires were relatives, EV-CAR-488). They are counted as workers but are
-# not new recruits to the labor market.
-FAMILY_SHARE = (0.5, 0.4, 0.3)
+# Share of the new paid hours given by relatives already caring unpaid (judgment). They count as workers
+# but are not new recruits. Under part B's recommended memo 9 E, relatives are paid where states allow it
+# now (California counties estimate 70% of IHSS recipients hire family, EV-CAR-494), so 20-40%; under
+# memo 9 A, a national right to paid family care, 30-50% (Cash and Counseling, EV-CAR-488).
+FAMILY_SHARE = (0.4, 0.3, 0.2)        # memo 9 E (recommended)
+FAMILY_SHARE_9A = (0.5, 0.4, 0.3)
 
 # ---------- Child care and pre-K: part C, memos 10 B and 11 A (recommended, not decided) ----------
 # Under-3 children in paid care under memo 10 B: about 4.5 million full-time equivalents, range 3.5-6.0
@@ -63,16 +66,15 @@ RN_HIRES_2024_RULE = 16_000  # CMS's own estimate (89 FR 40876, regulatory impac
 # The payroll a floor raises is the publicly paid home care that pays for hours of work. In 2035, under
 # memo 6 B, that is today's Medicaid home care (about $164 billion in 2023, EV-CAR-404, EV-CAR-406, federal
 # and state money together) grown 5.5% a year (part B's working assumption), plus the parts of memo 6 B's
-# new money that buy new hours: waiting lists served (about $22 billion) and new users (about $120
-# billion). Memo 6 B's other part, relief of states' home-care share net of maintenance of effort (about
-# $73 billion), moves state money already inside the Medicaid line onto the federal side and buys no new
-# hours, so it is not added (review of PR #242). Part B's own 20% placeholder, about $55 billion on about
-# 60% labor, implies the same base, about $458 billion. Under memo 6 B the plan pays the whole benefit and
-# states' maintenance of effort is a fixed amount, so a raise falls on federal money; under memo 6 A states
-# would pay about 47% of it (EV-CAR-448).
+# new money that buy hours: richer budgets for today's users (about $30 billion) and new users, waiting
+# lists included (about $275 billion), per part B as revised (#244). Memo 6 B's other part, relief of
+# states' home-care share net of maintenance of effort (about $73 billion), moves state money already inside
+# the Medicaid line onto the federal side and buys no new hours, so it is not added (review of PR #242).
+# Under memo 6 B the plan pays the whole benefit and states' maintenance of effort is a fixed amount, so a
+# raise falls on federal money; under memo 6 A states would pay about 47% of it (EV-CAR-448).
 MEDICAID_HOME_2023 = 164e9
 GROWTH = 1.055
-NEW_HOURS_MONEY_2035 = 22e9 + 120e9   # part B memo 6 B: waiting lists and new users (3b-design-home-care.md)
+NEW_HOURS_MONEY_2035 = 30e9 + 275e9   # part B memo 6 B as revised: richer budgets and new users (3b)
 LABOR_SHARE = 0.6
 # Average payroll increase a floor causes, by level in 2026 dollars (judgment; section 3d): $18, $20, $22.50.
 LEVELS = {'$18': 0.05, '$20': 0.12, '$22.50': 0.25}
@@ -91,9 +93,10 @@ def fmt(x):
 
 
 def main():
-    home = three(lambda i: (NEW_USERS[i] * COST_PER_NEW_USER[i] + WAITLIST * COST_PER_MEDICAID_USER)
+    home = three(lambda i: (NEW_USERS[i] * COST_PER_NEW_USER[i] + RICHER_BUDGETS[i])
                  / COST_PER_HOUR[i] / HOURS_PER_WORKER[i])
     home_recruits = three(lambda i: home[i] * (1 - FAMILY_SHARE[i]))
+    home_recruits_9a = three(lambda i: home[i] * (1 - FAMILY_SHARE_9A[i]))
     under3 = three(lambda i: UNDER3_ADDED[i] / UNDER3_PER_STAFF[i])
     prek = three(lambda i: PREK_ADDED_CHILDREN * PREK_NEW_STAFF_SHARE[i] / PREK_PER_STAFF)
     child = three(lambda i: under3[i] + prek[i])
@@ -101,7 +104,8 @@ def main():
     md = three(lambda i: PHYSICIANS * HEALTH_EXTRA_DEMAND[i])
     print('Added paid care workers at maturity (low, central, high)')
     print('  home care, memo 6 B (workers):          ', ', '.join(fmt(x) for x in home))
-    print('    of whom new recruits (not relatives): ', ', '.join(fmt(x) for x in home_recruits))
+    print('    of whom new recruits, memo 9 E:       ', ', '.join(fmt(x) for x in home_recruits))
+    print('    of whom new recruits, memo 9 A:       ', ', '.join(fmt(x) for x in home_recruits_9a))
     print('  child care under 3, memo 10 B:           ', ', '.join(fmt(x) for x in under3))
     print('  pre-K, memo 11 A:                        ', ', '.join(fmt(x) for x in prek))
     print('  child care and pre-K together:           ', ', '.join(fmt(x) for x in child))
