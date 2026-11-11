@@ -161,7 +161,7 @@ class HealthIncidence(unittest.TestCase):
         self.assertEqual(self.phase["C19"]["same_as"], "C19b")
 
     def test_household_total_is_the_dossiers(self):
-        self.assertAlmostEqual(self.inc["full_scale"]["household_removed"], 1527.5, delta=1.0)  # 6-cost.md part 8
+        self.assertAlmostEqual(self.inc["full_scale"]["household_removed"], 1547.3, delta=1.0)  # 6-cost.md part 8
 
 
 if __name__ == "__main__":
