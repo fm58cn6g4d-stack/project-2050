@@ -201,7 +201,7 @@ The workflow is `models/tools/budget/WORKFLOW.md` (PR #104, awaiting Espen). Wor
 ## Questions for Espen
 
 0k. **Care part B, care at home for all ages: one batch, each decided on its own** (`dossiers/care/3b-design-home-care.md`; memos 6-9 in `dossiers/care/memos/`). Asked November 11, 2026.
-   1. Memo 6: guarantee care at home through an all-age home and community care benefit in the single plan from January 1, 2035, with no asset test (B, recommended; about $215 billion a year of new federal money in 2035 against current law, range $125-370 billion; about $142 billion against health's booking, which already prices today's Medicaid long-term care into the plan), a stronger Medicaid (A), or catastrophic insurance (C)?
+   1. Memo 6: guarantee care at home through an all-age home and community care benefit in the single plan from January 1, 2035, with no asset test (B, recommended; about $215 billion a year of new federal money in 2035 against current law, range $125-370 billion; health's booking now matches this basis after the long-term care fix in #237), a stronger Medicaid (A), or catastrophic insurance (C)?
    2. Memo 7, part 1: qualify people who need help with two daily activities or the equivalent (A, recommended), one (B) or three (C)?
    3. Memo 7, part 2: pay set budgets by need tier, indexed, with the top tier at nursing-home level (B, recommended), full assessed need (A) or a basic allowance (C)?
    4. Memo 8: from 2035 the plan pays the care part of nursing-home stays and residents pay room and board from income above a protected allowance (C, recommended; about $50-90 billion a year), or keep it in Medicaid (A), Medicaid with protections (B), or the plan pays all (D)?
