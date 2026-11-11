@@ -69,7 +69,7 @@ Memo 1 B with the endpoint in law, decided (`DEC-2026-11-10-09`), with the endpo
 
 | ID | Provision | Key parameters | Agency | Evidence |
 | --- | --- | --- | --- | --- |
-| HLT-7.10 | Hospital rates on a five-year glide path to about 1.15 times Medicare (decided, memo 5 B and protection 3) | In 2031 the plan's hospital conversion factor pays, on average, today's all-payer average hospital rate (about 1.25 times Medicare on the coverage model's inputs; project arithmetic); it falls in five equal steps to about 1.15 times Medicare in 2036; the target by service is set by rule (working figure 1.15) | HHS (CMS) | EV-CAR-131, EV-CAR-220, EV-CAR-259 |
+| HLT-7.10 | Hospital rates on a five-year glide path to about 1.15 times Medicare (decided, memo 5 B and protection 3) | In 2031 the plan's hospital conversion factor pays, on average, today's all-payer average hospital rate (about 1.20 times Medicare on CMS's hospital spending by payer; project arithmetic, EV-CAR-461); it falls in five equal steps to about 1.15 times Medicare in 2036; the target by service is set by rule (working figure 1.15) | HHS (CMS) | EV-CAR-131, EV-CAR-220, EV-CAR-259 |
 | HLT-7.11 | Global budgets for rural, critical-access and safety-net hospitals (decided, memo 5 B) | A fixed yearly budget, set from the hospital's prior net patient revenue and indexed, with a volume corridor, on Maryland's model; eligible: critical-access and sole-community hospitals, hospitals in areas under the plan's rural test (the housing dossier's one rural test, up to 35,000 people, `DEC-2026-11-10-02`), and safety-net hospitals (top quarter by share of Medicaid and uninsured patient days); during and after the glide. Scale: about 2,176 of 4,306 acute-care hospitals were rural in a 2020 count, 1,334 of them critical access (Sheps Center, 2020), and MedPAC counted about 1,370 critical access hospitals in FY2024 | HHS (CMS) | EV-CAR-259, EV-CAR-261, EV-CAR-333, EV-CAR-334 |
 | HLT-7.12 | Physicians and other clinicians at Medicare's fee schedule, with primary-care and rural add-ons (decided, memo 5 B) | Medicare's fee schedule from 2031; a primary-care add-on and a rural and shortage-area add-on (working figure: 10% each, on Medicare's shortage-area bonus); no glide | HHS (CMS) | EV-CAR-220 |
 | HLT-7.13 | Drug prices: negotiated for all drugs, a fallback price, a formulary (decided, memo 5 B; the fallback and formulary adopted from the S. 1506 comparison) | Annual negotiation for every covered drug (HLT-6.02); if no agreement is reached, the price is the lowest of the VA's price and Medicaid's best price (the fallback in S. 1506 sec. 1012(d)); a national formulary that favors generics and biosimilars | HHS (CMS); VA (price data) | EV-CAR-220, EV-CAR-285, EV-CAR-315 |
@@ -188,7 +188,7 @@ Every decided amount and date, and where it appears. Search the dossier for an o
 | Endpoint | January 1, 2035 | HLT-7.03, 7.14, 7.23, 7.25, 7.26; sections 5, 6; README; `3-design.md` and memos 1-2 status lines (via `DEC-2026-11-10-11`) |
 | Wave 1 | January 1, 2031: uninsured, individual market, children under 19, Medicare at 60 | HLT-7.03, HLT-2.04; sections 5, 6 |
 | Wave 2 | 2033-35, Medicaid and employer groups, a third each January (working choice) | HLT-7.03; sections 5, 6 |
-| Hospital rate | 1.25 times Medicare in 2031 (all-payer average, project arithmetic) to about 1.15 in 2036 | HLT-7.10; section 6 |
+| Hospital rate | 1.20 times Medicare in 2031 (all-payer average, project arithmetic) to about 1.15 in 2036 | HLT-7.10; section 6 |
 | Copay line and cap | 200% of poverty; $1,000 a person (working figure) | HLT-7.06; section 6 |
 | Employer contribution | About 65% of base-year employer premium contributions (working figure; settlement sets it) | HLT-7.18; section 6 |
 | State payment | Half of own Medicaid spending for movers (working figure; range 0-80%); a direct obligation on the Part D clawback model, collected by offset; hold harmless if it fails | HLT-7.17, 7.28; sections 5, 6, 8 |
@@ -196,7 +196,7 @@ Every decided amount and date, and where it appears. Search the dossier for an o
 | Advantage savings | 14%, about $76 billion in 2026 (MedPAC) | HLT-6.01; section 6 |
 | USDA rural health | $3-5 billion a year lending; $200-500 million grants | HLT-8.01; section 6 |
 | Hospital transition fund | $100 billion over FY2033-38 (range $50-150 billion), decided (`DEC-2026-11-10-13`) | HLT-7.15; section 6 |
-| Net federal cost | About $24.6 trillion FY2030-39 on the model's fiscal-year path before the employer contribution (about $24.7 trillion with the items outside it; about $19.2 trillion with the contribution at 65%); about $4.7 trillion in FY2040 ($4,680 billion) | Sections 4, 6, 7; README |
+| Net federal cost | About $21.7 trillion FY2030-39 on the model's fiscal-year path before the employer contribution (about $21.9 trillion with the items outside it; about $16.4 trillion with the contribution at 65%); about $4.2 trillion in FY2040 ($4,157 billion); Medicaid's long-term care stays in Medicaid (board row D-4c) | Sections 4, 6, 7; README |
 
 ## Evidence still needed
 

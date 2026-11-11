@@ -18,7 +18,7 @@ We pay more and get less. The country spent $5.3 trillion on health care in 2024
 
 **What you get.** Hospital, doctor, prescriptions, mental health and addiction care, maternity, reproductive care including abortion, dental, vision and hearing. No premiums, no deductibles, no networks. No charge at all for primary care, prevention, maternity, mental health or chronic-condition drugs, and none for anyone under twice the poverty line. Above that, small copays for other care, capped at about $1,000 a year on our working figure.
 
-**How it's paid for.** On our estimates, at full scale, households would stop paying about $1.5 trillion a year in premiums and out-of-pocket costs and employers about $1.5 trillion in premiums, while the country spends about $200 billion less on health care in all. The money already in the system keeps flowing: Medicare's taxes, federal Medicaid money, a share from states, and a contribution from employers until a new payroll contribution replaces it. New taxes fill the rest, set in the plan's financing settlement, which is designed so that households below the top come out ahead. The new taxes would be large: on our estimates about $2.4 trillion a year at full scale, in 2032 terms (about $3.6 trillion in FY2040, in that year's dollars). That is on top of the employers' contribution, which runs until the settlement's payroll contribution replaces it, and the income and payroll tax on the former premiums that become wages.
+**How it's paid for.** On our estimates, at full scale, households would stop paying about $1.5 trillion a year in premiums and out-of-pocket costs and employers about $1.5 trillion in premiums, while the country spends about $500 billion less on health care in all. The money already in the system keeps flowing: Medicare's taxes, federal Medicaid money, a share from states, and a contribution from employers until a new payroll contribution replaces it. New taxes fill the rest, set in the plan's financing settlement, which is designed so that households below the top come out ahead. The new taxes would be large: on our estimates about $2.0 trillion a year at full scale, in 2032 terms (about $3.1 trillion in FY2040, in that year's dollars). That is on top of the employers' contribution, which runs until the settlement's payroll contribution replaces it, and the income and payroll tax on the former premiums that become wages.
 
 **What it protects.** No one loses coverage before the new plan covers them. Workers in insurance and billing get pay, training and first claim on the plan's jobs. Rural and safety-net hospitals get fixed yearly budgets, and a capped transition fund helps hospitals that lose revenue from 2033 to 2038, rural, safety-net and sole-community hospitals first. Veterans keep VA care, military families keep TRICARE, and Native Americans keep the Indian Health Service, and all of them can also use the plan.
 
@@ -37,7 +37,7 @@ Americans pay the most in the world for health care and still go without it. By 
 
 ## Hard questions, plain answers
 
-**Will my taxes go up?** Yes, for most people, but premiums, deductibles and copays go away or mostly away. On our estimates the new taxes come to about $2.4 trillion a year at full scale (2032 terms), on top of the employers' contribution and the tax on former premiums that become wages. Households would stop paying about $1.5 trillion a year in premiums and out-of-pocket costs, and employers about $1.5 trillion in premiums. The financing settlement sets the taxes; its rule is that households below the top come out ahead. That is a design target, not yet a result: it holds only once the settlement's taxes are set.
+**Will my taxes go up?** Yes, for most people, but premiums, deductibles and copays go away or mostly away. On our estimates the new taxes come to about $2.0 trillion a year at full scale (2032 terms), on top of the employers' contribution and the tax on former premiums that become wages. Households would stop paying about $1.5 trillion a year in premiums and out-of-pocket costs, and employers about $1.5 trillion in premiums. The financing settlement sets the taxes; its rule is that households below the top come out ahead. That is a design target, not yet a result: it holds only once the settlement's taxes are set.
 
 **Can I keep my plan?** Your job-based plan continues until your employer's group moves, between 2033 and 2035. After January 1, 2035, private insurance can cover extras the plan doesn't, but not the same care.
 
@@ -61,12 +61,12 @@ Americans pay the most in the world for health care and still go without it. By 
 | --- | --- |
 | "Everyone who lives here is covered by 2035" (HLT-7.03), with the immigration flagship deciding coverage for people without status | "Every person in the country is covered" before the immigration flagship decides |
 | "About 36.6 million uninsured in 2029" (CBO) | "Zero uninsured": on our estimates about 3.6 million remain at the endpoint |
-| "On our estimates, about $200 billion less national health spending a year at full scale" | "It saves money" without "on our estimates" and "national spending"; the federal budget's cost rises by about $3 trillion a year at full scale |
+| "On our estimates, about $500 billion less national health spending a year at full scale" | "It saves money" without "on our estimates" and "national spending"; the federal budget's cost rises by about $2.7 trillion a year at full scale |
 | "Households stop paying about $1.5 trillion a year of premiums and out-of-pocket costs" (on our estimates) | "Families come out ahead" until the settlement sets the taxes |
 | "No premiums, no deductibles, no networks"; "a small copay above twice the poverty line, capped" | "Completely free care for everyone" |
 | "Children covered from 2031; Medicare's cap, hearing and vision from 2031" | Promising dental for Medicare before 2033, or the plan's benefit to Medicare enrollees before 2035 |
 | "Rural and safety-net hospitals get fixed yearly budgets"; "a capped transition fund, about $100 billion over 2033-38, for hospitals that lose revenue" (decided) | "No hospital will lose money": on our estimates hospitals as a whole could be up to about 4% lower after the glide |
-| "On our estimates, new taxes of about $2.4 trillion a year at full scale (2032), alongside the employers' contribution, while about $3 trillion of premiums and out-of-pocket costs end" | "No new taxes"; the tax figure without "on our estimates"; or "the new taxes are smaller than the premiums they replace" (the figures are on different bases: section 6, part 4) |
+| "On our estimates, new taxes of about $2.0 trillion a year at full scale (2032), alongside the employers' contribution, while about $3 trillion of premiums and out-of-pocket costs end" | "No new taxes"; the tax figure without "on our estimates"; or "the new taxes are smaller than the premiums they replace" (the figures are on different bases: section 6, part 4) |
 
 ## Source table
 
@@ -79,14 +79,14 @@ Americans pay the most in the world for health care and still go without it. By 
 | Medical bills 58% of collections items, the most common kind | Section 1, part 3 | EV-CAR-117 |
 | $5.3 trillion and 18.0% of GDP (CMS); 17.2% against the OECD's 9.3%; 2.7 years of life expectancy | Section 1 | EV-CAR-120, EV-CAR-125, EV-CAR-126 |
 | The gap mostly prices; 254% of Medicare | Section 1; memo 5; section 4, HLT-7.10 | EV-CAR-129, EV-CAR-131 |
-| New taxes about $2.4 trillion a year at full scale (2032), after the contribution; about $3.6 trillion in FY2040 (project estimate) | Section 6, part 4; section 7, part 3 | Project arithmetic, `tools/health_path.py` |
+| New taxes about $2.0 trillion a year at full scale (2032), after the contribution; about $3.1 trillion in FY2040 (project estimate) | Section 6, part 4; section 7, part 3 | Project arithmetic, `tools/health_path.py` |
 | Transition fund about $100 billion over 2033-38; budgets held three years | Section 4, HLT-7.15; section 6, part 3 | `DEC-2026-11-10-13` |
 | Waits may grow (CBO) | Memo 4; section 7, part 5 | EV-CAR-219 |
 | The dates (2029, 2031, 2033-35, 2035) and benefits | Section 4, HLT-1, HLT-2.01, 2.04, HLT-7.03, 7.05, 7.06 | Decisions `DEC-2026-11-10-09`, `-11` |
 | $5,000 cap; hearing and vision 2031; dental 2033 | Section 4, HLT-2.01 | `DEC-2026-11-10-11`; legacy HLT-2 |
 | Copay cap about $1,000 (working figure) | Section 4, HLT-7.06 | Memo 4 |
 | About 1.15 times Medicare after five years | Section 4, HLT-7.10 | Memo 5 |
-| About $1.5 trillion of household and $1.5 trillion of employer premiums removed; about $200 billion less national spending (project estimate; $212 billion in section 6) | Section 6, part 1; section 7, part 5 | Project arithmetic, `tools/health_path.py` |
+| About $1.5 trillion of household and $1.5 trillion of employer premiums removed; about $500 billion less national spending (project estimate; $491 billion in section 6) | Section 6, part 1; section 7, part 5 | Project arithmetic, `tools/health_path.py` |
 | About 3.6 million uninsured at the endpoint (project estimate) | Section 6, part 1; section 7, part 4 | Project arithmetic; EV-CAR-051 |
-| Federal cost up about $3 trillion a year at full scale (project estimate; $3.05 trillion in 2032) | Section 6, part 1 | Project arithmetic |
+| Federal cost up about $2.7 trillion a year at full scale (project estimate; $2.71 trillion in 2032) | Section 6, part 1 | Project arithmetic |
 | Hospitals as a whole end up with about the same revenue, within a few percent (project estimate: about 4% lower to 1% higher after the glide) | Section 6, part 3 | Project arithmetic; EV-CAR-336, EV-CAR-337 |

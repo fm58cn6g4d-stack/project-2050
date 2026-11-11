@@ -44,7 +44,7 @@ Every input is in `inputs.csv` with `kind` (evidence or assumption) and its evid
 | Household premiums | EV-CAR-111, 112; EV-CAR-059 | Applicable-percentage schedules and Medicare premiums are assumptions: the law and Medicare tables are not in the library |
 | Single-payer benchmarks | EV-CAR-218, 222, 224, 225, 229 | Used as benchmarks, not inputs |
 
-Evidence still needed (tracked as assumptions with ranges until sourced): the ACA applicable-percentage tables, Medicare Part B, D and Medigap premiums, out-of-pocket spending by source and income (MEPS), Medicaid-to-Medicare fee index, nursing and home-health lines of the NHE for long-term care, ages of the uninsured (CPS), and CBO's 2020 option-by-option specifications.
+Evidence still needed (tracked as assumptions with ranges until sourced): the ACA applicable-percentage tables, Medicare Part B, D and Medigap premiums, out-of-pocket spending by source and income (MEPS), Medicaid-to-Medicare fee index, nursing and home-health lines of the NHE for added long-term care (`sp_ltc_added`; Medicaid's own lines are now EV-CAR-460), ages of the uninsured (CPS), and CBO's 2020 option-by-option specifications.
 
 ## Mechanisms and their research basis
 
@@ -64,6 +64,7 @@ Evidence still needed (tracked as assumptions with ranges until sourced): the AC
 - **Medicare Advantage in single payer**: enrollees are folded into the single plan at fee-for-service-equivalent rates, so the 7 percent MA premium over fee-for-service (EV-CAR-061; MedPAC finds 14 percent, EV-CAR-135) is removed (`sp_ma_to_ffs`, `ma_gap`, `ma_spend_share`).
 - **State maintenance of effort**: project central has states keep paying half of baseline state and local Medicaid spending (`sp_state_moe`, range 0 to 0.8); the CBO-like variant uses none, because the register gives no state design. The federal cost moves about $300 billion with it.
 - **Long-term care**: included in project central (flagship 2 weighs single payer "in full") at an assumed $200 billion, range 100 to 400 (`sp_ltc_added`).
+- **Medicaid's current long-term care** (`sp_mcd_ltc_kept`, off in every scenario here): when on, Medicaid's long-term care, about $415 billion in 2032 (`nhe_mcd_ltc`: CRS's 33.2% of Medicaid personal health care, $274-317 billion in 2024; EV-CAR-462, EV-CAR-404, EV-CAR-460), stays in Medicaid at current-law cost: it is not repriced into the plan, its federal part (60.4%, `nhe_mcd_ltc_fed_share`) is not counted as replaced federal money, and it is outside the states' payment base. The care dossier's decided path turns it on (HLT-7.07; `dossiers/care/tools/health_path.py`, board row D-4c). With it off, the plan reprices that spending at the hospital and physician rate ratio, which suits a design that moves long-term care into the plan but marks up nursing-home and home-care spending that is not paid on those fee schedules.
 - **Employer premiums**: reported as a memo (the "amount to be financed" table) and not charged to households; the model does not decide how those payments are recaptured.
 - **Medicare for 50-59**: 60-64 take-up evidence scaled by `m50_takeup_scale` (0.6, range 0.3 to 1.0).
 - **Medicaid financing changes** (provider taxes, directed payments): restored only if `mcd_financing_restore` is raised (central 0; CBO's $990 billion Medicaid figure includes them).
