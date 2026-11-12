@@ -71,4 +71,4 @@ From `dossiers/shared-rules.md`; proposed in the design section, never overwritt
 3. **Part B, long-term care:** memos 6-9 and points 1-10, decided (`DEC-2026-11-11-02`).
 4. **Part C, child care and pre-K:** memos 10-13, points 1-10 and the pre-K seam, decided (`DEC-2026-11-11-03`).
 5. **Part D, the care workforce:** memos 14-16 and points 1-9, decided (`DEC-2026-11-11-04`).
-6. **Care's cost options:** memo 17, decided November 11, including that a state that declines child care or pre-K still owes its share (`memos/17-cost-options.md`).
+6. **Care's cost options:** memo 17, decided November 11 (`DEC-2026-11-11-06`), including that a state that declines child care or pre-K still owes its share (`memos/17-cost-options.md`).
