@@ -5,10 +5,12 @@
   "bounded": 1,
   "fail": 1
  },
- "milestone_passed": false,
- "open": [
+ "milestone_passed": true,
+ "milestone_basis": "DEC-2026-11-12-11",
+ "not_fully_validated": [
   "PS-4b"
  ],
+ "open": [],
  "benchmarks": [
   {
    "id": "BL-1",
@@ -60,7 +62,7 @@
    "group": "Accounting identities",
    "name": "Debt held by the public: the residual after deficits is CBO's own other means of financing, in every scenario",
    "status": "pass",
-   "value": 8.003553375601768e-11,
+   "value": 8.36735125631094e-11,
    "target": 0.0,
    "tolerance": "$1,000 (1e-6 billion)",
    "unit": "$B, largest gap from CBO's residual",
@@ -230,10 +232,12 @@
     "CBO by year (millions): 3583, 60, 33, 15, 5, 2, 1, 0, 0, 0 from $3,700 million.",
     "This is one emergency supplemental, not a regular appropriation. The library uses one set of shares for every nondefense row; a single act's programs can spend much faster or slower. Title II is $3,500 million of Foreign Military Financing for Israel out of $3,700 million (95%; H.R. 6126 as passed by the House, Title II); the rest is $200 million for diplomatic programs and emergencies. CBO records nearly all of that financing as spent in the first year, an account-specific treatment no average nondefense rate can reproduce: B2's nondefense shares spend 25% in the first year, as OMB's history of all nondefense appropriations does.",
     "What would resolve it: a CBO estimate of a regular year's nondefense appropriations, by year, checked the way PS-4c checks defense. Until then a single nondefense row's year-by-year outlays and budget authority are not validated, and one that is mostly a single account with its own outlay rule (foreign military financing, grants paid on award, loans) can be off by as much as this act.",
+    "**Not fully validated, by Espen's decision (DEC-2026-11-12-11, board question 0r).** Spending rates vary with the agency, the program, whether delivery infrastructure exists or must be built, whether new rules must be written and what state and local partners do, and modeling all of that is not worth it in the baseline budget model. The miss stays reported here and the status stays a fail; B4's milestone counts as met with this one reading kept out of decision and public figures. New nondefense programs that need new rules or delivery infrastructure now use a slower, evidence-backed placeholder (10/26/22/22/20 by year of spending; 10% in the first year against the average's 25%; `spendout-new-programs.csv`, ASM-SPENDOUT-NEW), from CBO's estimates for ARRA (2009) and IIJA (2021). This act is the opposite case, money CBO treats as spent almost at once, so the placeholder does not change this benchmark, which still tests the average.",
     "The library's nondefense shares are unchanged by B6's spend-out fix; their four shares were already positive.",
     "The two FY2026 House estimates Espen uploaded (H.R. 6938, H.R. 7006) were checked first: they report FY2026 only, with prior years' appropriations mixed into the outlays, so they can't test timing."
    ],
-   "bound": null
+   "bound": null,
+   "scoped": "not fully validated (DEC-2026-11-12-11): the year-by-year timing of a single nondefense row's outlays and budget authority; the only CBO estimate of one act is mostly Foreign Military Financing, spent almost at once, and spending rates vary by agency, program, delivery infrastructure, new rules and partners"
   },
   {
    "id": "PS-4c",

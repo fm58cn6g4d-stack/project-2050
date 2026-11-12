@@ -143,7 +143,7 @@ An uncertainty belongs on the critical path only when a plausible answer would c
 - At most three Claude sessions work at once.
 - Each new session gets a standalone brief and reports back when its PR is ready.
 - Messages between sessions only alert another session to work: whatever it must know goes in the PR, on the board or in the dossier.
-- Reach Codex with a PR comment.
+- Reach Codex with a PR comment, when its access to the repository is on (the board says when it is suspended).
 - The mechanics are in `.claude/skills/sessions/SKILL.md`.
 
 ## Roles

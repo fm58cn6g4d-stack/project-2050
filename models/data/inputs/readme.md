@@ -31,7 +31,7 @@ Conventions:
 | `funds-parameters.csv` | one parameter (reserves, leave rule, carbon dividend share, population, EDU-9B base), each with its basis | the dedicated-fund engine |
 | `carbon-parameters.csv` | one parameter of the D7 run of the carbon model: REV-C1's price path, inflation, the dividend share, the exempt share of other transport fuel, the permitting year, Monte Carlo size | the carbon model (legacy/index/climate-carbon-model.md) |
 | `fiscal-years.csv` | row with a year-by-year path ($B, 2030-39) that overrides its profile | the long-term fiscal model |
-| `fiscal-after.csv` | row with fixed amounts after the window ($B by year, not scaled to the ledger; the row then grows with its index): MOV-31's successor line, the transportation model's general-fund draw (DEC-2026-11-12-08) | the long-term fiscal model |
+| `fiscal-after.csv` | row with fixed amounts after the window ($B by year, not scaled to the ledger; the row then grows with its index): MOV-31's successor line, the transportation model's general-fund draw (DEC-2026-11-12-08; its FY2037-39 years are in `fiscal-years.csv`, DEC-2026-11-12-10) | the long-term fiscal model |
 | `excise-offset.csv` | rate of the income and payroll tax offset on new excise taxes and fees (CX, CXP, MR6), from a fiscal year on: JCT's 24.4% until JCT publishes a current-law table (DEC-2026-11-12-08) | the ledger (CX's typed figures, MR6), the climate booking (CXP) |
 
 ## Figures that come from elsewhere
