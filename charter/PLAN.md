@@ -211,7 +211,7 @@ The process is designed for AI agents working without memory between sessions, w
 
 **Rules:**
 - **Every step on the progress board names its tier,** so the right model is chosen when a session starts.
-- **A lighter model that meets ambiguity stops and flags it.** It doesn't guess: it leaves a note on the board for a stronger session.
+- **A lighter model that meets ambiguity stops and flags it.** It doesn't guess: it leaves a note in its PR for a stronger session and tells its report-back address.
 - **Strong sessions delegate mechanical subtasks to lighter subagents** where the tools allow, and check the results.
 - **When unsure, go one tier up.** A wrong judgment in a canonical file or model costs more to find and fix than the difference in usage.
 - The same tiers apply to other vendors' agents, by capability.
