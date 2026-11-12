@@ -385,6 +385,11 @@ def bm_published(M):
     worst_act = max(loo, key=lambda k: max(abs(g) for g in loo[k]))
     worst_gap = max(loo[worst_act], key=abs)
     ps4c_ok = all(abs(g) <= 10 for v in loo.values() for g in v[:4])
+    # PS-4a's ceiling, set before reading the result (#272's review): one act may sit at most 20 points
+    # from the average in any of its first four years, twice the 10-point tolerance, to count as
+    # bounded. Twice, because a title of mostly procurement or research can spend roughly one year
+    # behind a regular year's mix (CBO's regular-act rates spend about 84% by year 2 and 92% by year 3).
+    PS4A_CEILING = 20
     lib_d = P._spendout("defense")
     ps4c = _bm("PS-4c", "Published scores",
                "CBO: outlays by year from a regular year's defense budget authority (three NDAA estimates, each against the other two)",
@@ -427,20 +432,17 @@ def bm_published(M):
                      "authority in any of its first four years (this act's largest gap), more for a row that is mostly procurement or "
                      "research. Ten-year totals are unaffected; the average rate holds for a regular year's mix (PS-4c, %s)." % (
                          max(abs(g) for g in gaps), "pass" if ps4c_ok else "fail"))
-            status = "pass" if ok else ("bounded" if ps4c_ok else "fail")
+            status = "pass" if ok else ("bounded" if ps4c_ok and max(abs(g) for g in gaps) <= PS4A_CEILING else "fail")
         else:
             why_mix = ("Title II is $3,500 million of Foreign Military Financing for Israel out of $3,700 million (95%%; H.R. 6126 as passed "
                        "by the House, Title II); the rest is $200 million for diplomatic programs and emergencies. CBO records nearly all "
                        "of that financing as spent in the first year, an account-specific treatment no average nondefense rate can "
                        "reproduce: B2's nondefense shares spend %.0f%% in the first year, as OMB's history of all nondefense "
                        "appropriations does." % (100 * P._spendout("nondefense")[0]))
-            bound = ("A single nondefense row's year-by-year outlays and budget authority carry a range of up to %.0f points of its "
-                     "budget authority in its first years when the row is one account with its own outlay rule (foreign military "
-                     "financing, grants paid on award, loans), and are not validated for a regular nondefense act: no CBO estimate of "
-                     "one is benchmarked yet. The average's timing is tested only against CBO's projected totals (PS-3b, partly "
-                     "in-sample). Ten-year totals are unaffected." % max(abs(g) for g in gaps))
-            # bounded only while the title is essentially one account with its own outlay rule
-            status = "pass" if ok else ("bounded" if c["one_account"] / c["ba"] >= 0.9 else "fail")
+            bound = None
+            # No bound: nothing the model can fail shows the nondefense average holds for a regular
+            # nondefense act (no CBO estimate of one is benchmarked), so this stays a fail (#272's review).
+            status = "pass" if ok else "fail"
         out.append(_bm("PS-4" + letter, "Published scores",
                        "CBO: outlays by year from one appropriations act's new %s budget authority (2024 Israel security supplemental, %s)" % (grp, c["title"]),
                        status,
@@ -453,14 +455,19 @@ def bm_published(M):
                        "one year of new budget authority goes in, and the share spent by the end of each year comes out, against CBO's own "
                        "estimate for the same money. Cumulative shares measure timing without depending on the act's size. Ten points allows "
                        "for one act differing from the average pattern the shares are fit to; a bigger gap means the library would misplace "
-                       "that kind of spending by a year or more. *Bounded*, not passed, when the miss comes from the act's own mix of "
-                       "programs rather than from the rates: the status says the timing of such a row is uncertain by the stated range, "
-                       "not that it is right." % grp,
+                       "that kind of spending by a year or more. *Bounded*, not passed, for defense only, when the miss stays under a "
+                       "20-point ceiling set in advance and PS-4c shows the rates hold for a regular year's defense mix: the status says "
+                       "the timing of such a row is uncertain by the stated range, not that it is right. Nondefense has no such "
+                       "companion test yet, so a nondefense miss fails." % grp,
                        unit="share of budget authority", miss="%+.0f points by end of year %d" % (gaps[wk], wk + 1) if not ok else None,
                        bound=bound if status == "bounded" else None,
                        detail=["CBO by year (millions): " + ", ".join(str(v) for v in c["outlays"]) + " from $%s million." % format(c["ba"], ","),
                                "This is one emergency supplemental, not a regular appropriation. The library uses one set of shares for every "
-                               "%s row; a single act's programs can spend much faster or slower. %s" % (grp, why_mix),
+                               "%s row; a single act's programs can spend much faster or slower. %s" % (grp, why_mix)] +
+                              (["What would resolve it: a CBO estimate of a regular year's nondefense appropriations, by year, checked the way "
+                                "PS-4c checks defense. Until then a single nondefense row's year-by-year outlays and budget authority are not "
+                                "validated, and one that is mostly a single account with its own outlay rule (foreign military financing, "
+                                "grants paid on award, loans) can be off by as much as this act."] if grp == "nondefense" else []) + [
                                ("Before B6's spend-out fix the library's defense shares were a four-year fit to OMB's totals with a negative "
                                 "fourth share, which spent 103% of this act by the end of year 3 and took some back in year 4 (+21 points by "
                                 "end of year 3). CBO's own rates remove that defect: every share is positive and the money is spent once."
