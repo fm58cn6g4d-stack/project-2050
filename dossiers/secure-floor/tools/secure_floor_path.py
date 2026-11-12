@@ -68,6 +68,14 @@ def lines():
     # $0.6 billion in FY2030, growing as the gap to prices widens (judgment).
     out['INC-3.01, SSI\'s asset limits (memo 3 part 2 B)'] = grown(2030, 1.1, 0.03, YEARS)
     out['INC-3.02, SSI\'s exclusions indexed (point 8)'] = {y: 0.6 + 0.1 * (y - 2030) for y in YEARS}
+    # INC-3.03, SSI extended to Puerto Rico, Guam, the Virgin Islands and American Samoa
+    # (Espen, November 12, lead session), from January 2031: SSA's actuaries' $2,169 million
+    # for Puerto Rico in calendar 2031 (EV-SEC-705, a 2025 start), plus about 3% for the
+    # other three territories (their 2020 estimate), growing about 1.1% a year as their table
+    # does; the first year at about 70%, as their table's first year is (judgment).
+    ssi_t = grown(2031, 2.169 * 1.03, 0.011)
+    ssi_t[2031] *= 0.7
+    out['INC-3.03, SSI in the territories (Espen, November 12)'] = monthly_to_fy(ssi_t)
     # Point 7: $3-6 billion a year (judgment), central $4.5 billion in tax year 2030.
     out['INC-4.01, the refundable dependent care credit (point 7)'] = filed_to_fy(grown(2030, 4.5, 0.025))
     # Memo 7 part 1 B: $1-3 billion a year of forgone offsets (judgment), central $2 billion

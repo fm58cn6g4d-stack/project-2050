@@ -1,6 +1,6 @@
 # A secure floor for every household: cost
 
-Role: section 6 of the secure floor dossier. It prices the provisions of `4-specification.md` on federal fiscal years against the January 2029 law, reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`), reprices memo 1 A without the $2,200 floor Espen declined, and re-runs the child-poverty model on the decided design. Status: draft (stage D, board row S4, PR 1), on `DEC-2026-11-12-06`. Every figure is project arithmetic, not an official score. **Nothing is booked here**: booking is a separate later step, and part 6 lists exactly which ledger rows and inputs it would change.
+Role: section 6 of the secure floor dossier. It prices the provisions of `4-specification.md` on federal fiscal years against the January 2029 law, reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`), reprices memo 1 A without the $2,200 floor Espen declined, and re-runs the child-poverty model on the decided design. Status: reviewed (L2, milestone review `review-milestone.md`, #298; L3 after its fix steps and re-check), on `DEC-2026-11-12-06`. Every figure is project arithmetic, not an official score. **Nothing is booked here**: booking is a separate later step, and part 6 lists exactly which ledger rows and inputs it would change.
 
 ## Counting rules
 
@@ -23,16 +23,17 @@ Role: section 6 of the secure floor dossier. It prices the provisions of `4-spec
 | SNAP restored | INC-2.01 | 20.5 | 21.0 | 21.5 | 22.1 | 22.6 | 23.2 | 23.8 | 24.4 | 25.0 | 25.6 | **229.7** | **26.2** |
 | SSI's asset limits | INC-3.01 | 1.1 | 1.1 | 1.2 | 1.2 | 1.2 | 1.3 | 1.3 | 1.4 | 1.4 | 1.4 | **12.6** | **1.5** |
 | SSI's exclusions indexed | INC-3.02 | 0.6 | 0.7 | 0.8 | 0.9 | 1.0 | 1.1 | 1.2 | 1.3 | 1.4 | 1.5 | **10.5** | **1.6** |
+| SSI in the territories (Espen, November 12, lead session) | INC-3.03 | 0 | 1.2 | 2.1 | 2.3 | 2.3 | 2.3 | 2.4 | 2.4 | 2.4 | 2.4 | **19.7** | **2.5** |
 | The refundable dependent care credit | INC-4.01 | 0 | 4.5 | 4.6 | 4.7 | 4.8 | 5.0 | 5.1 | 5.2 | 5.3 | 5.5 | **44.8** | **5.6** |
 | The exclusion rule's forgone offsets | INC-5.01 | 0 | 2.0 | 2.1 | 2.1 | 2.2 | 2.3 | 2.3 | 2.4 | 2.5 | 2.5 | **20.3** | **2.6** |
 | Paid on-ramps, as booked | LAB-10 | 2.4 | 5.0 | 7.8 | 10.8 | 11.2 | 11.6 | 12.1 | 12.5 | 13.0 | 13.5 | **100.0** | **14.0** |
-| **The secure floor on the general fund** | | **196.4** | **225.7** | **233.2** | **241.4** | **246.8** | **252.9** | **258.7** | **264.6** | **271.3** | **277.8** | **2,469.1** | **284.4** |
+| **The secure floor on the general fund** | | **196.4** | **226.9** | **235.3** | **243.7** | **249.1** | **255.2** | **261.1** | **267.0** | **273.7** | **280.3** | **2,488.8** | **286.9** |
 
 - **Booked:** FAM-1 and LAB-10, $2,000 billion over FY2030-39 and $228.7 billion in FY2040.
-- **Not booked (new lines):** about **$517 billion over FY2030-39 and $61.6 billion in FY2040**, within section 3's $0.45-0.6 trillion and $50-60 billion (a little above in FY2040, because the credits grow from their first year on fiscal years).
+- **Not booked (new lines):** about **$537 billion over FY2030-39 and $64.0 billion in FY2040**, within section 3's $0.45-0.6 trillion and a little above its $50-60 billion in FY2040, because the credits grow from their first year on fiscal years and INC-3.03 was decided after section 3 (about $20 billion and $2.5 billion).
 - **The floor declined:** about **−$48 billion over FY2030-39 and −$5.8 billion in FY2040** against the booked child benefit.
-- **Net change a booking would make:** about **+$469 billion over FY2030-39 and +$55.8 billion in FY2040** (0.10% of GDP).
-- *The other paths:* the INC lines' anchors and growth are memo 3's and section 3's judgment (on CBO's $187 billion of SNAP savings [EV-SEC-035], SSA's actuaries' $8.9 billion for SSI's limits [EV-SEC-630], the Tax Policy Center's $135.4 billion for the childless credit [EV-SEC-610]), laid on fiscal years; `secure_floor_path.py` gives each.
+- **Net change a booking would make:** about **+$489 billion over FY2030-39 and +$58.2 billion in FY2040** (0.11% of GDP).
+- *The other paths:* the INC lines' anchors and growth are memo 3's and section 3's judgment (on CBO's $187 billion of SNAP savings [EV-SEC-035], SSA's actuaries' $8.9 billion for SSI's limits [EV-SEC-630] and $20.7 billion for SSI in Puerto Rico [EV-SEC-705], the Tax Policy Center's $135.4 billion for the childless credit [EV-SEC-610]), laid on fiscal years; `secure_floor_path.py` gives each.
 
 ### Memo 1 A without the floor: what changed
 
@@ -59,11 +60,13 @@ Memo 1 priced A at about $1.9 trillion over FY2030-39 (range $1.7-2.1 trillion),
 | A work response to the child benefit | FAM-1 | not counted | not counted | The legacy DY3 sensitivity, −$0.02 to −$0.12 trillion of lost receipts (`legacy-research.md`, 1.9); CBO's conventional scores leave it out; the evidence is contested (section 2, part A.2) | Not counted |
 | The IRS's and SSA's general rebuild | CAP-7 | booked there | booked there | The legacy capacity lines; the child benefit's own build is counted above, so a change to CAP-7 does not lose it | Booked |
 | Parents' added earnings from paid leave and child care | FAM-3 | not counted | not counted | The legacy DY6, $0.15-0.30 trillion with child care (`legacy-research.md`, 3.2) | Not counted |
-| SS-11's loan | SS-11.01 | zero if the 2030 act passes on time | zero | A repayable loan of up to roughly the gap at depletion, about $400-450 billion a year (legacy estimate, `legacy-research.md`, 4.1), only if depletion comes first | Contingent, zero to that |
+| SS-11's loan | SS-11.01 | expected zero if the 2030 act passes on time (not yet shown on a year-by-year fund path; the booking step's) | zero | A repayable loan of up to roughly the gap at depletion, about $400-450 billion a year (legacy estimate, `legacy-research.md`, 4.1), only if depletion comes first | Contingent, zero to that |
 | SS-7's fallback | SS-7.01 | zero unless triggered | zero unless triggered | A trust-fund revenue, from 2035 at the earliest | Contingent |
 | The exclusion rule in housing's books | INC-5.01 | inside INC-5.01 | inside | The forgone rent offsets fall in housing's voucher costs; counted once, here | Firm |
+| No offset or garnishment of the child benefit | FAM-1.07 | about $0.01-0.03 trillion | about $1-3 billion | Judgment: the refund offsets that would otherwise fall on the benefit [EV-SEC-701]. Only the federal-debt and federal-tax share is a federal cost; child support, state-debt and unemployment offsets pass to others and are not. No Treasury Offset Program volume is in the register yet. Not added to the totals; the booking adds it | Firm, not yet counted |
+| The child benefit in the territories | FAM-1.07 | about $0.01-0.03 trillion | about $1-3 billion | Judgment: about 0.6 million children, mostly in Puerto Rico, at the benefit less what the 2029 law already pays them; whether the legacy FAM-1 range counts the territories is not known. Not added to the totals | Firm, not yet counted |
 
-**All-in on the general fund:** about **$2.47 trillion over FY2030-39 and $284 billion in FY2040** (range about $2.1-2.7 trillion and $250-320 billion, part 7). It is not a score.
+**All-in on the general fund:** about **$2.49 trillion over FY2030-39 and $287 billion in FY2040** (range about $2.1-2.7 trillion and $250-320 billion, part 7). It is not a score.
 
 ## 3. The child-poverty re-run on the decided design
 
@@ -88,6 +91,8 @@ Memo 1 priced A at about $1.9 trillion over FY2030-39 (range $1.7-2.1 trillion),
 
 ## 4. The funds: paid leave and Social Security
 
+*Espen moved the step-up from 0.05 to 0.10 points a year (Espen, November 12, lead session; `review-milestone.md`, A-1); the table below is the booked 0.05-point path until the lead's booking re-runs it. On the review's arithmetic the faster step avoids the loan: the rate reaches the 1.10% ceiling in 2036 and the fund's balance stays above zero.*
+
 **Paid leave (FAM-3), booked at high take-up** (mature cost 1.01% of payroll, the case the 1.10% ceiling is built for; `models/tools/recovery-budget/model.py`, `leave_fund`):
 
 | FY | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | 2037 | 2038 | 2039 | **2030-39** | **2040** |
@@ -100,7 +105,7 @@ Memo 1 priced A at about $1.9 trillion over FY2030-39 (range $1.7-2.1 trillion),
 | General fund's income-tax offset | 9.9 | 10.4 | 11.7 | 13.1 | 14.6 | 16.3 | 17.9 | 19.7 | 21.5 | 23.5 | **159** | **25.6** |
 
 - **The decided design fits the booking.** The FAMILY Act's bands pay more at the bottom and less at the top; on average they are roughly cost-neutral against the legacy "about two-thirds" (memo 5's judgment), so the booked benefits stand. Memo 5's central $0.9 trillion is the middle take-up case; the booking uses the high case, $1.4 trillion, which is the prudent basis for the fund.
-- **The loan.** At high take-up the loan peaks at about $185 billion on the fund's own scale in FY2040 (about $182 billion as booked) and is repaid in 2058; it is a fund balance, not a general-fund line. *A correction for the board:* the board's row D-9c reports the loan peaking at $124 billion and repaid by 2048 at the 1.10% ceiling. That is the funds model (`legacy/index/dedicated-funds.md`) without SSA's administration; the recovery budget's central case, with administration, gives the figures above (`legacy-research.md`, section 0, point 4, found the same).
+- **The loan.** At high take-up the loan peaks at about $185 billion on the fund's own scale in FY2040 (about $182 billion as booked) and is repaid in 2058; it is a fund balance, not a general-fund line. The fund pays interest on it at Treasury's rate, about $5-7 billion a year near the peak, and the general fund, as lender, carries the exposure if take-up runs above the high case. *The margin is thin:* at high take-up the mature cost, 1.01% of payroll plus SSA's 3% of benefits, is about 1.04% against the 1.10% ceiling, so about 0.06 points of payroll repays the loan, which is why repayment takes to 2058; take-up above the high case would leave it unrepaid (section 8). *A correction for the board:* the board's row D-9c reports the loan peaking at $124 billion and repaid by 2048 at the 1.10% ceiling. That is the funds model (`legacy/index/dedicated-funds.md`) without SSA's administration; the recovery budget's central case, with administration, gives the figures above (`legacy-research.md`, section 0, point 4, found the same).
 - **The general fund's share:** the income-tax offset (12.5% of contributions, an allowance, not a JCT score; the 24.4% question in board question 0q is for excises, not this) is booked: about $159 billion over FY2030-39 and $25.6 billion in FY2040.
 
 **Social Security (the 2030 act), on the trust funds.** Effects in percent of taxable payroll over 75 years on SSA's 2026 single-provision scores (memo 6):
@@ -109,13 +114,17 @@ Memo 1 priced A at about $1.9 trillion over FY2030-39 (range $1.7-2.1 trillion),
 | --- | --- | --- |
 | SS-1, SS-2, SS-3, SS-4 (D8) | about +2.85 after the stacking haircut [EV-SEC-695] | SS-1.01 to 4.01 |
 | SS-5 | about +0.87 (D8 with SS-5 about +3.7, 84% of the 4.42% gap) [EV-SEC-696] | SS-5.01 |
-| SS-8, the reserve investment | about +0.5 to +1.0 (legacy estimate) [EV-SEC-697] | SS-8.01 |
+| SS-8, the reserve investment | about +0.05 to +0.2 at the 20% share (project arithmetic, below); the legacy estimate, +0.5 to +1.0, states no share [EV-SEC-697] | SS-8.01 |
 | SS-B4, the caregiver credit | judgment −0.1 to −0.2 | SS-B4.01 |
-| **The decided package** | **about +4.0 to +4.6 against the 4.42% gap**: at or near 75-year balance; SS-7.01 covers a shortfall | |
+| **The decided package before the fallback** | **about +3.6 to +3.8 against the 4.42% gap** (81-86%) | |
+| SS-7.01, the fallback | expected to carry about 0.6 to 0.9 points; +0.9 to +1.0 if fully used [EV-SEC-697], somewhat less on its late start | SS-7.01 |
+| **The decided package with the fallback** | **at or near 75-year balance only with SS-7.01 used in full** | |
 
-(Memo 6's +4.2 to +4.7 for part 1 and −0.5 to −0.6 for part 2 counted SS-3 and SS-4 in both; netted once, as above, the package is +4.0 to +4.6.) No whole-package score exists [EV-SEC-477]; point 12 asks for one.
+(Memo 6's +4.2 to +4.7 for part 1 and −0.5 to −0.6 for part 2 counted SS-3 and SS-4 in both; netted once, with the legacy SS-8 estimate, the package would be +4.0 to +4.6.) No whole-package score exists [EV-SEC-477]; point 12 asks for one.
 
-**What the budget model books for Social Security, and where it differs.** The central case does not use the SS-1 ledger row (its note says "net −$2.75T"; its path sums to −$4.74 trillion). It runs its own fund model of SS-1 to SS-5 **plus a broad two-point payroll rate phased in over 2035-44** and a joint-interaction adjustment (`model.py`, `build_case`; `legacy-research.md`, 4.5): about $5.70 trillion of trust-fund revenue over FY2030-39, and $520 billion of income-tax offset on the general fund ($90 billion in FY2040). **The decided design has no broad rate unless SS-7.01's trigger fires, and then one point, not two; it closes the gap with SS-8.** So the booking overstates trust-fund revenue from 2035 and the general fund's offset with it. The size depends on how the model records SS-8's purchases of stocks, which is open for the booking step (part 6): CBO's treatment of a trust fund's stock purchases, and whether they change the unified deficit, needs a check before it is modeled.
+**SS-8's yield at its specified share** (project arithmetic, from the milestone review, `review-milestone.md`, O-1). +0.5% of taxable payroll is about $60 billion a year in the 2030s, on payroll of about $12 trillion. At an excess return over Treasury bonds of about 3% a year, that needs about $2 trillion held in stocks; at 20% of reserves, reserves of about $10 trillion. The combined funds hold about $2.6 trillion and fall to zero in 2034 under current law [EV-SEC-400], and the package's revenue from 2031 roughly matches their yearly shortfall in the early 2030s, so reserves stay in the low trillions. At 20% of a few trillion dollars, SS-8 yields about +0.05 to +0.2. With it, D8 and SS-5 (+3.72) and the caregiver credit (−0.1 to −0.2), the package closes about +3.6 to +3.8. **So SS-7.01's fallback is the expected case:** its trigger reads the Trustees reports from 2035, its first 0.1-point step would come about 2037, and its full point about 2046. The decision stands (memo 6 C, `DEC-2026-11-12-06`): Espen kept it with the fallback as the expected case (Espen, November 12, lead session). A larger SS-8 share or an earlier SS-7 start would change this; both stay working choices to revisit with SSA's score. SSA's whole-package score (point 12) will settle it.
+
+**What the budget model books for Social Security, and where it differs.** The central case does not use the SS-1 ledger row (its note says "net −$2.75T"; its path sums to −$4.74 trillion). It runs its own fund model of SS-1 to SS-5 **plus a broad two-point payroll rate phased in over 2035-44** and a joint-interaction adjustment (`model.py`, `build_case`; `legacy-research.md`, 4.5): about $5.70 trillion of trust-fund revenue over FY2030-39, and $520 billion of income-tax offset on the general fund ($90 billion in FY2040). **The decided design has no broad rate unless SS-7.01's trigger fires, and then one point, not two; it relies on SS-8 and, on the arithmetic above, on SS-7.01's one point from the late 2030s.** So the booking overstates trust-fund revenue from 2035 and the general fund's offset with it. The size depends on how the model records SS-8's purchases of stocks, which is open for the booking step (part 6): CBO's treatment of a trust fund's stock purchases, and whether they change the unified deficit, needs a check before it is modeled.
 
 ## 5. The fiscal-rule report
 
@@ -123,17 +132,17 @@ Each figure has one basis: federal fiscal years, $ billion, a cost positive, aga
 
 | Measure | FY2030-39 | FY2040 (permanent) |
 | --- | --- | --- |
-| The secure floor on the general fund, as decided (part 1) | $2,469 billion | $284 billion (0.53% of GDP) |
+| The secure floor on the general fund, as decided (part 1) | $2,489 billion | $287 billion (0.53% of GDP) |
 | Already booked for the same purposes: FAM-1; LAB-10 | $1,900 billion; $100 billion | $214.7 billion; $14.0 billion |
-| **Net change a booking would make** | **about +$469 billion** | **about +$55.8 billion (0.10% of GDP)** |
+| **Net change a booking would make** | **about +$489 billion** | **about +$58.2 billion (0.11% of GDP)** |
 | *of which:* the floor declined | −$48 billion | −$5.8 billion |
-| *of which:* new lines (memo 3, points 4, 7 and 8, memo 1 part 2, memo 2, memo 7) | +$517 billion | +$61.6 billion |
+| *of which:* new lines (memo 3, points 4, 7 and 8, memo 1 part 2, memo 2, memo 7, INC-3.03) | +$537 billion | +$64.0 billion |
 | Paid leave: the general fund's income-tax offset (booked) | $159 billion | $25.6 billion |
 | Social Security: on its trust funds; the general fund's offset as booked overstates the decided package (part 4) | — | — |
 
-- **The yearly cost** is in part 1: about $196 billion in FY2030 rising to $278 billion in FY2039.
-- **Permanent cost from FY2040: about $284 billion a year** on the general fund, growing with prices and the child population. Every line is permanent; nothing in the set sunsets.
-- **Its share of the plan-wide margin.** The plan-wide general-fund primary gap in FY2040 is **$4,182.6 billion short** as booked (7.7% of GDP; `agenda_gf_primary_bn`, case `mixed`, a positive figure a shortfall). A booking of the decided set adds about $55.8 billion, to about **$4,238 billion (7.8% of GDP)**: **about 1.3% of the plan-wide gap**. The secure floor's whole general-fund cost, booked and new, is about **6.7% of that gap** in FY2040. Additive on the primary balance before interest; the new lines carry no revenue offset (outlays and refundable credits).
+- **The yearly cost** is in part 1: about $196 billion in FY2030 rising to $280 billion in FY2039.
+- **Permanent cost from FY2040: about $287 billion a year** on the general fund, growing with prices and the child population. Every line is permanent; nothing in the set sunsets.
+- **Its share of the plan-wide margin.** The plan-wide general-fund primary gap in FY2040 is **$4,184.7 billion short** as booked at the head (7.7% of GDP; `agenda_gf_primary_bn`, case `mixed`, a positive figure a shortfall; the figure `DEC-2026-11-12-08` records, after #289; the secure floor's own booked lines are unchanged since `34faa21`). A booking of the decided set adds about $58.2 billion, to about **$4,242.9 billion (7.8% of GDP)**: **about 1.4% of the plan-wide gap**. The secure floor's whole general-fund cost, booked and new, is about **6.9% of that gap** in FY2040. Additive on the primary balance before interest; the new lines carry no revenue offset (outlays and refundable credits).
 - **The test years.** The decided costs are permanent and grow with prices (the benefit's amounts) and wages (paid leave). The leave fund's loan is repaid in 2058 at high take-up.
 - It is a figure to report, not an error to fix (`DEC-2026-11-10-05`). No part of it goes to Espen on its own: the memos already weighed the cheaper designs that reach the same children (memo 1 B), and FAM-1.11 is decided (`DEC-2026-11-12-09`).
 
@@ -141,7 +150,7 @@ Each figure has one basis: federal fiscal years, $ billion, a cost positive, aga
 
 Tier 3, for the lead after the milestone review, on the same pattern as care's (`dossiers/care/6bcd-cost.md`, part 5) and health's (`models/tools/health_booking.py`). This PR changes none of `models/data/inputs/`.
 1. `models/data/inputs/ledger-bills.csv`, line 13 (FAM-1, 1.7 / 1.9 / 2.1): to **1.65 / 1.85 / 2.05**, with the note "AFA without the $2,200 floor (DEC-2026-11-12-06); floor about $0.05T (dossiers/secure-floor/6-cost.md, part 1)". The CPI profile in `fiscal-profiles.csv` (line 13) stays.
-2. New `ledger-bills.csv` rows on rail R1, general fund, one per new agenda item: INC-1 (0.145), INC-2 (0.23), INC-3 (0.023), INC-4 (0.045), INC-5 (0.02), with FAM-1.04, 1.06 and 1.08-1.10 (0.054 together) as a FAM-1 component or an FAM-1 row of its own; year shapes in `fiscal-years.csv` from `tools/secure_floor_path.py`; rows in `models/data/budget/provisions.csv`.
+2. New `ledger-bills.csv` rows on rail R1, general fund, one per new agenda item: INC-1 (0.145), INC-2 (0.23), INC-3 (0.043, with INC-3.03's 0.020), INC-4 (0.045), INC-5 (0.02), with FAM-1.04, 1.06 and 1.08-1.10 (0.054 together) as a FAM-1 component or an FAM-1 row of its own; year shapes in `fiscal-years.csv` from `tools/secure_floor_path.py`; rows in `models/data/budget/provisions.csv`.
 3. LAB-10: the participation envelope in `recovery-adoption.json` (`participation_tn`, 0.1) stays; its line gains the name LAB-10 in `provisions.csv` so the dossier's provisions trace to it.
 4. FAM-3: no change. The bands are roughly cost-neutral; the booking already uses high take-up and the 1.10% ceiling (#266).
 5. Social Security: `models/tools/recovery-budget/assumptions.json`, `social_security`: replace the two-point broad rate phased 2035-44 with the decided package, SS-8's reserve investment and SS-7.01's one-point contingent fallback, once it is settled how to record the stock purchases (part 4); and correct the SS-1 ledger row's note (−$2.75T against its −$4.74T path).
@@ -159,7 +168,7 @@ Tier 3, for the lead after the milestone review, on the same pattern as care's (
 | The dependent care credit | $0.045 trillion | $0.03-0.06 trillion | ±$0.015 trillion | Section 3, point 7 |
 | The child's own ID | $0.027 trillion | $0.02-0.03 trillion | small | 500,000 children [EV-SEC-016] |
 | Paid leave take-up | high (booked) | low to high: $0.6-1.4 trillion of benefits | fund only | Legacy cases [EV-SEC-693] |
-| **The general fund, all** | **$2.47 trillion** | **about $2.1-2.7 trillion** | | |
+| **The general fund, all** | **$2.49 trillion** | **about $2.1-2.7 trillion** | | |
 
 ## 8. What each figure is
 
@@ -173,6 +182,6 @@ Tier 3, for the lead after the milestone review, on the same pattern as care's (
 | The new lines' costs | Working assumptions on outside scores, laid on fiscal years |
 | LAB-10's $100 billion | Commitment (the envelope); people served, about 400,000-900,000 over the decade, a working assumption (memo 4) |
 | Paid leave's take-up | Working assumption; the booking uses the high case |
-| Social Security's package effect | Working assumption on single-provision scores; to study with SSA's whole-package score (point 12) |
+| Social Security's package effect | Working assumption on single-provision scores and project arithmetic for SS-8 (about +3.6 to +3.8 before the fallback); to study with SSA's whole-package score (point 12) |
 | How to book SS-8 | Open question for the booking step |
 | SS-11's loan | Contingent, zero to the gap at depletion |
