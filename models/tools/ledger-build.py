@@ -51,7 +51,8 @@ def _moving_america():
         sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "transportation"))
         import report
         f = report.figures()["ledger"]
-    r2 = {k: round(f[k], 2) for k in ("act29_package", "act29_topups", "act30_package", "act30_topups", "expansion_authority")}
+    r2 = {k: round(f[k], 2) for k in ("act29_package", "act29_topups", "act30_package", "act30_topups", "expansion_authority",
+                                      "gf_draw_fy37_39")}
     r1 = {k: round(f[k], 1) for k in ("act29_gross", "act29_net", "act30_gross", "act30_net", "score_fuel_steps",
                                       "score_truck_excise_ev_fee", "score_weight_distance", "score_rail_aviation")}
     r1["score_clean_vehicle"] = round(f["score_clean_vehicle"] - 12.9, 1) + 12.9   # clean-car line printed to $0.1B
@@ -64,7 +65,9 @@ MA = _moving_america()
 MOV29 = round((MA["act29_package"] + MA["act29_topups"]) / 1000, 5)
 MOV30 = round((MA["act30_package"] + MA["act30_topups"]) / 1000, 5)
 DIV_E = 1.0   # $B, division E's general-fund items, FY2032-36 (Draft 2; estimate)
-MOV31 = round((MA["expansion_authority"] + DIV_E) / 1000, 5)
+# MOV-31: the 2031 bill's FY2032-36 expansion and division E, then its successor line, the transportation
+# model's general-fund draw in FY2037-39 (DEC-2026-11-12-10); the draw from FY2040 is fiscal-after.csv's
+MOV31 = round((MA["expansion_authority"] + DIV_E + MA["gf_draw_fy37_39"]) / 1000, 5)
 MR = {k: round(MA[k] / 1000, 4) for k in ("score_fuel_steps", "score_clean_vehicle", "score_truck_excise_ev_fee",
                                           "score_weight_distance", "score_rail_aviation", "score_offset")}
 

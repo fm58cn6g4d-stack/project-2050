@@ -468,7 +468,18 @@ def bm_published(M):
                               (["What would resolve it: a CBO estimate of a regular year's nondefense appropriations, by year, checked the way "
                                 "PS-4c checks defense. Until then a single nondefense row's year-by-year outlays and budget authority are not "
                                 "validated, and one that is mostly a single account with its own outlay rule (foreign military financing, "
-                                "grants paid on award, loans) can be off by as much as this act."] if grp == "nondefense" else []) + [
+                                "grants paid on award, loans) can be off by as much as this act.",
+                                "**Not fully validated, by Espen's decision (DEC-2026-11-12-11, board question 0r).** Spending rates vary with the "
+                                "agency, the program, whether delivery infrastructure exists or must be built, whether new rules must be written and "
+                                "what state and local partners do, and modeling all of that is not worth it in the baseline budget model. The miss "
+                                "stays reported here and the status stays a fail; B4's milestone counts as met with this one reading kept out of "
+                                "decision and public figures. New nondefense programs that need new rules or delivery infrastructure now use a "
+                                "slower, evidence-backed placeholder (%s by year of spending; %.0f%% in the first year against the average's "
+                                "%.0f%%; `spendout-new-programs.csv`, ASM-SPENDOUT-NEW), from CBO's estimates for ARRA (2009) and IIJA (2021). "
+                                "This act is the opposite case, money CBO treats as spent almost at once, so the placeholder does not change "
+                                "this benchmark, which still tests the average." % (
+                                    "/".join("%.0f" % (100 * v) for v in P._spendout("nondefense_new")),
+                                    100 * P._spendout("nondefense_new")[0], 100 * P._spendout("nondefense")[0])] if grp == "nondefense" else []) + [
                                ("Before B6's spend-out fix the library's defense shares were a four-year fit to OMB's totals with a negative "
                                 "fourth share, which spent 103% of this act by the end of year 3 and took some back in year 4 (+21 points by "
                                 "end of year 3). CBO's own rates remove that defect: every share is positive and the money is spent once."
@@ -476,6 +487,13 @@ def bm_published(M):
                                 "The library's nondefense shares are unchanged by B6's spend-out fix; their four shares were already positive."),
                                "The two FY2026 House estimates Espen uploaded (H.R. 6938, H.R. 7006) were checked first: they report FY2026 only, "
                                "with prior years' appropriations mixed into the outlays, so they can't test timing."]))
+        if grp == "nondefense" and status == "fail":
+            # Espen scoped this one reading out (DEC-2026-11-12-11), as question 0f did for B6: the
+            # fail stands, and the milestone is met with the reading kept out of decision and public figures
+            out[-1]["scoped"] = ("not fully validated (DEC-2026-11-12-11): the year-by-year timing of a single nondefense row's "
+                                 "outlays and budget authority; the only CBO estimate of one act is mostly Foreign Military "
+                                 "Financing, spent almost at once, and spending rates vary by agency, program, delivery "
+                                 "infrastructure, new rules and partners")
     out.append(ps4c)
     return out
 
@@ -700,6 +718,8 @@ def summary_table(results):
 def _in_sample_label(r):
     """ (partly in-sample) for a calibrated level; (in-sample: bookkeeping only) where the method is
     the target's own table, so only the arithmetic around it is tested (SE-2a, SE-2b)."""
+    if r.get("scoped"):
+        return " (not fully validated)"
     v = r.get("in_sample")
     return "" if not v else (" (in-sample: %s)" % v if isinstance(v, str) else " (partly in-sample)")
 
@@ -720,9 +740,21 @@ def counts_line(results):
 
 def milestone_line(results):
     """The workflow's "benchmarks before trust" gate: passed only when nothing fails and nothing is
-    pending. A bounded benchmark is resolved, not passed: the readings it covers carry its range."""
-    open_ = [r["id"] for r in results if r["status"] in ("fail", "pending")]
+    pending. A bounded benchmark is resolved, not passed: the readings it covers carry its range. A
+    fail Espen has scoped out (r["scoped"], DEC-2026-11-12-11) is not open: the milestone counts as
+    met, and the one reading it covers stays out of decision and public figures."""
+    open_ = [r["id"] for r in results if r["status"] in ("fail", "pending") and not r.get("scoped")]
     bnd = [r["id"] for r in results if r["status"] == "bounded"]
+    nfv = [r["id"] for r in results if r.get("scoped")]
+    if nfv and not open_:
+        return ("**Milestone status: met, by Espen's decision (DEC-2026-11-12-11), with %s bounded and %s not fully validated.** No "
+                "other benchmark fails or is pending. %s %s outside %s tolerance for a cause the benchmark itself shows, and the readings "
+                "that depend on %s carry %s stated range (`MODEL-CARD.md`, \"What is bounded\"). %s still %s, and the one reading it "
+                "covers, the year-by-year timing of a single nondefense row's outlays and budget authority, stays out of decision and "
+                "public figures (`MODEL-CARD.md`, \"What is not fully validated\")." % (
+                    ", ".join(bnd) or "none", ", ".join(nfv), ", ".join(bnd), "is" if len(bnd) == 1 else "are",
+                    "its" if len(bnd) == 1 else "their", "it" if len(bnd) == 1 else "them", "its" if len(bnd) == 1 else "their",
+                    ", ".join(nfv), "fails" if len(nfv) == 1 else "fail"))
     if not open_ and not bnd:
         return "**Milestone status: passed.** Every benchmark passes."
     if not open_:
@@ -732,7 +764,7 @@ def milestone_line(results):
                                   "it" if len(bnd) == 1 else "them", "its" if len(bnd) == 1 else "their"))
     return ("**Milestone status: not passed.** %s %s not yet resolved, so B4 does not yet meet the workflow's \"benchmarks before trust\" "
             "condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public "
-            "figures (`MODEL-CARD.md`, \"What is not yet validated\")." % (", ".join(open_), "is" if len(open_) == 1 else "are"))
+            "figures (`MODEL-CARD.md`, \"What is not fully validated\")." % (", ".join(open_), "is" if len(open_) == 1 else "are"))
 
 
 def page(results):
@@ -744,7 +776,9 @@ def page(results):
          "",
          "**How to read it.** *pass*: within the stated tolerance. *fail*: outside it; the miss column gives the size. *bounded*: outside it, "
          "for a cause the benchmark itself shows (such as one act's mix of programs), with the miss carried as a stated range on every "
-         "reading that depends on it; the entry's bound says what. *pending*: there is "
+         "reading that depends on it; the entry's bound says what. *fail (not fully validated)*: a fail that Espen has scoped out of the "
+         "milestone by a recorded decision; the miss stays reported, and the one reading it covers stays out of decision and public "
+         "figures. *pending*: there is "
          "no target yet, because the source isn't in the library or the model can't compute the quantity. A miss is reported, never fixed "
          "by changing the model or the tolerance.",
          "",
@@ -761,7 +795,8 @@ def page(results):
             w += ["## " + group, ""]
         w += ["### %s. %s" % (r["id"], r["name"]), "",
               "- **Result:** %s%s" % (r["status"], (". Miss: " + r["miss"]) if r["miss"] else ""),
-              ] + (["- **Bound:** %s" % r["bound"]] if r.get("bound") else []) + [
+              ] + (["- **Bound:** %s" % r["bound"]] if r.get("bound") else []) + (
+              ["- **Status for the milestone:** %s" % r["scoped"]] if r.get("scoped") else []) + [
               "- **Model:** %s%s" % (_fmt(r["value"]), (" (%s)" % r["unit"]) if r["unit"] and r["value"] is not None else ""),
               "- **Target:** %s" % _fmt(r["target"]),
               "- **Tolerance:** %s" % r["tolerance"],
@@ -781,8 +816,10 @@ def page(results):
 def data_json(results):
     return json.dumps({"role": "Budget model benchmark results (B4), generated by models/tools/budget/test_benchmarks.py; do not edit by hand.",
                        "counts": _counts(results),
-                       "milestone_passed": not any(r["status"] in ("fail", "pending") for r in results),
-                       "open": [r["id"] for r in results if r["status"] in ("fail", "pending")], "benchmarks": results,
+                       "milestone_passed": not any(r["status"] in ("fail", "pending") and not r.get("scoped") for r in results),
+                       "milestone_basis": "DEC-2026-11-12-11" if any(r.get("scoped") for r in results) else None,
+                       "not_fully_validated": [r["id"] for r in results if r.get("scoped")],
+                       "open": [r["id"] for r in results if r["status"] in ("fail", "pending") and not r.get("scoped")], "benchmarks": results,
                        "uploads": [{"document": d, "unlocks": u} for d, u in UPLOADS]}, indent=1, sort_keys=False, default=float) + "\n"
 
 
@@ -828,6 +865,10 @@ class Benchmarks(unittest.TestCase):
                 self.assertTrue(r[k], "%s has no %s" % (r["id"], k))
             if r["status"] == "fail":
                 self.assertTrue(r["miss"], r["id"] + " fails without saying by how much")
+            if r.get("scoped"):
+                # only a fail can be scoped out, and only by a recorded decision of Espen's
+                self.assertEqual(r["status"], "fail", r["id"])
+                self.assertIn("DEC-", r["scoped"], r["id"])
             if r["status"] == "pending":
                 self.assertIn("ending", r["source"], r["id"] + " is pending without saying why")
 

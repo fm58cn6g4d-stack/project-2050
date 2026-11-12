@@ -35,7 +35,11 @@ What the money is ("kind"), each with one scoring method:
                  measures the difference. (The exact inverse, the only budget authority that
                  reproduces the outlays exactly, oscillates by several times a year's outlays,
                  because outlays jump from zero in FY2030; it is not a usable reading.) Years
-                 after FY2056 are extended at the row's FY2055-56 growth. The shares are history's
+                 after FY2056 are extended at the row's FY2055-56 growth. A new nondefense program
+                 that needs new rules or delivery infrastructure (spendout_group nondefense_new)
+                 uses a slower placeholder instead, five shares from CBO's estimates for ARRA and
+                 IIJA (spendout-new-programs.csv, ASM-SPENDOUT-NEW, DEC-2026-11-12-11): 10% in the
+                 first year rather than 25%. The shares are history's
                  shape, not CBO's account rates, so every discretionary budget-authority figure is
                  marked rough.
                  Highway, transit and airport grants under obligation limitations have
@@ -106,7 +110,7 @@ VEHICLES = ("regular_appropriations", "supplemental_emergency", "advance_appropr
             "reconciliation", "regular_order", "none", "unknown")
 METHODS = ("profile", "years", "components", "split", "climate", "dynamic", "not_scored")
 BUDGET_AUTHORITY = ("spendout", "outlays", "on_enactment", "none", "unknown")
-SPENDOUT_GROUPS = ("defense", "nondefense")
+SPENDOUT_GROUPS = ("defense", "nondefense", "nondefense_new")
 UNIFIED = ("same", "zero", "net_of_own_revenue")
 COLUMNS = ["id", "table", "parent", "label", "in_model", "category", "kind", "vehicle",
            "vehicle_source", "appropriation", "budget_authority", "spendout_group", "method",
@@ -455,8 +459,11 @@ def climate_path(spec, S=None, B=None):
 def _spendout(group):
     """B2's discretionary spend-out shares for a group (defense or nondefense), by year of
     spending (0-4 for defense, CBO's own rates; 0-3 for nondefense), as stored in
-    spendout-discretionary-cbo.csv (ASM-SPENDOUT)."""
-    rows = sorted((r for r in D.table("spendout-discretionary-cbo") if r["group"] == group),
+    spendout-discretionary-cbo.csv (ASM-SPENDOUT). nondefense_new, the placeholder for a new
+    nondefense program that needs new rules or delivery infrastructure (0-4), is in
+    spendout-new-programs.csv (ASM-SPENDOUT-NEW)."""
+    name = "spendout-new-programs" if group == "nondefense_new" else "spendout-discretionary-cbo"
+    rows = sorted((r for r in D.table(name) if r["group"] == group),
                   key=lambda r: int(r["year_of_spending"]))
     return [float(r["share"]) for r in rows]
 
