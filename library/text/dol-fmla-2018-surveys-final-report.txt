@@ -1,0 +1,3850 @@
+Source: https://www.dol.gov/sites/dolgov/files/OASP/evaluation/pdf/WHD_FMLA2018SurveyResults_FinalReport_Aug2020.pdf
+Publisher: Department of Labor, Wage and Hour Division
+Retrieved: 2026-11-12
+Original SHA-256: 1214213a884439464c7ac2b1e2cf99093dfbdc0624d71db8e60d9ec2ecb024ed
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Employee and Worksite Perspectives
+of the Family and Medical Leave Act:
+Results from the 2018 Surveys
+July 2020
+
+Subm itted to:
+
+Submitted by:
+
+A uthors:
+
+Kuang-chi Chang
+
+Abt Associates
+
+Scott Brown
+
+U.S. Department of Labor
+
+6130 Executive Boulevard
+
+Jane Herr
+
+The Chief Evaluation Office
+
+Rockville, MD 20852
+
+200 Constitution Avenue, NW
+
+Radha Roy
+Jacob Alex Klerman
+
+Washington, DC 20210
+
+This report was prepared for the U.S. Department of Labor (DOL), Chief Evaluation Office by Abt Associates, under contract
+number DOLO129633231/DOL-OPS-16-U-00141. The views expressed are those of the authors and should not be attributed to DOL,
+nor does mention of trade names, commercial products, or organizations imply endorsement of same by the U.S. government.
+
+ABSTRACT
+
+Abstract
+In 2018, Abt Associates surveyed worksites and employees about experiences with family and medical
+leave. The 2018 Worksite Survey includes sites that are covered by the Family and Medical Leave Act
+(FMLA) and those that are not covered. The 2018 Employee Survey includes employees who took leave,
+those who had an unmet need for leave, those with both met and unmet needs for leave, and those with
+neither. Some of the included employees are eligible for FMLA and some are not. The 2018 surveys
+update similar surveys conducted in 1995, 2000, and 2012. This document presents the findings of the
+surveys, including comparisons between worksites covered and not covered by FMLA, between
+employees eligible and ineligible for FMLA, and over time. In addition to this results report, there are a
+Methodology Report, Methodology Report Appendices, Supplemental Results volume, and a Public Use
+File Documentation volume.
+
+Abt Associates | 6130 Executive Boulevard | Rockville, MD 20852
+
+CONTENTS
+
+CONTENTS
+Executive Summary.....................................................................................................................i
+About the 2018 FMLA Surveys ......................................................................................... ii
+Summary of Major Findings .............................................................................................. ii
+Glossary......................................................................................................................................vi
+1.
+
+Introduction .....................................................................................................................1
+1.1. Background on the Family and Medical Leave Act .................................................. 1
+1.2. The Emergence of Paid Family Leave ..................................................................... 2
+1.3. Overview of the Report............................................................................................. 3
+
+2.
+
+FMLA Coverage and Eligibility: Current Rates and Public Knowledge ..................... 6
+2.1. Current Rates of FMLA Coverage and Eligibility...................................................... 6
+2.2. Worksite and Employee Knowledge About FMLA.................................................... 9
+2.3. Chapter Summary .................................................................................................. 14
+
+3.
+
+Leave Benefits...............................................................................................................15
+3.1. Access to Leave for Qualifying FMLA Reasons ..................................................... 15
+3.2. Evidence on the Availability of Paid Leave From the 2018 Worksite Survey ......... 18
+3.3. Evidence on Availability of Paid Leave From the 2018 Employee Survey ............. 21
+3.4. Chapter Summary .................................................................................................. 22
+
+4.
+
+Employee Leave Taking Rates and Reasons for Leave ............................................ 23
+4.1. Prevalence of Leave and Number of Leaves Taken .............................................. 23
+4.2. Reasons for Leave Taking ..................................................................................... 26
+4.3. Length of Leave......................................................................................................27
+4.4. Incidence of Intermittent Leave .............................................................................. 30
+4.5. Chapter Summary .................................................................................................. 32
+
+5.
+
+Leave Takers’ Experiences During and After Taking Leave ..................................... 33
+5.1. Pay and Benefits Received While Taking Leave.................................................... 33
+5.2. Financial Security While on Leave ......................................................................... 35
+5.3. Return to Work After Leave.................................................................................... 37
+5.4. Chapter Summary .................................................................................................. 40
+
+6.
+
+Employees’ Unmet Need for Leave ............................................................................. 41
+6.1. Leave Needed but Not Taken ................................................................................ 41
+6.2. Reasons for Needing Leave and for Not Taking Leave ......................................... 43
+6.3. Actions Taken in Lieu of Leave .............................................................................. 46
+6.4. Chapter Summary .................................................................................................. 47
+
+7.
+
+Worksite FMLA Policies, Practices, and Experiences Managing FMLA .................. 48
+7.1. Family and Medical Leave Policies and Administrative Procedures ...................... 48
+7.2. How Work Is Covered While Employees Are on Leave ......................................... 50
+7.3. Worksites’ Experiences Managing FMLA............................................................... 51
+7.4. Worksites’ Views on the Effects of FMLA............................................................... 53
+7.5. Chapter Summary .................................................................................................. 54
+
+8.
+
+Conclusion.....................................................................................................................55
+
+Appendix A. Overview of Study Methodology ....................................................................... 57
+A.1 2018 Employee Survey .......................................................................................... 57
+
+CONTENTS
+
+A.2 2018 Worksite Survey ............................................................................................ 59
+References.................................................................................................................................62
+
+CONTENTS
+
+List of Exhibits
+Exhibit 1-1. State paid family leave laws in 2018, by year enacted........................................ 4
+Exhibit 2-1. Percentage of U.S. labor force eligible for FMLA, by year .................................. 7
+Exhibit 2-2. Percentage of employees eligible for FMLA and reasons for ineligibility, by
+demographics...................................................................................................... 8
+Exhibit 2-3. Simulated percentage of employees eligible for FMLA, based on changes in
+minimum hours worked and worksite size requirements compared to current
+policies ................................................................................................................ 9
+Exhibit 2-4. Percentage of worksites correctly and incorrectly self-reporting whether they
+are covered by FMLA, by worksite and firm size............................................... 10
+Exhibit 2-5. Percentage of employees aware of FMLA, by select subgroups ...................... 11
+Exhibit 2-6. Employee knowledge of qualifying FMLA reasons............................................ 12
+Exhibit 2-7. Percentage of employees eligible for FMLA, by estimated and self-reported
+eligibility and employee characteristic .............................................................. 13
+Exhibit 3-1. Percentage of employees with access to leave for qualifying FMLA reasons,
+by whether worksite is covered by FMLA ......................................................... 17
+Exhibit 3-2. Percentage of employees offered pay among worksites that offer leave for
+at least one qualifying FMLA reason, by whether worksite is covered by
+FMLA................................................................................................................. 19
+Exhibit 3-3. Paid leave benefits offered to employees, by whether all, some, or no
+employees at the worksite are offered benefit .................................................. 19
+Exhibit 3-4. Percentage of employees at worksites that offer paid leave benefits to all
+employees at the worksite, by benefit type and whether worksite is covered
+by FMLA ............................................................................................................ 20
+Exhibit 3-5. Percentage of employees with access to paid leave, by type of leave and
+select subgroups ............................................................................................... 21
+Exhibit 4-1. Percentage of employees who took leave in the past 12 months for a
+qualifying FMLA reason, by select subgroups................................................... 24
+Exhibit 4-2. Percentage of employees who took leave in the past 12 months for a
+qualifying FMLA reason, by demographic characteristics ................................. 25
+Exhibit 4-3. Percentage of U.S. labor force taking leave for qualifying FMLA reasons in
+the past 12 months, by year .............................................................................. 26
+Exhibit 4-4. Reasons for taking most recent leave in past 12 months.................................. 27
+Exhibit 4-5. Average length of most recent leave for a qualifying FMLA reason in past 12
+months, by select subgroups (in business days)............................................... 28
+Exhibit 4-6. Average length of most recent leave for a qualifying FMLA reason in past 12
+months, by demographic characteristics (in business days) ............................. 29
+Exhibit 4-7. Length of most recent leave for a qualifying FMLA reason in past 12
+months, by percentage of all leaves and percentage of all days of leave
+taken (in business days).................................................................................... 30
+
+CONTENTS
+
+Exhibit 4-8. Percentage of intermittent leaves taken in past 12 months, by characteristics
+of most recent leave .......................................................................................... 31
+Exhibit 5-1. Percentage of employees receiving full, partial, or no pay while on most
+recent leave in the past 12 months, overall and by select subgroups ............... 34
+Exhibit 5-2. Source of pay received among all employees who received pay while on
+most recent leave in the past 12 months........................................................... 34
+Exhibit 5-3. Percentage of employees receiving full, partial, or no pay while on most
+recent leave in the past 12 months, by length of leave ..................................... 35
+Exhibit 5-4. Percentage of employees experiencing degrees of financial difficulty in
+“making ends meet” while on leave among employees who receive partial or
+no pay while on leave, by length of leave.......................................................... 36
+Exhibit 5-5. Methods used to cover lost earnings during leave among employees who
+receive partial or no pay while on leave, based on most recent leave in past
+12 months.......................................................................................................... 37
+Exhibit 5-6. Reasons for returning to work ........................................................................... 38
+Exhibit 5-7. Percentage of employees experiencing negative effects from taking leave,
+by select subgroups .......................................................................................... 39
+Exhibit 6-1. Percentage of employees with unmet need for leave in past 12 months for a
+qualifying FMLA reason, by select subgroups................................................... 42
+Exhibit 6-2. Percentage of employees with unmet need for leave in the past 12 months
+for a qualifying FMLA reason, by demographic characteristics ......................... 43
+Exhibit 6-3. Reasons that needed leave in the past 12 months was not taken .................... 45
+Exhibit 6-4. Actions taken by employees with unmet need for leave in lieu of taking
+leave, by reason leave was needed .................................................................. 46
+Exhibit 7-1. Reasons for denial of leave among worksites covered by FMLA that have
+denied any FMLA leave requests from eligible employees in the past 12
+months............................................................................................................... 49
+Exhibit 7-2. Method most frequently used by worksites for covering work when
+employees take leave for a week or longer....................................................... 50
+Exhibit 7-3. Worksites’ reported difficulty in dealing with different types of leave ................ 51
+Exhibit 7-4. Reported difficulty in complying with FMLA among worksites covered by
+FMLA................................................................................................................. 52
+Exhibit 7-5. Reported difficulty conducting activities related to FMLA among worksites
+covered by FMLA .............................................................................................. 52
+Exhibit 7-6. Perceptions of overall effect of complying with FMLA among worksites
+covered by FMLA .............................................................................................. 53
+Exhibit 7-7. Share of worksites reporting higher FMLA compliance costs over time
+among worksites covered by FMLA .................................................................. 53
+Exhibit 7-8. Perceived impact of intermittent leaves among worksites covered by FMLA
+with any intermittent leaves in the past 12 months............................................ 54
+
+CONTENTS
+
+Exhibit A-1. Completed 2018 Employee Survey interviews and weighted sample, by
+respondent type................................................................................................. 58
+Exhibit A-2. Key characteristics of the 2018 FMLA Employee Survey sample ..................... 59
+Exhibit A-3. Completed 2018 Worksite Survey interviews and weighted sample, by
+respondent type................................................................................................. 60
+Exhibit A-4. Key characteristics of the 2018 FMLA Worksite Survey sample ....................... 61
+Exhibit A-5. Comparison of distribution of worksite size, by weighting structure .................. 61
+
+ACKNOWLEDGEMENTS
+
+Acknowledgements
+The report is a collaboration of the United States Department of Labor’s Chief Evaluation Office (CEO),
+Wage and Hour Division (WHD), and Abt Associates. The authors gratefully acknowledge the efforts of
+many individuals who assisted in the completion of this report. Christina Yancey, Kuang-chi Chang, and
+Samuel Rowe from CEO provided invaluable guidance throughout the study. In addition, Helen
+Applewhaite, Karen Livingston, Christine Schott and Sherry Trout from WHD and Gretchen Livingston,
+Liana Christin Landivar, Mark DeWolf, and Tiffany Boiman from the Women’s Bureau provided
+insightful feedback on the draft report. The team thanks the study’s Technical Working Group for their
+thoughtful review and feedback: Ann Bookman, Christopher Ruhm, Jolene Smyth, Jane Waldfogel, and
+Christine Walters.
+At Abt Associates, Glen Schneider served as the Principal Investigator, providing valuable feedback and
+guidance throughout the study. In addition, Elizabeth Giardino and Maureen Sarna contributed to early
+drafts of the introductory chapter and helped with quality control. Jessie Bristol, Kelly Lack, Tyler
+Morrill, and Sarah Prenovitz contributed to the survey data analyses. Puneet Kaur, Jessica Kerbo,
+Katheleen Linton, Missy Robinson and Charmayne Walker provided production and graphic design
+support. The team also is appreciative of the role of Bry Pollack in editing the report.
+The Worksite Survey was fielded under the leadership of Julie Pacer. Michelle Kahmann and Stan Hsieh
+oversaw the Employee Survey. Ricki Jarmon served as Survey Quality Advisor for data collection. Stas
+Kolenikov led the technical design and weighting effort. Marci Schalk and Michael Witt also contributed
+to the technical design and related analyses.
+
+EXECUTIVE SUMMARY
+
+Executive Summary
+In 1993, the United States Congress passed the Family and Medical Leave Act (FMLA), updating it in the
+years since. 1 The FMLA guarantees eligible employees working for covered employers up to 12
+workweeks of unpaid leave for certain qualifying reasons. It requires the employers to maintain group
+health insurance coverage for the employee (if coverage was in place before the leave); and at the end of
+the leave, employers must restore the employee to his or her original (or an equivalent) job. To
+understand how employees and employers understand and experience the FMLA, the U.S. Department of
+Labor surveyed employees and employers in 1995, 2000, 2012, and 2018. This chapter summarizes the
+conduct of the 2018 surveys and major findings from the present report.
+Certain definitions, exclusions, and conditions apply, but in general:
+•
+
+Employees are eligible for FMLA if they have worked for a covered employer (see below) for at
+least 12 months, have at least 1,250 hours of service for this employer in the past 12 months, and
+are at a physical work location (“worksite”) where at least 50 employees work within 75 miles of
+this location.
+
+•
+
+A private-sector employer (“firm”) is covered by the FMLA (i.e., must follow its regulations) if it
+employs 50 or more employees (combined across all of its worksites) in 20 or more calendar
+weeks in the current or preceding calendar year. All public agencies, including local, state, and
+federal employers, and local education agencies (school systems), are covered regardless of their
+number of employees. 2
+
+•
+
+Qualifying FMLA reasons include the employee’s own serious health condition (including
+pregnancy); caring for an immediate family member (spouse, parent, child) with a serious health
+condition; caring for or bonding with a new child (birth, adoption, foster placement) in the first
+year; and leave related to a family member’s service in the military. 3
+
+Whether a specific employee of a covered employer is eligible and whether the employee’s reason for
+leave is qualifying are separate determinations. Some states have programs that provide at least some pay
+for some forms of family and medical leave; in other states, that decision belongs to the employer.
+The next sections describe the conduct of the “2018 FMLA Surveys” and summarize their major findings,
+with limited comparisons to the earlier surveys.
+
+1
+
+Amendments in 2008 added two special military leave provisions and updated and clarified the regulations. See
+Public Law 110-181 § 585; https://www.congress.gov/110/plaws/publ181/PLAW-110publ181.pdf.
+
+2
+
+Note that it is possible for a covered worksite not to have any employees eligible for FMLA leave when the
+worksite has fewer than 50 employees within 75 miles of the location. Some FMLA regulations, such as notice
+requirements, apply to all worksites of covered employers, even if there are no eligible employees at a particular
+worksite. https://www.dol.gov/agencies/whd/fact-sheets/28d-fmla-employer%20notification
+
+3
+
+FMLA regulatory definitions of “parent” and “child” also include “in loco parentis” relationships—those who are
+or have previously had day-to-day responsibilities to care for or financially support a child. Military caregiver
+leave also includes “next of kin” of a servicemember or covered veteran, who is the nearest blood relative, other
+than the servicemember or veteran’s spouse, parent, son, or daughter.
+https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/whdfs28mb.pdf
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌i
+
+EXECUTIVE SUMMARY
+
+About the 2018 FMLA Surveys
+The fourth wave consisted of two separate surveys, one for employees and one for worksites. Each survey
+was conducted with a combination of phone and web responses.
+•
+
+The 2018 Employee Survey targeted non-institutionalized adults aged 18 or older who lived in
+the United States and were employed for pay (private sector or public agency) in the 12 months
+prior to the interview, excluding self-employed persons. The survey asked respondents about their
+employment, leave taking and leave needing for family or medical reasons in those 12 months.
+The weighted survey response rates were 5.8 percent for cell phones, 5.5 percent for landlines,
+and 5.5 percent for the web. 4 A total of 4,470 interviews were completed: 739 (17 percent) by
+phone and 3,731 (83 percent) via the web.
+
+•
+
+The 2018 Worksite Survey targeted U.S. worksites of covered and non-covered privately owned
+employers (“firms”), where “worksite” means the single physical location or address where
+business is conducted or where services or industrial operations are performed. Thus, a firm could
+have multiple worksites. The survey asked respondents to report on their experiences with FMLA
+and employee leave taking more generally for a 12-month reference period of their choosing
+(e.g., prior calendar year or prior fiscal year). The overall weighted survey response rate was 7.0
+percent. A total of 2,206 interviews were completed: 315 (14 percent) by phone and 1,891 (86
+percent) via the web.
+
+The analysis incorporated several statistical methods to assure that the tabulations of the Employee and
+Worksite Survey results are nationally representative. Study analyses used sampling weights to adjust for
+stratified sampling design (by industry, worksite size, and paid leave state status for the Worksite Survey),
+multiple sampling frames (phone and web for the Employee Survey), and survey non-response (e.g.,
+demographic differences in response rates). The composite weights accounting for these factors resulted
+in a sample for the 2018 Employee Survey that was representative of U.S. employees. The resulting 2018
+Worksite Survey sample is representative of private U.S. employers.
+All leave versus leave for qualifying FMLA reasons. To gain a broader perspective on use of and need
+for leave in the U.S., the 2018 Employee Survey asked about leave taken or needed for qualifying FMLA
+reasons (see definition above) and, additionally, for non-immediate family members’ serious health
+conditions (which usually do not qualify under FMLA). Findings that apply only to leave taken or needed
+for qualifying FMLA reasons are always explicitly noted as such. When “leave” is used without
+specifying “for a qualifying FMLA reason,” it refers to the broadest definition used in the survey that
+includes both qualifying FMLA reasons and non-immediate family member’s serious health conditions
+(but excludes other non-qualifying reasons for leave, such as taking a vacation or a doctor visit for the
+common cold).
+
+Summary of Major Findings
+Most of the estimates are similar to those from the surveys in the previous wave in 2012. Estimates that
+have changed substantially are explicitly noted.
+
+4
+
+Because phone response rates were very low in the first few months of data collection for the Employee Survey,
+the study added a web survey. The web survey was conducted by contacting eligible members of a nationally
+representative, probability-based online panel (Ipsos KnowledgePanel), who then completed the survey online.
+See https://www.ipsos.com/en-us/solutions/public-affairs/knowledgepanel. The 2012 Employee Survey was
+conducted by phone only, with an overall response rate of 15.1. Typical of recent research generally, the drop in
+response is likely due to societal, demographic, and technology changes.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌ii
+
+EXECUTIVE SUMMARY
+
+Understanding FMLA
+•
+
+Overall, 56 percent of U.S. employees are eligible for FMLA on the basis of employees’ report of
+their employment tenure, hours worked, and worksite size.
+
+•
+
+Only 10 percent of worksites in the private sector are part of firms large enough to be covered by
+FMLA (based on employer-reported size), but they employ 59 percent of private sector employees.
+
+•
+
+More than three-quarters of U.S. employees have heard of FMLA, but many have gaps in their
+understanding of its policies.
+
+The portion of employees having heard of FMLA has risen since the 2012 survey, from 66 percent to 76
+percent. Among employees who have heard of FMLA, about one-quarter (27 percent) believe they are
+eligible when their self-reported tenure, hours worked, or worksite size would not meet eligibility
+requirements. More than half (56 percent) believe that FMLA covers more situations than it does (e.g.,
+care for a sibling or grandchild with a serious health condition generally does not qualify).
+
+Access to Leave for Qualifying FMLA Reasons
+•
+
+Private-sector employees at worksites covered by FMLA and those at worksites not covered by
+FMLA have substantially different access to leave for qualifying FMLA reasons.
+
+Overall, most (82 percent) private-sector employees are at worksites that report providing access to some
+form of leave for at least one qualifying FMLA reason. Access to such leave varies by whether or not a
+worksite is covered by FMLA. At worksites covered by FMLA, almost all employees (97 percent) have
+access to leave for a qualifying FMLA reason (and leave taken for this reason could be designated as
+FMLA-protected if the employee is eligible). 5 At worksites not covered by FMLA, only about half (53
+percent) of employees have access for one or more of the qualifying FMLA reasons as specified by their
+employer. Rates in 2018 at both worksites covered and not covered by FMLA are lower than in 2012 (99
+percent and 89 percent, respectively).
+
+Needing vs. Taking Leave
+•
+
+Overall, 15 percent of U.S. employees report taking leave for a qualifying FMLA reason in the past
+12 months.
+
+Among employees who took leave for a qualifying FMLA reason, about a third (31 percent) took multiple
+occasions of leave for the same reason, termed “intermittent leave”—a rate higher than in 2012 (24
+percent). Having taken more than one leave for different qualifying FMLA reasons in the same 12 months
+is also fairly common (32 percent of employees who took leave for a qualifying FMLA reason). The
+average length of leave for a qualifying FMLA reason is 28 business days, which is shorter than in 2012
+(35 business days).
+Leave for the employee’s own serious health condition (51 percent) and the arrival of a new child (25
+percent) together account for more than three-quarters of leaves taken (including both leaves for
+qualifying FMLA reasons and those for non-immediate family members’ serious health conditions).
+
+5
+
+For example, an employee with access to leave for the birth of a new child could take leave for that reason.
+However, if the employee is a new hire and needs to take leave for this reason one month after starting the job,
+they would not yet be eligible for FMLA leave because they have not met the minimum tenure requirement.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌iii
+
+EXECUTIVE SUMMARY
+
+•
+
+Low-wage employees report needing but not taking leave for a qualifying FMLA reason more often
+than other employees.
+
+“Unmet need” is needing but not taking leave (which excludes employees who take leave but then end
+their leave despite perceiving a need for additional time on leave).
+Overall, 7 percent of employees report unmet need for leave for a qualifying FMLA reason in the past 12
+months, an increase from 5 percent in 2012. Reporting unmet need for leave for a qualifying FMLA
+reason is more common among “low-wage workers” (9 percent), defined as those making less than $15
+per hour, than among other workers (6 percent).
+Findings on reasons for not taking needed leave and how unmet need was addressed additionally include
+employees who had unmet need for leave to care for a serious health condition of a non-immediate family
+member. The most common reason employees give for not taking needed leave is inability to afford
+unpaid leave (66 percent). The next most common is fear of losing their job (45 percent). Employees
+address unmet need for leave for their own or another person’s health condition most commonly by
+postponing (44 percent) or forgoing (39 percent) medical treatment.
+•
+
+Most employees return from leave to their same employer and job.
+
+After taking leave, most employees (87 percent) return to work at their same employer and position. More
+low-wage workers (18 percent) than other workers (5 percent) report losing a job as a result of taking
+leave.
+
+Paid vs. Unpaid Leave
+
+“Paid leave” can include employer-offered paid family leave (e.g., maternity or paternity leave), paid sick
+leave, paid vacation, temporary disability insurance pay, or other sources of employer or state-offered
+paid time off. The findings presented on paid leave use the broader definition of leave that includes
+qualifying FMLA reasons and non-immediate family member’s serious health conditions.
+•
+
+Almost three-quarters of employees (73 percent) report having access to paid leave for their own
+illness or medical care.
+
+Eligible employees (83 percent) more often report having access to paid leave for their own illness or
+medical care than do ineligible employees (62 percent). Low-wage workers (52 percent) less commonly
+report having access to paid leave for their own illness or medical care than do other workers (80
+percent).
+•
+
+Among employees who reported taking leave in the past 12 months, 42 percent received full pay, 24
+percent received partial pay, and 34 percent received no pay while on leave.
+
+Low-wage workers (61 percent) are more likely to receive no pay while on leave than are other workers
+(20 percent).
+•
+
+Two-thirds (67 percent) of employees who receive partial or no pay while on leave report
+experiencing financial difficulty in making ends meet.
+
+Employees use a variety of strategies to cover lost earnings. More than three-quarters (76 percent) report
+limiting their spending. About two-fifths (43 percent) report using money saved in anticipation of needing
+leave. They also report using savings intended for something else (34 percent), borrowing money (31
+percent), putting off paying bills (27 percent), cutting leave short (27 percent), and going on public
+assistance (17 percent).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌iv
+
+EXECUTIVE SUMMARY
+
+Worksite Perspectives of FMLA
+•
+
+More than 95 percent of worksites covered by FMLA report positive or neutral perceptions of the
+overall effect of FMLA on their productivity, profitability, and employees.
+
+Only 4 percent of worksites covered by FMLA report its effect overall as negative; 32 percent report its
+effect overall as positive.
+•
+
+More than 90 percent of worksites covered by FMLA report no difficulty in complying with FMLA
+requirements overall.
+
+Asked about specific compliance activities, few worksites covered by FMLA report that coordinating
+their leave and attendance policies with the FMLA (5 percent) or with local (6 percent) and state (8
+percent) leave policies is “very difficult.”
+•
+
+Some worksites report difficulty covering work during employees’ leave.
+
+Difficulty varies by the type and length of leave taken. Some worksites report it is “very difficult” to deal
+with employees’ planned short-term (11 percent) or planned intermittent leaves (13 percent). More
+worksites report it is “very difficult” to deal with employees’ unplanned intermittent leaves (25 percent)
+and planned long-term leaves (29 percent), though these kinds of leave are less common.
+More than half (58 percent) of worksites report they most commonly cover the work of an employee on
+leave for a week or longer (whether FMLA-designated leave or not) by temporarily assigning work to
+other employees.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌v
+
+GLOSSARY
+
+Glossary
+This glossary defines key terms used in this report,
+listed in alphabetical order. Underlined words in
+definitions indicate cross-references to other terms
+in this section.
+Care recipient. The person for whom a survey
+respondent has a need to take leave to provide
+care. Although only a subset of family
+relationships are eligible under FMLA, survey
+respondents were asked to report on leave taking
+or need to care for any person, which is why the
+care recipient as defined in this report does not
+have to be an immediate family member. (Military
+caregiver leave includes next of kin, which
+includes a broader set of relationships than
+immediate family members. 6)
+
+Qualifying FMLA Reasons
+The following family and medical reasons qualify an
+employee for leave under FMLA:
+• The employee’s own serious health condition;
+• To care for and/or bond with the employee’s new child
+by birth, adoption, or foster placement, within the first
+year;
+• To care for a spouse, parent, or child (immediate family
+member) with a serious health condition;
+• For any qualifying exigency arising from the active
+military duty of the employee’s immediate family
+member;
+• To care for a family member who is a covered
+servicemember with a serious injury or illness incurred
+or aggravated in the line of duty (up to 26 work weeks of
+leave allowed in a 12-month period).
+
+Covered by FMLA. (1) Private-sector employers
+(firms) with at least 50 employees during 20 or
+more calendar workweeks in either the current or
+the preceding calendar year are “covered” by FMLA, meaning they must follow its regulations. 7 (2) All
+public agencies and local education agencies (schools) are covered by FMLA, regardless of their number
+of employees. For brevity, this report uses “worksites covered by FMLA” to refer to worksites that are
+part of an employer that is covered by FMLA. Note that if an employer is covered by FMLA, then all of
+its worksites are covered by FMLA whether or not they have any eligible employees, which is a separate
+determination (a worksite covered by FMLA will not have any FMLA-eligible employees if it has fewer
+than 50 employees on site and/or within 75 miles of the worksite, even if the employer it is a part of is
+covered).
+
+6
+
+“Next of kin” of a covered veteran is the nearest blood relative, other than the veteran’s spouse, parent, son, or
+daughter. In order of priority, these include: 1) a blood relative who has been designated in writing by the
+servicemember as the next of kin for FMLA purposes, 2) blood relative who has been granted legal custody of
+the servicemember, 3) brothers and sisters, 4) grandparents, 5) aunts and uncles, 6) first cousins (see DOL, 2013
+for additional information).
+
+7
+
+This definition of FMLA coverage for worksites follows the definition used in the Wave 3 (2012) report and
+aligns with current FMLA regulations (29 CFR § 825.104). The 2018 definition differs from the definition used
+in the Wave 1 (1995) and Wave 2 (2000) reports, which used coverage to refer to a worksite that had at least 50
+employees on site and/or within 75 miles. The 2018 Worksite Survey reports on only private-sector firms, so the
+term worksite covered by FMLA in this report refers to a worksite that is part of a private-sector firm with at least
+50 employees. Chapter 2 reports the percentage of worksites covered by FMLA based both (1) on a yes/no survey
+question (self-reported covered status) and (2) on worksite self-report of the number of employees at the firm the
+worksite is part of (estimated covered status). For purposes of this report, worksite self-reported covered status is
+used to define whether or not a worksite is treated as a worksite covered by FMLA (unless otherwise specified)
+and is the basis for subgroup analyses by covered status in this report.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌vi
+
+GLOSSARY
+
+Eldercare. Care provided for an adult aged 65
+years or older with age-related physical or mental
+impairments not related to a serious health
+condition. (This is the definition provided to
+survey respondents.)
+Eligible employee. Employees are eligible to take
+FMLA-designated leave if (1) their employer is
+covered by FMLA; (2) they work at a worksite of
+a covered employer where at least 50 employees
+are on site and/or within 75 miles; 8 (3) they have
+worked for their employer for at least 12 months;
+and (4) they have at least 1,250 hours of service
+for their employer in the 12 months before they
+need leave (see 29 C.F.R. § 825.110). 9 Employees
+not eligible for FMLA are referred to as ineligible
+employees. 10
+Employer. A private-sector firm, public agency,
+or local education agency.
+
+Survey Definition of
+“Serious Health Condition”
+Survey respondents were provided with the following
+summary definition of a “serious health condition” when
+asked about whether they had taken or needed leave from
+work (see 29 CFR § 825.113 – 115 for regulatory
+definition):
+• it lasted more than three days and required the
+treatment of a medical care provider,
+• it led to an overnight stay in the hospital,
+• it is an ongoing condition for which one must see a
+healthcare provider at least twice per year,
+• it makes the individual permanently unable to work or
+perform other daily duties and requires continuing
+supervision of a health care provider, or
+• it requires treatment to keep the individual from
+becoming incapacitated.
+
+Firm. In this report, refers to all of a private-sector
+employer’s employees and its worksites.
+FMLA-designated leave. Defined in this report as a leave taken from work for a qualifying FMLA
+reason by an FMLA eligible employee. To meet this definition, the eligible employee must request leave
+for a qualifying FMLA reason, and the employer must designate the employee’s leave as FMLAqualifying leave. (An employer covered by FMLA is required to notify an eligible employee of their
+rights under FMLA if the employer is aware that the employee is requesting leave for a qualifying FMLA
+reason.)
+Immediate family member. See text box on definition of spouse, parent, child, and in loco parentis. 11
+An individual who does not meet any of these definitions is described as a non-immediate family
+member in this report.
+
+8
+
+For this report, determination of whether the employee meets this criterion is based on self-reported information
+in the Employee Survey about whether the number of employees at the employee’s worksite meets this
+definition. Note that worksites with fewer than 50 employees are still covered by FMLA if their employer is
+covered, but they would not have any eligible employees per this definition. Worksite Survey responses about
+worksite size are not used to define whether a respondent to the Employee Survey is considered an eligible
+employee.
+
+9
+
+A special rule applies to the hours of service requirement for airline flight crew employees, including pilots, copilots, flight attendants, and flight engineers. This rule does not apply to other employees of the airlines, such as
+reservation clerks and baggage handlers.
+
+10
+
+This definition is the basis for estimates of employees who are eligible for FMLA and for subgroup analyses
+presented in this report. (Employees were also asked to self-report whether they were eligible; differences
+between estimated and self-reported employee eligibility are discussed in Chapter 2 of this report.)
+
+11
+
+The survey did not specify whether the spouse, parent, or child was an in loco parentis relationship or not and did
+not specifically ask about in loco parentis relationships.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌vii
+
+GLOSSARY
+
+Intermittent leave. A leave that is taken on
+separate occasions rather than all at once, but is
+taken for the same reason for leave (e.g., weekly
+chemotherapy appointments for cancer).
+Leave. A period of time away from work
+(continuously or on multiple occasions) for a
+single family or medical reason included in the
+list of qualifying FMLA reasons (see text box),
+but also including leaves taken to care for a
+serious health condition of an individual who
+does not qualify as an immediate family
+member. 12 (Multiple occasions of time off for the
+same reason are considered a single leave; see
+intermittent leave and leave occasion for
+additional information.) It includes both FMLAeligible and ineligible employees. This definition
+of leave does not include time away from work
+for health reasons that would not qualify as a
+serious health condition (e.g., common cold,
+caring for a child who needs to stay home from
+school for a day due to non-serious illness) or
+other family reasons that are not qualifying
+FMLA reasons (e.g., funeral attendance, childcare
+needs not related to a new child). 13
+
+FMLA Definitions of “Parent,” “Child,”
+“Spouse,” and “In Loco Parentis”
+(“Immediate Family Members”)
+• Parent. A biological, adoptive, step or foster father or
+mother, or any other individual who stood in loco
+parentis to the employee when the employee was a
+child.
+• Child. A biological, adopted, or foster child, stepchild,
+legal ward, or child of a person standing in loco parentis,
+who is under 18, or 18 or older and “incapable of selfcare because of a mental or physical disability” at the
+time that FMLA leave is to commence.
+• Spouse. A husband or wife as defined or recognized in
+the state where the individual was married and includes
+individuals in common law marriage or same-sex
+marriage.
+• In Loco Parentis. A person stands in loco parentis if
+that person provides day-to-day care or financial support
+for a child. Employees with no biological or legal
+relationship to a child can stand in loco parentis to that
+child.
+
+Leave for a qualifying FMLA reason. This definition is narrower than the definition of leave because it
+is limited to the family relationships specified in the qualifying FMLA reasons (see text box). It is broader
+than FMLA-designated leave because leave for a qualifying FMLA reason includes both (1) ineligible
+employees who take leave for qualifying FMLA reasons and (2) eligible employees who take leave for
+qualifying FMLA reasons but either (a) do not provide sufficient information to their employer for the
+employer to know the leave should be designated as leave under FMLA or (b) do not meet their
+employer’s policies for taking leave under FMLA (e.g., advance notice or medical certification).
+
+12
+
+Survey respondents were provided with a definition of the term serious health condition. Because the survey did
+not specifically collect information on in loco parentis relationships or the disability status of older children,
+results in this report would capture these leaves under the definition of leave, but would not capture them in
+analyses restricted to leave for a qualifying FMLA reason or whether FMLA-eligible leaves are taken to care for
+such family members.
+
+13
+
+Specifically, when asking about any leave needing or leave taking, the survey offers the following reasons: (1) to
+care for a newborn, newly adopted, or new foster child (includes both maternity and paternity leave); (2) for your
+own serious health condition or to care for someone else’s serious health condition; (3) for your own or a family
+member’s (or another adult’s) pregnancy-related reasons; or (4) to care for a military servicemember, or for
+reasons related to the deployment of a military servicemember. The survey then confirms the specific reason(s)
+for needing or taking leave, which is used to determine whether or not the leave is for a qualifying FMLA reason
+(e.g., child’s, spouse’s, or parent’s serious health condition).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌viii
+
+GLOSSARY
+
+Leave length. The length of a single leave is calculated as the number of business days a leave taker was
+away from work. 14 (Leave length for intermittent leave is the time the employee was actually away from
+work. For example, intermittent leave taken for 16 one-hour weekly chemotherapy treatments would
+equate to 2 eight-hour business days on leave.)
+Leave needer. For purposes of this report, an employee who needed to take leave from work during the
+12-month survey reference period but did not do so (employees who took leave but then ended their leave
+despite perceiving a need for additional time on leave would be classified as leave takers and not as leave
+needers; see unmet need for leave and definition of leave for included and excluded reasons for needing
+leave).
+Leave occasion. For intermittent leaves, a leave occasion represents each instance of time away from
+work during a single leave (e.g., for intermittent leave taken for a weekly chemotherapy appointment, it
+would be the number of appointments when leave was taken).
+Leave taker. For purposes of this report, an employee who took leave from work during the 12-month
+survey reference period. A leave taker can be either an FMLA-eligible employee or an ineligible
+employee, and leave may be taken for qualifying FMLA reasons or non-qualifying reasons (See definition
+of leave for reasons for leave included and excluded.)
+Low-wage worker. An employee who is paid less than $15 per hour. For this report, respondents who
+provided insufficient information to calculate their hourly wage (earnings and hours worked) had their
+low-wage status estimated based on demographic and other employment information provided. A nonlow-wage worker is an employee who is paid $15 per hour or more.
+Paid leave. A leave from work for a family or medical reason during which the employee receives partial
+or full pay. Pay while on leave could include employer-offered paid family leave (e.g., maternity or
+paternity leave), paid sick time, vacation pay, temporary disability insurance pay, or other sources of
+employer- or state-offered paid time off. For respondents living in a paid leave state, pay while on leave
+could also include state-offered family or medical leave pay.
+Paid leave state. States with their own paid leave laws. At the time of this study, paid leave laws were in
+effect in California, New Jersey, New York, and Rhode Island. (Massachusetts, Washington State, and the
+District of Columbia had enacted laws that had not yet gone into effect.)
+Public agency and local education agency. Federal, state, or local government agencies and local
+education agencies (public school boards, public elementary and secondary schools, and private
+elementary and secondary schools) are automatically covered by FMLA, regardless of the number of
+employees they employ. The number of employees at a public agency or local education agency worksite
+does matter for determining whether there are eligible employees at such worksites.
+Serious health condition. For purposes of the survey, a summary definition of a “serious health
+condition” was provided to survey respondents when asking about whether they had taken or needed
+leave in the past 12 months (see call-out box). This summary definition is based on the FMLA regulatory
+definition, as specified in 29 CFR § 825.113 – 115, which defines a serious health condition to include an
+illness, injury, impairment, or physical or mental condition that involves inpatient care or continuing
+
+14
+
+On the survey, leave length could be reported in hours, days, weeks, or months. Units other than days are
+converted to business days as follows: leave hours ÷ 8 hours per day; weeks × 5 days per week; months × 22.5
+business days per month. For leaves that were ongoing at the time of the interview, leave length was estimated to
+be twice the length of leave already taken as of that time.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌ix
+
+GLOSSARY
+
+treatment by a health care provider. 15 (Although pregnancy is included in the FMLA regulatory definition
+of a serious health condition, it was addressed as a separate, specific reason for leave in the survey and
+thus was not specifically mentioned in the survey definition provided to respondents.) Given that the
+summary definition is what was provided to respondents, survey responses should be interpreted in light
+of this definition (even though it is not the precise regulatory definition).
+Unmet need for leave. An instance in which an employee needed to take leave from work for a family
+or medical reason but did not do so. (This does not include instances in which the employee took leave
+but then ended their leave despite perceiving a need for additional time on leave). See leave for reasons to
+take leave that are included and excluded from “unmet need.”)
+Worksite. A single physical location (or address) where business is conducted or where services or
+industrial operations are performed. Under FMLA, this term applies to private-sector and public agency
+employers. The 2018 Worksite Survey sample, however, is restricted to worksites that are part of a
+private-sector firm; the sample excludes both public agencies and workers who are self-employed without
+employees (see the Methodology Report for additional detail on survey sample and coverage). For this
+reason, reported estimates based on the Worksite Survey should be interpreted as reflecting employees
+and worksites that are part of U.S. private-sector business establishments.
+Worksite covered by FMLA with FMLA-eligible employees. All worksites of employers covered by
+FMLA are covered by FMLA (whether or not they have any FMLA-eligible employees). If a worksite
+covered by FMLA has 50 or more employees working onsite and/or within 75 miles of the worksite, then
+that worksite’s employees can be eligible for FMLA leave if they meet additional eligibility requirements.
+Thus, an employee’s eligibility for FMLA is based on worksite size and not solely on whether their
+worksite is covered by FMLA. (A worksite covered by FMLA will not have any employees eligible for
+leave under FMLA if it has fewer than 50 employees on site and/or within 75 miles of the worksite, even
+if the employer it is a part of is covered.)
+
+15
+
+For purposes of the FMLA, “inpatient care” requires an overnight stay in a hospital, hospice, or residential
+medical care facility, and includes any period of incapacity or any subsequent treatment in connection with such
+inpatient care (29 C.F.R. § 825.114).
+A serious health condition involving “continuing treatment” by a health care provider includes any one or more
+of the following (29 C.F.R. § 825.115): 1) A period of incapacity of more than three consecutive, full calendar
+days, and any subsequent treatment or period of incapacity relating to the same condition, that also involves: a)
+two or more in-person visits to a health care provider for treatment within 30 days of the first day of incapacity
+(the first visit must be within seven days of the first day of incapacity); or, b) at least one in-person visit to a
+health care provider for treatment within seven days of the first day of incapacity, which results in a regimen of
+continuing treatment under the supervision of the health care provider (for example, a course of prescription
+medication or therapy requiring special equipment to resolve or alleviate the health condition); 2) any period of
+incapacity due to pregnancy or for prenatal care; 3) any period of incapacity or treatment for such incapacity due
+to a chronic serious health condition that requires periodic visits (at least twice per year) to a health care provider,
+continues over an extended period of time, and may cause episodic rather than a continuing period of incapacity;
+4) a period of incapacity which is permanent or long-term due to a condition for which treatment may not be
+effective, but requires continuing supervision of a health care provider; or, 5) any period of absence to receive
+multiple treatments by a health care provider for: a) Restorative surgery after an accident or other injury, or, b) a
+condition that would likely result in a period of incapacity of more than three consecutive, full calendar days in
+the absence of medical intervention.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌x
+
+CHAPTER 1: INTRODUCTION
+
+1.
+
+Introduction
+
+In 1993, the United States Congress passed the Family and Medical Leave Act (FMLA). The Act
+guarantees eligible employees of covered employers up to 12 workweeks of job-protected but unpaid
+leave, with continuation of group health insurance, for certain qualifying reasons.
+Since the passage of the legislation, the U.S. Department of Labor (DOL) has conducted surveys of
+employees and employers on their experiences with FMLA in 1995 (DOL, 1996), 2000 (Cantor et al.,
+2001), and 2012 (Klerman, Daley, & Pozniak, 2013). In May 2016, DOL issued a request for quotations
+for the development, fielding, and analysis of a fourth wave of surveys of employees and employers. 16
+After review of proposals in response to the solicitation, DOL contracted with Abt Associates to conduct
+these surveys, which were fielded from March 2018 through February 2019. This report presents
+estimates from these surveys.
+As context, the remainder of this chapter
+•
+
+provides an overview of FMLA (Section 1.1),
+
+•
+
+describes the changing policy context characterized by the enactment of paid leave laws by
+several states (Section 1.2), and
+
+•
+
+provides a roadmap to the rest of the report (Section 1.3).
+
+1.1.
+
+Background on the Family and Medical Leave Act
+
+Prior to the enactment of FMLA, there was no national or federal job-protected leave. However, more
+than half of states (34) had enacted some type of family or medical leave laws, and some employers
+provided leave either voluntarily or through collective bargaining (DOL, 1996). Nonetheless, most leave
+provisions covered only an employee’s own illness or the birth of a child. Additionally, leave was unpaid
+unless it met the requirements for coverage under state Temporary Disability Insurance provisions, or if
+the employee used paid sick leave or paid vacation. 17 Except where leave was state mandated, employers
+often managed the need for leave on an ad hoc, discretionary basis. Under these circumstances,
+employees could be risking their job security by broaching the topic or by taking leave (DOL, 1996).
+The enactment of FMLA in August 1993 provided access to comprehensive, job-protected family and
+medical leave to the majority of U.S. employees. As implemented in 1993 and updated in the years
+since, 18 FMLA requires covered employers to grant an eligible employee up to a total of 12 workweeks
+of unpaid leave during any 12-month period for a qualifying FMLA reason. These reasons are:
+•
+
+the birth of a child and to bond with the newborn child, placement of a child for adoption or foster
+care and to bond with that child;
+
+•
+
+care for a spouse, child, or parent who has a serious health condition;
+
+16
+
+U.S. Department of Labor Request for Proposals DOL-OPS-16-Q-00069 (“Wave 4 FMLA Surveys”).
+
+17
+
+Although FMLA-eligible employees of covered employers are guaranteed job-protected access to leave, that
+leave is unpaid. Yet FMLA provides that employees may use or employers may require employees to use other
+types of paid leave concurrent with their FMLA leave, such as paid sick or vacation leave.
+
+18
+
+Broad updates were made to FMLA in 2008 implementing amendments to FMLA providing two special military
+leave provisions and updating and clarifying the regulations (National Defense Authorization Act for Fiscal Year
+2008,.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌1
+
+CHAPTER 1: INTRODUCTION
+
+•
+
+an employee’s own serious health condition; and
+
+•
+
+“qualifying exigencies” when the employee’s spouse, parent, son, or daughter is deployed to a
+foreign country with the Armed Forces.
+
+An employee who is the spouse, parent, child, or next of kin of a “covered servicemember” (either a
+current servicemember or a veteran of the Armed Forces) with a serious injury or illness may take up to
+26 workweeks of leave in a single 12-month period for the care of the servicemember.
+Employers that are private-sector firms with 50 or more employees (during 20 or more calendar
+workweeks in the current or preceding calendar year) are covered by FMLA. FMLA also applies to all
+employers that are public agencies, including local, state, and federal agencies, and local education
+agencies (school systems), regardless of number of employees.
+To be eligible for FMLA leave, an employee must
+•
+
+work for a covered employer;
+
+•
+
+work at a worksite (a single physical location or address where business is conducted or services
+or industrial operations are performed) that employs at least 50 employees onsite or within 75
+miles of the worksite;
+
+•
+
+have at least 12 months of tenure with the employer; and
+
+•
+
+have 1,250 hours of service in the past 12 months. 19
+
+For each qualifying reason, FMLA leave may be taken all at once or intermittently (e.g., regularly
+scheduled chemotherapy appointments) or on a reduced schedule. During the period of qualifying leave,
+covered employers are required to maintain group health insurance coverage for the employee (if health
+insurance coverage was in place before the leave). At the end of the leave, employers are required to
+restore the employee to his or her original (or an equivalent) job. FMLA grants covered employers an
+exemption from job restoration for certain “key employees” if restoration would cause “substantial and
+grievous economic injury to the operations of the employer.” 20
+
+1.2.
+
+The Emergence of Paid Family Leave
+
+Since the passage of FMLA in 1993, and especially since the 2012 FMLA surveys, the policy
+environment has changed with the enactment of paid leave laws at the state, county, and city levels. Paid
+leave laws and regulations vary by jurisdiction but often ensure some amount of pay for those taking
+leave for some qualifying FMLA reason.
+The 2018 FMLA surveys described in this report include oversamples of respondents from states with
+paid leave laws in place at the time of the survey to better inform our understanding of the policy
+implications of paid leave regulations. At the time of this study, four states had paid “family and medical
+leave” laws in effect: California, New Jersey, New York, and Rhode Island. (Massachusetts, Washington,
+and the District of Columbia had enacted laws that had not yet gone into effect.) These programs build on
+
+19
+
+Special eligibility requirements apply to airline flight crew employees.
+
+20
+
+Public Law 103-3; 29 U.S.C. sec. 104.b.1.A. A key employee is defined as a salaried, FMLA-eligible employee
+who is among the highest paid 10 percent of all employees employed by the employer within 75 miles of the
+worksite.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌2
+
+CHAPTER 1: INTRODUCTION
+
+their states’ existing temporary disability insurance laws and requirements, which provide pay for leave
+for an employee’s own illness, care of a new child, or care of a seriously ill family member. Exhibit 1-1
+enumerates the provisions of paid leave laws in each of these states. Several counties and cities have also
+enacted paid leave statutes, but they are not included in the exhibit and not considered in this study.
+Though only four states had paid leave programs in effect during the period covered by the survey, paid
+leave policy continues to evolve. During the 2018-19 legislative sessions, 21 states introduced paid leave
+legislation. 21 On December 20, 2019, President Donald J. Trump signed the National Defense
+Authorization Act for Fiscal Year 2020 that, among other provisions, provides up to 12 workweeks of
+paid parental leave in connection with the birth, adoption, or foster care placement of a child for federal
+civilian employees covered by the FMLA provisions applicable to them.
+Further expansions of paid leave are under policy consideration. Two different pieces of legislation for
+paid leave have been introduced, one in the 116th Congress—the Family and Medical Insurance Leave
+Act (H.R.1185/S.463)—and one in the 115th Congress—the Economic Security for New Parents Act
+(S.3345). In addition, to encourage more paid leave, since 2014 DOL has awarded three rounds of grants
+to 12 states and the District of Columbia, three counties, and three cities to study and develop paid leave
+policies.
+
+1.3.
+
+Overview of the Report
+
+The remainder of this report describes results from the 2018 FMLA Employee Survey and Worksite
+Survey. Chapter 2 describes worksite coverage and employee eligibility for FMLA, and information
+about employees’ knowledge of FMLA. Chapter 3 describes variation in availability of family and
+medical leave and paid leave benefits provided by worksites. Chapter 4 describes leave taking rates,
+including leave taken on an intermittent basis. Chapter 5 describes leave takers’ experiences during and
+after taking leave, including amount of pay received while on leave and decisions on returning to work.
+Chapter 6 describes experiences of employees who responded that they needed leave but did not take it.
+Chapter 7 describes worksites’ experiences administering FMLA and perceptions of how FMLA affects
+their business and their employees. The final chapter summarizes key findings from the 2018 FMLA
+Employee and Worksite Surveys.
+
+21
+
+These states are Colorado, Connecticut, Georgia, Hawaii, Illinois, Indiana, Iowa, Kentucky, Maine, Minnesota,
+Mississippi, Missouri, New Hampshire, Ohio, Oklahoma, Pennsylvania, Tennessee, Utah, Vermont, Virginia, and
+Wisconsin.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌3
+
+CHAPTER 1: INTRODUCTION
+
+Exhibit 1-1.
+
+State paid family leave laws in 2018, by year enacted
+
+Year
+Enacted
+2002
+
+Year
+Effective
+2004
+
+CA
+
+−
+−
+−
+−
+
+2008
+
+2009
+
+NJ
+
+−
+−
+−
+−
+
+2013
+
+2014
+
+RI
+
+2016
+
+2018
+
+NY
+
+2017
+
+2019
+(premiums)
+2020
+(benefits)
+2019
+(premiums)
+2021
+(benefits)
+
+DC*
+
+WA*
+
+−
+−
+−
+−
+
+2019
+(premiums)
+2021
+(benefits)
+
+MA*
+
+−
+−
+−
+−
+
+2017
+
+2018
+
+State
+
+Leave Time
+(in Weeks)
+6 weeks.
+
+Covered Reasons
+
+Wage Replacement
+
+Own illness
+Care for a new child
+Care for a seriously ill family member
+Address issues from deployment of an
+immediate family member in the military
+
+70% for low-wage workers and
+60% for all other workers
+(increased from 55% in 2018).
+
+Own illness
+Care for a new child
+Care for a seriously ill family member
+Activities related to self or family member
+being victim of domestic or sexual violence
+− Own illness
+− Care for a new child
+− Care for a seriously ill family member
+
+66% wage replacement rate.
+
+26 weeks for own
+disability and 6 weeks of
+family leave.
+
+Paid disability leave funded by
+employees and employers via
+payroll contributions. Family
+leave funded by employee
+payroll contributions only.
+
+Average weekly benefit rate is
+4.62% of wages paid during the
+highest quarter of a worker’s
+base period, up to $852/week.
+50% of weekly wage for
+employee’s own disability and
+55% of weekly wage for family
+care.
+
+30 weeks for own illness
+and 4 of family leave.
+
+Paid disability and family
+leave are both funded
+exclusively by employee
+payroll contributions.
+Employee’s own disability is
+funded by employee and
+employer contributions.
+Family leave funded by
+employee contributions only.
+
+90% of weekly wage up to
+150% of DC minimum wage
+times 40, then 50% of wages
+up to a max of $1,000/week.
+90% of weekly wage up to 50%
+of statewide AWW, then 50%
+of wages up to 90% of state
+AWW (or maximum weekly
+benefit of $1,000 in first year).
+
+2 weeks for own illness,
+8 for parental leave, and
+6 for family leave.
+
+Funded by employer
+contributions.
+
+12 weeks for own illness
+or for family leave (14 for
+pregnancy-related
+serious health condition).
+
+Funded by employee and
+employer payroll
+contributions.
+
+20 weeks for own illness,
+12 for family leave, 26 for
+a covered military
+servicemember.
+
+Funded by employee and
+employer payroll
+contributions.
+
+Own illness
+Care for a new child
+Care for a seriously ill family member
+Address issues from deployment of an
+immediate family member in the military
+− Own illness
+− Care for a new child
+− Care for a seriously ill family member
+−
+−
+−
+−
+
+Own illness
+Care for a new child
+Care for a seriously ill family member
+Address issues from deployment of an
+immediate family member in the military
+Own illness
+Care for a new child
+Care for a seriously ill family member
+Address issues from deployment of an
+immediate family member in the military
+
+80% of weekly wage up to 50%
+of statewide AWW, then 50%
+of wages above threshold up to
+64% of state AWW (or
+maximum weekly benefit of
+$850 in first year).
+
+26 weeks for own illness
+and 8 of family leave
+(increased to 10 in
+2019).
+
+Funding Mechanism
+Paid disability and family
+leave are both funded
+exclusively by employee
+payroll contributions.
+
+Notes: Asterisk (*) denotes law had been enacted but had not yet gone into effect during the fielding period for the 2018 FMLA Surveys. AWW = Average weekly wage.
+Source: National Partnership for Women and Families (2019).
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌4
+
+CHAPTER 1: INTRODUCTION
+
+This report is one of several documents describing the results of the 2018 survey effort. It has three
+companion volumes: (1) The Supplemental Results volume includes supplementary analyses for the 2018
+FMLA Employee and Worksite Surveys. (2) The Methodology Report discusses (a) issues related to the
+design of the two surveys, (b) issues related to weighting, and (c) results of the non-response follow-up
+analysis. (3) The Methodology Report Appendices provides copies of the Employee and Worksite Survey
+materials and details changes made in the 2018 surveys from the prior wave.
+Notes on Presentation of Results
+In general, this report presents results as follows:
+• More detail is presented in the exhibits than is discussed in narrative text. Even more detail (such as responses to
+a larger number of questions in the survey, and responses provided by subgroups) is provided in tables in the
+Supplemental Results volume.
+• References to supplemental results exhibits in this report refer to the Supplemental Results volume.
+• Differences between employees who are or are not eligible for FMLA, or by paid or non-paid leave states, or other
+subgroup differences are discussed in the text only when the differences are statistically significant across
+subgroups (p<.05), unless otherwise noted. Sample sizes for subgroups are often sufficiently small that even apparently
+large differences are plausibly due to chance sampling variability.
+
+• When interpreting results, keep in mind that the results from each survey are descriptive in nature, as cross-sectional
+surveys such as these cannot provide evidence of causal effects. As such, we can only document observed patterns and
+correlations (e.g., differences between paid leave and non-paid leave states may be due to the paid leave, due to other
+differences across the state, or due to chance).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌5
+
+CHAPTER 2: FMLA COVERAGE AND ELIGIBILITY:
+CURRENT RATES AND PUBLIC KNOWLEDGE
+
+2.
+
+FMLA Coverage and Eligibility: Current Rates and
+Public Knowledge
+
+FMLA is a federal entitlement offered to eligible employees of
+covered employers. This chapter describes the proportion of
+worksites that are covered by FMLA and the proportion of all
+employees who are eligible for FMLA (Section 2.1) and
+worksite and employee knowledge about FMLA coverage,
+eligibility, and qualifying reasons for leave (Section 2.2). This
+chapter draws on both 2018 Worksite and 2018 Employee
+Survey data. Estimates from the Worksite Survey refer to
+worksites that are a part of private-sector employers (“firms”)
+and the employees at those worksites. Estimates from the
+Employee Survey include employees at private-sector firms,
+public agencies, and local education agencies (schools).
+
+Key Findings
+• Approximately 10 percent of worksites
+are covered by FMLA, on the basis of
+firm size.
+• Overall, 56 percent of employees are
+eligible for FMLA, on the basis of their
+reported tenure, hours, and worksite
+size.
+• More than 75 percent of employees
+have heard of FMLA.
+• More than half of employees
+
+incorrectly believe that some nonAs noted in Chapter 1, FMLA applies to firms if they employ
+qualifying reasons for leave are
+50 or more employees (combined across all worksites) in 20 or
+qualifying, such as care of
+more calendar weeks in the current or preceding calendar year.
+grandparents or grandchildren with a
+FMLA applies to all public agencies, including local, state, and
+serious health condition.
+federal employers, and local education agencies, regardless of
+the number of employees. However, a worksite that is part of a
+covered employer must have 50 or more employees within 75 miles to potentially have FMLA-eligible
+employees. Thus, the employer being covered by FMLA determines whether they must comply with the
+law but not whether employees at any particular worksite would be potentially eligible to take leave under
+FMLA. 22
+
+2.1.
+
+Current Rates of FMLA Coverage and Eligibility
+
+Worksite Survey responses on firm size imply that approximately 10 percent of worksites are part of
+firms covered by FMLA. 23 However, these worksites account for 59 percent of employees employed at
+U.S. firms, as worksites that are part of non-covered firms, by definition, are small (the whole firm
+employs fewer than 50 employees).
+According to Employee Survey responses, 56 percent of employees are eligible for FMLA (based on
+employee-reported worksite size, employment tenure, and hours worked). 24 This rate is not detectibly
+different from the 2012 survey estimate (59 percent eligible; Exhibit 2-1 below).
+
+22
+
+As an example, consider a private-sector employer that has a corporate headquarters with 100 employees onsite
+plus four branch offices in other states that have 20 employees each. This employer is covered by FMLA because
+it has more than 50 employees total. All five of its worksites are considered to be “covered by FMLA” because
+the employer is covered. However, only the headquarters could potentially have FMLA-eligible employees, as it
+is the only worksite with 50 or more employees (at or within 75 miles of the worksite). Individual employees at
+the headquarters would also need to meet employment tenure and hours of service requirements to be eligible.
+
+23
+
+Estimate based on worksite self-report of the firm’s current number of employees. (To limit respondent burden,
+the 2018 Worksite Survey asks only about the number of current employees, not about the number employed at
+any time over the preceding year, which may slightly underestimate FMLA coverage rates.)
+
+24
+
+Estimate reflects employees’ eligibility for FMLA at the start of the 12-month survey reference period. It is based
+on self-reported tenure and worksite size at the job they held at the start of the reference period, and whether they
+worked on average 24 or more hours per week at that time.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌6
+
+CHAPTER 2: FMLA COVERAGE AND ELIGIBILITY:
+CURRENT RATES AND PUBLIC KNOWLEDGE
+
+Exhibit 2-1.
+
+Percentage of U.S. labor force eligible for FMLA, by year
+
+Notes: The Wave 4 calculation is based on employee-reported worksite size, employment tenure, and hours worked for the job held at the start
+of the 12-month reference period, and excludes those respondents who were unemployed at that time, so that the calculation reflects the
+proportion of employed workers who were eligible under their current position. (The calculation also excludes those who provide incomplete
+information on worksite size, tenure, hours worked, and employment.) It is unclear from the earlier reports how unemployed respondents were
+treated in this calculation.
+Source: DOL, 1996, Figure 4.1 (Wave 1); Cantor et al., 2001, Table A2-3.1 (Wave 2); Klerman et al., 2013, Exhibit 2.2.1 (Wave 3); 2018 FMLA
+Employee Survey items S9b, E0, E1 (Wave 4).
+Sample: Sample size is 2,255 employees for Wave 1; 2,558 for Wave 2; 2,572 for Wave 3; 4,470 for Wave 4.
+
+Eligibility varies by employee demographics. Exhibit 2-2 below reports estimated eligibility for FMLA
+and reasons for ineligibility, by employee demographics, broken out by whether employees are at
+worksites too small to have FMLA-eligible employees, did not meet requirements for employment tenure
+or hours worked, or both. Sixty-three (63) percent of employees in dual-parent households are estimated
+to be eligible for FMLA, compared to 43 percent of employees in single-parent households, with 27
+percent of employees in single-parent households being ineligible solely due to worksite size, compared
+to 14 percent of employees in dual-parent households.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌7
+
+CHAPTER 2: FMLA COVERAGE AND ELIGIBILITY:
+CURRENT RATES AND PUBLIC KNOWLEDGE
+
+Exhibit 2-2.
+
+Percentage of employees eligible for FMLA and reasons for ineligibility, by
+demographics
+
+Notes: */** indicates that differences in frequencies by employee characteristics are statistically different at the 5%/1% level, respectively
+(based on Rao-Scott chi-square test). Percentages may not add to 100 percent due to rounding. Eligibility rates reflect information at the start
+of the 12-month survey reference period. Calculations exclude those who were not employed at that time and those missing information on
+tenure, hours worked, or worksite size. Single-parent status is among respondents who report at least one child aged younger than 18 in their
+care and is defined as those who report that they are not currently living with a partner and are never married, separated, divorced, widowed, or
+are married with a partner living outside the home; dual-parent status are those who report living with a partner or are married with the partner
+living inside the home. Respondent’s Care indicates whether the employee has one or more of the following persons in their care: adult aged
+65 or older, child aged 18 or younger.
+Source: 2018 FMLA Employee Survey S8, S8b/D1, S9b, D5, D6, D7, D8, D10, D11, E0, E1.
+Sample: Sample size is 4,093 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+Note on Employee Demographic Subgroups Used in This Report
+Exhibit 2-2 and similar exhibits typically indicate how responses vary across six employee demographic subgroups: sex,
+ethnicity, race, household composition (“household”), presence of adults aged 65 and older or children aged younger than 18
+in the respondent’s care (“respondent’s care”), and educational attainment (“education”). For each subgroup, the bars give
+the distribution of values considering only employees in that subgroup (e.g., for all female employees, 54 percent are eligible
+for FMLA). Stars indicate statistically significant differences in the distribution of all characteristics included in the panel.
+• Household: Employees in single-parent households report at least one child aged younger than 18 in their care and
+indicate that they are not currently living with a partner and are never married, separated, divorced, widowed, or are
+married with a partner living outside the home. Employees in dual-parent households are those who report living with a
+partner or are married with the partner living inside the home.
+• Respondent’s care: Indicates whether the employee has one or more adults aged 65 and older in their care or one or
+more children aged younger than 18 in their care.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌8
+
+CHAPTER 2: FMLA COVERAGE AND ELIGIBILITY:
+CURRENT RATES AND PUBLIC KNOWLEDGE
+
+Exhibit 2-3.
+
+Simulated percentage of employees eligible for FMLA, based on changes in
+minimum hours worked and worksite size requirements compared to current
+policies
+
+Notes: Estimated eligibility rates reflect information at the start of the 12-month survey reference period. Estimated eligibility for changing hours
+worked or worksite size assumes all other requirements remain constant. Calculations exclude those who were not employed at that time. The
+hours worked per week are designed to correspond to formal annual hours requirements of 1,250 hours of service per year (24+ hours per
+week), 780 hours per year (15+ hours per week), and 1,560 hours per year (30+ hours per week).
+Source: 2018 FMLA Employee Survey S9b, E0, E1.
+Sample: Sample size is 4,125 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+Exhibit 2-3 above reports simulated employee eligibility rates if the current minimum hours worked or
+worksite size requirements were changed, holding other requirements as-is. (For comparability, this
+analysis uses the same hours and size changes examined in the 2012 Survey Report.) A decrease in the
+hours worked requirement from about 24 to 15 hours per week is estimated to increase the proportion of
+employees eligible for FMLA by 2 percentage points. Alternatively, raising the requirement to 30 hours
+per week would lower the proportion eligible by 1 percentage point. A decrease in the worksite size
+requirement to 30 or 20 employees is estimated to increase eligibility by 3 or 5 percentage points,
+respectively.
+
+2.2.
+
+Worksite and Employee Knowledge About FMLA
+
+Worksites may be uncertain about whether FMLA provisions apply to them or not. Based on their
+reported firm size, 10 percent of worksites are part of firms covered by FMLA, but 24 percent of
+worksites self-report that FMLA applies to them. Part of the uncertainty may stem from individual
+worksites potentially not having any eligible employees even though their firm is large enough to be
+covered by FMLA (has 50 or more employees total). When broken out by firm and worksite size, 88
+percent of worksites that are both part of firms covered by FMLA and potentially have FMLA-eligible
+employees (have 50 or more employees within 75 miles of worksite) accurately report that FMLA applies
+to their worksite. When their firm is too small to be covered by FMLA (fewer than 50 employees), 83
+percent of worksites correctly report that FMLA does not apply to them (Exhibit 2-4 below). For the
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌9
+
+CHAPTER 2: FMLA COVERAGE AND ELIGIBILITY:
+CURRENT RATES AND PUBLIC KNOWLEDGE
+
+worksites that are covered (firm has 50 or more employees) but are too small to have eligible employees
+(fewer than 50 employees onsite or within 75 miles), only 66 percent correctly report that FMLA applies
+to them. Even if they do not have any eligible employees, worksites of covered firms must still comply
+with applicable FMLA provisions, such as employee notification requirements, so awareness of their
+covered status is relevant.
+Exhibit 2-4.
+
+Percentage of worksites correctly and incorrectly self-reporting whether they are
+covered by FMLA, by worksite and firm size
+
+Notes: All results are weighted by number of worksites. Covered/Not Covered by FMLA determined based on worksite report of number of
+employees at firm (private-sector employer).
+Source: 2018 FMLA Worksite Survey Q1, Q2, Q3, Q17.
+Sample: Sample size is 2,206 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+More than three-quarters of all employees have heard of FMLA (76 percent), indicating a rise in
+awareness compared to the 2012 survey (66 percent). Exhibit 2-5 (below) reports tests for significant
+differences in awareness by three key subgroups: FMLA eligibility (eligible versus ineligible), paid leave
+state status (paid leave versus non-paid leave), and low-wage worker status (low-wage versus non-lowwage, see Supplemental Results, Appendix A for additional information on subgroup definitions).
+Awareness is higher among eligible and non-low-wage employees compared to ineligible and low-wage
+employees, respectively (85 percent versus 68 percent, 83 percent versus 60 percent). 25
+
+25
+
+Among employees who have heard of FMLA, the most commonly reported source for learning about FMLA is
+their employer/human resources department (70 percent, see Supplemental Results Exhibit B2-4).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌10
+
+CHAPTER 2: FMLA COVERAGE AND ELIGIBILITY:
+CURRENT RATES AND PUBLIC KNOWLEDGE
+
+Exhibit 2-5.
+
+Percentage of employees aware of FMLA, by
+select subgroups
+
+Subgroup comparisons
+• Exhibit 2-5 and similar ones throughout
+the report show how responses vary by
+policy-relevant subgroups.
+• The exhibit title indicates the measure
+and metric represented by the numbers in
+the dots (here a percentage).
+• The upper left panel reports the rate for
+the whole sample; the other panels report
+rates by subgroup (e.g., the difference in
+rates between employees ineligible and
+eligible for FMLA).
+• The colors for the subgroup labels are the
+legend for the dot colors in the exhibit.
+
+Notes: */** indicates that results are statistically different at the 5%/1% level,
+respectively. Additional information is available in Supplemental Results Exhibit B2-4.
+Source: 2018 FMLA Employee Survey E2.
+Sample: Sample size is 4,443 employees. Percentages are calculated including only
+those respondents who provided a valid response to the given question.
+
+FMLA: Results from the 2018 Surveys
+
+• Stars between dots indicate that
+differences between the two groups are
+statistically significant (i.e., how certain
+we are the difference is not due to
+chance).
+
+July 2020 ▌11
+
+CHAPTER 2: FMLA COVERAGE AND ELIGIBILITY:
+CURRENT RATES AND PUBLIC KNOWLEDGE
+
+Exhibit 2-6.
+
+Employee knowledge of qualifying FMLA reasons
+
+Notes: Each respondent was asked about only 4 of the 12 categories listed. Eldercare is care provided for an adult aged 65 or older with agerelated physical or mental impairments not related to a serious health condition.
+Source: FMLA 2018 Employee Survey E4a.
+Sample: Sample size is 1,764 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+Among employees who have heard of FMLA, more than 90 percent know that FMLA covers time off to
+take care of a spouse or child with a serious health condition; for their own serious health condition; or to
+care for a new child by birth, adoption, or foster placement (Exhibit 2-6). Awareness of leave for care of
+same-sex spouses or leave to care for a military servicemember or prepare for a family member’s military
+deployment or return is somewhat lower (81 and 76 percent, respectively).
+Most employees who have heard of FMLA believe that it covers more than it actually does. Fewer than
+one-fifth of employees (14 percent) knew that FMLA does not cover eldercare (care provided for an adult
+aged 65 or older with age-related physical or mental impairments not related to a serious health
+condition). Fewer than half of employees knew that FMLA does not generally cover care of siblings (36
+percent), grandparents (41 percent), or grandchildren (44 percent) with a serious health condition.
+(Exhibit 2-6).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌12
+
+CHAPTER 2: FMLA COVERAGE AND ELIGIBILITY:
+CURRENT RATES AND PUBLIC KNOWLEDGE
+
+Exhibit 2-7.
+
+Percentage of employees eligible for FMLA, by estimated and self-reported eligibility
+and employee characteristic
+
+Notes: Estimated FMLA eligibility is based on employee-reported employment tenure, hours worked, and worksite size. Self-reported FMLA
+eligibility is based on a yes/no employee response to whether they are entitled to leave under FMLA on their main job. Both calculations include
+only those respondents who have heard of FMLA and are employed at the time of the interview. Employee self-reported FMLA eligibility
+reflects eligibility at the time of the interview, whereas estimated FMLA eligibility reflects eligibility 12 months earlier, at the start of the 12-month
+survey reference period. Some respondents who were ineligible for FMLA because of insufficient tenure at the start of the 12-month reference
+period will be eligible by the time of the survey; other respondents who have changed jobs in that 12 months may have lost eligibility by the
+time of the survey. Statistical tests not performed because both estimates apply to same group of respondents. See Supplemental Results
+Exhibit B2-5 for additional information and notes.
+Source: 2018 FMLA Employee Survey S8, S8b/D1, D5, D6, D7, D8, D10, D11, E0, E1, E2, E5, E6.
+Sample: Sample size is 3,333 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+Employees who are familiar with FMLA may not be aware that they are ineligible for FMLA. As shown
+in Exhibit 2-7, among employees who have heard of FMLA and are employed at the time of the survey,
+88 percent self-report that they are eligible for FMLA, compared to an estimated 61 percent of employees
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌13
+
+CHAPTER 2: FMLA COVERAGE AND ELIGIBILITY:
+CURRENT RATES AND PUBLIC KNOWLEDGE
+
+actually being eligible based on their reported worksite size, tenure, and hours worked. 26 Exhibit 2-7
+above also reports differences in self-reported and estimated employee FMLA eligibility by demographic
+characteristics. The results suggest ongoing gaps in employee awareness of their actual eligibility status
+across a range of demographic categories more than two decades after the original FMLA legislation.
+
+2.3.
+
+Chapter Summary
+
+This chapter reports that the majority of U.S. employees are eligible for FMLA (56 percent) and have
+heard of FMLA (76 percent). Responses suggest knowledge gaps about FMLA among both worksites and
+employees. Almost one-fifth of worksites that are part of firms too small to be covered by FMLA believe
+the law applies to them (17 percent). More than a quarter of employees who have heard of FMLA believe
+they are eligible for leave under FMLA when they are not (27 percent), and more than half believe that
+FMLA covers more situations than it does (56 to 86 percent, by situation).
+The next chapter describes employees’ access to family and medical leave, both specifically for
+qualifying FMLA reasons and more generally, and paid leave benefits.
+
+26
+
+Although the survey asks whether employees believe they are currently eligible for FMLA, our estimates of
+employee eligibility are based on information collected to identify their eligibility at the start of the 12-month
+survey reference period. Some respondents who were ineligible for FMLA at the start of the reference period
+because of insufficient tenure may be eligible by the time of the survey (12 months later); other respondents who
+have changed jobs in that 12 months may have lost eligibility by the time of the survey. Note that estimated
+eligibility here is of a subset of respondents who indicated they are employed and have heard of FMLA.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌14
+
+CHAPTER 3: LEAVE BENEFITS
+
+3.
+
+Leave Benefits
+
+This chapter explores variation in availability of family and
+medical leave and paid leave benefits provided by employers,
+such as paid sick leave or vacation leave. FMLA offers unpaid
+job-protected access to leave but allows employees to use (or
+employers to require the use of) other types of paid leave
+concurrent with FMLA-designated leave in certain
+circumstances. In addition to specific paid family and medical
+leave benefits, employees may also have conventional forms of
+paid leave available (such as paid sick leave or vacation leave)
+when taking time off from work for reasons covered under
+FMLA (whether they are eligible for FMLA or not).
+The first two sections of this chapter draw on the 2018 Worksite
+Survey to report on employee access to family and medical
+leave for qualifying FMLA reasons (Section 3.1) and privatesector worksite paid leave policies, both for family and medical
+leave specifically and for other benefits such as paid vacation or
+paid sick leave (Section 3.2). The final section draws on the
+2018 Employee Survey to report on employee access to paid
+leave and time off (Section 3.3).
+
+Key Findings
+• Overall, 82 percent of employees are at
+worksites that provide access to family
+and medical leave for at least one
+reason covered under FMLA, based on
+the 2018 Worksite Survey.
+• At worksites not covered by FMLA, 53
+percent of employees have access to
+family and medical leave for at least one
+reason covered under FMLA, based on
+the 2018 Worksite Survey.
+• More than half of employees are at
+worksites that do not offer paid disability
+or maternity leave, based on the 2018
+Worksite Survey.
+• Availability of paid leave for employees’
+own illness or medical care is reported
+by 83 percent of employees eligible for
+FMLA, compared to 62 percent of
+ineligible employees, based on the 2018
+Employee Survey.
+
+As this chapter focuses on the experience of employees, results
+in Sections 3.1 and 3.2 from the 2018 Worksite Survey are
+weighted by the number of employees at the worksite. Results
+in these sections should be interpreted as the proportion of
+employees who work at a worksite that has the specified policy or benefit, and not as the proportion of
+worksites offering this policy or benefit. (In some cases, not all employees at the worksite will have
+access to a particular benefit—for these analyses, estimates reflect the proportion of employees
+potentially affected by the policy or benefit.) In this chapter, results comparing worksites that are covered
+by FMLA or not covered by FMLA are based on the worksite’s report of whether FMLA applied to them
+or not.
+Results from the 2018 Employee Survey reported in Section 3.3 should be interpreted as the proportion of
+employees who report having access to paid leave benefits through their employer. Comparisons of
+eligible versus ineligible employees in this section are based on employee-reported worksite size, hours
+worked, and employment tenure.
+
+3.1.
+
+Access to Leave for Qualifying FMLA Reasons
+
+Overall, 82 percent of employees are at worksites that provide access to family and medical leave for at
+least one qualifying FMLA reason, such as to care for a new child or for an employee’s own illness. This
+rate is lower than in 2012 (96 percent). This access can be offered through a variety of employer leave
+policies, such as through a formal family or maternity/paternity leave policy or through paid sick leave.
+However, access to leave for qualifying FMLA reasons varies by whether a worksite is part of a firm
+covered by FMLA: 97 percent of employees at worksites covered by FMLA have access to leave for at
+least one qualifying FMLA reason, but only 53 percent of employees at worksites not covered by FMLA
+do (Supplemental Results Exhibit B3-4). The rate among worksites covered by FMLA is a slight decline
+from the 2012 rate (99 percent); the rate among worksites not covered by FMLA is a substantial decline
+from the 2012 rate (89 percent), reflecting in 2018 both more employees at these worksites having access
+to leave only depending on circumstances and more not having access to leave at all.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌15
+
+CHAPTER 3: LEAVE BENEFITS
+
+Almost all employees at worksites covered by FMLA are offered leave for qualifying FMLA reasons
+under all circumstances (ranging from 91 to 97 percent by reason). 27 In contrast, only about one-third to
+one-half of employees at worksites not covered by FMLA have access to leave for these reasons under all
+circumstances (ranging from 33 to 51 percent by reason, Exhibit 3-1 left panel below). At worksites not
+covered by FMLA, access is most common for an employee’s own serious health condition (51 percent)
+and least common for the adoption or foster care placement of a child (33 percent).
+Approximately one-fifth of employees at worksites not covered by FMLA report not having access to
+leave for qualifying FMLA reasons (ranging from 17 to 24 percent by reason, Exhibit 3-1 rightmost
+panel below). The remainder of employees at worksites not covered by FMLA are only offered leave for
+these reasons under certain circumstances (ranging from 30 to 44 percent by reason, Exhibit 3-1 center
+panel below).
+
+27
+
+There are multiple reasons why covered worksites may not offer access. Among them are not having FMLAeligible employees (which could be reflected in a response of “depends on circumstances”), response error, or
+non-compliance with FMLA.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌16
+
+CHAPTER 3: LEAVE BENEFITS
+
+Exhibit 3-1.
+
+Percentage of employees with access to leave for qualifying FMLA reasons, by
+whether worksite is covered by FMLA
+
+Notes: All results are weighted by number of employees at the worksite. Covered by FMLA and Not covered by FMLA based on worksite selfreport of whether FMLA applies to them. Row percentages add to 100% within Covered by FMLA and Not Covered by FMLA columns,
+respectively, though percentages displayed may not add to 100% due to rounding. All differences between covered and non-covered worksites
+are statistically different at the 1% level. Additional information is available in Supplemental Results Exhibit B3-1.
+Source: 2018 FMLA Worksite Survey Q16, Q17.
+Sample: Sample size is 2,178 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌17
+
+CHAPTER 3: LEAVE BENEFITS
+
+Among worksites not covered by FMLA that offer leave for at least one qualifying FMLA reason, the
+length of leave available is substantially less than the 12 workweeks required of worksites covered by
+FMLA. Employees at worksites not covered by FMLA that offer these types of leave under all
+circumstances have access to eight workweeks of leave on average, and those at worksites that offer leave
+depending on circumstances have access to only two to three workweeks of leave (Supplemental Results
+Exhibit B3-2). 28
+Lastly, though worksites not covered by FMLA are not required to follow FMLA’s job protection and
+maintenance of health benefits requirements, 80 percent of employees at these worksites are offered job
+protection while on leave, and only 7 percent lose health benefits while on leave (Supplemental Results
+Exhibit B3-3).
+
+3.2.
+
+Evidence on the Availability of Paid Leave From the 2018
+Worksite Survey
+
+At worksites that allow leave for at least one qualifying FMLA reason, many employees are not provided
+pay during leave. Almost half of employees who are offered leave are not provided pay during leave by
+their employer (45 percent), and only 16 percent are provided partial pay (Supplemental Results Exhibit
+B3-4; includes any source of employer-provided pay, such as paid sick leave). This pattern is similar
+between employees at worksites covered by FMLA and employees at worksites not covered by FMLA
+who are offered family and medical leave for at least one qualifying FMLA reason (Exhibit 3-2 below). 29
+This indicates that though FMLA coverage is closely related to employees’ access to leave (see Exhibit 31), coverage is not clearly related to employer provision of pay while on leave. 30
+
+28
+
+Worksites not covered by FMLA were asked how much leave was available to employees who had worked for
+the firm for at least one year.
+
+29
+
+Comparisons of differences in “full pay” and “other pay” between worksites covered and not covered by FMLA
+should be made with care, as FMLA policies make comparisons problematic (e.g., substitution of leave
+provisions that are not applicable for worksites not covered).
+
+30
+
+For worksites covered by FMLA, regulations permit an eligible employee to choose to substitute accrued paid
+leave for unpaid FMLA leave and allow employers to require the employee to substitute paid leave. “Substitute”
+means that the paid leave provided by the employer will run concurrently with the unpaid FMLA leave. An
+employee’s ability to substitute accrued paid leave is determined by the terms and conditions of the employer’s
+normal leave policy.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌18
+
+CHAPTER 3: LEAVE BENEFITS
+
+Exhibit 3-2.
+
+Percentage of employees offered pay among worksites that offer leave for at least
+one qualifying FMLA reason, by whether worksite is covered by FMLA
+
+Notes: All results are weighted by number of employees at the worksite. */** indicates results are statistically different at the 5%/1% level,
+respectively. Percentages may not add to 100 percent due to rounding. Pay is only employer-provided pay and does not include any state
+assistance provided to employees. Additional information is available in Supplemental Results Exhibit B3-4.
+Source: 2018 FMLA Worksite Survey Q16, Q16X_5.
+Sample: Sample size is 1,858 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+Exhibit 3-3.
+
+Paid leave benefits offered to employees, by whether all, some, or no employees at
+the worksite are offered benefit
+
+Notes: All results are weighted by number of employees at the worksite. Percentages may not add to 100 percent due to rounding. Vacation
+and Sick leave include the proportion of worksites that offer combined “paid time off.”
+Source: 2018 FMLA Worksite Survey Q11.
+Sample: Sample size is 2,189 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌19
+
+CHAPTER 3: LEAVE BENEFITS
+
+Paid leave can include conventional paid leave benefits, such as paid sick time or vacation, or paid leave
+tied to specific family and medical leave reasons, such as paid maternity leave or paid leave to care for
+family members needing medical care. Across all worksites, paid vacation and paid sick leave are
+common, but other types of paid leave benefits are much less common. More than 90 percent of
+employees are at worksites that offer paid vacation to at least some employees, and more than 80 percent
+are at worksites offering paid sick leave (Exhibit 3-3 above). Yet the majority of employees are at
+worksites where paid vacation and sick leave are not offered to all employees at the worksite and where
+no other benefit is offered at all. However, among employees at worksites covered by FMLA, half are at
+worksites that offer paid vacation and paid sick leave to all employees (51 percent and 50 percent,
+respectively); among worksites not covered by FMLA, only 40 percent of employees are at worksites that
+offer these benefits to all employees (43 percent and 42 percent, respectively, Exhibit 3-4).
+Worksites that do not offer paid leave benefits to all employees may still offer these benefits to employees
+with sufficient employment tenure. Among worksites offering paid leave to only some employees, twothirds of employees who had worked at the company for a pre-established minimum length of time were
+offered paid vacation (66 percent), and about half were offered paid sick leave (50 percent), paternity
+leave (49 percent), or maternity leave (47 percent; Supplemental Results Exhibit B3-7).
+Exhibit 3-4.
+
+Percentage of employees at worksites that offer paid leave benefits to all employees
+at the worksite, by benefit type and whether worksite is covered by FMLA
+
+Notes: All results are weighted by number of employees at the worksite. */** indicates results are statistically different at the 5%/1% level,
+respectively. Statistics for paid vacation and paid sick leave include the proportion of worksites that offer “paid time off.” Additional information
+is available in Supplemental Results Exhibit B3-6.
+Source: 2018 FMLA Worksite Survey Q11, Q11.1, Q17.
+Sample: Sample size is 2,189 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌20
+
+CHAPTER 3: LEAVE BENEFITS
+
+3.3.
+
+Evidence on Availability of Paid Leave From the 2018 Employee
+Survey
+
+Based on the 2018 Employee Survey, 73 percent of employees report having paid leave available for their
+own illness or medical care (Exhibit 3-5). Paid leave availability here includes any type of paid leave,
+whether through a specific paid family and medical leave benefit or through other conventional forms of
+paid leave (such as paid sick leave, paid vacation, or paid time off). More than half of employees (58
+percent) have access to paid leave for a family member’s illness or medical care. About one-third of
+employees have paid leave available for eldercare (care provided for an adult aged 65 or older with agerelated physical or mental impairments not related to a serious health condition) or non-health-related
+childcare (38 percent and 36 percent, respectively, Supplemental Results Exhibit B3-8).
+More employees who are eligible for FMLA report having access to paid leave for their own illness or
+medical care and for the illness or medical care of a family member compared to those who are not
+eligible for FMLA (Exhibit 3-5). Fewer low-wage workers have access to paid leave for each reason
+compared to non-low-wage workers. 31
+Exhibit 3-5.
+
+Percentage of employees with access to paid leave, by type of leave and select
+subgroups
+
+Notes: */** indicates results are statistically different at the 5%/1% level, respectively. Question only asked of employees who are employed at
+the time of the survey. Overlapping colored dots for Non-Paid/Paid Leave State panel indicate differences in these estimates are too small to
+display a connecting line on the scale of this graphic.
+Source: 2018 FMLA Employee Survey E8.
+
+31
+
+These results for FMLA-eligible employees and non-low-wage workers are very similar, but the two sets of
+statistics reflect results for subgroups that do not perfectly overlap. Although a much higher percentage of nonlow-wage workers are eligible for FMLA than are low-wage workers (see Exhibit 2-7), more than one-third of
+non-low-wage workers are ineligible for FMLA.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌21
+
+CHAPTER 3: LEAVE BENEFITS
+
+Sample: Sample size is 3,963 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+3.4.
+
+Chapter Summary
+
+This chapter reports that an employee’s access to leave for a qualifying FMLA reason varies by whether
+the employee is employed at a worksite covered by FMLA. Whereas access to leave for qualifying FMLA
+reasons is almost universally offered to employees at worksites covered by FMLA (91 to 97 percent),
+only one-third to one-half of employees who work at worksites not covered by FMLA have access to
+leave for these reasons. The proportion of employees not provided pay by their employer while on leave
+(which under FMLA is limited by the “substitution of leave” provisions, as previously noted) is similar
+for employees at worksites covered and not covered by FMLA (43 and 48 percent, respectively) if the
+worksite allows leave for one or more qualifying FMLA reasons. Almost three-quarters of all employees
+report having access to paid leave for their own illness or medical care, with a higher proportion of
+FMLA-eligible employees receiving pay than ineligible employees do (83 percent and 62 percent,
+respectively).
+The next chapter focuses on the experiences of employees who took leave in the 12 months prior to the
+survey, including the proportion of employees who took leave for a qualifying FMLA reason, reasons for
+taking leave, and length of leave.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌22
+
+CHAPTER 4: EMPLOYEE LEAVE TAKING RATES
+AND REASONS FOR LEAVE
+
+4.
+
+Employee Leave Taking Rates and Reasons for Leave
+
+This chapter uses data from the 2018 Employee Survey to
+describe the patterns of leave taking among employees who took
+leave during the 12 months before being surveyed. Section 4.1
+reports on the prevalence and number of leaves taken for
+qualifying FMLA reasons. Section 4.2 reports on reasons
+employees took leave, including both qualifying FMLA reasons
+and leave to care for a non-immediate family member’s serious
+health condition (which is generally not a qualifying FMLA
+reason). Section 4.3 reports on the amount of time on leave taken
+for qualifying FMLA reasons. Section 4.4 reports on use of
+intermittent leave for qualifying FMLA reasons—leaves that
+consist of taking more than one instance away from work for the
+same reason, such as weekly physical therapy or chemotherapy
+appointments or periods of incapacity due to an employee’s
+ongoing rheumatoid arthritis.
+
+Key Findings
+• Overall, 15 percent of employees took
+leave in the past 12 months for a
+qualifying FMLA reason.
+• Half of employees taking leave did so
+for their own illness, and a quarter did
+so for reasons related to a new child.
+• The average length of leave for a
+qualifying FMLA reason is 28 business
+days.
+• Almost a third of employees who take
+leave for a qualifying FMLA reason do
+so on an intermittent basis.
+
+Findings in this chapter that only apply to leave “for a qualifying
+FMLA reason” are always explicitly noted as such. In addition, this chapter also reports findings on
+reasons for leave that additionally include leave for non-immediate family member’s serious health
+condition (but exclude time taken off of work taken for other reasons, such as a sick day for a cold or
+vacation leave unrelated to a serious health condition).
+
+4.1.
+
+Prevalence of Leave and Number of Leaves Taken
+
+Fifteen percent of employees took leave in the previous 12 months for a qualifying FMLA reason
+(Exhibit 4-1 below). 32 The majority of employees who took leave for a qualifying FMLA reason did so
+only once within a 12-month period (68 percent), though almost one-third (32 percent) took more than
+one leave (Supplemental Results Exhibit B4-1). 33
+
+32
+
+Note that this is a measure not of employees who took FMLA-designated leave from work but of employees who
+took time off from work for a reason that would qualify under FMLA (whether or not that person was eligible for
+FMLA or whether the leave was designated as FMLA leave). From the 2018 Worksite Survey, worksites report
+that only 7 percent of their employees took leave for a family or medical reason in the prior 12 months
+(Supplemental Results Exhibit B4-10). Rates may differ because the 2018 Worksite Survey includes only privatesector firms, whereas the Employee Survey also includes public agencies. The 2018 Worksite Survey estimate is
+a combination of FMLA-designated leave at covered worksites and leave taken for qualifying FMLA reasons at
+non-covered worksites. Employees at worksites covered by FMLA who choose to take leave for a qualifying
+FMLA reason but either are ineligible for FMLA or do not apply for FMLA-designated leave are not counted in
+that estimate of the rate of leave taking, due to the structure of the Worksite Survey. As later reported in Chapter
+7, worksites not covered by FMLA less commonly track family and medical leave, which may result in
+undercounting based on worksite-reported data.
+
+33
+
+This reflects the number of times that an employee needed to take leave for a different qualifying FMLA reason
+(e.g., once for a new baby, a second time to care for a spouse who had knee surgery). This is distinct from
+employees who needed to take intermittent leave (i.e., time off from work on multiple occasions for a single
+reason such as multiple chemotherapy appointments or periods of incapacity related to the same condition; see
+Section 4.4).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌23
+
+CHAPTER 4: EMPLOYEE LEAVE TAKING RATES
+AND REASONS FOR LEAVE
+
+Exhibit 4-1.
+
+Percentage of employees who took leave in the past 12 months for a qualifying
+FMLA reason, by select subgroups
+
+Notes: */** indicates that results are statistically different at the 5%/1% level, respectively. Percentage of employees taking leave does not
+include those respondents who reported taking leave for a reason that does not qualify for FMLA (for a non-covered family member or for
+eldercare, which is care provided for an adult aged 65 or older with age-related physical or mental impairments not related to a serious health
+condition). Additional information is available in Supplemental Results Exhibit B4-1.
+Source: 2018 FMLA Employee Survey S11.
+Sample: Sample size is 4,470 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+Exhibit 4-2 below reports the percentage of employees who took leave in the past 12 months for
+qualifying FMLA reasons by demographic characteristics. 34 Twenty-nine percent of employees in singleparent households took leave, compared to 19 percent of employees in dual-parent households. The
+percentage of employees taking leave is higher for employees caring for a child aged 18 or younger,
+compared to those caring for an adult aged 65 or older (21 percent versus 17 percent). The percentage of
+employees taking leave decreases as education levels increase, with 12 percent of employees with a
+bachelor’s degree or higher taking leave versus 23 percent of employees with either less than a high
+school diploma or who have a GED taking leave.
+
+34
+
+See Supplemental Results Exhibit B4-2 for rates of leave taking for these demographic groups separately by
+FMLA eligibility and paid leave state status.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌24
+
+CHAPTER 4: EMPLOYEE LEAVE TAKING RATES
+AND REASONS FOR LEAVE
+
+Exhibit 4-2.
+
+Percentage of employees who took leave in the past 12 months for a qualifying
+FMLA reason, by demographic characteristics
+
+Notes: */** indicates that results are statistically different at the 5%/1% level, respectively (based on t-test for sex and ethnicity and Rao-Scott
+chi-square test for other categories). Percentage of employees who took leave does not include those respondents who reported taking leave
+for a reason that does not qualify for FMLA (for a non-covered family member or for eldercare, which is care provided to an adult aged 65 years
+or older with age-related physical or mental impairments not related to a serious health condition).
+Source: 2018 FMLA Employee Survey S8, S8b/D1, S11, D5, D6, D7, D8, D10, D11.
+Sample: Sample size is 4,470 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+Exhibit 4-3 below displays the percentage of employees taking leave for qualifying FMLA reasons over
+time based on the 2018 and prior Employee Surveys (adjusting for the recall period of the 1995 and 2000
+surveys being the prior 18 months instead of the prior 12 months). The rate of leave taking over the prior
+12 months in 2018 (15 percent) is not statistically different from the rate in 2012 (13 percent).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌25
+
+CHAPTER 4: EMPLOYEE LEAVE TAKING RATES
+AND REASONS FOR LEAVE
+
+Exhibit 4-3.
+
+Percentage of U.S. labor force taking leave for qualifying FMLA reasons in the past
+12 months, by year
+
+Notes: The Wave 1 and Wave 2 surveys asked about leave taking in approximately the 18 months prior to the survey; the Wave 3 survey
+asked about leave taking in both the prior 12 and the prior 18 months; the Wave 4 survey asked about leave taking only in the prior 12 months.
+The 12-month rates reported for Wave 1 and Wave 2 are prorated approximations created by applying the ratio of 18-month to 12-month leave
+taking rates found in Wave 3 (18 percent and 13 percent, respectively) to convert the 18-month leave taking rates reported in Waves 1 (16
+percent) and Wave 2 (17 percent) to 12-month leave taking rates. Includes leave taken for qualifying FMLA reasons even among employees
+not eligible for FMLA.
+Sources: Klerman et al., 2013, Exhibit 4.1.3 (Wave 1 through Wave 3); 2018 FMLA Employee Survey S11 (Wave 4).
+Sample: Wave 1: 2,255 employees; Wave 2: 2,558 employees; Wave 3: 2,572 employees; Wave 4: 4,470 employees.
+
+4.2.
+
+Reasons for Leave Taking
+
+Different from the prior section, leave is defined more broadly than leave for qualifying FMLA reasons
+alone, additionally including leave taken for a non-immediate family member’s serious health condition
+(e.g., a grandchild’s serious health condition; see detailed definition of leave and immediate family
+member in the Glossary). Compared to leave for qualifying FMLA reasons, this definition of leave
+removes some limitations on who is receiving care but not on the seriousness of the condition (e.g., does
+not include taking a personal sick day for the common cold).
+Among all employees who took such leave in the past 12 months, 51 percent did so because of their own
+serious illness, and 25 percent took leave for reasons associated with a new child (Exhibit 4-4 below). 35
+The balance includes 19 percent of employees who took leave to care for an FMLA-covered family
+member’s serious health condition (immediate family member), and 5 percent who took leave to care for
+a serious health condition of an individual not covered under FMLA. 36
+
+35
+
+Among employees who took more than one leave, results reflect the main reason for their most recent leave.
+Among employees who took leave for a new child, half reported that another family member took leave from
+work for the same reason; see Supplemental Results Exhibit B4-9 for more information.
+
+36
+
+The proportion taking leave to care for an FMLA-qualifying adult aged younger than 65 includes taking leave to
+address issues arising from the deployment of a military family member.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌26
+
+CHAPTER 4: EMPLOYEE LEAVE TAKING RATES
+AND REASONS FOR LEAVE
+
+Exhibit 4-4.
+
+Reasons for taking most recent leave in past 12 months
+
+1 Leaves related to a new child include pregnancy-related serious health conditions, miscarriage, and care for or bonding with a newborn, a
+
+newly adopted child, or a newly placed foster child.
+Notes: Percentages may not add to 100 percent due to rounding. Eldercare is care provided for an adult aged 65 or older with age-related
+physical or mental impairments not related to a serious health condition.
+Source: 2018 FMLA Employee Survey A5, A8, A10.
+Sample: Sample size is 1,805 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+More than two-fifths of employees’ most recent leaves are for a one-time health matter (43 percent),
+whereas about a quarter are for an ongoing health condition (28 percent; Exhibit 4-4). Only 2 percent
+report that the leave is specifically taken to provide eldercare (care provided for an adult aged 65 or older
+with age-related physical or mental impairments not related to a serious health condition, which does not
+otherwise typically qualify under FMLA).
+
+4.3.
+
+Length of Leave
+
+Among all employees who took leave for a qualifying FMLA reason, the average (mean) length of the
+most recent leave taken is 28 business days (Exhibit 4-5 below). 37 This represents a decrease from a
+mean of 35 business days in the 2012 survey. By reason for leave, the average length of leave is 36 days
+for reasons relating to a new child, 29 days for an employee’s own serious health condition, about 19 days
+for care of an FMLA-covered adult’s serious health condition, and 11 days for a child’s serious health
+condition (Supplemental Results Exhibit B4-6).
+
+37
+
+For leave takers who took more than one leave for a qualifying FMLA reason in the prior 12 months, this average
+reflects information for their most recent leave. Among leave takers who took more than one leave, for whom
+their longest leave in the past 12 months was not their most recent leave, and their longest leave was at least three
+weeks long, the average length of leave was 43 business days (see Supplemental Results Exhibit B4-4).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌27
+
+CHAPTER 4: EMPLOYEE LEAVE TAKING RATES
+AND REASONS FOR LEAVE
+
+Exhibit 4-5.
+
+Average length of most recent leave for a qualifying FMLA reason in past 12
+months, by select subgroups (in business days)
+
+Notes: */** indicates that results are statistically different at the 5%/1% level, respectively. For most recent leave, length of leave among
+employees who are currently on leave is imputed by doubling their reported length of leave. Because the longest FMLA-allowed leave is six
+months within a 12-month period, length of leave was truncated at six months. Calculations exclude those respondents who reported taking
+leave for a reason that does not qualify for FMLA (for a non-covered family member or for eldercare, which is care provided for an adult aged
+65 or older with age-related physical or mental impairments not related to a serious health condition). Additional information is available in
+Supplemental Results Exhibit B4-4.
+Source: 2018 FMLA Employee Survey A3, A19.
+Sample: Sample size is 1,516 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+Exhibit 4-6 below displays the average (mean) length of leave by demographic characteristics. 38 Female
+employees take longer average leaves than male employees (35 days versus 21 days). Employees in
+single-parent households take longer average leaves than those in dual-parent households (35 days versus
+28 days), and employees caring for children aged younger than 18 take longer leaves than those caring for
+adults aged older than 65 (30 days versus 21 days).
+
+38
+
+Supplemental Results Exhibit B4-5 reports the average length of leave for these demographic groups separately
+by FMLA eligibility and by paid leave state status. Supplemental Results Exhibit B4-6 reports average length of
+leave by reason for leave.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌28
+
+CHAPTER 4: EMPLOYEE LEAVE TAKING RATES
+AND REASONS FOR LEAVE
+
+Exhibit 4-6.
+
+Average length of most recent leave for a qualifying FMLA reason in past 12
+months, by demographic characteristics (in business days)
+
+Notes: */** indicates that results are statistically different at the 5%/1% level, respectively (using t-test for sex and ethnicity, and Rao-Scott chisquare test for all others). Calculations exclude those respondents who reported taking leave for a reason that does not qualify for FMLA (for a
+non-covered family member or for eldercare, which is care provided for an adult aged 65 years or older with age-related physical or mental
+impairments not related to a serious health condition).
+Source: 2018 FMLA Employee Survey S8, S8b/D1, A3, A19, D5, D6, D7, D8, D10, D11.
+Sample: Sample size is 1,516 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+In addition to average days, the distribution of length of leave taken also matters. One approach is
+computing the proportion of leaves of a given length relative to the total number of leaves taken. The
+maximum length of leave guaranteed under FMLA for most qualifying reasons is 60 business days within
+a 12-month period (i.e., 5 days a week for 12 workweeks, assuming the employee’s actual workweek is a
+40-hour workweek). 39 Forty percent of all leaves are 10 days or less, and 76 percent of leaves are 40 days
+or less (Exhibit 4-7 top panel below). Only 11 percent of leaves last between 41 and 60 days; 13 percent
+last more than 60 days. An alternative perspective considers the total number of days of leave taken
+among all employees and computes the proportion of total days of leave taken in each length-of-leave
+category. From this perspective, leaves of 41 or more days account for the majority of total days of leave
+taken by employees (61 percent, Exhibit 4-7 bottom panel below). Taken together, longer leaves (41 or
+more days) account for the majority of days of leave taken across all employees, even though only about a
+quarter of leaves taken are longer leaves.
+
+39
+
+The employee’s actual workweek is the basis of FMLA entitlement. An eligible employee is entitled to up to a
+total of 12 workweeks of leave, or 26 workweeks in the case of military caregiver leave; the total number of
+hours contained in those workweeks is necessarily dependent on the specific hours the employee would have
+worked but for the use of leave.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌29
+
+CHAPTER 4: EMPLOYEE LEAVE TAKING RATES
+AND REASONS FOR LEAVE
+
+Exhibit 4-7.
+
+Length of most recent leave for a qualifying FMLA reason in past 12 months, by
+percentage of all leaves and percentage of all days of leave taken (in business days)
+
+Notes: Percentages may not add to 100 percent due to rounding. Length of leave is in business days. Respondents could report length of leave
+in multiple units (hours, days, weeks, months). We convert responses into business days by assuming 8 hours per day, 5 days per week, and
+22.5 days per month. For most recent leave, length of leave among employees who are currently on leave is imputed by doubling their reported
+length of leave. Because the longest FMLA-allowed leave is 6 months within a 12-month period, length of leave was truncated at 6 months.
+Calculations exclude those respondents who reported taking leave for a reason that does not qualify for FMLA (for a non-covered family
+member; or for eldercare, which is care provided for an adult aged 65 or older with age-related physical or mental impairments not related to a
+serious health condition).
+Source: 2018 FMLA Employee Survey A3, A19.
+Sample: Sample size is 1,516 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+4.4.
+
+Incidence of Intermittent Leave
+
+Intermittent leave—that is, taking leave on multiple occasions (separate instances of time away from
+work) for the same reason—is fairly common. 40 In this report, the number of leaves indicates separate
+leave reasons, whereas the number of leave occasions indicates the number of instances away from work
+for the same reason on a single leave.
+Among all employees who took leave for a qualifying FMLA reason in the prior 12 months, almost onethird of employees’ most recent leaves are taken on an intermittent basis (31 percent), an increase from 24
+percent of leave takers in 2012. 41 Employees reporting taking intermittent leave as their most recent leave
+most commonly take only two occasions of time off (41 percent) and have a total length of leave of 10
+days or less (45 percent, Supplemental Results Exhibit B4-7). However, some employees take many
+occasions, so the means are much larger—seven occasions of time off and a total length of leave of 21
+business days across leave occasions.
+Approximately half of intermittent leaves are taken for one’s own illness (47 percent, including
+intermittent leaves for qualifying FMLA reasons and those taken to care for a non-immediate family
+member with a serious health condition, Exhibit 4-8 below). Only 13 percent of intermittent leaves are
+
+40
+
+In this section occasions refers to the number of separate blocks of time away from work taken for a single
+qualifying reason during an intermittent leave, as compared to continuous leave, which we define as leave taken
+entirely as one occasion. We also use occasions to distinguish separate blocks of time taken under the same leave
+from the total number of leaves an employee takes, which reflect different qualifying reasons for leave.
+
+41
+
+The 2018 Worksite Survey also asks worksites covered by FMLA what proportion of their FMLA leave takers
+took leave on an intermittent basis. In line with the employee-reported results, worksites report that 26 percent of
+covered employees who take FMLA-designated leave take leave on an intermittent basis (Supplemental Results
+Exhibit B4-10).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌30
+
+CHAPTER 4: EMPLOYEE LEAVE TAKING RATES
+AND REASONS FOR LEAVE
+
+related to a new child. 42 Intermittent leaves are most commonly characterized as being related to ongoing
+personal health conditions, accounting for 40 percent of employees taking intermittent leaves; 24 percent
+of employees take intermittent leave for a one-time health condition, and 15 percent for an injury or
+illness that requires routine regular care (Exhibit 4-8).
+Exhibit 4-8.
+
+Percentage of intermittent leaves taken in past 12 months, by characteristics of
+most recent leave
+
+Notes: Percentages may not add to 100 percent due to rounding. Based on employees whose most recent leave was taken on an intermittent
+basis among all employees who reported taking leave in the past 12 months. Reasons for taking leave include leave takers who took leave for
+either a qualifying FMLA reason or for the serious health condition of a non-immediate family member; number and length of leaves only
+include leaves taken for qualifying FMLA reasons. Leaves related to a new child include pregnancy-related health reasons, miscarriage, and
+care for or bonding with a newborn, a newly adopted child, or a newly placed foster child.
+Source: 2018 FMLA Employee Survey A5, A8, A10.
+Sample: Sample size is 553 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+42
+
+Unlike leave for a serious health condition, which may include a medical necessity for intermittent leave, and for
+which an eligible employee is entitled to intermittent leave, intermittent or reduced schedule leave after the birth
+or placement of a child for adoption or foster care is only available if the employer agrees to its use.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌31
+
+CHAPTER 4: EMPLOYEE LEAVE TAKING RATES
+AND REASONS FOR LEAVE
+
+4.5.
+
+Chapter Summary
+
+This chapter describes the prevalence, number, and length of leaves taken for qualifying FMLA reasons
+and reasons that leave is taken. Overall, 15 percent of U.S. employees have taken leave for a qualifying
+FMLA reason in the past 12 months. The average length of leave for a qualifying FMLA reason is 28
+business days, which is shorter than the average leave in 2012 (35 business days). Although most
+employees took only one leave for a qualifying FMLA reason during the year, taking more than one leave
+and taking leave on an intermittent basis are both fairly common: 32 percent and 31 percent of all
+employees who took leave for a qualifying FMLA reason, respectively. Leave for employees’ own health
+conditions (51 percent) and the arrival of a new child (25 percent) account for about three-quarters of all
+leaves taken (including leaves taken to care for a non-immediate family member’s serious health
+condition).
+The next chapter describes employees’ experiences while on leave, including the level of pay received
+while on leave, financial hardship among those who receive less than full pay, and employee decisions on
+returning to work after leave.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌32
+
+CHAPTER 5: LEAVE TAKERS’ EXPERIENCES DURING
+AND AFTER TAKING LEAVE
+
+5.
+
+Leave Takers’ Experiences During and After Taking
+Leave
+
+This chapter describes leave takers’ experiences during and
+after their leave, using data from the 2018 Employee Survey.
+Section 5.1 describes the level of pay and health benefits that
+employees receive while on leave. Section 5.2 describes
+financial security while on leave among those employees who
+do not receive full pay while on leave. Section 5.3 describes
+reasons for returning to work after leave and effects that taking
+leave has on subsequent employment and workplace
+experiences. Leave takers in this chapter include both those
+taking leave for qualifying FMLA reasons and those taking
+leave to care for a non-immediate family member’s serious
+health condition (see definitions of leave and immediate family
+member in Glossary).
+
+5.1.
+
+Pay and Benefits Received While Taking
+Leave
+
+Although there is no pay requirement associated with FMLA
+(except, as previously noted, under the FMLA’s “substitution of
+leave” provisions), federal FMLA policy allows employees to
+take accumulated paid time off (e.g., paid vacation, sick leave)
+and temporary disability insurance (TDI) pay concurrent with
+their FMLA-designated leave. Employees not taking leave through
+FMLA may likewise use paid time off or TDI pay during their leave.
+
+Key Findings
+• Among employees who took leave in
+the past 12 months, 42 percent receive
+full pay while on leave, 24 percent
+receive partial pay, and 34 percent
+receive no pay.
+• Among employees who do not receive
+full pay while on leave, 67 percent
+report difficulty making financial ends
+meet.
+• Almost 90 percent of employees return
+to work for the same employer at the
+same position after taking family and
+medical leave.
+• About 10 percent of all leave takers
+and 20 percent of low-wage leave
+takers report that they lost their job or
+lost seniority/potential for advancement
+because of taking leave.
+
+Among employees who took leave in the past 12 months, 42 percent receive full pay, 24 percent receive
+partial pay, and 34 percent receive no pay while on leave (Exhibit 5-1 below). 43 Employees eligible for
+FMLA more commonly receive pay while on leave than do ineligible employees who take leave (80
+percent versus 54 percent). Employees in paid leave states more commonly receive pay while on leave
+than those in non-paid leave states (79 percent versus 64 percent). Four-fifths of non-low-wage workers
+receive pay while on leave (80 percent), compared to less than two-fifths of low-wage workers (39
+percent).
+Among employees who report receiving pay while on leave, the two most common types of pay are sick
+leave (70 percent) and vacation pay (60 percent, Exhibit 5-2 below). 44 Some 30 percent of employees
+receive TDI benefits. Receiving state paid leave is not common, even among employees in paid leave
+states. Only 8 percent of all employees who receive pay while on leave report receiving state paid leave
+(Exhibit 5-2), and 20 percent of employees in paid leave states report receiving state paid family leave
+(Supplemental Results Exhibit B5-3). 45
+
+43
+
+This includes all leave taken, whether for a qualifying FMLA reason or not and both FMLA-designated leave and
+leave that is not FMLA-designated.
+
+44
+
+Sick leave here includes sick leave and paid time off (PTO); vacation pay here includes vacation pay and PTO.
+
+45
+
+Supplemental Results Exhibit B5-3 reports that 4 percent of leave takers living in non-paid leave states report
+receiving state paid family leave. Difference in receiving state paid leave as a source of pay is significant at the 5
+percent level.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌33
+
+CHAPTER 5: LEAVE TAKERS’ EXPERIENCES DURING
+AND AFTER TAKING LEAVE
+
+Exhibit 5-1.
+
+Percentage of employees receiving full, partial, or no pay while on most recent leave
+in the past 12 months, overall and by select subgroups
+
+Notes: */** indicates that results are statistically different at the 5%/1% level, respectively. Percentages may not add to 100 percent due to
+rounding. Additional information is available in Supplemental Results Exhibit B5-1.
+Source: 2018 FMLA Employee Survey A43, A43a-g.
+Sample: Sample size is 1,625 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+Exhibit 5-2.
+
+Source of pay received among all employees who received pay while on most recent
+leave in the past 12 months
+
+Notes: Percentages may add to more than 100% because respondents could report receiving more than one type of pay while on leave. Sick
+leave includes both sick leave and paid time off (PTO). Vacation pay includes both vacation pay and PTO.
+Source: 2018 FMLA Employee Survey A43h.
+Sample: Sample size is 1,203 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌34
+
+CHAPTER 5: LEAVE TAKERS’ EXPERIENCES DURING
+AND AFTER TAKING LEAVE
+
+Not surprisingly, full pay becomes less common as the length of leave increases (Exhibit 5-3). Twothirds of employees who take leave for 10 or fewer business days receive full pay while on leave. This
+percentage drops to less than a quarter of employees (22 percent) when leave extends to more than 40
+days.
+Exhibit 5-3.
+
+Percentage of employees receiving full, partial, or no pay while on most recent leave
+in the past 12 months, by length of leave
+
+Notes: Percentages may not add to 100 percent due to rounding. Length of leave among employees who are currently on leave is imputed by
+doubling their reported length of leave.
+Source: 2018 FMLA Employee Survey A3, A19, A43, A43a-g.
+Sample: Sample size is 1,625 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+Sick leave is the most common source of pay for employees on leave for 40 days or shorter: 80 percent of
+employees for leaves of 10 or fewer days, and 63 percent of employees for leaves of 11-40 days
+(Supplemental Results Exhibit B5-4). More than half of employees on leaves of 41 days or longer receive
+vacation pay or TDI pay (63 and 49 percent of leaves of 41-60 days, respectively; 65 and 53 percent of
+leaves of 61 days or longer, respectively; Supplemental Results Exhibit B5-4).
+
+5.2.
+
+Financial Security While on Leave
+
+Two-thirds of employees who did not receive full pay while on leave report finding it much more or
+somewhat more difficult to “make ends meet” during their leave (Exhibit 5-4 below). Reports of
+employees finding it much more difficult to make ends meet trend upward with length of leave, rising
+from 22 percent of employees on leaves of 10 or fewer days to 37 percent of employees on leaves of 61
+days or longer.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌35
+
+CHAPTER 5: LEAVE TAKERS’ EXPERIENCES DURING
+AND AFTER TAKING LEAVE
+
+Exhibit 5-4.
+
+Percentage of employees experiencing degrees of financial difficulty in “making
+ends meet” while on leave among employees who receive partial or no pay while on
+leave, by length of leave
+
+Notes: Percentages may not add to 100 percent due to rounding. “Easier” combines responses of “Somewhat easier” and “Much easier” due to
+low response frequencies for “Much easier.”
+Source: 2018 FMLA Employee Survey A54.
+Sample: Sample size is 905 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+Employees who receive partial or no pay while on leave use a variety of methods to cover lost earnings,
+as shown in Exhibit 5-5 below (respondents could select multiple options). Most common is limiting
+spending, reported by more than three-quarters of employees (76 percent). About two-fifths of employees
+use money they had saved in anticipation of their leave (43 percent). More than a quarter of employees
+put off paying bills or cut their leave time short (27 percent). More than half of employees who lost
+earnings report they would have taken additional time for leave if additional pay had been available (56
+percent, Supplemental Results Exhibit B5-7).
+Borrowing money to make up for lost earnings is fairly common, with 31 percent of employees who lost
+earnings borrowing to make ends meet (Exhibit 5-5 below). Low-wage workers more commonly borrow
+money compared to non-low-wage workers (41 percent versus 22 percent, Supplemental Results Exhibit
+B5-6).
+Though not common overall, accessing public assistance to cover lost earnings is much more common
+among employees ineligible for FMLA, employees in non-paid leave states, and low-wage workers. 46
+46
+
+Differences by FMLA eligibility and paid leave state status significant at 5% level; differences by low-wage
+worker status significant at 1% level.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌36
+
+CHAPTER 5: LEAVE TAKERS’ EXPERIENCES DURING
+AND AFTER TAKING LEAVE
+
+More than one-fifth of employees ineligible for FMLA (22 percent) use public assistance to cover lost
+earnings, compared to one-tenth of employees eligible for FMLA (11 percent, Supplemental Results
+Exhibit B5-6). In non-paid leave states, 18 percent of employees who lost earnings went on public
+assistance, compared to 8 percent of employees in paid leave states. More than a quarter of low-wage
+workers who lost earnings went on public assistance (26 percent), compared to 8 percent of non-lowwage workers.
+Exhibit 5-5.
+
+Methods used to cover lost earnings during leave among employees who receive
+partial or no pay while on leave, based on most recent leave in past 12 months
+
+Notes: Percentages may add to more than 100% because respondents could report more than one way to cover lost earnings.
+Source: 2018 FMLA Employee Survey A53.
+Sample: Sample size is 905 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+5.3.
+
+Return to Work After Leave
+
+Overall, 87 percent of employees who take leave return to work for the same employer and in the same
+position. 47 Among all leave takers, only 4 percent do not return to work (Supplemental Results Exhibit
+B5-7). Among leave takers who return to work, almost all return to their prior employer (96 percent,
+
+47
+
+This overall estimate is derived by multiplying the conditional percentages of each step: 96 percent of employees
+returning to work × 96 percent returning to their same employer (conditional on returning to work) × 94 percent
+returning to their same position (conditional on returning to same employer).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌37
+
+CHAPTER 5: LEAVE TAKERS’ EXPERIENCES DURING
+AND AFTER TAKING LEAVE
+
+Supplemental Results Exhibit B5-8). Lastly, among those who return to their previous employer, almost
+all return to the same position (94 percent, Supplemental Results Exhibit B5-8). 48
+Among employees who return to work, the most common reasons for returning are wanting to get back to
+work or no longer needing to be on leave (69 percent, Exhibit 5-6). Some 30 percent of employees return
+because they have used up all of the leave time allowed. About 20 percent of employees indicate that their
+decision to return was influenced by feeling pressured by their boss or co-workers to return (19 percent)
+or not wanting to lose their job seniority or the potential for job advancement (18 percent).
+Exhibit 5-6.
+
+Reasons for returning to work
+
+Notes: Percentages may add to more than 100% because respondents could report more than one reason for returning to work.
+Care recipient is defined as the person for whose care the respondent indicated needing to take leave.
+Source: 2018 FMLA Employee Survey A55, A59, A62.
+Sample: Sample size is 1,444 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+FMLA guarantees that non-key employees who take FMLA-designated leave can return to their previous
+job or an equivalent position. However, not all employees are eligible for FMLA, and those who are
+eligible may not provide sufficient information to their employer about their reason for leave, may take
+leave for a non-qualifying FMLA reason, or may not meet worksite policies for leave (such as meeting
+minimum notice requirements). Nine percent of employees report losing their job as a result of taking
+
+48
+
+Among the small proportion of leave takers who did not return to the same position, approximately one-quarter
+asked for a new position (26 percent); the remainder either were asked by their worksite to move into a new
+position (20 percent) or were simply assigned to that new position (55 percent, Supplemental Results Exhibit B58).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌38
+
+CHAPTER 5: LEAVE TAKERS’ EXPERIENCES DURING
+AND AFTER TAKING LEAVE
+
+family and medical leave (Exhibit 5-7). Employees eligible for FMLA less frequently report a job loss
+compared to ineligible employees (5 percent versus 14 percent, Exhibit 5-7).
+Even if employees do not lose their job, taking leave can have other negative effects. Twelve percent of
+employees report losing job seniority or the potential for advancement because of taking leave, with lower
+rates among FMLA-eligible employees compared to ineligible employees (8 percent versus 18 percent,
+Exhibit 5-7). A majority of employees report revealing personal information about their own health or the
+health of their care recipient as an undesirable effect of leave taking (56 percent, Supplemental Results
+Exhibit B5-9). 49
+Exhibit 5-7.
+
+Percentage of employees experiencing negative effects from taking leave, by select
+subgroups
+
+Notes: */** indicates that results are statistically different at the 5%/1% level, respectively. Additional information is available in Supplemental
+Results Exhibit B5-9.
+Source: 2018 FMLA Employee Survey A23.
+Sample: Sample size is 1,767 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+49
+
+The FMLA prohibits employers from interfering with, restraining, or denying the exercise of any rights provided
+by the FMLA. In addition, it prohibits employers from discriminating against employees or prospective
+employees who have used FMLA leave, and employers cannot use the taking of FMLA leave against employees
+in employment actions, such as hiring, promotions, or disciplinary actions.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌39
+
+CHAPTER 5: LEAVE TAKERS’ EXPERIENCES DURING
+AND AFTER TAKING LEAVE
+
+Experiences of low-wage workers in returning to work after family and medical leave differ from those of
+non-low-wage workers in several respects. First, low-wage workers less commonly return to work after
+taking leave compared to non-low-wage workers (91 percent versus 98 percent, Supplemental Results
+Exhibit B5-7). They also less commonly return to the same employer when they do return to work (92
+percent versus 99 percent, Supplemental Results Exhibit B5-8). Second, 18 percent of low-wage workers
+report that they lost their job after taking leave, compared to 5 percent of non-low-wage workers
+(Exhibit 5-7). Lastly, low-wage workers also less commonly return to work because they no longer need
+to be on leave compared to non-low-wage workers (60 percent versus 74 percent, Supplemental Results
+Exhibit B5-7). 50
+
+5.4.
+
+Chapter Summary
+
+This chapter describes employees’ experiences while on leave (among those who took leave from work in
+the prior 12 months, including both leaves for qualifying FMLA reasons and leaves to care for a nonimmediate family member’s serious health condition). Among employees who took leave in the past 12
+months, 42 percent receive full pay, 24 percent receive partial pay, and 34 percent receive no pay while
+on leave. Among employees who do not receive full pay, two-thirds report experiencing financial
+difficulty in making ends meet while on leave. More than three-quarters of employees who have lost
+earnings while on leave limit spending (76 percent). Other strategies include borrowing money (31
+percent), putting off paying bills (27 percent), cutting leave short (27 percent), and going on public
+assistance (17 percent). After taking leave, most employees return to work at their same employer and
+position (87 percent), but about one-tenth of employees (9 percent) report having lost their job as a result
+of taking leave (which could occur while on leave or later after returning to work). More low-wage
+workers (18 percent) than other workers (5 percent) report losing a job as a result of taking leave.
+The next chapter describes the experiences of employees who needed to take leave but did not do so.
+
+50
+
+Low-wage workers also less commonly report that they returned to work because their doctor told them that they
+were ready to return to work compared to non-low-wage workers (49 percent versus 73 percent).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌40
+
+CHAPTER 6: EMPLOYEES’ UNMET NEED FOR LEAVE
+
+6.
+
+Employees’ Unmet Need for Leave
+
+This chapter describes the experiences of employees who report
+unmet need for leave—that they needed to take leave for a family
+or medical reason in the past 12 months but did not do so—using
+data from the 2018 Employee Survey. This definition of unmet
+need does not count employees who took leave but then ended
+their leave despite perceiving a need for additional time on leave,
+consistent with the definition used in the 2012 survey.
+(Employees who end their leave despite perceiving a need for
+additional time on leave may have unmet need for additional
+leave—see Section 5.3 on returning to work after leave.) Section
+6.1 reports the incidence of unmet need for leave in the past 12
+months for qualifying FMLA reasons. The remaining sections
+include both unmet need for leave for qualifying FMLA reasons
+and unmet need to care for a non-immediate family member’s
+serious health condition. Among all employees with unmet need
+for leave, Section 6.2 reports on why the leave was needed and
+why the leave was not taken. Finally, Section 6.3 reports on
+actions taken in lieu of taking leave.
+
+6.1.
+
+Leave Needed but Not Taken
+
+Key Findings
+• Overall, 7 percent of employees report
+needing leave for a qualifying FMLA
+reason but not taking the leave.
+• More than half of unmet need for leave
+is for an employee’s own health
+condition.
+• Two-thirds of employees with unmet
+need for leave did not take leave
+because they could not afford unpaid
+leave.
+• Almost 20 percent of employees with
+unmet need for leave were unaware of
+the availability of leave.
+• More than half of employees with
+unmet need for leave to care for
+another person relied on someone else
+taking over care-giving responsibilities.
+
+Overall, 7 percent of employees report that they needed to take
+leave from work for a qualifying FMLA reason at some point in the past 12 months but did not take any
+leave—an increase from 5 percent of employees reporting needed leave but not taking it in the 2012
+survey. Thus, unmet need for leave is approximately half as common as taking leave (7 percent versus 15
+percent; see Section 4.1). 51 Unmet need for leave is more common among low-wage workers than among
+non-low-wage workers (9 percent versus 6 percent, Exhibit 6-1 below).
+Exhibit 6-2 below reports the percentage of employees with unmet need for leave for a qualifying FMLA
+reason by respondent demographics. 52 Unmet need for leave is more common among employees in
+single-parent households than those in dual-parent households (16 percent versus 9 percent) and among
+female employees than male employees (9 percent versus 6 percent). Unmet need for leave is less
+common as education level increases, from 14 percent of employees with less than a high school diploma
+or who have a GED to 4 percent of employees with a bachelor’s degree or higher. Unmet need also varies
+by race and ethnicity, with lower rates of unmet need among white and Asian employees (6 percent) and
+higher rates among African American employees (11 percent).
+
+51
+
+Unmet need for leave reported in this chapter includes the small number of survey respondents who in the past 12
+months both took leave for (at least) one reason and did not take leave for (at least) one other reason. These are
+termed “dual leave takers/needers.”
+
+52
+
+Supplemental Results Exhibit B6-2 reports rates of unmet need for leave for these demographic groups separately
+by FMLA eligibility and by paid leave state status.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌41
+
+CHAPTER 6: EMPLOYEES’ UNMET NEED FOR LEAVE
+
+Exhibit 6-1.
+
+Percentage of employees with unmet need for leave in past 12 months for a
+qualifying FMLA reason, by select subgroups
+
+Notes: */** indicates that results are statistically different at the 5%/1% level, respectively. The percentage of employees with unmet need for
+leave does not include those respondents who reported needing leave for a reason that does not qualify for FMLA (for a non-covered family
+member or for eldercare, which is care provided for an adult aged 65 or older with age-related physical or mental impairments not related to a
+serious health condition) or those who took leave but then ended their leave despite perceiving a need for additional time on leave. Additional
+information is available in Supplemental Results Exhibit B6-1.
+Source: 2018 FMLA Employee Survey S12.
+Sample: Sample size is 4,470 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌42
+
+CHAPTER 6: EMPLOYEES’ UNMET NEED FOR LEAVE
+
+Exhibit 6-2.
+
+Percentage of employees with unmet need for leave in the past 12 months for a
+qualifying FMLA reason, by demographic characteristics
+
+Notes: */** indicates that results are statistically different at the 5%/1% level, respectively (using t-test for sex and ethnicity and Rao-Scott chisquare test for all others). Rate of unmet need for leave does not include those respondents who reported taking leave for a reason that does
+not qualify for FMLA (for a non-covered family member or for eldercare, which is care provided for an adult aged 65 or older with age-related
+physical or mental impairments not related to a serious health condition) or those who took leave but then ended their leave despite perceiving
+a need for additional time on leave.
+Source: 2018 FMLA Employee Survey S8, S8b/D1, S12, D5, D6, D7, D8, D10, D11.
+Sample: Sample size is 4,470 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+6.2.
+
+Reasons for Needing Leave and for Not Taking Leave
+
+The remaining sections of this chapter focus on employees with unmet need for leave using a broader
+definition of leave that includes both qualifying FMLA reasons and care for a non-immediate family
+member’s serious health condition (see definition of leave and immediate family member in Glossary).
+Among all employees with unmet need for leave, half needed leave for their own illness (51 percent,
+Supplemental Results Exhibit B6-3). 53 Only 7 percent of employees had unmet need for leave to care for
+a person who does not qualify under FMLA. Unmet need for leave for a new child in their family is not
+common (12 percent). Ongoing health matters are the most common kind of condition for which
+respondents had unmet need for leave (41 percent, Supplemental Results Exhibit B6-3).
+Employees may have multiple reasons why they do not take needed leave, but the most common reasons
+reported are concerns over finances and potential workplace consequences (Exhibit 6-3 below). Twothirds of employees report not taking needed family and medical leave because they could not afford to
+take unpaid leave. Fear of job loss, worry about being treated differently at work because of their reason
+for needing leave, and worry about losing seniority or job advancement potential are considerations for at
+least 30 percent of employees who did not take needed leave. Compared to non-low-wage workers, a
+53
+
+Respondents who needed to take leave more than once in the past 12 months are asked to report on the most
+recent instance.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌43
+
+CHAPTER 6: EMPLOYEES’ UNMET NEED FOR LEAVE
+
+much greater percentage of low-wage workers report not taking needed leave because they believe they
+might lose their job (59 percent versus 36 percent, Supplemental Results Exhibit B6-4).
+Perceived or actual ineligibility for leave, failure to follow worksite policies, or lack of awareness of the
+availability of leave may also contribute to employees not taking needed leave. More than a quarter of
+employees who did not take needed leave report being ineligible for leave (27 percent, Supplemental
+Results Exhibit B6-4). Twenty-four (24) percent of employees believe their health condition does not
+qualify for leave, and 14 percent believe the family member who needed care was not covered by FMLA.
+About one-fifth report being denied leave by their worksite (19 percent), with 16 percent of employees
+reporting they were unable to meet their worksite’s notice requirement for leave. Eighteen (18) percent of
+employees report not taking leave because they were unaware of the availability of leave.
+Employees may not take leave due to other personal considerations or the availability of leave
+alternatives. One-third report that they did not take leave because they consider their work too important
+or because they want to save their available leave time (Supplemental Results Exhibit B6-4). One-sixth
+did not take leave because they were able to make alternative work arrangements, such as using flex time
+or telecommuting.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌44
+
+CHAPTER 6: EMPLOYEES’ UNMET NEED FOR LEAVE
+
+Exhibit 6-3.
+
+Reasons that needed leave in the past 12 months was not taken
+
+Notes: Percentages may add to more than 100% because respondents could report more than one category. Sample includes employees
+eligible and ineligible for FMLA and those whose reason for needing leave is a qualifying FMLA reason and those who need leave to care for a
+non-immediate family member’s serious health condition. It excludes those who took leave but then ended their leave despite perceiving a
+need for additional time on leave. Care recipient is defined as the person whose care the respondent indicated needing to take leave.
+Source: 2018 FMLA Employee Survey B15, B16, B17.
+Sample: Sample size is 903 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌45
+
+CHAPTER 6: EMPLOYEES’ UNMET NEED FOR LEAVE
+
+6.3.
+
+Actions Taken in Lieu of Leave
+
+When leave was needed for their own or another person’s health condition, approximately 40 percent of
+employees report the person with the health condition went without treatment (44 percent) or treatment
+was postponed (39 percent, Exhibit 6-4). When unmet need for leave was to care for someone other than
+the respondent, more than half of employees had someone else take over their care-giving responsibilities
+(54 percent), and more than one-third of employees reported another family member took leave to provide
+care (36 percent). Only a minority of employees paid for care in lieu of taking leave for a new child or
+child’s health condition (27 percent) or for eldercare (care provided for an adult aged 65 or older with
+age-related physical or mental impairments not related to a serious health condition, 13 percent).
+Exhibit 6-4.
+
+Actions taken by employees with unmet need for leave in lieu of taking leave, by
+reason leave was needed
+
+Notes: Percentages may add to more than 100% because respondents could report more than one category. Calculations include all reasons
+for unmet need for leave, including reasons that are ineligible under FMLA and exclude employees who took leave but then ended their leave
+despite perceiving a need for additional time on leave). Care recipient is defined as the person whose care the respondent indicated needing to
+take leave. Postponing or forgoing medical treatment was not offered as a response choice if the employee reported needing leave to care for
+or bond with a new child. Someone else taking leave or taking over care-giving responsibilities was not offered as a response choice if the
+employee reported needing leave for their own illness, pregnancy-related health conditions, domestic partner’s health conditions, or military
+deployments. Paid for childcare applies only to employees whose most recent leave was for pregnancy-related health reasons, care for a
+newborn or adopted child, or a child’s health condition. Paid for eldercare applies only to employees whose most recent leave was for a
+relative’s health condition and the relative was aged 65 or older; eldercare is care provided for an adult aged 65 or older with age-related
+physical or mental impairments not related to a serious health condition.
+Source: 2018 FMLA Employee Survey B20.
+Sample: Sample size is 762 employees. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌46
+
+CHAPTER 6: EMPLOYEES’ UNMET NEED FOR LEAVE
+
+6.4.
+
+Chapter Summary
+
+This chapter reports the rate of reported unmet need for leave from work for family and medical reasons,
+reasons why leave was not taken, and how employees addressed unmet need for leave. Seven percent of
+employees needed leave for a qualifying FMLA reason but did not take it. The most common reason for
+unmet need for leave (additionally including leave needed to care for a non-immediate family member’s
+serious health condition) is employee’s own medical condition (51 percent); reasons related to a new
+child are less common (12 percent). Inability to afford taking unpaid time off from work is the most
+common reason for employees not taking needed leave (66 percent). Unmet need for medical leave is
+commonly addressed by postponing treatment or forgoing treatment (44 percent and 39 percent,
+respectively).
+The next chapter shifts from the employee perspective to the worksite perspective, focusing on worksite
+policies and practices regarding family and medical leave and the firm’s experiences managing FMLA.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌47
+
+CHAPTER 7: WORKSITE FMLA POLICIES, PRACTICES,
+AND EXPERIENCES MANAGING FMLA
+
+7.
+
+Worksite FMLA Policies, Practices, and Experiences
+Managing FMLA
+
+This chapter considers private-sector worksites’ experiences with
+FMLA, using data from the 2018 Worksite Survey. The chapter
+considers worksite policies for family and medical leave (Section
+7.1), how worksites cover work for employees on leave (Section
+7.2), worksite experiences managing leave (Section 7.3), and the
+perceived impact on covered worksites of complying with FMLA
+(Section 7.4).
+As discussed in Chapter 1, private-sector worksites are covered
+by FMLA if the employer (“firm”) has 50 or more employees
+across all of its worksites (physical locations where work is
+performed). This means that covered worksites must comply with
+certain FMLA provisions, such as notice requirements, regardless
+of whether they are large enough to have any employees who
+could potentially be eligible for FMLA-protected leave (50 or
+more employees at an individual worksite). 54 In this chapter,
+results distinguishing between worksites that are covered by
+FMLA or not covered by FMLA are based on the worksite’s
+report of whether FMLA applied to them or not.
+
+7.1.
+
+Family and Medical Leave Policies and
+Administrative Procedures
+
+Key Findings
+• More than 95 percent of covered
+worksites report positive or neutral
+overall effects of complying with FMLA.
+• More than 90 percent of FMLAdesignated leaves are taken in
+accordance with covered worksites’
+notice requirements.
+• Whether or not they are covered by
+FMLA, more than half of worksites
+cover work when employees take
+leave for a week or longer by
+temporarily reassigning work to other
+employees.
+• About 10 percent of worksites report
+that covering planned short-term or
+intermittent leaves is very difficult.
+• More than 25 percent of worksites
+report that covering long-term or
+unplanned leaves is very difficult.
+
+Worksites covered by FMLA (i.e., their firm has 50 or more
+employees) must follow its provisions. However, the statute and regulations allow worksites to establish
+some rules governing employees’ access to leave, including minimum notice and medical certification
+requirements. The statute allows worksites to require that eligible employees comply with these rules in
+order to take an FMLA-designated leave. Only 4 percent of worksites covered by FMLA denied any
+FMLA-designated leave requests (Supplemental Results Exhibit B7-1). 55
+Although most employees comply with their worksite’s minimum notice requirements, employees’
+inability to meet those requirements is the most common reason worksites covered by FMLA report for
+denying FMLA leave requests. More than 90 percent of worksites covered by FMLA report that
+employees taking leave under FMLA gave sufficient notice to meet the worksites’ notice requirements
+most or all of the time (91 percent, Supplemental Results Exhibit B7-1). However, among worksites
+covered by FMLA that denied any FMLA leave requests, 29 percent report denying requests from eligible
+employees because of failure to meet notice requirements (Exhibit 7-1 below). Fourteen (14) percent of
+worksites denied requests because the employee’s intended care recipient was not an FMLA-qualifying
+family member.
+
+54
+
+All worksites of a covered employer are required to display an FMLA poster, regardless of whether the employer
+has any eligible employees across all worksites. Additionally, if the employer has any FMLA-eligible employees,
+other requirements apply to employees in all worksites whether they have FMLA-eligible employees or not, such
+as notifying new employees about rights under FMLA or whether their leaves qualify for FMLA designation or
+not (DOL Fact Sheet #28D).
+
+55
+
+Most worksites are small (95 percent of surveyed worksites have fewer than 50 employees) and leave taking is
+not common, so many worksites have few or no applications, a factor in interpretation of denial rates.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌48
+
+CHAPTER 7: WORKSITE FMLA POLICIES, PRACTICES,
+AND EXPERIENCES MANAGING FMLA
+
+Exhibit 7-1.
+
+Reasons for denial of leave among worksites covered by FMLA that have denied any
+FMLA leave requests from eligible employees in the past 12 months
+
+Notes: All results are weighted by number of worksites.
+Source: 2018 FMLA Worksite Survey Q25, Q27, Q28.
+Sample: Sample size is 301 worksites. Percentages are calculated including only those respondents that provided a valid response to the given
+question.
+
+Among worksites covered by FMLA, 70 percent provide written policies for taking leave for a qualifying
+FMLA reason. 56 About 60 percent provide employees with guidance on how FMLA is coordinated with
+other leave and benefit policies (59 percent, Supplemental Results Exhibit B7-2). 57 Almost 40 percent
+require eligible employees to use paid leave before taking unpaid leave (38 percent), and one-third offer
+alternative work arrangements instead of leave. More than half (51 percent) provide written notice on how
+much of leave taken counted as leave for the qualifying FMLA reason. Among worksites covered by
+FMLA that report having shift workers, more than 70 percent allow workers to re-join mid-shift when
+taking leave (72 percent). 58
+Among worksites covered by FMLA, half require medical certification for all FMLA-designated leave
+(Supplemental Results Exhibit B7-3). Medical recertification is required by three-fifths of worksites that
+ever request an initial certification (61 percent), with about half requiring recertification at least every six
+
+56
+
+Approximately one-quarter of worksites not covered by FMLA that offer leave report they have a written policy
+for taking leave. (See Chapter 3 for information on policies for family and medical leave at these worksites.) A
+much lower percentage of worksites not covered by FMLA track family and medical leave compared to worksites
+covered by FMLA (28 percent versus 69 percent, Supplemental Results Exhibit B7-6).
+
+57
+
+Among covered worksites that inform their employees about their rights under FMLA, most do so at hiring; the
+majority of worksites also inform employees of their rights when FMLA-designated leave is requested. Regular
+reminders are not common.
+
+58
+
+This number is computed by dividing the 43.2 percent of worksites that allow rejoining mid-shift by the 59.9
+percent of worksites that reported shift workers (100 percent minus 40.1 percent reporting no shift workers).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌49
+
+CHAPTER 7: WORKSITE FMLA POLICIES, PRACTICES,
+AND EXPERIENCES MANAGING FMLA
+
+months (48 percent). Only 11 percent of worksites that require medical certification or recertification pay
+directly for certification costs (Supplemental Results Exhibit B7-3). 59
+
+7.2.
+
+How Work Is Covered While Employees Are on Leave
+
+When employees take family and medical leave for a week or longer (whether FMLA-designated or not),
+most worksites primarily rely on temporary measures to cover work (Exhibit 7-2). The majority of
+worksites report temporarily reassigning work to other employees as the method they use most frequently
+to cover leaves of a week or more (58 percent). Though rarely reported as worksites’ most frequently used
+method of covering leaves of a week or more, almost two-thirds of worksites have ever asked employees
+to perform some work while on leave for a week or more (65 percent), and about half have ever hired
+temporary replacements (52 percent) or re-called employees from vacation (48 percent) to cover work
+(Supplemental Results Exhibit B7-5).
+Exhibit 7-2.
+
+Method most frequently used by worksites for covering work when employees take
+leave for a week or longer
+
+Notes: All results are weighted by number of worksites. Percentages may not add to 100 percent due to rounding.
+Source: 2018 FMLA Worksite Survey Q61bX.
+Sample: Sample size is 1,981 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+Difficulty in covering work varies by the type and length of leave taken. About 30 percent of worksites
+report that dealing with planned long-term leave is “very difficult” (29 percent), with about 25 percent
+reporting that dealing with unscheduled leave or unplanned intermittent leave is “very difficult” (27
+percent and 25 percent, respectively, Exhibit 7-3 below). However, only about 10 percent of worksites
+
+59
+
+An employer may require that the need for FMLA leave for a serious health condition of the employee or the
+employee’s spouse, child, or parent be supported by a certification issued by a health care provider. The purpose
+of the medical certification is to allow employers to obtain information from a health care provider to verify that
+an employee, or the employee’s ill family member, has a serious health condition, the likely periods of absences,
+and general information about the regimen of treatment. See DOL’s Fact Sheet #28G (2013) for additional
+information on requirements and cost reimbursement provisions for medical certifications and re-certifications.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌50
+
+CHAPTER 7: WORKSITE FMLA POLICIES, PRACTICES,
+AND EXPERIENCES MANAGING FMLA
+
+report that dealing with planned intermittent (13 percent) or planned short-term leave (11 percent) is
+“very difficult.”
+Worksites not covered by FMLA more commonly report any difficulty dealing with planned short-term or
+long-term leave than do worksites covered by FMLA (37 percent versus 27 percent and 60 percent versus
+45 percent, respectively), but both types of worksites report similar difficulty with unscheduled leave and
+unplanned intermittent leaves (64 percent versus 60 percent and 60 percent versus 56 percent,
+respectively, Supplemental Results Exhibit B7-8).
+Exhibit 7-3.
+
+Worksites’ reported difficulty in dealing with different types of leave
+
+Notes: All results are weighted by number of worksites. Percentages may not add to 100 percent due to rounding.
+Source: 2018 FMLA Worksite Survey Q21a, Q67.
+Sample: Sample size is 2,149 worksites. Percentages are calculated including only those respondents who provided a valid response to the
+given question.
+
+7.3.
+
+Worksites’ Experiences Managing FMLA
+
+More than 90 percent of worksites covered by FMLA report no difficulty in complying with FMLA
+requirements overall (Exhibit 7-4). When asked about specific compliance activities, about 80 percent of
+worksites covered by FMLA report no difficulty with most activities, with only about 5 percent reporting
+compliance is “very difficult” (Exhibit 7-5 below). The majority of worksites report that FMLA
+provisions for advance notice of foreseeable leave (55 percent) and medical certifications for a serious
+health condition (52 percent) are helpful for administering leave (Supplemental Results Exhibit B7-11).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌51
+
+CHAPTER 7: WORKSITE FMLA POLICIES, PRACTICES,
+AND EXPERIENCES MANAGING FMLA
+
+Exhibit 7-4.
+
+Reported difficulty in complying with FMLA among worksites covered by FMLA
+
+Notes: All results are weighted by number of worksites. Percentages may not add to 100 percent due to rounding.
+Source: 2018 FMLA Worksite Survey Q52.
+Sample: Sample size is 1,540 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+Exhibit 7-5.
+
+Reported difficulty conducting activities related to FMLA among worksites covered
+by FMLA
+
+Notes: All results are weighted by number of worksites. Percentages may not add to 100 percent due to rounding. Exhibit includes only
+responses that indicated the question was applicable (excludes N/A responses).
+Source: 2018 FMLA Worksite Survey Q50.
+Sample: Sample size is 1,436 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌52
+
+CHAPTER 7: WORKSITE FMLA POLICIES, PRACTICES,
+AND EXPERIENCES MANAGING FMLA
+
+7.4.
+
+Worksites’ Views on the Effects of FMLA
+
+When asked about the overall effect of FMLA on productivity, profitability, and their employees, only 4
+percent of worksites covered by FMLA report negative effects and 32 percent report positive effects
+(Exhibit 7-6). This is almost identical to the 2012 Worksite Survey results, where 4 percent of worksites
+covered by FMLA reported negative effects and 33 percent reported positive effects.
+About one-fifth of worksites report that the costs of complying with FMLA have increased over time
+(mostly commonly higher administrative costs, 22 percent, and costs of continuing benefits during leave,
+18 percent; Exhibit 7-7). Among worksites covered by FMLA that had any intermittent leaves, the
+majority report no impact of intermittent leaves on employee morale (56 percent), employee productivity
+(76 percent), or the firm’s profitability (59 percent); few report negative impacts (about 10 percent,
+Exhibit 7-8 below).
+Exhibit 7-6.
+
+Perceptions of overall effect of complying with FMLA among worksites covered by
+FMLA
+
+Notes: All results are weighted by number of worksites. Percentages may not add to 100 percent due to rounding.
+Source: 2018 FMLA Worksite Survey Q56.
+Sample: Sample size is 1,517 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+Exhibit 7-7.
+
+Share of worksites reporting higher FMLA compliance costs over time among
+worksites covered by FMLA
+
+Notes: All results are weighted by number of worksites. “Other cost increases” reports the proportion of worksites that reported any “other
+costs” (question Q49d) or “any additional costs” (question Q49e).
+Source: 2018 FMLA Worksite Survey Q49.
+Sample: Sample size is 1,495 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌53
+
+CHAPTER 7: WORKSITE FMLA POLICIES, PRACTICES,
+AND EXPERIENCES MANAGING FMLA
+
+Exhibit 7-8.
+
+Perceived impact of intermittent leaves among worksites covered by FMLA with any
+intermittent leaves in the past 12 months
+
+Notes: All results are weighted by number of worksites. Percentages may not add to 100 percent due to rounding.
+Source: 2018 FMLA Worksite Survey Q54, Q54a, Q55, Q55a, Q55c, Q55d.
+Sample: Sample size is 647 worksites. Percentages are calculated including only those respondents that provided a valid response to the given
+question.
+
+7.5.
+
+Chapter Summary
+
+This chapter described worksites’ experiences with FMLA. Few worksites covered by FMLA report
+negative overall effects on profitability, productivity, or employees from complying with FMLA
+requirements (4 percent), with more than 30 percent reporting positive effects (32 percent). Few worksites
+covered by FMLA report that coordinating their leave and attendance policies with FMLA (5 percent) or
+with local and state leave policies (6 percent and 8 percent, respectively) is “very difficult.” More than 90
+percent of worksites report that most or all employees comply with the worksite’s advanced notice
+policies for taking FMLA-designated leave. About 10 percent of worksites report that dealing with
+planned short-term (11 percent) or planned intermittent leaves (13 percent) is “very difficult,” whereas
+about 25 percent report that dealing with unplanned intermittent leaves (25 percent) and planned longterm leaves (29 percent) is “very difficult.”
+The next chapter reviews the report’s key findings.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌54
+
+CHAPTER 8: CONCLUSION
+
+8.
+
+Conclusion
+
+This report has presented findings from the 2018 FMLA Employee and Worksite Surveys. These surveys
+update similar surveys conducted in 1995, 2000, and 2012. Changes in survey content and methods affect
+the ability to make consistent comparisons across survey waves. This chapter reviews key findings of the
+2018 surveys.
+
+Understanding FMLA
+
+The majority of U.S. employees are eligible for FMLA and have heard of FMLA (56 percent and 76
+percent, respectively). Nevertheless, responses suggest substantial knowledge gaps about FMLA among
+both worksites and employees. Almost one-fifth of worksites that are part of firms too small to be covered
+by FMLA believe the law applies to them when it does not (17 percent). More than a quarter of
+employees who have heard of FMLA believe they are eligible for leave under FMLA when they are not
+(27 percent). More than half of employees believe that FMLA covers more situations than it does (56 to
+86 percent, by situation).
+
+Access to Leave for FMLA Reasons
+
+Employee’s access to leave for a qualifying FMLA reason varies by whether the employee works at a
+worksite covered by FMLA. Whereas access to leave is almost universally offered to employees at
+covered worksites for qualifying FMLA reasons (91 to 97 percent), only one-third to one-half of
+employees who work at non-covered worksites have access to leave for these reasons. The proportion of
+employees provided no pay while on leave (which under FMLA is limited to the “substitution of leave”
+provisions) is similar for employees at covered and non-covered worksites (43 percent and 48 percent,
+respectively) if the worksite allows leave for one or more qualifying FMLA reasons. Almost threequarters of all employees report having access to paid leave for their own illness or medical care, with a
+higher proportion of employees eligible for FMLA than ineligible employees receiving pay while on
+leave (83 percent versus 62 percent).
+
+Needing vs. Taking Leave
+
+Overall, 15 percent of US employees have taken leave for a qualifying FMLA reason in the past 12
+months. The average length of leave for a qualifying FMLA reason is 28 business days, which is shorter
+than the average leave in 2012 (35 business days). Although most employees took only one leave for a
+qualifying FMLA reason during the year, taking more than one leave and taking leave on an intermittent
+basis are both fairly common: 32 percent and 31 percent of employees who took leave for a qualifying
+FMLA reason, respectively. Leave for employees’ own health conditions (51 percent) and the arrival of a
+new child (25 percent) account for about three-quarters of leaves taken (including leaves taken to care for
+a non-immediate family member’s serious health condition).
+Only 7 percent of employees report unmet need for leave for a qualifying FMLA reason. The most
+common reason for unmet need for leave (including need for leave to care for a non-immediate family
+member’s serious health condition) is employee’s own medical condition (51 percent); reasons related to
+a new child are less common (12 percent). Inability to afford taking unpaid time off from work is the most
+common reason for not taking needed leave (66 percent). Unmet need for medical leave is commonly
+addressed by postponing or forgoing treatment (44 percent and 39 percent, respectively).
+
+Paid vs. Unpaid Leave
+
+Among employees who took leave in the past 12 months (including leave to care for a non-immediate
+family member’s serious health condition), 42 percent receive full pay, 24 percent receive partial pay, and
+34 percent receive no pay while on leave. Among employees who do not receive full pay, two-thirds
+report experiencing financial difficulty in making ends meet while on leave. More than three-quarters of
+employees who have lost earnings while on leave limit spending (76 percent). Other strategies include
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌55
+
+CHAPTER 8: CONCLUSION
+
+borrowing money (31 percent), putting off paying bills (27 percent), cutting leave short (27 percent), and
+going on public assistance (17 percent). After taking leave, most employees return to work at their same
+employer and position (87 percent), but about one-tenth of employees (9 percent) report having lost their
+job as a result of taking leave (which could occur while on leave or later after returning to work). More
+low-wage workers (18 percent) than other workers (5 percent) report losing a job as a result of taking
+leave.
+
+Worksite Perspectives of FMLA
+
+Few worksites covered by FMLA report negative overall effects of FMLA on their profitability,
+productivity, or employees (4 percent), with more than 30 percent reporting positive effects (32 percent).
+When asked about specific compliance activities, few worksites report that coordinating their leave and
+attendance policies with FMLA (5 percent) or with local and state leave policies (6 percent and 8 percent,
+respectively) is “very difficult.” More than 90 percent of worksites report that most or all employees
+comply with the worksite’s advanced notice policies for taking FMLA-designated leave. About 10
+percent of worksites report that dealing with planned short-term (11 percent) or planned intermittent
+leaves (13 percent) is “very difficult,” whereas about 25 percent report that dealing with unplanned
+intermittent leaves (25 percent) and planned long-term leaves (29 percent) is “very difficult.”
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌56
+
+APPENDIX A: OVERVIEW OF STUDY METHODOLOGY
+
+Appendix A. Overview of Study Methodology
+This appendix summarizes the design of the 2018 Employee and Worksite Surveys. Additional detail
+about each survey’s sample design, data collection procedures, response rates, and weighting can be
+found in the companion Methodology Report.
+
+A.1
+
+2018 Employee Survey
+
+This section provides an overview of survey methodology for the 2018 FMLA Employee Survey and a
+summary of the composition of the sample.
+
+Methodology and Sample Characteristics
+
+The survey had a multi-mode design, administered using a combination of phone interviews and webbased surveys. The phone survey was conducted by random-digit dial (RDD) using computer-assisted
+telephone interviewing (CATI) and a dual landline and cell frame sample. The web survey was conducted
+by contacting eligible members of a nationally representative, probability-based online panel (Ipsos
+KnowledgePanel), who then completed the survey online.
+The survey targeted civilian, non-institutionalized adults aged 18 or older who live in the United States
+and were employed for pay (private sector or public agency) in the 12 months prior to the interview,
+excluding self-employed persons. The survey used a 12-month recall period, asking respondents about
+their employment, leave taking, and leave needing experiences in the year prior to the interview.
+The design oversampled several subpopulations in order to achieve reliable subsample estimates:
+•
+
+“leave takers” (employees who took leave for a family or medical reason during the screening
+period);
+
+•
+
+“leave needers” (employees who needed to take leave for a family or medical reason but did
+not); 60
+
+•
+
+“employed only” (employees not having needed or taken leave); 61
+
+•
+
+low-wage workers; 62 and
+
+•
+
+employees working in states with a paid family and medical leave law (referred to as “paid leave
+states”). 63
+
+The final sample comprises 4,470 completed interviews: 739 (17 percent) completed by phone and 3,731
+(83 percent) completed via the web. The survey deliberately includes employees in paid and non-paid
+leave states; low-wage and non-low-wage workers; and leave takers, leave needers, dual leave
+
+60
+
+Employees who took leave but then ended their leave despite perceiving a need for additional time on leave
+would be classified as a “leave taker” for that leave reason.
+
+61
+
+“Employed only” was not oversampled.
+
+62
+
+Low-wage workers are those earning less than $15 per hour. See Section A.4 in the Supplemental Results volume
+for additional information on the definition of low-wage workers.
+
+63
+
+At the time of this study, four states had paid leave laws in effect: California, New Jersey, New York, and Rhode
+Island (Massachusetts, Washington, and the District of Columbia had enacted laws that had not yet gone into
+effect). See Appendix A.3 in the Supplemental Results volume for more on New York’s paid leave status in
+study analyses.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌57
+
+APPENDIX A: OVERVIEW OF STUDY METHODOLOGY
+
+takers/needers, and those neither leave takers or nor needers (“employed only”). For each subpopulation
+of interest, Exhibit A-1 below displays the number of completed interviews and the percentage of
+completed interviews as a proportion of the unweighted and weighted samples. The sample was weighted
+to be representative of the general U.S. population. 64
+Exhibit A-1.
+
+Completed 2018 Employee Survey interviews and weighted sample, by respondent
+type
+
+Respondent Type
+
+Percentage of Completed
+Interviews
+(Unweighted Sample)
+
+Percentage of Weighted
+Sample
+
+1,430
+513
+399
+2,128
+
+32
+11
+9
+48
+
+13
+4
+4
+80
+
+1,424
+3,046
+
+32
+68
+
+30
+70
+
+1,184
+3,286
+
+26
+74
+
+20
+80
+
+Number of Completed
+Interviews
+
+Leave Taking and Leave Needing Status
+Leave takers onlya
+Leave needers onlyb
+Dual leave takers/needersc
+Employed only
+Low Wage Worker Status
+Low-wage worker
+Non-low-wage worker
+Paid Leave State Status
+Paid leave state
+Non-paid leave state
+
+a Measure reported in report includes both takers only and dual leave takers/needers, and is set to zero (did not take leave) for those who took
+
+leave for an ineligible reason except when discussing reasons for taking leave.
+b Measure reported in report includes both needers only and dual takers/needers, and is set to zero (did not need leave) for those who needed
+leave for an ineligible reason except when discussing reasons for needing leave and reasons for not taking needed leave.
+c A “dual leave taker/needer” is an employee who both took leave for one reason and had an unmet need for leave for another reason during
+the 12-month reference period.
+Notes: Among respondents who did not provide earnings information, employees are assigned to the “low-wage worker” subsample based on
+their predicted probability of being a low-wage worker (earning less than $15 per hour) using an imputation model based on individual
+characteristics.
+Source: 2018 FMLA Employee Survey.
+
+Exhibit A-2 below reports the composition of the 2018 Employee Survey respondents after applying the
+sampling weights. About half of employees are female. More than one-third have a bachelor’s degree or
+higher, 30 percent have some college or an associate’s degree, and one-third have a high school education
+or less. Some 76 percent of the sample is white, 13 percent is African American, 6 percent is Asian, and 5
+percent is another race or combination of races (“other”). Almost one-fifth (17 percent) are Hispanic. Half
+are married. (See Supplemental Results Exhibits B1-1 and B1-2 for additional demographics as well as
+income and employment information.)
+
+64
+
+The survey weights were developed using the 2018 Current Population Survey (CPS) Annual Social and
+Economic Supplement (ASEC, or the March CPS) to provide a sample that matches the U.S. population of adults
+(aged 18+) who are employed for wage/salary in the private sector or a public agency (i.e., excluding selfemployed) based on education, race/ethnicity, marital status, workplace, geography, and income (see Chapter 1
+of the Methodology Report for more detail).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌58
+
+APPENDIX A: OVERVIEW OF STUDY METHODOLOGY
+
+A.2
+
+2018 Worksite Survey
+
+This section presents an overview of survey
+methodology for the 2018 Worksite Survey
+and a summary of the composition of the
+sample.
+
+Exhibit A-2.
+
+Key characteristics of the 2018 FMLA
+Employee Survey sample (%)
+
+Methodology and Sample Characteristics
+
+The 2018 Worksite Survey was a multi-mode
+(web and CATI) design. The sampling frame
+was the Dun & Bradstreet Dun’s Market
+Identifiers (DMI) file, which includes
+information for more than 22 million publicly
+and privately owned U.S. worksites and is
+considered the most comprehensive
+commercially available firm list.
+The survey targeted U.S. private-sector
+business “worksites,” excluding self-employed
+persons without employees and excluding
+government and quasi-government units
+(federal, state, and local governments; public
+educational institutions; and post offices). A
+worksite was defined as the “single physical
+location (or address) where business is
+conducted or where services or industrial
+operations are performed.” Data were collected
+and analyzed with respect to this worksite,
+even if the employer has other worksites.
+The survey asked worksite respondents to
+report on their experiences with FMLA and
+employee leave taking more generally for a 12month reference period of their choosing, to
+accommodate the variation in employers’
+fiscal years and/or record-keeping systems.
+The survey design deliberately includes
+worksites covered by FMLA (worksites of
+firms with at least 50 employees) and
+worksites not covered. 65 The sampling frame
+was stratified by worksite size and industry
+(Exhibit A-3). Worksites in California, New
+
+65
+
+Source: 2018 FMLA Employee Survey.
+Sample: Sample size is 4,470 employees. Percentages are calculated including
+only those respondents who provided a valid response to the given question.
+
+The definition of FMLA coverage for worksites follows the definition used in the Wave 3 (2012) report. Under
+this definition, worksites covered by FMLA may not have an eligible employees (which additionally requires the
+worksite to have 50 or more employees within 75 miles). This varies from the definition used in the Wave 1
+(1995) and Wave 2 (2000) reports, which used coverage to refer to the proportion of worksites both covered by
+FMLA (part of a firm with at least 50 employees) and having FMLA-eligible employees on site (worksites with
+at least 50 employees employed on site and/or employed within 75 miles of the given worksite).
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌59
+
+APPENDIX A: OVERVIEW OF STUDY METHODOLOGY
+
+Jersey, and Rhode Island were oversampled to ensure adequate representation of firms operating in paid
+leave states. 66 Large worksites were also oversampled to ensure enough were available for analysis, and
+hence the per-employee measures were of adequate accuracy. The resulting sample supports reliable
+national estimates as well as estimates by size, industry, and paid leave state status.
+The final sample comprises 2,206 completed interviews: 315 (14 percent of completes) completed by
+phone and 1,891 (86 percent of completes) completed via the web. 67
+Exhibit A-3.
+
+Completed 2018 Worksite Survey interviews and weighted sample, by respondent
+type
+
+Respondent Type
+Total
+FMLA Coverage
+Covered
+Not covered
+Worksite Size
+Small (1-49 employees)
+Medium (50-249 employees)
+Large (250-999 employees)
+Very large (1,000+ employees)
+Industry
+Manufacturing
+Retail
+Service
+Other
+Paid Leave State Status
+Paid leave state
+Non-paid leave state
+
+Number of
+Completed
+Interviews
+2,206
+
+Percentage of
+Completed Interviews
+(Unweighted)
+100
+
+Percentage of
+Weighted Sample
+(of Worksites)
+100
+
+Percentage of
+Weighted Sample
+(of Employees)
+100
+
+1,546
+660
+
+70
+30
+
+24
+76
+
+65
+35
+
+583
+779
+510
+334
+
+26
+35
+23
+15
+
+95.5
+3.9
+0.5
+0.1
+
+45.5
+31.0
+14.2
+9.4
+
+586
+432
+593
+595
+
+27
+20
+27
+27
+
+13.6
+20.3
+30.3
+35.8
+
+16.6
+22.7
+25.2
+35.5
+
+677
+1,529
+
+31
+69
+
+21.7
+79.3
+
+18.8
+81.2
+
+Source: 2018 FMLA Worksite Survey.
+
+Exhibit A-4 below reports the geographic distribution and industry mix of the 2018 Worksite Survey
+sample (weighted by the number of worksites) and other characteristics that are likely to influence a
+worksite’s experience with FMLA. Twenty-seven percent of worksites had hourly workers who were paid
+less than $15 per hour (termed “low-wage workers”). Eighteen percent of worksites were in paid leave
+states. Few worksites were part of firms that have worksites with more than 50 employees in multiple
+states (3 percent).
+
+66
+
+Though New York is included in the paid leave sample for both the Employee Survey and Worksite Survey, that
+state was not oversampled in the Worksite Survey because its paid leave program went into effect partway
+through the survey fielding period.
+
+67
+
+Sampled worksites had the option to respond by phone (live interviewer using CATI) or via the web.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌60
+
+APPENDIX A: OVERVIEW OF STUDY METHODOLOGY
+
+Exhibit A-4.
+
+Key characteristics of the 2018 FMLA Worksite Survey sample
+Worksite Characteristic
+
+Geographic Region
+Northeast
+South
+Midwest
+West
+Other Characteristics
+Employs hourly workers earning less than $15/hour
+Firm has worksites with more than 50 employees in multiple states
+
+Percentage of
+Weighted Sample
+(of Employees)
+
+Percentage of
+Weighted Sample
+(of Worksites)
+
+19.7
+32.4
+24.0
+23.9
+
+19.1
+35.3
+19.2
+26.4
+
+31.9
+18.2
+
+27.1
+2.7
+
+Source: 2018 FMLA Worksite Survey Q10, Q14, Q14A, Screener.
+Sample: Sample size is 2,206 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+Analyses of the 2018 Worksite Survey sample draw on two sets of survey weights—one that weights the
+data by the number of employees working at each worksite (providing results reflecting the experience of
+employees in the U.S. privately employed labor force) and another that weights the data by the number of
+worksites (providing results reflecting the experience of employers). This report uses data weighted by
+the number of employees when we focus on results that reflect the experience of workers (e.g., the
+proportion of employees who work at a worksite that offers paid sick leave), primarily in Chapter 2 and
+Chapter 3. It uses data weighted by the number of worksites when we focus on results that reflect the
+experience of worksites (e.g., how costly it is to manage FMLA), primarily in Chapter 7.
+Exhibit A-5 compares these two approaches by displaying the distribution of worksite size using each
+weighting option. When weighting by the number of employees, worksites with 250 or more employees
+make up almost a quarter of the sample—data for these worksites provide insight on the experience of 23
+percent of employees. However, when weighting by the number of worksites, those with 250 or more
+employees account for only 1 percent of the sample.
+Exhibit A-5.
+
+Comparison of distribution of worksite size, by weighting structure
+
+Source: 2018 FMLA Worksite Survey Q1, Q2, Screener.
+Sample: Sample size is 2,206 worksites. Percentages are calculated including only those respondents that provided a valid response to the
+given question.
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌61
+
+REFERENCES
+
+References
+29 C.F.R. § 825.104. (2020).
+29 C.F.R. § 825.110. (2020).
+29 C.F.R. § 825.113. (2020).
+29 C.F.R. § 825.114. (2020).
+29 C.F.R. § 825.115. (2020).
+29 U.S.C. § 104.b.1.A. (2020).
+Cantor, David, Waldfogel, Jane, Kerwin, Jeffrey, McKinley Wright, Mareena, Levin, Kerry, Rauch, John,
+Hagerty, Tracey, & Stapleton Kudela, Martha. (2001). Balancing the needs of families and
+employers: Family and Medical Leave Surveys, 2000 update. Rockville, MD: Westat.
+Klerman, Jacob, Daley, Kelly, & Pozniak, Alyssa. (2013). Family and medical leave in 2012: Technical
+report. Cambridge, MA: Abt Associates.
+National Defense Authorization Act for Fiscal Year 2008. (2008). Public Law 110-181 § 585
+https://www.congress.gov/110/plaws/publ181/PLAW-110publ181.pdf
+National Partnership for Women and Families. (2019). State paid family and medical leave insurance
+laws. Washington, DC: Author. http://www.nationalpartnership.org/ourwork/resources/workplace/paid-leave/state-paid-family-leave-laws.pdf
+U.S. Department of Labor (DOL). (n.d.). Fact Sheet #28D: Employer notification requirements under the
+Family and Medical Leave Act. Washington, DC: Author.
+https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/whdfs28d.pdf
+U.S. Department of Labor (DOL). (2013). Fact Sheet #28G: Certification of a serious health condition
+under the Family and Medical Leave Act. Washington, DC: Author.
+https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/whdfs28g.pdf
+U.S. Department of Labor (DOL). (2013). Fact Sheet #28M(b): Military caregiver leave for a veteran
+under the Family and Medical Leave Act. Washington, DC: Author.
+https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/whdfs28mb.pdf
+U.S. Department of Labor (DOL), Commission on Leave. (1996). A workable balance; Report to
+Congress on family and medical leave policies. Washington, DC: Author.
+https://www.dol.gov/sites/dolgov/files/WHD/legacy/files/FMLAReport1995.pdf
+
+FMLA: Results from the 2018 Surveys
+
+July 2020 ▌62
+
+

@@ -1,0 +1,944 @@
+Source: https://oig.ssa.gov/~assets/uploads/032517.pdf
+Publisher: SSA Office of Inspector General
+Retrieved: 2026-11-12
+Original SHA-256: 2e90dd6d0abe64ccc9c6aa0aa0631a0e1a0f4136257a65cfd93a340ba1318796
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Audit Report
+
+Social Security Administration’s
+Telephone Metrics
+
+032517 | December 2025
+
+December 22, 2025
+The Honorable Elizabeth Warren
+United States Senate
+311 Hart Senate Office Building
+Washington, DC 20510
+Dear Senator Warren:
+In a July 24, 2025 letter, you asked that we conduct an audit of the Social Security
+Administration’s (SSA) wait times for telephone services and determine (1) the current wait
+times for services and other key service metrics; (2) how SSA collected telephone data and
+calculated its service metrics; and (3) whether SSA provided the public with accurate and
+complete telephone information on wait times and other key service metrics.
+My office is committed to combating fraud, waste, and abuse in SSA’s operations and
+programs. Thank you for bringing your concerns to my attention. The report highlights various
+facts pertaining to the issues raised in your letter. To ensure SSA is aware of the information
+provided to your office, we are forwarding a copy of this report to the Agency.
+If you have any questions concerning this matter, please call me or have your staff contact
+Jonathan Blyth, Congressional Affairs Advisor, at jonathan.j.blyth@ssa.gov.
+Sincerely,
+
+Michelle Anderson
+Assistant Inspector General as First Assistant
+Enclosure
+cc:
+Frank Bisignano
+
+6401 Security Boulevard
+
+♦
+
+Baltimore, Maryland 21235
+
+♦
+
+oig.ssa.gov
+
+Social Security Administration’s Telephone Metrics
+032517
+December 2025
+
+Office of Audit Report Summary
+
+Objective
+
+Results
+
+To determine (1) the accuracy of the
+Social Security Administration’s (SSA)
+telephone service metrics and (2) the
+extent performance changed during
+Fiscal Year (FY) 2025, including the
+factors that may have contributed to
+those changes.
+
+SSA’s publicly reported national 800-number telephone metrics
+were accurate and its overall telephone service performance
+improved in FY 2025. In FY 2025, SSA served—either by an SSA
+employee or automation—68 million callers, a 65-percent increase
+from FY 2024.
+
+Background
+SSA’s telephone services are an
+essential way for the public to obtain
+information and assistance with
+benefits, Social Security numbers,
+and other vital services. Callers to the
+national 800-number can choose
+automated services or request
+assistance from an SSA employee.
+In June 2025, Senator Elizabeth
+Warren expressed concern over
+SSA’s telephone performance.
+The Commissioner of Social Security
+agreed with the Senator and asked our
+office to conduct a review. On July 24,
+2025, Senator Warren requested that
+we audit SSA wait times for telephone
+services and determine (1) the current
+wait times for services and other key
+service metrics; (2) how SSA collected
+telephone data and calculated its
+service metrics; and (3) whether SSA
+provided the public accurate and
+complete telephone information on
+wait times and other key service
+metrics.
+
+The Agency improved performance because it used a new
+telecommunications platform and staff realignments. The new
+platform increased call volume capacity and expanded self-service
+and automated options. SSA also used the new platform’s
+capabilities to identify in real-time ways to better serve callers,
+target training, and improve frequently asked questions.
+One of SSA’s performance goals was to improve customer
+experience by reducing the Average Speed of Answer (ASA)
+telephone metric. According to the Agency, ASA is the average
+amount of time callers actively wait on hold before they speak with
+SSA employees. In FY 2025, ASA was approximately 13 minutes
+in October 2024, peaked at 30 minutes in January 2025, and
+ended the year at 7 minutes in September 2025. This was an
+improvement over the FY 2024 peak of approximately 42 minutes
+in November 2023 and low of 12 minutes in September 2024.
+When calculating the ASA, SSA considers callers who accept an
+initial callback offering as not actively waiting on hold and counts
+the call as having zero wait time, which reduces the average.
+ASA does not include the time callers wait to receive callbacks.
+In FY 2025, about 25 million calls ended without the callers
+receiving service either because the callers disconnected the calls,
+the callers did not answer SSA’s callback, SSA could not call back
+the callers, or all telephone lines were busy. SSA’s wait time
+metrics do not include the wait times associated with these calls.
+
+TABLE OF CONTENTS
+Objective .....................................................................................................................................1
+Background.................................................................................................................................1
+Scope and Methodology .............................................................................................................3
+Results of Review .......................................................................................................................3
+Accuracy of the Agency’s Telephone Performance Metrics ...................................................3
+Caller Wait Times ..................................................................................................................4
+Callers Who Did Not Receive Service ...................................................................................6
+Abandoned Calls .............................................................................................................6
+Busy Messages ...............................................................................................................7
+Agency Changes that Affected Telephone Service ................................................................8
+New Telecommunications Platform .................................................................................8
+Platform Transition to Field Offices and Staffing Changes ...............................................9
+Agency Comments ....................................................................................................................10
+– Congressional Request Letter .......................................................................... A-1
+– Fiscal Year 2025 Telephone Performance ....................................................... B-1
+– Changes to the Agency’s Performance Website .............................................. C-1
+– Scope and Methodology .................................................................................. D-1
+– Agency Comments........................................................................................... E-1
+
+SSA’s Telephone Metrics (032517)
+
+ABBREVIATIONS
+ASA
+
+Average Speed of Answer
+
+FO
+
+Field Office
+
+FY
+
+Fiscal Year
+
+IVR
+
+Interactive Voice Response
+
+OIG
+
+Office of the Inspector General
+
+Pub. L. No.
+
+Public Law Number
+
+SSA
+
+Social Security Administration
+
+SSA’s Telephone Metrics (032517)
+
+OBJECTIVE
+Our objective was to determine (1) the accuracy of the Social Security Administration’s (SSA)
+telephone service metrics and (2) the extent performance changed during Fiscal Year
+(FY) 2025, including the factors that may have contributed to those changes.
+
+BACKGROUND
+SSA’s telephone services are essential for the public to obtain information and assistance with
+benefits, Social Security numbers, and other vital services. Callers to the national 800-number
+can choose automated services or request assistance from an SSA employee. SSA’s
+automated services are generally available 24 hours a day, 7 days a week. This allows a caller
+to complete certain requests by responding to an automated menu instead of waiting for an
+employee. The automated services offer benefit verification, replacement Medicare cards,
+claim status, and requests for certain forms and pamphlets. Callers during business hours
+(Monday through Friday 8 am to 7 pm local time) can elect to speak to SSA employees.
+Callers who want to speak with an SSA employee but encounter an estimated wait time over
+5 minutes are given the option to hang up and receive a callback while they maintain their place
+in the queue. See Figure 1 for the national 800-number process flow.
+Figure 1: National 800-number Flow Chart
+
+Since August 2024, SSA has used a cloud-based telecommunications platform that enables the
+Agency to increase call capacity and manage multi-channel customer interactions as well as
+integrate advanced technologies like artificial intelligence, automation, and analytics to enhance
+customer and employee experiences. SSA uses this platform to collect telephone data as well
+as calculate and report telephone performance metrics from the national 800-number.
+
+SSA’s Telephone Metrics (032517)
+
+1
+
+In FY 2025, SSA served—either by an SSA employee or automation—68 million callers,
+a 65-percent increase from FY 2024 (see Figure 2).
+Figure 2: Total Callers Served—FYs 2024 and 2025
+
+From January through March 2025, the Agency experienced a significant increase in national
+800-number calls. SSA attributed this increase to Congress enacting the Social Security
+Fairness Act of 2023. 1 This Act affected over 3.2 million SSA beneficiaries.
+SSA publishes information about its telephone service performance on its public website. 2
+In FY 2025, SSA added and removed various telephone metrics. According to SSA’s
+subject-matter experts, the telephone information published on the Agency’s performance
+website reflected the decisions of its changing leadership and what that leadership believed
+were the most important metrics for the public. During FY 2025, SSA had five commissioners or
+acting commissioners. See Appendix C for examples of changes SSA made to telephone
+metrics SSA published on its website in FY 2025.
+In June 2025, Senator Elizabeth Warren expressed concern over SSA’s telephone service
+performance. The Commissioner of Social Security agreed with the Senator and asked our
+office to conduct a review. On July 24, 2025, the Senator requested that we audit SSA
+wait times for telephone services and determine (1) the current wait times for services and other
+key service metrics; (2) how SSA collected telephone data and calculated its service metrics;
+and (3) whether SSA provided the public accurate and complete telephone information on
+wait times and other key service metrics. See Appendix A for the Senator’s request and
+Appendix B for FY 2025 telephone performance metrics.
+
+1 Pub. L. No. 118-273, 138 Stat. 3232 (2025).
+2 Social Security Administration, Social Security Performance, https://www.ssa.gov/ssa-performance (October 2024 -
+
+September 2025).
+
+SSA’s Telephone Metrics (032517)
+
+2
+
+SCOPE AND METHODOLOGY
+We obtained telephone service data for calls the public made to SSA’s national 800-number for
+FY 2025—October 1, 2024 to September 30, 2025. We identified the telephone service metrics
+reported on SSA’s performance website during FY 2025 and tested whether the telephone
+service data were accurate and the metrics SSA reported to the public were complete.
+In addition, we reviewed changes to SSA’s telecommunications platform, the methodology used
+to calculate telephone performance metrics, and other factors that affect SSA’s telephone
+performance. Finally, we analyzed monthly staffing information for employees who answered
+calls to the national 800-number to determine whether FY 2025 staffing levels could have
+affected SSA’s telephone service performance.
+Our review did not include calls made directly to SSA’s local field offices (FO). We included
+FY 2024 data for comparison purposes only; we did not evaluate the accuracy or completeness
+of SSA’s FY 2024 telephone performance data. See Appendix D for more details about our
+scope and methodology.
+
+RESULTS OF REVIEW
+SSA’s publicly reported national 800-number telephone metrics were accurate and its overall
+telephone service performance improved in FY 2025. The Agency improved performance
+because it used a new telecommunications platform and staff realignments.
+
+Accuracy of the Agency’s Telephone Performance Metrics
+Using the FY 2025 telephone data from SSA’s telecommunications platform, we re-calculated
+the monthly telephone performance metrics identified in the Senator’s request. We determined
+the data were accurate.
+To ensure the accuracy of its telephone data, SSA employees use a data-verification process
+that compares metric reports and raw data generated from within the telecommunications
+platform. When SSA employees identify variances with the telephone performance metrics,
+they meet with the telecommunications platform vendor to determine what caused the variance
+and develop a solution to accurately report the telephone metric. SSA employees stated
+variances noted during internal data verifications generally occurred when (1) telephone data
+were recorded at different times (timing variances) or (2) data were reported or calculated
+differently (methodology variances).
+SSA employees informed us that, as they learned about the capabilities and features of the new
+telecommunications platform, they may update the methodology to calculate the telephone
+performance metrics as needed to ensure accuracy. For example, for Calls Handled by
+Interactive Voice Response (IVR), the Agency determined it counted the number of IVR
+responses rather than calls. In April 2025, SSA updated its methodology to accurately reflect a
+single call with multiple dispositions. Therefore, SSA accurately reported these metrics for May
+through September 2025.
+
+SSA’s Telephone Metrics (032517)
+
+3
+
+Caller Wait Times
+One of the performance goals in SSA’s Agency Strategic Plan for FYs 2022-2026 was to
+improve customer experience by reducing the Average Speed of Answer (ASA) telephone
+metric. 3 According to SSA, ASA is the average amount of time callers actively wait on hold
+before they speak with an SSA employee. In FY 2025, ASA was approximately 13 minutes in
+October 2024, peaked at 30 minutes in January 2025, and ended the FY at 7 minutes in
+September 2025 (see Figure 3). This was an improvement over the FY 2024 peak of
+approximately 42 minutes in November 2023 and low of 12 minutes in September 2024.
+Figure 3: ASA—FYs 2024 and 20254
+
+ASA includes the time callers actively wait on hold in queue after they have elected to speak
+with an employee and before (1) employees answer the calls or (2) the callers accept a callback
+offering. If the caller’s estimated wait time to speak to an SSA employee is longer than
+5 minutes, then SSA provides the estimated wait time and gives the caller the option to receive
+a call back. When a caller accepts an initial offering of a callback, SSA considers the caller as
+not actively waiting on hold and counts the call in the ASA calculation as having zero wait time,
+which reduces the average.
+
+3 SSA, Agency Strategic Plan FYs 2022-2026, p. 14.
+4 SSA used a different telecommunications platform in FY 2024. We included FY 2024 data to compare
+SSA’s telephone performance in FY 2025 with the prior year. FY 2024 was not within the scope of our review.
+Therefore, we did not evaluate the accuracy or completeness of SSA’s FY 2024 telephone performance data.
+
+SSA’s Telephone Metrics (032517)
+
+4
+
+In FY 2025, SSA employees answered 9.3 million calls where the callers did not elect to receive
+a callback. For these calls, SSA calculated the average queue wait time. This calculation does
+not include callers who accept an initial offering of a callback and have a zero-minute wait time.
+The average queue wait time was approximately 51 minutes in October 2024, it peaked at
+1 hour and 40 minutes in January 2025 and ended at its lowest of 19 minutes in
+September 2025 (see Figure 4).
+Figure 4: Average Queue Wait Time—FY 2025
+
+In FY 2025, 23.8 million callers received a callback rather than waiting on hold to speak with an
+SSA employee. When a caller accepts the offer of a callback, SSA does not provide the caller
+an estimated wait time for the callback, and the ASA calculation does not include the time
+callers wait to receive a callback. However, SSA tracks the average wait time for callers to
+receive a callback. In FY 2025, average callback time was approximately 1 hour and
+49 minutes in October 2024, peaked at 2 hours and 32 minutes in January 2025, and reached
+approximately 1 hour and 2 minutes in September 2025 (see Figure 5).
+
+SSA’s Telephone Metrics (032517)
+
+5
+
+Figure 5: Average Wait Time to Callback—FY 2025
+
+Callers Who Did Not Receive Service
+In FY 2025, about 25 million calls ended without the callers receiving service either because the
+callers did not complete the call or the telephone platform could not connect the callers to an
+employee. SSA refers to these calls as abandoned in queue or busy messages. The average
+wait time metrics do not include the wait times associated with abandoned calls or calls that
+receive a busy message.
+
+Abandoned Calls
+Calls abandoned in queue includes
+1. calls where the callers disconnected while actively waiting in the queue;
+2. calls where the callers did not answer when the telephone system made three attempts to
+call them back; and
+3. callbacks Agency employees did not return and were canceled at the end of the day.
+SSA cancels callback requests that are not completed by the end of the day and does not
+queue them for the next business day or any other day.
+SSA reported approximately 1.6 million calls were abandoned in queue in October 2024,
+peaking at 3.4 million calls in January 2025 and falling to 911,000 calls in September 2025
+(see Figure 6). In FY 2025, callers waited an average of 26 minutes before abandoning calls in
+queue in October 2024, peaking at 38 minutes in March 2025 and falling to 22 minutes in
+September 2025.
+
+SSA’s Telephone Metrics (032517)
+
+6
+
+Figure 6: Calls Abandoned in Queue—FY 2025
+
+Busy Messages
+A caller encounters a busy condition, or a “polite disconnect,” when all queues are full and
+callers receive a message to call later. In FY 2025, the average agent busy rate was about
+6 percent, though SSA experienced an increase in call volume in March and April 2025,
+which resulted in average busy rates of 29.4 and 15.4 percent, respectively (see Figure 7).
+Figure 7: Agent Busy Rate—FY 2025
+
+SSA’s Telephone Metrics (032517)
+
+7
+
+Agency Changes that Affected Telephone Service
+SSA served 65 percent more callers in FY 2025 than in FY 2024 and improved wait times.
+These improvements occurred because of changes SSA made, which included a new
+telecommunications platform and staffing realignments.
+
+New Telecommunications Platform
+SSA attributed the ability to serve more callers to the implementation of its new
+telecommunications platform that was prompted by several limitations with its prior platform.
+While we did not audit the new platform, based on our discussion with SSA subject-matter
+experts, the new platform allowed the Agency to significantly improve the national 800-number,
+including increased call volume capacity and expanded self-service and automated options.
+SSA also used the new platform’s capabilities to identify in real-time ways to better serve
+callers, target training, and improve frequently asked questions.
+The national 800-number could receive more callers because its new platform increased its
+volume capacity. Specifically, the prior platform allowed about 12,000 calls across all queues
+before callers would begin to encounter busy conditions. With the new platform, SSA can set its
+own queue thresholds. For example, some of SSA’s queues in the new platform allowed up to
+40,000 calls.
+The Agency also used artificial intelligence to enhance its self-service and automated options.
+Specifically, one of the new platform’s features is a conversational question-and-answer chatbot
+that automatically provides responses to 74 frequently asked questions based on interactions
+with the callers. This feature allowed callers to obtain benefit and program information without
+speaking to an SSA employee, reducing the burden on live assistance. For instance,
+automation handled an average of approximately 300,000 calls per month in FY 2024 compared
+to almost 2.9 million calls per month in FY 2025 (see Figure 8).
+
+SSA’s Telephone Metrics (032517)
+
+8
+
+Figure 8: Calls Handled by Automation—FYs 2024 and 2025 5, 6
+
+To assess telephone performance, SSA stated it routinely reviews transcripts of callers’
+interactions with SSA employees and automation to identify issues and target improvements.
+The Agency also provided callers the opportunity to complete a post-call survey that included
+questions about their level of satisfaction, the clarity and respectfulness of the SSA employee
+who handled the call, and the Agency’s resolution of their issue.
+In FY 2025, an average of 87 percent of callers who responded to the post-call survey indicated
+their issue was resolved on the first contact. However, post-call surveys are not available to
+callers who only receive automated service and do not speak with an employee. Rather,
+SSA collects feedback about automated services via its website, which collects information for
+all service channels, including calls to the national 800-number, whether the calls were handled
+by employees or automation.
+
+Platform Transition to Field Offices and Staffing Changes
+In FY 2025, SSA transitioned its 1,231 FOs to the new telecommunications platform,
+which marked the first time every FO operated on a unified platform and connected with the
+national 800-number. SSA also underwent Agency-wide organizational restructuring that
+included offers of voluntary separations, early retirements, and employee reassignments that
+resulted in a reduction in overall staffing.
+
+5 SSA used a different telecommunications platform in FY 2024. We audited that telecommunications platform.
+See OIG, The Social Security Administration’s Administration of the Next Generation Telephony Project Contract,
+022324 (April 2025).
+6 We included FY 2024 data to compare SSA’s telephone performance in FY 2025 with the prior year.
+
+FY 2024 was
+not within the scope of our review. Therefore, we did not evaluate the accuracy or completeness of SSA’s FY 2024
+telephone performance data.
+
+SSA’s Telephone Metrics (032517)
+
+9
+
+At the start of FY 2025, SSA employed approximately 4,700 employees available to handle
+national 800-number calls. By June 2025, there were just over 4,000 employees, a 13-percent
+decrease. In July 2025, the Agency began assigning FO employees to answer national
+800-number calls. This made approximately 1,000 FO employees available to support the
+national 800-number each day. The addition of FO employees coincided with improvements in
+such metrics as ASA beginning in July 2025 (see Table 1). For example, ASA of 13.3 minutes
+in June 2025 improved to 7.5 minutes in July 2025.
+Table 1: Select Telephone Metrics Compared to Number of Employees—FY 2025
+Approximate
+Number of
+Employees 7
+
+Month
+
+Total 800-number
+Callers Served
+
+ASA
+(minutes)
+
+October 2024
+
+4,646,823
+
+12.7
+
+4,672
+
+November 2024
+
+4,165,378
+
+15.9
+
+4,642
+
+December 2024
+
+5,909,139
+
+23.0
+
+4,576
+
+January 2025
+
+7,066,781
+
+29.7
+
+4,518
+
+February 2025
+
+6,125,759
+
+26.1
+
+4,458
+
+March 2025
+
+7,707,584
+
+19.7
+
+4,361
+
+April 2025
+
+6,561,475
+
+16.7
+
+4,189
+
+May 2025
+
+5,098,069
+
+11.6
+
+4,099
+
+June 2025
+
+4,871,203
+
+13.3
+
+4,052
+
+July 2025
+
+5,287,387
+
+7.5
+
+5,032
+
+August 2025
+
+5,254,692
+
+8.7
+
+4,971
+
+September 2025
+
+5,107,771
+
+7.0
+
+4,899
+
+According to SSA, FO employees do not work on their FO duties on the days they handle
+national 800-number calls, including serving customers in the FOs’ lobbies. To assess impact
+on FO workloads and service, SSA management stated they have been actively monitoring
+such FO trends as wait times for appointments and walk-in service and thus far have not
+identified any major issues. During this review, we did not audit FO workloads or services and
+therefore did not determine whether FO staff assisting the national 800-number impacted
+FO workloads and services.
+
+AGENCY COMMENTS
+SSA reviewed our draft report. See Appendix E for the text of the Agency’s response.
+
+7 We did not audit the national 800-number employee staffing numbers SSA provided to us for this review.
+
+Beginning July 2025, we added 1,000 FO employees to the national 800-number total based on SSA’s reallocation of
+FO employees to help answer national 800-number calls.
+
+SSA’s Telephone Metrics (032517)
+
+10
+
+APPENDICES
+
+SSA’s Telephone Metrics (032517)
+
+– CONGRESSIONAL REQUEST LETTER
+
+SSA’s Telephone Metrics (032517)
+
+A-1
+
+SSA’s Telephone Metrics (032517)
+
+A-2
+
+SSA’s Telephone Metrics (032517)
+
+A-3
+
+– FISCAL YEAR 2025 TELEPHONE
+PERFORMANCE
+The Social Security Administration (SSA) tracks numerous metrics to monitor its national
+800-number telephone service. In Fiscal Year (FY) 2025, SSA’s national 800-number received
+about 94 million calls. Of these, automation handled 35 million (37 percent), SSA employees
+handled 33 million (35 percent)—after callers either waited on hold or received a callback,
+23 million (25 percent) were abandoned—while callers either waited on hold or used automated
+services, and 3 million (3 percent) received a busy signal (see Figure B–1).
+Figure B–1: National 800-Number Calls Received—FY 2025 1
+
+1 Additional information about call dispositions is provided in the remainder of the appendix.
+
+SSA’s Telephone Metrics (032517)
+
+B-1
+
+Telephone Performance Metrics Requested by Senator Warren
+Following are the monthly changes for the metrics Senator Elizabeth Warren requested
+(see Appendix A).
+
+Abandoned in Queue
+In FY 2025, callers abandoned 21.3 million calls. This included calls the caller disconnected
+while actively waiting on hold in the queue and abandons associated with callbacks. Generally,
+there are two ways SSA counts a callback as abandoned: (1) if the telephone system attempts
+to call the customer back three times and there is no answer (including no voicemail)
+and (2) if there are callbacks left at the end of the day and the callbacks are canceled.
+Figure B–2 shows the number of calls by month in FY 2025.
+Figure B–2: Abandon in Queue—FY 2025
+
+SSA’s Telephone Metrics (032517)
+
+B-2
+
+Agent Calls Handled Via Callback
+In FY 2025, 23.8 million callers received calls back rather than waiting on hold to speak with an
+SSA employee. Figure B–3 shows the number of calls by month.
+Figure B–3: Agent Calls Handled via Callback—FY 2025
+
+SSA’s Telephone Metrics (032517)
+
+B-3
+
+Agent Calls Handled via Waiting on Hold
+In FY 2025, SSA employees answered 9.3 million calls where the callers did not elect to receive
+a callback. These callers actively waited in queue while they waited for service from SSA
+employees. Figure B–4 shows the number of calls by month in FY 2025.
+Figure B–4: Agent Calls Handled via Waiting on Hold—FY 2025
+
+SSA’s Telephone Metrics (032517)
+
+B-4
+
+Average Interactive Voice Response Time
+From May through September 2025, callers spent an average 2.6 minutes in interactive voice
+response (IVR). SSA updated its methodology in April 2025 to limit IVR counts of completions
+and responses to one per call. Therefore, Average IVR Time was not available before
+May 2025 as it does not accurately represent the number of successful completions.
+Figure B–5 shows the average time per month in FY 2025. Although SSA did not regularly
+publish this performance metric, we included it in response to Senator Warren’s request.
+Figure B–5: Average IVR Time—May Through September 2025
+
+SSA’s Telephone Metrics (032517)
+
+B-5
+
+Average Speed of Answer
+In FY 2025, callers waited on hold an average 15 minutes to speak to an SSA employee. If a
+caller accepted the initial offering of a callback and did not actively wait on hold, they were
+counted as having zero wait time. Any caller who actively waits on hold in queue, before
+accepting a subsequent offering of a callback, will have their active wait time counted toward the
+average speed of answer calculation. Figure B–6 shows the average speed of answer by
+month for FY 2025.
+Figure B–6: Average Speed of Answer—FY 2025
+
+SSA’s Telephone Metrics (032517)
+
+B-6
+
+Average Wait Time to Callback
+In FY 2025, callers waited an average 108.6 minutes to receive a callback from an SSA
+employee. This is also referred to as virtual wait time. Figure B–7 shows the average time per
+month in FY 2025. In June 2025, SSA noted its Average Wait Time to Callback calculation
+omitted some calls that should have been included, which caused the metric to be
+underreported by 0.1 to 1 minute for April through June 2025. Agency personnel informed us
+this issue had been corrected.
+Figure B–7: Average Wait Time to Callback—FY 2025
+
+SSA’s Telephone Metrics (032517)
+
+B-7
+
+Calls Abandoned in Interactive Voice Response
+From May through September 2025, 3.8 million callers abandoned their calls within IVR.
+These callers did not provide a response or complete a task in the IVR before they
+disconnected the call. Because SSA determined it counted the number of IVR responses rather
+than calls, its counts of IVR abandons were not accurate between December 2024 and
+April 2025. SSA updated its methodology to improve the accuracy of this metric. Figure B–8
+shows the number of calls per month for May through September 2025.
+Figure B–8: Calls Abandoned in IVR—FY 2025
+
+SSA’s Telephone Metrics (032517)
+
+B-8
+
+Calls Handled by Interactive Voice Response
+In FY 2025, 34.7 million callers were served by automated IVR (self-service) and did not get
+routed to SSA employees for service. In April 2025, SSA updated its methodology to accurately
+reflect a single call with multiple responses or completions instead of counting each IVR
+response or completion as a call. For example, if a caller selected more than one option
+(such as, to obtain information about replacing a Social Security number card and a field office
+location), SSA counted each response, rather than counting the one call. SSA updated its
+methodology to improve the accuracy of this metric. Figure B–9 shows the number of calls per
+month in FY 2025.
+Figure B–9: Calls handled by IVR—FY 2025
+
+SSA’s Telephone Metrics (032517)
+
+B-9
+
+First Call Resolution
+In FY 2025, 87 percent of callers who responded to the question on the post-call survey
+indicated their issue was resolved on the first contact. Figure B–10 shows the percentage by
+month during FY 2025.
+Figure B–10: First Call Resolution (Post-call Survey)—FY 2025
+
+SSA’s Telephone Metrics (032517)
+
+B-10
+
+Network Calls Received
+In FY 2025, SSA received 93.5 million total calls connected to the national-800 number.
+Figure B–11 shows the monthly number of calls during FY 2025.
+Figure B–11: Network Calls Received—FY 2025
+
+SSA’s Telephone Metrics (032517)
+
+B-11
+
+Total Customers Served
+In FY 2025, SSA served 67.8 million callers either by SSA employees or automation.
+Figure B-12 shows the number of callers by month in FY 2025.
+Figure B–12: Total Customers Served—FY 2025
+
+Call Data the Agency Did Not Track
+Following are items Senator Warren requested we review that the Agency did not track.
+1. Dropped calls. SSA did not have a metric for “dropped calls.” However, SSA tracked the
+number of calls the caller disconnected either while they were waiting to speak to an agent
+(Abandoned in Queue) or while they were interacting with the automated services
+(Calls Abandoned in IVR).
+2. Callers who received a call back within the expected wait time. SSA did not record the
+estimated wait time given to callers when they accepted a callback. SSA employees
+informed us they followed up with the vendor to determine whether it was possible to
+capture these data.
+3. Median time to speak with an SSA employee. The Agency did not have information
+available related to median time.
+4. Callers who were transferred to another SSA employee. SSA reported it did not transfer
+callers to other employees. Since this was not a part of the Agency’s business process,
+it did not have any related data.
+
+SSA’s Telephone Metrics (032517)
+
+B-12
+
+– CHANGES TO THE AGENCY’S PERFORMANCE
+WEBSITE
+
+Following are examples of changes the Social Security Administration (SSA) made to the
+telephone metrics published on its performance website during Fiscal Year (FY) 2025.
+
+
+
+
+
+
+
+October 2024: SSA published the average speed of answer (ASA).
+November 2024: SSA again published ASA and added percent of callers who reached
+SSA employees.
+March 2025: In addition to the ASA and percent of callers who reached employees,
+SSA published 13 year-to-date telephone metrics including, but not limited to, agent calls
+handled, average queue wait times, and average wait time to callback.
+April 2025: SSA only published three of the year-to-date telephone metrics it added in
+March 2025—agent answer rate, agent busy rate, and average handle time (that is,
+average duration of a call an SSA employee handled). In addition to ASA, SSA published
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+four live-data metrics that were updated every 2 minutes, including call wait time,
+callback wait time, calls in queue, and callback volume; and
+three year-to-date metrics calculated through the last completed month, including total
+customers served, average daily call volume, and combined average hold time.
+
+June 2025: SSA published
+
+
+
+
+six new charts, including average daily call volume trend and average wait time to
+callback trend;
+
+nine charts, including average daily call volume, ASA, and total customers served;
+four live-data metrics, including call wait time, callback wait time, number of callers
+waiting on hold, and number of callers waiting for a callback; and
+four year-to-date metrics, including ASA, answer rate, average handle time, and agent
+busy rate.
+
+July 2025: SSA removed all metrics except ASA, the percent and number of calls handled
+through automation, total customers served, and percent of calls answered by time interval.
+August 2025: SSA published two metrics, including calls handled by an agent and ASA.
+The Agency also added five charts comparing year-to-date and prior years’ results.
+
+SSA’s Telephone Metrics (032517)
+
+C-1
+
+– SCOPE AND METHODOLOGY
+To accomplish our objective, we:
+
+
+
+
+
+
+
+
+
+
+Reviewed policies and procedures related to the Social Security Administration’s (SSA)
+telephone services.
+Interviewed subject-matter experts to gain an understanding of the platform SSA used for its
+telephone services, how the Agency calculated and validated its telephone performance
+metrics, factors that affected SSA’s telephone services, and steps the Agency had taken to
+strengthen its telephone services.
+Reviewed SSA’s Fiscal Year (FY) 2025 telephone metrics for its national 800-number
+(we did not review calls made directly to local field offices).
+Tested whether the telephone service information SSA reported to the public was accurate
+and complete by recalculating the monthly telephone metrics, evaluating access controls,
+and comparing published telephone metrics with information SSA provided for this audit.
+Compared the monthly telephone metrics to determine the extent to which telephone service
+performance changed during FY 2025.
+
+
+
+Compared FY 2024 and 2025 telephone metrics to identify natural monthly fluctuations.
+
+
+
+Reviewed recent changes SSA made to its methodology for calculating telephone metrics.
+
+
+
+
+
+Identified changes to the telephone service metrics reported on SSA’s performance website
+during FY 2025 and determined why SSA removed and added metrics and whether it was
+still tracking the removed metrics.
+Analyzed monthly staffing information for employees who answer calls to the national
+800-number to determine whether the changes made to staffing levels during FY 2025 could
+have affected SSA’s telephone service performance.
+
+We assessed the significance of internal controls necessary to satisfy the audit objective.
+This included an assessment of the five internal control components: control environment,
+risk assessment, control activities, information and communication, and monitoring. In addition,
+we reviewed the principles of internal controls associated with the audit objective. We identified
+the following components and principles as significant to the audit objective.
+
+SSA’s Telephone Metrics (032517)
+
+D-1
+
+
+
+Component 2: Risk Assessment
+
+
+
+
+Component 3: Control Activities
+
+
+
+
+Principle 11: Design activities for the information system
+
+Component 4: Information and Communication
+
+
+
+
+Principle 9: Identify, analyze, and respond to change
+
+Principle 15: Communicate externally
+
+Component 5: Monitoring
+
+
+Principle 16: Perform monitoring activities
+
+We conducted our review between August and December 2025. The entity audited was the
+Office of Telephone Services. We assessed data reliability by (1) meeting with subject-matter
+experts to gain an understanding of the platform and data it uses for telephone services;
+(2) reviewed data documentation to identify whether information systems controls were
+appropriate; (3) tested formulas used to generate telephone performance metrics; and
+(4) traced/compared reported totals from SSA's public-facing website to the information reported
+in SSA’s system.
+We found the data used for this audit to be accurate and sufficiently reliable to meet our audit
+objective. We conducted this performance audit in accordance with generally accepted
+government auditing standards. Those standards require that we plan and perform the audit to
+obtain sufficient, appropriate evidence to provide a reasonable basis for our findings and
+conclusions based on our audit objectives. We believe the evidence obtained provides a
+reasonable basis for our findings and conclusions based on our audit objective.
+
+SSA’s Telephone Metrics (032517)
+
+D-2
+
+– AGENCY COMMENTS
+
+SSA’s Telephone Metrics (032517)
+
+E-1
+
+Mission:
+
+The Social Security Office of the Inspector General (OIG) serves the
+public through independent oversight of SSA’s programs and operations.
+
+Report:
+
+Social Security-related scams and Social Security fraud, waste, abuse,
+and mismanagement, at oig.ssa.gov/report.
+
+Connect:
+
+OIG.SSA.GOV
+Visit our website to read about our audits, investigations, fraud alerts,
+news releases, whistleblower protection information, and more.
+Follow us on social media via these external links:
+
+@TheSSAOIG
+OIGSSA
+TheSSAOIG
+Subscribe to email updates on our website.
+
+

@@ -1,0 +1,257 @@
+Source: https://www.congress.gov/crs_external_products/IF/PDF/IF12675/IF12675.4.pdf
+Publisher: Congressional Research Service
+Retrieved: 2026-11-12
+Original SHA-256: 245f5f05e63ecbab3e50501452fed439339eb70614f35090528a0131908ea10b
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Updated May 27, 2026
+
+A Hypothetical Social Security Cost-of-Living Adjustment
+Based on the Research Consumer Price Index for the Elderly
+Background
+The Social Security Administration (SSA) administers
+Social Security, a social insurance program that protects an
+insured worker and his or her eligible family members
+against a loss of income due to the worker’s retirement,
+disability, or death. People of all ages receive benefits from
+the program, with over 70 million beneficiaries in October
+2025. Monthly Social Security payments for beneficiaries
+are subject to an annual cost-of-living adjustment (COLA)
+to account for rising prices (inflation).
+The COLA is calculated automatically each year and is
+intended to reflect the change in the cost of living over a
+one-year period. Automatic Social Security COLAs became
+effective in 1975 after being established in 1972 as part of
+P.L. 92-336. The legislation referred only to the Consumer
+Price Index (CPI), which at the time was the only version of
+consumer price index produced by the Department of
+Labor’s Bureau of Labor Statistics (BLS) and pertained to
+urban wage earners and clerical workers. In 1978, BLS
+revised the CPI, which was renamed as the CPI for Urban
+Wage Earners and Clerical Workers (CPI-W), and
+introduced the CPI for All Urban Consumers (CPI-U).
+Although the CPI-U was used to escalate tax brackets
+beginning in 1985, most federal programs continued to use
+the CPI-W for indexing. Currently, the CPI-W covers
+approximately 30% of the population—urban wage earners
+and clerical workers—that by definition is employed, unlike
+most Social Security beneficiaries.
+
+Current Law Social Security Calculation
+
+reflecting the experiences of the elderly and that any
+conclusion from analyses should be treated as tentative.
+Because the R-CPI-E uses the same geographic areas, retail
+outlets, items selected for pricing, and prices as the CPI-U,
+the estimates from the R-CPI-E are likely to differ from a
+price index constructed specifically to measure the
+experience of Americans aged 62 or older. Essentially, the
+R-CPI-E assumes that Americans 62 or older live and shop
+in the same places, buy the same things, and pay the same
+prices as other urban consumers reflected in the CPI-U,
+though in different quantities.
+The underlying population used to calculate the R-CPI-E
+differs from the population of Social Security beneficiaries.
+Approximately one in eight Social Security beneficiaries is
+under the age of 62, such as surviving children and most
+disabled workers. Additionally, not all people over 62 are
+Social Security beneficiaries, including the notable portion
+of persons aged 62 or older who have not yet claimed
+benefits.
+
+Alternative COLA Using R-CPI-E
+Table 1 provides the calculation of the Social Security
+COLA using both the CPI-W and the R-CPI-E. The
+December 2025 COLA using the R-CPI-E (3.0%) would
+have been 0.2 percentage points higher than the COLA
+using the CPI-W (2.8%).
+Table 1. Determination of Alternative Social Security
+Cost-of Living Adjustment (COLA), December 2025
+CPI-W Index
+Points
+
+R-CPI-E Index
+Points
+
+July 2024
+
+308.501
+
+343.324
+
+August 2024
+
+308.64
+
+343.643
+
+September 2024
+
+309.046
+
+344.322
+
+Average for 2024 Q3:
+
+308.729
+
+343.763
+
+A Consumer Price Index for the Elderly
+
+July 2025
+
+316.349
+
+353.308
+
+In response to concerns about how effectively the CPI-W
+tracks the spending patterns of older consumers, in 1987
+Congress directed BLS to introduce an index for the elderly
+(P.L. 100-175, §191). BLS developed an experimental
+consumer price index for Americans 62 years of age and
+older, commonly called the CPI-E and now designated as a
+research measure (R-CPI-E). BLS developed the R-CPI-E
+and constructed values for the series for 1982 and later.
+
+August 2025
+
+317.306
+
+354.317
+
+September 2025
+
+318.139
+
+355.108
+
+Average for 2025 Q3:
+
+317.265
+
+354.244
+
+% change between
+Q3 averages
+
+2.765%
+
+3.049%
+
+Social Security
+COLA
+
+2.8%
+
+3.0%
+
+Under current law, the Social Security COLA equals the
+percentage increase in the average CPI-W from the third
+quarter of the base year (the last year for which a COLA
+was applied) to the third quarter of the current year. BLS
+generally releases the September CPI-W by mid-October,
+and SSA then computes and announces the COLA. The
+COLA becomes effective in December of the current year
+and is payable in January of the following year.
+
+Caveats to Using R-CPI-E
+BLS cautions that the R-CPI-E is experimental and has
+methodological limitations that may affect its accuracy in
+
+Source: CRS calculations using Department of Labor (DOL), Bureau
+of Labor Statistics (BLS), data series for the Consumer Price Index
+
+https://crsreports.congress.gov
+
+A Hypothetical Social Security Cost-of-Living Adjustment Based on the Research Consumer Price Index for the Elderly
+for Urban Wage Earners and Clerical Workers (CPI-W) for 2024 and
+2025, https://www.bls.gov/cpi/data.htm; and DOL, BLS data series for
+the Consumer Price Index for Americans 62 years of age and older
+(R-CPI-E) for 2024 and 2025, https://www.bls.gov/cpi/research-series/
+r-cpi-e-home.htm.
+Notes: The December 2025 COLA applies to benefits payable
+beginning in January 2026. The reference base period for the CPI-W
+is 1982-1984 (i.e., the period when the index equaled 100). The
+reference base for the R-CPI-E is December 1982. Averages are
+rounded to the nearest one-thousandth of a point. COLA is rounded
+to the nearest 0.1% or zero if negative.
+
+Historically, the R-CPI-E has grown faster than the CPI-W
+has because a larger portion of spending by the elderly goes
+toward health care expenditures and other items that are
+weighted more heavily in the R-CPI-E and whose prices
+tended to rise more rapidly. As a result, switching to the RCPI-E is generally projected to result in larger COLAs and
+higher Social Security benefits. A hypothetical COLA
+based on the R-CPI-E would have equaled or exceeded the
+current law COLA in all but six years since 1986 (2005,
+2008, 2011, 2018, 2021, and 2022), as seen in Figure 1.
+Over the period from January 1985 to January 2025, the
+CPI-W increased about 197% and the R-CPI-E by 221%.
+Figure 1. Current Law Social Security COLA (CPIW), Hypothetical Alternative COLA (R-CPI-E), and
+Difference, 1986- 2025
+Figure is interactive in the HTML version of this In Focus
+
+Notes: The COLA for a given year applies to benefits payable
+beginning in January of the following year (e.g., the 2025 COLA
+applies to benefits payable beginning in January 2026). COLA is
+rounded to the nearest 0.1% or zero if negative.
+
+January 2026 Benefits Under an
+Alternative R-CPI-E COLA
+Social Security estimated that the average monthly Social
+Security benefit payable to all retired workers in January
+2026 would be $2,015 before the 2.8% current-law COLA
+and $2,071 after the 2.8% current-law COLA. Applying the
+3.0% hypothetical COLA based on the R-CPI-E instead
+would result in a $2,075 average retired worker benefit (an
+additional $4 monthly).
+
+Examples of Legislation (119th Congress)
+Several proposals in the current Congress would amend the
+current COLA formula to use the R-CPI-E alone or in
+conjunction with the CPI-W. These include H.R. 1700,
+H.R. 4968, H.R. 5841, S. 770, S. 2614, and S. 3059.
+
+Resources
+CRS Report 94-803, Social Security: Cost-of-Living
+Adjustments
+CRS Report R43363, Alternative Inflation Measures for the
+Social Security Cost-of-Living Adjustment (COLA)
+Social Security 2026 Cost-of-Living Adjustment (COLA)
+Fact Sheet: 2026 Social Security Changes,
+https://www.ssa.gov/news/en/cola/factsheets/2026.html
+U.S. Bureau of Labor Statistics Factsheet: “The Consumer
+Price Index—Why the Published Averages Don’t Always
+Match an Individual’s Inflation Experience”
+Kenneth J. Stewart, “The Experimental Consumer Price
+Index for Elderly Americans (CPI-E): 1982-2007,” Monthly
+Labor Review, April 2008, pp. 19-24
+
+Source: Social Security Administration (SSA), “Cost-Of-Living
+Adjustments,” and CRS calculations using Department of Labor
+(DOL), Bureau of Labor Statistics (BLS), data series for the research
+Consumer Price Index for Americans aged 62 (R-CPI-E).
+
+T. Lynn Sears, Analyst in Social Policy
+
+https://crsreports.congress.gov
+
+IF12675
+
+A Hypothetical Social Security Cost-of-Living Adjustment Based on the Research Consumer Price Index for the Elderly
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan shared staff to
+congressional committees and Members of Congress. It operates solely at the behest of and under the direction of Congress.
+Information in a CRS Report should not be relied upon for purposes other than public understanding of information that has
+been provided by CRS to Members of Congress in connection with CRS’s institutional role. CRS Reports, as a work of the
+United States Government, are not subject to copyright protection in the United States. Any CRS Report may be
+reproduced and distributed in its entirety without permission from CRS. However, as a CRS Report may include
+copyrighted images or material from a third party, you may need to obtain the permission of the copyright holder if you
+wish to copy or otherwise use copyrighted material.
+
+https://crsreports.congress.gov | IF12675 · VERSION 4 · UPDATED
+
+
