@@ -60,7 +60,7 @@ Role: section 5 of the secure floor dossier. It says who runs each provision of 
 
 ## 4. Remedies
 
-- **The child benefit.** A notice states what the records show, the amount, the payee and how to correct it. A correction at a front door takes effect the next month. A payee dispute goes to a short IRS administrative review with a decision within 60 days (working choice); payment continues to the current payee meanwhile. Appeal to the IRS Independent Office of Appeals and the Tax Court as for any credit. The safe harbor (FAM-1.06) means a low-income family's mistake never becomes a debt.
+- **The child benefit.** A notice states what the records show, the amount, the payee and how to correct it. A correction at a front door takes effect the next month. A payee dispute goes to a short IRS administrative review with a decision within 60 days (working choice); payment continues to the current payee meanwhile. Appeal to the IRS Independent Office of Appeals and the Tax Court as for any credit. The safe harbor (FAM-1.06) means a low-income family's mistake never becomes a debt, and no payment is taken for an old one (FAM-1.07).
 - **The credits.** As today, through the return and the Taxpayer Advocate.
 - **SNAP and SSI.** Their existing fair hearings.
 - **LAB-10.** Notice, appeal and accessible help, as the legacy rules set [EV-SEC-698]; declining or leaving never costs a benefit (LAB-10.04).
@@ -73,7 +73,7 @@ Role: section 5 of the secure floor dossier. It says who runs each provision of 
 - **SNAP.** States run it as today, with the 2025 law's added duties and cost share removed (INC-2.01).
 - **Paid leave.** States that do as well keep their programs, file for the federal contribution and report (FAM-3.06). The thirteen state programs [EV-SEC-309] each decide whether to stay or join.
 - **LAB-10.** State workforce boards run the on-ramps; states coordinate child care for the hours the guarantee misses with their child care agencies (care's guarantee is state-run, `DEC-2026-11-11-03`).
-- **The territories.** The child benefit runs through the possessions' coordination rules (`4-specification.md`, "Where particular groups fall").
+- **The territories.** The IRS pays Puerto Rico's families directly; the other territories pay under Treasury-approved monthly plans with full federal reimbursement, and the IRS pays where no plan is approved (`4-specification.md`, "Where particular groups fall"). SNAP's and SSI's changes reach only where those programs run: Guam and the Virgin Islands for SNAP, the Northern Mariana Islands for SSI [EV-SEC-703] [EV-SEC-704].
 - **No new state matching cost** anywhere in the set.
 
 ## 6. Rural delivery

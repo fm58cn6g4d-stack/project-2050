@@ -178,7 +178,7 @@
   "decisions": [
    "DEC-2026-11-12-06"
   ],
-  "parameters": "Monthly by direct deposit or a free prepaid card, on a fixed day. As a refundable credit, the benefit is paid under Treasury's permanent appropriation for refunds, so it continues through a lapse in appropriations, and it is not income or a resource for any program (26 U.S.C. 6409). Payments begin no later than July 2030; months of 2030 before the first payment are paid with the 2030 return, or as a lump sum with the first payment for families enrolled from records (working choice; `5-delivery.md`, part 3)",
+  "parameters": "Payments begin no later than July 2030; months of 2030 before the first payment are paid with the 2030 return, or as a lump sum with the first payment for families enrolled from records (working choice; `5-delivery.md`, part 3). *Protected from offset and garnishment* (working choice carrying out memo 2 B and point 4): the monthly payments, and any part paid with the return, are not reduced or offset under 26 U.S.C. 6402(c) to (f), 31 U.S.C. 3716 or 3720A or any similar authority, nor for assessed federal taxes, as the 2021 advance payments could not be [EV-SEC-700] [EV-SEC-701]; two months' payments in an account are protected from garnishment, on the model of Treasury's rule for federal benefits (31 C.F.R. part 212). No exception for child support arrears: the payee is the parent the child lives with (FAM-1.05), so an offset would take the child's money for the payee's debt. The refundable parts of INC-1.01 and INC-4.01 stay subject to offsets as today (working choice). Forgone collections are priced in `6-cost.md`, part 2",
   "eligibility": "",
   "vehicle": [
    {
@@ -193,7 +193,9 @@
    "EV-SEC-534",
    "EV-SEC-690",
    "EV-SEC-107",
-   "EV-SEC-108"
+   "EV-SEC-108",
+   "EV-SEC-700",
+   "EV-SEC-701"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1",
@@ -1021,7 +1023,7 @@
   "decisions": [
    "DEC-2026-11-12-06"
   ],
-  "parameters": "An independent investment board of fixed-term members; up to 20% of the combined trust funds' reserves (working choice), phased in from 2032 as the reserves the package builds grow; one passive, market-weighted index of US stocks; the board votes no shares (or votes them in proportion to other holders). About +0.5 to +1.0 (legacy estimate)",
+  "parameters": "An independent investment board of fixed-term members; up to 20% of the combined trust funds' reserves (working choice), phased in from 2032 as the reserves the package builds grow; one passive, market-weighted index of US stocks; the board votes no shares (or votes them in proportion to other holders). About +0.05 to +0.2 at the 20% share (project arithmetic, `6-cost.md`, part 4); the legacy estimate of +0.5 to +1.0 states no share and would need reserves of about $10 trillion [EV-SEC-697]",
   "eligibility": "",
   "vehicle": [
    {
@@ -1050,7 +1052,7 @@
   "decisions": [
    "DEC-2026-11-12-06"
   ],
-  "parameters": "If two consecutive Trustees reports from 2035 on show a 75-year deficit after the package and SS-8 (working choice: worse than −0.25% of payroll), the combined rate rises 0.1 point a year, split evenly, until the reports show balance, to at most 1 point. About +0.9 to +1.0 if fully used",
+  "parameters": "If two consecutive Trustees reports from 2035 on show a 75-year deficit after the package and SS-8 (working choice: worse than −0.25% of payroll), the combined rate rises 0.1 point a year, split evenly, until the reports show balance, to at most 1 point. About +0.9 to +1.0 if fully used. *Expected to fire:* before it, the package closes about 81-86% of the gap (`6-cost.md`, part 4), so the one point is the expected case from the late 2030s, not a remote contingency",
   "eligibility": "",
   "vehicle": [
    {

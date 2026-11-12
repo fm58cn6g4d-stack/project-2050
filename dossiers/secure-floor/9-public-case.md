@@ -14,7 +14,7 @@ Project 2050's secure floor does four things, starting in 2030.
 
 **Paid leave,** from 2031. Twelve weeks for a new child, a family member's serious illness or your own, paying 85% of the first part of your wages, run by Social Security, with your job back. A worker earning $60,000 pays $180 a year to start (project estimate) [EV-SEC-676].
 
-**Social Security kept whole.** The retirement fund can pay full benefits only until late 2032 on current law, then 78% (Social Security Trustees, 2026) [EV-SEC-400]. The plan closes most of the gap by asking earnings above $250,000 and large investment incomes to pay in, adds a stronger minimum benefit and credit for caregiving years, and, from the 2030 Social Security act, promises full benefits on time whatever happens.
+**Social Security kept whole.** The retirement fund can pay full benefits only until late 2032 on current law, then 78% (Social Security Trustees, 2026) [EV-SEC-400]. The plan closes most of the gap by asking earnings above $250,000 and large investment incomes to pay in, and on our estimates a contribution increase of up to one point, split between workers and employers, is expected from the late 2030s to close the rest. It adds a stronger minimum benefit and credit for caregiving years, and, from the 2030 Social Security act, promises full benefits on time whatever happens.
 
 **What it achieves, on our estimates.** Child poverty falls to about 9% (somewhere between 8% and 12%), about 3 million fewer poor children (section 6). The child benefit costs about $1.85 trillion over 2030-39; the whole floor on the general budget about $2.47 trillion over the decade and about $284 billion a year from 2040, before the plan's financing (section 6).
 
@@ -37,7 +37,7 @@ Families with children are working harder for less security. The secure floor pa
 - **"Why do higher earners get less?"** It is a benefit for working and middle-class families. Couples above about $210,000 get somewhat less than today's credit, about $340 a year for a couple at $250,000 with two children in 2030 (section 7). The full benefit goes to everyone below about $150,000.
 - **"How do you pay for it?"** The plan's financing is set in one place for the whole plan. The child benefit is about $1.85 trillion over ten years on our estimates; the floor's new pieces add about $0.5 trillion (section 6).
 - **"Isn't a payroll contribution for leave a tax increase?"** It is $180 a year for a worker at $60,000 to start, for twelve weeks of paid leave; it can rise to at most $330 [EV-SEC-676].
-- **"Is Social Security going to the stock market?"** Part of its reserves, in a broad index fund run by an independent board. Your benefit never depends on the market; if the gap returns, a small contribution increase starts automatically (section 4).
+- **"Is Social Security going to the stock market?"** Part of its reserves, in a broad index fund run by an independent board. Your benefit never depends on the market. On our estimates the investment closes only a small part of the gap, so a contribution increase of up to one point, split between workers and employers, is expected to start automatically in the late 2030s (section 6).
 
 ## Stories (composite illustrations, not real people)
 
@@ -69,7 +69,8 @@ Families with children are working harder for less security. The secure floor pa
 | $2,000 since 1989; $10,000 | Section 4, INC-3.01 | EV-SEC-042 |
 | $180 and $330 a year | Section 4, FAM-3.04 | EV-SEC-676 (project estimate) |
 | 85% of the first band; twelve weeks; job back | Section 4, FAM-3.01-3.07 | EV-SEC-340, EV-SEC-342 |
-| Late 2032, 78% | Section 4, SS-11.01 | EV-SEC-400 |
+| Late 2032, 78% | Section 1, part F; section 4, SS-11.01 | EV-SEC-400 |
+| Up to one point from the late 2030s | Section 6, part 4; section 4, SS-7.01 | EV-SEC-697 and project arithmetic |
 | About 9% (8-12%); about 3 million fewer poor children | Section 6, part 3 | EV-SEC-692 and working assumptions |
 | $1.85 trillion; $2.47 trillion; $284 billion; about $0.5 trillion | Section 6, parts 1 and 5 | Project arithmetic |
 | $600 against about $367 a month | Section 7, part 4 | EV-SEC-262; 2029 law $2,200 a child |

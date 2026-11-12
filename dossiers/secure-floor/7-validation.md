@@ -12,7 +12,7 @@ Role: section 7 of the secure floor dossier: how the costs and results in sectio
 | SNAP restored (INC-2.01) | About $0.23 trillion | CBO, almost $187 billion of savings over FY2025-34 for the nutrition subtitle [EV-SEC-035] | The 2030s window has every cut in force; immigrant eligibility (sec. 10108) is inside that figure, counted here and not by immigration |
 | SSI's limits (INC-3.01) | About $0.013 trillion | SSA's actuaries, $8.9 billion over 2025-34 [EV-SEC-630] | Grown into the later window |
 | Paid leave (FAM-3) | $1.38 trillion of benefits, booked at high take-up | Urban, about 0.46% of taxable earnings for the progressive FAMILY Act [EV-SEC-660]; CBO and JCT $547 billion for the 2019 bill [EV-SEC-344] | The booking is the high case, the one the 1.10% ceiling is built for; the outside figures sit at the legacy range's low and middle |
-| Social Security (the 2030 act) | About +4.0 to +4.6% of payroll against a 4.42% gap | SSA's 2026 single-provision scores for each piece [EV-SEC-447] [EV-SEC-450] [EV-SEC-452] [EV-SEC-445] [EV-SEC-455] | Each piece matches SSA's score; no package score exists [EV-SEC-477] |
+| Social Security (the 2030 act) | About +3.6 to +3.8% of payroll before the fallback, against a 4.42% gap; at or near balance only with SS-7.01's one point used in full (`6-cost.md`, part 4) | SSA's 2026 single-provision scores for each piece [EV-SEC-447] [EV-SEC-450] [EV-SEC-452] [EV-SEC-445] [EV-SEC-455] | Each piece but SS-8 matches SSA's score; SS-8 is project arithmetic at its 20% share, well below the legacy estimate [EV-SEC-697]; no package score exists [EV-SEC-477] |
 | Child poverty | About 9% (range 8-12%) on the 2029 baseline | Columbia's Center on Poverty and Social Policy, the American Family Act alone, 13.3% to 8.8% for 2024 [EV-SEC-268]; the legacy model, 8.73% to 8.09% on 2025 incomes [EV-SEC-692] | Consistent; the outside figure has no housing awards and no 2029 baseline either |
 
 ## 2. What the models and arithmetic miss
@@ -66,7 +66,7 @@ Illustrative households (2025 dollars for the child benefit, as memo 1; project 
 | "Data matching is a privacy risk." | Each match is authorized for named purposes only, logged and counted, and barred from immigration enforcement (FAM-1.08); Canada's enrollment at birth registration works with consent [EV-SEC-113] |
 | "Repealing SNAP's work rules rewards idleness." | The 2025 rules remove about 2.4 million people in an average month (CBO) [EV-SEC-036]; Arkansas's Medicaid work rule cut coverage with no gain in employment [EV-CAR-212] |
 | "A paid leave tax on every worker." | $180 a year at $60,000 at the start [EV-SEC-676], for twelve weeks of leave and a job back; the bands pay low earners the most |
-| "Putting Social Security in the stock market is risky." | Only part of the reserves, in a passive index under an independent board; the fallback (SS-7.01) is automatic, and benefits never depend on the market |
+| "Putting Social Security in the stock market is risky." | Only part of the reserves, in a passive index under an independent board, and benefits never depend on the market. It closes only a small part of the gap on our estimates; the fallback (SS-7.01) is automatic and expected to do more (`6-cost.md`, part 4) |
 | "SSA can't handle it." | SSA has lost staff [EV-SEC-066]; paid leave pays for its own administration from the fund, the IRS carries the child benefit's build, and the start moves if SSA cannot staff it, the program does not shrink (`5-delivery.md`, part 7) |
 
 ## 6. Signs of failure

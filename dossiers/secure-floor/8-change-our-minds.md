@@ -40,6 +40,8 @@ Role: section 8 of the secure floor dossier. For each decided choice, the findin
 - **The investment board's share** of reserves (up to 20%, working choice) and **how the budget model records it** (`6-cost.md`, part 4).
 - **SS-7.01's trigger level** (−0.25% of payroll in two reports, working choice).
 - **The stipend's level** (up to $9,000 a year, working choice).
+- **SSI in the territories** (a fork for Espen). SSI does not reach Puerto Rico, Guam, the Virgin Islands or American Samoa [EV-SEC-703]. *Alternatives:* leave it as today; extend SSI to all four, about $2.5-3 billion a year in the 2030s, almost all Puerto Rico, on SSA's actuaries' estimate [EV-SEC-705] grown to the decade (`6-cost.md`, part 2); or raise the territories' AABD grants. *What would make it matter:* Espen's answer; it reaches the poorest aged and disabled residents of the territories at modest cost.
+- **SS-8's share** against **SS-7.01's start** (working choices): at a 20% share the investment closes little and the fallback carries most of the remaining gap (`6-cost.md`, part 4). A larger share, or the fallback starting before 2035, would change that.
 
 ## Hard stops
 

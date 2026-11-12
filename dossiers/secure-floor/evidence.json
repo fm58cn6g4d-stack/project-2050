@@ -14188,5 +14188,132 @@
   "supports": [
    "dossiers/secure-floor/3-design.md"
   ]
+ },
+ {
+  "id": "EV-SEC-700",
+  "statement": "The 2021 advance child credit payments could not be reduced or offset under subsections (c), (d), (e) or (f) of section 6402 or any similar authority permitting offset, or reduced or offset by other assessed federal taxes.",
+  "figures": [
+   "6402"
+  ],
+  "source": "SRC-3990",
+  "anchor": [
+   "Any payment made to any individual under this section shall not be—",
+   "(A) subject to reduction or offset pursuant to subsection (c), (d), (e), or (f) of section 6402 or any similar authority permitting offset, or",
+   "(B) reduced or offset by other assessed Federal taxes that would otherwise be subject to levy or collection."
+  ],
+  "fact_date": "2021-03",
+  "recheck": "2027-11-12",
+  "context": "Primary law: ARPA sec. 9611(b), P.L. 117-2 (Biden administration), 26 U.S.C. 7527A(e)(3). The exception covered the advance payments only; the half of the credit claimed on the 2021 return was not exempt.",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ],
+  "claim": "data",
+  "grade": "A",
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-701",
+  "statement": "By default a federal tax refund is reduced to pay past-due child support, debts owed to federal agencies, past-due state income tax obligations and unemployment compensation debts.",
+  "figures": [],
+  "source": "SRC-3991",
+  "anchor": [
+   "shall be reduced by the amount of any past-due support",
+   "(d) Collection of debts owed to Federal agencies",
+   "(e) Collection of past-due, legally enforceable State income tax obligations",
+   "(f) Collection of unemployment compensation debts"
+  ],
+  "fact_date": "2024",
+  "recheck": "2027-11-12",
+  "context": "Primary law (2024 edition). A refundable credit paid as a refund is subject to these offsets unless its own statute exempts it, as 7527A(e)(3) did for the 2021 advance payments.",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ],
+  "claim": "data",
+  "grade": "A",
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-702",
+  "statement": "The 2021 advance payments were figured without counting bona fide residents of Puerto Rico, and in a mirror-code possession the advance section was not part of its income tax law unless the possession elected it, with an added $300,000 for a possession whose advance-payment plan Treasury approved; American Samoa likewise needed an approved plan.",
+  "figures": [
+   "$300,000"
+  ],
+  "source": "SRC-3990",
+  "anchor": [
+   "by applying section 24(i)(1) without regard to the phrase \"or is a bona fide resident of Puerto Rico (within the meaning of section 937(a))\"",
+   "unless such possession elects to have this section be so treated",
+   "shall be increased by $300,000 if such possession has a plan, which has been approved by the Secretary, for making advance payments consistent with such election",
+   "includes a program, which has been approved by the Secretary, for making advance payments under rules similar to the rules of this section"
+  ],
+  "fact_date": "2021-03",
+  "recheck": "2027-11-12",
+  "context": "Primary law: 26 U.S.C. 7527A(e)(4) (ARPA, Biden administration). Puerto Rico's families claimed the 2021 credit on a federal return, with no monthly advances; the mirror-code territories and American Samoa paid advances only under an elected, approved plan.",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ],
+  "claim": "data",
+  "grade": "A",
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-703",
+  "statement": "For SSI, the United States in a geographical sense means the 50 States and the District of Columbia; the Northern Mariana Islands are added by the Covenant.",
+  "figures": [
+   "50"
+  ],
+  "source": "SRC-3992",
+  "anchor": [
+   "geographical sense, means the 50 States and the District of Columbia",
+   "Northern Mariana Islands, see section 502(a)(1) of the Covenant"
+  ],
+  "fact_date": "2024",
+  "recheck": "2027-11-12",
+  "context": "Primary law (2024 edition). So SSI does not reach Puerto Rico, Guam, the U.S. Virgin Islands or American Samoa, which have the older Aid to the Aged, Blind, or Disabled program (American Samoa has none).",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ],
+  "claim": "data",
+  "grade": "A",
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-704",
+  "statement": "For SNAP, a State means the fifty States, the District of Columbia, Guam, the U.S. Virgin Islands and the reservations of an Indian tribe whose tribal organization qualifies as a State agency.",
+  "figures": [],
+  "source": "SRC-3993",
+  "anchor": [
+   "\"State\" means the fifty States, the District of Columbia, Guam, the Virgin Islands of the United States, and the reservations of an Indian tribe"
+  ],
+  "fact_date": "2024",
+  "recheck": "2027-11-12",
+  "context": "Primary law (2024 edition), 7 U.S.C. 2012(r). Puerto Rico, American Samoa and the Northern Mariana Islands receive nutrition block grants instead of SNAP.",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ],
+  "claim": "data",
+  "grade": "A",
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-705",
+  "statement": "SSA's actuaries estimate that extending SSI to residents of Puerto Rico from January 1, 2025 would raise federal SSI payments by $20.7 billion over calendar years 2025 through 2034.",
+  "figures": [
+   "$20.7 billion",
+   "2025"
+  ],
+  "source": "SRC-3994",
+  "anchor": [
+   "We estimate that if SSI eligibility were extended to qualifying residents of Puerto Rico effective January 1, 2025, Federal SSI payments would increase by a total of $20.7 billion over the 10-year period of calendar years 2025 through 2034."
+  ],
+  "locator": "Letter, page 1; table 1 gives $2,238 million for 2034",
+  "claim": "analysis",
+  "grade": "C",
+  "fact_date": "2024-11",
+  "recheck": "2027-11-12",
+  "context": "SSA's Office of the Chief Actuary (career actuaries, nonpartisan), November 2024, at a Puerto Rico senator's request. Offsets from ending AABD grants and Medicaid effects are not counted; the 2020 estimate for all four territories was $23.4 billion over FY2021-30, almost all Puerto Rico. Single-source: no independent estimate in the register.",
+  "supports": [
+   "dossiers/secure-floor/8-change-our-minds.md"
+  ],
+  "checked": "2026-11-12"
  }
 ]

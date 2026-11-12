@@ -59,9 +59,12 @@ Memo 1 priced A at about $1.9 trillion over FY2030-39 (range $1.7-2.1 trillion),
 | A work response to the child benefit | FAM-1 | not counted | not counted | The legacy DY3 sensitivity, −$0.02 to −$0.12 trillion of lost receipts (`legacy-research.md`, 1.9); CBO's conventional scores leave it out; the evidence is contested (section 2, part A.2) | Not counted |
 | The IRS's and SSA's general rebuild | CAP-7 | booked there | booked there | The legacy capacity lines; the child benefit's own build is counted above, so a change to CAP-7 does not lose it | Booked |
 | Parents' added earnings from paid leave and child care | FAM-3 | not counted | not counted | The legacy DY6, $0.15-0.30 trillion with child care (`legacy-research.md`, 3.2) | Not counted |
-| SS-11's loan | SS-11.01 | zero if the 2030 act passes on time | zero | A repayable loan of up to roughly the gap at depletion, about $400-450 billion a year (legacy estimate, `legacy-research.md`, 4.1), only if depletion comes first | Contingent, zero to that |
+| SS-11's loan | SS-11.01 | expected zero if the 2030 act passes on time (not yet shown on a year-by-year fund path; the booking step's) | zero | A repayable loan of up to roughly the gap at depletion, about $400-450 billion a year (legacy estimate, `legacy-research.md`, 4.1), only if depletion comes first | Contingent, zero to that |
 | SS-7's fallback | SS-7.01 | zero unless triggered | zero unless triggered | A trust-fund revenue, from 2035 at the earliest | Contingent |
 | The exclusion rule in housing's books | INC-5.01 | inside INC-5.01 | inside | The forgone rent offsets fall in housing's voucher costs; counted once, here | Firm |
+| No offset or garnishment of the child benefit | FAM-1.07 | about $0.01-0.03 trillion | about $1-3 billion | Judgment: the refund offsets (child support, federal and state debts, unemployment overpayments) that would otherwise fall on the benefit [EV-SEC-701]; no Treasury Offset Program volume is in the register yet. Not added to the totals; the booking adds it | Firm, not yet counted |
+| The child benefit in the territories | FAM-1.07 | about $0.01-0.03 trillion | about $1-3 billion | Judgment: about 0.6 million children, mostly in Puerto Rico, at the benefit less what the 2029 law already pays them; whether the legacy FAM-1 range counts the territories is not known. Not added to the totals | Firm, not yet counted |
+| SSI extended to Puerto Rico, Guam, the Virgin Islands and American Samoa | — (open fork, section 8) | about $0.02-0.03 trillion if chosen | about $2.5-3 billion if chosen | SSA's actuaries: $20.7 billion over 2025-34 for Puerto Rico [EV-SEC-705], grown to the 2030s; the other three add a few percent | Not decided; not counted |
 
 **All-in on the general fund:** about **$2.47 trillion over FY2030-39 and $284 billion in FY2040** (range about $2.1-2.7 trillion and $250-320 billion, part 7). It is not a score.
 
@@ -109,13 +112,17 @@ Memo 1 priced A at about $1.9 trillion over FY2030-39 (range $1.7-2.1 trillion),
 | --- | --- | --- |
 | SS-1, SS-2, SS-3, SS-4 (D8) | about +2.85 after the stacking haircut [EV-SEC-695] | SS-1.01 to 4.01 |
 | SS-5 | about +0.87 (D8 with SS-5 about +3.7, 84% of the 4.42% gap) [EV-SEC-696] | SS-5.01 |
-| SS-8, the reserve investment | about +0.5 to +1.0 (legacy estimate) [EV-SEC-697] | SS-8.01 |
+| SS-8, the reserve investment | about +0.05 to +0.2 at the 20% share (project arithmetic, below); the legacy estimate, +0.5 to +1.0, states no share [EV-SEC-697] | SS-8.01 |
 | SS-B4, the caregiver credit | judgment −0.1 to −0.2 | SS-B4.01 |
-| **The decided package** | **about +4.0 to +4.6 against the 4.42% gap**: at or near 75-year balance; SS-7.01 covers a shortfall | |
+| **The decided package before the fallback** | **about +3.6 to +3.8 against the 4.42% gap** (81-86%) | |
+| SS-7.01, the fallback | expected to carry about 0.6 to 0.9 points; +0.9 to +1.0 if fully used [EV-SEC-697], somewhat less on its late start | SS-7.01 |
+| **The decided package with the fallback** | **at or near 75-year balance only with SS-7.01 used in full** | |
 
-(Memo 6's +4.2 to +4.7 for part 1 and −0.5 to −0.6 for part 2 counted SS-3 and SS-4 in both; netted once, as above, the package is +4.0 to +4.6.) No whole-package score exists [EV-SEC-477]; point 12 asks for one.
+(Memo 6's +4.2 to +4.7 for part 1 and −0.5 to −0.6 for part 2 counted SS-3 and SS-4 in both; netted once, with the legacy SS-8 estimate, the package would be +4.0 to +4.6.) No whole-package score exists [EV-SEC-477]; point 12 asks for one.
 
-**What the budget model books for Social Security, and where it differs.** The central case does not use the SS-1 ledger row (its note says "net −$2.75T"; its path sums to −$4.74 trillion). It runs its own fund model of SS-1 to SS-5 **plus a broad two-point payroll rate phased in over 2035-44** and a joint-interaction adjustment (`model.py`, `build_case`; `legacy-research.md`, 4.5): about $5.70 trillion of trust-fund revenue over FY2030-39, and $520 billion of income-tax offset on the general fund ($90 billion in FY2040). **The decided design has no broad rate unless SS-7.01's trigger fires, and then one point, not two; it closes the gap with SS-8.** So the booking overstates trust-fund revenue from 2035 and the general fund's offset with it. The size depends on how the model records SS-8's purchases of stocks, which is open for the booking step (part 6): CBO's treatment of a trust fund's stock purchases, and whether they change the unified deficit, needs a check before it is modeled.
+**SS-8's yield at its specified share** (project arithmetic, from the milestone review, `review-milestone.md`, O-1). +0.5% of taxable payroll is about $60 billion a year in the 2030s, on payroll of about $12 trillion. At an excess return over Treasury bonds of about 3% a year, that needs about $2 trillion held in stocks; at 20% of reserves, reserves of about $10 trillion. The combined funds hold about $2.6 trillion and fall to zero in 2034 under current law [EV-SEC-400], and the package's revenue from 2031 roughly matches their yearly shortfall in the early 2030s, so reserves stay in the low trillions. At 20% of a few trillion dollars, SS-8 yields about +0.05 to +0.2. With it, D8 and SS-5 (+3.72) and the caregiver credit (−0.1 to −0.2), the package closes about +3.6 to +3.8. **So SS-7.01's fallback is the expected case:** its trigger reads the Trustees reports from 2035, its first 0.1-point step would come about 2037, and its full point about 2046. The decision stands (memo 6 C, `DEC-2026-11-12-06`); a larger SS-8 share or an earlier SS-7 start would change this, and the question is with Espen. SSA's whole-package score (point 12) will settle it.
+
+**What the budget model books for Social Security, and where it differs.** The central case does not use the SS-1 ledger row (its note says "net −$2.75T"; its path sums to −$4.74 trillion). It runs its own fund model of SS-1 to SS-5 **plus a broad two-point payroll rate phased in over 2035-44** and a joint-interaction adjustment (`model.py`, `build_case`; `legacy-research.md`, 4.5): about $5.70 trillion of trust-fund revenue over FY2030-39, and $520 billion of income-tax offset on the general fund ($90 billion in FY2040). **The decided design has no broad rate unless SS-7.01's trigger fires, and then one point, not two; it relies on SS-8 and, on the arithmetic above, on SS-7.01's one point from the late 2030s.** So the booking overstates trust-fund revenue from 2035 and the general fund's offset with it. The size depends on how the model records SS-8's purchases of stocks, which is open for the booking step (part 6): CBO's treatment of a trust fund's stock purchases, and whether they change the unified deficit, needs a check before it is modeled.
 
 ## 5. The fiscal-rule report
 
@@ -173,6 +180,6 @@ Tier 3, for the lead after the milestone review, on the same pattern as care's (
 | The new lines' costs | Working assumptions on outside scores, laid on fiscal years |
 | LAB-10's $100 billion | Commitment (the envelope); people served, about 400,000-900,000 over the decade, a working assumption (memo 4) |
 | Paid leave's take-up | Working assumption; the booking uses the high case |
-| Social Security's package effect | Working assumption on single-provision scores; to study with SSA's whole-package score (point 12) |
+| Social Security's package effect | Working assumption on single-provision scores and project arithmetic for SS-8 (about +3.6 to +3.8 before the fallback); to study with SSA's whole-package score (point 12) |
 | How to book SS-8 | Open question for the booking step |
 | SS-11's loan | Contingent, zero to the gap at depletion |
