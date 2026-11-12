@@ -116,18 +116,41 @@ For the reviewer, the lead starts the successor; the reviewer starts nothing.
 7. In your first reply, tell Espen that the session titled "Project 2050: lead" is now you.
 
 **Handing over the reviewer.**
-1. The lead reads the standing review prompt and schedule from the old task (`get_trigger`).
-2. The lead starts a new session with the most capable model, title "Project 2050: reviewer" and tags `["project-2050", "reviewer"]`. Its brief is that prompt.
-3. The lead creates a new recurring task with the same schedule and prompt and `persistent_session_id` set to the new reviewer, then disables the old task with `update_trigger` (`enabled: false`). Never delete it: `delete_trigger` also deletes every session the task started, which can include the old reviewer.
+1. The lead reads the schedule from the old task (`get_trigger`). The review instructions live in "The review pass" below, not in the task.
+2. The lead starts a new session with the most capable model, title "Project 2050: reviewer" and tags `["project-2050", "reviewer"]`. Its brief: "You are the Project 2050 reviewer. On each wake, follow 'The review pass' in `.claude/skills/sessions/SKILL.md` on current main."
+3. The lead creates a new recurring task with the same schedule, the prompt "Review pass: follow 'The review pass' in `.claude/skills/sessions/SKILL.md` on current main", and `persistent_session_id` set to the new reviewer, then disables the old task with `update_trigger` (`enabled: false`). Never delete it: `delete_trigger` also deletes every session the task started, which can include the old reviewer.
 4. The lead updates the Standing sessions table in its next board PR, adds the old reviewer to the "Former standing sessions" list (role, session ID, PRs reviewed, dates), and retitles the old reviewer "Project 2050: former reviewer, <PRs reviewed>, <first date> to <last date>" (for example "Project 2050: former reviewer, PRs #26 to #65, Oct 26 to Oct 30").
 5. Reviews already posted stay valid. The gate checks the reviewer's session ID line, not the title.
+
+## The review pass
+
+The reviewer's scheduled task points here, so a change to the review instructions goes through a reviewed PR and reaches every later reviewer without copying. On each wake:
+
+1. Fetch origin and read `charter/STANDARDS.md` and `charter/PROGRESS.md` on current main; they are the rule pages, and the plan is `charter/PLAN.md`. Gate mechanics are in `legacy/governing/project-collaboration.md` and `.github/merge-policy.json`. If either page or this skill changed since your last pass, read the changed parts first. Load the GitHub MCP tools if needed.
+2. A review counts only as a PR comment with these exact lines naming the current head:
+   ```
+   Agent-Review: approve   (or changes-requested)
+   Reviewed-Head: <full 40-character head SHA>
+   Reviewer: claude-code <this session's id>
+   ```
+3. List open, non-draft PRs. Skip any PR from `claude/eloquent-cray-45aqon` (Espen's own project; ignore it until they say otherwise). For each other PR, read the latest "Merge gate" comment. A PR needs you when it says "no approving agent review" or "path owner must review: claude-code", when a comment or a session's `review-request` asks for your review, or when its author pushed after you requested changes. Skip a PR you already reviewed at its current head. If the only change since your approval is a merge of main that leaves the PR's own diff identical, the approval carries over: check that the gate shows it, and post nothing unless it doesn't.
+4. Review at most two PRs per pass, oldest first. For each:
+   - Read the full diff at the head in a fresh worktree. A review covers the whole head: a PR stacked on one with an open request for changes can't be approved until that fix is merged in. Say so, and review its own commits anyway.
+   - Run `bash .github/scripts/run-checks.sh` on that head if it touches code, data, generated outputs, `agenda/`, `library/` or `models/`. Where a PR adds a check, try once to break it and confirm CI goes red.
+   - Look hard for real defects against the standards: wrong numbers, double counting or claims that don't trace to an evidence ID or labeled assumption; statuses or levels that contradict their source (a decided item recorded as an option, an item booked above the level its specification supports); more than one home for a fact, or a generated index edited by hand; new content or history in `legacy/` (only regenerated model outputs may change there) or dated history in a canonical file; legacy content restated with numbers or IDs dropped; licensed or paywalled material committed; decision changes in a routine PR, or a commitment change without its tier-3 route; conflicts with `charter/decisions.md` or the legacy governing decisions it keeps in force, and silent D3/D4 or headline changes; requirements that add burden without earning it (`DEC-2026-11-09-13`).
+   - For a dossier at L2 or L3, do the milestone review: try to break it on weak evidence, missing populations, optimistic assumptions and cheaper alternatives.
+   - Post one comment: findings with file:line and the scenario for each, then the three lines, then the footer `---` / `_Generated by [Claude Code](https://claude.ai/code)_`. Request changes only for a real defect.
+   - Send the verdict, with the comment link, to the PR's author session (its `Agent-Author` line). Tell the lead only about the lead's own PRs and tier-3 approvals; for a tier-3 approval, say whether the head is current with main (`DEC-2026-11-12-04`, `-05`).
+5. If nothing needs review, post nothing.
+
+Never push, merge, edit repository files, add or remove labels, or change settings. Keep your context small: read diffs and the sections you need, not whole large files. End with a short, plain summary of the PRs reviewed and your verdicts, or "nothing to review" (Espen uses they/them and isn't a programmer).
 
 ## The lead's picture: waiting on events
 
 The lead is the one session that knows everything in motion, so a handover or a question from Espen never starts from a guess (`DEC-2026-11-12-05`).
 
 - **Keep an in-motion list** at the top of the board: each active session (step, state, report-back address, context size), each open PR (author, tier, what it waits on) and each scheduled check-in. Track it as events happen, write it into each batched board PR (`DEC-2026-11-12-03`), and always before a handoff. Espen doesn't read the board; write it for the next lead.
-- **Wait on events, not the clock.** For a known event (a label added, a merge, the gate's verdict on a new head), run a background shell loop that checks about once a minute and exits when the event happens: `git ls-remote` for merges and new heads, the GitHub MCP tools or the `gh` search API (the only `gh` use allowed here, one call a minute or slower) for labels and reviews. Match the reviewer's own comment, not the gate's template that quotes the approval lines. It costs no tokens while it waits. Workers' messages (`ready`, `blocked`, `done`) carry the rest.
+- **Wait on events, not the clock.** For a known event (a label added, a merge, the gate's verdict on a new head), run a background shell loop that checks about once a minute and exits when the event happens: `git ls-remote` or `git fetch` for merges and new heads, and the `gh` search API (the only `gh` use allowed here, one call a minute or slower) for labels and reviews. A shell loop can't call the GitHub MCP tools; use those in the lead's own turn. Match the reviewer's own comment, not the gate's template that quotes the approval lines. It costs no tokens while it waits. Workers' messages (`ready`, `blocked`, `done`) carry the rest.
 - **One safety-net check-in every three hours** (`send_later`), for anything nobody reported: one batched look at the open PRs and `get_session` on each active session.
 - **At each event, a quick context check**: `get_session` on the sessions it touches, noting their state and context size, so handovers start before 600,000 tokens.
 - **Workers send three messages only**: `ready`, `blocked` and `done`. No progress reports.
