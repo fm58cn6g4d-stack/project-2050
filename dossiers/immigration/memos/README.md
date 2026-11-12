@@ -16,4 +16,4 @@ Every memo opens with a **decision line** in the same form: the recommended opti
 
 Fork 10's other items (codifying *Barbara*, denaturalization, the test) are points 10-12 in section 3.
 
-**The recommended set** on the general fund: about +$0.13 trillion over FY2030-39 (range about −$0.04 to +$0.31 trillion) and about +$19 billion in FY2040, against the legacy ledger's −$0.14 trillion, which is not a CBO figure (`../3-design.md`, "IMM-1's score, re-derived"). Social Security's funds gain separately; the H-1B fee is retained; CRT-5 is scored with democratic renewal.
+**The recommended set** on the general fund: about +$0.13 trillion over FY2030-39 (range about −$0.04 to +$0.31 trillion) and about +$19 billion in FY2040, against the legacy ledger's −$0.14 trillion, a scaled 2013 pattern from a different bill, not a score (`../3-design.md`, "IMM-1's score, re-derived"). Social Security's funds gain separately; the H-1B fee is retained; CRT-5 is scored with democratic renewal.

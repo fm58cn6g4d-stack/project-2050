@@ -3149,7 +3149,7 @@
   "fact_date": "2013-06",
   "checked": "2026-11-12",
   "recheck": "2027-11-12",
-  "context": "Score of the Judiciary Committee version (reported May 28, 2013, star print June 6), published June 18, 2013. Dynamic effects not in the estimate were expected to cut deficits by about $300 billion more in the second decade (EV-IMM-201). The legacy file's \"about $175B first-decade deficit cut\" is not a CBO figure that this research found; the CBO figures are $197B (committee version) and $158B (Senate-passed version).",
+  "context": "Score of the Judiciary Committee version (reported May 28, 2013, star print June 6), published June 18, 2013. Dynamic effects not in the estimate were expected to cut deficits by about $300 billion more in the second decade (EV-IMM-201). The legacy file's \"about $175B first-decade deficit cut\" is widely reported for CBO's June 24, 2013 preliminary letter on the bill as amended by Corker-Hoeven. The quoted letter text (EV-IMM-207) says less than $40B below $197B. The $175B is not confirmed from CBO's text. The final estimate for the Senate-passed bill is $158B (EV-IMM-205).",
   "corroboration": [
    {
     "evidence": "EV-IMM-205",
@@ -8448,7 +8448,7 @@
   "fact_date": "2026-10",
   "checked": "2026-11-12",
   "recheck": "2027-11-12",
-  "context": "Legacy ledger, legacy/index/2029-trifecta-master-ledger.md, line 330. The $175B is not a CBO figure (legacy-research.md, finding 1). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "context": "Legacy ledger, legacy/index/2029-trifecta-master-ledger.md, line 330. The $175B is widely reported as CBO's preliminary figure for the amended S. 744, not confirmed from CBO's text (EV-IMM-207; legacy-research.md, finding 1); CBO's final estimate was $158B (EV-IMM-205). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
