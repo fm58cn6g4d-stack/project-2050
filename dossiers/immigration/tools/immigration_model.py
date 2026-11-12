@@ -32,6 +32,9 @@ INPUTS = {
     'tier_b_m': (8.0, 7.0, 9.0, "assumption: MPI's 60% with ten years in 2021 (EV-IMM-617) moved to 2029, on 12-14.5 million"),
     'tier_a_outside_b_m': (2.25, 1.5, 3.0, 'assumption: memo 1; DACA 436,350 (EV-IMM-016), TPS about 274,000 (EV-IMM-022), farm, care and construction workers'),
     'registered_m': (3.0, 2.0, 4.0, 'assumption: memo 1, everyone else present on the cutoff'),
+    'tier_a_late_arrivals_m': (0.05, 0.02, 0.10, 'assumption: people who would be in tier A but arrive between January 1 of the year of enactment and signature, so register instead (IMM-1.04, DEC-2026-11-12-12)'),
+    # ---- the E-Verify start (memo 5 part 2; IMM-4.13) ----
+    'everify_first_tranche_fy': (2031.75, 2031.25, 2032.75, 'commitment: no earlier than October 1 of the year after enactment, on a passing 90-day check (DEC-2026-11-12-12); assumption: the check first passes about July 2031 (FY2031 Q4)'),
     'take_up': (0.70, 0.60, 0.85, 'EV-IMM-609'),
     'filing_shape': ((0.35, 0.30, 0.15, 0.06, 0.04, 0.03, 0.03, 0.02, 0.02), None, None,
                      'assumption: IRCA-like front loading (EV-IMM-635); known people on notice first'),
@@ -106,7 +109,7 @@ def prices(y, case='central', base=2026):
 def uscis(case='central'):
     """Filings, the appropriated waiver cost (memo 2), USCIS's other public work (memo 7) and the backlog."""
     v = lambda n: val(n, case)
-    eligible = v('tier_b_m') + v('tier_a_outside_b_m') + v('registered_m')
+    eligible = v('tier_b_m') + v('tier_a_outside_b_m') + v('registered_m')   # late arrivals move between groups, not out
     filings = eligible * v('take_up')                                  # million, over the decade
     shape = INPUTS['filing_shape'][0]
     per_year = {y: 0.0 for y in YEARS}
@@ -180,8 +183,33 @@ def status_fiscal(case='central'):
     v = lambda n: val(n, case)
     gross = v('hr6_deficit_bn') * v('reach_scale') * v('window_growth')
     net = gross * (1 - v('health_share') * v('covered_anyway_share'))
+    # Tier A's January 1 cutoff moves late arrivals to registered status: they wait for a green
+    # card, so the status line falls by their share of the green-card population (IMM-1.04).
+    green = v('tier_b_m') + v('tier_a_outside_b_m')
+    net *= 1 - v('tier_a_late_arrivals_m') / green
     w = sum(STATUS_SHAPE[y] for y in WINDOW)
     return {y: net * STATUS_SHAPE[y] / w for y in YEARS}
+
+
+def everify_coverage(case='central'):
+    """Share of the unauthorized workforce left after memo 1 that the mandate covers, by FY.
+
+    Tranches a year apart from the first (IMM-4.12, 4.13), covering 0.2, 0.45, 0.7 and 1.0 of
+    that workforce (judgment: unauthorized workers sit mostly in small firms and households).
+    A tranche starting part-way through a fiscal year counts for the part of the year it runs.
+    """
+    start = val('everify_first_tranche_fy', case)
+    steps = (0.2, 0.45, 0.7, 1.0)
+    out = {}
+    for y in YEARS:
+        share = 0.0
+        for i, level in enumerate(steps):
+            t = start + i                           # fiscal-year time the tranche begins
+            frac = min(1.0, max(0.0, y - (t - 1)))  # FY y covers (y-1, y]
+            prev = steps[i - 1] if i else 0.0
+            share += (level - prev) * frac
+        out[y] = share
+    return out
 
 
 def window(path):

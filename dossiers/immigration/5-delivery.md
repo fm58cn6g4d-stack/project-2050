@@ -10,7 +10,7 @@ Role: section 5 of the immigration dossier. It covers who runs each provision of
 | **The interior enforcement component** (DHS, replacing ICE's removal operations) | Arrests and removals under the priorities; detention under the cap and the standards; the case-management service | IMM-4.01, 4.03 to 4.08, 4.10, 4.11 | Abolished and rebuilt as a new component on the transition date (working: October 1, 2031). Until then ICE applies the rules, which take effect on signature |
 | **The criminal investigations component** (DHS, from HSI) | Smuggling, trafficking, child exploitation, customs fraud | IMM-4.02 | A component of its own, with no civil immigration arrests outside its cases |
 | **CBP** (DHS) | Border and ports; the surge trigger's count; the redirected wall money | IMM-3.02, 3.07 | Unchanged in mission; publishes a yearly account of what the redirected money bought |
-| **DHS Inspector General** | The detention inspector; confirming E-Verify's start test | IMM-4.09, 4.13 | A new inspection unit; a certification check |
+| **DHS Inspector General** | The detention inspector; E-Verify's start checks | IMM-4.09, 4.13 | A new inspection unit; a check every 90 days from October of the year after enactment until one passes |
 | **EOIR** (DOJ), then the CRT-5 court | Review of officers' denials; removal cases; timelines; notice; counsel for adults | IMM-3.08 to 3.12 | The 800-judge cap repealed [EV-IMM-105]; the long-settled residents' cases close on filing (IMM-1.10); the court's form is democratic renewal's |
 | **IRS** (Treasury) | Yes-or-no residence answers from filing records; back-tax instalment plans | IMM-1.06, 1.11, 6.06 | A data agreement in statute, with each query logged; the returns themselves never leave the IRS |
 | **SSA** | Earnings records for the match; work-eligible numbers from USCIS's record; E-Verify's number check and contest handling; front doors | IMM-1.06, 1.12, 4.12, 4.14, 6.04 | Numbers issued without a visit, on USCIS's record; E-Verify contest volume rises with the mandate |
@@ -52,7 +52,7 @@ Role: section 5 of the immigration dossier. It covers who runs each provision of
 **E-Verify.**
 - *Volume:* checks roughly double at full coverage, from about half of new hires [EV-IMM-398], about 35 million more a year (project arithmetic on [EV-IMM-191]).
 - *Contest capacity:* SSA's and USCIS's staff must answer contests in ten working days (IMM-4.14), or cases close as authorized. That rule puts the cost of delay on the government, not the worker.
-- *Before the first tranche,* every registered person's status and number are in the system (IMM-4.13, condition 2).
+- *Before the first tranche,* every registered person's status and number are in the system (IMM-4.13, condition (c)).
 
 **The courts.**
 - *The backlog:* 3.3 million pending cases [EV-IMM-100].
@@ -68,15 +68,14 @@ Role: section 5 of the immigration dossier. It covers who runs each provision of
 | January 20, 2029 | End Proclamation 10888's use against asylum seekers; withdraw the 2026 no-interview rule; a FY2029 refugee ceiling at or above 50,000; enforcement priorities by memo; the neighborhood investigations end (IMM-3.05, 4.03, 5.03) | The President; DHS |
 | By about mid-2029 | R1 enacted: USCIS's money (hiring starts), the naturalization discount, the asylum fee repeals, the wall money redirected, the H-1B fee, the eligibility restorations | Congress |
 | October 1, 2029 (FY2030) | The enforcement money of the 2025 and 2026 laws lapses [EV-IMM-035] [EV-IMM-040]; FY2030 appropriations fund the 30,000 cap and case management; eligibility restorations for programs on fiscal years | Congress; DHS; program agencies |
-| By about December 2029 | The 2029 immigration act signed: **the cutoff date** (IMM-1.04); the conduct rules, protected places and officer identification take effect on signature; the 800-judge cap repealed | Congress; the President |
+| By about December 2029 | The 2029 immigration act signed: **registration's cutoff**; tier A's is January 1, 2029 (IMM-1.04); the conduct rules, protected places and officer identification take effect on signature; the 800-judge cap repealed | Congress; the President |
 | First half of 2030 | The rules for the registry, the evidence rule, the fee waiver and the detention standards; notices drafted for known people | DHS; DOJ |
 | No later than about October 1, 2030 (FY2031) | **Filing opens** for the registry, tier A and registration, 270 days after signature (IMM-1.05); notices to DACA, TPS and parole holders first; work permits on filing; removal cases of filers closed; the higher legal numbers, recapture and the per-country phase-out from FY2031 | USCIS; SSA; EOIR; State |
 | January 1, 2031 | The single plan's first wave covers every resident, people without status included (IMM-1.21) | CMS |
-| About mid-2031 | E-Verify's start test met: filing open everywhere, receipts in 14 days and recorded in 30, notices sent, registrants clear E-Verify (IMM-4.13) | USCIS |
-| About October 2031 | The Inspector General confirms the test | DHS Inspector General |
+| October 1, 2030 | E-Verify's first start check (IMM-4.13): fails on the working timeline, because filing has just opened and notices are still going out; repeated every 90 days | DHS Inspector General |
+| About July 1, 2031 (working) | **E-Verify's first tranche**, on the first passing check: filing open everywhere, known people sent notices, work permits and queries within the act's time limits on systems that exist, registrants' error rate no higher than permanent residents' | Employers with 500 or more employees, new hires only; USCIS |
 | October 1, 2031 | **ICE replaced** (working date): the interior enforcement component, the criminal investigations component and the case-management service take over; 287(g) agreements not renewed on the rules end (IMM-4.01, 4.10) | DHS |
-| October 1, 2032 (earliest) | **E-Verify's first tranche**: employers with 500 or more employees, new hires only | Employers; USCIS |
-| October 1, 2033 / 2034 / 2035 | Tranches 2 (100-499), 3 (20-99) and 4 (1-19, household and agricultural employers), each after a published error count and a GAO audit; a one-time twelve-month pause if wrong flags for lawful noncitizens pass 1% | Employers; USCIS; GAO |
+| About July 2032 / 2033 / 2034 | Tranches 2 (100-499), 3 (20-99) and 4 (1-19, household and agricultural employers), each after a published error count and a GAO audit; each waits 90 days at a time while wrong flags for work-authorized noncitizens exceed 1% | Employers; USCIS; GAO |
 | From about 2040 | Registered people who arrived in 2029-30 reach ten years and the registry; the standing registry carries anyone else at ten years | USCIS |
 
 **If R1 is late,** USCIS's hiring starts late and filing opens later: the act sets filing at no later than 270 days after its own signature, so a late R1 means the act's opening date needs USCIS money from appropriations instead. **If the immigration act is late,** the cutoff and every later date move with its signature; the E-Verify start test moves with filing, because it measures filing.
