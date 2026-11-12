@@ -20,19 +20,23 @@ class RecoveryTests(unittest.TestCase):
             model.check_comparison_inputs(prov,{},lambda p:b'new')
     def test_full_scope_reconciles_without_duplicate_old_benefits(self):
         t=self.r['totals_2030_39_tn']
-        self.assertAlmostEqual(t['old_agenda_transfer_bn'],1.23,places=5)
+        # 1.23 until care parts B-D were booked: FAM-2 on the decided path is $1.484T, not the legacy $0.6T
+        self.assertAlmostEqual(t['old_agenda_transfer_bn'],2.114,places=5)
         self.assertAlmostEqual(t['current_law_absorbed_bn'],.77)
-        self.assertAlmostEqual(t['new_benefits_bn'],t['fund_outlays_bn']-2,places=5)
-        self.assertGreater(t['new_benefits_bn'],.59)
-        self.assertLess(t['new_benefits_bn'],.62)
+        self.assertAlmostEqual(t['new_benefits_bn'],t['fund_outlays_bn']-2.884,places=5)   # -2 until the care booking
+        # .59-.62 until the care booking: the aggregate's legacy care curve ($0.79T) ran $0.19T above legacy FAM-2
+        # ($0.60T), and that excess counted as new benefits; care is now FAM-2's booked path on both sides
+        self.assertGreater(t['new_benefits_bn'],.40)
+        self.assertLess(t['new_benefits_bn'],.43)
     def test_transfers_cancel_in_consolidated_government(self):
         for r in self.rows.values():
             self.assertAlmostEqual(r['unified_delta_bn']-r['gf_delta_bn'],r['fund_primary_deficit_bn'])
             self.assertAlmostEqual(r['fund_outlays_bn'],r['new_benefits_bn']+r['old_agenda_transfer_bn']+r['current_law_absorbed_bn'])
     def test_transition_not_a_free_payfor(self):
         self.assertAlmostEqual(self.rows[2030]['payroll_bn'],0)
-        self.assertAlmostEqual(self.rows[2030]['gf_bridge_bn'],142)
-        self.assertGreater(self.rows[2030]['unified_delta_bn'],28)
+        # 142 until the care booking: FAM-2's first program year (2030-31) is FY2031, so the fund's FY2030 care is 0, not 12
+        self.assertAlmostEqual(self.rows[2030]['gf_bridge_bn'],130)
+        self.assertGreater(self.rows[2030]['unified_delta_bn'],25)   # 28 until the care booking (FY2030 care 0, not 12)
         self.assertEqual(self.r['education_cases']['phased_2.0_no_bridge']['first_negative_reserve'],2030)
     def test_no_double_counted_estates_and_no_existing_tax_removal(self):
         self.assertEqual(model.E['estate_receipts'],0)
@@ -41,12 +45,16 @@ class RecoveryTests(unittest.TestCase):
         self.assertGreater(self.r['delayed_middle_receipts_2030_39_tn'],.30)   # $0.36T once C19b ends with the exclusion (care follow-up 2; was .39)
     def test_old_rate_fails_but_central_funded_cases_do_not(self):
         c=self.r['education_cases']
-        self.assertEqual(c['source_1.4_immediate_no_estate']['first_negative_reserve'],2034)
-        self.assertIsNone(c['mixed_1.4_GF30']['first_negative_reserve'])
+        # 2034 until the care booking: the fund now carries FAM-2's decided path, so the unbridged 1.4 case runs dry a year sooner
+        self.assertEqual(c['source_1.4_immediate_no_estate']['first_negative_reserve'],2033)
+        # None until the care booking: with part C's decided path in the fund ($1.48T, not $0.79T), the legacy aggregate's
+        # mixed 1.4 case runs dry in 2035. That is the fund-solvency effect 6bcd-cost.md part 5 reports for the
+        # settlement to cover with the fund's rate (or by booking part C on the general fund); reported, not tuned away
+        self.assertEqual(c['mixed_1.4_GF30']['first_negative_reserve'],2035)
         self.assertFalse(c['mixed_1.4_GF30_low_payroll_high_cost']['nondeclining_terminal_ratio'])
     def test_care_state_cost_is_not_free(self):
         rows={r['year']:r for r in self.r['education_cases']['mixed_1.4_GF30_care_floor80']['rows']}
-        self.assertAlmostEqual(rows[2049]['extra_care_bn'],143*(.8/.6-1))
+        self.assertAlmostEqual(rows[2049]['extra_care_bn'],model.FAM2[2049]*(.8/.6-1))   # care is FAM-2's booked path (was the 143 anchor)
         self.assertAlmostEqual(rows[2030]['extra_care_bn'],0)
     def test_no_quintile_pass_invented(self):
         self.assertLess(self.r['incidence_diagnostic'][2039]['Q4']['new_net_before_unallocated_protection'],0)

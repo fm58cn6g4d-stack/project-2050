@@ -15,9 +15,10 @@ What is booked (all $ billion by federal fiscal year unless noted; a cost positi
 - HLT-1, restoration before wave 1: calendar 2030 only, on the fiscal-year blend (FY2030 and a quarter in FY2031).
 - HLT-2, Medicare upgrades and no disability wait for today's enrollees, calendar 2031-34, on the blend.
 - HLT-3 and HLT-5 retired (memo 1 A and memo 5 D not chosen): $0.
-- HLT-4 split (review F-4 item 2): long-term care and the safety-net items kept on the legacy profile; children's
-  continuous coverage retired from wave 1 (January 2031), Medicaid dental and the items costed with it retired with
-  Medicaid's wave-2 thirds (January 2033, 2034, 2035).
+- HLT-4 split (review F-4 item 2): the safety-net items kept on the legacy profile; children's continuous coverage
+  retired from wave 1 (January 2031), Medicaid dental and the items costed with it retired with Medicaid's wave-2
+  thirds (January 2033, 2034, 2035). Its legacy long-term care part is retired by care parts B-D's booking, which
+  owns the HLT-4 row (care_booking.py): these three parts are returned as hlt4_parts for it.
 - HLT-6, the Advantage fix at MedPAC's lower estimate, calendar 2030-34, on the blend: the general fund books Part B's
   share; Part A's share (funds-parameters.csv hi_hlt6_part_a_share) is HI's, in the funds model (care follow-up 3).
 - HLT-7, the single plan's spending line: outlays less the federal money it replaces and the states' payments
@@ -161,22 +162,22 @@ def booking():
         out[big] = (out[big][0], round(mid - rest, 4), out[big][2])
         return mid, out
 
-    hlt4_mid, c4 = parts("HLT-4", [("ltc-hcbs-care-workforce", tn(part["ltc"]), None),
-                                   ("safety-net-centers-residency-momnibus-title-x", tn(part["safety_net"]), None),
-                                   ("children-continuous-coverage", amt["HLT-4/children-continuous-coverage"], 0.0),
-                                   ("medicaid-dental-and-bundle", amt["HLT-4/medicaid-dental-and-bundle"], 0.0)])
+    # HLT-4's legacy long-term care part (0.3194) is retired by care parts B-D's booking (care_booking.py owns the
+    # HLT-4 row: health's three parts below plus the bridge and its companions). Health's parts keep their amounts.
+    hlt4_parts = [("safety-net-centers-residency-momnibus-title-x", round(tn(part["safety_net"]), 4), None),
+                  ("children-continuous-coverage", round(amt["HLT-4/children-continuous-coverage"], 4), 0.0),
+                  ("medicaid-dental-and-bundle", round(amt["HLT-4/medicaid-dental-and-bundle"], 4), 0.0)]
     hlt7_mid, c7 = parts("HLT-7", [("plan-spending", amt["HLT-7/plan-spending"],
                                     perm_for(B, F, {2039: years["HLT-7/plan-spending"][-1]}, spend[2040])),
                                    ("transition-fund", amt["HLT-7/transition-fund"], 0.0),
                                    ("territories", amt["HLT-7/territories"],
                                     perm_for(B, F, {2039: years["HLT-7/territories"][-1]}, TERRITORIES_FY2040,
                                              "out_health_other"))])
-    comps = {"HLT-4": c4, "HLT-7": c7}
+    comps = {"HLT-7": c7}
     ledger = {
         "HLT-1": (r3(amt["HLT-1"]), r3(amt["HLT-1"]), r3(amt["HLT-1"] + 0.25)),   # HLT-1.03's provider-tax range, $0-0.25T
         "HLT-2": (0.31, r3(amt["HLT-2"]), 0.53),                                 # 0.25-0.35 upgrades + 0.06-0.18 wait
         "HLT-3": (0, 0, 0), "HLT-5": (0, 0, 0),
-        "HLT-4": (r3(HLT4_LEGACY[0] * hlt4_mid / HLT4_LEGACY[1]), hlt4_mid, r3(HLT4_LEGACY[2] * hlt4_mid / HLT4_LEGACY[1])),
         "HLT-6": (r3(amt["HLT-6"] * (1 - hlt6_part_a_share())),) * 3,   # Part B's share; Part A's goes to HI (funds model)
         "HLT-7": (r3(hlt7_mid - RATE_RANGE_TN[0] - LTC_RANGE_TN[0] - 0.05 - 0.04), hlt7_mid,
                   r3(hlt7_mid + RATE_RANGE_TN[1] + LTC_RANGE_TN[1] + 0.05 + 0.09)),
@@ -189,8 +190,9 @@ def booking():
     totals = dict(net_window=sum(hp["net"][y] for y in W) / 1000,
                   with_contribution=(sum(hp["net"][y] for y in W) - sum(hp["contribution"][y] for y in W)) / 1000,
                   contribution_window=sum(hp["contribution"][y] for y in W) / 1000)
-    hlt4_path = [round(part["ltc"][y] + part["safety_net"][y] + kids[y] + dental[y], 2) for y in W]
+    hlt4_path = [round(part["safety_net"][y] + kids[y] + dental[y], 2) for y in W]   # health's parts of HLT-4
     return dict(years=years, components=comps, ledger=ledger, perms=perms, fy2040=fy2040, totals=totals, hlt4_path=hlt4_path,
+                hlt4_parts=hlt4_parts,
                 contribution={y: hp["contribution"][y] for y in W + [2040]})
 
 
@@ -292,11 +294,11 @@ def incidence():
 
 def legacy_shapes():
     """Phase-in shapes (incidence-phase-in.csv, method norm) for the health rows rebooked in #230: H1 (HLT-1), H2 and
-    PB (HLT-2), H4 (HLT-4) and MA (HLT-6), each its booked fiscal-year path scaled to its largest year."""
+    PB (HLT-2) and MA (HLT-6), each its booked fiscal-year path scaled to its largest year. H4 (HLT-4) is now
+    care_booking.py's, since care parts B-D's booking rebuilt HLT-4."""
     b = booking()
     sc = lambda v: [round(x / max(v, key=abs), 3) + 0.0 if max(v, key=abs) else 0.0 for x in v]  # noqa: E731
-    return {"H1": sc(b["years"]["HLT-1"]), "H2": sc(b["years"]["HLT-2"]), "H4": sc(b["hlt4_path"]),
-            "MA": sc(b["years"]["HLT-6"])}
+    return {"H1": sc(b["years"]["HLT-1"]), "H2": sc(b["years"]["HLT-2"]), "MA": sc(b["years"]["HLT-6"])}
 
 
 # C19b (Package B's cap on the employer exclusion at the 75th-percentile premium) taxes a base that HX ends: as each

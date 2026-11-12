@@ -8,7 +8,7 @@ only, plus the dossier's own path script through health_booking.py. Checks that:
 - the plan's net cost on the model's basis (HLT-1 plus HLT-7's spending line, less HX) is the dossier's $21.74T;
 - the employer contribution is not booked on any channel, and HX is general-fund base revenue;
 - HLT-3 and HLT-5 are retired, HLT-1, HLT-2 and HLT-6 end with the 2035 endpoint, and HLT-4's retired parts end
-  with their waves while its long-term care and safety-net parts continue;
+  with their waves while its safety-net part continues (its long-term care is care_booking.py's, test_fiscal_care.py);
 - the household test's health rows (incidence-rows.csv H7h, H7w, H7x, with PB, H2 and H5p; their keys and phase-in
   shapes) equal health_booking.py's incidence() derivation (care follow-up 2).
 """
@@ -61,6 +61,9 @@ class HealthBooking(unittest.TestCase):
         for k, v in self.b["years"].items():
             self.assertEqual(years[k], [float(x) for x in v], k)
         comps = {(r["owner"], r["component"]): r for r in rows("fiscal-components.csv")}
+        # HLT-4's row is care_booking.py's (care parts B-D booking): health's three parts keep their amounts in it
+        for n, amount, _ in self.b["hlt4_parts"]:
+            self.assertEqual(float(comps[("HLT-4", n)]["mid10"]), amount, n)
         for owner, parts in self.b["components"].items():
             self.assertEqual(sorted(n for o, n in comps if o == owner), sorted(n for n, _, _ in parts), owner)
             for n, amount, perm in parts:
@@ -112,8 +115,8 @@ class HealthBooking(unittest.TestCase):
         kids, dental = self.part("HLT-4", "children-continuous-coverage"), self.part("HLT-4", "medicaid-dental-and-bundle")
         self.assertTrue(all(kids[y] == 0 for y in range(2032, 2057)))
         self.assertTrue(all(dental[y] == 0 for y in range(2036, 2057)))
-        ltc = self.part("HLT-4", "ltc-hcbs-care-workforce")
-        self.assertGreater(ltc[2040], ltc[2039])
+        safety = self.part("HLT-4", "safety-net-centers-residency-momnibus-title-x")   # long-term care is care's now
+        self.assertGreater(safety[2040], safety[2039])
         total = self.path("HLT-4")
         self.assertAlmostEqual(sum(total[y] for y in W) / 1000, self.bills["HLT-4"]["gf_mid"], places=9)
 

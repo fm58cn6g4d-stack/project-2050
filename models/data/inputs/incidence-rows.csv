@@ -24,7 +24,7 @@ package,PB,Part B premium increase for HLT-2's upgrades (the legacy ratio: 28% o
 package,MA,MA plans' reduced extras after full capture (30% pass-through),cost,-0.3*[HLT-6],ma,,estimate: 30% of HLT-6's $1.25T
 package,EDU7,Scholarship tax credit repealed (EDU-7): donors lose the credit,cost,-[EDU-7],donors,,ledger EDU-7
 package,F1,Child Tax Credit (FAM-1),benefit,[FAM-1],ctc,,ledger
-package,F2,Child care and pre-K (FAM-2),benefit,[FAM-2],childcare,,ledger
+package,F2,Child care and pre-K (FAM-2),benefit,[FAM-2],childcare,,ledger; shape from care_booking.py incidence() (FAM-2's booked path)
 package,F3,Paid leave benefits (FAM-3),benefit,[FAM-3],leave_benefit,,ledger
 package,EDU,"Education formula funding and higher education (EDU-1, EDU-5)",benefit,[EDU-1]+[EDU-5],education,,ledger EDU-1 + EDU-5
 package,EDU3,Universal school meals and Summer EBT (EDU-3),benefit,[EDU-3],meals,,ledger EDU-3
@@ -32,9 +32,10 @@ package,EDU4,Educator pipeline (EDU-4),benefit,[EDU-4],education,,ledger EDU-4
 package,H1,Health restoration (HLT-1),benefit,[HLT-1],aca_medicaid,,ledger
 package,H2,"Medicare upgrades and no disability wait, gross of premiums (HLT-2)",benefit,1.28*[HLT-2],medicare,,ledger HLT-2 plus PB
 package,H3,Public option and cost-sharing help (HLT-3),benefit,[HLT-3],public_opt,,ledger
-package,H4,"Medicaid, long-term care, safety net (HLT-4)",benefit,[HLT-4],medicaid_ltc,,ledger
+package,H4,"Medicaid bridge, safety net (HLT-4)",benefit,[HLT-4],medicaid_ltc,,"ledger; shape from care_booking.py incidence() (HLT-4's booked path: the bridge and its companions, with health's parts)"
 option,H7h,"Single plan (HLT-7): premiums and out-of-pocket costs households stop paying, less the plan's copays",benefit,11.884,health_hh,,"models/tools/health_booking.py incidence(): the coverage model's household cost less the plan's copays ($1,527B at 2032 full scale) on the fiscal-year path; cash flows only, not the value of new coverage to the uninsured"
 option,H7w,"Single plan (HLT-7): employer-paid premiums that become wages (full pass-through, HX's convention; no employer contribution booked)",benefit,11.872,employer_cov,,"models/tools/health_booking.py incidence(): employer premiums removed ($1,547B at 2032 full scale) on HX's moved-share path; at half pass-through about half of it"
+option,H9,"Long-term care (HLT-9): the home and community care benefit and the care part of institutional care from 2035, net of the states' payment",benefit,[HLT-9],ltc_universal,,"care_booking.py: HLT-9's booked net path; key ltc_universal (review F-3 item 3): reaches higher quintiles than Medicaid's key, since it has no asset test. In scenario Q-H7 with the single plan (same act, the settlement's financing)"
 option,H7x,End of the employer tax exclusion (HX): tax on former premiums that become pay,cost,[HX],exclusion_end,,ledger HX; key from employer_cov and marginal rates (health_booking.py exclusion_key)
 package,H5p,"[Retired: memo 5 D not chosen, HLT-5 at $0] Hospital and drug price caps: lower employer premiums passed to wages; the single plan's wage pass-through is H7w",benefit,0,employer_cov,,retired with HLT-5 (care follow-up 2)
 package,F5,"Social Security minimum benefit and CPI-E (SS-3, SS-4)",benefit,[SS-1],ss_benefit,,ledger
