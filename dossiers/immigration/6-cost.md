@@ -29,31 +29,32 @@ Role: section 6 of the immigration dossier. It prices the provisions of `4-speci
 | The detention cap and case management (memo 5, A's rules) | IMM-4.05-4.06 | 0.6 | 0.6 | 0.6 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.7 | 0.8 | **6.8** | **0.8** | −1.3 to 27.4 | −0.1 to 3.2 |
 | Replacing ICE; the detention inspector (memo 5, part 1 B) | IMM-4.01-4.02, 4.09 | 0.2 | 0.7 | 0.7 | 0.5 | 0.3 | 0.1 | 0.1 | 0.1 | 0.1 | 0.1 | **3.0** | **0.1** | 1.5 to 5.0 | 0.1 to 0.3 |
 | E-Verify operations and error correction (memo 5, part 2 A) | IMM-4.12-4.15 | 0.1 | 0.3 | 0.3 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.5 | **3.8** | **0.5** | 3.0 to 6.5 | 0.3 to 0.7 |
-| The one eligibility table (memo 6, amended for health) | IMM-1.20-1.36 | 0.0 | 3.8 | 6.4 | 7.9 | 9.5 | 11.3 | 13.2 | 15.4 | 17.7 | 20.3 | **105.5** | **22.1** | 47.5 to 138.2 | 9.2 to 28.8 |
+| The one eligibility table (memo 6, amended for health; IMM-1.15's returnees) | IMM-1.15, 1.20-1.36 | 0.0 | 4.0 | 6.9 | 8.6 | 10.3 | 12.1 | 14.1 | 16.3 | 18.7 | 21.3 | **112.2** | **23.2** | 48.8 to 158.4 | 9.4 to 31.9 |
 | USCIS beyond memos 2 and 4; naturalization fees (memo 7) | IMM-6.01, IMM-5.04 | 1.5 | 1.5 | 1.5 | 1.2 | 1.2 | 0.8 | 0.5 | 0.5 | 0.5 | 0.5 | **9.8** | **0.6** | 5.6 to 17.6 | 0.3 to 1.0 |
 | Wall money redirected (point 7) | IMM-3.07 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | 0.0 | **0.0** | **0.0** | 0.0 to 0.0 | 0.0 to 0.0 |
-| **Spending lines** | | **4.3** | **12.3** | **15.1** | **16.3** | **18.5** | **19.7** | **21.1** | **24.2** | **27.0** | **29.6** | **188.0** | **31.4** | **−31.9 to 405.2** | **−1.6 to 56.6** |
+| **Spending lines** | | **4.3** | **12.5** | **15.6** | **17.1** | **19.2** | **20.5** | **21.9** | **25.1** | **27.9** | **30.6** | **194.7** | **32.4** | **−30.6 to 425.4** | **−1.4 to 59.7** |
 | *Revenue effect:* income-tax offset on the retained H-1B fee (25%) | IMM-2.07 (IF1) | 0.0 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.4 | 0.5 | **3.7** | **0.5** | 2.3 to 4.5 | 0.3 to 0.5 |
 | *Revenue effect:* E-Verify's on-budget revenue, JCT's convention (part 2) | IMM-4.12 | 0 | −0.1 | −0.8 | −1.6 | −2.5 | −3.4 | −3.5 | −3.6 | −3.8 | −3.9 | **−23.3** | **−4.1** | −34.9 to 0.0 | −6.1 to 0.0 |
-| **Immigration on the general fund, all** | | **4.3** | **12.5** | **14.7** | **15.1** | **16.3** | **16.8** | **18.0** | **21.0** | **23.7** | **26.1** | **168.5** | **27.7** | **−64.5 to 409.7** | **−7.4 to 57.1** |
+| **Immigration on the general fund, all** | | **4.3** | **12.7** | **15.2** | **15.9** | **17.1** | **17.6** | **18.8** | **21.9** | **24.6** | **27.1** | **175.1** | **28.8** | **−63.2 to 429.9** | **−7.2 to 60.2** |
 
 (Rows are rounded; the totals are the tool's unrounded sums.)
 
-- **The decided set:** about **+$0.17 trillion over FY2030-39 (range about −$0.06 to +$0.41 trillion) and about +$27.7 billion in FY2040 (range about −$7 to +$57 billion)** on the general fund. The ranges are summed line by line, as section 3's were, so they are wide; the lines are not independent.
+- **The decided set:** about **+$0.18 trillion over FY2030-39 (range about −$0.06 to +$0.43 trillion) and about +$28.8 billion in FY2040 (range about −$7 to +$60 billion)** on the general fund. The ranges are summed line by line, as section 3's were, so they are wide; the lines are not independent.
 - **Memo 6, amended for health** (Espen, November 12, lead session). The single plan covers everyone with lawful or registered status, a filing receipt included; people with no status keep emergency care as today (IMM-1.21). Priced net:
-  - *Coverage added:* only lawful residents above care's population base, that is memo 3's added immigrants (0.3-0.6 million by FY2039) and the refugees above the baseline (IMM-3.04), about 0.8 million by FY2039. On care's own path they cost about $73 billion over FY2030-39 and $17.9 billion in FY2040 (`immigration_model.table`, `care_cost_of_residual`; care's average newly covered person, about $13,500 in 2032). Memo 3's line nets CBO's per-person fiscal effect, which counts current-law health programs, so a small part may be counted in both; it is left in, on the high side.
+  - *Coverage added:* only lawful residents above care's population base, that is memo 3's added immigrants (0.3-0.6 million by FY2039) and the refugees above the baseline (IMM-3.04), about 0.9 million by FY2039. On care's own path they cost about $79 billion over FY2030-39 and $18.9 billion in FY2040 (`immigration_model.table`, `care_cost_of_residual`; care's average newly covered person, about $13,500 in 2032). Memo 3's line nets CBO's per-person fiscal effect, which counts current-law health programs, so a small part may be counted in both; it is left in, on the high side.
+  - *IMM-1.15's returnees:* about 50,000 people (range 20,000-150,000; about 3% of some 1.8 million removals in FY2025-28 [EV-IMM-659], a labeled assumption) return over FY2031-33. They are lawful residents above care's base, so their coverage is inside the figure above, about $6.5 billion over FY2030-39 and $1.0 billion in FY2040; their cases from abroad add about $0.1 billion (range $0.03-0.5 billion). In all about $6.6 billion (range about $2.6-20 billion).
   - *Coverage already counted:* the newly legalized, registered people and other lawfully present residents are already in care's population base, and care's plan cost already nets the federal Medicaid money it replaces, Emergency Medicaid included. Nothing is added for them here, and nothing is subtracted twice.
   - *Emergency care* for people with no status stays at today's cost, under the January 2029 law: not added.
   - *The five-year wait's programs:* about $2-4 billion a year (judgment), about $33 billion over FY2030-39.
   - *Residence-based coverage, for comparison:* covering the 1.5-3 million people left without status as well, as memo 6 C first read, would have added about $0.32 trillion over FY2030-39 (range $0.21-0.42 trillion) and $47 billion in FY2040 on care's path (milestone review, O-1).
 - **Care's base needs a later correction (for the lead; not counted here, and care's files are not edited).** Care's model covers the whole population except a 1% residual (about 3.55 million). Under the amended rule, people with no status are not covered: eligible people who have not yet filed (known people are assumed to file first, on their notices) and those who never file. Beyond the residual's share for status (taken as 2.25 million), care's booked figures count about 7.8 million such people as covered in FY2031, 2.7 million in FY2035 and 1.7 million from FY2039. That overstates care's cost by about **$430 billion over FY2030-39 (range about $210-510 billion) and $36 billion in FY2040** (range 0 to $56 billion) (`immigration_model.care_base_correction`). People who arrive without status after the act is signed would add to it. The lead's health booking decides whether to correct it.
 - **Changes at the milestone review** (`review-milestone.md`), against the reviewed draft's +$132.8 billion and +$16.4 billion:
-  - memo 6 as amended and priced on care's path: +$28.0 billion and +$10.6 billion;
+  - memo 6 as amended and priced on care's path: +$34.7 billion and +$11.7 billion;
   - case management at about 150,000 people, from today's 183,181 on alternatives [EV-IMM-171] less those who register (O-2): +$5.7 billion and +$0.7 billion;
   - counsel for the children in the court backlog (O-3): +$1.2 billion;
   - USCIS's backlog money for the year the six-month target needs (O-4): +$0.7 billion.
 - **The judge teams** (IMM-3.08): about $13.2 billion over FY2030-39 and $1.1 billion in FY2040, for about 920 judges above today's 753 at about $1.5 million a team (`immigration_model.eoir`). Earlier drafts sized the corps at about 810 judges on 900 completions a judge; CRS's average of about 510 [EV-IMM-641] needs far more. *An alternative not in the total* (review A-1): after the backlog clears in FY2035, receipts need about 730 judges, below today's corps, so the added judges the model keeps until attrition are surplus. Hiring the increment on terms that end once the backlog clears saves about $5.5 billion over FY2036-39 and $1.1 billion in FY2040 (`immigration_model.term_increment`). It touches the court's tenure rules, which are democratic renewal's (CRT-5), so it goes there as a proposal.
-- **Without E-Verify's on-budget gain** (if JCT's profit shift is not counted): about +$191.8 billion and +$31.8 billion.
+- **Without E-Verify's on-budget gain** (if JCT's profit shift is not counted): about +$198.4 billion and +$32.9 billion.
 - **Against section 3's recommended set** (+$0.13 trillion and +$19 billion), the decided set differs by the review's changes above, and by memo 5 as decided: E-Verify's on-budget revenue (−$23.3 billion and −$4.1 billion), its operations (+$3.75 billion and +$0.46 billion) and replacing ICE (+$3.0 billion and +$0.1 billion). Point 8's fee repeals (+$2.8 billion) and the H-1B fee's tax offset (+$3.7 billion) are counted here; section 3 named them without adding them.
 
   Point 7's redirection replaces a rescission that section 3 counted as unknown and unbooked, so it changes no figure. Point 1's later cutoff adds a few months of arrivals to registration, inside memo 1's range.
@@ -99,7 +100,7 @@ So the cost falls on Social Security's funds. The general fund gains.
 | SNAP's immigrant rule restored | IMM-1.27 | inside the secure floor's INC-2.01 | inside | CBO's $187 billion for the nutrition subtitle includes sec. 10108 (`dossiers/secure-floor/6-cost.md`, part 2) | Firm, counted once there |
 | Health coverage of the newly legalized | IMM-1.01-1.14 | from 2031 inside care's single plan; before it, inside memo 1's line | inside | CBO's 2021 score counts marketplace credits and Medicaid among its largest sources [EV-IMM-602]. Memo 1's line removes that health share for the years after January 2031 (`immigration_model.status_fiscal`: health share 0.6 × 0.9 of the window), because care's model already covers them: it covers the whole Social Security area population [EV-CAR-051] except a 1% residual (`sp_residual_unins`, about 3.55 million), and the newly legalized are not in the residual | Firm, counted once (confirmed at the milestone review, F-3) |
 | Health coverage of people with no status | IMM-1.21 | not added: emergency care as today (EMTALA, Emergency Medicaid), under the January 2029 law | not added | Memo 6 as amended for health (Espen, November 12, lead session). Care's base counts some of these people as covered beyond its 1% residual: a correction for the lead (part 1), not counted here | Firm at today's cost |
-| Health coverage of lawful residents above care's base | IMM-1.21 | inside memo 6's line (part 1): about $73 billion | about $17.9 billion | Memo 3's added immigrants and the refugees above the baseline, on care's own path | Counted once here |
+| Health coverage of lawful residents above care's base | IMM-1.21 | inside memo 6's line (part 1): about $79 billion | about $18.9 billion | Memo 3's added immigrants and the refugees above the baseline, on care's own path | Counted once here |
 | Medicaid and premium credits for lawfully present immigrants | IMM-1.22 | inside care's HLT-1.02 | inside | Decided and priced by care (`DEC-2026-11-10-09`) | Firm, counted once there |
 | Labor-standards inspections | IMM-4.16 | inside CAP-7's Wage and Hour and OSHA lines | inside | Booked in the agency rebuild | Booked there |
 
@@ -117,22 +118,22 @@ Each figure has one basis: federal fiscal years, $ billion, a cost positive, on 
 
 | Measure | FY2030-39 | FY2040 (permanent) |
 | --- | --- | --- |
-| Immigration on the general fund, as decided (part 1) | about +$168.5 billion (range −$65 to +$410 billion) | about +$27.7 billion (0.05% of GDP) |
-| *of which:* spending lines | +$188.0 billion | +$31.4 billion |
+| Immigration on the general fund, as decided (part 1) | about +$175.1 billion (range −$63 to +$430 billion) | about +$28.8 billion (0.053% of GDP) |
+| *of which:* spending lines | +$194.7 billion | +$32.4 billion |
 | *of which:* revenue effects (the H-1B fee's offset; E-Verify's on-budget revenue) | −$19.5 billion | −$3.6 billion |
 | Booked for the same purposes: IMM-1 | −$140.0 billion | −$18.7 billion |
-| **Net change a booking of IMM-1 would make** | **about +$308.5 billion** | **about +$46.4 billion (0.086% of GDP)** |
+| **Net change a booking of IMM-1 would make** | **about +$315.1 billion** | **about +$47.4 billion (0.088% of GDP)** |
 | CAP-7S's USCIS share, replaced (part 4) | −$40 billion | zero (the surge line ends in FY2035) |
-| **Net change with CAP-7S corrected** | **about +$268.5 billion** | **about +$46.4 billion** |
+| **Net change with CAP-7S corrected** | **about +$275.1 billion** | **about +$47.4 billion** |
 | Care's base, if corrected for people with no status (part 1; the lead's health booking) | about −$430 billion | about −$36 billion |
 | Social Security's funds (part 2) | E-Verify about −$42 billion; legalization's gain not quantified | E-Verify about −$7.4 billion |
 
-- **The yearly cost** is in part 1: about $4 billion in FY2030, rising to about $15 billion a year by FY2032 and $26 billion in FY2039.
-- **Permanent cost from FY2040:** about **$27.7 billion a year** on the general fund, rising with the population covered and prices. Memo 6's table and memo 1's status are permanent; memo 3's added workers are a permanent gain; USCIS's surge, the restructure and the backlog work end. The FY2040 judge line ($1.1 billion) is the surplus A-1 describes, not a lasting need.
+- **The yearly cost** is in part 1: about $4 billion in FY2030, rising to about $15 billion a year by FY2032 and $27 billion in FY2039.
+- **Permanent cost from FY2040:** about **$28.8 billion a year** on the general fund, rising with the population covered and prices. Memo 6's table and memo 1's status are permanent; memo 3's added workers are a permanent gain; USCIS's surge, the restructure and the backlog work end. The FY2040 judge line ($1.1 billion) is the surplus A-1 describes, not a lasting need.
 - **Its share of the plan-wide margin.**
   - *The gap:* the plan-wide general-fund primary gap in FY2040 is **$4,184.7 billion short** as booked (7.73% of GDP; `agenda_gf_primary_bn`, case `mixed`; a positive figure is a shortfall).
-  - *A booking of the decided set* adds about $46.4 billion, to about **$4,231.1 billion (7.81% of GDP)**: **about 1.1% of the plan-wide gap**.
-  - *Immigration's whole general-fund cost* in FY2040, $27.7 billion, is **about 0.66% of the gap**. About two-fifths of the booking's effect is removing a saving the plan never had.
+  - *A booking of the decided set* adds about $47.4 billion, to about **$4,232.1 billion (7.81% of GDP)**: **about 1.1% of the plan-wide gap**.
+  - *Immigration's whole general-fund cost* in FY2040, $28.8 billion, is **about 0.69% of the gap**. About two-fifths of the booking's effect is removing a saving the plan never had.
   - *Care's base:* if the lead corrects it for people with no status, the plan-wide gap falls by about $36 billion in FY2040; that is the health booking's call (part 1).
   - *Basis:* additive on the primary balance before interest.
 - **The test years.** The costs grow with prices and the covered population, and nothing sunsets. The general fund also stops counting a saving of about $18.7 billion in FY2040 that the legacy row assumed.
@@ -143,14 +144,14 @@ Each figure has one basis: federal fiscal years, $ billion, a cost positive, on 
 Tier 3, for the lead after the milestone review (`charter/STANDARDS.md`, "Milestone review": book once, after the fixes). This PR changes nothing in `models/data/inputs/`.
 1. **`models/data/inputs/ledger-bills.csv`, line 37 (IMM-1, −0.25 / −0.14 / −0.02):** replace with rows split by decision, so each part can move with its own:
    - IMM-1, status and the registry (memos 1-2): **−0.048 / +0.056 / +0.163**;
-   - the eligibility table (memo 6, amended for health), as an IMM-1 component or a row of its own: **+0.048 / +0.106 / +0.138**;
+   - the eligibility table (memo 6, amended for health), as an IMM-1 component or a row of its own: **+0.049 / +0.112 / +0.158**;
    - IMM-2 (memo 3): **−0.06 / −0.04 / −0.02**;
    - IMM-3 (memo 4 with the judge teams, point 8): **+0.020 / +0.043 / +0.068**;
    - IMM-4 (memo 5, spending only): **+0.003 / +0.014 / +0.039**;
    - E-Verify's on-budget revenue (JCT's convention), a revenue row of its own, not inside IMM-4 (counting rules): **−0.035 / −0.023 / 0.0**;
    - IMM-6 (memo 7): **+0.006 / +0.010 / +0.018**.
 
-   The note on each row: "Re-derived in dossiers/immigration/6-cost.md (DEC-2026-11-12-07); project arithmetic bounded by CBO's 2013 and 2021 scores; not a score." The rows sum to about +$0.17 trillion; IF1's tax offset (+$3.7 billion, item 3) is on its own line, so with it the set is the $168.5 billion of part 1. Care's base correction for people with no status (part 1) is the health booking's, not a row here. Year shapes go in `fiscal-years.csv` from `tools/immigration_path.py`. The profile in `fiscal-profiles.csv` (line 37, "Net saving grows as legalized workers enter the tax base") becomes "Cost rising through the decade as statuses and coverage phase in", with rows in `models/data/budget/provisions.csv`.
+   The note on each row: "Re-derived in dossiers/immigration/6-cost.md (DEC-2026-11-12-07); project arithmetic bounded by CBO's 2013 and 2021 scores; not a score." The rows sum to about +$0.18 trillion; IF1's tax offset (+$3.7 billion, item 3) is on its own line, so with it the set is the $175.1 billion of part 1. Care's base correction for people with no status (part 1) is the health booking's, not a row here. Year shapes go in `fiscal-years.csv` from `tools/immigration_path.py`. The profile in `fiscal-profiles.csv` (line 37, "Net saving grows as legalized workers enter the tax base") becomes "Cost rising through the decade as statuses and coverage phase in", with rows in `models/data/budget/provisions.csv`.
 2. **CAP-7S's USCIS share** ($40 billion, legacy `domain-capacity.md` line 127) to zero, and the batch 4 reserve's $6 billion USCIS proposal withdrawn (point 9). Check **CAP-7's** pro-rata USCIS share (about $34 billion if 7%, part 4) and set it to zero or state what it buys.
 3. **IF1** (`ledger-revenue.csv`, line 24): from the revenue menu into the base, retained by USCIS and the training fund, with its 25% income-tax offset on the general fund as its own line (part 1).
 4. **E-Verify's Social Security effect:** a line in the funds model's payroll revenue (about −$42 billion over FY2030-39, −$7.4 billion in FY2040), beside memo 1's gain once SSA's actuaries score it.
@@ -164,14 +165,14 @@ Tier 3, for the lead after the milestone review (`charter/STANDARDS.md`, "Milest
 | --- | --- | --- | --- | --- |
 | Memo 1's status cost | +$50.5 billion | −$50 to +$150 billion | ±$0.1 trillion | H.R. 6's pattern scaled 2-3 times and netted [EV-IMM-600]; the largest single uncertainty |
 | Judge teams (IMM-3.08) | +$13.2 billion | $2-18 billion | ±$0.01 trillion | Completions a judge (510; 450-750) [EV-IMM-641] and the team cost ($1.31-2.45 million) [EV-IMM-644] [EV-IMM-645]; a slower ramp lowers the decade's cost but clears the backlog later |
-| Memo 6's table, amended for health | +$105.5 billion | $47-138 billion | −$0.06 to +$0.03 trillion | Lawful residents above care's base (0.3-0.6 million added immigrants and the refugees) on care's path, half that cost as the low end; the five-year wait's programs at $2-4 billion a year |
+| Memo 6's table, amended for health | +$112.2 billion | $49-158 billion | −$0.06 to +$0.05 trillion | Lawful residents above care's base (0.3-0.6 million added immigrants, the refugees and 20,000-150,000 returnees under IMM-1.15) on care's path, half that cost as the low end; the five-year wait's programs at $2-4 billion a year |
 | Take-up of status | about 70% | 60-85% | Higher take-up raises memos 1 and 6 and shrinks E-Verify's pool | [EV-IMM-609] |
 | Memo 3's added workers | −$40 billion | −$60 to −$20 billion | ±$0.02 trillion | About $10,000 a year per added person [EV-IMM-220] on 0.3-0.6 million |
 | E-Verify's on-budget gain | −$23 billion | −$35 billion to zero | up to +$0.02 trillion | JCT's convention; the pool after memo 1 |
 | The E-Verify start date | about July 2031 (the first passing 90-day check) | from October 2030 to a year later | about ±$4 billion on the general fund (revenue) and ±$7 billion on Social Security | IMM-4.13 |
 | The restructure | +$3 billion | $1.5-5 billion | small | Judgment |
 | Case management (memo 5) | 150,000 at a time | 100,000-250,000 | −$5 to +$10 billion | Today's 183,181 [EV-IMM-171], less registrants, plus surge releases |
-| **The general fund, all** | **+$168.5 billion** | **about −$65 to +$410 billion** | | |
+| **The general fund, all** | **+$175.1 billion** | **about −$63 to +$430 billion** | | |
 
 ## 8. What each figure is
 

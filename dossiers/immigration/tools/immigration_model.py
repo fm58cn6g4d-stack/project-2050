@@ -96,6 +96,8 @@ INPUTS = {
     'without_status_m': (2.25, 1.5, 3.0, "assumption: memo 6, the part of care's 1% residual (models/tools/health-coverage/inputs.csv, sp_residual_unins, about 3.55 million) that is people without any status; the rest is people not enrolled for other reasons"),
     'added_lawful_m_2039': (0.45, 0.3, 0.6, "assumption: memo 3's added immigrants above the baseline population by FY2039 (0.3-0.6 million, 3-design.md), rising evenly from FY2031; not in care's population base"),
     'lawful_added_cost_factor': (1.0, 0.5, 1.0, "assumption: care's path prices an added person at its average newly covered person, about $13,500 in 2032 (EV-CAR-120 for the plan's base); 0.5 is a lower bound for a working-age group, with no register source yet"),
+    'returnees_m': (0.05, 0.02, 0.15, "assumption: people who return under IMM-1.15, from about 1.8 million removals in FY2025-28 (ICE: 442,640 in FY2025 and 483,200 in FY2026, EV-IMM-659, carried at that pace), of whom about 3% (1-8%) had three years here and a citizen, permanent-resident or newly legalized spouse, parent or child and come back; arriving over FY2031-33"),
+    'return_case_usd': (1500, 1000, 2500, 'assumption: a USCIS and consular case from abroad (IMM-1.15), between an adjustment fee (EV-IMM-627) and a consular visa case with an interview'),
     'five_year_wait_bn': (3.0, 2.0, 4.0, "assumption: memo 6, no five-year wait for memo 1's new permanent residents in SNAP, SSI, TANF and Medicaid, a year from FY2031 (2026 dollars)"),
     # ---- status's fiscal effect (memo 1) ----
     'hr6_deficit_bn': (35.33, 35.33, 35.33, 'EV-IMM-600: CBO, H.R. 6, $35,330 million over 2021-2031'),
@@ -292,15 +294,16 @@ def per_person_on_care_path():
 
 
 def lawful_added(case='central'):
-    """People with lawful status who are not in care's population base: memo 3's added immigrants and
-    the refugees above the baseline (IMM-3.04), million by FY. Everyone already resident, the newly
+    """People with lawful status who are not in care's population base: memo 3's added immigrants,
+    the refugees above the baseline (IMM-3.04) and returnees under IMM-1.15, million by FY. Everyone already resident, the newly
     legalized and registered included, is in care's base (6-cost.md, part 3)."""
     v = lambda n: val(n, case)
     out = {}
     for y in YEARS:
         memo3 = v('added_lawful_m_2039') * min(1.0, max(0.0, (y - 2030) / 9))
         refugees = v('refugees_added_k') / 1000 * max(0, y - 2029)
-        out[y] = memo3 + refugees
+        returnees = v('returnees_m') * min(1.0, max(0.0, (y - 2030) / 3))   # IMM-1.15, over FY2031-33
+        out[y] = memo3 + refugees + returnees
     return out
 
 
@@ -319,7 +322,9 @@ def table(case='central'):
     added = lawful_added(case)
     cover = {y: added[y] * pp[y] * v('lawful_added_cost_factor') for y in YEARS}
     wait = {y: (v('five_year_wait_bn') * (0.75 if y == 2031 else 1.0) * prices(y, case) if y >= 2031 else 0.0) for y in YEARS}
-    return {y: cover[y] + wait[y] for y in YEARS}
+    # IMM-1.15's cases from abroad: about 1.4 applications a returnee (some are refused or do not come), over FY2031-33.
+    returns = {y: (v('returnees_m') * 1.4 / 3 * 1e6 * v('return_case_usd') * prices(y, case) / 1e9 if 2031 <= y <= 2033 else 0.0) for y in YEARS}
+    return {y: cover[y] + wait[y] + returns[y] for y in YEARS}
 
 
 def care_base_correction(case='central'):
