@@ -76,8 +76,10 @@ Decided programs are cited by their `DEC-` entries. Programs in dossiers not yet
 
 ## Files and ID ranges
 
+- `legacy-research.md`: the legacy project's child-poverty model results, paid leave fund runs, Social Security scores and LAB-10 record, restated with every figure, its file and line, its basis and whether it is validated or needs re-running on the 2029 baseline.
+
 - `evidence.json`: evidence code **EV-SEC**. Blocks: 001-099 the January 2029 baseline and the size of the problem; 100-199 kept free; 200-299 the child benefit and work-linked credits; 300-399 paid leave; 400-499 Social Security; 500-599 income definitions and phase-outs; 600-699 kept for S3.
-- Sources: **SRC-3600 to SRC-3999 are reserved for the secure floor** (this README, November 12, 2026). Sub-blocks: 3600-3669 baseline; 3670-3739 child benefit; 3740-3809 paid leave; 3810-3879 Social Security; 3880-3949 phase-outs; 3950-3999 kept for S3. IDs are assigned by hand, because `library/build_catalog.py` assigns the next free number even inside a reserved block (`charter/PROGRESS.md`, "Known gaps").
+- Sources: **Source IDs numbered 3600 to 3999 are reserved for the secure floor** (this README, November 12, 2026). Sub-blocks: 3600-3669 baseline; 3670-3739 child benefit; 3740-3809 paid leave; 3810-3879 Social Security; 3880-3949 phase-outs; 3950-3999 kept for S3. IDs are assigned by hand, because `library/build_catalog.py` assigns the next free number even inside a reserved block (`charter/PROGRESS.md`, "Known gaps").
 - The register also cites other dossiers' entries where they already cover a fact (for example EV-HOU-401, CBO's average effective marginal tax rate; EV-HOU-416 to 418, the earned income credit's and SNAP's rates; EV-CAR-001 to 050, the 2025 law's Medicaid changes; EV-CAR-501, 502 and 584, the dependent care credit).
 
 ## Shared rules the secure floor owns or touches
