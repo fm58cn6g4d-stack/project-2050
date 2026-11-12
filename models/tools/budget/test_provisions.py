@@ -246,14 +246,16 @@ class BudgetConcepts(unittest.TestCase):
             self.assertAlmostEqual(back[2040], 10.0 * sum(P._spendout(g)), places=12)
 
     def test_spendout_shares_are_b2s_as_stored(self):
-        """No rescaling: the shares are spendout-discretionary-cbo.csv's, whose sums are within 2%
-        of one once ground transportation is out of nondefense."""
+        """No rescaling: the shares are spendout-discretionary-cbo.csv's, whose sums are within 3%
+        of one: nondefense once ground transportation is out, defense short of one by the part of
+        an act CBO spends after its fifth year (about 3%), which CBO's five-year tables leave out."""
         for g in ("defense", "nondefense"):
             rows = sorted((r for r in D.table("spendout-discretionary-cbo") if r["group"] == g),
                           key=lambda r: int(r["year_of_spending"]))
             self.assertEqual(P._spendout(g), [float(r["share"]) for r in rows])
-            self.assertAlmostEqual(sum(P._spendout(g)), 1.0, delta=0.02)
+            self.assertAlmostEqual(sum(P._spendout(g)), 1.0, delta=0.03)
             self.assertAlmostEqual(float(rows[0]["scale"]), 1.0, delta=0.01)
+            self.assertTrue(all(v > 0 for v in P._spendout(g)), g)
 
     def test_rebuilds_cbo_discretionary_outlays(self):
         """CBO's projected discretionary budget authority, spent out at the library's shares, plus

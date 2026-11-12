@@ -351,7 +351,7 @@ w(f"**With the program.** HI's sources in the program are REV-H1a (${REV['H1a'][
 w("## Paid leave (FAM-3)\n")
 lm = leave["mid"]
 w(f"The contribution starts at {P['leave_rate']:.2f}% of covered payroll in 2030 (Trustees' taxable payroll used as the base, estimate) and benefits start in 2031, ramping over {len(P['leave_ramp'].split('/'))} years. Benefit cost is set so 2030-39 benefits match the ledger's FAM-3 range (${BILL['FAM-3']['cost_lo']:.1f}T / ${BILL['FAM-3']['cost_mid']:.1f}T / ${BILL['FAM-3']['cost_hi']:.1f}T). The rule: when the reserve is below {P['leave_low_years']:.0f} year of next year's benefits the rate steps up {P['leave_step']:.2f} points the next January, to {P['leave_cap']:.2f}%; above {P['leave_high_years']:.1f} years it steps back down; a shortfall at the cap is a Treasury loan repaid with interest.\n")
-w(f"**Check:** at {P['leave_rate']:.2f}% the contribution raises ${lm['at_start_w']:.2f}T in 2030-39 (ledger P1: ${REV['P1']['mid']:.2f}T) and ${lm['at_cap_w']:.2f}T at the cap (ledger: ${REV['P1']['hi']:.2f}T).\n")
+w(f"**Check:** at {P['leave_rate']:.2f}% the contribution raises ${lm['at_start_w']:.2f}T in 2030-39 (ledger P1: ${REV['P1']['mid']:.2f}T) and ${lm['at_cap_w']:.2f}T at the {P['leave_cap']:.2f}% cap (the ledger's high end, ${REV['P1']['hi']:.2f}T, was set at the old 0.85% cap).\n")
 w("| Take-up case | Mature cost (% of payroll) | First step-up | Rate 2035 / 2039 / 2050 | Receipts 2030-39 | Benefits 2030-39 | Treasury loan owed 2039 / 2050 ($B) |")
 w("| --- | --- | --- | --- | --- | --- | --- |")
 for c, v in leave.items():
