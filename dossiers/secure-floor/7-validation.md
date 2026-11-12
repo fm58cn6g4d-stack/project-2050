@@ -33,7 +33,7 @@ Role: section 7 of the secure floor dossier: how the costs and results in sectio
 - **Immigration.** Rule 3 is immigration's (`DEC-2026-11-12-07`): the child's own ID, SNAP's pre-2025 rules, one data firewall that FAM-1.08 honors.
 - **Clean power.** The Climate Dividend can join the child benefit's rail (FAM-1.09, proposed).
 - **Housing, transportation, clean power.** Apprentice hours on plan-funded construction (LAB-10.05, proposed) give LAB-10's trainees jobs at the end.
-- **Financing.** About $0.47 trillion over FY2030-39 and $56 billion in FY2040 more than booked, about 1.3% of the plan-wide FY2040 gap (`6-cost.md`, part 5).
+- **Financing.** About $0.49 trillion over FY2030-39 and $58 billion in FY2040 more than booked, about 1.4% of the plan-wide FY2040 gap (`6-cost.md`, part 5).
 - **Fairness test (D3).** The child benefit's distribution changes: the incidence key (`ctc`) still gives the top quintile 4%, but the decided design pays about 5.4 million families above about $210,000 less than the 2029 law. A booking should update F1's key (`6-cost.md`, part 6).
 
 ## 4. Reach: for whom

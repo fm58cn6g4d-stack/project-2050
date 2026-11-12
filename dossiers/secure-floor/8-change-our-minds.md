@@ -13,6 +13,7 @@ Role: section 8 of the secure floor dossier. For each decided choice, the findin
 | Paid to the parent the child lives with | Point 3 | Disputes far above what a short review can handle in the first year | A default to the filer of record with a change-of-payee statement, keeping the residence test |
 | Enrollment from records | Memo 2 B | A privacy ruling or law barring the matches | Memo 2 A, returns and a portal, with stronger outreach at the front doors |
 | The childless earned income credit | Memo 3 part 1 B | The household model showing a worker credit separate from the child credit can be done without losers | Memo 3 D |
+| SSI in the territories | INC-3.03 (Espen, November 12, lead session) | SSA unable to open claims in the territories by 2031 | A later start, not a smaller program |
 | SNAP and SSI | Memo 3 part 2 B | A settlement with room | Part 2 C, SSI at the poverty line (about $0.7-0.8 trillion more) |
 | The on-ramps | Memo 4 B | Demand far above the envelope in the first two years | A larger envelope, reported to the settlement; or a training right in the work flagship |
 | Paid leave | Memo 5 B | SSA unable to staff it by 2031 | A later start, not a smaller program |
@@ -40,8 +41,7 @@ Role: section 8 of the secure floor dossier. For each decided choice, the findin
 - **The investment board's share** of reserves (up to 20%, working choice) and **how the budget model records it** (`6-cost.md`, part 4).
 - **SS-7.01's trigger level** (−0.25% of payroll in two reports, working choice).
 - **The stipend's level** (up to $9,000 a year, working choice).
-- **SSI in the territories** (a fork for Espen). SSI does not reach Puerto Rico, Guam, the Virgin Islands or American Samoa [EV-SEC-703]. *Alternatives:* leave it as today; extend SSI to all four, about $2.5-3 billion a year in the 2030s, almost all Puerto Rico, on SSA's actuaries' estimate [EV-SEC-705] grown to the decade (`6-cost.md`, part 2); or raise the territories' AABD grants. *What would make it matter:* Espen's answer; it reaches the poorest aged and disabled residents of the territories at modest cost.
-- **SS-8's share** against **SS-7.01's start** (working choices): at a 20% share the investment closes little and the fallback carries most of the remaining gap (`6-cost.md`, part 4). A larger share, or the fallback starting before 2035, would change that.
+- **SS-8's share** against **SS-7.01's start** (working choices): at a 20% share the investment closes little and the fallback carries most of the remaining gap (`6-cost.md`, part 4). Espen kept memo 6 C with that stated (Espen, November 12, lead session); a larger share, or the fallback starting before 2035, would change it.
 
 ## Hard stops
 

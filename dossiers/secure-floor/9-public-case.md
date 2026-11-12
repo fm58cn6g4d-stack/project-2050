@@ -10,13 +10,13 @@ Project 2050's secure floor does four things, starting in 2030.
 
 **A monthly child benefit for working and middle-class families,** from 2030. $300 a month for each child from 6 to 17 and $360 for each child under 6, in 2025 dollars and rising with prices, plus $2,400 in a baby's first month: the American Family Act, introduced in Congress in 2025 [EV-SEC-262]. Every family below about $150,000 for couples ($112,500 for single parents), adjusted for inflation, gets the full amount, however little the parents earn; it falls gradually above that [EV-SEC-263]. It is paid to the parent the child lives with, starting from the records the government already holds, so families do not have to apply.
 
-**Help that holds when work is short or paid little,** from 2030. Workers without children get a real earned income credit, up to about $1,500 in 2021 dollars from age 19, as they did in 2021, paid with the tax refunds from 2031 [EV-SEC-256]. Food help cut by the 2025 law is restored. People on SSI can save up to $10,000 without losing it, where today the limit is $2,000, unchanged since 1989 (Social Security Administration) [EV-SEC-042]. Paid training into the jobs the plan creates, in care, construction, rail, housing and clean power, comes with a stipend and help with child care and transport, and it is always an offer, never a condition.
+**Help that holds when work is short or paid little,** from 2030. Workers without children get a real earned income credit, up to about $1,500 in 2021 dollars from age 19, as they did in 2021, paid with the tax refunds from 2031 [EV-SEC-256]. Food help cut by the 2025 law is restored. People on SSI can save up to $10,000 without losing it, and from 2031 SSI reaches older and disabled people in Puerto Rico, Guam, the Virgin Islands and American Samoa for the first time, where today the limit is $2,000, unchanged since 1989 (Social Security Administration) [EV-SEC-042]. Paid training into the jobs the plan creates, in care, construction, rail, housing and clean power, comes with a stipend and help with child care and transport, and it is always an offer, never a condition.
 
 **Paid leave,** from 2031. Twelve weeks for a new child, a family member's serious illness or your own, paying 85% of the first part of your wages, run by Social Security, with your job back. A worker earning $60,000 pays $180 a year to start (project estimate) [EV-SEC-676].
 
 **Social Security kept whole.** The retirement fund can pay full benefits only until late 2032 on current law, then 78% (Social Security Trustees, 2026) [EV-SEC-400]. The plan closes most of the gap by asking earnings above $250,000 and large investment incomes to pay in, and on our estimates a contribution increase of up to one point, split between workers and employers, is expected from the late 2030s to close the rest. It adds a stronger minimum benefit and credit for caregiving years, and, from the 2030 Social Security act, promises full benefits on time whatever happens.
 
-**What it achieves, on our estimates.** Child poverty falls to about 9% (somewhere between 8% and 12%), about 3 million fewer poor children (section 6). The child benefit costs about $1.85 trillion over 2030-39; the whole floor on the general budget about $2.47 trillion over the decade and about $284 billion a year from 2040, before the plan's financing (section 6).
+**What it achieves, on our estimates.** Child poverty falls to about 9% (somewhere between 8% and 12%), about 3 million fewer poor children (section 6). The child benefit costs about $1.85 trillion over 2030-39; the whole floor on the general budget about $2.49 trillion over the decade and about $287 billion a year from 2040, before the plan's financing (section 6).
 
 ## The case in one paragraph
 
@@ -72,7 +72,7 @@ Families with children are working harder for less security. The secure floor pa
 | Late 2032, 78% | Section 1, part F; section 4, SS-11.01 | EV-SEC-400 |
 | Up to one point from the late 2030s | Section 6, part 4; section 4, SS-7.01 | EV-SEC-697 and project arithmetic |
 | About 9% (8-12%); about 3 million fewer poor children | Section 6, part 3 | EV-SEC-692 and working assumptions |
-| $1.85 trillion; $2.47 trillion; $284 billion; about $0.5 trillion | Section 6, parts 1 and 5 | Project arithmetic |
+| $1.85 trillion; $2.49 trillion; $287 billion; about $0.5 trillion | Section 6, parts 1 and 5 | Project arithmetic |
 | $600 against about $367 a month | Section 7, part 4 | EV-SEC-262; 2029 law $2,200 a child |
 | 17-19 million children | Section 1 | EV-SEC-011, EV-SEC-601 |
 | About a quarter less food insufficiency | Section 2 | EV-SEC-209 |

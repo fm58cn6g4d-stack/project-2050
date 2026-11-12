@@ -467,6 +467,31 @@
   "spec": "dossiers/secure-floor/4-specification.md"
  },
  {
+  "id": "INC-3.03",
+  "title": "SSI extended to Puerto Rico, Guam, the U.S. Virgin Islands and American Samoa",
+  "agenda": "INC-3",
+  "status": "decided: Espen, November 12, lead session (DEC entry to come with the booking PR)",
+  "decisions": [],
+  "parameters": "From January 2031 (working choice: a year for SSA to open claims there), SSI's federal benefit and rules, with INC-3.01's and 3.02's limits, apply to bona fide residents of the four territories as in the states; the Northern Mariana Islands already have SSI [EV-SEC-703]. It replaces the Aid to the Aged, Blind, or Disabled program in Puerto Rico, Guam and the Virgin Islands: AABD recipients move to SSI from the territories' records without a new application, new claims are decided under SSI's rules, the AABD part of each territory's grant under section 1108 of the Social Security Act ends at conversion, and a territory may supplement SSI as a state may. Children with disabilities, whom AABD leaves out, are covered. Medicaid follows health's territorial rule (HLT-7.28). Congress may extend SSI this way: *United States v. Vaello Madero* (2022) held that the Constitution does not require it, not that Congress may not. About $20 billion over FY2030-39 and $2.5 billion in FY2040 (range $15-30 billion), on SSA's actuaries' estimate for Puerto Rico [EV-SEC-705] (`6-cost.md`, part 1)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "SSA; the territories",
+  "current_law": "SSI covers the 50 States, the District of Columbia and the Northern Mariana Islands only [EV-SEC-703]; Puerto Rico, Guam and the Virgin Islands have AABD under section 1108, American Samoa nothing",
+  "evidence": [
+   "EV-SEC-703",
+   "EV-SEC-705"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
   "id": "INC-4.01",
   "title": "The child and dependent care credit refundable, for what families pay",
   "agenda": "INC-4",
