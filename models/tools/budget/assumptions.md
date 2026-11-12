@@ -6,7 +6,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 
 **A row records current practice; it does not adopt it.** "Decided by" names a recorded decision only where one exists. "Unrecorded" means the value is set in code or an input table and no decision names it, even when its author is known. "Proposed" marks a working default (for example, how real dollars are shown), not an adopted policy or model input. Fitted values, such as spend-out shares, are approximations of history, not legal rules.
 
-**82 assumptions:** 26 matter a lot, 33 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**83 assumptions:** 26 matter a lot, 34 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -29,7 +29,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Economic paths (3)
 - Interest (7)
 - Dynamic effects (3)
-- Program measurement (11)
+- Program measurement (12)
 - Profiles (11)
 - Defense (1)
 - Expiring provisions (3)
@@ -346,8 +346,19 @@ Each row's FY2030-39 path sums exactly to its ledger midpoint; the low and high 
 - **How much it matters:** high: the tests are judged on midpoints, not on a cautious estimate
 - **Where:** models/tools/fiscal-model.py:71-108 (scale at 95); models/tools/fiscal-profiles.py:4-6
 - **Source:** Project method
-- **Decided by:** Espen, Nov 8, 2026: midpoints decide, with a cautious reading reported (choice 2, C; memo-budget-choices.md, PR #110; no DEC- entry yet)
-- **Notes:** The ledger carries low and high ends for every bill (ledger-bills.csv cost_lo, cost_hi).
+- **Decided by:** Espen, Nov 8, 2026: midpoints decide, with a cautious reading reported (choice 2, C; DEC-2026-11-08-04)
+- **Notes:** The ledger carries low and high ends for every bill (ledger-bills.csv cost_lo, cost_hi). The cautious end is reported beside the tests as scenario DEC-CAUT (ASM-CALIB-CAUTIOUS).
+
+### ASM-CALIB-CAUTIOUS
+
+The cautious-end reading (scenario DEC-CAUT): every bill at its ledger high general-fund cost and every general-fund base revenue row at its low yield, each on its own profile scaled from its midpoint; options, climate rows and the dynamic table, which have no ledger range, stay central; SS-1's unified side stays at its midpoint.
+
+- **Value:** ledger gf_hi and revenue lo; +$12.24T over FY2030-39 against DEC (method)
+- **How much it matters:** medium: disclosure only; no test is judged on it
+- **Where:** models/tools/fiscal-model.py (SCENARIOS, cautious_ratio, build); models/tools/fiscal-make-md.py (D4 table, disclosure columns)
+- **Source:** Project method on the ledger's own ranges (models/data/inputs/ledger-bills.csv, revenue rows)
+- **Decided by:** Espen, Nov 8, 2026: a cautious-end reading reported beside each test (DEC-2026-11-08-04); method by B6 (session_01UQzgBwob1SeDw4Qbrcr5AW), unrecorded
+- **Notes:** The high ends are not correlated by design: taking every bill at its high end at once is a bound, not a probable outcome. Eight bills with a $0 midpoint and a cost at the high end (CLI-6, LAB-1, COM-1, DEM-6, NSC-1, RTS-1, RTS-3, SAF-1) take that end on their own profile.
 
 ### ASM-SIGN
 

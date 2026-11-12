@@ -35,6 +35,10 @@ PBS = SF.package("PB+S", _SD)
 DEC = SF.package("DEC", _SD)       # decided in Decision Brief 2 (Oct 20): TS12, HP1, HP3; no trims; REV-SC1 (C43) adopted Oct 21
 TRIMS = SF.package("TRIMS", _SD)   # declined in Decision Brief 2; kept for reference
 SCENARIOS = SF.fiscal(_SD)         # id, label, cut options included, extra settings
+# DEC-CAUT (scenarios.json) is the cautious-end reading of budget choice 2 (DEC-2026-11-08-04,
+# ASM-CALIB-CAUTIOUS): the midpoints decide the tests; this reading is reported beside them. Each row
+# keeps its own profile, scaled from its midpoint to its ledger end (cautious_ratio). Options, climate
+# rows and the dynamic table stay at their central values: the ledger gives them no range.
 
 
 def read_baseline(path):
@@ -129,6 +133,11 @@ def debt_roll(B, primary, shift=0.0, start_balance=0.0, start_year=Y0):
     return I, D
 
 
+def cautious_ratio(mid, end):
+    """The factor that takes a row's midpoint path to its cautious end, on the same profile."""
+    return end / mid if mid else 1.0
+
+
 def build(ledger_path, baseline_path):
     L = json.load(open(ledger_path))
     B = read_baseline(baseline_path)
@@ -146,8 +155,17 @@ def build(ledger_path, baseline_path):
             prof = dict(cat="out_other_mandatory", ramp=1, grow="gdp")
         gf = b["gf_mid"]
         uni = b["net_mid"] if bid == "SS-1" else (0.0 if prof.get("unified_zero") else gf)
-        rows.append(dict(id=bid, label=b["bill"], group="spending", cat=prof["cat"],
-                         gf=row_path(B, gf, prof, bid), uni=row_path(B, uni, prof, bid), basis=prof.get("basis", "")))
+        gp, up = row_path(B, gf, prof, bid), row_path(B, uni, prof, bid)
+        if gf:
+            k = cautious_ratio(gf, b["gf_hi"])
+            gc = {y: v * k for y, v in gp.items()}
+            uc = {y: v * k for y, v in up.items()}
+        else:   # a $0 midpoint with a cost at the high end: spread that end on the row's own profile
+            gc = row_path(B, b["gf_hi"], prof, bid)
+            uc = {y: 0.0 for y in gc} if prof.get("unified_zero") else gc
+        # SS-1 is booked net in the unified budget: its trust-fund side has no ledger range
+        rows.append(dict(id=bid, label=b["bill"], group="spending", cat=prof["cat"], gf=gp, uni=up,
+                         gf_c=gc, uni_c=up if bid == "SS-1" else uc, basis=prof.get("basis", "")))
     for rid, r in rev.items():
         if r["in_base"] != "Yes" or r["channel"] != "General fund":
             continue
@@ -155,7 +173,8 @@ def build(ledger_path, baseline_path):
         if prof is None:
             checks.append(f"MISSING PROFILE for base revenue {rid}"); prof = dict(cat="rev_individual", ramp=1, grow="rev_individual")
         p = row_path(B, -r["mid"], prof, rid)
-        rows.append(dict(id=rid, label=r["option"], group="base revenue", cat=prof["cat"], gf=p, uni=p, basis=prof.get("basis", "")))
+        pc = {y: v * cautious_ratio(r["mid"], r["lo"]) for y, v in p.items()}
+        rows.append(dict(id=rid, label=r["option"], group="base revenue", cat=prof["cat"], gf=p, uni=p, gf_c=pc, uni_c=pc, basis=prof.get("basis", "")))
     CL.apply(rows, B, row_path, PR.BILLS)
     opt_rows = {}
     for cid, c in cuts.items():
@@ -214,8 +233,9 @@ def build(ledger_path, baseline_path):
             prog_uni = {y: 0.0 for y in range(Y0, Y1 + 1)}; prog_gf = dict(prog_uni)
         else:
             use = rows + [opt_rows[o] for o in opts if o in opt_rows]
-            prog_uni = {y: sum(r["uni"][y] for r in use) for y in range(Y0, Y1 + 1)}
-            prog_gf = {y: sum(r["gf"][y] for r in use) for y in range(Y0, Y1 + 1)}
+            ku, kg = ("uni_c", "gf_c") if cfg.get("cautious") else ("uni", "gf")
+            prog_uni = {y: sum(r.get(ku, r["uni"])[y] for r in use) for y in range(Y0, Y1 + 1)}
+            prog_gf = {y: sum(r.get(kg, r["gf"])[y] for r in use) for y in range(Y0, Y1 + 1)}
             if cfg.get("dynamic"):
                 for y in prog_uni: prog_uni[y] += dyn[y]; prog_gf[y] += dyn[y]
             if cfg.get("envelope"):
@@ -418,6 +438,7 @@ def main():
     out = {k: v for k, v in M.items() if k not in ("B",)}
     for r in out["rows"] + list(out["opt_rows"].values()):
         r["gf"] = {y: round(v, 3) for y, v in r["gf"].items()}; r["uni"] = {y: round(v, 3) for y, v in r["uni"].items()}
+        r.pop("gf_c", None); r.pop("uni_c", None)   # cautious-end paths: their totals are in scenario DEC-CAUT
     json.dump(out, open(os.path.join(HERE, "fiscal-model.json"), "w"), indent=1, default=float)
     with open(os.path.join(HERE, "fiscal-paths.csv"), "w", newline="") as f:
         w = csv.writer(f, lineterminator="\n")

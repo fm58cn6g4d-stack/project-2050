@@ -136,7 +136,7 @@ What the benchmarks do support now: the baseline (BL-1), the accounting identiti
 
 **What the model doesn't count yet.**
 - **FY2029 is unpriced.** Every total runs FY2030-39, but the plan starts in January 2029. Anything spent or raised in FY2029 (CAP-7S's FY2029 cash is the known case) is outside the totals, the tests and the debt path. It is "unpriced, not zero" (`ASM-WINDOW`; `CONVENTIONS.md`, choice 3).
-- **The cautious readings are not computed.** The tests use each row's midpoint. The ledger's high-cost and low-revenue ends never reach the model, so nobody yet knows whether the plan passes at the cautious end (`ASM-CALIB-MID`; choice 2).
+- **The cautious reading is disclosed, not tested.** The tests use each row's midpoint (`ASM-CALIB-MID`). Since B6 the ledger's high-cost and low-revenue ends reach the model as scenario DEC-CAUT, reported beside the D4 tests with the one-point stress case (DEC-R1), neither with a pass-or-fail condition (choices 2 and 4; `ASM-CALIB-CAUTIOUS`). Taking every high end at once is a bound, not a likely outcome: it adds $12.24 trillion to the FY2030-39 general-fund deficit.
 - **Interest rates don't respond to the plan's borrowing** (`ASM-RATE-NOFEEDBACK`).
 - **Rows CBO's baseline already contains read $0.** Defense is the visible case: NSC-1A reads $0 against CBO's baseline (`CONVENTIONS.md`, section 1; the defense memo).
 

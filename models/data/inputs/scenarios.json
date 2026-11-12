@@ -122,6 +122,16 @@
     "TRIMS"
    ],
    "settings": {}
+  },
+  {
+   "id": "DEC-CAUT",
+   "label": "Decided, at the cautious end: every bill at its ledger high cost and every base revenue row at its low yield (disclosure, not a test)",
+   "options": [
+    "DEC"
+   ],
+   "settings": {
+    "cautious": true
+   }
   }
  ],
  "incidence": [

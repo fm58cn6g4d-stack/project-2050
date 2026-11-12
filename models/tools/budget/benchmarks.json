@@ -36,7 +36,7 @@
    "unit": "$B, largest gap",
    "miss": null,
    "source": "Accounting definition (CBO's deficit is total outlays less total revenues)",
-   "why": "The fiscal model builds the deficit from its parts in two places; they must agree to rounding error. Checked for all 10 scenarios, FY2026-2056.",
+   "why": "The fiscal model builds the deficit from its parts in two places; they must agree to rounding error. Checked for all 11 scenarios, FY2026-2056.",
    "detail": [],
    "bound": null
   },
