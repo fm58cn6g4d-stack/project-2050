@@ -19,6 +19,9 @@ def module(name,path):
     return m
 
 def phase(y,start,n): return min(1,max(0,(y-start+1)/n))
+def ss_fallback(y):
+    """SS-7.01's fallback on its expected path (memo 6 C, DEC-2026-11-12-13): combined payroll points in year y."""
+    ss=A['social_security']; return ss['fallback_rate_points']*phase(y,ss['fallback_start'],ss['fallback_phase_years'])
 def extra_profile(spending,key):
     """Year profile for an added allocation: a four-year GDP-grown ramp from 2030 unless the
     spending block gives '<key>_profile' (any of start, ramp, grow, perm, end, fade)."""
@@ -122,7 +125,8 @@ def leave_fund(u,cap=1.1,take_up='high',admin_fraction=None):
         repaid=min(loan,reserve); loan-=repaid; reserve-=repaid
         rows.append(dict(year=y,rate=rt,receipts=pay,benefits=benefit,administration=administration,reserve=reserve,loan=loan))
     return dict(rows=rows,mature_cost_points=100*mature,terminal_loan=loan,
-                repayment_year=next((r['year'] for r in rows if r['year']>2040 and r['loan']<1e-8),None))
+                peak_loan=max(r['loan'] for r in rows),
+                repayment_year=next((r['year'] for r in rows if r['year']>2040 and r['loan']<1e-8),None) if any(r['loan']>1e-8 for r in rows) else None)
 
 def credit(y):
     c=A['recovery_credit']
@@ -161,7 +165,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
     er={r['year']:r for r in edu['rows']}
     ss_paths=[u.SSF[k] for k in ('SS-1','SS-2','SS-3','SS-4','SS-5')]
     ss_paths += [lambda y:(-ss['joint_interaction_payroll_points'] if y>=2031 else 0,0),
-                 lambda y:(ss['broad_rate_points']*phase(y,ss['start'],ss['phase_years']),0)]
+                 lambda y:(ss_fallback(y),0)]
     accounts=lambda y:capacity_accounts(y,b,u,medicare_hi_fraction)
     def fund_dollars(y,key):
         factor=b[y]['gdp']/u.gdp(y) if translate and y in b else b[2056]['gdp']/u.gdp(2056) if translate else 1
@@ -246,9 +250,9 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         so=sum(p(y)[1] for p in ss_paths)/100*u.payroll(y)*factor
         # Deductibility/wage feedback allowance applies to new covered earnings/payroll only;
         # SSA NII/pass-through bases already contain responses; no second blanket haircut.
-        wage_ss=max(0,u.SSF['SS-1'](y)[0]+ss['broad_rate_points']*phase(y,ss['start'],ss['phase_years']))/100*u.payroll(y)*factor
+        wage_ss=max(0,u.SSF['SS-1'](y)[0]+ss_fallback(y))/100*u.payroll(y)*factor
         ss_offset=wage_ss*ss['income_tax_offset_fraction']
-        entry('SS actual 2031 start, high-base package and later rate',revenue=si-ss_offset,outlay=so)
+        entry('SS actual 2031 start, high-base package and SS-7.01 fallback',revenue=si-ss_offset,outlay=so)
         hi_tax=u.HIS_H1A(y)/100*u.hi_payroll(y)*factor
         hi_saving=u.HIS_HLT6(y)/100*u.hi_payroll(y)*factor*(st['hi_health_savings_fraction'] if stress else 1)
         hi_grant=grant_rate(y)/100*u.hi_payroll(y)*factor
@@ -269,7 +273,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         # Advance part of the remaining surge, conserving lifetime cash.
         early=s['early_admin_bn'] if y==2029 else -s['early_admin_bn'] if y==2030 else 0
         entry('2029 delivery advance from 2030 surge',outlay=early)
-        for k,p in extras.items(): entry(k,outlay=p[y])
+        for k,p in extras.items(): entry({'participation':'participation (LAB-10, paid on-ramps)'}.get(k,k),outlay=p[y])
         high=0 if alternative else A['tax']['high_rate_points'] if high_rate is None else high_rate
         taxes=tax_yield(b,y,high,broad,st['new_tax_yield_haircut'] if stress else A['tax']['additional_yield_haircut'])
         entry('New indexed income contributions',revenue=taxes)
@@ -306,7 +310,7 @@ def build_case(name,f,b,m,u,alternative=False,stress=False,rate_shift=0,broad_ra
         ss_sustainable=sr['sustainable'],ss_depletion=sr['depletion'],ss_actuarial_balance=sr['balance'],
         hi_depletion=hr['depletion'],hi_terminal_rising=hr['terminal_rising'],hi_terminal_ratio=hr['terminal_ratio'],
         education_depletion=edu['depletion'],education_terminal_rising=edu['terminal_rising'],education_terminal_ratio=edu['terminal_ratio'],
-        leave_terminal_loan_bn=lr['terminal_loan'],leave_repayment_year=lr['repayment_year'])
+        leave_terminal_loan_bn=lr['terminal_loan'],leave_peak_loan_bn=lr['peak_loan'],leave_repayment_year=lr['repayment_year'])
     summary.update(f.CL.disclosure())
     return dict(summary=summary,rows=rows,audit=audit,education=edu,ss=sr,hi=hr,leave=lr)
 
@@ -345,7 +349,7 @@ def household_diagnostic(d,f,b,m,u):
             for k,key in [('SS-1','above250k_wages'),('SS-2','inv400k'),('SS-5','surtax')]:
                 add(y,-u.SSF[k](y)[0]/100*u.payroll(y)*scale,key)
             add(y,A['social_security']['joint_interaction_payroll_points']/100*u.payroll(y)*scale if y>=2031 else 0,'inv400k')
-            add(y,-A['social_security']['broad_rate_points']*phase(y,2035,10)/100*u.payroll(y)*scale,'wages_cap')
+            add(y,-ss_fallback(y)/100*u.payroll(y)*scale,'wages_cap')
             benefits=sum(u.SSF[k](y)[1] for k in ('SS-1','SS-2','SS-3','SS-4','SS-5'))/100*u.payroll(y)*scale
             add(y,benefits,'ss_benefit'); add(y,lv[y]['benefits']*scale,'leave_benefit'); add(y,-lv[y]['receipts']*scale,'wages_cap')
             high=tax_yield(b,y,c['summary']['high_income_rate_points'],0,A['tax']['additional_yield_haircut'])
@@ -430,7 +434,7 @@ def markdown(d):
     out += [f"| Education | Depletion: {s['education_depletion']}; terminal reserve/outlays {s['education_terminal_ratio']:.2f}; rising: {s['education_terminal_rising']} |",
             f"| Combined OASDI | Depletion: {s['ss_depletion']}; conservative model solvency: {s['ss_sustainable']}; actuarial balance {s['ss_actuarial_balance']:+.2f}% payroll |",
             f"| HI | Depletion: {s['hi_depletion']}; terminal reserve/cost {s['hi_terminal_ratio']:.2f}; rising: {s['hi_terminal_rising']} |",
-            f"| Leave, high take-up | Loan repaid {s['leave_repayment_year']}; terminal loan ${s['leave_terminal_loan_bn']:.1f}B |",'',
+            (f"| Leave, high take-up | Loan repaid {s['leave_repayment_year']}; peak loan ${s['leave_peak_loan_bn']:.1f}B; terminal loan ${s['leave_terminal_loan_bn']:.1f}B |" if s['leave_repayment_year'] else f"| Leave, high take-up | No Treasury loan (peak ${s['leave_peak_loan_bn']:.1f}B); terminal loan ${s['leave_terminal_loan_bn']:.1f}B |"),'',
             f"Combined OASDI has {'no modeled depletion through 2100' if s['ss_depletion'] is None else 'modeled depletion in '+str(s['ss_depletion'])}; its reserve/cost ratio moves from {ssrows[-6]['tfr']:.1f}% in {ssrows[-6]['year']} to {ssrows[-1]['tfr']:.1f}% in {ssrows[-1]['year']}. The final-period decline is {ssrows[-6]['tfr']-ssrows[-1]['tfr']:.2f} percentage points: the unchanged maximum-decline test of 0.5 points {'passes' if ssrows[-1]['tfr'] >= ssrows[-6]['tfr']-.5 else 'fails'}. Sustainability also requires no depletion and a terminal ratio of at least 100%. Actuarial balance: {s['ss_actuarial_balance']:+.3f}% of payroll. SSA administration is charged to OASDI in this case.",'',
             'OASI/DI legal separation, the HI annual-data calibration, HTF beyond 2046, and long-run category/cash mappings remain unresolved. A positive balance in one fund cannot fund a second account without legislation.','']
     return '\n'.join(out)

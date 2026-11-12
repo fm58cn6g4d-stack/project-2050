@@ -61,21 +61,21 @@ Delaying C19b/C20 to a three-year 2033–35 phase-in forgoes $0.360T; these rece
 
 | Case | GF primary 2030–39 ($T) | Extra net receipts needed at maturity (% GDP) | FY2040 GF gap ($B) | Total debt/GDP 2056 | FY2056 extra primary adjustment for flat debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Education reference | 22.851 | 9.293% | 4270.1 | 363.8% | 13.10% GDP |
-| Recovery: delay C19b/C20 | 23.210 | 9.293% | 4270.1 | 364.8% | 13.11% GDP |
-| Recovery downside | 24.450 | 9.602% | 4425.4 | 373.4% | 13.48% GDP |
-| Recovery plus housing/service space | 23.712 | 9.474% | 4372.5 | 369.4% | 13.32% GDP |
-| Recovery plus housing/service space downside | 24.952 | 9.783% | 4527.9 | 377.9% | 13.69% GDP |
-| Replace C19b/C20 plus housing/service space downside | 25.425 | 9.951% | 4611.9 | 382.0% | 13.88% GDP |
+| Education reference | 23.381 | 9.388% | 4333.5 | 367.0% | 13.22% GDP |
+| Recovery: delay C19b/C20 | 23.740 | 9.388% | 4333.5 | 368.1% | 13.23% GDP |
+| Recovery downside | 24.980 | 9.697% | 4488.8 | 376.6% | 13.59% GDP |
+| Recovery plus housing/service space | 24.242 | 9.569% | 4436.0 | 372.6% | 13.44% GDP |
+| Recovery plus housing/service space downside | 25.482 | 9.878% | 4591.3 | 381.2% | 13.81% GDP |
+| Replace C19b/C20 plus housing/service space downside | 25.955 | 10.046% | 4675.3 | 385.3% | 14.00% GDP |
 
 | Case | Additional net resources phased 2035–44 (% GDP at maturity) | Debt/GDP 2056 after illustrative adjustment |
 | --- | ---: | ---: |
-| Education reference | 11.57% | 147.0% |
-| Recovery: delay C19b/C20 | 11.58% | 147.9% |
-| Recovery downside | 11.90% | 150.4% |
-| Recovery plus housing/service space | 11.77% | 149.0% |
-| Recovery plus housing/service space downside | 12.09% | 151.5% |
-| Replace C19b/C20 plus housing/service space downside | 12.26% | 152.3% |
+| Education reference | 11.68% | 148.3% |
+| Recovery: delay C19b/C20 | 11.68% | 149.2% |
+| Recovery downside | 12.01% | 151.8% |
+| Recovery plus housing/service space | 11.87% | 150.3% |
+| Recovery plus housing/service space downside | 12.19% | 152.8% |
+| Replace C19b/C20 plus housing/service space downside | 12.37% | 153.6% |
 
 The second table solves for nonincreasing debt/GDP in every year 2045–56, with additional net resources phased 2035–44. These are financing requirements after any offsets and protection, not tax rates or scored receipts; SS/HI reforms are not added again. No behavior, inflation or implementation forecast is implied.
 
@@ -87,16 +87,16 @@ Average annual net benefit by quintile, dollars per household. All existing bene
 
 | FY | Q1 | Q2 | Q3 | Q4 |
 | --- | ---: | ---: | ---: | ---: |
-| 2030 | 5,180 | 3,363 | 1,317 | -1,296 |
-| 2031 | 6,346 | 4,565 | 2,184 | -853 |
-| 2032 | 7,491 | 5,369 | 2,422 | -1,261 |
-| 2033 | 8,590 | 6,315 | 2,919 | -1,353 |
-| 2034 | 9,380 | 6,987 | 3,276 | -1,461 |
-| 2035 | 8,309 | 6,166 | 2,574 | -2,289 |
-| 2036 | 8,180 | 6,057 | 2,401 | -2,605 |
-| 2037 | 8,607 | 6,368 | 2,498 | -2,773 |
-| 2038 | 8,916 | 6,593 | 2,585 | -2,880 |
-| 2039 | 9,280 | 6,882 | 2,736 | -2,936 |
+| 2030 | 5,226 | 3,404 | 1,346 | -1,279 |
+| 2031 | 6,394 | 4,608 | 2,215 | -836 |
+| 2032 | 7,541 | 5,414 | 2,454 | -1,243 |
+| 2033 | 8,642 | 6,362 | 2,952 | -1,334 |
+| 2034 | 9,434 | 7,036 | 3,310 | -1,441 |
+| 2035 | 8,365 | 6,217 | 2,609 | -2,269 |
+| 2036 | 8,239 | 6,110 | 2,438 | -2,584 |
+| 2037 | 8,668 | 6,423 | 2,536 | -2,751 |
+| 2038 | 8,979 | 6,650 | 2,625 | -2,857 |
+| 2039 | 9,346 | 6,942 | 2,778 | -2,912 |
 
 ## Trust-fund redesign comparisons
 
@@ -112,9 +112,9 @@ Social Security: D8 plus SS-5, with a 0.34-point joint-interaction haircut, need
 
 | Paid leave, high take-up | Loan 2039 ($B) | Loan 2050 ($B) | Loan 2060 ($B) |
 | --- | ---: | ---: | ---: |
-| Rate cap 0.85% | 184.1 | 864.5 | 2101.2 |
-| Rate cap 1.1% | 123.9 | 0.0 | 0.0 |
-| Rate cap 1.2% | 123.9 | 0.0 | 0.0 |
+| Rate cap 0.85% | 63.0 | 491.4 | 1283.7 |
+| Rate cap 1.1% | 0.0 | 0.0 | 0.0 |
+| Rate cap 1.2% | 0.0 | 0.0 | 0.0 |
 
 | Medicare HI | Depletion | Model balance (% payroll) |
 | --- | --- | ---: |

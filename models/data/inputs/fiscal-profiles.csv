@@ -10,16 +10,21 @@ bill,HLT-8,,out_disc_nondefense,,1,cpi,,,,,"USDA rural health grants, $200-500M 
 bill,HLT-9,,out_health_other,,1,out_medicare_net,,,,,"Components in fiscal-components.csv: the long-term care title of the Medicare for All Act from January 1, 2035, gross, with the states' payment as offsetting receipts (care parts B-D booking, dossiers/care/6bcd-cost.md part 5)"
 bill,HLT-10,,out_health_other,,1,out_medicare_net,,0.998597,,,"HLT-10.01: the care wage floor in the plan's rates from 2035, net of option 4's delay on new users' hours; year-by-year shape in fiscal-years.csv; perm fitted so FY2040 is the path's $53.9B (care parts B-D booking, dossiers/care/6bcd-cost.md part 5)"
 bill,HLT-11,,out_health_other,,1,out_health_other,,0.988414,,,"HLT-11.01-11.05: RN around the clock and 0.55 RN hours from 2031, 3.48 total hours from 2035; year-by-year shape in fiscal-years.csv; perm fitted so FY2040 is the path's $6.9B (care parts B-D booking, dossiers/care/6bcd-cost.md part 5)"
-bill,FAM-1,,out_other_mandatory,,1,cpi,,,,,CTC indexed to prices; child population roughly flat
+bill,FAM-1,,out_other_mandatory,,1,cpi,,,,,"Components in fiscal-components.csv (secure floor booking, dossiers/secure-floor/6-cost.md part 6): the benefit on the CPI profile (CTC indexed to prices; child population roughly flat), delivery, offset protection and the territories on the dossier's fiscal-year path"
 bill,FAM-2,,out_other_mandatory,,1,gdp,,,,,"Components in fiscal-components.csv on the care path (care parts B-D booking, dossiers/care/6bcd-cost.md part 5): child care, pre-K, facilities, CCDF for school-age children, the territories, early educators' pay; after 2040 they track wages (GDP). Was a six-year GDP ramp"
 bill,FAM-3,,out_other_mandatory,,1,gdp,,,,yes,"Paid leave is self-funded by its contribution (net zero, automatic step-up)"
+bill,INC-1,,out_other_mandatory,,1,cpi,,0.996938,,,"The childless earned income credit (INC-1.01), paid from FY2031 on the dossier's fiscal-year path (fiscal-years.csv); perm fitted so FY2040 is the path's $17.8B, then prices (secure floor booking, dossiers/secure-floor/6-cost.md part 6)"
+bill,INC-2,,out_other_mandatory,,1,cpi,,1.002021,,,"SNAP restored (INC-2.01) on the dossier's fiscal-year path (fiscal-years.csv); perm fitted so FY2040 is the path's $26.2B, then prices (secure floor booking, dossiers/secure-floor/6-cost.md part 6)"
+bill,INC-3,,out_other_mandatory,,1,cpi,,1.007886,,,"SSI: the asset limits, the indexed exclusions and the four territories from January 2031 (INC-3.01 to 3.03) on the dossier's fiscal-year path (fiscal-years.csv); perm fitted so FY2040 is the path's $5.5B, then prices (secure floor booking, dossiers/secure-floor/6-cost.md part 6)"
+bill,INC-4,,out_other_mandatory,,1,cpi,,1.002469,,,"The refundable dependent care credit (INC-4.01), paid from FY2031 on the dossier's fiscal-year path (fiscal-years.csv); perm fitted so FY2040 is the path's $5.6B, then prices (secure floor booking, dossiers/secure-floor/6-cost.md part 6)"
+bill,INC-5,,out_other_mandatory,,1,cpi,,1.008251,,,"The exclusion rule's forgone offsets (INC-5.01), from FY2031 on the dossier's fiscal-year path (fiscal-years.csv); perm fitted so FY2040 is the path's $2.6B, then prices (secure floor booking, dossiers/secure-floor/6-cost.md part 6)"
 bill,EDU-1,,out_other_mandatory,,3,gdp,,,,,Formula funding steps up over three years
 bill,EDU-3,,out_other_mandatory,,1,cpi,,,,,"Universal meals at once, price-indexed"
 bill,EDU-4,,out_disc_nondefense,,2,gdp,,,,,
 bill,EDU-5,,out_other_mandatory,,1,cpi,,,,,Pell increment indexed to prices
 bill,EDU-7,,out_other_mandatory,,1,gdp,,,,,Repeal saves from the first year
 bill,EDU-8,,out_disc_nondefense,,2,gdp,,,,,
-bill,SS-1,,out_social_security,,1,special_ss,,,,,"D8 package: net -$2.75T in window; after 2039 the benefit credit and CPI-E grow faster than the revenue, so the net saving shrinks ~1.5% a year relative to GDP (estimate)"
+bill,SS-1,,out_social_security,,1,special_ss,,,,,"D8 package: net -$4.74T in window (cost $0.19T less own revenue $4.93T); the recovery budget replaces this row with its fund run; after 2039 the benefit credit and CPI-E grow faster than the revenue, so the net saving shrinks ~1.5% a year relative to GDP (estimate)"
 bill,CLI-1,,out_other_mandatory,,1,gdp,,0.8,0.04,,Clean-energy credits; scale down as deployment saturates after 2039 (estimate)
 bill,CLI-2,,out_other_mandatory,,1,gdp,,,,yes,Dividend is paid from the carbon fee; its 20% remainder funds CLI-5 (counted there)
 bill,CLI-3,,out_disc_nondefense,,2,gdp,,,,,

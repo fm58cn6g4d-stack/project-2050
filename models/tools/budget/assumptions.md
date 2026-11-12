@@ -6,7 +6,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 
 **A row records current practice; it does not adopt it.** "Decided by" names a recorded decision only where one exists. "Unrecorded" means the value is set in code or an input table and no decision names it, even when its author is known. "Proposed" marks a working default (for example, how real dollars are shown), not an adopted policy or model input. Fitted values, such as spend-out shares, are approximations of history, not legal rules.
 
-**88 assumptions:** 26 matter a lot, 35 somewhat, 27 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**89 assumptions:** 27 matter a lot, 35 somewhat, 27 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -34,7 +34,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Defense (1)
 - Expiring provisions (3)
 - Trust funds (6)
-- Funds engine (15)
+- Funds engine (16)
 - Data layer (B2, PR #105) (8)
 - Provision library (budget B4 close-out) (1)
 - Provision library (B3, PR #108) (3)
@@ -502,7 +502,7 @@ Revenue rows grow with their own tax base (the matching CBO revenue category), i
 
 ### ASM-PROF-CPI
 
-Rows fixed in dollars or in real terms grow with prices only (CTC, meals, Pell, climate overrides; DEM-11's election funding since DEC-2026-11-12-08).
+Rows fixed in dollars or in real terms grow with prices only (CTC, the secure floor's INC-1 to INC-5, meals, Pell, climate overrides; DEM-11's election funding since DEC-2026-11-12-08).
 
 - **Value:** grow = cpi (see ASM-CPI-PATH) (growth index)
 - **How much it matters:** medium: these rows shrink as a share of GDP after 2039
@@ -545,12 +545,12 @@ SS-1 after 2039: the D8 package's net saving shrinks about 1.5% a year relative 
 
 ### ASM-PROF-YEARS
 
-Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy, the excise offsets CX (carbon) and MR6 (Moving America), Moving America's two acts MOV-29 and MOV-30 (DEC-2026-11-12-08) and MOV-31 with its successor line from FY2037 (DEC-2026-11-12-10), the health rows HLT-1, HLT-2, HLT-6 and HX and the HLT-4 and HLT-7 component shapes (care dossier's fiscal-year path), and care parts B-D: HLT-10, HLT-11 and the HLT-4, HLT-9 and FAM-2 component shapes (care_bcd_path.py).
+Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy, the excise offsets CX (carbon) and MR6 (Moving America), Moving America's two acts MOV-29 and MOV-30 (DEC-2026-11-12-08) and MOV-31 with its successor line from FY2037 (DEC-2026-11-12-10), the health rows HLT-1, HLT-2, HLT-6 and HX and the HLT-4 and HLT-7 component shapes (care dossier's fiscal-year path), and care parts B-D: HLT-10, HLT-11 and the HLT-4, HLT-9 and FAM-2 component shapes (care_bcd_path.py), and the secure floor: INC-1 to INC-5 and the FAM-1 component shapes (secure_floor_path.py).
 
-- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73; MR6 -2 to -27 (shape); MOV-29 $23-63B a year FY2030-35, MOV-30 $17-41B in FY2030-31 and FY2035-36; MOV-31 $23-27B a year FY2032-36, then $49B, $42B and $34B in FY2037-39; HLT-1 $64B in FY2030; HLT-7 plan spending $704B in FY2031 to about $5.7T in FY2040; HX $53B in FY2031 to $987B in FY2039 (shapes); HLT-9 net $190B in FY2035 to $445B in FY2040; FAM-2 $42B in FY2031 to $243B in FY2040 (care shapes) ($B a year)
+- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73; MR6 -2 to -27 (shape); MOV-29 $23-63B a year FY2030-35, MOV-30 $17-41B in FY2030-31 and FY2035-36; MOV-31 $23-27B a year FY2032-36, then $49B, $42B and $34B in FY2037-39; HLT-1 $64B in FY2030; HLT-7 plan spending $704B in FY2031 to about $5.7T in FY2040; HX $53B in FY2031 to $987B in FY2039 (shapes); HLT-9 net $190B in FY2035 to $445B in FY2040; FAM-2 $42B in FY2031 to $243B in FY2040 (care shapes); INC-1 to INC-5 $21B in FY2030 to $58B in FY2040 (secure floor shapes) ($B a year)
 - **How much it matters:** medium: CAP-7S is about $0.6T and its FY2029 cash is unpriced
 - **Where:** models/data/inputs/fiscal-years.csv; models/tools/fiscal-model.py:79-85
-- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26); MR6, MOV-29, MOV-30, MOV-31: transportation model (moving_america.py; the acts' package and top-up years, test_fiscal_counting.py); health rows: care dossier's path (models/tools/health_booking.py); care rows: care dossier's parts B-D path (models/tools/care_booking.py)
+- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26); MR6, MOV-29, MOV-30, MOV-31: transportation model (moving_america.py; the acts' package and top-up years, test_fiscal_counting.py); health rows: care dossier's path (models/tools/health_booking.py); care rows: care dossier's parts B-D path (models/tools/care_booking.py); secure floor rows: the secure floor dossier's path (models/tools/secure_floor_booking.py)
 - **Decided by:** unrecorded
 - **Notes:** CAP-7S is "interim cash proxy only" per its own note.
 
@@ -567,10 +567,10 @@ The income and payroll tax offset on new excise taxes and fees (CX, CXP, MR6) is
 
 ### ASM-PROF-COMPONENTS
 
-HOU-1 (housing, line by line), HLT-4 (legacy title split, care review F-4; its long-term care part retired for the bridge and its companions, care parts B-D), HLT-7 (the single plan: spending line, transition fund, territories), HLT-9 (long-term care: the benefit and care part gross, the states' payment as offsetting receipts, the state option, room and board, the territories) and FAM-2 (child care, pre-K, facilities, CCDF school-age, territories, early educators' pay) are booked as components, each with its own path.
+HOU-1 (housing, line by line), HLT-4 (legacy title split, care review F-4; its long-term care part retired for the bridge and its companions, care parts B-D), HLT-7 (the single plan: spending line, transition fund, territories), HLT-9 (long-term care: the benefit and care part gross, the states' payment as offsetting receipts, the state option, room and board, the territories), FAM-1 (the child benefit on its CPI profile, delivery, offset protection, the territories; secure floor booking) and FAM-2 (child care, pre-K, facilities, CCDF school-age, territories, early educators' pay) are booked as components, each with its own path.
 
 - **Value:** Sum of the component amounts equals each bill's ledger midpoint ($T)
-- **How much it matters:** low: five bills
+- **How much it matters:** low: six bills
 - **Where:** models/data/inputs/fiscal-components.csv; models/tools/fiscal-model.py:73-78
 - **Source:** Oct 24 adoption (fiscal-components.csv basis)
 - **Decided by:** unrecorded
@@ -805,13 +805,25 @@ CPI-E runs about 0.15 points a year above CPI-W (SS-4).
 
 ### ASM-FUND-LEAVE
 
-Paid-leave fund (FAM-3A): 0.6% of covered wages to start, steps of 0.05 up to a 1.10% ceiling, keeping one to one and a half years of benefits in reserve; shortfalls are a Treasury loan.
+Paid-leave fund (FAM-3A, FAM-3.04): 0.6% of covered wages to start, steps of 0.10 up to a 1.10% ceiling, keeping one to one and a half years of benefits in reserve; shortfalls are a Treasury loan (none at high take-up with the 0.10 step).
 
-- **Value:** 0.6 / 0.05 / 1.1; 1 and 1.5 years; ramp 0.5, 0.8 (% of wages; years)
+- **Value:** 0.6 / 0.10 / 1.1; 1 and 1.5 years; ramp 0.5, 0.8 (% of wages; years)
 - **How much it matters:** medium: decides whether FAM-3 stays self-funded (it counts zero on the unified budget)
 - **Where:** models/data/inputs/funds-parameters.csv:7-12; models/tools/funds-model.py:205-226
 - **Source:** Proposal (FAM-3A); ceiling 1.10 points (Espen, Oct 26: legacy/governing/project-2050-governing-decisions.md, "Recovery and Solvency recommendations approved"), was JCT's 0.85% break-even at FMLA take-up
-- **Decided by:** Espen (ceiling, Oct 26); the start rate and steps unrecorded
+- **Decided by:** Espen (ceiling, Oct 26; the 0.10 step, DEC-2026-11-12-14); the start rate decided with memo 5 B (DEC-2026-11-12-06)
+- **Notes:** At high take-up the rate reaches the ceiling in 2036 and the reserve bottoms out at about $14B in 2035; with the legacy 0.05 step the fund borrowed up to about $185B (FY2040) and repaid in 2058 (secure floor review A-1)
+
+### ASM-SS-FALLBACK
+
+Social Security's central case (recovery budget): SS-1 to SS-5 on the fund engine, the joint-interaction adjustment, and SS-7.01's one-point fallback on its expected path; SS-8.01's reserve investment recorded at zero and flagged.
+
+- **Value:** 1 point on the combined rate, 0.1 a year from 2037 to 2046; SS-8 0 (on the trust funds about +0.05 to +0.2) (payroll points)
+- **How much it matters:** high: sets the trust funds' revenue from 2037 and the general fund's income-tax offset on it
+- **Where:** models/tools/recovery-budget/assumptions.json (social_security); models/tools/recovery-budget/model.py (ss_fallback)
+- **Source:** dossiers/secure-floor/6-cost.md part 4 (the package before the fallback closes about +3.6 to +3.8 of the 4.42% gap); milestone review O-1 and F-2
+- **Decided by:** Espen (memo 6 C as decided, DEC-2026-11-12-06; the fallback as the expected case, DEC-2026-11-12-13)
+- **Notes:** Replaces the two-point broad rate phased in over 2035-44, which the decided design does not have. Open: how the budget records SS-8's stock purchases (outlays, a means of financing, or with returns above Treasury's rate), so it is not booked; SS-B4.01's caregiver credit is not yet on the fund engine. With SS-8 at zero the fund's 75-year balance is about -0.31% of payroll
 
 ### ASM-FUND-CARBON
 

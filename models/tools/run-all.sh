@@ -63,6 +63,7 @@ python3 -W ignore::ResourceWarning "$TOOLS"/fiscal-recovery/test_model.py
 echo "== 8c. total-federal Recovery and Solvency budget (exploratory)"
 python3 -W ignore::ResourceWarning "$TOOLS"/recovery-budget/model.py --output-dir "$BUILD" > "$BUILD/recovery-budget.log"
 python3 -W ignore::ResourceWarning "$TOOLS"/recovery-budget/test_model.py
+echo "== 8c. secure floor booking check (review step 7: FAM-1, INC-1 to 5, the leave step, Social Security as decided)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_secure_floor.py 2>&1 | tail -1
 
 echo "== 8d. public story page (claim register and generated page)"
 # Fails if the story's own content changed without a rebuild; only reports a cited source passage that moved.

@@ -14002,21 +14002,20 @@
  },
  {
   "id": "EV-SEC-694",
-  "statement": "In the legacy recovery budget's central case, the paid leave fund at high take-up repays its Treasury loan in 2058, with no loan left at the end.",
+  "statement": "In the recovery budget's central case, the paid leave fund at high take-up, with the faster contribution step, needs no Treasury loan: its peak loan is $0.0B.",
   "claim": "analysis",
   "figures": [
-   "2058",
    "$0.0B"
   ],
   "source": "SRC-0061",
   "anchor": [
-   "| Leave, high take-up | Loan repaid 2058; terminal loan $0.0B |"
+   "| Leave, high take-up | No Treasury loan (peak $0.0B); terminal loan $0.0B |"
   ],
   "grade": "D",
-  "fact_date": "2026-10-26",
+  "fact_date": "2026-11-12",
   "checked": "2026-11-12",
   "recheck": "2027-11-12",
-  "context": "Generated legacy index page (legacy/index/recovery-budget.md), from the legacy recovery-budget model with SSA administration at 3% of benefits; supersedes the domain file's 2048. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "context": "Generated legacy index page (legacy/index/recovery-budget.md), from the legacy recovery-budget model with SSA administration at 3% of benefits; supersedes the domain file's 2048. With the legacy 0.05-point step the same run borrowed up to about $185 billion (FY2040) and repaid in 2058; the 0.10-point step is DEC-2026-11-12-14. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
   "corroboration": [
    {
     "evidence": "EV-SEC-327",
