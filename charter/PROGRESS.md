@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated November 12, 2026 by Claude Code (row S3 and question 0o by session_01UQzgBxGSYkH2YdPWGsWBZD; rows S1 and S2 by session_01UQzgBuXeG7aix1nxZ4BSPj; row D-8 and question 0n by session_01UQzgBtrKPVAL3VreiLC2LW; reviewer handover and Espen's working notes by the lead; row D-5b and question 0k by session_01UQzgBt53ayYjwUAXoC1wt9; row D-6 and question 0l by session_01UQzgBwaJJapkFEG41mMoYd; row D-4c's result by session_01UQzgBwih5DpgWjExQDtGAp; rows D-4b, D-4c and D-5 by the lead; row D-5 and question 0k by session_01UQzgBthpuYKGXWpEpmuMzj; lead handoff to session_01UQzgBwthb9wvzFajiwYkhG; row D-4r by session_01UQzgBupQZyXMABBVLAHyji; stage C review and known gaps by the lead, session_01UQzgBtSLEoy7fgPMAW76LL; stage D care rows by session_01UQzgBteuY7VHnyGhjMpgaF; lead handoff; row 4j by session_01UQzgBvSpaCT7ye9hJyhFCR; row 6 fix step 1 and the reviewer change by the fix-step-1 worker; row 6 fix step 7 and the housing close-out by session_01UQzgBsm7aCCDHvH83imA21).
+Updated November 12, 2026 by Claude Code (lead and reviewer handovers by the lead, session_01UQzgBtThMM4483EL9swRwN; row S3 and question 0o by session_01UQzgBxGSYkH2YdPWGsWBZD; rows S1 and S2 by session_01UQzgBuXeG7aix1nxZ4BSPj; row D-8 and question 0n by session_01UQzgBtrKPVAL3VreiLC2LW; reviewer handover and Espen's working notes by the lead; row D-5b and question 0k by session_01UQzgBt53ayYjwUAXoC1wt9; row D-6 and question 0l by session_01UQzgBwaJJapkFEG41mMoYd; row D-4c's result by session_01UQzgBwih5DpgWjExQDtGAp; rows D-4b, D-4c and D-5 by the lead; row D-5 and question 0k by session_01UQzgBthpuYKGXWpEpmuMzj; lead handoff to session_01UQzgBwthb9wvzFajiwYkhG; row D-4r by session_01UQzgBupQZyXMABBVLAHyji; stage C review and known gaps by the lead, session_01UQzgBtSLEoy7fgPMAW76LL; stage D care rows by session_01UQzgBteuY7VHnyGhjMpgaF; lead handoff; row 4j by session_01UQzgBvSpaCT7ye9hJyhFCR; row 6 fix step 1 and the reviewer change by the fix-step-1 worker; row 6 fix step 7 and the housing close-out by session_01UQzgBsm7aCCDHvH83imA21).
 
 ## Standing sessions
 
@@ -10,11 +10,13 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
-| Lead | `session_01UQzgBwthb9wvzFajiwYkhG` | Project 2050: lead | November 11 (from about 04:45 UTC) |
-| Reviewer | `session_01UQzgBxCFn7vF7KD8QH1G6d` | Project 2050: reviewer | November 11, about 07:15 UTC; woken by the reviewer scheduled task `trig_019tVnwU5ZoESntso3XmuJ1x` (older tasks `trig_012Z7PTs2E1GqeqJcmybLXc6`, `trig_015EmnThrjyxP9fc1C1M1TQx`, `trig_01FZTMijXSFbmgJQqdmwxtkN`, `trig_01Ev3YUmoFDLvTk2Negkwi9u` and `trig_01QPXBRZzoMHhTSs3k8PAAuP` are disabled). Codex reviews again; ask it by PR comment where its review matters (budget model milestones) |
+| Lead | `session_01UQzgBtThMM4483EL9swRwN` | Project 2050: lead | November 12 (from about 03:15 UTC) |
+| Reviewer | `session_01UQzgBwfcHa4zjG9SpjSeAf` | Project 2050: reviewer | November 12, about 03:20 UTC; woken by the reviewer scheduled task `trig_015B7as7TqisfoWUtSJ9EWTQ` (older tasks `trig_019tVnwU5ZoESntso3XmuJ1x`, `trig_012Z7PTs2E1GqeqJcmybLXc6`, `trig_015EmnThrjyxP9fc1C1M1TQx`, `trig_01FZTMijXSFbmgJQqdmwxtkN`, `trig_01Ev3YUmoFDLvTk2Negkwi9u` and `trig_01QPXBRZzoMHhTSs3k8PAAuP` are disabled). Codex reviews again; ask it by PR comment where its review matters (budget model milestones) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 **Former standing sessions**
+- Reviewer `session_01UQzgBxCFn7vF7KD8QH1G6d`: PRs #242 to #256 (and #252's pass in flight at the handover); November 11 to 12.
+- Lead `session_01UQzgBwthb9wvzFajiwYkhG`: care parts B-D from research to decisions and repricing, the part B audit and revision, the health long-term care fix, a reviewer handover, the secure floor's start; November 11 to 12.
 - Reviewer `session_01UQzgBwM92trGLhKkGBSjEP`: PRs #203 to #241; November 10 to 11.
 - Lead `session_01UQzgBtSLEoy7fgPMAW76LL`: transportation from sections 4-9 to L3, stage C's close, health from the memo set to L3 and its booking; November 10 to 11.
 - Lead `session_01UQzgBuj6qYPfkf6a7uYH69`: housing close-out (ROAD funding, memo 13, the milestone review and its fixes, the model booking), the two process rules (`DEC-2026-11-10-05`, `-07`), the start of transportation and stage D care; November 10.
@@ -28,17 +30,19 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 - Reviewer `session_01UQzgBtEveznkR76gmgDdVm`: PRs #133 to #144; November 9.
 - Reviewer `session_01QHgvhVvafmiGMqU7Vewnst`: October 26 to 29.
 
-**Lead handoff (November 12, 2026, about 03:15 UTC)** from `session_01UQzgBwthb9wvzFajiwYkhG` (context about 670,000 tokens; lineage depth 2). The new lead puts its own ID in the Standing sessions table in its first board PR and moves this session to "Former standing sessions" (lead, November 11 to 12: care parts B-D from research to decisions and repricing, the part B audit and revision, the health long-term care fix, the reviewer handover, the secure floor's start).
+**Lead handoff (November 12, 2026, about 03:15 UTC)** from `session_01UQzgBwthb9wvzFajiwYkhG` (context about 670,000 tokens; lineage depth 2). The new lead is `session_01UQzgBtThMM4483EL9swRwN` (Standing sessions table above); the workers below now report to it.
 - **Done since November 11 morning.**
   - Care part B (long-term care), part C (child care and pre-K) and part D (the workforce): sections 1-3 and memos 6-17, all decided (`DEC-2026-11-11-02` to `-06`; #236, #239-#250, #253). Decided totals about $3.80T over FY2030-39 and $736B in FY2040 (`dossiers/care/tools/care_repricing.py`). Part B renamed "long-term care" in the plan (#243).
   - Health's booking corrected: Medicaid long-term care kept in Medicaid (#237); plan-wide FY2040 general-fund balance about $3,750B short.
   - Reviewer handed over (#245); legacy-first and efficiency rules (#251).
 - **Active sessions (report-back: the lead).**
-  - `session_01UQzgBw9VK9o3iPPDppbRg7`: care parts B-D sections 4-9 (row D-9), started 03:07 UTC; may open several PRs.
-  - `session_01UQzgBuXeG7aix1nxZ4BSPj`: secure floor S1-S2 (#252, draft), with Espen's two directions (README quotes them).
-  - Reviewer `session_01UQzgBxCFn7vF7KD8QH1G6d`.
+  - `session_01UQzgBw9VK9o3iPPDppbRg7`: care parts B-D sections 4-9 (row D-9), done (#254, #259); now on the milestone review's fix steps 1-7 and 9 (#260).
+  - `session_01UQzgBwgfnP2AgerLpBpSRY`: care parts B-D milestone review (row D-9r), done (#260).
+  - `session_01UQzgBuXeG7aix1nxZ4BSPj`: secure floor S1-S2, done (#252, merged).
+  - `session_01UQzgBxGSYkH2YdPWGsWBZD`: secure floor S3, the memo set, done (#258); question 0o waits on Espen (decision sheet: https://claude.ai/artifact/RiLRwx6X9aQAaZukit1hJa).
+  - Reviewer `session_01UQzgBwfcHa4zjG9SpjSeAf` (handed over from `session_01UQzgBxCFn7vF7KD8QH1G6d` at about 625,000 tokens).
   - `session_01UQzgBvk1RmZgu8yMjAx9Vn`: the November 8 B6 worker, idle at about 505,000 tokens, offering to continue; its handoff is #132's comment.
-- **Open PRs:** #252 (secure floor, draft). **Scheduled check-in bound to the lead:** `trig_018UJgHvRvSMZsi1Rrw4Pkya` (04:10 UTC), holding the overnight relay below; recreate it for yourself and disable it. **Waiting on Espen:** the label on the fair-financing PR (`DEC-2026-11-11-07`: fair financing moves to Claude; Espen said yes). Once merged, the financing settlement (stage G) is Claude's; dossier lines that say "the settlement (Codex)" (care's 3d, memo 17) are fixed in their next edit.
+- **Open PRs:** #260 (care milestone review) and this board PR. **Waiting on Espen:** question 0o (secure floor memos). **Scheduled check-in bound to the lead:** `trig_01PrNUZi6s4isQSmyRY1TahR` (04:10 UTC, re-armed hourly), holding the overnight relay below (the old lead's `trig_018UJgHvRvSMZsi1Rrw4Pkya` is disabled). Fair financing moved to Claude (`DEC-2026-11-11-07`, #255, merged): the financing settlement (stage G) is Claude's; dossier lines that say "the settlement (Codex)" (care's 3d, memo 17) are fixed in their next edit.
 - **The overnight relay (Espen asleep, asked for steady progress, and to start the next stage when stage D waits only on approvals).**
   1. When D-9 is done: an independent care milestone review (fresh Opus, as health's 4r), fixes by D-9's author, then the tier-3 booking PR for Espen's label, netting HLT-4's down payment against the bridge.
   2. When S1-S2 is done: S3, the secure floor memo set (fresh Opus, legacy-first, health memo format, Espen's directions).
