@@ -1,0 +1,2285 @@
+[
+ {
+  "id": "IMM-1.01",
+  "title": "Tier A: a green card on approval",
+  "agenda": "IMM-1",
+  "status": "decided, memo 1 A, parts 1 and 3",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Four groups, each present in the United States on the cutoff date (IMM-1.04): (1) people who arrived before 18, with a schooling, work or service test (the Dream Act's); (2) anyone who has held TPS, DACA or humanitarian parole at any time; (3) workers with at least 1,035 hours or 180 days of farm, care or construction work in the two years before applying, on the farmworker bill's test [EV-IMM-522], extended to care and construction (care's first ask, `DEC-2026-11-11-04` point 8; housing's workforce condition); (4) their spouses and minor children present on the cutoff. Permanent residence on approval; citizenship after three years (IMM-1.14)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-522",
+   "EV-IMM-519",
+   "EV-IMM-022",
+   "EV-IMM-016",
+   "EV-CAR-614",
+   "EV-HOU-055"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1; memo 2 for IMM-1.05-1.09)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.02",
+  "title": "Tier B: ten years' residence, counted to the day a person applies",
+  "agenda": "IMM-1",
+  "status": "decided, memo 1 A, change 1",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Ten years' continuous residence before the day of application, through the registry's rolling date (IMM-1.05), with a clean record (IMM-1.08). Permanent residence on approval; citizenship on the five-year clock. A person with eight years in 2029 qualifies in 2031. Brief absences do not break residence (working choice: up to 180 days in one trip, 365 in all over ten years, as the U.S. Citizenship Act counts them)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-612",
+   "EV-IMM-591",
+   "EV-IMM-617"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1; memo 2 for IMM-1.05-1.09)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.03",
+  "title": "Registered status for everyone else present on the cutoff",
+  "agenda": "IMM-1",
+  "status": "decided, memo 1 A, change 2",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "A person present on the cutoff date who is not yet in tier A or B registers once, gives biometrics and passes IMM-1.08's check. They receive a renewable registered status: a work permit and protection from removal for five years at a time (working choice), renewed without a fee below 200% of poverty. Time in registered status counts toward tier B's ten years, and the green card comes at ten years. Registered status is not a bar to any other route",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-612"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1; memo 2 for IMM-1.05-1.09)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.04",
+  "title": "Registration's cutoff: the act's signature date",
+  "agenda": "IMM-1",
+  "status": "specified; point 1 as changed: \"the law's signature date or a set period after it\"",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Presence on the day the President signs the act. Proof follows IMM-1.06: the records that show a person here before that day. *Why the signature date and not a period after it:* (1) the cutoff exists so the law does not draw new arrivals. A date after signature announces a window to arrive under a known law, which is the clearest draw; the signature date allows none after the law is known. The debate period stays open, as Espen chose over the introduction date. (2) Administrative readiness is met by when filing opens (IMM-1.05, about 270 days after signature), not by moving the cutoff: the cutoff fixes who is eligible, not when they file. (3) Anyone who arrives later reaches the standing registry at ten years (IMM-1.05), so a later cutoff buys little. *The alternative:* a named period, for example 90 days after signature, so that people already on their way, or whose presence on the day leaves no record, are covered; its cost is a known window to arrive. A small question for Espen (end of this section). Recommended: the signature date",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-591",
+   "EV-IMM-233"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1; memo 2 for IMM-1.05-1.09)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.05",
+  "title": "The registry, 8 U.S.C. 1259, with a rolling date of ten years before the day of application",
+  "agenda": "IMM-1",
+  "status": "decided, memo 2 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "1259's fixed January 1, 1972 is replaced by \"the date ten years before the date of the application\". 1259's existing conditions stay: continuous residence, good moral character, and not inadmissible as a criminal, subversive, narcotics violator or smuggler (narrowed by IMM-1.08). It carries tier B and is the route for registered people at ten years. No closing window. Filing for the registry, tier A and registration opens on one form no later than 270 days after the act's signature (working choice; about October 1, 2030 on the working timeline)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-590",
+   "EV-IMM-623",
+   "EV-IMM-622",
+   "EV-IMM-612"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1; memo 2 for IMM-1.05-1.09)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.06",
+  "title": "Records first: proof of residence from what the government holds",
+  "agenda": "IMM-1",
+  "status": "decided, memo 2 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "USCIS checks the years against records the government holds: tax returns filed with an individual taxpayer number or any Social Security number, earnings posted at SSA, school enrollment, court and DHS files, and other federal records the act lists. Where records run out, a sworn statement plus any one document per gap year covers it. False statements carry the existing fraud penalties. A published fraud audit each year, with a review trigger (IMM-6.06). No document hunt beyond the gaps",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS), with Treasury (IRS) and SSA",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-606",
+   "EV-IMM-228",
+   "EV-IMM-639",
+   "EV-IMM-637"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1; memo 2 for IMM-1.05-1.09)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.07",
+  "title": "People USCIS already knows start on a notice",
+  "agenda": "IMM-1",
+  "status": "decided, memo 2 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "DACA, TPS and parole holders, past or present, whose biometrics and files USCIS holds, receive a notice of what the records show: their tier A eligibility and years of residence. They confirm or correct it, and are approved on the notice unless the check (IMM-1.08) finds a bar. Notices go out first, in the opening months",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-016",
+   "EV-IMM-022",
+   "EV-IMM-027"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1; memo 2 for IMM-1.05-1.09)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.08",
+  "title": "Vetting and bars",
+  "agenda": "IMM-1",
+  "status": "decided, memo 2 C; point 2",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Biometrics and a criminal and security check for everyone. The bars are 1259's existing grounds [EV-IMM-623], with no bar for immigration-only offenses (unlawful entry and reentry, 8 U.S.C. 1325 and 1326, and status violations), and a waiver for convictions more than ten years old or minor (working choice: no prison term over one year), granted for family unity, humanitarian reasons or the public interest",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS), with the FBI",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-623",
+   "EV-IMM-014"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1; memo 2 for IMM-1.05-1.09)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.09",
+  "title": "No penalty; no fee below 200% of poverty; a capped fee above",
+  "agenda": "IMM-1",
+  "status": "decided, memo 2 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "No penalty for any route. No fee for a person whose household income is below 200% of the poverty guideline, shown by the same records (IMM-1.06) or attestation. Above that, a fee at cost, capped per family (working choice: the cap is the fee for two adults), payable in instalments. The waiver is claimed on the form, with no separate request",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-425",
+   "EV-IMM-525",
+   "EV-IMM-627",
+   "EV-IMM-638"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1; memo 2 for IMM-1.05-1.09)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.10",
+  "title": "A work permit and protection from removal from the day of filing",
+  "agenda": "IMM-1",
+  "status": "decided, point 3",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "A complete filing's receipt is evidence of work authorization and stops removal until decision, and USCIS records it in E-Verify's and SSA's systems within 30 days (IMM-4.13). A pending removal case is closed administratively on filing, and reopened only if the application is denied",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); DOJ (EOIR)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-100"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.11",
+  "title": "Back taxes only as the IRS assesses them",
+  "agenda": "IMM-1",
+  "status": "decided, point 4",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "No reconstruction of past income by the applicant. Taxes already assessed on income already earned are paid or put on an IRS instalment plan, which does not delay approval",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.12",
+  "title": "Work-eligible Social Security numbers from registration",
+  "agenda": "IMM-1",
+  "status": "decided, point 5",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Each person granted registered status, tier A or tier B receives a work-eligible Social Security number, issued by SSA from USCIS's record without a separate visit. Earnings already posted under another number are credited to the person's own record on their request. Legalized parents then meet the 2025 child credit's number rule [EV-IMM-050], and earnings post to their own records",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "SSA, with DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-050",
+   "EV-IMM-606"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.13",
+  "title": "Temporary statuses lead to permanence",
+  "agenda": "IMM-1",
+  "status": "decided, memo 1 A, part 3",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Time in TPS, deferred action, parole or registered status counts toward tier B's ten years. TPS stays as an emergency tool. DACA work permits, which the Fifth Circuit found severable [EV-IMM-027], continue until each holder is approved",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-020",
+   "EV-IMM-027",
+   "EV-IMM-468"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.14",
+  "title": "The clock to citizenship",
+  "agenda": "IMM-1",
+  "status": "decided, memo 1 A, part 2",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Tier A: naturalization three years after the green card. Tier B and registered people who reach ten years: the ordinary five-year clock. Naturalization's fee rule is IMM-5.04",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-500",
+   "EV-IMM-506"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.20",
+  "title": "One eligibility title",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "One title amends each program's eligibility section. It adds memo 1's statuses (tier A and B permanent residents, registered status) to the 1996 law's \"qualified alien\" list (8 U.S.C. 1641) and to Section 214's list (42 U.S.C. 1436a). It reverses the 2025 law's limits [EV-IMM-046] to [EV-IMM-050] as each row below says. A program not listed follows the law before July 2025",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Each program's agency",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-046",
+   "EV-IMM-047",
+   "EV-IMM-048",
+   "EV-IMM-049",
+   "EV-IMM-050"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.21",
+  "title": "The single health plan: every resident, people without status included, from wave 1",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Residence, not status, from the first wave on January 1, 2031. Residency is shown by records or attestation on the S. 1506 model care proposed, with no status question (HLT-7.01, `DEC-2026-11-10-09`). This answers care's point 3",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "",
+  "evidence": [
+   "EV-CAR-103",
+   "EV-CAR-120"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.22",
+  "title": "Medicaid and premium credits before the waves",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "The pre-2025 law is restored (HLT-1.02, care's, decided and priced there). Memo 1's new permanent residents qualify with no five-year wait. People without status keep emergency Medicaid and state options",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HHS (CMS); Treasury (IRS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-047",
+   "EV-IMM-049"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.23",
+  "title": "The long-term care benefit (2035): every resident",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "As the single plan: residence, no status question (`DEC-2026-11-11-02`)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HHS (CMS)",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.24",
+  "title": "Child care and pre-K: every resident child",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "No status question (`DEC-2026-11-11-03`). Head Start follows its rules before July 2025",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HHS (ACF); states",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.25",
+  "title": "The child benefit: the child's own ID, no parent rule",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C; secure floor `DEC-2026-11-12-06`",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Cited here as the table's row; specified as the secure floor's FAM-1.04: a child qualifies with their own Social Security number, adoption number or individual taxpayer number",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "",
+  "evidence": [
+   "EV-SEC-016",
+   "EV-IMM-007"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.26",
+  "title": "The earned income credit",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "As now: a work-eligible Social Security number. Memo 1's statuses carry one from registration (IMM-1.12)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-050"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.27",
+  "title": "SNAP, SSI and TANF: the pre-2025 law, with no five-year wait for memo 1's new permanent residents",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "SNAP's immigrant rule (2025 law, sec. 10108) returns to the pre-2025 law. That restoration is priced by the secure floor's SNAP repeal (INC-2.01), not counted again here. SSI and TANF follow the pre-2025 law. Memo 1's new permanent residents qualify with no five-year wait: their years of residence count as the wait. Registered status is a qualified status, with the five-year wait for adults counted from the day of registration (working choice, consistent with memo 6's pricing; most registered people reach ten years and a green card first)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "USDA (FNS); SSA; HHS (ACF); states",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-046",
+   "EV-SEC-033"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.28",
+  "title": "Medicare",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "The 2025 limit [EV-IMM-048] is reversed: lawfully present people qualify as before 2025; memo 1's statuses as permanent residents. People without status: no (contributory rules)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HHS (CMS); SSA",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-048"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.29",
+  "title": "Social Security and paid leave",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "By earnings with a work-eligible number, as now (IMM-1.12)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "SSA",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-606"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.30",
+  "title": "Rental help: Section 214 with registered status added; proration kept",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Mixed-status families are prorated (`DEC-2026-11-09-10`); one member is verified, the rest are not required to be",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HUD; USDA (RHS)",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.31",
+  "title": "The owner and buyer programs: the owner of record",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "A mixed-status family qualifies for HOU-10 to HOU-12 through the owner of record, checked through records the agency can query, as rental help qualifies through proration. Answers housing's open item",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HUD; USDA (RHS)",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.32",
+  "title": "FHA and USDA loans: FHA's 2025 rule for non-permanent residents reversed",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Lawfully present non-permanent residents, registered status included, qualify for FHA and USDA guaranteed loans as before the 2025 rule",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HUD (FHA); USDA (RHS)",
+  "current_law": "",
+  "evidence": [
+   "EV-HOU-810"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.33",
+  "title": "The property-tax match (HOU-11): not a federal public benefit",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Written outside 8 U.S.C. 1611 and 1621: relief follows the tax bill, with no status question",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HUD; Treasury",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.34",
+  "title": "Farmworker housing (USDA 514/516): as rental help",
+  "agenda": "IMM-1",
+  "status": "proposed to housing, memo 6 C; `DEC-2026-11-10-02` item 5",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Prorated in a mixed family, as Section 214 does",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "PROPOSAL",
+    "kind": "proposal",
+    "note": "proposed to another dossier"
+   }
+  ],
+  "agency": "USDA (RHS)",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.35",
+  "title": "The emergency rent fund (HOU-1D): no status test",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Short-term emergency aid on self-attestation; the landlord is checked, not the tenant",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "HUD",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-1.36",
+  "title": "One data firewall",
+  "agenda": "IMM-1",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "What a person gives any plan program or the registry (IMM-1.05 to 1.07), and what the plan's shared records hold, may not be used or shared for immigration enforcement, except under a criminal warrant for a named person. Each use is logged; misuse carries civil and criminal penalties and a private right of action. It matches housing's rule (`DEC-2026-11-09-11`) and care's (HLT-7.21). IMM-4.11 writes the enforcement side",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "All agencies; DHS",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.01",
+  "title": "Recapture of unused numbers",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 1 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Family and employment numbers unused in any year since FY1992 go back into the pool, used over five years from FY2031 (working choice). Unused numbers roll forward automatically from then on",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "State; DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-123"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.02",
+  "title": "Spouses and minor children of permanent residents outside the caps",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 1 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Treated as immediate relatives, as citizens' are",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "State; DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-130",
+   "EV-IMM-127"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.03",
+  "title": "The employment per-country cap lifted over three years",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 1 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "7% [EV-IMM-121] to 15% in FY2031, 25% in FY2032, none from FY2033 (working phase). The family per-country cap rises to 15%",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "State",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-121",
+   "EV-IMM-124",
+   "EV-IMM-128"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.04",
+  "title": "The 2024 bill's higher numbers, made permanent",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 1 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "The family-sponsored level from 480,000 to 512,000 and its floor from 226,000 to 258,000; the employment level from 140,000 to 158,000, each year from FY2031 [EV-IMM-535]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "State",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-535",
+   "EV-IMM-120"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.05",
+  "title": "Protection for children who age out",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 1 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "A child's age is fixed on the day the petition is filed. Children who were lawfully present as dependents of long-term visa holders keep their place, on the America's CHILDREN Act model [EV-IMM-518]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); State",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-518"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.06",
+  "title": "H-1B selection ranked by offered wage",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 1 A, in B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Petitions are ranked by the offered wage's level against the local wage for the occupation, highest first, replacing the lottery",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); Labor",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.07",
+  "title": "A statutory H-1B fee, retained by USCIS and a training fund",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 1 A, in B; R1",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "About $5,000 to $10,000 a petition by employer size (legacy estimate), indexed, retained by USCIS and an apprenticeship and training fund (ledger IF1, about $0.015 trillion over FY2030-39). It replaces the proclamation charge, which runs to September 2027 [EV-IMM-056] [EV-IMM-057]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "DHS (USCIS); Labor",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-056",
+   "EV-IMM-057",
+   "EV-IMM-577"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.08",
+  "title": "Farm: the Farm Workforce Modernization Act's route",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 2 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Certified agricultural worker status for current farmworkers on the bill's hours test, and its H-2A reform [EV-IMM-522] [EV-IMM-523]. Memo 1's tier A gives current farmworkers a green card on approval, so the bill's certified status serves workers who arrive after the cutoff (IMM-1.04)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); Labor; USDA",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-522",
+   "EV-IMM-523",
+   "EV-IMM-216"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.09",
+  "title": "A portable care-worker visa",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 2 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "For direct care occupations: paid at least the care wage floor (`DEC-2026-11-11-04`, memo 14: $20 an hour in 2026 dollars, indexed); portable between care employers without a new petition; a green card after three years of care work. Spouses and children come with the worker. Care occupations count on any shortage list (care's third ask)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "Labor; DHS (USCIS); State",
+  "current_law": "",
+  "evidence": [
+   "EV-CAR-614",
+   "EV-IMM-468"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.10",
+  "title": "A portable construction-worker visa",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 2 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "For construction trades: paid at least the local prevailing wage; portable between construction employers; a green card after three years; tied to the decided building programs (housing's production and repair, transportation's construction)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "Labor; DHS (USCIS); State",
+  "current_law": "",
+  "evidence": [
+   "EV-HOU-055"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.11",
+  "title": "Numbers for the care and construction routes set each year from the decided programs' hiring needs",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 2 B; ceiling a working choice",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "The Labor Department publishes, each year, the hiring needs of the decided programs (care's guarantees, housing's and transportation's construction) and sets each route's number, up to a statutory ceiling (working choice: 50,000 a year for each route at the start, reviewed after three years). A review trigger pauses new visas in a route whose national unemployment rate is above its five-year average by two points or more",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "Labor",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-451"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-2.12",
+  "title": "Employer attestation, not a tie to one employer",
+  "agenda": "IMM-2",
+  "status": "decided, memo 3 part 2 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "The employer attests to the wage and the job. The worker carries no tie to one employer and may change jobs within the route on notice. Wage and Hour enforces the attestation (IMM-4.16). The wage and portability rules go to the work flagship (shared rule 8)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "Labor",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-468"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 3)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.01",
+  "title": "Asylum officers decide first, within 180 days",
+  "agenda": "IMM-3",
+  "status": "decided, memo 4 part 1 D; the act",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "The 2022 rule's officer merits process in statute [EV-IMM-300] [EV-IMM-301], extended to affirmative claims. A decision within 180 days of filing. A denial goes to the immigration court for review on the record, with new evidence allowed; a grant is final unless DHS appeals on the law",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); DOJ (EOIR)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-300",
+   "EV-IMM-301",
+   "EV-IMM-322",
+   "EV-IMM-640",
+   "EV-IMM-302"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.02",
+  "title": "A surge rule that adds capacity, not a bar",
+  "agenda": "IMM-3",
+  "status": "decided, memo 4 part 1 D; the act",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "When southwest border encounters average 5,000 a day over seven consecutive days (the 2024 bill's number [EV-IMM-533]; working choice), the Secretary must, within 14 days: detail asylum officers and judges to reception centers near the border; decide claims there in a 90-day track on the EU's model [EV-IMM-458]; and release people to case management (IMM-4.06) or hold them only under IMM-4.03's priorities and IMM-4.05's cap. Asylum at and between ports stays available. The rule ends when the average falls below 3,500 for 14 days (working choice). Each activation is reported to Congress with its decisions and times",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS, CBP); DOJ (EOIR)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-533",
+   "EV-IMM-458",
+   "EV-IMM-461",
+   "EV-IMM-054"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.03",
+  "title": "Access to claims from the region",
+  "agenda": "IMM-3",
+  "status": "decided, memo 4 part 1 D; R1 money",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Refugee and parole processing abroad, defined as access to a claim, never detention abroad [EV-IMM-462]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "State (PRM); DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-462"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.04",
+  "title": "A refugee floor of 50,000 admissions a year, funded",
+  "agenda": "IMM-3",
+  "status": "decided, memo 4 part 1 D",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "At least 50,000 admissions a year in statute, binding admissions and not only the ceiling [EV-IMM-465], with the money in R1; private sponsorship above the floor on Canada's model [EV-IMM-466]. The President sets the ceiling above the floor. The floor sits below every ceiling from FY1981 to FY2016 [EV-IMM-634] [EV-IMM-463]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "State (PRM); HHS (ORR); DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-572",
+   "EV-IMM-634",
+   "EV-IMM-463",
+   "EV-IMM-465",
+   "EV-IMM-466",
+   "EV-IMM-052"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.05",
+  "title": "The 2025-26 measures ended",
+  "agenda": "IMM-3",
+  "status": "decided, memo 4 part 1 D; executive, January 20, 2029",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Proclamation 10888's use against asylum seekers ends [EV-IMM-053]; the 2026 no-interview referral rule is withdrawn [EV-IMM-305]; the FY2029 refugee ceiling is set at or above 50,000",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "EXEC",
+    "kind": "executive",
+    "note": "executive action, January 20, 2029"
+   }
+  ],
+  "agency": "The President; DHS; DOJ",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-053",
+   "EV-IMM-305",
+   "EV-IMM-308"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.06",
+  "title": "The asylum charges that grow with delay repealed",
+  "agenda": "IMM-3",
+  "status": "decided, point 8; R1",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Repeal the $100-a-year asylum-pending fee and the $550 first work permit charge for asylum applicants [EV-IMM-043] [EV-IMM-045]. An asylum applicant's work permit after 150 days, without the new charge",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-043",
+   "EV-IMM-045",
+   "EV-IMM-621"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.07",
+  "title": "Unobligated wall money redirected to evidence-backed border security",
+  "agenda": "IMM-3",
+  "status": "decided, point 7 as changed; R1",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "The balance of the 2025 law's $46.55 billion border wall appropriation unobligated on the day R1 is enacted [EV-IMM-034] is made available until September 30, 2034 for: screening technology at ports of entry; Border Patrol processing and staffing; surveillance and detection technology; search and rescue; and barrier construction, repair or maintenance at locations where the Border Patrol's published operational requirements recommend it. Each wall project needs a published needs assessment by the Chief of the Border Patrol, consultation with the affected tribes, landowners and local governments, and the environmental review the 2025 law would otherwise waive. CBP reports each year what the money bought",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "DHS (CBP)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-034",
+   "EV-IMM-175"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.08",
+  "title": "Court capacity: the 800-judge cap repealed",
+  "agenda": "IMM-3",
+  "status": "decided, memo 4 part 2; proposed to CRT-5",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Repeal the cap from November 1, 2028 [EV-IMM-105]. Judges with support staff sized to clear the backlog in about six years at the inflow after legalization (working assumption: about 1,000-1,200 judges, to be set from a docket model with democratic renewal)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "PROPOSAL",
+    "kind": "proposal",
+    "note": "proposed to another dossier"
+   }
+  ],
+  "agency": "DOJ (EOIR), then the CRT-5 court",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-105",
+   "EV-IMM-100",
+   "EV-IMM-112"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.09",
+  "title": "Timelines",
+  "agenda": "IMM-3",
+  "status": "decided, memo 4 part 2; proposed to CRT-5",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Detained cases decided within 90 days; review of an officer's asylum denial within 180 days; non-detained cases within two years once the backlog is cleared",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "PROPOSAL",
+    "kind": "proposal",
+    "note": "proposed to another dossier"
+   }
+  ],
+  "agency": "DOJ (EOIR), then the CRT-5 court",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-112"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.10",
+  "title": "Notice and limits on orders in absentia",
+  "agenda": "IMM-3",
+  "status": "decided, memo 4 part 2; proposed to CRT-5",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Hearing notices go to the address in the records the government holds (IMM-1.06), with a right to reopen an order issued without proper notice; 15% of in absentia orders in 2008-18 were later overturned [EV-IMM-316]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "PROPOSAL",
+    "kind": "proposal",
+    "note": "proposed to another dossier"
+   }
+  ],
+  "agency": "DOJ (EOIR), then the CRT-5 court",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-316",
+   "EV-IMM-106"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.11",
+  "title": "Independence",
+  "agenda": "IMM-3",
+  "status": "decided, memo 4 part 2; proposed to CRT-5",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Judges not removable at will by the Attorney General; the 2026 court bill's Article I structure [EV-IMM-113] is the base CRT-5 uses. Its form, tenure and fallback stay with democratic renewal",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "PROPOSAL",
+    "kind": "proposal",
+    "note": "proposed to another dossier"
+   }
+  ],
+  "agency": "Democratic renewal (CRT-5)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-113"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-3.12",
+  "title": "Appointed counsel for children, people with serious mental illness and everyone detained",
+  "agenda": "IMM-3",
+  "status": "decided, memo 4 part 2, counsel B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Government-appointed counsel in removal proceedings for children, people found to have a serious mental illness, and every detained person. Children's counsel runs through HHS's refugee office; the others through a DOJ program until CRT-5 exists. The 2026 court bill appoints none [EV-IMM-114]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DOJ (EOIR); HHS (ORR)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-114",
+   "EV-IMM-314",
+   "EV-IMM-324",
+   "EV-IMM-327",
+   "EV-IMM-328"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.01",
+  "title": "ICE replaced; DHS's immigration functions restructured",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5 part 1 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "U.S. Immigration and Customs Enforcement is abolished on the transition date (working choice: October 1, 2031, about 21 months after signature, once registration is open). DHS's immigration work is organized in four lines, each led by a Senate-confirmed head: (1) *border and ports*, CBP, unchanged in mission; (2) *benefits and humanitarian processing*, USCIS, with the asylum officer corps and the surge rule's reception centers (IMM-3.01, 3.02); (3) *interior immigration enforcement*, a new component that takes over removal operations under IMM-4.03 to 4.10, with its case-management service run separately from arrests (IMM-4.06); (4) *criminal investigations* (IMM-4.02). The act names the new components; this dossier commits to no name (\"Humanitarian Processing Service\" is not adopted). Personnel, contracts and appropriations transfer by function. Officers are re-credentialed under the new rules, with training in them before the transition date",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-171",
+   "EV-IMM-179",
+   "EV-IMM-180"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.02",
+  "title": "Criminal investigations a separate component",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5 part 1 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Homeland Security Investigations' work on smuggling, trafficking, child exploitation, customs fraud and transnational crime becomes its own DHS component. It makes no civil immigration arrests except of a person who is the subject of its criminal case. The Secure America Act's $7.45 billion for it lapses with the rest in 2029 [EV-IMM-040]; FY2030 appropriations carry it",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-040"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.03",
+  "title": "Enforcement priorities in statute",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5, A's rules",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "National security, public safety (a conviction for a serious crime, as the act lists) and recent unlawful entry (after the cutoff, IMM-1.04, and within the last two years, working choice) come first. Each arrest outside them carries a written reason, reviewed by a supervisor and counted in a published monthly report. The rules bind every officer exercising immigration authority, including state and local partners (IMM-4.10)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (interior enforcement)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-171",
+   "EV-IMM-014"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.04",
+  "title": "Enforceable detention standards",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5, A's rules",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Standards for medical care, conditions, access to counsel and family contact set by rule and binding on every facility, contract and local jail used. People held may sue to enforce them; a facility failing two inspections in a row loses its contract. Every death in custody is reviewed and published within 90 days",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (interior enforcement; the inspector, IMM-4.09)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-179",
+   "EV-IMM-178"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.05",
+  "title": "A cap of 30,000 on average daily detention",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5, A's rules; funded in FY2030 appropriations",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Average daily detention over a fiscal year may not exceed 30,000 [EV-IMM-571]. An emergency waiver for up to 90 days, renewable once, when the surge rule is active (IMM-3.02) and priority cases exceed the cap, reported to Congress within 7 days with its reasons. A sustained rise in priority arrests above the cap for two years is answered by statute, not by waiver (memo 5). FY2030 appropriations fund the cap from October 1, 2029, when the reconciliation money lapses [EV-IMM-035]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   },
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "FY2030 Homeland Security appropriations act"
+   }
+  ],
+  "agency": "DHS (interior enforcement)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-571",
+   "EV-IMM-362",
+   "EV-IMM-171",
+   "EV-IMM-172",
+   "EV-IMM-035"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.06",
+  "title": "Case management as the default",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5, A's rules",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "People outside the priorities are released to case management, not held: a case manager, help with legal counsel, housing and schooling, and reminders of hearings, on the Family Case Management Program's model [EV-IMM-355] [EV-IMM-357]. It is run by nonprofit and local providers under contract, separate from the arrest function. Electronic monitoring only where a judge or a written risk finding requires it. Appearance rates are published",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   },
+   {
+    "vehicle": "APPROPS",
+    "kind": "discretionary",
+    "note": "FY2030 Homeland Security appropriations act"
+   }
+  ],
+  "agency": "DHS (interior enforcement, case-management service)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-355",
+   "EV-IMM-354",
+   "EV-IMM-356",
+   "EV-IMM-357",
+   "EV-IMM-181",
+   "EV-IMM-629"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.07",
+  "title": "Protected places",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5, A's rules",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "No arrest, search or surveillance at or near schools, places of worship, hospitals and clinics, courthouses, shelters and disaster sites without a judicial warrant or exigent circumstances, which are recorded and reported",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (all components)",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.08",
+  "title": "Officer identification: one statute with the executive-power file",
+  "agenda": "IMM-4",
+  "status": "decided, point 6; memo 5, A's rules",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Visible name or badge number and agency on every officer making an arrest; no face coverings except in documented undercover work. One statute for every federal law-enforcement officer, referenced from both files (staging 5.11)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "EXEC",
+    "kind": "executive",
+    "note": "executive action, January 20, 2029"
+   }
+  ],
+  "agency": "DHS; executive power",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.09",
+  "title": "An independent detention inspector",
+  "agenda": "IMM-4",
+  "status": "working choice, to make IMM-4.04 enforceable",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "A detention inspector inside DHS's Office of Inspector General, with unannounced inspections of every facility at least once a year, public reports and the power to recommend ending a contract",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (Inspector General)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-179"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.10",
+  "title": "Delegated authority only on the same rules",
+  "agenda": "IMM-4",
+  "status": "working choice, from IMM-4.03",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Agreements that let state and local police exercise immigration authority (section 287(g); 2,506 signed by September 2026 [EV-IMM-180]) continue only if the partner is bound by IMM-4.03 to 4.08. Existing agreements end on the transition date (IMM-4.01) unless renewed on those terms",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (interior enforcement)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-180"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.11",
+  "title": "The firewall's enforcement side",
+  "agenda": "IMM-4",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "No immigration enforcement component may request, receive or use data barred by IMM-1.36, including registry and registration files, the plan's program records and the labor agencies' complaint files (IMM-4.17). Breach is a violation subject to IMM-1.36's penalties",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.12",
+  "title": "E-Verify permanent and mandatory, phased in by employer size",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5 part 2 A",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "The pilot's sunset is struck, as the 2026 Mandatory E-Verify Act would [EV-IMM-633]; E-Verify's authority has lapsed and been extended in appropriations [EV-IMM-397]. Every employer checks each new hire, within three working days of the start of work, in four tranches a year apart: (1) employers with 500 or more employees; (2) 100-499; (3) 20-99; (4) 1-19, household employers and agricultural employers. No tranche starts before the date IMM-4.13 sets. Existing employees are not re-checked (working choice: the burden of re-checking falls on long-settled workers and buys little once they hold status). Federal contractors' current duty continues",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); SSA",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-633",
+   "EV-IMM-397",
+   "EV-IMM-394",
+   "EV-IMM-399",
+   "EV-IMM-402"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.13",
+  "title": "The mandate's start: one year after the status programs are certified running",
+  "agenda": "IMM-4",
+  "status": "specified; reviewer's note (a)",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "*\"The status programs are running\"* means the USCIS Director has certified, and the DHS Inspector General has confirmed within 90 days, that for three consecutive full months: (1) filing for the registry, tier A and registration (IMM-1.05) is open nationwide, online, on paper and at every front door (IMM-6.04), in at least the ten languages most used by applicants; (2) at least 95% of complete filings receive their receipt, which is the work permit (IMM-1.10), within 14 days, and it is recorded in E-Verify's and SSA's records within 30 days of filing; (3) every DACA, TPS and parole holder in USCIS's files has been sent their notice (IMM-1.07); (4) the fee waiver is decided on the form (IMM-1.09); (5) in a published test of E-Verify on a sample of registered people, their erroneous tentative nonconfirmation rate is no higher than permanent residents' (0.7% in FY2009 [EV-IMM-391]). The first tranche starts on the first October 1 that is at least twelve months after the Inspector General's confirmation; each later tranche twelve months after the one before. *On the working timeline:* filing opens about October 1, 2030; the conditions are met and confirmed by about October 2031; the first tranche starts no earlier than October 1, 2032, and the last on October 1, 2035. *A review pause* (working choice, inside \"fast error correction\"): before each later tranche, USCIS publishes the past year's erroneous nonconfirmation rates by group; if the rate for work-authorized noncitizens is above 1%, the next tranche waits twelve months, once, while the Secretary reports a correction plan to Congress. A small question for Espen (end of this section)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS; Inspector General)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-391",
+   "EV-IMM-392"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.14",
+  "title": "Fast error correction",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5 part 2 A",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "(1) A tentative nonconfirmation is given to the worker in writing the same working day, in plain language and the worker's language, with how to contest it; (2) the worker has ten federal working days to contest (now eight), by phone, online or at a front door; (3) the employer may take no adverse action until the result is final, and a breach is an unfair immigration-related employment practice under 8 U.S.C. 1324b, with back pay; (4) SSA and USCIS resolve a contested case within ten federal working days, and an unresolved case closes as authorized; (5) a worker who loses work through an erroneous final nonconfirmation is paid lost wages on a short administrative claim to USCIS, with a right to sue; (6) free self-check and a lock on one's own number; (7) memo 1's statuses are loaded at registration (IMM-1.10, 1.12), so the newly legalized are confirmed automatically",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); SSA; DOJ (Immigrant and Employee Rights Section)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-391",
+   "EV-IMM-392",
+   "EV-IMM-613",
+   "EV-IMM-237"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.15",
+  "title": "Employers' duties and limits",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5 part 2 A; details working choices",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Free: no fee for any query. Web access, a phone line and an agent route through payroll providers for small employers. No checking before a job offer and no re-checking to screen; misuse is penalized. An employer who uses E-Verify in good faith is not liable for a wrong confirmation. Civil penalties for knowingly hiring without authorization stay as in current law, with higher penalties for employers who do so to undercut wages or labor standards",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); DOJ (IER)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-614",
+   "EV-IMM-237"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.16",
+  "title": "Labor-standards enforcement",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5 part 2, B's enforcement",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Wage and Hour and OSHA inspections targeted at the sectors with the highest violation rates (working list: agriculture, construction, care, food processing, hospitality and cleaning), and enforcement of the work routes' attestations (IMM-2.12). Funded in the agency rebuild's Wage and Hour and OSHA lines (CAP-7, legacy D9's list), already booked. The work flagship receives the items (seam)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "Labor (WHD, OSHA)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-237"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.17",
+  "title": "Protection for workers who report abuse",
+  "agenda": "IMM-4",
+  "status": "decided, memo 5 part 2, B's enforcement",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "A worker who files or takes part in a labor, safety, wage or discrimination complaint receives deferred action and a work permit for the complaint's duration plus six months, on the labor agency's statement of interest. Threatening a worker with immigration action, or reporting them to DHS, in retaliation is a violation with penalties. A U or T visa applicant receives a decision on bona fide status and a work permit within 180 days (working choice). Labor agencies' complaint files sit inside the firewall (IMM-1.36, 4.11)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "Labor; DHS (USCIS)",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-4.18",
+  "title": "Published counts for the mandate",
+  "agenda": "IMM-4",
+  "status": "working choice, from the design lens",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Monthly: queries, automatic confirmations, tentative and final nonconfirmations by status group, contests and their outcomes, days to resolve, and wage claims paid (IMM-4.14). A GAO audit before each tranche",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); GAO",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-191",
+   "EV-IMM-398"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, parts 1-2 (memo 5)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-5.01",
+  "title": "Codify Trump v. Barbara in 8 U.S.C. 1401",
+  "agenda": "IMM-5",
+  "status": "decided, point 10; the act",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Section 1401(a) states the Court's holding in its own words, closing the statutory route Justice Kavanaugh left open [EV-IMM-031]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "—",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-031"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-5.02",
+  "title": "Denaturalization limits",
+  "agenda": "IMM-5",
+  "status": "decided, point 11; the act",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Only in a judicial proceeding, on clear and convincing evidence, within ten years of naturalization (except for war crimes and terrorism), and no quotas or targets",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DOJ",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-5.03",
+  "title": "The test at the 2008 standard; no neighborhood investigations",
+  "agenda": "IMM-5",
+  "status": "decided, point 12; the act",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "The civics and English test as in 2008; USCIS's 2025 return to neighborhood investigations ends [EV-IMM-427]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-427"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-5.04",
+  "title": "The naturalization fee held at $760, waived below 200% of poverty, half price to 400%",
+  "agenda": "IMM-5",
+  "status": "decided, memo 7 part 2; R1",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "N-400 at $760 [EV-IMM-422], indexed; no fee below 200% of poverty; $380 from 200% to 400%; paid for by the appropriation (IMM-6.01). DHS's June 2026 proposal [EV-IMM-423] is withdrawn",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-422",
+   "EV-IMM-423",
+   "EV-IMM-424",
+   "EV-IMM-425",
+   "EV-IMM-420",
+   "EV-IMM-428"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-5.05",
+  "title": "Naturalization ceremonies and USCIS offices as voter-registration points",
+  "agenda": "IMM-5",
+  "status": "proposed to democratic renewal, point 14; legacy DEM-1E",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Each new citizen is offered registration at the ceremony",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "PROPOSAL",
+    "kind": "proposal",
+    "note": "proposed to another dossier"
+   }
+  ],
+  "agency": "Democratic renewal",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-6.01",
+  "title": "Public-interest work appropriated",
+  "agenda": "IMM-6",
+  "status": "decided, memo 7 part 1 B; R1",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Appropriations pay for legalization, asylum and refugee work and the naturalization discount: about $17-27 billion over FY2030-39 in all (memo 7's table), multi-year money available on enactment so USCIS hires before filing opens. It replaces the agency rebuild's USCIS line ($40 billion of CAP-7S [EV-IMM-573])",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-145",
+   "EV-IMM-123",
+   "EV-IMM-573",
+   "EV-IMM-574",
+   "EV-IMM-575"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-6.02",
+  "title": "Fees at cost for the rest",
+  "agenda": "IMM-6",
+  "status": "decided, memo 7 part 1 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Petitions, renewals and other benefits are fee-funded at cost, with no surcharge for waived work. The employer-paid Asylum Program Fee stays [EV-IMM-626]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-145",
+   "EV-IMM-626"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-6.03",
+  "title": "A six-month processing target in statute",
+  "agenda": "IMM-6",
+  "status": "decided, memo 7 part 1 B; the act",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Standard benefit applications decided within six months; processing times published monthly by form and office",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS)",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-140",
+   "EV-IMM-141"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-6.04",
+  "title": "Online filing for every form, front doors and the Office of New Americans",
+  "agenda": "IMM-6",
+  "status": "decided, memo 7 part 1 B",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Every form online, and on paper. Statements, confirmations and corrections for the registry (IMM-1.06, 1.07) are also taken at SSA field offices, USDA Rural Development state and area offices (`DEC-2026-11-09-26`), IRS assistance centers and DOJ-recognized nonprofit legal services, which pass them to USCIS the same day. An Office of New Americans for English classes, credential recognition and integration grants",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); SSA; USDA (RD); IRS",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-6.05",
+  "title": "The pending $6 billion asylum and refugee reserve folded in",
+  "agenda": "IMM-6",
+  "status": "decided, point 9",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "The capacity reserve's proposal [EV-IMM-578] is withdrawn; IMM-6.01's line carries the work",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "—",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-578"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-6.06",
+  "title": "The records match: IRS, SSA and USCIS",
+  "agenda": "IMM-6",
+  "status": "decided, memo 2 C",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "A data agreement in statute lets USCIS ask the IRS and SSA whether records show a person's residence in given years, and receive yes or no with the years, not the returns. Each query is logged and counted. The data sits inside the firewall (IMM-1.36). A yearly fraud audit of the sworn-statement route (IMM-1.06) is published, with a review trigger: if abuse is found at scale, two documents are required per gap year",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); Treasury (IRS); SSA",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-606"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
+  "id": "IMM-6.07",
+  "title": "Scores requested in 2027-28",
+  "agenda": "IMM-6",
+  "status": "decided, point 13; preparation",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Ask CBO and JCT to score the status title and the table (IMM-1), and SSA's actuaries the Social Security effect",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "PROPOSAL",
+    "kind": "proposal",
+    "note": "proposed to another dossier"
+   }
+  ],
+  "agency": "—",
+  "current_law": "",
+  "evidence": [],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7)",
+  "spec": "dossiers/immigration/4-specification.md"
+ }
+]

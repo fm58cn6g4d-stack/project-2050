@@ -1,6 +1,6 @@
 # A new consensus on immigration: design choices
 
-Role: section 3 of the immigration dossier: the real forks, the options weighed with their evidence and costs, a recommendation for each, one decision memo per batch of forks in `memos/`, and a numbered list of narrower yes-or-no points. Status: draft for decision (stage E, board row I3, question 0p); nothing here is decided. Every recommendation is a proposal to Espen, decided memo by memo and point by point (`charter/STANDARDS.md`, "Decision memos"). Sources are named in plain text in the memos; bracketed tags point to `evidence.json` or another dossier's register; "project arithmetic" is shown where it is used; "judgment" marks a working assumption with its basis below (`DEC-2026-11-10-07`). Figures and analysis from the second Trump administration's agencies are its own (`DEC-2026-10-30-01`).
+Role: section 3 of the immigration dossier: the real forks, the options weighed with their evidence and costs, a recommendation for each, one decision memo per batch of forks in `memos/`, and a numbered list of narrower yes-or-no points. Status: **decided** (`DEC-2026-11-12-07`, board question 0p, November 12, 2026): as recommended, except memo 5 and points 1 and 7; sections 4-6 specify and price the decided set (board row I4). The options and recommendations below are kept as Espen decided them, each memo and point on its own (`charter/STANDARDS.md`, "Decision memos"). Sources are named in plain text in the memos; bracketed tags point to `evidence.json` or another dossier's register; "project arithmetic" is shown where it is used; "judgment" marks a working assumption with its basis below (`DEC-2026-11-10-07`). Figures and analysis from the second Trump administration's agencies are its own (`DEC-2026-10-30-01`).
 
 ## How to read this section
 
@@ -24,6 +24,17 @@ Role: section 3 of the immigration dossier: the real forks, the options weighed 
 - **Time frame** (`DEC-2026-10-29-01`). Recommendations start with the 2029 law; anything earlier is labeled preparation.
 - **Working assumption on rule 3 and the child benefit.** Secure floor question 0o is still open. Where rule 3 meets the child benefit, this section takes that memo's recommendation (memo 1, part 2 B, the child's own ID) as the working assumption, and says so in memo 6.
 
+## Decided
+
+Espen decided the batch on November 12, 2026 (`DEC-2026-11-12-07`), each memo and point on its own:
+- **As recommended:** memo 1 **A** with its three changes; memo 2 **C**; memo 3 part 1 **B** and part 2 **B**; memo 4 part 1 **D**, part 2 yes with counsel **B**; memo 6 **C**; memo 7 part 1 **B** and part 3 **B**, with the naturalization fees as recommended.
+- **Memo 5 part 1: B with A's rules.** Restructure DHS's departments and agencies and replace ICE, without committing to the name "Humanitarian Processing Service"; keep A's conduct rules in statute: priorities and enforceable detention standards, a 30,000 cap on average daily detention, case management as the default. Espen: "replace ICE, and maybe don't commit to name 'Humanitarian Processing Service' either, but it needs a restructure of the department and agencies at DHS. keep 5 (1) A's conduct rules in statute".
+- **Memo 5 part 2: A with B's enforcement.** Mandatory E-Verify as the trade for much wider legal status, phased in by employer size, with no tranche mandated until at least a year after the status programs are running, fast error correction, and B's labor-standards enforcement and protection for workers who report abuse. Espen: "Yes, mandate as described … and have mandate wait at least a year before even first employer size tranche is mandated".
+- **Point 1 changed:** registration's cutoff is the law's signature date or a set period after it; section 4 proposes which (`4-specification.md`, IMM-1.04: the signature date, recommended).
+- **Point 7 changed:** unobligated wall money from the 2025 law is redirected to evidence-backed border security investments, with continued wall-related work from that money where the Border Patrol and others recommend it (IMM-3.07).
+- **Points 2-6 and 8-14:** yes.
+- **What it changes here** (`6-cost.md`, part 1): the decided set costs about **+$0.12 trillion over FY2030-39 (range about −$0.06 to +$0.33 trillion) and about +$16.5 billion in FY2040** on the general fund, against the recommended set's +$0.13 trillion and +$19 billion. Replacing ICE adds about $3 billion. E-Verify's mandate gains the general fund about $19 billion under JCT's convention, while it costs about $3 billion to run and Social Security's funds lose about $35 billion. Point 8's fee repeals and the H-1B fee's tax offset, named here but not added, are now counted. IMM-1's legacy −$0.14 trillion is replaced by the re-derived figure, about +$0.05 trillion for status alone, carried unchanged into section 6. Two small questions for Espen come from the specification: the cutoff (IMM-1.04) and the E-Verify start test (IMM-4.13).
+
 ## The baseline in 2029
 
 Section 1 gives it in full ("The January 2029 baseline"). In brief:
@@ -34,7 +45,7 @@ Section 1 gives it in full ("The January 2029 baseline"). In brief:
 
 ## The forks at a glance
 
-| Fork | Memo | Options | Recommended |
+| Fork | Memo | Options | Recommended (decided as recommended unless noted, `DEC-2026-11-12-07`) |
 | --- | --- | --- | --- |
 | 1. Who gets status, on what path | 1 | **A** legacy tiers A and B (IMM-1A); **B** tier A only (1B); **C** status without citizenship (1C, Dignity Act); **D** everyone before a cutoff (1D, U.S. Citizenship Act) | **A**, with tier B's ten years counted to the day of application, registration now for everyone else present, and tier A's work route extended to care and construction; green card on approval |
 | 2. Delivery and form | 2 | **A** an application program with fees, penalty and documents; **B** a rolling registry date with the ordinary form; **C** a records-first standing registry | **C**: 8 U.S.C. 1259 rolling ten years, records the government holds, no penalty, fee waived below 200% of poverty, work permit on filing |
@@ -43,8 +54,8 @@ Section 1 gives it in full ("The January 2029 baseline"). In brief:
 | 5. Workforce visas (rule 8) | 3, part 2 | **A** two legacy visas; **B** portable farm, care and construction routes with wage floors and permanence; **C** none; **D** guest workers | **B** |
 | 6. Asylum and the border | 4, part 1 | **A** legacy IMM-3; **B** A plus the 2024 emergency bar; **C** the 2029 baseline; **D** A plus a surge rule of capacity, not a bar | **D**, with a 50,000 refugee floor |
 | 7. What the system needs from the courts | 4, part 2 | Five requirements; counsel **A** children and serious mental illness, **B** A plus everyone detained, **C** everyone | **The five requirements, counsel B**; the 800-judge cap repealed |
-| 8. Enforcement and detention | 5, part 1 | **A** IMM-4A; **B** the DHS split (4B); **C** guidance only (4C); **D** 2026 levels | **A**, cap 30,000 |
-| 9. Workplace verification | 5, part 2 | **A** mandatory E-Verify after registration; **B** labor-standards enforcement, E-Verify voluntary; **C** a narrow mandate | **B** |
+| 8. Enforcement and detention | 5, part 1 | **A** IMM-4A; **B** the DHS split (4B); **C** guidance only (4C); **D** 2026 levels | **A**, cap 30,000; **decided: B with A's rules** (replace ICE, no name; the cap and rules in statute) |
+| 9. Workplace verification | 5, part 2 | **A** mandatory E-Verify after registration; **B** labor-standards enforcement, E-Verify voluntary; **C** a narrow mandate | **B**; **decided: A with B's enforcement** (phased by size, at least a year after the status programs run) |
 | 10. Citizenship | 7 part 2; points 10-12 | Fees; codification; denaturalization; the test | Fee held at $760, waived below 200% of poverty, half price to 400%; points 10-12 yes |
 | 11. One eligibility table | 6 | **A** current law; **B** the legacy five-year bar; **C** residence for the plan's programs, restored status rules for the older ones; **D** every program for everyone | **C** |
 | 12. USCIS and the vehicle | 7 | Funding **A** fees plus the legacy line, **B** public work appropriated, **C** fully appropriated; vehicle **A** one bill, **B** reconciliation plus one bill, **C** three bills | **B** and **B** |
@@ -88,6 +99,7 @@ Federal cost against the January 2029 law, in nominal dollars, over FY2030-39 an
 - *Now:* −$0.14 trillion (−0.25 to −0.02), profile "Net saving grows as legalized workers enter the tax base" (`models/data/budget/provisions.csv`, row IMM-1).
 - *Proposed, if the recommended set is chosen:* a cost. Either one row at **+$0.13 trillion (range −$0.04 to +$0.31 trillion), +$19 billion in FY2040**, or, better, split so each part can move with its decision: IMM-1 status and delivery (memos 1-2) +$0.05 trillion; the eligibility table (memo 6) +$0.08 trillion; IMM-2 legal immigration (memo 3) −$0.04 trillion; IMM-3 asylum and the court requirements (memo 4) +$0.03 trillion; IMM-4 (memo 5) zero; these rows sum to about +$0.12 trillion, and the remaining +$0.01 trillion is memo 7's USCIS work beyond memos 2 and 4, carried in CAP-7S, whose USCIS share is rebuilt at about $0.02-0.03 trillion in all instead of $46 billion. The profile becomes a cost rising through the decade, as in CBO's 2021 tables, with Social Security's gain reported off-budget.
 - *Basis tag:* estimate, bounded by CBO's 2013 and 2021 scores; a real score is requested in 2027-28 (point 13).
+- *As decided:* section 6 carries IMM-1's re-derived +$0.05 trillion unchanged, prices the decided set at about +$0.12 trillion and +$16.5 billion in FY2040, and proposes the split rows for a later booking (`6-cost.md`, parts 1 and 6).
 
 ## Against the bills
 
@@ -142,50 +154,50 @@ Each is decided on its own. None is adopted by silence. Costs are judgment unles
 
 1. **Registration's cutoff is the immigration bill's introduction date in 2029,** so debate does not draw arrivals; the ten-year line rolls from then on (memo 1).
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: changed** (`DEC-2026-11-12-07`): the cutoff is the act's signature date or a set period after it; section 4 recommends the signature date (IMM-1.04).
 2. **The criminal bars are the registry's existing grounds** [EV-IMM-623], with no bar for immigration-only offenses (unlawful entry and reentry) and a waiver for old or minor convictions.
    - *Why:* a bar should screen for danger, not for how a person crossed.
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 3. **A work permit and protection from removal from the day a person files** (memo 2).
    - *Burden it removes:* months without lawful work while USCIS decides.
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 4. **Back taxes only as the IRS assesses them on income already earned,** not a reconstruction by the applicant (the legacy rule, `domain-immigration.md`, line 43).
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 5. **The new statuses carry work-eligible Social Security numbers from registration,** so legalized parents meet the 2025 child credit rule [EV-IMM-050] even if Espen keeps it, and earnings post to their own records.
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 6. **Officer identification is one statute shared with the executive-power file** (`domain-immigration.md`, line 91; staging 5.11).
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 7. **The 2029 reconciliation bill rescinds the 2025 law's unobligated wall money** [EV-IMM-034] and funds port screening instead.
    - *Cost:* a saving of whatever is unobligated in mid-2029, unknown now; reported, not booked.
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: changed** (`DEC-2026-11-12-07`): the unobligated money is redirected to evidence-backed border security, with wall work where the Border Patrol and others recommend it (IMM-3.07); against CBO's baseline it saves nothing.
 8. **Repeal the asylum charges that grow with delay:** the $100-a-year pending fee and the $550 first work permit charge [EV-IMM-043] [EV-IMM-045].
    - *Cost:* small; part of CBO's $66.5 billion of fee revenue for the 2025 title [EV-IMM-619] (judgment: under $1 billion a year).
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 9. **Fold the pending $6 billion asylum and refugee reserve** [EV-IMM-578] **into memo 7's bottom-up USCIS line,** rather than adding it on top. This answers the item D9 left pending.
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 10. **Codify *Trump v. Barbara* in 8 U.S.C. 1401,** in the Court's words, closing the statutory route Justice Kavanaugh left open [EV-IMM-031].
 
-    **Recommended: yes.**
+    **Recommended: yes.** **Decided: yes.**
 11. **Denaturalization only in a judicial proceeding, on clear and convincing evidence, within a ten-year limit, with no quotas** (legacy, `domain-immigration.md`, line 112).
 
-    **Recommended: yes.**
+    **Recommended: yes.** **Decided: yes.**
 12. **The civics and English test at the 2008 standard; end neighborhood investigations of naturalization applicants** [EV-IMM-427].
 
-    **Recommended: yes.**
+    **Recommended: yes.** **Decided: yes.**
 13. **Ask CBO and JCT to score the status title and memo 6's table, and SSA's actuaries the Social Security effect, in 2027-28** (preparation). No score of a design like this exists (section 2, "Evidence still needed").
 
-    **Recommended: yes.**
+    **Recommended: yes.** **Decided: yes.**
 14. **Naturalization ceremonies and USCIS offices become voter-registration points,** proposed to democratic renewal with legacy DEM-1E.
 
-    **Recommended: yes, as a proposal to democratic renewal.**
+    **Recommended: yes, as a proposal to democratic renewal.** **Decided: yes.**
 
 ## Shared rules this section relies on
 
@@ -238,4 +250,4 @@ From `dossiers/shared-rules.md`. Rule 3 is this dossier's; rule 8 is shared with
 
 ## Questions for Espen
 
-The memo set goes on the board as one entry (`charter/PROGRESS.md`, "Questions for Espen", 0p): memos 1-7 and points 1-14, each decided on its own.
+Question 0p is answered (`DEC-2026-11-12-07`). Two small questions come with the specification, each a choice the decision left to section 4: registration's cutoff (IMM-1.04; recommended: the signature date) and the E-Verify start test (IMM-4.13; recommended: a checked test, with the first tranche the first October 1 at least a year after it).
