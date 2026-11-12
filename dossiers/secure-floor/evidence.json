@@ -12350,5 +12350,1843 @@
   "supports": [
    "dossiers/secure-floor/2-what-works.md"
   ]
+ },
+ {
+  "id": "EV-SEC-600",
+  "statement": "The Tax Policy Center estimated that phasing in the child tax credit from the first dollar of earnings and allowing the full $2,000 to be refundable would cost about $48.5 billion over FY2025 to FY2034.",
+  "claim": "analysis",
+  "figures": [
+   "$48.5 billion",
+   "$2,000",
+   "FY2025",
+   "FY2034"
+  ],
+  "source": "SRC-3651",
+  "anchor": [
+   "allowing the full $2,000 to be received as a refundable credit would cost about $48.5 billion over the 10-year budget window from FY2025 to FY2034 (Table 1)."
+  ],
+  "locator": "TaxVox post, paragraph on phasing in the CTC faster",
+  "grade": "C",
+  "fact_date": "2025-05",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Tax Policy Center, May 2025, written before the $2,200 law passed, so the baseline is a $2,000 credit; stance neutral. Headline matches the number, but it is the cost of a faster phase-in with the existing $2,000 cap, not of the full-refundability design with no earnings requirement, and it is not scaled to $2,200.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-603",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-601",
+  "statement": "Columbia's Center on Poverty and Social Policy estimated that 19 million children, 28 percent of those under 17, are ineligible for the full credit in 2025 because family income is too low, which is the group a fully refundable credit would reach.",
+  "claim": "analysis",
+  "figures": [
+   "19 million",
+   "28%",
+   "2025"
+  ],
+  "source": "SRC-3652",
+  "anchor": [
+   "We estimate that in 2025, more than 1 in 4 children (28%) under age 17 will be ineligible for the full Child Tax Credit under OBBBA because their family income is not high enough to qualify.",
+   "This represents 19 million children left behind: 17 million children previously ineligible for the full credit who see no gains under OBBBA and remain ineligible for the full credit plus roughly two million children in moderate-income families newly ineligible for the full credit."
+  ],
+  "locator": "Key findings, first two bullets",
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Columbia University Center on Poverty and Social Policy, updated August 2025 for the final law; research center that favors a fully refundable credit. Counts the affected children, it does not score cost or poverty.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-602",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-602",
+  "statement": "The Center on Budget and Policy Priorities said that making the full $2,200 credit available to children in lower-income families would reduce the number of children below the poverty line by 1.2 million this year.",
+  "claim": "analysis",
+  "figures": [
+   "$2,200",
+   "1.2 million"
+  ],
+  "source": "SRC-3653",
+  "anchor": [
+   "Making the full $2,200 credit available to families with lower incomes would have a meaningful impact on child poverty, reducing the number of children in families with incomes below the poverty line by 1.2 million this year."
+  ],
+  "locator": "Section 'Policymakers Should Help Improve Economic Security'",
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Center on Budget and Policy Priorities, July 30, 2026; advocacy-oriented think tank. The estimate is attributed to a footnote not opened by this reader and the page does not state the poverty measure or the cost; treat as a secondary citation.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-603",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-601",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-603",
+  "statement": "The Century Foundation's simulation found that making the existing child tax credit fully refundable could cut the child poverty rate by 22 percent at about $23 billion per year.",
+  "claim": "analysis",
+  "figures": [
+   "22 percent",
+   "$23 billion per year"
+  ],
+  "source": "SRC-3654",
+  "anchor": [
+   "making the existing Child Tax Credit fully refundable (as described in the Economic Mobility Act) could cut the child poverty rate by 22 percent.",
+   "making the existing Child Tax Credit fully refundable is estimated to cost $23 billion per year."
+  ],
+  "locator": "Results section and cost paragraph",
+  "grade": "C",
+  "fact_date": "2020-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The Century Foundation, July 2020, by academics at Columbia and Toronto/Waterloo; pre-2021 law with a $2,000 credit, financing not modeled. The cost is annual in 2020 dollars and the credit amount is below today's $2,200, so scale it up before comparing.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-602",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-600",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-604",
+  "statement": "The Century Foundation modeled a Canada-style child benefit with no phase-in that would cut U.S. child poverty from 13.5 percent to 6.4 percent, moving 5.3 million children out of poverty, at $50 billion to $80 billion per year on top of the existing credit.",
+  "claim": "analysis",
+  "figures": [
+   "13.5 percent",
+   "6.4 percent",
+   "5.3 million",
+   "$50 billion",
+   "$80 billion"
+  ],
+  "source": "SRC-3654",
+  "anchor": [
+   "The results show that a credit modeled on the Canada Child Benefit would reduce the child poverty rate by more than half (from 13.5 percent to 6.4 percent)",
+   "This translates to 5.3 million children overall and 1.6 million young children being moved out of poverty.",
+   "a child allowance in the United States similar to the Canada Child Benefit would cost between $50 billion and $80 billion per year (on top of the existing costs of the Child Tax Credit)"
+  ],
+  "locator": "Figure 3, Table 2 text and cost paragraph",
+  "grade": "C",
+  "fact_date": "2020-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The Century Foundation, July 2020. Design: up to $4,803 per young child and $4,053 per older child, full benefit below $22,095, then phased out (2020 dollars). The paper itself says financing and labor-force effects are not modeled. Headline matches its numbers.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-605",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-605",
+  "statement": "The Center on Budget and Policy Priorities estimated that replacing the child tax credit with a Canada-style child benefit would cut the number of poor children by more than half, at about $50 billion to $80 billion a year more than the credit it replaces.",
+  "claim": "analysis",
+  "figures": [
+   "$50 billion",
+   "$80 billion"
+  ],
+  "source": "SRC-3655",
+  "anchor": [
+   "Transforming the CTC into a child benefit resembling the CCB would reduce the number of children under age 18 living in poverty by more than half, we estimate",
+   "it would cost about $50 billion to $80 billion a year more than the CTC it would replace."
+  ],
+  "locator": "Body text, paragraphs 4-5",
+  "grade": "C",
+  "fact_date": "2018-05",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Center on Budget and Policy Priorities, May 2018, by Arloc Sherman; progressive-leaning think tank. Uses 2015 CPS data with TRIM3 corrections in 2018 dollars. Its cost range matches the Century Foundation's, partly because the same academic literature informs both.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-604",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-606",
+  "statement": "CRFB reported that CBO estimated making the American Rescue Plan child tax credit expansion permanent at $1.60 trillion, while CRFB's own model gave $1.19 trillion, with the gap attributed to methodology.",
+  "claim": "analysis",
+  "figures": [
+   "$1.60 trillion",
+   "$1.19 trillion"
+  ],
+  "source": "SRC-3656",
+  "anchor": [
+   "| Expand the CTC | $1.60 trillion* | $1.19 trillion* |",
+   "*Differences on Child Tax Credit and SALT are largely due to methodological differences."
+  ],
+  "locator": "Table 'Comparison of Estimated Cost of Permanent Build Back Better Act'",
+  "grade": "C",
+  "fact_date": "2021-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Committee for a Responsible Federal Budget, December 10, 2021, reporting a CBO/JCT letter to the Budget Committee ranking members. The CBO figure covers the Build Back Better version of the credit (ARPA amounts, refundable) over 2022-2031; CRFB assumes the TCJA is extended separately, which lowers its number.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-607",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-608",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-607",
+  "statement": "The Peter G. Peterson Foundation summarized CBO as estimating that making the ARPA child credit expansions permanent would cost $1.6 trillion over 2022-2031.",
+  "claim": "analysis",
+  "figures": [
+   "$1.6 trillion",
+   "2022-2031"
+  ],
+  "source": "SRC-3657",
+  "anchor": [
+   "If those expansions were to become permanent, CBO estimates that they would cost $1.6 trillion over the 2022-2031 period."
+  ],
+  "locator": "Section 'The Child Tax Credit'",
+  "grade": "C",
+  "fact_date": "2022-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peter G. Peterson Foundation, February 2022; a secondary summary of CBO. Same CBO number as in the CRFB table, so not independent of it. Pre-dates the 2025 law, so the current-law baseline differs.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-606",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-608",
+  "statement": "The Tax Foundation estimated that making the ARPA expanded child tax credit permanent would cost $1.6 trillion over the 10-year budget window on a conventional basis.",
+  "claim": "analysis",
+  "figures": [
+   "$1.6 trillion",
+   "10-year"
+  ],
+  "source": "SRC-3658",
+  "anchor": [
+   "permanent would cost $1.6 trillion on a conventional basis over the 10-year budget window using a current law baseline."
+  ],
+  "locator": "Opening paragraph and table",
+  "grade": "C",
+  "fact_date": "2021-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Tax Foundation, March 19, 2021; market-oriented think tank, own general equilibrium model. Independent of CBO; lands at the same $1,557.8 billion-scale figure.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-606",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-609",
+  "statement": "The Congressional Research Service reported that the Joint Committee on Taxation estimated a permanent extension of the American Rescue Plan childless EITC expansion would cost $135 billion over FY2022-FY2031, versus $13 billion for a one-year extension.",
+  "claim": "analysis",
+  "figures": [
+   "$135 billion",
+   "FY2022-FY2031",
+   "$13 billion"
+  ],
+  "source": "SRC-3659",
+  "anchor": [
+   "The Joint Committee on Taxation (JCT) estimated that a permanent extension of these changes would cost $135 billion over a 10-year budgetary window (FY2022-FY2031).",
+   "JCT estimated a temporary one-year extension of these changes would cost $13 billion over the same time period"
+  ],
+  "locator": "Page 1-2, EITC provisions text",
+  "grade": "C",
+  "fact_date": "2021-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Congressional Research Service In Focus, December 13, 2021, relaying a Joint Committee on Taxation score; nonpartisan. The score covers the ARPA childless EITC design made permanent over 2022-2031 and the baseline is pre-2025 law.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-610",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-610",
+  "statement": "The Tax Policy Center estimated that restoring the 2021 childless EITC would cost $14.0 billion in fiscal year 2026 and $135.4 billion over FY2025-34, before any marriage-penalty relief.",
+  "claim": "analysis",
+  "figures": [
+   "$14.0 billion",
+   "$135.4",
+   "2021",
+   "2026"
+  ],
+  "source": "SRC-3660",
+  "anchor": [
+   "Restoring the 2021 childless EITC with no other changes would cost $14.0 billion in fiscal year 2026.",
+   "10-year cost (billions $) | (FY2025–34) | $135.4 | $141.4 $133.2"
+  ],
+  "locator": "Text before Table 4; Table 4",
+  "grade": "C",
+  "fact_date": "2025-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Tax Policy Center, April 2025 (date taken from the file path); table sources are TPC Table T25-0105 and JCT Table 25-0-026. Same cost scale as the 2021 JCT score, which supports it. The ten-year figure is read from a flattened table row, so check the column against the PDF before quoting it.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-609",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-611",
+  "statement": "CRFB estimated that permanently extending the ARPA child and dependent care credit expansion would cost $90 billion over ten years in total, including $10 billion for the ARPA year itself.",
+  "claim": "analysis",
+  "figures": [
+   "$10 billion",
+   "$80 billion",
+   "$90 billion"
+  ],
+  "source": "SRC-3661",
+  "anchor": [
+   "| Permanently extend child and dependent care credit expansion | $10 billion | $80 billion | $90 billion |"
+  ],
+  "locator": "Table 'Ten-Year Cost of American Rescue Plan Act With Extensions'",
+  "grade": "C",
+  "fact_date": "2021-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Committee for a Responsible Federal Budget, March 5, 2021; CRFB calculations from CBO data, deficit-focused. The 2021 design is a 50 percent rate on up to $8,000 of expenses per child, fully refundable. Pre-dates 2025 law. No JCT/CBO score of a permanent refundable version was found by this reader.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-612",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-613",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-612",
+  "statement": "The Joint Economic Committee estimated that over 9.1 million families were eligible for the 2021 expanded and fully refundable child and dependent care credit, with an average credit of $2,244, compared with 6.5 million families who claimed it before.",
+  "claim": "analysis",
+  "figures": [
+   "9.1 million",
+   "$2,244",
+   "6.5 million"
+  ],
+  "source": "SRC-3662",
+  "anchor": [
+   "According to estimates from the Joint Economic Committee, more than 9.1 million families were eligible for the expanded Child and Dependent Care Tax Credit in 2021 and could claim the credit as part of their tax return. Before the expansion, just 6.5 million families claimed the credit.",
+   "Nationally, families were eligible for an average credit of $2,244, reimbursing 39% of child care expenses thanks to the Rescue Plan."
+  ],
+  "locator": "Page 1, 'The American Rescue Plan made 9.1 million families eligible'",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Joint Economic Committee staff brief under the Democratic majority in 2021, so advocacy-leaning; eligibility estimate, not claims data and not a cost score. Says the credit was made fully refundable for the first time, which is who gains: low-income families who had no tax to offset.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-613",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-613",
+  "statement": "Brookings said the earlier child and dependent care credit was nonrefundable, did not benefit the lowest-income families, and was heavily skewed toward families making more than $100,000 a year.",
+  "claim": "analysis",
+  "figures": [
+   "$100,000"
+  ],
+  "source": "SRC-3663",
+  "anchor": [
+   "The CDCTC provides tax credits to families for a portion of their child care expenses. However, it is nonrefundable and thus does not benefit Americans with the lowest incomes. In fact, its benefits are heavily skewed toward families making more than $100,000 a year."
+  ],
+  "locator": "Opening discussion of the credit",
+  "grade": "C",
+  "fact_date": "2021-05",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Brookings Institution, May 27, 2021, by Isabel Sawhill and Morgan Welch; centrist think tank. A characterization of the credit's distribution with no table in the extract; use alongside a distributional table from TPC or JCT.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-612",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-614",
+  "statement": "The Niskanen Center estimated that the Family Security Act 2.0 would lift over 1.1 million children out of poverty, a 12.6 percent reduction in the child poverty rate.",
+  "claim": "analysis",
+  "figures": [
+   "1.1 million",
+   "12.6 percent"
+  ],
+  "source": "SRC-3664",
+  "anchor": [
+   "The net impact of the Family Security Act 2.0 would be to lift over 1.1 million children out of poverty, a 12.6 percent reduction in the child poverty rate."
+  ],
+  "locator": "Body text under Table 1",
+  "grade": "C",
+  "fact_date": "2022-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Niskanen Center, June 15, 2022, by Robert Orr; center-right think tank that is generally positive toward the plan. SPM, 2020 CPS data. Close to the Tax Policy Center and Urban figure for the same plan, from a different model.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-615",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-615",
+  "statement": "The Tax Policy Center and Urban Institute estimated that Family Security Act 2.0 would cut child poverty from 14 percent to 12.4 percent and cost just under $45 billion per year, against about $100 billion for the expanded child tax credit.",
+  "claim": "analysis",
+  "figures": [
+   "14 percent",
+   "12.4 percent",
+   "$45 billion",
+   "$100 billion"
+  ],
+  "source": "SRC-3665",
+  "anchor": [
+   "We estimate that FSA 2.0, had it been in place in 2018, would lift over 1.2 million children out of poverty and reduce the child poverty rate from 14 percent to 12.4 percent (table 1).",
+   "We estimate that FSA 2.0 would cost just under $45 billion per year, while the expanded CTC would cost around $100 billion per year (both estimates are in 2018 dollars)."
+  ],
+  "locator": "Results and budget sections",
+  "grade": "C",
+  "fact_date": "2022-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Tax Policy Center, December 2022, by Werner, Airi and Maag using the Urban Institute ATTIS model on 2018 data; nonpartisan. The authors warn the cost may not match other models, especially the savings from offsets. Poverty effect is similar to Niskanen's 12.6 percent.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-614",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-630",
+  "statement": "SSA's Office of the Chief Actuary estimated that raising the SSI resource limits to $10,000 and $20,000 and indexing them would raise federal SSI payments by $8.9 billion over 2025 through 2034.",
+  "claim": "analysis",
+  "figures": [
+   "$8.9 billion",
+   "$10,000",
+   "$20,000",
+   "2025",
+   "2034"
+  ],
+  "source": "SRC-3790",
+  "anchor": [
+   "we estimate the increase in Federal SSI payments would be $8.9 billion over the calendar year period 2025 through 2034",
+   "unmarried individuals and $3,000 for married couples to $10,000 for unmarried individuals and",
+   "$20,000 for married couples, and would index these resource limits by the annual percentage"
+  ],
+  "locator": "Letter, page 1 and annual table",
+  "grade": "C",
+  "fact_date": "2026-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "SSA Office of the Chief Actuary, 7 August 2026, answering Senator Cassidy; estimate is for a proposal similar to S. 1234 with a 2027 start, assuming indexing from 2028. The headline cost is small because the cost grows from $0.5 billion in 2027 to $1.4 billion in 2034 (the table I read); no trust-fund effect stated.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-042",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-631",
+  "statement": "The Roosevelt Institute's microsimulation estimated that the SSI Restoration Act of 2024, which sets the maximum benefit at the poverty line for one person, would cost about $61 billion a year in 2024 dollars, almost doubling SSI spending.",
+  "claim": "analysis",
+  "figures": [
+   "$61 billion",
+   "2024"
+  ],
+  "source": "SRC-3791",
+  "anchor": [
+   "We find that the SSI Restoration Act of 2024 would cost about $61 billion annually in real 2024 dollars.",
+   "the SSI Restoration Act would almost double annual expenditures on SSI",
+   "sets the maximum benefit for a single recipient to the Federal Poverty Line for a household of one"
+  ],
+  "locator": "Blog post, Cost section",
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Roosevelt Institute (progressive think tank), Stephen Nuñez, 5 February 2026; preview of a March 2026 report; not an official score. The post says the benefit increase alone is a preliminary estimate. It states SSA's own estimate for the 2021 version was in line with this figure.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-041",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-632",
+  "statement": "The Roosevelt Institute estimated that the SSI Restoration Act would add 2.58 million SSI recipient households and cut the SSI household poverty rate by 17.46 percentage points to 11.76 percent.",
+  "claim": "analysis",
+  "figures": [
+   "2.58 million",
+   "17.46 percentage points",
+   "11.76 percent"
+  ],
+  "source": "SRC-3791",
+  "anchor": [
+   "We estimate that the SSI Restoration Act would generate an additional 2.58 million SSI recipient households",
+   "The SSI household poverty rate would drop by 17.46 percentage points to 11.76 percent."
+  ],
+  "locator": "Blog post, impact findings",
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Same Roosevelt Institute microsimulation (2024 CPS ASEC, Supplemental Poverty Measure); the effect covers SSI households including newly eligible ones, not all poor people.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-018",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-633",
+  "statement": "Urban Institute estimated that the Senate-passed 2025 reconciliation bill's SNAP provisions would make 22.3 million families lose some or all benefits, with 5.3 million losing at least $25 a month, averaging $146 a month.",
+  "claim": "analysis",
+  "figures": [
+   "22.3 million",
+   "5.3 million",
+   "$25",
+   "$146"
+  ],
+  "source": "SRC-3792",
+  "anchor": [
+   "22.3 million US families would be affected, losing some or all of their SNAP benefits.",
+   "Of the total affected families, 5.3 million would lose at least $25 in SNAP benefits per month.",
+   "Families losing at least $25 per month would lose $146 per month on average"
+  ],
+  "locator": "Key findings",
+  "grade": "C",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Urban Institute, July 2025, preliminary; models the Senate-passed text fully in effect (not temporary Alaska and Hawaii exemptions). Every SNAP family counts as affected because of the Thrifty Food Plan indexing cap, so the 22.3 million headline overstates large losses; the 5.3 million figure is the better guide.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-036",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-634",
+  "statement": "Urban Institute estimated that the reconciliation law, counting direct effects and likely state responses, would raise the number of people in deep poverty by 3.4 million, including 0.8 million children.",
+  "claim": "analysis",
+  "figures": [
+   "3.4 million",
+   "35 percent",
+   "0.8 million"
+  ],
+  "source": "SRC-3793",
+  "anchor": [
+   "We estimate that the number of people in deep poverty would rise by about a quarter, or 3.4 million, including an increase of 35 percent (0.8 million) for children."
+  ],
+  "locator": "Summary",
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Urban Institute, 29 October 2026. Covers the whole law (SNAP, Medicaid, tax changes) so it is the cost of not repealing it, not a SNAP-only figure; includes assumed state responses beyond the law's direct effects.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-024",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-635",
+  "statement": "A federal evaluation found Year Up services cost $27,158 per treatment group member, including $6,885 for stipends, and a net Year Up related cost of $23,135 per participant over seven years.",
+  "claim": "data",
+  "figures": [
+   "$27,158",
+   "$6,885",
+   "$23,135"
+  ],
+  "source": "SRC-3794",
+  "anchor": [
+   "The cost of Year Up services was $27,158 per treatment group member (Exhibit 5-2, first panel).",
+   "This estimate includes $20,273 for staffing, facilities, and small payments to college partners and $6,885 for stipends.",
+   "and a difference (i.e., total Year Up related cost) of $23,135."
+  ],
+  "locator": "Section 5.2, Exhibit 5-2",
+  "grade": "B",
+  "fact_date": "2022-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "ACF OPRE with Abt Associates, April 2022, randomized trial; costs from program financial records. Year Up is at the high end of workforce programs, and employers pay for most of the internship cost, so the figure is not the public cost.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-636",
+  "statement": "Project QUEST participants in the randomized study received support for an average of 22 months at an average cost of $10,501 per participant.",
+  "claim": "data",
+  "figures": [
+   "22 months",
+   "$10,501"
+  ],
+  "source": "SRC-3795",
+  "anchor": [
+   "Study participants received support from Project QUEST for an average of 22 months, and the average cost per participant was $10,501."
+  ],
+  "locator": "Program Costs section",
+  "grade": "B",
+  "fact_date": "2017-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Economic Mobility Corporation, April 2017, a nonprofit evaluator; trial of health-care trainees in San Antonio. Cost is in dollars of the study period, not inflated to 2026.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-637",
+  "statement": "MDRC found WorkAdvance services cost between $6,400 and $8,300 per participant in 2018 dollars across the four providers.",
+  "claim": "data",
+  "figures": [
+   "$6,400",
+   "$8,300",
+   "2018"
+  ],
+  "source": "SRC-3796",
+  "anchor": [
+   "WorkAdvance services cost between $6,400 and $8,300 per participant (in 2018 dollars) across the four providers"
+  ],
+  "locator": "Cost Analysis, summary",
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "MDRC five-year report on a randomized trial; gross provider operating cost, not net of control-group services.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-638",
+  "statement": "The Department of Labor's program year 2026 allotment notice gives appropriated levels of $875,649,000 for WIOA Adult, $1,396,412,000 for Dislocated Worker (including the national reserve) and $948,130,000 for Youth.",
+  "claim": "data",
+  "figures": [
+   "$875,649,000",
+   "$1,396,412,000",
+   "$948,130,000"
+  ],
+  "source": "SRC-3797",
+  "anchor": [
+   "The total appropriated funds for Adult Activities in PY 2026 is $875,649,000.",
+   "The amount appropriated for Dislocated Worker activities in PY 2026 totals $1,396,412,000.",
+   "The appropriated level for PY 2026 for WIOA Youth Activities totals $948,130,000."
+  ],
+  "locator": "Federal Register notice, Adult, Dislocated Worker and Youth sections",
+  "grade": "A",
+  "fact_date": "2026-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-04-30",
+  "context": "DOL ETA, 28 April 2026. The Dislocated Worker figure includes the national reserve; the state formula share is smaller. Participants served were not in the pages I read.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-639",
+  "statement": "The Department of Labor reported that in program year 2023 Job Corps cost on average $49,769.53 per enrollee and $80,284.65 per student per year, and that participants earned $16,695 a year on average after leaving.",
+  "claim": "data",
+  "figures": [
+   "$49,769.53",
+   "$80,284.65",
+   "$16,695"
+  ],
+  "source": "SRC-3798",
+  "anchor": [
+   "Average Cost Per Enrollee (Regardless of Length of Stay): $49,769.53",
+   "Average Cost Per Student Per Year (Average PY23 Headcount): $80,284.65",
+   "Job Corps participants earn $16,695 annually on average, post separation"
+  ],
+  "locator": "Release summary of the Transparency Report",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-04-25",
+  "context": "DOL ETA, 25 April 2025; residential program costs are far above non-residential training. The release stresses inefficient centers; the earlier DOL estimate for program year 2017 was lower, so the cost trend is not comparable without checking method.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-640",
+  "statement": "DOL's American Apprenticeship Initiative evaluation found grantees spent $5,171 per registered apprentice by September 2021 (median grantee $6,407), and $8,802 per apprentice at smaller grantees against $3,876 at larger ones.",
+  "claim": "data",
+  "figures": [
+   "$5,171",
+   "$6,407",
+   "$8,802",
+   "$3,876",
+   "2021"
+  ],
+  "source": "SRC-3799",
+  "anchor": [
+   "By the end of September 2021, total cost per apprentice was $5,171, but the median grantee spent about $6,407 per apprentice.",
+   "The weighted average cost for smaller grantees through September 2021 was $8,802, compared to $3,876 for larger grantees."
+  ],
+  "locator": "Research question 2 and Exhibit 4",
+  "grade": "A",
+  "fact_date": "2021-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "DOL evaluation, September 2022. This is grant spending to add apprentices, not the total cost of an apprenticeship; employer wages and training are separate, and the brief says pre-apprenticeship outlays may overstate the figure.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-641",
+  "statement": "Under the Inflation Reduction Act, apprentices must perform 15% of labor hours on clean-energy facilities that begin construction in 2024 or after (12.5% in 2023, 10% earlier), and any contractor with 4 or more workers must hire at least one qualified apprentice.",
+  "claim": "data",
+  "figures": [
+   "15%",
+   "12.5%",
+   "10%",
+   "4 or more",
+   "2024",
+   "2023"
+  ],
+  "source": "SRC-3800",
+  "anchor": [
+   "The applicable percentage is 10% for construction beginning before 2023, 12.5% for construction beginning in 2023, and 15% for construction beginning in 2024 or after.",
+   "any taxpayer, contractor, or subcontractor that employs 4 or more individuals at any time during the course of the construction, alteration, or repair of the facility must hire at least one qualified apprentice."
+  ],
+  "locator": "Answer to question 3",
+  "grade": "A",
+  "fact_date": "2024-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "IRS guidance restating statute section 45(b)(8) and final regulations (June 2024); the labor hours test is also subject to the apprentice-to-journeyworker ratio.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-642",
+  "statement": "The IRS says taxpayers who meet the prevailing wage and apprenticeship requirements can generally increase the base amounts of certain clean energy tax incentives by 5 times, with a good faith exception when no qualified apprentices are available.",
+  "claim": "data",
+  "figures": [
+   "5 times"
+  ],
+  "source": "SRC-3801",
+  "anchor": [
+   "taxpayers can generally increase the base amounts of certain clean energy tax incentives by 5 times.",
+   "A good faith effort exception may apply when a taxpayer, contractor, subcontractor has requested qualified apprentices from a registered apprenticeship program and no qualified apprentices are available."
+  ],
+  "locator": "Introduction and Registered Apprenticeships section",
+  "grade": "A",
+  "fact_date": "2024-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "IRS Publication 5855 (Rev. 6-2024). The exception means the apprenticeship requirement is soft where the apprentice supply is short, which limits its pull on demand for apprentices.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-643",
+  "statement": "A peer-reviewed evaluation of Oregon's highway construction program found pre-apprenticeship programs improved recruitment of women into the trades, and that non-financial support, supplies and child care services were each linked to higher apprenticeship completion.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3802",
+  "anchor": [
+   "We find pre-apprenticeship programs have improved the recruitment of women into the trades.",
+   "We further find that non-financial services, ready supplies, and childcare services have a positive impact on completion, with receipt of non-financial support having the largest impact on completion."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2022-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer-reviewed article (SAGE), March 2022; one state program, administrative data and interviews, not randomized, so completion effects may reflect who received services. I read only the abstract.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-143",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-644",
+  "statement": "In the PACE evaluation Year Up was the only program with ongoing stipends, up to $8,870 for the full year; 96 percent of its treatment group enrolled in training and 75 percent completed.",
+  "claim": "data",
+  "figures": [
+   "$8,870",
+   "96 percent",
+   "75 percent"
+  ],
+  "source": "SRC-3803",
+  "anchor": [
+   "substantial financial stipends (of up to $8,870 for the full year)",
+   "fully 96 percent of treatment group members in the PACE Year Up evaluation enrolled in training and 75 percent completed the program.",
+   "Notably, no program other than Year Up offered stipends"
+  ],
+  "locator": "Year Up section and footnote 40",
+  "grade": "B",
+  "fact_date": "2021-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "ACF OPRE with Abt Associates, August 2021. The report suggests the conditional stipend may help completion, but the trial has no stipend versus no-stipend arm, so it does not isolate the stipend effect.",
+  "corroboration": [],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-645",
+  "statement": "A UK What Works Centre review of 11 studies concluded that payments to individuals or firms may increase participation in or completion of employment training, but effects on employment and earnings are less likely.",
+  "claim": "analysis",
+  "figures": [
+   "11"
+  ],
+  "source": "SRC-3804",
+  "anchor": [
+   "We found 11 studies that examined the effectiveness of financial incentives for employment training.",
+   "The evidence suggests that payments to either individuals or firms may increase participation in, or completion of, employment training, but that effects on employment and earnings are less likely."
+  ],
+  "locator": "Section 'How effective are they?' and 'How secure is the evidence?'",
+  "grade": "C",
+  "fact_date": "2017-11",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "What Works Centre for Local Economic Growth (UK), evidence review dated 2017 by file name; mostly UK and European trials, so transfer to US stipends is indirect. Supports the cautious reading of the Year Up completion figures.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-644",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-660",
+  "statement": "Urban Institute's microsimulation puts the benefit cost of the FAMILY Act at about 0.46 percent of taxable earnings, against a 0.40 percent payroll tax split between employees and employers.",
+  "claim": "analysis",
+  "figures": [
+   "0.46 percent",
+   "0.40 percent"
+  ],
+  "source": "SRC-3868",
+  "anchor": [
+   "The total estimated cost of benefits under the FAMILY Act is approximately 0.46 percent of total taxable earnings.",
+   "The FAMILY Act assesses a 0.40 percent payroll tax split evenly between employees and employers on uncapped earnings."
+  ],
+  "locator": "Chapter on results, Table 3 discussion",
+  "grade": "C",
+  "fact_date": "2024-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Urban Institute, September 2024, prepared under contract for the Department of Labor Women's Bureau; simulated as if implemented in 2018, with existing state programs accounted for. The headline matches its numbers: the rate it needs is slightly above the bill's 0.40 percent, the rest from general revenue per the bill. Urban does not claim a government score.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-344",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-661",
+  "statement": "Urban Institute estimates that under the FAMILY Act 4.9 percent of workers, about 8 million people, would take a covered leave, producing 9.2 million leaves and roughly $43 billion a year in benefit payments.",
+  "claim": "analysis",
+  "figures": [
+   "4.9 percent",
+   "8 million",
+   "9.2 million",
+   "$43 billion"
+  ],
+  "source": "SRC-3868",
+  "anchor": [
+   "An estimated 4.9 percent of all workers, 8 million individuals, would take a covered paid leave, representing 9.2 million leaves taken in total and approximately $43 billion in annual benefit payments."
+  ],
+  "locator": "Executive summary",
+  "grade": "C",
+  "fact_date": "2024-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Urban Institute, September 2024, Department of Labor-funded. Take-up is modeled to replicate observed leave numbers in state programs, so a new national program with more awareness could exceed it; the report itself says it reflects 'modest take-up'. Dollar figures are 2018 levels.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-344",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-662",
+  "statement": "Urban Institute projects a higher share of the lowest earners (8.8 percent) than of the highest earners (2.5 percent) would receive FAMILY Act benefits, helped by a formula that replaces 85 percent of the first $1,257 of monthly earnings.",
+  "claim": "analysis",
+  "figures": [
+   "8.8 percent",
+   "2.5 percent",
+   "85 percent",
+   "$1,257"
+  ],
+  "source": "SRC-3868",
+  "anchor": [
+   "we project a higher share of these lowest earners would receive paid leave benefits (8.8 percent) than the highest earnings group (2.5 percent).",
+   "The plan would replace 85 percent of monthly earnings below $1,257, plus 69 percent of monthly earnings between $1,257 and $3,500, and 50 percent of monthly earnings between $3,500 and $6,200."
+  ],
+  "locator": "Results by earnings group; policy description",
+  "grade": "C",
+  "fact_date": "2024-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Urban Institute, September 2024. A simulation of a progressive replacement formula, not an observed outcome; the same report notes that the lowest earners are less likely to be eligible at all because of the minimum earnings requirement, and that weekly dollar benefits remain higher for higher earners.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-372",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-663",
+  "statement": "Urban Institute estimates the FAMILY Act would cut the poverty rate by over 16 percent among people in families receiving benefits, and by 1 percent across the full population.",
+  "claim": "analysis",
+  "figures": [
+   "16 percent",
+   "1 percent"
+  ],
+  "source": "SRC-3868",
+  "anchor": [
+   "we estimate that the poverty rate would be reduced by over 16 percent among people in families receiving PFML benefits and by 1 percent across the full population."
+  ],
+  "locator": "Executive summary",
+  "grade": "C",
+  "fact_date": "2024-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Urban Institute, September 2024, using the Supplemental Poverty Measure. The 16 percent figure is relative (a share of the baseline rate) among benefit recipients only; across everyone the effect is one percent.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-344",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-664",
+  "statement": "IWPR estimated that the proposed FAMILY Act would cost less than half of one percent of taxable payroll.",
+  "claim": "analysis",
+  "figures": [
+   "less than half of one percent"
+  ],
+  "source": "SRC-3869",
+  "anchor": [
+   "implementing the proposed Family and Medical Insurance Leave Act (FAMILY Act) would cost less than half of one percent of taxable payroll"
+  ],
+  "locator": "Press release, first paragraph",
+  "grade": "C",
+  "fact_date": "2018-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Institute for Women's Policy Research, a nonprofit that supports paid leave; press release on the 25th anniversary of the FMLA, based on IWPR's own paid leave simulation model. No numbers beyond the range are on the page, and it describes the 2018 bill, not the 2023 or 2025 versions.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-344",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-660",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-665",
+  "statement": "A working paper notes that California raised its paid family leave wage replacement rate to about 60 to 70 percent, depending on income, in 2018.",
+  "claim": "data",
+  "figures": [
+   "60 to 70 percent",
+   "2018"
+  ],
+  "source": "SRC-3870",
+  "anchor": [
+   "In 2018, the wage replacement rate increased to approximately 60 to 70 percent (depending on income)"
+  ],
+  "locator": "Footnote 5",
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "IZA Discussion Paper (Bailey, Byker, Patel, Ramnath, January 2024), a working paper that describes the law in a footnote. It is secondary to California's statute and EDD guidance; the rate is a description of enacted state law.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-666",
+  "statement": "An IZA working paper summarizing Bana, Bedard and Rossin-Slater reports that higher California wage replacement had little detectable effect on leave duration or short-term employment, but the design identifies the effect only for women at or above the 92nd percentile of earnings, so it says little about low earners.",
+  "claim": "analysis",
+  "figures": [
+   "92nd percentile"
+  ],
+  "source": "SRC-3870",
+  "anchor": [
+   "increases in wage replacement have little detectable effect on leave duration or short-term employment, but the identification strategy recovers the causal effect of wage replacement only for very high earners in at least the 92nd percentile of the female wage distribution"
+  ],
+  "locator": "Introduction, literature summary",
+  "grade": "C",
+  "fact_date": "2024-01",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Bailey and others, IZA discussion paper, January 2024, a secondhand summary of an earlier study; not itself an evaluation of the 2018 increase on low earners. It contests any reading that higher replacement shows no effect on low-earner take-up, because those earners fall outside the study's design.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-662",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-667",
+  "statement": "A Congressional Research Service report says the experimental CPI-E, built for people aged 62 and older, has greater sampling error than the official indexes, and uses the CPI-U's retail outlet sample, which may not match where older people shop.",
+  "claim": "analysis",
+  "figures": [
+   "62"
+  ],
+  "source": "SRC-3871",
+  "anchor": [
+   "an experimental price index to track changes in the cost of living for the population aged 62 and older.",
+   "The CPI-E therefore is subject to greater sampling error than the official indexes because of BLS’ limited resources.",
+   "The CPI-E also uses the CPI-U’s sample of retail outlets to gather prices, but the outlets may not accurately reflect those at which the elderly shop and the prices may not be representative of those paid by the elderly."
+  ],
+  "locator": "Section on the experimental index, p. 5",
+  "grade": "C",
+  "fact_date": "2011-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Congressional Research Service, September 2011; a later CRS version exists (the register holds a 2015 CRS report at EV-SEC-440). This page does not mention senior discounts, so that point could not be confirmed from it. The CRS notes the gap with the CPI-W may partly reflect these limits.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-455",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-668",
+  "statement": "Penn Wharton Budget Model projects that the combined Social Security trust fund depletes in February 2035, after which payable benefits fall to 85 percent of scheduled benefits and decline to 60 percent by 2100.",
+  "claim": "analysis",
+  "figures": [
+   "February 2035",
+   "85 percent",
+   "60 percent",
+   "2100"
+  ],
+  "source": "SRC-3872",
+  "anchor": [
+   "PWBM projects that the Old-Age and Survivors Insurance (OASI) trust fund depletes in February 2033 and that the combined OASI and Disability Insurance (OASDI) fund depletes in February 2035. At that point, payable benefits fall to 85 percent of scheduled benefits, declining to 60 percent by 2100"
+  ],
+  "locator": "Background section",
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Penn Wharton Budget Model, University of Pennsylvania, September 2026. PWBM's own baseline, more pessimistic on dates than the Trustees (who show late 2034 for the combined fund and 83 percent payable); the page gives both for comparison.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-669",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-669",
+  "statement": "CRFB's summary of the Trustees' Report says the OASI trust fund is projected to be insolvent in 2032, bringing an automatic 22% benefit cut, and that the 75-year actuarial deficit is 4.42% of payroll.",
+  "claim": "analysis",
+  "figures": [
+   "2032",
+   "22%",
+   "4.42%"
+  ],
+  "source": "SRC-3874",
+  "anchor": [
+   "The Old-Age and Survivors Insurance (OASI) trust fund is projected to be insolvent in 2032, when today’s youngest retirees turn 68, at which point retirees face an automatic 22% benefit cut.",
+   "Over the next 75 years, Social Security faces a 4.42% of payroll (1.5% of GDP) actuarial deficit"
+  ],
+  "locator": "Summary of findings",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRFB, June 9, 2026, relaying the Trustees' report; a nonpartisan but deficit-reduction-oriented group that calls for 'trust fund solutions'. The 22% cut applies to OASI alone; on a combined basis CRFB reports a 17% cut in 2034.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-668",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-670",
+  "statement": "Penn Wharton Budget Model scores a revenue-heavy option (payroll rate from 12.4 to 13.4 percent, taxable maximum $250,000, half-rate donut hole, chained CPI) as delaying OASI depletion to 2058, and finds none of five options fully restores solvency.",
+  "claim": "analysis",
+  "figures": [
+   "12.4",
+   "13.4 percent",
+   "$250,000",
+   "2058"
+  ],
+  "source": "SRC-3873",
+  "anchor": [
+   "It combines a 1.0 percentage point increase in the OASI payroll tax rate (from 12.4 to 13.4 percent) with a higher taxable maximum ($250,000, up from $184,500 in 2026)",
+   "Option A delays depletion to 2058.",
+   "All five options, A through E, improve the long-range balance but none fully restores solvency"
+  ],
+  "locator": "Table 1, Table 2 and text",
+  "grade": "C",
+  "fact_date": "2026-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Penn Wharton Budget Model, March 2026. Option A is the most tax-heavy of five bundles, and the page itself notes that options which delay depletion most are the least effective at reducing the long-range imbalance. Dynamic model; not a CBO or SSA score.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-448",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-671",
+  "statement": "In a Penn Wharton Budget Model comparison of seven Social Security packages, all close roughly the same 75-year shortfall of 4.78 percent of taxable payroll; GDP in 2060 is 0.4 percent above baseline under the tax-only package and 12.1 percent above under the benefit-only package.",
+  "claim": "analysis",
+  "figures": [
+   "4.78 percent",
+   "0.4 percent",
+   "12.1 percent"
+  ],
+  "source": "SRC-3872",
+  "anchor": [
+   "All seven packages approximately close a 75-year shortfall of 4.78 percent of taxable payroll and avoid depletion of the combined OASDI trust fund through 2100.",
+   "By 2060, GDP is 0.4 percent above baseline under Package A (“tax-only”) and 12.1 percent above baseline under Package F (“benefit-only”)"
+  ],
+  "locator": "Key Points",
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Penn Wharton Budget Model, September 2026. The growth gap is a model result driven by private saving responses and is sensitive to assumptions; the page also says every package produces losses for older current workers and near-retirees and gains for future households. Contrast with revenue-first views in the other register entries.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-448",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-672",
+  "statement": "Relaying a CBO report to Senator Hatch, CRFB says closing the 75-year shortfall through the payroll tax alone would take a 3.54 percentage point rate increase (to 15.94 percent), while eliminating the taxable maximum would close 45 percent of the gap.",
+  "claim": "analysis",
+  "figures": [
+   "3.54 percentage point",
+   "15.94 percent",
+   "45 percent"
+  ],
+  "source": "SRC-3875",
+  "anchor": [
+   "Closing the 75-year shortfall through the payroll tax alone would require an immediate 3.54 percentage point increase in the payroll tax rate (to 15.94 percent)",
+   "eliminating the cap altogether would close 45 percent."
+  ],
+  "locator": "Blog text and table",
+  "grade": "C",
+  "fact_date": "2014-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRFB, July 14, 2014, summarizing a CBO report; the numbers are on CBO's 2014 baseline and are out of date, but they show the order of magnitude. I could not open CBO's own report (cbo.gov returned a script-only page), so this is a secondary relay.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-448",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-673",
+  "statement": "A Boston College retirement research brief finds a Social Security caregiver credit that replaces missing earnings with half the average wage index for up to five years would raise annual benefits by $1,172 a year for a caregiver after retirement.",
+  "claim": "analysis",
+  "figures": [
+   "$1,172"
+  ],
+  "source": "SRC-3876",
+  "anchor": [
+   "This proposal typically involves replacing a person’s missing earnings with a credit equal to half of the average wage index for up to five years",
+   "This difference in annual benefits for receiving credit for up to five years is $1,172 a year"
+  ],
+  "locator": "Social Security Caregiver Credit section, p. 6",
+  "grade": "C",
+  "fact_date": "2024-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Center for Retirement Research at Boston College, December 2024, a back-of-the-envelope calculation for one caregiver, not a count of how many people a credit reaches (I found no Bipartisan Policy Center or Urban count). The brief also says the credit has no value to caregivers who are already retired or not working.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-460",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-674",
+  "statement": "In the legacy child-poverty model, the expanded-credit design (FAM-1A) with 400,000 voucher awards leaves child SPM poverty at 10.29%, 10.03% or 9.87% under moderate, enhanced or full delivery, with deep poverty at 2.28%, 2.19% or 2.13%.",
+  "claim": "analysis",
+  "figures": [
+   "10.29%",
+   "10.03%",
+   "9.87%",
+   "2.28%",
+   "2.19%",
+   "2.13%",
+   "400,000"
+  ],
+  "source": "SRC-0124",
+  "anchor": [
+   "| FAM-1A | moderate | 400,000 | 10.29% | 2.28% |",
+   "| FAM-1A | enhanced | 400,000 | 10.03% | 2.19% |",
+   "| FAM-1A | full | 400,000 | 9.87% | 2.13% |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-24",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy model report (family-comparison-model-checks.md), a static source-year experiment; re-run with identical results on the official Census archive, November 12, 2026. Legacy project text (before October 28, 2026); a project estimate or record, not an outside score.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-204",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-675",
+  "statement": "In the legacy model, the units of children in deep poverty receive about $527 of existing credit on average, against an additional statutory credit of about $6,574 under the American Family Act analogue, in 2025 dollars before receipt assumptions.",
+  "claim": "analysis",
+  "figures": [
+   "$527",
+   "$6,574"
+  ],
+  "source": "SRC-0129",
+  "anchor": [
+   "source-deep-poor children's units have an average additional statutory credit of about $6,574 in 2025 dollars before receipt assumptions, compared with about $527 of existing unit credit."
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-24",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy model review (family-poverty-model-review-and-extension.md); child-weighted unit amounts, not per-child awards or fiscal totals. Legacy project text (before October 28, 2026); a project estimate or record, not an outside score.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-011",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-676",
+  "statement": "The legacy household test puts the paid leave contribution at $180 a year for a worker earning $60,000 at 0.6%, and up to $330 at the 1.10% combined cap.",
+  "claim": "analysis",
+  "figures": [
+   "$180",
+   "$330",
+   "$60,000",
+   "0.6%",
+   "1.10%"
+  ],
+  "source": "SRC-0020",
+  "anchor": [
+   "A worker earning $60,000 pays $180 a year at 0.6%, and up to $330 at the revised 1.10% combined cap"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy family domain file, FAM-3 household test (D3), arithmetic on the worker's half of the contribution. Legacy project text (before October 28, 2026); a project estimate or record, not an outside score.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-312",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-677",
+  "statement": "Espen decided option B of the legacy Social Security decision, solvency first with a targeted increase, as the baseline, to pass as its own regular-order bill in spring 2030 because section 310(g) keeps it out of reconciliation.",
+  "claim": "analysis",
+  "figures": [
+   "2030",
+   "310"
+  ],
+  "source": "SRC-0043",
+  "anchor": [
+   "**Decided: B is the baseline, as its own regular-order bill in spring 2030.** Section 310(g) keeps it out of reconciliation"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy governing decisions record, D8 (before October 28, 2026); a decision in the legacy project, a working choice under DEC-2026-10-30-02. Legacy project text (before October 28, 2026); a project estimate or record, not an outside score.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-476",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-678",
+  "statement": "On October 26 Espen affirmed that a decent life should be attainable regardless of ability to compete or work, or family arrangement, and that the direction does not seek needlessly complex work requirements or restrictions on assistance.",
+  "claim": "analysis",
+  "figures": [
+   "26"
+  ],
+  "source": "SRC-0043",
+  "anchor": [
+   "## Strategic-review response: participation and financing development, October 26",
+   "Espen affirmed that a decent life should be attainable regardless of ability to compete or work, or family arrangement.",
+   "expressly does not seek needlessly complex work requirements or restrictions on assistance"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy governing decisions record; a direction, which the record says adopts no benefit condition or eligibility change. Legacy project text (before October 28, 2026); a project estimate or record, not an outside score.",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-212",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-679",
+  "statement": "In the legacy model's historical run, children in families with no positive earnings have a poverty rate of 62.66%, and renters make up 64.86% of the poor children who remain.",
+  "claim": "analysis",
+  "figures": [
+   "62.66%",
+   "64.86%"
+  ],
+  "source": "SRC-0110",
+  "anchor": [
+   "| No positive earnings | 62.66% | 27.04% |",
+   "| Renter | 20.36% | 64.86% |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-24",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy model report (family-child-poverty-agenda-effects.md), the historical pre-adoption FAM-1A run; overlapping groups, not additive. Legacy project text (before October 28, 2026); a project estimate or record, not an outside score.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-024",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-690",
+  "statement": "The legacy file's chosen child credit is the American Family Act (FAM-1D), adopted by Espen on October 24, with a working cost of $1.7-2.1 trillion over 2030-39 (midpoint $1.9 trillion), a rough planning range anchored to the Tax Policy Center's approximately $1.4 trillion for FY2026-35, not a CBO or JCT score.",
+  "claim": "analysis",
+  "figures": [
+   "$1.7",
+   "2.1T",
+   "$1.9T",
+   "$1.4T"
+  ],
+  "source": "SRC-0020",
+  "anchor": [
+   "**Design (Espen, October 24).** FAM-1D, the American Family Act, replaces FAM-1A as the chosen credit.",
+   "**Working cost:** $1.7–2.1T over 2030–39, midpoint $1.9T, replacing the old $1.5T midpoint. This is a rough planning range, not an exact CBO/JCT score. The source anchor remains TPC's approximately $1.4T for the AFA in FY2026–35"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-24",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy family domain file (legacy/domains/domain-family.md, FAM-1), October 24, 2026. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-266",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-267",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-691",
+  "statement": "The legacy file's alternatives to FAM-1D are the full 2021 design (FAM-1A, about $1.5 trillion, scaled), a supplement of $500 for most children and $1,500 under 6 on top of current law (FAM-1B, about $0.45 trillion, scaled from CRFB's $380 billion through 2033) and full refundability of the current $2,200 credit only (FAM-1C, about $0.3-0.5 trillion, an estimate).",
+  "claim": "analysis",
+  "figures": [
+   "$1.5",
+   "$500",
+   "$1,500",
+   "0.45",
+   "$380B",
+   "2033",
+   "$2,200",
+   "0.3-0.5"
+  ],
+  "source": "SRC-0020",
+  "anchor": [
+   "| FAM-1A (previous baseline; alternative) | Full 2021 design, monthly | 1.5 | historical scaled estimate |",
+   "| FAM-1B | Supplement only: +$500 for most children and +$1,500 under 6, on top of current law | About 0.45 | scaled (CRFB $380B through 2033) |",
+   "| FAM-1C | Full refundability of the current $2,200 credit only | About 0.3-0.5 | estimate |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-24",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy family domain file, FAM-1 options table. Costs in trillions over 2030-39; FAM-1C's is the legacy author's estimate with no outside anchor. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-272",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-692",
+  "statement": "The legacy child-poverty microsimulation puts the adopted package (the American Family Act analogue and one million voucher awards) at 8.73%, 8.34% or 8.09% child SPM poverty, and 1.97%, 1.85% or 1.78% deep poverty, under moderate, enhanced or full delivery; the delivery cases are analyst assumptions on source-year incomes.",
+  "claim": "analysis",
+  "figures": [
+   "8.73%",
+   "8.34%",
+   "8.09%",
+   "1.97%",
+   "1.85%",
+   "1.78%"
+  ],
+  "source": "SRC-0124",
+  "anchor": [
+   "| moderate | 8.73% | 1.97% |",
+   "| enhanced | 8.34% | 1.85% |",
+   "| full | 8.09% | 1.78% |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-24",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy model report (legacy/sources/family-comparison-model-checks.md), October 2026: a static, source-year experiment on CPS ASEC 2026 (2025 incomes) with no employment response, no Social Security number test and a $2,000 retained reference (dossiers/secure-floor/legacy-research.md, 1.4 and 2). Re-run on the official Census archive on November 12, 2026 with identical results (3-design.md). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-268",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-693",
+  "statement": "The legacy paid leave design is twelve weeks of social insurance with progressive replacement starting at about two-thirds of wages, a 0.6% contribution (0.3% each side) stepping up automatically toward a 1.10% ceiling, and a repayable Treasury loan; its working cost is about $0.9T, range $0.6T to $1.4T.",
+  "claim": "analysis",
+  "figures": [
+   "0.6%",
+   "0.3%",
+   "1.10%",
+   "$0.9T",
+   "$0.6T",
+   "$1.4T"
+  ],
+  "source": "SRC-0020",
+  "anchor": [
+   "Wage replacement is progressive, starting at about two-thirds of wages up to a cap.",
+   "the contribution steps up automatically, and a repayable Treasury loan bridges any gap above the cap.",
+   "- **Cost:** about $0.9T, range $0.6T to $1.4T (estimate).",
+   "- **Revenue:** the contribution of 0.6% of wages (0.3% each side) raises about $0.9T",
+   "to the revised working cap of 1.10% (October 26 approval)"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy family domain file, FAM-3 (October 26, 2026 revision). The $0.9 trillion is the middle take-up case; the budget model uses the high case (legacy-research.md, 3). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-344",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-346",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-694",
+  "statement": "In the legacy recovery budget's central case, the paid leave fund at high take-up repays its Treasury loan in 2058, with no loan left at the end.",
+  "claim": "analysis",
+  "figures": [
+   "2058",
+   "$0.0B"
+  ],
+  "source": "SRC-0061",
+  "anchor": [
+   "| Leave, high take-up | Loan repaid 2058; terminal loan $0.0B |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Generated legacy index page (legacy/index/recovery-budget.md), from the legacy recovery-budget model with SSA administration at 3% of benefits; supersedes the domain file's 2048. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-327",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-695",
+  "statement": "The legacy D-eight baseline (with the investment-income tax's stacking haircut) nets about +2.85% of payroll, about 64% of the 4.42% gap, and moves depletion from 2034 to about 2062, leaving about 1.6% of payroll; the package has not been scored as a whole.",
+  "claim": "analysis",
+  "figures": [
+   "+2.85",
+   "64%",
+   "4.42%",
+   "2034",
+   "2062",
+   "1.6%"
+  ],
+  "source": "SRC-0030",
+  "anchor": [
+   "| | **Baseline, net** | **about +2.85** after the SS-2 haircut (+3.0 before) | estimate (index/dedicated-funds.md; interactions ignored) |",
+   "| | **Share of the 4.42% gap** | **about 64%** (68% before the haircut); depletion moves from 2034 to about 2062 | estimate |",
+   "A gap of about 1.6% of payroll remains after the stacking haircut"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy Social Security domain file, built on SSA's 2026 single-provision scores in the legacy funds model (reproduced within 0.02). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-447",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-450",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-696",
+  "statement": "With the business-income tax added, the legacy package closes about 84% of the gap (about 88% before the haircut) and moves depletion to about 2081, leaving about 0.7% of payroll; the legacy file says closing the rest needs SS-7 or SS-8 or a further high-income source.",
+  "claim": "analysis",
+  "figures": [
+   "84%",
+   "88%",
+   "2081",
+   "0.7%"
+  ],
+  "source": "SRC-0030",
+  "anchor": [
+   "It closes about 84% of the gap (about 88% before the stacking haircut) and moves depletion to about 2081",
+   "It leaves about 0.7% of payroll.",
+   "so closing the rest needs SS-7 or SS-8, or a further high-income source"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy Social Security domain file's recommendation, an estimate on SSA's single-provision scores, not a package score. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-452",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-477",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-697",
+  "statement": "The legacy file estimates a one-point payroll rate rise phased over 10-20 years (SS-7) at +0.9 to +1.0% of payroll, falling on all covered workers, and investing part of the reserves in equities (SS-8) at +0.5 to +1.0, with market risk.",
+  "claim": "analysis",
+  "figures": [
+   "1",
+   "10-20",
+   "+0.9",
+   "+1.0",
+   "+0.5"
+  ],
+  "source": "SRC-0030",
+  "anchor": [
+   "| SS-7 | Raise the payroll rate 1 point (0.5 each side), phased over 10-20 years | +0.9 to +1.0 | estimate (Trustees' rate math) | All covered workers |",
+   "| SS-8 | Invest part of the reserves in equities | +0.5 to +1.0 | estimate | No one directly; market risk |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy Social Security domain file, closers table; estimates, not SSA scores. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-466",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-698",
+  "statement": "Legacy participation support is a $100 billion FY2030-39 working envelope for practical access to employment, education, training and community participation, led by the Labor Department through existing institutions, with transport, child care during training, accommodations, navigators and paid placements; participation is an offer, not a work condition.",
+  "claim": "analysis",
+  "figures": [
+   "$100B",
+   "2030",
+   "39"
+  ],
+  "source": "SRC-0025",
+  "anchor": [
+   "A $100B FY2030–39 working envelope for practical access to employment, education, training and community participation.",
+   "Supports include transport, child care during training, accommodations, navigators and paid placements.",
+   "Participation is an offer, not a work condition on income, housing, health or food assistance."
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy labor domain file, approved October 26, 2026 as an envelope; the file says not to claim a placement count from it. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-143",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-699",
+  "statement": "The legacy Climate Dividend is paid equal per adult, quarterly, through the tax system to filers, automatically to Social Security, SSI, VA and Railroad Retirement beneficiaries from their agencies' records, and through a simple non-filer sign-up, and the legacy file says the same IRS build delivers FAM-1's monthly payments; children get no share because the child credit is the child benefit.",
+  "claim": "analysis",
+  "figures": [
+   "2020",
+   "21"
+  ],
+  "source": "SRC-0014",
+  "anchor": [
+   "- **Delivery, on the 2020-21 stimulus-payment model.** Paid through the tax system to filers, automatically to Social Security, SSI, VA and Railroad Retirement beneficiaries from their agencies' payment records, and through a simple non-filer sign-up for everyone else.",
+   "The same IRS build delivers FAM-1's monthly payments.",
+   "Children get no share"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy climate domain file, CLI-2 (October 21-26, 2026); the clean power dossier, not yet started, owns its design. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-109",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
  }
 ]

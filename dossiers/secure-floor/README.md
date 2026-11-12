@@ -1,6 +1,6 @@
 # Dossier: A secure floor for every household (flagship 1)
 
-Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage D (board rows S1 and S2). Sections 1 and 2 are drafted, with the legacy research restated; no design choice is made here. Level: every item is at L1 (`DEC-2026-10-30-03`); the legacy designs are working choices, weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
+Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage D (board rows S1 to S3). Sections 1 and 2 are drafted, with the legacy research restated; section 3 and its seven memos are drafted for Espen's decision (question 0o on the board); nothing is decided yet. Level: every item is at L1 (`DEC-2026-10-30-03`); the legacy designs are working choices, weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly):
 - a monthly child benefit;
@@ -65,13 +65,13 @@ Decided programs are cited by their `DEC-` entries. Programs in dossiers not yet
 
 ## Layout and order of work
 
-**Layout (chosen November 12, 2026, board row S1).** Sections 1 and 2 are one file each, `1-problem.md` and `2-what-works.md`, with a part for each subject (A to D, as in the scope table) and a fifth, cross-cutting part E on how the floor fits together: income definitions, phase-outs and income lines (shared rules 1, 2 and 4). *Why:* the four parts are drafted together, and they meet in the same households through the shared rules. A map of stacked phase-outs has to see every program at once, and it would be split across four files otherwise. Care used separate part files because health was already decided when part B began (`dossiers/care/README.md`); that reason does not apply here. Sections 3 onward may split by part, because Social Security travels in its own bill (section 310(g) of the Budget Act keeps it out of reconciliation) and is financed by its own trust fund. That choice is made with S3's memo set.
+**Layout (chosen November 12, 2026, board row S1).** Sections 1 and 2 are one file each, `1-problem.md` and `2-what-works.md`, with a part for each subject (A to D, as in the scope table) and a fifth, cross-cutting part E on how the floor fits together: income definitions, phase-outs and income lines (shared rules 1, 2 and 4). *Why:* the four parts are drafted together, and they meet in the same households through the shared rules. A map of stacked phase-outs has to see every program at once, and it would be split across four files otherwise. Care used separate part files because health was already decided when part B began (`dossiers/care/README.md`); that reason does not apply here. Sections 3 onward may split by part, because Social Security travels in its own bill (section 310(g) of the Budget Act keeps it out of reconciliation) and is financed by its own trust fund. **Section 3 layout (chosen November 12, 2026, board row S3): one file, `3-design.md`, with seven memos.** *Why:* the forks meet in the same households. The child benefit's delivery (memo 2) sets whether it counts for rent (memo 7), the on-ramps (memo 4) depend on care's guarantee and on memo 7's exclusion, and the phase-out ceiling needs every layer at once, as sections 1 and 2 found. Social Security is still kept apart where it matters: it has its own memo (6), its own costs in percent of payroll and its own bill in the "How the choices fit together" order, and sections 4 onward may give it a part file of its own.
 
 | Section | File | Status |
 | --- | --- | --- |
 | 1. The problem | `1-problem.md`: child poverty and who the current credit misses; income support's holes; paid leave access; Social Security's depletion date and what happens then; the stacked phase-outs; the January 2029 baseline | Draft (S2) |
 | 2. What works | `2-what-works.md`: the 2021 expanded credit (poverty and the contested employment evidence), Canada's child benefit, cash trials, the earned income credit literature; state paid leave programs and the research; Social Security's anti-poverty record, minimum benefits, caregiver credits, solvency packages; coordinating phase-outs at home and abroad; each against the bills | Draft (S2) |
-| 3. Design choices | `3-design.md` and `memos/`, one batched memo set (S3) | Next |
+| 3. Design choices | `3-design.md` and `memos/` (seven memos and twelve yes-or-no points, index in `memos/README.md`) | Draft for decision (S3) |
 | 4-9 | Specification, delivery, cost, validation, what would change our minds, public case | Later |
 
 ## Files and ID ranges
@@ -79,8 +79,8 @@ Decided programs are cited by their `DEC-` entries. Programs in dossiers not yet
 - `legacy-research.md`: the legacy project's child-poverty model results, paid leave fund runs, Social Security scores and LAB-10 record, restated with every figure, its file and line, its basis and whether it is validated or needs re-running on the 2029 baseline.
 
 - `1-problem.md`, `2-what-works.md`: sections 1 and 2, by part (A to E).
-- `evidence.json`: evidence code **EV-SEC**, 429 entries. Blocks: 001-099 the January 2029 baseline and the size of the problem (001-074 used); 100-199 delivery, the future economy, polling and on-ramps (100-149 used); 200-299 the child benefit and work-linked credits (200-275 used); 300-399 paid leave (300-382 used); 400-499 Social Security (400-482 used; 405 unused); 500-599 income definitions and phase-outs (500-563 used); 600-699 kept for S3.
-- Sources: **Source IDs numbered 3600 to 3999 are reserved for the secure floor** (this README, November 12, 2026). Used: 3600-3650 (baseline), 3670-3731 (child benefit), 3740-3789 (paid leave), 3810-3867 (Social Security; 3862 unused), 3880-3937 (phase-outs), 3950-3989 (delivery and the economy ahead). Free for S3: 3651-3669, 3732-3739, 3790-3809, 3868-3879, 3938-3949, 3990-3999. IDs are assigned by hand, because `library/build_catalog.py` assigns the next free number even inside a reserved block (`charter/PROGRESS.md`, "Known gaps"). Several citation rows were read through a fetch tool because the host blocks agents; their catalog notes say so, and the reviewer should spot-check those quotations.
+- `evidence.json`: evidence code **EV-SEC**, 491 entries. Blocks: 001-099 the January 2029 baseline and the size of the problem (001-074 used); 100-199 delivery, the future economy, polling and on-ramps (100-149 used); 200-299 the child benefit and work-linked credits (200-275 used); 300-399 paid leave (300-382 used); 400-499 Social Security (400-482 used; 405 unused); 500-599 income definitions and phase-outs (500-563 used); 600-699 section 3's cost benchmarks and legacy figures (600-615 child benefit and credits, 630-645 income support and training, 660-673 paid leave and Social Security, 674-679 and 690-699 legacy figures as grade D entries; 616-629, 646-659 and 680-689 unused).
+- Sources: **Source IDs numbered 3600 to 3999 are reserved for the secure floor** (this README, November 12, 2026). Used: 3600-3650 (baseline), 3670-3731 (child benefit), 3740-3789 (paid leave), 3810-3867 (Social Security; 3862 unused), 3880-3937 (phase-outs), 3950-3989 (delivery and the economy ahead). S3 used 3651-3665 (child benefit and credits), 3790-3804 (income support and training) and 3868-3876 (paid leave and Social Security). Free: 3666-3669, 3732-3739, 3805-3809, 3877-3879, 3938-3949, 3990-3999. IDs are assigned by hand, because `library/build_catalog.py` assigns the next free number even inside a reserved block (`charter/PROGRESS.md`, "Known gaps"). Several citation rows were read through a fetch tool because the host blocks agents; their catalog notes say so, and the reviewer should spot-check those quotations.
 - The register also cites other dossiers' entries where they already cover a fact (for example EV-HOU-401, CBO's average effective marginal tax rate; EV-HOU-416 to 418, the earned income credit's and SNAP's rates; EV-CAR-001 to 050, the 2025 law's Medicaid changes; EV-CAR-501, 502 and 584, the dependent care credit).
 
 ## Shared rules the secure floor owns or touches
@@ -115,9 +115,9 @@ The household model (`charter/PLAN.md` 3.4, `MOD-household`) is not built yet; i
 5. **Social Security**: the minimum benefit's and caregiver credit's reach by lifetime earnings, and the cut each household would face at depletion. The 75-year balance stays with SSA's actuaries and the budget model's fund module.
 6. **The rent and benefit offsets** (rule 1) at 0 and 30 cents, for the housing dossier.
 
-## Forks for S3 (not questions for Espen yet)
+## Forks for S3
 
-No decision blocks S3, so nothing goes on the board's "Questions for Espen". S3's memo set should put these to Espen, two to four options each:
+S3's memo set puts these to Espen (`3-design.md`, "The forks at a glance", maps each to its memo):
 1. **The child benefit's design.** FAM-1D (the American Family Act) against the 2021 design (FAM-1A), a supplement (FAM-1B), full refundability of today's $2,200 credit (FAM-1C), and a Canada-style income-tested benefit; its age profile, the newborn payment, indexing and phase-out.
 2. **Who the child benefit reaches.** The 2025 law's Social Security number rules against an ITIN or child-only test (shared rule 3, with the immigration flagship); a non-filer route; who receives it (the caregiver or the tax filer).
 3. **Delivery and form (the fork Espen's direction asks for).** How the floor reaches people, not how big it is: automatic payment from records the government holds (births, tax returns, SSA and benefit records) against claiming; one front door and one income test across the plan's benefits against program-by-program applications; the IRS with monthly advances (the legacy choice: it keeps the benefit out of rent under section 6409 and is paid without appropriations) against SSA or Treasury outside the tax code; one payment channel shared with the Climate Dividend or separate ones; rural families claiming through USDA's local offices.
@@ -131,4 +131,4 @@ No decision blocks S3, so nothing goes on the board's "Questions for Espen". S3'
 
 ## Open questions for Espen
 
-None yet. S3 brings the memo set.
+One batch, board question 0o: memos 1-7 in `memos/` and points 1-12 in `3-design.md`, each decided on its own.
