@@ -4476,25 +4476,26 @@
  },
  {
   "id": "EV-SEC-231",
-  "statement": "A difference-in-differences study found Rx Kids, which pays Flint mothers $1500 in pregnancy and $500 a month for the first year, was associated with relative reductions of 13 to 18 percent in preterm births and 22 to 27 percent in low birthweight compared with Flint's baseline rates.",
+  "statement": "A difference-in-differences study found Rx Kids, which pays every expectant mother in Flint cash in pregnancy and infancy, was associated with a preterm birth rate 2.7 percentage points lower and a low birthweight share 4.2 percentage points lower than in matched cities, from baselines of 15.1% and 15.8%.",
   "claim": "analysis",
   "figures": [
-   "$1500",
-   "$500",
-   "13–18%",
-   "22–27%"
+   "2.7 percentage points",
+   "4.2 percentage points",
+   "15.1%",
+   "15.8%"
   ],
   "source": "SRC-3703",
   "anchor": [
-   "providing every expectant mother US$1500 mid-pregnancy and $500 monthly after birth until age 1 year.",
-   "these improvements corresponded to a 13–18% relative reduction in preterm birth rates and a 22–27% relative reduction in low birthweight rates."
+   "15.1% (445 of 2940) of births in Flint were preterm and 15.8% (465 of 2943) were low birthweight",
+   "Rx Kids was associated with a decrease in the preterm birth rate by 2.7 percentage points",
+   "in the proportion of infants born with low birthweight by 4.2 percentage points"
   ],
-  "locator": "Methods/Findings; Introduction",
+  "locator": "Summary, Findings (the journal prints decimal points as raised dots)",
   "grade": "B",
   "fact_date": "2026",
   "checked": "2026-11-12",
   "recheck": "2027-11-12",
-  "context": "The Lancet Public Health, 2026 (percentage-point estimates 2.7 and 4.2 against matched cities; Agarwal, Shaefer, Zamani-Hank, Finegood, LaChance). Quasi-experimental, one city (Flint, Michigan, a low-income community) with a universal programme starting January 2024; the authors include the programme's co-founder. An undergraduate thesis found little robust evidence on core birth outcomes with synthetic control methods (not peer reviewed), so the estimate depends on the comparison group.",
+  "context": "The Lancet Public Health, 2026 (the programme pays US$1,500 mid-pregnancy and $500 a month to age 1; the paper also reports relative reductions of 13-18% and 22-27%, not re-checked; funded by the Mott and Jacob family foundations; Agarwal, Shaefer, Zamani-Hank, Finegood, LaChance). Quasi-experimental, one city (Flint, Michigan, a low-income community) with a universal programme starting January 2024; the authors include the programme's co-founder. An undergraduate thesis found little robust evidence on core birth outcomes with synthetic control methods (not peer reviewed), so the estimate depends on the comparison group. Anchors re-checked against the published summary by the dossier author, 2026-11-12.",
   "corroboration": [
    {
     "evidence": "EV-SEC-227",
