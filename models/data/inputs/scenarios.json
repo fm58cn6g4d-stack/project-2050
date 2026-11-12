@@ -1,0 +1,183 @@
+{
+ "role": "The scenarios the ledger's downstream models run, in one file (budget workflow B6, the shared scenario file). Packages name option lists once; a scenario's options list package names and option IDs, expanded in order. The fiscal model (fiscal-model.py, SCENARIOS) and the incidence model (incidence-model.py, SCEN) read it through scenarios.py. The decided package, DEC, is Espen's (Decision Briefs 1 and 2, October 20-21, 2026); changing it is tier 3.",
+ "packages": {
+  "B": {
+   "options": [
+    "C18",
+    "C35",
+    "C19b",
+    "C20"
+   ],
+   "note": "Package B, Decision Brief 1"
+  },
+  "PB+S": {
+   "options": [
+    "B",
+    "C38"
+   ],
+   "note": "Package B plus the sprint package C38"
+  },
+  "DEC": {
+   "options": [
+    "PB+S",
+    "C39",
+    "C40",
+    "C41",
+    "C43"
+   ],
+   "note": "Decided in Decision Brief 2 (Oct 20): TS12, HP1, HP3 (C39-C41); no trims; REV-SC1 (C43) adopted Oct 21"
+  },
+  "TRIMS": {
+   "options": [
+    "C5",
+    "C17",
+    "C33",
+    "C34",
+    "C36"
+   ],
+   "note": "Declined in Decision Brief 2; kept for reference"
+  }
+ },
+ "fiscal": [
+  {
+   "id": "BASE",
+   "label": "Current-law baseline (CBO Feb 2026, adjusted)",
+   "options": null,
+   "settings": {}
+  },
+  {
+   "id": "GROSS",
+   "label": "Program spending with the top-end base only (no new options)",
+   "options": [],
+   "settings": {}
+  },
+  {
+   "id": "PB",
+   "label": "Package B (C18, C35, C19b, C20)",
+   "options": [
+    "B"
+   ],
+   "settings": {}
+  },
+  {
+   "id": "PB+S",
+   "label": "Package B + sprint package (C38)",
+   "options": [
+    "PB+S"
+   ],
+   "settings": {}
+  },
+  {
+   "id": "DEC",
+   "label": "Decided: Package B + sprint + TS12, HP1, HP3 (C39-C41) + REV-SC1 (C43); no trims",
+   "options": [
+    "DEC"
+   ],
+   "settings": {}
+  },
+  {
+   "id": "DEC+ENV",
+   "label": "Decided, plus new time-limited investments filling the D4-B envelope room left after the borrowing readings and CAP-7S",
+   "options": [
+    "DEC"
+   ],
+   "settings": {
+    "envelope": 0.5,
+    "net_of_borrow": true
+   }
+  },
+  {
+   "id": "DEC-DYN",
+   "label": "Decided, with CBO-style dynamic feedback (about -$0.56T)",
+   "options": [
+    "DEC"
+   ],
+   "settings": {
+    "dynamic": "mid"
+   }
+  },
+  {
+   "id": "DEC-R1",
+   "label": "Decided, with interest rates 1 point higher from 2030, phased in as debt rolls over",
+   "options": [
+    "DEC"
+   ],
+   "settings": {
+    "rate_shift": 1.0
+   }
+  },
+  {
+   "id": "BASE-R1",
+   "label": "Baseline with interest rates 1 point higher from 2030, phased in as debt rolls over",
+   "options": null,
+   "settings": {
+    "rate_shift": 1.0
+   }
+  },
+  {
+   "id": "DEC+TRIMS",
+   "label": "Decided plus the five trims declined in Decision Brief 2 (reference only)",
+   "options": [
+    "DEC",
+    "TRIMS"
+   ],
+   "settings": {}
+  }
+ ],
+ "incidence": [
+  {
+   "id": "Q",
+   "label": "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, C39-C41 and C43",
+   "options": [
+    "DEC"
+   ]
+  },
+  {
+   "id": "A",
+   "label": "A. Base package only (gap unfunded)",
+   "options": []
+  },
+  {
+   "id": "Q-C19",
+   "label": "Q-C19. Q with the exclusion cap at the median premium (C19, the fallback)",
+   "options": [
+    "DEC"
+   ],
+   "replace": {
+    "C19b": "C19"
+   }
+  },
+  {
+   "id": "Q-SAF",
+   "label": "Q-SAF. Q with SAF-R2 (alcohol excise dropped)",
+   "options": [
+    "DEC",
+    "SAFR2"
+   ]
+  },
+  {
+   "id": "Q-EDU",
+   "label": "Q-EDU. Q with the EDU-9B education fund (held) in place of C19b and C20",
+   "options": [
+    "DEC",
+    "EDUP",
+    "EDUB"
+   ],
+   "remove": [
+    "C19b",
+    "C20"
+   ]
+  },
+  {
+   "id": "Q-H7",
+   "label": "Q-H7. Q with the single plan's household rows (H7h, H7w, H7x) and its long-term care title (H9), before the settlement's new taxes; not a pass or fail",
+   "options": [
+    "DEC",
+    "H7h",
+    "H7w",
+    "H7x",
+    "H9"
+   ]
+  }
+ ]
+}

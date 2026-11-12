@@ -36,6 +36,7 @@ The budget model projects the whole federal budget, year by year from FY2026 to 
 | The adopted program: the ledger rows, their ten-year amounts and profiles | `models/data/inputs/` | Espen decides any change (tier 3). Codex maintains the fiscal model today; PR #106 proposes moving it to Claude |
 | The baseline: CBO's February 2026 projections, FY2026 actuals, the two tariff adjustments | `models/data/budget/`, `models/data/fiscal-baseline.csv` | B2 (data layer). Changing the baseline is a decision for Espen (workflow B7) |
 | Counting rules and assumptions | `CONVENTIONS.md`, `models/data/budget/assumptions.csv` | B1. The five choices at the end of `CONVENTIONS.md` are Espen's |
+| The scenarios and their option packages, shared with the incidence model | `models/data/inputs/scenarios.json` (read by `models/tools/scenarios.py`) | Espen decides the decided package (DEC); variants are B6's |
 | Provision specs | `models/data/budget/provisions.csv` | B3 |
 | Trustees' figures and SSA's scores | `models/data/inputs/funds-*.csv` | The dedicated-funds engine's owner (Codex today) |
 | Benchmarks and their targets | `models/tools/budget/test_benchmarks.py` | B4 |

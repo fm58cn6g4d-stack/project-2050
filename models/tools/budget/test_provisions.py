@@ -68,6 +68,26 @@ def setUpModule():
     L = json.load(open(LEDGER))
 
 
+class SharedScenarios(unittest.TestCase):
+    """B6's shared scenario file (models/data/inputs/scenarios.json): one home for the decided package and its
+    variants, read by the fiscal model and the incidence model."""
+
+    def test_both_models_read_one_decided_package(self):
+        sp = importlib.util.spec_from_file_location("scenarios_b6", os.path.join(TOOLS, "scenarios.py"))
+        SF = importlib.util.module_from_spec(sp)
+        sp.loader.exec_module(SF)
+        doc = SF.load()
+        self.assertEqual(FM.SCENARIOS, SF.fiscal(doc))
+        self.assertEqual(FM.DEC, SF.package("DEC", doc))
+        q = next(x for x in doc["incidence"] if x["id"] == "Q")
+        self.assertEqual(SF.options(q, doc), FM.DEC)          # incidence scenario Q is the fiscal model's DEC
+        dec = next(x for x in doc["fiscal"] if x["id"] == "DEC")
+        self.assertEqual(SF.options(dec, doc), SF.options(q, doc))
+        cuts = {c["id"] for c in L["cuts"]}
+        for sid, _, opts, _ in FM.SCENARIOS:
+            self.assertTrue(set(opts or []) <= cuts, sid)    # every fiscal option is a ledger option
+
+
 class Specs(unittest.TestCase):
     def test_well_formed(self):
         self.assertEqual(P.problems(S), [])
