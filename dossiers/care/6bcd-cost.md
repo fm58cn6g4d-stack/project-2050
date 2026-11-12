@@ -16,16 +16,16 @@ Role: section 6 of the care dossier for parts B, C and D. It prices the provisio
 
 | FY | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | 2037 | 2038 | 2039 | **FY2030-39** | **2040** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Part B, long-term care | 24 | 25 | 27 | 28 | 30 | 186 | 303 | 367 | 396 | 416 | **1,801** | **437** |
+| Part B, long-term care | 14 | 15 | 27 | 28 | 30 | 193 | 303 | 367 | 396 | 416 | **1,789** | **437** |
 | Part C, child care and pre-K | 0 | 35 | 80 | 116 | 140 | 146 | 148 | 154 | 161 | 169 | **1,149** | **176** |
-| Part D, the workforce | 10 | 18 | 22 | 32 | 40 | 72 | 89 | 100 | 104 | 109 | **595** | **114** |
-| **All three** | **34** | **78** | **128** | **176** | **210** | **403** | **540** | **620** | **661** | **693** | **3,544** | **727** |
+| Part D, the workforce | 10 | 18 | 22 | 32 | 40 | 72 | 90 | 100 | 105 | 111 | **600** | **116** |
+| **All three** | **25** | **68** | **128** | **176** | **210** | **412** | **541** | **621** | **663** | **695** | **3,537** | **729** |
 
 **By line, FY2030-39 and FY2040 ($ billion):**
 
 | Line | Provision | FY2030-39 | FY2040 | Shape |
 | --- | --- | --- | --- | --- |
-| The bridge, up to 10 points | HLT-4.01 | 134 | 0 | About $24 billion in FY2030, growing with home care, to FY2034 |
+| The bridge: 6 points from FY2030, up to 10 from FY2032 | HLT-4.01 | 122 | 0 | About $14 billion in FY2030 at 6 points; up to about $27-30 billion a year in FY2032-34; to December 31, 2034, so FY2035 takes a quarter |
 | The benefit (memo 6 B): states' relief net of their payment, richer budgets, new users | HLT-9.01-9.06 | 1,579 | 386 | About $300 billion in calendar 2035, growing 5.5% a year |
 | People below the line after 2034 (not served by the plan) | HLT-9.02 | −39 | −23 | Ramps to about 6% of the Medicaid home care line by 2040 |
 | The state option below the line, at the regular match | HLT-4.08 | 24 | 14 | 60% of the line above |
@@ -33,7 +33,7 @@ Role: section 6 of the care dossier for parts B, C and D. It prices the provisio
 | Option 4, new users phased over 2035-36 | HLT-9.07 | −140 | 0 | Half the new-user line in 2035, a fifth in 2036 |
 | Institutional care, the care part (memo 8 C) | HLT-9.08 | 369 | 90 | About $70 billion in calendar 2035 (range $50-90 billion) |
 | Option 5, residents contribute up to 20% | HLT-9.08 | −42 | −10 | About $8 billion in 2035 |
-| **Part B** | | **1,801** | **437** | |
+| **Part B** | | **1,789** | **437** | |
 | Child care (memo 10 B) at 90% | FAM-2.01 | 699 | 110 | $20 billion in 2030-31, $85 billion in 2033-34, $110 billion in 2039-40 |
 | Child care at 80% from 2033-34 | FAM-2.08 | −69 | −14 | About $10 billion from the fourth year, growing |
 | Pre-K (memo 11 A), 90% then 75% | FAM-2.02 | 493 | 80 | $10 billion in 2030-31 to $60 billion in 2033-34 and $80 billion in 2039-40 |
@@ -41,24 +41,24 @@ Role: section 6 of the care dossier for parts B, C and D. It prices the provisio
 | **Part C** | | **1,149** | **176** | |
 | The floor in Medicaid, 2030-34, at the bridge rate | HLT-10.01 | 65 | 0 | 12% of payroll on Medicaid home care, 68% federal |
 | The floor in the plan's rates, from 2035 | HLT-10.01 | 220 | 54 | About $42 billion in calendar 2035 |
-| Early educators' floor and scale to parity | FAM-2G.01 | 254 | 51 | About $25 billion in 2033-34 at 90%; parity in 2036-37; 80% from 2033-34 |
+| Early educators' floor and scale to parity | FAM-2G.01 | 259 | 53 | About $25 billion in 2033-34 at 90%; parity in 2036-37; 80% from 2033-34 |
 | Nursing home staffing | HLT-11 | 36 | 7 | $1-2 billion a year in 2031-34; $5-7 billion from 2035 |
 | Training and health supply | HLT-10.06, 10.07 | 20 | 2 | About $2 billion a year |
-| **Part D** | | **595** | **114** | |
+| **Part D** | | **600** | **116** | |
 
-**From the decided figures to the fiscal-year figures.** Memo 17 gives about $3.80 trillion over 2030-39 and $736 billion in 2040, on calendar and school years. Two steps take it to this section's $3.54 trillion and $727 billion:
+**From the decided figures to the fiscal-year figures.** Memo 17 gives about $3.80 trillion over 2030-39 and $736 billion in 2040, on calendar and school years. Two steps take it to this section's $3.54 trillion and $729 billion:
 
 | Step | 2030-39 ($ trillion) | 2040 ($ billion) |
 | --- | --- | --- |
 | Memo 17, as decided (calendar and school years): B 1.90, C 1.32, D 0.58 | 3.80 | 736 |
 | Rebuilt year by year from the same pieces | 3.89 | — |
-| *of which:* memo 15's path, rebuilt from its own anchors (about $25 billion in 2033 and parity by 2036-37), sums to about $0.33 trillion over school years 2030-39, not the $0.22 trillion memo 15 and 3d give (a correction, below) | +0.08 | — |
-| *of which:* part B, rounding | +0.01 | — |
-| On fiscal years: a quarter of calendar 2039 moves past FY2039 for the benefit and the floor; school year 2039-40 (child care, pre-K and parity) is FY2040 | −0.35 | −9 |
-| **This section, fiscal years** | **3.54** | **727** |
+| *of which:* memo 15's path, rebuilt from its own anchors (about $25 billion in 2033 and parity by 2036-37), sums to about $0.31 trillion over school years 2030-39, not the $0.22 trillion memo 15 and 3d give (a correction, below) | +0.09 | — |
+| *of which:* the bridge's progress points start in FY2032, as HLT-4.01 says, not FY2030 as memo 17 priced them; the bridge runs to December 31, 2034 | −0.01 | — |
+| On fiscal years: a quarter of calendar 2039 moves past FY2039 for the benefit and the floor; school year 2039-40 (child care, pre-K and parity) is FY2040 | −0.35 | −7 |
+| **This section, fiscal years** | **3.54** | **729** |
 
-- **The fiscal-year total is lower in the window** because costs grow fastest at its end, and child care's first school year (2030-31) is FY2031. It is a timing change, not a saving: FY2040 is about the same ($727 billion against $736 billion; the gap is the same timing on a smaller scale).
-- **The correction to memo 15's cost.** Memo 15 B reaches the same end point as option A (parity, about $53 billion in FY2040 at the child care share) four years later. Its stated total, $0.22 trillion, would need the scale to stay near the floor until about 2035. Laid on the memo's own dates, with the scale rising in equal steps from about $25 billion in 2033-34 to parity in 2036-37, the cost is about $0.25 trillion on fiscal years ($0.33 trillion on school years 2030-39). The decision is unchanged (Espen kept parity at 2036, `DEC-2026-11-11-06`); the figure is reported, not trimmed (`DEC-2026-11-10-05`). Part D's FY2030-39 cost here, $0.595 trillion, uses the corrected path. Memo 17's option 3 (parity by 2038) would have saved somewhat more than its stated $0.04 trillion on this path.
+- **The fiscal-year total is lower in the window** because costs grow fastest at its end, and child care's first school year (2030-31) is FY2031. It is a timing change, not a saving: FY2040 is about the same ($729 billion against $736 billion; the gap is the same timing on a smaller scale).
+- **The correction to memo 15's cost.** Memo 15 B reaches the same end point as option A (parity, about $53 billion in FY2040 at the child care share) four years later. Its stated total, $0.22 trillion, would need the scale to stay near the floor until about 2035. Laid on the memo's own dates, with the scale rising in equal steps from about $25 billion in 2033-34 to parity in 2036-37, the cost is about $0.26 trillion on fiscal years ($0.31 trillion on school years 2030-39; $0.34 trillion at 90%). The decision is unchanged (Espen kept parity at 2036, `DEC-2026-11-11-06`); the figure is reported, not trimmed (`DEC-2026-11-10-05`). Part D's FY2030-39 cost here, $0.60 trillion, uses the corrected path. Parity's FY2040 end point is program year 2039-40, as child care's and pre-K's are, so it is about $53 billion, as memo 15 gives. Memo 17's option 3 (parity by 2038) would have saved somewhat more than its stated $0.04 trillion on this path.
 
 ## 2. What the decided total leaves out
 
@@ -67,7 +67,7 @@ Role: section 6 of the care dossier for parts B, C and D. It prices the provisio
 | Money Follows the Person, the resource limits, no estate recovery, the CAPABLE demonstration | HLT-4.02, 4.03, 4.04, 4.07 | about $26 billion | under $1 billion | Points 2-4 and 6: $0.45 billion, $2-6 billion and under $0.5 billion a year; the demonstration small (judgment) | Firm |
 | Child care's labor grown with wages, not prices (3d's finding) | FAM-2.01, 2.04 | about $20 billion | about $6 billion | Two-thirds of child care cost is labor; care wages about 1% a year above prices (judgment) | Firm if wages grow so |
 | The floor on new users' hours delayed by option 4 | HLT-10.01 | about −$10 billion | 0 | Memo 17 took option 4's saving off part B but not off the floor on the same hours | Firm |
-| **With these, all three** | | **about $3.58 trillion** | **about $733 billion** | | |
+| **With these, all three** | | **about $3.57 trillion** | **about $735 billion** | | |
 | Respite and training in the bridge | HLT-4.06 | inside the bridge | — | "A few billion a year inside point 1's match" (memo 9) | — |
 | The hold-harmless | HLT-9.02 | inside the benefit | inside | About $0.18 trillion over 2035-39 and $24 billion in FY2040, already counted (3b) | — |
 | Rural home care add-on | `5bcd-delivery.md`, part 6 | not priced | not priced | A working choice inside tier budgets | Inside the range |
@@ -75,7 +75,7 @@ Role: section 6 of the care dossier for parts B, C and D. It prices the provisio
 | Head Start's own grant | FAM-2.07 | outside | outside | About $12.4 billion, by appropriation [EV-CAR-504] | Current law |
 | The residency slots | HLT-10.07 | outside | outside | Already in HLT-4's booked safety-net component; not counted again | Booked |
 
-**All-in, FY2030-39:** about **$3.58 trillion** over FY2030-39 and **$733 billion** in FY2040 (range about $2.0-6.2 trillion and $390-1,360 billion, part 6). It is not a score.
+**All-in:** about **$3.57 trillion** over FY2030-39 and **$735 billion** in FY2040 (range about $2.0-6.2 trillion and $390-1,360 billion, part 6). It is not a score.
 
 **Who pays now.** Most of the long-term care and child care cost replaces what families pay out of pocket or give unpaid [EV-CAR-401] [EV-CAR-436] [EV-CAR-514]. CBO counts about two-fifths of a broad long-term care benefit's federal cost as replacing state and out-of-pocket spending [EV-CAR-452]. It is a shift to public money as well as new care.
 
@@ -87,7 +87,7 @@ What states pay toward parts B-D, beside the federal cost (central; `care_bcd_pa
 | --- | --- | --- | --- |
 | Long-term care, from 2035 | About $115 billion in 2035, of which about $42 billion institutional; about $150 billion in FY2040, indexed | The rest of the benefit and the care part, net of that payment (part 1) | 50% of current long-term care spending (HLT-9.09) |
 | The bridge's floor, 2030-34 | About $31 billion in all | About $65 billion | Each state's bridge rate, about 68% federal (HLT-10.01) |
-| The bridge's match points | States keep their own spending (the entry condition) | About $134 billion | HLT-4.01 |
+| The bridge's match points | States keep their own spending (the entry condition) | About $122 billion | HLT-4.01 |
 | Child care | About $10 billion a year for the first three years, then about $20 billion at maturity | About $74 billion at maturity (2033), $97 billion in FY2040 | 90%, then 80% (FAM-2.08) |
 | Pre-K | About $34 billion at maturity, their current $14.4 billion included [EV-CAR-519] | About $57 billion at maturity, $80 billion in FY2040 | 90%, then 75% (FAM-2.08) |
 | Early educators' pay | A fifth of the scale's cost from 2033-34 | Part 1's line | Child care's share (FAM-2G.01) |
@@ -99,9 +99,9 @@ What states pay toward parts B-D, beside the federal cost (central; `care_bcd_pa
 
 ## 4. Fit with the legacy rows and the down payment
 
-- **HLT-4's legacy down payment.** HLT-4 is booked at $0.498 trillion over FY2030-39, of which **$0.319 trillion is "HCBS down payment and care workforce"** (`models/data/inputs/fiscal-components.csv`, line 34), about $44 billion in FY2040 on the legacy profile. The bridge ($134 billion) and the bridge-period floor ($65 billion) are that down payment. A booking **retires the long-term care component and books parts B and D in its place**, so nothing is counted twice. The bridge and floor together, $199 billion, are less than the component over 2030-34; the component also runs on past 2034, which the decided design replaces with the benefit.
+- **HLT-4's legacy down payment.** HLT-4 is booked at $0.498 trillion over FY2030-39, of which **$0.319 trillion is "HCBS down payment and care workforce"** (`models/data/inputs/fiscal-components.csv`, line 34), about $44 billion in FY2040 on the legacy profile. The bridge ($122 billion) and the bridge-period floor ($65 billion) are that down payment. A booking **retires the long-term care component and books parts B and D in its place**, so nothing is counted twice. The bridge and floor together, $187 billion, are less than the component over 2030-34; the component also runs on past 2034, which the decided design replaces with the benefit.
 - **HLT-4's other parts stay.** The safety-net component (health centers, 14,000 residency slots, the Momnibus, Title X: $0.138 trillion) is untouched; HLT-10.07's slots are those slots, not new ones. Children's coverage and Medicaid dental already end with their waves.
-- **FAM-2's legacy row.** FAM-2 is booked at $0.6 trillion over FY2030-39 ($94 billion in FY2040) on a six-year ramp (`ledger-bills.csv`, line 11). In the budget model's case `mixed`, FAM-2 is transferred into the adopted EDU-9B education fund, whose **care component** runs $12 billion in 2030, $88 billion in 2033 and $106 billion from 2036 (`models/tools/recovery-budget/assumptions.json`, `education_components.care`): about $786 billion over FY2030-39 and $106 billion in FY2040. Part C and memo 15 replace it: about $1,403 billion and $227 billion.
+- **FAM-2's legacy row.** FAM-2 is booked at $0.6 trillion over FY2030-39 ($94 billion in FY2040) on a six-year ramp (`ledger-bills.csv`, line 11). In the budget model's case `mixed`, FAM-2 is transferred into the adopted EDU-9B education fund, whose **care component** runs $12 billion in 2030, $88 billion in 2033 and $106 billion from 2036 (`models/tools/recovery-budget/assumptions.json`, `education_components.care`): about $786 billion over FY2030-39 and $106 billion in FY2040. Part C and memo 15 replace it: about $1,407 billion and $230 billion.
 - **LAB-3's note** that a home care wage floor "adds an unscored Medicaid rate cost" (HLT-4's ledger note) is answered: HLT-10.01 prices it.
 
 ## 5. The fiscal-rule report
@@ -110,14 +110,23 @@ Each figure has one basis: federal fiscal years, $ billion, a cost positive, aga
 
 | Measure | FY2030-39 | FY2040 (permanent) |
 | --- | --- | --- |
-| Parts B-D, federal cost as decided (part 1) | $3,544 billion | $727 billion (1.3% of GDP) |
-| With the items in part 2 | $3,581 billion | $733 billion |
+| Parts B-D, federal cost as decided (part 1) | $3,537 billion | $729 billion (1.3% of GDP) |
+| With the items in part 2 | $3,574 billion | $735 billion |
 | Already booked for the same purposes: HLT-4's long-term care component; the EDU-9B fund's care component | $319 billion; $786 billion | $44 billion; $106 billion |
-| **Net change a booking would make** | **about $2,439 billion** | **about $577 billion (1.1% of GDP)** |
-| *of which on the general fund:* long-term care and the workforce in home care and nursing homes, net of HLT-4's component | about $1,822 billion | about $456 billion |
-| *of which:* child care, pre-K and early educators' pay, net of the fund's care component, on the general fund or the education fund as the settlement decides | about $617 billion | about $121 billion |
+| **Net change in spending a booking would make** | **about $2,432 billion** | **about $580 billion (1.1% of GDP)** |
+| *of which:* long-term care and the workforce in home care and nursing homes, net of HLT-4's component, all on the general fund | about $1,811 billion | about $456 billion |
+| *of which:* child care, pre-K and early educators' pay, net of the fund's care component | about $622 billion | about $124 billion |
 
-**Its share of the plan-wide margin.** The plan-wide general-fund primary balance in FY2040 is **$3,750 billion short** as booked (`agenda_gf_primary_bn`, case `mixed`, before interest; 6.9% of GDP; health's booking, `6-cost.md`, part 5). Booking parts B-D as decided would make it about **$4,206 billion short** with child care and pre-K left in the education fund, or about **$4,327 billion short** (8.0% of GDP) with them on the general fund. Parts B-D are about an eighth of the plan-wide gap, after health's $4,243 billion; GDP is the budget model's ($54,167 billion in FY2040). The gap is expected: health's and care's premium-and-out-of-pocket-to-tax shift is what the financing settlement designs. It is a figure to report, not an error to fix (`DEC-2026-11-10-05`), and no part of it goes to Espen on its own.
+**Where part C lands changes the general fund's share.** In case `mixed` the general fund pays the EDU-9B fund a grant of 30% of the fund's outlays after 2034 (`models/tools/recovery-budget/model.py`, `edu_fund`; `gf_share_mixed`). So part C left in the fund costs the general fund about 30 cents on the dollar, and the rest falls on the fund's payroll receipts and reserve. Part C on the general fund costs all of it there, and the fund's grant falls with its care outlays. The budget model, run in memory with these lines (`tools/care_bcd_margin.py`; nothing written), gives:
+
+| FY2040 | General-fund primary balance (`agenda_gf_primary_bn`, case `mixed`, before interest) | Education fund's general-fund grant | On the fund's own receipts and reserve |
+| --- | --- | --- | --- |
+| As booked | $3,750 billion short (6.9% of GDP) | $98 billion | — |
+| Long-term care booked; part C as booked | $4,206 billion short (7.8%) | $98 billion | — |
+| **Part C left in the EDU-9B fund** | **$4,243 billion short (7.8%)** | $135 billion | about $87 billion a year more: a fund-solvency effect the settlement must cover with the fund's rate |
+| **Part C on the general fund** (FAM-2 out of the fund) | **$4,403 billion short (8.1%)** | $66 billion | about $32 billion a year less |
+
+**Its share of the plan-wide margin.** Parts B-D move the FY2040 general-fund gap by about $493 billion (part C in the fund, with about $87 billion more on the fund itself) to $654 billion (part C on the general fund): about 12-15% of the plan-wide gap, after health's $4,243 billion; GDP is the budget model's ($54,167 billion in FY2040). The gap is expected: health's and care's shift from premiums and out-of-pocket costs to taxes is what the financing settlement designs. It is a figure to report, not an error to fix (`DEC-2026-11-10-05`), and no part of it goes to Espen on its own.
 
 **The test years.** The decided costs are permanent: the benefit, the care part, child care and pre-K, the floor and parity all continue past FY2040 and grow with wages and the population over 85. Nothing in parts B-D ends after FY2040 except the facilities fund (FY2035) and the bridge (FY2034).
 
@@ -137,9 +146,9 @@ Each figure has one basis: federal fiscal years, $ billion, a cost positive, aga
 
 | Case | FY2030-39 ($ trillion) | FY2040 ($ billion) | Note |
 | --- | --- | --- | --- |
-| As decided | 3.54 | 727 | Part 1 |
-| Low (each piece's low) | 1.98 | 387 | Fewer new users, lower cost each, low take-up of child care |
-| High (each piece's high) | 6.17 | 1,351 | Part B's new users at 5.6 million and $82,500 each; child care take-up high |
+| As decided | 3.54 | 729 | Part 1 |
+| Low (each piece's low) | 1.98 | 388 | Fewer new users, lower cost each, low take-up of child care |
+| High (each piece's high) | 6.17 | 1,354 | Part B's new users at 5.6 million and $82,500 each; child care take-up high |
 | Part B at Urban's best guess (about $560 billion in 2035 at three activities, against $300 billion) | about +1.3 | about +330 | The outside model that sits highest (3b) |
 | The states' long-term care payment fails in court (hold harmless) | about +0.6 | about +150 | HLT-9.09; the payment ends and the federal government pays it |
 | A third of states decline child care and pre-K and the obligation fails | about +0.1 | about +25 | Child care $87 billion rather than $74 billion at maturity; pre-K $64 billion rather than $57 billion (memo 17) |
