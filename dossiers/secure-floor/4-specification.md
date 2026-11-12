@@ -1,0 +1,208 @@
+# A secure floor for every household: specification
+
+Role: section 4 of the secure floor dossier. It writes the decided designs as provisions: what each does, its parameters, who is covered and who pays, the vehicle, the agency, how it changes the January 2029 law, and the evidence it rests on. Provision IDs and their fields are in `provisions.json`. Status: draft (stage D, board row S4, PR 1), on Espen's decisions `DEC-2026-11-12-06` (the secure floor's design, question 0o), `DEC-2026-11-10-05` (report, don't gate), `DEC-2026-11-10-07` (what needs an answer now) and `DEC-2026-11-09-13` (guide, don't police), with immigration's eligibility table (`DEC-2026-11-12-07`, memo 6 C) cited for shared rule 3. Costs are in `6-cost.md`; each provision's `cost_source` points there. Delivery is in `5-delivery.md`.
+
+## How to read this section
+
+- **Status of each provision.** *Decided* means Espen decided it: a memo option or a yes-or-no point in section 3, cited. *A working choice* is a parameter this section sets so the draft is complete; it rests on judgment and can change without reopening a decision. *Open* marks a question left open under "What needs an answer now", with its alternatives. *Proposed* marks a seam this dossier proposes to another dossier, which decides it. One provision (FAM-1.11) is a new fork the bill's text raises; it goes to Espen as a question (end of this section) and is written as recommended meanwhile.
+- **Commitments and working assumptions.** This section commits to who is covered, the benefit amounts and their indexing, the phase-outs, the dates, the agencies, the protections and the income rules as decided. The repayment cap above 200% of poverty, the stipend's level, the investment board's share and the fallback's trigger are working choices; take-up and every cost are working assumptions, with ranges in section 6.
+- **Dates.** The plan begins in January 2029 (`DEC-2026-10-29-01`). Calendar dates are when people are paid; tax years are for credits; fiscal years are for money. Preparation in 2027-28 is labeled as such (`5-delivery.md`, part 3).
+- **Evidence.** The last column lists the evidence IDs a provision rests on. "Project arithmetic" is `tools/afa_floor.py` (the child benefit against the 2029 law, on the official CPS ASEC 2026 file) and `tools/secure_floor_path.py` (the fiscal-year path).
+- **Agenda homes.** FAM-1 carries the child benefit and its delivery; FAM-3 paid leave; LAB-10 the on-ramps; SS-1 to SS-5, SS-7, SS-8 and SS-B4 the Social Security act; SS-11 the depletion rule. Memo 3's items, point 7 and memo 7's rules are new agenda items (INC-1 to INC-5), as memo 3 said they would be.
+
+## The vehicles
+
+| Vehicle | Votes | When | What it carries for the secure floor | Money (section 6) |
+| --- | --- | --- | --- | --- |
+| **2029 reconciliation act (R1)** | 51 | 2029, the plan's first bill | The child benefit and its delivery (FAM-1.01 to 1.11); the childless earned income credit and one qualifying-child rule (INC-1); SNAP restored (INC-2); SSI's limits and exclusions (INC-3); the refundable dependent care credit (INC-4); the exclusion rule (INC-5.01); LAB-10's on-ramps (LAB-10.01 to 10.05) | About $2.47 trillion over FY2030-39 on the general fund, $1.9 trillion of it booked as FAM-1 |
+| **Reconciliation on the FY2030 budget resolution (R2)** | 51 | By about October 2029 to January 2030 | Paid leave's benefit, contribution, fund, loan and state rule (FAM-3.01 to 3.06, 3.08), as the budget model books FAM-3 (`models/data/budget/provisions.csv`, rail R2) | The leave fund: about $1.4 trillion of benefits at the booked high take-up |
+| **The Social Security Solvency and Protection Act of 2030** | Regular order: 60 votes, or the Senate rules reform the plan assumes (D2) | Spring 2030 (legacy D8) | SS-1, SS-2, SS-5 (revenue); SS-3, SS-4, SS-B4 (benefits); SS-8 and SS-7's fallback; SS-11 (full benefits on time); paid leave's job restoration and health coverage (FAM-3.07) | The trust funds; the general fund only through the income-tax offset and SS-11's contingent loan |
+| **Proposals to other dossiers** | Theirs | Theirs | One rail with the Climate Dividend (clean power); apprentice hours on plan-funded construction (housing, transportation, clean power); job restoration as a labor standard (work); the child benefit's line in rule 3's table (immigration, decided) | None here |
+| Annual appropriations | — | Each year | Nothing required: the child benefit and the refundable credits are paid under Treasury's permanent appropriation for refunds (FAM-1.07). SSA's and the IRS's administrative budgets carry the build (`5-delivery.md`, part 2) | — |
+
+**Why this split.**
+- *Section 310(g) of the Budget Act keeps Social Security out of reconciliation* [EV-SEC-476]. SS-1 to SS-11 go in their own regular-order act, as D8 always planned [EV-SEC-677]. Paid leave is a new title, not title II, so it can ride reconciliation, as the budget model books it.
+- *Reconciliation carries money, not rules without a budget effect* (the Byrd rule). The child benefit, the credits, SNAP, SSI, the exclusion rule (it changes what housing and SNAP pay) and LAB-10's spending all change outlays. Records-based enrollment (FAM-1.08) changes outlays by reaching more children, and its data-sharing authorities are drafted as conditions of the payment; if the Parliamentarian strikes them, they move to the 2030 act (section 8). Paid leave's job restoration (FAM-3.07) is a labor standard with no budget effect, so it rides the 2030 act, which is regular order anyway (working choice; the work flagship's labor bill is the alternative).
+- *Paid leave in R2, not R1* follows the budget model's booking and gives SSA's build a few more months; contributions begin January 2030 either way.
+
+## Part A: the child benefit (FAM-1.01 to FAM-1.11)
+
+Memo 1 part 1 **A**, the American Family Act (FAM-1D), with no earnings test (point 1 yes) and **without** today's $2,200 credit as a floor (point 2 no), so the bill's own phase-out applies; part 2 **B**, the child's own ID only, paid to the parent the child lives with (point 3 yes); point 4 yes (`DEC-2026-11-12-06`). Espen's framing: a benefit for working and middle-class families. Every family with children below about $150,000 (couples; $112,500 for others), indexed, gets the full amount; it falls gradually above.
+
+| ID | Provision | Key parameters | Agency | Evidence |
+| --- | --- | --- | --- | --- |
+| FAM-1.01 | **A monthly child benefit: the American Family Act's new section 24A** (decided, memo 1 A) | For each child under 18: $300 a month at ages 6 to 17 and $360 under 6 (120%), with $2,400 in a newborn's first month (800%), in 2025 dollars, indexed to prices from 2024 and rounded to $10 (about $340 and $410 a month in 2030 on CBO's prices; project arithmetic). Fully refundable. Replaces the 2025 law's $2,200 credit for children; 17-year-olds, whom the 2025 law leaves out, are covered. Effective for tax year 2030, paid monthly (FAM-1.07). The 2,400-dollar first month is paid in the month after the birth is recorded | Treasury (IRS) | EV-SEC-262, EV-SEC-263, EV-SEC-200, EV-SEC-204, EV-SEC-209, EV-SEC-210 |
+| FAM-1.02 | **The bill's own phase-out, with no $2,200 floor** (decided, point 2 no) | The extra amount falls by 5% of modified AGI above $150,000 for joint returns and $112,500 for others, indexed from 2022 and rounded to $5,000 (about $180,000 and $135,000 in 2030), down to $166.67 a month a child ($2,000 a year, not indexed); the rest falls by 5% above $400,000 joint and $300,000 for others, not indexed. A family may use the current or either of the two prior years' income, as the bill allows. *What declining the floor changes:* about 8.8 million children in about 5.4 million families, all above about $210,000 (couples) or $165,000 (others) in 2030, get less than the 2029 law's $2,200 indexed credit would pay them: about $500 a child in 2030, about $1,100 by 2040 as the law's indexed credit grows and the bill's $2,000 does not. The floor would have cost about $4-6 billion a year, about $0.05 trillion over FY2030-39 (project arithmetic, `tools/afa_floor.py`; section 6, part 1). It reaches no poor children: about 5,500 of 9.7 million in the source year | Treasury (IRS) | EV-SEC-263, EV-SEC-001, EV-SEC-003 |
+| FAM-1.03 | **No earnings test** (decided, point 1) | Every eligible child gets the full amount whatever the parents earn: no phase-in, no minimum earnings, no work condition (shared rule 6). The 2025 law's $2,500 threshold and 15% phase-in end for children | Treasury (IRS) | EV-SEC-006, EV-SEC-011, EV-SEC-601, EV-SEC-224 |
+| FAM-1.04 | **The child's own taxpayer identification number; no parent rule** (decided, part 2 B) | A child qualifies with a Social Security number, an adoption number or an individual taxpayer identification number issued by the return's due date, and is a citizen, national or resident, as the bill provides. The 2025 law's rule that a parent hold a work-eligible Social Security number ends. This is the child benefit's line in immigration's one eligibility table (`DEC-2026-11-12-07`, memo 6 C: "the child's own ID for the child benefit"); this dossier cites it and does not re-decide it | Treasury (IRS) | EV-SEC-264, EV-SEC-005, EV-SEC-016, EV-SEC-015 |
+| FAM-1.05 | **Paid to the parent the child lives with** (decided, point 3) | The payee is the parent or caregiver with whom the child has the same principal home for more than half of the month, as the bill's monthly residence test provides, on that person's attestation. Shared custody of about equal time: the benefit splits evenly. A change of payee when a child moves takes one statement, effective the next month. A dispute goes to a short administrative review by the IRS (FAM-1.10's front doors take the statement), not a tax audit; the payee keeps the payment until the review decides | Treasury (IRS) | EV-SEC-262 (residence test, bill text) |
+| FAM-1.06 | **No repayment below 200% of poverty, and a cap above** (decided, point 4) | Advance payments a family receives in good faith are never repaid if the family's income for the year is below 200% of the poverty guideline for its size. Between 200% and the initial phase-out line, repayment is capped at $1,000 a child a year (working choice). Above the line, excess payments are reconciled on the return as today. Fraud is excepted | Treasury (IRS) | EV-SEC-517, EV-SEC-044 |
+| FAM-1.07 | **Paid monthly, under the permanent refund appropriation** (decided, memo 2 B) | Monthly by direct deposit or a free prepaid card, on a fixed day. As a refundable credit, the benefit is paid under Treasury's permanent appropriation for refunds, so it continues through a lapse in appropriations, and it is not income or a resource for any program (26 U.S.C. 6409). Payments begin no later than July 2030; months of 2030 before the first payment are paid with the 2030 return, or as a lump sum with the first payment for families enrolled from records (working choice; `5-delivery.md`, part 3) | Treasury (IRS, Bureau of the Fiscal Service) | EV-SEC-534, EV-SEC-690, EV-SEC-107, EV-SEC-108 |
+| FAM-1.08 | **Enrollment from records the government holds** (decided, memo 2 B) | A child is enrolled without a claim from the first record that shows them: the Social Security number issued at birth (Enumeration at Birth), the last tax return, or SSA, SNAP, Medicaid, CHIP or SSI records; from 2031, the single plan's enrollment (`DEC-2026-11-10-09`). The payee receives a notice of what the records show and confirms or corrects it; payment continues on the notice unless the payee says it is wrong. *Data use is narrow:* the statute authorizes each match for this benefit, the Climate Dividend's rail (FAM-1.09) and the floor's other payments only; it bars use for immigration enforcement, consistent with immigration's one data firewall (`DEC-2026-11-12-07`, memo 6 C); matches are logged and published as counts | Treasury (IRS), with SSA, USDA (FNS), HHS (CMS) and state agencies | EV-SEC-101, EV-SEC-104, EV-SEC-110, EV-SEC-061, EV-SEC-113, EV-SEC-060 |
+| FAM-1.09 | **One payment rail and notice with the Climate Dividend** (proposed to clean power, point 5) | Treasury builds the benefit's payment file, address record and notice so that the Climate Dividend (CLI-2), when clean power designs it, pays on the same rail as a separately named payment, and so that paid leave and other floor payments can join where they suit. Built for the child benefit whatever clean power decides | Treasury (IRS, Fiscal Service) | EV-SEC-699 |
+| FAM-1.10 | **Front doors at SSA and USDA offices** (decided, point 6) | Anyone may confirm, correct or start a payment, change a payee or ask for review at an SSA field office, a USDA Rural Development office (`DEC-2026-11-10-02`), an IRS taxpayer assistance center or a VITA site, by phone or online; the receiving office records the statement on the IRS's file the same day, under an agreement among the agencies. No office decides eligibility other than the IRS | IRS; SSA; USDA (Rural Development) | EV-SEC-106, EV-SEC-066, EV-SEC-116 |
+| FAM-1.11 | **Keep the $500 credit for other dependents** (open: a question for Espen; written as recommended) | The American Family Act ends section 24 for tax years after 2024 (H.R. 2763, sec. 2(c)), which ends the 2025 law's $500 credit for dependents who are not qualifying children: older teenagers before 18 are now covered by FAM-1.01, but college students, disabled adult children and parents a family supports would lose it. Recommended: section 24 continues for dependents who are not specified children under section 24A, with its $500 amount and its $400,000 phase-out (2029 law). No cost against the 2029 law; about $5-7 billion a year more than the bill as written (project arithmetic: about 14.8 million adults claimed as dependents at $500, an upper bound, since the credit is nonrefundable) | Treasury (IRS) | EV-SEC-001 (section 24 as amended) |
+
+**What memo 1's decision changed.** Memo 1 A as recommended kept today's credit as a floor. Espen declined it (point 2). The provisions follow the bill: the full benefit for working and middle-class families, phasing to $2,000 a child above about $180,000 for couples. The floor's value was about $0.05 trillion over FY2030-39 and about $6 billion in FY2040 (section 6, part 1), so the decided design costs about **$1.85 trillion over FY2030-39 (range $1.65-2.05 trillion) and about $209 billion in FY2040** on the booked profile, against memo 1's $1.9 trillion. It changes no poverty result: the families who get less than the 2029 law are all well above the poverty line (FAM-1.02).
+
+## Part B: income support and participation help
+
+### The earned income credit, SNAP and SSI (INC-1 to INC-3), in R1
+
+Memo 3 part 1 **B** and part 2 **B**; points 8 and 9 yes (`DEC-2026-11-12-06`).
+
+| ID | Provision | Key parameters | Agency | Evidence |
+| --- | --- | --- | --- | --- |
+| INC-1.01 | **The 2021 childless earned income credit, permanent** (decided, memo 3 part 1 B) | For workers without a qualifying child, from tax year 2030: the 2021 maximum of $1,502, phase-in and phase-out rates of 15.3% (from 7.65%), the 2021 phase-out start, all indexed to prices from 2021; eligible from age 19 (24 for full-time students; 18 for former foster youth and young people who were homeless, as in 2021) with no upper age limit. The credit for families with children is unchanged | Treasury (IRS) | EV-SEC-256, EV-SEC-257, EV-SEC-026, EV-SEC-027, EV-SEC-609, EV-SEC-610 |
+| INC-1.02 | **One qualifying-child definition across the earned income credit and the child benefit** (decided, point 9) | A child who qualifies the payee for the child benefit (FAM-1.05: the parent the child lives with most of the year) is that payee's qualifying child for the earned income credit, and the IRS pre-fills the child on the return from the benefit's records (FAM-1.08). The credit's relationship, age and residence tests are aligned to the benefit's | Treasury (IRS) | EV-SEC-258 |
+| INC-2.01 | **SNAP: the 2025 law's cuts repealed** (decided, memo 3 part 2 B) | Repeal, from FY2030, the nutrition subtitle's benefit and eligibility cuts: the wider time limit and the narrowed exceptions (sec. 10102: the time limit's ages and exceptions return to the law before the 2025 act, so parents of children 14 to 17 are excepted again and the exceptions for veterans, people who are homeless and young people who aged out of foster care are restored) [EV-SEC-028] [EV-SEC-029]; the Thrifty Food Plan's cost-neutrality bar (sec. 10101), so the plan's re-evaluations can raise it [EV-SEC-032]; the state share of benefit costs (sec. 10105) [EV-SEC-030]; the cut to 25% federal administrative funding (sec. 10106), back to 50% [EV-SEC-031]; and the energy-assistance and internet-expense changes [EV-SEC-038]. Immigrant eligibility (sec. 10108) [EV-SEC-033] is restored by immigration's table (`DEC-2026-11-12-07`, memo 6 C), cited here, priced there | USDA (FNS); states | EV-SEC-028 to EV-SEC-040, EV-SEC-633, EV-SEC-634 |
+| INC-3.01 | **SSI's asset limits raised and indexed** (decided, memo 3 part 2 B) | $10,000 for an individual and $20,000 for a couple from January 2030, indexed to prices, the SSI Savings Penalty Elimination Act's figures, which care's Medicaid resource limits also use (`dossiers/care/4bcd-specification.md`, HLT-4.04) | SSA | EV-SEC-042, EV-SEC-630, EV-CAR-478 |
+| INC-3.02 | **SSI's income exclusions indexed** (decided, point 8) | The $20 general and $65 earned income exclusions, which are not indexed, indexed to prices from January 2030 (working choice: from their 2029 value, not restored to 1972's purchasing power) | SSA | EV-SEC-043 |
+
+### The dependent care credit (INC-4), in R1
+
+| ID | Provision | Key parameters | Agency | Evidence |
+| --- | --- | --- | --- | --- |
+| INC-4.01 | **The child and dependent care credit refundable, for what families pay** (decided, point 7) | From tax year 2030 the credit (section 21, as the 2025 law left it) is refundable. Eligible expenses are what a family pays out of pocket, net of both care guarantees: school-age care; care outside the child care guarantee's settings; care for a dependent adult below the long-term care benefit's three-activity line (HLT-9, from 2035) or, before 2035, not served by Medicaid home care; and the copays families pay under the guarantees (child care's charge of up to 7% of income above 85% of state median income, `DEC-2026-11-11-03`, and any capped long-term care copay). What either guarantee pays is never claimed again. Care is told (seam) | Treasury (IRS) | EV-SEC-612, EV-SEC-613, EV-SEC-611, EV-CAR-501, EV-CAR-502 |
+
+### Participation help: paid on-ramps (LAB-10.01 to LAB-10.05), in R1
+
+Memo 4 **B**, inside LAB-10's $100 billion; point 10 yes, as a proposal (`DEC-2026-11-12-06`).
+
+| ID | Provision | Key parameters | Agency | Evidence |
+| --- | --- | --- | --- | --- |
+| LAB-10.01 | **Paid on-ramps into the plan's jobs** (decided, memo 4 B) | Sector partnerships of employers, unions and training providers in care, construction and repair, rail and transit, housing production and clean power, in the places the plan invests, run through state workforce boards and the American Job Centers; pre-apprenticeship leading into registered apprenticeship (LAB-8, the work flagship's). $100 billion over FY2030-39, mandatory, at the budget model's booked path (about $14 billion in FY2040) | Labor (ETA); state workforce boards | EV-SEC-143, EV-SEC-144, EV-SEC-698, EV-SEC-638 |
+| LAB-10.02 | **A training stipend** (decided, memo 4 B; amount a working choice) | Up to $9,000 a year in 2030 dollars, indexed, paid monthly for the weeks in training, as Year Up pays [EV-SEC-644]; not income or a resource for any program (INC-5.01) | Labor (ETA) | EV-SEC-644, EV-SEC-645, EV-SEC-149 |
+| LAB-10.03 | **Child care for the hours the guarantee misses, and transport** (decided, memo 4 B) | Evenings, weekends and the weeks before a guarantee slot opens (`DEC-2026-11-11-03` pays the rest); transport to training and for the first three months of work (working choice) | Labor (ETA), with state child care agencies | EV-SEC-149, EV-SEC-643 |
+| LAB-10.04 | **An offer, never a condition** (decided, memo 4 B; Espen, October 26) | No benefit in the plan depends on taking part; declining keeps every benefit; a participant who leaves keeps the stipend already paid. Accessible help and appeal as the legacy rules set | Labor | EV-SEC-698, EV-SEC-678 |
+| LAB-10.05 | **Apprentice hours on plan-funded construction** (proposed, point 10) | 15% of labor hours by registered apprentices on construction the plan pays for, as the Inflation Reduction Act requires for clean-energy credits, with its good-faith exception; memo 4's pre-apprentices feed it. Proposed to housing, transportation and clean power, which decide for their programs | Labor; the funding agencies | EV-SEC-641, EV-SEC-642 |
+
+## Part C: paid leave (FAM-3.01 to FAM-3.08)
+
+Memo 5 **B**: twelve weeks, the 2025 FAMILY Act's 85/69/50 bands, job restoration, the 0.6% contribution stepping to the 1.10% ceiling (ASM-FUND-LEAVE, #266), SSA, states that do as well keep their programs (`DEC-2026-11-12-06`).
+
+| ID | Provision | Key parameters | Agency | Evidence |
+| --- | --- | --- | --- | --- |
+| FAM-3.01 | **A national paid leave benefit** (decided, memo 5 B) | Up to twelve weeks a year (twelve times the worker's usual weekly hours) for a new child, a family member's serious health condition or one's own; benefits from January 2031 (applications from about mid-2030) | SSA | EV-SEC-340, EV-SEC-693 |
+| FAM-3.02 | **Progressive replacement in three bands** (decided, memo 5 B) | 85% of average monthly earnings up to the first band, 69% up to the second and 50% up to the third ($1,257, $3,500 and $6,200 for 2026, wage-indexed), with a minimum of $580 and a maximum of $4,000 a month (2026, wage-indexed), as S. 2823 sets | SSA | EV-SEC-340, EV-SEC-311, EV-SEC-660, EV-SEC-662 |
+| FAM-3.03 | **Who is covered** (decided, memo 5 B; working choice on the earnings test) | Every worker and self-employed person with covered earnings in Social Security's sense, on a short recent-earnings test (working choice: the FAMILY Act's), with no employer-size limit | SSA | EV-SEC-340 |
+| FAM-3.04 | **The contribution and the fund** (decided, memo 5 B; Espen, October 26) | 0.6% of covered wages from January 2030, split evenly between worker and employer (0.3% each; self-employed 0.6%), to a paid leave trust fund. The rate steps up 0.05 points each January when the reserve is below one year of projected benefits, to a ceiling of 1.10% (ASM-FUND-LEAVE), and steps back down when it is above eighteen months. A worker at $60,000 pays $180 a year at 0.6% and up to $330 at the ceiling [EV-SEC-676] | SSA; Treasury | EV-SEC-693, EV-SEC-676 |
+| FAM-3.05 | **A repayable Treasury loan, no open backstop** (decided; legacy D4) | If the fund runs short at the ceiling, Treasury lends at its borrowing rate; the fund repays from contributions. No general-fund appropriation for benefits | Treasury | EV-SEC-694 |
+| FAM-3.06 | **States that do as well keep their programs** (decided, memo 5 B) | A state whose program pays at least twelve weeks at at least the federal replacement rate keeps it, receives the federal contribution for its covered workers (the lesser of the federal-equivalent cost and its actual cost, administration capped at 7%), and its workers file with the state; workers elsewhere are in the federal program from day one | SSA; states | EV-SEC-343, EV-SEC-309 |
+| FAM-3.07 | **Job restoration and health coverage during leave** (decided, memo 5 B), in the 2030 act | An employer must restore a worker who took the benefit, after 90 days on the job, to the same or an equivalent position, and keep group health coverage during the leave; retaliation is barred, with a private right of action and Labor Department enforcement | Labor (WHD); SSA notifies | EV-SEC-342, EV-SEC-313, EV-SEC-307 |
+| FAM-3.08 | **An office of paid leave in SSA** (decided, memo 5 B; Espen, October 26) | A deputy commissioner's office; administration paid from the fund (the budget model books 3% of benefits plus $3 billion of start-up) | SSA | EV-SEC-341 |
+
+## Part D: Social Security (SS-1.01 to SS-11.01), the 2030 act
+
+Memo 6 part 1 **C**, part 2 yes to each, part 3 yes; points 11 and 12 yes (`DEC-2026-11-12-06`). Effects in percent of taxable payroll over 75 years, on SSA's 2026 single-provision scores; no whole-package score exists [EV-SEC-477].
+
+| ID | Provision | Key parameters | Agency | Evidence |
+| --- | --- | --- | --- | --- |
+| SS-1.01 | **12.4% on earnings above $250,000** (decided, memo 6 A within C) | From January 2031; the $250,000 line not indexed, so the gap above the wage cap closes over time; a 2% benefit credit on the added taxed earnings. About +2.30 | SSA; Treasury | EV-SEC-447, EV-SEC-449 |
+| SS-2.01 | **12.4% on net investment income above $400,000, credited to the trust funds** (decided) | From January 2031, unindexed. About +0.99 after the legacy stacking haircut | Treasury (IRS) | EV-SEC-450, EV-SEC-695 |
+| SS-5.01 | **The tax on active S-corporation and partnership income** (decided; Espen, October 26) | SSA's F8 design: active S-corporation holders and limited partners above $200,000 (single) and $250,000 (joint), 12.4 points to the trust funds, from 2031. About +0.87 | Treasury (IRS) | EV-SEC-452, EV-SEC-696 |
+| SS-3.01 | **A minimum benefit at 125% of poverty for 30-year workers** (decided, part 2) | Wage-indexed, from 2031. About −0.11 | SSA | EV-SEC-445, EV-SEC-439 |
+| SS-4.01 | **CPI-E for the cost-of-living adjustment** (decided, part 2) | From the December 2031 adjustment (working choice: the first after the act's revenue starts). About −0.33 | SSA; BLS publishes the index | EV-SEC-455, EV-SEC-440, EV-SEC-667 |
+| SS-B4.01 | **A caregiver earnings credit** (decided, part 2, pending SSA's score) | Up to five years of care for a child under 6 or a dependent relative, at least 960 hours a year, credited at half the average wage. The credit **tops up actual earnings** to that level; paid care hours (Medicaid's, or the long-term care benefit's from 2035, HLT-9.05) count as earnings and never toward the credit, so no care is credited twice. Judgment −0.1 to −0.2. If SSA's score is far higher, the dropout-year design (−0.06 a year dropped) replaces it, as memo 6 provides | SSA | EV-SEC-460, EV-SEC-673, EV-SEC-445, EV-SEC-479 |
+| SS-8.01 | **Part of the reserves invested in a broad stock index** (decided, memo 6 C) | An independent investment board of fixed-term members; up to 20% of the combined trust funds' reserves (working choice), phased in from 2032 as the reserves the package builds grow; one passive, market-weighted index of US stocks; the board votes no shares (or votes them in proportion to other holders). About +0.5 to +1.0 (legacy estimate) | An independent board; Treasury | EV-SEC-697, EV-SEC-466, EV-SEC-467, EV-SEC-469 |
+| SS-7.01 | **The broad rate rise as a fallback** (decided, point 11) | If two consecutive Trustees reports from 2035 on show a 75-year deficit after the package and SS-8 (working choice: worse than −0.25% of payroll), the combined rate rises 0.1 point a year, split evenly, until the reports show balance, to at most 1 point. About +0.9 to +1.0 if fully used | SSA; Treasury | EV-SEC-697, EV-SEC-696 |
+| SS-11.01 | **Full benefits on time if depletion comes first** (decided, part 3 and point 11) | If a trust fund cannot pay scheduled benefits in full before the act's revenue is enough, the general fund lends it the shortfall, so SSA pays full benefits on time; repaid with interest from the act's revenue. Enacted with the act and effective at once; if the act slips past 2031, it moves first as a short bill (section 8). The retirement fund is projected short in the fourth quarter of 2032 [EV-SEC-400] | Treasury; SSA | EV-SEC-412, EV-SEC-411, EV-SEC-400 |
+
+**Point 12 (preparation, 2027-28).** The lead asks SSA's actuaries for a whole-package score of SS-1 to SS-11 in 2027-28, with the caregiver credit modeled on SS-B4.01's population (`5-delivery.md`, part 3).
+
+## Part E: how the floor fits together (INC-5)
+
+Memo 7 part 1 **B** and part 2 **B** (`DEC-2026-11-12-06`).
+
+| ID | Provision | Key parameters | Agency | Evidence |
+| --- | --- | --- | --- | --- |
+| INC-5.01 | **The floor's non-wage payments never count as income** (decided, memo 7 part 1 B), in R1 | One section, modeled on 26 U.S.C. 6409: the child benefit, the Climate Dividend, LAB-10's stipends, the plan's refundable credits and the value of free or capped child care are not income, and not resources for 12 months, for any federal or federally funded program. Paid leave and Social Security, the minimum benefit and caregiver credit included, count as the wages they replace | Every program agency; HUD, USDA and HHS issue conforming rules | EV-SEC-534, EV-HOU-410 |
+| INC-5.02 | **A published 65-cent ceiling, met by design rules** (decided, memo 7 part 2 B) | For the household model's typical families (a single parent of two, a married couple with two, a single adult) at 50% to 300% of poverty, the combined rate from every federal layer, taxes included, stays at or below 65 cents per added dollar; housing's 30% rent rule is outside it. *Design rules:* no plan benefit adds a phase-out below 200% of poverty; INC-5.01; one income finding reused across programs (INC-5.03); benefits held for a set period after a raise. *Monitoring:* the household model publishes the distribution each year; a family type above the ceiling for two years triggers a review by the owning dossiers. No statutory cap and no new calculation for families | Treasury (OTA) publishes, with the household model (`MOD-household`) | EV-SEC-501, EV-HOU-417, EV-SEC-514, EV-SEC-546, EV-SEC-559 |
+| INC-5.03 | **One income finding, reused** (decided, memo 7 part 2 B's design rules) | A program may rely on another federal program's income determination from the prior year's return or its own records, as HUD and express-lane Medicaid already may; the child benefit's and the credits' finding is the default | Each agency | EV-SEC-510, EV-SEC-562, EV-SEC-558 |
+
+**Shared rules 1 and 2's notes, as decided** (for `dossiers/shared-rules.md`, left for the next shared-rules update, as care left rule 7's): rule 1, "The floor's cash payments that do not replace wages are not income or resources for any federal or federally funded program; wage-replacement benefits count as wages would" (INC-5.01). Rule 2, "The combined rate for typical families stays at or below 65 cents per added dollar, outside housing's rent rule; no plan benefit adds a phase-out below 200% of poverty; the household model reports yearly" (INC-5.02).
+
+**Does the decided set meet the ceiling?** As memo 7 found: from 2035 yes, at the edge, for the single parent (about 53-65 cents) and the single adult (about 40-57 with INC-1.01); in 2030-34 the premium credit adds 11-16 cents in its range until the single plan ends it. Memo 1's decision adds no layer below the ceiling's top: the child benefit's phase-out starts at about $180,000 for couples, far above 300% of poverty (about $82,000 for a family of three in 2026 [EV-SEC-044], project arithmetic). Child care's sliding scale (7 to 23 cents in its range, `dossiers/care/4bcd-specification.md`, design lens) is above 85% of state median income, mostly above 300% of poverty; the household model checks the overlap (section 7).
+
+## Where particular groups fall
+
+Groups the provisions do not name, placed by working choices that follow from the decisions:
+- **Children in foster and kinship care.** The child benefit goes to the person the child lives with (FAM-1.05): a kinship caregiver is paid on attestation; for a child in state foster care, the foster parent is the payee, and the state may not count it against foster care payments (INC-5.01).
+- **Children in the territories.** The bill's possessions rules apply: Puerto Rico and the territories with mirror codes are paid by the territory with federal reimbursement, as the 2021 credit was (H.R. 2763's coordination with possessions; working choice to use it).
+- **Mixed-status families.** A child with an identification number qualifies whatever the parents' status (FAM-1.04); records matches never go to enforcement (FAM-1.08).
+- **Parents without a fixed address, and people in prison or jail.** The child benefit follows the child's home, not the parent's; a parent who is incarcerated is not the payee while the child lives elsewhere. Workers without a home qualify for INC-1.01 on their earnings.
+- **People on SSI or SSDI.** Every new payment is excluded (INC-5.01); the asset limits (INC-3.01) let them keep it.
+- **Self-employed and gig workers.** Covered by paid leave on their self-employment earnings (FAM-3.03) and by the earned income credit as today.
+
+## Shared rules kept in one place
+
+| Rule | Owner | The secure floor's answer | Where it applies |
+| --- | --- | --- | --- |
+| 1. What counts as income | **Secure floor** | The floor's non-wage payments never count; wage replacement counts | INC-5.01; FAM-1.07; LAB-10.02 |
+| 2. How fast help falls | **Secure floor**, with the household model | The 65-cent published ceiling and its design rules | INC-5.02; FAM-1.02 |
+| 3. Immigrant eligibility | Immigration (`DEC-2026-11-12-07`, memo 6 C) | Cited: the child's own ID for the child benefit; the pre-2025 rules for SNAP and SSI with no five-year wait for the newly legalized; one data firewall | FAM-1.04, FAM-1.08, INC-2.01 |
+| 4. Income lines | **Secure floor** | The HHS poverty guideline for the floor's own lines (FAM-1.06, INC-5.02); modified AGI for the child benefit, from the current or either prior year; one finding reused (INC-5.03) | FAM-1.02, 1.06; INC-5.03 |
+| 5. Who verifies and pays | Democratic renewal | IRS pays the child benefit and the credits from records; SSA pays leave and Social Security; matches narrow and logged (`5-delivery.md`) | FAM-1.08, FAM-3.08 |
+| 6. Conditions on help | Work flagship | No benefit in the set carries a work or activity condition | FAM-1.03, LAB-10.04 |
+
+## What the decisions changed
+
+- **No $2,200 floor** (point 2 no). FAM-1.02 follows the bill; about 8.8 million children in families above about $210,000 (couples) get less than the 2029 law; the decided child benefit is about $0.05 trillion cheaper over FY2030-39 than memo 1 A as recommended.
+- **Everything else as recommended** (`DEC-2026-11-12-06`).
+- **A new question the bill's text raises:** ending section 24 would end the $500 credit for other dependents (FAM-1.11). It was not in memo 1; it goes to Espen.
+- **Immigration's decisions** (`DEC-2026-11-12-07`) settle rule 3 for this dossier: the child's own ID (FAM-1.04) and SNAP's immigrant rules (INC-2.01), and the data firewall that FAM-1.08 honors.
+
+## Design lens
+
+Each requirement the set adds, what it buys and what it costs in burden (`DEC-2026-11-09-13`):
+
+| Requirement | Buys | Burden | Why kept |
+| --- | --- | --- | --- |
+| The phase-out above about $180,000 (FAM-1.02) | About $0.05 trillion over ten years against a floor, and a benefit framed for working and middle-class families | None for families below the line; above it, the bill's formula on the return they already file. Its marginal rate is 5 cents a dollar per family, not per child, over its range | Decided (point 2) |
+| The child's identification number (FAM-1.04) | The bill's integrity rule, without a parent test | Children with no number need one; enumeration at birth gives most of them one automatically | Decided (part 2 B) |
+| The payee's attestation (FAM-1.05) | Money goes to the person caring for the child | One statement; a short review in disputes | Decided (point 3) |
+| Confirming the notice (FAM-1.08) | Reach to children the 2021 credit missed | Read and confirm; silence keeps payment going | Decided (memo 2 B) |
+| Reconciliation above 200% of poverty (FAM-1.06) | Accurate payment at higher incomes | Families above 200% reconcile on the return, capped below the phase-out line | Decided (point 4); the cap is a working choice |
+| SSA's claim for paid leave (FAM-3.01) | The benefit | One claim with a birth or medical record | Decided |
+| LAB-10's application (LAB-10.01) | Training, a stipend, care and transport | An application, by choice | Decided; never a condition |
+| The ceiling's monitoring (INC-5.02) | A guard against later layers | None on families; one yearly report | Decided |
+
+Nothing in the set adds a work test, an asset test where none existed, or a new periodic report for families. INC-2.01 and INC-3 remove burden: SNAP's added work-rule paperwork, and SSI's asset test for savings up to $10,000.
+
+## Consistency check
+
+Every decided amount and date, and where it appears. Search the dossier for an old figure before changing one.
+
+| Item | Value | Appears in |
+| --- | --- | --- |
+| Child benefit amounts | $300 (6-17) and $360 (under 6) a month, $2,400 newborn month, 2025 dollars, indexed; under 18 | FAM-1.01; memo 1; 3-design; sections 6, 9 |
+| Child benefit phase-out | 5% above $150,000 joint / $112,500 other (indexed from 2022), to $166.67 a month a child; 5% again above $400,000 / $300,000; **no $2,200 floor** | FAM-1.02; memo 1 (status line); 3-design point 2; sections 6, 9 |
+| Who gets less than the 2029 law | About 8.8 million children in about 5.4 million families in 2030, all above about $210,000 (couples) or $165,000 (others) in 2030 | FAM-1.02; sections 6, 8, 9 |
+| Child benefit cost, decided | About $1.85 trillion over FY2030-39 (range $1.65-2.05), about $209 billion in FY2040; booked $1.90 trillion and $215 billion | Section 4 part A; section 6; README |
+| Child's ID | The child's own number; no parent rule | FAM-1.04; memo 1 part 2; immigration memo 6 C |
+| Safe harbor | No repayment below 200% of poverty; $1,000 a child cap to the phase-out line (working) | FAM-1.06; 3-design point 4 |
+| Payments start | No later than July 2030, tax year 2030 | FAM-1.07; section 5 |
+| Childless earned income credit | 2021 design ($1,502, 15.3%, from 19) indexed, tax year 2030 | INC-1.01; memo 3 |
+| SNAP | 2025 cuts repealed from FY2030; immigrant rules by immigration's table | INC-2.01; memo 3 |
+| SSI | $10,000 / $20,000 indexed; $20 and $65 indexed | INC-3.01, 3.02; memo 3; 3-design point 8 |
+| Dependent care credit | Refundable from tax year 2030, out-of-pocket net of both guarantees | INC-4.01; 3-design point 7 |
+| LAB-10 | $100 billion FY2030-39; stipend up to $9,000 a year | LAB-10.01, 10.02; memo 4 |
+| Paid leave | 12 weeks; 85/69/50 bands; 0.6% to 1.10%; contributions 2030, benefits 2031; job back after 90 days | FAM-3.01 to 3.07; memo 5; sections 5, 6 |
+| Social Security | SS-1, 2, 5 from 2031; SS-3, 4, B4; SS-8 up to 20% of reserves; SS-7 trigger; SS-11 | Part D; memo 6; sections 5, 6 |
+| The ceiling | 65 cents, 50-300% of poverty, housing outside | INC-5.02; memo 7 |
+| The set's general-fund cost | About $2.47 trillion over FY2030-39 and $284 billion in FY2040; new lines about $0.52 trillion and $62 billion | Section 6; README |
+
+## Evidence still needed
+
+- A JCT or Treasury score of the American Family Act on the 2025 law's baseline, and whether the Tax Policy Center's $1.4 trillion counts ending the $500 credit for other dependents (FAM-1.11).
+- The IRS's count of returns claiming the credit for other dependents and its cost (FAM-1.11's upper bound is from the CPS).
+- The 2021 advance credit's repayment safe harbor (FAM-1.06's cap).
+- The ARPA childless credit's phase-out start and the age rules as statute text (INC-1.01).
+- CBO's provision table for the 2025 nutrition subtitle, to split INC-2.01 from sec. 10108.
+- SSA's scores of SS-8 and a caregiver earnings credit; a whole-package score (point 12).
+
+## Open question for Espen
+
+One, raised by the bill's text, not by memo 1:
+
+**FAM-1.11. The $500 credit for other dependents.** The American Family Act ends section 24, which also ends the 2025 law's $500 credit for dependents who are not children under 18: college students, disabled adult children, aging parents a family supports. **Recommended: keep it** (no cost against the 2029 law; about $5-7 billion a year more than the bill as written). The alternative is the bill as written, which saves that amount and raises taxes on about 14.8 million such dependents' families, at every income.

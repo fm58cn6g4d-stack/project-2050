@@ -1,6 +1,6 @@
 # Memo 5: Paid family and medical leave
 
-Role: decision memo for Espen, fork 7 of the secure floor (`../README.md`, "Forks for S3"; `../3-design.md`). Status: draft for decision (board row S3); nothing here is decided. Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions.
+Role: decision memo for Espen, fork 7 of the secure floor (`../README.md`, "Forks for S3"; `../3-design.md`). Status: **decided** (`DEC-2026-11-12-06`): **B**, as recommended. Specified in `../4-specification.md` (FAM-3.01 to 3.08). Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions.
 
 **Decision line.** Recommended: **B, twelve weeks of national paid leave run by SSA, with the 2025 FAMILY Act's progressive replacement (85%, 69% and 50% in bands) and job restoration, financed by the legacy contribution (0.6% of wages, stepping up toward the 1.10% ceiling you approved), with states that already do as well keeping their programs.** Cost: about **$0.9 trillion of benefits over FY2030-39 (range $0.6-1.4 trillion), about $130 billion in FY2040 (range $90-200 billion)**, paid from the leave fund; the general fund bears the income-tax offset and any temporary Treasury loan. Evidence: quasi-experimental studies of state programs; microsimulation for cost.
 

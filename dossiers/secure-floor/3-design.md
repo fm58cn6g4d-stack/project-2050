@@ -1,6 +1,6 @@
 # A secure floor for every household: design choices
 
-Role: section 3 of the secure floor dossier: the real forks, the options weighed with their evidence and costs, a recommendation for each, one decision memo per batch of forks in `memos/`, and a numbered list of narrower yes-or-no points. Status: draft for decision (stage D, board row S3); nothing here is decided. Every recommendation is a proposal to Espen, decided memo by memo and point by point (`charter/STANDARDS.md`, "Decision memos"). Sources are named in plain text in the memos; bracketed tags point to `evidence.json`; "project arithmetic" is shown where it is used; "judgment" marks a working assumption with its basis below (`DEC-2026-11-10-07`).
+Role: section 3 of the secure floor dossier: the real forks, the options weighed with their evidence and costs, a recommendation for each, one decision memo per batch of forks in `memos/`, and a numbered list of narrower yes-or-no points. Status: **decided** (`DEC-2026-11-12-06`, board question 0o, November 12, 2026): every memo and point as recommended, except point 2, the $2,200 floor, which Espen declined; sections 4-6 specify and price the decided set (board row S4). The options and recommendations below are kept as Espen decided them. Sources are named in plain text in the memos; bracketed tags point to `evidence.json`; "project arithmetic" is shown where it is used; "judgment" marks a working assumption with its basis below (`DEC-2026-11-10-07`).
 
 ## How to read this section
 
@@ -23,6 +23,14 @@ Role: section 3 of the secure floor dossier: the real forks, the options weighed
 - **Design lens** (`DEC-2026-11-09-13`). Each option says what it asks of families and what it buys. Memo 2 and memo 7 are mostly about burden.
 - **Time frame** (`DEC-2026-10-29-01`). Recommendations start with the 2029 law; anything earlier is labeled preparation.
 - **Layout.** One section 3 file with seven memos, not part files; the README records why ("Layout").
+
+## Decided
+
+Espen decided the batch on November 12, 2026 (`DEC-2026-11-12-06`), each memo and point on its own:
+- **Memo 1:** part 1 **A**, the American Family Act (FAM-1D), with no earnings test and **without** the $2,200 floor, so the bill's own phase-out applies (5% above $150,000 for couples and $112,500 for others, and again above $400,000); framed as a benefit for working and middle-class families. Part 2 **B**, the child's own ID only, paid to the parent the child lives with. Espen: "i want to move the child tax credit/allowance design back to include the American Family Act income phase-out ... this can be phrased as a benefit for working and middle classes"; asked whether declining point 1 meant an earnings test: "No earnings test".
+- **Memo 2 B; memo 3 part 1 B and part 2 B; memo 4 B; memo 5 B; memo 6 part 1 C, part 2 yes to each, part 3 yes; memo 7 part 1 B and part 2 B.**
+- **Points:** 1 yes (no earnings test); **2 no** (no $2,200 floor); 3-12 yes.
+- **What it changes here:** memo 1 A costs about $0.05 trillion less over FY2030-39 than recommended (`6-cost.md`, part 1); about 8.8 million children in families above about $210,000 (couples) get less than the 2029 law would pay them; no poverty result changes. The bill's ending of section 24 also ends the $500 credit for other dependents, a question the memo did not ask; it goes to Espen with the specification (`4-specification.md`, FAM-1.11).
 
 ## Espen's November 11 direction, carried out
 
@@ -118,7 +126,7 @@ The README asks for the legacy model re-run on the January 2029 baseline. What w
 - **Working assumption** (`DEC-2026-11-10-07`). Under memo 1 A with the decided housing awards, child SPM poverty on the 2029 baseline is **about 9-10%, range 8-12%**, against a 2029 baseline of about 13.5-14.5%.
   - *Basis:* the model's 8.1-8.7% on 2025 incomes [EV-SEC-692]; a higher 2029 baseline from the 2025 law's SNAP and Medicaid cuts, which Urban estimates add 0.8 million children in deep poverty [EV-SEC-634] (judgment: +0.5 to +1.5 points on the baseline); and the largest predicted work response, which cuts the reduction by about a third [EV-SEC-218] (project arithmetic: about 10.4%).
   - *Cost of being wrong:* it changes the public case's numbers (section 9), not the choice among memo 1's options, which all move the same way. It is not on the critical path.
-  - *Section 6 re-runs it* with the 2029 baseline, the number branch under memo 1 part 2, the $2,200 retained floor (point 2), and with and without the employment range.
+  - *Section 6 re-ran it* on the decided design (`6-cost.md`, part 3): the legacy analogue already keeps the bill's $2,000, not a $2,200 floor, so its results are the decided design's; the working assumption holds. The 2029 baseline, the number branch and the employment range wait for the household model (section 7).
 
 ## Inherited assumptions, traced
 
@@ -154,56 +162,56 @@ Each is decided on its own. None is adopted by silence. Costs are judgment unles
    - *Why:* the phase-in shuts out 17 million to 19 million children, the poorest [EV-SEC-011] [EV-SEC-601]; removing a work requirement in California caused very few mothers to leave work [EV-SEC-224].
    - *Cost:* inside memo 1's options.
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 2. **Today's $2,200 credit, indexed, is a floor above the American Family Act's phase-out.** No family gets less than under the 2029 law.
    - *Why:* the bill's phase-down starts at $150,000 [EV-SEC-263], below the 2025 law's $400,000, so without a floor some families would lose. It also settles the model's $2,000 question (`legacy-research.md`, 2).
-   - *Cost:* small, inside memo 1 A's range (judgment).
+   - *Cost:* small, inside memo 1 A's range (judgment); repriced at about $0.05 trillion over FY2030-39 (`6-cost.md`, part 1).
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: no** (DEC-2026-11-12-06): the bill's own phase-out applies.
 3. **The child benefit is paid to the parent the child lives with most of the year,** on that parent's attestation, split evenly for shared custody, with a simple change of payee when a child moves.
    - *Why:* the person caring for the child should receive the money for the child. Today the credit goes to whoever claims the child.
    - *Burden:* one attestation; disputes go to a short review, not a tax audit.
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 4. **No repayment of advance payments for families below 200% of poverty,** and a cap above it, so a change in income during the year never leaves a low-income family with a tax bill.
    - *Why:* the 2025 law removed the cap on repaying excess premium credits, and a mid-year raise can now bring a bill [EV-SEC-517]. The child benefit should not repeat that.
    - *Cost:* small (judgment). The 2021 advance credit's safe harbor is not yet in the register.
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 5. **One payment rail and notice for the child benefit and the Climate Dividend,** as separately named payments, proposed to the clean power dossier, with paid leave and the floor's other payments joining where they suit (memo 2 B).
 
-   **Recommended: yes, as a proposal to clean power.**
+   **Recommended: yes, as a proposal to clean power.** **Decided: yes.**
 6. **SSA field offices and USDA Rural Development offices as front doors** for confirming, correcting or starting any floor payment (memo 2 B; `DEC-2026-11-10-02`).
    - *Why:* closing an SSA office cut disability recipients nearby by 16% [EV-SEC-106].
    - *Cost:* inside memo 2's figure and the rural offices' decided staffing.
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 7. **Make the child and dependent care credit refundable** (fork 10, left here by care, part C, point 4) for what a family actually pays out of pocket, net of both care guarantees.
    - *What counts:* school-age care; care outside the child care guarantee's settings; care for a dependent adult who is below the long-term care benefit's three-activity line (HLT-9, from 2035) or, before 2035, not served by Medicaid home care; and **the copays families pay under the guarantees**: child care's charge of up to 7% of income above 85% of state median income (`DEC-2026-11-11-03`) and any capped copay for long-term care under the plan. What either guarantee pays is never claimed again. This matches care part C's expectation that the credit helps families above the free line with copays (`dossiers/care/3c-design-child-care.md`, tax credits row).
    - *Why:* a nonrefundable credit skips the families with the least tax (Brookings) [EV-SEC-613]; when refundable in 2021, about 9.1 million families were eligible, against 6.5 million claimants before (Joint Economic Committee, Democratic staff) [EV-SEC-612]. Care's guarantees pay most care for children under 5 below 85% of state median income (`DEC-2026-11-11-03`) and, from 2035, home care for adults at the three-activity line (`DEC-2026-11-11-02`), so the credit's remaining role is narrower.
    - *Cost:* about $3-6 billion a year (judgment, against CRFB's $90 billion over ten years for the whole 2021 expansion [EV-SEC-611]). Counting copays adds little to refundability's cost: the families paying them are above 85% of state median income and mostly owe enough tax to use the credit already.
 
-   **Recommended: yes.** Care is told (seam).
+   **Recommended: yes.** **Decided: yes.** Care is told (seam).
 8. **Index SSI's $20 and $65 income exclusions,** which are not adjusted for inflation [EV-SEC-043], with memo 3's asset limits.
    - *Cost:* small (judgment).
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 9. **One definition of a qualifying child across the earned income credit and the child benefit,** checked against the child benefit's records (memo 2), so families are not caught out by rules that differ by credit.
    - *Why:* the IRS puts the earned income credit's improper payment rate at 32.7%, mostly from errors over which child qualifies [EV-SEC-258].
 
-   **Recommended: yes.**
+   **Recommended: yes.** **Decided: yes.**
 10. **A share of labor hours on plan-funded construction goes to registered apprentices,** 15% as the Inflation Reduction Act requires for clean-energy credits [EV-SEC-641] [EV-SEC-642], with pre-apprenticeship from memo 4 feeding it.
     - *Why:* it gives memo 4's trainees a job at the end.
     - *Owners:* housing, transportation and clean power decide for their programs; this is a proposal.
 
-    **Recommended: yes, as a proposal to those dossiers.**
+    **Recommended: yes, as a proposal to those dossiers.** **Decided: yes.**
 11. **Social Security's two safety rules** (memo 6): a broad rate rise (SS-7) starts, phased, only if the Trustees still report a gap after the package and the reserve investment; and if the retirement fund runs short before the solvency law takes effect, the general fund lends it enough to pay full benefits on time, repaid from the package.
     - *Why:* the law does not say what SSA does at depletion [EV-SEC-412]; the legacy file names SS-7 as the fallback [EV-SEC-696].
 
-    **Recommended: yes.**
+    **Recommended: yes.** **Decided: yes.**
 12. **Ask SSA's actuaries for a whole-package score in 2027-28** (preparation). No score of the legacy package, SS-10's trade or the 2026 Social Security 2100 Act exists [EV-SEC-477].
 
-    **Recommended: yes.**
+    **Recommended: yes.** **Decided: yes.**
 
 ## Shared rules this section relies on
 
@@ -254,4 +262,4 @@ From `dossiers/shared-rules.md`. Rules 1, 2 and 4 are this dossier's; the others
 
 ## Questions for Espen
 
-The memo set goes on the board as one entry (`charter/PROGRESS.md`, "Questions for Espen", 0o): memos 1-7 and points 1-12, each decided on its own.
+Question 0o is answered (`DEC-2026-11-12-06`). One new question, raised by the bill's text, goes with the specification: keep the $500 credit for other dependents (`4-specification.md`, FAM-1.11).

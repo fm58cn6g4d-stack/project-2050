@@ -1,6 +1,6 @@
 # Dossier: A secure floor for every household (flagship 1)
 
-Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage D (board rows S1 to S3). Sections 1 and 2 are drafted, with the legacy research restated; section 3 and its seven memos are drafted for Espen's decision (question 0o on the board); nothing is decided yet. Level: every item is at L1 (`DEC-2026-10-30-03`); the legacy designs are working choices, weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
+Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage D (board rows S1 to S4). Sections 1 and 2 are drafted, with the legacy research restated; section 3's seven memos and twelve points are **decided** (`DEC-2026-11-12-06`): every memo and point as recommended except the $2,200 floor (point 2), which Espen declined; sections 4-6 specify and price the decided set (row S4, PR 1), sections 7-9 follow (PR 2). Level: the decided items are at **L2** (`agenda/agenda.csv`); L3 after sections 7-9 and the milestone review. Headline: about **$2.47 trillion over FY2030-39 and $284 billion in FY2040** on the general fund, of which $2.0 trillion is booked (FAM-1, LAB-10); paid leave and Social Security are fund-financed (`6-cost.md`).
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly):
 - a monthly child benefit;
@@ -71,8 +71,11 @@ Decided programs are cited by their `DEC-` entries. Programs in dossiers not yet
 | --- | --- | --- |
 | 1. The problem | `1-problem.md`: child poverty and who the current credit misses; income support's holes; paid leave access; Social Security's depletion date and what happens then; the stacked phase-outs; the January 2029 baseline | Draft (S2) |
 | 2. What works | `2-what-works.md`: the 2021 expanded credit (poverty and the contested employment evidence), Canada's child benefit, cash trials, the earned income credit literature; state paid leave programs and the research; Social Security's anti-poverty record, minimum benefits, caregiver credits, solvency packages; coordinating phase-outs at home and abroad; each against the bills | Draft (S2) |
-| 3. Design choices | `3-design.md` and `memos/` (seven memos and twelve yes-or-no points, index in `memos/README.md`) | Draft for decision (S3) |
-| 4-9 | Specification, delivery, cost, validation, what would change our minds, public case | Later |
+| 3. Design choices | `3-design.md` and `memos/` (seven memos and twelve yes-or-no points, index in `memos/README.md`) | Decided (`DEC-2026-11-12-06`) |
+| 4. Specification | `4-specification.md`, with `provisions.json` (FAM-1.01-1.11, INC-1 to INC-5, LAB-10.01-10.05, FAM-3.01-3.08, SS-1.01-SS-11.01) | Draft (S4) |
+| 5. Delivery | `5-delivery.md` | Draft (S4) |
+| 6. Cost | `6-cost.md`, with `tools/afa_floor.py` (the child benefit against the 2029 law on the CPS file) and `tools/secure_floor_path.py` (the fiscal-year path); the child-poverty re-run on the decided design | Draft (S4) |
+| 7-9 | Validation, what would change our minds, public case | Next (S4, PR 2) |
 
 ## Files and ID ranges
 
@@ -131,4 +134,4 @@ S3's memo set puts these to Espen (`3-design.md`, "The forks at a glance", maps 
 
 ## Open questions for Espen
 
-One batch, board question 0o: memos 1-7 in `memos/` and points 1-12 in `3-design.md`, each decided on its own.
+Question 0o is decided (`DEC-2026-11-12-06`). One new question from the specification: keep the $500 credit for other dependents, which the American Family Act's text would end (`4-specification.md`, FAM-1.11; recommended: keep).
