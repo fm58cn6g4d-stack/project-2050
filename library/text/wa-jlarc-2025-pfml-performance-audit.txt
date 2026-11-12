@@ -1,0 +1,1405 @@
+Source: https://leg.wa.gov/jlarc/reports/2024/PFML/f_01/print.pdf
+Publisher: Washington Joint Legislative Audit and Review Committee
+Retrieved: 2026-11-12
+Original SHA-256: e46f94be0237bfaefc45dbce7035989395186fdda53a68f62d874bbc9cf77bb0
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Paid Family and Medical Leave Program
+25-01 FINAL REPORT | JANUARY 2025
+Zack Freeman, Aline Meysonnat, Josh Karas, Research Analysts
+Ryan McCord, Audit Director; Eric Thomas, Legislative Auditor
+
+Legislative Auditor's conclusion:
+Paid Family and Medical Leave program expenses are likely to continue exceeding revenues in future years.
+Changes to the rate formula could make the program more stable and promote financial sustainability.
+
+Key points
+The Employment Security Department (ESD) has collected $4.5 billion in premiums and paid $4.2 billion
+in benefits on more than 700,000 claims through December 2023.
+The premium rate formula in statute does not produce enough revenue to cover program expenses.
+ESD forecasts the program will have a negative balance for portions of 2025 and 2026.
+JLARC’s consulting actuary recommends using a forward-looking rate-setting approach and maintaining a
+financial reserve.
+ESD has implemented essential parts of the program. However, it needs to address project prioritization,
+employer audits, and customer service timeliness to meet best practices.
+
+Executive summary
+The 2017 Legislature created the Paid Family and Medical Leave (PFML)
+program (Title 50A RCW). The Employment Security Department (ESD)
+administers the program.
+
+Washington’s Paid Family and Medical Leave program
+offers paid time off to public and private employees
+Employees can use leave when a serious health condition prevents them from working, to care for a family
+member, to bond with a new baby or child, or for certain military-related events. Leave is available to
+employees in Washington who have worked at least 820 hours in the past year.
+
+Eligible employees may claim up to 12 weeks of paid family or medical leave. Additional leave up to a
+maximum of 18 weeks may be available for employees who have more than one qualifying event in the
+same claim year.
+Benefit applications increased by an average of 15% each year, rising from 168,000 in 2020 to 259,000
+in 2023. The percent of approved applications rose from 81% to 87%.
+Benefit payments are based on employee wages and the state’s average weekly wage. The maximum
+weekly benefit for 2024 was $1,456 and the average was $878.
+ESD has paid $4.2 billion in benefits on over 700,000 approved applications.
+
+Figure 1: Applications received, applications approved, and weekly benefits have increased
+
+Applications approved
+
+Applications received
+
+Weekly benefit
+Maximum
+
+259k
+
+87%
+
+81%
+
+168k
+
+Average
+
+$1,000
+
+$1,456
+
+$630
+2020
+
+2023
+
+2020
+
+2023
+
+2020
+
+$878
+2024
+
+Source: JLARC staff analysis of ESD data.
+
+PFML premiums are calculated based on a formula set in statute. Employees and employers pay premiums to
+fund the leave benefits. Employers apply the premium rate to each employee’s gross wages, up to the Social
+Security cap ($168,600 in 2024). In 2024, for every $100 of gross wages, employees paid 53 cents in
+premiums, and employers paid 21 cents. Since 2019, ESD has collected $4.5 billion in premiums.
+In October, ESD announced that the premium rate in 2025 will be 0.92%. The current rate is 0.74%.
+
+The premium rate formula in statute does not produce enough revenue to cover
+program expenses
+Since the program began paying benefits in 2020, annual expenses have exceeded premium collections in
+two out of four years. JLARC’s consulting actuary, Spring Consulting Group (Spring Consulting) projects that
+expenses are likely to exceed revenues in three of the next five years (i.e., negative net income).
+
+Figure 2: JLARC’s consulting actuary projects PFML program expenses are likely to exceed
+revenue in three of the next five years
+dollars in millions
+
+forecast
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2028
+
+Revenue
+
+$678
+
+$701
+
+$1,109
+
+$1,635
+
+$1,750
+
+$2,318
+
+$2,348
+
+$2,398
+
+$2,560
+
+Expenses
+
+($665) ($959) ($1,258) ($1,538) ($1,846) ($2,014) ($2,203) ($2,408) ($2,629)
+
+Net income
+
+$13 ($258)
+
+($149)
+
+$97
+
+($96)
+
+$304
+
+$145
+
+($10)
+
+($69)
+
+Source: JLARC staff analysis of state accounting data and Spring Consulting.
+
+Negative net income reduces the PFML account’s fund balance. Spring Consulting found that the PFML
+account fund balance has been low relative to expenses and actuarial best practices. In 2022 and 2023, the
+account fluctuated between negative and positive fund balances. In 2023, the Legislature transferred $200
+million into the PFML account. This led to a positive balance and reduced the 2024 premium rate to 0.74%.
+The rate would have been 0.82% without the transfer. The lower rate contributes to ESD’s current forecast
+that the fund balance will be negative beginning in March 2025. ESD expects negative balances will continue
+through much of 2025 and 2026.
+
+JLARC’s consulting actuary recommends a forward-looking rate-setting approach
+and maintaining a financial reserve
+The current statutory rate formula relies solely on financial information from the previous year to set rates for
+the next year. The rates cannot reflect anticipated changes in program use or benefit payments. Actuarial best
+practices recommend incorporating trends in claim experience, potential future economic shifts, and
+demographic changes.
+The current formula also includes a three-month reserve maximum (cap). This means that if the rate is likely
+to yield an account balance that is more than three months of expenses, ESD must reduce the rate. The cap
+can only adjust rates down. The formula does not have a reserve minimum (floor) or target. Without a reserve
+floor or target, there is no mechanism to increase rates to ensure a sufficient reserve.
+In a November 2023 report, ESD recommended adopting an actuarial rate-setting approach. JLARC’s
+actuarial consultant, Spring Consulting, concurs and makes two suggestions to improve the long-term stability
+of the PFML program:
+1. Use a forward-looking rate-setting approach that is based on actuarial estimates of future revenues and
+benefit costs.
+This approach can reduce rate volatility and incorporate long-term financial projections. Seven of
+nine state paid family and medical leave programs reviewed by JLARC staff use forward-looking
+approaches.
+2. Maintain a financial reserve sufficient to cover shortfalls.
+A reserve target or floor allows rates to move up or down to maintain the targeted balance.
+Washington is the only state to use a reserve cap for its paid family and medical leave program
+reserves.
+
+ESD has yet to fully implement the PFML program. Its process for selecting projects
+should be more transparent.
+After the Legislature established the program, ESD prioritized creating the technology and operational
+processes required to collect premiums and pay benefits. ESD successfully developed the core functions.
+
+However, it has not implemented nine statutory requirements, including some that would automate processes
+and protect the state from overpaying benefits. The Legislature appropriated funds for additional staff and
+resources with the expectation that ESD will complete the remaining components by April 2026.
+ESD has a formal process for prioritizing these and other technology projects. While it uses best practices
+such as monthly reviews, certain areas lack documented procedures and criteria. As a result, it is unclear how
+projects are prioritized and ranked for implementation.
+
+ESD does not follow best practices for employer compliance audits
+ESD audits employers to determine if they are properly reporting premiums and maintaining accurate records.
+In 2023, ESD completed 169 audits. Of these, 163 (96%) led to corrections: $283,000 in underpayments and
+$48,000 in overpayments.
+The scale of inaccurate wage reporting and its overall impact on the program’s financial health is unknown.
+ESD has completed 201 of the 801 audits it assigned staff since 2021. Contrary to best practice, it does not
+have procedures for selecting which employers to audit or for determining how many employers will be audited
+each year.
+
+ESD has not provided timely customer service
+ESD’s customer service representatives process applications and claims and answer the phones in the call
+center.
+Application and claim processing: ESD aims to approve an employee’s first benefit payment within
+three weeks of their application. Between January 2022 and June 2024, ESD met that target in 16 of 30
+months.
+Call center: The number of calls to ESD’s call center increased each year. Calls are placed in queues
+based on the reason for the call. When call volume is high, the system automatically disconnects calls if
+queues are full.
+In 2022, ESD received an average of 47,000 calls about PFML per month. It answered 60%.
+As of June 2024, it received an average of 78,000 calls per month. ESD answered 23% of calls
+between January and June 2024.
+While ESD tracks metrics such as call hold times, it does not have any formal performance measures to help
+it manage or evaluate application processing or call center performance. Measures could help the agency
+determine and address the factors that contribute to long wait times for applications and call center response.
+
+Legislative Auditor's recommendations
+1. The Legislature should implement a forward-looking rate-setting approach that maintains a sufficient
+financial reserve for the PFML program.
+
+2. ESD should adopt criteria for its compliance audit program.
+3. ESD should adopt quantifiable customer-oriented performance measures for claims processing and call
+center management.
+4. ESD should develop a documented and transparent process for prioritizing projects.
+ESD concurs with these recommendations. You can find additional information in the Recommendations
+section.
+
+Committee action to distribute report
+On January 9, 2025 this report was approved for distribution by the Joint Legislative Audit and Review
+Committee. Action to distribute this report does not imply the Committee agrees or disagrees with
+Legislative Auditor recommendations.
+
+Part 1.
+PFML program
+The 2017 Legislature created the Paid Family and Medical Leave (PFML) program (Title 50A RCW). The
+program is administered by the Leave and Care Division (LCD) of the Employment Security Department (ESD).
+The program offers paid time off to public and private employees who have worked at least 820 hours in
+Washington in the past year. In 2023, there were three million eligible workers.
+Eligible employees may claim up to 12 weeks of paid family or medical leave. Additional leave is available for
+those who have multiple qualifying events in the same year. The maximum is a total of 18 weeks leave per
+year. In 2023, the average leave length was eight weeks.
+Employees can take medical or family leave for qualifying events, as listed in Figure 3.
+
+Figure 3: Employees can take medical or family leave for qualifying events
+Leave type
+
+Qualifying events when employees can use leave
+Bond with a new baby or child.
+
+Family
+
+Care for a family member.
+Spend time with family member prior to an overseas military deployment.
+Address a serious health condition that prevents them from working.
+
+Medical
+
+Pregnancy and childbirth.
+
+Source: RCW 50A.05.010.
+
+Employees and employers pay premiums to fund paid leave benefits
+Each year, ESD calculates PFML premiums. There are two main steps:
+1. Calculate the overall premium rate according to a statutory formula.
+2. Split the overall rate into a family rate and a medical rate. The split is based on the percentage of claims
+in each category in the last fiscal year.
+
+Statute requires employees to pay 100% of the family rate. The medical rate is split: employees pay 45% and
+employers pay 55%. Employers apply the rates to each employee’s gross wages, up to the Social Security cap
+($168,600 in 2024).
+
+EXAMPLE CALCULATIONS FOR 2024
+1. The overall rate was 0.74%.
+2. Family leave claims made up 48% of applications, so the family leave rate was 0.36%. Medical leave
+made up 52% of claims, so its rate was 0.38%.
+Of the 0.74% rate:
+Employees paid 0.53%. This is all of the family leave rate plus 45% of the medical leave rate.
+Employers paid 0.21%. This is 55% of the medical leave rate.
+This means that for every $100 of gross wages, employees paid 53 cents in premiums, and employers paid
+21 cents.
+
+Small employers are not required to pay premiums. An employer with a comparable plan can
+apply to opt out.
+By law, employers with fewer than 50 employees are not required to pay the employer share of premiums.
+Employer size does not affect employee eligibility. Small employers must remit premiums on behalf of their
+employees. Among states with paid family and medical leave programs, Washington’s small employer
+exemption is the largest based on employer size. Other state exemptions include employers with 10-30
+employees.
+Employers that offer comparable paid leave to their employees can opt out of the PFML program. They must
+send an application to ESD. If approved, the employers and their employees do not contribute to the program
+and are ineligible for benefits.
+
+Employees must apply to ESD for paid leave benefits
+To receive benefit payments, employees must complete ESD’s online application or ask for a paper
+application, which is available in other languages. Paper applications account for less than 1% of all
+applications. Employees must submit the application after the qualifying event has occurred. They also must
+notify their employer in writing that they are, or will be, taking leave.
+ESD tells employees if their application is approved or denied. Reasons for denial include insufficient hours
+worked, inability to verify identify, and missing application information.
+
+Benefit payments are based on employee wages and the state’s average weekly
+wage
+Once ESD approves the benefit application, the employee must file a weekly claim to receive benefits.
+Employees can file up to four claims at once, but a separate claim is required for each week of leave. If an
+employee used a paper benefit application, they must file weekly claims by phone. ESD provides translation
+services for phone calls.
+The amount an employee receives depends on how their average weekly pay compares to 50% of the state
+average.
+A. If the employee earns 50% or less than the state average, they receive 90% of their weekly wage.
+Employees receive at least $100.
+B. If the employee earns more than 50%, they receive 90% of half the state average plus 50% of their
+average weekly wage, adjusted for the state average. Beginning in 2021, weekly benefit payments are
+capped at 90% of the state’s average weekly wage.
+
+EXAMPLE CALCULATIONS FOR 2024
+State average weekly wage
+
+50%
+
+$1,618
+
+$809
+
+Employee
+
+A
+
+B
+
+Weekly wage
+
+$650
+
+$1,250
+
+Calculation
+
+0.9*$650
+
+$(0.9*$809) + (.5*($1,250-$809)
+
+Amount
+
+$585
+
+$948
+
+In 2020, the Legislature set the maximum weekly payment at $1,000. Since then, it has grown to $1,456 in
+2024. The average weekly payment grew from $630 to $878 but remained between 60% and 63% of the
+maximum.
+
+Figure 4: The maximum and average weekly benefits have increased annually since 2020
+
+Maximum weekly benefit
+
+Average weekly benefit
+
+$1,000
+
+2020
+
+$876
+
+$817
+
+$759
+
+$630
+
+2021
+
+$1,456
+
+$1,427
+
+$1,327
+
+$1,206
+
+2022
+
+$878
+
+2023
+
+2024
+
+Note: Average weekly benefit for 2024 includes payments made in January through March.
+Source: ESD and JLARC staff analysis of ESD data.
+
+ESD has collected $4.5 billion in premiums. It has paid $4.2 billion in benefits on more than 700,000
+approved applications through calendar year 2023. One person can have multiple applications.
+
+Part 2.
+Program use
+Benefit applications increased by an average of 15% each year, rising from 168,000 in 2020 to 259,000 in
+2023. The percent of approved applications rose from 81% to 87%.
+
+Figure 5: The number of benefit applications and the percent approved increased each year
+
+168k
+
+2020
+
+195k
+
+2021
+
+227k
+
+2022
+
+259k
+
+2023
+
+Denied
+Approved 81%
+
+83%
+
+85%
+
+87%
+
+2020
+
+2021
+
+2022
+
+2023
+
+Source: JLARC analysis of ESD data.
+
+Medical leave, including childbirth, made up just over half of applications
+Employees can use medical leave for serious health conditions or childbirth. They can use family leave for
+bonding, family care, or time before a military deployment.
+ESD began to separately identify childbirth leave from other medical leave in July 2022. From that point
+through December 2023, it approved 326,000 benefit applications. Of those:
+
+Medical and childbirth leave made up 53% of approved applications.
+Family leave accounted for 47% of approved applications.
+
+Figure 6: Medical leave made up just over half of applications
+Medical leave: 53%
+Medical
+36%
+
+Family leave: 47%
+Childbirth
+17%
+
+Family
+Care
+13%
+
+Bonding
+34%
+
+Military
+0.05%
+
+Source: JLARC staff analysis of ESD data, July 1, 2022 — December 31, 2023.
+
+Female employees account for over 60% of paid leave applications
+Since July 2022, 62% of employees using paid leave reported their gender as female. This is compared to an
+estimated 46% of the eligible population based on census data.
+Female employees account for a higher share of approved applications for childbirth, medical, military, and
+family care leave. Male employees accounted for more family bonding leave. Employees must file separate
+benefit applications for childbirth leave (medical) and bonding leave (family).
+
+Figure 7: Applications differ by employee gender
+Female
+Medical
+leave
+Family
+leave
+
+Childbirth
+
+99%
+
+Medical
+
+59%
+
+Military
+
+91%
+
+Family care
+
+61%
+
+Bonding
+
+46%
+
+Male
+
+Prefer not to say
+
+Non-binary
+
+39%
+9%
+38%
+54%
+
+Source: JLARC staff analysis of ESD data.
+
+Median income of employees using paid leave is comparable to that of all eligible
+employees
+ESD collects wage reports from employers. JLARC staff compared the incomes of employees who use paid
+leave to those that are eligible for the program.
+The 2023 median income of employees using paid leave is comparable to that of all eligible employees. For
+this comparison, eligible employees are those who have worked at least 820 hours in the past year, according
+to ESD data.
+
+The median for employees using the program was $66,000. Half had incomes between $44,000 and
+$101,000.
+The median for all eligible employees is $64,000. Half had incomes between $39,000 and $109,000.
+
+Data limitations make it difficult to compare the race and ethnicity of PFML users to
+those who are eligible for the program
+Available data suggests that the race and ethnicity of employees using paid leave is like that of the eligible
+population. However, data limitations preclude a precise comparison.
+ESD collects demographic data about employees who use the program. It does not have comparable data
+about all eligible employees. JLARC staff used U.S. Census Bureau data, adjusted for those who meet program
+eligibility requirements, to estimate the demographics of the population that could use paid leave.
+This approach has caveats:
+1. It uses census data to estimate the demographics of the eligible population, but it is not an exact match.
+2. ESD disaggregates the “Asian” population category into three different options. In contrast, the census
+uses one category.
+3. Four percent of employees using PFML opted to not provide information about their race or ethnicity.
+Census data does not include this option.
+
+Figure 8: Despite data limitations, available data suggests that the race and ethnicity of
+employees using paid leave is like that of the eligible population
+61%
+
+Employees using PFML
+
+66%
+
+Estimated eligible population
+
+8%
+1%
+
+10%
+
+1%
+
+American Indian or
+Alaska Native
+
+Asian
+
+16% 13%
+5%
+
+4%
+
+Black or African
+American
+
+1%
+
+1%
+
+Hispanic or Latino Native Hawaiian or
+of any race
+Pacific Islander
+
+4%
+
+5%
+
+Two or
+more races
+
+1%
+
+0%
+
+Other
+
+White
+
+Note: Employees using PFML does not add to 100% due to 4% of employees using PFML who did not provide information
+about their race or ethnicity.
+Source: JLARC staff analysis of ESD data and ACS 2022 5-year microdata.
+
+Some industries are over- or under-represented in the data
+JLARC staff compared the percentage of industry employment among employees using paid leave to that of
+the estimated eligible population.
+
+For most industries, the share of employees who are using paid leave is similar to the share of eligible
+employees. There are exceptions, including:
+The health care and social assistance industry is over-represented. Nearly 19% of employees using paid
+leave worked in this industry. In contrast, they make up 12% of the eligible population.
+The accommodation and food services industry is under-represented. About 4% of employees using paid
+leave worked in this industry. They make up nearly 7% of the eligible population.
+The information industry is also under-represented. Just under 2% of employees using paid leave worked
+in this industry. These employees make up more than 4% of the eligible population.
+
+Part 3.
+Finances
+Premium rates are set by a formula in statute. The Legislature revised the formula as program use exceeded
+expectations.
+1. The 2017 Legislature set the premium rate at 0.4% of covered wages for the first two collection years
+(2019 and 2020). Covered wages are an employee’s gross wages, not including tips, up to the Social
+Security cap ($168,600 in 2024).
+2. Beginning in 2021, the Legislature based the rate on a ratio: the program’s account balance divided by
+total covered wages from the prior fiscal year.
+3. Due to declining account balances, the 2023 Legislature established a new premium rate formula
+starting in 2024.
+The updated formula is 140% of expenses from the prior fiscal year minus the account balance on
+September 30, divided by covered wages from the prior fiscal year.
+The rate is subject to two conditions:
+It can be no more than 1.20%.
+It cannot lead to an account balance that will be more than three months of expenses at end of
+the next year. If it is expected to do so, ESD must reduce the rate.
+
+Figure 9: Premium rates have increased since 2019
+Rate year
+
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+Rate
+
+0.40%
+
+0.40%
+
+0.40%
+
+0.60%
+
+0.80%
+
+0.74%
+
+0.92%
+
+Source: JLARC staff analysis of ESD data.
+
+The account has fluctuated between positive and negative balances
+As shown in Figure 10, the PFML account’s first negative balance was in April 2022. It then fluctuated
+between positive and negative balances through April 2023. State law allows agencies to run account deficits
+under certain circumstances, and, to date, the negative balances have not affected paid leave benefit
+payments.
+The 2023 operating budget transferred $200 million into the PFML account to build a reserve and lower the
+2024 premium rate. The transfer increased the balance to $278 million as of September 30 and reduced the
+2024 premium rate to 0.74%. The rate would have been 0.82% without the transfer.
+
+Figure 10: The monthly ending balance for the PFML account has fluctuated between positive
+and negative balances
+$399
+
+dollars in millions
+
+$80
+
+$124
+
+$103
+$19
+
+$121
+$32
+
+M
+
+A
+
+-$15
+M
+
+J
+
+J
+
+$29
+
+$17
+
+$1
+
+-$16
+J
+F
+2022
+
+$130
+
+$98
+
+A
+
+S
+
+O
+
+-$19
+N
+
+$278
+
+$211 $203
+
+D
+
+-$60
+
+-$98 -$118
+
+J
+F
+2023
+
+M
+
+A
+
+M
+
+J
+
+J
+
+A
+
+S
+
+Source: ESD.
+
+ESD forecasts the program will have a negative balance for portions of 2025
+ESD uses actual financial data and program utilization rates to project future account balances. ESD’s latest
+forecast shows a negative account balance beginning in March 2025 and continuing through July 2026. In
+October, ESD announced that the premium rate in 2025 will be 0.92%.
+
+JLARC’s consultant projects expenses will exceed revenue in three of the next five
+years
+JLARC staff contracted with actuarial services firm Spring Consulting to assess the solvency of the PFML
+account. Solvency means the account’s ability to meet its financial obligations.
+Spring Consulting found that the account balance is low compared to expenses and actuarial best practices. It
+estimates that the PFML account will have a 2024 year-end balance of $273 million. This is enough to cover
+roughly 14% of the projected $2.01 billion in expenses in 2025. In contrast, best practice suggests that a
+fund’s ending balance should be able to cover at least 33% of expenses in the following year.
+In two of its first four years, the PFML program had negative net income. This means that expenses (benefits
+and administrative costs) exceeded revenue (premiums and investment income). According to Spring
+Consulting, the program is likely to also have negative net income in three of the next five years. This rate
+
+increase is projected to keep the account balance positive throughout the forecast period. It estimates that
+rates will stay at about 0.90% through 2028. Additional detail is in Appendix A.
+
+Figure 11: JLARC’s consulting actuary projects PFML program expenses are likely to exceed
+revenue in three of the next five years
+dollars in millions
+
+forecast
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2028
+
+Revenue
+
+$678
+
+$701
+
+$1,109
+
+$1,635
+
+$1,750
+
+$2,318
+
+$2,348
+
+$2,398
+
+$2,560
+
+Expenses
+
+($665) ($959) ($1,258) ($1,538) ($1,846) ($2,014) ($2,203) ($2,408) ($2,629)
+
+Net income
+
+$13 ($258)
+
+($149)
+
+$97
+
+($96)
+
+$304
+
+$145
+
+($10)
+
+($69)
+
+Source: JLARC staff analysis of state accounting data and Spring Consulting.
+
+The premium rate formula contributed to the account’s insolvency
+The premium formula contributes to insolvency in two main ways:
+1. It is backward-looking and relies solely on financial information from the previous year to set rates
+for the next year. As a result, the rates cannot reflect anticipated changes in program use or benefit
+payments. For example, the formula does not consider planned increases to the maximum weekly wage
+or legislative changes affecting program use (e.g., expanding the definition of a family member).
+2. It includes a maximum reserve amount (cap). This means that if the rate will result in an account
+balance that is more than three months of expenses, ESD must reduce it. The cap can only adjust rates
+down. The formula does not have a reserve minimum (floor) or target. Without a reserve floor or target,
+there is no mechanism to increase rates to ensure a sufficient reserve. The account has yet to
+accumulate a three-month reserve, and ESD does not project one in the next three years. This creates
+thinner reserve margins than best practices suggest.
+
+JLARC’s consulting actuary recommends using a forward-looking rate-setting
+approach and maintaining a financial reserve
+Spring Consulting suggests using a forward-looking rate-setting approach that prioritizes long-term financial
+sustainability. A forward-looking approach is based on actuarial estimates of future revenue and benefit costs.
+It can:
+Reduce rate volatility.
+Include expected changes to the program.
+Incorporate long-term financial projections (e.g., Spring Consulting used five-year projections in its
+report).
+
+A forward-looking formula is consistent with the approaches of seven of nine states that JLARC staff reviewed
+that also have paid family and medical leave programs. A similar approach is also used to set contribution
+rates for Washington’s workers’ compensation program.
+Spring Consulting also suggests maintaining a reserve fund that is sufficient to cover shortfalls during
+economic uncertainty (e.g., recession or pandemic). Other state paid family and medical leave programs set
+fund reserves with a floor or a target. With a reserve floor or target, rates can move up or down to maintain
+the targeted balance. Washington is the only state to use a reserve cap when setting premium rates. A
+reserve cap can only move rates down.
+
+Part 4.
+Administration
+Three ESD divisions share program responsibility. One operates the program, another performs audits and
+investigates complaints, and a third manages accounting and finance. Administrative costs were $66 million
+in calendar year 2023.
+A Paid Leave Advisory Committee monitors the program and provides feedback to agency staff. It has eight
+voting members, split evenly between representatives from labor and business.
+
+ESD has not yet fully implemented key elements of the PFML program
+The Legislature established the PFML program in 2017. ESD set priorities and followed best practices for
+technology development. It successfully implemented the core elements of the PFML program: premium
+collection began in January 2019 and benefit payments followed a year later.
+However, ESD has not developed the technology to implement all program elements in law. These nine
+elements are known as the “paid leave balance of work.” Some projects address technology upgrades to
+automate adjustments to benefit payments, allow tribes to participate, or provide additional information in the
+database. Others provide safeguards, penalties, and collection processes for overpayments.
+Members of the advisory committee have previously expressed concern about whether ESD has correctly
+prioritized these projects for implementation. ESD raised the projects’ priority level and requested additional
+funding from the Legislature. The 2024 Legislature appropriated $7.3 million for 48 new staff members to
+complete the work by April 2026.
+
+ESD’s prioritization process uses some best practices. However, it is unclear how it
+uses the scores to select projects.
+
+ESD has a formal process for prioritizing projects. Projects
+include the paid leave balance of work and other projects,
+such as implementing new legislation and migrating software
+platforms to the cloud.
+1. First, it prioritizes projects based on technical complexity
+and statutory deadlines. It categorizes each project as
+either now, next, or later.
+2. In the second step, ESD assesses each project based on
+15 factors, including cost, risk, external impact, equity,
+efficiency, duration, and complexity. All factors have
+equal weight and the project’s overall assessment score
+is an average of the individual scores.
+Individual components of ESD’s project prioritization process
+use best practices from the field of portfolio management.
+For example, ESD conducts monthly reviews and updates to
+ensure the projects align with the agency’s strategic plan.
+The agency also involves subject matter experts and uses
+consistent criteria during the second step.
+
+Paid leave balance of work
+1. Child support withholding.
+2. Automated PFML/Unemployment
+insurance crossmatch.
+3. PFML/Labor & Industries crossmatch.
+4. Benefit overpayments.
+5. Penalties & interest.
+6. Elective coverage for tribes.
+7. Collections.
+8. Conditional benefit payments.
+9. Database updates (adding county and
+legislative district).
+Details are in Appendix B.
+
+However, JLARC staff found that certain areas lack documented procedures and criteria.
+ESD lacks documented procedures for the prioritization in step one and clear criteria for the three priority
+categories. As a result, it is unclear why some projects are in the category they are and whether they have
+been appropriately prioritized.
+ESD assigns equal weight to all factors in the assessments done in step two. This obscures the relative
+risks associated with each project and contributes to a narrow range of scores. For example, five of the
+ten “now” projects in November 2023 had the same assessment score. It is unclear how ESD uses the
+scores to decide which projects to implement.
+As a result, it is not possible to assess the effectiveness of the process. It is unclear how ESD prioritized the
+implementation of the paid leave balance of work compared to other projects in the past. Improving project
+selection will likely improve stakeholder confidence.
+
+ESD has a backlog of 600 employer audits
+ESD audits employers to determine if they are properly reporting premiums and maintaining accurate records
+as required by law. As of June 2024, ESD had assigned 801 audits. Of these, 201 were complete. Of the
+remaining 600 audits, 187 were pending supervisor review and 413 were either underway or not yet started.
+ESD reports that it has been working through a backlog of audits. A past practice of assigning audits in
+batches may have contributed to the backlog. For example, of the 801 audits, supervisors assigned 537 in
+
+just two months (March 2022 and March 2023). The agency was unable to provide any current documented
+procedures or criteria for assigning audits.
+
+ESD identified reporting errors in 96% of audits completed in 2023
+In 2023, ESD completed 169 audits. Of these, 163 resulted in corrections to the employer’s wage reports.
+These corrections typically involve adjustments to the reported number of employees and their wages. Based
+on these corrections, ESD systems recalculated the employer’s premium balance.
+The 2023 audits found $283,000 in underpayments and $48,000 in overpayments.
+State regulation (WAC 192-510-065) prohibits employers from deducting past-due premiums from their
+employees during a different pay period.
+ESD’s software systems are currently unable to levy fines against employers who willfully fail to submit
+wage reports or remit premiums in full, as is allowed by statute. This functionality is one of the items on
+the paid leave balance of work.
+The 169 audits represent 0.08% of the 200,000 employers that submitted wage reports in 2023. There is no
+basis for extrapolating the results because the audits are unlikely to be representative of all employers.
+ESD’s audit procedures are not aligned with best practices for compliance auditing, such as:
+Assigning audits based on specific criteria such as employer size or missing wage reports. The U.S.
+Department of Labor (DOL) encourages states to include larger employers in their unemployment
+insurance audit selection criteria.
+Determining the percentage of employers that will be audited each year (i.e., audit penetration rate). For
+example, the DOL requires state unemployment insurance programs to audit 1% of employers annually.
+
+ESD has a backlog of unlawful act investigations
+Employees can submit a complaint to ESD if they believe their employer has committed an unlawful act like
+interfering with an employee’s right to use paid leave. Employees must use the “Unlawful Acts Complaint
+Form” posted on the PFML website.
+As of April 2024, ESD had received 271 complaints. The most common complaint types are
+discharge/termination (38%) and interference (29%).
+ESD investigated 193 of the 271 complaints; 78 remain open. Of the 193 investigations:
+Most complaints (85%) were unsubstantiated, not accepted, or withdrawn.
+Eighteen complaints (9%) were substantiated. Five of the 18 substantiated complaints resulted in
+damages paid by employers to the employee. Damage amounts range from $1,200 to $17,000.
+The remaining investigations were resolved in some other way. For example, in some cases the employee
+and employer reached a resolution without further ESD involvement.
+
+ESD completed two investigations from June 2023 through April 2024. ESD is uncertain when the backlog will
+be cleared. It has one staff member assigned to conduct these investigations.
+
+PFML accounting practices and procedures are consistent with standards
+The 2022 Legislature directed JLARC staff to evaluate if ESD prepares financial information for the PFML
+account in accordance with generally accepted accounting principles (GAAP). Due to its relative size, the State
+Auditor’s Office categorizes the PFML account as a non-major enterprise fund. Standalone financial reporting
+is not required for these funds. The state’s Annual Comprehensive Financial Report (ACFR) includes high-level
+information about the PFML program.
+Given the limited reporting requirements, JLARC staff evaluated whether ESD’s accounting policies,
+procedures, and practices for the PFML account aligned with GAAP and the State Administrative Accounting
+Manual (SAAM). To do this, JLARC staff contracted with the accounting firm Eide Bailly to:
+Review ESD’s accounting policies and procedures.
+Sample and test transactions for compliance with generally accepted accounting principles and state
+requirements.
+Review month-end and year-end reconciliations between PFML’s accounting system and AFRS, the
+statewide accounting system.
+In its report, Eide Bailly found that ESD accounts for activity in the PFML account in accordance with all
+applicable standards.
+
+Part 5.
+Customer service
+ESD’s customer service representatives process claims and staff the phones in the call center. The 2024
+Legislature provided funding for additional customer service staff, bringing the number of customer service
+staff to 371.
+
+ESD’s staffing practices mean that as application processing time increases, staff
+answer fewer phone calls
+Customer service staff typically spend four days processing benefit applications and weekly claims and one
+day answering phones per week.
+When application processing times rise, ESD shifts staff from phones to application processing tasks. This
+approach can reduce benefit payment delays since employees cannot file weekly claims until ESD approves
+
+the application. In addition, by processing more applications, it aims to limit calls from people checking their
+application’s status.
+The impact of this strategy results in a tradeoff between application processing timeliness with customer
+service calls answered. For example, from May through September 2023, application processing time
+increased from 3.1 to 4.4 weeks. In response, ESD increased the number of staff assigned to process
+applications. In December 2023, application processing time had fallen to 3.4 weeks. However, with fewer
+staff available to answer phones, the average monthly hold time increased from 14 minutes in May 2023 to
+33 minutes in December 2023.
+
+PFML calls have increased, and call center performance has declined
+The number of calls about PFML to ESD’s call center increased each year.
+In 2022, ESD received an average of 47,000 calls per month and answered 60%.
+Through the first half of 2024, it was 78,000 calls per month. ESD answered 23% of total calls between
+January and June 2024.
+The call center handles phone calls for both PFML and the WA Cares program. All calls enter a phone tree that
+divides the calls in queues based on the program and call purpose. There are 14 queues: 10 for PFML, three
+for WA Cares, and one for both.
+Overall, the system is limited to 380 calls at one time. ESD caps each queue to 75 calls.
+If a call enters a queue, the caller must wait for an available customer service representative. ESD
+adjusts queue capacities to keep hold times below 90 minutes. Some callers abandon the call before
+reaching customer service.
+When a queue reaches its maximum capacity, callers cannot enter. Instead, they receive a recorded
+message that the system is experiencing a high number of calls, and the system disconnects their call.
+The percentage of calls disconnected due to high call volume increased from 19% in 2022 to 64% in the
+first six months of 2024.
+ESD prioritizes calls by queue. Generally, calls in queues with higher priorities will be answered more quickly.
+The highest priorities are logon help, callers who prefer a language other than English, and healthcare
+providers.
+
+Figure 12: ESD answered 23% of total calls between January and June 2024. More than six in
+ten calls were disconnected due to high call volume.
+
+Source: JLARC staff analysis of ESD data.
+
+ESD’s customer service staffing model is not connected to performance measures
+ESD developed a staffing model to determine the number of customer care representatives it needs per year.
+The model is based on the average time to process applications, available staff hours, and expected number
+of applications.
+JLARC staff found the staffing model uses reasonable assumptions and adequately estimates the number of
+employees needed to process applications based on current practice. However, the model does not evaluate
+the number of staff needed against specific performance measures. For example, it cannot estimate how
+many more staff members are needed to process all applications within two weeks or answer 90% of
+incoming calls. Connecting the model to performance measures such as timeliness would allow the agency
+and stakeholders to better compare the costs and benefits of investing in additional staff.
+
+Employees wait two to four weeks for their first benefit payment
+ESD measures the time from the date an employee submits an application to the date it issues the first
+payment. ESD’s target is three weeks from application to first payment. Since January 2022, median
+processing times have varied from 2.4 weeks to 4.4 weeks.
+
+Figure 13: ESD met its 3-week target in 16 of the 30 months (January 2022 through June 2024)
+6
+
+Median weeks to first payment
+
+ESD target: 3 weeks
+
+4
+2
+0
+
+J
+
+F
+
+M A M
+
+J
+
+J
+
+A
+
+S
+
+O
+
+2022
+
+N
+
+D
+
+J
+
+F
+
+2023
+
+M A M
+
+J
+
+J
+
+A
+
+S
+
+O
+
+N
+
+D
+
+J
+
+F
+
+M A M
+
+2024
+
+Source: JLARC staff analysis of ESD data.
+
+ESD lacks formal performance measures for application processing and call center
+operations
+
+J
+
+While ESD tracks metrics such as call hold times, it does not use any formal performance measures to
+manage application processing or call center performance.
+Without formal measures, it is difficult to evaluate the program’s operational strategy and performance. For
+example, as noted above, ESD shifts resources from the call center to application processing. While this has
+improved processing times, it has also reduced call center performance. Formal measures would allow the
+agency and stakeholders to clearly identify and evaluate the tradeoffs of this approach.
+Other state paid family and medical leave programs use performance measures for application processing
+and call center management. Examples include:
+Oregon’s paid leave law includes a two-week target from when the agency receives the application to
+when the employee is paid.
+Colorado targets average call hold times of no more than three minutes.
+Connecticut requires its third-party service provider to keep the abandonment rate below 3%.
+Performance measures in Washington could include the following. Each should have targets, standards for
+how it will be measured, and a plan for attaining the target.
+Time from submission to determination.
+Time from submission to first payment.
+Phone system availability (i.e., rejected call rate).
+Phone hold times and/or percentage of calls answered within a certain amount of time.
+Percentage of issues resolved in a single call.
+Calls per application.
+Percentage of applications processed without follow-up or fact finding.
+
+Recommendations
+The Legislative Auditor makes four recommendations.
+
+Recommendation #1:
+The Legislature should implement a forward-looking rate-setting approach that maintains a
+sufficient financial reserve for the PFML program.
+
+ESD should ensure that legislators and legislative staff have the information necessary to implement the
+forward-looking approach. This approach would replace the current statutory formula.
+Actuarial best practices recommend incorporating trends in claim experience, potential future economic
+shifts, and demographic changes into the rate-setting process.
+Legislation Required: Yes
+Fiscal Impact: Depends on statutory language.
+Agency Response: ESD concurs.
+
+Recommendation #2:
+ESD should adopt criteria for its compliance audit program.
+Best practices include assigning audits based on specific criteria (e.g., employer size) and determining the
+percentage of employers that will be audited each year.
+Legislation Required: None
+Fiscal Impact: JLARC staff assume this can be completed within existing resources. If ESD believes additional
+resources are needed, it should include that information in its future budget requests.
+Implementation Date: November 2025
+Agency Response: ESD concurs.
+
+Recommendation #3:
+ESD should adopt quantifiable customer-oriented performance measures for claims processing
+and call center management.
+Best practice is to establish specific and actionable performance measures. In developing these measures,
+ESD should conduct outreach to its customers and stakeholders.
+Legislation Required: None
+Fiscal Impact: JLARC staff assume this can be completed within existing resources. If ESD believes additional
+resources are needed, it should include that information in its future budget requests.
+Implementation Date: November 2025
+Agency Response: ESD concurs.
+
+Recommendation #4:
+ESD should develop a documented and transparent process for prioritizing projects.
+ESD should document its procedures and decision-making throughout the prioritization process. Project
+assessments should be updated to accurately reflect the relative risk of each project.
+Legislation Required: None
+Fiscal Impact: JLARC staff assume this can be completed within existing resources. If ESD believes additional
+resources are needed, it should include that information in its future budget requests.
+Implementation Date: November 2025
+Agency Response: ESD concurs.
+
+Agency Response
+ESD concurrs with the recommendations. See attached letter (PDF).
+The Office of Financial Management (OFM) was given an opportunity to comment on this report. OFM
+responded that it does not have any comments.
+
+Current Recommendation Status
+JLARC staff follow up on the status of Legislative Auditor recommendations to agencies and the Legislature for
+four years. The most recent responses from agencies and status of the recommendations in this report can
+be viewed on our Legislative Auditor Recommendations page.
+
+Appendices
+Appendix A: Spring Consulting baseline results and sensitivity analyses | Appendix B: Paid leave balance
+of work | Appendix C: Applicable statutes | Appendix D: Study questions & methods | Appendix E: Audit
+authority
+
+Appendix A: Spring Consulting baseline results and sensitivity analyses
+JLARC staff contracted with Spring Consulting to evaluate the solvency of the PFML account.
+View Spring Consulting's analyses
+
+Appendix B: Paid leave balance of work
+Project
+
+Description
+
+Child support withholding
+
+This work includes establishing a crossmatch between PFML benefit
+customers and child support obligations, process to withhold funds from
+benefit payments as directed by DCS, and to notify the benefit customer.
+
+Project
+
+Description
+
+PFML/Unemployment
+Insurance crossmatch
+
+Develop an automated crossmatching system between PFML and UI to
+prevent improper benefit payments to individuals claiming both benefits
+in the same week.
+
+PFML/Labor & Industries
+crossmatch
+
+Develop a crossmatching system between PFML and Workers’ Comp to
+prevent improper benefit payments to individuals claiming both benefits
+in the same week.
+
+Benefit overpayments
+
+Implement a process with the ability to identify, investigate, determine,
+and receive payment for benefit overpayments.
+
+Develop processes that enable accurate identification of employers
+subject to reporting and payment requirements. Implement system
+Employer penalties and interest
+ability to identify potential noncompliance and generate notifications to
+employers.
+Disqualifications, employee
+penalties & interest
+
+Develop processes to identify and assess penalties and interest against
+employees who have knowingly made false statements and obtained
+improper PFML benefits.
+
+Elective coverage for tribes
+
+Implement the ability for a federally recognized Tribe to elect coverage
+and design functionality for tribes that have opted in to report wages and
+pay premiums quarterly.
+
+Collections
+
+Implement collections processes to collect premiums, interest, or
+penalties when not paid within ten days after the service or mailing of
+the order and notice of assessment.
+
+Conditional benefit payments
+
+Would provide an employee who has already received at least one
+benefit payment, and whose eligibility is being questioned by ESD or
+employer, to opt to receive conditional benefit payments while the
+dispute is resolved.
+
+Database updates (adding
+county and legislative district)
+
+Implement the ability to report to the Legislature on the county and
+legislative district of benefit customers.
+
+Appendix C: Applicable statutes
+Title 50A RCW: FAMILY AND MEDICAL LEAVE
+This report reflects statute as documented in the following chapters during the study period.
+50A.05: General provisions.
+50A.10: Premiums.
+
+50A.15: Benefits.
+50A.20: Employer requirements.
+50A.24: Small business assistance.
+50A.25: Privacy.
+50A.30: Voluntary plans.
+50A.35: Employment protections.
+50A.40: Unlawful acts.
+50A.45: Limitations, disqualifications, penalties, and interest.
+50A.50: Appeals.
+
+Appendix D: Study questions
+This study aimed to answer the following questions, which were presented to JLARC in May 2023 (view here).
+JLARC staff presented a briefing report in September 2023, as directed by statute.
+1. Are ESD's program administration and organizational structure consistent with statute and best
+practices?
+a. Does ESD process PFML applications in a timely, systematic, and equitable manner?
+b. To what extent does program participation or experience vary by race or ethnicity?
+c. How does ESD monitor and assess employer and employee compliance with requirements?
+2. Does ESD prepare and report PFML financial information in accordance with best practices?
+3. Does the PFML premium rate formula produce rates that meet statutory requirements?
+
+Methods
+The methodology JLARC staff use when conducting analyses is tailored to the scope of each study, but
+generally includes the following:
+Interviews with stakeholders, agency representatives, and other relevant organizations or individuals.
+Site visits to entities that are under review.
+Document reviews, including applicable laws and regulations, agency policies and procedures pertaining
+to study objectives, and published reports, audits or studies on relevant topics.
+Data analysis, which may include data collected by agencies and/or data compiled by JLARC staff. Data
+collection sometimes involves surveys or focus groups.
+Consultation with experts when warranted. JLARC staff consult with technical experts when necessary
+to plan our work, to obtain specialized analysis from experts in the field, and to verify results.
+The methods used in this study were conducted in accordance with Generally Accepted Government Auditing
+Standards.
+
+More details about specific methods related to individual study objectives are described in the body of the
+report under the report details tab or in technical appendices.
+
+Appendix E: Audit Authority
+The Joint Legislative Audit and Review Committee (JLARC) works to make state government operations more
+efficient and effective. The Committee is comprised of an equal number of House members and Senators,
+Democrats and Republicans.
+JLARC's nonpartisan staff auditors, under the direction of the Legislative Auditor, conduct performance audits,
+program evaluations, sunset reviews, and other analyses assigned by the Legislature and the Committee.
+The statutory authority for JLARC, established in Chapter 44.28 RCW, requires the Legislative Auditor to
+ensure that JLARC studies are conducted in accordance with Generally Accepted Government Auditing
+Standards, as applicable to the scope of the audit. This study was conducted in accordance with those
+applicable standards. Those standards require auditors to plan and perform audits to obtain sufficient,
+appropriate evidence to provide a reasonable basis for findings and conclusions based on the audit
+objectives. The evidence obtained for this JLARC report provides a reasonable basis for the enclosed findings
+and conclusions, and any exceptions to the application of audit standards have been explicitly disclosed in the
+body of this report.
+
+JLARC members on publication date
+Senators
+
+Representatives
+
+Bob Hasegawa
+
+Emily Alvarado
+
+Liz Lovelett
+
+Stephanie Barnard
+
+Mark Mullet, Chair
+
+April Berg
+
+Ann Rivers
+
+Jake Fey
+
+Jesse Salomon
+
+Keith Goehner
+
+Shelly Short
+
+Stephanie McClintock
+
+Lynda Wilson, Secretary
+
+Ed Orcutt, Vice Chair
+
+Keith Wagoner
+
+Gerry Pollet, Assistant Secretary
+
+

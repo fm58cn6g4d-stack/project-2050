@@ -1983,6 +1983,1440 @@
   ]
  },
  {
+  "id": "EV-SEC-100",
+  "claim": "analysis",
+  "source": "SRC-3966",
+  "grade": "C",
+  "fact_date": "2018-12",
+  "recheck": "2027-12-01",
+  "statement": "Herd and Moynihan's 2018 book Administrative Burden argues that administrative burdens are the result of deliberate policy choices, not unintended byproducts, and cites Social Security as a program whose administrators minimized burdens for beneficiaries, with a take-up rate of about 100 percent.",
+  "figures": [
+   "100 percent"
+  ],
+  "anchor": [
+   "are not simply unintended byproducts of governance, but the result of deliberate policy choices",
+   "the take-up rate is about 100 percent because the Social Security Administration keeps track of peoples’ earnings for them, automatically calculates benefits and eligibility"
+  ],
+  "locator": "publisher's description of the book",
+  "context": "Russell Sage Foundation's summary of a 2018 book by Pamela Herd and Donald Moynihan (Georgetown); winner of the 2019 Louis Brownlow Book Award. The page is the publisher's description, not the book's text, and the about-100-percent take-up claim is the publisher's wording of the authors' argument. The book is a conceptual framework with case studies (United States, 1930s to 2010s), not a causal estimate.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-101",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-101",
+  "claim": "analysis",
+  "source": "SRC-3961",
+  "grade": "B",
+  "fact_date": "2004-05",
+  "recheck": "2027-11-12",
+  "statement": "Currie's 2004 review of U.S. and U.K. research concludes that take-up of social benefits is raised by automatic or default enrollment and lowered by administrative barriers, and that removing individual barriers may have little effect, so the whole bundle of barriers must be addressed.",
+  "figures": [],
+  "anchor": [
+   "take up is enhanced by automatic or default enrollment and lowered by administrative barriers, although removing individual barriers does not necessarily have much effect, suggesting that one must address the whole bundle"
+  ],
+  "locator": "abstract",
+  "context": "Janet Currie (Princeton), NBER Working Paper 10488, May 2004; published as a chapter in Auerbach, Card and Quigley (eds.), Poverty, the Distribution of Income, and Public Policy (Russell Sage, 2006). A literature review, not a new estimate; it covers U.S. and U.K. programs (Medicaid, EITC, food stamps and others). Her 'default enrollment' conclusion is a reading of observational and quasi-experimental studies.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-102",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-103",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-102",
+  "claim": "analysis",
+  "source": "SRC-3962",
+  "grade": "B",
+  "fact_date": "2015",
+  "recheck": "2027-11-12",
+  "statement": "In an IRS field experiment, mailings sent to 35,050 tax filers who had failed to claim $26 million of EITC benefits produced substantial additional claiming through the mere receipt of the mailing, simplification and the heightened salience of benefits, while attempts to reduce perceived stigma, application costs and audits did not.",
+  "figures": [
+   "35,050",
+   "$26 million"
+  ],
+  "anchor": [
+   "experimental mailings distributed to 35,050 tax filers who failed to claim $26 million despite an initial notice",
+   "While the mere receipt of the mailing, simplification, and the heightened salience of benefits led to substantial additional claiming, attempts to reduce perceived costs of stigma, application, and audits did not."
+  ],
+  "locator": "abstract",
+  "context": "Bhargava (Carnegie Mellon) and Manoli (UT Austin), American Economic Review 105(11), 2015. Randomized field experiment run with the IRS on filers who had received a first notice (tax year 2008 filers, per the paper); effects are on people who already file a return and were missing the credit, so it does not speak to non-filers. Peer reviewed.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-101",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-103",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-103",
+  "claim": "analysis",
+  "source": "SRC-3963",
+  "grade": "B",
+  "fact_date": "2018-05",
+  "recheck": "2027-11-12",
+  "statement": "In a randomized experiment with 30,000 elderly people likely eligible for but not enrolled in SNAP, 6 percent of the control group enrolled over the next 9 months, compared with 11 percent of those given information only and 18 percent of those given information plus help applying.",
+  "figures": [
+   "30,000",
+   "6 percent",
+   "9 months",
+   "11 percent",
+   "18 percent"
+  ],
+  "anchor": [
+   "30,000 elderly individuals not enrolled in – but likely eligible for – the Supplemental Nutrition Assistance Program (SNAP)",
+   "Only 6 percent of the control group enrolls in SNAP over the next 9 months, compared to 11 percent of the Information Only group and 18 percent of the Information Plus Assistance group."
+  ],
+  "locator": "abstract",
+  "context": "Amy Finkelstein (MIT) and Matthew Notowidigdo (Northwestern), NBER Working Paper 24652 (2018), published in the Quarterly Journal of Economics 134(3), 2019; funded by the Sloan Foundation; partner Benefits Data Trust. RCT among elderly people in Pennsylvania (BDT's service area); the effect applies to older adults and an assisted application, not to a general population.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-102",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-101",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-104",
+  "claim": "analysis",
+  "source": "SRC-3963",
+  "grade": "B",
+  "fact_date": "2018-05",
+  "recheck": "2027-11-12",
+  "statement": "In the same SNAP experiment, people who enrolled in response to either intervention received lower benefits and were less sick than the average enrollee in the control group, which the authors read as evidence that frictions are greater for needier individuals.",
+  "figures": [],
+  "anchor": [
+   "The individuals who apply or enroll in response to either intervention receive lower benefits and are less sick than the average enrollee in the control group.",
+   "consistent with the existence of optimization frictions that are greater for needier individuals"
+  ],
+  "locator": "abstract",
+  "context": "Same RCT as EV-SEC-103 (shared authors, so not independent of it). It qualifies the take-up result: outreach that raises enrollment can still miss the neediest, which argues for automatic delivery over outreach and application help.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-106",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-105",
+  "claim": "analysis",
+  "source": "SRC-3964",
+  "grade": "B",
+  "fact_date": "2020-06",
+  "recheck": "2027-11-12",
+  "statement": "In San Francisco SNAP data, cases assigned later-in-the-month recertification interview dates, which leave less time to reschedule missed interviews, were over 20 percent less likely to recertify; those that failed because of the later date lost an average of $600 in benefits the next year, and one quarter stayed off SNAP for over a year.",
+  "figures": [
+   "20 percent",
+   "$600"
+  ],
+  "anchor": [
+   "Cases assigned to later recertification interview dates, which leave less time to reschedule missed interviews, are over 20 percent less likely to recertify than cases assigned to interviews earlier in the month.",
+   "Cases that fail recertification due to later assignments lose an average of $600 in benefits in the following year.",
+   "one quarter remain off SNAP for over a year post-recertification"
+  ],
+  "locator": "abstract",
+  "context": "Tatiana Homonoff (NYU) and Jason Somerville (New York Fed), NBER Working Paper 27311 (2020), American Economic Journal: Economic Policy 13(4), 2021. Quasi-experimental: interview dates were assigned by a rule unrelated to case characteristics. Setting: San Francisco County CalFresh (SNAP) cases; the abstract gives 'over 20 percent', and the NBER version's summary elsewhere uses a different framing, so quote the abstract.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-106",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-101",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-106",
+  "claim": "analysis",
+  "source": "SRC-3965",
+  "grade": "B",
+  "fact_date": "2019",
+  "recheck": "2027-11-12",
+  "statement": "Closings of Social Security Administration field offices led to a persistent 16 percent decline in the number of disability recipients in surrounding areas.",
+  "figures": [
+   "16 percent"
+  ],
+  "anchor": [
+   "Closings lead to a persistent 16 percent decline in the number of disability recipients in surrounding areas"
+  ],
+  "locator": "abstract",
+  "context": "Manasi Deshpande (University of Chicago) and Yue Li (SUNY Albany), American Economic Journal: Economic Policy 11(4), 2019; peer reviewed, quasi-experimental (difference-in-differences around SSA field office closures, United States). The brief asked for the effect on applications; the abstract wording read through a fetch tool also gives a smaller fall in applications and attributes the effect mainly to crowding at neighboring offices, which should be confirmed from the paper before quoting.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-105",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-101",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-107",
+  "claim": "data",
+  "source": "SRC-3952",
+  "grade": "A",
+  "fact_date": "2021-10-15",
+  "recheck": "2027-06-01",
+  "statement": "On October 15, 2021, Treasury and the IRS said more than $15 billion in advance Child Tax Credit payments had gone to families that include roughly 61 million eligible children, and that more than $61 billion had been delivered since July.",
+  "figures": [
+   "$15 billion",
+   "61 million",
+   "$61 billion"
+  ],
+  "anchor": [
+   "more than $15 billion dollars in payments were made to families that include roughly 61 million eligible children",
+   "Treasury and the IRS have delivered more than $61 billion dollars to families across the country"
+  ],
+  "context": "Treasury press release, Biden administration, October 2021; counts are Treasury administrative figures, but the release is also advocacy for extending the credit. It counts children in payment families, not the number of eligible children missed.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-108",
+  "claim": "data",
+  "source": "SRC-3953",
+  "grade": "A",
+  "fact_date": "2021-09",
+  "recheck": "2027-06-01",
+  "statement": "As of September 2021 the advance Child Tax Credit was reaching families of roughly 60 million children, with nearly 9 in 10 families receiving it as an automatic direct deposit each month.",
+  "figures": [
+   "60 million",
+   "9 in 10"
+  ],
+  "anchor": [
+   "the Child Tax Credit is already reaching families of roughly 60 million children, with nearly 9 in 10 families receiving it as an automatic direct deposit"
+  ],
+  "context": "White House fact sheet, Biden administration, September 15, 2021; promotional document, figures are the administration's own. 'Automatic' here means no application by families the IRS already had on file; non-filers had to sign up (EV-SEC-109).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-109",
+  "claim": "data",
+  "source": "SRC-3954",
+  "grade": "A",
+  "fact_date": "2023-06-14",
+  "recheck": "2027-06-01",
+  "statement": "The IRS estimated 2021 advance Child Tax Credit payments from taxpayers' tax year 2020 returns (tax year 2019 returns if the 2020 return was not yet processed) and from its nonfiler tools, and by December 2021 it had issued 216.9 million advance payments totaling $93.5 billion.",
+  "figures": [
+   "216.9 million",
+   "$93.5 billion"
+  ],
+  "anchor": [
+   "Taxpayers’ TY 2020 tax returns.",
+   "the IRS could then use taxpayers’ TY 2019 tax return",
+   "As of December 2021, the IRS issued 216.9 million advance payments\ntotaling $93.5 billion."
+  ],
+  "context": "Treasury Inspector General for Tax Administration (independent oversight office), report 2023-47-035, June 2023. Describes the delivery mechanics: returns first, the Non-Filers: Enter Payment Info Here tool and the CTC Non-Filer Sign-up Tool for people with no filing requirement who had filed no 2019 or 2020 return.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-110",
+  "claim": "analysis",
+  "source": "SRC-3967",
+  "grade": "C",
+  "fact_date": "2021-07-30",
+  "recheck": "2027-06-01",
+  "statement": "In July 2021 the Center on Budget and Policy Priorities estimated that as many as 4 million children, many from low-income households, could miss out on the advance payments, about $13 billion; one input was a Treasury analysis finding 2.3 million children with health insurance who do not appear on tax returns.",
+  "figures": [
+   "4 million",
+   "$13 billion",
+   "2.3 million"
+  ],
+  "anchor": [
+   "a new analysis estimates that as many as 4 million children, many from low-income households, could miss out on the payments.",
+   "Four million children could miss out on a total of $13 billion in benefits, the CBPP estimates.",
+   "there are 2.3 million children covered by health insurance who don't appear on tax returns"
+  ],
+  "locator": "article text",
+  "context": "CBS News report (July 30, 2021) of a Center on Budget and Policy Priorities projection made two weeks after the first payment; CBPP is a left-leaning think tank that supported the expansion. It is a projection of who could be missed, not a count of who was; the non-filer portal and navigator effort (EV-SEC-107, EV-SEC-109) came after it. Evidence still needed: a measured count of eligible children who received nothing in 2021 (IRS return data for tax year 2021).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-109",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-107",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-111",
+  "claim": "data",
+  "source": "SRC-3958",
+  "grade": "A",
+  "fact_date": "2024",
+  "recheck": "2027-12-01",
+  "statement": "In tax year 2021 eligible taxpayers participated in the EITC at a rate of 78 percent while dollar participation was 81 percent.",
+  "figures": [
+   "78 percent",
+   "81 percent"
+  ],
+  "anchor": [
+   "Overall in tax year 2021 eligible taxpayers participated in the EITC program\nat a rate of 78 percent while dollar participation was 81 percent."
+  ],
+  "context": "IRS and Census Bureau Exact Match (survey identifies eligibility, tax records identify claiming); an estimate with survey error, tax year 2021 (the last year of pandemic-era rules for the childless credit, so it may not match 2026 law). Published under the Biden administration, 2024.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-112",
+  "claim": "data",
+  "source": "SRC-3951",
+  "grade": "A",
+  "fact_date": "2024-05-03",
+  "recheck": "2027-05-01",
+  "statement": "In the 2024 Direct File pilot, open in 12 states, 140,803 taxpayers submitted accepted returns and 423,450 logged in; among more than 15,000 survey participants, 90% rated their experience Excellent or Above Average and 86% said it increased their trust in the IRS.",
+  "figures": [
+   "12",
+   "140,803",
+   "423,450",
+   "15,000",
+   "90%",
+   "86%"
+  ],
+  "anchor": [
+   "outside of the 12 pilot states",
+   "423,450\ntaxpayers logged into Direct File; and 140,803 taxpayers submitted accepted returns",
+   "More than 15,000 Direct File users participated in the General Services\nAdministration’s Touchpoints survey",
+   "90% of respondents ranked their experience as Excellent or Above Average.",
+   "86% of respondents said that their experience with Direct File increased\ntheir trust in the IRS."
+  ],
+  "context": "IRS's own after-action report, Biden administration, May 2024; the satisfaction figures come from an optional survey (response rate 13%, per the report's appendix), so they describe users who chose to answer. Status: web reports state the IRS told states Direct File 'will not be available in Filing Season 2026'; the primary IRS notice has not been read (evidence still needed).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-113",
+  "claim": "data",
+  "source": "SRC-3968",
+  "grade": "A",
+  "fact_date": "2026-10-22",
+  "recheck": "2027-10-22",
+  "statement": "Canada's child benefit can be applied for at birth registration: the child's proof of birth is securely shared with the Canada Revenue Agency by the province or territory, with the parent's consent, and the service is not available for Nunavut.",
+  "figures": [],
+  "anchor": [
+   "securely shared with the CRA by your province or territory",
+   "Give your consent to allow your province or territory to securely share your information with the CRA.",
+   "This service is currently not available for Nunavut."
+  ],
+  "locator": "Apply: birth registration route",
+  "context": "Canada Revenue Agency program page, updated October 22, 2026. It describes a consent-based, one-form route (the Canada Child Benefit, GST/HST credit and some provincial benefits), not an automatic benefit with no application; parents who do not consent apply to the CRA directly. Wording read through a fetch tool because the host blocks downloads. Evidence still needed: the CCB take-up estimate (Statistics Canada or CRA).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-114",
+  "claim": "data",
+  "source": "SRC-3969",
+  "grade": "C",
+  "fact_date": "2024-07-30",
+  "recheck": "2027-03-01",
+  "statement": "In 2024 the Canada Revenue Agency invited more than 1.5 million lower- or fixed-income Canadians with simple tax situations, and in July more than 500,000 more, to file their 2023 returns by phone, online or mail using its SimpleFile services; a report co-authored by Carleton University professors estimated that between 10 and 12 per cent of Canadians do not file, against the CRA's internal estimate of about seven per cent.",
+  "figures": [
+   "1.5 million",
+   "500,000",
+   "2023",
+   "10",
+   "12",
+   "2024"
+  ],
+  "anchor": [
+   "invitations to use its SimpleFile by Phone service had already been opened up to more than 1.5 million Canadians in early 2024",
+   "more than 500,000 eligible Canadians were invited in July to file their 2023 tax returns",
+   "between 10 and 12 per cent of Canadians do not file their taxes",
+   "internal estimates peg that number closer to seven per cent."
+  ],
+  "locator": "article text",
+  "context": "Global News report of a CRA news release (July 2024). The pilot was an invitation to file by phone or online, which experts quoted elsewhere did not consider true automatic filing; it reports no filing or benefit results in these lines. Canada's later plan for pre-filled returns for about one million people from 2026 is reported by other outlets and not anchored here (evidence still needed: Department of Finance release, Budget 2025).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-115",
+  "claim": "data",
+  "source": "SRC-0548",
+  "grade": "A",
+  "fact_date": "2026-11",
+  "recheck": "2027-06-01",
+  "statement": "On a combined basis, monthly benefits typically account for over 99% of Social Security program costs; administrative costs and the Railroad Retirement Board interchange together account for less than 1%.",
+  "figures": [
+   "99%",
+   "1%"
+  ],
+  "anchor": [
+   "On a combined basis, monthly benefits typically account for over 99% of program costs.",
+   "administrative costs and transfers required for the RRB interchange account for less than 1% of program costs"
+  ],
+  "context": "CRS (nonpartisan), November 2026, summarizing the 2026 Trustees Report (June 8, 2026). The brief's figure of about 0.5% of OASDI expenditures for administration alone is not in this text; the SSA Trustees page that states it blocks agent downloads (evidence still needed).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-116",
+  "claim": "data",
+  "source": "SRC-3983",
+  "grade": "C",
+  "fact_date": "2025-08",
+  "recheck": "2027-08-01",
+  "statement": "In Pew's August 2025 survey of 3,554 U.S. adults, the Social Security Administration was viewed more positively than negatively overall and among both Republicans and Democrats.",
+  "figures": [
+   "3,554"
+  ],
+  "anchor": [
+   "The U.S. Postal Service, NASA, the Social Security Administration and the Department of Veterans Affairs are also all viewed more positively than negatively overall and among both Republicans and Democrats.",
+   "A total of 3,554 panelists responded"
+  ],
+  "locator": "report text, p. 6; methodology",
+  "context": "Pew Research Center, American Trends Panel (probability-based online panel), Aug. 4-10, 2025. A poll of opinion: it shows how the public rates the agency, not how well it performs. The exact favorable share is in a chart not reproduced in the text; an earlier Pew survey (August 2024) put the SSA at 53% favorable, which has not been quoted here.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-117",
+  "claim": "data",
+  "source": "SRC-3982",
+  "grade": "C",
+  "fact_date": "2026-10",
+  "recheck": "2027-10-01",
+  "statement": "In Pew's survey of 5,062 U.S. adults from September 28 to October 4, 2026, 37% viewed the IRS favorably and 46% unfavorably.",
+  "figures": [
+   "5,062",
+   "37%",
+   "46%"
+  ],
+  "anchor": [
+   "We surveyed 5,062 U.S. adults from September 28 to October 4, 2026.",
+   "IRS 37 46 16 -9"
+  ],
+  "locator": "methodology; chart \"Agency favorability\" row IRS (favorable, unfavorable, not sure, net)",
+  "context": "Pew Research Center, American Trends Panel. Opinion poll; the IRS is the agency that would carry any tax-based payment, so this bears on trust, not on its capacity. Pew's 2026 round does not ask about SSA.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-118",
+  "claim": "data",
+  "source": "SRC-3957",
+  "grade": "A",
+  "fact_date": "2025-01",
+  "recheck": "2027-01-01",
+  "statement": "Washington's legislative auditor found that the Employment Security Department aims to approve a first paid-leave benefit payment within three weeks of application and met that target in 16 of 30 months between January 2022 and June 2024, with median processing times varying from 2.4 to 4.4 weeks since January 2022.",
+  "figures": [
+   "16",
+   "30",
+   "2.4",
+   "4.4",
+   "2022",
+   "2024"
+  ],
+  "anchor": [
+   "Between January 2022 and June 2024, ESD met that target in 16 of 30\nmonths.",
+   "Since January 2022, median\nprocessing times have varied from 2.4 weeks to 4.4 weeks."
+  ],
+  "context": "Washington Joint Legislative Audit and Review Committee, Report 25-01, January 2025 (state legislative audit office). Program began benefits in January 2020; this is Washington only. Other states' launch problems (Oregon 2023, Massachusetts 2021) are not yet in the register (evidence still needed: Oregon Employment Department and Massachusetts DFML or State Auditor reports).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-119",
+  "claim": "data",
+  "source": "SRC-3957",
+  "grade": "A",
+  "fact_date": "2025-01",
+  "recheck": "2027-01-01",
+  "statement": "Washington's paid-leave agency moved staff from phones to processing when applications backed up: from May to September 2023 application processing time rose from 3.1 to 4.4 weeks and fell to 3.4 weeks by December 2023, while the average monthly phone hold time rose from 14 minutes in May 2023 to 33 minutes in December 2023.",
+  "figures": [
+   "3.1",
+   "4.4",
+   "3.4",
+   "14 minutes",
+   "33 minutes",
+   "2023"
+  ],
+  "anchor": [
+   "from May through September 2023, application processing time\nincreased from 3.1 to 4.4 weeks",
+   "In December 2023, application processing time had fallen to 3.4 weeks.",
+   "the average monthly hold time increased from 14 minutes in May 2023 to\n33 minutes in December 2023"
+  ],
+  "context": "Washington JLARC (state legislative auditor), January 2025. A lesson on running a new benefit: one staff pool cannot meet both processing and customer-service targets in a surge.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-120",
+  "claim": "data",
+  "source": "SRC-3971",
+  "grade": "A",
+  "fact_date": "2024-11-08",
+  "recheck": "2027-11-01",
+  "statement": "In July 2023, 11.9 million people were independent contractors on their sole or main job, 7.4 percent of total employment, and there were 2.8 million on-call workers, 1.7 percent of total employment.",
+  "figures": [
+   "11.9 million",
+   "7.4 percent",
+   "2.8 million",
+   "1.7 percent"
+  ],
+  "anchor": [
+   "In July 2023, 11.9 million people were independent contractors on their sole or main job",
+   "representing 7.4 percent of total employment",
+   "In July 2023, there were 2.8 million on-call workers, accounting for 1.7 percent of total employment."
+  ],
+  "locator": "Summary of findings (news release, Nov. 8, 2024)",
+  "context": "BLS Contingent Worker Supplement to the July 2023 Current Population Survey, released November 8, 2024 (Biden administration). Counts main-job arrangements only; platform workers are a separate (smaller) measure in the same release not yet anchored (evidence still needed). Wording read through a fetch tool because BLS blocks downloads.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-121",
+  "claim": "analysis",
+  "source": "SRC-3970",
+  "grade": "B",
+  "fact_date": "2016-09",
+  "recheck": "2027-11-12",
+  "statement": "A late-2015 RAND survey found that the share of workers in alternative work arrangements (temporary help agency, on-call, contract and independent contractor or freelance work) rose from 10.7 percent in February 2005 to 15.8 percent in late 2015, and that workers providing services through online intermediaries were 0.5 percent of all workers in 2015.",
+  "figures": [
+   "10.7 percent",
+   "15.8 percent",
+   "0.5 percent",
+   "2005",
+   "2015"
+  ],
+  "anchor": [
+   "rose from 10.7 percent in February 2005 to 15.8 percent in late 2015",
+   "accounted for 0.5 percent of all workers in 2015"
+  ],
+  "locator": "abstract",
+  "context": "Lawrence Katz (Harvard) and Alan Krueger (Princeton), NBER Working Paper 22667 (2016); ILR Review 72(2), 2019. Their own online survey (RAND American Life Panel, funded by Princeton), with a broader definition than BLS; they report that the BLS-type measure of 2005 and their 2015 survey are not exactly comparable, so the rise is indicative. Not the 2023 BLS figures (EV-SEC-120).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-120",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-122",
+  "claim": "data",
+  "source": "SRC-0290",
+  "grade": "A",
+  "fact_date": "2026-05",
+  "recheck": "2027-05-01",
+  "statement": "In the Federal Reserve's 2025 survey, 73 percent of adults were doing okay financially or living comfortably, steady from the prior year, though low-income, young and Black adults saw meaningful declines; Forty-two percent said finding or keeping a job was a minor or major concern, up from 37 percent in 2024.",
+  "figures": [
+   "73 percent",
+   "37 percent",
+   "2025",
+   "2024"
+  ],
+  "anchor": [
+   "At 73 percent, the share of adults “doing okay financially” or “living comfortably” held steady in\n2025, though certain demographic groups, including low-income, young, and Black adults, saw\nmeaningful declines.",
+   "Forty-two percent of adults said “finding or\nkeeping a job” was either a “minor” or “major concern,” up from 37 percent in 2024."
+  ],
+  "context": "Federal Reserve Board, Economic Well-Being of U.S. Households in 2025 (May 2026), an online survey of U.S. adults conducted in fall 2025 (self-reported). It describes how people rate their finances, not their budgets; the $400 emergency question is covered by another gatherer.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-123",
+  "claim": "data",
+  "source": "SRC-0290",
+  "grade": "A",
+  "fact_date": "2026-05",
+  "recheck": "2027-05-01",
+  "statement": "Paid childcare often costs more than half as much as a family's housing payment; in the Federal Reserve's survey one in four parents with children under age 13 used paid childcare, and most families who paid for both spent at least 50 percent as much on childcare as on housing.",
+  "figures": [
+   "13",
+   "50 percent"
+  ],
+  "anchor": [
+   "Paid childcare\noften costs more than half as much as a family’s housing payment.",
+   "One-in-four parents with children under age 13 used paid childcare. Most families who paid for\nboth childcare and housing spent at least 50 percent as much on childcare as on housing."
+  ],
+  "context": "Federal Reserve Board SHED report (May 2026), survey of U.S. adults in fall 2025; childcare use and spending are self-reported. The same report notes mothers were more likely than fathers to be primary caretakers and some were not working because of childcare.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-124",
+  "claim": "analysis",
+  "source": "SRC-3972",
+  "grade": "B",
+  "fact_date": "2024-05",
+  "recheck": "2027-05-01",
+  "statement": "Acemoglu estimates that AI's macroeconomic effects are nontrivial but modest, no more than a 0.66% increase in total factor productivity over 10 years, and predicts gains below 0.53% if future tasks are harder to learn.",
+  "figures": [
+   "0.66%",
+   "10 years",
+   "0.53%"
+  ],
+  "anchor": [
+   "no more than a 0.66% increase in total factor productivity (TFP) over 10 years",
+   "predicted TFP gains over the next 10 years are even more modest and are predicted to be less than 0.53%"
+  ],
+  "locator": "abstract",
+  "context": "Daron Acemoglu (MIT), NBER Working Paper 32487 (May 2024), prepared for Economic Policy; task-based model using existing exposure and task-level productivity estimates (including Eloundou et al.'s exposure data). A projection, not a measurement; the author's own assumptions on how many tasks are affected set the result. Hewlett Foundation support.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-125",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-126",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-125",
+  "claim": "analysis",
+  "source": "SRC-3973",
+  "grade": "C",
+  "fact_date": "2023-08",
+  "recheck": "2027-05-01",
+  "statement": "Eloundou and co-authors estimate that around 80% of the U.S. workforce could have at least 10% of their work tasks affected by large language models, and approximately 19% of workers at least 50%, without making predictions about when such models will be developed or adopted.",
+  "figures": [
+   "80%",
+   "10%",
+   "19%",
+   "50%"
+  ],
+  "anchor": [
+   "around 80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of LLMs, while approximately 19% of workers may see at least 50% of their tasks impacted",
+   "We do not make predictions about the development or adoption timeline of such LLMs."
+  ],
+  "locator": "abstract",
+  "context": "Eloundou (OpenAI), Manning (OpenAI), Mishkin (OpenAI) and Rock (Wharton), arXiv 2303.10130, v5 August 2023; preprint. Measures exposure (tasks where an LLM could cut time substantially), classified by human raters and GPT-4, not displacement. OpenAI is the maker of the technology studied.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-126",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-127",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-126",
+  "claim": "analysis",
+  "source": "SRC-3974",
+  "grade": "C",
+  "fact_date": "2024-01-14",
+  "recheck": "2027-05-01",
+  "statement": "The IMF says almost 40 percent of global employment is exposed to AI, about 60 percent of jobs in advanced economies may be impacted, and exposure is expected to be 40 percent in emerging markets and 26 percent in low-income countries.",
+  "figures": [
+   "40 percent",
+   "60 percent",
+   "26 percent"
+  ],
+  "anchor": [
+   "almost 40 percent of global employment is exposed to AI",
+   "about 60 percent of jobs may be impacted by AI",
+   "AI exposure is expected to be 40 percent and 26 percent, respectively"
+  ],
+  "locator": "blog text",
+  "context": "IMF management blog (January 14, 2024) summarizing IMF staff analysis (Staff Discussion Note 2024/001) that builds on occupation-level exposure indices. 'Exposed' or 'impacted' means AI could change the job, for better or worse, not that the job disappears; the IMF note also stresses benefits depend on the productivity gains. Wording read through a fetch tool; the staff note itself blocks downloads.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-125",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-127",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-127",
+  "claim": "analysis",
+  "source": "SRC-3975",
+  "grade": "C",
+  "fact_date": "2025-10-01",
+  "recheck": "2027-05-01",
+  "statement": "The Yale Budget Lab found in October 2025 that the broader labor market had not experienced a discernible disruption in the 33 months since ChatGPT's release, and judged it too soon to tell how disruptive AI will be to jobs.",
+  "figures": [
+   "33 months"
+  ],
+  "anchor": [
+   "Overall, our metrics indicate that the broader labor market has not experienced a discernible disruption since ChatGPT’s release 33 months ago",
+   "it is too soon to tell how disruptive the technology will be to jobs"
+  ],
+  "locator": "introduction and conclusion",
+  "context": "Yale Budget Lab (nonpartisan policy lab), October 1, 2025; compares change in the occupational mix since ChatGPT with past technology episodes, using CPS data and OpenAI and Anthropic usage data (Anthropic made the drafting tool for this project). Updated monthly; the October 2025 snapshot may be superseded.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-128",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-126",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-128",
+  "claim": "analysis",
+  "source": "SRC-3976",
+  "grade": "C",
+  "fact_date": "2026-08",
+  "recheck": "2027-02-01",
+  "statement": "Using ADP payroll data through June 2026, Brynjolfsson, Chandar and Chen find no evidence of widespread economy-wide job displacement, but employment of workers ages 22-25 in AI-exposed occupations stands 19% below where it would be had it kept pace with less-exposed peers; earlier versions reported a 13% relative decline on July 2025 data, and the authors call their results early, descriptive indicators rather than causal estimates.",
+  "figures": [
+   "19%",
+   "13%",
+   "22–25",
+   "2026",
+   "2025"
+  ],
+  "anchor": [
+   "(1) We find no evidence of widespread, economy-wide job displacement. (2) However, employment of young workers (ages 22–25) in AI-exposed occupations now stands 19% below where it would be had it kept pace with that of their less-exposed peers",
+   "We interpret these facts as early, descriptive indicators—canaries in the coal mine—rather than causal estimates",
+   "a 13% relative decline as of July 2025 data",
+   "covering millions of U.S. workers through June 2026"
+  ],
+  "locator": "abstract and introduction",
+  "context": "Stanford Digital Economy Lab working paper (not peer reviewed), August 2026 update of an August 2025 paper whose headline was a 13% relative decline; the authors say the pattern attenuates when controlling for education, shows some pre-ChatGPT divergence and is more pronounced in the ADP sample than in national survey benchmarks. Brynjolfsson is also an adviser to AI firms.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-127",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-125",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-129",
+  "claim": "analysis",
+  "source": "SRC-0011",
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "recheck": "2027-05-01",
+  "statement": "The project's AI-4 design (revised October 26) offers ordinary displacement support without requiring proof of AI causation, developing wage insurance of half the difference between old and new wages for two years up to a cap and a training account of about $8,000 (an estimate), at a working envelope of $0.12T over FY2030-39.",
+  "figures": [
+   "$8,000",
+   "$0.12T",
+   "26",
+   "2030",
+   "39"
+  ],
+  "anchor": [
+   "## AI-4. AI and work",
+   "ordinary displacement eligibility, without requiring proof of AI causation",
+   "**wage insurance:** half the difference between old and new wages for two years, up to a cap;",
+   "**a training account:** about $8,000, estimate;",
+   "**Cost (approved working revision, October 26).** $0.12T FY2030–39"
+  ],
+  "context": "Legacy project text (domains/domain-ai.md, lines 87-100, before October 28, 2026); a design and a budget placeholder, not a score, and the benefit calibration is open. Included so the dossier can state what the project previously planned for AI displacement; it is not evidence that the design works.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-143",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-148",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-130",
+  "claim": "analysis",
+  "source": "SRC-0011",
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "recheck": "2027-05-01",
+  "statement": "The project's AI-6 revenue instrument, a levy on frontier compute or AI-attributable revenue rebated per capita, was held in the legacy text because it is unscored: there is no base estimate in the project and the base is moving fast.",
+  "figures": [],
+  "anchor": [
+   "## AI-6. AI revenue instrument (held)",
+   "A levy on frontier compute or on AI-attributable revenue, rebated per capita.",
+   "**Unscored.** There is no base estimate in the project, and the base is moving fast."
+  ],
+  "context": "Legacy project text (domains/domain-ai.md, lines 125-132, before October 28, 2026). A per-capita 'AI dividend' was held, not ranked into the plan; the legacy text also shares a payment channel with the Climate Dividend as an open question. Judgment, no external evidence.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-126",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-131",
+  "claim": "analysis",
+  "source": "SRC-0043",
+  "grade": "D",
+  "fact_date": "2026-10-26",
+  "recheck": "2027-05-01",
+  "statement": "In the October 26 Recovery and Solvency decision, the project's working allocations were $120B for AI-4 over FY2030-39 (transition support with ordinary displacement eligibility; AI measurement does not gate assistance) and $100B for LAB-10 (practical participation support complementing AI-4, apprenticeships and national service).",
+  "figures": [
+   "$120B",
+   "$100B",
+   "26",
+   "2030",
+   "39",
+   "4",
+   "10"
+  ],
+  "anchor": [
+   "## Recovery and Solvency recommendations approved, October 26",
+   "| AI-4 | $120B FY2030–39 | Transition insurance/support with ordinary displacement eligibility; AI measurement does not gate assistance |",
+   "| LAB-10 | $100B FY2030–39 | Practical participation support, complementing AI-4, apprenticeships and national service |"
+  ],
+  "context": "Legacy governing decisions (lines 428-442); working allocations Espen approved, not appropriations or scores. No dividend was allocated in this table.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-148",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-132",
+  "claim": "analysis",
+  "source": "SRC-3950",
+  "grade": "C",
+  "fact_date": "2023-11-09",
+  "recheck": "2027-05-01",
+  "statement": "The Census Bureau's 2023 middle-series projection has the share of the population aged 65 or older passing the share under 18 in 2029, and by 2100 29.1% aged 65 or older compared with 16.4% under 18.",
+  "figures": [
+   "2029",
+   "2100",
+   "29.1%",
+   "16.4%",
+   "65",
+   "18"
+  ],
+  "anchor": [
+   "In the middle series, the share of the population in the older age group surpasses that of the younger age group in 2029 and, by 2100, 29.1% of the population is projected to be age 65 or older compared to 16.4% under age 18."
+  ],
+  "context": "U.S. Census Bureau, 2023 National Population Projections (Biden administration era, Vintage 2022 base); scenarios based on assumptions about fertility, mortality and net international migration, and the later crossover under the other immigration scenarios ranges 2028 to 2030. The 2024-25 immigration changes are not in this series. The 2030 and 2040 65+ shares requested are in Census tables not saved here (evidence still needed).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-134",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-133",
+  "claim": "analysis",
+  "source": "SRC-3978",
+  "grade": "C",
+  "fact_date": "2026-08-27",
+  "recheck": "2027-08-27",
+  "statement": "BLS's 2025-2035 projections have health care and social assistance adding the most jobs of any sector, over 2.2 million, and put solar photovoltaic installers (+36.5 percent) and wind turbine service technicians (+29.5 percent) among the five fastest growing occupations.",
+  "figures": [
+   "2.2 million",
+   "36.5 percent",
+   "29.5 percent",
+   "2025",
+   "2035"
+  ],
+  "anchor": [
+   "projected to add the most jobs of any sector, over 2.2 million over the projections period",
+   "solar photovoltaic installers (+36.5 percent) and wind turbine service technicians (+29.5 percent)",
+   "both of which rank among the five fastest growing occupations from 2025 to 2035"
+  ],
+  "locator": "news release summary (Aug. 27, 2026)",
+  "context": "Bureau of Labor Statistics, second Trump administration, released August 27, 2026; replaces the 2024-34 projections the brief named. Official projections, a model of trends, not a forecast of policy. Home health and personal care aides and construction trades are in the BLS tables but not in the text read; BLS blocks agent downloads and the quotations come through a fetch tool (evidence still needed).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-132",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-134",
+  "claim": "data",
+  "source": "SRC-3988",
+  "grade": "C",
+  "fact_date": "2025-07-24",
+  "recheck": "2030-01-01",
+  "statement": "AARP and the National Alliance for Caregiving report that 63 million Americans, nearly 1 in 4 adults, provided ongoing care for an adult or a child with a complex medical condition or a disability in the past year, and that 11.2 million family caregivers now receive some compensation.",
+  "figures": [
+   "63 million",
+   "1 in 4",
+   "11.2 million"
+  ],
+  "anchor": [
+   "63 million Americans—nearly 1 in 4 adults—provided ongoing care for an adult or a child with a complex medical condition or a disability in the past year",
+   "While 11.2 million family caregivers now receive some compensation, most are still unpaid.",
+   "The study surveyed 6,858 caregivers"
+  ],
+  "locator": "press release text",
+  "context": "AARP (advocacy organization for older Americans) and National Alliance for Caregiving (caregiver advocacy), Caregiving in the U.S. 2025, nationally representative online panel (Ipsos), 6,858 caregivers; the 63 million is a weighted survey estimate with a broad definition of caregiving (including children with complex conditions), so it is not a count of people caring for older relatives.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-135",
+  "claim": "data",
+  "source": "SRC-3980",
+  "grade": "C",
+  "fact_date": "2026-04",
+  "recheck": "2027-04-01",
+  "statement": "In Pew's survey of 5,103 U.S. adults conducted April 20 to 26, 2026, 73% said the affordability of health care is a very big problem for the country (up 6 points from the previous February), 66% said inflation is (63% then) and 64% said the federal budget deficit is.",
+  "figures": [
+   "5,103",
+   "73%",
+   "66%",
+   "63%",
+   "64%",
+   "6 percentage points"
+  ],
+  "anchor": [
+   "We surveyed 5,103 U.S. adults from April 20 to 26, 2026.",
+   "73% of adults now say the affordability of health care is a very big problem for the country , up 6 percentage points from February of last year .",
+   "Inflation also continues to loom large for the public: 66% say inflation is a very big problem, up modestly from 63% last year.",
+   "64% view the federal budget deficit as a very big problem"
+  ],
+  "locator": "survey methodology; first figure text",
+  "context": "Pew Research Center, American Trends Panel (probability-based online panel), weighted to represent U.S. adults. A poll of what people call national problems, not of their own hardship; wording 'very big problem for the country'. Statement says February 2025 as the comparison; the article says 'February of last year'.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-136",
+  "claim": "data",
+  "source": "SRC-3981",
+  "grade": "C",
+  "fact_date": "2026-08",
+  "recheck": "2027-08-01",
+  "statement": "In Pew's August 2026 survey of 5,166 U.S. adults, 60% said they do not have enough income to lead the kind of life they want, 53% had no emergency funds covering three months of expenses and 27% could not pay some monthly bills in full; 71% of lower-income adults had trouble affording at least 1 of 4 basic necessities in the past year.",
+  "figures": [
+   "5,166",
+   "60%",
+   "53%",
+   "27%",
+   "71%"
+  ],
+  "anchor": [
+   "This analysis draws on a survey of 5,166 U.S. adults conducted Aug. 24-30, 2026.",
+   "60% say they do not currently have enough income to lead the kind of life they want.",
+   "53% say they do not have emergency funds that would cover their expenses for three months.",
+   "27% cannot pay some of their monthly bills or can only make partial payments.",
+   "71% of lower-income adults had trouble affording at least 1 of 4 basic necessities in the past year"
+  ],
+  "locator": "text under chart \"Many Americans, especially those with lower incomes...\"",
+  "context": "Pew Research Center, American Trends Panel; only respondents who completed both a July 20-Aug. 9 and an Aug. 24-30, 2026 survey are included. Self-reported hardship; 'enough income to lead the kind of life you want' is a subjective standard (82% of lower-income and 26% of upper-income adults said they lacked it).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-137",
+  "claim": "data",
+  "source": "SRC-3984",
+  "grade": "C",
+  "fact_date": "2026-04",
+  "recheck": "2027-04-01",
+  "statement": "In Gallup's April 2026 survey of 1,001 adults, 31% named the high cost of living as their family's most important financial problem, health care costs ranked fourth at 8%, and a record 55% said their financial situation is getting worse.",
+  "figures": [
+   "1,001",
+   "31%",
+   "8%",
+   "55%"
+  ],
+  "anchor": [
+   "The 31% citing it in an open-ended question is below the 41% peak in 2024 but similar to a year ago",
+   "Healthcare ranks fourth at 8%",
+   "a record 55% now saying their financial situation is getting worse",
+   "with a random sample of 1,001 adults"
+  ],
+  "locator": "article text; methodology",
+  "context": "Gallup Economy and Personal Finance survey, telephone interviews April 1-15, 2026 by random-digit dialing (80% cell). Open-ended question; people name one problem, so health costs at 8% means few ranked it first, not that few worry about it (62% worry about retirement money and 60% about covering medical costs from a serious illness in the same release).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-138",
+  "claim": "data",
+  "source": "SRC-3985",
+  "grade": "C",
+  "fact_date": "2025-12",
+  "recheck": "2027-04-01",
+  "statement": "In the West Health-Gallup survey of 5,660 adults conducted in late 2025, 49% of U.S. adults were classified as able to afford healthcare (\"Cost Secure\"), down from a peak of 61% in 2022.",
+  "figures": [
+   "5,660",
+   "49%",
+   "61%",
+   "2022"
+  ],
+  "anchor": [
+   "just 49% of U.S. adults are now classified as “Cost Secure,”",
+   "in steady decline from its peak of 61% in 2022",
+   "a nationally representative sample of 5,660 adults aged 18 and older"
+  ],
+  "locator": "article text; methodology",
+  "context": "West Health-Gallup Center on Healthcare in America; West Health is a nonprofit that funds the Center and advocates on healthcare costs. Gallup Panel (probability-based; web and mail), Oct. 27-Dec. 22, 2025; findings predate the end of the enhanced ACA subsidies. 'Cost Secure' is an index Gallup and West Health built from reported access and payment experiences.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-139",
+  "claim": "data",
+  "source": "SRC-3986",
+  "grade": "C",
+  "fact_date": "2025-12",
+  "recheck": "2027-04-01",
+  "statement": "In a West Health-Gallup study of 19,535 adults, roughly 40% doubted Social Security will be available in the next 10 years, and 61% were more concerned than a year earlier about potential changes to Social Security benefits (58% for Medicare).",
+  "figures": [
+   "19,535",
+   "40%",
+   "10 years",
+   "61%",
+   "58%"
+  ],
+  "anchor": [
+   "Roughly 40% of U.S. adults",
+   "doubt that Medicare or, separately, Social Security will be available in the next 10 years",
+   "potential changes to Medicare (58%) and Social Security (61%) benefits",
+   "with a sample of 19,535 adults aged 18 and older"
+  ],
+  "locator": "article text; Survey Methods",
+  "context": "West Health-Gallup State of the States 2025, web survey June 9-Aug. 25, 2025, recruited by address-based sampling and the Gallup Panel; West Health is a healthcare-cost nonprofit. Worry about benefits changes is split sharply by party (over 80% of Democrats against about three in ten Republicans). It measures concern, not support for any particular proposal.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-140",
+  "claim": "data",
+  "source": "SRC-3987",
+  "grade": "C",
+  "fact_date": "2025-07",
+  "recheck": "2027-04-01",
+  "statement": "In an AP-NORC poll of 1,158 adults, about three-quarters of U.S. adults saw child care costs as a major problem, but only about half said helping working families pay for child care should be a high priority for the federal government; the margin of sampling error was plus or minus 4 percentage points.",
+  "figures": [
+   "1,158",
+   "4 percentage points"
+  ],
+  "anchor": [
+   "About three-quarters of U.S. adults see child care costs as a \"major problem,\" but only about half say helping working families pay for child care should be a \"high priority\" for the federal government",
+   "The AP-NORC poll of 1,158 adults was conducted June 5-9",
+   "plus or minus 4 percentage points"
+  ],
+  "locator": "article text",
+  "context": "AP-NORC Center for Public Affairs Research, AmeriSpeak probability panel, conducted June 5-9, 2025, reported by the Associated Press. A poll shows opinion on cost and priority, not what child care costs; it was taken as the 2025 reconciliation law was passing.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-141",
+  "claim": "data",
+  "source": "SRC-3987",
+  "grade": "C",
+  "fact_date": "2025-07",
+  "recheck": "2027-04-01",
+  "statement": "The AP-NORC poll found about two-thirds of adults support free or low-cost day care for children too young for public school and a similar share favor requiring employers to provide paid family leave for new parents; the AP also reports a June Washington Post/Ipsos poll in which about 7 in 10 supported raising the child tax credit from $2,000 to $2,500.",
+  "figures": [
+   "7 in 10",
+   "$2,000",
+   "$2,500"
+  ],
+  "anchor": [
+   "About two-thirds support providing free or low-cost day care for children too young to attend public school, and a similar share favor requiring employers to provide paid family leave for new parents.",
+   "About 7 in 10 U.S. adults said they'd support increasing the child tax credit from $2,000 to $2,500 for parents who are U.S. citizens, a Washington Post/Ipsos poll from June found."
+  ],
+  "locator": "article text",
+  "context": "AP-NORC (n=1,158, June 5-9, 2025) for the first sentence; the child tax credit finding is a different poll (Washington Post/Ipsos, June 2025) reported by the AP, restricted to credits for parents who are U.S. citizens, with about 8 in 10 of each party in favor. The brief's figure of about 80 percent support for paid family leave across parties is not in this poll (two-thirds); a source for it is still needed.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-142",
+  "claim": "data",
+  "source": "SRC-3956",
+  "grade": "A",
+  "fact_date": "2025-07-08",
+  "recheck": "2027-01-01",
+  "statement": "S. 2210 of the 119th Congress, the Unlocking Benefits for Independent Workers Act, introduced July 8, 2025 by Sen. Cassidy with Sens. Tuberville, Scott of South Carolina and Budd, would require that whether a person is an employee under any federal law be decided without considering whether the person provides a benefit or protection the individual may keep when the work ends, or contributions to one.",
+  "figures": [
+   "2210",
+   "119",
+   "8",
+   "2025"
+  ],
+  "anchor": [
+   "119th CONGRESS",
+   "July 8, 2025",
+   "Mr. Cassidy (for himself, Mr. Tuberville, Mr. Scott of South Carolina,\nand Mr. Budd) introduced the following bill",
+   "a benefit or protection that the individual may\nmaintain without regard to whether the individual continues to\nperform work for such person;",
+   "S. 2210"
+  ],
+  "context": "Bill text as introduced; read twice and referred to the Senate Health, Education, Labor, and Pensions Committee. Status after referral not checked (evidence still needed: congress.gov action list). A safe-harbor bill: it funds nothing. Critics such as the Economic Policy Institute argue it would entrench contractor status; state laws in Utah (2023), Alabama and Tennessee (2025) and others are summarized by a Georgetown Center for Retirement Initiatives page but their primary statutes are not yet in the register.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-143",
+  "claim": "analysis",
+  "source": "SRC-3977",
+  "grade": "B",
+  "fact_date": "2020-12",
+  "recheck": "2027-11-12",
+  "statement": "Pooling randomized evaluations of sector-focused training programs for low-wage workers that combine screening, occupational and soft-skills training and wraparound services, Katz, Roth, Hendra and Schaberg report substantial and persistent earnings gains of 11 to 40 percent after training, generated by moving participants into higher-wage jobs in higher-earning industries and occupations rather than just raising employment.",
+  "figures": [
+   "11 to 40 percent"
+  ],
+  "anchor": [
+   "The programs generate substantial and persistent earnings gains (11 to 40 percent) following training completion.",
+   "Earnings gains are generated by getting participants into higher-wage jobs in higher-earning industries and occupations not just by raising employment."
+  ],
+  "locator": "abstract",
+  "context": "Katz (Harvard), Roth (Harvard), Hendra and Schaberg (MDRC), NBER Working Paper 28248 (December 2020); the Journal of Labor Economics version (40(S1), 2022) reportedly gives a narrower 12 to 34 percent range, so check which version is cited. Pools RCTs of Year Up, Project QUEST (San Antonio), WorkAdvance (Per Scholas and others, northeast and Ohio) and the Sectoral Employment Impact Study; programs were small, selective and with screening and support, so scale-up is untested. The individual MDRC (WorkAdvance) and Economic Mobility Corporation (Project QUEST nine-year, about 20 percent gain) reports are still to be anchored.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-144",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-144",
+  "claim": "analysis",
+  "source": "SRC-3955",
+  "grade": "C",
+  "fact_date": "2012-07",
+  "recheck": "2027-07-01",
+  "statement": "Mathematica's ten-state evaluation for the Labor Department found that in the ninth year after enrollment Registered Apprenticeship participants earned an average of $5,839 more than similar nonparticipants, with estimated career earnings $98,718 higher and, for those who completed, $240,037 higher.",
+  "figures": [
+   "$5,839",
+   "$98,718",
+   "$240,037"
+  ],
+  "anchor": [
+   "In the ninth year following program enrollment, RA participants earned an average of\n$5,839 more than similar nonparticipants.",
+   "Over a career, the estimated earnings of RA\nparticipants are an average of $98,718 more than similar nonparticipants.",
+   "the estimated career earnings are an average\nof $240,037 more than similar nonparticipants"
+  ],
+  "context": "Reed and others, Mathematica Policy Research for the Department of Labor (Obama administration), July 2012. Nonexperimental: regression on state unemployment-insurance wage records with controls, not random assignment, so participants who chose and were accepted into apprenticeships may differ; career figures are projections. Ten states (Arkansas, Florida, Georgia, Indiana, Maryland, Minnesota, Oregon, Pennsylvania, Texas and Washington, per the report). Pre-2012 cohorts; construction share and 2025 DOL counts (about 700,000 active apprentices per state reports) not yet anchored.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-143",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-145",
+  "claim": "analysis",
+  "source": "SRC-3979",
+  "grade": "C",
+  "fact_date": "2026-01-15",
+  "recheck": "2027-01-15",
+  "statement": "Associated Builders and Contractors' chief economist said that if consensus forecasts hold, the construction industry will need to bring in 349,000 new workers in 2026 just to keep labor supply and demand in equilibrium, and that most of the new demand will come from retirement rather than growth in demand for construction.",
+  "figures": [
+   "349,000",
+   "2026"
+  ],
+  "anchor": [
+   "“If current consensus forecasts hold true, the construction industry will need to bring in 349,000 new workers in 2026 just to keep the supply and demand for labor in equilibrium,”",
+   "a majority of new worker demand in 2026 will be attributable to retirement rather than increased demand for construction services"
+  ],
+  "locator": "press release quotations",
+  "context": "Associated Builders and Contractors, a merit-shop (nonunion-leaning) contractors' trade group with a stake in the labor-supply debate and in apprenticeship and visa policy; a proprietary model that uses job openings, industry unemployment and projected retirements. A shortage claim from an industry group, not an official estimate; it is the only 2026 shortage figure read so far (BLS JOLTS construction openings were seen at 298 thousand, 3.4 percent, for September 2026 in an unverified fetch and are not anchored).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-133",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-146",
+  "claim": "analysis",
+  "source": "SRC-3979",
+  "grade": "C",
+  "fact_date": "2026-01-15",
+  "recheck": "2027-01-15",
+  "statement": "Associated Builders and Contractors' workforce model converts additional construction spending into worker demand at approximately 3,450 jobs per $1 billion of additional construction spending.",
+  "figures": [
+   "3,450",
+   "$1 billion"
+  ],
+  "anchor": [
+   "at a rate of approximately 3,450 jobs per $1 billion in additional construction spending"
+  ],
+  "locator": "press release, methodology paragraph",
+  "context": "Industry group's model fitted to the historical relationship between inflation-adjusted construction spending (Census) and payroll construction employment (BLS); it is a statistical relationship, not a causal jobs multiplier for a public infrastructure program, and ignores the jobs created outside construction. A CBO or academic estimate of jobs per dollar of infrastructure spending is still needed.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-145",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-147",
+  "claim": "analysis",
+  "source": "SRC-3959",
+  "grade": "C",
+  "fact_date": "2013",
+  "recheck": "2027-07-01",
+  "statement": "In the Labor Department's matched-comparison evaluation of Trade Adjustment Assistance, participants' fourth-year earnings were either $3,300 less than or about the same as those of comparison-group members, and TAA had a negative impact on total income, suggesting that additional income payments did not fully compensate for participants' lower earnings.",
+  "figures": [
+   "$3,300"
+  ],
+  "anchor": [
+   "Participants’ fourth-year earnings were either $3,300 less than, or about the same as, those of\ncomparison-group members.",
+   "TAA had a negative impact on total income, suggesting\nthat these additional income payments did not fully compensate for participants’ lower earnings."
+  ],
+  "locator": "Executive summary",
+  "context": "Schochet and others, Mathematica for the Department of Labor (Obama administration), 2013. Nonexperimental: workers laid off in 2005-06 matched to UI claimants not eligible for TAA, so the low-end estimate may reflect time out of work while in training (participants spent far more time in training). Tests income support during retraining (extended Trade Readjustment Allowances) for displaced manufacturing workers, a different group from low-income parents.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-148",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-143",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-148",
+  "claim": "analysis",
+  "source": "SRC-3960",
+  "grade": "B",
+  "fact_date": "2022",
+  "recheck": "2027-07-01",
+  "statement": "Using Census employer-employee data on 300,000 workers and quasi-random assignment of Trade Adjustment Assistance cases to investigators, Hyman finds TAA-approved workers have $50,000 greater cumulative earnings ten years out, though annual returns fully depreciate over that period, and that sustained returns are delivered by training rather than unemployment insurance transfers.",
+  "figures": [
+   "300,000",
+   "$50,000"
+  ],
+  "anchor": [
+   "Using employer-employee matched Census data on 300,000 workers, I find TAA-approved workers have $50,000 greater cumulative earnings ten years out",
+   "Yet annual returns fully depreciate over the same period.",
+   "Combined with evidence that sustained returns are delivered by training rather than UI transfers"
+  ],
+  "locator": "abstract",
+  "context": "Benjamin Hyman (New York Fed), Census Bureau CES Working Paper 22-05 (also NBER); working paper abstract, not the peer-reviewed article. Quasi-experimental (investigator leniency design), national, about 20 years of worker data. It disagrees with the Labor Department's 2013 matched-comparison result (EV-SEC-147) because the designs differ; the training-over-transfers finding bears on whether stipends or income support alone raise later earnings.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-147",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-143",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
+  "id": "EV-SEC-149",
+  "claim": "analysis",
+  "source": "SRC-3989",
+  "grade": "C",
+  "fact_date": "2016-09",
+  "recheck": "2027-09-01",
+  "statement": "The Urban Institute's 2016 study of programs serving low-income parents reports that lack of child care can be a major barrier for low-income parents seeking education and training, and that parents may have trouble finding child care that matches their education and training schedules.",
+  "figures": [],
+  "anchor": [
+   "Lack of child care can be a major barrier for low-income parents seeking education and training",
+   "Parents may have trouble finding child care that matches their education and training schedules."
+  ],
+  "locator": "key findings",
+  "context": "Urban Institute (nonpartisan), September 2016, qualitative interviews with 17 programs in 14 states (per Urban's summary), not an impact estimate. Wording read through a fetch tool; reviewer to confirm. The GAO upskilling report that makes a similar point (child care as a barrier to training) was not read (evidence still needed).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-143",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ],
+  "checked": "2026-11-12"
+ },
+ {
   "id": "EV-SEC-300",
   "statement": "BLS reports that 27% of private industry employees had access to employer-provided paid family leave in March 2023; the 2024 and 2025 estimates did not meet BLS publication standards, so 2023 is the latest published year.",
   "claim": "data",
