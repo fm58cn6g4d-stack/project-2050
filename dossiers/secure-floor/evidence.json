@@ -2405,5 +2405,1636 @@
   "supports": [
    "dossiers/secure-floor/2-what-works.md"
   ]
+ },
+ {
+  "id": "EV-SEC-500",
+  "statement": "For 2026 the earned income credit for a filer with two qualifying children reaches its maximum of $7,316 at $18,290 of earned income; for filers other than joint filers the credit begins to phase out at $23,890 and ends at $58,629 (for joint filers, $31,160 and $65,899).",
+  "claim": "data",
+  "figures": [
+   "$7,316",
+   "$18,290",
+   "$23,890",
+   "$58,629",
+   "$31,160",
+   "$65,899"
+  ],
+  "source": "SRC-3881",
+  "anchor": [
+   "Earned Income Amount\n\n$13,020\n\n$18,290\n\n$18,290\n\n$8,680\n\nMaximum Amount of Credit\n\n$4,427\n\n$7,316\n\n$8,231\n\n$664\n\nThreshold Phaseout Amount\n(Married Filing Jointly)\n\n$31,160\n\n$31,160\n\n$31,160\n\n$18,140\n\nCompleted Phaseout\nAmount (Married Filing\nJointly)\n\n$58,863\n\n$65,899\n\n$70,244\n\n$26,820\n\nThreshold Phaseout Amount\n(All other filing statuses)\n\n$23,890\n\n$23,890\n\n$23,890\n\n$10,860\n\nCompleted Phaseout\nAmount (All other filing\nstatuses)\n\n$51,593\n\n$58,629\n\n$62,974\n\n$19,540"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2026-12-31",
+  "context": "IRS Rev. Proc. 2025-32, second Trump administration; primary guidance indexing 26 U.S.C. 32 for tax year 2026. The table gives one, two and three-or-more child columns; the two-child column is quoted. The 2027 indexing (issued about October 2026) is not saved here. Phase-out rates are in EV-HOU-416 and EV-SEC-501.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-501",
+  "statement": "The earned income credit statute sets the phase-in rate is 34 percent of earned income for one qualifying child, 40 percent for two and 45 percent for three or more (7.65 percent with none); the phase-out rate is 15.98 percent for one child and 21.06 percent for two or more.",
+  "claim": "data",
+  "figures": [
+   "34",
+   "40",
+   "45",
+   "7.65",
+   "15.98",
+   "21.06"
+  ],
+  "source": "SRC-3890",
+  "anchor": [
+   "In the case of an eligible individual with: The credit percentage is: The phaseout\npercentage\nis:\n1 qualifying child\n34\n15.98\n2 qualifying children\n40\n21.06\n3 or more qualifying children\n45\n21.06\nNo qualifying children\n7.65\n7.65"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Statute (2024 edition of the Code). The rates are fixed in statute, not indexed; only the dollar amounts are indexed (EV-SEC-500). The phase-out rates duplicate EV-HOU-416 by design so the phase-in and phase-out sit together.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-502",
+  "statement": "The 2025 reconciliation law makes the child tax credit permanent and raises its maximum to $2,200 per child (adjusted for inflation); the credit begins to phase out at $200,000 for single filers and $400,000 for married couples filing jointly.",
+  "claim": "data",
+  "figures": [
+   "$2,200",
+   "$200,000",
+   "$400,000"
+  ],
+  "source": "SRC-3011",
+  "anchor": [
+   "permanently raises the maximum credit to $2,200 per child (adjusted for inflation)",
+   "increased the income limits to $200,000 for single filers and $400,000 for married couples filing jointly"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "CRS (nonpartisan) description of enacted law, section 70104 of P.L. 119-21 (July 4, 2025). Law.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-503",
+  "statement": "For 2026 the maximum child tax credit is $2,200 per child and the amount used to compute the refundable portion is limited to $1,700.",
+  "claim": "data",
+  "figures": [
+   "$2,200",
+   "$1,700"
+  ],
+  "source": "SRC-3881",
+  "anchor": [
+   "Maximum amount of the credit. For taxable years beginning in 2026, the\nmaximum amount of the credit allowed under § 24(a) is $2,200.\n(2) Refundable portion. For taxable years beginning in 2026, the amount used in\n§ 24(d)(1)(A) to determine the amount of the credit under § 24 that may be refundable is\n$1,700."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2026-12-31",
+  "context": "IRS Rev. Proc. 2025-32, second Trump administration; primary guidance indexing sections 24(h)(2) and 24(d)(1)(A) for 2026.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-504",
+  "statement": "The child tax credit statute reduces the credit by $50 for each $1,000 of modified adjusted gross income over the threshold ($400,000 joint, $200,000 otherwise), and the refundable part is 15 percent of earned income above $3,000, with $2,500 substituted for the temporary years the 2025 law made permanent.",
+  "claim": "data",
+  "figures": [
+   "$50",
+   "$1,000",
+   "$400,000",
+   "$200,000",
+   "15 percent",
+   "$3,000",
+   "$2,500"
+  ],
+  "source": "SRC-3891",
+  "anchor": [
+   "by $50 for each $1,000 (or fraction thereof) by which the taxpayer's modified adjusted gross income exceeds the threshold amount",
+   "the threshold amount shall be $400,000 in the case of a joint return ($200,000 in any other case)",
+   "15 percent of so much of the taxpayer's earned income (within the meaning of section 32) which is taken into account in computing taxable income for the taxable year as exceeds $3,000",
+   "Subsection (d)(1)(B)(i) shall be applied by substituting \"$2,500\" for \"$3,000\"."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "2024 edition of the Code. $50 per $1,000 is a 5 percent phase-out rate (arithmetic). The $2,500 floor and the $200,000/$400,000 thresholds sit in subsection (h), which P.L. 119-21 section 70104 made permanent by striking the 2025 end date (EV-SEC-502); the 2024 edition does not show that amendment.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-505",
+  "statement": "The 2025 law's new $6,000 deduction for people age 65 or older runs from 2025 through 2028 and is reduced by 6% of modified adjusted gross income above $75,000 ($150,000 for joint filers).",
+  "claim": "data",
+  "figures": [
+   "$6,000",
+   "65",
+   "2025",
+   "2028",
+   "6%",
+   "$75,000",
+   "$150,000"
+  ],
+  "source": "SRC-3011",
+  "anchor": [
+   "It also temporarily creates a new $6,000 deduction for taxpayers (and their spouses, if married filing jointly) who are age 65 or older, from 2025 through 2028. This amount is reduced by 6% of a taxpayer's modified adjusted gross income above $75,000 ($150,000 for those married filing jointly)."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "CRS (nonpartisan) description of section 70103 of P.L. 119-21. The deduction ends after tax year 2028, so it is not in force in 2029 unless extended. It adds a 6 percent phase-out layer for older filers in its range.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-506",
+  "statement": "SNAP's gross income standard is 130 percent of the federal poverty level for households without an elderly or disabled member, who must meet both the gross and the net income standards; categorically eligible households need meet neither.",
+  "claim": "data",
+  "figures": [
+   "130 percent"
+  ],
+  "source": "SRC-3899",
+  "anchor": [
+   "Households which do not contain an elderly or disabled member shall meet both the net income eligibility standards and the gross income eligibility standards for SNAP. Households which are categorically eligible as defined in § 273.2(j)(2) or 273.2(j)(4) do not have to meet either the gross or net income eligibility standards.",
+   "(i) The income eligibility standards for the 48 contiguous States and the District of Columbia, Guam and the Virgin Islands shall be 130 percent of the Federal income poverty levels for the 48 contiguous States and the District of Columbia."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-01",
+  "context": "USDA regulation (eCFR, November 2026). The net-income standard is 100 percent of poverty by statute (7 U.S.C. 2014(c)); the 30 percent benefit reduction and the 20 percent earnings deduction are EV-HOU-417 and EV-HOU-418.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-507",
+  "statement": "USDA's June 2026 chart lists 46 states and territories using broad-based categorical eligibility, with state-set gross income limits from 130% of poverty (Alabama) to 200% (for example Alaska).",
+  "claim": "data",
+  "figures": [
+   "46",
+   "130%",
+   "200%"
+  ],
+  "source": "SRC-3907",
+  "anchor": [
+   "States (46) TANF/MOE Program Description Asset Limit of TANF/MOE Program Gross Income Limit of TANF/MOE Program 1",
+   "Alabama All households are eligible (brochure) No limit on assets 130%",
+   "Alaska All households are eligible (Support for you and your family notice) No limit on assets 200%"
+  ],
+  "grade": "A",
+  "fact_date": "2026-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "USDA FNS, second Trump administration, June 2026. State-by-state option; the chart also shows 165% in Illinois and 160% in Iowa. The 2025 law did not, on the CRS overview, change broad-based categorical eligibility (EV-SEC-508 covers what it did change).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-508",
+  "statement": "The 2025 reconciliation law ended the heating-and-cooling standard utility allowance triggered by a LIHEAP or state energy assistance payment for SNAP households without an elderly or disabled member (section 10103) and barred internet costs from the excess shelter deduction (section 10104).",
+  "claim": "data",
+  "figures": [
+   "10103",
+   "10104"
+  ],
+  "source": "SRC-3911",
+  "anchor": [
+   "for households without elderly or disabled members a LIHEAP or state energy assistance payment (of any amount) no longer suffices for the SUA. The enacted bill also does not change the law for households with elderly or disabled members. (§10103)",
+   "The enacted bill would prohibit use of household internet costs in calculating the excess shelter expense deduction. (§10104)"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "CRS (nonpartisan) overview of the 2025 law's nutrition title. Both changes shrink a deduction, so net income rises and the SNAP benefit falls for affected households. The same law also changed work requirements, the thrifty food plan and state cost sharing (not covered here).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-509",
+  "statement": "HUD annual income counts all amounts not specifically excluded received from all sources by each family member 18 or older, plus unearned income of dependents under 18; it excludes, among others, earned income of children under 18, earned income of dependent full-time students above the dependent deduction, and state or local property tax refunds on the dwelling.",
+  "claim": "data",
+  "figures": [
+   "18"
+  ],
+  "source": "SRC-3894",
+  "anchor": [
+   "All amounts, not specifically excluded in paragraph (b) of this section, received from all sources by each member of the family who is 18 years of age or older or is the head of household or spouse of the head of household, plus unearned income by or on behalf of each dependent who is under 18 y",
+   "(3) Earned income of children under the 18 years of age.",
+   "(14) Earned income of dependent full-time students in excess of the amount of the deduction for a dependent in § 5.611.",
+   "(18) Amounts received by the family in the form of refunds or rebates under State or local law for property taxes paid on the dwelling unit."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "24 CFR 5.609 (eCFR, current through November 9, 2026), HUD rule as amended by the HOTMA final rule (2023). The full list has 28 exclusions; the ones above are those that bear on workers and families. Tax refunds and advance refundable credits are excluded for every federal program by 26 U.S.C. 6409 (EV-SEC-534).",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-510",
+  "statement": "HUD's rule lets a housing agency or owner use another means-tested program's income determination from the previous 12 months (TANF, Medicaid, SNAP, the earned income credit, the housing credit, WIC or SSI) to set a family's income before deductions.",
+  "claim": "data",
+  "figures": [
+   "12"
+  ],
+  "source": "SRC-3894",
+  "anchor": [
+   "(3) Use of other programs' determination of income. (i) The PHA or owner may, using the verification methods in paragraph (c)(3)(ii) of this section, determine the family's income prior to the application of any deductions applied in accordance with § 5.611 based on income determinations made within the previous 12-month period for purposes of the following means-tested forms of Federal public assistance:\n(A) The Temporary Assistance for Needy Families block grant (42 U.S.C. 601, et seq. ).\n(B) Medicaid (42 U.S.C. 1396 et seq. ).\n(C) The Supplemental Nutrition Assistance Program (42 U.S.C. 2011 et seq. ).\n(D) The Earned Income Tax Credit (26 U.S.C. 32).\n(E) The Low-Income Housing Credit (26 U.S.C. 42).\n(F) The Special Supplemental Nutrition Program for Woman, Infants, and Children (42 U.S.C. 1786).\n(G) Supplemental Security Income (42 U.S.C. 1381 et seq. )."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "24 CFR 5.609(c)(3). An existing federal example of one program borrowing another's income finding; it is permissive (\"may\") and needs third-party verification, so use varies by agency.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-511",
+  "statement": "The public housing rent statute requires an interim review when income or deductions are estimated to rise 10 percent or more of annual adjusted income, but an increase in a family's earned income is not considered, except to the extent it corresponds to earlier decreases, so a rise in earnings is generally counted at the next annual review.",
+  "claim": "data",
+  "figures": [
+   "10 percent"
+  ],
+  "source": "SRC-3884",
+  "anchor": [
+   "(iv) at any time the income or deductions (under subsection (b)(5)) of the family change by an amount that is estimated to result in an increase of 10 percent or more in annual adjusted income",
+   "except that any increase in the earned income of a family shall not be considered for purposes of this clause (except that earned income may be considered if the increase corresponds to previous decreases under clause (iii))"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "2024 edition of the Code; the ROAD to Housing Act (2026) did not change this clause (dossiers/shared-rules.md, rule 2). The inference in the last clause (annual review) is the dossier's reading of the statute; the 30 percent rate is EV-HOU-410.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-512",
+  "statement": "HUD defines \"very low-income families\" as those with income up to 50 per centum of area median family income, and \"extremely low-income families\" as very low-income families up to the higher of the HHS poverty guideline for the family size or 30 percent of area median (the poverty alternative does not apply in Puerto Rico or other territories).",
+  "claim": "data",
+  "figures": [
+   "50 per centum",
+   "30 percent"
+  ],
+  "source": "SRC-3884",
+  "anchor": [
+   "The term \"very low-income families\" means low-income families whose incomes do not exceed 50 per centum of the median family income for the area",
+   "The term extremely low-income families 3 means very low-income families whose incomes do not exceed the higher of—\n(i) the poverty guidelines updated periodically by the Department of Health and Human Services under the authority of section 9902(2) of this title applicable to a family of the size involved (except that this clause shall not apply in the case of public housing agencies or projects located in Puerto Rico or any other territory or possession of the United States); or\n(ii) 30 percent of the median family income for the area"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "2024 edition of the Code. Area median income is HUD's own annual estimate by area (the FY2026 income limits table is not saved here: HUD blocks agent downloads; evidence still needed). Eligibility for HUD help is set on this line (dossiers/shared-rules.md, rule 4).",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-513",
+  "statement": "HUD's disallowance of earned income increases for people with disabilities excludes at least 50 percent of the increase in the second year, applies after 2023 only to families already receiving it on December 31, 2023, and lapses on January 1, 2026.",
+  "claim": "data",
+  "figures": [
+   "50 percent",
+   "2023",
+   "2026"
+  ],
+  "source": "SRC-3896",
+  "anchor": [
+   "the responsible entity must exclude from annual income of a qualified family at least 50 percent of any increase in income of such family member as a result of employment over the family member's baseline income",
+   "(e) Limitation. This section applies to a family that is receiving the disallowance of earned income under this section on December 31, 2023",
+   "(f) Sunset. This section will lapse on January 1, 2026."
+  ],
+  "grade": "A",
+  "fact_date": "2026-01",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "24 CFR 5.617 (eCFR, November 2026); applies to HOME, HOPWA, Supportive Housing and the voucher program only. The HOTMA rule (2023) ended the general earned income disregard for new families; whether public housing has an analogue (24 CFR 960.255) is not saved here.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-514",
+  "statement": "For 2026 the applicable percentage of household income a premium tax credit household is expected to pay toward the benchmark plan runs from 2.10% (income below 133% of poverty) up to 9.96% (300% to 400% of poverty).",
+  "claim": "data",
+  "figures": [
+   "2.10%",
+   "133%",
+   "9.96%",
+   "300%",
+   "400%"
+  ],
+  "source": "SRC-3880",
+  "anchor": [
+   "Less than 133%\nAt least 133% but less than 150%\nAt least 150% but less than 200%\nAt least 200% but less than 250%\nAt least 250% but less than 300%\nAt least 300% but not more than 400%\n\nInitial percentage\n\nFinal percentage\n\n2.10%\n3.14%\n4.19%\n6.60%\n8.44%\n9.96%\n\n2.10%\n4.19%\n6.60%\n8.44%\n9.96%\n9.96%"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2026-12-31",
+  "context": "IRS Rev. Proc. 2025-25, second Trump administration; the table is indexed for 2026 after the enhanced credits expired. The 2026 poverty line used for the credit is the one published in early 2025 (see KFF, EV-SEC-516). The table replaces the enhanced schedule of 0% to 8.5%.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-515",
+  "statement": "The premium tax credit statute limits the credit to households with income of at least 100 percent but not more than 400 percent of the poverty line; the waiver of the 400 percent cap applied only to taxable years after December 31, 2020 and before January 1, 2026.",
+  "claim": "data",
+  "figures": [
+   "100 percent",
+   "400 percent",
+   "2020",
+   "2026"
+  ],
+  "source": "SRC-3882",
+  "anchor": [
+   "a taxpayer whose household income for the taxable year equals or exceeds 100 percent but does not exceed 400 percent of an amount equal to the poverty line for a family of the size involved",
+   "In the case of a taxable year beginning after December 31, 2020, and before January 1, 2026, subparagraph (A) shall be applied without regard to \"but does not exceed 400 percent\"."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "2024 edition of the Code. With the waiver ended and no extension enacted by November 2026 (EV-SEC-516), the 400 percent cliff applies for 2026.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-516",
+  "statement": "The enhanced premium tax credits expired as of January 1, 2026, and people with incomes above 400% of poverty are now completely ineligible for any tax credits with the reinstatement of the subsidy cliff.",
+  "claim": "data",
+  "figures": [
+   "1",
+   "400%"
+  ],
+  "source": "SRC-3933",
+  "anchor": [
+   "the enhanced premium tax credits expired as of January 1",
+   "incomes above 400% FPL",
+   "who are now completely ineligible for any tax credits with the reinstatement of the “ subsidy cliff.”"
+  ],
+  "locator": "opening paragraph and State-Specific Subsidies section",
+  "grade": "C",
+  "fact_date": "2026-01",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "KFF (nonpartisan health policy foundation), January 9, 2026; reports a fact of law, so labelled data. The statute is EV-SEC-515. KFF also reports state backfills (Maryland, California, New Mexico, Colorado, Washington) that soften the cliff in some states only.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-517",
+  "statement": "The 2025 reconciliation law's section 71305 eliminates the cap on repayment of excess advance premium tax credits (section 36B(f)(2)(B)) for taxable years beginning after December 31, 2025.",
+  "claim": "data",
+  "figures": [
+   "71305",
+   "2025"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 71305. ELIMINATING LIMITATION ON RECAPTURE OF ADVANCE PAYMENT\nOF PREMIUM TAX CREDIT.\n(a) In General.--Section 36B(f)(2) is amended by striking\nsubparagraph (B).",
+   "Effective Date.--The amendments made\nby this section shall apply to taxable years beginning after December\n31, 2024.\nSEC. 70103. TERMINATION OF DEDUCTION FOR PERSONAL EXEMPTIONS OTHER\nTHAN TEMPORARY SENIOR DEDUCTION.\n(a) In General.--Section 151(d)(5) is amended--.\n(1) by striking ``2018 through 2025'' in the heading and\ninserting ``beginning after 2017'',\n(2) by striking ``, and before January 1, 2026'', and\n(3) by adding at the end the following new subparagraph:\n``(C) <<NOTE: Definitions.>> Deduction for\nseniors.--\n``(i) <<NOTE: Effective date.>> In general.--\nIn the case of a taxable year beginning before\nJanuary 1, 2029, there shall be allowed a\ndeduction in an amount equal to $6,000 for each\nqualified individual with respect to the taxpayer.\n``(ii) Qualified individual.--For purposes of\nclause (i), the term `qualified individual'\nmeans--\n``(I) the taxpayer, if the taxpayer\nhas attained age 65 before the close of\nthe taxable year, and\n``(II) in the case of a joint\nreturn, the taxpayer's spouse, if such\nspouse has attained age 65 before the\nclose of the taxable year.\n``(iii) Limitation based on modified adjusted\ngross income.--\n``(I) In general.--In the case of\nany taxpayer for any taxable year, the\n$6,000 amount in clause (i) shall be\nreduced (but not below zero) by 6\npercent of so much of the taxpayer's\nmodified adjusted gross income as\nexceeds $75,000 ($150,000 in the case of\na joint return).\n``(II) Modified adjusted gross\nincome.--For purposes of this clause,\nthe term `modified adjusted gross\nincome' means the adjusted gross income\nof the taxpayer for the taxable year\nincreased by any amount excluded from\ngross income under section 911, 931, or\n933.\n``(iv) Social security number required.--\n``(I) In general.--Clause (i) shall\nnot apply with respect to a qualified\nindividual unless the taxpayer includes\nsuch qualified individual's social\nsecurity number on the return of tax for\nthe taxable year.\n``(II) Social security number.--For\npurposes of subclause (I), the term\n`social security number' has the meaning\ngiven such term in section 24(h)(7).\n``(v) <<NOTE: Applicability.>> Married\nindividuals.--If the taxpayer is a married\nindividual (within the meaning of section\n[[Page 139 STAT. 160]]\n7703), this subparagraph shall apply only if the\ntaxpayer and the taxpayer's spouse file a joint\nreturn for the taxable year.''.\n(b) Omission of Correct Social Security Number Treated as\nMathematical or Clerical Error.--Section 6213(g)(2) is amended by\nstriking ``and'' at the end of subparagraph (U), by striking the period\nat the end of subparagraph (V) and inserting ``, and'', and by inserting\nafter subparagraph (V) the following new subparagraph:\n``(W) an omission of a correct social security\nnumber required under section 151(d)(5)(C) (relating to\ndeduction for seniors).''.\n(c) <<NOTE: 26 USC 151 note.>> Effective Date.--The amendments made\nby this section shall apply to taxable years beginning after December\n31, 2024.\nSEC. 70104. EXTENSION AND ENHANCEMENT OF INCREASED CHILD TAX\nCREDIT.\n(a) Extension and Increase of Expanded Child Tax Credit.--Section\n24(h) is amended--\n(1) in paragraph (1), by striking ``, and before January 1,\n2026'',\n(2) in paragraph (2), by striking ``$2,000'' and inserting\n``$2,200'', and\n(3) by striking ``2018 Through 2025'' in the heading and\ninserting ``Beginning After 2017''.\n(b) Social Security Number Required.--Section 24(h)(7) is amended to\nread as follows:\n``(7) Social security number required.--\n``(A) In general.--No credit shall be allowed under\nthis section to a taxpayer with respect to any\nqualifying child unless the taxpayer includes on the\nreturn of tax for the taxable year--\n``(i) the taxpayer's social security number\n(or, in the case of a joint return, the social\nsecurity number of at least 1 spouse), and\n``(ii) the social security number of such\nqualifying child.\n``(B) <<NOTE: Definition.>> Social security\nnumber.--For purposes of this paragraph, the term\n`social security number' means a social security number\nissued to an individual by the Social Security\nAdministration, but only if the social security number\nis issued--\n``(i) to a citizen of the United States or\npursuant to subclause (I) (or that portion of\nsubclause (III) that relates to subclause (I)) of\nsection 205(c)(2)(B)(i) of the Social Security\nAct, and\n``(ii) before the due date for such return.''.\n(c) Inflation Adjustments.--Section 24(i) is amended to read as\nfollows:\n``(i) <<NOTE: Effective dates.>> Inflation Adjustments.--\n``(1) Maximum amount of refundable credit.--In the case of a\ntaxable year beginning after 2024, the $1,400 amount in\nsubsection (h)(5) shall be increased by an amount equal to--\n``(A) such dollar amount, multiplied by\n``(B) the cost-of-living adjustment determined under\nsection 1(f)(3) for the calendar year in which the\ntaxable\n[[Page 139 STAT. 161]]\nyear begins, determined by substituting `2017' for\n`2016' in subparagraph (A)(ii) thereof.\n``(2) Special rule for adjustment of credit amount.--In the\ncase of a taxable year beginning after 2025, the $2,200 amount\nin subsection (h)(2) shall be increased by an amount equal to--\n``(A) such dollar amount, multiplied by\n``(B) the cost-of-living adjustment determined under\nsection 1(f)(3) for the calendar year in which the\ntaxable year begins, determined by substituting `2024'\nfor `2016' in subparagraph (A)(ii) thereof.\n``(3) Rounding.--If any increase under this subsection is\nnot a multiple of $100, such increase shall be rounded to the\nnext lowest multiple of $100.''.\n(d) Conforming Amendment.--Section 24(h)(5) is amended to read as\nfollows:\n``(5) <<NOTE: Applicability.>> Maximum amount of refundable\ncredit.--The amount determined under subsection (d)(1)(A) with\nrespect to any qualifying child shall not exceed $1,400, and\nsuch subsection shall be applied without regard to paragraph (4)\nof this subsection.''.\n(e) Omission of Correct Social Security Number Treated as\nMathematical or Clerical Error.--Section 6213(g)(2)(I) is amended by\nstriking ``section 24(e)'' and inserting ``section 24''.\n(f) <<NOTE: 26 USC 24 note.>> Effective Date.--The amendments made\nby this section shall apply to taxable years beginning after December\n31, 2024.\nSEC. 70105. EXTENSION AND ENHANCEMENT OF DEDUCTION FOR QUALIFIED\nBUSINESS INCOME.\n(a) Increase in Taxable Income Limitation Phase-in Amounts.--\n(1) In general.--Subparagraph (B) of section 199A(b)(3) is\namended by striking ``$50,000 ($100,000 in the case of a joint\nreturn)'' each place it appears and inserting ``$75,000\n($150,000 in the case of a joint return)''.\n(2) Conforming amendment.--Paragraph (3) of section 199A(d)\nis amended by striking ``$50,000 ($100,000 in the case of a\njoint return)'' each place it appears and inserting ``$75,000\n($150,000 in the case of a joint return)''.\n(b) Minimum Deduction for Active Qualified Business Income.--\n(1) In general.--Subsection (i) of section 199A is amended\nto read as follows:\n``(i) Minimum Deduction for Active Qualified Business Income.--\n``(1) In general.--In the case of an applicable taxpayer for\nany taxable year, the deduction allowed under subsection (a) for\nthe taxable year shall be equal to the greater of--\n``(A) the amount of such deduction determined\nwithout regard to this subsection, or\n``(B) $400.\n``(2) <<NOTE: Definitions.>> Applicable taxpayer.--For\npurposes of this subsection--\n``(A) In general.--The term `applicable taxpayer'\nmeans, with respect to any taxable year, a taxpayer\nwhose aggregate qualified business income with respect\nto all\n[[Page 139 STAT. 162]]\nactive qualified trades or businesses of the taxpayer\nfor such taxable year is at least $1,000.\n``(B) Active qualified trade or business.--The term\n`active qualified trade or business' means, with respect\nto any taxpayer for any taxable year, any qualified\ntrade or business of the taxpayer in which the taxpayer\nmaterially participates (within the meaning of section\n469(h)).\n``(3) <<NOTE: Effective date.>> Inflation adjustment.--In\nthe case of any taxable year beginning after 2026, the $400\namount in paragraph (1)(B) and the $1,000 amount in paragraph\n(2)(A) shall each be increased by an amount equal to --\n``(A) such dollar amount, multiplied by\n``(B) the cost-of-living adjustment determined under\nsection 1(f)(3) for the calendar year in which the\ntaxable year begins, determined by substituting\n`calendar year 2025' for `calendar year 2016' in\nsubparagraph (A)(ii) thereof.\nIf any increase under this paragraph is not a multiple of $5,\nsuch increase shall be rounded to the nearest multiple of $5.''.\n(2) Conforming amendment.--Section 199A(a) is amended by\ninserting ``except as provided in subsection (i),'' before\n``there''.\n(c) <<NOTE: 26 USC 199A note.>> Effective Date.--The amendments made\nby this section shall apply to taxable years beginning after December\n31, 2025."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "P.L. 119-21 (July 4, 2025). Before 2026, section 36B(f)(2)(B) limited the repayment for households under 400 percent of poverty (2024 edition text in EV-SEC-515's source). With the cap gone, a raise that lifts a household's income above its estimate can mean repaying the whole excess credit at tax time: a timing risk on top of the 400 percent cliff.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-518",
+  "statement": "For the premium tax credit, modified adjusted gross income is adjusted gross income increased by income excluded under section 911, tax-exempt interest, and the part of Social Security benefits not included in gross income.",
+  "claim": "data",
+  "figures": [
+   "911",
+   "86"
+  ],
+  "source": "SRC-3882",
+  "anchor": [
+   "The term \"modified adjusted gross income\" means adjusted gross income increased by—\n(i) any amount excluded from gross income under section 911,\n(ii) any amount of interest received or accrued by the taxpayer during the taxable year which is exempt from tax, and\n(iii) an amount equal to the portion of the taxpayer's social security benefits (as defined in section 86(d)) which is not included in gross income under section 86 for the taxable year."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "26 U.S.C. 36B(d)(2)(B), 2024 edition. Medicaid's MAGI test borrows this definition (EV-SEC-520); CRS notes that MAGI has other definitions for other purposes (EV-SEC-535).",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-519",
+  "statement": "Medicaid's adult group covers people age 19 or older and under age 65 whose household income is at or below 133 percent of the federal poverty level.",
+  "claim": "data",
+  "figures": [
+   "133 percent"
+  ],
+  "source": "SRC-3900",
+  "anchor": [
+   "§ 435.119 Coverage for individuals age 19 or older and under age 65 at or below 133 percent FPL.",
+   "(5) Have household income that is at or below 133 percent FPL for the applicable family size."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "42 CFR 435.119. The 5 percentage point disregard in EV-SEC-520 makes the effective line 138 percent of poverty (arithmetic). Coverage depends on the state having expanded Medicaid; the 2025 law's Medicaid changes are EV-CAR-001 to 050.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-520",
+  "statement": "Medicaid's MAGI-based income uses the financial methodologies of section 36B(d)(2)(B) of the tax code (the premium tax credit's definition), and since January 1, 2014 a state subtracts 5 percentage points of poverty for the eligibility group with the highest income standard.",
+  "claim": "data",
+  "figures": [
+   "36",
+   "2",
+   "2014",
+   "5"
+  ],
+  "source": "SRC-3901",
+  "anchor": [
+   "(4) Effective January 1, 2014, in determining the eligibility of an individual using MAGI-based income, a state must subtract an amount equivalent to 5 percentage points of the Federal poverty level for the applicable family size only to determine the eligibility of an individual for medical assistance under the eligibility group with the highest income standard using MAGI-based methodologies",
+   "MAGI-based income means income calculated using the same financial methodologies used to determine modified adjusted gross income as defined in section 36B(d)(2)(B) of the Code"
+  ],
+  "grade": "A",
+  "fact_date": "2014",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "42 CFR 435.603 (eCFR, November 2026).",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-521",
+  "statement": "CHIP covers targeted low-income children whose family income exceeds the Medicaid level but not 50 percentage points above it, and the statute defines a \"low-income child\" as one with family income at or below 200 percent of the poverty line.",
+  "claim": "data",
+  "figures": [
+   "50 percentage points",
+   "200 percent"
+  ],
+  "source": "SRC-3892",
+  "anchor": [
+   "whose family income (as determined under the State child health plan) exceeds the medicaid applicable income level (as defined in paragraph (4)), but does not exceed 50 percentage points above the medicaid applicable income level",
+   "The term \"low-income child\" means a child whose family income is at or below 200 percent of the poverty line for a family of the size involved."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "2024 edition of the Code. States set their own CHIP lines within this frame; CBO's Pennsylvania example had CHIP up to 314 percent of poverty (EV-SEC-538). A table of state CHIP lines (CMS eligibility levels page) is not saved: medicaid.gov blocks agent downloads (evidence still needed).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-522",
+  "statement": "SSI excludes the first $65 of earned income in a month and then one-half of the remaining earned income when counting income, (after the $20 general exclusion).",
+  "claim": "data",
+  "figures": [
+   "$65",
+   "$20"
+  ],
+  "source": "SRC-3897",
+  "anchor": [
+   "(5) $65 of earned income in a month;",
+   "(7) One-half of remaining earned income in a month;",
+   "(4) Any portion of the $20 monthly exclusion in § 416.1124(c)(10) which has not been excluded from your unearned income in that same month;"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "20 CFR 416.1112 (eCFR). The \"$1 for each $2\" is the arithmetic of \"one-half of remaining earned income\" (and it assumes no other exclusions apply); 42 U.S.C. 1382a(b) is the statute. Cross-reference in the regulation to the $20 exclusion is to paragraph (c)(10) as printed; the unearned-income text numbers it (c)(12).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-523",
+  "statement": "SSI excludes the first $20 of most unearned income in a month (not in-kind support and maintenance or income based on need); above that, countable unearned income reduces the benefit.",
+  "claim": "data",
+  "figures": [
+   "$20"
+  ],
+  "source": "SRC-3898",
+  "anchor": [
+   "The first $20 of any unearned income in a month other than income in the form of in-kind support and maintenance received in the household of another (see § 416.1131) and income based on need."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "20 CFR 416.1124(c)(12). Dollar-for-dollar reduction above the exclusion is stated in SSA's payment page (EV-SEC-524).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-524",
+  "statement": "The maximum federal SSI payment for 2027 is $1,029 a month for an eligible individual and $1,544 for an eligible individual with an eligible spouse, and the monthly amount is reduced by subtracting monthly countable income.",
+  "claim": "data",
+  "figures": [
+   "2027",
+   "$1,029",
+   "$1,544"
+  ],
+  "source": "SRC-3917",
+  "anchor": [
+   "SSI amounts for 2027 The monthly maximum Federal amounts for 2027 are $1,029 for an eligible individual, $1,544 for an eligible individual with an eligible spouse, and $516 for an essential person.",
+   "The monthly amount is reduced by subtracting monthly countable income."
+  ],
+  "locator": "SSI amounts for 2027; Payment reduction",
+  "grade": "A",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-15",
+  "context": "SSA Office of the Chief Actuary, second Trump administration; the 2027 amount follows a 3.6 percent cost-of-living adjustment announced in October 2026. The 2026 individual amount is the page's unrounded $11,929.46 a year, or $994 a month (arithmetic; not quoted). SSI is federal; many states add a supplement.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-525",
+  "statement": "Substantial gainful activity is $1,690 a month for non-blind and $2,830 for blind beneficiaries in 2026, rising to $1,770 and $2,950 in 2027; a person earning more than the amount is ordinarily considered to be engaging in it.",
+  "claim": "data",
+  "figures": [
+   "$1,690",
+   "$2,830",
+   "$1,770",
+   "$2,950",
+   "2026",
+   "2027"
+  ],
+  "source": "SRC-3916",
+  "anchor": [
+   "A person who is earning more than a certain monthly amount (net of impairment-related work expenses) is ordinarily considered to be engaging in SGA.",
+   "2025 2,700 1,620 2026 2,830 1,690 2027 2,950 1,770"
+  ],
+  "locator": "Amounts and historical series table",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-15",
+  "context": "SSA Office of the Chief Actuary, second Trump administration. The SGA amount is the SSDI earnings cliff: beneficiaries earning above it (after a trial work period) lose cash benefits (EV-SEC-545).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-526",
+  "statement": "LIHEAP state programs may serve households with incomes up to the greater of 150 percent of the state's poverty level or 60 percent of state median income.",
+  "claim": "data",
+  "figures": [
+   "150 percent",
+   "60 percent"
+  ],
+  "source": "SRC-3886",
+  "anchor": [
+   "(B) households with incomes which do not exceed the greater of—\n(i) an amount equal to 150 percent of the poverty level for such State; or\n(ii) an amount equal to 60 percent of the State median income;"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "2024 edition of the Code. LIHEAP is a block grant, so each state sets its own line within this ceiling, and many give flat grants rather than a phase-out. LIHEAP receipt also fed SNAP's utility allowance until the 2025 law limited that (EV-SEC-508).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-527",
+  "statement": "Federal law sets school lunch income guidelines at 130 percent of the poverty guideline for free lunches and 185 percent for reduced-price lunches.",
+  "claim": "data",
+  "figures": [
+   "130 percent",
+   "185 percent"
+  ],
+  "source": "SRC-3893",
+  "anchor": [
+   "The income guidelines for determining eligibility for free lunches shall be 130 percent of the applicable family size income levels",
+   "The income guidelines for determining eligibility for reduced price lunches for any school year shall be 185 percent of the applicable family size income levels"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "2024 edition of the Code. Households on SNAP or TANF are directly certified without a separate income test, which is a coordination example. School meals are a cliff (free to reduced to full price), not a phase-out.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-528",
+  "statement": "WIC state agencies may set income guidelines equal to the reduced-price school meal guidelines or identical to state or local free or reduced-price health care guidelines.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3903",
+  "anchor": [
+   "The State agency may prescribe income guidelines either equaling the income guidelines established under section 9 of the National School Lunch Act for reduced-price school meals or identical to State or local guidelines for free or reduced-price health care."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "7 CFR 246.7(d)(1). The reduced-price school meal line is 185 percent of poverty (EV-SEC-527), so WIC's usual line is 185 percent. WIC participants are adjunctively income-eligible through SNAP, TANF or Medicaid.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-529",
+  "statement": "Each state's Child Care and Development Block Grant plan must provide continued assistance after a family's income exceeds the state's initial limit, if family income does not exceed 85 percent of state median income, and must keep a child eligible for not less than 12 months before redetermination.",
+  "claim": "data",
+  "figures": [
+   "85 percent",
+   "12 months"
+  ],
+  "source": "SRC-3889",
+  "anchor": [
+   "The plan shall describe the policies and procedures that are in place to allow for provision of continued assistance to carry out this subchapter, at the beginning of a new eligibility period under clause (i)(I), for children of parents who are working or attending a job training or educational program and whose family income exceeds the State's income limit to initially qualify for such assistance, if the family income for the family involved does not exceed 85 percent of the State median income for a family of the same size.",
+   "for not less than 12 months before the State or designated local entity redetermines the eligibility of the child"
+  ],
+  "grade": "A",
+  "fact_date": "2014-11",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The 2014 reauthorization of the CCDBG (Obama administration; bipartisan). The \"graduated phaseout\" requirement is a continued-assistance rule; it does not require any particular copayment slope. HHS's May 2026 final rule rescinded the 7 percent copayment cap (EV-CAR-510).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-530",
+  "statement": "CCDF eligibility requires a child to live with a family whose income does not exceed 85 percent of state median income, based on the most recent Census Bureau data, for a family of the same size.",
+  "claim": "data",
+  "figures": [
+   "85 percent"
+  ],
+  "source": "SRC-3902",
+  "anchor": [
+   "(2)(i) Reside with a family whose income does not exceed 85 percent of the State's median income (SMI), which must be based on the most recent SMI data that is published by the Bureau of the Census, for a family of the same size; and"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "45 CFR 98.20(a)(2)(i) (eCFR, November 2026). The 85 percent is a federal ceiling; states set lower entry lines and most serve only a fraction of eligible families (EV-SEC-563 for Colorado).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-531",
+  "statement": "There are no federal rules on the amount of TANF cash benefits; states alone determine them, and a family with other income often receives a reduced benefit.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3912",
+  "anchor": [
+   "There are no federal rules that help determine the amount of TANF cash benefits paid to a family.",
+   "Benefit amounts are determined solely by the states.",
+   "Families with income other than TANF often are paid a reduced benefit."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRS (nonpartisan), 2024 edition of the TANF FAQ report. Benefit data in the report are from July 2022 (a family of two received from $915 a month in New Hampshire to $162 in Arkansas). TANF phase-out rules (earned income disregards) vary by state; the Urban Institute's Welfare Rules Database is the state-by-state source (not saved; evidence still needed).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-532",
+  "statement": "The 2026 federal poverty guideline for the 48 contiguous states and the District of Columbia is $15,960 for one person, $27,320 for three and $33,000 for four.",
+  "claim": "data",
+  "figures": [
+   "$15,960",
+   "$27,320",
+   "$33,000",
+   "2026"
+  ],
+  "source": "SRC-3906",
+  "anchor": [
+   "2026 POVERTY GUIDELINES FOR THE 48 CONTIGUOUS STATES AND THE DISTRICT OF COLUMBIA\nPersons in family/household Poverty guideline\n1 $15,960\n2 $21,640\n3 $27,320\n4 $33,000\n5 $38,680\n6 $44,360\n7 $50,040\n8 $55,720"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "HHS ASPE, second Trump administration. The 2026 guidelines compare 11 months of 2025 CPI-U with 2024 because of the October 2025 shutdown (ASPE note). Premium tax credits for 2026 use the guidelines published in early 2025, not these (KFF reports $62,600 as the 2026 single-person 400 percent line, which is 400 percent of $15,650).",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-533",
+  "statement": "ASPE lists SNAP, the National School Lunch Program, LIHEAP, Head Start and the Children's Health Insurance Program among programs using the poverty guidelines or multiples of them (for instance 125 or 185 percent), and says TANF, SSI and the earned income credit do not use them.",
+  "claim": "data",
+  "figures": [
+   "125 percent",
+   "185 percent"
+  ],
+  "source": "SRC-3906",
+  "anchor": [
+   "Programs using the guidelines (or percentage multiples of the guidelines — for instance, 125 percent or 185 percent of the guidelines) in determining eligibility include Head Start, the Supplemental Nutrition Assistance Program (SNAP), the National School Lunch Program, the Low-Income Home Energy Assistance Program, and the Children’s Health Insurance Program.",
+   "Note that in general, cash public assistance programs (Temporary Assistance for Needy Families and Supplemental Security Income) do NOT use the poverty guidelines in determining eligibility. The Earned Income Tax Credit program also does NOT use the poverty guidelines to determine eligibility."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "HHS ASPE, second Trump administration, plain description. Housing uses area median income (EV-SEC-512), CCDF state median income (EV-SEC-530), the tax credits tax filing units.",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-534",
+  "statement": "Under the tax code's refund-disregard rule any refund, or advance payment of a refundable credit, made to an individual under the tax code is not income, and not a resource for 12 months, in determining eligibility or benefit amounts under any federal program or any state or local program financed in whole or in part with federal funds.",
+  "claim": "data",
+  "figures": [
+   "12 months"
+  ],
+  "source": "SRC-3883",
+  "anchor": [
+   "Notwithstanding any other provision of law, any refund (or advance payment with respect to a refundable credit) made to any individual under this title shall not be taken into account as income, and shall not be taken into account as resources for a period of 12 months from receipt, for purposes of determining the eligibility of such individual (or any other individual) for benefits or assistance (or the amount or extent of benefits or assistance) under any Federal program or under any State or local program financed in whole or in part with Federal funds."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The statute (2024 edition). It is why a refundable child benefit paid through the tax system does not raise rent or reduce SNAP (dossiers/shared-rules.md, rule 1). A benefit paid outside the tax code has no such protection unless its own statute says so.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-535",
+  "statement": "CRS states that there is no uniform definition of modified adjusted gross income; the term has different definitions depending on the purpose for which it is being calculated.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3910",
+  "anchor": [
+   "There is no uniform definition of MAGI; rather, the term has different definitions depending on the purpose for which it is being calculated."
+  ],
+  "grade": "C",
+  "fact_date": "2016",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRS (nonpartisan), R43861 (2016). Older report; the tax-code definitions it compares have been amended since (for example for the senior deduction, EV-SEC-505, which defines its own MAGI).",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-536",
+  "statement": "CRS reported that Supplemental Security Income and Veterans Affairs benefits use income definitions which include most sources of income, taxable and nontaxable, while Medicaid and the premium credit use a tax-based MAGI definition.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3909",
+  "anchor": [
+   "which include most sources of income, taxable and nontaxable, when determining eligibility.",
+   "most other low-income programs include other types of income (e.g., nontaxable pensions) and asset holdings that are also exc"
+  ],
+  "locator": "Definitions of Income Used in Selected Low-Income Programs",
+  "grade": "C",
+  "fact_date": "2013",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRS (nonpartisan), R41997 (2011-2013 versions). Only a 2011-2013 CRS comparison table was found; no current CRS or GAO report comparing income definitions across federal programs was found (evidence still needed). Its second quotation is cut off at the saved text's own line wrap.",
+  "supports": [
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-537",
+  "statement": "CBO estimated that in 2016, counting federal payroll taxes, state income taxes and the phase-out of SNAP and cost-sharing subsidies, only 16 percent of low- and moderate-income taxpayers would face a marginal tax rate between 10 and 19 percent and 78 percent a higher rate, against 48 percent and 23 percent under the federal income tax alone; more than half would face 20 to 39 percent.",
+  "claim": "analysis",
+  "figures": [
+   "2016",
+   "16 percent",
+   "78 percent",
+   "48 percent",
+   "23 percent",
+   "20 percent",
+   "39 percent"
+  ],
+  "source": "SRC-1569",
+  "anchor": [
+   "CBO estimates that in 2016, about 48 percent of low- and moderate-income taxpayers under age 65 with earnings will face a marginal tax rate between 10 percent and 19 percent under the federal income tax system, and 23 percent will face a higher rate",
+   "Only 16 percent of taxpayers will face marginal tax rates between 10 percent and 19 percent, and 78 percent will face higher rates.",
+   "More than half will face marginal tax rates between 20 percent and 39 percent."
+  ],
+  "locator": "Overall Distribution, p. 4",
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-11-12",
+  "recheck": "2027-12-31",
+  "context": "CBO (nonpartisan), November 2015; tax-return simulation of workers under 450 percent of poverty. It includes SNAP and the ACA cost-sharing subsidies but not housing assistance or TANF, so it understates the stack for assisted families. It does not report the share above 50 or 60 percent in the text read; the distribution above 50 percent, and the CBO 2012 report (pub. 43709), are evidence still needed.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-540",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-542",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-541",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-538",
+  "statement": "CBO's hypothetical single parent with one child in Pennsylvania faced marginal tax rates averaging 75 percent over a narrow range of income (115 to 126 percent of poverty), from the combined phase-out of the earned income credit and SNAP, the 10 percent income tax bracket and the 15.3 percent payroll tax.",
+  "claim": "analysis",
+  "figures": [
+   "75 percent",
+   "115 percent",
+   "126 percent",
+   "10 percent",
+   "15.3 percent"
+  ],
+  "source": "SRC-1569",
+  "anchor": [
+   "The combination of the phaseout of the EITC and SNAP benefits, the 10 percent federal income tax bracket, and the 15.3 percent federal payroll tax causes a sharp increase in marginal tax rates, which average 75 percent over a narrow range of income (from 115 percent to 126 percent of the FPL)."
+  ],
+  "locator": "Hypothetical example, p. 3",
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-11-12",
+  "recheck": "2027-12-31",
+  "context": "CBO (nonpartisan), November 2015; a stylized family receiving TANF, SNAP, Medicaid/CHIP and cost-sharing subsidies, 2016 law (pre-2017 tax law, ACA 400 percent cliff). CBO says it \"is not indicative of the distribution\". Pennsylvania chosen as typical of state income taxes.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-543",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-541",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-539",
+  "statement": "CBO estimated that 62 percent of lower-income families did not receive means-tested transfers in 2013, and of those who did, most participated in only one program.",
+  "claim": "analysis",
+  "figures": [
+   "62 percent",
+   "2013"
+  ],
+  "source": "SRC-1569",
+  "anchor": [
+   "An estimated 62 percent of lower-income families did not receive those means-tested transfers in 2013, either because they did not meet additional nonfinancial requirements or because they were eligible but did not apply for benefits. Of those who received transfers, most participated in only one program."
+  ],
+  "locator": "p. 4",
+  "grade": "C",
+  "fact_date": "2013",
+  "checked": "2026-11-12",
+  "recheck": "2027-12-31",
+  "context": "CBO (nonpartisan), November 2015, from the 2014 CPS ASEC; transfers were TANF, SNAP, Medicaid, CHIP and cost-sharing subsidies. This is why CBO's average (31 percent, EV-HOU-401) is far below the stacked examples.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-540",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-540",
+  "statement": "HHS ASPE simulated that among households with children just above poverty the median marginal tax rate after a $2,000 earnings increase is 51 percent, never below 42 percent up to 200 percent of poverty, and that about three million households with children below 200 percent of poverty receiving SNAP, the earned income credit, the child tax credit and Medicaid/CHIP have a median rate of 42 percent.",
+  "claim": "analysis",
+  "figures": [
+   "$2,000",
+   "51 percent",
+   "42 percent",
+   "200 percent"
+  ],
+  "source": "SRC-3913",
+  "anchor": [
+   "Among households with children, when earnings increase by $2,000 (see Figure\n1, dark red line), median marginal tax rates rise precipitously from negative 22\npercent 1 (when family income is 24 percent of poverty or less) to 51 percent\n(when family income is just above poverty).",
+   "rates remain high (never dipping below 42\npercent) as incomes approach 200 percent of poverty.",
+   "Among households with children below 200 percent of poverty, the most\ncommon combination of benefits is SNAP + EITC + Child Tax Credits (CTC)\n+ Medicaid/Children’s Health Insurance Program (CHIP), and these three\nmillion households experience a median marginal tax rate of 42 percent."
+  ],
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2027-12-31",
+  "context": "HHS ASPE (Chien and Macartney), March 2019, first Trump administration; TRIM3 microsimulation on the 2015 CPS ASEC; a $2,000 earnings increase from federal and state taxes and transfers. Agency analysis, treated with the usual skepticism; the series page defines a cliff as a benefit reduction equal to or larger than the earnings increase.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-537",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-542",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-541",
+  "statement": "Maag, Steuerle, Chakravarti and Quakenbush found that a single parent with two children whose wages rise from the poverty level to 150 percent of poverty can face a marginal tax rate between 26.6 percent and over 100 percent depending on the state, and that the rate varies sharply with earnings pattern and program participation.",
+  "claim": "analysis",
+  "figures": [
+   "150 percent",
+   "26.6 percent",
+   "100 percent"
+  ],
+  "source": "SRC-3920",
+  "anchor": [
+   "A single parent with two children who increases her wages from poverty-level to 150 percent of poverty-level can face a tax rate between 26.6 percent and over 100 percent, depending on which state she lives in.",
+   "This paper shows how sensitive marginal tax rates are to assumptions about state of residence, earning patterns, and program participation."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2012",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "Urban Institute and Tax Policy Center researchers; peer reviewed (National Tax Journal 65(4), December 2012); a simulation of a family across states under 2012 law. Authors warn the rates may overstate what families face because they assume income is earned evenly through the year.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-537",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-540",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-542",
+  "statement": "Using the 2019 Survey of Consumer Finances and a life-cycle model, Altig and co-authors found that over half of working-age Americans face lifetime marginal net tax rates above 40 percent, one in four households in the bottom lifetime resource quintile above 50 percent, and one in ten above 70 percent.",
+  "claim": "analysis",
+  "figures": [
+   "2019",
+   "40 percent",
+   "50 percent",
+   "70 percent"
+  ],
+  "source": "SRC-3921",
+  "anchor": [
+   "We use TFA in conjunction with the 2019 Survey of Consumer Finances to calculate Americans’ remaining lifetime marginal net tax rates (LMTR).",
+   "Over half of working-age Americans face LMTRs exceeding 40 percent. One in four households in the bottom lifetime resource quintile face LMTRs above 50 percent. One in ten face rates above 70 percent"
+  ],
+  "locator": "abstract",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "NBER working paper 27164 (2020, revised 2023); not peer reviewed. Funded by the Sloan Foundation, the Federal Reserve Bank of Atlanta and the Goodman Institute; Kotlikoff owns the firm whose engine is used (disclosed). Model-based, includes lifetime effects (benefits and taxes over the life cycle), so not directly comparable with current-year rates.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-537",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-540",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-543",
+  "statement": "In the Atlanta Fed's illustration of a hypothetical single mother with two children in Clarke County, Georgia, moving from concessions worker to certified nursing assistant lowers net resources by more than $11,000 over three years, and from nursing assistant to licensed practical nurse by more than $35,000, which the page attributes to reduced work hours while in school and benefits cliffs; over a lifetime both moves pay.",
+  "claim": "analysis",
+  "figures": [
+   "$11,000",
+   "$35,000"
+  ],
+  "source": "SRC-3922",
+  "anchor": [
+   "The chart above demonstrates an example of benefits cliffs for a hypothetical single mother with two children who lives in Clarke County, Georgia.",
+   "Leia's cumulatively experiences a decline of more than $11,000.",
+   "Leia would suffer a loss of net financial resources exceeding $35,000 during the first three years of the transition.",
+   "These declines are the results of reduced work hours while in school and the prevalence of benefits cliffs.",
+   "When resources are calculated over a lifetime, however, both scenarios would deliver a positive return"
+  ],
+  "locator": "What Are Benefits Cliffs?, Leia example",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "Federal Reserve Bank of Atlanta (central-bank research arm; promotes its CLIFF tools), undated web page; a worked example from its Policy Rules Database/CLIFF model, not a measured sample. The page does not break the loss down by program; the Ilin and Sanchez paper on mitigating cliffs was not found (evidence still needed).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-538",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-544",
+  "statement": "PolicyEngine simulated a Texas couple's premium tax credit: at 400% of poverty they are ineligible under the law after the enhanced credits expire, and would gain $2,899 a year had the enhanced credits been extended, which produces an infinite marginal rate at the cliff.",
+  "claim": "analysis",
+  "figures": [
+   "400%",
+   "$2,899"
+  ],
+  "source": "SRC-3934",
+  "anchor": [
+   "the Texas couple would gain $2,899 in annual credits at 400% FPL",
+   "a positive infinite MTR at 400% FPL under current law, where they become ineligible for the PTC"
+  ],
+  "locator": "Texas household; Figure 3 note",
+  "grade": "C",
+  "fact_date": "2025-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "PolicyEngine (nonprofit open-source microsimulation), September 30, 2025, before the enhanced credits expired; archetype households, 2026 values. An \"infinite\" rate is the arithmetic of a cliff (loss of credit over a $1 rise). Not independently validated here.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-515",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-552",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-545",
+  "statement": "Under SSDI rules in 2019, beneficiaries who engaged in substantial gainful activity (earnings of $1,220 a month for most) for more than a year had their entire benefit suspended, creating a \"cash cliff\".",
+  "claim": "data",
+  "figures": [
+   "$1,220"
+  ],
+  "source": "SRC-3918",
+  "anchor": [
+   "Under current SSDI rules, when beneficiaries engage in substantial gainful activity (SGA—defined as earnings of $1,220 per month for most SSDI beneficiaries) for more than a year, SSA suspends their entire benefit payment. This rule creates a “cash cliff” at the SGA threshold"
+  ],
+  "locator": "Introduction",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-15",
+  "context": "Abt Global brief on the SSA-funded BOND trial, 2019; a description of the rule then in force, not a result. The 2026 amount is $1,690 (EV-SEC-525).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-546",
+  "statement": "In BOND, a randomized test run for SSA of a $1-for-$2 benefit offset on SSDI earnings above the annual equivalent of the substantial gainful activity amount, the evaluation found no statistically significant impact on average earnings in either stage, though the offset raised the share of beneficiaries with earnings above that amount by 7 percent in Stage 1 and 23 percent in Stage 2.",
+  "claim": "analysis",
+  "figures": [
+   "$1",
+   "$2",
+   "7 percent",
+   "23 percent",
+   "Stage 1",
+   "Stage 2"
+  ],
+  "source": "SRC-3918",
+  "anchor": [
+   "BOND tested a $1 for $2 benefit offset applied to annual earnings above the BOND Yearly Amount (BYA)",
+   "The evaluation found no statistically significant evidence of an impact of the benefit offset policy on average earnings either in the nationally representative Stage 1 sample or in the Stage 2 sample of volunteers.",
+   "the evaluation finds evidence in both stages that the benefit offset increased the share of beneficiaries with earnings above BYA—by 7 percent in Stage 1 and by 23 percent in Stage 2"
+  ],
+  "locator": "Summary of Key Findings",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "Randomized trial run for SSA by Abt Associates with Mathematica; Stage 1 randomized 968,530 SSDI beneficiaries (2011 to 2015), Stage 2 12,744 volunteers; Abt brief of 2019 on the 2018 final report. The 7 and 23 percent are relative increases over the control mean, not percentage points.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-548",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-547",
+  "statement": "BOND also found the offset raised average SSDI benefits by $143 a year in Stage 1, and that 3.6 percent of the Stage 1 treatment group earned enough to trigger the offset in at least one year, against about 15 percent of the treatment groups in the volunteer sample.",
+  "claim": "analysis",
+  "figures": [
+   "$143",
+   "3.6 percent",
+   "15 percent",
+   "Stage 1"
+  ],
+  "source": "SRC-3918",
+  "anchor": [
+   "In the nationally representative Stage 1 sample, the benefit offset increased average SSDI benefits by $143 per year (or about $12 per month) during the five year period.",
+   "Of the Stage 1 sample, 3.6 percent of the treatment group earned enough to trigger the offset, resulting in a reduction in their benefits, in at least one year during the follow-up period",
+   "About 15 percent of the treatment groups earned enough to trigger partial benefit payments in any year during the follow-up period"
+  ],
+  "locator": "Summary of Key Findings",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "Same trial as EV-SEC-546. Two forces raised benefits: partial benefits to people who already earned above the line, and some of them cutting earnings. Most who triggered the offset would have earned that much anyway.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-548",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-548",
+  "statement": "SSA's BOND page reports that use of the benefit offset was modest, enhanced counseling had the same effect as regular counseling, and a benefit-cost analysis showed the total cost of the offset exceeded its total benefit.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3919",
+  "anchor": [
+   "The use of the benefit offset was modest, and enhanced counseling services had the same effect as regular counseling services. A benefit-cost analysis showed that the total cost of the benefit offset exceeded its total benefit."
+  ],
+  "locator": "Results",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "SSA (second Trump administration, 2026 summary page) of the trial it commissioned. Same trial as the Abt brief, so corroboration of method but from a different publisher; the page's summary is the agency's.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-546",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-549",
+  "statement": "Saez found clear bunching around the first kink of the earned income credit concentrated solely among the self-employed, and no bunching at any other kink of the income tax schedule apart from the first bracket threshold.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3923",
+  "anchor": [
+   "We find clear evidence of bunching around the first kink point of the Earned Income Tax Credit but concentrated solely among the self-employed.",
+   "We find evidence of bunching at the threshold of the first income tax bracket where tax liability starts but no evidence of bunching at any other kink point."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2010",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "Peer reviewed (American Economic Journal: Economic Policy, August 2010); US tax-return data; observational, not experimental. Bunching at a kink is evidence about reported income, which can reflect reporting rather than hours worked.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-550",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-551",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-550",
+  "statement": "Census Bureau researchers found that bunching around the poverty-line notch where premium tax credits start, in states that did not expand Medicaid, occurs only among filers with self-employment income, and found no evidence that wage and salary workers adjust their labor supply in response to the new subsidy.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3915",
+  "anchor": [
+   "bunching occurs only among ﬁlers with self-employment income.",
+   "no evidence that wage and salary workers adjust their labor supply in response to increased availability\nof directly purchased health insurance."
+  ],
+  "grade": "C",
+  "fact_date": "2017",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "Kucko, Rinz and Solow, Census CARRA working paper 2017-07; not peer reviewed; tax records for the universe of returns, 2014 onward. The \"100 percent\" appears in the abstract's description of the notch.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-549",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-551",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-551",
+  "statement": "Using IRS data, Heim and co-authors found bunching of taxpayer incomes below 400% of poverty in 2014 that is only apparent among marketplace purchasers who could get the subsidy, among both self-employed and wage and salary workers, and primarily through increased IRA contributions.",
+  "claim": "analysis",
+  "figures": [
+   "400%",
+   "2014"
+  ],
+  "source": "SRC-3924",
+  "anchor": [
+   "We find a significant amount of bunching below 400% FPL in 2014 that is only apparent among those who purchased insurance from a marketplace",
+   "We see evidence of bunching at the cliff both among the self-employed and among wage and salary workers.",
+   "the bunching appears to primarily have been driven by increases in contributions to IRA accounts"
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "Conference abstract (ASHEcon 2016) by Treasury-affiliated and Indiana University authors; the paper was later published in the Journal of Health Economics (2020), where the authors describe the overall amount of bunching as modest. IRS tax returns 2013 and 2014 (a difference-in-differences against 2013, when no subsidy existed). Shares authors with EV-SEC-552.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-549",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-550",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-552",
+  "statement": "Treasury-affiliated researchers estimated that around 85,000 taxpayers likely to have bought exchange insurance had income between 390% and 410% of poverty; close to 40% of them faced a cliff smaller than $100, though over 30% faced one above $3000.",
+  "claim": "analysis",
+  "figures": [
+   "85,000",
+   "390%",
+   "410%",
+   "40%",
+   "$100",
+   "30%",
+   "$3000"
+  ],
+  "source": "SRC-3925",
+  "anchor": [
+   "We also estimate that around 85,000 taxpayers who were likely to have purchased insurance in an exchange had MAGI between 390% and 410% of FPL.",
+   "Close to 40% of these will face a cliff smaller than $100, though over 30% will face a cliff in excess of $3000."
+  ],
+  "locator": "abstract and Figure 10 text",
+  "grade": "C",
+  "fact_date": "2014",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "National Tax Association proceedings, October 2014; tax data for 2011-2012 matched to exchange premiums, simulating 2014 rules; authors shared with EV-SEC-551. The authors note a larger cliff would exist if premiums rise faster than incomes. Under the 2026 schedule the credit is larger than in 2014 for many (premiums have risen), so cliff sizes are likely bigger now (judgment, not measured).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-544",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-553",
+  "statement": "Moffitt records that the AFDC benefit-reduction rate was 100 percent from 1935 to the 1967 Social Security Amendments, which lowered it to 67 percent, and that the 1981 Omnibus Budget Reconciliation Act raised it back to 100 percent.",
+  "claim": "data",
+  "figures": [
+   "1935",
+   "1967",
+   "100 percent",
+   "67 percent",
+   "1981"
+  ],
+  "source": "SRC-3927",
+  "anchor": [
+   "From 1935, when the Aid to Families with Dependent Children (AFDC) program was enacted, to the 1967 Social Security Amendments, the tax rate in the program was 100 percent-that is, benefits were reduced by one dollar for every extra dollar earned. With the 1967 Amendments, Congress lowered the tax rate to 67 percent",
+   "Welfare reform was finally achieved in 1981 when the Omnibus Budget Reconciliation Act (OBRA) was enacted.",
+   "But OBRA increased the tax rate back to 100 percent, the level prevailing prior to 1967."
+  ],
+  "locator": "opening paragraphs",
+  "grade": "B",
+  "fact_date": "1986",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "Peer-reviewed conference paper (American Economic Review Papers and Proceedings, 1986) by Robert Moffitt. A historical account of the \"30 and a third\" disregard the 1967 amendments created and the 1981 law removed.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-554",
+  "statement": "Moffitt and Wolf found that the 1981 Omnibus Budget Reconciliation Act hit working AFDC recipients hard, raising the implicit tax rate in the program to 78 percent, mainly by eliminating the \"30-and-one-third\" deduction.",
+  "claim": "analysis",
+  "figures": [
+   "1981",
+   "78 percent",
+   "30"
+  ],
+  "source": "SRC-3926",
+  "anchor": [
+   "The 1981 Omnibus Budget Reconciliation Act (OBRA) altered the Aid to Families with Dependent Children (AFDC) program in important ways",
+   "We find that working recipients were very hard hit and that the \"tax rate\" implicit in the program rose to 78 percent.",
+   "the elimination of the \"30-and-one-third\" deduction was most important in raising the tax rate."
+  ],
+  "locator": "abstract",
+  "grade": "B",
+  "fact_date": "1987",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "Peer reviewed (Social Service Review, June 1987); data on AFDC recipients active just before the 1981 law; simulates the effect on the benefit formula, not on observed hours. Shares an author with EV-SEC-553, so not independent corroboration of it. The paper measures the incentive change; the labor-supply effect is Moffitt's econometric estimate in EV-SEC-553's source (not quoted here).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-553",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-555",
+  "statement": "In November 2021 the UK government cut the Universal Credit taper rate from 63% to 55% and raised work allowances by £500 a year.",
+  "claim": "data",
+  "figures": [
+   "63%",
+   "55%",
+   "£500"
+  ],
+  "source": "SRC-3928",
+  "anchor": [
+   "Work allowances, the amount a claimant can earn before their Universal Credit is reduced, will increase by £500 per year from today",
+   "the taper rate, the amount that a person’s Universal Credit is reduced by when their earnings are more than their work allowance, will drop from 63% to 55%."
+  ],
+  "locator": "opening paragraphs",
+  "grade": "A",
+  "fact_date": "2021-11",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-24",
+  "context": "UK Department for Work and Pensions press release, November 24, 2021 (Conservative government). Universal Credit replaced six means-tested benefits (Jobseeker's Allowance, Income Support, Housing Benefit, Employment and Support Allowance, Working Tax Credit, Child Tax Credit) with one payment and one taper. The taper applies to net earnings above a work allowance for households with a child or limited capability for work; others have none.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-556",
+  "statement": "The UK National Audit Office concluded in 2018 that Universal Credit was not value for money then and its future value for money was unproven, and that it doubted the Department could ever measure whether the aim of increasing employment had been achieved.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3929",
+  "anchor": [
+   "cause us to conclude that the project is not value for money now, and that its future value for money is unproven.",
+   "Both we, and the Department, doubt it will ever be possible for the Department to measure whether the economic goal of increasing employment has been achieved."
+  ],
+  "locator": "Report conclusions",
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2028-06-14",
+  "context": "UK National Audit Office (independent public auditor), June 2018; a value-for-money audit of the rollout (delivery, costs, claimant hardship), not of the taper design. The five-week wait for a first payment and the effect of the 63 to 55 percent cut on work are not covered here (an IFS or Resolution Foundation analysis is evidence still needed).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-555",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-557",
+  "statement": "For the Canada Child Benefit payments of July 2026 onward, the benefit is reduced by 7% of adjusted family net income between $38,237 and $82,847 for one child, 13.5% for two, 19% for three and 23% for four or more; above $82,847 the reduction is a fixed amount plus 3.2% of income above that line for one child.",
+  "claim": "data",
+  "figures": [
+   "$38,237",
+   "$82,847",
+   "7%",
+   "13.5%",
+   "19%",
+   "23%",
+   "3.2%"
+  ],
+  "source": "SRC-3930",
+  "anchor": [
+   "These amounts start being reduced when the adjusted family net income (AFNI) is over $38,237.",
+   "the reduction is 7% of the amount of AFNI greater than $38,237 up to $82,847",
+   "the reduction is 13.5% of the amount of AFNI greater than $38,237 up to $82,847",
+   "the reduction is 19% of the amount of AFNI greater than $38,237 up to $82,847",
+   "the reduction is 23% of the amount of AFNI greater than $38,237 up to $82,847",
+   "for income greater than $82,847, the reduction is $3,123 plus 3.2% of AFNI greater than $82,847"
+  ],
+  "locator": "How much you can expect to receive",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "Canada Revenue Agency (Canadian federal government), publication T4114 for the July 2026 to June 2027 payment year. The rates rise with the number of children, so the marginal rate is a function of family size; the phase-out is a single smooth schedule on one income measure.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-558",
+  "statement": "Canada Child Benefit entitlement is based on adjusted family net income for the calendar year before the benefit year, which in most cases equals net income on the tax return (the sum of both spouses' in a two-parent family).",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3931",
+  "anchor": [
+   "In most cases, the AFNI is equal to the parent's net income as reported on the tax return in a one-parent family and to the sum of both spouses/common-law partners' net income in a two-parent family.",
+   "the CCB entitlement based on the adjusted family net income (AFNI) for the calendar year before the beginning of the benefit year"
+  ],
+  "locator": "Canada Child Benefit section",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "Department of Finance Canada, Report on Federal Tax Expenditures 2026. One income test from the tax return, run once a year, with payment monthly. Contrast with US programs that each re-verify income on their own cycle.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-559",
+  "statement": "Australia's Family Tax Benefit Part A is reduced by 20 cents per dollar of family adjusted taxable income over $69,131 (down to a base rate) and by 30 cents per dollar over $123,078 until it reaches nil.",
+  "claim": "data",
+  "figures": [
+   "20 cents",
+   "$69,131",
+   "30 cents",
+   "$123,078"
+  ],
+  "source": "SRC-3932",
+  "anchor": [
+   "This test reduces your FTB Part A by 20 cents for each dollar of income over $69,131.",
+   "We’ll reduce the rate of FTB Part A by 30 cents for each dollar of income over $123,078."
+  ],
+  "locator": "Income between $69,131 and $123,078; Income over $123,078",
+  "grade": "A",
+  "fact_date": "2026-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "Services Australia (Australian federal government), page updated July 1, 2026. Income is \"adjusted taxable income\" from the tax system; payments can be reconciled after the tax return, which can cause overpayments.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-560",
+  "statement": "Under the transitional benefits alternative, a state that elects it freezes a household's SNAP allotment for up to 5 months after it leaves TANF, MOE or state-funded cash assistance, after adjusting for the loss of that income.",
+  "claim": "data",
+  "figures": [
+   "5 months"
+  ],
+  "source": "SRC-3905",
+  "anchor": [
+   "a State agency that has elected this option shall freeze the household's benefit allotment for up to 5 months after making an adjustment for the loss of TANF, MOE, or the SFCA."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "7 CFR 273.27(a) (eCFR, November 2026). State option.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-561",
+  "statement": "USDA's 2024 state options report counts 24 states and territories offering the transitional benefits alternative and 29 not offering it.",
+  "claim": "data",
+  "figures": [
+   "24",
+   "29",
+   "5 months"
+  ],
+  "source": "SRC-3936",
+  "anchor": [
+   "Benefits can be continued for up to 5 months at a level equal to the amount the household received prior to TANF termination",
+   "No TBA (29)",
+   "TBA (24)"
+  ],
+  "locator": "Transitional Benefits Alternative section",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "USDA FNS, 16th State Options Report (June 2024, Biden administration); counts include Guam and the Virgin Islands. Later editions are not saved.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-562",
+  "statement": "GAO reported that under express lane eligibility a state Medicaid or CHIP agency may rely on another agency's findings (such as SNAP's income finding) even if that agency uses a different method, and that the option may be used only for children, not parents or other adults.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3937",
+  "anchor": [
+   "Under ELE, a state Medicaid or CHIP agency may rely on an Express Lane Agency’s findings even if the Express Lane Agency uses a different method than Medicaid or CHIP to derive those findings.",
+   "Under CHIPRA, the ELE option may only be used for Medicaid and CHIP eligibility determinations for children and cannot be used for parents or other adults."
+  ],
+  "locator": "p. 2",
+  "grade": "A",
+  "fact_date": "2012",
+  "checked": "2026-11-12",
+  "recheck": "2027-12-31",
+  "context": "GAO-13-178R (December 2012), nonpartisan legislative branch; describes the 2009 CHIPRA option. Children may be found eligible but not denied by ELE. Which states use it today, and its effects on enrollment, are not saved (CMS page blocks agents; evidence still needed).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-563",
+  "statement": "Colorado's Cliff Effect Pilot Program, authorized in 2012 in 15 counties, keeps families on child care assistance above the entry limit (statewide limit 165% of poverty; the program serves about 13% of eligible families); a 2019 evaluation presentation reported anecdotal evidence of greater economic mobility and recommended linking copay increases to income rises.",
+  "claim": "analysis",
+  "figures": [
+   "2012",
+   "15 counties",
+   "165%",
+   "13%"
+  ],
+  "source": "SRC-3935",
+  "anchor": [
+   "Authorized in 2012",
+   "15 counties",
+   "Statewide income eligibility: 165% FPL",
+   "Program only serves about 13% of eligible families",
+   "Families welcome assistance from CEPP, anecdotal evidence it enables greater economic mobility.",
+   "CEPP should link copay increases with household income increases"
+  ],
+  "locator": "slides: CCCAP Overview, Findings and Recommendations",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2028-11-12",
+  "context": "Presentation by Colorado researchers to the National Governors Association, 2019; interviews and county data, no comparison group. The state pilot was the first of its kind; the evaluation says it is not well publicized. Later Colorado cliff measures (House Bill 1259 on TANF disregards) are not saved.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-543",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
  }
 ]
