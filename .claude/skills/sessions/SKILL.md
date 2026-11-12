@@ -13,9 +13,9 @@ The repository is the only durable memory. A message between sessions is a doorb
 
 The board's **Standing sessions** table (top of `charter/PROGRESS.md`) names the current lead, reviewer and strategy session by ID. It is the record of who holds each role. A session title alone is not.
 
-- **Lead** (titled "Project 2050: lead"): coordinates the stages. It starts workers, receives their reports, schedules check-ins and keeps the board current. Espen talks to it for day-to-day work. It may start any session these rules allow.
+- **Lead** (titled "Project 2050: lead"): coordinates the stages. It starts workers, receives their reports, keeps the board current and holds the one up-to-date picture of what is in motion ("The lead's picture", below). Espen talks to it for day-to-day work and gets status from it, not from the board. It may start any session these rules allow.
 - **Worker**: a session started from a brief to do one board step. When it finishes, it reports to its report-back address, which is the lead unless the brief says otherwise (the relay, below). It starts a session itself only when the lead is gone. Other new work goes on the board as "Next" or in a message to the lead.
-- **Reviewer** (titled "Project 2050: reviewer"): a scheduled task wakes it every three hours. It reviews PRs and starts nothing.
+- **Reviewer** (titled "Project 2050: reviewer"): a scheduled task wakes it every three hours, and a `review-request` wakes it sooner. It reviews PRs and starts nothing. It sends each verdict to the PR's author; it tells the lead only about the lead's own PRs and tier-3 approvals.
 - **Strategy** (titled "Project 2050: strategy and systems"): Espen's session for stepping back to work on the plan, the process and these rules. It doesn't coordinate stages or start workers. It may start a new lead (see "Handing over a standing role").
 
 ## Start a new session when
@@ -70,7 +70,7 @@ When your step's PR is ready:
 2. If it is ready and none of the "don't" cases apply, send your report-back address a `done` message that names the next step and says it is ready. The lead starts the successor with a full brief, pointing it at your PR if it builds on that branch. Routing the relay through the lead keeps the session tree shallow: `get_session` reports a lineage limit (8 levels deep today), and a chain of workers each starting the next would hit it partway through a stage.
 3. If the report-back session and the lead named on the board are both archived, start the successor yourself, but only if your own `lineage.depth` is at most 5. Otherwise leave the next step as "Next, ready" on the board.
 4. If the next step isn't ready, write its status and blocker under "For the board" in your PR, and schedule a `send_later` check-in if a known event will unblock it.
-5. Stay until your PR merges or its review wakes you: an open PR is still yours (the review and CI rules in your system instructions apply).
+5. Stay until your PR merges: an open PR is still yours. Subscribe to its activity with `subscribe_pr_activity` when you open it, so reviews, comments and CI results reach you, the session that can fix them (the review and CI rules in your system instructions apply). Only one session can watch a PR, so the lead does not subscribe to workers' PRs.
 6. **Stacked PRs:** if your PR's base is another PR's branch, retarget it to `main` as soon as that base merges, and merge `main` in. The gate merges an approved PR into whatever base it names, so a PR left on a merged branch lands in a dead branch and never reaches `main` (PR #113, November 8).
 
 ## Handing over a standing role
@@ -122,6 +122,16 @@ For the reviewer, the lead starts the successor; the reviewer starts nothing.
 4. The lead updates the Standing sessions table in its next board PR, adds the old reviewer to the "Former standing sessions" list (role, session ID, PRs reviewed, dates), and retitles the old reviewer "Project 2050: former reviewer, <PRs reviewed>, <first date> to <last date>" (for example "Project 2050: former reviewer, PRs #26 to #65, Oct 26 to Oct 30").
 5. Reviews already posted stay valid. The gate checks the reviewer's session ID line, not the title.
 
+## The lead's picture: watching without polling
+
+The lead is the one session that knows everything in motion, so a handover or a question from Espen never starts from a guess (`DEC-2026-11-12-05`).
+
+- **Keep an in-motion list** at the top of the board: each active session (step, state, report-back address, context size), each open PR (author, tier, what it waits on) and each scheduled check-in. Update it at every event, not only at handovers. Espen doesn't read the board; write it for the next lead.
+- **Wait on events, not the clock.** For a known event (a label added, a merge, the gate's verdict on a new head), run a background shell watcher that polls GitHub and exits when the event happens; it costs nothing while it waits. Workers' messages (`ready`, `blocked`, `done`) carry the rest.
+- **One safety-net check-in every three hours** (`send_later`), for anything nobody reported: one batched look at the open PRs and `get_session` on each active session.
+- **At each event, a quick context check**: `get_session` on the sessions it touches, noting their state and context size, so handovers start before 600,000 tokens.
+- **Workers send three messages only**: `ready`, `blocked` and `done`. No progress reports.
+
 ## Pinging another session
 
 Use `send_message` only when the other session needs to act or decide differently, or to send a result someone asked for (a `done` message, including the reviewer's report on a review it was asked to do). No acknowledgments, thanks or status chatter. Before sending, run `get_session` on the target. If it is archived, don't send: put the item on the board or PR, and start a replacement if the work needs one now. If it is failed (its last turn errored), it can still receive messages, and a message restarts it: send only if the work needs that session's context; otherwise start a replacement.
@@ -138,7 +148,8 @@ P2050 <type> · <step or PR> · from <your session id>
 | --- | --- | --- |
 | `review-request` | A ready PR needs that session's signed review | `later` |
 | `handoff` | You are passing an unfinished task or a standing role, or changing a worker's report-back address; the handoff itself is in the PR or on the board | `later` |
-| `done` | A worker's result for its report-back address; a new lead's confirmation | `later` |
+| `ready` | A worker's PR is approved by the reviewer and current with main; say whether it is tier 3, so the lead can ask Espen for the label | `later` |
+| `done` | A worker's result for its report-back address once its step's PRs are all ready or merged; a new lead's confirmation | `later` |
 | `question` | A fact or judgment only that session holds | `later` |
 | `blocked` | Your work cannot continue until the recipient acts | `next` |
 | `conflict` | You are both about to write the same files | `now` |
