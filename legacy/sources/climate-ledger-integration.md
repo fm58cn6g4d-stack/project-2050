@@ -9,8 +9,8 @@ Before: common outputs rebuilt at `ffe461d32dc0f50f58213bcb5347d49343e46611`, be
 | DEC FY2040 GF primary gap ($B) | 71.9 | 4,451.4 |
 | DEC FY2040 GF primary gap (% GDP) | 0.133 | 8.218 |
 | Recovery mature GF gap (% GDP; negative is headroom) | -0.0083 | 8.8231 |
-| DEC 2056 debt (% GDP) | 155.7 | 369.8 |
-| Mixed reserve-corridor 2056 debt (% GDP) | 115.3 | 328.3 |
+| DEC 2056 debt (% GDP) | 155.7 | 370.0 |
+| Mixed reserve-corridor 2056 debt (% GDP) | 115.3 | 328.6 |
 | Scenario Q, Q4 annual average ($) | 1,261 | -649 |
 | Mixed recovery Q4 FY2039 ($) | -2,906 | -6,471 |
 
