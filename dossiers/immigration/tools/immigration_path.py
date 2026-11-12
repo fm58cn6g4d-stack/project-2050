@@ -7,7 +7,8 @@ DEC-2026-11-12-07; not a score. Run: python3 dossiers/immigration/tools/immigrat
 
 Conventions: nominal $ billion, federal cost against the January 2029 law, a cost positive,
 on the general fund (on-budget) unless a line says otherwise. FY y runs from October of y-1.
-Every anchor and shape below is judgment unless an evidence ID is given (DEC-2026-11-10-07);
+The status, registry, asylum and courts, detention and USCIS lines come from
+`immigration_model.py`; the others are judgment unless an evidence ID is given (DEC-2026-11-10-07);
 `3-design.md`, "What the options cost" and "IMM-1's score, re-derived", gives each basis.
 Each line carries (central path, FY2030-39 low, FY2030-39 high, FY2040 low, FY2040 high).
 Ranges are summed linearly for the set, as section 3 did, so the set's range is wide.
@@ -18,6 +19,11 @@ the rolling registry open by October 1, 2030 (FY2031); the single plan's first w
 2031; the E-Verify start trigger met by about October 2031, so the first tranche no earlier
 than October 1, 2032 (FY2033) and one tranche a year after it.
 """
+
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 YEARS = list(range(2030, 2041))
 WINDOW = range(2030, 2040)
@@ -32,39 +38,41 @@ def grow(base_year, amount, rate, start):
 
 
 def lines():
+    import immigration_model as m
+    runs = {c: m.lines(c) for c in ('central', 'low', 'high')}
+
+    def from_model(key):
+        lo = min(m.window(runs[c][key]) for c in runs); hi = max(m.window(runs[c][key]) for c in runs)
+        lo40 = min(runs[c][key][2040] for c in runs); hi40 = max(runs[c][key][2040] for c in runs)
+        return (runs['central'][key], round(lo, 1), round(hi, 1), round(lo40, 1), round(hi40, 1))
+
     out = {}
-    # Memo 1 A with the three changes, point 1 as recommended here (signature-date cutoff).
-    # Section 3's bound: about +$50 billion over FY2030-39 (range -50 to +150) and about +$10
-    # billion in FY2040 (-5 to +20), rising through the decade as in CBO's 2021 tables
-    # (EV-IMM-600, EV-IMM-602). The later cutoff (signature, not introduction) adds a few
+    # Memo 1 A with the three changes (immigration_model.status_fiscal: CBO's H.R. 6 score,
+    # EV-IMM-600, scaled, grown and netted for the single plan). The model's input range is
+    # narrow; the range kept is section 3's bound (-50 to +150, -5 to +20), which also covers
+    # the pattern itself (S. 744's sign, EV-IMM-205). The signature-date cutoff adds a few
     # months of arrivals to registration: inside the range, not added.
-    out['IMM-1.01-1.14: status, tiers A and B and registration (memo 1)'] = (
-        path([0, 1, 2, 3.5, 5, 5.5, 6.5, 8, 9, 9.5, 10]), -50, 150, -5, 20)
-    # Memo 2 C: waived fees below 200% of poverty and the IRS-SSA-USCIS matching build,
-    # $3-6 billion over FY2030-39 and $0.2-0.5 billion in FY2040 (memo 2; EV-IMM-638,
-    # EV-IMM-627). The build lands first, the waived fees with the 2031-33 filing peak.
-    out['IMM-1.05-1.09: records-first registry and fee waivers (memo 2)'] = (
-        path([0.5, 1.0, 0.9, 0.6, 0.4, 0.3, 0.2, 0.2, 0.2, 0.2, 0.3]), 3, 6, 0.2, 0.5)
+    p1 = from_model('memo1')
+    out['IMM-1.01-1.14: status, tiers A and B and registration (memo 1)'] = (p1[0], -50, 150, -5, 20)
+    # Memo 2 C: waived fees on the registry's filings and the matching build (immigration_model.uscis).
+    out['IMM-1.05-1.09: records-first registry and fee waivers (memo 2)'] = from_model('memo2')
     # Memo 3 B and B: about -$0.02 to -$0.06 trillion and -$5-8 billion in FY2040, from added
-    # workers' taxes (EV-IMM-219, EV-IMM-220), growing as the added population builds.
+    # workers' taxes (EV-IMM-219, EV-IMM-220), growing as the added population builds. Not in
+    # the model: a fiscal reading of labor-market evidence, kept as cited judgment.
     out['IMM-2.01-2.12: legal immigration and the workforce routes (memo 3)'] = (
         path([-1, -1.5, -2.5, -3.5, -4, -4.5, -5, -5.5, -6, -6.5, -7]), -60, -20, -8, -5)
-    # Memo 4 D with counsel B: asylum corps $6-10B, refugee floor $5-10B, regional access
-    # $3-5B, counsel $6-12B over FY2030-39 (memo 4; EV-IMM-302, EV-IMM-574), about $28.5B
-    # central; FY2040 about $3B as the backlog clears (range 2.5-4).
-    out['IMM-3.01-3.04, 3.12: asylum, refugees, regional access, counsel (memo 4)'] = (
-        path([1.5, 2.5, 3.0, 3.2, 3.2, 3.2, 3.1, 3.0, 2.9, 2.9, 3.0]), 20, 40, 2.5, 4)
+    # Memo 4 D with counsel B: the officer corps, the refugee floor, regional access and
+    # appointed counsel (immigration_model.asylum_refugees and eoir).
+    out['IMM-3.01-3.04, 3.12: asylum, refugees, regional access, counsel (memo 4)'] = from_model('memo4')
     # Point 8: repeal of the $100-a-year asylum-pending fee and the $550 first work-permit
     # charge (EV-IMM-043, EV-IMM-045). Roughly 1-2 million payers of the yearly fee falling as
     # the backlog clears and 300,000-400,000 first permits a year (judgment), net of CBO's 25%
     # offset for lower tax receipts (EV-IMM-621): about $0.25-0.35 billion a year.
     out['IMM-3.06: asylum fee repeals, net of the 25% offset (point 8)'] = (
         path([0.35, 0.35, 0.3, 0.3, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]), 2, 5, 0.15, 0.4)
-    # Memo 5 part 1, A's rules: the 30,000 cap against the base account's 41,500 beds
-    # (EV-IMM-362) at about $150-190 a bed-day (EV-IMM-359, EV-IMM-628) nets against case
-    # management at $20-40 a day for about 100,000 people (EV-IMM-355): about zero.
-    out['IMM-4.05-4.06: the detention cap and case management (memo 5, A\'s rules)'] = (
-        path([0] * 11), -10, 10, -1, 1)
+    # Memo 5 part 1, A's rules: the cap against the base account's beds, against case
+    # management's added cost over today's alternatives (immigration_model.detention).
+    out['IMM-4.05-4.06: the detention cap and case management (memo 5, A\'s rules)'] = from_model('detention')
     # Memo 5 part 1 B: replacing ICE. Transition (systems, facilities, re-credentialing,
     # legal) about $1-3 billion over FY2030-34, central $2 billion; the independent detention
     # inspector about $0.1 billion a year from FY2031 (judgment; no cost study in the register).
@@ -83,12 +91,10 @@ def lines():
     # residents, $2-4 billion a year, both rising with the population and prices (memo 6).
     out['IMM-1.20-1.35: the one eligibility table (memo 6)'] = (
         path([0, 4, 7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5]), 50, 110, 8, 15)
-    # Memo 7 B: USCIS's appropriated public-interest work beyond memos 2 and 4 (backlog
-    # clearance about $3 billion, EV-IMM-575; online filing and the Office of New Americans
-    # about $1 billion; the naturalization discount and waivers $3-5 billion; the rest of the
-    # registration surge): about $9.5 billion over FY2030-39, $1-2 billion in FY2040.
-    out['IMM-6.01, IMM-5.04: USCIS beyond memos 2 and 4; naturalization fees (memo 7)'] = (
-        path([0.6, 1.0, 1.3, 1.2, 1.0, 0.9, 0.9, 0.9, 0.9, 0.8, 1.5]), 5, 15, 1, 2)
+    # Memo 7 B: USCIS's appropriated public work beyond memos 2 and 4: backlog clearance
+    # (EV-IMM-575), online filing and the Office of New Americans, the naturalization discount
+    # and waivers, and hiring ahead of fees (immigration_model.uscis).
+    out['IMM-6.01, IMM-5.04: USCIS beyond memos 2 and 4; naturalization fees (memo 7)'] = from_model('memo7')
     # Point 7 as decided: unobligated wall money redirected, not rescinded. Against CBO's
     # baseline, which projects the appropriation as spent (EV-IMM-034), about zero.
     out['IMM-3.07: wall money redirected (point 7)'] = (path([0] * 11), 0, 0, 0, 0)

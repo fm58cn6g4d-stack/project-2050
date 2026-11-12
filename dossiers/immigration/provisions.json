@@ -1345,7 +1345,7 @@
   "decisions": [
    "DEC-2026-11-12-07"
   ],
-  "parameters": "Repeal the cap from November 1, 2028 [EV-IMM-105]. Judges with support staff sized to clear the backlog in about six years at the inflow after legalization (working assumption: about 1,000-1,200 judges, to be set from a docket model with democratic renewal)",
+  "parameters": "Repeal the cap from November 1, 2028 [EV-IMM-105]. Judges with support staff sized to clear the backlog in about six years at the inflow after legalization. Working assumption: about 810 judges (range about 615-1,120), against 753 on board at the end of FY2026 [EV-IMM-103] (`tools/immigration_model.py`, `eoir()`). At the central inputs, 800 judges would take about six years; at the low end of judges' productivity, about 13.5. The number is to be set with democratic renewal",
   "eligibility": "",
   "vehicle": [
    {
@@ -1359,7 +1359,9 @@
   "evidence": [
    "EV-IMM-105",
    "EV-IMM-100",
-   "EV-IMM-112"
+   "EV-IMM-112",
+   "EV-IMM-102",
+   "EV-IMM-103"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1 (memo 4; point 8)",

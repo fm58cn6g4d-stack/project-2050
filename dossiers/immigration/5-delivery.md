@@ -24,6 +24,7 @@ Role: section 5 of the immigration dossier. It covers who runs each provision of
 **USCIS.**
 - *The workload* (working assumption, memo 1): about 8-10 million filings over the decade, most in the first three years after filing opens, with 6-8 million green cards [EV-IMM-603] [EV-IMM-609].
 - *The base it starts from:* 12.8 million pending cases in mid-2026 [EV-IMM-140], completions falling [EV-IMM-141], and numbers lost for want of staff [EV-IMM-123].
+- *The backlog:* the net backlog of 7.7 million [EV-IMM-140] clears in about 5.5 years at the backlog money's pace, about $0.7 billion a year [EV-IMM-575]. About 1.4 million cases are left when the money ends after four to five years (`immigration_model.uscis()`), so the six-month target (IMM-6.03) needs the money for about a year longer or a faster unit cost.
 - *The hiring plan:* hiring starts on R1's enactment, with multi-year money available at once (IMM-6.01). That gives about 15 months of hiring before filing opens, which is memo 7's lead time in practice. The legacy plan counted about 12,000 hires (Bill Book 15, `legacy-research.md`, section 1). This section sizes the surge from memo 7's bottom-up table (about $17-27 billion over FY2030-39) rather than a head count. The lighter records-first form (IMM-1.06, 1.07) is what makes that money enough: most cases are a records check, a biometrics visit and a decision, not a document review.
 - *Sequencing:*
   - notices to known people go first;
@@ -56,7 +57,7 @@ Role: section 5 of the immigration dossier. It covers who runs each provision of
 **The courts.**
 - *The backlog:* 3.3 million pending cases [EV-IMM-100].
 - *What shrinks it:* legalization closes the long-settled residents' cases on filing (IMM-1.10), and officers decide asylum first (IMM-3.01). Together they shrink the backlog before more judges arrive.
-- *Judges:* the number needed (IMM-3.08) is set with democratic renewal from a docket model.
+- *Judges:* `tools/immigration_model.py` puts the number needed to clear the backlog in about six years at about 810, against 753 on board [EV-IMM-103] (range about 615-1,120, set mainly by completions a judge). That assumes about 35% of pending cases close on filing for status and receipts fall by about 30% as officers decide first. At the low end the 800-judge cap would stretch clearance to about 13.5 years, so the repeal (IMM-3.08) matters most if fuller hearings are slower. The final number is set with democratic renewal.
 - *Counsel:* for everyone detained, at a 30,000 cap, a bounded caseload. For children it runs through ORR's existing legal-services contracts, extended to appointed counsel.
 
 ## 3. Timeline
