@@ -85,7 +85,11 @@ A miss is a result. Nothing in the model or the tolerances is changed to make a 
 
 ## What is not yet validated
 
-The workflow says nothing new feeds a public or decision figure until B4's benchmarks pass. They don't all pass yet (the milestone status in the block above), and Codex's milestone review asked for changes on that ground (PR #115). Until each open benchmark is resolved, or Espen decides the scope explicitly, these readings are **diagnostic only** and must not be used in a decision memo, a dossier's cost section or a public page:
+The workflow says nothing new feeds a public or decision figure until B4's benchmarks pass. Codex's milestone review asked for changes on that ground (PR #115).
+
+**B4 milestone (B6, November 12, 2026): not yet met, with one reading left.** With B6's fixes (TF-2 here; PS-4a bounded and PS-4c added in #272), every benchmark passes or is bounded except PS-4b. The one reading it leaves unvalidated is the year-by-year timing of a single nondefense row's outlays and budget authority. Everything else the model reports is supported: the baseline, the accounting identities, ten-year totals, interest and its stress case, the growth stress (in-sample), both trust funds, and the arithmetic of the D4 readings. Two things would close it. One is a CBO estimate of a regular year's nondefense appropriations by year, checked as PS-4c checks defense; three CBO estimates checked so far give one year only (the two FY2026 House estimates and H.R. 1968's full-year 2025 continuing resolution). The other is Espen scoping that one reading out explicitly, as question 0f did for B6.
+
+Until each open benchmark is resolved, or Espen decides the scope explicitly, these readings are **diagnostic only** and must not be used in a decision memo, a dossier's cost section or a public page:
 
 | Reading | Open benchmark | What resolves it |
 | --- | --- | --- |
