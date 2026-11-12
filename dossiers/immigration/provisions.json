@@ -1342,13 +1342,13 @@
  },
  {
   "id": "IMM-3.08",
-  "title": "Court capacity: the 800-judge cap repealed",
+  "title": "Court capacity: the 800-judge cap repealed, and the corps sized to clear the backlog in about six years",
   "agenda": "IMM-3",
   "status": "decided, memo 4 part 2; proposed to CRT-5",
   "decisions": [
    "DEC-2026-11-12-07"
   ],
-  "parameters": "Repeal the cap from November 1, 2028 [EV-IMM-105]. Judges with support staff sized to clear the backlog in about six years at the inflow after legalization. Working assumption: about 810 judges (range about 615-1,120), against 753 on board at the end of FY2026 [EV-IMM-103] (`tools/immigration_model.py`, `eoir()`). At the central inputs, 800 judges would take about six years; at the low end of judges' productivity, about 13.5. The number is to be set with democratic renewal",
+  "parameters": "Repeal the cap from November 1, 2028 [EV-IMM-105]. Judges with their teams (clerks, staff attorneys, interpreters, space) sized to clear the backlog by FY2035 at the inflow after legalization. *Working assumption* (`tools/immigration_model.py`, `eoir()`): about 1,670 judges in all, about 920 more than the 753 on board [EV-IMM-103] (range about 860-2,400 in all; at the slow end of completions a judge even 250 hires a year clear the backlog only by FY2036), hired about 250 a year from FY2030 so the corps peaks by FY2033, and shrinking by attrition (about 5.6% a year [EV-IMM-646]) once the backlog clears in FY2035. It rests on CRS's average of about 510 completions a judge [EV-IMM-641] (range 450-750), not the higher recent rates that in absentia orders inflate [EV-IMM-106]. CRS found 700 more judges than its 649 would clear a smaller backlog by FY2032 [EV-IMM-642]; the Manhattan Institute, about 250 more a year at 957 completions a judge [EV-IMM-646]. *Cost:* about $1.5 million a judge team a year [EV-IMM-644] [EV-IMM-645], about $13 billion over FY2030-39 (section 6). *A slower ramp:* at 150 hires a year, EOIR's FY2024 request [EV-IMM-644], the same corps clears the backlog about FY2037, two years late; at 800 judges it does not clear within fifteen years. The number is set with democratic renewal, whose CRT-5 carries the court",
   "eligibility": "",
   "vehicle": [
    {
@@ -1362,9 +1362,14 @@
   "evidence": [
    "EV-IMM-105",
    "EV-IMM-100",
-   "EV-IMM-112",
    "EV-IMM-102",
-   "EV-IMM-103"
+   "EV-IMM-103",
+   "EV-IMM-641",
+   "EV-IMM-642",
+   "EV-IMM-643",
+   "EV-IMM-644",
+   "EV-IMM-645",
+   "EV-IMM-646"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1 (memo 4; point 8)",

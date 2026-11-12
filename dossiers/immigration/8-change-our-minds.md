@@ -17,6 +17,8 @@ Role: section 8 of the immigration dossier. For each decided choice it gives the
 | The work routes | Memo 3 part 2 B | A sharp fall in the decided programs' hiring needs; high unemployment in care or construction | The review trigger pauses new visas (IMM-2.11); smaller ceilings after three years |
 | Officers decide asylum first | Memo 4 D | Officers' grant decisions are reversed on review at high rates, or the 180 days are missed for years | More review staff and training; never a bar |
 | The surge rule | Memo 4 D | The 90-day track is overwhelmed for months | Temporary judges and officers added by statute, not a bar on asylum (memo 4) |
+| Judges to clear in six years | Memo 4 part 2 (IMM-3.08) | Completions a judge run well above 510 once counsel is in place, or receipts fall further | Fewer added judges, set from the published completions; the six-year goal stays |
+| | | Hiring or courtroom space cannot keep 250 a year | A slower ramp clears about FY2037; report it, and add temporary judges rather than shorten hearings |
 | Counsel B | Memo 4 part 2 | A randomized counsel study showing a small effect | Counsel A, children and serious mental illness only |
 | Replacing ICE | Memo 5 part 1 B | The transition disrupts removal of priority cases or the case-management service | Move the transition date; the rules stay in force from signature either way |
 | The 30,000 cap | Memo 5, A's rules | Priority arrests above the cap for two years | Raise the cap by statute, not by standing waiver |
@@ -44,7 +46,7 @@ Role: section 8 of the immigration dossier. For each decided choice it gives the
 | --- | --- | --- |
 | Names of the new DHS components | The act names them; "Humanitarian Processing Service" is not adopted | None for the design |
 | The work routes' ceilings after three years | Kept, raised or lowered from the Labor Department's counts | The decided programs' hiring needs |
-| The judges IMM-3.08 needs | About 810 (range about 615-1,120) on the first model; a fuller docket model with democratic renewal | CRT-5's design and score (democratic renewal) |
+| The judges IMM-3.08 needs | About 1,670 in all, 920 added (range about 860-2,400) on the first model; a fuller docket model with democratic renewal | CRT-5's design and score (democratic renewal) |
 | E-Verify's state preemption | One federal rule (working choice) or state rules allowed above it | Employers in mandate states facing two systems |
 | The CAP-7 overlap with USCIS | Zero, or a stated purpose | The booking step (section 6, part 6) |
 

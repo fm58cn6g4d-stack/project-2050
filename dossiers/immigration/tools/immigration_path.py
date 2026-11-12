@@ -65,6 +65,10 @@ def lines():
     # Memo 4 D with counsel B: the officer corps, the refugee floor, regional access and
     # appointed counsel (immigration_model.asylum_refugees and eoir).
     out['IMM-3.01-3.04, 3.12: asylum, refugees, regional access, counsel (memo 4)'] = from_model('memo4')
+    # Memo 4 part 2: judge teams above today's 753 judges (EV-IMM-103), hired 250 a year to the
+    # corps that clears the court backlog by FY2035, costed at about $1.5 million a team a year
+    # (EV-IMM-644, EV-IMM-645), shrinking by attrition once it clears (immigration_model.eoir).
+    out["IMM-3.08: judge teams above today's corps (memo 4, part 2)"] = from_model('judges')
     # Point 8: repeal of the $100-a-year asylum-pending fee and the $550 first work-permit
     # charge (EV-IMM-043, EV-IMM-045). Roughly 1-2 million payers of the yearly fee falling as
     # the backlog clears and 300,000-400,000 first permits a year (judgment), net of CBO's 25%

@@ -57,7 +57,12 @@ Role: section 5 of the immigration dossier. It covers who runs each provision of
 **The courts.**
 - *The backlog:* 3.3 million pending cases [EV-IMM-100].
 - *What shrinks it:* legalization closes the long-settled residents' cases on filing (IMM-1.10), and officers decide asylum first (IMM-3.01). Together they shrink the backlog before more judges arrive.
-- *Judges:* `tools/immigration_model.py` puts the number needed to clear the backlog in about six years at about 810, against 753 on board [EV-IMM-103] (range about 615-1,120, set mainly by completions a judge). That assumes about 35% of pending cases close on filing for status and receipts fall by about 30% as officers decide first. At the low end the 800-judge cap would stretch clearance to about 13.5 years, so the repeal (IMM-3.08) matters most if fuller hearings are slower. The final number is set with democratic renewal.
+- *Judges:* `tools/immigration_model.py` (`eoir()`) puts the corps that clears the backlog by FY2035 at about 1,670 judges in all, **about 920 more than the 753 on board** [EV-IMM-103] (range about 860-2,400 in all, set mainly by completions a judge: CRS's average is about 510 [EV-IMM-641], range 450-750).
+  - *The ramp:* about 250 net hires a year from FY2030, as the Manhattan Institute's estimate assumes [EV-IMM-646], plus replacements for attrition of about 5.6% a year (CRS counts 26 departures a year [EV-IMM-643]). EOIR hired 312 in FY2026 [EV-IMM-103], so the pace has been done. The corps reaches about 1,670 by FY2033 and shrinks by attrition after the backlog clears in FY2035, to about 1,250 by FY2040.
+  - *The assumptions:* about 35% of pending cases close on filing for status (IMM-1.10); receipts fall by about 30% as officers decide first (IMM-3.01); new judges decide half a year of cases in their first year.
+  - *A slower ramp:* at 150 hires a year, EOIR's FY2024 request [EV-IMM-644], the backlog clears about FY2037, two years late. With the 800-judge cap kept, it does not clear within fifteen years, which is why the repeal matters.
+  - *Teams, not only judges:* each judge comes with clerks, staff attorneys, interpreters and space, about $1.5 million a team a year [EV-IMM-644] [EV-IMM-645]; EOIR's FY2024 request paired 150 judge teams with 750 attorneys and support staff [EV-IMM-644]. Courtroom space is the slowest part to build, so the 2027-28 preparation includes a space plan.
+  - The final number is set with democratic renewal.
 - *Counsel:* for everyone detained, at a 30,000 cap, a bounded caseload. For children it runs through ORR's existing legal-services contracts, extended to appointed counsel.
 
 ## 3. Timeline
