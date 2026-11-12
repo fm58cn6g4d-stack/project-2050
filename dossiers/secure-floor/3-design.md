@@ -226,7 +226,7 @@ From `dossiers/shared-rules.md`. Rules 1, 2 and 4 are this dossier's; the others
 | 5. Who verifies and pays | Democratic renewal | Memo 2 B states the IRS's and SSA's needs | — |
 | 6. Conditions on help | Work flagship | No benefit in the set carries a work condition (memo 4) | — |
 
-**Proposed notes**, for Espen with memo 7: rule 1, "The floor's cash payments that do not replace wages are not income or resources for any federal or federally funded program; wage-replacement benefits count as wages would." Rule 2, "The combined rate for typical families stays at or below 65 cents per added dollar, outside housing's rent rule; no plan benefit adds a phase-out below 200% of poverty; the household model reports yearly."
+**The notes, as decided** (memo 7, `DEC-2026-11-12-06`): rule 1, "The floor's cash payments that do not replace wages are not income or resources for any federal or federally funded program; wage-replacement benefits count as wages would." Rule 2, "The combined rate for typical families stays at or below 65 cents per added dollar, outside housing's rent rule; no plan benefit adds a phase-out below 200% of poverty beyond the childless earned income credit's (INC-1.01), which memo 7 counted; the household model reports yearly."
 
 ## Seams with other dossiers (named, not settled)
 

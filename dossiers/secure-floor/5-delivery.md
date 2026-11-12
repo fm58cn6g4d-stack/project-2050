@@ -1,6 +1,6 @@
 # A secure floor for every household: delivery
 
-Role: section 5 of the secure floor dossier. It says who runs each provision of `4-specification.md`, what capacity it needs, the timeline from enactment to full operation, how people get remedies, what states do, and how the floor reaches rural places. Status: draft (stage D, board row S4, PR 1), on `DEC-2026-11-12-06`. Dates are the decided ones; where a step's date is a working choice, it says so. What the IRS and SSA need is stated here for shared rule 5's owner, the democratic renewal foundation, which decides who verifies and answers for mistakes plan-wide.
+Role: section 5 of the secure floor dossier. It says who runs each provision of `4-specification.md`, what capacity it needs, the timeline from enactment to full operation, how people get remedies, what states do, and how the floor reaches rural places. Status: reviewed (L2, milestone review `review-milestone.md`, #298; L3 after its fix steps and re-check), on `DEC-2026-11-12-06`. Dates are the decided ones; where a step's date is a working choice, it says so. What the IRS and SSA need is stated here for shared rule 5's owner, the democratic renewal foundation, which decides who verifies and answers for mistakes plan-wide.
 
 ## 1. Who runs what
 
