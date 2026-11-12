@@ -7384,5 +7384,1305 @@
   "supports": [
    "dossiers/immigration/2-what-works.md"
   ]
+ },
+ {
+  "id": "EV-IMM-600",
+  "statement": "CBO's summary table shows the American Dream and Promise Act raising total direct spending by 38,335 and the total deficit by 35,330 (millions of dollars) in its final cumulative column.",
+  "claim": "analysis",
+  "figures": [
+   "38,335",
+   "35,330"
+  ],
+  "source": "SRC-4178",
+  "anchor": [
+   "Total Changes in Direct Spending 0 790 1,975 2,340 2,985 3,555 3,750 4,590 5,525 6,295 6,530 11,645 38,335",
+   "Total Changes in the Deficit 0 575 1,605 2,195 2,695 3,045 3,360 4,265 5,250 6,040 6,300 10,115 35,330"
+  ],
+  "locator": "Page 1, 'Estimated Effects on Direct Spending and Revenues' table, last column (cumulative 2021-2031; the 11,645 and 10,115 figures are the 2021-2026 cumulative)",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Millions of dollars, relative to CBO's February 2021 baseline. The bill covers only Dreamers and people eligible for TPS or DED, a far narrower group than 8-11 million, so it bounds a subset, not a full legalization.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-213",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-IMM-215",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-601",
+  "statement": "CBO split the American Dream and Promise Act's direct-spending increase into on-budget 36,535 and off-budget 1,800 (millions of dollars).",
+  "claim": "analysis",
+  "figures": [
+   "36,535",
+   "1,800"
+  ],
+  "source": "SRC-4178",
+  "anchor": [
+   "On-Budget 0 790 1,950 2,290 2,900 3,435 3,580 4,365 5,230 5,925 6,070 11,365 36,535",
+   "Off-Budget 0 0 25 50 85 120 170 225 295 370 460 280 1,800"
+  ],
+  "locator": "Page 1, table rows under 'Total Changes in Direct Spending'",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Off-budget outlays are Social Security benefits to people newly lawfully present, per the same page. Cumulative column covers 2021-2031.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-208",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-602",
+  "statement": "CBO names marketplace health-insurance tax credits, Medicaid and the outlay portion of the earned income and child tax credits as the largest sources of on-budget outlay increases.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-4178",
+  "anchor": [
+   "Changes in on-budget outlays arise from several programs, the largest of which are the outlay portion of tax credits for health insurance purchased through the marketplaces established under the Affordable Care Act, Medicaid, and the outlay portion of the earned income and child tax credits."
+  ],
+  "locator": "Page 1, paragraph beginning 'Changes in on-budget outlays'",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The extracted page gives no dollar split by program, no count of people gaining status and no discretionary USCIS cost statement; those are on later pages that did not come back.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-214",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-603",
+  "statement": "OCACT estimated that nearly 8 million people would apply for and receive Registered Provisional Immigrant status under the Senate comprehensive immigration bill.",
+  "claim": "analysis",
+  "figures": [
+   "8 million"
+  ],
+  "source": "SRC-4193",
+  "anchor": [
+   "Establish a new Registered Provisional Immigrant (RPI) status permitting undocumented individuals residing in the U.S since December 31, 2011 to gain immediate legal work status, with an opportunity to become legal permanent residents after 5 to 10 years. We estimate nearly 8 million individuals will apply for and receive this status."
+  ],
+  "locator": "Page 1, bulleted list of what S. 744 as amended would do",
+  "grade": "C",
+  "fact_date": "2013",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Covers undocumented residents present since 2011-12-31. The letter also says the bill would cut new undocumented entry by almost one-half million a year.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-206",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-604",
+  "statement": "OCACT estimated the Senate comprehensive immigration bill would raise combined OASI and DI trust fund reserves by $284 billion by the end of 2024 and move projected depletion from 2033 to 2035.",
+  "claim": "analysis",
+  "figures": [
+   "$284 billion",
+   "2024",
+   "2033",
+   "2035"
+  ],
+  "source": "SRC-4193",
+  "anchor": [
+   "increase asset reserves for the combined Old-Age and Survivors Insurance (OASI) and Disability Insurance (DI) Trust Funds by $284 billion by the end of 2024",
+   "the projected depletion of combined OASI and DI Trust Fund reserves moving from 2033 under current law to 2035 under the proposal"
+  ],
+  "locator": "Page 1, opening paragraph",
+  "grade": "C",
+  "fact_date": "2013",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Based on the intermediate assumptions of the 2013 Trustees Report. The effect is the whole bill (legalization plus enforcement and more legal immigration), not legalization alone.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-610",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-IMM-208",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-605",
+  "statement": "OCACT estimated the Senate comprehensive immigration bill would cut the long-range OASDI actuarial deficit from 2.72 percent of taxable payroll to 2.51 percent.",
+  "claim": "analysis",
+  "figures": [
+   "2.72 percent",
+   "2.51 percent"
+  ],
+  "source": "SRC-4193",
+  "anchor": [
+   "Enactment of this Bill would reduce the long-range OASDI actuarial deficit from 2.72 percent of taxable payroll under current law to 2.51 percent of payroll under the provisions of the Bill."
+  ],
+  "locator": "Page 2, 'Summary of Effects on Actuarial Status'",
+  "grade": "C",
+  "fact_date": "2013",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The letter adds that cost as a share of payroll rises very slightly between 2061 and 2075 as the legalized cohorts retire.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-604",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-606",
+  "statement": "OCACT estimated that in 2010 tax revenue paid to the Trust Funds on unauthorized workers' earnings exceeded benefits paid on those earnings by about $12 billion.",
+  "claim": "analysis",
+  "figures": [
+   "$12 billion"
+  ],
+  "source": "SRC-4194",
+  "anchor": [
+   "For the year 2010,1 we estimate that the excess of tax revenue paid to the Trust Funds over benefits paid from these funds based on earnings of unauthorized workers is about $12 billion."
+  ],
+  "locator": "Section 'How the participation of unauthorized workers affects Social Security's financial position', page 1-2",
+  "grade": "C",
+  "fact_date": "2010",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Uses the 2012 Trustees Report intermediate assumptions. The '1' after 2010 is the source's footnote mark. The note says the larger long-run effect comes from children born in the U.S. to these immigrants.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-228",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-607",
+  "statement": "Of the foreign-born non-citizens counted by the Census Bureau, about 10.8 million resided in the U.S. in an unauthorized status.",
+  "claim": "analysis",
+  "figures": [
+   "10.8 million"
+  ],
+  "source": "SRC-4194",
+  "anchor": [
+   "Of this number, about 10.8 million resided in the U.S. in an unauthorized status."
+  ],
+  "locator": "Section 'Earnings of Unauthorized Immigrants in the United States'",
+  "grade": "C",
+  "fact_date": "2009",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "'This number' is the 12.6 million people who were not legal permanent residents in January 2009. OCACT assumes they work at the same rate as LPRs of the same age and sex, but fewer have earnings credited.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-001",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-608",
+  "statement": "PWBM projected that full legalization under the U.S. Citizenship Act would raise the 2050 population by 4.21 percent and GDP by 0.5 percent but lower GDP per capita by 0.2 percent.",
+  "claim": "analysis",
+  "figures": [
+   "2050",
+   "4.21 percent",
+   "0.5 percent",
+   "0.2 percent"
+  ],
+  "source": "SRC-4195",
+  "anchor": [
+   "PWBM projects that by 2050, the legalization provisions of the U.S. Citizenship Act proposed by President Biden would increase the size of the U.S. population by 4.21 percent, increase GDP by 0.5 percent, but decrease GDP per capita by 0.2 percent."
+  ],
+  "locator": "Opening summary",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Macro and demographic result; no budget dollar figure appears in the extract. Legalization assumed to start at the beginning of 2022.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-202",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-609",
+  "statement": "PWBM assumed take-up of legalization of roughly 70 percent among eligible unauthorized immigrants, citing CBO's analysis of the 2013 Senate bill.",
+  "claim": "analysis",
+  "figures": [
+   "70 percent",
+   "2013"
+  ],
+  "source": "SRC-4195",
+  "anchor": [
+   "We estimate that in each scenario take-up of legalization is roughly 70 percent among eligible unauthorized immigrants, consistent with CBO analysis of the 2013 Border Security, Economic Opportunity, and Immigration Modernization Act."
+  ],
+  "locator": "Methodology paragraph",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Useful as a take-up parameter when sizing a program: about 70 percent of the eligible group.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-603",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-610",
+  "statement": "BPC's reference case found that immigration reform would cut cumulative federal deficits by nearly $1.2 trillion over 20 years, about $180 billion in the first decade and $990 billion in the second.",
+  "claim": "analysis",
+  "figures": [
+   "$1.2 trillion",
+   "20-year",
+   "$180 billion",
+   "$990 billion"
+  ],
+  "source": "SRC-4196",
+  "anchor": [
+   "Cumulative deficits would fall by nearly $1.2 trillion over a 20-year period. About $180 billion of this reduction would occur in the first decade, and $990 billion in the second decade."
+  ],
+  "locator": "Executive summary, 'Reduce federal deficits' bullet; Fiscal Impact section",
+  "grade": "C",
+  "fact_date": "2013",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Dynamic model of a package modeled on the Senate bill (legalization, more legal immigration, enforcement), with population growth feeding revenue; a very different method from CBO's conventional estimate of H.R. 6.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-200",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-IMM-205",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-611",
+  "statement": "BPC found that E-Verify combined with legalization created $10 billion in budgetary savings over the first ten years but increased cumulative deficits by about $150 billion over 20 years.",
+  "claim": "analysis",
+  "figures": [
+   "$10 billion",
+   "$150 billion",
+   "20-year"
+  ],
+  "source": "SRC-4197",
+  "anchor": [
+   "Scenario 2’s policies created $10 billion in budgetary savings, decreasing the deficit.",
+   "Scenario 2’s combination of E-Verify and legalization increased cumulative deficits by about $150 billion over the 20-year period."
+  ],
+  "locator": "Federal Budget section, Scenario 2 discussion",
+  "grade": "C",
+  "fact_date": "2014",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Scenario 2 is E-Verify plus legalization with no temporary-worker program. BPC says costs arise once legalized people get green cards and benefit access after five years. Publication date inferred, not shown in the extract.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-394",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-IMM-213",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-612",
+  "statement": "Cato proposed a permanent registry letting immigrants who have lived in the U.S. at least 10 years obtain permanent legal status, replacing the 1972 hard date.",
+  "claim": "analysis",
+  "figures": [
+   "10 years",
+   "1972"
+  ],
+  "source": "SRC-4198",
+  "anchor": [
+   "Congress should create a permanent process whereby immigrants who have lived in the United States for at least 10 years can register with the government to obtain permanent legal status",
+   "Current law allows immigrants to register with the government if they entered before 1972."
+  ],
+  "locator": "Section 'Permanent Immigrant Registry'",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "A policy proposal, with no cost estimate in the extract.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-622",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-613",
+  "statement": "Cato estimated that running about 122 million native-born employees through E-Verify would give between 370,000 and 1.2 million of them an erroneous initial nonconfirmation if error rates stayed the same.",
+  "claim": "analysis",
+  "figures": [
+   "122 million",
+   "370,000",
+   "1.2 million"
+  ],
+  "source": "SRC-4199",
+  "anchor": [
+   "If the roughly 122 million native-born",
+   "between 370,000 and 1.2 million of them would be initially granted an erroneous TNC if the error rates stayed the same."
+  ],
+  "locator": "Section 'E-Verify's False Positive Problem'",
+  "grade": "C",
+  "fact_date": "2014",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Workforce size is as of the end of 2014. Cato adds that a universal mandate would likely raise error rates.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-391",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-614",
+  "statement": "Cato cited an average cost of $147 per E-Verify check when the employer follows all legally mandated notification requirements.",
+  "claim": "analysis",
+  "figures": [
+   "$147"
+  ],
+  "source": "SRC-4199",
+  "anchor": [
+   "each E-Verify check is estimated to cost an average of $147 when the employer follows all of the legally mandated notification requirements"
+  ],
+  "locator": "Section 'Costs of Implementing E-Verify'",
+  "grade": "C",
+  "fact_date": "2016",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Cato says most queries cost little because there is no upfront government fee; a small share cost a great deal to resolve, which drives the average. Publication date approximate.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-394",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-615",
+  "statement": "The article's general-equilibrium model estimated that comprehensive immigration reform with a path to legal status would raise U.S. GDP by at least 0.84 percent a year, or $1.5 trillion over 10 years.",
+  "claim": "analysis",
+  "figures": [
+   "0.84 percent",
+   "$1.5 trillion",
+   "10 years"
+  ],
+  "source": "SRC-4200",
+  "anchor": [
+   "Comprehensive immigration reform generates an annual increase in U.S. GDP of at least 0.84 percent. This amounts to $1.5 trillion in additional GDP over 10 years."
+  ],
+  "locator": "Summary bullets",
+  "grade": "C",
+  "fact_date": "2012",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Economy-wide gain, not a federal budget estimate. Author name was not in the extract.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-202",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-616",
+  "statement": "Orrenius and Zavodny, Dallas Fed economists writing in the Cato Journal, judged that legalizing the undocumented population is likely to widen the gap between revenues and outlays, with state and local governments bearing much of the medium-run cost.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-4201",
+  "anchor": [
+   "is likely to aggravate the gap between revenues and outlays.",
+   "The fiscal burden would be particularly heavy for state and local governments, which bear a large share of costs for most means-tested transfer programs, in the medium run."
+  ],
+  "locator": "Section 'Fiscal Effects'",
+  "grade": "C",
+  "fact_date": "2012",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Pia M. Orrenius and Madeline Zavodny (Federal Reserve Bank of Dallas), Cato Journal, Winter 2012: the authors' judgment, not the Cato Institute's. Qualitative, no dollar figure. Read from a third-party copy of the journal PDF; the reviewer read the full PDF and confirmed the quotation.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-221",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-IMM-213",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-617",
+  "statement": "MPI estimated that roughly 11 million unauthorized immigrants lived in the U.S. as of 2021, about 60 percent of them for ten years or more.",
+  "claim": "analysis",
+  "figures": [
+   "11 million",
+   "2021",
+   "60 percent",
+   "ten years"
+  ],
+  "source": "SRC-4202",
+  "anchor": [
+   "Roughly 11 million unauthorized immigrants lived in the United States as of 2021, about 60 percent of them for ten years or more."
+  ],
+  "locator": "Key-findings bullet 1 at the top of the page",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Gives the long-settled share directly. The report also notes an outdated registry date as a barrier. Publication month taken from MPI's later reference to a February 2021 report.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-005",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-618",
+  "statement": "The fact sheet says a registry date of 2006 would make an estimated 6,233,000 people (51%) eligible, and a date of 2010 would make 7,957,000 (72%) eligible.",
+  "claim": "analysis",
+  "figures": [
+   "2006",
+   "6,233,000",
+   "51%",
+   "2010",
+   "7,957,000",
+   "72%"
+  ],
+  "source": "SRC-4203",
+  "anchor": [
+   "If the registry date were updated to 2006, an estimated 6,233,000 immigrants, or 51% of the unauthorized immigrant population in the U.S., would be eligible for status adjustment.",
+   "If Congress moved the registry date to 2010, an estimated 7,957,000 immigrants would be eligible for lawful permanent resident status, representing 72% of the undocumented population."
+  ],
+  "locator": "Section 'How would Congress update the registry date?'",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The extract does not name the underlying data source (possibly MPI or similar); treat as secondary and confirm before relying on it.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-617",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-619",
+  "statement": "CBO estimated that the immigration subtitle would increase direct spending outlays by $73.5 billion and revenues by $66.5 billion over 2025-2034.",
+  "claim": "analysis",
+  "figures": [
+   "$73.5 billion",
+   "$66.5 billion",
+   "2025-2034"
+  ],
+  "source": "SRC-4204",
+  "anchor": [
+   "CBO estimates that enacting subtitle A would increase direct spending outlays by $73.5 billion and increase revenues by $66.5 billion over the 2025-2034 period"
+  ],
+  "locator": "Basis of Estimate, Subtitle A. Immigration Matters",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Table 1 shows the whole Title VII raising deficits by about $6.9 billion over 2025-2034 (outlays 73,458 and revenues 66,548 million). Publication month is from the task description; the extract shows no date.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-038",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-620",
+  "statement": "CBO noted the legislation would directly appropriate $81.4 billion, mainly for immigration enforcement and other law enforcement.",
+  "claim": "data",
+  "figures": [
+   "$81.4 billion"
+  ],
+  "source": "SRC-4204",
+  "anchor": [
+   "Directly appropriate $81.4 billion to the Department of Homeland Security (DHS), Department of Justice (DOJ), and the Department of Health and Human Services (HHS), mainly for immigration enforcement and other law enforcement activities"
+  ],
+  "locator": "At a Glance, 'The legislation would' list",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Most of the revenue comes from new alien fees (asylum, work permit, parole, TPS), not legalization fees.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-621",
+  "statement": "CBO assumed most new fee collections would be partly offset by lower tax receipts of about 25 percent of gross fee collections each year.",
+  "claim": "analysis",
+  "figures": [
+   "25 percent"
+  ],
+  "source": "SRC-4204",
+  "anchor": [
+   "most of the new fee collections would be partially offset by decreases in tax receipts of about 25 percent of the gross fee collections each year."
+  ],
+  "locator": "Basis of Estimate, Part 1. Immigration Fees",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "A convention for netting fee revenue that a legalization-fee estimate could reuse.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-619",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-622",
+  "statement": "The 2025 Senate registry bill would change the registry so an applicant must have entered the United States at least 7 years before the application date, effective 60 days after enactment; no fee appears in the bill text.",
+  "claim": "data",
+  "figures": [
+   "7 years",
+   "60 days"
+  ],
+  "source": "SRC-4205",
+  "anchor": [
+   "(a) entered the United States at least 7 years before the application date;",
+   "The amendments made by this section shall take effect 60 days after the date of the enactment of this Act."
+  ],
+  "locator": "Section 2(a)(2) and 2(b)",
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The bill amends INA section 249 (8 U.S.C. 1259) and replaces the fixed 1972 entry date with a rolling one; it does not itself add a fee. Same text appeared in H.R. 8433 (117th, introduced 2022-07-20), H.R. 1511 and S. 2606 (118th, 2023).",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-623",
+  "statement": "The existing registry statute, which the bills would amend, requires that the applicant be a person of good moral character and not be inadmissible as a criminal, subversive, narcotics violator or smuggler.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4380",
+  "anchor": [
+   "is a person of good moral character; and",
+   "is not ineligible to citizenship and is not deportable under section 1227(a)(4)(B) of this title."
+  ],
+  "locator": "8 U.S.C. 1259(c)-(d) and introductory text",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "These are the bars carried over when the entry-date requirement is changed; the date shown is when the page was read, as the statute text is unchanged for years.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-625",
+  "statement": "The 2024 fee rule set the Asylum Program Fee at $0 for nonprofits and $300 for small employers, with a higher fee for other employers filing worker petitions; it is paid by employers, not asylum seekers.",
+  "claim": "data",
+  "figures": [
+   "$0",
+   "$300"
+  ],
+  "source": "SRC-4094",
+  "anchor": [
+   "The fee will be $0 for nonprofits;",
+   "$300 for small employers (defined as firms or individuals having 25 or"
+  ],
+  "locator": "Asylum Program Fee section, pp. 6195-6196",
+  "grade": "A",
+  "fact_date": "2024-01",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Effective April 1, 2024.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-626",
+  "statement": "DHS said the Asylum Program Fee was proposed to fund part of the costs of administering the entire asylum program, and estimated the revised fee will generate approximately $313 million in revenue.",
+  "claim": "data",
+  "figures": [
+   "$313 million"
+  ],
+  "source": "SRC-4094",
+  "anchor": [
+   "will generate approximately $313 million in revenue, compared to the",
+   "administering the entire asylum program"
+  ],
+  "locator": "Section on reducing the work funded by the Asylum Program Fee",
+  "grade": "A",
+  "fact_date": "2024-01",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Revenue goes into the general IEFA, not an account specific to asylum; the $313 million compares with $425 million estimated in the proposed rule.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-627",
+  "statement": "The final rule set the Form I-485 fee at $1,440, down from $1,540 in the proposed rule.",
+  "claim": "data",
+  "figures": [
+   "$1,440",
+   "$1,540"
+  ],
+  "source": "SRC-4094",
+  "anchor": [
+   "Reduce the fee for Form I-485 from $1,540 in the proposed",
+   "rule to $1,440 in the final rule."
+  ],
+  "locator": "Executive summary of fee changes (Form I-485 bullet list)",
+  "grade": "A",
+  "fact_date": "2024-01",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Children under 14 filing with a parent pay $950 (stated in the rule); the prior fee was $1,140 with biometrics.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-628",
+  "statement": "ICE reported that the average adult detention bed cost per day was $187.48 for FY 2023.",
+  "claim": "data",
+  "figures": [
+   "$187.48",
+   "FY 2023"
+  ],
+  "source": "SRC-4131",
+  "anchor": [
+   "Average adult bed cost per day is $187.48 for FY 2023."
+  ],
+  "locator": "Management Measures, 'Estimated average adult bed cost per day'",
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Direct costs only (beds, guards, provisions, healthcare, facilities); the rate depends on average daily population, 36,804 adults in FY 2023. This is the FY2025 justification; the FY2027 justification checked does not state a per-bed rate.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-629",
+  "statement": "ICE reported that the ISAP IV Alternatives to Detention contract cost $4.11 per day for every participant in FY 2023.",
+  "claim": "data",
+  "figures": [
+   "$4.11",
+   "FY 2023"
+  ],
+  "source": "SRC-4131",
+  "anchor": [
+   "In FY 2023, the ISAP IV contract incurred costs of $4.11 per day for every participant."
+  ],
+  "locator": "Alternatives to Detention, program description (ISAP IV)",
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Covers the contract cost of case management and monitoring; the document elsewhere uses $4.07 per participant for FY 2025.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-630",
+  "statement": "ICE's average daily detention population ended FY 2025 at 48,706, a 29% increase over FY 2024.",
+  "claim": "data",
+  "figures": [
+   "48,706",
+   "29%",
+   "FY 2025",
+   "FY 2024"
+  ],
+  "source": "SRC-4132",
+  "anchor": [
+   "The cumulative average daily population of illegal aliens maintained in detention facilities ended FY 2025 at 48,706, a 29% increase over FY 2024."
+  ],
+  "locator": "Strategic Context, Management Measures",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Population figure, not a per-bed cost; the document does not state a per-bed daily rate. Second Trump administration budget document; its own data.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-631",
+  "statement": "E-Verify began as the IIRIRA Basic Pilot, was originally scheduled to end in November 2001, and has been extended several times; as of this 2018 report it was authorized until September 30, 2018 under the Consolidated Appropriations Act, 2018 (P.L. 115-141).",
+  "claim": "data",
+  "figures": [
+   "November 2001",
+   "September 30, 2018",
+   "P.L. 115-141"
+  ],
+  "source": "SRC-4265",
+  "anchor": [
+   "Originally scheduled to terminate in November 2001, it has been extended several times. It is currently authorized until September 30, 2018, in accordance with the Consolidated Appropriations Act, 2018 ( P.L. 115-141 )."
+  ],
+  "locator": "Summary",
+  "grade": "A",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Dated: the expiry date is the one in force in 2018. Current extensions are made by appropriations acts and continuing resolutions; the current end date was not confirmed from a primary source.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-632",
+  "statement": "CRS lists the extension of authorization for the E-Verify program among the authorities extended through continuing resolutions and appropriations general provisions.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4133",
+  "anchor": [
+   "Extension of authorization for the E-Verify employment eligibility verification program"
+  ],
+  "locator": "Table of expiring authorities extended in appropriations acts",
+  "grade": "A",
+  "fact_date": "2025-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The table entry is a list item; no expiry date was captured from it.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-633",
+  "statement": "IIRIRA's pilot-program section provides that, unless Congress otherwise provides, the pilot programs terminate on September 30, 2015; the 2026 Mandatory E-Verify Act would strike that sentence to make E-Verify permanent.",
+  "claim": "data",
+  "figures": [
+   "September 30, 2015"
+  ],
+  "source": "SRC-4134",
+  "anchor": [
+   "Unless the Congress otherwise provides, the Secretary of Homeland Security shall terminate a pilot program on September 30, 2015."
+  ],
+  "locator": "Section amending IIRIRA section 401(b) (conforming amendments)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Shows the statutory text still carries a 2015 sunset that Congress overrides through appropriations extensions; the bill itself had not been enacted.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-634",
+  "statement": "Of the annual refugee ceilings in the CRS table from its first year through FY2005, the lowest was 67,000 in FY1986; the FY2002-FY2005 ceilings were 70,000.",
+  "claim": "data",
+  "figures": [
+   "67,000",
+   "70,000"
+  ],
+  "source": "SRC-4135",
+  "anchor": [
+   "1986 67,000 62,146",
+   "2002 70,000 27,131 2003 70,000 28,403 2004 70,000 52,873 2005 70,000 53,813"
+  ],
+  "locator": "Appendix A, Table A-1 (Annual Refugee Ceilings and Actual Admissions FY1981-FY2022)",
+  "grade": "A",
+  "fact_date": "1986",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The table starts at FY1981 (ceiling 217,000), so FY1980 is not covered; the table notes the ceiling is the final cap set for the year.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-635",
+  "statement": "About three million people applied for IRCA legalization, and nearly 2.7 million of the applicants for temporary residence were ultimately approved for permanent residence.",
+  "claim": "data",
+  "figures": [
+   "three million",
+   "2.7 million"
+  ],
+  "source": "SRC-4206",
+  "anchor": [
+   "three million persons applied for legalization.",
+   "Nearly 2.7 million persons--nearly nine in ten applicants for temporary residence--were ultimately approved for permanent residence."
+  ],
+  "locator": "Findings, first paragraph",
+  "grade": "A",
+  "fact_date": "2001",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Counts are through 2001 and include both programs (Section 245A legalization and Section 210A seasonal agricultural workers).",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-636",
+  "statement": "The INS paper's first exhibit shows 1,763,434 applicants for the general legalization program, of whom 1,595,766 were granted permanent residence, and 1,277,041 SAW applicants, of whom 1,092,964 were granted permanent residence.",
+  "claim": "data",
+  "figures": [
+   "1,763,434",
+   "1,595,766",
+   "1,277,041",
+   "1,092,964"
+  ],
+  "source": "SRC-4206",
+  "anchor": [
+   "Legalization applicants Total 1,763,434 1,595,766 90%",
+   "SAW applicants Total 1,277,041 1,092,964 86%"
+  ],
+  "locator": "Exhibit 1 (INS LAPS data as of August 1992)",
+  "grade": "A",
+  "fact_date": "1992",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Table text is reproduced with spacing collapsed. The paper contains no statement about fraud in SAW.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-637",
+  "statement": "During FY2012-FY2020 USCIS accepted a cumulative total of 914,640 initial DACA requests and approved 827,119 of them.",
+  "claim": "data",
+  "figures": [
+   "FY2012-FY2020",
+   "914,640",
+   "827,119"
+  ],
+  "source": "SRC-4207",
+  "anchor": [
+   "It shows that during the FY2012-FY2020 period",
+   "a cumulative total of 914,640 initial requests and approved 827,119 of them."
+  ],
+  "locator": "Discussion of Table 1, DACA Applications Accepted and Processed FY2012-FY2020",
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Based on USCIS quarterly data; cumulative approvals by 2017 alone were not isolated in this report.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-638",
+  "statement": "CRS reported that the required DACA fees total $495.",
+  "claim": "data",
+  "figures": [
+   "$495"
+  ],
+  "source": "SRC-4207",
+  "anchor": [
+   "As of the date of this report, required fees total $495."
+  ],
+  "locator": "Footnote 33",
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The later $605 and $555 figures were not verified.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-639",
+  "statement": "The DACA request form's instructions say DACA requesters may prove continuous residence since June 15, 2007 with documents such as rent receipts, utility bills and receipts or letters showing dates of service.",
+  "claim": "data",
+  "figures": [
+   "June 15, 2007"
+  ],
+  "source": "SRC-4208",
+  "anchor": [
+   "What documents may show that you continuously resided in the United States since June 15, 2007, up to the present date? Submit copies of any relevant documents such as: A. Rent receipts, utility bills (e.g., gas, electric, phone), or receipts or letters from companies showing the dates during which you received service."
+  ],
+  "locator": "Question 5",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The list continues with employment records and other items. Date is the PDF creation date; the form's own edition date was not found.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-640",
+  "statement": "Through June 2023, 5,877 credible fear claims were eligible for an asylum merits interview under the Asylum Processing Rule, and of 1,824 USCIS case outcomes, 396 were asylum granted and 747 were referred to an immigration judge.",
+  "claim": "data",
+  "figures": [
+   "5,877",
+   "1,824",
+   "396",
+   "747"
+  ],
+  "source": "SRC-4304",
+  "anchor": [
+   "AMI-Eligible Credible Fear Claim Outcomes 5,877",
+   "AMI USCIS Case Outcomes 1,824 Asylum Granted 396 IJ Referral 747"
+  ],
+  "locator": "Slide 'Asylum Merits Interviews: Asylum Processing Rule Cohort Report: Outcome Summary' (DHS OIS data valid as of end June 2023)",
+  "grade": "B",
+  "fact_date": "2023-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Early cohort; 583 more cases were administratively closed and 98 pending. No time-to-decision figure appears in this slide. OIG-24-36 (July 2024) was inaccessible and concerns affirmative asylum backlog, so was not used.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-570",
+  "statement": "The legacy ledger carries the immigration bill (IMM-1, old E11) at -0.14 trillion dollars on the general fund (range -0.25 to -0.02), described as the S. 744 CBO pattern of about $175B in the first decade, not rescored.",
+  "claim": "analysis",
+  "figures": [
+   "-0.14",
+   "$175B"
+  ],
+  "source": "SRC-0049",
+  "anchor": [
+   "| IMM-1 | E11 | Immigration bill: tiered legalization, backlogs and H-1B fee, asylum processing, enforcement priorities and detention cap, birthright codification, USCIS delivery (IMM-1 to IMM-6) | FLOOR | General fund | -0.14 (-0.25--0.02) |",
+   "S.744 CBO pattern (~$175B first decade), not rescored"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy ledger, legacy/index/2029-trifecta-master-ledger.md, line 330. The $175B is widely reported as CBO's preliminary figure for the amended S. 744, not confirmed from CBO's text (EV-IMM-207; legacy-research.md, finding 1); CBO's final estimate was $158B (EV-IMM-205). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-200",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-IMM-213",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-571",
+  "statement": "The legacy immigration file sets a statutory cap on average daily detention of about 30,000, with a waiver for emergencies reported to Congress.",
+  "claim": "analysis",
+  "figures": [
+   "30,000"
+  ],
+  "source": "SRC-0023",
+  "anchor": [
+   "a statutory cap on average daily detention (about 30,000, estimate) with a waiver for emergencies reported to Congress"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy domain file, legacy/domains/domain-immigration.md, line 90. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-172",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-572",
+  "statement": "The legacy immigration file sets a statutory floor for annual refugee admissions of about 50,000.",
+  "claim": "analysis",
+  "figures": [
+   "50,000"
+  ],
+  "source": "SRC-0023",
+  "anchor": [
+   "a statutory floor for annual refugee admissions (about 50,000, estimate)"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy domain file, legacy/domains/domain-immigration.md, line 79; its basis (line 182) is the author's memory. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-634",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-IMM-463",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-573",
+  "statement": "The legacy capacity file gives USCIS $40 billion, 7% of the agency rebuild line, for administration of comprehensive immigration reform.",
+  "claim": "analysis",
+  "figures": [
+   "40",
+   "7%"
+  ],
+  "source": "SRC-0013",
+  "anchor": [
+   "| USCIS | 40 | 7% | Administration of comprehensive immigration reform (ledger E11) |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy capacity file, legacy/domains/domain-capacity.md, line 127. Provisional agency share under D9. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-574",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-574",
+  "statement": "The legacy capacity review's bottom-up need for asylum and refugee processing is about $5.4B over FY2030-39, and IMM-3's $10B is roughly double it.",
+  "claim": "analysis",
+  "figures": [
+   "$5.4B",
+   "$10B"
+  ],
+  "source": "SRC-0072",
+  "anchor": [
+   "This review's bottom-up asylum and refugee need ($0.43B a year, about $5.4B over FY2030-39) fits inside it",
+   "IMM-3's $10B is roughly double the bottom-up figure"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy capacity components, legacy/sources/capacity-recovery-components.csv, line 107. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-302",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-575",
+  "statement": "The legacy capacity components put USCIS backlog clearance (about 12M pending) at about $0.7B a year for four to five years.",
+  "claim": "analysis",
+  "figures": [
+   "$0.7B",
+   "12M"
+  ],
+  "source": "SRC-0072",
+  "anchor": [
+   "Backlog clearance (about 12M pending),2030,3.0,$B lifetime,1.5,5.0",
+   "About $0.7B a year for four to five years"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy capacity components, legacy/sources/capacity-recovery-components.csv, line 109. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-140",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-576",
+  "statement": "The legacy courts file costs the Article I immigration court at about $0.03T, range $0.02T to $0.06T, unscored.",
+  "claim": "analysis",
+  "figures": [
+   "$0.03T",
+   "$0.02T",
+   "$0.06T"
+  ],
+  "source": "SRC-0016",
+  "anchor": [
+   "About $0.03T, range $0.02T to $0.06T (estimate; unscored)."
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy courts file, legacy/domains/domain-courts.md, line 108. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-113",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-577",
+  "statement": "The legacy ledger's H-1B fee channel (IF1) raises 0.015 trillion dollars (range 0.010-0.020), spent within receipts on adjudication and training.",
+  "claim": "analysis",
+  "figures": [
+   "0.015",
+   "0.010",
+   "0.020"
+  ],
+  "source": "SRC-0049",
+  "anchor": [
+   "| IF1 | Statutory H-1B fee retained by USCIS and a training fund (IMM-2) | Immigration fees | 0.015 | 0.010 | 0.020 |",
+   "Spent within receipts on adjudication and training"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy ledger, legacy/index/2029-trifecta-master-ledger.md, line 399. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-057",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-578",
+  "statement": "The legacy agency rebuild proposes USCIS asylum and refugee processing $6B from its reserve, pending Espen.",
+  "claim": "analysis",
+  "figures": [
+   "$6B"
+  ],
+  "source": "SRC-0043",
+  "anchor": [
+   "USCIS asylum and refugee processing $6B"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy governing decisions, legacy/governing/project-2050-governing-decisions.md, line 239 (\"Reserve for batch 4 (pending Espen)\"). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-574",
+    "stance": "qualifies"
+   }
+  ]
  }
 ]

@@ -1,6 +1,6 @@
 # Dossier: A new consensus on immigration (flagship 6)
 
-Role: the immigration flagship (`charter/PLAN.md` 3.1). Status: started, stage E (board rows I1 and I2, done). Sections 1 and 2 are drafted, with the legacy record restated; section 3, the memo set, is next (I3); nothing is decided. Level: every item is at L1 (`DEC-2026-10-30-03`). The legacy designs are working choices, weighed as options in I3, not decisions (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4. The plan specifies immigration "well before the 2028 cycle" (`charter/PLAN.md` 6, stage E), because "a new consensus can win only if it is presented and defended in full" (3.1).
+Role: the immigration flagship (`charter/PLAN.md` 3.1). Status: started, stage E (board rows I1 to I3, done). Sections 1 and 2 are drafted, with the legacy record restated; section 3, the memo set (`3-design.md`, `memos/`), is with Espen as board question 0p; nothing is decided. Level: every item is at L1 (`DEC-2026-10-30-03`). The legacy designs are working choices, weighed as options in I3, not decisions (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4. The plan specifies immigration "well before the 2028 cycle" (`charter/PLAN.md` 6, stage E), because "a new consensus can win only if it is presented and defended in full" (3.1).
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly): "A humane, orderly and lawful system: legal pathways and status for long-settled residents, fair and fast adjudication, enforcement that respects rights, integration and workforce."
 
@@ -55,7 +55,7 @@ The secure floor made the same choice for the same reason (`dossiers/secure-floo
 | 1. The problem | `1-problem.md`: the unauthorized and long-settled population; TPS, DACA and parole; the backlogs; the border and asylum; the courts; enforcement and detention; birthright citizenship; USCIS; the 2025-26 changes; the January 2029 baseline table; inherited assumptions traced | Draft (I2) |
 | 2. What works | `2-what-works.md`: past legalizations; the fiscal and labor-market evidence; asylum adjudication; representation; alternatives to detention; E-Verify; integration; Canada, Australia and Europe; the bills compared, each against the January 2029 law | Draft (I2) |
 | Legacy record | `legacy-research.md`: every legacy figure with its file and line, basis tag and whether it needs re-running on the 2029 baseline | Draft (I2) |
-| 3. Design choices | `3-design.md` and `memos/` | Next (I3) |
+| 3. Design choices | `3-design.md` and `memos/`: seven memos, fourteen yes-or-no points, IMM-1's score re-derived | Draft for decision (I3; question 0p) |
 | 4-9 | Specification, delivery, cost, validation, what would change our minds, public case | Later |
 
 ## Files and ID ranges
@@ -70,10 +70,11 @@ The secure floor made the same choice for the same reason (`dossiers/secure-floo
   - 420-449: integration and naturalization;
   - 450-499: other countries;
   - 500-569: the bills;
-  - 570-589: legacy figures as grade D entries, for I3's memos;
-  - 590-599: the author's own entries (590-591, the registry statute).
+  - 570-589: legacy figures as grade D entries, for I3's memos (570-578 used);
+  - 590-599: the author's own entries (590-591, the registry statute);
+  - 600-699: section 3's benchmarks and design evidence (600-623, 625-640 used; I3).
 
-  288 entries are used: 001-061, 100-191, 200-238, 300-329, 350-362, 390-402, 420-431, 450-468, 475-476, 500-538 and 590-591, with gaps inside blocks.
+  337 entries are used: 001-061, 100-191, 200-238, 300-329, 350-362, 390-402, 420-431, 450-468, 475-476, 500-538, 570-578, 590-591, 600-623 and 625-640, with gaps inside blocks (624 was dropped as a duplicate of EV-IMM-145).
 - Sources: **Source IDs numbered 4000 to 4399 are reserved for the immigration dossier** (this README, November 12, 2026; the catalog's highest before it was SRC-3989). Sub-blocks:
   - 4000-4079: population, status and law;
   - 4080-4159: backlogs, courts, border and enforcement;
@@ -81,7 +82,7 @@ The secure floor made the same choice for the same reason (`dossiers/secure-floo
   - 4260-4379: adjudication, detention alternatives, E-Verify, integration and abroad;
   - 4380-4399: the author's own sources and I3 (4380, the registry statute, used).
 
-  143 sources are catalogued in the block: 4000-4025, 4080-4130 (4096, 4098 and 4101 merged into other rows and unused), 4160-4192, 4260-4303 (4292 merged and unused) and 4380.
+  143 sources are catalogued in the block: 4000-4025, 4080-4130 (4096, 4098 and 4101 merged into other rows and unused), 4160-4192, 4260-4303 (4292 merged and unused) and 4380. I3 added 4131-4135, 4193-4208 and 4304 (22 new rows; 4178, 4094, 4265 and 4380 reused).
 
   IDs are assigned by hand, because `library/build_catalog.py` assigns the next free number even inside a reserved block (`charter/PROGRESS.md`, "Known gaps"). A catalog row whose quotations were read through a search extract rather than the page says so in its note; the reviewer should spot-check those quotations.
 - The register also cites other dossiers' entries where they already hold a fact: for example EV-HOU-055 (immigrants' share of construction trades workers), EV-CAR-614 and EV-CAR-635 (the care workforce), and EV-CAR-008, EV-CAR-016 and EV-CAR-103 (the 2025 law's coverage limits on immigrants).
@@ -129,4 +130,4 @@ I3's memo set puts these to Espen as one batch. It follows the health memo set's
 
 ## Open questions for Espen
 
-None yet. I3's memo set will be one batch, decided item by item.
+Board question 0p: memos 1-7 and points 1-14 of `3-design.md`, one batch, each decided on its own.
