@@ -1,6 +1,6 @@
 # Project 2050: strategic reorientation and restructuring plan
 
-October 28, 2026 · Adopted by Espen Swanson (pronouns: they/them). Prepared by Claude Code. This document is the working plan for the project's next stage. Its progress is tracked on the progress board (`charter/PROGRESS.md`, created in stage A).
+Role: the project's plan: purpose, strategy, structure and sequence. Status: current; adopted by Espen Swanson (they/them) on October 28, 2026 (`DEC-2026-10-28-01`), with later decisions folded in. The rules sessions follow are in `charter/STANDARDS.md`; live status is on the progress board, `charter/PROGRESS.md`.
 
 ## 1. Purpose
 
@@ -20,14 +20,14 @@ Project 2050 sets out a vision of a country where people have security, time and
 
 ## 2. Starting point
 
-The project begins this stage with real strengths:
+At adoption (October 28, 2026), the project had real strengths:
 - **Purpose:** a clear and attractive purpose.
 - **Research:** a large body of research, now uploaded in full: the war-game set and Bill Book, the climate and carbon work, the transportation and rail plan, the health analysis, the poverty pilots and the SEEC Thriving Economy report.
 - **Models:** working fiscal, incidence, poverty, carbon, transportation and calendar models.
 - **A finished example:** one fully worked area, transportation.
 - **A public voice:** one that persuades without overclaiming.
 
-Its weaknesses define the work:
+Its weaknesses defined the work:
 - **Ideas outrun specification.** There are 22 policy areas and 438 distinct policy and option IDs, but few programs are specified well enough for a skeptical professional to check.
 - **Numbers move because designs are placeholders.** Precise arithmetic on vague designs produces churn: the capacity surge moved from about $600B to $105B within a week.
 - **Evidence is disconnected.** It reached the working files as conclusions and nicknames.
@@ -45,8 +45,8 @@ The project specifies a core of defining commitments first, to a professional st
 | # | Flagship | What it brings together |
 | --- | --- | --- |
 | 1 | **A secure floor for every household** | Monthly child benefit, income support and participation help, paid leave, Social Security protection |
-| 2 | **Care you can count on** | Health coverage restored and extended, by single-payer Medicare for All, a public option or a staged path between them (weighed in full in the care dossier), long-term care (support at home and in nursing homes for older and disabled people), child care and pre-K, the care workforce |
-| 3 | **A home you can keep** | Rental help as a guarantee, building and repair, zoning incentives |
+| 2 | **Care you can count on** | Health coverage for everyone through a staged path to single-payer Medicare for All, complete by 2035 (`DEC-2026-11-09-07`, `DEC-2026-11-10-09`, `-11`), long-term care (support at home and in nursing homes for older and disabled people), child care and pre-K, the care workforce |
+| 3 | **A home you can keep** | Rental help as a guarantee, building and repair, zoning incentives, help to buy a first home, rural housing through USDA, aging in place |
 | 4 | **Clean, affordable power and a prepared country** | Carbon fee and dividend, clean power and grid, adaptation and insurance, the clean-industry transition |
 | 5 | **Fair pay and real power at work** | Labor law, wage floors, sectoral standards, support when jobs change |
 | 6 | **A new consensus on immigration** | A humane, orderly and lawful system: legal pathways and status for long-settled residents, fair and fast adjudication, enforcement that respects rights, integration and workforce. A new consensus can win only if it is presented and defended in full, so it is specified early |
@@ -59,10 +59,9 @@ The project specifies a core of defining commitments first, to a professional st
 | **Fair financing** | Revenue rebalancing, the fiscal rule, the household fairness test. Settled once the flagship designs are fixed, so the arithmetic has stable inputs |
 
 **The full-scope agenda** covers every other topic, worked to the same standard in later waves:
-- **Wave two:** education (K–12 and higher education beyond care) and transportation, the areas the project expects to emphasize in a second term.
+- **Wave two:** education (K–12 and higher education beyond care) and transportation, the areas the project expects to emphasize in a second term. Transportation was converted early, in stage C, as the reference example of a finished dossier, and is at L3.
 - **Wave three:** everything else, including rights, public safety, national security, competition, executive power, Social Security beyond the floor and amendments.
 
-Transportation is already the most fully specified area, so it is also converted early as the reference example of a finished dossier.
 
 ### 3.2 The specification ladder
 
@@ -111,8 +110,8 @@ The models are also a professional product: validated analytical and policymakin
 | Core model | Serves | Built from |
 | --- | --- | --- |
 | **Household model:** taxes, benefits, poverty and distribution for real household types | Flagships 1, 2, 3, 5 and 6; the fairness test | The incidence model and the child-poverty microsimulation, unified |
-| **Health coverage model:** coverage, premiums, out-of-pocket costs and federal cost under restoration, a public option, single-payer Medicare for All, staged paths between them and Medicare changes | Flagship 2 | New, starting simple and benchmarked to CBO's coverage estimates |
-| **Federal budget model:** costs, revenues, the fiscal rule, trust funds | Every dossier; fair financing | The ledger, fiscal, recovery-budget and fund models |
+| **Health coverage model:** coverage, premiums, out-of-pocket costs and federal cost under restoration, a public option, single-payer Medicare for All, staged paths between them and Medicare changes | Flagship 2 | Built in stage D (`models/tools/health-coverage/`), benchmarked to CBO's coverage estimates |
+| **Federal budget model:** costs, revenues, the fiscal rule, trust funds | Every dossier; fair financing | The ledger, fiscal, recovery-budget and fund models; rebuilt in `models/tools/budget/` (conventions, data layer, provision library, benchmarks and model card) |
 | **Energy and climate model:** emissions, prices, bills, dividends | Flagship 4 | The carbon model and the climate portfolio tools |
 | **Housing model:** assistance reach, rents, supply | Flagship 3 | New, small and evidence-based |
 | **Immigration model:** system capacity, adjudication, fiscal and labor-market effects | Flagship 6 | New, built during that dossier |
@@ -140,7 +139,8 @@ The project uses a clean tree. The previous tree is preserved unchanged and read
 ```
 charter/          goals, the flagship list, the outcomes record, the decision log, the standards page, the progress board
 dossiers/
-  <flagship>/     the dossier sections (3.3), its evidence register, provisions and decision log
+  <flagship>/     the dossier sections (3.3), its evidence register, provisions and decision memos
+  scenario/       the political planning scenario (stage B)
   foundations/    democratic renewal, fair financing
   agenda/         wave-two and wave-three dossiers as they start
 agenda/           every policy item, one row each: ID, plain name, home dossier, level, status, source, note
@@ -192,44 +192,11 @@ The process is designed for AI agents working without memory between sessions, w
 - **One canonical home per fact.** Generated indexes (the name index, readable registers, the agenda view) are rebuilt by script, never hand-edited.
 - **Bounded tasks.** One dossier step per session, so work finishes, gets checked and lands.
 
-**The session routine.** Every agent session follows the same steps:
-1. Read `charter/STANDARDS.md` and `charter/PROGRESS.md`.
-2. Claim one step (the lead names it in the brief; the PR's title names it).
-3. Read that dossier's files and the evidence it needs.
-4. Do the step.
-5. Run the checks.
-6. Write the board update in the PR description: done, next, and open questions for Espen. Only the lead edits the board (`DEC-2026-11-12-03`).
-7. Open a PR.
-
-**Choosing the model for the work.** Sessions use the lightest model that can do the step well, and the strongest model where care and judgment matter. Errors in large, interconnected datasets propagate, so mistakes there cost more than the tokens saved.
-
-| Tier | Use for | Examples |
-| --- | --- | --- |
-| **Light** (Haiku-class) | Mechanical work with a clear spec and automatic checks | File moves and link updates; regenerating outputs; running checks; formatting; updating the progress board; gathering catalog facts by script; extracting text from originals |
-| **Standard** (Sonnet-class) | Structured work that needs some judgment within a settled design | Cataloguing (status, aliases, rights); drafting evidence entries from originals; writing model code and tests to a written spec; drafting dossier sections from existing evidence; checklist reviews |
-| **Most capable** (Opus-class) | Strategy, design, synthesis, and work where an error would spread | Design choices and decision memos; dossier problem, design and specification sections; reconciling conflicting evidence; model design (mechanisms, evidence maps) and integrating the household, health and budget models; adversarial milestone reviews; legal and constitutional analysis; public briefs |
-
-**Rules:**
-- **Every step on the progress board names its tier,** so the right model is chosen when a session starts.
-- **A lighter model that meets ambiguity stops and flags it.** It doesn't guess: it leaves a note in its PR for a stronger session and tells its report-back address.
-- **Strong sessions delegate mechanical subtasks to lighter subagents** where the tools allow, and check the results.
-- **When unsure, go one tier up.** A wrong judgment in a canonical file or model costs more to find and fix than the difference in usage.
-- The same tiers apply to other vendors' agents, by capability.
-
-**Merging:**
-- **Routine changes** merge once checks pass. These are research, evidence, models, dossier drafts and public pages that change no commitment.
-- **Decisions** wait for Espen. These are the charter, the flagship list, design choices at real forks, and anything that changes what the project commits to.
+**The rules.** The session routine, model tiers, merge categories, decision memos, sessions and roles are in `charter/STANDARDS.md`, the one place sessions read them. The mechanics of starting and handing over sessions are in `.claude/skills/sessions/SKILL.md`.
 
 **Review:**
-- **Dossiers:** a second agent reviews each dossier against a checklist when it reaches L2 and again at L3, rather than on every PR. The reviewer tries to break the work, looking for weak evidence, missing populations, optimistic assumptions and cheaper alternatives.
+- **Dossiers:** a second agent reviews each dossier at L2 and again at L3 (`charter/STANDARDS.md`, "Milestone review"). Every PR also gets an agent review before it merges.
 - **Outside reviewers:** people who run these programs should eventually review each flagship dossier. That needs Espen, since agents never contact other people.
-
-**Decision memos.** At each real fork, Espen gets two to four options, a recommendation, and the consequences of each. Approval is given per decision, not as a package.
-
-**Roles:**
-- **Claude** leads the dossiers, the federal budget model with its shared fiscal inputs (`DEC-2026-11-08-02`), and fair financing, the financing settlement (`DEC-2026-11-11-07`).
-- **Codex** review is not required for the federal budget model or the financing settlement; they merge on the Claude reviewer's review (`DEC-2026-11-12-01`).
-- At most two dossiers are active at once.
 
 **Paused:**
 - new policy areas outside the agenda file (ideas are still logged there);
@@ -238,7 +205,7 @@ The process is designed for AI agents working without memory between sessions, w
 
 ## 6. Sequence
 
-A session is one focused working session by one agent.
+A session is one focused working session by one agent. The session counts are the estimates made at adoption; stages C and D have needed several times more, mostly for memo rounds and reviews. Each stage's status is on the progress board.
 
 | Stage | Work | Sessions |
 | --- | --- | --- |
@@ -246,6 +213,7 @@ A session is one focused working session by one agent.
 | **B. Post-election update** | Rebaseline the political planning scenario after the November 3 results | 1–2 |
 | **C. First dossiers** | Housing, the first full dossier. Transportation, converted as the reference example. Fix the templates from what these teach | 5–7 |
 | **D. Care and the secure floor** | Flagships 2 and 1, the largest design questions. Build the household and health coverage models alongside | 12–16 |
+| *Alongside C-D* | *The federal budget model (`models/tools/budget/`, steps B1-B7), on which every dossier is booked* | — |
 | **E. Climate and immigration** | Flagships 4 and 6, with immigration specified well before the 2028 cycle | 9–12 |
 | **F. Work and democratic renewal** | Flagship 5 and the democratic renewal foundation, including state capacity sized to the specified flagships | 7–10 |
 | **G. Fair financing** | The financing settlement, solved once on stable designs, with the household fairness test | 3–5 |
@@ -257,7 +225,6 @@ A session is one focused working session by one agent.
 - **First wave (stages A–H):** about 47–67 sessions.
 - **Full scope (adding stages I–J):** about 75–110 sessions.
 
-**When credits are scarce,** stages A and B and the housing dossier come first, about 10 sessions. That gives a clean project, a current political frame and one complete dossier as the pattern for the rest.
 
 Housing comes first because it is ready. Care and the secure floor come early because they define the project. Financing comes after the designs it pays for. At every stage boundary Espen holds a short strategic review, and the flagship list can change when the evidence warrants it.
 
@@ -269,7 +236,7 @@ Housing comes first because it is ready. Care and the secure floor come early be
   - check public sources on the web;
   - write, test and benchmark models;
   - draft specifications, decision memos and briefs.
-- **What agents cannot reach:** the claude.ai Projects, the ChatGPT Library, or paywalled sources. Espen uploads what's needed.
+- **What agents cannot reach:** the claude.ai Projects, the ChatGPT Library, paywalled sources, and some government sites that block downloads (`charter/STANDARDS.md`, "Sources you can't download directly"). Espen uploads what's needed.
 - **Judgment calls.** Levels, grades and which claims carry weight can be wrong. The checks and milestone reviews catch most errors. Values and priorities belong to Espen, through decision memos.
 - **No contact with other people.** Agents never contact people on Espen's behalf.
 
@@ -284,4 +251,4 @@ Housing comes first because it is ready. Care and the secure floor come early be
 | Registers become busywork | Only claims that carry weight are registered |
 | Models imply precision they lack | Model cards, benchmarks, stated limits, and no claim to official scores |
 | Licensed material leaks into the public repository | The catalog's rights field, and quotations only |
-| Review capacity runs short | Milestone reviews, small PRs, and Espen's direct approval for decisions |
+| Review capacity runs short | A standing reviewer session, milestone reviews, small PRs, and Espen's direct approval for decisions |

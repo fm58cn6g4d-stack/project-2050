@@ -32,6 +32,8 @@ The board's **Standing sessions** table (top of `charter/PROGRESS.md`) names the
 - **It's a small subtask.** Use a subagent inside your own session (the Agent tool, with a lighter model where it fits) and check its result. A new session costs a cold read of the repository.
 - **The step waits on something.** If it waits on Espen, put the question on the board. If it waits on a release or a merge, schedule a check-in with `send_later` instead of keeping a session waiting.
 - **Another session is writing the same files**, or the step is claimed on the board or in an open PR.
+- **The work overlaps an open PR's files** (the board included). Run one PR at a time on overlapping files, each started from main after the last merges.
+- **It is a follow-up to open work.** Fold small follow-ups into the open PR or its author's session. Put an audit and its fixes in one session when independence isn't needed.
 - **The cap is reached.** At most **three** Claude sessions working at once on Project 2050, counting the reviewer while it runs (Espen's Max plan shares one usage allowance). To count: page through `list_sessions` (`mine: true`, then `after_id` while `has_more`). Keep the sessions tagged `project-2050` or titled "Project 2050…", plus the reviewer by its ID, and count those whose `session_status` is `SESSION_STATUS_RUNNING`. The list includes Espen's other projects, and its `status_bucket` "working" includes idle sessions, so don't count by bucket.
 
 ## Choosing the model
@@ -79,7 +81,7 @@ The lead and the reviewer run for days. Their context grows, and old context sta
 
 **When.** Hand over at the first of these:
 - **A stage ends** (the lead only): stage C to D, or stage B after the November 3 results.
-- **Context passes 600,000 tokens**, as `get_session` reports in `external_metadata.context_usage.used_tokens`. Automatic compaction starts near 784,000 and loses detail, so hand over before it. The lead checks its own figure and the reviewer's whenever it updates the board.
+- **Context passes 600,000 tokens**, as `get_session` reports in `external_metadata.context_usage.used_tokens`. A standing session fills that in about 6 to 12 hours of heavy work. Automatic compaction starts near 784,000 and loses detail, so hand over before it. The lead checks its own figure and the reviewer's whenever it updates the board.
 - **The session has gone wrong**: it has failed repeatedly, its view of the files predates large merges, or Espen asks.
 
 Don't hand over in the middle of a step you are writing yourself. Finish it or put it in a PR first.
@@ -154,6 +156,8 @@ The lead is the one session that knows everything in motion, so a handover or a 
 - **One safety-net check-in every three hours** (`send_later`), for anything nobody reported: one batched look at the open PRs and `get_session` on each active session.
 - **At each event, a quick context check**: `get_session` on the sessions it touches, noting their state and context size, so handovers start before 600,000 tokens.
 - **Workers send three messages only**: `ready`, `blocked` and `done`. No progress reports.
+- **Keeping PRs current.** Tier-3 PRs fall behind main within minutes. Update a PR's branch with GitHub's update (or a merge of main), not a push of new content, so approvals and the label carry over; when the update tool refuses with a head mismatch, ask the PR's author. After Espen labels a PR, update its branch at once if it has fallen behind.
+- **Report a merge only on the closed event,** or a read showing `merged: true`, never on a gate comment saying "merging now".
 
 ## Pinging another session
 

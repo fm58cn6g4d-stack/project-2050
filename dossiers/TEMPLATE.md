@@ -60,7 +60,9 @@ Sections are written in order. A section is added when it is drafted; the README
   - Narrower points go in section 3 as a numbered yes-or-no list. None is adopted by silence.
   - Send the batch once, so Espen decides in one round. Sections 4 to 9 may be drafted on the recommendations meanwhile, and are revised for any other answer.
   - Once decided, each memo's status line and section 3 cite the `DEC-` entry.
-  - Transportation's six memos and eight points were decided in one round; housing's thirteen memos took several.
+  - What a good memo set has (care's `3-design.md`, memos 1-5, and the S. 1506 comparison are the model): a forks-at-a-glance table; costs benchmarked against outside scores (CBO, JCT, SSA's actuaries, TPC and others); a bill-by-bill comparison; plain consequences for real households; every inherited assumption traced to its source, saying whether Espen decided it.
+  - Offer Espen a decision sheet (an artifact listing each memo's options and the recommendation) alongside the board question.
+- **Rural delivery.** Where a program must reach rural places, section 5 looks first at USDA's local channels (Rural Housing Service, Rural Utilities Service, Rural Business-Cooperative Service, the state and area offices) before building new ones, and weighs scaling them up, with the staff, money and eligibility they need (`DEC-2026-11-09-26`; evidence in `dossiers/foundations/rural-delivery.md`).
 - **Section 9 only from sections 1 to 8.**
   - Every number in the public case appears in sections 1 to 8 with its evidence ID, and a source table at the end traces each one.
   - A project estimate is shown as one, with "about", its range or "on our estimates", and a result that holds only under conditions carries them.
