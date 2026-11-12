@@ -136,4 +136,4 @@ S3's memo set puts these to Espen (`3-design.md`, "The forks at a glance", maps 
 
 ## Open questions for Espen
 
-Question 0o is decided (`DEC-2026-11-12-06`). The specification's one new question is decided too: the $500 credit for other dependents ends with the American Family Act, for now (`DEC-2026-11-12-09`; `4-specification.md`, FAM-1.11). None is open.
+Question 0o is decided (`DEC-2026-11-12-06`). The specification's one new question is decided too: the $500 credit for other dependents ends with the American Family Act, for now (`DEC-2026-11-12-09`; `4-specification.md`, FAM-1.11). None of those is open. Two questions are open from the milestone review (`review-milestone.md`, #298), for the lead to put to Espen: (1) whether to extend SSI to Puerto Rico, Guam, the Virgin Islands and American Samoa, about $2.5-3 billion a year (`8-change-our-minds.md`, "Left open"; `6-cost.md`, part 2); (2) SS-8's share against SS-7.01's start, since at a 20% share the investment closes little and the one-point fallback is the expected closer (`6-cost.md`, part 4).
