@@ -148,7 +148,9 @@ ROOM_BOARD_FED_2035 = (1.8, 2.7, 3.6)
 # administrative data (see 6bcd-cost.md, part 2, for its evidence entry); kept at the FY2029 level, indexed to
 # prices at 2.5% a year (working assumption), from program year 2030-31.
 CCDF_2026 = 12.4
-CCDF_SCHOOL_AGE_SHARE = (0.30, 0.35, 0.40)
+# ACF's FY2023 data (EV-CAR-700): 34% of children served are 6 to under 13 and 10% are 5 to under 6, about 44% in
+# all. School-age care is mostly part-day and costs less a child, so the spending share is lower (judgment).
+CCDF_SCHOOL_AGE_SHARE = (0.30, 0.35, 0.44)
 # M-1: the territories (about 3.5 million people, EV-CAR-356, EV-CAR-357), not in the part files' national
 # figures. Judgment: child care and pre-K at 0.5-1.0% of part C's path (their share of children under 5, with
 # lower median incomes, so more families free); long-term care from 2035 at 0.5-1.5% of the benefit and the
