@@ -138,6 +138,44 @@ def part_d(i):
             'parity_py': parity, 'staffing': staffing, 'points': points}
 
 
+# ---------------- Items the milestone review added (review-milestone-bcd.md, B-1, M-1, M-2) ----------------
+# B-1: room-and-board help from 2035 income-tested only (memo 8 C), not with HLT-4.04's $10,000 limit. Federal
+# cost in calendar 2035 (judgment, the reviewer's order of magnitude: a few hundred thousand long-stay residents
+# with savings above $10,000 and income below room and board; $3-6B in all, about 60% federal), growing 5.5%.
+ROOM_BOARD_FED_2035 = (1.8, 2.7, 3.6)
+# M-2: CCDF kept as a block grant for children 5 to 12. Part C netted all of today's CCDF (about $12.4B) into
+# the under-5 guarantee (3c); only its under-5 share should move. The school-age share is from ACF's
+# administrative data (see 6bcd-cost.md, part 2, for its evidence entry); kept at the FY2029 level, indexed to
+# prices at 2.5% a year (working assumption), from program year 2030-31.
+CCDF_2026 = 12.4
+# ACF's FY2023 data (EV-CAR-700): 34% of children served are 6 to under 13 and 10% are 5 to under 6, about 44% in
+# all. School-age care is mostly part-day and costs less a child, so the spending share is lower (judgment).
+CCDF_SCHOOL_AGE_SHARE = (0.30, 0.35, 0.44)
+# M-1: the territories (about 3.5 million people, EV-CAR-356, EV-CAR-357), not in the part files' national
+# figures. Judgment: child care and pre-K at 0.5-1.0% of part C's path (their share of children under 5, with
+# lower median incomes, so more families free); long-term care from 2035 at 0.5-1.5% of the benefit and the
+# care part; the bridge's points and the floor outside the capped allotments, $0.2-1.0B a year in 2030-34
+# (the floor's lift is larger where wages are far below $20).
+TERR_C = (0.005, 0.007, 0.010)
+TERR_B = (0.005, 0.010, 0.015)
+TERR_BRIDGE = (0.2, 0.5, 1.0)
+
+
+def review_items(i, b, c):
+    room = {y: ROOM_BOARD_FED_2035[i] * G ** (y - 2035) for y in range(2035, 2041)}
+    ccdf = {py: CCDF_2026 * CCDF_SCHOOL_AGE_SHARE[i] * 1.025 ** (py - 2026) for py in range(2030, 2041)}
+    c_all = {py: sum(c[k].get(py, 0.0) for k in ('child_care', 'state_share_cut', 'pre_k', 'facilities'))
+             for py in range(2030, 2041)}
+    terr_c = {py: v * TERR_C[i] for py, v in c_all.items()}
+    terr_b = {y: (b['memo6b'].get(y, 0) + b['memo8c'].get(y, 0)) * TERR_B[i] for y in range(2035, 2041)}
+    terr_bridge = {y: TERR_BRIDGE[i] for y in range(2030, 2035)}
+    return {'B room and board without an asset test (B-1)': fy_from_cy(room),
+            'C CCDF kept for school-age children (M-2)': fy_from_py(ccdf),
+            'Territories: child care and pre-K (M-1)': fy_from_py(terr_c),
+            'Territories: long-term care from 2035 (M-1)': fy_from_cy(terr_b),
+            'Territories: bridge and floor outside the cap (M-1)': fy_from_cy(terr_bridge)}
+
+
 def fy_lines(i):
     b, c, d = part_b(i), part_c(i), part_d(i)
     out = {}
@@ -154,6 +192,7 @@ def fy_lines(i):
     extra = {'B small items (points 2-4, 6)': {y: part_b_small().get(y, 0.0) for y in FY},
              'C wage growth in labor (3d)': fy_from_py(c['wage_growth_fix']),
              'D floor delayed with option 4': fy_from_cy(d['floor_opt4'])}
+    extra.update(review_items(i, b, c))
     return out, extra, (b, c, d)
 
 
@@ -165,25 +204,25 @@ def main():
     lines, extra, raw = fy_lines(1)
     print('CARE PARTS B-D AS DECIDED: FEDERAL COST BY FISCAL YEAR ($ billion, central)')
     hdr = ''.join(f'{y:>7}' for y in FY)
-    print(f'{"line":36}{hdr}  FY30-39')
+    print(f'{"line":52}{hdr}  FY30-39')
     parts = {'B': 0, 'C': 0, 'D': 0}
     part_fy = {p: {y: 0.0 for y in FY} for p in parts}
     for k, s in lines.items():
-        print(f'{k:36}' + ''.join(f'{s.get(y, 0):7.1f}' for y in FY) + f'  {tot(s):7.0f}')
+        print(f'{k:52}' + ''.join(f'{s.get(y, 0):7.1f}' for y in FY) + f'  {tot(s):7.0f}')
         for y in FY:
             part_fy[k[0]][y] += s.get(y, 0.0)
     print()
     for p in 'BCD':
         s = part_fy[p]
-        print(f'{"part " + p + ", decided pieces":36}' + ''.join(f'{s[y]:7.1f}' for y in FY) + f'  {tot(s):7.0f}')
+        print(f'{"part " + p + ", decided pieces":52}' + ''.join(f'{s[y]:7.1f}' for y in FY) + f'  {tot(s):7.0f}')
     allp = {y: sum(part_fy[p][y] for p in 'BCD') for y in FY}
-    print(f'{"ALL THREE, decided pieces":36}' + ''.join(f'{allp[y]:7.1f}' for y in FY) + f'  {tot(allp):7.0f}')
+    print(f'{"ALL THREE, decided pieces":52}' + ''.join(f'{allp[y]:7.1f}' for y in FY) + f'  {tot(allp):7.0f}')
     print()
     print('Corrections and items outside the decided figures (FY basis)')
     for k, s in extra.items():
-        print(f'{k:36}' + ''.join(f'{s.get(y, 0):7.1f}' for y in FY) + f'  {tot(s):7.0f}')
+        print(f'{k:52}' + ''.join(f'{s.get(y, 0):7.1f}' for y in FY) + f'  {tot(s):7.0f}')
     allx = {y: allp[y] + sum(s.get(y, 0.0) for s in extra.values()) for y in FY}
-    print(f'{"ALL THREE, with them":36}' + ''.join(f'{allx[y]:7.1f}' for y in FY) + f'  {tot(allx):7.0f}')
+    print(f'{"ALL THREE, with them":52}' + ''.join(f'{allx[y]:7.1f}' for y in FY) + f'  {tot(allx):7.0f}')
 
     # Calendar-year reading the part files and memo 17 use, rebuilt from the same pieces
     b, c, d = raw

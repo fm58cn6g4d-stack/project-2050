@@ -26,17 +26,21 @@ Role: section 8 of the care dossier for parts B, C and D. For each decided choic
 
 - **The Senate rules reform fails** (D2). Health's fallback moves the plan's money into a later reconciliation act (`5-delivery.md`, part 3). The benefit's money can ride it; the staffing standard, the assessment's rules and the family-caregiver decision point wait for 60 votes; the bridge is extended a year at a time so no one loses Medicaid's help (`5bcd-delivery.md`, part 3).
 - **R2 fails or is late.** Child care and pre-K run from enactment with a latest date (FAM-2.03). If R2 fails outright, they move to the next reconciliation bill; the 2024 protections (point 1) and the block grant at FY2026 levels are the floor meanwhile.
-- **The states' payment or the declining-state obligation is struck** (HLT-9.09, FAM-2.08). *NFIB v. Sebelius* held that threatening existing Medicaid funds to force a new program was coercive [EV-CAR-351]; the Part D clawback, the model, has never been decided on the merits [EV-CAR-353] [EV-CAR-354]. If struck: the payment ends (hold harmless), the federal cost rises by about $0.6 trillion over FY2030-39 for long-term care, and child care's saving falls to about a third of its size if a third of states decline (`6bcd-cost.md`, part 6). The fallback for child care and pre-K is the ordinary kind: the federal share as a condition a state may decline, with HHS running it there. The legal review at L4 confirms the drafting.
+- **The states' payment or the declining-state obligation is struck** (HLT-9.09, FAM-2.08). *NFIB v. Sebelius* held that threatening existing Medicaid funds to force a new program was coercive [EV-CAR-351]; the Part D clawback, the model, has never been decided on the merits [EV-CAR-353] [EV-CAR-354]. If struck: the payment ends (hold harmless), the federal cost rises by about $0.6 trillion over FY2030-39 for long-term care, and child care's saving falls to about a third of its size if a third of states decline (`6bcd-cost.md`, part 6). The fallback for child care and pre-K is the ordinary kind: the federal share as a condition a state may decline, with HHS running it there. **One instrument, one risk.** Health's payment (HLT-7.17), part B's (HLT-9.09) and the declining-state share (FAM-2.08) all rest on the same untested offset, and after 2035 its base reaches federal payments outside Medicaid, beyond the clawback precedent. One ruling against it would cost about $650 billion a year in FY2040, health's included (`6bcd-cost.md`, part 6), against a plan-wide gap of about $4,243-4,403 billion. The legal review at L4 confirms the drafting, and the settlement should hold that row as one contingent stream.
 - **The staffing standard is challenged.** The 2024 rule fell for want of authority [EV-CAR-602]; this standard is in statute, so the challenge would be to Congress's power, which the Medicare and Medicaid conditions of participation have long rested on.
 - **Faith-based providers** (FAM-2.09): a challenge to indirect aid through parents' choice; the legal review at L4 confirms the route.
 - **The Labor Department restores the home care exemptions** [EV-CAR-616]: the floor still covers publicly paid care; point 2 asks the work flagship to restore overtime in statute.
+
+## Left open (not decided)
+
+- **School-age care beyond today's block grant.** FAM-2.04 keeps CCDF for children aged 5 to 12 at its current share, so no child loses help. Whether to expand before- and after-school and summer care is a later question for this dossier or the education flagship; no choice now turns on it.
 
 ## Hard stops
 
 The design no longer holds, and goes back to Espen in full, if:
 - the financing settlement cannot finance parts B-D on top of health at any start date the Senate will pass;
 - by 2033 the workforce counts show home care and child care hiring falling further behind the need each year despite the floor and training, so that a 2035 benefit would be a promise of care that cannot be staffed;
-- the states' payments fail in court and the settlement cannot replace them.
+- the states' payments fail in court and the settlement cannot replace them: at about $650 billion a year in FY2040 with health's, that would mean finding a seventh of the plan-wide gap again, or asking Espen to reopen the states' shares and the endpoint dates together.
 
 ## When the evidence arrives
 

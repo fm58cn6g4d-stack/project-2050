@@ -65,7 +65,7 @@ Role: section 7 of the care dossier for parts B, C and D: how the cost in sectio
 *The decided rules on typical cases* (project arithmetic on the cited prices):
 - **A family with one toddler** in a market where full-time care costs the national average, $13,184 in 2025 (Child Care Aware) [EV-CAR-515]: at or below 85% of state median income it pays nothing; at 120% it pays at most about 3.8% of income (the straight line from 0% at 85% to 7% at 150%, FAM-2.01); at 150% or above, at most 7% of income. A family paying the full price today at 150% of median income pays less under the cap wherever 7% of its income is below the price.
 - **An older adult needing help at home** with three activities: no asset test and no estate recovery; the plan's copays only above 200% of poverty, capped at $1,000 a year (HLT-7.06), against a lifetime average of $137,800 in paid long-term care, almost 59% of it paid out of pocket today, with almost two in ten spending at least $100,000 (ASPE) [EV-CAR-401].
-- **A nursing-home resident** at $114,975 a year (CareScout, 2025) [EV-CAR-437]: the plan pays the care part (60-70%, judgment); the resident pays room and board (about $34,000-46,000) from income, keeping the protected allowance, and up to 20% of the care part from income left after that. Savings and the home are never spent down, and a spouse at home keeps the income they need.
+- **A nursing-home resident** at $114,975 a year (CareScout, 2025) [EV-CAR-437]: the plan pays the care part (60-70%, judgment); the resident pays room and board (about $34,000-46,000) from income, keeping the protected allowance, and up to 20% of the care part from income left after that. If her income does not cover room and board, Medicaid pays the rest, income-tested only, with no savings test (HLT-4.08, memo 8 C), so from 2035 savings and the home are never spent down; a spouse at home keeps the income they need. (In 2030-34, before the benefit, Medicaid's savings limit rises to $10,000, HLT-4.04.)
 
 **Who gains first.**
 - From January 2030: Medicaid home care workers (the floor); people facing estate recovery or the $2,000 asset limit; states taking the bridge.
@@ -76,7 +76,7 @@ Role: section 7 of the care dossier for parts B, C and D: how the cost in sectio
 
 **Outcomes it serves:**
 - **OUT-03** (care people can count on): long-term care without spend-down; child care and pre-K for every child; care workers paid enough to stay.
-- **OUT-02** (planning beyond the next paycheck): the end of the long-term care spend-down and of most child care bills.
+- **OUT-02** (planning beyond the next paycheck): the end of the long-term care spend-down from 2035 (no asset test for the benefit or for room-and-board help) and of most child care bills.
 - **OUT-08** (time and practical freedom): family caregivers' respite and pay; parents' time to work.
 - **OUT-01** (child poverty): free care for families below 85% of state median income.
 
