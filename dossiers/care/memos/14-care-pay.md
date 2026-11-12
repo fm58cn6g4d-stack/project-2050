@@ -1,6 +1,6 @@
 # Memo 14: How care workers' pay is set in home care and nursing homes
 
-Role: decision memo for Espen, fork 14 of the care dossier (part D, the care workforce; `../3d-design-workforce.md`). Status: **for Espen, not decided.** Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`). Costs marked "judgment" are this dossier's working assumptions, not official scores; their basis is in `../3d-design-workforce.md`, "What the options cost", and `../tools/workforce_demand.py`.
+Role: decision memo for Espen, fork 14 of the care dossier (part D, the care workforce; `../3d-design-workforce.md`). Status: **decided by Espen, November 11, 2026: B at $20** (`DEC-2026-11-11-04`); cost lines re-audited in step 8 at the federal cost only, on part B's three-activity line, with the bridge's share at each state's bridge rate (`../3d-design-workforce.md`, "What is and isn't counted"). Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`). Costs marked "judgment" are this dossier's working assumptions, not official scores; their basis is in `../3d-design-workforce.md`, "What the options cost", and `../tools/workforce_demand.py`.
 
 **This memo decides whether, how and at what level the federal government sets the pay of the people who give care that public money pays for at home and in nursing homes.** It covers home health and personal care aides, paid family caregivers, nursing assistants and other direct care staff, under Medicaid in 2030-34 and under the single plan's home care benefit from 2035 (part B, memo 6). Early educators are memo 15; nursing home staffing levels are memo 16.
 
@@ -14,7 +14,7 @@ Role: decision memo for Espen, fork 14 of the care dossier (part D, the care wor
   - *The pay rule:* the 2024 rule that 80% of home care payments go to workers' pay starts only in July 2030, and the administration plans to rescind or revise it (CMS, 2024 and 2025) [EV-CAR-419] [EV-CAR-420].
   - *Wage law:* the Labor Department has proposed restoring home care's exemption from minimum wage and overtime (2025) [EV-CAR-616].
   - *Federal standard:* none.
-- **Why it matters for the plan.** Parts B and C would need about 3.6 million more paid care workers at maturity, between 1.2 and 9.9 million (project arithmetic, on part B's revised figures; `../1d-problem-workforce.md`, part 5). Their costs assume today's wages. A benefit nobody can be hired to deliver turns into a waiting list.
+- **Why it matters for the plan.** Parts B and C would need about 2.8 million more paid care workers at maturity, between 0.9 and 8.8 million (project arithmetic, on part B's decided three-activity line; 3.6 million at two activities; `../1d-problem-workforce.md`, part 5). Their costs assume today's wages. A benefit nobody can be hired to deliver turns into a waiting list.
 - **The legacy design.** Federal standards boards for home care (LAB-3, the work flagship's), with a Medicaid pass-through. It is a working choice, weighed here (`DEC-2026-10-30-02`).
 
 ## What the evidence says, in five lines
@@ -39,19 +39,20 @@ Role: decision memo for Espen, fork 14 of the care dossier (part D, the care wor
 **B. A federal care wage floor that the payer funds in its rates, with the 80% share as its check, and states free to go higher (recommended).**
 - *What it is:*
   - *The floor:* a minimum hourly wage for every worker giving publicly paid home care or nursing home care, set in the 2029 law, indexed to average wages each year and higher where a state or local minimum is higher (part 2 sets the level).
-  - *Who pays:* the payer funds it. From 2030 Medicaid rates must cover the floor, with the federal government paying 90% of the added cost. From 2035 the single plan's home care rates include it.
+  - *Who pays:* the payer funds it. From 2030 Medicaid rates must cover the floor, with the federal government paying the added cost at each state's bridge rate, its regular match plus the bridge's points, about 68% (90% before step 8). From 2035 the single plan's home care rates include it.
   - *The check:* the 80% share applies as a check that money reaches workers, not as the main tool. States keep the small-provider option [EV-CAR-636].
   - *Above the floor:* states may set higher wages by a standards board (Minnesota) or by bargaining (Washington), and those are allowable costs (point 3).
   - *Family caregivers:* paid relatives get the floor (point 1).
 - *Where tried:* Minnesota's nursing home board [EV-CAR-618]; Colorado's legislated base wage [EV-CAR-628]; California's health care minimum wage, which reaches home health agencies and holds free-standing nursing homes out until a spending rule exists (California Department of Industrial Relations) [EV-CAR-619]. Nevada's board recommended a $25 rate and a $15 floor (2022) [EV-CAR-622]. No national program.
 - *For workers (illustrative):* at $20 an hour, a full-time aide earns about $41,600 a year, against about $34,900 at today's home care median. A paid daughter caring for her father is paid the same.
-- *Cost:* at $20, about $47 billion in 2035 (range $25-95 billion), about $0.35 trillion over FY2030-39 and about $62 billion in FY2040 (judgment; part 2 gives the other levels).
-  - *Where it comes from:* about 12% more payroll on about $617 billion of publicly paid home care in 2035 (today's Medicaid home care grown, plus the part of memo 6 B's new money that buys new hours, as part B revised it), plus $2-4 billion in nursing homes.
+- *Cost:* at $20, about $42 billion in 2035 (range $23-91 billion), about $0.30 trillion over FY2030-39 and about $55 billion in FY2040 (judgment; part 2 gives the other levels). Before step 8: $47 billion, $0.35 trillion and $62 billion.
+  - *Where it comes from:* about 12% more payroll on about $538 billion of publicly paid home care in 2035 (today's Medicaid home care grown, plus the part of memo 6 B's new money that buys new hours, at three activities; $617 billion at two), plus $2-4 billion in nursing homes.
+  - *Only the federal government's actual cost:* the 12% is the lift above the wages the baseline already projects for 2026, and the index is the same wage growth the baseline uses, so no raise workers would have had anyway is counted. Private-pay care is outside the floor and the base (`../3d-design-workforce.md`, "What is and isn't counted").
   - *How it compares:* LeadingAge's model put a living wage for all direct care workers at $9.4 billion in 2022 (LeadingAge LTSS Center, 2020) [EV-CAR-626]. Grown to 2035 and doubled for memo 6 B's added hours, it is the same order of magnitude, though it covers all direct care at a different wage level. CBO's score of Build Back Better's home care money, a match increase with conditions, was about $150 billion over ten years (KFF's report of CBO, 2021) [EV-CAR-447], between A and B.
 - *Evidence strength:* quasi-experimental and program evaluation for pay's effect on retention and quality (lines 1 and 4). The floor's design is state practice, not evaluated. The level is judgment.
 - *Political risk:*
   - *Cost:* the cost is new federal spending tied to the single plan's financing.
-  - *States:* they object to a federal wage condition in Medicaid. The 90% federal payment in the bridge answers the cost, not the principle.
+  - *States:* they object to a federal wage condition in Medicaid. Federal payment at the bridge rate in 2030-34 answers most of the cost, not the principle; states pay about a third, about $6 billion a year.
   - *Agencies:* they back a floor only if rates follow; the law writes the rate rule with the floor.
   - *Opponents:* they call it a federal wage mandate. It is a condition on federal money, like Davis-Bacon's prevailing wage on federal construction (not in register).
   - *Legislative route:* it can ride a reconciliation bill, because it sets how federal money is spent.
@@ -63,7 +64,7 @@ Role: decision memo for Espen, fork 14 of the care dossier (part D, the care wor
   - *Agency workers:* they would need sectoral bargaining across private employers, the legacy LAB-3B, which has no US statutory precedent.
 - *Where tried:* Washington since 2001, and its 2025-27 agreement [EV-CAR-621]; California's IHSS county public authorities (not in register).
 - *For workers:* the highest wages where unions are strong, and a voice in training and scheduling. In states without a union, nothing until one forms.
-- *Cost:* up to about $130-150 billion a year at maturity if wages reached Washington's level everywhere, about 35-40% above today's national home care median, and less where bargaining lags (judgment).
+- *Cost:* up to about $115-130 billion a year at maturity on part B's three-activity base ($130-150 billion at two activities) if wages reached Washington's level everywhere, about 35-40% above today's national home care median, and less where bargaining lags (judgment).
 - *Evidence strength:* program evaluation (San Francisco) [EV-CAR-625]; no national test.
 - *Political risk:* the highest.
   - *Legal:* the Supreme Court bars requiring agency fees from these workers (Harris v. Quinn, 2014) [EV-CAR-623], so units depend on voluntary membership.
@@ -79,13 +80,13 @@ Role: decision memo for Espen, fork 14 of the care dossier (part D, the care wor
 
 ## Part 2: the level, if B
 
-All in 2026 dollars, indexed to average wage growth from 2027, and never below a higher state or local minimum. The medians compared are 2024 and 2025 figures, so wage growth to 2026 narrows each gap a little.
+All in 2026 dollars, indexed to average wage growth from 2027, and never below a higher state or local minimum. The medians compared are 2024 and 2025 figures, so wage growth to 2026 narrows each gap a little; the payroll figures are measured against 2026 wages (step 8 check, `../tools/care_repricing.py`). Costs below are at part B's three-activity line (step 8).
 
 | Level | Against today's medians | Payroll added (judgment) | 2035 ($ billion) | FY2030-39 ($ trillion) | FY2040 ($ billion) |
 | --- | --- | --- | --- | --- | --- |
-| A. $18 | Just above the 2024 home care median of $16.77 [EV-CAR-613] | about 5% | about 20 | about 0.14 | about 25 |
-| **B. $20 (recommended)** | About 19% above the 2024 home care median; about the 2025 nursing assistant median, $42,260 a year [EV-CAR-609] | about 12% (8-18%) | **about 47 (25-95)** | **about 0.35** | **about 62** |
-| C. $22.50 | Minnesota's nursing assistant floor [EV-CAR-618]; near Washington's bargained start [EV-CAR-621] | about 25% | about 98 | about 0.72 | about 127 |
+| A. $18 | Just above the 2024 home care median of $16.77 [EV-CAR-613] | about 5% | about 17 | about 0.12 | about 22 |
+| **B. $20 (recommended)** | About 19% above the 2024 home care median; about the 2025 nursing assistant median, $42,260 a year [EV-CAR-609] | about 12% (8-18%) | **about 42 (23-91)** | **about 0.30** | **about 55** |
+| C. $22.50 | Minnesota's nursing assistant floor [EV-CAR-618]; near Washington's bargained start [EV-CAR-621] | about 25% | about 86 | about 0.61 | about 112 |
 
 - **Why $20.** It lifts most home care workers to about what nursing assistants already earn, so home care stops losing workers to nursing homes and hospitals for the same work.
 - **What it costs as a share.** About 12% of home care payroll.
@@ -98,8 +99,8 @@ All in 2026 dollars, indexed to average wage growth from 2027, and never below a
 | --- | --- | --- | --- | --- |
 | Is a wage guaranteed? | No | Yes, nationally | Where workers organize | No |
 | Typical home care wage, 2035 (2026 dollars) | today's, plus rate increases | at least $20 | $22-24 where bargained | today's, or LAB-4's $17 |
-| New federal cost, 2035 | about $0-10 billion | about $47 billion (at $20) | up to about $130-150 billion | 0 |
-| FY2040 | about $5-10 billion | about $62 billion | about $170-195 billion | 0 |
+| New federal cost, 2035 | about $0-10 billion | about $42 billion (at $20) | up to about $115-130 billion | 0 |
+| FY2040 | about $5-10 billion | about $55 billion | about $150-170 billion | 0 |
 | Evidence for the mechanism | Program evaluation, temporary effects | State practice; pay's effect quasi-experimental | One state's program | — |
 | Legislative route | Reconciliation | Reconciliation | Likely the labor bill | — |
 | Risk to parts B and C's supply | High | Moderate | Uneven by state | Highest |
@@ -122,7 +123,7 @@ All in 2026 dollars, indexed to average wage growth from 2027, and never below a
 ## If you decide
 
 - **What section 4 writes.**
-  - *Under B:* the floor, its index and the rate rule in the 2029 reconciliation bill: in Medicaid from 2030 with 90% federal payment of the added cost, and in the single plan's home care benefit from 2035. Also the 80% share as its check, family caregivers at the floor (point 1) and state standards above it allowable (point 3).
+  - *Under B:* the floor, its index and the rate rule in the 2029 reconciliation bill: in Medicaid from 2030 with federal payment of the added cost at each state's bridge rate, and in the single plan's home care benefit from 2035. Also the 80% share as its check, family caregivers at the floor (point 1) and state standards above it allowable (point 3).
   - *Under A:* the match increase and the share.
   - *Under C:* a bargaining title for the labor bill, proposed to the work flagship.
 - **What section 6 prices.** The chosen level on fiscal years, checked against HLT-4's booked care workforce money so nothing is counted twice.

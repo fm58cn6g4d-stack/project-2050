@@ -183,5 +183,59 @@ def main():
               f'states ${(PREK_GROSS - fed) / 1e9:.0f}B (their ${PREK_STATE_NOW / 1e9:.1f}B included)')
 
 
+    print()
+    print('TOTALS BY PART, CENTRAL (FY2030-39 $T calendar years; FY2040 $B)')
+    # Before: the figures for Espen's decision sheet (3b after #244; 3c; 3d after #246).
+    before = {'B': (2.6, 590), 'C': (1.4, 190), 'D': (0.65, 130)}
+    # After items 1-3. Part B from above. Part C: child care at 80% after three years (from the 2033-34
+    # school year), about 12% off the federal line in 2034-39 and half a year of 2033. Part D: memo 14 on
+    # the three-activity base with the bridge floor at the bridge rate; memo 15 at the child care share;
+    # memo 16 fully federal from 2035 under memo 8 C; the points unchanged.
+    cc_cut = sum(84e9 * GROWTH ** (y - 2033) * 10 / 84 for y in range(2034, 2040)) + 0.5 * 10e9
+    m14_yrs = bridge_gross * (FMAP_REGULAR + BRIDGE_POINTS) + sum(m14_35[1] * GROWTH ** (y - 2035) for y in YEARS_B)
+    m14_40 = m14_35[1] * GROWTH ** 5
+    after = {'B': (tot_b[1] / 1e12, tot_b40[1] / 1e9),
+             'C': (1.4 - cc_cut / 1e12, 190 - 13),
+             'D': ((m14_yrs + PARITY_YRS * 0.8 / 0.9) / 1e12 + 0.04 + 0.02,
+                   (m14_40 + PARITY_FY40 * 0.8 / 0.9) / 1e9 + 7 + 2)}
+    for k in 'BCD':
+        print(f'  part {k}: before {before[k][0]:.2f}T, {before[k][1]:.0f}B | after items 1-3 '
+              f'{after[k][0]:.2f}T, {after[k][1]:.0f}B')
+    tb = sum(v[0] for v in before.values()), sum(v[1] for v in before.values())
+    ta = sum(v[0] for v in after.values()), sum(v[1] for v in after.values())
+    print(f'  all three: before {tb[0]:.2f}T, {tb[1]:.0f}B | after {ta[0]:.2f}T, {ta[1]:.0f}B')
+    print(f'    memo 14 after: FY2030-39 {m14_yrs / 1e12:.2f}T, FY2040 {m14_40 / 1e9:.0f}B; '
+          f'child care cut {cc_cut / 1e12:.2f}T')
+
+    print()
+    print("MEMO 17'S FURTHER OPTIONS (savings: FY2030-39 $T; FY2040 $B; judgment unless noted)")
+    newb = users3[1] * cost3[1]
+    opts = {
+        '1 bridge at 6 points, not up to 10': (BRIDGE_TOTAL * 0.4, 0),
+        '2 tier budgets 10% lower below the top tier (about 70% of spending)':
+            (sum(0.07 * (RICHER_2035[1] + newb) * GROWTH ** (y - 2035) for y in YEARS_B),
+             0.07 * (RICHER_2035[1] + newb) * GROWTH ** 5),
+        '3 early-educator parity by 2038, not 2036': (0.04e12, 0),
+        '4 new users phased in over 2035-36, heaviest needs first':
+            (newb * 0.5 + newb * GROWTH * 0.2, 0),
+        '5 residents contribute up to 20% of the care part from income left after room and board':
+            (sum(8e9 * GROWTH ** (y - 2035) for y in YEARS_B), 8e9 * GROWTH ** 5),
+        '6 a 10% copay on home-benefit hours above 200% of poverty, capped at 5% of income':
+            (sum(12e9 * GROWTH ** (y - 2035) for y in YEARS_B), 12e9 * GROWTH ** 5),
+        '7 part B maintenance of effort at 65% (with health)':
+            (sum(34e9 * GROWTH ** (y - 2035) for y in YEARS_B), 34e9 * GROWTH ** 5),
+    }
+    for k, (yrs, fy40) in opts.items():
+        print(f'  {k}: {yrs / 1e12:.2f}T, {fy40 / 1e9:.0f}B')
+    rec = [opts[k] for k in opts if k[0] in '2345']
+    print(f'  recommended (2, 3, 4, 5): {sum(r[0] for r in rec) / 1e12:.2f}T, {sum(r[1] for r in rec) / 1e9:.0f}B')
+    print(f'  add-back, a continuing Medicaid route below the line: {att_yrs[1] / 1e12:.2f}T, {att_40[1] / 1e9:.0f}B '
+          f'in all; federal at the regular match {att_yrs[1] * FMAP_REGULAR / 1e12:.3f}T, '
+          f'{att_40[1] * FMAP_REGULAR / 1e9:.0f}B')
+    net = (ta[0] - sum(r[0] for r in rec) / 1e12 + att_yrs[1] * FMAP_REGULAR / 1e12,
+           ta[1] - sum(r[1] for r in rec) / 1e9 + att_40[1] * FMAP_REGULAR / 1e9)
+    print(f'  all three with the recommended options and the state option: {net[0]:.2f}T, {net[1]:.0f}B')
+
+
 if __name__ == '__main__':
     main()

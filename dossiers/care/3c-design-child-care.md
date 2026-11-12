@@ -1,6 +1,6 @@
 # Care you can count on, part C (child care and pre-K): design choices
 
-Role: section 3 of the care dossier, part C. It sets out the real forks for child care from birth to school age and for pre-K, the options weighed with their evidence, a recommendation for each, one decision memo per fork (memos 10-13), and a numbered list of narrower yes-or-no points. Status: draft (stage D, step 6); **for Espen, none decided**. Sources are named in plain text in the memos and points; bracketed tags point to `evidence.json`.
+Role: section 3 of the care dossier, part C. It sets out the real forks for child care from birth to school age and for pre-K, the options weighed with their evidence, a recommendation for each, one decision memo per fork (memos 10-13), and a numbered list of narrower yes-or-no points. Status: draft (stage D, step 6); **decided by Espen, November 11, 2026: all as recommended** (`DEC-2026-11-11-03`). States' share set out in step 8 (`DEC-2026-11-11-05`; further cost options in memo 17). Sources are named in plain text in the memos and points; bracketed tags point to `evidence.json`.
 
 ## How to read this section
 
@@ -73,7 +73,7 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money at
   - *School-day pre-K with parity.* About $17,500 (NIEER's $12,500 in 2020 grown with prices and wages) [EV-CAR-566].
   - *Wraparound care around the pre-K day.* About $6,000 a child, used by about 60% of pre-K children, those whose parents' hours run past the school day: about 3.1 million (judgment; range 45-75%).
 - **Families' payments.** Copayments under memo 10 B recover about 15% of gross child care cost (range 10-20%; judgment, from the share of families above 85% of state median income).
-- **The federal share.** 90% of child care direct services net of copayments, as in the CCWFA [EV-CAR-580]; today's CCDF money (about $12 billion, federal) is netted as moving in. Administration is about 5% of gross child care cost, paid federally (judgment). Pre-K is 90% for three years, then 75%. States keep their current pre-K and child care spending as maintenance of effort.
+- **The federal share.** 90% of child care direct services net of copayments, as in the CCWFA [EV-CAR-580] (the working figure; step 8 recommends 90% for three years, then 80%, below); today's CCDF money (about $12 billion, federal) is netted as moving in. Administration is about 5% of gross child care cost, paid federally (judgment). Pre-K is 90% for three years, then 75%. States keep their current pre-K and child care spending as maintenance of effort.
 
 | Option | New federal cost at maturity, 2033 ($ billion) | Main pieces | FY2040 (about) |
 | --- | --- | --- | --- |
@@ -85,11 +85,24 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money at
 | Part D wage floor at elementary-educator parity, if part D chooses it | **about 45 on top of 10 B (30-65)** | Labor is about two-thirds of the 118 gross ≈ 79; parity raises most staff pay by half or more, ≈ +40-60 gross, at the 90% share (judgment; Bruenig, People's Policy Project, 2021, illustrates unsubsidized infant care rising to about $29,000 under parity; not in the register) | about 60 |
 | Facilities grants (point 7) | about 5 a year, 2030-34 | Capital for new rooms, infant rooms first | 0 |
 
+**States' share (step 8; the financing settlement decides).** Espen asked that states pay a portion (`DEC-2026-11-11-05`). The working figures above are 90% federal on child care's direct services and 90% for three years then 75% on pre-K, with states keeping their current spending. The anchor across care is health's decided rule, that states keep paying half of what they now spend (HLT-7.17). Here, though, states run the programs (memo 13 A), so their share is a match, and the risk is that they decline. Where a state declines, HHS runs the program directly (memo 13 A), so children are covered, but the federal government then pays all of it: a state cannot be made to pay for a program it does not run. Figures at maturity (`tools/care_repricing.py`):
+
+| Option | Federal, 2033 | States, 2033 | Federal, FY2040 | Burden | Risk that states decline |
+| --- | --- | --- | --- | --- | --- |
+| *Child care:* 90% (the CCWFA [EV-CAR-580]) | about $84 billion | about $10 billion | about $110 billion | Least | Lowest |
+| ***Child care:* 90% for three years, then 80% (recommended)** | **about $74 billion** | **about $20 billion** | **about $97 billion** | States budget a fifth of a program they run and whose rates they help set | Low: still above any regular Medicaid match, and the first three years are at 90% while states build the system |
+| *Child care:* 90% for three years, then 75% | about $69 billion | about $25 billion | about $90 billion | As pre-K's share | Moderate |
+| *Pre-K:* 90% throughout | about $69 billion | about $22 billion, their $14.4 billion included | about $95 billion | Least | Lowest |
+| ***Pre-K:* 90% for three years, then 75% (recommended, unchanged)** | **about $57 billion** | **about $34 billion**, their $14.4 billion included [EV-CAR-519] | about $80 billion | States already run pre-K, mostly through schools | Low to moderate |
+| *Pre-K:* 90% for three years, then 60% (the CCWFA's pre-K title [EV-CAR-581]; H.R. 10421 [EV-CAR-582]) | about $46 billion | about $45 billion | about $64 billion | States carry two-fifths | **High.** CBO assumed about a third of children lived in states that would not take Build Back Better's child care and pre-K [EV-CAR-587]. At 60% with a third of states out and HHS serving them, federal money pays about 73% of the cost, about what 75% costs with every state in |
+
+- *Recommendation:* child care at 90% for three years, then 80%, which saves about $0.08 trillion over FY2030-39 and $13 billion in FY2040; pre-K unchanged. Both keep the state share low enough that declining costs a state more than it saves, Pre-K's state share stays a little higher than child care's because states already run and fund pre-K, while child care for every family is new and states must build it. Memo 15's parity and the wage floor follow the same shares.
+
 **Over FY2030-39**, on memo 12 A's phasing (calendar years, roughly; section 6 converts):
 - pre-K, about $0.56 trillion;
 - child care (memo 10 B), about $0.8 trillion (about $20 billion in 2030 for the free tier, rising to about $85 billion in 2033 and about $107 billion in 2039);
 - facilities, about $0.03 trillion;
-- **in total, about $1.4 trillion (range $0.9-2.1 trillion)** before any part D wage floor, which would add about $0.4 trillion if adopted from 2032. FY2040's permanent cost is about $190 billion (range $140-280 billion) plus any wage line.
+- **in total, about $1.4 trillion (range $0.9-2.1 trillion)** before any part D wage floor (about $1.32 trillion, range about $0.85-2.0 trillion, at the recommended child care share; FY2040 about $177 billion), which would add about $0.4 trillion if adopted from 2032. FY2040's permanent cost is about $190 billion (range $140-280 billion) plus any wage line.
 
 **Checks against outside estimates.**
 - **CBO, Build Back Better.**
