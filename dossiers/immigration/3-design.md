@@ -128,7 +128,7 @@ Federal cost against the January 2029 law, in nominal dollars, over FY2030-39 an
 | Tiers A and B, tier C later (IMM-1A) | `legacy/domains/domain-immigration.md`, lines 32-55 | The legacy file's choice, not Espen's | Memo 1 A, changed |
 | An 18-month registration window | `domain-immigration.md`, line 44 | Legacy, not Espen's | Memo 2 drops the window |
 | Five years provisional for tier B | `domain-immigration.md`, line 39 | Legacy, not Espen's | Memo 1 part 2: a green card on approval |
-| The bill saves −$0.14 trillion | Ledger, from S. 744 [EV-IMM-570] | Not Espen's; an unverified estimate | Re-derived: a cost of about +$0.05 trillion for IMM-1, +$0.13 trillion for the set |
+| The bill saves −$0.14 trillion | Ledger, from S. 744 [EV-IMM-570] | Not Espen's; an unverified estimate | Re-derived: a cost of about +$0.05 trillion for IMM-1, +$0.13 trillion for the recommended set; the decided set about +$0.12 trillion (`6-cost.md`) |
 | Tier B barred from means-tested benefits for five years | `domain-immigration.md`, line 57 | Legacy, not Espen's | Memo 6 C drops it |
 | IMM-2 as written | `domain-immigration.md`, lines 61-71 | Legacy, not Espen's | Memo 3 A, extended in B |
 | The H-1B fee as its own channel, about $0.015 trillion | Ledger IF1 [EV-IMM-577] | Legacy, not Espen's | Kept (memo 3) |
@@ -228,7 +228,7 @@ From `dossiers/shared-rules.md`. Rule 3 is this dossier's; rule 8 is shared with
 - **The recommended set, in order.**
   - *Preparation, 2027-28:* draft text for both bills; the IRS-SSA-USCIS data agreement and a test match; USCIS's hiring plan; scores requested (point 13).
   - *January 2029, executive:* end Proclamation 10888's use and the 2026 referral rule; refugee ceiling at or above 50,000; priorities by memo until the statute passes.
-  - *The 2029 reconciliation bill:* USCIS's money (memo 7), memo 6's restorations, the fee repeals (point 8), the wall rescission (point 7), the H-1B fee.
+  - *The 2029 reconciliation bill:* USCIS's money (memo 7), memo 6's restorations, the fee repeals (point 8), the wall money redirected (point 7, as decided), the H-1B fee.
   - *By October 1, 2029:* the FY2030 Homeland Security appropriations act funds memo 5's cap and case management as the reconciliation money lapses.
   - *The regular-order immigration bill, 2029:* memos 1-6's rules and points 1-6 and 10-12, scored with CRT-5.
 - **Why it holds together.** One standing route (memos 1-2) means enforcement (memo 5) faces a smaller, prioritized population; the courts (memo 4) lose the long-settled residents' cases; one eligibility table (memo 6) gives each legalized family one answer; USCIS (memo 7) is paid to exist before registration opens.
