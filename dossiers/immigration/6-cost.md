@@ -116,7 +116,7 @@ Each figure has one basis: federal fiscal years, $ billion, a cost positive, on 
   - *A booking of the decided set* adds about $35.2 billion, to about **$4,219.9 billion (7.79% of GDP)**: **about 0.84% of the plan-wide gap**.
   - *Immigration's whole general-fund cost* in FY2040, $16.5 billion, is **about 0.39% of the gap**. Most of the booking's effect is removing a saving the plan never had.
   - *Basis:* additive on the primary balance before interest.
-- **The test years.** The costs grow with prices and the covered population, and nothing sunsets. The general fund also stops counting a saving of about $19 billion a year that the legacy row assumed.
+- **The test years.** The costs grow with prices and the covered population, and nothing sunsets. The general fund also stops counting a saving of about $18.7 billion in FY2040 that the legacy row assumed.
 - **Report, don't gate** (`DEC-2026-11-10-05`). It is a figure to report, not an error to fix. No part of it goes to Espen on its own: the choices that are mainly about money were weighed in the memos (memo 6 B, memo 1 B), and Espen decided them.
 
 ## 6. What a booking would change (proposed, not made)
@@ -130,7 +130,7 @@ Tier 3, for the lead after the milestone review (`charter/STANDARDS.md`, "Milest
    - IMM-4 (memo 5): **−0.035 / −0.013 / +0.021**;
    - IMM-6 (memo 7): **+0.005 / +0.0095 / +0.015**.
 
-   The note on each row: "Re-derived in dossiers/immigration/6-cost.md (DEC-2026-11-12-07); project arithmetic bounded by CBO's 2013 and 2021 scores; not a score." The rows sum to about +$0.12 trillion. Year shapes go in `fiscal-years.csv` from `tools/immigration_path.py`. The profile in `fiscal-profiles.csv` (line 37, "Net saving grows as legalized workers enter the tax base") becomes "Cost rising through the decade as statuses and coverage phase in", with rows in `models/data/budget/provisions.csv`.
+   The note on each row: "Re-derived in dossiers/immigration/6-cost.md (DEC-2026-11-12-07); project arithmetic bounded by CBO's 2013 and 2021 scores; not a score." The rows sum to about +$0.12 trillion; IF1's tax offset (+$3.7 billion, item 3) is on its own line, so with it the set is the $123.5 billion of part 1. Year shapes go in `fiscal-years.csv` from `tools/immigration_path.py`. The profile in `fiscal-profiles.csv` (line 37, "Net saving grows as legalized workers enter the tax base") becomes "Cost rising through the decade as statuses and coverage phase in", with rows in `models/data/budget/provisions.csv`.
 2. **CAP-7S's USCIS share** ($40 billion, legacy `domain-capacity.md` line 127) to zero, and the batch 4 reserve's $6 billion USCIS proposal withdrawn (point 9). Check **CAP-7's** pro-rata USCIS share (about $34 billion if 7%, part 4) and set it to zero or state what it buys.
 3. **IF1** (`ledger-revenue.csv`, line 24): from the revenue menu into the base, retained by USCIS and the training fund, with its 25% income-tax offset on the general fund as its own line (part 1).
 4. **E-Verify's Social Security effect:** a line in the funds model's payroll revenue (about −$35 billion over FY2030-39, −$7.4 billion in FY2040), beside memo 1's gain once SSA's actuaries score it.
