@@ -287,13 +287,14 @@
  },
  {
   "id": "FAM-1.11",
-  "title": "Keep the $500 credit for other dependents",
+  "title": "The $500 credit for other dependents ends, as the bill provides",
   "agenda": "FAM-1",
-  "status": "open: a question for Espen; written as recommended",
+  "status": "decided, DEC-2026-11-12-09",
   "decisions": [
-   "DEC-2026-11-12-06"
+   "DEC-2026-11-12-06",
+   "DEC-2026-11-12-09"
   ],
-  "parameters": "The American Family Act ends section 24 for tax years after 2024 (H.R. 2763, sec. 2(c)), which ends the 2025 law's $500 credit for dependents who are not qualifying children: older teenagers before 18 are now covered by FAM-1.01, but college students, disabled adult children and parents a family supports would lose it. Recommended: section 24 continues for dependents who are not specified children under section 24A, with its $500 amount and its $400,000 phase-out (2029 law). No cost against the 2029 law; about $5-7 billion a year more than the bill as written (project arithmetic: about 14.8 million adults claimed as dependents at $500, an upper bound, since the credit is nonrefundable)",
+  "parameters": "The American Family Act ends section 24 for tax years after 2024 (H.R. 2763, sec. 2(c)), and with it the 2025 law's $500 credit for dependents who are not children under 18 (college students, disabled adult children, parents a family supports). The provision follows the bill. Against the 2029 law, families who claim the credit lose up to $500 a dependent, about $5-7 billion a year in all (project arithmetic: about 14.8 million adults claimed as dependents at $500, an upper bound, since the credit is nonrefundable). The plan's other benefits cover most of these groups at larger amounts (the Social Security and SSI changes, the care benefit, the single health plan); college students' costs go to the education dossier (EDU-5). Reinstating the credit stays an option if a gap shows (section 8)",
   "eligibility": "",
   "vehicle": [
    {
@@ -308,7 +309,7 @@
    "EV-SEC-001"
   ],
   "sources": [],
-  "cost_source": "6-cost.md, part 1",
+  "cost_source": "6-cost.md, part 2",
   "spec": "dossiers/secure-floor/4-specification.md"
  },
  {

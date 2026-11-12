@@ -54,7 +54,7 @@ Memo 1 priced A at about $1.9 trillion over FY2030-39 (range $1.7-2.1 trillion),
 
 | Item | Provision | FY2030-39 | FY2040 | Basis | Firm or contingent |
 | --- | --- | --- | --- | --- | --- |
-| The $500 credit for other dependents | FAM-1.11 | none against the 2029 law; about $0.05-0.07 trillion against the bill as written | about $5-7 billion against the bill | About 14.8 million adults claimed as dependents at $500 (CPS; an upper bound, the credit being nonrefundable). Whether the Tax Policy Center's score counts the bill's ending of it is not known. Kept as recommended, pending Espen | Open (Espen) |
+| The $500 credit for other dependents ends | FAM-1.11 | about −$0.05 to −$0.07 trillion against the 2029 law | about −$5-7 billion | About 14.8 million adults claimed as dependents at $500 (CPS; an upper bound, the credit being nonrefundable). Ended as the bill provides (`DEC-2026-11-12-09`); the booked FAM-1 range is unchanged, as the decision records, since whether the Tax Policy Center's score already counts it is not known. Not added to the totals | Firm (a saving, not counted) |
 | SNAP's immigrant rules (sec. 10108) | INC-2.01 | inside INC-2.01 | inside | CBO's $187 billion is the whole nutrition subtitle, sec. 10108 included [EV-SEC-035] [EV-SEC-038]; immigration's memo 6 says the secure floor's SNAP restoration already prices it and does not count it again (`dossiers/immigration/memos/`, memo 6) | Firm, counted once here |
 | A work response to the child benefit | FAM-1 | not counted | not counted | The legacy DY3 sensitivity, −$0.02 to −$0.12 trillion of lost receipts (`legacy-research.md`, 1.9); CBO's conventional scores leave it out; the evidence is contested (section 2, part A.2) | Not counted |
 | The IRS's and SSA's general rebuild | CAP-7 | booked there | booked there | The legacy capacity lines; the child benefit's own build is counted above, so a change to CAP-7 does not lose it | Booked |
@@ -135,7 +135,7 @@ Each figure has one basis: federal fiscal years, $ billion, a cost positive, aga
 - **Permanent cost from FY2040: about $284 billion a year** on the general fund, growing with prices and the child population. Every line is permanent; nothing in the set sunsets.
 - **Its share of the plan-wide margin.** The plan-wide general-fund primary gap in FY2040 is **$4,182.6 billion short** as booked (7.7% of GDP; `agenda_gf_primary_bn`, case `mixed`, a positive figure a shortfall). A booking of the decided set adds about $55.8 billion, to about **$4,238 billion (7.8% of GDP)**: **about 1.3% of the plan-wide gap**. The secure floor's whole general-fund cost, booked and new, is about **6.7% of that gap** in FY2040. Additive on the primary balance before interest; the new lines carry no revenue offset (outlays and refundable credits).
 - **The test years.** The decided costs are permanent and grow with prices (the benefit's amounts) and wages (paid leave). The leave fund's loan is repaid in 2058 at high take-up.
-- It is a figure to report, not an error to fix (`DEC-2026-11-10-05`). No part of it goes to Espen on its own: the memos already weighed the cheaper designs that reach the same children (memo 1 B), and the one money question left is FAM-1.11, which is small.
+- It is a figure to report, not an error to fix (`DEC-2026-11-10-05`). No part of it goes to Espen on its own: the memos already weighed the cheaper designs that reach the same children (memo 1 B), and FAM-1.11 is decided (`DEC-2026-11-12-09`).
 
 ## 6. What a booking would change (proposed, not made)
 
@@ -169,7 +169,7 @@ Tier 3, for the lead after the milestone review, on the same pattern as care's (
 | Its cost range | Working assumption: legacy planning range less the floor, checked against the CPS and the Tax Policy Center |
 | The floor's value | Working assumption: CPS static arithmetic, full take-up |
 | The 2029 child-poverty rate | Working assumption, about 9% (8-12%), not on the critical path |
-| The credit for other dependents | Open question for Espen (FAM-1.11) |
+| The credit for other dependents | Commitment: it ends (`DEC-2026-11-12-09`); its saving a working assumption, not counted |
 | The new lines' costs | Working assumptions on outside scores, laid on fiscal years |
 | LAB-10's $100 billion | Commitment (the envelope); people served, about 400,000-900,000 over the decade, a working assumption (memo 4) |
 | Paid leave's take-up | Working assumption; the booking uses the high case |

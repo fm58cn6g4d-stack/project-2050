@@ -21,6 +21,7 @@ Role: section 8 of the secure floor dossier. For each decided choice, the findin
 | Social Security | Memo 6 part 1 C | An SSA package score far below the estimates | More of SS-7, the broad rate (part 1 B) |
 | | | A Republican bill with real cosponsors before 2029 | The bipartisan track (part 1 D), with D8 as the fallback |
 | The caregiver credit | Memo 6 part 2 (c) | SSA's score far above −0.2% of payroll | Dropout years (b), as memo 6 provides |
+| The credit for other dependents ends | FAM-1.11 (`DEC-2026-11-12-09`) | A gap for families supporting adult dependents that the plan's other benefits and education (EDU-5) do not cover | Reinstate section 24 for dependents who are not children under 18, about $5-7 billion a year |
 | The exclusion rule | Memo 7 part 1 B | Housing choosing to count the floor's payments | Housing's rule for rent |
 | The 65-cent ceiling | Memo 7 part 2 B | The household model finding many families above 65 cents after 2035 | A priced change to SNAP's or the earned income credit's rate where they overlap (memo 7) |
 
@@ -35,7 +36,6 @@ Role: section 8 of the secure floor dossier. For each decided choice, the findin
 
 ## Left open (not decided)
 
-- **The credit for other dependents** (FAM-1.11): a question for Espen; written as recommended (keep it).
 - **The repayment cap** above 200% of poverty ($1,000 a child, working choice).
 - **The investment board's share** of reserves (up to 20%, working choice) and **how the budget model records it** (`6-cost.md`, part 4).
 - **SS-7.01's trigger level** (−0.25% of payroll in two reports, working choice).
