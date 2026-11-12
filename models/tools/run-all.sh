@@ -38,6 +38,7 @@ echo "== 6. fiscal model";      python3 fiscal-model.py --baseline "$BUILD/fisca
 python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
 python3 "$TOOLS"/test_climate_integration.py
 echo "== 6. MR6 booking check (transportation offset on the general fund)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_mr6.py 2>&1 | tail -1
+echo "== 6. counting inputs check (board 0q, DEC-2026-11-12-08: Moving America timing, C35, DEM-11, the offset rate)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_counting.py 2>&1 | tail -1
 echo "== 6. health booking check (care review F-4: the plan on the dossier's fiscal-year path)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_health.py 2>&1 | tail -1
 echo "== 6. care booking check (care B-D review F-3: parts B-D on the dossier's fiscal-year path)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_care.py 2>&1 | tail -1
 echo "== 6a. provision specs (budget B3)"; python3 -W ignore::ResourceWarning "$TOOLS"/budget/test_provisions.py 2>&1 | tail -1

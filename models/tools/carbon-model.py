@@ -8,7 +8,7 @@ border adjustment are separate lines); 80% returned equally per adult (CLI-2A). 
 transportation model and ledger.json. Writes carbon.json and climate-carbon-model.md. Needs node.
 """
 import json, os, subprocess, sys
-from inputs import read, num
+from inputs import read, num, offset_rate
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 def find(*parts):
@@ -193,7 +193,7 @@ lg = lambda i: f"{REV[i]['mid']:.2f} ({REV[i]['lo']:.2f}-{REV[i]['hi']:.2f})" if
 w(f"| REV-C1 (C1) | {c1_w:.2f} ({pctile(c1_mc,0.1):.2f}-{pctile(c1_mc,0.9):.2f}) | {lg('C1')} | the ledger sits below the model because the model responds slowly in the first decade |")
 w(f"| REV-C2 (C2) | {c2_w:.3f} | {lg('C2')} | export rebates nearly cancel the import charge |")
 w(f"| REV-C3 (C3) | {c3_w:.3f} ({pctile(c3_mc,0.1):.3f}-{pctile(c3_mc,0.9):.3f}) | {lg('C3')} | credited to CLI-5 |")
-w(f"| Excise offset (CX) | {-0.25*(c1_w+c2_w+c3_w):.2f} | {lg('CX')} | 25% of the carbon, border and methane fees (the scorekeepers' convention, as MR6 for Moving America) |")
+w(f"| Excise offset (CX) | {-offset_rate()*(c1_w+c2_w+c3_w):.2f} | {lg('CX')} | {offset_rate()*100:.1f}% of the carbon, border and methane fees (JCT's income and payroll tax offset rate, as MR6 for Moving America; DEC-2026-11-12-08) |")
 if capyrs: w(f"\nCLI-3's 80%-by-2035 target is not met in the model ({pct(fl[P['ces_year']]['cleanShare'])} in {P['ces_year']}); its alternative compliance payments, about ${acp_w:.2f}T in 2030-39, are an unsized channel. The incidence model spreads REV-C1 over the window with its own profile (`incidence-phase-in.csv`, C1); the model's year-by-year receipts could replace it.\n")
 open("climate-carbon-model.md", "w").write("\n".join(L_))
 print(f"carbon: package REV-C1 2030-39 ${c1_w:.2f}T (fee alone {c1_fee_alone:.2f}; ledger {REV['C1']['mid']}); energy CO2 below 2005 2035 {pct(fl[2035]['below2005'])}, 2050 {pct(fl[2050]['below2005'])}; clean 2035 {pct(fl[2035]['cleanShare'])}; C2 ${c2_w:.3f}T; C3 ${c3_w:.2f}T")

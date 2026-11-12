@@ -21,7 +21,7 @@ REV-E1/C35 restated as the increment beyond G9 (~$0.15T); DEM-1F adopted (DEM-1 
 Cuts listed in ALT_CUTS are alternatives to another cut and are not summed.
 """
 import csv, json, importlib.util, os
-from inputs import read, num, flag, money_sum
+from inputs import read, num, flag, money_sum, offset_rate
 
 
 _spec=importlib.util.spec_from_file_location('ledger_climate',os.path.join(os.path.dirname(__file__),'climate-integration.py'))
@@ -55,7 +55,10 @@ def _moving_america():
     r1 = {k: round(f[k], 1) for k in ("act29_gross", "act29_net", "act30_gross", "act30_net", "score_fuel_steps",
                                       "score_truck_excise_ev_fee", "score_weight_distance", "score_rail_aviation")}
     r1["score_clean_vehicle"] = round(f["score_clean_vehicle"] - 12.9, 1) + 12.9   # clean-car line printed to $0.1B
-    r1["score_offset"] = (r1["act29_net"] + r1["act30_net"]) - (r1["act29_gross"] + r1["act30_gross"])
+    # MR6, the general fund's income and payroll tax offset on the two acts' new excises, at JCT's rate
+    # (excise-offset.csv, DEC-2026-11-12-08). The acts' own net figures (act29_net, act30_net) stay as
+    # the transportation model scores them, at Draft 2's 25%.
+    r1["score_offset"] = -offset_rate() * (r1["act29_gross"] + r1["act30_gross"])
     return {**r2, **r1}
 MA = _moving_america()
 MOV29 = round((MA["act29_package"] + MA["act29_topups"]) / 1000, 5)
@@ -126,7 +129,7 @@ def channels(bills):
     add("Medicare HI", (0.5+0.5,0.5+0.7,0.5+0.9), (0.8,0.85,0.9), "H1a ($0.5T) plus HLT-6's Part A share (~$0.7T, est.); D4 read on a 75-year window, so the ~$0.3T is HI's reserve")
     add("Paid-leave fund", rv["Paid-leave fund"], o("FAM-3"), "Step-up toward 0.85% and a repayable Treasury loan; no general-fund backstop")
     st = rv["Surface transportation trust fund"]
-    add("Surface transportation trust fund", st, st, "Gross receipts, spent within receipts; the 25% income and payroll tax offset is MR6, booked on the general fund as CX; general-fund top-ups counted in MOV-29 and MOV-30")
+    add("Surface transportation trust fund", st, st, f"Gross receipts, spent within receipts; the {offset_rate() * 100:.1f}% income and payroll tax offset (JCT's rate) is MR6, booked on the general fund as CX; general-fund top-ups counted in MOV-29 and MOV-30")
     add("Carbon fee (REV-C1)", rv["Carbon fee"], rv["Carbon fee"], f"80% dividend (CLI-2, ~${0.8 * rv['Carbon fee'][1]:.2f}T) plus 20% transition share to CLI-5 (~${0.2 * rv['Carbon fee'][1]:.2f}T)")
     add("Carbon border adjustment and methane fee (REV-C2, REV-C3)", rv["Carbon border adjustment"], o("CLI-5"), "Outlay is CLI-5's gross add-ons, financed by REV-C2, REV-C3 and REV-C1's transition share; residual to the general fund")
     add("Public safety", rv["Public safety"], o("SAF-10"), "Durable sources only (alcohol, fraud assessment, firearms, fees); residual (~$2.9B a year) to the general fund")

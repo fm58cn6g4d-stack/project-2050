@@ -64,7 +64,11 @@ The calibrated profile path (method "profile", the fiscal model's method since O
 a ten-year amount from the ledger (trillions, FY2030-39) is spread over the years by the spec's
 phase-in (start year, ramp years), its growth index (indexation), and its time limit (expiry);
 it is scaled so its FY2030-39 sum equals the ledger amount exactly; after 2039 it continues at
-a share (continues_after_2039) of the run rate, shrinking by fade a year. Other methods:
+a share (continues_after_2039) of the run rate, shrinking by fade a year. The growth index is
+"gdp", "cpi", "gdp+X" (GDP plus X points a year: C35, ASM-PROF-ESTATE) or a baseline category.
+A row listed in fiscal-after.csv takes fixed amounts after 2039 instead, growing with its index
+after the last of them (MOV-31's successor line: the transportation model's general-fund draw,
+DEC-2026-11-12-08); its window is unchanged. Other methods:
 "years" (a year-by-year shape in fiscal-years.csv, scaled to the ledger amount), "components"
 (a bill split into disjoint parts in fiscal-components.csv, each with its own spec, all in the
 parent's category), "split" (one provision enacted through more than one vehicle, board 0d: each
@@ -272,6 +276,13 @@ def year_shapes():
     return {r["id"]: [_num(r["y%d" % y]) for y in range(W0, W1 + 1)] for r in _inputs("fiscal-years.csv")}
 
 
+def after_amounts():
+    """{id: {year: billions}} from fiscal-after.csv: fixed amounts after the window that replace a
+    row's post-2039 path (MOV-31's successor line, DEC-2026-11-12-08)."""
+    return {r["id"]: {int(k[1:]): _num(v) for k, v in r.items() if k.startswith("y") and k[1:].isdigit() and v.strip()}
+            for r in _inputs("fiscal-after.csv")}
+
+
 def component_amounts():
     """{(owner, component): ten-year $T} from fiscal-components.csv (the canonical home)."""
     return {(r["owner"], r["component"]): _num(r["mid10"]) for r in _inputs("fiscal-components.csv")}
@@ -334,7 +345,25 @@ def growth_index(B, key):
         return idx
     if key == "special_ss":
         return {y: B[y]["rev_payroll"] for y in B if y >= Y0}
+    if key.startswith("gdp+"):
+        # GDP plus a fixed number of points a year, compounded from FY2026 (C35's frozen estate
+        # exemption, ASM-PROF-ESTATE); the same operations as fiscal-model.py's growth_index
+        x = float(key[4:])
+        return {y: B[y]["gdp"] * (1 + x / 100) ** (y - Y0) for y in B if y >= Y0}
     return {y: B[y][key] for y in B if y >= Y0}
+
+
+def after_path(B, out, after, prof):
+    """A path's post-2039 years replaced by fixed amounts (billions, fiscal-after.csv); after the
+    last of them the row grows with its growth index. As fiscal-model.py's after_path."""
+    out = dict(out)
+    ys = sorted(after)
+    for y in ys:
+        out[y] = float(after[y])
+    g = growth_index(B, prof.get("grow", "gdp"))
+    for y in range(ys[-1] + 1, Y1 + 1):
+        out[y] = out[ys[-1]] * g[y] / g[ys[-1]]
+    return out
 
 
 def profile_path(B, mid10, prof):
@@ -402,10 +431,13 @@ def deficit_path(spec, mid10, S=None, B=None):
     if m == "split":
         paths = [deficit_path(S[pid], share * mid10, S, B) for pid, share in read_splits()[spec["id"]]]
         return {y: sum(p[y] for p in paths) for y in range(Y0, Y1 + 1)}
+    after = after_amounts().get(spec["id"])   # fixed amounts after the window (fiscal-after.csv)
     if m == "years":
-        return years_path(B, mid10, year_shapes()[spec["id"]], _profile(spec))
+        p = years_path(B, mid10, year_shapes()[spec["id"]], _profile(spec))
+        return after_path(B, p, after, _profile(spec)) if after else p
     if m in ("profile", "climate", "dynamic"):
-        return profile_path(B, mid10, _profile(spec))
+        p = profile_path(B, mid10, _profile(spec))
+        return after_path(B, p, after, _profile(spec)) if after and m == "profile" else p
     raise ValueError("%s is not scored (method %s)" % (spec["id"], m))
 
 

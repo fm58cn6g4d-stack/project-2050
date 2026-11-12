@@ -235,16 +235,16 @@
  },
  {
   "id": "CX",
-  "option": "Income and payroll tax offset on the carbon, border and methane fees (25%)",
+  "option": "Income and payroll tax offset on the carbon, border and methane fees (24.4%, JCT)",
   "channel": "General fund",
-  "lo": -0.54,
-  "mid": -0.49,
-  "hi": -0.42,
+  "lo": -0.531,
+  "mid": -0.476,
+  "hi": -0.412,
   "in_base": "Yes",
   "reaches_middle": "No",
   "legal_risk": "",
   "overlap": "Scoring convention, as MR6 for Moving America; the dividend is tax-free, so nothing is recaptured",
-  "source": "25% of REV-C1 + REV-C2 + REV-C3 (CBO/JCT convention for excise taxes); booked Oct 21 (Espen)"
+  "source": "24.4% (JCT's rate, excise-offset.csv; DEC-2026-11-12-08) of REV-C1 + REV-C2 + REV-C3 (CBO/JCT convention for excise taxes); booked Oct 21 at 25% (Espen)"
  },
  {
   "id": "PS1",
@@ -755,11 +755,11 @@
  },
  {
   "id": "MR6",
-  "option": "Income and payroll tax offset on new excises (25%)",
+  "option": "Income and payroll tax offset on new excises (24.4%, JCT)",
   "channel": "General fund",
-  "lo": -0.1284,
-  "mid": -0.1284,
-  "hi": -0.1284,
+  "lo": -0.1253,
+  "mid": -0.1253,
+  "hi": -0.1253,
   "in_base": "Yes",
   "reaches_middle": "No",
   "legal_risk": "",
@@ -794,15 +794,15 @@
  },
  {
   "id": "CXP",
-  "option": "CX: 25% tax offset on incremental process and combustion receipts",
+  "option": "CX: 24.4% (JCT) tax offset on incremental process and combustion receipts",
   "channel": "General fund",
-  "lo": -0.0256687607053348,
-  "mid": -0.0256687607053348,
-  "hi": -0.0256687607053348,
+  "lo": -0.025052710448406755,
+  "mid": -0.025052710448406755,
+  "hi": -0.025052710448406755,
   "in_base": "Yes",
   "reaches_middle": "No",
   "legal_risk": "Scoring convention",
   "overlap": "Increment only; existing CX unchanged. Includes process receipts and lost combustion receipts.",
-  "source": "sources/climate-portfolio-pricing.json annual cx cost"
+  "source": "sources/climate-portfolio-pricing.json annual added receipts at JCT's 24.4% (excise-offset.csv; DEC-2026-11-12-08), not the export's 25% cx cost"
  }
 ]

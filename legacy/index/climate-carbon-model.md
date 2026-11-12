@@ -106,6 +106,6 @@ Per household in 2025 dollars, from the model's household module (BLS Consumer E
 | REV-C1 (C1) | 2.00 (1.92-2.14) | 1.90 (1.65-2.10) | the ledger sits below the model because the model responds slowly in the first decade |
 | REV-C2 (C2) | 0.053 | 0.03 (0.02-0.05) | export rebates nearly cancel the import charge |
 | REV-C3 (C3) | 0.022 (0.020-0.024) | 0.02 (0.02-0.03) | credited to CLI-5 |
-| Excise offset (CX) | -0.52 | -0.49 (-0.54--0.42) | 25% of the carbon, border and methane fees (the scorekeepers' convention, as MR6 for Moving America) |
+| Excise offset (CX) | -0.51 | -0.48 (-0.53--0.41) | 24.4% of the carbon, border and methane fees (JCT's income and payroll tax offset rate, as MR6 for Moving America; DEC-2026-11-12-08) |
 
 CLI-3's 80%-by-2035 target is not met in the model (75% in 2035); its alternative compliance payments, about $0.05T in 2030-39, are an unsized channel. The incidence model spreads REV-C1 over the window with its own profile (`incidence-phase-in.csv`, C1); the model's year-by-year receipts could replace it.

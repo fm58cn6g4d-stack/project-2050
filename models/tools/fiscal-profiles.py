@@ -11,9 +11,10 @@ Fields
           view stays in CBO's categories. Outlay rows use out_*, revenue rows rev_*.
   start   first fiscal year with any effect (default 2030)
   ramp    years to full phase-in from start (1 = full in the first year)
-  grow    growth index: "gdp", "cpi", or a baseline category name (the row then keeps a
-          constant share of that category: health rows track CBO's health spending,
-          revenue rows track their tax base, including bracket creep)
+  grow    growth index: "gdp", "cpi", "gdp+X" (GDP plus X points a year, compounded from
+          FY2026: C35's estate tax with a frozen exemption), or a baseline category name (the
+          row then keeps a constant share of that category: health rows track CBO's health
+          spending, revenue rows track their tax base, including bracket creep)
   end     last year of a time-limited line (None = permanent)
   perm    share of the 2039 run rate that continues after 2039 (1.0 = all; time-limited
           capital and temporary credits carry less)
@@ -41,6 +42,13 @@ for r in read("fiscal-profiles.csv"):
 
 # Explicit year-by-year paths that override a profile (billions, 2030-39)
 YEARS = {r["id"]: [num(r[f"y{y}"]) for y in range(2030, 2040)] for r in read("fiscal-years.csv")}
+
+# Explicit paths after the window (billions, not scaled to the ledger), from fiscal-after.csv: they replace
+# the row's post-2039 path in the years given; after the last of them the row grows with its growth index.
+# MOV-31 carries the transportation model's general-fund draw this way (DEC-2026-11-12-08).
+AFTER = {}
+for r in read("fiscal-after.csv"):
+    AFTER[r["id"]] = {int(k[1:]): num(v) for k, v in r.items() if k.startswith("y") and k[1:].isdigit() and v.strip()}
 
 # An aggregate bill can contain different permanent/growth paths. Amounts are
 # disjoint ledger shares, not additional rows of spending.
