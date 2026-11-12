@@ -1,0 +1,2998 @@
+Source: https://www2.census.gov/library/publications/2026/demo/p60-290.pdf
+Publisher: U.S. Census Bureau
+Retrieved: 2026-11-12
+Original SHA-256: 9595f44ed8fa239fe67ea9ef972fc5d28b2dc10a0bbade3f20cf144579879762
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Poverty in the United States: 2025
+Current Population Reports
+By Christina Bijou and Emily A. Shrider
+Issued September 2026
+P60-290
+
+Acknowledgments
+
+Christina Bijou and Emily A. Shrider prepared this report under
+the direction of Brian Glassman, chief of the Poverty Statistics
+Branch. Ani Silwal and Adrienne DiTommaso, under the direction
+of John Creamer, all of the Poverty Statistics Branch, produced
+the Supplemental Poverty Measure. Kathryn Shantz of the Income
+Statistics Branch prepared the tax model. Liana E. Fox, assistant
+division chief for Economic Characteristics in the Social, Economic,
+and Housing Statistics Division, provided overall direction.
+Preeti Vaghela, with the assistance of Ryan Flint, Richard Lee, Lorelai
+De Vos, and Eric S. Park, under the supervision of Karen Bradwell,
+chief of the Current Population Survey Programming Branch, and
+Roselyn Rosal Tineo of the Demographic Programs Directorate—
+Survey Operations (ADDP-SO), processed the 2026 Current
+Population Survey Annual Social and Economic Supplement (CPS
+ASEC) file.
+Adam W. Reilly, with the assistance of Kirk E. Davis, Raymond E.
+Dowdy, and Marguerite McDaniel, programmed and produced the
+historical, detailed, and publication tables under the direction of
+Hung X. Pham, chief of the Tabulation and Applications Branch,
+Demographic Surveys Division.
+Chengping (Grace) Zhang, under the direction of Casey Goldvale
+and Jinhee Hong, all of the Demographic Statistical Methods Division,
+conducted statistical review.
+Brian Kincel, Roselyn Rosal Tineo, and Roberto Marrero Cases, all of
+ADDP-SO, provided overall direction for survey implementation. Arpit
+Rupakhetee and Johanna Rupp, both of the Information Technology
+Directorate, prepared and programmed the computer-assisted
+interviewing instrument used to conduct the CPS ASEC.
+Marissa Davila, Adrienne DiTommaso, Matthew Marlay, Marc Perry,
+and Elizabeth Pelletier reviewed the contents of this report.
+Christine Geter, Andrew Quach, Stephen Gibson, and Daphanie
+Smallwood, all of the Graphic and Editorial Services Branch, Public
+Information Office, provided publication management, graphic design
+and composition, editorial review, and Section 508 compliance for
+print and electronic media under the direction of Corey Beasley, chief
+of the Graphic and Editorial Services Branch.
+The authors also would like to thank the Census Bureau field
+representatives and telephone interviewers who conducted the
+interviews that provided the data used in this report. Without their
+dedication, the preparation of this report or any report from the
+Current Population Survey would be impossible.
+We wish Tim Marshall and David Hornick, both responsible for CPS
+ASEC processing, and Kirk Davis, responsible for table creation,
+all the best in their retirements. We also thank and wish a happy
+retirement to David Waddington, who oversaw the Income, Poverty,
+and Health Insurance in the United States reports as the division chief
+for the Social, Economic, and Housing Statistics Division.
+
+Poverty in the United States: 2025
+
+Issued September 2026
+P60-290
+
+U.S. Census Bureau
+George Cook,
+Performing the Duties of the Director
+
+Suggested Citation
+Christina Bijou and Emily A. Shrider,
+U.S. Census Bureau,
+Current Population Reports,
+P60-290,
+Poverty in the United States: 2025,
+U.S. Government Publishing Office,
+Washington, DC,
+September 2026.
+
+U.S. CENSUS BUREAU
+George Cook,
+Peforming the Duties of the Director
+Michael Lachanski,
+Deputy Director for Data, Policy, and Science
+Karen Battle,
+Acting Associate Director for Demographic Programs
+Lynda Laughlin,
+Acting Chief, Social, Economic, and Housing Statistics Division
+
+Contents
+INTRODUCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Highlights . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+1
+1
+1
+
+OFFICIAL POVERTY BY SELECTED CHARACTERISTICS . . . . . . . . . . . . 
+
+3
+
+THE SUPPLEMENTAL POVERTY MEASURE BY SELECTED
+CHARACTERISTICS. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+3
+
+COMPARING OFFICIAL+ AND SPM ESTIMATES. . . . . . . . . . . . . . . . . . . . 
+
+6
+
+THE EFFECT OF CASH AND NONCASH TRANSFERS, TAXES,
+AND OTHER NONDISCRETIONARY EXPENSES ON THE SPM . . . . . 
+
+8
+
+SUMMARY. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+9
+
+ENDNOTES. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  10
+
+FIGURES
+Figure 1.
+Figure 2.
+Figure 3.
+
+Number in Poverty and Poverty Rate Using the Official
+Poverty Measure: 1959 to 2025. . . . . . . . . . . . . . . . . . . . . . 
+
+3
+
+People in Poverty Using the Official Poverty Measure:
+2024 to 2025. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+
+4
+
+Figure 4.
+
+Change in Percentage of People in Poverty Using the
+Supplemental Poverty Measure: 2024 to 2025 . . . . . . . . 
+Poverty Rates Using the Official+ and Supplemental
+
+6
+
+Figure 5.
+
+Poverty Measures: 2009 to 2025. . . . . . . . . . . . . . . . . . . . . 
+Poverty Rates Using the Official+ and Supplemental
+Poverty Measures by Age Group: 2009 to 2025 . . . . . . . 
+
+7
+
+Change in Number of People in Supplemental Poverty
+After Including Each Element: 2025 . . . . . . . . . . . . . . . . . 
+
+8
+
+Change in Supplemental Poverty Measure Rates After
+Including Specific Elements: 2025. . . . . . . . . . . . . . . . . . . 
+
+9
+
+Figure 6.
+Figure 7.
+
+5
+
+APPENDIXES
+APPENDIX A. ESTIMATES OF OFFICIAL POVERTY. . . . . . . . . . . . . . . . .  11
+How Official Poverty Is Calculated . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  11
+How Income Is Measured. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  12
+APPENDIX B. THE SUPPLEMENTAL POVERTY MEASURE. . . . . . . . . . .  14
+Updates for 2025. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  14
+APPENDIX C. ADDITIONAL INFORMATION. . . . . . . . . . . . . . . . . . . . . . . . 
+Source and Accuracy of the Estimates. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+CPS ASEC Modernization . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+National Experimental Well-Being Statistics (NEWS) Project. . . . . . . . . 
+Business Cycles—Recessions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Accessing Poverty Data. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Other Sources of Poverty Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+Questions and Comments. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+U.S. Census Bureau
+
+16
+16
+17
+17
+17
+18
+18
+19
+
+Poverty in the United States: 2025 iii
+
+ONLINE TABLES
+(Available at <www.census.gov/library/publications/2026/demo/p60-290.html>.)
+Table 1.
+
+Number and Percentage of People in Poverty Using the Official Poverty Measure: 2024 and 2025
+
+Table 2.
+
+Number and Percentage of Families and People in Poverty by Type of Family Using the Official
+Poverty Measure: 2024 and 2025
+
+Table 3.
+
+Poverty Status of People by Age, Race, and Hispanic Origin Using the Official Poverty Measure:
+1959 to 2025
+
+Table 4.
+
+Number and Percentage of People in Poverty Using the Supplemental Poverty Measure:
+2024 and 2025
+
+Table 5.
+
+Effect of Individual Elements on Supplemental Poverty Measure Rates: 2024 and 2025
+
+Table 6.
+
+Effect of Individual Elements on the Number of Individuals in Poverty Using the Supplemental
+Poverty Measures: 2024 and 2025
+
+Table 7.
+
+Number and Percentage of People in Poverty by Different Poverty Measures: 2025
+
+Table 8.
+
+Number and Percentage of People in Poverty Using the Supplemental Poverty Measure by Age,
+Race, and Hispanic Origin: 2009 to 2025
+
+Table 9.
+
+Official+ Poverty Rates by Age: 2009 to 2025
+
+Table 10.
+
+Official Poverty Measure Thresholds: 2025
+
+Table 11.
+
+Supplemental Poverty Measure Thresholds for Two-Adult, Two-Child Units: 2024 and 2025
+
+Table 12.
+
+Poverty Status of People by Family Relationship, Race, and Hispanic Origin: 1959 to 2025
+
+Table 13.
+
+Poverty Status of Families by Type of Family, Presence of Related Children, Race, and Hispanic
+Origin: 1959 to 2025
+
+Table 14.
+
+People With Income Below Specified Ratios of Their Poverty Thresholds by
+Selected Characteristics: 2025
+
+Table 15.
+
+Interrelationships of State Official Poverty Rates Using 3-Year Average: 2023, 2024, and 2025
+
+Table 16.
+
+Percentage of People by Ratio of Income/Resources to Poverty Threshold: 2024 and 2025
+
+Table 17.
+
+Number and Percentage of People in Poverty by State and Different Poverty Measures Using
+3-Year Average: 2023, 2024, and 2025
+
+Table 18.
+
+Number and Percentage of People in Poverty by Age, State, and Different Poverty Measures Using
+3-Year Average: 2023, 2024, and 2025
+
+Table 19.
+
+SPM Thresholds by Metro Area: 2025
+
+iv Poverty in the United States: 2025
+
+U.S. Census Bureau
+
+Poverty in the United States: 2025
+INTRODUCTION
+The U.S. Census Bureau produces annual poverty estimates
+to measure the economic wellbeing of households, families, and
+individuals in the United States.
+This report provides estimates
+of two measures of poverty: the
+official poverty measure and the
+Supplemental Poverty Measure
+(SPM). The official poverty measure, produced since the 1960s,
+defines poverty by comparing
+pretax money income to a national
+poverty threshold adjusted by
+family composition.1 The official
+poverty measure is used as an
+input to determine eligibility for
+several government programs and
+has been used as a benchmark
+of economic well-being since its
+adoption.
+The SPM, produced in collaboration with the Bureau of Labor
+Statistics (BLS), extends the official poverty measure by accounting for several government programs that are designed to assist
+low-income families but are not
+included in official poverty measure calculations. The SPM also
+accounts for geographic variation in housing expenses when
+calculating poverty thresholds
+and includes federal and state
+taxes, work expenses, and medical expenses. The SPM has been
+released annually since 2011, with
+estimates going back to 2009. It
+does not replace the official poverty measure but rather provides a
+different metric of economic wellbeing that includes resources from
+government programs and tax
+credits to low-income families.
+The estimates in this report
+are based on data collected in
+the 2026 and earlier Current
+
+U.S. Census Bureau
+
+Population Survey Annual Social
+and Economic Supplements (CPS
+ASEC) conducted by the Census
+Bureau.* Estimates for 2024 in
+this report may not match those
+published last year due to the
+implementation of Vintage 2025
+population controls.2 All SPM estimates for 2019-2024 are based on
+revised thresholds released by BLS
+on July 17, 2026.3
+
+The Supplemental Poverty
+Measure
+
+This report is released alongside two other reports focused
+on household income and
+health insurance coverage in the
+United States: “Income in the
+United States: 2025” and “Health
+Insurance in the United States:
+2025.”4
+
+• Social Security continues to be
+the largest antipoverty program,
+moving 28.8 million individuals out of SPM poverty in 2025
+(Figure 6).
+
+Highlights
+Official Poverty Measure
+• In 2025, the official poverty rate
+fell 0.5 percentage points to
+10.2 percent. There were 34.5
+million people in poverty in
+2025 (Figure 2).5
+• The official poverty rate for children fell to a historic low of 13.4
+percent in 2025 (Figure 2).
+• Between 2024 and 2025, the
+official poverty rate for Hispanic
+individuals decreased to a historic low of 13.9 percent (Figure
+2).6, 7
+* The U.S. Census Bureau has reviewed
+this data product to ensure appropriate
+access, use, and disclosure avoidance
+protection of the confidential source
+data used to produce this product
+(Data Management System [DMS]
+number: P-7534374 and Disclosure
+Review Board [DRB] approval number:
+CBDRB-FY26-0280). To further protect
+respondent privacy, all estimates in this
+report have undergone additional rounding.
+As a result, details may not sum to totals.
+All comparative statements have undergone
+statistical testing and are statistically
+significant at the 90 percent confidence level
+unless otherwise noted.
+
+• The SPM rate in 2025 was 13.1
+percent, not statistically different from 2024 (Figure 3).8
+• Between 2024 and 2025, SPM
+rates increased for those without a high school diploma but
+did not change significantly for
+the other groups discussed in
+this report (Figure 3).
+
+Background
+The Census Bureau has produced poverty estimates since
+the 1960s. Following the Office of
+Management and Budget’s (OMB)
+Statistical Policy Directive 14, the
+official poverty measure classifies families and individuals as
+in poverty if their pretax money
+income falls below a threshold
+adjusted by family composition.
+Poverty thresholds are adjusted
+annually for inflation using the
+Consumer Price Index for All Urban
+Consumers (CPI-U). The official
+poverty measure can be used to
+evaluate economic well-being back
+to 1959. Appendix A provides more
+information on the official poverty measure, including the 2025
+thresholds.
+The SPM was developed after
+years of research and analysis. It is
+based on the recommendations of
+the Interagency Technical Working
+Group (ITWG) on Developing a
+Supplemental Poverty Measure
+and the 1995 report of the National
+Academy of Sciences Panel on
+Poverty and Family Assistance.
+
+Poverty in the United States: 2025 1
+
+The SPM complements the official
+poverty measure by expanding the
+definition of resources to include
+noncash benefits while deducting
+key expenses. The SPM also uses
+poverty thresholds that account
+for a wider set of needs and geographic variation than the official
+poverty thresholds.9 Additionally,
+it accounts for housing tenure by
+using different thresholds for renters, owners with a mortgage, and
+those who have substantially lower
+housing costs, either because they
+do not pay rent or are owners without a mortgage.
+
+Bureau-defined families) share
+resources.10 This resource-sharing
+unit is used to sum resources and
+determine the appropriate poverty
+threshold. In comparison, the SPM
+expands the resource-sharing unit
+to also include unmarried partners
+and their relatives, coresident unrelated children under the age of 15,
+and foster children under the age
+of 22. Because of these differences,
+official poverty measure estimates
+are reported for families, while SPM
+estimates are reported for resource
+units. Both measures also provide
+estimates for unrelated individuals.11
+
+In addition to the differences in
+resources and thresholds, the
+official poverty measure and the
+SPM use different measurement
+units and universes. The official
+poverty measure assumes that only
+individuals related by birth, marriage, and adoption (i.e., Census
+
+The difference in measurement unit
+also leads to a difference in universe: the SPM includes unrelated
+children under the age of 15, while
+the official poverty measure does
+not.12 To account for this difference,
+this report uses the designation
+
+“official+” when directly comparing the official and SPM poverty
+measures.13 Estimates of official+
+poverty add unrelated individuals
+under the age of 15 to the official
+poverty universe. These individuals
+are given the official poverty status
+of the household reference person.
+The SPM does not replace the
+official poverty measure, nor is it
+designed to be used for program
+eligibility or funding distribution.
+The main differences in the two
+measures are summarized in the
+“Differences in Poverty Measures”
+table. Updates to the SPM for
+2025 can be found in Appendix B.
+Comparisons over time should be
+made with caution due to changes
+in survey design, sampling, and
+instrument changes, as well as data
+processing and methodological
+improvements.14
+
+DIFFERENCES IN POVERTY MEASURES
+Official Poverty Measure
+
+Supplemental Poverty Measure
+
+Measurement units
+
+Families (individuals related by birth,
+marriage, or adoption) or unrelated
+individuals.
+
+Resource units (official family definition plus any
+coresident unrelated children, foster children,
+and unmarried partners and their relatives) or
+unrelated individuals (who are not otherwise
+included in the family definition).
+
+Poverty threshold
+
+Three times the cost of a minimum
+food diet in 1963.
+
+Based on recent expenditures for food, clothing,
+shelter, utilities, telephone, and internet
+(FCSUti).
+
+Threshold
+adjustments
+
+Vary by family size, composition, and
+age of householder.
+
+Vary by family size, composition, and housing
+tenure, with geographic adjustments for
+differences in housing costs.
+
+Updating thresholds Consumer Price Index for All Urban
+Consumers: all items.
+
+Most recent 5-year moving average of
+expenditures on FCSUti, lagged 1 year.
+
+Resource measure
+
+Gross pretax cash income.
+
+Cash income, plus noncash benefits that
+resource units can use to meet their FCSUti
+needs, minus taxes (or plus tax credits), work
+expenses, medical expenses, and child support
+paid to another household.
+
+Universe
+
+Civilian noninstitutionalized population, Official poverty measure universe, plus unrelated
+excluding unrelated individuals under
+individuals under the age of 15.
+the age of 15 for whom poverty status
+cannot be determined.
+
+Time series
+
+1959–present.
+
+2 Poverty in the United States: 2025
+
+2009–present.
+
+U.S. Census Bureau
+
+OFFICIAL POVERTY BY
+SELECTED CHARACTERISTICS
+In 2025, the official poverty rate fell
+0.5 percentage points to 10.2 percent, the third consecutive annual
+decline and one of the lowest rates
+on record (Figure 1).15, 16 There were
+34.5 million people in poverty in
+2025.
+Poverty rates for Hispanic individuals and children under age 18 both
+fell to historic lows in 2025 (Figure
+2).17 Between 2024 and 2025, the
+poverty rate for Hispanic individuals fell 1.2 percentage points to 13.9
+percent. The child poverty rate
+fell 1.0 percentage points to 13.4
+percent.
+Poverty rates also declined for
+men, women, adults ages 18 to
+64, individuals living in primary
+families and female householder
+
+families, and full-time, year-round
+workers. None of the remaining
+demographic groups presented in
+Figure 2 were statistically different
+between 2024 and 2025.18
+
+THE SUPPLEMENTAL POVERTY
+MEASURE BY SELECTED
+CHARACTERISTICS
+The official poverty measure
+provides a consistent definition
+of poverty over long periods by
+considering pretax money income
+alone and using thresholds that
+are only inflation-adjusted. It does
+not capture tax policy, noncash
+assistance, geographic costof-living differences, necessary
+expenses, or changes over time in
+any of these components.
+These factors can have a
+substantial effect on poverty rates.
+The rest of this report explores
+
+poverty using the SPM, which
+provides an additional perspective
+on economic well-being by using
+an expanded definition of poverty.
+The SPM includes noncash benefits,
+accounts for income and payroll
+taxes, subtracts other necessary
+expenses, uses a more inclusive
+resource sharing unit, and accounts
+for geographic differences in
+housing costs.
+Figure 3 presents annual SPM rates
+for 2024 and 2025 across a set of
+demographic characteristics. In
+2025, the overall SPM rate was 13.1
+percent, not statistically different
+from 2024.19 Between 2024 and
+2025, the SPM rate for those
+without a high school diploma
+increased by 2.0 percentage points
+to 32.4 percent. SPM rates did not
+change significantly for the other
+groups in Figure 3.
+
+Figure 1.
+
+Number in Poverty and Poverty Rate Using the Official Poverty Measure: 1959 to 2025
+50
+
+Recession
+
+Numbers in millions
+
+45
+
+Number in poverty
+
+40
+
+34.5 million
+
+35
+30
+25
+20
+0
+25
+
+Percent
+
+20
+
+Poverty rate
+
+15
+
+10.2 percent
+
+10
+5
+0
+1959
+
+1965
+
+1970
+
+1975
+
+1980
+
+1985
+
+1990
+
+1995
+
+2000
+
+2005
+
+2010
+
+2015
+
+2020
+
+2025
+
+Note: Population as of March of the following year. Estimates and historical footnotes are available in Table 3 at
+<www.census.gov/library/publications/2026/demo/p60-290.html>. The data points are placed at the midpoints of the
+respective years. Information on recessions is available in Appendix C. Information on confidentiality protection, sampling error,
+nonsampling error, and definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 1960 to 2026 Annual Social and Economic Supplements (CPS ASEC;
+DMS number P-7534374 and DRB approval number CBDRB-FY26-0280).
+
+U.S. Census Bureau
+
+Poverty in the United States: 2025 3
+
+Figure 2.
+
+People in Poverty Using the Official Poverty Measure: 2024 to 2025
+Percent in Poverty: 2025
+
+Change: 2024 to 2025
+
+ALL PEOPLE
+
+10.2
+
+–0.5
+
+Sex
+Male
+
+9.2
+
+–0.4
+
+Female
+
+11.1
+
+Age
+Under 18 years
+
+–0.6
+
+13.4
+
+–1.0
+
+18 to 64 years
+
+9.2
+
+–0.4
+
+65 years and older
+
+9.8
+
+–0.2
+
+Type of Unit
+In primary families
+
+–0.6
+
+8.1
+
+In married-couple families
+
+4.4
+
+–0.2
+–1.9
+
+21.9
+
+In female-householder families
+In male-householder families
+
+11.3
+
+Unrelated individuals
+
+0.1
+0.3
+
+19.0
+
+Race and Hispanic Origin
+White
+
+9.0
+
+White, not Hispanic
+
+–0.3
+–0.1
+
+7.5
+
+Black
+
+17.3
+
+Asian
+
+–1.1
+0.2
+
+7.7
+
+American Indian and Alaska Native
+
+–2.7
+
+16.7
+
+Two or More Races
+
+11.5
+
+–2.1
+
+13.9
+
+Hispanic (any race)
+Educational Attainment
+No high school diploma
+
+–1.2
+
+1
+
+23.8
+
+High school, no college
+
+0.6
+–0.4
+
+12.5
+
+Some college
+
+–0.6
+
+8.2
+
+Bachelor's degree or higher
+
+4.0
+
+–0.1
+
+Work Experience
+All workers
+
+4.3
+
+–0.2
+
+2
+
+Worked full-time, year-round
+Less than full-time, year-round
+Did not work
+
+1.6
+
+–0.2
+11.8
+
+0.3
+27.3
+
+–0.9
+Denotes a statistically
+significant change
+
+Population limited to individuals age 25 and older. In 2025, the overall poverty rate for this group was 8.9 percent.
+Population limited to individuals ages 18 to 64. In 2025, the overall poverty rate for this group was 9.2 percent.
+Note: Population as of March of the following year. Details may not sum to totals due to rounding. Margins of error and
+other related estimates are available in Tables 1 and 2 at <www.census.gov/library/publications/2026/demo/p60-290.html>.
+More information on confidentiality protection, sampling error, nonsampling error, and definitions is available at
+<https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2025 and 2026 Annual Social and Economic Supplements (CPS
+ASEC; DMS number P-7534374 and DRB approval number CBDRB-FY26-0280).
+
+1
+
+2
+
+4 Poverty in the United States: 2025
+
+U.S. Census Bureau
+
+Figure 3.
+
+Change in Percentage of People in Poverty Using the Supplemental Poverty Measure:
+2024 to 2025
+Percent in Poverty: 2025
+ALL PEOPLE
+
+13.1
+
+Sex
+Male
+Female
+
+12.4
+
+Change: 2024 to 2025
+0.1
+0.1
+
+13.8
+
+Age
+Under 18 years
+
+0.1
+
+13.4
+
+Housing Tenure
+Owner/mortgage
+
+–0.1
+
+12.3
+
+18 to 64 years
+65 years and older
+
+Z
+0.2
+
+15.4
+6.0
+
+–0.2
+11.9
+
+Owner/no mortgage/rent-free
+Renter
+
+Z
+24.0
+
+Race and Hispanic Origin
+White
+
+0.8
+0.2
+
+11.8
+
+White, non-Hispanic
+
+0.4
+
+9.2
+
+Black
+
+–0.3
+
+20.3
+
+Asian
+
+0.7
+
+12.8
+
+American Indian and Alaska Native
+Two or More Races
+
+–1.8
+–1.3
+
+18.1
+12.5
+20.0
+
+Hispanic (any race)
+Educational Attainment1
+No high school diploma
+
+–0.3
+32.4
+
+High school, no college
+
+2.0
+
+16.9
+
+0.4
+
+11.0
+
+Some college
+Bachelor's degree or higher
+Work Experience
+All workers
+
+–0.2
+
+6.4
+
+0.2
+
+7.1
+
+Z
+
+2
+
+Worked full-time, year-round
+Less than full time, year-round
+Did not work
+
+4.1
+
+Z
+15.5
+
+0.5
+0.4
+
+31.3
+
+Denotes a statistically
+significant change
+
+Z Rounds to zero.
+1
+Population limited to individuals age 25 and older. In 2025, the overall poverty rate for this group was 12.4 percent.
+2
+Population limited to inviduals ages 18 to 64. In 2025, the overall poverty rate for this group was 12.3 percent.
+Note: Population as of March of the following year. Details may not sum to totals due to rounding. Margins of error and
+other related estimates are available in Table 4 at <www.census.gov/library/publications/2026/demo/p60-290.html>.
+More information on confidentiality protection, sampling error, nonsampling error, and definitions is available at
+<https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>
+Source: U.S. Census Bureau, Current Population Survey, 2025 and 2026 Annual Social and Economic Supplements
+(CPS ASEC; DMS number P-7534374 and DRB approval number CBDRB-FY26-0280).
+
+U.S. Census Bureau
+
+Poverty in the United States: 2025 5
+
+The remainder of this report
+uses official+ when drawing
+comparisons between the SPM
+and the official poverty measure.
+Official+ denotes the official
+poverty measure using the same
+universe as the SPM, which
+includes unrelated individuals
+under the age of 15.
+
+COMPARING OFFICIAL+ AND
+SPM ESTIMATES
+Figure 4 presents SPM and
+official+ estimates from 2009 to
+2025. The overall SPM rate (13.1
+percent) was 2.9 percentage
+points higher than the official+ rate
+(10.2 percent) in 2025.20 In recent
+years, differences in how the
+poverty thresholds are adjusted
+explain part of this gap. While
+the official poverty thresholds are
+annually adjusted using the CPI-U,
+which includes a wide range of
+
+consumer expenditures, the SPM
+thresholds are based on a 5-year
+moving average of expenditures
+for a smaller bundle of goods,
+lagged by 1 year.21 When the cost
+of one or more of the components
+of the SPM bundle, such as food,
+outpaces overall inflation, it causes
+the SPM thresholds to increase
+more than if they were simply
+adjusted by the CPI-U or another
+inflation factor.
+Figure 5 shows official+ and SPM
+rates from 2009 to 2025 by
+age.22 While official+ poverty rates
+decreased for children and 18- to
+64-year-olds between 2024 and
+2025, SPM rates did not change
+significantly for any age group.
+The SPM rate was higher than
+the official+ rate for both adult
+age groups in 2025, but the rates
+for children were not statistically
+
+different. Though the official+
+rate for children has typically run
+higher than the SPM rate, the
+marked decline in the official+ rate
+between 2024 and 2025 brought
+the rates together, with both at
+13.4 percent.
+In 2025, the SPM rate for 18- to
+64-year-olds was 12.3 percent,
+while the official+ rate was 9.2
+percent. Those 65 years and older
+had the largest gap between
+measures (5.6 percentage points),
+with an SPM rate of 15.4 percent
+and an official+ rate of 9.8 percent.
+The larger gap among those 65
+years and older was primarily due
+to differences in the treatment of
+medical expenses between the two
+measures—medical expenses are
+subtracted from resources in the
+SPM but are not accounted for in
+the official poverty measure.
+
+Figure 4.
+
+Poverty Rates Using the Official+ and Supplemental Poverty Measures: 2009 to 2025
+18
+
+Recession
+
+Percent
+
+16
+
+15.1
+
+14
+
+14.4
+
+12
+
+SPM
+13.1
+Official
+
++
+
+10
+
+10.2
+
+8
+6
+4
+2
+0
+
+2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+
+Note: Official+ includes unrelated individuals under the age of 15. SPM is the Supplemental Poverty Measure. Population as of March
+of the following year. Historical footnotes, margins of error, and other related estimates are available in Table 8 and Table 9 at
+<www.census.gov/library/publications/2026/demo/p60-290.html>. The data points are placed at the midpoints of the respective
+years. Information on recessions is available in Appendix C. More information on confidentiality protection, sampling error,
+nonsampling error, and definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2010 to 2026 Annual Social and Economic Supplements (CPS ASEC; DMS
+number P-7534374 and DRB approval number CBDRB-FY26-0280).
+
+6 Poverty in the United States: 2025
+
+U.S. Census Bureau
+
+Figure 5.
+
+Poverty Rates Using the Official+ and Supplemental Poverty Measures by Age Group:
+2009 to 2025
+25
+
+Percent
+20.7
+
+20
+
+Under 18 Years
+
+Recession
+
+Official+ children
+
+17.0
+
+15
+SPM children
+
+13.4
+13.4
+
+10
+5
+0
+
+25
+
+2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Percent
+
+18 to 64 Years
+
+20
+15
+
+14.4
+
+SPM 18–64
+12.3
+
+13.0
+10
+
+Official+ 18–64
+
+9.2
+
+5
+0
+
+25
+
+2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+Percent
+
+65 Years and Older
+
+20
+15
+
+14.9
+
+SPM 65+
+
+8.9
+
+Official+ 65+
+
+10
+
+15.4
+
+9.8
+
+5
+0
+
+2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+
+Note: Official+ includes unrelated unrelated individuals under the age of 15. SPM is the Supplemental Poverty Measure. Population as
+of March of the following year. Historical footnotes, margins of error and other related estimates are available in Table 8 and Table 9
+at <www.census.gov/library/publications/2026/demo/p60-290.html>. The data points are placed at the midpoints of the respective
+years. Information on recessions is available in Appendix C. More information on confidentiality protection, sampling error,
+nonsampling error, and definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2010 to 2026 Annual Social and Economic Supplements (CPS ASEC; DMS
+number P-7534374 and DRB approval number CBDRB-FY26-0280).
+
+U.S. Census Bureau
+
+Poverty in the United States: 2025 7
+
+THE EFFECT OF
+CASH AND NONCASH
+TRANSFERS, TAXES, AND
+NONDISCRETIONARY
+EXPENSES ON THE SPM
+The SPM allows us to estimate how
+including different resources and
+expenses affects the number of
+people in poverty and the poverty
+rate. Figure 6 shows how adding
+or subtracting different factors
+from the resource calculation
+would affect the number of people
+in poverty in 2025. Some of the
+programs in the figure—cash
+programs such as Social Security
+and unemployment insurance
+benefits—are included in both the
+
+the value of each component to
+a unit’s resources. Poverty status
+changes if subtracting a program
+benefit decreases individuals’
+resources below their poverty
+threshold or if adding an expense
+takes them above their poverty
+threshold. These additions
+and subtractions are done
+independently and assume no
+behavioral changes such as shifts
+in employment status or expenses.
+
+official poverty measure and the
+SPM.23 Others—such as refundable
+tax credits, SNAP, and housing
+subsidies—are only included in the
+SPM. Necessary expenses—such
+as taxes, medical expenses, and
+work-related expenses—are also
+deducted from SPM resources but
+are not considered in the official
+poverty measure.24
+To evaluate the effect of programs
+that add to resources (e.g., Social
+Security and cash and noncash
+transfers), we subtract the value
+of each component from a unit’s
+resources and recalculate poverty
+status. In contrast, to evaluate the
+effect of expenses, we add back
+
+Removing one item from the
+calculation of SPM resources and
+recalculating poverty rates shows,
+for example, that Social Security
+benefits decreased the SPM rate by
+8.5 percentage points, lifting 28.8
+
+Figure 6.
+
+Change in Number of People in Supplemental Poverty After Including Each Element: 2025
+(In millions)
+
+Under 18 years old
+
+18 to 64 years old
+
+65 years and older
+Social Security
+
+–28.8
+
+Refundable tax credits1
+
+–6.1
+
+Earned Income Tax Credit
+
+–4.0
+
+SNAP
+
+–3.1
+–2.2
+
+SSI
+
+–2.1
+
+Housing subsidies
+
+–1.5
+
+Other noncash benefits2
+
+–1.0
+
+Other cash benefits3
+
+–0.3
+Child support paid
+Federal income tax
+
+Unemployment insurance
+0.1
+1.4
+
+Work expenses
+
+4.0
+
+FICA
+
+4.5
+
+Medical expenses
+
+7.7
+
+Refundable tax credits include the Earned Income Tax Credit and the refundable portion of the Child Tax Credit.
+Other noncash benefits include energy assistance; the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC); and
+school lunch.
+3
+Other cash benefits include workers compensation, Temporary Assistance for Needy Families, and child support received.
+Note: Supplemental Nutrition Assistance Program (SNAP); Supplemental Security Income (SSI); Federal Insurance Contributions Act (FICA). Population as
+of March of the following year. Refundable tax credits include the Earned Income Tax Credit (EITC) and the refundable portion of the Child Tax Credit.
+Margins of error and other related estimates are available in Table 6 at <www.census.gov/library/publications/2026/demo/p60-290.html>. Estimates in
+Table 6 are not mutually exclusive, so the components of refundable tax credits, other cash benefits, and other noncash benefits will not sum to the
+combined estimate shown in this figure. More information on confidentiality protection, sampling error, nonsampling error, and definitions is available at
+<https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2026 Annual Social and Economic Supplement (CPS ASEC; DMS number P-7534374 and
+DRB approval number CBDRB-FY26-0280).
+1
+
+2
+
+8 Poverty in the United States: 2025
+
+U.S. Census Bureau
+
+million people above the poverty
+line (Figures 6 and 7).25 Social
+Security was the largest antipoverty
+program in 2025, especially for
+those 65 years and older. Over 70
+percent of the people pulled out
+of poverty by Social Security (20.9
+million individuals) fell into that age
+group.
+Of the additions to the SPM
+resources calculation, refundable
+tax credits, such as the Earned
+Income Tax Credit and the
+refundable portion of the Child
+Tax Credit, had the second-largest
+effect, reducing the SPM rate by
+1.8 percentage points and lifting 6.1
+million people above the poverty
+line in 2025, including 3.3 million
+children.
+The SPM subtracts amounts
+paid for child support, income
+and payroll taxes, work-related
+expenses, and medical expenses
+from resources, which increases
+the number and percentage of
+individuals in poverty. Of the
+subtractions, medical expenses had
+the largest effect in 2025, pushing
+7.7 million individuals into poverty
+and raising the poverty rate by
+2.3 percentage points. This effect
+varied by age. For those 65 years
+and older, subtracting medical
+expenses raised the poverty rate by
+3.8 percentage points. The effect
+was smaller among 18- to 64-yearolds (1.9 percentage points) and
+children (2.0 percentage points).26
+
+SUMMARY
+This report provides estimates of
+poverty in the United States using
+both the official poverty measure
+and the SPM. While official poverty
+declined to a near all-time low
+of 10.2 percent in 2025, the SPM
+remained flat at 13.1 percent, not
+statistically different from 2024.
+The results illustrate how using
+different measures affects who
+
+U.S. Census Bureau
+
+Figure 7.
+
+Change in Supplemental Poverty Measure Rates
+After Including Specific Elements: 2025
+All people
+
+Under 18 years
+
+18–64 years
+
+65 years and older
+
+Social Security
+–8.5
+–1.8
+–3.3
+–32.1
+Refundable tax credits
+–1.8
+–4.5
+–1.4
+–0.1
+Medical expenses
+2.3
+2.0
+1.9
+3.8
+
+Note: Population as of March of the following year. Refundable tax credits include the
+Earned Income Tax Credit (EITC) and the refundable portion of the Child Tax Credit.
+Margins of error and other related estimates are available in Table 5 at
+<www.census.gov/library/publications/2026/demo/p60-290.html>. More information on
+confidentiality protection, sampling error, nonsampling error, and definitions is available
+at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar26.pdf>.
+Source: U.S. Census Bureau, Current Population Survey, 2026 Annual Social
+and Economic Supplement (CPS ASEC; DMS number P-7534374 and DRB
+approval number CBDRB-FY26-0280).
+
+counts as being in poverty. The
+official poverty measure only
+considers pretax income and
+uses national thresholds that are
+inflation-adjusted, allowing for
+consistent measurement of poverty
+back to the 1960s. The downside
+of this approach is that it does not
+capture changes to tax and transfer
+programs that can affect family and
+household resources, nor does it
+account for geographic differences
+in cost of living.
+In contrast, the SPM accounts
+for income and payroll taxes, tax
+
+credits, noncash benefits, and
+nondiscretionary expenses. It uses
+geographically adjusted poverty
+thresholds that are updated by BLS
+with recent information on food,
+clothing, shelter, utility, telephone,
+and internet expenditures. This
+results in a poverty measure that
+accounts for current standards of
+living as well as policy changes
+that operate primarily as noncash
+benefits or through the tax system.
+Together, the two measures provide
+useful information on historic and
+current economic well-being.
+
+Poverty in the United States: 2025 9
+
+ENDNOTES
+1
+The Office of Management and Budget
+(OMB) determined the official definition of
+poverty in Statistical Policy Directive 14. The
+official poverty measure uses pretax money
+income, which is gross income received
+from a variety of sources like earnings,
+Social Security, pensions, and disability
+benefits. It does not include tax credits, like
+the Earned Income Tax Credit (EITC) or the
+Child Tax Credit, nor does it include noncash
+benefits, such as subsidized housing or
+nutritional assistance programs. Appendix
+A provides more details on how the Census
+Bureau calculates official poverty and on the
+definition of money income.
+2
+Additional details on the effect of
+population controls are available at <www.
+census.gov/library/working-papers/2026/
+demo/sehsd-wp2026-16.html>.
+3
+Additional details on the effect of
+the revised thresholds on historical SPM
+estimates are available at <www.census.
+gov/library/working-papers/2026/demo/
+sehsd-wp2026-17.html>.
+4
+Melissa Kollar and Zachary Scherer,
+“Income in the United States: 2025,” Current
+Population Reports, P60-289, U.S. Census
+Bureau, Washington, DC, September 2026,
+available at <www.census.gov/library/
+publications/2026/demo/p60-289.html>,
+and Lisa N. Bunch and Halelujha Ketema,
+“Health Insurance in the United States: 2025,”
+Current Population Reports, P60-291,
+U.S. Census Bureau, Washington, DC,
+September 2026, available at <www.census.
+gov/library/publications/2026/demo/p60291.html>.
+5
+The margin of error for the official
+poverty rate in 2025 was 0.3.
+6
+Federal surveys give respondents the
+option of reporting more than one race.
+Therefore, two basic ways of defining a race
+group are possible. A group, such as Asian,
+may be defined as those who reported
+Asian and no other race (the race-alone
+or single-race concept) or as those who
+reported Asian regardless of whether they
+also reported another race (the race-aloneor-in-combination concept). The body of this
+report (text and figures) shows data using
+the first approach (race alone), along with
+estimates for Two or More Races. The online
+tables show data using both approaches.
+Primary use of the single-race population
+does not imply that it is the preferred
+method of presenting or analyzing data. The
+Census Bureau uses a variety of approaches.
+In this report, the terms “White, not
+Hispanic” and “non-Hispanic White” are used
+interchangeably and refer to people who
+are not Hispanic and who reported White
+and no other race. This report uses nonHispanic White as the comparison group for
+other race and Hispanic origin groups. Since
+Hispanic individuals may be any race, data
+in this report for the Hispanic population
+overlap with data for race groups. Data users
+should be aware that the different race and
+Hispanic origin populations consist of many
+distinct groups that differ in socioeconomic
+characteristics, culture, and nativity, which
+may affect the interpretation of aggregate
+results. Data identifying Hispanic individuals
+were first collected in 1972 and for Asian and
+Pacific Islander individuals in 1987. Estimates
+for the Asian, American Indian and Alaska
+
+10 Poverty in the United States: 2025
+
+Native, and Two or More Races populations
+have large variances. This is a result of small
+sample sizes and the fact that the CPS ASEC
+does not use separate population controls
+for weighting these groups to national
+totals. The American Community Survey
+(ACS), based on a much larger sample of the
+population, is a better source for estimating
+and identifying changes for small subgroups
+of the population. More information is
+available at <www.census.gov/programssurveys/cps.html>.
+7
+Historical official poverty measure
+estimates by race and ethnicity and age are
+available in Table 3 at <www.census.gov/
+library/publications/2026/demo/p60-290.
+html>.
+8
+The margin of error for the SPM rate in
+2025 was 0.3.
+9
+Thresholds for the SPM are produced
+by the BLS Division of Price and Index
+Number Research. The 2024 and 2025
+thresholds for two-adult, two-children
+units are in Appendix B.
+10
+A family is a group of two or more
+people (not necessarily including the
+householder) related by birth, marriage, or
+adoption and residing together. A primary
+family includes the householder and
+members related by the same categories.
+All such people (including related subfamily
+members) are considered as members of
+one family. To assign thresholds and produce
+poverty estimates, unrelated individuals are
+treated as single-person units.
+11
+Unrelated individuals are people of any
+age who are not living with any other family
+members. When calculating family poverty,
+these individuals are treated as single-person
+units.
+12
+Because unrelated individuals under
+the age of 15 are excluded from the official
+poverty universe, there were 423,800 fewer
+children in the official poverty universe
+than in the total civilian noninstitutionalized
+population and the SPM universe in 2025.
+More information on this difference is
+provided later in the report and in the
+SPM technical documentation, available
+at <https://www2.census.gov/programssurveys/supplemental-poverty-measure/
+datasets/spm/spm_techdoc.pdf>.
+13
+More information on the universe
+differences can be found in the SPM
+technical documentation, available at
+<https://www2.census.gov/programssurveys/supplemental-poverty-measure/
+datasets/spm/spm_techdoc.pdf>, and in
+Liana Fox, “Revising Poverty Assignments
+of Unrelated Children Under Age 15 in the
+Supplemental Poverty Measure,” SEHSD
+Working Paper #2017-42, U.S. Census
+Bureau, Washington, DC, available at <www.
+census.gov/library/working-papers/2017/
+demo/SEHSD-WP2017-42.html>.
+14
+The CPS ASEC is updated periodically
+to improve data quality. These improvements
+include changes to survey design, such as
+sampling and survey instrument changes;
+changes to data processing, such as
+weighting and data imputation methods;
+and changes to how the SPM is constructed.
+When feasible, the Census Bureau provides
+data users with resources that allow them to
+evaluate the effect of these survey changes
+across years. As a result, two estimates are
+provided for reference years 2013, 2017, and
+2019, which reflect years in which there were
+
+major changes to the survey and poverty
+measure methodology. Given these changes,
+historical comparisons should be made
+with caution. In this report, estimates are
+compared to published estimates for earlier
+years when the questionnaire and processing
+system changes did not result in statistically
+significant differences. When survey changes
+did have statistically significant effects on
+income or poverty estimates, comparisons
+are made by adjusting historical published
+estimates to approximate the magnitude of
+these effects. More details on the adjustment
+used for these comparisons are available at
+<www.census.gov/library/stories/2019/09/
+us-median-household-income-notsignificantly-different-from-2017.html>.
+15
+Historical official poverty measure
+estimates by race and ethnicity and age are
+available in Table 3 at <www.census.gov/
+library/publications/2026/demo/p60-290.
+html>.
+16
+The 2025 poverty rate of 10.2 percent
+was not statistically different from the 2019
+poverty rate of 10.5 percent.
+17
+The CPS ASEC has estimates on
+Hispanic individuals back to 1973 and for
+children back to 1959.
+18
+Official poverty measure estimates
+for select demographic characteristics and
+family types for 2024 and 2025 are available
+in Tables 1 and 2 at <www.census.gov/library/
+publications/2026/demo/p60-290.html>.
+19
+SPM estimates for select demographic
+characteristics and family types for 2024
+and 2025 are available in Table 4 at <www.
+census.gov/library/publications/2026/demo/
+p60-290.html>.
+20
+SPM and official+ estimates for select
+demographic characteristics and family
+types for 2024 and 2025 are available
+in Table 7 at <www.census.gov/library/
+publications/2026/demo/p60-290.html>.
+21
+The CPI-U includes expenditures on
+food and beverages, housing, apparel,
+transportation, medical care, recreation,
+education and communications, and other
+goods and services. The SPM bundle of
+goods includes food, clothing, shelter,
+utilities, telephone, and internet. More
+information on the CPI-U is available at
+<www.bls.gov/cpi/overview.htm>.
+22
+Historical estimates by race and
+ethnicity and age are available in Table 8
+(SPM) and Table 9 (official+) at <www.census.
+gov/library/publications/2026/demo/p60290.html>.
+23
+Child support payments received
+are counted as income in both the official
+poverty measure and the SPM. Child support
+paid is only deducted in the SPM.
+24
+Median weekly work expenses were
+estimated using the 2025 Survey of Income
+and Program Participation (SIPP). In 2025,
+they were $42.00. Medical expenses include
+contributions toward the cost of medical
+care and health insurance premiums.
+25
+Estimates for the effect of individual
+elements of the SPM resources and expenses
+calculations on the SPM rate and number
+of people in SPM poverty are available in
+Tables 5 and 6 at <www.census.gov/library/
+publications/2026/demo/p60-290.html>.
+26
+The percentage of people pushed
+into poverty by medical expenses was not
+statistically different between 18- to 64-yearolds and children.
+
+U.S. Census Bureau
+
+Appendix A. Estimates of Official Poverty
+HOW OFFICIAL POVERTY IS
+CALCULATED
+Following the Office of
+Management and Budget’s (OMB)
+Statistical Policy Directive 14, the
+U.S. Census Bureau uses a set of
+dollar value thresholds that vary
+by family size and composition
+to determine who is in poverty
+(available in the table below).
+If a family’s total money income is
+less than the applicable threshold,
+then that family and every
+individual in it are considered
+to be in poverty. The official
+poverty thresholds are updated
+annually for inflation using the
+Consumer Price Index for All
+Urban Consumers (CPI-U). The
+official poverty definition uses
+money income before taxes or tax
+credits and excludes capital gains
+and noncash benefits (such as
+Supplemental Nutrition Assistance
+Program [SNAP] benefits and
+housing assistance). The thresholds
+do not vary geographically.
+Example: Consider a five-person
+family with two children, their
+
+mother, their father, and their
+great-aunt. This family’s 2025
+poverty threshold is $39,384. Each
+family member had the following
+income in 2025:
+Mother
+
+$14,500
+
+Father
+
+$14,000
+
+Great-aunt
+
+$12,000
+
+First child
+
+$0
+
+Second child
+
+$0
+
+Total:
+
+$40,500
+
+Since their total family income
+($40,500) was higher than their
+threshold ($39,384), this family
+would not be considered “in
+poverty.”
+The OMB Statistical Policy
+Directive 14 directed the Census
+Bureau to consistently update the
+poverty thresholds each year for
+cost-of-living changes. Thresholds
+in this report series are adjusted
+using the CPI-U and are compared
+to current year (unadjusted
+for inflation) money income. If,
+alternatively, the Consumer Price
+
+Index Retroactive Series for All
+Urban Consumers All Items (R-CPIU-RS) index had been used to
+inflation-adjust poverty thresholds
+from previous years, current
+poverty rates would be lower.
+This is because the R-CPI-U-RS
+results in a smaller cost-of-living
+adjustment over longer periods
+than the CPI-U.
+While the thresholds, in some
+sense, represent the needs of
+families, they should be interpreted
+as a statistical yardstick rather
+than as a complete description
+of what people and families need
+to live. There are other ways to
+measure a family’s needs; many
+government assistance programs
+use different income eligibility
+cutoffs, while the Supplemental
+Poverty Measure (SPM) uses a
+different approach for setting
+thresholds and defining resources.
+Additional information on SPM
+methodology is available in the
+SPM technical documentation
+at <https://www2.census.gov/
+programs-surveys/supplementalpoverty-measure/datasets/spm/
+spm_techdoc.pdf>.
+
+Poverty Thresholds by Size of Family and Number of Related Children Under 18 Years Old: 2025
+(In dollars)
+Related children under 18 years old
+Size of family unit
+None
+
+One
+
+One person (unrelated individual):
+Under 65 years . . . . . . . . . . . . . . . . . . .
+65 years and over . . . . . . . . . . . . . . . .
+
+16,749
+15,440
+
+Two people:
+Householder under 65 years . . . . . . .
+Householder 65 years and over . . . .
+
+21,558
+19,460
+
+22,190
+22,106
+
+Three people. . . . . . . . . . . . . . . . . . . . . . .
+Four people . . . . . . . . . . . . . . . . . . . . . . .
+Five people . . . . . . . . . . . . . . . . . . . . . . . .
+Six people . . . . . . . . . . . . . . . . . . . . . . . . .
+Seven people . . . . . . . . . . . . . . . . . . . . . .
+Eight people . . . . . . . . . . . . . . . . . . . . . . .
+Nine people or more . . . . . . . . . . . . . . . .
+
+25,183
+33,207
+40,045
+46,060
+52,997
+59,273
+71,301
+
+25,913
+33,750
+40,628
+46,242
+53,328
+59,796
+71,647
+
+Two
+
+Three
+
+Four
+
+Five
+
+Six
+
+Seven
+
+Eight or
+more
+
+25,938
+32,649
+39,384
+45,289
+52,187
+58,720
+70,694
+
+32,762
+38,421
+44,376
+51,392
+57,777
+69,894
+
+37,833
+43,018
+49,911
+56,439
+68,581
+
+42,213
+48,183
+54,740
+66,774
+
+46,287
+52,972
+65,139
+
+52,523
+64,734
+
+62,241
+
+Source: U.S. Census Bureau, 2026.
+
+U.S. Census Bureau
+
+Poverty in the United States: 2025 11
+
+For a history of the official poverty
+measure, refer to “Poverty: The
+History of the Official Poverty
+Measure,” available at <www.
+census.gov/topics/incomepoverty/poverty/about/historyof-the-poverty-measure.html>,
+or Gordon M. Fischer, “The
+Development of the Orshansky
+Poverty Thresholds and Their
+Subsequent History as the Official
+U.S. Poverty Measure,” available at
+<www.census.gov/library/workingpapers/1997/demo/fisher-02.
+html>.
+
+HOW INCOME IS MEASURED
+A family’s money income is used
+to determine the poverty status
+of the family and all individuals in
+it. Money income is calculated for
+each person 15 years and older
+in the Current Population Survey
+Annual Social and Economic
+Supplement (CPS ASEC) sample.
+Respondents are asked questions
+on the amount of money income
+received in the preceding calendar
+year from each of the following
+sources:
+1.
+
+Earnings.
+
+Weighted Average Thresholds
+
+2. Unemployment compensation.
+
+Since some data users want a
+summary of the 48 thresholds
+to get a general sense of the
+“poverty line,” the following table
+provides the weighted average
+thresholds for 2025. The weighted
+average thresholds are based on
+the relative number of unrelated
+individuals and primary families
+of each size and composition and
+are not used in computing poverty
+estimates.1
+
+3. Workers’ compensation.
+
+Weighted Average Poverty
+Thresholds: 2025
+Size of family unit
+
+Dollars
+
+One person . . . . . . . . . . . .
+Two people . . . . . . . . . . . .
+Three people . . . . . . . . . . .
+Four people . . . . . . . . . . . .
+Five people . . . . . . . . . . . .
+Six people. . . . . . . . . . . . . .
+Seven people . . . . . . . . . . .
+Eight people . . . . . . . . . . .
+Nine people or more . . . .
+
+16,330
+20,730
+25,590
+32,970
+39,110
+44,180
+50,520
+55,850
+66,920
+
+Source: U.S. Census Bureau, Current
+Population Survey, 2026 Annual Social
+and Economic Supplement (CPS ASEC;
+DMS number P-7534374 and DRB approval
+number CBDRB-FY26-0280).
+
+12 Poverty in the United States: 2025
+
+4. Social Security.
+5. Supplemental Security Income.
+6. Public assistance.
+7.
+
+Veterans’ payments.
+
+8. Survivor benefits.
+9. Disability benefits.
+10. Pension or retirement income.
+11. Interest.
+12. Dividends.
+13. Rents, royalties, and estates
+and trusts.
+14. Educational assistance.
+15. Alimony.
+16. Child support.
+17. Financial assistance from
+outside the household.
+18. Other income.
+Data on income collected in the
+CPS ASEC cover money income
+received (exclusive of certain
+money receipts such as capital
+gains) before payments for
+personal income taxes, Social
+Security, union dues, Medicare
+deductions, etc. Money income
+also excludes tax credits such as
+the Earned Income Tax Credit and
+
+the Child Tax Credit. Money income
+does not reflect that some families
+receive noncash benefits such as
+nutritional assistance programs,
+health benefits, and subsidized
+housing. In addition, money
+income does not reflect the fact
+that noncash benefits often take
+the form of the use of business
+transportation and facilities, full or
+partial payments by businesses for
+retirement programs, medical and
+educational expenses, etc.
+The income of the household does
+not include amounts received by
+people who were members during
+all or part of the previous year if
+these people no longer resided in
+the household at the time of the
+interview. However, the CPS ASEC
+includes income data for people
+who are current residents but did
+not reside in the household during
+the previous year. It should be
+noted that although the income
+statistics refer to receipts during
+the preceding calendar year, the
+demographic characteristics such
+as age, labor force status, and
+household composition are as of
+the survey date.
+Data users should consider these
+elements when comparing income
+levels. Moreover, readers should
+be aware that for a variety of
+reasons, many respondents tend
+to misreport or not report all
+types of income.2 Income earned
+from wages or salaries, the largest
+component of money income,
+tends to be more accurately
+reported, and weighted totals
+are in line with other aggregate
+benchmarks.3 Still, estimates in this
+report are affected by ongoing
+challenges of nonresponse and
+misreporting. More details on the
+effect of nonresponse bias are
+available in Appendix C.
+
+U.S. Census Bureau
+
+ENDNOTES
+1
+A primary family is a group of two
+or more people, one of whom is the
+householder, related by birth, marriage,
+or adoption and residing together. All
+such people (including related subfamily
+members) are considered members of one
+family.
+2
+For more information about the extent
+and nature of nonresponse and misreporting,
+refer to Adam Bee, Joshua Mitchell,
+Nikolas Mittag, Jonathan Rothbaum, Carl
+Sanders, Lawrence Schmidt, and Matthew
+Unrath, “National Experimental Wellbeing
+Statistics,” SEHSD Working Paper #202302, U.S. Census Bureau, Washington, DC,
+2023, available at <www.census.gov/
+library/working-papers/2023/demo/
+SEHSD-WP2023-02.html>.
+3
+For more details on how income
+aggregates compare across different
+surveys, refer to Jonathan L. Rothbaum,
+“Comparing Income Aggregates: How
+do the CPS and ACS Match the National
+Income and Product Accounts, 2007–2012,”
+SEHSD Working Paper 2015-01, U.S. Census
+Bureau, Washington, DC, 2015, available at
+<www.census.gov/content/dam/Census/
+library/working-papers/2015/demo/
+SEHSD-WP2015-01.pdf>.
+
+U.S. Census Bureau
+
+Poverty in the United States: 2025 13
+
+Appendix B. The Supplemental Poverty Measure
+UPDATES FOR 2025
+
+Two-Adult, Two-Child Poverty Thresholds: 2024 and 2025
+
+The Supplemental Poverty
+Measure (SPM) was developed
+following decades of research
+on poverty measurement. Details
+regarding the history of the SPM
+and the current methodology are
+available in the SPM technical
+documentation at <https://www2.
+census.gov/programs-surveys/
+supplemental-poverty-measure/
+datasets/spm/spm_techdoc.pdf>.
+
+(In nominal dollars)
+
+Updates to Thresholds
+While preparing the poverty
+thresholds for 2025, the Bureau of
+Labor Statistics (BLS) discovered
+errors in the code that produces
+SPM poverty thresholds, dating
+back to the implementation
+of changes in methodology in
+2021. These errors affected SPM
+thresholds (and subsequently
+poverty rates) from 2019 to 2024.
+On July 17, 2026, BLS posted
+updated thresholds for 2019 to
+2024 that corrected the coding
+errors and rebased the threshold
+to 82 percent of the median (47th
+to 53rd percentile) of expenditures
+on food, clothing, shelter, utilities,
+telephone, and internet. Previously,
+these thresholds had been set
+at 83 percent of the median to
+minimize breaks in series between
+the old and new methodology.
+Once the errors were corrected,
+82 percent of the median more
+closely matched the 2019
+thresholds produced using the
+old methodology. Details on the
+methodology and research on the
+SPM thresholds are available at
+<www.bls.gov/pir/spmhome.htm>.
+All historical estimates for 2019–
+2024 in this report have been
+revised due to the rerelease.
+
+14 Poverty in the United States: 2025
+
+2024
+Measure
+
+2025
+
+Threshold
+
+Standard
+error1
+
+Threshold
+
+Standard
+error1
+
+Official Poverty Measure . . . . . . . .
+
+31,812
+
+N
+
+32,649
+
+N
+
+Research Supplemental Poverty
+Measure
+Owners with mortgages. . . . . . . . .
+Owners without mortgages . . . . .
+Renters. . . . . . . . . . . . . . . . . . . . . . . .
+
+39,231
+32,879
+39,220
+
+303
+682
+325
+
+41,323
+34,326
+41,701
+
+327
+560
+393
+
+N Not available.
+1
+The standard error is a measure of the deviation of a sample estimate from the average of
+all possible samples.
+Source: The Supplemental Poverty Measure (SPM) thresholds were produced by the
+Division of Price and Index Number Research, Bureau of Labor Statistics (BLS) using the most
+recent 5 years of data from the U.S. Consumer Expenditure Survey (CE) Interview, lagged by 1
+year. The thresholds reflect changes approved in 2020 by the Interagency Technical Working
+Group on the SPM, plus subsequent refinements and corrections to the programs that produce
+the thresholds. Corrected 2024 SPM thresholds were published on July 17, 2026. The 2025
+thresholds were finalized on July 15, 2026. For details on threshold estimation, refer to
+<www.bls.gov/pir/spmhome.htm>.
+
+The Census Bureau published a
+working paper in August 2026
+that provided more details on
+how these changes affected the
+2019 to 2024 SPM rates, available
+at <www.census.gov/library/
+working-papers/2026/demo/
+sehsd-wp2026-17.html>.
+Updates to Resources
+Updates to Tax Model
+The 2025 tax model incorporated
+federal tax policy changes,
+including a new enhanced
+senior deduction for adults age
+65 and older, an increase in
+the maximum child tax credit
+amount per qualifying child, and
+an increase in the state and local
+tax deductions cap. Additionally,
+several components of the tax
+model were inflation-adjusted,
+including the federal income tax
+brackets, the standard deduction,
+and the thresholds and amounts
+used to calculate the federal
+Earned Income Tax Credit (EITC).
+Due to data limitations in the CPS
+ASEC, the new deductions for tip
+
+and overtime income were not
+included in the tax model.1
+The 2025 tax model also
+incorporated state-level policy
+changes. This includes accounting
+for states that added or expanded
+their state EITC or child tax credit
+programs, and accounting for
+states that changed their tax rates
+from a progressive tax rate to a flat
+tax rate or that fully phased out
+their state income tax.
+Details on the tax model
+methodology and more
+information on changes for 2025
+can be found at <www.census.gov/
+topics/income-poverty/income/
+guidance/tax-model.html>.
+Internet Assistance
+The Affordable Connectivity
+Program (ACP) ended in June
+2024. As a result, these benefits
+are no longer included in SPM
+resources.
+
+U.S. Census Bureau
+
+Housing Assistance
+The SPM uses administrative data
+from the Department of Housing
+and Urban Development (HUD)
+to estimate housing subsidies.
+These data were not available
+in time for production of SPM
+estimates in 2026. As a result,
+production of the 2025 SPM uses
+the existing administrative data to
+estimate these subsidies, adjusting
+subsidy values for inflation using
+the Consumer Price Index for all
+Urban Consumers: Rent of Primary
+Residence.
+Interagency Technical Working
+Group Statement of Duties
+The Interagency Technical Working
+Group (ITWG) on the SPM reviews
+
+U.S. Census Bureau
+
+major changes to the SPM, as
+well as minor changes to the
+methodology that improve benefit
+measurement or capture yearto-year changes in government
+policy. The ITWG on the SPM
+has an established process for
+making changes to the SPM,
+with major changes occurring
+only after a multiyear process of
+research and public engagement.
+The ITWG will continue to advise
+the Census Bureau and BLS on
+ongoing research and minor
+changes. Further information on
+this ongoing work is available at
+<www.census.gov/topics/incomepoverty/supplemental-povertymeasure/library/working-papers/
+topics/potential-changes.html>.
+
+ENDNOTES
+1
+For more information on the deduction
+for tip and overtime income and estimates
+of the effect of including the deduction
+in the tax model, refer to <www.census.
+gov/library/working-papers/2026/demo/
+sehsd-wp2026-20.html>.
+
+Poverty in the United States: 2025 15
+
+Appendix C. Additional Information
+SOURCE AND ACCURACY OF
+THE ESTIMATES
+The Current Population Survey
+(CPS) is the longest-running
+survey conducted by the
+U.S. Census Bureau. The CPS is a
+household survey primarily used
+to collect employment data. The
+sample universe for the basic CPS
+consists of the resident civilian
+noninstitutionalized population
+of the United States. People in
+institutions, such as prisons, longterm care hospitals, and nursing
+homes, are not eligible to be
+interviewed in the CPS. Students
+living in dormitories are included
+in the estimates only if information
+about them is reported in an
+interview at their parents’ home.
+Since the CPS is a household
+survey, people who are homeless
+and not living in shelters are not
+included in the sample.
+The CPS Annual Social and
+Economic Supplement (CPS
+ASEC), the source for the
+estimates in this report, collects
+data in February, March, and
+April each year, asking detailed
+questions categorizing income into
+over 50 sources. The key purpose
+of the survey is to provide timely
+and comprehensive estimates
+of income, poverty, and health
+insurance, and to measure change
+in these national-level estimates.
+The survey is the official source
+of national poverty estimates
+calculated in accordance with
+the Office of Management
+and Budget’s Statistical Policy
+Directive 14 (Appendix A).
+The CPS ASEC collects data in
+the 50 states and the District
+of Columbia; these data do not
+represent residents of Puerto
+Rico or the U.S. Island Areas.1 The
+
+16 Poverty in the United States: 2025
+
+2026 CPS ASEC sample consists
+of about 88,000 addresses.
+The CPS ASEC includes military
+personnel who live in a household
+with at least one civilian adult,
+regardless of whether they live onor off-post. All other U.S. armed
+forces personnel are excluded.
+The estimates in this report
+are controlled to March 2026
+independent national population
+estimates by age, sex, race, and
+Hispanic origin. Beginning with
+the data for 2020, population
+estimates are based on 2020
+Census population counts and are
+updated annually after accounting
+for births, deaths, emigration, and
+immigration.
+All 2024 estimates in this report
+and accompanying tables have
+been updated to incorporate
+Vintage 2025 population
+estimates and may not match
+previously published estimates.
+More information on the effect
+on 2024 estimates is available
+at <www.census.gov/library/
+working-papers/2026/demo/
+sehsd-wp2026-16.html> and
+details on the Vintage 2025
+population estimate methodology
+are available at <https://www2.
+census.gov/programs-surveys/
+popest/technical-documentation/
+methodology/2020-2025/
+methods-statement-v2025.pdf>.
+The estimates in this report (which
+may be shown in the text and
+figures) and in the accompanying
+online tables available at
+<www.census.gov/library/
+publications/2026/demo/p60-290.
+html>, are based on responses
+from a sample of the population
+and may differ from actual values
+because of sampling variability or
+other factors. As a result, apparent
+differences between the estimates
+
+for two or more groups may not
+be statistically significant. All
+comparative statements have
+undergone statistical testing and
+are statistically significant at the
+90 percent confidence level unless
+otherwise noted.
+In this report and the
+accompanying online tables,
+the variances of estimates were
+calculated using replication
+methods. For estimates prior to
+2010, or as noted in historical
+tables, the Generalized Variance
+Function (GVF) method was used.
+More information on replicate
+weights, standard errors, income
+top-coding and data swapping on
+the public-use file, and changes to
+the CPS ASEC data file from the
+prior year is available at <https://
+www2.census.gov/programssurveys/cps/techdocs/cpsmar26.
+pdf>.
+Nonresponse Bias in the CPS
+ASEC
+The Census Bureau administers
+the CPS ASEC each year between
+February and April by telephone
+and in-person interviews, with
+most data collected in March.
+Although the 2026 CPS ASEC
+was collected using standard
+procedures, response rates are still
+lower than they were before the
+pandemic. The weighted response
+rate for the 2026 CPS ASEC was
+61.3 percent, compared to 62.0
+percent for the previous year.
+Since response rates remain below
+prepandemic levels, examining
+how respondents differ from
+nonrespondents is important,
+as this difference could affect
+the accuracy of the estimates.
+For more details on how sample
+differences and the associated
+nonresponse bias affect income
+U.S. Census Bureau
+
+and official poverty estimates,
+please refer to the Research
+Matters blog, “Using Administrative
+Data to Evaluate Nonresponse Bias
+in the 2026 Current Population
+Survey Annual Social and
+Economic Supplement,” available
+at <www.census.gov/newsroom/
+blogs/research-matters/2026/09/
+evaluating-nonresponse-bias.
+html>.
+
+Business Cycles—Recessions
+Peak month
+
+Year
+
+Trough month
+
+Year
+
+November
+
+1948
+
+October
+
+1949
+
+July
+
+1953
+
+May
+
+1954
+
+August
+
+1957
+
+April
+
+1958
+
+April
+
+1960
+
+February
+
+1961
+
+December
+
+1969
+
+November
+
+1970
+
+November
+
+1973
+
+March
+
+1975
+
+January
+
+1980
+
+July
+
+1980
+
+CPS ASEC MODERNIZATION
+
+July
+
+1981
+
+November
+
+1982
+
+The Census Bureau has begun
+a multiyear effort to modernize
+many of its surveys, including the
+CPS. Part of this involves adding
+an Internet Self-Response (ISR)
+mode to the CPS and then the CPS
+ASEC.
+
+July
+
+1990
+
+March
+
+1991
+
+March
+
+2001
+
+November
+
+2001
+
+December
+
+2007
+
+June
+
+2009
+
+February
+
+2020
+
+April
+
+2020
+
+This project requires extensive
+review and testing to ensure
+that ISR is a viable collection
+mode for the CPS ASEC and that
+changes do not negatively affect
+the reliability and comparability
+of the estimates. The project
+schedule seeks to align the CPS
+ASEC modernization effort with
+that of the CPS to maintain
+continuity. However, the schedule
+and activities may change to
+accommodate funding availability,
+discovery of issues during
+testing and analysis, and project
+reprioritization.
+More information about the ASEC
+modernization project and timeline
+is available on the Census Bureau’s
+CPS ASEC Modernization Efforts
+webpage at <www.census.gov/
+programs-surveys/cps/about/
+modernization/asecmodernization.
+html> or by email at <demo.asec.
+modernization@census.gov>.
+
+NATIONAL EXPERIMENTAL
+WELL-BEING STATISTICS
+(NEWS) PROJECT
+The NEWS project is an
+experimental effort to develop
+improved estimates of income,
+U.S. Census Bureau
+
+Source: National Bureau of Economic Research, <www.nber.org/research/
+data/us-business-cycle-expansions-and-contractions>.
+
+poverty, and other measures of
+economic well-being by looking
+at data collected in previous
+years, using a wider range of
+data sources, and applying new
+advanced analysis techniques.
+The first NEWS release in February
+2023 included a working paper
+that provided improved estimates
+of income and official poverty
+statistics for 2018. The second
+NEWS release, in January 2025,
+expanded on the first release by
+creating additional measures of
+disposable income, a resource
+measure that includes nonhealth
+means-tested in-kind benefits,
+and the income component of the
+Supplemental Poverty Measure
+(SPM). The release also made
+several important improvements,
+most notably estimates of federal
+and state taxes and credits,
+the inclusion of additional
+administrative data on meanstested program benefits, and an
+update to the model that combines
+survey and administrative earnings
+to estimate the unobserved true
+earnings distribution. In July 2025,
+
+NEWS was expanded to include
+income and poverty estimates
+from 2016 to 2021.
+More information on the NEWS
+project is available at <www.
+census.gov/data/experimentaldata-products/nationalexperimental-wellbeing-statistics.
+html>.
+
+BUSINESS CYCLES—
+RECESSIONS
+Business cycle peaks and troughs
+used to delineate the beginning
+and end of recessions, as shown
+in the text box “Business Cycles—
+Recessions,” are determined by
+the National Bureau of Economic
+Research (NBER), a private
+research organization. The data
+points in the time-series figures
+in this report use July as a
+reference. According to the NBER
+chronology, the most recent peak
+occurred in February 2020. The
+most recent trough occurred in
+April 2020. More information on
+business cycle dating is available
+at <www.nber.org/research/
+business-cycle-dating>.
+Poverty in the United States: 2025 17
+
+ACCESSING POVERTY DATA
+Additional CPS ASEC Estimates
+
+OTHER SOURCES OF POVERTY
+DATA
+
+Additional estimates from the CPS
+ASEC are available on the Census
+Bureau’s poverty websites. This
+includes detailed and historical
+tables, press releases, briefings,
+and working papers. The websites
+may be accessed through the
+Census Bureau’s homepage at
+<www.census.gov> or directly at
+<www.census.gov/topics/incomepoverty/poverty.html> and <www.
+census.gov/topics/income-poverty/
+supplemental-poverty-measure.
+html>.
+
+The Census Bureau recommends
+that people use the CPS ASEC for
+timely and thorough estimates
+of national poverty. However, the
+Census Bureau produces other data
+that are appropriate for subnational
+areas and longitudinal analysis. The
+American Community Survey (ACS)
+and the Small Area Income and
+Poverty Estimates (SAIPE) program
+can be used for subnational poverty
+estimates, while the Survey of
+Income and Program Participation
+(SIPP) provides monthly and
+longitudinal estimates.
+
+Public-Use Microdata
+
+American Community Survey
+
+Public-use CPS ASEC microdata
+are available for data users of all
+skill levels. Data users can create
+custom statistics from public-use
+microdata files using the Microdata
+Access Tool (MDAT) available at
+<https://data.census.gov/mdat>.
+
+The ACS is an ongoing survey that
+collects comprehensive information
+on social, economic, and housing
+topics. Due to its large sample
+size, the ACS provides estimates
+at many levels of geography and
+for smaller population groups. The
+Census Bureau presents annual
+estimates of poverty by state and
+other smaller geographic areas
+based on data collected in the ACS.
+Single-year estimates from the
+ACS are available for geographic
+areas with populations of 65,000
+or more. Estimates of income
+and poverty for all geographic
+units, including census tracts
+and block groups, are available
+by pooling 5 years of ACS data.
+Poverty estimates from the ACS are
+available at <https://data.census.
+gov/>.
+
+Microdata for the current CPS
+ASEC and earlier years are available
+online at <www.census.gov/data/
+datasets/time-series/demo/
+cps/cps-asec.html>. Technical
+methods have been applied to
+CPS microdata to avoid disclosing
+respondents’ identities.
+The Census Data Application
+Programming Interface (API) gives
+the public access to raw statistical
+data from various Census Bureau
+data programs. It is an efficient way
+to query data directly from Census
+Bureau servers. The historical
+poverty data found in Table
+HSTPOV2 are available in the API at
+<www.census.gov/data/developers/
+data-sets/Poverty-Statistics.
+html>.2 The table is also available at
+<https://data.census.gov/>.
+
+18 Poverty in the United States: 2025
+
+Small Area Income and Poverty
+Estimates
+The SAIPE program uses statistical
+models to produce estimates of
+median household income and
+poverty for states and all counties,
+as well as population and poverty
+estimates for school districts.
+
+Statistics from the SAIPE program
+are used by the U.S. Department
+of Education to allocate funding
+under Title 1 of the Elementary and
+Secondary Education Act. SAIPE
+methodology combines data from
+a variety of sources, including
+administrative records, population
+estimates, the decennial census,
+and the ACS, to provide consistent
+and reliable single-year estimates
+for all counties and school districts,
+regardless of size, each year. In
+general, SAIPE estimates have
+lower variances than ACS estimates
+but offer fewer demographic details
+than the ACS. Estimates from this
+program are available at <www.
+census.gov/programs-surveys/
+saipe.html>.
+Survey of Income and Program
+Participation
+The SIPP provides both monthly
+and longitudinal data about labor
+force participation and income
+sources and amounts at the
+individual, family, and household
+levels by following the same
+respondents over time. The CPS
+ASEC provides reliable estimates
+of the net change from one year to
+the next in the overall distribution
+of economic characteristics for the
+whole population, but it cannot
+show how these characteristics
+change for the same person, family,
+or household. By collecting monthly
+data for the same respondents
+over multiple years, the SIPP
+makes it possible to observe how
+economic characteristics change
+at the individual level. This yields
+insights into the dynamic nature of
+these experiences, as well as the
+economic mobility of U.S. residents.
+Estimates from these data are
+available in table packages, working
+papers, and the Census Bureau’s
+P70 series reports, all available
+at <www.census.gov/programssurveys/sipp/library/publications.
+html>.
+
+U.S. Census Bureau
+
+QUESTIONS AND COMMENTS
+For questions and assistance
+with poverty data, contact the
+U.S. Census Bureau Customer
+Service Center at 1-800-923-8282
+(toll-free), or search your topic of
+interest using the Census Bureau’s
+“Question and Answer Center” at
+<www.census.gov/help.html>.
+The Census Bureau also welcomes
+the comments and advice of
+data and report users. If you have
+
+U.S. Census Bureau
+
+suggestions or comments on this
+report, please email Liana Fox at
+<liana.e.fox@census.gov> or write
+to:
+Liana E. Fox
+Assistant Division Chief for
+Economic Characteristics
+Social, Economic, and Housing
+Statistics Division
+U.S. Census Bureau
+Washington, DC, 20233-8500
+
+ENDNOTES
+1
+U.S. Island Areas include American
+Samoa, Guam, the Commonwealth of the
+Northern Mariana Islands, and the U.S. Virgin
+Islands.
+2
+An Excel version of HSTPOV2 can
+be found at <https://www2.census.gov/
+programs-surveys/cps/tables/time-series/
+historical-poverty-people/hstpov2.xlsx>.
+
+Poverty in the United States: 2025 19
+
+P60-290
+
+Poverty in the United States: 2025
+Current Population Reports
+
+U.S. Census Bureau
+
+

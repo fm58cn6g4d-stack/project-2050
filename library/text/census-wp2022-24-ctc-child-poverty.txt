@@ -1,0 +1,3110 @@
+Source: https://www.census.gov/content/dam/Census/library/working-papers/2022/demo/sehsd-wp2022-24.pdf
+Publisher: U.S. Census Bureau
+Retrieved: 2026-11-12
+Original SHA-256: f0fff556e37e1d08c90967f2a33914e6e621478e50b73f6d8d2b4c6eb27ac01a
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+The Impact of the 2021 Expanded Child Tax Credit on Child Poverty
+
+Kalee Burns and Liana E. Fox
+Social, Economic, and Housing Statistics Division
+U.S. Census Bureau
+
+SEHSD Working Paper #2022-241
+
+Abstract: The Census Bureau produces the Supplemental Poverty Measure annually. This measure of
+poverty incorporates money income and non-cash benefits (such as nutritional assistance programs,
+housing subsidies, tax credits, and stimulus payments) while subtracting necessary expenses such as
+income and payroll taxes and work and medical expenses. This paper examines the impact of the
+expanded Child Tax Credit on child poverty. We find that the Child Tax Credit lifted 2.9 million children
+out of poverty. Additionally, we find that the 2021 expansion of the Child Tax Credit accounted for 2.1
+million of these 2.9 million children lifted above the poverty line.
+
+1
+
+This paper is released to inform interested parties of ongoing research and to encourage discussion of work in progress. Any views expressed
+are those of the authors and not those of U.S. Census Bureau. Information on confidentiality protection, sampling error, nonsampling error, and
+definitions is available at <www2.census.gov/programs-surveys/cps/techdocs/cpsmar22.pdf>. The Census Bureau reviewed this data product
+for unauthorized disclosure of confidential information and has approved the disclosure avoidance practices applied to this release. This paper
+meets all of the U.S. Census Bureau’s Disclosure Review Board (DRB) standards and has been assigned DRB approval number CBDRB-FY23SEHSD003-011. This is an updated version of the paper that was originally released in November 2022. One table was removed due to a coding
+error in the original version.
+
+1
+
+I.
+
+Introduction
+
+In 2011, the U.S. Census Bureau began producing the Supplemental Poverty Measure (SPM) in addition
+to the official poverty measure, a measure that has been produced since the 1960s. The SPM is a posttax and transfer measure of poverty produced annually in conjunction with the official poverty measure.
+It incorporates money income and non-cash benefits (such as nutritional assistance programs, housing
+subsidies, tax credits, and stimulus payments) while subtracting necessary expenses such as income and
+payroll taxes and work and medical expenses. Income is summed to the SPM-unit level; SPM units are
+defined as all related persons, cohabiting partners and their relatives, foster children under the age of
+22, and unrelated individuals under age 15 living together in the same household.
+The SPM’s inclusion of taxes makes it relevant for analysis given recent legislative changes. For calendar
+year 2021, the American Rescue Plan Act (ARPA) included changes to existing tax credits and a third
+round of economic impact payments meant to address the economic hardships related to the COVID-19
+pandemic. ARPA made several major modifications to existing tax credit programs including the Child
+Tax Credit (CTC). The CTC was expanded in 2021 by increasing the value of the credit and making the
+credit fully refundable, meaning that more families were able to receive the credit than in 2020. In
+addition, ARPA allowed families to receive an advance on their CTC in the form of six monthly payments
+totaling 50 percent of their expected credit, with the remaining half distributed upon filing taxes in
+2022. The U.S. Treasury estimates that the new expanded CTC affected approximately 88 percent of
+children in the U.S. during the 2021 tax calendar year (U.S. Treasury, 2021). While distributing the tax
+credit in advance had a meaningful effect on the financial well-being of families, for the purposes of
+annual poverty measurement, the first two expansions of CTC are most relevant.
+This paper uses the 2021 and 2022 Current Population Survey Annual Social and Economic Supplement
+(CPS ASEC), covering calendar years 2020 and 2021, and the Census Bureau’s CPS ASEC Tax Model to
+analyze the effect of CTC on child poverty rates overall and by child age, race and Hispanic origin, and
+family structure. We estimate poverty status in this paper using the SPM. A key characteristic of the SPM
+is its ability to isolate how different social safety net programs and policies lift or push persons out of or
+into poverty. We first compare the overall impact of the CTC on poverty for 2020 and 2021 with a focus
+on child poverty. Next, we estimate counterfactual child poverty rates in an environment in which the
+CTC remained at its original pre-ARPA status for 2021. Additionally, we explore the effect of CTC
+expansions on child poverty at different points in the income-to-poverty ratio distribution. By
+conducting this counterfactual exercise, we can examine the effect of expansions in the CTC in addition
+to the overall impact of the CTC on child poverty.
+II.
+
+Background
+
+The SPM was developed following decades of research on poverty measurement. Concerns about the
+adequacy of the official measure culminated in a Congressional appropriation in 1990 for an
+independent scientific study of the concepts, measurement methods, and information needed for a
+poverty measure. In response, the National Academy of Sciences (NAS) convened a Panel on Poverty
+and Family Assistance, which released its report, Measuring Poverty: A New Approach, in 1995 (Citro
+and Michael, 1995).
+The Interagency Technical Working Group (ITWG) on Developing a Supplemental Poverty Measure was
+formed in 2009 and charged with developing a set of initial starting points to permit the Census Bureau,
+2
+
+in cooperation with the BLS, to produce the SPM. In 2010, this ITWG (which included representatives
+from many U.S. statistical agencies) issued a series of suggestions to the Census Bureau and the BLS on
+how to develop the SPM.2 In November 2011, the Census Bureau released the first SPM report,
+providing SPM estimates for 2009 and 2010.
+The NAS panel and the ITWG recommended that the calculation of resources for poverty measurement
+should subtract necessary expenses. The SPM subtracts federal and state income taxes and Social
+Security payroll taxes (FICA). The CPS ASEC does not collect information on taxes paid, but instead relies
+on a tax calculator to simulate taxes paid. These simulations also use a statistical match to the IRS
+Statistics of Income public-use microdata file of tax returns. While SPM units can comprise multiple tax
+units, CTC receipt and value are based on tax units.
+A hallmark of the SPM is its ability to adapt to policy changes. In 2021, the expansion of the CTC
+increased resources for many families. Incorporating changes to the CTC is possible due to the Census
+Bureau tax’s model. This model can estimate relevant state and federal taxes based on each individual’s
+responses in the CPS ASEC. In doing so, it estimates a tax filer’s expected refunds for various federal tax
+programs such as the Earned Income Tax Credit (EITC), the CTC, and the Child and Dependent Care
+Credit. Anticipating the impact the expanded CTC would have on the SPM, in 2021 the CPS ASEC
+included a question about receipt of CTC. Additionally, the CPS ASEC Tax Model was updated to reflect
+the changes to the CTC as well as other credit changes. Finally, the tax model also estimated a family’s
+CTC refund under pre-ARPA CTC rules. More information about the changes to the tax model and the
+CTC can be found in Bee et al. (2022).
+
+2
+
+Refer to <www.census.gov/content/dam/Census/topics/income/supplemental-poverty-measure/spmtwgobservations.pdf>.
+
+3
+
+Updates to the Child Tax Credit
+The following text table details changes to amounts and eligibility of the Child Tax Credit (Congressional
+Research Service, 2021).
+Child Tax Credit Policy: 2020 and 2021
+Year
+
+2020 (Tax Cuts and Jobs Act—TCJA)
+
+Credit
+
+$2,000 credit per child under aged 0-16
+
+Refundability
+
+Partially refundable, up to $1,400/child
+
+Fully refundable
+
+Eligibility
+
+Must have at least $2,500 in earned
+income
+
+No minimum earned income
+
+Phase Out
+
+Begins to phase out at a rate of $50 for
+every $1,000 in additional income over
+income thresholds
+
+Gradually phases out at a rate of 5 percent as
+income exceeds specified thresholds until the
+credit amount equals the TCJA-law maximum
+of $2,000 per child
+
+Phase-Out
+Income
+Thresholds
+
+III.
+
+•
+•
+
+$200,000 for single/head-ofhousehold filers
+$400,000 for married-joint
+filers
+
+2021 (American Rescue Plan Act—ARPA)
+•
+•
+
+•
+•
+•
+
+$3,600 credit for children aged 0-5
+$3,000 for children aged 6-17
+
+$75,000 for single filers
+$112,500 for head of household filers
+$150,000 for married joint filers
+
+A Short History of Child Poverty and the SPM
+
+Child poverty rates using the SPM are available back to 2009. Comparisons between SPM and the official
+poverty are possible with a consistent universe (official+).3 The SPM child poverty rate has consistently
+been lower than official+ child poverty from 2009-2019. The two measures tended to move in the same
+directions, as seen in Figure 1.4 However, in 2020 the two measures began to diverge due to the effect
+of large anti-poverty programs established or expanded in response to the COVID-19 pandemic, such as
+the stimulus payments, expansions to Supplemental Nutrition Assistance Program (SNAP), and the
+expansion of the Child Tax Credit.
+Child poverty, as measured by the SPM, fell to its lowest recorded level in 2021, declining 46 percent (or
+4.5 percentage points) from 2020 to 2021 from 9.7 percent to 5.2 percent. In contrast, child poverty as
+
+3
+
+Unrelated children under the age of 15 are excluded from the official poverty measure universe but included in
+the SPM universe. To compare the two measures, unrelated individuals under the age of 15 are assigned an official
+poverty status to match that of the reference person of the household in which they reside; we refer to this as
+“official+” throughout the rest of the paper. The official poverty status is not recalculated for anyone else in the
+household.
+4
+For historical child poverty data by race and Hispanic origin group, see Creamer et al. (2022).
+
+4
+
+measured by the official+ poverty measure declined only 0.7 percentage points, from 16.0 to 15.3
+percent, between 2020 and 2021.
+
+Figure 2 shows historical SPM rates for children by race and Hispanic origin. Figure 2 shows that 2021
+had the lowest child poverty rates for all four race and Hispanic origin categories examined, with SPM
+rates for Hispanic children falling the most, from 29.1 percent in 2009 to 8.4 percent in 2021.5 From
+2009 to 2021, SPM rates for Black children fell by 17.1 percentage points, from 25.2 percent in 2009 to
+8.1 percent in 2021.6 In particular, between 2020 and 2021, Black child poverty fell by 8.8 percentage
+points. Hispanic child poverty rates fell by 6.3 percentage points between 2020 and 2021.
+
+5
+
+The SPM rate for Asian children in 2021 was not statistically different than its 2020 rate.
+The SPM rate in 2021 for Black children (8.1 percent) was not statistically different than the SPM rate in 2021 for
+Hispanic children (8.4 percent)
+6
+
+5
+
+IV.
+
+Characteristics of Individuals Receiving Refundable Child Tax Credit
+
+An individual is considered to have received the refundable CTC if they lived in an SPM unit containing a
+tax filer eligible for the refundable portion of the CTC. 7 In 2021, the entire CTC was fully refundable, so
+any filer eligible for CTC would be categorized as receiving a refundable CTC. In 2020, only part of the
+CTC was refundable, contingent on tax liability (see text table above for details). Table 1 presents results
+on characteristics of individuals in SPM units receiving a refundable CTC in 2020 and 2021.8
+Overall, 45.8 percent of all people lived in a SPM unit that received a refundable CTC in 2021, compared
+to 16.8 percent in 2020. An estimated 97.1 percent of children lived in an SPM unit that received a
+refundable CTC in 2021, up from 38.2 percent in 2020.
+
+V.
+
+Poverty and the Child Tax Credit in 2021
+
+An important contribution of the SPM is that it allows us to gauge the potential magnitude of the effect
+of tax credits and transfers in alleviating poverty. Figure 3 shows the effect that various additions and
+subtractions had on the number of people who would have been considered poor in 2021, holding all
+else the same and assuming no behavioral changes.9 Additions and subtractions are shown for the total
+7
+
+An SPM unit is a resource-sharing unit that includes families, unmarried cohabiting partners and their relatives,
+foster children under the age of 22, and unrelated individuals under age 15.
+8
+All tables located at the end of the paper.
+9
+More information on various programs and their impact on child poverty status is available in Creamer et al.
+(2022).
+
+6
+
+population and for three age groups. Additions shown in the figure include cash benefits like Social
+Security that are also included in the official poverty measure, as well as noncash benefits and tax
+credits included only in the SPM like SNAP, school lunch, and refundable tax credits like the Child Tax
+Credit in 2021.
+
+Figure 3 shows that in 2021, the CTC lifted 5.3 million people out of poverty, including 2.9 million
+children. For perspective, in 2020, the refundable portion of CTC lifted 1.2 million people out of poverty,
+including 613,000 children.10
+Impact by Age and Race/Hispanic Origin
+Diving further into the CTC’s poverty alleviation effects, Figure 4 and Table 2 show children lifted out of
+poverty by age and race/Hispanic origin. Overall, the CTC lifted 1.0 million children under the age of 6
+out of poverty in 2021, decreasing their poverty rate from 9.8 percent to 5.3 percent. The CTC also lifted
+1.9 million children aged 6-17 out of poverty in 2021, decreasing their poverty rate from 8.9 percent to
+5.2 percent.11
+
+10
+
+In 2020, only a portion of the Child Tax Credit was refundable. For details about each program’s impact on
+poverty status in 2020 and 2021, please refer to Table B-8 in “Poverty in the United States: 2021” at
+https://www.census.gov/library/publications/2021/demo/p60-275.html.
+11
+The SPM poverty rate for children under 6 (5.3 percent) in 2021 was not statistically different than the SPM
+poverty rate for children between 6 and 17 (5.2 percent) in 2021. Additionally, the decrease in poverty for children
+under 6 (4.5 percentage points) was not statistically different than the decrease in poverty for children between 6
+and 17 (3.7 percentage points).
+
+7
+
+The inclusion of the CTC significantly decreased the number of children experiencing poverty across
+several race and Hispanic origin groups (Figure 4).
+The CTC reduced the Black child poverty rate by 6.3 percentage points, from 14.5 percent to 8.1 percent
+when included in SPM resources. Overall, this amounts to approximately 716,000 Black children lifted
+out of poverty by the inclusion of the CTC. Of the 716,000 Black children, 492,000 were ages 6-17.12
+The CTC reduced the Hispanic child poverty rate by 6.3 percentage points, representing 1.2 million
+Hispanic children. Additionally, 820,000 White, non-Hispanic children and 110,000 Asian children were
+lifted out of poverty by the CTC.13
+Impact by Family Structure
+Family structure is another important demographic characteristic to consider when looking at the
+impact of the CTC. Historically, poverty rates have varied by family structure (i.e., SPM units in which the
+reference person is married, a single male or female, or cohabiting).14 In 2021, people living in femalereference units had higher poverty rates than people living in other family structure types (except
+people in male-reference units).15 In 2020, the poverty rate for persons living in female-reference units
+
+12
+
+The number of Black children aged 6 to 17 (492,000) lifted out of poverty by CTC was not statistically different
+from the total number of Black children lifted out of poverty by CTC (716,000).
+13
+The change in non-Hispanic White children (820,000) in poverty was not statistically different than the change in
+the number of Black children (716,000) in poverty.
+14
+SPM rates by family structure are published annually starting in 2011. For more information, please refer to the
+SPM publication series <https://www.census.gov/topics/income-poverty/supplemental-povertymeasure/library/publications.html>.
+15
+Poverty rates for all people by family structure are available in Creamer et al. (2022).
+
+8
+
+was 18.2 percent. In 2021, this rate decreased to 11.7 percent. This 6.4-percentage-point decrease was
+the largest by family structure type (Creamer et al., 2022).16
+In similar fashion to Figure 4, Figure 5 details how many children were pushed above their respective
+poverty threshold by the inclusion of the CTC in their SPM unit resources.
+
+Children in female-reference units were among the largest group of children kept above the poverty line
+by the inclusion of the CTC in their respective unit resources, with 1.3 million children in this group being
+kept above the poverty line. In other unit types, 1.1 million children in married-couple units were lifted
+out of poverty due to the CTC.17 Further details can be found in Table 2.
+Distributional Impact of Child Tax Credit
+Next, we focus on how the CTC affects the distribution of children across income-to-poverty ratios. The
+CTC provides benefits to millions of children both above and below the SPM poverty threshold, not just
+those slightly below their poverty threshold. The widespread impact can be observed by examining
+income-to-poverty ratios.
+An income-to-poverty ratio represents how much income (both cash and non-cash and net of taxes and
+other necessary expenses) an individual or family receives in relation to its poverty threshold.
+Individuals whose income is equal to their poverty threshold have an income-to-poverty ratio of 1.00
+(100 percent). Ratios below 1.00 indicate income below the poverty level, and ratios of greater than
+
+16
+
+While SPM units can comprise multiple tax units, CTC receipt and value is based on tax units.
+There difference between the 1.3 million children in female reference units and 1.1 million children in married
+units was not statistically different.
+17
+
+9
+
+1.00 indicate income above the poverty level. For example, a ratio of 0.50 means that income was 50
+percent of the poverty threshold.
+Figure 6 and the first panel of Table 3 show the share of children living in specified income-to-poverty
+ratio categories both including and excluding the value of the CTC from resources.
+
+The CTC reduced the proportion of children in the lowest income-to-poverty ratio category (those with
+income less than 50 percent of the poverty threshold) by 1.1 percentage points, from 2.5 percent to 1.4
+percent.
+The CTC also reduced the proportion of children in SPM units with resources between 50 percent to 99
+percent of the poverty threshold by 2.8 percentage points, from 6.6 percent to 3.8 percent.
+While not captured in the SPM rate, the CTC also reduced the share of children slightly above poverty.
+Children in the 1.00 to 1.49 category are just above the poverty threshold and can be considered “nearpoverty.” The percentage of children in near poverty declined 6.0 percentage points, from 18.1 percent
+without including the CTC to 12.1 percent with the inclusion of the CTC.
+Including the value of the CTC shifts the income-to-poverty ratio distribution to the right: More children
+fall into higher income-to-poverty ratio categories. For instance, including the CTC increases the share of
+children in the second highest income-to-poverty ratio category (200 to 399 percent of the poverty
+threshold) by 5.8 percentage points, to 44.1 percent.
+
+10
+
+VI.
+
+Expanded Child Tax Credit and Its Impact on Poverty
+
+As previously mentioned, ARPA greatly expanded both the value of, and eligibility for, the refundable
+CTC. While the previous analysis estimated the total impact of the refundable CTC, this section focuses
+on the impact of the expansion of the CTC. To see the effect of the policy expansion rather than the total
+effect of the program, we re-estimate poverty using pre-ARPA CTC law.18 This counterfactual exercise
+reveals that the 2021 expansions of the CTC lifted 2.1 million children out of poverty. These results can
+be seen in Table 4. As a reminder, the total impact of the CTC on child poverty was 2.9 million children
+pulled out of poverty (see Table 2).
+All else equal, if the CTC had not been expanded in 2021, child poverty would have been 8.1 percent, 2.9
+percentage points higher than it actually was in 2021. This exercise assumes that the CTC was held at its
+2020 credit levels, refundability, and eligibility rules.
+Impact of Expansion by Race and Hispanic Origin.
+Figure 7 features expanded race and Hispanic origin groups for children. Here we can see how many
+children were lifted out of poverty by the expansion of the CTC.
+
+18
+
+This counterfactual environment creates a set of alternative tax variables using the CPS ASEC tax model. A
+public-use research file extract for the 2022 CPS ASEC is available here:
+<https://www.census.gov/data/datasets/2022/demo/income-poverty/child-tax-credit.html>.
+
+11
+
+This shows that 649,000 non-Hispanic White, 600,000 Black, 56,000 Asian, and 752,000 Hispanic
+children were lifted above the poverty line due to the CTC expansion.19,20
+Impact of Expansion by Family Structure
+Figure 8 and Table 4 show the number and percentage of children lifted out of poverty due to the
+expansion of the CTC by family structure. Recall that Figure 5 showed that 1.3 million children in female
+reference units were lifted out of poverty due to the CTC. Of these 1.3 million children, 1.0 million
+children (as seen in Figure 8) were lifted out due to the CTC expansion. The CTC expansion was
+important to female-reference units as it removed minimum earned income thresholds for eligibility and
+was no longer limited in value by tax liability.
+
+Distributional Impact of Expanded Child Tax Credit
+Similar to Figure 6, Figure 9 shows the impact of CTC expansions on the income-to-poverty ratio
+distribution. Instead of focusing on income-to-poverty ratio distribution with and without the CTC,
+Figure 9 shows income-to-poverty ratio distribution under the two tax regimes. Light blue bars
+represent 2021 data with pre-ARPA CTC laws, while darker blue bars represent 2021 data with ARPA CTC
+laws. In Figure 9 and the second panel of Table 3, we can see that the share of children in the lowest
+three categories decreased by 1.0 percentage point, 1.9 percentage points, and 3.0 percentage points
+respectively. Conversely, the share of children in the 4th and 5th highest groups increased under ARPA
+
+19
+
+There was no statistical difference between the changes for non-Hispanic White (649,000), Black (600,000), and
+Hispanic (752,000) children.
+20
+Difference in number of Asian children is due to rounding in Figure 7.
+
+12
+
+CTC, while the share of children above 400% of their poverty threshold was not statistically different
+across CTC tax regimes.21
+
+VII.
+
+Robustness Analyses: Supplemental Poverty Measure Without Stimulus
+
+Between 2020 and 2021, three rounds of economic impact payments, or stimulus checks, were sent to
+U.S. households to alleviate some of the economic hardships associated with the COVID-19 pandemic.
+As such, the 2020 SPM included the first two rounds of stimulus in its measure of resources, and the
+2021 SPM included the third round of stimulus payments. In 2021, stimulus payments lifted 2.3 million
+children out of poverty, decreasing the child poverty rate by 3.1 percentage points (Creamer et al.
+2022). To separate the effect of the CTC (and the ARPA expansion of the CTC) from the anti-poverty
+impact of stimulus payments, we estimate poverty rates for 2021 without the inclusion of any stimulus
+payments.
+
+21
+
+The change for the 1.50 to 1.99 quantile (2.2 percentage points) was not statistically different than the change
+for the 2.00 to 3.99 quantile (3.1 percentage points).
+
+13
+
+By excluding stimulus payments from resources, more individuals fell below their poverty threshold and
+therefore could potentially be lifted out of poverty by the inclusion of the CTC. Table 5 shows that
+without stimulus payments, the child poverty rate in 2021 would have been 8.3 percent. Including the
+total value of the CTC decreased the child poverty rate by 6.6 percentage points. In other words, in the
+absence of stimulus payments in 2021, the CTC would have lifted 4.8 million children out of poverty (as
+displayed in the bottom half of Figure 10).
+Table 6 shows the impact of the ARPA expansion to the CTC, excluding stimulus payments. Of the 4.8
+million children lifted out of poverty by the CTC (excluding stimulus payments), 3.1 million children were
+lifted out of poverty due to the expansion of the CTC. Tables 5 and 6 contain additional estimates of the
+number and percentage of children lifted out of poverty by the CTC and the ARPA expansion, excluding
+stimulus payments.
+Finally, Table 7 contains income-to-poverty ratios for children excluding stimulus payments from
+resources. The top panel displays the distribution of income-to-poverty ratios for children including and
+excluding the total value of the CTC. The bottom panel compares income-to-poverty ratios under the
+two tax regimes: the CTC under ARPA and the CTC pre-ARPA.
+VIII.
+
+Conclusion
+
+This paper examines the impact of the Child Tax Credit (CTC) on child poverty for calendar year 2021.
+Due to temporary legislative changes in 2021, the value of the credit was increased, and eligibility was
+expanded. Most notably, the value of the credit increased from $2,000 to $3,600 for children aged 0 to 5
+and $3,000 for children aged 6 to 17. Furthermore, the credit was temporarily made fully refundable.
+The temporarily expanded CTC had a significant impact on child poverty, as measured by the
+Supplemental Poverty Measure (SPM), in 2021. An estimated 2.9 million children were kept above the
+14
+
+poverty line due to the CTC payments, including 716,000 Black children and 1.2 million Hispanic (of any
+race) children. The expansion of the CTC kept 2.1 million of these 2.9 million children from falling below
+the poverty line. When looking at the CTC’s effect on poverty by family structure, 1.3 million children in
+female-reference units were kept above the poverty line.
+The expansion in the CTC also shifted the share of children in the lowest income-to-poverty ratio
+category. The share of children in the lowest income-to poverty ratio category, with incomes below 50
+percent of their poverty threshold, would have been 2.5 percent in 2021 if the pre-ARPA CTC rules had
+been applied, compared to 1.4 percent under ARPA CTC amounts and eligibility. Finally, the impact of
+the CTC is further amplified when adjusting SPM resources to exclude stimulus payments. Under this
+scenario, the CTC kept 4.8 million children above the poverty line.
+At the time of this writing, the changes to the CTC in ARPA were temporary and were only made
+available for the 2021 tax year. The CTC is expected to revert to pre-ARPA values and requirements for
+the 2022 tax year.
+
+15
+
+References
+Bee, C. Adam, Charles Hokayem, and Daniel Lin. “Modeling the 2021 Child Tax Credit in the CPS ASEC.”
+SEHSD Working Paper No. FY-2022-17, September 2022, available at
+https://www.census.gov/content/dam/Census/library/working-papers/2022/demo/sehsd-wp202217.pdf
+Citro, Constance F., and Robert T. Michael (eds.), Measuring Poverty: A New Approach, National
+Academy Press, Washington, DC, 1995, available at
+https://www.census.gov/content/dam/Census/library/working-papers/2011/demo/SEHSDWP2011-24.pdf
+Creamer, John, Emily A. Shrider, Kalee Burns, and Frances Chen. “Poverty in the United States: 2021.”
+Current Population Reports, P60-277, U.S. Census Bureau, Washington, DC, September 2022,
+available at https://www.census.gov/content/dam/Census/library/publications/2021/demo/p60275.pdf
+H.R.1 - 115th Congress (2017-2018): An Act to provide for reconciliation pursuant to titles II and V of the
+concurrent resolution on the budget for fiscal year 2018. (2017, December 22).
+https://www.congress.gov/bill/115th-congress/house-bill/1/text
+H.R.1319 - 117th Congress (2021-2022): American Rescue Plan Act of 2021. (2021, March 11).
+https://www.congress.gov/bill/117th-congress/house-bill/1319/text
+U.S. Treasury. “Treasury and IRS Announce Families of 88 percent of Children in the U.S. to
+Automatically Receive Monthly Payment of Refundable Child Tax Credit.” U.S. Department of the
+Treasury Press Release, May 17, 2021, available at https://home.treasury.gov/news/pressreleases/jy0177
+
+16
+
+TABLES
+
+Table 1. Number and Percentage of People Receiving Refundable Child Tax Credit: 2020 and 2021
+(Numbers in thousands. Margins of error in thousands or percentage points as appropriate. People as of March of the following year. Information on confidentiality protection, sampling error, nonsampling error, and
+definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar22.pdf>)
+
+`20201
+
+2021
+People in a SPM unit receiving
+refundable CTC
+
+Characteristic
+
+All People
+Sex
+Male
+Female
+Age
+Under 18 years
+18 to 64 years
+65 years and older
+
+Difference
+
+People in a SPM unit receiving
+refundable CTC
+
+Total
+Total
+Percentage
+2
+2
+2
+2
+Population Number MOE (±) Percent MOE (±) Population Number MOE (±) Percent MOE (±) Estimates
+Point
+328,700 150,500
+900
+45.8
+0.2
+328,100
+55,100
+600
+16.8
+0.2
+95,400 *
+29.0 *
+162,100
+166,600
+
+72,800
+77,700
+
+700
+700
+
+44.9
+46.7
+
+0.3
+0.3
+
+161,800
+166,200
+
+25,800
+29,300
+
+400
+400
+
+15.9
+17.6
+
+0.2
+0.2
+
+47,000 *
+48,400 *
+
+29.0 *
+29.0 *
+
+73,500
+199,100
+56,200
+
+71,300
+76,200
+3,000
+
+700
+700
+100
+
+97.1
+38.3
+5.3
+
+0.2
+0.3
+0.2
+
+74,000
+199,800
+54,300
+
+28,300
+25,800
+1,000
+
+400
+400
+100
+
+38.2
+12.9
+1.9
+
+0.5
+0.2
+0.1
+
+43,000 *
+50,500 *
+2,000 *
+
+58.9 *
+25.4 *
+3.4 *
+
+249,300
+194,500
+44,100
+20,700
+4,100
+9,200
+62,700
+
+109,500
+76,600
+21,800
+10,000
+2,400
+6,000
+38,000
+
+800
+700
+400
+300
+100
+200
+500
+
+43.9
+39.4
+49.5
+48.5
+57.0
+65.7
+60.6
+
+0.3
+0.3
+0.7
+0.9
+2.1
+1.4
+0.5
+
+249,400
+195,300
+43,800
+20,400
+4,000
+9,300
+61,900
+
+38,300
+20,600
+10,400
+2,500
+1,100
+2,400
+20,200
+
+500
+300
+300
+100
+100
+100
+400
+
+15.3
+10.5
+23.8
+12.4
+27.6
+25.8
+32.7
+
+0.2
+0.2
+0.6
+0.6
+1.8
+1.3
+0.5
+
+71,200 *
+56,000 *
+11,400 *
+7,500 *
+1,300 *
+3,700 *
+17,800 *
+
+28.6 *
+28.8 *
+25.7 *
+36.1 *
+29.4 *
+39.8 *
+28.0 *
+
+193,800
+29,300
+42,200
+16,500
+
+103,600
+14,300
+26,000
+6,700
+
+800
+300
+400
+200
+
+53.5
+48.8
+61.5
+40.4
+
+0.3
+0.8
+0.7
+1.1
+
+194,200
+29,000
+42,900
+15,900
+
+30,100
+7,500
+14,700
+2,800
+
+400
+200
+300
+100
+
+15.5
+25.8
+34.3
+17.7
+
+0.2
+0.7
+0.6
+0.8
+
+73,500 *
+6,900 *
+11,300 *
+3,800 *
+
+38.0 *
+23.1 *
+27.2 *
+22.7 *
+
+3
+
+Race and Hispanic Origin
+White
+White, not Hispanic
+Black
+Asian
+American Indian and Alaska Native
+Two or more races
+Hispanic (any race)
+Family Structure
+Married couple unit
+Cohabiting partner unit
+Female reference person unit
+Male reference person unit
+
+* An asterisk following an estimate indicates change is statistically different from zero at the 90 percent confidence level.
+1
+
+Implementation of 2020 Census-based population controls.
+
+2
+
+A margin of error (MOE) is a measure of an estimate's variability. The larger the MOE in relation to the size of the estimate, the less reliable the estimate. This number,
+when added to and subtracted from the estimate, forms the 90 percent confidence interval. MOEs shown in this table are based on standard errors calculated using replicate weights.
+3
+
+Federal surveys give respondents the option of reporting more than one race. Therefore, two basic ways of defining a race group are possible. A group, such as Asian, may be defined as those who reported Asian and no
+other race (the race-alone or single-race concept) or as those who reported Asian regardless of whether they also reported another race (the race-alone-or-in-combination concept). This table shows estimates for the racealone population and the Two or More Races population. The primary use of the single-race population does not imply that it is the preferred method of presenting or analyzing data. The Census Bureau presents data on race
+in a variety of ways. Estimates for Native Hawaiians and Other Pacific Islanders are not shown separately due to sample size.
+Note: Details may not sum to totals due to rounding; SPM- Supplemental Poverty Measure; CTC-Child Tax Credit.
+Source: U.S. Census Bureau, Current Population Survey, 2021 and 2022 Annual Social and Economic Supplements (CPS ASEC).
+
+17
+
+Table 2. Total Impact of the Child Tax Credit on Supplemental Poverty Status: 2021
+(Numbers in thousands. Margins of error in thousands or percentage points as appropriate. People as of March of the following year. Information on confidentiality protection, sampling error, nonsampling error, and definitions is available at
+<https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar22.pdf>)
+
+SPM Rate--Age 0-17
+Characteristic
+
+Panel A: Percent in Poverty
+All Children
+Race2 and Hispanic Origin
+White
+White, not Hispanic
+Black
+Asian
+American Indian and Alaska Native
+Two or More Races
+Hispanic (any race)
+Family Structure
+Married couple unit
+Cohabiting partner unit
+Female reference person unit
+Male reference person unit
+Panel B: Number in Poverty
+All Children
+Race2 and Hispanic Origin
+White
+White, not Hispanic
+Black
+Asian
+American Indian and Alaska Native
+Two or More Races
+Hispanic (any race)
+Family Structure
+Married couple unit
+Cohabiting partner unit
+Female reference person unit
+Male reference person unit
+
+SPM
+(including CTC)
+
+SPM Rate--Age 0-5
+
+SPM Rate--Age 6-17
+
+SPM
+(excluding CTC)
+
+SPM
+SPM
+SPM
+SPM
+Difference
+Difference
+Difference
+(including CTC)
+(excluding CTC)
+(including CTC)
+(excluding CTC)
+(Percentage
+(Percentage
+(Percentage
+Percent MOE1 (±) Percent MOE1 (±)
+Point)
+Percent MOE1 (±) Percent MOE1 (±)
+Point)
+Percent MOE1 (±) Percent MOE1 (±)
+Point)
+5.2
+0.4
+9.2
+0.5
+-4.0 *
+5.3
+0.5
+9.8
+0.7
+-4.5 *
+5.2
+0.4
+8.9
+0.5
+-3.7 *
+4.5
+2.7
+8.1
+5.1
+7.4
+5.0
+8.4
+
+0.4
+0.3
+1.3
+1.4
+2.7
+1.5
+0.8
+
+8.0
+5.0
+14.5
+7.7
+14.2
+9.7
+14.6
+
+0.5
+0.4
+1.6
+1.6
+4.2
+2.1
+1.2
+
+-3.5 *
+-2.3 *
+-6.3 *
+-2.6 *
+-6.8 *
+-4.7 *
+-6.3 *
+
+4.2
+2.4
+9.7
+5.2
+6.4
+5.9
+8.1
+
+0.6
+0.5
+2.2
+2.0
+3.7
+2.2
+1.2
+
+8.2
+5.1
+15.9
+9.0
+13.3
+11.0
+15.1
+
+0.7
+0.7
+2.6
+2.7
+6.0
+3.2
+1.6
+
+-4.1 *
+-2.7 *
+-6.3 *
+-3.9 *
+-7.0 *
+-5.1 *
+-7.0 *
+
+4.6
+2.9
+7.4
+5.1
+7.9
+4.5
+8.5
+
+0.4
+0.4
+1.2
+1.6
+3.2
+1.8
+0.9
+
+7.8
+4.9
+13.8
+7.1
+14.6
+9.1
+14.4
+
+0.5
+0.5
+1.6
+1.8
+4.6
+2.4
+1.3
+
+-3.2 *
+-2.1 *
+-6.4 *
+-2.0 *
+-6.7 *
+-4.6 *
+-5.9 *
+
+2.8
+7.5
+11.1
+8.9
+
+0.3
+1.4
+1.1
+1.7
+
+5.0
+13.4
+19.9
+14.0
+
+0.4
+1.9
+1.4
+2.3
+
+-2.2 *
+-5.9 *
+-8.9 *
+-5.1 *
+
+3.0
+8.6
+11.5
+11.2
+
+0.5
+2.0
+1.8
+3.6
+
+5.4
+15.8
+22.5
+17.5
+
+0.6
+2.5
+2.5
+4.6
+
+-2.4 *
+-7.2 *
+-11.1 *
+-6.2 *
+
+2.7
+6.8
+11.0
+8.4
+
+0.4
+1.5
+1.1
+1.9
+
+4.8
+11.8
+19.0
+13.2
+
+0.4
+2.0
+1.4
+2.5
+
+-2.1 *
+-5.0 *
+-8.1 *
+-4.8 *
+
+Estimate MOE1 (±) Estimate MOE1 (±) Difference Estimate MOE1 (±) Estimate MOE1 (±) Difference Estimate MOE1 (±) Estimate MOE1 (±) Difference
+3,829
+264
+6,748
+338
+-2,919 *
+1,196
+120
+2,212
+159
+-1,016 *
+2,633
+192
+4,536
+245
+-1,904 *
+2,347
+976
+917
+217
+87
+220
+1,575
+
+197
+116
+143
+58
+34
+68
+155
+
+4,142
+1,796
+1,633
+327
+167
+427
+2,755
+
+267
+157
+177
+69
+53
+94
+220
+
+-1,795 *
+-820 *
+-716 *
+-110 *
+-79 *
+-208 *
+-1,180 *
+
+655
+254
+346
+70
+22
+91
+476
+
+86
+49
+80
+27
+13
+34
+69
+
+1,289
+547
+569
+122
+45
+168
+888
+
+117
+71
+94
+37
+22
+50
+95
+
+-634 *
+-293 *
+-224 *
+-52 *
+-24 *
+-78 *
+-412 *
+
+1,692
+723
+571
+147
+65
+129
+1,099
+
+150
+95
+96
+47
+28
+53
+117
+
+2,853
+1,249
+1,063
+204
+121
+259
+1,867
+
+200
+125
+125
+53
+42
+70
+166
+
+-1,161 *
+-526 *
+-492 *
+-57 *
+-56 *
+-130 *
+-768 *
+
+1,376
+487
+1,599
+302
+
+160
+97
+166
+59
+
+2,464
+870
+2,876
+473
+
+205
+130
+223
+84
+
+-1,088 *
+-383 *
+-1,277 *
+-171 *
+
+471
+223
+433
+70
+
+77
+55
+72
+24
+
+843
+410
+851
+108
+
+96
+72
+105
+34
+
+-372 *
+-187 *
+-418 *
+-39 *
+
+905
+264
+1,166
+232
+
+119
+61
+123
+53
+
+1,621
+461
+2,025
+365
+
+148
+82
+166
+75
+
+-716 *
+-197 *
+-859 *
+-132 *
+
+* An asterisk following an estimate indicates change is statistically different from zero at the 90 percent confidence level.
+1
+A margin of error (MOE) is a measure of an estimate's variability. The larger the MOE in relation to the size of the estimate, the less reliable the estimate. This number,
+when added to and subtracted from the estimate, forms the 90 percent confidence interval. MOEs shown in this table are based on standard errors calculated using replicate weights.
+2
+
+Federal surveys give respondents the option of reporting more than one race. Therefore, two basic ways of defining a race group are possible. A group, such as Asian, may be defined as those who reported Asian and no other race (the race-alone or single-race
+concept) or as those who reported Asian regardless of whether they also reported another race (the race-alone-or-in-combination concept). This table shows estimates for the race-alone population and the Two or More Races population. The primary use of the
+single-race population does not imply that it is the preferred method of presenting or analyzing data. The Census Bureau presents data on race in a variety of ways. Estimates for Native Hawaiians and Other Pacific Islanders are not shown separately due to sample
+size.
+Note: Details may not sum to totals due to rounding; SPM-Supplemental Poverty Measure; CTC-Child Tax Credit.
+Source: U.S. Census Bureau, Current Population Survey, 2022 Annual Social and Economic Supplement (CPS ASEC).
+
+18
+
+Table 3. Percentage of Children by Income-to-Poverty Ratio, Total Impact and
+Expansion Impact: 2021
+(Margins of error in percentage points. People as of March of the following year. Information on confidentiality protection,
+sampling error, nonsampling error, and definitions is available at <https://www2.census.gov/programssurveys/cps/techdocs/cpsmar22.pdf>)
+
+Panel A: Total Impact
+Ratio Group
+Under 0.50
+0.50 to 0.99
+1.00 to 1.49
+1.50 to 1.99
+2.00 to 3.99
+4.00 and above
+Panel B: Expansion Impact
+Ratio Group
+Under 0.50
+0.50 to 0.99
+1.00 to 1.49
+1.50 to 1.99
+2.00 to 3.99
+4.00 and above
+
+Including CTC
+Share in Group
+Percent
+1.4
+3.8
+12.1
+19.3
+44.1
+19.3
+
+MOE1 (±)
+0.2
+0.3
+0.5
+0.6
+0.7
+0.5
+
+ARPA CTC
+Share in Group
+Percent
+1.4
+3.8
+12.1
+19.3
+44.1
+19.3
+
+MOE1 (±)
+0.2
+0.3
+0.5
+0.6
+0.7
+0.5
+
+Excluding CTC
+Share in Group
+Percent
+2.5
+6.6
+18.1
+17.0
+38.3
+17.4
+
+MOE1 (±)
+0.3
+0.4
+0.6
+0.5
+0.7
+0.5
+
+Pre-ARPA CTC
+Share in Group
+Percent
+2.5
+5.7
+15.1
+17.1
+41.0
+18.6
+
+MOE1 (±)
+0.3
+0.4
+0.5
+0.6
+0.7
+0.5
+
+Difference
+(Percentage
+Point)
+-1.1 *
+-2.8 *
+-6.0 *
+2.3 *
+5.8 *
+1.8 *
+Difference
+(Percentage
+Point)
+-1.0 *
+-1.9 *
+-3.0 *
+2.2 *
+3.1 *
+0.6
+
+* An asterisk following an estimate indicates change is statistically different from zero at the 90 percent confidence level.
+1
+
+A margin of error (MOE) is a measure of an estimate's variability. The larger the MOE in relation to the size of the estimate, the less
+reliable the estimate. This number, when added to and subtracted from the estimate, forms the 90 percent confidence interval.
+MOEs shown in this table are based on standard errors calculated using replicate weights.
+Note: Details may not sum to totals due to rounding; CTC-Child Tax Credit; ARPA- American Rescue Plan Act.
+Source: U.S. Census Bureau, Current Population Survey, 2022 Annual Social and Economic Supplement (CPS ASEC).
+
+19
+
+Table 4. Impact of the Expansion of Child Tax Credit on Supplemental Poverty Measure Status: 2021
+(Numbers in thousands. Margins of error in thousands or percentage points as appropriate. People as of March of the following year. Information on confidentiality protection, sampling error, nonsampling error, and definitions is available at
+<https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar22.pdf>)
+
+SPM Rate--Age 0-17
+Characteristic
+
+Panel A: Percent in Poverty
+All Children
+Race2 and Hispanic Origin
+White
+White, not Hispanic
+Black
+Asian
+American Indian and Alaska Native
+Two or More Races
+Hispanic (any race)
+Family Structure
+Married couple unit
+Cohabiting partner unit
+Female reference person unit
+Male reference person unit
+Panel B: Number in Poverty
+All Children
+Race2 and Hispanic Origin
+White
+White, not Hispanic
+Black
+Asian
+American Indian and Alaska Native
+Two or More Races
+Hispanic (any race)
+Family Structure
+Married couple unit
+Cohabiting partner unit
+Female reference person unit
+Male reference person unit
+
+SPM
+(ARPA CTC)
+
+SPM Rate--Age 0-5
+
+SPM Rate--Age 6-17
+
+SPM
+(Pre-ARPA CTC)
+
+SPM
+SPM
+SPM
+SPM
+Difference
+Difference
+Difference
+(ARPA CTC)
+(Pre-ARPA CTC)
+(ARPA CTC)
+(Pre-ARPA CTC)
+(Percentage
+(Percentage
+(Percentage
+1
+1
+1
+1
+1
+1
+Percent MOE (±) Percent MOE (±)
+Point)
+Percent MOE (±) Percent MOE (±)
+Point)
+Percent MOE (±) Percent MOE (±)
+Point)
+5.2
+0.4
+8.1
+0.4
+-2.9 *
+5.3
+0.5
+8.5
+0.7
+-3.2 *
+5.2
+0.4
+7.9
+0.5
+-2.8 *
+4.5
+2.7
+8.1
+5.1
+7.4
+5.0
+8.4
+
+0.4
+0.3
+1.3
+1.4
+2.7
+1.5
+0.8
+
+6.9
+4.5
+13.4
+6.5
+12.3
+8.7
+12.4
+
+0.5
+0.4
+1.5
+1.5
+3.9
+2.0
+1.1
+
+-2.4 *
+-1.8 *
+-5.3 *
+-1.3 *
+-4.9 *
+-3.7 *
+-4.0 *
+
+4.2
+2.4
+9.7
+5.2
+6.4
+5.9
+8.1
+
+0.6
+0.5
+2.2
+2.0
+3.7
+2.2
+1.2
+
+7.0
+4.5
+14.9
+7.1
+13.3
+8.9
+12.6
+
+0.7
+0.6
+2.6
+2.4
+6.0
+2.7
+1.5
+
+-2.8 *
+-2.1 *
+-5.3 *
+-2.0 *
+-6.9 *
+-3.0 *
+-4.5 *
+
+4.6
+2.9
+7.4
+5.1
+7.9
+4.5
+8.5
+
+0.4
+0.4
+1.2
+1.6
+3.2
+1.8
+0.9
+
+6.9
+4.5
+12.7
+6.2
+11.9
+8.6
+12.2
+
+0.5
+0.5
+1.6
+1.7
+4.1
+2.4
+1.2
+
+-2.2 *
+-1.7 *
+-5.3 *
+-1.0 *
+-4.1 *
+-4.1 *
+-3.8 *
+
+2.8
+7.5
+11.1
+8.9
+
+0.3
+1.4
+1.1
+1.7
+
+4.1
+12.9
+18.3
+12.5
+
+0.4
+1.9
+1.3
+2.0
+
+-1.2 *
+-5.4 *
+-7.2 *
+-3.5 *
+
+3.0
+8.6
+11.5
+11.2
+
+0.5
+2.0
+1.8
+3.6
+
+4.3
+15.3
+20.4
+14.0
+
+0.6
+2.5
+2.3
+3.9
+
+-1.3 *
+-6.6 *
+-9.0 *
+-2.8 *
+
+2.7
+6.8
+11.0
+8.4
+
+0.4
+1.5
+1.1
+1.9
+
+3.9
+11.3
+17.6
+12.1
+
+0.4
+1.9
+1.4
+2.2
+
+-1.2 *
+-4.6 *
+-6.6 *
+-3.7 *
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+Estimate MOE (±) Estimate MOE (±) Difference Estimate MOE (±) Estimate MOE (±) Difference Estimate MOE (±) Estimate MOE (±) Difference
+3,829
+264
+5,958
+320
+-2,129 *
+1,196
+120
+1,924
+151
+-727 *
+2,633
+192
+4,034
+229
+-1,402 *
+2,347
+976
+917
+217
+87
+220
+1,575
+
+197
+116
+143
+58
+34
+68
+155
+
+3,594
+1,626
+1,517
+273
+145
+381
+2,327
+
+243
+152
+175
+64
+49
+91
+199
+
+-1,247 *
+-649 *
+-600 *
+-56 *
+-57 *
+-161 *
+-752 *
+
+655
+254
+346
+70
+22
+91
+476
+
+86
+49
+80
+27
+13
+34
+69
+
+1,095
+483
+534
+97
+45
+136
+742
+
+111
+68
+92
+33
+22
+42
+91
+
+-439 *
+-229 *
+-188 *
+-27 *
+-23 *
+-45 *
+-265 *
+
+1,692
+723
+571
+147
+65
+129
+1,099
+
+150
+95
+96
+47
+28
+53
+117
+
+2,500
+1,143
+982
+177
+100
+245
+1,585
+
+178
+121
+123
+49
+37
+69
+150
+
+-808 *
+-420 *
+-411 *
+-30 *
+-34 *
+-116 *
+-487 *
+
+1,376
+487
+1,599
+302
+
+160
+97
+166
+59
+
+1,990
+838
+2,645
+421
+
+179
+128
+214
+74
+
+-614 *
+-351 *
+-1,046 *
+-119 *
+
+471
+223
+433
+70
+
+77
+55
+72
+24
+
+671
+395
+770
+87
+
+87
+71
+99
+26
+
+-200 *
+-172 *
+-338 *
+-17 *
+
+905
+264
+1,166
+232
+
+119
+61
+123
+53
+
+1,319
+442
+1,874
+334
+
+132
+79
+160
+66
+
+-414 *
+-179 *
+-708 *
+-102 *
+
+* An asterisk following an estimate indicates change is statistically different from zero at the 90 percent confidence level.
+1
+
+A margin of error (MOE) is a measure of an estimate's variability. The larger the MOE in relation to the size of the estimate, the less reliable the estimate. This number,
+when added to and subtracted from the estimate, forms the 90 percent confidence interval. MOEs shown in this table are based on standard errors calculated using replicate weights.
+2
+
+Federal surveys give respondents the option of reporting more than one race. Therefore, two basic ways of defining a race group are possible. A group, such as Asian, may be defined as those who reported Asian and no other race (the race-alone or single-race
+concept) or as those who reported Asian regardless of whether they also reported another race (the race-alone-or-in-combination concept). This table shows estimates for the race-alone population and the Two or More Races population. The primary use of the
+single-race population does not imply that it is the preferred method of presenting or analyzing data. The Census Bureau presents data on race in a variety of ways. Estimates for Native Hawaiians and Other Pacific Islanders are not shown separately due to sample
+size.
+Note: Details may not sum to totals due to rounding; SPM- Supplemental Poverty Measure; CTC-Child Tax Credit; ARPA- American Rescue Plan Act.
+Source: U.S. Census Bureau, Current Population Survey, 2022 Annual Social and Economic Supplement (CPS ASEC).
+
+20
+
+Table 5. Total Impact of the Child Tax Credit on Supplemental Poverty Status, Excluding Stimulus Payments: 2021
+(Numbers in thousands. Margins of error in thousands or percentage points as appropriate. People as of March of the following year. Information on confidentiality protection, sampling error, nonsampling error, and definitions is available at
+<https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar22.pdf>)
+
+SPM Rate--Age 0-17
+Characteristic
+Panel A: Percent in Poverty
+All Children
+Race2 and Hispanic Origin
+White
+White, not Hispanic
+Black
+Asian
+American Indian and Alaska Native
+Two or More Races
+Hispanic (any race)
+Family Structure
+Married couple unit
+Cohabiting partner unit
+Female reference person unit
+Male reference person unit
+Panel B: Number in Poverty
+All Children
+Race2 and Hispanic Origin
+White
+White, not Hispanic
+Black
+Asian
+American Indian and Alaska Native
+Two or More Races
+Hispanic (any race)
+Family Structure
+Married couple unit
+Cohabiting partner unit
+Female reference person unit
+Male reference person unit
+
+SPM
+(including CTC)
+
+SPM Rate--Age 0-5
+
+SPM
+(excluding CTC)
+
+SPM
+(including CTC)
+
+SPM Rate--Age 6-17
+
+SPM
+(excluding CTC)
+
+SPM
+(including CTC)
+
+SPM
+Difference
+Difference
+Difference
+(excluding CTC)
+(Percentage
+(Percentage
+(Percentage
+Percent MOE1 (±) Percent MOE1 (±)
+Point)
+Percent MOE1 (±) Percent MOE1 (±)
+Point)
+Percent MOE1 (±) Percent MOE1 (±)
+Point)
+8.3
+0.4
+14.9
+0.6
+-6.6 *
+8.6
+0.7
+15.8
+0.8
+-7.2 *
+8.2
+0.5
+14.5
+0.6
+-6.3 *
+7.3
+4.4
+12.7
+7.6
+12.2
+7.7
+13.7
+
+0.5
+0.4
+1.5
+1.5
+3.7
+1.9
+1.1
+
+13.1
+8.2
+23.0
+12.3
+24.4
+14.3
+23.7
+
+0.6
+0.6
+2.0
+2.0
+5.2
+2.5
+1.5
+
+-5.8 *
+-3.8 *
+-10.3 *
+-4.6 *
+-12.3 *
+-6.6 *
+-10.1 *
+
+7.2
+4.2
+13.9
+8.4
+12.7
+8.3
+13.6
+
+0.7
+0.6
+2.5
+2.6
+5.9
+2.6
+1.6
+
+13.7
+8.7
+25.4
+13.9
+21.0
+14.9
+23.8
+
+0.9
+0.9
+3.1
+3.1
+6.9
+3.7
+2.1
+
+-6.5 *
+-4.4 *
+-11.4 *
+-5.5 *
+-8.3 *
+-6.6 *
+-10.2 *
+
+7.3
+4.4
+12.2
+7.3
+12.0
+7.4
+13.7
+
+0.5
+0.5
+1.6
+1.8
+4.0
+2.2
+1.2
+
+12.9
+8.0
+21.9
+11.5
+25.8
+13.9
+23.7
+
+0.7
+0.6
+2.1
+2.3
+5.7
+2.9
+1.6
+
+-5.5 *
+-3.6 *
+-9.8 *
+-4.2 *
+-13.9 *
+-6.6 *
+-10.0 *
+
+4.7
+11.9
+17.5
+12.5
+
+0.4
+1.8
+1.4
+2.1
+
+9.0
+20.7
+30.7
+19.9
+
+0.5
+2.0
+1.6
+2.8
+
+-4.3 *
+-8.8 *
+-13.2 *
+-7.4 *
+
+4.9
+14.0
+19.1
+14.1
+
+0.6
+2.5
+2.3
+4.0
+
+9.5
+22.7
+35.3
+26.9
+
+0.7
+2.7
+2.7
+6.6
+
+-4.6 *
+-8.8 *
+-16.1 *
+-12.8 *
+
+4.6
+10.5
+16.9
+12.1
+
+0.4
+2.0
+1.4
+2.3
+
+8.8
+19.4
+29.1
+18.3
+
+0.5
+2.4
+1.7
+2.8
+
+-4.1 *
+-8.9 *
+-12.2 *
+-6.2 *
+
+Difference Estimate MOE1 (±) Estimate MOE1 (±)
+-1,625 *
+4,166
+233
+7,362
+305
+
+Difference
+-3,196 *
+
+Estimate MOE1 (±) Estimate MOE1 (±) Difference Estimate MOE1 (±) Estimate MOE1 (±)
+6,099
+312
+10,920
+427
+-4,820 *
+1,933
+150
+3,557
+190
+3,806
+1,575
+1,440
+323
+143
+337
+2,574
+
+248
+143
+171
+66
+47
+83
+202
+
+6,824
+2,956
+2,602
+518
+287
+626
+4,466
+
+328
+210
+223
+87
+67
+115
+280
+
+-3,018 *
+-1,381 *
+-1,162 *
+-196 *
+-144 *
+-288 *
+-1,892 *
+
+1,132
+456
+498
+115
+43
+128
+800
+
+112
+65
+91
+35
+22
+41
+94
+
+2,142
+932
+907
+189
+71
+228
+1,400
+
+146
+98
+111
+43
+27
+58
+124
+
+-1,010 *
+-477 *
+-409 *
+-75 *
+-28 *
+-101 *
+-599 *
+
+2,674
+1,119
+941
+208
+100
+210
+1,774
+
+188
+116
+123
+52
+37
+63
+153
+
+4,682
+2,024
+1,695
+329
+215
+398
+3,066
+
+246
+157
+161
+68
+56
+86
+206
+
+-2,008 *
+-905 *
+-754 *
+-121 *
+-116 *
+-188 *
+-1,292 *
+
+2,316
+773
+2,523
+422
+
+183
+122
+211
+75
+
+4,407
+1,346
+4,430
+673
+
+258
+150
+277
+108
+
+-2,090 *
+-573 *
+-1,907 *
+-250 *
+
+761
+362
+722
+87
+
+89
+68
+96
+27
+
+1,470
+589
+1,331
+167
+
+120
+82
+128
+55
+
+-709 *
+-227 *
+-609 *
+-80 *
+
+1,555
+410
+1,801
+335
+
+139
+81
+160
+67
+
+2,936
+757
+3,099
+505
+
+185
+103
+202
+87
+
+-1,381 *
+-346 *
+-1,298 *
+-170 *
+
+* An asterisk following an estimate indicates change is statistically different from zero at the 90 percent confidence level.
+1
+
+A margin of error (MOE) is a measure of an estimate's variability. The larger the MOE in relation to the size of the estimate, the less reliable the estimate. This number,
+when added to and subtracted from the estimate, forms the 90 percent confidence interval. MOEs shown in this table are based on standard errors calculated using replicate weights.
+2
+
+Federal surveys give respondents the option of reporting more than one race. Therefore, two basic ways of defining a race group are possible. A group, such as Asian, may be defined as those who reported Asian and no other race (the race-alone or single-race
+concept) or as those who reported Asian regardless of whether they also reported another race (the race-alone-or-in-combination concept). This table shows estimates for the race-alone population and the Two or More Races population. The primary use of the
+single-race population does not imply that it is the preferred method of presenting or analyzing data. The Census Bureau presents data on race in a variety of ways. Estimates for Native Hawaiians and Other Pacific Islanders are not shown separately due to sample
+size.
+Note: Details may not sum to totals due to rounding; SPM- Supplemental Poverty Measure; CTC-Child Tax Credit.
+Source: U.S. Census Bureau, Current Population Survey, 2022 Annual Social and Economic Supplement (CPS ASEC).
+
+21
+
+Table 6. Impact of the Expansion of Child Tax Credit on Supplemental Poverty Measure Status, Excluding Stimulus Payments: 2021
+(Numbers in thousands. Margins of error in thousands or percentage points as appropriate. People as of March of the following year. Information on confidentiality protection, sampling error, nonsampling error, and definitions is available at
+<https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar22.pdf>)
+
+SPM Rate--Age 0-17
+Characteristic
+Panel A: Percent in Poverty
+All Children
+2
+Race and Hispanic Origin
+White
+White, not Hispanic
+Black
+Asian
+American Indian and Alaska Native
+Two or More Races
+Hispanic (any race)
+Family Structure
+Married couple unit
+Cohabiting partner unit
+Female reference person unit
+Male reference person unit
+Panel B: Number in Poverty
+All Children
+Race2 and Hispanic Origin
+White
+White, not Hispanic
+Black
+Asian
+American Indian and Alaska Native
+Two or More Races
+Hispanic (any race)
+Family Structure
+Married couple unit
+Cohabiting partner unit
+Female reference person unit
+Male reference person unit
+
+SPM
+(ARPA CTC)
+
+SPM Rate--Age 0-5
+
+SPM Rate--Age 6-17
+
+SPM
+(Pre-ARPA CTC)
+
+SPM
+SPM
+SPM
+SPM
+Difference
+Difference
+Difference
+(ARPA CTC)
+(Pre-ARPA CTC)
+(ARPA CTC)
+(Pre-ARPA CTC)
+(Percentage
+(Percentage
+(Percentage
+Percent MOE1 (±) Percent MOE1 (±)
+Point)
+Percent MOE1 (±) Percent MOE1 (±)
+Point)
+Percent MOE1 (±) Percent MOE1 (±)
+Point)
+8.3
+0.4
+12.6
+0.6
+-4.3 *
+8.6
+0.7
+13.5
+0.8
+-4.9 *
+8.2
+0.5
+12.2
+0.6
+-4.0 *
+7.3
+4.4
+12.7
+7.6
+12.2
+7.7
+13.7
+
+0.5
+0.4
+1.5
+1.5
+3.7
+1.9
+1.1
+
+10.9
+6.8
+20.2
+10.3
+21.4
+12.2
+19.9
+
+0.6
+0.5
+1.9
+1.8
+4.9
+2.4
+1.4
+
+-3.6 *
+-2.5 *
+-7.4 *
+-2.7 *
+-9.2 *
+-4.5 *
+-6.3 *
+
+7.2
+4.2
+13.9
+8.4
+12.7
+8.3
+13.6
+
+0.7
+0.6
+2.5
+2.6
+5.9
+2.6
+1.6
+
+11.4
+7.2
+22.4
+12.8
+16.6
+13.0
+20.3
+
+0.9
+0.8
+3.1
+3.1
+5.8
+3.5
+1.9
+
+-4.2 *
+-3.0 *
+-8.4 *
+-4.3 *
+-3.9 *
+-4.7 *
+-6.6 *
+
+7.3
+4.4
+12.2
+7.3
+12.0
+7.4
+13.7
+
+0.5
+0.5
+1.6
+1.8
+4.0
+2.2
+1.2
+
+10.6
+6.7
+19.1
+9.1
+23.3
+11.8
+19.8
+
+0.6
+0.6
+1.9
+2.0
+5.7
+2.7
+1.5
+
+-3.3 *
+-2.2 *
+-7.0 *
+-1.9 *
+-11.3 *
+-4.5 *
+-6.1 *
+
+4.7
+11.9
+17.5
+12.5
+
+0.4
+1.8
+1.4
+2.1
+
+6.7
+19.6
+27.7
+17.4
+
+0.5
+2.0
+1.6
+2.5
+
+-2.0 *
+-7.7 *
+-10.2 *
+-4.9 *
+
+4.9
+14.0
+19.1
+14.1
+
+0.6
+2.5
+2.3
+4.0
+
+7.2
+22.0
+32.5
+18.8
+
+0.7
+2.8
+2.8
+4.8
+
+-2.3 *
+-8.0 *
+-13.4 *
+-4.7 *
+
+4.6
+10.5
+16.9
+12.1
+
+0.4
+2.0
+1.4
+2.3
+
+6.5
+18.0
+26.0
+17.1
+
+0.5
+2.3
+1.6
+2.8
+
+-1.9 *
+-7.4 *
+-9.1 *
+-5.0 *
+
+Estimate MOE1 (±) Estimate MOE1 (±) Difference Estimate MOE1 (±) Estimate MOE1 (±) Difference Estimate MOE1 (±) Estimate MOE1 (±) Difference
+6,099
+312
+9,226
+414
+-3,127 *
+1,933
+150
+3,035
+189
+-1,103 *
+4,166
+233
+6,190
+288
+-2,024 *
+3,806
+1,575
+1,440
+323
+143
+337
+2,574
+
+248
+143
+171
+66
+47
+83
+202
+
+5,662
+2,466
+2,279
+435
+251
+537
+3,753
+
+317
+188
+215
+80
+63
+109
+267
+
+-1,856 *
+-891 *
+-839 *
+-112 *
+-108 *
+-200 *
+-1,178 *
+
+1,132
+456
+498
+115
+43
+128
+800
+
+112
+65
+91
+35
+22
+41
+94
+
+1,787
+777
+800
+174
+56
+199
+1,190
+
+140
+84
+111
+42
+23
+55
+115
+
+-655 *
+-321 *
+-301 *
+-59 *
+-13 *
+-71 *
+-390 *
+
+2,674
+1,119
+941
+208
+100
+210
+1,774
+
+188
+116
+123
+52
+37
+63
+153
+
+3,875
+1,688
+1,479
+262
+194
+338
+2,562
+
+232
+144
+149
+58
+54
+81
+196
+
+-1,201 *
+-569 *
+-538 *
+-54 *
+-95 *
+-128 *
+-788 *
+
+2,316
+773
+2,523
+422
+
+183
+122
+211
+75
+
+3,304
+1,269
+3,998
+590
+
+233
+149
+270
+96
+
+-987 *
+-497 *
+-1,475 *
+-167 *
+
+761
+362
+722
+87
+
+89
+68
+96
+27
+
+1,124
+569
+1,226
+117
+
+110
+83
+128
+35
+
+-363 *
+-206 *
+-504 *
+-29 *
+
+1,555
+410
+1,801
+335
+
+139
+81
+160
+67
+
+2,180
+701
+2,772
+473
+
+162
+99
+193
+85
+
+-624 *
+-290 *
+-971 *
+-138 *
+
+* An asterisk following an estimate indicates change is statistically different from zero at the 90 percent confidence level.
+1
+
+A margin of error (MOE) is a measure of an estimate's variability. The larger the MOE in relation to the size of the estimate, the less reliable the estimate. This number,
+when added to and subtracted from the estimate, forms the 90 percent confidence interval. MOEs shown in this table are based on standard errors calculated using replicate weights.
+2
+Federal surveys give respondents the option of reporting more than one race. Therefore, two basic ways of defining a race group are possible. A group, such as Asian, may be defined as those who reported Asian and no other race (the race-alone or single-race
+concept) or as those who reported Asian regardless of whether they also reported another race (the race-alone-or-in-combination concept). This table shows estimates for the race-alone population and the Two or More Races population. The primary use of the
+single-race population does not imply that it is the preferred method of presenting or analyzing data. The Census Bureau presents data on race in a variety of ways. Estimates for Native Hawaiians and Other Pacific Islanders are not shown separately due to
+sample size.
+Note:Details may not sum to totals due to rounding; SPM-Supplemental Poverty Measure CTC-Child Tax Credit; ARPA- American Rescue Plan Act.
+Source: U.S. Census Bureau, Current Population Survey, 2022 Annual Social and Economic Supplement (CPS ASEC).
+
+22
+
+Table 7. Percentage of Children by Income-to-Poverty Ratio Excluding Stimulus
+Payments, Total Impact and Expansion Impact: 2021
+(Margins of error in percentage points. People as of March of the following year. Information on confidentiality protection, sampling
+error, nonsampling error, and definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar22.pdf>)
+
+Panel A: Total Impact
+Ratio Group
+Under 0.50
+0.50 to 0.99
+1.00 to 1.49
+1.50 to 1.99
+2.00 to 3.99
+4.00 and above
+Panel B: Expansion Impact
+Ratio Group
+Under 0.50
+0.50 to 0.99
+1.00 to 1.49
+1.50 to 1.99
+2.00 to 3.99
+4.00 and above
+
+Including CTC
+Share in Group
+Percent
+2.2
+6.1
+16.9
+17.8
+38.7
+18.3
+
+Excluding CTC
+Share in Group
+1
+
+MOE (±)
+0.2
+0.4
+0.5
+0.6
+0.7
+0.5
+
+ARPA CTC
+Share in Group
+Percent
+2.2
+6.1
+16.9
+17.8
+38.7
+18.3
+
+Percent
+3.9
+10.9
+19.4
+15.1
+34.0
+16.7
+
+Difference
+MOE (±) (Percentage Point)
+0.3
+-1.7 *
+0.5
+-4.9 *
+0.6
+-2.6 *
+0.5
+2.7 *
+0.7
+4.7 *
+0.5
+1.6 *
+1
+
+Pre-ARPA CTC
+Share in Group
+1
+
+MOE (±)
+0.2
+0.4
+0.5
+0.6
+0.7
+0.5
+
+Percent
+3.7
+8.9
+17.6
+15.9
+36.1
+17.8
+
+Difference
+MOE (±) (Percentage Point)
+0.3
+-1.5 *
+0.5
+-2.8 *
+0.6
+-0.8 *
+0.5
+1.9 *
+0.6
+2.6 *
+0.5
+0.5
+1
+
+* An asterisk following an estimate indicates change is statistically different from zero at the 90 percent confidence level.
+1
+
+A margin of error (MOE) is a measure of an estimate's variability. The larger the MOE in relation to the size of the estimate, the less
+reliable the estimate. This number, when added to and subtracted from the estimate, forms the 90 percent confidence interval.
+MOEs shown in this table are based on standard errors calculated using replicate weights.
+Note: Details may not sum to totals due to rounding; CTC-Child Tax Credit; ARPA- American Rescue Plan Act.
+Source: U.S. Census Bureau, Current Population Survey, 2022 Annual Social and Economic Supplement (CPS ASEC).
+
+23
+
+
