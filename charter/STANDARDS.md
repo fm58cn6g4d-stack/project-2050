@@ -31,11 +31,11 @@ The legacy model suite still writes its generated reports into `legacy/index/` a
 
 **Session routine.**
 1. Read this page and `charter/PROGRESS.md`. Check open PRs.
-2. Claim one step on the board (in your PR, opened early as a draft if the step is long).
+2. Claim one step: the lead names it in your brief. Open your PR early, as a draft if the step is long, with the step in its title.
 3. Read that dossier's files and the evidence it needs.
 4. Do the step. One dossier step per session.
 5. Run the checks.
-6. Update the board: done, next, and open questions for Espen.
+6. Write the board update in your PR description, under "For the board": done, next, and open questions for Espen. Only the lead edits `charter/PROGRESS.md`, folding these in a few times a day; a worker edits it only when no lead is live (`DEC-2026-11-12-03`).
 7. Open one coherent PR and mark it ready when done.
 
 **Choosing the model for the work.** Use the lightest model that can do the step well, and the strongest where care and judgment matter: errors in large, interconnected datasets propagate, so mistakes there cost more than the tokens saved.
@@ -47,7 +47,7 @@ The legacy model suite still writes its generated reports into `legacy/index/` a
 | **Most capable** (Opus-class) | Strategy, design, synthesis, and work where an error would spread | Design choices and decision memos; dossier problem, design and specification sections; reconciling conflicting evidence; model design and integrating the household, health and budget models; adversarial milestone reviews; legal and constitutional analysis; public briefs |
 
 - Every step on `charter/PROGRESS.md` names its tier.
-- A lighter model that meets ambiguity stops and leaves a note on the board for a stronger session; it doesn't guess.
+- A lighter model that meets ambiguity stops and leaves a note in its PR for a stronger session, and tells its report-back address; it doesn't guess.
 - Strong sessions delegate mechanical subtasks to lighter subagents where the tools allow, and check the results.
 - When unsure, go one tier up. The same tiers apply to other vendors' agents, by capability.
 
@@ -55,6 +55,7 @@ The legacy model suite still writes its generated reports into `legacy/index/` a
 - **Routine** (gate tiers 1–2): research, evidence, library, models, dossier drafts, the board, and public pages that change no commitment. These merge once checks pass and another agent has reviewed the current head.
 - **Decisions** (tier 3): the charter, the flagship list, adopted model inputs (`models/data/inputs/`), design choices at real forks, new or removed programs, the merge rules and entry files (`.github/`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`), and anything labeled `needs-espen`. These merge only after Espen adds `espen-approved` themselves. Agents never apply `espen-approved` or `espen-override` and never enable auto-merge on a tier-3 PR.
 - Keep routine and decision changes in separate PRs.
+- Ask Espen for `espen-approved` only when the PR's head is final, current with main and approved by the reviewer. A push with new content drops the label (`DEC-2026-11-12-04`).
 - Every PR description carries `Agent-Author: <claude-code|codex|gemini> <session id>`. A reviewing agent reads the diff at the head and comments `Agent-Review: approve` (or `changes-requested`), `Reviewed-Head: <full SHA>` and `Reviewer: <agent> <session id>`.
 
 **Milestone review.** A second agent reviews each dossier against the checklist at L2 and again at L3, trying to break it: weak evidence, missing populations, optimistic assumptions, cheaper alternatives. At each stage boundary Espen holds a short strategic review.
