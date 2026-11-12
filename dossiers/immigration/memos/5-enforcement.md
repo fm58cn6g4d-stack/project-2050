@@ -114,6 +114,6 @@ The legacy design (IMM-4) puts priorities, standards and a cap in statute and pa
 
 ## If you decide
 
-- **Under part 1 A:** section 4 writes the priorities, the standards and their private right of action, the cap and waiver, protected places, and the officer-identification statute (with the executive-power file); the FY2030 Homeland Security appropriations act funds the cap and case management (memo 7, the vehicle). The data firewall is memo 6, point 9.
+- **Under part 1 A:** section 4 writes the priorities, the standards and their private right of action, the cap and waiver, protected places, and the officer-identification statute (with the executive-power file); the FY2030 Homeland Security appropriations act funds the cap and case management (memo 7, the vehicle). The data firewall is memo 6's.
 - **Under part 2 B:** the work flagship receives the labor-standards and anti-retaliation items (seam); E-Verify's authority, extended year by year in appropriations [EV-IMM-397], is renewed as a voluntary program.
 - **Preparation before 2029:** a release and case-management contract ready for October 1, 2029; a census of detention contracts that end with the reconciliation money.

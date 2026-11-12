@@ -8430,5 +8430,259 @@
   "supports": [
    "dossiers/immigration/3-design.md"
   ]
+ },
+ {
+  "id": "EV-IMM-570",
+  "statement": "The legacy ledger carries the immigration bill (IMM-1, old E11) at -0.14 trillion dollars on the general fund (range -0.25 to -0.02), described as the S. 744 CBO pattern of about $175B in the first decade, not rescored.",
+  "claim": "analysis",
+  "figures": [
+   "-0.14",
+   "$175B"
+  ],
+  "source": "SRC-0049",
+  "anchor": [
+   "| IMM-1 | E11 | Immigration bill: tiered legalization, backlogs and H-1B fee, asylum processing, enforcement priorities and detention cap, birthright codification, USCIS delivery (IMM-1 to IMM-6) | FLOOR | General fund | -0.14 (-0.25--0.02) |",
+   "S.744 CBO pattern (~$175B first decade), not rescored"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy ledger, legacy/index/2029-trifecta-master-ledger.md, line 330. The $175B is not a CBO figure (legacy-research.md, finding 1). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-200",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-IMM-213",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-571",
+  "statement": "The legacy immigration file sets a statutory cap on average daily detention of about 30,000, with a waiver for emergencies reported to Congress.",
+  "claim": "analysis",
+  "figures": [
+   "30,000"
+  ],
+  "source": "SRC-0023",
+  "anchor": [
+   "a statutory cap on average daily detention (about 30,000, estimate) with a waiver for emergencies reported to Congress"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy domain file, legacy/domains/domain-immigration.md, line 90. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-172",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-572",
+  "statement": "The legacy immigration file sets a statutory floor for annual refugee admissions of about 50,000.",
+  "claim": "analysis",
+  "figures": [
+   "50,000"
+  ],
+  "source": "SRC-0023",
+  "anchor": [
+   "a statutory floor for annual refugee admissions (about 50,000, estimate)"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy domain file, legacy/domains/domain-immigration.md, line 79; its basis (line 182) is the author's memory. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-634",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-IMM-463",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-573",
+  "statement": "The legacy capacity file gives USCIS $40 billion, 7% of the agency rebuild line, for administration of comprehensive immigration reform.",
+  "claim": "analysis",
+  "figures": [
+   "40",
+   "7%"
+  ],
+  "source": "SRC-0013",
+  "anchor": [
+   "| USCIS | 40 | 7% | Administration of comprehensive immigration reform (ledger E11) |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy capacity file, legacy/domains/domain-capacity.md, line 127. Provisional agency share under D9. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-574",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-574",
+  "statement": "The legacy capacity review's bottom-up need for asylum and refugee processing is about $5.4B over FY2030-39, and IMM-3's $10B is roughly double it.",
+  "claim": "analysis",
+  "figures": [
+   "$5.4B",
+   "$10B"
+  ],
+  "source": "SRC-0072",
+  "anchor": [
+   "This review's bottom-up asylum and refugee need ($0.43B a year, about $5.4B over FY2030-39) fits inside it",
+   "IMM-3's $10B is roughly double the bottom-up figure"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy capacity components, legacy/sources/capacity-recovery-components.csv, line 107. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-302",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-575",
+  "statement": "The legacy capacity components put USCIS backlog clearance (about 12M pending) at about $0.7B a year for four to five years.",
+  "claim": "analysis",
+  "figures": [
+   "$0.7B",
+   "12M"
+  ],
+  "source": "SRC-0072",
+  "anchor": [
+   "Backlog clearance (about 12M pending),2030,3.0,$B lifetime,1.5,5.0",
+   "About $0.7B a year for four to five years"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy capacity components, legacy/sources/capacity-recovery-components.csv, line 109. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-140",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-576",
+  "statement": "The legacy courts file costs the Article I immigration court at about $0.03T, range $0.02T to $0.06T, unscored.",
+  "claim": "analysis",
+  "figures": [
+   "$0.03T",
+   "$0.02T",
+   "$0.06T"
+  ],
+  "source": "SRC-0016",
+  "anchor": [
+   "About $0.03T, range $0.02T to $0.06T (estimate; unscored)."
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy courts file, legacy/domains/domain-courts.md, line 108. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-113",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-577",
+  "statement": "The legacy ledger's H-1B fee channel (IF1) raises 0.015 trillion dollars (range 0.010-0.020), spent within receipts on adjudication and training.",
+  "claim": "analysis",
+  "figures": [
+   "0.015",
+   "0.010",
+   "0.020"
+  ],
+  "source": "SRC-0049",
+  "anchor": [
+   "| IF1 | Statutory H-1B fee retained by USCIS and a training fund (IMM-2) | Immigration fees | 0.015 | 0.010 | 0.020 |",
+   "Spent within receipts on adjudication and training"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy ledger, legacy/index/2029-trifecta-master-ledger.md, line 399. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-057",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-578",
+  "statement": "The legacy agency rebuild proposes USCIS asylum and refugee processing $6B from its reserve, pending Espen.",
+  "claim": "analysis",
+  "figures": [
+   "$6B"
+  ],
+  "source": "SRC-0043",
+  "anchor": [
+   "USCIS asylum and refugee processing $6B"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Legacy governing decisions, legacy/governing/project-2050-governing-decisions.md, line 239 (\"Reserve for batch 4 (pending Espen)\"). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/immigration/3-design.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-574",
+    "stance": "qualifies"
+   }
+  ]
  }
 ]
