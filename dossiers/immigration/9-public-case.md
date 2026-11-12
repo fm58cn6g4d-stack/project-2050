@@ -15,6 +15,8 @@ Project 2050's immigration plan does five things.
 - So do Dreamers, anyone who has held temporary protection or DACA, and farm, care and construction workers with a work history, if they were here by January 1 of the year the law passes.
 - Everyone else here on the day the law is signed can register, work legally and be protected from deportation while they reach ten years.
 - Proof of residence comes from tax and earnings records the government already holds. There is no penalty, and no fee for families below twice the poverty line.
+- People with legal or registered status, a filing receipt included, join the national health plan when it starts in 2031; people with no status keep emergency care, as today.
+- Long-settled residents deported or pushed out since 2025, with three years here and a citizen or green-card-holder spouse, parent or child, can apply from abroad.
 
 **A legal system that works,** from 2030-31.
 - More family and employment green cards, the numbers from the 2024 bipartisan Senate bill, made permanent [EV-IMM-535].
@@ -41,7 +43,7 @@ Project 2050's immigration plan does five things.
 - A worker wrongly flagged gets ten days to fix it, keeps the job meanwhile, and is paid for lost wages.
 - Workers who report wage theft or unsafe work are protected from immigration threats.
 
-**What it costs, on our estimates.** About $0.41 trillion over 2030-39 on the federal budget, about $56.5 billion a year from 2040, before the plan's financing (section 6). Most of it is health coverage in the single plan for the people still without status. Social Security's funds gained from legalization in the 2013 Senate bill's score (Social Security's actuaries) [EV-IMM-604]; the E-Verify mandate costs them about $42 billion over ten years on our estimates.
+**What it costs, on our estimates.** About $0.17 trillion over 2030-39 on the federal budget, about $27.7 billion a year from 2040, before the plan's financing (section 6). The largest pieces are health coverage for lawful newcomers, status itself and ending the wait for help for the newly legal. Social Security's funds gained from legalization in the 2013 Senate bill's score (Social Security's actuaries) [EV-IMM-604]; the E-Verify mandate costs them about $42 billion over ten years on our estimates.
 
 ## The case in one paragraph
 
@@ -60,7 +62,7 @@ Millions of people have lived here for decades, raising American children and do
 
 - **"Isn't this amnesty?"** It is earned status: ten years' residence, fingerprints and a criminal check, under the registry already in immigration law, whose date has been stuck at 1972 since 1986 [EV-IMM-590] [EV-IMM-591].
 - **"Won't it bring more people?"** No one who arrives after the law is signed can register, and only people here by January 1 of that year can get the fastest green cards. People who arrive while Congress debates can register, but wait ten years for a green card. After the 1986 legalization, long-run unauthorized inflows from Mexico did not change (Orrenius and Zavodny) [EV-IMM-233].
-- **"What does it cost?"** About $0.41 trillion over ten years on our estimates, most of it health coverage for people still without status. For legal status itself, outside scores of similar bills find a small first-decade cost (CBO, 2021) [EV-IMM-600].
+- **"What does it cost?"** About $0.17 trillion over ten years on our estimates. For legal status itself, outside scores of similar bills find a small first-decade cost (CBO, 2021) [EV-IMM-600].
 - **"Will E-Verify flag me by mistake?"** In the government's last full study, 0.2% of citizens were wrongly flagged at first (Westat for USCIS, FY2009) [EV-IMM-391]. Under this plan you get ten days to fix it, you can't be fired meanwhile, the government must answer in ten days or you are confirmed, and lost wages are paid.
 - **"Does replacing ICE mean no enforcement?"** No. A new agency enforces the law, focused on security, serious crime and recent unlawful entry, under rules in statute. Criminal investigators get their own agency.
 - **"Will my information be used to deport my family?"** No. The law bars using registration or program records for immigration enforcement, with penalties, except under a criminal warrant for a named person.
@@ -78,7 +80,7 @@ Millions of people have lived here for decades, raising American children and do
 | --- | --- |
 | About 14 million people without status (2023) | An exact count for 2029: it is 12-14.5 million, a working assumption |
 | A green card for people with ten years here, after a check | That everyone will apply: we assume about 70% |
-| About $0.41 trillion over ten years, on our estimates | That legalization "pays for itself" on the federal budget: on our estimates the status title is a small cost and the set a larger one |
+| About $0.17 trillion over ten years, on our estimates | That legalization "pays for itself" on the federal budget: on our estimates the status title is a small cost and the set a larger one |
 | E-Verify no earlier than October of the year after the law passes, and only once an inspector confirms legal status is running | A fixed E-Verify start date: it depends on the inspector's check, repeated every 90 days (about mid-2031 on our timeline) |
 | Registration's cutoff is the day the law is signed; tier A's is January 1 of that year | — |
 | No more than 30,000 people detained on average | That detention costs will fall by a set amount: on our estimates it is about +$7 billion over ten years, depending on how many people are in case management |
@@ -103,7 +105,9 @@ Millions of people have lived here for decades, raising American children and do
 | 30,000 average daily detention | Section 4, IMM-4.05 | EV-IMM-571 |
 | E-Verify no earlier than October of the year after enactment, on the inspector's check; about mid-2031; ten-day contest | Section 4, IMM-4.13, 4.14 | `DEC-2026-11-12-12`; working timeline (section 5) |
 | The two cutoffs | Section 4, IMM-1.04 | `DEC-2026-11-12-12` |
-| About $0.41 trillion over 2030-39; about $56.5 billion a year from 2040; E-Verify's $42 billion to Social Security | Section 6, parts 1, 2 and 5 | Project arithmetic, `tools/immigration_model.py` and `tools/immigration_path.py` |
+| The health plan for legal or registered status; emergency care otherwise | Section 4, IMM-1.21 | Espen, November 12, lead session |
+| Applying from abroad after removal since 2025 | Section 4, IMM-1.15 | Espen, November 12, lead session; EV-IMM-658 |
+| About $0.17 trillion over 2030-39; about $27.7 billion a year from 2040; E-Verify's $42 billion to Social Security | Section 6, parts 1, 2 and 5 | Project arithmetic, `tools/immigration_model.py` and `tools/immigration_path.py` |
 | Social Security gains (S. 744: +$284 billion by 2024) | Section 6, part 2 | EV-IMM-604 |
 | The registry in current law; the date stuck at 1972 since 1986 | Memo 2; section 4, IMM-1.05 | EV-IMM-590, EV-IMM-591 |
 | Bars on serious crimes | Section 4, IMM-1.08 | EV-IMM-623 |
