@@ -20,11 +20,12 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 
 ## In motion
 
-- **Open PRs:** this board PR (routine, the lead); the budget-inputs PR for Moving America's FY2037-39 draw and question 0r (tier 3, the lead's subagent, opening soon); the FAM-1.11 follow-up (routine, S4's author, opening soon).
+- **Open PRs:** this board PR (routine, the lead); the budget-inputs PR for Moving America's FY2037-39 draw and question 0r (tier 3, the lead's subagent, opening soon). The FAM-1.11 follow-up merged (#293).
 - **Workers (report to the lead):**
-  - I4 (immigration sections 4-9), `session_01UQzgBufjvZ5c5m2JNm9iBZ`, Most capable, branch `claude/immigration-i4`: resumed after the audit.
-  - S4's author, `session_01UQzgBwnUXwPDDfuRotwQLp`: the FAM-1.11 follow-up only (context near 490,000 tokens; no further work after it).
+  - I4 (immigration sections 4-9), `session_01UQzgBufjvZ5c5m2JNm9iBZ`, Most capable, branch `claude/immigration-i4`: resumed after the audit; it also builds the first immigration model (`charter/PLAN.md` 3.4) in `dossiers/immigration/tools/` for section 6: USCIS throughput and backlog, court capacity, detention against case management, the fiscal effects of status. The full model with a model card goes to `models/` at stage H.
+  - S4's author, `session_01UQzgBwnUXwPDDfuRotwQLp`: done (#287, #288, #293); takes on nothing more.
 - **Lead check-in:** `trig_018c9dsspfuh2UnHeFTE5hWQ`, 22:07 UTC, re-armed every three hours.
+- **Codex** access to the repository is suspended by Espen for now (out of credits); don't reach it with PR comments until it is restored.
 
 ## Next, in order
 
@@ -34,7 +35,7 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 4. **Maintenance at the stage D/E boundary**, after the secure floor reaches L3 and I4 is in review, before clean power starts:
    - **M1, dossier tidy-up** (Most capable): correct the out-of-date status lines in every dossier README and review file (see "Known gaps"); give the care dossier one map, a README with one status table across health and parts B-D, merging the health and "bcd" section files where they repeat each other; refresh transportation's `6-cost.md` to #289's figures.
    - **M2, library and housing mechanics** (Standard): `library/build_catalog.py` respects reserved ID blocks; one home for CRS R48552; catalog anchors for D and E evidence entries; `packages.py`'s stale housing label. Housing's own policy items stay deferred.
-   - **M3, legacy outputs:** move the legacy suite's reports out of `legacy/` as part of rebuilding the household model, which stage G's fairness test needs; not a separate step.
+   - **M3, the household model rebuild, with the legacy outputs:** rebuild the household model in `models/tools/household/` from the legacy incidence model and the child-poverty microsimulation, with a model card and benchmarks (Census poverty figures, the Tax Policy Center), and move the legacy suite's reports out of `legacy/` as it replaces them (Most capable, about two or three sessions). The secure floor's 65-cent ceiling check, the end-of-stage-E checkpoint's revenue options and stage G's fairness test (D3) all need it.
 5. **Settlement checkpoint at the end of stage E** (Most capable, one short memo for Espen): the plan-wide gap, the revenue options the legacy work holds, and which flagships drive the cost, so stages F and G are steered with the gap in view.
 6. Clean power (flagship 4, stage E's second flagship), after M1-M2.
 
