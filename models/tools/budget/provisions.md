@@ -6,7 +6,7 @@ Role: a summary of `models/data/budget/provisions.csv`, the provision spec for e
 
 ## The rows
 
-The ledger has 171 rows: 77 bills, 62 revenue options, 23 gap-closing options and 9 dynamic-feedback rows. One bill, HOU-1, is split into 55 components, each with its own spec. The fiscal model scores 117 of the rows; the other 54 are on the revenue menu, outside the general fund, or are borrowing lines whose spending sits in other rows.
+The ledger has 171 rows: 77 bills, 62 revenue options, 23 gap-closing options and 9 dynamic-feedback rows. One bill, HOU-1, is split into 57 components, each with its own spec. The fiscal model scores 117 of the rows; the other 54 are on the revenue menu, outside the general fund, or are borrowing lines whose spending sits in other rows.
 
 ### By kind
 
@@ -15,8 +15,8 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 | Kind | Rows | Scored | Bills and base revenue | FY2030-39, $T |
 | --- | --- | --- | --- | --- |
 | Discretionary appropriation | 24 | 24 | 22 | 1.33 |
-| Mandatory (direct) spending | 41 | 41 | 37 | 32.03 |
-| Revenue | 81 | 34 | 15 | -10.94 |
+| Mandatory (direct) spending | 41 | 41 | 37 | 31.34 |
+| Revenue | 81 | 34 | 15 | -10.56 |
 | Interest-neutral transfer (self-funded) | 2 | 2 | 2 | 0 |
 | No direct budget effect | 23 | 16 | 16 | 0 |
 
@@ -38,7 +38,7 @@ No row is modeled as a supplemental, emergency or advance appropriation: nothing
 
 | Appropriation type | Rows |
 | --- | --- |
-| Direct spending provided by the law itself | 95 |
+| Direct spending provided by the law itself | 97 |
 | Unknown | 9 |
 | Authorized, subject to later appropriation | 8 |
 | Annual appropriation | 7 |
@@ -47,7 +47,7 @@ No row is modeled as a supplemental, emergency or advance appropriation: nothing
 
 | Budget authority | Rows |
 | --- | --- |
-| Equal to outlays (a benefit, entitlement or tax credit) | 66 |
+| Equal to outlays (a benefit, entitlement or tax credit) | 68 |
 | Derived from outlays at B2's discretionary spend-out rates (rough) | 24 |
 | Unknown | 15 |
 | Provided in full on enactment; amount not priced | 15 |
@@ -61,7 +61,7 @@ Spending that budget authority out at the same rates does not give back the mode
 
 ## Unknown fields
 
-A field is `unknown` where the repository does not say. Nothing was guessed. For the 117 scored rows (and the 55 HOU-1 components):
+A field is `unknown` where the repository does not say. Nothing was guessed. For the 117 scored rows (and the 57 HOU-1 components):
 
 | Field | Unknown | Rows |
 | --- | --- | --- |
@@ -84,8 +84,8 @@ The model always has a growth index and an end year (or none) for a scored row; 
 
 | Field | Stated | Model only | Stated for |
 | --- | --- | --- | --- |
-| `indexation_basis` | 8 | 164 | FAM-1, FAM-2, EDU-3, EDU-5, SS-1, DEM-11, CAP-7, C35 |
-| `expiry_basis` | 27 | 145 | CLI-5, LAB-5, DEM-17, MOV-29, MOV-30, MOV-31, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, HOU-1/hou-1d-04-one-time-start, HOU-1/hou-3c-01-revolving-fund-grants, HOU-1/hou-3c-02-construction-loan-subsidy, HOU-1/hou-5-01-public-housing-repair, HOU-1/hou-6-01-zoning-reward, HOU-1/hou-8-01-social-housing-pilot, HOU-1/hou-4-10-recovery-housing, HOU-1/hou-4-12-wider-backstop-to-2035, HOU-1/hou-4-06-testing-grants, HOU-1/hou-10-01-down-payment-help, HOU-1/hou-11-01-manufactured-home-grants, HOU-1/hou-12-01-home-repair-fund, HOU-1/hou-14-02-section-502-at-scale, HOU-1/hou-14-03-rural-rental-fund-and-vouchers, HOU-1/hou-14-04-self-help-and-farmworker |
+| `indexation_basis` | 8 | 166 | FAM-1, FAM-2, EDU-3, EDU-5, SS-1, DEM-11, CAP-7, C35 |
+| `expiry_basis` | 27 | 147 | CLI-5, LAB-5, DEM-17, MOV-29, MOV-30, MOV-31, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, HOU-1/hou-1d-04-one-time-start, HOU-1/hou-3c-01-revolving-fund-grants, HOU-1/hou-3c-02-construction-loan-subsidy, HOU-1/hou-5-01-public-housing-repair, HOU-1/hou-6-01-zoning-reward, HOU-1/hou-8-01-social-housing-pilot, HOU-1/hou-4-10-recovery-housing, HOU-1/hou-4-12-wider-backstop-to-2035, HOU-1/hou-4-06-testing-grants, HOU-1/hou-10-01-down-payment-help, HOU-1/hou-11-01-manufactured-home-grants, HOU-1/hou-12-01-home-repair-fund, HOU-1/hou-14-02-section-502-at-scale, HOU-1/hou-14-03-rural-rental-fund-and-vouchers, HOU-1/hou-14-04-self-help-and-farmworker |
 
 ## Each bill in its own CBO window
 
@@ -96,7 +96,7 @@ Budget choice 3 (DEC-2026-11-08-05, `ASM-BILL-WINDOW`): plan totals and the D4 t
 | R1 | 6 | FY2029-2038 | 2669 | 2703 | FAM-1, MOV-29 |
 | R2 | 26 | FY2030-2039 | 4903 | 6186 | none |
 | R3 | 5 | FY2031-2040 | 503 | 524 | none |
-| FLOOR | 30 | FY2029-2038, FY2030-2039 | 24352 | 66755 | none |
+| FLOOR | 30 | FY2029-2038, FY2030-2039 | 23664 | 64851 | none |
 | APPROPS | 7 | FY2029-2038, FY2030-2039 | 559 | 875 | none |
 
 The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill from adding to the deficit in any single year after its window; the test is year by year, so the last column, the sum of the ten years after the window, only shows where to look. It counts the bill's spending rows alone (its revenue is not assigned to it in the ledger, so a bill's net effect in those years is not yet known):
@@ -141,7 +141,7 @@ The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill f
 | MOV-30 | R3 | FY2031-2040 | 86.7 | 40.9 |
 | SAF-10 | R3 | FY2031-2040 | 35.3 | 52.4 |
 
-Not assigned to a bill, in the decided program (scenario DEC): 27 rows (base revenue, the decided options and later-Congress bills: DEM-3, DEM-4, MOV-31, G1, H1b, HX, G3, G11, G5, G6, G7, G8, G9, G10, GX, CX, MR6, CXP, C18, C19b, C38, C20, C35, C39, C40, C41, C43), a deficit effect of -12.00 trillion dollars over FY2029-38 and -14.02 trillion over FY2030-39 (negative: revenue and savings). The declined options are left out.
+Not assigned to a bill, in the decided program (scenario DEC): 27 rows (base revenue, the decided options and later-Congress bills: DEM-3, DEM-4, MOV-31, G1, H1b, HX, G3, G11, G5, G6, G7, G8, G9, G10, GX, CX, MR6, CXP, C18, C19b, C38, C20, C35, C39, C40, C41, C43), a deficit effect of -11.69 trillion dollars over FY2029-38 and -13.63 trillion over FY2030-39 (negative: revenue and savings). The declined options are left out.
 
 ## Where the files disagree
 

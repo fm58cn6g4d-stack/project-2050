@@ -12,7 +12,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 | --- | --- | --- | --- | --- | --- | --- |
 | BL-1 | The baseline equals CBO's February 2026 projections plus the documented adjustments | **pass** | B2's 3 reproduction tests: 3 pass | every cell of models/data/fiscal-baseline.csv, FY1962-2056 | exact (the file's three decimals; the unrounded values are the same floating-point numbers) | — |
 | ID-1 | Deficit equals outlays minus revenue, every year and scenario | **pass** | 7.28e-12 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion): floating-point error only | — |
-| ID-2 | The program's added debt grows by exactly its added deficit (spending, revenue and interest) | **pass** | 2.46e-11 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
+| ID-2 | The program's added debt grows by exactly its added deficit (spending, revenue and interest) | **pass** | 2.91e-11 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
 | ID-3 | Debt held by the public: the residual after deficits is CBO's own other means of financing, in every scenario | **pass** | 7.28e-11 ($B, largest gap from CBO's residual) | 0.00 | $1,000 (1e-6 billion) | — |
 | ID-4a | Interest on the program's borrowing follows from its debt and the stated rates | **pass** | 0.00 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
 | ID-4b | The baseline's net interest is consistent with its debt and CBO's average interest rate | **pass** | 0.10 (points, largest gap (implied minus CBO)) | 0.00 | 0.25 percentage point in every year FY2027-36 | — |
@@ -56,7 +56,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 ### ID-2. The program's added debt grows by exactly its added deficit (spending, revenue and interest)
 
 - **Result:** pass
-- **Model:** 2.46e-11 ($B, largest gap)
+- **Model:** 2.91e-11 ($B, largest gap)
 - **Target:** 0.00
 - **Tolerance:** $1,000 (1e-6 billion)
 - **Source:** Accounting definition: debt(t) = debt(t-1) + deficit(t) + other means of financing; the program has no other means of financing
