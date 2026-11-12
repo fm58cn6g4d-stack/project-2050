@@ -1,6 +1,6 @@
 # A secure floor for every household: the public case
 
-Role: section 9 of the secure floor dossier: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: draft (stage D, board row S4, PR 2), on `DEC-2026-11-12-06`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about". Each promise is dated from when its provision starts. Espen's framing for the child benefit: a benefit for working and middle-class families.
+Role: section 9 of the secure floor dossier: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: reviewed (L2, milestone review `review-milestone.md`, #298; L3 after its fix steps and re-check), on `DEC-2026-11-12-06`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about". Each promise is dated from when its provision starts. Espen's framing for the child benefit: a benefit for working and middle-class families.
 
 ## The brief
 
@@ -12,11 +12,11 @@ Project 2050's secure floor does four things, starting in 2030.
 
 **Help that holds when work is short or paid little,** from 2030. Workers without children get a real earned income credit, up to about $1,500 in 2021 dollars from age 19, as they did in 2021, paid with the tax refunds from 2031 [EV-SEC-256]. Food help cut by the 2025 law is restored. People on SSI can save up to $10,000 without losing it, and from 2031 SSI reaches older and disabled people in Puerto Rico, Guam, the Virgin Islands and American Samoa for the first time, where today the limit is $2,000, unchanged since 1989 (Social Security Administration) [EV-SEC-042]. Paid training into the jobs the plan creates, in care, construction, rail, housing and clean power, comes with a stipend and help with child care and transport, and it is always an offer, never a condition.
 
-**Paid leave,** from 2031. Twelve weeks for a new child, a family member's serious illness or your own, paying 85% of the first part of your wages, run by Social Security, with your job back. A worker earning $60,000 pays $180 a year to start (project estimate) [EV-SEC-676].
+**Paid leave,** from 2031. Twelve weeks for a new child, a family member's serious illness or your own, paying 85% of the first part of your wages, run by Social Security, with your job back after at least 90 days on the job, once the 2030 Social Security act, which carries job protection, passes. A worker earning $60,000 pays $180 a year to start (project estimate) [EV-SEC-676].
 
 **Social Security kept whole.** The retirement fund can pay full benefits only until late 2032 on current law, then 78% (Social Security Trustees, 2026) [EV-SEC-400]. The plan closes most of the gap by asking earnings above $250,000 and large investment incomes to pay in, and on our estimates a contribution increase of up to one point, split between workers and employers, is expected from the late 2030s to close the rest. It adds a stronger minimum benefit and credit for caregiving years, and, from the 2030 Social Security act, promises full benefits on time whatever happens.
 
-**What it achieves, on our estimates.** Child poverty falls to about 9% (somewhere between 8% and 12%), about 3 million fewer poor children (section 6). The child benefit costs about $1.85 trillion over 2030-39; the whole floor on the general budget about $2.49 trillion over the decade and about $287 billion a year from 2040, before the plan's financing (section 6).
+**What it achieves, on our estimates.** Child poverty falls to about 9% (somewhere between 8% and 12%), about 3 million to 3.5 million fewer poor children (section 6). The child benefit costs about $1.85 trillion over 2030-39; the whole floor on the general budget about $2.49 trillion over the decade and about $287 billion a year from 2040, before the plan's financing (section 6).
 
 ## The case in one paragraph
 
@@ -33,7 +33,7 @@ Families with children are working harder for less security. The secure floor pa
 
 ## Hard questions, plain answers
 
-- **"Will people stop working?"** Studies of the 2021 payments found no effect on work (Ananat and others) [EV-SEC-212]. Economists who expect some parents to leave work still find child poverty falls substantially (Bastian; Corinth and others) [EV-SEC-219] [EV-SEC-218].
+- **"Will people stop working?"** Studies of the 2021 payments found little or no effect on work (Ananat and others) [EV-SEC-212]. Economists who expect some parents to leave work still find child poverty falls substantially (Bastian; Corinth and others) [EV-SEC-219] [EV-SEC-218].
 - **"Why do higher earners get less?"** It is a benefit for working and middle-class families. Couples above about $210,000 get somewhat less than today's credit, about $340 a year for a couple at $250,000 with two children in 2030 (section 7). The full benefit goes to everyone below about $150,000.
 - **"How do you pay for it?"** The plan's financing is set in one place for the whole plan. The child benefit is about $1.85 trillion over ten years on our estimates; the floor's new pieces add about $0.5 trillion (section 6).
 - **"Isn't a payroll contribution for leave a tax increase?"** It is $180 a year for a worker at $60,000 to start, for twelve weeks of paid leave; it can rise to at most $330 [EV-SEC-676].
@@ -66,12 +66,12 @@ Families with children are working harder for less security. The secure floor pa
 | $150,000 and $112,500; gradual phase-out | Section 4, FAM-1.02 | EV-SEC-263 |
 | About $210,000; about $340 at $250,000; about 5.4 million families | Sections 6 and 7 | Project arithmetic, `tools/afa_floor.py` |
 | About $1,500 (2021 dollars) from age 19 | Section 4, INC-1.01 | EV-SEC-256 |
-| $2,000 since 1989; $10,000 | Section 4, INC-3.01 | EV-SEC-042 |
+| $2,000 since 1989; $10,000 | Section 3 (the 2029 baseline); section 4, INC-3.01 | EV-SEC-042 |
 | $180 and $330 a year | Section 4, FAM-3.04 | EV-SEC-676 (project estimate) |
-| 85% of the first band; twelve weeks; job back | Section 4, FAM-3.01-3.07 | EV-SEC-340, EV-SEC-342 |
+| 85% of the first band; twelve weeks; job back after 90 days, with the 2030 act | Section 4, FAM-3.01-3.07 | EV-SEC-340, EV-SEC-342 |
 | Late 2032, 78% | Section 1, part F; section 4, SS-11.01 | EV-SEC-400 |
 | Up to one point from the late 2030s | Section 6, part 4; section 4, SS-7.01 | EV-SEC-697 and project arithmetic |
-| About 9% (8-12%); about 3 million fewer poor children | Section 6, part 3 | EV-SEC-692 and working assumptions |
+| About 9% (8-12%); about 3 million to 3.5 million fewer poor children | Section 6, part 3 | EV-SEC-692 and working assumptions |
 | $1.85 trillion; $2.49 trillion; $287 billion; about $0.5 trillion | Section 6, parts 1 and 5 | Project arithmetic |
 | $600 against about $367 a month | Section 7, part 4 | EV-SEC-262; 2029 law $2,200 a child |
 | 17-19 million children | Section 1 | EV-SEC-011, EV-SEC-601 |

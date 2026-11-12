@@ -1,13 +1,13 @@
 # A secure floor for every household: what would change our minds
 
-Role: section 8 of the secure floor dossier. For each decided choice, the finding that would change it and what we would do instead; the political and legal events that would force a fallback; what is left open; the hard stops; and when the evidence arrives. Status: draft (stage D, board row S4, PR 2), on `DEC-2026-11-12-06`. A change to a decided choice goes back to Espen; the triggers below say when to ask.
+Role: section 8 of the secure floor dossier. For each decided choice, the finding that would change it and what we would do instead; the political and legal events that would force a fallback; what is left open; the hard stops; and when the evidence arrives. Status: reviewed (L2, milestone review `review-milestone.md`, #298; L3 after its fix steps and re-check), on `DEC-2026-11-12-06`. A change to a decided choice goes back to Espen; the triggers below say when to ask.
 
 ## By choice
 
 | Choice | Decided | What would change it | What we would do instead |
 | --- | --- | --- | --- |
 | The child benefit's design | Memo 1 A, the American Family Act | A financing settlement that cannot carry it | Memo 1 B, a Canada-style benefit that reaches the poorest children at about half the cost, with its new phase-out checked against the 65-cent ceiling; not D (memo 1) |
-| The phase-out, no floor | Point 2 no | Evidence that families above about $210,000 losing about $340-1,100 a child against the 2029 law undercuts support for the benefit; or a settlement with room | The floor, about $0.05 trillion over FY2030-39 (`6-cost.md`, part 1) |
+| The phase-out, no floor | Point 2 no | Evidence that families above about $210,000 losing up to about $500 a child in 2030 and $1,100 by 2040 against the 2029 law (about $340 a year for a two-child couple at $250,000) undercuts support for the benefit; or a settlement with room | The floor, about $0.05 trillion over FY2030-39 (`6-cost.md`, part 1) |
 | No earnings test | Point 1 | A study of a permanent monthly benefit showing a large work response | A smaller benefit, not an earnings test, which excludes the poorest (memo 1) |
 | The child's own ID | Part 2 B | Immigration's table choosing another rule | That rule; rule 3 is immigration's |
 | Paid to the parent the child lives with | Point 3 | Disputes far above what a short review can handle in the first year | A default to the filer of record with a change-of-payee statement, keeping the residence test |

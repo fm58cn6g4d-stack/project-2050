@@ -1,6 +1,6 @@
 # A secure floor for every household: validation
 
-Role: section 7 of the secure floor dossier: how the costs and results in sections 4-6 compare with outside estimates, what the models and arithmetic miss, who the decided set reaches and what households pay, how it lands with the rest of the plan, the strongest objections, and the signs of failure. Status: draft (stage D, board row S4, PR 2), on `DEC-2026-11-12-06`. Figures marked "project arithmetic" come from `tools/afa_floor.py`, `tools/secure_floor_path.py` and the legacy child-poverty model re-run in `6-cost.md`, part 3. Outcomes served: OUT-01 (child poverty), OUT-02 (planning beyond the next paycheck), OUT-06 (paid leave access), OUT-08 (time), OUT-11 (the fairness and fiscal tests).
+Role: section 7 of the secure floor dossier: how the costs and results in sections 4-6 compare with outside estimates, what the models and arithmetic miss, who the decided set reaches and what households pay, how it lands with the rest of the plan, the strongest objections, and the signs of failure. Status: reviewed (L2, milestone review `review-milestone.md`, #298; L3 after its fix steps and re-check), on `DEC-2026-11-12-06`. Figures marked "project arithmetic" come from `tools/afa_floor.py`, `tools/secure_floor_path.py` and the legacy child-poverty model re-run in `6-cost.md`, part 3. Outcomes served: OUT-01 (child poverty), OUT-02 (planning beyond the next paycheck), OUT-06 (paid leave access), OUT-08 (time), OUT-11 (the fairness and fiscal tests).
 
 ## 1. Against outside figures
 
@@ -59,7 +59,7 @@ Illustrative households (2025 dollars for the child benefit, as memo 1; project 
 
 | Objection | Answer |
 | --- | --- |
-| "It costs too much." | It is the plan's largest family commitment, about $1.85 trillion over ten years, and it is reported, not hidden: about 1.3% of the plan-wide FY2040 gap beyond what is already booked (`6-cost.md`, part 5). The cheaper design that reaches the poorest children (memo 1 B) was weighed and not chosen; it would add a phase-out where the stack is steepest |
+| "It costs too much." | It is the plan's largest family commitment, about $1.85 trillion over ten years, and it is reported, not hidden: the whole floor's net change a booking would make is about 1.4% of the plan-wide FY2040 gap, and the child benefit itself costs slightly less than is already booked (`6-cost.md`, parts 1 and 5). The cheaper design that reaches the poorest children (memo 1 B) was weighed and not chosen; it would add a phase-out where the stack is steepest |
 | "Paying parents who don't work will reduce work." | Studies of the 2021 payments find no employment effect (Ananat and others) [EV-SEC-212]; simulations predict 367,000 to 1.5 million parents leaving work (Bastian; Corinth and others) [EV-SEC-219] [EV-SEC-218]. Even the largest leaves child poverty about a fifth lower. Removing an earnings test in California caused very few mothers to leave work [EV-SEC-224] |
 | "Why do families earning $250,000 get less than today?" | Espen chose the bill's own phase-out, so the benefit is for working and middle-class families. A couple at $250,000 with two children gets about $340 a year less than the 2029 law in 2030; below about $210,000 no couple gets less, and most families get far more |
 | "Monthly payments invite fraud and errors." | The child benefit uses records the government holds and one qualifying-child rule (INC-1.02); the earned income credit's errors are mostly over which child qualifies [EV-SEC-258]; the safe harbor keeps honest mistakes by low-income families from becoming debts |
@@ -76,6 +76,6 @@ Published counts with a review trigger, not gates (`DEC-2026-11-09-13`):
 - **Accuracy:** the benefit's improper payment rate against the advance credit's 13.6% [EV-SEC-258]; payee disputes and their time to decision.
 - **Poverty:** child SPM poverty each September; above 12% in 2032 (the range's top) triggers a review of the benefit's level and reach.
 - **The ceiling:** a typical family type above 65 cents for two years triggers a review (INC-5.02).
-- **Paid leave:** claims by earnings band; the fund's reserve and loan against the high case (loan above about $185 billion, the booked peak, triggers a review of the rate path).
+- **Paid leave:** claims by earnings band; the fund's reserve and loan against the high case (loan above about $182 billion, the booked peak ($185 billion on the fund's own scale), triggers a review of the rate path).
 - **Social Security:** each Trustees report's balance after the act; SS-7.01's trigger.
 - **LAB-10:** people served, completions and earnings a year later, against the 400,000-900,000 working range.

@@ -31,6 +31,11 @@ Working assumptions (labeled, DEC-2026-11-10-07):
   * the child population is held at the source year's (the budget model's FAM-1 profile
     holds it "roughly flat").
 
+Input: the official CPS ASEC 2026 public-use archive, kept outside the repository:
+  https://www2.census.gov/programs-surveys/cps/datasets/2026/march/asecpub26csv.zip
+  SHA-256 fe819d0d2fc4470c282e76c247b8aa8b6054811619730307e9f2fe6186707d93
+  (the hash legacy/sources/family-child-poverty-cps-baseline.md records).
+
 Run: python3 dossiers/secure-floor/tools/afa_floor.py --archive /path/to/asecpub26csv.zip
 """
 import argparse

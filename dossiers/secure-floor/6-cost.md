@@ -1,6 +1,6 @@
 # A secure floor for every household: cost
 
-Role: section 6 of the secure floor dossier. It prices the provisions of `4-specification.md` on federal fiscal years against the January 2029 law, reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`), reprices memo 1 A without the $2,200 floor Espen declined, and re-runs the child-poverty model on the decided design. Status: draft (stage D, board row S4, PR 1), on `DEC-2026-11-12-06`. Every figure is project arithmetic, not an official score. **Nothing is booked here**: booking is a separate later step, and part 6 lists exactly which ledger rows and inputs it would change.
+Role: section 6 of the secure floor dossier. It prices the provisions of `4-specification.md` on federal fiscal years against the January 2029 law, reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`), reprices memo 1 A without the $2,200 floor Espen declined, and re-runs the child-poverty model on the decided design. Status: reviewed (L2, milestone review `review-milestone.md`, #298; L3 after its fix steps and re-check), on `DEC-2026-11-12-06`. Every figure is project arithmetic, not an official score. **Nothing is booked here**: booking is a separate later step, and part 6 lists exactly which ledger rows and inputs it would change.
 
 ## Counting rules
 
@@ -91,6 +91,8 @@ Memo 1 priced A at about $1.9 trillion over FY2030-39 (range $1.7-2.1 trillion),
 
 ## 4. The funds: paid leave and Social Security
 
+*Espen moved the step-up from 0.05 to 0.10 points a year (Espen, November 12, lead session; `review-milestone.md`, A-1); the table below is the booked 0.05-point path until the lead's booking re-runs it. On the review's arithmetic the faster step avoids the loan: the rate reaches the 1.10% ceiling in 2036 and the fund's balance stays above zero.*
+
 **Paid leave (FAM-3), booked at high take-up** (mature cost 1.01% of payroll, the case the 1.10% ceiling is built for; `models/tools/recovery-budget/model.py`, `leave_fund`):
 
 | FY | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | 2037 | 2038 | 2039 | **2030-39** | **2040** |
@@ -103,7 +105,7 @@ Memo 1 priced A at about $1.9 trillion over FY2030-39 (range $1.7-2.1 trillion),
 | General fund's income-tax offset | 9.9 | 10.4 | 11.7 | 13.1 | 14.6 | 16.3 | 17.9 | 19.7 | 21.5 | 23.5 | **159** | **25.6** |
 
 - **The decided design fits the booking.** The FAMILY Act's bands pay more at the bottom and less at the top; on average they are roughly cost-neutral against the legacy "about two-thirds" (memo 5's judgment), so the booked benefits stand. Memo 5's central $0.9 trillion is the middle take-up case; the booking uses the high case, $1.4 trillion, which is the prudent basis for the fund.
-- **The loan.** At high take-up the loan peaks at about $185 billion on the fund's own scale in FY2040 (about $182 billion as booked) and is repaid in 2058; it is a fund balance, not a general-fund line. *A correction for the board:* the board's row D-9c reports the loan peaking at $124 billion and repaid by 2048 at the 1.10% ceiling. That is the funds model (`legacy/index/dedicated-funds.md`) without SSA's administration; the recovery budget's central case, with administration, gives the figures above (`legacy-research.md`, section 0, point 4, found the same).
+- **The loan.** At high take-up the loan peaks at about $185 billion on the fund's own scale in FY2040 (about $182 billion as booked) and is repaid in 2058; it is a fund balance, not a general-fund line. The fund pays interest on it at Treasury's rate, about $5-7 billion a year near the peak, and the general fund, as lender, carries the exposure if take-up runs above the high case. *The margin is thin:* at high take-up the mature cost, 1.01% of payroll plus SSA's 3% of benefits, is about 1.04% against the 1.10% ceiling, so about 0.06 points of payroll repays the loan, which is why repayment takes to 2058; take-up above the high case would leave it unrepaid (section 8). *A correction for the board:* the board's row D-9c reports the loan peaking at $124 billion and repaid by 2048 at the 1.10% ceiling. That is the funds model (`legacy/index/dedicated-funds.md`) without SSA's administration; the recovery budget's central case, with administration, gives the figures above (`legacy-research.md`, section 0, point 4, found the same).
 - **The general fund's share:** the income-tax offset (12.5% of contributions, an allowance, not a JCT score; the 24.4% question in board question 0q is for excises, not this) is booked: about $159 billion over FY2030-39 and $25.6 billion in FY2040.
 
 **Social Security (the 2030 act), on the trust funds.** Effects in percent of taxable payroll over 75 years on SSA's 2026 single-provision scores (memo 6):
