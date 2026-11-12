@@ -1,6 +1,6 @@
 # Memo 2: How the floor reaches people
 
-Role: decision memo for Espen, fork 3 of the secure floor (`../README.md`, "Forks for S3"; `../3-design.md`). This is the fork your November 11 direction asked for: how government delivers, not how much it pays. Status: draft for decision (board row S3); nothing here is decided. Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions.
+Role: decision memo for Espen, fork 3 of the secure floor (`../README.md`, "Forks for S3"; `../3-design.md`). This is the fork your November 11 direction asked for: how government delivers, not how much it pays. Status: **decided** (`DEC-2026-11-12-06`): **B**, as recommended. Specified in `../4-specification.md` (FAM-1.07 to 1.10) and `../5-delivery.md`. Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions.
 
 **Decision line.** Recommended: **B, automatic payment from records the government already holds: the IRS pays the child benefit monthly, starting from birth and benefit records rather than a claim, with one shared payment rail and notice for the Climate Dividend and SSA and rural USDA offices as front doors.** Cost: about **$1-2 billion a year to build and run (judgment), plus about $10-20 billion a year of benefits to children a filing-based design misses (judgment)**, inside memo 1's range at full delivery. Evidence: randomized trials on take-up; the 2021 credit's delivery record; Canada's practice.
 

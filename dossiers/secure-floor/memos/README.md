@@ -1,6 +1,6 @@
 # Secure floor: decision memos
 
-Role: index of the secure floor's decision memos, the batch Espen decides in one round (`dossiers/TEMPLATE.md`, "Decision memos in one batch"). Status: draft for decision (board row S3, question 0o); nothing is decided. Each memo is decided on its own, and none is adopted by silence. Section 3 (`../3-design.md`) has the forks at a glance, the cost benchmarks, the bill-by-bill table, the inherited assumptions and twelve yes-or-no points.
+Role: index of the secure floor's decision memos, the batch Espen decides in one round (`dossiers/TEMPLATE.md`, "Decision memos in one batch"). Status: **decided** (`DEC-2026-11-12-06`, question 0o): every memo and point as recommended, except point 2 (the $2,200 floor), which Espen declined. Specified in `../4-specification.md`. Each memo is decided on its own, and none is adopted by silence. Section 3 (`../3-design.md`) has the forks at a glance, the cost benchmarks, the bill-by-bill table, the inherited assumptions and twelve yes-or-no points.
 
 Every memo opens with a **decision line** in the same form: the recommended option, its cost over FY2030-39 and in FY2040, and the evidence it rests on. The table repeats them.
 
@@ -13,6 +13,8 @@ Every memo opens with a **decision line** in the same form: the recommended opti
 | [5. Paid leave](5-paid-leave.md) | 7 | **B**, twelve weeks, the 2025 FAMILY Act's bands and job restoration, the legacy contribution to 1.10%, SSA | about $0.9 trillion of benefits (0.6-1.4), leave fund | about $130 billion | Quasi-experimental; microsimulation |
 | [6. Social Security](6-social-security.md) | 8 | Part 1 **C**, D8 with SS-5 and partial stock investment, SS-7 as fallback; part 2 minimum benefit, CPI-E, caregiver credit; part 3 full benefits on time | +4.2 to +4.7% of payroll; part 2 −0.5 to −0.6 | — (trust fund) | SSA's 2026 single-provision scores; no package score |
 | [7. Fitting together](7-fitting-together.md) | 9 | Part 1 **B**, the floor's non-wage payments never count as income; part 2 **B**, a published 65-cent ceiling | about $0.01-0.03 trillion | about $1-3 billion | Program rules; randomized trial on offsets |
+
+**Decided** (`DEC-2026-11-12-06`): every row as recommended, except memo 1 A's $2,200 floor (point 2, declined): the decided child benefit is about $1.85 trillion over FY2030-39 and $209 billion in FY2040 (`../6-cost.md`, part 1).
 
 Fork 10, the dependent care credit's refundability, is point 7 in section 3: yes, about $3-6 billion a year.
 

@@ -1,0 +1,1184 @@
+[
+ {
+  "id": "FAM-1.01",
+  "title": "A monthly child benefit: the American Family Act's new section 24A",
+  "agenda": "FAM-1",
+  "status": "decided, memo 1 A",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "For each child under 18: $300 a month at ages 6 to 17 and $360 under 6 (120%), with $2,400 in a newborn's first month (800%), in 2025 dollars, indexed to prices from 2024 and rounded to $10 (about $340 and $410 a month in 2030 on CBO's prices; project arithmetic). Fully refundable. Replaces the 2025 law's $2,200 credit for children; 17-year-olds, whom the 2025 law leaves out, are covered. Effective for tax year 2030, paid monthly (FAM-1.07). The 2,400-dollar first month is paid in the month after the birth is recorded",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "P.L. 119-21: a $2,200 credit a child under 17, indexed after 2025, refundable only to $1,700 and 15% of earnings above $2,500; a work-eligible Social Security number for the child and at least one parent; paid once a year at filing [EV-SEC-001] [EV-SEC-003] [EV-SEC-005] [EV-SEC-006]; no IRS Direct File [EV-SEC-063]",
+  "evidence": [
+   "EV-SEC-262",
+   "EV-SEC-263",
+   "EV-SEC-200",
+   "EV-SEC-204",
+   "EV-SEC-209",
+   "EV-SEC-210"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-1.02",
+  "title": "The bill's own phase-out, with no $2,200 floor",
+  "agenda": "FAM-1",
+  "status": "decided, point 2 no",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "The extra amount falls by 5% of modified AGI above $150,000 for joint returns and $112,500 for others, indexed from 2022 and rounded to $5,000 (about $180,000 and $135,000 in 2030), down to $166.67 a month a child ($2,000 a year, not indexed); the rest falls by 5% above $400,000 joint and $300,000 for others, not indexed. A family may use the current or either of the two prior years' income, as the bill allows. *What declining the floor changes:* about 8.8 million children in about 5.4 million families, all above about $210,000 (couples) or $165,000 (others) in 2030, get less than the 2029 law's $2,200 indexed credit would pay them: about $500 a child in 2030, about $1,100 by 2040 as the law's indexed credit grows and the bill's $2,000 does not. The floor would have cost about $4-6 billion a year, about $0.05 trillion over FY2030-39 (project arithmetic, `tools/afa_floor.py`; section 6, part 1). It reaches no poor children: about 5,500 of 9.7 million in the source year",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "P.L. 119-21: a $2,200 credit a child under 17, indexed after 2025, refundable only to $1,700 and 15% of earnings above $2,500; a work-eligible Social Security number for the child and at least one parent; paid once a year at filing [EV-SEC-001] [EV-SEC-003] [EV-SEC-005] [EV-SEC-006]; no IRS Direct File [EV-SEC-063]",
+  "evidence": [
+   "EV-SEC-263",
+   "EV-SEC-001",
+   "EV-SEC-003"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-1.03",
+  "title": "No earnings test",
+  "agenda": "FAM-1",
+  "status": "decided, point 1",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Every eligible child gets the full amount whatever the parents earn: no phase-in, no minimum earnings, no work condition (shared rule 6). The 2025 law's $2,500 threshold and 15% phase-in end for children",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "P.L. 119-21: a $2,200 credit a child under 17, indexed after 2025, refundable only to $1,700 and 15% of earnings above $2,500; a work-eligible Social Security number for the child and at least one parent; paid once a year at filing [EV-SEC-001] [EV-SEC-003] [EV-SEC-005] [EV-SEC-006]; no IRS Direct File [EV-SEC-063]",
+  "evidence": [
+   "EV-SEC-006",
+   "EV-SEC-011",
+   "EV-SEC-601",
+   "EV-SEC-224"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-1.04",
+  "title": "The child's own taxpayer identification number; no parent rule",
+  "agenda": "FAM-1",
+  "status": "decided, part 2 B",
+  "decisions": [
+   "DEC-2026-11-12-06",
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "A child qualifies with a Social Security number, an adoption number or an individual taxpayer identification number issued by the return's due date, and is a citizen, national or resident, as the bill provides. The 2025 law's rule that a parent hold a work-eligible Social Security number ends. This is the child benefit's line in immigration's one eligibility table (`DEC-2026-11-12-07`, memo 6 C: \"the child's own ID for the child benefit\"); this dossier cites it and does not re-decide it",
+  "eligibility": "A child qualifies with a Social Security number, an adoption number or an individual taxpayer identification number issued by the return's due date, and is a citizen, national or resident, as the bill provides. The 2025 law's rule that a parent hold a work-eligible Social Security number ends. This is the child benefit's line in immigration's one eligibility table (`DEC-2026-11-12-07`, memo 6 C: \"the child's own ID for the child benefit\"); this dossier cites it and does not re-decide it",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "P.L. 119-21: a $2,200 credit a child under 17, indexed after 2025, refundable only to $1,700 and 15% of earnings above $2,500; a work-eligible Social Security number for the child and at least one parent; paid once a year at filing [EV-SEC-001] [EV-SEC-003] [EV-SEC-005] [EV-SEC-006]; no IRS Direct File [EV-SEC-063]",
+  "evidence": [
+   "EV-SEC-264",
+   "EV-SEC-005",
+   "EV-SEC-016",
+   "EV-SEC-015"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-1.05",
+  "title": "Paid to the parent the child lives with",
+  "agenda": "FAM-1",
+  "status": "decided, point 3",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "The payee is the parent or caregiver with whom the child has the same principal home for more than half of the month, as the bill's monthly residence test provides, on that person's attestation. Shared custody of about equal time: the benefit splits evenly. A change of payee when a child moves takes one statement, effective the next month. A dispute goes to a short administrative review by the IRS (FAM-1.10's front doors take the statement), not a tax audit; the payee keeps the payment until the review decides",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "P.L. 119-21: a $2,200 credit a child under 17, indexed after 2025, refundable only to $1,700 and 15% of earnings above $2,500; a work-eligible Social Security number for the child and at least one parent; paid once a year at filing [EV-SEC-001] [EV-SEC-003] [EV-SEC-005] [EV-SEC-006]; no IRS Direct File [EV-SEC-063]",
+  "evidence": [
+   "EV-SEC-262"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-1.06",
+  "title": "No repayment below 200% of poverty, and a cap above",
+  "agenda": "FAM-1",
+  "status": "decided, point 4",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Advance payments a family receives in good faith are never repaid if the family's income for the year is below 200% of the poverty guideline for its size. Between 200% and the initial phase-out line, repayment is capped at $1,000 a child a year (working choice). Above the line, excess payments are reconciled on the return as today. Fraud is excepted",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "P.L. 119-21: a $2,200 credit a child under 17, indexed after 2025, refundable only to $1,700 and 15% of earnings above $2,500; a work-eligible Social Security number for the child and at least one parent; paid once a year at filing [EV-SEC-001] [EV-SEC-003] [EV-SEC-005] [EV-SEC-006]; no IRS Direct File [EV-SEC-063]",
+  "evidence": [
+   "EV-SEC-517",
+   "EV-SEC-044"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-1.07",
+  "title": "Paid monthly, under the permanent refund appropriation",
+  "agenda": "FAM-1",
+  "status": "decided, memo 2 B",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Monthly by direct deposit or a free prepaid card, on a fixed day. As a refundable credit, the benefit is paid under Treasury's permanent appropriation for refunds, so it continues through a lapse in appropriations, and it is not income or a resource for any program (26 U.S.C. 6409). Payments begin no later than July 2030; months of 2030 before the first payment are paid with the 2030 return, or as a lump sum with the first payment for families enrolled from records (working choice; `5-delivery.md`, part 3)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS, Bureau of the Fiscal Service)",
+  "current_law": "P.L. 119-21: a $2,200 credit a child under 17, indexed after 2025, refundable only to $1,700 and 15% of earnings above $2,500; a work-eligible Social Security number for the child and at least one parent; paid once a year at filing [EV-SEC-001] [EV-SEC-003] [EV-SEC-005] [EV-SEC-006]; no IRS Direct File [EV-SEC-063]",
+  "evidence": [
+   "EV-SEC-534",
+   "EV-SEC-690",
+   "EV-SEC-107",
+   "EV-SEC-108"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-1.08",
+  "title": "Enrollment from records the government holds",
+  "agenda": "FAM-1",
+  "status": "decided, memo 2 B",
+  "decisions": [
+   "DEC-2026-11-12-06",
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "A child is enrolled without a claim from the first record that shows them: the Social Security number issued at birth (Enumeration at Birth), the last tax return, or SSA, SNAP, Medicaid, CHIP or SSI records; from 2031, the single plan's enrollment (`DEC-2026-11-10-09`). The payee receives a notice of what the records show and confirms or corrects it; payment continues on the notice unless the payee says it is wrong. *Data use is narrow:* the statute authorizes each match for this benefit, the Climate Dividend's rail (FAM-1.09) and the floor's other payments only; it bars use for immigration enforcement, consistent with immigration's one data firewall (`DEC-2026-11-12-07`, memo 6 C); matches are logged and published as counts",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS), with SSA, USDA (FNS), HHS (CMS) and state agencies",
+  "current_law": "P.L. 119-21: a $2,200 credit a child under 17, indexed after 2025, refundable only to $1,700 and 15% of earnings above $2,500; a work-eligible Social Security number for the child and at least one parent; paid once a year at filing [EV-SEC-001] [EV-SEC-003] [EV-SEC-005] [EV-SEC-006]; no IRS Direct File [EV-SEC-063]",
+  "evidence": [
+   "EV-SEC-101",
+   "EV-SEC-104",
+   "EV-SEC-110",
+   "EV-SEC-061",
+   "EV-SEC-113",
+   "EV-SEC-060"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-1.09",
+  "title": "One payment rail and notice with the Climate Dividend",
+  "agenda": "FAM-1",
+  "status": "proposed to clean power, point 5",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Treasury builds the benefit's payment file, address record and notice so that the Climate Dividend (CLI-2), when clean power designs it, pays on the same rail as a separately named payment, and so that paid leave and other floor payments can join where they suit. Built for the child benefit whatever clean power decides",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "none",
+    "kind": "proposal",
+    "note": "proposed to another dossier, which decides"
+   }
+  ],
+  "agency": "Treasury (IRS, Fiscal Service)",
+  "current_law": "P.L. 119-21: a $2,200 credit a child under 17, indexed after 2025, refundable only to $1,700 and 15% of earnings above $2,500; a work-eligible Social Security number for the child and at least one parent; paid once a year at filing [EV-SEC-001] [EV-SEC-003] [EV-SEC-005] [EV-SEC-006]; no IRS Direct File [EV-SEC-063]",
+  "evidence": [
+   "EV-SEC-699"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-1.10",
+  "title": "Front doors at SSA and USDA offices",
+  "agenda": "FAM-1",
+  "status": "decided, point 6",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Anyone may confirm, correct or start a payment, change a payee or ask for review at an SSA field office, a USDA Rural Development office (`DEC-2026-11-10-02`), an IRS taxpayer assistance center or a VITA site, by phone or online; the receiving office records the statement on the IRS's file the same day, under an agreement among the agencies. No office decides eligibility other than the IRS",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "IRS; SSA; USDA (Rural Development)",
+  "current_law": "P.L. 119-21: a $2,200 credit a child under 17, indexed after 2025, refundable only to $1,700 and 15% of earnings above $2,500; a work-eligible Social Security number for the child and at least one parent; paid once a year at filing [EV-SEC-001] [EV-SEC-003] [EV-SEC-005] [EV-SEC-006]; no IRS Direct File [EV-SEC-063]",
+  "evidence": [
+   "EV-SEC-106",
+   "EV-SEC-066",
+   "EV-SEC-116"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-1.11",
+  "title": "Keep the $500 credit for other dependents",
+  "agenda": "FAM-1",
+  "status": "open: a question for Espen; written as recommended",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "The American Family Act ends section 24 for tax years after 2024 (H.R. 2763, sec. 2(c)), which ends the 2025 law's $500 credit for dependents who are not qualifying children: older teenagers before 18 are now covered by FAM-1.01, but college students, disabled adult children and parents a family supports would lose it. Recommended: section 24 continues for dependents who are not specified children under section 24A, with its $500 amount and its $400,000 phase-out (2029 law). No cost against the 2029 law; about $5-7 billion a year more than the bill as written (project arithmetic: about 14.8 million adults claimed as dependents at $500, an upper bound, since the credit is nonrefundable)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "P.L. 119-21: a $2,200 credit a child under 17, indexed after 2025, refundable only to $1,700 and 15% of earnings above $2,500; a work-eligible Social Security number for the child and at least one parent; paid once a year at filing [EV-SEC-001] [EV-SEC-003] [EV-SEC-005] [EV-SEC-006]; no IRS Direct File [EV-SEC-063]",
+  "evidence": [
+   "EV-SEC-001"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "INC-1.01",
+  "title": "The 2021 childless earned income credit, permanent",
+  "agenda": "INC-1",
+  "status": "decided, memo 3 part 1 B",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "For workers without a qualifying child, from tax year 2030: the 2021 maximum of $1,502, phase-in and phase-out rates of 15.3% (from 7.65%), the 2021 phase-out start, all indexed to prices from 2021; eligible from age 19 (24 for full-time students; 18 for former foster youth and young people who were homeless, as in 2021) with no upper age limit. The credit for families with children is unchanged",
+  "eligibility": "For workers without a qualifying child, from tax year 2030: the 2021 maximum of $1,502, phase-in and phase-out rates of 15.3% (from 7.65%), the 2021 phase-out start, all indexed to prices from 2021; eligible from age 19 (24 for full-time students; 18 for former foster youth and young people who were homeless, as in 2021) with no upper age limit. The credit for families with children is unchanged",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "The childless earned income credit: $664 at most in 2026, ages 25-64 only [EV-SEC-026] [EV-SEC-027]; qualifying-child rules differ across credits [EV-SEC-258]",
+  "evidence": [
+   "EV-SEC-256",
+   "EV-SEC-257",
+   "EV-SEC-026",
+   "EV-SEC-027",
+   "EV-SEC-609",
+   "EV-SEC-610"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "INC-1.02",
+  "title": "One qualifying-child definition across the earned income credit and the child benefit",
+  "agenda": "INC-1",
+  "status": "decided, point 9",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "A child who qualifies the payee for the child benefit (FAM-1.05: the parent the child lives with most of the year) is that payee's qualifying child for the earned income credit, and the IRS pre-fills the child on the return from the benefit's records (FAM-1.08). The credit's relationship, age and residence tests are aligned to the benefit's",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "The childless earned income credit: $664 at most in 2026, ages 25-64 only [EV-SEC-026] [EV-SEC-027]; qualifying-child rules differ across credits [EV-SEC-258]",
+  "evidence": [
+   "EV-SEC-258"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "INC-2.01",
+  "title": "SNAP: the 2025 law's cuts repealed",
+  "agenda": "INC-2",
+  "status": "decided, memo 3 part 2 B",
+  "decisions": [
+   "DEC-2026-11-12-06",
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "Repeal, from FY2030, the nutrition subtitle's benefit and eligibility cuts: the wider time limit and the narrowed exceptions (sec. 10102: the time limit's ages and exceptions return to the law before the 2025 act, so parents of children 14 to 17 are excepted again and the exceptions for veterans, people who are homeless and young people who aged out of foster care are restored) [EV-SEC-028] [EV-SEC-029]; the Thrifty Food Plan's cost-neutrality bar (sec. 10101), so the plan's re-evaluations can raise it [EV-SEC-032]; the state share of benefit costs (sec. 10105) [EV-SEC-030]; the cut to 25% federal administrative funding (sec. 10106), back to 50% [EV-SEC-031]; and the energy-assistance and internet-expense changes [EV-SEC-038]. Immigrant eligibility (sec. 10108) [EV-SEC-033] is restored as immigration's table decides (`DEC-2026-11-12-07`, memo 6 C: the pre-2025 rules, no five-year wait for the newly legalized); it is **priced here**, inside CBO's whole-subtitle figure, and immigration's memo 6 does not count it again",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "USDA (FNS); states",
+  "current_law": "P.L. 119-21's nutrition subtitle: wider time limit, state benefit share from FY2028, 25% federal administrative share from FY2027, Thrifty Food Plan cost-neutrality, immigrant limits [EV-SEC-028] [EV-SEC-030] [EV-SEC-031] [EV-SEC-032] [EV-SEC-033]",
+  "evidence": [
+   "EV-SEC-028",
+   "EV-SEC-029",
+   "EV-SEC-030",
+   "EV-SEC-031",
+   "EV-SEC-032",
+   "EV-SEC-033",
+   "EV-SEC-034",
+   "EV-SEC-035",
+   "EV-SEC-036",
+   "EV-SEC-037",
+   "EV-SEC-038",
+   "EV-SEC-039",
+   "EV-SEC-040",
+   "EV-SEC-633",
+   "EV-SEC-634"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "INC-3.01",
+  "title": "SSI's asset limits raised and indexed",
+  "agenda": "INC-3",
+  "status": "decided, memo 3 part 2 B",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "$10,000 for an individual and $20,000 for a couple from January 2030, indexed to prices, the SSI Savings Penalty Elimination Act's figures, which care's Medicaid resource limits also use (`dossiers/care/4bcd-specification.md`, HLT-4.04)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "SSA",
+  "current_law": "SSI: $2,000 and $3,000 asset limits since 1989; $20 and $65 exclusions not indexed [EV-SEC-042] [EV-SEC-043]",
+  "evidence": [
+   "EV-SEC-042",
+   "EV-SEC-630",
+   "EV-CAR-478"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "INC-3.02",
+  "title": "SSI's income exclusions indexed",
+  "agenda": "INC-3",
+  "status": "decided, point 8",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "The $20 general and $65 earned income exclusions, which are not indexed, indexed to prices from January 2030 (working choice: from their 2029 value, not restored to 1972's purchasing power)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "SSA",
+  "current_law": "SSI: $2,000 and $3,000 asset limits since 1989; $20 and $65 exclusions not indexed [EV-SEC-042] [EV-SEC-043]",
+  "evidence": [
+   "EV-SEC-043"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "INC-4.01",
+  "title": "The child and dependent care credit refundable, for what families pay",
+  "agenda": "INC-4",
+  "status": "decided, point 7",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "From tax year 2030 the credit (section 21, as the 2025 law left it) is refundable. Eligible expenses are what a family pays out of pocket, net of both care guarantees: school-age care; care outside the child care guarantee's settings; care for a dependent adult below the long-term care benefit's three-activity line (HLT-9, from 2035) or, before 2035, not served by Medicaid home care; and the copays families pay under the guarantees (child care's charge of up to 7% of income above 85% of state median income, `DEC-2026-11-11-03`, and any capped long-term care copay). What either guarantee pays is never claimed again. Care is told (seam)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "The child and dependent care credit is nonrefundable [EV-SEC-613]",
+  "evidence": [
+   "EV-SEC-612",
+   "EV-SEC-613",
+   "EV-SEC-611",
+   "EV-CAR-501",
+   "EV-CAR-502"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "LAB-10.01",
+  "title": "Paid on-ramps into the plan's jobs",
+  "agenda": "LAB-10",
+  "status": "decided, memo 4 B",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Sector partnerships of employers, unions and training providers in care, construction and repair, rail and transit, housing production and clean power, in the places the plan invests, run through state workforce boards and the American Job Centers; pre-apprenticeship leading into registered apprenticeship (LAB-8, the work flagship's). $100 billion over FY2030-39, mandatory, at the budget model's booked path (about $14 billion in FY2040)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA); state workforce boards",
+  "current_law": "WIOA adult and dislocated-worker programs, about $2.3 billion a year [EV-SEC-638]; no stipends; LAB-10 an unspecified $100 billion envelope [EV-SEC-698]",
+  "evidence": [
+   "EV-SEC-143",
+   "EV-SEC-144",
+   "EV-SEC-698",
+   "EV-SEC-638"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "LAB-10.02",
+  "title": "A training stipend",
+  "agenda": "LAB-10",
+  "status": "decided, memo 4 B; amount a working choice",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Up to $9,000 a year in 2030 dollars, indexed, paid monthly for the weeks in training, as Year Up pays [EV-SEC-644]; not income or a resource for any program (INC-5.01)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA)",
+  "current_law": "WIOA adult and dislocated-worker programs, about $2.3 billion a year [EV-SEC-638]; no stipends; LAB-10 an unspecified $100 billion envelope [EV-SEC-698]",
+  "evidence": [
+   "EV-SEC-644",
+   "EV-SEC-645",
+   "EV-SEC-149"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "LAB-10.03",
+  "title": "Child care for the hours the guarantee misses, and transport",
+  "agenda": "LAB-10",
+  "status": "decided, memo 4 B",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Evenings, weekends and the weeks before a guarantee slot opens (`DEC-2026-11-11-03` pays the rest); transport to training and for the first three months of work (working choice)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA), with state child care agencies",
+  "current_law": "WIOA adult and dislocated-worker programs, about $2.3 billion a year [EV-SEC-638]; no stipends; LAB-10 an unspecified $100 billion envelope [EV-SEC-698]",
+  "evidence": [
+   "EV-SEC-149",
+   "EV-SEC-643"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "LAB-10.04",
+  "title": "An offer, never a condition",
+  "agenda": "LAB-10",
+  "status": "decided, memo 4 B; Espen, October 26",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "No benefit in the plan depends on taking part; declining keeps every benefit; a participant who leaves keeps the stipend already paid. Accessible help and appeal as the legacy rules set",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Labor",
+  "current_law": "WIOA adult and dislocated-worker programs, about $2.3 billion a year [EV-SEC-638]; no stipends; LAB-10 an unspecified $100 billion envelope [EV-SEC-698]",
+  "evidence": [
+   "EV-SEC-698",
+   "EV-SEC-678"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "LAB-10.05",
+  "title": "Apprentice hours on plan-funded construction",
+  "agenda": "LAB-10",
+  "status": "proposed, point 10",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "15% of labor hours by registered apprentices on construction the plan pays for, as the Inflation Reduction Act requires for clean-energy credits, with its good-faith exception; memo 4's pre-apprentices feed it. Proposed to housing, transportation and clean power, which decide for their programs",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "none",
+    "kind": "proposal",
+    "note": "proposed to another dossier, which decides"
+   }
+  ],
+  "agency": "Labor; the funding agencies",
+  "current_law": "WIOA adult and dislocated-worker programs, about $2.3 billion a year [EV-SEC-638]; no stipends; LAB-10 an unspecified $100 billion envelope [EV-SEC-698]",
+  "evidence": [
+   "EV-SEC-641",
+   "EV-SEC-642"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-3.01",
+  "title": "A national paid leave benefit",
+  "agenda": "FAM-3",
+  "status": "decided, memo 5 B",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Up to twelve weeks a year (twelve times the worker's usual weekly hours) for a new child, a family member's serious health condition or one's own; benefits from January 2031 (applications from about mid-2030)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "reconciliation on the FY2030 budget resolution; paid leave fund"
+   }
+  ],
+  "agency": "SSA",
+  "current_law": "No federal paid leave; thirteen state programs; the permanent 45S employer credit [EV-SEC-309] [EV-SEC-330]",
+  "evidence": [
+   "EV-SEC-340",
+   "EV-SEC-693"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-3.02",
+  "title": "Progressive replacement in three bands",
+  "agenda": "FAM-3",
+  "status": "decided, memo 5 B",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "85% of average monthly earnings up to the first band, 69% up to the second and 50% up to the third ($1,257, $3,500 and $6,200 for 2026, wage-indexed), with a minimum of $580 and a maximum of $4,000 a month (2026, wage-indexed), as S. 2823 sets",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "reconciliation on the FY2030 budget resolution; paid leave fund"
+   }
+  ],
+  "agency": "SSA",
+  "current_law": "No federal paid leave; thirteen state programs; the permanent 45S employer credit [EV-SEC-309] [EV-SEC-330]",
+  "evidence": [
+   "EV-SEC-340",
+   "EV-SEC-311",
+   "EV-SEC-660",
+   "EV-SEC-662"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-3.03",
+  "title": "Who is covered",
+  "agenda": "FAM-3",
+  "status": "decided, memo 5 B; working choice on the earnings test",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Every worker and self-employed person with covered earnings in Social Security's sense, on a short recent-earnings test (working choice: the FAMILY Act's), with no employer-size limit",
+  "eligibility": "Every worker and self-employed person with covered earnings in Social Security's sense, on a short recent-earnings test (working choice: the FAMILY Act's), with no employer-size limit",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "reconciliation on the FY2030 budget resolution; paid leave fund"
+   }
+  ],
+  "agency": "SSA",
+  "current_law": "No federal paid leave; thirteen state programs; the permanent 45S employer credit [EV-SEC-309] [EV-SEC-330]",
+  "evidence": [
+   "EV-SEC-340"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-3.04",
+  "title": "The contribution and the fund",
+  "agenda": "FAM-3",
+  "status": "decided, memo 5 B; Espen, October 26",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "0.6% of covered wages from January 2030, split evenly between worker and employer (0.3% each; self-employed 0.6%), to a paid leave trust fund. The rate steps up 0.05 points each January when the reserve is below one year of projected benefits, to a ceiling of 1.10% (ASM-FUND-LEAVE), and steps back down when it is above eighteen months. A worker at $60,000 pays $180 a year at 0.6% and up to $330 at the ceiling [EV-SEC-676]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "reconciliation on the FY2030 budget resolution; paid leave fund"
+   }
+  ],
+  "agency": "SSA; Treasury",
+  "current_law": "No federal paid leave; thirteen state programs; the permanent 45S employer credit [EV-SEC-309] [EV-SEC-330]",
+  "evidence": [
+   "EV-SEC-693",
+   "EV-SEC-676"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-3.05",
+  "title": "A repayable Treasury loan, no open backstop",
+  "agenda": "FAM-3",
+  "status": "decided; legacy D4",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "If the fund runs short at the ceiling, Treasury lends at its borrowing rate; the fund repays from contributions. No general-fund appropriation for benefits",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "reconciliation on the FY2030 budget resolution; paid leave fund"
+   }
+  ],
+  "agency": "Treasury",
+  "current_law": "No federal paid leave; thirteen state programs; the permanent 45S employer credit [EV-SEC-309] [EV-SEC-330]",
+  "evidence": [
+   "EV-SEC-694"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-3.06",
+  "title": "States that do as well keep their programs",
+  "agenda": "FAM-3",
+  "status": "decided, memo 5 B",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "A state whose program pays at least twelve weeks at at least the federal replacement rate keeps it, receives the federal contribution for its covered workers (the lesser of the federal-equivalent cost and its actual cost, administration capped at 7%), and its workers file with the state; workers elsewhere are in the federal program from day one",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "reconciliation on the FY2030 budget resolution; paid leave fund"
+   }
+  ],
+  "agency": "SSA; states",
+  "current_law": "No federal paid leave; thirteen state programs; the permanent 45S employer credit [EV-SEC-309] [EV-SEC-330]",
+  "evidence": [
+   "EV-SEC-343",
+   "EV-SEC-309"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-3.07",
+  "title": "Job restoration and health coverage during leave",
+  "agenda": "FAM-3",
+  "status": "decided, memo 5 B",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": ", in the 2030 act An employer must restore a worker who took the benefit, after 90 days on the job, to the same or an equivalent position, and keep group health coverage during the leave; retaliation is barred, with a private right of action and Labor Department enforcement",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "regular_order",
+    "note": "Social Security Solvency and Protection Act of 2030"
+   }
+  ],
+  "agency": "Labor (WHD); SSA notifies",
+  "current_law": "No federal paid leave; thirteen state programs; the permanent 45S employer credit [EV-SEC-309] [EV-SEC-330]",
+  "evidence": [
+   "EV-SEC-342",
+   "EV-SEC-313",
+   "EV-SEC-307"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "FAM-3.08",
+  "title": "An office of paid leave in SSA",
+  "agenda": "FAM-3",
+  "status": "decided, memo 5 B; Espen, October 26",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "A deputy commissioner's office; administration paid from the fund (the budget model books 3% of benefits plus $3 billion of start-up)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "reconciliation on the FY2030 budget resolution; paid leave fund"
+   }
+  ],
+  "agency": "SSA",
+  "current_law": "No federal paid leave; thirteen state programs; the permanent 45S employer credit [EV-SEC-309] [EV-SEC-330]",
+  "evidence": [
+   "EV-SEC-341"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "SS-1.01",
+  "title": "12.4% on earnings above $250,000",
+  "agenda": "SS-1",
+  "status": "decided, memo 6 A within C",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "From January 2031; the $250,000 line not indexed, so the gap above the wage cap closes over time; a 2% benefit credit on the added taxed earnings. About +2.30",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "regular_order",
+    "note": "Social Security Solvency and Protection Act of 2030"
+   }
+  ],
+  "agency": "SSA; Treasury",
+  "current_law": "OASI short in the fourth quarter of 2032, then 78% payable; 75-year gap 4.42% of payroll [EV-SEC-400] [EV-SEC-402]; the law does not say what SSA does at depletion [EV-SEC-412]",
+  "evidence": [
+   "EV-SEC-447",
+   "EV-SEC-449"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "SS-2.01",
+  "title": "12.4% on net investment income above $400,000, credited to the trust funds",
+  "agenda": "SS-2",
+  "status": "decided",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "From January 2031, unindexed. About +0.99 after the legacy stacking haircut",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "regular_order",
+    "note": "Social Security Solvency and Protection Act of 2030"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "OASI short in the fourth quarter of 2032, then 78% payable; 75-year gap 4.42% of payroll [EV-SEC-400] [EV-SEC-402]; the law does not say what SSA does at depletion [EV-SEC-412]",
+  "evidence": [
+   "EV-SEC-450",
+   "EV-SEC-695"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "SS-5.01",
+  "title": "The tax on active S-corporation and partnership income",
+  "agenda": "SS-5",
+  "status": "decided; Espen, October 26",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "SSA's F8 design: active S-corporation holders and limited partners above $200,000 (single) and $250,000 (joint), 12.4 points to the trust funds, from 2031. About +0.87",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "regular_order",
+    "note": "Social Security Solvency and Protection Act of 2030"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "OASI short in the fourth quarter of 2032, then 78% payable; 75-year gap 4.42% of payroll [EV-SEC-400] [EV-SEC-402]; the law does not say what SSA does at depletion [EV-SEC-412]",
+  "evidence": [
+   "EV-SEC-452",
+   "EV-SEC-696"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "SS-3.01",
+  "title": "A minimum benefit at 125% of poverty for 30-year workers",
+  "agenda": "SS-3",
+  "status": "decided, part 2",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Wage-indexed, from 2031. About −0.11",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "regular_order",
+    "note": "Social Security Solvency and Protection Act of 2030"
+   }
+  ],
+  "agency": "SSA",
+  "current_law": "OASI short in the fourth quarter of 2032, then 78% payable; 75-year gap 4.42% of payroll [EV-SEC-400] [EV-SEC-402]; the law does not say what SSA does at depletion [EV-SEC-412]",
+  "evidence": [
+   "EV-SEC-445",
+   "EV-SEC-439"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "SS-4.01",
+  "title": "CPI-E for the cost-of-living adjustment",
+  "agenda": "SS-4",
+  "status": "decided, part 2",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "From the December 2031 adjustment (working choice: the first after the act's revenue starts). About −0.33",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "regular_order",
+    "note": "Social Security Solvency and Protection Act of 2030"
+   }
+  ],
+  "agency": "SSA; BLS publishes the index",
+  "current_law": "OASI short in the fourth quarter of 2032, then 78% payable; 75-year gap 4.42% of payroll [EV-SEC-400] [EV-SEC-402]; the law does not say what SSA does at depletion [EV-SEC-412]",
+  "evidence": [
+   "EV-SEC-455",
+   "EV-SEC-440",
+   "EV-SEC-667"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "SS-B4.01",
+  "title": "A caregiver earnings credit",
+  "agenda": "SS-B4",
+  "status": "decided, part 2, pending SSA's score",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "Up to five years of care for a child under 6 or a dependent relative, at least 960 hours a year, credited at half the average wage. The credit **tops up actual earnings** to that level; paid care hours (Medicaid's, or the long-term care benefit's from 2035, HLT-9.05) count as earnings and never toward the credit, so no care is credited twice. Judgment −0.1 to −0.2. If SSA's score is far higher, the dropout-year design (−0.06 a year dropped) replaces it, as memo 6 provides",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "regular_order",
+    "note": "Social Security Solvency and Protection Act of 2030"
+   }
+  ],
+  "agency": "SSA",
+  "current_law": "OASI short in the fourth quarter of 2032, then 78% payable; 75-year gap 4.42% of payroll [EV-SEC-400] [EV-SEC-402]; the law does not say what SSA does at depletion [EV-SEC-412]",
+  "evidence": [
+   "EV-SEC-460",
+   "EV-SEC-673",
+   "EV-SEC-445",
+   "EV-SEC-479"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "SS-8.01",
+  "title": "Part of the reserves invested in a broad stock index",
+  "agenda": "SS-8",
+  "status": "decided, memo 6 C",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "An independent investment board of fixed-term members; up to 20% of the combined trust funds' reserves (working choice), phased in from 2032 as the reserves the package builds grow; one passive, market-weighted index of US stocks; the board votes no shares (or votes them in proportion to other holders). About +0.5 to +1.0 (legacy estimate)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "regular_order",
+    "note": "Social Security Solvency and Protection Act of 2030"
+   }
+  ],
+  "agency": "An independent board; Treasury",
+  "current_law": "OASI short in the fourth quarter of 2032, then 78% payable; 75-year gap 4.42% of payroll [EV-SEC-400] [EV-SEC-402]; the law does not say what SSA does at depletion [EV-SEC-412]",
+  "evidence": [
+   "EV-SEC-697",
+   "EV-SEC-466",
+   "EV-SEC-467",
+   "EV-SEC-469"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "SS-7.01",
+  "title": "The broad rate rise as a fallback",
+  "agenda": "SS-7",
+  "status": "decided, point 11",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "If two consecutive Trustees reports from 2035 on show a 75-year deficit after the package and SS-8 (working choice: worse than −0.25% of payroll), the combined rate rises 0.1 point a year, split evenly, until the reports show balance, to at most 1 point. About +0.9 to +1.0 if fully used",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "regular_order",
+    "note": "Social Security Solvency and Protection Act of 2030"
+   }
+  ],
+  "agency": "SSA; Treasury",
+  "current_law": "OASI short in the fourth quarter of 2032, then 78% payable; 75-year gap 4.42% of payroll [EV-SEC-400] [EV-SEC-402]; the law does not say what SSA does at depletion [EV-SEC-412]",
+  "evidence": [
+   "EV-SEC-697",
+   "EV-SEC-696"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "SS-11.01",
+  "title": "Full benefits on time if depletion comes first",
+  "agenda": "SS-11",
+  "status": "decided, part 3 and point 11",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "If a trust fund cannot pay scheduled benefits in full before the act's revenue is enough, the general fund lends it the shortfall, so SSA pays full benefits on time; repaid with interest from the act's revenue. Enacted with the act and effective at once; if the act slips past 2031, it moves first as a short bill (section 8). The retirement fund is projected short in the fourth quarter of 2032 [EV-SEC-400]",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "regular_order",
+    "note": "Social Security Solvency and Protection Act of 2030"
+   }
+  ],
+  "agency": "Treasury; SSA",
+  "current_law": "OASI short in the fourth quarter of 2032, then 78% payable; 75-year gap 4.42% of payroll [EV-SEC-400] [EV-SEC-402]; the law does not say what SSA does at depletion [EV-SEC-412]",
+  "evidence": [
+   "EV-SEC-412",
+   "EV-SEC-411",
+   "EV-SEC-400"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 4",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "INC-5.01",
+  "title": "The floor's non-wage payments never count as income",
+  "agenda": "INC-5",
+  "status": "decided, memo 7 part 1 B",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": ", in R1 One section, modeled on 26 U.S.C. 6409: the child benefit, the Climate Dividend, LAB-10's stipends, the plan's refundable credits and the value of free or capped child care are not income, and not resources for 12 months, for any federal or federally funded program. Paid leave and Social Security, the minimum benefit and caregiver credit included, count as the wages they replace",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Every program agency; HUD, USDA and HHS issue conforming rules",
+  "current_law": "Only tax-code refunds and refundable credits are excluded from other programs' income (26 U.S.C. 6409) [EV-SEC-534]; no ceiling on combined phase-out rates",
+  "evidence": [
+   "EV-SEC-534",
+   "EV-HOU-410"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "INC-5.02",
+  "title": "A published 65-cent ceiling, met by design rules",
+  "agenda": "INC-5",
+  "status": "decided, memo 7 part 2 B",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "For the household model's typical families (a single parent of two, a married couple with two, a single adult) at 50% to 300% of poverty, the combined rate from every federal layer, taxes included, stays at or below 65 cents per added dollar; housing's 30% rent rule is outside it. *Design rules:* no plan benefit adds a phase-out below 200% of poverty; INC-5.01; one income finding reused across programs (INC-5.03); benefits held for a set period after a raise. *Monitoring:* the household model publishes the distribution each year; a family type above the ceiling for two years triggers a review by the owning dossiers. No statutory cap and no new calculation for families",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (OTA) publishes, with the household model (`MOD-household`)",
+  "current_law": "Only tax-code refunds and refundable credits are excluded from other programs' income (26 U.S.C. 6409) [EV-SEC-534]; no ceiling on combined phase-out rates",
+  "evidence": [
+   "EV-SEC-501",
+   "EV-HOU-417",
+   "EV-SEC-514",
+   "EV-SEC-546",
+   "EV-SEC-559"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
+  "id": "INC-5.03",
+  "title": "One income finding, reused",
+  "agenda": "INC-5",
+  "status": "decided, memo 7 part 2 B's design rules",
+  "decisions": [
+   "DEC-2026-11-12-06"
+  ],
+  "parameters": "A program may rely on another federal program's income determination from the prior year's return or its own records, as HUD and express-lane Medicaid already may; the child benefit's and the credits' finding is the default",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "Each agency",
+  "current_law": "Only tax-code refunds and refundable credits are excluded from other programs' income (26 U.S.C. 6409) [EV-SEC-534]; no ceiling on combined phase-out rates",
+  "evidence": [
+   "EV-SEC-510",
+   "EV-SEC-562",
+   "EV-SEC-558"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ }
+]
