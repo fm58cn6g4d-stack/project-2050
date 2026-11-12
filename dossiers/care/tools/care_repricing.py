@@ -42,6 +42,13 @@ COST_LIFT = (1.12, 1.20, 1.25)
 # about 95% under Washington's definitions, EV-CAR-645, EV-CAR-646). Ramps linearly from zero in 2035.
 ATTRITION_2040 = (0.03, 0.06, 0.10)
 MEDICAID_HOME_2023 = 164e9           # EV-CAR-404, EV-CAR-406
+# The hold-harmless's own cost: what the plan spends on people on Medicaid home care on December 31, 2034
+# who are below the three-activity line. Their share of the Medicaid home-care line in 2035 (judgment, 10-20%:
+# spending runs lower per person below the line, and people with intellectual or developmental disabilities,
+# a large share of spending, mostly meet the equivalent test; EV-CAR-645, EV-CAR-646), shrinking as they
+# leave the program or their needs grow past the line, to about 40% of the starting group by 2040 (judgment).
+HOLD_SHARE_2035 = (0.10, 0.15, 0.20)
+HOLD_SURVIVAL_5YR = 0.40
 MEMO8C_2035 = (50e9, 70e9, 90e9)     # memo 8 C, unchanged: 84% of nursing-home residents have three or more
                                      # limitations (EV-CAR-647); the rest qualify by the equivalent test
 BRIDGE_TOTAL = 0.13e12               # point 1, FY2030-34, unchanged
@@ -127,6 +134,10 @@ def main():
     print('  attrition below the line (decided hold-harmless), 2035-39 ($T) ' +
           ', '.join(f'{x / 1e12:.2f}' for x in att_yrs) + ' | FY2040 ($B) ' +
           ', '.join(f'{x / 1e9:.0f}' for x in att_40))
+    surv = HOLD_SURVIVAL_5YR ** (1 / 5)
+    hold = three(lambda i: [medicaid_home(2035) * HOLD_SHARE_2035[i] * (GROWTH * surv) ** t for t in range(6)])
+    print('  the hold-harmless, inside the totals (2035 $B; 2035-39 $T; FY2040 $B): ' +
+          '; '.join(f'{h[0] / 1e9:.0f}, {sum(h[:5]) / 1e12:.2f}, {h[5] / 1e9:.0f}' for h in hold))
     factor = RETAINED[1] * COST_LIFT[1]
     print(f'  benchmarks at three activities (new use scaled by {factor:.2f}):')
     print('    Urban 2020: ' + ', '.join(f'{(NOT_NEW_USE + (u - NOT_NEW_USE) * factor) / 1e9:.0f}'

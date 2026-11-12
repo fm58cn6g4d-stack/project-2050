@@ -41,7 +41,7 @@ The full workings are in `../3b-design-home-care.md`, "What the options cost".
 - **Cost per new user** rises about a fifth, to about $50,000, because the lightest-need tier drops out. People at this line get about 9 hours of help a day, paid and unpaid [EV-CAR-644].
 - **Memo 6 B in 2035:** about **$300 billion** (range $130-655 billion), against $380 billion.
 - **Benchmarks, adjusted the same way:** Urban's model gives about $390-560 billion; CBO's, about $280-320 billion. The project's figure sits inside the CBO-based range and below Urban's, as before.
-- **The hold-harmless is kept:** everyone on Medicaid home care on December 31, 2034 keeps their help. It does not cover people who would have entered Medicaid home care later below the new line. That saves about $24 billion by FY2040, and question 1 asks whether to keep that door open.
+- **The hold-harmless is kept:** everyone on Medicaid home care on December 31, 2034 keeps their help. On its own it costs about $47 billion in 2035, $0.18 trillion over 2035-39 and $24 billion in FY2040 (judgment), inside the figures above. It does not cover people who would have entered Medicaid home care later below the new line. That saves about $24 billion by FY2040, and question 1 asks whether to keep that door open.
 
 ## Step 2: workforce costs at the federal cost only (audited; three corrections)
 
