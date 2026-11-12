@@ -8717,7 +8717,7 @@
  },
  {
   "id": "EV-IMM-642",
-  "statement": "CRS projected that an additional 700 immigration judges, 1,349 in total from the 649 on staff at the end of FY2023 Q2, would be the minimum needed to clear the backlog by FY2032 under its assumptions.",
+  "statement": "CRS projected that an additional 700 immigration judges, 1,349 in total from the 649 on staff in FY2023, would be the minimum needed to clear the backlog by FY2032 under its assumptions.",
   "claim": "analysis",
   "figures": [
    "700",
@@ -8728,6 +8728,7 @@
   "source": "SRC-4089",
   "anchor": [
    "an additional 700 IJs (1,349 total) would",
+   "be the minimum number needed to fully clear the backlog by FY2032, holding all other factors",
    "EOIR had 649 IJs on staff at the end of FY2023"
   ],
   "locator": "CRS R47637, \"Projected Impact of Immigration Judge Hiring\"",
@@ -8811,7 +8812,7 @@
  },
  {
   "id": "EV-IMM-645",
-  "statement": "The Manhattan Institute reported that DOJ's FY2025 request sought 25 immigration judge positions with 37 legal assistants, 38 attorneys and 50 other staff for $32,785,000, about $1.31 million per judge added.",
+  "statement": "The Manhattan Institute reported that DOJ's fiscal year 2025 budget request sought 25 immigration judge positions with 37 legal assistants, 38 attorneys and 50 other staff for $32,785,000, about $1.31 million per judge added.",
   "claim": "data",
   "figures": [
    "25",
@@ -8823,7 +8824,7 @@
   ],
   "source": "SRC-4136",
   "anchor": [
-   "requested 25 new immigration judge positions, as well as 37 new legal assistants, 38 attorneys, and 50 professional and other administrators to accompany these judges.",
+   "In its fiscal year 2025 budget request, the Department of Justice requested 25 new immigration judge positions, as well as 37 new legal assistants, 38 attorneys, and 50 professional and other administrators to accompany these judges.",
    "It estimated that these positions would cost $32,785,000, or approximately $1.31 million per immigration judge added."
   ],
   "locator": "Section \"Cost Estimates\"",
@@ -8841,17 +8842,21 @@
  },
  {
   "id": "EV-IMM-646",
-  "statement": "The Manhattan Institute estimated that hiring an extra 250 immigration judges a year would clear a 4 million case backlog by FY2029, assuming 957 completions a judge a year and attrition of about 5.6% a year.",
+  "statement": "The Manhattan Institute estimated that hiring an extra 250 immigration judges a year would shrink a 4 million case backlog to about 100,000 by fiscal year 2029, assuming 957 completions a judge a year, with attrition of about 5.6% a year.",
   "claim": "analysis",
   "figures": [
    "250",
    "957",
+   "4 million",
+   "100,000",
+   "2029",
    "5.6%"
   ],
   "source": "SRC-4136",
   "anchor": [
    "Clearing the immigration court backlog by the end of the Trump administration will require hiring an extra 250 judges per year. Assuming no change in how many cases each judge decides per year (currently 957)",
-   "the attrition rate due to retirement or termination matches that of the past decade (approximately 5.6% annually)"
+   "the attrition rate due to retirement or termination matches that of the past decade (approximately 5.6% annually)",
+   "this would shrink the immigration court backlog from 4 million to about 100,000 by fiscal year 2029"
   ],
   "locator": "Section \"Expanding Immigration Courts\"",
   "grade": "C",
