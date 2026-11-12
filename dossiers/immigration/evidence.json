@@ -4314,7 +4314,7 @@
   "context": "Biden-administration rule, 87 FR 18078, published 2022-03-29. It is an interim final rule; the section anchored is the Departments' summary of the third major change. Status after 2025: see EV-IMM-304 and EV-IMM-305.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4334,7 +4334,7 @@
   "recheck": "2027-11-12",
   "context": "Regulatory text as described in the preamble; the rule was implemented in phases (EV-IMM-303), so actual timelines differed.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4362,7 +4362,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4383,7 +4383,7 @@
   "context": "CRS summary in July 2022, early in implementation; it does not report later case counts. I could not retrieve USCIS merits-interview totals (see notes).",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4402,7 +4402,7 @@
   "context": "Second Trump administration rule. Establishes only that the 2022 IFR was treated as an existing rule in December 2025. I found no Federal Register document rescinding it, but absence of a rescission in my search is not proof; reviewer should check the eCFR for 8 CFR 208.9 and 208.30.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4423,7 +4423,7 @@
   "context": "Second Trump administration rule (91 FR 47101). It changes the affirmative track, not the 2022 expedited-removal merits process, but moves the system away from interviewing every applicant. Litigation not checked.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4474,7 +4474,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4498,7 +4498,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4588,7 +4588,7 @@
   "context": "TRAC. The comparison is of two different populations (cases referred after USCIS denial versus defensive cases) and excludes cases USCIS granted, so it is not a measure of officer error.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4641,7 +4641,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4666,7 +4666,7 @@
   "context": "Authors' analysis of EOIR data obtained from the government; published by an advocacy organization, though the underlying article is peer-reviewed. Contrasts with the in absentia share of removal orders (EV-IMM-310), which uses a different denominator.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4714,7 +4714,7 @@
   "context": "Los Angeles only and an early snapshot of completed cases, which skew toward quick in absentia orders; a clinic study. National Dedicated Docket results were not retrieved.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4741,7 +4741,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4812,7 +4812,7 @@
   "context": "Advocacy group analysis of USCIS data. This is the affirmative Asylum Office rate, NOT the 2022-rule Asylum Merits Interview track: the page does not mention that process. No source I could open gave merits-interview counts, grant rates or timelines for credible-fear cases. Quotation from a fetch extract; reviewer to confirm wording.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4836,7 +4836,7 @@
   "context": "Matches the TRAC figure of 76 percent for FY2022 (EV-IMM-312); both describe cases the Asylum Office did not grant, so the group is selected. Quotation from a fetch extract; reviewer to confirm wording.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4932,7 +4932,7 @@
   "context": "Descriptive rate for represented respondents, not a causal estimate; the earlier regression result is EV-IMM-314.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4960,7 +4960,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -4988,7 +4988,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5019,7 +5019,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5066,7 +5066,7 @@
   "context": "GAO also notes ICE does not include all relevant participants when calculating absconsion rates (EV-IMM-353), so the quarter is not a clean non-appearance rate.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5088,7 +5088,7 @@
   "recheck": "2027-11-12",
   "context": "Contract ceiling, not annual spending.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5109,7 +5109,7 @@
   "recheck": "2027-06-30",
   "context": "GAO recommended better external reporting of absconsion information; DHS concurred. Whether ICE has since fixed this was not checked.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5133,7 +5133,7 @@
   "context": "GAO audit of Obama-era data. The full-service group was a selected, case-managed population, so 99 percent should not be read as the rate for all released people.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5156,7 +5156,7 @@
   "recheck": "2027-06-30",
   "context": "ICE cost figures reported by CRS in 2019. Per-family and per-person units differ; CRS notes the case-managed program cost more than electronic monitoring because of services and a more vulnerable population.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5182,7 +5182,7 @@
   "context": "Advocacy summary relying mainly on ICE and contractor (GEO Care) final evaluations; most families had not finished their cases when ICE ended the program, so compliance was measured mid-case. A DHS OIG 2017 review of the program was not retrieved.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5205,7 +5205,7 @@
   "recheck": "2027-11-12",
   "context": "The Commission says termination was for political reasons; that inference is the advocacy group's.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5252,7 +5252,7 @@
   "recheck": "2027-06-30",
   "context": "ICE's own statement; the page is undated and other sources cite a different ATD figure (about $8 a day) that I could not verify. Quotation from a fetch extract; reviewer to confirm wording. Contract-only cost, excludes ICE staff.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5295,7 +5295,7 @@
   "recheck": "2027-11-12",
   "context": "Gives the less favourable reading of the case-managed program than the Women's Refugee Commission summary (EV-IMM-356): similar compliance, higher cost than electronic monitoring, still far below detention (EV-IMM-355).",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5318,7 +5318,7 @@
   "context": "Second Trump administration request, not an appropriation; the same testimony says the 2025 reconciliation law provides additional surge beds. No per-bed daily rate or ATD cost appears in the testimony; the FY2027 Congressional Budget Justification itself was not retrieved.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5342,7 +5342,7 @@
   "context": "Westat evaluation for DHS. Rate counts workers found authorized after first receiving a TNC; it excludes authorized workers who got a TNC and did not contest it, so it understates error. System has changed since (photo matching, myE-Verify).",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5366,7 +5366,7 @@
   "context": "Westat for DHS. Shows the burden of errors falls disproportionately on work-authorized noncitizens.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5394,7 +5394,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5427,7 +5427,7 @@
   ],
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5461,7 +5461,7 @@
   ],
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5496,7 +5496,7 @@
   ],
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5540,7 +5540,7 @@
   "context": "Stale for planning: the current expiry date of E-Verify's authorization, which Congress extends in appropriations laws, was not verified and must be checked before January 2029.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5567,7 +5567,7 @@
   "context": "Federal Reserve Bank report (Orrenius and Zavodny). State counts have changed since; 2026 search results suggest more states and new mandates (Ohio construction, Florida bills) but were not verified.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5594,7 +5594,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5619,7 +5619,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5647,7 +5647,7 @@
   ],
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5676,7 +5676,7 @@
   ],
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5754,7 +5754,7 @@
   "context": "2024 fee rule (effective April 1, 2024). See EV-IMM-423 for the proposed increase.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5777,7 +5777,7 @@
   "context": "Second Trump administration proposed rule, 91 FR 37500; comments closed 2026-08-24; final status unknown as of 2026-11-12. The online fee would rise from $710 to $1,280.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5800,7 +5800,7 @@
   "recheck": "2027-03-31",
   "context": "Biden-era rule; the June 2026 proposal would end this reduced fee (EV-IMM-423).",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5827,7 +5827,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5870,7 +5870,7 @@
   "context": "Second Trump administration policy as described by CRS; effect on approvals or processing times not yet measurable here.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5921,7 +5921,7 @@
   ],
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -5993,7 +5993,7 @@
   "recheck": "2027-06-30",
   "context": "Canadian government plan announced October 2024 and superseded by the 2026-2028 plan (EV-IMM-451). Quotation from a fetch extract; reviewer to confirm wording.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6016,7 +6016,7 @@
   "recheck": "2027-06-30",
   "context": "Canadian government briefing, December 2025. Quotation from a fetch extract; reviewer to confirm wording. Temporary-resident targets (not verified) were cut further.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6038,7 +6038,7 @@
   "recheck": "2027-06-30",
   "context": "A policy goal, not an outcome; attainment was not checked. Quotation from a fetch extract; reviewer to confirm wording.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6063,7 +6063,7 @@
   "context": "Canadian government briefing note. A claim filed in 2026 could wait about three years for a first decision, the note says. Much of the inventory is not ready to be heard (security screening), per a separate March 2026 briefing seen only in search results. Quotation from a fetch extract; reviewer to confirm wording.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6092,7 +6092,7 @@
   "context": "Spanish government count; about double the government's forecast of roughly 500,000 per press reports not verified here. 609,737 had been processed at the time of release. Quotation from a fetch extract; reviewer to confirm wording.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6122,7 +6122,7 @@
   ],
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6150,7 +6150,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6171,7 +6171,7 @@
   "context": "EU primary law (Regulation (EU) 2024/1348). Member-state implementation readiness was reported as uncertain in news items not verified here.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6193,7 +6193,7 @@
   "recheck": "2027-11-12",
   "context": "A recital, not an operative article; operative Article 51 sets the same limit but was not separately anchored.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6214,7 +6214,7 @@
   "recheck": "2027-11-12",
   "context": "The text allows exceptions where the situation in the country has changed significantly or the applicant belongs to a category for whom 20 percent is not representative.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6267,7 +6267,7 @@
   "context": "UK official statistics. The initial-decision backlog fell but the appeals backlog was reported rising (search snippet, unverified). Quotation from a fetch extract; reviewer to confirm wording.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6292,7 +6292,7 @@
   "recheck": "2027-11-12",
   "context": "Advocacy organization citing Australian department estimates; I did not reach the underlying Senate or audit document. Quotation from a fetch extract; reviewer to confirm wording.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6316,7 +6316,7 @@
   "context": "Presidential determinations as tabulated by CRS. Covers only FY2006-FY2017: the 1980-2005 ceilings were NOT retrieved, so the legacy claim that a 50,000 floor sits below every ceiling from 1980 to 2016 is only checked for 2006-2016 (it holds there, since the lowest was 70,000).",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6383,7 +6383,7 @@
   "recheck": "2027-06-30",
   "context": "Canadian government evaluation (period January 2016 to December 2021, data updated to 2022). The first quotation is a fetch-tool paraphrase of the admissions figure, not verbatim page text. I did not find employment or earnings by stream in the portion read; independent research (Statistics Canada, Kaida) reported private sponsors doing better, unverified here. Quotation from a fetch extract; reviewer to confirm wording.",
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6409,7 +6409,7 @@
    }
   ],
   "supports": [
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6432,7 +6432,7 @@
   "context": "Count as given by the review panel in March 2023.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -6476,7 +6476,7 @@
   "context": "Committee synthesis in the news release; the same release says the K-12 system is not equipped for nearly 5 million English-language learners.",
   "supports": [
    "dossiers/immigration/1-problem.md",
-   "dossiers/immigration/2-options.md"
+   "dossiers/immigration/2-what-works.md"
   ]
  },
  {
@@ -8875,6 +8875,293 @@
    "dossiers/immigration/5-delivery.md",
    "dossiers/immigration/6-cost.md",
    "dossiers/immigration/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-647",
+  "statement": "A person present in the United States without being admitted or paroled is inadmissible under the Immigration and Nationality Act, subject to an exception for certain battered women and children.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4387",
+  "anchor": [
+   "An alien present in the United States without being admitted or paroled, or who arrives in the United States at any time or place other than as designated by the Attorney General, is inadmissible.",
+   "Clause (i) shall not apply to an alien who demonstrates that—"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "United States Code 2024 edition. Primary law: section 212(a)(6)(A)(i) of the Immigration and Nationality Act. It is the ground that attaches to a person who entered without inspection.",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-648",
+  "statement": "A person who falsely represents himself or herself to be a U.S. citizen for any benefit under the immigration chapter or any other Federal or State law is inadmissible under the Immigration and Nationality Act.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4387",
+  "anchor": [
+   "Any alien who falsely represents, or has falsely represented, himself or herself to be a citizen of the United States for any purpose or benefit under this chapter (including section 1324a of this title) or any other Federal or State law is inadmissible."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "United States Code 2024 edition. Primary law: section 212(a)(6)(C)(ii)(I) of the Immigration and Nationality Act. The subsection has a separate exception in subclause (II), not anchored here; the statute text saved here contains it. This ground reaches a person who used a false claim to obtain work or other documents.",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-649",
+  "statement": "An immigrant applying for admission without a valid unexpired immigrant visa or other valid entry document and a valid unexpired passport or other travel document is inadmissible under the Immigration and Nationality Act; the statute points to a separate waiver provision.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4387",
+  "anchor": [
+   "who is not in possession of a valid unexpired immigrant visa, reentry permit, border crossing identification card, or other valid entry document required by this chapter, and a valid unexpired passport, or other suitable travel document",
+   "For provision authorizing waiver of clause (i), see subsection (k)."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "United States Code 2024 edition. Primary law: section 212(a)(7)(A) of the Immigration and Nationality Act (documentation requirements for immigrants).",
+  "supports": [
+   "dossiers/immigration/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-650",
+  "statement": "A person ordered removed is inadmissible for 5 years after removal if removed on arrival, or for 10 years otherwise, and for 20 years after a second or later removal or permanently after an aggravated felony conviction, unless the government consented in advance to reapplication under the Immigration and Nationality Act.",
+  "claim": "data",
+  "figures": [
+   "5 years",
+   "10 years",
+   "20 years"
+  ],
+  "source": "SRC-4387",
+  "anchor": [
+   "and who again seeks admission within 5 years of the date of such removal (or within 20 years in the case of a second or subsequent removal or at any time in the case of an alien convicted of an aggravated felony) is inadmissible.",
+   "and who seeks admission within 10 years of the date of such alien's departure or removal (or within 20 years of such date in the case of a second or subsequent removal or at any time in the case of an alien convicted of an aggravated felony) is inadmissible.",
+   "Clauses (i) and (ii) shall not apply to an alien seeking admission within a period if, prior to the date of the alien's reembarkation at a place outside the United States or attempt to be admitted from foreign contiguous territory, the Attorney General has consented to the alien's reapplying for admission."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "United States Code 2024 edition. Primary law: section 212(a)(9)(A) of the Immigration and Nationality Act. Clause (i) covers arriving aliens ordered removed on arrival; clause (ii) covers everyone else ordered removed or who departed under an outstanding order.",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-651",
+  "statement": "A person unlawfully present for more than 180 days but less than 1 year who departs is inadmissible for 3 years, and one unlawfully present for 1 year or more is inadmissible for 10 years; presence without admission or parole counts as unlawful presence, and the Attorney General has sole discretion to waive the bar for the spouse, son or daughter of a citizen or permanent resident on a showing of extreme hardship to the citizen or resident spouse or parent (Immigration and Nationality Act).",
+  "claim": "data",
+  "figures": [
+   "180 days",
+   "3 years",
+   "10 years"
+  ],
+  "source": "SRC-4387",
+  "anchor": [
+   "was unlawfully present in the United States for a period of more than 180 days but less than 1 year, voluntarily departed the United States",
+   "and again seeks admission within 3 years of the date of such alien's departure or removal, or",
+   "has been unlawfully present in the United States for one year or more, and who again seeks admission within 10 years of the date of such alien's departure or removal from the United States,",
+   "or is present in the United States without being admitted or paroled.",
+   "The Attorney General has sole discretion to waive clause (i) in the case of an immigrant who is the spouse or son or daughter of a United States citizen or of an alien lawfully admitted for permanent residence, if it is established to the satisfaction of the Attorney General that the refusal of admission to such immigrant alien would result in extreme hardship to the citizen or lawfully resident spouse or parent of such alien."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "United States Code 2024 edition. Primary law: section 212(a)(9)(B) of the Immigration and Nationality Act (the 3-year and 10-year bars). Exceptions for minors, asylum applicants, family unity beneficiaries, battered women and children and trafficking victims are in clause (iii) of the saved text; the waiver is in clause (v). Parents of citizens, and people with no qualifying spouse or parent, have no waiver in this clause.",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-652",
+  "statement": "A person unlawfully present for an aggregate of more than 1 year, or previously ordered removed, who enters or attempts to reenter without being admitted is inadmissible under the Immigration and Nationality Act; the only consent exception applies to one seeking admission more than 10 years after the last departure.",
+  "claim": "data",
+  "figures": [
+   "1 year",
+   "10 years"
+  ],
+  "source": "SRC-4387",
+  "anchor": [
+   "has been unlawfully present in the United States for an aggregate period of more than 1 year, or",
+   "has been ordered removed under section 1225(b)(1) of this title, section 1229a of this title, or any other provision of law,",
+   "and who enters or attempts to reenter the United States without being admitted is inadmissible.",
+   "Clause (i) shall not apply to an alien seeking admission more than 10 years after the date of the alien's last departure from the United States if, prior to the alien's reembarkation at a place outside the United States or attempt to be readmitted from a foreign contiguous territory, the Secretary of Homeland Security has consented to the alien's reapplying for admission."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "United States Code 2024 edition. Primary law: section 212(a)(9)(C) of the Immigration and Nationality Act (the permanent bar). Its only waiver, in clause (iii), is for VAWA self-petitioners.",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-653",
+  "statement": "When the government finds that a person reentered illegally after removal or departure under a removal order, the prior order is reinstated, cannot be reopened or reviewed, and the person is \"not eligible and may not apply for any relief under this chapter\" under the Immigration and Nationality Act.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4388",
+  "anchor": [
+   "the prior order of removal is reinstated from its original date and is not subject to being reopened or reviewed, the alien is not eligible and may not apply for any relief under this chapter, and the alien shall be removed under the prior order at any time after the reentry."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "United States Code 2024 edition. Primary law: section 241(a)(5) of the Immigration and Nationality Act. Legislation that lets reinstated-order holders apply for status has to override this paragraph by name, as S. 744 did (EV-IMM-656).",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-654",
+  "statement": "The Senate-passed Border Security, Economic Opportunity, and Immigration Modernization Act set aside most inadmissibility grounds for registered provisional immigrants: sections 212(a)(4), (5), (7) and (9)(B) did not apply at all, and the unlawful-entry, false-claim and permanent-bar grounds applied only if based on unlawful entry after enactment; the Secretary could waive any other ground except those listed.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4389",
+  "anchor": [
+   "``(I) paragraphs (4), (5), (7), and\n(9)(B) of section 212(a) shall not\napply;",
+   "``(II) subparagraphs (A), (C), (D),\n(F), and (G) of section 212(a)(6) and\nparagraphs (9)(C) and (10)(B) of\nsection 212(a) shall not apply unless\nbased on the act of unlawfully entering\nthe United States after the date of the\nenactment of the Border Security,\nEconomic Opportunity, and Immigration",
+   "``(III) paragraphs (6)(B) and\n(9)(A) of section 212(a) shall not\napply unless the relevant conduct began\non or after the date on which the alien\nfiles an application for registered\nprovisional immigrant status under this",
+   "``(i) In general.--The Secretary may waive\nthe application of subparagraph (A)(i)(III) or\nany provision of section 212(a) that is not\nlisted in clause (ii) on behalf of an alien for\nhumanitarian purposes, to ensure family unity,\nor if such a waiver is otherwise in the public\ninterest. Any discretionary authority to waive\ngrounds of inadmissibility under section 212(a)\nconferred under any other provision of this Act\nshall apply equally to aliens seeking",
+   "``(I) subparagraph (B), (C),\n(D)(ii), (E), (G), (H), or (I) of\nsection 212(a)(2);\n``(II) section 212(a)(3);\n``(III) subparagraph (A), (C), (D),\nor (E) of section 212(a)(10); or\n``(IV) with respect to\nmisrepresentations relating to the\napplication for registered provisional"
+  ],
+  "grade": "A",
+  "fact_date": "2013-06-27",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "S. 744 (113th Congress) as passed by the Senate on June 27, 2013; never enacted. Section 245B(b)(3)(A)(ii)(I): 212(a)(4), (5), (7), (9)(B) do not apply. (II): 212(a)(6)(A), (C), (D), (F), (G), (9)(C), (10)(B) do not apply unless based on unlawfully entering after the date of enactment. (III): 212(a)(6)(B) and (9)(A) do not apply unless the conduct began on or after the date the person files. Section 245B(b)(3)(B)(i): waiver of any other 212(a) ground, for humanitarian purposes, family unity or the public interest; (B)(ii): no waiver of 212(a)(2)(B), (C), (D)(ii), (E), (G), (H), (I), 212(a)(3), 212(a)(10)(A), (C), (D), (E), or 212(a)(6)(C)(i) misrepresentation relating to the application. Criminal bars are in (b)(3)(A)(i) and terrorism in (A)(iii).",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-655",
+  "statement": "Under the Senate-passed Border Security, Economic Opportunity, and Immigration Modernization Act, a person apprehended between enactment and the end of the application period who appears prima facie eligible had to be given a reasonable opportunity to apply and could not be removed until a final administrative determination was made on the application.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4389",
+  "anchor": [
+   "``(5) Aliens apprehended before or during the application\nperiod.--If an alien who is apprehended during the period",
+   "appears prima facie eligible for registered provisional\nimmigrant status, to the satisfaction of the Secretary, the\nSecretary--\n``(A) shall provide the alien with a reasonable\nopportunity to file an application under this section\nduring such application period; and\n``(B) may not remove the individual until a final\nadministrative determination is made on the\napplication.",
+   "``(II) may not be detained by the\nSecretary or removed from the United\nStates unless the Secretary makes a\nprima facie determination that such\nalien is, or has become, ineligible for\nregistered provisional immigrant status"
+  ],
+  "grade": "A",
+  "fact_date": "2013-06-27",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "S. 744 (113th Congress) as passed by the Senate; never enacted. Section 245B(c)(5) covers apprehension before or during the application period; section 245B(c)(7)(D)(i)(II) bars detention or removal from the day an application is filed until the final decision unless the Secretary makes a prima facie determination of ineligibility under subsection (b)(3); (c)(7)(A) bars detention or removal of a registered provisional immigrant; (c)(7)(B) requires termination of removal proceedings for people who are prima facie eligible. The application period is one year from the final rule, extendable by 18 months (245B(c)(3)).",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-656",
+  "statement": "Under the Senate-passed Border Security, Economic Opportunity, and Immigration Modernization Act, a person present in the United States under an order of exclusion, deportation, removal or voluntary departure could apply notwithstanding the order or section 241(a)(5); if granted status, the person had to file a motion to reopen, to be granted unless a ground of ineligibility was shown by clear and convincing evidence.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4389",
+  "anchor": [
+   "``(C) Treatment of certain aliens.--\n``(i) In general.--If an alien who meets\nthe eligibility requirements set forth in\nsubsection (b) is present in the United States\nand has been ordered excluded, deported, or\nremoved, or ordered to depart voluntarily from\nthe United States under any provision of this\nAct--\n``(I) notwithstanding such order or\nsection 241(a)(5), the alien may apply\nfor registered provisional immigrant\nstatus under this section; and\n``(II) if the alien is granted such\nstatus, the alien shall file a motion\nto reopen the exclusion, deportation,\nremoval, or voluntary departure order,\nwhich motion shall be granted unless 1\nor more of the grounds of ineligibility\nis established by clear and convincing\nevidence.\n``(ii) Limitations on motions to reopen.--",
+   "``(ii) Limitations on motions to reopen.--\nThe limitations on motions to reopen set forth\nin section 240(c)(7) shall not apply to motions\nfiled under clause (i)(II)."
+  ],
+  "grade": "A",
+  "fact_date": "2013-06-27",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "S. 744 (113th Congress) as passed by the Senate; never enacted. The order is not cancelled on filing or on a grant automatically: the person must file the motion, and the limitations on motions to reopen in section 240(c)(7) do not apply. Section 241(a)(5) is the reinstatement paragraph (EV-IMM-653).",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-657",
+  "statement": "Under the Senate-passed Border Security, Economic Opportunity, and Immigration Modernization Act, a person who departed under a removal order and is outside the United States, or who reentered illegally after December 31, 2011 without consent, was ineligible to apply, but the Secretary could waive this for the spouse or child of a citizen or permanent resident, the parent of a citizen or permanent resident child, and certain childhood arrivals.",
+  "claim": "data",
+  "figures": [
+   "December 31, 2011"
+  ],
+  "source": "SRC-4389",
+  "anchor": [
+   "``(6) Eligibility after departure.--\n``(A) In general.--An alien who departed from the\nUnited States while subject to an order of exclusion,\ndeportation, or removal, or pursuant to an order of\nvoluntary departure and who is outside of the United\nStates, or who has reentered the United States\nillegally after December 31, 2011 without receiving the\nSecretary's consent to reapply for admission under\nsection 212(a)(9), shall not be eligible to file an\napplication for registered provisional immigrant\nstatus.",
+   "``(B) Waiver.--The Secretary, in the Secretary's\nsole and unreviewable discretion, subject to\nsubparagraph (D), may waive the application of\nsubparagraph (A) on behalf of an alien if the alien--\n``(i) is the spouse or child of a United\nStates citizen or lawful permanent resident;\n``(ii) is the parent of a child who is a\nUnited States citizen or lawful permanent\nresident;\n``(iii) meets the requirements set forth in\nclauses (ii) and (iii) of section\n245D(b)(1)(A); or\n``(iv) meets the requirements set forth in\nsection 245D(b)(1)(A)(ii), is 16 years or older\non the date on which the alien applies for\nregistered provisional immigrant status, and",
+   "``(C) Eligibility.--Subject to subparagraph (D) and\nnotwithstanding subsection (b)(2), section 241(a)(5),\nor a prior order of exclusion, deportation, or removal,\nan alien described in subparagraph (B) who is otherwise\neligible for registered provisional immigrant status\nmay file an application for such status."
+  ],
+  "grade": "A",
+  "fact_date": "2013-06-27",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "S. 744 (113th Congress) as passed by the Senate; never enacted. Section 245B(c)(6)(A) rule, (B) waiver in the Secretary's sole and unreviewable discretion, (C) eligibility notwithstanding subsection (b)(2), section 241(a)(5) or a prior order. The third waiver category is a person who meets the requirements of section 245D(b)(1)(A)(ii) and (iii); the fourth is a person 16 or older who meets 245D(b)(1)(A)(ii) and had 3 years of presence in the 6 years before enactment.",
+  "supports": [
+   "dossiers/immigration/8-change-our-minds.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-658",
+  "statement": "The U.S. Citizenship Act of 2021 (as introduced) would have let the Secretary waive the physical-presence requirement for a person removed or departed on or after January 20, 2017 who had been continuously present for at least 3 years before leaving, and would have required a procedure to apply for status from outside the United States.",
+  "claim": "data",
+  "figures": [
+   "January 20, 2017",
+   "3 years"
+  ],
+  "source": "SRC-4390",
+  "anchor": [
+   "``(4) Waiver for noncitizens previously removed.--\n``(A) In general.--With respect to a noncitizen who\nwas removed from or who departed the United States on\nor after January 20, 2017, and who was continuously\nphysically present in the United States for not fewer\nthan 3 years immediately preceding the date on which\nthe noncitizen was removed or departed, the Secretary\nmay waive, for humanitarian purposes, to ensure family\nunity, or if such a waiver is otherwise in the public\ninterest, the application of--\n``(i) paragraph (3)(A); and\n``(ii) in the case of an applicant for",
+   "``(B) Application procedure.--The Secretary, in\nconsultation with the Secretary of State, shall\nestablish a procedure by which a noncitizen, while\noutside the United States, may apply for status under\nsection 245B, 245C, 245D, 245E, or 245F, as applicable,\nif the noncitizen would have been eligible for such"
+  ],
+  "grade": "A",
+  "fact_date": "2021-02-18",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "H.R. 1177 (117th Congress) as introduced February 18, 2021, never enacted. The provision is new INA section 245G(b)(4), added by section 1101(a). The waiver reaches section 245G(b)(3)(A) (physical presence in the United States on the date of application) and, for lawful prospective immigrant status applicants under 245B who have not reentered unlawfully after January 1, 2021, section 245G(c)(3) (ineligibility of people who departed under an order and were outside the United States on January 1, 2021 or reentered unlawfully). The waiver is for humanitarian purposes, to ensure family unity, or in the public interest. The bill's text as introduced; later amendments to it are not in this version.",
+  "supports": [
+   "dossiers/immigration/8-change-our-minds.md",
+   "dossiers/immigration/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-659",
+  "statement": "ICE reported 483,200 deportations in FY26, a record, against 442,640 in FY25.",
+  "claim": "data",
+  "figures": [
+   "483,200",
+   "442,640"
+  ],
+  "source": "SRC-4391",
+  "anchor": [
+   "In FY26, ICE carried out 483,200 deportations, which broke the record for the highest number of deportations in the agency's history.",
+   "This surpasses the previous record held by FY25, which saw 442,640 deportations."
+  ],
+  "locator": "Opening paragraphs",
+  "grade": "B",
+  "fact_date": "2026-11-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "ICE press release of November 12, 2026, issued by the agency that carries out removals under the second Trump administration; the agency has a stake in reporting a high count. The release gives no definition or table. ICE's statistics page defines its removal data as including returns (voluntary returns, voluntary departures and withdrawals under docket control), so the two counts may include them; the release itself does not say. The FY2025 count is the release's figure, not from an ICE annual report: as of mid-March 2026 the FY2025 annual report had not been published (AP, March 15, 2026, not saved). Compare ICE's FY2024 count of 271,484 removals of people with final orders (ICE Annual Report FY2024, not saved), which uses a different definition.",
+  "supports": [
+   "dossiers/immigration/7-validation.md",
+   "dossiers/immigration/8-change-our-minds.md"
   ]
  }
 ]

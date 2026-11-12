@@ -1,6 +1,6 @@
 # A new consensus on immigration: what would change our minds
 
-Role: section 8 of the immigration dossier. For each decided choice it gives the finding that would change it and what we would do instead. It also covers the political and legal events that would force a fallback, what is left open, the hard stops, and when the evidence arrives. Status: draft (stage E, board row I4, PR 2), on `DEC-2026-11-12-07`. A change to a decided choice goes back to Espen by memo; the fallbacks below are the options the memos already weighed.
+Role: section 8 of the immigration dossier. For each decided choice it gives the finding that would change it and what we would do instead. It also covers the political and legal events that would force a fallback, what is left open, the hard stops, and when the evidence arrives. Status: reviewed (L2; `review-milestone.md`), with the review's fix steps applied; L3 after the re-check. On `DEC-2026-11-12-07` and `-12`. A change to a decided choice goes back to Espen by memo; the fallbacks below are the options the memos already weighed.
 
 ## By choice
 
@@ -37,7 +37,7 @@ Role: section 8 of the immigration dossier. For each decided choice it gives the
 - **The parliamentarian strikes the restorations.** They move to the immigration act.
 - **A court enjoins the records match.** Memo 2 B applies until it is resolved; work permits on filing continue.
 - **The FY2030 appropriations act is late.** A continuing resolution at the base level funds about 41,500 beds [EV-IMM-362], above the cap; the act's cap binds from signature. A third enforcement reconciliation law is the event that would break the plan's detention design.
-- **A border surge during the debate.** The surge rule is in the act and the cutoff is the signature date, so a surge changes no eligibility. If a vote count then needs the 2024 bill's emergency authority (memo 4 B), it goes back to Espen.
+- **A border surge during the debate.** People who arrive before the act is signed can reach registered status (IMM-1.03), though not tier A, whose cutoff is January 1 of that year (IMM-1.04). The surge rule answers the flow, and Espen has been asked whether to keep that cutoff as decided (milestone review, question 2); if a vote count needs an earlier one, or the 2024 bill's emergency authority (memo 4 B), it goes back to Espen.
 - **A later Congress.** Green cards are not revocable, so status holds. The rules in statute (priorities, the cap, the firewall) can be repealed, which is why they are in statute rather than guidance.
 
 ## Left open (not decided)
@@ -46,7 +46,10 @@ Role: section 8 of the immigration dossier. For each decided choice it gives the
 | --- | --- | --- |
 | Names of the new DHS components | The act names them; "Humanitarian Processing Service" is not adopted | None for the design |
 | The work routes' ceilings after three years | Kept, raised or lowered from the Labor Department's counts | The decided programs' hiring needs |
-| The judges IMM-3.08 needs | About 1,670 in all, 920 added (range about 860-2,400) on the first model; a fuller docket model with democratic renewal | CRT-5's design and score (democratic renewal) |
+| The judges IMM-3.08 needs | About 1,670 in all, 920 added (range about 860-2,400) on the first model; a fuller docket model with democratic renewal; the added judges on terms that end once the backlog clears (saves about $5.5 billion over FY2036-39, `6-cost.md`, part 1) | CRT-5's design and score (democratic renewal) |
+| The court plan as a whole (IMM-3.08 to 3.12) | As specified here, or as democratic renewal's judicial branch plan reshapes it | Espen expects it to shift again once that plan is done (November 12); the requirements and figures here stand until then |
+| Long-settled residents removed or pushed out in 2025-28 | (a) A route from abroad for people here at least three years before removal, on the U.S. Citizenship Act's model [EV-IMM-658], with S. 744's family-unity waiver for people who reentered [EV-IMM-657]; (b) no route. With Espen (milestone review, question 1) | Espen's answer. ICE reported 442,640 removals in FY2025 and 483,200 in FY2026 [EV-IMM-659] |
+| The single plan's coverage of people without status, at about $0.32 trillion over FY2030-39 | Keep it from wave 1 as decided, or one of memo 6's alternatives. With Espen (milestone review, question 3) | Espen's answer; the count left without status after the first filings |
 | E-Verify's state preemption | One federal rule (working choice) or state rules allowed above it | Employers in mandate states facing two systems |
 | The CAP-7 overlap with USCIS | Zero, or a stated purpose | The booking step (section 6, part 6) |
 

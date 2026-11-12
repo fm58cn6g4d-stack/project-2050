@@ -54,7 +54,7 @@ The legacy design (IMM-3) has asylum officers decide merits within 180 days, reg
 
 The court's form, tenure and Article III fallback stay with democratic renewal (CRT-5, legacy about $0.03 trillion [EV-IMM-576]). This flagship needs five things from it, whatever its form:
 
-1. **Capacity.** Repeal the 800-judge cap [EV-IMM-105]. Judges sized to clear the backlog in about six years at today's inflow, after legalization removes long-settled residents' cases (judgment: about 1,000-1,200 judges with support staff, set from a docket model in section 6).
+1. **Capacity.** Repeal the 800-judge cap [EV-IMM-105]. Judges sized to clear the backlog in about six years at today's inflow, after legalization removes long-settled residents' cases (judgment: about 1,000-1,200 judges with support staff, set from a docket model in section 6). *Section 6's model, after the decision: about 1,670 judges in all, 920 added (`../6-cost.md`); the court plan is expected to change with democratic renewal's judicial branch plan.*
 2. **Timelines.** Detained cases decided within 90 days; review of an officer's asylum denial within 180 days; non-detained cases within two years once the backlog is cleared.
 3. **Notice and in absentia limits.** Hearing notices sent to the address in the records the government holds (memo 2), with a right to reopen an order issued without proper notice; 15% of in absentia orders in 2008-18 were later overturned [EV-IMM-316].
 4. **Independence.** Judges not removable at will by the Attorney General; the 2026 court bill's Article I structure [EV-IMM-113] is the base CRT-5 uses.
