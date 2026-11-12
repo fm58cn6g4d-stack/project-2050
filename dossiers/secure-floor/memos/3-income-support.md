@@ -1,6 +1,6 @@
 # Memo 3: Income support beyond the child benefit: the earned income credit, SNAP and SSI
 
-Role: decision memo for Espen, forks 4 and 5 of the secure floor (`../README.md`, "Forks for S3"; `../3-design.md`). Status: draft for decision (board row S3); nothing here is decided. Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions. Unemployment insurance and the minimum wage stay with the work flagship.
+Role: decision memo for Espen, forks 4 and 5 of the secure floor (`../README.md`, "Forks for S3"; `../3-design.md`). Status: **decided** (`DEC-2026-11-12-06`): part 1 **B** and part 2 **B**, as recommended. Specified in `../4-specification.md` (INC-1 to INC-3, new agenda items at L2). Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions. Unemployment insurance and the minimum wage stay with the work flagship.
 
 **Decision line.** Recommended: **part 1 B, a larger earned income credit for workers without children (the 2021 design, permanent), with the credit for families kept; part 2 B, restore SNAP's 2025 cuts and raise and index SSI's asset limits.** Cost: part 1 about **$0.15 trillion over FY2030-39, about $16 billion in FY2040**; part 2 about **$0.21-0.26 trillion over FY2030-39, about $27-33 billion in FY2040** (judgment, on CBO's and SSA's actuaries' scores). Evidence: randomized trials (split) for part 1; CBO's scores and the program record for part 2.
 
