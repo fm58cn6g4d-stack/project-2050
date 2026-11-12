@@ -23,6 +23,7 @@ def main():
 
     base, dec, pbs, pb = (R[k] for k in ("BASE", "DEC", "PB+S", "PB"))
     tD, tS, tP, tE, tT = dec["tests"], pbs["tests"], pb["tests"], R["DEC+ENV"]["tests"], R["DEC+TRIMS"]["tests"]
+    tC, tR = R["DEC-CAUT"]["tests"], R["DEC-R1"]["tests"]   # disclosed beside the tests (budget choices 2 and 4)
 
     w("# Project 2050: long-term fiscal model (all of government, 1962-2056)")
     w("")
@@ -52,7 +53,10 @@ def main():
     else:
         w(f"- **The decided program (scenario DEC) falls short of D4's maturity test.** The general fund runs a primary deficit of {f(tD['gf_2040_pct'],2)}% of GDP in 2040" + (f" (about ${f(tD['gf_2040_pct']/100*gdp40,0)}B)" if gdp40 else "") + f", and {f(tD['gf_worst_2040_56_pct'],2)}% in its worst year to 2056; permanent programs need that much more permanent revenue or less permanent cost. The other D4 tests are below.")
     w(f"- Over 2030-39 the general fund runs a primary deficit of ${f(tD['gf_10yr_primary'],2)}T, mostly the time-limited lines the investment envelope holds (${f(tD['envelope_used'],2)}T of borrowing readings and CAP-7S's rebuild surge, of ${f(tD['envelope_10yr'],1)}T of room) plus later-Congress rows.")
-    w(f"- **It stays below the real baseline, by more each decade.** Total debt is {f(yr('DEC',2039)['debt_pct'])}% of GDP in 2039 and {f(a56['debt_pct'])}% in 2056, {f(tD['margin_pts']['2035'],1)}, {f(tD['margin_pts']['2045'],1)} and {f(tD['margin_pts']['2056'],1)} points below the baseline in 2035, 2045 and 2056. Net interest is {f(tD['interest_pct']['2056'],2)}% of GDP in 2056 against the baseline's {f(tD['base_interest_pct']['2056'],2)}%. Most of the improvement is SS-1, which stays in its trust fund under D4 but lowers debt held by the public; CBO's baseline pays scheduled benefits after the trust fund runs out, so this is a real saving against it.")
+    if tD["below_baseline_every_year"]:
+        w(f"- **It stays below the real baseline, by more each decade.** Total debt is {f(yr('DEC',2039)['debt_pct'])}% of GDP in 2039 and {f(a56['debt_pct'])}% in 2056, {f(tD['margin_pts']['2035'],1)}, {f(tD['margin_pts']['2045'],1)} and {f(tD['margin_pts']['2056'],1)} points below the baseline in 2035, 2045 and 2056. Net interest is {f(tD['interest_pct']['2056'],2)}% of GDP in 2056 against the baseline's {f(tD['base_interest_pct']['2056'],2)}%. Most of the improvement is SS-1, which stays in its trust fund under D4 but lowers debt held by the public; CBO's baseline pays scheduled benefits after the trust fund runs out, so this is a real saving against it.")
+    else:
+        w(f"- **Total debt does not stay below the real baseline.** It is {f(yr('DEC',2039)['debt_pct'])}% of GDP in 2039 and {f(a56['debt_pct'])}% in 2056, against the baseline's {f(yr('BASE',2039)['debt_pct'])}% and {f(b56['debt_pct'])}%: {f(-tD['margin_pts']['2035'],1)}, {f(-tD['margin_pts']['2045'],1)} and {f(-tD['margin_pts']['2056'],1)} points above it in 2035, 2045 and 2056. Net interest is {f(tD['interest_pct']['2056'],2)}% of GDP in 2056 against the baseline's {f(tD['base_interest_pct']['2056'],2)}%. Under the decided fiscal rule each dossier reports its cost and the financing settlement balances the plan (DEC-2026-11-10-05); this is the running plan-wide total, not a verdict on any one dossier.")
     w(f"- **The structural gap remains, and is reported, not required.** The program narrows the fiscal gap from {f(base['fiscal_gap_hold_2029'],2)}% to {f(dec['fiscal_gap_hold_2029'],2)}% of GDP. Bending the total path down (peak by the mid-2030s, falling through the 2040s) would take a sustainability layer of about 2% of GDP (Decision Brief 2). Under the decided rule that is a separate track (health cost growth, SS-5, further revenue), not a condition on the program.")
     w(f"- **Filling the rest of the envelope is affordable.** New time-limited investments using the remaining ~${f(tD['envelope_room'],2)}T of room, with no return counted, add about {f(yr('DEC+ENV',2056)['debt_pct']-a56['debt_pct'],1)} points to 2056 debt and take the ten-year general-fund deficit to ${f(tE['gf_10yr_primary'],2)}T.")
     w(f"- **Interest rates are the biggest risk to every path.** One point higher on every rate from 2030, reaching existing debt as it rolls over, takes the baseline to {f(yr('BASE-R1',2056)['debt_pct'])}% of GDP in 2056 and the decided program to {f(yr('DEC-R1',2056)['debt_pct'])}%. CBO-style dynamic feedback (about −$0.56T in the window) costs about {f(yr('DEC-DYN',2056)['debt_pct']-a56['debt_pct'],1)} points by 2056 and would turn the 2040 balance to {f(R['DEC-DYN']['tests']['gf_2040_pct'],2)}% of GDP; D4 counts no dynamic revenue, but the cushion is thin against it.")
@@ -124,8 +128,8 @@ def main():
     # ---- D4 tests ----
     w("## D4 tests (D4-B as decided, Decision Brief 2)")
     w("")
-    w("| Test | PB+S | DEC (decided) | DEC+ENV | DEC+TRIMS (reference) |")
-    w("| --- | --- | --- | --- | --- |")
+    w("| Test | PB+S | DEC (decided) | DEC+ENV | DEC+TRIMS (reference) | DEC-CAUT (cautious end, disclosure) | DEC-R1 (rates +1 point, disclosure) |")
+    w("| --- | --- | --- | --- | --- | --- | --- |")
     yn = lambda b: "passes" if b else "fails"
     rows = [
         ("1. Paid for at maturity: GF balance in FY2040, % of GDP (≤ 0 passes)", lambda t: f(t["gf_2040_pct"], 2)),
@@ -138,14 +142,20 @@ def main():
         ("Ten-year GF primary deficit, $T (information; D4-A's old test)", lambda t: f(t["gf_10yr_primary"], 2)),
         ("GF-attributable debt, % of GDP: 2039 / 2045 / 2056 (information)", lambda t: f"{f(t['gf_debt_pct']['2039'],1)} / {f(t['gf_debt_pct']['2045'],1)} / {f(t['gf_debt_pct']['2056'],1)}"),
     ]
+    # The disclosure columns carry no pass-or-fail condition (DEC-2026-11-08-04 and -06): the same
+    # readings, with "would pass" or "would not pass" in place of a verdict.
+    def disc(fn, t):
+        return fn(t).replace("(passes)", "(would pass)").replace("(fails)", "(would not pass)").replace(
+            "passes", "would pass").replace("fails", "would not pass")
     for label, fn in rows:
-        w(f"| {label} | {fn(tS)} | {fn(tD)} | {fn(tE)} | {fn(tT)} |")
+        w(f"| {label} | {fn(tS)} | {fn(tD)} | {fn(tE)} | {fn(tT)} | {disc(fn, tC)} | {disc(fn, tR)} |")
     w("")
     w("Reading the tests:")
     w("- **CLI-7C contingent exposure:** $75–150B, disclosed and unscored in every D4 scenario; expected net cost is scored separately. Post-2050 climate flows use a constant-real-2050 extension, not an emissions forecast.")
     w("- **Decided rule (Oct 20).** Permanent programs are paid for at maturity, tested in FY2040 (FY2039 net of time-limited lines) and every later year. Time-limited investments may be borrowed for inside an envelope of 0.5% of GDP to 2034, tapering to zero by 2040, which holds the borrowing readings (C21, C30-C32, C37) and CAP-7S's rebuild surge (C42); unused room does not carry forward, and the envelope is available only while test 1 passes. Guardrails are measured against the real (CBO, adjusted) baseline, not the program's own debt. Judgment Fund-backed contracts are counted (CLI-9 at full cost when obligated; AAJA damages as a disclosed contingent-liability line). No dynamic revenue is counted.")
     w("- \"Social-insurance funds whole on 75 years\" is tested in legacy/index/dedicated-funds.md, not here (on SSA's 2026 scores the D8 baseline closes about 64% of the 75-year gap and SS-5 brings it to about 84%).")
     w("- The fiscal gap (scenario table) is the reported sustainability track.")
+    w(f"- **Disclosed beside the tests, not tests** (budget choices 2, 4 and 5; DEC-2026-11-08-04, -06 and -07). *DEC-CAUT* is the cautious end: every bill at its ledger high cost and every base revenue row at its low yield, each on its own profile (options, climate rows and the dynamic table have no ledger range and stay central). It adds ${f((R['DEC-CAUT']['tests']['unified_10yr_primary'] - tD['unified_10yr_primary']), 2)}T to the ten-year unified primary deficit. *DEC-R1* is the one-point interest stress, phased in as debt rolls over. The midpoints at CBO's rates decide; these two columns show how far the readings move. The general-fund rows (GF balance and GF-attributable debt) are the reading without Social Security beside the unified guardrails.")
     w("")
 
     # ---- FY2029, disclosed (budget choice 3) ----
@@ -210,7 +220,7 @@ def main():
     w("- State and local budgets.")
     w("- Macroeconomic feedback beyond the DY sensitivity.")
     w("- The carbon fee's own schedule after 2037: its net is held inside CLI-5's profile.")
-    w("- Range uncertainty: only midpoints are profiled; the low and high rows can be added the same way.")
+    w("- Range uncertainty: the tests use midpoints; the cautious end (DEC-CAUT) is profiled for disclosure, and the optimistic end is not.")
     w("")
     w("**Extending it:**")
     w("- **New CBO vintage:** `python3 fiscal-data.py --fetch` pulls CBO's latest standardized files. Update FY2026_ACTUAL and ADJUSTMENTS, then rerun.")

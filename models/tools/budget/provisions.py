@@ -421,8 +421,9 @@ def climate_path(spec, S=None, B=None):
 
 
 def _spendout(group):
-    """B2's CBO-calibrated discretionary spend-out shares for a group (defense or nondefense),
-    year of spending 0-3, as stored in spendout-discretionary-cbo.csv (ASM-SPENDOUT)."""
+    """B2's discretionary spend-out shares for a group (defense or nondefense), by year of
+    spending (0-4 for defense, CBO's own rates; 0-3 for nondefense), as stored in
+    spendout-discretionary-cbo.csv (ASM-SPENDOUT)."""
     rows = sorted((r for r in D.table("spendout-discretionary-cbo") if r["group"] == group),
                   key=lambda r: int(r["year_of_spending"]))
     return [float(r["share"]) for r in rows]
@@ -447,13 +448,16 @@ def cbo_discretionary_outlays(group):
     library reads discretionary money: B2's shares applied to CBO's projected discretionary
     budget authority (account file), plus, for nondefense, the outlays of accounts with no
     discretionary budget authority (highway, transit and airport grants above all), carried as
-    outlays on their own. {year: (rebuilt, CBO's own)}. B4 benchmarks against it."""
+    outlays on their own. {year: (rebuilt, CBO's own)}. B4 benchmarks against it. The years start
+    once every share has CBO budget authority behind it (CBO's account file starts in FY2026):
+    FY2029 for four shares, FY2030 for five."""
     cat = group.capitalize()
     ba = D.cbo_spending("ba", "discretionary", cat)
     out = D.cbo_spending("outlays", "discretionary", cat)
     extra = D.cbo_spending("outlays_without_ba", "discretionary", cat) if group == "nondefense" else {}
     back = spendout_apply(ba, group)
-    return {y: (back[y] + extra.get(y, 0.0), out[y]) for y in range(2029, 2037)}
+    first = min(ba) + len(_spendout(group)) - 1
+    return {y: (back[y] + extra.get(y, 0.0), out[y]) for y in range(max(first, 2029), 2037)}
 
 
 def spendout_gap(ba, outlays, group, years=range(W0, W1 + 1)):
