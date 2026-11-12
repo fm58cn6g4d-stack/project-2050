@@ -866,14 +866,14 @@ Discretionary budget authority is CBO's timing-adjusted series, the only one CBO
 
 ### ASM-SPENDOUT
 
-Spend-out of discretionary budget authority: four-year shares with OMB's FY1993-2019 timing (ground transportation taken out of nondefense), scaled per group so CBO's projected FY2029-36 budget authority gives CBO's projected outlays.
+Spend-out of discretionary budget authority. Defense: CBO's own rates, the average of its spend-out of three regular defense acts (FY2014, FY2017 and FY2023 NDAA estimates), five years, unfitted and unscaled. Nondefense: four-year shares with OMB's FY1993-2019 timing (ground transportation taken out), scaled so CBO's projected FY2029-36 budget authority gives CBO's projected outlays.
 
-- **Value:** defense 44/34/24/-4% (sum 0.986; scale 1.009, fit within 0.4%); nondefense 25/36/30/10% (sum 1.004; scale 0.998, fit within 0.8%) (share of BA by year)
+- **Value:** defense 61/23/8/4/2% (sum 0.972; scale 1; rebuilds CBO's FY2030-36 outlays within 1.7%, out of sample); nondefense 25/36/30/10% (sum 1.004; scale 0.998, fit within 0.8%) (share of BA by year)
 - **How much it matters:** medium: turns outlays into budget authority for every discretionary provision; outlays and headline figures do not depend on it
-- **Where:** models/tools/budget/build_data.py:296 (SPEND_YEARS), 403 (CAL_YEARS), 421 (spendout_cbo); models/data/budget/spendout-discretionary-cbo.csv; read by models/tools/budget/provisions.py:351-356 (_spendout)
-- **Source:** OMB Historical Tables 5.6 and 8.7 (FY2027 Budget) for timing; CBO, Spending Projections by Budget Account (Feb 2026, publication 51142) for the level
-- **Decided by:** Strategy session (handoff after #114: carry highway and transit separately); method proposed by B2, ported by B3 (#118); unrecorded as a decision
-- **Notes:** A fit to history, not a legal spend-out rule. Highway, transit and airport outlays with no discretionary budget authority are carried as outlays on their own (ASM-ZERO-BA-OUTLAYS). The earlier history-only fit, spendout-discretionary.csv (defense 44/34/24/-4%, nondefense 27/37/31/15%, sum 1.10), is still published but no longer read by the provision library.
+- **Where:** models/tools/budget/build_data.py:495 (CBO_DEFENSE_ACTS), 311 (SPEND_YEARS), 471 (CAL_YEARS), 511 (spendout_cbo); models/data/budget/spendout-discretionary-cbo.csv; read by models/tools/budget/provisions.py:423 (_spendout)
+- **Source:** CBO cost estimates of the FY2014, FY2017 and FY2023 NDAAs (SRC-2454, SRC-2455, SRC-2456) for defense; OMB Historical Tables 5.6 and 8.7 (FY2027 Budget) for nondefense timing; CBO, Spending Projections by Budget Account (Feb 2026, publication 51142) for the nondefense level and the defense check
+- **Decided by:** Strategy session (handoff after #114: carry highway and transit separately); method proposed by B2, ported by B3 (#118); defense switched to CBO's act rates by B6 (session_01UQzgBwob1SeDw4Qbrcr5AW); unrecorded as a decision
+- **Notes:** One average per group, not a legal spend-out rule or CBO's account-by-account rates: a single act's mix can spend much faster or slower (B4's PS-4a and PS-4b, bounded). Until B6's fix defense used OMB-history shares 44/34/24/-4%, whose negative fourth share spent an act 103% by year 3. Highway, transit and airport outlays with no discretionary budget authority are carried as outlays on their own (ASM-ZERO-BA-OUTLAYS). The earlier history-only fit, spendout-discretionary.csv (defense 44/34/24/-4%, nondefense 27/37/31/15%, sum 1.10), is still published but no longer read by the provision library.
 
 ### ASM-ZERO-BA-OUTLAYS
 
@@ -903,12 +903,12 @@ CBO's account-level spending projections, February 2026 baseline, the same vinta
 
 The provision library uses the spend-out shares as stored: no negative share is zeroed and no group is rescaled to sum to one.
 
-- **Value:** as stored; the defense year-4 share stays at -4.31% and defense shares sum to 0.986 (convention)
-- **How much it matters:** low: the sums are within 1.5% of one; ASM-BA-LEADS-OUTLAYS divides by the sum, so lifetime outlays are preserved
-- **Where:** models/tools/budget/provisions.py:351-356 (_spendout)
+- **Value:** as stored; every share is positive since B6's spend-out fix; defense shares sum to 0.972 (CBO's five-year tables leave out the last ~3%) and nondefense to 1.004 (convention)
+- **How much it matters:** low: the sums are within 3% of one; ASM-BA-LEADS-OUTLAYS divides by the sum, so lifetime outlays are preserved (defense budget authority reads about 3% above five-year outlays)
+- **Where:** models/tools/budget/provisions.py:423 (_spendout)
 - **Source:** Project method (B3, #118) on ASM-SPENDOUT
 - **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
-- **Notes:** Until #118 this row described zeroing the negative share and rescaling to one; that rescaling dropped the highway and transit outlays the old shares carried implicitly, behind B4's -11.1% nondefense miss.
+- **Notes:** Until #118 this row described zeroing the negative share and rescaling to one; that rescaling dropped the highway and transit outlays the old shares carried implicitly, behind B4's -11.1% nondefense miss. Until B6's spend-out fix the defense year-4 share was -4.31%.
 
 ### ASM-BA-LEADS-OUTLAYS
 
