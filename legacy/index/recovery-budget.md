@@ -55,7 +55,7 @@ These are approximate quintile averages including modeled benefits, not a D3 cer
 | --- | --- |
 | Education | Depletion: 2035; terminal reserve/outlays -2.59; rising: True |
 | Combined OASDI | Depletion: None; conservative model solvency: False; actuarial balance +0.50% payroll |
-| HI | Depletion: 2047; terminal reserve/cost -0.92; rising: True |
+| HI | Depletion: 2047; terminal reserve/cost 0.76; rising: True |
 | Leave, high take-up | Loan repaid 2058; terminal loan $0.0B |
 
 Combined OASDI has no modeled depletion through 2100; its reserve/cost ratio moves from 364.0% in 2095 to 363.1% in 2100. The final-period decline is 0.85 percentage points: the unchanged maximum-decline test of 0.5 points fails. Sustainability also requires no depletion and a terminal ratio of at least 100%. Actuarial balance: +0.495% of payroll. SSA administration is charged to OASDI in this case.

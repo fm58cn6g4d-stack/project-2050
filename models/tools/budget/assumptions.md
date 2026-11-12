@@ -14,7 +14,6 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - ASM-FY26-TOTALS: FY2026 preliminary actual totals replace CBO's February FY2026 projection
 - ASM-RATE-MARGINAL: Rate on the program's own borrowing through 2036: the higher of CBO's average rate on debt and a 40/60 blend of the 3-month bill and 10-year note
 - ASM-RATE-LT: Rate on the program's own borrowing after 2036: the baseline's implied average rate (net interest over last year's debt)
-- ASM-RATE-SHIFT: Rate stress case: one percentage point higher on all rates from 2030, reaching existing debt as it rolls over (ASM-RATE-ROLLOVER) and new borrowing (baseline and program) in full
 - ASM-PROF-DEFAULT: Default profile: starts FY2030, full in its first year, grows with GDP, permanent at the 2039 run rate
 - ASM-PROF-HEALTH: Health rows grow with CBO's own health category, so they keep a constant share of it
 - ASM-PROF-REVENUE: Revenue rows grow with their own tax base (the matching CBO revenue category), including bracket creep
@@ -50,7 +49,7 @@ The adopted baseline is CBO's February 2026 current-law baseline: history to FY2
 - **How much it matters:** high: every test and every "below the baseline" figure is measured against it
 - **Where:** models/tools/fiscal-data.py:32-38 (FILES); models/data/fiscal-baseline.csv
 - **Source:** CBO, The Budget and Economic Outlook: 2026 to 2036 (Feb 2026, publication 62105), via github.com/US-CBO/cbo-data; CBO, The Long-Term Budget Outlook: 2026 to 2056 (Feb 2026), via github.com/US-CBO/cbo-data
-- **Decided by:** Espen (D4-B guardrails are "against the real (CBO, adjusted) baseline", Decision Brief 2); Espen, Nov 8, 2026: CBO's latest baseline, with the 2027-28 changes as disclosed lines (choice 1, C; memo-budget-choices.md, PR #110; no DEC- entry yet)
+- **Decided by:** Espen (D4-B guardrails are "against the real (CBO, adjusted) baseline", Decision Brief 2); Espen, Nov 8, 2026: CBO's latest baseline, with the 2027-28 changes as disclosed lines (choice 1, C; memo-budget-choices.md, PR #110; DEC-2026-11-08-03)
 - **Notes:** The only baseline; B2 reproduces it and nothing selects another (WORKFLOW.md). Not yet rebuilt for CBO's 2027 baseline.
 
 ### ASM-BASE-LT-SHARES
@@ -235,7 +234,7 @@ Rate stress case: one percentage point higher on all rates from 2030, reaching e
 - **How much it matters:** high: the biggest single risk; 2056 baseline debt 180% becomes 217% of GDP (224% before B6 phased it in)
 - **Where:** models/tools/fiscal-model.py:42-43, 191-206, 334-348
 - **Source:** Project sensitivity; the size echoes CBO's rule-of-thumb tests
-- **Decided by:** unrecorded
+- **Decided by:** Espen, Nov 8, 2026: the guardrails are tested at CBO's projected rates and this case is reported beside them with no pass-or-fail condition (choice 4, A; DEC-2026-11-08-06); the one-point size is a project sensitivity, unrecorded
 - **Notes:** Reported as scenarios DEC-R1 and BASE-R1; the D4 tests are judged at CBO rates, not under this case.
 
 ### ASM-RATE-ROLLOVER
@@ -315,7 +314,7 @@ The scoring window is FY2030-39; every ledger amount is a ten-year total for tho
 - **How much it matters:** high: anything in FY2029 is outside every total
 - **Where:** models/tools/fiscal-model.py:27; models/data/inputs/readme.md:6
 - **Source:** Project convention (plan begins January 2029, DEC-2026-10-29-01); CBO cost estimates cover "the next 5 or 10 years" (SRC-1163, CBO publication 57420)
-- **Decided by:** Espen, Nov 8, 2026: common FY2030-39 window with FY2029 as a disclosed line, plus each bill in its own CBO window (choice 3, A; memo-budget-choices.md, PR #110; no DEC- entry yet)
+- **Decided by:** Espen, Nov 8, 2026: common FY2030-39 window with FY2029 as a disclosed line, plus each bill in its own CBO window (choice 3, A; memo-budget-choices.md, PR #110; DEC-2026-11-08-05)
 - **Notes:** FY2029 effects are unpriced, not zero (fiscal-model.py:98-99 sets years before 2030 to zero; models/data/inputs/readme.md:45 for CAP-7S).
 
 ### ASM-HORIZON
@@ -368,7 +367,7 @@ Two bases: general fund (D4 maturity test) and unified (total debt guardrails). 
 - **How much it matters:** high: the unified guardrails count Social Security's new payroll revenue against general-fund borrowing
 - **Where:** models/tools/fiscal-model.py:151-154; models/data/inputs/fiscal-profiles.csv:10, 19 (unified_zero)
 - **Source:** SRC-0041 (Decision Brief 2, Oct 20); SRC-0043 (Governing Decisions, D4); SRC-1163 (CBO publication 57420: the unified budget "encompasses all the activities of the federal government"; Social Security is off-budget)
-- **Decided by:** Espen (D4-B, Decision Brief 2); kept by Espen, Nov 8, 2026, with the reading without Social Security as disclosure (choice 5, A; memo-budget-choices.md, PR #110; no DEC- entry yet)
+- **Decided by:** Espen (D4-B, Decision Brief 2); kept by Espen, Nov 8, 2026, with the reading without Social Security as disclosure (choice 5, A; memo-budget-choices.md, PR #110; DEC-2026-11-08-07)
 
 ### ASM-LATER-ROWS
 
@@ -552,7 +551,7 @@ Defense is measured against CBO's baseline: NSC-1A (flat in real terms from FY20
 - **How much it matters:** high: whatever 2027-28 enacts for defense disappears into the baseline (about $0.13-0.30T over 2030-39)
 - **Where:** models/data/inputs/ledger-bills.csv:51; models/data/inputs/fiscal-profiles.csv:51
 - **Source:** Baseline rule: 2 U.S.C. 907(c) and CBO publication 59208; dossiers/scenario/memo-defense-baseline-and-dem2.md; SRC-1164 (CBO publication 58916)
-- **Decided by:** Espen (NSC-1A, Decision Brief 2); the measuring rule was open (memo, choice a) until Espen, Nov 8, 2026: CBO's latest baseline, with 2027-28 defense as a disclosed line (choice 1, C; memo-budget-choices.md, PR #110; no DEC- entry yet)
+- **Decided by:** Espen (NSC-1A, Decision Brief 2); the measuring rule was open (memo, choice a) until Espen, Nov 8, 2026: CBO's latest baseline, with 2027-28 defense as a disclosed line (choice 1, C; memo-budget-choices.md, PR #110; DEC-2026-11-08-03)
 - **Notes:** CBO inflates discretionary funding with the GDP price index (and the employment cost index for pay), not CPI, so "flat real" in CBO's sense is GDP-deflator real.
 
 
@@ -688,13 +687,14 @@ OASDI income and cost rates by year, % of taxable payroll.
 
 ### ASM-FUND-HI-RATES
 
-HI cost and income rates, published years only, interpolated.
+HI cost and income rates for every year the Trustees publish (Table III.B7: each year 2026-35, then every five years to 2100), interpolated between.
 
-- **Value:** 2026 3.49 / 3.49; 2100 cost 4.86, income 4.51 (% of HI payroll)
-- **How much it matters:** medium: summary rates; a year-by-year table is a roadmap item
+- **Value:** 2026 3.49 / 3.49; 2030 3.88 / 3.58; 2035 4.27 / 3.68; 2100 4.86 / 4.51 (% of HI payroll)
+- **How much it matters:** medium: HI's depletion year and 75-year balance rest on them; Table III.B7 still gives five-year steps after 2035
 - **Where:** models/data/inputs/funds-hi-rates.csv
-- **Source:** 2026 Medicare Trustees Report (intermediate)
+- **Source:** 2026 Medicare Trustees Report, Table III.B7 (intermediate)
 - **Decided by:** Espen (D4-B part 4: the Trustees' 75-year standard)
+- **Notes:** Until B6 (item 2 of the remainder) only six years were carried, interpolated in straight lines, and budget benchmark TF-2 failed (depletion 2034, balance -0.64%); with Table III.B7's years it passes (2033, -0.56%).
 
 ### ASM-FUND-HI-PAYROLL
 
@@ -866,14 +866,14 @@ Discretionary budget authority is CBO's timing-adjusted series, the only one CBO
 
 ### ASM-SPENDOUT
 
-Spend-out of discretionary budget authority: four-year shares with OMB's FY1993-2019 timing (ground transportation taken out of nondefense), scaled per group so CBO's projected FY2029-36 budget authority gives CBO's projected outlays.
+Spend-out of discretionary budget authority. Defense: CBO's own rates, the average of its spend-out of three regular defense acts (FY2014, FY2017 and FY2023 NDAA estimates), five years, unfitted and unscaled. Nondefense: four-year shares with OMB's FY1993-2019 timing (ground transportation taken out), scaled so CBO's projected FY2029-36 budget authority gives CBO's projected outlays.
 
-- **Value:** defense 44/34/24/-4% (sum 0.986; scale 1.009, fit within 0.4%); nondefense 25/36/30/10% (sum 1.004; scale 0.998, fit within 0.8%) (share of BA by year)
+- **Value:** defense 61/23/8/4/2% (sum 0.972; scale 1; rebuilds CBO's FY2030-36 outlays within 1.7%, out of sample); nondefense 25/36/30/10% (sum 1.004; scale 0.998, fit within 0.8%) (share of BA by year)
 - **How much it matters:** medium: turns outlays into budget authority for every discretionary provision; outlays and headline figures do not depend on it
-- **Where:** models/tools/budget/build_data.py:296 (SPEND_YEARS), 403 (CAL_YEARS), 421 (spendout_cbo); models/data/budget/spendout-discretionary-cbo.csv; read by models/tools/budget/provisions.py:351-356 (_spendout)
-- **Source:** OMB Historical Tables 5.6 and 8.7 (FY2027 Budget) for timing; CBO, Spending Projections by Budget Account (Feb 2026, publication 51142) for the level
-- **Decided by:** Strategy session (handoff after #114: carry highway and transit separately); method proposed by B2, ported by B3 (#118); unrecorded as a decision
-- **Notes:** A fit to history, not a legal spend-out rule. Highway, transit and airport outlays with no discretionary budget authority are carried as outlays on their own (ASM-ZERO-BA-OUTLAYS). The earlier history-only fit, spendout-discretionary.csv (defense 44/34/24/-4%, nondefense 27/37/31/15%, sum 1.10), is still published but no longer read by the provision library.
+- **Where:** models/tools/budget/build_data.py:495 (CBO_DEFENSE_ACTS), 311 (SPEND_YEARS), 471 (CAL_YEARS), 511 (spendout_cbo); models/data/budget/spendout-discretionary-cbo.csv; read by models/tools/budget/provisions.py:423 (_spendout)
+- **Source:** CBO cost estimates of the FY2014, FY2017 and FY2023 NDAAs (SRC-2454, SRC-2455, SRC-2456) for defense; OMB Historical Tables 5.6 and 8.7 (FY2027 Budget) for nondefense timing; CBO, Spending Projections by Budget Account (Feb 2026, publication 51142) for the nondefense level and the defense check
+- **Decided by:** Strategy session (handoff after #114: carry highway and transit separately); method proposed by B2, ported by B3 (#118); defense switched to CBO's act rates by B6 (session_01UQzgBwob1SeDw4Qbrcr5AW); unrecorded as a decision
+- **Notes:** One average per group, not a legal spend-out rule or CBO's account-by-account rates: a single act's mix can spend much faster or slower (B4's PS-4a, bounded; PS-4b, fail). Until B6's fix defense used OMB-history shares 44/34/24/-4%, whose negative fourth share spent an act 103% by year 3. Highway, transit and airport outlays with no discretionary budget authority are carried as outlays on their own (ASM-ZERO-BA-OUTLAYS). The earlier history-only fit, spendout-discretionary.csv (defense 44/34/24/-4%, nondefense 27/37/31/15%, sum 1.10), is still published but no longer read by the provision library.
 
 ### ASM-ZERO-BA-OUTLAYS
 
@@ -903,12 +903,12 @@ CBO's account-level spending projections, February 2026 baseline, the same vinta
 
 The provision library uses the spend-out shares as stored: no negative share is zeroed and no group is rescaled to sum to one.
 
-- **Value:** as stored; the defense year-4 share stays at -4.31% and defense shares sum to 0.986 (convention)
-- **How much it matters:** low: the sums are within 1.5% of one; ASM-BA-LEADS-OUTLAYS divides by the sum, so lifetime outlays are preserved
-- **Where:** models/tools/budget/provisions.py:351-356 (_spendout)
+- **Value:** as stored; every share is positive since B6's spend-out fix; defense shares sum to 0.972 (CBO's five-year tables leave out the last ~3%) and nondefense to 1.004 (convention)
+- **How much it matters:** low: the sums are within 3% of one; ASM-BA-LEADS-OUTLAYS divides by the sum, so lifetime outlays are preserved (defense budget authority reads about 3% above five-year outlays)
+- **Where:** models/tools/budget/provisions.py:423 (_spendout)
 - **Source:** Project method (B3, #118) on ASM-SPENDOUT
 - **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
-- **Notes:** Until #118 this row described zeroing the negative share and rescaling to one; that rescaling dropped the highway and transit outlays the old shares carried implicitly, behind B4's -11.1% nondefense miss.
+- **Notes:** Until #118 this row described zeroing the negative share and rescaling to one; that rescaling dropped the highway and transit outlays the old shares carried implicitly, behind B4's -11.1% nondefense miss. Until B6's spend-out fix the defense year-4 share was -4.31%.
 
 ### ASM-BA-LEADS-OUTLAYS
 

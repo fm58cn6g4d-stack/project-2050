@@ -481,21 +481,51 @@ def _fit(pairs, years):
 
 
 def _err(w, pairs, years):
-    fit = [sum(w[k] * pairs[y - k][0] for k in range(LAGS)) for y in years]
+    fit = [sum(w[k] * pairs[y - k][0] for k in range(len(w))) for y in years]
     yv = [pairs[y][1] for y in years]
     return 100 * (sum((f - v) ** 2 for f, v in zip(fit, yv)) / len(yv)) ** 0.5 / (sum(yv) / len(yv))
 
 
+# CBO's own spend-out of one year's regular defense budget authority: the base-budget (regular
+# appropriations) line of three CBO cost estimates of National Defense Authorization Acts, which
+# CBO says it estimates "using historical spend-out rates". Millions of dollars: the authorization
+# level for the act's first year, and CBO's estimated outlays from it in years 1-5. Read through
+# the Exa search tool's page reader on November 12, 2026 (www.cbo.gov's bot check blocks direct
+# downloads; Espen allowed this route on November 8); cited, not saved.
+CBO_DEFENSE_ACTS = {
+    "FY2014": ("SRC-2454", 544478, (347627, 115466, 42699, 18950, 7933)),     # S. 1197, Table 1
+    "FY2017": ("SRC-2455", 543234, (335887, 119350, 44058, 20248, 9030)),     # H.R. 4909, Table 1
+    "FY2023": ("SRC-2456", 838789, (484281, 206029, 68655, 34954, 14960)),    # H.R. 7900, Table 1
+}
+DEFENSE_CHECK_YEARS = (2030, 2036)   # five shares need four earlier years of CBO budget authority (FY2026 on)
+
+
+def defense_act_shares():
+    """The average of CBO's year-by-year spend-out of the three acts' new budget authority:
+    five shares, years of spending 0-4, every one positive. The part not spent in five years
+    (about 3%) is left out, as CBO's five-year tables leave it out."""
+    per = [[o / ba for o in out] for _, ba, out in CBO_DEFENSE_ACTS.values()]
+    return [sum(p[k] for p in per) / len(per) for k in range(len(per[0]))]
+
+
 def spendout_cbo(disc_rows, by_function):
-    """Spend-out of discretionary budget authority with its level set by CBO's own projections.
-    Timing (the shape of the shares) comes from OMB's history, FY1993-2019, as in spendout();
-    for nondefense, ground transportation is taken out of both budget authority and outlays,
-    because most of its outlays rest on mandatory contract authority. The shares are then
-    scaled by one factor per group so that, applied to CBO's projected discretionary budget
-    authority (account file, FY2026-2036), they reproduce CBO's projected outlays over
-    CAL_YEARS. For nondefense the CBO outlays leave out accounts with no budget authority in
-    the year (outlays_without_ba: highway, transit and airport grants above all), which have
-    no budget authority to spend out and are carried as outlays on their own."""
+    """Spend-out of discretionary budget authority, by group, checked against CBO's projections.
+
+    Defense: CBO's own rates, the average of its spend-out of three regular defense acts
+    (CBO_DEFENSE_ACTS), used as they are: no fit and no scaling to CBO's baseline, so CBO's
+    projected outlays test the shares instead of setting them. (Until November 12, 2026 defense
+    used a four-year least-squares fit to OMB's FY1993-2019 totals, scaled to CBO's outlays; its
+    fourth share was negative, -4.3%. The fit cannot tell the years apart well, because budget
+    authority in neighboring years moves together.) history_share keeps that fit for comparison.
+
+    Nondefense: timing (the shape of the shares) from OMB's history, FY1993-2019, as in
+    spendout(), with ground transportation taken out of both budget authority and outlays,
+    because most of its outlays rest on mandatory contract authority. The shares are then scaled
+    by one factor so that, applied to CBO's projected discretionary budget authority (account
+    file, FY2026-2036), they reproduce CBO's projected outlays over CAL_YEARS. CBO's outlays
+    leave out accounts with no budget authority in the year (outlays_without_ba: highway, transit
+    and airport grants above all), which have no budget authority to spend out and are carried
+    as outlays on their own. All four nondefense shares are positive."""
     H = collections.defaultdict(dict)
     for r in disc_rows:
         if r["ba"] and r["outlays"]:
@@ -511,23 +541,32 @@ def spendout_cbo(disc_rows, by_function):
         c = C[g][int(r["year"])]
         c[0] += float(r["ba"])
         c[1] += float(r["outlays"]) - (float(r["outlays_without_ba"]) if g == "nondefense" else 0.0)
-    hy, cy = range(SPEND_YEARS[0], SPEND_YEARS[1] + 1), range(CAL_YEARS[0], CAL_YEARS[1] + 1)
+    hy = range(SPEND_YEARS[0], SPEND_YEARS[1] + 1)
     out = []
     for g in ("defense", "nondefense"):
         w = _fit(hist[g], hy)
         cbo = {y: tuple(v) for y, v in C[g].items()}
-        fit = sum(sum(w[k] * cbo[y - k][0] for k in range(LAGS)) for y in cy)
-        scale = sum(cbo[y][1] for y in cy) / fit
-        ws = [x * scale for x in w]
-        for k in range(LAGS):
+        if g == "defense":
+            ws = defense_act_shares()
+            scale, cal, cy = 1.0, "none", range(DEFENSE_CHECK_YEARS[0], DEFENSE_CHECK_YEARS[1] + 1)
+            timing = "CBO's spend-out of the FY2014, FY2017 and FY2023 defense acts (%s)" % ", ".join(
+                v[0] for v in CBO_DEFENSE_ACTS.values())
+        else:
+            cy = range(CAL_YEARS[0], CAL_YEARS[1] + 1)
+            fit = sum(sum(w[k] * cbo[y - k][0] for k in range(LAGS)) for y in cy)
+            scale = sum(cbo[y][1] for y in cy) / fit
+            ws = [x * scale for x in w]
+            cal = "%d-%d" % CAL_YEARS
+            timing = "OMB history, FY%d-%d, scaled to CBO's outlays" % SPEND_YEARS
+        for k in range(len(ws)):
             out.append({"group": g, "year_of_spending": k, "share": "%.4f" % ws[k],
-                        "history_share": "%.4f" % w[k], "scale": "%.4f" % scale,
-                        "sum_of_shares": "%.4f" % sum(ws), "history_years": "%d-%d" % SPEND_YEARS,
-                        "calibration_years": "%d-%d" % CAL_YEARS,
+                        "history_share": "%.4f" % w[k] if k < LAGS else "", "scale": "%.4f" % scale,
+                        "sum_of_shares": "%.4f" % sum(ws), "timing": timing, "history_years": "%d-%d" % SPEND_YEARS,
+                        "calibration_years": cal, "check_years": "%d-%d" % (cy[0], cy[-1]),
                         "history_rmse_pct": "%.2f" % _err(w, hist[g], hy),
-                        "calibration_rmse_pct": "%.2f" % _err(ws, cbo, cy)})
-    return ["group", "year_of_spending", "share", "history_share", "scale", "sum_of_shares",
-            "history_years", "calibration_years", "history_rmse_pct", "calibration_rmse_pct"], out
+                        "check_rmse_pct": "%.2f" % _err(ws, cbo, cy)})
+    return ["group", "year_of_spending", "share", "history_share", "scale", "sum_of_shares", "timing",
+            "history_years", "calibration_years", "check_years", "history_rmse_pct", "check_rmse_pct"], out
 
 
 def render(cols, rows):
