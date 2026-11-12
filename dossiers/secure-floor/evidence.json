@@ -1,5 +1,1988 @@
 [
  {
+  "id": "EV-SEC-001",
+  "statement": "Section 70104 of the 2025 reconciliation law raises the per-child credit in section 24(h) from $2,000 to $2,200, removes the end-of-2025 expiry, and applies to taxable years beginning after December 31, 2024.",
+  "claim": "data",
+  "figures": [
+   "70104",
+   "$2,000",
+   "$2,200",
+   "2024"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 70104. EXTENSION AND ENHANCEMENT OF INCREASED CHILD TAX\nCREDIT.",
+   "(a) Extension and Increase of Expanded Child Tax Credit.--Section\n24(h) is amended--",
+   "(1) in paragraph (1), by striking ``, and before January 1,\n2026'',",
+   "(2) in paragraph (2), by striking ``$2,000'' and inserting\n``$2,200'', and",
+   "shall apply to taxable years beginning after December\n31, 2024."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "Primary law: P.L. 119-21, signed July 4, 2025 (second Trump administration). Striking the end date makes the TCJA credit design permanent: there is no sunset.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-002",
+  "statement": "Section 70104 of the 2025 reconciliation law sets the refundable limit per child at $1,400 as increased by the cost-of-living adjustment for taxable years after 2024, and increases the $2,200 credit amount by the cost-of-living adjustment for taxable years after 2025, rounding any increase down to a multiple of $100.",
+  "claim": "data",
+  "figures": [
+   "$1,400",
+   "$2,200",
+   "$100",
+   "2024",
+   "2025"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 70104.",
+   "In the case of a\ntaxable year beginning after 2024, the $1,400 amount in\nsubsection (h)(5) shall be increased",
+   "In the\ncase of a taxable year beginning after 2025, the $2,200 amount\nin subsection (h)(2) shall be increased",
+   "If any increase under this subsection is\nnot a multiple of $100, such increase shall be rounded to the\nnext lowest multiple of $100."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "Primary law. The new section 24(i) indexes only these two dollar amounts; the $2,500 earnings floor and the $200,000/$400,000 phase-out thresholds (EV-SEC-006, EV-SEC-007) are not indexed in the text.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-003",
+  "statement": "For taxable years beginning in 2026, the IRS sets the maximum child tax credit at $2,200 and the amount used to determine the refundable portion at $1,700 per child.",
+  "claim": "data",
+  "figures": [
+   "$2,200",
+   "$1,700",
+   "2026"
+  ],
+  "source": "SRC-3605",
+  "anchor": [
+   "For taxable years beginning in 2026, the\nmaximum amount of the credit allowed under § 24(a) is $2,200.",
+   "the amount used in\n§ 24(d)(1)(A) to determine the amount of the credit under § 24 that may be refundable is\n$1,700."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-01",
+  "context": "IRS Revenue Procedure 2025-32 (second Trump administration), applying statutory indexing. The 2026 refundable limit equals the 2025 figure of $1,700 (EV-SEC-004), so the $2,200 credit is not indexed upward for 2026 either: the cost-of-living adjustment rounds down to the next multiple of $100.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-004",
+  "statement": "CRS describes the maximum additional child tax credit (the refundable portion) as $1,700 per child for 2025, adjusted for inflation, and says the 2025 law makes the TCJA credit changes permanent and sets the credit at $2,200 per child, adjusted for inflation.",
+  "claim": "data",
+  "figures": [
+   "$1,700",
+   "$2,200",
+   "2025"
+  ],
+  "source": "SRC-3011",
+  "anchor": [
+   "the maximum ACTC at $1,700 per child (2025 figure, adjusted for inflation)",
+   "This provision makes permanent the TJCA's changes to the credit and permanently raises the maximum credit to $2,200 per child (adjusted for inflation)."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "CRS (nonpartisan) description of enacted law, P.L. 119-21. Matches the statute (EV-SEC-001, EV-SEC-002). The source text spells TCJA as \"TJCA\" in this sentence.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-005",
+  "statement": "From taxable year 2025, no child tax credit is allowed unless the return includes the Social Security number of the taxpayer (of at least one spouse on a joint return) and of the qualifying child, each issued to a U.S. citizen or under the listed Social Security Act provisions and before the return's due date.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-1374",
+  "anchor": [
+   "No credit shall be allowed under\nthis section to a taxpayer with respect to any\nqualifying child unless the taxpayer includes on the\nreturn of tax for the taxable year--",
+   "the taxpayer's social security number\n(or, in the case of a joint return, the social\nsecurity number of at least 1 spouse), and",
+   "the social security number of such\nqualifying child.",
+   "to a citizen of the United States or\npursuant to subclause (I)",
+   "before the due date for such return."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "Primary law, section 70104(b), replacing section 24(h)(7). Before the law only the child needed an SSN; the new rule excludes citizen children with SSNs whose parents have only ITINs. Existing register entry on the same rule: EV-HOU-405 (from IRS Schedule 8812 instructions).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-006",
+  "statement": "The refundable part of the child tax credit is 15 percent of earned income above $2,500: the code applies 15 percent to earnings above $3,000 and then substitutes $2,500 for $3,000.",
+  "claim": "data",
+  "figures": [
+   "15 percent",
+   "$2,500",
+   "$3,000"
+  ],
+  "source": "SRC-3607",
+  "anchor": [
+   "(i) 15 percent of so much of the taxpayer's earned income (within the meaning of section 32) which is taken into account in computing taxable income for the taxable year as exceeds $3,000, or",
+   "Subsection (d)(1)(B)(i) shall be applied by substituting \"$2,500\" for \"$3,000\"."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "U.S. Code, 2024 edition (before P.L. 119-21). Section 70104 amends section 24(h)(1) to remove the end date, so section 24(h)(6) stays in force with no end date; it does not amend section 24(d). The credit is therefore zero for a family with no income tax liability and under $2,500 of earnings (see EV-SEC-011).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-007",
+  "statement": "The child tax credit phases out by $50 for each $1,000 of modified adjusted gross income above $400,000 for a joint return and $200,000 for any other return.",
+  "claim": "data",
+  "figures": [
+   "$50",
+   "$1,000",
+   "$400,000",
+   "$200,000"
+  ],
+  "source": "SRC-3607",
+  "anchor": [
+   "reduced (but not below zero) by $50 for each $1,000 (or fraction thereof) by which the taxpayer's modified adjusted gross income exceeds the threshold amount.",
+   "the threshold amount shall be $400,000 in the case of a joint return ($200,000 in any other case)."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "U.S. Code, 2024 edition. Permanence rests on section 70104(a), which strikes the end date in section 24(h)(1); CRS R48611 (EV-SEC-004 source) states it: \"increased the income limits to $200,000 for single filers and $400,000 for married couples filing jointly\". The $50 per $1,000 is a 5 percent phase-out rate.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-008",
+  "statement": "CRS says the TCJA created a $500 nonrefundable credit, not adjusted for inflation, for dependents who are not qualifying children, and that the 2025 law makes the TCJA changes permanent.",
+  "claim": "data",
+  "figures": [
+   "$500"
+  ],
+  "source": "SRC-3011",
+  "anchor": [
+   "created a $500 nonrefundable credit (not adjusted for inflation) for dependents who are not qualifying children",
+   "This provision makes permanent the TJCA's changes to the credit"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "CRS description of enacted law. Statute: section 24(h)(4)(A) (U.S. Code 2024 edition, SRC-3607). The credit is the only credit open to a child with an ITIN rather than an SSN (CBPP, SRC-3635, says so); a citizen child of parents with only ITINs may be claimed for it as a dependent.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-009",
+  "statement": "Section 70204 creates Trump accounts (new section 530A) and a Trump Accounts Contribution Pilot Program under which an election by the parent treats an eligible child as paying $1,000 of tax, which is refunded to the child's Trump account, for a qualifying child born after December 31, 2024 and before January 1, 2029.",
+  "claim": "data",
+  "figures": [
+   "70204",
+   "530A",
+   "$1,000",
+   "2024",
+   "2029"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 70204. TRUMP ACCOUNTS AND CONTRIBUTION PILOT PROGRAM.",
+   "Sec. 530A. Trump accounts.",
+   "TRUMP ACCOUNTS CONTRIBUTION\nPILOT PROGRAM.",
+   "such eligible child shall be treated as making a payment\nagainst the tax imposed by subtitle A (for the taxable year for which\nthe election was made) in an amount equal to $1,000.",
+   "who is born after December 31, 2024, and before\nJanuary 1, 2029,"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "Primary law. CRS (R48611, SRC-3011) adds that the beneficiary must be a U.S. citizen with a work-authorized SSN and that the account invests in a diversified U.S. stock index fund; contributions are capped at $5,000 a year. The $1,000 is a one-time deposit, not income support to the family.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-010",
+  "statement": "The 2025 law creates a deduction of $6,000 for each taxpayer age 65 or older for 2025 through 2028, reduced by 6 percent of modified adjusted gross income above $75,000 ($150,000 on a joint return), for taxpayers with work-eligible Social Security numbers.",
+  "claim": "data",
+  "figures": [
+   "$6,000",
+   "65",
+   "2025",
+   "2028",
+   "6%",
+   "$75,000",
+   "$150,000"
+  ],
+  "source": "SRC-3011",
+  "anchor": [
+   "It also temporarily creates a new $6,000 deduction for taxpayers (and their spouses, if married filing jointly) who are age 65 or older, from 2025 through 2028.",
+   "This amount is reduced by 6% of a taxpayer's modified adjusted gross income above $75,000 ($150,000 for those married filing jointly)."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "CRS description of enacted law (section 70103). Temporary: it ends after tax year 2028, before the January 2029 baseline date for the new administration. It is a deduction, so it is worth nothing to a household that owes no income tax.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-011",
+  "statement": "The Tax Policy Center estimated that in 2025, 17 million children under 17, one in four, would receive less than the full child tax credit because their parents earn too little; about 2 million get nothing because they earn under $2,500 and owe no tax.",
+  "claim": "analysis",
+  "figures": [
+   "17 million",
+   "one in four",
+   "$2,500",
+   "2 million",
+   "2025"
+  ],
+  "source": "SRC-3630",
+  "anchor": [
+   "But in 2025, the Tax Policy Center estimates that 17 million children under the age of 17—or one in four—will receive less than the full value of the credit because their parents earn too little.",
+   "Families that do not owe federal income taxes and earn less than $2,500 receive no CTC. That’s about 2 million children"
+  ],
+  "locator": "opening paragraphs; section on who receives the full value",
+  "grade": "C",
+  "fact_date": "2024-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Tax Policy Center (Urban-Brookings, nonpartisan), December 10, 2024: microsimulation for 2025 under the then-current $2,000 credit, before the 2025 law. The 17 million is the share below the $2,000 maximum; the later TPC post (EV-SEC-012) says the same count at $2,200.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-013",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-012",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-074",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-012",
+  "statement": "In June 2026 the Tax Policy Center restated that roughly 17 million children live in families that do not receive the full $2,200 per child because their families' earnings are too low.",
+  "claim": "analysis",
+  "figures": [
+   "17 million",
+   "$2,200"
+  ],
+  "source": "SRC-3632",
+  "anchor": "roughly 17 million children live in families that do not receive the full $2,200 per child CTC because their families’ earnings are too low",
+  "locator": "parenthetical in the third paragraph",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Tax Policy Center (nonpartisan), June 10, 2026; written in reply to a second Trump administration Treasury analysis that stressed how many families receive the credit. The count differs from Columbia's 19 million (EV-SEC-013) in method: Columbia adds about two million moderate-income children newly short of a larger maximum.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-013",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-014",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-013",
+  "statement": "Columbia's Center on Poverty and Social Policy estimated that in 2025 more than 1 in 4 children (28%) under age 17, 19 million, would be ineligible for the full child tax credit under the 2025 law because family income is not high enough; a two-parent, two-child family needs at least $41,500.",
+  "claim": "analysis",
+  "figures": [
+   "1 in 4",
+   "28%",
+   "19 million",
+   "$41,500"
+  ],
+  "source": "SRC-3634",
+  "anchor": [
+   "more than 1 in 4 children (28%) under age 17 will be ineligible for the full Child Tax Credit under OBBBA because their family income is not high enough to qualify",
+   "This represents 19 million children left behind: 17 million children previously ineligible for the full credit who see no gains under OBBBA and remain ineligible for the full credit plus roughly two million children in moderate-income families newly ineligible for the full credit.",
+   "a two-parent family with two children will need a minimum of $41,500 in income to be eligible for the full credit under OBBBA"
+  ],
+  "locator": "Key Findings, bullets 1 to 3",
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Columbia University Center on Poverty and Social Policy, August 6, 2025, brief by Collyer, Yera, Curran, Harris and Wimer; simulation on Census survey data of the law as signed; the center advocates a more fully refundable credit. Higher than TPC's 17 million (EV-SEC-012) because it counts the children whose families fall short of the larger $2,200 maximum.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-012",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-014",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-014",
+  "statement": "CBPP estimates that 19 million children, more than 1 in 4 children under 17, will receive less than the full $2,200 credit in 2026, or no credit, because their families earn too little, including half of Black children.",
+  "claim": "analysis",
+  "figures": [
+   "19 million",
+   "1 in 4",
+   "$2,200",
+   "2026",
+   "17"
+  ],
+  "source": "SRC-3635",
+  "anchor": [
+   "an estimated 19 million children — or more than 1 in 4 children under 17 — will receive less than the full $2,200 credit in 2026, or no credit at all, because their families earn too little",
+   "This includes half of Black children"
+  ],
+  "locator": "paragraph beginning \"Congress enacted changes\"",
+  "grade": "C",
+  "fact_date": "2026-01",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Center on Budget and Policy Priorities (progressive-leaning; advocates expanding refundability), January 6, 2026, relying on Tax Policy Center estimates. Same count as Columbia (EV-SEC-013), so not independent of it in method.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-013",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-012",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-015",
+  "statement": "As reported by the Tax Policy Center in May 2025, the Joint Committee on Taxation estimated that approximately 2 million children with SSNs would be denied the child tax credit under the House bill's requirement that each adult taxpayer have an SSN.",
+  "claim": "analysis",
+  "figures": [
+   "2 million",
+   "SSN"
+  ],
+  "source": "SRC-3631",
+  "anchor": "the Joint Committee on Taxation estimates that approximately 2 million children with SSNs would be denied the CTC",
+  "locator": "paragraph beginning \"The House bill would change that\"",
+  "grade": "C",
+  "fact_date": "2025-05",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Tax Policy Center (nonpartisan) quoting JCT (Congress's official nonpartisan scorer), May 29, 2025, about the House-passed bill; that bill required every adult on a joint return to hold an SSN, stricter than the enacted rule (one spouse suffices). JCT's estimate for the enacted text was not found. TPC repeated the 2 million in June 2026 (SRC-3632).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-016",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-017",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-016",
+  "statement": "The Bipartisan Policy Center, citing the Tax Policy Center, said 500,000 children who would otherwise be eligible could lose the credit under the enacted rule if no parent can produce an SSN.",
+  "claim": "analysis",
+  "figures": [
+   "500,000"
+  ],
+  "source": "SRC-3650",
+  "anchor": "The Tax Policy Center estimated that 500,000 children who would otherwise be considered eligible could lose access to the credit if no parent can produce an SSN to comply with the new requirement.",
+  "locator": "section \"The Impact of the New CTC Provisions on Families\"",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Bipartisan Policy Center (nonpartisan think tank), 2025, secondhand from a Tax Policy Center estimate that was not located at the source. Applies to the enacted one-parent-SSN rule, so it is far below the 2 million for the House bill (EV-SEC-015). Treat the range, 0.5 to 2 million, as unsettled.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-015",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-017",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-017",
+  "statement": "Tax Policy Center says the reconciliation law disallows the credit for U.S. citizen children who do not have at least one parent holding a Social Security number, and that Joint Committee on Taxation estimated around 2 million such children would lose it under a slightly stricter rule.",
+  "claim": "analysis",
+  "figures": [
+   "2 million"
+  ],
+  "source": "SRC-3632",
+  "anchor": [
+   "disallowing the credit for US citizen children if they do not have at least one parent who holds a Social Security number (SSN)",
+   "around 2 million US citizen children would lose the CTC under slightly more restrictive, but similar, Social Security number (SSN) requirements than those ultimately enacted"
+  ],
+  "locator": "third and fourth paragraphs",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Tax Policy Center (nonpartisan), June 10, 2026, corrected June 11 to say \"at least one parent\". Describes the enacted rule correctly; the estimate is for the earlier, stricter text.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-015",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-016",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-018",
+  "statement": "In 2025 the official poverty rate fell 0.5 percentage points to 10.2 percent, with 34.5 million people in poverty, and the official child poverty rate fell 1.0 percentage point to 13.4 percent, a historic low.",
+  "claim": "data",
+  "figures": [
+   "0.5",
+   "10.2 percent",
+   "34.5 million",
+   "1.0",
+   "13.4 percent",
+   "2025"
+  ],
+  "source": "SRC-3600",
+  "anchor": [
+   "In 2025, the official poverty rate\nfell 0.5 percentage points to\n10.2 percent",
+   "There were\n34.5 million people in poverty in\n2025.",
+   "The child poverty rate\nfell 1.0 percentage points to 13.4\npercent."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau, Poverty in the United States: 2025 (P60-290), September 15, 2026; CPS ASEC 2026, reporting calendar-year 2025 income. The 2025 survey year predates most effects of the 2025 law (SNAP losses, state cost shifts).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-019",
+  "statement": "The Supplemental Poverty Measure rate for children was 13.4 percent in 2025, the same as the official+ rate for children, and the SPM rate for all people was 13.1 percent, not statistically different from 2024.",
+  "claim": "data",
+  "figures": [
+   "13.4 percent",
+   "13.1 percent",
+   "2024",
+   "2025"
+  ],
+  "source": "SRC-3600",
+  "anchor": [
+   "The SPM rate in 2025 was 13.1\npercent, not statistically different from 2024",
+   "the\nmarked decline in the official+ rate\nbetween 2024 and 2025 brought\nthe rates together, with both at\n13.4 percent."
+  ],
+  "locator": "Highlights; discussion of Figure 5",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau P60-290. \"Official+\" is the official measure adjusted by Census to be comparable over time (includes unrelated children under 15). SPM children: 13.4 in 2025 (Table 8, EV-SEC-020).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-020",
+  "statement": "Census Table 8 gives the SPM poverty rate for children as 13.4 percent in 2025 and 13.5 percent the year before, with about 9.66 million children in poverty in 2025.",
+  "claim": "data",
+  "figures": [
+   "13.4",
+   "13.5",
+   "9657"
+  ],
+  "source": "SRC-3602",
+  "anchor": [
+   "row 8 | Table with row headers in column A and column headers in rows 4 through 6 = 2025\nrow 8 |  = 338600\nrow 8 |  = 44390\nrow 8 |  = 1042\nrow 8 |  = 13.1\nrow 8 |  = 0.3\nrow 8 |  = 72080\nrow 8 |  = 9657\nrow 8 |  = 399\nrow 8 |  = 13.4",
+   "row 9 | Table with row headers in column A and column headers in rows 4 through 6 = 20243\nrow 9 |  = 337400\nrow 9 |  = 44000\nrow 9 |  = 983\nrow 9 |  = 13\nrow 9 |  = 0.3\nrow 9 |  = 72460\nrow 9 |  = 9753\nrow 9 |  = 386\nrow 9 |  = 13.5"
+  ],
+  "locator": "Table 8, ALL RACES rows 2025 and 2024, Under 18 years, Below Poverty columns (number, margin of error, percent, margin of error)",
+  "rounded": [
+   {
+    "figure": "9.66 million",
+    "value": "9657",
+    "scale": 0.001,
+    "places": 2
+   }
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau P60-290 Table 8 (one labelled line per cell). The 2024 row carries footnote 3: estimates may not match those published last year because of Vintage 2025 population controls.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-021",
+  "statement": "In the SPM series as revised in the Census poverty tables, the child rate was 5.1 percent in 2021 and 12 percent in 2022.",
+  "claim": "data",
+  "figures": [
+   "5.1",
+   "12",
+   "2021",
+   "2022"
+  ],
+  "source": "SRC-3602",
+  "anchor": [
+   "row 11 | Table with row headers in column A and column headers in rows 4 through 6 = 2022\nrow 11 |  = 330600\nrow 11 |  = 40010\nrow 11 |  = 911\nrow 11 |  = 12.1\nrow 11 |  = 0.3\nrow 11 |  = 72500\nrow 11 |  = 8731\nrow 11 |  = 356\nrow 11 |  = 12\nrow 11 |  = 0.5",
+   "row 12 | Table with row headers in column A and column headers in rows 4 through 6 = 2021\nrow 12 |  = 328700\nrow 12 |  = 25290\nrow 12 |  = 725\nrow 12 |  = 7.7\nrow 12 |  = 0.2\nrow 12 |  = 73470\nrow 12 |  = 3747\nrow 12 |  = 264\nrow 12 |  = 5.0999999999999996\nrow 12 |  = 0.4"
+  ],
+  "locator": "Table 8, ALL RACES rows 2022 and 2021, Under 18 years, Below Poverty percent",
+  "rounded": [
+   {
+    "figure": "5.1",
+    "value": "5.0999999999999996",
+    "scale": 1,
+    "places": 1
+   }
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau P60-290 Table 8 as revised. The 5.2 and 12.4 are the figures in the earlier releases (EV-HOU-073 quotes 5.2 and 12.4 from P60-280). The earlier figures are not anchored here. Both revisions are small (0.1 and 0.4 points); Census footnotes Vintage 2025 population controls for 2024 but gives no reason for 2021 and 2022 in the table. Flagged in notes.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-022",
+  "statement": "Among children in 2025, 3.4 percent had SPM resources below half of the SPM threshold (deep poverty), against 3.2 percent the year before.",
+  "claim": "data",
+  "figures": [
+   "3.4",
+   "3.2"
+  ],
+  "source": "SRC-3627",
+  "anchor": [
+   "row 23 | Table with row headers in column A and column headers in row 4 and 34 = Under 18 years\nrow 23 |  = 3.4\nrow 23 |  = 0.3",
+   "row 53 | Table with row headers in column A and column headers in row 4 and 34 = Under 18 years\nrow 53 |  = 3.2\nrow 53 |  = 0.3"
+  ],
+  "locator": "Table 16, SPM, Under 18 years, \"Less than 0.50\" column; 2025 block and 2024 block",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau P60-290 Table 16. Margins of error are 0.3 for both, so the change is not shown to be significant. Table is people by ratio of income/resources to threshold.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-023",
+  "statement": "Social Security was the largest antipoverty program in 2025, moving 28.8 million individuals out of SPM poverty, and refundable tax credits (the EITC and the refundable child tax credit) lifted 6.1 million people above the poverty line, including 3.3 million children.",
+  "claim": "data",
+  "figures": [
+   "28.8 million",
+   "6.1 million",
+   "3.3 million",
+   "1.8 percentage points",
+   "2025"
+  ],
+  "source": "SRC-3600",
+  "anchor": [
+   "moving 28.8 million individuals out of SPM poverty in 2025",
+   "refundable\ntax credits, such as the Earned\nIncome Tax Credit and the\nrefundable portion of the Child\nTax Credit, had the second-largest\neffect, reducing the SPM rate by\n1.8 percentage points and lifting 6.1\nmillion people above the poverty\nline in 2025, including 3.3 million\nchildren."
+  ],
+  "locator": "Highlights; text on Figure 6 and 7",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau P60-290. These are accounting effects of adding each element to resources, holding behavior fixed; Census counts are not mutually exclusive across programs.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-024",
+  "statement": "In 2025 SNAP moved about 1.2 million children out of SPM poverty, the EITC about 2.1 million, the refundable child tax credit about 1.3 million and Social Security about 1.3 million.",
+  "claim": "data",
+  "figures": [
+   "1182",
+   "2055",
+   "1316",
+   "1312"
+  ],
+  "source": "SRC-3603",
+  "anchor": [
+   "row 9 | Table with row headers in column A and column headers in rows 4 through 5 and 29 through 30 = Social Security\nrow 9 |  = -28830\nrow 9 |  = 605\nrow 9 |  = -1312\nrow 9 |  = 149\nrow 9 |  = -6570\nrow 9 |  = 319\nrow 9 |  = -20950\nrow 9 |  = 461",
+   "row 11 | Table with row headers in column A and column headers in rows 4 through 5 and 29 through 30 = Earned Income Tax Credit (EITC)\nrow 11 |  = -4032\nrow 11 |  = 427\nrow 11 |  = -2055\nrow 11 |  = 226\nrow 11 |  = -1922\nrow 11 |  = 222\nrow 11 |  = -55\nrow 11 |  = 22",
+   "row 12 | Table with row headers in column A and column headers in rows 4 through 5 and 29 through 30 = SNAP3\nrow 12 |  = -3116\nrow 12 |  = 329\nrow 12 |  = -1182\nrow 12 |  = 184\nrow 12 |  = -1367\nrow 12 |  = 165\nrow 12 |  = -567\nrow 12 |  = 75",
+   "row 13 | Table with row headers in column A and column headers in rows 4 through 5 and 29 through 30 = Child Tax Credit (refundable portion)\nrow 13 |  = -2319\nrow 13 |  = 311\nrow 13 |  = -1316\nrow 13 |  = 181\nrow 13 |  = -985\nrow 13 |  = 144\nrow 13 |  = -18\nrow 13 |  = 13"
+  ],
+  "locator": "Table 6, 2025, \"Under 18 years\" columns (number, margin of error), rows Social Security, EITC, SNAP, Child Tax Credit (refundable portion)",
+  "rounded": [
+   {
+    "figure": "1.2 million",
+    "value": "1182",
+    "scale": 0.001,
+    "places": 1
+   },
+   {
+    "figure": "2.1 million",
+    "value": "2055",
+    "scale": 0.001,
+    "places": 1
+   },
+   {
+    "figure": "1.3 million",
+    "value": "1316",
+    "scale": 0.001,
+    "places": 1
+   },
+   {
+    "figure": "1.3 million",
+    "value": "1312",
+    "scale": 0.001,
+    "places": 1
+   }
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau P60-290 Table 6, counts in thousands; margins of error 149 (Social Security), 226 (EITC), 184 (SNAP) and 181 (refundable CTC) thousand. Estimates overlap and do not sum.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-025",
+  "statement": "For tax year 2026 the maximum earned income credit is $664 with no qualifying children, $4,427 with one, $7,316 with two and $8,231 with three or more.",
+  "claim": "data",
+  "figures": [
+   "$664",
+   "$4,427",
+   "$7,316",
+   "$8,231"
+  ],
+  "source": "SRC-3605",
+  "anchor": "Maximum Amount of Credit\n\n$4,427\n\n$7,316\n\n$8,231\n\n$664",
+  "locator": "section 3.06(1), table",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-01",
+  "context": "IRS Revenue Procedure 2025-32 (second Trump administration). The IRS newsroom release (SRC-3606) states the $8,231 figure for three or more children, up from $8,046.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-026",
+  "statement": "For tax year 2026 the earned income credit for a worker with no qualifying children reaches its $664 maximum at earned income of $8,680, begins to phase out at $10,860 and is fully phased out at $19,540 (other than joint returns).",
+  "claim": "data",
+  "figures": [
+   "$664",
+   "$8,680",
+   "$10,860",
+   "$19,540"
+  ],
+  "source": "SRC-3605",
+  "anchor": [
+   "Maximum Amount of Credit\n\n$4,427\n\n$7,316\n\n$8,231\n\n$664",
+   "Earned Income Amount\n\n$13,020\n\n$18,290\n\n$18,290\n\n$8,680",
+   "Threshold Phaseout Amount\n(All other filing statuses)\n\n$23,890\n\n$23,890\n\n$23,890\n\n$10,860",
+   "Completed Phaseout\nAmount (All other filing\nstatuses)\n\n$51,593\n\n$58,629\n\n$62,974\n\n$19,540"
+  ],
+  "locator": "section 3.06(1), table",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-01",
+  "context": "IRS Revenue Procedure 2025-32. Joint-return thresholds are $18,140 and $26,820. The 2026 poverty guideline for one person is $15,960 (EV-SEC-044), so a childless worker at the guideline is already in the phase-out range.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-027",
+  "statement": "A worker without a qualifying child must be at least age 25 but under age 65 at the end of the year to claim the earned income credit (for a joint return, at least one spouse must meet the age rule).",
+  "claim": "data",
+  "figures": [
+   "25",
+   "65"
+  ],
+  "source": "SRC-3609",
+  "anchor": "You must be at least age 25 but under age 65 at the end of the year. If married and filing a joint return, at least one spouse must meet the age rule.",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-10",
+  "context": "IRS page last reviewed 2026-11-10 (second Trump administration). Statute: 26 U.S.C. 32(c)(1)(A)(ii)(II) (SRC-3608). The participation rate for the credit is in EV-HOU-399 (78 percent of eligible taxpayers, tax year 2021).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-028",
+  "statement": "Section 10102 of the 2025 reconciliation law limits the SNAP work-requirement exceptions to people under 18 or over 65, the medically unfit, parents or household members responsible for a child under 14, pregnant women, and American Indians, so a parent is excepted only while the child is under 14.",
+  "claim": "data",
+  "figures": [
+   "10102",
+   "18",
+   "65",
+   "14"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 10102. MODIFICATIONS TO SNAP WORK REQUIREMENTS FOR ABLE-\nBODIED ADULTS.",
+   "(A) under 18, or over 65, years of age;",
+   "(C) a parent or other member of a household with\nresponsibility for a dependent child under 14 years of\nage;",
+   "(F) an Indian or an Urban Indian"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "Primary law. Previously the time limit applied to ages 18 to 54 without dependents. The consequences (ages 55 to 64 without children, and parents of children 14 or older, are covered) follow from the exceptions; CRS (EV-SEC-029) states them. Effective on enactment subject to USDA implementation guidance (CRS).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-029",
+  "statement": "CRS describes the enacted SNAP time limit as covering ages 18-64 and adults whose youngest child dependent is age 14 or older, and says the law strikes the exemptions for veterans, people experiencing homelessness and some people who aged out of foster care, and the sunset date.",
+  "claim": "data",
+  "figures": [
+   "18-64",
+   "14"
+  ],
+  "source": "SRC-3610",
+  "anchor": "The enacted bill expands the population subject to the time limit to ages 18-64 and adults whose youngest child dependent is age 14 or older. The proposal strikes the exemptions for veterans, individuals experiencing homelessness, and certain individuals who aged out of foster care, as well as the sunset date.",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "CRS (nonpartisan) description of enacted law. The ABAWD time limit is three months of benefits in a 36-month period unless the person works or trains 80 hours a month (CBO, EV-SEC-031).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-030",
+  "statement": "Section 10105 sets a state share of SNAP benefit costs from fiscal year 2028, by payment error rate: 0 percent below 6, 5 percent from 6 to under 8, 10 percent from 8 to under 10, and 15 percent at 10 percent or more.",
+  "claim": "data",
+  "figures": [
+   "10105",
+   "2028",
+   "6 percent",
+   "5 percent",
+   "10 percent",
+   "15 percent",
+   "0 percent",
+   "8"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 10105. MATCHING FUNDS REQUIREMENTS.",
+   "beginning in fiscal year\n2028, if the payment error rate of a State as\ndetermined under clause (ii) is--",
+   "(I) less than 6 percent, the\nFederal share of the cost of the\nallotment described in paragraph (1) for\nthat State in a fiscal year shall be 100\npercent, and the State share shall be 0\npercent;",
+   "equal to or greater than 6\npercent but less than 8 percent",
+   "the State share shall be 5\npercent;",
+   "equal to or greater than 8\npercent but less than 10 percent",
+   "the State share shall be 10\npercent; and",
+   "the State share\nshall be 15 percent."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "Primary law. A state may use its fiscal year 2025 or 2026 error rate for fiscal year 2028; later years use the rate from the third preceding fiscal year. A state whose 2025 (2026) error rate times 1.5 is 20 percent or more starts in fiscal year 2029 (2030). This delays but does not remove the cost share.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-031",
+  "statement": "Section 10106 cuts the federal share of SNAP state administrative costs from 50 percent through fiscal year 2026 to 25 percent for fiscal year 2027 and each year after.",
+  "claim": "data",
+  "figures": [
+   "10106",
+   "50 percent",
+   "2026",
+   "2027",
+   "25 percent"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 10106. ADMINISTRATIVE COST SHARING.",
+   "agency,\nthrough fiscal year 2026, 50 percent, and for fiscal year 2027 and each\nfiscal year thereafter, 25 percent,"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "Primary law. CRS R48552 (EV-SEC-070) describes it as raising the state share from 50 to 75 percent.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-032",
+  "statement": "Section 10101 requires the Thrifty Food Plan cost to be adjusted each October 1 by the consumer price index and bars any increase in its cost from a re-evaluation of the market baskets, which may not occur before October 1, 2027.",
+  "claim": "data",
+  "figures": [
+   "10101",
+   "2025",
+   "2027"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 10101. RE-EVALUATION OF THRIFTY FOOD PLAN.",
+   "on October 1, 2025, and on\neach October 1 thereafter, adjust the cost of the\nthrifty food plan to reflect changes in the Consumer\nPrice Index for All Urban Consumers",
+   "Not\nearlier than October 1, 2027, the Secretary may re-\nevaluate the market baskets",
+   "The Secretary shall not\nincrease the cost of the thrifty food plan based on a\nre-evaluation under this paragraph."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "Primary law. The anchored text splits \"re-evaluate\" at a hyphen across lines. CBO (EV-SEC-034) estimates the effect on benefits.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-033",
+  "statement": "Section 10108 limits SNAP eligibility to citizens and nationals, lawful permanent residents, Cuban and Haitian entrants, and people residing under a Compact of Free Association.",
+  "claim": "data",
+  "figures": [
+   "10108"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 10108. ALIEN SNAP ELIGIBILITY.",
+   "(A) a citizen or national of the United States;",
+   "(C) an alien who has been granted the status of\nCuban and Haitian entrant",
+   "in accordance with a Compact of Free\nAssociation"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "Primary law; refugees and asylees, previously eligible, are not on the list (CRS R48552, SRC-3610, says the law makes \"additional groups of noncitizens (e.g., refugees, asylees) ineligible\").",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-034",
+  "statement": "CBO estimated that the Thrifty Food Plan provision lowers the average monthly SNAP benefit from 2027, to $213 in 2034 against $227 in its January 2025 baseline, with no effect on participation.",
+  "claim": "analysis",
+  "figures": [
+   "$213",
+   "$227",
+   "2034",
+   "2027"
+  ],
+  "source": "SRC-3612",
+  "anchor": [
+   "CBO estimates that beginning in 2027, the average monthly benefit will be smaller",
+   "by 2034 that benefit will be $213 compared with $227 in the baseline projection for that year.",
+   "CBO does not expect that section 10101 will affect participation."
+  ],
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-15",
+  "context": "CBO (nonpartisan), August 11, 2025, relative to its January 2025 baseline; projection, each section as if implemented on its own. Text read through a full-text fetch.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-035",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-035",
+  "statement": "CRS reports that CBO estimated the Thrifty Food Plan change would reduce the average monthly SNAP benefit by $14 by 2034, and that the nutrition subtitle of the 2025 reconciliation law would reduce federal spending by almost $187 billion over 10 years (FY2025-FY2034).",
+  "claim": "analysis",
+  "figures": [
+   "$187 billion",
+   "$14",
+   "2034",
+   "10",
+   "FY2025-FY2034"
+  ],
+  "source": "SRC-3610",
+  "anchor": [
+   "The Congressional Budget Office (CBO) estimated that the Nutrition subtitle of P.L. 119-21 would reduce federal spending by almost $187 billion over 10 years (FY2025-FY2034)",
+   "By 2034, the policy change is estimated to reduce the average monthly benefit by $14."
+  ],
+  "locator": "Summary; section on CBO participation and benefit estimates",
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-15",
+  "context": "CRS (nonpartisan) summarizing CBO. The task brief expected about $186 billion; CRS says \"almost $187 billion\". It is the nutrition subtitle in total (SNAP plus TEFAP grant), not SNAP alone.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-034",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-036",
+  "statement": "CBO estimated that the SNAP work-requirement changes reduce participation by roughly 2.4 million people in an average month over 2025-2034, including about 800,000 able-bodied adults through age 64 without dependent children and 300,000 adults 18 to 64 living with a child 14 or older.",
+  "claim": "analysis",
+  "figures": [
+   "2.4 million",
+   "2025",
+   "2034",
+   "800,000",
+   "300,000",
+   "18",
+   "64",
+   "14"
+  ],
+  "source": "SRC-3612",
+  "anchor": [
+   "CBO estimates that together those provisions will reduce participation in SNAP by roughly 2.4 million people in an average month over the 2025-2034 period.",
+   "Of those people, about 800,000 will be able-bodied adults through age 64 who do not live with dependent children. Another 300,000 will be able-bodied adults ages 18 to 64 who live with children who are age 14 or older."
+  ],
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-15",
+  "context": "CBO (nonpartisan), August 11, 2025, projection relative to the January 2025 baseline; each section as if implemented alone. CBO also expected about 1 million adults to lose waivers they would have had and a net 300,000 loss for veterans, homeless and former foster youth. CRS R48755 (EV-SEC-037) repeats it. Actual 2026 participation fell faster (EV-SEC-039, EV-SEC-040).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-037",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-040",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-037",
+  "statement": "CRS reports that CBO estimated the SNAP work provision reduces federal SNAP outlays by $69 billion over the 10-year window and reduces SNAP participation by roughly 2.4 million people in an average month.",
+  "claim": "analysis",
+  "figures": [
+   "$69 billion",
+   "2.4 million"
+  ],
+  "source": "SRC-3611",
+  "anchor": [
+   "the SNAP provision will reduce federal SNAP outlays by $69 billion over the same 10-year period",
+   "reduce SNAP participation by roughly 2.4 million people in an average month"
+  ],
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-15",
+  "context": "CRS (nonpartisan), December 2025, restating CBO; the same CBO estimate as EV-SEC-036, so confirms the figure rather than independent evidence.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-036",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-038",
+  "statement": "CBO estimated that the state cost-share provision reduces direct spending by $41 billion over 2028-2034 and that states would collectively reduce or eliminate SNAP benefits for about 300,000 people in an average month; it also estimated that the energy-assistance change cuts benefits by about $100 for 3 percent of households, the internet-expense change by about $10 for 65 percent of households, and that about 90,000 people lose eligibility as noncitizens.",
+  "claim": "analysis",
+  "figures": [
+   "$41 billion",
+   "2028-2034",
+   "300,000",
+   "$100",
+   "3 percent",
+   "$10",
+   "65 percent",
+   "90,000"
+  ],
+  "source": "SRC-3612",
+  "anchor": [
+   "CBO estimates that section 10105 will reduce direct spending by $41 billion over the 2028-2034 period.",
+   "states collectively will reduce or eliminate SNAP benefits for about 300,000 people",
+   "the monthly SNAP benefit will decrease by roughly $100 for about 3 percent of households",
+   "the SNAP monthly benefit will decrease by about $10 for roughly 65 percent of households",
+   "CBO expects that in an average month about 90,000 people will become ineligible for a SNAP benefit."
+  ],
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-15",
+  "context": "CBO (nonpartisan), August 11, 2025; projection; each section as if implemented alone. CBO assumed no state response before 2028; CBPP argues states are already cutting access (EV-SEC-040).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-040",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-035",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-039",
+  "statement": "USDA data (October 2026 release) show SNAP participation averaged 38,035,408 people in the fiscal year 2026 annual summary (preliminary, October 2025 to July 2026) against 42,145,499 in fiscal year 2025, with an average monthly benefit of $189.00 per person in 2026 and $189.35 in 2025; participation was 36,087,667 in July 2026.",
+  "claim": "data",
+  "figures": [
+   "38,035,408",
+   "42,145,499",
+   "$189.00",
+   "$189.35",
+   "36,087,667",
+   "2026",
+   "2025"
+  ],
+  "source": "SRC-3613",
+  "anchor": [
+   "FY 2026\n\n38,035,408\n\n20,625,982\n\n71,886,881,230\n\n189.00\n\n348.53",
+   "FY 2025\n\n42,145,499\n\n22,581,486\n\n95,761,079,307\n\n189.35\n\n353.39",
+   "Jul 2026\n\n36,087,667\n\n19,636,409"
+  ],
+  "locator": "annual summary, FY 2026 and FY 2025 rows; monthly data, Jul 2026",
+  "grade": "A",
+  "fact_date": "2026-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-01",
+  "context": "USDA Food and Nutrition Service (renamed Food and Nutrition Administration), second Trump administration; FY 2026 data are preliminary, run through July 2026, and are subject to revision. The three-month participation drop from 40,671,594 in October 2025 is in the same file.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-040",
+  "statement": "CBPP calculated that about 4.7 million fewer people received SNAP in March 2026 than in the average month of fiscal year 2025, well above CBO's forecast of about 3 million fewer in an average month of 2026, and attributes the gap mainly to states raising barriers ahead of the cost shift.",
+  "claim": "analysis",
+  "figures": [
+   "4.7 million",
+   "3 million",
+   "2026",
+   "2025"
+  ],
+  "source": "SRC-3636",
+  "anchor": [
+   "about 4.7 million fewer people participated in SNAP in March 2026 compared to the average month in fiscal year 2025",
+   "CBO’s prediction of about 3 million fewer people in an average month in 2026 versus 2025"
+  ],
+  "locator": "opening paragraph",
+  "grade": "C",
+  "fact_date": "2026-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-01",
+  "context": "Center on Budget and Policy Priorities (progressive-leaning; opposes the cuts), June 30, 2026, later updated; uses USDA data adjusted for Georgia anomalies and CBO's February 2026 baseline. USDA's own unadjusted March 2026 figure is 37,531,152 (SRC-3613). The cause is CBPP's inference; not proven.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-039",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-036",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-038",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-041",
+  "statement": "In 2026 the SSI federal benefit rate is $994 a month for an individual and $1,491 for a couple if both are eligible, adjusted each year by the Social Security cost-of-living adjustment.",
+  "claim": "data",
+  "figures": [
+   "$994",
+   "$1,491"
+  ],
+  "source": "SRC-3614",
+  "anchor": "the maximum monthly SSI payment, known as the federal benefit rate (FBR), is $994 per month for an individual and $1,491 per month for a couple if both members are SSI eligible.",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-15",
+  "context": "CRS (nonpartisan) In Focus, updated February 13, 2026, quoting law and SSA. The average federally administered payment in January 2026 was $737; about 7.4 million recipients including 1.0 million children (same source).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-042",
+  "statement": "The SSI statute raises the resource limit in annual steps to $2,000 for an individual and $3,000 for an individual with a spouse on January 1, 1989.",
+  "claim": "data",
+  "figures": [
+   "$2,000",
+   "$3,000",
+   "1989"
+  ],
+  "source": "SRC-3615",
+  "anchor": [
+   "shall be $2,250 prior to January 1, 1985, and shall be increased to $2,400 on January 1, 1985, to $2,550 on January 1, 1986, to $2,700 on January 1, 1987, to $2,850 on January 1, 1988, and to $3,000 on January 1, 1989.",
+   "to $1,900 on January 1, 1988, and to $2,000 on January 1, 1989."
+  ],
+  "grade": "A",
+  "fact_date": "1989",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-15",
+  "context": "42 U.S.C. 1382(a)(3), 2024 edition. CRS IF10482 (EV-SEC-072) states the limits are not adjusted for inflation. SSA POMS SI 01110.003 notes the statutory limits have not changed since 1/1/89 (not saved). The limits are in 1989 dollars; no inflation adjustment since.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-043",
+  "statement": "SSI does not count the first $20 a month of most income or the first $65 a month of earned income plus one-half of any earned income above $65, and these exclusions are not adjusted for inflation.",
+  "claim": "data",
+  "figures": [
+   "$20",
+   "$65",
+   "one-half"
+  ],
+  "source": "SRC-3614",
+  "anchor": "Certain income is not counted, such as the first $20 per month of most income and the first $65 per month of earned income plus one-half of any earned income above $65. These exclusions are not adjusted for inflation.",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-15",
+  "context": "CRS (nonpartisan). The poverty guideline $15,960 is in the HHS ASPE page (SRC-3617) and EV-CAR-059; a $994 monthly federal rate is $11,928 a year, about 75 percent of it (project arithmetic, not anchored).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-044",
+  "statement": "The 2026 HHS poverty guideline for the contiguous states and the District of Columbia is $15,960 for a person living alone and $27,320 for a family of three.",
+  "claim": "data",
+  "figures": [
+   "$15,960",
+   "$27,320"
+  ],
+  "source": "SRC-3617",
+  "anchor": [
+   "1 $15,960",
+   "3 $27,320"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-01",
+  "context": "HHS ASPE, second Trump administration. The 2026 update was computed from 11 months of 2025 CPI because the October 2025 shutdown stopped the October CPI. The existing entry EV-CAR-059 gives $15,960 from CBO. The SSI federal rate is $11,928 a year for an individual (EV-SEC-041 x 12; arithmetic by the reader).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-045",
+  "statement": "The Federal Reserve Bank of Minneapolis found that in 2023, 29 percent of unemployed people nationwide received unemployment insurance, with state rates from 10 percent in Kentucky to 55 percent in Minnesota.",
+  "claim": "data",
+  "figures": [
+   "29 percent",
+   "10 percent",
+   "55 percent",
+   "2023"
+  ],
+  "source": "SRC-3641",
+  "anchor": [
+   "In 2023, the national recipiency rate was only 29 percent.",
+   "Recipiency rates ranged from 10 percent in Kentucky to 55 percent in Minnesota."
+  ],
+  "locator": "section on state variation, Figure 4",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-03-01",
+  "context": "Federal Reserve Bank of Minneapolis research staff (not the Board), January 2025; recipiency = insured unemployed as a share of all unemployed people in federal household surveys; uses Department of Labor data. Includes people ineligible by quitting or exhausting benefits.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-046",
+  "statement": "NELP, using the Department of Labor UI Chartbook, reports that in 2024 only 27 percent of unemployed workers nationwide received UI benefits, fewer than 9 percent in Kentucky and nearly 59 percent in Minnesota.",
+  "claim": "data",
+  "figures": [
+   "27 percent",
+   "9 percent",
+   "59 percent",
+   "2024"
+  ],
+  "source": "SRC-3640",
+  "anchor": [
+   "But in 2024, only 27 percent of unemployed workers nationwide received UI benefits",
+   "fewer than 9 percent of unemployed workers in Kentucky",
+   "nearly 59 percent of unemployed workers in Minnesota"
+  ],
+  "locator": "introduction and Figure 1 text",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-03-01",
+  "context": "National Employment Law Project (worker advocacy organization), July 2025, relaying DOL Employment and Training Administration data. Second source (EPI, 27 percent nationwide) is separate.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-047",
+  "statement": "EPI reports that the recipiency rate, the insured unemployed in regular programs as a percentage of the total unemployed, is only 27% nationwide.",
+  "claim": "data",
+  "figures": [
+   "27%"
+  ],
+  "source": "SRC-3642",
+  "anchor": "The recipiency rate— the insured unemployed in regular programs as a percentage of the total unemployed—is only 27% nationwide",
+  "locator": "note 2",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-03-01",
+  "context": "Economic Policy Institute (labor-aligned), October 15, 2025, during the 2025 federal shutdown, on Department of Labor claims data.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-048",
+  "statement": "CBPP reports that regular unemployment compensation is available for up to 26 weeks in most states, with 16 states providing fewer weeks and one (Massachusetts, 30 weeks) more; Florida and North Carolina provide up to 12 weeks.",
+  "claim": "data",
+  "figures": [
+   "26 weeks",
+   "16",
+   "30 weeks",
+   "12 weeks"
+  ],
+  "source": "SRC-3639",
+  "anchor": [
+   "Workers in most states are eligible for up to 26 weeks of benefits from the regular state-funded unemployment compensation program, although 16 states provide fewer weeks, and one provides more.",
+   "Massachusetts, which currently provides a maximum of 30 weeks",
+   "Florida currently provides up to 12 weeks of UI;",
+   "North Carolina currently provides up to 12 weeks;"
+  ],
+  "locator": "first paragraph; state list",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-03-01",
+  "context": "Center on Budget and Policy Priorities (progressive-leaning), late 2025. Several states index weeks to their unemployment rate, so counts move: Minneapolis Fed said eleven states were below 26 weeks in spring 2025 and NELP said 13 (July 2025). CRS (EV-SEC-049) gives a range of 12 to 30 weeks.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-049",
+  "statement": "CRS says federal law sets only broad requirements for unemployment compensation, that each state's law sets the weekly benefit amount and number of weeks across 53 programs, that most states provide up to 26 weeks, and that the program is financed by the Federal Unemployment Tax Act (FUTA) and state payroll taxes.",
+  "claim": "data",
+  "figures": [
+   "53",
+   "26 weeks"
+  ],
+  "source": "SRC-3626",
+  "anchor": [
+   "Although there are broad requirements under federal law regarding UC benefits and financing, the program specifics are set under each state's laws, resulting in 53 different UC programs",
+   "State UC programs determine the weekly benefit amount and the number of weeks of UC available to unemployed workers. Most states provide up to 26 weeks of UC to eligible individuals.",
+   "The UC program is financed by federal taxes on employers under the Federal Unemployment Tax Act (FUTA)"
+  ],
+  "grade": "A",
+  "fact_date": "2025-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-03-01",
+  "context": "CRS (nonpartisan) R48447, August 2025. The same report gives the January 2025 maximum weekly benefit range as $235 (Mississippi) to $1,051 (Massachusetts). The Social Security Act of 1935 authorizes the program (CRS IF12901, not saved).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-050",
+  "statement": "CBPP reports that in 2023 fewer than 1 million of 4.7 million families with children in poverty received TANF cash assistance, a TANF-to-poverty ratio of 21 per 100 families, down from 68 in 1996.",
+  "claim": "data",
+  "figures": [
+   "4.7 million",
+   "1 million",
+   "21",
+   "100",
+   "68",
+   "1996",
+   "2023"
+  ],
+  "source": "SRC-3637",
+  "anchor": [
+   "In 2023, 4.7 million U.S. families with children were living in poverty, but fewer than 1 million received TANF cash assistance.",
+   "for every 100 families in poverty, only 21 received TANF cash assistance in 2023, down from 68 families in 1996"
+  ],
+  "locator": "third paragraph",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-08-01",
+  "context": "Center on Budget and Policy Priorities (progressive-leaning), August 27, 2026; ratio = TANF cash assistance cases over CPS families with children in poverty. CBPP's own data page (SRC-3638) says the ratio rose from 19 to 20 per 100 between 2022 and 2023 on its two-year basis: a one-point internal inconsistency to resolve in the dossier.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-051",
+  "statement": "CBPP's caseload workbook finds that between 2022 and 2023 the number of families in poverty receiving TANF cash assistance rose from 19 out of 100 families to 20 out of 100.",
+  "claim": "data",
+  "figures": [
+   "19",
+   "20",
+   "100",
+   "2022",
+   "2023"
+  ],
+  "source": "SRC-3638",
+  "anchor": "Between 2022 and 2023, the number of families in poverty receiving TANF cash assistance increased from 19 out of 100 families to 20 out of 100 families.",
+  "locator": "abstract paragraph",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-08-01",
+  "context": "Center on Budget and Policy Priorities, April 2025, using HHS caseload and Census CPS data. It conflicts by one point with the 21 per 100 in CBPP's August 2026 post (EV-SEC-050).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-052",
+  "statement": "The TANF basic block grant is $16.5 billion a year, has not been increased since the 1996 welfare law, and lost 49% of its value to inflation from 1997 to 2024; in September 2023 1.0 million families received TANF assistance, against a peak of 5.1 million in March 1994 under the predecessor program.",
+  "claim": "data",
+  "figures": [
+   "$16.5 billion",
+   "1996",
+   "49%",
+   "1997",
+   "2024",
+   "1.0 million",
+   "5.1 million",
+   "1994",
+   "2023"
+  ],
+  "source": "SRC-3618",
+  "anchor": [
+   "The TANF block grant has not been increased since the\nenactment of the 1996 welfare law.",
+   "From 1997 to\n2024, the basic TANF block grant has lost 49% of its value\nto inflation.",
+   "In September 2023, a total of 1.0 million families received\nTANF assistance. This compares with the historical peak in\nreceipt of assistance under TANF’s predecessor program in\nMarch of 1994 at 5.1 million families.",
+   "in a basic block grant of $16.5 billion per year."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-08-01",
+  "context": "CRS (nonpartisan) IF10036, December 2024. CBPP (SRC-3637) puts the loss at \"less than half\" of original value.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-053",
+  "statement": "In the Federal Reserve's 2025 survey, 63 percent of adults said they would cover a hypothetical $400 emergency expense with cash, savings, or a credit card paid off at the next statement; the share was unchanged from the previous three years but down from 68 percent in 2021.",
+  "claim": "data",
+  "figures": [
+   "63 percent",
+   "$400",
+   "68 percent",
+   "2021"
+  ],
+  "source": "SRC-0290",
+  "anchor": [
+   "a hypothetical expense of $400, 63 percent of all adults said they would have covered it exclusively using cash, savings, or a credit card paid off at the next statement",
+   "This share was unchanged from the previous three years,\nbut down from a high of 68 percent in 2021."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-05-31",
+  "context": "Federal Reserve Board, Economic Well-Being of U.S. Households in 2025 (May 2026); self-reported survey of adults. The Board is independent of the administration.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-054",
+  "statement": "In the same survey, 30 percent of adults had income that varied at least occasionally through 2025, and 11 percent said they struggled to pay bills in the prior 12 months because their income varied.",
+  "claim": "data",
+  "figures": [
+   "30 percent",
+   "11 percent",
+   "2025"
+  ],
+  "source": "SRC-0290",
+  "anchor": [
+   "In 2025,\nmost adults had income that was roughly the\nsame each month, but 30 percent had income\nthat varied at least occasionally through the\nyear.",
+   "In 2025, 11 percent of\nadults reported they struggled to pay their bills in the prior 12 months because their income\nvaried"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-05-31",
+  "context": "Federal Reserve Board SHED 2025. Self-employed adults: 58 percent income variability and 22 percent struggled to pay bills because of it (same report).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-055",
+  "statement": "USDA's last household food security report found 13.7 percent of U.S. households (18.3 million) food insecure in 2024, not statistically different from 13.5 percent in 2023, and children were food insecure at times in 9.1 percent of households with children (3.3 million).",
+  "claim": "data",
+  "figures": [
+   "13.7 percent",
+   "18.3 million",
+   "13.5 percent",
+   "2023",
+   "9.1 percent",
+   "3.3 million",
+   "2024"
+  ],
+  "source": "SRC-3619",
+  "anchor": [
+   "The remaining 13.7 percent (18.3 million households) were food insecure.",
+   "not statistically significantly different from the 13.5 percent in 2023",
+   "Children were food insecure at times during 2024 in 9.1 percent of U.S. households with children (3.3 million\nhouseholds)"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-12-30",
+  "context": "USDA Economic Research Service, ERR-358, from the December 2024 CPS Food Security Supplement. USDA announced in September 2025 that this would be the last (EV-SEC-056). ERS site: Household Food Security in the United States in 2024 is the latest annual report listed.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-056",
+  "statement": "In September 2025 USDA announced the termination of future Household Food Security Reports, calling them redundant, costly, politicized, and extraneous studies.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3620",
+  "anchor": "The U.S. Department of Agriculture announced the termination of future Household Food Security Reports. These redundant, costly, politicized, and extraneous studies do nothing more than fear monger.",
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-20",
+  "context": "USDA press release 0219.25 (second Trump administration). The characterization is the administration's own and is not evidence about the survey's quality. The 2024 edition was published after the announcement (released December 30, 2025, per Children's HealthWatch; not saved).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-057",
+  "statement": "AEI researchers report that in 2025 USDA stopped including the Food Security Supplement in the Current Population Survey, essentially ending the national household food insecurity statistic.",
+  "claim": "data",
+  "figures": [
+   "2025"
+  ],
+  "source": "SRC-3649",
+  "anchor": "In 2025, the USDA stopped including the Food Security Supplement on the CPS, essentially ending a consistent source of nationally representative household food-insecurity data.",
+  "locator": "Abstract",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-16",
+  "context": "American Enterprise Institute (center-right), July 16, 2026, by Rachidi and Gundersen, who rely on the data and want it restored. They also note PSID and NHANES as weaker alternatives. Not corroborated by a government source in this register: ask USDA ERS.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-058",
+  "statement": "The Economic Security Project's roundup of 2021 estimates put 4 to 7 million children at risk of being left out of the expanded child tax credit because they lived in low-income households that did not normally file taxes (CBPP: 4 million; People's Policy Project: 7 million).",
+  "claim": "analysis",
+  "figures": [
+   "4-7 million",
+   "4 million",
+   "7 million"
+  ],
+  "source": "SRC-3648",
+  "anchor": [
+   "4-7 million kids are at risk of being left out of the Child Tax Credit because they",
+   "Center on Budget and Policy Priorities: 4 million are at risk of missing",
+   "People’s Policy Project: 7 million low-income children are likely eligible"
+  ],
+  "locator": "\"By the numbers\" section",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Economic Security Project (guaranteed-income advocacy), roundup of advocacy estimates in the 2021 advance-payment year. The same roundup says 59.3 million children received the credit automatically. These are estimates of at-risk children, not a count of those missed.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-059",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-060",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-059",
+  "statement": "TIGTA reported that as of October 2022 about 4.1 million taxpayers who were issued about $9 billion in 2021 advance child tax credit payments had not yet filed a 2021 return, and that 135,000 of the 606,000 who received no advance or recovery payment did not file.",
+  "claim": "data",
+  "figures": [
+   "4.1 million",
+   "$9 billion",
+   "606,000"
+  ],
+  "source": "SRC-3621",
+  "anchor": [
+   "approximately 4.1 million taxpayers\nwho were issued about $9 billion\nin advance payments had not yet\nfiled a tax return",
+   "identified\n606,000 taxpayers who did not receive any advance payments or recovery payments for TY 2021.",
+   "135,000 taxpayers did not file a tax return"
+  ],
+  "grade": "A",
+  "fact_date": "2022-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Treasury Inspector General for Tax Administration (independent), 2023 report on the 2021 expanded credit (Biden administration period). It measures taxpayers who got payments but had not reconciled, not eligible children the IRS could not reach.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-060",
+  "statement": "A 2017 CBO analysis cited by CRS estimated that 251.9 million of 292.6 million individuals who could be included on a federal income tax return were actually included, about 86 percent, with the greatest share of non-filers in lower-income households; in October 2020, five months after the stimulus non-filer portal opened, an estimated 9 million to 12 million eligible non-filing households had not received a check.",
+  "claim": "data",
+  "figures": [
+   "292.6 million",
+   "251.9 million",
+   "86",
+   "2017",
+   "9 million",
+   "12 million",
+   "2020"
+  ],
+  "source": "SRC-3622",
+  "anchor": [
+   "A 2017 CBO analysis estimated that of 292.6 million individuals who could be included on a federal income tax return (as the taxpayer, spouse, or dependent), 251.9 million were actually included—representing about 86% of all individuals.",
+   "this was the case in October 2020, when five months after the stimulus check non-filer portal was created, an estimated 9 million to 12 million eligible non-filing households had not received a check"
+  ],
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "CRS (nonpartisan) In Focus on advance refundable credits, 2021. Describes the coverage limit of the tax system that any monthly benefit run through the IRS inherits.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-061",
+  "statement": "Treasury's Office of Tax Analysis analyzed IRS data to locate children who may be eligible for the expanded child tax credit but had not been claimed on a recent return, and built a non-filer sign-up tool for the 2021 advance payments.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3623",
+  "anchor": [
+   "Non-filer Sign-up Tool",
+   "children who may be eligible to be claimed for the expanded and newly-advanceable Child Tax Credit but who had not been claimed on a recent tax return are located"
+  ],
+  "grade": "A",
+  "fact_date": "2021-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Treasury press release, June 14, 2021 (Biden administration); self-description of the outreach. No count of unreached children is given in it.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-062",
+  "statement": "Section 70607 of the 2025 reconciliation law appropriated $15,000,000 for fiscal year 2026 for Treasury to report within 90 days on public-private partnerships for free tax filing for up to 70 percent of taxpayers, and on replacing any direct e-file programs run by the IRS.",
+  "claim": "data",
+  "figures": [
+   "70607",
+   "$15,000,000",
+   "2026",
+   "90",
+   "70 percent"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 70607.",
+   "TASK FORCE ON THE\nREPLACEMENT OF DIRECT FILE.",
+   "$15,000,000, to remain available until September 30, 2026",
+   "within 90 days following the date of the enactment of this Act",
+   "free tax filing for up to 70\npercent of all taxpayers calculated by adjusted gross income,\nand to replace any direct e-file programs run by the Internal\nRevenue Service"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "Primary law. The report was due within 90 days of enactment. The IRS later said Direct File would not be available for the 2026 season (EV-SEC-063).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-063",
+  "statement": "The IRS told 25 states in November 2025 that \"IRS Direct File will not be available in Filing Season 2026\" and that \"no launch date has been set for the future\".",
+  "claim": "data",
+  "figures": [
+   "25",
+   "2026"
+  ],
+  "source": "SRC-3645",
+  "anchor": [
+   "In an email sent from the IRS to 25 states",
+   "IRS Direct File will not be available in Filing Season 2026",
+   "no launch date has been set for the future"
+  ],
+  "locator": "paragraphs 2 and 3",
+  "grade": "C",
+  "fact_date": "2025-11",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-15",
+  "context": "Nextgov/FCW, November 4, 2025, quoting an email it obtained; Federal News Network (SRC-3646) independently obtained the same email. IRS declined comment. Direct File was used by over 296,500 taxpayers in 2025 (Nextgov). Second Trump administration decision.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-064",
+  "statement": "Federal News Network reported that Direct File ran for two filing seasons, expanded from 12 states to 25 states, and that most of the staff who worked on it had left government or been terminated.",
+  "claim": "data",
+  "figures": [
+   "12",
+   "25"
+  ],
+  "source": "SRC-3646",
+  "anchor": [
+   "The IRS launched Direct File last year as a pilot in 12 states",
+   "The project expanded to 25 states this year",
+   "Most of the staff working on Direct File have left the government or have been terminated."
+  ],
+  "locator": "paragraphs 2 and 7",
+  "grade": "C",
+  "fact_date": "2025-11",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-15",
+  "context": "Federal News Network (trade news), November 5, 2025; the 12-state pilot is in the same article. Corroborates EV-SEC-063 from an independent outlet.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-065",
+  "statement": "CBPP reported, from Office of Personnel Management data, that SSA lost 8,028 employees (14 percent) between January 2025 and April 2026, including 3,809 select customer service positions (10 percent).",
+  "claim": "data",
+  "figures": [
+   "8,028",
+   "14",
+   "3,809",
+   "10",
+   "2025",
+   "2026"
+  ],
+  "source": "SRC-3643",
+  "anchor": [
+   "Trump Administration Cuts to Social Security Staffing, January 2025 to April 2026",
+   "TOTAL 3 | -8,028 | -14% | -3,809 | -10%"
+  ],
+  "locator": "table \"Trump Administration Cuts to Social Security Staffing, January 2025 to April 2026\", TOTAL row",
+  "grade": "C",
+  "fact_date": "2026-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-03",
+  "context": "Center on Budget and Policy Priorities (progressive-leaning; critical of the administration), June 3, 2026, table from OPM EHRI data. \"Select customer service positions\" are contact representatives and social insurance administration series. SSA headquarters staff reassigned to customer service roles distort the Maryland row.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-066",
+  "statement": "SSA's inspector general reported that as of September 30, 2025 SSA employed 52,100 staff, about 6,500 fewer than in FY 2024, and that regional executives said they were unable to hire.",
+  "claim": "data",
+  "figures": [
+   "52,100",
+   "6,500",
+   "2025",
+   "2024"
+  ],
+  "source": "SRC-3625",
+  "anchor": [
+   "As of September 30, 2025, SSA was employing 52,100 staff. This reflects a decrease of\napproximately 6,500 employees compared to FY 2024.",
+   "regional\nexecutives reported they have been unable to hire"
+  ],
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-30",
+  "context": "SSA Office of Inspector General (independent), FY 2025 management challenges report. Includes about 196 employees on deferred retirement still counted. Consistent with CBPP's count (EV-SEC-065).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-067",
+  "statement": "SSA's inspector general found that in FY 2025 callers waited on hold an average of 15 minutes, callers who accepted a callback offer were counted as zero wait, and about 25 million calls ended without the caller receiving service.",
+  "claim": "data",
+  "figures": [
+   "15 minutes",
+   "25 million",
+   "2025"
+  ],
+  "source": "SRC-3624",
+  "anchor": [
+   "In FY 2025, callers waited on hold an average 15 minutes to speak to an SSA employee.",
+   "about 25 million calls ended without the callers"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-30",
+  "context": "SSA Office of Inspector General (independent) telephone metrics audit, December 2025. It also found SSA's published metrics accurate and that wait time improved over the year, from a 30-minute peak in January 2025 to 7 minutes in September 2025. Wait time for callbacks is excluded from the average.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-068",
+  "statement": "SSA reports that its national 800 number had an average speed of answer of 0.5 minutes and an answer rate of nearly 99 percent in September 2026, against 7 minutes in September 2025.",
+  "claim": "data",
+  "figures": [
+   "0.5 minutes",
+   "99 percent",
+   "2026",
+   "7 minutes",
+   "2025"
+  ],
+  "source": "SRC-3644",
+  "anchor": [
+   "Our average speed of answer in September 2025 was 7 minutes",
+   "In September 2026, the National 800 Number average speed of answer was 0.5 minutes and our answer rate was nearly 99 percent."
+  ],
+  "locator": "\"Social Security performance\" page, first section",
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-15",
+  "context": "SSA self-report, second Trump administration, 2026; no independent audit of the 2026 figure found. The IG found FY 2025 published metrics accurate but excluding callback waits (EV-SEC-067); CBPP says SSA stopped publishing wait-on-hold and callback times (EV-SEC-069). The \"7 minutes in September 2025\" is from the same page and matches the IG.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-069",
+  "statement": "CBPP said that in the summer of 2025 SSA stopped publicly releasing regular monthly updates of many customer service metrics, that it no longer shares how long callers wait on hold or for a call back, and that in May 2026 it published no updates to its monthly measures.",
+  "claim": "analysis",
+  "figures": [
+   "2025",
+   "800",
+   "May 2026"
+  ],
+  "source": "SRC-3643",
+  "anchor": [
+   "in the summer of 2025, amid bad press on its worsening performance, SSA stopped publicly releasing regular monthly updates of many customer-focused service metrics",
+   "SSA no longer shares how long callers to the 800 number wait on hold or for a call to be returned",
+   "in May 2026, SSA failed to publish any updates to its monthly performance measures"
+  ],
+  "locator": "paragraphs 4 and 5",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-03",
+  "context": "Center on Budget and Policy Priorities (progressive-leaning; critical of the administration), June 3, 2026. Partly qualified by SSA's own page, which reports a September 2026 answer speed (EV-SEC-068). The IG report (EV-SEC-067) confirms callback waits are not in the average.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-067",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-068",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-070",
+  "statement": "CRS describes the enacted SNAP changes as increasing the state cost share of SNAP administrative costs from 50% to 75% and ending mandatory funding for the Nutrition Education and Obesity Prevention Grant Program (SNAP-Ed).",
+  "claim": "data",
+  "figures": [
+   "50%",
+   "75%"
+  ],
+  "source": "SRC-3610",
+  "anchor": [
+   "increasing the state cost-share for SNAP administrative costs from 50% to 75%",
+   "ending mandatory funding for the Nutrition Education and Obesity Prevention Grant Program (SNAP-Ed)"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "CRS (nonpartisan) description of enacted law; the statute is EV-SEC-031 (administrative cost share) and EV-SEC-071 (SNAP-Ed).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-071",
+  "statement": "Section 10107 limits mandatory funding of the Nutrition Education and Obesity Prevention Grant Program (SNAP-Ed) to each of fiscal years 2016 through 2025.",
+  "claim": "data",
+  "figures": [
+   "10107",
+   "2016",
+   "2025"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 10107. NATIONAL EDUCATION AND OBESITY PREVENTION GRANT\nPROGRAM.",
+   "for each of fiscal years 2016\nthrough 2025"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-04",
+  "context": "Primary law: strikes \"for fiscal year 2016 and each subsequent fiscal year\", so mandatory funding ends after fiscal year 2025.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-072",
+  "statement": "CRS says the SSI countable resource limits of $2,000 for an individual and $3,000 for a couple are not adjusted for inflation.",
+  "claim": "data",
+  "figures": [
+   "$2,000",
+   "$3,000"
+  ],
+  "source": "SRC-3614",
+  "anchor": "The countable resource limit is $2,000 for an individual and $3,000 for a couple. These limits are not adjusted for inflation.",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-15",
+  "context": "CRS (nonpartisan) In Focus, updated February 2026. With the statute (EV-SEC-042) the limits are in 1989 dollars.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-073",
+  "statement": "GAO found that nonfilers, first-time filers, mixed immigrant status families and people experiencing homelessness were among those likely to have trouble receiving the pandemic stimulus payments in a timely manner, and that in May 2021 TIGTA identified potentially 10 million individuals eligible for payments to whom the IRS had no further plans to reach out.",
+  "claim": "data",
+  "figures": [
+   "10 million",
+   "May 2021"
+  ],
+  "source": "SRC-3647",
+  "anchor": [
+   "nonfilers (i.e., people who are not required to file tax returns), first-time filers, mixed immigrant status families, and those experiencing homelessness were among those likely to have trouble receiving these payments in a timely manner",
+   "In May 2021, TIGTA identified potentially 10 million individuals eligible for payments, but IRS has no further plans to reach out to these individuals."
+  ],
+  "locator": "Highlights page, \"What GAO found\" and \"Why it matters\"",
+  "grade": "A",
+  "fact_date": "2022-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "U.S. Government Accountability Office (nonpartisan), June 29, 2022, on the economic impact payments; the lessons apply to refundable credits delivered through the IRS. Read through a full-text search result because gao.gov blocks the download tools.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-074",
+  "statement": "The Tax Policy Center said in October 2025 that the 2025 law's changes do not reach the almost 1 in 3 children who live in families that get less than the full child tax credit because their parents earn too little.",
+  "claim": "analysis",
+  "figures": [
+   "1 in 3"
+  ],
+  "source": "SRC-3633",
+  "anchor": "won’t reach the almost 1 in 3 children that live in families that get less than the full CTC because their parents earn too little",
+  "locator": "second paragraph",
+  "grade": "C",
+  "fact_date": "2025-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Tax Policy Center (nonpartisan), October 8, 2025. Higher than the same center's December 2024 one in four (17 million, EV-SEC-011) and Columbia's 28 percent (EV-SEC-013); no count is stated in the quoted passage. Flagged in notes.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-013",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-014",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
   "id": "EV-SEC-300",
   "statement": "BLS reports that 27% of private industry employees had access to employer-provided paid family leave in March 2023; the 2024 and 2025 estimates did not meet BLS publication standards, so 2023 is the latest published year.",
   "claim": "data",

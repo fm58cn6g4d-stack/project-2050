@@ -1,0 +1,872 @@
+Source: https://www.oversight.gov/sites/default/files/documents/reports/2023-06/202347035fr.pdf
+Publisher: Treasury Inspector General for Tax Administration
+Retrieved: 2026-11-12
+Original SHA-256: 32049734c02584e498ed31912bf69b762acde9b9d5daf1440e55d8e273a52a36
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+TREASURY INSPECTOR GENERAL FOR TAX ADMINISTRATION
+
+American Rescue Plan Act: Review of the Reconciliation
+of the Child Tax Credit
+June 14, 2023
+Report Number: 2023-47-035
+
+TIGTACommunications@tigta.treas.gov | www.treasury.gov/tigta
+
+1
+
+HIGHLIGHTS: American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+Final Audit Report issued on June 14, 2023
+
+Report Number 2023-47-035
+
+Why TIGTA Did This Audit
+
+What TIGTA Found
+
+The American Rescue Plan Act
+of 2021 provided taxpayers the
+ability to receive up to one half of
+the estimated Tax Year 2021 Child
+Tax Credit in advance payments
+between July and December 2021.
+The IRS issued 216.9 million
+advance payments totaling
+$93.5 billion. The IRS estimated
+the advance payments based on
+prior year tax return information
+and information reported through
+its nonfiler tools.
+
+The IRS created an automated process to recalculate the Child Tax
+Credit, including the amount of advance payments posted to a
+taxpayers’ tax account. This process identified 3.8 million tax returns
+that contained a discrepancy between the IRS calculated Child Tax
+Credit amount and the amount claimed by the taxpayer that required
+resolution. TIGTA’s review of the reconciliation process of tax returns
+processed through May 5, 2022, identified:
+
+This audit was initiated to assess
+processes and procedures to
+ensure that taxpayers properly
+reconciled the advance Child Tax
+Credit payments on their Tax
+Year 2021 tax return.
+
+Impact on Tax Administration
+TIGTA previously reported that the
+IRS erroneously issued 3.3 million
+advance payments to 1.5 million
+taxpayers who were not eligible to
+receive an advance payment. The
+IRS’s reconciliation process
+addressed both potentially
+ineligible taxpayers and eligible
+taxpayers who had not received
+advance payments when they filed
+their Tax Year 2021 tax return.
+However, our review showed that
+as of October 12, 2022,
+approximately 4.1 million taxpayers
+who were issued about $9 billion
+in advance payments had not yet
+filed a tax return.
+
+•
+
+6,833 taxpayers who potentially received $10.5 million in
+excess Child Tax Credit because tax examiners incorrectly
+resolved error conditions that allowed more Child Tax Credit
+than what the taxpayer was eligible to claim on their tax
+return.
+
+•
+
+105 taxpayers who did not receive all of their eligible Child Tax
+Credit, resulting in the taxpayers not receiving an estimated
+$139,000 in Child Tax Credit.
+
+Further, in response to TIGTA’s concerns, the IRS developed a process
+to identify undeliverable advance payments that occurred after
+taxpayers filed their Tax Year 2021 tax return. As of October 12, 2022,
+the IRS reissued payments to 7,877 taxpayers totaling $5.4 million.
+
+What TIGTA Recommended
+TIGTA made seven recommendations to the IRS including: identifying
+and reviewing the instances where taxpayers received more or less
+Child Tax Credit than they were eligible to receive, sending letters to
+taxpayers with advance Child Tax Credit payments who have yet to file
+a Tax Year 2021 tax return, and creating a process to recover
+potentially erroneous advance payments.
+The IRS agreed with four of the seven recommendations and partially
+agreed with another. The IRS did not agree to identify additional
+taxpayers with excess Child Tax Credits or to develop a process to
+recover erroneous advance payments on nonfilers. TIGTA continues to
+believe that taxpayers received excess Child Tax Credit after the IRS
+implemented a programing change and that processes are needed to
+recover erroneous advance payments totaling $1 billion.
+
+U.S. DEPARTMENT OF THE TREASURY
+WASHINGTON, D.C. 20024
+
+TREASURY INSPECTOR GENERAL
+FOR TAX ADMINISTRATION
+
+June 14, 2023
+
+MEMORANDUM FOR: COMMISSIONER OF INTERNAL REVENUE
+FROM:
+
+Heather M. Hill
+Deputy Inspector General for Audit
+
+SUBJECT:
+
+Final Audit Report – American Rescue Plan Act: Review of the
+Reconciliation of the Child Tax Credit (Audit # 202240712)
+
+This report presents the results of our review to assess processes and procedures to ensure that
+taxpayers properly reconciled the advance Child Tax Credit payments on their Tax Year 2021 tax
+return. This review is part of our Fiscal Year 2023 Annual Audit Plan and addresses the major
+management and performance challenges of Administering Tax Law Changes and Reducing Tax
+Fraud and Improper Payments.
+Management’s complete response to the draft audit report is included as Appendix III. If you
+have any questions, please contact me or Diana M. Tengesdal, Acting Assistant Inspector
+General for Audit (Returns Processing and Account Services).
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Table of Contents
+Background .....................................................................................................................................Page 1
+Results of Review .......................................................................................................................Page 4
+Programming Correctly Reconciled the Child Tax Credit
+During Tax Return Processing; However, Some Taxpayers
+Received Incorrect Child Tax Credits ............................................................................Page 4
+Recommendations 1 through 3:..............................................Page 5
+Recommendations 4 and 5: .....................................................Page 6
+
+Some Potentially Erroneous Advance Payments Were
+Recovered Through the Reconciliation Process .......................................................Page 7
+Recommendations 6 and 7: .....................................................Page 8
+
+Appendices
+Appendix I – Detailed Objective, Scope, and Methodology ................................Page 10
+Appendix II – Outcome Measures .................................................................................Page 12
+Appendix III – Management’s Response to the Draft Report .............................Page 14
+Appendix IV – Glossary of Terms ...................................................................................Page 20
+Appendix V – Abbreviations.............................................................................................Page 22
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Background
+The American Rescue Plan Act of 2021 (ARPA), enacted on March 11, 2021, increased the
+amount of the Child Tax Credit from $2,000 to $3,000 per child under the age of 18 ($3,600 for
+children under the age of 6) for Tax Year (TY) 1 2021 only and makes the Child Tax Credit fully
+refundable to eligible taxpayers; thus, eliminating the Additional Child Tax Credit for these
+taxpayers. 2 Figure 1 summarizes the changes made to the Child Tax Credit for TY 2021.
+
+Figure 1: Child Tax Credit Changes by the ARPA for TY 2021
+
+Source: Treasury Inspector General for Tax Administration (TIGTA) summary of ARPA legislation.
+
+Advance payment of the Child Tax Credit
+To determine eligibility and the amount of these advance payments during Calendar Year 2021,
+the Internal Revenue Service (IRS) was authorized to use information from:
+ Taxpayers’ TY 2020 tax returns. However, if the taxpayers had not yet filed a TY 2020 tax
+return (including instances where the TY 2020 tax return had not yet been processed
+due to the IRS backlog), the IRS could then use taxpayers’ TY 2019 tax return.
+
+1
+
+See Appendix IV for glossary of terms.
+
+2
+
+Pub. L. No. 117-2, 135 Stat. 4 (codified in scattered sections of 7, 12, 15, 19, 20, 26, 29, 42, and 45 U.S.C.).
+
+Page 1
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+ The Non-Filers: Enter Payment Info Here Tool (also used by taxpayers to receive
+stimulus payments) or the Child Tax Credit Non-Filer Sign-up Tool. 3 The Child Tax
+Credit Non-Filer Sign-up Tool allowed taxpayers to file a simplified TY 2020 tax return
+that contained the information the IRS needed to determine the taxpayer’s eligibility
+and issue the advance payments.
+In addition, the ARPA required the IRS to provide taxpayers with the ability to unenroll from
+receiving advance payments and update information that could modify the amount of advance
+payments taxpayers were eligible to receive, e.g., taxpayers could update the number of their
+qualifying children or their marital status. To meet this requirement, the IRS developed an
+online portal, known as the Child Tax Credit Update Portal, and developed non-electronic
+processes to enable taxpayers to perform many of the same updates that they provided through
+the Child Tax Credit Update Portal.
+
+Reconciliation of the Child Tax Credit on Tax Year 2021 tax returns
+The IRS began issuing advance payments of the Child Tax Credit on July 15, 2021, only
+four months after legislation was enacted, and continued issuing these payments each month
+through December 2021. As of December 2021, the IRS issued 216.9 million advance payments
+totaling $93.5 billion. 4
+In compliance with the ARPA, the IRS provided taxpayers with a written notice of advance
+payments by January 31, 2022, to assist taxpayers in reconciling advance payments received with
+the TY 2021 Child Tax Credit allowed. The IRS developed Letter 6419, 2021 Total Advance Child
+Tax Credit (AdvCTC) Payments, which includes the total amount of advance payments issued for
+TY 2021 and the number of qualifying children used to calculate the advance payments.
+Taxpayers who received one or more advance Child Tax Credit payments should file
+Schedule 8812, Credits for Qualifying Children and Other Dependents, with their TY 2021 tax
+return to report advance Child Tax Credit payments received, claim the remaining eligible Child
+Tax Credit amount, and reconcile the Child Tax Credit allowed with advance payments received.
+In most instances, this results in the taxpayer receiving the remaining portion of the Child Tax
+Credit; however, some taxpayers may owe additional tax if they received advance payments for
+which they were not eligible. These taxpayers will need to report the receipt of their advance
+payment(s) and potentially repay the amount they were not eligible to receive. Taxpayers who
+meet the repayment protection conditions summarized in Figure 2 are allowed to keep the
+excess payments, up to $2,000 per qualifying child.
+
+3
+
+In Calendar Year 2020, this tool assisted taxpayers who were eligible to receive an economic impact payment but do
+not have a Federal tax return filing requirement and had not filed a TY 2018 or TY 2019 tax return. In Calendar
+Year 2021, this tool assisted taxpayers who were eligible to receive advance Child Tax Credit payments but did not
+have a Federal tax return filing requirement and had not filed a TY 2019 or TY 2020 tax return.
+4
+
+TIGTA, Report No. 2022-47-070, American Rescue Plan Act: Accuracy of Advance Child Tax Credit Periodic Payments
+(Sept. 2022).
+
+Page 2
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Figure 2: Summary of Conditions for Repayment Protection 5
+
+Source: TIGTA summary of ARPA legislation.
+
+As of October 26, 2022, the IRS reported that approximately 1.3 million taxpayers with payments
+totaling $1.9 billion were eligible for partial or full repayment protection. If the taxpayer does
+not qualify for the repayment protection, the repayment amount is reported on the taxpayer’s
+tax return and either reduces the refund amount or increases the balance due.
+
+Prior audit recommended outreach efforts for potentially misrouted advance payments
+In our prior review, we reported that taxpayers had their direct deposit information updated by
+the IRS’s Return Integrity and Compliance Services function with information provided by the
+Bureau of the Fiscal Service between August 23, 2021, and October 5, 2021. These updates were
+intended to not only reduce the amount of paper checks being issued, but to also ensure that
+advance payments were timely delivered to taxpayers. 6 As a result of this process,
+1,519 taxpayers had their advance payments direct deposited into an account used for other
+government payments (e.g., payroll allotment accounts, such as a health savings account). 7
+Many of these taxpayers did not have immediate access to the advance payments and may not
+have thought to look for payments in these accounts.
+As of September 2022, the Bureau of the Fiscal Service mailed 1,357 letters to impacted
+taxpayers to officially inform them of the potential location of their advance payments.
+Additionally, the Bureau of the Fiscal Service established a dedicated telephone line for the
+impacted taxpayers and included the telephone number on the letter sent to the affected
+taxpayers. The remaining 162 taxpayers had their payments returned to the IRS, and they are
+eligible to receive the misdirected payment(s) through the filing of their tax return or the
+issuance of subsequent payments.
+
+5
+
+Taxpayers with an income above these amounts but below $80,000 for single filers, $100,000 for head of household
+filers, and $120,000 for married joint filers will gradually have the exempted amount reduced to $0 per qualifying
+child.
+6
+TIGTA, Report No. 2022-47-070, American Rescue Plan Act: Accuracy of Advance Child Tax Credit Periodic Payments
+(Sept. 2022).
+7
+
+We were originally provided with 1,610 taxpayers, which was reported in TIGTA, Report No. 2022-47-070, American
+Rescue Plan Act: Accuracy of Advance Child Tax Credit Periodic Payments (Sept. 2022); however, the IRS subsequently
+provided additional information revising the number to 1,519 taxpayers.
+
+Page 3
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Results of Review
+Programming Correctly Reconciled the Child Tax Credit During Tax Return
+Processing; However, Some Taxpayers Received Incorrect Child Tax Credits
+The IRS created an automated process to recalculate the Child Tax Credit, including the amount
+of advance payments posted to a taxpayer’s tax account, regardless of the advance amount
+reported on a taxpayer’s tax return. The programming calculates the total Child Tax Credit
+taxpayers are eligible to receive based upon their tax return information and reduces that
+amount by any advance payments received. This automated process creates an error code on
+the taxpayer’s tax account, and for most electronically filed tax returns the process systemically
+corrected the error code. For those tax returns that do not meet the criteria to be systemically
+resolved, including paper-filed tax returns, the IRS works the error condition through the manual
+resolution process.
+As of October 12, 2022, 39.8 million taxpayers filed tax returns claiming the Child Tax Credit,
+totaling approximately $195 billion. Of which, $83.8 billion in Child Tax Credit was advance
+payments that went through the recalculation process to ensure the accuracy of the Child Tax
+Credit amount. Additionally, as of this same time period, our review showed that approximately
+4.1 million taxpayers who were issued about $9 billion in advance payments had not yet filed a
+tax return, or their tax return had not yet been processed due to the IRS backlog. Finally, our
+review showed that approximately 1.1 million taxpayers had over $900 million in advance
+payments that have been reversed.
+During the processing of tax returns with advance payments, the IRS identified 3.8 million tax
+returns that contained a discrepancy between the IRS calculated Child Tax Credit amount and
+the amount claimed by the taxpayer that required resolution.
+
+Tax examiner error resulted in taxpayers receiving additional Child Tax Credit
+Our analysis of TY 2021 tax returns processed through May 5, 2022, identified 6,833 taxpayers
+who received potentially $10.5 million in excess Child Tax Credit. This occurred during the
+manual resolution process because tax examiners in the Error Resolution function incorrectly
+resolved error conditions and allowed more Child Tax Credit than the taxpayer was eligible to
+claim on their tax return. In response to our concerns, IRS management estimated, based on a
+judgmental sample, that about 95 percent (6,491) of the taxpayers we identified had an error
+code that was closed in error, and that they will consider them for treatment (i.e., recover the
+excess Child Tax Credit) based upon resource availability. We continue to believe that the IRS
+should review and correct all tax returns that we identified.
+These errors go undetected because updates made to tax returns through the Error Resolution
+function do not have systemic controls to verify the corrections made. In December 2020, we
+reported a similar concern over the lack of verification/validation of entries by tax examiners. 8
+IRS management agreed with our recommendation to add controls to verify fields to prevent
+
+8
+
+TIGTA, Report No. 2021-40-008, Expansion of Self-Correction for Electronic Filers and Other Improvements Could
+Reduce Taxpayer Burden and Costs Associated With Tax Return Error Resolution (Dec. 2020).
+
+Page 4
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+erroneous credits; however, at that time, programming was subject to availability of information
+technology resources and other competing priorities. As a result, the corrective action was
+placed on hold and erroneous credits continued to be issued to taxpayers.
+The Commissioner, Wage and Investment Division, should:
+Recommendation 1: Review all of the 6,833 taxpayers with excess Child Tax Credit identified
+during our review and take appropriate actions to ensure that the taxpayers receive the correct
+amount of the Child Tax Credit.
+Management’s Response: IRS management agreed with the recommendation and will
+review the taxpayers identified and take action as appropriate.
+Recommendation 2: Identify additional taxpayers after May 5, 2022, who received excess Child
+Tax Credit as a result of tax examiner error and take appropriate actions to ensure that these
+taxpayers receive the correct amount of the Child Tax Credit.
+Management’s Response: IRS management disagreed with this recommendation due
+to programming being corrected on March 7, 2022.
+Office of Audit Comment: We continue to believe that an assessment of
+taxpayers receiving the Child Tax Credit after May 5, 2022, is needed as these
+errors continued to occur after the IRS implemented the programing change. For
+example, 906 of the 6,833 taxpayers we identified relative to Recommendation 1
+were filed after the IRS implemented the programming change and the taxpayers
+received excess Child Tax Credit.
+
+Taxpayers did not always receive all of their eligible Child Tax Credit
+Our analysis of TY 2021 tax returns processed through May 5, 2022, identified 105 taxpayers
+who potentially did not receive all of their eligible Child Tax Credit (i.e., they received less).
+These taxpayers should have received an estimated $139,000 in additional Child Tax Credit.
+On October 12, 2022, the IRS informed us of a programming error that occurred during the IRS’s
+Controlled Launch for the 2022 Filing Season. In these instances, the IRS captured the incorrect
+number of qualifying children and selected the tax returns for Error Resolution. During the error
+correction process, the taxpayers received less Child Tax Credit than they were eligible to
+receive. The IRS plans to consider these cases for treatment (i.e., ensure the appropriate amount
+of Child Tax Credit is given) subject to resource availability. However, we believe that the IRS
+should ensure that all 105 tax accounts are corrected to ensure that these individuals receive all
+their eligible Child Tax Credit.
+The Commissioner, Wage and Investment Division, should:
+Recommendation 3: Review the 105 taxpayers who potentially did not receive all of their
+eligible Child Tax Credit identified during our review and take appropriate actions to ensure that
+they receive the correct amount of the Child Tax Credit.
+Management’s Response: IRS management agreed with the recommendation and will
+review the taxpayers identified and take action as appropriate.
+Page 5
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+Recommendation 4: Evaluate the priority of programming to ensure that processes and
+procedures are developed to identify and correct tax examiner entries input during the error
+correction process that exceed statutory limits, including a process to systemically reprocess
+corrected returns through Error Resolution programming before being released for processing.
+Management’s Response: IRS management partially agreed with this recommendation
+and implemented programming for electronically filed tax returns at the beginning of
+the 2023 Filing Season to negate erroneous employee entries as the tax returns are
+processed systemically.
+Office of Audit Comment: While we agree with the actions taken by the IRS to
+reduce erroneous employee entries, this does not address tax returns that are not
+subject to this programming (e.g., certain error conditions on electronically filed
+tax returns and paper-filed tax returns). As a result, erroneous entries by tax
+examiners on the paper-filed tax returns and electronically filed tax returns not
+processed through the implemented programming will continue to occur.
+
+Implementation of a new process to reconcile undelivered advance payments
+Our analysis determined that the IRS sent the majority of the 57.1 million Letters 6419 to the
+correct taxpayers and for the correct amount of advance Child Tax Credit payments issued to
+the taxpayers. 9 However, we identified differences involving the reversals of advance payments
+(i.e., undelivered checks) that were not reflected on Letter 6419. These differences occurred due
+to the timing of the IRS’s cutoff date to send the letters and the posting of the reversal to the
+taxpayer’s tax account. To address this issue, the IRS used the amount of advance payments
+recorded on taxpayers’ tax accounts at the time the IRS processed taxpayers’ tax returns rather
+than the amount on Letter 6419.
+Recommendation 5 (E-Mail Alert): On February 17, 2022, we notified IRS management of our
+concerns with undeliverable payments that post after the processing of the tax return. In these
+instances, the IRS processed the tax return as if the payment was received by the taxpayer. As a
+result, the taxpayer would receive less Child Tax Credit than they are eligible to receive. We
+recommended that the IRS develop a process to identify undeliverable payments after
+processing of the TY 2021 tax return.
+Management’s Response to E-Mail Alert: The IRS implemented a programming
+change effective March 3, 2022, to identify undeliverable advance payments that
+occurred after the tax return processed.
+As of October 12, 2022, we identified 7,877 taxpayers with reversals of advance payments
+totaling $5.4 million that were addressed by the programming change. As a result, the IRS was
+able to identify these taxpayers and work to reissue the reversed advance payment(s) due to the
+taxpayer.
+
+9
+
+TIGTA, Report No. 2022-47-070, American Rescue Plan Act: Accuracy of Advance Child Tax Credit Periodic Payments
+(Sept. 2022).
+
+Page 6
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Some Potentially Erroneous Advance Payments Were Recovered Through the
+Reconciliation Process
+Our prior review determined that, between July and November 2021, the IRS erroneously sent
+3.3 million payments to 1.5 million taxpayers who were not eligible to receive an advance
+payment. These payments totaled nearly $1.1 billion and included instances in which
+dependents did not meet the age requirements, were deceased, or were claimed on another tax
+return. Our analysis was based on information from TY 2020 or, when necessary, TY 2019 tax
+returns; the same approach the IRS used to make the advance payments. 10
+We conducted additional analysis of the 1.5 million taxpayers and found that as of
+October 12, 2022, 845,000 taxpayers with advance payments totaling $1 billion had not filed a
+TY 2021 tax return. Further analysis of the remaining 618,000 taxpayers showed that they had
+filed a TY 2021 tax return, including 242,000 taxpayers (39 percent) who received $119.4 million
+in erroneous advance payments during Calendar Year 2021. 11 Our analysis showed that of the
+618,000 taxpayers:
+•
+
+376,000 taxpayers received the correct amount of Child Tax Credit and $543 million in
+advance payments based upon the information provided on the TY 2021 tax return.
+
+•
+
+173,000 taxpayers were not eligible for some or all of the advance payments but
+qualified for repayment protection totaling $97.8 million.
+
+•
+
+69,000 taxpayers were not eligible for some or all of the advance payments and did not
+qualify for repayment protection. These taxpayers were required to repay the excess
+advance payments totaling $21.6 million.
+
+The IRS stated that there is no compliance strategy to identify potentially erroneous advance
+payments as the filing of the tax return would reconcile any discrepancies. Management further
+stated that taxpayers who do not have a filing requirement are not required to file a tax return
+even if they received advance payments. The reconciliation process only affects taxpayers who
+file a tax return and does not address potentially erroneous claims on the 845,000 taxpayers
+with advance payments who have yet to file a tax return. For these taxpayers, the IRS does not
+know if the taxpayers would claim qualifying children for the Child Tax Credit or have to repay
+the potentially erroneous advance payments. To assist taxpayers who have yet to file a tax
+return, the IRS kept the Free File program available through the IRS’s webpage at www.IRS.gov
+until November 17, 2022, to encourage taxpayers to file their tax return to claim the remaining
+Child Tax Credit. Additionally, the IRS provided taxpayers an additional week to electronically
+file their tax returns and kept electronic filing open through November 26, 2022.
+
+Some taxpayers did not receive notice of their potential eligibility for the Child Tax Credit
+In October 2022, the Department of the Treasury, with assistance from the IRS, identified more
+than 9 million individuals who appear to qualify for the Child Tax Credit, Recovery Rebate Credit,
+or Earned Income Tax Credit. The Department of the Treasury identified dependents who were
+not claimed on a TY 2021 tax return and worked with the IRS to send letters to the taxpayers
+10
+
+TIGTA, Report No. 2022-47-070, American Rescue Plan Act: Accuracy of Advance Child Tax Credit Periodic
+
+Payments (Sept. 2022).
+11
+
+The number of taxpayers does not total to 1.5 million due to rounding.
+
+Page 7
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+responsible for the unclaimed dependent rather than, for example, taxpayers who had received
+advance payments that have not yet filed. The letter, issued in English and Spanish, informs the
+taxpayer that they may be eligible to claim credits and a refund by filing their TY 2021 tax return.
+Our analysis determined that only 1.1 million of the 4.1 million taxpayers with advance payments
+who have not filed a tax return were issued a letter. As a result, there are some taxpayers who
+may be unaware of the need to file their tax return to claim their remaining eligible Child Tax
+Credit.
+The Commissioner, Wage and Investment Division, should:
+Recommendation 6: Identify taxpayers with advance payments who have yet to file a TY 2021
+tax return and send a reminder notice, similar to the Department of the Treasury, using the
+advance payments as part of the criteria.
+Management’s Response: IRS management agreed with the recommendation and will
+identify and notify taxpayers who have yet to file a tax return, reminding them to file
+their TY 2021 tax return to claim any remaining credit to which they may be entitled.
+Recommendation 7: Work with the Commissioner, Small Business/Self-Employed Division, to
+create a process to recover potentially erroneous advance payments from taxpayers who have
+not filed a TY 2021 tax return.
+Management’s Response: IRS management disagreed with the recommendation. The
+IRS indicated that by using current criteria for nonfiler case identification and Automated
+Substitute for Return processes, some erroneous advance payments will be recovered.
+However, these processes do not have the ability to identify and recover potential
+erroneous payments by selecting specific credits.
+Office of Audit Comment: We agree that the current processes may identify a
+portion of the taxpayers who have yet to file a tax return; however, other
+alternatives should be considered for the recovery of the $1 billion in erroneous
+advance payments. With continued discussions by Congress on expanding the
+advance Child Tax Credit, such a process will be needed as part of any efforts to
+reintroduce advance Child Tax Credit payments.
+
+Eligible taxpayers who were not sent advance
+payments received the Child Tax Credit during
+tax return processing
+Our prior audit of advance Child Tax Credit
+payments also identified 4.1 million taxpayers who
+were eligible to receive almost $3.7 billion in
+advance payments, but the IRS failed to send the
+taxpayers one or more monthly payments between
+July and November 2021. To resolve some of the
+missed payments, the IRS issued
+1.3 million recovery payments to impacted
+taxpayers totaling more than $503.7 million in
+Page 8
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+August 2021. The IRS also sent 633,000 recovery payments to affected taxpayers totaling about
+$224.1 million in September 2021. 12
+During this review, we conducted additional analysis of the 4.1 million taxpayers and identified
+606,000 taxpayers who did not receive any advance payments or recovery payments for TY 2021.
+Specifically, as of October 12, 2022, we identified:
+
+12
+
+•
+
+423,000 taxpayers claimed the Child Tax Credit when they filed their tax return
+confirming that they should have received an estimated $2.3 billion in advance
+payments.
+
+•
+
+48,000 taxpayers who filed a tax return but did not claim the Child Tax Credit. In most
+cases, the taxpayers were no longer eligible to claim the Child Tax Credit as the taxpayer
+did not report any qualifying children on their TY 2021 tax return. As an example, this
+can occur when separated/divorced taxpayers alternate claiming a qualifying child based
+on their custody agreement.
+
+•
+
+135,000 taxpayers did not file a tax return. As stated previously, the IRS encourages
+taxpayers to file their TY 2021 tax return to receive the remaining Child Tax Credit, if any.
+
+We did not report on recovery payments for October, November, and December 2021.
+
+Page 9
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Appendix I
+Detailed Objective, Scope, and Methodology
+The overall objective of this review was to assess processes and procedures to ensure that
+taxpayers properly reconciled the advance Child Tax Credit payments on their TY 2021 tax
+return. To accomplish our objective, we:
+•
+
+Assessed the processing of tax returns with the Child Tax Credit to ensure that the IRS
+properly calculated the Child Tax Credit and appropriately applied the repayment
+protection rules, when applicable.
+
+•
+
+Assessed the IRS’s processes and procedures to address taxpayer accounts with advance
+Child Tax Credit payment reversals after the issuance of the Letter 6419 and ensured that
+the IRS provided the taxpayer with their eligible Child Tax Credit.
+
+•
+
+Evaluated the steps taken by the IRS to identify and assist taxpayers where the Return
+Integrity and Compliance Services function updated their direct deposit account used to
+receive advance payments without the taxpayer’s knowledge.
+
+•
+
+Reviewed the criteria used to issue 9 million letters to families who were potentially
+eligible and did not claim stimulus payments, Earned Income Tax Credit, Child Tax Credit,
+and other benefits.
+
+•
+
+Assessed the Error Resolution Codes to ensure that the error codes associated with the
+Child Tax Credit worked as intended and to ensure that tax examiners worked the error
+code to ensure accurate claims for the Child Tax Credit.
+
+Performance of This Review
+This review was performed with information obtained from the Wage and Investment Division
+and Return Integrity and Compliance Services function located in Atlanta, Georgia, and the
+Submission Processing function located in Covington, Kentucky, during the period
+February 2022 through February 2023. We conducted this performance audit in accordance
+with generally accepted government auditing standards. Those standards require that we plan
+and perform the audit to obtain sufficient, appropriate evidence to provide a reasonable basis
+for our findings and conclusions based on our audit objective. We believe that the evidence
+obtained provides a reasonable basis for our findings and conclusions based on our audit
+objective.
+Major contributors to the report were Diana M. Tengesdal, Acting Assistant Inspector General
+for Audit (Returns Processing and Account Services); Darryl J. Roth, Director; Jonathan W. Lloyd,
+Audit Manager; Kenneth L. Carlson, Senior Auditor; Aranxa J. Delgado, Auditor; Sandy Ramos,
+Auditor.
+
+Validity and Reliability of Data From Computer-Based Systems
+During this review, we obtained taxpayer account information from the IRS’s Individual Master
+File, TY 2021 tax return information from the Individual Returns Transaction File, information
+about taxpayers from the National Account Profile table, and payment data from the IRS’s
+Page 10
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+Refund File for Processing Years 2021 and 2022 that were available on TIGTA’s Data Center
+Warehouse. We ensured that each file contained the specific data elements relevant to our
+review. We selected judgmental samples from each extract and verified that the data in the
+extracts were the same as the data captured in the Integrated Data Retrieval System. We
+determined that the data were sufficiently reliable for purposes of this report.
+
+Internal Controls Methodology
+Internal controls relate to management’s plans, methods, and procedures used to meet their
+mission, goals, and objectives. Internal controls include the processes and procedures for
+planning, organizing, directing, and controlling program operations. They include the systems
+for measuring, reporting, and monitoring program performance. We determined that the
+following internal controls were relevant to our audit objective: processes and procedures
+found in the Internal Revenue Manual and programming guides to ensure that taxpayers are
+properly reconciling the advance Child Tax Credit payments reported on their TY 2021 tax
+return. We tested these controls by reviewing and analyzing relevant documents and data and
+holding discussions with IRS management.
+
+Page 11
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Appendix II
+Outcome Measures
+This appendix presents detailed information on the measurable impact that our recommended
+corrective actions will have on tax administration. These benefits will be incorporated into our
+Semiannual Report to Congress.
+
+Type and Value of Outcome Measure:
+•
+
+Cost Savings (Funds Put to Better Use) – Potential; $9,957,194 in excess Child Tax Credit
+for 6,491 taxpayers due to incorrect resolution of the error condition (see
+Recommendation 1).
+
+Methodology Used to Measure the Reported Benefit:
+We identified 6,833 taxpayers who potentially received $10.5 million in excess Child Tax Credit.
+This occurred during the manual resolution process because tax examiners in the Error
+Resolution function incorrectly resolved the error condition and allowed more Child Tax Credit
+than the taxpayer claimed on their tax return. These taxpayers for which the tax return was
+identified by an Error Resolution Code as of May 5, 2022, had a different number of qualifying
+children reported on the electronically filed tax returns when compared to the number allowed
+by tax examiners. These taxpayers reported more qualifying children than they were eligible to
+claim. When the tax examiner resolved the error condition, they allowed the incorrect number
+of qualifying children, resulting in excess Child Tax Credit claimed.
+We shared our results with IRS management, and they stated that they reviewed a judgmental
+sample to determine that 95 percent were closed in error. Therefore, we multiplied
+6,833 taxpayers by 95 percent to get an estimated 6,491 taxpayers with excess Child Tax Credit.
+We multiplied these taxpayers by the average amount of excess Child Tax Credit of $1,534
+($10,482,866 / 6,833), resulting in $9,957,194 (6,491 * $1,534) in excess Child Tax Credit due to
+tax examiners incorrectly working the error condition.
+
+Type and Value of Outcome Measure:
+•
+
+Taxpayer Rights and Entitlements – Potential; $130,046 for 98 taxpayers who received
+less Child Tax Credit than they were eligible to receive due to incorrect resolution of the
+error condition (see Recommendation 3).
+
+Methodology Used to Measure the Reported Benefit:
+We identified 105 taxpayers who potentially did not receive all of their eligible Child Tax Credit.
+Taxpayers received $139,347 less in Child Tax Credit as a result of tax examiners incorrectly
+working error conditions. These taxpayers for which the tax return was identified by an Error
+Resolution Code as of May 5, 2022, had a different number of qualifying children allowed by tax
+examiners compared to the number of qualifying children on the electronically filed tax return.
+These taxpayers for which tax examiners did not correctly calculate the amount of Child Tax
+Credit, received less Child Tax Credit than what should have been allowed.
+Page 12
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+We shared our results with IRS management and they stated that they reviewed a judgmental
+sample of 15 taxpayers to determine that 14 taxpayers (93 percent) we identified had their error
+code closed in error. Therefore, we multiplied 105 taxpayers by 93 percent to get an estimated
+98 taxpayers who did not receive all of their eligible Child Tax Credit. We multiplied these
+taxpayers by the average amount of Child Tax Credit they potentially did not receive of $1,327
+($139,347 / 105), resulting in an estimated $130,046 (98 * $1,327) in Child Tax Credit that is due
+to the taxpayers because of tax examiners incorrectly working the error conditions.
+
+Type and Value of Outcome Measure:
+•
+
+Taxpayer Rights and Entitlements – Actual; 7,877 taxpayers with $5.4 million in
+undeliverable advance Child Tax Credit payments that posted to their accounts after the
+filing of their TY 2021 tax returns (see Recommendation 5).
+
+Methodology Used to Measure the Reported Benefit:
+We determined Letter 6419 did not always reflect the correct amount of advance Child Tax
+Credit the taxpayer received. These differences occurred due to the timing of the IRS’s cutoff
+date to send the letters and the posting of reversals (i.e., undeliverable payments) to the
+taxpayer’s tax account. To address this issue, the IRS used the amount of advance payments
+recorded on taxpayer’s tax accounts at the time the IRS processed taxpayers’ tax returns rather
+than the amount on Letter 6419.
+We notified IRS management about our concerns and that it would sometimes cause taxpayers
+to receive less Child Tax Credit than they were eligible to receive. To address our concerns, the
+IRS implemented a programming change effective March 3, 2022, to identify undeliverable
+advance payments that occurred after the tax return processed. As of October 12, 2022, we
+identified 7,877 taxpayers with reversals of advance payments totaling $5,365,783. The IRS
+worked to reissue the reversed advance Child Tax Credit payments to these taxpayers.
+
+Page 13
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Appendix III
+Management’s Response to the Draft Report
+
+Page 14
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Page 15
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Page 16
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Page 17
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Page 18
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Page 19
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Appendix IV
+Glossary of Terms
+Term
+
+Definition
+
+Data Center
+Warehouse
+
+A collection of IRS databases containing various types of
+taxpayer accounts and IRS and TIGTA employee information that
+is maintained by TIGTA for purposes of analyzing data for
+ongoing audits.
+
+Filing Season
+
+The period from January 1 through mid-April when most
+individual income tax returns are filed.
+
+Individual Master File
+
+The IRS database that maintains transactions or records of
+individual tax accounts.
+
+Individual Return
+Transaction File
+
+A database maintained by the IRS that contains information on
+the individual tax returns it receives.
+
+Integrated Data
+Retrieval System
+
+IRS computer system capable of retrieving or updating stored
+information. It works in conjunction with a taxpayer’s account
+records.
+
+Internal Revenue
+Manual
+
+Primary source of instructions to employees relating to the
+administration and operation of the IRS. The Manual contains
+the directions employees need to carry out their operational
+responsibilities.
+
+Judgmental sample
+
+A judgmental sample is a nonprobability sample, the results of
+which cannot be used to project to the population.
+
+Modified adjusted
+gross income
+
+Modified adjusted gross income is adjusted gross income, plus
+any foreign earned income excluded from gross income, and
+any amount excluded from gross income because it was
+received from sources in Puerto Rico or American Samoa. For
+most individuals, modified adjusted gross income is the same as
+adjusted gross income.
+
+National Account
+Profile
+
+A compilation of selected entity data from various IRS Master
+Files and the Social Security Administration.
+
+Recovery payment
+
+A recovery payment is issued by the IRS to provide advance
+Child Tax Credit payment to taxpayers who were eligible, but did
+not receive, an advance payment in a prior month.
+
+Page 20
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Refund File
+
+This file captures all refunds that are sent by the IRS to the
+Bureau of the Fiscal Service for processing. The Bureau of the
+Fiscal Service is responsible for generating the actual refunds
+based upon the information provided by the IRS. The refunds
+are sent by the Bureau of the Fiscal Service to the taxpayers in
+the form of bank account direct deposits or mailed paper
+checks. The file captures the name, address, and account
+information for the individuals receiving the refunds and are
+useful for identifying tax refund fraud.
+
+Tax Year
+
+A 12-month accounting period for keeping records on income
+and expenses used as the basis for calculating the annual taxes
+due. For most individual taxpayers, the tax year is synonymous
+with the calendar year.
+
+Page 21
+
+American Rescue Plan Act: Review of the Reconciliation of the Child Tax Credit
+
+Appendix V
+Abbreviations
+ARPA
+
+American Rescue Plan Act of 2021
+
+IRS
+
+Internal Revenue Service
+
+TIGTA
+
+Treasury Inspector General for Tax Administration
+
+TY
+
+Tax Year
+
+Page 22
+
+To report fraud, waste, or abuse,
+contact our hotline on the web at www.tigta.gov or via e-mail at
+oi.govreports@tigta.treas.gov.
+
+To make suggestions to improve IRS policies, processes, or systems
+affecting taxpayers, contact us at www.tigta.gov/form/suggestions.
+
+Information you provide is confidential, and you may remain anonymous.
+
+
