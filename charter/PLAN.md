@@ -109,12 +109,12 @@ The models are also a professional product: validated analytical and policymakin
 
 | Core model | Serves | Built from |
 | --- | --- | --- |
-| **Household model:** taxes, benefits, poverty and distribution for real household types | Flagships 1, 2, 3, 5 and 6; the fairness test | The incidence model and the child-poverty microsimulation, unified |
+| **Household model:** taxes, benefits, poverty and distribution for real household types | Flagships 1, 2, 3, 5 and 6; the fairness test | The incidence model and the child-poverty microsimulation, unified; rebuilt before stage G, which needs it for the fairness test |
 | **Health coverage model:** coverage, premiums, out-of-pocket costs and federal cost under restoration, a public option, single-payer Medicare for All, staged paths between them and Medicare changes | Flagship 2 | Built in stage D (`models/tools/health-coverage/`), benchmarked to CBO's coverage estimates |
 | **Federal budget model:** costs, revenues, the fiscal rule, trust funds | Every dossier; fair financing | The ledger, fiscal, recovery-budget and fund models; rebuilt in `models/tools/budget/` (conventions, data layer, provision library, benchmarks and model card) |
 | **Energy and climate model:** emissions, prices, bills, dividends | Flagship 4 | The carbon model and the climate portfolio tools |
 | **Housing model:** assistance reach, rents, supply | Flagship 3 | New, small and evidence-based |
-| **Immigration model:** system capacity, adjudication, fiscal and labor-market effects | Flagship 6 | New, built during that dossier |
+| **Immigration model:** system capacity, adjudication, fiscal and labor-market effects | Flagship 6 | A first version built in the immigration dossier (`dossiers/immigration/tools/`); the full model, with a model card, in stage H |
 | **Transportation model** | Wave two | Existing |
 
 The calendar and vote simulations are paused until there is specified legislation to sequence. Over time the toolkit grows into a broader set of validated tools useful to policy professionals.
@@ -216,7 +216,7 @@ A session is one focused working session by one agent. The session counts are th
 | *Alongside C-D* | *The federal budget model (`models/tools/budget/`, steps B1-B7), on which every dossier is booked* | — |
 | **E. Climate and immigration** | Flagships 4 and 6, with immigration specified well before the 2028 cycle | 9–12 |
 | **F. Work and democratic renewal** | Flagship 5 and the democratic renewal foundation, including state capacity sized to the specified flagships | 7–10 |
-| **G. Fair financing** | The financing settlement, solved once on stable designs, with the household fairness test | 3–5 |
+| **G. Fair financing** | The financing settlement, solved on stable first-wave designs, with the household fairness test (it needs the rebuilt household model), after a short checkpoint memo at the end of stage E. It is re-run when a later wave adds real cost, at each new CBO baseline, and before the plan goes public in 2028 | 3–5 |
 | **H. Toolkit and front door** | Release the core models as a professional toolkit, and rebuild the illustrated vision | 5–8 |
 | **I. Wave two** | Education and transportation to L3, with priority pieces at L4 | 6–10 |
 | **J. Wave three** | Every remaining topic to L3 | 20–35 |
