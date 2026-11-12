@@ -57,7 +57,7 @@ Section 1, part F gives it in full. In brief:
 | 7. Paid leave | 5 | **A** FAM-3A as written; **B** FAM-3A with the 2025 FAMILY Act's bands, job restoration and state equivalence; **C** state grants; **D** four weeks (FAM-3C) | **B** |
 | 8. Social Security | 6 | Part 1: **A** D8 with SS-5; **B** A plus a broad rate rise (SS-7); **C** A plus partial stock investment of reserves (SS-8), SS-7 as fallback; **D** the bipartisan track first (SS-10A). Part 2: minimum benefit, CPI-E, caregiver credit. Part 3: depletion before a law | **Part 1 C**; part 2 all three; part 3 yes |
 | 9. Income counting and the ceiling | 7 | Part 1: **A** current law; **B** exclude the floor's non-wage payments; **C** exclude everything new. Part 2: **A** no ceiling; **B** a published 65-cent ceiling met by design rules; **C** a statutory cap | **Part 1 B; part 2 B** |
-| 10. The dependent care credit | Point 7 | Refundable for costs the care guarantee does not pay, or not | **Yes** |
+| 10. The dependent care credit | Point 7 | Refundable for what families pay out of pocket, copays included, net of both care guarantees, or not | **Yes** |
 
 ## What the options cost
 
@@ -76,7 +76,7 @@ Federal cost against the January 2029 law, in nominal dollars, over FY2030-39 an
 | 7 | Part 1 B; part 2 B | about $0.01-0.03 trillion of forgone offsets | about $1-3 billion | General fund (housing, SNAP) | No | — |
 | Point 7 | Refundable dependent care credit | about $0.03-0.06 trillion | about $3-6 billion | General fund | No | CRFB $90 billion over ten years for the broader 2021 expansion [EV-SEC-611] |
 
-**The recommended set**, on the general fund: about **$2.4-2.5 trillion over FY2030-39 (range about $2.1-2.8 trillion) and about $280-300 billion in FY2040**, of which about $2.0 trillion is already booked (FAM-1 and LAB-10). The new lines (memo 3, memo 1 part 2, memo 2, memo 7, point 7) are about **$0.45-0.6 trillion and $50-60 billion in FY2040**, reported to the financing settlement. Paid leave and Social Security are fund-financed and reported separately.
+**The recommended set**, on the general fund: about **$2.4-2.5 trillion over FY2030-39 (range about $2.2-2.8 trillion) and about $280-300 billion in FY2040**, of which about $2.0 trillion is already booked (FAM-1 and LAB-10). The new lines (memo 3, memo 1 part 2, memo 2, memo 7, point 7) are about **$0.45-0.6 trillion and $50-60 billion in FY2040**, reported to the financing settlement. Paid leave and Social Security are fund-financed and reported separately.
 
 **The basis (judgment, stated so the figures can be checked).**
 - *Growth to the 2030s window:* outside ten-year scores are moved to FY2030-39 at about 2-2.5% a year for credits fixed in dollars and indexed (project arithmetic).
@@ -84,7 +84,7 @@ Federal cost against the January 2029 law, in nominal dollars, over FY2030-39 an
 - *Memo 1 B:* the Century Foundation's and CBPP's $50-80 billion a year [EV-SEC-604] [EV-SEC-605], against an older $2,000 baseline, grown and netted against the 2029 law's larger credit.
 - *Memo 3 part 2:* CBO's SNAP savings fall in the later years of its window, when all cuts are in force [EV-SEC-035] [EV-SEC-038].
 - *Memo 5:* the legacy take-up cases' mature cost of 0.43%, 0.65% and 1.01% of payroll (`legacy-research.md`, 3) on covered wages of about $20 trillion in 2040 (judgment, growing the legacy $15 trillion).
-- *Point 7:* the refundable part only, net of care's guarantee, which pays most child care below 85% of state median income (`DEC-2026-11-11-03`).
+- *Point 7:* the refundable part only, net of both care guarantees: child care, which pays most care below 85% of state median income (`DEC-2026-11-11-03`), and from 2035 the long-term care benefit (`DEC-2026-11-11-02`). Copays count; the guarantees' own payments do not.
 
 **Against other options**, the memos give each option's cost; the largest swings are memo 1 (B saves about $0.9-1.3 trillion against A) and memo 3 part 2 (C adds about $0.7-0.8 trillion against B).
 
@@ -178,9 +178,10 @@ Each is decided on its own. None is adopted by silence. Costs are judgment unles
    - *Cost:* inside memo 2's figure and the rural offices' decided staffing.
 
    **Recommended: yes.**
-7. **Make the child and dependent care credit refundable** (fork 10, left here by care, part C, point 4) for care the guarantee does not pay: school-age care, care outside the guarantee's settings, and care for a dependent adult.
-   - *Why:* a nonrefundable credit skips the families with the least tax (Brookings) [EV-SEC-613]; when refundable in 2021, about 9.1 million families were eligible, against 6.5 million claimants before (Joint Economic Committee, Democratic staff) [EV-SEC-612]. Care's guarantee pays most care for children under 5 below 85% of state median income (`DEC-2026-11-11-03`), so the credit's remaining role is narrower.
-   - *Cost:* about $3-6 billion a year (judgment, against CRFB's $90 billion over ten years for the whole 2021 expansion [EV-SEC-611]).
+7. **Make the child and dependent care credit refundable** (fork 10, left here by care, part C, point 4) for what a family actually pays out of pocket, net of both care guarantees.
+   - *What counts:* school-age care; care outside the child care guarantee's settings; care for a dependent adult who is below the long-term care benefit's three-activity line (HLT-9, from 2035) or, before 2035, not served by Medicaid home care; and **the copays families pay under the guarantees**: child care's charge of up to 7% of income above 85% of state median income (`DEC-2026-11-11-03`) and any capped copay for long-term care under the plan. What either guarantee pays is never claimed again. This matches care part C's expectation that the credit helps families above the free line with copays (`dossiers/care/3c-design-child-care.md`, tax credits row).
+   - *Why:* a nonrefundable credit skips the families with the least tax (Brookings) [EV-SEC-613]; when refundable in 2021, about 9.1 million families were eligible, against 6.5 million claimants before (Joint Economic Committee, Democratic staff) [EV-SEC-612]. Care's guarantees pay most care for children under 5 below 85% of state median income (`DEC-2026-11-11-03`) and, from 2035, home care for adults at the three-activity line (`DEC-2026-11-11-02`), so the credit's remaining role is narrower.
+   - *Cost:* about $3-6 billion a year (judgment, against CRFB's $90 billion over ten years for the whole 2021 expansion [EV-SEC-611]). Counting copays adds little to refundability's cost: the families paying them are above 85% of state median income and mostly owe enough tax to use the credit already.
 
    **Recommended: yes.** Care is told (seam).
 8. **Index SSI's $20 and $65 income exclusions,** which are not adjusted for inflation [EV-SEC-043], with memo 3's asset limits.
