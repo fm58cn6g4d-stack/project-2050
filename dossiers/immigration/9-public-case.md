@@ -1,6 +1,6 @@
 # A new consensus on immigration: the public case
 
-Role: section 9 of the immigration dossier: a plain-language brief, messages, hard questions and a can-say list. It is built only from sections 1-8 and never runs ahead of them. Status: draft (stage E, board row I4, PR 2), on `DEC-2026-11-12-07`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about". Each promise is dated from when its provision starts.
+Role: section 9 of the immigration dossier: a plain-language brief, messages, hard questions and a can-say list. It is built only from sections 1-8 and never runs ahead of them. Status: reviewed (L2; `review-milestone.md`), with the review's fix steps applied; L3 after the re-check. On `DEC-2026-11-12-07` and `-12`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about". Each promise is dated from when its provision starts.
 
 ## The brief
 
@@ -26,14 +26,14 @@ Project 2050's immigration plan does five things.
 - A surge at the border is met with more officers and a 90-day track, not a ban on asking for protection.
 - At least 50,000 refugees are admitted a year; 7,730 were admitted in the first nine months of FY2026 (CRS) [EV-IMM-052].
 - Children, people with serious mental illness and everyone detained get a lawyer.
-- About 900 more immigration judges, with their staff, so the courts' backlog of 3.3 million cases clears in about six years, on our estimates (section 5).
+- About 900 more immigration judges, with their staff, so the courts' backlog of 3.3 million cases clears in about six years, on our estimates (section 5). The final number is set with the plan for the courts.
 
 **Enforcement that respects rights,** from the act's signature, with a new agency structure in 2031.
 - ICE is replaced, and the department's immigration agencies are restructured.
 - Enforcement focuses by law on threats to security, serious crime and recent unlawful entry.
 - No more than 30,000 people are held on average, under standards they can enforce in court.
-- Case management, not a cell, for everyone else: more than 99% of people in full case management appeared in court (Government Accountability Office) [EV-IMM-354].
-- No arrests at schools, churches or hospitals without a warrant, and officers show who they are.
+- Case management, not a cell, for everyone else: more than 99% of people in the full-service program who had a hearing appeared in court (Government Accountability Office) [EV-IMM-354].
+- No arrests at schools, churches or hospitals without a warrant or an emergency, and officers show who they are.
 
 **One fair rule at work,** with E-Verify phased in from about mid-2031, and never before October of the year after the law passes.
 - Every employer checks new hires with E-Verify, in steps by employer size.
@@ -41,7 +41,7 @@ Project 2050's immigration plan does five things.
 - A worker wrongly flagged gets ten days to fix it, keeps the job meanwhile, and is paid for lost wages.
 - Workers who report wage theft or unsafe work are protected from immigration threats.
 
-**What it costs, on our estimates.** About $0.13 trillion over 2030-39 on the federal budget, about $16.4 billion a year from 2040, before the plan's financing (section 6). The largest pieces are health coverage for people still without status and ending the wait for help for the newly legal. Social Security's funds gain from legalization (Social Security's actuaries, on the 2013 Senate bill) [EV-IMM-604].
+**What it costs, on our estimates.** About $0.41 trillion over 2030-39 on the federal budget, about $56.5 billion a year from 2040, before the plan's financing (section 6). Most of it is health coverage in the single plan for the people still without status. Social Security's funds gained from legalization in the 2013 Senate bill's score (Social Security's actuaries) [EV-IMM-604]; the E-Verify mandate costs them about $42 billion over ten years on our estimates.
 
 ## The case in one paragraph
 
@@ -52,15 +52,15 @@ Millions of people have lived here for decades, raising American children and do
 1. **Earned, not given.** Ten years here, fingerprints and a criminal check. People with serious crimes are barred [EV-IMM-623].
 2. **Order the country can see.** Clear cutoffs: the day the law is signed for registration, January 1 of that year for the fastest green cards; checks at work; decisions in months; a surge met with capacity.
 3. **Government that already knows you.** Tax and earnings records prove residence, so no one hunts for twenty years of rent receipts [EV-IMM-639].
-4. **Families first.** 5.3 million citizen children have a parent who would gain status [EV-IMM-007].
+4. **Families first.** 5.3 million citizen children have a parent who could gain status [EV-IMM-007].
 5. **Workers the plan needs.** Care and construction depend on immigrant workers [EV-CAR-614] [EV-HOU-055]; the plan keeps them here and pays them the plan's wage floors.
 6. **Enforcement that respects rights,** and that a future administration cannot simply switch off, because it is in law.
 
 ## Hard questions, plain answers
 
 - **"Isn't this amnesty?"** It is earned status: ten years' residence, fingerprints and a criminal check, under the registry already in immigration law, whose date has been stuck at 1972 since 1986 [EV-IMM-590] [EV-IMM-591].
-- **"Won't it bring more people?"** No one who arrives after the law is signed can register, and only people here by January 1 of that year can get the fastest green cards. After the 1986 legalization, long-run unauthorized inflows from Mexico did not change (Orrenius and Zavodny) [EV-IMM-233].
-- **"What does it cost?"** About $0.13 trillion over ten years on our estimates. Outside scores of similar bills also find a small first-decade cost (CBO, 2021) [EV-IMM-600], and Social Security's funds gain.
+- **"Won't it bring more people?"** No one who arrives after the law is signed can register, and only people here by January 1 of that year can get the fastest green cards. People who arrive while Congress debates can register, but wait ten years for a green card. After the 1986 legalization, long-run unauthorized inflows from Mexico did not change (Orrenius and Zavodny) [EV-IMM-233].
+- **"What does it cost?"** About $0.41 trillion over ten years on our estimates, most of it health coverage for people still without status. For legal status itself, outside scores of similar bills find a small first-decade cost (CBO, 2021) [EV-IMM-600].
 - **"Will E-Verify flag me by mistake?"** In the government's last full study, 0.2% of citizens were wrongly flagged at first (Westat for USCIS, FY2009) [EV-IMM-391]. Under this plan you get ten days to fix it, you can't be fired meanwhile, the government must answer in ten days or you are confirmed, and lost wages are paid.
 - **"Does replacing ICE mean no enforcement?"** No. A new agency enforces the law, focused on security, serious crime and recent unlawful entry, under rules in statute. Criminal investigators get their own agency.
 - **"Will my information be used to deport my family?"** No. The law bars using registration or program records for immigration enforcement, with penalties, except under a criminal warrant for a named person.
@@ -78,10 +78,10 @@ Millions of people have lived here for decades, raising American children and do
 | --- | --- |
 | About 14 million people without status (2023) | An exact count for 2029: it is 12-14.5 million, a working assumption |
 | A green card for people with ten years here, after a check | That everyone will apply: we assume about 70% |
-| About $0.13 trillion over ten years, on our estimates | That legalization "pays for itself" on the federal budget: on our estimates it is a small cost; Social Security gains |
+| About $0.41 trillion over ten years, on our estimates | That legalization "pays for itself" on the federal budget: on our estimates the status title is a small cost and the set a larger one |
 | E-Verify no earlier than October of the year after the law passes, and only once an inspector confirms legal status is running | A fixed E-Verify start date: it depends on the inspector's check, repeated every 90 days (about mid-2031 on our timeline) |
 | Registration's cutoff is the day the law is signed; tier A's is January 1 of that year | — |
-| No more than 30,000 people detained on average | That detention costs will fall by a set amount: against CBO's baseline it is about zero, on our estimates about +$1 billion over ten years |
+| No more than 30,000 people detained on average | That detention costs will fall by a set amount: on our estimates it is about +$7 billion over ten years, depending on how many people are in case management |
 | Decisions on asylum in about six months; in a surge about 90 days | That surges will not happen |
 | Wall money goes to border security that agents recommend | A dollar figure: the unspent balance in mid-2029 is not known |
 | Protections against wrong E-Verify flags | That E-Verify catches identity fraud: it misses about half of unauthorized workers it checks [EV-IMM-393] |
@@ -103,7 +103,7 @@ Millions of people have lived here for decades, raising American children and do
 | 30,000 average daily detention | Section 4, IMM-4.05 | EV-IMM-571 |
 | E-Verify no earlier than October of the year after enactment, on the inspector's check; about mid-2031; ten-day contest | Section 4, IMM-4.13, 4.14 | `DEC-2026-11-12-12`; working timeline (section 5) |
 | The two cutoffs | Section 4, IMM-1.04 | `DEC-2026-11-12-12` |
-| About $0.13 trillion over 2030-39; about $16.4 billion a year from 2040 | Section 6, parts 1 and 5 | Project arithmetic, `tools/immigration_model.py` and `tools/immigration_path.py` |
+| About $0.41 trillion over 2030-39; about $56.5 billion a year from 2040; E-Verify's $42 billion to Social Security | Section 6, parts 1, 2 and 5 | Project arithmetic, `tools/immigration_model.py` and `tools/immigration_path.py` |
 | Social Security gains (S. 744: +$284 billion by 2024) | Section 6, part 2 | EV-IMM-604 |
 | The registry in current law; the date stuck at 1972 since 1986 | Memo 2; section 4, IMM-1.05 | EV-IMM-590, EV-IMM-591 |
 | Bars on serious crimes | Section 4, IMM-1.08 | EV-IMM-623 |

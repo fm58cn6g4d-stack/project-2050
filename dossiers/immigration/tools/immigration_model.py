@@ -27,6 +27,9 @@ YEARS = list(range(2030, 2041))
 WINDOW = range(2030, 2040)
 FILING_OPENS = 2031      # FY in which filing opens (about October 1, 2030; 4-specification.md)
 
+import os
+import sys
+
 INPUTS = {
     # ---- population and take-up (memo 1) ----
     'tier_b_m': (8.0, 7.0, 9.0, "assumption: MPI's 60% with ten years in 2021 (EV-IMM-617) moved to 2029, on 12-14.5 million"),
@@ -79,15 +82,20 @@ INPUTS = {
     'counsel_cost_detained_usd': (4000, 2500, 6000, 'assumption: no national cost study is in the register (section 3, Evidence still needed); New York\'s program shows the effect, not the unit cost (EV-IMM-327)'),
     'children_cases_k': (40, 20, 60, 'assumption: children in removal proceedings a year'),
     'counsel_cost_child_usd': (5000, 3000, 7000, 'assumption, as above'),
+    'children_backlog_k': (200, 100, 400, "assumption: children's cases in the 3.3 million court backlog (EV-IMM-100) that the corps decides by FY2035 and counsel B covers; no count in the register, decided evenly over FY2031-35"),
     'smi_cases_k': (5, 3, 10, 'assumption: people found to have a serious mental illness'),
     'counsel_cost_smi_usd': (8000, 5000, 12000, 'assumption, as above'),
     # ---- detention (memo 5) ----
     'base_beds': (41500, 41500, 41500, 'EV-IMM-362'),
     'cap': (30000, 30000, 30000, 'commitment: memo 5 (EV-IMM-571)'),
     'bed_day_usd_2023': (187.48, 152.0, 237.60, 'EV-IMM-628 (central), EV-IMM-359 (low), EV-IMM-355 (high, family detention)'),
-    'cm_people_k': (100, 70, 140, 'assumption: memo 5, people in case management at a time'),
+    'cm_people_k': (150, 100, 250, 'assumption: memo 5, people in case management at a time: today\'s 183,181 on alternatives (EV-IMM-171) and about 35,000 released to reach the cap, less the 35-50% who file for status and leave proceedings (IMM-1.10), plus releases under the surge rule (IMM-3.02), which have no count'),
     'cm_day_usd': (30, 20, 40, 'assumption: between ISAP and family case management (EV-IMM-355)'),
     'atd_day_usd_2023': (4.11, 4.11, 4.41, 'EV-IMM-629 (central), EV-IMM-355 (ISAP III, high)'),
+    # ---- the table's coverage for people without status (memo 6; milestone review O-1, F-3) ----
+    'without_status_m': (2.25, 1.5, 3.0, 'assumption: memo 6, people left without status after memo 1, inside care\'s 1% residual (models/tools/health-coverage/inputs.csv, sp_residual_unins)'),
+    'without_status_cost_factor': (1.0, 0.5, 1.0, "assumption: care's path prices them at its average newly covered person, about $13,500 in 2032 (EV-CAR-120 for the plan's base); 0.5 is a lower bound for a younger population, with no register source yet"),
+    'five_year_wait_bn': (3.0, 2.0, 4.0, 'assumption: memo 6, no five-year wait for memo 1\'s new permanent residents in SNAP, SSI, TANF and Medicaid, a year from FY2031 (2026 dollars)'),
     # ---- status's fiscal effect (memo 1) ----
     'hr6_deficit_bn': (35.33, 35.33, 35.33, 'EV-IMM-600: CBO, H.R. 6, $35,330 million over 2021-2031'),
     'reach_scale': (2.5, 2.0, 3.0, 'assumption: memo 1 reaches two to three times H.R. 6\'s population in its first decade (3-design.md)'),
@@ -126,10 +134,12 @@ def uscis(case='central'):
     build = {y: (v('match_build_bn') * (0.6 if y == 2030 else 0.4 if y == 2031 else 0)) for y in YEARS}
     memo2 = {y: waivers[y] + build[y] for y in YEARS}
     # Backlog clearance (EV-IMM-575): money a year for 4-5 years, from FY2030.
-    yrs = v('backlog_years')
+    # The money runs until the net backlog clears, so the six-month target (IMM-6.03) holds: about
+    # a year longer than EV-IMM-575's four to five years at its pace.
+    years_to_clear = v('uscis_net_backlog_m') / (v('backlog_bn_per_year') * 1000 / v('backlog_cost_per_case_usd'))
+    yrs = max(v('backlog_years'), years_to_clear)
     backlog_money = {y: v('backlog_bn_per_year') * max(0.0, min(1.0, yrs - (y - 2030))) for y in YEARS}
     cleared = sum(backlog_money[y] for y in YEARS) * 1000 / v('backlog_cost_per_case_usd')   # million cases
-    years_to_clear = v('uscis_net_backlog_m') / (v('backlog_bn_per_year') * 1000 / v('backlog_cost_per_case_usd'))
     n400 = {y: v('n400_apps_m') * v('n400_fee_usd') * (v('n400_free_share') + 0.5 * v('n400_half_share')) * prices(y, case) / 1000 for y in YEARS}
     online = {y: v('online_ona_bn') / 10 for y in YEARS}
     bridge = {y: (v('fee_lag_bridge_bn') / 3 if y in (2030, 2031, 2032) else 0.0) for y in YEARS}
@@ -196,11 +206,29 @@ def eoir(case='central'):
     detained_cases = val('cap') * 365 / v('detained_avg_days') * v('detained_court_share')
     counsel_2026 = (detained_cases * v('counsel_cost_detained_usd') + v('children_cases_k') * 1000 * v('counsel_cost_child_usd')
                     + v('smi_cases_k') * 1000 * v('counsel_cost_smi_usd')) / 1e9
-    counsel = {y: counsel_2026 * prices(y, case) * (0.5 if y == 2030 else 1.0) for y in YEARS}
+    backlog_children = v('children_backlog_k') * 1000 * v('counsel_cost_child_usd') / 5 / 1e9     # FY2031-35
+    counsel = {y: (counsel_2026 * (0.5 if y == 2030 else 1.0) + (backlog_children if 2031 <= y <= 2035 else 0.0))
+               * prices(y, case) for y in YEARS}
     peak = max(r['judges'] for r in rows.values())
     return dict(judges_needed=target, judges_added=target - now, judges_peak=peak, cleared_fy=cleared,
                 cleared_at_800=at_cap, cleared_slow_ramp=slow, judges_by_year={y: rows[y]['judges'] for y in YEARS},
                 judges_cost=judges_cost, detained_cases_k=detained_cases / 1000, counsel=counsel)
+
+
+def term_increment(case='central'):
+    """A-1 (milestone review): the added judges hired on terms that end once the backlog clears.
+
+    After clearance the corps the model keeps shrinks only by attrition. Receipts then need about
+    receipts after officers decide first / completions a judge, at or below today's 753. With the
+    increment on terms, judges above today's corps end with the fiscal year after clearance, so the
+    judge-team line after it is saved. Returns that saving (FY2036-39 and FY2040) and the need.
+    """
+    v = lambda n: val(n, case)
+    e = eoir(case)
+    need = v('court_receipts_k') * 1000 * (1 - v('officer_first_receipt_cut')) / v('completions_per_judge')
+    after = [y for y in YEARS if e['cleared_fy'] is not None and y > e['cleared_fy']]
+    saving = {y: (e['judges_cost'][y] if y in after else 0.0) for y in YEARS}
+    return dict(need=need, saving_window=sum(saving[y] for y in WINDOW), saving_2040=saving[2040])
 
 
 def asylum_refugees(case='central'):
@@ -226,6 +254,44 @@ def detention(case='central'):
         added = v('cm_people_k') * 1000 * 365 * (v('cm_day_usd') * prices(y, case) - v('atd_day_usd_2023') * p) / 1e9
         out[y] = added - saving
     return out
+
+
+_CARE = {}
+
+
+def care_cost_of_residual(n_m):
+    """Net federal cost added on care's own path when n_m million more people join the single plan.
+
+    Runs `dossiers/care/tools/health_path.py` with care's residual uninsured share
+    (`sp_residual_unins`, 1%) lowered by n_m million, and returns the difference by fiscal year.
+    Care's booked figures keep the 1%; this dossier counts the difference once (6-cost.md, part 3).
+    """
+    key = round(n_m, 4)
+    if key not in _CARE:
+        import importlib
+        care = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'care', 'tools')
+        if care not in sys.path:
+            sys.path.insert(0, care)
+        H = importlib.import_module('health_path')
+
+        def run(n):
+            I, B, P = H.setup()
+            I['sp_residual_unins'] = I['sp_residual_unins'] - n / B['pop'] * (1 if B['pop'] < 1e3 else 1e6)
+            B = H.M.build_base(I)
+            s, _ = H.path(I, B, P, H.rate_path(H.hospital_start(I, B)))
+            return {y: s[y]['total'] for y in YEARS}
+        base, more = run(0.0), run(n_m)
+        _CARE[key] = {y: more[y] - base[y] for y in YEARS}
+    return _CARE[key]
+
+
+def table(case='central'):
+    """Memo 6: coverage for people without status on care's path, and the five-year wait ended."""
+    v = lambda n: val(n, case)
+    cover = care_cost_of_residual(v('without_status_m'))
+    f = v('without_status_cost_factor')
+    wait = {y: (v('five_year_wait_bn') * (0.75 if y == 2031 else 1.0) * prices(y, case) if y >= 2031 else 0.0) for y in YEARS}
+    return {y: cover[y] * f + wait[y] for y in YEARS}
 
 
 def status_fiscal(case='central'):
@@ -271,7 +337,7 @@ def lines(case='central'):
     u, e, a = uscis(case), eoir(case), asylum_refugees(case)
     memo4 = {y: a['corps'][y] + a['refugees'][y] + a['regional'][y] + e['counsel'][y] for y in YEARS}
     return {'memo1': status_fiscal(case), 'memo2': u['memo2'], 'memo4': memo4, 'judges': e['judges_cost'],
-            'detention': detention(case), 'memo7': u['memo7']}
+            'detention': detention(case), 'memo7': u['memo7'], 'memo6': table(case)}
 
 
 def report():
@@ -286,6 +352,9 @@ def report():
         print(f"Courts [{case}]: about {ec['judges_needed']:.0f} judges in all ({ec['judges_added']:.0f} added) clear the backlog by FY{ec['cleared_fy']}; "
               f"at 800 judges: FY{ec['cleared_at_800']}; at 150 hires a year: FY{ec['cleared_slow_ramp']}; "
               f"judge teams ${window(ec['judges_cost']):.1f}B over FY2030-39; counsel ${window(ec['counsel']):.1f}B")
+    t = term_increment()
+    print(f"Term-limited increment (A-1): steady-state need about {t['need']:.0f} judges; saves ${t['saving_window']:.1f}B "
+          f"over FY2036-39 and ${t['saving_2040']:.1f}B in FY2040")
     print('Judges by year (central): ' + ', '.join(f"{y}: {j:.0f}" for y, j in eoir()['judges_by_year'].items()))
     a = asylum_refugees()
     print('Memo 4 parts (FY2030-39): corps {:.1f}, refugees {:.1f}, regional {:.1f}, counsel {:.1f}'.format(

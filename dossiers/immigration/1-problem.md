@@ -277,7 +277,7 @@ The 2025 law made the following changes:
   - care: every resident covered by the single plan, with people without status left to this flagship (`DEC-2026-11-10-09`);
   - child care: every resident child (`DEC-2026-11-11-03`);
   - housing: Section 214 with proration protected for mixed-status families (`DEC-2026-11-09-10`);
-  - the secure floor: the child's own ID only (memo 1, part 2, awaiting Espen).
+  - the secure floor: the child's own ID only (memo 1, part 2; decided, `DEC-2026-11-12-06`).
 
   **The same family gets different answers from different programs. Rule 3 asks this flagship for one table** (README, "Seams").
 
@@ -320,7 +320,7 @@ Each assumption the legacy files or the other dossiers pass to this flagship, it
 | A refugee floor of about 50,000 | `domain-immigration.md:79`, `:182` | No; the basis is unchecked memory |
 | An Article I court (CRT-5A) | `domain-courts.md:100-118`, from the Rebalancing review | No; owned by democratic renewal |
 | USCIS's $40 billion share of the agency rebuild | Legacy D9 (`project-2050-governing-decisions.md:232-237`) | D9's surge and sustained lines are Espen's; agency shares are "provisional" working figures |
-| The $6 billion asylum and refugee processing reserve | Governing decisions, line 239 | **Pending Espen** |
+| The $6 billion asylum and refugee processing reserve | Governing decisions, line 239 | **Pending Espen** in the legacy record; folded into this dossier's USCIS line by point 9 (`DEC-2026-11-12-07`) |
 | The H-1B fee as its own channel (IF1) | Ledger, line 399 | No |
 | Every resident covered by the single plan; people without status decided here | Care point 3 | **Yes, as a proposal to this flagship** (`DEC-2026-11-10-09`) |
 | Every resident child in child care and pre-K | Care part C, point 5 | **Yes, as a proposal** (`DEC-2026-11-11-03`) |
