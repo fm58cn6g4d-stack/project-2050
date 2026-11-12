@@ -28,26 +28,27 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 - Reviewer `session_01UQzgBtEveznkR76gmgDdVm`: PRs #133 to #144; November 9.
 - Reviewer `session_01QHgvhVvafmiGMqU7Vewnst`: October 26 to 29.
 
-**Lead handoff (November 11, 2026, about 04:40 UTC)** from `session_01UQzgBtSLEoy7fgPMAW76LL` (context about 655,000 tokens; lineage depth 5, so the strategy session starts the successor). The new lead is `session_01UQzgBwthb9wvzFajiwYkhG` (Standing sessions table above).
-- **Done since November 10 morning.**
-  - Transportation is at L3 (#203, #206-#214). Stage C is closed: Espen's strategic review said "no changes for now", with a fuel-tax revisit noted under "Directions for later stages".
-  - Health is at L3 (#220-#229, #233). The health part's decisions are `DEC-2026-11-10-09` to `-13` and `DEC-2026-11-11-01`: a staged path to single-payer with a 2035 endpoint; employer groups with Medicaid in 2033-35, required, with a contribution; memo 3 B; no duplicative coverage; ownership kept, with guardrails; the hospital transition fund; Hyde and Helms ended.
-  - Health is booked in the budget model (#230, #234): the plan-wide FY2040 general-fund balance is about $4.27T short, which is the premium-to-tax shift the financing settlement designs.
-  - The S. 1506 comparison is `dossiers/care/research-s1506-comparison.md`.
-- **Active sessions.**
-  - Reviewer `session_01UQzgBwM92trGLhKkGBSjEP` (about 330,000 tokens).
-  - `session_01UQzgBuDKwYYp955AVgktYz`, health follow-ups: items 1-5 and C19b are merged (#232-#234). It should have nothing left. Check it with `get_session`, then send it a `handoff`.
-  - Every other worker from November 10 has finished.
-- **Open PRs:** none. **Scheduled check-ins bound to the lead:** none. **Waiting on Espen:** nothing.
-- **Next.**
-  1. **Care part B, long-term care (support at home and in nursing homes for older and disabled people)** (`dossiers/care/README.md`, part B): sections 1-3 and one batched memo set. It builds on health's choices: long-term care was left to part B, institutional long-term care stays with Medicaid under S. 1506 sec. 204, and the legacy all-age home-support direction of October 26 is an option. It meets housing's aging-in-place work and shared rule 7. Use a fresh Most capable session; care's sources are SRC-3000 to 3399 and its evidence is EV-CAR-*.
-  2. Then part C (child care and pre-K) and part D (the workforce). The secure floor (flagship 1) follows care.
+**Lead handoff (November 12, 2026, about 03:15 UTC)** from `session_01UQzgBwthb9wvzFajiwYkhG` (context about 670,000 tokens; lineage depth 2). The new lead puts its own ID in the Standing sessions table in its first board PR and moves this session to "Former standing sessions" (lead, November 11 to 12: care parts B-D from research to decisions and repricing, the part B audit and revision, the health long-term care fix, the reviewer handover, the secure floor's start).
+- **Done since November 11 morning.**
+  - Care part B (long-term care), part C (child care and pre-K) and part D (the workforce): sections 1-3 and memos 6-17, all decided (`DEC-2026-11-11-02` to `-06`; #236, #239-#250, #253). Decided totals about $3.80T over FY2030-39 and $736B in FY2040 (`dossiers/care/tools/care_repricing.py`). Part B renamed "long-term care" in the plan (#243).
+  - Health's booking corrected: Medicaid long-term care kept in Medicaid (#237); plan-wide FY2040 general-fund balance about $3,750B short.
+  - Reviewer handed over (#245); legacy-first and efficiency rules (#251).
+- **Active sessions (report-back: the lead).**
+  - `session_01UQzgBw9VK9o3iPPDppbRg7`: care parts B-D sections 4-9 (row D-9), started 03:07 UTC; may open several PRs.
+  - `session_01UQzgBuXeG7aix1nxZ4BSPj`: secure floor S1-S2 (#252, draft), with Espen's two directions (README quotes them).
+  - Reviewer `session_01UQzgBxCFn7vF7KD8QH1G6d`.
+  - `session_01UQzgBvk1RmZgu8yMjAx9Vn`: the November 8 B6 worker, idle at about 505,000 tokens, offering to continue; its handoff is #132's comment.
+- **Open PRs:** #252 (secure floor, draft). **Scheduled check-in bound to the lead:** `trig_018UJgHvRvSMZsi1Rrw4Pkya` (04:10 UTC), holding the overnight relay below; recreate it for yourself and disable it. **Waiting on Espen:** the label on the fair-financing PR (`DEC-2026-11-11-07`: fair financing moves to Claude; Espen said yes). Once merged, the financing settlement (stage G) is Claude's; dossier lines that say "the settlement (Codex)" (care's 3d, memo 17) are fixed in their next edit.
+- **The overnight relay (Espen asleep, asked for steady progress, and to start the next stage when stage D waits only on approvals).**
+  1. When D-9 is done: an independent care milestone review (fresh Opus, as health's 4r), fixes by D-9's author, then the tier-3 booking PR for Espen's label, netting HLT-4's down payment against the bridge.
+  2. When S1-S2 is done: S3, the secure floor memo set (fresh Opus, legacy-first, health memo format, Espen's directions).
+  3. When a slot frees (cap three, this session and the reviewer counted): the budget model's B6 remainder and B4 milestone (PS-4a/4b, TF-2, item 4 with tier-3 parts split out, the shared scenario file, #131's list, proposals on MOV-29/30, C35 and DEM-11, the JCT offset rate, the two small health bookings). Fresh Opus, or the idle B6 worker; leave care's booking alone.
+  4. When care waits only on Espen's labels: stage E's first dossier, immigration, skeleton and sections 1-2, legacy-first (two dossiers active at most).
 - **Open items, not urgent.**
-  - The employer contribution's share and the exclusion revenue's pass-through are the financing settlement's.
   - D3's health reading is kept separate until the replacement taxes are designed.
   - The `build_catalog.py` reserved-range fix and JCT's yearly offset rate are under "Known gaps".
   - The IHS funding item is open in care section 6.
-  - Two small health bookings wait for the next tier-3 health booking change: worker help (HLT-7.16) and the FEHB, TRICARE and VA overstatement (row 4b).
+  - Source ranges: care SRC-3000 to 3399 (3124-3199 part D), transportation 3500-3599, secure floor 3600-3999.
 - **How Espen works.**
   - Short, plain updates with numbered one-line asks. Decision sheets as artifacts work well.
   - Espen answers in the lead session. Record each answer as a `DEC-` entry in a tier-3 PR.
