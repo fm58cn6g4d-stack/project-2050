@@ -46,8 +46,8 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
   - Finished, no further work: `session_01UQzgBw9VK9o3iPPDppbRg7` (D-9, about 630,000 tokens), `session_01UQzgBwgfnP2AgerLpBpSRY` (D-9r), `session_01UQzgBuXeG7aix1nxZ4BSPj` (S1-S2), `session_01UQzgBt6Jjbyu4wDmDyRynR` (I1-I2).
   - `session_01UQzgBvk1RmZgu8yMjAx9Vn`: the November 8 B6 worker, idle at about 505,000 tokens; its handoff is #132's comment.
 - **Open PRs:** #265, #266 (tier 3, for Espen). **Scheduled check-in bound to the lead:** `trig_01Ba8WmHDzhcZ1JjAWxtJi9s` (08:50 UTC, re-armed hourly by the lead); the outgoing lead's `trig_01QZEiJtGeHo5DAyooQ7htju` is disabled.
-- **Since the handoff (November 12, afternoon).** #265 and #266 merged with Espen's labels. The budget model's B6 remainder and B4 milestone started in `session_01UQzgBwob1SeDw4Qbrcr5AW` (report-back: the lead). Espen's two directions (no Codex review requirement; Exa when Firecrawl is unavailable) are in #271, tier 3, for Espen's label.
-- **Waiting on Espen:** 1. question 0o (secure floor); 2. question 0p (immigration); 3. the label on #271.
+- **Since the handoff (November 12, afternoon).** #265 and #266 merged with Espen's labels. The budget model's B6 remainder and B4 milestone started in `session_01UQzgBwob1SeDw4Qbrcr5AW` (report-back: the lead). Espen's two directions (no Codex review requirement; Exa when Firecrawl is unavailable) are recorded as `DEC-2026-11-12-01` and `-02` (#271, merged).
+- **Waiting on Espen:** 1. question 0o (secure floor); 2. question 0p (immigration).
 - **Next, in order.**
   1. When Espen labels #265 and #266: update the branches at once; the second needs `run-all.sh --write` from its author.
   2. After #265 merges: the budget model's B6 remainder and B4 milestone in one fresh Most capable session (PS-4a/4b, TF-2, item 4 with tier-3 parts split out, the shared scenario file, #131's list, proposals on MOV-29/30, C35 and DEM-11, the JCT offset rate, the two small health bookings), briefed from the budget rows and #132's comment. It waited because it writes the same `models/data/` files.
