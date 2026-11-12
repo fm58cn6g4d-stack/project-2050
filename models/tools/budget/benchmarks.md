@@ -4,9 +4,9 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 **How to read it.** *pass*: within the stated tolerance. *fail*: outside it; the miss column gives the size. *pending*: there is no target yet, because the source isn't in the library or the model can't compute the quantity. A miss is reported, never fixed by changing the model or the tolerance.
 
-19 benchmarks: 16 pass, 3 fail. 4 of the passes (PS-3a, PS-3b, SE-2a, SE-2b) are partly in-sample: they were calibrated to the same CBO figures they are checked against, so only part of each is tested (each entry says which part).
+19 benchmarks: 17 pass, 2 fail. 4 of the passes (PS-3a, PS-3b, SE-2a, SE-2b) are partly in-sample: they were calibrated to the same CBO figures they are checked against, so only part of each is tested (each entry says which part).
 
-**Milestone status: not passed.** PS-4a, PS-4b, TF-2 are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
+**Milestone status: not passed.** PS-4a, PS-4b are not yet resolved, so B4 does not yet meet the workflow's "benchmarks before trust" condition. These results are a diagnostic report; readings that depend on the open benchmarks stay out of decision and public figures (`MODEL-CARD.md`, "What is not yet validated").
 
 | ID | Benchmark | Result | Model | Target | Tolerance | Miss |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 | SE-2a | Slower growth (productivity growth 0.1 point a year slower from FY2026): added deficits, FY2027-36 | **pass** (partly in-sample) | 320 ($B) | 317 | ten-year total within 15% | — |
 | SE-2b | Slower growth (labor force growth 0.1 point a year slower from FY2026): added deficits, FY2027-36 | **pass** (partly in-sample) | 171 ($B) | 166 | ten-year total within 15% | — |
 | TF-1 | Social Security (OASDI combined): current law | **pass** | depletion 2034, 83% payable, balance -4.45% | depletion 2034, 83% payable, balance -4.42% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | — |
-| TF-2 | Medicare Hospital Insurance: current law | **fail** | depletion 2034, 89% payable, balance -0.64% | depletion 2033, 89% payable, balance -0.56% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | depletion +1 year, balance -0.08 points of payroll |
+| TF-2 | Medicare Hospital Insurance: current law | **pass** | depletion 2033, 89% payable, balance -0.56% | depletion 2033, 89% payable, balance -0.56% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | — |
 | TF-3 | SSA's own scores of seven Social Security provisions, rebuilt by the engine | **pass** | -0.02 (points, largest gap) | 0.00 | 0.05 point of taxable payroll for each provision | — |
 
 ## Baseline
@@ -225,14 +225,14 @@ Role: the current result of every benchmark of the federal budget model (piece B
 
 ### TF-2. Medicare Hospital Insurance: current law
 
-- **Result:** fail. Miss: depletion +1 year, balance -0.08 points of payroll
-- **Model:** depletion 2034, 89% payable, balance -0.64%
+- **Result:** pass
+- **Model:** depletion 2033, 89% payable, balance -0.56%
 - **Target:** depletion 2033, 89% payable, balance -0.56%
 - **Tolerance:** depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll
 - **Source:** 2026 Social Security and Medicare Trustees Reports, intermediate assumptions, as recorded in models/data/inputs/funds-*.csv and printed beside the model's figures by models/tools/funds-model.py (lines 306 and 335; legacy/index/dedicated-funds.md)
 - **Why:** funds-model.py already runs this check against the Trustees on every run and prints it; this benchmark reads its output (build/funds.json) and applies a stated tolerance. The engine uses the Trustees' own annual rates, so it should land on their figures to within rounding: the tolerances are the published rounding (whole percent payable) plus a small allowance for the balance, which funds-model.py says differs only by "rounding in the published rates and the interest path".
-- funds-model.py's own page says the HI check is off and that the program's gain, not the absolute balance, is the reading to use (legacy/index/dedicated-funds.md, Medicare HI).
-- Which reference: the Trustees. The engine runs on the Trustees' own cost and income rates, so their projection is the one it should reproduce, and the miss is against them. CBO projects HI exhausted during FY2040 (Long-Term Budget Outlook data, February 2026; Espen's November 8 upload, PR #121), 7 years after the Trustees and 6 after the model. That gap is a difference between the two forecasters' assumptions, not a check on the engine, so it is context, not a target.
+- Until B6 (item 2 of the remainder) the engine had the Trustees' HI rates at six years only, with the income rate a straight line from 2026 to 2100 and the cost rate a straight line from 2026 to 2040. That understated HI's cost in 2027-39 by up to 0.12 point of payroll (3.77% for 2030 against the Trustees' 3.88%), so depletion came a year late (2034), and it understated income after 2040, so the balance read -0.64%. models/data/inputs/funds-hi-rates.csv now carries every year Table III.B7 publishes (each year 2026-35, then every five years).
+- Which reference: the Trustees. The engine runs on the Trustees' own cost and income rates, so their projection is the one it should reproduce, and the miss is against them. CBO projects HI exhausted during FY2040 (Long-Term Budget Outlook data, February 2026; Espen's November 8 upload, PR #121), 7 years after the Trustees and 7 after the model. That gap is a difference between the two forecasters' assumptions, not a check on the engine, so it is context, not a target.
 
 ### TF-3. SSA's own scores of seven Social Security provisions, rebuilt by the engine
 

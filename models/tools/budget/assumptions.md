@@ -688,13 +688,14 @@ OASDI income and cost rates by year, % of taxable payroll.
 
 ### ASM-FUND-HI-RATES
 
-HI cost and income rates, published years only, interpolated.
+HI cost and income rates for every year the Trustees publish (Table III.B7: each year 2026-35, then every five years to 2100), interpolated between.
 
-- **Value:** 2026 3.49 / 3.49; 2100 cost 4.86, income 4.51 (% of HI payroll)
-- **How much it matters:** medium: summary rates; a year-by-year table is a roadmap item
+- **Value:** 2026 3.49 / 3.49; 2030 3.88 / 3.58; 2035 4.27 / 3.68; 2100 4.86 / 4.51 (% of HI payroll)
+- **How much it matters:** medium: HI's depletion year and 75-year balance rest on them; Table III.B7 still gives five-year steps after 2035
 - **Where:** models/data/inputs/funds-hi-rates.csv
-- **Source:** 2026 Medicare Trustees Report (intermediate)
+- **Source:** 2026 Medicare Trustees Report, Table III.B7 (intermediate)
 - **Decided by:** Espen (D4-B part 4: the Trustees' 75-year standard)
+- **Notes:** Until B6 (item 2 of the remainder) only six years were carried, interpolated in straight lines, and budget benchmark TF-2 failed (depletion 2034, balance -0.64%); with Table III.B7's years it passes (2033, -0.56%).
 
 ### ASM-FUND-HI-PAYROLL
 

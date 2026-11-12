@@ -342,11 +342,11 @@ w(f"**Reading.** Evaluated on their face, the D8 baseline closes about {d8['clos
 
 w("## Medicare HI (summary level)\n")
 hc, hp = hi["Current law"], hi["With HI's program sources"]
-w(f"Rates are the 2026 Trustees' HI cost and income rates at the years they publish, interpolated between (sourced); HI's taxable payroll is taken as {P['hi_payroll_ratio']:.2f} times OASDI's because it is uncapped (estimate). **Check:** the model puts depletion in **{hc['depletion']}** with {hc['payable']:.0f}% payable and a 75-year balance of **{hc['balance']:.2f}%**, against the Trustees' 2033, 89% and −0.56% (sourced).\n")
+w(f"Rates are the 2026 Trustees' HI cost and income rates for every year they publish (Table III.B7: each year 2026-35, then every five years), interpolated between (sourced); HI's taxable payroll is taken as {P['hi_payroll_ratio']:.2f} times OASDI's because it is uncapped (estimate). **Check:** the model puts depletion in **{hc['depletion']}** with {hc['payable']:.0f}% payable and a 75-year balance of **{hc['balance']:.2f}%**, against the Trustees' 2033, 89% and −0.56% (sourced).\n")
 gain = hp["balance"] - hc["balance"]
 w(f"**With the program.** HI's sources in the program are REV-H1a (${REV['H1a']['mid']:.1f}T) and HLT-6's Part A share (${hi_hlt6_window:.2f}T at {P['hi_hlt6_part_a_share']:.0%} of the Advantage savings, FY2030-34 only, working assumption), ${hi_window:.2f}T in 2030-39; REV-H1a is held at the same share of HI payroll after 2039 (estimate). Under the plan HI folds into the plan's fund at the 2035 endpoint (HLT-7.22), so the reading that matters is that HI is kept whole until then; the years after 2035 are shown for current-law comparison only. They improve the 75-year balance by **{gain:+.2f}%** of HI payroll, against the Trustees' 0.56% gap"
   + (", so they close it on this reading" if gain >= 0.56 else f", leaving about {0.56-gain:.2f}% for a further HI source") + f"; on the model's own rates HI then depletes in {hp['depletion'] or 'no year before 2100'}"
-  + f" and the balance is {hp['balance']:+.2f}%. Because the model's current-law balance is {hc['balance']-(-0.56):+.2f} points off the Trustees', the gain (not the model's absolute balance) is the reading to use; a year-by-year Trustees HI table would sharpen it.\n")
+  + f" and the balance is {hp['balance']:+.2f}%. The model's current-law balance is {hc['balance']-(-0.56):+.2f} points off the Trustees' (budget benchmark TF-2), so both the gain and the absolute balance can be read.\n")
 
 w("## Paid leave (FAM-3)\n")
 lm = leave["mid"]
