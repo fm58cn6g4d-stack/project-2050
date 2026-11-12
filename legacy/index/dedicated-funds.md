@@ -52,17 +52,17 @@ Rates are the 2026 Trustees' HI cost and income rates at the years they publish,
 
 ## Paid leave (FAM-3)
 
-The contribution starts at 0.60% of covered payroll in 2030 (Trustees' taxable payroll used as the base, estimate) and benefits start in 2031, ramping over 2 years. Benefit cost is set so 2030-39 benefits match the ledger's FAM-3 range ($0.6T / $0.9T / $1.4T). The rule: when the reserve is below 1 year of next year's benefits the rate steps up 0.05 points the next January, to 0.85%; above 1.5 years it steps back down; a shortfall at the cap is a Treasury loan repaid with interest.
+The contribution starts at 0.60% of covered payroll in 2030 (Trustees' taxable payroll used as the base, estimate) and benefits start in 2031, ramping over 2 years. Benefit cost is set so 2030-39 benefits match the ledger's FAM-3 range ($0.6T / $0.9T / $1.4T). The rule: when the reserve is below 1 year of next year's benefits the rate steps up 0.05 points the next January, to 1.10%; above 1.5 years it steps back down; a shortfall at the cap is a Treasury loan repaid with interest.
 
-**Check:** at 0.60% the contribution raises $0.97T in 2030-39 (ledger P1: $0.90T) and $1.37T at the cap (ledger: $1.28T).
+**Check:** at 0.60% the contribution raises $0.97T in 2030-39 (ledger P1: $0.90T) and $1.78T at the cap (ledger: $1.28T).
 
 | Take-up case | Mature cost (% of payroll) | First step-up | Rate 2035 / 2039 / 2050 | Receipts 2030-39 | Benefits 2030-39 | Treasury loan owed 2039 / 2050 ($B) |
 | --- | --- | --- | --- | --- | --- | --- |
 | low | 0.43% | never | 0.60% / 0.60% / 0.60% | $0.97T | $0.60T | 0 / 0 |
 | mid | 0.65% | 2039 | 0.60% / 0.65% / 0.60% | $0.98T | $0.90T | 0 / 0 |
-| high | 1.01% | 2032 | 0.80% / 0.85% / 0.85% | $1.23T | $1.40T | 184 / 865 |
+| high | 1.01% | 2032 | 0.80% / 1.00% / 1.10% | $1.28T | $1.40T | 124 / 0 |
 
-**Reading.** At low and middle take-up the fund pays its way at or near 0.60%. At high take-up the mature cost (1.01% of payroll) is above the 0.85% cap, so the loan never stops growing: the bridge is not temporary in that case, and a design choice is needed (a higher cap, a benefit adjustment, or the general-fund backstop FAM-3E). In the window the loan reaches $184B (the domain file's about $120B, estimate).
+**Reading.** At low and middle take-up the fund pays its way at or near 0.60%. At high take-up the mature cost (1.01% of payroll) is below the 1.10% ceiling (Espen, October 26), so the rate steps up to cover it and the Treasury loan is a bridge: it peaks at $124B, is $124B in FY2039 (the domain file's about $120B, estimate) and is repaid by 2048. A benefit adjustment or the general-fund backstop (FAM-3E) is needed only if the mature cost rises above the ceiling.
 
 ## Highway Trust Fund (Moving America)
 
@@ -111,4 +111,4 @@ Historical comparison: Espen subsequently adopted the full EDU-9B scope and payr
 | E1 counted ($0.35T) | 1.38 | -509 (2049) / -509 | +56 (2039) / +210 |
 | E1's new money only ($0.15T) | 1.50 | -1283 (2049) / -1283 | -564 (2049) / -564 |
 
-The domain file estimates about 1.4 points with REV-E1 counted, and slightly above with only its new money (estimate). General-fund relief if taken up: FAM-2, EDU-1, EDU-3 and EDU-4 leave the general fund, $1.23T in 2030-39 on the long-term model's rows (domain file: $1.23T), plus the current spending the fund absorbs (about $0.77T, estimate).
+The domain file estimates about 1.4 points with REV-E1 counted, and slightly above with only its new money (estimate). General-fund relief if taken up: FAM-2, EDU-1, EDU-3 and EDU-4 leave the general fund, $2.11T in 2030-39 on the long-term model's rows (domain file: $1.23T), plus the current spending the fund absorbs (about $0.77T, estimate).

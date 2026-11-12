@@ -10,28 +10,28 @@ Nominal dollars; FY2030–39 totals in trillions. No estate receipts are moved o
 
 | Education mixed reference: 1.4 points, phased 2031–35, plus 30% GF share | $T |
 | --- | ---: |
-| fund outlays | 2.602 |
-| old agenda transfer | 1.230 |
+| fund outlays | 3.300 |
+| old agenda transfer | 2.114 |
 | current law absorbed | 0.770 |
-| new benefits | 0.602 |
+| new benefits | 0.416 |
 | payroll | 1.671 |
-| gf grants including transition | 1.105 |
+| gf grants including transition | 1.439 |
 | tax offset | 0.209 |
 | protection reserve | 0.334 |
-| gf delta | -0.352 |
-| unified delta | -0.526 |
+| gf delta | -0.902 |
+| unified delta | -0.712 |
 
 Negative delta improves the balance. GF relief includes transfers; unified improvement only counts new external receipts minus additional benefits and allowances. Bridge grants cancel inside the consolidated government. Fund interest is intragovernmental; it is not new unified revenue.
 
 | FY | Gross fund outlays | New benefits | Payroll | GF grants | Net GF relief | Unified improvement |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| 2030 | 142.0 | 28.2 | 0.0 | 142.0 | -28.2 | -28.2 |
-| 2031 | 174.6 | 34.3 | 39.3 | 135.3 | -7.8 | -7.8 |
-| 2033 | 264.0 | 79.4 | 127.6 | 136.4 | 6.7 | 6.7 |
-| 2035 | 288.1 | 65.3 | 229.9 | 86.4 | 61.7 | 90.0 |
-| 2040 | 327.0 | 64.5 | 279.8 | 98.1 | 73.5 | 124.3 |
-| 2049 | 442.0 | 90.5 | 398.2 | 132.6 | 89.5 | 178.3 |
-| 2056 | 570.0 | 130.9 | 524.0 | 171.0 | 97.8 | 222.8 |
+| 2030 | 130.0 | 27.0 | 0.0 | 130.0 | -27.0 | -27.0 |
+| 2031 | 193.7 | 33.5 | 39.3 | 154.4 | -6.9 | -6.9 |
+| 2033 | 313.8 | 39.7 | 127.6 | 186.2 | 46.4 | 46.4 |
+| 2035 | 373.3 | 43.7 | 229.9 | 112.0 | 142.9 | 111.5 |
+| 2040 | 463.8 | 52.4 | 279.8 | 139.2 | 181.3 | 136.4 |
+| 2049 | 635.4 | 77.6 | 398.2 | 190.6 | 237.8 | 191.2 |
+| 2056 | 820.7 | 118.5 | 524.0 | 246.2 | 285.7 | 235.2 |
 
 ## Education reserve tests
 
@@ -39,21 +39,21 @@ Seventy-five years, 2030–2104. Post-2049 extrapolations are assumptions, not a
 
 | Case | Payroll 2030–39 ($T) | Total GF grants ($T) | First negative reserve | Reserve / spending 2104 | Terminal ratio stable/rising? |
 | --- | ---: | ---: | --- | ---: | --- |
-| source_1.4_immediate_no_estate | 2.269 | 0.000 | 2034 | -4.35 | True |
-| phased_1.4_with_bridge | 1.671 | 0.646 | 2035 | -4.15 | True |
-| phased_1.8_with_bridge | 2.148 | 0.524 | none | 17.07 | True |
-| phased_2.0_with_bridge | 2.387 | 0.463 | none | 27.68 | True |
-| phased_2.0_recession | 2.344 | 0.463 | none | 27.50 | True |
-| phased_2.0_cost_plus10 | 2.387 | 0.570 | none | 18.03 | True |
-| phased_2.0_low_payroll_high_cost | 2.319 | 0.472 | none | 0.94 | False |
-| phased_2.0_interest_minus1 | 2.387 | 0.463 | none | 20.95 | True |
-| phased_2.0_no_bridge | 2.387 | 0.000 | 2030 | 25.18 | True |
-| mixed_1.4_GF30 | 1.671 | 1.105 | none | 19.38 | True |
-| mixed_1.4_GF30_care_floor80 | 1.671 | 1.111 | none | 13.37 | True |
-| mixed_1.4_GF30_care_floor100 | 1.671 | 1.146 | none | 7.95 | True |
-| mixed_1.4_GF30_recession | 1.641 | 1.105 | none | 19.25 | True |
-| mixed_1.4_GF30_cost_plus10 | 1.671 | 1.258 | none | 12.62 | True |
-| mixed_1.4_GF30_low_payroll_high_cost | 1.623 | 1.111 | none | 0.66 | False |
+| source_1.4_immediate_no_estate | 2.269 | 0.000 | 2033 | -27.05 | False |
+| phased_1.4_with_bridge | 1.671 | 0.824 | 2035 | -26.32 | False |
+| phased_1.8_with_bridge | 2.148 | 0.703 | 2035 | -12.21 | False |
+| phased_2.0_with_bridge | 2.387 | 0.642 | 2035 | -5.16 | False |
+| phased_2.0_recession | 2.344 | 0.642 | 2035 | -5.28 | False |
+| phased_2.0_cost_plus10 | 2.387 | 0.767 | 2035 | -11.57 | False |
+| phased_2.0_low_payroll_high_cost | 2.319 | 0.651 | 2035 | -19.49 | False |
+| phased_2.0_interest_minus1 | 2.387 | 0.642 | 2035 | -3.30 | True |
+| phased_2.0_no_bridge | 2.387 | 0.000 | 2030 | -7.43 | False |
+| mixed_1.4_GF30 | 1.671 | 1.439 | 2035 | -3.61 | False |
+| mixed_1.4_GF30_care_floor80 | 1.671 | 1.454 | 2035 | -10.32 | False |
+| mixed_1.4_GF30_care_floor100 | 1.671 | 1.524 | 2035 | -15.66 | False |
+| mixed_1.4_GF30_recession | 1.641 | 1.439 | 2035 | -3.70 | False |
+| mixed_1.4_GF30_cost_plus10 | 1.671 | 1.626 | 2035 | -8.10 | False |
+| mixed_1.4_GF30_low_payroll_high_cost | 1.623 | 1.446 | 2035 | -13.65 | False |
 
 ## General-fund and whole-government paths
 
@@ -61,21 +61,21 @@ Delaying C19b/C20 to a three-year 2033–35 phase-in forgoes $0.360T; these rece
 
 | Case | GF primary 2030–39 ($T) | Extra net receipts needed at maturity (% GDP) | FY2040 GF gap ($B) | Total debt/GDP 2056 | FY2056 extra primary adjustment for flat debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Education reference | 20.851 | 8.385% | 3835.0 | 339.4% | 11.84% GDP |
-| Recovery: delay C19b/C20 | 21.210 | 8.385% | 3835.0 | 340.5% | 11.85% GDP |
-| Recovery downside | 22.450 | 8.694% | 3990.3 | 349.0% | 12.22% GDP |
-| Recovery plus housing/service space | 21.712 | 8.566% | 3937.5 | 345.0% | 12.06% GDP |
-| Recovery plus housing/service space downside | 22.952 | 8.875% | 4092.8 | 353.6% | 12.43% GDP |
-| Replace C19b/C20 plus housing/service space downside | 23.425 | 9.043% | 4176.8 | 357.7% | 12.62% GDP |
+| Education reference | 23.048 | 9.498% | 4340.7 | 367.5% | 13.33% GDP |
+| Recovery: delay C19b/C20 | 23.408 | 9.498% | 4340.7 | 368.5% | 13.34% GDP |
+| Recovery downside | 24.648 | 9.806% | 4496.0 | 377.1% | 13.71% GDP |
+| Recovery plus housing/service space | 23.909 | 9.679% | 4443.2 | 373.0% | 13.55% GDP |
+| Recovery plus housing/service space downside | 25.149 | 9.987% | 4598.5 | 381.6% | 13.92% GDP |
+| Replace C19b/C20 plus housing/service space downside | 25.622 | 10.155% | 4682.5 | 385.7% | 14.12% GDP |
 
 | Case | Additional net resources phased 2035–44 (% GDP at maturity) | Debt/GDP 2056 after illustrative adjustment |
 | --- | ---: | ---: |
-| Education reference | 10.46% | 143.5% |
-| Recovery: delay C19b/C20 | 10.47% | 144.4% |
-| Recovery downside | 10.79% | 146.9% |
-| Recovery plus housing/service space | 10.65% | 145.5% |
-| Recovery plus housing/service space downside | 10.98% | 148.0% |
-| Replace C19b/C20 plus housing/service space downside | 11.15% | 148.8% |
+| Education reference | 11.78% | 146.9% |
+| Recovery: delay C19b/C20 | 11.78% | 147.8% |
+| Recovery downside | 12.11% | 150.3% |
+| Recovery plus housing/service space | 11.97% | 148.8% |
+| Recovery plus housing/service space downside | 12.30% | 151.4% |
+| Replace C19b/C20 plus housing/service space downside | 12.47% | 152.2% |
 
 The second table solves for nonincreasing debt/GDP in every year 2045–56, with additional net resources phased 2035–44. These are financing requirements after any offsets and protection, not tax rates or scored receipts; SS/HI reforms are not added again. No behavior, inflation or implementation forecast is implied.
 
@@ -87,16 +87,16 @@ Average annual net benefit by quintile, dollars per household. All existing bene
 
 | FY | Q1 | Q2 | Q3 | Q4 |
 | --- | ---: | ---: | ---: | ---: |
-| 2030 | 5,052 | 3,431 | 1,415 | -1,236 |
-| 2031 | 5,956 | 4,297 | 2,002 | -948 |
-| 2032 | 6,934 | 4,935 | 2,111 | -1,415 |
-| 2033 | 7,903 | 5,751 | 2,513 | -1,524 |
-| 2034 | 8,299 | 6,010 | 2,541 | -1,821 |
-| 2035 | 7,716 | 5,315 | 1,852 | -2,660 |
-| 2036 | 7,779 | 5,277 | 1,709 | -2,959 |
-| 2037 | 8,078 | 5,434 | 1,680 | -3,199 |
-| 2038 | 8,313 | 5,563 | 1,685 | -3,354 |
-| 2039 | 8,601 | 5,754 | 1,753 | -3,460 |
+| 2030 | 5,180 | 3,363 | 1,317 | -1,296 |
+| 2031 | 6,346 | 4,565 | 2,184 | -853 |
+| 2032 | 7,491 | 5,369 | 2,422 | -1,261 |
+| 2033 | 8,590 | 6,315 | 2,919 | -1,353 |
+| 2034 | 9,380 | 6,987 | 3,276 | -1,461 |
+| 2035 | 8,309 | 6,166 | 2,574 | -2,289 |
+| 2036 | 8,180 | 6,057 | 2,401 | -2,605 |
+| 2037 | 8,607 | 6,368 | 2,498 | -2,773 |
+| 2038 | 8,916 | 6,593 | 2,585 | -2,880 |
+| 2039 | 9,280 | 6,882 | 2,736 | -2,936 |
 
 ## Trust-fund redesign comparisons
 

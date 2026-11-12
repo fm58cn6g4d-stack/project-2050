@@ -30,6 +30,7 @@ partb,15,24,23,20,18,1,
 ma,22,27,23,16,12,0.5,
 public_opt,18,30,27,17,8,0,
 medicaid_ltc,50,25,14,7,4,0,
+ltc_universal,31.3,25.7,19,13.5,10.5,0.7,"HLT-9's long-term care benefit (no asset test): today's Medicaid users' part (states' relief and richer budgets, 2035) on medicaid_ltc, the new users and the care part of institutional care (72% of the 2035 money) on the medicare key; care_booking.py ltc_universal_key(); estimate"
 employer_cov,3,12,24,31,30,2,
 ss_benefit,30,28,20,13,9,0.5,
 leave_benefit,8,17,24,28,23,1,
