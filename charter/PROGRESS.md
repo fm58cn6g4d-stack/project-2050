@@ -28,7 +28,7 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 
 ## Next, in order
 
-1. The FAM-1.11 follow-up and the budget-inputs PR (`DEC-2026-11-12-10`, `-11`) merge.
+1. The FAM-1.11 follow-up and the budget-inputs PR (`DEC-2026-11-12-10` and the 0r decision) merge.
 2. The secure floor's L2/L3 milestone review, in a fresh Most capable session, once I4's first PR is in review (to stay within three working sessions); then its fixes, then its booking (tier 3).
 3. I4 finishes (two PRs, sections 4-6 then 7-9); then immigration's milestone review and booking.
 4. **Maintenance at the stage D/E boundary**, after the secure floor reaches L3 and I4 is in review, before clean power starts:
@@ -58,7 +58,7 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 ## Federal budget model (`models/tools/budget/`)
 
 - **Done:** B1 conventions and assumptions; B2 data layer; B3 provision library; B5 viewer; B6 integration; B7 Espen's counting choices (`DEC-2026-11-08-03` to `-07`, `DEC-2026-11-12-08`). The workflow is `WORKFLOW.md` (#104).
-- **B4 benchmarks:** Espen answered 0r: a light research pass on historical spend-out averages, an evidence-backed placeholder in the model, and B4 closed with PS-4b reported as not fully validated (in the budget-inputs PR, `DEC-2026-11-12-11`). `MODEL-CARD.md` lists what is validated, bounded and not yet validated.
+- **B4 benchmarks:** Espen answered 0r: a light research pass on historical spend-out averages, an evidence-backed placeholder in the model, and B4 closed with PS-4b reported as not fully validated (to be recorded in the budget-inputs PR). `MODEL-CARD.md` lists what is validated, bounded and not yet validated.
 - **Plan-wide FY2040 general-fund primary balance** (case `mixed`, after #289): about $4,185B short.
 - Budget-model workers report to the lead.
 
