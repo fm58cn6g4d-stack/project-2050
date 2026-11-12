@@ -2542,12 +2542,10 @@
    "1.7 percent"
   ],
   "anchor": [
-   "In July 2023, 11.9 million people were independent contractors on their sole or main job",
-   "representing 7.4 percent of total employment",
-   "In July 2023, there were 2.8 million on-call workers, accounting for 1.7 percent of total employment."
+   "In July 2023, there were 11.9 million people who were independent contractors (7.4 percent of total employment), 2.8 million on-call workers (1.7 percent of total employment)"
   ],
   "locator": "Summary of findings (news release, Nov. 8, 2024)",
-  "context": "BLS Contingent Worker Supplement to the July 2023 Current Population Survey, released November 8, 2024 (Biden administration). Counts main-job arrangements only; platform workers are a separate (smaller) measure in the same release not yet anchored (evidence still needed). Wording read through a fetch tool because BLS blocks downloads.",
+  "context": "BLS Contingent Worker Supplement to the July 2023 Current Population Survey, released November 8, 2024 (Biden administration). Counts main-job arrangements only; platform workers are a separate (smaller) measure in the same release not yet anchored (evidence still needed). Wording read through a fetch tool because BLS blocks downloads. Anchor re-checked against the BLS release text on 2026-11-12 by the dossier author.",
   "supports": [
    "dossiers/secure-floor/1-problem.md"
   ],
@@ -2941,21 +2939,24 @@
   "grade": "C",
   "fact_date": "2026-08-27",
   "recheck": "2027-08-27",
-  "statement": "BLS's 2025-2035 projections have health care and social assistance adding the most jobs of any sector, over 2.2 million, and put solar photovoltaic installers (+36.5 percent) and wind turbine service technicians (+29.5 percent) among the five fastest growing occupations.",
+  "statement": "BLS's 2025-2035 projections have health care and social assistance adding the most jobs of any sector, over 2.2 million, with services for the elderly and persons with disabilities adding 625,400, the most of any detailed industry; solar photovoltaic installers (+36.5 percent) and wind turbine service technicians (+29.5 percent) are among the five fastest growing occupations but together add fewer than 15,000 jobs by 2035.",
   "figures": [
    "2.2 million",
+   "625,400",
    "36.5 percent",
    "29.5 percent",
+   "15,000",
    "2025",
    "2035"
   ],
   "anchor": [
    "projected to add the most jobs of any sector, over 2.2 million over the projections period",
-   "solar photovoltaic installers (+36.5 percent) and wind turbine service technicians (+29.5 percent)",
-   "both of which rank among the five fastest growing occupations from 2025 to 2035"
+   "services for the elderly and persons with disabilities is projected to add 625,400 new jobs from 2025 to 2035, the most of any detailed industry",
+   "solar photovoltaic installers (+36.5 percent) and wind turbine",
+   "combined are projected to add fewer than 15,000 new jobs by 2035"
   ],
   "locator": "news release summary (Aug. 27, 2026)",
-  "context": "Bureau of Labor Statistics, second Trump administration, released August 27, 2026; replaces the 2024-34 projections the brief named. Official projections, a model of trends, not a forecast of policy. Home health and personal care aides and construction trades are in the BLS tables but not in the text read; BLS blocks agent downloads and the quotations come through a fetch tool (evidence still needed).",
+  "context": "Bureau of Labor Statistics, second Trump administration, released August 27, 2026; replaces the 2024-34 projections the brief named. Official projections, a model of trends, not a forecast of policy. Home health and personal care aides and construction trades are in the BLS tables but not in the text read; BLS blocks agent downloads; the quotations were re-checked against the release's full text (Exa fetch) by the dossier author on 2026-11-12.",
   "corroboration": [
    {
     "evidence": "EV-SEC-132",
@@ -5821,6 +5822,2461 @@
   ],
   "supports": [
    "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-400",
+  "statement": "The 2026 Trustees Report projects that the OASI trust fund can pay full scheduled benefits until the fourth quarter of 2032, after which continuing income would pay 78 percent; the DI fund can pay full benefits through at least 2100; and the hypothetical combined OASDI fund can pay until the third quarter of 2034, after which income would pay 83 percent.",
+  "claim": "analysis",
+  "figures": [
+   "2032",
+   "78 percent",
+   "2100",
+   "2034",
+   "83 percent"
+  ],
+  "source": "SRC-3811",
+  "anchor": [
+   "will be able to pay 100 percent of total scheduled benefits until the fourth quarter of 2032",
+   "continuing program income will be sufficient to pay 78 percent of total scheduled benefits",
+   "able to pay 100 percent of total scheduled benefits through at least 2100",
+   "would be able to pay 100 percent of total scheduled benefits until the third quarter of 2034",
+   "continuing combined fund income would be sufficient to pay 83 percent of scheduled benefits"
+  ],
+  "locator": "Summary, A Message to the Public, bullets 1 to 3",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "Board of Trustees (Treasury, HHS, Labor and SSA heads; second Trump administration), report released June 8, 2026, assumptions set February 2026. A projection under intermediate assumptions, not a measurement; the combined fund is hypothetical (law keeps OASI and DI separate). Trustees are executive-branch officers, so the dossier leans on CBO and CRS, which reach the same OASI year and a combined year within about a year. This confirms the legacy file's 2034 and 83 percent; the legacy 'OASI in as little as six years' (about 2032) also holds.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-409",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-413",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-408",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-401",
+  "statement": "CRS cites the 2026 Trustees Report as dated June 8, 2026.",
+  "claim": "data",
+  "figures": [
+   "June 8, 2026"
+  ],
+  "source": "SRC-0548",
+  "anchor": [
+   "The 2026 Annual Report of the Board of Trustees of the Federal Old-Age and Survivors Insurance and Federal Disability Insurance Trust Funds , June 8, 2026"
+  ],
+  "grade": "C",
+  "fact_date": "2026-06-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "CRS R49500 (nonpartisan), citing the report's date in a source note. The SSA summary page read for this work does not print a release date.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-402",
+  "statement": "In the 2026 Trustees Report the long-range actuarial balance is -4.55 percent of taxable payroll for OASI, a surplus of .13 percent for DI, and -4.42 percent for the combined OASDI funds.",
+  "claim": "analysis",
+  "figures": [
+   "4.55 percent",
+   ".13 percent",
+   "4.42 percent"
+  ],
+  "source": "SRC-3810",
+  "anchor": [
+   "the actuarial deficit for the combined OASI and DI Trust Funds under the intermediate assumptions is 4.42 percent of taxable payroll",
+   "Actuarial balance | | | -4.55 | .13 | -4.42"
+  ],
+  "locator": "Section II.D, Summary Measures; Table II.D2",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "Trustees (second Trump administration), Table II.D2 and text, section II.D. The 75-year period is 2026 to 2100. CBO's own measure is -4.57 percent (EV-SEC-410); the difference is small. Confirms the legacy 4.42 percent.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-410",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-414",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-403",
+  "statement": "The combined actuarial deficit rose from 3.82 percent of taxable payroll in the last report to 4.42 percent in 2026; changes in law, methods, starting values and assumptions added 0.53 percent, mainly a lower assumed fertility rate (1.90 to 1.75 children per woman), lower immigration, and lower income-tax revenue on benefits after the One Big Beautiful Bill Act.",
+  "claim": "analysis",
+  "figures": [
+   "3.82 percent",
+   "4.42 percent",
+   "0.53 percent",
+   "1.90",
+   "1.75"
+  ],
+  "source": "SRC-3810",
+  "anchor": [
+   "increased from 3.82 percent of taxable payroll for last year",
+   "to 4.42 percent of taxable payroll for this year",
+   "Changes in law, methods, starting values, and assumptions combined to increase the actuarial deficit by an additional 0.53 percent of taxable payroll",
+   "reduction in the assumed ultimate total fertility rate from 1.90 to 1.75 children per woman"
+  ],
+  "locator": "Section II.D, Changes From Last Year's Report",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "Trustees (second Trump administration). The report itself says moving the valuation period one year (to 2026-2100) would by itself raise the deficit to 3.89 percent; the rest is the 0.53 percent. Reasons are the Trustees' account (analysis).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-404",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-427",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-425",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-404",
+  "statement": "The 2025 Trustees Report projected combined trust fund depletion in 2034 with 81 percent of benefits payable, OASI depletion in 2033 with 77 percent payable, and a 75-year actuarial deficit of 3.82 percent of taxable payroll.",
+  "claim": "analysis",
+  "figures": [
+   "2034",
+   "81 percent",
+   "2033",
+   "77 percent",
+   "3.82 percent"
+  ],
+  "source": "SRC-3812",
+  "anchor": [
+   "until 2034, one year earlier than projected last year, with 81 percent of benefits payable at that time",
+   "The OASI Trust Fund is projected to become depleted in 2033",
+   "with 77 percent of benefits payable at that time",
+   "The projected actuarial deficit over the 75-year long-range period is 3.82 percent of taxable payroll"
+  ],
+  "locator": "Press release, paragraphs 1 to 3 and bullets",
+  "grade": "C",
+  "fact_date": "2025-06-18",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA press release (second Trump administration) on the June 2025 report. The 2026 report moved OASI one quarter earlier (to the fourth quarter of 2032), kept the combined date, and lifted the payable share to 83 percent combined.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-400",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-481",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-406",
+  "statement": "CRFB estimates that the 22 percent across-the-board cut at OASI depletion would cost a typical newly retiring dual-earning couple $16,900 a year at the start of 2033, a typical single-income couple $12,700, a low-income dual-earning couple $10,200 and a high-income couple as much as $22,300, in nominal dollars (about 15 percent less in inflation-adjusted terms).",
+  "claim": "analysis",
+  "figures": [
+   "22 percent",
+   "$16,900",
+   "2033",
+   "$12,700",
+   "$10,200",
+   "$22,300",
+   "15 percent"
+  ],
+  "source": "SRC-3816",
+  "anchor": [
+   "benefits to be reduced by an estimated 22%",
+   "lose $16,900 in annual benefits at the start of 2033",
+   "single-income couple would face an annual loss of $12,700",
+   "dual-earning, low-income couple would face a yearly cut equal to $10,200",
+   "high-income couples would see cuts as large as $22,300",
+   "about 15% smaller when adjusted for inflation"
+  ],
+  "locator": "Opening paragraphs",
+  "grade": "C",
+  "fact_date": "2026-07-16",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "CRFB, July 16, 2026; bipartisan advocacy group favoring deficit reduction. Dollar figures are CRFB's own model on the Trustees' 22 percent. Earlier CRFB posts gave $18,100 (July 2025) and $18,400 (August 2025) on a 24 percent cut; the 2026 Trustees figure is lower. CBO's projected cut is larger (26 to 28 percent; EV-SEC-407, EV-SEC-408).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-407",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-408",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-407",
+  "statement": "AEI's summary of CBO's 2026 long-term projections says CBO calculates that a 26 percent benefit cut would be needed at trust fund exhaustion, against the Trustees' 22 percent, and that for workers born in the 1970s claiming at age 65 the average initial retirement benefit would fall from $26 thousand a year to $20 thousand.",
+  "claim": "analysis",
+  "figures": [
+   "26 percent",
+   "22 percent",
+   "1970s",
+   "65",
+   "$26 thousand",
+   "$20 thousand"
+  ],
+  "source": "SRC-3814",
+  "anchor": [
+   "CBO calculates that a 26 percent benefit cut would be needed at the point of Trust Fund exhaustion to meet incoming revenues, whereas the Trustees calculate 22 percent",
+   "for workers born in the 1970s claiming at age 65, average initial retirement benefits would be cut from $26 thousand a year",
+   "to $20 thousand"
+  ],
+  "locator": "Paragraph 3 (CBO versus Trustees)",
+  "grade": "C",
+  "fact_date": "2026-09-25",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-01",
+  "context": "Warshawsky (AEI, free-market think tank), September 25, 2026, summarizing CBO tables 11 and 16 of the September 17, 2026 publication; AEI's reading, so the CBO workbook (EV-SEC-409) is the primary source. The 26 percent follows CBO's lower assumed economic growth.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-406",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-408",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-408",
+  "statement": "CBO testified in March 2026 that the OASI trust fund is exhausted in fiscal year 2032, that in a payable-benefits scenario OASI benefits would be reduced by 7 percent in 2032 and by an average of 28 percent a year from 2033 to 2036, and that the combined OASDI funds would be exhausted in 2033.",
+  "claim": "analysis",
+  "figures": [
+   "2032",
+   "7 percent",
+   "28 percent",
+   "2033",
+   "2036"
+  ],
+  "source": "SRC-3863",
+  "anchor": [
+   "reduced by 7 percent in 2032 and by an average of 28 percent per year from 2033 to 2036",
+   "the balance of the OASI trust fund is exhausted (that is, reaches zero) in fiscal year 2032",
+   "the Old Age, Survivors, and Disability Insurance (OASDI) trust funds would be exhausted in 2033"
+  ],
+  "locator": "Testimony, pp. 3-4 (payable-benefits scenario)",
+  "grade": "C",
+  "fact_date": "2026-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-01",
+  "context": "CBO (nonpartisan) testimony before the Senate Budget Committee, March 25, 2026, using its February 2026 baseline; CBO's September 2026 update keeps OASI at fiscal year 2032 and combined at fiscal year 2033. The method of cutting benefits is not set in current law, so the scenario is illustrative.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-400",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-406",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-409",
+  "statement": "CBO's September 2026 long-term projections have the OASI trust fund exhausted in fiscal year 2032, the DI fund exhausted sometime after 2100, and the combined OASI and DI balance exhausted in fiscal year 2033.",
+  "claim": "analysis",
+  "figures": [
+   "2032",
+   "2100",
+   "2033"
+  ],
+  "source": "SRC-3813",
+  "anchor": [
+   "CBO projects that the balance of the Old-Age and Survivors Insurance (OASI) Trust Fund will be exhausted in fiscal year 2032 and that the balance of the Disability Insurance (DI) Trust Fund will be exhausted sometime after 2100.",
+   "c. Calendar year 2034 is the first year after the projected exhaustion in fiscal year 2033 of the combined balance of the Old-Age, Survivors, and Disability Insurance trust funds."
+  ],
+  "locator": "Table 6 footnote c; table 9 note (row 93)",
+  "grade": "C",
+  "fact_date": "2026-09-17",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-01",
+  "context": "CBO (nonpartisan), workbook 62556 posted September 17, 2026 (Espen's upload, SRC-1159); footnotes to tables 6 and 9. CONFLICT: the Trustees put the combined date in the third quarter of 2034 (EV-SEC-400), about a year later than CBO's fiscal year 2033 (ends September 2033); both put OASI at 2032. CBO's baseline reports the program on the 'scheduled benefits' convention.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-400",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-413",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-410",
+  "statement": "CBO's 2026 workbook puts the 75-year (2026 to 2100) actuarial balance of the combined OASDI program at -4.57 percent of taxable payroll with scheduled benefits.",
+  "claim": "analysis",
+  "figures": [
+   "4.57 percent"
+  ],
+  "source": "SRC-3813",
+  "anchor": [
+   "row 20 |  = 75 years (2026–2100)",
+   "row 20 |  = -4.57"
+  ],
+  "locator": "Table 7, OASDI, 75 years (2026-2100)",
+  "grade": "C",
+  "fact_date": "2026-09-17",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-01",
+  "context": "CBO workbook, table 7 (Summarized Financial Measures), OASDI block, 75-year row, last column (percent of taxable payroll); the text version drops the column labels, so the position is the block's sixth value (income 13.68, cost 18.25, balance -4.57). The Trustees' figure is 4.42 (EV-SEC-402); AEI reports CBO's as 4.5 (EV-SEC-407). The difference is about 0.15 point of payroll.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-402",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-411",
+  "statement": "CBO states that under current law SSA may not pay benefits in excess of a trust fund's balance, borrow money for a trust fund, or transfer money between trust funds, and that its own baseline nevertheless assumes SSA keeps paying benefits in full after exhaustion.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3813",
+  "anchor": [
+   "Under current law, the Social Security Administration (SSA) may not pay benefits in excess of the available balance of a trust fund, borrow money for a trust fund, or transfer money from one trust fund to another.",
+   "CBO's baseline reflects the assumption that SSA will continue to pay OASI and DI benefits in full even after the balances of the trust funds are exhausted."
+  ],
+  "locator": "Table 9 note (row 93)",
+  "grade": "C",
+  "fact_date": "2026-09-17",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-01",
+  "context": "CBO (nonpartisan) workbook note, row 93 of table 9; the second sentence is a budgeting convention required by section 257(b) of the Deficit Control Act, not a forecast of what SSA would do.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-412",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-412",
+  "statement": "CRS explains that after depletion beneficiaries would remain legally entitled to full scheduled benefits, but the Antideficiency Act bars spending beyond available funds, so SSA would pay either full benefits on a delayed schedule or timely but reduced benefits; it is unclear which.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3815",
+  "anchor": [
+   "beneficiaries would still be legally entitled to their full scheduled benefits. However, the",
+   "Antideficiency Act prohibits government spending in excess of available funds, so the Social",
+   "It is unclear what specific actions SSA would take if a trust fund were insolvent.",
+   "One option would be to pay full benefits on a delayed schedule; another"
+  ],
+  "locator": "Summary, paragraph 1",
+  "grade": "C",
+  "fact_date": "2022-09-28",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-28",
+  "context": "CRS (nonpartisan), RL33514, September 2022 version (the latest published). The newer CRS R49500 (November 2026) repeats the point and notes reduced payments could be proportional or protect disabled and low-income beneficiaries. A legal reading; no court has ruled.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-411",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-413",
+  "statement": "CRS (November 2026) reports that the Trustees project OASI depletion in 2032 and a hypothetical combined OASDI depletion in 2034, after which payable benefits would be about 83% of scheduled benefits, gradually falling to 64% in the 2080s.",
+  "claim": "analysis",
+  "figures": [
+   "2032",
+   "2034",
+   "83%",
+   "64%"
+  ],
+  "source": "SRC-0548",
+  "anchor": [
+   "In their 2026 report, the trustees project that the OASI trust fund will become depleted in 2032",
+   "The trustees project, on a hypothetical combined basis, that the OASDI trust fund would be depleted sometime in 2034.",
+   "payable benefits for the OASI and DI program would be about 83% of scheduled benefits, an amount that would gradually decrease to 64% in the 2080s."
+  ],
+  "locator": "'Scheduled Versus Payable Benefits' section",
+  "grade": "C",
+  "fact_date": "2026-11-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "CRS R49500 (nonpartisan), November 2, 2026, restating the Trustees; payable share in the 2080s from SSA actuaries' memo. The Trustees' own text gives 65 percent for 2100 (EV-SEC-400 source).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-400",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-409",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-414",
+  "statement": "CRS notes that before the 1983 amendments the OASDI actuarial balance was -1.82% of taxable payroll, and that the 2026 report's -4.42% means the projected shortfall is more than twice as large.",
+  "claim": "analysis",
+  "figures": [
+   "1.82%",
+   "4.42%"
+  ],
+  "source": "SRC-0548",
+  "anchor": [
+   "Before passage of the 1983 amendments, the OASDI program faced an actuarial balance of -1.82% of taxable payroll.",
+   "In the 2026 annual report, the Social Security trustees estimate the OASDI actuarial balance to be -4.42% of taxable payroll."
+  ],
+  "locator": "'Projected Shortfall: 1983 Versus 2026'",
+  "grade": "C",
+  "fact_date": "2026-11-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "CRS R49500 (nonpartisan). Bears on the 1983 precedent: the Greenspan Commission worked on a gap under half the present one. The legacy file compares to the 3.42 percent deficit of 2022-23 instead.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-402",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-415",
+  "statement": "President Reagan established the National Commission on Social Security Reform (the Greenspan Commission), which delivered its final report in January 1983; the Social Security Amendments of 1983 (P.L. 98-21) were signed into law in April 1983.",
+  "claim": "data",
+  "figures": [
+   "January 1983",
+   "98-21",
+   "April 1983"
+  ],
+  "source": "SRC-3860",
+  "anchor": [
+   "President Reagan established the National Commission on Social Security Reform to develop a",
+   "In January 1983, the Greenspan Commission delivered its final report to President Reagan,",
+   "was signed into law (P.L. 98-21) by President Reagan in April 1983."
+  ],
+  "grade": "C",
+  "fact_date": "1983",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRS (nonpartisan) history, R47040. The commission followed a failed 1981 package that relied on benefit cuts; the 1983 law is the last major Social Security legislation (CRS R49500).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-416",
+  "statement": "CRS reports that 90% of aged individuals receive Social Security benefits and that Social Security supports over one-quarter of aggregate income for aged individuals.",
+  "claim": "data",
+  "figures": [
+   "90%"
+  ],
+  "source": "SRC-0548",
+  "anchor": [
+   "90% of aged individuals receive Social Security benefits",
+   "Social Security supports over one-quarter of aggregate income for aged individuals"
+  ],
+  "locator": "Introduction to 'Projected Shortfall' (paragraph on largest benefit program)",
+  "grade": "C",
+  "fact_date": "2026-11-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "CRS R49500 (nonpartisan), restating SSA income data.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-417",
+  "statement": "In September 2026 SSA paid benefits to 71,633 thousand people at an average of $1,943.15 a month, including 55,088 thousand retired workers averaging $2,088.79.",
+  "claim": "data",
+  "figures": [
+   "71,633",
+   "$1,943.15",
+   "55,088",
+   "$2,088.79"
+  ],
+  "source": "SRC-3818",
+  "anchor": [
+   "Total | 71,633 | 100.0 | 139,195 | 1,943.15",
+   "Retired workers | 55,088 | 76.9 | 115,068 | 2,088.79"
+  ],
+  "locator": "Table 2, Social Security benefits, September 2026",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-15",
+  "context": "SSA Office of Research, Evaluation and Statistics (second Trump administration), Master Beneficiary Record, 100 percent data; counts in thousands, dollars per month. Monthly series; the snapshot carries OASDI beneficiaries only (SSI is separate).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-418",
+  "statement": "SSA reports that 39% of men and 44% of women beneficiaries aged 65 and older receive 50% or more of their income from Social Security, and 12% of men and 15% of women rely on it for 90% or more; the figures come from research released in 2024 using 2015 data.",
+  "claim": "data",
+  "figures": [
+   "65",
+   "39%",
+   "44%",
+   "50%",
+   "12%",
+   "15%",
+   "90%",
+   "2024",
+   "2015"
+  ],
+  "source": "SRC-3817",
+  "anchor": [
+   "Among Social Security beneficiaries age 65 and older,",
+   "39% of men and 44% of women",
+   "receive 50% or more of their income from Social Security.",
+   "12% of men and 15% of women",
+   "rely on Social Security for 90% or more of their income.",
+   "research released in 2024 using 2015 data"
+  ],
+  "locator": "Fact sheet, 'major source of income' bullets and footnote",
+  "grade": "A",
+  "fact_date": "2015",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "SSA fact sheet (second Trump administration) citing SSA research released in 2024, which uses 2015 data; the fact-sheet footnote marks them as older data, and SSA's earlier CPS-based tables gave higher shares (EV-SEC-419). Treat as 'official but dated'; SSA's newer method combining survey and tax records gives lower shares than the CPS.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-419",
+  "statement": "In an SSA staff comparison of three surveys, about half of the aged population lived in households receiving at least 50 percent of income from Social Security, and in the CPS the share receiving 90 percent or more was 25 percent for 2014 (27 percent for 2012).",
+  "claim": "data",
+  "figures": [
+   "50 percent",
+   "25 percent",
+   "90 percent",
+   "27 percent"
+  ],
+  "source": "SRC-3819",
+  "anchor": [
+   "roughly half of the aged population live in households that receive at least 50 percent of total family income from Social Security",
+   "about one-quarter of the aged live in households that receive at least 90 percent of family income",
+   "for 2012 (27 percent) was only slightly higher than that for 2014 (25 percent)"
+  ],
+  "locator": "Abstract and Table 1",
+  "grade": "C",
+  "fact_date": "2014",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "SSA Bulletin (Dushi, Iams and Trenkamp; SSA staff, Obama administration publication, 2017). Compares CPS, SIPP and HRS for 2014 income and finds the redesigned CPS lowers the 50-percent share from 56 percent (2012) to 52 percent (2014). Older than EV-SEC-418.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-420",
+  "statement": "Census reports that Social Security continues to be the largest antipoverty program, moving 28.8 million individuals out of Supplemental Poverty Measure poverty in 2025.",
+  "claim": "data",
+  "figures": [
+   "28.8 million"
+  ],
+  "source": "SRC-3820",
+  "anchor": [
+   "Social Security continues to be the largest antipoverty program, moving 28.8 million"
+  ],
+  "locator": "Highlights, Supplemental Poverty Measure, third bullet",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "U.S. Census Bureau, Poverty in the United States: 2025 (P60-290), released September 15, 2026 under the second Trump administration; computed by recalculating SPM poverty with Social Security removed, so it holds other income fixed. Census releases are routine, and nothing in method or schedule changed this year in the saved highlights.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-421",
+  "statement": "Census reports the 2025 official poverty rate at 10.2 percent (34.5 million people) and the Supplemental Poverty Measure rate at 13.1 percent.",
+  "claim": "data",
+  "figures": [
+   "10.2 percent",
+   "34.5 million",
+   "13.1 percent"
+  ],
+  "source": "SRC-3820",
+  "anchor": [
+   "In 2025, the official poverty rate fell 0.5 percentage points to 10.2 percent.",
+   "There were 34.5 million people in poverty in 2025",
+   "The SPM rate in 2025 was 13.1 percent"
+  ],
+  "locator": "Highlights, Official Poverty Measure and SPM bullets",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "U.S. Census Bureau (second Trump administration), CPS ASEC 2026; all ages. The age-65-and-older rates are in EV-SEC-422.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-422",
+  "statement": "Reporting on Census's 2025 release, Spotlight on Poverty says the official poverty rate for people 65 and older was 9.8% and their SPM rate 15.4%, largely because the SPM counts out-of-pocket medical expenses; refundable tax credits, the next-largest antipoverty effect after Social Security, lifted another 6.1 million out of SPM poverty.",
+  "claim": "data",
+  "figures": [
+   "9.8%",
+   "15.4%",
+   "6.1 million"
+  ],
+  "source": "SRC-3821",
+  "anchor": [
+   "the official poverty rate for people 65 and older was 9.8%, their SPM rate was 15.4%",
+   "largely because the supplemental measure counts out-of-pocket medical expenses against household resources",
+   "while refundable tax credits lifted another 6.1 million"
+  ],
+  "locator": "Paragraphs 5-6",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Spotlight on Poverty and Opportunity (news outlet) quoting Census Bureau SPM lead John Creamer; secondary reporting of Census tables 3, 4 and 6, which the saved Census text lists but does not reproduce. Replace with the Census table when saved.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-423",
+  "statement": "Public Law 118-273, the Social Security Fairness Act of 2023, approved January 5, 2025, repeals the Government Pension Offset (section 2) and the Windfall Elimination Provision (section 3) for monthly benefits payable for months after December 2023.",
+  "claim": "data",
+  "figures": [
+   "118-273",
+   "2023",
+   "January 5, 2025"
+  ],
+  "source": "SRC-3822",
+  "anchor": [
+   "Public Law 118-273",
+   "Fairness Act of 2023.>>",
+   "SEC. 2. REPEAL OF GOVERNMENT PENSION OFFSET PROVISION.",
+   "SEC. 3. REPEAL OF WINDFALL ELIMINATION PROVISIONS.",
+   "Approved January 5, 2025.",
+   "of the Social Security Act for months after December",
+   "2023. <<NOTE: Adjustment.>> Notwithstanding section 215(f) of the Social"
+  ],
+  "locator": "Public Law 118-273 headings; sections 2 to 4",
+  "grade": "A",
+  "fact_date": "2025-01-05",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "Enacted statute (H.R. 82), signed at the end of the Biden administration. Section 4 also directs the Commissioner to adjust primary insurance amounts for the WEP repeal. 'December 2023' in the statement is the effective date 'months after December 2023'.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-424",
+  "statement": "CBO estimated that enacting the Social Security Fairness Act as introduced would raise off-budget Social Security spending by almost $198 billion over 2024-2034 ($101 billion for the WEP and $110 billion for the GPO, less $13 billion of interaction), raise December 2025 benefits by an average of $360 for 2.1 million WEP beneficiaries, and advance combined trust fund exhaustion by roughly half a year.",
+  "claim": "analysis",
+  "figures": [
+   "$198 billion",
+   "2024-2034",
+   "$101 billion",
+   "$110 billion",
+   "$13 billion",
+   "$360",
+   "2.1 million",
+   "2025"
+  ],
+  "source": "SRC-3823",
+  "anchor": [
+   "increase monthly benefits in December 2025 by $360, on average, for 2.1 million Social Security beneficiaries",
+   "repealing the WEP would increase off-budget direct spending by $101 billion over the 2024-2034 period",
+   "repealing the GPO would increase off-budget direct spending by $110 billion over the 2024-2034 period",
+   "would be $13 billion less than the sum of the costs",
+   "Enacting the bill would increase off-budget spending for Social Security by almost $198 billion",
+   "the bill would advance the exhaustion date for the combined trust funds by roughly a half a year"
+  ],
+  "locator": "Table 1 and sections 'Eliminate the WEP', 'Eliminate the GPO', 'Interaction', 'Uncertainty'",
+  "grade": "C",
+  "fact_date": "2024-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "CBO (nonpartisan), cost estimate for H.R. 82 as introduced January 9, 2023, published September 2024; a projection with stated uncertainty about how many people the offsets affect. Total including SNAP offsets is about $196 billion (press reports). The 2025 Trustees and CRFB treat the law as one cause of earlier insolvency (EV-SEC-425).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-425",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-425",
+  "statement": "CRFB (August 2025) says recent legislation, particularly the 2025 reconciliation law but also the Social Security Fairness Act, has accelerated insolvency, moving the OASI date from early 2033 in the June 2025 Trustees report to late 2032.",
+  "claim": "analysis",
+  "figures": [
+   "2033",
+   "2032",
+   "2025"
+  ],
+  "source": "SRC-3867",
+  "anchor": [
+   "has accelerated insolvency alongside well-known demographic challenges",
+   "moving from early 2033 as projected in the June 2025",
+   "to late 2032"
+  ],
+  "locator": "'In this piece, we show' bullets and 'Social Security Turns 90' section",
+  "grade": "C",
+  "fact_date": "2025-08-14",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "CRFB (bipartisan advocacy group favoring deficit reduction), August 14, 2025, using the Chief Actuary's August 5, 2025 estimates for the 2025 law. The 2026 Trustees report later set OASI at the fourth quarter of 2032 (EV-SEC-400).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-424",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-427",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-426",
+  "statement": "Section 70103 of the 2025 reconciliation law allows a deduction of $6,000 for each taxpayer (and spouse on a joint return) aged 65 or older for taxable years beginning before January 1, 2029, reduced by 6 percent of modified adjusted gross income above $75,000 ($150,000 on a joint return).",
+  "claim": "data",
+  "figures": [
+   "70103",
+   "$6,000",
+   "65",
+   "2029",
+   "6 percent",
+   "$75,000",
+   "$150,000"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 70103. TERMINATION OF DEDUCTION FOR PERSONAL EXEMPTIONS OTHER",
+   "January 1, 2029, there shall be allowed a",
+   "deduction in an amount equal to $6,000 for each",
+   "has attained age 65 before the close of",
+   "reduced (but not below zero) by 6",
+   "percent of so much of the taxpayer's",
+   "exceeds $75,000 ($150,000 in the case of"
+  ],
+  "locator": "Section 70103(a)(3), new section 151(d)(5)(C)",
+  "grade": "A",
+  "fact_date": "2025-07-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "Primary law, P.L. 119-21 (July 4, 2025), temporary 2025 to 2028; the deduction is the 'senior deduction'. It is a deduction, not a change to the tax on benefits, but lowers income-tax revenue on benefits (EV-SEC-427). Sunsets after taxable year 2028, so it will have expired in the January 2029 baseline unless extended.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-427",
+  "statement": "The Trustees say the One Big Beautiful Bill Act adds a temporary additional standard deduction for taxpayers over age 65 and, with its other tax provisions, lowers future trust fund revenue from income taxation of Social Security benefits.",
+  "claim": "analysis",
+  "figures": [
+   "65"
+  ],
+  "source": "SRC-3811",
+  "anchor": [
+   "The OBBBA also adds a temporary additional standard deduction for taxpayers over age 65.",
+   "the OASI and DI Trust Funds will receive lower levels of revenue in the future from income taxation of Social Security benefits"
+  ],
+  "locator": "Summary, paragraph after the bullets",
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "Trustees (second Trump administration) summary. The report counts the change as part of the -0.16 'legislation/regulation' item in Table II.D2 (EV-SEC-403). CRFB estimates the effect at about one percentage point of the benefit cut at insolvency (EV-SEC-428).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-428",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-425",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-428",
+  "statement": "CRFB estimated in July 2025 that the 2025 law's tax-rate cuts and larger senior standard deduction reduce Social Security's revenue from income taxation of benefits, raising the required cut at insolvency by about a percentage point, and that making the temporary measures permanent would enlarge it.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3861",
+  "anchor": [
+   "the tax rate cuts and increase in the senior standard deduction from the recently enacted OBBBA would reduce Social Security's revenue from the income taxation of benefits, increasing the required cut by about a percentage point upon insolvency",
+   "If the expanded senior standard deduction and other temporary measures of OBBBA are made permanent, the benefit cut would grow larger."
+  ],
+  "locator": "Paragraph 4 ('Importantly, these estimates...')",
+  "grade": "C",
+  "fact_date": "2025-07-24",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "CRFB (bipartisan advocacy group favoring deficit reduction), July 24, 2025, using the Trustees' June 2025 projections plus CRFB estimates of the 2025 law. The Chief Actuary's August 5, 2025 letter to Sen. Wyden also scores the law; not read.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-427",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-429",
+  "statement": "CRS reports the December 2025 cost-of-living adjustment, payable beginning January 2026, was 2.8 percent under current law; an R-CPI-E-based COLA would have been 3.0 percent.",
+  "claim": "data",
+  "figures": [
+   "2.8 percent",
+   "3.0 percent",
+   "2025",
+   "2026"
+  ],
+  "source": "SRC-3827",
+  "anchor": [
+   "applies to benefits payable beginning in January 2026).",
+   "December 2025 COLA using the R-CPI-E (3.0%) would",
+   "using the CPI-W (2.8%)."
+  ],
+  "locator": "Table 1 and text, 'Alternative COLA Using R-CPI-E'",
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-15",
+  "context": "CRS (nonpartisan) calculation from BLS CPI-W and R-CPI-E for the third quarters of 2024 and 2025; the 2.8 percent COLA raised the average retired-worker benefit from about $2,015 to $2,071 (EV-SEC-417 shows the September 2026 average). The December 2026 COLA is in EV-SEC-430.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-430",
+  "statement": "SSA's table of cost-of-living adjustments lists 2.8 percent for 2025 and 3.6 percent for 2026, the year labels referring to the December increase (paid the following January).",
+  "claim": "data",
+  "figures": [
+   "2.8",
+   "3.6"
+  ],
+  "source": "SRC-3825",
+  "anchor": [
+   "2024 2.5 2025 2.8 2026 3.6",
+   "COLAs have been effective with benefits payable for December"
+  ],
+  "locator": "COLA table (last row) and text",
+  "grade": "A",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-15",
+  "context": "SSA Office of the Chief Actuary (second Trump administration) table; years are the effective December, so '2025: 2.8' is the COLA CRS describes as December 2025 (EV-SEC-429) and '2026: 3.6' is the increase announced in October 2026 for December 2026 (payable in January 2027). The table does not print the announcement date.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-431",
+  "statement": "SSA's contribution and benefit base (taxable maximum) is $184,500 for 2026 and $192,300 for 2027, up from $176,100 for 2025.",
+  "claim": "data",
+  "figures": [
+   "$184,500",
+   "$192,300",
+   "$176,100",
+   "2025"
+  ],
+  "source": "SRC-3826",
+  "anchor": [
+   "For earnings in 2027, this base is $192,300.",
+   "2025 176,100 2026 184,500 2027 192,300"
+  ],
+  "locator": "Text and 'Contribution and benefit bases, 1937-2027' table",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-15",
+  "context": "SSA Office of the Chief Actuary table. The base rises with the national average wage index; the 12.4 percent payroll tax applies to wages up to it. The Warren-Moreno op-ed cites the same $184,500 (EV-SEC-461).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-432",
+  "statement": "SSA announced in February 2025 a staffing target of 50,000 employees, down from the then-current level of approximately 57,000.",
+  "claim": "data",
+  "figures": [
+   "50,000",
+   "57,000"
+  ],
+  "source": "SRC-3832",
+  "anchor": [
+   "Social Security recently set a staffing target of 50,000, down from the current level of approximately 57,000 employees."
+  ],
+  "locator": "Press release, paragraph 1",
+  "grade": "A",
+  "fact_date": "2025-02-28",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-28",
+  "context": "SSA press release, second Trump administration (Acting Commissioner Dudek); the agency's own plan, framed as removing a 'bloated' structure. A spokesperson later put the level at 53,000 (August 2025, Axios). Administration source: use beside independent counts (EV-SEC-433).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-433",
+  "statement": "CBPP's Kathleen Romig said in July 2025 that SSA cut 7,000 staff, from 57,000 to 50,000, the biggest staff cut in SSA history over six months, and that fewer than half of people seeking an appointment could get one within a month.",
+  "claim": "analysis",
+  "figures": [
+   "7,000",
+   "57,000",
+   "50,000"
+  ],
+  "source": "SRC-3865",
+  "anchor": [
+   "the Social Security Administration has cut 7,000 staff, taking its staffing from 57,000 to 50,000.",
+   "That is the biggest staff cut in SSA history and it happened over just six months.",
+   "Fewer than half of people, who were looking to make an appointment at SSA"
+  ],
+  "locator": "Interview, answers on staffing and service metrics",
+  "grade": "C",
+  "fact_date": "2025-07-28",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-28",
+  "context": "Interview with Kathleen Romig (Center on Budget and Policy Priorities, progressive think tank), Federal News Network, July 28, 2025; advocate's reading. SSA's own target matches the headcount (EV-SEC-432); SSA's later performance claims dispute the service-decline reading (EV-SEC-435).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-432",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-435",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-434",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-434",
+  "statement": "SSA's inspector general found that in fiscal year 2025 callers waited an average of 15 minutes on hold to reach an SSA employee, callers who took a callback waited an average of 108.6 minutes for it, and about 25 million calls ended without the callers receiving service.",
+  "claim": "data",
+  "figures": [
+   "2025",
+   "15 minutes",
+   "108.6 minutes",
+   "25 million"
+  ],
+  "source": "SRC-3830",
+  "anchor": [
+   "In FY 2025, callers waited on hold an average 15 minutes to speak to an SSA employee.",
+   "In FY 2025, callers waited an average 108.6 minutes to receive a callback from an SSA",
+   "In FY 2025, about 25 million calls ended without the callers receiving service either because the"
+  ],
+  "locator": "Results summary and Appendix B (average speed of answer; average wait time to callback)",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2026-12-22",
+  "context": "SSA Office of the Inspector General (independent office), audit 032517, December 2025, requested by Sen. Warren; second Trump administration. The audit found SSA's published metrics accurate, but its average speed of answer counts accepted callbacks as zero wait. Inspector general reports are the best audit of SSA's self-reported figures.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-435",
+  "statement": "SSA reported in October 2026 that its fiscal 2026 average speed of answer on its national phone line was 5.6 minutes against 28 minutes in fiscal 2024, that field office wait times fell by over 30 percent from fiscal 2024, and that the initial disability claims backlog fell 23 percent to 911,000.",
+  "claim": "data",
+  "figures": [
+   "5.6 minutes",
+   "28 minutes",
+   "2024",
+   "30 percent",
+   "23 percent",
+   "911,000"
+  ],
+  "source": "SRC-3831",
+  "anchor": [
+   "Achieved an average speed of answer of 5.6 minutes in fiscal year (FY) 2026, an almost 80 percent improvement from 28 minutes in FY 2024",
+   "Reduced average wait times by over 30 percent compared to FY 2024",
+   "reduced the initial disability claims backlog by 23 percent from nearly 1.2 million at the end of FY 2024 to 911,000"
+  ],
+  "locator": "Press release bullets 1, 2 and 6",
+  "grade": "C",
+  "fact_date": "2026-10-23",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-23",
+  "context": "SSA press release, second Trump administration (Commissioner Bisignano): self-reported, promotional, no outside check. The OIG audit (EV-SEC-434) found the average-speed-of-answer metric excludes callback waits and abandoned calls; AFGE disputes the picture (EV-SEC-436). SSA stopped publishing some service metrics in 2025 and later restored some (press report).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-436",
+  "statement": "Federal News Network reports that after its workforce reductions SSA reassigned over 2,000 employees to staff its national 800 number, that the AFGE union, which represents roughly 35,000 SSA workers, says SSA workers are falling behind on workloads, and that as of June 2026 SSA had 48 open GAO recommendations.",
+  "claim": "analysis",
+  "figures": [
+   "2,000",
+   "35,000",
+   "June 2026",
+   "48"
+  ],
+  "source": "SRC-3864",
+  "anchor": [
+   "SSA reassigned over 2,000 agency employees to staff its national 800 number",
+   "which represents roughly 35,000 SSA workers",
+   "SSA workers are falling behind on workloads",
+   "As of June 2026, SSA had 48 open recommendations from GAO"
+  ],
+  "locator": "Paragraphs on the union, reassignment and GAO",
+  "grade": "C",
+  "fact_date": "2026-10-27",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-23",
+  "context": "Federal News Network (trade news), October 27, 2026, reporting SSA's claims and the union's reply; the union's view is an interested party's. GAO's open recommendations include four priority IT recommendations.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-435",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-434",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-437",
+  "statement": "Treasury announced in August 2025 that the federal government would stop issuing paper checks for most federal payments on September 30, 2025, including checks for Social Security, to reduce fraud and delays.",
+  "claim": "data",
+  "figures": [
+   "September 30, 2025",
+   "2025"
+  ],
+  "source": "SRC-3833",
+  "anchor": [
+   "the federal government will stop issuing paper checks for most federal payments on September 30, 2025",
+   "paper check for Social Security"
+  ],
+  "locator": "Press release, paragraph 1 and instructions paragraph",
+  "grade": "A",
+  "fact_date": "2025-08-14",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-30",
+  "context": "Treasury press release, second Trump administration, implementing Executive Order 14247; the release gives fraud and delay reduction as the reason. SSA stopped offering a temporary check option at initial claims (SSA advocates letter, September 2025); exemptions need a Treasury waiver.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-438",
+  "statement": "SSA's identity-proofing policy, effective April 14, 2025, requires people who cannot use a personal my Social Security account to prove identity in person for retirement, survivors and auxiliary claims; Medicare, disability and SSI applications are exempt.",
+  "claim": "data",
+  "figures": [
+   "April 14, 2025"
+  ],
+  "source": "SRC-3834",
+  "anchor": [
+   "In-person identity proofing for people unable to use their personal my Social Security account for certain services will be effective April 14, 2025.",
+   "Medicare, Disability, and SSI applications will be exempt from in-person identity proofing",
+   "if applying for Retirement, Survivors, or Auxiliary (Spouse or Child) benefits"
+  ],
+  "locator": "Blog, paragraphs 2-4",
+  "grade": "A",
+  "fact_date": "2025-04-14",
+  "checked": "2026-11-12",
+  "recheck": "2027-04-14",
+  "context": "SSA blog, second Trump administration (Acting Commissioner Dudek), which says the policy was softened after criticism; it also moved direct-deposit changes to the online account or an office visit. Administration source for what the policy says; not evidence of its effects.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-439",
+  "statement": "CRS reports that in 2019 about 32,092 of 64 million Social Security recipients qualified for the special minimum benefit, that it has virtually no effect on today's new retirees, and that SSA estimated it would have no effect on workers turning 62 in 2022 or later.",
+  "claim": "data",
+  "figures": [
+   "32,092",
+   "64 million",
+   "2019",
+   "62",
+   "2022"
+  ],
+  "source": "SRC-3829",
+  "anchor": [
+   "In 2019, about 32,092 of the 64 million Social Security recipients qualified for the minimum benefit.",
+   "The Special Minimum PIA has virtually no effect on the benefits paid to today's new retirees.",
+   "estimated that the provision would have no effect on workers turning 62 in 2022 or later."
+  ],
+  "locator": "Summary, paragraphs 1-2",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-30",
+  "context": "CRS (nonpartisan), R43615, updated September 2020, using SSA data. The special minimum is price-indexed while regular benefits are wage-indexed, so it fades (a figure in the same report: 205,000 beneficiaries in 1991). Newer counts not found.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-440",
+  "statement": "CRS (2015) reports that the experimental CPI-E has risen about 0.2 percentage points a year faster than the CPI-W since 1982, a gap SSA's actuaries expected to continue.",
+  "claim": "analysis",
+  "figures": [
+   "0.2 percentage points",
+   "1982"
+  ],
+  "source": "SRC-3828",
+  "anchor": [
+   "On average, the CPI-E has increased by an average of about 0.2 percentage points faster than the CPI-W or CPI-U since 1982.",
+   "SSA's Office of the Chief Actuary expects the differential to remain at that level."
+  ],
+  "locator": "Section on alternative COLA measures",
+  "grade": "C",
+  "fact_date": "2015",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-30",
+  "context": "CRS (nonpartisan), 2015; BLS calls the index experimental and notes its sample is small. The 2026 actuaries' score (EV-SEC-455) assumes about 0.15 point a year. CRS 2025 shows the R-CPI-E exceeded the CPI-W COLA in all but six years since 1986 (EV-SEC-441).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-455",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-441",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-441",
+  "statement": "CRS found that a December 2025 COLA based on the R-CPI-E would have been 3.0%, and that over about four decades the CPI-W rose about 197% and the R-CPI-E 221%.",
+  "claim": "data",
+  "figures": [
+   "3.0%",
+   "197%",
+   "221%"
+  ],
+  "source": "SRC-3827",
+  "anchor": [
+   "December 2025 COLA using the R-CPI-E (3.0%) would",
+   "CPI-W increased about 197% and the R-CPI-E by 221%."
+  ],
+  "locator": "Text beside Figure 1; Table 1",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-15",
+  "context": "CRS (nonpartisan) calculation from BLS research index R-CPI-E (ages 62 and older, December 1982 base). Same CRS note as EV-SEC-429; not an independent source for the 3.0%.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-442",
+  "statement": "Engelhardt and Gruber, using March CPS data for 1968 to 2001 and variation in benefits across birth cohorts (from 1885 through 1916, plus the 'notch' cohorts), find that the elasticity of elderly poverty to Social Security benefits is roughly unitary.",
+  "claim": "analysis",
+  "figures": [
+   "1968",
+   "2001",
+   "1885",
+   "1916"
+  ],
+  "source": "SRC-3842",
+  "anchor": [
+   "We use data from the March 1968-2001 Current Population Surveys",
+   "birth cohorts from 1885 through 1916",
+   "the elasticity of poverty to benefits is roughly unitary"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2004",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper 10466 (Engelhardt and Gruber), 2004, later published (2006); instrumental-variable (quasi-experimental) design using benefit differences by birth cohort, notably the 1917-21 'notch'. United States, elderly families. Authors conclude benefit cuts would significantly raise elderly poverty. Pre-dates the SPM and the 2010s.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-443",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-444",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-443",
+  "statement": "Duggan's NBER summary of Engelhardt and Gruber reports that a $1,000 increase in Social Security benefits is associated with a 2 to 3 percentage point reduction in poverty among elderly households, and that between 1967 and 2000 the increase in benefits can explain all of the 17 percentage point decline in elderly poverty.",
+  "claim": "analysis",
+  "figures": [
+   "$1,000",
+   "2 to 3 percentage point",
+   "1967",
+   "2000",
+   "17 percentage point"
+  ],
+  "source": "SRC-3843",
+  "anchor": [
+   "a $1,000 increase in Social Security benefits is associated with a 2 to 3 percentage point reduction in poverty rates for elderly households",
+   "Applying this estimate to the change in Social Security benefits between 1967 and 2000 suggests that the increase in benefits can explain all of the 17 percentage point decline in poverty"
+  ],
+  "locator": "Section on the notch analysis (paragraphs 5-6)",
+  "grade": "C",
+  "fact_date": "2004",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER Bulletin on Aging and Health, 2004, Mark Duggan summarizing the Engelhardt-Gruber paper (same research team's result, NOT independent corroboration of it). Poverty measured against the official line; behavioral shifts (living arrangements) make the effect on poverty if anything larger, per the summary.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-442",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-444",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-444",
+  "statement": "Brookings's Haskins (2014) wrote that elderly poverty was 28.5 percent in 1966 and 9.1 percent in 2012, and that Engelhardt and Gruber showed virtually all the reduction in poverty among the elderly between 1968 and 2001 was due to Social Security benefits.",
+  "claim": "analysis",
+  "figures": [
+   "28.5 percent",
+   "1966",
+   "9.1 percent",
+   "2012",
+   "1968",
+   "2001"
+  ],
+  "source": "SRC-3844",
+  "anchor": [
+   "In 1966, a year after Johnson expanded Social Security and enacted Medicare and Medicaid, elderly poverty was 28.5 percent.",
+   "By 2012, it had fallen to 9.1 percent",
+   "virtually all the reduction in poverty among the elderly between 1968 and 2001 was due to Social Security benefits"
+  ],
+  "locator": "Paragraph 2",
+  "grade": "C",
+  "fact_date": "2014",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Brookings Institution (Haskins), February 2014; a secondary summary by a different publisher, relying on Engelhardt and Gruber and Census official-poverty data, which exclude medical costs. SPM elderly poverty is higher (EV-SEC-422).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-442",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-445",
+  "statement": "SSA's actuaries score a special minimum benefit set at 125 percent of the monthly poverty level for 30 years of coverage, for those newly eligible in 2027 (B5.2), as worsening the long-range actuarial balance by 0.11 percent of payroll, and a child-care dropout year for parents of children under 6 (B4.4) as worsening it by 0.06 percent.",
+  "claim": "analysis",
+  "figures": [
+   "B5.2",
+   "125 percent",
+   "30 years",
+   "2027",
+   "0.11 percent",
+   "B4.4",
+   "6",
+   "0.06 percent"
+  ],
+  "source": "SRC-3835",
+  "anchor": [
+   "B5.2 | Beginning for those newly eligible in 2027, reconfigure the special minimum benefit:",
+   "set the PIA for 30 years of coverage equal to 125 percent of the monthly poverty level",
+   "-0.11 | -0.17 | -3% | -3%",
+   "B4.4 | Reduce the number of computation years (increase dropout years) for parents having a child in care under the age of 6.",
+   "-0.06 | -0.06 | -1% | -1%"
+  ],
+  "locator": "Summary table, categories B5 and B4 (rows B5.2, B4.4)",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA Office of the Chief Actuary scores on the 2026 Trustees Report (second Trump administration); changes in the 75-year balance, percent of taxable payroll, current-law shortfall 4.42 percent. Negative = costs money. Confirms legacy SS-3 (-0.11). SSA actuaries are career professionals; scores are projections, and each provision stands alone (interactions ignored).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-475",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-446",
+  "statement": "SSA's actuaries score the across-the-board increase in B3.17 (first bend point up 22 percent, first factor from 90 to 95 percent, about $250 more in primary insurance amount for most workers newly eligible in 2027) as worsening the long-range actuarial balance by 1.56 percent of payroll.",
+  "claim": "analysis",
+  "figures": [
+   "B3.17",
+   "22 percent",
+   "90 percent",
+   "95 percent",
+   "$250",
+   "2027",
+   "1.56 percent"
+  ],
+  "source": "SRC-3835",
+  "anchor": [
+   "B3.17 | Increase the current-law first bend point by 22 percent and increase the 90 percent PIA formula factor to 95 percent",
+   "This provision will result in an approximate $250 increase in PIA for most workers newly eligible for retirement or disability benefits in 2027.",
+   "-1.56 | -1.75 | -35% | -27%"
+  ],
+  "locator": "Summary table, row B3.17",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA Office of the Chief Actuary, 2026 Trustees assumptions. The legacy file's SS-B1 (-1.46, 'about $200 a month') comes from the February 2023 letter on the 2022 Trustees Report (EV-SEC-453); the 2026 score is larger (-1.56) because the base is newer. Companion of Sanders's bill (memos cite Sanders 2023).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-447",
+  "statement": "SSA's actuaries score applying the 12.4 percent payroll tax to earnings above $250,000 from 2027, with no benefit credit for the added earnings taxed (E2.5), as improving the long-range actuarial balance by 2.52 percent of payroll, 57 percent of the shortfall.",
+  "claim": "analysis",
+  "figures": [
+   "E2.5",
+   "12.4 percent",
+   "$250,000",
+   "2027",
+   "2.52 percent",
+   "57 percent"
+  ],
+  "source": "SRC-3835",
+  "anchor": [
+   "E2.5 | Apply 12.4 percent payroll tax rate on earnings above $250,000 starting in 2027, and tax all earnings once the current-law taxable maximum exceeds $250,000. Do not provide benefit credit for additional earnings taxed.",
+   "2.52 | 2.61 | 57% | 40%"
+  ],
+  "locator": "Summary table, category E2 (row E2.5)",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA Office of the Chief Actuary, 2026 Trustees assumptions (shortfall 4.42 percent; 75th-year gap 6.57). LEGACY CONFLICT: the legacy SS-1 shows +2.30 for 'E2.5's base and E2.14's 2% credit, from 2031' as an estimate; SSA scores E2.5 itself at +2.52 (2027 start) and E2.14 (with a 2 percent credit, 2028 start) at +2.41 (EV-SEC-449). The legacy 2031 start is the project's own timing assumption, not an SSA score.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-448",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-448",
+  "statement": "SSA's actuaries score eliminating the taxable maximum from 2027 with no benefit credit (E2.1) as improving the long-range actuarial balance by 2.55 percent of payroll, 58 percent of the shortfall, and with a benefit credit (E2.2) by 1.98 percent, 45 percent.",
+  "claim": "analysis",
+  "figures": [
+   "E2.1",
+   "2027",
+   "2.55 percent",
+   "58 percent",
+   "E2.2",
+   "1.98 percent",
+   "45 percent"
+  ],
+  "source": "SRC-3835",
+  "anchor": [
+   "E2.1 | Eliminate the taxable maximum in years 2027 and later, and apply full 12.4 percent payroll tax rate to all earnings. Do not provide benefit credit for earnings above the current-law taxable maximum.",
+   "2.55 | 2.61 | 58% | 40%",
+   "E2.2 | Eliminate the taxable maximum in years 2027 and later, and apply full 12.4 percent payroll tax rate to all earnings. Provide benefit credit",
+   "1.98 | 1.50 | 45% | 23%"
+  ],
+  "locator": "Summary table, category E2 (rows E2.1, E2.2)",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA Office of the Chief Actuary, 2026 Trustees assumptions. Fortune reports SSA's actuaries estimate that eliminating the cap from 2027 without added benefits closes about 58 percent of the shortfall, matching E2.1 (EV-SEC-465). This is the design Warren and Moreno described only as 'lifting the cap' (EV-SEC-461); whether their bill credits benefits is unknown.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-465",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-447",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-449",
+  "statement": "SSA's actuaries score applying the 12.4 percent tax to earnings above $250,000 from 2028 with a 2 percent benefit credit (E2.14) as improving the long-range actuarial balance by 2.41 percent of payroll, and the same design above $400,000 (E2.13) by 2.25 percent.",
+  "claim": "analysis",
+  "figures": [
+   "12.4 percent",
+   "$250,000",
+   "2028",
+   "2 percent",
+   "E2.14",
+   "2.41 percent",
+   "$400,000",
+   "E2.13",
+   "2.25 percent"
+  ],
+  "source": "SRC-3835",
+  "anchor": [
+   "E2.14 | Apply OASDI 12.4 percent payroll tax rate on earnings above $250,000 starting in 2028, and tax all earnings once the current-law taxable maximum exceeds $250,000.",
+   "a formula factor of 2 percent on this newly computed",
+   "2.41 | 2.47 | 55% | 38%",
+   "E2.13 | Apply OASDI 12.4 percent payroll tax rate on earnings above $400,000 starting in 2028",
+   "2.25 | 2.47 | 51% | 38%"
+  ],
+  "locator": "Summary table, category E2 (rows E2.13, E2.14)",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA Office of the Chief Actuary, 2026 Trustees assumptions. Matches the legacy file's note of E2.14 at +2.41; the legacy file's E2.16 +2.37 was not re-read. The benefit credit cuts the net gain relative to E2.5 (2.52 without credit).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-447",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-450",
+  "statement": "SSA's actuaries score a separate 12.4-percent tax on net investment income above a $400,000 threshold from 2028, with no benefit credit (F11), as improving the long-range actuarial balance by 1.22 percent of payroll, 28 percent of the shortfall.",
+  "claim": "analysis",
+  "figures": [
+   "12.4-percent",
+   "$400,000",
+   "2028",
+   "F11",
+   "1.22 percent",
+   "28 percent"
+  ],
+  "source": "SRC-3835",
+  "anchor": [
+   "F11 | Apply a separate 12.4-percent tax on net investment income (NII), as defined in the Affordable Care Act (ACA), payable to the OASI and DI Trust Funds with an unindexed threshold of $400,000, effective 2028 and later.",
+   "1.22 | 1.55 | 28% | 24%"
+  ],
+  "locator": "Summary table, category F (row F11)",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA Office of the Chief Actuary, 2026 Trustees assumptions (memo cited: Larson 2023). Confirms the legacy SS-2: the legacy +1.17 is the project's own re-timing to 2031 (before a 15 percent haircut) of SSA's +1.22 for a 2028 start, and the legacy F11 citation is correct. The same investment income could also fall under other proposed taxes (stacking), which SSA's single-provision scores ignore.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-451",
+  "statement": "SSA's actuaries score a separate 12.4 percent tax on investment income above the Affordable Care Act thresholds ($200,000 single, $250,000 joint) from 2028 (F9) as improving the long-range actuarial balance by 1.32 percent of payroll, 30 percent of the shortfall.",
+  "claim": "analysis",
+  "figures": [
+   "12.4 percent",
+   "$200,000",
+   "$250,000",
+   "2028",
+   "F9",
+   "1.32 percent",
+   "30 percent"
+  ],
+  "source": "SRC-3835",
+  "anchor": [
+   "F9 | Apply a separate 12.4 percent tax on investment income as defined in the Affordable Care Act (ACA), with unindexed thresholds as in the ACA ($200,000 single filer, $250,000 for married filing joint), starting in 2028.",
+   "1.32 | 1.58 | 30% | 24%"
+  ],
+  "locator": "Summary table, category F (row F9)",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA Office of the Chief Actuary, 2026 Trustees assumptions. 0.10 is the project's subtraction of F11 (1.22) from F9 (1.32), the legacy SS-6 'about +0.1 more'; the arithmetic is the project's, the two scores are SSA's.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-450",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-452",
+  "statement": "SSA's actuaries score a 16.2 percent investment-income tax on active S-corporation officers and limited partners, with 12.4 points to the trust funds and thresholds of $200,000 (single) and $250,000 (joint), from 2027 (F8), as improving the long-range actuarial balance by 0.93 percent of payroll.",
+  "claim": "analysis",
+  "figures": [
+   "16.2 percent",
+   "12.4",
+   "$200,000",
+   "$250,000",
+   "2027",
+   "F8",
+   "0.93 percent"
+  ],
+  "source": "SRC-3835",
+  "anchor": [
+   "F8 | For active S-corporation officers and limited partners, apply a 16.2 percent tax on investment income as defined in the ACA, with unindexed thresholds as in the ACA ($200,000 single filer, $250,000 for married filing joint), starting in 2027.",
+   "Proceeds go to the OASDI Trust Funds for tax attributable to 12.4 percent of the total 16.2 percent tax rate.",
+   "0.93 | 1.01 | 21% | 15%"
+  ],
+  "locator": "Summary table, category F (row F8)",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA Office of the Chief Actuary, 2026 Trustees assumptions (memo cited: Sanders 2023). LEGACY CONFLICT: the legacy SS-5 shows +0.87 from 2031 as an estimate built on the +0.93 start-2027 score; SSA's own number is 0.93.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-453",
+  "statement": "SSA's chief actuary estimated in February 2023 (2022 Trustees Report assumptions) that the Social Security Expansion Act, nine provisions including a payroll tax on earnings above $250,000, would cut the 75-year OASDI actuarial deficit from 3.42 percent of taxable payroll to 0.12 percent and keep scheduled benefits payable in full and on time throughout the 75-year projection period.",
+  "claim": "analysis",
+  "figures": [
+   "3.42 percent",
+   "0.12 percent",
+   "$250,000",
+   "2022",
+   "75-year"
+  ],
+  "source": "SRC-3836",
+  "anchor": [
+   "The estimates provided here reflect the intermediate assumptions of the 2022 Trustees Report.",
+   "Apply the combined OASDI payroll tax rate on earnings above $250,000, effective for 2024 and later.",
+   "decrease the long-range OASDI actuarial deficit from 3.42 percent of taxable payroll under current law to 0.12 percent of payroll under the proposal",
+   "able to pay scheduled benefits in full and on time throughout the 75-year projection period"
+  ],
+  "locator": "Letter, pp. 1-2 (provision list and summary of effects)",
+  "grade": "C",
+  "fact_date": "2023-02-13",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA Office of the Chief Actuary letter to Sen. Sanders, February 13, 2023 (Biden administration), on the Social Security Expansion Act (the 118th Congress bill, S. 393, sponsors Sanders and Warren). Confirms the legacy 3.42 percent baseline and its note that the gap was smaller then; the 2026 deficit is 4.42, so the 2023 result would not hold today. No 2025-26 OCACT letter for a reintroduced Expansion Act appears on the SSA index (EV-SEC-477).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-454",
+  "statement": "SSA's chief actuary estimated in July 2023 (2023 Trustees Report assumptions) that the 16 provisions of the Social Security 2100 Act, most benefit increases temporary through 2034, would move projected combined trust fund depletion from 2034 under current law to 2066.",
+  "claim": "analysis",
+  "figures": [
+   "16",
+   "2034",
+   "2066",
+   "2100"
+  ],
+  "source": "SRC-3837",
+  "anchor": [
+   "enacting the Social Security 2100 Act, which you introduced today.",
+   "includes 16 provisions with direct effects on the Social Security trust funds",
+   "apply for eligible benefits for affected individuals in ten years (generally 2025 through 2034)",
+   "would be moved from 2034 under current law to 2066 assuming enactment of the proposal"
+  ],
+  "locator": "Letter, pp. 1-2",
+  "grade": "C",
+  "fact_date": "2023-07-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA Office of the Chief Actuary letter to Rep. Larson, July 12, 2023 (Biden administration), on the 118th Congress version, whose revenue pieces included a 12.4 percent payroll tax above $400,000 and a 12.4 percent tax on investment income. The 119th Congress bill (H.R. 9519) differs, repealing the wage base (EV-SEC-460); no OCACT letter for it appears on SSA's index (EV-SEC-477), so its solvency effect is unscored.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-455",
+  "statement": "SSA's actuaries score using the CPI-E for the cost-of-living adjustment from December 2028 (about 0.15 percentage points a year higher, A6) as worsening the long-range actuarial balance by 0.33 percent of payroll.",
+  "claim": "analysis",
+  "figures": [
+   "December 2028",
+   "0.15 percentage points",
+   "A6",
+   "0.33 percent"
+  ],
+  "source": "SRC-3835",
+  "anchor": [
+   "A6 | Starting December 2028, compute the COLA using the Consumer Price Index for the Elderly (CPI-E). We estimate this new computation will increase the annual COLA by about 0.15 percentage points, on average.",
+   "-0.33 | -0.48 | -7% | -7%"
+  ],
+  "locator": "Summary table, category A (row A6)",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "SSA Office of the Chief Actuary, 2026 Trustees assumptions. Confirms the legacy SS-4 (-0.33, about 0.15 point a year). CRS's historical differential is 0.2 point (EV-SEC-440), so SSA assumes a narrower future gap than the history.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-440",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-441",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-456",
+  "statement": "H.R. 9519, the Social Security 2100 Act, was introduced in the House by Rep. Larson on June 29, 2026 and referred to the Committee on Ways and Means (and, for provisions in their jurisdiction, Education and Workforce and Energy and Commerce).",
+  "claim": "data",
+  "figures": [
+   "9519",
+   "2100",
+   "June 29, 2026"
+  ],
+  "source": "SRC-3838",
+  "anchor": [
+   "H. R. 9519",
+   "June 29, 2026",
+   "This Act may be cited as the ``Social Security 2100 Act''.",
+   "Mr. Larson of Connecticut introduced the following bill; which was",
+   "referred to the Committee on Ways and Means, and in addition to the"
+  ],
+  "grade": "A",
+  "fact_date": "2026-06-29",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Bill text as introduced, 119th Congress, second session. Rep. Larson lost his 2026 primary and leaves Congress after this term (CNBC, August 2026), which weakens House sponsorship in 2027. CNBC gave June 26 as the introduction date (error); GPO and Congress.gov say June 29.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-457",
+  "statement": "As listed on Congress.gov, H.R. 9519 has five cosponsors, all Democrats, the latest added October 29, 2026, and its latest action is the June 29, 2026 referral to committee.",
+  "claim": "data",
+  "figures": [
+   "9519",
+   "October 29, 2026",
+   "June 29, 2026"
+  ],
+  "source": "SRC-3840",
+  "anchor": [
+   "H.R.9519 - Social Security 2100 Act",
+   "Latest Action: | House - 06/29/2026 Referred to the Committee on Ways and Means",
+   "Rep. Kennedy, Timothy M. [D-NY-26] | 08/31/2026",
+   "Rep. Amo, Gabe [D-RI-1] | 10/29/2026"
+  ],
+  "locator": "Bill overview; cosponsors tab",
+  "grade": "A",
+  "fact_date": "2026-10-29",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Congress.gov bill page (Library of Congress), cosponsors tab read November 12, 2026: Kennedy, DelBene, Hayes, Courtney, Amo, all [D]. No hearing or markup. The Senate companion S. 5042 (Blumenthal, July 21, 2026; also Slotkin, Lujan, Whitehouse, Duckworth) is in the Finance Committee (SRC-3839).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-458",
+  "statement": "H.R. 9519 would raise the first benefit formula factor from 90 to 93 percent for benefits payable in 2027 through 2036, base the COLA on the higher of the CPI-W and the CPI-E, and set an alternative minimum benefit that reaches 125.00 percent of one-twelfth of the poverty guideline for workers with 30 or more years of work.",
+  "claim": "data",
+  "figures": [
+   "9519",
+   "90",
+   "93 percent",
+   "2027",
+   "2036",
+   "CPI-W",
+   "CPI-E",
+   "125.00 percent",
+   "30"
+  ],
+  "source": "SRC-3838",
+  "anchor": [
+   "H. R. 9519",
+   "(42 U.S.C. 415(a)(1)(A)(i)) is amended by striking ``90 percent'' and",
+   "inserting ``93 percent''.",
+   "months in calendar years 2027 through 2036.",
+   "Earners and Clerical Workers (CPI-W, as published by the Bureau",
+   "Price Index for Elderly Consumers (CPI-E, as published by such",
+   "30 or more................................... 125.00 percent."
+  ],
+  "locator": "Sections 101(b), 102(a), 103",
+  "grade": "A",
+  "fact_date": "2026-06-29",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Bill text, sections 101 to 103 (as introduced). The across-the-board increase and the higher-of-CPI-E-or-CPI-W COLA are temporary in the 2023 letter version (through 2034); this bill's section 101 runs through 2036. Not scored by SSA actuaries (EV-SEC-477).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-459",
+  "statement": "H.R. 9519 section 201 repeals the Social Security wage base limit for FICA and SECA after 2026, and section 203 adds a 12.4 percent tax on net investment income above a $400,000 social security contribution threshold (alongside the 3.8 percent Medicare tax at $250,000 joint and $200,000 other), for taxable years beginning after December 31, 2026.",
+  "claim": "data",
+  "figures": [
+   "9519",
+   "201",
+   "2026",
+   "203",
+   "12.4 percent",
+   "$400,000",
+   "3.8 percent",
+   "$250,000",
+   "$200,000",
+   "31"
+  ],
+  "source": "SRC-3838",
+  "anchor": [
+   "H. R. 9519",
+   "SEC. 201. REPEAL OF LIMITATION ON SOCIAL SECURITY WAGE BASE FOR FICA",
+   "AND SECA AFTER 2026.",
+   "SEC. 203. APPLICATION OF SOCIAL SECURITY TAX TO NET INVESTMENT INCOME.",
+   "``(A) 3.8 percent of the lesser of--",
+   "``(B) 12.4 percent of the lesser of--",
+   "defined in section 2(a)), $250,000,",
+   "``(C) in any other case, $200,000.",
+   "$400,000.''.",
+   "apply to taxable years beginning after December 31, 2026."
+  ],
+  "locator": "Sections 201(e) and 203(a), (c), (e)",
+  "grade": "A",
+  "fact_date": "2026-06-29",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Bill text as introduced. The 2023 version taxed earnings above $400,000 (an earnings gap or 'donut'); this version repeals the wage base outright, roughly SSA's E2.1/E2.2 designs (EV-SEC-448). Unscored by SSA actuaries (EV-SEC-477).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-460",
+  "statement": "H.R. 9519 section 107 would credit deemed wages to unpaid caregivers who provide at least 960 hours of care in a year to a child under age 12 or to a chronically dependent relative.",
+  "claim": "data",
+  "figures": [
+   "9519",
+   "107",
+   "960 hours",
+   "12"
+  ],
+  "source": "SRC-3838",
+  "anchor": [
+   "H. R. 9519",
+   "SEC. 107. PROVIDING CAREGIVER CREDITS FOR SOCIAL SECURITY.",
+   "960 hours in providing care to a dependent relative without",
+   "loco parentis, who is under the age of 12; or"
+  ],
+  "locator": "Section 107, new section 235 (a)(1)-(2)",
+  "grade": "A",
+  "fact_date": "2026-06-29",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Bill text as introduced. SSA scored a narrower child-care dropout-year design at -0.06 (B4.4; EV-SEC-445); the 2023 Larson letter's section 107 gave a temporary 'earnings credit' for workers caring for a child under 12 or dependent relative, not scored separately here.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-461",
+  "statement": "In June 2026 Sens. Warren and Moreno published a New York Times op-ed saying they are working together on legislation to remove the cap on Social Security taxes and extend solvency; the op-ed notes the 2026 cap of $184,500 and that the most paid in for one worker is $22,878, 12.4 percent of that base.",
+  "claim": "data",
+  "figures": [
+   "$184,500",
+   "$22,878",
+   "12.4 percent",
+   "2026"
+  ],
+  "source": "SRC-0856",
+  "anchor": [
+   "the two of us are working together on legislation to remove the cap on Social Security taxes and extend the solvency of our retirement system.",
+   "For 2026, the payroll tax cap, or taxable maximum, is $184,500.",
+   "the most that would be paid into Social Security for one worker is $22,878, or 12.4 percent of $184,500."
+  ],
+  "locator": "Press release, quoted op-ed passages",
+  "grade": "A",
+  "fact_date": "2026-06-23",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Office of Sen. Warren press release quoting the op-ed (June 23, 2026). Warren is a Democrat (Massachusetts) and Moreno a Republican (Ohio): a stated intention, not a bill. No bill text, cosponsors or score found through November 12, 2026.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-462",
+  "statement": "ABC News reported in early July 2026 that legislation reflecting the Warren-Moreno proposal had not been introduced and that the senators were 'working on legislation'.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-0857",
+  "anchor": [
+   "Legislation reflecting the proposal has not been introduced.",
+   "working on legislation"
+  ],
+  "locator": "Article text, paragraphs 4-5",
+  "grade": "C",
+  "fact_date": "2026-07-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "ABC News (news report); catalog row SRC-0857 gives the date. Later press (CNBC September 13, Newsweek September 8, Fortune November 7) describes the proposal without a bill number.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-463",
+  "statement": "CNBC reported in September 2026 that proponents of raising the Social Security payroll tax cap, until recently all Democrats, now include several Republicans, and that Reps. Tom Cole and Lloyd Smucker said they would consider raising payroll taxes.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3855",
+  "anchor": [
+   "Proponents of the strategy, who until recently have all been Democrats, now include several Republicans.",
+   "Republican Reps. Tom Cole of Oklahoma and Lloyd Smucker of Pennsylvania also recently said in separate interviews that they would consider raising payroll taxes to help fund the program."
+  ],
+  "locator": "Opening paragraphs",
+  "grade": "C",
+  "fact_date": "2026-09-13",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "CNBC news report. 'Consider' is weaker than support: Cole said he is 'willing to look at the tax rate' (Washington Post, via other outlets); the White House said only 'zero reductions' (RetireBrief, October 2026). Sen. Moreno is the only Republican member with a joint proposal on record.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-464",
+  "statement": "A PolicyViz tally in October 2026 found that 20 of 41 Senate candidates had endorsed raising or eliminating the Social Security taxable maximum, including three of 20 Republican candidates.",
+  "claim": "data",
+  "figures": [
+   "20",
+   "41"
+  ],
+  "source": "SRC-3856",
+  "anchor": [
+   "Among the 41 candidates, 20 have endorsed raising or eliminating the cap.",
+   "Three of the 20 Republicans have said the same."
+  ],
+  "locator": "Paragraph 2",
+  "grade": "C",
+  "fact_date": "2026-10-27",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "PolicyViz (Jon Schwabish, independent data analyst), October 27, 2026, before the November 3 election. 'Three of the 20 Republicans' uses the author's own sample of candidates. Stated positions only; no votes.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-465",
+  "statement": "Fortune reported in November 2026 that SSA's actuaries estimate eliminating the cap starting in 2027, without increasing benefits for the additional earnings taxed, would close an estimated 58% of the projected funding shortfall.",
+  "claim": "analysis",
+  "figures": [
+   "2027",
+   "58%"
+  ],
+  "source": "SRC-3866",
+  "anchor": [
+   "Eliminating that cap starting in 2027, without increasing benefits for the additional earnings taxed, would close an estimated 58%"
+  ],
+  "locator": "Stratton paragraph",
+  "grade": "C",
+  "fact_date": "2026-11-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "Fortune news report after the November 3, 2026 election, repeating the OCACT E2.1 score. A secondary report; the primary is EV-SEC-448.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-448",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-466",
+  "statement": "In July 2025 Sens. Cassidy and Kaine proposed a separate investment fund, parallel to the Social Security trust fund, seeded with $1.5 trillion up front and given 75 years to grow, with the Treasury temporarily shouldering benefits.",
+  "claim": "data",
+  "figures": [
+   "$1.5 trillion",
+   "75 years"
+  ],
+  "source": "SRC-3851",
+  "anchor": [
+   "We estimate that it would take a $1.5 trillion up-front investment into the fund to get it going, and we propose giving the fund 75 years to grow.",
+   "The Treasury would temporarily shoulder the burden of providing benefits to Social Security beneficiaries"
+  ],
+  "locator": "Press release, quoted passages",
+  "grade": "C",
+  "fact_date": "2025-07-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Cassidy (R-LA) press release quoting the op-ed with Sen. Kaine (D-VA); the sponsors' own description. Funding is Treasury borrowing (AP, EV-SEC-468); no bill number or OCACT/CBO score found. Hearing testimony of Sen. Cassidy to the Senate Budget Committee, March 2026, repeats the design.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-467",
+  "statement": "In September 2026 Sen. Cassidy said the proposed fund 'ends up paying 65% of the obligation to our nation's retirees' and the release says it could help make Social Security solvent for the next 50 to 75 years.",
+  "claim": "analysis",
+  "figures": [
+   "65%",
+   "50 to 75 years",
+   "75%"
+  ],
+  "source": "SRC-3852",
+  "anchor": [
+   "This money grows and ends up paying 65% of the obligation to our nation",
+   "could help make Social Security solvent for the next 50 to 75 years"
+  ],
+  "locator": "Press release, summary and Cassidy quotation",
+  "grade": "C",
+  "fact_date": "2026-09-15",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Cassidy (R) press release (September 15, 2026): sponsors' own claims, unscored. CONFLICT: MarketWatch (EV-SEC-469) describes the same plan as covering 'about 75%' of the shortfall; the sponsors' two figures (65% and 75%) differ. Treat as claims, not estimates. Kaine (D) expressed support in the same release.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-469",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-468",
+  "statement": "AP reported in August 2026 that the Cassidy-Kaine $1.5 trillion fund would be invested in stocks and other higher-risk assets over 75 years, that its seed money would be financed by Treasury borrowing, and that the amount to repay Treasury for the borrowing to keep benefits flowing is now projected at about $26.6 trillion.",
+  "claim": "data",
+  "figures": [
+   "$1.5 trillion",
+   "75 years",
+   "$26.6 trillion"
+  ],
+  "source": "SRC-3853",
+  "anchor": [
+   "a $1.5 trillion fund that would be invested in stocks and other higher-risk assets over 75 years",
+   "The seed money would be financed by the Treasury Department through additional borrowing.",
+   "now projected at about $26.6 trillion"
+  ],
+  "locator": "Paragraphs on the Cassidy proposal",
+  "grade": "C",
+  "fact_date": "2026-08-26",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Associated Press news report (Kevin Freking).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-469",
+  "statement": "MarketWatch's Hulbert wrote in November 2026 that the senators calculate their $1.5 trillion fund would cover about 75% of Social Security's 75-year shortfall and, citing a Congressional Research Service analysis, that they extrapolate stock returns from 2003 to 2021, which he argues overstates likely returns.",
+  "claim": "analysis",
+  "figures": [
+   "$1.5 trillion",
+   "75 years",
+   "75%",
+   "2003",
+   "2021"
+  ],
+  "source": "SRC-3854",
+  "anchor": [
+   "put $1.5 trillion in a trust fund that invests in stocks and other risky assets for 75 years",
+   "The senators calculate that this would cover about 75% of the Social Security's projected funding shortfall over the next 75 years.",
+   "the senators are extrapolating returns produced from 2003 to 2021"
+  ],
+  "locator": "Bullets and paragraph on assumptions",
+  "grade": "C",
+  "fact_date": "2026-11-11",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Opinion column (Mark Hulbert, MarketWatch via Morningstar) citing an unnamed CRS analysis; the CRS paper itself was not found. A critique of the assumed returns, not a score.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-466",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-467",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-470",
+  "statement": "S. 4979, the PROMISE Act of 2026, introduced July 14, 2026 by Sens. Durbin, Cassidy, Kaine, Tillis, King, Cornyn, Coons and Armstrong, would have the Social Security Advisory Board develop recommendations and legislative language to achieve long-term solvency, defined as the ability to pay 100 percent of scheduled benefits for at least 50 years.",
+  "claim": "data",
+  "figures": [
+   "4979",
+   "July 14, 2026",
+   "100 percent",
+   "50 years"
+  ],
+  "source": "SRC-3857",
+  "anchor": [
+   "S. 4979",
+   "July 14, 2026",
+   "Mr. Durbin (for himself, Mr. Cassidy, Mr. Kaine, Mr. Tillis, Mr. King,",
+   "(established under section 703) shall develop recommendations",
+   "Insurance Trust Fund to pay 100 percent of scheduled benefits",
+   "for a period of at least 50 years that begins on the date of"
+  ],
+  "locator": "Sections 1 and 2 (new section 201A(a)-(b))",
+  "grade": "A",
+  "fact_date": "2026-07-14",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Bill text as introduced; referred to the Finance Committee. Press reports say it adds a fast-track process and votes; it names no benefit or tax change.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-471",
+  "statement": "H.R. 9187, the Bipartisan Social Security Commission Act of 2026 (Reps. Cole and Suozzi, June 8, 2026), would create a 13-member Commission on Long-Term Social Security Solvency to transmit recommendations achieving solvency of the OASI and DI funds for at least 75 years, approved by at least 9 members.",
+  "claim": "data",
+  "figures": [
+   "9187",
+   "June 8, 2026",
+   "13",
+   "75 years",
+   "9"
+  ],
+  "source": "SRC-3858",
+  "anchor": [
+   "H. R. 9187",
+   "June 8, 2026",
+   "Mr. Cole (for himself and Mr. Suozzi) introduced the following bill;",
+   "(a) Number and Appointment.--The Commission shall be composed of 13",
+   "least 75 years beginning on the date that is 1 year after the initial",
+   "meeting of the Commission. Such message shall be approved by at least 9"
+  ],
+  "locator": "Sections 1 to 4",
+  "grade": "A",
+  "fact_date": "2026-06-08",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Bill text as introduced; referred to Ways and Means and Rules. Rep. Cole chairs House Appropriations. The 75-year target is stricter than the PROMISE Act's 50-year target (EV-SEC-470).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-472",
+  "statement": "S. 4012, the Fiscal Commission Act (Sen. Curtis and others, introduced March 5, 2026), would have a commission identify policies to hold the public debt to not more than 100 percent of GDP by fiscal year 2039 and to improve the solvency of trust funds for at least 75 years.",
+  "claim": "data",
+  "figures": [
+   "4012",
+   "March 5, 2026",
+   "100 percent",
+   "2039",
+   "75 years"
+  ],
+  "source": "SRC-3859",
+  "anchor": [
+   "S. 4012",
+   "March 5, 2026",
+   "shall be not more than 100 percent, by",
+   "fiscal year 2039; and",
+   "period of at least 75 years, of trust"
+  ],
+  "locator": "Section 3 (duties)",
+  "grade": "A",
+  "fact_date": "2026-03-05",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Bill text as introduced; referred to Rules and Administration. A House companion by Reps. Huizenga and Peters passed committee in the 118th Congress (CRFB). A 'TRUST Act' with a Social Security meaning was not found: S. 4596, the TRUST Act, concerns immigration.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-473",
+  "statement": "The Center for American Progress reported in 2024 that the Republican Study Committee's FY2025 budget plan would raise the full retirement age from 67 to 69, by three months a year starting with those turning 62 in 2026, cutting benefits for new retirees by roughly 12.5 to 14.3 percent once phased in.",
+  "claim": "analysis",
+  "figures": [
+   "2025",
+   "67",
+   "69",
+   "three months",
+   "62",
+   "2026",
+   "12.5 percent",
+   "14.3 percent"
+  ],
+  "source": "SRC-3849",
+  "anchor": [
+   "released its fiscal year 2025 budget proposal",
+   "The FRA is 67 under current law, but the RSC plan would push it back to 69",
+   "the FRA would increase by three months per year, starting with those turning 62 in 2026",
+   "would cut benefits for all new retirees between roughly 12.5 percent and 14.3 percent"
+  ],
+  "locator": "'Understanding the RSC's plan' and Table 1",
+  "grade": "C",
+  "fact_date": "2024-07-31",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-28",
+  "context": "CAP (progressive think tank), July 31, 2024. The RSC budget text says only 'modest adjustments to the retirement age'; the schedule comes from RSC task-force chair Rep. Cline's comments to Roll Call, per CAP. The RSC's 2026 budget document says it does not raise the retirement age (EV-SEC-474).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-474",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-474",
+  "statement": "The Republican Study Committee's 2026 budget document, 'Restoring America's Golden Age', states that the RSC Budget does not raise the retirement age or reduce Social Security benefits.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3850",
+  "anchor": [
+   "The RSC Budget does not raise the retirement age or reduce Social Security benefits."
+  ],
+  "locator": "'Protecting Seniors' section",
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-02-28",
+  "context": "Republican Study Committee (House conservative caucus; roughly 80 percent of House Republicans), about February 2026; read through search excerpts and a columnist's quotation, the PDF itself not opened. A reversal of its FY2025 budget's retirement-age policy, as described by CAP (EV-SEC-473); the FY2027 document does not say whether the earlier proposal is withdrawn. Self-description by an interested party.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-475",
+  "statement": "The Bipartisan Policy Center's 2016 commission recommended a new basic minimum benefit for low-income beneficiaries and indexing the full retirement age to longevity, rising one month every two years from 2022 until it reaches 69 (maximum benefit age 72) in 2070.",
+  "claim": "data",
+  "figures": [
+   "2022",
+   "69",
+   "72",
+   "2070"
+  ],
+  "source": "SRC-3848",
+  "anchor": [
+   "We recommend establishing a new basic minimum benefit (BMB) within Social Security to reduce poverty among OASI beneficiaries.",
+   "Starting in 2022, both of these thresholds would rise by one month every two years.",
+   "until the full retirement age reaches 69 and the maximum benefit age reaches 72 (in 2070)"
+  ],
+  "locator": "Recommendations 3 and 4",
+  "grade": "C",
+  "fact_date": "2016-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Bipartisan Policy Center commission (former officials of both parties), June 2016: recommendations (positions), not findings. A paired structure (higher minimum benefit with a higher retirement age) the dossier may weigh against the legacy file's refusal of retirement-age changes. SSA actuaries scored related provisions in 2016 memos (June 9 and October 2016 letters to BPC).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-476",
+  "statement": "Section 310(g) of the Congressional Budget Act bars the Senate and House from considering any reconciliation bill that contains recommendations with respect to the old-age, survivors, and disability insurance program under title II of the Social Security Act; CRS notes the Parliamentarian has advised that indirect effects on the trust funds are not extraneous.",
+  "claim": "data",
+  "figures": [
+   "310(g)"
+  ],
+  "source": "SRC-0877",
+  "anchor": [
+   "This refers to Section 310(g) of the Budget Act, which states",
+   "that contains recommendations with respect to the old-age, survivors, and disability insurance program established under title II of the Social Security Act.",
+   "provisions with indirect effects on the Social Security trust funds are not extraneous"
+  ],
+  "locator": "'Section 310(g)' discussion",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRS (nonpartisan) R48640 quoting the statute (2 U.S.C. 641(g)); a violation is fatal to the whole bill in the Senate. This is the legal basis for the legacy file's statement that Social Security cannot be changed in reconciliation, so a bill needs regular order (60 votes, or a cloture rules change).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-477",
+  "statement": "SSA's list of actuarial letters, current through a September 15, 2026 entry, shows the latest letters on the Social Security 2100 Act (July 12, 2023, Larson) and on the Social Security Expansion Act (February 13, 2023, Sanders) as 2023 letters, with no later letter on either bill.",
+  "claim": "data",
+  "figures": [
+   "September 15, 2026",
+   "July 12, 2023",
+   "February 13, 2023"
+  ],
+  "source": "SRC-3841",
+  "anchor": [
+   "September 15, 2026 | Nancy Pelosi",
+   "July 12, 2023 | John Larson",
+   "Enacting the \"Social Security 2100 Act,\"",
+   "February 13, 2023 | Bernie Sanders"
+  ],
+  "locator": "List of letters, first row and the 2023 rows",
+  "grade": "A",
+  "fact_date": "2026-09-15",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "SSA Office of the Chief Actuary index (second Trump administration), listing letters most recent first; the claim of absence is read from that list through its Pelosi SSI letter of September 15, 2026 and should be re-checked at ssa.gov/oact/solvency before use. So the 119th Congress H.R. 9519 (Larson), S. 5042 (Blumenthal) and any reintroduced Expansion Act are unscored by SSA's actuaries; the 2023 letters (EV-SEC-453, EV-SEC-454) scored different bills.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-478",
+  "statement": "OECD reports that in Germany having a child gives one parent a credit of one pension point a year for three years, equal for pension purposes to earning the average wage, and that Germany, Norway and the United Kingdom credit informal carers who give at least 10, 22 and 20 hours of care a week, respectively.",
+  "claim": "data",
+  "figures": [
+   "three years",
+   "10",
+   "22",
+   "20"
+  ],
+  "source": "SRC-3845",
+  "anchor": [
+   "In Germany having a child gives one parent a credit of one pension point annually for three years, thereby making it equivalent for pension purposes to earning the average wage throughout the credit period.",
+   "Germany, Norway and the United Kingdom grant pension credits to both employed and not employed informal carers who provide at least 10, 22 and 20 hours of care per week, respectively."
+  ],
+  "locator": "Section on pension credits for childcare and informal care",
+  "grade": "C",
+  "fact_date": "2025-11",
+  "checked": "2026-11-12",
+  "recheck": "2026-12-01",
+  "context": "OECD, Pensions at a Glance 2025, 'Gender pension gap' chapter (intergovernmental; descriptions of national rules, which the OECD updates every two years). Childcare credits were introduced between the mid-1980s and mid-1990s in Austria, Belgium, Germany, Ireland, Japan, Norway and Switzerland; the US has no equivalent beyond the 35-year averaging (see EV-SEC-479). Tried in: Germany, Norway, UK.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-479",
+  "statement": "OECD modeling finds that a five-year childcare break lowers future pension entitlements by 5% at the average wage and by 2% for low earners on average across member countries, while in Hungary, Ireland, Mexico, New Zealand, Spain and the United States a woman with two children gets the same benefit as in the uninterrupted-career case.",
+  "claim": "analysis",
+  "figures": [
+   "5%",
+   "2%"
+  ],
+  "source": "SRC-3846",
+  "anchor": [
+   "lowers future benefit entitlements at the average wage by 5%, and by 2% for low earners",
+   "Hungary, Ireland, Mexico, New Zealand, Spain and the United States offer benefits at the same level as the interrupted career case"
+  ],
+  "locator": "Indicator 5.3 text, paragraphs 1 and 4",
+  "grade": "C",
+  "fact_date": "2023-12",
+  "checked": "2026-11-12",
+  "recheck": "2026-12-01",
+  "context": "OECD Pensions at a Glance 2023 (intergovernmental), modeled replacement rates for a woman with two children, 38 countries. The US result reflects wage-indexed 35-year averaging and the PIA formula's progressivity for a five-year break; longer breaks or full-time care of a disabled adult are not tested here, so it does not show there is no caregiver gap in the US (SSA actuaries scored a dropout-year design at -0.06; EV-SEC-445).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-445",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-478",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-480",
+  "statement": "Canada's Pension Plan drops out months of low or no earnings from the benefit calculation for the primary caregiver of a child under age 7, only where this increases the benefit, and the government says the provision can help meet disability and survivor contribution tests.",
+  "claim": "data",
+  "figures": [
+   "7"
+  ],
+  "source": "SRC-3847",
+  "anchor": [
+   "if you were the primary caregiver of a child under age 7",
+   "we will only do this if it increases your benefit amount",
+   "this could also help you qualify for a CPP disability benefit"
+  ],
+  "locator": "'How they work' section",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Government of Canada (Employment and Social Development Canada) program page; a dropout provision in effect since 1977 (per the IWPR comparison read in search). Tried in: Canada, nationally. Pairs with a 'drop-in' credit for the enhanced CPP from 2019 (same page). The US provision in H.R. 9519 is a deemed-wage credit, not a dropout (EV-SEC-460).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-481",
+  "statement": "CRS summarizing the 2025 Trustees Report: combined trust fund depletion in 2034 (2035 in the 2024 report) with 81% of benefits payable (83% in the 2024 report), and a long-range actuarial deficit up from 3.50% to 3.82% of taxable payroll.",
+  "claim": "analysis",
+  "figures": [
+   "2034",
+   "2035",
+   "81%",
+   "83%",
+   "3.50%",
+   "3.82%"
+  ],
+  "source": "SRC-3824",
+  "anchor": [
+   "depletion date is 2034 (versus 2035 in last year’s report)",
+   "81% (versus 83% in the 2024 report).",
+   "actuarial deficit—from 3.50% in the 2024 report to 3.82%"
+  ],
+  "locator": "First paragraph; 'Actuarial balance' paragraph",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01",
+  "context": "CRS (nonpartisan) In Focus IF13045 on the June 2025 Trustees Report; independent restatement of EV-SEC-404. The same CRS note's table lists OASI depletion as 2034, which conflicts with SSA's 2033 (EV-SEC-404); treat the SSA figure as correct.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-404",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-482",
+  "statement": "S. 5042, the Senate companion of the Social Security 2100 Act, was introduced July 21, 2026 by Sen. Blumenthal with Sens. Slotkin, Lujan, Whitehouse and Duckworth and referred to the Committee on Finance.",
+  "claim": "data",
+  "figures": [
+   "5042",
+   "July 21, 2026",
+   "2100"
+  ],
+  "source": "SRC-3839",
+  "anchor": [
+   "S. 5042",
+   "July 21, 2026",
+   "Mr. Blumenthal (for himself, Ms. Slotkin, Mr. Lujan, Mr. Whitehouse,",
+   "and Ms. Duckworth) introduced the following bill; which was read twice",
+   "and referred to the Committee on Finance",
+   "This Act may be cited as the ``Social Security 2100 Act''."
+  ],
+  "grade": "A",
+  "fact_date": "2026-07-21",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Bill text as introduced, 119th Congress. All sponsors are Democrats or caucus Democrats. Identical title to H.R. 9519 (EV-SEC-456); no cosponsors beyond those at introduction were checked. Not scored by SSA actuaries (EV-SEC-477).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
   ]
  },
  {
