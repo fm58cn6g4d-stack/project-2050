@@ -25,7 +25,7 @@ State pre-K reaches 37% of 4-year-olds and 9% of 3-year-olds, at about $8,124 a 
   - Lead teachers are paid on the K-12 scale, the standard every design weighed here uses.
   - Classrooms use a proven curriculum with coaching.
   - Wraparound hours are covered by memo 10's guarantee.
-  - The federal share is 90% for three years, then 75% (judgment). That is above the CCWFA's 60% [EV-CAR-581], so fewer states stay out.
+  - The federal share is 90% for three years, then 75% (judgment). That is above the CCWFA's 60% [EV-CAR-581], so fewer states stay out. Step 8 keeps it: at maturity about $57 billion federal and $34 billion from states, their own $14.4 billion included; the options are in `../3c-design-child-care.md`, "States' share".
   - It starts with 4-year-olds in 2030-31, and 3-year-olds where ready, all by 2033-34 (memo 12).
 - *Where tried:* Boston, Tulsa, Georgia and Oklahoma [EV-CAR-557] [EV-CAR-555] [EV-CAR-568]; New York City's 3-K and Pre-K for All; Colorado's 15 free hours [EV-CAR-593]; the CCWFA's and BBB's pre-K titles [EV-CAR-581] [EV-CAR-587].
 - *For people:* every 3- and 4-year-old has a free six-hour place at the local school, Head Start or their own child care center, which keeps the child and gets paid for the pre-K day.

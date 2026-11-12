@@ -13,12 +13,14 @@ most direct care jobs are part-time.
 """
 
 # ---------- Home care: part B, memo 6 B (recommended, not decided) ----------
-# Part B's working assumptions as revised after its audit (3b-design-home-care.md, "What the options
-# cost", #244): 5-8 million new users in 2035 (central 6.5 million), waiting lists included, at
-# $28,000-66,000 each in 2035 dollars (central $42,000), about $275 billion; plus richer tier budgets for
-# today's Medicaid users, about $30 billion (range $15-45 billion). The same figures set memo 14's base.
-NEW_USERS = (5.0e6, 6.5e6, 8.0e6)
-COST_PER_NEW_USER = (28_000, 42_000, 66_000)
+# Part B's working assumptions at the decided three-activity threshold (DEC-2026-11-11-02; 3b-design-home-
+# care.md, "What the options cost"; tools/care_repricing.py): 2.8-5.6 million new users in 2035 (central
+# 3.9 million), waiting lists included, at about $31,000-83,000 each in 2035 dollars (central $50,000),
+# about $197 billion; plus richer tier budgets for today's Medicaid users, about $30 billion (range $15-45
+# billion). At two activities (before the decision) the new users were 5-8 million at $28,000-66,000.
+# The same figures set memo 14's base.
+NEW_USERS = (2.75e6, 3.9e6, 5.6e6)
+COST_PER_NEW_USER = (31_360, 50_400, 82_500)
 RICHER_BUDGETS = (15e9, 30e9, 45e9)
 # Cost per paid hour of agency or self-directed care in 2035 dollars (judgment): the aide median wage of
 # $35,800 a year in 2025 (EV-CAR-422), about $17.20 an hour, over part B's labor share of about 60%, with
@@ -67,21 +69,25 @@ RN_HIRES_2024_RULE = 16_000  # CMS's own estimate (89 FR 40876, regulatory impac
 # memo 6 B, that is today's Medicaid home care (about $164 billion in 2023, EV-CAR-404, EV-CAR-406, federal
 # and state money together) grown 5.5% a year (part B's working assumption), plus the parts of memo 6 B's
 # new money that buy hours: richer budgets for today's users (about $30 billion) and new users, waiting
-# lists included (about $275 billion), per part B as revised (#244). Memo 6 B's other part, relief of
+# lists included (about $197 billion at three activities; $275 billion at two, #244). Memo 6 B's other part, relief of
 # states' home-care share net of maintenance of effort (about $73 billion), moves state money already inside
 # the Medicaid line onto the federal side and buys no new hours, so it is not added (review of PR #242).
 # Under memo 6 B the plan pays the whole benefit and states' maintenance of effort is a fixed amount, so a
 # raise falls on federal money; under memo 6 A states would pay about 47% of it (EV-CAR-448).
 MEDICAID_HOME_2023 = 164e9
 GROWTH = 1.055
-NEW_HOURS_MONEY_2035 = 30e9 + 275e9   # part B memo 6 B as revised: richer budgets and new users (3b)
+NEW_HOURS_MONEY_2035 = 30e9 + 197e9   # part B memo 6 B at three activities: richer budgets and new users (3b)
 LABOR_SHARE = 0.6
 # Average payroll increase a floor causes, by level in 2026 dollars (judgment; section 3d): $18, $20, $22.50.
+# Measured against the wages the baseline already projects for 2026, not against 2024 wages, and held as a
+# share because the floor is indexed to average wages, the same growth the baseline gives care wages; so no
+# baseline wage growth is counted (checked in tools/care_repricing.py).
 LEVELS = {'$18': 0.05, '$20': 0.12, '$22.50': 0.25}
 # Nursing homes, where the median nursing assistant already earns about $20.30 an hour (EV-CAR-609):
 # judgment, $ billion in 2035.
 NURSING_HOMES_2035 = {'$18': 1e9, '$20': 3e9, '$22.50': 5e9}
-FEDERAL_SHARE_BRIDGE = 0.9   # the federal government pays 90% of the floor's added cost in 2030-34 (judgment)
+FEDERAL_SHARE_BRIDGE = 0.68  # recommended (D-8): the state's bridge rate, its regular match (about 60%) plus
+                             # the bridge's points (about 8); was 90% before the state-share review
 
 
 def three(f):
