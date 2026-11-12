@@ -227,9 +227,8 @@ The process is designed for AI agents working without memory between sessions, w
 **Decision memos.** At each real fork, Espen gets two to four options, a recommendation, and the consequences of each. Approval is given per decision, not as a package.
 
 **Roles:**
-- **Claude** leads the dossiers and the federal budget model, with its shared fiscal inputs (`DEC-2026-11-08-02`).
-- **Codex** leads fair financing, and is asked to review the federal budget model at its benchmark and integration milestones. This is a convention, not enforced by the merge gate: those PRs request Codex's review by comment, and if Codex is unavailable they say so and merge on the Claude reviewer's review.
-- Each reviews the other's work at milestones.
+- **Claude** leads the dossiers, the federal budget model with its shared fiscal inputs (`DEC-2026-11-08-02`), and fair financing, the financing settlement (`DEC-2026-11-11-07`).
+- **Codex** is asked to review the federal budget model and the financing settlement at their milestones. This is a convention, not enforced by the merge gate: those PRs request Codex's review by comment, and if Codex is unavailable they say so and merge on the Claude reviewer's review.
 - At most two dossiers are active at once.
 
 **Paused:**
