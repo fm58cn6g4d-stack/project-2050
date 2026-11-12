@@ -19,7 +19,7 @@ Role: section 3 of the care dossier, part D: the real forks for paying, staffing
   - IMM-2's care-worker visa.
 
   "Inherited assumptions" below traces each one.
-- **Report, don't gate** (`DEC-2026-11-10-05`). Costs are working assumptions with basis and range (`DEC-2026-11-10-07`), reported for the financing settlement and not trimmed to fit. Memo 14's level is mainly about money, so it comes with its cost. Financing is Codex's settlement; this part designs no tax.
+- **Report, don't gate** (`DEC-2026-11-10-05`). Costs are working assumptions with basis and range (`DEC-2026-11-10-07`), reported for the financing settlement and not trimmed to fit. Memo 14's level is mainly about money, so it comes with its cost. Financing is the settlement's; this part designs no tax.
 - **Design lens** (`DEC-2026-11-09-13`). Each requirement says what it asks of workers, providers and states, and what it buys.
 - **Time frame** (`DEC-2026-10-29-01`). Recommendations start with the 2029 law; anything before is labeled 2027-28 or preparation.
 - **Ranges for parts B and C.** Espen has decided neither part. Every cost here is shown on parts B and C's recommended options, with what changes under their alternatives.
@@ -97,7 +97,7 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money in
 - **What the totals leave out.**
   - *Savings from lower turnover and less public assistance.* About half of direct care workers rely on public assistance [EV-CAR-613], and LeadingAge counts $0.9-1.6 billion a year of savings (not used; the source's headline overstates its own numbers).
   - *Quality gains,* such as fewer deaths in nursing homes [EV-CAR-624]: not counted, as CBO's scores do not count them.
-  - *Who pays:* the financing settlement's question (Codex), not this part's.
+  - *Who pays:* the financing settlement's question, not this part's.
 
 ## What is and isn't counted (step 8)
 
