@@ -18,7 +18,7 @@ Role: section 8 of the secure floor dossier. For each decided choice, the findin
 | The on-ramps | Memo 4 B | Demand far above the envelope in the first two years | A larger envelope, reported to the settlement; or a training right in the work flagship |
 | Paid leave | Memo 5 B | SSA unable to staff it by 2031 | A later start, not a smaller program |
 | | | A settlement that wants leave on the general fund | The FY2025 budget's shape (memo 5) |
-| | | The fund's loan above the high case's peak | The rate path reviewed; the ceiling is Espen's (1.10%) |
+| | | The fund needing a Treasury loan, which the high case at the 0.10-point step does not | The rate path reviewed; the ceiling is Espen's (1.10%) |
 | Social Security | Memo 6 part 1 C | An SSA package score far below the estimates | More of SS-7, the broad rate (part 1 B) |
 | | | A Republican bill with real cosponsors before 2029 | The bipartisan track (part 1 D), with D8 as the fallback |
 | The caregiver credit | Memo 6 part 2 (c) | SSA's score far above −0.2% of payroll | Dropout years (b), as memo 6 provides |

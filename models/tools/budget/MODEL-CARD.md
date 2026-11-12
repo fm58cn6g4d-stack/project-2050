@@ -53,9 +53,9 @@ The budget model projects the whole federal budget, year by year from FY2026 to 
 | ID | Benchmark | Result | Model | Target | Tolerance | Miss |
 | --- | --- | --- | --- | --- | --- | --- |
 | BL-1 | The baseline equals CBO's February 2026 projections plus the documented adjustments | **pass** | B2's 3 reproduction tests: 3 pass | every cell of models/data/fiscal-baseline.csv, FY1962-2056 | exact (the file's three decimals; the unrounded values are the same floating-point numbers) | — |
-| ID-1 | Deficit equals outlays minus revenue, every year and scenario | **pass** | 7.28e-12 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion): floating-point error only | — |
-| ID-2 | The program's added debt grows by exactly its added deficit (spending, revenue and interest) | **pass** | 3.27e-11 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
-| ID-3 | Debt held by the public: the residual after deficits is CBO's own other means of financing, in every scenario | **pass** | 8.37e-11 ($B, largest gap from CBO's residual) | 0.00 | $1,000 (1e-6 billion) | — |
+| ID-1 | Deficit equals outlays minus revenue, every year and scenario | **pass** | 3.64e-12 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion): floating-point error only | — |
+| ID-2 | The program's added debt grows by exactly its added deficit (spending, revenue and interest) | **pass** | 3.64e-11 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
+| ID-3 | Debt held by the public: the residual after deficits is CBO's own other means of financing, in every scenario | **pass** | 7.64e-11 ($B, largest gap from CBO's residual) | 0.00 | $1,000 (1e-6 billion) | — |
 | ID-4a | Interest on the program's borrowing follows from its debt and the stated rates | **pass** | 0.00 ($B, largest gap) | 0.00 | $1,000 (1e-6 billion) | — |
 | ID-4b | The baseline's net interest is consistent with its debt and CBO's average interest rate | **pass** | 0.10 (points, largest gap (implied minus CBO)) | 0.00 | 0.25 percentage point in every year FY2027-36 | — |
 | ID-5 | Nominal equals real times the deflator, and share of GDP times GDP (B2's two conversions) | **pass** | 2.07e-16 (largest relative error) | 0.00 | relative error 1e-12 | — |
@@ -73,7 +73,7 @@ The budget model projects the whole federal budget, year by year from FY2026 to 
 | TF-2 | Medicare Hospital Insurance: current law | **pass** | depletion 2033, 89% payable, balance -0.56% | depletion 2033, 89% payable, balance -0.56% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | — |
 | TF-3 | SSA's own scores of seven Social Security provisions, rebuilt by the engine | **pass** | -0.02 (points, largest gap) | 0.00 | 0.05 point of taxable payroll for each provision | — |
 
-Unknown fields in the 174 provision specs the model scores (B3, `provisions.md`): vehicle 14, appropriation type 9, budget authority 15. The growth index is the model's own assumption, not the law's, for 166 rows, and the end year for 147.
+Unknown fields in the 183 provision specs the model scores (B3, `provisions.md`): vehicle 14, appropriation type 9, budget authority 15. The growth index is the model's own assumption, not the law's, for 174 rows, and the end year for 156.
 <!-- generated:results:end -->
 
 **What the groups test.**
@@ -142,6 +142,7 @@ What the benchmarks do support now: the baseline (BL-1), the accounting identiti
 - **FY2029 is only partly priced.** Every total and test runs FY2030-39, but the plan starts in January 2029. Since B6, FY2029 is a separate, disclosed line read on the debt path as scenario DEC+FY29 (`ASM-FY2029-LINE`, `models/data/inputs/fiscal-fy2029.csv`): CAP-7S's $5 billion is priced, moved from FY2030 as Espen decided on October 26; FAM-1's and MOV-29's FY2029 effects are listed as unpriced, not zero. Each bill is also scored in its own CBO window, R1 over FY2029-38 (`ASM-BILL-WINDOW`; `provisions.md`).
 - **The cautious reading is disclosed, not tested.** The tests use each row's midpoint (`ASM-CALIB-MID`). Since B6 the ledger's high-cost and low-revenue ends reach the model as scenario DEC-CAUT, reported beside the D4 tests with the one-point stress case (DEC-R1), neither with a pass-or-fail condition (choices 2 and 4; `ASM-CALIB-CAUTIOUS`). Taking every high end at once is a bound, not a likely outcome: it adds $12.24 trillion to the FY2030-39 general-fund deficit.
 - **Interest rates don't respond to the plan's borrowing** (`ASM-RATE-NOFEEDBACK`).
+- **Social Security's reserve investment (SS-8.01) is recorded at zero.** The recovery budget's central case carries the decided package with SS-7.01's one-point fallback on its expected path, 2037-46 (`ASM-SS-FALLBACK`, `DEC-2026-11-12-13`). How the budget should record the trust funds' stock purchases is not settled, so SS-8's yield (about +0.05 to +0.2% of payroll on the trust funds) and its purchases are left out. The caregiver credit (SS-B4.01) is not on the fund engine yet either.
 - **Rows CBO's baseline already contains read $0.** Defense is the visible case: NSC-1A reads $0 against CBO's baseline (`CONVENTIONS.md`, section 1; the defense memo).
 
 **Carried from earlier pieces.**
