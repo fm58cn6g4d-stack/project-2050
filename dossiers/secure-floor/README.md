@@ -1,6 +1,6 @@
 # Dossier: A secure floor for every household (flagship 1)
 
-Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage D (board rows S1 to S4). Sections 1 and 2 are drafted, with the legacy research restated; section 3's seven memos and twelve points are **decided** (`DEC-2026-11-12-06`): every memo and point as recommended except the $2,200 floor (point 2), which Espen declined; sections 4-6 specify and price the decided set (row S4, PR 1), sections 7-9 in PR 2. Level: the decided items are at **L2** (`agenda/agenda.csv`); L3 after sections 7-9 and the milestone review. Headline: about **$2.47 trillion over FY2030-39 and $284 billion in FY2040** on the general fund, of which $2.0 trillion is booked (FAM-1, LAB-10); paid leave and Social Security are fund-financed (`6-cost.md`).
+Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage D (board rows S1 to S4). Sections 1 and 2 are drafted, with the legacy research restated; section 3's seven memos and twelve points are **decided** (`DEC-2026-11-12-06`): every memo and point as recommended except the $2,200 floor (point 2), which Espen declined; sections 4-6 specify and price the decided set (row S4, PR 1), sections 7-9 in PR 2. Level: the decided items are at **L2** (`agenda/agenda.csv`); L3 after the milestone review's fix steps (`review-milestone.md`, #298) and its re-check. Headline: about **$2.47 trillion over FY2030-39 and $284 billion in FY2040** on the general fund, of which $2.0 trillion is booked (FAM-1, LAB-10); paid leave and Social Security are fund-financed (`6-cost.md`).
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly):
 - a monthly child benefit;
@@ -107,7 +107,7 @@ From `dossiers/shared-rules.md`; this dossier proposes answers in section 3 and 
 | Rental help | Housing (`dossiers/home/4-specification.md`, rules 1 and 2) | Rent is 30% of adjusted income; refundable credits are not income (26 U.S.C. 6409) | Decides whether paid leave, Social Security increases and any cash benefit outside the tax code count for rent; sets the ceiling with housing in it |
 | Health coverage | Care, part A (`DEC-2026-11-10-09`, `-11`) | Single-payer by 2035; the premium credits and Medicaid lines fall away at the endpoint | Counts the health layers in the phase-out map for 2029-34, when they still bind |
 | The minimum wage, unemployment insurance, support when jobs change | Work (flagship 5); AI-4 (`agenda/ai`) | Nothing decided | Leaves them there; maps unemployment insurance as part of the floor in section 1 |
-| Financing | Fair financing (Codex) | D3 and D4 (OUT-11) | Designs no taxes. SS-1, SS-2 and SS-5 are Social Security's own financing and FAM-3's contribution is the leave fund's: this dossier describes them, and the settlement weighs them |
+| Financing | Fair financing (Claude, `DEC-2026-11-11-07`) | D3 and D4 (OUT-11) | Designs no taxes. SS-1, SS-2 and SS-5 are Social Security's own financing and FAM-3's contribution is the leave fund's: this dossier describes them, and the settlement weighs them |
 | Delivery | Democratic renewal (rule 5; CAP-7) | Nothing decided | States what the IRS and SSA need |
 
 ## What S3 needs from the household model

@@ -125,7 +125,7 @@
   "decisions": [
    "DEC-2026-11-12-06"
   ],
-  "parameters": "The payee is the parent or caregiver with whom the child has the same principal home for more than half of the month, as the bill's monthly residence test provides, on that person's attestation. Shared custody of about equal time: the benefit splits evenly. A change of payee when a child moves takes one statement, effective the next month. A dispute goes to a short administrative review by the IRS (FAM-1.10's front doors take the statement), not a tax audit; the payee keeps the payment until the review decides",
+  "parameters": "The payee is the parent or caregiver with whom the child has the same principal home for more than half of the month, as the bill's monthly residence test provides, on that person's attestation. Shared custody of about equal time: the benefit splits evenly. A change of payee when a child moves takes one statement, effective the next month. A dispute goes to a short administrative review by the IRS (FAM-1.10's front doors take the statement), not a tax audit; the payee keeps the payment until the review decides. *Except for safety:* a claimant who states that they left the other parent's home with the child because of abuse becomes the payee from the next month, the other parent bearing the burden of a dispute, and the claimant's address never appears on the other parent's notice (working choice)",
   "eligibility": "",
   "vehicle": [
    {
@@ -720,7 +720,7 @@
   "id": "FAM-3.04",
   "title": "The contribution and the fund",
   "agenda": "FAM-3",
-  "status": "decided, memo 5 B; Espen, October 26",
+  "status": "decided, memo 5 B: the 0.6% start and the 1.10% ceiling, the ceiling Espen's of October 26; the 0.05-point step is a legacy working choice, ASM-FUND-LEAVE",
   "decisions": [
    "DEC-2026-11-12-06"
   ],
@@ -994,7 +994,7 @@
   "decisions": [
    "DEC-2026-11-12-06"
   ],
-  "parameters": "Up to five years of care for a child under 6 or a dependent relative, at least 960 hours a year, credited at half the average wage. The credit **tops up actual earnings** to that level; paid care hours (Medicaid's, or the long-term care benefit's from 2035, HLT-9.05) count as earnings and never toward the credit, so no care is credited twice. Judgment −0.1 to −0.2. If SSA's score is far higher, the dropout-year design (−0.06 a year dropped) replaces it, as memo 6 provides",
+  "parameters": "Up to five years of care for a child under 6 or a dependent relative, at least 960 hours a year, credited at half the average wage. The credit **tops up actual earnings** to that level; paid care hours (Medicaid's, or the long-term care benefit's from 2035, HLT-9.05) count as earnings and never toward the credit, so no care is credited twice. Care years are certified on the worker's own statement, checked against records SSA already holds of the child's or relative's age and, for paid care, the care benefit's records; no hour log is kept (working choice). Judgment −0.1 to −0.2. If SSA's score is far higher, the dropout-year design (−0.06 a year dropped) replaces it, as memo 6 provides",
   "eligibility": "",
   "vehicle": [
    {
@@ -1134,7 +1134,7 @@
   "decisions": [
    "DEC-2026-11-12-06"
   ],
-  "parameters": "For the household model's typical families (a single parent of two, a married couple with two, a single adult) at 50% to 300% of poverty, the combined rate from every federal layer, taxes included, stays at or below 65 cents per added dollar; housing's 30% rent rule is outside it. *Design rules:* no plan benefit adds a phase-out below 200% of poverty; INC-5.01; one income finding reused across programs (INC-5.03); benefits held for a set period after a raise. *Monitoring:* the household model publishes the distribution each year; a family type above the ceiling for two years triggers a review by the owning dossiers. No statutory cap and no new calculation for families",
+  "parameters": "For the household model's typical families (a single parent of two, a married couple with two, a single adult) at 50% to 300% of poverty, the combined rate from every federal layer, taxes included, stays at or below 65 cents per added dollar; housing's 30% rent rule is outside it. *Design rules:* no plan benefit adds a phase-out below 200% of poverty beyond the childless earned income credit's (INC-1.01), which memo 7 counted; INC-5.01; one income finding reused across programs (INC-5.03); benefits held for a set period after a raise. *Monitoring:* the household model publishes the distribution each year; a family type above the ceiling for two years triggers a review by the owning dossiers. No statutory cap and no new calculation for families",
   "eligibility": "",
   "vehicle": [
    {
