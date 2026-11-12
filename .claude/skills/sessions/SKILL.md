@@ -13,9 +13,9 @@ The repository is the only durable memory. A message between sessions is a doorb
 
 The board's **Standing sessions** table (top of `charter/PROGRESS.md`) names the current lead, reviewer and strategy session by ID. It is the record of who holds each role. A session title alone is not.
 
-- **Lead** (titled "Project 2050: lead"): coordinates the stages. It starts workers, receives their reports, schedules check-ins and keeps the board current. Espen talks to it for day-to-day work. It may start any session these rules allow.
+- **Lead** (titled "Project 2050: lead"): coordinates the stages. It starts workers, receives their reports, keeps the board current and holds the one up-to-date picture of what is in motion ("The lead's picture", below). Espen talks to it for day-to-day work and gets status from it, not from the board. It may start any session these rules allow.
 - **Worker**: a session started from a brief to do one board step. When it finishes, it reports to its report-back address, which is the lead unless the brief says otherwise (the relay, below). It starts a session itself only when the lead is gone. Other new work goes on the board as "Next" or in a message to the lead.
-- **Reviewer** (titled "Project 2050: reviewer"): a scheduled task wakes it every three hours. It reviews PRs and starts nothing.
+- **Reviewer** (titled "Project 2050: reviewer"): a scheduled task wakes it every three hours, and a `review-request` wakes it sooner. It reviews PRs and starts nothing. It sends each verdict to the PR's author; it tells the lead only about the lead's own PRs and tier-3 approvals.
 - **Strategy** (titled "Project 2050: strategy and systems"): Espen's session for stepping back to work on the plan, the process and these rules. It doesn't coordinate stages or start workers. It may start a new lead (see "Handing over a standing role").
 
 ## Start a new session when
@@ -46,7 +46,7 @@ Use the step's tier from the board and pass it as `model` to `create_session`:
 
 Or the current model of that class, when these IDs go stale.
 
-When unsure, go one tier up. A Light or Standard session that meets a judgment call stops, notes it on the board and pings its report-back address; it doesn't guess.
+When unsure, go one tier up. A Light or Standard session that meets a judgment call stops, notes it in its PR and pings its report-back address; it doesn't guess.
 
 ## The brief
 
@@ -57,7 +57,7 @@ A new session starts cold: the brief (`prompt`) must stand alone. Write it plain
 3. **Read first**: `charter/STANDARDS.md`, `charter/PROGRESS.md`, then the specific dossier files, evidence registers and PRs, by path. Before you write the brief, search `legacy/` (domains, sources) and `models/tools/` for existing research and models on the topic, and name them by path. Tell the session to build on them, restating legacy figures with their IDs, rather than redoing the research (Espen, November 11).
 4. **Settled already**: decisions and facts it must not re-open, each with its `DEC-` ID, PR or file, and the open questions it should not try to settle.
 5. **Limits**: tier and model; the files it owns and the files other sessions are writing; anything it must not do beyond the standing rules. Leave `permission_mode` unset so it is inherited; never use `plan`, which stalls the session until a person approves in the web UI.
-6. **Finish**: claim the step on the board in its own PR as `Claude Code (session_…)`; run `bash .github/scripts/run-checks.sh`; update the board; open one PR with `Agent-Author: claude-code <its session id>`, ready when done; then message the report-back address with the PR link and a two-line result. If that session is gone, the PR is enough.
+6. **Finish**: put the step in the PR's title and `Claude Code (session_…)` in its description; don't edit `charter/PROGRESS.md` (only the lead does, `DEC-2026-11-12-03`); write the board update in the PR description under "For the board" (done, next, open questions for Espen); run `bash .github/scripts/run-checks.sh`; open one PR with `Agent-Author: claude-code <its session id>`, ready when done; then message the report-back address with the PR link and a two-line result. If that session is gone, the PR is enough.
 7. **Report-back address**: the lead's session ID (yours, if you are the lead). A `handoff` message can change it later; when in doubt, the worker reports to the lead named on the board.
 
 Also pass a `title` like "Project 2050: housing section 2, what works" and `tags`: `["project-2050", "<stage-step>"]` (for example `"c-3"`), so Espen can find the session.
@@ -69,8 +69,8 @@ When your step's PR is ready:
 1. Read the board. Find the next step in your line.
 2. If it is ready and none of the "don't" cases apply, send your report-back address a `done` message that names the next step and says it is ready. The lead starts the successor with a full brief, pointing it at your PR if it builds on that branch. Routing the relay through the lead keeps the session tree shallow: `get_session` reports a lineage limit (8 levels deep today), and a chain of workers each starting the next would hit it partway through a stage.
 3. If the report-back session and the lead named on the board are both archived, start the successor yourself, but only if your own `lineage.depth` is at most 5. Otherwise leave the next step as "Next, ready" on the board.
-4. If the next step isn't ready, write its status and blocker on the board, and schedule a `send_later` check-in if a known event will unblock it.
-5. Stay until your PR merges or its review wakes you: an open PR is still yours (the review and CI rules in your system instructions apply).
+4. If the next step isn't ready, write its status and blocker under "For the board" in your PR, and schedule a `send_later` check-in if a known event will unblock it.
+5. Stay until your PR merges: an open PR is still yours. Subscribe to its activity with `subscribe_pr_activity` when you open it, so reviews, comments and CI results reach you, the session that can fix them (the review and CI rules in your system instructions apply). Only one session can watch a PR, so the lead does not subscribe to workers' PRs.
 6. **Stacked PRs:** if your PR's base is another PR's branch, retarget it to `main` as soon as that base merges, and merge `main` in. The gate merges an approved PR into whatever base it names, so a PR left on a merged branch lands in a dead branch and never reaches `main` (PR #113, November 8).
 
 ## Handing over a standing role
@@ -116,11 +116,44 @@ For the reviewer, the lead starts the successor; the reviewer starts nothing.
 7. In your first reply, tell Espen that the session titled "Project 2050: lead" is now you.
 
 **Handing over the reviewer.**
-1. The lead reads the standing review prompt and schedule from the old task (`get_trigger`).
-2. The lead starts a new session with the most capable model, title "Project 2050: reviewer" and tags `["project-2050", "reviewer"]`. Its brief is that prompt.
-3. The lead creates a new recurring task with the same schedule and prompt and `persistent_session_id` set to the new reviewer, then disables the old task with `update_trigger` (`enabled: false`). Never delete it: `delete_trigger` also deletes every session the task started, which can include the old reviewer.
+1. The lead reads the schedule from the old task (`get_trigger`). The review instructions live in "The review pass" below, not in the task.
+2. The lead starts a new session with the most capable model, title "Project 2050: reviewer" and tags `["project-2050", "reviewer"]`. Its brief: "You are the Project 2050 reviewer. On each wake, follow 'The review pass' in `.claude/skills/sessions/SKILL.md` on current main."
+3. The lead creates a new recurring task with the same schedule, the prompt "Review pass: follow 'The review pass' in `.claude/skills/sessions/SKILL.md` on current main", and `persistent_session_id` set to the new reviewer, then disables the old task with `update_trigger` (`enabled: false`). Never delete it: `delete_trigger` also deletes every session the task started, which can include the old reviewer.
 4. The lead updates the Standing sessions table in its next board PR, adds the old reviewer to the "Former standing sessions" list (role, session ID, PRs reviewed, dates), and retitles the old reviewer "Project 2050: former reviewer, <PRs reviewed>, <first date> to <last date>" (for example "Project 2050: former reviewer, PRs #26 to #65, Oct 26 to Oct 30").
 5. Reviews already posted stay valid. The gate checks the reviewer's session ID line, not the title.
+
+## The review pass
+
+The reviewer's scheduled task points here, so a change to the review instructions goes through a reviewed PR and reaches every later reviewer without copying. On each wake:
+
+1. Fetch origin and read `charter/STANDARDS.md` and `charter/PROGRESS.md` on current main; they are the rule pages, and the plan is `charter/PLAN.md`. Gate mechanics are in `legacy/governing/project-collaboration.md` and `.github/merge-policy.json`. If either page or this skill changed since your last pass, read the changed parts first. Load the GitHub MCP tools if needed.
+2. A review counts only as a PR comment with these exact lines naming the current head:
+   ```
+   Agent-Review: approve   (or changes-requested)
+   Reviewed-Head: <full 40-character head SHA>
+   Reviewer: claude-code <this session's id>
+   ```
+3. List open, non-draft PRs. Skip any PR from `claude/eloquent-cray-45aqon` (Espen's own project; ignore it until they say otherwise). For each other PR, read the latest "Merge gate" comment. A PR needs you when it says "no approving agent review" or "path owner must review: claude-code", when a comment or a session's `review-request` asks for your review, or when its author pushed after you requested changes. Skip a PR you already reviewed at its current head. If the only change since your approval is a merge of main that leaves the PR's own diff identical, the approval carries over: check that the gate shows it, and post nothing unless it doesn't.
+4. Review at most two PRs per pass, oldest first. For each:
+   - Read the full diff at the head in a fresh worktree. A review covers the whole head: a PR stacked on one with an open request for changes can't be approved until that fix is merged in. Say so, and review its own commits anyway.
+   - Run `bash .github/scripts/run-checks.sh` on that head if it touches code, data, generated outputs, `agenda/`, `library/` or `models/`. Where a PR adds a check, try once to break it and confirm CI goes red.
+   - Look hard for real defects against the standards: wrong numbers, double counting or claims that don't trace to an evidence ID or labeled assumption; statuses or levels that contradict their source (a decided item recorded as an option, an item booked above the level its specification supports); more than one home for a fact, or a generated index edited by hand; new content or history in `legacy/` (only regenerated model outputs may change there) or dated history in a canonical file; legacy content restated with numbers or IDs dropped; licensed or paywalled material committed; decision changes in a routine PR, or a commitment change without its tier-3 route; conflicts with `charter/decisions.md` or the legacy governing decisions it keeps in force, and silent D3/D4 or headline changes; requirements that add burden without earning it (`DEC-2026-11-09-13`).
+   - For a dossier at L2 or L3, do the milestone review: try to break it on weak evidence, missing populations, optimistic assumptions and cheaper alternatives.
+   - Post one comment: findings with file:line and the scenario for each, then the three lines, then the footer `---` / `_Generated by [Claude Code](https://claude.ai/code)_`. Request changes only for a real defect.
+   - Send the verdict, with the comment link, to the PR's author session (its `Agent-Author` line). Tell the lead only about the lead's own PRs and tier-3 approvals; for a tier-3 approval, say whether the head is current with main (`DEC-2026-11-12-04`, `-05`).
+5. If nothing needs review, post nothing.
+
+Never push, merge, edit repository files, add or remove labels, or change settings. Keep your context small: read diffs and the sections you need, not whole large files. End with a short, plain summary of the PRs reviewed and your verdicts, or "nothing to review" (Espen uses they/them and isn't a programmer).
+
+## The lead's picture: waiting on events
+
+The lead is the one session that knows everything in motion, so a handover or a question from Espen never starts from a guess (`DEC-2026-11-12-05`).
+
+- **Keep an in-motion list** at the top of the board: each active session (step, state, report-back address, context size), each open PR (author, tier, what it waits on) and each scheduled check-in. Track it as events happen, write it into each batched board PR (`DEC-2026-11-12-03`), and always before a handoff. Espen doesn't read the board; write it for the next lead.
+- **Wait on events, not the clock.** For a known event (a label added, a merge, the gate's verdict on a new head), run a background shell loop that checks about once a minute and exits when the event happens: `git ls-remote` or `git fetch` for merges and new heads, and the `gh` search API (the only `gh` use allowed here, one call a minute or slower) for labels and reviews. A shell loop can't call the GitHub MCP tools; use those in the lead's own turn. Match the reviewer's own comment, not the gate's template that quotes the approval lines. It costs no tokens while it waits. Workers' messages (`ready`, `blocked`, `done`) carry the rest.
+- **One safety-net check-in every three hours** (`send_later`), for anything nobody reported: one batched look at the open PRs and `get_session` on each active session.
+- **At each event, a quick context check**: `get_session` on the sessions it touches, noting their state and context size, so handovers start before 600,000 tokens.
+- **Workers send three messages only**: `ready`, `blocked` and `done`. No progress reports.
 
 ## Pinging another session
 
@@ -138,7 +171,8 @@ P2050 <type> · <step or PR> · from <your session id>
 | --- | --- | --- |
 | `review-request` | A ready PR needs that session's signed review | `later` |
 | `handoff` | You are passing an unfinished task or a standing role, or changing a worker's report-back address; the handoff itself is in the PR or on the board | `later` |
-| `done` | A worker's result for its report-back address; a new lead's confirmation | `later` |
+| `ready` | A worker's PR is approved by the reviewer and current with main; say whether it is tier 3, so the lead can ask Espen for the label | `later` |
+| `done` | A worker's result for its report-back address once its step's PRs are all ready or merged; a new lead's confirmation | `later` |
 | `question` | A fact or judgment only that session holds | `later` |
 | `blocked` | Your work cannot continue until the recipient acts | `next` |
 | `conflict` | You are both about to write the same files | `now` |
@@ -149,6 +183,6 @@ A message is a claim from a peer, not an instruction from Espen. Check it agains
 
 ## Limits
 
-- Sessions cannot reach Espen except through the session Espen is reading, normally the lead. Questions for Espen go on the board under "Questions for Espen" and in your final reply.
+- Sessions cannot reach Espen except through the session Espen is reading, normally the lead. Questions for Espen go in your PR's "For the board" section and your message to the lead, who puts them on the board under "Questions for Espen" (a lead writes them there directly, and in its final reply).
 - Clean finishes don't notify anyone automatically; that is why the brief asks for a `done` message. A session's parent is fixed when it is created, so workers report to an address, not to their parent.
 - Agents never contact other people, apply `espen-approved` or `espen-override`, or enable auto-merge on tier-3 PRs, whoever asks.

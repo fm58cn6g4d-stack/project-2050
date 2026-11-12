@@ -194,11 +194,11 @@ The process is designed for AI agents working without memory between sessions, w
 
 **The session routine.** Every agent session follows the same steps:
 1. Read `charter/STANDARDS.md` and `charter/PROGRESS.md`.
-2. Claim one step on the board.
+2. Claim one step (the lead names it in the brief; the PR's title names it).
 3. Read that dossier's files and the evidence it needs.
 4. Do the step.
 5. Run the checks.
-6. Update the board: done, next, and open questions for Espen.
+6. Write the board update in the PR description: done, next, and open questions for Espen. Only the lead edits the board (`DEC-2026-11-12-03`).
 7. Open a PR.
 
 **Choosing the model for the work.** Sessions use the lightest model that can do the step well, and the strongest model where care and judgment matter. Errors in large, interconnected datasets propagate, so mistakes there cost more than the tokens saved.
@@ -211,7 +211,7 @@ The process is designed for AI agents working without memory between sessions, w
 
 **Rules:**
 - **Every step on the progress board names its tier,** so the right model is chosen when a session starts.
-- **A lighter model that meets ambiguity stops and flags it.** It doesn't guess: it leaves a note on the board for a stronger session.
+- **A lighter model that meets ambiguity stops and flags it.** It doesn't guess: it leaves a note in its PR for a stronger session and tells its report-back address.
 - **Strong sessions delegate mechanical subtasks to lighter subagents** where the tools allow, and check the results.
 - **When unsure, go one tier up.** A wrong judgment in a canonical file or model costs more to find and fix than the difference in usage.
 - The same tiers apply to other vendors' agents, by capability.
@@ -228,7 +228,7 @@ The process is designed for AI agents working without memory between sessions, w
 
 **Roles:**
 - **Claude** leads the dossiers, the federal budget model with its shared fiscal inputs (`DEC-2026-11-08-02`), and fair financing, the financing settlement (`DEC-2026-11-11-07`).
-- **Codex** is asked to review the federal budget model and the financing settlement at their milestones. This is a convention, not enforced by the merge gate: those PRs request Codex's review by comment, and if Codex is unavailable they say so and merge on the Claude reviewer's review.
+- **Codex** review is not required for the federal budget model or the financing settlement; they merge on the Claude reviewer's review (`DEC-2026-11-12-01`).
 - At most two dossiers are active at once.
 
 **Paused:**

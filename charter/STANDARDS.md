@@ -26,15 +26,16 @@ The legacy model suite still writes its generated reports into `legacy/index/` a
 - Rely on checks, not memory: `bash .github/scripts/run-checks.sh` runs the full rebuild, drift check and tests.
 - Licensed or paywalled material is cited and briefly quoted, never committed: the repository is public.
 - **Sources and evidence** (`DEC-2026-10-28-07`). Any credible source may be used, government or not; its rights decide how it enters the library (`library/README.md`). Every evidence entry says whether it is data (a measured fact) or analysis (an interpretation: causes, effects, projections, models). Grade by the kind of evidence, not the publisher: an agency's causal account is analysis. Record who published an analysis, when and with what stake; check a report's headline against its own numbers; and rely on an analysis only once an independent publisher supports or qualifies it, presenting both views where one contests it. Executive-branch sources (agencies, the White House Council of Economic Advisers, OMB, executive orders) carry the administration that produced them. Their analysis gets skepticism in proportion to the administration's record of politicized analysis: most for the second Trump administration (2025 on), which has staffed for loyalty first, then the first Trump administration, with Obama- and Biden-era analysis checked as usual, and more where warranted (`DEC-2026-10-30-01`). The registry checker checks each entry's data-or-analysis label, its grade and its corroboration links; the rest of the method is in `dossiers/TEMPLATE.md`.
+- **Web search.** When Firecrawl is unavailable or out of credits, switch to Exa or another web search and fetch tool and carry on; don't stop or wait for Firecrawl. Espen is not buying more Firecrawl usage (`DEC-2026-11-12-02`).
 - Espen's Google Drive is not a project source; do not search it for project work.
 
 **Session routine.**
 1. Read this page and `charter/PROGRESS.md`. Check open PRs.
-2. Claim one step on the board (in your PR, opened early as a draft if the step is long).
+2. Claim one step: the lead names it in your brief. Open your PR early, as a draft if the step is long, with the step in its title.
 3. Read that dossier's files and the evidence it needs.
 4. Do the step. One dossier step per session.
 5. Run the checks.
-6. Update the board: done, next, and open questions for Espen.
+6. Write the board update in your PR description, under "For the board": done, next, and open questions for Espen. Only the lead edits `charter/PROGRESS.md`, folding these in a few times a day; a worker edits it only when no lead is live (`DEC-2026-11-12-03`).
 7. Open one coherent PR and mark it ready when done.
 
 **Choosing the model for the work.** Use the lightest model that can do the step well, and the strongest where care and judgment matter: errors in large, interconnected datasets propagate, so mistakes there cost more than the tokens saved.
@@ -46,7 +47,7 @@ The legacy model suite still writes its generated reports into `legacy/index/` a
 | **Most capable** (Opus-class) | Strategy, design, synthesis, and work where an error would spread | Design choices and decision memos; dossier problem, design and specification sections; reconciling conflicting evidence; model design and integrating the household, health and budget models; adversarial milestone reviews; legal and constitutional analysis; public briefs |
 
 - Every step on `charter/PROGRESS.md` names its tier.
-- A lighter model that meets ambiguity stops and leaves a note on the board for a stronger session; it doesn't guess.
+- A lighter model that meets ambiguity stops and leaves a note in its PR for a stronger session, and tells its report-back address; it doesn't guess.
 - Strong sessions delegate mechanical subtasks to lighter subagents where the tools allow, and check the results.
 - When unsure, go one tier up. The same tiers apply to other vendors' agents, by capability.
 
@@ -54,6 +55,7 @@ The legacy model suite still writes its generated reports into `legacy/index/` a
 - **Routine** (gate tiers 1–2): research, evidence, library, models, dossier drafts, the board, and public pages that change no commitment. These merge once checks pass and another agent has reviewed the current head.
 - **Decisions** (tier 3): the charter, the flagship list, adopted model inputs (`models/data/inputs/`), design choices at real forks, new or removed programs, the merge rules and entry files (`.github/`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`), and anything labeled `needs-espen`. These merge only after Espen adds `espen-approved` themselves. Agents never apply `espen-approved` or `espen-override` and never enable auto-merge on a tier-3 PR.
 - Keep routine and decision changes in separate PRs.
+- Ask Espen for `espen-approved` only when the PR's head is final, current with main and approved by the reviewer. A push with new content drops the label (`DEC-2026-11-12-04`).
 - Every PR description carries `Agent-Author: <claude-code|codex|gemini> <session id>`. A reviewing agent reads the diff at the head and comments `Agent-Review: approve` (or `changes-requested`), `Reviewed-Head: <full SHA>` and `Reviewer: <agent> <session id>`.
 
 **Milestone review.** A second agent reviews each dossier against the checklist at L2 and again at L3, trying to break it: weak evidence, missing populations, optimistic assumptions, cheaper alternatives. At each stage boundary Espen holds a short strategic review.
@@ -68,4 +70,4 @@ The legacy model suite still writes its generated reports into `legacy/index/` a
 
 **Sessions and handoffs.** A Claude Code session starts another session only to take a ready board step, to run independent work in parallel, to run a large batch at a better-suited tier, or for an independent review. It never starts one for a small subtask, for work a live session already holds, or for a step that waits on Espen. At most three Claude sessions work at once. Each new session gets a standalone brief and reports back when its PR is ready. Messages between sessions only alert another session to work: whatever the other session must know goes in the PR, on the board or in the dossier. Reach Codex with a PR comment. The mechanics are in `.claude/skills/sessions/SKILL.md`.
 
-**Roles.** Claude leads the dossiers, the federal budget model with its shared fiscal inputs (`DEC-2026-11-08-02`) and fair financing, the financing settlement (`DEC-2026-11-11-07`); changing adopted inputs in `models/data/inputs/` stays Espen's decision. Codex is asked, by PR comment, to review the budget model and the financing settlement at their milestones. That is a convention, not a gate rule: if Codex is unavailable, the PR says so and merges on the Claude reviewer's review. At most two dossiers are active at once.
+**Roles.** Claude leads the dossiers, the federal budget model with its shared fiscal inputs (`DEC-2026-11-08-02`) and fair financing, the financing settlement (`DEC-2026-11-11-07`); changing adopted inputs in `models/data/inputs/` stays Espen's decision. Codex review is not required for the budget model or the financing settlement: they merge on the Claude reviewer's review, like other work (`DEC-2026-11-12-01`). At most two dossiers are active at once.
