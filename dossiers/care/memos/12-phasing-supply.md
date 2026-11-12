@@ -1,6 +1,6 @@
 # Memo 12: How fast, and how supply is built
 
-Role: decision memo for Espen, fork 12 of the care dossier (part C; `../3c-design-child-care.md`). Status: **for Espen, not decided.** Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions.
+Role: decision memo for Espen, fork 12 of the care dossier (part C; `../3c-design-child-care.md`). Status: **decided by Espen, November 11, 2026: A, as recommended** (`DEC-2026-11-11-03`). Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions.
 
 **This memo decides when families can count on the guarantee (memo 10) and pre-K (memo 11), and how providers are paid so that slots exist when they do.** Workers' pay, the deepest supply constraint, is part D's. This memo's payment rules decide whether the money reaches the slots.
 

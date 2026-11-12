@@ -1,6 +1,6 @@
 # Memo 13: Who runs it, and Head Start's place
 
-Role: decision memo for Espen, fork 13 of the care dossier (part C; `../3c-design-child-care.md`). Status: **for Espen, not decided.** Sources are named in plain text; bracketed tags point to `../evidence.json`.
+Role: decision memo for Espen, fork 13 of the care dossier (part C; `../3c-design-child-care.md`). Status: **decided by Espen, November 11, 2026: A, as recommended** (`DEC-2026-11-11-03`). Sources are named in plain text; bracketed tags point to `../evidence.json`.
 
 **This memo decides which government runs the guarantee and pre-K, what happens in a state that declines, and what becomes of Head Start.** Section 5 (delivery) builds on the answer.
 

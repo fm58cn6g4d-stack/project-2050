@@ -10,16 +10,16 @@ Role: section 9 of the care dossier for parts B, C and D: a plain-language brief
 
 **The plan.**
 - *Long-term care.* From January 2035, help at home and the care part of nursing-home stays become part of the single public health plan, for anyone of any age who needs help with three daily activities or has a serious cognitive impairment. There is no asset test and no estate recovery. Everyone already getting Medicaid help at home keeps it. Before then, a five-year bridge from 2030 gives states more money for home care, tied to shorter waits.
-- *Child care and pre-K.* From the 2030-31 school year, child care is free for families at or below 85% of their state's median income, and pre-K is free for 4-year-olds. From July 2032 no family pays more than 7% of its income for child care, with no income limit. By 2033-34 pre-K is free for every 3-year-old too.
+- *Child care and pre-K.* For every child in every state and territory: from the 2030-31 school year, child care is free for families at or below 85% of their state's median income, and pre-K is free for 4-year-olds. From July 2032 no family pays more than 7% of its income for child care, with no income limit. By 2033-34 pre-K is free for every 3-year-old too.
 - *Care workers.* From January 2030, home care and nursing home workers paid with public money earn at least $20 an hour in 2026 dollars, rising with wages; child care and pre-K staff get the same floor from the 2030-31 school year. Early educators reach pay parity with elementary teachers by the 2036-37 school year. Nursing homes have a registered nurse on site around the clock from 2031.
 
-**What it costs.** On our estimates, about $3.5 trillion over fiscal years 2030-39 and about $730 billion in 2040, about 1.3% of the economy. About $580 billion of that 2040 figure is new beyond what the plan's budget already counts (section 6). Most of it replaces what families now pay themselves or give in unpaid care. States keep paying a share: half of what they spend on long-term care today, and a fifth of child care's cost after three years. How the rest is paid is decided with the plan's other taxes.
+**What it costs.** On our estimates, about $3.5 trillion over fiscal years 2030-39 and about $730 billion in 2040, about 1.3% of the economy. About $580 billion of that 2040 figure is new beyond what the plan's budget already counts (section 6). Most of it replaces what families now pay themselves or give in unpaid care. States keep paying a share: half of what they spend on long-term care today, a fifth of child care's cost after three years, and their current pre-K spending plus a quarter of the rest (about $34 billion a year at maturity, against about $20 billion for child care). How the rest is paid is decided with the plan's other taxes.
 
 **What it protects.** From 2035, no one spends down their savings or loses their home to get long-term care, at home or in a nursing home. No family pays more than 7% of its income for child care. Relatives can still be paid for care wherever their state allows it today.
 
 ## The case in one paragraph
 
-Families carry the cost of care alone until they are poor enough for Medicaid. This plan changes that at both ends of life. From 2035, long-term care is part of the single public health plan, with no asset test, for anyone who needs real help with daily life. From 2030, child care becomes free for families at or below 85% of their state's median income, about half of families with young children on our estimates, and from 2032 it is capped at 7% of income for everyone else, and pre-K is free. The workers who give this care are paid at least $20 an hour. On our estimates it costs about $730 billion a year by 2040, much of it money families already spend. It is paid for with the plan's other taxes, and states keep paying their share.
+Families carry the cost of care alone until they are poor enough for Medicaid. This plan changes that at both ends of life. From 2035, long-term care is part of the single public health plan, with no asset test, for anyone who needs real help with daily life. From the 2030-31 school year, child care becomes free for families at or below 85% of their state's median income, about half of families with young children on our estimates, and from 2032 it is capped at 7% of income for everyone else, and pre-K is free. The workers who give this care are paid at least $20 an hour. On our estimates it costs about $730 billion a year by 2040, much of it money families already spend. It is paid for with the plan's other taxes, and states keep paying their share.
 
 ## Messages
 
@@ -66,6 +66,8 @@ Families carry the cost of care alone until they are poor enough for Medicaid. T
 | "Home care and nursing home workers paid with public money earn at least $20 an hour in 2026 dollars from January 2030; child care and pre-K staff from the 2030-31 school year" | "A $20 minimum wage": the floor covers publicly paid care only |
 | "Relatives can be paid wherever their state allows it today; a national decision follows a study" | "Pay any family caregiver, anywhere" |
 | "States pay half their current long-term care spending" | "States are off the hook" or "the federal government takes it all" |
+| "Children 5 to 12 keep today's child care block grant" | "Free after-school care": school-age care stays the block grant it is today |
+| "Every child under 5 in every state and territory" | — |
 | "A registered nurse on site around the clock from 2031" | "Safe staffing in every nursing home from 2030": the full standard starts in 2035 |
 
 ## Source table
@@ -90,4 +92,6 @@ Families carry the cost of care alone until they are poor enough for Medicaid. T
 | Free at or below 85% of state median income; 7% cap from July 2032; pre-K 4s 2030-31, 3s 2033-34 | Section 4, FAM-2.01-2.03 | `DEC-2026-11-11-03`; EV-CAR-580 |
 | $20 floor from January 2030 (home care and nursing homes) and from 2030-31 (child care and pre-K staff); parity by 2036-37; registered nurse around the clock from 2031, full standard 2035 | Section 4, HLT-10.01, FAM-2G.01, HLT-11 | `DEC-2026-11-11-04` |
 | $10,000 savings limit from 2030; estate recovery ends | Section 4, HLT-4.03, 4.04 | EV-CAR-478, EV-CAR-410 |
+| States pay about $34 billion a year toward pre-K and about $20 billion toward child care at maturity | Section 6, part 3 | Project arithmetic, `tools/care_repricing.py`; EV-CAR-519 |
+| School-age children keep the block grant; the territories on the states' terms | Section 4, FAM-2.04, FAM-2.07 | EV-CAR-700, EV-CAR-702 |
 | Relatives' evaluation by 2034; national decision after | Section 4, HLT-4.06, HLT-9.05 | `DEC-2026-11-11-02` (memo 9 E) |

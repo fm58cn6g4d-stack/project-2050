@@ -1,6 +1,6 @@
 # Memo 11: Pre-K for 3- and 4-year-olds
 
-Role: decision memo for Espen, fork 11 of the care dossier (part C; `../3c-design-child-care.md`). Status: **for Espen, not decided.** Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions; their basis is in `../3c-design-child-care.md`, "What the options cost".
+Role: decision memo for Espen, fork 11 of the care dossier (part C; `../3c-design-child-care.md`). Status: **decided by Espen, November 11, 2026: A, as recommended** (`DEC-2026-11-11-03`). Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions; their basis is in `../3c-design-child-care.md`, "What the options cost".
 
 **This memo decides whether the plan offers free pre-K, to whom, and how it relates to child care.** It assumes memo 10 decides child care for children under 5. Which dossier holds pre-K is a seam proposed in section 3 (care holds it; education holds K-12 and the transition).
 

@@ -1,6 +1,6 @@
 # Memo 9: Family caregivers
 
-Role: decision memo for Espen, fork 9 of the care dossier (part B, long-term care: support at home and in nursing homes for older and disabled people; `../3b-design-home-care.md`). Status: **for Espen, not decided**; revised after the independent audit (`../review-part-b-evidence.md`, section 4). It applies under each of memo 6's options: through the plan's benefit under B and C, and through Medicaid under A. Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions.
+Role: decision memo for Espen, fork 9 of the care dossier (part B, long-term care: support at home and in nursing homes for older and disabled people; `../3b-design-home-care.md`). Status: **decided by Espen, November 11, 2026: E, as recommended** (`DEC-2026-11-11-02`); revised after the independent audit (`../review-part-b-evidence.md`, section 4). It applies under each of memo 6's options: through the plan's benefit under B and C, and through Medicaid under A. Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions.
 
 **What changed after the audit: the recommendation, from A to E.**
 - *New option E* is the audit's lighter option: keep today's state options for paying relatives, add respite and training in 2030-34, evaluate paying spouses and parents nationally, then decide on going national, with the decision point in the 2029 law.
