@@ -1,6 +1,6 @@
 # Dossier: A new consensus on immigration (flagship 6)
 
-Role: the immigration flagship (`charter/PLAN.md` 3.1). Status: started, stage E (board rows I1 to I3, done). Sections 1 and 2 are drafted, with the legacy record restated; section 3, the memo set (`3-design.md`, `memos/`), is with Espen as board question 0p; nothing is decided. Level: every item is at L1 (`DEC-2026-10-30-03`). The legacy designs are working choices, weighed as options in I3, not decisions (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4. The plan specifies immigration "well before the 2028 cycle" (`charter/PLAN.md` 6, stage E), because "a new consensus can win only if it is presented and defended in full" (3.1).
+Role: the immigration flagship (`charter/PLAN.md` 3.1). Status: started, stage E (board rows I1 to I4). Sections 1 and 2 are drafted, with the legacy record restated; section 3's seven memos and fourteen points are **decided** (`DEC-2026-11-12-07`, question 0p): as recommended, except memo 5 (replace ICE with A's conduct rules in statute; mandatory E-Verify phased in at least a year after the status programs run, with B's labor enforcement) and points 1 and 7. Sections 4-9 are drafted on the decided set (row I4). Level: the decided items are at **L2** (`agenda/agenda.csv`); L3 after sections 7-9 and the milestone review. Headline: about **+$0.12 trillion over FY2030-39 (range about −$0.06 to +$0.34 trillion) and about +$15.4 billion in FY2040** on the general fund, against the booked IMM-1 row's −$0.14 trillion (`6-cost.md`); not booked. The target is L3, with priority pieces at L4. The plan specifies immigration "well before the 2028 cycle" (`charter/PLAN.md` 6, stage E), because "a new consensus can win only if it is presented and defended in full" (3.1).
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly): "A humane, orderly and lawful system: legal pathways and status for long-settled residents, fair and fast adjudication, enforcement that respects rights, integration and workforce."
 
@@ -55,8 +55,13 @@ The secure floor made the same choice for the same reason (`dossiers/secure-floo
 | 1. The problem | `1-problem.md`: the unauthorized and long-settled population; TPS, DACA and parole; the backlogs; the border and asylum; the courts; enforcement and detention; birthright citizenship; USCIS; the 2025-26 changes; the January 2029 baseline table; inherited assumptions traced | Draft (I2) |
 | 2. What works | `2-what-works.md`: past legalizations; the fiscal and labor-market evidence; asylum adjudication; representation; alternatives to detention; E-Verify; integration; Canada, Australia and Europe; the bills compared, each against the January 2029 law | Draft (I2) |
 | Legacy record | `legacy-research.md`: every legacy figure with its file and line, basis tag and whether it needs re-running on the 2029 baseline | Draft (I2) |
-| 3. Design choices | `3-design.md` and `memos/`: seven memos, fourteen yes-or-no points, IMM-1's score re-derived | Draft for decision (I3; question 0p) |
-| 4-9 | Specification, delivery, cost, validation, what would change our minds, public case | Later |
+| 3. Design choices | `3-design.md` and `memos/`: seven memos, fourteen yes-or-no points, IMM-1's score re-derived | Decided (`DEC-2026-11-12-07`) |
+| 4. Specification | `4-specification.md`, with `provisions.json` (IMM-1.01-1.36, IMM-2.01-2.12, IMM-3.01-3.12, IMM-4.01-4.18, IMM-5.01-5.05, IMM-6.01-6.07) | Draft (I4) |
+| 5. Delivery | `5-delivery.md` | Draft (I4) |
+| 6. Cost | `6-cost.md`, with `tools/immigration_model.py` (the first, scoped immigration model: USCIS, the courts and counsel, detention, status's fiscal effect; test `tools/test_immigration_model.py`) and `tools/immigration_path.py` (the fiscal-year path) | Draft (I4) |
+| 7. Validation | `7-validation.md` | Draft (I4) |
+| 8. What would change our minds | `8-change-our-minds.md` | Draft (I4) |
+| 9. The public case | `9-public-case.md` | Draft (I4) |
 
 ## Files and ID ranges
 
@@ -130,4 +135,6 @@ I3's memo set puts these to Espen as one batch. It follows the health memo set's
 
 ## Open questions for Espen
 
-Board question 0p: memos 1-7 and points 1-14 of `3-design.md`, one batch, each decided on its own.
+Question 0p is decided (`DEC-2026-11-12-07`). Two small questions come with the specification, each a choice the decision left to section 4 (`4-specification.md`, end):
+1. Registration's cutoff (IMM-1.04): recommended, the act's signature date; the alternative, a named period after it.
+2. E-Verify's start (IMM-4.13): recommended, a checked test with the first tranche at least a year after it (about October 1, 2032), and a one-time pause if wrong flags for lawful noncitizens pass 1%; the alternative, a fixed date.

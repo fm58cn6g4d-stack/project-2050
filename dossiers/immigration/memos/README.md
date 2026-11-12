@@ -1,6 +1,6 @@
 # Immigration: decision memos
 
-Role: index of the immigration flagship's decision memos, the batch Espen decides in one round (`dossiers/TEMPLATE.md`, "Decision memos in one batch"). Status: draft for decision (board row I3, question 0p); nothing is decided. Each memo is decided on its own, and none is adopted by silence. Section 3 (`../3-design.md`) has the forks at a glance, the cost benchmarks, IMM-1's re-derived score, the bill-by-bill table, the inherited assumptions and fourteen yes-or-no points.
+Role: index of the immigration flagship's decision memos, the batch Espen decides in one round (`dossiers/TEMPLATE.md`, "Decision memos in one batch"). Status: **decided** (`DEC-2026-11-12-07`, question 0p): as recommended, except memo 5 (part 1 B with A's rules; part 2 A with B's enforcement) and points 1 and 7. Specified in `../4-specification.md` and priced in `../6-cost.md`. Each memo is decided on its own, and none is adopted by silence. Section 3 (`../3-design.md`) has the forks at a glance, the cost benchmarks, IMM-1's re-derived score, the bill-by-bill table, the inherited assumptions and fourteen yes-or-no points.
 
 Every memo opens with a **decision line** in the same form: the recommended option, its cost over FY2030-39 and in FY2040, and the evidence it rests on. Costs are against the January 2029 law, on the general fund; a minus sign is a saving. The table repeats them.
 
@@ -15,5 +15,7 @@ Every memo opens with a **decision line** in the same form: the recommended opti
 | [7. USCIS, naturalization fees and the vehicle](7-uscis-vehicle.md) | 12, 10 | Part 1 **B**, public work appropriated, fees at cost for the rest, a six-month target; naturalization fee held at $760, waived below 200% of poverty; part 3 **B**, the 2029 reconciliation bill plus one regular-order bill | USCIS need about $0.02-0.03 trillion in all (about +$0.01 trillion beyond memos 2 and 4), replacing the legacy's $0.046 trillion | about +$1-2 billion | Official USCIS funding data; a randomized fee trial; CBO on the 2025 fee title |
 
 Fork 10's other items (codifying *Barbara*, denaturalization, the test) are points 10-12 in section 3.
+
+**Decided** (`DEC-2026-11-12-07`): every row as recommended except memo 5, which Espen decided as part 1 **B with A's rules** (replace ICE, no new name, A's conduct rules and the 30,000 cap in statute) and part 2 **A with B's enforcement** (mandatory E-Verify, phased by size, at least a year after the status programs run). The decided set costs about **+$0.12 trillion over FY2030-39 (range about −$0.06 to +$0.34 trillion) and about +$15.4 billion in FY2040** on the general fund (`../6-cost.md`, part 1).
 
 **The recommended set** on the general fund: about +$0.13 trillion over FY2030-39 (range about −$0.04 to +$0.31 trillion) and about +$19 billion in FY2040, against the legacy ledger's −$0.14 trillion, a scaled 2013 pattern from a different bill, not a score (`../3-design.md`, "IMM-1's score, re-derived"). Social Security's funds gain separately; the H-1B fee is retained; CRT-5 is scored with democratic renewal.
