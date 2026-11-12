@@ -101,7 +101,7 @@ Two passing benchmarks are weaker than their status suggests, and Codex's review
 
 ## What is bounded
 
-A *bounded* benchmark misses its tolerance, but its miss stays under a ceiling set in `test_benchmarks.py` before the result was read, a companion benchmark the model can fail shows the method holds where it should, and the readings that depend on it carry the miss as a stated range (`WORKFLOW.md`, "Benchmarks before trust"). It is resolved, not passed: the reading may be used with its range, never as more precise than that.
+A *bounded* benchmark misses its tolerance, but its miss stays under a fixed ceiling written in `test_benchmarks.py` (PS-4a's was set in review, after its miss was known), a companion benchmark the model can fail shows the method holds where it should, and the readings that depend on it carry the miss as a stated range (`WORKFLOW.md`, "Benchmarks before trust"). It is resolved, not passed: the reading may be used with its range, never as more precise than that.
 
 | Reading | Benchmark | Range it carries | Why the miss is not the method's |
 | --- | --- | --- | --- |
