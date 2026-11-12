@@ -130,7 +130,7 @@ The legacy file itself warned that "mature-program years cost more".
 - *Mothers' added earnings and taxes.* Not counted, as CBO's conventional scores do not count them. Quebec's evidence puts the long-run fiscal recapture at 75-117 percent of cost [EV-CAR-534]. Norway's suggests much less where mothers already work [EV-CAR-544].
 - *Head Start's own budget.* About $12.4 billion, kept outside.
 - *Families' current spending.* Most of memo 10 B's cost replaces what families pay today [EV-CAR-514]. It is a shift to public money as well as new care.
-- *Who pays.* That is the financing settlement's question (Codex), not this part's. The legacy EDU-9B payroll institution, which carried child care and pre-K, is a working choice for the settlement, not assumed here.
+- *Who pays.* That is the financing settlement's question, not this part's. The legacy EDU-9B payroll institution, which carried child care and pre-K, is a working choice for the settlement, not assumed here.
 
 ## Inherited assumptions, traced
 
