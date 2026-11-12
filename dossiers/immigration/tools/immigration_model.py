@@ -32,6 +32,9 @@ INPUTS = {
     'tier_b_m': (8.0, 7.0, 9.0, "assumption: MPI's 60% with ten years in 2021 (EV-IMM-617) moved to 2029, on 12-14.5 million"),
     'tier_a_outside_b_m': (2.25, 1.5, 3.0, 'assumption: memo 1; DACA 436,350 (EV-IMM-016), TPS about 274,000 (EV-IMM-022), farm, care and construction workers'),
     'registered_m': (3.0, 2.0, 4.0, 'assumption: memo 1, everyone else present on the cutoff'),
+    'tier_a_late_arrivals_m': (0.05, 0.02, 0.10, 'assumption: people who would be in tier A but arrive between January 1 of the year of enactment and signature, so register instead (IMM-1.04, DEC-2026-11-12-12)'),
+    # ---- the E-Verify start (memo 5 part 2; IMM-4.13) ----
+    'everify_first_tranche_fy': (2031.75, 2031.25, 2032.75, 'commitment: no earlier than October 1 of the year after enactment, on a passing 90-day check (DEC-2026-11-12-12); assumption: the check first passes about July 2031 (FY2031 Q4)'),
     'take_up': (0.70, 0.60, 0.85, 'EV-IMM-609'),
     'filing_shape': ((0.35, 0.30, 0.15, 0.06, 0.04, 0.03, 0.03, 0.02, 0.02), None, None,
                      'assumption: IRCA-like front loading (EV-IMM-635); known people on notice first'),
@@ -62,10 +65,15 @@ INPUTS = {
     'judges_now': (753, 753, 753, 'EV-IMM-103'),
     'court_receipts_k': (529, 450, 700, 'EV-IMM-102'),
     'court_completions_now_k': (974, 974, 974, 'EV-IMM-102'),
-    'completions_per_judge': (900, 700, 1100, 'assumption: below FY2026\'s 1,293 a judge (EV-IMM-102, EV-IMM-103), which in absentia orders inflate (EV-IMM-106); fuller hearings with counsel take longer'),
+    'completions_per_judge': (510, 450, 750, "EV-IMM-641: CRS's FY2017-22 average, excluding FY2021, about 510 a judge; assumption range: fuller hearings with counsel are slower (450), while FY2026's 1,293 (EV-IMM-102, EV-IMM-103) and the Manhattan Institute's 957 (EV-IMM-646) are inflated by in absentia orders (EV-IMM-106)"),
+    'judge_team_cost_m': (1.5, 1.31, 2.45, "EV-IMM-644: the recurring 61% of EOIR's $367 million for 150 teams, about $1.49 million a team (central); EV-IMM-645: DOJ's FY2025 request, $1.31 million a judge (low); EV-IMM-644 with the space buildout, $2.45 million (high)"),
+    'judge_attrition': (0.056, 0.035, 0.07, 'EV-IMM-646: about 5.6% a year (central); EV-IMM-643: 26 a year, about 3.5% of 753 (low); assumption: 7% (high)'),
+    'hiring_ramp': (250, 150, 312, "EV-IMM-646: 250 added a year (central); assumption: 150 a year, EOIR's FY2024 request (EV-IMM-644), as the slow ramp; EV-IMM-103: 312 hired in FY2026 (fast)"),
+    'cleared_receipts_years': (1.0, 0.75, 1.5, 'assumption: the backlog counts as cleared when pending cases fall to one year of receipts, so non-detained cases can be decided within two years (IMM-3.09)'),
+    'new_judge_productivity': (0.5, 0.3, 0.7, 'assumption: judges hired during a year decide half a year of cases; CRS notes new judges need time to learn on the job (SRC-4089, R47637)'),
     'closed_on_filing_share': (0.35, 0.20, 0.50, 'assumption: pending cases of people who file for status and are closed (IMM-1.10); 29% of the unauthorized held TPS, DACA, a pending asylum claim or parole (EV-IMM-006)'),
     'officer_first_receipt_cut': (0.30, 0.15, 0.45, 'assumption: receipts avoided when officers grant first (EV-IMM-640, EV-IMM-322)'),
-    'clear_years': (6, 6, 6, 'commitment: memo 4, clear the backlog in about six years'),
+    'clear_years': (6, 6, 6, 'commitment: memo 4, clear the backlog in about six years (FY2030-35)'),
     'detained_avg_days': (60, 40, 90, 'assumption: average stay under the 90-day detained timeline (IMM-3.09)'),
     'detained_court_share': (0.60, 0.45, 0.75, 'assumption: share of detained people in court proceedings rather than expedited removal'),
     'counsel_cost_detained_usd': (4000, 2500, 6000, 'assumption: no national cost study is in the register (section 3, Evidence still needed); New York\'s program shows the effect, not the unit cost (EV-IMM-327)'),
@@ -106,7 +114,7 @@ def prices(y, case='central', base=2026):
 def uscis(case='central'):
     """Filings, the appropriated waiver cost (memo 2), USCIS's other public work (memo 7) and the backlog."""
     v = lambda n: val(n, case)
-    eligible = v('tier_b_m') + v('tier_a_outside_b_m') + v('registered_m')
+    eligible = v('tier_b_m') + v('tier_a_outside_b_m') + v('registered_m')   # late arrivals move between groups, not out
     filings = eligible * v('take_up')                                  # million, over the decade
     shape = INPUTS['filing_shape'][0]
     per_year = {y: 0.0 for y in YEARS}
@@ -131,23 +139,68 @@ def uscis(case='central'):
                 backlog_left_m=max(0.0, v('uscis_net_backlog_m') - cleared))
 
 
-def eoir(case='central'):
-    """Judges needed to clear the court backlog in about six years, and appointed counsel's cost."""
+def court_path(target, case='central', ramp=None):
+    """Judges, completions and pending cases by fiscal year, hiring toward `target` at `ramp` a year.
+
+    FY2030 starts from today's corps and pending cases (EV-IMM-103, EV-IMM-100). Filing for status
+    opens in FY2031, closing the share of pending cases whose people file (IMM-1.10), and officers
+    deciding first cut receipts from then on (IMM-3.01). Hires decide half a year of cases in their
+    first year. Once the backlog is cleared, the corps shrinks by attrition toward what receipts need.
+    """
     v = lambda n: val(n, case)
-    pending_after = v('court_pending_m') * (1 - v('closed_on_filing_share'))
-    receipts = v('court_receipts_k') / 1000 * (1 - v('officer_first_receipt_cut'))
-    yrs = v('clear_years')
-    judges = (pending_after + receipts * yrs) * 1e6 / (yrs * v('completions_per_judge'))
-    # Years to clear with the cap kept at 800 judges, for comparison.
-    net = 800 * v('completions_per_judge') / 1e6 - receipts
-    years_at_cap = pending_after / net if net > 0 else float('inf')
+    ramp = val('hiring_ramp') if ramp is None else ramp   # sized at the central ramp; the slow ramp is its own scenario
+    c, att = v('completions_per_judge'), v('judge_attrition')
+    judges, pending = v('judges_now'), v('court_pending_m') * 1e6
+    base_receipts = v('court_receipts_k') * 1000
+    rows, cleared_fy = {}, None
+    for y in range(2030, 2046):
+        receipts = base_receipts if y < FILING_OPENS else base_receipts * (1 - v('officer_first_receipt_cut'))
+        if y == FILING_OPENS:
+            pending *= 1 - v('closed_on_filing_share')
+        need = receipts / c
+        if cleared_fy is None:
+            hires = max(0.0, min(ramp + judges * att, target - judges * (1 - att)))
+            new = judges * (1 - att) + hires
+            completions = (judges * (1 - att) + hires * v('new_judge_productivity')) * c
+        else:
+            new = max(need, judges * (1 - att))
+            completions = new * c
+        judges = new
+        pending = max(receipts * v('cleared_receipts_years'), pending + receipts - completions)
+        if cleared_fy is None and pending <= receipts * v('cleared_receipts_years') + 1:
+            cleared_fy = y
+        rows[y] = dict(judges=judges, pending=pending)
+    return rows, cleared_fy
+
+
+def eoir(case='central'):
+    """The judges that clear the court backlog in about six years, their cost, and appointed counsel."""
+    v = lambda n: val(n, case)
+    deadline = 2029 + int(v('clear_years'))                     # FY2035
+    # The smallest corps that clears by the deadline; if the ramp cannot reach one in time (low
+    # productivity), the smallest corps that clears as early as the ramp allows.
+    results = [(t, court_path(t, case)[1]) for t in range(int(v('judges_now')), 4001, 10)]
+    clearing = [(t, fy) for t, fy in results if fy is not None]
+    on_time = [t for t, fy in clearing if fy <= deadline]
+    if on_time:
+        target = min(on_time)
+    else:
+        earliest = min(fy for _, fy in clearing)
+        target = min(t for t, fy in clearing if fy == earliest)
+    rows, cleared = court_path(target, case)
+    now = v('judges_now')
+    judges_cost = {y: max(0.0, rows[y]['judges'] - now) * v('judge_team_cost_m') * prices(y, case) / 1000
+                   if y in rows else 0.0 for y in YEARS}
+    _, at_cap = court_path(800, case)
+    _, slow = court_path(target, case, ramp=150)
     detained_cases = val('cap') * 365 / v('detained_avg_days') * v('detained_court_share')
     counsel_2026 = (detained_cases * v('counsel_cost_detained_usd') + v('children_cases_k') * 1000 * v('counsel_cost_child_usd')
                     + v('smi_cases_k') * 1000 * v('counsel_cost_smi_usd')) / 1e9
-    # Counsel from the act (about FY2030, phased in over its first year).
     counsel = {y: counsel_2026 * prices(y, case) * (0.5 if y == 2030 else 1.0) for y in YEARS}
-    return dict(judges_needed=judges, years_at_800=years_at_cap, pending_after_m=pending_after,
-                receipts_m=receipts, detained_cases_k=detained_cases / 1000, counsel=counsel)
+    peak = max(r['judges'] for r in rows.values())
+    return dict(judges_needed=target, judges_added=target - now, judges_peak=peak, cleared_fy=cleared,
+                cleared_at_800=at_cap, cleared_slow_ramp=slow, judges_by_year={y: rows[y]['judges'] for y in YEARS},
+                judges_cost=judges_cost, detained_cases_k=detained_cases / 1000, counsel=counsel)
 
 
 def asylum_refugees(case='central'):
@@ -180,8 +233,33 @@ def status_fiscal(case='central'):
     v = lambda n: val(n, case)
     gross = v('hr6_deficit_bn') * v('reach_scale') * v('window_growth')
     net = gross * (1 - v('health_share') * v('covered_anyway_share'))
+    # Tier A's January 1 cutoff moves late arrivals to registered status: they wait for a green
+    # card, so the status line falls by their share of the green-card population (IMM-1.04).
+    green = v('tier_b_m') + v('tier_a_outside_b_m')
+    net *= 1 - v('tier_a_late_arrivals_m') / green
     w = sum(STATUS_SHAPE[y] for y in WINDOW)
     return {y: net * STATUS_SHAPE[y] / w for y in YEARS}
+
+
+def everify_coverage(case='central'):
+    """Share of the unauthorized workforce left after memo 1 that the mandate covers, by FY.
+
+    Tranches a year apart from the first (IMM-4.12, 4.13), covering 0.2, 0.45, 0.7 and 1.0 of
+    that workforce (judgment: unauthorized workers sit mostly in small firms and households).
+    A tranche starting part-way through a fiscal year counts for the part of the year it runs.
+    """
+    start = val('everify_first_tranche_fy', case)
+    steps = (0.2, 0.45, 0.7, 1.0)
+    out = {}
+    for y in YEARS:
+        share = 0.0
+        for i, level in enumerate(steps):
+            t = start + i                           # fiscal-year time the tranche begins
+            frac = min(1.0, max(0.0, y - (t - 1)))  # FY y covers (y-1, y]
+            prev = steps[i - 1] if i else 0.0
+            share += (level - prev) * frac
+        out[y] = share
+    return out
 
 
 def window(path):
@@ -192,7 +270,7 @@ def lines(case='central'):
     """The model's general-fund lines for section 6 (immigration_path.py adds the rest)."""
     u, e, a = uscis(case), eoir(case), asylum_refugees(case)
     memo4 = {y: a['corps'][y] + a['refugees'][y] + a['regional'][y] + e['counsel'][y] for y in YEARS}
-    return {'memo1': status_fiscal(case), 'memo2': u['memo2'], 'memo4': memo4,
+    return {'memo1': status_fiscal(case), 'memo2': u['memo2'], 'memo4': memo4, 'judges': e['judges_cost'],
             'detention': detention(case), 'memo7': u['memo7']}
 
 
@@ -205,9 +283,10 @@ def report():
           f"clears in about {u['backlog_years_to_clear']:.1f} years at the backlog money's pace ({u['backlog_left_m']:.1f} million left when it ends)")
     for case in ('central', 'low', 'high'):
         ec = eoir(case)
-        print(f"Courts [{case}]: about {ec['judges_needed']:.0f} judges clear the backlog in six years "
-              f"({ec['pending_after_m']:.2f} million after closures, {ec['receipts_m']*1000:.0f}k receipts a year); "
-              f"at 800 judges about {ec['years_at_800']:.1f} years; counsel ${window(ec['counsel']):.1f}B over FY2030-39")
+        print(f"Courts [{case}]: about {ec['judges_needed']:.0f} judges in all ({ec['judges_added']:.0f} added) clear the backlog by FY{ec['cleared_fy']}; "
+              f"at 800 judges: FY{ec['cleared_at_800']}; at 150 hires a year: FY{ec['cleared_slow_ramp']}; "
+              f"judge teams ${window(ec['judges_cost']):.1f}B over FY2030-39; counsel ${window(ec['counsel']):.1f}B")
+    print('Judges by year (central): ' + ', '.join(f"{y}: {j:.0f}" for y, j in eoir()['judges_by_year'].items()))
     a = asylum_refugees()
     print('Memo 4 parts (FY2030-39): corps {:.1f}, refugees {:.1f}, regional {:.1f}, counsel {:.1f}'.format(
         window(a['corps']), window(a['refugees']), window(a['regional']), window(e['counsel'])))

@@ -51,7 +51,11 @@ class Modules(unittest.TestCase):
     def test_courts_need_more_judges_when_slower(self):
         slow, fast = m.eoir('low'), m.eoir('high')
         self.assertGreater(slow['judges_needed'], fast['judges_needed'])
-        self.assertGreater(slow['years_at_800'], m.eoir()['years_at_800'])
+        central = m.eoir()
+        self.assertGreater(central['judges_added'], 300)            # CRS and MI: several hundred more
+        self.assertLessEqual(central['cleared_fy'], 2035)            # memo 4: about six years
+        self.assertTrue(central['cleared_at_800'] is None or central['cleared_at_800'] > 2035)
+        self.assertGreater(central['cleared_slow_ramp'], central['cleared_fy'])
 
     def test_detention_near_zero(self):
         self.assertLess(abs(m.window(m.detention())), 10)        # memo 5: about zero net
