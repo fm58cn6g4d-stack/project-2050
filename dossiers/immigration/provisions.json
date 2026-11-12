@@ -3,12 +3,12 @@
   "id": "IMM-1.01",
   "title": "Tier A: a green card on approval",
   "agenda": "IMM-1",
-  "status": "decided, memo 1 A, parts 1 and 3",
+  "status": "decided, memo 1 A, parts 1 and 3; tier A's cutoff DEC-2026-11-12-12",
   "decisions": [
    "DEC-2026-11-12-07",
    "DEC-2026-11-12-12"
   ],
-  "parameters": "Four groups, each present in the United States on January 1 of the year the act is enacted (tier A's cutoff, IMM-1.04, `DEC-2026-11-12-12`): (1) people who arrived before 18, with a schooling, work or service test (the Dream Act's); (2) anyone who has held TPS, DACA or humanitarian parole at any time; (3) workers with at least 1,035 hours or 180 days of farm, care or construction work in the two years before applying, on the farmworker bill's test [EV-IMM-522], extended to care and construction (care's first ask, `DEC-2026-11-11-04` point 8; housing's workforce condition); (4) their spouses and minor children present on that date. Permanent residence on approval; citizenship after three years (IMM-1.14)",
+  "parameters": "Four groups, each present in the United States on January 1 of the year the act is enacted (tier A's cutoff, IMM-1.04, `DEC-2026-11-12-12`): (1) people who arrived before 18, with a schooling, work or service test (the Dream Act's); (2) anyone who has held TPS, DACA or humanitarian parole at any time; (3) workers with at least 1,035 hours or 180 days of farm, care or construction work in the two years before applying, on the farmworker bill's test [EV-IMM-522], extended to care and construction (care's first ask, `DEC-2026-11-11-04` point 8; housing's workforce condition); (4) their spouses and minor children present on that date. Work history is shown as residence is (IMM-1.06): records first (W-2s, posted earnings, H-2A and employer records), then a sworn statement plus one document per gap, where a statement by an employer, co-worker, union or care recipient counts as the document (working choice, after the farmworker bill's evidence rule). Permanent residence on approval; citizenship after three years (IMM-1.14)",
   "eligibility": "",
   "vehicle": [
    {
@@ -68,7 +68,7 @@
    "DEC-2026-11-12-07",
    "DEC-2026-11-12-12"
   ],
-  "parameters": "A person present on the day the act is signed (registration's cutoff, IMM-1.04) who is not in tier A or B registers once, gives biometrics and passes IMM-1.08's check. They receive a renewable registered status: a work permit and protection from removal for five years at a time (working choice), renewed without a fee below 200% of poverty. Time in registered status counts toward tier B's ten years, and the green card comes at ten years. Registered status is not a bar to any other route",
+  "parameters": "A person present on the day the act is signed (registration's cutoff, IMM-1.04) who is not in tier A or B registers once, gives biometrics and passes IMM-1.08's check. They receive registered status: a work permit and protection from removal, valid until the person reaches ten years' residence and the registry (IMM-1.05), with no renewal filing. USCIS keeps the record current from its own, the IRS's and SSA's records, and the status ends only for a bar those records show, after notice (working choice). Time in registered status counts toward tier B's ten years, and the green card comes at ten years. Registered status is not a bar to any other route",
   "eligibility": "",
   "vehicle": [
    {
@@ -208,7 +208,7 @@
   "decisions": [
    "DEC-2026-11-12-07"
   ],
-  "parameters": "Biometrics and a criminal and security check for everyone. The bars are 1259's existing grounds [EV-IMM-623], with no bar for immigration-only offenses (unlawful entry and reentry, 8 U.S.C. 1325 and 1326, and status violations), and a waiver for convictions more than ten years old or minor (working choice: no prison term over one year), granted for family unity, humanitarian reasons or the public interest",
+  "parameters": "Biometrics and a criminal and security check for everyone. The bars are 1259's existing grounds [EV-IMM-623], with no bar for immigration-only offenses (unlawful entry and reentry, 8 U.S.C. 1325 and 1326, and status violations), and a waiver for convictions more than ten years old or minor (working choice: no prison term over one year), granted for family unity, humanitarian reasons or the public interest. *The immigration-only grounds, for every route (tier A, tier B through the registry, registration):* 8 U.S.C. 1182(a)(4), (a)(5), (a)(7) and (a)(9)(B) do not apply [EV-IMM-649] [EV-IMM-651]; (a)(6)(A), (a)(6)(C) and (a)(9)(C) do not apply unless they rest on an unlawful entry after the act's signature [EV-IMM-647] [EV-IMM-648] [EV-IMM-652]; (a)(6)(B) and (a)(9)(A) do not apply unless the conduct began after filing [EV-IMM-650]. That is S. 744's list [EV-IMM-654]. Any other ground except the criminal, security and terrorism grounds 1259 keeps may be waived for family unity, humanitarian reasons or the public interest. *Old orders:* the reinstatement bar of 8 U.S.C. 1231(a)(5) [EV-IMM-653] does not apply to any route; a person with a final order of removal, deportation or exclusion may file notwithstanding it, and the order is vacated on approval without a motion (working choice; S. 744 required a motion to reopen [EV-IMM-656]). 1.6 million people on the non-detained docket had a final order in February 2026 [EV-IMM-170]",
   "eligibility": "",
   "vehicle": [
    {
@@ -217,11 +217,21 @@
     "note": "the 2029 immigration act (regular order)"
    }
   ],
-  "agency": "DHS (USCIS), with the FBI",
+  "agency": "DHS (USCIS), with the FBI; DOJ (EOIR) for old orders",
   "current_law": "",
   "evidence": [
    "EV-IMM-623",
-   "EV-IMM-014"
+   "EV-IMM-014",
+   "EV-IMM-647",
+   "EV-IMM-648",
+   "EV-IMM-649",
+   "EV-IMM-650",
+   "EV-IMM-651",
+   "EV-IMM-652",
+   "EV-IMM-653",
+   "EV-IMM-654",
+   "EV-IMM-656",
+   "EV-IMM-170"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1 (memo 1; memo 2 for IMM-1.05-1.09)",
@@ -258,13 +268,13 @@
  },
  {
   "id": "IMM-1.10",
-  "title": "A work permit and protection from removal from the day of filing",
+  "title": "Protection from the day the act is signed; a work permit from the day of filing",
   "agenda": "IMM-1",
-  "status": "decided, point 3",
+  "status": "decided, point 3 and memo 1 change 2",
   "decisions": [
    "DEC-2026-11-12-07"
   ],
-  "parameters": "A complete filing's receipt is evidence of work authorization and stops removal until decision, and USCIS records it in E-Verify's and SSA's systems within 30 days (IMM-4.13). A pending removal case is closed administratively on filing, and reopened only if the application is denied",
+  "parameters": "DHS (USCIS); DOJ (EOIR)",
   "eligibility": "",
   "vehicle": [
    {
@@ -276,7 +286,8 @@
   "agency": "DHS (USCIS); DOJ (EOIR)",
   "current_law": "",
   "evidence": [
-   "EV-IMM-100"
+   "EV-IMM-100",
+   "EV-IMM-655"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1 (memo 1)",
@@ -1016,7 +1027,7 @@
   "decisions": [
    "DEC-2026-11-12-07"
   ],
-  "parameters": "Certified agricultural worker status for current farmworkers on the bill's hours test, and its H-2A reform [EV-IMM-522] [EV-IMM-523]. Memo 1's tier A gives current farmworkers a green card on approval, so the bill's certified status serves workers who arrive after the cutoff (IMM-1.04)",
+  "parameters": "Certified agricultural worker status for current farmworkers on the bill's hours test, and its H-2A reform [EV-IMM-522] [EV-IMM-523]. Memo 1's tier A gives current farmworkers a green card on approval, so the bill's certified status serves farmworkers present on the day the act is signed (registration's cutoff) who arrived after January 1 of the year of enactment (tier A's cutoff, IMM-1.04), on the bill's hours test. A farmworker who arrives after signature comes through the H-2A reform, not certified status, so no route opens after the law is known",
   "eligibility": "",
   "vehicle": [
    {
@@ -1546,7 +1557,7 @@
   "decisions": [
    "DEC-2026-11-12-07"
   ],
-  "parameters": "National security, public safety (a conviction for a serious crime, as the act lists) and recent unlawful entry (after the cutoff, IMM-1.04, and within the last two years, working choice) come first. Each arrest outside them carries a written reason, reviewed by a supervisor and counted in a published monthly report. The rules bind every officer exercising immigration authority, including state and local partners (IMM-4.10)",
+  "parameters": "National security, public safety (a conviction for a serious crime, as the act lists) and recent unlawful entry (after the day the act is signed, registration's cutoff, IMM-1.04, and within the last two years, working choice) come first. Each arrest outside them carries a written reason, reviewed by a supervisor and counted in a published monthly report. The rules bind every officer exercising immigration authority, including state and local partners (IMM-4.10)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1826,7 +1837,7 @@
    "DEC-2026-11-12-07",
    "DEC-2026-11-12-12"
   ],
-  "parameters": "*The earliest date:* the first tranche (IMM-4.12) starts no earlier than October 1 of the calendar year after the year of enactment (October 1, 2030 on the working timeline). *The check:* on that date the DHS Inspector General confirms whether all of these hold: (a) filing for the registry, tier A and registration (IMM-1.05) is open nationwide, online, on paper and at every front door (IMM-6.04); (b) everyone USCIS already knows (DACA, TPS and parole holders in its files) has received their notice (IMM-1.07); (c) work permits are issued and E-Verify queries run within the act's statutory time limits: the filing receipt within 14 days and recorded in E-Verify's and SSA's records within 30 days of filing (IMM-1.10), and contests answered within ten federal working days (IMM-4.14); (d) the systems that do (c) exist and are in use; (e) newly registered workers' erroneous tentative nonconfirmation rate is no higher than permanent residents' (0.7% in FY2009 [EV-IMM-391]), in a published test on a sample of registered people. *If any condition fails,* the Inspector General checks again every 90 days, and the first tranche starts on the first check that passes. *Later tranches* follow one year apart. Before each, USCIS publishes the past year's erroneous nonconfirmation rates by group; if the rate for work-authorized noncitizens is above 1%, that tranche waits 90 days, and the wait repeats until the rate is at or below 1%. *No separate employer exemption or appeal process:* the tranches by size (IMM-4.12) and the error correction (IMM-4.14) are the whole of the mandate's flexibility. *On the working timeline:* filing opens about October 1, 2030; the October 2030 check fails (filing has just opened and notices are still going out), and the conditions are met by about mid-2031, so the first tranche starts about July 1, 2031 (working assumption); the later tranches about July 2032, 2033 and 2034",
+  "parameters": "*The earliest date:* the first tranche (IMM-4.12) starts no earlier than October 1 of the calendar year after the year of enactment (October 1, 2030 on the working timeline). *The check:* on that date the DHS Inspector General confirms whether all of these hold: (a) filing for the registry, tier A and registration (IMM-1.05) is open nationwide, online, on paper and at every front door (IMM-6.04); (b) everyone USCIS already knows (DACA, TPS and parole holders in its files) has received their notice (IMM-1.07); (c) work permits are issued and E-Verify queries run within the act's statutory time limits: the filing receipt within 14 days and recorded in E-Verify's and SSA's records within 30 days of filing (IMM-1.10), and contests answered within ten federal working days (IMM-4.14); (d) the systems that do (c) exist and are in use; (e) newly registered workers' erroneous tentative nonconfirmation rate is no higher than permanent residents' rate measured in the same published test, on samples of each group (FY2009's 0.7% for permanent residents [EV-IMM-391] is context, not the benchmark). *If any condition fails,* the Inspector General checks again every 90 days, and the first tranche starts on the first check that passes. *Later tranches* follow one year apart. Before each, USCIS publishes the past year's erroneous nonconfirmation rates by group; if the rate for work-authorized noncitizens is above 1%, that tranche waits 90 days, and the wait repeats until the rate is at or below 1%. *No separate employer exemption or appeal process:* the tranches by size (IMM-4.12) and the error correction (IMM-4.14) are the whole of the mandate's flexibility. *On the working timeline:* filing opens about October 1, 2030; the October 2030 check fails (filing has just opened and notices are still going out), and the conditions are met by about mid-2031, so the first tranche starts about July 1, 2031 (working assumption); the later tranches about July 2032, 2033 and 2034",
   "eligibility": "",
   "vehicle": [
    {
@@ -1959,7 +1970,7 @@
   "decisions": [
    "DEC-2026-11-12-07"
   ],
-  "parameters": "Monthly: queries, automatic confirmations, tentative and final nonconfirmations by status group, contests and their outcomes, days to resolve, and wage claims paid (IMM-4.14). A GAO audit before each tranche",
+  "parameters": "Monthly: queries, automatic confirmations, tentative and final nonconfirmations by status group, contests and their outcomes, days to resolve, and wage claims paid (IMM-4.14). A GAO audit published before each tranche; it informs Congress and does not delay a tranche, because IMM-4.13's start check and 1% wait are the mandate's only conditions (`DEC-2026-11-12-12`)",
   "eligibility": "",
   "vehicle": [
    {

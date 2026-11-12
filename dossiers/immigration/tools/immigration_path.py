@@ -92,10 +92,11 @@ def lines():
     out['IMM-4.12-4.15: E-Verify operations and error correction (memo 5, A)'] = (
         path([0.15, 0.3, 0.35, 0.4, 0.4, 0.41, 0.42, 0.43, 0.44, 0.45, 0.46]), 3, 6.5, 0.3, 0.7)
     # Memo 6 C: health coverage for people without status from the single plan's first wave
-    # (January 1, 2031), $3-9 billion a year, and no five-year wait for memo 1's new permanent
-    # residents, $2-4 billion a year, both rising with the population and prices (memo 6).
-    out['IMM-1.20-1.35: the one eligibility table (memo 6)'] = (
-        path([0, 4, 7, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5]), 50, 110, 8, 15)
+    # (January 1, 2031), priced on care's own path with its 1% residual lowered by the people left
+    # without status (immigration_model.table, care_cost_of_residual), and no five-year wait for
+    # memo 1's new permanent residents, $2-4 billion a year (judgment). Counted once: care's
+    # booked figures keep the 1% residual (6-cost.md, part 3).
+    out['IMM-1.20-1.36: the one eligibility table (memo 6)'] = from_model('memo6')
     # Memo 7 B: USCIS's appropriated public work beyond memos 2 and 4: backlog clearance
     # (EV-IMM-575), online filing and the Office of New Americans, the naturalization discount
     # and waivers, and hiring ahead of fees (immigration_model.uscis).

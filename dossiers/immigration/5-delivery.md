@@ -1,6 +1,6 @@
 # A new consensus on immigration: delivery
 
-Role: section 5 of the immigration dossier. It covers who runs each provision of `4-specification.md`, the capacity each agency needs, the timeline, remedies, states' roles and rural delivery. Status: draft (stage E, board row I4, PR 1), on `DEC-2026-11-12-07`. Costs of the capacity named here are in `6-cost.md`. Shared rule 5 (who verifies and pays) is owned by democratic renewal; this section states immigration's needs for it.
+Role: section 5 of the immigration dossier. It covers who runs each provision of `4-specification.md`, the capacity each agency needs, the timeline, remedies, states' roles and rural delivery. Status: reviewed (L2; `review-milestone.md`), with the review's fix steps applied; L3 after the re-check. On `DEC-2026-11-12-07` and `-12`. Costs of the capacity named here are in `6-cost.md`. Shared rule 5 (who verifies and pays) is owned by democratic renewal; this section states immigration's needs for it.
 
 ## 1. Who runs what
 
@@ -24,7 +24,7 @@ Role: section 5 of the immigration dossier. It covers who runs each provision of
 **USCIS.**
 - *The workload* (working assumption, memo 1): about 8-10 million filings over the decade, most in the first three years after filing opens, with 6-8 million green cards [EV-IMM-603] [EV-IMM-609].
 - *The base it starts from:* 12.8 million pending cases in mid-2026 [EV-IMM-140], completions falling [EV-IMM-141], and numbers lost for want of staff [EV-IMM-123].
-- *The backlog:* the net backlog of 7.7 million [EV-IMM-140] clears in about 5.5 years at the backlog money's pace, about $0.7 billion a year [EV-IMM-575]. About 1.4 million cases are left when the money ends after four to five years (`immigration_model.uscis()`), so the six-month target (IMM-6.03) needs the money for about a year longer or a faster unit cost.
+- *The backlog:* the net backlog of 7.7 million [EV-IMM-140] clears in about 5.5 years at the backlog money's pace, about $0.7 billion a year [EV-IMM-575]. About 1.4 million cases are left when the money ends after four to five years (`immigration_model.uscis()`), so the six-month target (IMM-6.03) needs the money for about a year longer; section 6 funds that year in memo 7's line.
 - *The hiring plan:* hiring starts on R1's enactment, with multi-year money available at once (IMM-6.01). That gives about 15 months of hiring before filing opens, which is memo 7's lead time in practice. The legacy plan counted about 12,000 hires (Bill Book 15, `legacy-research.md`, section 1). This section sizes the surge from memo 7's bottom-up table (about $17-27 billion over FY2030-39) rather than a head count. The lighter records-first form (IMM-1.06, 1.07) is what makes that money enough: most cases are a records check, a biometrics visit and a decision, not a document review.
 - *Sequencing:*
   - notices to known people go first;
@@ -45,7 +45,7 @@ Role: section 5 of the immigration dossier. It covers who runs each provision of
 
 **Detention to the cap.**
 - *The starting point:* about 65,000-73,000 held in 2026 [EV-IMM-171] [EV-IMM-172]. The base account sustains 41,500 beds [EV-IMM-362].
-- *October 1, 2029:* the reconciliation money lapses [EV-IMM-035]. FY2030 appropriations fund 30,000 on average and case management for about 100,000 people (memo 5).
+- *October 1, 2029:* the reconciliation money lapses [EV-IMM-035]. FY2030 appropriations fund 30,000 on average and case management for about 150,000 people at a time (range 100,000-250,000; `6-cost.md`, part 1).
 - *Preparation:* a census of detention contracts that end with the reconciliation money, and case-management contracts ready to start on October 1, 2029.
 - *The release path:* people released are placed in case management with a hearing date. The priorities decide who stays held.
 
@@ -73,14 +73,14 @@ Role: section 5 of the immigration dossier. It covers who runs each provision of
 | January 20, 2029 | End Proclamation 10888's use against asylum seekers; withdraw the 2026 no-interview rule; a FY2029 refugee ceiling at or above 50,000; enforcement priorities by memo; the neighborhood investigations end (IMM-3.05, 4.03, 5.03) | The President; DHS |
 | By about mid-2029 | R1 enacted: USCIS's money (hiring starts), the naturalization discount, the asylum fee repeals, the wall money redirected, the H-1B fee, the eligibility restorations | Congress |
 | October 1, 2029 (FY2030) | The enforcement money of the 2025 and 2026 laws lapses [EV-IMM-035] [EV-IMM-040]; FY2030 appropriations fund the 30,000 cap and case management; eligibility restorations for programs on fiscal years | Congress; DHS; program agencies |
-| By about December 2029 | The 2029 immigration act signed: **registration's cutoff**; tier A's is January 1, 2029 (IMM-1.04); the conduct rules, protected places and officer identification take effect on signature; the 800-judge cap repealed | Congress; the President |
+| By about December 2029 | The 2029 immigration act signed: **registration's cutoff**; tier A's is January 1, 2029 (IMM-1.04); the conduct rules, protected places and officer identification take effect on signature, and so does protection for anyone who appears eligible (IMM-1.10); the 800-judge cap repealed | Congress; the President |
 | First half of 2030 | The rules for the registry, the evidence rule, the fee waiver and the detention standards; notices drafted for known people | DHS; DOJ |
 | No later than about October 1, 2030 (FY2031) | **Filing opens** for the registry, tier A and registration, 270 days after signature (IMM-1.05); notices to DACA, TPS and parole holders first; work permits on filing; removal cases of filers closed; the higher legal numbers, recapture and the per-country phase-out from FY2031 | USCIS; SSA; EOIR; State |
-| January 1, 2031 | The single plan's first wave covers every resident, people without status included (IMM-1.21) | CMS |
 | October 1, 2030 | E-Verify's first start check (IMM-4.13): fails on the working timeline, because filing has just opened and notices are still going out; repeated every 90 days | DHS Inspector General |
+| January 1, 2031 | The single plan's first wave covers every resident, people without status included (IMM-1.21) | CMS |
 | About July 1, 2031 (working) | **E-Verify's first tranche**, on the first passing check: filing open everywhere, known people sent notices, work permits and queries within the act's time limits on systems that exist, registrants' error rate no higher than permanent residents' | Employers with 500 or more employees, new hires only; USCIS |
 | October 1, 2031 | **ICE replaced** (working date): the interior enforcement component, the criminal investigations component and the case-management service take over; 287(g) agreements not renewed on the rules end (IMM-4.01, 4.10) | DHS |
-| About July 2032 / 2033 / 2034 | Tranches 2 (100-499), 3 (20-99) and 4 (1-19, household and agricultural employers), each after a published error count and a GAO audit; each waits 90 days at a time while wrong flags for work-authorized noncitizens exceed 1% | Employers; USCIS; GAO |
+| About July 2032 / 2033 / 2034 | Tranches 2 (100-499), 3 (20-99) and 4 (1-19, household and agricultural employers), each after a published error count, with a GAO audit published beforehand (it does not delay a tranche); each waits 90 days at a time while wrong flags for work-authorized noncitizens exceed 1% | Employers; USCIS; GAO |
 | From about 2040 | Registered people who arrived in 2029-30 reach ten years and the registry; the standing registry carries anyone else at ten years | USCIS |
 
 **If R1 is late,** USCIS's hiring starts late and filing opens later: the act sets filing at no later than 270 days after its own signature, so a late R1 means the act's opening date needs USCIS money from appropriations instead. **If the immigration act is late,** the cutoff and every later date move with its signature; the E-Verify start test moves with filing, because it measures filing.
@@ -89,6 +89,7 @@ Role: section 5 of the immigration dossier. It covers who runs each provision of
 
 | Who | What they can do | Provisions |
 | --- | --- | --- |
+| A person arrested before filing who appears eligible | Show eligibility on a statement; no removal, and release unless a security or public-safety priority, until a decision or a year after filing opens | IMM-1.10 |
 | An applicant refused status | An administrative appeal, then review in federal court; the work permit continues until the appeal is decided | IMM-1.05, 1.10 |
 | A person whose records show the wrong years | Correct the record on the notice, by statement, at any front door | IMM-1.06, 1.07, 6.04 |
 | A person held in breach of the standards | Sue to enforce them; the inspector's reports are public | IMM-4.04, 4.09 |
