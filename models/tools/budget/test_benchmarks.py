@@ -629,8 +629,11 @@ def bm_trust_funds():
                        "figures to within rounding: the tolerances are the published rounding (whole percent payable) plus a small allowance for the "
                        "balance, which funds-model.py says differs only by \"rounding in the published rates and the interest path\".",
                        miss=", ".join(misses) or None,
-                       detail=(["funds-model.py's own page says the HI check is off and that the program's gain, not the absolute balance, is "
-                                "the reading to use (legacy/index/dedicated-funds.md, Medicare HI).",
+                       detail=(["Until B6 (item 2 of the remainder) the engine had the Trustees' HI rates at six years only, with the income rate a "
+                                "straight line from 2026 to 2100 and the cost rate a straight line from 2026 to 2040. That understated HI's cost in "
+                                "2027-39 by up to 0.12 point of payroll (3.77% for 2030 against the Trustees' 3.88%), so depletion came a year late "
+                                "(2034), and it understated income after 2040, so the balance read -0.64%. models/data/inputs/funds-hi-rates.csv now "
+                                "carries every year Table III.B7 publishes (each year 2026-35, then every five years).",
                                 "Which reference: the Trustees. The engine runs on the Trustees' own cost and income rates, so their projection is "
                                 "the one it should reproduce, and the miss is against them. CBO projects HI exhausted during FY%d (Long-Term Budget "
                                 "Outlook data, February 2026; Espen's November 8 upload, PR #121), %d years after the Trustees and %d after the "
