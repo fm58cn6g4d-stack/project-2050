@@ -25,6 +25,7 @@ python3 -W ignore::ResourceWarning models/tools/strategic-review/test_analysis.p
 python3 -W ignore::ResourceWarning models/tools/strategic-review/test_redesign.py
 python3 models/tools/child-poverty/run_validation.py --out "${RUNNER_TEMP:-/tmp}/child-poverty-validation"
 python3 models/tools/climate-portfolio/test_packages.py
+python3 dossiers/immigration/tools/test_immigration_model.py
 python3 .github/scripts/test_agent_gate.py
 echo "::endgroup::"
 # Not run: models/tools/public-product/test_build.py stops by design when a pinned source changes

@@ -804,5 +804,31 @@
   "legal_risk": "Scoring convention",
   "overlap": "Increment only; existing CX unchanged. Includes process receipts and lost combustion receipts.",
   "source": "sources/climate-portfolio-pricing.json annual added receipts at JCT's 24.4% (excise-offset.csv; DEC-2026-11-12-08), not the export's 25% cx cost"
+ },
+ {
+  "id": "IMM-EV",
+  "option": "E-Verify mandate's on-budget revenue under JCT's convention (IMM-4.12): wages moving off the books are taxed as business profits",
+  "channel": "General fund",
+  "lo": 0.0,
+  "mid": 0.0233,
+  "hi": 0.0349,
+  "in_base": "Yes",
+  "reaches_middle": "No",
+  "legal_risk": "Low",
+  "overlap": "Social Security's funds lose about $42B over FY2030-39 on the same convention (dossiers/immigration/6-cost.md part 2); not a sign the mandate pays for itself",
+  "source": "dossiers/immigration/6-cost.md part 2 (CBO and JCT 2013, scaled; immigration_booking.py)"
+ },
+ {
+  "id": "IF1T",
+  "option": "Income-tax offset on the retained H-1B fee (25%, IMM-2.07)",
+  "channel": "General fund",
+  "lo": -0.0045,
+  "mid": -0.0037,
+  "hi": -0.0023,
+  "in_base": "Yes",
+  "reaches_middle": "No",
+  "legal_risk": "Low",
+  "overlap": "IF1's receipts are retained by USCIS and a training fund, outside the general fund; this is the general fund's offset on them",
+  "source": "dossiers/immigration/6-cost.md part 1 (immigration_booking.py)"
  }
 ]

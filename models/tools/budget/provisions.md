@@ -6,7 +6,7 @@ Role: a summary of `models/data/budget/provisions.csv`, the provision spec for e
 
 ## The rows
 
-The ledger has 176 rows: 82 bills, 62 revenue options, 23 gap-closing options and 9 dynamic-feedback rows. One bill, HOU-1, is split into 61 components, each with its own spec. The fiscal model scores 122 of the rows; the other 54 are on the revenue menu, outside the general fund, or are borrowing lines whose spending sits in other rows.
+The ledger has 178 rows: 82 bills, 64 revenue options, 23 gap-closing options and 9 dynamic-feedback rows. One bill, HOU-1, is split into 67 components, each with its own spec. The fiscal model scores 124 of the rows; the other 54 are on the revenue menu, outside the general fund, or are borrowing lines whose spending sits in other rows.
 
 ### By kind
 
@@ -14,9 +14,9 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 
 | Kind | Rows | Scored | Bills and base revenue | FY2030-39, $T |
 | --- | --- | --- | --- | --- |
-| Discretionary appropriation | 24 | 24 | 22 | 1.46 |
-| Mandatory (direct) spending | 46 | 46 | 42 | 31.87 |
-| Revenue | 81 | 34 | 15 | -10.57 |
+| Discretionary appropriation | 24 | 24 | 22 | 1.42 |
+| Mandatory (direct) spending | 46 | 46 | 42 | 32.17 |
+| Revenue | 83 | 36 | 17 | -10.59 |
 | Interest-neutral transfer (self-funded) | 2 | 2 | 2 | 0 |
 | No direct budget effect | 23 | 16 | 16 | 0 |
 
@@ -30,7 +30,7 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 | Reconciliation (R1, R2, R3) | 59 | 59 | discretionary 7, mandatory 33, revenue 17, transfer 2 |  |
 | Regular-order authorization | 33 | 33 | discretionary 8, mandatory 9, none 16 |  |
 | Not a provision (financing line or feedback) | 16 | 9 | revenue 9, none 7 |  |
-| Unknown | 61 | 14 | discretionary 2, mandatory 4, revenue 55 |  |
+| Unknown | 63 | 16 | discretionary 2, mandatory 4, revenue 57 |  |
 
 No row is modeled as a supplemental, emergency or advance appropriation: nothing in the ledger or its notes says any is (CONVENTIONS.md, section 4). The vehicle of a bill is its ledger rail; of a revenue or option row, the reconciliation package that `models/data/inputs/votes-bills.csv` assigns it to, where it does.
 
@@ -38,7 +38,7 @@ No row is modeled as a supplemental, emergency or advance appropriation: nothing
 
 | Appropriation type | Rows |
 | --- | --- |
-| Direct spending provided by the law itself | 106 |
+| Direct spending provided by the law itself | 112 |
 | Unknown | 9 |
 | Authorized, subject to later appropriation | 8 |
 | Annual appropriation | 7 |
@@ -47,26 +47,26 @@ No row is modeled as a supplemental, emergency or advance appropriation: nothing
 
 | Budget authority | Rows |
 | --- | --- |
-| Equal to outlays (a benefit, entitlement or tax credit) | 77 |
+| Equal to outlays (a benefit, entitlement or tax credit) | 83 |
 | Derived from outlays at B2's discretionary spend-out rates (rough) | 24 |
 | Unknown | 15 |
 | Provided in full on enactment; amount not priced | 15 |
 | None (revenue, or no budget effect) | 2 |
 
-**What the discretionary spend-out shows.** For the 22 rows with discretionary budget authority, the library estimates that budget authority (the appropriations) behind the model's outlays: each year's appropriation is the outlays it pays for over B2's spend-out (`spendout-discretionary-cbo.csv`). Defense uses CBO's own rates, the average of its spend-out of three regular defense acts (five years, not fitted or scaled). Nondefense takes its four-year timing from OMB's history, with ground transportation taken out because its outlays run on contract authority (see below), and one scale makes CBO's projected budget authority give CBO's projected outlays. Rebuilt that way, CBO's discretionary outlays come back within 1.7% for defense (FY2030-36, a test, since nothing was fitted to them) and 1.4% for nondefense (FY2029-36, partly fitted), once the nondefense accounts with no discretionary budget authority are carried on their own. The 7 rows that are new nondefense programs needing new rules or delivery infrastructure (EDU-8, DEM-1, DEM-11, DEM-16, DEM-17, SAF-10, C34) use a slower placeholder instead, 10% in the first year and spent out over five, from CBO's estimates for ARRA and IIJA (`spendout-new-programs.csv`, `ASM-SPENDOUT-NEW`, DEC-2026-11-12-11). Over FY2030-39 that is $1.37 trillion of budget authority for $1.33 trillion of outlays. Another $0.11 trillion would have to be appropriated before FY2030, from FY2026 ($0.02 trillion of it for the new programs): at these rates only 25% of new nondefense budget authority (10% for a new program) is spent in its first year, so outlays that start at full speed in FY2030, as most profiles have them, need money enacted earlier. Budget authority before FY2029 cannot happen, so it reads as a sign that those profiles start faster than the money could be spent, not as money to enact; the outlays stay canonical. The scoring window does not count it (CONVENTIONS.md, choice 3).
+**What the discretionary spend-out shows.** For the 22 rows with discretionary budget authority, the library estimates that budget authority (the appropriations) behind the model's outlays: each year's appropriation is the outlays it pays for over B2's spend-out (`spendout-discretionary-cbo.csv`). Defense uses CBO's own rates, the average of its spend-out of three regular defense acts (five years, not fitted or scaled). Nondefense takes its four-year timing from OMB's history, with ground transportation taken out because its outlays run on contract authority (see below), and one scale makes CBO's projected budget authority give CBO's projected outlays. Rebuilt that way, CBO's discretionary outlays come back within 1.7% for defense (FY2030-36, a test, since nothing was fitted to them) and 1.4% for nondefense (FY2029-36, partly fitted), once the nondefense accounts with no discretionary budget authority are carried on their own. The 7 rows that are new nondefense programs needing new rules or delivery infrastructure (EDU-8, DEM-1, DEM-11, DEM-16, DEM-17, SAF-10, C34) use a slower placeholder instead, 10% in the first year and spent out over five, from CBO's estimates for ARRA and IIJA (`spendout-new-programs.csv`, `ASM-SPENDOUT-NEW`, DEC-2026-11-12-11). Over FY2030-39 that is $1.33 trillion of budget authority for $1.29 trillion of outlays. Another $0.11 trillion would have to be appropriated before FY2030, from FY2026 ($0.02 trillion of it for the new programs): at these rates only 25% of new nondefense budget authority (10% for a new program) is spent in its first year, so outlays that start at full speed in FY2030, as most profiles have them, need money enacted earlier. Budget authority before FY2029 cannot happen, so it reads as a sign that those profiles start faster than the money could be spent, not as money to enact; the outlays stay canonical. The scoring window does not count it (CONVENTIONS.md, choice 3).
 
-Spending that budget authority out at the same rates does not give back the model's outlays exactly, because the model's profiles start and stop faster than B2's rates allow. The largest FY2030-39 gaps, in billions: MOV-30 -25.4 in FY2036; MOV-29 -17.2 in FY2032; MOV-31 -11.9 in FY2037; CAP-7 -7.8 in FY2032; DEM-17 -2.0 in FY2036. The model's outlays stay canonical. The budget-authority figures are a diagnostic reading, not validated for spending-cap or official scoring use (Codex's review of #108); they are rough, because the shares' timing is OMB history's, not CBO's account-by-account rates (B2 README, "Spend-out set by CBO's projections").
+Spending that budget authority out at the same rates does not give back the model's outlays exactly, because the model's profiles start and stop faster than B2's rates allow. The largest FY2030-39 gaps, in billions: MOV-30 -25.4 in FY2036; MOV-29 -17.2 in FY2032; MOV-31 -11.9 in FY2037; CAP-7 -7.3 in FY2032; DEM-17 -2.0 in FY2036. The model's outlays stay canonical. The budget-authority figures are a diagnostic reading, not validated for spending-cap or official scoring use (Codex's review of #108); they are rough, because the shares' timing is OMB history's, not CBO's account-by-account rates (B2 README, "Spend-out set by CBO's projections").
 
 **Contract authority.** Highway and transit programs paid from the Highway Trust Fund get mandatory budget authority (contract authority) from their authorizing law, while annual appropriations acts cap how much may be obligated each year, so their outlays count as discretionary. CBO records them that way: in its February 2026 baseline, FY2026-2036, the trust fund's highway and transit accounts carry about $80 billion a year of mandatory contract authority (the FY2026 level, which CBO's baseline extends) and $78-89 billion a year of discretionary nondefense outlays (`models/data/budget/cbo-contract-authority.csv`). Those outlays have no discretionary budget authority to spend out, so the rebuild of CBO's outlays above carries them on their own. No ledger row is contract authority. Moving America's renewal top-ups (MOV-29, MOV-30) are general-fund appropriations to programs, made in addition to the trust fund's contract authority, which the bill keeps within each account's receipts (Draft 2 sec. 110; decision A-14). So they are scored as discretionary appropriations like the rest of those rows, with the conflict between their reconciliation rail and their discretionary category listed below.
 
 ## Unknown fields
 
-A field is `unknown` where the repository does not say. Nothing was guessed. For the 122 scored rows (and the 61 HOU-1 components):
+A field is `unknown` where the repository does not say. Nothing was guessed. For the 124 scored rows (and the 67 HOU-1 components):
 
 | Field | Unknown | Rows |
 | --- | --- | --- |
 | `category` | 0 | none |
-| `vehicle` | 14 | H1b, HX, G8, GX, CX, MR6, CXP, C5, C17, C19, C29, C33, C34, C36 |
+| `vehicle` | 16 | H1b, HX, IMM-EV, IF1T, G8, GX, CX, MR6, CXP, C5, C17, C19, C29, C33, C34, C36 |
 | `appropriation` | 9 | EDU-4, LAB-8, DEM-17, NSC-10, SAF-10, MOV-29, MOV-30, C17, C34 |
 | `budget_authority` | 15 | EDU-1, CLI-5, CLI-7, HOU-1, LAB-9, CLI-7C, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, CLI-2O, C29, C33 |
 | `start` | 0 | none |
@@ -84,8 +84,8 @@ The model always has a growth index and an end year (or none) for a scored row; 
 
 | Field | Stated | Model only | Stated for |
 | --- | --- | --- | --- |
-| `indexation_basis` | 9 | 174 | FAM-1, FAM-2, EDU-3, EDU-5, SS-1, DEM-11, CAP-7, C35, FAM-1/benefit |
-| `expiry_basis` | 27 | 156 | CLI-5, LAB-5, DEM-17, MOV-29, MOV-30, MOV-31, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, HOU-1/hou-1d-04-one-time-start, HOU-1/hou-3c-01-revolving-fund-grants, HOU-1/hou-3c-02-construction-loan-subsidy, HOU-1/hou-5-01-public-housing-repair, HOU-1/hou-6-01-zoning-reward, HOU-1/hou-8-01-social-housing-pilot, HOU-1/hou-4-10-recovery-housing, HOU-1/hou-4-12-wider-backstop-to-2035, HOU-1/hou-4-06-testing-grants, HOU-1/hou-10-01-down-payment-help, HOU-1/hou-11-01-manufactured-home-grants, HOU-1/hou-12-01-home-repair-fund, HOU-1/hou-14-02-section-502-at-scale, HOU-1/hou-14-03-rural-rental-fund-and-vouchers, HOU-1/hou-14-04-self-help-and-farmworker |
+| `indexation_basis` | 9 | 182 | FAM-1, FAM-2, EDU-3, EDU-5, SS-1, DEM-11, CAP-7, C35, FAM-1/benefit |
+| `expiry_basis` | 27 | 164 | CLI-5, LAB-5, DEM-17, MOV-29, MOV-30, MOV-31, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, HOU-1/hou-1d-04-one-time-start, HOU-1/hou-3c-01-revolving-fund-grants, HOU-1/hou-3c-02-construction-loan-subsidy, HOU-1/hou-5-01-public-housing-repair, HOU-1/hou-6-01-zoning-reward, HOU-1/hou-8-01-social-housing-pilot, HOU-1/hou-4-10-recovery-housing, HOU-1/hou-4-12-wider-backstop-to-2035, HOU-1/hou-4-06-testing-grants, HOU-1/hou-10-01-down-payment-help, HOU-1/hou-11-01-manufactured-home-grants, HOU-1/hou-12-01-home-repair-fund, HOU-1/hou-14-02-section-502-at-scale, HOU-1/hou-14-03-rural-rental-fund-and-vouchers, HOU-1/hou-14-04-self-help-and-farmworker |
 
 ## Each bill in its own CBO window
 
@@ -93,17 +93,17 @@ Budget choice 3 (DEC-2026-11-08-05, `ASM-BILL-WINDOW`): plan totals and the D4 t
 
 | Vehicle | Bills | Window | Over its window ($B) | Ten years after it ($B) | FY2029 unpriced |
 | --- | --- | --- | --- | --- | --- |
-| R1 | 11 | FY2029-2038 | 3167 | 3263 | FAM-1, MOV-29 |
+| R1 | 11 | FY2029-2038 | 3127 | 3263 | FAM-1, MOV-29 |
 | R2 | 26 | FY2030-2039 | 4903 | 6186 | none |
 | R3 | 5 | FY2031-2040 | 491 | 483 | none |
-| FLOOR | 30 | FY2029-2038, FY2030-2039 | 23664 | 64851 | none |
-| APPROPS | 7 | FY2029-2038, FY2030-2039 | 559 | 871 | none |
+| FLOOR | 30 | FY2029-2038, FY2030-2039 | 23951 | 65434 | none |
+| APPROPS | 7 | FY2029-2038, FY2030-2039 | 525 | 817 | none |
 
 The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill from adding to the deficit in any single year after its window; the test is year by year, so the last column, the sum of the ten years after the window, only shows where to look. It counts the bill's spending rows alone (its revenue is not assigned to it in the ledger, so a bill's net effect in those years is not yet known):
 
 | Row | Vehicle | Window | Over its window ($B) | Ten years after it ($B) |
 | --- | --- | --- | --- | --- |
-| CAP-7S | R1 | FY2029-2038 | 600.0 | 0.0 |
+| CAP-7S | R1 | FY2029-2038 | 560.0 | 0.0 |
 | FAM-1 | R1 | FY2029-2038 | 1731.7 | 2390.6 (FY2029 unpriced) |
 | HLT-1 | R1 | FY2029-2038 | 86.0 | 0.0 |
 | HLT-4 | R1 | FY2029-2038 | 393.7 | 244.8 |
@@ -146,7 +146,7 @@ The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill f
 | MOV-30 | R3 | FY2031-2040 | 74.3 | 0.0 |
 | SAF-10 | R3 | FY2031-2040 | 35.3 | 52.4 |
 
-Not assigned to a bill, in the decided program (scenario DEC): 27 rows (base revenue, the decided options and later-Congress bills: DEM-3, DEM-4, MOV-31, G1, H1b, HX, G3, G11, G5, G6, G7, G8, G9, G10, GX, CX, MR6, CXP, C18, C19b, C38, C20, C35, C39, C40, C41, C43), a deficit effect of -11.61 trillion dollars over FY2029-38 and -13.53 trillion over FY2030-39 (negative: revenue and savings). The declined options are left out.
+Not assigned to a bill, in the decided program (scenario DEC): 29 rows (base revenue, the decided options and later-Congress bills: DEM-3, DEM-4, MOV-31, G1, H1b, HX, IMM-EV, IF1T, G3, G11, G5, G6, G7, G8, G9, G10, GX, CX, MR6, CXP, C18, C19b, C38, C20, C35, C39, C40, C41, C43), a deficit effect of -11.62 trillion dollars over FY2029-38 and -13.55 trillion over FY2030-39 (negative: revenue and savings). The declined options are left out.
 
 ## Where the files disagree
 
