@@ -3418,6 +3418,2446 @@
   "checked": "2026-11-12"
  },
  {
+  "id": "EV-SEC-200",
+  "statement": "ARPA section 9611 raised the child tax credit for 2021 to $3,000 per child ($3,600 for a child under age 6), made it refundable, treated 17-year-olds as qualifying children, and reduced the increase by $50 for each $1,000 of income above $150,000 (joint), $112,500 (head of household) or $75,000 (other).",
+  "claim": "data",
+  "figures": [
+   "$3,000",
+   "$3,600",
+   "$50",
+   "$1,000",
+   "$150,000",
+   "$112,500",
+   "$75,000"
+  ],
+  "source": "SRC-3675",
+  "anchor": [
+   "SEC. 9611. CHILD TAX CREDIT IMPROVEMENTS FOR 2021.",
+   "``(2) 17-year-olds eligible for treatment as qualifying",
+   "subsection (a) shall be applied by substituting `$3,000 ($3,600",
+   "in the case of a qualifying child who has not attained age 6 as",
+   "regard to subsection (b)) shall be reduced by $50 for",
+   "each $1,000 (or fraction thereof) by which the",
+   "``(i) $150,000, in the case of a joint return",
+   "``(ii) $112,500, in the case of a head of",
+   "``(iii) $75,000, in any other case."
+  ],
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "Primary law: Public Law 117-2, signed March 11, 2021 (Biden administration, Democratic Congress, party-line vote). Applies to tax year 2021 only; the section states it covers taxable years beginning after December 31, 2020 and before January 1, 2022.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-201",
+  "statement": "ARPA directed Treasury to pay half (50 percent) of the estimated 2021 credit in advance, in equal periodic payments, with no payments before July 1, 2021 or after December 31, 2021.",
+  "claim": "data",
+  "figures": [
+   "50 percent",
+   "July 1, 2021",
+   "December 31, 2021"
+  ],
+  "source": "SRC-3675",
+  "anchor": [
+   "the Secretary as being equal to 50 percent of the amount which",
+   "taxpayer for any calendar year shall be in equal amounts.",
+   "``(1) any period before July 1, 2021, or",
+   "``(2) any period after December 31, 2021."
+  ],
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "Primary law (section 7527A as added by ARPA section 9611(b)). The statute says \"periodic payments in equal amounts\"; Treasury paid them monthly, six payments from July to December 2021.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-202",
+  "statement": "The Census Bureau's Supplemental Poverty Measure child poverty rate fell from 9.7 percent in 2020 to 5.2 percent in 2021, the lowest on record.",
+  "claim": "data",
+  "figures": [
+   "9.7 percent",
+   "5.2 percent",
+   "46 percent",
+   "4.5 percentage-point"
+  ],
+  "source": "SRC-3671",
+  "anchor": "The SPM child poverty rate fell 46 percent in 2021, from 9.7 percent in 2020 to 5.2 percent in 2021, a 4.5 percentage-point decline. This is the lowest SPM child poverty rate on record.",
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Official Census Bureau estimate from the CPS ASEC (published September 2022, Biden administration period). Census published a revised SPM threshold series in August 2026 (EV-SEC-207); the 2021 and 2022 child rates in this entry and EV-SEC-205 were published before that revision.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-203",
+  "statement": "The Census Bureau estimated that in 2021 the child tax credit lifted 5.3 million people out of poverty, including 2.9 million children (1 million under 6 and 1.9 million aged 6 to 17).",
+  "claim": "analysis",
+  "figures": [
+   "5.3 million",
+   "2.9 million",
+   "1 million",
+   "1.9 million"
+  ],
+  "source": "SRC-3670",
+  "anchor": [
+   "In 2021, the CTC lifted 5.3 million people out of poverty, including 2.9 million children (Figure below).",
+   "1 million children under 6.",
+   "1.9 million children between the ages of 6 and 17."
+  ],
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau staff (Burns, Fox, Wilson), September 2022, Biden administration period. A static SPM accounting: it recomputes poverty without the credit and assumes no change in earnings, so it is not a causal estimate of behavioural effects. Total credit, not only the 2021 expansion (see EV-SEC-204).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-208",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-219",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-204",
+  "statement": "Census estimated that the 2021 expansion alone lifted 2.1 million children out of poverty, and that without it the 2021 SPM child poverty rate would have been 8.1 percent, 2.9 percentage points higher.",
+  "claim": "analysis",
+  "figures": [
+   "2.1 million",
+   "8.1 percent",
+   "2.9",
+   "2021"
+  ],
+  "source": "SRC-3672",
+  "anchor": [
+   "reveals that the 2021 expansions of the CTC lifted 2.1 million children out of poverty. These results can",
+   "All else equal, if the CTC had not been expanded in 2021, child poverty would have been 8.1 percent, 2.9",
+   "percentage points higher than it actually was in 2021."
+  ],
+  "grade": "C",
+  "fact_date": "2022",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau working paper (Burns and Fox), 2022: holds the credit at its 2020 level, refundability and eligibility. Static, no behavioural response. The paper notes the expanded credit reached about 88 percent of children (Treasury estimate).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-219",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-205",
+  "statement": "The SPM child poverty rate more than doubled from 5.2 percent in 2021 to 12.4 percent in 2022, a 7.2 percentage-point increase.",
+  "claim": "data",
+  "figures": [
+   "5.2 percent",
+   "12.4 percent",
+   "7.2 percentage points"
+  ],
+  "source": "SRC-0300",
+  "anchor": [
+   "SPM rates more than doubled for",
+   "of 18) in 2022, increasing 7.2 percentage points, from 5.2 percent",
+   "in 2021 to 12.4 percent in 2022."
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Official Census Bureau estimate (P60-280, September 2023, Biden administration period). August 2026 threshold revision (EV-SEC-207) lowered overall SPM rates for 2019-2023 by 0.1 to 0.3 points; a child-specific revised series was not retrieved.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-206",
+  "statement": "Census attributed the rise in SPM poverty after 2021 largely to the end of pandemic stimulus payments and tax credits, and said the number of children in SPM poverty rose by over 5.0 million from 2021.",
+  "claim": "analysis",
+  "figures": [
+   "5.0 million",
+   "2021"
+  ],
+  "source": "SRC-3673",
+  "anchor": [
+   "The increase was largely the result of the end of stimulus payments and tax credits in effect during the COVID-19 pandemic that had lowered the SPM rate to its lowest level ever in 2021.",
+   "the number of children in poverty using the full SPM increased by over 5.0 million children from 2021."
+  ],
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau staff (Burns and Creamer), September 2023, Biden administration period. The expiry bundled the child credit with three rounds of stimulus payments, an expanded earned income credit and other aid, so the rise cannot be assigned to the child credit alone; inflation also peaked in 2022.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-208",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-220",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-207",
+  "statement": "On July 17, 2026, the Bureau of Labor Statistics corrected the Supplemental Poverty Measure threshold series for 2019 to 2024; Census says the corrected overall rates are 0.1 to 0.3 percentage points lower for 2019 to 2023 and 12.9% to 13.0% in 2024, with no meaningful change in the trend.",
+  "claim": "data",
+  "figures": [
+   "July 17, 2026",
+   "2019",
+   "2024",
+   "0.1 to 0.3 percentage points",
+   "12.9% to 13.0%"
+  ],
+  "source": "SRC-3674",
+  "anchor": [
+   "On July 17, 2026, the Bureau of Labor Statistics (BLS) corrected the SPM historical poverty threshold series from 2019 to 2024",
+   "lower than estimates published in Shrider and Bijou (2025) for 2019 to 2023 by 0.1 to 0.3 percentage points and marginally higher (12.9% to 13.0%) in 2024."
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Census Bureau paper (Creamer, August 19, 2026), second Trump administration period; a technical correction by career staff. Flag for the dossier: SPM figures published before July 2026 (including the 5.2% and 12.4% child rates) should be re-checked against the revised series before they are quoted as final.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-208",
+  "statement": "Columbia's Center on Poverty and Social Policy estimated that the monthly child poverty rate rose from 12.1 percent in December 2021 to 17 percent in January 2022, or 3.7 million more children in poverty, after the monthly credit payments ended.",
+  "claim": "analysis",
+  "figures": [
+   "12.1 percent",
+   "17 percent",
+   "3.7 million",
+   "December 2021",
+   "January 2022"
+  ],
+  "source": "SRC-3684",
+  "anchor": [
+   "The monthly child poverty rate increased from 12.1 percent in December 2021 to 17 percent in January 2022",
+   "represents 3.7 million more children in poverty due to the expiration of the monthly Child Tax Credit payments."
+  ],
+  "locator": "Opening paragraph of the brief",
+  "grade": "C",
+  "fact_date": "2022-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-15",
+  "context": "Columbia University Center on Poverty and Social Policy (Parolin, Collyer, Curran), February 17, 2022; the authors supported the expanded credit. A monthly forecast built on the SPM, not a survey count of January 2022; Census does not publish monthly poverty.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-203",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-220",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-209",
+  "statement": "Shafer and colleagues found the first advance payment in July 2021 was associated with a roughly 26 percent drop in food insufficiency among households with children (25.9 percent in the event-study model, 16.4 percent in a difference-in-differences model).",
+  "claim": "analysis",
+  "figures": [
+   "26%",
+   "25.9%",
+   "16.4%",
+   "585 170"
+  ],
+  "source": "SRC-3683",
+  "anchor": [
+   "In this cross-sectional study using repeated surveys of a nationally representative sample of US households, the introduction of advance payments for the Child Tax Credit was associated with a significant reduction in household food insufficiency of approximately 26%.",
+   "The survey had 585 170 responses, representing a weighted population size of 77 165 153 households.",
+   "a 25.9% relative reduction",
+   "a 16.4% decline"
+  ],
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer-reviewed JAMA Network Open, January 2022 (Boston University). Quasi-experimental event study and difference-in-differences on the Census Household Pulse Survey, January 6 to August 2, 2021; households with children against households without. Self-reported food insufficiency, not an administrative measure. The authors note it covers only the first payment wave.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-210",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-211",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-210",
+  "statement": "Parolin and colleagues found the monthly credit payments reduced food insufficiency among families with children by at least 2.4 percentage points (19 percent), while the lump-sum payment instead reduced being behind on housing payments by at least 1.2 percentage points (10 percent).",
+  "claim": "analysis",
+  "figures": [
+   "2.4 percentage points",
+   "19%",
+   "1.2 percentage points",
+   "10%",
+   "943,568"
+  ],
+  "source": "SRC-0333",
+  "anchor": [
+   "among a sample of 943,568 respondents",
+   "The monthly CTC payments reduced food insufficiency among families with children by at least 2.4 percentage points (19%), but the lump-sum payment did not reduce food insufficiency.",
+   "with children were behind on housing payments by at least 1.2 percentage points (10%)."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Columbia CPSP working paper (Parolin and others), September 2022; the authors supported the expanded credit. Difference-in-differences on the Household Pulse Survey, April 2021 to May 2022. Self-reported hardship.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-209",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-211",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-211",
+  "statement": "Pilkauskas and colleagues found the 2021 monthly child tax credit reduced the number of hardships low-income families experienced, especially food insecurity, using a parameterized difference-in-differences design.",
+  "claim": "analysis",
+  "figures": [
+   "2021"
+  ],
+  "source": "SRC-3688",
+  "anchor": "We find that the 2021 monthly CTC reduced the number of hardships families experienced, especially food insecurity.",
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer-reviewed (Journal of Population Economics, December 2024), University of Michigan and Wisconsin authors; survey-based, with very-low-income families. Shaefer is a co-founder of Rx Kids.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-209",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-212",
+  "statement": "Ananat and colleagues, using the Current Population Survey and the Census Pulse from April through December 2021, found very small, inconsistently signed and statistically insignificant effects of the expanded credit on employment and labor force participation among adults in households with children.",
+  "claim": "analysis",
+  "figures": [
+   "April through December 2021"
+  ],
+  "source": "SRC-3686",
+  "anchor": [
+   "using data from the monthly Current Population Survey and the Census Pulse, both from April through December 2021.",
+   "we find very small, inconsistently signed, and statistically insignificant impacts of the CTC both on employment in the prior week and on active participation in the labor force among adults living in households with children."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper, March 2022 (Ananat, Glasner, Hamilton, Parolin; Columbia-affiliated authors who supported the expanded credit). Observed short-window difference-in-differences: six months of payments in a pandemic year, with a temporary policy. Corinth and Meyer argue the design cannot detect a slow response (EV-SEC-221).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-221",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-213",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-214",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-216",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-213",
+  "statement": "Enriquez, Jones and Tedeschi found no strong evidence of a change in labor supply for families receiving the monthly credit, and their confidence intervals rule out a labor supply elasticity of 0.005.",
+  "claim": "analysis",
+  "figures": [
+   "0.005"
+  ],
+  "source": "SRC-3687",
+  "anchor": [
+   "We do not find strong evidence of a change in labor supply for families receiving the credit.",
+   "we rule out an extensive labor supply elasticity of 0.005"
+  ],
+  "locator": "Abstract; Section 4 results (NBER w31110 text)",
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "AEA Papers and Proceedings, 2023 (Enriquez, Jones, Tedeschi). Current Population Survey difference-in-differences and triple differences comparing families by credit size, July to December 2021. The elasticity bound refers to a temporary change in the return to work.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-212",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-221",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-214",
+  "statement": "Pilkauskas and colleagues found the monthly credit had no impact on labor supply among very-low-income families.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3688",
+  "anchor": "We find weak evidence that the credit reduced medical hardships and reliance on friends and family for food and that it had no impact on labor supply.",
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer-reviewed (Journal of Population Economics, December 2024), Michigan and Wisconsin authors. Parameterized difference-in-differences on survey data for very-low-income families. A short window in a pandemic year.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-212",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-215",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-215",
+  "statement": "Pac and Berger found a statistically nonsignificant decline in employment of approximately 344,000 to 495,000 caregivers relative to childless adults after the monthly payments began on July 15, 2021, and described the decline as at most relatively small.",
+  "claim": "analysis",
+  "figures": [
+   "344,000",
+   "495,000",
+   "July 15, 2021"
+  ],
+  "source": "SRC-3695",
+  "anchor": [
+   "monthly CTC payments were, at most, associated with a relatively small decline in employment among caregivers.",
+   "statistically nonsignificant decline in employment of approximately 344,000 to 495,000 caregivers relative to childless adults.",
+   "before and after monthly payments commenced on July 15, 2021"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer-reviewed (Journal of Policy Analysis and Management, 2023), Columbia and Wisconsin authors. Event study and difference-in-differences, caregivers against childless workers. The point estimate is negative; it is not statistically distinguishable from zero. The authors report more employment among caregivers with two or more children than with one.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-212",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-216",
+  "statement": "Schanzenbach and Strain concluded that employment within broadly defined demographic groups was not reduced by the 2021 changes, but found evidence of reduced employment among mothers with relatively low levels of education.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3694",
+  "anchor": [
+   "Our review of available research suggests that employment within broadly defined demographic groups was not reduced by the 2021 CTC changes.",
+   "However, we present evidence that employment was reduced among mothers with relatively low levels of education"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper, June 2024 (Schanzenbach, Northwestern; Strain, AEI). A literature review plus new Current Population Survey estimates. The authors list four reasons 2021 may differ from a permanent policy: the expansion was temporary, expected to lapse, pandemic-era, and during school and child care disruption.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-212",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-213",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-217",
+  "statement": "In Schanzenbach and Strain's Current Population Survey estimates, the effect for unmarried women with some college or less was negative and statistically significant, implying a 4.5 percentage-point reduction in employment during the advance payments.",
+  "claim": "analysis",
+  "figures": [
+   "4.5 percentage-point"
+  ],
+  "source": "SRC-3694",
+  "anchor": "The treatment effect is negative and statistically significant and implies a 4.5 percentage-point reduction in employment during the advance CTC payments.",
+  "locator": "Appendix discussion of Table 1 (column 4)",
+  "grade": "B",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper, June 2024 (Schanzenbach, Northwestern; Strain, AEI). A narrow subgroup (low-education, unmarried women) in a monthly CPS sample, April to December 2021; the pooled and broader-group estimates are small and not statistically significant. A subgroup estimate chosen after seeing the data is less reliable.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-212",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-214",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-223",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-218",
+  "statement": "Corinth, Meyer, Stadnicki and Wu simulated that replacing the child tax credit with a child allowance (the 2021 Build Back Better design) would lead 1.5 million workers (2.6% of working parents) to leave work, so child poverty would fall by at most 22% rather than the 34% a static count gives.",
+  "claim": "analysis",
+  "figures": [
+   "1.5 million",
+   "2.6%",
+   "22%",
+   "34%"
+  ],
+  "source": "SRC-3689",
+  "anchor": [
+   "Initially ignoring any behavioral responses, we estimate that the replacement of the CTC would reduce child poverty by 34% and deep child poverty by 39%.",
+   "we estimate that this change in policy would lead 1.5 million workers (constituting 2.6% of all working parents) to exit the labor force.",
+   "child poverty would only fall by at most 22%"
+  ],
+  "locator": "Abstract",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper, October 2021 (Corinth, Meyer: AEI and University of Chicago; the authors favour work-conditioned aid). A simulation of a permanent policy using labor supply elasticities from the literature, not observed 2021 behavior. Bastian's simulation finds 367,000 (EV-SEC-219); the gap comes from elasticity assumptions and from whether higher-income and married parents respond.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-219",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-212",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-216",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-223",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-219",
+  "statement": "Bastian's preferred simulation predicted that a permanent 2021 credit would lead 367,000 parents to stop working and cut child poverty by 28 percent and deep poverty by 49 percent, or 3.1 million and 1.5 million children.",
+  "claim": "analysis",
+  "figures": [
+   "367,000",
+   "28 percent",
+   "49 percent",
+   "3.1 million",
+   "1.5 million"
+  ],
+  "source": "SRC-3690",
+  "anchor": [
+   "How Would a Permanent 2021 Child Tax Credit Expansion Affect Poverty and Employment?",
+   "My preferred approach predicts that 367,000 parents would stop working, and child poverty and deep poverty would decrease by 28 percent and 49 percent, representing 3.1 million and 1.5 million children, respectively."
+  ],
+  "locator": "Abstract",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "National Tax Journal, May 2024 (Jacob Bastian, who served as a Biden administration CEA economist). A simulation with assumed participation elasticities (0.4 for unmarried mothers, 0.2 for other mothers, 0.05 for fathers). The paper shows child poverty still falls 20 percent under the most extreme elasticities tested.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-220",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-203",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-220",
+  "statement": "Winship (AEI) argued that applying Corinth and colleagues' elasticities to Bastian's own changes in the return to work gives about 1.8 million single mothers, or 15 percent of them, leaving work, not the 22 percent Bastian reports for the high case.",
+  "claim": "analysis",
+  "figures": [
+   "1.8 million",
+   "15 percent",
+   "22 percent"
+  ],
+  "source": "SRC-3692",
+  "anchor": [
+   "The total comes to about 1.8 million single mothers, or 15 percent of them.",
+   "Bastian, however, reports 22 percent using his unusable numbers"
+  ],
+  "locator": "Body, paragraph after note 6",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "AEI commentary (Scott Winship), February 6, 2024; a conservative think tank, not peer reviewed. Winship disputes Bastian's choice of elasticities and base numbers. It argues for large work responses to the CTC and EITC, the opposite view of Bastian.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-219",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-221",
+  "statement": "Corinth and Meyer argued that the Ananat study cannot rule out substantial employment effects because of its timing assumptions, an assumption of instant response, wide confidence intervals and a lack of controls for other changes.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3691",
+  "anchor": "These flaws include incorrectly characterizing the timing and magnitude of the changes in work incentives, assuming instantaneous response when the literature suggests long lags, wide confidence intervals that include substantial effects, and a failure to control for other changing factors.",
+  "locator": "Introduction, second paragraph",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Note by Kevin Corinth and Bruce Meyer (University of Chicago and AEI), October 2021, authors of the competing simulation. An adversarial critique, not peer reviewed. Their point that the incentive change began when the law passed in March 2021, not in July, is a design argument, not a contrary estimate.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-212",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-222",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-213",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-222",
+  "statement": "The Niskanen Center said the Corinth simulation's estimate of 1.5 million fewer workers differs substantially from earlier estimates, which generally found limited employment effects and larger poverty reductions (usually around 40 percent).",
+  "claim": "analysis",
+  "figures": [
+   "1.5 million",
+   "40 percent"
+  ],
+  "source": "SRC-3693",
+  "anchor": [
+   "They find that the CTC expansion proposed by the Biden administration (and currently being debated for permanent renewal by Congress) would reduce total employment by 1.5 million",
+   "which have generally found limited effects on employment as well as larger effects on poverty reduction (usually around 40 percent)."
+  ],
+  "locator": "Opening paragraph",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Niskanen Center blog post (Matt Darling), October 8, 2021; a centrist think tank that favoured an expanded credit. Opinion commentary, not peer reviewed.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-221",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-213",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-223",
+  "statement": "Strauss and colleagues estimated that aggregate employment would have been about one percentage point lower if the fully refundable 2021 credit had been in effect in 2019, and that more targeted designs could expand benefits with smaller or positive employment effects.",
+  "claim": "analysis",
+  "figures": [
+   "2021",
+   "2019"
+  ],
+  "source": "SRC-3697",
+  "anchor": [
+   "We estimate that aggregate employment would have declined by about one percentage point if the fully refundable 2021 version of the CTC had been in effect during 2019.",
+   "Other, more targeted, policy options could expand CTC benefits with smaller negative or positive employment effects."
+  ],
+  "locator": "Abstract",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "SSRN working paper, June 2025 (Strauss, Burman, Crandall-Hollick, Hardy, McClelland; several authors at the Urban-Brookings Tax Policy Center). A structural simulation on Panel Study of Income Dynamics data, 1997-2019, not peer reviewed. TPC researchers generally favour a more generous credit but report a negative employment effect.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-219",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-224",
+  "statement": "Goldin and colleagues, using administrative tax records and quasi-random birth timing, found that eliminating the work requirement in a California child tax credit caused very few mothers to exit the labor force, with a 95% confidence interval that excludes reductions over one-third of one percent.",
+  "claim": "analysis",
+  "figures": [
+   "95%"
+  ],
+  "source": "SRC-3696",
+  "anchor": "Eliminating the work requirement caused very few mothers to exit the labor force; our 95% confidence interval excludes reductions over one-third of one percent.",
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper, April 2024 (Goldin, Homonoff, Lal, Lurie, Michelmore, Unrath). Quasi-experimental, administrative tax data, California only (the state YCTC, a smaller credit than the 2021 federal one). This is the most precise estimate of the pure work-requirement effect found; it is not a federal estimate. The brief's \"Lourie et al. 2025\" was not found; this paper (with author Lurie) is the closest match.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-217",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-213",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-215",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-225",
+  "statement": "The National Academies report estimated that child poverty costs the nation roughly $800 billion to $1.1 trillion a year in lost adult productivity, higher crime costs and higher health costs.",
+  "claim": "analysis",
+  "figures": [
+   "$800 billion",
+   "$1.1 trillion"
+  ],
+  "source": "SRC-3698",
+  "anchor": "Studies estimate that child poverty costs the nation roughly between $800 billion and $1.1 trillion annually in terms of lost adult productivity, the increased costs of crime, and increased health expenditures.",
+  "locator": "Report highlights, page 1",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "National Academies consensus study report, 2019, requested by Congress (Trump first administration period). A synthesis of prior economic studies, not a new estimate; the range is wide and depends on the causal effect assumed for income on adult outcomes.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-232",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-233",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-227",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-226",
+  "statement": "The National Academies modelled two packages that would cut child poverty in half at $90.7 billion and $108.8 billion a year; the second included a $225 a month child allowance.",
+  "claim": "analysis",
+  "figures": [
+   "$90.7 billion",
+   "$108.8 billion",
+   "$225 per month"
+  ],
+  "source": "SRC-3698",
+  "anchor": [
+   "This package of programs would reduce both poverty and deep poverty by half, at an estimated cost of $90.7 billion per year.",
+   "Instituting a new child allowance that pays a monthly benefit of $225 per month ($2,700 per year) to families of all children under age 17.",
+   "This package is estimated to cost $108.8 billion per year"
+  ],
+  "locator": "Report highlights, \"Two policy packages\"",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "National Academies consensus report, 2019 (this entry omits the lower-cost $44.5 billion package, which cut child poverty by 36 percent). Simulation of packages on pre-2018 tax law with labor supply elasticities; the means-tested package added about 400,000 workers and the universal package over 600,000 jobs on the committee's elasticities. Dollar costs are 2015-law-era and not current.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-219",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-227",
+  "statement": "In the Baby's First Years randomized trial, after four years the $333 a month transfer, against $20 a month, had no statistically significant effect on four preregistered child outcomes: language, executive function, social-emotional problems and high-frequency brain activity.",
+  "claim": "analysis",
+  "figures": [
+   "$333",
+   "$20",
+   "four preregistered primary outcomes"
+  ],
+  "source": "SRC-3699",
+  "anchor": [
+   "randomized to receive either $333/month or $20/month for the first several years of their children's lives.",
+   "we find no statistically significant impacts of the cash transfers on four preregistered primary outcomes (language, executive function, social-emotional problems, and high-frequency brain activity)"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper, May 2025 (Noble, Magnuson, Duncan, Gennetian, Yoshikawa and others). RCT of 1,000 mothers below the poverty line recruited in 2018-19 in New York, New Orleans, Omaha and Minneapolis-St. Paul; foundation-funded; four years of payments during the pandemic when other aid was large. The lead authors said the result surprised them. Possible explanations include effects emerging later.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-228",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-229",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-232",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-228",
+  "statement": "In the first Baby's First Years result, infants in the high-cash group showed more power in high-frequency EEG bands at about age one (n = 435), although the significance of estimates varied with the analytic specification.",
+  "claim": "analysis",
+  "figures": [
+   "435"
+  ],
+  "source": "SRC-3700",
+  "anchor": [
+   "using resting electroencephalography (EEG; n = 435).",
+   "Indeed, infants in the high-cash gift group showed more power in high-frequency bands.",
+   "although the significance of estimates varied with the analytic specification."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "PNAS, January 2022 (Troller-Renfree, Costanzo, Duncan, Magnuson, Gennetian and others). RCT subsample; the pandemic truncated in-person data collection. The authors cautioned against policy conclusions from the first year; the age-four direct assessments did not confirm a lasting effect (EV-SEC-227).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-227",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-229",
+  "statement": "AEI argued that income assistance requiring work, in the form of the EITC, has shown the strongest evidence of boosting kids' development, while evidence for support not tied to work is weaker or relies on the food stamp rollout over half a century ago.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3701",
+  "anchor": [
+   "Income assistance that requires work, in the form of the Earned Income Tax Credit (EITC), has shown the strongest evidence of boosting kids’ development.",
+   "The evidence for support not tied to work is generally weaker or relies on evidence from over half a century ago"
+  ],
+  "locator": "Body, third paragraph after the block quote",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "AEI commentary (Sarah Jeddy), July 30, 2025; a conservative think tank, not peer reviewed. It also notes the trial ran during the pandemic and results could differ in normal times.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-227",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-251",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-232",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-230",
+  "statement": "In the OpenResearch randomized trial (two states, $1,000 a month for three years versus $50 a month), treated participants' income excluding the transfers fell by about $1,900 a year, labor market participation fell 4.2 percentage points, and work hours fell by 1-2 hours a week, with partners reducing hours by a comparable amount.",
+  "claim": "analysis",
+  "figures": [
+   "$1,000",
+   "$50",
+   "$1,900",
+   "4.2 percentage point",
+   "1-2 hours",
+   "three years"
+  ],
+  "source": "SRC-3702",
+  "anchor": [
+   "randomized into receiving $1,000 per month unconditionally for three years, with a control group of 2,000 participants receiving $50/month.",
+   "excluding the transfers to fall by about $1,900/year relative to the control group and a 4.2 percentage point decrease in labor market participation.",
+   "Participants reduced their work hours as a result of the transfers by 1–2 hours/week and participants’ partners reduced their work hours by a comparable amount."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Quarterly Journal of Economics 141(4), published August 2026 (Vivalt, Rhodes, Bartik, Broockman, Krause, Miller). RCT of 3,000 low-income adults aged 21-40 in Illinois and Texas, 2020-2023; funded by Sam Altman via OpenResearch. Not parents specifically and unconditional at far higher amounts than the child credit. The July 2024 working paper reported different figures (about $1,500 a year, a 2.0 point drop, 1.3 to 1.4 hours a week); this entry uses the published version.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-224",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-212",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-231",
+  "statement": "A difference-in-differences study found Rx Kids, which pays Flint mothers $1500 in pregnancy and $500 a month for the first year, was associated with relative reductions of 13 to 18 percent in preterm births and 22 to 27 percent in low birthweight compared with Flint's baseline rates.",
+  "claim": "analysis",
+  "figures": [
+   "$1500",
+   "$500",
+   "13–18%",
+   "22–27%"
+  ],
+  "source": "SRC-3703",
+  "anchor": [
+   "providing every expectant mother US$1500 mid-pregnancy and $500 monthly after birth until age 1 year.",
+   "these improvements corresponded to a 13–18% relative reduction in preterm birth rates and a 22–27% relative reduction in low birthweight rates."
+  ],
+  "locator": "Methods/Findings; Introduction",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "The Lancet Public Health, 2026 (percentage-point estimates 2.7 and 4.2 against matched cities; Agarwal, Shaefer, Zamani-Hank, Finegood, LaChance). Quasi-experimental, one city (Flint, Michigan, a low-income community) with a universal programme starting January 2024; the authors include the programme's co-founder. An undergraduate thesis found little robust evidence on core birth outcomes with synthetic control methods (not peer reviewed), so the estimate depends on the comparison group.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-227",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-250",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-232",
+  "statement": "Hoynes, Schanzenbach and Almond found that access to food stamps in childhood, as the program rolled out across counties from 1961 to 1975, led to a significant reduction in metabolic syndrome in adulthood and, for women, an increase in economic self-sufficiency.",
+  "claim": "analysis",
+  "figures": [
+   "1961",
+   "1975"
+  ],
+  "source": "SRC-3704",
+  "anchor": [
+   "We focus on the introduction of the Food Stamp Program, which was rolled out across counties between 1961 and 1975.",
+   "access to food stamps in childhood leads to a significant reduction in the incidence of metabolic syndrome and, for women, an increase in economic self-sufficiency."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "American Economic Review, April 2016. Quasi-experimental (county rollout dates), Panel Study of Income Dynamics. In-kind food aid, not cash; mid-twentieth-century levels of deprivation were far higher than today, which limits transfer to a modern child benefit.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-233",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-227",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-225",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-233",
+  "statement": "Aizer and colleagues found that male children of accepted Mothers' Pension applicants lived one year longer than those of rejected mothers, with one-third more schooling and higher adult income; the transfers generally represented 12-25 percent of family income.",
+  "claim": "analysis",
+  "figures": [
+   "12–25 percent"
+  ],
+  "source": "SRC-3705",
+  "anchor": [
+   "Male children of accepted applicants lived one year longer than those of rejected mothers.",
+   "They also obtained one-third more years of schooling, were less likely to be underweight, and had higher income in adulthood than children of rejected mothers.",
+   "The transfers generally represented 12–25 percent of family income"
+  ],
+  "locator": "Abstract; Introduction",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "American Economic Review, April 2016. Natural-experiment design comparing accepted and rejected applicants (Mothers' Pension, 1911-1935, 11 states, children born 1900-1925). The authors caution about drawing conclusions for the twenty-first century.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-232",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-227",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-225",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-234",
+  "statement": "Canada's Canada Child Benefit pays up to $8,157 a year for each child under 6 and $6,883 for each child aged 6 to 17 for the benefit year starting July 2026; the amounts start to be reduced when adjusted family net income exceeds $38,237, at 7% for one child, 13.5% for two, 19% for three and 23% for four or more up to $82,847.",
+  "claim": "data",
+  "figures": [
+   "$8,157",
+   "$6,883",
+   "$38,237",
+   "$82,847",
+   "7%",
+   "13.5%",
+   "19%",
+   "23%"
+  ],
+  "source": "SRC-3708",
+  "anchor": [
+   "$8,157 per year ($679.75 per month) for each eligible child under the age of 6",
+   "$6,883 per year ($573.58 per month) for each eligible child aged 6 to 17",
+   "the reduction is 7% of the amount of AFNI greater than $38,237 up to $82,847",
+   "the reduction is 13.5% of the amount of AFNI greater than $38,237 up to $82,847",
+   "the reduction is 19% of the amount of AFNI greater than $38,237 up to $82,847",
+   "the reduction is 23% of the amount of AFNI greater than $38,237 up to $82,847"
+  ],
+  "locator": "\"How you can expect to receive\" section of the guide",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "Official Government of Canada programme parameters for the benefit year July 2026 to June 2027 (Carney Liberal government). No phase-in: the benefit is paid at the maximum from the first dollar of income, so there is no work requirement or earnings test.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-235",
+  "statement": "Above $82,847 of adjusted family net income, the Canada Child Benefit reduction is a fixed amount plus a lower rate: $3,123 plus 3.2% for one child, $6,022 plus 5.7% for two, $8,476 plus 8% for three, and $10,260 plus 9.5% for four or more.",
+  "claim": "data",
+  "figures": [
+   "$82,847",
+   "$3,123",
+   "3.2%",
+   "$6,022",
+   "5.7%",
+   "$8,476",
+   "8%",
+   "$10,260",
+   "9.5%"
+  ],
+  "source": "SRC-3708",
+  "anchor": [
+   "for income greater than $82,847, the reduction is $3,123 plus 3.2% of AFNI greater than $82,847",
+   "for income greater than $82,847, the reduction is $6,022 plus 5.7% of AFNI greater than $82,847",
+   "for income greater than $82,847, the reduction is $8,476 plus 8% of AFNI greater than $82,847",
+   "for income greater than $82,847, the reduction is $10,260 plus 9.5% of the amount of AFNI greater than $82,847"
+  ],
+  "locator": "\"How you can expect to receive\" section of the guide",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "Official Government of Canada parameters, July 2026 to June 2027. The two-step reduction means high marginal tax rates only in the middle range ($38,237 to $82,847), where rates reach 23% for large families, adding to income tax.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-236",
+  "statement": "The Canada Child Benefit is a tax-free monthly benefit adjusted for inflation, paid from July to June on the previous calendar year's adjusted family net income; about 3.5 million families received $26.3 billion in 2023-24.",
+  "claim": "data",
+  "figures": [
+   "3.5 million",
+   "$26.3 billion",
+   "2023-24"
+  ],
+  "source": "SRC-3709",
+  "anchor": [
+   "The Canada Child Benefit (CCB) is a tax-free, monthly benefit adjusted for inflation",
+   "The CCB is paid monthly to eligible parents over a 12-month period from July to June each benefit year, with the CCB entitlement based on the adjusted family net income (AFNI) for the calendar year before the beginning of the benefit year.",
+   "About 3.5 million families received the CCB in 2023-24, Footnote 4 receiving $26.3 billion in total benefits."
+  ],
+  "locator": "Part 9, opening and \"Eligibility\" paragraphs",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Department of Finance Canada tax expenditure report, 2026. Official description of an income-tested monthly benefit assessed by the Canada Revenue Agency on the annual tax return; the benefit has been indexed to inflation since 2018.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-237",
+  "statement": "The Canada Revenue Agency determines each year whether a family is entitled to child benefit payments when the family files its tax return.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3710",
+  "anchor": "The Canada Revenue Agency (CRA) determines if you are entitled to CCB payments each year when you file your tax return.",
+  "locator": "Opening paragraph",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Official Canada Revenue Agency description. Delivery through tax filing means non-filers do not receive the benefit automatically, a coverage gap noted in Canadian research.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-238",
+  "statement": "Under Canada's Market Basket Measure (2018 base), the poverty rate for people under 18 was 9.4% in 2019, 4.7% in 2020, 6.4% in 2021, 9.9% in 2022 and 10.7% in 2023.",
+  "claim": "data",
+  "figures": [
+   "9.4",
+   "4.7",
+   "6.4",
+   "9.9",
+   "10.7",
+   "2019",
+   "2020",
+   "2021",
+   "2022",
+   "2023"
+  ],
+  "source": "SRC-3711",
+  "anchor": [
+   "Persons living below the poverty line (Market Basket Measure, 2018 base), Canada",
+   "2019 2020 2021 2022 2023",
+   "Persons under 18 years 2 665 333 462 735 802 9.4 4.7 6.4 9.9 10.7"
+  ],
+  "locator": "Table 3, rows \"Persons under 18 years\" (share of population)",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-04-30",
+  "context": "Statistics Canada Canadian Income Survey (Table 11-10-0135-01), May 2025. The 2020-21 dip reflects pandemic benefits that were withdrawn by 2022; the later rise happened with the CCB unchanged in structure. The 2018-base line was replaced by the 2023-base line in November 2025.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-239",
+  "statement": "Under the 2023-base Market Basket Measure, the poverty rate for people under 18 was 5.2% in 2020, 7.0% in 2021, 10.7% in 2022, 12.1% in 2023 and 11.5% in 2024.",
+  "claim": "data",
+  "figures": [
+   "5.2",
+   "7.0",
+   "10.7",
+   "12.1",
+   "11.5",
+   "2020",
+   "2021",
+   "2022",
+   "2023",
+   "2024"
+  ],
+  "source": "SRC-3712",
+  "anchor": [
+   "2020 2021 2022 2023 2024",
+   "Persons under 18 years 1 370 509 795 916 893 5.2 7.0 10.7 12.1 11.5"
+  ],
+  "locator": "Table 3, rows \"Persons under 18 years\" (share of population)",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-04-30",
+  "context": "Statistics Canada Canadian Income Survey, April 29, 2026, Table 11-10-0135-01. The 2023-base series became official in November 2025 and starts in 2020; rates are higher than the 2018-base series for the same years, so the two series must not be spliced.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-240",
+  "statement": "The Government of Canada reported that the child poverty rate was 10.7 percent in 2023, down from 16.3 percent in 2015.",
+  "claim": "data",
+  "figures": [
+   "10.7 percent",
+   "16.3 percent",
+   "2015",
+   "2023"
+  ],
+  "source": "SRC-3713",
+  "anchor": "the poverty rate for children was 10.7 percent in 2023 and is higher than the overall poverty rate of 10.2 percent, but continues to reflect a significant decrease from the poverty rate of 16.3 percent in 2015.",
+  "locator": "Question Period note, key messages",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-04-30",
+  "context": "Employment and Social Development Canada briefing note, June 2025 (Carney government), citing the 2018-base Market Basket Measure. A ministerial briefing note is promotional about its own programme and attributes the fall to the CCB; the fall also coincides with pandemic aid, rising wages and a tight labor market.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-241",
+  "statement": "Baker, Messacar and Stabile found that both the 2015 expansion of the Universal Child Care Benefit and the 2016 Canada Child Benefit reduced child poverty, with the CCB having the greater effect, and found no labor supply response on the extensive or intensive margin.",
+  "claim": "analysis",
+  "figures": [
+   "2015",
+   "2016"
+  ],
+  "source": "SRC-3714",
+  "anchor": [
+   "within the context of the 2015 expansion of the Canadian Universal Child Care Benefit (UCCB) and the 2016 introduction of the Canada Child Benefit (CCB).",
+   "Our analysis indicates that both reforms reduced child poverty, although the Canada Child Benefit had the greater effect. We find no evidence of a labor supply response to either of the program reforms on either the extensive or intensive margins."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper, March 2021 (Baker, Messacar, Stabile; published by University of Chicago Press, 2023). Difference-in-differences comparing single mothers with single childless women, tax-filer data (LAD), Canadian Income Survey and Labour Force Survey. Canada is a different institutional setting: income-tested, universal child care later, and no phase-in work requirement.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-242",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-212",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-240",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-242",
+  "statement": "The same paper warned that its two data sources disagreed on the size of the CCB effect: using the Market Basket Measure and the Canadian Income Survey, the reduction following the CCB was much smaller, partly because poverty also fell for the childless comparison group.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3714",
+  "anchor": [
+   "the reduction following the introduction of the CCB is much smaller.",
+   "it is much smaller following the introduction of the CCB, primarily because poverty declined for both treatment and control groups.",
+   "the difference in the inference from the LAD and CIS prevents strong conclusions about the relative impacts of the two policy reforms."
+  ],
+  "locator": "Introduction and Conclusion",
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Baker, Messacar and Stabile (NBER w28556, 2021). The authors note that the childless-women control group is imperfect and that non-experimental evaluation has limits; the single-mother low-income-measure fall of about 5 points (a 12% decline) is in the administrative data only.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-241",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-235",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-243",
+  "statement": "The Universal Credit (Removal of Two Child Limit) Act received Royal Assent on 18 March 2026, and removal of the two-child limit from Universal Credit takes effect from 6 April 2026.",
+  "claim": "data",
+  "figures": [
+   "18 March 2026",
+   "6 April 2026"
+  ],
+  "source": "SRC-3716",
+  "anchor": [
+   "The Universal Credit (Removal of Two Child Limit Act) received Royal Assent on 18 March 2026.",
+   "The removal of the two-child limit from Universal Credit takes effect from 6 April 2026."
+  ],
+  "locator": "Notes to editors",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-04-06",
+  "context": "UK Department for Work and Pensions press release, 19 March 2026 (Labour government). Statutory fact reported by the government; the estimates in its text are promotional.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-244",
+  "statement": "The UK government estimates removing the two-child limit would leave 450,000 fewer children in relative low income after housing costs in the final year of the parliament (financial year ending 2030), compared with baseline projections.",
+  "claim": "analysis",
+  "figures": [
+   "450,000",
+   "2030"
+  ],
+  "source": "SRC-3715",
+  "anchor": "It is estimated that there will be 450,000 fewer children in relative low income after housing costs in the final year of parliament (financial year ending (FYE) 2030) as a result of removing the two-child limit, compared to baseline projections.",
+  "locator": "Opening section",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "UK Department for Work and Pensions microsimulation (Policy Simulation Model on the Family Resources Survey, consistent with OBR November 2025 forecasts), published with the Budget of 26 November 2025. Government analysis of its own policy; static aside from a take-up response. The Commons Library gives the cost as £2.4 billion in 2026/27 rising to £3.2 billion in 2030/31 (EV-SEC-245).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-246",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-245",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-245",
+  "statement": "The House of Commons Library summary of the November 2025 Budget says removing the two-child limit is expected to cut the number of children in poverty by 450,000 by 2029/30, at a forecast cost of £2.4 billion in 2026/27 rising to £3.2 billion in 2030/31.",
+  "claim": "data",
+  "figures": [
+   "450,000",
+   "£2.4 billion",
+   "£3.2 billion"
+  ],
+  "source": "SRC-3717",
+  "anchor": "This change is expected to reduce the number of children in poverty by 450,000 by 2029/30, compared with what it otherwise would have been. The cost is forecast to be £2.4 billion in 2026/27 and then rise, reaching £3.2 billion in 2030/31.",
+  "locator": "\"Other announcements\"",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-04-06",
+  "context": "House of Commons Library, a nonpartisan research service, November 27, 2025, relaying the Office for Budget Responsibility's costing.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-246",
+  "statement": "The Institute for Fiscal Studies estimated that reversing the two-child limit would lift 540,000 children over the absolute poverty line at an eventual cost of £2.5 billion a year, but that 70,000 of the poorest households would see the gains partly or fully wiped out by the household benefit cap.",
+  "claim": "analysis",
+  "figures": [
+   "540,000",
+   "£2.5 billion",
+   "70,000"
+  ],
+  "source": "SRC-3718",
+  "anchor": [
+   "Reversing the two-child limit would pull 540,000 children over the absolute poverty line",
+   "This would be at an eventual cost of £2.5 billion a year",
+   "But 70,000 of the poorest households subject to the two-child limit would see the gains from its reversal partially or fully wiped out by the household benefit cap"
+  ],
+  "locator": "Key findings list",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Institute for Fiscal Studies (independent UK research institute), Green Budget, October 2024, funded by the Nuffield Foundation and produced with Citi. Uses the absolute poverty line (the government uses relative low income), so numbers differ from the DWP figure.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-244",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-247",
+  "statement": "Eissa and Liebman found that between 1984-1986 and 1988-1990 single women with children increased their relative labor force participation by up to 2.8 percentage points after the 1986 expansion, with no change in relative hours for those already working.",
+  "claim": "analysis",
+  "figures": [
+   "2.8 percentage points",
+   "1984–1986",
+   "1988–1990"
+  ],
+  "source": "SRC-3719",
+  "anchor": "We find that between 1984–1986 and 1988–1990, single women with children increased their relative labor force participation by up to 2.8 percentage points. We observe no change in the relative hours worked by single women with children who were already in the labor force.",
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "1996",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Quarterly Journal of Economics, May 1996. Difference-in-differences around the Tax Reform Act of 1986, single mothers versus single women without children, Current Population Survey. A small expansion; Kleven (2024) questions whether such designs isolate the credit.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-252",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-248",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-253",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-248",
+  "statement": "Meyer and Rosenbaum found that a large share of the 1984-1996 increase in work by single mothers can be attributed to the EITC and other tax changes, with smaller shares for welfare benefit cuts, waivers, training and child care programs.",
+  "claim": "analysis",
+  "figures": [
+   "1984–1996"
+  ],
+  "source": "SRC-3720",
+  "anchor": [
+   "During 1984–1996, welfare and tax policy were changed to encourage work by single mothers.",
+   "We show that a large share of the increase in work by single mothers can be attributed to the EITC and other tax changes, with smaller shares for welfare benefit cuts, welfare waivers, training programs and child care programs."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2001",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Quarterly Journal of Economics, August 2001 (Meyer, a co-author of the Corinth et al. simulation). Combines several policy changes; the 1990s welfare reform overlap is the confounder Kleven emphasises.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-252",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-247",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-253",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-249",
+  "statement": "Hoynes and Patel found that a policy-induced $1000 increase in the EITC reduced by 8.4 percentage points the share of single-mother families with after-tax-and-transfer income below 100% of poverty, and that static counts may understate the EITC's antipoverty effect by almost 50 percent by ignoring its effect on earnings.",
+  "claim": "analysis",
+  "figures": [
+   "$1000",
+   "8.4 percentage point",
+   "100%",
+   "50 percent"
+  ],
+  "source": "SRC-3721",
+  "anchor": [
+   "a policy-induced $1000 increase in the EITC leads to an 8.4 percentage point reduction in the share of families with after tax and transfer income below 100% poverty.",
+   "static calculations of the anti-poverty effects of the EITC (such as those released based on the Supplemental Poverty Measure) may be underestimated by almost 50 percent."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Journal of Human Resources 53(4), 2018. Quasi-experimental, single mothers with children versus those without or with fewer children, 1986 and 1993 expansions; the employment-driven part of the result rests on the contested extensive-margin effect (Kleven 2024).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-252",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-253",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-250",
+  "statement": "Hoynes, Miller and Simon found that a $1,000 treatment-on-the-treated increase in EITC income leads to a 2 to 3 percent decline in low birth weight.",
+  "claim": "analysis",
+  "figures": [
+   "$1,000",
+   "2 to 3 percent"
+  ],
+  "source": "SRC-3706",
+  "anchor": "a $1,000 treatment-on-the-treated leads to a 2 to 3 percent decline in low birth weight.",
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "American Economic Journal: Economic Policy, February 2015. Difference-in-differences across federal EITC expansions, single low-education mothers. Evidence of mechanism: more prenatal care, less smoking.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-231",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-251",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-251",
+  "statement": "Bastian and Michelmore found that an additional $1,000 of EITC exposure when a child is 13-18 raises the likelihood of completing high school by 1.3%, college by 4.2% and young-adult employment by 1.0%, and earnings by 2.2%, mainly through higher family earnings.",
+  "claim": "analysis",
+  "figures": [
+   "$1,000",
+   "13–18",
+   "1.3%",
+   "4.2%",
+   "1.0%",
+   "2.2%"
+  ],
+  "source": "SRC-3707",
+  "anchor": [
+   "an additional $1,000 in EITC exposure when a child is 13–18 years old increases the likelihood of completing high school (1.3%), completing college (4.2%), and being employed as a young adult (1.0%) and earnings by 2.2%.",
+   "the primary channel through which the EITC improves these outcomes is increases in pretax family earnings."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Journal of Labor Economics 36(4), 2018. Quasi-experimental use of four decades of federal and state EITC variation. Relies on the credit raising family earnings, which Kleven (2024) contests for the extensive margin.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-232",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-252",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-252",
+  "statement": "Kleven found that apart from the federal 1993 reform, EITC expansions are not associated with clear and robust effects on employment, with about 500 event-study estimates distributed symmetrically around zero, and argued the 1993 gains align more with welfare reform and the economy than with the EITC.",
+  "claim": "analysis",
+  "figures": [
+   "1993",
+   "500"
+  ],
+  "source": "SRC-3722",
+  "anchor": [
+   "Apart from the federal 1993 reform, EITC expansions are not associated with any clear and robust effects on employment. Treatment impact estimates from about 500 event studies are symmetrically distributed around zero.",
+   "the paper shows that these increases align more closely with confounding effects from welfare reform and the macroeconomy than with the EITC."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper 2019; published in the Journal of Public Economics 236 (August 2024), not Econometrica as the brief had it (Henrik Kleven, Princeton). Re-analysis of every state and federal EITC reform since 1975 using event studies. The estimate concerns employment entry, not income, poverty or child outcomes; the credit may still raise incomes of workers.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-253",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-247",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-249",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-248",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-255",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-253",
+  "statement": "Schanzenbach and Strain, studying all federal expansions since 1975, found that a $1,000 increase in the maximum credit is associated with a 3.0 to 3.3 percentage-point increase in employment among unmarried mothers with low education, and reconciled their results with Kleven by adopting his methodological choices.",
+  "claim": "analysis",
+  "figures": [
+   "$1,000",
+   "3.0 to 3.3 percentage point",
+   "1975"
+  ],
+  "source": "SRC-3723",
+  "anchor": [
+   "This paper takes a longer view, studying all federal expansions since the program’s inception in 1975. We find robust evidence that EITC expansions increase the extensive margin of labor supply.",
+   "a $1,000 increase in the size of the maximum credit is associated with a 3.0 to 3.3 percentage point increase in employment among unmarried mothers with low levels of education.",
+   "We are able to reconcile our results by adopting his methodological choices."
+  ],
+  "locator": "Abstract; Introduction",
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper 2020, published in Tax Policy and the Economy 35 (2021) (Schanzenbach, Northwestern; Strain, AEI). Directly answers Kleven's working paper: they say the differences come from business-cycle controls, sample choice (all unmarried women) and the outcome measure (worked last week versus last year).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-252",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-247",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-254",
+  "statement": "The Paycheck Plus randomized trial in New York City (about 6,000 single adults without dependent children) found the larger credit raised employment by 2.6 percentage points in Year 2 and 2.1 in Year 3 (1.9 over three years) and after-bonus earnings by $635 a year.",
+  "claim": "analysis",
+  "figures": [
+   "6,000",
+   "2.6 percentage points",
+   "2.1 percentage points",
+   "1.9 percentage points",
+   "$635"
+  ],
+  "source": "SRC-3724",
+  "anchor": [
+   "where over 6,000 low-income single adults without dependent children enrolled in the study in late 2013.",
+   "increased employment rates in Year 2 and Year 3, by 2.6 percentage points and 2.1 percentage points, respectively.",
+   "Over the full three-year period, the program increased the average annual employment rate by 1.9 percentage points.",
+   "for a statistically significant increase of $635, or about a 6 percent increase"
+  ],
+  "locator": "Executive Summary",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "MDRC (nonprofit evaluator), 2018. RCT in New York City, bonus up to $2,000 for childless adults earning up to $30,000, 2014-2016. Effects larger for women and disadvantaged men. The sample is a self-selected urban group.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-255",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-252",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-253",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-255",
+  "statement": "The Paycheck Plus randomized trial in Atlanta (about 4,000 single adults without dependent children) increased after-bonus earnings by $775 in the first year but neither increased nor reduced employment over three years.",
+  "claim": "analysis",
+  "figures": [
+   "4,000",
+   "$775",
+   "three years"
+  ],
+  "source": "SRC-3725",
+  "anchor": [
+   "about 4,000 single adults with low incomes were recruited to take part in the study.",
+   "for a statistically significant increase of $775, or about 8 percent.",
+   "It neither increased nor reduced employment during the program’s three years."
+  ],
+  "locator": "Executive summary",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "MDRC (nonprofit evaluator), 2022. RCT in Atlanta, 2017-2019; unlike New York, the offer did not raise employment, and it did not reduce work effort in the phase-out range, the design concern. Low bonus receipt (45 percent of eligibles in Year 3) limits the dose.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-254",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-252",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-256",
+  "statement": "For 2021 only, ARPA doubled the childless EITC phase-in and phase-out rates from 7.65% to 15.3%, raised the maximum credit from $543 to $1,502, and lowered the minimum age from 25 to 19 for most workers; CRS put the one-year cost at $11.9 billion.",
+  "claim": "data",
+  "figures": [
+   "7.65%",
+   "15.3%",
+   "$543",
+   "$1,502",
+   "25",
+   "19",
+   "$11.9"
+  ],
+  "source": "SRC-3681",
+  "anchor": [
+   "increases the rate at which the credit phases in, from 7.65% to",
+   "15.3%; nearly triples the maximum amount of the credit from $543 to $1,502;",
+   "ARPA also temporarily (for 2021 only) reduces the minimum age of eligibility from 25 to 19 for most",
+   "The budgetary cost of this one-year expansion is estimated to be $11.9"
+  ],
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "CRS (nonpartisan) description of ARPA section 9621, 2021. Temporary; expired after tax year 2021. The credit reverted to a maximum of $543 (indexed) and ages 25 to 64.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-257",
+  "statement": "The Tax Policy Center reported that 4.3 million young workers without children received an average credit of almost $900 in 2021 from the temporary childless EITC expansion.",
+  "claim": "data",
+  "figures": [
+   "4.3 million",
+   "$900",
+   "2021"
+  ],
+  "source": "SRC-3726",
+  "anchor": "4.3 million young workers without children received an average credit of almost $900 in 2021",
+  "locator": "Opening summary",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Urban-Brookings Tax Policy Center (nonpartisan), 2024, using IRS-based tabulations. A count of recipients and credit size, not a labor supply effect. The Paycheck Plus RCTs are the experimental evidence on childless credits (EV-SEC-254, EV-SEC-255).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-258",
+  "statement": "For fiscal year 2025 the IRS estimated the EITC improper payment rate at 32.7 percent ($21.1 billion of $64.7 billion) and the additional child tax credit rate at 13.6 percent, within a 26.5 percent overall rate for four refundable credits.",
+  "claim": "data",
+  "figures": [
+   "32.7 percent",
+   "$21.1",
+   "$64.7",
+   "13.6 percent",
+   "26.5 percent"
+  ],
+  "source": "SRC-3682",
+  "anchor": [
+   "32.7 percent for the EITC.",
+   "improper payment rates for these four programs ranged from 13.6 percent for the ACTC to",
+   "26.5 percent and the total estimated improper payments were approximately $28.1 billion.",
+   "$64.7",
+   "$21.1"
+  ],
+  "locator": "Results summary and Figure 1",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-27",
+  "context": "Treasury Inspector General for Tax Administration, July 27, 2026 (independent inspector general, second Trump administration period), relaying Treasury's FY2025 financial report for tax year 2023 returns. Improper payments include overclaims from errors as well as fraud; the rate is an estimate from audits and has been above 20 percent for years.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-259",
+  "statement": "Section 70104 of the 2025 reconciliation law made the earlier law's child tax credit changes permanent and permanently raised the maximum credit to $2,200 per child (adjusted for inflation), with a Social Security number required for the taxpayer and the child.",
+  "claim": "data",
+  "figures": [
+   "70104",
+   "$2,200"
+  ],
+  "source": "SRC-3011",
+  "anchor": [
+   "Section 70104 of the law",
+   "This provision makes permanent the TJCA's changes to the credit and permanently raises the maximum credit to $2,200 per child (adjusted for inflation).",
+   "This provision also requires the taxpayer to provide a work-eligible SSN for themselves (or, if married filing jointly, either themselves or their spouse) and the child for whom they are claiming the credit."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-07-01",
+  "context": "CRS (nonpartisan) description of the enacted law (P.L. 119-21, July 4, 2025). The refundable portion is still limited to $1,700 per child for 2025 and requires earned income; CRS notes the credit applies from 2025 onward.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-260",
+  "statement": "H.R. 2763, the American Family Act, was introduced April 9, 2025 by Representative DeLauro and referred to the Ways and Means Committee",
+  "claim": "data",
+  "figures": [
+   "H.R. 2763",
+   "April 9, 2025"
+  ],
+  "source": "SRC-3676",
+  "anchor": [
+   "H. R. 2763",
+   "April 9, 2025",
+   "Ms. DeLauro (for herself,",
+   "Hernandez) introduced the following bill; which was referred to the",
+   "Committee on Ways and Means"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-03",
+  "context": "Bill text as introduced (GPO). Introduced in the minority (Democratic) in the Republican-controlled 119th Congress; no committee action. The Senate text S. 1393 is a separate saved text; see EV-SEC-261.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-261",
+  "statement": "S. 1393 was introduced April 9, 2025 by Mr. Bennet with Mr. Booker, Mr. Warnock and other senators, and read twice and referred to the Committee on Finance.",
+  "claim": "data",
+  "figures": [
+   "S. 1393",
+   "April 9, 2025"
+  ],
+  "source": "SRC-3677",
+  "anchor": [
+   "S. 1393",
+   "April 9, 2025",
+   "Mr. Bennet (for himself, Mr. Booker, Mr. Warnock,",
+   "which was read twice and referred to the Committee on Finance"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-03",
+  "context": "Bill text as introduced (GPO), 119th Congress, identical title and text to H.R. 2763. Democratic minority bill; no committee action.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-262",
+  "statement": "H.R. 2763 would pay a monthly child tax credit of $300 for each child who has attained age 6 and 120 percent of that for a child under 6, with 800 percent of the base amount in a newborn's first month, for children younger than 18.",
+  "claim": "data",
+  "figures": [
+   "$300",
+   "6",
+   "120 percent",
+   "800 percent",
+   "18"
+  ],
+  "source": "SRC-3676",
+  "anchor": [
+   "H. R. 2763",
+   "``(A) $300, with respect to each specified child of",
+   "have attained age 6, plus",
+   "``(B) 120 percent of the dollar amount in effect",
+   "month, subparagraph (B) shall be applied by substituting `800",
+   "percent' for `120 percent'.",
+   "not, as of the close of such month, have attained age",
+   "18,"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-03",
+  "context": "Bill text as introduced, April 9, 2025. Would replace the 2025 law's $2,200 credit (EV-SEC-259) with a monthly credit; CPSP computes the equivalents as $360 a month under 6 and a $2,400 newborn month (EV-SEC-265). The amounts are indexed (EV-SEC-263).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-263",
+  "statement": "H.R. 2763 would reduce the monthly credit by one-twelfth of 5 percent of modified adjusted gross income above $150,000 for joint returns and $112,500 for other filers (initial reduction), with a secondary reduction of 5 percent above $400,000 joint and $300,000 for other filers, and would index the $300 amount for months after 2025.",
+  "claim": "data",
+  "figures": [
+   "5 percent",
+   "$150,000",
+   "$112,500",
+   "$400,000",
+   "$300,000",
+   "$300"
+  ],
+  "source": "SRC-3676",
+  "anchor": [
+   "H. R. 2763",
+   "``(A) Initial reduction.--The monthly specified",
+   "reduced (but not below zero) by \\1/12\\ of 5",
+   "``(I) $150,000, in the case of a",
+   "``(III) $112,500, in any other",
+   "``(I) $400,000, in the case of a",
+   "``(III) $300,000, in any other",
+   "the $300 amount in paragraph (1)(A) shall be increased"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-03",
+  "context": "Bill text as introduced, April 9, 2025. The phase-out ends the extra amount first and then reduces the base; indexing keys to CPI over 2024 for the monthly amount and to 2022 for the initial thresholds.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-264",
+  "statement": "H.R. 2763 would allow no credit unless the return includes the name and taxpayer identification number of the qualifying child, issued by the return's due date, and defines a specified child as a citizen, national or resident of the United States (or a legally adopted child of a citizen or national).",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3676",
+  "anchor": [
+   "H. R. 2763",
+   "``(e) Identification Requirements.--",
+   "the name and taxpayer identification number of such qualifying",
+   "child on the return of tax for the taxable year and such",
+   "taxpayer identification number was issued on or before the due",
+   "``(i) is a citizen, national, or resident",
+   "of the United States, or"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-03",
+  "context": "Bill text as introduced, April 9, 2025. The text asks for a \"taxpayer identification number\", not specifically a Social Security number; the 2025 law now requires work-eligible SSNs for the credit (EV-SEC-259). The bill also adds a care-from-the-taxpayer test for the child.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-265",
+  "statement": "Columbia's CPSP describes the 2025 American Family Act as setting maximum credits of $300 a month for children 6 to 17 and $360 a month for children under 6, indexed to inflation, with a $2,400 payment after a birth.",
+  "claim": "data",
+  "figures": [
+   "$300",
+   "$360",
+   "$2,400"
+  ],
+  "source": "SRC-3685",
+  "anchor": [
+   "sets maximum Child Tax Credit values of $300 per month ($3,600 per year) for children ages 6",
+   "to 17, $360 per month ($4,320 per year) for children under age 6, and introduces a new $2,400",
+   "payment after the birth of a child."
+  ],
+  "locator": "Appendix A",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-03",
+  "context": "Columbia CPSP brief, 2025; CPSP researchers favour an expanded credit. Descriptive reading of the bill text (EV-SEC-262); the $360 and $2,400 are CPSP's computation of the bill's 120 and 800 percent multiples.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-266",
+  "statement": "The Tax Policy Center estimated the American Family Act would cost about $1.4 trillion over 10 years (FY2026-FY2035), and that the lowest-income families' average credit would more than triple from $1,660 to $5,470.",
+  "claim": "analysis",
+  "figures": [
+   "$1.4 trillion",
+   "FY2026",
+   "FY2035",
+   "$1,660",
+   "$5,470"
+  ],
+  "source": "SRC-3730",
+  "anchor": [
+   "TPC estimates that the AFA would cost about $1.4 trillion over 10 years (FY2026-FY2035).",
+   "The lowest-income families would see their average credit more than triple under the AFA from $1,660 to $5,470"
+  ],
+  "locator": "\"Other considerations\" and Figure 2 text",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Urban-Brookings Tax Policy Center (nonpartisan), TaxVox, June 2026; microsimulation; the FY2026-FY2035 window suggests a baseline of current law including the 2025 law's $2,200 credit, but the extract read does not state the baseline. Static: the post notes concerns about work effects and says research suggests the effect on work would be modest. Not a JCT or CBO score.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-267",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-268",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-267",
+  "statement": "PolicyEngine estimated the American Family Act would cost $2.5 trillion from 2025 to 2034 and cut child poverty by 25.2 percent, on static assumptions.",
+  "claim": "analysis",
+  "figures": [
+   "$2.5 trillion",
+   "2025",
+   "2034",
+   "25.2%"
+  ],
+  "source": "SRC-3731",
+  "anchor": [
+   "Costs $2.5 trillion from 2025 to 2034",
+   "Lowers the Supplemental Poverty Measure by 11.4% and child poverty by 25.2%"
+  ],
+  "locator": "Key results",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "PolicyEngine (nonprofit open-source microsimulation), June 16, 2025, measured against a baseline in which the 2017 credit expires after 2025 (before the 2025 law made the $2,200 credit permanent), so it records a higher cost than TPC's $1.4 trillion above a current-law baseline. Two analyses differ by baseline, not necessarily by method.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-266",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-268",
+  "statement": "Columbia's CPSP estimated that, had it been in place in 2024, the American Family Act credit would have cut the child poverty rate from 13.3% to 8.8% and moved an additional 3.3 million children above the poverty line, without modelling behavioural responses.",
+  "claim": "analysis",
+  "figures": [
+   "13.3%",
+   "8.8%",
+   "3.3 million",
+   "2024"
+  ],
+  "source": "SRC-3685",
+  "anchor": [
+   "If instead, the AFA Child Tax Credit had been in effect in 2024, the child poverty rate could have been 8.8%.",
+   "reducing the child poverty rate from 13.3% to 8.8% (or by 33.6%) and moving an additional 3.3 million children above the poverty line.",
+   "The model used to produce these results does not account for any possible behavioral responses to the reform."
+  ],
+  "locator": "Key findings; Figure 1 note",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Columbia CPSP, 2025 (Parolin and colleagues, who favour an expanded credit). Static SPM model on CPS ASEC with 100% take-up; the brief also reports results under assumed employment responses. The 2024 starting rate is CPSP's own calculation.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-266",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-218",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-269",
+  "statement": "H.R. 7024 would have raised the maximum refundable portion of the child tax credit, calculated per child, to $1,800 for 2023, $1,900 for 2024 and $2,000 for 2025.",
+  "claim": "data",
+  "figures": [
+   "$1,800",
+   "$1,900",
+   "$2,000",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "source": "SRC-3678",
+  "anchor": [
+   "SEC. 101. PER-CHILD CALCULATION OF REFUNDABLE PORTION OF CHILD TAX",
+   "H. R. 7024",
+   "``(i) in the case of taxable year 2023,",
+   "`$1,800',",
+   "``(ii) in the case of taxable year 2024,",
+   "`$1,900', and",
+   "``(iii) in the case of taxable year 2025,",
+   "`$2,000'.''."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-03",
+  "context": "Bill text as passed by the House, January 31, 2024 (Wyden-Smith agreement). It also included business tax provisions; the child credit changes were temporary through 2025. Not enacted.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-270",
+  "statement": "The Tax Relief for American Families and Workers Act of 2024 passed the House 357 to 70 in January 2024.",
+  "claim": "data",
+  "figures": [
+   "357",
+   "70"
+  ],
+  "source": "SRC-3727",
+  "anchor": "the House approved the legislation in a 357 to 70 vote later in the month",
+  "locator": "Third paragraph from the end",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-03",
+  "context": "CBS News report, August 1, 2024. The vote record is on congress.gov (Roll no. 30, January 31, 2024), which the saving tool could not retrieve.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-271",
+  "statement": "On August 1, 2024, the Senate rejected cloture on the motion to proceed to H.R. 7024 with 48 yeas, short of the three-fifths required.",
+  "claim": "data",
+  "figures": [
+   "August 1, 2024",
+   "48",
+   "3/5"
+  ],
+  "source": "SRC-3679",
+  "anchor": [
+   "Vote Date: August 1, 2024, 01:49 PM",
+   "Required For Majority: 3/5",
+   "Vote Result: Cloture on the Motion to Proceed Rejected",
+   "Measure Number: H.R. 7024",
+   "YEAs 48"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-03",
+  "context": "Official Senate roll call 230, 118th Congress, 2nd Session. The bill did not become law.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-272",
+  "statement": "CBS reported that the child credit expansion in the House-passed Wyden-Smith bill would cost roughly $33 billion according to the Congressional Budget Office, and could lift roughly half a million children out of poverty according to the Center on Budget and Policy Priorities.",
+  "claim": "analysis",
+  "figures": [
+   "$33 billion"
+  ],
+  "source": "SRC-3727",
+  "anchor": [
+   "The credit expansion would cost roughly $33 billion, according to the Congressional Budget Office.",
+   "it could still lift roughly half a million children out of poverty, according to the Center on Budget and Policy Priorities."
+  ],
+  "locator": "Fifth and eighth paragraphs",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CBS News, August 1, 2024, relaying CBO's cost and an advocacy group's (CBPP) poverty estimate. CBPP supports expanding the credit. The CBO document itself was not retrieved; check against the CBO/JCT estimate before quoting.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-268",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-273",
+  "statement": "Senator Romney's Family Security Act (February 2021) would pay $350 a month for each young child and $250 a month for each school-aged child through the Social Security Administration, with a $50 reduction for each $1,000 above $200,000 (single) or $400,000 (joint), and would eliminate the State and Local Tax deduction to remain deficit-neutral.",
+  "claim": "data",
+  "figures": [
+   "$350",
+   "$250",
+   "$50",
+   "$1,000",
+   "$200,000",
+   "$400,000"
+  ],
+  "source": "SRC-3728",
+  "anchor": [
+   "amounting to $350 a month for each young child, and $250 a month for each school-aged child",
+   "Administered monthly through the Social Security Administration and available to all",
+   "The annual child benefit is reduced by $50 for every $1,000 above the current Child Tax Credit",
+   "(CTC) income phaseout thresholds of $200,000 for single-filers and $400,000 for joint-filers.",
+   "In order to remain deficit-neutral and provide certainty for families,",
+   "it also eliminates the State and Local"
+  ],
+  "locator": "Pages 1-2 (\"How it works\" and \"How it's paid for\")",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-03",
+  "context": "Romney's own one-pager (Republican, Utah), February 2021. A sponsor's summary of a proposal introduced as a budget amendment, not a bill with a score from CBO; no vote was taken to enact it. It also ended the head-of-household status and the TANF block grant per other summaries.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-274",
+  "statement": "The Penn Wharton Budget Model estimated that Senator Romney's Family Security Act would cost $283 billion over the budget window, not counting the proposal's SNAP and TANF changes, for a child allowance of $350 a month for children 0-5 and $250 a month for children 6 through 17.",
+  "claim": "analysis",
+  "figures": [
+   "$283 billion",
+   "$350",
+   "$250",
+   "0-5",
+   "6 through 17"
+  ],
+  "source": "SRC-3729",
+  "anchor": [
+   "PWBM projects that this proposal would cost $283 billion over the budget window, not including proposed changes to SNAP eligibility and elimination of TANF.",
+   "The act would provide a fully-refundable child allowance of $4,200 annually ($350 per month) per child ages 0-5, and $3,000 annually ($250 per month)",
+   "per child ages 6 through 17."
+  ],
+  "locator": "Summary and Table 1",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Penn Wharton Budget Model (University of Pennsylvania; nonpartisan), February 24, 2021. The model counts ending head of household status, the child care credit and the SALT deduction as offsets; most of the offset comes from repealing the SALT deduction after the 2017 law's cap expires in 2026. Superseded by FSA 2.0, which has a work test.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-273",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-275",
+  "statement": "Senators Romney, Burr and Daines' Family Security Act 2.0 (June 15, 2022) proposed up to $350 a month for each child aged 0-5 and $250 a month for each child aged 6-17, up to six children, full benefit only with earned income of $10,000, administered by the Social Security Administration; it was released as a summary, without bill text.",
+  "claim": "data",
+  "figures": [
+   "June 15, 2022",
+   "$350",
+   "$250",
+   "$10,000"
+  ],
+  "source": "SRC-3680",
+  "anchor": [
+   "Act 2.0 (FSA 2.0) on June 15, 2022, with the child tax credit (including the",
+   "Under FSA 2.0, families with children would be eligible for a monthly cash benefit of up to $350 per",
+   "This benefit would be a cash payment administered by the Social Security",
+   "month for each young child (aged 0-5) and $250 per month for each older child (aged 6-17) for up to six",
+   "children. Pregnant families could receive an additional payment of $700 per month during the last four",
+   "earned income is between $0 and $10,000.",
+   "FSA 2.0 has been released as a summary proposal, without introduction (as yet) of bill text."
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-03",
+  "context": "CRS (nonpartisan) comparison table, August 2, 2022 (Congressional Research Service, 117th Congress). A proposal by Senate Republicans in the minority; the work test ($10,000 a year, indexed, phased in proportionally) is the main design change from the 2021 version. The date June 15, 2022 is from the same CRS sentence on the proposal summary.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
   "id": "EV-SEC-300",
   "statement": "BLS reports that 27% of private industry employees had access to employer-provided paid family leave in March 2023; the 2024 and 2025 estimates did not meet BLS publication standards, so 2023 is the latest published year.",
   "claim": "data",
