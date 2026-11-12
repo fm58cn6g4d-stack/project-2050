@@ -80,6 +80,7 @@ All program scenarios include every program row (with MOV-31 and DEM-3, which th
 | BASE-R1 | Baseline with interest rates 1 point higher from 2030, phased in as debt rolls over | — | — | 121.4 | 138.4 | 162.0 | 217.4 | 10.6 | 3.28 |
 | DEC+TRIMS | Decided plus the five trims declined in Decision Brief 2 (reference only) | 23.26 | 20.63 | 123.5 | 169.8 | 232.8 | 370.4 | 14.6 | 8.96 |
 | DEC-CAUT | Decided, at the cautious end: every bill at its ledger high cost and every base revenue row at its low yield (disclosure, not a test) | 36.19 | 35.64 | 132.4 | 198.6 | 287.4 | 478.9 | 18.8 | 12.65 |
+| DEC+FY29 | Decided, with the priced FY2029 line on the debt path (disclosure; FY2029 rows still unpriced are listed) | 23.94 | 21.46 | 124.2 | 171.4 | 235.0 | 373.7 | 14.7 | 9.07 |
 
 "GF" is the general fund (what D4's pay-for rule governs). "Unified" adds the dedicated channels, mainly SS-1's surplus; it is what moves debt held by the public. Negative numbers reduce deficits.
 
@@ -127,6 +128,17 @@ Reading the tests:
 - "Social-insurance funds whole on 75 years" is tested in legacy/index/dedicated-funds.md, not here (on SSA's 2026 scores the D8 baseline closes about 64% of the 75-year gap and SS-5 brings it to about 84%).
 - The fiscal gap (scenario table) is the reported sustainability track.
 - **Disclosed beside the tests, not tests** (budget choices 2, 4 and 5; DEC-2026-11-08-04, -06 and -07). *DEC-CAUT* is the cautious end: every bill at its ledger high cost and every base revenue row at its low yield, each on its own profile (options, climate rows and the dynamic table have no ledger range and stay central). It adds $12.24T to the ten-year unified primary deficit. *DEC-R1* is the one-point interest stress, phased in as debt rolls over. The midpoints at CBO's rates decide; these two columns show how far the readings move. The general-fund rows (GF balance and GF-attributable debt) are the reading without Social Security beside the unified guardrails.
+
+## FY2029, disclosed (budget choice 3)
+
+Plan totals and the D4 tests keep FY2030-39 (DEC-2026-11-08-05). FY2029 is priced as a separate line, read on the debt path as scenario DEC+FY29 (models/data/inputs/fiscal-fy2029.csv, ASM-FY2029-LINE). Priced: CAP-7S $5.0B. Unpriced, not zero: FAM-1, MOV-29; the file says why for each.
+
+| | FY2029 | FY2030 | FY2039 | FY2056 |
+| --- | --- | --- | --- | --- |
+| Program primary deficit, DEC+FY29 less DEC ($B) | 5.0 | -5.0 | 0.0 | 0.0 |
+| Program debt, DEC+FY29 less DEC ($B) | 5.1 | 0.2 | 0.3 | 0.6 |
+
+Each bill's score over its own CBO window (R1 under the FY2029 resolution is FY2029-38) is in models/tools/budget/provisions.md, from the same annual series.
 
 ## All of government with the decided program, % of GDP
 

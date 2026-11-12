@@ -75,6 +75,41 @@
    "label": "DEC+ENV: D4 test 1 (paid for at maturity)",
    "value": "fails"
   },
+  "DEC+FY29.debt_pct.2039": {
+   "kind": "pct1",
+   "label": "DEC+FY29: debt held by the public, % of GDP, FY2039",
+   "value": 171.4
+  },
+  "DEC+FY29.debt_pct.2056": {
+   "kind": "pct1",
+   "label": "DEC+FY29: debt held by the public, % of GDP, FY2056",
+   "value": 373.7
+  },
+  "DEC+FY29.envelope_room": {
+   "kind": "tn2",
+   "label": "DEC+FY29: D4 test 2, envelope room left, $T",
+   "value": 0.3
+  },
+  "DEC+FY29.fiscal_gap": {
+   "kind": "pct2",
+   "label": "DEC+FY29: fiscal gap, % of GDP (hold the 2029 debt ratio)",
+   "value": 9.07
+  },
+  "DEC+FY29.gf_worst": {
+   "kind": "pct2",
+   "label": "DEC+FY29: D4 test 1, general-fund balance in its worst year, % of GDP",
+   "value": 9.7
+  },
+  "DEC+FY29.interest_pct.2056": {
+   "kind": "pct1",
+   "label": "DEC+FY29: net interest, % of GDP, FY2056",
+   "value": 14.7
+  },
+  "DEC+FY29.maturity_pass": {
+   "kind": "text",
+   "label": "DEC+FY29: D4 test 1 (paid for at maturity)",
+   "value": "fails"
+  },
   "DEC+TRIMS.debt_pct.2039": {
    "kind": "pct1",
    "label": "DEC+TRIMS: debt held by the public, % of GDP, FY2039",
@@ -430,6 +465,41 @@
   "DEC+ENV.maturity_pass": {
    "kind": "text",
    "label": "DEC+ENV: D4 test 1 (paid for at maturity)",
+   "value": "fails"
+  },
+  "DEC+FY29.debt_pct.2039": {
+   "kind": "pct1",
+   "label": "DEC+FY29: debt held by the public, % of GDP, FY2039",
+   "value": 171.4
+  },
+  "DEC+FY29.debt_pct.2056": {
+   "kind": "pct1",
+   "label": "DEC+FY29: debt held by the public, % of GDP, FY2056",
+   "value": 373.7
+  },
+  "DEC+FY29.envelope_room": {
+   "kind": "tn2",
+   "label": "DEC+FY29: D4 test 2, envelope room left, $T",
+   "value": 0.3
+  },
+  "DEC+FY29.fiscal_gap": {
+   "kind": "pct2",
+   "label": "DEC+FY29: fiscal gap, % of GDP (hold the 2029 debt ratio)",
+   "value": 9.07
+  },
+  "DEC+FY29.gf_worst": {
+   "kind": "pct2",
+   "label": "DEC+FY29: D4 test 1, general-fund balance in its worst year, % of GDP",
+   "value": 9.7
+  },
+  "DEC+FY29.interest_pct.2056": {
+   "kind": "pct1",
+   "label": "DEC+FY29: net interest, % of GDP, FY2056",
+   "value": 14.7
+  },
+  "DEC+FY29.maturity_pass": {
+   "kind": "text",
+   "label": "DEC+FY29: D4 test 1 (paid for at maturity)",
    "value": "fails"
   },
   "DEC+TRIMS.debt_pct.2039": {

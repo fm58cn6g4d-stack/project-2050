@@ -134,10 +134,10 @@ Espen decided all five on November 8, 2026, in the budget-choices memo (`models/
 
 **For B6: what the decisions ask of the model.** Each would change a model reading, so each is built in B6's integration in a tier-3 PR. Where each stands:
 - a cautious-end reading beside each D4 test (choice 2): **built**, scenario DEC-CAUT (`ASM-CALIB-CAUTIOUS`), a disclosure column in the D4 table;
-- a disclosed FY2029 line, and a score for each bill over its own CBO window, FY2029-38 for R1 (choice 3): B6 item 4, its own tier-3 PR; until then years before FY2030 are set to zero (`fiscal-model.py:98-99`);
+- a disclosed FY2029 line, and a score for each bill over its own CBO window, FY2029-38 for R1 (choice 3): **built**, scenario DEC+FY29 (`ASM-FY2029-LINE`; CAP-7S priced, FAM-1 and MOV-29 unpriced) and `provisions.bill_windows` (`ASM-BILL-WINDOW`; `provisions.md`, "Each bill in its own CBO window");
 - disclosed lines for the 2027-28 changes once CBO rebaselines (choice 1), including defense against NSC-1A: **waits on CBO's next baseline**; nothing to disclose against February 2026 yet;
 - the one-point stress case reported with no pass-or-fail condition (choice 4), on the rollover method (PR #128): **built**, DEC-R1 is a disclosure column in the D4 table, read as "would pass" or "would not pass";
 - the reading without Social Security beside the unified guardrails (choice 5): **built**, the general-fund rows of the D4 table (the GF balance and GF-attributable debt), labeled as that reading;
-- per-bill scores that leave out interest on the bill's own borrowing, as CBO's scores do (section 10); the debt path and the guardrails keep counting it, as CBO's later baselines would: with the per-bill windows, B6 item 4.
+- per-bill scores that leave out interest on the bill's own borrowing, as CBO's scores do (section 10); the debt path and the guardrails keep counting it, as CBO's later baselines would: **built** with the per-bill windows, which carry no interest.
 
 **Not for Espen** (conventions to settle in the build, with Codex reviewing): the deflator for real-dollar views (section 7, B2 and B5); budget authority and spend-out by row (section 2, B3); a rule for when the baseline adjustments are replaced by a new CBO baseline (section 1, B6); the post-2036 defense split (section 1); and a published source for DY1 (section 8).

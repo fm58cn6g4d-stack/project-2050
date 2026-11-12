@@ -180,7 +180,7 @@ class SamePaths(unittest.TestCase):
         """Each scenario's program total, summed in the model's order, is the model's own."""
         order = [r["id"] for r in M["rows"]]
         for sid, label, opts, cfg in FM.SCENARIOS:
-            if opts is None or cfg.get("envelope") or cfg.get("cautious"):   # the library scores midpoints
+            if opts is None or cfg.get("envelope") or cfg.get("cautious") or cfg.get("fy2029"):   # the library scores midpoints; DEC+FY29: test_fy2029_line
                 continue
             use = order + [o for o in opts if o in M["opt_rows"]]
             tot = {y: sum(SC[i]["unified"][y] for i in use) for y in range(P.Y0, P.Y1 + 1)}
@@ -188,6 +188,40 @@ class SamePaths(unittest.TestCase):
                 for y in tot:
                     tot[y] += SC["DYN"]["unified"][y]
             self.assertEqual(tot, {y: M["results"][sid]["years"][y]["prog_primary"] for y in tot}, sid)
+
+    def test_fy2029_line(self):
+        """DEC+FY29 is DEC plus the priced FY2029 line and nothing else: each priced row's amount in
+        FY2029, taken back out of FY2030 for a shift, so lifetime totals are unchanged."""
+        F = P.fy2029_rows()
+        want = {}
+        for i, (amt, treat) in F.items():
+            if amt is not None:
+                want[2029] = want.get(2029, 0.0) + amt
+                if treat == "shift_from_2030":
+                    want[2030] = want.get(2030, 0.0) - amt
+        R = M["results"]
+        for y in range(P.Y0, P.Y1 + 1):
+            got = R["DEC+FY29"]["years"][y]["prog_primary"] - R["DEC"]["years"][y]["prog_primary"]
+            self.assertAlmostEqual(got, want.get(y, 0.0), places=9, msg="FY%d" % y)
+        self.assertEqual(M["fy2029"]["unpriced"], sorted(i for i, (a, _) in F.items() if a is None))
+
+    def test_bill_windows_reconcile(self):
+        """Each bill's own-window score is a sum of the same annual series: a bill whose window is
+        FY2030-39 equals its plan-window total; an R1 bill's FY2029-38 equals that total less
+        FY2039, plus its priced FY2029 line (a shift nets to zero inside the window)."""
+        BW = P.bill_windows(SC, LEDGER)
+        F = P.fy2029_rows()
+        self.assertTrue(BW)
+        for i, w in BW.items():
+            u = SC[i]["unified"]
+            if w["first"] == 2030:
+                self.assertAlmostEqual(w["window"], P.window_total(u) * 1000, places=6, msg=i)
+            if w["first"] == 2029:
+                amt, treat = F.get(i, (None, ""))
+                extra = (amt or 0.0) - ((amt or 0.0) if treat == "shift_from_2030" else 0.0)
+                self.assertAlmostEqual(w["window"], P.window_total(u) * 1000 - u[2039] + extra, places=6, msg=i)
+        self.assertEqual({w["first"] for i, w in BW.items() if w["rail"] == "R1"}, {2029})
+        self.assertEqual({w["first"] for i, w in BW.items() if w["rail"] == "R3"}, {2031})
 
     def test_cautious_end_adds_the_ledger_ranges(self):
         """DEC-CAUT (budget choice 2's cautious reading) differs from DEC by exactly the ledger's

@@ -6,7 +6,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 
 **A row records current practice; it does not adopt it.** "Decided by" names a recorded decision only where one exists. "Unrecorded" means the value is set in code or an input table and no decision names it, even when its author is known. "Proposed" marks a working default (for example, how real dollars are shown), not an adopted policy or model input. Fitted values, such as spend-out shares, are approximations of history, not legal rules.
 
-**83 assumptions:** 26 matter a lot, 34 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**85 assumptions:** 26 matter a lot, 35 somewhat, 24 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -29,7 +29,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Economic paths (3)
 - Interest (7)
 - Dynamic effects (3)
-- Program measurement (12)
+- Program measurement (14)
 - Profiles (11)
 - Defense (1)
 - Expiring provisions (3)
@@ -315,7 +315,29 @@ The scoring window is FY2030-39; every ledger amount is a ten-year total for tho
 - **Where:** models/tools/fiscal-model.py:27; models/data/inputs/readme.md:6
 - **Source:** Project convention (plan begins January 2029, DEC-2026-10-29-01); CBO cost estimates cover "the next 5 or 10 years" (SRC-1163, CBO publication 57420)
 - **Decided by:** Espen, Nov 8, 2026: common FY2030-39 window with FY2029 as a disclosed line, plus each bill in its own CBO window (choice 3, A; memo-budget-choices.md, PR #110; DEC-2026-11-08-05)
-- **Notes:** FY2029 effects are unpriced, not zero (fiscal-model.py:98-99 sets years before 2030 to zero; models/data/inputs/readme.md:45 for CAP-7S).
+- **Notes:** FY2029 effects are unpriced, not zero (fiscal-model.py:98-99 sets years before 2030 to zero; models/data/inputs/readme.md:45 for CAP-7S). Since B6 FY2029 is priced as a disclosed line (ASM-FY2029-LINE) and each bill is also scored in its own CBO window (ASM-BILL-WINDOW); the D4 tests keep FY2030-39.
+
+### ASM-FY2029-LINE
+
+FY2029 as a separate, disclosed line: priced FY2029 amounts in models/data/inputs/fiscal-fy2029.csv are added to the program's FY2029 deficit in scenario DEC+FY29 (a shift from FY2030 conserves the row's lifetime); unpriced rows are listed, not set to zero; DEC and the D4 tests are unchanged.
+
+- **Value:** CAP-7S $5B shifted from FY2030 (priced); FAM-1 and MOV-29 unpriced ($B in FY2029)
+- **How much it matters:** low: $5B for now, growing as FAM-1's and MOV-29's FY2029 effects are priced
+- **Where:** models/data/inputs/fiscal-fy2029.csv; models/tools/fiscal-model.py (read_fy2029, fy2029_line, scenario DEC+FY29); models/tools/budget/provisions.py (fy2029_rows)
+- **Source:** CAP-7S: Espen, October 26, 2026 (legacy/governing/project-2050-governing-decisions.md, FY2029 cash shift $5B); the rows' FY2029 status from the ledger's target dates and felt months
+- **Decided by:** Espen, Nov 8, 2026: FY2029 priced as a separate, disclosed line (choice 3, A; DEC-2026-11-08-05); method by B6 (session_01UQzgBwob1SeDw4Qbrcr5AW), unrecorded
+- **Notes:** Screen for FY2029 effects: an R1 or regular-order row whose ledger target date plus its felt months falls before October 2029. FAM-1 (July 2029) and MOV-29 (August 2029) pass the screen and are unpriced; the other early rows have $0 midpoints.
+
+### ASM-BILL-WINDOW
+
+Each bill is also scored over its own CBO window, its budget resolution's year plus nine (R1 FY2029-38, R2 FY2030-39, R3 FY2031-40; a regular-order bill or an appropriation from the fiscal year of its ledger target date), on the unified basis, from the same annual series, with no interest on the bill's own borrowing; revenue rows and options are not assigned to a bill in the ledger.
+
+- **Value:** R1 FY2029-38 $2.67T; R2 FY2030-39 $4.90T; R3 FY2031-40 $0.50T (spending rows) (method)
+- **How much it matters:** medium: the Byrd rule's out-year test and each resolution's limits are read on these windows
+- **Where:** models/tools/budget/provisions.py (RAIL_FIRST_YEAR, first_year, bill_windows); models/tools/budget/provisions_report.py (provisions.md, "Each bill in its own CBO window")
+- **Source:** CBO's practice: a bill is scored over the budget year and the nine after it (memo-budget-choices.md, choice 3)
+- **Decided by:** Espen, Nov 8, 2026: each bill in its own CBO window (choice 3, A; DEC-2026-11-08-05); method by B6 (session_01UQzgBwob1SeDw4Qbrcr5AW), unrecorded
+- **Notes:** The out-year column (the ten years after a window) is where the Byrd test looks; it counts the bill's spending rows only until revenue rows are assigned to bills.
 
 ### ASM-HORIZON
 

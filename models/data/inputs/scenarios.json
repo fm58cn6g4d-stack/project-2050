@@ -132,6 +132,16 @@
    "settings": {
     "cautious": true
    }
+  },
+  {
+   "id": "DEC+FY29",
+   "label": "Decided, with the priced FY2029 line on the debt path (disclosure; FY2029 rows still unpriced are listed)",
+   "options": [
+    "DEC"
+   ],
+   "settings": {
+    "fy2029": true
+   }
   }
  ],
  "incidence": [
