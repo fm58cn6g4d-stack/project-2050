@@ -132,4 +132,4 @@ Each saving is against the third column. Each is judgment unless tagged.
 ## If you decide
 
 - Sections 3b-3d and memos 6-16 carry the chosen figures. Section 6 converts them to fiscal years when parts B-D are booked, with HLT-4's down payment netted.
-- The state shares go to the financing settlement (Codex) as working figures.
+- The state shares go to the financing settlement as working figures.
