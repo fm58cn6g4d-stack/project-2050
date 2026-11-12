@@ -400,6 +400,37 @@
   "spec": "dossiers/immigration/4-specification.md"
  },
  {
+  "id": "IMM-1.15",
+  "title": "A route from abroad for long-settled residents removed or pushed out in 2025-28, for family unity",
+  "agenda": "IMM-1",
+  "status": "decided (Espen, November 12, lead session; milestone review question 1)",
+  "decisions": [
+   "DEC-2026-11-12-07"
+  ],
+  "parameters": "A person removed, or who departed, on or after January 20, 2025 and before the act is signed (2025-28 as decided, carried to signature so no gap opens before IMM-1.10's protection; working choice), who had at least three years' continuous presence before leaving, and who is the spouse, parent or child of a citizen, a permanent resident or a person granted status under the act, may apply from abroad for the route they would have met but for leaving: tier A, tier B or registration, with registration's protection given on parole for the purpose. The presence requirement is waived, and so are the bars for prior removal and reentry (8 U.S.C. 1182(a)(9)(A) and (C)) and reinstatement (1231(a)(5)). Filing is online or at a consulate, with the interview abroad; State and DHS set the procedure. The model is the U.S. Citizenship Act of 2021 [EV-IMM-658], with S. 744's family-unity waiver for people who had reentered [EV-IMM-657]. ICE reported 442,640 removals in FY2025 and 483,200 in FY2026 [EV-IMM-659]; how many meet the test is not known. Cost (working assumption): about 50,000 returnees (range 20,000-150,000), about $6.6 billion over FY2030-39 for their coverage and cases (section 6, part 1)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the 2029 immigration act (regular order)"
+   }
+  ],
+  "agency": "DHS (USCIS); State",
+  "current_law": "",
+  "evidence": [
+   "EV-IMM-658",
+   "EV-IMM-657",
+   "EV-IMM-659",
+   "EV-IMM-650",
+   "EV-IMM-652",
+   "EV-IMM-653"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 6's line: the returnees' coverage and their cases from abroad, about $6.6 billion over FY2030-39)",
+  "spec": "dossiers/immigration/4-specification.md"
+ },
+ {
   "id": "IMM-1.20",
   "title": "One eligibility title",
   "agenda": "IMM-1",
@@ -431,13 +462,13 @@
  },
  {
   "id": "IMM-1.21",
-  "title": "The single health plan: every resident, people without status included, from wave 1",
+  "title": "The single health plan: everyone with lawful or registered status, from wave 1; emergency care for people with no status",
   "agenda": "IMM-1",
-  "status": "decided, memo 6 C",
+  "status": "decided, memo 6 C as amended for health (Espen, November 12, lead session)",
   "decisions": [
    "DEC-2026-11-12-07"
   ],
-  "parameters": "Residence, not status, from the first wave on January 1, 2031. Residency is shown by records or attestation on the S. 1506 model care proposed, with no status question (HLT-7.01, `DEC-2026-11-10-09`). This answers care's point 3",
+  "parameters": "From the first wave on January 1, 2031, the single plan covers residents who are citizens or hold any lawful or registered status: permanent residents, registered status (IMM-1.03), a pending filing under the act (its receipt, IMM-1.10; counting it is a working choice), asylum applicants, parolees, TPS holders and lawful temporary workers, including H-2A and H-2B workers and the portable farm, care and construction visas (IMM-2.08 to 2.10). People with no status receive emergency care as today: hospitals' duty to screen and stabilize (EMTALA) and Emergency Medicaid, which stay at their January 2029 terms. *How status is checked:* enrollment asks CMS to confirm status from USCIS's own records (IMM-6.06's match), with no new document from the person; a person USCIS has no record for may attest and give one document, as IMM-1.06 allows. The data firewall (IMM-1.36) bars any enforcement use of the check. This answers care's point 3 and amends `DEC-2026-11-12-07`'s memo 6 C for health coverage only; the rest of the table stands. Espen: \"they will either (a) be registered with the universal healthcare system, in which case they will need to be documented immigrants or, (b) they will receive emergency care that would typically fall into the current-day uncompensated bucket\"",
   "eligibility": "",
   "vehicle": [
    {
@@ -446,7 +477,7 @@
     "note": "the 2029 immigration act (regular order)"
    }
   ],
-  "agency": "HHS (CMS)",
+  "agency": "HHS (CMS), with DHS (USCIS)",
   "current_law": "",
   "evidence": [
    "EV-CAR-103",
@@ -2262,7 +2293,7 @@
   "decisions": [
    "DEC-2026-11-12-07"
   ],
-  "parameters": "A data agreement in statute lets USCIS ask the IRS and SSA whether records show a person's residence in given years, and receive yes or no with the years, not the returns. Each query is logged and counted. The data sits inside the firewall (IMM-1.36). A yearly fraud audit of the sworn-statement route (IMM-1.06) is published, with a review trigger: if abuse is found at scale, two documents are required per gap year",
+  "parameters": "A data agreement in statute lets USCIS ask the IRS and SSA whether records show a person's residence in given years, and receive yes or no with the years, not the returns. Each query is logged and counted. The data sits inside the firewall (IMM-1.36). A yearly fraud audit of the sworn-statement route (IMM-1.06) is published, with a review trigger: if abuse is found at scale, two documents are required per gap year The same agreement lets CMS ask USCIS whether a person holds lawful or registered status for the single plan (IMM-1.21), yes or no, inside the firewall",
   "eligibility": "",
   "vehicle": [
    {
