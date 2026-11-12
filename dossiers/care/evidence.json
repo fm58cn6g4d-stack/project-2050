@@ -8456,7 +8456,13 @@
   "supports": [
    "dossiers/care/3b-design-home-care.md"
   ],
-  "checked": "2026-11-11"
+  "checked": "2026-11-11",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-703",
+    "stance": "supports"
+   }
+  ]
  },
  {
   "id": "EV-CAR-448",
@@ -12977,5 +12983,34 @@
   ],
   "checked": "2026-11-12",
   "recheck": "2027-11-12"
+ },
+ {
+  "id": "EV-CAR-703",
+  "statement": "CBO estimated that the Build Back Better Act's Medicaid home- and community-based services provisions, as passed by the House, would increase federal deficits by $150 billion from 2022 to 2031.",
+  "claim": "analysis",
+  "figures": [
+   "$150 billion",
+   "2022 to 2031"
+  ],
+  "source": "SRC-3159",
+  "anchor": [
+   "Those provisions would increase federal deficits by $150 billion from 2022 to 2031, the Congressional Budget Office estimates."
+  ],
+  "locator": "Summary paragraph, page text (CBO publication 57632, November 23, 2021)",
+  "grade": "C",
+  "fact_date": "2021-11",
+  "recheck": "2027-11-12",
+  "context": "Congressional Budget Office (CBO), November 23, 2021, on H.R. 5376, the Build Back Better Act, as passed by the House (not enacted). CBO is nonpartisan, Congress's own agency (legislative branch), here estimating during the Biden administration's term. This is CBO's own statement of the HCBS cost, primary for the total; the provision-level table line (section 30712) was not retrieved because cbo.gov blocks automated downloads of the PDF and spreadsheet. It corroborates KFF's report in EV-CAR-447.",
+  "supports": [
+   "dossiers/care/7bcd-validation.md",
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-12",
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-447",
+    "stance": "supports"
+   }
+  ]
  }
 ]

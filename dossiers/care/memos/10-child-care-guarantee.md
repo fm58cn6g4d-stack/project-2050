@@ -1,6 +1,6 @@
 # Memo 10: What families of children under 5 are guaranteed
 
-Role: decision memo for Espen, fork 10 of the care dossier (part C, child care and pre-K; `../3c-design-child-care.md`). Status: **for Espen, not decided.** Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`). Costs marked "judgment" are this dossier's working assumptions, not official scores; their basis is in `../3c-design-child-care.md`, "What the options cost".
+Role: decision memo for Espen, fork 10 of the care dossier (part C, child care and pre-K; `../3c-design-child-care.md`). Status: **decided by Espen, November 11, 2026: B, as recommended** (`DEC-2026-11-11-03`). Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`). Costs marked "judgment" are this dossier's working assumptions, not official scores; their basis is in `../3c-design-child-care.md`, "What the options cost".
 
 **This memo decides what a family with a child from birth to kindergarten can count on for paid child care, and what it pays.** Pre-K for 3s and 4s is memo 11. How fast it starts is memo 12. Who runs it is memo 13.
 

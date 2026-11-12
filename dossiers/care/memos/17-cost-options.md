@@ -1,6 +1,6 @@
 # Memo 17: Bringing care's costs down
 
-Role: decision memo for Espen on care parts B-D's cost, after their decisions (`DEC-2026-11-11-02` to `-04`) and Espen's cost direction (`DEC-2026-11-11-05`). Status: **decided by Espen, November 11, 2026, in the lead session, `DEC-2026-11-11-06`** (board question 0n). Espen: "1. yes 2. as recommended 3. keep child care educator parity by 2036, but yes to the rest". So the state option below the line, yes; the state shares as recommended; options 2, 4 and 5 yes; option 3 no, so parity stays at 2036. Espen then approved separately, with a "yes", the item added to question 2 after the review: a state that declines child care or pre-K still owes its share. It reports the new totals after the three repricing steps Espen asked for. It then sets out further options to lower the cost, each with its savings, who loses what, and its evidence, and recommends a set. Every figure is project arithmetic in `../tools/care_repricing.py` (judgment where marked), in calendar years against current law. Section 6 converts to fiscal years. Bracketed tags point to `../evidence.json`.
+Role: decision memo for Espen on care parts B-D's cost, after their decisions (`DEC-2026-11-11-02` to `-04`) and Espen's cost direction (`DEC-2026-11-11-05`). Status: **decided by Espen, November 11, 2026, in the lead session, `DEC-2026-11-11-06`** (board question 0n). Espen: "1. yes 2. as recommended 3. keep child care educator parity by 2036, but yes to the rest". So the state option below the line, yes; the state shares as recommended; options 2, 4 and 5 yes; option 3 no, so parity stays at 2036. Espen then approved separately, with a "yes", the item added to question 2 after the review: a state that declines child care or pre-K still owes its share. It reports the new totals after the three repricing steps Espen asked for. It then sets out further options to lower the cost, each with its savings, who loses what, and its evidence, and recommends a set. Every figure is project arithmetic in `../tools/care_repricing.py` (judgment where marked), in calendar years against current law; where this memo says "FY2030-39" or "FY2040" it means calendar (and school) years 2030-39 and 2040. Section 6 (`../6bcd-cost.md`) converts to fiscal years: about $3.54 trillion over FY2030-39 and $729 billion in FY2040. Bracketed tags point to `../evidence.json`.
 
 **Espen's direction.** "i want these costs to come down some. maybe start with people qualifying for B2 at three daily activities instead of 2, and also make sure you're only counting workforce costs that are actual costs to the federal government (not assuming govt pays all of projected wage increases for workers... also, states should certainly pay for a portion of all of this, yes?"
 
@@ -10,13 +10,13 @@ Role: decision memo for Espen on care parts B-D's cost, after their decisions (`
 
 | | Before (the decision sheet) | Steps 1-2: the decided designs, priced as directed, at today's working state shares | Plus step 3: the recommended state shares (question 2) | Plus the decided options 2, 4 and 5 and the state option (questions 1 and 3, decided) |
 | --- | --- | --- | --- | --- |
-| **Part B, long-term care**, FY2030-39 | $2.6 trillion | **$2.15 trillion** | $2.15 trillion | **$1.9 trillion** |
+| **Part B, long-term care**, 2030-39 | $2.6 trillion | **$2.15 trillion** | $2.15 trillion | **$1.9 trillion** |
 | Part B, FY2040 | $590 billion | **$460 billion** | $460 billion | **$440 billion** |
-| **Part C, child care and pre-K**, FY2030-39 | $1.4 trillion | **$1.4 trillion** | $1.32 trillion | **$1.32 trillion** |
+| **Part C, child care and pre-K**, 2030-39 | $1.4 trillion | **$1.4 trillion** | $1.32 trillion | **$1.32 trillion** |
 | Part C, FY2040 | $190 billion | **$190 billion** | $177 billion | **$177 billion** |
-| **Part D, the workforce**, FY2030-39 | $0.65 trillion | **$0.63 trillion** | $0.58 trillion | **$0.58 trillion** |
+| **Part D, the workforce**, 2030-39 | $0.65 trillion | **$0.63 trillion** | $0.58 trillion | **$0.58 trillion** |
 | Part D, FY2040 | $130 billion | **$124 billion** | $117 billion | **$117 billion** |
-| **All three**, FY2030-39 | **$4.65 trillion** | **$4.18 trillion** (10% lower) | **$4.05 trillion** (13% lower) | **about $3.80 trillion** (18% lower) |
+| **All three**, 2030-39 | **$4.65 trillion** | **$4.18 trillion** (10% lower) | **$4.05 trillion** (13% lower) | **about $3.80 trillion** (18% lower) |
 | **All three**, FY2040 | **$910 billion** | **$772 billion** (15% lower) | **$752 billion** (17% lower) | **about $736 billion** (19% lower) |
 
 - **The second column is decided.** It is the decided designs, priced as Espen directed: three activities with the hold-harmless, and workforce lines at the federal cost only. States' shares stay at today's working figures: 90% federal for the bridge's floor, 90% for child care and parity, pre-K's 90% then 75%, and half of current long-term care spending.
@@ -115,7 +115,7 @@ Each saving is against the third column. Each is judgment unless tagged.
 - It costs about $0.026 trillion and $15 billion in FY2040 if every such state keeps it.
 - With it, the recommended set came to about $3.76 trillion over FY2030-39 and $736 billion in FY2040. As decided, without option 3, it is about $3.80 trillion and $736 billion.
 
-## Questions for Espen
+## The questions as asked (decided, `DEC-2026-11-11-06`)
 
 0n. **Decided** (see Status): 1 yes; 2 as recommended; 3 yes to options 2, 4 and 5, no to option 3. The questions as asked:
 1. **Below the three-activity line:** keep a state option in Medicaid to serve people below it who meet Medicaid's income rules, at the regular match (recommended; about $15 billion in FY2040), or only today's users, as decided?

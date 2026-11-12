@@ -146,11 +146,11 @@ Each requirement these parts add, what it buys and what it costs in burden (`DEC
 
 | Requirement | Buys | Burden | Why kept |
 | --- | --- | --- | --- |
-| The three-activity line (HLT-9.01) | A lower cost; WA Cares' line | People at two activities wait for their needs to grow, unless their state uses HLT-4.08's option | Decided (`DEC-2026-11-11-02`); one assessment, no forms |
+| The three-activity line (HLT-9.01) | A lower cost; WA Cares' line | People at two activities wait for their needs to grow, unless their state uses HLT-4.08's option. There they face a second test: Medicaid's financial rules, with HLT-4.04's limits, on top of the need line | Decided (`DEC-2026-11-11-02`); one assessment, no forms for the benefit itself |
 | The assessment (HLT-9.06) | A tier and a budget without financial forms | One visit at home; reassessment only on change | Decided (point 8) |
 | Phase-in by tier (HLT-9.07) | Eases the 2035 hiring peak | Moderate-need new users wait up to two years | Decided (option 4); the date follows the tier, no new test |
 | Residents' contribution (HLT-9.08) | About $10 billion a year in FY2040 | An income calculation, the one room and board already needs | Decided (option 5); never below the protected allowance |
-| Child care sliding scale (FAM-2.01) | Free care for most; at most 7% for others | One determination a year | Decided; from tax records or a statement |
+| Child care sliding scale (FAM-2.01) | Free care at or below 85% of state median income; at most 7% for others | One determination a year. **Its implicit marginal rate:** with the copay *rate* rising in a straight line from 0% at 85% of state median income to 7% at 150% (the working choice), a family whose care costs more than its cap pays about 9 cents more on each extra dollar of income at 85%, rising to about 23 cents at 150%, then 7 cents above it. A straight line in the copay *amount* (from $0 at 85% to 7% of income at 150%) gives a flat 16 cents instead. Stacked with income tax and other phase-outs, either is steep for middle-income parents; the figures go to the secure floor for shared rule 2 | Decided cap and line; the shape of the scale is a working choice, with the flat-amount line as its alternative |
 | The bridge's progress points (HLT-4.01) | Accountability for the new money | Reporting the access rule already requires | Decided (point 1) |
 | The 80% check (HLT-10.02) | Money reaches workers | Payroll records providers keep | Decided (memo 14 B) |
 | Staffing standard (HLT-11) | Registered nurse hours, the strongest-evidence lever | Hiring; reporting through an existing system; exemptions where nurses are scarce | Decided (memo 16 C), funded and phased |
