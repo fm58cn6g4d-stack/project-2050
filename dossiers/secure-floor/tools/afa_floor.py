@@ -25,7 +25,7 @@ Working assumptions (labeled, DEC-2026-11-10-07):
     a year (judgment);
   * real AGI growth: 1.0% a year from 2025 for every tax unit (judgment, range 0.5-1.5%),
     so more families cross the unindexed $400,000 line and the $166.67 base erodes;
-  * CPI-U stands in for the chained CPI the code indexes with (sec. 1(f)(4)); chained CPI
+  * CPI-U stands in for the chained CPI the code indexes with (sec. 1(f)(6)); chained CPI
     grows about a quarter point a year slower, which would slightly lower both the law's
     indexed credit and the floor's value (judgment: under $0.5 billion a year by 2040);
   * the child population is held at the source year's (the budget model's FAM-1 profile
