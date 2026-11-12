@@ -111,4 +111,4 @@ Historical comparison: Espen subsequently adopted the full EDU-9B scope and payr
 | E1 counted ($0.35T) | 1.38 | -509 (2049) / -509 | +56 (2039) / +210 |
 | E1's new money only ($0.15T) | 1.50 | -1283 (2049) / -1283 | -564 (2049) / -564 |
 
-The domain file estimates about 1.4 points with REV-E1 counted, and slightly above with only its new money (estimate). General-fund relief if taken up: FAM-2, EDU-1, EDU-3 and EDU-4 leave the general fund, $1.23T in 2030-39 on the long-term model's rows (domain file: $1.23T), plus the current spending the fund absorbs (about $0.77T, estimate).
+The domain file estimates about 1.4 points with REV-E1 counted, and slightly above with only its new money (estimate). General-fund relief if taken up: FAM-2, EDU-1, EDU-3 and EDU-4 leave the general fund, $2.11T in 2030-39 on the long-term model's rows (domain file: $1.23T), plus the current spending the fund absorbs (about $0.77T, estimate).

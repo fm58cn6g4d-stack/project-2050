@@ -39,6 +39,7 @@ python3 fiscal-make-md.py --baseline "$BUILD/fiscal-baseline.csv" >/dev/null
 python3 "$TOOLS"/test_climate_integration.py
 echo "== 6. MR6 booking check (transportation offset on the general fund)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_mr6.py 2>&1 | tail -1
 echo "== 6. health booking check (care review F-4: the plan on the dossier's fiscal-year path)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_health.py 2>&1 | tail -1
+echo "== 6. care booking check (care B-D review F-3: parts B-D on the dossier's fiscal-year path)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_care.py 2>&1 | tail -1
 echo "== 6a. provision specs (budget B3)"; python3 -W ignore::ResourceWarning "$TOOLS"/budget/test_provisions.py 2>&1 | tail -1
 python3 "$TOOLS"/budget/provisions_report.py --ledger "$BUILD/ledger.json" --out "$BUILD/budget-provisions.md"
 echo "== 6b. carbon model";    (cd "$TOOLS"/carbon && node cfd-tests.js >/dev/null) || { echo "carbon model checks failed: run node models/tools/carbon/cfd-tests.js"; exit 1; }

@@ -35,6 +35,11 @@ def education(rate=2, start=2031, bridge=True, payroll_growth=None,
         out=(geometric(E['outlays_bn'],y) if y<=2049 else E['outlays_bn']['2049']*(1+cg)**(y-2049))*cost_multiplier
         federal_share=1 if y<=2034 else max(.6,.9-.05*(y-2035))
         care=(geometric({2030:12,2033:88,2036:106,2040:106,2045:123,2049:143},y) if y<=2049 else 143*1.032**(y-2049))
+        # Care parts B-D booking: the fund's care is FAM-2's booked path (recovery-budget assumptions.json, care
+        # ledger_row), so the aggregate swaps its legacy care curve for it; the old-agenda transfer moves with it.
+        booked=FAM2[y] if y<=2056 else FAM2[2056]*(1+cg)**(y-2056)
+        out+=(booked-care)*cost_multiplier
+        care=booked
         extra_care=care*max(0,care_share_floor-federal_share)/federal_share
         out+=extra_care
         shock={2036:.97,2037:.95,2038:.97,2039:.99}.get(y,1) if recession else 1
@@ -115,6 +120,8 @@ def run():
     model=json.loads((ROOT/'build/fiscal-model.json').read_text())
     ledger=json.loads((ROOT/'build/ledger.json').read_text())
     old=model['results']['DEC']['years']; oldrows={r['id']:r for r in model['rows']}
+    global FAM2
+    FAM2={y:oldrows['FAM-2']['gf'][str(y)] for y in range(2030,2057)}
     transfer={y:sum(oldrows[k]['gf'][str(y)] for k in E['transferred_agenda']) for y in Y}
     scale=E['absorbed_current_law_2030_39_tn']*1000/sum((1+E['absorbed_current_law_growth'])**(y-2030) for y in W)
     absorbed={y:scale*(1+E['absorbed_current_law_growth'])**(y-2030) if y>=2030 else 0 for y in Y}
