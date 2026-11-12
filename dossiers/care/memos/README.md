@@ -1,6 +1,6 @@
 # Care decision memos: the batches
 
-Role: the care dossier's decision memos, one batch per part, each sent together so it can be decided in one round. Status: parts A-D (memos 1-16) decided; memo 17, care's cost options, for Espen (board question 0n).
+Role: the care dossier's decision memos, one batch per part, each sent together so it can be decided in one round. Status: parts A-D (memos 1-16) and memo 17, care's cost options, decided.
 
 ## Part A: health (decided)
 
@@ -48,10 +48,10 @@ Status: **decided by Espen, November 11, 2026: all as recommended, with the $20 
 | [15](15-early-educator-pay.md) | Early educators' pay: parity from 2032, a floor then a scale to parity by 2036, the floor only, or a supplement | B: memo 14's floor from 2030-31, then a salary scale by role and credential that reaches parity with elementary teachers by 2036 |
 | [16](16-nursing-home-staffing.md) | Nursing home staffing: current law, the 2024 standards in statute, a phased standard that puts registered nurses first, or reporting and bonuses | C: a registered nurse around the clock and 0.55 hours from 2031, the 3.48 total from 2035 with licensed nurses counting, funded in rates (answers part B's point 10) |
 
-## Care's cost options (for Espen)
+## Care's cost options (decided)
 
-Status: **for Espen, not decided** (board question 0n). Asked November 12, 2026, after Espen's cost direction (`DEC-2026-11-11-05`).
+Status: **decided by Espen November 12, 2026 (board question 0n; being recorded in the lead's tier-3 PR on `claude/dec-care-cost`)**: 1 yes; 2 as recommended; 3 yes to options 2, 4 and 5, no to option 3 (parity stays at 2036). Still open: whether a state that declines child care or pre-K still owes its share. Asked November 12, 2026, after Espen's cost direction (`DEC-2026-11-11-05`).
 
-| Memo | Question | Recommended |
+| Memo | Question | Decided |
 | --- | --- | --- |
-| [17](17-cost-options.md) | Bringing care's cost down: the new totals after part B's three-activity line, workforce costs at the federal cost only and states' shares; then seven further options | Keep a state option in Medicaid below the three-activity line; states' shares at 50% for long-term care, the bridge rate for the wage floor, 90% then 80% for child care, pre-K unchanged; options 2-5 (tier budgets, parity by 2038, a 2035-36 phase-in, residents' contribution). Parts B-D: about $4.65 trillion over FY2030-39 before, $4.18 trillion on the decided designs priced as directed, $4.05 trillion with the recommended state shares, about $3.76 trillion with the recommended options; a state that declines child care or pre-K still owes its share |
+| [17](17-cost-options.md) | Bringing care's cost down: the new totals after part B's three-activity line, workforce costs at the federal cost only and states' shares; then seven further options | A state option in Medicaid below the three-activity line; states' shares at 50% for long-term care, the bridge rate for the wage floor, 90% then 80% for child care, pre-K unchanged; options 2, 4 and 5 (tier budgets, a 2035-36 phase-in, residents' contribution), not 3 (parity stays at 2036). Parts B-D: about $4.65 trillion over FY2030-39 and $910 billion in FY2040 before; about **$3.80 trillion and $736 billion** as decided |

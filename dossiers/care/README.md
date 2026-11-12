@@ -1,6 +1,6 @@
 # Dossier: Care you can count on (flagship 2)
 
-Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D; part B (long-term care: support at home and in nursing homes for older and disabled people) sections 1-3 drafted and revised after the independent audit (`review-part-b-evidence.md`), its memo set (memos 6-9) for Espen; part C (child care and pre-K) sections 1-3 drafted, its memo set (memos 10-13) for Espen. Part D (the care workforce) sections 1-3 drafted, its memo set (memos 14-16) for Espen. Level: the health rows HLT-1, 2, 6, 7, 8, A1, A2 and A4 are at L3 in `agenda/agenda.csv` after the milestone review (`review-milestone.md`), its fixes (#225-#228) and the L3 re-check on the close-out PR; RTS-2 is at L3 since Espen settled its foreign-assistance scope (`DEC-2026-11-11-01`: the Helms amendment ends too); HLT-3, HLT-5 and HLT-A3 are alternatives; the other care items are at L1 (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
+Role: the care flagship (`charter/PLAN.md` 3.1). Status: started, stage D; part B (long-term care: support at home and in nursing homes for older and disabled people) sections 1-3 drafted and revised after the independent audit (`review-part-b-evidence.md`), its memo set (memos 6-9) decided (`DEC-2026-11-11-02`); part C (child care and pre-K) sections 1-3 drafted, its memo set (memos 10-13) decided (`DEC-2026-11-11-03`). Part D (the care workforce) sections 1-3 drafted, its memo set (memos 14-16) decided (`DEC-2026-11-11-04`). Parts B-D repriced in step 8 under Espen's cost direction (`DEC-2026-11-11-05`), and memo 17's cost options decided November 12: about $3.80 trillion over FY2030-39 and $736 billion in FY2040. Sections 4-9 for parts B-D are next. Level: the health rows HLT-1, 2, 6, 7, 8, A1, A2 and A4 are at L3 in `agenda/agenda.csv` after the milestone review (`review-milestone.md`), its fixes (#225-#228) and the L3 re-check on the close-out PR; RTS-2 is at L3 since Espen settled its foreign-assistance scope (`DEC-2026-11-11-01`: the Helms amendment ends too); HLT-3, HLT-5 and HLT-A3 are alternatives; the other care items are at L1 (`DEC-2026-10-30-03`); legacy designs are working choices weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
 
 **What it brings together** (`charter/PLAN.md` 3.1):
 - health coverage restored and extended, by single-payer Medicare for All, a public option or a staged path between them, weighed in full (`DEC-2026-11-09-07`; the charter wording is #195, for Espen);
@@ -68,6 +68,7 @@ From `dossiers/shared-rules.md`; proposed in the design section, never overwritt
 
 1. **Health, section 3:** decided (`DEC-2026-11-10-09`, `-11`, `-12`).
 2. **Health, section 6, part 3:** the hospital transition fund, decided (`DEC-2026-11-10-13`).
-3. **Part B, long-term care:** memos 6-9 and points 1-10, revised after the audit (`3b-design-home-care.md`, "Questions for Espen"); for Espen.
-4. **Part C, child care and pre-K:** memos 10-13, points 1-10 and the pre-K seam (`3c-design-child-care.md`, "Questions for Espen"); for Espen.
-5. **Part D, the care workforce:** memos 14-16 and points 1-9 (`3d-design-workforce.md`, "Questions for Espen"); for Espen.
+3. **Part B, long-term care:** memos 6-9 and points 1-10, decided (`DEC-2026-11-11-02`).
+4. **Part C, child care and pre-K:** memos 10-13, points 1-10 and the pre-K seam, decided (`DEC-2026-11-11-03`).
+5. **Part D, the care workforce:** memos 14-16 and points 1-9, decided (`DEC-2026-11-11-04`).
+6. **Care's cost options:** memo 17, decided November 12 except whether a state that declines child care or pre-K still owes its share (`memos/17-cost-options.md`).

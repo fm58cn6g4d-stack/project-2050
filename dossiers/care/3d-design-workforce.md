@@ -82,7 +82,7 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money in
 
 - **The decided set** (14 B at $20, 15 B, 16 C, the points), after step 8:
   - at today's working state shares (the bridge's floor at 90%, child care at 90%), about $0.63 trillion over FY2030-39 and $124 billion in FY2040;
-  - with the recommended state shares (the bridge rate; child care at 90% then 80%, memo 17's question 2), about $0.58 trillion (range $0.35-1.0 trillion) and $117 billion (range $70-205 billion);
+  - with the state shares Espen accepted (the bridge rate; child care at 90% then 80%; memo 17, question 2, decided), about $0.58 trillion (range $0.35-1.0 trillion) and $117 billion (range $70-205 billion);
   - against $0.65 trillion and $130 billion before step 8.
 
   It sits on top of parts B and C's own costs.
@@ -286,4 +286,4 @@ From `dossiers/shared-rules.md`. These are working answers, not decisions of the
 
 ## Questions for Espen
 
-Decided November 11, 2026 (`DEC-2026-11-11-04`): memo 14 B at $20, memo 15 B, memo 16 C and points 1-9, all as recommended. Open on cost: memo 17's questions (board question 0n), including the bridge's state share (the bridge rate recommended) and parity by 2038 rather than 2036 (option 3).
+Decided November 11, 2026 (`DEC-2026-11-11-04`): memo 14 B at $20, memo 15 B, memo 16 C and points 1-9, all as recommended. Memo 17's cost options were decided by Espen November 12, 2026 (board question 0n; being recorded in the lead's tier-3 PR on `claude/dec-care-cost`): the bridge's floor at each state's bridge rate, yes; early educators' parity stays at 2036 (option 3, no). Part D's decided cost: about $0.58 trillion over FY2030-39 and $117 billion in FY2040.

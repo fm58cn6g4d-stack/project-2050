@@ -256,12 +256,20 @@ def main():
         print(f'  {k}: {yrs / 1e12:.2f}T, {fy40 / 1e9:.0f}B')
     rec = [opts[k] for k in opts if k[0] in '2345']
     print(f'  recommended (2, 3, 4, 5): {sum(r[0] for r in rec) / 1e12:.2f}T, {sum(r[1] for r in rec) / 1e9:.0f}B')
+    dec = [opts[k] for k in opts if k[0] in '245']   # Espen's answer to 0n: 2, 4 and 5 yes; 3 no
+    print(f'  decided (2, 4, 5): {sum(r[0] for r in dec) / 1e12:.2f}T, {sum(r[1] for r in dec) / 1e9:.0f}B')
     print(f'  add-back, a continuing Medicaid route below the line: {att_yrs[1] / 1e12:.2f}T, {att_40[1] / 1e9:.0f}B '
           f'in all; federal at the regular match {att_yrs[1] * FMAP_REGULAR / 1e12:.3f}T, '
           f'{att_40[1] * FMAP_REGULAR / 1e9:.0f}B')
     net = (ta[0] - sum(r[0] for r in rec) / 1e12 + att_yrs[1] * FMAP_REGULAR / 1e12,
            ta[1] - sum(r[1] for r in rec) / 1e9 + att_40[1] * FMAP_REGULAR / 1e9)
     print(f'  all three with the recommended options and the state option: {net[0]:.2f}T, {net[1]:.0f}B')
+    netd = (ta[0] - sum(r[0] for r in dec) / 1e12 + att_yrs[1] * FMAP_REGULAR / 1e12,
+            ta[1] - sum(r[1] for r in dec) / 1e9 + att_40[1] * FMAP_REGULAR / 1e9)
+    pb = (after['B'][0] - sum(r[0] for r in dec) / 1e12 + att_yrs[1] * FMAP_REGULAR / 1e12,
+          after['B'][1] - sum(r[1] for r in dec) / 1e9 + att_40[1] * FMAP_REGULAR / 1e9)
+    print(f'  DECIDED (Espen\'s answer to 0n): part B {pb[0]:.2f}T, {pb[1]:.0f}B; part C {after["C"][0]:.2f}T, '
+          f'{after["C"][1]:.0f}B; part D {after["D"][0]:.2f}T, {after["D"][1]:.0f}B; all three {netd[0]:.2f}T, {netd[1]:.0f}B')
 
 
 if __name__ == '__main__':
