@@ -51,7 +51,7 @@ Role: the current result of every benchmark of the federal budget model (piece B
 - **Target:** 0.00
 - **Tolerance:** $1,000 (1e-6 billion): floating-point error only
 - **Source:** Accounting definition (CBO's deficit is total outlays less total revenues)
-- **Why:** The fiscal model builds the deficit from its parts in two places; they must agree to rounding error. Checked for all 11 scenarios, FY2026-2056.
+- **Why:** The fiscal model builds the deficit from its parts in two places; they must agree to rounding error. Checked for all 12 scenarios, FY2026-2056.
 
 ### ID-2. The program's added debt grows by exactly its added deficit (spending, revenue and interest)
 

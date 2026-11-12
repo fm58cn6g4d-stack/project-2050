@@ -181,7 +181,7 @@ def render(ledger_path):
     o.append("")
     rec = [(i, w) for i, w in BW.items() if w["rail"] in RAIL_ORDER]
     rec.sort(key=lambda t: (RAIL_ORDER.index(t[1]["rail"]), t[0]))
-    o.append("The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill from adding to deficits in the years after its window; the last column is where that test looks, for the bill's spending rows alone (its revenue is not assigned to it in the ledger, so a bill's net out-year effect is not yet known):")
+    o.append("The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill from adding to the deficit in any single year after its window; the test is year by year, so the last column, the sum of the ten years after the window, only shows where to look. It counts the bill's spending rows alone (its revenue is not assigned to it in the ledger, so a bill's net effect in those years is not yet known):")
     o.append("")
     o += table(["Row", "Vehicle", "Window", "Over its window ($B)", "Ten years after it ($B)"],
                [[i, w["rail"], "FY%d-%d" % (w["first"], w["first"] + 9), "%.1f" % w["window"], "%.1f" % w["out_years"] + (" (FY2029 unpriced)" if w["fy2029"] == "unpriced" else "")] for i, w in rec])
