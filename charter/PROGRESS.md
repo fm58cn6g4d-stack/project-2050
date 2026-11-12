@@ -38,7 +38,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
   - `session_01UQzgBuXeG7aix1nxZ4BSPj`: secure floor S1-S2 (#252, draft), with Espen's two directions (README quotes them).
   - Reviewer `session_01UQzgBxCFn7vF7KD8QH1G6d`.
   - `session_01UQzgBvk1RmZgu8yMjAx9Vn`: the November 8 B6 worker, idle at about 505,000 tokens, offering to continue; its handoff is #132's comment.
-- **Open PRs:** #252 (secure floor, draft). **Scheduled check-in bound to the lead:** `trig_018UJgHvRvSMZsi1Rrw4Pkya` (04:10 UTC), holding the overnight relay below; recreate it for yourself and disable it. **Waiting on Espen:** whether fair financing moves from Codex to Claude too (the budget model already did, `DEC-2026-11-08-02`).
+- **Open PRs:** #252 (secure floor, draft). **Scheduled check-in bound to the lead:** `trig_018UJgHvRvSMZsi1Rrw4Pkya` (04:10 UTC), holding the overnight relay below; recreate it for yourself and disable it. **Waiting on Espen:** the label on the fair-financing PR (`DEC-2026-11-11-07`: fair financing moves to Claude; Espen said yes). Once merged, the financing settlement (stage G) is Claude's; dossier lines that say "the settlement (Codex)" (care's 3d, memo 17) are fixed in their next edit.
 - **The overnight relay (Espen asleep, asked for steady progress, and to start the next stage when stage D waits only on approvals).**
   1. When D-9 is done: an independent care milestone review (fresh Opus, as health's 4r), fixes by D-9's author, then the tier-3 booking PR for Espen's label, netting HLT-4's down payment against the bridge.
   2. When S1-S2 is done: S3, the secure floor memo set (fresh Opus, legacy-first, health memo format, Espen's directions).
