@@ -262,4 +262,4 @@ A Standard (Sonnet) subagent ran these at `6a029ae`; the reviewer checked its re
 - **The agenda.** FAM-1, FAM-1D, FAM-3, FAM-3A, LAB-10, SS-1 to SS-5, SS-7, SS-8, SS-B4, SS-11 and INC-1 to INC-5 are homed here at L2 `decided`, citing `DEC-2026-11-12-06` (INC-2 also `-07`); the alternatives are L2 `alternative`. That matches.
 - **Section 9.** Every number traces to sections 1-8. Two source-table rows point to the wrong section (E-3): "late 2032, 78%" and "$2,000 since 1989" live in sections 1 and 3.
 - **Other stale figures.** Memo 1 and `3-design.md:76` keep "$1.9 trillion / about $220 billion" as decided text, with the repricing noted in the memo's status line; that is acceptable. Memo 6's +4.2 to +4.7 is C-1.
-- **Checks.** `bash .github/scripts/run-checks.sh` on this branch: RESULT_PLACEHOLDER.
+- **Checks.** `bash .github/scripts/run-checks.sh` on this branch: passes (77 tests; "All checks passed").
