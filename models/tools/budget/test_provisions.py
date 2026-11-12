@@ -419,8 +419,33 @@ class ContractAuthority(unittest.TestCase):
 
     def test_spendout_reads_the_cbo_calibrated_file(self):
         groups = {s["spendout_group"] for s in S.values() if s["budget_authority"] == "spendout"}
-        self.assertEqual(groups, {"defense", "nondefense"})
-        self.assertEqual(P.SPENDOUT_GROUPS, ("defense", "nondefense"))
+        self.assertEqual(groups, {"defense", "nondefense", "nondefense_new"})
+        self.assertEqual(P.SPENDOUT_GROUPS, ("defense", "nondefense", "nondefense_new"))
+        cbo = {r["group"] for r in D.table("spendout-discretionary-cbo")}
+        self.assertEqual(cbo, {"defense", "nondefense"})
+
+    def test_new_program_placeholder(self):
+        """ASM-SPENDOUT-NEW (DEC-2026-11-12-11): every share positive, the shares sum to one so
+        budget authority totals are unchanged (only timing moves), slower than the established
+        nondefense average in the first year, inside its stated slow-fast range, and used only by
+        nondefense discretionary rows whose notes say why."""
+        rows = D.table("spendout-new-programs")
+        new = P._spendout("nondefense_new")
+        self.assertTrue(all(v > 0 for v in new))
+        self.assertAlmostEqual(sum(new), 1.0, places=9)
+        self.assertLess(new[0], P._spendout("nondefense")[0])
+        cum = 0.0
+        for r, v in zip(sorted(rows, key=lambda r: int(r["year_of_spending"])), new):
+            cum += v
+            self.assertAlmostEqual(float(r["cumulative"]), cum, places=9)
+            self.assertLessEqual(float(r["slow_cumulative"]), cum + 1e-9, r["year_of_spending"])
+            self.assertGreaterEqual(float(r["fast_cumulative"]), cum - 1e-9, r["year_of_spending"])
+        users = [s for s in S.values() if s["spendout_group"] == "nondefense_new"]
+        self.assertGreater(len(users), 0)
+        for s in users:
+            self.assertEqual(s["kind"], "discretionary", s["id"])
+            self.assertIn("ASM-SPENDOUT-NEW", s["asm_ids"], s["id"])
+            self.assertIn("new-program placeholder", s["notes"], s["id"])
 
     def test_cbo_records_contract_authority_as_mandatory(self):
         """CBO's account file: the Highway Trust Fund accounts carry mandatory contract authority

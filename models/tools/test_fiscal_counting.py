@@ -1,9 +1,11 @@
-"""The four counting inputs Espen decided on November 12, 2026 (board question 0q, DEC-2026-11-12-08).
+"""The four counting inputs Espen decided on November 12, 2026 (board question 0q, DEC-2026-11-12-08),
+and Moving America's FY2037-39 draw (DEC-2026-11-12-10).
 
 Role: protects those bookings. Run by run-all.sh after the fiscal model (it reads build/ledger.json and
 build/fiscal-model.json); standard library only. Checks that:
 - MOV-29 and MOV-30 are booked in the years the acts name, by year from the transportation model, with
-  nothing after their last top-up year, and MOV-31's successor line carries the model's general-fund draw;
+  nothing after their last top-up year, and MOV-31's successor line carries the model's general-fund draw
+  from FY2037, with no empty year and none counted twice;
 - C35 grows at GDP plus the points in its profile (ASM-PROF-ESTATE) and DEM-11 with prices;
 - CX, CXP and MR6 take JCT's offset rate from excise-offset.csv (ASM-EXCISE-OFFSET).
 """
@@ -87,6 +89,31 @@ class Counting(unittest.TestCase):
         self.assertAlmostEqual(p[2044], 14.0, delta=0.06)
         g = fiscal.growth_index(self.B, "gdp")
         self.assertAlmostEqual(p[2056], p[2046] * g[2056] / g[2046], places=9)
+
+    def test_successor_line_from_fy2037(self):
+        """DEC-2026-11-12-10: FY2037-39 at the model's general-fund draw, joined to the FY2040 draw.
+        The ledger rounds MOV-31 to $1B, so the window's years are scaled by that rounding only."""
+        m = MA.Model()
+        p = self.path("MOV-31")
+        shape = dict(zip(W, fiscal.PR.YEARS["MOV-31"]))
+        for y in (2037, 2038, 2039):
+            self.assertAlmostEqual(shape[y], m.allocate(y)["gf_total"], delta=0.006, msg=str(y))
+            self.assertAlmostEqual(p[y], m.allocate(y)["gf_total"], delta=0.1, msg=str(y))
+        self.assertAlmostEqual(sum(shape[y] for y in (2037, 2038, 2039)), MA.ledger_rows()["gf_draw_fy37_39"], delta=0.01)
+        # the 2031 bill's own FY2032-36 years: its expansion and division E, at the model's amount
+        self.assertAlmostEqual(sum(shape[y] for y in range(2032, 2037)), MA.expansion_authority() + 1.0, delta=0.02)
+        self.assertTrue(all(shape[y] == 0 for y in (2030, 2031)))
+        # no double count: the two acts book nothing once the successor line starts
+        for i in ("MOV-29", "MOV-30"):
+            q = self.path(i)
+            self.assertTrue(all(q[y] == 0 for y in range(2037, 2057)), i)
+        # no gap: every year from FY2032 to FY2056 carries Moving America's general-fund money
+        tot = {y: sum(self.path(i)[y] for i in ("MOV-29", "MOV-30", "MOV-31")) for y in range(2032, 2057)}
+        self.assertTrue(all(v > 0 for v in tot.values()))
+        # the ledger amount is the 2031 bill plus the successor years
+        f = MA.ledger_rows()
+        self.assertAlmostEqual(self.bills["MOV-31"]["cost_mid"],
+                               round((round(f["expansion_authority"], 2) + 1.0 + round(f["gf_draw_fy37_39"], 2)) / 1000, 5), places=9)
 
     def test_estate_tax_grows_faster_than_gdp(self):
         prof = fiscal.PR.CUTS["C35"]

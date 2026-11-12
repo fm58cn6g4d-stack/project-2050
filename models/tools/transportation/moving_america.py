@@ -429,6 +429,9 @@ def ledger_rows(m: Model = None):
     s29 = score_2029(m); s30 = score_2030()
     return dict(act29_package=pkg29, act29_topups=act29_top, act30_package=pkg30, act30_topups=act30_top,
                 expansion=sum(r["exp"] for r in tu.values()), expansion_authority=expansion_authority(m.d.scenario),
+                # the general fund's draw after the two acts' last top-ups and the 2031 bill's FY2032-36
+                # expansion, before FY2040: booked on MOV-31's successor line (DEC-2026-11-12-10)
+                gf_draw_fy37_39=sum(m.allocate(t)["gf_total"] for t in (2037, 2038, 2039)),
                 act29_gross=s29["gross"], act29_net=s29["net"], act30_gross=s30["gross"], act30_net=s30["net"],
                 score_fuel_steps=SCORE_2029["fuel_steps"], score_clean_vehicle=s29["clean_vehicle"],
                 score_truck_excise_ev_fee=SCORE_2029["zev_truck_excise"] + SCORE_2029["ev_fee_end"],

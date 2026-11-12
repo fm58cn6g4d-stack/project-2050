@@ -62,7 +62,7 @@ bill,SAF-1,,out_disc_nondefense,,1,gdp,,,,,
 bill,SAF-10,,out_disc_nondefense,,3,gdp,,,,,Compacts build over three years
 bill,MOV-29,,out_disc_nondefense,,1,gdp,2035,0.0,,,"Package one and the FY2032-35 renewal top-ups in the years the act names (fiscal-years.csv); nothing after FY2035 (DEC-2026-11-12-08); time-limited (C30)"
 bill,MOV-30,,out_disc_nondefense,,1,gdp,2036,0.0,,,"Package two and the FY2035-36 top-ups in the years the act names (fiscal-years.csv); nothing after FY2036 (DEC-2026-11-12-08)"
-bill,MOV-31,,out_disc_nondefense,2032,1,gdp,2036,0.0,,,"FY2032-36 expansion; after 2039 the successor line carries the transportation model's general-fund draw by year (fiscal-after.csv: $29.0B in FY2040, $14.0B in FY2044; DEC-2026-11-12-08)"
+bill,MOV-31,,out_disc_nondefense,2032,1,gdp,2036,0.0,,,"FY2032-36 expansion; from FY2037 the successor line carries the transportation model's general-fund draw by year (fiscal-years.csv: $49.1B in FY2037 to $33.8B in FY2039, DEC-2026-11-12-10; fiscal-after.csv: $29.0B in FY2040, $14.0B in FY2044, DEC-2026-11-12-08)"
 base revenue,G1,,rev_corporate,,1,rev_corporate,,,,,
 base revenue,H1b,,rev_individual,,1,rev_individual,,,,,
 base revenue,G3,,rev_individual,,1,rev_individual,,,,,

@@ -6,7 +6,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 
 **A row records current practice; it does not adopt it.** "Decided by" names a recorded decision only where one exists. "Unrecorded" means the value is set in code or an input table and no decision names it, even when its author is known. "Proposed" marks a working default (for example, how real dollars are shown), not an adopted policy or model input. Fitted values, such as spend-out shares, are approximations of history, not legal rules.
 
-**87 assumptions:** 26 matter a lot, 35 somewhat, 26 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**88 assumptions:** 26 matter a lot, 35 somewhat, 27 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -36,6 +36,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Trust funds (6)
 - Funds engine (15)
 - Data layer (B2, PR #105) (8)
+- Provision library (budget B4 close-out) (1)
 - Provision library (B3, PR #108) (3)
 - Recovery budget (exploratory) (1)
 
@@ -525,12 +526,12 @@ C35, the estate tax increment with an exemption frozen in dollars, grows faster 
 
 Time-limited lines end or continue at a fraction of their 2039 run rate.
 
-- **Value:** perm 0.0-0.55 (MOV-29 and MOV-30 end with their last top-up years, FY2035 and FY2036, and MOV-31's successor line carries the transportation model's draw after 2039, DEC-2026-11-12-08; CLI-5 0.3; HOU-1 legacy title 0.55; LAB-5 and DEM-17 end 2036; CLI-1 0.8 fading 4% a year) (share of 2039 run rate)
+- **Value:** perm 0.0-0.55 (MOV-29 and MOV-30 end with their last top-up years, FY2035 and FY2036, and MOV-31's successor line carries the transportation model's draw from FY2037, DEC-2026-11-12-08 and DEC-2026-11-12-10; CLI-5 0.3; HOU-1 legacy title 0.55; LAB-5 and DEM-17 end 2036; CLI-1 0.8 fading 4% a year) (share of 2039 run rate)
 - **How much it matters:** high: decides what is left after 2039, which is what the maturity test reads
 - **Where:** models/data/inputs/fiscal-profiles.csv:18, 21, 24, 27, 42, 58-60
 - **Source:** Project estimates
 - **Decided by:** unrecorded
-- **Notes:** MOV-31's successor line after 2039 is the transportation model's general-fund share of the surface program by year (models/data/inputs/fiscal-after.csv, Model().allocate(t)): $29.0B in FY2040, $14.0B in FY2044, $13.6B in FY2046, then growing with GDP, since the model's years end in FY2046. Until DEC-2026-11-12-08 the three lines spread their ten-year amounts evenly and carried 30% of the 2039 run rate after 2039 ($22.1B in FY2040).
+- **Notes:** MOV-31's successor line starts in FY2037 at the transportation model's general-fund draw ($49.1B, $41.6B and $33.8B in FY2037-39, models/data/inputs/fiscal-years.csv, DEC-2026-11-12-10); after 2039 it is the transportation model's general-fund share of the surface program by year (models/data/inputs/fiscal-after.csv, Model().allocate(t)): $29.0B in FY2040, $14.0B in FY2044, $13.6B in FY2046, then growing with GDP, since the model's years end in FY2046. Until DEC-2026-11-12-08 the three lines spread their ten-year amounts evenly and carried 30% of the 2039 run rate after 2039 ($22.1B in FY2040).
 
 ### ASM-PROF-SS1
 
@@ -544,12 +545,12 @@ SS-1 after 2039: the D8 package's net saving shrinks about 1.5% a year relative 
 
 ### ASM-PROF-YEARS
 
-Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy, the excise offsets CX (carbon) and MR6 (Moving America), Moving America's two acts MOV-29 and MOV-30 (DEC-2026-11-12-08), the health rows HLT-1, HLT-2, HLT-6 and HX and the HLT-4 and HLT-7 component shapes (care dossier's fiscal-year path), and care parts B-D: HLT-10, HLT-11 and the HLT-4, HLT-9 and FAM-2 component shapes (care_bcd_path.py).
+Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy, the excise offsets CX (carbon) and MR6 (Moving America), Moving America's two acts MOV-29 and MOV-30 (DEC-2026-11-12-08) and MOV-31 with its successor line from FY2037 (DEC-2026-11-12-10), the health rows HLT-1, HLT-2, HLT-6 and HX and the HLT-4 and HLT-7 component shapes (care dossier's fiscal-year path), and care parts B-D: HLT-10, HLT-11 and the HLT-4, HLT-9 and FAM-2 component shapes (care_bcd_path.py).
 
-- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73; MR6 -2 to -27 (shape); MOV-29 $23-63B a year FY2030-35, MOV-30 $17-41B in FY2030-31 and FY2035-36; HLT-1 $64B in FY2030; HLT-7 plan spending $704B in FY2031 to about $5.7T in FY2040; HX $53B in FY2031 to $987B in FY2039 (shapes); HLT-9 net $190B in FY2035 to $445B in FY2040; FAM-2 $42B in FY2031 to $243B in FY2040 (care shapes) ($B a year)
+- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73; MR6 -2 to -27 (shape); MOV-29 $23-63B a year FY2030-35, MOV-30 $17-41B in FY2030-31 and FY2035-36; MOV-31 $23-27B a year FY2032-36, then $49B, $42B and $34B in FY2037-39; HLT-1 $64B in FY2030; HLT-7 plan spending $704B in FY2031 to about $5.7T in FY2040; HX $53B in FY2031 to $987B in FY2039 (shapes); HLT-9 net $190B in FY2035 to $445B in FY2040; FAM-2 $42B in FY2031 to $243B in FY2040 (care shapes) ($B a year)
 - **How much it matters:** medium: CAP-7S is about $0.6T and its FY2029 cash is unpriced
 - **Where:** models/data/inputs/fiscal-years.csv; models/tools/fiscal-model.py:79-85
-- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26); MR6, MOV-29, MOV-30: transportation model (moving_america.py; the acts' package and top-up years, test_fiscal_counting.py); health rows: care dossier's path (models/tools/health_booking.py); care rows: care dossier's parts B-D path (models/tools/care_booking.py)
+- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26); MR6, MOV-29, MOV-30, MOV-31: transportation model (moving_america.py; the acts' package and top-up years, test_fiscal_counting.py); health rows: care dossier's path (models/tools/health_booking.py); care rows: care dossier's parts B-D path (models/tools/care_booking.py)
 - **Decided by:** unrecorded
 - **Notes:** CAP-7S is "interim cash proxy only" per its own note.
 
@@ -928,7 +929,7 @@ Spend-out of discretionary budget authority. Defense: CBO's own rates, the avera
 - **Where:** models/tools/budget/build_data.py:495 (CBO_DEFENSE_ACTS), 311 (SPEND_YEARS), 471 (CAL_YEARS), 511 (spendout_cbo); models/data/budget/spendout-discretionary-cbo.csv; read by models/tools/budget/provisions.py:423 (_spendout)
 - **Source:** CBO cost estimates of the FY2014, FY2017 and FY2023 NDAAs (SRC-2454, SRC-2455, SRC-2456) for defense; OMB Historical Tables 5.6 and 8.7 (FY2027 Budget) for nondefense timing; CBO, Spending Projections by Budget Account (Feb 2026, publication 51142) for the nondefense level and the defense check
 - **Decided by:** Strategy session (handoff after #114: carry highway and transit separately); method proposed by B2, ported by B3 (#118); defense switched to CBO's act rates by B6 (session_01UQzgBwob1SeDw4Qbrcr5AW); unrecorded as a decision
-- **Notes:** One average per group, not a legal spend-out rule or CBO's account-by-account rates: a single act's mix can spend much faster or slower (B4's PS-4a, bounded; PS-4b, fail). Until B6's fix defense used OMB-history shares 44/34/24/-4%, whose negative fourth share spent an act 103% by year 3. Highway, transit and airport outlays with no discretionary budget authority are carried as outlays on their own (ASM-ZERO-BA-OUTLAYS). The earlier history-only fit, spendout-discretionary.csv (defense 44/34/24/-4%, nondefense 27/37/31/15%, sum 1.10), is still published but no longer read by the provision library.
+- **Notes:** One average per group, not a legal spend-out rule or CBO's account-by-account rates: a single act's mix can spend much faster or slower (B4's PS-4a, bounded; PS-4b, fail, reported as not fully validated, DEC-2026-11-12-11). New nondefense programs that need new rules or delivery infrastructure use a slower placeholder (ASM-SPENDOUT-NEW). Until B6's fix defense used OMB-history shares 44/34/24/-4%, whose negative fourth share spent an act 103% by year 3. Highway, transit and airport outlays with no discretionary budget authority are carried as outlays on their own (ASM-ZERO-BA-OUTLAYS). The earlier history-only fit, spendout-discretionary.csv (defense 44/34/24/-4%, nondefense 27/37/31/15%, sum 1.10), is still published but no longer read by the provision library.
 
 ### ASM-ZERO-BA-OUTLAYS
 
@@ -950,6 +951,20 @@ CBO's account-level spending projections, February 2026 baseline, the same vinta
 - **Where:** models/data/cbo/budget_spending_detail_annual_fy_2026-02.csv; models/data/budget/README.md:37
 - **Source:** CBO, Spending Projections by Budget Account (Feb 2026, publication 51142), via github.com/US-CBO/cbo-data
 - **Decided by:** Proposed by B2 (session_01UQzgBuzP6Vxf1gkL2Syq8d); unrecorded
+
+
+## Provision library (budget B4 close-out)
+
+### ASM-SPENDOUT-NEW
+
+Spend-out of budget authority for a new nondefense program that needs new rules or delivery infrastructure (a new grant, payment or capital program paid to or through states, localities, candidates or other outside recipients): slower than the established nondefense average in its first years. A placeholder, not a fit.
+
+- **Value:** 10/26/22/22/20% by year of spending (cumulative 10/36/58/80/100%); range: slow end IIJA division J's 9/26/45/63/80%, fast end the established average's 25/60/90/100% (share of BA by year)
+- **How much it matters:** low: moves only the timing of the budget authority behind six bills' outlays (FY2030-39 $118.0B to $118.4B against $117B of outlays; before FY2030 $12.4B to $22.9B, from FY2026 instead of FY2027); outlays, deficits, debt and the D4 tests do not use it
+- **Where:** models/data/budget/spendout-new-programs.csv; read by models/tools/budget/provisions.py (_spendout, group nondefense_new); rows that use it: models/data/budget/provisions.csv spendout_group nondefense_new (EDU-8, DEM-1, DEM-11, DEM-16, DEM-17, SAF-10 and the declined option C34)
+- **Source:** CBO, cost estimate of the conference agreement for H.R. 1, the American Recovery and Reinvestment Act (February 13, 2009): division A, $311.2B of budget authority, cumulative outlays 11/47/71/84/91% by year 1-5 (FY2009 a part year). CBO, cost estimate of Senate Amendment 2137 to H.R. 3684, the Infrastructure Investment and Jobs Act (August 9, 2021), Table 1: division J's discretionary budget authority and outlays by year, one tranche's shares backed out of five, 9/26/45/63/80%. CBO, cost estimate for H.R. 1 as introduced (January 26, 2009), on why: new programs must develop procedures and criteria, issue regulations and review plans before money can be distributed, and spending for new programs "has frequently been slower than expected and rarely been faster". GAO-26-108434 (July 2026): about 41% of IIJA budget authority at four agencies disbursed in four years (a broader mix; direction only). Fast end: spendout-discretionary-cbo.csv (ASM-SPENDOUT). All cited, not saved
+- **Decided by:** Espen, DEC-2026-11-12-11 (board 0r: a light research pass on historical averages, then an evidence-backed placeholder); the shares and which rows use them are the agent's
+- **Notes:** The average of the two CBO estimates to year 3 (10, 36, 58%), then closed by year 5: the model's years start in FY2026, four before the first outlays, so a longer spend-out would need budget authority before the model begins; the 14% the estimates spend after year 5 is brought into years 4 and 5. The shares sum to one, so budget authority still spends out to the same lifetime outlays (ASM-BA-LEADS-OUTLAYS). Rows on the established average: agency staffing and existing programs (CAP-7, CAP-8, COM-1, CRT-P1, DEM-3, HLT-8, NSC-8, NSC-10, EDU-4, LAB-8, MOV-29 to MOV-31) and the new regulatory offices of CLI-3 and AI-1, whose stand-up is already in their outlay ramps. It does not resolve B4's PS-4b, which tests the average against a fast-spending act; Espen closed B4 with PS-4b reported as not fully validated. The outlay profiles stay as booked: most start at full speed in FY2030, faster than these rates, so the earlier budget authority reads as a sign that those starts are fast, not as money to enact
 
 
 ## Provision library (B3, PR #108)
@@ -974,7 +989,7 @@ Discretionary budget authority is backed out of the model's outlays: each year's
 - **Where:** models/tools/budget/provisions.py:359-370 (spendout_ba)
 - **Source:** Project method (B3)
 - **Decided by:** Proposed by B3 (session_01UQzgBui9ncN3AtGo7oPAKM); unrecorded
-- **Notes:** Some budget authority (about $0.09T on main today; the current figure is in the generated models/tools/budget/provisions.md) would have to be enacted in FY2027-29, before the window (CONVENTIONS.md, Choice 3). All spend-out figures are flagged rough.
+- **Notes:** Some budget authority (about $0.09T on main today; the current figure is in the generated models/tools/budget/provisions.md) would have to be enacted before FY2030 (from FY2027 at the average's rates, FY2026 for a new program on ASM-SPENDOUT-NEW), before the window (CONVENTIONS.md, Choice 3). All spend-out figures are flagged rough.
 
 ### ASM-BA-EQUALS-OUTLAYS
 
