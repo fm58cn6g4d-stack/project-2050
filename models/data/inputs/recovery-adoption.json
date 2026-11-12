@@ -48,7 +48,8 @@
     "review_mid_sustained_bn": 254.6,
     "review_high_sustained_bn": 355.1
   },
-  "housing_admin_basis": "HOU-4A fees are paid in full inside the HOU-4A component of HOU-1 (fiscal-components.csv), so the separate allowance is 0 (was $12.2B on the $150B package). HOU-4D is stage 2 of dossiers/home/6-cost.md: $81B for the guarantee, $17B for the wider entry and $17B for the restated count over FY2030-39, about $39B in FY2040; profile fitted to those figures (enrollment from FY2034, spending booked from FY2035).",
+  "participation_basis": "participation_tn is LAB-10 (DEC-2026-11-12-06, memo 4 B): DOL-led participation support with paid on-ramps into the plan's jobs inside the $100 billion envelope, about 400,000-900,000 people over the decade (working assumption); the recovery budget's audit line is named for it (dossiers/secure-floor/6-cost.md part 6 item 3). The amount is unchanged.",
+  "housing_admin_basis":"HOU-4A fees are paid in full inside the HOU-4A component of HOU-1 (fiscal-components.csv), so the separate allowance is 0 (was $12.2B on the $150B package). HOU-4D is stage 2 of dossiers/home/6-cost.md: $81B for the guarantee, $17B for the wider entry and $17B for the restated count over FY2030-39, about $39B in FY2040; profile fitted to those figures (enrollment from FY2034, spending booked from FY2035).",
   "administration": {
     "leave_fraction": 0.03,
     "leave_startup_bn": 3,

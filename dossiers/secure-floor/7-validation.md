@@ -76,6 +76,6 @@ Published counts with a review trigger, not gates (`DEC-2026-11-09-13`):
 - **Accuracy:** the benefit's improper payment rate against the advance credit's 13.6% [EV-SEC-258]; payee disputes and their time to decision.
 - **Poverty:** child SPM poverty each September; above 12% in 2032 (the range's top) triggers a review of the benefit's level and reach.
 - **The ceiling:** a typical family type above 65 cents for two years triggers a review (INC-5.02).
-- **Paid leave:** claims by earnings band; the fund's reserve and loan against the high case (loan above about $182 billion, the booked peak ($185 billion on the fund's own scale), triggers a review of the rate path).
+- **Paid leave:** claims by earnings band; the fund's reserve and loan against the high case (any Treasury loan triggers a review of the rate path: at the 0.10-point step the high case needs none, and its balance bottoms out at about $13 billion in 2035).
 - **Social Security:** each Trustees report's balance after the act; SS-7.01's trigger.
 - **LAB-10:** people served, completions and earnings a year later, against the 400,000-900,000 working range.
