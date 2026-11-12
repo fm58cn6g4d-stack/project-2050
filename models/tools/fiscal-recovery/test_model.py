@@ -63,7 +63,7 @@ class RecoveryTests(unittest.TestCase):
         self.assertFalse(ss['plus_1_point']['sustainable'])
         self.assertTrue(ss['rounded_case']['sustainable'])
         self.assertFalse(ss['later_2040_case']['sustainable'])
-        self.assertGreater(self.r['funds']['leave']['0.85']['loan_2050'],800)
+        self.assertGreater(self.r['funds']['leave']['0.85']['loan_2050'],400)   # the old 0.85 cap still borrows heavily at the 0.10 step (DEC-2026-11-12-14); was 800 at 0.05
         self.assertEqual(self.r['funds']['leave']['1.1']['loan_2050'],0)
     def test_whole_government_requirement_exceeds_agenda_gap(self):
         for c in self.r['fiscal_scenarios']:

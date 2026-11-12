@@ -145,10 +145,12 @@
   },
   "social_security": {
     "joint_interaction_payroll_points": 0.34,
-    "broad_rate_points": 2,
-    "start": 2035,
-    "phase_years": 10,
-    "income_tax_offset_fraction": 0.125
+    "fallback_rate_points": 1,
+    "fallback_start": 2037,
+    "fallback_phase_years": 10,
+    "reserve_investment_booked_payroll_points": 0.0,
+    "income_tax_offset_fraction": 0.125,
+    "basis": "Memo 6 C as decided (DEC-2026-11-12-06, DEC-2026-11-12-13): SS-1 to SS-5 on the fund engine, the joint-interaction adjustment, and SS-7.01's fallback at its expected path, one point on the combined rate rising 0.1 point a year from 2037 to the full point in 2046 (dossiers/secure-floor/6-cost.md part 4: the package before the fallback closes about +3.6 to +3.8 of the 4.42% gap, so the trigger is expected to fire on the Trustees reports from 2035). Replaces the two-point broad rate phased in over 2035-44, which the decided design does not have. SS-8.01, up to 20% of reserves in a stock index, is recorded at zero and flagged: on the trust funds it yields about +0.05 to +0.2% of payroll, but how the budget records the funds' stock purchases (as outlays, as a means of financing, or with expected returns above Treasury's rate) is not settled, so neither its yield nor its purchases are booked. SS-B4.01's caregiver credit (about -0.1 to -0.2) is not yet on the fund engine. Booking derived and checked by models/tools/secure_floor_booking.py and test_fiscal_secure_floor.py"
   },
   "hi": {
     "gf_support_payroll_points": 0.35,

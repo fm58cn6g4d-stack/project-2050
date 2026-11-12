@@ -6,7 +6,7 @@ Role: a summary of `models/data/budget/provisions.csv`, the provision spec for e
 
 ## The rows
 
-The ledger has 171 rows: 77 bills, 62 revenue options, 23 gap-closing options and 9 dynamic-feedback rows. One bill, HOU-1, is split into 57 components, each with its own spec. The fiscal model scores 117 of the rows; the other 54 are on the revenue menu, outside the general fund, or are borrowing lines whose spending sits in other rows.
+The ledger has 176 rows: 82 bills, 62 revenue options, 23 gap-closing options and 9 dynamic-feedback rows. One bill, HOU-1, is split into 61 components, each with its own spec. The fiscal model scores 122 of the rows; the other 54 are on the revenue menu, outside the general fund, or are borrowing lines whose spending sits in other rows.
 
 ### By kind
 
@@ -15,7 +15,7 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 | Kind | Rows | Scored | Bills and base revenue | FY2030-39, $T |
 | --- | --- | --- | --- | --- |
 | Discretionary appropriation | 24 | 24 | 22 | 1.46 |
-| Mandatory (direct) spending | 41 | 41 | 37 | 31.34 |
+| Mandatory (direct) spending | 46 | 46 | 42 | 31.87 |
 | Revenue | 81 | 34 | 15 | -10.57 |
 | Interest-neutral transfer (self-funded) | 2 | 2 | 2 | 0 |
 | No direct budget effect | 23 | 16 | 16 | 0 |
@@ -27,7 +27,7 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 | Regular (annual) appropriations | 7 | 7 | discretionary 7 | HLT-8, EDU-8, DEM-11, DEM-16, CAP-7, NSC-1, NSC-8 |
 | Supplemental or emergency appropriations | 0 | 0 |  |  |
 | Advance appropriation | 0 | 0 |  |  |
-| Reconciliation (R1, R2, R3) | 54 | 54 | discretionary 7, mandatory 28, revenue 17, transfer 2 |  |
+| Reconciliation (R1, R2, R3) | 59 | 59 | discretionary 7, mandatory 33, revenue 17, transfer 2 |  |
 | Regular-order authorization | 33 | 33 | discretionary 8, mandatory 9, none 16 |  |
 | Not a provision (financing line or feedback) | 16 | 9 | revenue 9, none 7 |  |
 | Unknown | 61 | 14 | discretionary 2, mandatory 4, revenue 55 |  |
@@ -38,7 +38,7 @@ No row is modeled as a supplemental, emergency or advance appropriation: nothing
 
 | Appropriation type | Rows |
 | --- | --- |
-| Direct spending provided by the law itself | 97 |
+| Direct spending provided by the law itself | 106 |
 | Unknown | 9 |
 | Authorized, subject to later appropriation | 8 |
 | Annual appropriation | 7 |
@@ -47,7 +47,7 @@ No row is modeled as a supplemental, emergency or advance appropriation: nothing
 
 | Budget authority | Rows |
 | --- | --- |
-| Equal to outlays (a benefit, entitlement or tax credit) | 68 |
+| Equal to outlays (a benefit, entitlement or tax credit) | 77 |
 | Derived from outlays at B2's discretionary spend-out rates (rough) | 24 |
 | Unknown | 15 |
 | Provided in full on enactment; amount not priced | 15 |
@@ -61,7 +61,7 @@ Spending that budget authority out at the same rates does not give back the mode
 
 ## Unknown fields
 
-A field is `unknown` where the repository does not say. Nothing was guessed. For the 117 scored rows (and the 57 HOU-1 components):
+A field is `unknown` where the repository does not say. Nothing was guessed. For the 122 scored rows (and the 61 HOU-1 components):
 
 | Field | Unknown | Rows |
 | --- | --- | --- |
@@ -84,8 +84,8 @@ The model always has a growth index and an end year (or none) for a scored row; 
 
 | Field | Stated | Model only | Stated for |
 | --- | --- | --- | --- |
-| `indexation_basis` | 8 | 166 | FAM-1, FAM-2, EDU-3, EDU-5, SS-1, DEM-11, CAP-7, C35 |
-| `expiry_basis` | 27 | 147 | CLI-5, LAB-5, DEM-17, MOV-29, MOV-30, MOV-31, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, HOU-1/hou-1d-04-one-time-start, HOU-1/hou-3c-01-revolving-fund-grants, HOU-1/hou-3c-02-construction-loan-subsidy, HOU-1/hou-5-01-public-housing-repair, HOU-1/hou-6-01-zoning-reward, HOU-1/hou-8-01-social-housing-pilot, HOU-1/hou-4-10-recovery-housing, HOU-1/hou-4-12-wider-backstop-to-2035, HOU-1/hou-4-06-testing-grants, HOU-1/hou-10-01-down-payment-help, HOU-1/hou-11-01-manufactured-home-grants, HOU-1/hou-12-01-home-repair-fund, HOU-1/hou-14-02-section-502-at-scale, HOU-1/hou-14-03-rural-rental-fund-and-vouchers, HOU-1/hou-14-04-self-help-and-farmworker |
+| `indexation_basis` | 9 | 174 | FAM-1, FAM-2, EDU-3, EDU-5, SS-1, DEM-11, CAP-7, C35, FAM-1/benefit |
+| `expiry_basis` | 27 | 156 | CLI-5, LAB-5, DEM-17, MOV-29, MOV-30, MOV-31, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, HOU-1/hou-1d-04-one-time-start, HOU-1/hou-3c-01-revolving-fund-grants, HOU-1/hou-3c-02-construction-loan-subsidy, HOU-1/hou-5-01-public-housing-repair, HOU-1/hou-6-01-zoning-reward, HOU-1/hou-8-01-social-housing-pilot, HOU-1/hou-4-10-recovery-housing, HOU-1/hou-4-12-wider-backstop-to-2035, HOU-1/hou-4-06-testing-grants, HOU-1/hou-10-01-down-payment-help, HOU-1/hou-11-01-manufactured-home-grants, HOU-1/hou-12-01-home-repair-fund, HOU-1/hou-14-02-section-502-at-scale, HOU-1/hou-14-03-rural-rental-fund-and-vouchers, HOU-1/hou-14-04-self-help-and-farmworker |
 
 ## Each bill in its own CBO window
 
@@ -93,7 +93,7 @@ Budget choice 3 (DEC-2026-11-08-05, `ASM-BILL-WINDOW`): plan totals and the D4 t
 
 | Vehicle | Bills | Window | Over its window ($B) | Ten years after it ($B) | FY2029 unpriced |
 | --- | --- | --- | --- | --- | --- |
-| R1 | 6 | FY2029-2038 | 2699 | 2574 | FAM-1, MOV-29 |
+| R1 | 11 | FY2029-2038 | 3167 | 3263 | FAM-1, MOV-29 |
 | R2 | 26 | FY2030-2039 | 4903 | 6186 | none |
 | R3 | 5 | FY2031-2040 | 491 | 483 | none |
 | FLOOR | 30 | FY2029-2038, FY2030-2039 | 23664 | 64851 | none |
@@ -104,10 +104,15 @@ The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill f
 | Row | Vehicle | Window | Over its window ($B) | Ten years after it ($B) |
 | --- | --- | --- | --- | --- |
 | CAP-7S | R1 | FY2029-2038 | 600.0 | 0.0 |
-| FAM-1 | R1 | FY2029-2038 | 1690.1 | 2329.7 (FY2029 unpriced) |
+| FAM-1 | R1 | FY2029-2038 | 1731.7 | 2390.6 (FY2029 unpriced) |
 | HLT-1 | R1 | FY2029-2038 | 86.0 | 0.0 |
 | HLT-4 | R1 | FY2029-2038 | 393.7 | 244.8 |
 | HLT-6 | R1 | FY2029-2038 | -328.0 | 0.0 |
+| INC-1 | R1 | FY2029-2038 | 127.6 | 192.8 |
+| INC-2 | R1 | FY2029-2038 | 204.4 | 285.1 |
+| INC-3 | R1 | FY2029-2038 | 37.6 | 60.3 |
+| INC-4 | R1 | FY2029-2038 | 39.5 | 61.2 |
+| INC-5 | R1 | FY2029-2038 | 17.5 | 27.9 |
 | MOV-29 | R1 | FY2029-2038 | 257.0 | 0.0 (FY2029 unpriced) |
 | AI-9 | R2 | FY2030-2039 | 20.0 | 28.9 |
 | CLI-1 | R2 | FY2030-2039 | 756.6 | 742.5 |
