@@ -132,12 +132,12 @@ Espen decided all five on November 8, 2026, in the budget-choices memo (`models/
 
 5. **Whether Social Security's new revenue counts toward the total-debt guardrails.** **Decided: A, CBO's practice.** The unified reading stays the rule; the reading without Social Security is shown beside it as disclosure, not as a test. *The question as first written:* The maturity test reads the general fund only, but the total-debt guardrails read the unified budget, where SS-1's payroll revenue lowers total debt alongside general-fund borrowing (`ASM-GF-UNIFIED`). D4-B also says Social Security is kept whole and read on 75 years. The question is whether trust-fund surpluses may help general-fund programs pass the debt test. The options are to keep the unified reading (the convention CBO's deficit uses), to test total debt excluding the trust funds' own improvement (stricter, and closer to "Social Security pays for Social Security"), or to report both, with the stricter one as the commitment.
 
-**For B6: what the decisions ask of the model.** None of these is built yet, and each would change a model reading, so each belongs in B6's integration with its own tier-3 PR:
-- a cautious-end reading beside each D4 test (choice 2); the ledger's low and high ends do not yet reach the fiscal model;
-- a disclosed FY2029 line, and a score for each bill over its own CBO window, FY2029-38 for R1 (choice 3); today years before FY2030 are set to zero (`fiscal-model.py:98-99`);
-- disclosed lines for the 2027-28 changes once CBO rebaselines (choice 1), including defense against NSC-1A;
-- the one-point stress case reported with no pass-or-fail condition (choice 4), using the rollover method B6 is adding (PR #128);
-- the reading without Social Security beside the unified guardrails (choice 5);
-- per-bill scores that leave out interest on the bill's own borrowing, as CBO's scores do (section 10); the debt path and the guardrails keep counting it, as CBO's later baselines would.
+**For B6: what the decisions ask of the model.** Each would change a model reading, so each is built in B6's integration in a tier-3 PR. Where each stands:
+- a cautious-end reading beside each D4 test (choice 2): **built**, scenario DEC-CAUT (`ASM-CALIB-CAUTIOUS`), a disclosure column in the D4 table;
+- a disclosed FY2029 line, and a score for each bill over its own CBO window, FY2029-38 for R1 (choice 3): B6 item 4, its own tier-3 PR; until then years before FY2030 are set to zero (`fiscal-model.py:98-99`);
+- disclosed lines for the 2027-28 changes once CBO rebaselines (choice 1), including defense against NSC-1A: **waits on CBO's next baseline**; nothing to disclose against February 2026 yet;
+- the one-point stress case reported with no pass-or-fail condition (choice 4), on the rollover method (PR #128): **built**, DEC-R1 is a disclosure column in the D4 table, read as "would pass" or "would not pass";
+- the reading without Social Security beside the unified guardrails (choice 5): **built**, the general-fund rows of the D4 table (the GF balance and GF-attributable debt), labeled as that reading;
+- per-bill scores that leave out interest on the bill's own borrowing, as CBO's scores do (section 10); the debt path and the guardrails keep counting it, as CBO's later baselines would: with the per-bill windows, B6 item 4.
 
 **Not for Espen** (conventions to settle in the build, with Codex reviewing): the deflator for real-dollar views (section 7, B2 and B5); budget authority and spend-out by row (section 2, B3); a rule for when the baseline adjustments are replaced by a new CBO baseline (section 1, B6); the post-2036 defense split (section 1); and a published source for DY1 (section 8).

@@ -82,7 +82,7 @@
     "models/data/inputs/education-adoption.json": "1d23c2bc69f16550ae2e5e1695cf5a89c47db3c21f682386be60e420a8c7613f",
     "models/data/inputs/recovery-adoption.json": "63b9aa7cb1486cca8a545776bc3f431a44efe38e1a13a8a9ddbc91b9bbd0db9e",
     "models/tools/recovery-budget/assumptions.json": "f09a4d0374cb5326031f11d33702e378f0157c952a25c44f2cf213de6c08ab0a",
-    "build/fiscal-model.json": "7be516fe0013c80e3f415036146a98828d223697cd2de814125e81b6838ad934",
+    "build/fiscal-model.json": "3c293950535e310a073a07a9c705491752331e0698ee0a4a3279265e15bb5233",
     "build/ledger.json": "3b2c3136d0923833bdbb42ac9ce3943f143439dcc8d6cdaaebc0649020aa85dd",
     "models/tools/fiscal-profiles.py": "0b7a69e28a94e25c87dbc5d3a4adb4471aadeccbcee4dff4e7dc53dd6fc3b2f9",
     "models/tools/funds-model.py": "8590d45bbce164acdcd2353c950f5f5ad3cb181cf111ea29205a6c8ca7b29413",
