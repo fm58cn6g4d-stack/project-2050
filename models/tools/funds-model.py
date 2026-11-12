@@ -359,7 +359,11 @@ for c, v in leave.items():
     w(f"| {c} | {v['mature_cost']:.2f}% | {v['first_step'] or 'never'} | {rr[2035]['rate']:.2f}% / {rr[2039]['rate']:.2f}% / {rr[2050]['rate']:.2f}% | ${v['receipts_w']:.2f}T | ${v['benefits_w']:.2f}T | {v['loan_2039']:.0f} / {v['loan_2050']:.0f} |")
 w("")
 hl = leave["high"]
-w(f"**Reading.** At low and middle take-up the fund pays its way at or near 0.60%. At high take-up the mature cost ({hl['mature_cost']:.2f}% of payroll) is above the {P['leave_cap']:.2f}% cap, so the loan never stops growing: the bridge is not temporary in that case, and a design choice is needed (a higher cap, a benefit adjustment, or the general-fund backstop FAM-3E). In the window the loan reaches ${hl['loan_2039']:.0f}B (the domain file's about $120B, estimate).")
+if hl["mature_cost"] > P["leave_cap"]:
+    w(f"**Reading.** At low and middle take-up the fund pays its way at or near 0.60%. At high take-up the mature cost ({hl['mature_cost']:.2f}% of payroll) is above the {P['leave_cap']:.2f}% cap, so the loan never stops growing: the bridge is not temporary in that case, and a design choice is needed (a higher cap, a benefit adjustment, or the general-fund backstop FAM-3E). In the window the loan reaches ${hl['loan_2039']:.0f}B (the domain file's about $120B, estimate).")
+else:
+    repaid = next((x["year"] for x in hl["rows"] if x["year"] > 2039 and x["loan"] < 1e-8), None)
+    w(f"**Reading.** At low and middle take-up the fund pays its way at or near 0.60%. At high take-up the mature cost ({hl['mature_cost']:.2f}% of payroll) is below the {P['leave_cap']:.2f}% ceiling (Espen, October 26), so the rate steps up to cover it and the Treasury loan is a bridge: it peaks at ${hl['peak_loan']:.0f}B, is ${hl['loan_2039']:.0f}B in FY2039 (the domain file's about $120B, estimate) and is " + (f"repaid by {repaid}." if repaid else f"${hl['loan_2050']:.0f}B in 2050.") + " A benefit adjustment or the general-fund backstop (FAM-3E) is needed only if the mature cost rises above the ceiling.")
 w("")
 
 w("## Highway Trust Fund (Moving America)\n")

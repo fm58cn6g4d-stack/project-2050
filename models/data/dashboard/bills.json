@@ -392,7 +392,7 @@
  {
   "id": "FAM-3",
   "legacy": "F3",
-  "bill": "Paid family and medical leave, 12 weeks, social insurance, 0.6% contribution stepping toward 0.85%",
+  "bill": "Paid family and medical leave, 12 weeks, social insurance, 0.6% contribution stepping toward a 1.10% ceiling",
   "domain": "Family",
   "source": "domain-family.md",
   "rail": "R2",
@@ -404,7 +404,7 @@
   "own_revenue": 0.9,
   "net_mid": 0.0,
   "basis": "estimate",
-  "basis_note": "CBO $547B (BBB-era design); JCT break-even 0.85%; 0.6% raises ~$0.9T",
+  "basis_note": "CBO $547B (BBB-era design); JCT break-even 0.85%; 0.6% raises ~$0.9T; ceiling 1.10% (Espen, Oct 26)",
   "floor_days": 0,
   "felt_months": 14,
   "durability": 78,
