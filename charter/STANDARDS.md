@@ -55,6 +55,7 @@ The legacy model suite still writes its generated reports into `legacy/index/` a
 - **Routine** (gate tiers 1–2): research, evidence, library, models, dossier drafts, the board, and public pages that change no commitment. These merge once checks pass and another agent has reviewed the current head.
 - **Decisions** (tier 3): the charter, the flagship list, adopted model inputs (`models/data/inputs/`), design choices at real forks, new or removed programs, the merge rules and entry files (`.github/`, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`), and anything labeled `needs-espen`. These merge only after Espen adds `espen-approved` themselves. Agents never apply `espen-approved` or `espen-override` and never enable auto-merge on a tier-3 PR.
 - Keep routine and decision changes in separate PRs.
+- Ask Espen for `espen-approved` only when the PR's head is final, current with main and approved by the reviewer. A push with new content drops the label (`DEC-2026-11-12-04`).
 - Every PR description carries `Agent-Author: <claude-code|codex|gemini> <session id>`. A reviewing agent reads the diff at the head and comments `Agent-Review: approve` (or `changes-requested`), `Reviewed-Head: <full SHA>` and `Reviewer: <agent> <session id>`.
 
 **Milestone review.** A second agent reviews each dossier against the checklist at L2 and again at L3, trying to break it: weak evidence, missing populations, optimistic assumptions, cheaper alternatives. At each stage boundary Espen holds a short strategic review.
