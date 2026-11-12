@@ -1,6 +1,6 @@
 # Dossier: A secure floor for every household (flagship 1)
 
-Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage D (board rows S1 and S2). Sections 1 and 2 are drafted; no design choice is made here. Level: every item is at L1 (`DEC-2026-10-30-03`); the legacy designs are working choices, weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
+Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage D (board rows S1 and S2). Sections 1 and 2 are drafted, with the legacy research restated; no design choice is made here. Level: every item is at L1 (`DEC-2026-10-30-03`); the legacy designs are working choices, weighed as options (`DEC-2026-10-30-02`). The target is L3, with priority pieces at L4.
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly):
 - a monthly child benefit;
@@ -78,8 +78,9 @@ Decided programs are cited by their `DEC-` entries. Programs in dossiers not yet
 
 - `legacy-research.md`: the legacy project's child-poverty model results, paid leave fund runs, Social Security scores and LAB-10 record, restated with every figure, its file and line, its basis and whether it is validated or needs re-running on the 2029 baseline.
 
-- `evidence.json`: evidence code **EV-SEC**. Blocks: 001-099 the January 2029 baseline and the size of the problem; 100-199 kept free; 200-299 the child benefit and work-linked credits; 300-399 paid leave; 400-499 Social Security; 500-599 income definitions and phase-outs; 600-699 kept for S3.
-- Sources: **Source IDs numbered 3600 to 3999 are reserved for the secure floor** (this README, November 12, 2026). Sub-blocks: 3600-3669 baseline; 3670-3739 child benefit; 3740-3809 paid leave; 3810-3879 Social Security; 3880-3949 phase-outs; 3950-3999 kept for S3. IDs are assigned by hand, because `library/build_catalog.py` assigns the next free number even inside a reserved block (`charter/PROGRESS.md`, "Known gaps").
+- `1-problem.md`, `2-what-works.md`: sections 1 and 2, by part (A to E).
+- `evidence.json`: evidence code **EV-SEC**, 429 entries. Blocks: 001-099 the January 2029 baseline and the size of the problem (001-074 used); 100-199 delivery, the future economy, polling and on-ramps (100-149 used); 200-299 the child benefit and work-linked credits (200-275 used); 300-399 paid leave (300-382 used); 400-499 Social Security (400-482 used; 405 unused); 500-599 income definitions and phase-outs (500-563 used); 600-699 kept for S3.
+- Sources: **Source IDs numbered 3600 to 3999 are reserved for the secure floor** (this README, November 12, 2026). Used: 3600-3650 (baseline), 3670-3731 (child benefit), 3740-3789 (paid leave), 3810-3867 (Social Security; 3862 unused), 3880-3937 (phase-outs), 3950-3989 (delivery and the economy ahead). Free for S3: 3651-3669, 3732-3739, 3790-3809, 3868-3879, 3938-3949, 3990-3999. IDs are assigned by hand, because `library/build_catalog.py` assigns the next free number even inside a reserved block (`charter/PROGRESS.md`, "Known gaps"). Several citation rows were read through a fetch tool because the host blocks agents; their catalog notes say so, and the reviewer should spot-check those quotations.
 - The register also cites other dossiers' entries where they already cover a fact (for example EV-HOU-401, CBO's average effective marginal tax rate; EV-HOU-416 to 418, the earned income credit's and SNAP's rates; EV-CAR-001 to 050, the 2025 law's Medicaid changes; EV-CAR-501, 502 and 584, the dependent care credit).
 
 ## Shared rules the secure floor owns or touches

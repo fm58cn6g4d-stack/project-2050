@@ -28,7 +28,7 @@ Outcomes this section frames (`charter/outcomes.md`):
 | SPM deep poverty, children (below half the threshold) | 3.4% (3.2% in 2024) | [EV-SEC-022] |
 | SPM, all people | 13.1% | [EV-SEC-019] |
 
-- **The 2021 test.** The SPM child rate fell to 5.2% in 2021 and rose to 12.4% in 2022, as first published [EV-HOU-073]. Census's 2026 tables show the series as revised, 5.1% and 12% [EV-SEC-021]; this dossier uses the original figures with their original release. Section 2, part A weighs how much of the fall the credit caused.
+- **The 2021 test.** The SPM child rate fell from 9.7% in 2020 to 5.2% in 2021 and rose to 12.4% in 2022, as first published [EV-SEC-202] [EV-SEC-205] [EV-HOU-073]. Census's 2026 tables show the series as revised, 5.1% and 12% [EV-SEC-021], and BLS corrected the thresholds in July 2026 [EV-SEC-207]; this dossier uses the original figures with their original release. Section 2, part A weighs how much of the fall the credit caused.
 - **What already works.** In 2025 the refundable child credit moved about 1.3 million children out of SPM poverty, the earned income credit about 2.1 million, SNAP about 1.2 million and Social Security about 1.3 million [EV-SEC-024]. These are Census's accounting, not causal estimates.
 - **Who stays poor.** The legacy model's breakdown, on its historical 2034 package, finds that children in families with no earnings have a poverty rate of about 63%. Renters make up about 65% of the poor children left (`legacy-research.md`, 1.6). These are model results, not Census figures, and need a re-run on the 2029 baseline.
 
@@ -140,7 +140,7 @@ The flagship's "income support" has no legacy design (`README.md`, "Scope"). Thi
 ### D.2 What happens at depletion
 
 - People remain legally entitled to full benefits. But SSA may not pay more than the fund holds, borrow, or move money between the funds, so it would pay full benefits late or reduced benefits on time. The law does not say which [EV-SEC-411] [EV-SEC-412].
-- CRFB puts the 22% cut at about $16,900 a year for a typical dual-earning couple retiring in January 2033, $12,700 for a single-income couple and $10,200 for a low-income couple [EV-SEC-406]. CBO's larger cut would make these figures larger [EV-SEC-407].
+- CRFB puts the 22% cut at about $16,900 a year for a typical dual-earning couple retiring in January 2033, $12,700 for a single-income couple and $10,200 for a low-income dual-earning couple [EV-SEC-406]. CBO's larger cut would make these figures larger [EV-SEC-407].
 - **For the plan's calendar.** Depletion in late 2032 falls in the plan's second Congress, near the 2032 election. Section 310(g) of the Budget Act bars Social Security changes from reconciliation [EV-SEC-476], so the fix needs regular order: 60 votes or a rules change, as legacy D8 assumed.
 
 ### D.3 Who depends on it
@@ -207,7 +207,7 @@ The cents lost from each added dollar of earnings in 2026, from the statutory ra
 | Housing, if assisted (at the next annual review) | 30 | 30 | 30 | [EV-HOU-410] [EV-SEC-511] |
 | Premium tax credit, where it applies (150-200% of poverty) | about 11 to 16 | about 11 to 19 | about 12 to 14 | [EV-SEC-514] |
 | **Total, payroll + earned income credit + SNAP + housing** | **about 83** | — | **about 70** | |
-| **Total, payroll + income tax + earned income credit + premium credit, no SNAP or housing** | — | **about 50 to 57** | — | |
+| **Total, payroll + income tax + earned income credit + premium credit, no SNAP or housing** | — | **about 50 to 60** | — | |
 
 - **Cliffs, where help ends at a line instead of falling:** Medicaid at 138% of poverty [EV-SEC-519]; SNAP's gross income test at 130% in states without the broad option [EV-SEC-506]; the premium credit at 400%, back since the enhanced credits expired [EV-SEC-515] [EV-SEC-516]; child care at the state entry limit, softened by continued help up to 85% of state median income [EV-SEC-529]; SSDI's earnings limit of $1,690 a month in 2026 [EV-SEC-525]. The 2025 law also removed the cap on repaying excess premium credits from 2026, so a mid-year raise can bring a tax bill [EV-SEC-517].
 - **The analysis behind the arithmetic.**
