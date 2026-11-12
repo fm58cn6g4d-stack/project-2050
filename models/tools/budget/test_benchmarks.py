@@ -385,7 +385,8 @@ def bm_published(M):
     worst_act = max(loo, key=lambda k: max(abs(g) for g in loo[k]))
     worst_gap = max(loo[worst_act], key=abs)
     ps4c_ok = all(abs(g) <= 10 for v in loo.values() for g in v[:4])
-    # PS-4a's ceiling, set before reading the result (#272's review): one act may sit at most 20 points
+    # PS-4a's ceiling (#272's review). It was set during that review, after the 18-point miss was known, so it is not
+    # blind; it is fixed here and applies to every later run: one act may sit at most 20 points
     # from the average in any of its first four years, twice the 10-point tolerance, to count as
     # bounded. Twice, because a title of mostly procurement or research can spend roughly one year
     # behind a regular year's mix (CBO's regular-act rates spend about 84% by year 2 and 92% by year 3).
@@ -456,7 +457,7 @@ def bm_published(M):
                        "estimate for the same money. Cumulative shares measure timing without depending on the act's size. Ten points allows "
                        "for one act differing from the average pattern the shares are fit to; a bigger gap means the library would misplace "
                        "that kind of spending by a year or more. *Bounded*, not passed, for defense only, when the miss stays under a "
-                       "20-point ceiling set in advance and PS-4c shows the rates hold for a regular year's defense mix: the status says "
+                       "fixed 20-point ceiling (set in review after this act's 18-point miss was known, and fixed since) and PS-4c shows the rates hold for a regular year's defense mix: the status says "
                        "the timing of such a row is uncertain by the stated range, not that it is right. Nondefense has no such "
                        "companion test yet, so a nondefense miss fails." % grp,
                        unit="share of budget authority", miss="%+.0f points by end of year %d" % (gaps[wk], wk + 1) if not ok else None,

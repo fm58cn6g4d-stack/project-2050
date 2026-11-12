@@ -14,7 +14,6 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - ASM-FY26-TOTALS: FY2026 preliminary actual totals replace CBO's February FY2026 projection
 - ASM-RATE-MARGINAL: Rate on the program's own borrowing through 2036: the higher of CBO's average rate on debt and a 40/60 blend of the 3-month bill and 10-year note
 - ASM-RATE-LT: Rate on the program's own borrowing after 2036: the baseline's implied average rate (net interest over last year's debt)
-- ASM-RATE-SHIFT: Rate stress case: one percentage point higher on all rates from 2030, reaching existing debt as it rolls over (ASM-RATE-ROLLOVER) and new borrowing (baseline and program) in full
 - ASM-PROF-DEFAULT: Default profile: starts FY2030, full in its first year, grows with GDP, permanent at the 2039 run rate
 - ASM-PROF-HEALTH: Health rows grow with CBO's own health category, so they keep a constant share of it
 - ASM-PROF-REVENUE: Revenue rows grow with their own tax base (the matching CBO revenue category), including bracket creep
@@ -50,7 +49,7 @@ The adopted baseline is CBO's February 2026 current-law baseline: history to FY2
 - **How much it matters:** high: every test and every "below the baseline" figure is measured against it
 - **Where:** models/tools/fiscal-data.py:32-38 (FILES); models/data/fiscal-baseline.csv
 - **Source:** CBO, The Budget and Economic Outlook: 2026 to 2036 (Feb 2026, publication 62105), via github.com/US-CBO/cbo-data; CBO, The Long-Term Budget Outlook: 2026 to 2056 (Feb 2026), via github.com/US-CBO/cbo-data
-- **Decided by:** Espen (D4-B guardrails are "against the real (CBO, adjusted) baseline", Decision Brief 2); Espen, Nov 8, 2026: CBO's latest baseline, with the 2027-28 changes as disclosed lines (choice 1, C; memo-budget-choices.md, PR #110; no DEC- entry yet)
+- **Decided by:** Espen (D4-B guardrails are "against the real (CBO, adjusted) baseline", Decision Brief 2); Espen, Nov 8, 2026: CBO's latest baseline, with the 2027-28 changes as disclosed lines (choice 1, C; memo-budget-choices.md, PR #110; DEC-2026-11-08-03)
 - **Notes:** The only baseline; B2 reproduces it and nothing selects another (WORKFLOW.md). Not yet rebuilt for CBO's 2027 baseline.
 
 ### ASM-BASE-LT-SHARES
@@ -235,7 +234,7 @@ Rate stress case: one percentage point higher on all rates from 2030, reaching e
 - **How much it matters:** high: the biggest single risk; 2056 baseline debt 180% becomes 217% of GDP (224% before B6 phased it in)
 - **Where:** models/tools/fiscal-model.py:42-43, 191-206, 334-348
 - **Source:** Project sensitivity; the size echoes CBO's rule-of-thumb tests
-- **Decided by:** unrecorded
+- **Decided by:** Espen, Nov 8, 2026: the guardrails are tested at CBO's projected rates and this case is reported beside them with no pass-or-fail condition (choice 4, A; DEC-2026-11-08-06); the one-point size is a project sensitivity, unrecorded
 - **Notes:** Reported as scenarios DEC-R1 and BASE-R1; the D4 tests are judged at CBO rates, not under this case.
 
 ### ASM-RATE-ROLLOVER
@@ -315,7 +314,7 @@ The scoring window is FY2030-39; every ledger amount is a ten-year total for tho
 - **How much it matters:** high: anything in FY2029 is outside every total
 - **Where:** models/tools/fiscal-model.py:27; models/data/inputs/readme.md:6
 - **Source:** Project convention (plan begins January 2029, DEC-2026-10-29-01); CBO cost estimates cover "the next 5 or 10 years" (SRC-1163, CBO publication 57420)
-- **Decided by:** Espen, Nov 8, 2026: common FY2030-39 window with FY2029 as a disclosed line, plus each bill in its own CBO window (choice 3, A; memo-budget-choices.md, PR #110; no DEC- entry yet)
+- **Decided by:** Espen, Nov 8, 2026: common FY2030-39 window with FY2029 as a disclosed line, plus each bill in its own CBO window (choice 3, A; memo-budget-choices.md, PR #110; DEC-2026-11-08-05)
 - **Notes:** FY2029 effects are unpriced, not zero (fiscal-model.py:98-99 sets years before 2030 to zero; models/data/inputs/readme.md:45 for CAP-7S).
 
 ### ASM-HORIZON
@@ -368,7 +367,7 @@ Two bases: general fund (D4 maturity test) and unified (total debt guardrails). 
 - **How much it matters:** high: the unified guardrails count Social Security's new payroll revenue against general-fund borrowing
 - **Where:** models/tools/fiscal-model.py:151-154; models/data/inputs/fiscal-profiles.csv:10, 19 (unified_zero)
 - **Source:** SRC-0041 (Decision Brief 2, Oct 20); SRC-0043 (Governing Decisions, D4); SRC-1163 (CBO publication 57420: the unified budget "encompasses all the activities of the federal government"; Social Security is off-budget)
-- **Decided by:** Espen (D4-B, Decision Brief 2); kept by Espen, Nov 8, 2026, with the reading without Social Security as disclosure (choice 5, A; memo-budget-choices.md, PR #110; no DEC- entry yet)
+- **Decided by:** Espen (D4-B, Decision Brief 2); kept by Espen, Nov 8, 2026, with the reading without Social Security as disclosure (choice 5, A; memo-budget-choices.md, PR #110; DEC-2026-11-08-07)
 
 ### ASM-LATER-ROWS
 
@@ -552,7 +551,7 @@ Defense is measured against CBO's baseline: NSC-1A (flat in real terms from FY20
 - **How much it matters:** high: whatever 2027-28 enacts for defense disappears into the baseline (about $0.13-0.30T over 2030-39)
 - **Where:** models/data/inputs/ledger-bills.csv:51; models/data/inputs/fiscal-profiles.csv:51
 - **Source:** Baseline rule: 2 U.S.C. 907(c) and CBO publication 59208; dossiers/scenario/memo-defense-baseline-and-dem2.md; SRC-1164 (CBO publication 58916)
-- **Decided by:** Espen (NSC-1A, Decision Brief 2); the measuring rule was open (memo, choice a) until Espen, Nov 8, 2026: CBO's latest baseline, with 2027-28 defense as a disclosed line (choice 1, C; memo-budget-choices.md, PR #110; no DEC- entry yet)
+- **Decided by:** Espen (NSC-1A, Decision Brief 2); the measuring rule was open (memo, choice a) until Espen, Nov 8, 2026: CBO's latest baseline, with 2027-28 defense as a disclosed line (choice 1, C; memo-budget-choices.md, PR #110; DEC-2026-11-08-03)
 - **Notes:** CBO inflates discretionary funding with the GDP price index (and the employment cost index for pay), not CPI, so "flat real" in CBO's sense is GDP-deflator real.
 
 
