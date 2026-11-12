@@ -12741,5 +12741,163 @@
    "dossiers/care/2d-what-works-workforce.md",
    "dossiers/care/3d-design-workforce.md"
   ]
+ },
+ {
+  "id": "EV-CAR-641",
+  "statement": "Freedman and Spillman estimate from the 2011 National Health and Aging Trends Study that nearly 3 million older adults received help with 3 or more self-care or mobility activities in settings other than nursing homes, out of 18 million who had difficulty or received help with daily activities.",
+  "claim": "data",
+  "figures": [
+   "3 million",
+   "18 million"
+  ],
+  "source": "SRC-3153",
+  "anchor": [
+   "Nearly 3 million received assistance with 3 or more self-care or mobility activities in settings other than nursing homes",
+   "Nearly one-half of older adults, or 18 million people, had difficulty or received help in the last month"
+  ],
+  "locator": "Abstract, Findings",
+  "grade": "C",
+  "fact_date": "2011",
+  "context": "Academic survey estimate (Milbank Quarterly, 2014), abstract only. Its activity list includes mobility (getting around inside, going outside), so it is broader than the six ADLs; read with ASPE's 5.7 million at the two-activity test [EV-CAR-482] as a rough bracket only.",
+  "supports": [
+   "dossiers/care/3b-design-home-care.md",
+   "dossiers/care/memos/7-benefit-scope.md"
+  ],
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12"
+ },
+ {
+  "id": "EV-CAR-642",
+  "statement": "CBO finds that about 85 percent of elderly people in the community with difficulty in three or more ADLs received assistance, against about 45 percent of those with difficulty in one or two.",
+  "claim": "data",
+  "figures": [
+   "85 percent",
+   "45 percent"
+  ],
+  "source": "SRC-3152",
+  "anchor": [
+   "about 85 percent of elderly people living\nin the community who reported difficulty with\nthree or more ADLs received assistance, as\ncompared with about 45 percent of those\nreporting difficulty with one or two ADLs."
+  ],
+  "locator": "p. 16, assistance received",
+  "grade": "B",
+  "fact_date": "2013-06",
+  "context": "CBO (nonpartisan), Health and Retirement Study tabulations, 2000-2010 average.",
+  "supports": [
+   "dossiers/care/3b-design-home-care.md",
+   "dossiers/care/memos/7-benefit-scope.md"
+  ],
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12"
+ },
+ {
+  "id": "EV-CAR-643",
+  "statement": "CBO finds elderly people in the community with three or more functional limitations nearly five times as likely to be Medicaid beneficiaries (24 percent over 2000-2010) as people with no functional impairments (5 percent).",
+  "claim": "data",
+  "figures": [
+   "24 percent",
+   "5 percent"
+  ],
+  "source": "SRC-3152",
+  "anchor": [
+   "or more functional limitations who live in the\ncommunity are nearly five times as likely to be\nMedicaid beneficiaries (24 percent, on average,\nfrom 2000 to 2010) as are people with no functional impairments (5 percent)"
+  ],
+  "locator": "Payers section",
+  "grade": "B",
+  "fact_date": "2013-06",
+  "context": "CBO (nonpartisan), Health and Retirement Study. Shows people at the three-activity line are more often already served, so a smaller share of them are new users.",
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12"
+ },
+ {
+  "id": "EV-CAR-644",
+  "statement": "CBO finds elderly people in the community with limitations in three or more ADLs receive an average of 9 hours of assistance per day, paid and unpaid, and those 85 or older about 11 hours.",
+  "claim": "data",
+  "figures": [
+   "9 hours",
+   "11 hours"
+  ],
+  "source": "SRC-3152",
+  "anchor": [
+   "people with limitations in three or more ADLs\nwho live in the community receive an average\nof 9 hours of assistance per day (counting both\nformal and informal sources of care), and\npeople age 85 or older with that degree of\nimpairment typically receive about 11 hours"
+  ],
+  "locator": "p. 17, hours of care",
+  "grade": "B",
+  "fact_date": "2013-06",
+  "context": "CBO (nonpartisan), Health and Retirement Study.",
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12"
+ },
+ {
+  "id": "EV-CAR-645",
+  "statement": "In California Medicaid data, 32.6 percent of older and disabled home and community-based service users had three or more ADL limitations, against 65.1 percent of nursing facility entrants.",
+  "claim": "data",
+  "figures": [
+   "32.6 percent",
+   "65.1 percent"
+  ],
+  "source": "SRC-3154",
+  "anchor": [
+   "3 or more ADL limitations",
+   "8495 (32.6)",
+   "3788 (65.1)",
+   "Over 65% had 3 or more limitations in ADL and nearly half had cognitive limitations."
+  ],
+  "locator": "Table 1; Results",
+  "grade": "C",
+  "fact_date": "2007",
+  "context": "Academic study (Ko and others, Inquiry, 2018) of Medicaid-only users in one state in 2006-07 (8,495 of 26,031 home-care users), on state assessment instruments; California's home care (IHSS) uses a low need line. With EV-CAR-646 it shows the share of Medicaid home-care users at three activities varies widely by state and definition.",
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12"
+ },
+ {
+  "id": "EV-CAR-646",
+  "statement": "Washington State's LTSS Trust Commission states that approximately 95% of people who qualify for Medicaid long-term services and supports need help with three or more activities of daily living as Medicaid defines them.",
+  "claim": "data",
+  "figures": [
+   "95%"
+  ],
+  "source": "SRC-3155",
+  "anchor": [
+   "Approximately 95% of people who qualify for Medicaid LTSS have a need for\nassistance with three or more activities of daily living as they are currently\ndefined in Medicaid."
+  ],
+  "locator": "Scope, p. 1",
+  "grade": "C",
+  "fact_date": "2022-09",
+  "context": "The state describing its own Medicaid population, under its own ADL definitions; not a national figure. Contrast California [EV-CAR-645].",
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12"
+ },
+ {
+  "id": "EV-CAR-647",
+  "statement": "CBO finds about 84 percent of elderly nursing home residents have three or more functional limitations, about half of them with cognitive limitations as well.",
+  "claim": "data",
+  "figures": [
+   "84 percent"
+  ],
+  "source": "SRC-3152",
+  "anchor": [
+   "About 84 percent of elderly nursing home\nresidents have three or more functional limitations; of that 84 percent, about half also have\ncognitive limitations."
+  ],
+  "locator": "Nursing homes section",
+  "grade": "B",
+  "fact_date": "2013-06",
+  "context": "CBO (nonpartisan), Health and Retirement Study. So the three-activity line barely changes who qualifies for memo 8 C.",
+  "supports": [
+   "dossiers/care/3b-design-home-care.md"
+  ],
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12"
  }
 ]

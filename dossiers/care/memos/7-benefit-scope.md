@@ -1,6 +1,13 @@
 # Memo 7: Who qualifies and how much the benefit covers
 
-Role: decision memo for Espen, fork 7 of the care dossier (part B, long-term care: support at home and in nursing homes for older and disabled people; `../3b-design-home-care.md`). Status: **for Espen, not decided**; revised after the independent audit (`../review-part-b-evidence.md`). It applies to memo 6's option B (and to C after its waiting period). Under memo 6 A, Medicaid's rules decide both questions state by state. Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions; their basis is in `../3b-design-home-care.md`.
+Role: decision memo for Espen, fork 7 of the care dossier (part B, long-term care: support at home and in nursing homes for older and disabled people; `../3b-design-home-care.md`). Status: **decided by Espen, November 11, 2026: part 1 C, three daily activities or the equivalent, with the hold-harmless kept; part 2 B** (`DEC-2026-11-11-02`); revised after the independent audit (`../review-part-b-evidence.md`) and repriced in step 8 (`DEC-2026-11-11-05`). It applies to memo 6's option B (and to C after its waiting period). Under memo 6 A, Medicaid's rules decide both questions state by state. Sources are named in plain text; bracketed tags point to `../evidence.json`. Costs marked "judgment" are working assumptions; their basis is in `../3b-design-home-care.md`.
+
+**What changed after Espen's decision (step 8).** Espen chose part 1 C, three activities, to lower the cost, and kept the hold-harmless. Part 1 C keeps A's "or the equivalent" route: supervision for severe cognitive impairment, and an age-appropriate standard for children and for people with intellectual or developmental disabilities. Repriced (`../3b-design-home-care.md`; `../tools/care_repricing.py`):
+- *New users in 2035:* about 3.9 million (range 2.8-5.6 million), about 40% fewer than at two activities. About two-thirds of people at the two-activity line also meet three [EV-CAR-482] [EV-CAR-641] [EV-CAR-647], but fewer of those not now served do, because people at three activities are likelier to be served already [EV-CAR-642] [EV-CAR-643].
+- *Cost each:* about a fifth higher, about $50,000 in 2035, because the lightest tier drops out [EV-CAR-644].
+- *Saving:* memo 6 B falls from about $380 billion to about $300 billion in 2035, which is the low end of the $80-130 billion this memo had judged.
+- *The hold-harmless's own cost:* about $47 billion in 2035, $0.18 trillion over 2035-39 and $24 billion in FY2040, inside memo 6 B's figures, falling as the people it protects leave the program (judgment; `../3b-design-home-care.md`).
+- *Below the line after 2034:* the hold-harmless covers everyone on Medicaid home care on December 31, 2034. People who would have entered Medicaid home care later below the line are not covered: about $24 billion of current-law spending by FY2040. In a 2006-07 California Medicaid sample, about two-thirds of home-care users had fewer than three limitations, though some would meet the cognitive route [EV-CAR-645]; Washington says about 5% of its Medicaid users fall below three [EV-CAR-646]. Memo 17 asks whether to keep a state option for them (board question 0n, 1).
 
 **What changed after the audit.** The recommendations stay: part 1 A, part 2 B. Three corrections:
 - *Part 1 adds a hold-harmless clause.* The earlier text said today's Medicaid users "keep their eligibility" at two daily activities. Nothing supported that: Medicaid's level of care is set state by state, and the 2025 law adds a waiver for people below it [EV-CAR-414]. The clause makes the promise true.
@@ -13,7 +20,7 @@ Costs are restated on memo 6's rebuilt basis. The tier amounts in part 2 are wor
 
 ## Why it matters
 
-- **Breadth, depth and cost.** These two choices set most of the benefit's cost and whom it reaches. CBO's broad option, from one limitation and with no limits, adds $599 billion of federal spending in 2030 [EV-CAR-452] [EV-CAR-453]; memo 6 B, at two activities with set budgets, about $380 billion in 2035.
+- **Breadth, depth and cost.** These two choices set most of the benefit's cost and whom it reaches. CBO's broad option, from one limitation and with no limits, adds $599 billion of federal spending in 2030 [EV-CAR-452] [EV-CAR-453]; memo 6 B, at two activities with set budgets, about $380 billion in 2035, and at the decided three activities about $300 billion.
 - **The threshold.** Private policies and two bipartisan bills use the tax code's test: help with two daily activities for 90 days, or supervision for severe cognitive impairment [EV-CAR-499]. ASPE counted 5.7 million people 65 and over meeting it in 2011 [EV-CAR-482]. The House bill starts at one [EV-CAR-470]; WA Cares requires three [EV-CAR-497]. Medicaid uses each state's nursing-home level of care.
 - **Depth.** Germany pays a set budget by care grade: up to 2,299 euros a month in services at grade 5. Its ministry calls it a "partial-benefit system" (German Federal Ministry of Health, 2026) [EV-CAR-440]. Its benefits lost value until they were indexed (Nadash and others, 2018) [EV-CAR-441], and German nursing-home residents still pay about 3,108 euros a month themselves in their first year [EV-CAR-484]. S. 1506 sets no limit [EV-CAR-276].
 - **The legacy test.** The October 26 legacy direction asked for "protection against prolonged intensive-care costs" and warned against calling a modest allowance complete care insurance (`legacy/domains/domain-health.md`, line 137).
@@ -34,7 +41,7 @@ Costs are restated on memo 6's rebuilt basis. The tier amounts in part 2 are wor
 - *Cost:* perhaps 50-80% more users and about $140-220 billion a year more in 2035 (judgment, on memo 6's rebuilt new-user line). The supply strain grows with it. CBO's option 5, at about this line, shows the scale [EV-CAR-452].
 
 **C. Three daily activities (WA Cares' line).**
-- *Cost:* perhaps 30-40% fewer new users, saving about $80-130 billion a year in 2035 (judgment).
+- *Cost:* perhaps 30-40% fewer new users, saving about $80-130 billion a year in 2035 (judgment). *Repriced in step 8:* about 40% fewer new users, each costing about a fifth more, saving about $80 billion in 2035 (memo 6 B about $300 billion).
 - *For people:* without A's hold-harmless, many people now on Medicaid waivers would not qualify. With it, they keep their help, but new users with moderate needs are left out.
 
 **Recommendation for part 1: A.** It uses an existing standard that private policies and two bipartisan bills share, reaches serious need without the cost and supply strain of B, and, with the hold-harmless, takes nothing from anyone Medicaid serves today. The CAPABLE demonstration (point 6) and the plan's medical benefit cover earlier, lighter needs.
@@ -55,7 +62,7 @@ Costs are restated on memo 6's rebuilt basis. The tier amounts in part 2 are wor
   - A clinical exceptions process covers needs above the top tier, for example ventilator users or people needing two-person transfers.
 - *For people:* a person in the top tier can get about 40 hours a week of agency care, or more hours if self-directed at lower wages. That is the care part of a nursing-home year (about 65% of $114,975) at $35 an hour (CareScout, 2025) [EV-CAR-437] (project arithmetic and judgment). Family fills the rest, or the exceptions process covers more.
 - *Where tried:* Germany's and Japan's graded benefits [EV-CAR-440] [EV-CAR-442]; Medicaid's self-directed budgets, tested in the Cash and Counseling randomized trial [EV-CAR-428].
-- *Cost:* memo 6 B's central estimate, about $380 billion a year of new federal money in 2035 (judgment).
+- *Cost:* memo 6 B's central estimate, about $380 billion a year of new federal money in 2035 at two activities, about $300 billion at the decided three (judgment).
 - *Why it is not a partial benefit:* the amounts are meant to meet each tier's typical need, not to share the cost, and they are indexed. Germany's are neither. Whether the amounts in fact meet typical need is a working assumption until a national assessment study sets them.
 - *Evidence strength:* international practice and one trial for the structure; the amounts are judgment. The audit rates it plausible but thin.
 - *Burden:* none beyond the assessment. The budget follows the tier.
@@ -88,8 +95,8 @@ Costs are restated on memo 6's rebuilt basis. The tier amounts in part 2 are wor
 
 | | Part 1 A, two activities with hold-harmless | Part 1 B, one activity | Part 1 C, three activities |
 | --- | --- | --- | --- |
-| New users, 2035 (judgment) | about 6.5 million | 50-80% more | 30-40% fewer |
-| Cost against memo 6 B's central | — | about $140-220 billion more | about $80-130 billion less |
+| New users, 2035 (judgment) | about 6.5 million | 50-80% more | 30-40% fewer; **step 8: about 3.9 million** |
+| Cost against memo 6 B's central | — | about $140-220 billion more | about $80-130 billion less; **step 8: about $80 billion less** |
 | Today's Medicaid users | All kept | All kept | Kept only with a hold-harmless |
 | Closest bills | WISH, Credit for Caring, private policies | H.R. 3069 | WA Cares |
 

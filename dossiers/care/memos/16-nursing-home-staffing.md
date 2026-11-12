@@ -1,6 +1,6 @@
 # Memo 16: Nursing home staffing
 
-Role: decision memo for Espen, fork 16 of the care dossier (part D, the care workforce; `../3d-design-workforce.md`). It answers part B's point 10, which left the 2025 law's staffing moratorium open for part D (`../3b-design-home-care.md`). Status: **for Espen, not decided.** Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`). Costs marked "judgment" are this dossier's working assumptions.
+Role: decision memo for Espen, fork 16 of the care dossier (part D, the care workforce; `../3d-design-workforce.md`). It answers part B's point 10, which left the 2025 law's staffing moratorium open for part D (`../3b-design-home-care.md`). Status: **decided by Espen, November 11, 2026: C** (`DEC-2026-11-11-04`); cost lines re-audited in step 8: from 2035 the plan pays the care part of every stay (memo 8 C), so the staffing cost is all federal. Sources are named in plain text; bracketed tags point to the evidence register (`../evidence.json`). Costs marked "judgment" are this dossier's working assumptions.
 
 **This memo decides whether federal law sets a minimum level of nurse staffing in nursing homes, and how.** Pay in nursing homes is memo 14. Who pays for nursing home care from 2035 is part B's memo 8.
 
@@ -36,7 +36,7 @@ Role: decision memo for Espen, fork 16 of the care dossier (part D, the care wor
 - *What it is:* the rule's numbers [EV-CAR-600] written into the Social Security Act, with its phase-in and its exemptions for shortage areas, from 2030.
 - *Where tried:* the rule never took effect. New York has a 3.5-hour statutory standard (not in register).
 - *For residents:* more nurse and aide time in about 80% of homes [EV-CAR-601].
-- *Cost:* about $4-6 billion a year gross; federal about $3-5 billion, since Medicaid pays for 63% of residents (KFF) [EV-CAR-438]. About $0.04 trillion over FY2030-39 (judgment, from CMS's $4.30 billion a year [EV-CAR-601]).
+- *Cost:* about $4-6 billion a year gross; federal about $3-5 billion before 2035, since Medicaid pays for 63% of residents (KFF) [EV-CAR-438], and nearly all of it from 2035, when the plan pays the care part of every stay (memo 8 C). About $0.04 trillion over FY2030-39 (judgment, from CMS's $4.30 billion a year [EV-CAR-601]).
 - *Evidence strength:* quasi-experimental for minimums [EV-CAR-607] [EV-CAR-608]. The 2.45 aide figure has the weakest support [EV-CAR-608].
 - *Political risk:*
   - The nursing home industry sued and won once [EV-CAR-602].
@@ -52,7 +52,7 @@ Role: decision memo for Espen, fork 16 of the care dossier (part D, the care wor
   - *Funding:* Medicaid and the plan's rates must fund the standard, with the federal government paying the added cost in Medicaid until 2035.
   - *The 2025 moratorium:* the 2029 law repeals it only as it applies to this new standard.
 - *For residents:* round-the-clock registered nurses everywhere from 2031; more total care from 2035.
-- *Cost:* about $1-2 billion a year in 2031-34, about $5-7 billion gross from 2035 (federal about $4-6 billion), about $0.03 trillion over FY2030-39 and about $6 billion in FY2040 (judgment).
+- *Cost:* about $1-2 billion a year in 2031-34 (the federal part of Medicare's and Medicaid's share), about $5-7 billion from 2035, all federal because the plan then pays the care part of every stay (memo 8 C; step 8 corrected this from about $4-6 billion), about $0.04 trillion over FY2030-39 and about $7 billion in FY2040 (judgment).
 - *Evidence strength:* quasi-experimental for the registered nurse emphasis [EV-CAR-608] and for counting licensed nurses [EV-CAR-607]; observational for the total [EV-CAR-606]. The phasing is judgment.
 - *Political risk:*
   - The industry opposes any minimum, but the funding and phasing remove its main arguments.
@@ -74,7 +74,7 @@ Role: decision memo for Espen, fork 16 of the care dossier (part D, the care wor
 | Round-the-clock registered nurse | No (8 hours a day) | From 2030 | From 2031 | No |
 | Total nurse hours | No floor | 3.48 from 2030 | 3.48 from 2035, licensed nurses counting | No floor |
 | Who pays | — | Not specified (the 2024 rule's failure) | The payer, in rates | Bonus payments |
-| Federal cost, FY2040 | 0 | about $5-7 billion | about $6 billion | about $2 billion |
+| Federal cost, FY2040 | 0 | about $6-8 billion | about $7 billion | about $2 billion |
 | Legal footing | — | Statute | Statute | Statute or rule |
 | Evidence for the design | — | Mixed for aide hours | Strongest parts first | None in register |
 

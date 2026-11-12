@@ -1,6 +1,6 @@
 # Care you can count on, part D (the care workforce): design choices
 
-Role: section 3 of the care dossier, part D: the real forks for paying, staffing and supplying the paid care workforce, the options weighed with their evidence, a recommendation for each, one decision memo per fork (memos 14-16), and a numbered list of narrower yes-or-no points. Status: draft (stage D, step 7); **for Espen, none decided**. Sources are named in plain text in the memos; bracketed tags point to `evidence.json`; "project arithmetic" is `tools/workforce_demand.py`.
+Role: section 3 of the care dossier, part D: the real forks for paying, staffing and supplying the paid care workforce, the options weighed with their evidence, a recommendation for each, one decision memo per fork (memos 14-16), and a numbered list of narrower yes-or-no points. Status: draft (stage D, step 7); **decided by Espen, November 11, 2026: all as recommended, with the $20 floor** (`DEC-2026-11-11-04`). Costs re-audited in step 8 at the federal cost only, on part B's decided three-activity line, with the bridge's state share set out (`DEC-2026-11-11-05`; "What is and isn't counted" below; further cost options in memo 17). Sources are named in plain text in the memos; bracketed tags point to `evidence.json`; "project arithmetic" is `tools/workforce_demand.py`.
 
 ## How to read this section
 
@@ -42,54 +42,55 @@ Section 1, part 6, gives it in full. The federal government sets no wage or staf
 
 ## What the options cost
 
-Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money in nominal dollars, against current law, on top of parts B and C's own costs. Parts B and C priced their programs at **today's wage levels**, so a raise is part D's line. These figures replace part B's placeholder (about $55 billion for a 20% home care raise) and use part C's parity line.
+Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money in nominal dollars, against current law, on top of parts B and C's own costs. **Step 8 repriced this section** on part B's decided three-activity line and the recommended state shares (`tools/workforce_demand.py`, `tools/care_repricing.py`); the earlier figures are given where they help. Parts B and C priced their programs at **today's wage levels**, so a raise is part D's line. These figures replace part B's placeholder (about $55 billion for a 20% home care raise) and use part C's parity line.
 
 **The basis (project arithmetic; judgment where marked).**
 - **Home care base in 2035.**
   - *Today's Medicaid home care,* about $164 billion in 2023 [EV-CAR-404] [EV-CAR-406], grown 5.5% a year (part B's working assumption): about $312 billion.
-  - *Plus the part of memo 6 B's new money that buys new hours:* richer budgets for today's users, about $30 billion, and new users with the waiting lists included, about $275 billion (part B, as revised after its audit). Memo 6 B's other $73 billion relieves states of their share of spending already inside the Medicaid line, buys no new hours and is not added.
-  - *Total:* about $617 billion of publicly paid home care that pays for hours of work, the figure part B itself gives for part D (`3b-design-home-care.md`).
+  - *Plus the part of memo 6 B's new money that buys new hours:* richer budgets for today's users, about $30 billion, and new users with the waiting lists included, about $197 billion at the decided three activities (about $275 billion at two). Memo 6 B's other $73 billion relieves states of their share of spending already inside the Medicaid line, buys no new hours and is not added.
+  - *Total:* about $538 billion of publicly paid home care that pays for hours of work in 2035 (range $413-819 billion), the figure part B itself gives for part D (`3b-design-home-care.md`); $617 billion at two activities.
   - *Labor:* about 60% of it (part B's judgment).
 - **What a floor adds to payroll** (judgment).
   - *The anchor:* the 2024 median is $16.77 an hour in home care [EV-CAR-613], so a $20 floor in 2026 dollars lifts most home care workers. LeadingAge's living-wage model gave 75.3% of direct care workers a raise averaging 15.5% [EV-CAR-626].
   - *Average payroll increase by level:* $18, about 5%; $20, about 12% (range 8-18%); $22.50, about 25%.
   - *Nursing homes:* the median nursing assistant earns $42,260, about $20.30 an hour [EV-CAR-609], so a $20 floor adds little there. Judgment: $1-6 billion, depending on level.
-- **The bridge, 2030-34.** Before memo 6 B starts, the floor applies to Medicaid home care: about $239 billion in 2030. The federal government pays 90% of the floor's added cost (judgment, on Better Care Better Jobs' approach of new federal money for new conditions [EV-CAR-617]).
+- **The bridge, 2030-34.** Before memo 6 B starts, the floor applies to Medicaid home care: about $239 billion in 2030, about $96 billion of added payroll over the five years. **The federal government pays the floor's added cost at each state's bridge rate**, its regular match (about 60%) plus the bridge's points (about 8): about 68%, or $65 billion, with states paying about $31 billion. It was 90% before step 8 (judgment then, on Better Care Better Jobs' approach of new federal money for new conditions [EV-CAR-617]); the options are under "States' share" below.
 - **Child care.**
-  - *Parity:* part C's line, about $45 billion on top of memo 10 B at maturity (range $30-65 billion) and about $60 billion in FY2040 (`3c-design-child-care.md`).
-  - *The floor alone:* about 12% on child care staff payroll. The median is $16.82 [EV-CAR-516], on part C's labor share of about two-thirds of $118 billion gross, at the 90% federal share (judgment).
+  - *Parity:* part C's line, about $45 billion on top of memo 10 B at maturity (range $30-65 billion) and about $60 billion in FY2040 at 90% federal (`3c-design-child-care.md`); at the recommended child care share (90% for three years, then 80%), about $53 billion in FY2040.
+  - *The floor alone:* about 12% on child care staff payroll. The median is $16.82 [EV-CAR-516], on part C's labor share of about two-thirds of $118 billion gross, at the child care federal share (judgment).
 - **Nursing home staffing.**
   - *CMS's own figures:* $43.0 billion over ten years, $4.30 billion a year on average, rising over the decade [EV-CAR-601].
   - *The repeal's figures:* the second Trump administration's repeal analysis says $55.1 billion over ten years [EV-CAR-603], which the project shows as that administration's view.
-  - *The federal share:* Medicaid pays for 63% of residents [EV-CAR-438], and under part B's memo 8 C the plan pays the care part from 2035.
+  - *The federal share:* Medicaid pays for 63% of residents [EV-CAR-438] until 2035. From 2035, under part B's decided memo 8 C, the plan pays the care part of every stay, so the whole staffing cost is federal (step 8; it was counted at about 80%).
 
 | Option | 2035, first year of memo 6 B ($ billion) | FY2030-39 ($ trillion) | FY2040 (about, $ billion) |
 | --- | --- | --- | --- |
 | Memo 14 A, pass-through only | about 0-10 (judgment: a pass-through moves no money unless rates rise) | about 0.03 | 5-10 |
-| **Memo 14 B, $20 floor** (part 2 B) | **about 47 (25-95)**: home care about 44, nursing homes 2-4 | **about 0.35 (0.2-0.6)**: the bridge about 0.09; from 2035 about 0.26 | **about 62 (33-125)** |
-| Memo 14 B at $18 (part 2 A) | about 20 | about 0.14 | about 25 |
-| Memo 14 B at $22.50 (part 2 C) | about 98 | about 0.72 | about 127 |
-| Memo 14 C, bargaining in every state | up to about 130-150 at maturity, if wages reach Washington's everywhere, less where bargaining lags (judgment: $22.52 to $23.68 there [EV-CAR-621], about 35-40% above the national home care median); timing set by bargaining | about 0.4-0.7 | about 170-195 |
+| **Memo 14 B, $20 floor** (part 2 B, decided) | **about 42 (23-91)**: home care about 39, nursing homes 2-4 (two activities: 47) | **about 0.30 (0.17-0.61)**: the bridge about 0.065 at the bridge rate; from 2035 about 0.23 (two activities and 90%: 0.35) | **about 55 (30-119)** (two activities: 62) |
+| Memo 14 B at $18 (part 2 A) | about 17 | about 0.12 | about 22 |
+| Memo 14 B at $22.50 (part 2 C) | about 86 | about 0.61 | about 112 |
+| Memo 14 C, bargaining in every state | up to about 115-130 at maturity, if wages reach Washington's everywhere, less where bargaining lags (judgment: $22.52 to $23.68 there [EV-CAR-621], about 35-40% above the national home care median); timing set by bargaining | about 0.35-0.6 | about 150-170 |
 | Memo 14 D, no floor | 0 | 0 | 0 |
-| Memo 15 A, parity from 2032 | about 45 (30-65), part C's line | about 0.4 (part C) | about 60 |
-| **Memo 15 B, phased to parity by 2036** | **about 25 (15-35) in 2033** | **about 0.25 (0.15-0.35)** | **about 60 (40-85)**, the same end point as A |
-| Memo 15 C, the floor only | about 10 (5-15) | about 0.08 | about 13 |
+| Memo 15 A, parity from 2032 | about 45 (30-65), part C's line, at 90% | about 0.35 at the recommended child care share | about 53 |
+| **Memo 15 B, phased to parity by 2036** (decided) | **about 25 (15-35) in 2033** | **about 0.22 (0.13-0.31)** at the recommended child care share (90%: 0.25) | **about 53 (36-76)**, the same end point as A (90%: 60) |
+| Memo 15 C, the floor only | about 10 (5-15) | about 0.07 | about 12 |
 | Memo 15 D, a supplement outside rates | as A or B, by level; paid by appropriation | as A or B | as A or B |
-| Memo 16 B, the 2024 standards from 2030 | about 4-6 gross; federal about 3-5 | about 0.04 | about 5-7 |
-| **Memo 16 C, registered nurses first, total by 2035** | **about 5-7 gross; federal about 4-6** (about 1-2 a year in 2031-34) | **about 0.03** | **about 6** |
+| Memo 16 B, the 2024 standards from 2030 | about 4-6, nearly all federal from 2035 | about 0.045 | about 6-8 |
+| **Memo 16 C, registered nurses first, total by 2035** (decided) | **about 5-7, all federal from 2035** (about 1-2 a year in 2031-34, the federal part of Medicare and Medicaid's share) | **about 0.04** | **about 7** |
 | Memo 16 D, published staffing and bonuses | about 1-2 | about 0.01 | about 2 |
 | Points 5 and 7 (training; health supply beyond HLT-4) | about 1.5-2.5 a year | about 0.02 | about 2 |
 
-- **The recommended set** (14 B at $20, 15 B, 16 C, the points):
-  - about $0.65 trillion over FY2030-39 (range $0.45-1.0 trillion);
-  - about $130 billion in FY2040 (range $85-215 billion).
+- **The decided set** (14 B at $20, 15 B, 16 C, the points), after step 8:
+  - at today's working state shares (the bridge's floor at 90%, child care at 90%), about $0.63 trillion over FY2030-39 and $124 billion in FY2040;
+  - with the state shares Espen accepted (the bridge rate; child care at 90% then 80%; memo 17, question 2, decided), about $0.58 trillion (range $0.35-1.0 trillion) and $117 billion (range $70-205 billion);
+  - against $0.65 trillion and $130 billion before step 8.
 
   It sits on top of parts B and C's own costs.
 - **If parts B and C choose otherwise.**
   - *Memo 6 A, stronger Medicaid:* the home care base is about $312 billion with no new benefit. Memo 14 B then costs about $22 billion a year in 2035, and states pay about 47% of it unless the federal government pays the floor's cost.
   - *Memo 10 A, the block grant:* child care's base is a fraction of memo 10 B's, so memo 15's lines fall by about two-thirds. The pull of pre-K staff out of infant care (memo 15) is then worse.
 - **Checks against outside estimates.**
-  - *LeadingAge's model:* $9.4 billion in 2022 to lift all direct care workers to a living wage [EV-CAR-626]. Grown to 2035 at part B's rate, that is about $19 billion on today's workforce. Memo 6 B roughly doubles the home care base, to about $38 billion on that scaling; but LeadingAge's figure covers all direct care workers (nursing homes and private pay included) at its living-wage level, not $20. So it is a rough order-of-magnitude check on memo 14 B's about $44 billion for home care, not a match.
+  - *LeadingAge's model:* $9.4 billion in 2022 to lift all direct care workers to a living wage [EV-CAR-626]. Grown to 2035 at part B's rate, that is about $19 billion on today's workforce. Memo 6 B at three activities raises the home care base by about 70%, to about $33 billion on that scaling; but LeadingAge's figure covers all direct care workers (nursing homes and private pay included) at its living-wage level, not $20. So it is a rough order-of-magnitude check on memo 14 B's about $39 billion for home care, not a match.
   - *CBO's Build Back Better score:* the home care provisions, about $150 billion over ten years (KFF's report of CBO) [EV-CAR-447]. That bought a match increase with conditions like memo 14 A's, not a floor, and sits between A and B.
   - *CMS's staffing estimate:* about $4.3 billion a year for the 2024 standards [EV-CAR-601]. The repeal's higher figure is the second Trump administration's view [EV-CAR-603].
   - *Part C's parity line:* judgment, not an independent model (part C names no outside estimate). It stays a working assumption, and finding one is in "Evidence still needed".
@@ -97,6 +98,45 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money in
   - *Savings from lower turnover and less public assistance.* About half of direct care workers rely on public assistance [EV-CAR-613], and LeadingAge counts $0.9-1.6 billion a year of savings (not used; the source's headline overstates its own numbers).
   - *Quality gains,* such as fewer deaths in nursing homes [EV-CAR-624]: not counted, as CBO's scores do not count them.
   - *Who pays:* the financing settlement's question (Codex), not this part's.
+
+## What is and isn't counted (step 8)
+
+Espen asked that part D count only workforce costs the federal government actually pays: "not assuming govt pays all of projected wage increases for workers" (`DEC-2026-11-11-05`). Each line passes three tests. It must count only (1) the cost above the wages the baseline already assumes; (2) care that public programs pay for; and (3) the federal share, with states' share shown separately.
+
+**What is counted.** Only the gap a standard opens between what workers would have been paid anyway and what the standard requires, on hours public money buys, at the federal share.
+
+**What is not counted.**
+- Wage growth the baseline already assumes. Parts B and C grow their costs with wages (part B, 4% a year per user) or prices (part C); that growth is in their own lines, not here.
+- Private-pay care, employers' own payrolls and families' payments.
+- States' share. It is shown beside each line (below), not added.
+- Savings from lower turnover and less public assistance, and quality gains, which CBO's scores also leave out (above).
+
+| Line | (1) Above baseline wages only? | (2) Public-program care only? | (3) Federal share only? | Change in step 8 |
+| --- | --- | --- | --- | --- |
+| **Memo 14 B, the floor in home care** | **Yes.** The 12% payroll lift is measured against the wages the baseline projects for 2026: the 2024 median of $16.77 [EV-CAR-613] grown 4% a year is about $18.14, and on a wage spread fitted to the dossier's three levels the lift is 12-13%. Against 2024 wages it would be 19-20%, a figure the dossier never used (`tools/care_repricing.py`). The floor is indexed to average wages, the same growth the baseline gives care wages, so the gap stays the same share. If care wages in the baseline grow faster than average wages, the floor costs less; if slower, more | **Yes.** The base is publicly paid home care that buys hours: Medicaid's line and memo 6 B's new hours. Private-pay home care is outside the floor and outside the base | **From 2035, yes.** The plan pays its own rates, and states' maintenance of effort is a fixed amount, so the added cost is federal. **In 2030-34, corrected:** 90% federal became each state's bridge rate, about 68% | Base $617 → $538 billion (three activities); bridge share 90% → about 68% |
+| Memo 14 B, the floor in nursing homes | Yes: the median nursing assistant already earns about $20.30 [EV-CAR-609], so the added cost is small ($2-4 billion) | From 2035 the plan pays the care part of every stay (memo 8 C), so all of it is public | Yes from 2035 | None |
+| **Memo 15 B, early educators' parity** | **Yes.** It is a ratio on part C's base, which grows with prices only, so no wage growth is counted. Part C's base itself leaves out the real wage growth child care workers would get anyway, about 1% a year. That understates part C's own line slightly, by perhaps $4-7 billion a year by the late 2030s; section 6 should grow its labor with wages | **Yes.** Under memo 10 B a family's payment is capped at a share of income, not of cost, so a raise falls on the program. Only a family whose 7% of income exceeds the full price pays more, at incomes far above the median (judgment: a rounding error) | **Corrected** to the recommended child care share, 90% for three years then 80% | FY2040 $60 → $53 billion |
+| Pre-K's parity (inside part C's memo 11 A) | Yes: priced in NIEER's cost model [EV-CAR-566] | Yes | 90% for three years, then 75% (unchanged) | None |
+| **Memo 16 C, nursing home staffing** | Yes: CMS's added staffing cost [EV-CAR-601] | Before 2035, only Medicare's and Medicaid's federal part; private payers bear theirs | **Corrected upward:** from 2035 the plan pays the care part of every stay, so the cost is all federal, not about 80% | 2035 federal $4-6 → $5-7 billion; FY2040 $6 → $7 billion |
+| Points 5 and 7, training and health supply | Not wages | Federal grants | Federal | None |
+
+**Flagged for the booking, not changed here.** HLT-4 is booked at $0.50 trillion over FY2030-39 (`6-cost.md`, part 5). It includes the legacy "HCBS down payment and care workforce" (`legacy/domains/domain-health.md`, HLT-4). Part B's bridge (point 1) and memo 14's bridge-period floor are that down payment. When parts B and D are booked, they replace HLT-4's long-term care part rather than adding to it. The legacy row does not separate that part, so the booking sizes it. This is a tier-3 booking change for the lead; part D books nothing.
+
+## States' share (step 8; the financing settlement decides)
+
+Espen asked that states pay a portion of all of it (`DEC-2026-11-11-05`). Part D's costs follow the payer's rates, so states' share is set where the rates are set:
+- *home care and nursing homes from 2035:* part B's maintenance of effort (`3b-design-home-care.md`, 50% recommended, as in health's HLT-7.17), so the floor's added cost is federal;
+- *child care and pre-K:* part C's shares (`3c-design-child-care.md`).
+
+The one share part D sets itself is the wage floor's added cost in Medicaid home care in 2030-34, before the plan pays.
+
+| Option for the bridge's floor | Federal, 2030-34 | States, 2030-34 | Burden on states | Risk that states cut back |
+| --- | --- | --- | --- | --- |
+| 90% federal (before step 8) | about $86 billion | about $10 billion | Least | Least |
+| **Each state's bridge rate: its regular match plus the bridge's points, about 68% (recommended)** | **about $65 billion** | **about $31 billion, about $6 billion a year** | A share at the rate the state already uses for home care in the bridge | Low for states taking the bridge's points: those points bring about $14-24 billion a year against their share of about $6 billion, and their entry condition bars cutting their own spending (part B, point 1) |
+| The regular match, about 60% | about $58 billion | about $38 billion | The normal Medicaid share | Higher. Home care is mostly optional, so a state paying 40% of a new mandate could trim waiver slots or hours |
+
+*Recommendation: the bridge rate.* States pay a real share, a third, at the rate their home care is already matched at. The bridge's points more than cover it, and their maintenance-of-effort condition guards against cuts. It saves about $0.02 trillion against 90%. Part D's point 3 (state standards above the floor at the normal share) already uses the same rule.
 
 ## Against the bills and state models
 
@@ -107,7 +147,7 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money in
 | A wage number in law | **Yes:** $20 in 2026 dollars, indexed, in publicly paid home care and nursing homes (memo 14) | Diverge: none; states show "competitive wages" | Diverge: none; rates "adequate to recruit and retain" | Diverge: none | Diverge: none; budgets account for wages and bargaining agreements | Match in child care: a living wage and parity | Minnesota: $22.50 for nursing assistants [EV-CAR-618]; California $25 for large systems [EV-CAR-619] | A floor is the only design that guarantees pay; the bills left the level to states, and state rates stayed low [EV-CAR-627] |
 | Pass-through of payments to wages | **Yes:** the 80% share in statute, as the floor's check | Match in part: increases passed through proportionately | Match in part: the same | Match: 80% of three services [EV-CAR-419] | Diverge: none | — | California holds nursing homes out until a spending rule exists [EV-CAR-619] | A share rule alone splits a low rate; with a floor it checks that money reaches workers |
 | Bargaining | States may bargain or run boards above the floor; the floor is the national minimum | Match: cooperation with unions where workers organized | Match: cooperation, or neutrality where not | — | Diverge: recognized in budgets, not required | — | Washington [EV-CAR-620]; Minnesota's board [EV-CAR-618] | Harris v. Quinn limits fee-funded units [EV-CAR-623]; a federal floor works in states without bargaining |
-| Who pays the raise | The payer: the plan from 2035; 90% federal in the 2030-34 bridge | Diverge: a 10-point match for all conditions | Diverge: 100% federal match | Diverge: no money | The plan | 90% federal for child care | Minnesota funds through its Medicaid rate [EV-CAR-618] | A floor without money is the 2024 staffing rule's failure [EV-CAR-601] |
+| Who pays the raise | The payer: the plan from 2035; each state's bridge rate (about 68% federal) in the 2030-34 bridge | Diverge: a 10-point match for all conditions | Diverge: 100% federal match | Diverge: no money | The plan | 90% federal for child care | Minnesota funds through its Medicaid rate [EV-CAR-618] | A floor without money is the 2024 staffing rule's failure [EV-CAR-601] |
 | Early educators' pay | Floor at once, parity by 2036 (memo 15 B) | — | — | — | — | Diverge on timing: parity from the start | DC's fund, cut and unfunded after FY2027 [EV-CAR-630] | Phasing matches part C's supply build and the degree pipeline (part C, point 6) |
 | Nursing home staffing | Statute, registered nurses first (24/7, 0.55 hours from 2031), 3.48 total by 2035, funded (memo 16 C) | — | — | Diverge on vehicle and order: the same numbers by rule, at once, unfunded [EV-CAR-600] | Match in kind: mandatory nurse staffing ratios (H.R. 3069 standards; S. 1506 budgets) | — | New York, 3.5 hours by statute (not in register) | Courts struck the rule for want of authority [EV-CAR-602]; registered nurse hours drive quality [EV-CAR-608] |
 | Training | Free entry-level training, paid training time, portable credentials (point 5) | Match: workforce training and registries | Match: training programs and registries | — | — | Match: workforce supports | — | Randomized trials: training moves people into care jobs; pay keeps them [EV-CAR-631] [EV-CAR-632] |
@@ -221,7 +261,7 @@ From `dossiers/shared-rules.md`. These are working answers, not decisions of the
 
 - **The recommended set, in two steps.**
   - *From 2030 (the bridge).*
-    - A $20 floor (2026 dollars, indexed) in Medicaid home care, paid 90% federal.
+    - A $20 floor (2026 dollars, indexed) in Medicaid home care, matched at each state's bridge rate (about 68% federal).
     - The 80% share in statute as its check; family caregivers at the floor.
     - Child care staff at the floor from the 2030-31 school year, and the salary scale toward parity.
     - Registered nurses first in nursing homes from 2031.
@@ -231,7 +271,7 @@ From `dossiers/shared-rules.md`. These are working answers, not decisions of the
 - **If memo 14 is A.** Pay rises only as rates rise. Parts B and C's benefits would then meet the supply limit of section 1, part 5, and the risk of waiting lists is highest.
 - **If memo 14 is C.** Wages are set state by state, and some states will not bargain. B's floor is the fallback in those states.
 - **Tensions to watch.**
-  - *The size of the need.* The added demand, about 3.6 million recruits on part B's revised figures (range 1.2-9.9 million), is the largest risk to parts B and C. Pay raises supply but cannot double it in five years. Part B's 2035 start and part C's phasing give time.
+  - *The size of the need.* The added demand, about 2.8 million recruits on part B's decided three-activity line (range 0.9-8.8 million; 3.6 million at two activities), is the largest risk to parts B and C. Pay raises supply but cannot double it in five years. Part B's 2035 start and part C's phasing give time.
   - *Nursing homes.* A staffing standard pulls nurses toward nursing homes while the single plan pulls them toward hospitals and clinics. Memo 16 C's phasing and point 7 address it.
   - *Child care.* Pre-K at parity before child care reaches it drains infant rooms [EV-CAR-569]. Memo 15 B moves both together.
 
@@ -246,32 +286,4 @@ From `dossiers/shared-rules.md`. These are working answers, not decisions of the
 
 ## Questions for Espen
 
-One answer per item; each is decided on its own.
-
-1. **Memo 14, how pay is set:**
-   - A: a pass-through only;
-   - B: a federal floor the payer funds, with the 80% share as its check, and states free to go higher (recommended);
-   - C: state bargaining everywhere;
-   - D: no care-specific floor.
-
-   **The level, if B:** $18, $20 (recommended) or $22.50, in 2026 dollars and indexed?
-2. **Memo 15, early educators:**
-   - A: parity from the guarantee's start;
-   - B: the floor at once, parity by 2036 (recommended);
-   - C: the floor only;
-   - D: a supplement outside rates.
-3. **Memo 16, nursing home staffing:**
-   - A: current law;
-   - B: the 2024 standards from 2030;
-   - C: registered nurses first from 2031, the full standard by 2035, funded (recommended);
-   - D: reporting and bonuses only.
-4. **Points 1-9, yes to each (recommended)?**
-   1. family caregivers at the floor;
-   2. home care's wage and overtime coverage in statute, proposed to the work flagship;
-   3. state standards above the floor allowable;
-   4. workforce counts from existing records;
-   5. free training and paid training time;
-   6. one portable aide training standard;
-   7. residency slots and nurse training;
-   8. the asks to immigration;
-   9. part B's point 10 answered by memo 16.
+Decided November 11, 2026 (`DEC-2026-11-11-04`): memo 14 B at $20, memo 15 B, memo 16 C and points 1-9, all as recommended. Memo 17's cost options were decided by Espen, November 11, 2026 (board question 0n, `DEC-2026-11-11-06`): the bridge's floor at each state's bridge rate, yes; early educators' parity stays at 2036 (option 3, no). Part D's decided cost: about $0.58 trillion over FY2030-39 and $117 billion in FY2040.
