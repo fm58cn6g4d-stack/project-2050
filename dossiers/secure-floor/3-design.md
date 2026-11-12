@@ -30,7 +30,7 @@ Espen decided the batch on November 12, 2026 (`DEC-2026-11-12-06`), each memo an
 - **Memo 1:** part 1 **A**, the American Family Act (FAM-1D), with no earnings test and **without** the $2,200 floor, so the bill's own phase-out applies (5% above $150,000 for couples and $112,500 for others, and again above $400,000); framed as a benefit for working and middle-class families. Part 2 **B**, the child's own ID only, paid to the parent the child lives with. Espen: "i want to move the child tax credit/allowance design back to include the American Family Act income phase-out ... this can be phrased as a benefit for working and middle classes"; asked whether declining point 1 meant an earnings test: "No earnings test".
 - **Memo 2 B; memo 3 part 1 B and part 2 B; memo 4 B; memo 5 B; memo 6 part 1 C, part 2 yes to each, part 3 yes; memo 7 part 1 B and part 2 B.**
 - **Points:** 1 yes (no earnings test); **2 no** (no $2,200 floor); 3-12 yes.
-- **What it changes here:** memo 1 A costs about $0.05 trillion less over FY2030-39 than recommended (`6-cost.md`, part 1); about 8.8 million children in families above about $210,000 (couples) get less than the 2029 law would pay them; no poverty result changes. The bill's ending of section 24 also ends the $500 credit for other dependents, a question the memo did not ask; it goes to Espen with the specification (`4-specification.md`, FAM-1.11).
+- **What it changes here:** memo 1 A costs about $0.05 trillion less over FY2030-39 than recommended (`6-cost.md`, part 1); about 8.8 million children in families above about $210,000 (couples) get less than the 2029 law would pay them; no poverty result changes. The bill's ending of section 24 also ends the $500 credit for other dependents, a question the memo did not ask; Espen decided to let it end for now (`DEC-2026-11-12-09`; `4-specification.md`, FAM-1.11).
 
 ## Espen's November 11 direction, carried out
 
@@ -262,4 +262,4 @@ From `dossiers/shared-rules.md`. Rules 1, 2 and 4 are this dossier's; the others
 
 ## Questions for Espen
 
-Question 0o is answered (`DEC-2026-11-12-06`). One new question, raised by the bill's text, goes with the specification: keep the $500 credit for other dependents (`4-specification.md`, FAM-1.11).
+Question 0o is answered (`DEC-2026-11-12-06`). The one question the specification raised, the $500 credit for other dependents, is decided too (`DEC-2026-11-12-09`: it ends with the bill, for now).

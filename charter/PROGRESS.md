@@ -20,20 +20,26 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 
 ## In motion
 
-- **Espen's direction (November 12):** no dossier work proceeds until the lead's audit of the central files (this board, `charter/PLAN.md`, `charter/STANDARDS.md`) has landed.
-- **Open PRs:** this board PR (routine, author the lead). The charter audit, #290, merged.
-- **Workers:**
-  - I4 (immigration sections 4-9), `session_01UQzgBufjvZ5c5m2JNm9iBZ`, Most capable, branch `claude/immigration-i4`: **paused by Espen** until the audit lands; the lead sends a `handoff` to resume it. Reports to the lead.
-  - S4's author, `session_01UQzgBwnUXwPDDfuRotwQLp`: done (#287, #288), idle; it holds the context for FAM-1.11's update.
+- **Open PRs:** this board PR (routine, the lead); the budget-inputs PR for Moving America's FY2037-39 draw and question 0r (tier 3, the lead's subagent, opening soon). The FAM-1.11 follow-up merged (#293).
+- **Workers (report to the lead):**
+  - I4 (immigration sections 4-9), `session_01UQzgBufjvZ5c5m2JNm9iBZ`, Most capable, branch `claude/immigration-i4`: resumed after the audit; it also builds the first immigration model (`charter/PLAN.md` 3.4) in `dossiers/immigration/tools/` for section 6: USCIS throughput and backlog, court capacity, detention against case management, the fiscal effects of status. The full model with a model card goes to `models/` at stage H.
+  - S4's author, `session_01UQzgBwnUXwPDDfuRotwQLp`: done (#287, #288, #293); takes on nothing more.
 - **Lead check-in:** `trig_018c9dsspfuh2UnHeFTE5hWQ`, 22:07 UTC, re-armed every three hours.
+- **Codex** access to the repository is suspended by Espen for now (out of credits); don't reach it with PR comments until it is restored.
 
 ## Next, in order
 
-1. This board PR merges.
-2. Resume I4 (Most capable; brief in the worker's session; it carries the reviewer's two notes on `DEC-2026-11-12-07`: a measurable E-Verify start, and a proposed registration cutoff).
-3. Secure floor: FAM-1.11 written to `DEC-2026-11-12-09` (S4's author), then the L2/L3 milestone review in a fresh Most capable session, then the booking (tier 3).
-4. Moving America's FY2037-39 draw in the budget model (`DEC-2026-11-12-10`): one tier-3 inputs PR, Most capable.
-5. Clean power (flagship 4, stage E's second flagship), once a dossier slot frees (at most two active: immigration and the secure floor now).
+1. The FAM-1.11 follow-up and the budget-inputs PR (`DEC-2026-11-12-10` and the 0r decision) merge.
+2. The secure floor's L2/L3 milestone review, in a fresh Most capable session, once I4's first PR is in review (to stay within three working sessions); then its fixes, then its booking (tier 3).
+3. I4 finishes (two PRs, sections 4-6 then 7-9); then immigration's milestone review and booking.
+4. **Maintenance at the stage D/E boundary**, after the secure floor reaches L3 and I4 is in review, before clean power starts:
+   - **M1, dossier tidy-up** (Most capable): correct the out-of-date status lines in every dossier README and review file (see "Known gaps"); give the care dossier one map, a README with one status table across health and parts B-D, merging the health and "bcd" section files where they repeat each other; refresh transportation's `6-cost.md` to #289's figures.
+   - **M2, library and housing mechanics** (Standard): `library/build_catalog.py` respects reserved ID blocks; one home for CRS R48552; catalog anchors for D and E evidence entries; `packages.py`'s stale housing label. Housing's own policy items stay deferred.
+   - **M3, the household model rebuild, with the legacy outputs:** rebuild the household model in `models/tools/household/` from the legacy incidence model and the child-poverty microsimulation, with a model card and benchmarks (Census poverty figures, the Tax Policy Center), and move the legacy suite's reports out of `legacy/` as it replaces them (Most capable, about two or three sessions). The secure floor's 65-cent ceiling check, the end-of-stage-E checkpoint's revenue options and stage G's fairness test (D3) all need it.
+5. **Settlement checkpoint at the end of stage E** (Most capable, one short memo for Espen): the plan-wide gap, the revenue options the legacy work holds, and which flagships drive the cost, so stages F and G are steered with the gap in view.
+6. Clean power (flagship 4, stage E's second flagship), after M1-M2.
+
+**The financing settlement** (stage G, `charter/PLAN.md` section 6): the first full settlement comes once the first wave's designs are specified (stages D-F), not after waves two and three. It is re-run when a later wave adds real cost, at each new CBO baseline, and once more before the plan goes public in 2028.
 
 ## Where each dossier stands
 
@@ -44,8 +50,8 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 | Transportation (`dossiers/agenda/transportation/`, wave two) | L3 | Sections 1-9; review passed (#207, #213, #214); booked (MR6 #209; timing #289); closed in stage C | Refresh `6-cost.md` to #289's figures (the 24.4% offset, the FY2040 draw) when next opened; settlement items in its README |
 | Health (`dossiers/care/`, flagship 2, part A) | L3 | Sections 1-9, memos 1-5; review passed (#224 to #229); booked (#230, #237, #279) | None; the README's status table is out of date |
 | Care parts B-D (`dossiers/care/`, flagship 2) | L3 (FAM-2A to 2F at L2) | Sections 1b-9bcd, memos 6-17; review passed (#260, #263); booked (#265) | None; the README's status table is out of date |
-| Secure floor (`dossiers/secure-floor/`, flagship 1) | L2 | Sections 1-9 and memos 1-7, decided (`DEC-2026-11-12-06`, `-09`); about $2.0T of legacy lines booked, about $0.47T over FY2030-39 and $56B in FY2040 not yet booked (`6-cost.md`, part 6) | Next steps 3 above |
-| Immigration (`dossiers/immigration/`, flagship 6) | L1 | Sections 1-3 and memos 1-7, decided (`DEC-2026-11-12-07`); not booked (a replacement for the IMM-1/E11 row is proposed in `3-design.md`) | I4, sections 4-9 (paused) |
+| Secure floor (`dossiers/secure-floor/`, flagship 1) | L2 | Sections 1-9 and memos 1-7, decided (`DEC-2026-11-12-06`, `-09`); about $2.0T of legacy lines booked, about $0.47T over FY2030-39 and $56B in FY2040 not yet booked (`6-cost.md`, part 6) | Next steps 1-2 above |
+| Immigration (`dossiers/immigration/`, flagship 6) | L1 | Sections 1-3 and memos 1-7, decided (`DEC-2026-11-12-07`); not booked (a replacement for the IMM-1/E11 row is proposed in `3-design.md`) | I4, sections 4-9 (in progress) |
 | Clean power (flagship 4) | L1 | Not started | Stage E, after a slot frees |
 | Work (flagship 5), democratic renewal, fair financing | L1 | Not started (stages F and G) | — |
 | Rural delivery note (`dossiers/foundations/rural-delivery.md`) | — | Done (#171); applied project-wide by `DEC-2026-11-09-26` | Each dossier reads it for section 5 |
@@ -53,7 +59,7 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 ## Federal budget model (`models/tools/budget/`)
 
 - **Done:** B1 conventions and assumptions; B2 data layer; B3 provision library; B5 viewer; B6 integration; B7 Espen's counting choices (`DEC-2026-11-08-03` to `-07`, `DEC-2026-11-12-08`). The workflow is `WORKFLOW.md` (#104).
-- **B4 benchmarks: milestone not met, one reading left.** PS-4b fails (question 0r below). `MODEL-CARD.md` lists what is validated, bounded and not yet validated.
+- **B4 benchmarks:** Espen answered 0r: a light research pass on historical spend-out averages, an evidence-backed placeholder in the model, and B4 closed with PS-4b reported as not fully validated (to be recorded in the budget-inputs PR). `MODEL-CARD.md` lists what is validated, bounded and not yet validated.
 - **Plan-wide FY2040 general-fund primary balance** (case `mixed`, after #289): about $4,185B short.
 - Budget-model workers report to the lead.
 
@@ -77,7 +83,7 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
   - `library/build_catalog.py` assigns the next free `SRC-` number even inside a dossier's reserved block; assign IDs by hand until it is fixed.
   - One name, CRS R48552, leads to two SNAP files (SRC-3610, SRC-3911); it needs one home.
   - `catalog-facts.csv` dates depend on the clone's history depth, so the file is refreshed, never checked.
-- **Out-of-date status lines in dossier files:** the transportation README ("in progress, step 7"); the care README's tables; housing's `review-milestone.md` ("L3 not yet"); the immigration README (0p "with Espen"); the scenario README's file list. Fix each when its dossier is next opened.
+- **Out-of-date status lines in dossier files:** the transportation README ("in progress, step 7"); the care README's tables; housing's `review-milestone.md` ("L3 not yet"); the immigration README (0p "with Espen"); the scenario README's file list. Step M1 fixes them.
 - **Public pages:** two story claims (`q4`, `downside`) cite figures that PR #45 changed; the page stays pinned to its evidence commit until an editor rereads it. `public/site/index.html` is pinned to an older commit and is rebuilt in stage H.
 - **Legacy outputs:** the legacy suite still writes reports into `legacy/index/` and `legacy/sources/` until each core model is rebuilt (`models/README.md`).
 
@@ -90,8 +96,6 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 - **Stage H (public site):** ask Espen to turn the Figma connector back on first.
 
 ## Questions for Espen
-
-0r. **The budget model's last open benchmark (PS-4b).** One check fails: how fast a single nondefense act's money is spent. The only CBO estimate available is a 2024 supplemental that was mostly military aid, which CBO records as spent almost at once, so it is a poor test of an ordinary year's mix. Totals and the ten-year figures don't depend on it. **Close the B4 milestone with PS-4b reported as not validated, keeping that one reading out of decision and public figures (recommended), or wait for a CBO multi-year estimate of a regular nondefense act?** (`models/tools/budget/MODEL-CARD.md`.) Not urgent.
 
 0a. **Stage B's 2027-28 questions** (not urgent before the lame duck ends; `dossiers/scenario/3-framework-2027-28.md`, section 7, and `2027-28-stress-tests.md`, "Next questions"): what 2027-28 is for; when an early deal is worth locking in a design; whether a Senate rules change happens in 2027 or waits for 2029 (D2); the FY2028 defense path before summer 2027 (it sets NSC-1A's base); protecting the FY2029 reconciliation slot; a position on 2027 mid-decade redraws.
 

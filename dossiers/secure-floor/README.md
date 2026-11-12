@@ -136,4 +136,4 @@ S3's memo set puts these to Espen (`3-design.md`, "The forks at a glance", maps 
 
 ## Open questions for Espen
 
-Question 0o is decided (`DEC-2026-11-12-06`). One new question from the specification: keep the $500 credit for other dependents, which the American Family Act's text would end (`4-specification.md`, FAM-1.11; recommended: keep).
+Question 0o is decided (`DEC-2026-11-12-06`). The specification's one new question is decided too: the $500 credit for other dependents ends with the American Family Act, for now (`DEC-2026-11-12-09`; `4-specification.md`, FAM-1.11). None is open.
