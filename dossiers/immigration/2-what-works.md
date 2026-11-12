@@ -22,7 +22,7 @@ Status: draft (stage E, board row I2). Every figure cites the evidence register 
 - **The fiscal sign depends on what travels with legalization.**
   - S. 744 (2013), which bundled legalization with large new legal and guest-worker flows, cut deficits by $158 billion to $197 billion in its first decade on CBO's estimates [EV-IMM-200] [EV-IMM-205]. On-budget deficits still rose [EV-IMM-208].
   - CBO scored the narrow 2021 bills (Dreamers and TPS holders; farmworkers) as small deficit increases [EV-IMM-213] [EV-IMM-215].
-  - **The legacy plan's "$175B saving" is not a CBO figure** (`legacy-research.md`, finding 1). Neither the size nor the sign of IMM-1's score can be assumed.
+  - **The legacy plan's "$175B saving" is CBO's preliminary figure for the amended S. 744 (June 24, 2013), superseded by $158 billion as passed** [EV-IMM-207] [EV-IMM-205] (`legacy-research.md`, finding 1). It scores a bill much larger than IMM-1, so neither the size nor the sign of IMM-1's score can be assumed.
 - **Wages and budgets.** The National Academies find immigration's effect on natives' wages "very small" over ten years and its long-run federal fiscal effect positive. Its state and local effect is negative, and the second generation is among the strongest contributors [EV-IMM-222] [EV-IMM-223] [EV-IMM-224].
 - **The alternative costs more.** Mass deportation over ten years would add about $862 billion to primary deficits and cut GDP 3.3% by 2034 (Penn Wharton, simulation) [EV-IMM-225].
 - **Counsel changes outcomes and appearance.**
