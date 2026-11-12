@@ -11,7 +11,7 @@ Role: section 9 of the care dossier for parts B, C and D: a plain-language brief
 **The plan.**
 - *Long-term care.* From January 2035, help at home and the care part of nursing-home stays become part of the single public health plan, for anyone of any age who needs help with three daily activities or has a serious cognitive impairment. There is no asset test and no estate recovery. Everyone already getting Medicaid help at home keeps it. Before then, a five-year bridge from 2030 gives states more money for home care, tied to shorter waits.
 - *Child care and pre-K.* From the 2030-31 school year, child care is free for families at or below 85% of their state's median income, and pre-K is free for 4-year-olds. From July 2032 no family pays more than 7% of its income for child care, with no income limit. By 2033-34 pre-K is free for every 3-year-old too.
-- *Care workers.* From January 2030, care workers paid with public money earn at least $20 an hour in 2026 dollars, rising with wages. Early educators reach pay parity with elementary teachers by the 2036-37 school year. Nursing homes have a registered nurse on site around the clock from 2031.
+- *Care workers.* From January 2030, home care and nursing home workers paid with public money earn at least $20 an hour in 2026 dollars, rising with wages; child care and pre-K staff get the same floor from the 2030-31 school year. Early educators reach pay parity with elementary teachers by the 2036-37 school year. Nursing homes have a registered nurse on site around the clock from 2031.
 
 **What it costs.** On our estimates, about $3.5 trillion over fiscal years 2030-39 and about $730 billion in 2040, about 1.3% of the economy. About $580 billion of that 2040 figure is new beyond what the plan's budget already counts (section 6). Most of it replaces what families now pay themselves or give in unpaid care. States keep paying a share: half of what they spend on long-term care today, and a fifth of child care's cost after three years. How the rest is paid is decided with the plan's other taxes.
 
@@ -63,7 +63,7 @@ Families carry the cost of care alone until they are poor enough for Medicaid. T
 | "Child care costs no more than 7% of income from July 2032" | "Free child care for all": it is free at or below 85% of state median income |
 | "On our estimates, about $730 billion a year by 2040, about 1.3% of GDP; about $580 billion beyond what the budget already counts" | "It pays for itself" or "no new taxes"; or the cost without "on our estimates" |
 | "Most of the cost replaces what families now pay or give in unpaid care" | "Families come out ahead" until the taxes are set |
-| "Care workers earn at least $20 an hour in 2026 dollars from 2030" | "A $20 minimum wage": the floor covers publicly paid care only |
+| "Home care and nursing home workers paid with public money earn at least $20 an hour in 2026 dollars from January 2030; child care and pre-K staff from the 2030-31 school year" | "A $20 minimum wage": the floor covers publicly paid care only |
 | "Relatives can be paid wherever their state allows it today; a national decision follows a study" | "Pay any family caregiver, anywhere" |
 | "States pay half their current long-term care spending" | "States are off the hook" or "the federal government takes it all" |
 | "A registered nurse on site around the clock from 2031" | "Safe staffing in every nursing home from 2030": the full standard starts in 2035 |
@@ -88,6 +88,6 @@ Families carry the cost of care alone until they are poor enough for Medicaid. T
 | States: half of current long-term care spending; a fifth of child care after three years | Section 4, HLT-9.09, FAM-2.08; section 6, part 3 | `DEC-2026-11-11-06` |
 | Three daily activities; the hold-harmless; state option below the line | Section 4, HLT-9.01, 9.02, HLT-4.08 | `DEC-2026-11-11-02`, `DEC-2026-11-11-06` |
 | Free at or below 85% of state median income; 7% cap from July 2032; pre-K 4s 2030-31, 3s 2033-34 | Section 4, FAM-2.01-2.03 | `DEC-2026-11-11-03`; EV-CAR-580 |
-| $20 floor from January 2030; parity by 2036-37; registered nurse around the clock from 2031, full standard 2035 | Section 4, HLT-10.01, FAM-2G.01, HLT-11 | `DEC-2026-11-11-04` |
+| $20 floor from January 2030 (home care and nursing homes) and from 2030-31 (child care and pre-K staff); parity by 2036-37; registered nurse around the clock from 2031, full standard 2035 | Section 4, HLT-10.01, FAM-2G.01, HLT-11 | `DEC-2026-11-11-04` |
 | $10,000 savings limit from 2030; estate recovery ends | Section 4, HLT-4.03, 4.04 | EV-CAR-478, EV-CAR-410 |
 | Relatives' evaluation by 2034; national decision after | Section 4, HLT-4.06, HLT-9.05 | `DEC-2026-11-11-02` (memo 9 E) |
