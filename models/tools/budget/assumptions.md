@@ -515,11 +515,10 @@ Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy, t
 HOU-1 (housing, line by line), HLT-4 (legacy title split, care review F-4; its long-term care part retired for the bridge and its companions, care parts B-D), HLT-7 (the single plan: spending line, transition fund, territories), HLT-9 (long-term care: the benefit and care part gross, the states' payment as offsetting receipts, the state option, room and board, the territories) and FAM-2 (child care, pre-K, facilities, CCDF school-age, territories, early educators' pay) are booked as components, each with its own path.
 
 - **Value:** Sum of the component amounts equals each bill's ledger midpoint ($T)
-- **How much it matters:** low: three bills
+- **How much it matters:** low: five bills
 - **Where:** models/data/inputs/fiscal-components.csv; models/tools/fiscal-model.py:73-78
 - **Source:** Oct 24 adoption (fiscal-components.csv basis)
 - **Decided by:** unrecorded
-- **Notes:** low: five bills
 
 ### ASM-PROF-CARE-ONCE
 
