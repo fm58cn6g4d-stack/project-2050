@@ -44,7 +44,7 @@ Role: section 8 of the immigration dossier. For each decided choice it gives the
 | --- | --- | --- |
 | Names of the new DHS components | The act names them; "Humanitarian Processing Service" is not adopted | None for the design |
 | The work routes' ceilings after three years | Kept, raised or lowered from the Labor Department's counts | The decided programs' hiring needs |
-| The judges IMM-3.08 needs | About 1,000-1,200, from a docket model | CRT-5's design and score (democratic renewal) |
+| The judges IMM-3.08 needs | About 810 (range about 615-1,120) on the first model; a fuller docket model with democratic renewal | CRT-5's design and score (democratic renewal) |
 | E-Verify's state preemption | One federal rule (working choice) or state rules allowed above it | Employers in mandate states facing two systems |
 | The CAP-7 overlap with USCIS | Zero, or a stated purpose | The booking step (section 6, part 6) |
 

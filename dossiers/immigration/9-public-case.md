@@ -40,7 +40,7 @@ Project 2050's immigration plan does five things.
 - A worker wrongly flagged gets ten days to fix it, keeps the job meanwhile, and is paid for lost wages.
 - Workers who report wage theft or unsafe work are protected from immigration threats.
 
-**What it costs, on our estimates.** About $0.12 trillion over 2030-39 on the federal budget, about $16.5 billion a year from 2040, before the plan's financing (section 6). The largest pieces are health coverage for people still without status and ending the wait for help for the newly legal. Social Security's funds gain from legalization (Social Security's actuaries, on the 2013 Senate bill) [EV-IMM-604].
+**What it costs, on our estimates.** About $0.12 trillion over 2030-39 on the federal budget, about $15.4 billion a year from 2040, before the plan's financing (section 6). The largest pieces are health coverage for people still without status and ending the wait for help for the newly legal. Social Security's funds gain from legalization (Social Security's actuaries, on the 2013 Senate bill) [EV-IMM-604].
 
 ## The case in one paragraph
 
@@ -79,7 +79,7 @@ Millions of people have lived here for decades, raising American children and do
 | A green card for people with ten years here, after a check | That everyone will apply: we assume about 70% |
 | About $0.12 trillion over ten years, on our estimates | That legalization "pays for itself" on the federal budget: on our estimates it is a small cost; Social Security gains |
 | E-Verify no earlier than October 2032, at least a year after legal status is running | A fixed E-Verify date: it depends on a published test (and on Espen's answer) |
-| No more than 30,000 people detained on average | That detention costs will fall by a set amount: against CBO's baseline it is about zero |
+| No more than 30,000 people detained on average | That detention costs will fall by a set amount: against CBO's baseline it is about zero, on our estimates about +$1 billion over ten years |
 | Decisions on asylum in about six months; in a surge about 90 days | That surges will not happen |
 | Wall money goes to border security that agents recommend | A dollar figure: the unspent balance in mid-2029 is not known |
 | Protections against wrong E-Verify flags | That E-Verify catches identity fraud: it misses about half of unauthorized workers it checks [EV-IMM-393] |
@@ -99,7 +99,7 @@ Millions of people have lived here for decades, raising American children and do
 | More than 99% appearance in full case management | Memo 5; section 4, IMM-4.06 | EV-IMM-354 |
 | 30,000 average daily detention | Section 4, IMM-4.05 | EV-IMM-571 |
 | E-Verify from October 2032 at the earliest; ten-day contest | Section 4, IMM-4.13, 4.14 | Working timeline (section 5) |
-| About $0.12 trillion over 2030-39; about $16.5 billion a year from 2040 | Section 6, parts 1 and 5 | Project arithmetic, `tools/immigration_path.py` |
+| About $0.12 trillion over 2030-39; about $15.4 billion a year from 2040 | Section 6, parts 1 and 5 | Project arithmetic, `tools/immigration_model.py` and `tools/immigration_path.py` |
 | Social Security gains (S. 744: +$284 billion by 2024) | Section 6, part 2 | EV-IMM-604 |
 | The registry in current law; the date stuck at 1972 since 1986 | Memo 2; section 4, IMM-1.05 | EV-IMM-590, EV-IMM-591 |
 | Bars on serious crimes | Section 4, IMM-1.08 | EV-IMM-623 |
