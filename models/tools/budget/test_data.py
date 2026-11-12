@@ -221,14 +221,25 @@ class SpendingByAccount(unittest.TestCase):
         self.assertEqual(set(n.values()), {1979})
 
     def test_cbo_calibrated_spendout(self):
-        """History's timing, CBO's level: one scale factor near 1, a close fit to CBO's outlays."""
+        """Every share positive; sums near 1; a close fit to CBO's projected outlays. Nondefense:
+        history's timing at CBO's level (one scale factor near 1). Defense: CBO's own act rates,
+        unscaled, so CBO's outlays check them rather than set them."""
         s = D.table("spendout-discretionary-cbo")
-        for grp in ("defense", "nondefense"):
+        for grp, n in (("defense", 5), ("nondefense", build_data.LAGS)):
             rows = [r for r in s if r["group"] == grp]
-            self.assertEqual([int(r["year_of_spending"]) for r in rows], list(range(build_data.LAGS)))
+            self.assertEqual([int(r["year_of_spending"]) for r in rows], list(range(n)))
+            self.assertTrue(all(float(r["share"]) > 0 for r in rows), grp)
             self.assertTrue(0.95 < float(rows[0]["scale"]) < 1.05, grp)
             self.assertTrue(0.95 < float(rows[0]["sum_of_shares"]) < 1.05, grp)
-            self.assertLess(float(rows[0]["calibration_rmse_pct"]), 2.0, grp)
+            self.assertLess(float(rows[0]["check_rmse_pct"]), 2.0, grp)
+        self.assertEqual({r["scale"] for r in s if r["group"] == "defense"}, {"1.0000"})
+
+    def test_defense_shares_are_cbos_act_rates(self):
+        """The defense shares are the plain average of CBO's spend-out of the three acts."""
+        got = [float(r["share"]) for r in D.table("spendout-discretionary-cbo") if r["group"] == "defense"]
+        acts = build_data.CBO_DEFENSE_ACTS.values()
+        for k, v in enumerate(got):
+            self.assertAlmostEqual(v, sum(o[k] / ba for _, ba, o in acts) / len(acts), places=4)
 
 
 class UploadCrossChecks(unittest.TestCase):
