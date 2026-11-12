@@ -8,6 +8,35 @@ Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage 
 - paid leave;
 - Social Security protection.
 
+## Espen's direction for the flagship
+
+Espen, November 11, 2026, relayed by the lead: "make sure the secure floor session(s) know to get creative about thinking differently about how government works, what it looks like, what the future economy is going to require and offer, and what is most important to people and families today. plus, make it weave together with other issue areas we've covered or will cover in other dossiers, and both the ways of thinking about government throughout the project but also the specific programs and proposals and how they build a secure economic floor or can be leveraged to give people new opportunities in some of the parts of America we're investing in".
+
+This dossier carries out that direction in four ways:
+- **How government delivers the floor.** Section 2 weighs delivery as much as benefit size: automatic enrollment and payment from records the government already holds, one front door, and the design lens (`DEC-2026-11-09-13`: guide, don't police).
+- **The future economy.** Section 2 has a thread on what gig and contract work, AI, an aging population and care as work will demand of families and may offer them. Projections are labeled as projections, and the thread names only what would change a choice.
+- **What matters most to families today.** Sections 1 and 2 use survey and polling evidence, with its strength stated.
+- **Weaving in the other dossiers.** The table below shows how the decided programs build the floor or open opportunity. Section 1, part E and S3's memos carry it forward.
+
+It is a direction, not a decision on any design. S3's memo set inherits it and includes at least one fork on delivery and form, not only benefit size (fork 3 below).
+
+## How the other dossiers build the floor
+
+Decided programs are cited by their `DEC-` entries. Programs in dossiers not yet started are legacy working choices, and their design is left to those dossiers.
+
+| Dossier | What it adds to a household's floor | Where the floor can be an on-ramp | Seam for this dossier |
+| --- | --- | --- | --- |
+| Housing (`dossiers/home/`) | Rental help as a guarantee, staged: people without a home and families with children first, then the poorest families with children (a right from 2037), then disabled renters from 2038, at 250,000 vouchers a year (`DEC-2026-11-09-01`, `-06`, `-12`); a standing emergency rent fund (`DEC-2026-11-09-04`, `-17`); down payment help to 140% of area median income (160% in high-cost areas) (`DEC-2026-11-09-19`, `-24`); a home repair fund and a property-tax match for older owners (`DEC-2026-11-09-21`, `-22`, `-25`) | Rural buyers and repairs through USDA's local offices (`DEC-2026-11-10-02`) | Rent counts 30 cents of each new dollar unless the benefit is excluded (rules 1 and 2) |
+| Care: health (`dossiers/care/`) | One public plan by January 1, 2035, every child covered from 2031, with no premiums and capped copays only above 200% of poverty (memo 4 C) (`DEC-2026-11-10-09`, `-11`) | Medical bills stop setting off the chain of losses OUT-02 describes | Premium credits and Medicaid's lines bind in 2029-34 and then fall away |
+| Care: long-term care | A home and community care benefit in the plan from 2035 for people needing help with three daily activities, no asset test (`DEC-2026-11-11-02`); paid family caregivers (memo 9 E) | Family caregivers paid for care they give now | A Social Security caregiver credit is this dossier's (memo 9) |
+| Care: child care and pre-K | Free child care at or below 85% of state median income, at most 7% of income above it; free pre-K for 3- and 4-year-olds (`DEC-2026-11-11-03`) | Parents can take work or training | The 7% cap is a phase-out to stack; the dependent care credit's refundability is this dossier's |
+| Care: the workforce | A care wage floor of $20 an hour in 2026 dollars, indexed; early educators to parity with elementary teachers by 2036 (`DEC-2026-11-11-04`) | Care jobs as a route into steady work, through LAB-10 and LAB-8 apprenticeships in care | Higher wages raise phase-outs for care workers' own families (rule 2) |
+| Transportation (`dossiers/agenda/transportation/`) | Repair, safety, transit and rail (`DEC-2026-11-10-08`) | Getting to work and training (LAB-10's transport support) | Fuel-tax steps are a cost to low-income drivers; the fairness test (D3) counts them |
+| Rural delivery (`dossiers/foundations/rural-delivery.md`; housing memo 13) | Rural Development's field offices rebuilt to about 5,000 staff (`DEC-2026-11-10-02`) | A local office as a front door in rural places | Whether rural families can claim the floor through those offices is a delivery fork |
+| Clean power (not started; `legacy/domains/domain-climate.md`) | Legacy: a Climate Dividend paid per adult, quarterly (CLI-2), and energy bill help (CLI-5: LIHEAP, weatherization) | Investment regions; guaranteed pensions and health care for coal and power-plant workers (CLI-11) | A second cash payment channel: whether the dividend and the child benefit share one channel, notice and income rules |
+| Work (not started; `legacy/domains/domain-labor.md`) | Legacy: a living wage (LAB-4), apprenticeships (LAB-8), national service (LAB-9); AI-4's wage insurance (`agenda/ai`) | Apprenticeships in construction, energy and care; national service | Unemployment insurance and the minimum wage are theirs; LAB-10 is here |
+| Immigration (not started) | One eligibility table for every program (rule 3) | — | The child credit's Social Security number rules |
+
 ## Scope
 
 **In the flagship** (`agenda/agenda.csv`, `home_dossier` = `secure-floor`):
@@ -86,7 +115,7 @@ The household model (`charter/PLAN.md` 3.4, `MOD-household`) is not built yet; i
 No decision blocks S3, so nothing goes on the board's "Questions for Espen". S3's memo set should put these to Espen, two to four options each:
 1. **The child benefit's design.** FAM-1D (the American Family Act) against the 2021 design (FAM-1A), a supplement (FAM-1B), full refundability of today's $2,200 credit (FAM-1C), and a Canada-style income-tested benefit; its age profile, the newborn payment, indexing and phase-out.
 2. **Who the child benefit reaches.** The 2025 law's Social Security number rules against an ITIN or child-only test (shared rule 3, with the immigration flagship); a non-filer route; who receives it (the caregiver or the tax filer).
-3. **Delivery.** Through the IRS as a refundable credit with monthly advances (the legacy choice; it keeps the benefit out of rent under section 6409 and is paid without appropriations), or as a benefit paid by SSA or Treasury outside the tax code, with what that would cost families under rule 1.
+3. **Delivery and form (the fork Espen's direction asks for).** How the floor reaches people, not how big it is: automatic payment from records the government holds (births, tax returns, SSA and benefit records) against claiming; one front door and one income test across the plan's benefits against program-by-program applications; the IRS with monthly advances (the legacy choice: it keeps the benefit out of rent under section 6409 and is paid without appropriations) against SSA or Treasury outside the tax code; one payment channel shared with the Climate Dividend or separate ones; rural families claiming through USDA's local offices.
 4. **The earned income credit.** Leave it, expand the childless credit, or fold part of it into the child benefit (as Romney's Family Security Act would), given the contested employment evidence.
 5. **Income support beyond the credits.** Whether the flagship carries SNAP, SSI or other items: undoing the 2025 law's SNAP changes, raising SSI's $2,000 asset limit, the SSI benefit level. New agenda items would start at L1.
 6. **Participation help (LAB-10).** Its form, scale and agency against the $100 billion envelope, and its line with apprenticeships, national service and AI-4.
