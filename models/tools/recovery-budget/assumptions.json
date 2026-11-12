@@ -33,20 +33,13 @@
       "basis": "Gross section 611 target; recurring FY2026 CRS Part B less section 619 and one-time supplements; Parts C/D and preschool remain outside"
     },
     "care": {
-      "anchors": [
-        12,
-        88,
-        106,
-        106,
-        123,
-        143
-      ],
+      "ledger_row": "FAM-2",
       "current_law_bn": 0,
       "base_year": 2026,
       "legacy_ids": [
         "FAM-2"
       ],
-      "basis": "Treated as incremental expansion over retained CCDF/Head Start/PDG; source does not establish this boundary, so test consolidation separately"
+      "basis": "FAM-2's booked general-fund path (care parts B-D booking, dossiers/care/6bcd-cost.md part 5 item 5): child care, pre-K, CCDF for school-age children, the territories and early educators' pay on the care path, read from the fiscal model so the fund and the ledger carry one path. Was the legacy anchors 12, 88, 106, 106, 123, 143 (2030, 2033, 2036, 2040, 2045, 2049). Incremental over current law: part C nets today's under-5 CCDF and keeps the school-age share as its own line; Head Start's grant stays outside"
     },
     "title_i": {
       "anchors": [

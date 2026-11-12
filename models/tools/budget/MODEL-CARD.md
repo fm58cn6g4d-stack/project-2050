@@ -71,7 +71,7 @@ The budget model projects the whole federal budget, year by year from FY2026 to 
 | TF-2 | Medicare Hospital Insurance: current law | **fail** | depletion 2034, 89% payable, balance -0.64% | depletion 2033, 89% payable, balance -0.56% | depletion year exact; payable within 1 point; 75-year balance within 0.05 point of taxable payroll | depletion +1 year, balance -0.08 points of payroll |
 | TF-3 | SSA's own scores of seven Social Security provisions, rebuilt by the engine | **pass** | -0.02 (points, largest gap) | 0.00 | 0.05 point of taxable payroll for each provision | — |
 
-Unknown fields in the 153 provision specs the model scores (B3, `provisions.md`): vehicle 14, appropriation type 9, budget authority 16. The growth index is the model's own assumption, not the law's, for 145 rows, and the end year for 126.
+Unknown fields in the 172 provision specs the model scores (B3, `provisions.md`): vehicle 14, appropriation type 9, budget authority 15. The growth index is the model's own assumption, not the law's, for 164 rows, and the end year for 145.
 <!-- generated:results:end -->
 
 **What the groups test.**

@@ -6,18 +6,18 @@
 
 | Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |
 | --- | ---: | ---: | ---: | --- | ---: |
-| mixed | 160.7% | 304.3% | 19.73% | False | 27.77 |
-| larger_payroll | 161.3% | 307.4% | 19.97% | False | 28.15 |
-| mixed_downside | 165.8% | 322.5% | 21.20% | False | 39.48 |
-| mixed_all_debt_rate_plus1 | 169.7% | 356.1% | 25.00% | False | 32.10 |
-| mixed_no_macro_translation | 160.5% | 303.0% | 19.58% | False | — |
-| mixed_leave_admin_high | 160.8% | 304.6% | 19.75% | False | — |
-| mixed_ssa_medicare_all_hi | 160.7% | 304.3% | 19.73% | False | — |
-| mixed_ssa_medicare_all_smi | 160.7% | 304.3% | 19.73% | False | — |
-| mixed_reserve_corridor | 160.7% | 304.3% | 19.73% | False | — |
-| mixed_corridor_downside | 165.8% | 322.5% | 21.20% | False | — |
-| mixed_legacy_education_floor | 160.7% | 304.4% | 19.74% | False | — |
-| mixed_larger_credit | 165.1% | 308.8% | 19.85% | False | — |
+| mixed | 166.2% | 332.3% | 22.11% | False | 31.71 |
+| larger_payroll | 166.8% | 335.4% | 22.36% | False | 32.09 |
+| mixed_downside | 171.5% | 351.4% | 23.65% | False | 44.86 |
+| mixed_all_debt_rate_plus1 | 175.3% | 387.3% | 27.79% | False | 36.15 |
+| mixed_no_macro_translation | 166.0% | 331.0% | 21.97% | False | — |
+| mixed_leave_admin_high | 166.3% | 332.6% | 22.14% | False | — |
+| mixed_ssa_medicare_all_hi | 166.2% | 332.3% | 22.12% | False | — |
+| mixed_ssa_medicare_all_smi | 166.2% | 332.3% | 22.11% | False | — |
+| mixed_reserve_corridor | 166.2% | 332.3% | 22.11% | False | — |
+| mixed_corridor_downside | 171.5% | 351.4% | 23.65% | False | — |
+| mixed_legacy_education_floor | 166.2% | 332.4% | 22.13% | False | — |
+| mixed_larger_credit | 170.6% | 336.8% | 22.23% | False | — |
 
 The last column is the total broad-tier rate required under this static tax-yield proxy, replacing the proposed two-point broad tier, with the high tier unchanged. It is not a tax score.
 
@@ -25,35 +25,35 @@ The last column is the total broad-tier rate required under this static tax-yiel
 | --- | ---: | ---: | ---: | ---: | ---: |
 | meals | 0.707 | 0.432 | 0.274 | 0.270 | 0.004 |
 | idea | 0.513 | 0.184 | 0.329 | 0.250 | 0.079 |
-| care | 0.786 | 0.000 | 0.786 | 0.600 | 0.186 |
+| care | 1.484 | 0.000 | 1.484 | 1.484 | 0.000 |
 | title_i | 0.361 | 0.238 | 0.123 | 0.080 | 0.043 |
 | teacher | 0.076 | 0.000 | 0.076 | 0.000 | 0.076 |
 | para_mental | 0.096 | 0.000 | 0.096 | 0.000 | 0.096 |
 | pipeline | 0.034 | 0.000 | 0.034 | 0.030 | 0.004 |
-| TOTAL | 2.572 | 0.854 | 1.718 | 1.230 | 0.488 |
+| TOTAL | 3.270 | 0.854 | 2.416 | 2.114 | 0.302 |
 
 | Fixed-grant comparison, FY | Current-law revenue | Current-law primary spending | Total revenue | Total spending | Net interest | Deficit | Debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 2029 | 6261 | 7015 | 6261 | 8405 | 1345 | 2144 | 107.5% |
-| 2030 | 6534 | 7364 | 7370 | 9551 | 1455 | 2181 | 109.3% |
-| 2035 | 7898 | 8732 | 10964 | 16032 | 2186 | 5068 | 130.2% |
-| 2039 | 9294 | 10409 | 13304 | 20210 | 3184 | 6906 | 160.7% |
-| 2045 | 11831 | 13205 | 17404 | 27086 | 5215 | 9682 | 206.1% |
-| 2056 | 17910 | 20097 | 26334 | 45212 | 11481 | 18879 | 304.3% |
+| 2030 | 6534 | 7364 | 7370 | 9559 | 1455 | 2189 | 109.3% |
+| 2035 | 7898 | 8732 | 10964 | 16334 | 2203 | 5370 | 131.5% |
+| 2039 | 9294 | 10409 | 13304 | 20878 | 3285 | 7574 | 166.2% |
+| 2045 | 11831 | 13205 | 17404 | 28174 | 5528 | 10770 | 218.8% |
+| 2056 | 17910 | 20097 | 26334 | 47495 | 12531 | 21162 | 332.3% |
 
 Totals above are $B, not $T. The audit CSV exposes every increment and matched gross-up. Internal fund grants do not appear as new external resources.
 
 | Household diagnostic, FY2039 annual net $/household | Q1 | Q2 | Q3 | Q4 | Q5 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| mixed | 10,032 | 6,111 | 856 | -6,955 | -79,672 |
-| larger_payroll | 9,908 | 5,740 | 197 | -7,643 | -75,577 |
-| mixed_larger_credit | 12,327 | 8,847 | 4,019 | -4,650 | -89,271 |
+| mixed | 10,584 | 7,104 | 1,735 | -6,471 | -79,504 |
+| larger_payroll | 10,460 | 6,734 | 1,076 | -7,159 | -75,409 |
+| mixed_larger_credit | 12,879 | 9,841 | 4,898 | -4,166 | -89,103 |
 
 These are approximate quintile averages including modeled benefits, not a D3 certification or guarantees for individual households. See the assumptions and limits in the assessment.
 
 | Fund, mixed case | Result |
 | --- | --- |
-| Education | Depletion: None; terminal reserve/outlays 19.53; rising: True |
+| Education | Depletion: 2035; terminal reserve/outlays -2.59; rising: True |
 | Combined OASDI | Depletion: None; conservative model solvency: False; actuarial balance +0.50% payroll |
 | HI | Depletion: 2047; terminal reserve/cost -0.92; rising: True |
 | Leave, high take-up | Loan repaid 2058; terminal loan $0.0B |

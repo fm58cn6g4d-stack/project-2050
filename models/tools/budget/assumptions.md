@@ -6,7 +6,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 
 **A row records current practice; it does not adopt it.** "Decided by" names a recorded decision only where one exists. "Unrecorded" means the value is set in code or an input table and no decision names it, even when its author is known. "Proposed" marks a working default (for example, how real dollars are shown), not an adopted policy or model input. Fitted values, such as spend-out shares, are approximations of history, not legal rules.
 
-**81 assumptions:** 25 matter a lot, 33 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**82 assumptions:** 26 matter a lot, 33 somewhat, 23 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -19,6 +19,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - ASM-PROF-HEALTH: Health rows grow with CBO's own health category, so they keep a constant share of it
 - ASM-PROF-REVENUE: Revenue rows grow with their own tax base (the matching CBO revenue category), including bracket creep
 - ASM-PROF-TIMELIMITED: Time-limited lines end or continue at a fraction of their 2039 run rate
+- ASM-PROF-CARE-ONCE: Part C (child care, pre-K, early educators' pay) is counted in one place: in case mixed the EDU-9B fund's care component is FAM-2's booked general-fund path, read from the fiscal model, and the fund pays it from payroll receipts and a general-fund grant of 30% of its outlays after 2034
 - ASM-LEDGER-OWNREV: Own-revenue ranges for channel-funded bills and the rule for how a bill's cost reaches the general fund (all, residual, none)
 
 ## Contents
@@ -30,7 +31,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Interest (7)
 - Dynamic effects (3)
 - Program measurement (11)
-- Profiles (10)
+- Profiles (11)
 - Defense (1)
 - Expiring provisions (3)
 - Trust funds (6)
@@ -500,24 +501,35 @@ SS-1 after 2039: the D8 package's net saving shrinks about 1.5% a year relative 
 
 ### ASM-PROF-YEARS
 
-Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy, the excise offsets CX (carbon) and MR6 (Moving America), and the health rows HLT-1, HLT-2, HLT-6 and HX and the HLT-4 and HLT-7 component shapes (care dossier's fiscal-year path).
+Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy, the excise offsets CX (carbon) and MR6 (Moving America), the health rows HLT-1, HLT-2, HLT-6 and HX and the HLT-4 and HLT-7 component shapes (care dossier's fiscal-year path), and care parts B-D: HLT-10, HLT-11 and the HLT-4, HLT-9 and FAM-2 component shapes (care_bcd_path.py).
 
-- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73; MR6 -2 to -27 (shape); HLT-1 $64B in FY2030; HLT-7 plan spending $704B in FY2031 to about $5.7T in FY2040; HX $53B in FY2031 to $987B in FY2039 (shapes) ($B a year)
+- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73; MR6 -2 to -27 (shape); HLT-1 $64B in FY2030; HLT-7 plan spending $704B in FY2031 to about $5.7T in FY2040; HX $53B in FY2031 to $987B in FY2039 (shapes); HLT-9 net $190B in FY2035 to $445B in FY2040; FAM-2 $42B in FY2031 to $243B in FY2040 (care shapes) ($B a year)
 - **How much it matters:** medium: CAP-7S is about $0.6T and its FY2029 cash is unpriced
-- **Where:** models/data/inputs/fiscal-years.csv:2-4,5-13; models/tools/fiscal-model.py:79-85
-- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26); MR6: transportation model (moving_america.py); health rows: care dossier's path (models/tools/health_booking.py)
+- **Where:** models/data/inputs/fiscal-years.csv; models/tools/fiscal-model.py:79-85
+- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26); MR6: transportation model (moving_america.py); health rows: care dossier's path (models/tools/health_booking.py); care rows: care dossier's parts B-D path (models/tools/care_booking.py)
 - **Decided by:** unrecorded
 - **Notes:** CAP-7S is "interim cash proxy only" per its own note.
 
 ### ASM-PROF-COMPONENTS
 
-HOU-1 (housing, line by line), HLT-4 (legacy title split, care review F-4) and HLT-7 (the single plan: spending line, transition fund, territories) are booked as components, each with its own path.
+HOU-1 (housing, line by line), HLT-4 (legacy title split, care review F-4; its long-term care part retired for the bridge and its companions, care parts B-D), HLT-7 (the single plan: spending line, transition fund, territories), HLT-9 (long-term care: the benefit and care part gross, the states' payment as offsetting receipts, the state option, room and board, the territories) and FAM-2 (child care, pre-K, facilities, CCDF school-age, territories, early educators' pay) are booked as components, each with its own path.
 
 - **Value:** Sum of the component amounts equals each bill's ledger midpoint ($T)
-- **How much it matters:** low: three bills
+- **How much it matters:** low: five bills
 - **Where:** models/data/inputs/fiscal-components.csv; models/tools/fiscal-model.py:73-78
 - **Source:** Oct 24 adoption (fiscal-components.csv basis)
 - **Decided by:** unrecorded
+
+### ASM-PROF-CARE-ONCE
+
+Part C (child care, pre-K, early educators' pay) is counted in one place: in case mixed the EDU-9B fund's care component is FAM-2's booked general-fund path, read from the fiscal model, and the fund pays it from payroll receipts and a general-fund grant of 30% of its outlays after 2034.
+
+- **Value:** ledger_row FAM-2 (method)
+- **How much it matters:** high: with part C in the fund the fund's reserve goes negative in 2035 at 1.4 points (about 1.7 points keeps it solvent); on the general fund instead, the FY2040 general-fund gap is about $170B larger
+- **Where:** models/tools/recovery-budget/assumptions.json (education_components.care); models/tools/recovery-budget/model.py (education_components)
+- **Source:** dossiers/care/6bcd-cost.md part 5 item 5 (care parts B-D booking)
+- **Decided by:** unrecorded (EDU-9B is a legacy decision held as a working choice; part C's home is the financing settlement's, DEC-2026-11-11-07)
+- **Notes:** The general-fund alternative: take FAM-2 out of the care component and transferred_agenda.
 
 ### ASM-PROF-CLIMATE
 

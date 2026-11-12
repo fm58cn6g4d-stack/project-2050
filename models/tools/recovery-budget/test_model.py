@@ -46,7 +46,8 @@ class BudgetTests(unittest.TestCase):
         for r in self.d['education_components']:
             self.assertAlmostEqual(r['full_fund_outlays_bn'],r['current_law_transfer_bn']+r['old_agenda_transfer_bn']+r['change_over_old_agenda_bn'])
         w=[r for r in self.d['education_components'] if r['year'] in M.W]
-        self.assertAlmostEqual(sum(r['old_agenda_transfer_bn'] for r in w)/1000,1.23,places=5)
+        # 1.23 until care parts B-D were booked: FAM-2 on the decided path is $1.484T, not the legacy $0.6T
+        self.assertAlmostEqual(sum(r['old_agenda_transfer_bn'] for r in w)/1000,2.114,places=5)
         self.assertGreater(sum(r['current_law_transfer_bn'] for r in w)/1000,.85)
         self.assertLess(sum(r['change_over_old_agenda_bn'] for r in w)/1000,.50)
 
@@ -58,7 +59,9 @@ class BudgetTests(unittest.TestCase):
         self.assertGreater(sum(r['full_fund_outlays_bn'] for r in full),sum(r['full_fund_outlays_bn'] for r in base))
 
     def test_source_rounding_and_early_policy_tension_not_hidden(self):
-        self.assertAlmostEqual(sum(r['full_fund_outlays_bn'] for r in self.d['education_components'] if r['year']==2049),441)
+        # 441 with the legacy care anchor (143); care is now FAM-2's booked path (care parts B-D booking), so the source
+        # rounding check reads the other components (441 - 143)
+        self.assertAlmostEqual(sum(r['full_fund_outlays_bn'] for r in self.d['education_components'] if r['year']==2049 and r['component']!='care'),298)
         early=next(r for r in self.d['education_components'] if r['year']==2032 and r['component']=='idea')
         self.assertTrue(early['lower_than_old_component'])
         self.assertLess(early['change_over_old_agenda_bn'],0)

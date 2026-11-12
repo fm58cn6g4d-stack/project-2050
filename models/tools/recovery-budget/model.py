@@ -55,9 +55,14 @@ def education_components(m,growth=None,consolidated=False,multiplier=1,post_grow
              'title_i':{'EDU-1':.08/.33},'care':{'FAM-2':1},'pipeline':{'EDU-4':1}}
     for y in range(2030,2057):
         for k,c in A['education_components'].items():
-            pts=dict(zip(A['education_anchor_years'],c['anchors']))
             cg=A['education']['cost_growth_after2049'] if post_growth is None else post_growth
-            gross=(geometric(pts,y) if y<=2049 else pts[2049]*(1+cg)**(y-2049))*multiplier
+            if 'ledger_row' in c:
+                # The component is a booked ledger row's general-fund path (care: FAM-2, care parts B-D booking),
+                # so the fund and the ledger carry one path and part C is counted in one place.
+                gross=old[c['ledger_row']]['gf'][str(y)]*multiplier
+            else:
+                pts=dict(zip(A['education_anchor_years'],c['anchors']))
+                gross=(geometric(pts,y) if y<=2049 else pts[2049]*(1+cg)**(y-2049))*multiplier
             current=c['current_law_bn']*(1+g)**(y-c['base_year'])
             legacy=sum(old[r]['gf'][str(y)]*w for r,w in weights.get(k,{}).items())
             if consolidated and k=='care':
