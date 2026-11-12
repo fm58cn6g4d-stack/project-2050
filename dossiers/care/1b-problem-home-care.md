@@ -1,6 +1,6 @@
-# Care you can count on, part B (care at home for all ages): the problem
+# Care you can count on, part B (long-term care: support at home and in nursing homes for older and disabled people): the problem
 
-Role: section 1 of the care dossier, part B: what is wrong with how the country pays for and gives help with daily living at home, for whom, how large the problem is, and how the law will stand in January 2029. Status: draft (stage D, step 5). Every figure cites the evidence register (`evidence.json`, EV-CAR-400 on for part B; earlier tags are health's and housing's). Health's problem section is `1-problem.md`; its part 6 hands long-term care to this part.
+Role: section 1 of the care dossier, part B: what is wrong with how the country pays for and gives help with daily living at home, for whom, how large the problem is, and how the law will stand in January 2029. Status: draft (stage D, step 5; names and wording revised after the audit, `review-part-b-evidence.md`, step 5b). Part B covers help with daily living at home, in the community and in nursing homes and similar institutions, for older adults and for children and working-age adults with disabilities, and how it is insured; child care is part C and the care workforce part D. Every figure cites the evidence register (`evidence.json`, EV-CAR-400 on for part B; earlier tags are health's and housing's). Health's problem section is `1-problem.md`; its part 6 hands long-term care to this part.
 
 Outcomes this section frames:
 - OUT-03, care people can count on, for every age;
