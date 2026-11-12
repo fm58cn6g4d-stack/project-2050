@@ -68,6 +68,26 @@ def setUpModule():
     L = json.load(open(LEDGER))
 
 
+class SharedScenarios(unittest.TestCase):
+    """B6's shared scenario file (models/data/inputs/scenarios.json): one home for the decided package and its
+    variants, read by the fiscal model and the incidence model."""
+
+    def test_both_models_read_one_decided_package(self):
+        sp = importlib.util.spec_from_file_location("scenarios_b6", os.path.join(TOOLS, "scenarios.py"))
+        SF = importlib.util.module_from_spec(sp)
+        sp.loader.exec_module(SF)
+        doc = SF.load()
+        self.assertEqual(FM.SCENARIOS, SF.fiscal(doc))
+        self.assertEqual(FM.DEC, SF.package("DEC", doc))
+        q = next(x for x in doc["incidence"] if x["id"] == "Q")
+        self.assertEqual(SF.options(q, doc), FM.DEC)          # incidence scenario Q is the fiscal model's DEC
+        dec = next(x for x in doc["fiscal"] if x["id"] == "DEC")
+        self.assertEqual(SF.options(dec, doc), SF.options(q, doc))
+        cuts = {c["id"] for c in L["cuts"]}
+        for sid, _, opts, _ in FM.SCENARIOS:
+            self.assertTrue(set(opts or []) <= cuts, sid)    # every fiscal option is a ledger option
+
+
 class Specs(unittest.TestCase):
     def test_well_formed(self):
         self.assertEqual(P.problems(S), [])
@@ -160,7 +180,7 @@ class SamePaths(unittest.TestCase):
         """Each scenario's program total, summed in the model's order, is the model's own."""
         order = [r["id"] for r in M["rows"]]
         for sid, label, opts, cfg in FM.SCENARIOS:
-            if opts is None or cfg.get("envelope"):
+            if opts is None or cfg.get("envelope") or cfg.get("cautious") or cfg.get("fy2029"):   # the library scores midpoints; DEC+FY29: test_fy2029_line
                 continue
             use = order + [o for o in opts if o in M["opt_rows"]]
             tot = {y: sum(SC[i]["unified"][y] for i in use) for y in range(P.Y0, P.Y1 + 1)}
@@ -168,6 +188,51 @@ class SamePaths(unittest.TestCase):
                 for y in tot:
                     tot[y] += SC["DYN"]["unified"][y]
             self.assertEqual(tot, {y: M["results"][sid]["years"][y]["prog_primary"] for y in tot}, sid)
+
+    def test_fy2029_line(self):
+        """DEC+FY29 is DEC plus the priced FY2029 line and nothing else: each priced row's amount in
+        FY2029, taken back out of FY2030 for a shift, so lifetime totals are unchanged."""
+        F = P.fy2029_rows()
+        want = {}
+        for i, (amt, treat) in F.items():
+            if amt is not None:
+                want[2029] = want.get(2029, 0.0) + amt
+                if treat == "shift_from_2030":
+                    want[2030] = want.get(2030, 0.0) - amt
+        R = M["results"]
+        for y in range(P.Y0, P.Y1 + 1):
+            got = R["DEC+FY29"]["years"][y]["prog_primary"] - R["DEC"]["years"][y]["prog_primary"]
+            self.assertAlmostEqual(got, want.get(y, 0.0), places=9, msg="FY%d" % y)
+        self.assertEqual(M["fy2029"]["unpriced"], sorted(i for i, (a, _) in F.items() if a is None))
+
+    def test_bill_windows_reconcile(self):
+        """Each bill's own-window score is a sum of the same annual series: a bill whose window is
+        FY2030-39 equals its plan-window total; an R1 bill's FY2029-38 equals that total less
+        FY2039, plus its priced FY2029 line (a shift nets to zero inside the window)."""
+        BW = P.bill_windows(SC, LEDGER)
+        F = P.fy2029_rows()
+        self.assertTrue(BW)
+        for i, w in BW.items():
+            u = SC[i]["unified"]
+            if w["first"] == 2030:
+                self.assertAlmostEqual(w["window"], P.window_total(u) * 1000, places=6, msg=i)
+            if w["first"] == 2029:
+                amt, treat = F.get(i, (None, ""))
+                extra = (amt or 0.0) - ((amt or 0.0) if treat == "shift_from_2030" else 0.0)
+                self.assertAlmostEqual(w["window"], P.window_total(u) * 1000 - u[2039] + extra, places=6, msg=i)
+        self.assertEqual({w["first"] for i, w in BW.items() if w["rail"] == "R1"}, {2029})
+        self.assertEqual({w["first"] for i, w in BW.items() if w["rail"] == "R3"}, {2031})
+
+    def test_cautious_end_adds_the_ledger_ranges(self):
+        """DEC-CAUT (budget choice 2's cautious reading) differs from DEC by exactly the ledger's
+        ranges over FY2030-39: each bill's high cost less its midpoint, and each general-fund base
+        revenue row's midpoint less its low yield, on the general-fund basis."""
+        R = M["results"]
+        got = sum(R["DEC-CAUT"]["years"][y]["gf_primary"] - R["DEC"]["years"][y]["gf_primary"] for y in range(P.W0, P.W1 + 1)) / 1000
+        want = (sum(b["gf_hi"] - b["gf_mid"] for b in L["bills"]) +
+                sum(r["mid"] - r["lo"] for r in L["revenue"] if r["in_base"] == "Yes" and r["channel"] == "General fund"))
+        self.assertAlmostEqual(got, want, places=9)
+        self.assertGreater(got, 0)
 
     def test_composition_by_category(self):
         """The model's all-of-government picture (DEC, % of GDP) from the library's paths."""
@@ -246,14 +311,16 @@ class BudgetConcepts(unittest.TestCase):
             self.assertAlmostEqual(back[2040], 10.0 * sum(P._spendout(g)), places=12)
 
     def test_spendout_shares_are_b2s_as_stored(self):
-        """No rescaling: the shares are spendout-discretionary-cbo.csv's, whose sums are within 2%
-        of one once ground transportation is out of nondefense."""
+        """No rescaling: the shares are spendout-discretionary-cbo.csv's, whose sums are within 3%
+        of one: nondefense once ground transportation is out, defense short of one by the part of
+        an act CBO spends after its fifth year (about 3%), which CBO's five-year tables leave out."""
         for g in ("defense", "nondefense"):
             rows = sorted((r for r in D.table("spendout-discretionary-cbo") if r["group"] == g),
                           key=lambda r: int(r["year_of_spending"]))
             self.assertEqual(P._spendout(g), [float(r["share"]) for r in rows])
-            self.assertAlmostEqual(sum(P._spendout(g)), 1.0, delta=0.02)
+            self.assertAlmostEqual(sum(P._spendout(g)), 1.0, delta=0.03)
             self.assertAlmostEqual(float(rows[0]["scale"]), 1.0, delta=0.01)
+            self.assertTrue(all(v > 0 for v in P._spendout(g)), g)
 
     def test_rebuilds_cbo_discretionary_outlays(self):
         """CBO's projected discretionary budget authority, spent out at the library's shares, plus

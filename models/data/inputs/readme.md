@@ -38,9 +38,11 @@ Conventions:
 - **Incidence parts** split a row's amount `x` across keys. `above450k` alone takes all of it. `wages 0.25*x; capital 0.75*x` is the 25/75 corporate convention. Plain numbers are fixed amounts.
 - **Phase-in methods:** for `ramp`, the yearly levels grow 4% a year and are then normalised. For `norm`, the levels are normalised as typed. `same_as` borrows another row's profile.
 
-The scenario lists (incidence `SCEN`, fiscal `SCENARIOS`) and the accounting rules (`GF_RULE`, `OWN_RANGE` in ledger-build.py) are still in the scripts.
+`scenarios.json` is the shared scenario file (budget workflow B6): the option packages (Package B, the sprint package, the decided package DEC, the declined trims) named once, the fiscal model's scenarios (`fiscal-model.py`, `SCENARIOS`) and the incidence model's (`incidence-model.py`, `SCEN`), read through `models/tools/scenarios.py`. Incidence scenario Q and fiscal scenario DEC are the same package by construction, and `test_provisions.py` checks it. Changing DEC is Espen's decision. The accounting rules (`GF_RULE`, `OWN_RANGE` in ledger-build.py) are still in the script; the ledger itself runs no scenarios.
 
 ## Surge availability and cash
+
+`fiscal-fy2029.csv` is the FY2029 line of budget choice 3 (DEC-2026-11-08-05, `ASM-FY2029-LINE`): one row per ledger row with an FY2029 effect, priced (an amount, added or shifted from FY2030) or unpriced (no amount). The fiscal model reads it only for the disclosed scenario DEC+FY29; the adopted path (DEC) and the D4 tests keep FY2030-39. CAP-7S's row prices the October 26 planning figure ($5B moved from FY2030); `capacity-funding.csv` below still records the adopted path's FY2029 cash as unpriced.
 
 `capacity-funding.csv` records the approved immediate multi-year availability of CAP-7S (R1 target FY2029), separately from `fiscal-years.csv` cash outlays. Blank FY2029 cash means unpriced, not zero. A priced update needs a reconciled lifetime amount, revised 2030-39 window and C42, and debt/interest/envelope rerun; the diagnostic deliberately rejects an unreconciled number.
 
