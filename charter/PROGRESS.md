@@ -21,9 +21,7 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 ## In motion
 
 - **Espen's direction (November 12):** no dossier work proceeds until the lead's audit of the central files (this board, `charter/PLAN.md`, `charter/STANDARDS.md`) has landed.
-- **Open PRs:**
-  - #290, the charter audit: tier 3, author the lead. It waits on the reviewer, then Espen's label.
-  - This board PR: routine, author the lead. It stays a draft until #290 merges, because it removes board text whose new home is in #290.
+- **Open PRs:** this board PR (routine, author the lead). The charter audit, #290, merged.
 - **Workers:**
   - I4 (immigration sections 4-9), `session_01UQzgBufjvZ5c5m2JNm9iBZ`, Most capable, branch `claude/immigration-i4`: **paused by Espen** until the audit lands; the lead sends a `handoff` to resume it. Reports to the lead.
   - S4's author, `session_01UQzgBwnUXwPDDfuRotwQLp`: done (#287, #288), idle; it holds the context for FAM-1.11's update.
@@ -31,7 +29,7 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 
 ## Next, in order
 
-1. #290 merges; then this board PR.
+1. This board PR merges.
 2. Resume I4 (Most capable; brief in the worker's session; it carries the reviewer's two notes on `DEC-2026-11-12-07`: a measurable E-Verify start, and a proposed registration cutoff).
 3. Secure floor: FAM-1.11 written to `DEC-2026-11-12-09` (S4's author), then the L2/L3 milestone review in a fresh Most capable session, then the booking (tier 3).
 4. Moving America's FY2037-39 draw in the budget model (`DEC-2026-11-12-10`): one tier-3 inputs PR, Most capable.
