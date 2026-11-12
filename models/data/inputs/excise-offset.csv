@@ -1,0 +1,2 @@
+from_year,rate,source,basis
+2026,0.244,"JCT, JCX-10-25 (SRC-2457), Table 1, 2025; JCX-9-24 (SRC-2458) and JCX-2-23 (SRC-2459) give 0.242-0.246 for 2023-25","The income and payroll tax offset on new excise taxes and fees (CX, CXP, MR6): JCT's 2025 rate under the 2017 tax rules that P.L. 119-21 made permanent. JCT's later years (about 0.26) assumed those rules would expire, so they are not used. Applies to every year until JCT publishes a table on current law; then this file takes JCT's yearly figures, one row per year (DEC-2026-11-12-08)"

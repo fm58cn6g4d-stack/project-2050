@@ -61,11 +61,36 @@ def growth_index(B, key):
         return idx
     if key in ("special_ss",):
         return {y: B[y]["rev_payroll"] for y in B if y >= Y0}
+    if key.startswith("gdp+"):
+        # GDP plus a fixed number of points a year, compounded from FY2026 (C35's frozen estate exemption)
+        x = float(key[4:])
+        return {y: B[y]["gdp"] * (1 + x / 100) ** (y - Y0) for y in B if y >= Y0}
     return {y: B[y][key] for y in B if y >= Y0}
 
 
+def after_path(B, out, after, prof):
+    """Replace a path's post-2039 years with fixed amounts (billions, fiscal-after.csv); after the last
+    of them the row grows with its growth index. The window is untouched, so it still sums to the ledger."""
+    out = dict(out)
+    ys = sorted(after)
+    for y in ys:
+        out[y] = float(after[y])
+    g = growth_index(B, prof.get("grow", "gdp"))
+    for y in range(ys[-1] + 1, Y1 + 1):
+        out[y] = out[ys[-1]] * g[y] / g[ys[-1]]
+    return out
+
+
 def row_path(B, mid10, prof, rid=None):
-    """Annual path (billions) whose FY2030-39 sum equals mid10 (trillions)."""
+    """Annual path (billions) whose FY2030-39 sum equals mid10 (trillions); a row in fiscal-after.csv
+    takes those amounts after 2039 (after_path)."""
+    out = _row_path(B, mid10, prof, rid)
+    if rid in PR.AFTER:
+        out = after_path(B, out, PR.AFTER[rid], prof)
+    return out
+
+
+def _row_path(B, mid10, prof, rid=None):
     if rid in PR.COMPONENTS:
         components=PR.COMPONENTS[rid]
         if abs(sum(amount for _,amount,_ in components)-mid10)>1e-9:

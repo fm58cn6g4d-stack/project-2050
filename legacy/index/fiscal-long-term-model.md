@@ -17,12 +17,12 @@ It answers three questions the ten-year ledger cannot:
 ## Bottom line
 
 - **The current-law baseline is the dominant fact.** On CBO's February 2026 path, adjusted for the FY2026 actual and the tariff ruling, debt held by the public rises from 101.6% of GDP in 2026 to 130.3% in 2039 and 180.2% in 2056. Net interest rises from 3.4% to 7.1% of GDP. Holding debt at its 2029 ratio through 2056 would take a permanent improvement of about **2.48% of GDP a year from 2030**, roughly $1.12T a year at 2035's GDP (the fiscal gap).
-- **The decided program (scenario DEC) falls short of D4's maturity test.** The general fund runs a primary deficit of 8.21% of GDP in 2040 (about $4,449B), and 9.54% in its worst year to 2056; permanent programs need that much more permanent revenue or less permanent cost. The other D4 tests are below.
-- Over 2030-39 the general fund runs a primary deficit of $23.65T, mostly the time-limited lines the investment envelope holds ($1.30T of borrowing readings and CAP-7S's rebuild surge, of $1.6T of room) plus later-Congress rows.
-- **Total debt does not stay below the real baseline.** It is 170.8% of GDP in 2039 and 370.3% in 2056, against the baseline's 130.3% and 180.2%: 11.7, 87.7 and 190.0 points above it in 2035, 2045 and 2056. Net interest is 14.58% of GDP in 2056 against the baseline's 7.14%. Under the decided fiscal rule each dossier reports its cost and the financing settlement balances the plan (DEC-2026-11-10-05); this is the running plan-wide total, not a verdict on any one dossier.
-- **The structural gap remains, and is reported, not required.** The program narrows the fiscal gap from 2.48% to 8.96% of GDP. Bending the total path down (peak by the mid-2030s, falling through the 2040s) would take a sustainability layer of about 2% of GDP (Decision Brief 2). Under the decided rule that is a separate track (health cost growth, SS-5, further revenue), not a condition on the program.
-- **Filling the rest of the envelope is affordable.** New time-limited investments using the remaining ~$0.30T of room, with no return counted, add about 0.8 points to 2056 debt and take the ten-year general-fund deficit to $23.94T.
-- **Interest rates are the biggest risk to every path.** One point higher on every rate from 2030, reaching existing debt as it rolls over, takes the baseline to 217.4% of GDP in 2056 and the decided program to 428.9%. CBO-style dynamic feedback (about −$0.56T in the window) costs about 3.1 points by 2056 and would turn the 2040 balance to 8.34% of GDP; D4 counts no dynamic revenue, but the cushion is thin against it.
+- **The decided program (scenario DEC) falls short of D4's maturity test.** The general fund runs a primary deficit of 8.22% of GDP in 2040 (about $4,451B), and 9.49% in its worst year to 2056; permanent programs need that much more permanent revenue or less permanent cost. The other D4 tests are below.
+- Over 2030-39 the general fund runs a primary deficit of $23.63T, mostly the time-limited lines the investment envelope holds ($1.30T of borrowing readings and CAP-7S's rebuild surge, of $1.6T of room) plus later-Congress rows.
+- **Total debt does not stay below the real baseline.** It is 170.8% of GDP in 2039 and 369.8% in 2056, against the baseline's 130.3% and 180.2%: 11.9, 87.6 and 189.5 points above it in 2035, 2045 and 2056. Net interest is 14.56% of GDP in 2056 against the baseline's 7.14%. Under the decided fiscal rule each dossier reports its cost and the financing settlement balances the plan (DEC-2026-11-10-05); this is the running plan-wide total, not a verdict on any one dossier.
+- **The structural gap remains, and is reported, not required.** The program narrows the fiscal gap from 2.48% to 8.94% of GDP. Bending the total path down (peak by the mid-2030s, falling through the 2040s) would take a sustainability layer of about 2% of GDP (Decision Brief 2). Under the decided rule that is a separate track (health cost growth, SS-5, further revenue), not a condition on the program.
+- **Filling the rest of the envelope is affordable.** New time-limited investments using the remaining ~$0.30T of room, with no return counted, add about 0.8 points to 2056 debt and take the ten-year general-fund deficit to $23.93T.
+- **Interest rates are the biggest risk to every path.** One point higher on every rate from 2030, reaching existing debt as it rolls over, takes the baseline to 217.4% of GDP in 2056 and the decided program to 428.4%. CBO-style dynamic feedback (about −$0.56T in the window) costs about 3.1 points by 2056 and would turn the 2040 balance to 8.35% of GDP; D4 counts no dynamic revenue, but the cushion is thin against it.
 
 ## History: the federal budget since 1962 (% of GDP, decade averages; debt at decade end)
 
@@ -70,17 +70,17 @@ All program scenarios include every program row (with MOV-31 and DEM-3, which th
 | ID | Scenario | GF 10-yr primary ($T) | Unified 10-yr with interest ($T) | Debt % 2034 | Debt % 2039 | Debt % 2045 | Debt % 2056 | Net interest % 2056 | Fiscal gap (% GDP, hold 2029 ratio) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BASE | Current-law baseline (CBO Feb 2026, adjusted) | — | — | 118.6 | 130.3 | 145.8 | 180.2 | 7.1 | 2.48 |
-| GROSS | Program spending with the top-end base only (no new options) | 26.86 | 25.01 | 128.0 | 178.2 | 245.5 | 391.7 | 15.4 | 9.68 |
-| PB | Package B (C18, C35, C19b, C20) | 25.26 | 23.06 | 126.0 | 174.5 | 239.6 | 381.4 | 15.0 | 9.33 |
-| PB+S | Package B + sprint package (C38) | 24.37 | 21.99 | 125.0 | 172.4 | 236.2 | 375.2 | 14.8 | 9.12 |
-| DEC | Decided: Package B + sprint + TS12, HP1, HP3 (C39-C41) + REV-SC1 (C43); no trims | 23.65 | 21.12 | 124.2 | 170.8 | 233.5 | 370.3 | 14.6 | 8.96 |
-| DEC+ENV | Decided, plus new time-limited investments filling the D4-B envelope room left after the borrowing readings and CAP-7S | 23.94 | 21.50 | 124.6 | 171.5 | 234.2 | 371.1 | 14.6 | 8.98 |
-| DEC-DYN | Decided, with CBO-style dynamic feedback (about -$0.56T) | 23.98 | 21.50 | 124.4 | 171.5 | 235.0 | 373.4 | 14.7 | 9.06 |
-| DEC-R1 | Decided, with interest rates 1 point higher from 2030, phased in as debt rolls over | 23.65 | 21.71 | 127.0 | 180.0 | 254.7 | 428.9 | 20.8 | 9.58 |
+| GROSS | Program spending with the top-end base only (no new options) | 26.84 | 25.02 | 128.2 | 178.2 | 245.5 | 391.4 | 15.4 | 9.67 |
+| PB | Package B (C18, C35, C19b, C20) | 25.24 | 23.07 | 126.2 | 174.5 | 239.5 | 380.8 | 15.0 | 9.31 |
+| PB+S | Package B + sprint package (C38) | 24.35 | 22.00 | 125.2 | 172.4 | 236.1 | 374.7 | 14.8 | 9.11 |
+| DEC | Decided: Package B + sprint + TS12, HP1, HP3 (C39-C41) + REV-SC1 (C43); no trims | 23.63 | 21.13 | 124.4 | 170.8 | 233.4 | 369.8 | 14.6 | 8.94 |
+| DEC+ENV | Decided, plus new time-limited investments filling the D4-B envelope room left after the borrowing readings and CAP-7S | 23.93 | 21.51 | 124.9 | 171.5 | 234.1 | 370.5 | 14.6 | 8.96 |
+| DEC-DYN | Decided, with CBO-style dynamic feedback (about -$0.56T) | 23.96 | 21.51 | 124.6 | 171.5 | 234.9 | 372.9 | 14.7 | 9.04 |
+| DEC-R1 | Decided, with interest rates 1 point higher from 2030, phased in as debt rolls over | 23.63 | 21.73 | 127.3 | 180.0 | 254.6 | 428.4 | 20.7 | 9.56 |
 | BASE-R1 | Baseline with interest rates 1 point higher from 2030, phased in as debt rolls over | — | — | 121.4 | 138.4 | 162.0 | 217.4 | 10.6 | 3.28 |
-| DEC+TRIMS | Decided plus the five trims declined in Decision Brief 2 (reference only) | 22.96 | 20.29 | 123.4 | 169.2 | 231.3 | 367.0 | 14.4 | 8.84 |
-| DEC-CAUT | Decided, at the cautious end: every bill at its ledger high cost and every base revenue row at its low yield (disclosure, not a test) | 35.75 | 35.15 | 132.2 | 197.6 | 285.2 | 474.1 | 18.7 | 12.49 |
-| DEC+FY29 | Decided, with the priced FY2029 line on the debt path (disclosure; FY2029 rows still unpriced are listed) | 23.64 | 21.12 | 124.2 | 170.8 | 233.5 | 370.3 | 14.6 | 8.95 |
+| DEC+TRIMS | Decided plus the five trims declined in Decision Brief 2 (reference only) | 22.94 | 20.30 | 123.7 | 169.2 | 231.2 | 366.5 | 14.4 | 8.83 |
+| DEC-CAUT | Decided, at the cautious end: every bill at its ledger high cost and every base revenue row at its low yield (disclosure, not a test) | 35.74 | 35.16 | 132.5 | 197.6 | 285.2 | 473.6 | 18.6 | 12.47 |
+| DEC+FY29 | Decided, with the priced FY2029 line on the debt path (disclosure; FY2029 rows still unpriced are listed) | 23.62 | 21.13 | 124.4 | 170.8 | 233.4 | 369.8 | 14.6 | 8.94 |
 
 "GF" is the general fund (what D4's pay-for rule governs). "Unified" adds the dedicated channels, mainly SS-1's surplus; it is what moves debt held by the public. Negative numbers reduce deficits.
 
@@ -88,23 +88,23 @@ All program scenarios include every program row (with MOV-31 and DEM-3, which th
 
 | FY | GF primary $B | GF primary % GDP | GF-attributable debt % GDP | Unified primary $B | Program interest $B | Program debt % GDP | Total deficit % GDP | Total debt % GDP | Baseline debt % GDP |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2030 | -99 | -0.26 | -0.27 | -497 | -10 | -1.35 | 4.8 | 108.1 | 109.5 |
-| 2031 | 543 | 1.40 | 1.16 | 128 | -17 | -1.02 | 6.4 | 110.4 | 111.5 |
-| 2032 | 888 | 2.20 | 3.40 | 458 | -6 | 0.14 | 7.4 | 113.7 | 113.6 |
-| 2033 | 1,330 | 3.18 | 6.65 | 884 | 19 | 2.29 | 9.1 | 118.5 | 116.2 |
-| 2034 | 1,855 | 4.28 | 11.02 | 1,392 | 65 | 5.57 | 10.1 | 124.2 | 118.6 |
-| 2035 | 3,166 | 7.03 | 18.21 | 2,686 | 147 | 11.66 | 12.7 | 132.2 | 120.5 |
-| 2036 | 3,675 | 7.87 | 26.26 | 3,177 | 269 | 18.61 | 14.3 | 141.6 | 123.0 |
-| 2037 | 3,869 | 7.98 | 34.47 | 3,352 | 420 | 25.72 | 14.8 | 151.1 | 125.4 |
-| 2038 | 4,107 | 8.16 | 42.90 | 3,571 | 578 | 33.03 | 15.3 | 160.8 | 127.8 |
-| 2039 | 4,312 | 8.26 | 51.45 | 3,756 | 752 | 40.47 | 15.8 | 170.8 | 130.3 |
-| 2040 | 4,449 | 8.21 | 59.98 | 3,881 | 940 | 47.90 | 16.1 | 180.6 | 132.7 |
-| 2042 | 4,942 | 8.47 | 77.56 | 4,349 | 1,372 | 63.30 | 17.3 | 201.1 | 137.8 |
-| 2045 | 5,719 | 8.79 | 105.19 | 5,086 | 2,168 | 87.73 | 19.0 | 233.5 | 145.8 |
-| 2048 | 6,552 | 9.05 | 134.38 | 5,878 | 3,170 | 113.75 | 20.7 | 268.1 | 154.4 |
-| 2050 | 7,145 | 9.19 | 154.63 | 6,444 | 3,963 | 131.91 | 21.9 | 292.4 | 160.5 |
-| 2053 | 8,091 | 9.38 | 186.19 | 7,347 | 5,387 | 160.35 | 23.7 | 330.5 | 170.1 |
-| 2056 | 9,125 | 9.54 | 218.95 | 8,336 | 7,123 | 190.04 | 25.6 | 370.3 | 180.2 |
+| 2030 | -87 | -0.23 | -0.24 | -485 | -9 | -1.32 | 4.8 | 108.1 | 109.5 |
+| 2031 | 553 | 1.42 | 1.22 | 139 | -17 | -0.96 | 6.4 | 110.5 | 111.5 |
+| 2032 | 919 | 2.28 | 3.54 | 489 | -5 | 0.28 | 7.5 | 113.9 | 113.6 |
+| 2033 | 1,357 | 3.25 | 6.86 | 910 | 22 | 2.50 | 9.1 | 118.7 | 116.2 |
+| 2034 | 1,874 | 4.32 | 11.27 | 1,411 | 68 | 5.82 | 10.2 | 124.4 | 118.6 |
+| 2035 | 3,177 | 7.06 | 18.48 | 2,697 | 152 | 11.93 | 12.8 | 132.5 | 120.5 |
+| 2036 | 3,676 | 7.87 | 26.54 | 3,178 | 274 | 18.89 | 14.3 | 141.8 | 123.0 |
+| 2037 | 3,827 | 7.90 | 34.66 | 3,311 | 424 | 25.91 | 14.7 | 151.3 | 125.4 |
+| 2038 | 4,064 | 8.08 | 43.00 | 3,528 | 581 | 33.13 | 15.2 | 160.9 | 127.8 |
+| 2039 | 4,267 | 8.18 | 51.47 | 3,711 | 753 | 40.49 | 15.7 | 170.8 | 130.3 |
+| 2040 | 4,451 | 8.22 | 60.00 | 3,883 | 940 | 47.92 | 16.1 | 180.7 | 132.7 |
+| 2042 | 4,937 | 8.46 | 77.56 | 4,343 | 1,372 | 63.31 | 17.3 | 201.1 | 137.8 |
+| 2045 | 5,698 | 8.76 | 105.11 | 5,065 | 2,166 | 87.65 | 18.9 | 233.4 | 145.8 |
+| 2048 | 6,525 | 9.01 | 134.19 | 5,852 | 3,165 | 113.55 | 20.7 | 267.9 | 154.4 |
+| 2050 | 7,116 | 9.16 | 154.36 | 6,415 | 3,956 | 131.64 | 21.8 | 292.1 | 160.5 |
+| 2053 | 8,055 | 9.34 | 185.79 | 7,311 | 5,374 | 159.95 | 23.7 | 330.1 | 170.1 |
+| 2056 | 9,082 | 9.49 | 218.41 | 8,294 | 7,103 | 189.50 | 25.5 | 369.8 | 180.2 |
 
 The general fund's 2030-35 deficits are mostly CAP-7S's rebuild surge and Moving America's capital lines, which the envelope holds; from 2040 the general fund runs a surplus. "GF-attributable debt" is reported for information: under the decided rule it is not a guardrail.
 
@@ -112,22 +112,22 @@ The general fund's 2030-35 deficits are mostly CAP-7S's rebuild surge and Moving
 
 | Test | PB+S | DEC (decided) | DEC+ENV | DEC+TRIMS (reference) | DEC-CAUT (cautious end, disclosure) | DEC-R1 (rates +1 point, disclosure) |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1. Paid for at maturity: GF balance in FY2040, % of GDP (≤ 0 passes) | 8.38 | 8.21 | 8.21 | 8.12 | 12.03 | 8.21 |
-| … worst year 2040-56 (≤ 0 passes) | 9.71 (fails) | 9.54 (fails) | 9.54 (fails) | 9.45 (fails) | 13.86 (would not pass) | 9.54 (would not pass) |
-| … FY2039, gross of time-limited lines (information) | 8.43 | 8.26 | 8.28 | 8.10 | 12.08 | 8.26 |
+| 1. Paid for at maturity: GF balance in FY2040, % of GDP (≤ 0 passes) | 8.38 | 8.22 | 8.22 | 8.13 | 12.05 | 8.22 |
+| … worst year 2040-56 (≤ 0 passes) | 9.67 (fails) | 9.49 (fails) | 9.49 (fails) | 9.41 (fails) | 13.82 (would not pass) | 9.49 (would not pass) |
+| … FY2039, gross of time-limited lines (information) | 8.34 | 8.18 | 8.19 | 8.01 | 11.99 | 8.18 |
 | 2. Investment envelope: room 2030-39 / held by accepted borrowing lines / left ($T) | 1.60 / 1.30 / 0.30 | 1.60 / 1.30 / 0.30 | 1.60 / 1.30 / 0.30 | 1.60 / 1.30 / 0.30 | 1.60 / 1.30 / 0.30 | 1.60 / 1.30 / 0.30 |
 | 3a. Total debt below the real baseline every year 2030-56 | fails | fails | fails | fails | would not pass | would not pass |
-| 3b. Points below the baseline: 2035 / 2045 / 2056 (widening passes) | -12.6 / -90.5 / -195.0 (fails) | -11.7 / -87.7 / -190.0 (fails) | -12.2 / -88.5 / -190.8 (fails) | -10.7 / -85.6 / -186.8 (fails) | -23.1 / -139.5 / -293.8 (would not pass) | -11.8 / -92.7 / -211.6 (would not pass) |
-| 3c. Net interest % of GDP vs baseline: 2035 / 2045 / 2056 | 4.94 / 9.15 / 14.77 vs 4.58 / 5.71 / 7.14 (fails) | 4.91 / 9.04 / 14.58 vs 4.58 / 5.71 / 7.14 (fails) | 4.93 / 9.07 / 14.61 vs 4.58 / 5.71 / 7.14 (fails) | 4.88 / 8.96 / 14.45 vs 4.58 / 5.71 / 7.14 (fails) | 5.28 / 11.02 / 18.65 vs 4.58 / 5.71 / 7.14 (would not pass) | 6.01 / 12.07 / 20.77 vs 5.60 / 7.73 / 10.57 (would not pass) |
-| Ten-year GF primary deficit, $T (information; D4-A's old test) | 24.37 | 23.65 | 23.94 | 22.96 | 35.75 | 23.65 |
-| GF-attributable debt, % of GDP: 2039 / 2045 / 2056 (information) | 53.1 / 107.9 / 223.9 | 51.4 / 105.2 / 219.0 | 52.2 / 105.9 / 219.7 | 49.9 / 103.0 / 215.7 | 78.3 / 156.9 / 322.7 | 53.1 / 111.6 / 244.8 |
+| 3b. Points below the baseline: 2035 / 2045 / 2056 (widening passes) | -12.9 / -90.4 / -194.4 (fails) | -11.9 / -87.6 / -189.5 (fails) | -12.5 / -88.4 / -190.3 (fails) | -11.0 / -85.5 / -186.2 (fails) | -23.4 / -139.4 / -293.4 (would not pass) | -12.1 / -92.7 / -211.0 (would not pass) |
+| 3c. Net interest % of GDP vs baseline: 2035 / 2045 / 2056 | 4.95 / 9.14 / 14.75 vs 4.58 / 5.71 / 7.14 (fails) | 4.92 / 9.04 / 14.56 vs 4.58 / 5.71 / 7.14 (fails) | 4.94 / 9.07 / 14.59 vs 4.58 / 5.71 / 7.14 (fails) | 4.89 / 8.95 / 14.43 vs 4.58 / 5.71 / 7.14 (fails) | 5.29 / 11.02 / 18.63 vs 4.58 / 5.71 / 7.14 (would not pass) | 6.02 / 12.07 / 20.75 vs 5.60 / 7.73 / 10.57 (would not pass) |
+| Ten-year GF primary deficit, $T (information; D4-A's old test) | 24.35 | 23.63 | 23.93 | 22.94 | 35.74 | 23.63 |
+| GF-attributable debt, % of GDP: 2039 / 2045 / 2056 (information) | 53.1 / 107.8 / 223.4 | 51.5 / 105.1 / 218.4 | 52.2 / 105.8 / 219.2 | 49.9 / 102.9 / 215.1 | 78.3 / 156.9 / 322.3 | 53.2 / 111.6 / 244.3 |
 
 Reading the tests:
 - **CLI-7C contingent exposure:** $75–150B, disclosed and unscored in every D4 scenario; expected net cost is scored separately. Post-2050 climate flows use a constant-real-2050 extension, not an emissions forecast.
 - **Decided rule (Oct 20).** Permanent programs are paid for at maturity, tested in FY2040 (FY2039 net of time-limited lines) and every later year. Time-limited investments may be borrowed for inside an envelope of 0.5% of GDP to 2034, tapering to zero by 2040, which holds the borrowing readings (C21, C30-C32, C37) and CAP-7S's rebuild surge (C42); unused room does not carry forward, and the envelope is available only while test 1 passes. Guardrails are measured against the real (CBO, adjusted) baseline, not the program's own debt. Judgment Fund-backed contracts are counted (CLI-9 at full cost when obligated; AAJA damages as a disclosed contingent-liability line). No dynamic revenue is counted.
 - "Social-insurance funds whole on 75 years" is tested in legacy/index/dedicated-funds.md, not here (on SSA's 2026 scores the D8 baseline closes about 64% of the 75-year gap and SS-5 brings it to about 84%).
 - The fiscal gap (scenario table) is the reported sustainability track.
-- **Disclosed beside the tests, not tests** (budget choices 2, 4 and 5; DEC-2026-11-08-04, -06 and -07). *DEC-CAUT* is the cautious end: every bill at its ledger high cost and every base revenue row at its low yield, each on its own profile (options, climate rows and the dynamic table have no ledger range and stay central). It adds $12.10T to the ten-year unified primary deficit. *DEC-R1* is the one-point interest stress, phased in as debt rolls over. The midpoints at CBO's rates decide; these two columns show how far the readings move. The general-fund rows (GF balance and GF-attributable debt) are the reading without Social Security beside the unified guardrails.
+- **Disclosed beside the tests, not tests** (budget choices 2, 4 and 5; DEC-2026-11-08-04, -06 and -07). *DEC-CAUT* is the cautious end: every bill at its ledger high cost and every base revenue row at its low yield, each on its own profile (options, climate rows and the dynamic table have no ledger range and stay central). It adds $12.11T to the ten-year unified primary deficit. *DEC-R1* is the one-point interest stress, phased in as debt rolls over. The midpoints at CBO's rates decide; these two columns show how far the readings move. The general-fund rows (GF balance and GF-attributable debt) are the reading without Social Security beside the unified guardrails.
 
 ## FY2029, disclosed (budget choice 3)
 
@@ -154,7 +154,7 @@ Each bill's score over its own CBO window (R1 under the FY2029 resolution is FY2
 | Medicaid, CHIP and marketplace subsidies | 2.6 | 2.5 | 12.6 | 2.6 | 15.0 |
 | Other mandatory (incl. CTC, child care, income security) | 2.9 | 2.5 | 4.0 | 2.3 | 3.5 |
 | Defense discretionary | 2.7 | 2.3 | 2.3 | 2.3 | 2.3 |
-| Nondefense discretionary | 3.1 | 2.4 | 2.7 | 2.4 | 2.6 |
+| Nondefense discretionary | 3.1 | 2.4 | 2.6 | 2.4 | 2.6 |
 
 Program rows are assigned to CBO's categories in models/data/inputs/fiscal-profiles.csv. Refundable credits are shown as other mandatory spending, and SS-1's payroll revenue is netted in Social Security.
 
@@ -195,7 +195,7 @@ General-fund basis for most rows. SS-1 is shown on its unified basis. % of GDP i
 | AI-4 | spending | out_other_mandatory | 0.200 | 0.054 | 0.054 | 0.054 | Displacement-triggered; builds with take-up |
 | AI-9 | spending | out_other_mandatory | 0.020 | 0.005 | 0.005 | 0.005 |  |
 | DEM-1 | spending | out_disc_nondefense | 0.010 | 0.002 | 0.002 | 0.002 |  |
-| DEM-11 | spending | out_disc_nondefense | 0.020 | 0.005 | 0.005 | 0.005 |  |
+| DEM-11 | spending | out_disc_nondefense | 0.020 | 0.004 | 0.004 | 0.003 | Permanent indexed formula line, indexed to prices: a fixed real level of service (DEC-2026-11-12-08) |
 | DEM-16 | spending | out_disc_nondefense | 0.010 | 0.002 | 0.002 | 0.002 |  |
 | DEM-17 | spending | out_disc_nondefense | 0.030 | 0.000 | 0.000 | 0.000 | Time-limited community infrastructure fund |
 | DEM-3 | spending | out_disc_nondefense | 0.010 | 0.003 | 0.003 | 0.003 | House enlargement from 2033 |
@@ -206,9 +206,9 @@ General-fund basis for most rows. SS-1 is shown on its unified basis. % of GDP i
 | NSC-8 | spending | out_disc_nondefense | 0.020 | 0.005 | 0.005 | 0.005 |  |
 | NSC-10 | spending | out_disc_nondefense | 0.070 | 0.017 | 0.017 | 0.017 |  |
 | SAF-10 | spending | out_disc_nondefense | 0.032 | 0.008 | 0.008 | 0.008 | Compacts build over three years |
-| MOV-29 | spending | out_disc_nondefense | 0.257 | 0.058 | 0.017 | 0.017 | General-fund top-ups and capital lines; mostly time-limited (C30) |
-| MOV-30 | spending | out_disc_nondefense | 0.091 | 0.020 | 0.006 | 0.006 | Same |
-| MOV-31 | spending | out_disc_nondefense | 0.125 | 0.000 | 0.017 | 0.017 | FY2032-36 renewal top-ups; a successor authorization is assumed at 30% of the run rate |
+| MOV-29 | spending | out_disc_nondefense | 0.257 | 0.000 | 0.000 | 0.000 | Package one and the FY2032-35 renewal top-ups in the years the act names (fiscal-years.csv); nothing after FY2035 (DEC-2026-11-12-08); time-limited (C30) |
+| MOV-30 | spending | out_disc_nondefense | 0.091 | 0.000 | 0.000 | 0.000 | Package two and the FY2035-36 top-ups in the years the act names (fiscal-years.csv); nothing after FY2036 (DEC-2026-11-12-08) |
+| MOV-31 | spending | out_disc_nondefense | 0.125 | 0.000 | 0.022 | 0.020 | FY2032-36 expansion; after 2039 the successor line carries the transportation model's general-fund draw by year (fiscal-after.csv: $29.0B in FY2040, $14.0B in FY2044; DEC-2026-11-12-08) |
 | CLI-5L | spending | out_other_mandatory | 0.007 | 0.004 | 0.003 | 0.002 | Exact climate annual override, conservative Package A/O5; see climate-adoption.json |
 | CLI-7C | spending | out_other_mandatory | 0.003 | 0.001 | 0.001 | 0.001 | Exact climate annual override, conservative Package A/O5; see climate-adoption.json |
 | CLI-7N | spending | out_other_mandatory | 0.002 | 0.000 | 0.000 | 0.000 | Exact climate annual override, conservative Package A/O5; see climate-adoption.json |
@@ -231,9 +231,9 @@ General-fund basis for most rows. SS-1 is shown on its unified basis. % of GDP i
 | G9 | base revenue | rev_individual | -1.450 | -0.334 | -0.345 | -0.364 |  |
 | G10 | base revenue | rev_other | -0.400 | -0.090 | -0.090 | -0.090 |  |
 | GX | base revenue | rev_individual | 0.495 | 0.114 | 0.118 | 0.124 |  |
-| CX | base revenue | rev_individual | 0.490 | 0.136 | 0.136 | 0.136 | Excise offset on the carbon, border and methane fees; shape follows their receipts (fiscal-years.csv) |
-| MR6 | base revenue | rev_individual | 0.128 | 0.046 | 0.046 | 0.046 | Excise offset on Moving America's new excises; shape follows their receipts (fiscal-years.csv), as CX |
-| CXP | base revenue | rev_individual | 0.026 | 0.001 | -0.001 | 0.000 | Exact climate annual override, conservative Package A/O5; see climate-adoption.json |
+| CX | base revenue | rev_individual | 0.476 | 0.132 | 0.132 | 0.132 | Excise offset on the carbon, border and methane fees; shape follows their receipts (fiscal-years.csv) |
+| MR6 | base revenue | rev_individual | 0.125 | 0.045 | 0.045 | 0.045 | Excise offset on Moving America's new excises; shape follows their receipts (fiscal-years.csv), as CX |
+| CXP | base revenue | rev_individual | 0.025 | 0.001 | -0.001 | 0.000 | Exact climate annual override, conservative Package A/O5; see climate-adoption.json |
 | C5 | trim | out_medicare_net | -0.300 | -0.074 | -0.000 | -0.000 | Dental delayed past the window: saves inside it, none after |
 | C17 | trim | out_disc_nondefense | -0.100 | -0.025 | -0.025 | -0.025 |  |
 | C18 | revenue | rev_individual | -0.620 | -0.143 | -0.147 | -0.156 |  |
@@ -244,7 +244,7 @@ General-fund basis for most rows. SS-1 is shown on its unified basis. % of GDP i
 | C20 | revenue | rev_individual | -0.670 | -0.154 | -0.159 | -0.168 |  |
 | C33 | trim | out_other_mandatory | -0.070 | -0.018 | -0.018 | -0.018 |  |
 | C34 | trim | out_disc_nondefense | -0.030 | -0.007 | -0.007 | -0.007 |  |
-| C35 | revenue | rev_other | -0.150 | -0.034 | -0.034 | -0.034 | Estate tax increment; exemption frozen in nominal terms, so it grows faster than GDP in practice (held at GDP) |
+| C35 | revenue | rev_other | -0.150 | -0.037 | -0.041 | -0.051 | Estate tax increment; exemption frozen in nominal terms, so receipts grow faster than GDP: GDP plus 2.0 points a year (range 1.4-4.3), from CBO's and JCT's estate tax projections (ASM-PROF-ESTATE; DEC-2026-11-12-08) |
 | C36 | trim | out_other_mandatory | -0.190 | -0.040 | -0.037 | -0.032 |  |
 | C39 | revenue | rev_individual | -0.400 | -0.092 | -0.095 | -0.100 | REV-TS12, 28% itemized cap above $450K; grows with top incomes |
 | C40 | revenue | rev_corporate | -0.080 | -0.018 | -0.018 | -0.019 | REV-HP1 pay-ratio surtax |
@@ -253,7 +253,7 @@ General-fund basis for most rows. SS-1 is shown on its unified basis. % of GDP i
 
 ## Method and limits
 
-**Calibration.** Calibration: program claims 37.415T = ledger 37.28T + 0.135T of later-Congress rows the ledger leaves out of first-Congress claims (MOV-31, DEM-3), which the long-term model includes; base revenue 10.556T before headline rounding (ledger 10.56T)
+**Calibration.** Calibration: program claims 37.415T = ledger 37.28T + 0.135T of later-Congress rows the ledger leaves out of first-Congress claims (MOV-31, DEM-3), which the long-term model includes; base revenue 10.574T before headline rounding (ledger 10.57T)
 
 **Interest.** The program's own borrowing pays the higher of CBO's average rate on debt and a 40/60 blend of CBO's 3-month bill and 10-year note rates through 2036 (about 3.9-4.0%). After that it pays the long-term baseline's implied average rate (about 4.0-4.2%). Each year's new flow carries half a year of interest. The baseline's own interest is CBO's. Interest-rate feedback from higher debt is not modeled except in the +1 point stress cases.
 

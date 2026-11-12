@@ -9,7 +9,9 @@ class IntegrationTests(unittest.TestCase):
   for case in C.DATA['budget']['cases']:
    for y in range(2030,2057):
     a=C.account(y,case)
-    self.assertAlmostEqual(sum(C.delta_rows(y,case).values()),a['general_fund_net_cost_bn']+a['d4b_net_cost_bn'],places=8)
+    # The export's accounts are at a 25% offset; CXP is booked at JCT's rate (DEC-2026-11-12-08).
+    rate_gap=(C.offset_rate(y)-.25)*a['added_receipts_bn']
+    self.assertAlmostEqual(sum(C.delta_rows(y,case).values()),a['general_fund_net_cost_bn']+a['d4b_net_cost_bn']+rate_gap,places=8)
     self.assertAlmostEqual(a['added_receipts_bn'],a['process_receipts_bn']+a['combustion_receipts_change_bn'],places=9)
     self.assertAlmostEqual(a['cx_cost_bn'],.25*a['added_receipts_bn'],places=9)
     self.assertAlmostEqual(a['dividend_bn'],.8*a['added_receipts_bn']-a['process_dividend_diversion_bn'],places=9)

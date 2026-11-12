@@ -28,6 +28,27 @@ def opt(row, key, conv=str):
     return None if v == "" else conv(v)
 
 
+def offset_rate(year=2030):
+    """The income and payroll tax offset on new excise taxes and fees for fiscal year `year`, from
+    excise-offset.csv (JCT's rate; DEC-2026-11-12-08): the row with the latest from_year at or before it.
+    The ledger books CX, CXP and MR6 as ten-year totals at one rate, so the file must give one rate for
+    FY2030-56 until those rows are booked year by year; a second rate in that span is an error."""
+    if "rows" not in _OFFSET:
+        rows = sorted((int(r["from_year"]), float(r["rate"])) for r in read("excise-offset.csv"))
+        _OFFSET["rows"] = rows
+        if len({_offset_pick(rows, y) for y in range(2030, 2057)}) != 1:
+            raise ValueError("excise-offset.csv: one rate for FY2030-56 until CX, CXP and MR6 are booked by year")
+    return _offset_pick(_OFFSET["rows"], year)
+
+
+_OFFSET = {}
+
+
+def _offset_pick(rows, year):
+    """The rate of the latest row starting at or before `year` (the first row's before it starts)."""
+    return ([rt for fy, rt in rows if fy <= year] or [rows[0][1]])[-1]
+
+
 def money_sum(values, places=2):
     """Sum decimal input amounts and round once, half away from zero for display.
 

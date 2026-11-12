@@ -3,7 +3,7 @@ The research export remains a delta against the pre-Package-A $150 baseline.
 """
 import hashlib, json
 from pathlib import Path
-from inputs import path
+from inputs import path, offset_rate
 CONFIG=json.loads(Path(path('climate-adoption.json')).read_text())
 ROOT=Path(path('climate-adoption.json')).resolve().parents[3]
 SOURCE=ROOT/CONFIG['source']
@@ -26,7 +26,9 @@ def delta_rows(y,case=CASE):
     a=account(y,case)
     rows={rid:item(i,y,case) for i,rid in CONFIG['item_rows'].items()}
     rows.update({rid:share*item('credits',y,case) for rid,share in CONFIG['credit_split'].items()})
-    rows['CXP']=a['cx_cost_bn']
+    # CXP at JCT's offset rate (excise-offset.csv, DEC-2026-11-12-08). The pinned export computes its O5
+    # accounts at 25% (cx_cost_bn); the booking differs from them by (rate - 0.25) x added receipts.
+    rows['CXP']=offset_rate(y)*a['added_receipts_bn']
     rows['CLI-2O']=a['dividend_bn']-a['added_receipts_bn']
     return rows
 

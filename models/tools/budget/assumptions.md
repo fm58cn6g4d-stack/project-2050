@@ -6,7 +6,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 
 **A row records current practice; it does not adopt it.** "Decided by" names a recorded decision only where one exists. "Unrecorded" means the value is set in code or an input table and no decision names it, even when its author is known. "Proposed" marks a working default (for example, how real dollars are shown), not an adopted policy or model input. Fitted values, such as spend-out shares, are approximations of history, not legal rules.
 
-**85 assumptions:** 26 matter a lot, 35 somewhat, 24 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
+**87 assumptions:** 26 matter a lot, 35 somewhat, 26 little. Amounts are in billions of nominal dollars by fiscal year ($B) or ten-year totals for 2030-39 in trillions ($T), as the unit says. Positive amounts raise the deficit.
 
 **High-impact assumptions with no recorded decision** (set in code or an input table; no `DEC-` entry or decision brief names them):
 
@@ -30,7 +30,7 @@ Role: every assumption the fiscal models use now, in plain language, with where 
 - Interest (7)
 - Dynamic effects (3)
 - Program measurement (14)
-- Profiles (11)
+- Profiles (13)
 - Defense (1)
 - Expiring provisions (3)
 - Trust funds (6)
@@ -501,25 +501,36 @@ Revenue rows grow with their own tax base (the matching CBO revenue category), i
 
 ### ASM-PROF-CPI
 
-Benefit rows fixed in dollars grow with prices only (CTC, meals, Pell, climate overrides).
+Rows fixed in dollars or in real terms grow with prices only (CTC, meals, Pell, climate overrides; DEM-11's election funding since DEC-2026-11-12-08).
 
 - **Value:** grow = cpi (see ASM-CPI-PATH) (growth index)
 - **How much it matters:** medium: these rows shrink as a share of GDP after 2039
-- **Where:** models/data/inputs/fiscal-profiles.csv:8, 12, 14, 95-109
+- **Where:** models/data/inputs/fiscal-profiles.csv:8, 12, 14, 95-109; DEM-11 (fiscal-profiles.csv)
 - **Source:** Project estimates; FAM-1 basis: "child population roughly flat"
 - **Decided by:** unrecorded
 - **Notes:** Roadmap: demographic growth for benefit rows is not modeled (roadmap.md:32).
+
+### ASM-PROF-ESTATE
+
+C35, the estate tax increment with an exemption frozen in dollars, grows faster than GDP: GDP plus 2.0 points a year.
+
+- **Value:** grow = gdp+2.0 (range 1.4 to 4.3 points) (points a year above GDP growth)
+- **How much it matters:** low: $0.15T over FY2030-39 either way; FY2040 $20.2B instead of $18.3B at GDP growth, FY2056 $49.1B instead of $32.3B
+- **Where:** models/data/inputs/fiscal-profiles.csv (C35); models/tools/fiscal-model.py growth_index; models/tools/budget/provisions.py growth_index
+- **Source:** Derived from published projections, each against the CBO GDP path it was made on. Central: CBO's January 2012 baseline (SRC-4383), when current law froze the exemption at $1 million: estate and gift receipts grow 7.0% a year in FY2016-22 against GDP's 4.7%, 2.2 points faster (1.9 in FY2018-22). Range: JCT's estimates of restoring the 2009 parameters (a $3.5 million exemption, not indexed, against the indexed law, the same shape as C35's increment beyond G9): 4.3 points in FY2022-26 (JCX-15-16, SRC-4381, on CBO's January 2016 GDP, SRC-4384) and 1.4 points in FY2022-24 (JCX-36-14, SRC-4382, on CBO's April 2014 GDP, SRC-4385). Treasury's FY2017 estimate of the same proposal grows 9.4% a year in FY2022-26 (SRC-4386, executive-branch analysis), in line with JCT's of that year
+- **Decided by:** Espen, DEC-2026-11-12-08 (board 0q, part 2: grow it faster than GDP at a rate worked out from estate tax projections); the rate is derived here
+- **Notes:** First-decade rates, held constant to 2056: as a frozen exemption loses value, more of each estate is taxed and the excess over GDP should shrink, so the late years may be high; the range's low end is the cautious reading. Ceiling check: at 2.0 points C35 is 0.05% of GDP in FY2056, and with the G9 baseline the whole estate tax stays below the 0.3% of GDP that CBO projected under a frozen $1 million exemption, near its late-1990s level (SRC-4383). Skipped as a source: JCT's 2009-12 estimates of the 2009 parameters, which were scored against a frozen $1 million law and so measure the difference between two frozen exemptions
 
 ### ASM-PROF-TIMELIMITED
 
 Time-limited lines end or continue at a fraction of their 2039 run rate.
 
-- **Value:** perm 0.0-0.55 (MOV-29/30/31 0.3; CLI-5 0.3; HOU-1 legacy title 0.55; LAB-5 and DEM-17 end 2036; CLI-1 0.8 fading 4% a year) (share of 2039 run rate)
+- **Value:** perm 0.0-0.55 (MOV-29 and MOV-30 end with their last top-up years, FY2035 and FY2036, and MOV-31's successor line carries the transportation model's draw after 2039, DEC-2026-11-12-08; CLI-5 0.3; HOU-1 legacy title 0.55; LAB-5 and DEM-17 end 2036; CLI-1 0.8 fading 4% a year) (share of 2039 run rate)
 - **How much it matters:** high: decides what is left after 2039, which is what the maturity test reads
 - **Where:** models/data/inputs/fiscal-profiles.csv:18, 21, 24, 27, 42, 58-60
 - **Source:** Project estimates
 - **Decided by:** unrecorded
-- **Notes:** MOV-31 assumes a successor authorization at 30% of the run rate.
+- **Notes:** MOV-31's successor line after 2039 is the transportation model's general-fund share of the surface program by year (models/data/inputs/fiscal-after.csv, Model().allocate(t)): $29.0B in FY2040, $14.0B in FY2044, $13.6B in FY2046, then growing with GDP, since the model's years end in FY2046. Until DEC-2026-11-12-08 the three lines spread their ten-year amounts evenly and carried 30% of the 2039 run rate after 2039 ($22.1B in FY2040).
 
 ### ASM-PROF-SS1
 
@@ -533,14 +544,25 @@ SS-1 after 2039: the D8 package's net saving shrinks about 1.5% a year relative 
 
 ### ASM-PROF-YEARS
 
-Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy, the excise offsets CX (carbon) and MR6 (Moving America), the health rows HLT-1, HLT-2, HLT-6 and HX and the HLT-4 and HLT-7 component shapes (care dossier's fiscal-year path), and care parts B-D: HLT-10, HLT-11 and the HLT-4, HLT-9 and FAM-2 component shapes (care_bcd_path.py).
+Year-by-year overrides replace a profile inside the window: CAP-7S cash proxy, the excise offsets CX (carbon) and MR6 (Moving America), Moving America's two acts MOV-29 and MOV-30 (DEC-2026-11-12-08), the health rows HLT-1, HLT-2, HLT-6 and HX and the HLT-4 and HLT-7 component shapes (care dossier's fiscal-year path), and care parts B-D: HLT-10, HLT-11 and the HLT-4, HLT-9 and FAM-2 component shapes (care_bcd_path.py).
 
-- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73; MR6 -2 to -27 (shape); HLT-1 $64B in FY2030; HLT-7 plan spending $704B in FY2031 to about $5.7T in FY2040; HX $53B in FY2031 to $987B in FY2039 (shapes); HLT-9 net $190B in FY2035 to $445B in FY2040; FAM-2 $42B in FY2031 to $243B in FY2040 (care shapes) ($B a year)
+- **Value:** CAP-7S 70-120 a year FY2030-35; CX -18 to -73; MR6 -2 to -27 (shape); MOV-29 $23-63B a year FY2030-35, MOV-30 $17-41B in FY2030-31 and FY2035-36; HLT-1 $64B in FY2030; HLT-7 plan spending $704B in FY2031 to about $5.7T in FY2040; HX $53B in FY2031 to $987B in FY2039 (shapes); HLT-9 net $190B in FY2035 to $445B in FY2040; FAM-2 $42B in FY2031 to $243B in FY2040 (care shapes) ($B a year)
 - **How much it matters:** medium: CAP-7S is about $0.6T and its FY2029 cash is unpriced
 - **Where:** models/data/inputs/fiscal-years.csv; models/tools/fiscal-model.py:79-85
-- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26); MR6: transportation model (moving_america.py); health rows: care dossier's path (models/tools/health_booking.py); care rows: care dossier's parts B-D path (models/tools/care_booking.py)
+- **Source:** CAP-7S: interim cash proxy (D9); CX: carbon model (build/carbon.json, Oct 26); MR6, MOV-29, MOV-30: transportation model (moving_america.py; the acts' package and top-up years, test_fiscal_counting.py); health rows: care dossier's path (models/tools/health_booking.py); care rows: care dossier's parts B-D path (models/tools/care_booking.py)
 - **Decided by:** unrecorded
 - **Notes:** CAP-7S is "interim cash proxy only" per its own note.
+
+### ASM-EXCISE-OFFSET
+
+The income and payroll tax offset on new excise taxes and fees (CX, CXP, MR6) is JCT's rate under current law: 24.4%.
+
+- **Value:** 0.244 in every year until JCT publishes a current-law table; then JCT's yearly figures (share of gross receipts)
+- **How much it matters:** low: about $0.018T more net revenue over FY2030-39 (CX $0.476T instead of $0.49T, MR6 $0.1253T instead of $0.1283T, CXP $0.0251T instead of $0.0257T)
+- **Where:** models/data/inputs/excise-offset.csv; models/tools/inputs.py offset_rate; models/data/inputs/ledger-revenue.csv (CX, CXP); models/tools/ledger-build.py (MR6); models/tools/climate-integration.py (CXP)
+- **Source:** JCT, JCX-10-25 (SRC-2457), 2025: 0.244; JCX-9-24 (SRC-2458) and JCX-2-23 (SRC-2459): 0.242-0.246 in 2023-25. JCT's 2026-35 figures, about 0.26, assumed the 2017 tax rules would expire, which P.L. 119-21 undid. CBO books the offset on-budget (SRC-2453)
+- **Decided by:** Espen, DEC-2026-11-12-08 (board 0q, part 4, option A)
+- **Notes:** Two figures stay at 25%: the transportation model's own act-level net revenue (Draft 2's MOV29_OWN and MOV30_OWN, trust-fund figures), and the hash-pinned climate pricing export's O5 accounts (its general-fund net cost and process-dividend diversion), which differ from the booked CXP by about $0.6B over FY2030-39 until the export is next rebuilt. Until DEC-2026-11-12-08 the rate was a round 25%.
 
 ### ASM-PROF-COMPONENTS
 
