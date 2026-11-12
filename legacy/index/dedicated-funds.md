@@ -54,7 +54,7 @@ Rates are the 2026 Trustees' HI cost and income rates for every year they publis
 
 The contribution starts at 0.60% of covered payroll in 2030 (Trustees' taxable payroll used as the base, estimate) and benefits start in 2031, ramping over 2 years. Benefit cost is set so 2030-39 benefits match the ledger's FAM-3 range ($0.6T / $0.9T / $1.4T). The rule: when the reserve is below 1 year of next year's benefits the rate steps up 0.05 points the next January, to 1.10%; above 1.5 years it steps back down; a shortfall at the cap is a Treasury loan repaid with interest.
 
-**Check:** at 0.60% the contribution raises $0.97T in 2030-39 (ledger P1: $0.90T) and $1.78T at the cap (ledger: $1.28T).
+**Check:** at 0.60% the contribution raises $0.97T in 2030-39 (ledger P1: $0.90T) and $1.78T at the 1.10% cap (the ledger's high end, $1.28T, was set at the old 0.85% cap).
 
 | Take-up case | Mature cost (% of payroll) | First step-up | Rate 2035 / 2039 / 2050 | Receipts 2030-39 | Benefits 2030-39 | Treasury loan owed 2039 / 2050 ($B) |
 | --- | --- | --- | --- | --- | --- | --- |

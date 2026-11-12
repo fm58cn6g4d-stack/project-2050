@@ -85,7 +85,7 @@
     "build/fiscal-model.json": "be52a96a99fcb427858c1262b43edd0fb6eaab104ede9a374d500dda1d5b2d22",
     "build/ledger.json": "988d1564a6198eadce8ff656353881d9efaf3383614a009469bfab9e93d74c12",
     "models/tools/fiscal-profiles.py": "0b7a69e28a94e25c87dbc5d3a4adb4471aadeccbcee4dff4e7dc53dd6fc3b2f9",
-    "models/tools/funds-model.py": "56e6bf2603845184f5444a622e654c2a378bf2effba107815e45f86d7863fa83",
+    "models/tools/funds-model.py": "ef2ca523c7e83bdfa5187cb910bc6140f5b059351f11d32e1862b560b8ac0e07",
     "legacy/sources/education-transforming-education-act-analysis-and-trust-fund.md": "650339290894199f44c0450abfc89292fb9537810baf5aed5f0ce5fbd914625c",
     "models/data/inputs/funds-hi-rates.csv": "2255534360d5f7ef1edbc72078f92fd50d9ee3103fc55c20edd3c7f050c4e776",
     "models/data/inputs/funds-parameters.csv": "a482588a1399bad1db85a12ea479fcacfbad9c6e6fee382c542fbbf912126990",
