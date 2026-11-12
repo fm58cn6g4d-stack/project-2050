@@ -1,6 +1,6 @@
 # A secure floor for every household: delivery
 
-Role: section 5 of the secure floor dossier. It says who runs each provision of `4-specification.md`, what capacity it needs, the timeline from enactment to full operation, how people get remedies, what states do, and how the floor reaches rural places. Status: draft (stage D, board row S4, PR 1), on `DEC-2026-11-12-06`. Dates are the decided ones; where a step's date is a working choice, it says so. What the IRS and SSA need is stated here for shared rule 5's owner, the democratic renewal foundation, which decides who verifies and answers for mistakes plan-wide.
+Role: section 5 of the secure floor dossier. It says who runs each provision of `4-specification.md`, what capacity it needs, the timeline from enactment to full operation, how people get remedies, what states do, and how the floor reaches rural places. Status: reviewed (L2, milestone review `review-milestone.md`, #298; L3 after its fix steps and re-check), on `DEC-2026-11-12-06`. Dates are the decided ones; where a step's date is a working choice, it says so. What the IRS and SSA need is stated here for shared rule 5's owner, the democratic renewal foundation, which decides who verifies and answers for mistakes plan-wide.
 
 ## 1. Who runs what
 
@@ -46,7 +46,7 @@ Role: section 5 of the secure floor dossier. It says who runs each provision of 
 | By July 2030 | First monthly child benefit payments (FAM-1.07), for families on the 2029 return and those enrolled from records; notices to confirm; the front doors open | IRS; SSA; USDA |
 | Mid-2030 | Paid leave applications open | SSA |
 | Spring 2030 | The Social Security Solvency and Protection Act of 2030 enacted (D8's plan), with SS-11's rule effective on enactment | Congress |
-| January 2031 | Paid leave benefits; SS-1, SS-2 and SS-5 revenue; the minimum benefit; job restoration in force | SSA; Treasury; Labor |
+| January 2031 | SSI in Puerto Rico, Guam, the Virgin Islands and American Samoa (INC-3.03), AABD's caseload converted from records; paid leave benefits; SS-1, SS-2 and SS-5 revenue; the minimum benefit; job restoration in force | SSA; Treasury; Labor |
 | Filing season 2031 | The childless credit and the refundable dependent care credit for tax year 2030; the first child benefit reconciliation, with the safe harbor | IRS |
 | December 2031 | The first cost-of-living adjustment on CPI-E | SSA |
 | 2031 | The single plan's enrollment joins the matching (FAM-1.08) | IRS; CMS |
@@ -60,7 +60,7 @@ Role: section 5 of the secure floor dossier. It says who runs each provision of 
 
 ## 4. Remedies
 
-- **The child benefit.** A notice states what the records show, the amount, the payee and how to correct it. A correction at a front door takes effect the next month. A payee dispute goes to a short IRS administrative review with a decision within 60 days (working choice); payment continues to the current payee meanwhile. Appeal to the IRS Independent Office of Appeals and the Tax Court as for any credit. The safe harbor (FAM-1.06) means a low-income family's mistake never becomes a debt.
+- **The child benefit.** A notice states what the records show, the amount, the payee and how to correct it. A correction at a front door takes effect the next month. A payee dispute goes to a short IRS administrative review with a decision within 60 days (working choice); payment continues to the current payee meanwhile. Appeal to the IRS Independent Office of Appeals and the Tax Court as for any credit. The safe harbor (FAM-1.06) means a low-income family's mistake never becomes a debt, and no payment is taken for an old one (FAM-1.07).
 - **The credits.** As today, through the return and the Taxpayer Advocate.
 - **SNAP and SSI.** Their existing fair hearings.
 - **LAB-10.** Notice, appeal and accessible help, as the legacy rules set [EV-SEC-698]; declining or leaving never costs a benefit (LAB-10.04).
@@ -73,7 +73,7 @@ Role: section 5 of the secure floor dossier. It says who runs each provision of 
 - **SNAP.** States run it as today, with the 2025 law's added duties and cost share removed (INC-2.01).
 - **Paid leave.** States that do as well keep their programs, file for the federal contribution and report (FAM-3.06). The thirteen state programs [EV-SEC-309] each decide whether to stay or join.
 - **LAB-10.** State workforce boards run the on-ramps; states coordinate child care for the hours the guarantee misses with their child care agencies (care's guarantee is state-run, `DEC-2026-11-11-03`).
-- **The territories.** The child benefit runs through the possessions' coordination rules (`4-specification.md`, "Where particular groups fall").
+- **The territories.** The IRS pays Puerto Rico's families directly; the other territories pay under Treasury-approved monthly plans with full federal reimbursement, and the IRS pays where no plan is approved (`4-specification.md`, "Where particular groups fall"). SNAP's and SSI's changes reach only where those programs run: Guam and the Virgin Islands for SNAP [EV-SEC-704]; SSI runs in the Northern Mariana Islands today [EV-SEC-703] and in all five territories from January 2031 (INC-3.03), with SSA taking over from the territories' AABD offices.
 - **No new state matching cost** anywhere in the set.
 
 ## 6. Rural delivery

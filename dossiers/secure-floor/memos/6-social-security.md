@@ -4,6 +4,8 @@ Role: decision memo for Espen, fork 8 of the secure floor (`../README.md`, "Fork
 
 **Decision line.** Recommended: **part 1 C, the D8 package with SS-5, closed with a partial investment of the reserves in a broad stock index (SS-8), and a broad one-point rate rise (SS-7) named as the fallback; part 2, a minimum benefit at 125% of poverty (yes), CPI-E for the cost-of-living adjustment (yes) and a caregiver earnings credit for up to five years that tops up actual earnings, paid care hours counting as earnings (yes, pending SSA's score); part 3, pay full benefits on time if depletion arrives before the law (yes).** Cost: trust-fund effects of about **+4.2 to +4.7% of payroll from part 1 against a 4.42% gap, and about −0.5 to −0.6 from part 2** (legacy estimates on SSA's 2026 single-provision scores; no whole-package score exists). Evidence: SSA's actuaries for the pieces; official data on what Social Security does.
 
+*Corrected after the decision (milestone review, `../review-milestone.md`, C-1 and O-1):* part 1's and part 2's figures above counted SS-3 and SS-4 twice, and SS-8's legacy estimate is far above what its 20% share yields. The package is about +3.6 to +3.8 before the fallback, and SS-7.01's one point is the expected closer (`../6-cost.md`, part 4). The decision stands; the text below is the memo as decided.
+
 **This memo decides how the plan closes Social Security's gap and which benefit improvements it carries.** Revenue pieces SS-1, SS-2 and SS-5 are Social Security's own financing; the financing settlement weighs them with the plan's other taxes.
 
 ## The question

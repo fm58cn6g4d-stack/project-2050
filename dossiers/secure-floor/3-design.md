@@ -80,7 +80,7 @@ Federal cost against the January 2029 law, in nominal dollars, over FY2030-39 an
 | 3, part 2 | B, SNAP restored, SSI's limits | about $0.21-0.26 trillion | about $27-33 billion | General fund | No | CBO's $187 billion of SNAP savings FY2025-34 [EV-SEC-035]; SSA's actuaries $8.9 billion for SSI's limits [EV-SEC-630] |
 | 4 | B, paid on-ramps | $0.10 trillion | about $11-12 billion | General fund | Yes, LAB-10 at $0.1 trillion (recovery adoption) | Program costs $6,400-27,158 a person [EV-SEC-635] [EV-SEC-636] [EV-SEC-637] |
 | 5 | B, paid leave | about $0.9 trillion of benefits (0.6-1.4) | about $130 billion (90-200) | Leave fund; the general fund bears the income-tax offset and any loan | Yes, FAM-3, at the old 0.85% cap in its inputs | Urban 0.46% of taxable earnings [EV-SEC-660]; CBO and JCT $547 billion for the 2019 bill [EV-SEC-344]; FY2025 budget $325 billion [EV-SEC-350] |
-| 6 | Part 1 C; part 2 | Trust fund: part 1 about +4.2 to +4.7% of payroll; part 2 about −0.5 to −0.6 | — | Social Security's own revenue | Yes, SS-1 net | SSA's 2026 single-provision scores [EV-SEC-447] to [EV-SEC-455]; no package score [EV-SEC-477] |
+| 6 | Part 1 C; part 2 | Trust fund: part 1 about +4.2 to +4.7% of payroll; part 2 about −0.5 to −0.6 (as decided; corrected to about +3.6 to +3.8 before the fallback, `6-cost.md`, part 4) | — | Social Security's own revenue | Yes, SS-1 net | SSA's 2026 single-provision scores [EV-SEC-447] to [EV-SEC-455]; no package score [EV-SEC-477] |
 | 7 | Part 1 B; part 2 B | about $0.01-0.03 trillion of forgone offsets | about $1-3 billion | General fund (housing, SNAP) | No | — |
 | Point 7 | Refundable dependent care credit | about $0.03-0.06 trillion | about $3-6 billion | General fund | No | CRFB $90 billion over ten years for the broader 2021 expansion [EV-SEC-611] |
 
@@ -226,7 +226,7 @@ From `dossiers/shared-rules.md`. Rules 1, 2 and 4 are this dossier's; the others
 | 5. Who verifies and pays | Democratic renewal | Memo 2 B states the IRS's and SSA's needs | — |
 | 6. Conditions on help | Work flagship | No benefit in the set carries a work condition (memo 4) | — |
 
-**Proposed notes**, for Espen with memo 7: rule 1, "The floor's cash payments that do not replace wages are not income or resources for any federal or federally funded program; wage-replacement benefits count as wages would." Rule 2, "The combined rate for typical families stays at or below 65 cents per added dollar, outside housing's rent rule; no plan benefit adds a phase-out below 200% of poverty; the household model reports yearly."
+**The notes, as decided** (memo 7, `DEC-2026-11-12-06`): rule 1, "The floor's cash payments that do not replace wages are not income or resources for any federal or federally funded program; wage-replacement benefits count as wages would." Rule 2, "The combined rate for typical families stays at or below 65 cents per added dollar, outside housing's rent rule; no plan benefit adds a phase-out below 200% of poverty beyond the childless earned income credit's (INC-1.01), which memo 7 counted; the household model reports yearly."
 
 ## Seams with other dossiers (named, not settled)
 
@@ -262,4 +262,4 @@ From `dossiers/shared-rules.md`. Rules 1, 2 and 4 are this dossier's; the others
 
 ## Questions for Espen
 
-Question 0o is answered (`DEC-2026-11-12-06`). The one question the specification raised, the $500 credit for other dependents, is decided too (`DEC-2026-11-12-09`: it ends with the bill, for now).
+Question 0o is answered (`DEC-2026-11-12-06`). The one question the specification raised, the $500 credit for other dependents, is decided too (`DEC-2026-11-12-09`: it ends with the bill, for now). Espen answered the milestone review's questions (`review-milestone.md`, #298; Espen, November 12, lead session): memo 6 C stays as decided, with SS-7.01's one point written as the expected closer (`6-cost.md`, part 4); the leave fund's contribution steps 0.10 points a year instead of 0.05 (the lead's booking changes the input); and SSI is extended to Puerto Rico, Guam, the U.S. Virgin Islands and American Samoa (INC-3.03). The decision entries come with the booking PR.
