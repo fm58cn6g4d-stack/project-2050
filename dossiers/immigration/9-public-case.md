@@ -13,7 +13,7 @@ Project 2050's immigration plan does five things.
 **Earned legal status for people who have built their lives here,** from late 2030.
 - People who have lived here ten years or more get a green card, after fingerprints and a criminal check.
 - So do Dreamers, anyone who has held temporary protection or DACA, and farm, care and construction workers with a work history.
-- Everyone else here on the day the law is signed can register, work legally and be protected from deportation while they reach ten years.
+- Everyone else here before the law's cutoff date (we propose the day it is signed) can register, work legally and be protected from deportation while they reach ten years.
 - Proof of residence comes from tax and earnings records the government already holds. There is no penalty, and no fee for families below twice the poverty line.
 
 **A legal system that works,** from 2030-31.
@@ -49,7 +49,7 @@ Millions of people have lived here for decades, raising American children and do
 ## Messages
 
 1. **Earned, not given.** Ten years here, fingerprints and a criminal check. People with serious crimes are barred [EV-IMM-623].
-2. **Order the country can see.** One cutoff, the day the law is signed; checks at work; decisions in months; a surge met with capacity.
+2. **Order the country can see.** One cutoff, set by the law (we propose the day it is signed); checks at work; decisions in months; a surge met with capacity.
 3. **Government that already knows you.** Tax and earnings records prove residence, so no one hunts for twenty years of rent receipts [EV-IMM-639].
 4. **Families first.** 5.3 million citizen children have a parent who would gain status [EV-IMM-007].
 5. **Workers the plan needs.** Care and construction depend on immigrant workers [EV-CAR-614] [EV-HOU-055]; the plan keeps them here and pays them the plan's wage floors.
@@ -58,7 +58,7 @@ Millions of people have lived here for decades, raising American children and do
 ## Hard questions, plain answers
 
 - **"Isn't this amnesty?"** It is earned status: ten years' residence, fingerprints and a criminal check, under the registry already in immigration law, whose date has been stuck at 1972 since 1986 [EV-IMM-590] [EV-IMM-591].
-- **"Won't it bring more people?"** No one who arrives after the law is signed can register. After the 1986 legalization, long-run unauthorized inflows from Mexico did not change (Orrenius and Zavodny) [EV-IMM-233].
+- **"Won't it bring more people?"** No one who arrives after the law's cutoff can register; we propose the day it is signed. After the 1986 legalization, long-run unauthorized inflows from Mexico did not change (Orrenius and Zavodny) [EV-IMM-233].
 - **"What does it cost?"** About $0.12 trillion over ten years on our estimates. Outside scores of similar bills also find a small first-decade cost (CBO, 2021) [EV-IMM-600], and Social Security's funds gain.
 - **"Will E-Verify flag me by mistake?"** In the government's last full study, 0.2% of citizens were wrongly flagged at first (Westat for USCIS, FY2009) [EV-IMM-391]. Under this plan you get ten days to fix it, you can't be fired meanwhile, the government must answer in ten days or you are confirmed, and lost wages are paid.
 - **"Does replacing ICE mean no enforcement?"** No. A new agency enforces the law, focused on security, serious crime and recent unlawful entry, under rules in statute. Criminal investigators get their own agency.
@@ -79,6 +79,7 @@ Millions of people have lived here for decades, raising American children and do
 | A green card for people with ten years here, after a check | That everyone will apply: we assume about 70% |
 | About $0.12 trillion over ten years, on our estimates | That legalization "pays for itself" on the federal budget: on our estimates it is a small cost; Social Security gains |
 | E-Verify no earlier than October 2032, at least a year after legal status is running | A fixed E-Verify date: it depends on a published test (and on Espen's answer) |
+| A cutoff for registration set by the law | That the cutoff is the signing day: it is proposed, pending Espen's answer |
 | No more than 30,000 people detained on average | That detention costs will fall by a set amount: against CBO's baseline it is about zero, on our estimates about +$1 billion over ten years |
 | Decisions on asylum in about six months; in a surge about 90 days | That surges will not happen |
 | Wall money goes to border security that agents recommend | A dollar figure: the unspent balance in mid-2029 is not known |
