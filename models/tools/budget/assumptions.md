@@ -749,13 +749,13 @@ CPI-E runs about 0.15 points a year above CPI-W (SS-4).
 
 ### ASM-FUND-LEAVE
 
-Paid-leave fund (FAM-3A): 0.6% of covered wages to start, steps of 0.05 up to 0.85, keeping one to one and a half years of benefits in reserve; shortfalls are a Treasury loan.
+Paid-leave fund (FAM-3A): 0.6% of covered wages to start, steps of 0.05 up to a 1.10% ceiling, keeping one to one and a half years of benefits in reserve; shortfalls are a Treasury loan.
 
-- **Value:** 0.6 / 0.05 / 0.85; 1 and 1.5 years; ramp 0.5, 0.8 (% of wages; years)
+- **Value:** 0.6 / 0.05 / 1.1; 1 and 1.5 years; ramp 0.5, 0.8 (% of wages; years)
 - **How much it matters:** medium: decides whether FAM-3 stays self-funded (it counts zero on the unified budget)
 - **Where:** models/data/inputs/funds-parameters.csv:7-12; models/tools/funds-model.py:205-226
-- **Source:** Proposal (FAM-3A); cap is JCT's break-even at FMLA take-up
-- **Decided by:** unrecorded
+- **Source:** Proposal (FAM-3A); ceiling 1.10 points (Espen, Oct 26: legacy/governing/project-2050-governing-decisions.md, "Recovery and Solvency recommendations approved"), was JCT's 0.85% break-even at FMLA take-up
+- **Decided by:** Espen (ceiling, Oct 26); the start rate and steps unrecorded
 
 ### ASM-FUND-CARBON
 
