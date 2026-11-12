@@ -8,7 +8,7 @@ compares it with the committed page. Status: current. Standard library only.
 
   python3 models/tools/budget/provisions_report.py [--ledger build/ledger.json] [--out PATH]
 """
-import argparse, os, sys
+import argparse, importlib.util, os, sys
 from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -49,6 +49,17 @@ def table(head, body):
 def ids(xs):
     xs = list(xs)
     return ", ".join(xs) if xs else "none"
+
+
+RAIL_ORDER = ("R1", "R2", "R3")
+
+
+def fiscal_model():
+    """fiscal-model.py, for its scenario lists (read, not changed)."""
+    sp = importlib.util.spec_from_file_location("fiscal_model_report", os.path.join(ROOT, "models", "tools", "fiscal-model.py"))
+    m = importlib.util.module_from_spec(sp)
+    sp.loader.exec_module(m)
+    return m
 
 
 def render(ledger_path):
@@ -151,6 +162,35 @@ def render(ledger_path):
         c = Counter(s[f] for s in scored + comps)
         body.append(["`%s`" % f, c["stated"], c["model"], ids(s["id"] for s in scored + comps if s[f] == "stated")])
     o += table(["Field", "Stated", "Model only", "Stated for"], body)
+    o.append("")
+    # each bill in its own CBO window (budget choice 3)
+    BW = P.bill_windows(SC, ledger_path)
+    o.append("## Each bill in its own CBO window")
+    o.append("")
+    o.append("Budget choice 3 (DEC-2026-11-08-05, `ASM-BILL-WINDOW`): plan totals and the D4 tests keep the common FY2030-39 window, and each bill is also scored over its own CBO window, its budget resolution's year plus nine, from the same annual series, so the two always reconcile. R1 runs under the FY2029 resolution (FY2029-38), R2 under FY2030 (FY2030-39) and R3 under FY2031 (FY2031-40); a regular-order bill or an appropriation starts in the fiscal year of its ledger target date. Unified basis, in billions, a deficit effect (costs positive). As in CBO's scores, there is no interest on the bill's own borrowing; the debt path and the guardrails keep counting it. Revenue rows and options are not assigned to a bill in the ledger, so they are shown on both windows below rather than inside any bill. FY2029 counts only the priced FY2029 line (`fiscal-fy2029.csv`); rows marked *unpriced* have FY2029 effects not yet in any figure.")
+    o.append("")
+    body = []
+    for rail in ("R1", "R2", "R3", "FLOOR", "APPROPS"):
+        ws = {i: w for i, w in BW.items() if w["rail"] == rail}
+        if not ws:
+            continue
+        firsts = sorted({w["first"] for w in ws.values()})
+        body.append([rail, len(ws), ", ".join("FY%d-%d" % (f, f + 9) for f in firsts), "%.0f" % sum(w["window"] for w in ws.values()),
+                     "%.0f" % sum(w["out_years"] for w in ws.values()), ids(i for i, w in ws.items() if w["fy2029"] == "unpriced") or "none"])
+    o += table(["Vehicle", "Bills", "Window", "Over its window ($B)", "Ten years after it ($B)", "FY2029 unpriced"], body)
+    o.append("")
+    rec = [(i, w) for i, w in BW.items() if w["rail"] in RAIL_ORDER]
+    rec.sort(key=lambda t: (RAIL_ORDER.index(t[1]["rail"]), t[0]))
+    o.append("The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill from adding to deficits in the years after its window; the last column is where that test looks, for the bill's spending rows alone (its revenue is not assigned to it in the ledger, so a bill's net out-year effect is not yet known):")
+    o.append("")
+    o += table(["Row", "Vehicle", "Window", "Over its window ($B)", "Ten years after it ($B)"],
+               [[i, w["rail"], "FY%d-%d" % (w["first"], w["first"] + 9), "%.1f" % w["window"], "%.1f" % w["out_years"] + (" (FY2029 unpriced)" if w["fy2029"] == "unpriced" else "")] for i, w in rec])
+    o.append("")
+    dec_opts = set(fiscal_model().DEC)
+    unassigned = [i for i in SC if i not in BW and i != "DYN" and (S[i]["table"] != "option" or i in dec_opts)]
+    sw = lambda y0: sum(SC[i]["unified"].get(y, 0.0) for i in unassigned for y in range(y0, y0 + 10))
+    o.append("Not assigned to a bill, in the decided program (scenario DEC): %d rows (base revenue, the decided options and later-Congress bills: %s), a deficit effect of %+.2f trillion dollars over FY2029-38 and %+.2f trillion over FY2030-39 (negative: revenue and savings). The declined options are left out." % (
+        len(unassigned), ids(unassigned), sw(2029) / 1000, sw(2030) / 1000))
     o.append("")
     o.append("## Where the files disagree")
     o.append("")

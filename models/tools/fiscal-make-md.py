@@ -148,6 +148,21 @@ def main():
     w("- The fiscal gap (scenario table) is the reported sustainability track.")
     w("")
 
+    # ---- FY2029, disclosed (budget choice 3) ----
+    F = M["fy2029"]; d29 = R["DEC+FY29"]["years"]; d0 = R["DEC"]["years"]
+    w("## FY2029, disclosed (budget choice 3)")
+    w("")
+    priced = ", ".join(f"{i} ${f(v,1)}B" for i, v in F["priced"].items()) or "none"
+    w(f"Plan totals and the D4 tests keep FY2030-39 (DEC-2026-11-08-05). FY2029 is priced as a separate line, read on the debt path as scenario DEC+FY29 (models/data/inputs/fiscal-fy2029.csv, ASM-FY2029-LINE). Priced: {priced}. Unpriced, not zero: {', '.join(F['unpriced']) or 'none'}; the file says why for each.")
+    w("")
+    w("| | FY2029 | FY2030 | FY2039 | FY2056 |")
+    w("| --- | --- | --- | --- | --- |")
+    w(f"| Program primary deficit, DEC+FY29 less DEC ($B) | {f(d29['2029']['prog_primary']-d0['2029']['prog_primary'],1)} | {f(d29['2030']['prog_primary']-d0['2030']['prog_primary'],1)} | {f(d29['2039']['prog_primary']-d0['2039']['prog_primary'],1)} | {f(d29['2056']['prog_primary']-d0['2056']['prog_primary'],1)} |")
+    w(f"| Program debt, DEC+FY29 less DEC ($B) | {f(d29['2029']['prog_debt']-d0['2029']['prog_debt'],1)} | {f(d29['2030']['prog_debt']-d0['2030']['prog_debt'],1)} | {f(d29['2039']['prog_debt']-d0['2039']['prog_debt'],1)} | {f(d29['2056']['prog_debt']-d0['2056']['prog_debt'],1)} |")
+    w("")
+    w("Each bill's score over its own CBO window (R1 under the FY2029 resolution is FY2029-38) is in models/tools/budget/provisions.md, from the same annual series.")
+    w("")
+
     # ---- composition ----
     w("## All of government with the decided program, % of GDP")
     w("")

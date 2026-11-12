@@ -42,6 +42,7 @@ SCENARIOS = [
     ("DEC-R1", "Decided, with interest rates 1 point higher from 2030, phased in as debt rolls over", DEC, {"rate_shift": 1.0}),
     ("BASE-R1", "Baseline with interest rates 1 point higher from 2030, phased in as debt rolls over", None, {"rate_shift": 1.0}),
     ("DEC+TRIMS", "Decided plus the five trims declined in Decision Brief 2 (reference only)", DEC + TRIMS, {}),
+    ("DEC+FY29", "Decided, with the priced FY2029 line on the debt path (disclosure; FY2029 rows still unpriced are listed)", DEC, {"fy2029": True}),
 ]
 
 
@@ -137,6 +138,35 @@ def debt_roll(B, primary, shift=0.0, start_balance=0.0, start_year=Y0):
     return I, D
 
 
+def read_fy2029(path=None):
+    """FY2029 amounts (budget choice 3, DEC-2026-11-08-05; ASM-FY2029-LINE): {id: row}. A priced
+    row adds fy2029_bn to the program's FY2029 deficit; shift_from_2030 takes the same amount out
+    of FY2030, so the row's lifetime is unchanged. Unpriced rows carry no number (unpriced, not
+    zero) and are listed in the output."""
+    out = {}
+    with open(path or data_path("inputs", "fiscal-fy2029.csv")) as f:
+        for r in csv.DictReader(f):
+            if r["status"] not in ("priced", "unpriced") or r["treatment"] not in ("added", "shift_from_2030"):
+                raise ValueError("fiscal-fy2029.csv: bad status or treatment for " + r["id"])
+            if (r["status"] == "priced") != bool(r["fy2029_bn"].strip()):
+                raise ValueError("fiscal-fy2029.csv: a priced row needs an amount and an unpriced row none: " + r["id"])
+            r["fy2029_bn"] = float(r["fy2029_bn"]) if r["fy2029_bn"].strip() else None
+            out[r["id"]] = r
+    return out
+
+
+def fy2029_line(F29):
+    """{year: billions} added to the program's deficit by the priced FY2029 rows."""
+    d = {}
+    for r in F29.values():
+        if r["status"] != "priced":
+            continue
+        d[2029] = d.get(2029, 0.0) + r["fy2029_bn"]
+        if r["treatment"] == "shift_from_2030":
+            d[2030] = d.get(2030, 0.0) - r["fy2029_bn"]
+    return d
+
+
 def build(ledger_path, baseline_path):
     L = json.load(open(ledger_path))
     B = read_baseline(baseline_path)
@@ -212,6 +242,13 @@ def build(ledger_path, baseline_path):
             o = out[y]; o["deficit"] = o["prim_out"] + o["interest"] - o["rev"]; o["primary_deficit"] = o["prim_out"] - o["rev"]
         return out
 
+    # ---- the FY2029 line (disclosure: scenario DEC+FY29) ----
+    F29 = read_fy2029()
+    unknown = sorted(set(F29) - set(bills) - set(rev))
+    if unknown:
+        raise ValueError("fiscal-fy2029.csv: rows not in the ledger: %s" % unknown)
+    line29 = fy2029_line(F29)
+
     # ---- scenarios ----
     results = {}
     for sid, label, opts, cfg in SCENARIOS:
@@ -226,6 +263,8 @@ def build(ledger_path, baseline_path):
             prog_gf = {y: sum(r["gf"][y] for r in use) for y in range(Y0, Y1 + 1)}
             if cfg.get("dynamic"):
                 for y in prog_uni: prog_uni[y] += dyn[y]; prog_gf[y] += dyn[y]
+            if cfg.get("fy2029"):
+                for y, v in line29.items(): prog_uni[y] += v; prog_gf[y] += v
             if cfg.get("envelope"):
                 env = {y: cfg["envelope"] / 100 * (1.0 if y <= 2034 else max(0.0, (2040 - y) / 6)) * B[y]["gdp"] for y in range(W0, 2041)}
                 scale = 1.0
@@ -313,7 +352,10 @@ def build(ledger_path, baseline_path):
         return c
     composition = {sid: {y: comp(sid, y) for y in (2026, 2034, 2039, 2045, 2056)} for sid in ("BASE", "DEC")}
 
-    return dict(results=results, rows=rows, opt_rows=opt_rows, dyn=dyn, checks=checks, composition=composition, B=B, ledger_summary=L["summary"])
+    fy2029 = dict(line=line29, priced={i: r["fy2029_bn"] for i, r in F29.items() if r["status"] == "priced"},
+                  unpriced=sorted(i for i, r in F29.items() if r["status"] == "unpriced"))
+    return dict(results=results, rows=rows, opt_rows=opt_rows, dyn=dyn, checks=checks, composition=composition, B=B,
+                ledger_summary=L["summary"], fy2029=fy2029)
 
 
 def data_path(*parts):

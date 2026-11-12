@@ -555,6 +555,62 @@ def window_total(path):
     return sum(path[y] for y in range(W0, W1 + 1)) / 1000
 
 
+# ---------------------------------------------------------------- each bill in its own CBO window
+
+# Budget choice 3 (DEC-2026-11-08-05; ASM-BILL-WINDOW): each bill is also scored over its own CBO
+# window, its budget resolution's year plus nine. The reconciliation bills' resolutions are the
+# ledger's rail names; a regular-order bill or an appropriation is scored from the fiscal year its
+# ledger target date falls in. Later-Congress rows (T2, LATER) have no window yet.
+RAIL_FIRST_YEAR = {"R1": 2029, "R2": 2030, "R3": 2031}
+SEASON_MONTH = {"spring": 4, "summer": 7, "fall": 10, "autumn": 10, "winter": 1}   # ledger targets like "2029-summer"
+FY2029_FILE = os.path.join(ROOT, "models", "data", "inputs", "fiscal-fy2029.csv")
+
+
+def fy2029_rows(path=FY2029_FILE):
+    """{id: (amount or None, treatment)} from fiscal-fy2029.csv (the FY2029 line, ASM-FY2029-LINE)."""
+    with open(path) as f:
+        return {r["id"]: (float(r["fy2029_bn"]) if r["fy2029_bn"].strip() else None, r["treatment"]) for r in csv.DictReader(f)}
+
+
+def first_year(bill):
+    """A bill's first CBO window year, or None for a later Congress."""
+    if bill["rail"] in RAIL_FIRST_YEAR:
+        return RAIL_FIRST_YEAR[bill["rail"]]
+    if bill["rail"] in ("FLOOR", "APPROPS"):
+        y, m = bill["target"].split("-")[:2]
+        m = SEASON_MONTH.get(m) or int(m)
+        return int(y) + 1 if m >= 10 else int(y)
+    return None
+
+
+def bill_windows(scores, ledger_path, fy2029=None):
+    """Each bill's deficit effect over its own CBO window (unified basis, $B, no interest on the
+    bill's own borrowing, as CBO scores leave it out), from the same annual series as every
+    other reading, with the priced FY2029 line added where the window reaches FY2029. Returns
+    {id: dict(rail, first, window, out_years, fy2029)}: window is the ten-year sum; out_years
+    the sum of the ten years after it (the Byrd rule's out-year test looks there); fy2029
+    'priced', 'unpriced' or ''."""
+    L = json.load(open(ledger_path))
+    F = fy2029_rows() if fy2029 is None else fy2029
+    out = {}
+    for b in L["bills"]:
+        sc = scores.get(b["id"])
+        y0 = first_year(b)
+        if sc is None or y0 is None:
+            continue
+        path = dict(sc["unified"])
+        amt, treat = F.get(b["id"], (None, ""))
+        if amt is not None:
+            path[2029] = path.get(2029, 0.0) + amt
+            if treat == "shift_from_2030":
+                path[2030] -= amt
+        win = range(y0, y0 + 10)
+        out[b["id"]] = dict(rail=b["rail"], first=y0, window=sum(path.get(y, 0.0) for y in win),
+                            out_years=sum(path.get(y, 0.0) for y in range(y0 + 10, min(y0 + 20, Y1 + 1))),
+                            fy2029="" if b["id"] not in F else ("priced" if amt is not None else "unpriced"))
+    return out
+
+
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser(description="Score every provision spec and print FY2030-39 totals.")

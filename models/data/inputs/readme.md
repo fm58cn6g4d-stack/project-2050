@@ -42,6 +42,8 @@ The scenario lists (incidence `SCEN`, fiscal `SCENARIOS`) and the accounting rul
 
 ## Surge availability and cash
 
+`fiscal-fy2029.csv` is the FY2029 line of budget choice 3 (DEC-2026-11-08-05, `ASM-FY2029-LINE`): one row per ledger row with an FY2029 effect, priced (an amount, added or shifted from FY2030) or unpriced (no amount). The fiscal model reads it only for the disclosed scenario DEC+FY29; the adopted path (DEC) and the D4 tests keep FY2030-39. CAP-7S's row prices the October 26 planning figure ($5B moved from FY2030); `capacity-funding.csv` below still records the adopted path's FY2029 cash as unpriced.
+
 `capacity-funding.csv` records the approved immediate multi-year availability of CAP-7S (R1 target FY2029), separately from `fiscal-years.csv` cash outlays. Blank FY2029 cash means unpriced, not zero. A priced update needs a reconciled lifetime amount, revised 2030-39 window and C42, and debt/interest/envelope rerun; the diagnostic deliberately rejects an unreconciled number.
 
 The hand-written CMS administrative-cost work register is `legacy/sources/health-cms-implementation-cost-register.csv`, not a scored input table. Its blanks must never become zero-cost rows.
