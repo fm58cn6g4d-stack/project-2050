@@ -2,17 +2,18 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6): who is working, what is in motion, where each dossier stands, what comes next, known gaps and open questions for Espen. Only the lead edits it, folding in the "For the board" notes from workers' PRs (`DEC-2026-11-12-03`). Status: current. It holds no history: finished work is in Git and the PRs, decisions are in `charter/decisions.md`, and rules are in `charter/STANDARDS.md`.
 
-Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
+Updated November 12, 2026 (about 22:20 UTC) by the lead, session_01UQzgBwNea5uYV7BMBRB3Ha.
 
 ## Standing sessions
 
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
-| Lead | `session_01UQzgBuYpTa4haagP5TUTko` | Project 2050: lead | November 12, about 17:47 UTC |
+| Lead | `session_01UQzgBwNea5uYV7BMBRB3Ha` | Project 2050: lead | November 12, about 22:01 UTC |
 | Reviewer | `session_01UQzgBxJre9xhzNQVtr5prW` | Project 2050: reviewer | November 12, about 17:48 UTC; woken every three hours at :32 by the scheduled task `trig_018vXM1DzQgYoSdYohwgxr72` (older reviewer tasks are disabled) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 **Former standing sessions** (the most recent; earlier ones are in this file's Git history):
+- Lead `session_01UQzgBuYpTa4haagP5TUTko`: the charter audit (#290, #291), the board rewrite and restart plan, 0o/0p/0q recorded, secure floor S4 to its booking (#304), immigration I4 and its review, budget inputs #289 and #297; November 12.
 - Lead `session_01UQzgBtrMsAhWpEyfRAzn6W`: the care booking and paid-leave ceiling merges (#265, #266), the process rules `DEC-2026-11-12-01` to `-05`, the budget model's B6 remainder (#272 to #282), question 0q; November 12.
 - Reviewer `session_01UQzgBufZFsrJoyrRZhNoe2`: PRs #265 to #283; November 12.
 - Lead `session_01UQzgBtThMM4483EL9swRwN`: the overnight relay; care parts B-D to L3; the secure floor's S1-S3; immigration I1-I3; November 12.
@@ -20,26 +21,36 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 
 ## In motion
 
-- **Open PRs:** this board PR (routine, the lead); the budget-inputs PR for Moving America's FY2037-39 draw and question 0r (tier 3, the lead's subagent, opening soon). The FAM-1.11 follow-up merged (#293).
+- **Open PRs:**
+  - #309, Espen's answer on Social Security's cap, one new decision entry (tier 3; the lead). Waiting on the reviewer, then Espen's label (ping them).
+  - #307, immigration: Espen's answers written in (routine; author the immigration worker). Waiting on the reviewer.
+  - This board PR.
 - **Workers (report to the lead):**
-  - I4 (immigration sections 4-9), `session_01UQzgBufjvZ5c5m2JNm9iBZ`, Most capable, branch `claude/immigration-i4`: resumed after the audit; it also builds the first immigration model (`charter/PLAN.md` 3.4) in `dossiers/immigration/tools/` for section 6: USCIS throughput and backlog, court capacity, detention against case management, the fiscal effects of status. The full model with a model card goes to `models/` at stage H.
-  - S4's author, `session_01UQzgBwnUXwPDDfuRotwQLp`: done (#287, #288, #293); takes on nothing more.
-- **Lead check-in:** `trig_018c9dsspfuh2UnHeFTE5hWQ`, 22:07 UTC, re-armed every three hours.
+  - Immigration milestone review and fix steps 1-4, `session_01UQzgBtaHE8nkT9Znw8gZVp` (#303, #305, both merged; about 315,000 tokens). Sent a `handoff` naming the new lead; asked for its `done` and it will take the immigration booking (brief sent once #304 merged). Its #307 (routine, open) writes Espen's three answers into the dossier and reprices: the decided set is about +$0.17T over FY2030-39 and +$27.7B in FY2040. It also finds care's base overstated by about $430B over FY2030-39 under option C, which goes to a health booking correction.
+  - Secure floor fix session `session_01UQzgBwAwdHFG8ArnCwHdrQ`: done (#298, #301).
+  - I4 author `session_01UQzgBufjvZ5c5m2JNm9iBZ`: done (#294, #299).
+  - The outgoing lead, `session_01UQzgBuYpTa4haagP5TUTko`: stepped back; its PRs are handed over.
+- **Espen's answers still to record as DEC entries** (in the immigration booking PR, tier 3; quote Espen):
+  - "both as recommended" on the review's two questions (from-abroad applications, limited; the signing-day cutoff kept and stated plainly).
+  - Health coverage for people without status: **C**. The single plan covers people with registered status or any lawful status, including lawful temporary workers. People with no status get emergency care only, as today. Priced net of the Emergency Medicaid and uncompensated care already paid for those who gain coverage. This amends `DEC-2026-11-12-07` memo 6 C for health only. Espen: "i think it has to be C, with the proper net cost fixes for current care outlays". A later look at coverage for farmworkers, contractors, transient and seasonal workers is noted for section 8.
+- **A check for Espen, from #307:** the long-term care benefit (IMM-1.23) stays "every resident", since the option C amendment was for health coverage only. Is that the intent?
+- **Social Security's cap:** Espen answered "keep the one-point cap"; recorded in #309.
+- **Lead check-in:** `trig_01S1Wi1m3GphpoGYxPDe6ZJ4` (`send_later`, November 13, 01:03 UTC), re-armed every three hours. The outgoing lead's `trig_018c9dsspfuh2UnHeFTE5hWQ` is disabled.
 - **Codex** access to the repository is suspended by Espen for now (out of credits); don't reach it with PR comments until it is restored.
+- **Espen's usage:** a weekly-limit reset was used on November 12; the allowance must last until Monday at 2 am Eastern. Keep to three working sessions, lighter models for mechanical work, and follow-ups in the session that holds the context.
 
 ## Next, in order
 
-1. The FAM-1.11 follow-up and the budget-inputs PR (`DEC-2026-11-12-10` and the 0r decision) merge.
-2. The secure floor's L2/L3 milestone review, in a fresh Most capable session, once I4's first PR is in review (to stay within three working sessions); then its fixes, then its booking (tier 3).
-3. I4 finishes (two PRs, sections 4-6 then 7-9); then immigration's milestone review and booking.
-4. **Maintenance at the stage D/E boundary**, after the secure floor reaches L3 and I4 is in review, before clean power starts:
-   - **M1, dossier tidy-up** (Most capable): correct the out-of-date status lines in every dossier README and review file (see "Known gaps"); give the care dossier one map, a README with one status table across health and parts B-D, merging the health and "bcd" section files where they repeat each other; refresh transportation's `6-cost.md` to #289's figures.
-   - **M2, library and housing mechanics** (Standard): `library/build_catalog.py` respects reserved ID blocks; one home for CRS R48552; catalog anchors for D and E evidence entries; `packages.py`'s stale housing label. Housing's own policy items stay deferred.
-   - **M3, the household model rebuild, with the legacy outputs:** rebuild the household model in `models/tools/household/` from the legacy incidence model and the child-poverty microsimulation, with a model card and benchmarks (Census poverty figures, the Tax Policy Center), and move the legacy suite's reports out of `legacy/` as it replaces them (Most capable, about two or three sessions). The secure floor's 65-cent ceiling check, the end-of-stage-E checkpoint's revenue options and stage G's fairness test (D3) all need it.
-5. **Settlement checkpoint at the end of stage E** (Most capable, one short memo for Espen): the plan-wide gap, the revenue options the legacy work holds, and which flagships drive the cost, so stages F and G are steered with the gap in view.
-6. Clean power (flagship 4, stage E's second flagship), after M1-M2.
+1. #309 approved and labeled.
+2. The immigration booking (tier 3, option C's health coverage repriced in section 6, with the DEC entries above, CRT-5's re-score note, and C-6's `.github/` change to run the immigration test, also tier 3); then the reviewer's L3 re-check.
+3. **Maintenance at the stage D/E boundary**, before clean power:
+   - **M1, dossier tidy-up** (Most capable): out-of-date status lines in every dossier README and review file (see "Known gaps"); care's one map; transportation's `6-cost.md` refreshed to #289 and #297's figures.
+   - **M2, library and housing mechanics** (Standard): `library/build_catalog.py` respects reserved ID blocks; one home for CRS R48552; catalog anchors for D and E evidence entries; `packages.py`'s stale housing label.
+   - **M3, the household model rebuild, with the legacy outputs:** `models/tools/household/` from the legacy incidence model and the child-poverty microsimulation, with a model card and benchmarks (Census poverty figures, the Tax Policy Center). Move the legacy suite's reports out of `legacy/` as it replaces them. Most capable, about two or three sessions. The secure floor's 65-cent ceiling, the checkpoint's revenue options and stage G's fairness test need it. Also give INC-1 to INC-5 incidence keys (#304's open item).
+4. **Settlement checkpoint memo for Espen** (end of stage E): the plan-wide gap, the revenue options the legacy work holds, and which flagships drive the cost.
+5. Clean power (flagship 4).
 
-**The financing settlement** (stage G, `charter/PLAN.md` section 6): the first full settlement comes once the first wave's designs are specified (stages D-F), not after waves two and three. It is re-run when a later wave adds real cost, at each new CBO baseline, and once more before the plan goes public in 2028.
+**The financing settlement** (stage G, `charter/PLAN.md` section 6): once the first wave's designs are specified; re-run as later waves add cost, at each new CBO baseline, and before 2028.
 
 ## Where each dossier stands
 
@@ -50,8 +61,8 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 | Transportation (`dossiers/agenda/transportation/`, wave two) | L3 | Sections 1-9; review passed (#207, #213, #214); booked (MR6 #209; timing #289); closed in stage C | Refresh `6-cost.md` to #289's figures (the 24.4% offset, the FY2040 draw) when next opened; settlement items in its README |
 | Health (`dossiers/care/`, flagship 2, part A) | L3 | Sections 1-9, memos 1-5; review passed (#224 to #229); booked (#230, #237, #279) | None; the README's status table is out of date |
 | Care parts B-D (`dossiers/care/`, flagship 2) | L3 (FAM-2A to 2F at L2) | Sections 1b-9bcd, memos 6-17; review passed (#260, #263); booked (#265) | None; the README's status table is out of date |
-| Secure floor (`dossiers/secure-floor/`, flagship 1) | L2 | Sections 1-9 and memos 1-7, decided (`DEC-2026-11-12-06`, `-09`); about $2.0T of legacy lines booked, about $0.47T over FY2030-39 and $56B in FY2040 not yet booked (`6-cost.md`, part 6) | Next steps 1-2 above |
-| Immigration (`dossiers/immigration/`, flagship 6) | L1 | Sections 1-3 and memos 1-7, decided (`DEC-2026-11-12-07`); not booked (a replacement for the IMM-1/E11 row is proposed in `3-design.md`) | I4, sections 4-9 (in progress) |
+| Secure floor (`dossiers/secure-floor/`, flagship 1) | L3 (alternatives and options at L1-L2) | Sections 1-9 and memos 1-7, decided (`DEC-2026-11-12-06`, `-09`, `-13` to `-15`); review #298, fixes #301; booked (#304, which was also the L3 re-check): about $2.53T over FY2030-39 and $292B in FY2040 | Incidence keys for INC-1 to INC-5 (M3); SS-8's budget treatment (research) |
+| Immigration (`dossiers/immigration/`, flagship 6) | L2 | Sections 1-9, memos 1-7 and the first immigration model (`tools/immigration_model.py`), decided (`DEC-2026-11-12-07`, `-12`); milestone review: L2 pass (#303); fix steps 1-4 done (#305): about +$0.41T over FY2030-39 and +$56.5B in FY2040, or about +$0.17T and +$27.7B with option C once #307 merges; not booked | The booking, then the reviewer's L3 re-check |
 | Clean power (flagship 4) | L1 | Not started | Stage E, after a slot frees |
 | Work (flagship 5), democratic renewal, fair financing | L1 | Not started (stages F and G) | — |
 | Rural delivery note (`dossiers/foundations/rural-delivery.md`) | — | Done (#171); applied project-wide by `DEC-2026-11-09-26` | Each dossier reads it for section 5 |
@@ -59,16 +70,15 @@ Updated November 12, 2026 by the lead, session_01UQzgBuYpTa4haagP5TUTko.
 ## Federal budget model (`models/tools/budget/`)
 
 - **Done:** B1 conventions and assumptions; B2 data layer; B3 provision library; B5 viewer; B6 integration; B7 Espen's counting choices (`DEC-2026-11-08-03` to `-07`, `DEC-2026-11-12-08`). The workflow is `WORKFLOW.md` (#104).
-- **B4 benchmarks:** Espen answered 0r: a light research pass on historical spend-out averages, an evidence-backed placeholder in the model, and B4 closed with PS-4b reported as not fully validated (to be recorded in the budget-inputs PR). `MODEL-CARD.md` lists what is validated, bounded and not yet validated.
-- **Plan-wide FY2040 general-fund primary balance** (case `mixed`, after #289): about $4,185B short.
+- **B4 benchmarks:** Espen answered 0r: a light research pass on historical spend-out averages, an evidence-backed placeholder in the model, and B4 closed with PS-4b reported as not fully validated (`DEC-2026-11-12-11`, #297). `MODEL-CARD.md` lists what is validated, bounded and not yet validated.
+- **Plan-wide FY2040 general-fund primary balance** (case `mixed`, after #304): about $4,230B short.
 - Budget-model workers report to the lead.
 
 ## Known gaps
 
 - **Secure floor (from S4, #287):**
-  - The paid-leave fund's Treasury loan: the central case, which counts SSA's administration, peaks at about $182 billion in FY2040 and is repaid in 2058 (`dossiers/secure-floor/6-cost.md`, part 4). An earlier figure of $124 billion repaid by 2048 left administration out.
-  - The Social Security booking carries a two-point broad payroll rate from 2035 that the decided design (memo 6 C) has only as a fallback, so it overstates trust-fund revenue. Decide how the trust fund's stock purchases (SS-8) are recorded before booking.
-  - Memo 6 counted SS-3 and SS-4 twice; counted once, the package is about +4.0 to +4.6% of payroll against the 4.42% gap.
+  - SS-8, the trust funds' stock investment, is booked at zero: how the budget records the purchases (outlays, financing, or returns above Treasury's rate) needs a check of CBO's and OMB's treatment; the Railroad Retirement trust is the nearest precedent.
+  - INC-1 to INC-5 have no incidence keys, so they are not in the D3 household test (M3).
   - Nit: `tools/afa_floor.py`'s docstring should cite sec. 1(f)(6), not 1(f)(4).
 - **Budget model:**
   - The climate pricing export (`legacy/sources/climate-portfolio-pricing.json`) still uses a 25% offset; CXP's booking differs from it by about $0.6 billion over FY2030-39 until the export is rebuilt (#289).
