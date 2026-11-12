@@ -262,4 +262,4 @@ From `dossiers/shared-rules.md`. Rules 1, 2 and 4 are this dossier's; the others
 
 ## Questions for Espen
 
-Question 0o is answered (`DEC-2026-11-12-06`). The one question the specification raised, the $500 credit for other dependents, is decided too (`DEC-2026-11-12-09`: it ends with the bill, for now).
+Question 0o is answered (`DEC-2026-11-12-06`). The one question the specification raised, the $500 credit for other dependents, is decided too (`DEC-2026-11-12-09`: it ends with the bill, for now). Two questions are open from the milestone review (`review-milestone.md`, #298), for the lead to put to Espen: (1) whether to extend SSI to Puerto Rico, Guam, the Virgin Islands and American Samoa, about $2.5-3 billion a year (`8-change-our-minds.md`, "Left open"; `6-cost.md`, part 2); (2) SS-8's share against SS-7.01's start, since at a 20% share the investment closes little and the one-point fallback is the expected closer (`6-cost.md`, part 4).
