@@ -59,8 +59,9 @@ def lines():
     out['INC-1.01, the childless earned income credit (memo 3 part 1 B)'] = filed_to_fy(grown(2030, 14.9, 0.02))
     # Memo 3 part 2 B, SNAP: CBO's nutrition subtitle, almost $187 billion of savings over
     # FY2025-34 (EV-SEC-035), with every cut in force by 2030; about $20.5 billion in FY2030,
-    # growing 2.5% a year (judgment). Excludes sec. 10108 (immigrant eligibility), which
-    # immigration's table (DEC-2026-11-12-07, memo 6 C) restores and prices.
+    # growing 2.5% a year (judgment). Includes sec. 10108 (immigrant eligibility), restored
+    # as immigration's table decides (DEC-2026-11-12-07, memo 6 C); immigration does not
+    # count it again.
     out['INC-2.01, SNAP restored (memo 3 part 2 B)'] = grown(2030, 20.5, 0.025, YEARS)
     # SSI's asset limits: SSA's actuaries' $8.9 billion over 2025-34 (EV-SEC-630); about
     # $1.1 billion in FY2030, growing 3% (judgment). Point 8, the indexed exclusions: about
