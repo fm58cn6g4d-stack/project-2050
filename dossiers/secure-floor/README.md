@@ -1,6 +1,6 @@
 # Dossier: A secure floor for every household (flagship 1)
 
-Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage D (board rows S1 to S4). Sections 1 and 2 are drafted, with the legacy research restated; section 3's seven memos and twelve points are **decided** (`DEC-2026-11-12-06`): every memo and point as recommended except the $2,200 floor (point 2), which Espen declined; sections 4-6 specify and price the decided set (row S4, PR 1), sections 7-9 follow (PR 2). Level: the decided items are at **L2** (`agenda/agenda.csv`); L3 after sections 7-9 and the milestone review. Headline: about **$2.47 trillion over FY2030-39 and $284 billion in FY2040** on the general fund, of which $2.0 trillion is booked (FAM-1, LAB-10); paid leave and Social Security are fund-financed (`6-cost.md`).
+Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage D (board rows S1 to S4). Sections 1 and 2 are drafted, with the legacy research restated; section 3's seven memos and twelve points are **decided** (`DEC-2026-11-12-06`): every memo and point as recommended except the $2,200 floor (point 2), which Espen declined; sections 4-6 specify and price the decided set (row S4, PR 1), sections 7-9 in PR 2. Level: the decided items are at **L2** (`agenda/agenda.csv`); L3 after sections 7-9 and the milestone review. Headline: about **$2.47 trillion over FY2030-39 and $284 billion in FY2040** on the general fund, of which $2.0 trillion is booked (FAM-1, LAB-10); paid leave and Social Security are fund-financed (`6-cost.md`).
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly):
 - a monthly child benefit;
@@ -75,7 +75,9 @@ Decided programs are cited by their `DEC-` entries. Programs in dossiers not yet
 | 4. Specification | `4-specification.md`, with `provisions.json` (FAM-1.01-1.11, INC-1 to INC-5, LAB-10.01-10.05, FAM-3.01-3.08, SS-1.01-SS-11.01) | Draft (S4) |
 | 5. Delivery | `5-delivery.md` | Draft (S4) |
 | 6. Cost | `6-cost.md`, with `tools/afa_floor.py` (the child benefit against the 2029 law on the CPS file) and `tools/secure_floor_path.py` (the fiscal-year path); the child-poverty re-run on the decided design | Draft (S4) |
-| 7-9 | Validation, what would change our minds, public case | Next (S4, PR 2) |
+| 7. Validation | `7-validation.md` | Draft (S4, PR 2) |
+| 8. What would change our minds | `8-change-our-minds.md` | Draft (S4, PR 2) |
+| 9. The public case | `9-public-case.md` | Draft (S4, PR 2) |
 
 ## Files and ID ranges
 
