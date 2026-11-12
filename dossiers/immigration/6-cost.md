@@ -159,6 +159,8 @@ Tier 3, for the lead after the milestone review (`charter/STANDARDS.md`, "Milest
 6. **`ledger-dynamic.csv`, DY8** (legalization's growth effects): stays a sensitivity in no total.
 7. **`votes-bills.csv`, line 38:** the vote model's IMM-1 row should reflect two bills (memo 7 part 3 B): R1's money at 51, and the immigration act in regular order. That is a vote-model change for the lead.
 
+**Booked** (immigration booking, `models/tools/immigration_booking.py`; `DEC-2026-11-12-17` to `-19`). IMM-1 is booked as six components on this section's path (+$195 billion of spending over FY2030-39, the table taking the ledger's $1 billion rounding), with E-Verify's on-budget revenue (IMM-EV) and the H-1B fee's offset (IF1T) as base-revenue rows. CAP-7S's and CAP-7's USCIS shares come out pro rata: the recovery budget scales both to their adopted amounts ($0.105 trillion and $0.3 trillion, `recovery-adoption.json`), so the share removed is about $28 billion over FY2030-39 and $2.8 billion in FY2040, not the legacy $40 billion and $34 billion part 4 names. The plan-wide FY2040 general-fund primary gap (case `mixed`) goes from $4,229.9 billion (7.81% of GDP, after the secure floor's booking) to **$4,274.6 billion (7.89%)**, +$44.7 billion; over FY2030-39 the booking adds about $288 billion. Votes (`votes-bills.csv`, two bills) and SSA's funds line for E-Verify (about −$42 billion) are not booked: the first is the vote model's, the second waits on the funds model's payroll line.
+
 ## 7. Sensitivities
 
 | Input | Central | Range | Effect on FY2030-39 | Basis |
