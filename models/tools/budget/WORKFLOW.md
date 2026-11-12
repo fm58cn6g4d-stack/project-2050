@@ -79,7 +79,7 @@ Each worker reports to the strategy session (`session_01UQzgBuA3EdnR7Dx4kUq1un`)
   - B6: the same tests, rerun after integration.
 
   A figure that has to move is a project decision for Espen: a tier-3 PR with the reason, labeled `needs-espen`, whatever tier the gate assigns.
-- **Benchmarks before trust:** nothing new feeds a public or decision figure until B4's benchmarks pass.
+- **Benchmarks before trust:** nothing new feeds a public or decision figure until B4's benchmarks pass. A benchmark may instead be *bounded* (B6, November 12, 2026): it misses its tolerance, but (1) its miss stays under a ceiling written into `test_benchmarks.py` beside it, with its reason, before the result is read; (2) a companion benchmark that the model can fail shows the method holds where it should (for PS-4a, PS-4c); and (3) every reading that depends on it carries the miss as a stated range (`MODEL-CARD.md`, "What is bounded"). A bounded benchmark counts as resolved for this condition; past its ceiling, or with its companion failing, it fails.
 - **Assumptions are cited:** after B1, every assumption the model uses has an `ASM-` entry, and the checker fails on an uncited one once B6 lands.
 
 ## Ownership
