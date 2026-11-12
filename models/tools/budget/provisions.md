@@ -96,7 +96,7 @@ Budget choice 3 (DEC-2026-11-08-05, `ASM-BILL-WINDOW`): plan totals and the D4 t
 | R1 | 6 | FY2029-2038 | 2669 | 2703 | FAM-1, MOV-29 |
 | R2 | 26 | FY2030-2039 | 4903 | 6186 | none |
 | R3 | 5 | FY2031-2040 | 503 | 524 | none |
-| FLOOR | 30 | FY2029-2038, FY2030-2039 | 24352 | 66755 | none |
+| FLOOR | 30 | FY2029-2038, FY2030-2039 | 23664 | 64851 | none |
 | APPROPS | 7 | FY2029-2038, FY2030-2039 | 559 | 875 | none |
 
 The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill from adding to the deficit in any single year after its window; the test is year by year, so the last column, the sum of the ten years after the window, only shows where to look. It counts the bill's spending rows alone (its revenue is not assigned to it in the ledger, so a bill's net effect in those years is not yet known):
@@ -141,7 +141,7 @@ The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill f
 | MOV-30 | R3 | FY2031-2040 | 86.7 | 40.9 |
 | SAF-10 | R3 | FY2031-2040 | 35.3 | 52.4 |
 
-Not assigned to a bill, in the decided program (scenario DEC): 27 rows (base revenue, the decided options and later-Congress bills: DEM-3, DEM-4, MOV-31, G1, H1b, HX, G3, G11, G5, G6, G7, G8, G9, G10, GX, CX, MR6, CXP, C18, C19b, C38, C20, C35, C39, C40, C41, C43), a deficit effect of -12.00 trillion dollars over FY2029-38 and -14.02 trillion over FY2030-39 (negative: revenue and savings). The declined options are left out.
+Not assigned to a bill, in the decided program (scenario DEC): 27 rows (base revenue, the decided options and later-Congress bills: DEM-3, DEM-4, MOV-31, G1, H1b, HX, G3, G11, G5, G6, G7, G8, G9, G10, GX, CX, MR6, CXP, C18, C19b, C38, C20, C35, C39, C40, C41, C43), a deficit effect of -11.69 trillion dollars over FY2029-38 and -13.63 trillion over FY2030-39 (negative: revenue and savings). The declined options are left out.
 
 ## Where the files disagree
 
