@@ -7859,7 +7859,7 @@
  },
  {
   "id": "EV-IMM-616",
-  "statement": "The article judged that legalizing the undocumented population is likely to widen the gap between federal revenues and outlays, with state and local governments bearing much of the medium-run cost.",
+  "statement": "Orrenius and Zavodny, Dallas Fed economists writing in the Cato Journal, judged that legalizing the undocumented population is likely to widen the gap between revenues and outlays, with state and local governments bearing much of the medium-run cost.",
   "claim": "analysis",
   "figures": [],
   "source": "SRC-4201",
@@ -7872,7 +7872,7 @@
   "fact_date": "2012",
   "checked": "2026-11-12",
   "recheck": "2027-11-12",
-  "context": "Qualitative, no dollar figure. Publisher URL is a third-party copy; the Cato original should be confirmed before citing.",
+  "context": "Pia M. Orrenius and Madeline Zavodny (Federal Reserve Bank of Dallas), Cato Journal, Winter 2012: the authors' judgment, not the Cato Institute's. Qualitative, no dollar figure. Read from a third-party copy of the journal PDF; the reviewer read the full PDF and confirmed the quotation.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
