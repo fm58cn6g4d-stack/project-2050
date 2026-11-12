@@ -1746,8 +1746,8 @@
    "DEC-2026-11-11-03",
    "DEC-2026-11-11-06"
   ],
-  "parameters": "Every child under 5 whose family wants paid care is entitled to it. Free at or below 85% of state median income. Above that, the family's payment rises on a published sliding scale to at most 7% of income, reached at 150% of state median income (the 2025 Child Care for Working Families Act's points; working choice: a straight line between them). No upper income limit. In force in two steps: the free tier from the 2030-31 school year, the 7% cap from July 1, 2032 (FAM-2.03)",
-  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state",
+  "parameters": "Every child under 5 resident in a state or territory (Puerto Rico, Guam, the U.S. Virgin Islands, the Northern Mariana Islands, American Samoa) whose family wants paid care is entitled to it. Free at or below 85% of state (or territory) median income. Above that, the family's payment rises on a published sliding scale to at most 7% of income, reached at 150% of state median income (the 2025 Child Care for Working Families Act's points; working choice: a straight line between them). No upper income limit. In force in two steps: the free tier from the 2030-31 school year, the 7% cap from July 1, 2032 (FAM-2.03)",
+  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state or territory",
   "vehicle": [
    {
     "vehicle": "R2",
@@ -1775,8 +1775,8 @@
    "DEC-2026-11-11-03",
    "DEC-2026-11-11-06"
   ],
-  "parameters": "At least 1,020 hours a year (about six hours a day for the school year), free; in public schools, Head Start, child care centers and family child care homes that meet the standards, all paid the same per-child rate; lead teachers on the K-12 scale (pay parity, inside pre-K's rate); a proven curriculum with coaching; wraparound hours under FAM-2.01. 4-year-olds from 2030-31 and 3-year-olds where states are ready; all 3-year-olds by 2033-34",
-  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state",
+  "parameters": "Every 3- and 4-year-old resident in a state or territory. At least 1,020 hours a year (about six hours a day for the school year), free; in public schools, Head Start, child care centers and family child care homes that meet the standards, all paid the same per-child rate; lead teachers on the K-12 scale (pay parity, inside pre-K's rate); a proven curriculum with coaching; wraparound hours under FAM-2.01. 4-year-olds from 2030-31 and 3-year-olds where states are ready; all 3-year-olds by 2033-34",
+  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state or territory",
   "vehicle": [
    {
     "vehicle": "R2",
@@ -1808,7 +1808,7 @@
    "DEC-2026-11-11-03"
   ],
   "parameters": "2030-31: FAM-2.01's free tier; FAM-2.02 for 4s, and 3s where ready; facilities and operating grants; payment by enrollment. July 1, 2032: the 7% cap for every family. 2033-34: 3-year-olds everywhere. Dates run from enactment with a latest date if R2 is late",
-  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state",
+  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state or territory",
   "vehicle": [
    {
     "vehicle": "R2",
@@ -1836,7 +1836,7 @@
    "DEC-2026-11-11-03"
   ],
   "parameters": "By enrollment, monthly and in advance, at rates set from a cost-of-care model (not market surveys), by age and setting, including the wage floor and salary scale (FAM-2G.01); grants or contracts for scarce care. Operating grants for infant and toddler rooms and areas with few slots, on ARPA's model, made permanent. The 2024 rule's protections in statute in the meantime: copayments capped at 7% of income in the block grant until July 2032, payment by enrollment and in advance. School-age children keep the block grant: CCDF continues as a block grant for children aged 5 to 12, at least at its FY2029 school-age share, indexed to prices, with the 2024 protections kept for it permanently; only CCDF's under-5 share moves into the guarantee (`6bcd-cost.md`, part 2). Whether to expand school-age care is left open for this dossier or education (`8bcd-change-our-minds.md`)",
-  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state",
+  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state or territory",
   "vehicle": [
    {
     "vehicle": "R2",
@@ -1864,7 +1864,7 @@
    "DEC-2026-11-11-03"
   ],
   "parameters": "Capital grants for new and converted rooms, infant and toddler rooms and areas with few slots first; through states, and HHS directly where a state declines",
-  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state",
+  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state or territory",
   "vehicle": [
    {
     "vehicle": "R2",
@@ -1890,8 +1890,8 @@
   "decisions": [
    "DEC-2026-11-11-03"
   ],
-  "parameters": "No work or study test: the guarantee follows the child. One income determination a year from the prior year's tax record or the family's own statement, with 12-month eligibility and no asset test; copays corrected only at the next determination, never reclaimed mid-year. Every child resident in the state is eligible, and Head Start keeps its rules as before July 2025 (proposed to the immigration flagship, shared rule 3)",
-  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state",
+  "parameters": "No work or study test: the guarantee follows the child. One income determination a year from the prior year's tax record or the family's own statement, with 12-month eligibility and no asset test; copays corrected only at the next determination, never reclaimed mid-year. Every child resident in the state or territory is eligible, and Head Start keeps its rules as before July 2025 (proposed to the immigration flagship, shared rule 3)",
+  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state or territory",
   "vehicle": [
    {
     "vehicle": "R2",
@@ -1919,7 +1919,7 @@
    "DEC-2026-11-11-03"
   ],
   "parameters": "State plans: each state's child care agency runs the guarantee and pre-K under federal rules on eligibility, rates and standards, in a plan HHS approves. Fallback: if a state declines, or HHS finds after notice that it fails to serve eligible children or pay providers on the rules for two consecutive quarters (working definition), HHS contracts directly with localities, tribes or providers there, paying the same rates. Head Start: keeps its grantees, standards and comprehensive services; it is paid the guarantee's and pre-K's per-child rates for its children plus its own grant for the extra services; Early Head Start grows inside the guarantee. The territories: Puerto Rico, Guam, the U.S. Virgin Islands, the Northern Mariana Islands and American Samoa run the guarantee and pre-K on the states' terms, each through its own child care agency, with the same HHS fallback; every child under 5 in a state or territory is covered (CCDF and Head Start serve the territories today)",
-  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state",
+  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state or territory",
   "vehicle": [
    {
     "vehicle": "R2",
@@ -1951,7 +1951,7 @@
    "DEC-2026-11-11-06"
   ],
   "parameters": "Child care: the federal government pays 90% of direct services net of copayments for the first three school years (2030-31 to 2032-33), then 80%. Pre-K: the federal government pays 90% of the cost above states' current pre-K spending for three years, then 75% of it; states keep paying their current spending ($14.4 billion today) on top, so at maturity they pay about $34 billion of about $91 billion and the federal share of the whole is about 63% (as priced and decided, `3c-design-child-care.md`). States keep their current child care spending as maintenance of effort inside child care's share. The territories pay the same shares. Administration is federal. A state that declines or is replaced under FAM-2.07 still owes the share it would have paid, as a direct obligation collected by offset against federal payments to the state, with interest, the instrument of health's HLT-7.17. The offset base: any federal payment to the state or its agencies other than payments to individuals, through Treasury's offset program, since a declining state receives no child care money to offset; this goes beyond the Part D clawback's Medicaid-only offset. HHS then runs the program there with that money. Legal risk, stated: untested in court; a court could read the offset as coercion (NFIB v. Sebelius), and an offset that collects for a program the state refused, against payments for other programs, is the weakest of the three uses of the instrument. If it fails, the obligation ends (hold harmless) and the federal share in those states rises to 100% (`6bcd-cost.md`, part 6)",
-  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state",
+  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state or territory",
   "vehicle": [
    {
     "vehicle": "R2",
@@ -1981,7 +1981,7 @@
    "DEC-2026-11-11-03"
   ],
   "parameters": "Centers, family child care homes, Head Start, schools, and faith-based providers chosen by parents, at the same rates and standards. Faith-based providers take part through the parent's choice of provider, the route the Supreme Court has upheld for indirect aid (working choice; the legal review at L4 confirms the drafting)",
-  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state",
+  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state or territory",
   "vehicle": [
    {
     "vehicle": "R2",
@@ -2005,7 +2005,7 @@
    "DEC-2026-11-11-03"
   ],
   "parameters": "At least 4% of the guarantee's and pre-K's money, run by tribes on their own plans",
-  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state",
+  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state or territory",
   "vehicle": [
    {
     "vehicle": "R2",
@@ -2031,7 +2031,7 @@
    "DEC-2026-11-11-03"
   ],
   "parameters": "Pre-registered evaluations of pre-K and the guarantee, using admissions lotteries where programs are oversubscribed, on data the programs already collect, run with education's research center (EDU-10)",
-  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state",
+  "eligibility": "Every child under 5 (child care) and every 3- and 4-year-old (pre-K) resident in a state or territory",
   "vehicle": [
    {
     "vehicle": "R2",
