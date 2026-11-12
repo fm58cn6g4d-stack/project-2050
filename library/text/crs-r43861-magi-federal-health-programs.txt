@@ -1,0 +1,554 @@
+Source: https://www.everycrsreport.com/reports/R43861.html
+Publisher: Congressional Research Service
+Retrieved: 2026-11-12 (downloaded with curl by the project session)
+Original SHA-256: ff6e922965a63d858552fa57c75594e90663e438580a72a3d2721a654b44a69c
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+The Use of Modified Adjusted Gross Income (MAGI) in Federal Health Programs - EveryCRSReport.com
+Internet Explorer version 8 or any modern web browser is required to use this website, sorry.
+The Use of Modified Adjusted Gross Income (MAGI) in Federal Health Programs
+April 22, 2015 –
+December 6, 2018
+R43861
+Certain portions of federal health programs rely on means testing for eligibility and other purposes. Medicare premiums, the individual mandate exemptions and penalties, eligibility and amounts for tax credits for health insurance exchange coverage, and Medicaid eligibility are determined, in part, using modified adjusted gross income (MAGI). MAGI is a concept that is used throughout federal tax law and certain federal programs. There is no uniform definition of MAGI; rather, the term has different definitions depending on the purpose for which it is being calculated.
+For each of these federal health programs, MAGI begins with adjusted gross income (AGI) as calculated for tax purposes. From there, various types of income are included (or, in the case of Medicaid, subtracted) to calculate MAGI for each particular program. The different health programs do not necessarily define household income using the same groupings of people. For example, married couples living together are counted as the same Medicaid household regardless of whether they file a joint tax return. By contrast, married couples must file a joint tax return to be eligible for premium credits.
+The Patient Protection and Affordable Care Act (ACA; P.L. 111-148, as amended) established Section 36B of the Internal Revenue Code (IRC) to authorize a tax credit to assist eligible taxpayers with the purchase of coverage through health insurance exchanges. “Household income” is used, among other factors, to determine eligibility for and amount of the premium tax credit. IRC Section 36B includes a definition of household income, which is calculated using the MAGI amount (subject to certain adjustments) for eligible taxpayers and tax dependents.
+The MAGI definition in IRC Section 36B also is used as a basis in determining (1) whether an individual is exempted from the individual mandate, (2) the penalty amount owed if a person does not comply with the individual mandate, and (3) Medicaid income eligibility for certain populations. However, in each case the MAGI definition in IRC Section 36B is modified differently. Finally, a MAGI definition that differs from that in IRC Section 36B is used to determine which Medicare beneficiaries pay high-income premiums.
+This report explores the different MAGI definitions across health programs, including Medicare, the individual mandate, premium tax credits on the health insurance exchanges, and Medicaid. It also addresses why MAGI is used and how it is applied, specific to each program.
+Download PDF
+Download EPUB
+Revision History
+Dec. 6, 2018
+HTML
+·
+PDF
+6% changed
+Feb. 25, 2016
+HTML
+·
+PDF
+25% changed
+Apr. 22, 2015
+HTML
+·
+PDF
+Metadata
+Topic areas
+Health Policy
+Report Type: CRS Report
+Source: EveryCRSReport.com, University of North Texas Libraries Government Documents Department
+Raw Metadata: JSON
+The Use of Modified Adjusted Gross Income (MAGI) in Federal Health Programs
+Updated December 6, 2018
+(R43861)
+Jump to Main Text of Report
+Contents
+Introduction
+Definition of MAGI in Health Programs
+Medicare Income-Related Premiums
+Determination of Income
+Individual Mandate
+Determination of Income
+Exchanges and Premium Tax Credits
+Determination of Income
+Medicaid
+Determination of Income
+Transition to MAGI
+How MAGI Is Applied in Medicaid
+MAGI-Exempted Groups
+Countable Income
+Family Size and Total Household Income
+Tables
+Table 1. Additions and Subtractions to Federal Adjusted Gross Income (AGI) to Calculate Modified Adjusted Gross Income (MAGI) for Health Programs
+Table A-1. Medicaid MAGI-Based Eligibility Categories, Beginning January 1, 2014
+Table A-2. MAGI-Excepted Eligibility Categories, Beginning January 2014
+Appendixes
+Appendix. MAGI and Medicaid's Eligibility Categories
+Summary
+Certain portions of federal health programs rely on means testing for eligibility and other purposes. Medicare premiums, the individual mandate exemptions and penalties, eligibility and amounts for tax credits for health insurance exchange coverage, and Medicaid eligibility are determined, in part, using modified adjusted gross income (MAGI). MAGI is a concept that is used throughout federal tax law and certain federal programs. There is no uniform definition of MAGI; rather, the term has different definitions depending on the purpose for which it is being calculated.
+For each of these federal health programs, MAGI begins with adjusted gross income (AGI) as calculated for tax purposes. From there, various types of income are included (or, in the case of Medicaid, subtracted) to calculate MAGI for each particular program. The different health programs do not necessarily define household income using the same groupings of people. For example, married couples living together are counted as the same Medicaid household regardless of whether they file a joint tax return. By contrast, married couples must file a joint tax return to be eligible for premium credits.
+The Patient Protection and Affordable Care Act (ACA; P.L. 111-148 , as amended) established Section 36B of the Internal Revenue Code (IRC) to authorize a tax credit to assist eligible taxpayers with the purchase of coverage through health insurance exchanges. "Household income" is used, among other factors, to determine eligibility for and amount of the premium tax credit. IRC Section 36B includes a definition of household income, which is calculated using the MAGI amount (subject to certain adjustments) for eligible taxpayers and tax dependents.
+The MAGI definition in IRC Section 36B also is used as a basis in determining (1) whether an individual is exempted from the individual mandate, (2) the penalty amount owed if a person does not comply with the individual mandate, and (3) Medicaid income eligibility for certain populations. However, in each case the MAGI definition in IRC Section 36B is modified differently. Finally, a MAGI definition that differs from that in IRC Section 36B is used to determine which Medicare beneficiaries pay high-income premiums.
+This report explores the different MAGI definitions across health programs, including Medicare, the individual mandate, premium tax credits on the health insurance exchanges, and Medicaid. It also addresses why MAGI is used and how it is applied, specific to each program.
+Introduction
+Certain portions of federal health programs rely on means testing for eligibility and other purposes. Medicare premiums, the individual mandate exemptions and penalties, eligibility and amounts for tax credits for health insurance exchange coverage, and Medicaid eligibility are determined, in part, using modified adj usted gross income (MAGI). MAGI is a concept that is used throughout federal tax law and certain federal programs. However, there is no uniform definition of MAGI; rather, the term has different definitions depending on the purpose for which it is being calculated.
+For each of these federal health programs—Medicare, the individual mandate, premium tax credits on the health insurance exchanges, and Medicaid—MAGI begins with adjusted gross income (AGI) as calculated for tax purposes. From there, various types of income are included (or, in the case of Medicaid, subtracted) to calculate MAGI for each particular program. In addition, the different health programs do not necessarily define household income using the same groupings of people. For example, married couples living together are counted as the same Medicaid household regardless of whether the married individuals file a joint tax return. By contrast, married couples must file a joint tax return to be eligible for premium credits.
+The Patient Protection and Affordable Care Act (ACA; P.L. 111-148 , as amended) established Section 36B of the Internal Revenue Code (IRC) to authorize a tax credit to assist eligible taxpayers with the purchase of coverage through health insurance exchanges. "Household income" is used, among other factors, to determine eligibility for and amount of the premium tax credit. IRC Section 36B includes a definition of household income, which is calculated using the MAGI amount (subject to certain adjustments) for eligible taxpayers and tax dependents.
+The MAGI definition in IRC Section 36B also is used as a basis in determining (1) whether an individual is exempted from the individual mandate, (2) the penalty amount owed if a person does not comply with the individual mandate, and (3) Medicaid income eligibility for certain populations. However, in each case the MAGI definition in IRC Section 36B is modified differently. Finally, a MAGI definition that differs from that in IRC Section 36B is used to determine which Medicare beneficiaries pay high-income premiums.
+This report explores the different MAGI definitions across health programs, including Medicare, the individual mandate, premium tax credits on the health insurance exchanges, and Medicaid. It also addresses why MAGI is used and how it is applied, specific to each program.
+Definition of MAGI in Health Programs 1
+The health programs discussed in this report use MAGI to make eligibility and other determinations. MAGI is a concept used throughout federal tax law and certain federal programs. There is no uniform definition of MAGI; rather, the term is defined differently depending on the purpose for which it is being used.
+The starting point for calculating MAGI is always AGI. 2 Unlike MAGI, only one definition of AGI exists in federal law, and it is found in IRC Section 62. Under IRC Section 62, AGI is calculated by subtracting allowable adjustments (commonly referred to as above-the-line deductions ) from gross income. Gross income is "all income from whatever source derived" unless otherwise excepted. 3 Exceptions include gifts, inheritances, interest on state and local bonds, a portion of Social Security benefits received, and some income earned in foreign countries or U.S. territories. Examples of above-the-line deductions include deductions for penalties on early withdrawal of savings, student loan interest paid, and health savings account contributions. 4 When these deductions are subtracted from gross income, the result is AGI. This is the amount found on the bottom line of the first page of IRS Form 1040 (Individual Income Tax Return).
+As mentioned, although MAGI is used in various provisions in federal law, the modifications made to AGI differ depending on the specific law or program. For the health programs discussed in this report, MAGI begins with AGI. From there, various types of income not included in AGI are added to calculate MAGI for each particular program. Additionally, under Medicaid statute and regulations, particular types of income included in AGI may be subtracted to calculate MAGI for determining Medicaid eligibility. 5 Table 1 summarizes the additions and subtractions to AGI that are used to calculate MAGI for various health programs. These adjustments are discussed in detail in the " Medicare Income-Related Premiums ," " Individual Mandate ," " Exchanges and Premium Tax Credits ," and " Medicaid " sections of this report.
+Table 1. Additions and Subtractions to Federal Adjusted Gross Income (AGI) to Calculate Modified Adjusted Gross Income (MAGI) for Health Programs
+Description of Income
+Modified Adjusted Gross Income
+Medicare Premiums
+ACA Individual Mandate
+ACA Premium Credit
+Initial Medicaid Eligibility a
+Exemption b
+Penalty c
+Tax-exempt interest income received or accrued (e.g., interest from state and local bonds) d
+Added to AGI
+Added to AGI
+Added to AGI
+Added to AGI
+Added to AGI
+Interest from U.S. savings bonds used to pay higher education tuition and fees e
+Added to AGI
+Added to AGI
+Added to AGI
+Added to AGI
+Added to AGI
+Earned income of U.S. citizens living abroad that was excluded from gross income f
+Added to AGI
+Added to AGI
+Added to AGI
+Added to AGI
+Added to AGI
+Nontaxable portion of Social Security benefits g
+Added to AGI
+Added to AGI
+Income from sources within Guam, American Samoa, the Northern Mariana Islands, h or Puerto Rico, i not otherwise included in AGI
+Added to AGI
+Required contributions made through a salary reduction arrangement that are excluded from gross income
+Added to AGI
+Certain types of irregular income received as a lump sum and included in AGI (e.g., state income tax refund or one-time gifts or inheritances) j
+Included in monthly AGI only in month received k
+"Qualified lottery winnings" and/or "qualified lump sum income" l
+Amounts less than $80 thousand included in AGI only in the month received; other amounts prorated over a specified period
+Certain payments to American Indians and Alaska Natives if included in AGI m
+Subtracted from AGI
+Certain scholarships, awards, and fellowship grants if included in AGI n
+Subtracted from AGI
+Compensation for parent mentors under Medicaid outreach and enrollment grants o
+Subtracted from AGI
+Source: Congressional Research Service, compilation from sources within the U.S. Code and Regulations. Current as of the date of this report.
+a. "Initial" Medicaid Eligibility refers to eligibility rules that apply to applicants and new enrollees (i.e., not current enrollees seeking an eligibility redetermination).
+b. 26 U.S.C. §5000A(e)(1).
+c. 26 U.S.C. §5000A(c)(4)(C).
+d. 26 U.S.C. §103.
+e. 26 U.S.C. §135.
+f. 26 U.S.C. §911.
+g. The Three Percent Withholding Repeal and Job Creation Act ( P.L. 112-56 ) changed the definition of income for the purposes of determining eligibility for ACA premium credits and Medicaid to include nontaxable social security benefits.
+h. 26 U.S.C. §931.
+i. 26 U.S.C. §933.
+j. 42 C.F.R. §435.603(h)(1).
+k. Under Medicaid, income eligibility for applicants and new enrollees is based on current monthly household income (see 42 C.F.R. §435.603(h)(1)). By contrast, when redetermining eligibility for current Medicaid enrollees, states are permitted to use current monthly income and family size, or projected annual income and family size for the remaining months of the calendar year (see 42 C.F.R. §435.603(h)(2)).
+l. U.S.C. 1396a(e)(14)(K). The Bipartisan Budget Act of 2018 ( P.L. 115-123 ) requires states to consider "qualified lottery winnings" and "qualified lump sum" income when determining Medicaid eligibility for certain individuals. The law defines "qualified lottery winnings" as winnings (including amounts awarded as a lump sum payment) from a state-conducted sweepstakes or lottery, or a lottery operated by a multistate or multijurisdictional lottery association. The law defines "qualified lump sum" income as income received as a lump sum from monetary winnings from gambling (as defined by the Secretary of Health and Human Services and including monetary winnings from gambling activities described in Section 1955(b)(4) of title 18 of the U.S. Code).
+m. 42 C.F.R. §435.603(e)(3).
+n. 42 C.F.R. §435.603(e)(2). See also 45 C.F.R. §233.20.
+o. 42 U.S.C. 1396a(e).
+Medicare Income-Related Premiums 6
+Medicare is a federal insurance program that pays for covered health services for most persons aged 65 and older, and for most permanently disabled individuals under the age of 65. The program consists of four distinct parts: (1) Part A, which covers inpatient services; (2) Part B, which covers physician and outpatient services; (3) Part C (Medicare Advantage), a private health plan option that covers most Part A and B services; and (4) Part D, which covers outpatient prescription drugs. Eligibility for Medicare is not based on income. Most individuals are eligible for premium-free Part A if they or their spouse paid Medicare payroll taxes for at least 40 quarters. Parts B and D are optional and require the payment of premiums. Those premiums are means tested, and the income levels used to determine the premiums are based on a unique Medicare definition of MAGI.
+For the first 41 years of the Medicare program, all Part B enrollees paid the same Part B premium amounts regardless of their income. However, the Medicare Modernization Act of 2003 (MMA; P.L. 108-173 ) 7 required that, beginning in 2007, higher-income enrollees pay higher premiums. The ACA imposed similar high-income premiums for Medicare Part D prescription drug benefit enrollees beginning in 2011. The Centers for Medicare & Medicaid Services (CMS) estimates that about 5% of Medicare beneficiaries pay these higher premiums. 8
+For Medicare Part B, standard premiums are set at 25% of average annual per capita Part B program expenditures. 9 Under Part D, base premiums are set at 25.5% of expected per capita costs for basic Part D coverage. 10 Adjustments are made to the Parts B and D premiums for higher-income beneficiaries, with the percentage of per capita expenditures paid by these beneficiaries increasing with income. This percentage ranges from 35% to 85% of average per capita expenditures for both Parts B and D. 11 In 2019, individuals whose income exceeds $85,000, and couples whose income exceeds $170,000, will be subject to higher premium amounts. 12
+Determination of Income
+To determine which Medicare beneficiaries pay high-income premiums, the Social Security Administration uses the most recent federal tax return provided by the IRS. The income determinations are based on an individual's tax filing status (i.e., individual filing, joint filing, or married filing separately). 13 The income definition on which these determinations are based is MAGI, 14 which is defined differently under Medicare than under other programs. Section 1839(i)(4) of the Social Security Act (SSA) defines MAGI for this purpose as adjusted gross income increased by the amount of certain other income that is exempt from tax under the IRC. 15
+For the purpose of identifying who is required to pay high-income Medicare premiums, MAGI is defined as the sum of (as defined in Table 1 ):
+the beneficiary's AGI, plus
+certain income exempt from tax under the IRC, 16 including
+tax-exempt interest income received or accrued (e.g., interest from state and local bonds);
+interest from U.S. savings bonds used to pay higher education tuition and fees;
+earned income of U.S. citizens living abroad that was excluded from gross income;
+income from sources within Guam, American Samoa, the Northern Mariana Islands, or Puerto Rico, not otherwise included in AGI.
+If a Medicare beneficiary had a one-time increase in taxable income in a particular year (e.g., from the sale of income-producing property), that increase would be considered in determining the individual's total income for that year, and the beneficiary could thus be subject to the income-related premium two years ahead. It would not be considered in the calculations for future years. In the case of certain major life-changing events that result in a significant reduction in MAGI, 17 an individual may request to have the determination made for a more recent year than the second preceding year. 18
+Individual Mandate 19
+The ACA required most individuals to maintain health insurance coverage or otherwise pay a penalty. 20 Certain individuals are exempt from the individual mandate. For example, individuals with qualifying religious exemptions and those for whom health insurance coverage is "unaffordable" will not be subject to the mandate or its associated penalty. Individuals who do not maintain health insurance coverage and are not exempt from the mandate will have to pay a penalty for each month of noncompliance. The penalty is assessed through the federal tax filing process; any penalty that taxpayers are required to pay for themselves or their dependents must be included in their return for that taxable year.
+The individual mandate was modified under the 2017 tax revision, P.L. 115-97 , which was enacted on December 22, 2017. The law effectively eliminates the penalty associated with the individual mandate beginning in 2019 (i.e., the penalty is in effect through 2018). However, the 2017 tax revision does not make any other substantive changes to the statutory language establishing the mandate and its associated penalty.
+Determination of Income
+An individual's household income is used to determine any penalty amounts owed, and it is used to determine whether an individual is eligible for certain exemptions from the individual mandate. With respect to the individual mandate, household income is defined as the MAGI of the taxpayer, plus the aggregate MAGI of all other individuals for whom the taxpayer is allowed a deduction for personal exemptions for the taxable year. 21 As shown in Table 1 , MAGI for the purposes of the individual mandate is AGI increased by tax-exempt interest income received or accrued, interest from U.S. savings bonds used to pay higher education tuition and fees, and earned income of U.S. citizens living abroad that was excluded from gross income. 22
+For individuals who do not maintain health insurance coverage and are not exempt from the individual mandate, the penalty is based either on a formula or on a flat-dollar amount, whichever is greater. The formula is a specific percentage multiplied by a person's "applicable income." The percentage is 2.5% in 2017 and 2018 and will be 0% for 2019 and beyond. An individual's "applicable income" is defined as the amount by which an individual's household income exceeds the applicable filing threshold for federal income taxes for the tax year. 23 In other words, "applicable income" is the aggregate MAGI above the tax filing threshold for the taxpayer and all dependents required to file a tax return. The flat-dollar amount is $695 in 2017 and 2018, assessed for each taxpayer and any dependents. 24 Beginning in 2019, the flat dollar amount penalty will be $0.
+Certain individuals are exempt from the individual mandate and its associated penalty. One such example is for individuals for whom coverage is "unaffordable"; in 2018, coverage is considered unaffordable if an individual's required contribution for self-only coverage exceeds 8.05% of his or her household income. 25 For this exemption, household income is based on the same MAGI used to determine the penalty amount except that it also includes required contributions made through a salary reduction arrangement that are excluded from gross income. 26 Individuals are also exempt if their household income is less than the filing threshold for federal income taxes for the applicable tax year.
+Exchanges and Premium Tax Credits 27
+Health insurance exchanges operate in every state and the District of Columbia (DC), per the ACA statute. 28 Exchanges are not insurance companies; rather, they are "marketplaces" that offer private health plans to qualified individuals and small businesses. Given that the ACA specifically requires exchanges to offer insurance options to individuals and small businesses, exchanges are structured to assist these two different types of "customers." Consequently, there is an exchange to serve individuals and families, and another to serve small businesses ("SHOP exchanges"), within each state. 29
+Certain enrollees in the individual exchanges are eligible for premium assistance in the form of federal tax credits. 30 Such credits are not provided through the SHOP exchanges. The premium credit is an advanceable, refundable tax credit, meaning tax filers need not wait until the end of the tax year to benefit from the credit, and they may claim the full credit amount even if they have little or no federal income tax liability.
+To be eligible for a premium credit through an individual exchange, a person (or family) must
+have a household income (based on MAGI) between 100% and 400% of the federal poverty level (FPL), with an exception, 31
+not be eligible for "minimum essential coverage" 32 (such as Medicaid, Medicare, or an employer-sponsored plan that meets certain requirements), other than through the individual health insurance market;
+be enrolled in an exchange plan; and
+be part of a tax-filing unit. 33
+Once eligibility is determined, income will be used in some (but not necessarily all) instances to determine the amount of the tax credit. The determination of the credit amount is the lesser of two amounts that result from two different scenarios. The first scenario (and amount) is straightforward: the monthly premium for the exchange plan in which the person/family enrolls. The second scenario is more complicated, involving a formula that considers the premium for a standard plan 34 in the local area in which the person/family resides, and an amount that the person/family may be required to contribute toward the premium. This required contribution amount is based on income, with 2019 contributions capped between 2.08% and 9.86% of income. Based on a comparison of the two amounts (resulting from the two scenarios), the premium credit will be the lesser amount.
+Determination of Income
+Household income is measured according to MAGI. 35 As shown in Table 1 , MAGI for the purposes of the premium credit is AGI as calculated for tax purposes increased by tax-exempt interest income received or accrued during the taxable year, as well as interest from U.S. savings bonds used to pay higher education tuition and fees, earned income of U.S. citizens living abroad that was excluded from gross income, and nontaxable portion of Social Security benefits. Household income, for purposes of determining premium credit eligibility, refers to the MAGI of a given taxpayer and the aggregate MAGI of all persons for whom the taxpayer claims a deduction for a personal exemption. 36 Given this definition, the household may include the taxpayer, the taxpayer's spouse, and other tax dependents. 37
+Note that the use of "household" to determine eligibility for and amount of the premium credit, based on income, is not necessarily equivalent to a family seeking coverage in an exchange ("coverage family"). For example, a hypothetical taxpayer may have three children, two of whom are tax dependents and one of whom is 25 years old (and therefore, because of age, may not be claimed as a tax dependent). However, the parent and children wish to enroll in the same exchange plan. The coverage family is a total of four individuals, because the 25-year-old may be included as a dependent for health insurance purposes. Given that the young adult is not a tax dependent, the young adult's income is not included with the parent's income for premium credit purposes. The parent would claim the credit based on his or her income, using a household size of three (parent and two tax-dependent children). The young adult may claim his or her own credit, using the income amount calculated on his or her own tax return, separate from the parent. In other words, the tax definition of "dependent" results in a separate premium calculation for the young adult, even though the health insurance definition allows the young adult to enroll with the family in the same health plan. 38
+Medicaid 39
+Medicaid is a joint federal-state program that finances the delivery of primary and acute medical services, as well as long-term services and supports (LTSS), to certain low-income individuals. 40 Eligibility for Medicaid is determined by both federal and state law, whereby states set individual eligibility criteria within federal minimum standards. Individuals must meet both categorical (e.g., elderly, individuals with disabilities, children, pregnant women, parents, certain nonelderly childless adults) and financial (i.e., income and sometimes assets limits) criteria, and must otherwise be eligible for coverage. 41 Some eligibility groups are mandatory, meaning that all states with a Medicaid program must cover them; others are optional.
+Determination of Income
+Under the ACA, states are required to transition to a new income-counting rule based on MAGI to establish uniform standards for what income to include or disregard in determining Medicaid eligibility for most nonelderly and nondisabled individuals, children under the age of 18, and adults and pregnant women under the age of 65. 42 Medicaid's MAGI income-counting rule is set forth in statute and regulation. 43 In addition to specifying the types of household income that must be considered during eligibility determinations, the policies also define "household." The income of any person defined as a part of an individual's "household" must be counted when determining that individual's income level for purposes of a Medicaid eligibility determination. 44 These rules are discussed in further detail below.
+Transition to MAGI
+The ACA required states to transition to the MAGI income-counting rule no later than January 1, 2014. In transitioning to the new rule, states were required to establish income eligibility thresholds that were no less than the standards applicable on the date of the ACA's enactment (i.e., March 23, 2010). 45 The ACA also included maintenance of effort (MOE) provisions, under which states were required to maintain their Medicaid programs for adults with no more restrictive eligibility standards, methodologies, and procedures through December 31, 2013 (i.e., until the exchanges were operational), and for Medicaid-eligible children up to the age of 19 until September 30, 2019. 46 , 47 (States that fail to comply with the ACA MOE requirements lose all of their federal Medicaid matching funds. ) The purpose of these policies was to ensure that individuals who were eligible for Medicaid prior to 2014 could maintain coverage in 2014 under the MAGI-equivalent income standards. In addition, through December 31, 2013, states were permitted to establish more expansive income eligibility policies (within federal parameters). As of January 1, 2014, states were no longer permitted to expand eligibility standards to higher income levels through the adoption of income disregards. 48
+How MAGI Is Applied in Medicaid
+Under the Medicaid MAGI income-counting rules, a state will look at an individual's MAGI, deduct an amount equal to 5% of FPL (which the law provides as a standard disregard), 49 and compare that income to the new income standards set by each state in coordination with CMS to determine whether the individual meets the program's eligibility requirements. 50 (For a complete list of Medicaid eligibility categories that are subject to the MAGI income-counting rules, see Table A-1 in the Appendix of this report.)
+MAGI-Exempted Groups
+Under the ACA, certain groups are exempt from the MAGI income-counting rule. (For a complete list of Medicaid eligibility categories that are exempt from the MAGI income-counting rules, see Table A-2 .) Pre-ACA income determination rules under Medicaid will continue to apply to the following MAGI-exempted groups:
+Individuals who are eligible for Medicaid through another federal or state assistance program (e.g., foster care children and individuals receiving Supplemental Security Income [SSI]).
+The elderly (defined as aged 65 and older).
+Certain disabled individuals who qualify for Medicaid on the basis of being blind or disabled, without regard to the individual's eligibility for SSI.
+The medically needy (defined as individuals who are members of one of the broad categories of Medicaid-covered groups, but who do not meet the applicable income requirements).
+Enrollees in a Medicare Savings Program (e.g., qualified Medicare beneficiaries for whom Medicaid pays the Medicare premiums or coinsurance and deductibles).
+In addition, MAGI does not affect eligibility determinations through Express Lane enrollment (to determine whether a child has met Medicaid or State Children's Health Insurance Program [CHIP] eligibility requirements). Nor does MAGI affect eligibility determinations for low-income subsidies for Medicare prescription drugs, or for Medicaid long-term services and supports. 51 For these MAGI-exempted groups, pre-ACA income-determination rules under Medicaid will continue to be used.
+Countable Income
+In general, income eligibility for Medicaid applicants and new enrollees is based on current monthly household income. 52 As indicated in Table 1 , MAGI-based income under Medicaid refers to income calculated using the same methodology used to determine MAGI in Section 36B(d)(2)(B) of the IRC (i.e., it includes tax-exempt interest income received or accrued, interest from U.S. savings bonds used to pay higher education tuition and fees, earned income of U.S. citizens living abroad that was excluded from gross income, and nontaxable portion of Social Security benefits), with some exceptions. Medicaid statute requires "qualified lottery winnings" and "qualified lump sum" income to be considered when determining Medicaid eligibility for certain individuals. 53 Winnings and/or income less than $80,000 are included in AGI only in the month received. Amounts greater than $80,000 are prorated over a specified period depending on amount received. 54 Under Medicaid regulations, irregular income received as a lump sum (e.g., state income tax refund, and one-time gifts or inheritances) is counted as income only in the month received. 55 Also, under Medicaid statute and regulations, particular payments included in AGI may be subtracted to determine MAGI. These include certain payments to American Indians and Alaska Natives, and certain scholarships, awards, and fellowship grants (i.e., work study income) if used for educational costs and not for living expenses and compensation for parent mentors under Medicaid outreach and enrollment grants.
+Family Size and Total Household Income
+The MAGI income-counting rule for Medicaid has two components: (1) family size (or the number of persons counted as members of an individual's household), and (2) total household income. 56
+Family size is determined on a person-by-person basis and is affected by criteria such as living arrangements, legal status, age, how the individuals are related to each other (e.g., multi-generational families), whether the individual is pregnant, who is seeking the Medicaid eligibility determination (i.e., the tax filer or the dependent), and whether the individual is a student. For example, Medicaid rules include unborn children when determining family size, and married couples living together are counted as the same Medicaid household regardless of whether they file a joint tax return. 57
+Once an applicant's family size has been established, a second step is required to determine whether to include the income of each household member in the calculation of total household income. In general, Medicaid defines total household income as the sum of the MAGI-based income of every individual included in the household. However, certain exceptions apply when counting Medicaid household income. 58 These exceptions include
+the income of a child who is included in the household of his or her natural parent, adopted parent, or step-parent and is not expected to file a tax return is not included in the Medicaid household income;
+the income of a tax dependent who is not expected to file a tax return is not included in the Medicaid household income of the taxpayer, regardless of whether the tax dependent files a tax return;
+Medicaid household income may, at state option, include cash support above nominal amounts provided by another tax payer expected to claim a member of the household (other than a spouse, a natural child, adopted child, or step-child) as a tax dependent;
+beginning January 1, 2014, in determining Medicaid eligibility using MAGI-based income, a state must subtract an amount equal to 5 percentage points of the FPL for the applicable family size; 59 and
+on or after January 1, 2018, "qualified lottery winnings" and/or "qualified lump sum" income is not counted as household income when determining Medicaid eligibility for other members of the individual's household. 60
+In a final step, family size and total household income are then compared to the Medicaid eligibility thresholds (which are expressed as a percentage of the FPL) to determine whether the applicant qualifies for the program. 61
+Appendix. MAGI and Medicaid's Eligibility Categories
+Table A-1 shows the Medicaid eligibility categories where MAGI applies, beginning January 1, 2014. Table A-2 shows Medicaid eligibility categories that are exempt from MAGI. Exempted groups include (1) those expressly listed in statute; (2) those where the state does not conduct an income determination (e.g., Supplemental Security Income [SSI] recipients); and (3) those for whom an income test is not required as a part of the statutory requirements for the eligibility pathway (e.g., former foster care children up to the age of 26, and women needing treatment for breast or cervical cancer).
+Table A-1. Medicaid MAGI-Based Eligibility Categories, Beginning January 1, 2014
+Eligibility Category
+Social Security
+Act Citation
+Regulatory Citation (42 C.F.R.)
+Mandatory Eligibility Categories
+Parents/caretaker relatives
+Low-income families
+1902(a)(10)(A)(i)(I) and 1931
+§435.110
+Consolidated group for pregnant women a
+§435.116
+Low-income families
+1902(a)(10)(A)(i)(I) and 1931
+Qualified pregnant women
+1902(a)(10)(A)(i)(III)
+Poverty-level related pregnant women (mandatory)
+1902(a)(10)(A)(i)(IV)
+Pregnant women financially eligible for Aid to Families for Dependent Children (AFDC)
+1902(a)(10)(A)(ii)(I)
+Pregnant women who would be eligible for AFDC if not institutionalized
+1902(a)(10)(A)(ii)(IV)
+Poverty-level related pregnant women (optional)
+1902(a)(10)(A)(ii)(IX)
+Consolidated group for children under the age of 19 a
+§435.118
+Low-income families
+1902(a)(10)(A)(i)(I) and 1931
+Qualified children under the age of 19
+1902(a)(10)(A)(i)(III)
+Poverty-level related infants (mandatory)
+1902(a)(10)(A)(i)(IV)
+Poverty-level related children between the ages of 1 and 5
+1902(a)(10)(A)(i)(VI)
+Poverty-level children between the ages of 6 and 18
+1902(a)(10)(A)(i)(VII)
+Children who would be eligible for AFDC if not institutionalized
+1902(a)(10)(A)(ii)(IV)
+Poverty-level related infants (optional)
+1902(a)(10)(A)(ii)(IX)
+ACA Medicaid expansion group b
+1902(a)(10)(A)(i)(VIII)
+§435.119
+Optional Eligibility Categories
+Parents and other caretaker relatives financially eligible for AFDC
+1902(a)(10)(A)(ii)(I)
+NA c
+Reasonable classifications of children under the age of 21 financially eligible for AFDC or who would be financially eligible if not institutionalized
+1902(a)(10)(A)(ii)(I) and (IV)
+§435.222
+Individuals under the age of 21 who are under state adoption assistance agreements
+1902(a)(10)(A)(ii)(VIII)
+§435.227
+Optional targeted low-income children under the age of 19
+1902(a)(10)(A)(ii)(XIV)
+§435.229
+Optional group for individuals needing treatment for tuberculosis
+1902(a)(10)(A)(ii)(XII)
+NA
+Optional Chafee independent foster care adolescents under the age of 21
+1902(a)(10)(A)(ii)(XVII)
+NA
+Individuals under the age of 65 with income more than 133% of the federal poverty level (FPL) and at or below standard established by state
+1902(a)(10)(A)(ii)(XX)
+§435.218
+Family Planning Option
+1902(a)(10)(A)(ii)(XXI)
+NA
+Source: Centers for Medicare and Medicaid Services (CMS), Medicaid and Children's Health Insurance Program (CHIP) Eligibility Groups in 2014, September 2012.
+a. Represents existing groups that were consolidated beginning January 1, 2014.
+b. On June 28, 2012, the U.S. Supreme Court issued a decision in National Federation of Independent Business v. Sebelius. The Court held that the federal government cannot terminate current Medicaid program federal matching funds if a state does not expand its Medicaid program, effectively making the ACA Medicaid expansion for this new adult group optional.
+c. NA means not applicable and was identified as such by the Centers for Medicare and Medicaid Services on the source document.
+Table A-2. MAGI-Excepted Eligibility Categories, Beginning January 2014
+Eligibility Category
+Social Security Act Citation
+Regulatory Citation (42 C.F.R.)
+Mandatory Eligibility Categories
+Children receiving foster care, adoption assistance, or kinship guardianship assistance under title IV-E of the Social Security Act (SSA)
+1902(a)(10)(A)(i)(I)
+§435.115(e) and §435.145
+Former foster care children up to the age of 26
+1902(a)(10)(A)(i)(IX)
+NA a
+Medicare Savings Program
+Qualified Medicare Beneficiary (QMB)
+1902(a)(10)(E)(i) and 1905(p)
+NA
+Specified Low Income Medicare Beneficiary (SLMB)
+1902(a)(10)(E)(iii) and 1905(p)(3)(A)(ii)
+NA
+Qualifying Individuals (QI)
+1902(a)(10)(E)(iv) and 1905(p)(3)(A)(ii)
+NA
+Qualified Disabled and Working Individuals (QDWI)
+1902(a)(10)(E)(ii), 1905(p)(3)(A)(i), and 1905(s)
+NA
+Aged, blind, or disabled individuals
+Supplemental Security Income (SSI) recipients in §1634 of SSA and SSI criteria states
+1902(a)(10)(A)(i)(II)
+§435.120
+Individuals meeting more restrictive criteria than SSI in 209(b) states b
+1902(f)
+§435.121
+Working disabled individuals
+1902(a)(10)(A)(i)(II), 1619(a), 1619(b), and 1905(q)
+NA
+Disabled widows and widowers ineligible for SSI due to increase in Old-Age, Survivors, and Disability Insurance (OASDI)
+1634(b)
+§435.137
+Disabled adult children
+1634(c)
+NA
+Early widows/widowers
+1634(d)
+§435.138
+Individuals ineligible for SSI/State Supplemental Program (SSP) because of requirements prohibited by Medicaid
+NA
+§435.122
+Individuals receiving mandatory state supplements under Section 212 of P.L. 93-66
+Section 13(c) of P.L. 93-233
+§435.130, §435.1011
+Individuals who would be eligible for SSI/SSP but for Old-Age, Survivors, and Disability Insurance (OASDI) Cost of Living Adjustments (COLA) increases since April 1977 c
+Section 503 of P.L. 94-566
+§435.135
+Individuals who would be eligible for SSI/SSP but for OASDI COLAs in 1972 c
+Public Law 92-36
+§435.134
+Institutionalized individuals continuously eligible since 1973
+NA
+§435.132
+Blind or disabled individuals eligible in 1973 c
+NA
+§435.133
+Individuals eligible as essential spouses in 1973 c
+NA
+§435.131
+Optional Eligibility Categories
+Women needing treatment for breast or cervical cancer d
+1902(a)(10)(A)(ii)(XVIII)
+NA
+Aged, blind, or disabled individuals financially eligible for SSI cash assistance
+1902(a)(10)(A)(ii)(I)
+§435.210 or §435.230
+Aged, blind, or disabled individuals who would be financially eligible for SSI cash assistance if they were not institutionalized
+1902(a)(10)(A)(ii)(IV)
+§435.211
+Individuals in institutions who are eligible under a special income level
+1902(a)(10)(A)(ii)(V)
+§435.236
+Individuals eligible for home and community-based waiver services under institutional rules
+1902(a)(10)(A)(ii)(VI)
+§435.217
+Individuals receiving hospice care
+1902(a)(10)(A)(ii)(VII) and 1905(o)
+NA
+Poverty level (100% federal poverty level) aged or disabled individuals
+1902(a)(10)(A)(ii)(X) and 1902(m)(1)
+NA
+Aged, blind, or disabled individuals receiving only optional state supplements
+1902(a)(10)(A)(ii)(IV) and (XI)
+§435.232 or §435.234
+Work Incentives Eligibility Group (BBA) with income less than 250% FPL
+1902(a)(10)(A)(ii)(XIII)
+NA
+Ticket to Work Basic Group (TWWIIA) of working disabled individuals
+1902(a)(10)(A)(ii)(XV)
+NA
+Ticket to Work Medical Improvements Group (TWWIIA MI) of working disabled individuals
+1902(a)(10)(A)(ii)(XVI)
+NA
+Family Opportunity Act for Children with Disabilities (FOA)
+1902(a)(10)(A)(ii)(XIX)
+NA
+Individuals eligible for home and community-based state plan services (150% FPL)
+1902(a)(10)(A)(ii)(XXII) and 1915(i)
+§435.219
+Individuals eligible for home and community-based state plan services (special income level)
+1902(a)(10)(A)(ii)(XXII) and 1915(i)
+§435.219
+Qualified disabled children under the age of 19 who would be eligible for Medicaid if they were in a medical institution (Tax Equity and Fiscal Responsibility Act of 1982 [TEFRA] children)
+1902(e)(3)
+§435.225
+Individuals participating in a Program of All-inclusive Care for the Elderly (PACE) program under institutional rules
+1934
+NA
+Medically Needy
+Pregnant women
+1902(a)(10)(C)
+§435.301
+Children under the age of 18
+1902(a)(10)(C)
+§435.301
+Individuals under the age of 21 (or under the ages of 20 or 19) or reasonable classifications of such individuals
+1902(a)(10)(C)
+§435.308
+Parents and other caretaker relatives
+1902(a)(10)(C)
+§435.310
+Aged
+1902(a)(10)(C)
+§435.320, §435.330
+Blind
+1902(a)(10)(C)
+§435.322, §435.330, §435.340
+Disabled
+1902(a)(10)(C)
+§435.324, §435.330, §435.340
+Source: Centers for Medicare and Medicaid Services (CMS), Medicaid and Children's Health Insurance Program (CHIP) Eligibility Groups in 2014, September 2012.
+a. NA means not applicable and was identified as such by the Centers for Medicare and Medicaid Services on the source document.
+b. Federal law gives states the option to use financial eligibility criteria for their aged, blind, and disabled populations that are more restrictive than SSI. States that use this alternative to SSI program rules are typically referred to as "209(b) states."
+c. Closed to new enrollment.
+d. Individuals are determined eligible for this pathway based on screening by Centers for Disease Control and Prevention (CDC) program without an income test performed by Medicaid.
+Author Contact Information
+Evelyne P. Baumrucker, Coordinator, Specialist in Health Care Financing
+( [email address scrubbed] , [phone number scrubbed])
+Patricia A. Davis, Specialist in Health Care Financing
+( [email address scrubbed] , [phone number scrubbed])
+Bernadette Fernandez, Specialist in Health Care Financing
+( [email address scrubbed] , [phone number scrubbed])
+Ryan J. Rosso, Analyst in Health Care Financing
+( [email address scrubbed] , [phone number scrubbed])
+Brian T. Yeh, Legislative Attorney
+( [email address scrubbed] , [phone number scrubbed])
+Acknowledgments
+Carol A. Pettit and Erika Lunder, former CRS legislative attorneys, and Annie L. Mach, former CRS analyst, contributed to earlier versions of this report.
+Footnotes
+1 .
+Brian T. Yeh authored this section of the report.
+2 .
+26 U.S.C. §62.
+3 .
+26 U.S.C. §61.
+4 .
+The 2017 tax revision, P.L. 115-97 , made changes to certain above-the-line deductions, such as temporarily repealing the deduction for moving expenses (other than for members of the Armed Forces). For further information, see CRS Report R45092, The 2017 Tax Revision (P.L. 115-97): Comparison to 2017 Tax Law .
+5 .
+Per State Children's Health Insurance Program (CHIP) regulations at 42 C.F.R . §457.315, the Medicaid MAGI rules at 42 C.F.R. 435.603 subsections (b) through (i) also apply to CHIP.
+6 .
+Patricia A. Davis authored this section of the report.
+7 .
+The Medicare Modernization Act of 2003 (MMA; P.L. 108-173 ) would have phased in the increase over five years; however, the Deficit Reduction Act of 2005 (DRA, P.L. 109-171 ) shortened the phase-in period to three years.
+8 .
+See Centers for Medicare & Medicaid Services, "2019 Medicare Parts A & B Premiums and Deductibles," fact sheet, October 12, 2018, at https://www.cms.gov/newsroom/fact-sheets/2019-medicare-parts-b-premiums-and-deductibles .
+9 .
+In 2019, the standard monthly Part B premium will be $135.50; however, about 3.5% of Part B enrollees are expected to be protected by a "hold-harmless" provision and will pay a lower amount. For additional information on Part B premiums, see CRS Report R40082, Medicare: Part B Premiums .
+10 .
+In 2019, the base monthly Part D premium will be $33.19; however, actual premiums paid by beneficiaries may vary depending on the prescription drug plan that they select. The hold-harmless provision does not apply to Part D premiums. See CRS Report R40611, Medicare Part D Prescription Drug Benefit .
+11 .
+In 2019, there will be five high-income premium tiers; depending on income, beneficiaries can pay 35%, 50%, 65%, 80% or 85% of per capita Parts B or D expenditures. For additional information, see Social Security Administration, Medicare Premiums: Rules for Higher-Income Beneficiaries, at http://www.ssa.gov/pubs/EN-05-10536.pdf .
+12 .
+§3402 of the Patient Protection and Affordable Care Act (ACA; P.L. 111-148 , as amended) froze the thresholds used to determine high-income premiums at the 2010 level. These levels were maintained through 2017. In 2018 and 2019, §402 of the Medicare Access and CHIP Reauthorization Act of 2015 ( P.L. 114-10 ) maintains the freeze on the income thresholds for the lower two high-income premium tiers but reduces the threshold levels for the two highest income tiers so that more beneficiaries will fall into the higher percentage categories. Beginning in 2020, the thresholds will be adjusted annually for inflation. See CRS Report R43962, The Medicare Access and CHIP Reauthorization Act of 2015 (MACRA; P.L. 114-10) .
+13 .
+Centers for Medicare & Medicaid Services, "Medicare Program: Medicare Part B Monthly Actuarial Rates, Premium Rate, and Annual Deductible Beginning January 1, 2019," 83 Federal Register 52462, October 17, 2018, at https://www.gpo.gov/fdsys/pkg/FR-2018-10-17/pdf/2018-22530.pdf .
+14 .
+See also Social Security Program Operations Manual, HI 01101.010, "Modified Adjusted Gross Income (MAGI)," at https://secure.ssa.gov/poms.nsf/lnx/0601101010 .
+15 .
+The Parts B and D high-income premium determinations are based on the same definition of MAGI. Specifically, the Social Security Act §1860D-13(a)(7)(C) states that MAGI has the same meaning for Part D as it does for Part B as defined in §1839(i)(4).
+16 .
+20 C.F.R. §418.1010(b)(6).
+17 .
+Major life-changing events include (1) death of a spouse; (2) marriage; (3) divorce or annulment; (4) partial or full work stoppage for the individual or spouse; (5) loss by individual or spouse of income from income-producing property when the loss is not at the individual's direction (e.g., a natural disaster); or (6) reduction or loss for individual or spouse of pension income due to termination or reorganization of the plan or scheduled cessation of the pension. (C.F.R. §418.1205.)
+18 .
+Social Security Administration, "Medicare Income-Related Monthly Adjustment Amount—Life-Changing Event," Social Security Form SSA-44, at http://www.ssa.gov/online/ssa-44.pdf .
+19 .
+Ryan J. Rosso authored this section of the report.
+20 .
+For more information about the individual mandate, see CRS Report R44438, The Individual Mandate for Health Insurance Coverage: In Brief .
+21 .
+26 U.S.C. §5000A(c)(4)(B). The individuals for whom a taxpayer is allowed a deduction for personal exemptions are identified in 26 U.S.C. §151. Although P.L. 115-97 temporarily repealed the deduction for personal exemptions through 2025, it expressly did not impact any other tax determination relying on, or referring to, personal exemptions.
+22 .
+26 U.S.C. §5000A(c)(4)(C). P.L. 112-56 , which changed the definition of income for the purposes of determining eligibility for ACA premium credits and Medicaid to include nontaxable social security benefits, did not apply the change to the individual mandate provision.
+23 .
+In 2018, the filing thresholds for most individuals under the age of 65 are $12,000 for a single filing status and $24,000 for most married couples filing jointly where both spouses are under the age of 65. The filing threshold is linked to an inflation adjustment based on the Chained Consumer Price Index for All Urban Consumers (C-CPI-U), and therefore it may be higher in future years.
+24 .
+When calculating the flat-dollar amount assessed on a taxpayer and his or her dependents, the flat-dollar amount is reduced by one-half for dependents under the age of 18 and the total family penalty is capped at 300% of the annual flat-dollar amount.
+25 .
+In statute, the affordability threshold was set at 8% for 2014. The 8.05% threshold for 2018 is a result of the statutory requirement that the threshold percentage be adjusted in subsequent years to reflect the excess rate of premium growth above the rate of income growth for the period.
+26 .
+26 U.S.C. §5000A(e)(1).
+27 .
+Bernadette Fernandez authored this section of the report.
+28 .
+See Kaiser Family Foundation, "State Health Insurance Marketplace Profiles," at https://www.kff.org/state-health-marketplace-profiles/ .
+29 .
+The ACA gives states the option to merge both exchanges and operate them under one structure.
+30 .
+For additional information about the ACA's premium tax credits, see CRS Report R44425, Health Insurance Premium Tax Credits and Cost-Sharing Subsidies .
+31 .
+An exception is made for lawfully present aliens with income below 100% of the federal poverty level (FPL) who are ineligible for Medicaid for the first five years that they are lawfully present. These taxpayers will be treated as though their income is exactly 100% FPL for purposes of the premium credit.
+32 .
+The definition of minimum essential coverage is broad. It generally includes Medicare Part A; Medicaid; the State Children's Health Insurance Program (CHIP); TRICARE; the TRICARE for Life program, a health care program administered by the Department of Veterans Affairs; the Peace Corps program; a government plan (local, state, federal), including the Federal Employees Health Benefits Program (FEHBP); any plan established by an Indian tribal government; any plan offered in the individual, small-group, or large-group market; a grandfathered health plan; and any other health benefits coverage, such as a state health benefits risk pool, as recognized by the Secretary of Health and Human Services in coordination with the Treasury Secretary.
+33 .
+Since the premium tax credits are administered through the individual income tax filing process, credit recipients are required to file federal tax returns, even if they do not have federal tax liability.
+34 .
+The standard plan that will be used in the premium credit formula is the second-lowest-cost "silver" plan in the local area. Silver refers to a type of health plan that meets an actuarial value of 70%. For a summary discussion about actuarial value, see the "Actuarial Value and Metal Plans" textbox in CRS Report R44425, Health Insurance Premium Tax Credits and Cost-Sharing Subsidies .
+35 .
+26 U.S.C. §36B(d)(2).
+36 .
+These individuals are identified in 26 U.S.C. §151. Although P.L. 115-97 temporarily repealed the deduction for personal exemptions through 2025, it expressly did not impact any other tax determination relying on, or referring to, personal exemptions.
+37 .
+The IRS final regulations on premium tax credits (77 Federal Register 30377) clarified that the household could include individuals who are exempt from the ACA individual mandate. Moreover, although an individual who is incarcerated or not lawfully present may not enroll in an exchange health plan (and is consequently ineligible for premium credits), he or she may be an applicable taxpayer for a family member who is eligible to enroll in an exchange (and potentially eligible for premium credits).
+38 .
+This hypothetical example is a summary of an example included in the IRS final regulations. For the full example and explanation, see 26 C.F.R.1.36B-3(h).
+39 .
+Evelyne P. Baumrucker authored this section of the report.
+40 .
+For more information about Medicaid, see CRS Report R43357, Medicaid: An Overview , and CRS Report R43328, Medicaid Coverage of Long-Term Services and Supports .
+41 .
+Individuals also need to meet federal and state requirements regarding residency, immigration status, and documentation of U.S. citizenship.
+42 .
+The transition to MAGI represents a major change in terms of the types of information collected (e.g., what counts as income) and the definition of "household" (e.g., the inclusion of step-parent income) compared with former Medicaid income-eligibility rules. Under the former Medicaid income-eligibility rules, those regarding income exclusions and disregards varied greatly across states and Medicaid eligibility categories.
+43 .
+Sections 1902(a)(17), 1902(e)(14)(E) and 1902(e)(14)(J) of the Social Security Act and 42 C.F.R. §435.603(e). Per CHIP regulations at 42 C.F.R. §457.315, the Medicaid MAGI rules at 42 C.F.R. 435.603 subsections (b) through (i) also apply to CHIP.
+44 .
+See 42 C.F.R. §435.603(d).
+45 .
+§1902(e)(14)(E)) of the Social Security Act.
+46 .
+§1902(gg) of the Social Security Act.
+47 .
+Subsequent laws extended the Medicaid and CHIP MOE requirements through FY2027 for children in families with annual income less than 300% of the federal poverty level. For more information see CRS Report R45136, Bipartisan Budget Act of 2018 (P.L. 115-123): CHIP, Public Health, Home Visiting, and Medicaid Provisions in Division E .
+48 .
+§1902(e)(14)(B) of the Social Security Act.
+49 .
+The 5% FPL income disregard is applicable only if an individual is at the highest income limit for coverage. See 42 C.F.R. §435.603(d)(4).
+50 .
+For state Medicaid income eligibility standards for selected Medicaid eligibility groups subject to the MAGI income counting-rules, based on state decisions as of April 1, 2018., see Centers for Medicare & Medicaid Services, "State Medicaid and CHIP Income Eligibility Standards," at https://www.medicaid.gov/medicaid/program-information/medicaid-and-chip-eligibility-levels/index.html .
+51 .
+Long-term services and supports include institutional services, such as nursing facility care, and home- and community-based services, such as home care, personal care, transportation, and care management, furnished under the Medicaid state plan or the state's Medicaid waiver program.
+52 .
+When redetermining eligibility for current Medicaid enrollees, states are permitted to use current monthly income and family size or projected annual income and family size for the remaining months of the calendar year. For states that choose the latter measure, the rules for projected household income and family size under Medicaid differ as compared to the rules under the exchanges. Specifically, Medicaid requires the applicant to predict income and household size for the remaining months of the calendar year, whereas applicants seeking eligibility for premium tax credits must predict income and household size based on the tax year. See 42 C.F.R. §435.603(h)(2). States are required to use "reasonable methods" to account for changes in income such as, increases or decreases in income due to seasonal work. See 42 C.F.R. §435.603(h)(3).
+53 .
+"Qualified lottery winnings" are defined as winnings (including amounts awarded as a lump sum payment) from a state-conducted sweepstakes or lottery, or a lottery operated by a multistate or multijurisdictional lottery association. "Qualified lump sum" income is defined as income received as a lump sum from monetary winnings from gambling (as defined by the Secretary of Health and Human Services and including monetary winnings from gambling activities described in Section 1955(b)(4) of title 18 of the U.S. Code).
+54 .
+Amounts greater than or equal to $80,000 but less than $90,000 are prorated over a period of two months. Amounts greater than or equal to $90,000 but less than $100,000 are prorated over a period of three months. For purpose of prorating winnings and/or income in amounts greater than or equal to $100,000, one additional month is added for each increment of $10,000 received, not to exceed 120 months (or 10 years) for winnings and/or income of $1,260,000 or more. Winnings and/or income greater than or equal to $80,000 are counted in equal monthly installments over the applicable time period.
+55 .
+42 C.F.R. §435.603(e).
+56 .
+42 C.F.R. §435.603.
+57 .
+42 C.F.R. §435.603(f)(4).
+58 .
+42 C.F.R. §435.603(d)(2) through (d)(4).
+59 .
+42 C.F.R. §435.603(d)(4) makes it clear that the MAGI 5% income disregard applies only if an individual is on the verge of not being Medicaid-eligible because his or her income is too high.
+60 .
+42 U.S.C. 1396a(e)(14)(K).
+61 .
+For a specific example of how these rules play out, see Rules and Regulations, 77 Federal Register 17152, Friday, March 23, 2012. For more information on Medicaid's new MAGI-based eligibility levels adjusted for the 5% disregard, effective January 1, 2014, see Table A-1 of CRS Report R43347, Budgetary and Distributional Effects of Adopting the Chained CPI .

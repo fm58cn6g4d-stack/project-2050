@@ -13,7 +13,7 @@ Role: section 9 of the care dossier for parts B, C and D: a plain-language brief
 - *Child care and pre-K.* From the 2030-31 school year, child care is free for families at or below 85% of their state's median income, and pre-K is free for 4-year-olds. From July 2032 no family pays more than 7% of its income for child care, with no income limit. By 2033-34 pre-K is free for every 3-year-old too.
 - *Care workers.* From January 2030, care workers paid with public money earn at least $20 an hour in 2026 dollars, rising with wages. Early educators reach pay parity with elementary teachers by the 2036-37 school year. Nursing homes have a registered nurse on site around the clock from 2031.
 
-**What it costs.** On our estimates, about $3.5 trillion over fiscal years 2030-39 and about $730 billion in 2040, about 1.3% of the economy. About $577 billion of that 2040 figure is new beyond what the plan's budget already counts (section 6). Most of it replaces what families now pay themselves or give in unpaid care. States keep paying a share: half of what they spend on long-term care today, and a fifth of child care's cost after three years. How the rest is paid is decided with the plan's other taxes.
+**What it costs.** On our estimates, about $3.5 trillion over fiscal years 2030-39 and about $730 billion in 2040, about 1.3% of the economy. About $580 billion of that 2040 figure is new beyond what the plan's budget already counts (section 6). Most of it replaces what families now pay themselves or give in unpaid care. States keep paying a share: half of what they spend on long-term care today, and a fifth of child care's cost after three years. How the rest is paid is decided with the plan's other taxes.
 
 **What it protects.** No one spends down their savings or loses their home to get long-term care. No family pays more than 7% of its income for child care. Relatives can still be paid for care wherever their state allows it today.
 
@@ -32,7 +32,7 @@ Families carry the cost of care alone until they are poor enough for Medicaid. T
 
 ## Hard questions, plain answers
 
-**After Medicare for All, can we afford this too?** It is a large commitment: on our estimates about $730 billion in 2040, about 1.3% of GDP, and about $577 billion of that beyond what the budget already counts. The cost was cut by about a fifth before anything was promised, and every protection was kept. Most of it is not new spending in the economy. It replaces what families now pay out of pocket for nursing homes, aides and day care, and the unpaid care relatives give, worth about as much again as paid care (ASPE) [EV-CAR-436]. Whether the country can carry it is settled for the plan as a whole, with health's taxes, not for this part alone. The tax design is not finished, and we don't claim families come out ahead until it is.
+**After Medicare for All, can we afford this too?** It is a large commitment: on our estimates about $730 billion in 2040, about 1.3% of GDP, and about $580 billion of that beyond what the budget already counts. The cost was cut by about a fifth before anything was promised, and every protection was kept. Most of it is not new spending in the economy. It replaces what families now pay out of pocket for nursing homes, aides and day care, and the unpaid care relatives give, worth about as much again as paid care (ASPE) [EV-CAR-436]. Whether the country can carry it is settled for the plan as a whole, with health's taxes, not for this part alone. The tax design is not finished, and we don't claim families come out ahead until it is.
 
 **Will you pay my daughter to take care of me?** Where your state allows it today, yes. Most states allow paying relatives in at least one program (44 do in at least one waiver [EV-CAR-439]), and the plan keeps those rules when the benefit starts in 2035. Relatives are paid at least the $20 floor, through a public payroll agent. A national study, randomized where states agree, reports by 2034 on paying spouses and parents everywhere. The plan's administrator can then extend it to every state.
 
@@ -61,7 +61,7 @@ Families carry the cost of care alone until they are poor enough for Medicaid. T
 | "No asset test for long-term care from 2035" | "Free long-term care": there are capped copays above 200% of poverty, and residents pay room and board from income |
 | "Anyone already getting Medicaid help at home keeps it" | "No one loses help": people who would have qualified for Medicaid later at two activities are covered only where their state keeps that option |
 | "Child care costs no more than 7% of income from July 2032" | "Free child care for all": it is free at or below 85% of state median income |
-| "On our estimates, about $730 billion a year by 2040, about 1.3% of GDP; about $577 billion beyond what the budget already counts" | "It pays for itself" or "no new taxes"; or the cost without "on our estimates" |
+| "On our estimates, about $730 billion a year by 2040, about 1.3% of GDP; about $580 billion beyond what the budget already counts" | "It pays for itself" or "no new taxes"; or the cost without "on our estimates" |
 | "Most of the cost replaces what families now pay or give in unpaid care" | "Families come out ahead" until the taxes are set |
 | "Care workers earn at least $20 an hour in 2026 dollars from 2030" | "A $20 minimum wage": the floor covers publicly paid care only |
 | "Relatives can be paid wherever their state allows it today; a national decision follows a study" | "Pay any family caregiver, anywhere" |
@@ -83,7 +83,7 @@ Families carry the cost of care alone until they are poor enough for Medicaid. T
 | Most families with young children have every parent working | 3c, point 2; section 7, part 5 | EV-CAR-518 |
 | About half of families with young children at or below 85% of state median income (project estimate) | Memo 12 (section 3c's memo set) | Judgment, memo 12 |
 | About $3.5 trillion over FY2030-39; about $730 billion in FY2040; 1.3% of GDP (project estimate) | Section 6, parts 1 and 5 | Project arithmetic, `tools/care_bcd_path.py` |
-| About $577 billion beyond what is booked, FY2040 (project estimate) | Section 6, part 5 | Project arithmetic, `tools/care_bcd_path.py` |
+| About $580 billion beyond what is booked, FY2040 (project estimate) | Section 6, part 5 | Project arithmetic, `tools/care_bcd_path.py` |
 | Cut by about a fifth | Memo 17 (19% lower in 2040); section 6, part 1 | Project arithmetic, `tools/care_repricing.py` |
 | States: half of current long-term care spending; a fifth of child care after three years | Section 4, HLT-9.09, FAM-2.08; section 6, part 3 | `DEC-2026-11-11-06` |
 | Three daily activities; the hold-harmless; state option below the line | Section 4, HLT-9.01, 9.02, HLT-4.08 | `DEC-2026-11-11-02`, `DEC-2026-11-11-06` |

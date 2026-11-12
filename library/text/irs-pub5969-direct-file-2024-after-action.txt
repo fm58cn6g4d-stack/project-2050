@@ -1,0 +1,2648 @@
+Source: https://www.irs.gov/pub/irs-pdf/p5969.pdf
+Publisher: Internal Revenue Service
+Retrieved: 2026-11-12
+Original SHA-256: 5ff517089745306a64c498da0aca4fea8a276025fbddf205793bc15d96145b93
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+IRS Direct File Pilot Program
+Filing Season 2024 After Action Report
+May 3, 2024
+
+Publication 5969 (5-2024) Catalog Number 94963W | Department of the Treasury Internal Revenue Service www.irs.gov
+
+Table of Contents
+Table of Contents .................................................................................................................... 1
+Message from the Commissioner of the IRS ........................................................................ 2
+Executive Summary ................................................................................................................ 5
+Introduction ............................................................................................................................. 6
+Background ........................................................................................................................... 6
+What is Direct File? ............................................................................................................... 6
+About this Report ................................................................................................................... 7
+Section I: The Direct File Pilot................................................................................................ 8
+Mission .................................................................................................................................. 8
+Scope and Eligibility .............................................................................................................. 9
+Delivery Approach ............................................................................................................... 11
+Pilot Design ......................................................................................................................... 12
+Participation......................................................................................................................... 15
+Section II: Technology and Taxpayer Experience .............................................................. 18
+Taxpayer Opinions ............................................................................................................... 18
+Accuracy.............................................................................................................................. 22
+Iterative Improvement .......................................................................................................... 24
+Performance ........................................................................................................................ 26
+Security................................................................................................................................ 27
+Section III: Customer Support.............................................................................................. 28
+Live Chat ............................................................................................................................. 28
+Test, Learn, and Iterate........................................................................................................ 31
+Feedback Loops with Product ............................................................................................. 33
+Customer Satisfaction.......................................................................................................... 33
+Section IV: State Taxes ......................................................................................................... 35
+Conceptual Overview........................................................................................................... 35
+Results................................................................................................................................. 39
+Section V: Cost ...................................................................................................................... 41
+Section VI: Next Steps .......................................................................................................... 43
+Appendix I: Touchpoints Survey Results............................................................................ 45
+
+1
+
+Message from the Commissioner of the IRS
+The conclusion of the 2024 tax filing season marks the closure of the Direct File pilot, a yearlong effort to study the interest in — and feasibility of — creating a direct e-filing system as a
+new option for taxpayers to file federal income tax returns. Direct File is an important part of
+our effort to meet taxpayers where they are, give them choices as to what best meets their
+needs when interacting with the IRS, or otherwise meet their tax obligations as easily and
+quickly as possible. And it is a key component of our modernization efforts, which were
+detailed in our recently released annual update to our Strategic Operating Plan.
+Here’s how we got to this point. As mandated by the Inflation Reduction Act, the IRS delivered
+a Direct File Report to Congress in May 2023 that found broad interest in a tool to
+electronically file taxes directly with the IRS.
+Shortly after that report, as directed by the Treasury Department, we worked to answer
+whether a direct e-filing option is feasible. We assembled a team of some of the smartest and
+most experienced tax experts, digital product specialists, engineers, pilot strategists, and data
+scientists from across the federal government. They studied the challenges, met with tax
+officials from dozens of states, and designed a pilot for a system that is secure, accurate, easy
+to use — and free. The Direct File platform used this filing season contained more than 350
+screens. Under the hood were more than 1,000 “facts” representing information about the
+filer’s tax situation.
+By design, the Direct File Pilot started out gradually to allow the team to test the new system.
+In February, we began testing Direct File with a handful of volunteer federal and state
+government employees. The team continuously refined and strengthened the system based
+on its technical performance and feedback from its first users. Over several weeks, we
+incrementally opened the system to new users in short availability windows before fully
+launching Direct File on March 8th.
+Throughout this filing season, we saw strong interest in Direct File from taxpayers throughout
+the country. Millions of people – including many from outside of the 12 pilot states – visited the
+Direct File website to learn about the new system. Over the course of the pilot, more than 3.3
+million taxpayers started the Eligibility Checker to see if they could use Direct File; 423,450
+taxpayers logged into Direct File; and 140,803 taxpayers submitted accepted returns. In cases
+where a user’s tax situation was out of scope for the pilot, they were directed to other options
+to complete their tax returns. Direct File issued more than $90 million in tax refunds and
+collected $35 million in tax balances due.
+
+2
+
+Overall, usage was in line with our expectations for the limited pilot, and it far exceeded what
+was necessary to provide sufficient data to evaluate. In the filing season’s final weeks, the
+percent growth in accepted returns submitted through the Direct File system outpaced the
+growth in total returns accepted by the IRS across all platforms. During the final week, more
+than 5,000 taxpayers submitted returns each day using Direct File, and the system stood up
+well under the high-volume push of the tax season’s final days.
+A key aspect of the pilot was learning more about what taxpayers expect from this kind of
+system. More than 15,000 Direct File users participated in the General Services
+Administration’s Touchpoints survey, which collects comprehensive user feedback about
+government systems. In the GSA Touchpoints survey about Direct File:
+•
+
+90% of respondents ranked their experience as Excellent or Above Average.
+
+•
+
+When asked what they particularly liked, respondents most commonly cited Direct
+File’s ease of use, trustworthiness, and that it was free.
+
+•
+
+Additionally, 86% of respondents said that their experience with Direct File increased
+their trust in the IRS.
+
+•
+
+90% of survey respondents who used customer support rated that experience as
+Excellent or Above Average.
+
+Direct File’s users told us that the system saved them time — filing their taxes with Direct File
+generally took less than an hour, and many reported filing in as little as 30 minutes. One
+taxpayer even said it was fun. Nearly half of Direct File users reported paying for tax
+preparation last year, and the Treasury Department estimates that Direct File users saved $5.6
+million in tax preparation fees. More than 4% of Direct File users report filing on paper last
+year; one lesson we will focus on is how to ease the transition from paper to electronic filing.
+The cost to develop the Direct File pilot came in much lower than initial estimates. Through the
+end of the pilot, the total amount spent by IRS was $24.6 million, including the Report to
+Congress. Direct File’s operational costs — including customer service, cloud computing and
+user authentication — were just $2.4 million. To build and run the pilot, the IRS also engaged
+the U.S. Digital Service (USDS). The IRS’s agreement with the U.S. Digital Service does not
+involve costs to IRS.
+The IRS has already learned a lot from the Direct File experience. The first big decision we
+made was to start small and get it right, focusing on what I call executional certainty. We found
+the right first step to test the demand and the user experience and make a strong product. By
+sizing this correctly, we were able to be more agile and launch something that we can all learn
+from.
+The second big decision we made was to take the time to get it right. The filing season started
+on January 29th, but we waited to test the product thoroughly and incrementally roll it out to
+3
+
+more users to focus on the taxpayer experience. As I noted in a recent hearing in the U.S.
+Senate, our goal above all was not to maximize the number of users, but to engage enough
+users to test the product thoroughly. The results demonstrate that not only is a high performing
+Direct File option feasible, but that a critical success factor for when the government rolls out
+new technology is to start small and scale from there.
+This report examines the Direct File pilot in greater detail: the pilot itself, the technology and
+taxpayer experience, Direct File’s innovative customer support system, integration with state
+tax systems, and the cost and benefits of the pilot. While the IRS has not made a decision
+about the future of Direct File, this report captures lessons from our initial analysis of the pilot’s
+data. We have labeled these lessons opportunities, because they will help to both improve the
+tax filing ecosystem and inform the decision about Direct File’s future. We anticipate making a
+decision about the future of Direct File later this Spring.
+Finally, this effort was not done by the IRS alone. We worked closely with partners from the
+U.S. Digital Service and GSA’s 18F, as well as private sector partners, who all brought critical
+agile technology expertise. They worked side by side in a team room at IRS headquarters,
+which was inspiring to visit and see the energy, excitement, and different parts of the
+government working closely together.
+I want to thank everyone who worked incredibly hard over the past year to design, build, and
+operate Direct File. I especially want to thank the taxpayers who took a chance to try a new
+system and give us critical feedback that will — regardless of any future decisions — help us
+better serve taxpayers in the years ahead.
+
+Daniel I. Werfel
+Commissioner of Internal Revenue
+
+4
+
+Executive Summary
+In Filing Season 2024, the IRS piloted a new option for filing an individual income tax return —
+Direct File — as part of the IRS’s Inflation Reduction Act Strategic Operating Plan to transform
+the taxpayer experience. Direct File provides taxpayers the option to electronically file their
+federal tax return for free, directly with the IRS.
+Modern product development best practices recommend starting small and growing over time.
+This concept was foundational both to the product’s limited scope and to how it was rolled out
+incrementally to taxpayers over the course of the filing season. The results provide an
+evidence base for future decisions while also ensuring that the investment provides immediate
+value to taxpayers.
+Over the course of the pilot, more than 3.3 million taxpayers started the Direct File Eligibility
+Checker, 423,450 taxpayers logged in to Direct File, and 140,803 taxpayers submitted
+accepted returns.
+Figure 1. Number of accepted returns by day
+25,000
+20,000
+15,000
+10,000
+5,000
+0
+2/5/24
+
+2/12/24
+
+2/19/24
+
+2/26/24
+
+3/4/24
+
+3/11/24
+
+3/18/24
+
+3/25/24
+
+4/1/24
+
+4/8/24
+
+4/15/24
+
+The limited pilot required the IRS to confront three core operational challenges: 1) developing
+an accessible, accurate, and secure technology product that would meet taxpayer
+expectations; 2) providing robust and integrated customer support; and 3) facilitating the filing
+of state and local income taxes.
+Direct File was well received by the taxpayers who used it, with 90% rating their experience
+“Excellent” or “Above average,” earning a Net Promoter Score (NPS) of +74. Direct File
+afforded the IRS the opportunity to explore delivering customer support via live chat, and the
+IRS built a new, secure Application Programming Interface (API) to enable taxpayers to
+seamlessly complete their state taxes.
+There is additional work to be done to evaluate the pilot itself, understand its impact, and
+identify enhancements that would improve the user experience for possible future years.
+5
+
+Introduction
+Background
+In accordance with §10301(1)(B) of the Inflation Reduction Act (Public Law No. 117-169,
+enacted August 16, 2022), in May 2023 the Internal Revenue Service (IRS) delivered to
+Congress a report on a potential IRS-run free direct e-file system (Direct File) 1. After reviewing
+the report, the U.S. Department of Treasury directed the IRS to pilot Direct File in filing season
+2024 to gather data to further assess issues identified in the report before deciding whether to
+deploy a full-scale Direct File solution. 2
+The limited pilot required the IRS to confront the three core operational challenges identified in
+the Report to Congress: 1) developing an accessible, accurate, and secure technology
+product that would meet taxpayer expectations; 2) providing robust and integrated customer
+support; and 3) facilitating the filing of state and local income taxes.
+
+What is Direct File?
+Direct File is a service that provides taxpayers
+the option to electronically file their federal tax
+return for free, directly with the IRS. Learning
+from IRS’s experiences with Economic Impact
+Payments and the Advance Child Tax Credit,
+Direct File is an interview-based service that is
+intended to work as well on a mobile phone as it
+does on a laptop, tablet, or desktop computer. It
+is available in English and Spanish and is
+designed to be accessible to taxpayers who
+have a variety of attitudes, aptitudes, abilities,
+and access needs.
+Customer support is a critical part of the taxpayer experience of Direct File, with bilingual live
+chat provided by IRS assistors who can offer technical support and basic clarification of tax
+law questions. As a result, this function is embedded within the operations of the service itself.
+
+IRS. IRS Report to Congress: InﬂaƟon ReducƟon Act §10301(1)(B) IRS-run Direct e-File Tax Return System.
+htps://www.irs.gov/pub/irs-pdf/p5788.pdf
+1
+
+Commissioner Werfel. Leter to Secretary Yellen, May 16, 2023. htps://www.irs.gov/pub/newsroom/leter-tosecretary-yellen-direct-ﬁle.pdf
+2
+
+6
+
+A “one team” approach promotes a holistic experience for taxpayers and creates feedback
+loops to continuously improve the Direct File product in response to customer support
+questions.
+Although Direct File only files federal tax returns, taxpayers also have state and local filing
+obligations. Direct File facilitates the completion of these obligations by providing a seamless
+experience in which taxpayers can optionally import their federal return data into a third-party
+tool that can file state and/or local taxes, without needing to reenter information.
+
+About this Report
+This report describes the IRS’s approach to piloting Direct File and a preliminary overview of
+what was learned. The report has six sections. While no decision has been made about the
+future of Direct File, the report identifies opportunities for improvement that reflect lessons
+learned from the pilot and should be considered for any future iteration.
+Section I describes the pilot itself. Modern product development best practices recommend
+starting small and growing over time. This concept was foundational both to the product’s
+limited scope and to how it was rolled out incrementally to taxpayers over the course of the
+filing season. The results provide an evidence base for future decisions while also ensuring
+that the investment provides immediate value to taxpayers.
+Each of the next three sections reassesses an operational challenge identified in the Report to
+Congress. Section II looks at the implementation of the Direct File product, the opinions of
+taxpayers who participated in the pilot, and what was learned building the underlying
+technology. Section III explores how the IRS provided integrated customer support via live
+chat. And Section IV explores state taxes and whether state filing needs presented a barrier to
+adoption.
+Section V appraises the costs of the pilot. Full cost estimation of a potential expansion of
+Direct File in filing season 2025 remains incomplete, and key data to assess the benefits of
+Direct File will become available and be provided later this year.
+The final section identifies next steps that will continue over the course of fiscal year 2024 to
+complete IRS’s assessment of the Direct File pilot.
+
+7
+
+Section I: The Direct File Pilot
+Mission
+The IRS has a significant impact on the lives of the American people, and is responsible for
+collecting approximately 97% of the revenue to support the operations of the U.S.
+government. 3 The amount of time the American people spend recordkeeping, gathering tax
+materials, filling out their taxes, and other tax-related activities makes up approximately 63%
+of all Federal paperwork burden annually. 4 On average, including all associated forms and
+schedules for non-business income, individual taxpayers spend approximately 9 hours and
+$150 preparing their taxes each year. 5
+Taxpayer expectations, opinions, and perceptions of the IRS are shaped by these experiences
+of filing tax returns. Tax returns can be prepared and submitted in many ways, including via
+paper through the mail; electronically through IRS’s Free File or Free File Fillable Forms;
+through a free tax return preparation site, such as IRS’s Volunteer Income Tax Assistance
+(VITA) and the Tax Counseling for the Elderly (TCE) programs; through commercial do-ityourself software, both paid and free; and with support from professional tax preparers.
+As the IRS considered a potential Direct File service, it needed to understand how Direct File
+would complement these existing options, strengthen the tax filing ecosystem, and fulfill the
+transformation objectives of IRS’s Inflation Reduction Act Strategic Operating Plan. The
+agency’s vision for a potential Direct File option revolves around three themes:
+•
+
+Get it right from the start. Direct File represents a commitment to helping every
+taxpayer file an accurate return and get the tax benefits to which they are entitled.
+Taxpayers shouldn't have to worry about having made a mistake or miss out on a
+valuable credit. Direct File is one potential mechanism for increasing the fairness of
+our tax system.
+
+•
+
+Taxes are the product. Direct File seeks to improve the experience of taxes
+themselves. It is an opportunity to increase tax fluency via transparent, clear
+explanations while reducing the burden of tax filing. In concert with rejuvenated
+
+3 IRS. “Final Monthly Treasury Statement for Fiscal Year 2023 through September 30, 2023, and other Periods.” Page 38.
+
+htps://ﬁscaldata.treasury.gov/staƟc-data/published-reports/mts/MonthlyTreasuryStatement_202309.pdf
+
+4 IRS. Research, Applied AnalyƟcs & StaƟsƟcs. Tax Compliance Burden Report 2023. Page 1. htps://www.irs.gov/pub/irs-
+
+pdf/p5743.pdf
+
+5 IRS. Tax Year 2023 InstrucƟons for forms 1040 (and 1040-SR). Page 108. htps://www.irs.gov/pub/irs-
+
+pdf/i1040gi.pdf#page=108. These cost esƟmates do not consider post-ﬁling interacƟons with the IRS.
+
+8
+
+customer support, increased outreach and assistance options, and a focus on
+simplifying notices and IRS.gov content, the IRS has more levers than ever to make
+taxes accessible to everyone.
+•
+
+One option among many. While Direct File ensures the availability of an always free
+filing option, it is essential that Americans have the choice to file however suits them,
+even if that’s on paper. Lessons learned and technology developed by Direct File can
+be shared across the IRS and the tax filing ecosystem to make everyone’s experience
+of taxes better, no matter how they file.
+
+There are many potential taxpayer benefits that could eventually be realized with a Direct File
+capability. They include:
+•
+
+Accessing past year and information return data that the IRS already has, such as W2s or 1099s, to reduce burden and catch issues before you file 6
+
+•
+
+Assisting you with updating your withholding to avoid unexpected tax bills
+
+•
+
+Helping you stay on top of estimated tax payments if you’re self-employed
+
+•
+
+Connecting you with other government programs for which you might be eligible,
+including SNAP, TANF, Medicaid/CHIP, WIC, CCDF, LIHEAP, and more
+
+•
+
+Making it easy to enroll in Social Security and Medicare as you approach retirement
+age
+
+However, before these opportunities can be considered, the IRS would need to build new
+processes to operate, maintain, evaluate, and improve a complex technology product. Modern
+product development best practices recommend starting small and growing over time — an
+approach that was foundational to the Direct File pilot. The product was built with a limited
+scope for the pilot, enabling the IRS to assess the viability of its approach while also ensuring
+that the investment provided immediate value to taxpayers. And it was rolled out incrementally
+to taxpayers over the course of the filing season to allow the IRS to continue to test Direct File
+prior to making it available to the general public.
+
+Scope and Eligibility
+The supported tax situations are the single biggest determinant of the complexity of the
+product. Direct File did not impose an income limit or other arbitrary restriction on eligibility;
+instead, it followed the precedent of the VITA program. Although VITA aims to assist taxpayers
+who “generally make $64,000 or less” (among other categories), it does so by identifying the
+tax provisions most relevant to this audience, and marking other, less relevant provisions as
+out of scope.
+
+6
+
+IRS. InﬂaƟon ReducƟon Act Strategic OperaƟng Plan. Page 30. htps://www.irs.gov/pub/irs-pdf/p3744.pdf
+
+9
+
+Direct File sought to design a tax scope that would accommodate the needs of a significant
+portion of low- to middle-income working individuals, couples, and families with wage income.
+Scope items were considered based on four criteria:
+1. Prevalence: How many additional taxpayers would be eligible?
+2. Complexity: What level of effort would be required to implement it?
+3. Ease of explanation: Would it make it easier for taxpayers to self-identify as in- or
+out-of-scope?
+4. Customer support: Would it impact the demand for customer support or implicate
+additional training needs?
+Direct File’s pilot scope is depicted in Table 1.
+Table 1. Direct File tax scope
+Basics
+
+Income
+
+Deductions, Adjustments,
+and Credits
+
+• Form 1040 and 1040-SR
+• Must be a U.S. resident
+• Any filing status
+• Dependents (claiming by
+non-custodial parents not
+supported)
+• Language and accessibility
+preferences (Schedule LEP,
+Form 9000)
+
+• Wages
+• Interest of $1,500 or less
+• Unemployment compensation
+• Social Security and Tier I
+Railroad Retirement Benefits 7
+
+• Child Tax Credit and Credit
+for Other Dependents
+• Earned Income Tax Credit
+• Claiming credits after
+disallowance (Form 8862)
+• Standard deduction
+• Student loan interest
+deduction
+• Educator expenses
+deduction
+
+Eligibility was further restricted by the requirement to be a full-year resident of one of twelve
+pilot states. These included eight states without state income taxes and an additional four
+states that agreed to partner with the IRS on the Direct File pilot. 8 For more information on this
+scope limit, see Section IV: State Taxes.
+Prior to the start of the pilot, the Research, Applied Analytics and Statistics Division (RAAS)
+estimated that 19 million taxpayers would be eligible to participate in the Direct File pilot given
+these scope limits.
+
+Direct File did not include Tier I Railroad ReƟrement Beneﬁts in public materials, aŌer the team idenƟﬁed that
+this was a potenƟal source of confusion due to overlap with Tier II beneﬁts.
+7
+
+An addiƟonal non-income tax state, Alaska, was excluded from pilot eligibility because dividends from the Alaska
+Permanent Fund, received by most Alaska residents, were not supported in Direct File.
+
+8
+
+10
+
+Delivery Approach
+As described in the Report to Congress, by May 2023, the IRS had built a functioning internal
+prototype of Direct File as part of its exploratory work to understand taxpayer interest. The
+version of Direct File that pilot participants used to file their taxes is a direct descendant of this
+prototype.
+Prototypes are excellent for trying out ideas and conducting user research with taxpayers. But
+while the Report to Congress prototype could successfully e-file a simple tax return, it
+represents less than 10% of the overall effort that went into building Direct File. In June 2023,
+the IRS began to scale up its delivery effort to develop the Direct File pilot, a process that
+continued throughout calendar year 2023.
+To produce the prototype, the IRS was supported by a small team from the U.S. Digital
+Service (USDS). To get Direct File production-ready, including standing up the customer
+support function, the IRS expanded its partnership with USDS, hired four new software
+engineers, executed an interagency agreement with the General Services Administration
+(GSA)’s 18F, and contracted with two Small Business Administration (SBA)-certified 8(a) small
+businesses that specialize in modern software development and design practices. The U.S.
+Department of Treasury contributed one part-time tax law attorney-advisor to the team.
+These resources were combined on blended teams, with federal employees and contractors
+working side-by-side. Each team included multiple disciplines, with no separation between
+design and engineering, and they were empowered to iteratively find the best solution to highlevel requirements, to develop new features in response to feedback from taxpayers, and to
+prioritize a backlog of potential work. Team members from all organizations served in
+leadership roles. This blended-teams approach was foundational to Direct File as the IRS
+wanted to both capitalize on expertise across the government and private sector and model
+new ways of working collaboratively to develop and deliver technology products.
+Direct File is deployed on IRS’s Integrated Enterprise Portal (IEP) cloud infrastructure and
+leveraged services and expertise from across IRS Information Technology. IRS’s Office of
+Chief Counsel reviewed all tax-related language and logic for accuracy, and Taxpayer Service
+Division (TS) Submission Processing supported the integration of Direct File and Modernized
+e-File (MeF). Direct File joined the Security Summit public-private partnership and fully
+implemented the Summit’s Trusted Customer requirements in order leverage lessons learned
+over more than two decades of e-filing.
+To deliver a multilingual product, Direct File partnered with TS Media and Publications and
+Communications and Liaison (C&L), leveraging those offices’ Spanish language translation
+capability and expertise. However, given the complexity of Direct File, which often requires the
+software to dynamically adapt language to a particular tax situation, it was also necessary to
+have Spanish language expertise embedded within the team to perfect translations and
+
+11
+
+implement them in the product. This embedded support was critical to delivery of a fullyfeatured Spanish experience and would need to be replicated with additional languagespecific resourcing should Direct File incorporate additional languages in the future,
+highlighting a challenge of developing and maintaining a multi-lingual product.
+The Direct File team employed a human-centered approach to the design of Direct File.
+Industry-standard methods included unstructured one-on-one interviews, observations, and
+usability testing, and involved engaging directly with taxpayers with a range of attitudes,
+aptitudes, abilities, and access needs. Research was done in both English and Spanish and
+included taxpayers who use assistive technology. Research findings informed design
+decisions, identified areas for improvement, and assessed the ease with which taxpayers
+could answer questions accurately and confidently. In addition to traditional participant
+recruiting methods, non-profit community and accessibility organizations connected the
+research team with taxpayers across the country.
+Research continued through the pilot, with findings informing continued iteration of the
+product. Some studies focused on improving the usability of sections that generated demand
+for customer support. Other studies aimed to learn first-hand what Direct File users liked or
+would like to see improved. While the primary goal of these studies was to iterate upon and
+improve Direct File during the pilot, this research also informs Section II: Technology and
+Taxpayer Experience. All told, 33 studies were conducted with the participation of 195
+taxpayers.
+Direct File offered customer support via live chat with IRS employees in both English and
+Spanish. Customer support representatives (CSRs), managers, and leads from TS Accounts
+Management (AM) volunteered to support the Direct File pilot and split time between Direct
+File and AM based on demand from Direct File. Approximately 400 IRS employees were
+trained to use live chat technology and answer Direct File questions, although far fewer were
+scheduled to support Direct File on any given day.
+Customer support was integrated within the operations of the service itself. A “one team”
+approach promoted a holistic experience for taxpayers by ensuring that the customer support
+and product teams were in close communication, with daily (or even more frequent) feedback
+loops improving the quality of both the product’s user experience and of customer support’s
+answers. Customer support operated with a test, learn, and iterate approach, and like the
+product team, used agile and human-centered practices to deliver customer support to
+taxpayers. For more on the approach, see Section III: Customer Support.
+
+Pilot Design
+Direct File was rolled out in phases, with the goal of starting small and expanding its userbase
+over time. Direct File is just one filing option among many, and maximizing usage of Direct File
+
+12
+
+was not the goal of the pilot and not necessary for the IRS to learn from the pilot and collect
+data to inform future decisions. Instead, the pilot was designed to limit risk, including risk to
+taxpayers, by only expanding Direct File as much as was necessary to answer key questions.
+While the IRS hoped that Direct File would be ready to make available to all eligible taxpayers
+before the end of filing season 2024, this was not a foregone conclusion and was conditioned
+on meeting certain “gating criteria” that provided the IRS with a benchmark to evaluate service
+readiness against prior assumptions.
+While the pilot was designed to safely roll out and evaluate Direct File, the pilot itself was also
+an experiment, based on assumptions that could be validated or invalidated based on what we
+learned. Like many Direct File documents, presentations on pilot strategy began with the
+unofficial team motto, “We’re trying something new, this will change as we learn.”
+The original pilot design contained five phases, which are outlined in Table 2.
+
+13
+
+Table 2. Direct File pilot phases
+Objectives
+
+Changes as implemented
+
+Phase A: Invite-only
+internal testing with
+government employees
+
+Validate the successful
+operation of core functionality,
+including federal return filing,
+state integrations, and customer
+support
+
+The Spanish language version of
+Direct File was planned to be
+available by the end of Phase A.
+After delays implementing
+translations, and with the
+removal of Phase B, the IRS
+decided to proceed without this
+functionality until it was made
+available in mid-March during
+the public phase.
+
+Invite-only
+
+Phase
+
+The IRS approved moving to the
+next phase on February 22,
+2024.
+Phase B: Invite-only
+external testing with
+community partners
+
+Validate the product and
+customer support with a
+representative audience of
+taxpayers
+
+This phase was removed in
+advance of filing season after
+engagement with community
+partners revealed concerns
+about the level of effort required
+to implement it.
+
+Phase C: Controlled
+public availability during
+limited, unannounced
+windows
+
+Regulate demand to ensure
+Direct File scales gradually and
+gracefully
+
+This phase was pivoted after
+initial windows of availability
+revealed that additional access
+restrictions were not necessary
+to induce the desired gradual
+product growth.
+
+Public
+
+The IRS approved moving to the
+next phase on March 12, 2024.
+Phase D: Announcement
+of 24/7 availability,
+subject to potential close
+
+Evaluate demand for Direct File
+without controls limiting its use
+
+Phase E: Full availability
+through the end of filing
+season
+
+All eligible and interested
+taxpayers can participate in the
+pilot and provide feedback on
+Direct File
+
+This phase proceeded as
+planned.
+The IRS approved moving to the
+next phase on March 19, 2024.
+This phase proceeded as
+planned.
+
+The pilot began with Phase A, extending invitations to approximately 1,850 IRS employees
+and employees of the state revenue agencies that had developed integrated state tools. Of the
+employees who volunteered to try out Direct File, six further agreed to be among the “First
+Filers.” These First Filers allowed members of the Direct File team to observe the preparation
+of their tax return, while other members of the team monitored systems for potential issues.
+Additional care was exercised by starting with just employees from non-income tax states,
+
+14
+
+enabling the team to ensure the reliability of federal return functionality before taxpayers
+began transferring those returns to integrated state tools.
+The original pilot design then called for extending invitations to members of the public
+recruited by community partner organizations. After extensive engagement with these
+organizations on the logistics of this Phase B, the IRS and its partners collectively agreed in
+advance of filing season that the complexity and effort required was not realistic, and partners
+instead encouraged interested taxpayers to try out Direct File after public availability was
+announced in Phase D.
+However, before Phase B was removed, the completion of the Spanish language version of
+Direct File was identified as a Phase A gating criterion to ensure that invitations could be
+extended via community partners serving Spanish-speaking communities. Implementation of
+translations was delayed, and with the removal of Phase B, IRS decided to move the release
+of a Spanish language version to the start of Phase D.
+The next phase, Phase C, was intended to address concerns from other past government IT
+launches in which systems were overwhelmed by the demands of instantly scaling from very
+few users to hundreds of thousands, or even millions. While Direct File and the IRS IT team
+conducted performance testing simulating these demands, testing was constrained because
+these tests could not be conducted while integrated with the MeF system, resulting in some
+unknowns associated with the system’s ability to scale.
+To address these concerns, Phase C prescribed opening Direct File to sign-ups from new
+users during short, unannounced windows. However, the underlying concerns about rapid
+scaling proved unsubstantiated, and taxpayers and community groups expressed confusion
+about the unpredictability of the windows.
+As a result, on March 8, the IRS pivoted toward announcing 24/7 availability of Direct File
+during Phase C, what the team would internally term “Phase C+.” Guardrails were
+implemented where should the number of users grow by more than an order of magnitude in a
+single day, Direct File would automatically close until the following day. These guardrails
+increased over time but were never triggered, and Direct File remained available through the
+end of filing season 2024. Direct File closed to new submissions at midnight on April 15 (April
+17 for Maine and Massachusetts residents) and closed to resubmissions of rejected returns at
+midnight on April 20.
+
+Participation
+Over the course of the pilot, more than 3.3 million taxpayers started the Direct File Eligibility
+Checker, 423,450 taxpayers logged in to Direct File, and 140,803 taxpayers submitted
+accepted returns. This usage was in line with IRS expectations for the pilot, which specified a
+
+15
+
+goal of 100,000 accepted returns, and far exceeded what was necessary to provide sufficient
+data for the IRS to evaluate.
+Figure 2 shows the progress of taxpayers through Direct File. As only 12% of taxpayers were
+eligible to participate in the pilot, these conversion rates were expected; indeed, at multiple
+points along the journey, Direct File guides taxpayers for whom it might not be the right choice
+to other filing options, with a focus on other free filing options.
+Figure 2. Direct File conversion funnel
+
+Number of users
+
+4.0M
+3.5M
+
+3,340,500
+
+3.0M
+2.5M
+2.0M
+1.5M
+677,663
+
+1.0M
+
+423,450
+
+0.5M
+0.0M
+
+Start eligibility
+checker
+
+395,483
+
+Complete eligibility Create/sign in to Start a tax return
+checker
+an IRS account
+
+161,042
+
+140,803
+
+Submit a tax
+return
+
+Submit an
+accepted tax
+return
+
+This data alone does not suggest the total extent of taxpayer interest in Direct File. Direct File
+was unavailable to the general public early in filing season when many taxpayers file early to
+receive much needed tax refunds. The 2024
+Figure 3. Direct File’s growth
+
+Taxpayer Experience Survey (TES) will again
+
+outpaced ﬁling season trends.
+
+include questions about Direct File, potentially
+revealing more about taxpayers’ updated level of
+
+Growth in receipts over baseline
+
+700%
+
+interest with the benefit of the pilot and
+
+600%
+
+associated media coverage.
+
+500%
+
+What the data does show is that whatever the
+
+400%
+
+theoretical maximum level of interest is, it has
+
+300%
+
+not yet been reached. Each week following the
+
+200%
+
+announcement of Direct File’s availability,
+growth in Direct File usage far outpaced overall
+
+100%
+0%
+
+3/15
+
+3/22
+
+3/29
+
+4/5
+
+4/12
+
+Week ending
+
+4/19
+
+filing season trends, reflecting significant upside
+potential, as shown in Figure 3. The data
+demonstrates taxpayer demand for a Direct File
+
+Direct File weekly receipts
+
+option, and further study can quantify the extent
+
+IRS weekly receipts
+
+of that demand.
+
+72% of Direct File users requested refunds, totaling $90,417,855. 24% had a balance due,
+totaling $35,268,154, with the remainder of taxpayers having a $0 balance.
+
+16
+
+Direct File was available in 12 states across the country. Figure 4 shows the number of
+accepted returns from each state, according to the address provided on Form 1040. 9
+Figure 4. Direct File returns by state
+33,328
+29,099
+20,840
+14,144
+
+13,954
+7,871
+
+CA
+
+TX
+
+FL
+
+NY
+
+WA
+
+MA
+
+6,929
+
+TN
+
+6,894
+
+AZ
+
+4,076
+
+NV
+
+1,647
+
+751
+
+504
+
+766
+
+NH
+
+SD
+
+WY
+
+Other
+
+After submitting or resubmitting a Direct File return, a taxpayer could optionally respond to a
+survey. The survey was built using GSA’s Touchpoints customer experience feedback solution
+and was available starting on March 19, 2024 (taxpayers who used Direct File prior to this
+point would not have had the opportunity to take the survey). Figures 5 and 6 show taxpayer
+answers to Touchpoints survey questions about how they accessed Direct File and what
+method of filing they used last year.
+Figure 5. What type of device did
+
+Figure 6 How did you prepare your federal
+
+you use to access Direct File? 10
+
+income tax return last year?
+
+A personal laptop or desktop
+computer
+A personal smart phone or
+tablet
+
+75%
+30%
+
+I used software or an online
+tool that I paid for
+
+31%
+
+I used free software or a free
+online tool
+
+27%
+
+A public computer (e.g. at a
+library or work)
+
+3%
+
+I did not file last year
+
+16%
+
+Other
+
+1%
+
+I used a paid preparer
+
+16%
+
+I prepared my return on
+paper
+
+4%
+
+Other
+
+6%
+
+Taxpayers were eligible for Direct File if they lived in one of the twelve parƟcipaƟng states for all of 2023.
+“Other” includes taxpayers who moved to other states aŌer the end of the year, and servicemembers with
+military addresses, who are considered to reside in their home state.
+9
+
+Taxpayers could select mulƟple answers to this quesƟon, reﬂecƟng that taxpayers might use mulƟple devices to
+interact with Direct File, so percentages do not sum to 100%.
+
+10
+
+17
+
+Section II: Technology and Taxpayer
+Experience
+The Report to Congress said, “Developing Direct File would require the IRS to develop new
+skills and processes to operate, maintain, and improve complex technological products.” 11
+55% of taxpayers expected Direct File to offer a comparable experience to other tax
+preparation software, and 31% expected it to be either “somewhat easier” or “much easier” to
+use. Taxpayers expected that Direct File would be accurate and secure. This section explores
+whether the IRS was able to meet these taxpayer expectations.
+
+Taxpayer Opinions
+For the primary quantitative measure of taxpayer opinions of Direct File, the IRS selected the
+Net Promoter ScoreSM (NPS) customer sentiment metric. 12 The Touchpoints survey asked
+taxpayers who used Direct File, “On a scale from 0 to 10, how likely are you to recommend
+Direct File to a friend or family member?” The NPS methodology sorts responses into three
+categories: respondents who rate Direct File a 9 or a 10 are “promoters,” ratings of 7 or 8 are
+“passives,” and 6 or lower are “detractors.” The percentage of detractors is subtracted from
+the percentage of promoters (passives are ignored), giving a score ranging from -100 to +100.
+Direct File has a NPS of +74, as shown in Figure 7. If compared to benchmark scores from
+financial services companies, Direct File would lead in eight of nine categories. 13
+Figure 7. Direct File’s Net Promoter Score
+14%
+
+6%
+
+Promoters
+Passives
+Detractors
+80%
+
++74
+
+Net Promoter Score
+
+IRS. IRS Report to Congress: InﬂaƟon ReducƟon Act §10301(1)(B) IRS-run Direct e-File Tax Return System. Page
+20. htps://www.irs.gov/pub/irs-pdf/p5788.pdf
+11
+
+12
+
+Net Promoter ScoreSM is a service mark of Bain & Company, Inc., NICE Systems, Inc., and Fred Reichheld.
+
+Bain & Company. “New Bain CerƟﬁed NPS Benchmarks: Companies Customers Love.” Page 7.
+htps://media.bain.com/Images/BAIN_DIGEST_New_Bain_CerƟﬁed_NPS_Benchmarks.pdf
+
+13
+
+18
+
+The Touchpoints survey engendered a robust response, with a 13% completion rate and
+15,082 responses. The survey was offered in both English and Spanish, and Spanish
+speakers were particularly enthusiastic about responding, with a 26% completion rate. The
+survey provided ample space for free text responses to prompts about different aspects of the
+Direct File experience, suggestions about how the product could be improved, and invited
+taxpayers to participate in future user research about their experience. However, as a
+completion survey, administered after submitting or resubmitting a tax return, it does not
+capture the views of taxpayers who decided not to use Direct File. The 2024 TES, once
+available, will better measure of the opinions of all taxpayers, regardless of whether they filed
+using Direct File or not.
+
+Overall experience
+When asked to rate their overall experience
+
+Figure 8. Please rate your overall experience
+
+using Direct File, 90% of respondents chose
+
+using Direct File.
+
+Excellent or Above Average (see Figure 8).
+
+1%
+
+Asked what they particularly liked, respondents
+most often cited Direct File’s ease of use,
+trustworthiness and association with the IRS,
+and that it was free.
+Taxpayers appreciated Direct File’s clear
+
+8%
+
+Excellent
+Above average
+Average
+Below average
+
+1%
+
+22%
+68%
+
+Very poor
+
+instructions and straightforward approach. In
+response to what they liked about Direct File,
+one taxpayer responded, “Clear instructions and it was easy to verify with my phone while my
+laptop updated the info at the same time. Everything was fast and directions and links were
+easy to follow.” Even taxpayers who had less experience with taxes were pleasantly surprised.
+One said of their experience, “Más difícil para mí que nunca había hecho algo así. Pensé era
+mucho más, y más difícil, pero no.” (Harder for me since I had never done something like this.
+I thought it would be much more difficult, but no.)
+More quotes on this theme:
+•
+
+“The information is presented clearly, and I never found myself confused. The links
+that provide quick info (tooltips?) were especially good.”
+
+•
+
+“La información y pasos a seguir fueron muy claros de entender y muy fácil de seguir.”
+(The information and steps to follow were very clear to understand and very easy to
+follow.)
+
+•
+
+“It was amazing, easiest taxes I've ever prepared! Really impressed that this was put
+together by the IRS.”
+
+19
+
+•
+
+“Todo el proceso es de lo mejor, preciso y eficiente.” (The entire process is top notch,
+precise and efficient.)
+Taxpayers described their trust in the system. One said, “The
+
+Figure 9. My experience with
+
+entire system made me trust that my taxes were done
+
+Direct File increased my trust in
+
+correctly.” Another taxpayer believed that the ease of using
+
+the IRS.
+
+Direct File aided them in preparing an accurate return, saying,
+“The simplification of the process prevented any potential
+misunderstandings and streamlined the process.” And
+
+14%
+
+taxpayers appreciated the ability to file directly with the IRS.
+One said, “Greatly appreciate the opportunity to file directly
+with the IRS rather than a third-party provider. The system
+86%
+Yes
+
+No
+
+was easy to use and understand.” These feelings translated
+toward increased overall trust in the IRS, with 86% of
+taxpayers saying that their experience with Direct File
+increased their trust (see Figure 9).
+
+Of course, taxpayers appreciated that Direct File was free. When asked what they liked about
+Direct File, one taxpayer responded, “I liked that it was 100% free and simple.” One user
+research participant described how she had lost her job this year, was short on cash, and the
+tax software she had used previously would cost $70 for filing a 1099-G for unemployment
+compensation. Usually, she would have filed at the beginning of tax season, but this year,
+money was so tight that she thought she would need to wait for her next paycheck to be able
+to cover the cost of filing her taxes. She decided to use Direct File because it was free. Asked
+to rate her experience using Direct File, she said, “10 out of 10,” and was happy about her
+choice because it was easy to use, and she had
+received the same refund without being charged a
+fee to file.
+Taxpayers who used the multilingual and/or
+accessibility features of Direct File emphatically
+appreciated that the product was designed for their
+
+“The simplification of the
+process prevented any
+potential misunderstandings
+and streamlined the process.”
+
+needs. A Spanish speaker said, “Que lo hice en español. Sí hablo inglés, pero prefiero
+español para estar más seguro que lo estoy haciendo bien.” (I did it in Spanish. I do speak
+English, but I prefer Spanish to be more confident that I am doing it right.) A taxpayer with
+accessibility experience wrote, “I design many forms for my job and conduct accessibility
+audits of them, and this entire experience just made my heart leap for joy. A few years ago, I
+was brought nearly to tears the first time I filed my taxes with paper forms. Since then, I've
+studied a range of best practices and standards for easily usable and accessible online form
+design, and this Direct File system nailed every single one of them. I am so beyond
+impressed, and I sincerely hope this program continues and expands in the future.”
+
+20
+
+Taxpayers who did not like their experience of Direct File sometimes attributed their answer to
+one of the reasons described below, or they encountered a bug while preparing their return.
+Others appear to have answered in accordance with negative views of taxes or the IRS
+generally.
+
+How tax filing can be improved
+When asked how their experience could be improved, taxpayers who used Direct File
+sometimes identified confusing parts of the tax filing experience.
+Taxes remain an often difficult topic for many, and taxpayers pointed to items they found
+confusing. One said they would want to see “more explanation of the financial jargon used.
+Most Americans (including me) have low financial literacy. And on the box 12 options explain
+that there may be multiple and what they are for maybe.” Boxes 12 and 14 on the W-2 were a
+frequent source of confusion, and Direct File shipped a revamp of these questions on April 9,
+2024. One taxpayer, who used Direct File before these improvements, said, “When entering
+the amount from W-2's box 12, verbiage isn't clear on adding an amount box. That is the only
+thing that wasn't clear.” Some taxpayers realized their own error, but these cases can identify
+opportunities for better content and additional validation. A taxpayer wrote, “The estimated tax
+question was confusing. I initially thought it meant the amount taken out of each check, but I
+was able to figure it out because we had already entered that amount.”
+Many taxpayers described identity proofing during the sign-up process as easy. But others
+experienced issues completing this step or disliked the idea of having to do it. A taxpayer said,
+“The selfie and facial recognition did not work. After 2 tries I had to do the live video agent
+which took longer.” Another wrote, “I almost didn't use Direct File because I am not used to this
+level of security. The free tax filing service I usually use does not require any photo [ID] or a
+selfie.” And some taxpayers noted concerns about the accessibility of the experience, such as
+one blind taxpayer, who said, “Being blind it’s hard to find the right spot to look and open my
+eyes enough to take the photos needed.” But taxpayers also understood the value of security
+protections, with one saying, “I liked the facial identity and verifying my driver's license. I felt
+very secure with that safety measure.”
+
+“Let me know when I
+make an error before
+letting the return submit.”
+
+Taxpayers want Direct File to validate information on
+their returns prior to submission, i.e., not wanting to wait
+for the return to be accepted or rejected. One said, “Let
+me know when I make an error before letting the return
+submit. I hit the submit button again on accident without
+
+correction.” This topic was extensively explored in user research. One research participant
+described a negative experience having their return rejected due to having entered the wrong
+Self-Select PIN (a number used to confirm your identity based on previous year’s return) and
+had to contact customer support and submit multiple times before getting it right. During
+another session observing this same section, a taxpayer entered a number, hit save, and
+
+21
+
+remarked, “Oh good, I guess that was right.” Unfortunately, Direct File wasn’t validating the
+entry in the way the taxpayer expected, and if the info was wrong, the return would have been
+rejected.
+In the Report to Congress, the IRS wrote, “[Surveys and user research] suggest that taxpayer
+interest in a potential Direct File tool is likely to be greater if it includes the capability to prepopulate returns with tax information.” 14 While the lack of this capability did not prove to be a
+barrier to adoption, it remained one of the most common feature requests. Quotes on this
+theme include:
+•
+
+“Since the IRS already has my data on file, when I log in, how about pre-filling some of
+the demographic fields?”
+
+•
+
+“You have access to our W-2's, [1099-] INT’s, and all other tax forms. I know it will take
+some time to set up the proper methods but, eventually, it would be nice to have all
+that autofilled.”
+
+•
+
+“Reference last year’s tax return and ask if anything changed.”
+
+Another common answer taxpayers gave when asked how Direct File could be improved was
+to suggest expanding it to more states and tax situations. One said, “If you can make Direct
+File available to ALL Americans in all 50 states and all territories that would help the American
+people and our economy.” Another wrote, “Con respecto a la declaración de impuestos, sería
+bueno que todos los estados del país tengan este fácil acceso para declarar sus impuestos y
+también agregar los formularios faltantes.” (Regarding filing taxes, it would be good for all the
+states in the country to have this easy access to file their taxes, and to also add the missing
+forms.) And another taxpayer suggested, “Allowing for filing on more types of income. Does
+not affect me now, but in the future, I would wish to be able to file all my income not being
+limited to specific forms.”
+
+Accuracy
+Like any new software product, Direct File was not without bugs. The pilot design enabled
+many of these bugs to be addressed before most users ever encountered the product, but
+throughout the pilot, taxpayers would occasionally encounter rare glitches, which in some
+cases required taxpayers to reset their return and start over, or even prevented them from
+filing with Direct File altogether.
+However, the category of bug that the IRS spent the most effort to prevent is any bug that
+could affect the accuracy of a tax return. That is, a bug that would cause Direct File, despite
+
+IRS. IRS Report to Congress: InﬂaƟon ReducƟon Act §10301(1)(B) IRS-run Direct e-File Tax Return System. Page
+15. htps://www.irs.gov/pub/irs-pdf/p5788.pdf
+14
+
+22
+
+being provided with accurate and honest answers by the taxpayer, to nevertheless produce an
+inaccurate tax return from those answers. Following modern software development best
+practices, the IRS developed a suite of automated tests that were run for each proposed
+change to Direct File and before updates could be deployed. The IRS developed a set of more
+than 90 tax return scenarios that ran automatically, encompassing the full scope of Direct File,
+including every filing status, income source, deduction, credit, form, and schedule. More than
+1,600 additional test cases were written to test other aspects of Direct File’s implementation of
+tax law.
+These testing strategies successfully prevented any tax accuracy regressions, meaning bugs
+where Direct File was at one time producing accurate output, but a change to the software
+broke the functionality.
+However, during the pilot, the team identified four bugs in rare edge cases that were not
+covered by tests. Three of these bugs were visible during the public phases of the pilot and
+are known to have affected 26 returns (less than 0.02% of the returns filed by Direct File). In
+addition to fixing these bugs, the IRS added additional tests to ensure that these issues could
+not recur. Affected taxpayers may receive math error notices and a refund of overpayment.
+Once data is available, the IRS will review the rates at which Direct File returns were
+amended, and the reasons taxpayers had for amending returns. In addition to the taxpayer
+frustration caused by needing to amend a return, amended returns are also costly for the IRS
+to process. An analysis of amendment rates, and the reasons taxpayers had to file
+amendments, could identify further opportunities to improve the accuracy of Direct File,
+including in how it guides taxpayers to recognize when they are missing information necessary
+to file their return.
+
+Opportunity: Open source
+The IRS could take further steps to build public trust and enable independent assessment of
+its work. The Direct File product team was given the mandate to develop software that
+ensures every taxpayer receives the full benefit of any tax provisions for which they are
+eligible. Releasing components of Direct File as open-source software would enable the team
+to demonstrate this commitment.
+Open-source software refers to code that is publicly available and licensed under terms that
+grant others the right to inspect, modify, and reuse that code. Open-sourcing components of
+Direct File, and in particular the components that implement and test its tax logic, would serve
+a number of purposes. First, it would enable public scrutiny of that code and invite
+independent groups to assess its accuracy and report potential issues. Second, other tax
+administrators, both in states and internationally, could build upon and contribute to the IRS’s
+work, improving the robustness of the software over time and providing additional public value.
+Finally, the IRS’s work could serve as a reference for implementation of the Internal Revenue
+
+23
+
+Code as computer code, enabling businesses and others to incorporate the IRS’s code into
+their own software and increasing the vibrancy of the tax ecosystem.
+Direct File’s source code is not releasable in its current state, as it includes sensitive but
+unclassified (SBU) information, such as the implementation of security and fraud protection
+measures. However, should Direct File continue in future years, the IRS could prioritize
+separating sensitive and non-sensitive components of Direct File to enable open sourcing as
+much of the application as possible.
+
+Iterative Improvement
+As noted earlier, the Direct File team took an iterative approach to delivering Direct File and
+continue to deploy updates to the product throughout the filing season. These updates
+included additional functionality and enhancements based on pilot data as well as feedback
+received from customer support and users. One of the best examples of this can be seen in
+the use of last year’s adjusted gross income (AGI). To sign e-filed returns, MeF requires
+taxpayers to verify their identity using either last year’s AGI or a five-digit “self-select PIN”
+chosen when e-filing the prior year, as well as their date of birth. Filing options that have been
+available for multiple years can persist information between years, but as a first-year product,
+every taxpayer was using Direct File for the first time; Direct File had no prior-year information.
+Figure 10. Percentage of submissions rejected for After early data revealed baseline reject rates
+in excess of 18% for last-year AGI or selfincorrect last-year AGI or
+select PIN, the Direct File user experience
+
+self-select PIN
+
+design (UX) team began to look for
+
+20%
+18%
+
+opportunities to better guide taxpayers to the
+
+18.2%
+
+correct information, including by showing
+information earlier in the flow, by improving
+
+16.4%
+
+16%
+
+explanatory text, and by elevating the
+
+14%
+12.1%
+
+12%
+10%
+
+Baseline
+
+After UX
+After adding data
+improvements
+import
+
+prominence of links to the IRS Individual
+Online Account (IOLA), which shows last
+year’s AGI on the Tax Records tab. These
+enhancements lowered the reject rate to
+16.4%, a 10% improvement (see Figure 10).
+
+24
+
+Late in the pilot, a small team embarked on a two-week sprint to see if this experience could
+be further improved. As Direct File taxpayers are already authenticated into their IRS account,
+they have access to all of the information in that account. Instead of asking taxpayers to visit
+their account to copy and paste information into Direct File, could Direct File bring the
+information in their IRS account to them? The results are shown in Figure 12, and this
+improvement resulted in a further 25% improvement, a more
+than one-third reduction in rejections from the baseline.
+Notable also is how quickly this feature was implemented; it
+was conceived on Monday, March 25 and shipped on Friday,
+April 5, with all engineering, design, content, translation,
+testing, and approvals occurring in that time, including close
+collaboration between the Direct File and Online Account
+teams. This approach to giving taxpayers access to the
+information that the IRS knows about them and allowing them
+to use that information to make it easier to file their returns is in
+line with larger IRS strategic objectives. 15
+Figure 11. A screen was updated to show last year’s
+AGI if available in your IRS account and enable you
+to copy that informaƟon to Direct File in one click.
+
+Direct File could implement this improvement in less than two weeks because it already uses
+the same IRS account as IOLA. But other filing options, including those provided by industry
+partners, could also take advantage of these approaches in the future.
+
+Opportunity: Sign returns without last year’s AGI
+While the ability to access data from IOLA is a notable experience improvement, were Direct
+File to continue in the future, it could take this experience one step further. Direct File is
+assessed as an Identity Assurance Level 2 (IAL2) system under standards from the National
+Institute of Standards and Technology (NIST). 16 This level of identity assurance is sufficient to
+support current IRS e-Signature policy as specified in IRM 10.10.1. 17 Direct File could
+leverage its existing identity assurances, and the Electronic Signature Storage and Retrieval
+system (ESSAR), to completely deprecate knowledge-based authentication (KBA) on Direct
+
+15
+
+IRS. InﬂaƟon ReducƟon Act Strategic OperaƟng Plan. Page 30. htps://www.irs.gov/pub/irs-pdf/p3744.pdf
+
+Grassi et al. NIST Special PublicaƟon 800-63-3: Digital IdenƟty Guidelines.
+htps://nvlpubs.nist.gov/nistpubs/SpecialPublicaƟons/NIST.SP.800-63-3.pdf
+
+16
+
+IRS. Internal Revenue Manual 10.10.1. IRS Electronic Signature (e-Signature) Program.
+htps://www.irs.gov/irm/part10/irm_10-010-001
+
+17
+
+25
+
+File. This would mean that taxpayers would no longer need to provide last year’s AGI or selfselect PIN to sign their return.
+Some challenges remain to be solved, including how to avoid degrading the experience for
+joint returns, which would need to authenticate both filers on the return, whereas today Direct
+File only requires one filer to have an IRS Account. But there would be significant benefits,
+including not only lowering the reject rate but also the information security benefits of an
+approach to digital identity that is fully compliant with latest government-wide standards and
+IRS policy.
+
+Performance
+The Direct File pilot was designed to open availability
+
+Figure 12. Direct File availability
+
+incrementally to allow the team to test the system
+and prevent major issues that would affect when the
+system was functioning (uptime). The Direct File
+system was available for 99.15% of filing season
+2024, even when not all taxpayers may have been
+eligible to access or use it. The system experienced
+
+99.15%
+
+an estimated 16.75 hours of downtime. 3.25 hours of
+downtime was unplanned. A half hour of unplanned
+downtime during the invite-only phase was a result
+
+Uptime
+
+Downtime
+
+of problems encountered during a disaster recovery test in production. A further 2.75 hours of
+downtime is associated with an incident that caused the Secure Access Digital Identity (SADI)
+system to be unable to create new IRS accounts, although Direct File remained available to
+existing accounts during this time. The remaining 13.5 hours of downtime was planned, and
+associated with maintenance of underlying systems on which Direct File depends. This
+maintenance occurred during the “Sunday Build Window,” between 1:00am and 7:00am
+Eastern on Sundays. While this window is traditionally a low traffic period for IRS, it was
+potentially disruptive to some Direct File users in Mountain and Pacific time zones, for whom
+the maintenance interrupted tax preparation on Saturday nights.
+Direct File deployed updates to production at least once per week for the entirety of filing
+season. The ability to make changes with confidence on a regular cadence was key to
+enabling the product team to respond to feedback from taxpayers received via customer
+support or user research. At no point during filing season did traffic to Direct File call into
+question the system’s ability to scale to meet those demands, with performance testing of the
+system demonstrating significant headroom over actual volume. The Direct File engineering
+team is still reviewing lessons learned from the pilot, but should Direct File continue in future
+years, there are opportunities to increase the frequency of deployments, prepare the system
+
+26
+
+for greater scale, and improve the observability of the system to more effectively alert,
+diagnose, and fix issues that are affecting taxpayers.
+
+Security
+Direct File was built atop information security foundations that the IRS has developed over
+many years. These foundations paid off, as an attempted distributed denial of service (DDoS)
+attack on April 15, 2024, was thwarted without any impact to taxpayers. Even as Direct File
+leveraged these existing protections, the IRS went above and beyond what was required for
+the system, implementing measures such as the use of stricter encryption methods of
+taxpayer data.
+Direct File joined the Security Summit public-private partnership and implemented all of the
+Summit’s Trusted Customer protections, leveraging insights gained over more than two
+decades of e-filing. The IRS has not identified new threats associated with Direct File, with the
+system’s IAL2 identity verification, and its limited scope further reduced risk.
+
+27
+
+Section III: Customer Support
+The Report to Congress said, “Customer support would be critical to the success of any Direct
+File option and is also a major cost driver.” 18 Direct File piloted not only a new product, but
+also a new means of delivering customer support.
+
+Live Chat
+Live chat was selected as the primary customer support channel because it allowed for
+customer support to be integrated directly into the product and didn’t require taxpayers to
+leave Direct File to get assistance through another channel (phone). Taxpayers with more
+complicated issues that could not be resolved through chat could have their issues escalated,
+and a team member would make an outbound call to the taxpayer to try and resolve the issue.
+The chat-first approach to customer support also aligned with the pilot strategy of starting
+small, enabling Direct File to test, learn, and get it right before expanding to all taxpayers. Live
+chat was integrated within the Direct File product in a way that allowed customer support to
+gradually expand in concert with the overall number users in each phase of the pilot. Figure 13
+shows the daily chat volume over the course of the pilot.
+
+IRS. IRS Report to Congress: InﬂaƟon ReducƟon Act §10301(1)(B) IRS-run Direct e-File Tax Return System. Page
+17. htps://www.irs.gov/pub/irs-pdf/p5788.pdf
+18
+
+28
+
+Figure 13. Chat volume per day 19
+
+Another benefit of live chat was the opportunity to experiment with a channel that has become
+increasingly common in the private sector. Other business units in IRS, such as Automated
+Collection System Support (ACSS), have begun using live chat in recent years. The Direct File
+pilot was the largest use of live chat support within the IRS to date, and it allowed the agency
+to continue learning how live chat meets taxpayer preferences and expectations and how
+taxpayers would react when live chat was the only option for receiving assistance. This has
+the potential to impact IRS taxpayer service overall as the agency looks to provide taxpayers
+with more choices in how they can interact with the IRS.
+From March 4th through April 20th, Direct File staffing averaged 41 CSRs per day. This average
+was determined by using the total CSR hours available to chat in the system, divided by 7.5
+hours of production time over a total of 47 workdays. The actual quantity of CSRs varied
+throughout the 15-hour workday (7:00am to 10:00pm Eastern), from a low of 7 CSRs to a high
+of 62 CSRs. Figure 14 shows how demand for live chat corresponds to Direct File usage.
+
+Note that purple lines represent the weekends. Customer support was made available on the weekends as we
+moved further into ﬁling season with the excepƟon of March 31 (Easter Sunday).
+
+19
+
+29
+
+Figure 14. Chat volume by time of day 20
+
+The CSRs handled 38,600 chats with an Average Handle Time (AHT) of nine minutes. Based
+on the staffing available to support the pilot, the IRS had the capacity to handle approximately
+450,000 Direct File chats per month. Given that approximately 10% of pilot participants
+engaged customer support, this means the IRS could have assisted 4.5 million filers with the
+400 CSRs who were trained for the pilot. Average Wait Time (AWT) was generally less than a
+minute, as shown in Figure 15.
+Figure 15. Average Handle and Wait Times
+
+11:00pm and 12:00am reﬂect chats that were requested aŌer hours due to queues not being turned oﬀ. Rather
+than leƫng these chats languish, HQ staﬀ would someƟmes work to resolve the chats in queue.
+20
+
+30
+
+Opportunity: Authenticated chat
+Taxpayer feedback about live chat as a communication channel was positive overall. However,
+we identified opportunities to improve the chat technology features available to representatives
+and better equip them to handle more complex and difficult cases.
+Allowing representatives to see the history of Direct File chat interactions with an individual
+taxpayer is one such feature. In some cases, busy taxpayers had to leave a chat and come
+back later to finish receiving assistance. In other cases, taxpayers lost connectivity on their
+mobile phones and dropped before a chat was over. Returning taxpayers had to start from the
+beginning when chatting with a new representative, which could be a frustrating experience for
+both taxpayers and the representatives.
+Allowing representatives to access a taxpayer’s IRS Online Account information would also
+help CSRs to more quickly troubleshoot and resolve issues. For example, some of the most
+common errors that result in rejected returns are entering an incorrect prior year AGI or selfselect PIN. Even later in the filing season, when Direct File began connecting to the Online
+Account to suggest prior year AGI within the product, taxpayers contacted customer support
+after receiving a rejection. Direct File representatives sent taxpayers to self-service resources
+to check their Online Accounts and understand why the error might have been occurring. But
+allowing representatives direct access to information like prior year AGI and the date when last
+year’s return was filed would help representatives quickly pinpoint the issue and instruct
+taxpayers what data they should enter.
+Finally, allowing representatives to see exactly what taxpayers see on their screens would
+help CSRs more quickly understand and resolve issues. Using co-browsing or screensharing
+features, CSRs could guide taxpayers through the product to correct errors, or they could
+confirm and document technical bugs to report to the product team.
+All of these features can be enabled by allowing taxpayers to seamlessly “authenticate” or log
+into their chat session at the same time that they log into Direct File.
+
+Test, Learn, and Iterate
+The Direct File team piloted new ways to provide a better customer experience for taxpayers
+based in service and human-centered design methodologies. Service design is the activity of
+planning and arranging an organization’s resources (people, resources and processes) in
+order to directly improve the employee’s and the customer’s experience. Human-centered
+design is a methodology that incorporates feedback from the people for whom you are
+designing throughout the design process.
+The team knew they wouldn’t be able to anticipate every question a taxpayer would ask while
+using Direct File, so they began with an initial set of Knowledge Articles for CSRs to use,
+knowing that it would be constantly iterated upon throughout the pilot. This content was
+
+31
+
+drafted with plain language by content designers, vetted by IRS counsel, and then translated
+into Spanish.
+The Direct File customer support team engaged with teams across the IRS in order to
+implement the service. Collaborators included TS, Accounts Management, Contact Center
+Support Division, Online Services, the Servicewide Electronic Research Program (SERP)
+team, Human Capital Office, and the Office of Chief Counsel.
+The Direct File CSRs were located at four geographically-distributed sites. CSRs had a year or
+more of experience supporting the TS Accounts Management program, which provided
+foundational IRS knowledge to build upon. All of the 400 representatives, leads, and managers
+engaged in an in-person training ahead of being assigned to Direct File. The in-person training
+was focused on the Direct File taxpayer experience, tutorials to learn the live chat platform,
+and the general policies and procedures of the pilot program. Additionally, CSRs, managers,
+and leads engaged in on-the-job training and refreshers to help reorient them ahead of being
+staffed on Direct File. CSRs who were not scheduled to staff Direct File would instead support
+other Accounts Management work to ensure Direct File only used the level of resources
+needed each day.
+
+Opportunity: Improved training
+Based on taxpayer and representative feedback throughout the pilot, should Direct File
+continue in future years, there are several opportunities to improve training:
+•
+
+We now have a robust body of knowledge resources that were refined throughout the
+pilot based on real taxpayer questions and feedback. In the future, we could more
+confidently design realistic practice scenarios around these resources, with a focus on
+the most common and the most complex issues, such as technical troubleshooting
+and rejections. This would provide CSRs with more time to practice their skills using
+real scenarios.
+
+•
+
+Knowing that questions about navigating the Direct File product were a significant
+portion of taxpayer chats, we could dedicate more training time to increasing familiarity
+with the product, in addition to exploring and training representatives on potential new
+chat features like co-browsing or screensharing with taxpayers.
+
+•
+
+Communicating via chat is a skill that is different from interacting with taxpayers via
+phone. Future training can spend more time reinforcing best practices for
+communicating complex information via chat in a way that’s natural, conversational,
+and user-friendly.
+
+The exact length of training should be driven by the needs of any redesigned curriculum.
+
+32
+
+Feedback Loops with Product
+Customer support was integrated within the operations of the service itself. The “one team”
+approach promoted a holistic experience for taxpayers by ensuring that the product and
+customer support teams were in close communication, with daily (or even more frequent)
+feedback loops improving the quality of both the product’s user experience and of customer
+support’s answers. The teams set up multiple methods for gathering feedback from taxpayers
+and CSRs to inform improvements to all aspects of the Direct File experience. CSRs were
+able to escalate to the product team particularly challenging taxpayer inquiries that may
+require hands-on support, a fix within Direct File, or a follow-up call-back from a Direct File
+representative.
+Critical improvements to Direct File often stemmed from taxpayer or CSR feedback, including
+enabling taxpayers to reset their draft tax return, more informative error messages, and clearer
+language and descriptions throughout the product. Approximately 200 taxpayer cases were
+escalated to the product team during the pilot. Chat transcripts were reviewed and synthesized
+
+“This really feels like we are an
+extremely important part of
+shaping the future of the IRS
+and how we interact with the
+country as a whole.”
+
+by the product team to identify and prioritize
+potential improvements. And CSRs provided more
+than 350 suggestions that informed both customer
+support and product improvements.
+These feedback loops also existed during training,
+with feedback from CSRs relayed to the product
+team as they were putting the finishing touches on
+Direct File. This culture of rapid iteration led one
+
+CSR to remark in training feedback, “Having the opportunity to see our suggestions come to
+fruition so quickly? This is so much fun. Normally things move at the speed of government, but
+this really feels like we are an extremely important part of shaping the future of the IRS and
+how we interact with the country as a whole.”
+
+Customer Satisfaction
+In the Touchpoints survey, taxpayers were asked,
+
+Figure 16. Please rate your experience
+
+“Please rate your experience contacting Direct
+
+contacƟng Direct File customer support for
+
+File customer support for assistance.” 90% of
+
+assistance.
+
+taxpayers who had used customer support
+
+1%
+
+responded that their experience was Excellent or
+
+Excellent
+
+Above Average, with only 2% responding that
+
+Above average
+
+their experience was Below Average or Very Poor
+
+Average
+
+(see Figure 16).
+
+Below average
+
+1%
+8%
+
+19%
+71%
+
+Very poor
+
+33
+
+CSRs noted the opportunity to improve the training and use of chat to communicate more
+naturally and conversationally with taxpayers, avoiding information overload to the taxpayer.
+Were Direct File to continue in future years, the live chat experience could be improved by:
+•
+
+Expanding training, especially to:
+o
+
+Allow for more familiarity with the Direct File tool
+
+o
+
+Reinforce best practices with using prepared responses in a way that is natural
+
+o
+
+•
+
+Practice more complex topics such as technical troubleshooting
+and user-friendly for the taxpayer
+
+Implement new chat technology features that would better equip CSRs to handle more
+complex cases, such authenticating chat sessions so CSRs can see the history of
+interactions with an individual taxpayer and co-browsing/screen-sharing during
+authenticated chat sessions.
+
+34
+
+Section IV: State Taxes
+State taxes were the final operational challenge identified in the Report to Congress. The
+report said, “Research indicates that taxpayers expect to be able to file federal, state, and
+local returns in one place. Any solution would require collaboration with state and local tax
+administrators to enable integration and avoid creating additional burden for filers.” 21 A key
+learning objective for the pilot was to evaluate whether the experience of filing state taxes
+separately could be made sufficiently seamless so as to not present a barrier to taxpayers in
+income tax states, and to not negatively impact state tax administration.
+
+Conceptual Overview
+Although states’ tax codes have varying degrees of conformance to the federal code, states
+typically ask taxpayers to provide certain information from their federal return, from which state
+tax liability can be calculated. As a result, tax preparation can be thought of as a two-step
+process: first prepare a federal return, then prepare a state return using the federal return
+information.
+Direct File aimed to facilitate this two-step process by 1) directing taxpayers to a state tax tool
+following completion of their federal return, ensuring that taxpayers understand that they may
+have state tax obligations, and by 2) optionally allowing taxpayers to import their federal return
+data into that state tax tool, minimizing duplicative data entry. For an illustration, see Figure
+17.
+Figure 17. Conceptual overview of state taxes in Direct File
+Taxpayer files their
+federal return
+
+Direct File informs
+taxpayer of the
+state tool
+
+Taxpayer creates
+account with or
+signs in to the state
+tool
+
+(OPTIONAL)
+Taxpayer imports
+their federal return
+data from Direct
+File
+
+Taxpayer prepares
+and files their state
+return in the state
+tool
+
+To facilitate the taxpayer importing their federal return data into the state tool, Direct File
+implemented a secure Application Programming Interface (API) that was adopted by state
+tools in Arizona, Massachusetts, and New York. Instead of downloading an unencrypted file
+that could be stolen by malicious actors, taxpayers were able to transfer encrypted data from
+
+IRS. IRS Report to Congress: InﬂaƟon ReducƟon Act §10301(1)(B) IRS-run Direct e-File Tax Return System. Page
+20. htps://www.irs.gov/pub/irs-pdf/p5788.pdf
+21
+
+35
+
+Figure 18. The taxpayer must sign in to Direct
+
+their Direct File account to their account with the
+
+File to iniƟate the transfer of their tax return
+
+state tool. Figure 19 shows the consent screen
+
+via the secure API.
+
+for taxpayers who requested to transfer their data
+to New York’s FileYourStateTaxes tool. 22
+Of the twelve states where resident taxpayers
+were eligible to participate in the pilot, eight of
+them have no state income tax. Four do (Arizona,
+California, Massachusetts, and New York), and
+one non-income tax state had a state sales tax
+credit that eligible taxpayers can apply for
+(Washington’s Working Families Tax Credit). For
+taxpayers in each of these five states, filing a
+federal return with Direct File was just the first
+step.
+However, the pilot enabled the IRS and states to
+trial different approaches to understand the pros
+and cons of potential paths forward. Table 3
+shows how these approaches varied by state.
+
+Table 3. Direct File integration approaches by state
+
+Transfer method
+
+Return status
+
+22
+
+Arizona, New York
+
+Massachusetts
+
+California
+
+Secure API to enable
+
+Secure API to enable
+
+Taxpayer uploads a PDF
+
+taxpayers to import data
+
+taxpayers to import data
+
+of their federal return
+
+from Direct File
+
+from Direct File
+
+Federal return must be
+
+Federal return cannot be
+
+accepted before transfer
+
+rejected before transfer
+
+N/A
+
+Video demonstraƟons of these tools are available online.
+
+Arizona: htps://www.youtube.com/watch?v=TSbjAhBmDmQ
+Massachusets: https://www.youtube.com/watch?v=VEeShEevXpU
+New York: https://www.youtube.com/watch?v=ENUHe6hKj1U
+
+36
+
+Digital identity
+
+User experience
+
+Arizona, New York
+
+Massachusetts
+
+California
+
+Email verification only (in
+
+Knowledge-based
+
+Knowledge-based
+
+addition to Direct File
+
+authentication using state
+
+authentication using
+
+identity measures)
+
+tax information (in
+
+state tax information (in
+
+addition to Direct File
+
+addition to Direct File
+
+identity measures)
+
+identity measures)
+
+Information is pre-filled
+
+Information is pre-filled
+
+No data is imported from
+
+from the federal return;
+
+from the federal return;
+
+Direct File; some returns
+
+taxpayer answers state-
+
+taxpayer answers state-
+
+may be pre-filled using
+
+specific questions
+
+specific questions
+
+income and prior-year
+returns from the state
+
+State return
+
+State return is submitted
+
+State return is submitted
+
+State return is submitted
+
+submission
+
+via the MeF Fed/State
+
+directly to the state
+
+directly to the state
+
+Program
+
+•
+
+Return status. The states that integrated with Direct File adopted different
+approaches to whether they would allow the taxpayer to transfer a pending return, i.e.,
+one that the IRS has neither accepted nor rejected. The advantage of waiting for
+acceptance, the approach taken by Arizona and New York, is that it ensures the state
+return will not need to be revised or amended should the federal return be rejected,
+and the taxpayer need to fix an issue. The advantage of allowing pending returns, the
+approach taken by Massachusetts, is that it allows the taxpayer to immediately
+transfer their return without waiting to learn whether it was accepted or rejected.
+
+•
+
+Digital identity. As Direct File provides strong guarantees that taxpayers transferring
+data to state tools have submitted a federal return bearing a Taxpayer Identification
+Number (TIN) that the IRS verified at the IAL2 level, integrated states could optionally
+leverage these guarantees to mitigate identity theft risk (as did Arizona and New York).
+Massachusetts built its Direct File integration into an existing tool that provides
+taxpayers with access to other account information, and thus required the use of its
+existing knowledge-based authentication (KBA) methods. California did not integrate
+with Direct File for the pilot.
+
+•
+
+State return submission. MeF supports a Fed/State Program that enables registered
+transmitters to use the system as a single point of submission for both federal and
+state returns. The majority of e-filed state returns are submitted in this way, and states
+receive benefits including “linking” the state and federal returns. The IRS worked to
+make it possible for state tools to submit state returns linked to the Direct File return
+via MeF. In this way, there would be no disruption to how states receive e-filed returns
+
+37
+
+today (Arizona and New York chose to use this approach). Massachusetts and
+California submitted their returns directly to their own systems, without making a round
+trip through MeF.
+The IRS partnered closely with each of the integrated states and their partners to develop the
+secure API and worked collaboratively with them throughout filing season. States provided
+input on the design of relevant Direct File screens and provided language about the
+capabilities of their tools for the eligibility checker both before and during the pilot.
+
+Opportunity: Move away from tax forms
+The secure API transferred an Extensible Markup Language (XML) version of the forms and
+schedules of the federal tax return, using the existing MeF schema that is already in use by
+states. This provided a number of advantages, particularly that the IRS and states needed to
+coordinate their efforts in just a few months, and both parties were well-versed in the MeF
+schema. This minimized the coordination challenge by limiting the number of technical
+decisions that needed to be made.
+Although the MeF schema provides an effective machine-readable version of tax forms, this
+may not be the best long-term data interchange format for Direct File and states should Direct
+File continue in future years. Tax forms only communicate what the taxpayer claimed on their
+return, for example, that they and their children were eligible for the Earned Income Tax Credit
+(EITC). However, when states adopt provisions similar to EITC, the eligibility requirements
+may differ from the federal requirements in small ways, meaning that taxpayers who are
+ineligible for EITC at the federal level may be eligible at the state level, or vice versa.
+The impact is that state tools may need to re-ask questions already asked by Direct File to
+establish eligibility for state credits or other provisions. If instead of transferring the tax forms,
+as represented by the MeF schema, Direct File instead transferred the answers taxpayers
+gave to questions, or transferred the conclusions that Direct File reached from those answers,
+the experience of the state tools could be further streamlined.
+Exchanging answers instead of forms, however, does create new challenges, among them the
+need to ensure that taxpayers understand and consent to the information being transferred.
+Direct File leveraged the one-to-one correspondence between the machine-readable
+information and the forms and schedules of the tax return to explain concisely what
+information would be transferred to the state tool. If more complex information is exchanged,
+the complexity of ensuring taxpayers understand what information they are providing to the
+state tool would also be increased.
+Should Direct File continue in future years, this is a potential area for exploration, in
+coordination with states and the Federation of Tax Administrators (FTA).
+
+38
+
+Results
+Previous research has suggested that the absence of state tax preparation and filing from
+Direct File would depress taxpayer interest in income tax states. 23 In order to establish
+whether Direct File’s approach to separate federal and state filing is viable, Figure 19
+compares uptake of Direct File in states with and without a state income tax.
+Figure 19. Accepted Direct File returns per 1,000 eligible taxpayers, by state
+14
+12
+10
+8
+6
+4
+2
+0
+
+WA
+
+AZ
+
+MA
+
+FL
+
+NV
+
+NH
+
+TX
+
+TN
+
+SD
+
+NY
+
+CA
+
+WY
+
+Income tax states are represented among the states with both the highest and the lowest
+uptake. There is a great deal of variation between states, which may reflect different inherent
+levels of interest or differences in media coverage, but this data does not reveal a statistically
+significant difference in Direct File uptake between income tax and non-income tax states.
+Direct File did not require taxpayers to use the integrated state tool to file their state taxes, but
+the ease of importing Direct File data made this a popular option. Across the integrated states,
+a majority of taxpayers chose to transfer their data to a state tool, at rates that in some states
+exceeded 90%. It should be noted, however, that just because a taxpayer transferred their
+data to a state tool does not necessarily mean that they ultimately used the state tool to file.
+The IRS will work with states to analyze the rates at which Direct File taxpayers filed using
+their state tools.
+One initial finding is that Massachusetts taxpayers transferred their data at a lower rate than
+the other integrated states. This could be attributable to the account creation process used by
+the Massachusetts tool, which required verifying the taxpayer’s identity using state tax
+information (e.g., first-time filers in Massachusetts or taxpayers who did not file in
+Massachusetts in the last three years could not use this option). The Massachusetts tool also
+MITRE CorporaƟon. MITRE Taxpayer Filing Preference Surveys, February 2023.
+htps://www.mitre.org/sites/default/ﬁles/2023-05/PR-23-1221-MITRE-Taxpayer-Filing-Preference-Surveys.pdf
+
+23
+
+39
+
+supported filing tax returns without importing data from Direct File, unlike the Arizona and New
+York tools, so taxpayers could have used the state tool without importing their data. In the
+coming months, the IRS will work with all of the income tax states who participated in the pilot
+to assess the impact of Direct File on state tax compliance, reconciling state and federal data
+to understand full range of methods that Direct File taxpayers used to complete their state
+taxes.
+Arizona and New York chose to require that the federal return be accepted prior to transferring
+the information to the states, so that the state return did not need to be revised or amended if
+the federal return was rejected and the taxpayer needed to fix an issue. The downside of this
+approach is that taxpayers needed to wait for acceptance, potentially causing frustration or
+even abandonment if Direct File took too long to relay an accepted or rejected status. For the
+vast majority of filing season, however, this was not an issue, as Direct File was generally able
+to provide a status within 10 minutes of submission. There were exceptions to this, including
+on Tax Day, when delays in providing a status peaked at more than two hours around 5:00pm
+Eastern. While the delays abated in the early evening, this was a moment when the division of
+federal and state returns caused additional stress for taxpayers.
+Recognizing that the pilot was limited to four states with income tax, it enabled the IRS to test
+integrating with states in different ways to preserve a seamless taxpayer experience and avoid
+negatively impacting state tax administration.
+
+40
+
+Section V: Cost
+One of the biggest questions surrounding Direct File is regarding the costs of operating such a
+program. In the Report to Congress, the IRS estimated that the annual cost for Direct File
+could range from between $64.3 to $248.9 million for a service that reached between 5 to 25
+million taxpayers depending on the tax scope and the taxpayers reached. We noted that these
+estimates were subject to uncertainty due to the nature of launching a new product like Direct
+File. The pilot provides an opportunity to collect concrete data on the cost of Direct File.
+Table 4. Direct File spending through April 20, 2024 24
+$ in Millions
+FY 2023 Direct File Feasibility Study and Report to Congress
+Technology & Product
+Labor
+Non-Labor
+
+FY 2023
+11.6
+11.6
+0.8
+10.8
+
+Total through
+FY 2024 YTD FY 2024 YTD
+11.6
+11.6
+0.8
+10.8
+
+Advisory and assistance services
+
+8.6
+
+-
+
+8.6
+
+Equipment
+
+0.3
+
+-
+
+0.3
+
+Other goods and services from Federal sources
+
+1.9
+
+-
+
+1.9
+
+Direct File Pilot Development and Implementation
+Customer Service
+Labor
+Technology & Product
+Labor
+Non-Labor
+
+1.5
+0.1
+0.1
+1.4
+0.2
+1.2
+
+11.5
+1.8
+1.8
+9.7
+2.9
+6.8
+
+13.0
+1.9
+1.9
+11.1
+3.1
+8.0
+
+Advisory and assistance services
+
+1.2
+
+3.2
+
+4.4
+
+Ongoing cloud services
+
+-
+
+0.5
+
+0.5
+
+Equipment
+
+-
+
+0.2
+
+0.2
+
+Other goods and services from Federal sources
+
+-
+
+2.8
+
+2.8
+
+Travel and transportation of persons
+
+Grand Total
+
+-
+
+0.1
+
+0.1
+
+13.1
+
+11.5
+
+24.6
+
+Through April 20, 2024, the IRS spent $24.6 million on Direct File, which includes $11.6 million
+in costs for the development of last year’s report to Congress. Of the $13.0 million spent on
+pilot development and implementation, $10.6 million is technology and product development
+costs and $2.4 million is operational costs (customer service, cloud computing, user
+authentication, etc.). The limited design of the pilot means that the IRS was not able to benefit
+FY2024 labor includes actuals through 04/06/2024 and an accrual through 04/20/2024. Costs do not include
+other shared corporate costs.
+
+24
+
+41
+
+from economies of scale. If the number of Direct File users were to increase, the cost per
+return would decrease.
+These totals include costs associated with vendor support and an interagency agreement with
+GSA’s 18F. To build and run the pilot, the IRS also engaged 29 employees from the U.S.
+Digital Service (USDS) to supplement the IRS employees and other team members. The
+USDS costs are not included in the $24.6 million spent on Direct File. The IRS estimates that
+the annualized cost for the USDS team is $7.2 million.
+While the costs outlined above all center on the actual costs involved in delivering the pilot, the
+team is using this data to develop a more robust cost estimate for potential future costs for
+delivering Direct File. We anticipate having that estimate available in the next few weeks.
+
+42
+
+Section VI: Next Steps
+While this report lays out our initial evaluation of the Direct File pilot, it is only the beginning of
+our work. There is additional work to be done to evaluate the pilot itself, understand its impact,
+and identify changes and enhancements to Direct File that would improve the user experience
+for possible future years.
+
+Stakeholder engagement
+In addition to data and analysis around the pilot itself, the IRS will be engaging with
+stakeholders in the coming weeks to talk to them about Direct File and hear their feedback
+and thoughts. This includes talking to individuals on the Hill, industry, states, taxpayer-facing
+groups, and partners. The IRS will engage in a series of conversations and roundtables to
+both talk about what we learned during the pilot and hear from others on their thoughts about
+Direct File.
+
+Additional analysis of pilot data
+As noted, the data contained in this report is not comprehensive. There is additional analysis
+of pilot data that is needed and will occur over the coming months. Some areas the team will
+explore include:
+•
+
+A deeper analysis of Direct File usage, including barriers to usage and the cause for
+user drop-off to identify potential future changes and enhancements.
+
+•
+
+An analysis of post-filing season data, including looking at amendment rates as well as
+audit selections and the reasons for those selections to identify potential adjustments
+to the Direct File tax logic or potential enhancements to the user experience to avoid
+future errors.
+
+•
+
+Gathering a better understanding of who used Direct File, how they chose to use it,
+and whether any information we learn creates an opportunity for potential future
+changes or expansion.
+
+•
+
+Study whether Direct File was successful in ensuring that taxpayers received the
+credits and benefits to which they were eligible and any effect on benefits uptake.
+
+Follow on surveys – ITB and TES
+As part of the Direct File evaluation plan, there is also additional survey work still to be done
+related to Direct File. Every year Research, Applied Analytics and Sciences (RAAS) conducts
+the Individual Taxpayer Burden survey (ITB), which is a voluntary survey of taxpayers
+designed to learn more about the time and expense involved in preparing and filing taxes. The
+goal of the survey is to gather information to learn how to reduce taxpayer burden. This year,
+RAAS allocated 5,000 surveys to users of Direct File, and the results of that survey will
+43
+
+provide valuable information about the taxpayer experience while using Direct File and
+whether taxpayers found Direct File to reduce burdens.
+The IRS also conducts an annual Taxpayer Experience Survey (TES). The 2022 TES provided
+valuable feedback about taxpayer interested in using Direct File that was analyzed in the
+report to Congress. The 2024 TES will contain Direct File-specific questions designed to
+identify taxpayers’ impressions and interest in using Direct File as well as their experience with
+and interest in using chat-based customer support.
+
+User research
+One of the foundations of the development of Direct File is that the service was built with
+taxpayers, not just for taxpayers. The commitment to ongoing user research does not end now
+that the pilot is over. Throughout the pilot the team continued to engage in user research with
+Direct File users who wanted to provide feedback on the product. We will continue this user
+research both to understand the experience of taxpayers who used Direct File, taxpayers who
+tried to use Direct File and were unable to, and taxpayers who have not yet tried Direct File
+but can provide valuable feedback, nonetheless.
+
+The Future of Direct File
+At the time of this report's release, May 3, 2024, the IRS has not made a decision about the
+future of Direct File. The Direct File team and IRS leadership will examine data from the pilot,
+user feedback, and discussions with stakeholders, and the IRS Commissioner anticipates
+making a decision about Direct File's future later in the Spring of 2024.
+
+44
+
+Appendix I: Touchpoints Survey Results
+The Direct File Touchpoints Survey was an optional survey administered to taxpayers after
+submitting or resubmitting a Direct File return. The survey was built using GSA’s Touchpoints
+customer experience feedback solution. The questions were developed internally and
+administered in English and Spanish. The survey was available from March 19th, 2024, 1:30
+PM EDT to April 21st, 2024, 6:00 AM EDT. There were 13 optional questions: 4 multiplechoice, 4 open-ended, and 5 Likert scale.
+The full survey yielded about 15,082 responses, 98% from the English respondents and 2%
+from the Spanish respondents. The response rate was 13%. This appendix presents results
+from nine questions, excluding open-ended responses.
+Please rate your overall experience using Direct File.
+
+count
+
+percent
+
+Excellent 10,007
+
+68.60
+
+Above Average 3,207
+
+21.99
+
+Average 1,129
+
+7.74
+
+Below Average 150
+
+1.03
+
+Very Poor 94
+
+0.64
+
+Total 14,587
+
+100.00
+
+On a scale from 0 to 10, how likely are you to recommend Direct File to a friend or
+family member?
+count
+
+percent
+
+Promoters (9 to 10)
+
+10,415
+
+79.86
+
+Passives (7 to 8)
+
+1,847
+
+14.16
+
+Detractors (0 to 6)
+
+779
+
+5.97
+
+13,041
+
+100.00
+
+Total
+
+45
+
+My experience with Direct File increased my trust in the IRS.
+count
+
+percent
+
+Yes
+
+12,166
+
+86.18
+
+No
+
+1,951
+
+13.82
+
+Total
+
+14,117
+
+100.00
+
+Describe your experience verifying your identity using a selfie and facial recognition.
+
+count
+
+percent
+
+Very Easy
+
+8,172
+
+55.58
+
+Somewhat Easy
+
+3,151
+
+21.43
+
+Did not Use Selfie
+
+1,804
+
+12.27
+
+Neither
+
+698
+
+4.75
+
+Somewhat Difficult
+
+605
+
+4.12
+
+Very Difficult
+
+272
+
+1.85
+
+14,702
+
+100.00
+
+Total
+
+Describe your experience verifying your identity chatting with a live video agent.
+
+count
+
+percent
+
+Did not Speak to Live Agent
+
+9,807
+
+67.49
+
+Very Easy
+
+3,386
+
+23.30
+
+Somewhat Easy
+
+776
+
+5.34
+
+Neither
+
+313
+
+2.15
+
+Somewhat Difficult
+
+146
+
+1.00
+
+Very Difficult
+
+104
+
+0.72
+
+14,532
+
+100.00
+
+Total
+
+46
+
+How did you prepare your federal income tax return last year?
+count
+
+percent
+
+I used software or an online tool that I paid for
+
+4,519
+
+30.93
+
+I used free software or a free online tool
+
+3,971
+
+27.18
+
+I did not file last year
+
+2,394
+
+16.39
+
+I used a paid preparer
+
+2,288
+
+15.66
+
+Other
+
+838
+
+5.74
+
+I prepared my return on paper
+
+599
+
+4.10
+
+14,609
+
+100.00
+
+Total
+
+How did this experience compare to your filing experience last year?
+count
+
+percent
+
+Much Easier
+
+7,475
+
+54.51
+
+Easy
+
+2,946
+
+21.48
+
+About the same
+
+2,664
+
+19.43
+
+Harder
+
+512
+
+3.73
+
+A lot harder
+
+117
+
+0.85
+
+13,714
+
+100.00
+
+Total
+
+What type of device did you use to access Direct File?
+count
+
+percent
+
+A personal laptop or desktop computer
+
+9,870
+
+67.09
+
+A personal smart phone or tablet
+
+3,203
+
+21.77
+
+[Multiple devices]
+
+1,232
+
+8.37
+
+A public computer (e.g., at a library or work)
+
+340
+
+2.31
+
+Other
+
+66
+
+0.45
+
+Total
+
+14,711
+
+100.00
+
+47
+
+Please rate your experience contacting Direct File customer support for assistance.
+count
+
+percent
+
+Did not contact Customer Support
+
+7,444
+
+50.74
+
+Excellent
+
+5,140
+
+35.04
+
+Above Average
+
+1,347
+
+9.18
+
+Average
+
+593
+
+4.04
+
+Very Poor
+
+79
+
+0.54
+
+Below Average
+
+68
+
+0.46
+
+14,671
+
+100.00
+
+Total
+
+48
+
+

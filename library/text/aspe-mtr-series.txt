@@ -1,0 +1,39 @@
+Source: https://www.aspe.hhs.gov/topics/poverty-economic-mobility/marginal-tax-rate-series
+Publisher: U.S. Department of Health and Human Services (ASPE)
+Retrieved: 2026-11-12 (downloaded with curl by the project session)
+Original SHA-256: 5c8500a54675bc339998e77c6d2fd0e87bc5d72a5de8108226107cf4482e6b8a
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Effective Marginal Tax Rates/Benefit Cliffs | ASPE
+Skip to main content
+The .gov means it’s official.
+Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+The site is secure.
+The https:// ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+Effective Marginal Tax Rates/Benefit Cliffs
+Poverty Guidelines
+Poverty Estimates, Trends, and Analysis
+Marginal Tax Rates/Benefit Cliffs
+Paid Family Leave
+Program Participation
+Effective marginal tax rates refer to the portion of new earnings eroded by benefit reductions. This happens because means-tested program benefits that support families’ basic needs are designed to decline as earnings increase. High marginal tax rates––where most or all of additional earnings are offset by lost benefits––may both impact economic mobility and act as a work disincentive.
+Benefit cliffs refer to situations where the benefit reductions is equal to or larger than the earnings increase that triggered the benefit reduction.
+Understanding Economic Risk for Low-Income Families: Economic Security, Program Benefits, and Decisions about Work (2024)
+This project explored how workers with low incomes who receive federal benefits weigh factors such as benefit loss, ease of resuming benefits once lost, marginal tax rates, and job instability when deciding whether to accept an earnings increase. The study team fielded a discrete choice experiment survey to assess the impact of these factors on benefit recipients’ potential willingness to accept a higher-paying job.
+Helping People with Low Incomes Navigate Benefit Cliffs: Lessons Learned Deploying a Marginal Tax Rate Calculator (2023)
+This project developed a calculator to help people anticipate how a change in earnings from employment would affect their net income, and in so doing, provide public benefit recipients with their estimated effective marginal tax rate on new earnings. The demo calculator and open-source code are also publicly available.
+Safety Net Programs and Marginal Tax Rates: Perspectives of Working Parents (2021)
+ASPE partnered with Insight Policy Research to conduct nine focus groups with a sample of working parents with at least one child under age 13. We sought to better understand parents’ perceptions of marginal tax rates and benefit reductions, and how these perceptions appear to influence labor force decisions.
+What Happens When Low-Income Households Increase Their Earnings? ASPE’s 2019 Marginal Tax Rate Brief Series
+This series examines the range of effective marginal tax rates for low-income households and common benefit program “bundles.” We also focus on families receiving child care subsidies (CCDF) and Temporary Assistance for Needy Families (TANF).
+Brief #1. Marginal Tax Rates: A Quick Overview (2019)
+What are marginal tax rates and program cliff effects? Why are high marginal tax rates hard to predict and overcome? What can we do about high marginal tax rates?
+Brief #2. What Happens When People Increase Their Earnings? Effective Marginal Tax Rates for Low-Income Households (2019)
+Among households with children just above poverty, the median marginal tax rate is high (51 percent). Households with children are more likely to face high marginal tax rates than households without children. Among households with children below 200 percent of poverty, the most common combination of benefits is SNAP + EITC + Child Tax Credits (CTC) + Medicaid/Children’s Health Insurance Program (CHIP).
+Brief #3. Effective Marginal Tax Rates for Households with Child Care Subsidies: What Happens Following an Earnings Increase? (2019)
+Marginal tax rates are highest for CCDF households just above poverty. Only three percent of CCDF households would lose their entire child care subsidy (i.e., the child care “cliff”) following a $2,000 earnings increase.
+Brief #4. What Happens When TANF Recipients Increase Their Earnings? Effective Marginal Tax Rates for Households with TANF Income (2019)
+Including cliff effects, about 7 percent of TANF households (100,000) were estimated to have high marginal tax rates (70 percent or more).
+Brief #5. Estimating Marginal Tax Rates Using a Microsimulation Model: Technical Appendix (2019)
+This technical appendix provides a detailed description of our data and methodology.

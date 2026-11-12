@@ -52,9 +52,13 @@ first6b = three(lambda i: (R.RELIEF_2035[i] + R.RICHER_2035[i]) / 1e9 + newb[i])
 
 def part_b(i):
     lines = {k: {} for k in ('bridge', 'memo6b', 'below_line', 'opt2', 'opt4', 'memo8c', 'opt5', 'state_option')}
-    bridge_share = (0.6, 1.0, 1.0)[i]   # low: entry points only (6 of 10); central and high: up to 10
-    for y in range(2030, 2035):          # fiscal years (Medicaid match)
-        lines['bridge'][y] = 24.0 * G ** (y - 2030) * bridge_share
+    # Fiscal years (Medicaid match). $24B in FY2030 is the full 10 points (3b). The 6 entry points run from
+    # FY2030 and the 4 progress points from FY2032 (HLT-4.01), so FY2030-31 pay at most 6/10. Low: entry
+    # points only. The bridge runs to December 31, 2034, so FY2035 takes its first quarter (review of #254).
+    full = (0.6, 1.0, 1.0)[i]
+    for y in range(2030, 2036):
+        share = 0.6 if y < 2032 else full
+        lines['bridge'][y] = 24.0 * G ** (y - 2030) * share * (0.25 if y == 2035 else 1.0)
     for y in range(2035, 2041):          # calendar years from January 1, 2035
         t = y - 2035
         lines['memo6b'][y] = first6b[i] * G ** t
@@ -116,8 +120,9 @@ def part_d(i):
     # memo 15 B on program years, at 90% federal, then the child care share (80%) from 2033-34.
     # Anchors (judgment, from memo 15 and 3d): the floor alone about $10B a year at maturity, scaled by the
     # program's size before then; about $25B in 2033; parity (option A's level, $45B in 2032-33 growing to
-    # $60B in FY2040 at 90%) reached in the 2036-37 school year.
-    a_level = lambda py: 45.0 * (60.0 / 45.0) ** ((py - 2033) / 7)
+    # $60B in FY2040, program year 2039-40, at 90%) reached in the 2036-37 school year.
+    # memo 15's FY2040 end point is program year 2039 under this file's convention, as for child care and pre-K
+    a_level = lambda py: 45.0 * (60.0 / 45.0) ** ((py - 2033) / 6)
     p90 = {2030: 10.0 * 20 / 85, 2031: 10.0 * 45 / 85, 2032: 15.0, 2033: 25.0}
     for k, py in enumerate((2034, 2035, 2036)):
         p90[py] = 25.0 + (a_level(2036) - 25.0) * (k + 1) / 3
