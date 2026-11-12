@@ -1,0 +1,2409 @@
+[
+ {
+  "id": "EV-SEC-300",
+  "statement": "BLS reports that 27% of private industry employees had access to employer-provided paid family leave in March 2023; the 2024 and 2025 estimates did not meet BLS publication standards, so 2023 is the latest published year.",
+  "claim": "data",
+  "figures": [
+   "27%",
+   "March 2023",
+   "2024",
+   "2025"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "27% of private industry employees had access to paid family leave (separate from other leave\ncategories) through their employer in March 2023.",
+   "Employer-provided paid family leave estimates for 2024 and 2025 did not meet BLS’ publication standards. BLS did\nnot attempt to estimate employer-provided paid leave in 2026. For this reason, the most current year of data for\nemployer-provided paid family leave published by BLS is 2023."
+  ],
+  "locator": "CRS R44835, section on employer-provided leave, and footnote 14",
+  "grade": "A",
+  "fact_date": "2023-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-30",
+  "context": "BLS National Compensation Survey figure reported by CRS (nonpartisan), September 2026. Employer-provided only: counts state programs only where the employer pays part. Data is dated: three years old, and the missing 2024 and 2025 estimates are a gap in the series. Paid family leave here includes parental-only plans, so access to leave for a seriously ill spouse was lower.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-301",
+  "statement": "In March 2023, 13% of private sector workers in the bottom wage quartile had access to employer-provided paid family leave, against 44% in the top quartile; part-time workers had 14% and full-time workers 31%.",
+  "claim": "data",
+  "figures": [
+   "13%",
+   "44%",
+   "14%",
+   "31%"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "Bottom 25%\n\n13%",
+   "Top 25%\n\n44%",
+   "Part-time\n\n14%",
+   "Full-time\n\n31%"
+  ],
+  "locator": "CRS R44835, Table A-1",
+  "grade": "A",
+  "fact_date": "2023-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-30",
+  "context": "CRS Table A-1 reproducing BLS March 2023 estimates by average occupational wage and hours. Wage groups are formed by occupation average, so some workers in the bottom group earn more than the cutoff.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-302",
+  "statement": "In March 2025, 80% of private industry workers had access to paid sick leave, but only 41% of those in the lowest 10 percent by average wage, against 96% in the highest 10 percent.",
+  "claim": "data",
+  "figures": [
+   "80%",
+   "41%",
+   "96%",
+   "10 percent"
+  ],
+  "source": "SRC-3751",
+  "anchor": [
+   "All workers | 82 | 77 | 80 | 80 | 80 | 81 | 93 | 61 | 68",
+   "Lowest 10 percent | 43 | 43 | 49 | 41 | 43 | 49 | 71 | 46 | 53",
+   "Highest 10 percent | 96 | 85 | 86 | 96 | 95 | 95 | 94 | 38 | 48"
+  ],
+  "locator": "Table 6, rows All workers, Lowest 10 percent, Highest 10 percent",
+  "grade": "A",
+  "fact_date": "2025-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-30",
+  "context": "BLS National Compensation Survey, March 2025 (released September 2025, second Trump administration period; survey method unchanged as far as the release states). Private industry columns are the fourth to sixth numbers in each row (sick leave, vacation, holidays).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-303",
+  "statement": "BLS estimates that 81% of private sector workers had access to employer-provided paid sick leave in March 2026 and that 44% had employer-supported short-term disability insurance.",
+  "claim": "data",
+  "figures": [
+   "81%",
+   "44%",
+   "March 2026"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "BLS estimates that 81% of private sector workers had access\nto employer-provided paid sick leave in March 2026;",
+   "In March 2026, 44% of private sector employees had access to\nSTDI policies that were financed fully or in-part by their employers."
+  ],
+  "locator": "CRS R44835, text and footnote 16",
+  "grade": "A",
+  "fact_date": "2026-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-09-30",
+  "context": "CRS (September 2026) reporting the BLS March 2026 release. CRS footnote 58 gives 79% for March 2024 and the BLS March 2025 table gives 80% (see the sick leave entry), so the figure moves within a point or two a year. The sources are consistent.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-304",
+  "statement": "In the 2018 FMLA Employee Survey, 56 percent of U.S. employees were eligible for FMLA on their own reports of tenure, hours and worksite size.",
+  "claim": "data",
+  "figures": [
+   "56 percent"
+  ],
+  "source": "SRC-3743",
+  "anchor": [
+   "Overall, 56 percent of U.S. employees are eligible for FMLA on the basis of employees’ report of\ntheir employment tenure, hours worked, and worksite size."
+  ],
+  "locator": "Executive summary, key findings",
+  "grade": "A",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "DOL Wage and Hour Division, survey by Abt Associates, results published August 2020 (first Trump administration). Weighted response rates were 5.5 to 5.8 percent; eligibility is self-reported. The 2012 survey is the prior comparison; no later survey is scheduled in the saved report.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-305",
+  "statement": "Only 10 percent of private-sector worksites are part of firms large enough to be covered by FMLA, but those worksites employ 59 percent of private sector employees.",
+  "claim": "data",
+  "figures": [
+   "10 percent",
+   "59 percent"
+  ],
+  "source": "SRC-3743",
+  "anchor": [
+   "Only 10 percent of worksites in the private sector are part of firms large enough to be covered by\nFMLA (based on employer-reported size), but they employ 59 percent of private sector employees."
+  ],
+  "locator": "Executive summary, key findings",
+  "grade": "A",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "DOL/Abt 2018 Worksite Survey (2,206 interviews, weighted response rate 7.0 percent), first Trump administration publication.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-306",
+  "statement": "In 2018, 15 percent of employees took leave for a qualifying FMLA reason and 7 percent needed such leave but did not take it (up from 5 percent in 2012); the unmet-need share was 9 percent among low-wage workers (under $15 an hour) and 6 percent among others.",
+  "claim": "data",
+  "figures": [
+   "15 percent",
+   "7 percent",
+   "5 percent",
+   "9 percent",
+   "6 percent",
+   "2012"
+  ],
+  "source": "SRC-3743",
+  "anchor": [
+   "Overall, 15 percent of U.S. employees report taking leave for a qualifying FMLA reason in the past\n12 months",
+   "Overall, 7 percent of employees report unmet need for leave for a qualifying FMLA reason in the past 12\nmonths, an increase from 5 percent in 2012. Reporting unmet need for leave for a qualifying FMLA\nreason is more common among “low-wage workers” (9 percent), defined as those making less than $15\nper hour, than among other workers (6 percent)."
+  ],
+  "locator": "Executive summary and chapter 6.1",
+  "grade": "A",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "DOL/Abt 2018 Employee Survey, self-reported over the prior 12 months.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-307",
+  "statement": "Among employees with unmet need for leave in 2018, the most common reason for not taking it was inability to afford unpaid leave (66 percent), followed by fear of losing their job (45 percent).",
+  "claim": "data",
+  "figures": [
+   "66 percent",
+   "45 percent"
+  ],
+  "source": "SRC-3743",
+  "anchor": [
+   "The most common reason employees give for not taking needed leave is inability to afford\nunpaid leave (66 percent). The next most common is fear of losing their job (45 percent)."
+  ],
+  "locator": "Executive summary, chapter 6",
+  "grade": "A",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "DOL/Abt 2018 Employee Survey. The unmet-need group in this finding includes leave to care for a non-immediate family member as well as FMLA-qualifying reasons; respondents could give several reasons. Small sample of employees with unmet need.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-308",
+  "statement": "After taking leave, 87 percent of employees returned to the same employer and position, but 18 percent of low-wage workers reported losing a job as a result of taking leave, against 5 percent of other workers.",
+  "claim": "data",
+  "figures": [
+   "87 percent",
+   "18 percent",
+   "5 percent"
+  ],
+  "source": "SRC-3743",
+  "anchor": [
+   "After taking leave, most employees (87 percent) return to work at their same employer and position.",
+   "More\nlow-wage workers (18 percent) than other workers (5 percent) report losing a job as a result of taking\nleave."
+  ],
+  "locator": "Executive summary, chapter 5",
+  "grade": "A",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "DOL/Abt 2018 Employee Survey, self-reported job loss; no check against employer records.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-309",
+  "statement": "As of September 2026, 13 states (including DC) operate mandatory paid family and medical leave insurance programs offering 12 to 52 weeks of total benefits, with family leave limited to 8 to 12 weeks; Maryland and Virginia have enacted programs that are not scheduled to pay benefits until 2028.",
+  "claim": "data",
+  "figures": [
+   "13 states",
+   "12 to 52 weeks",
+   "8 to 12 weeks",
+   "2028"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "As of September 2026, 13 states (including DC)\noperate such programs, which offer 12 to 52 weeks of total benefits to eligible workers in a benefit year (in those states,\nfamily leave insurance benefits that may be used, for example, to care for a new child or for a family member with a serious\nhealth condition are generally limited to 8 to 12 weeks).",
+   "Maryland and Virginia have enacted laws establishing mandatory family and medical\nleave insurance programs but are not scheduled to start paying benefits until 2028."
+  ],
+  "locator": "CRS R44835, Summary and State-Run section",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "CRS (nonpartisan), September 2026. The programs are mandatory (employers and employees cannot generally opt out). New Hampshire and Vermont have voluntary plans. Brief expected Maryland in 2028, which matches CRS; Virginia (enacted 2026) is also 2028.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-310",
+  "statement": "California paid family leave benefits became payable on July 1, 2004, New Jersey on July 1, 2009, Rhode Island on January 1, 2014 and New York on January 1, 2018; California, New Jersey, New York and Rhode Island built on existing temporary disability insurance programs.",
+  "claim": "data",
+  "figures": [
+   "July 1, 2004",
+   "July 1, 2009",
+   "January 1, 2014",
+   "January 1, 2018"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "California was the first state to provide FLI benefits; the program took effect (FLI benefits became payable) on July\n1, 2004. FLI benefits became payable in New Jersey on July 1, 2009; in Rhode Island on January 1, 2014; and in New\nYork on January 1, 2018."
+  ],
+  "locator": "CRS R44835, footnote 27",
+  "grade": "A",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "CRS footnote 27 (nonpartisan). Start dates for Washington (2020), DC (2020), Massachusetts (2021), Connecticut (2022), Oregon (2023) and Colorado (2024) are not in the saved text and are still needed from the state pages.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-311",
+  "statement": "State weekly benefits range from 50% to 100% of average weekly earnings up to a cap; in 2026 the caps range from $170 per week for New York medical leave to $1,765 per week for California; most states use a progressive formula.",
+  "claim": "data",
+  "figures": [
+   "50%",
+   "100%",
+   "$170",
+   "$1,765"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "Weekly leave insurance benefit amounts range from 50% to 100% of an employee’s average\nweekly earnings, up to a maximum amount. Most states use or plan to use a progressive benefit\nformula (i.e., lower earning workers receive a higher share of their average weekly wages).29 All\nstates cap benefits at a maximum weekly amount, which in 2026 range from $170 per week for\nMLI benefits in New York to $1,765 per week for FLI or MLI benefits in California."
+  ],
+  "locator": "CRS R44835, Benefit Amounts",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "CRS (nonpartisan), September 2026.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-312",
+  "statement": "All state programs are financed by payroll contributions: employees alone pay in California, Connecticut and Rhode Island; employees pay for family leave and employees and employers share medical leave in Massachusetts, New Jersey, New York and Washington; employers and employees share the whole cost in Colorado, Delaware, Maine, Maryland, Minnesota, Oregon and Virginia; DC is employer financed.",
+  "claim": "data",
+  "figures": [
+   "California",
+   "Connecticut",
+   "Rhode Island"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "All mandatory state leave insurance programs are financed through payroll contributions, with\nsome variation in how contributions are allocated between employers and employees. Program\nbenefits in California, Connecticut, and Rhode Island are financed by employee payroll\ncontributions. In Massachusetts, New Jersey, New York, and Washington, employees finance FLI\nbenefits, and employees and employers jointly finance MLI benefits. Employers and employees\njointly finance total program benefits (both FLI and MLI) in Colorado, Delaware, Maine,\nMaryland, Minnesota, Oregon, and Virginia. DC program benefits are financed by employers."
+  ],
+  "locator": "CRS R44835, Financing",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "CRS (nonpartisan), September 2026. This is the state design; the 2025 FAMILY Act bill text has no payroll tax provision (see the FAMILY Act financing entry).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-313",
+  "statement": "Job protection does not accompany California leave insurance benefits, which workers can combine with FMLA or state job-protected leave; Oregon provides job protection to claimants who worked at least 90 days for their employer.",
+  "claim": "data",
+  "figures": [
+   "90 days",
+   "California",
+   "Oregon"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "job protection does not accompany leave insurance benefits in California.",
+   "For example, Oregon provides job protection to leave insurance claimants who worked at\nleast 90 days with their current employer before taking leave and claiming benefits."
+  ],
+  "locator": "CRS R44835, Job Protection",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "CRS (nonpartisan). Job protection is an open design question: Bana and others find low earners and small-firm workers least likely to claim in California, where small-firm workers lack FMLA protection.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-314",
+  "statement": "Under California's formula in CRS's table of state provisions (September 2026), employees with average weekly wages at or below 70% of the state average receive 90% of their wage and others the greater of 63% of the state average or 70% of their own wage, up to $1,765 a week in 2026; the program pays up to 52 weeks of disability and 8 weeks of family leave.",
+  "claim": "data",
+  "figures": [
+   "90%",
+   "70%",
+   "63%",
+   "$1,765",
+   "52 weeks",
+   "8 weeks"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "For employees with an average\nweekly wage (AWW) that is less\nthan or equal to 70% of the state\nAWW, FLI and TDI benefits are 90%\nof the employee’s AWW. For\nemployees with an AWW that is\ngreater than 70% of the state AWW,\nbenefits are the greater of 63% of\nthe state AWW or 70% of the\nemployee’s AWW, up to a maximum\namount ($1,765 per week in 2026).",
+   "52 weeks total, of which up to 8 weeks of family leave"
+  ],
+  "locator": "CRS R44835, Table B-1, California row",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "CRS Table B-1. Note the brief expected a 70% rate for low earners (the 2018 increase); the table shows 90% for those at or below 70% of the state average wage, a higher rate than the 60-70% that CRS describes for the 2018 formula, consistent with later amendments. Reconcile with the EDD page before relying on the percentage.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-315",
+  "statement": "California changed its benefit formula in 2018 from a flat 55% of average recent wages to a progressive formula replacing 60%-70%, and in 2020 raised the weeks of family leave benefits from six to eight.",
+  "claim": "data",
+  "figures": [
+   "2018",
+   "55%",
+   "60%-70%",
+   "2020"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "in 2018, the state changed the\nbenefit formula from a flat 55% of average recent wages to a progressive formula that replaces 60%-70% of average\nrecent wages, and in 2020 the number of benefit weeks for parental and family caregiving needs was increased from six\nto eight."
+  ],
+  "locator": "CRS R44835, footnote 44",
+  "grade": "A",
+  "fact_date": "2020",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "CRS footnote 44 (nonpartisan). The earlier California studies therefore describe a 55% program with six weeks, not today's program.",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-316",
+  "statement": "California's 2026 State Disability Insurance employee contribution rate is 1.3%, with no taxable wage ceiling since SB 951 took effect on January 1, 2024, and the 2026 maximum weekly benefit is $1,765; the employee alone pays.",
+  "claim": "data",
+  "figures": [
+   "1.3%",
+   "951",
+   "2024",
+   "$1,765"
+  ],
+  "source": "SRC-3778",
+  "anchor": [
+   "Employee Contribution Rate | 1.3%",
+   "On January 1, 2024, SB 951 eliminated the Taxable Wage Ceiling.",
+   "Maximum Weekly Benefit Amount (WBA) | $1,765",
+   "California employees pay mandatory contributions"
+  ],
+  "locator": "EDD, Contribution Rates and Benefit Amounts, State Disability Insurance table and definitions",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "California EDD (state agency). The brief expected 1.2% for 2025; the household employer's guide (DE 8829) example uses a 0.012 rate for 2025, not quoted here.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-317",
+  "statement": "Minnesota Paid Leave, effective January 1, 2026, pays up to 90% of wages for up to 12 weeks of family or medical leave (up to 20 weeks combined) and is funded by a 0.88% premium of which employers may deduct up to 0.44% from employees.",
+  "claim": "data",
+  "figures": [
+   "January 1, 2026",
+   "90%",
+   "12 weeks",
+   "20 weeks",
+   "0.88%",
+   "0.44%"
+  ],
+  "source": "SRC-3779",
+  "anchor": [
+   "Effective January 1, 2026",
+   "Paid Leave will pay up to 90% of your wages, based on your income level",
+   "up to 12 weeks of family or medical leave per benefit year",
+   "up to 20 weeks in total",
+   "The initial premium rate is 0.88% of covered wages. Your employer may deduct up to 0.44% of your wages"
+  ],
+  "locator": "Poster, \"How long can I take leave?\", \"How much will I get paid?\" and \"Who pays?\"",
+  "grade": "A",
+  "fact_date": "2026-01",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Minnesota DEED poster (state agency), 2026. Statutory design: employers and employees share the premium; no employee-only family leave tax.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-318",
+  "statement": "Delaware Paid Leave went into full effect on January 1, 2026, paying up to 80% of wages (up to $900 a week) for up to 12 weeks of combined leave a year, funded by less than 1% of weekly salary.",
+  "claim": "data",
+  "figures": [
+   "January 1, 2026",
+   "80%",
+   "$900",
+   "12 weeks",
+   "1%"
+  ],
+  "source": "SRC-3780",
+  "anchor": [
+   "Delaware Paid Leave went into full effect on Jan. 1, 2026",
+   "an employee will get up to 80% of their wages (up to $900 per week)",
+   "Employees are limited to a maximum of 12 weeks of combined leave per year.",
+   "The program will be funded by less than 1% of an employee’s weekly salary."
+  ],
+  "locator": "Delaware Paid Leave page, program summary",
+  "grade": "A",
+  "fact_date": "2026-01",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Delaware Department of Labor (state agency). Eligibility requires 12 months with the employer and 1,250 hours (FMLA-like tenure test), which CRS notes differs from most states.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-319",
+  "statement": "Maine's Paid Family and Medical Leave program began payroll contributions on January 1, 2025 and benefits on May 1, 2026, with 12 weeks of paid time off for family or medical reasons.",
+  "claim": "data",
+  "figures": [
+   "January 1, 2025",
+   "May 1, 2026",
+   "12 weeks"
+  ],
+  "source": "SRC-3781",
+  "anchor": [
+   "Payroll contributions begin: January 1, 2025",
+   "Benefits begin: May 1, 2026",
+   "eligible workers in the private and public sector will have 12 weeks of paid time off available to them for family or medical reasons"
+  ],
+  "locator": "Maine PFML page, introduction and timeline",
+  "grade": "A",
+  "fact_date": "2026-05",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Maine Department of Labor (state agency).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-320",
+  "statement": "Maryland's family and medical leave insurance program begins contributions on January 1, 2027 and benefits in January 2028, with a total contribution rate of 0.9% reaffirmed in April 2026 and capped at 1.2% of wages under current law.",
+  "claim": "data",
+  "figures": [
+   "January 1, 2027",
+   "January 2028",
+   "0.9%",
+   "1.2%"
+  ],
+  "source": "SRC-3782",
+  "anchor": [
+   "The contribution period will begin on January 1, 2027.",
+   "ready to pay out benefits to employees in Maryland starting January 2028.",
+   "In April 2026, MD Labor reaffirmed a total contribution rate for FAMLI of 0.9%.",
+   "Under current law, the total rate cannot go over 1.2% of wages"
+  ],
+  "locator": "FAQ, Contributions",
+  "grade": "A",
+  "fact_date": "2026-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "Maryland Department of Labor (state agency). The brief said Maryland was delayed to 2028; the agency confirms January 2028 benefits after the third delay (HB 102, 2025).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-321",
+  "statement": "New Hampshire's voluntary plan, run through a state-selected insurer, pays 60% of wages for six weeks and gives participating employers a tax credit of 50% of premiums; Vermont lets private employers join its state employee plan but does not guarantee access.",
+  "claim": "data",
+  "figures": [
+   "60%",
+   "50%"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "The NH PFML plan provides six weeks of\nwage replacement for selected family leave needs and for certain medical leave needs that are not covered by\ndisability insurance.32 Beneficiaries’ wages are replaced at a rate of 60% up to a maximum amount.",
+   "eligible for a business enterprise tax credit equal to\n50% of the NH PFML insurance premiums paid by the employer."
+  ],
+  "locator": "CRS R44835, text box \"Voluntary Private Sector Coverage Under a State Leave Insurance Plan\"",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-01-31",
+  "context": "CRS (nonpartisan), September 2026. Voluntary state plans have no mandate; take-up is not reported in the saved text.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-322",
+  "statement": "The National Partnership for Women & Families estimates that nearly 50 million private-sector workers, 34 percent of the private-sector workforce, have or will soon have access to paid family and medical leave through a state program, counting Maryland and Virginia, whose benefits begin in 2028.",
+  "claim": "analysis",
+  "figures": [
+   "50 million",
+   "34 percent",
+   "2028"
+  ],
+  "source": "SRC-3783",
+  "anchor": [
+   "nearly 50 million private-sector workers nationwide have or will soon have access to paid time away from their jobs",
+   "more than one-third of private sector workers across the United States (34 percent) will have paid family and medical leave through a state program",
+   "Maryland’s and Virginia’s paid leave benefits will commence in 2028."
+  ],
+  "locator": "Fact sheet, summary and methods note",
+  "grade": "C",
+  "fact_date": "2026-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "National Partnership for Women & Families, April 2026; advocacy organization that supports paid leave. Author analysis of American Community Survey data (2020-2024), by state of residence, with eligibility estimated from statute text rather than claims. Counts workers with access, not workers who need or use leave. An earlier version of the analysis (February 2026) put the figure at 32 percent (46.2 million) before Virginia enacted its program.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-309",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-323",
+  "statement": "Washington's total paid leave premium rate was 0.40% in 2021, 0.60% in 2022, 0.80% in 2023, 0.74% in 2024 and 0.92% in 2025.",
+  "claim": "data",
+  "figures": [
+   "0.40%",
+   "0.60%",
+   "0.80%",
+   "0.74%",
+   "0.92%"
+  ],
+  "source": "SRC-3774",
+  "anchor": [
+   "Jan 1, 2021 - Dec 31, 2021 | 0.40%",
+   "Jan 1, 2022 - Dec 31, 2022 | 0.60%",
+   "Jan 1, 2023 - Dec 31, 2023 | 0.80%",
+   "Jan 1, 2024 - Dec 31, 2024 | 0.74%",
+   "Jan 1, 2025 - Dec 31, 2025 | 0.92%"
+  ],
+  "locator": "Figure 4, Paid Leave premium rate history",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-31",
+  "context": "Washington Employment Security Department actuarial report (state agency that sets the rate). The 2024 decrease followed a $200 million cash injection in 2023; ESD attributes later increases partly to it. A legislative document lists 0.40% for 2019 to 2021.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-324",
+  "statement": "Washington's total premium rate rose from 0.92% in 2025 to 1.13% on January 1, 2026, split 28.57% employers and 71.43% employees; more than 218,000 people claimed benefits in 2025 up to late October, totaling more than $1.76 billion.",
+  "claim": "data",
+  "figures": [
+   "0.92%",
+   "1.13%",
+   "28.57%",
+   "71.43%",
+   "218,000",
+   "$1.76 billion"
+  ],
+  "source": "SRC-3775",
+  "anchor": [
+   "Starting Jan. 1, 2026:",
+   "The premium rate will be 1.13%. The rate for 2025 is 0.92%.",
+   "Employers will pay 28.57% of the total premium and employees will pay 71.43%.",
+   "More than 218,000 individuals have claimed Paid Leave benefits in 2025 thus far, totaling more than $1.76 billion dollars."
+  ],
+  "locator": "News release, bullets under \"Starting Jan. 1, 2026\"",
+  "grade": "A",
+  "fact_date": "2025-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-31",
+  "context": "Washington ESD press release, October 29, 2025. Employers with fewer than 50 employees do not pay the employer share.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-325",
+  "statement": "Washington's premium rate rises to 1.2% on January 1, 2027 (from 1.13% in 2026), split 29.3% employers and 70.7% employees; more than 221,000 people claimed benefits in the first nine months of 2026, totaling more than $1.8 billion.",
+  "claim": "data",
+  "figures": [
+   "1.2%",
+   "1.13%",
+   "29.3%",
+   "70.7%",
+   "221,000",
+   "$1.8 billion"
+  ],
+  "source": "SRC-3776",
+  "anchor": [
+   "Starting Jan. 1, 2027:",
+   "The premium rate will be 1.2%. The rate for 2026 is 1.13%.",
+   "Employers will pay 29.3% of the total premium and employees will pay 70.7%.",
+   "More than 221,000 individuals have claimed Paid Leave benefits in the first 9 months of 2026, totaling more than $1.8 billion dollars."
+  ],
+  "locator": "News release, bullets under \"Starting Jan. 1, 2027\"",
+  "grade": "A",
+  "fact_date": "2026-10",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-31",
+  "context": "Washington ESD press release, October 16, 2026. 1.2% is the statutory maximum total rate (RCW 50A.10.030, per the actuarial report).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-326",
+  "statement": "Washington paid weekly claims rose from 141,000 in January 2023 to 191,000 in January 2025, and the average weekly benefit rose from the mid $800s to close to $900.",
+  "claim": "data",
+  "figures": [
+   "141,000",
+   "191,000",
+   "$800s",
+   "$900"
+  ],
+  "source": "SRC-3774",
+  "anchor": [
+   "the number of paid weekly claims was 141,000 in January 2023 and jumped to 191,000 in January 2025",
+   "the average weekly benefit amount increased from mid $800s in January 2023 to close to $900 in January 2025"
+  ],
+  "locator": "Actuarial report, benefit payments discussion",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-31",
+  "context": "Washington ESD actuarial report (administrator's data). ESD says claims growth is primarily care and serious medical claims and continues at double-digit rates.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-327",
+  "statement": "Washington's actuary reported that claims outpaced premiums, causing account deficits in 2023 (cured by a $200 million cash injection) and again in 2025, and that the 1.20% maximum rate adds solvency risk because the adequate rate for 2027 and later exceeds it, with a sustained deficit projected from 2029.",
+  "claim": "analysis",
+  "figures": [
+   "2023",
+   "2025",
+   "$200 million",
+   "1.20%",
+   "2027",
+   "2029"
+  ],
+  "source": "SRC-3774",
+  "anchor": [
+   "Historically, claims outpaced premiums, which resulted in an account deficit in 2023 and again in 2025.",
+   "A $200 million cash injection in 2023 resolved the account deficit at that time.",
+   "The legislative maximum premium rate of 1.20% adds risk to solvency given that the projected adequate rate required for 2027 and later exceeds 1.20%.",
+   "Jan 1, 2029 - Dec 31, 2029 | 1.20% | 0%"
+  ],
+  "locator": "Executive summary and Figure 6",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-31",
+  "context": "Washington ESD actuarial report (valuation as of June 30, 2025; Ferguson administration) by the administering agency, which also recommends moving from a backward-looking to an actuarial rate method. Projection, not outcome. The 2029 sustained-deficit point is in ESD's presentation to the legislature, not in the quoted lines.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-329",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-328",
+  "statement": "Through December 2023 Washington's Employment Security Department had collected $4.5 billion in premiums and paid $4.2 billion in benefits on more than 700,000 claims.",
+  "claim": "data",
+  "figures": [
+   "$4.5 billion",
+   "$4.2 billion",
+   "700,000",
+   "December 2023"
+  ],
+  "source": "SRC-3777",
+  "anchor": [
+   "The Employment Security Department (ESD) has collected $4.5 billion in premiums and paid $4.2 billion in benefits on more than 700,000 claims through December 2023."
+  ],
+  "locator": "Audit summary, first bullet",
+  "grade": "A",
+  "fact_date": "2023-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-31",
+  "context": "Washington Joint Legislative Audit and Review Committee performance audit (2025); legislative auditors independent of ESD.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-329",
+  "statement": "Washington's legislative auditors found that the premium rate formula in statute does not produce enough revenue to cover program expenses and that ESD forecast a negative balance for portions of 2025 and 2026.",
+  "claim": "analysis",
+  "figures": [
+   "2025",
+   "2026"
+  ],
+  "source": "SRC-3777",
+  "anchor": [
+   "The premium rate formula in statute does not produce enough revenue to cover program expenses.",
+   "ESD forecasts the program will have a negative balance for portions of 2025 and 2026."
+  ],
+  "locator": "Audit summary, second and third bullets",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-10-31",
+  "context": "JLARC audit (legislative branch staff, with a consulting actuary who recommended a forward-looking rate method and a financial reserve). Independent of ESD but relies on ESD data.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-327",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-330",
+  "statement": "Section 70304 of Public Law 119-21 amended section 45S so that an eligible employer may elect a credit on wages paid to qualifying employees on family and medical leave or, if it has a paid-leave insurance policy in force, on premiums paid for that policy.",
+  "claim": "data",
+  "figures": [
+   "70304",
+   "45S",
+   "119-21"
+  ],
+  "source": "SRC-1374",
+  "anchor": [
+   "SEC. 70304. EXTENSION AND ENHANCEMENT OF PAID FAMILY AND MEDICAL\nLEAVE CREDIT.",
+   "(a) In General.--Section 45S is amended--",
+   "Public Law 119-21",
+   "``(A) The applicable percentage of the amount of\nwages paid to qualifying employees with respect to any\nperiod in which such employees are on family and medical\nleave.\n``(B) If such employer has an insurance policy with\nregards to the provision of paid family and medical\nleave\n[[Page 139 STAT. 196]]\nwhich is in force during the taxable year, the\napplicable percentage of the total amount of premiums\npaid or incurred by such employer during such taxable"
+  ],
+  "locator": "Sec. 70304(a)(1)",
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Enacted law (P.L. 119-21, July 4, 2025). CRS R48611 (SRC-3011) calls this section 70304 and says it permanently extends the credit for amounts paid after December 31, 2025. The brief's section numbers for the family tax items (70401 for the child care credit) differ: the paid leave credit is section 70304.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-331",
+  "statement": "The section 45S credit is 12.5% of paid leave wages when they replace 50% of usual pay, rising to 25% at 100% replacement, for up to 12 weeks per employee a year and for employees whose prior-year pay is at most 60% of the highly compensated threshold ($96,000 for 2026); P.L. 119-21 made it permanent.",
+  "claim": "data",
+  "figures": [
+   "12.5%",
+   "50%",
+   "25%",
+   "100%",
+   "12 weeks",
+   "60%",
+   "$96,000"
+  ],
+  "source": "SRC-3741",
+  "anchor": [
+   "Internal\nRevenue Code (IRC) Section 45S",
+   "If PFML wages are 50% of the employee’s normal hourly\nwage, then the tax credit is for 12.5% of the qualifying\namount (either actual PFML wages or insurance premiums).\nThe tax credit rate increases proportionately up to 25% of\nthe qualifying amount if PFML wages are 100% of the\nemployee",
+   "cannot exceed 12 weeks per employee\nper year.",
+   "cannot exceed 60% of a\n“highly compensated employee” threshold. For 2026, that\nthreshold is set at $96,000.",
+   "The\ncredit was made permanent by P.L. 119-21."
+  ],
+  "locator": "CRS IF11141, first page and \"The Credit Before 2026\"",
+  "grade": "A",
+  "fact_date": "2026-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "CRS In Focus (nonpartisan), February 25, 2026. The statute is the primary source (see the statute entry).",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-332",
+  "statement": "From 2026 the 45S credit can be claimed on insurance premiums paid whether or not anyone took leave, may cover employees with at least six months of tenure if the employer chooses, requires covering only employees who customarily work at least 20 hours a week, and lets state-required leave count toward the 50% minimum replacement but not toward the credit.",
+  "claim": "data",
+  "figures": [
+   "2026",
+   "50%",
+   "20 hours"
+  ],
+  "source": "SRC-3741",
+  "anchor": [
+   "Internal\nRevenue Code (IRC) Section 45S",
+   "Starting in 2026, an employer can\nclaim the credit based on PFML insurance premiums paid,\nregardless of whether any employees received PFML wages\nunder the insurance plan during the year.",
+   "employed for at least six months.\nAll qualifying employees who customarily work at least 20\nhours per week must be provided at least two weeks of\nPFML for an employer to be able to claim the credit (the\ntwo-week period is proportionally adjusted for part-time\nemployees). Further, the amount of PFML wages for which\nthe credit is claimed cannot exceed 12 weeks per employee\nper year.\n\nTax credits cannot be claimed for leave paid by state or\nlocal governments, or for leave that is required by state or\nlocal law. Thus, this tax incentive does not reduce the cost\nof providing leave in jurisdictions where employers are\nrequired to do so by a state or local authority. However, the\ntax credit may be claimed for leave provided above any\nlegally required amounts.\nA tax credit can only be claimed for wages paid for family\nand medical leave. General paid leave (e.g., vacation,\npersonal, or sick leave) that is not specifically set aside for\nan FMLA-qualifying purpose is not considered PFML leave\nfor purposes of the tax credit. Family and medical leave is\nrestricted to leave associated with (1) the birth of a child or\nplacement of an adopted or foster child with the employee;\n(2) a serious health condition of the employee or the\nemployee’s spouse, child, or parent; (3) an exigency arising\nout of the fact that a close relative is a member of the\nArmed Forces and on covered active duty; or (4) to care for\na seriously ill or injured covered servicemember who is a\nclose relative of the employee. Per IRS guidance for the tax\ncredit, an employer’s PFML policy may allow leave to be\nused to care for a broader group of individuals than allowed\nunder FMLA (such as adding grandparents) and still be a\nvalid PFML policy for purposes of the tax credit. However,\nthe credit may only be claimed for caregiving that qualifies\nfor FMLA-protected leave, which is generally limited to\ncaregiving for a child, spouse, or parent.\nTo claim the credit, an employer generally must have a\nwritten family and medical leave policy in effect. The\npolicy cannot exclude certain classifications of employees.\nFor employers, the amount of wages and salaries deducted\nas a business expense is reduced by the amount of credit\nclaimed. Further, the credit cannot be claimed for wages\nthat have been used for another tax credit (to avoid a double\ntax benefit). The credit is part of the general business credit,\nmeaning that it is subject to limitations (generally, it can be\nused to offset up to 75% of tax liability). Unused credits\nfrom the current tax year can be carried back one year\n(offsetting the prior year’s tax liability) or carried forward\nup to 20 years to offset future tax liability. The credit is\nallowed against the alternative minimum tax (AMT).\n\nLegislative History\nThe employer credit for paid family and medical leave was\nenacted as part of P.L. 115-97. When enacted, this credit\nwas made available for two years, 2018 and 2019. The\ncredit was extended through 2020 in the Further\nConsolidated Appropriations Act, 2020 (P.L. 116-94) and\nthrough 2025 in the Taxpayer Certainty and Disaster Tax\nRelief Act of 2020 (Division EE of P.L. 116-260). The\ncredit was made permanent by P.L. 119-21.\n\nhttps://crsreports.congress.gov\n\n\fEmployer Tax Credit for Paid Family and Medical Leave\n\nThe Credit Before 2026\nIn addition to making the credit permanent, P.L. 119-21\nmade several changes to the credit that took effect on\nJanuary 1, 2026. Before 2026, the credit was only available\nfor actual PFML wages paid; it was not available for PFML\ninsurance premiums. Starting in 2026, an employer can\nclaim the credit based on PFML insurance premiums paid,\nregardless of whether any employees received PFML wages\nunder the insurance plan during the year.\nThe definition of a “qualifying employee” was also\nchanged. Before 2026, a qualifying employee had to be\nemployed by the employer for at least one year; PFML\nwages paid to employees with shorter tenures did not\nqualify for the credit. Starting in 2026, employers may\nclaim the credit for employees employed for at least six\nmonths, if they opt to extend PFML leave to such",
+   "Starting in 20",
+   "Starting in 2026,\nlegally required leave can be included for purposes of\nmeeting the minimum 50% threshold, but cannot be"
+  ],
+  "locator": "CRS IF11141, \"The Credit Before 2026\"",
+  "grade": "A",
+  "fact_date": "2026-01",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "CRS In Focus (nonpartisan), February 2026, describing P.L. 119-21 changes effective January 1, 2026.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-333",
+  "statement": "In business tax returns for years ending between July 2020 and June 2021, firms with revenue over $1 billion made 80 section 45S claims in goods-producing industries ($51 million) and 100 in service industries ($38 million), against 240 and 530 claims from firms under $25 million ($1 million and $2 million).",
+  "claim": "data",
+  "figures": [
+   "80",
+   "100",
+   "240",
+   "530",
+   "$51",
+   "$38"
+  ],
+  "source": "SRC-3742",
+  "anchor": [
+   "Internal Revenue Code Section 45S provides a tax credit",
+   "This table includes claims made on business tax returns with tax years ending between July\n2020 and June 2021.",
+   "Under $25 million\n\n240\n\n530",
+   "Over $1 billion\n\n80\n\n100",
+   "Under $25 million\n\n$1\n\n$2",
+   "$51\n\n$38"
+  ],
+  "locator": "Tables 1 and 2",
+  "grade": "A",
+  "fact_date": "2020",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Treasury Office of Tax Analysis, October 2023 (Biden administration); counts exclude sole proprietors; dollars in millions as in the source. Rounded counts.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-334",
+  "statement": "Treasury found that 1,230 firms claimed about $101 million of section 45S credits in 2020; 62% of claimants had revenue under $25 million but 88% of the dollars went to firms with revenue over $1 billion.",
+  "claim": "data",
+  "figures": [
+   "1,230",
+   "$101 million",
+   "62%",
+   "$25 million",
+   "88%",
+   "$1 billion"
+  ],
+  "source": "SRC-3741",
+  "anchor": [
+   "Internal\nRevenue Code (IRC) Section 45S",
+   "which found that 1,230 firms claimed credits worth about\n$101 million in 2020.",
+   "Most firms claiming the\ncredit had revenue under $25 million (62% of claimants),\nhowever most of the credits were claimed by firms with\nrevenue over $1 billion (88% of the total)."
+  ],
+  "locator": "CRS IF11141, \"Estimated Take-up and Revenue Loss of the Credit\"",
+  "grade": "A",
+  "fact_date": "2020",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRS In Focus (nonpartisan) reporting the Treasury Office of Tax Analysis 2023 study; CRS calls it one of the only studies of employer participation. Take-up has not been reported for tax years after 2020 in the saved sources.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-335",
+  "statement": "Brookings' Elena Patel reports that in 2021 just 490 corporations claimed $112 million in paid family leave credit and argues the credit has had limited success because it offsets at most 25% of an employer's cost.",
+  "claim": "analysis",
+  "figures": [
+   "2021",
+   "490",
+   "$112 million",
+   "25%"
+  ],
+  "source": "SRC-3787",
+  "anchor": [
+   "In 2021, just 490 corporations claimed $112 million in paid family leave credit.",
+   "the tax credit offsets, at most, 25% of the employer’s cost of providing paid leave"
+  ],
+  "locator": "Article, paragraph on the TCJA credit",
+  "grade": "C",
+  "fact_date": "2025-06",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Brookings Institution, June 2025; Patel co-authored the Bailey et al. California study. The count (490 corporations, 2021) is not the same population as Treasury's 1,230 firms (2020, all business returns excluding sole proprietors). Brookings' view that the credit is too small predates the 2026 amendments in P.L. 119-21.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-334",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-333",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-336",
+  "statement": "JCT estimated that making the section 45S credit permanent would cost about $5.5 billion over fiscal years 2025 to 2034 under both the current-law and current-policy baselines.",
+  "claim": "analysis",
+  "figures": [
+   "$5.5 billion",
+   "2025",
+   "2034"
+  ],
+  "source": "SRC-3741",
+  "anchor": [
+   "Internal\nRevenue Code (IRC) Section 45S",
+   "JCT estimated that the 10-year cost of making the\ncredit permanent would be about $5.5 billion over FY2025FY2034 under both the current-law and current-policy\nbaselines."
+  ],
+  "locator": "CRS IF11141, last paragraph",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Joint Committee on Taxation estimate as reported by CRS (nonpartisan). The score is for the pre-enactment provision; the enacted section 70304 differs slightly in design.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-335",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-337",
+  "statement": "The Federal Employee Paid Leave Act (FEPLA, 2019) lets most civilian federal employees substitute up to 12 weeks of paid parental leave at full pay for unpaid FMLA leave within 12 months of a child's arrival.",
+  "claim": "data",
+  "figures": [
+   "12 weeks",
+   "12 months"
+  ],
+  "source": "SRC-3748",
+  "anchor": [
+   "allows for\nthe substitution of up to 12 weeks of paid parental leave",
+   "The PPL benefit must be used within 12 months of the",
+   "this benefit is provided at\nfull pay"
+  ],
+  "locator": "CRS IF12420, first page",
+  "grade": "A",
+  "fact_date": "2019-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "CRS In Focus (nonpartisan), March 2024; FEPLA is Title LXXVI, Subtitle A of the FY2020 NDAA (P.L. 116-92, December 20, 2019); benefit available for births from October 1, 2020 (per CBO). OPM had not issued a final rule at the time of the CRS update.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-338",
+  "statement": "The FAMILY Act was introduced in the Senate in the 119th Congress by Sen. Gillibrand on September 16, 2025 as S. 2823 and referred to the Committee on Finance.",
+  "claim": "data",
+  "figures": [
+   "2823",
+   "September 16, 2025"
+  ],
+  "source": "SRC-3744",
+  "anchor": [
+   "119th CONGRESS",
+   "S. 2823 Introduced in Senate (IS)]\n<DOC>\n119th CONGRESS\n1st Session\nS. 2823\nTo provide paid family and medical leave benefits",
+   "September 16, 2025",
+   "Mrs. Gillibrand (for herself,",
+   "was read twice and referred to the Committee on Finance"
+  ],
+  "locator": "S. 2823 header and referral line",
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Bill text as introduced (GPO); the Senate action line reads \"read twice and referred to the Committee on Finance\" and no later action is recorded in the saved sources. Cosponsors include Sen. Wyden, the Finance ranking member.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-339",
+  "statement": "The House companion, H.R. 5390, was introduced in the 119th Congress by Rep. DeLauro on September 16, 2025.",
+  "claim": "data",
+  "figures": [
+   "5390",
+   "September 16, 2025"
+  ],
+  "source": "SRC-3745",
+  "anchor": [
+   "119th CONGRESS",
+   "H. R. 5390",
+   "September 16, 2025",
+   "Ms. DeLauro (for herself,"
+  ],
+  "locator": "H.R. 5390 header",
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Bill text as introduced (GPO); identical title to S. 2823. GovTrack gives the bill little chance of enactment in the saved sources (0% prognosis).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-340",
+  "statement": "The 2025 Senate FAMILY Act text would limit benefits to 12 times the individual's regular workweek hours in caregiving, and pay a monthly benefit of 85%, 69% and 50% of average monthly earnings in three bands ($1,257, $3,500 and $6,200 for 2026), with a maximum of $4,000 and minimum of $580 a month for people first eligible in the first full year after enactment.",
+  "claim": "data",
+  "figures": [
+   "12 times",
+   "85 percent",
+   "69 percent",
+   "50 percent",
+   "$1,257",
+   "$3,500",
+   "$6,200",
+   "$4,000",
+   "$580"
+  ],
+  "source": "SRC-3744",
+  "anchor": [
+   "may not exceed a number of\ncaregiving hours equal to 12 times the number of hours",
+   "(i) 85 percent of the individual's average\nmonthly earnings to the extent that such\nearnings do not exceed the amount established\nfor purposes of this clause by subparagraph\n(B);\n(ii) 69 percent of the individual's average\nmonthly earnings to the extent that such\nearnings exceed the amount established for\npurposes of clause (i) but do not exceed the\namount established for purposes of this clause\nby subparagraph (B); and\n(iii) 50 percent of the individual",
+   "For individuals whose\nbenefit period begins in calendar year 2026,\nthe amount established for purposes of clauses\n(i), (ii), and (iii) of subparagraph (A) shall\nbe $1,257, $3,500, and $6,200, respectively.",
+   "the maximum monthly benefit\namount and the minimum monthly benefit amount shall be\n$4,000 and $580, respectively."
+  ],
+  "locator": "S. 2823, sec. 2(1)(B) and sec. 4(b)",
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Bill text as introduced. The brief expected \"66% up to a cap\" and a 0.4% payroll contribution; the 2025 text uses a progressive three-band formula (a New America explainer puts median earners at about 67% and low earners at up to 85%) and the bill text has no payroll tax. The 0.4% tax was in the 2019 bill scored by CBO (see that entry).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-341",
+  "statement": "The 2025 Senate FAMILY Act text would create an Office of Paid Family and Medical Leave within the Social Security Administration, headed by a Deputy Commissioner, and applications could be filed beginning 18 months after enactment.",
+  "claim": "data",
+  "figures": [
+   "18 months"
+  ],
+  "source": "SRC-3744",
+  "anchor": [
+   "There is established within the\nSocial Security Administration an office to be known as the Office of\nPaid Family and Medical Leave.",
+   "Applications described in\nthis section may be filed beginning 18 months after the date of"
+  ],
+  "locator": "S. 2823, sec. 3(a) and sec. 4(j)",
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Bill text as introduced.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-342",
+  "statement": "The 2025 Senate FAMILY Act text would make it unlawful for an employer to fail to restore a worker who received the benefit to the same or an equivalent position, and to maintain group health coverage during the leave.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-3744",
+  "anchor": [
+   "(I) restore the individual to the\nposition of employment held by the",
+   "individual when the leave commenced; or",
+   "shall be\ninterference with the right of an individual\nfor purposes of clause (i) for an employer of\nthe individual to, upon the conclusion of any\nleave for which the individual received a\nfamily and medical leave insurance benefit\nunder this section, fail to--\n(I) restore the individual to the\nposition of employment held by the\nindividual when the leave commenced; or\n(II) restore the individual to an\nequivalent position with equivalent\nemployment benefits, pay, and other\nterms and conditions of employment.\n(iii) Maintenance of health benefits.--It\nshall be interference with the right of an\nindividual for purposes of clause (i) for an\nemployer of the individual to fail to maintain,"
+  ],
+  "locator": "S. 2823, sec. 4(h)",
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Bill text as introduced; enforcement by the Commissioner and private action. Applies regardless of employer size or tenure per the New America explainer (not quoted).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-343",
+  "statement": "The funding section of the 2025 Senate FAMILY Act text would pay grants from 2027 to \"legacy States\" that keep a state program providing at least 12 full workweeks of leave at a wage replacement rate at least equal to the federal program, covering the lesser of the federal-equivalent benefit cost or the actual cost, with administration capped at 7 percent of benefits.",
+  "claim": "data",
+  "figures": [
+   "2027",
+   "12 full workweeks",
+   "7 percent"
+  ],
+  "source": "SRC-3744",
+  "anchor": [
+   "beginning with calendar year 2027, the Commissioner shall make",
+   "the lesser of--",
+   "for at least 12 full workweeks of leave during\neach 12-month period",
+   "may not exceed 7 percent of the total amount of\npaid family"
+  ],
+  "locator": "S. 2823, sec. 5(a) and (b)",
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Bill text as introduced. This is the bill's answer to the federal-program versus state-opt-in question: states with qualifying programs could keep running them with federal money.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-344",
+  "statement": "CBO and JCT estimated in February 2020 that the 2019 FAMILY Act (H.R. 1185: up to three months, about two-thirds of earnings, 0.4 percent payroll tax split evenly) would raise direct spending by $547 billion over 2020-2030 ($521 billion benefits, $27 billion administration), raise $319 billion in net revenue from the $361 billion tax, and add $228 billion to the deficit.",
+  "claim": "analysis",
+  "figures": [
+   "0.4 percent",
+   "$547 billion",
+   "2020-2030",
+   "$521 billion",
+   "$27 billion",
+   "$319 billion",
+   "$361 billion",
+   "$228 billion"
+  ],
+  "source": "SRC-3746",
+  "anchor": [
+   "analyzed the budgetary effects of H.R. 1185, the FAMILY Act, as introduced on February 13, 2019.",
+   "impose a 0.4 percent payroll tax that would be split evenly between employers and employees.",
+   "Under H.R. 1185, benefits would equal about two-thirds of a recipient's highest earnings over the preceding three years",
+   "increase direct spending by $547 billion over the 2020-2030 period—$521 billion for benefits and $27 billion for program administration",
+   "increase net federal revenues by $319 billion over the 2020-2030 period. (The new payroll tax would raise a total of $361 billion",
+   "increase the deficit by $228 billion over the 2020-2030 period."
+  ],
+  "locator": "Summary and \"Changes in Direct Spending\"",
+  "grade": "C",
+  "fact_date": "2020-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "CBO and JCT (nonpartisan), letter to Rep. Brady, February 13, 2020 (Trump administration; congressional agencies), on the bill as introduced February 13, 2019, with benefits starting in fiscal year 2022 and the tax 120 days after enactment. CBO states the estimates are subject to significant uncertainty. The key driver is take-up: CBO assumed about half of those needing leave for their own health and one-sixth of those caring for a family member would eventually claim. The $547 billion is spending only; the tax is a separate $361 billion line.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-345",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-346",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-345",
+  "statement": "American Action Forum says CBO put the FAMILY Act-based design at $547 billion over ten years, that the 0.4 percent payroll tax matches AAF's estimate using state-program take-up, that a 0.85 percent break-even attributed to JCT matches AAF's estimate using FMLA take-up, and that a survey by Cato implies 2.9 percent.",
+  "claim": "analysis",
+  "figures": [
+   "$547 billion",
+   "0.4 percent",
+   "0.85 percent",
+   "2.9 percent"
+  ],
+  "source": "SRC-3786",
+  "anchor": [
+   "The Congressional Budget Office (CBO) puts the 10-year price-tag at $547 billion.",
+   "The 0.4 percent payroll tax rate noted by CBO is exactly what AAF found would cover the cost of the FAMILY Act based on the state-level experience.",
+   "the 0.85 percent tax rated cited by the Joint Committee on Taxation as the break-even tax rate matches the AAF estimated tax rate based on the takeup under FMLA",
+   "requires a 2.9 percent payroll tax to finance it"
+  ],
+  "locator": "Daily Dish, paragraphs 1 and 4",
+  "grade": "C",
+  "fact_date": "2021-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "American Action Forum (center-right policy institute), Holtz-Eakin, September 1, 2021, written when Democrats planned a FAMILY Act-based paid leave title in the 2021 reconciliation bill. AAF attributes $547 billion to CBO (the 2020 H.R. 1185 estimate, a 2019 bill, not a new 12-week score) and 0.85 percent to JCT. The CBO/JCT letter extract that could be retrieved (pages 1 to 4) contains the $547 billion and 0.4 percent but not the 0.85 percent, so the JCT attribution is unverified. The point of the post is that the right tax rate depends on take-up (0.4, 0.85 or 2.9 percent).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-344",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-346",
+  "statement": "CRFB tabulates CBO's scores of the House Build Back Better Act (H.R. 5376) at $205 billion for establishing a paid family and medical leave program.",
+  "claim": "analysis",
+  "figures": [
+   "H.R. 5376",
+   "$205 billion"
+  ],
+  "source": "SRC-3784",
+  "anchor": [
+   "The Congressional Budget Office (CBO) has released cost estimates of each title of the House's Build Back Better Act (H.R. 5376).",
+   "Establish a paid family and medical leave program | $205 billion"
+  ],
+  "locator": "Table, Family Benefits",
+  "grade": "C",
+  "fact_date": "2021-11",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Committee for a Responsible Federal Budget (nonpartisan, deficit-focused), November 18, 2021, tabulating CBO and JCT scores (Biden administration era). Bloomberg Law reported $205.5 billion for four weeks of leave; the CBO title score itself was not retrievable. Costs are over fiscal years 2022 to 2031 and the program was to be permanent.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-344",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-347",
+  "statement": "The Build Back Better Act (H.R. 5376, passed by the House on November 19, 2021) proposed up to four workweeks of cash benefits per benefit period, payable from January 2024, as a permanently authorized new Social Security Act title.",
+  "claim": "data",
+  "figures": [
+   "H.R. 5376",
+   "November 19, 2021",
+   "four workweeks",
+   "January 2024"
+  ],
+  "source": "SRC-3747",
+  "anchor": [
+   "The Build Back Better Act (BBBA; H.R. 5376)",
+   "passed by\nthe House on November 19, 2021",
+   "up to four workweeks of cash\nbenefits in each benefit period",
+   "Benefits would be payable starting January 2024"
+  ],
+  "locator": "CRS IF11994, first page",
+  "grade": "A",
+  "fact_date": "2021-12",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "CRS In Focus (nonpartisan), December 9, 2021, describing the House-passed bill.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-348",
+  "statement": "The Build Back Better Act's federal paid leave cash benefit was not included in the enacted version of the bill (P.L. 117-169).",
+  "claim": "data",
+  "figures": [
+   "P.L. 117-169"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "the cash benefit was not\nincluded in the enacted version of the bill (P.L. 117-169)."
+  ],
+  "locator": "CRS R44835, \"Recent Federal Paid Family and Medical Leave Legislation and Proposals\"",
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "CRS (nonpartisan). Senator Manchin cited cost and the program's place in a reconciliation bill (NBC News and CNBC, November 2021, not catalogued).",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-349",
+  "statement": "The President's fiscal year 2025 budget proposed a national paid family and medical leave program administered by the Social Security Administration, with up to 12 weeks to bond with a new child, care for a seriously ill loved one, heal from one's own illness, or for military or safe-leave reasons, progressive partial wage replacement and an inclusive family definition.",
+  "claim": "data",
+  "figures": [
+   "2025",
+   "12 weeks"
+  ],
+  "source": "SRC-3749",
+  "anchor": [
+   "BUDGET OF THE U. S. GOVERNMENT FOR FISCAL YEAR 2025",
+   "The Budget proposes to establish a national,\ncomprehensive paid family and medical leave\nprogram administered by SSA to ensure that all\neligible workers can take up to 12 weeks"
+  ],
+  "locator": "Department of Labor and Social Security Administration chapters",
+  "grade": "A",
+  "fact_date": "2024-03",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Office of Management and Budget, March 2024, Biden administration; a proposal, not enacted; the 10-year cost ($325 billion, from the budget's mandatory-proposals table, extracted by column so it cannot be anchored as a row) is recorded in the CRFB entry. The same budget states that 73 percent of private sector workers lack employer paid family leave (consistent with BLS 27% access) and 94 percent of the lowest-paid.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-350",
+  "statement": "CRFB reports the President's fiscal year 2025 budget proposed up to 12 weeks of paid leave administered by the Social Security Administration at a cost of $325 billion over a decade.",
+  "claim": "analysis",
+  "figures": [
+   "12 weeks",
+   "$325 billion"
+  ],
+  "source": "SRC-3785",
+  "anchor": [
+   "Policy Proposals in the President's FY 2025 Budget",
+   "up to 12 weeks of paid leave administered by the Social Security Administration at a cost of $325 billion over a decade"
+  ],
+  "locator": "Article, \"Costs in the President's FY 2025 Budget\"",
+  "grade": "C",
+  "fact_date": "2024-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Committee for a Responsible Federal Budget (nonpartisan), April 2024, repeating the administration's estimate rather than scoring it independently.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-349",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-351",
+  "statement": "H.R. 3089, the More Paid Leave for More Americans Act (Rep. Bice with Rep. Houlahan and others), introduced April 30, 2025, would have the Labor Department give states competitive grants of $1,500,000 to $7,000,000 for paid family leave programs that provide at least 6 weeks of benefits capped at 150 percent of the state average weekly wage, use a covered public-private partnership, and set premiums or another financing method.",
+  "claim": "data",
+  "figures": [
+   "3089",
+   "$1,500,000",
+   "$7,000,000",
+   "6 weeks",
+   "150 percent"
+  ],
+  "source": "SRC-3750",
+  "anchor": [
+   "H.R. 3089",
+   "119th CONGRESS",
+   "April 30, 2025",
+   "(B) provide 6 weeks of paid family leave benefits;",
+   "(E) require the establishment and use of a covered\npartnership; and\n(F) establish premium rates or a financing method",
+   "(C) annually establish a weekly maximum benefit\namount that is equal to 150 percent of the State",
+   "less than $1,500,000 and not more than $7,000,000."
+  ],
+  "locator": "H.R. 3089, sec. 101(d) and sec. 201",
+  "grade": "A",
+  "fact_date": "2025-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Bill text as introduced; bipartisan product of the House Bipartisan Paid Leave Working Group. Referred to Education and Workforce and five other committees, April 30, 2025; no later action in the saved sources (GovTrack lists 9 cosponsors, 5 Democrats and 4 Republicans). The companion I-PLAN Act (H.R. 3090, Houlahan) would create an Interstate Paid Leave Action Network. The brief expected 2023-24 working group work; the 119th Congress bill is what is on file. The Senate bill is S. 5017 per CRS.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-352",
+  "statement": "At a February 2026 House Education and Workforce subcommittee hearing, Chairman Mackenzie said only 27 percent of private sector workers have employer paid family leave access and described H.R. 3089 as the House Bipartisan Paid Leave Working Group's bill, led by Representatives Bice and Houlahan.",
+  "claim": "data",
+  "figures": [
+   "27 percent",
+   "3089"
+  ],
+  "source": "SRC-3789",
+  "anchor": [
+   "only 27 percent of private sector workers in the United States have access to paid family leave benefits through their employer",
+   "Last year, Representatives Bice and Houlahan introduced H.R. 3089",
+   "Representatives Stephanie Bice and Chrissy Houlahan have been working alongside other working group Members"
+  ],
+  "locator": "Chairman's prepared statement",
+  "grade": "A",
+  "fact_date": "2026-02",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Opening statement of the Republican subcommittee chairman (Rep. Ryan Mackenzie, R-PA) at a hearing titled \"Balancing Careers and Care: Examining Innovative Approaches to Paid Leave.\" It also notes the 45S credit was made permanent. A statement of intent, not committee action.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-353",
+  "statement": "The Cassidy-Sinema proposal of 2019 would let new parents advance $5,000 of their Child Tax Credit at the birth or adoption of a child in return for a $500 reduction in the credit in each of the following 10 years, without new taxes, entitlements or Social Security effects.",
+  "claim": "data",
+  "figures": [
+   "$5,000",
+   "$500",
+   "10 years"
+  ],
+  "source": "SRC-3788",
+  "anchor": [
+   "parents to advance $5,000 from their Child Tax Credit upon the birth or adoption of a child",
+   "parents would reduce their yearly Child Tax Credit by $500 over each of the following 10 years",
+   "does not increase taxes"
+  ],
+  "locator": "Press release, second and third paragraphs",
+  "grade": "A",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "Sen. Sinema's office, 2019 (116th Congress); Sen. Cassidy (R-LA) co-developed it. A proposal described by its sponsors; no enacted law, and a bill number was not found for the 119th Congress. A loan against the credit rather than new money.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-354",
+  "statement": "The New Parents Act of 2023 (S. 35, 118th Congress) proposed to let eligible new parents borrow up to three months of Social Security benefits before retirement age, repaid by a higher retirement age or a reduction in future benefits.",
+  "claim": "data",
+  "figures": [
+   "S. 35",
+   "118th"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "The New Parents Act of 2023 (S. 35,\n118th Congress) proposed to allow eligible new parents to temporarily access (borrow) up to three\nmonths of Social Security benefits",
+   "accepting an increase in their Social\nSecurity retirement age or accepting a temporary reduction in future Social Security old-age"
+  ],
+  "locator": "CRS R44835, \"Recent Federal Paid Family and Medical Leave Legislation and Proposals\"",
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-12",
+  "recheck": "2027-06-30",
+  "context": "CRS (nonpartisan). Sponsors (Rubio and Ernst were the leading Republican sponsors of the earlier versions) are not named in the saved text; no 119th Congress bill number found. Not enacted.",
+  "supports": [
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-355",
+  "statement": "Using March CPS data from 1999-2010, Rossin-Slater, Ruhm and Waldfogel found California's program doubled use of maternity leave from an average of around 3 to 6 weeks and increased the usual weekly work hours of employed mothers of one-to-three-year-olds by 10 to 17%.",
+  "claim": "analysis",
+  "figures": [
+   "1999",
+   "2010",
+   "3 to 6 weeks",
+   "10 to 17%"
+  ],
+  "source": "SRC-3752",
+  "anchor": [
+   "California program doubled overall maternity leave use – increasing it from an average of around 3 to 6 weeks",
+   "paid family leave led to 10 to 17% increases in usual weekly work hours for employed mothers",
+   "March Current Population Survey data from 1999–2010"
+  ],
+  "locator": "Abstract and introduction (PMC author manuscript)",
+  "grade": "B",
+  "fact_date": "2013",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer reviewed (JPAM 2013); difference-in-differences with comparison groups of older-child mothers, childless women and other states; tried in California, 2004 program (six weeks at 55%). The 2011 NBER working paper reported 6 to 9% for hours and \"three to six or seven weeks\"; the published 10 to 17% is the later, stronger statement. The authors call the labor market evidence \"more equivocal.\" Co-authored by Ruhm, who also wrote the Baum study.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-358",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-360",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-357",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-359",
+    "stance": "contests"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-356",
+  "statement": "Baum and Ruhm found, using a national youth survey cohort, that California's program raised leave use by almost five weeks for the average covered mother and two to three days for the father, and was associated with higher work and employment probabilities for mothers nine to 12 months after birth.",
+  "claim": "analysis",
+  "figures": [
+   "12"
+  ],
+  "source": "SRC-3754",
+  "anchor": [
+   "CA-PFL raised leave use by almost five weeks for the average covered mother and two to three days for the corresponding father",
+   "higher work and employment probabilities for mothers nine to 12 months after birth"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer reviewed (JPAM 2016); difference-in-differences against control states, NLSY-97 cohort (small sample); tried in California. Shares an author (Ruhm) with the Rossin-Slater study, so not independent of it.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-358",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-357",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-360",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-357",
+  "statement": "Using IRS and SSA tax data and a regression discontinuity in time, Bailey, Byker, Patel and Ramnath found no evidence that California's 2004 Paid Family Leave Act increased women's employment, earnings or childbearing, and found it reduced employment and earnings of first-time mothers roughly a decade after birth.",
+  "claim": "analysis",
+  "figures": [
+   "2004"
+  ],
+  "source": "SRC-3753",
+  "anchor": [
+   "effects of California’s 2004 Paid Family Leave Act (CPFL)",
+   "We find no evidence that CPFL increased employment, boosted earnings, or encouraged childbearing",
+   "For first-time mothers, we find that CPFL reduced employment and earnings roughly a decade after they gave birth."
+  ],
+  "locator": "Abstract (revised January 2024)",
+  "grade": "B",
+  "fact_date": "2025",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper 26416 (2019, revised January 2024), published in AEJ: Economic Policy 2025; compares mothers giving birth just after May 20, 2004, who could take paid leave consecutively after disability leave, with those just before; tried in California only. CONTESTS the positive findings above. The brief recalled larger 2019-version figures (about 7% fewer employed, 8% lower earnings); the revised abstract quotes no percentages, and a paragraph of the paper says no negative effects for mothers who already had children. Short-run effects were not negative. Identifies effects of the sharp rise in weeks at the 2004 launch, six weeks at 55%.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-355",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-358",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-356",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-360",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-358",
+  "statement": "Jones and Wilcher found that California's paid family leave decreased maternal labor force detachment by 5 percentage points, with impacts still significantly different from zero up to nine years later, and similar effects in New Jersey, Rhode Island and New York.",
+  "claim": "analysis",
+  "figures": [
+   "5 percentage points"
+  ],
+  "source": "SRC-3757",
+  "anchor": [
+   "Paid family leave decreased maternal labor force detachment by 5 percentage points.",
+   "Impacts on detachment remain significantly different from zero up to nine years later.",
+   "Impacts are consistent in California, New Jersey, Rhode Island, and New York."
+  ],
+  "locator": "Highlights",
+  "grade": "B",
+  "fact_date": "2024",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer reviewed (Labour Economics, April 2024); difference-in-differences on survey data around the 2004 California launch, with effects largest among women with bachelor's degrees; tried in California, then checked in three other states. CONTESTS Bailey et al. on long-run outcomes (different data: survey participation, not tax records).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-357",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-355",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-356",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-360",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-359",
+  "statement": "Das and Polachek found that California's program raised young women's labor force participation by about 1.5 percentage points but also raised their unemployment rate by 0.3 to 1.5 percentage points and unemployment duration by 4-9%.",
+  "claim": "analysis",
+  "figures": [
+   "1.5 percentage points",
+   "0.3",
+   "4-9%"
+  ],
+  "source": "SRC-3756",
+  "anchor": [
+   "net increase in labor force participation by about 1.5 percentage points",
+   "relative increase in unemployment of between 0.3 and 1.5 percentage points",
+   "unemployment duration increased by 4-9%"
+  ],
+  "locator": "SSRN version, introduction",
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Contemporary Economic Policy 2015 (IZA working paper 2014); difference-in-differences with placebo tests against other states, through 2009; tried in California. CONTESTS the dominantly positive findings: higher unemployment among young women, which the authors read as employer demand shifts. Not tested against later data.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-358",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-SEC-360",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-360",
+  "statement": "CRS summarizes the California evidence as mixed: some studies find a positive relationship between paid parental leave and mothers' labor force attachment and others find little evidence; longer-term impacts are harder to study and some find negative long-term employment effects, and a threshold duration beyond which prospects deteriorate has not been firmly established.",
+  "claim": "analysis",
+  "figures": [
+   "California"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "Empirical findings for California are mixed, with some studies observing a positive relationship\nbetween paid parental leave benefits and mothers’ labor force attachment, and others finding little\nevidence of such a connection. Most studies consider short-term impacts of the California\nprogram expansion (i.e., within the 12 months following a birth) and have observed positive\nimpacts on labor force attachment measures for some worker groups.52 Longer-term impacts are\nmore challenging to study due to scarce longitudinal data and the potential for many factors to\naffect labor outcomes over several years. Studies have employed different methods to estimate\nimpacts and have reached various conclusions, including negative impacts on long-term"
+  ],
+  "locator": "CRS R44835, \"Research on Paid Parental Leave\"",
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRS (nonpartisan), September 2026, summarizing the peer-reviewed studies (Rossin-Slater et al.; Baum and Ruhm; Das and Polachek; Jones and Wilcher; Stock and Inglis; Bailey et al. 2025). Evidence is almost all from California's 2004 expansion, a six-week program that has since been amended.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-355",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-357",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-358",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-361",
+  "statement": "Using ten years of California administrative data, Bana, Bedard and Rossin-Slater found no evidence that a higher weekly benefit amount increases leave duration or causes adverse later labor market outcomes for women with earnings near the maximum benefit, and that higher benefits raise the likelihood of returning to the pre-leave firm.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3755",
+  "anchor": [
+   "We find no evidence that a higher weekly benefit amount (WBA) increases leave duration or leads to adverse future labor market outcomes for this group.",
+   "a rise in the WBA leads to an increased likelihood of returning to the pre-leave firm (conditional on any employment)"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper 24438 (2018), JPAM 2020; regression kink design at the maximum benefit threshold, tried in California 2004-2014 (55% replacement); applies to women near the cap, not to low earners, whose response to higher replacement is untested here. Shares an author with the Rossin-Slater study.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-360",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-355",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-362",
+  "statement": "Bartel and co-authors found fathers in California were 0.9 percentage points, or 46 percent, more likely to take leave in the first year of their children's lives when California's program was available, with father-only leave-taking up 50 percent and joint leave-taking up 28 percent.",
+  "claim": "analysis",
+  "figures": [
+   "0.9 percentage points",
+   "46 percent",
+   "50 percent",
+   "28 percent"
+  ],
+  "source": "SRC-3758",
+  "anchor": [
+   "fathers in California are 0.9 percentage points—or 46 percent relative to the pre-treatment mean—more likely to take leave in the first year of their children’s lives",
+   "CA-PFL increases father-only leave-taking (i.e., father on leave while mother is at work) by 50 percent and joint leave-taking (i.e., both parents on leave at the same time) by 28 percent"
+  ],
+  "locator": "NBER abstract",
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper 21747 (2015), JPAM 2018, whose abstract softens the dual-earner results to \"suggestive evidence\"; difference-in-differences and triple differences, California. Absolute change is small (0.9 points). Shares authors with the Rossin-Slater and Baum studies.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-380",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-373",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-363",
+  "statement": "Appelbaum and Milkman's 2009 and 2010 surveys of 253 California employers found most reported paid family leave had a positive or no noticeable effect on productivity (89 percent), profitability or performance (91 percent), turnover (96 percent) and morale (99 percent).",
+  "claim": "analysis",
+  "figures": [
+   "253",
+   "89 percent",
+   "91 percent",
+   "96 percent",
+   "99 percent"
+  ],
+  "source": "SRC-3759",
+  "anchor": [
+   "Most employers report that PFL had either a “positive effect” or “no noticeable effect” on productivity (89 percent), profitability/performance (91 percent), turnover (96 percent), and employee morale (99 percent).",
+   "surveys we conducted in 2009 and 2010 of 253 employers"
+  ],
+  "locator": "Key Findings: Employers",
+  "grade": "C",
+  "fact_date": "2011",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Center for Economic and Policy Research (left-leaning think tank that supports paid leave), January 2011; employer self-reports with no comparison group, four to five years after launch, California. Larger establishments (100+ employees) were over-represented among the minority reporting negative effects.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-364",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-365",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-364",
+  "statement": "Bartel and co-authors surveyed New York and Pennsylvania firms with 10 to 99 employees and found New York's 2018 paid family leave raised employers' ease-of-handling ratings for long absences by 0.29 standard deviations in the first year and employee leave-taking by 20.8 percentage points in the second year, with no evidence of adverse effects on the outcomes measured.",
+  "claim": "analysis",
+  "figures": [
+   "10 to 99",
+   "2018",
+   "0.29",
+   "20.8 percentage point"
+  ],
+  "source": "SRC-3760",
+  "anchor": [
+   "to study the impacts of New York's 2018 Paid Family Leave policy",
+   "there is a 0.29 standard deviation (SD) increase in employers’ rating of their ease of handling workers’ absences longer than four weeks",
+   "there is a 20.8 percentage point (53.3 percent relative to the pre-policy mean) increase in the incidence of employee leave-taking",
+   "we also do not find evidence of any adverse effects on these outcomes",
+   "a representative sample of firms with 10 to 99 employees"
+  ],
+  "locator": "Abstract and introduction",
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper 28672 (April 2021), published 2025; survey of employer opinions matched to Pennsylvania firms (no state program), difference-in-differences; tried in New York 2018. Employer ratings were already high before the law, and the ease-of-handling gains faded by the second year. Shares authors with the California studies.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-363",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-365",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-365",
+  "statement": "In the New York small-employer study, the share of employers reporting opposition to the state program rose from 4.1% in 2016 to 9.5% in 2019.",
+  "claim": "data",
+  "figures": [
+   "4.1%",
+   "9.5%",
+   "2016",
+   "2019"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "share of employers who report opposition to the state program increased from 4.1% in 2016 to\n9.5% in 2019."
+  ],
+  "locator": "CRS R44835, \"Research on Employer Impacts\"",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRS (nonpartisan) summarizing the earlier version of the Bartel et al. study; small shares among firms with 10 to 99 employees. CRS adds that a later study by the same team found employers' support increased during the pandemic (not anchored here).",
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-366",
+  "statement": "Pihl and Basso, using the full census of California infant hospitalizations with control states, found a decline in infant admissions after California's paid family leave began, concentrated in causes that closer childcare could affect.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3761",
+  "anchor": [
+   "Our results suggest a decline in infant admissions, which is concentrated among those causes that are potentially affected by closer childcare"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer reviewed (JPAM 2019); difference-in-differences, tried in California. Reports a decline without a single headline percentage in the abstract. Falsification: other admissions did not change.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-370",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-369",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-367",
+  "statement": "Lichtman-Sadot and Bell found improvements in overweight, ADHD and hearing-related outcomes among California elementary school children after the paid family leave program began, driven by children from less advantaged backgrounds.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3764",
+  "anchor": [
+   "our results suggest improvements in health outcomes among California elementary school children following PFL’s introduction",
+   "the improvements are driven by children from less advantaged backgrounds"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2017",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer reviewed (JPAM 2017); ECLS data, difference-in-differences, California. The health outcomes are measured years after the leave. Same journal as the Pihl study.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-370",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-369",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-368",
+  "statement": "Arora and Wolf found California's paid family leave reduced the share of the elderly in nursing homes by about 0.65 percentage points in their preferred estimate, an 11 percent relative decline.",
+  "claim": "analysis",
+  "figures": [
+   "0.65 percentage points",
+   "11 percent"
+  ],
+  "source": "SRC-3762",
+  "anchor": [
+   "finds that PFL reduced nursing home usage by about 0.65 percentage points. For California, this represents an 11 percent relative decline in elderly nursing home utilization."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer reviewed (JPAM 2018); difference-in-differences with matched control states, 1999-2008, one treated state, so inference is limited; California.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-371",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-369",
+  "statement": "Huang and Yang found an increase of 3–5 percentage points in exclusive breastfeeding and 10–20 percentage points in breastfeeding at several markers of early infancy after California's program began.",
+  "claim": "analysis",
+  "figures": [
+   "3–5 percentage points",
+   "10–20 percentage points"
+  ],
+  "source": "SRC-3763",
+  "anchor": [
+   "We find an increase of 3–5 percentage points for exclusive breastfeeding and an increase of 10–20 percentage points for breastfeeding at several important markers of early infancy."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer reviewed (Economics and Human Biology 2015); Infant Feeding Practices Study, California against other states (a small survey).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-370",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-366",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-370",
+  "statement": "CRS reports that research on paid parental leave and family well-being generally finds positive relationships along several measures, including the timing of children's immunizations, mothers' mental health and breastfeeding duration.",
+  "claim": "analysis",
+  "figures": [
+   "California"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "Another branch of research examines linkages between paid parental leave and family well-being.\nThese generally find positive relationships along a variety of measures (e.g., timing of children’s"
+  ],
+  "locator": "CRS R44835, \"Research on Paid Parental Leave\"",
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRS (nonpartisan), September 2026, summarizing California studies (Choudhury and Polachek on vaccinations; Pac et al. on breastfeeding). All are from the California program.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-366",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-367",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-369",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-371",
+  "statement": "CRS reports that studies of state leave insurance find paid leave may support workers' ability to maintain work hours or remain employed while caring for family, with larger impacts for women, but that impacts may be limited if benefit duration is insufficient or caregivers are unaware the programs cover caregiving.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3740",
+  "anchor": [
+   "their findings suggest that the availability of paid leave benefits",
+   "if caregivers are unaware that the state programs offer caregiving benefits."
+  ],
+  "locator": "CRS R44835, \"Research on Paid Family Caregiving\"",
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRS (nonpartisan), September 2026, summarizing studies of workers whose spouse or parent had a health shock (Anand et al., Braga et al., Coile et al., Morefield et al.); California, New Jersey, New York.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-368",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-372",
+  "statement": "California administrative data on all paid family leave claims show take-up for bonding and caring increased over 2005-2014, and that individuals in the lowest earnings quartile and in small firms are the least likely to take leave.",
+  "claim": "data",
+  "figures": [
+   "2005–2014"
+  ],
+  "source": "SRC-3765",
+  "anchor": [
+   "take-up for both bonding with a new child and caring for an ill family member increased over 2005–2014",
+   "Individuals in the lowest earnings quartile and in small firms are the least likely to take leave."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Peer reviewed (AEA Papers and Proceedings 2018); descriptive statistics on administrative claims for California only, a six-week program at 55%; the 2018 and later increases for low earners are not covered.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-373",
+  "statement": "Rossin-Slater estimated that 40% of employed new mothers in California made a bonding claim in 2005 and 47% in 2014, against 4% and 12% of employed new fathers.",
+  "claim": "analysis",
+  "figures": [
+   "40%",
+   "47%",
+   "4%",
+   "12%",
+   "2005",
+   "2014"
+  ],
+  "source": "SRC-3766",
+  "anchor": [
+   "We estimate that 40% (4%) of employed new mothers (employed new fathers) made a bonding claim in 2005, while 47% (12%) of employed new mothers (employed new fathers) made a bonding claim in 2014."
+  ],
+  "locator": "Essay, paragraph on take-up rates",
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "American Enterprise Institute (center-right think tank) essay, April 2018, by a co-author of the AEA study; rough take-up shares from claims divided by births and scaled by employment rates, not a measured rate. Excludes disability-insurance maternity leave.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-374",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-SEC-362",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-374",
+  "statement": "Pew's 2017 survey, as summarized by CRS, found that 26% of Black workers and 23% of Hispanic workers reported needing time off for family or medical reasons in the prior two years and not being able to take it, against 13% of White workers, and that among leave takers 62% of workers in households under $30,000 received no pay, against 26% at $75,000 or more.",
+  "claim": "data",
+  "figures": [
+   "26%",
+   "23%",
+   "13%",
+   "62%",
+   "$30,000",
+   "26%",
+   "$75,000"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "For example, 26% of Black workers and 23% of Hispanic\nworkers indicated that there was a time in the two years before the interview they needed or\nwanted time off (paid or unpaid) for family or medical reasons and were not able to take it; by\ncontrast, 13% of White workers reported they were unable to take such leave.",
+   "62% of workers in households with less than $30,000 in total annual earnings\nreported they received no pay during leave, whereas this figure was 26% among those with total\nannual household incomes at or above $75,000."
+  ],
+  "locator": "CRS R44835, after Figure 1",
+  "grade": "C",
+  "fact_date": "2017",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Pew Research Center surveys of 2014-2016 as summarized by CRS (nonpartisan); the data predates most state programs and were self-reported. CRS adds that Bartel et al. (2019) and Urban Institute (2022) found lower paid-leave access and use among Hispanic workers.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-375",
+  "statement": "As of April 2022 the OECD average length of paid maternity leave was 18.5 weeks, and the United States was the only OECD member with no national provision of paid maternity leave.",
+  "claim": "data",
+  "figures": [
+   "18.5 weeks",
+   "April 2022"
+  ],
+  "source": "SRC-3773",
+  "anchor": [
+   "Across the OECD, statutory rights to paid maternity leave are provided with an average length of 18.5 weeks as of April 2022",
+   "the only OECD member with no national provision of paid maternity leave"
+  ],
+  "locator": "Joining Forces for Gender Equality, \"Supporting equal parenting,\" first paragraph",
+  "grade": "A",
+  "fact_date": "2022-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "OECD Family Database (indicator PF2.1), 2023 publication; unweighted average of national entitlements; U.S. states' programs not counted. Maternity leave only: the OECD full-rate-equivalent figure for mothers (all paid leave) is higher.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-376",
+  "statement": "As of April 2025 the OECD Family Database counted 37 of its 38 members as providing some paid parental and maternity leave at the national level, and 35 of 38 provided leave benefits to new fathers in 2025.",
+  "claim": "data",
+  "figures": [
+   "April 2025",
+   "37",
+   "38",
+   "35"
+  ],
+  "source": "SRC-3740",
+  "anchor": [
+   "As of April 2025, the OECD Family Database counted 37 of its 38 members as providing for\nsome paid parental leave (i.e., to care for children) and maternity leave at the national level",
+   "A smaller majority (35 of 38) of OECD countries provided leave benefits to new fathers in 2025."
+  ],
+  "locator": "CRS R44835, \"Parental Leave Benefits\"",
+  "grade": "A",
+  "fact_date": "2025-04",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "CRS (nonpartisan) reporting OECD Family Database PF2.1, May 2026 edition.",
+  "supports": [
+   "dossiers/secure-floor/1-problem.md",
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-377",
+  "statement": "Ruhm found, using data for nine European countries over 1969 through 1993, that parental leave is associated with increases in women's employment but with reductions in their relative wages at extended durations.",
+  "claim": "analysis",
+  "figures": [
+   "1969",
+   "1993"
+  ],
+  "source": "SRC-3767",
+  "anchor": [
+   "Parental leave is associated with increases in women's employment, but with reductions in their relative wages at extended durations.",
+   "data for nine European countries over the 1969 through 1993 period"
+  ],
+  "locator": "Introduction and abstract",
+  "grade": "B",
+  "fact_date": "1998",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Quarterly Journal of Economics 1998; country panel (nine European countries) comparing the female-male gap, so it identifies effects of changes in entitlement length, mostly of longer, fully paid leaves than U.S. programs offer; not tried in the U.S.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-378",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-381",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-378",
+  "statement": "Olivetti and Petrongolo's review concluded that most estimates of the impact of parental leave entitlement on female labor market outcomes range from negligible to weakly positive, with stronger evidence for spending on early education and childcare.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3768",
+  "anchor": [
+   "Most estimates of the impact of parental leave entitlement on female labor market outcomes range from negligible to weakly positive.",
+   "There is stronger evidence that spending on early education and childcare increases labor force participation of women and reduces gender gaps."
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2017",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper 23051 / Journal of Economic Perspectives 2017; a review of cross-country and micro studies in high-income countries (entitlements far longer than U.S. state programs). Consistent with the California findings that range from slightly positive to slightly negative.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-377",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-381",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-379",
+  "statement": "In Norway, a 1993 reform that gave fathers one month of paid paternity leave raised take-up from 3% to 35%, and coworkers and brothers were 11 and 15 percentage points, respectively, more likely to take leave if their peer was induced to by the reform.",
+  "claim": "analysis",
+  "figures": [
+   "1993",
+   "3%",
+   "35%",
+   "11",
+   "15 percentage points"
+  ],
+  "source": "SRC-3769",
+  "anchor": [
+   "take up rising from 3% to 35%",
+   "Coworkers and brothers are 11 and 15 percentage points, respectively, more likely to take paternity leave if their peer father was induced to take up leave by the reform.",
+   "a reform made fathers of children born after April 1, 1993 in Norway eligible for one month of governmental paid paternity leave"
+  ],
+  "locator": "NBER abstract",
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "NBER working paper 18198 (2012), American Economic Review 2014; regression discontinuity at the April 1, 1993 birth cutoff, tried in Norway. The authors attribute peer effects mainly to information about costs and about how employers react, which is the take-up mechanism for any new U.S. program.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-380",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-362",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-380",
+  "statement": "Patnaik found that Quebec's Parental Insurance Plan, which improved compensation and reserved 5 weeks of leave for fathers, raised fathers' participation by 250%, driven by higher benefits and the framing of \"daddy only\" weeks, and reduced sex specialization in household work long after.",
+  "claim": "analysis",
+  "figures": [
+   "5 weeks",
+   "250%"
+  ],
+  "source": "SRC-3770",
+  "anchor": [
+   "I examine the Quebec Parental Insurance Plan, which improved compensation and reserved 5 weeks of leave for fathers. I find that fathers’ participation increased by 250%"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Journal of Labor Economics 2019; Quebec against other Canadian provinces, difference-in-differences; tried in Quebec. Starts from a low base of father participation.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-379",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-362",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md",
+   "dossiers/secure-floor/3-design.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-381",
+  "statement": "Kluve and Tamm found that Germany's generous 2007 parental leave regulation significantly decreased mothers' employment probability during the 12 months after birth and increased it after the transfer expired, with no significant change in fathers' childcare time from the two \"daddy months.\"",
+  "claim": "analysis",
+  "figures": [
+   "2007",
+   "12 months"
+  ],
+  "source": "SRC-3771",
+  "anchor": [
+   "In 2007, Germany implemented a generous parental leave regulation",
+   "find a significant decrease in mothers’ employment probability during the 12 months after giving birth, and an increase in mothers’ employment probability after the transfer expires"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2013",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Journal of Population Economics 2013; natural experiment comparing births just before and after the 2007 reform; tried in Germany (a 12-14 month earnings-related benefit, longer than any U.S. proposal).",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-377",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-SEC-378",
+    "stance": "supports"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-SEC-382",
+  "statement": "Raute found that Germany's reform of earnings-related maternity leave benefits increased the fertility of tertiary-educated women by up to 22% relative to low-educated women.",
+  "claim": "analysis",
+  "figures": [
+   "22%"
+  ],
+  "source": "SRC-3772",
+  "anchor": [
+   "demonstrating an up to 22% increase in the fertility of tertiary educated versus low educated women",
+   "a major maternity leave benefit reform in Germany"
+  ],
+  "locator": "NBER abstract",
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12",
+  "context": "Journal of Public Economics 2019 (NBER working paper 23793); difference-in-differences by education and income; the reform replaced a flat benefit with earnings-related pay. The effect depends on benefit generosity at higher earnings, not on weeks. Fertility effects have not been estimated for U.S. state programs.",
+  "corroboration": [
+   {
+    "evidence": "EV-SEC-381",
+    "stance": "qualifies"
+   }
+  ],
+  "supports": [
+   "dossiers/secure-floor/2-what-works.md"
+  ]
+ }
+]
