@@ -1,0 +1,267 @@
+Source: https://aspe.hhs.gov/sites/default/files/migrated_legacy_files//187771/brief2-overviewmtranalyses.pdf
+Publisher: U.S. Department of Health and Human Services (ASPE)
+Retrieved: 2026-11-12 (downloaded with curl by the project session)
+Original SHA-256: b90fa642774e5aaee778cfcf607ccb432512deca7c787c39dd412b2b98b5659f
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Office of the Assistant Secretary for Planning & Evaluation ● U.S. Department of Health & Human Services
+
+What Happens When People Increase Their Earnings? Effective Marginal Tax
+Rates for Low-Income Households
+
+March 2019
+
+Brief #2 in the ASPE Marginal Tax Rate Series
+By Nina Chien and Suzanne Macartney
+
+What are marginal tax
+rates?
+
+Highlights
+ This is one of the first analyses to use nationally representative data to
+estimate marginal tax rates faced by different kinds of households.
+ Among households with children just above poverty, the median marginal
+tax rate is high (51 percent); rates remain high (never dipping below 42
+percent) as incomes approach 200 percent of poverty.
+ Households with children are more likely to face high marginal tax rates
+than households without children.
+ Among households with children below 200 percent of poverty, the most
+common combination of benefits is SNAP + EITC + Child Tax Credits (CTC)
++ Medicaid/Children’s Health Insurance Program (CHIP), and these three
+million households experience a median marginal tax rate of 42 percent.
+
+Households with Children: Marginal Tax Rates Are
+Highest Just above the Poverty Line
+Among households with children, when earnings increase by $2,000 (see Figure
+1, dark red line), median marginal tax rates rise precipitously from negative 22
+percent 1 (when family income is 24 percent of poverty or less) to 51 percent
+(when family income is just above poverty). Marginal tax rates then stay fairly
+high, with median families netting between $980 to $1,160 after the $2,000
+earnings increase (reflecting marginal tax rates between 51 and 42 percent), until
+families exceed twice the poverty threshold.
+
+Median marginal tax rate
+
+Figure 1: Marginal tax rates after a $2,000 earnings increase, by poverty status
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+-10%
+-20%
+-30%
+
+51%
+
+47% 42% 43%
+
+23%
+
+-22%
+
+Households with children
+
+Households without children
+
+Poverty status
+
+Source: ASPE tabulation of microdata from the TRIM3 model, Current Population Survey,
+ASEC 2015.
+
+“Effective” marginal tax
+rates refer to how much of
+new earnings are
+effectively reduced by
+income tax, payroll tax, and
+especially, a reduction in
+government benefits. If a
+hypothetical family earns
+an additional $1,000 from
+extra work hours over the
+course of a year, the added
+earnings are taxed (-$200)
+and SNAP benefits are
+reduced (-$200).
+Altogether, the bite taken
+out of new earnings by
+taxes and reduced benefits
+yields a marginal tax rate of
+40 percent. Extra earnings
+of $1,000 amounts to a
+resource increase of $600.
+Some level of marginal tax
+rate is a natural and
+inevitable consequence of
+benefit programs targeting
+low-income households.
+Program benefits are
+designed to decline as
+earnings rise, yet marginal
+tax rates set too high may
+discourage work. The
+median U.S. household
+faces a marginal tax rate of
+34 percent after a $2,000
+earnings increase. We refer
+readers to the ASPE brief
+“Marginal Tax Rates: A
+Quick Overview”
+(https://aspe.hhs.gov/system/
+
+files/aspe-files/260661/brief1intromtrs.pdf)
+
+1 Negative marginal tax rates mean that benefit dollars actually increase following an earnings increase.
+
+1
+
+Office of the Assistant Secretary for Planning & Evaluation ● U.S. Department of Health & Human Services
+The picture is quite different for households without children (light blue line), for whom median marginal tax rates
+increase gradually to 23 percent (just under the poverty line), then remains steady as income continues to rise.
+
+Households with Children Have Higher Marginal Tax Rates
+Among households with incomes below 200 percent of the poverty threshold, those with children tend to have higher
+marginal tax rates than those without children. A large portion of low-income households with children have marginal
+tax rates from 20 to 59 percent (6.0 million households, or 25 percent of low-income households with children; see
+Figure 2, red/lighter shaded area). In contrast, a large portion of low-income households without children have marginal
+tax rates from zero to 29 percent (7.4 million households, or 31 percent of low-income households without children;
+blue/darker shaded area)
+Figure 2: Number of households below 200% poverty with various marginal tax rates, after a $2,000 earnings increase
+
+Number of households
+
+3,500,000
+3,000,000
+
+Households without children
+
+2,500,000
+2,000,000
+1,500,000
+Households with children
+
+1,000,000
+500,000
+0
+
+Marginal Tax Rates
+Source: ASPE tabulation of microdata from the TRIM3 model, Current Population Survey, ASEC 2015.
+
+About 2.6 million households with children (or 11 percent of these households) face negative marginal tax rates (far
+left). On the other end of the spectrum, about 0.6 million households with children (2.5 percent of these households)
+face marginal tax rates that exceed 100 percent, that is, they face a program cliff effect where increased earnings
+actually have the effect of reducing total net resources. Relatively fewer households without children face either
+negative marginal tax rates (0.8 million, or 3.5 percent of these households) or program cliffs (0.2 million, or 0.7 percent
+of these households).
+
+Marginal Tax Rates for Households Receiving a Combination of Programs
+Figure 3 shows the 10 most common (mutually exclusive) program combinations that households with children below
+200 percent of poverty receive. Approximately 3.0 million households receive SNAP + EITC + Child Tax Credits (CTC) +
+Medicaid/Children’s Health Insurance Program (CHIP). This is the most common combination of programs, and these
+families experience a median marginal tax rate of 42 percent. Approximately 400,000 households receive SNAP + EITC +
+CTC + Medicaid/CHIP + housing, and these households face a high median marginal tax rate (63 percent). Approximately
+200,000 households receive SNAP alone, and these households face a low median marginal tax rate (negative 24
+2
+
+Office of the Assistant Secretary for Planning & Evaluation ● U.S. Department of Health & Human Services
+percent). About 3.3 million households receive programs other than the 10 most common combinations, captured in the
+large white circle at right; these households have a median marginal tax rate of 22 percent. Finally, 150,000 households
+with children below 200 percent of poverty receive no programs; these households have a median marginal tax rate of
+eight percent.
+For more marginal tax rate topics see https://aspe.hhs.gov/marginal-tax-rate-series.
+Figure 3: Marginal tax rates for households receiving the 10 most common program combinations (after a $2,000
+earnings increase, for households with children below 200% poverty)
+70%
+.4
+
+60%
+
+.2
+
+Median marginal tax rate
+
+50%
+40%
+
+1.3
+
+3.0
+
+1.4
+
+30%
+20%
+10%
+0%
+
+1.8
+
+all other
+program combos
+
+.3
+.3
+
+SNAP
+SNAP
+SNAP
+SNAP
+EITC
+EITC
+EITC
+EITC
+EITC
+CTC
+CTC
+CTC
+CTC
+CTC
+Medicaid Medicaid
+Medicaid Medicaid
+housing
+CCDF
+
+SNAP
+SNAP
+SNAP
+EITC
+EITC
+SNAP
+EITC
+CTC Medicaid
+CTC
+CTC
+Medicaid Medicaid
+TANF
+SSI
+
+3.3
+
+-10%
+-20%
+-30%
+
+.4
+
+.2
+
+Notes: Bubble size represents the number of households (in millions). Programs include SSI, SNAP, TANF, housing, EITC, CTC, CCDF,
+and Medicaid/CHIP. Source: ASPE tabulation of microdata from the TRIM3 model, Current Population Survey, ASEC 2015.
+
+Methodology
+The analysis relies on the TRIM3 (Transfer Income Model) microsimulation model with calendar year 2014 data from
+the Current Population Survey. Analysis households (n = 63,493) had a householder or spouse between ages 18 to 64
+without disabilities. In separate iterations, earnings increases of $2,000, $5,000, and $10,000 were simulated for each
+household. The following benefit programs were modeled: TANF, SNAP, CCDF, housing assistance, Medicaid/CHIP,
+federal incomes taxes and credits (including the EITC and Child Tax Credit), state income taxes and credits, payroll
+taxes, Supplementary Security Income (SSI), Women Infants and Children (WIC), Low Income Heating and Energy
+Assistance Program (LIHEAP), child support, and unemployment insurance. Administrative data were used to correct
+for underreporting of programs and benefit levels, with the exception of Medicaid/CHIP. Full details are described in
+the technical appendix: https://aspe.hhs.gov/system/files/aspe-files/260661/brief5-technicalappendix.pdf
+
+3
+
+

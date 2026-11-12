@@ -1,0 +1,152 @@
+Source: https://www.census.gov/library/publications/2022/demo/p60-277.html
+Publisher: U.S. Census Bureau
+Retrieved: 2026-11-12
+Original SHA-256: da3e9ee221098cc9deaa77658cb2f8a997ac9f35d5dad8c64674df4284bba462
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Poverty in the United States: 2021
+Poverty in the United States: 2021
+Skip Navigation
+Within Census Bureau Library
+-->
+Poverty in the United States: 2021
+September 13, 2022
+Written by:
+John Creamer, Emily A. Shrider, Kalee Burns, and Frances Chen
+Report Number: P60-277
+Introduction
+Download Poverty in the United States: 2021 [PDF - 2.2 MB]
+This report presents poverty estimates using two measures, the official poverty measure and the Supplemental Poverty Measure (SPM). The official poverty measure, in use since the 1960s, defines poverty by comparing pretax money income to a poverty threshold that is adjusted by family composition. The SPM, first released in 2011 and produced with support from the U.S. Bureau of Labor Statistics (BLS), extends the official poverty measure by taking account of many government programs that are designed to assist low-income families but are not included in the official poverty measure. The SPM also includes federal and state taxes and work and medical expenses. In addition, the SPM accounts for geographic variation in poverty thresholds, while the official poverty measure does not.
+This report presents estimates using the official poverty measure and the SPM for calendar year 2021, marking the first time both poverty measures have been integrated into a single report. The estimates contained in the report are based on information collected in the 2022 and earlier Current Population Survey Annual Social and Economic Supplements (CPS ASEC) conducted by the Census Bureau. Estimates for 2020 in this report will not match those published last year due to the implementation of the 2020 Census-based population controls.
+NOTE: SPM estimates in this publication are based on published BLS thresholds at the time of its release. On July 17, 2026, BLS re-released thresholds for 2019-2024 following the discovery of coding errors. The impact of the revised thresholds on SPM poverty rates is detailed in the following working paper: https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-17.html
+Highlights
+Official Poverty Measure
+The official poverty rate in 2021 was 11.6 percent, with 37.9 mil­lion people in poverty. Neither the rate nor the number in pov­erty was significantly different from 2020 (Figure 1 and Table A-1).
+Official poverty rates decreased for people under the age of 18 and increased for people 65 years and older, but were not statistically different for 18- to 64-year-olds (Figure 2 and Table A-1).
+The majority of the demo­graphic groups discussed in this report did not experience sig­nificant changes in their poverty rates between 2020 and 2021 (Figure 2 and Tables A-1 and A-2).
+Supplemental Poverty Measure
+The SPM rate in 2021 was 7.8 percent, a decrease of 1.4 percentage points from 2020. This is the lowest SPM poverty rate since estimates were first published and the third con­secutive decline (Figure 4 and Table B-2).
+The SPM child poverty rate fell 46 percent in 2021, from 9.7 percent in 2020 to 5.2 percent in 2021, a 4.5 percentage-point decline. This is the lowest SPM child poverty rate on record. In 2021, SPM rates for non-Hispanic White (2.7 percent), Black (8.1 percent), and Hispanic (8.4 percent) children were also the lowest rates on record, falling from 2020. (Figure 8 and Table B-2).
+SPM rates decreased for 18- to 64-year-olds, while increasing for people 65 years and older (Figure 5 and Table B-3).
+Social Security continued to be the most important antipoverty program in 2021, moving 26.3 million people out of SPM pov­erty. Meanwhile, refundable tax credits and stimulus payments moved 9.6 million and 8.9 mil­lion people out of SPM poverty (Figure 11 and Table B-8).
+Differences in Poverty Measures
+The share of the population with resources below 50 percent of their poverty threshold was lower for the SPM than for the official poverty measure with a consistent universe. In particu­lar, 1.4 percent of children had SPM resources below half their SPM poverty threshold, com­pared to 7.2 percent using the official poverty methodology (Figure 10 and Table B-6).
+SPM rates were higher than the official poverty measure with a consistent universe in 3 states, lower in 38 states, and not sta­tistically different in 9 states and the District of Columbia (Figure 9 and Table B-5).
+Tables
+Official Poverty Measure
+indexPagination: false
+indexFiltering: false
+indexSorting: false
+-->
+Poverty Thresholds: 2021
+[<1.0 MB]
+Table A-1. People in Poverty by Selected Characteristics: 2020 and 2021
+[<1.0 MB]
+Table A-2. Families and People in Poverty by Type of Family: 2020 and 2021
+[<1.0 MB]
+Table A-3. People With Income Below Specified Ratios of Their Poverty Thresholds by Selected Characteristics: 2021
+[<1.0 MB]
+Table A-4. Poverty Status of People by Family Relationship, Race, and Hispanic Origin: 1959 to 2021
+[<1.0 MB]
+Table A-5. Poverty Status of People by Age, Race, and Hispanic Origin: 1959 to 2021
+[<1.0 MB]
+Table A-6. Poverty Status of Families by Type of Family: 1959 to 2021
+[<1.0 MB]
+Table C-1. People in Poverty by Selected Characteristics: 2020 Estimates Using 2010 Census-Based Population Controls and 2020 Census-Based Population Controls
+[<1.0 MB]
+Table C-2. Families and People in Poverty by Type of Family: 2020 Estimates Using 2010 Census-Based Population Controls and 2020 Census-Based Population Controls
+[<1.0 MB]
+Impact on Poverty of Alternative Resource Measures by Age: 1981 to 2021
+[<1.0 MB]
+Interrelationships of Three-Year Average State Poverty Rates: 2019 – 2021
+[<1.0 MB]
+Supplemental Poverty Measure
+indexPagination: false
+indexFiltering: false
+indexSorting: false
+-->
+Table B-1. Two-Adult, Two-Child Poverty Thresholds: 2020 and 2021
+[<1.0MB]
+Table B-2. Number and Percentage of People in Poverty Using the Supplemental Poverty Measure by Age, Race, and Hispanic Origin: 2009 to 2021
+[< 1.0 MB]
+Table B-3. Number and Percentage of People in Poverty Using the Supplemental Poverty Measure: 2020 and 2021
+[< 1.0 MB]
+Table B-4. Number and Percentage of People in Poverty by Different Poverty Measures: 2021
+[<1.0 MB]
+Table B-5. Number and Percentage of People in Poverty by State Using 3-Year Average: 2019, 2020, and 2021
+[<1.0 MB]
+Table B-6. Percentage of People by Ratio of Income/Resources to Poverty Threshold: 2020 and 2021
+[<1.0 MB]
+Table B-7. Effect of Individual Elements on Supplemental Poverty Measure Rates: 2020 and 2021
+[<1.0 MB]
+Table B-8. Effect of Individual Elements on the Number of Individuals in Poverty: 2020 and 2021
+[<1.0 MB]
+Table C-3. Number and Percentage of People in Poverty Using the Supplemental Poverty Measure: 2020 Estimates Using 2010 Census-Based Population Controls and 2020 Census-Based Population Controls
+[<1.0 MB]
+SPM Thresholds by Metro Area: 2021
+[<1.0 MB]
+Figures
+Official Poverty Measure:
+indexPagination: false
+indexFiltering: false
+indexSorting: false
+-->
+Figure 1. Number in Poverty and Poverty Rate Using the Official Poverty Measure: 1959 to 2021
+[<1.0 MB]
+Figure 2. People in Poverty Using the Official Poverty Measure: 2020 to 2021
+[<1.0 MB]
+Figure 3. Distribution of Total Population and Poverty by Race Using the Official Poverty Measure: 2021
+[<1.0 MB]
+Supplemental Poverty Measure:
+indexPagination: false
+indexFiltering: false
+indexSorting: false
+-->
+Figure 4. Poverty Rates Using the Official+ and Supplemental Poverty Measures: 2009 to 2021
+[<1.0 MB]
+Figure 5. Change in Percentage of People in Poverty Using the Supplemental Poverty Measure: 2020 to 2021
+[<1.0 MB]
+Figure 6. Percentage of People in Poverty by Different Poverty Measures: 2021
+[<1.0 MB]
+Figure 7. Poverty Rates Using the Official+ and Supplemental Poverty Measures by Age Group: 2009 to 2021
+[<1.0 MB]
+Figure 8. Child Supplemental Poverty Rates by Race and Hispanic Origin: 2009 to 2021
+[<1.0 MB]
+Figure 9. Difference in Poverty Rates by State Using the Official+ and Supplemental Poverty Measures: 3-Year Average 2019 to 2021
+[<1.0 MB]
+Figure 10. Distribution of People by Income-to-Poverty Ratios: 2021
+[<1.0 MB]
+Figure 11. Change in Number of People in Poverty After Including Each Element: 2021
+[<1.0 MB]
+Source Information
+For information on confidentiality protection, sampling error, nonsampling error, and definitions, see https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar22.pdf [PDF - <1.0 MB].
+Others in Series
+Publication
+The Supplemental Poverty Measure: 2020
+September 14, 2021
+This report describes research on the Supplemental Poverty Measure (SPM).
+Visualization
+Income in the United States: 2021
+September 13, 2022
+This report presents data on income, earnings, & income inequality in the United States based on information collected in the 2022 and earlier CPS ASEC.
+Visualization
+Health Insurance in the United States: 2021 - Visualizations
+September 13, 2022
+These visualizations presents statistics on health insurance coverage in the United States.
+View All
+Related Information
+Supplemental Poverty Measure
+Income & Poverty Publications
+Income & Poverty Data Tables
+You May Be Interested In
+America Counts: Stories About Income & Poverty
+Explore various America Counts stories on the topic of income and poverty.
+America Counts Story
+New Census Tool Provides Child Poverty Rates in All School Districts
+The 2019 SAIPE School District Profiles data visualization provides demographic and economic information on more than 13,000 U.S. school districts.
+America Counts Story
+National Poverty in America Awareness Month: Measuring Poverty
+The Census Bureau’s 2020 Supplemental Poverty Measure rate was 2.3 percentage points lower than the official poverty rate of 11.4%.
+Page Last Revised - August 20, 2026
+Some content on this site is available in several different electronic formats. Some of the files may require a plug-in or additional software to view.

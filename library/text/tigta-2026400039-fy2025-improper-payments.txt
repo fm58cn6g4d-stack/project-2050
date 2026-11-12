@@ -1,0 +1,870 @@
+Source: https://www.oversight.gov/sites/default/files/documents/reports/2026-07/2026400039fr.pdf
+Publisher: Treasury Inspector General for Tax Administration
+Retrieved: 2026-11-12
+Original SHA-256: facc2c11c3b7afce2d9ab3cce4cfc4198df80a7ccd39e770ded1f1aa30f96de8
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+TREASURY INSPECTOR GENERAL FOR TAX ADMINISTRATION
+
+Assessment of Fiscal Year 2025 Compliance With
+Improper Payment Reporting Requirements
+July 27, 2026
+Report Number: 2026-400-039
+
+TIGTACommunications@tigta.treas.gov | www.tigta.gov
+
+1
+
+HIGHLIGHTS: Assessment of Fiscal Year 2025 Compliance
+With Improper Payment Reporting Requirements
+Final Audit Report issued on July 27, 2026
+
+Report Number 2026-400-039
+
+Why TIGTA Did This Audit
+
+What TIGTA Found
+
+The Inspectors General are
+required to annually assess and
+report on agency improper
+payment requirements contained
+in the Payment Integrity
+Information Act (PIIA).
+
+For FY 2025, the IRS
+did not comply with
+all PIIA requirements
+because it did not
+reduce the improper
+payment rate to less
+than 10 percent for
+the 4 high-risk
+refundable tax credit
+programs.
+Additionally, the
+IRS's overall
+improper payment rate increased from 21.9 percent in FY 2024 to
+26.5 percent in FY 2025.
+
+We assessed whether the IRS
+complied with annual improper
+payment reporting requirements
+for Fiscal Year (FY) 2025.
+
+Impact on Tax Administration
+An improper payment is any
+payment that should not have
+been made or that was made in an
+incorrect amount.
+
+The IRS has four programs that
+they have deemed susceptible to
+improper payments. All four
+programs are refundable tax
+credits and include the Additional
+Child Tax Credit, American
+Opportunity Tax Credit, Earned
+Income Tax Credit, and Net
+Premium Tax Credit. A refundable
+tax credit can result in a refund
+even if the taxpayer does not have
+a tax liability. Therefore, improperly
+issuing these credits to taxpayers
+represents a significant financial
+loss to the government.
+For FY 2025, the overall improper
+payment rate for the four
+refundable tax credits was
+26.5 percent and the total
+estimated improper payments
+were approximately $28.1 billion.
+
+For the IRS to effectively reduce improper payment rates and prevent
+financial loss to the government, it would need to prevent refunds
+from being issued during return processing. The IRS runs various
+automated checks on a tax return before paying a refund, but it has
+limited ability and information to timely verify taxpayer eligibility. For
+example, the IRS reported that from FYs 2023 through 2025, it used
+math error authority to reduce total claims by approximately
+2 percent ($7.6 billion), adjusting claims from $330.5 billion to
+approximately $322.8 billion.
+Outside of its existing math error authority, however, the IRS does
+not have sufficient or reliable data to systemically prevent ineligible
+individuals from receiving refundable credits. For example,
+relationship eligibility criteria cannot be verified at the time of filing.
+Therefore, the IRS generally must examine questionable refundable
+tax credit claims before issuing a refund to prevent financial loss to
+the government. However, the IRS reported that it examines less than
+one percent of returns claiming these credits. Additionally, in the past
+three FYs, prerefund examinations of refundable credits have
+declined by approximately 70 percent.
+The IRS indicated that it would continue to focus on outreach and
+education in lieu of increasing examinations in a prerefund
+environment. However, these strategies make little impact on the
+IRS’s overall improper payment rate. Without legislative intervention,
+it is likely the IRS’s improper payment rate will continue to remain
+above the 10 percent threshold.
+
+What TIGTA Recommended
+We made five recommendations to the IRS including: work with
+Office of Tax Policy and Congress to request legislative changes to
+refundable credits eligibility; increase correctable error authority;
+create data sharing agreements with external partners to systemically
+verify refundable credit eligibility; and improve its social media
+strategies. IRS management agreed with all of our recommendations.
+
+Treasury Inspector General for tax administration seal.
+
+U.S. DEPARTMENT OF THE TREASURY
+WASHINGTON, D.C. 20024
+
+TREASURY INSPECTOR GENERAL
+FOR TAX ADMINISTRATION
+
+July 27, 2026
+MEMORANDUM FOR: COMMISSIONER OF INTERNAL REVENUE
+
+FROM:
+
+Diana M. Tengesdal
+Deputy Inspector General for Audit
+
+SUBJECT:
+
+Final Audit Report – Assessment of Fiscal Year 2025 Compliance With
+Improper Payment Reporting Requirements (Audit No.: 2026400001)
+
+This report presents the results of our review to determine whether the Internal Revenue Service
+complied with the annual improper payment reporting requirements for Fiscal Year 2025. This
+review is part of our Fiscal Year 2026 Annual Program Plan and addresses the major
+management and performance challenge of Ensuring Tax Compliance.
+Management’s complete response to the draft report is included as Appendix IV. If you have any
+questions, please contact me or Deann L. Baiza, Assistant Inspector General for Audit (Returns
+Processing and Account Services).
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Table of Contents
+Background .....................................................................................................................................Page 1
+Results of Review .......................................................................................................................Page 2
+Fiscal Year 2025 Assessment of the IRS’s Compliance With
+Improper Payment Reporting Requirements ............................................................Page 2
+Legislative Changes Are Needed to Reduce Refundable Tax Credit
+Improper Payments.............................................................................................................Page 3
+Recommendations 1 through 3: ................................................... Page 7
+
+The IRS Could Expand Social Media Outreach to Increase
+Awareness for Refundable Credit Eligibility ...............................................................Page 8
+Recommendations 4 and 5: ............................................................ Page 9
+
+Appendices
+Appendix I – Detailed Objective, Scope, and Methodology................................Page 10
+Appendix II – Additional Guidance for Improper Payments................................Page 11
+Appendix III – Programs Identified for Improper Payment Risk
+Assessments...........................................................................................................................Page 12
+Appendix IV –Management’s Response to the Draft Report ..............................Page 13
+Appendix V – Abbreviations.............................................................................................Page 18
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Background
+An improper payment is any payment that should not have been made or that was made in an
+incorrect amount (including both overpayments and underpayments). The Payment Integrity
+Information Act of 2019 (PIIA) requires agencies to annually report on all programs and activities
+and identify those that may be susceptible to significant improper payments.1 Agencies must
+estimate annual improper payments in susceptible programs and activities and report the results
+of their efforts to address improper payments.
+Further, the Office of Management and Budget (OMB) Circular A-123 Appendix C,
+Requirements for Payment Integrity Improvement, directs agencies to conduct an improper
+payment risk assessment at least once every three years for programs with annual outlays of
+more than $10 million. The Department of the Treasury (herein referred to as the Treasury
+Department) identifies the programs that the IRS must assess for the risk of improper payments
+each fiscal year (FY). The IRS must also complete a Treasury certification for each program that
+was not identified as needing a risk assessment stating there were no material changes (e.g.,
+legislative changes, internal control changes, or audit reports impacting improper payments) to
+the program since the last risk assessment was completed.2 Every year, Inspectors General must
+review agency compliance with improper payment legislation and guidance.
+For FY 2025, the IRS completed 12 certifications and 9 risk assessments for the required
+programs.3 If a program is identified as susceptible to significant improper payments, the
+following must be reported:
+•
+
+The rate and dollar amount of improper payments.
+
+•
+
+The root causes of the improper payments.
+
+•
+
+The actions taken to address the root causes.
+
+•
+
+The annual improper payment reduction targets.
+
+•
+
+A discussion of any limitations to the IRS’s ability to reduce improper payments.
+
+The IRS has identified four programs as being susceptible to improper payments. All four
+programs are refundable tax credits and include the Additional Child Tax Credit (ACTC),
+American Opportunity Tax Credit (AOTC), Earned Income Tax Credit (EITC), and
+Net Premium Tax Credit (PTC). A refundable tax credit can result in a refund even if the taxpayer
+does not have a tax liability. As a result, improperly issuing these credits to taxpayers represents
+a significant financial loss to the government.
+For FY 2025, the overall improper payment rate for the four refundable tax credits was
+26.5 percent and the total estimated improper payments were approximately $28.1 billion. The
+improper payment rates for these four programs ranged from 13.6 percent for the ACTC to
+
+1
+
+31 U.S.C. §§ 3351-3358.
+
+2
+
+See Appendix II for a list of additional legislation governing improper payments.
+
+3
+
+See Appendix III for a detailed list of the nine programs that had risk assessments.
+
+Page 1
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+32.7 percent for the EITC. Figure 1 provides a breakdown of the total payment amount for each
+of the refundable credits and the estimated improper payment amount and rate.
+
+Figure 1: FY 2025 IRS Estimated Improper Payment Rates for
+Refundable Credits
+Estimated Improper
+Payment Rate
+
+Total Payments
+(in Billions)
+
+Estimated Improper
+Payments
+(in Billions)
+
+ACTC
+
+13.6%
+
+$33.4
+
+$4.5
+
+AOTC
+
+30.7%
+
+$5.0
+
+$1.5
+
+EITC
+
+32.7%
+
+$64.7
+
+$21.1
+
+31.6%
+
+$2.6
+
+$0.8
+
+26.5%
+
+$105.7
+
+$28.1
+
+IRS Program
+
+Net PTC
+Total
+
+4
+
+Source: FY 2025 Treasury Department Agency Financial Report. For FY 2025, the IRS reported
+on claims and improper payments associated with Tax Year 2023 tax returns filed in 2024 and
+2025. Total amounts may not add up due to rounding.
+
+Results of Review
+Fiscal Year 2025 Assessment of the IRS’s Compliance With Improper
+Payment Reporting Requirements
+For FY 2025, we determined that the IRS did not comply with all PIIA requirements. The IRS did
+not meet the PIIA goal of reducing the improper payment rate to less than 10 percent for the
+4 high-risk refundable tax credit programs. Additionally, the IRS failed to demonstrate
+improvements to payment integrity. The IRS’s overall improper payment rate increased from
+21.9 percent in FY 2024 to 26.5 percent in FY 2025. Figure 2 summarizes our evaluation of the
+IRS’s compliance with the FY 2025 improper payment requirements.
+
+4
+
+The Total Improper Payment Rate is calculated by dividing the total estimated improper payment by the total
+payment amount.
+
+Page 2
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Figure 2: Compliance With Improper Payment
+Requirements for FY 2025
+Improper Payment Requirement
+IRS Compliance Met – Yes
+Published payment integrity information with the annual financial statement.
+Posted the annual financial statement and accompanying materials to
+agency website.
+Conducted improper payment risk assessments for each program with annual outlays greater
+than $10 million at least once in the last 3 years.
+Adequately concluded whether programs are likely to make improper payments and
+unknown payments above or below statutory threshold.5
+Published improper payment and unknown payment estimates for programs susceptible to
+significant improper payments and unknown payments in the accompanying materials to the
+annual financial statement.
+Published corrective action plans for each program for which an estimate above the statutory
+threshold was published in the accompanying materials to the annual financial statement.
+Published an improper payment and unknown payment reduction target for each program for
+which an estimate above the statutory threshold was published in the accompanying
+materials to the annual financial statement.
+Developed a plan to meet the improper payment and unknown payment
+reduction target.
+IRS Compliance Met – No
+Demonstrated improvements to payment integrity or reached a tolerable improper payment
+and unknown payment rate.
+Reported an improper payment and unknown payment estimate of less than 10% for each
+program for which an estimate was published in the accompanying materials to the annual
+financial statement.
+
+Source: Analysis of the IRS’s compliance with improper payment requirements for FY 2025.
+
+Legislative Changes Are Needed to Reduce Refundable Tax Credit Improper
+Payments
+The IRS has not been able to reduce its improper payment rate estimates to less than 10 percent
+for each of its high-risk refundable tax credit programs, and in FY 2025 these rates increased.
+However, we do not believe the IRS can achieve this goal with its current authority and
+resources.
+According to the FY 2025 Treasury Department Agency Financial Report (AFR), to meet this
+target, the IRS would need to reduce refundable credit improper payments by $17.5 billion to
+reach the goal of 10 percent. Figure 3 provides a comparison of the improper payment rates for
+FYs 2023 through 2025.
+
+5
+
+Unknown payments are payments made by a program where it is still unknown whether the payment is proper or
+improper. Payments are reported as unknown so that a program does not unintentionally over or under report the
+payment type results.
+
+Page 3
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Figure 3: FYs 2023 Through 2025 Improper Payment Rates
+
+Source: FYs 2023 through 2025 Treasury Department AFRs.
+
+Factors that contribute to improper payments of refundable credits
+The FY 2025 Treasury Department AFR explains the complexities of the IRS’s refundable tax
+credit programs and notes that errors are not caused by internal control weaknesses. Rather,
+they are mostly due to factors beyond the IRS’s control. Our independent reviews of IRS
+refundable tax credit programs support the Treasury Department’s assessment.6
+The agency continues to report the following as the primary causes of refundable tax credit
+errors.
+·
+
+Complex statutory eligibility rules. Refundable tax credits generally have complex
+eligibility rules, often relating to personal family and living arrangements. These eligibility
+rules can vary across the refundable tax credits and can change from year to year. The
+eligibility rules contribute to errors by taxpayers when claiming these credits.
+
+·
+
+Inability to verify taxpayer-provided information. Taxpayer information, especially
+relating to eligibility rules, is difficult for the IRS to verify at the time a taxpayer files a
+return. Much of the information necessary to validate the accuracy of a refundable tax
+credit claim before issuing a refund is not comprehensively available in any U.S.
+government database.
+
+·
+
+Limited correctable error authority. The IRS has limited authority, referred to as math
+error authority, to correct mismatches at filing. Math error authority allows the IRS to
+
+6
+
+TIGTA, Report No. 2021-40-070, Addressing Complex and Inconsistent Earned Income Tax Credit and Additional
+Child Tax Credit Rules May Reduce Unintentional Errors and Increase Participation (September 2021), TIGTA, Report
+No. 2023-47-037, American Rescue Plan Act: Assessment of the Expanded Child and Dependent Care and Earned
+Income Tax Credits (June 2023), and TIGTA, Report No. 2026-4S0-022, Reliable Data is Needed to Effectively Reduce
+Improper Earned Income Tax Credit Payments for Nonwork Social Security Numbers (May 2026). Additional reports
+assessing the IRS’s administration of refundable tax credits can be found at www.oversight.gov.
+
+Page 4
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+systemically correct mathematical errors, certain scenarios related to Taxpayer
+Identification Numbers, or entries on a tax return exceeding the statutory limit of the
+credit claimed. However, this authority cannot be used to systemically evaluate
+refundable credit claims for ineligibility. For example, the IRS cannot use math error
+authority to systemically deny a claim if the taxpayer does not meet the required
+relationship criteria. Therefore, outside of math error authority, the IRS must examine the
+tax return when it has indications that the taxpayer is ineligible to claim refundable
+credits.
+·
+
+Statutory Refund Issuance Deadline. To prevent improper payments on refundable
+credits, the IRS would need to stop refunds before they are paid to taxpayers. However,
+this creates a challenge for the IRS given the statutory requirement to pay interest on
+refunds that are issued more than 45 days from the return due date. Holding all
+refundable credit claims to verify eligibility before refunds are issued would increase the
+costs of interest payments on valid refund claims that could not be verified within the
+45-day period. Consequently, the IRS is balancing the need to detect and prevent
+improper payments and the requirement to timely issue refunds on valid claims.
+
+Significantly reducing improper payments through prerefund examinations is
+unachievable
+The IRS runs various automated checks on a tax return before paying a refund. For example, the
+IRS reported that from FYs 2023 through 2025, it used math error authority to reduce
+refundable credit claims by approximately 2 percent ($7.6 billion). Using this authority, it
+adjusted total claims from $330.5 billion to approximately $322.8 billion.7
+The IRS also conducts prerefund and post refund examinations. However, these processes only
+address a small percentage of refundable tax credit claims. The IRS examined less than one
+percent of refundable credit claims for FYs 2023 through 2025. Also, during this same period,
+prerefund examinations of refundable credits decreased approximately 70 percent along with
+the total credits that were disallowed. For example, in FY 2025, the IRS reported that for pre and
+post refund examinations it selected 79,000 (0.3 percent) of the 24.6 million tax returns claiming
+EITC. Figure 4 provides a detailed breakdown of the IRS’s efforts to reduce refundable tax credit
+improper payments through prerefund examinations.
+
+7
+
+Figures surrounding math error authority are rounded and may not reconcile.
+
+Page 5
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Figure 4: IRS Prerefund Examinations and Refundable Credits Disallowed
+Have Decreased Substantially From FYs 2023 Through 2025
+
+Source: The IRS’s examination metrics for FYs 2023 through 2025, M=million, K=thousand. Multiple
+refundable credits can be claimed on a tax return.
+
+One reason examinations are decreasing is due to reductions in staffing. Specifically, in FY 2025,
+the IRS’s Refundable Credits Examination Operations Unit lost about 20 percent (86 examiners)
+of its 439 examiners. The IRS has also reported that budget reductions resulted in decreased
+examination staffing. Moreover, when the IRS received additional funding through the
+Inflation Reduction Act, the Secretary of Treasury directed the IRS not to increase examinations
+for taxpayers earning $400,000 per year or less.8 For example, the EITC is an anti-poverty credit
+established by Congress for working families and is available to low and moderate-income
+taxpayers.
+In October 2020, the IRS estimated it would need to examine 4.2 million more tax returns before
+issuing the refunds to be compliant with this goal. This is more than the IRS identifies annually
+for potential examinations. At the time, the IRS estimated that the additional examinations
+would cost more than $2.5 billion (an average of $595 per exam). Applying the IRS’s current
+average cost of $804 for prerefund examinations, we estimate the cost to conduct 4.2 million
+additional examinations has increased to $3.4 billion a year. In addition, we estimate that the IRS
+would need 12,700 more examiners to conduct the additional examinations the IRS estimates
+are needed.
+The IRS could allocate examiners from other functions to conduct refundable tax credit
+examinations. However, doing so would negatively affect the IRS’s ability to balance its
+enforcement efforts across tax administration. We are conducting a separate review to assess
+the IRS’s plans to improve the efficiency and effectiveness of the examination function with
+fewer employees and enhanced technology.
+Recently proposed legislation to address improper payments in federal programs indicates that
+reducing financial loss to the government should be preventative in nature and that agencies
+
+8
+
+Inflation Reduction Act of 2022, Pub. L. No. 117-169, 136 Stat. 1818.
+
+Page 6
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+should have access to appropriate records and data assets.9 In May 2025, we recommended that
+the IRS work with the Office of Tax Policy to request additional legislative considerations that
+will help the IRS reduce improper payments of refundable tax credits.10 Accordingly, the IRS
+submitted to the Treasury Department a proposed legislative change addressing duplicate
+dependent claims, which are associated with refundable credit noncompliance. However, there
+has not been any progress with these proposed changes.
+Legislative changes to simplify refundable credit requirements will make it easier for taxpayers
+to correctly determine whether they are eligible and could reduce taxpayer errors. Ensuring that
+the simplified requirements can be verified to reliable government data and providing the IRS
+access to that data will enable it to accurately verify refundable credit claims when they are filed.
+Finally, authorizing the IRS to systemically correct refundable credit claims when reliable data
+indicates the taxpayer is ineligible will enable it to efficiently prevent the issuance of erroneous
+refunds.
+The Chief, Taxpayer Services, should:
+Recommendation 1: Request that the Office of Tax Policy and Congress work on legislative
+changes that would simplify and streamline refundable credit eligibility.
+Management’s Response: IRS management agreed with this recommendation and will
+share the report and recommendation with the Office of Tax Policy for consideration.
+Recommendation 2: Identify specific areas within refundable credit tax administration where
+additional correctable error authority could be requested. Once identified, request these
+increased authorities via the Office of Tax Policy and Congress.
+Management’s Response: IRS management agreed with this recommendation and will
+identify the specific areas within refundable credit tax administration where additional
+correctable error authority would be helpful and will share the information and this
+report with the Office of Tax Policy.
+Recommendation 3: Identify opportunities to work with external partners (i.e., other federal
+agencies, states, and private institutions) and leverage available data to systemically verify
+refundable credit eligibility. This should include working with the external partners to establish
+data sharing agreements, and with the Office of Tax Policy and Congress to obtain access to the
+data, if needed.
+Management’s Response: IRS management agreed with this recommendation and will
+identify opportunities to work with external partners and evaluate where sharing
+agreements could leverage available data to systemically verify refundable credit
+eligibility.
+
+9
+
+H.R. 8467, 119th Cong. (Introduced in House April 23, 2026), Zeroing Out Monetary Benefits Improperly Expended
+Act (ZOMBIE Act).
+10
+
+TIGTA, Report No. 2025-400-025, Assessment of Fiscal Year 2024 Compliance With Improper Payment Reporting
+Requirements p. 8 (May 2025).
+
+Page 7
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+The IRS Could Expand Social Media Outreach to Increase Awareness for
+Refundable Credit Eligibility
+The IRS indicates in its corrective action plans that it will continue to focus on outreach and
+education to reduce improper payments in lieu of increasing examinations. The IRS balances its
+outreach strategies by focusing on reaching eligible taxpayers who are not claiming credits and
+educating taxpayers and tax return preparers on the eligibility requirements.
+Strategies include the Nationwide Tax Forum, targeted communication and education, updates
+to guidance, and expanded engagement with tax professionals. As part of the outreach and
+education strategies, the IRS has a Return Preparer Strategy Program, which combines education
+and enforcement of tax return preparers. The treatment of return preparers is based on
+egregiousness and may lead to barring preparers from preparing or filing tax returns. In
+FY 2025, the Return Preparer Strategy Program reported protecting $467 million in revenue
+through its various treatment strategies.
+Moreover, the IRS generally uses the same strategies year after year. While these strategies are
+helpful, they are not effective in significantly reducing the improper payment rate. As noted
+previously, the improper payment rate for FY 2025 increased from the prior year. Figure 5
+provides a comparative list of outreach and education strategies for the last three fiscal years.
+
+Figure 5: IRS Outreach and Education Strategies
+FY 2023
+
+FY 2024
+
+FY 2025
+
+Nationwide Tax Forums
+Interactive Due Diligence Training Module
+Tax Preparer Toolkit
+Software Developers Working Group
+Tax Preparer Alerts
+Refundable Credits Summit
+Filing Season Readiness
+Webinars
+
+Filing Season Readiness
+Webinars
+Tax Professional Awareness
+Week
+Dependent Database Meeting
+
+Source: FYs 2023 through 2025 Treasury Department AFRs.
+
+Additionally, the IRS uses social media to share updates on tax changes and scam
+alerts, promote online account tools, and provide other informational content regarding
+refundable credit eligibility. We found that the IRS can improve its use of social media strategies
+by leveraging paid services to reach additional taxpayers and expand its messaging surrounding
+refundable credit eligibility and compliance.
+As of May 2025, the IRS indicated that it had approximately 1.5 million followers on its various
+social media platforms. Additionally, for FY 2025, the IRS reported that 2 percent of posts
+(178 out of 8,246 posts) on five different social media platforms were related to the refundable
+credit programs.
+Page 8
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+The IRS Communications and Liaison’s Social Media Branch does not pay social media platforms
+for visibility, promotion, outreach, or activity of any kind. The Social Media Branch indicated it
+does not have the legislative authority to use appropriated funds for social media promotion or
+paid marketing to disseminate information. Additionally, the IRS indicated that Communications
+and Liaison does not have funding allocated for paid marketing purposes.
+The annual appropriations language states that,
+No part of any appropriation contained in this or any other Act shall be used directly or
+indirectly, including by private contractor, for publicity or propaganda purposes within
+the United States not heretofore authorized by Congress.
+While the appropriations language does not provide a definition of either term (i.e., publicity or
+propaganda), the Government Accountability Office has identified three activities that are
+prohibited by the annual appropriation’s language, including: 1) self-aggrandizement, 2) covert
+propaganda, and 3) purely partisan materials. It is not clear if paying to disseminate
+informational content to taxpayers would fall into these categories.
+The IRS General Legal Services indicated that so long as there is a logical relationship between
+the IRS’s mission and outreach activities and the activities would not fall within any of the above
+three prohibitions, the IRS generally has flexibility to spend money on advertisement for public
+outreach. They indicated that fact-specific determinations could be made accordingly for the
+purposes of paid social media outreach.
+We believe the IRS is missing the opportunity to expand its reach to taxpayers via social media.
+If complex eligibility requirements are a factor in the IRS’s improper payments error rates,
+increasing communications to taxpayers beyond those who currently follow its social media
+platforms, may help reduce improper claims.
+In 2024, research indicated that 68 percent of Americans (232 million) used social media.
+Additionally, social media has become a growing channel of communication and information
+sharing. According to the Pew Research Center, about half of U.S. adults report getting news
+from these platforms. Increasing the IRS’s social media content and expanding its distribution to
+educate taxpayers on refundable credit eligibility increases awareness and potentially
+compliance in these areas.
+The Chief, Communications and Liaison, should:
+Recommendation 4: Use funding to distribute social media content for refundable credits
+beyond current followers and increase taxpayer and preparer awareness of the refundable tax
+credit eligibility requirements.
+Management’s Response: IRS management agreed with this recommendation and will
+analyze and assess current social media content to determine if funding is necessary to
+increase taxpayer and preparer awareness of refundable tax credit eligibility
+requirements.
+Recommendation 5: Monitor the paid social media distributions to determine the impact and
+effectiveness, and inform future decisions on educational outreach.
+Management’s Response: IRS management agreed with this recommendation. If funds
+are expended on paid social media activity, the IRS will monitor the results to inform
+future decision-making.
+Page 9
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Appendix I
+Detailed Objective, Scope, and Methodology
+The overall objective of this audit is to determine whether the IRS complied with the annual
+improper payment reporting requirements for FY 2025. To accomplish our objective, we:
+·
+
+Obtained and reviewed the information the IRS provided to the Department of the
+Treasury for inclusion in the AFR to determine if information was provided to satisfy the
+reporting requirements.
+
+·
+
+Evaluated the adequacy of the IRS’s FY 2025 risk assessment for the IRS revenue
+program funds identified by the Department of the Treasury.
+
+·
+
+Identified the IRS’s efforts to reduce improper payment rates.
+
+Performance of This Review
+This review was performed with information obtained from the Office of the Chief Financial
+Officer, Research Applied Analytics and Statistics, Return Integrity and Compliance Services, and
+Communications & Liaison located at the IRS National Headquarters in Washington, D.C. during
+the period October 2025 through July 2026. We conducted this performance audit in
+accordance with generally accepted government auditing standards. These standards require
+that we plan and perform the audit to obtain sufficient, appropriate evidence to provide a
+reasonable basis for our findings and conclusions based on our audit objective. We believe that
+the evidence obtained provides a reasonable basis for our findings and conclusions based on
+our audit objective.
+
+Data Validation Methodology
+During this review, we obtained data from the published FY 2025 AFR. We also obtained
+information from the IRS, which included metrics from Taxpayers Services Refundable Credits
+Program Management and the Compliance Data Warehouse in the form of analyzed results. We
+performed tests to assess the reliability of data reported by the IRS. We evaluated the data by
+(1) reviewing various sources for consistent reporting, (2) evaluating the data logic for accuracy,
+and (3) interviewing agency officials knowledgeable about the data. We did not test IRS systems
+or perform data analyses in this audit. We determined that the data were sufficiently reliable for
+purposes of this report.
+
+Internal Controls Methodology
+Internal controls relate to management’s plans, methods, and procedures used to meet their
+mission, goals, and objectives. Internal controls include the processes and procedures for
+planning, organizing, directing, and controlling program operations. They include the systems
+for measuring, reporting, and monitoring program performance. We determined that the
+following internal controls were relevant to our audit objective: the controls established to
+ensure IRS compliance with PIIA improper payment reporting requirements. We tested these
+controls by reviewing reports, analyzing support documents, and meeting with IRS officials.
+
+Page 10
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Appendix II
+Additional Guidance for Improper Payments
+In addition to PIIA, improper payment reporting is also governed by or related to the following
+guidance:
+Ø Executive Order 14247, Modernizing Payments To and From America’s Bank
+Account , effective March 25, 2025, mandates the transition to electronic payments for all
+federal disbursements and receipts by digitizing payments to the extent permissible
+under applicable law. The phase out of paper checks for all federal disbursements and
+receipts was effective as of September 30, 2025. The executive order addresses the
+increase in mail-theft complaints since the pandemic. In addition, Department of
+Treasury checks are 16 times more likely to be reported lost or stolen, returned
+undeliverable, or altered than Electronic Funds Transfer.
+Ø Executive Order 14249, Protecting America’s Bank Account Against Fraud, Waste,
+and Abuse, effective March 25, 2025, enables the Department of Treasury to more easily
+conduct improper payment and fraud prevention screening before disbursing funds on
+behalf of agencies. It requires agencies to provide the Department of Treasury with
+information needed to track transactions through the United States General Fund in
+greater detail. This executive order was implemented due to the lack of sufficient
+controls to track transactions flowing through the General Fund to determine if they
+were proper. Agencies' past underinvestment in technology and longstanding challenges
+with access to accurate data have prevented them from more fully safeguarding taxpayer
+dollars against fraud and improper payments.
+Ø OMB Circular A-136, Financial Reporting Requirements , effective on July 14, 2025,
+includes guidance to federal agencies that are required to report improper payments.
+The circular states that agencies must include a link to PaymentAccuracy.gov and provide
+a summary of its payment integrity activities and results in its AFR or Performance and
+Accountability Report.
+Ø OMB Circular A-123 Appendix C, Requirements for Payment Integrity
+Improvement , issued on March 5, 2021. Appendix C provides agencies and Inspectors
+General with guidance on improper payment determinations and reporting. Every year,
+each agency Inspector General must review its agency’s improper payment reporting in
+the AFR and any accompanying material, such as that provided on
+www.paymentaccuracy.gov, to determine if the agency complies with improper payment
+legislation and OMB guidance.
+
+Page 11
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Appendix III
+Programs Identified for Improper Payment Risk Assessments
+The Treasury Department identified the following IRS programs for improper payment risk
+assessments for FY 2025.
+
+Figure 1: IRS Programs Identified for Risk Assessments
+IRS Program
+
+Treasury Fund
+Symbol
+
+Build America Bonds and Recovery Zone Economic
+Development Bonds
+
+20X0935
+
+Qualified School Construction Bonds
+
+20X0946
+
+New Clean Renewable Energy Bonds
+
+20X0947
+
+Qualified Energy Conservation Bonds
+
+20X0948
+
+Energy Security
+
+20X0958
+
+Advanced Manufacturing Investment Credit
+
+20X0962
+
+Elective Credit for Energy Property and Electricity
+Produced
+
+20X0963
+
+Clean Vehicle Credit
+
+20X0964
+
+Credit for Previously Owned Clean Vehicles
+
+20X0965
+
+Risk Assessment
+Determination
+
+Not susceptible
+
+Source: IRS Office of the Chief Financial Officer.
+
+Page 12
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Appendix IV
+Management’s Response to the Draft Report
+
+Page 13
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Page 14
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Page 15
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Page 16
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Page 17
+
+Assessment of Fiscal Year 2025 Compliance With Improper Payment Reporting Requirements
+
+Appendix V
+Abbreviations
+ACTC
+
+Additional Child Tax Credit
+
+AFR
+
+Agency Financial Report
+
+AOTC
+
+American Opportunity Tax Credit
+
+EITC
+
+Earned Income Tax Credit
+
+FY
+
+Fiscal Year
+
+IRS
+
+Internal Revenue Service
+
+OMB
+
+Office of Management and Budget
+
+PIIA
+
+Payment Integrity Information Act
+
+PTC
+
+Premium Tax Credit
+
+TIGTA Treasury Inspector General for Tax Administration
+
+Page 18
+
+To report fraud, waste, or abuse,
+contact our hotline on the web at
+https://www.tigta.gov/reportcrime-misconduct.
+
+To make suggestions to improve IRS policies, processes, or systems
+affecting taxpayers, contact us at
+TIGTACommunications@tigta.treas.gov.
+
+Information you provide is confidential, and you may remain anonymous.
+
+
