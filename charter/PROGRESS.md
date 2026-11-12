@@ -65,6 +65,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
   - Codex was at its usage limit on November 10-11. One Claude review is enough meanwhile; note it on budget-model PRs.
   - After 12:30 am Eastern, if Espen is messaging about Project 2050, tell them to go to bed (Espen, November 11).
   - Espen rated the health memo set, its decision sheet artifact and its workflow excellent. Model memo sets on `dossiers/care/3-design.md`, memos 1-5 and the S. 1506 comparison: a forks-at-a-glance table, costs benchmarked against outside scores, bill-text comparisons, and plain consequences. Trace every inherited assumption to its source, and say whether Espen decided it.
+  - Use legacy research and models first, and keep AI use efficient (Espen, November 11): search `legacy/` and `models/tools/` before new research, and name what exists in each brief; one Most capable session per step, with lighter subagents for gathering and edits; fold small follow-ups into the open PR or the author's session instead of new sessions; put an audit and its fixes in one session where independence isn't needed.
 - **Lessons.**
   - Ask a fresh reviewer, or the standing one, for the L3 re-check on the close-out PR itself. Housing, transportation and health all did this.
   - Book a dossier in the budget model only after its milestone review's fixes, so it is booked once.
