@@ -50,7 +50,7 @@ Status: **decided by Espen, November 11, 2026: all as recommended, with the $20 
 
 ## Care's cost options (decided)
 
-Status: **decided by Espen November 12, 2026 (board question 0n; being recorded in the lead's tier-3 PR on `claude/dec-care-cost`)**: 1 yes; 2 as recommended; 3 yes to options 2, 4 and 5, no to option 3 (parity stays at 2036). A state that declines child care or pre-K still owes its share (approved separately). Asked November 12, 2026, after Espen's cost direction (`DEC-2026-11-11-05`).
+Status: **decided by Espen, November 11, 2026 (board question 0n; being recorded in the lead's tier-3 PR on `claude/dec-care-cost`)**: 1 yes; 2 as recommended; 3 yes to options 2, 4 and 5, no to option 3 (parity stays at 2036). A state that declines child care or pre-K still owes its share (approved separately). Asked November 11, 2026, after Espen's cost direction (`DEC-2026-11-11-05`).
 
 | Memo | Question | Decided |
 | --- | --- | --- |

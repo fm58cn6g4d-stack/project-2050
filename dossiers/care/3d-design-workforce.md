@@ -286,4 +286,4 @@ From `dossiers/shared-rules.md`. These are working answers, not decisions of the
 
 ## Questions for Espen
 
-Decided November 11, 2026 (`DEC-2026-11-11-04`): memo 14 B at $20, memo 15 B, memo 16 C and points 1-9, all as recommended. Memo 17's cost options were decided by Espen November 12, 2026 (board question 0n; being recorded in the lead's tier-3 PR on `claude/dec-care-cost`): the bridge's floor at each state's bridge rate, yes; early educators' parity stays at 2036 (option 3, no). Part D's decided cost: about $0.58 trillion over FY2030-39 and $117 billion in FY2040.
+Decided November 11, 2026 (`DEC-2026-11-11-04`): memo 14 B at $20, memo 15 B, memo 16 C and points 1-9, all as recommended. Memo 17's cost options were decided by Espen, November 11, 2026 (board question 0n; being recorded in the lead's tier-3 PR on `claude/dec-care-cost`): the bridge's floor at each state's bridge rate, yes; early educators' parity stays at 2036 (option 3, no). Part D's decided cost: about $0.58 trillion over FY2030-39 and $117 billion in FY2040.
