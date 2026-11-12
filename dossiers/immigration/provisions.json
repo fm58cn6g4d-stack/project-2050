@@ -5,9 +5,10 @@
   "agenda": "IMM-1",
   "status": "decided, memo 1 A, parts 1 and 3",
   "decisions": [
-   "DEC-2026-11-12-07"
+   "DEC-2026-11-12-07",
+   "DEC-2026-11-12-12"
   ],
-  "parameters": "Four groups, each present in the United States on the cutoff date (IMM-1.04): (1) people who arrived before 18, with a schooling, work or service test (the Dream Act's); (2) anyone who has held TPS, DACA or humanitarian parole at any time; (3) workers with at least 1,035 hours or 180 days of farm, care or construction work in the two years before applying, on the farmworker bill's test [EV-IMM-522], extended to care and construction (care's first ask, `DEC-2026-11-11-04` point 8; housing's workforce condition); (4) their spouses and minor children present on the cutoff. Permanent residence on approval; citizenship after three years (IMM-1.14)",
+  "parameters": "Four groups, each present in the United States on January 1 of the year the act is enacted (tier A's cutoff, IMM-1.04, `DEC-2026-11-12-12`): (1) people who arrived before 18, with a schooling, work or service test (the Dream Act's); (2) anyone who has held TPS, DACA or humanitarian parole at any time; (3) workers with at least 1,035 hours or 180 days of farm, care or construction work in the two years before applying, on the farmworker bill's test [EV-IMM-522], extended to care and construction (care's first ask, `DEC-2026-11-11-04` point 8; housing's workforce condition); (4) their spouses and minor children present on that date. Permanent residence on approval; citizenship after three years (IMM-1.14)",
   "eligibility": "",
   "vehicle": [
    {
@@ -60,13 +61,14 @@
  },
  {
   "id": "IMM-1.03",
-  "title": "Registered status for everyone else present on the cutoff",
+  "title": "Registered status for everyone else present on the day the act is signed",
   "agenda": "IMM-1",
-  "status": "decided, memo 1 A, change 2",
+  "status": "decided, memo 1 A, change 2; cutoff `DEC-2026-11-12-12`",
   "decisions": [
-   "DEC-2026-11-12-07"
+   "DEC-2026-11-12-07",
+   "DEC-2026-11-12-12"
   ],
-  "parameters": "A person present on the cutoff date who is not yet in tier A or B registers once, gives biometrics and passes IMM-1.08's check. They receive a renewable registered status: a work permit and protection from removal for five years at a time (working choice), renewed without a fee below 200% of poverty. Time in registered status counts toward tier B's ten years, and the green card comes at ten years. Registered status is not a bar to any other route",
+  "parameters": "A person present on the day the act is signed (registration's cutoff, IMM-1.04) who is not in tier A or B registers once, gives biometrics and passes IMM-1.08's check. They receive a renewable registered status: a work permit and protection from removal for five years at a time (working choice), renewed without a fee below 200% of poverty. Time in registered status counts toward tier B's ten years, and the green card comes at ten years. Registered status is not a bar to any other route",
   "eligibility": "",
   "vehicle": [
    {
@@ -86,13 +88,14 @@
  },
  {
   "id": "IMM-1.04",
-  "title": "Registration's cutoff: the act's signature date",
+  "title": "Two cutoffs: tier A on January 1 of the year of enactment; registration on the day the act is signed",
   "agenda": "IMM-1",
-  "status": "specified; point 1 as changed: \"the law's signature date or a set period after it\"",
+  "status": "decided, point 1 as Espen answered it, `DEC-2026-11-12-12`",
   "decisions": [
-   "DEC-2026-11-12-07"
+   "DEC-2026-11-12-07",
+   "DEC-2026-11-12-12"
   ],
-  "parameters": "Presence on the day the President signs the act. Proof follows IMM-1.06: the records that show a person here before that day. *Why the signature date and not a period after it:* (1) the cutoff exists so the law does not draw new arrivals. A date after signature announces a window to arrive under a known law, which is the clearest draw; the signature date allows none after the law is known. The debate period stays open, as Espen chose over the introduction date. (2) Administrative readiness is met by when filing opens (IMM-1.05, about 270 days after signature), not by moving the cutoff: the cutoff fixes who is eligible, not when they file. (3) Anyone who arrives later reaches the standing registry at ten years (IMM-1.05), so a later cutoff buys little. *The alternative:* a named period, for example 90 days after signature, so that people already on their way, or whose presence on the day leaves no record, are covered; its cost is a known window to arrive. A small question for Espen (end of this section). Recommended: the signature date",
+  "parameters": "*Tier A* (IMM-1.01): presence on January 1 of the calendar year in which the act is enacted. *Registered status* (IMM-1.03): presence on the day the President signs the act. *Tier B* (IMM-1.02, 1.05) has no cutoff: it is the rolling ten years. Proof follows IMM-1.06: the records that show a person here before the date. *What the two dates do:* a person who arrives during the year of enactment, before signature, registers rather than entering tier A, and reaches a green card through the registry at ten years. The debate year cannot draw people into the green-card-on-approval tier, and no date after the law is known opens any route. Filing opens separately, no later than 270 days after signature (IMM-1.05). Cost: the earlier tier A date moves about 50,000 people (range 20,000-100,000; working assumption) from tier A to registered status, lowering memo 1's line by about $0.3 billion over FY2030-39 (`tools/immigration_model.py`, `tier_a_late_arrivals_m`)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1339,13 +1342,13 @@
  },
  {
   "id": "IMM-3.08",
-  "title": "Court capacity: the 800-judge cap repealed",
+  "title": "Court capacity: the 800-judge cap repealed, and the corps sized to clear the backlog in about six years",
   "agenda": "IMM-3",
   "status": "decided, memo 4 part 2; proposed to CRT-5",
   "decisions": [
    "DEC-2026-11-12-07"
   ],
-  "parameters": "Repeal the cap from November 1, 2028 [EV-IMM-105]. Judges with support staff sized to clear the backlog in about six years at the inflow after legalization. Working assumption: about 810 judges (range about 615-1,120), against 753 on board at the end of FY2026 [EV-IMM-103] (`tools/immigration_model.py`, `eoir()`). At the central inputs, 800 judges would take about six years; at the low end of judges' productivity, about 13.5. The number is to be set with democratic renewal",
+  "parameters": "Repeal the cap from November 1, 2028 [EV-IMM-105]. Judges with their teams (clerks, staff attorneys, interpreters, space) sized to clear the backlog by FY2035 at the inflow after legalization. *Working assumption* (`tools/immigration_model.py`, `eoir()`): about 1,670 judges in all, about 920 more than the 753 on board [EV-IMM-103] (range about 860-2,400 in all; at the slow end of completions a judge even 250 hires a year clear the backlog only by FY2036), hired about 250 a year from FY2030 so the corps peaks by FY2033, and shrinking by attrition (about 5.6% a year [EV-IMM-646]) once the backlog clears in FY2035. It rests on CRS's average of about 510 completions a judge [EV-IMM-641] (range 450-750), not the higher recent rates that in absentia orders inflate [EV-IMM-106]. CRS found 700 more judges than its 649 would clear a smaller backlog by FY2032 [EV-IMM-642]; the Manhattan Institute, about 250 more a year at 957 completions a judge [EV-IMM-646]. *Cost:* about $1.5 million a judge team a year [EV-IMM-644] [EV-IMM-645], about $13 billion over FY2030-39 (section 6). *A slower ramp:* at 150 hires a year, EOIR's FY2024 request [EV-IMM-644], the same corps clears the backlog about FY2037, two years late; at 800 judges it does not clear within fifteen years. The number is set with democratic renewal, whose CRT-5 carries the court",
   "eligibility": "",
   "vehicle": [
    {
@@ -1359,9 +1362,14 @@
   "evidence": [
    "EV-IMM-105",
    "EV-IMM-100",
-   "EV-IMM-112",
    "EV-IMM-102",
-   "EV-IMM-103"
+   "EV-IMM-103",
+   "EV-IMM-641",
+   "EV-IMM-642",
+   "EV-IMM-643",
+   "EV-IMM-644",
+   "EV-IMM-645",
+   "EV-IMM-646"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1 (memo 4; point 8)",
@@ -1811,13 +1819,14 @@
  },
  {
   "id": "IMM-4.13",
-  "title": "The mandate's start: one year after the status programs are certified running",
+  "title": "The mandate's start: no earlier than October 1 of the year after enactment, and only on a passing check",
   "agenda": "IMM-4",
-  "status": "specified; reviewer's note (a)",
+  "status": "decided, `DEC-2026-11-12-12`",
   "decisions": [
-   "DEC-2026-11-12-07"
+   "DEC-2026-11-12-07",
+   "DEC-2026-11-12-12"
   ],
-  "parameters": "*\"The status programs are running\"* means the USCIS Director has certified, and the DHS Inspector General has confirmed within 90 days, that for three consecutive full months: (1) filing for the registry, tier A and registration (IMM-1.05) is open nationwide, online, on paper and at every front door (IMM-6.04), in at least the ten languages most used by applicants; (2) at least 95% of complete filings receive their receipt, which is the work permit (IMM-1.10), within 14 days, and it is recorded in E-Verify's and SSA's records within 30 days of filing; (3) every DACA, TPS and parole holder in USCIS's files has been sent their notice (IMM-1.07); (4) the fee waiver is decided on the form (IMM-1.09); (5) in a published test of E-Verify on a sample of registered people, their erroneous tentative nonconfirmation rate is no higher than permanent residents' (0.7% in FY2009 [EV-IMM-391]). The first tranche starts on the first October 1 that is at least twelve months after the Inspector General's confirmation; each later tranche twelve months after the one before. *On the working timeline:* filing opens about October 1, 2030; the conditions are met and confirmed by about October 2031; the first tranche starts no earlier than October 1, 2032, and the last on October 1, 2035. *A review pause* (working choice, inside \"fast error correction\"): before each later tranche, USCIS publishes the past year's erroneous nonconfirmation rates by group; if the rate for work-authorized noncitizens is above 1%, the next tranche waits twelve months, once, while the Secretary reports a correction plan to Congress. A small question for Espen (end of this section)",
+  "parameters": "*The earliest date:* the first tranche (IMM-4.12) starts no earlier than October 1 of the calendar year after the year of enactment (October 1, 2030 on the working timeline). *The check:* on that date the DHS Inspector General confirms whether all of these hold: (a) filing for the registry, tier A and registration (IMM-1.05) is open nationwide, online, on paper and at every front door (IMM-6.04); (b) everyone USCIS already knows (DACA, TPS and parole holders in its files) has received their notice (IMM-1.07); (c) work permits are issued and E-Verify queries run within the act's statutory time limits: the filing receipt within 14 days and recorded in E-Verify's and SSA's records within 30 days of filing (IMM-1.10), and contests answered within ten federal working days (IMM-4.14); (d) the systems that do (c) exist and are in use; (e) newly registered workers' erroneous tentative nonconfirmation rate is no higher than permanent residents' (0.7% in FY2009 [EV-IMM-391]), in a published test on a sample of registered people. *If any condition fails,* the Inspector General checks again every 90 days, and the first tranche starts on the first check that passes. *Later tranches* follow one year apart. Before each, USCIS publishes the past year's erroneous nonconfirmation rates by group; if the rate for work-authorized noncitizens is above 1%, that tranche waits 90 days, and the wait repeats until the rate is at or below 1%. *No separate employer exemption or appeal process:* the tranches by size (IMM-4.12) and the error correction (IMM-4.14) are the whole of the mandate's flexibility. *On the working timeline:* filing opens about October 1, 2030; the October 2030 check fails (filing has just opened and notices are still going out), and the conditions are met by about mid-2031, so the first tranche starts about July 1, 2031 (working assumption); the later tranches about July 2032, 2033 and 2034",
   "eligibility": "",
   "vehicle": [
    {

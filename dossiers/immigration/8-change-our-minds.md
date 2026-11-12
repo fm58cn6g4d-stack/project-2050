@@ -7,7 +7,7 @@ Role: section 8 of the immigration dossier. For each decided choice it gives the
 | Choice | Decided | What would change it | What we would do instead |
 | --- | --- | --- | --- |
 | Who gets status | Memo 1 A, with the changes | A vote count that cannot carry the rolling ten-year date | A fixed date ten years before enactment (memo 1); tier A only (B) is the floor |
-| Registration's cutoff | Signature date (IMM-1.04; recommended, a question to Espen) | Evidence that presence on the day is hard to prove for many who were here; or Espen chooses a named period | A named period, such as 90 days after signature |
+| The cutoffs | Tier A January 1 of the year of enactment; registration the signature date (IMM-1.04, `DEC-2026-11-12-12`) | Evidence that presence on the day is hard to prove for many who were here; or Espen chooses a named period | A named period, such as 90 days after signature |
 | A green card on approval | Memo 1 part 2 | A vote count that needs a provisional stage | The legacy five years' provisional status for tier B, which doubles USCIS's work (memo 7) |
 | The records-first registry | Memo 2 C | The yearly fraud audit shows the statement route abused at scale | Two documents per gap year (IMM-6.06) |
 | | | A court or law bars IRS-USCIS matching | Memo 2 B: the rolling registry with documents and fee waivers |
@@ -17,13 +17,15 @@ Role: section 8 of the immigration dossier. For each decided choice it gives the
 | The work routes | Memo 3 part 2 B | A sharp fall in the decided programs' hiring needs; high unemployment in care or construction | The review trigger pauses new visas (IMM-2.11); smaller ceilings after three years |
 | Officers decide asylum first | Memo 4 D | Officers' grant decisions are reversed on review at high rates, or the 180 days are missed for years | More review staff and training; never a bar |
 | The surge rule | Memo 4 D | The 90-day track is overwhelmed for months | Temporary judges and officers added by statute, not a bar on asylum (memo 4) |
+| Judges to clear in six years | Memo 4 part 2 (IMM-3.08) | Completions a judge run well above 510 once counsel is in place, or receipts fall further | Fewer added judges, set from the published completions; the six-year goal stays |
+| | | Hiring or courtroom space cannot keep 250 a year | A slower ramp clears about FY2037; report it, and add temporary judges rather than shorten hearings |
 | Counsel B | Memo 4 part 2 | A randomized counsel study showing a small effect | Counsel A, children and serious mental illness only |
 | Replacing ICE | Memo 5 part 1 B | The transition disrupts removal of priority cases or the case-management service | Move the transition date; the rules stay in force from signature either way |
 | The 30,000 cap | Memo 5, A's rules | Priority arrests above the cap for two years | Raise the cap by statute, not by standing waiver |
 | Case management as the default | Memo 5, A's rules | Appearance under case management falls well below the GAO's 99% [EV-IMM-354] | Better case management and counsel first; detention only under the priorities |
-| Mandatory E-Verify | Memo 5 part 2 A | Wrong flags for lawful noncitizens stay above 1% after the review pause | Keep the pause and fix the records; Espen decides whether to hold later tranches |
+| Mandatory E-Verify | Memo 5 part 2 A | Wrong flags for lawful noncitizens stay above 1% through repeated 90-day waits | Keep the waits and fix the records; Espen decides whether to hold later tranches |
 | | | A verification method that does not misfire on lawful workers and catches borrowed identities [EV-IMM-393] | Replace the check with it |
-| The E-Verify start | A checked test (IMM-4.13; recommended, a question to Espen) | Espen prefers a date anyone can quote | A fixed date, October 1, 2032, with the protections unchanged |
+| The E-Verify start | No earlier than October 1 of the year after enactment, on a passing 90-day check (IMM-4.13, `DEC-2026-11-12-12`) | The check keeps failing for a year or more, so the trade Espen accepted stays unmet | Report why to Congress and Espen; fix the failing condition, not the check; no employer exemptions or appeals |
 | The table | Memo 6 C | A vote count that needs a waiting period | The five-year wait for SNAP and SSI only, about $0.02-0.04 trillion less (memo 6) |
 | | | Evidence that residence-based coverage draws arrivals | None is in the register; we would review the single plan's residency rule |
 | USCIS funding | Memo 7 B | Fees at cost do not cover non-public work | Adjust fees; the appropriation stays for the public work |
@@ -44,7 +46,7 @@ Role: section 8 of the immigration dossier. For each decided choice it gives the
 | --- | --- | --- |
 | Names of the new DHS components | The act names them; "Humanitarian Processing Service" is not adopted | None for the design |
 | The work routes' ceilings after three years | Kept, raised or lowered from the Labor Department's counts | The decided programs' hiring needs |
-| The judges IMM-3.08 needs | About 810 (range about 615-1,120) on the first model; a fuller docket model with democratic renewal | CRT-5's design and score (democratic renewal) |
+| The judges IMM-3.08 needs | About 1,670 in all, 920 added (range about 860-2,400) on the first model; a fuller docket model with democratic renewal | CRT-5's design and score (democratic renewal) |
 | E-Verify's state preemption | One federal rule (working choice) or state rules allowed above it | Employers in mandate states facing two systems |
 | The CAP-7 overlap with USCIS | Zero, or a stated purpose | The booking step (section 6, part 6) |
 
@@ -63,7 +65,7 @@ Role: section 8 of the immigration dossier. For each decided choice it gives the
 | CBP's report of the unobligated wall balance | Mid-2029 | IMM-3.07's size |
 | The first filings, take-up and the receipt times | From October 2030 | Memos 1 and 6's costs; E-Verify's start |
 | The first fraud audit | About a year after filing opens | IMM-6.06 |
-| The Inspector General's confirmation of the start test | About October 2031 | The first tranche |
-| E-Verify's published error counts and each GAO audit | Monthly from the first tranche; before each later one | The review pause; memo 5 part 2 |
+| The Inspector General's start checks, from October 1 of the year after enactment, every 90 days until one passes | From October 2030; passing about mid-2031 (working) | The first tranche |
+| E-Verify's published error counts and each GAO audit | Monthly from the first tranche; before each later one | The 90-day waits; memo 5 part 2 |
 | Detention, appearance and deaths, monthly | From October 2029 | The cap and case management |
 | Surge activations and their 90-day results | As they happen | Memo 4 D |

@@ -8684,5 +8684,197 @@
     "stance": "qualifies"
    }
   ]
+ },
+ {
+  "id": "EV-IMM-641",
+  "statement": "CRS calculated average case completions per immigration judge of 482 in FY2017, 494 in FY2018, 627 in FY2019, 449 in FY2020, 207 in FY2021 and 496 in FY2022, and excluded FY2021 as a pandemic anomaly from its projections.",
+  "claim": "data",
+  "figures": [
+   "482",
+   "494",
+   "627",
+   "449",
+   "207",
+   "496"
+  ],
+  "source": "SRC-4089",
+  "anchor": [
+   "Average case completions per IJ were 482 in FY2017, 494 in FY2018, 627",
+   "in FY2019, 449 in FY2020, 207 in FY2021, and 496 in FY2022."
+  ],
+  "locator": "CRS R47637, footnote 26",
+  "grade": "B",
+  "fact_date": "2022",
+  "recheck": "2027-10-31",
+  "context": "CRS (nonpartisan), July 2023, computed from EOIR adjudication statistics. Its footnote describes the measure as cases divided by judges on staff at the end of each fiscal year. The five years it uses average about 510 (project arithmetic). FY2026 ran higher, at about 1,293 a judge (EV-IMM-102, EV-IMM-103), inflated by in absentia orders (EV-IMM-106).",
+  "checked": "2026-11-12",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/5-delivery.md",
+   "dossiers/immigration/6-cost.md",
+   "dossiers/immigration/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-642",
+  "statement": "CRS projected that an additional 700 immigration judges, 1,349 in total from the 649 on staff in FY2023, would be the minimum needed to clear the backlog by FY2032 under its assumptions.",
+  "claim": "analysis",
+  "figures": [
+   "700",
+   "1,349",
+   "649",
+   "FY2032"
+  ],
+  "source": "SRC-4089",
+  "anchor": [
+   "an additional 700 IJs (1,349 total) would",
+   "be the minimum number needed to fully clear the backlog by FY2032, holding all other factors",
+   "EOIR had 649 IJs on staff at the end of FY2023"
+  ],
+  "locator": "CRS R47637, \"Projected Impact of Immigration Judge Hiring\"",
+  "grade": "C",
+  "fact_date": "2023-07",
+  "recheck": "2027-10-31",
+  "context": "CRS (nonpartisan) projection holding FY2017-22 receipts and completions per judge constant, without attrition. Receipts have since changed (EV-IMM-102); the method and the completions rate are what this dossier uses.",
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-646",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-12",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/5-delivery.md",
+   "dossiers/immigration/6-cost.md",
+   "dossiers/immigration/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-643",
+  "statement": "CRS reported that immigration judge attrition doubled, from 12 judges a year to an average of 26 a year since FY2017.",
+  "claim": "data",
+  "figures": [
+   "12",
+   "26",
+   "FY2017"
+  ],
+  "source": "SRC-4089",
+  "anchor": [
+   "doubled due to higher numbers of retirements and separations (from 12 IJs annually to an average",
+   "of 26 since FY2017)."
+  ],
+  "locator": "CRS R47637, \"Immigration Judge Hiring and Staffing\"",
+  "grade": "B",
+  "fact_date": "2023",
+  "recheck": "2027-10-31",
+  "context": "CRS (nonpartisan), from EOIR hiring data; departures imputed by CRS.",
+  "checked": "2026-11-12",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/5-delivery.md",
+   "dossiers/immigration/6-cost.md",
+   "dossiers/immigration/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-644",
+  "statement": "CRS reported that EOIR's FY2024 request sought $367 million for 150 new immigration judge teams, including 750 attorneys and support staff, with personnel 52% of the cost, court costs such as space buildout 39% and adjudication costs such as interpretation 9%.",
+  "claim": "data",
+  "figures": [
+   "$367 million",
+   "150",
+   "750",
+   "52%",
+   "39%",
+   "9%"
+  ],
+  "source": "SRC-4089",
+  "anchor": [
+   "For FY2024, EOIR requested $367 million in funding for staff to reduce the backlog; specifically,",
+   "for 150 new IJ teams (includes 750 attorneys and associated support staff), as well as attorney",
+   "which account for 52% of the total; court costs (e.g., space buildout for IT",
+   "accounting for 39% of the total; and adjudicatory costs (e.g.,",
+   "representing 9% of the total."
+  ],
+  "locator": "CRS R47637, text and footnote 25 (EOIR FY2024 Performance Budget, p. 21)",
+  "grade": "B",
+  "fact_date": "2023-03",
+  "recheck": "2027-10-31",
+  "context": "A budget request of the Biden administration (DOJ, March 2023), reported by CRS. The recurring parts (personnel and adjudication, 61%) come to about $1.49 million a team a year (project arithmetic); the space buildout is mostly one-time.",
+  "checked": "2026-11-12",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/5-delivery.md",
+   "dossiers/immigration/6-cost.md",
+   "dossiers/immigration/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-645",
+  "statement": "The Manhattan Institute reported that DOJ's fiscal year 2025 budget request sought 25 immigration judge positions with 37 legal assistants, 38 attorneys and 50 other staff for $32,785,000, about $1.31 million per judge added.",
+  "claim": "data",
+  "figures": [
+   "25",
+   "37",
+   "38",
+   "50",
+   "$32,785,000",
+   "$1.31 million"
+  ],
+  "source": "SRC-4136",
+  "anchor": [
+   "In its fiscal year 2025 budget request, the Department of Justice requested 25 new immigration judge positions, as well as 37 new legal assistants, 38 attorneys, and 50 professional and other administrators to accompany these judges.",
+   "It estimated that these positions would cost $32,785,000, or approximately $1.31 million per immigration judge added."
+  ],
+  "locator": "Section \"Cost Estimates\"",
+  "grade": "C",
+  "fact_date": "2024-03",
+  "recheck": "2027-11-12",
+  "context": "Manhattan Institute (conservative think tank), Daniel Di Martino, June 5, 2025, restating DOJ's FY2025 budget request (Biden administration, 2024); the per-judge figure is the brief's division.",
+  "checked": "2026-11-12",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/5-delivery.md",
+   "dossiers/immigration/6-cost.md",
+   "dossiers/immigration/7-validation.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-646",
+  "statement": "The Manhattan Institute estimated that hiring an extra 250 immigration judges a year would shrink a 4 million case backlog to about 100,000 by fiscal year 2029, assuming 957 completions a judge a year, with attrition of about 5.6% a year.",
+  "claim": "analysis",
+  "figures": [
+   "250",
+   "957",
+   "4 million",
+   "100,000",
+   "2029",
+   "5.6%"
+  ],
+  "source": "SRC-4136",
+  "anchor": [
+   "Clearing the immigration court backlog by the end of the Trump administration will require hiring an extra 250 judges per year. Assuming no change in how many cases each judge decides per year (currently 957)",
+   "the attrition rate due to retirement or termination matches that of the past decade (approximately 5.6% annually)",
+   "this would shrink the immigration court backlog from 4 million to about 100,000 by fiscal year 2029"
+  ],
+  "locator": "Section \"Expanding Immigration Courts\"",
+  "grade": "C",
+  "fact_date": "2025-06",
+  "recheck": "2027-11-12",
+  "context": "Manhattan Institute (conservative think tank), Daniel Di Martino, June 5, 2025; argues for faster removals under the second Trump administration. Its 957 completions a judge reflects FY2024's pace with many in absentia orders; CRS's FY2017-22 average is about half (EV-IMM-641), so the brief's judge count is a lower bound for fuller hearings.",
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-642",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-12",
+  "supports": [
+   "dossiers/immigration/4-specification.md",
+   "dossiers/immigration/5-delivery.md",
+   "dossiers/immigration/6-cost.md",
+   "dossiers/immigration/7-validation.md"
+  ]
  }
 ]

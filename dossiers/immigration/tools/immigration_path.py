@@ -16,8 +16,9 @@ Ranges are summed linearly for the set, as section 3 did, so the set's range is 
 Working timeline (4-specification.md, "Dates"): the 2029 reconciliation act (R1) by about
 mid-2029; the regular-order immigration act signed by about December 2029; registration and
 the rolling registry open by October 1, 2030 (FY2031); the single plan's first wave January 1,
-2031; the E-Verify start trigger met by about October 2031, so the first tranche no earlier
-than October 1, 2032 (FY2033) and one tranche a year after it.
+2031; the E-Verify mandate's first tranche no earlier than October 1, 2030, on a passing
+Inspector General check, assumed to come about July 1, 2031 (FY2031 Q4), and one tranche a year
+after it (IMM-4.13, DEC-2026-11-12-12).
 """
 
 import os
@@ -64,6 +65,10 @@ def lines():
     # Memo 4 D with counsel B: the officer corps, the refugee floor, regional access and
     # appointed counsel (immigration_model.asylum_refugees and eoir).
     out['IMM-3.01-3.04, 3.12: asylum, refugees, regional access, counsel (memo 4)'] = from_model('memo4')
+    # Memo 4 part 2: judge teams above today's 753 judges (EV-IMM-103), hired 250 a year to the
+    # corps that clears the court backlog by FY2035, costed at about $1.5 million a team a year
+    # (EV-IMM-644, EV-IMM-645), shrinking by attrition once it clears (immigration_model.eoir).
+    out["IMM-3.08: judge teams above today's corps (memo 4, part 2)"] = from_model('judges')
     # Point 8: repeal of the $100-a-year asylum-pending fee and the $550 first work-permit
     # charge (EV-IMM-043, EV-IMM-045). Roughly 1-2 million payers of the yearly fee falling as
     # the backlog clears and 300,000-400,000 first permits a year (judgment), net of CBO's 25%
@@ -85,7 +90,7 @@ def lines():
     # $635 million over five years (EV-IMM-394), about $0.13 billion a year in 2014-18;
     # grown and with faster correction, about $0.3-0.45 billion a year (judgment).
     out['IMM-4.12-4.15: E-Verify operations and error correction (memo 5, A)'] = (
-        path([0, 0.15, 0.3, 0.35, 0.4, 0.4, 0.41, 0.42, 0.43, 0.44, 0.45]), 2.5, 6, 0.3, 0.7)
+        path([0.15, 0.3, 0.35, 0.4, 0.4, 0.41, 0.42, 0.43, 0.44, 0.45, 0.46]), 3, 6.5, 0.3, 0.7)
     # Memo 6 C: health coverage for people without status from the single plan's first wave
     # (January 1, 2031), $3-9 billion a year, and no five-year wait for memo 1's new permanent
     # residents, $2-4 billion a year, both rising with the population and prices (memo 6).
@@ -121,11 +126,11 @@ def everify():
     billion and on-budget +$5.8 billion in about 2018 dollars. Grown 4% a year (wages) to 2036
     and scaled by 0.3, the unauthorized workforce left after memo 1 against 2013's (judgment:
     about 2-3.5 million against about 8 million). Coverage of that workforce by tranche
-    (judgment; unauthorized workers sit mostly in small firms and households): FY2033 0.2,
-    FY2034 0.45, FY2035 0.7, FY2036 on 1.0.
+    (judgment; unauthorized workers sit mostly in small firms and households): 0.2, 0.45, 0.7
+    and 1.0 by tranche, from the first tranche about July 2031 (immigration_model.everify_coverage).
     """
-    cover = {2033: 0.2, 2034: 0.45, 2035: 0.7}
-    share = {y: (1.0 if y >= 2036 else cover.get(y, 0.0)) for y in YEARS}
+    import immigration_model as m
+    share = m.everify_coverage()
     full = lambda per_year: {y: per_year * 1.04 ** (y - 2018) * 0.3 for y in YEARS}
     on_full, off_full = full(49 / 8.5), full(88 / 8.5)
     on = {y: -on_full[y] * share[y] for y in YEARS}       # a general-fund gain (negative cost)
