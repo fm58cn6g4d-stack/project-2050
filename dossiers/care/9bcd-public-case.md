@@ -15,7 +15,7 @@ Role: section 9 of the care dossier for parts B, C and D: a plain-language brief
 
 **What it costs.** On our estimates, about $3.5 trillion over fiscal years 2030-39 and about $730 billion in 2040, about 1.3% of the economy. About $580 billion of that 2040 figure is new beyond what the plan's budget already counts (section 6). Most of it replaces what families now pay themselves or give in unpaid care. States keep paying a share: half of what they spend on long-term care today, and a fifth of child care's cost after three years. How the rest is paid is decided with the plan's other taxes.
 
-**What it protects.** No one spends down their savings or loses their home to get long-term care. No family pays more than 7% of its income for child care. Relatives can still be paid for care wherever their state allows it today.
+**What it protects.** From 2035, no one spends down their savings or loses their home to get long-term care, at home or in a nursing home. No family pays more than 7% of its income for child care. Relatives can still be paid for care wherever their state allows it today.
 
 ## The case in one paragraph
 
@@ -38,7 +38,7 @@ Families carry the cost of care alone until they are poor enough for Medicaid. T
 
 **What if I need help with only two daily activities?** The benefit starts at three, or at a serious cognitive impairment. Anyone already getting Medicaid help at home on December 31, 2034 keeps it. States may keep serving people below the line in Medicaid.
 
-**Will my parent lose their home to pay for a nursing home?** No. From 2035 the plan pays for the care, with no asset test. Residents pay room and board from their income and keep a protected allowance, and a spouse at home keeps the income they need. From 2030, estate recovery ends and Medicaid's savings limit rises to $10,000 for a single person.
+**Will my parent lose their home to pay for a nursing home?** No. From 2035 the plan pays for the care, with no asset test. Residents pay room and board from their income and keep a protected allowance; if their income falls short, Medicaid pays the rest with no savings test, and a spouse at home keeps the income they need. Before then, from 2030, estate recovery ends and Medicaid's savings limit rises to $10,000 for a single person.
 
 **Why not free child care for everyone?** Free for every family would cost more and would mostly help families who can already pay. This design is free at or below 85% of state median income, about half of families with young children on our estimates. It caps everyone else at 7% of income, so no family faces a cliff.
 

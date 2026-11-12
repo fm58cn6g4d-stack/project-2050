@@ -12899,5 +12899,83 @@
   ],
   "checked": "2026-11-12",
   "recheck": "2027-11-12"
+ },
+ {
+  "id": "EV-CAR-700",
+  "statement": "In FY 2023 the Child Care and Development Fund served an average of 1,622,700 children a month; 34% were aged 6 to under 13 and 10% aged 5 to under 6.",
+  "claim": "data",
+  "figures": [
+   "1,622,700",
+   "34%",
+   "10%"
+  ],
+  "source": "SRC-3156",
+  "anchor": [
+   "Average Monthly Adjusted Number of Families and Children Served (FY 2023)",
+   "National Total | 993,800 | 1,622,700",
+   "Average Monthly Percentages of Children In Care By Age Group (FY 2023)",
+   "5 yrs to < 6 yrs | 6 yrs to < 13 yrs | 13+ yrs",
+   "National | 5% | 10% | 13% | 14% | 13% | 10% | 34% | 1% | 0% | 100%"
+  ],
+  "locator": "Tables 1 and 9 (sheets 1 and 9), National rows",
+  "grade": "A",
+  "fact_date": "2023",
+  "context": "HHS ACF Office of Child Care, final estimates released February 2026 (Trump administration data release) from state and territory ACF-801 reports; counts are children funded through CCDF only, rounded to the nearest 100, and exclude American Samoa and the Virgin Islands, which had not reported. Percentages are rounded; 0% can mean under 0.5%. FY 2022 final (Table 9) gave the same 34% and 10%.",
+  "supports": [
+   "dossiers/care/4bcd-specification.md",
+   "dossiers/care/6bcd-cost.md"
+  ],
+  "checked": "2026-11-12",
+  "recheck": "2027-02-01"
+ },
+ {
+  "id": "EV-CAR-701",
+  "statement": "The Census Bureau's population estimates put Puerto Rico's resident population under 5 years at 92431 on July 1, 2025, and aged 5 to 13 years at 226079.",
+  "claim": "data",
+  "figures": [
+   "92431",
+   "226079"
+  ],
+  "source": "SRC-3157",
+  "anchor": [
+   "Annual Estimates of the Resident Population for Selected Age Groups by Sex for Puerto Rico Commonwealth: April 1, 2020 to July 1, 2025",
+   "Under 5 years 115366 59442 55924 113248 58322 54926 105912 54564 51348 99759 51371 48388 96618 49729 46889 94230 48663 45567 92431 47400 45031",
+   "5 to 13 years 290491 149241 141250 287653 147791 139862 276403 142053 134350 261263 134178 127085 249209 127799 121410 238111 122455 115656 226079 116563 109516"
+  ],
+  "locator": "File prc-est2025-agesex.xlsx, rows Under 5 years and 5 to 13 years, columns for 2025 (Both Sexes)",
+  "grade": "A",
+  "fact_date": "2025-07",
+  "context": "U.S. Census Bureau Population Estimates Program, vintage 2025 released June 2026 (Trump administration data release); estimates, not a count. Both-sexes figure is the first of three 2025 columns in each row (92431, 47400 male, 45031 female). Puerto Rico is treated as a State for CCDF allotment [EV-CAR-702]. Island Areas other than Puerto Rico: see EV-CAR-356; no under-5 count for them was added.",
+  "supports": [
+   "dossiers/care/4bcd-specification.md",
+   "dossiers/care/6bcd-cost.md"
+  ],
+  "checked": "2026-11-12",
+  "recheck": "2027-06-01"
+ },
+ {
+  "id": "EV-CAR-702",
+  "statement": "The CCDF statute (section 9858m of title 42) has the Secretary reserve not more than one half of 1 percent of the amount appropriated each fiscal year for payments to Guam, American Samoa, the Virgin Islands and the Northern Mariana Islands, and defines a State to include the 50 States, the District of Columbia and Puerto Rico.",
+  "claim": "data",
+  "figures": [
+   "1 percent",
+   "50"
+  ],
+  "source": "SRC-3158",
+  "anchor": [
+   "42 U.S. Code § 9858m - Amounts reserved; allotments",
+   "shall reserve not to exceed one half of 1 percent of the amount appropriated under this subchapter in each fiscal year for payments to Guam, American Samoa, the Virgin Islands of the United States, and the Commonwealth of the Northern Mariana Islands to be allotted in accordance with their respective needs.",
+   "the term “State” includes only the 50 States, the District of Columbia, and the Commonwealth of Puerto Rico."
+  ],
+  "locator": "Subsection (a)(1) and subsection (f)",
+  "grade": "A",
+  "fact_date": "2014",
+  "context": "Statute text as published by Cornell's Legal Information Institute (current to 2026); the reservation language dates from 1990 and was last amended in 2014 (Pub. L. 113-186) under the Obama administration. Puerto Rico receives a State allotment; the four territories share the reserve.",
+  "supports": [
+   "dossiers/care/4bcd-specification.md",
+   "dossiers/care/6bcd-cost.md"
+  ],
+  "checked": "2026-11-12",
+  "recheck": "2027-11-12"
  }
 ]
