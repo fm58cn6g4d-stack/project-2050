@@ -27,27 +27,18 @@ Y0, Y1 = 2026, 2056          # model years
 W0, W1 = 2030, 2039          # ledger window
 CPI = {y: 2.26 if y <= 2036 else 2.3 for y in range(2026, 2057)}   # CBO Feb 2026 CPI-U path (rounded)
 
-PBS = ["C18", "C35", "C19b", "C20", "C38"]
-DEC = PBS + ["C39", "C40", "C41", "C43"]       # decided in Decision Brief 2 (Oct 20): TS12, HP1, HP3; no trims; REV-SC1 (C43) adopted Oct 21
-TRIMS = ["C5", "C17", "C33", "C34", "C36"]    # declined in Decision Brief 2; kept for reference
-SCENARIOS = [
-    # id, label, cut options included, extra settings
-    ("BASE", "Current-law baseline (CBO Feb 2026, adjusted)", None, {}),
-    ("GROSS", "Program spending with the top-end base only (no new options)", [], {}),
-    ("PB", "Package B (C18, C35, C19b, C20)", ["C18", "C35", "C19b", "C20"], {}),
-    ("PB+S", "Package B + sprint package (C38)", PBS, {}),
-    ("DEC", "Decided: Package B + sprint + TS12, HP1, HP3 (C39-C41) + REV-SC1 (C43); no trims", DEC, {}),
-    ("DEC+ENV", "Decided, plus new time-limited investments filling the D4-B envelope room left after the borrowing readings and CAP-7S", DEC, {"envelope": 0.5, "net_of_borrow": True}),
-    ("DEC-DYN", "Decided, with CBO-style dynamic feedback (about -$0.56T)", DEC, {"dynamic": "mid"}),
-    ("DEC-R1", "Decided, with interest rates 1 point higher from 2030, phased in as debt rolls over", DEC, {"rate_shift": 1.0}),
-    ("BASE-R1", "Baseline with interest rates 1 point higher from 2030, phased in as debt rolls over", None, {"rate_shift": 1.0}),
-    ("DEC+TRIMS", "Decided plus the five trims declined in Decision Brief 2 (reference only)", DEC + TRIMS, {}),
-    ("DEC-CAUT", "Decided, at the cautious end: every bill at its ledger high cost and every base revenue row at its low yield (disclosure, not a test)", DEC, {"cautious": True}),
-]
-# DEC-CAUT is the cautious-end reading of budget choice 2 (DEC-2026-11-08-04, ASM-CALIB-CAUTIOUS): the
-# midpoints decide the tests; this reading is reported beside them. Each row keeps its own profile,
-# scaled from its midpoint to its ledger end (cautious_ratio). Options, climate rows and the
-# dynamic table stay at their central values: the ledger gives them no range.
+spec = importlib.util.spec_from_file_location("scenarios", os.path.join(HERE, "scenarios.py"))
+SF = importlib.util.module_from_spec(spec); spec.loader.exec_module(SF)
+# The scenarios and their packages live in models/data/inputs/scenarios.json, shared with the incidence model (B6).
+_SD = SF.load()
+PBS = SF.package("PB+S", _SD)
+DEC = SF.package("DEC", _SD)       # decided in Decision Brief 2 (Oct 20): TS12, HP1, HP3; no trims; REV-SC1 (C43) adopted Oct 21
+TRIMS = SF.package("TRIMS", _SD)   # declined in Decision Brief 2; kept for reference
+SCENARIOS = SF.fiscal(_SD)         # id, label, cut options included, extra settings
+# DEC-CAUT (scenarios.json) is the cautious-end reading of budget choice 2 (DEC-2026-11-08-04,
+# ASM-CALIB-CAUTIOUS): the midpoints decide the tests; this reading is reported beside them. Each row
+# keeps its own profile, scaled from its midpoint to its ledger end (cautious_ratio). Options, climate
+# rows and the dynamic table stay at their central values: the ledger gives them no range.
 
 
 def read_baseline(path):

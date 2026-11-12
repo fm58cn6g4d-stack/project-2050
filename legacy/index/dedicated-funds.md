@@ -46,15 +46,15 @@ The general-fund ledger counts only general-fund money. This file follows the fu
 
 ## Medicare HI (summary level)
 
-Rates are the 2026 Trustees' HI cost and income rates at the years they publish, interpolated between (sourced); HI's taxable payroll is taken as 1.25 times OASDI's because it is uncapped (estimate). **Check:** the model puts depletion in **2034** with 89% payable and a 75-year balance of **-0.64%**, against the Trustees' 2033, 89% and −0.56% (sourced).
+Rates are the 2026 Trustees' HI cost and income rates for every year they publish (Table III.B7: each year 2026-35, then every five years), interpolated between (sourced); HI's taxable payroll is taken as 1.25 times OASDI's because it is uncapped (estimate). **Check:** the model puts depletion in **2033** with 89% payable and a 75-year balance of **-0.56%**, against the Trustees' 2033, 89% and −0.56% (sourced).
 
-**With the program.** HI's sources in the program are REV-H1a ($0.5T) and HLT-6's Part A share ($0.22T at 40% of the Advantage savings, FY2030-34 only, working assumption), $0.72T in 2030-39; REV-H1a is held at the same share of HI payroll after 2039 (estimate). Under the plan HI folds into the plan's fund at the 2035 endpoint (HLT-7.22), so the reading that matters is that HI is kept whole until then; the years after 2035 are shown for current-law comparison only. They improve the 75-year balance by **+0.27%** of HI payroll, against the Trustees' 0.56% gap, leaving about 0.29% for a further HI source; on the model's own rates HI then depletes in 2040 and the balance is -0.37%. Because the model's current-law balance is -0.08 points off the Trustees', the gain (not the model's absolute balance) is the reading to use; a year-by-year Trustees HI table would sharpen it.
+**With the program.** HI's sources in the program are REV-H1a ($0.5T) and HLT-6's Part A share ($0.22T at 40% of the Advantage savings, FY2030-34 only, working assumption), $0.72T in 2030-39; REV-H1a is held at the same share of HI payroll after 2039 (estimate). Under the plan HI folds into the plan's fund at the 2035 endpoint (HLT-7.22), so the reading that matters is that HI is kept whole until then; the years after 2035 are shown for current-law comparison only. They improve the 75-year balance by **+0.27%** of HI payroll, against the Trustees' 0.56% gap, leaving about 0.29% for a further HI source; on the model's own rates HI then depletes in 2038 and the balance is -0.30%. The model's current-law balance is -0.00 points off the Trustees' (budget benchmark TF-2), so both the gain and the absolute balance can be read.
 
 ## Paid leave (FAM-3)
 
 The contribution starts at 0.60% of covered payroll in 2030 (Trustees' taxable payroll used as the base, estimate) and benefits start in 2031, ramping over 2 years. Benefit cost is set so 2030-39 benefits match the ledger's FAM-3 range ($0.6T / $0.9T / $1.4T). The rule: when the reserve is below 1 year of next year's benefits the rate steps up 0.05 points the next January, to 1.10%; above 1.5 years it steps back down; a shortfall at the cap is a Treasury loan repaid with interest.
 
-**Check:** at 0.60% the contribution raises $0.97T in 2030-39 (ledger P1: $0.90T) and $1.78T at the cap (ledger: $1.28T).
+**Check:** at 0.60% the contribution raises $0.97T in 2030-39 (ledger P1: $0.90T) and $1.78T at the 1.10% cap (the ledger's high end, $1.28T, was set at the old 0.85% cap).
 
 | Take-up case | Mature cost (% of payroll) | First step-up | Rate 2035 / 2039 / 2050 | Receipts 2030-39 | Benefits 2030-39 | Treasury loan owed 2039 / 2050 ($B) |
 | --- | --- | --- | --- | --- | --- | --- |

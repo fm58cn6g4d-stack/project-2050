@@ -38,7 +38,7 @@ Conventions:
 - **Incidence parts** split a row's amount `x` across keys. `above450k` alone takes all of it. `wages 0.25*x; capital 0.75*x` is the 25/75 corporate convention. Plain numbers are fixed amounts.
 - **Phase-in methods:** for `ramp`, the yearly levels grow 4% a year and are then normalised. For `norm`, the levels are normalised as typed. `same_as` borrows another row's profile.
 
-The scenario lists (incidence `SCEN`, fiscal `SCENARIOS`) and the accounting rules (`GF_RULE`, `OWN_RANGE` in ledger-build.py) are still in the scripts.
+`scenarios.json` is the shared scenario file (budget workflow B6): the option packages (Package B, the sprint package, the decided package DEC, the declined trims) named once, the fiscal model's scenarios (`fiscal-model.py`, `SCENARIOS`) and the incidence model's (`incidence-model.py`, `SCEN`), read through `models/tools/scenarios.py`. Incidence scenario Q and fiscal scenario DEC are the same package by construction, and `test_provisions.py` checks it. Changing DEC is Espen's decision. The accounting rules (`GF_RULE`, `OWN_RANGE` in ledger-build.py) are still in the script; the ledger itself runs no scenarios.
 
 ## Surge availability and cash
 
