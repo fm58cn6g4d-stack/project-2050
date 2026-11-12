@@ -122,12 +122,12 @@ For the reviewer, the lead starts the successor; the reviewer starts nothing.
 4. The lead updates the Standing sessions table in its next board PR, adds the old reviewer to the "Former standing sessions" list (role, session ID, PRs reviewed, dates), and retitles the old reviewer "Project 2050: former reviewer, <PRs reviewed>, <first date> to <last date>" (for example "Project 2050: former reviewer, PRs #26 to #65, Oct 26 to Oct 30").
 5. Reviews already posted stay valid. The gate checks the reviewer's session ID line, not the title.
 
-## The lead's picture: watching without polling
+## The lead's picture: waiting on events
 
 The lead is the one session that knows everything in motion, so a handover or a question from Espen never starts from a guess (`DEC-2026-11-12-05`).
 
-- **Keep an in-motion list** at the top of the board: each active session (step, state, report-back address, context size), each open PR (author, tier, what it waits on) and each scheduled check-in. Update it at every event, not only at handovers. Espen doesn't read the board; write it for the next lead.
-- **Wait on events, not the clock.** For a known event (a label added, a merge, the gate's verdict on a new head), run a background shell watcher that polls GitHub and exits when the event happens; it costs nothing while it waits. Workers' messages (`ready`, `blocked`, `done`) carry the rest.
+- **Keep an in-motion list** at the top of the board: each active session (step, state, report-back address, context size), each open PR (author, tier, what it waits on) and each scheduled check-in. Track it as events happen, write it into each batched board PR (`DEC-2026-11-12-03`), and always before a handoff. Espen doesn't read the board; write it for the next lead.
+- **Wait on events, not the clock.** For a known event (a label added, a merge, the gate's verdict on a new head), run a background shell loop that checks about once a minute and exits when the event happens: `git ls-remote` for merges and new heads, the GitHub MCP tools or the `gh` search API (the only `gh` use allowed here, one call a minute or slower) for labels and reviews. Match the reviewer's own comment, not the gate's template that quotes the approval lines. It costs no tokens while it waits. Workers' messages (`ready`, `blocked`, `done`) carry the rest.
 - **One safety-net check-in every three hours** (`send_later`), for anything nobody reported: one batched look at the open PRs and `get_session` on each active session.
 - **At each event, a quick context check**: `get_session` on the sessions it touches, noting their state and context size, so handovers start before 600,000 tokens.
 - **Workers send three messages only**: `ready`, `blocked` and `done`. No progress reports.
