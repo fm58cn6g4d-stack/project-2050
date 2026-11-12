@@ -212,6 +212,22 @@ def main():
     for k in 'BCD':
         print(f'  part {k}: before {before[k][0]:.2f}T, {before[k][1]:.0f}B | after items 1-3 '
               f'{after[k][0]:.2f}T, {after[k][1]:.0f}B')
+    # Steps 1 and 2 only, at today's working shares (bridge floor 90%, child care 90%, parity at 90%).
+    working = {'B': after['B'], 'C': (1.4, 190),
+               'D': (after['D'][0] + bridge_gross * (0.90 - FMAP_REGULAR - BRIDGE_POINTS) / 1e12
+                     + PARITY_YRS * (1 - 0.8 / 0.9) / 1e12,
+                     after['D'][1] + PARITY_FY40 * (1 - 0.8 / 0.9) / 1e9)}
+    for k in 'BCD':
+        print(f'  part {k}: steps 1-2 at working shares {working[k][0]:.2f}T, {working[k][1]:.0f}B')
+    tw = sum(v[0] for v in working.values()), sum(v[1] for v in working.values())
+    print(f'  all three, steps 1-2 at working shares: {tw[0]:.2f}T, {tw[1]:.0f}B')
+    # If a third of states decline child care and pre-K and HHS pays all there (no obligation on them).
+    q = 1 / 3
+    cc_fed = lambda share: CC_NET_2033 * (share * (1 - q) + q)
+    print(f'  a third of states out, no obligation: child care federal at 80% ${cc_fed(0.8) / 1e9:.0f}B against '
+          f'${CC_NET_2033 * 0.9 / 1e9:.0f}B at 90% with all in (saving kept {(0.9 - 0.8 - q * 0.2) / 0.1:.0%}); '
+          f'pre-K at 75% ${(PREK_GROSS - PREK_STATE_NOW) * (0.75 * (1 - q) + q) / 1e9:.0f}B against '
+          f'${(PREK_GROSS - PREK_STATE_NOW) * 0.75 / 1e9:.0f}B')
     tb = sum(v[0] for v in before.values()), sum(v[1] for v in before.values())
     ta = sum(v[0] for v in after.values()), sum(v[1] for v in after.values())
     print(f'  all three: before {tb[0]:.2f}T, {tb[1]:.0f}B | after {ta[0]:.2f}T, {ta[1]:.0f}B')

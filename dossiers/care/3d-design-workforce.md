@@ -81,8 +81,9 @@ Working assumptions, not a model run (`DEC-2026-11-10-07`). Federal new money in
 | Points 5 and 7 (training; health supply beyond HLT-4) | about 1.5-2.5 a year | about 0.02 | about 2 |
 
 - **The decided set** (14 B at $20, 15 B, 16 C, the points), after step 8:
-  - about $0.58 trillion over FY2030-39 (range $0.35-1.0 trillion), against $0.65 trillion before;
-  - about $117 billion in FY2040 (range $70-205 billion), against $130 billion before.
+  - at today's working state shares (the bridge's floor at 90%, child care at 90%), about $0.63 trillion over FY2030-39 and $124 billion in FY2040;
+  - with the recommended state shares (the bridge rate; child care at 90% then 80%, memo 17's question 2), about $0.58 trillion (range $0.35-1.0 trillion) and $117 billion (range $70-205 billion);
+  - against $0.65 trillion and $130 billion before step 8.
 
   It sits on top of parts B and C's own costs.
 - **If parts B and C choose otherwise.**

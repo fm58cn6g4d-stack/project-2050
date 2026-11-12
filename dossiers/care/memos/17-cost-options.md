@@ -8,19 +8,19 @@ Role: decision memo for Espen on care parts B-D's cost, after their decisions (`
 
 ## The short version
 
-| | Before (the decision sheet) | After the three steps | With the recommended options below |
-| --- | --- | --- | --- |
-| **Part B, long-term care**, FY2030-39 | $2.6 trillion | **$2.15 trillion** | $1.9 trillion |
-| Part B, FY2040 | $590 billion | **$460 billion** | $440 billion |
-| **Part C, child care and pre-K**, FY2030-39 | $1.4 trillion | **$1.32 trillion** | $1.32 trillion |
-| Part C, FY2040 | $190 billion | **$177 billion** | $177 billion |
-| **Part D, the workforce**, FY2030-39 | $0.65 trillion | **$0.58 trillion** | $0.54 trillion |
-| Part D, FY2040 | $130 billion | **$117 billion** | $117 billion |
-| **All three**, FY2030-39 | **$4.65 trillion** | **$4.05 trillion** (13% lower) | **about $3.76 trillion** (19% lower) |
-| **All three**, FY2040 | **$910 billion** | **$752 billion** (17% lower) | **about $736 billion** (19% lower) |
+| | Before (the decision sheet) | Steps 1-2: the decided designs, priced as directed, at today's working state shares | Plus step 3: the recommended state shares (question 2) | Plus the recommended options below (questions 1 and 3) |
+| --- | --- | --- | --- | --- |
+| **Part B, long-term care**, FY2030-39 | $2.6 trillion | **$2.15 trillion** | $2.15 trillion | $1.9 trillion |
+| Part B, FY2040 | $590 billion | **$460 billion** | $460 billion | $440 billion |
+| **Part C, child care and pre-K**, FY2030-39 | $1.4 trillion | **$1.4 trillion** | $1.32 trillion | $1.32 trillion |
+| Part C, FY2040 | $190 billion | **$190 billion** | $177 billion | $177 billion |
+| **Part D, the workforce**, FY2030-39 | $0.65 trillion | **$0.63 trillion** | $0.58 trillion | $0.54 trillion |
+| Part D, FY2040 | $130 billion | **$124 billion** | $117 billion | $117 billion |
+| **All three**, FY2030-39 | **$4.65 trillion** | **$4.18 trillion** (10% lower) | **$4.05 trillion** (13% lower) | **about $3.76 trillion** (19% lower) |
+| **All three**, FY2040 | **$910 billion** | **$772 billion** (15% lower) | **$752 billion** (17% lower) | **about $736 billion** (19% lower) |
 
-- The middle column is the decided designs, priced as Espen directed.
-- The right column adds the recommended options (2, 3, 4 and 5 below), plus a protection that adds a little back (question 1).
+- **The second column is decided.** It is the decided designs, priced as Espen directed: three activities with the hold-harmless, and workforce lines at the federal cost only. States' shares stay at today's working figures: 90% federal for the bridge's floor, 90% for child care and parity, pre-K's 90% then 75%, and half of current long-term care spending.
+- **The third and fourth columns are recommendations.** The third adds the recommended state shares (question 2), and its child care saving depends on how question 2 handles states that decline (step 3). The fourth adds options 2-5 below and the protection in question 1.
 - Ranges are in the part files. The largest uncertainty is still part B's count of new users.
 
 **What states pay, on the recommended shares.**
@@ -49,7 +49,7 @@ The full workings are in `../3b-design-home-care.md`, "What the options cost".
 - **No baseline wage growth is counted.**
   - Memo 14's 12% payroll increase is the lift above the wages the baseline already projects for 2026. Against 2024 wages a $20 floor would add about 19-20%; the dossier never used that figure.
   - The floor is indexed to average wages, the same growth the baseline gives care wages. So the government pays only the gap the floor opens, never the raises workers would have had anyway.
-  - Parity in memo 15 is a ratio on part C's base, which grows only with prices.
+  - Parity in memo 15 is a ratio on part C's base, which grows only with prices. Elementary teachers' pay grows with wages, so the gap parity closes widens a little each year. Part C priced the raise at today's gap, so that widening is left out; it is an understatement, not a count of baseline growth.
 - **Only care public programs pay for is counted.**
   - The floor covers publicly paid care only. Private-pay home care and employers' own payrolls are outside it.
   - Child care families' payments are capped at a share of income, so the raise falls on the program, not on them. The few families paying full price are a rounding error.
@@ -75,14 +75,16 @@ Each part's options, with federal cost, cost to states, burden and the risk that
   - Health's own share is 50%. Keeping one rule across health and long-term care keeps states' payment to one formula.
   - The payment is a direct obligation on Medicare Part D's clawback model, which no court has tested (HLT-7.17). The larger it is, the larger the legal and political target.
   - If the settlement raises health's share, part B's should move with it (option 7).
-- **Why not lower for pre-K.**
-  - CBO assumed a third of children would live in states that declined Build Back Better's pre-K and child care [EV-CAR-587].
-  - Where a state declines here, HHS runs the program (memo 13 A) and pays all of it.
-  - At 60% with a third of states out, federal money pays about 73% of the cost, the same as 75% with everyone in, but with HHS running a third of the country.
+- **Child care and pre-K: what stops a state from declining.**
+  - Where a state declines, HHS runs the program (memo 13 A), so its children are still covered. On that rule alone, declining saves a state its whole share at no cost to its families, at 80%, 75% or any share. A state share is then voluntary in effect.
+  - This is a sharper risk than Build Back Better's: CBO assumed a third of children would live in states that declined it [EV-CAR-587], even though declining there left those children without the program.
+  - **Recommended: a state that declines still owes its share**, as a direct obligation collected by offset against federal payments, the same instrument as health's payment (HLT-7.17), with the same caveat that no court has tested it. HHS then runs the program with the state's money, and declining saves the state nothing.
+  - *If that obligation is not adopted, or fails in court,* the saving is at risk. With a third of states declining, the federal government pays about $87 billion of child care's $100 billion at maturity at an 80% share, against $90 billion at 90% with every state in. That keeps only about a third of the saving: about $0.03 trillion and $4 billion in FY2040, not $0.08 trillion and $13 billion. Pre-K at 75% would then cost about $64 billion rather than $57 billion.
+  - *Why not lower for pre-K:* at 60% the share a declining state saves is larger still, and without the obligation it is the likeliest to unravel.
 
 ## Further options to bring the cost down
 
-Each saving is against the middle column. Each is judgment unless tagged.
+Each saving is against the third column. Each is judgment unless tagged.
 
 | # | Option | Saves, FY2030-39 | Saves, FY2040 | Who loses what | Evidence |
 | --- | --- | --- | --- | --- | --- |
@@ -121,9 +123,10 @@ Each saving is against the middle column. Each is judgment unless tagged.
    - long-term care at 50%, as in health;
    - the bridge's wage floor at each state's bridge rate;
    - child care at 90%, then 80% after three years;
-   - pre-K unchanged at 75% after three years.
+   - pre-K unchanged at 75% after three years;
+   - a state that declines child care or pre-K still owes its share, collected as health's payment is.
 
-   Agree?
+   Agree? Without the last item, the child care saving is at risk if states decline (step 3).
 3. **Further options:** 2 (tier budgets), 3 (parity by 2038), 4 (phase-in over 2035-36) and 5 (residents' contribution), yes to each (recommended)? Options 1, 6 and 7 are not recommended.
 
 ## If you decide
