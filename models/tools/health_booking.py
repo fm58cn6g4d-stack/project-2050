@@ -63,6 +63,14 @@ RATE_RANGE_TN = (21.74 - 18.57, 24.92 - 21.74)
 # Medicaid long-term care kept in Medicaid (6-cost.md part 6, board row D-4c): nhe_mcd_ltc at 317 and 274, $T
 LTC_RANGE_TN = (21.74 - 21.40, 21.81 - 21.74)
 HALF_PASSTHROUGH_FY2040 = 370.0   # exclusion revenue lost at half pass-through, no contribution (review F-3), $B
+# HLT-7.16, help for insurance and billing workers, FY2033-38: about $0.06T (range 0.03-0.15; 6-cost.md part 2), spread
+# evenly; booked in B6 (the lead's brief, item 7), as part 5's open question 1 asked.
+WORKER_HELP = {y: 10.0 for y in range(2033, 2039)}
+# Federal coverage inside the employer cell (6-cost.md part 6): FEHB, TRICARE and the VA are priced as employer-group
+# movers. Central 2032 full-scale figures, $B, on the cell's exclusion revenue (excl_full, about $680B): the spending
+# line reads high by $65-130B (central 97.5), HX by $40-60B (central 50). Both scale with HX's moved-share path, so
+# the correction follows the employer groups as they move. Booked in B6 (item 7).
+FEDCOV_SPEND_2032, FEDCOV_REVENUE_2032 = 97.5, 50.0
 
 
 def _load(name, path):
@@ -124,6 +132,10 @@ def booking():
     hlt1 = fy({2030: hp["restore_cal"]})
     # HLT-7 spending line: the path's net cost plus the exclusion revenue it nets, less the restoration (HLT-1)
     spend = {y: hp["net"][y] + hp["excl"][y] - hlt1.get(y, 0.0) for y in W + [2040]}
+    # part 6's federal-coverage correction, on HX's path: less spending (a negative component) and less HX
+    xf = excl_full(hp)
+    fedcov = {y: -FEDCOV_SPEND_2032 / xf * hp["excl"][y] for y in W + [2040]}
+    hx = {y: hp["excl"][y] * (1 - FEDCOV_REVENUE_2032 / xf) for y in W + [2040]}
     terr_shape = {y: spend[y] for y in W + [2040]}     # the territories phase in on the waves (HLT-7.28)
     s = sum(terr_shape[y] for y in W)
     terr = {y: terr_shape[y] * TERRITORIES_TN * 1000 / s for y in W}
@@ -144,9 +156,10 @@ def booking():
     years = {
         "HLT-1": window(hlt1), "HLT-2": window(hlt2), "HLT-6": window(hlt6),
         "HLT-7/plan-spending": window(spend), "HLT-7/transition-fund": window(TRANSITION_FUND),
-        "HLT-7/territories": window(terr),
+        "HLT-7/territories": window(terr), "HLT-7/worker-help": window(WORKER_HELP),
+        "HLT-7/federal-coverage": window(fedcov),
         "HLT-4/children-continuous-coverage": window(kids), "HLT-4/medicaid-dental-and-bundle": window(dental),
-        "HX": window(hp["excl"]),
+        "HX": window(hx),
     }
     # The ledger keeps $1 billion ($0.001T; ledger-build.py rounds gf_mid to three places), so each row's ten-year
     # amount is its shape's sum rounded to that; the fiscal model scales the shape to it. Components keep $0.1 billion
@@ -172,7 +185,10 @@ def booking():
                                    ("transition-fund", amt["HLT-7/transition-fund"], 0.0),
                                    ("territories", amt["HLT-7/territories"],
                                     perm_for(B, F, {2039: years["HLT-7/territories"][-1]}, TERRITORIES_FY2040,
-                                             "out_health_other"))])
+                                             "out_health_other")),
+                                   ("worker-help", amt["HLT-7/worker-help"], 0.0),
+                                   ("federal-coverage", amt["HLT-7/federal-coverage"],
+                                    perm_for(B, F, {2039: years["HLT-7/federal-coverage"][-1]}, fedcov[2040]))])
     comps = {"HLT-7": c7}
     ledger = {
         "HLT-1": (r3(amt["HLT-1"]), r3(amt["HLT-1"]), r3(amt["HLT-1"] + 0.25)),   # HLT-1.03's provider-tax range, $0-0.25T
@@ -184,10 +200,13 @@ def booking():
         "HLT-8": HLT8_TN,
         "HX": (r3(amt["HX"] * (1 - HALF_PASSTHROUGH_FY2040 / hp["excl"][2040])), r3(amt["HX"]), r3(amt["HX"])),
     }
-    perms = {"HX": perm_for(B, F, {2039: years["HX"][-1]}, hp["excl"][2040])}
-    fy2040 = dict(spending=spend[2040], exclusion=hp["excl"][2040], contribution=hp["contribution"][2040],
-                  territories=TERRITORIES_FY2040, net=hp["net"][2040])
-    totals = dict(net_window=sum(hp["net"][y] for y in W) / 1000,
+    perms = {"HX": perm_for(B, F, {2039: years["HX"][-1]}, hx[2040])}
+    fy2040 = dict(spending=spend[2040], exclusion=hx[2040], contribution=hp["contribution"][2040],
+                  territories=TERRITORIES_FY2040, net=hp["net"][2040], federal_coverage=fedcov[2040],
+                  exclusion_before_correction=hp["excl"][2040])
+    fedcov_net = (sum(fedcov[y] for y in W) + sum(hp["excl"][y] - hx[y] for y in W)) / 1000
+    totals = dict(net_window=sum(hp["net"][y] for y in W) / 1000, federal_coverage_net=fedcov_net,
+                  worker_help=sum(WORKER_HELP.values()) / 1000,
                   with_contribution=(sum(hp["net"][y] for y in W) - sum(hp["contribution"][y] for y in W)) / 1000,
                   contribution_window=sum(hp["contribution"][y] for y in W) / 1000)
     hlt4_path = [round(part["safety_net"][y] + kids[y] + dental[y], 2) for y in W]   # health's parts of HLT-4

@@ -94,9 +94,15 @@ class HealthBooking(unittest.TestCase):
     def test_net_cost_is_the_dossiers(self):
         t = lambda p: sum(p[y] for y in W) / 1000  # noqa: E731
         hx = fiscal.row_path(self.base, -self.rev["HX"]["mid"], fiscal.PR.REVENUE["HX"], "HX")
-        net = t(self.path("HLT-1")) + t(self.part("HLT-7", "plan-spending")) + t(hx)
-        self.assertAlmostEqual(net, self.b["totals"]["net_window"], delta=0.002)
-        self.assertAlmostEqual(round(net, 2), 21.74)
+        fedcov = t(self.part("HLT-7", "federal-coverage"))
+        net = t(self.path("HLT-1")) + t(self.part("HLT-7", "plan-spending")) + fedcov + t(hx)
+        # the dossier's $21.74T, less part 6's federal-coverage correction (FEHB, TRICARE and the VA; B6 item 7)
+        self.assertAlmostEqual(net, self.b["totals"]["net_window"] + self.b["totals"]["federal_coverage_net"], delta=0.002)
+        self.assertAlmostEqual(round(self.b["totals"]["net_window"], 2), 21.74)
+        self.assertAlmostEqual(self.b["totals"]["federal_coverage_net"], -0.365, delta=0.005)   # part 6: $0.2-0.5T high
+        self.assertLess(fedcov, 0)
+        self.assertAlmostEqual(t(self.part("HLT-7", "worker-help")), 0.06, places=9)   # HLT-7.16, FY2033-38
+        self.assertEqual(self.part("HLT-7", "worker-help")[2040], 0)
         self.assertAlmostEqual(round(self.b["totals"]["with_contribution"], 2), 16.43)
 
     def test_contribution_is_not_booked(self):

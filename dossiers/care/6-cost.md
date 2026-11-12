@@ -164,7 +164,7 @@ GDP is the budget model's ($54,167 billion in FY2040). Health's net cost is near
 
 **The employer contribution is reported, not booked.** At 65% it yields **$1,061 billion net in FY2040** and about $5.31 trillion over FY2030-39 (part 4). It stays off the books until the settlement sets its share (HLT-7.18; review F-4, item 3), and `test_fiscal_health.py` checks that no contribution row is booked. When it is booked, it must be booked **net of the exclusion revenue it displaces**: the contribution's gross $1,006 billion (2032) is money employers no longer pay as wages, so HX must fall by the tax on it, about $314 billion in 2032. HX assumes full pass-through: every former premium not paid as the contribution becomes taxable pay. Without that reduction, the same premium dollars would be counted twice, once as wages taxed through HX and once as the contribution.
 
-**Why the totals differ from the all-in reading in part 2.** The booked general-fund FY2030-39 total, $22.55 trillion, is part 2's $21.9 trillion plus HLT-4 ($0.50 trillion, which part 2 leaves to part B), plus the Advantage fix's Part A share ($0.22 trillion), which goes to HI rather than the general fund, and less worker help (HLT-7.16, about $0.06 trillion over FY2033-38), which has no booked row. Worker help ends before FY2040, so it does not touch the FY2040 figures. It goes in the next tier-3 change to the health rows.
+**Why the totals differ from the all-in reading in part 2.** The booked general-fund FY2030-39 total, $22.55 trillion, is part 2's $21.9 trillion plus HLT-4 ($0.50 trillion, which part 2 leaves to part B), plus the Advantage fix's Part A share ($0.22 trillion), which goes to HI rather than the general fund, and less worker help (HLT-7.16, about $0.06 trillion over FY2033-38), which has no booked row. Worker help ends before FY2040, so it does not touch the FY2040 figures. Since budget B6 item 7 it is booked (a component of HLT-7), with part 6's federal-coverage correction: together they take the booked FY2030-39 total down by about $0.31 trillion net ($0.06 trillion more for worker help, $0.37 trillion less for federal coverage) and FY2040 down by about $73 billion.
 
 **What the booking does not yet correct** (each labeled on its row):
 1. **FEHB, TRICARE and the VA** are priced as employer-group movers (part 4), so HLT-7 and HX read high. Part 6 bounds it: net cost high by about $35-105 billion in FY2040.
@@ -210,7 +210,7 @@ The payment rate dominates, as memo 5 said: each 0.1 of the target moves FY2040 
 - **Net federal cost reads high by about $25-70 billion in 2032 and $35-105 billion in FY2040.** That is 0.8-2.5% of the $4,157 billion, and about $0.2-0.5 trillion over FY2030-39 (employer groups move from 2033).
 - **Timing.** FEHB moves at the endpoint (HLT-7.26), not in wave 2 as the model has it. This shifts some of the cost later within the window but does not change FY2040.
 
-The range is smaller than one step of 0.05 in the target rate, and no decision turns on it. The correction (lower HLT-7 and HX by the central figures) goes in the next tier-3 change to the health rows. Until then, the rows stay labeled as overstated.
+The range is smaller than one step of 0.05 in the target rate, and no decision turns on it. **Booked** (budget B6 item 7): HLT-7 and HX are lowered by the central figures on HX's moved-share path (`models/tools/health_booking.py`, `FEDCOV_SPEND_2032` and `FEDCOV_REVENUE_2032`): HLT-7's new federal-coverage component is -$0.75 trillion over FY2030-39 and about -$150 billion in FY2040, HX is $0.38 trillion and about $77 billion lower, so the net cost is $0.37 trillion and about $73 billion lower. The timing point stays as stated (FEHB moves at the endpoint); it does not change FY2040.
 
 ## 7. Commitment, assumption or open question
 
@@ -227,5 +227,5 @@ At full scale households stop paying about $1.55 trillion a year in premiums and
 ## Open questions
 
 None for Espen: the hospital fund was decided in `DEC-2026-11-10-13`.
-1. **For the lead (booking, tier 3):** booked in PR #230. Two corrections wait for the next tier-3 change to the health rows: worker help (HLT-7.16, about $0.06 trillion over FY2033-38, not booked) and the federal-coverage overstatement (part 6).
+1. **For the lead (booking, tier 3):** booked in PR #230. The two corrections that waited are booked in budget B6 item 7: worker help (HLT-7.16, $0.06 trillion over FY2033-38, a component of HLT-7) and the federal-coverage overstatement (part 6).
 2. **For the settlement:** the employer contribution's share and the date the payroll contribution replaces it; the states' share, and the hold-harmless fallback if the payment cannot be enforced (HLT-7.17; about $225 billion in 2032); the new revenue of about $2.0 trillion (2032 full scale) to $3.1 trillion (FY2040), or about $0.1 trillion more on either if less of the former premiums passes into pay.

@@ -17,9 +17,10 @@ class LedgerPrecision(unittest.TestCase):
         values = [r['mid'] if r['id'] != 'MR6' else -0.1283 for r in rows]
         # 5.99 until Oct 26; the $150-by-2037 carbon price (Espen, Oct 26) raises the CX offset from -0.38 to -0.49;
         # 5.88 until MR6, Moving America's 25% offset, was booked on the general fund as CX (transportation review F-1);
-        # 5.75 until HX, the health plan's exclusion revenue ($5.22T), was booked (care review F-4)
-        self.assertEqual(money_sum(values), 10.97)
-        self.assertEqual(money_sum(reversed(values)), 10.97)
+        # 5.75 until HX, the health plan's exclusion revenue ($5.22T), was booked (care review F-4);
+        # 10.97 until part 6's federal-coverage correction took HX to $4.84T (budget B6 item 7)
+        self.assertEqual(money_sum(values), 10.58)
+        self.assertEqual(money_sum(reversed(values)), 10.58)
 
 
 if __name__ == '__main__':
