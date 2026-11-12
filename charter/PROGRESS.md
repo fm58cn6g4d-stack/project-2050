@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6). Every session updates it before opening its PR. Status: current. It replaces `legacy/sources/project-work-queue.md` as the place to claim work.
 
-Updated November 12, 2026 by Claude Code (lead handoff and reviewer handover by the lead, session_01UQzgBtThMM4483EL9swRwN; row I3 and question 0p by session_01UQzgBvx3UgY7a8LFWoLS1B; overnight relay status, known gaps and settlement notes by the lead; rows I1 and I2 by session_01UQzgBt6Jjbyu4wDmDyRynR; care B-D L3 close-out by the lead; row D-9r by session_01UQzgBwgfnP2AgerLpBpSRY; row D-9 fixes by session_01UQzgBw9VK9o3iPPDppbRg7; lead and reviewer handovers by the lead, session_01UQzgBtThMM4483EL9swRwN; row S3 and question 0o by session_01UQzgBxGSYkH2YdPWGsWBZD; rows S1 and S2 by session_01UQzgBuXeG7aix1nxZ4BSPj; row D-8 and question 0n by session_01UQzgBtrKPVAL3VreiLC2LW; reviewer handover and Espen's working notes by the lead; row D-5b and question 0k by session_01UQzgBt53ayYjwUAXoC1wt9; row D-6 and question 0l by session_01UQzgBwaJJapkFEG41mMoYd; row D-4c's result by session_01UQzgBwih5DpgWjExQDtGAp; rows D-4b, D-4c and D-5 by the lead; row D-5 and question 0k by session_01UQzgBthpuYKGXWpEpmuMzj; lead handoff to session_01UQzgBwthb9wvzFajiwYkhG; row D-4r by session_01UQzgBupQZyXMABBVLAHyji; stage C review and known gaps by the lead, session_01UQzgBtSLEoy7fgPMAW76LL; stage D care rows by session_01UQzgBteuY7VHnyGhjMpgaF; lead handoff; row 4j by session_01UQzgBvSpaCT7ye9hJyhFCR; row 6 fix step 1 and the reviewer change by the fix-step-1 worker; row 6 fix step 7 and the housing close-out by session_01UQzgBsm7aCCDHvH83imA21).
+Updated November 12, 2026 by Claude Code (lead takeover by the lead, session_01UQzgBtrMsAhWpEyfRAzn6W; lead handoff and reviewer handover by the lead, session_01UQzgBtThMM4483EL9swRwN; row I3 and question 0p by session_01UQzgBvx3UgY7a8LFWoLS1B; overnight relay status, known gaps and settlement notes by the lead; rows I1 and I2 by session_01UQzgBt6Jjbyu4wDmDyRynR; care B-D L3 close-out by the lead; row D-9r by session_01UQzgBwgfnP2AgerLpBpSRY; row D-9 fixes by session_01UQzgBw9VK9o3iPPDppbRg7; lead and reviewer handovers by the lead, session_01UQzgBtThMM4483EL9swRwN; row S3 and question 0o by session_01UQzgBxGSYkH2YdPWGsWBZD; rows S1 and S2 by session_01UQzgBuXeG7aix1nxZ4BSPj; row D-8 and question 0n by session_01UQzgBtrKPVAL3VreiLC2LW; reviewer handover and Espen's working notes by the lead; row D-5b and question 0k by session_01UQzgBt53ayYjwUAXoC1wt9; row D-6 and question 0l by session_01UQzgBwaJJapkFEG41mMoYd; row D-4c's result by session_01UQzgBwih5DpgWjExQDtGAp; rows D-4b, D-4c and D-5 by the lead; row D-5 and question 0k by session_01UQzgBthpuYKGXWpEpmuMzj; lead handoff to session_01UQzgBwthb9wvzFajiwYkhG; row D-4r by session_01UQzgBupQZyXMABBVLAHyji; stage C review and known gaps by the lead, session_01UQzgBtSLEoy7fgPMAW76LL; stage D care rows by session_01UQzgBteuY7VHnyGhjMpgaF; lead handoff; row 4j by session_01UQzgBvSpaCT7ye9hJyhFCR; row 6 fix step 1 and the reviewer change by the fix-step-1 worker; row 6 fix step 7 and the housing close-out by session_01UQzgBsm7aCCDHvH83imA21).
 
 ## Standing sessions
 
@@ -10,11 +10,12 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
-| Lead | `session_01UQzgBtThMM4483EL9swRwN` | Project 2050: lead | November 12 (from about 03:15 UTC) |
+| Lead | `session_01UQzgBtrMsAhWpEyfRAzn6W` | Project 2050: lead | November 12 (from about 07:50 UTC) |
 | Reviewer | `session_01UQzgBufZFsrJoyrRZhNoe2` | Project 2050: reviewer | November 12, about 07:45 UTC; woken by the reviewer scheduled task `trig_01UGd1S6Vd2wFQ8UphVYMje7` (older tasks `trig_015B7as7TqisfoWUtSJ9EWTQ`, `trig_019tVnwU5ZoESntso3XmuJ1x`, `trig_012Z7PTs2E1GqeqJcmybLXc6`, `trig_015EmnThrjyxP9fc1C1M1TQx`, `trig_01FZTMijXSFbmgJQqdmwxtkN`, `trig_01Ev3YUmoFDLvTk2Negkwi9u` and `trig_01QPXBRZzoMHhTSs3k8PAAuP` are disabled). Codex reviews again; ask it by PR comment where its review matters (budget model milestones) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 **Former standing sessions**
+- Lead `session_01UQzgBtThMM4483EL9swRwN`: the overnight relay; care parts B-D's milestone review, fixes, L3 close-out and booking; the secure floor's S1-S3; stage E's start with immigration I1-I3; two reviewer handovers; November 12.
 - Reviewer `session_01UQzgBwfcHa4zjG9SpjSeAf`: PRs #257 to #268; November 12.
 - Reviewer `session_01UQzgBxCFn7vF7KD8QH1G6d`: PRs #242 to #256 (and #252's pass in flight at the handover); November 11 to 12.
 - Lead `session_01UQzgBwthb9wvzFajiwYkhG`: care parts B-D from research to decisions and repricing, the part B audit and revision, the health long-term care fix, a reviewer handover, the secure floor's start; November 11 to 12.
@@ -31,7 +32,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
 - Reviewer `session_01UQzgBtEveznkR76gmgDdVm`: PRs #133 to #144; November 9.
 - Reviewer `session_01QHgvhVvafmiGMqU7Vewnst`: October 26 to 29.
 
-**Lead handoff (November 12, 2026, about 07:50 UTC)** from `session_01UQzgBtThMM4483EL9swRwN` (context near 600,000 tokens; lineage depth 2, so the strategy session starts the successor). The new lead puts its own ID in the Standing sessions table in its first board PR and moves this session to "Former standing sessions" (lead, November 12: the overnight relay; care parts B-D's milestone review, fixes, L3 close-out and booking; the secure floor's S1-S3; stage E's start with immigration I1-I3; two reviewer handovers).
+**Lead handoff (November 12, 2026, about 07:50 UTC)** from `session_01UQzgBtThMM4483EL9swRwN` (context near 600,000 tokens). The strategy session started the new lead, `session_01UQzgBtrMsAhWpEyfRAzn6W`, which holds the role (Standing sessions table above); the sessions below report to it.
 - **Done overnight.**
   - Care parts B-D: sections 4-9 (#254, #259), the independent milestone review (#260), its fixes (#261, #262), L3 for HLT-4, HLT-9, HLT-10, HLT-11, FAM-2 and FAM-2G (#263). About $3,665B over FY2030-39 and $751B in FY2040 all-in.
   - The care booking (#265) and the paid-leave ceiling to 1.10% (#266): tier 3, approved by the reviewer, **waiting on Espen's label**. Whichever merges second needs its branch updated and `run-all.sh --write` (author `session_01UQzgBurUqaj6PdgXET17ig`). After #265 the plan-wide FY2040 general-fund gap is about $4,255B short (part C in EDU-9B) or $4,425B (part C on the general fund); EDU-9B runs short in 2035 at 1.4 points (Known gaps).
@@ -44,7 +45,7 @@ Who holds each long-running role (`.claude/skills/sessions/SKILL.md`, "Roles" an
   - `session_01UQzgBxGSYkH2YdPWGsWBZD`: secure floor S3 author, done.
   - Finished, no further work: `session_01UQzgBw9VK9o3iPPDppbRg7` (D-9, about 630,000 tokens), `session_01UQzgBwgfnP2AgerLpBpSRY` (D-9r), `session_01UQzgBuXeG7aix1nxZ4BSPj` (S1-S2), `session_01UQzgBt6Jjbyu4wDmDyRynR` (I1-I2).
   - `session_01UQzgBvk1RmZgu8yMjAx9Vn`: the November 8 B6 worker, idle at about 505,000 tokens; its handoff is #132's comment.
-- **Open PRs:** #265, #266 (tier 3, for Espen) and this handoff PR. **Scheduled check-in bound to the lead:** `trig_01HqS5rFHNWtxmo1DtCXMARW` is spent; the outgoing lead re-arms one hourly until the handover, and the new lead recreates it for itself and disables the old one.
+- **Open PRs:** #265, #266 (tier 3, for Espen). **Scheduled check-in bound to the lead:** `trig_01Ba8WmHDzhcZ1JjAWxtJi9s` (08:50 UTC, re-armed hourly by the lead); the outgoing lead's `trig_01QZEiJtGeHo5DAyooQ7htju` is disabled.
 - **Waiting on Espen** (numbered, for the morning): 1. question 0o (secure floor); 2. question 0p (immigration); 3. labels on #265 and #266; 4. optional: Firecrawl credits (web quote checks failed overnight; credits reset about 03:52 UTC daily).
 - **Next, in order.**
   1. When Espen labels #265 and #266: update the branches at once; the second needs `run-all.sh --write` from its author.
