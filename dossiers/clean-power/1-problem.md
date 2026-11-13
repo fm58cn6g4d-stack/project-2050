@@ -66,7 +66,32 @@ Role: section 1 of the clean power dossier: what is wrong, for whom and how larg
 
 ## F. The baseline in January 2029
 
-LAW_TABLE_PLACEHOLDER
+How the law will stand when the plan begins, counting enacted laws with later dates. "Gone" means no longer available for new projects or purchases by January 2029.
+
+| Area | Law in January 2029 | Evidence |
+| --- | --- | --- |
+| Household credits | Gone: the rooftop solar and battery credit (25D) and the home efficiency credit (25C) ended after 2025; the EV charger credit (30C) after June 30, 2026 | [EV-CLP-225] [EV-CLP-226] |
+| Vehicle credits | Gone: new, used and commercial clean vehicle credits (30D, 25E, 45W) ended for vehicles bought after September 30, 2025 | [EV-CLP-224] |
+| Wind and solar power credits | Gone for new projects: 45Y and 48E apply only if construction began by July 4, 2026 or the project is in service by the end of 2027, under a strict physical-work test; foreign-entity limits from 2026 | [EV-CLP-220] [EV-CLP-221] [EV-CLP-235] [EV-CLP-223] |
+| Other clean power and storage | Kept: nuclear, geothermal, hydro and storage keep full credits for construction starting through 2033, then 75%, 50% and none | [EV-CLP-222] |
+| Industry and fuels | 45X kept, but not for wind components after 2027, and critical minerals phase out in 2031-33; hydrogen (45V) only for construction before 2028; carbon capture (45Q) kept; clean fuels (45Z) to 2029; the existing-nuclear credit (45U) to 2032 | [EV-CLP-228] [EV-CLP-227] [EV-CLP-229] [EV-CLP-230] |
+| Grants | The Greenhouse Gas Reduction Fund repealed and unobligated IRA balances rescinded; DOE terminated awards worth about $11 billion in 2025 | [EV-CLP-231] [EV-CLP-440] [EV-CLP-438] |
+| Methane | The methane charge delayed to 2034 and EPA's rule for it disapproved | [EV-CLP-232] [EV-CLP-233] |
+| Clean Air Act | The 2009 endangerment finding and all vehicle greenhouse standards rescinded (effective April 2026); most 2024 power plant carbon standards repealed (effective November 2026); both under challenge, with no ruling expected before 2027 | [EV-CLP-240] [EV-CLP-244] [EV-CLP-242] [EV-CLP-246] [EV-CLP-243] |
+| Permitting | **Open.** The Senate took up the bipartisan permitting package (S. 5653's text, on H.R. 2347) on November 10, 2026; cloture votes come on November 16; the House passed its own bill (the SPEED Act) in 2025. The Supreme Court narrowed environmental review in *Seven County* (2025) | [EV-CLP-258] [EV-CLP-259] [EV-CLP-261] [EV-CLP-251] [EV-CLP-250] |
+| Paris Agreement | The United States withdrew, effective January 27, 2026 | [EV-CLP-117] |
+| Disaster and flood | NFIP authorized only to December 11, 2026, by short extensions; BRIC ended and reinstated by court order with $1 billion offered | [EV-CLP-608] [EV-CLP-603] |
+| Energy assistance | LIHEAP funded year to year at about $4 billion, with the administration proposing to end it | [EV-CLP-035] |
+
+**What this means for the plan.** In January 2029 the plan does not "restore" credits that are still running; it starts them again, for projects and buyers who have had none for three years. The IRA's projected cost had already risen well above its 2022 score before the repeal (from $271 billion to about $800 billion over a decade, CBO 2024) [EV-CLP-200] [EV-CLP-201], so any restoration has to be priced on today's take-up, not 2022's. And the permitting law the legacy design treated as settled may or may not exist: section 3 plans for both cases.
+
+**The permitting package, as introduced** (it was amended on November 7, and the final text is not yet known [EV-CLP-263] [EV-CLP-266]):
+- shorter, narrower court review of environmental challenges [EV-CLP-253];
+- federal siting authority for some interstate transmission lines [EV-CLP-254];
+- rules on how data centers pay for the grid [EV-CLP-257];
+- a "permit certainty" section that bars agencies from revoking permits of fully permitted projects and pays damages of 25-50% of project costs from the Judgment Fund, a permanent appropriation [EV-CLP-255] [EV-CLP-256]. The amended text narrows that section [EV-CLP-266] [EV-CLP-264]. That section is the one that matters most for this dossier, because it could make a later clean power standard or plant retirement a damages event for the federal budget.
+
+One analyst firm cut its odds of the package passing to about 25% after the midterms [EV-CLP-265] (a market estimate, not evidence).
 
 ## G. The legacy record, restated
 
