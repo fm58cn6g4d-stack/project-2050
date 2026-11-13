@@ -64,7 +64,7 @@ All in `params.py` (parameters) and `tax.py` (calculator); 2025 values are the l
 - **Inputs:** the budget model's `ledger.json` (each provision's FY2030-39 amount) and the adopted `incidence-rows.csv`, which books each row as a formula over ledger IDs and splits it across incidence keys (both read only).
 - **Keys** (`keys.csv`): for each key, `micro` measures its shares on the 2029 baseline households (a household field, or a rule computed tax unit by tax unit in `rules.py`), and `legacy` keeps the typed key, with the reason.
 - **Measured in part 1:** 14 keys. Earnings and capped earnings; people and adults; FAM-1's child benefit (the American Family Act's credit less today's child and other-dependent credits, household by household); housing assistance; Medicaid and marketplace coverage; Medicare (three keys); employer coverage; Social Security; energy assistance; and C20's surtax base.
-- **Kept, with the reason in `keys.csv`:** 27 keys, where the CPS cannot see the base: consumption and excises, capital and corporate income, the top-end taxes and the health coverage model's own keys.
+- **Kept, with the reason in `keys.csv`:** 29 keys, where the CPS cannot see the base: consumption and excises, capital and corporate income, the top-end taxes and the health coverage model's own keys.
 - **The top 1%:** for earnings and the surtax, the top 1%'s share is the legacy key's, because the CPS top-codes high incomes. It finds 9% of earnings and 28% of the surtax base in the top 1%, against the legacy 12% and 55%.
 - **Outputs:** net dollars per household per year, FY2030-39 average, by group, for every scenario, in the legacy model's arithmetic. They are divided by the model's mid-window household count: the CPS count grown to FY2034-35 with CBO's household growth, 147.1 million against the legacy 140 million.
 - **Poverty effects** need a provision as a rule (`rules.py`), not a key; part 1 has two rules. The secure floor's INC-1 to INC-5 join in part 2.
@@ -124,8 +124,8 @@ Scenario Q (the decided package), net dollars per household per year, FY2030-39 
   - move the legacy reports out of `legacy/`;
   - the year-by-year profiles;
   - INC-1 to INC-5 as rules with incidence keys;
+  - SNAP's 2025 changes in the baseline (A-8), before the ceiling check, which depends on them;
   - the 65-cent ceiling check with every plan layer;
-  - SNAP's 2025 changes in the baseline;
   - replicate-weight intervals.
 
 ## How to run
