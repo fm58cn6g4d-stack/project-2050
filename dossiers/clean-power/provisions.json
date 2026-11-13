@@ -771,7 +771,7 @@
   "decisions": [
    "DEC-2026-11-13-07"
   ],
-  "parameters": "A new load of 20 MW or more, or new service of that size at an existing large load, pays for the generation capacity and the wires its connection requires, under tariffs the state commission or FERC approves, in every market, ERCOT included. Other customers' rates may not carry those costs",
+  "parameters": "A new load of 20 MW or more, or new service of that size at an existing large load, pays for the generation capacity and the wires its connection requires, under tariffs the state commission or FERC approves, in every market. In ERCOT, where FERC has no rate jurisdiction, the act directs the Public Utility Commission of Texas to apply the same rule to every ERCOT utility's large-load tariffs, as a condition of the federal grid money and credits that reach ERCOT projects (working choice; the legacy grid statute's clarification that the large-load floor reaches ERCOT utilities). Other customers' rates may not carry those costs",
   "eligibility": "",
   "vehicle": [
    {

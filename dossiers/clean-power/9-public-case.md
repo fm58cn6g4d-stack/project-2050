@@ -39,7 +39,7 @@ Americans are paying more for power, more for insurance and more after every sto
 - **"Canada tried a carbon tax with a rebate and dropped it."** Canada dropped the charge on consumers and kept the price on large emitters (Government of Canada, 2025) [EV-CLP-310]. This plan is the part Canada kept.
 - **"Will my electric bill go up?"** Somewhat, at first, as the price and the clean power standard take hold; the cap on what utilities pay under the standard limits it, and that money goes back to lower- and moderate-income households. On our estimates, the lowest-income two-fifths of households come out ahead on the price and the dividend alone, before the bill credit (section 7).
 - **"What does it cost?"** About $1.85 trillion over ten years on our estimates, close to what the budget already carries for these purposes; the plan's financing is set in one place for the whole plan (section 6).
-- **"Does it meet the climate goals?"** Not by 2035 on its own, and we say so. On our estimates it cuts energy emissions to roughly 42-48% below 2005 by 2035 (section 7), against a national goal of 61-66% (Congressional Research Service) [EV-CLP-116]. It puts the country on the path to net zero by 2050 and requires the government to publish the count every year.
+- **"Does it meet the climate goals?"** Not by 2035 on its own, and we say so. On our estimates it cuts energy emissions to roughly 40-48% below 2005 by 2035 (section 7), against a national goal of 61-66% (Congressional Research Service) [EV-CLP-116]. It puts the country on the path to net zero by 2050 and requires the government to publish the count every year.
 - **"Who pays if a hurricane overwhelms insurers?"** Insurers and premiums first. The federal backstop starts only above a once-in-a-century loss, is capped at $150 billion, and is paid back afterward (section 4).
 
 ## Stories (composite illustrations, not real people)
@@ -81,7 +81,7 @@ Americans are paying more for power, more for insurance and more after every sto
 | Cost of the set | about $1.85 trillion (2030-39); about $147 billion a year from 2040 | 6, parts 1 and 4 | Project arithmetic (`tools/clean_power_path.py`) |
 | Guarantee's cost | about $12 billion over ten years | 6, part 1 | Project arithmetic; working assumption |
 | Low-income households ahead on the carbon channel | bottom two-fifths ahead in 2035 | 7, part 4 | The carbon model read; EV-CLP-707 |
-| Emissions in 2035 | roughly 42-48% below 2005 | 7, part 5 | EV-CLP-704, EV-CLP-715; judgment between them |
+| Emissions in 2035 | roughly 40-48% below 2005 | 7, part 5 | EV-CLP-704, EV-CLP-715; judgment, widened below the legacy package for buildings left unpriced until the clean-heat standard |
 | The national 2035 goal | 61-66% below 2005 | 4 (CLI-14.01) | EV-CLP-116 |
 | Canada kept the large-emitter price | 2025 | 2 | EV-CLP-310 |
 | Reinsurance cap | $150 billion, above a 1-in-100-year loss | 4 (CLI-7C.01) | EV-CLP-718 |
