@@ -84,7 +84,7 @@
     "models/data/inputs/recovery-adoption.json": "55e581ef7b0898d7997b4e3c98540a97db16b0fefc65aa89d528684f76a69b0b",
     "models/tools/recovery-budget/assumptions.json": "a79f624e3374f66d373a33f10d59fd5dbcde1280d8e8981be54a258cd269b8b3",
     "build/fiscal-model.json": "439f7d9f593819eb811ee71f88983bfd5a3eeae94e4c103bbbdb42c8feaf534f",
-    "build/ledger.json": "44926e52bd6f69199bba591c71c4c1a9efaa9ebe149c1ef1bb034110bfd75a2b",
+    "build/ledger.json": "90e2aa6c131b3bca3c333adf0fe43b0961f6ec29700257c8b2aa7d90c97d0115",
     "models/tools/fiscal-profiles.py": "15a53d287ac41db1d8b7d2f71267202882fb714e41c16b046f0f29611e69b3fc",
     "models/tools/funds-model.py": "ef2ca523c7e83bdfa5187cb910bc6140f5b059351f11d32e1862b560b8ac0e07",
     "legacy/sources/education-transforming-education-act-analysis-and-trust-fund.md": "650339290894199f44c0450abfc89292fb9537810baf5aed5f0ce5fbd914625c",

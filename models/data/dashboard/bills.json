@@ -554,7 +554,7 @@
   "own_revenue": 0,
   "net_mid": 0.005,
   "basis": "estimate",
-  "basis_note": "Secure floor booking (dossiers/secure-floor/6-cost.md part 6 item 2; DEC-2026-11-12-06): INC-4.01 (point 7), rescoped by Espen on November 13 (option B) to care neither the child care guarantee nor the school-age block grant (CCDF) pays: the household model measures $0.34B in 2029 (models/tools/household/results.md section 6), plus judgment for adult care and under-reported spending, less take-up: central $0.5B in tax year 2030 (range $0.2-1.0B), paid from FY2031, growing 2.5%; FY2040 $0.6B (was $4.5B and $5.6B); year-by-year shape in fiscal-years.csv",
+  "basis_note": "Secure floor booking (dossiers/secure-floor/6-cost.md part 6 item 2; DEC-2026-11-12-06): INC-4.01 (point 7), rescoped by Espen on November 13 (option B, DEC-2026-11-13-04) to care neither the child care guarantee nor the school-age block grant (CCDF) pays: the household model measures $0.34B in 2029 (models/tools/household/results.md section 6), plus judgment for adult care and under-reported spending, less take-up: central $0.5B in tax year 2030 (range $0.2-1.0B), paid from FY2031, growing 2.5%; FY2040 $0.6B (was $4.5B and $5.6B); year-by-year shape in fiscal-years.csv",
   "floor_days": 0,
   "felt_months": 26,
   "durability": 72,
