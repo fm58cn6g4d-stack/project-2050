@@ -13284,5 +13284,126 @@
     "stance": "supports"
    }
   ]
+ },
+ {
+  "id": "EV-CAR-713",
+  "statement": "Sanders's options paper proposes a 7.5 percent income-based premium paid by employers, with an employer's first $2 million of payroll exempt, and a 4 percent income-based premium paid by households, which families of four earning less than $29,000 would not pay.",
+  "claim": "data",
+  "figures": [
+   "7.5 percent",
+   "$2 million",
+   "4 percent",
+   "$29,000"
+  ],
+  "source": "SRC-3041",
+  "anchor": [
+   "7.5 percent income-based premium paid by employers",
+   "An employer’s first $2 million in payroll would be exempt from this premium",
+   "4 percent income-based premium paid by households",
+   "families of four making less than $29,000 a year would not pay this premium"
+  ],
+  "locator": "Options to Save Families and Businesses on Health Care Expenses",
+  "grade": "A",
+  "fact_date": "2019",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Office of Sen. Bernie Sanders, the lead sponsor of S. 1506. The PDF is undated; its text cites 2016 premiums and 2014 tax data, so it was written in 2017-19, before the 2025 bill, and the Senate site holds no later version (searched November 13, 2026). A statement of the sponsor's proposal, graded A as the text of what the paper says, not as evidence of its effects. The bill itself (SRC-3260) levies none of these.",
+  "supports": [
+   "dossiers/foundations/checkpoint-financing.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-714",
+  "statement": "Sanders's options paper claims ten-year revenue of $3.9 trillion for the employer premium, $3.5 trillion for the household premium, $4.2 trillion from ending health tax expenditures and $1.8 trillion from a more progressive personal income tax.",
+  "claim": "analysis",
+  "figures": [
+   "$3.9 trillion",
+   "$3.5 trillion",
+   "$4.2 trillion",
+   "$1.8 trillion"
+  ],
+  "source": "SRC-3041",
+  "anchor": [
+   "Revenue raised: $3.9 trillion over ten years.",
+   "Revenue raised: $3.5 trillion over ten years.",
+   "Revenue raised: $4.2 trillion over ten years.",
+   "Revenue raised: $1.8 trillion over ten years."
+  ],
+  "locator": "Options to Save Families and Businesses on Health Care Expenses; Make the Personal Income Tax More Progressive",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "The sponsor's own estimates, with a stake in the answer; the paper gives no method, base year or source for them. The paper's own total for the ten options is about $16.2 trillion, the sum of its figures (project arithmetic). Two independent scorers, CRFB (EV-CAR-715) and the Tax Policy Center (EV-CAR-716), scored a later (February 2020) version of the options, not these figures, so they qualify them rather than confirm them; the household premium, employer premium and exclusion figures differ between versions (CRFB: $4.0, $5.2 and $3.0 trillion). Rely on the paper only for what it proposes.",
+  "supports": [
+   "dossiers/foundations/checkpoint-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-715",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-716",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-715",
+  "statement": "The Committee for a Responsible Federal Budget concurred with the Sanders campaign's February 2020 estimate of $12.2 trillion for three direct offsets (a household income premium, an employer payroll tax and ending health tax breaks), but its own estimate for the employer tax was $4 trillion against the campaign's $5.2 trillion, a gap it attributes to how interactions are distributed.",
+  "claim": "analysis",
+  "figures": [
+   "$12.2 trillion",
+   "$4 trillion",
+   "$5.2 trillion"
+  ],
+  "source": "SRC-3045",
+  "anchor": [
+   "The Sanders campaign estimates these policies would raise $12.2 trillion – and we concur with these estimates.",
+   "While we previously estimated it would raise $4 trillion, the difference is due to choices over how to distribute interactions – we concur with the $5.2 trillion estimate using the campaign’s method."
+  ],
+  "locator": "Sanders Direct Offsets",
+  "grade": "C",
+  "fact_date": "2020-02-26",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Committee for a Responsible Federal Budget: nonpartisan, a deficit-reduction advocate, no stake in Medicare for All passing. It scored the campaign's February 24, 2020 version of the options, a later version than the undated paper, and it concurs using the campaign's own method, so it is partial corroboration. Five years old; the 2025 law changed the tax base.",
+  "supports": [
+   "dossiers/foundations/checkpoint-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-714",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-716",
+  "statement": "The Tax Policy Center estimated that the Sanders provisions earmarked for Medicare for All (a household premium, an employer payroll tax, ending the health tax breaks and higher income and estate taxes) would raise $13.4 trillion from 2021 to 2030.",
+  "claim": "analysis",
+  "figures": [
+   "$13.4 trillion",
+   "4.9 percent",
+   "2021 to 2030"
+  ],
+  "source": "SRC-3078",
+  "anchor": "The provisions earmarked for Medicare for All would raise even more revenue: $13.4 trillion or 4.9 percent of GDP from 2021 to 2030.",
+  "locator": "Revenue Effects",
+  "grade": "C",
+  "fact_date": "2020-03-19",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Urban-Brookings Tax Policy Center: nonpartisan; the campaign declined to answer its questions, so TPC assumed some details (the 4 percent premium as a flat surcharge on taxable income). It scores the plan as of February 28, 2020, over 2021-30 and before the 2025 law. Its earmarked set is broader than the paper's five main items, so the totals are close but not like for like: the paper's own figures for the five (employer premium, household premium, health tax breaks, progressive income tax, estate tax) add to about $13.65 trillion (project arithmetic).",
+  "supports": [
+   "dossiers/foundations/checkpoint-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-714",
+    "stance": "qualifies"
+   }
+  ]
  }
 ]

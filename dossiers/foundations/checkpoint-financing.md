@@ -86,3 +86,55 @@ The settlement also picks up the items dossiers sent it:
 - transportation's fuel-tax path (`DEC-2026-11-10-14`);
 - HOU-2D's revenue row;
 - the rebuild of the financing screens in `models/tools/financing-protection/`.
+
+## 6. How the Medicare for All bills propose to pay, beside this plan
+
+A comparison only. It changes no decision and no booked figure, and recommends nothing. Sources: Sen. Sanders's S. 1506 (SRC-3260) and his options paper (SRC-3041), Rep. Jayapal's H.R. 3069 (SRC-3261), and the care dossier's comparison (`dossiers/care/research-s1506-comparison.md`, row "Trust fund and financing") with its cost section (`dossiers/care/6-cost.md`, part 4).
+
+**What was found.**
+- **Both bills levy no tax.** Sec. 701(b)(1) of each credits the trust fund with 100 percent of the net revenue increase "attributable to" secs. 801 and 902 (the end of duplicative employer plans, and of the Exchanges) [EV-CAR-287, EV-CAR-292]. The bills set no rate and no base. A search of H.R. 3069's text found no tax rate, employer contribution or state payment.
+- **Sanders's options paper is a menu, not a plan.** It is the sponsor's own, undated, and written before S. 1506: it cites 2016 premiums and 2014 tax data. Sanders's site holds no 2025 version (searched November 13, 2026). Its main options [EV-CAR-713]:
+
+| Option in the paper | Rate | Base and exemption | Revenue the paper claims, ten years |
+| --- | --- | --- | --- |
+| Employer income-based premium | 7.5% | Payroll; an employer's first $2 million exempt | $3.9T |
+| Household income-based premium | 4% | Income after the standard deduction; a family of four under $29,000 pays none | $3.5T |
+| End health tax expenditures | — | The employer-premium exclusion, cafeteria-plan exclusion, medical-expense deduction | $4.2T |
+| More progressive income tax | 40% to 52% | Income above $250,000, capital gains taxed as work income, itemized deductions capped at 28% | $1.8T |
+| Wealth tax | 1% | Net worth above $21 million, top 0.1% of households | $1.3T |
+| Estate tax | 45% to 55% | Estates above $3.5M single or $7M couple, plus a 10% surtax above $500M | $0.25T |
+| Offshore profits, bank fee, business-owner loophole, LIFO repeal | one-time tax; 0.07%; —; — | Corporate and financial | $0.77T, $0.12T, $0.25T, $0.11T |
+
+All of these sum to about $16.2 trillion (project arithmetic). The paper states no cost for the program, so it cannot say whether that covers it.
+- **Jayapal has published no separate financing plan that I could find.** In February 2019 she said she would release a list of suggested funding mechanisms for her earlier bill [SRC-3079]. Nothing like it turned up for H.R. 3069. The lead should confirm, since an absence is hard to prove.
+
+**How far to trust the paper's figures (grading).** They are the sponsor's own estimates, grade C analysis [EV-CAR-714]. Two independent scorers looked at a later, February 2020 version of the options, so they qualify the figures rather than confirm them [EV-CAR-715, EV-CAR-716]:
+- CRFB concurred with the campaign's $12.2 trillion for three direct offsets, but its own estimate of the employer tax was $4 trillion against the campaign's $5.2 trillion, a gap it puts down to method.
+- The Tax Policy Center put the earmarked provisions at $13.4 trillion for 2021 to 2030. The paper's five main items add to about $13.65 trillion, so the totals are close, but the versions, windows and sets differ.
+- The household premium, employer premium and exclusion figures in the later version ($4.0T, $5.2T, $3.0T) differ from the paper's ($3.5T, $3.9T, $4.2T). Rely on the paper for what it proposes, not for what it raises. All of this is before the 2025 law changed the tax base.
+
+**Side by side.**
+
+| | Sanders (bill plus options paper) | Jayapal (House bill) | This plan |
+| --- | --- | --- | --- |
+| What the bill text funds | A trust fund fed by last year's federal Medicare, Medicaid, FEHB and similar money, the Medicare trust fund balances and the revenue from ending employer plans and Exchange credits [EV-CAR-287] | The same, plus TRICARE's purchased care [EV-CAR-292] | The same federal streams pooled (memo 3 B), plus the employer-exclusion revenue named as a stream (research note, part c) |
+| New taxes proposed, and where | None in the bill. The paper offers the menu above | None in the bill; no separate plan found | None booked here. The financing settlement (stage G) chooses |
+| What employers pay | Nothing in the bill. The paper: 7.5% of payroll above $2 million, and in the four-year transition the higher of that or 75% of today's premiums | Nothing in the text | A transitional contribution of about 71% of today's employer premiums (the research note's federal-neutral share; `6-cost.md` reports 65%, which section 4 uses), until the settlement's payroll contribution replaces it. About $1,061B net in FY2040 at 65%, reported, not booked |
+| What states pay | Nothing, except a floor for nursing-home spending (fiscal 2024 level) [EV-CAR-278] | Nothing; long-term care moves into the program [EV-CAR-291] | A fixed share: half of Medicaid spending outside long-term care, about $225B in 2032 (working figure, range 0-80%) |
+| The gap left open | All of the program's new money, and the paper does not price the program | The same, with no menu | $2,020B in 2032 and $3,096B in FY2040 left for new revenue at the 65% contribution, the settlement's job; the whole plan's FY2040 gap is in section 1 |
+
+**An illustration for two households. This is an illustration, not a model result.** Take a family of four with one earner and employer coverage, and compare what the paper's household premium would cost with the worker premiums the family stops paying. Premiums are KFF's 2026 averages: $28,303 for family coverage, of which workers pay $7,471 [EV-CAR-111, EV-CAR-112], so employers pay about $20,832. Incomes are the household model's 2029 averages by quintile (`models/tools/household/results.md`, section 3).
+
+| Family of four, one earner | Pays the 4% premium | Stops paying (worker share) | Difference for the family | Employer's side: 7.5% of pay against the premium it stops paying |
+| --- | --- | --- | --- | --- |
+| Fourth quintile, $173,693 | 4% of ($173,693 − $29,000) = about $5,800 | about $7,500 | about $1,700 better off | about $13,000 against $20,800 |
+| Middle quintile, $110,181 | 4% of ($110,181 − $29,000) = about $3,200 | about $7,500 | about $4,200 better off | about $8,300 against $20,800 |
+
+What it leaves out: it assumes the earner's pay is the whole income, an average employer plan and a large employer (so the $2 million payroll exemption doesn't bite). It uses the paper's $29,000 deduction, which CRFB equates to the pre-2018 standard deduction and exemptions, not today's. It leaves out out-of-pocket costs saved, the other options (a family at these averages would mostly miss the high-income taxes) and the income and payroll tax that ending the employer-premium exclusion would add. That last omission matters: if the employer's premium saving passes into pay, the family pays tax on it, which narrows the gain. Who bears the employer's 7.5% is also contested; the research note cites studies that find workers bear part of it through pay [EV-CAR-296, EV-CAR-299]. If you count the employer's side as the worker's, the fourth-quintile family goes from about $28,300 in premiums to about $18,800 in the two new premiums, before that tax.
+
+**In plain terms, for Espen.**
+- Neither bill says how to pay. Both set up a fund and put in money the government already spends, and neither levies a tax.
+- Sanders's office has a separate menu with big revenue claims, about $16 trillion in all. It is his own, it dates from before the 2025 bill, and the independent checks I found cover a later version and only roughly agree.
+- Jayapal's side has no such menu that I could find.
+- This plan differs most in asking states and employers to pay during the move, and in saying the leftover goes to the financing settlement.
+- For a family of four, the paper's 4% premium would cost less than the premiums it ends. How much less depends on who really pays the employer's share, and I haven't modeled that.
