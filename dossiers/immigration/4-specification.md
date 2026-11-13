@@ -1,6 +1,6 @@
 # A new consensus on immigration: specification
 
-Role: section 4 of the immigration dossier. It writes the decided designs as provisions: what each does, its parameters, who is covered, the vehicle, the agency, how it changes the January 2029 law and the evidence it rests on. Provision IDs and their fields are in `provisions.json`. Status: reviewed (L2; `review-milestone.md`), with the review's fix steps applied; L3 after the re-check. It rests on Espen's decision `DEC-2026-11-12-07` (question 0p) and on three standing rules: `DEC-2026-11-09-13` (guide, don't police), `DEC-2026-11-10-05` (report, don't gate) and `DEC-2026-11-10-07` (what needs an answer now). Costs are in `6-cost.md`, and each provision's `cost_source` points there. Delivery is in `5-delivery.md`.
+Role: section 4 of the immigration dossier. It writes the decided designs as provisions: what each does, its parameters, who is covered, the vehicle, the agency, how it changes the January 2029 law and the evidence it rests on. Provision IDs and their fields are in `provisions.json`. Status: reviewed at L3 (`review-milestone.md`, #303), with the review's fix steps applied (#305, #307); the re-check was the booking (#310). It rests on Espen's decision `DEC-2026-11-12-07` (question 0p) and on three standing rules: `DEC-2026-11-09-13` (guide, don't police), `DEC-2026-11-10-05` (report, don't gate) and `DEC-2026-11-10-07` (what needs an answer now). Costs are in `6-cost.md`, and each provision's `cost_source` points there. Delivery is in `5-delivery.md`.
 
 ## How to read this section
 

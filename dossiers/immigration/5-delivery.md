@@ -1,6 +1,6 @@
 # A new consensus on immigration: delivery
 
-Role: section 5 of the immigration dossier. It covers who runs each provision of `4-specification.md`, the capacity each agency needs, the timeline, remedies, states' roles and rural delivery. Status: reviewed (L2; `review-milestone.md`), with the review's fix steps applied; L3 after the re-check. On `DEC-2026-11-12-07` and `-12`. Costs of the capacity named here are in `6-cost.md`. Shared rule 5 (who verifies and pays) is owned by democratic renewal; this section states immigration's needs for it.
+Role: section 5 of the immigration dossier. It covers who runs each provision of `4-specification.md`, the capacity each agency needs, the timeline, remedies, states' roles and rural delivery. Status: reviewed at L3 (`review-milestone.md`, #303), with the review's fix steps applied (#305, #307); the re-check was the booking (#310). On `DEC-2026-11-12-07` and `-12`. Costs of the capacity named here are in `6-cost.md`. Shared rule 5 (who verifies and pays) is owned by democratic renewal; this section states immigration's needs for it.
 
 ## 1. Who runs what
 

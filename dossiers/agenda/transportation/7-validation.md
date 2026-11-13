@@ -1,6 +1,6 @@
 # Transportation: validation
 
-Role: section 7 of the transportation dossier: the decided design checked against outside figures, what the models miss, how it lands with the rest of the plan and for whom, the strongest objections and the signs of failure. Status: draft (stage C, step 7, PR 3), on `DEC-2026-11-10-08`. Model figures are the plan's own (grade D).
+Role: section 7 of the transportation dossier: the decided design checked against outside figures, what the models miss, how it lands with the rest of the plan and for whom, the strongest objections and the signs of failure. Status: reviewed at L3 (`review-milestone.md`; closed in stage C, see the README), on `DEC-2026-11-10-08`. Model figures are the plan's own (grade D).
 
 Outcomes checked: OUT-05 (emissions and a prepared country), OUT-11 (the fiscal and fairness tests) and OUT-12, the transportation outcome added with the decision (safe, affordable travel).
 

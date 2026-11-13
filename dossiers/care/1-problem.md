@@ -1,6 +1,6 @@
 # Care you can count on, part A (health): the problem
 
-Role: section 1 of the care dossier, health part: what is wrong, for whom and how large, and how the law will stand in January 2029. Status: draft (stage D, step 2). Every figure cites the evidence register (`evidence.json`); claims still missing evidence are listed at the end and are not made here. Home care, child care and the workforce get their own problem sections later (`README.md`).
+Role: section 1 of the care dossier, health part: what is wrong, for whom and how large, and how the law will stand in January 2029. Status: reviewed at L3 (health, `review-milestone.md`; see the README). Every figure cites the evidence register (`evidence.json`); claims still missing evidence are listed at the end and are not made here. Home care, child care and the workforce get their own problem sections later (`README.md`).
 
 Outcomes this section frames:
 - OUT-03, care people can count on, for every age;

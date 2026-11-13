@@ -1,6 +1,6 @@
 # Transportation: the public case
 
-Role: section 9 of the transportation dossier: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: draft (stage C, step 7, PR 3), on `DEC-2026-11-10-08`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag.
+Role: section 9 of the transportation dossier: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: reviewed at L3 (`review-milestone.md`; closed in stage C, see the README), on `DEC-2026-11-10-08`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag.
 
 ## The brief
 

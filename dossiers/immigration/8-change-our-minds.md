@@ -1,6 +1,6 @@
 # A new consensus on immigration: what would change our minds
 
-Role: section 8 of the immigration dossier. For each decided choice it gives the finding that would change it and what we would do instead. It also covers the political and legal events that would force a fallback, what is left open, the hard stops, and when the evidence arrives. Status: reviewed (L2; `review-milestone.md`), with the review's fix steps applied; L3 after the re-check. On `DEC-2026-11-12-07` and `-12`. A change to a decided choice goes back to Espen by memo; the fallbacks below are the options the memos already weighed.
+Role: section 8 of the immigration dossier. For each decided choice it gives the finding that would change it and what we would do instead. It also covers the political and legal events that would force a fallback, what is left open, the hard stops, and when the evidence arrives. Status: reviewed at L3 (`review-milestone.md`, #303), with the review's fix steps applied (#305, #307); the re-check was the booking (#310). On `DEC-2026-11-12-07` and `-12`. A change to a decided choice goes back to Espen by memo; the fallbacks below are the options the memos already weighed.
 
 ## By choice
 
