@@ -20,7 +20,8 @@ What is booked (central path, $ billion by federal fiscal year; a cost positive)
   B-1, the federal-debt and federal-tax share, $1-3B a year) and the territories' child benefit (FAM-1.07, review
   M-1, about 0.6 million children, $1-3B a year).
 - INC-1 to INC-5 (R1, general fund), one years row each on the path: the childless earned income credit, SNAP
-  restored, SSI (the asset limits, the indexed exclusions and SSI in the four territories, INC-3.03), the refundable
+  restored, SNAP's earned income deduction at 45% (INC-2B, INC-2.02: Espen's option D on the 65-cent ceiling,
+  DEC-2026-11-13-03; its own row so its range and incidence key stay its own), SSI (the asset limits, the indexed exclusions and SSI in the four territories, INC-3.03), the refundable
   dependent care credit, and the exclusion rule's forgone offsets.
 - LAB-10: unchanged, the participation envelope ($0.1T, recovery-adoption.json), now named for LAB-10.
 - FAM-3: the leave fund's step from 0.05 to 0.10 points (funds-parameters.csv leave_step; Espen, November 12).
@@ -49,6 +50,7 @@ PRICES = 0.023     # the path's own price growth (secure_floor_path.py)
 RANGES = {
     "INC-1": (0.13, 0.16),     # JCT and TPC [EV-SEC-609] [EV-SEC-610]
     "INC-2": (0.20, 0.25),     # CBO's window's later years [EV-SEC-035] [EV-SEC-038]
+    "INC-2B": (0.092, 0.183),  # INC-2.02: $8-16B in FY2030 on the path's growth (6-cost.md part 1; DEC-2026-11-13-03)
     "INC-3": (0.034, 0.058),   # INC-3.03 $15-30B (4-specification.md); 3.01-3.02 within 20% (judgment)
     "INC-4": (0.03, 0.06),     # section 3, point 7
     "INC-5": (0.01, 0.03),     # memo 7 part 1 B, $1-3B a year
@@ -62,6 +64,7 @@ FAM1_PARTS = {
 INC_ROWS = {
     "INC-1": ["INC-1.01, the childless earned income credit (memo 3 part 1 B)"],
     "INC-2": ["INC-2.01, SNAP restored (memo 3 part 2 B)"],
+    "INC-2B": ["INC-2.02, SNAP's earned income deduction at 45% (Espen's option D)"],
     "INC-3": ["INC-3.01, SSI's asset limits (memo 3 part 2 B)", "INC-3.02, SSI's exclusions indexed (point 8)",
               "INC-3.03, SSI in the territories (Espen, November 12)"],
     "INC-4": ["INC-4.01, the refundable dependent care credit (point 7)"],

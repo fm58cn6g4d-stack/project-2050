@@ -82,10 +82,13 @@ def baseline(year=2029, takeup="census", snap_law=True):
         h.update({k: 0.0 for k in ("market", "cash", "income_tax", "payroll", "payroll_er", "state_tax", "eitc",
                                    "ctc", "n_medicaid", "n_medicare", "n_employer_cov", "n_marketplace",
                                    "wages", "wages_capped", "capital", "ss", "children", "adults", "ssi_dep", "snap_prior",
-                                   "snap_cut", *CASH_TRANSFERS,
+                                   "snap_cut", "snap_earn", *CASH_TRANSFERS,
                                    *NONCASH)})
+    spm_earn = {}
     for u in units:
         h = hh_index[u["hh"]]
+        spm_earn[u["spm"]] = spm_earn.get(u["spm"], 0.0) + max(u["wage_h"] + u["wage_s"] + u["se_h"] + u["se_s"]
+                                                              + u["dep_wages"], 0)
         h["market"] += u["market"]; h["cash"] += u["cash"]
         h["income_tax"] += u["t_income_tax"]; h["payroll"] += u["t_payroll"]; h["payroll_er"] += u["t_fica_er"]
         h["eitc"] += u["t_eitc"]; h["ctc"] += u["t_ctc_total"]
@@ -105,6 +108,13 @@ def baseline(year=2029, takeup="census", snap_law=True):
             h[k] += s[k]
         h["snap_prior"] += s["snap_prior_law"]                  # SNAP before P.L. 119-21 (A-8), INC-2's key
         h["snap_cut"] += s["snap_prior_law"] - s["snap"]
+        # INC-2.02's key (SNAP's earned income deduction at 45%, DEC-2026-11-13-03): earnings of SNAP-receiving SPM
+        # units on the rules INC-2 restores, each capped at 200% of its poverty guideline, the broad option's gross
+        # line. The CPS's annual earnings include months off SNAP; the cap keeps a part-year recipient's later
+        # earnings from counting (uncapped, the key would give the top 1% about 5%).
+        if s["snap_prior_law"] > 0:
+            line = L["fpl"][0] + L["fpl"][1] * (max(int(s["numper"]), 1) - 1)
+            h["snap_earn"] += min(spm_earn.get(s["spm"], 0.0), 2.0 * line)
         h["state_tax"] += s["sttax"]
         # persons by age, on the household's own weight (person weights differ slightly within a household)
         if s["weight"] > 0:

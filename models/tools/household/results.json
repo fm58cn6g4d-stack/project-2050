@@ -367,22 +367,87 @@
   "poverty_gap_bn": 311.7
  },
  "ceiling": {
+  "before_inc2_02": {
+   "married_2": {
+    "2030-34 on the marketplace, no shelter deduction": {
+     "at": 100,
+     "max": 65.1,
+     "pass": false
+    },
+    "2030-34 on the marketplace, with the rent": {
+     "at": 100,
+     "max": 77.1,
+     "pass": false
+    },
+    "2035 on, no shelter deduction": {
+     "at": 100,
+     "max": 63.0,
+     "pass": true
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction": {
+     "at": 100,
+     "max": 75.0,
+     "pass": false
+    }
+   },
+   "single_adult": {
+    "2030-34 on the marketplace, no shelter deduction": {
+     "at": 100,
+     "max": 58.6,
+     "pass": true
+    },
+    "2030-34 on the marketplace, with the rent": {
+     "at": 100,
+     "max": 59.4,
+     "pass": true
+    },
+    "2035 on, no shelter deduction": {
+     "at": 100,
+     "max": 56.5,
+     "pass": true
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction": {
+     "at": 100,
+     "max": 57.3,
+     "pass": true
+    }
+   },
+   "single_parent_2": {
+    "2030-34 on the marketplace, no shelter deduction": {
+     "at": 100,
+     "max": 65.1,
+     "pass": false
+    },
+    "2030-34 on the marketplace, with the rent": {
+     "at": 100,
+     "max": 77.1,
+     "pass": false
+    },
+    "2035 on, no shelter deduction": {
+     "at": 100,
+     "max": 63.0,
+     "pass": true
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction": {
+     "at": 100,
+     "max": 75.0,
+     "pass": false
+    }
+   }
+  },
   "check": {
    "married_2": {
     "2030-34 on the marketplace, no shelter deduction | leave at its ceiling": {
      "at": 100,
-     "max": 65.4,
-     "pass": false
+     "max": 57.9,
+     "pass": true
     },
     "2030-34 on the marketplace, no shelter deduction | lowest-income state": {
      "at": 100,
      "cliffs": [],
-     "max": 65.1,
-     "over": [
-      100,
-      125
-     ],
-     "pass": false,
+     "max": 57.6,
+     "over": [],
+     "pass": true,
      "rows": [
       {
        "care": 0.0,
@@ -391,8 +456,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": 16.5,
+       "total": -15.5
       },
       {
        "care": 0.0,
@@ -401,8 +466,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -411,8 +476,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 24.0,
-       "total": 65.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -421,8 +486,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": 24.0,
-       "total": 65.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -499,12 +564,9 @@
     "2030-34 on the marketplace, no shelter deduction | typical state": {
      "at": 100,
      "cliffs": [],
-     "max": 65.1,
-     "over": [
-      100,
-      125
-     ],
-     "pass": false,
+     "max": 57.6,
+     "over": [],
+     "pass": true,
      "rows": [
       {
        "care": 0.0,
@@ -513,8 +575,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": 16.5,
+       "total": -15.5
       },
       {
        "care": 0.0,
@@ -523,8 +585,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -533,8 +595,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 24.0,
-       "total": 65.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -543,8 +605,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": 24.0,
-       "total": 65.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -619,16 +681,15 @@
      ]
     },
     "2030-34 on the marketplace, with the rent | leave at its ceiling": {
-     "at": 100,
-     "max": 77.4,
+     "at": 125,
+     "max": 66.1,
      "pass": false
     },
     "2030-34 on the marketplace, with the rent | lowest-income state": {
-     "at": 100,
+     "at": 125,
      "cliffs": [],
-     "max": 77.1,
+     "max": 65.9,
      "over": [
-      100,
       125
      ],
      "pass": false,
@@ -640,8 +701,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": -0.0,
+       "total": -32.0
       },
       {
        "care": 0.0,
@@ -650,8 +711,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 44.0
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -660,8 +721,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 36.0,
-       "total": 77.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -670,8 +731,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": 36.0,
-       "total": 77.1
+       "snap": 24.8,
+       "total": 65.9
       },
       {
        "care": 0.0,
@@ -746,11 +807,10 @@
      ]
     },
     "2030-34 on the marketplace, with the rent | typical state": {
-     "at": 100,
+     "at": 125,
      "cliffs": [],
-     "max": 77.1,
+     "max": 65.9,
      "over": [
-      100,
       125
      ],
      "pass": false,
@@ -762,8 +822,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": -0.0,
+       "total": -32.0
       },
       {
        "care": 0.0,
@@ -772,8 +832,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 44.0
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -782,8 +842,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 36.0,
-       "total": 77.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -792,8 +852,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": 36.0,
-       "total": 77.1
+       "snap": 24.8,
+       "total": 65.9
       },
       {
        "care": 0.0,
@@ -869,13 +929,13 @@
     },
     "2035 on, no shelter deduction | leave at its ceiling": {
      "at": 100,
-     "max": 63.3,
+     "max": 55.8,
      "pass": true
     },
     "2035 on, no shelter deduction | lowest-income state": {
      "at": 100,
      "cliffs": [],
-     "max": 63.0,
+     "max": 55.5,
      "over": [],
      "pass": true,
      "rows": [
@@ -886,8 +946,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": 16.5,
+       "total": -15.5
       },
       {
        "care": 0.0,
@@ -896,8 +956,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -906,8 +966,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 63.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -916,8 +976,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 63.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -994,7 +1054,7 @@
     "2035 on, no shelter deduction | typical state": {
      "at": 100,
      "cliffs": [],
-     "max": 63.0,
+     "max": 55.5,
      "over": [],
      "pass": true,
      "rows": [
@@ -1005,8 +1065,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": 16.5,
+       "total": -15.5
       },
       {
        "care": 0.0,
@@ -1015,8 +1075,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -1025,8 +1085,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 63.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -1035,8 +1095,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 63.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -1111,19 +1171,16 @@
      ]
     },
     "2035 on, with a $1,400 rent in SNAP's shelter deduction | leave at its ceiling": {
-     "at": 100,
-     "max": 75.3,
-     "pass": false
+     "at": 125,
+     "max": 64.0,
+     "pass": true
     },
     "2035 on, with a $1,400 rent in SNAP's shelter deduction | lowest-income state": {
-     "at": 100,
+     "at": 125,
      "cliffs": [],
-     "max": 75.0,
-     "over": [
-      100,
-      125
-     ],
-     "pass": false,
+     "max": 63.8,
+     "over": [],
+     "pass": true,
      "rows": [
       {
        "care": 0.0,
@@ -1132,8 +1189,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": -0.0,
+       "total": -32.0
       },
       {
        "care": 0.0,
@@ -1142,8 +1199,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 44.0
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -1152,8 +1209,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 75.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -1162,8 +1219,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 75.0
+       "snap": 24.8,
+       "total": 63.8
       },
       {
        "care": 0.0,
@@ -1238,14 +1295,11 @@
      ]
     },
     "2035 on, with a $1,400 rent in SNAP's shelter deduction | typical state": {
-     "at": 100,
+     "at": 125,
      "cliffs": [],
-     "max": 75.0,
-     "over": [
-      100,
-      125
-     ],
-     "pass": false,
+     "max": 63.8,
+     "over": [],
+     "pass": true,
      "rows": [
       {
        "care": 0.0,
@@ -1254,8 +1308,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": -0.0,
+       "total": -32.0
       },
       {
        "care": 0.0,
@@ -1264,8 +1318,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 44.0
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -1274,8 +1328,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 75.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -1284,8 +1338,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 75.0
+       "snap": 24.8,
+       "total": 63.8
       },
       {
        "care": 0.0,
@@ -1363,13 +1417,15 @@
    "single_adult": {
     "2030-34 on the marketplace, no shelter deduction | leave at its ceiling": {
      "at": 100,
-     "max": 58.9,
+     "max": 52.1,
      "pass": true
     },
     "2030-34 on the marketplace, no shelter deduction | lowest-income state": {
      "at": 100,
-     "cliffs": [],
-     "max": 58.6,
+     "cliffs": [
+      125
+     ],
+     "max": 51.8,
      "over": [],
      "pass": true,
      "rows": [
@@ -1380,8 +1436,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 16.6
+       "snap": 16.5,
+       "total": 9.2
       },
       {
        "care": 0.0,
@@ -1390,8 +1446,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -1400,8 +1456,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 23.3,
-       "total": 58.6
+       "snap": 16.5,
+       "total": 51.8
       },
       {
        "care": 0.0,
@@ -1410,8 +1466,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": -0.0,
-       "total": 35.4
+       "snap": 111.7,
+       "total": 147.1
       },
       {
        "care": 0.0,
@@ -1487,8 +1543,10 @@
     },
     "2030-34 on the marketplace, no shelter deduction | typical state": {
      "at": 100,
-     "cliffs": [],
-     "max": 58.6,
+     "cliffs": [
+      125
+     ],
+     "max": 51.8,
      "over": [],
      "pass": true,
      "rows": [
@@ -1499,8 +1557,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 16.6
+       "snap": 16.5,
+       "total": 9.2
       },
       {
        "care": 0.0,
@@ -1509,8 +1567,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -1519,8 +1577,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 23.3,
-       "total": 58.6
+       "snap": 16.5,
+       "total": 51.8
       },
       {
        "care": 0.0,
@@ -1529,8 +1587,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": -0.0,
-       "total": 35.4
+       "snap": 111.7,
+       "total": 147.1
       },
       {
        "care": 0.0,
@@ -1605,16 +1663,16 @@
      ]
     },
     "2030-34 on the marketplace, with the rent | leave at its ceiling": {
-     "at": 100,
-     "max": 59.6,
+     "at": 150,
+     "max": 45.2,
      "pass": true
     },
     "2030-34 on the marketplace, with the rent | lowest-income state": {
-     "at": 100,
+     "at": 150,
      "cliffs": [
       125
      ],
-     "max": 59.4,
+     "max": 44.9,
      "over": [],
      "pass": true,
      "rows": [
@@ -1645,8 +1703,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 24.0,
-       "total": 59.4
+       "snap": -0.0,
+       "total": 35.4
       },
       {
        "care": 0.0,
@@ -1655,8 +1713,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": 233.0,
-       "total": 268.4
+       "snap": 387.6,
+       "total": 422.9
       },
       {
        "care": 0.0,
@@ -1731,11 +1789,11 @@
      ]
     },
     "2030-34 on the marketplace, with the rent | typical state": {
-     "at": 100,
+     "at": 150,
      "cliffs": [
       125
      ],
-     "max": 59.4,
+     "max": 44.9,
      "over": [],
      "pass": true,
      "rows": [
@@ -1766,8 +1824,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 24.0,
-       "total": 59.4
+       "snap": -0.0,
+       "total": 35.4
       },
       {
        "care": 0.0,
@@ -1776,8 +1834,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": 233.0,
-       "total": 268.4
+       "snap": 387.6,
+       "total": 422.9
       },
       {
        "care": 0.0,
@@ -1853,13 +1911,15 @@
     },
     "2035 on, no shelter deduction | leave at its ceiling": {
      "at": 100,
-     "max": 56.8,
+     "max": 50.0,
      "pass": true
     },
     "2035 on, no shelter deduction | lowest-income state": {
      "at": 100,
-     "cliffs": [],
-     "max": 56.5,
+     "cliffs": [
+      125
+     ],
+     "max": 49.8,
      "over": [],
      "pass": true,
      "rows": [
@@ -1870,8 +1930,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 16.6
+       "snap": 16.5,
+       "total": 9.2
       },
       {
        "care": 0.0,
@@ -1880,8 +1940,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -1890,8 +1950,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 23.3,
-       "total": 56.5
+       "snap": 16.5,
+       "total": 49.8
       },
       {
        "care": 0.0,
@@ -1900,8 +1960,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": -0.0,
-       "total": 33.2
+       "snap": 111.7,
+       "total": 145.0
       },
       {
        "care": 0.0,
@@ -1977,8 +2037,10 @@
     },
     "2035 on, no shelter deduction | typical state": {
      "at": 100,
-     "cliffs": [],
-     "max": 56.5,
+     "cliffs": [
+      125
+     ],
+     "max": 49.8,
      "over": [],
      "pass": true,
      "rows": [
@@ -1989,8 +2051,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 16.6
+       "snap": 16.5,
+       "total": 9.2
       },
       {
        "care": 0.0,
@@ -1999,8 +2061,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -2009,8 +2071,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 23.3,
-       "total": 56.5
+       "snap": 16.5,
+       "total": 49.8
       },
       {
        "care": 0.0,
@@ -2019,8 +2081,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": -0.0,
-       "total": 33.2
+       "snap": 111.7,
+       "total": 145.0
       },
       {
        "care": 0.0,
@@ -2096,7 +2158,7 @@
     },
     "2035 on, with a $1,400 rent in SNAP's shelter deduction | leave at its ceiling": {
      "at": 100,
-     "max": 57.5,
+     "max": 33.5,
      "pass": true
     },
     "2035 on, with a $1,400 rent in SNAP's shelter deduction | lowest-income state": {
@@ -2104,7 +2166,7 @@
      "cliffs": [
       125
      ],
-     "max": 57.3,
+     "max": 33.2,
      "over": [],
      "pass": true,
      "rows": [
@@ -2135,8 +2197,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 57.3
+       "snap": -0.0,
+       "total": 33.2
       },
       {
        "care": 0.0,
@@ -2145,8 +2207,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": 233.0,
-       "total": 266.3
+       "snap": 387.6,
+       "total": 420.8
       },
       {
        "care": 0.0,
@@ -2225,7 +2287,7 @@
      "cliffs": [
       125
      ],
-     "max": 57.3,
+     "max": 33.2,
      "over": [],
      "pass": true,
      "rows": [
@@ -2256,8 +2318,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 57.3
+       "snap": -0.0,
+       "total": 33.2
       },
       {
        "care": 0.0,
@@ -2266,8 +2328,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": 233.0,
-       "total": 266.3
+       "snap": 387.6,
+       "total": 420.8
       },
       {
        "care": 0.0,
@@ -2345,18 +2407,15 @@
    "single_parent_2": {
     "2030-34 on the marketplace, no shelter deduction | leave at its ceiling": {
      "at": 100,
-     "max": 65.4,
-     "pass": false
+     "max": 57.9,
+     "pass": true
     },
     "2030-34 on the marketplace, no shelter deduction | lowest-income state": {
      "at": 100,
      "cliffs": [],
-     "max": 65.1,
-     "over": [
-      100,
-      125
-     ],
-     "pass": false,
+     "max": 57.6,
+     "over": [],
+     "pass": true,
      "rows": [
       {
        "care": 0.0,
@@ -2365,8 +2424,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": 16.5,
+       "total": -15.5
       },
       {
        "care": 0.0,
@@ -2375,8 +2434,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -2385,8 +2444,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 24.0,
-       "total": 65.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -2395,8 +2454,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": 24.0,
-       "total": 65.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -2473,12 +2532,9 @@
     "2030-34 on the marketplace, no shelter deduction | typical state": {
      "at": 100,
      "cliffs": [],
-     "max": 65.1,
-     "over": [
-      100,
-      125
-     ],
-     "pass": false,
+     "max": 57.6,
+     "over": [],
+     "pass": true,
      "rows": [
       {
        "care": 0.0,
@@ -2487,8 +2543,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": 16.5,
+       "total": -15.5
       },
       {
        "care": 0.0,
@@ -2497,8 +2553,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -2507,8 +2563,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 24.0,
-       "total": 65.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -2517,8 +2573,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": 24.0,
-       "total": 65.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -2594,18 +2650,15 @@
     },
     "2030-34 on the marketplace, with the rent | leave at its ceiling": {
      "at": 100,
-     "max": 77.4,
-     "pass": false
+     "max": 57.9,
+     "pass": true
     },
     "2030-34 on the marketplace, with the rent | lowest-income state": {
      "at": 100,
      "cliffs": [],
-     "max": 77.1,
-     "over": [
-      100,
-      125
-     ],
-     "pass": false,
+     "max": 57.6,
+     "over": [],
+     "pass": true,
      "rows": [
       {
        "care": 0.0,
@@ -2614,8 +2667,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 13.0,
-       "total": -19.1
+       "snap": -0.0,
+       "total": -32.0
       },
       {
        "care": 0.0,
@@ -2624,8 +2677,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -2634,8 +2687,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 36.0,
-       "total": 77.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -2644,8 +2697,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": 36.0,
-       "total": 77.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -2722,12 +2775,9 @@
     "2030-34 on the marketplace, with the rent | typical state": {
      "at": 100,
      "cliffs": [],
-     "max": 77.1,
-     "over": [
-      100,
-      125
-     ],
-     "pass": false,
+     "max": 57.6,
+     "over": [],
+     "pass": true,
      "rows": [
       {
        "care": 0.0,
@@ -2736,8 +2786,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 13.0,
-       "total": -19.1
+       "snap": -0.0,
+       "total": -32.0
       },
       {
        "care": 0.0,
@@ -2746,8 +2796,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -2756,8 +2806,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 2.1,
-       "snap": 36.0,
-       "total": 77.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -2766,8 +2816,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 2.1,
-       "snap": 36.0,
-       "total": 77.1
+       "snap": 16.5,
+       "total": 57.6
       },
       {
        "care": 0.0,
@@ -2843,13 +2893,13 @@
     },
     "2035 on, no shelter deduction | leave at its ceiling": {
      "at": 100,
-     "max": 63.3,
+     "max": 55.8,
      "pass": true
     },
     "2035 on, no shelter deduction | lowest-income state": {
      "at": 100,
      "cliffs": [],
-     "max": 63.0,
+     "max": 55.5,
      "over": [],
      "pass": true,
      "rows": [
@@ -2860,8 +2910,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": 16.5,
+       "total": -15.5
       },
       {
        "care": 0.0,
@@ -2870,8 +2920,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -2880,8 +2930,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 63.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -2890,8 +2940,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 63.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -2968,7 +3018,7 @@
     "2035 on, no shelter deduction | typical state": {
      "at": 100,
      "cliffs": [],
-     "max": 63.0,
+     "max": 55.5,
      "over": [],
      "pass": true,
      "rows": [
@@ -2979,8 +3029,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": -8.1
+       "snap": 16.5,
+       "total": -15.5
       },
       {
        "care": 0.0,
@@ -2989,8 +3039,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -2999,8 +3049,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 63.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -3009,8 +3059,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 63.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -3086,18 +3136,15 @@
     },
     "2035 on, with a $1,400 rent in SNAP's shelter deduction | leave at its ceiling": {
      "at": 100,
-     "max": 75.3,
-     "pass": false
+     "max": 55.8,
+     "pass": true
     },
     "2035 on, with a $1,400 rent in SNAP's shelter deduction | lowest-income state": {
      "at": 100,
      "cliffs": [],
-     "max": 75.0,
-     "over": [
-      100,
-      125
-     ],
-     "pass": false,
+     "max": 55.5,
+     "over": [],
+     "pass": true,
      "rows": [
       {
        "care": 0.0,
@@ -3106,8 +3153,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 13.0,
-       "total": -19.1
+       "snap": -0.0,
+       "total": -32.0
       },
       {
        "care": 0.0,
@@ -3116,8 +3163,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -3126,8 +3173,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 75.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -3136,8 +3183,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 75.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -3214,12 +3261,9 @@
     "2035 on, with a $1,400 rent in SNAP's shelter deduction | typical state": {
      "at": 100,
      "cliffs": [],
-     "max": 75.0,
-     "over": [
-      100,
-      125
-     ],
-     "pass": false,
+     "max": 55.5,
+     "over": [],
+     "pass": true,
      "rows": [
       {
        "care": 0.0,
@@ -3228,8 +3272,8 @@
        "payroll": 8.0,
        "pct_poverty": 50,
        "ptc": 0.0,
-       "snap": 13.0,
-       "total": -19.1
+       "snap": -0.0,
+       "total": -32.0
       },
       {
        "care": 0.0,
@@ -3238,8 +3282,8 @@
        "payroll": 8.0,
        "pct_poverty": 75,
        "ptc": 0.0,
-       "snap": 24.0,
-       "total": 31.9
+       "snap": 16.5,
+       "total": 24.5
       },
       {
        "care": 0.0,
@@ -3248,8 +3292,8 @@
        "payroll": 8.0,
        "pct_poverty": 100,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 75.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -3258,8 +3302,8 @@
        "payroll": 8.0,
        "pct_poverty": 125,
        "ptc": 0.0,
-       "snap": 36.0,
-       "total": 75.0
+       "snap": 16.5,
+       "total": 55.5
       },
       {
        "care": 0.0,
@@ -3353,8 +3397,8 @@
    "dynamic_lo": -1.36,
    "dynamic_mid": -0.33,
    "dynamic_optimistic": 1.12,
-   "gap_after_accepted": 22.56,
-   "gap_mid": 27.07
+   "gap_after_accepted": 22.69,
+   "gap_mid": 27.2
   },
   "legacy": {
    "gf": {
@@ -3551,218 +3595,218 @@
    "years": {
     "Q": {
      "2030": {
-      "Q1": 5818,
-      "Q2": 3462,
-      "Q3": 1276,
-      "Q4": -1343,
-      "Q5": -42723
+      "Q1": 5941,
+      "Q2": 3618,
+      "Q3": 1350,
+      "Q4": -1306,
+      "Q5": -42702
      },
      "2031": {
-      "Q1": 7003,
-      "Q2": 4742,
-      "Q3": 2323,
-      "Q4": -567,
-      "Q5": -43933
+      "Q1": 7131,
+      "Q2": 4904,
+      "Q3": 2400,
+      "Q4": -529,
+      "Q5": -43911
      },
      "2032": {
-      "Q1": 8196,
-      "Q2": 5662,
-      "Q3": 2780,
-      "Q4": -597,
-      "Q5": -45461
+      "Q1": 8329,
+      "Q2": 5831,
+      "Q3": 2860,
+      "Q4": -557,
+      "Q5": -45439
      },
      "2033": {
-      "Q1": 9359,
-      "Q2": 6746,
-      "Q3": 3526,
-      "Q4": -274,
-      "Q5": -46765
+      "Q1": 9497,
+      "Q2": 6921,
+      "Q3": 3609,
+      "Q4": -232,
+      "Q5": -46741
      },
      "2034": {
-      "Q1": 10224,
-      "Q2": 7573,
-      "Q3": 4157,
-      "Q4": 70,
-      "Q5": -48026
+      "Q1": 10368,
+      "Q2": 7756,
+      "Q3": 4243,
+      "Q4": 113,
+      "Q5": -48002
      },
      "2035": {
-      "Q1": 9233,
-      "Q2": 6920,
-      "Q3": 3750,
-      "Q4": -272,
-      "Q5": -49763
+      "Q1": 9382,
+      "Q2": 7110,
+      "Q3": 3840,
+      "Q4": -227,
+      "Q5": -49738
      },
      "2036": {
-      "Q1": 9138,
-      "Q2": 6838,
-      "Q3": 3623,
-      "Q4": -509,
-      "Q5": -51743
+      "Q1": 9294,
+      "Q2": 7035,
+      "Q3": 3716,
+      "Q4": -462,
+      "Q5": -51717
      },
      "2037": {
-      "Q1": 9604,
-      "Q2": 7181,
-      "Q3": 3769,
-      "Q4": -592,
-      "Q5": -53931
+      "Q1": 9766,
+      "Q2": 7386,
+      "Q3": 3866,
+      "Q4": -544,
+      "Q5": -53904
      },
      "2038": {
-      "Q1": 9955,
-      "Q2": 7441,
-      "Q3": 3908,
-      "Q4": -610,
-      "Q5": -56075
+      "Q1": 10123,
+      "Q2": 7655,
+      "Q3": 4009,
+      "Q4": -560,
+      "Q5": -56046
      },
      "2039": {
-      "Q1": 10363,
-      "Q2": 7767,
-      "Q3": 4114,
-      "Q4": -574,
-      "Q5": -58237
+      "Q1": 10538,
+      "Q2": 7989,
+      "Q3": 4220,
+      "Q4": -522,
+      "Q5": -58208
      }
     },
     "Q-C19": {
      "2030": {
-      "Q1": 5818,
-      "Q2": 3462,
-      "Q3": 1276,
-      "Q4": -1343,
-      "Q5": -42723
+      "Q1": 5941,
+      "Q2": 3618,
+      "Q3": 1350,
+      "Q4": -1306,
+      "Q5": -42702
      },
      "2031": {
-      "Q1": 6985,
-      "Q2": 4656,
-      "Q3": 2117,
-      "Q4": -851,
-      "Q5": -44199
+      "Q1": 7113,
+      "Q2": 4818,
+      "Q3": 2194,
+      "Q4": -813,
+      "Q5": -44178
      },
      "2032": {
-      "Q1": 8160,
-      "Q2": 5485,
-      "Q3": 2355,
-      "Q4": -1182,
-      "Q5": -46010
+      "Q1": 8293,
+      "Q2": 5653,
+      "Q3": 2435,
+      "Q4": -1142,
+      "Q5": -45988
      },
      "2033": {
-      "Q1": 9328,
-      "Q2": 6593,
-      "Q3": 3159,
-      "Q4": -778,
-      "Q5": -47238
+      "Q1": 9467,
+      "Q2": 6769,
+      "Q3": 3243,
+      "Q4": -736,
+      "Q5": -47215
      },
      "2034": {
-      "Q1": 10207,
-      "Q2": 7488,
-      "Q3": 3953,
-      "Q4": -211,
-      "Q5": -48289
+      "Q1": 10351,
+      "Q2": 7671,
+      "Q3": 4039,
+      "Q4": -168,
+      "Q5": -48265
      },
      "2035": {
-      "Q1": 9229,
-      "Q2": 6904,
-      "Q3": 3710,
-      "Q4": -327,
-      "Q5": -49815
+      "Q1": 9379,
+      "Q2": 7093,
+      "Q3": 3800,
+      "Q4": -282,
+      "Q5": -49790
      },
      "2036": {
-      "Q1": 9138,
-      "Q2": 6838,
-      "Q3": 3623,
-      "Q4": -509,
-      "Q5": -51743
+      "Q1": 9294,
+      "Q2": 7035,
+      "Q3": 3716,
+      "Q4": -462,
+      "Q5": -51717
      },
      "2037": {
-      "Q1": 9604,
-      "Q2": 7181,
-      "Q3": 3769,
-      "Q4": -592,
-      "Q5": -53931
+      "Q1": 9766,
+      "Q2": 7386,
+      "Q3": 3866,
+      "Q4": -544,
+      "Q5": -53904
      },
      "2038": {
-      "Q1": 9955,
-      "Q2": 7441,
-      "Q3": 3908,
-      "Q4": -610,
-      "Q5": -56075
+      "Q1": 10123,
+      "Q2": 7655,
+      "Q3": 4009,
+      "Q4": -560,
+      "Q5": -56046
      },
      "2039": {
-      "Q1": 10363,
-      "Q2": 7767,
-      "Q3": 4114,
-      "Q4": -574,
-      "Q5": -58237
+      "Q1": 10538,
+      "Q2": 7989,
+      "Q3": 4220,
+      "Q4": -522,
+      "Q5": -58208
      }
     },
     "Q-EDU": {
      "2030": {
-      "Q1": 5671,
-      "Q2": 2914,
-      "Q3": 245,
-      "Q4": -2945,
-      "Q5": -43936
+      "Q1": 5795,
+      "Q2": 3070,
+      "Q3": 319,
+      "Q4": -2908,
+      "Q5": -43916
      },
      "2031": {
-      "Q1": 7044,
-      "Q2": 4457,
-      "Q3": 1639,
-      "Q4": -1809,
-      "Q5": -44836
+      "Q1": 7172,
+      "Q2": 4619,
+      "Q3": 1716,
+      "Q4": -1771,
+      "Q5": -44814
      },
      "2032": {
-      "Q1": 8501,
-      "Q2": 5726,
-      "Q3": 2521,
-      "Q4": -1416,
-      "Q5": -46011
+      "Q1": 8634,
+      "Q2": 5894,
+      "Q3": 2601,
+      "Q4": -1376,
+      "Q5": -45989
      },
      "2033": {
-      "Q1": 9795,
-      "Q2": 6913,
-      "Q3": 3284,
-      "Q4": -1166,
-      "Q5": -47404
+      "Q1": 9933,
+      "Q2": 7088,
+      "Q3": 3367,
+      "Q4": -1124,
+      "Q5": -47381
      },
      "2034": {
-      "Q1": 10661,
-      "Q2": 7664,
-      "Q3": 3706,
-      "Q4": -1132,
-      "Q5": -48948
+      "Q1": 10805,
+      "Q2": 7846,
+      "Q3": 3793,
+      "Q4": -1088,
+      "Q5": -48924
      },
      "2035": {
-      "Q1": 9670,
-      "Q2": 6934,
-      "Q3": 3088,
-      "Q4": -1787,
-      "Q5": -50972
+      "Q1": 9820,
+      "Q2": 7124,
+      "Q3": 3178,
+      "Q4": -1742,
+      "Q5": -50947
      },
      "2036": {
-      "Q1": 9589,
-      "Q2": 6832,
-      "Q3": 2887,
-      "Q4": -2150,
-      "Q5": -53061
+      "Q1": 9745,
+      "Q2": 7029,
+      "Q3": 2980,
+      "Q4": -2103,
+      "Q5": -53035
      },
      "2037": {
-      "Q1": 10074,
-      "Q2": 7175,
-      "Q3": 3004,
-      "Q4": -2299,
-      "Q5": -55302
+      "Q1": 10236,
+      "Q2": 7381,
+      "Q3": 3101,
+      "Q4": -2250,
+      "Q5": -55275
      },
      "2038": {
-      "Q1": 10443,
-      "Q2": 7435,
-      "Q3": 3112,
-      "Q4": -2385,
-      "Q5": -57500
+      "Q1": 10612,
+      "Q2": 7649,
+      "Q3": 3214,
+      "Q4": -2335,
+      "Q5": -57472
      },
      "2039": {
-      "Q1": 10871,
-      "Q2": 7760,
-      "Q3": 3287,
-      "Q4": -2420,
-      "Q5": -59720
+      "Q1": 11046,
+      "Q2": 7982,
+      "Q3": 3392,
+      "Q4": -2367,
+      "Q5": -59691
      }
     }
    }
@@ -3962,218 +4006,218 @@
    "years": {
     "Q": {
      "2030": {
-      "Q1": 6524,
-      "Q2": 2805,
-      "Q3": 1260,
-      "Q4": -1179,
-      "Q5": -41311
+      "Q1": 6641,
+      "Q2": 2954,
+      "Q3": 1331,
+      "Q4": -1143,
+      "Q5": -41294
      },
      "2031": {
-      "Q1": 7647,
-      "Q2": 3967,
-      "Q3": 2321,
-      "Q4": -408,
-      "Q5": -42499
+      "Q1": 7769,
+      "Q2": 4122,
+      "Q3": 2395,
+      "Q4": -371,
+      "Q5": -42480
      },
      "2032": {
-      "Q1": 8797,
-      "Q2": 4825,
-      "Q3": 2774,
-      "Q4": -423,
-      "Q5": -43981
+      "Q1": 8924,
+      "Q2": 4986,
+      "Q3": 2850,
+      "Q4": -384,
+      "Q5": -43962
      },
      "2033": {
-      "Q1": 9950,
-      "Q2": 5813,
-      "Q3": 3489,
-      "Q4": -105,
-      "Q5": -45238
+      "Q1": 10082,
+      "Q2": 5981,
+      "Q3": 3568,
+      "Q4": -65,
+      "Q5": -45219
      },
      "2034": {
-      "Q1": 10817,
-      "Q2": 6562,
-      "Q3": 4097,
-      "Q4": 233,
-      "Q5": -46462
+      "Q1": 10954,
+      "Q2": 6736,
+      "Q3": 4180,
+      "Q4": 275,
+      "Q5": -46441
      },
      "2035": {
-      "Q1": 9942,
-      "Q2": 5927,
-      "Q3": 3716,
-      "Q4": -72,
-      "Q5": -48198
+      "Q1": 10085,
+      "Q2": 6109,
+      "Q3": 3802,
+      "Q4": -29,
+      "Q5": -48177
      },
      "2036": {
-      "Q1": 9908,
-      "Q2": 5820,
-      "Q3": 3604,
-      "Q4": -285,
-      "Q5": -50133
+      "Q1": 10056,
+      "Q2": 6009,
+      "Q3": 3693,
+      "Q4": -239,
+      "Q5": -50111
      },
      "2037": {
-      "Q1": 10400,
-      "Q2": 6112,
-      "Q3": 3753,
-      "Q4": -353,
-      "Q5": -52252
+      "Q1": 10554,
+      "Q2": 6309,
+      "Q3": 3846,
+      "Q4": -305,
+      "Q5": -52228
      },
      "2038": {
-      "Q1": 10771,
-      "Q2": 6330,
-      "Q3": 3896,
-      "Q4": -362,
-      "Q5": -54317
+      "Q1": 10931,
+      "Q2": 6535,
+      "Q3": 3993,
+      "Q4": -313,
+      "Q5": -54293
      },
      "2039": {
-      "Q1": 11199,
-      "Q2": 6614,
-      "Q3": 4100,
-      "Q4": -318,
-      "Q5": -56407
+      "Q1": 11366,
+      "Q2": 6826,
+      "Q3": 4200,
+      "Q4": -267,
+      "Q5": -56382
      }
     },
     "Q-C19": {
      "2030": {
-      "Q1": 6524,
-      "Q2": 2805,
-      "Q3": 1260,
-      "Q4": -1179,
-      "Q5": -41311
+      "Q1": 6641,
+      "Q2": 2954,
+      "Q3": 1331,
+      "Q4": -1143,
+      "Q5": -41294
      },
      "2031": {
-      "Q1": 7630,
-      "Q2": 3885,
-      "Q3": 2125,
-      "Q4": -678,
-      "Q5": -42752
+      "Q1": 7752,
+      "Q2": 4040,
+      "Q3": 2198,
+      "Q4": -641,
+      "Q5": -42734
      },
      "2032": {
-      "Q1": 8763,
-      "Q2": 4656,
-      "Q3": 2369,
-      "Q4": -980,
-      "Q5": -44504
+      "Q1": 8890,
+      "Q2": 4817,
+      "Q3": 2446,
+      "Q4": -941,
+      "Q5": -44485
      },
      "2033": {
-      "Q1": 9921,
-      "Q2": 5668,
-      "Q3": 3140,
-      "Q4": -585,
-      "Q5": -45689
+      "Q1": 10053,
+      "Q2": 5835,
+      "Q3": 3219,
+      "Q4": -545,
+      "Q5": -45669
      },
      "2034": {
-      "Q1": 10801,
-      "Q2": 6481,
-      "Q3": 3903,
-      "Q4": -35,
-      "Q5": -46713
+      "Q1": 10938,
+      "Q2": 6655,
+      "Q3": 3986,
+      "Q4": 7,
+      "Q5": -46692
      },
      "2035": {
-      "Q1": 9939,
-      "Q2": 5911,
-      "Q3": 3678,
-      "Q4": -125,
-      "Q5": -48248
+      "Q1": 10082,
+      "Q2": 6093,
+      "Q3": 3764,
+      "Q4": -82,
+      "Q5": -48227
      },
      "2036": {
-      "Q1": 9908,
-      "Q2": 5820,
-      "Q3": 3604,
-      "Q4": -285,
-      "Q5": -50133
+      "Q1": 10056,
+      "Q2": 6009,
+      "Q3": 3693,
+      "Q4": -239,
+      "Q5": -50111
      },
      "2037": {
-      "Q1": 10400,
-      "Q2": 6112,
-      "Q3": 3753,
-      "Q4": -353,
-      "Q5": -52252
+      "Q1": 10554,
+      "Q2": 6309,
+      "Q3": 3846,
+      "Q4": -305,
+      "Q5": -52228
      },
      "2038": {
-      "Q1": 10771,
-      "Q2": 6330,
-      "Q3": 3896,
-      "Q4": -362,
-      "Q5": -54317
+      "Q1": 10931,
+      "Q2": 6535,
+      "Q3": 3993,
+      "Q4": -313,
+      "Q5": -54293
      },
      "2039": {
-      "Q1": 11199,
-      "Q2": 6614,
-      "Q3": 4100,
-      "Q4": -318,
-      "Q5": -56407
+      "Q1": 11366,
+      "Q2": 6826,
+      "Q3": 4200,
+      "Q4": -267,
+      "Q5": -56382
      }
     },
     "Q-EDU": {
      "2030": {
-      "Q1": 6462,
-      "Q2": 2418,
-      "Q3": 421,
-      "Q4": -2578,
-      "Q5": -42946
+      "Q1": 6579,
+      "Q2": 2567,
+      "Q3": 491,
+      "Q4": -2542,
+      "Q5": -42928
      },
      "2031": {
-      "Q1": 7767,
-      "Q2": 3835,
-      "Q3": 1817,
-      "Q4": -1459,
-      "Q5": -43857
+      "Q1": 7889,
+      "Q2": 3991,
+      "Q3": 1891,
+      "Q4": -1422,
+      "Q5": -43839
      },
      "2032": {
-      "Q1": 9171,
-      "Q2": 5030,
-      "Q3": 2681,
-      "Q4": -1066,
-      "Q5": -45023
+      "Q1": 9298,
+      "Q2": 5192,
+      "Q3": 2757,
+      "Q4": -1027,
+      "Q5": -45004
      },
      "2033": {
-      "Q1": 10452,
-      "Q2": 6122,
-      "Q3": 3418,
-      "Q4": -813,
-      "Q5": -46386
+      "Q1": 10584,
+      "Q2": 6290,
+      "Q3": 3498,
+      "Q4": -773,
+      "Q5": -46366
      },
      "2034": {
-      "Q1": 11323,
-      "Q2": 6804,
-      "Q3": 3834,
-      "Q4": -764,
-      "Q5": -47900
+      "Q1": 11461,
+      "Q2": 6979,
+      "Q3": 3917,
+      "Q4": -722,
+      "Q5": -47880
      },
      "2035": {
-      "Q1": 10454,
-      "Q2": 6103,
-      "Q3": 3258,
-      "Q4": -1362,
-      "Q5": -49932
+      "Q1": 10596,
+      "Q2": 6285,
+      "Q3": 3344,
+      "Q4": -1318,
+      "Q5": -49911
      },
      "2036": {
-      "Q1": 10436,
-      "Q2": 5984,
-      "Q3": 3082,
-      "Q4": -1687,
-      "Q5": -51994
+      "Q1": 10584,
+      "Q2": 6173,
+      "Q3": 3172,
+      "Q4": -1642,
+      "Q5": -51972
      },
      "2037": {
-      "Q1": 10949,
-      "Q2": 6283,
-      "Q3": 3211,
-      "Q4": -1812,
-      "Q5": -54187
+      "Q1": 11104,
+      "Q2": 6479,
+      "Q3": 3304,
+      "Q4": -1764,
+      "Q5": -54164
      },
      "2038": {
-      "Q1": 11342,
-      "Q2": 6508,
-      "Q3": 3332,
-      "Q4": -1879,
-      "Q5": -56330
+      "Q1": 11503,
+      "Q2": 6712,
+      "Q3": 3429,
+      "Q4": -1830,
+      "Q5": -56306
      },
      "2039": {
-      "Q1": 11793,
-      "Q2": 6798,
-      "Q3": 3513,
-      "Q4": -1896,
-      "Q5": -58500
+      "Q1": 11960,
+      "Q2": 7011,
+      "Q3": 3614,
+      "Q4": -1845,
+      "Q5": -58475
      }
     }
    }
@@ -5993,6 +6037,25 @@
     "source": "micro",
     "top1": 0.4
    },
+   "snap_earn": {
+    "legacy": [
+     30,
+     38,
+     18,
+     9,
+     5
+    ],
+    "legacy_top1": 0.4,
+    "shares": [
+     30.0,
+     38.2,
+     18.1,
+     9.2,
+     4.5
+    ],
+    "source": "micro",
+    "top1": 0.4
+   },
    "ss_benefit": {
     "legacy": [
      30,
@@ -6129,263 +6192,275 @@
   },
   "reconciliation_q": [
    {
-    "Q1": 8889,
-    "Q2": 6433,
-    "Q3": 3323,
-    "Q4": -527,
-    "Q5": -49665,
-    "Q5x": -16931,
-    "T1": -671627,
+    "Q1": 9037,
+    "Q2": 6620,
+    "Q3": 3411,
+    "Q4": -483,
+    "Q5": -49641,
+    "Q5x": -16907,
+    "T1": -671587,
     "step": "Legacy model (legacy keys, 140M households)"
    },
    {
-    "Q1": 8463,
-    "Q2": 6124,
-    "Q3": 3163,
-    "Q4": -502,
-    "Q5": -47282,
-    "Q5x": -16118,
-    "T1": -639394,
-    "change_q1": -426,
-    "change_q4": 25,
+    "Q1": 8603,
+    "Q2": 6303,
+    "Q3": 3248,
+    "Q4": -459,
+    "Q5": -47258,
+    "Q5x": -16095,
+    "T1": -639357,
+    "change_q1": -434,
+    "change_q4": 24,
     "step": "Households: the CPS count grown to FY2034-35, 147.1M"
    },
    {
-    "Q1": 8470,
-    "Q2": 6118,
-    "Q3": 3158,
-    "Q4": -504,
-    "Q5": -47275,
-    "Q5x": -16112,
-    "T1": -639373,
-    "change_q1": 7,
-    "change_q4": -2,
+    "Q1": 8611,
+    "Q2": 6297,
+    "Q3": 3242,
+    "Q4": -462,
+    "Q5": -47252,
+    "Q5x": -16089,
+    "T1": -639336,
+    "change_q1": 8,
+    "change_q4": -3,
     "step": "Key `aca_medicaid` measured on the CPS"
    },
    {
-    "Q1": 8513,
-    "Q2": 6157,
-    "Q3": 3124,
-    "Q4": -491,
-    "Q5": -47336,
-    "Q5x": -16179,
-    "T1": -639302,
-    "change_q1": 43,
+    "Q1": 8653,
+    "Q2": 6335,
+    "Q3": 3209,
+    "Q4": -449,
+    "Q5": -47312,
+    "Q5x": -16157,
+    "T1": -639264,
+    "change_q1": 42,
     "change_q4": 13,
     "step": "Key `adults` measured on the CPS"
    },
    {
-    "Q1": 8512,
-    "Q2": 6157,
-    "Q3": 3125,
-    "Q4": -491,
-    "Q5": -47335,
-    "Q5x": -16179,
-    "T1": -639302,
-    "change_q1": -1,
+    "Q1": 8653,
+    "Q2": 6335,
+    "Q3": 3209,
+    "Q4": -449,
+    "Q5": -47312,
+    "Q5x": -16156,
+    "T1": -639264,
+    "change_q1": 0,
     "change_q4": 0,
     "step": "Key `cdctc` measured on the CPS"
    },
    {
-    "Q1": 8767,
-    "Q2": 5980,
-    "Q3": 3307,
-    "Q4": -441,
-    "Q5": -47646,
-    "Q5x": -16507,
-    "T1": -639296,
+    "Q1": 8908,
+    "Q2": 6158,
+    "Q3": 3391,
+    "Q4": -398,
+    "Q5": -47623,
+    "Q5x": -16484,
+    "T1": -639258,
     "change_q1": 255,
-    "change_q4": 50,
+    "change_q4": 51,
     "step": "Key `ctc` measured on the CPS"
    },
    {
-    "Q1": 8767,
-    "Q2": 5981,
-    "Q3": 3308,
-    "Q4": -443,
-    "Q5": -47646,
-    "Q5x": -16506,
-    "T1": -639298,
-    "change_q1": 0,
+    "Q1": 8907,
+    "Q2": 6159,
+    "Q3": 3392,
+    "Q4": -400,
+    "Q5": -47622,
+    "Q5x": -16483,
+    "T1": -639261,
+    "change_q1": -1,
     "change_q4": -2,
     "step": "Key `eitc_childless` measured on the CPS"
    },
    {
-    "Q1": 8767,
-    "Q2": 5981,
-    "Q3": 3308,
-    "Q4": -443,
-    "Q5": -47646,
-    "Q5x": -16506,
-    "T1": -639298,
+    "Q1": 8907,
+    "Q2": 6159,
+    "Q3": 3392,
+    "Q4": -400,
+    "Q5": -47622,
+    "Q5x": -16483,
+    "T1": -639261,
     "change_q1": 0,
     "change_q4": 0,
     "step": "Key `employer_cov` measured on the CPS"
    },
    {
-    "Q1": 9573,
-    "Q2": 5526,
-    "Q3": 3070,
-    "Q4": -537,
-    "Q5": -47665,
-    "Q5x": -16531,
-    "T1": -639216,
-    "change_q1": 806,
-    "change_q4": -94,
+    "Q1": 9714,
+    "Q2": 5704,
+    "Q3": 3154,
+    "Q4": -495,
+    "Q5": -47641,
+    "Q5x": -16508,
+    "T1": -639178,
+    "change_q1": 807,
+    "change_q4": -95,
     "step": "Key `housing` measured on the CPS"
    },
    {
-    "Q1": 9628,
-    "Q2": 5367,
-    "Q3": 3141,
-    "Q4": -519,
-    "Q5": -47650,
-    "Q5x": -16515,
-    "T1": -639210,
+    "Q1": 9769,
+    "Q2": 5546,
+    "Q3": 3225,
+    "Q4": -477,
+    "Q5": -47627,
+    "Q5x": -16493,
+    "T1": -639172,
     "change_q1": 55,
     "change_q4": 18,
     "step": "Key `low_income_energy` measured on the CPS"
    },
    {
-    "Q1": 9612,
-    "Q2": 5371,
-    "Q3": 3151,
-    "Q4": -514,
-    "Q5": -47654,
-    "Q5x": -16519,
-    "T1": -639215,
+    "Q1": 9753,
+    "Q2": 5549,
+    "Q3": 3236,
+    "Q4": -472,
+    "Q5": -47630,
+    "Q5x": -16496,
+    "T1": -639178,
     "change_q1": -16,
     "change_q4": 5,
     "step": "Key `ma` measured on the CPS"
    },
    {
-    "Q1": 9661,
-    "Q2": 5369,
-    "Q3": 3131,
-    "Q4": -541,
-    "Q5": -47653,
-    "Q5x": -16510,
-    "T1": -639359,
-    "change_q1": 49,
+    "Q1": 9801,
+    "Q2": 5547,
+    "Q3": 3215,
+    "Q4": -499,
+    "Q5": -47629,
+    "Q5x": -16488,
+    "T1": -639322,
+    "change_q1": 48,
     "change_q4": -27,
     "step": "Key `medicare` measured on the CPS"
    },
    {
-    "Q1": 9616,
-    "Q2": 5362,
-    "Q3": 3143,
-    "Q4": -520,
-    "Q5": -47634,
-    "Q5x": -16492,
-    "T1": -639328,
-    "change_q1": -45,
+    "Q1": 9757,
+    "Q2": 5540,
+    "Q3": 3227,
+    "Q4": -478,
+    "Q5": -47611,
+    "Q5x": -16470,
+    "T1": -639290,
+    "change_q1": -44,
     "change_q4": 21,
     "step": "Key `partb` measured on the CPS"
    },
    {
-    "Q1": 9616,
-    "Q2": 5362,
-    "Q3": 3143,
-    "Q4": -520,
-    "Q5": -47634,
-    "Q5x": -16492,
-    "T1": -639328,
+    "Q1": 9757,
+    "Q2": 5540,
+    "Q3": 3227,
+    "Q4": -478,
+    "Q5": -47611,
+    "Q5x": -16470,
+    "T1": -639290,
     "change_q1": 0,
     "change_q4": 0,
     "step": "Key `persons` measured on the CPS"
    },
    {
-    "Q1": 9618,
-    "Q2": 5361,
-    "Q3": 3141,
-    "Q4": -520,
-    "Q5": -47633,
-    "Q5x": -16491,
-    "T1": -639332,
+    "Q1": 9759,
+    "Q2": 5539,
+    "Q3": 3225,
+    "Q4": -478,
+    "Q5": -47610,
+    "Q5x": -16469,
+    "T1": -639295,
     "change_q1": 2,
     "change_q4": 0,
     "step": "Key `snap` measured on the CPS"
    },
    {
-    "Q1": 9615,
-    "Q2": 5362,
-    "Q3": 3141,
-    "Q4": -519,
-    "Q5": -47632,
-    "Q5x": -16490,
-    "T1": -639335,
-    "change_q1": -3,
+    "Q1": 9755,
+    "Q2": 5541,
+    "Q3": 3226,
+    "Q4": -477,
+    "Q5": -47609,
+    "Q5x": -16467,
+    "T1": -639297,
+    "change_q1": -4,
     "change_q4": 1,
     "step": "Key `snap_cut` measured on the CPS"
    },
    {
-    "Q1": 9535,
-    "Q2": 5360,
-    "Q3": 3159,
-    "Q4": -497,
-    "Q5": -47591,
-    "Q5x": -16448,
-    "T1": -639306,
-    "change_q1": -80,
+    "Q1": 9755,
+    "Q2": 5542,
+    "Q3": 3226,
+    "Q4": -476,
+    "Q5": -47611,
+    "Q5x": -16470,
+    "T1": -639300,
+    "change_q1": 0,
+    "change_q4": 1,
+    "step": "Key `snap_earn` measured on the CPS"
+   },
+   {
+    "Q1": 9676,
+    "Q2": 5539,
+    "Q3": 3244,
+    "Q4": -454,
+    "Q5": -47570,
+    "Q5x": -16427,
+    "T1": -639271,
+    "change_q1": -79,
     "change_q4": 22,
     "step": "Key `ss_benefit` measured on the CPS"
    },
    {
-    "Q1": 9535,
-    "Q2": 5360,
-    "Q3": 3160,
-    "Q4": -497,
-    "Q5": -47591,
-    "Q5x": -16448,
-    "T1": -639306,
-    "change_q1": 0,
+    "Q1": 9675,
+    "Q2": 5540,
+    "Q3": 3245,
+    "Q4": -454,
+    "Q5": -47570,
+    "Q5x": -16428,
+    "T1": -639271,
+    "change_q1": -1,
     "change_q4": 0,
     "step": "Key `ssi` measured on the CPS"
    },
    {
-    "Q1": 9535,
-    "Q2": 5360,
-    "Q3": 3160,
-    "Q4": -497,
-    "Q5": -47591,
-    "Q5x": -16448,
-    "T1": -639306,
+    "Q1": 9675,
+    "Q2": 5540,
+    "Q3": 3245,
+    "Q4": -454,
+    "Q5": -47570,
+    "Q5x": -16428,
+    "T1": -639271,
     "change_q1": 0,
     "change_q4": 0,
     "step": "Key `ssi_exclusions` measured on the CPS"
    },
    {
-    "Q1": 9535,
-    "Q2": 5360,
-    "Q3": 3154,
-    "Q4": -470,
-    "Q5": -47612,
-    "Q5x": -16470,
-    "T1": -639306,
+    "Q1": 9675,
+    "Q2": 5540,
+    "Q3": 3239,
+    "Q4": -427,
+    "Q5": -47590,
+    "Q5x": -16449,
+    "T1": -639271,
     "change_q1": 0,
     "change_q4": 27,
     "step": "Key `surtax` measured on the CPS"
    },
    {
-    "Q1": 9567,
-    "Q2": 5417,
-    "Q3": 3212,
-    "Q4": -408,
-    "Q5": -47822,
-    "Q5x": -16691,
-    "T1": -639306,
-    "change_q1": 32,
+    "Q1": 9708,
+    "Q2": 5596,
+    "Q3": 3297,
+    "Q4": -365,
+    "Q5": -47801,
+    "Q5x": -16671,
+    "T1": -639271,
+    "change_q1": 33,
     "change_q4": 62,
     "step": "Key `wages` measured on the CPS"
    },
    {
-    "Q1": 9595,
-    "Q2": 5477,
-    "Q3": 3301,
-    "Q4": -327,
-    "Q5": -48080,
-    "Q5x": -16967,
-    "T1": -639233,
+    "Q1": 9736,
+    "Q2": 5657,
+    "Q3": 3386,
+    "Q4": -284,
+    "Q5": -48059,
+    "Q5x": -16946,
+    "T1": -639198,
     "change_q1": 28,
     "change_q4": 81,
     "step": "Key `wages_cap` measured on the CPS"
@@ -6395,89 +6470,89 @@
    "A. Base package only (gap unfunded)": {
     "legacy": {
      "Q1": {
-      "benefit": 10363,
+      "benefit": 10511,
       "cost": 1420,
-      "net": 8943,
-      "pct": 38.9
+      "net": 9091,
+      "pct": 39.5
      },
      "Q2": {
-      "benefit": 8982,
+      "benefit": 9170,
       "cost": 2386,
-      "net": 6597,
-      "pct": 11.0
+      "net": 6784,
+      "pct": 11.3
      },
      "Q3": {
-      "benefit": 7181,
+      "benefit": 7269,
       "cost": 3499,
-      "net": 3682,
-      "pct": 3.5
+      "net": 3770,
+      "pct": 3.6
      },
      "Q4": {
-      "benefit": 5433,
+      "benefit": 5478,
       "cost": 5093,
-      "net": 340,
+      "net": 384,
       "pct": 0.2
      },
      "Q5": {
-      "benefit": 3780,
+      "benefit": 3805,
       "cost": 43414,
-      "net": -39634,
+      "net": -39609,
       "pct": -7.6
      },
      "Q5x": {
-      "benefit": 3825,
+      "benefit": 3849,
       "cost": 16942,
-      "net": -13117,
+      "net": -13093,
       "pct": null
      },
      "T1": {
-      "benefit": 2926,
+      "benefit": 2965,
       "cost": 546375,
-      "net": -543449,
+      "net": -543410,
       "pct": -12.6
      }
     },
     "model": {
      "Q1": {
-      "benefit": 10998,
+      "benefit": 11139,
       "cost": 1359,
-      "net": 9639,
-      "pct": 34.2
+      "net": 9780,
+      "pct": 34.7
      },
      "Q2": {
-      "benefit": 7791,
+      "benefit": 7970,
       "cost": 2171,
-      "net": 5620,
-      "pct": 7.3
+      "net": 5799,
+      "pct": 7.5
      },
      "Q3": {
-      "benefit": 6810,
+      "benefit": 6895,
       "cost": 3175,
-      "net": 3635,
+      "net": 3720,
       "pct": 2.8
      },
      "Q4": {
-      "benefit": 5151,
+      "benefit": 5194,
       "cost": 4694,
-      "net": 457,
+      "net": 500,
       "pct": 0.2
      },
      "Q5": {
-      "benefit": 3274,
+      "benefit": 3295,
       "cost": 41735,
-      "net": -38460,
+      "net": -38439,
       "pct": -8.2
      },
      "Q5x": {
-      "benefit": 3297,
+      "benefit": 3317,
       "cost": 16560,
-      "net": -13263,
+      "net": -13243,
       "pct": null
      },
      "T1": {
-      "benefit": 2848,
+      "benefit": 2883,
       "cost": 520054,
-      "net": -517207,
+      "net": -517172,
       "pct": -32.9
      }
     }
@@ -6485,89 +6560,89 @@
    "Q-C19. Q with the exclusion cap at the median premium (C19, the fallback)": {
     "legacy": {
      "Q1": {
-      "benefit": 10363,
+      "benefit": 10511,
       "cost": 1484,
-      "net": 8879,
-      "pct": 38.6
+      "net": 9027,
+      "pct": 39.2
      },
      "Q2": {
-      "benefit": 8982,
+      "benefit": 9170,
       "cost": 2601,
-      "net": 6381,
-      "pct": 10.6
+      "net": 6569,
+      "pct": 10.9
      },
      "Q3": {
-      "benefit": 7181,
+      "benefit": 7269,
       "cost": 3982,
-      "net": 3198,
-      "pct": 3.0
+      "net": 3287,
+      "pct": 3.1
      },
      "Q4": {
-      "benefit": 5433,
+      "benefit": 5478,
       "cost": 6131,
-      "net": -698,
+      "net": -653,
       "pct": -0.4
      },
      "Q5": {
-      "benefit": 3780,
+      "benefit": 3805,
       "cost": 53606,
-      "net": -49826,
+      "net": -49801,
       "pct": -9.6
      },
      "Q5x": {
-      "benefit": 3825,
+      "benefit": 3849,
       "cost": 20914,
-      "net": -17089,
+      "net": -17065,
       "pct": null
      },
      "T1": {
-      "benefit": 2926,
+      "benefit": 2965,
       "cost": 674759,
-      "net": -671834,
+      "net": -671795,
       "pct": -15.6
      }
     },
     "model": {
      "Q1": {
-      "benefit": 10998,
+      "benefit": 11139,
       "cost": 1413,
-      "net": 9586,
-      "pct": 34.0
+      "net": 9726,
+      "pct": 34.5
      },
      "Q2": {
-      "benefit": 7791,
+      "benefit": 7970,
       "cost": 2363,
-      "net": 5428,
-      "pct": 7.1
+      "net": 5607,
+      "pct": 7.3
      },
      "Q3": {
-      "benefit": 6810,
+      "benefit": 6895,
       "cost": 3627,
-      "net": 3183,
-      "pct": 2.4
+      "net": 3268,
+      "pct": 2.5
      },
      "Q4": {
-      "benefit": 5151,
+      "benefit": 5194,
       "cost": 5641,
-      "net": -490,
+      "net": -447,
       "pct": -0.2
      },
      "Q5": {
-      "benefit": 3274,
+      "benefit": 3295,
       "cost": 51507,
-      "net": -48233,
+      "net": -48212,
       "pct": -10.2
      },
      "Q5x": {
-      "benefit": 3297,
+      "benefit": 3317,
       "cost": 20414,
-      "net": -17117,
+      "net": -17097,
       "pct": null
      },
      "T1": {
-      "benefit": 2848,
+      "benefit": 2883,
       "cost": 642277,
-      "net": -639430,
+      "net": -639395,
       "pct": -40.6
      }
     }
@@ -6575,89 +6650,89 @@
    "Q-EDU. Q with the EDU-9B education fund (held) in place of C19b and C20": {
     "legacy": {
      "Q1": {
-      "benefit": 10937,
+      "benefit": 11085,
       "cost": 1705,
-      "net": 9232,
-      "pct": 40.1
+      "net": 9380,
+      "pct": 40.8
      },
      "Q2": {
-      "benefit": 9602,
+      "benefit": 9789,
       "cost": 3221,
-      "net": 6381,
-      "pct": 10.6
+      "net": 6568,
+      "pct": 10.9
      },
      "Q3": {
-      "benefit": 7693,
+      "benefit": 7781,
       "cost": 5015,
-      "net": 2677,
-      "pct": 2.5
+      "net": 2766,
+      "pct": 2.6
      },
      "Q4": {
-      "benefit": 5781,
+      "benefit": 5826,
       "cost": 7732,
-      "net": -1951,
+      "net": -1906,
       "pct": -1.1
      },
      "Q5": {
-      "benefit": 3976,
+      "benefit": 4001,
       "cost": 54745,
-      "net": -50769,
+      "net": -50744,
       "pct": -9.8
      },
      "Q5x": {
-      "benefit": 4024,
+      "benefit": 4048,
       "cost": 22497,
-      "net": -18473,
+      "net": -18449,
       "pct": null
      },
      "T1": {
-      "benefit": 3065,
+      "benefit": 3104,
       "cost": 667455,
-      "net": -664390,
+      "net": -664351,
       "pct": -15.5
      }
     },
     "model": {
      "Q1": {
-      "benefit": 11545,
+      "benefit": 11686,
       "cost": 1530,
-      "net": 10015,
-      "pct": 35.5
+      "net": 10156,
+      "pct": 36.0
      },
      "Q2": {
-      "benefit": 8380,
+      "benefit": 8560,
       "cost": 2792,
-      "net": 5589,
-      "pct": 7.3
+      "net": 5768,
+      "pct": 7.5
      },
      "Q3": {
-      "benefit": 7297,
+      "benefit": 7382,
       "cost": 4441,
-      "net": 2857,
-      "pct": 2.2
+      "net": 2942,
+      "pct": 2.3
      },
      "Q4": {
-      "benefit": 5482,
+      "benefit": 5525,
       "cost": 7014,
-      "net": -1532,
+      "net": -1489,
       "pct": -0.7
      },
      "Q5": {
-      "benefit": 3461,
+      "benefit": 3482,
       "cost": 53167,
-      "net": -49706,
-      "pct": -10.6
+      "net": -49685,
+      "pct": -10.5
      },
      "Q5x": {
-      "benefit": 3486,
+      "benefit": 3507,
       "cost": 22527,
-      "net": -19041,
+      "net": -19020,
       "pct": null
      },
      "T1": {
-      "benefit": 2980,
+      "benefit": 3015,
       "cost": 635324,
-      "net": -632343,
+      "net": -632309,
       "pct": -40.2
      }
     }
@@ -6665,89 +6740,89 @@
    "Q-H7. Q with the single plan's household rows (H7h, H7w, H7x) and its long-term care title (H9), before the settlement's new taxes; not a pass or fail": {
     "legacy": {
      "Q1": {
-      "benefit": 16036,
+      "benefit": 16184,
       "cost": 1629,
-      "net": 14407,
-      "pct": 62.6
+      "net": 14555,
+      "pct": 63.3
      },
      "Q2": {
-      "benefit": 20764,
+      "benefit": 20951,
       "cost": 4155,
-      "net": 16608,
-      "pct": 27.7
+      "net": 16796,
+      "pct": 28.0
      },
      "Q3": {
-      "benefit": 27251,
+      "benefit": 27340,
       "cost": 7726,
-      "net": 19525,
-      "pct": 18.6
+      "net": 19614,
+      "pct": 18.7
      },
      "Q4": {
-      "benefit": 31449,
+      "benefit": 31494,
       "cost": 11451,
-      "net": 19998,
+      "net": 20042,
       "pct": 11.1
      },
      "Q5": {
-      "benefit": 31143,
+      "benefit": 31167,
       "cost": 59593,
-      "net": -28450,
+      "net": -28426,
       "pct": -5.5
      },
      "Q5x": {
-      "benefit": 31065,
+      "benefit": 31089,
       "cost": 26772,
-      "net": 4293,
+      "net": 4317,
       "pct": null
      },
      "T1": {
-      "benefit": 32618,
+      "benefit": 32657,
       "cost": 683186,
-      "net": -650568,
+      "net": -650529,
       "pct": -15.1
      }
     },
     "model": {
      "Q1": {
-      "benefit": 16904,
+      "benefit": 17045,
       "cost": 1551,
-      "net": 15353,
-      "pct": 54.4
+      "net": 15494,
+      "pct": 54.9
      },
      "Q2": {
-      "benefit": 19359,
+      "benefit": 19539,
       "cost": 3842,
-      "net": 15517,
-      "pct": 20.2
+      "net": 15696,
+      "pct": 20.4
      },
      "Q3": {
-      "benefit": 25240,
+      "benefit": 25325,
       "cost": 7191,
-      "net": 18049,
-      "pct": 13.8
+      "net": 18134,
+      "pct": 13.9
      },
      "Q4": {
-      "benefit": 29052,
+      "benefit": 29095,
       "cost": 10706,
-      "net": 18346,
+      "net": 18389,
       "pct": 8.9
      },
      "Q5": {
-      "benefit": 30010,
+      "benefit": 30031,
       "cost": 57207,
-      "net": -27197,
+      "net": -27175,
       "pct": -5.8
      },
      "Q5x": {
-      "benefit": 30137,
+      "benefit": 30157,
       "cost": 25991,
-      "net": 4146,
+      "net": 4166,
       "pct": null
      },
      "T1": {
-      "benefit": 27601,
+      "benefit": 27636,
       "cost": 650300,
-      "net": -622699,
+      "net": -622664,
       "pct": -39.6
      }
     }
@@ -6755,89 +6830,89 @@
    "Q-SAF. Q with SAF-R2 (alcohol excise dropped)": {
     "legacy": {
      "Q1": {
-      "benefit": 10363,
+      "benefit": 10511,
       "cost": 1444,
-      "net": 8919,
-      "pct": 38.8
+      "net": 9067,
+      "pct": 39.4
      },
      "Q2": {
-      "benefit": 8982,
+      "benefit": 9170,
       "cost": 2507,
-      "net": 6476,
-      "pct": 10.8
+      "net": 6663,
+      "pct": 11.1
      },
      "Q3": {
-      "benefit": 7181,
+      "benefit": 7269,
       "cost": 3805,
-      "net": 3375,
-      "pct": 3.2
+      "net": 3464,
+      "pct": 3.3
      },
      "Q4": {
-      "benefit": 5433,
+      "benefit": 5478,
       "cost": 5903,
-      "net": -469,
-      "pct": -0.3
+      "net": -425,
+      "pct": -0.2
      },
      "Q5": {
-      "benefit": 3780,
+      "benefit": 3805,
       "cost": 53378,
-      "net": -49598,
+      "net": -49573,
       "pct": -9.5
      },
      "Q5x": {
-      "benefit": 3825,
+      "benefit": 3849,
       "cost": 20690,
-      "net": -16865,
+      "net": -16841,
       "pct": null
      },
      "T1": {
-      "benefit": 2926,
+      "benefit": 2965,
       "cost": 674452,
-      "net": -671527,
+      "net": -671487,
       "pct": -15.6
      }
     },
     "model": {
      "Q1": {
-      "benefit": 10998,
+      "benefit": 11139,
       "cost": 1374,
-      "net": 9624,
-      "pct": 34.1
+      "net": 9765,
+      "pct": 34.6
      },
      "Q2": {
-      "benefit": 7791,
+      "benefit": 7970,
       "cost": 2273,
-      "net": 5518,
-      "pct": 7.2
+      "net": 5697,
+      "pct": 7.4
      },
      "Q3": {
-      "benefit": 6810,
+      "benefit": 6895,
       "cost": 3459,
-      "net": 3351,
+      "net": 3436,
       "pct": 2.6
      },
      "Q4": {
-      "benefit": 5151,
+      "benefit": 5194,
       "cost": 5423,
-      "net": -272,
+      "net": -229,
       "pct": -0.1
      },
      "Q5": {
-      "benefit": 3274,
+      "benefit": 3295,
       "cost": 51290,
-      "net": -48016,
+      "net": -47994,
       "pct": -10.2
      },
      "Q5x": {
-      "benefit": 3297,
+      "benefit": 3317,
       "cost": 20201,
-      "net": -16904,
+      "net": -16883,
       "pct": null
      },
      "T1": {
-      "benefit": 2848,
+      "benefit": 2883,
       "cost": 641985,
-      "net": -639137,
+      "net": -639103,
       "pct": -40.6
      }
     }
@@ -6845,89 +6920,89 @@
    "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, C39-C41 and C43": {
     "legacy": {
      "Q1": {
-      "benefit": 10363,
+      "benefit": 10511,
       "cost": 1474,
-      "net": 8889,
-      "pct": 38.6
+      "net": 9037,
+      "pct": 39.3
      },
      "Q2": {
-      "benefit": 8982,
+      "benefit": 9170,
       "cost": 2549,
-      "net": 6433,
-      "pct": 10.7
+      "net": 6620,
+      "pct": 11.0
      },
      "Q3": {
-      "benefit": 7181,
+      "benefit": 7269,
       "cost": 3858,
-      "net": 3323,
+      "net": 3411,
       "pct": 3.2
      },
      "Q4": {
-      "benefit": 5433,
+      "benefit": 5478,
       "cost": 5960,
-      "net": -527,
+      "net": -483,
       "pct": -0.3
      },
      "Q5": {
-      "benefit": 3780,
+      "benefit": 3805,
       "cost": 53446,
-      "net": -49665,
-      "pct": -9.6
+      "net": -49641,
+      "pct": -9.5
      },
      "Q5x": {
-      "benefit": 3825,
+      "benefit": 3849,
       "cost": 20756,
-      "net": -16931,
+      "net": -16907,
       "pct": null
      },
      "T1": {
-      "benefit": 2926,
+      "benefit": 2965,
       "cost": 674552,
-      "net": -671627,
+      "net": -671587,
       "pct": -15.6
      }
     },
     "model": {
      "Q1": {
-      "benefit": 10998,
+      "benefit": 11139,
       "cost": 1403,
-      "net": 9595,
-      "pct": 34.0
+      "net": 9736,
+      "pct": 34.5
      },
      "Q2": {
-      "benefit": 7791,
+      "benefit": 7970,
       "cost": 2313,
-      "net": 5477,
-      "pct": 7.1
+      "net": 5657,
+      "pct": 7.4
      },
      "Q3": {
-      "benefit": 6810,
+      "benefit": 6895,
       "cost": 3509,
-      "net": 3301,
-      "pct": 2.5
+      "net": 3386,
+      "pct": 2.6
      },
      "Q4": {
-      "benefit": 5151,
+      "benefit": 5194,
       "cost": 5478,
-      "net": -327,
-      "pct": -0.2
+      "net": -284,
+      "pct": -0.1
      },
      "Q5": {
-      "benefit": 3274,
+      "benefit": 3295,
       "cost": 51354,
-      "net": -48080,
+      "net": -48059,
       "pct": -10.2
      },
      "Q5x": {
-      "benefit": 3297,
+      "benefit": 3317,
       "cost": 20263,
-      "net": -16967,
+      "net": -16946,
       "pct": null
      },
      "T1": {
-      "benefit": 2848,
+      "benefit": 2883,
       "cost": 642080,
-      "net": -639233,
+      "net": -639198,
       "pct": -40.6
      }
     }
@@ -6935,22 +7010,22 @@
   },
   "sensitivity_housing_legacy_q": {
    "central": {
-    "Q1": 9595,
-    "Q2": 5477,
-    "Q3": 3301,
-    "Q4": -327,
-    "Q5": -48080,
-    "Q5x": -16967,
-    "T1": -639233
+    "Q1": 9736,
+    "Q2": 5657,
+    "Q3": 3386,
+    "Q4": -284,
+    "Q5": -48059,
+    "Q5x": -16946,
+    "T1": -639198
    },
    "housing_legacy": {
-    "Q1": 8789,
-    "Q2": 5932,
-    "Q3": 3539,
-    "Q4": -233,
-    "Q5": -48061,
-    "Q5x": -16942,
-    "T1": -639315
+    "Q1": 8930,
+    "Q2": 6111,
+    "Q3": 3624,
+    "Q4": -190,
+    "Q5": -48039,
+    "Q5x": -16922,
+    "T1": -639281
    }
   }
  },

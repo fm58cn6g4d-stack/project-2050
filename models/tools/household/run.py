@@ -346,8 +346,9 @@ def ceiling_markdown(R, A):
       "from every federal layer under the decided plan, taxes included, against the published ceiling of 65 cents. "
       "Housing's 30% rent rule is outside it, as INC-5.02 says. Layers (`families.py`, `plan_budget`): payroll with paid "
       "leave's worker share (FAM-3.04, 0.3%); income tax at 2029 law with FAM-1's child benefit in place of today's "
-      "child credit and INC-1.01's childless credit; SNAP on the rules INC-2 restores, with and without the excess "
-      "shelter deduction; the premium tax credit on the marketplace in 2030-34, which the single plan ends from 2035; "
+      "child credit and INC-1.01's childless credit; SNAP on the rules INC-2 restores, with its earned income deduction "
+      "at 45% (INC-2.02, Espen's option D, `DEC-2026-11-13-03`), with and without the excess shelter deduction; the "
+      "premium tax credit on the marketplace in 2030-34, which the single plan ends from 2035; "
       "child care's charge for the child under 5 (FAM-2.01), net of INC-4's refundable credit. The charge depends on "
       f"the state's median income: the CPS's lowest state (${sm['lowest']:,} for four in 2029) and its national median "
       f"(${sm['national']:,}) stand in for HHS's figures. 2029 law and prices throughout. The 2030-34 marketplace "
@@ -355,12 +356,16 @@ def ceiling_markdown(R, A):
       "adults have Medicaid instead.\n")
     lab = {"single_parent_2": "Single parent, two children", "married_2": "Married couple, two children (one earner)",
            "single_adult": "Single adult"}
-    A("| Family | Case | Highest rate (cents) | At % of poverty | Above 65 at | Result |\n| --- | --- | --- | --- | --- | --- |")
+    bd = C["before_inc2_02"]
+    A("| Family | Case | Highest rate (cents) | At % of poverty | Above 65 at | Result | Before INC-2.02 (20%) |\n"
+      "| --- | --- | --- | --- | --- | --- | --- |")
     for k, v in chk.items():
         for case, _ in CEILING_CASES:
             r = v[f"{case} | lowest-income state"]
             over = ", ".join(f"{x}%" for x in r["over"]) or "—"
-            A(f"| {lab[k]} | {case} | {r['max']} | {r['at']}% | {over} | {'**meets**' if r['pass'] else '**fails**'} |")
+            b = bd[k][case]
+            A(f"| {lab[k]} | {case} | {r['max']} | {r['at']}% | {over} | {'**meets**' if r['pass'] else '**fails**'} "
+              f"| {b['max']} ({'meets' if b['pass'] else 'fails'}) |")
     A("\nThe typical state gives the same highest rates: the charge starts above 300% of poverty there, and where it "
       "does reach these families (the lowest-income state, from about 240%), their rate is 26-32 cents from 2035 and "
       "39-46 cents in 2032-34 with the premium credit. Paid leave at "
@@ -368,24 +373,28 @@ def ceiling_markdown(R, A):
       "with the rent) are cliffs, not rates, and exist under current law.\n")
     sp = {r["pct_poverty"]: r for r in chk["single_parent_2"][CEILING_CASES[1][0] + " | lowest-income state"]["rows"]}
     r = sp[100]
-    A(f"**Where it fails:** single parent at 100% of poverty, 2035 on, with the rent: payroll {r['payroll']}, income "
-      f"tax {r['income_tax']} (the earned income credit's 21.06% phase-out plus the 10% bracket), SNAP {r['snap']} "
-      f"(30% of a net income that rises by $1.20 a dollar once the shelter deduction shrinks), total **{r['total']}**. "
-      "Two things push it past memo 7's arithmetic: SNAP's shelter interaction (36 cents, not 24), and FAM-1, which "
-      "replaces the child credit whose nonrefundable part today offsets the 10% bracket at these incomes (+10 cents).\n")
-    A("**What two fixes would cost** (2029, static, full take-up; for the lead's options, not decided):\n")
+    A(f"**What INC-2.02 fixes:** before it, the single parent at 100% of poverty, 2035 on, with the rent, reached "
+      f"{bd['single_parent_2'][CEILING_CASES[1][0]]['max']} cents: SNAP took 36 cents, not memo 7's 24, because each "
+      "dollar also shrinks the shelter deduction, and FAM-1 replaces the child credit whose nonrefundable part today "
+      "offsets the 10% bracket at these incomes (+10 cents). With the deduction at 45%, SNAP counts 55 cents of each "
+      "earned dollar, so it takes about 17 cents, and up to about 25 where the shelter deduction still shrinks with "
+      "income (the married couple at 125%): the same family is at "
+      f"payroll {r['payroll']}, income tax {r['income_tax']}, SNAP {r['snap']}, total **{r['total']}**.\n")
+    mr = {x["pct_poverty"]: x for x in chk["married_2"][CEILING_CASES[3][0] + " | lowest-income state"]["rows"]}[125]
+    A(f"**The one case still above the ceiling:** the married couple with two children and one earner, on the "
+      f"marketplace in 2030-34 with the rent, at 125% of poverty: payroll {mr['payroll']}, income tax "
+      f"{mr['income_tax']}, SNAP {mr['snap']}, the premium credit {mr['ptc']}, total **{mr['total']}**. It applies "
+      "only in states that have not expanded Medicaid, and only until the single plan ends the premium credit in 2035. "
+      "INC-5.02's monitoring rule covers it (a family type above the ceiling for two years triggers a review by the "
+      "owning dossiers); it is not fixed here.\n")
+    A("**The options Espen weighed** (2029, static, full take-up):\n")
     A(f"- a nonrefundable family offset against income tax of $750 a child: about ${op['family_offset_750_bn']}B a "
-      f"year (${op['family_offset_500_bn']}B at $500, which falls short at 125% of poverty). It removes the 10% "
-      "bracket's 10 cents at 100-125%: from 2035 the shelter case comes to the ceiling exactly (65.0, so paid leave "
-      "at its ceiling would tip it over), and the 2030-34 marketplace case to 55; with the rent in 2030-34 it is still "
-      "67.1;")
-    A(f"- SNAP's earned income deduction from 20% to 45%: up to about ${op['snap_earnings_deduction_45_bn_upper']}B a "
-      "year on the CPS's annual earnings of SNAP households (an upper bound: SNAP counts monthly income only in months "
-      "on SNAP, and the CPS records under half of SNAP). SNAP's rate falls to about 25 cents with the shelter "
-      "deduction and 17 without; every case meets the ceiling except the married couple on the marketplace in "
-      "2030-34 with the rent (65.9).\n")
-    A("Only the two together clear every case. Neither is decided; the options are the lead's to put to Espen "
-      "(INC-5.02's own rule is a review by the owning dossiers when a family type is above the ceiling for two years).\n")
+      f"year (${op['family_offset_500_bn']}B at $500). Not chosen;")
+    A(f"- SNAP's earned income deduction from 20% to 45% (option D, chosen): up to about "
+      f"${op['snap_earnings_deduction_45_bn_upper']}B a year on the CPS's annual earnings of SNAP households, an upper "
+      "bound (SNAP counts monthly income only in months on SNAP; the CPS's annual earnings include months off it). The "
+      "booking uses SNAP's own records instead (`dossiers/secure-floor/6-cost.md`, part 1): about $12 billion in "
+      "FY2030, range $8-16 billion.\n")
 
 
 def d3_markdown(R, A):
@@ -523,7 +532,11 @@ def main():
                      for k, f in FAMILIES.items()}
     R["provisions"] = provision_runs(B, a.ledger)
     sm = state_medians(B)
+    before = ceiling_check(sm["lowest"], sm["national"], snap_earn_ded=0.20)
     R["ceiling"] = {"state_median_income_4": sm, "check": ceiling_check(sm["lowest"], sm["national"]),
+                    "before_inc2_02": {k: {c.split(" | ")[0]: {"max": r["max"], "at": r["at"], "pass": r["pass"]}
+                                           for c, r in v.items() if c.endswith("lowest-income state")}
+                                       for k, v in before.items()},
                     "options": ceiling_options(B)}
     R["secure_floor_rules"] = secure_floor_rules(B, a.ledger)
     R["d3"] = d3_block(B, a.ledger)

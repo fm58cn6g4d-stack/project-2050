@@ -413,6 +413,32 @@
   "spec": "dossiers/secure-floor/4-specification.md"
  },
  {
+  "id": "INC-2.02",
+  "title": "SNAP: the earned income deduction from 20% to 45%",
+  "agenda": "INC-2",
+  "status": "decided, Espen's option D on the 65-cent ceiling",
+  "decisions": [
+   "DEC-2026-11-13-03"
+  ],
+  "parameters": "From FY2030, 7 U.S.C. 2014(e)(2) and 7 CFR 273.9(d)(2) deduct 45% of earned income, not 20%, before net income; the gross and net income tests, the shelter cap and the standard deduction stay. SNAP's take on an earned dollar falls from about 24 cents to 16.5 (36 to about 25 with the shelter interaction), which brings the typical families under the 65-cent ceiling (INC-5.02) in every checked case but one",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R1",
+    "kind": "mandatory",
+    "note": "2029 reconciliation act"
+   }
+  ],
+  "agency": "USDA (FNS); states",
+  "current_law": "7 U.S.C. 2014(e)(2): 20% of earned income is deducted; P.L. 119-21 did not change it",
+  "evidence": [
+   "EV-SEC-616"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1",
+  "spec": "dossiers/secure-floor/4-specification.md"
+ },
+ {
   "id": "INC-3.01",
   "title": "SSI's asset limits raised and indexed",
   "agenda": "INC-3",

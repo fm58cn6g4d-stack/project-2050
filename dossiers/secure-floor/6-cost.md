@@ -1,6 +1,6 @@
 # A secure floor for every household: cost
 
-Role: section 6 of the secure floor dossier. It prices the provisions of `4-specification.md` on federal fiscal years against the January 2029 law, reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`), reprices memo 1 A without the $2,200 floor Espen declined, and re-runs the child-poverty model on the decided design. Status: reviewed (L2, milestone review `review-milestone.md`, #298; L3 after its fix steps and re-check), on `DEC-2026-11-12-06`. Every figure is project arithmetic, not an official score. Parts 1-5 are the dossier's pricing; part 6 is the budget model's booking of it (`models/tools/secure_floor_booking.py`), with the leave fund and Social Security of part 4 as booked.
+Role: section 6 of the secure floor dossier. It prices the provisions of `4-specification.md` on federal fiscal years against the January 2029 law, reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`), reprices memo 1 A without the $2,200 floor Espen declined, and re-runs the child-poverty model on the decided design. Status: reviewed (L2, milestone review `review-milestone.md`, #298; L3 after its fix steps and re-check), on `DEC-2026-11-12-06`, with INC-2.02 added on `DEC-2026-11-13-03`. Every figure is project arithmetic, not an official score. Parts 1-5 are the dossier's pricing; part 6 is the budget model's booking of it (`models/tools/secure_floor_booking.py`), with the leave fund and Social Security of part 4 as booked.
 
 ## Counting rules
 
@@ -21,19 +21,30 @@ Role: section 6 of the secure floor dossier. It prices the provisions of `4-spec
 | The repayment safe harbor | FAM-1.06 | 0 | 1.0 | 1.0 | 1.0 | 1.1 | 1.1 | 1.1 | 1.1 | 1.2 | 1.2 | **9.9** | **1.2** |
 | The childless earned income credit | INC-1.01 | 0 | 14.9 | 15.2 | 15.5 | 15.8 | 16.1 | 16.5 | 16.8 | 17.1 | 17.5 | **145.3** | **17.8** |
 | SNAP restored | INC-2.01 | 20.5 | 21.0 | 21.5 | 22.1 | 22.6 | 23.2 | 23.8 | 24.4 | 25.0 | 25.6 | **229.7** | **26.2** |
+| SNAP's earned income deduction at 45% (Espen's option D, `DEC-2026-11-13-03`) | INC-2.02 | 12.0 | 12.4 | 12.7 | 13.1 | 13.5 | 13.9 | 14.3 | 14.8 | 15.2 | 15.7 | **137.6** | **16.1** |
 | SSI's asset limits | INC-3.01 | 1.1 | 1.1 | 1.2 | 1.2 | 1.2 | 1.3 | 1.3 | 1.4 | 1.4 | 1.4 | **12.6** | **1.5** |
 | SSI's exclusions indexed | INC-3.02 | 0.6 | 0.7 | 0.8 | 0.9 | 1.0 | 1.1 | 1.2 | 1.3 | 1.4 | 1.5 | **10.5** | **1.6** |
 | SSI in the territories (Espen, November 12, lead session) | INC-3.03 | 0 | 1.2 | 2.1 | 2.3 | 2.3 | 2.3 | 2.4 | 2.4 | 2.4 | 2.4 | **19.7** | **2.5** |
 | The refundable dependent care credit | INC-4.01 | 0 | 4.5 | 4.6 | 4.7 | 4.8 | 5.0 | 5.1 | 5.2 | 5.3 | 5.5 | **44.8** | **5.6** |
 | The exclusion rule's forgone offsets | INC-5.01 | 0 | 2.0 | 2.1 | 2.1 | 2.2 | 2.3 | 2.3 | 2.4 | 2.5 | 2.5 | **20.3** | **2.6** |
 | Paid on-ramps, as booked | LAB-10 | 2.4 | 5.0 | 7.8 | 10.8 | 11.2 | 11.6 | 12.1 | 12.5 | 13.0 | 13.5 | **100.0** | **14.0** |
-| **The secure floor on the general fund** | | **196.4** | **226.9** | **235.3** | **243.7** | **249.1** | **255.2** | **261.1** | **267.0** | **273.7** | **280.3** | **2,488.8** | **286.9** |
+| **The secure floor on the general fund** | | **208.4** | **239.2** | **248.0** | **256.8** | **262.6** | **269.1** | **275.4** | **281.8** | **288.9** | **295.9** | **2,626.4** | **303.0** |
 
 - **Booked:** FAM-1 and LAB-10, $2,000 billion over FY2030-39 and $228.7 billion in FY2040.
+- **INC-2.02, added on Espen's option D** (`DEC-2026-11-13-03`), is a new line of about **$138 billion over FY2030-39 and $16.1 billion in FY2040**, booked as its own row (part 6, item 8). With it the new lines come to about $674 billion and $80.2 billion, and the set to about **$2,626 billion over FY2030-39 and $303 billion in FY2040**. The figures below, through part 5's first table, are the set before it, as #304 booked it.
 - **Not booked (new lines):** about **$537 billion over FY2030-39 and $64.0 billion in FY2040**, within section 3's $0.45-0.6 trillion and a little above its $50-60 billion in FY2040, because the credits grow from their first year on fiscal years and INC-3.03 was decided after section 3 (about $20 billion and $2.5 billion).
 - **The floor declined:** about **−$48 billion over FY2030-39 and −$5.8 billion in FY2040** against the booked child benefit.
 - **Net change a booking would make:** about **+$489 billion over FY2030-39 and +$58.2 billion in FY2040** (0.11% of GDP).
 - *The other paths:* the INC lines' anchors and growth are memo 3's and section 3's judgment (on CBO's $187 billion of SNAP savings [EV-SEC-035], SSA's actuaries' $8.9 billion for SSI's limits [EV-SEC-630] and $20.7 billion for SSI in Puerto Rico [EV-SEC-705], the Tax Policy Center's $135.4 billion for the childless credit [EV-SEC-610]), laid on fiscal years; `secure_floor_path.py` gives each.
+
+### INC-2.02: SNAP's earned income deduction at 45% (Espen's option D)
+
+A working assumption (`DEC-2026-11-10-07`), on SNAP's own records rather than the household model's CPS bound:
+- **The static gain.** Each earned dollar counts 25 cents less in net income, and SNAP takes 30 cents of net income: 7.5% of earnings for a household with net income above zero. FNS's FY2024 report counts 4.697 million such households among 5.950 million with earnings, averaging $1,645 a month [EV-SEC-616]: 4.697 million × $1,645 × 7.5% × 12 = **about $7.0 billion in FY2024**. (FY2023's report gives 4.744 million at $1,548, about $6.6 billion; checked against that original.)
+- **The shelter interaction** (judgment). Lower income before the shelter deduction raises the excess shelter deduction by half the change, so net income falls by 0.375 of earnings instead of 0.25: about +50% for a household with an uncapped excess shelter deduction. In FNS's Table A.9 (the report behind EV-SEC-616), about 75% of earner households have an excess shelter deduction and 38.7% are at its maximum, so roughly 36-46% of them gain the extra half (the table does not say whether the 38.7% is of all earners or of those with the deduction): about +18-23%, to about $8.3-8.6 billion.
+- **New entrants and take-up** (judgment). Households under the gross income test whose net income was just above the net test, and households whose small benefit was not worth claiming: about +10-20%. Households whose net income reaches zero take back a little. About **$9.5 billion in FY2024**.
+- **To FY2030.** The gain moves with earnings, about 3.5% a year (judgment): **about $12 billion in FY2030**, then 3% a year, $138 billion over FY2030-39 and $16.1 billion in FY2040. **Range $8-16 billion in FY2030:** the low end has little shelter interaction and no new entrants; the high end has the full interaction, larger take-up and the 2029 caseload above FY2024's.
+- **Against the $32 billion Espen was told.** #321's "up to about $32 billion a year" applied 7.5% to the CPS's annual earnings of every SNAP household in 2029 (`models/tools/household/results.md`, section 7). That is an upper bound by construction: SNAP counts income only in the months a household is on SNAP, while the CPS's annual earnings include the months before or after, often at higher wages; and it ignores households whose net income would reach zero. The central case, about $12 billion, is well below it; $32 billion stays the outer bound. *Cost of being wrong:* it changes the plan-wide gap by a few billion dollars a year, not the choice, which was made for the ceiling.
 
 ### Memo 1 A without the floor: what changed
 
@@ -66,7 +77,7 @@ Memo 1 priced A at about $1.9 trillion over FY2030-39 (range $1.7-2.1 trillion),
 | No offset or garnishment of the child benefit | FAM-1.07 | about $0.01-0.03 trillion | about $1-3 billion | Judgment: the refund offsets that would otherwise fall on the benefit [EV-SEC-701]. Only the federal-debt and federal-tax share is a federal cost; child support, state-debt and unemployment offsets pass to others and are not. No Treasury Offset Program volume is in the register yet. Not added to part 1's totals; booked in FAM-1 at $2 billion a year, the middle of the range (part 6) | Firm, not yet counted |
 | The child benefit in the territories | FAM-1.07 | about $0.01-0.03 trillion | about $1-3 billion | Judgment: about 0.6 million children, mostly in Puerto Rico, at the benefit less what the 2029 law already pays them; whether the legacy FAM-1 range counts the territories is not known. Not added to part 1's totals; booked in FAM-1 at $2 billion a year, the middle of the range (part 6) | Firm, not yet counted |
 
-**All-in on the general fund:** about **$2.49 trillion over FY2030-39 and $287 billion in FY2040** (range about $2.1-2.7 trillion and $250-320 billion, part 7). It is not a score.
+**All-in on the general fund:** about **$2.63 trillion over FY2030-39 and $303 billion in FY2040** with INC-2.02 (range about $2.2-2.9 trillion and $260-340 billion, part 7; before it, $2.49 trillion and $287 billion). It is not a score.
 
 ## 3. The child-poverty re-run on the decided design
 
@@ -140,11 +151,13 @@ Each figure has one basis: federal fiscal years, $ billion, a cost positive, aga
 | *of which:* new lines (memo 3, points 4, 7 and 8, memo 1 part 2, memo 2, memo 7, INC-3.03) | +$537 billion | +$64.0 billion |
 | Paid leave: the general fund's income-tax offset (booked) | $184 billion | $26.8 billion |
 | Social Security: on its trust funds; the general fund's offset as booked overstates the decided package (part 4) | — | — |
+| **INC-2.02, SNAP's earned income deduction at 45% (`DEC-2026-11-13-03`), booked as INC-2B** | **about +$138 billion** | **about +$16.1 billion (0.03% of GDP)** |
 
 - **The yearly cost** is in part 1: about $196 billion in FY2030 rising to $280 billion in FY2039.
-- **Permanent cost from FY2040: about $287 billion a year** on the general fund, growing with prices and the child population. Every line is permanent; nothing in the set sunsets.
+- **Permanent cost from FY2040: about $287 billion a year** on the general fund ($303 billion with INC-2.02), growing with prices and the child population. Every line is permanent; nothing in the set sunsets.
 - **Its share of the plan-wide margin.** The plan-wide general-fund primary gap in FY2040 is **$4,184.7 billion short** as booked at the head (7.7% of GDP; `agenda_gf_primary_bn`, case `mixed`, a positive figure a shortfall; the figure `DEC-2026-11-12-08` records, after #289; the secure floor's own booked lines are unchanged since `34faa21`). A booking of the decided set adds about $58.2 billion, to about **$4,242.9 billion (7.8% of GDP)**: **about 1.4% of the plan-wide gap**. The secure floor's whole general-fund cost, booked and new, is about **6.9% of that gap** in FY2040. *As booked (part 6):* **$4,229.9 billion short (7.8% of GDP)**, +$45.2 billion: the secure floor's rows add about $63 billion (part 1's +$58.2 billion and the two FAM-1.07 lines, about $5 billion), the leave step adds about $1 billion of income-tax offset, and Social Security's correction (part 4) takes about $19 billion of offset off the general fund. Additive on the primary balance before interest; the new lines carry no revenue offset (outlays and refundable credits).
 - **The test years.** The decided costs are permanent and grow with prices (the benefit's amounts) and wages (paid leave). The leave fund needs no Treasury loan at high take-up with the 0.10-point step (part 4).
+- **With option D** (part 6, item 8): the plan-wide FY2040 gap at the head before it is **$4,240.4 billion short** (7.83% of GDP); INC-2B adds $16.2 billion, to **$4,256.6 billion (7.86% of GDP)**, about 0.4% of the gap. The secure floor's whole general-fund cost is then about $303 billion in FY2040, about 7.1% of the gap.
 - It is a figure to report, not an error to fix (`DEC-2026-11-10-05`). No part of it goes to Espen on its own: the memos already weighed the cheaper designs that reach the same children (memo 1 B), and FAM-1.11 is decided (`DEC-2026-11-12-09`).
 
 ## 6. The booking
@@ -157,6 +170,7 @@ Tier 3, on the same pattern as care's (`dossiers/care/6bcd-cost.md`, part 5) and
 5. Social Security: `models/tools/recovery-budget/assumptions.json`, `social_security`: replace the two-point broad rate phased 2035-44 with the decided package, SS-8's reserve investment and SS-7.01's one-point contingent fallback, once it is settled how to record the stock purchases (part 4); and correct the SS-1 ledger row's note (−$2.75T against its −$4.74T path).
 6. Incidence: `models/data/inputs/incidence-rows.csv` F1 (key `ctc`) to the decided design's distribution, which pays the top quintile less than the 2029 law (part 1's 5.4 million families); new rows for INC-1 and INC-2 (keys for low-wage workers and SNAP households).
 7. `ledger-dynamic.csv` DY3 (the child credit's work response) stays as a sensitivity in no total.
+8. **INC-2.02, Espen's option D** (`DEC-2026-11-13-03`), booked after #304 on its pattern: a new line in `tools/secure_floor_path.py`; a row of its own, **INC-2B**, on rail R1, general fund, from FY2030 (0.092 / 0.138 / 0.183 over FY2030-39), in `ledger-bills.csv`, `fiscal-years.csv`, `fiscal-profiles.csv` and `models/data/budget/provisions.csv`, derived in `secure_floor_booking.py` (`INC_ROWS`, `RANGES`) and checked in `test_fiscal_secure_floor.py`; and an incidence row, INC2D, on its own measured key `snap_earn` (SNAP households' earnings; `models/tools/household/keys.csv`, `budget.py`). Its own row, not part of INC-2, so its range and its incidence key stay its own.
 
 ## 7. Sensitivities
 
@@ -165,11 +179,12 @@ Tier 3, on the same pattern as care's (`dossiers/care/6bcd-cost.md`, part 5) and
 | The child benefit's planning range | $1.85 trillion | $1.65-2.05 trillion | ±$0.2 trillion | Legacy range less the floor; the CPS static check is at the low end, the Tax Policy Center moved to the 2030s at about the low-to-middle |
 | Real income growth in the floor's pricing | 1.0% a year | 0.5-1.5% | ±$0.01 trillion | More growth pushes more families above the unindexed lines |
 | SNAP's restoration | $0.23 trillion | $0.20-0.25 trillion | ±$0.03 trillion | CBO's window's later years [EV-SEC-035] [EV-SEC-038] |
+| SNAP's earned income deduction at 45% | $0.138 trillion ($12 billion in FY2030) | $0.09-0.18 trillion ($8-16 billion) | −$0.05 to +$0.05 trillion | FNS's FY2024 counts [EV-SEC-616]; the shelter interaction and new entrants are judgment; the CPS upper bound, about $32 billion a year, is outside the range (part 1) |
 | The childless credit | $0.145 trillion | $0.13-0.16 trillion | ±$0.015 trillion | JCT and TPC [EV-SEC-609] [EV-SEC-610] |
 | The dependent care credit | $0.045 trillion | $0.03-0.06 trillion | ±$0.015 trillion | Section 3, point 7 |
 | The child's own ID | $0.027 trillion | $0.02-0.03 trillion | small | 500,000 children [EV-SEC-016] |
 | Paid leave take-up | high (booked) | low to high: $0.6-1.4 trillion of benefits | fund only | Legacy cases [EV-SEC-693] |
-| **The general fund, all** | **$2.49 trillion** | **about $2.1-2.7 trillion** | | |
+| **The general fund, all** | **$2.63 trillion** (with INC-2.02) | **about $2.2-2.9 trillion** | | |
 
 ## 8. What each figure is
 
@@ -181,6 +196,7 @@ Tier 3, on the same pattern as care's (`dossiers/care/6bcd-cost.md`, part 5) and
 | The 2029 child-poverty rate | Working assumption, about 9% (8-12%), not on the critical path |
 | The credit for other dependents | Commitment: it ends (`DEC-2026-11-12-09`); its saving a working assumption, not counted |
 | The new lines' costs | Working assumptions on outside scores, laid on fiscal years |
+| SNAP's earned income deduction at 45% (INC-2.02) | Commitment (decided, `DEC-2026-11-13-03`); its cost a working assumption on FNS's counts, about $12 billion in FY2030 (range $8-16 billion) |
 | LAB-10's $100 billion | Commitment (the envelope); people served, about 400,000-900,000 over the decade, a working assumption (memo 4) |
 | Paid leave's take-up | Working assumption; the booking uses the high case |
 | Social Security's package effect | Working assumption on single-provision scores and project arithmetic for SS-8 (about +3.6 to +3.8 before the fallback); to study with SSA's whole-package score (point 12) |

@@ -63,6 +63,14 @@ def lines():
     # as immigration's table decides (DEC-2026-11-12-07, memo 6 C); immigration does not
     # count it again.
     out['INC-2.01, SNAP restored (memo 3 part 2 B)'] = grown(2030, 20.5, 0.025, YEARS)
+    # INC-2.02, SNAP's earned income deduction from 20% to 45% (Espen's option D, DEC-2026-11-13-03), from FY2030.
+    # FNS's FY2024 household characteristics (EV-SEC-616): 4.697 million households with earnings and net income,
+    # averaging $1,645 a month of earnings. Each dollar of earnings counts 25 cents less, and SNAP takes 30 cents of
+    # net income, so 7.5% of earnings: $7.0 billion in FY2024. The shelter interaction adds about half again for the
+    # earners whose excess shelter deduction is below the cap (about 46% of them), new entrants and take-up about 10-20%,
+    # and households that reach a zero net income take back some (judgment): about $9.5 billion in FY2024, about $12
+    # billion in FY2030 on earnings growth, range $8-16 billion; then 3% a year, earnings growth (judgment).
+    out['INC-2.02, SNAP\'s earned income deduction at 45% (Espen\'s option D)'] = grown(2030, 12.0, 0.03, YEARS)
     # SSI's asset limits: SSA's actuaries' $8.9 billion over 2025-34 (EV-SEC-630); about
     # $1.1 billion in FY2030, growing 3% (judgment). Point 8, the indexed exclusions: about
     # $0.6 billion in FY2030, growing as the gap to prices widens (judgment).

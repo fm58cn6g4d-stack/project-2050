@@ -24,7 +24,7 @@ Role: section 8 of the secure floor dossier. For each decided choice, the findin
 | The caregiver credit | Memo 6 part 2 (c) | SSA's score far above −0.2% of payroll | Dropout years (b), as memo 6 provides |
 | The credit for other dependents ends | FAM-1.11 (`DEC-2026-11-12-09`) | A gap for families supporting adult dependents that the plan's other benefits and education (EDU-5) do not cover | Reinstate section 24 for dependents who are not children under 18, about $5-7 billion a year |
 | The exclusion rule | Memo 7 part 1 B | Housing choosing to count the floor's payments | Housing's rule for rent |
-| The 65-cent ceiling | Memo 7 part 2 B | The household model finding many families above 65 cents after 2035 | A priced change to SNAP's or the earned income credit's rate where they overlap (memo 7) |
+| The 65-cent ceiling | Memo 7 part 2 B; SNAP's earned income deduction at 45% (INC-2.02, `DEC-2026-11-13-03`) | The household model's yearly report finding a family type above 65 cents for two years (today only the married couple on the marketplace in 2030-34 with rent, at 65.9), or INC-2.02 costing well above $16 billion a year | The $750-a-child family offset against income tax (about $43 billion a year), or a priced change to the earned income credit's rate where it overlaps SNAP (memo 7) |
 
 ## Political and legal events
 
