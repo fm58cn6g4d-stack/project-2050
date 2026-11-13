@@ -1,0 +1,219 @@
+Source: https://www.eia.gov/electricity/annual/html/epa_04_06.html
+Publisher: U.S. Energy Information Administration
+Retrieved: 2026-11-13
+Original SHA-256: e9e1e24bc4968d35778c180f28730e513139d55bb73cda5255b8f310a0fbadd0
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+SAS Output
+Table 4.6. Utility-Scale Capacity Additions, Retirements and Changes by Energy Source, 2025 (Count, Megawatts)
+Generator Additions
+Generator Retirements
+Energy Source
+Number of Generators
+Generator Nameplate Capacity
+Net Summer Capacity
+Net Winter Capacity
+Number of Generators
+Generator Nameplate Capacity
+Net Summer Capacity
+Net Winter Capacity
+Coal
+1
+10.0
+9.0
+9.5
+8
+2,626.0
+2,688.4
+2,689.6
+Petroleum
+27
+63.1
+62.1
+62.1
+78
+1,075.7
+782.5
+972.5
+Natural Gas
+105
+5,255.8
+4,589.6
+4,816.3
+47
+1,160.8
+859.6
+1,052.5
+Other Fossil Gas
+--
+--
+--
+--
+3
+83.0
+59.4
+60.8
+Nuclear
+--
+--
+--
+--
+--
+--
+--
+--
+Hydroelectric Conventional
+1
+3.5
+3.5
+3.5
+8
+27.4
+27.0
+27.0
+Wind
+31
+6,272.2
+6,082.0
+6,111.6
+11
+21.9
+20.0
+21.6
+Solar Thermal and Photovoltaic
+716
+29,644.6
+29,459.1
+29,409.2
+7
+10.3
+8.1
+7.0
+Wood and Wood-Derived Fuels
+1
+3.6
+3.0
+3.0
+12
+310.9
+292.8
+302.4
+Geothermal
+2
+23.0
+15.4
+23.0
+2
+30.0
+18.0
+24.2
+Other Biomass
+3
+5.2
+5.2
+5.2
+22
+27.4
+26.1
+26.2
+Hydroelectric Pumped Storage
+--
+--
+--
+--
+--
+--
+--
+--
+Other Energy Sources
+203
+16,448.2
+16,380.1
+16,379.5
+8
+336.0
+332.5
+332.5
+Total
+1,090
+57,729.2
+56,609.0
+56,822.9
+206
+5,709.4
+5,114.4
+5,516.3
+Other Changes to Existing Capacity
+Energy Source
+Generator Nameplate Capacity
+Net Summer Capacity
+Net Winter Capacity
+Coal
+-4,355.8
+-3,354.0
+-3,471.2
+Petroleum
+-4,369.1
+-4,155.4
+-4,346.2
+Natural Gas
+1,492.0
+1,791.5
+2,422.5
+Other Fossil Gas
+159.0
+154.4
+145.7
+Nuclear
+117.2
+32.1
+111.3
+Hydroelectric Conventional
+5.6
+6.6
+82.2
+Wind
+-135.0
+771.1
+703.1
+Solar Thermal and Photovoltaic
+186.3
+282.8
+209.6
+Wood and Wood-Derived Fuels
+-51.5
+-21.1
+-20.4
+Geothermal
+54.1
+-9.0
+2.1
+Other Biomass
+-20.6
+-18.2
+-20.0
+Hydroelectric Pumped Storage
+--
+-121.5
+-124.8
+Other Energy Sources
+338.8
+333.1
+331.5
+Total
+-6,579.0
+-4,307.5
+-3,974.6
+Notes: Coal includes anthracite, bituminous, subbituminous, lignite, and waste coal, coal synfuel, refined coal, and coal-derived synthesis gas.
+Petroleum includes distillate fuel oil (all diesel and No. 1, No. 2, and No. 4 fuel oils), residual fuel oil (No. 5 and No. 6 fuel oils and bunker C fuel oil), jet fuel, kerosene, petroleum coke (converted to liquid petroleum, see Technical Notes for conversion methodology), waste oil, synthetic gas, and propane.
+Other Fossil Gas includes gaseous propane, blast furnace gas, other manufactured and waste gases derived from fossil fuels other than hydrogen.
+Hydroelectric Conventional capacity includes conventional hydroelectric power excluding pumped storage facilities.
+Wood and wood-derived fuels include wood/wood waste solids (including paper pellets, railroad ties, utility poles, wood chips, bark, and wood waste solids), wood waste liquids (red liquor, sludge wood, spent sulfite liquor, and other wood-based liquids), and black liquor.
+Other Biomass include municipal solid waste, landfill gas, sludge waste, agricultural byproducts, other biomass solids, other biomass liquids, and other biomass gases (including digester gases, methane, and other biomass gases).
+Other Energy Sources include hydrogen, non-biogenic municipal solid waste, batteries, purchased steam, sulfur, tire-derived fuel, and other miscellaneous energy sources.
+Capacity by energy source is based on the capacity associated with the energy source reported as the most predominant (primary) one, where more than one energy source is associated with a generator.
+In the case of some wind, solar and wave energy sites, the capacity for multiple generators is reported in a single generator record and is presented as a single generator in the generator count.
+Other Changes to Existing Capacity reflect uprates, derates, repowerings, and changes to previously reported generator capacity.
+* = Value is less than half of the smallest unit of measure.
+Source: U.S. Energy Information Administration, Form EIA-860, 'Annual Electric Generator Report.'
