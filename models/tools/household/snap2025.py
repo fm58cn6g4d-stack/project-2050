@@ -12,6 +12,10 @@ its SNAP is prior law; from 2026 this module applies the law, each section as CB
     CBO's counts, so each pool loses benefits with the probability that reproduces CBO's count as a share of
     participants (USDA's FY2025 average, 42,145,499, EV-SEC-039). The remaining 1.3 million fall on able-bodied adults
     18-54 without children, whom the time limit reached before the law (the exemptions and waivers they lose);
+    *Interpretation:* CBO's 800,000 are "able-bodied adults through age 64 without dependent children" (EV-SEC-036),
+    which could include some under 55 who lose waivers or exemptions; the model assigns all 800,000 to the new 55-64
+    group, the reading under which the age change does the work. Moving part of them to 18-54 shifts losses between
+    the two pools, not the total;
   * secs. 10103 and 10104, energy assistance and internet costs: about $100 a month less for about 3% of households,
     and about $10 a month less for about 65% (EV-SEC-038). Applied as expected values: the energy cut to SNAP units
     that get energy assistance and have no member 60 or older or disabled (6.4% of CPS SNAP units, so scaled to 3%),
@@ -21,6 +25,11 @@ its SNAP is prior law; from 2026 this module applies the law, each section as CB
   * not applied: sec. 10105's state cost share works through states' own choices (CBO: about 300,000 people), and
     sec. 10108's noncitizen rule (about 90,000 people) needs immigration status the CPS does not record. Both are
     behavior or data the model does not have (`MODEL-CARD.md`, limits).
+
+Participation is running below CBO's path: USDA's preliminary FY2026 average is 38.0 million people, against 42.1
+million in FY2025 (EV-SEC-039), a fall of about 4.1 million against CBO's expected effect of about 3 million in 2026
+(EV-SEC-040). The model calibrates to CBO's counts, not to USDA's lower 2026 level, so if the gap persists the law's
+effect is understated.
 
 A person who loses benefits takes their per-person share of the unit's SNAP with them (the benefit falls with
 household size; a per-person share is the simple approximation).

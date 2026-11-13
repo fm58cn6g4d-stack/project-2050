@@ -24,7 +24,11 @@ Role: section 7 of the secure floor dossier: how the costs and results in sectio
 - **The phase-out's arithmetic is static.** The floor's value assumes 1% real income growth; it is small either way (`6-cost.md`, part 7).
 - **Paid leave's take-up** is a range of legacy cases, not a model of who claims; the household model's D3 test still uses 0.6% and $0.9 trillion (`legacy-research.md`, 3.2).
 - **Social Security's package** has no SSA score; the investment's return and its budget treatment are open (`6-cost.md`, part 4).
-- **The 65-cent ceiling** is checked by hand on statutory rates (memo 7); the household model's distribution is still to come.
+- **The 65-cent ceiling: the household model's check (INC-5.02) finds it is not met in two cases.** The model checks the three typical families at 50-300% of poverty with every plan layer (`models/tools/household/results.md`, section 7; `families.py`, `plan_budget`). These are paid leave's worker share, FAM-1, INC-1.01, the SNAP rules INC-2 restores, the premium credit in 2030-34, and child care's charge net of INC-4.
+  - **Met:** from 2035 without SNAP's excess shelter deduction, the single parent and the married couple reach 63.0 cents at 100-125% of poverty and the single adult 56.5. The child care charge reaches these families only in the lowest-income states, from about 240% of poverty, where their rate is 26-32 cents.
+  - **Not met:** families with children at 100-125% of poverty whose rent counts in SNAP's shelter deduction reach **75.0 cents** from 2035 and 77.1 on the marketplace in 2030-34. Without the deduction, the 2030-34 marketplace case is 65.1.
+  - **Two causes that memo 7's arithmetic left out:** SNAP takes 36 cents, not 24, once each dollar also shrinks the shelter deduction. And FAM-1 replaces the child credit whose nonrefundable part today offsets the 10% bracket at these incomes (+10 cents).
+  - **The fixes are options, not decided:** a $750-a-child family offset against income tax (about $43 billion a year) clears 2035 at exactly 65.0; SNAP's earned income deduction raised to 45% (up to about $32 billion a year) clears all but one 2030-34 case; only both clear every case. The other route is to read the ceiling as memo 7 measured it, without the shelter interaction, as housing's rent rule already is. Each is a design choice for Espen, which the lead puts to them. Until then, INC-5.02's monitoring rule applies: a family type above the ceiling for two years triggers a review by the owning dossiers.
 
 ## 3. How it lands with the rest of the plan
 
