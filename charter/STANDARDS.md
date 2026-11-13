@@ -110,6 +110,7 @@ Prefer designs that are simple for the people served and for the agencies runnin
 - Prefer one plain test, self-attestation and records the government already holds, local judgment based on need, and published counts with a review trigger, over strict structures enforced up front.
 - Accept that not every group will be served in exactly the share the design projects; correct with monitoring, not with more rules.
 - Recommendations say what each requirement costs in burden, as well as what it buys.
+- Use existing machinery first: deliver through the agencies, programs, records and payment systems that already exist wherever they can do the job, and simplify where an existing system or a proposed design is more complex and costly to administer than its purpose needs (`DEC-2026-11-13-08`).
 
 ## Fiscal rule in dossiers: report, don't gate
 
