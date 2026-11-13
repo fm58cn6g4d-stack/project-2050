@@ -1,1 +1,3548 @@
-[]
+[
+ {
+  "id": "EV-CLP-001",
+  "statement": "The average U.S. residential electricity price was 13.15 cents per kilowatthour in 2020 and 17.23 cents in 2025.",
+  "claim": "data",
+  "figures": [
+   "13.15",
+   "17.23",
+   "2020",
+   "2025"
+  ],
+  "source": "SRC-4400",
+  "anchor": [
+   "2020\n13.15",
+   "2025\n17.23"
+  ],
+  "locator": "Table 5.3, Annual Totals, Residential column",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2026-11-24",
+  "context": "EIA, a federal statistical agency, 2026-10-23 release (second Trump administration); survey of utilities (Form EIA-861M, EIA-861), revenue divided by sales, not a posted rate. Prices are nominal (not adjusted for inflation); values for 2025 are final. EIA calculates average revenue per kWh as a proxy for price.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-002",
+  "statement": "EIA forecast in November 2026 that the average U.S. residential electricity price would rise from 17.2 cents per kilowatthour in 2025 to 18.2 cents in 2026 and 18.7 cents in 2027.",
+  "claim": "analysis",
+  "figures": [
+   "17.2",
+   "18.2",
+   "18.7",
+   "2025",
+   "2026",
+   "2027"
+  ],
+  "source": "SRC-4404",
+  "anchor": [
+   "2024 2025 2026 projected 2027 projected\nU.S. electricity generation\n(billion kilowatthours)\n4,309 4,425 4,539 4,595\nResidential electricity price\n(cents per Kilowatthour)\n16.5 17.2 18.2 18.7"
+  ],
+  "locator": "Electricity, Coal, and Renewables summary table",
+  "grade": "C",
+  "fact_date": "2026-11",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-08",
+  "context": "EIA Short-Term Energy Outlook, November 2026 (forecast completed 2026-11-05), second Trump administration; a model forecast, not measured data, and EIA's own earlier outlooks (May 2025) forecast the same upward path. The table lists 2024 (16.5) first. Independent confirmation of the direction comes from the measured 2020-2025 series and NEADA.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-001",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-005",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-003",
+  "statement": "EIA said in May 2025 that retail electricity prices had increased faster than inflation since 2022 and forecast they would keep increasing through 2026, with a nominal national increase of 13% from 2022 to 2025.",
+  "claim": "analysis",
+  "figures": [
+   "13%",
+   "2022",
+   "2025",
+   "2026"
+  ],
+  "source": "SRC-4401",
+  "anchor": [
+   "Retail electricity prices have increased faster than the rate of inflation since 2022, and we expect them to continue increasing through 2026",
+   "Although we expect the nominal U.S. average electricity price to increase by 13% from 2022 to 2025"
+  ],
+  "locator": "Today in Energy, 2025-05-14",
+  "grade": "C",
+  "fact_date": "2025-05",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-08",
+  "context": "EIA in-brief analysis, May 2025, second Trump administration; a forecast. The measured 2022-2025 residential series (15.04 to 17.23 cents) is consistent with it; the LBNL study qualifies it by finding that real national prices were flat through 2024 and prices only began to outpace inflation in 2025.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-001",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-006",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-004",
+  "statement": "In 2025 the U.S. average residential electricity price was 17.30 cents per kilowatthour, and all-sector average prices ranged from 35.72 cents in Hawaii to 8.20 cents in North Dakota.",
+  "claim": "data",
+  "figures": [
+   "17.30",
+   "35.72",
+   "8.20",
+   "2025"
+  ],
+  "source": "SRC-4402",
+  "anchor": [
+   "residential 17.30¢ per kWh",
+   "In 2025, the annual average retail electricity price for all types of electric utility customers ranged from 35.72¢ per kWh in Hawaii to 8.20¢ per kWh in North Dakota."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2026-11-24",
+  "context": "EIA explainer drawing on preliminary 2025 data (Electric Power Monthly, February 2026); the final 2025 residential average in Table 5.3 is 17.23 cents. Second Trump administration. EIA attributes Hawaii's price mainly to imported petroleum fuels.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-005",
+  "statement": "NEADA reported that since 2021 the average cost per kilowatt-hour rose 27.9 percent and the average monthly electric bill rose 29.2 percent.",
+  "claim": "analysis",
+  "figures": [
+   "27.9 percent",
+   "29.2 percent",
+   "2021"
+  ],
+  "source": "SRC-4422",
+  "anchor": [
+   "Since 2021, the average cost per kilowatt-hour has risen 27.9 percent, while the average monthly electric bill has climbed 29.2 percent."
+  ],
+  "locator": "Press release, \"Electric Prices at a 10-Year High\"",
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-13",
+  "recheck": "2026-11-24",
+  "context": "NEADA, the association of state LIHEAP directors, press release 2025-12-16; an advocacy group for higher LIHEAP funding using EIA data (nominal; its August 2025 report puts the inflation-adjusted per-kWh rise at about 7.5 percent). Consistent with the EIA series (13.66 cents in 2021 to 17.23 in 2025, a 26% rise).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-001",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-006",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-006",
+  "statement": "LBNL and Brattle found that U.S. average retail electricity prices rose 4.4% from January to July 2025 relative to 2024, or 1.9% when adjusted for inflation, and that nominal prices had largely tracked inflation through 2024.",
+  "claim": "analysis",
+  "figures": [
+   "4.4%",
+   "1.9%",
+   "2025",
+   "2024"
+  ],
+  "source": "SRC-4411",
+  "anchor": [
+   "Retail prices are outpacing inflation nationally: 4.4% increase in average from Jan-July 2025 relative to 2024, 1.9% when adjusted for inflation",
+   "National-average nominal retail prices have largely tracked economy-wide inflation in recent years, sharply increasing; real prices have been flat"
+  ],
+  "locator": "Findings slide 1; \"Retail price developments in 2025\" slide",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "LBNL (DOE national laboratory) with Brattle Group, October 2025, DOE-funded; a descriptive and statistical study that says it does not predict future prices. Same team as the peer-reviewed journal article (EV-CLP entry for SRC-4412); not independent of it. It qualifies the framing that prices have long outrun inflation: through 2024 real prices were flat, but 2025 broke from that.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-001",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-005",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-007",
+  "statement": "A peer-reviewed study of recent retail electricity prices found that the national rise had largely tracked inflation but state trends varied widely, and that recent utility-scale wind and solar outside renewable portfolio standard programs had no discernible impact on increased retail prices.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-4412",
+  "anchor": [
+   "Although the recent national rise in retail prices has largely tracked inflation, state-level trends vary widely.",
+   "recent utility-scale wind and solar deployment that occurred outside RPS programs (but that benefited from tax incentives) had no discernible impact on increased retail prices"
+  ],
+  "locator": "Abstract",
+  "grade": "B",
+  "fact_date": "2025-10",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "Peer-reviewed article in The Electricity Journal by the LBNL team (Wiser and colleagues), October 2025; DOE-funded research. Uses data through 2024; the authors note relationships may change as load growth accelerates. Same authors as the LBNL slide deck, so the two are not independent.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-001",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-005",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-008",
+  "statement": "EIA's November 2026 outlook puts the Henry Hub natural gas price at 2.19 dollars per million Btu in 2024 and 3.53 in 2025, and forecasts 3.37 in 2026 and 2.88 in 2027.",
+  "claim": "analysis",
+  "figures": [
+   "2.19",
+   "3.53",
+   "3.37",
+   "2.88",
+   "2024",
+   "2025",
+   "2026",
+   "2027"
+  ],
+  "source": "SRC-4403",
+  "anchor": [
+   "2024 2025 2026 projected 2027 projected\nNatural gas price at Henry Hub\n(dollars per million Btu)\n2.19 3.53 3.37 2.88"
+  ],
+  "locator": "Natural gas summary table",
+  "grade": "C",
+  "fact_date": "2026-11",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-08",
+  "context": "EIA Short-Term Energy Outlook, November 2026, second Trump administration. 2024 and 2025 are estimates or history, 2026 and 2027 are forecasts pending reconciliation. EIA says U.S. LNG exports and warm weather both move the path.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-006",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-009",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-009",
+  "statement": "NEADA said natural gas prices had risen nearly 50 percent over the past year as of December 2025, driven in part by rapidly expanding liquefied natural gas exports.",
+  "claim": "analysis",
+  "figures": [
+   "50 percent"
+  ],
+  "source": "SRC-4422",
+  "anchor": [
+   "Natural gas prices have risen nearly 50 percent over the past year, driven in part by rapidly expanding liquefied natural gas (LNG) exports"
+  ],
+  "locator": "Press release, \"Natural Gas Prices Surge\"",
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-08",
+  "context": "NEADA press release 2025-12-16, an advocacy association of state LIHEAP directors. EIA's annual Henry Hub averages show 2.19 in 2024 and 3.53 in 2025, a larger rise than 50 percent on an annual basis; the \"past year\" window is not defined in the release. EIA's November 2026 outlook cuts the winter 2026-27 forecast.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-008",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-010",
+  "statement": "DOE reported in December 2024 that the Lawrence Berkeley National Laboratory found data centers consumed about 4.4% of total U.S. electricity in 2023 and are expected to consume approximately 6.7 to 12% by 2028.",
+  "claim": "analysis",
+  "figures": [
+   "4.4%",
+   "6.7 to 12%",
+   "2023",
+   "2028"
+  ],
+  "source": "SRC-4406",
+  "anchor": [
+   "The report finds that data centers consumed about 4.4% of total U.S. electricity in 2023 and are expected to consume approximately 6.7 to 12% of total U.S. electricity by 2028."
+  ],
+  "locator": "Press release, third paragraph",
+  "grade": "C",
+  "fact_date": "2024-12",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "DOE press release 2024-12-20 (Biden administration) on a Berkeley Lab report funded by DOE; 2023 is a bottom-up model estimate and 2028 is a scenario range that depends on GPU shipments, not a forecast of record. The lab says very few companies report actual data center electricity use.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-011",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-013",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-015",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-011",
+  "statement": "The LBNL report estimated that U.S. data centers used 176 TWh in 2023, 4.4% of U.S. electricity, and that 2028 use would be roughly 325 to 580 TWh, or 6.7% to 12.0% of consumption, a power demand of 74 to 132 GW.",
+  "claim": "analysis",
+  "figures": [
+   "176 TWh",
+   "4.4%",
+   "325",
+   "580 TWh",
+   "6.7%",
+   "12.0%",
+   "74",
+   "132 GW",
+   "2023",
+   "2028"
+  ],
+  "source": "SRC-4409",
+  "anchor": [
+   "reaching 176 TWh by 2023, representing 4.4% of total U.S. electricity consumption.",
+   "the low and high end of roughly 325 and 580 TWh in 2028",
+   "a total power demand for data centers between 74 and 132 GW. This annual energy use also represents 6.7% to 12.0% of total U.S. electricity consumption forecasted for 2028."
+  ],
+  "locator": "Executive Summary, pp. 5-6",
+  "grade": "C",
+  "fact_date": "2024-12",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "Lawrence Berkeley National Laboratory, December 2024 (Biden administration; DOE-funded), by the lab's data center research group; same report as the DOE release, so not independent of it. Estimates after 2023 are scenarios; the 74 to 132 GW assumes 50% average capacity utilization. Researchers outside the lab have given other estimates.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-010",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-013",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-015",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-012",
+  "statement": "The LBNL report says its bottom-up estimate relies on limited public and proprietary data, and that the lack of direct energy data in a rapidly evolving sector limits the analysis, especially for future demand scenarios.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-4409",
+  "anchor": [
+   "The lack of direct energy data available in a sector with rapidly evolving technologies limits the analysis in this report, especially when trying to understand and estimate future energy demand scenarios."
+  ],
+  "locator": "Executive Summary, p. 6",
+  "grade": "C",
+  "fact_date": "2024-12",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "LBNL, December 2024; the authors' own statement of uncertainty, which applies to the 2028 range. Biden administration; DOE-funded.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-013",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-011",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-013",
+  "statement": "Grid Strategies found that the five-year forecast of U.S. utility peak load growth rose from 24 GW to 166 GW over the past three years, a factor of six, and that data centers account for about 55% of forecast demand growth.",
+  "claim": "analysis",
+  "figures": [
+   "24 GW",
+   "166 GW",
+   "55%"
+  ],
+  "source": "SRC-4413",
+  "anchor": [
+   "Over the past three years, the 5-year forecast of utility peak load growth has increased by more than a factor of six, from 24 GW to 166 GW.",
+   "Data centers are the largest driver of demand and energy growth, accounting for about 55% of demand growth in utility load forecasts over the next five years."
+  ],
+  "locator": "Executive Summary",
+  "grade": "C",
+  "fact_date": "2025-11",
+  "checked": "2026-11-13",
+  "recheck": "2026-11-30",
+  "context": "Grid Strategies LLC, November 2025, a consultancy that advocates transmission expansion and clean energy; aggregates utility forecasts filed with FERC, which are not measured load. The report itself judges the data center portion likely overstated.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-015",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-014",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-011",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-014",
+  "statement": "Grid Strategies judged that the data center portion of utility load forecasts is likely overstated by roughly 25 GW, because market analysts indicate data center growth is unlikely to require much more than 65 GW through 2030 against a utility forecast of about 90 GW.",
+  "claim": "analysis",
+  "figures": [
+   "25 GW",
+   "65 GW",
+   "90 GW",
+   "2030"
+  ],
+  "source": "SRC-4413",
+  "anchor": [
+   "The data center portion of utility load forecasts is likely overstated by roughly 25 GW, based on a review of reports published by market analysts.",
+   "data center market analysts indicate that data center growth is unlikely to require much more than 65 GW through 2030.",
+   "Data center load forecast for 2030 aggregates to about 90 GW"
+  ],
+  "locator": "Executive Summary and \"Data Center Demand\" section",
+  "grade": "C",
+  "fact_date": "2025-11",
+  "checked": "2026-11-13",
+  "recheck": "2026-11-30",
+  "context": "Grid Strategies LLC, November 2025; professional judgment comparing utility forecasts to market-analyst benchmarks (TD Cowen, Cleanview), as the report states. A source that supports its own forecast total but qualifies the data center share.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-013",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-012",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-015",
+  "statement": "NERC's 2025 assessment forecast that aggregate summer peak demand would rise by over 224 GW over ten years, 69% higher than the prior year's 132 GW projection, and winter peak by over 245 GW, with new data centers accounting for most of the increase.",
+  "claim": "analysis",
+  "figures": [
+   "224 GW",
+   "69%",
+   "132 GW",
+   "245 GW"
+  ],
+  "source": "SRC-4415",
+  "anchor": [
+   "The 10-year aggregated winter peak demand is forecast to rise by over 245 GW",
+   "Over the 10-year period, aggregated assessment area summer peak demand is forecast to rise by over 224 GW. This is 69% higher than last year’s 10-year growth projection of 132 GW.",
+   "New data centers for artificial intelligence and the digital economy account for most of the projected increase in North American electricity demand over the next 10 years."
+  ],
+  "locator": "Demand Trends and Implications",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-15",
+  "context": "NERC, an industry-funded reliability organization overseen by FERC, assessment of 2026-2035 (published January 2026); the figures are North America-wide planning-area submissions (includes Canada) and are forecasts. Corroborated by Grid Strategies using FERC filings.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-013",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-010",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-016",
+  "statement": "NERC's 2025 assessment rated MISO as high risk from 2028, and PJM, Texas RE-ERCOT and WECC-Northwest as high risk from 2029, with PJM and ERCOT at elevated risk from 2026 through 2028.",
+  "claim": "analysis",
+  "figures": [
+   "2028",
+   "2029",
+   "2026"
+  ],
+  "source": "SRC-4415",
+  "anchor": [
+   "MISO (Normal Risk 2026| Elevated Risk 2027| High Risk 2028– )",
+   "PJM (Elevated Risk 2026–2028| High Risk 2029– )",
+   "Texas RE-ERCOT (Elevated Risk 2026–2028| High Risk 2029– )",
+   "WECC-Northwest (Normal Risk 2026–2028| High Risk 2029– )"
+  ],
+  "locator": "\"High-Risk Area Details\" section",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-15",
+  "context": "NERC, 2025 Long-Term Reliability Assessment (published January 2026); the risk categories are NERC probabilistic judgments about the first five years (2026-2030), based on planned resources as of July 2025 and before any accelerated MISO projects (ERAS) are counted, which NERC says could eliminate MISO's projected shortfall.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-018",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-021",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-017",
+  "statement": "NERC found that PJM's projected anticipated reserve margin for summer 2026 had fallen from 35.7% to 29.7% since the prior assessment, and that PJM expects its summer peak demand to grow by 56 GW to 210 GW in 2035.",
+  "claim": "analysis",
+  "figures": [
+   "35.7%",
+   "29.7%",
+   "56 GW",
+   "210 GW",
+   "2035",
+   "2026"
+  ],
+  "source": "SRC-4415",
+  "anchor": [
+   "2026 Summer ARM has fallen from 35.7% to 29.7%",
+   "PJM expects its summer peak demand to grow by 56 GW to a total of 210 GW in 2035"
+  ],
+  "locator": "PJM entry in \"High-Risk Area Details\"",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-15",
+  "context": "NERC 2025 Long-Term Reliability Assessment (January 2026); a planning forecast using PJM's submissions. NERC notes PJM's own initiatives added some capacity after the July 2025 data submittal.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-021",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-013",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-018",
+  "statement": "NERC's winter reliability assessment released in November 2025 found aggregate peak demand up 20 GW (2.5%) since the previous winter while total resources rose by only 9.4 GW, and that all areas had adequate resources for normal peak conditions but extreme cold could cause shortfalls.",
+  "claim": "analysis",
+  "figures": [
+   "20 GW",
+   "2.5%",
+   "9.4 GW"
+  ],
+  "source": "SRC-4416",
+  "anchor": [
+   "the aggregate peak demand for all NERC assessment areas has risen by 20 GW (2.5%) since the previous winter.",
+   "Total BPS resources have also increased since last winter, but by a smaller amount of 9.4 GW.",
+   "All areas are assessed as having adequate resources for normal winter peak-load conditions"
+  ],
+  "locator": "Key Findings",
+  "grade": "C",
+  "fact_date": "2025-11",
+  "checked": "2026-11-13",
+  "recheck": "2026-11-20",
+  "context": "NERC, 2025-2026 Winter Reliability Assessment, released 2025-11-18; a planning assessment, not an outcome. S&P Global reported that the demand growth was more than double NERC's projected new peak capacity additions. The 2026-2027 edition (due about now) was not found.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-016",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-013",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-019",
+  "statement": "PJM's capacity auction cleared at 28.92 dollars per megawatt-day for delivery year 2024/25 and 269.92 dollars for 2025/26, with cleared supply times clearing price of 2.2 billion and 14.7 billion dollars.",
+  "claim": "data",
+  "figures": [
+   "$28.92",
+   "$269.92",
+   "$2.2",
+   "$14.7",
+   "2024/25",
+   "2025/26"
+  ],
+  "source": "SRC-4417",
+  "anchor": [
+   "| 2024/25 | | $28.92 | 147,478.9 | 21.7% | 20.4% | $2.2 |",
+   "| 2025/26 | 4 | $269.92 | 135,684.0 | 18.6% | 18.5% | $14.7 |"
+  ],
+  "locator": "Executive Summary, RPM Cleared MW table",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "PJM Interconnection (grid operator) 2027/2028 Base Residual Auction report, December 2025; official auction results. The last column is cleared supply times clearing price in billions, which PJM says is not the total cost to load, because load hedged by self-supply or bilateral contracts is not exposed to the clearing price. Two zones (BGE and Dominion) cleared higher in 2025/26.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-020",
+  "statement": "PJM's capacity auctions for the 2026/2027 and 2027/2028 delivery years cleared at the price caps of 329.17 and 333.44 dollars per megawatt-day.",
+  "claim": "data",
+  "figures": [
+   "$329.17",
+   "$333.44",
+   "2026/2027",
+   "2027/2028"
+  ],
+  "source": "SRC-4417",
+  "anchor": [
+   "In the 2026/2027 BRA, the RTO cleared at the price cap of $329.17.",
+   "For the 2027/2028 BRA, all prices cleared at the cap ($333.44)."
+  ],
+  "locator": "Executive Summary",
+  "grade": "A",
+  "fact_date": "2025-12",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "PJM Interconnection, December 2025; official results. The cap was negotiated with Pennsylvania's governor in 2025; a Utility Dive report quotes PJM as estimating that without it the 2027/28 price would have been nearly $530 per MW-day. A later auction (2028/29, July 2026) reportedly cleared near $325 (not read from PJM directly).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-019",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-024",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-021",
+  "statement": "PJM's December 2025 capacity auction procured capacity 6,623 megawatts short of its reliability requirement, with a reserve margin of 14.8% against a 20% target.",
+  "claim": "data",
+  "figures": [
+   "6,623 MW",
+   "14.8%",
+   "20%"
+  ],
+  "source": "SRC-4419",
+  "anchor": [
+   "is short of PJM’s reliability requirement by 6,623 MW",
+   "PJM continues to hold a reserve margin of 14.8%",
+   "one-event-in-10-year reliability standard of a 20% reserve margin"
+  ],
+  "locator": "Press release, paragraphs 4-5",
+  "grade": "A",
+  "fact_date": "2025-12",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "PJM press release 2025-12-17; official results from the grid operator. PJM adds that this does not necessarily mean the system cannot serve load reliably and lists mitigating factors. First auction in which committed capacity fell below the requirement.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-017",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-022",
+  "statement": "PJM said the forecast peak load for 2027/2028 is approximately 5,250 megawatts higher than the 2026/2027 auction forecast, and that nearly 5,100 megawatts of that increase is attributable to data center demand.",
+  "claim": "data",
+  "figures": [
+   "5,250 MW",
+   "5,100 MW",
+   "2027/2028",
+   "2026/2027"
+  ],
+  "source": "SRC-4419",
+  "anchor": [
+   "The forecast peak load for the 2027/2028 Delivery Year is approximately 5,250 MW higher than the forecast used for the 2026/2027 capacity auction. Nearly 5,100 MW of that increase is attributable to data center demand."
+  ],
+  "locator": "Press release, load forecast paragraph",
+  "grade": "A",
+  "fact_date": "2025-12",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "PJM press release 2025-12-17; this is PJM's own load forecast (a forecast of data center load, not metered load). The grid operator has a stake in how the forecast is characterized.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-023",
+  "statement": "PJM said in July 2025 it would expect the capped auction price to translate to a year-over-year increase of 1.5-5% in some customers' bills, depending on how states and utilities pass on wholesale costs, and that prices fell in two zones.",
+  "claim": "analysis",
+  "figures": [
+   "1.5–5%"
+  ],
+  "source": "SRC-4418",
+  "anchor": [
+   "PJM would expect the cap price to translate to a year-over-year increase of 1.5–5% in some customers’ bills, depending on how load serving entities and states pass on wholesale costs to consumers."
+  ],
+  "locator": "Press release, paragraph 5",
+  "grade": "C",
+  "fact_date": "2025-07",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "PJM, the grid operator, press release 2025-07-22; the operator's own estimate of retail bill effects and it has a stake in the framing. Utilities and state agencies reported larger summer 2025 bill increases in some PJM states (LBNL notes New Jersey, Pennsylvania and Maryland bills rose significantly in mid-2025).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-006",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-024",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-024",
+  "statement": "PJM's independent market monitor estimated that existing and forecast data center load increased 2025/2026 capacity auction revenues by $9,332,103,858, or 174.3 percent, out of $14,687,047,358 in total revenues.",
+  "claim": "analysis",
+  "figures": [
+   "$9,332,103,858",
+   "174.3 percent",
+   "$14,687,047,358",
+   "2025/2026"
+  ],
+  "source": "SRC-4420",
+  "anchor": [
+   "data center load by itself resulted in an increase in the 2025/2026 BRA revenues of $9,332,103,858 or 174.3 percent (Scenario 88).",
+   "total revenues in the 2025/2026 BRA were $14,687,047,358 (Scenario 0)."
+  ],
+  "locator": "Conclusions",
+  "grade": "C",
+  "fact_date": "2025-06",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "Monitoring Analytics, the independent market monitor for PJM, June 2025 (revised 2025-06-05); a scenario analysis holding all else equal, not a forecast. The monitor has long urged that new data centers bring their own generation, so it has a policy position. It concludes data center load growth is the primary reason for the tight market; PJM's own load forecast is the underlying driver. Revenue is not the same as the cost charged to retail customers.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-022",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-025",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-027",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-025",
+  "statement": "LBNL and Brattle found that over 2019 to 2024 a 10% increase in statewide load reduced average retail prices by 0.6 cents per kWh, and that states with the highest load growth generally saw real prices decline.",
+  "claim": "analysis",
+  "figures": [
+   "10%",
+   "0.6 cents/kwh",
+   "2019",
+   "2024"
+  ],
+  "source": "SRC-4411",
+  "anchor": [
+   "Based on state-level retail price changes from 2019 to 2024, statistical analysis suggests that a 10% increase in statewide load reduced overall average prices by 0.6 cents/kwh",
+   "Over the past 5 years, states with the highest load growth generally saw retail electricity prices decline in real terms"
+  ],
+  "locator": "Load growth slides; regression results",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "LBNL (DOE national laboratory) with Brattle Group, October 2025, DOE-funded. The finding is about 2019-2024, before the data center surge; the authors say residential customers benefited less and that the relationship was smaller and statistically insignificant for residential prices alone. It contests the claim that load growth itself raises household bills, but not the capacity-market effect.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-024",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CLP-027",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CLP-026",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-026",
+  "statement": "LBNL and Brattle cautioned that load growth was modest over the period they studied but is now accelerating, and that higher growth can increase retail prices if new supply and delivery infrastructure is constrained and costly.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-4411",
+  "anchor": [
+   "National load growth was modest over the time-period of focus for this slide deck but is now accelerating, which may change future price drivers.",
+   "a higher growth future can increase retail prices if new supply and delivery infrastructure is constrained and costly—as it currently appears to be in some or many states"
+  ],
+  "locator": "Slide notes on load growth",
+  "grade": "C",
+  "fact_date": "2025-10",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "LBNL with Brattle Group, October 2025; the authors' own caveat to their finding that load growth lowered prices through 2024. Same team as EV-CLP entry for the journal article.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-025",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-024",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-027",
+  "statement": "A Harvard Law School review of 40 state utility commission proceedings on data center special contracts found regulators frequently approve them in short and conclusory orders, and the authors argue such contracts can shift data center costs to other ratepayers.",
+  "claim": "analysis",
+  "figures": [
+   "40"
+  ],
+  "source": "SRC-4421",
+  "anchor": [
+   "Our review of 40 state PUC proceedings about special contracts with data centers finds that regulators frequently approve special contracts in short and conclusory orders.",
+   "special contracts between utilities and data centers, approved through opaque regulatory processes, are transferring data center costs to other consumers."
+  ],
+  "locator": "Part II.A",
+  "grade": "C",
+  "fact_date": "2025-03",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "Harvard Electricity Law Initiative (Peskoe and Martin), March 2025; a legal analysis by authors who argue for consumer protections, not a measured bill effect. Stance: skeptical of utility claims that special contracts shield other customers; it identifies risks and does not quantify how much household bills have risen. Not peer reviewed.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-024",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-025",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-028",
+  "statement": "NEADA estimated that one in six U.S. households was behind on energy bills, owing utilities a combined $23 billion, as of December 2025.",
+  "claim": "analysis",
+  "figures": [
+   "one in six",
+   "$23 billion"
+  ],
+  "source": "SRC-4422",
+  "anchor": [
+   "NEADA estimates that one in six U.S. households is already behind on energy bills, owing utilities a combined $23 billion."
+  ],
+  "locator": "Press release, \"Millions at Risk of Energy Insecurity\"",
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "NEADA press release 2025-12-16, an advocacy association of state LIHEAP directors that wants LIHEAP raised to $6.1 billion. An estimate from NEADA's own analysis; its August 2025 report gave $21 billion for June 2025 and $17.5 billion for January 2023. No official national count of utility arrears exists.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-030",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-031",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-029",
+  "statement": "NEADA estimated that utility shutoffs reached 3.0 million in 2023 and 3.5 million in 2024 and could reach 4.0 million in 2025.",
+  "claim": "analysis",
+  "figures": [
+   "3.0 million",
+   "3.5 million",
+   "4.0 million",
+   "2023",
+   "2024",
+   "2025"
+  ],
+  "source": "SRC-4424",
+  "anchor": [
+   "Shut offs are climbing too: 3.0 million in 2023, 3.5 million in 2024, and potentially 4.0 million in 2025 according to NEADA’s analysis of utility-reported shutoff data."
+  ],
+  "locator": "Press release, bullet list",
+  "grade": "C",
+  "fact_date": "2025-10",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "NEADA press release 2025-10-21, an advocacy association of state LIHEAP directors; its estimate from utility-reported data that cover only part of the country. The 2025 figure is a projection. Most customers disconnected have service restored within days (per NEADA to CBS).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-030",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-030",
+  "statement": "CBS News reported that no official national count of utility cutoffs exists, and that NEADA estimates 3.5 million American households had their power cut off at some point in 2024.",
+  "claim": "data",
+  "figures": [
+   "3.5 million",
+   "2024"
+  ],
+  "source": "SRC-4425",
+  "anchor": [
+   "While no official national count of utility cutoffs exists, NEADA estimates that 3.5 million American households had their power cut off at some point in 2024 based on public data reported by utility companies."
+  ],
+  "locator": "Body, shutoff paragraph",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "CBS News report (2025) quoting NEADA, an advocacy association of state LIHEAP directors. Included for the statement that no official count exists; the 3.5 million is NEADA's estimate, not government data.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-029",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-031",
+  "statement": "A peer-reviewed analysis of Census Household Pulse Survey data from December 2022 to September 2024 found that 22.4% of U.S. adults reported being unable to pay an energy bill, 22.0% kept the home at an unsafe temperature, and 33.6% forwent expenses such as food or medicine to pay an energy bill in the past year.",
+  "claim": "data",
+  "figures": [
+   "22.4%",
+   "22.0%",
+   "33.6%",
+   "2022",
+   "2024"
+  ],
+  "source": "SRC-4426",
+  "anchor": [
+   "This nationally representative study relied on repeated cross-sectional survey data from the US Census Bureau’s online Household Pulse Survey administered between December 9, 2022, and September 16, 2024.",
+   "One-fifth of the population reported they were unable to pay an energy bill (42 029 443 [22.4%]). Similarly, 41 126 954 respondents (22.0%) kept home temperatures at unsafe or unhealthy levels due to cost concerns. A higher prevalence of households—63 009 461 (33.6%)—reported forgoing expenses"
+  ],
+  "locator": "Results, paragraph 2",
+  "grade": "B",
+  "fact_date": "2024-09",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "JAMA Network Open, 2025 (Graff and Aung), peer-reviewed; uses U.S. Census Bureau Household Pulse Survey, an online survey with low response rates (4.7% in the final cycle). Shares are of adults, pooled over 2022-2024, with the past 12 months as the reference period. The Household Pulse Survey ended in 2024; a Census successor was not checked.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-032",
+  "statement": "NEADA reported that the Census Household Pulse Survey showed 23.4% of households could not pay their energy bill for at least one month in the last year, up from 22.0% in 2023, and 37.4% of households earning under $50k.",
+  "claim": "data",
+  "figures": [
+   "23.4%",
+   "22.0%",
+   "37.4%",
+   "2023"
+  ],
+  "source": "SRC-4423",
+  "anchor": [
+   "The Census Bureau’s Pulse Survey reported 23.4% of households could not pay their energy bill for at least one month in the last year, an increase from 22.0% in 2023.",
+   "for low income households, those earning less than $50k, during this same period, the percent of households that could not pay their utility increased from 35.5% to 37.4%."
+  ],
+  "locator": "Report, \"Utility Debt and Shut-Offs\" section",
+  "grade": "C",
+  "fact_date": "2024-09",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "NEADA report August 2025 quoting Census Household Pulse Survey tabulations (second source for the same survey as the JAMA study, so it is a restatement of Census data through an advocacy group). The survey cycle is the one ending 2024-09; its low response rate is a limit.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-033",
+  "statement": "ACEEE found U.S. households spend a median of 3.1% of income on home energy bills, and low-income households 8.1% compared with 2.3% for non-low-income households, using 2017 data.",
+  "claim": "analysis",
+  "figures": [
+   "3.1%",
+   "8.1%",
+   "2.3%",
+   "2017"
+  ],
+  "source": "SRC-4427",
+  "anchor": [
+   "We find that the median national energy burden is 3.1%, and that the median low income (≤ 200% FPL) household energy burden is 3.5 times higher than the non-low-income household energy burden (8.1% versus 2.3%).",
+   "The study, based on the most recent available federal data, reflects conditions in 2017"
+  ],
+  "locator": "Executive Summary, national energy burdens",
+  "grade": "C",
+  "fact_date": "2017",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "American Council for an Energy-Efficient Economy, September 2020 (a research nonprofit that advocates efficiency); modeled burden from the Census American Housing Survey for 2017, before the 2021-2025 price rise. The 2026 ACEEE update could not be read directly; its summary slide gives a similar median of 3.1% and low-income 8.1%. Low income means under 200% of the federal poverty level.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-034",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-034",
+  "statement": "DOE's LEAD Tool shows the national average energy burden for low-income households is 6%, three times higher than for non-low-income households at 2%, and 42% of U.S. households, about 51 million, are identified as low-income.",
+  "claim": "data",
+  "figures": [
+   "6%",
+   "2%",
+   "42%",
+   "51 million"
+  ],
+  "source": "SRC-4407",
+  "anchor": [
+   "the national average energy burden for low-income households is 6% (i.e. an AMI of 0-80% as defined by the U.S. Department of Housing and Urban Development ), which is three times higher than that for non-low-income households, which is estimated at 2%.",
+   "42% of U.S. households, or about 51 million, are identified as low-income."
+  ],
+  "locator": "Energy Burden definition and national summary",
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "U.S. Department of Energy LEAD Tool page, second Trump administration (page current in 2026); model estimates built from Census ACS 5-year 2018-2022 and EIA utility data, so burdens reflect pre-2023 prices. \"Low-income\" here is up to 80% of area median income, a wider group than ACEEE's 200% of poverty, so the 6% and ACEEE's 8.1% are not directly comparable.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-033",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-035",
+  "statement": "Roll Call reported in April 2026 that the second Trump administration's fiscal 2027 budget proposed zeroing out the $4 billion for LIHEAP, the sixth Trump budget to seek its elimination, and that Congress funded the program at $4.13 billion in fiscal 2026, a $20 million increase.",
+  "claim": "data",
+  "figures": [
+   "$4 billion",
+   "sixth",
+   "$4.13 billion",
+   "$20 million",
+   "2027",
+   "2026"
+  ],
+  "source": "SRC-4428",
+  "anchor": [
+   "The administration’s fiscal 2027 budget request for the HHS proposed zeroing out the $4 billion funding for the Low Income Home Energy Assistance Program received in the current fiscal year.",
+   "This is the sixth Trump budget that has sought to eliminate funding for LIHEAP. Congress has rejected these requests, including the current Republican majority, which funded the program at $4.13 billion, a $20 million increase, for fiscal 2026."
+  ],
+  "locator": "Paragraphs 1-3",
+  "grade": "C",
+  "fact_date": "2026-04",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "Roll Call news report 2026-04-24. The $4.13 billion figure differs from Utility Dive's \"about $4.05 billion\" for the regular block grant (the $4.13 billion may include $100 million of infrastructure law money); the appropriation text and the HHS release table were not read. The request is the administration's position (second Trump administration, which argues LIHEAP is a pass-through to utilities); Congress rejected it.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-036",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-036",
+  "statement": "Utility Dive reported that LIHEAP received about $4.05 billion in the appropriations package signed in February 2026, and that the administration laid off approximately two dozen staffers running LIHEAP the previous April and then requested no funding for the program.",
+  "claim": "data",
+  "figures": [
+   "$4.05 billion",
+   "two dozen"
+  ],
+  "source": "SRC-4429",
+  "anchor": [
+   "The Low Income Home Energy Assistance Program, or LIHEAP, received about $4.05 billion as part of an appropriations package that will fund most government agencies through September.",
+   "In April of last year, the Trump administration laid off approximately two dozen staffers running LIHEAP as part of a broader restructuring of HHS."
+  ],
+  "locator": "Bullets 1 and body",
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "Utility Dive trade news report 2026-02-04. The layoffs were by the second Trump administration (HHS restructuring); a House letter cites 25 staff of the Office of Community Services (not read directly). Funding figure conflicts with Roll Call's $4.13 billion; the likely reconciliation is regular funds plus infrastructure-law money.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-035",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-037",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-037",
+  "statement": "University researchers wrote in 2025 that LIHEAP funding has never been high enough to meet need, providing assistance to just 16% of eligible households in 2020, and that the 2026 budget proposal zeroed out LIHEAP while the entire staff of the LIHEAP office was laid off on April 1, 2025.",
+  "claim": "analysis",
+  "figures": [
+   "16%",
+   "2020",
+   "2026",
+   "April 1, 2025"
+  ],
+  "source": "SRC-4431",
+  "anchor": [
+   "the administration’s 2026 budget proposal zeros out funding for the Low Income Home Energy Assistance Program, or LIHEAP",
+   "on April 1, 2025, the administration laid off the entire staff of the LIHEAP office.",
+   "In 2020, LIHEAP provided assistance to just 16% of eligible households."
+  ],
+  "locator": "Paragraphs 2 and 8",
+  "grade": "C",
+  "fact_date": "2025-05",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "The Conversation commentary, 2025-05-13, by university researchers who study energy insecurity; advocacy-leaning commentary, not a data source. It describes the second Trump administration's actions. The 16% figure is from HHS data via the authors.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-036",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-039",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-038",
+  "statement": "The National Low Income Housing Coalition reported, citing HHS, that an estimated 5.9 million families, 17% of estimated eligible households, received LIHEAP assistance in fiscal year 2024 through the regular program.",
+  "claim": "data",
+  "figures": [
+   "5.9 million",
+   "17%",
+   "2024"
+  ],
+  "source": "SRC-4430",
+  "anchor": [
+   "an estimated 5.9 million families (17% of estimated eligible households) received Low-Income Home Energy Assistance Program (LIHEAP) assistance in fiscal year (FY) 2024 through the regular LIHEAP program"
+  ],
+  "locator": "Chapter 5, \"Number of Persons/Households Served\"",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "NLIHC Advocates' Guide 2026 chapter by a National Consumer Law Center attorney, citing the HHS LIHEAP Data Warehouse (original not read). Housing-advocacy source; the underlying data are HHS administrative counts. Eligibility is up to 150% of poverty or 60% of state median income.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-039",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-037",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-039",
+  "statement": "CRS reported that the percentage of federally eligible households receiving LIHEAP heating or winter crisis assistance hovered between 14% and 16% before FY2009, rose to 21% and 22% in FY2009 and FY2010 when appropriations reached $5.1 billion, and settled again at 16% in FY2013 and FY2014.",
+  "claim": "data",
+  "figures": [
+   "14%",
+   "16%",
+   "21%",
+   "22%",
+   "$5.1 billion",
+   "FY2009",
+   "FY2010",
+   "FY2013",
+   "FY2014"
+  ],
+  "source": "SRC-4432",
+  "anchor": [
+   "the percentage of federally eligible households receiving assistance hovered between 14% and 16%, settling at 16% for FY2006 through FY2008. However, in FY2009 and FY2010, with increased funding for LIHEAP, 21% and 22% of those households federally eligible under the LIHEAP statute were served, respectively.",
+   "the percentage of eligible households served settled again at 16% in FY2013 and FY2014.",
+   "Appropriations reached $5.1 billion for LIHEAP in both FY2009 and FY2010"
+  ],
+  "locator": "\"Households Served\" section",
+  "grade": "A",
+  "fact_date": "2014",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "Congressional Research Service (nonpartisan), report dated about 2018; heating and winter crisis assistance only, data through FY2014. Shows reach rises and falls with appropriations. Current CRS report with FY2023-24 figures was not found.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-040",
+  "statement": "EIA reported that U.S. electricity customers experienced an average of 11 hours of electricity interruptions in 2024, nearly twice the annual average of the decade before, and that major events such as Hurricanes Beryl, Helene and Milton accounted for 80% of the hours without electricity.",
+  "claim": "data",
+  "figures": [
+   "11 hours",
+   "80%",
+   "2024"
+  ],
+  "source": "SRC-4405",
+  "anchor": [
+   "U.S. electricity customers experienced an average of 11 hours of electricity interruptions in 2024, or nearly twice as many as the annual average experienced in the decade before",
+   "Major events such as Hurricanes Beryl, Helene, and Milton accounted for 80% of the hours without electricity in 2024."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-01",
+  "context": "EIA Today in Energy 2025-12-01, Electric Power Annual 2024 (second Trump administration); utility-reported SAIDI data on a voluntary-reporting basis, with varying coverage by state.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-041",
+  "statement": "EIA reported that interruptions attributed to major events averaged nearly nine hours in 2024 versus nearly four hours per year in 2014 through 2023, while interruptions not triggered by major events routinely average about two hours per year.",
+  "claim": "data",
+  "figures": [
+   "nine hours",
+   "four hours",
+   "two hours",
+   "2024",
+   "2014",
+   "2023"
+  ],
+  "source": "SRC-4405",
+  "anchor": [
+   "Interruptions attributed to major events averaged nearly nine hours in 2024, compared with an average of nearly four hours per year in 2014 through 2023. Service interruptions that aren’t triggered by major events routinely average about two hours per year."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-01",
+  "context": "EIA Today in Energy 2025-12-01, second Trump administration; utility-reported SAIDI. Whether a day counts as a \"major event\" is set by each utility's IEEE 1366 threshold, so the split depends on utility reporting.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-042",
+  "statement": "The Texas Department of State Health Services' final report counted 246 deaths from the February 2021 Winter Storm Uri, close to two-thirds of them from hypothermia.",
+  "claim": "data",
+  "figures": [
+   "246"
+  ],
+  "source": "SRC-4433",
+  "anchor": [
+   "Texas has added 36 more deaths to the official death toll from the February snow and ice storm, bringing the total to 246 in what was one of the worst natural disasters in the state's history.",
+   "Close to two-thirds of the deaths were due to hypothermia."
+  ],
+  "locator": "Paragraphs 1 and 3",
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "Texas DSHS Disaster Mortality Surveillance Unit final report (2021-12-31), as reported by The Texas Tribune; not all deaths are from the power outage specifically (also carbon monoxide, crashes and others). The DSHS report was not read directly. The count is official but widely seen as an undercount (see the excess-mortality entry).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-043",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-043",
+  "statement": "An excess-mortality estimate cited by the Austin Monitor put the number of Texas deaths that statistically should not have happened during Winter Storm Uri at 814, more than three times the official count of 246.",
+  "claim": "analysis",
+  "figures": [
+   "814",
+   "246"
+  ],
+  "source": "SRC-4434",
+  "anchor": [
+   "Manjula was one of 246 people who officially died as a result of the storm",
+   "Karlinsky estimates 814 deaths statistically should not have happened when they did in Texas. That’s more than three times higher than the official state count."
+  ],
+  "locator": "Body, Karlinsky paragraph",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "KUT/Austin Monitor 2022-08-05 reporting an estimate by researcher Ariel Karlinsky; a statistical estimate and not a death certificate count, as the Texas DSHS points out. Excess deaths include those with other causes during the same period.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-042",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-044",
+  "statement": "FERC and NERC reported that ERCOT ordered 20,000 megawatts of rolling blackouts in February 2021, the largest manually controlled load shedding event in U.S. history, and that more than 4.5 million people in Texas lost power, some for as long as four days.",
+  "claim": "data",
+  "figures": [
+   "20,000 MW",
+   "4.5 million",
+   "four days"
+  ],
+  "source": "SRC-4435",
+  "anchor": [
+   "ERCOT) ordered a total of 20,000 MW of rolling blackouts in an effort to prevent grid collapse; this represents the largest manually controlled load shedding event in U.S. history. More than 4.5 million people in Texas lost power – some for as long as four days."
+  ],
+  "locator": "Release, paragraph 2",
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "FERC news release 2021-11-16 on the joint FERC-NERC final report (Biden administration; federal regulators).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-045",
+  "statement": "FERC and NERC found that freezing issues (44.2 percent) and fuel issues (31.4 percent) caused 75.6 percent of unplanned generating unit outages, derates and failures to start in the February 2021 freeze, and made 28 formal recommendations.",
+  "claim": "analysis",
+  "figures": [
+   "44.2 percent",
+   "31.4 percent",
+   "75.6 percent",
+   "28"
+  ],
+  "source": "SRC-4435",
+  "anchor": [
+   "a combination of freezing issues (44.2 percent) and fuel issues (31.4 percent) caused 75.6 percent of the unplanned generating unit outages, derates and failures to start.",
+   "The Final Report includes 28 formal recommendations"
+  ],
+  "locator": "Release, paragraphs 3-4",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "FERC news release 2021-11-16 on the joint FERC-NERC inquiry (Biden administration); the regulators' own causal analysis, counting events not deaths. NERC is industry-funded. The NERC 2025-26 winter assessment notes four severe arctic storms since 2021.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-046",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-018",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-046",
+  "statement": "The FERC-NERC inquiry into Winter Storm Elliott in December 2022 found grid operators shed over 5,400 MW of firm load, and that more than 1,700 power generating units saw 3,565 unplanned outages, derates or failures to start.",
+  "claim": "data",
+  "figures": [
+   "5,400 MW",
+   "1,700",
+   "3,565"
+  ],
+  "source": "SRC-4436",
+  "anchor": [
+   "grid operators maintained frequency by reducing electricity demand, including by shedding over 5,400 MW of firm load, leaving hundreds of thousands of customers without electricity to heat homes for several hours during the extreme cold weather conditions,” the report says.",
+   "more than 1,700 power generating units saw 3,565 unplanned outages, derates (a loss of generating capacity) or failures to start."
+  ],
+  "locator": "Body, paragraphs 10-12",
+  "grade": "A",
+  "fact_date": "2022-12",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "Stateline (2023-11-23) quoting the FERC-NERC final report released 2023-11-07 (Biden administration; the report itself was not read). Elliott was the fifth event in 11 years in which cold forced plant outages that jeopardized the grid.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-047",
+  "statement": "LBNL reported roughly 2,290 gigawatts of capacity actively seeking interconnection at the end of 2024, including 1,400 GW of generation and 890 GW of storage.",
+  "claim": "data",
+  "figures": [
+   "2,290",
+   "1,400 GW",
+   "890 GW"
+  ],
+  "source": "SRC-4410",
+  "anchor": [
+   "Roughly 2,290 gigawatts (GW) of capacity actively seeking interconnection (1,400 GW of generation; 890 GW of storage)"
+  ],
+  "locator": "High-Level Findings slide",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-15",
+  "context": "LBNL Queued Up 2025 edition (published December 2025), DOE-funded; compiled from transmission providers' public queue data through end of 2024. Active queue volume fell 12% in 2024; most proposed capacity will not be built, and queue requests include duplicates and speculative projects. Data not updated for 2025.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-048",
+  "statement": "LBNL found the typical project built in 2024 took 55 months from interconnection request to commercial operations, compared with 36 months in 2015 and 22 months in 2008.",
+  "claim": "data",
+  "figures": [
+   "55 months",
+   "36 months",
+   "22 months",
+   "2024",
+   "2015",
+   "2008"
+  ],
+  "source": "SRC-4410",
+  "anchor": [
+   "The typical project built in 2024 took 55 months from the interconnection request to commercial operations1, compared to 36 months in 2015 and 22 months in 2008"
+  ],
+  "locator": "Interconnection duration slide",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-15",
+  "context": "LBNL Queued Up 2025 edition, DOE-funded. The 2024 sample is dominated by ERCOT (55%), which is typically faster; LBNL notes the median duration for regions with data doubled from under 2 years for 2000-2007 to over 4 years for 2018-2024.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-049",
+  "statement": "LBNL found only 13% of capacity that requested interconnection from 2000 to 2019 had reached commercial operations by the end of 2024, while 77% had been withdrawn and 10% was still active.",
+  "claim": "data",
+  "figures": [
+   "13%",
+   "77%",
+   "10%",
+   "2000",
+   "2019",
+   "2024"
+  ],
+  "source": "SRC-4410",
+  "anchor": [
+   "Only 13% of capacity that submitted interconnection requests from 2000- 2019 had reached commercial operations by the end of 2024; 77% of that capacity had been withdrawn and 10% was still active."
+  ],
+  "locator": "High-Level Findings slide",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-15",
+  "context": "LBNL Queued Up 2025 edition, DOE-funded. Withdrawal is not the same as failure of a worthwhile project: duplicate requests and speculative projects inflate withdrawals. Quote is spaced as in the extract (\"2000- 2019\").",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-050",
+  "statement": "Americans for a Clean Energy Grid and Grid Strategies reported that only 322 miles of new high-voltage transmission lines were completed in 2024, the third slowest year in 15 years, compared with nearly 4,000 miles in 2013, against a need of roughly 5,000 miles per year.",
+  "claim": "analysis",
+  "figures": [
+   "322 miles",
+   "4,000 miles",
+   "5,000 miles",
+   "2024",
+   "2013"
+  ],
+  "source": "SRC-4414",
+  "anchor": [
+   "In 2024, only 322 miles of new high-voltage transmission lines were completed, the third slowest year of new construction for 345 kV and above transmission over the past 15 years.",
+   "nearly 4,000 miles were built in 2013 alone.",
+   "This implies that a build out of roughly 5,000 miles per year of high-capacity regional transmission is needed"
+  ],
+  "locator": "Executive summary and \"Projects Completed in 2024\"",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "ACEG and Grid Strategies, July 2025, a transmission advocacy coalition and consultancy; counts 345 kV and above using FERC and ERCOT data. The 5,000 miles per year is the authors' reading of DOE's 2024 National Transmission Planning Study (Biden administration). FERC later revised the figures upward (see the next entry), so 322 is an undercount.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-051",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-051",
+  "statement": "After FERC revised its data, the same authors reported 888 miles of new 345 kV and above transmission in 2024, and an average of 536 miles per year in 2020-2024, down from 942 miles in 2015-2019 and 1781 miles in 2010-2014.",
+  "claim": "analysis",
+  "figures": [
+   "888 miles",
+   "536",
+   "942",
+   "1781",
+   "2024"
+  ],
+  "source": "SRC-4414",
+  "anchor": [
+   "for a total of 888 miles of new 345 kV+ transmission constructed in 2024.",
+   "the United States built an average of 536 new miles of high-voltage transmission from 2020-2024, down from an average of 942 new miles from 2015-2019, and even further down from an average of 1781 new miles from 2010- 2014."
+  ],
+  "locator": "\"Update from FERC on transmission build numbers\"",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2026-12-31",
+  "context": "ACEG and Grid Strategies Rev. 1 addendum (July 2025) using the FERC Energy Infrastructure Update for April 2025; FERC does not say which lines were added, and the authors say the data are often incomplete. The authors still conclude the pace must rise more than fivefold. Advocacy coalition; the longer-run decline is the robust finding.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-050",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-052",
+  "statement": "DOE reported that lead times for large power transformers had become exceptionally long, with 36-month lead times commonly quoted and maximum lead times reaching as much as 60 months, where before the pandemic an order could be placed with a lead time of less than a year.",
+  "claim": "analysis",
+  "figures": [
+   "36-month",
+   "60 months"
+  ],
+  "source": "SRC-4408",
+  "anchor": [
+   "lead times for acquisition of an LPT have become\nexceptionally long, with 36-month lead times being commonly quoted and maximum lead times\nreaching as much as 60 months",
+   "Prior to the Coronavirus Disease of 2019 (COVID-19) pandemic, it\nwas possible to place an order for a large transformer with a lead time of less than a year"
+  ],
+  "locator": "Section II.1 and III.3.1",
+  "grade": "C",
+  "fact_date": "2024-07",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "DOE Grid Resilience Office report to Congress, July 2024 (Biden administration); lead times are stakeholder-reported, not measured. Includes a note that 90 percent of U.S. electricity passes through a large power transformer at some point.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-053",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-053",
+  "statement": "The National Infrastructure Advisory Council reported, quoting Wood Mackenzie, that transformer lead times rose from around 50 weeks in 2021 to 120 weeks on average in 2024, with large substation and generator step-up transformers at 80 to 210 weeks.",
+  "claim": "analysis",
+  "figures": [
+   "50 weeks",
+   "120 weeks",
+   "80 to 210 weeks",
+   "2021",
+   "2024"
+  ],
+  "source": "SRC-4437",
+  "anchor": [
+   "transformer lead times have been increasing for the last 2 years – from around 50 weeks in 2021, to 120 weeks on average in 2024. Large transformers, both substation power and generator step-up transformers, have lead times ranging from 80 to 210 weeks."
+  ],
+  "locator": "Executive summary, Figure 1 text",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "National Infrastructure Advisory Council report, June 2024 (Biden administration), quoting Wood Mackenzie, a consultancy; a private-market estimate, not measured by the government. Corroborated by DOE's 36-month figure (156 weeks).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-052",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-100",
+  "statement": "In 2023, total gross U.S. greenhouse gas emissions were 6,197.3 MMT CO2 Eq., according to EPA's latest Inventory.",
+  "claim": "data",
+  "figures": [
+   "6,197.3",
+   "2023"
+  ],
+  "source": "SRC-4460",
+  "anchor": [
+   "In 2023, total gross U.S. greenhouse gas emissions were 6,197.3 MMT CO2 Eq. Total gross U.S."
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-13",
+  "recheck": "2027-04-15",
+  "context": "EPA inventory completed under the Biden administration and published in 2025 only because of a Freedom of Information Act request (EV-CLP-104). It is the latest EPA inventory; EPA has not published a newer one. Gross excludes land-use sinks.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-101",
+  "statement": "EPA's latest Inventory puts 2023 net U.S. emissions, which count land-use sinks, at 5,257.4 MMT CO2 Eq., down 3.3 percent from 2022 and down nearly 20 percent over the last 20 years.",
+  "claim": "data",
+  "figures": [
+   "5,257.4",
+   "3.3 percent",
+   "20 percent",
+   "2023",
+   "2022"
+  ],
+  "source": "SRC-4460",
+  "anchor": [
+   "Net emissions, including emissions and sinks from the LULUCF sector, were 5,257.4 MMT CO2 Eq. in",
+   "2023. Overall, net emissions decreased by 3.3 percent from 2022 to 2023. Over the last 20 years, net",
+   "emissions decreased by nearly 20 percent."
+  ],
+  "grade": "A",
+  "fact_date": "2023",
+  "checked": "2026-11-13",
+  "recheck": "2027-04-15",
+  "context": "Same EPA inventory as EV-CLP-100. Net emissions subtract forest and land carbon sinks (about 16 percent of gross in 2023).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-102",
+  "statement": "EPA reported that in 2022 net U.S. greenhouse gas emissions were 5,489 million metric tons of carbon dioxide equivalent and 17 percent below 2005 levels.",
+  "claim": "data",
+  "figures": [
+   "5,489",
+   "17 percent",
+   "2022",
+   "2005"
+  ],
+  "source": "SRC-4461",
+  "anchor": [
+   "5,489 million metric tons of carbon dioxide",
+   "Net emissions were 17 percent below 2005 levels.",
+   "• In 2022, net U.S. greenhouse gas emissions were"
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-13",
+  "recheck": "2027-04-15",
+  "context": "EPA data highlights published April 2024 under the Biden administration. Later inventory revisions lowered estimates of net emissions by about 0.9 percent on average (see the main text of the 2025 inventory), so use EV-CLP-101 for the newest level.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-103",
+  "statement": "EPA told Maine Public that, due to the U.S. withdrawal from the Paris Agreement, it did not publish the Greenhouse Gas Inventory or state inventories in 2025 and 2026.",
+  "claim": "data",
+  "figures": [
+   "2025",
+   "2026"
+  ],
+  "source": "SRC-4482",
+  "anchor": [
+   "\"Due to the withdrawal of the United States from the Paris Agreement, EPA did not publish the Greenhouse Gas Inventory, as well as state GHG inventories, in 2025 and 2026,\" the agency said."
+  ],
+  "locator": "report text, EPA statement paragraph",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-13",
+  "recheck": "2027-04-15",
+  "context": "Statement of the second Trump administration's EPA, quoted by a regional public-media report (June 2026). Rhodium and EDF describe the same gap (EV-CLP-104, EV-CLP-105). The statement links the omission to withdrawal; the treaty obligation to report annual inventories sits in the UNFCCC, which the U.S. also announced it is leaving.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-104",
+  "statement": "EDF obtained EPA's completed latest inventory through a Freedom of Information Act request on May 7, 2025, after the Trump administration had declined to publish it.",
+  "claim": "data",
+  "figures": [
+   "May 7, 2025"
+  ],
+  "source": "SRC-4480",
+  "anchor": [
+   "obtained via FOIA request on May 7, 2025",
+   "including the inventory report that the Trump administration had declined to publish.",
+   "This year, for the first time in nearly three decades, the U.S. failed to meet that obligation and did not publicly release a greenhouse gas inventory."
+  ],
+  "locator": "page text, opening paragraphs",
+  "grade": "C",
+  "fact_date": "2025-05",
+  "checked": "2026-11-13",
+  "recheck": "2027-04-15",
+  "context": "Environmental Defense Fund, an environmental advocacy group and the requester, so its framing is advocacy; the facts (FOIA release, missed April 15 deadline) are confirmed independently by Rhodium (EV-CLP-105). Page dated May 8, 2025.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-105",
+  "statement": "Rhodium Group said EPA released its latest inventory only when compelled by a Freedom of Information Act request, and that no further inventories may come under the Trump administration.",
+  "claim": "analysis",
+  "figures": [
+   "2023"
+  ],
+  "source": "SRC-4473",
+  "anchor": [
+   "EPA only released the 2023 inventory earlier this year when compelled by a Freedom of Information Act request",
+   "we may not receive any further inventories under this administration."
+  ],
+  "locator": "\"Beyond policy changes that will result in higher emissions...\" section, final paragraphs",
+  "grade": "C",
+  "fact_date": "2026-01",
+  "checked": "2026-11-13",
+  "recheck": "2027-04-15",
+  "context": "Rhodium Group (independent research firm, January 2026) relies on EPA's inventory for its own estimates, so it has a stake in the data continuing. \"May not\" is a judgment, not a fact; as of Rhodium's Taking Stock 2026 appendix (EV-CLP-106) EPA had skipped a second year.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-104",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-103",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-106",
+  "statement": "Rhodium Group said 2026 is the second year in a row EPA has not released its inventory, and used a University of Maryland inventory built on the prior EPA methodology for historical emissions.",
+  "claim": "data",
+  "figures": [
+   "2026"
+  ],
+  "source": "SRC-4476",
+  "anchor": [
+   "but 2026 marks the second year in a row the EPA has not released this data inventory.",
+   "the University of Maryland’s Center for Global Sustainability (CGS) developed an inventory consistent with the methodology of the prior EPA inventory."
+  ],
+  "locator": "Taking Stock 2026 Technical Appendix, opening paragraph",
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-13",
+  "recheck": "2027-04-15",
+  "context": "Rhodium Group technical appendix (July 2026). The University of Maryland Center for Global Sustainability inventory is an independent substitute; EDF also describes it (EV-CLP-107).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-107",
+  "statement": "EDF wrote in April 2026 that EPA appeared not to have begun its 2026 inventory and that the University of Maryland Center for Global Sustainability had created a national inventory report from the data and methods underlying earlier inventories.",
+  "claim": "analysis",
+  "figures": [
+   "2026"
+  ],
+  "source": "SRC-4481",
+  "anchor": [
+   "To date, the EPA appears to have not even begun working on the 2026 GHG inventory.",
+   "The University of Maryland Center for Global Sustainability (CGS) recently created a foundational report called Greenhouse Gas Inventory and Analysis for the United States (GHGIA) using the data and methods underlying earlier inventories."
+  ],
+  "locator": "blog post text, paragraphs after the UNFCCC deadline paragraph",
+  "grade": "C",
+  "fact_date": "2026-04",
+  "checked": "2026-11-13",
+  "recheck": "2027-04-15",
+  "context": "Environmental Defense Fund staff blog post (an advocacy group). The EPA status is the author's inference; Rhodium confirms the second skipped year (EV-CLP-106).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-106",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-103",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-108",
+  "statement": "Rhodium Group's preliminary estimate was that U.S. emissions in 2024 were down by just 0.2% from the prior year and remained about 20% below 2005 levels.",
+  "claim": "analysis",
+  "figures": [
+   "0.2%",
+   "20%",
+   "2024",
+   "2005"
+  ],
+  "source": "SRC-4472",
+  "anchor": [
+   "we estimate that 2024 emissions were down by just 0.2% year-on-year while the economy grew by 2.7%.",
+   "remain about 20% below 2005 levels, the benchmark for US commitments under the Paris Agreement."
+  ],
+  "locator": "opening paragraphs",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "Rhodium Group (independent research firm), preliminary estimate published January 9, 2025, before EPA's inventory. Measured against 2005, the benchmark year for U.S. Paris targets.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-101",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-109",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-109",
+  "statement": "Rhodium Group's preliminary estimate was that U.S. emissions rose 2.4% in 2025, to 18% below 2005 levels and 6% below 2019.",
+  "claim": "analysis",
+  "figures": [
+   "2.4%",
+   "18%",
+   "6%",
+   "2025",
+   "2005",
+   "2019"
+  ],
+  "source": "SRC-4473",
+  "anchor": [
+   "we project that economy-wide emissions grew by 2.4% in 2025",
+   "This puts US emissions 6% below pre-pandemic levels in 2019 and 18% below 2005 levels."
+  ],
+  "locator": "\"Preliminary US Greenhouse Gas Emissions Estimates for 2025,\" second paragraph",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "Rhodium Group (independent research firm), preliminary estimate (January 13, 2026) from early energy and economic data, with no EPA inventory to check against. It says the rise reflects weather and demand, not yet the 2025 reconciliation law or executive rollbacks.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-108",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-101",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-110",
+  "statement": "Rhodium Group found that 2025 emissions growth came mainly from buildings, up 6.8%, and from the power sector, up 3.8% on a 13% rise in coal generation.",
+  "claim": "analysis",
+  "figures": [
+   "6.8%",
+   "3.8%",
+   "13%",
+   "2025"
+  ],
+  "source": "SRC-4473",
+  "anchor": [
+   "The increase in 2025 emissions was driven by increases of 6.8% in the buildings sector and 3.8% in the power sector (Figures 2 and 3).",
+   "a 2.4% increase in total electricity generation and a 13% increase in coal generation relative to 2024 pushed emissions from electricity generation up by 55 MMT (3.8%)."
+  ],
+  "locator": "sector discussion paragraphs",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "Rhodium Group preliminary estimate, January 2026. Cold winter weather and higher gas prices are cited as drivers.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-109",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-111",
+  "statement": "Rhodium Group's Taking Stock 2026 projects that, under federal and state policies on the books as of June 2026, the U.S. will reduce emissions 27-41% below 2005 levels in 2040.",
+  "claim": "analysis",
+  "figures": [
+   "27-41%",
+   "2040",
+   "2005",
+   "June 2026"
+  ],
+  "source": "SRC-4475",
+  "anchor": [
+   "In this year’s report, we find that the US is on track to reduce GHG emissions by 27-41% below 2005 levels in 2040, considering all relevant federal and state policies on the books as of June 2026."
+  ],
+  "locator": "\"Taking Stock 2026,\" opening summary",
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-13",
+  "recheck": "2027-09-15",
+  "context": "Rhodium Group (independent research firm), annual current-policy outlook of July 2026; ranges are scenarios, not confidence intervals. It reflects the 2025 reconciliation law (P.L. 119-21) and executive rollbacks.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md",
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-112",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-113",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-112",
+  "statement": "Rhodium Group's Taking Stock 2025 projected a 26-35% decline from 2005 levels in 2035, down from the 38-56% decline in its 2024 report.",
+  "claim": "analysis",
+  "figures": [
+   "26-35%",
+   "38-56%",
+   "2035",
+   "2024",
+   "2005"
+  ],
+  "source": "SRC-4474",
+  "anchor": [
+   "Taking Stock 2025: US Energy and Emissions Outlook",
+   "we find the US is on track to reduce GHG emissions by 26-41% in 2040 relative to 2005 levels.",
+   "On the way to 2040, we estimate GHG emissions levels will decline 26-35% in 2035, a meaningful shift from our 2024 report, which showed a steeper decline of 38-56% by that point."
+  ],
+  "locator": "\"Taking Stock 2025\" opening summary",
+  "grade": "C",
+  "fact_date": "2025-09",
+  "checked": "2026-11-13",
+  "recheck": "2026-09-15",
+  "context": "Rhodium Group (independent research firm), September 10, 2025; same team as EV-CLP-111 and EV-CLP-113. The drop reflects the 2025 reconciliation law and executive repeals. 2035 is the year of the Biden administration's 61-66% target (EV-CLP-116).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md",
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-114",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-115",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-113",
+  "statement": "Rhodium Group estimated the final reconciliation law leaves 2035 emissions 27-44% below 2005 levels, 315-574 million metric tons higher than its baseline.",
+  "claim": "analysis",
+  "figures": [
+   "27-44%",
+   "315-574",
+   "2035",
+   "2005"
+  ],
+  "source": "SRC-4477",
+  "anchor": [
+   "We estimate the final enacted law will result in GHG emissions that are 27-44% below 2005 levels in 2035, a 315-574 million metric ton increase in emissions that year compared to the baseline"
+  ],
+  "locator": "\"Slower clean tech deployment, higher emissions\" section",
+  "grade": "C",
+  "fact_date": "2025-07",
+  "checked": "2026-11-13",
+  "recheck": "2026-09-15",
+  "context": "Rhodium Group (independent research firm), July 11, 2025, one week after the law was signed; the baseline is its earlier policy outlook, which included EPA rules since repealed or proposed for repeal.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md",
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-114",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-115",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-114",
+  "statement": "The REPEAT Project estimated the Senate-passed reconciliation bill would increase U.S. greenhouse gas emissions by roughly 190 million metric tons per year in 2030 and 470 million metric tons per year in 2035, relative to executive actions alone.",
+  "claim": "analysis",
+  "figures": [
+   "190",
+   "470",
+   "2030",
+   "2035"
+  ],
+  "source": "SRC-4478",
+  "anchor": [
+   "• Increase U.S. greenhouse gas emissions by roughly 190 million metric tons per year in 2030 and 470 million metric tons per year in 2035.",
+   "*- all relative to executive actions that President Trump plans to take without Congressional action."
+  ],
+  "locator": "Summary page, bullet list",
+  "grade": "D",
+  "fact_date": "2025-07",
+  "checked": "2026-11-13",
+  "recheck": "2026-09-15",
+  "context": "REPEAT Project (Princeton ZERO Lab and Evolved Energy Research, Hewlett Foundation funded), July 2, 2025, on the Senate version that became law; not peer reviewed (the report says so). A scenario estimate.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md",
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-113",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-115",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-115",
+  "statement": "A peer-reviewed review in Nature Reviews Clean Technology found the Inflation Reduction Act was projected to cut emissions 39–48% below 2005 by 2035 versus 27–35% without it, and that the One Big Beautiful Bill Act moves outcomes toward the no-IRA range of 31–37%.",
+  "claim": "analysis",
+  "figures": [
+   "39–48%",
+   "27–35%",
+   "31–37%",
+   "2005",
+   "2035"
+  ],
+  "source": "SRC-4479",
+  "anchor": [
+   "IRA was projected to roughly double emissions reductions by 2035 (39–48% below 2005 versus 27–35% without IRA); the One Big Beautiful Bill Act (OBBBA) shifts outcomes towards the no-IRA baseline (31–37%)."
+  ],
+  "locator": "Key points, third bullet",
+  "grade": "B",
+  "fact_date": "2026-04",
+  "checked": "2026-11-13",
+  "recheck": "2027-04-15",
+  "context": "Peer-reviewed synthesis of modelling studies (April 2026) by university and think-tank authors; it summarizes projections rather than adding a new model. Ranges span studies with different assumptions.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md",
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-113",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-112",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-116",
+  "statement": "CRS reports the U.S. 2035 climate target submitted under the Paris Agreement is an economy-wide net reduction of 61-66 percent below 2005 levels in 2035.",
+  "claim": "data",
+  "figures": [
+   "61-66 percent",
+   "2005",
+   "2035"
+  ],
+  "source": "SRC-4466",
+  "anchor": [
+   "economy-wide target of reducing its net greenhouse gas emissions by 61-66 percent below 2005",
+   "levels in 2035."
+  ],
+  "grade": "A",
+  "fact_date": "2024-12",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "Target communicated in December 2024 under the Biden administration; the Trump administration is withdrawing from the Paris Agreement and is not pursuing it. CRS is nonpartisan.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-117",
+  "statement": "President Trump issued Executive Order 14162 on withdrawing from the Paris Agreement, and the UN Secretary General notified that the withdrawal takes effect January 27, 2026.",
+  "claim": "data",
+  "figures": [
+   "14162",
+   "January 27, 2026"
+  ],
+  "source": "SRC-4466",
+  "anchor": [
+   "On January 20, 2025, President Trump issued Executive Order (E.O.) 14162, in which Section",
+   "from the PA effective January 27, 2026."
+  ],
+  "grade": "A",
+  "fact_date": "2026-01",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "CRS (nonpartisan) account of the second Trump administration's second withdrawal. A future administration would have to rejoin under the agreement's procedures.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-120",
+  "statement": "NOAA reported 27 separate U.S. weather and climate disasters of at least $1 billion in 2024, costing about $182.7 billion and causing at least 568 fatalities.",
+  "claim": "data",
+  "figures": [
+   "27",
+   "$182.7 billion",
+   "568",
+   "2024"
+  ],
+  "source": "SRC-4463",
+  "anchor": [
+   "In 2024, there were 27 individual weather and climate disasters with at least $1 billion in damages, trailing only the record-setting 28 events analyzed in 2023. These disasters caused at least 568 direct or indirect fatalities",
+   "The cost was approximately $182.7 billion."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "NOAA NCEI final update of the database, January 10, 2025 (Biden administration), inflation-adjusted to 2024 dollars. Costs are direct losses only, insured and uninsured. Climate Central later revised the 2024 count to 26 by counting wildfires individually (EV-CLP-125).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-121",
+  "statement": "Between 1980 and 2024 the United States suffered 403 weather and climate disasters of at least $1 billion each, with cumulative costs above $2.915 trillion.",
+  "claim": "data",
+  "figures": [
+   "403",
+   "$2.915 trillion",
+   "1980",
+   "2024"
+  ],
+  "source": "SRC-4463",
+  "anchor": [
+   "which is the eighth-highest for these billion-dollar disasters over the last 45 years (1980-2024).",
+   "the U.S. has sustained 403 weather and climate disasters for which the individual damage costs reached or exceeded $1 billion.",
+   "The cumulative cost for these 403 events exceeds $2.915 trillion ."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "NOAA NCEI, January 2025 (Biden administration), inflation-adjusted to 2024 dollars. Excludes events below $1 billion and indirect costs such as lives and health care.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-122",
+  "statement": "NOAA announced on May 8, 2025 that its Billion Dollar Weather and Climate Disasters product would be retired, with no updates beyond calendar year 2024.",
+  "claim": "data",
+  "figures": [
+   "May 8, 2025",
+   "2024"
+  ],
+  "source": "SRC-4462",
+  "anchor": [
+   "May 8, 2025",
+   "The NOAA Billion Dollar Weather and Climate Disasters product will be retired, with no updates beyond calendar year 2024."
+  ],
+  "grade": "A",
+  "fact_date": "2025-05",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "NOAA notice of changes issued under the second Trump administration. Archived data for 1980-2024 stay available. NOAA gave no reason in the notice.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-123",
+  "statement": "CRS reports that NOAA concluded there were 27 U.S. billion-dollar disasters in 2024, for a total cost of $182.7 billion.",
+  "claim": "data",
+  "figures": [
+   "27",
+   "$182.7 billion",
+   "2024"
+  ],
+  "source": "SRC-4464",
+  "anchor": [
+   "damages billion-dollar disasters. In 2024, NOAA",
+   "concluded there were 27 U.S. billion-dollar disasters, for a",
+   "total cost of $182.7 billion (Figure 1)."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "CRS (nonpartisan), March 17, 2025, restating NOAA. Independent publisher confirming EV-CLP-120.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-124",
+  "statement": "Climate Central relaunched the U.S. billion-dollar disaster database in October 2025, saying NOAA ceased operating the project in May 2025, and counted 14 billion-dollar disasters costing $101.4 billion in the first six months of 2025.",
+  "claim": "data",
+  "figures": [
+   "14",
+   "$101.4 billion",
+   "May 2025"
+  ],
+  "source": "SRC-4483",
+  "anchor": [
+   "The future of this database was uncertain after NOAA ceased operations of the project in May 2025.",
+   "During the first six months of 2025, there have been 14 separate billion-dollar weather and climate disasters in the U.S., costing $101.4 billion."
+  ],
+  "locator": "Key facts, bullets 3 and 4",
+  "grade": "C",
+  "fact_date": "2025-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "Climate Central, a nonprofit, with the methodology unchanged and the project led by NOAA's former lead scientist. A private continuation of a federal series, not an official statistic.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-125",
+  "statement": "Climate Central's November 2026 revision, which counts individual wildfires, lists 26 billion-dollar disasters costing $191.8 billion in 2024 and 24 costing $118.5 billion in 2025, and 453 since 1980 costing $3.2 trillion.",
+  "claim": "data",
+  "figures": [
+   "26",
+   "$191.8",
+   "24",
+   "$118.5",
+   "453",
+   "$3.2 trillion",
+   "2024",
+   "2025",
+   "1980"
+  ],
+  "source": "SRC-4485",
+  "anchor": [
+   "| 2024 | 26 | $191.8 |",
+   "| 2025 | 24 | $118.5 |",
+   "Through September 2026, the U.S. has experienced 453 (previously 447) billion-dollar disasters since 1980. The total cost of these events is $3.2 trillion"
+  ],
+  "locator": "table of years with the most billion-dollar disasters; paragraph under \"New wildfire data raises the total count\"",
+  "grade": "C",
+  "fact_date": "2026-11",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "Climate Central (nonprofit), November 11, 2026, dollars adjusted to 2026. The new method counts each billion-dollar wildfire separately, so counts differ from NOAA's 2024 figure of 27 (EV-CLP-120); the cost column of the table is in billions.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-126",
+  "statement": "CDC reported 2,391 heat-related deaths in the United States in 2024.",
+  "claim": "data",
+  "figures": [
+   "2,391",
+   "2024"
+  ],
+  "source": "SRC-4469",
+  "anchor": [
+   "In 2024, a total of 2,391 heat-related deaths were reported in the United States."
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2027-09-15",
+  "context": "CDC National Center for Health Statistics death-certificate data, MMWR QuickStats of September 3, 2026 (second Trump administration). Counts deaths with heat on the certificate and is widely considered an undercount.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-127",
+  "statement": "The Fifth National Climate Assessment said weather-related disasters currently generate at least $150 billion per year in direct damages to the U.S., in 2022 dollars.",
+  "claim": "analysis",
+  "figures": [
+   "$150 billion",
+   "2022"
+  ],
+  "source": "SRC-4487",
+  "anchor": [
+   "weather-related disasters currently generate at least $150 billion per year (in 2022 dollars) in direct damages to the US"
+  ],
+  "locator": "Chapter 19, \"Climate Change Affects the Economy Directly\"",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "Federal assessment released November 2023 (Biden administration), by the U.S. Global Change Research Program; the figure rests on NOAA's billion-dollar series, so it is not independent of it. Direct damages only. The second Trump administration took the site down in June 2025 (EV-CLP-129).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-128",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-120",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-128",
+  "statement": "Climate Central found average annual billion-dollar disaster costs rose to $153.2 billion per year during 2020-2024, from $22.6 billion per year in the 1980s.",
+  "claim": "data",
+  "figures": [
+   "$153.2 billion",
+   "$22.6 billion",
+   "2020-2024"
+  ],
+  "source": "SRC-4483",
+  "anchor": [
+   "Average annual inflation-adjusted costs more than quadrupled from the 1980s ($22.6 billion per year) to the 2010s ($102.0 billion per year).",
+   "Costs continued to rise, reaching an average of $153.2 billion per year during 2020-2024 — a 50% increase over the 2010s."
+  ],
+  "locator": "\"More costly disasters, more often\" section",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "Climate Central (nonprofit), October 2025, using NOAA's series and methodology (CPI-adjusted). Rising exposure (more property in harm's way) as well as climate change drives the trend.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-129",
+  "statement": "The Trump administration dismissed all contributors to the sixth National Climate Assessment, nearly 400 people, according to an email sent to them.",
+  "claim": "data",
+  "figures": [
+   "400",
+   "April 28"
+  ],
+  "source": "SRC-4486",
+  "anchor": [
+   "WASHINGTON, April 28 (Reuters) - President Donald Trump's administration has dismissed all contributors",
+   "The dismissal of nearly 400 contributors to the sixth National Climate Assessment, which is mandated by Congress"
+  ],
+  "locator": "opening paragraphs",
+  "grade": "C",
+  "fact_date": "2025-04",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "Reuters report of April 28, 2025 based on an email to authors; the administration's reasons were not in the extract read. Congress mandates the assessment.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-130",
+  "statement": "Climate Central counted 23 U.S. billion-dollar disasters in 2025, costing $115 billion and causing an estimated 276 fatalities, with the January Los Angeles wildfires the costliest at $61.2 billion.",
+  "claim": "data",
+  "figures": [
+   "23",
+   "$115 billion",
+   "276",
+   "$61.2 billion",
+   "2025"
+  ],
+  "source": "SRC-4484",
+  "anchor": [
+   "In 2025 there were 23 weather and climate disasters with at least $1 billion (inflation-adjusted) in U.S. damages. These 23 events caused an estimated 276 fatalities and cost a total of $115 billion in damages.",
+   "With $61.2 billion in damages, this devastating event was about twice as costly as the previous record wildfire."
+  ],
+  "locator": "\"In 2025 there were 23...\" paragraph; first LA wildfire entry",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-15",
+  "context": "Climate Central (nonprofit), January 8, 2026, using NOAA's methodology; the first full-year count produced outside NOAA. Superseded by its November 2026 revision (EV-CLP-125), which counts 24 events costing $118.5 billion.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-140",
+  "statement": "An NBER digest of Keys and Mulder reports that average home insurance costs rose from $1,902 to $2,530 between 2020 and 2023, a 13 percent rise after inflation.",
+  "claim": "analysis",
+  "figures": [
+   "$1,902",
+   "$2,530",
+   "13 percent",
+   "2020",
+   "2023"
+  ],
+  "source": "SRC-4488",
+  "anchor": [
+   "Between 2020 and 2023, average home insurance costs rose from $1,902 to $2,530 — a 13 percent rise once adjusted for inflation."
+  ],
+  "locator": "second paragraph after the first section break",
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-13",
+  "recheck": "2027-06-30",
+  "context": "NBER working paper (not peer reviewed) by Benjamin Keys and Philip Mulder using mortgage escrow data, summarized in an NBER digest of October 2024; the digest is by the same publisher and the numbers are from the authors' paper. Premiums are inferred from escrow payments.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-142",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-150",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-141",
+  "statement": "An NBER digest of Keys and Mulder says a one standard deviation increase in ZIP code disaster risk meant about $300 more in premium in 2018 and nearly $500 by 2023, alongside a doubling of reinsurance costs.",
+  "claim": "analysis",
+  "figures": [
+   "$300",
+   "$500",
+   "2018",
+   "2023"
+  ],
+  "source": "SRC-4488",
+  "anchor": [
+   "In 2018, a 1 standard deviation increase in disaster risk in a ZIP code resulted in an average premium increase of about $300. By 2023, the increase was nearly $500.",
+   "The rise in risk premiums coincides with a doubling of US property and casualty reinsurance costs between 2018 and 2023."
+  ],
+  "locator": "fourth paragraph",
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-13",
+  "recheck": "2027-06-30",
+  "context": "Same NBER working paper and digest as EV-CLP-140 (same authors). Associates risk and premiums across ZIP codes; does not itself prove climate change causes the premium rise.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-144",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-152",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-142",
+  "statement": "Treasury's Federal Insurance Office found average homeowners premiums per policy rose 8.7 percent faster than inflation between 2018 and 2022.",
+  "claim": "data",
+  "figures": [
+   "8.7 percent",
+   "2018",
+   "2022"
+  ],
+  "source": "SRC-4468",
+  "anchor": [
+   "U.S. homeowners faced increasing costs for insurance between 2018 and 2022, with changes",
+   "nationwide increased 8.7 percent faster than inflation during this period."
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "Federal Insurance Office report of January 2025, released at the end of the Biden administration, on about 246 million policies covering about 80 percent of private premiums. Covers 2018-2022 only; the report says premiums and nonrenewals rose significantly in some states in 2023-2024. The insurance industry criticized the report.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-143",
+  "statement": "Treasury's Federal Insurance Office found homeowners in the top 20 percent of ZIP Codes by expected climate-related losses paid average premiums of $2,321 between 2018 and 2022, 82 percent more than the bottom 20 percent.",
+  "claim": "data",
+  "figures": [
+   "$2,321",
+   "82 percent",
+   "20 percent",
+   "2018",
+   "2022"
+  ],
+  "source": "SRC-4468",
+  "anchor": [
+   "$2,321 between 2018 and 2022—82 percent more than the average for the bottom 20 percent of",
+   "buildings from climate-related perils paid average inflation-adjusted premiums per policy of"
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "Federal Insurance Office, January 2025 (Biden administration). Expected losses come from nine climate-related perils excluding flood. Industry groups called the analysis flawed.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-144",
+  "statement": "Treasury's Federal Insurance Office found nonrenewal rates in the highest-risk ZIP Codes averaged 1.61 percent over five years, about 80 percent higher than in the lowest-risk ZIP Codes.",
+  "claim": "data",
+  "figures": [
+   "1.61 percent",
+   "80 percent"
+  ],
+  "source": "SRC-4468",
+  "anchor": [
+   "rates, with an average for the five-year period of 1.61 percent, about 80 percent higher than the"
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "Federal Insurance Office, January 2025 (Biden administration), covering 2018-2022. Nonrenewal is one measure of availability; policyholders may find coverage elsewhere, including residual markets.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-145",
+  "statement": "Senate Budget Committee majority staff obtained county-level nonrenewal data from 23 of 41 insurers asked, covering approximately 65 percent of the market for 2018 through 2023, and found Florida had the highest average statewide non-renewal rate.",
+  "claim": "analysis",
+  "figures": [
+   "23",
+   "41",
+   "65 percent",
+   "2018 through 2023"
+  ],
+  "source": "SRC-4470",
+  "anchor": [
+   "from 23 of the 41 companies from which it requested this data. The data cover the",
+   "years 2018 through 2023, and the companies responding collectively account for",
+   "approximately 65 percent of the homeowners’ insurance market nationwide.",
+   "Florida has the highest average statewide non-renewal rate; Texas is not even in the"
+  ],
+  "locator": "Executive Summary, first page",
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "Senate Budget Committee Democratic majority staff report, December 2024, under Chairman Whitehouse, who advocates climate action; insurers supplied data voluntarily. The causal claim that climate change drives nonrenewals is the committee's inference; Treasury's FIO found a similar link (EV-CLP-144).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-144",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-143",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-146",
+  "statement": "AP reported State Farm would not renew about 72,000 California policies, 30,000 houses and 42,000 apartments, starting in summer 2024.",
+  "claim": "data",
+  "figures": [
+   "72,000",
+   "30,000",
+   "42,000",
+   "2024"
+  ],
+  "source": "SRC-4489",
+  "anchor": [
+   "State Farm will discontinue coverage for 72,000 houses and apartments in California starting summer 2024, the insurance giant said.",
+   "it won’t renew the policies on 30,000 houses and 42,000 apartments"
+  ],
+  "locator": "opening paragraph and photo caption",
+  "grade": "C",
+  "fact_date": "2024-03",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "Associated Press, March 22, 2024, from company and regional news reporting. State Farm cited costs, catastrophe risk and regulation; other insurers have since expanded or restricted writing in California, so the market is not uniformly exiting.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-147",
+  "statement": "The California FAIR Plan reported 696,562 policies in force as of June 2026, up 157% from September 2022.",
+  "claim": "data",
+  "figures": [
+   "696,562",
+   "157%",
+   "June 2026",
+   "September 2022"
+  ],
+  "source": "SRC-4490",
+  "anchor": [
+   "As of June 2026, the FAIR Plan’s total PIF is 696,562 reflecting an 8% increase since September 2025 (prior fiscal year-end) and a 157% increase since September 2022 (Fiscal Year End 2022)."
+  ],
+  "locator": "second and third headline paragraphs",
+  "grade": "A",
+  "fact_date": "2026-06",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "Counts reported by the FAIR Plan Association itself, an insurer-funded association of last resort, not a state agency. A third-party tracker reports 698,307 policies as of September 30, 2026 from the FAIR Plan dashboard; counts differ with whether commercial policies are included.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-148",
+  "statement": "Florida's Citizens Property Insurance Corporation reported 769,316 policies in force as of September 30, 2025.",
+  "claim": "data",
+  "figures": [
+   "769,316",
+   "September 30, 2025"
+  ],
+  "source": "SRC-4491",
+  "anchor": [
+   "Current Policy Count as of September 30, 2025",
+   "769,316"
+  ],
+  "locator": "page header and \"Policies in Force\" figure",
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-13",
+  "recheck": "2027-01-31",
+  "context": "Citizens is Florida's state-created insurer of last resort and reports its own count. A third-party tracker puts its policy count at a peak near 1.4 million in 2023, falling sharply since under a state depopulation program as private carriers returned, so the Florida trend is the opposite of California's.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-149",
+  "statement": "The Dallas Fed said insurance premiums nationally rose about 70 percent from 2019 to 2025, reflecting greater climate disaster risk and higher construction costs.",
+  "claim": "analysis",
+  "figures": [
+   "70 percent",
+   "2019",
+   "2025"
+  ],
+  "source": "SRC-4492",
+  "anchor": [
+   "Insurance premiums nationally rose about 70 percent from 2019 to 2025, reflecting greater climate disaster risk and higher construction costs."
+  ],
+  "locator": "paragraph before Chart 1",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2027-03-24",
+  "context": "Federal Reserve Bank of Dallas economists' note of March 24, 2026, not an official Federal Reserve policy statement. The 70 percent is much higher than First Street's 31 percent over 2019-2024 (EV-CLP-152), perhaps because the measures and years differ; no definition was given in the extract.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-152",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CLP-140",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-150",
+  "statement": "Dallas Fed economists estimated rising premiums pushed roughly 31,000 mortgages into delinquency in 2022 and could add 203,000 per year between 2025 and 2055.",
+  "claim": "analysis",
+  "figures": [
+   "31,000",
+   "203,000",
+   "2022",
+   "2025",
+   "2055"
+  ],
+  "source": "SRC-4492",
+  "anchor": [
+   "We estimate that premium increases pushed roughly 31,000 mortgages into delinquency in 2022.",
+   "continued increases in premiums could lead to an additional 203,000 mortgages per year falling into delinquency between 2025 and 2055."
+  ],
+  "locator": "findings section, second finding and projection paragraph",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-11-13",
+  "recheck": "2027-03-24",
+  "context": "Research from Federal Reserve Bank of Dallas economists (March 2026), using ICE McDash mortgage data for 2015-2023; the projection assumes First Street's premium forecast (EV-CLP-151). Not an official Fed projection.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-151",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-140",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-151",
+  "statement": "First Street projected that risk-based pricing corrections could raise average U.S. homeowners premiums 29.4% from June 2024 levels to 2055.",
+  "claim": "analysis",
+  "figures": [
+   "29.4%",
+   "June 2024",
+   "2055"
+  ],
+  "source": "SRC-4493",
+  "anchor": [
+   "First Street estimates that risk-based pricing corrections could lead to an average increase in premium prices of 29.4% from current premium levels as of June 2024 to 2055."
+  ],
+  "locator": "\"Insurance Premiums Surge as Climate Damages Escalate\" section",
+  "grade": "C",
+  "fact_date": "2025-02",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "First Street Foundation model, February 2025; a for-profit-linked climate-risk modeler whose results depend on its own models; not peer reviewed. The Dallas Fed uses the same projection (EV-CLP-150), so they are not independent.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-140",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-141",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-152",
+  "statement": "First Street found homeowners insurance premiums have risen 31% since 2019, with average yearly increases of 6.1%.",
+  "claim": "analysis",
+  "figures": [
+   "31%",
+   "6.1%",
+   "2019"
+  ],
+  "source": "SRC-4493",
+  "anchor": [
+   "Since 2019, homeowners insurance premiums have risen 31%, with average yearly increases of 6.1%"
+  ],
+  "locator": "Figure 7 discussion",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "First Street Foundation, February 2025. Lower than the Dallas Fed's 70 percent (EV-CLP-149); the two use different data and years.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-149",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CLP-142",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-153",
+  "statement": "A Federal Reserve Board working paper on the $15 trillion homeowners' insurance market found rates are least reflective of risk in states with the most restrictive rate regulation.",
+  "claim": "analysis",
+  "figures": [
+   "$15 trillion"
+  ],
+  "source": "SRC-4471",
+  "anchor": [
+   "Homeowners’ insurance, a $15 trillion market by coverage, provides households",
+   "are least reflective of risk in states we classify as “high friction”, i.e. states where"
+  ],
+  "locator": "Abstract and Introduction",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-11-13",
+  "recheck": "2027-12-31",
+  "context": "Federal Reserve Board working paper (June 2022) by two academics and a Board economist, reviewed only as a working paper. It contests the idea that premiums track climate risk uniformly; regulation affects availability and price. Dated: 2022 data.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-145",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-143",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-154",
+  "statement": "CRS reports the National Flood Insurance Program owes $22.525 billion to Treasury after Congress cancelled $16 billion of its debt in 2017 and it borrowed $2 billion in February 2025, leaving $7.9 billion of borrowing authority under a $30.425 billion limit.",
+  "claim": "data",
+  "figures": [
+   "$22.525 billion",
+   "$16 billion",
+   "$2 billion",
+   "$7.9 billion",
+   "$30.425 billion",
+   "2017",
+   "February 2025"
+  ],
+  "source": "SRC-4465",
+  "anchor": [
+   "2017, Congress cancelled $16 billion of NFIP debt, making it possible for the program to pay claims for Hurricanes Harvey,",
+   "Irma, and Maria. The NFIP borrowed an additional $2 billion in February 2025 and currently owes $22.525 billion to the",
+   "U.S. Treasury, leaving $7.9 billion in borrowing authority from a $30.425 billion limit in law."
+  ],
+  "grade": "A",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "CRS (nonpartisan), updated October 5, 2026. NFIP has not repaid the principal; interest is paid from premiums.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-155",
+  "statement": "After the $16 billion cancellation in 2017, FEMA borrowed another $6.1 billion on November 9, 2017, bringing NFIP debt to $20.525 billion.",
+  "claim": "data",
+  "figures": [
+   "$16 billion",
+   "$6.1 billion",
+   "$20.525 billion",
+   "2017",
+   "November 9, 2017"
+  ],
+  "source": "SRC-4465",
+  "anchor": [
+   "cancelled $16 billion of NFIP debt, making it possible for the program to pay claims for",
+   "FEMA borrowed another $6.1 billion on November 9, 2017, to fund estimated 2017 losses,",
+   "activities, bringing the debt up to $20.525 billion."
+  ],
+  "grade": "A",
+  "fact_date": "2017-11",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "CRS (nonpartisan), updated October 2026. The NFIP did not borrow again until February 2025, which raised debt to $22.525 billion (EV-CLP-154).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-156",
+  "statement": "As of August 31, 2026, the NFIP had nearly 4.5 million flood insurance policies providing over $1.3 trillion in coverage.",
+  "claim": "data",
+  "figures": [
+   "4.5 million",
+   "$1.3 trillion",
+   "August 31, 2026"
+  ],
+  "source": "SRC-4465",
+  "anchor": [
+   "Insurance Directorate (FID). As of August 31, 2026, the NFIP had nearly 4.5 million flood",
+   "insurance policies providing over $1.3 trillion in coverage."
+  ],
+  "grade": "A",
+  "fact_date": "2026-08",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "CRS (nonpartisan) restating FEMA data, October 2026. As of May 2026 private insurers wrote another 643,467 flood policies (CRS IF13302).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-157",
+  "statement": "CRS reports that FEMA estimates about 4% of homeowners have flood insurance.",
+  "claim": "analysis",
+  "figures": [
+   "4%"
+  ],
+  "source": "SRC-4467",
+  "anchor": [
+   "FEMA estimates that about 4% of homeowners have flood insurance"
+  ],
+  "locator": "\"The NFIP Today\" section, third paragraph",
+  "grade": "C",
+  "fact_date": "2026-08",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "CRS (nonpartisan), August 28, 2026, restating a FEMA estimate; FEMA is run by the second Trump administration, whose FEMA Review Council made recommendations (EV-CLP-160). The method behind the 4% was not stated in the passage.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-158",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-156",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-158",
+  "statement": "CRS cites a New York City study finding flood insurance take-up outside the special flood hazard area of 37% for properties with mortgages and 32% for properties without.",
+  "claim": "data",
+  "figures": [
+   "37%",
+   "32%"
+  ],
+  "source": "SRC-4465",
+  "anchor": [
+   "similar to take-up rates outside the SFHA (37% for properties with mortgages and 32% for"
+  ],
+  "locator": "mandatory purchase requirement section, page 12",
+  "grade": "C",
+  "fact_date": "2017",
+  "checked": "2026-11-13",
+  "recheck": "2028-12-31",
+  "context": "CRS (nonpartisan) summarizing a RAND study of New York City (2013 data reassessed in 2017); a single city, old data, so it cannot be read as the national take-up. FEMA's national estimate for homeowners is about 4% (EV-CLP-157).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-159",
+  "statement": "CRS reports GAO found about 66% of NFIP premiums increased in the first year of Risk Rating 2.0, and estimated it could take until 2037 for 95% of policies to reach full risk-based rates.",
+  "claim": "analysis",
+  "figures": [
+   "66%",
+   "2037",
+   "95%",
+   "18%",
+   "25%",
+   "2.0"
+  ],
+  "source": "SRC-4467",
+  "anchor": [
+   "Since 2023, FEMA has used a new pricing methodology known as Risk Rating 2.0 to calculate NFIP premiums based on a property's individual flood risk.",
+   "The U.S. Government Accountability Office (GAO) found that about 66% of premiums increased in the first year.",
+   "Congress limited the percentage that an individual's flood insurance can be increased annually to 18% for primary residences and 25% for other policies",
+   "GAO estimated that it could take until 2037 for 95% of policies to reach full risk-based rates"
+  ],
+  "locator": "\"The NFIP Today\" section, fifth paragraph",
+  "grade": "C",
+  "fact_date": "2026-08",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "CRS (nonpartisan) summarizing GAO analysis; Risk Rating 2.0 is FEMA's property-level pricing method. Statutory caps apply to annual increases.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-156",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CLP-154",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-160",
+  "statement": "CRS reports the Trump administration's FEMA Review Council issued its final report on May 7, 2026, with 10 recommendations including shifting certain NFIP policies to the private market.",
+  "claim": "data",
+  "figures": [
+   "May 7, 2026",
+   "10"
+  ],
+  "source": "SRC-4467",
+  "anchor": [
+   "The FRC issued its final report on May 7, 2026, offering 10 recommendations to reorient FEMA's role.",
+   "Shifting certain insurance policies from the NFIP to the private market"
+  ],
+  "grade": "C",
+  "fact_date": "2026-05",
+  "checked": "2026-11-13",
+  "recheck": "2027-02-28",
+  "context": "CRS (nonpartisan) description of a second Trump administration review body established by Executive Order 14180; CRS notes the shift would require legislation and could leave the NFIP with riskier policies. CRS notes public comments observed that the report made no recommendations on premium increases or NFIP funding.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-161",
+  "statement": "Swiss Re Institute reported North American insured natural catastrophe losses of USD 90 billion in 2025 and an unusually high insured share of 71%.",
+  "claim": "data",
+  "figures": [
+   "USD 90 billion",
+   "71%",
+   "2025"
+  ],
+  "source": "SRC-4494",
+  "anchor": [
+   "recorded natural catastrophe-related insured losses of USD 90 billion in 2025",
+   "The overall insured share of losses was unusually high at 71%"
+  ],
+  "locator": "opening paragraphs",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2027-03-31",
+  "context": "Reinsurer research (April 2026) covering the USA and Canada together; the share is unusually high because wildfire and severe convective storm losses are mostly insured, so the uninsured share was about 29% in a year without a major hurricane or flood and is typically higher.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-700",
+  "statement": "The legacy design set the carbon fee (REV-C1) at $25 a ton in 2030 rising to $150 by 2037, with gasoline and diesel exempt, raising about $1.90T over 2030-39, of which $1.52T goes to the dividend, equal per adult, and $0.38T to a transition share.",
+  "claim": "analysis",
+  "figures": [
+   "$25",
+   "2030",
+   "$150",
+   "2037",
+   "$1.90T",
+   "$1.52T",
+   "$0.38T"
+  ],
+  "source": "SRC-0014",
+  "anchor": [
+   "REV-C1 is $25 a ton in 2030 rising to $150 by 2037 (raised from ~$100, Espen, Oct 26), with gasoline and diesel exempt.",
+   "The channel is about $1.90T in, $1.52T dividend (equal per adult), $0.38T transition"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Legacy climate file, legacy/domains/domain-climate.md, line 9 (decision D7 as amended October 26, 2026). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-705",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-701",
+  "statement": "The legacy file priced restoring the clean-energy credits (CLI-1A) at about $0.9T over 2030-39, range $0.6T to $1.1T, scaling CRFB's $571B figure for the House-passed repeal (2025-34) to about $0.70T and adding about $0.2T for expansions.",
+  "claim": "analysis",
+  "figures": [
+   "$0.9T",
+   "$0.6T",
+   "$1.1T",
+   "$571B",
+   "2025-34",
+   "$0.70T",
+   "$0.2T"
+  ],
+  "source": "SRC-0014",
+  "anchor": [
+   "**Cost.** About $0.9T, range $0.6T to $1.1T.",
+   "CRFB put the House-passed version of OBBBA's credit repeals at $571B for 2025-34; scaled to 2030-39 that is about **$0.70T** (scaled).",
+   "add about $0.2T (estimate)"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Legacy climate file, lines 62-64. The legacy text itself says the enacted law differed from the House version and needs a fresh score. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-703",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-702",
+  "statement": "The October 28 legacy booking (Package A) carries the restored credits (CLI-1) at 0.756551 trillion dollars over FY2030-39, the dividend (CLI-2) at 1.531130, the add-ons (CLI-5) at 0.564935, clean-industry contracts (CLI-9) at 0.109546, disaster capital (CLI-7K) at 0.112487 and the reinsurance facility's expected net cost (CLI-7C) at 0.003362.",
+  "claim": "analysis",
+  "figures": [
+   "0.756551",
+   "1.531130",
+   "0.564935",
+   "0.109546",
+   "0.112487",
+   "0.003362"
+  ],
+  "source": "SRC-0014",
+  "anchor": [
+   "| CLI-1 | Clean-energy credits restored (refundable, direct pay, point of sale; CEIC extended) | 0.756551 |",
+   "paid before the fee reaches prices) | 1.531130 |",
+   "ag R&D, minerals, adaptation) | 0.564935 |",
+   "| CLI-9 | Clean-industry contracts (model industrial-support estimate) | 0.109546 |",
+   "| CLI-7K | Disaster capital pieces: D1 mitigation fund, D5 wildfire, D9 buyouts | 0.112487 |",
+   "$75-150B contingent liability disclosed, not scored) | 0.003362 |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Legacy climate file, lines 491-515, the table the budget model books today (ledger rows in models/data/inputs/ledger-bills.csv). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md",
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-701",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-703",
+  "statement": "The legacy reinsurance facility (CLI-7C) starts in FY2031 with an expected net cost of $0.3B a year in 2025 dollars (range −0.3 to +1.0), and its $75–150B contingent exposure is disclosed but never scored.",
+  "claim": "analysis",
+  "figures": [
+   "FY2031",
+   "$0.3B",
+   "2025",
+   "0.3",
+   "1.0",
+   "$75–150B"
+  ],
+  "source": "SRC-0014",
+  "anchor": [
+   "CLI-7C starts FY2031, with expected net cost of $0.3B a year in 2025 dollars (range −0.3 to +1.0); $75–150B contingent exposure is disclosed but never scored as an additional outlay."
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Legacy climate file, line 517. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-702",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-704",
+  "statement": "On the legacy carbon model, current law (with the stipulated permitting deal) leaves energy CO2 29% below 2005 in 2035 and 43% in 2050; the decided legacy package reaches 42% in 2035, 54% in 2040 and 66% in 2050, with 75% clean electricity in 2035.",
+  "claim": "analysis",
+  "figures": [
+   "29%",
+   "43%",
+   "42%",
+   "54%",
+   "66%",
+   "75%",
+   "2035",
+   "2050",
+   "2040",
+   "2005"
+  ],
+  "source": "SRC-0056",
+  "anchor": [
+   "| Current law (with the stipulated 2026-28 permitting deal) | 24% / 29% / 34% / 43% | 29% / 43% | 58% / 84% |",
+   "**the decided package** | 31% / 42% / 54% / 66% | 44% / 67% | 75% / 97% |",
+   "| Case | Energy CO2 below 2005: 2030 / 2035 / 2040 / 2050 |"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "legacy/index/climate-carbon-model.md, emissions table. Generated by the legacy carbon model (models/tools/carbon-model.py running Espen's Carbon Dividend Model v3.4, extended for Project 2050); a structural simulation with labeled assumptions, run on the stipulated permitting deal and the legacy D7 design. Project estimate, not a score.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md",
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-705",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-705",
+  "statement": "The legacy carbon model raises about $2.00T from the fee over 2030-39 (10th-90th percentile $1.92-2.14T), against the ledger's $1.90T, with a dividend of $1.60T; it notes it responds more slowly than the large published models, so its receipts lean high.",
+  "claim": "analysis",
+  "figures": [
+   "$2.00T",
+   "2030-39",
+   "$1.92-2.14T",
+   "$1.90T",
+   "$1.60T"
+  ],
+  "source": "SRC-0056",
+  "anchor": [
+   "About **$2.00T** in 2030-39 (10th-90th percentile $1.92-2.14T), against the ledger's $1.90T",
+   "The dividend (80%) is $1.60T",
+   "its receipts sit toward the high side"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "legacy/index/climate-carbon-model.md, 'Receipts and the dividend'. Generated by the legacy carbon model (models/tools/carbon-model.py running Espen's Carbon Dividend Model v3.4, extended for Project 2050); a structural simulation with labeled assumptions, run on the stipulated permitting deal and the legacy D7 design. Project estimate, not a score.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-700",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-706",
+  "statement": "On the legacy carbon model the dividend is $681 an adult in 2035 (nominal), with the fee at $109 a ton.",
+  "claim": "analysis",
+  "figures": [
+   "681",
+   "2035",
+   "109"
+  ],
+  "source": "SRC-0056",
+  "anchor": [
+   "| 2035 | 109 | 234 | 3,483 | 75% | 681 | 1,362 |",
+   "Dividend per adult ($, nominal)"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "legacy/index/climate-carbon-model.md, receipts table, row 2035 (fee $ a ton nominal; receipts $B; dividend per adult nominal). Generated by the legacy carbon model (models/tools/carbon-model.py running Espen's Carbon Dividend Model v3.4, extended for Project 2050); a structural simulation with labeled assumptions, run on the stipulated permitting deal and the legacy D7 design. Project estimate, not a score.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-707",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-707",
+  "statement": "On the legacy carbon model's household module (2035, 2025 dollars, carbon channel alone, road fuels exempt), the dividend less the fee's cost nets +97 dollars for the lowest-income fifth of households, +63 for the second, -7 for the middle, -240 for the fourth and -1,008 for the highest.",
+  "claim": "analysis",
+  "figures": [
+   "2035",
+   "2025",
+   "+97",
+   "+63",
+   "-7",
+   "-240",
+   "-1,008"
+  ],
+  "source": "SRC-0056",
+  "anchor": [
+   "| Lowest 20 percent | 1.3 | 548 | +712 | -87 | -102 | -426 | +97 |",
+   "| Second 20 percent | 1.7 | 548 | +931 | -127 | -134 | -607 | +63 |",
+   "| Third 20 percent | 2.0 | 548 | +1,096 | -138 | -145 | -820 | -7 |",
+   "| Fourth 20 percent | 2.2 | 548 | +1,205 | -171 | -162 | -1,112 | -240 |",
+   "| Highest 20 percent | 2.4 | 548 | +1,315 | -238 | -190 | -1,896 | -1,008 |",
+   "Per household in 2025 dollars",
+   "## Households in 2035"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "legacy/index/climate-carbon-model.md, 'Households in 2035'. Children get no dividend share in this design; the BLS Consumer Expenditure Survey 2024 quintiles. Excludes the fuel-tax steps and every other plan row; the legacy D3 test is the incidence model. Generated by the legacy carbon model (models/tools/carbon-model.py running Espen's Carbon Dividend Model v3.4, extended for Project 2050); a structural simulation with labeled assumptions, run on the stipulated permitting deal and the legacy D7 design. Project estimate, not a score.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md",
+   "dossiers/clean-power/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-706",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-708",
+  "statement": "On the legacy carbon model the Clean Energy Standard's 80%-by-2035 target is not met: the clean share reaches 75% in 2035 and first meets the target in 2037, because grid access, not price, is the limit.",
+  "claim": "analysis",
+  "figures": [
+   "80%",
+   "2035",
+   "75%",
+   "2037"
+  ],
+  "source": "SRC-0056",
+  "anchor": [
+   "With everything else in the package the clean share reaches 75% in 2035 against the 80% target, and first meets it in 2037.",
+   "The limit is grid access, not price"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "legacy/index/climate-carbon-model.md, 'The Clean Energy Standard (CLI-3)'. Generated by the legacy carbon model (models/tools/carbon-model.py running Espen's Carbon Dividend Model v3.4, extended for Project 2050); a structural simulation with labeled assumptions, run on the stipulated permitting deal and the legacy D7 design. Project estimate, not a score.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-704",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-709",
+  "statement": "On the legacy carbon model, exempting gasoline and diesel from the fee gives up about $1.21T of receipts in 2030-39, while pricing them would cut energy CO2 by only 41 Mt more in 2035, because the vehicle standards do most of the work.",
+  "claim": "analysis",
+  "figures": [
+   "$1.21T",
+   "2030-39",
+   "41 Mt",
+   "2035"
+  ],
+  "source": "SRC-0056",
+  "anchor": [
+   "would cut energy CO2 by a further 41 Mt in 2035",
+   "The exemption gives up about $1.21T of receipts in 2030-39",
+   "With the vehicle standards in place the pump price adds little"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "legacy/index/climate-carbon-model.md, 'The road-fuel exemption'. Generated by the legacy carbon model (models/tools/carbon-model.py running Espen's Carbon Dividend Model v3.4, extended for Project 2050); a structural simulation with labeled assumptions, run on the stipulated permitting deal and the legacy D7 design. Project estimate, not a score.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-704",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-710",
+  "statement": "The legacy carbon model counts the package's credit outlays at about $1.50T over 2030-39, against the ledger's $0.76T for CLI-1A, because its credit set includes bonus adders and the hydrogen credit and prices take-up off a larger clean build; it is a cross-check on the high end.",
+  "claim": "analysis",
+  "figures": [
+   "$1.50T",
+   "2030-39",
+   "$0.76T"
+  ],
+  "source": "SRC-0056",
+  "anchor": [
+   "The package's credit outlays come to about $1.50T in 2030-39 in the model's accounting, against the ledger's $0.76T for CLI-1A"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "legacy/index/climate-carbon-model.md, 'Credits in the model'. Generated by the legacy carbon model (models/tools/carbon-model.py running Espen's Carbon Dividend Model v3.4, extended for Project 2050); a structural simulation with labeled assumptions, run on the stipulated permitting deal and the legacy D7 design. Project estimate, not a score.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-701",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-711",
+  "statement": "The legacy permitting analysis estimated that a 2029 climate law reaches about four-fifths of its 2035 potential with the permitting deal (AAJA) and about half without it, as illustrative estimates, not model runs; the durability session's no-permitting case reaches −50% by 2035 against −62% to −64% with it.",
+  "claim": "analysis",
+  "figures": [
+   "2029",
+   "2035",
+   "−50%",
+   "−62%",
+   "−64%"
+  ],
+  "source": "SRC-0014",
+  "anchor": [
+   "The analysis estimates a 2029 climate law reaches about four-fifths of its 2035 potential with AAJA and about half without it; these are illustrative estimates, not model runs.",
+   "its \"no legislated permitting title\" case reaches −50% by 2035 against −62% to −64% with it (session estimate)"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Legacy climate file, line 50 (from legacy/sources/permitting-aaja-2026-analysis.md and the durability session). Judgment estimates. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-704",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-712",
+  "statement": "The legacy file left disaster response and flood insurance (CLI-7) unscored, with a rough order of magnitude of $0.05-0.15T over 2030-39, most of it premium support and the mitigation set-aside.",
+  "claim": "analysis",
+  "figures": [
+   "$0.05-0.15T",
+   "2030-39"
+  ],
+  "source": "SRC-0014",
+  "anchor": [
+   "**Rough order of magnitude:** $0.05-0.15T over 2030-39 (estimate), most of it premium support and the set-aside."
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Legacy climate file, line 236; superseded by Package A's priced disaster rows (lines 502-509). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-702",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-713",
+  "statement": "The legacy option for coal securitization and worker guarantees (CLI-11) put guaranteed pensions, health care and an energy-communities fund at about $0.08T (session estimate), overlapping the 20% transition share (about $0.27T on the older path).",
+  "claim": "analysis",
+  "figures": [
+   "$0.08T",
+   "20%",
+   "$0.27T"
+  ],
+  "source": "SRC-0014",
+  "anchor": [
+   "workers and communities about $0.08T (session estimate), which overlaps CLI-2's transition share",
+   "the same people as CLI-2's 20% transition share (~$0.27T, coal and energy communities plus low-income energy help)"
+  ],
+  "grade": "D",
+  "fact_date": "2026-10",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Legacy climate file, lines 274-275. Session estimate from the durability session, not a model run. Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-700",
+    "stance": "qualifies"
+   }
+  ]
+ }
+]
