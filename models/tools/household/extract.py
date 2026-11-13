@@ -42,6 +42,7 @@ PERSON_COLS = [
     "SPM_WEIGHT", "SPM_NUMPER", "SPM_NUMKIDS", "SPM_NUMADULTS", "SPM_POVTHRESHOLD", "SPM_RESOURCES",
     "SPM_TOTVAL", "SPM_SNAPSUB", "SPM_CAPHOUSESUB", "SPM_SCHLUNCH", "SPM_WICVAL", "SPM_ENGVAL",
     "SPM_FEDTAX", "SPM_FEDTAXBC", "SPM_EITC", "SPM_ACTC", "SPM_FICA", "SPM_STTAX", "SPM_CAPWKCCXPNS",
+    "SPM_CHILDCAREXPNS",
     "SPM_MEDXPNS", "SPM_CHILDSUPPD", "SPM_POOR", "SPM_TENMORTSTATUS",
     "HRSWK", "WKSWORK", "PRDISFLG",
 ]
@@ -54,13 +55,14 @@ UNIT_FIELDS = [
     "n_people", "n_dep", "n_dep_u6", "n_dep_6_16", "n_dep_17", "n_dep_18", "n_dep_19_23_student", "n_dep_other",
     "n_age65", "n_medicaid", "n_medicare", "n_employer_cov", "n_marketplace", "premiums_paid",
     "c_agi", "c_fedtax_bc", "c_fedtax_ac", "c_eitc", "c_ctc", "c_actc", "c_fica", "c_sttax",
+    "n_dep_u5", "n_dep_5_12", "ssi_dep", "n_ssi", "n_ssi_earn", "n_ssi_unearned",
 ]
 SPM_FIELDS = [
     "spm", "hh", "weight", "numper", "numkids", "numadults", "threshold", "resources", "totval", "snap",
     "housing", "school_lunch", "wic", "energy", "fedtax", "fedtax_bc", "eitc", "actc", "fica", "sttax",
     "work_childcare", "medical", "child_support_paid", "poor", "tenure",
     "w_people", "w_children", "w_18_64", "w_65",
-    "n_abawd_prior", "n_abawd_55_64", "n_parent_child14", "elderly_or_disabled"]
+    "n_abawd_prior", "n_abawd_55_64", "n_parent_child14", "elderly_or_disabled", "childcare"]
 HH_FIELDS = ["hh", "weight", "state", "numper", "tenure", "w_people"]
 
 
@@ -108,6 +110,7 @@ def build(archive):
                       "fedtax_bc": i(p["SPM_FEDTAXBC"]), "eitc": i(p["SPM_EITC"]), "actc": i(p["SPM_ACTC"]),
                       "fica": i(p["SPM_FICA"]), "sttax": i(p["SPM_STTAX"]),
                       "work_childcare": i(p["SPM_CAPWKCCXPNS"]), "medical": i(p["SPM_MEDXPNS"]),
+                      "childcare": i(p["SPM_CHILDCAREXPNS"]),
                       "child_support_paid": i(p["SPM_CHILDSUPPD"]), "poor": i(p["SPM_POOR"]),
                       "tenure": i(p["SPM_TENMORTSTATUS"]),
                       "w_people": 0.0, "w_children": 0.0, "w_18_64": 0.0, "w_65": 0.0}
@@ -179,7 +182,18 @@ def build(archive):
              "premiums_paid": tot(["PHIP_VAL"], ps),
              "c_agi": i(h["AGI"]), "c_fedtax_bc": i(h["FEDTAX_BC"]), "c_fedtax_ac": i(h["FEDTAX_AC"]),
              "c_eitc": i(h["EIT_CRED"]), "c_ctc": i(h["CTC_CRD"]), "c_actc": i(h["ACTC_CRD"]),
-             "c_fica": tot(["FICA"], ps), "c_sttax": i(h["STATETAX_A"])}
+             "c_fica": tot(["FICA"], ps), "c_sttax": i(h["STATETAX_A"]),
+             # for the secure floor's rules (`rules.py`): the care credit's children (under 13) and the child care
+             # guarantee's (under 5); SSI received by dependents (children's SSI), and SSI recipients among the
+             # head and spouse with earnings or with other unearned income (INC-3.02's exclusions)
+             "n_dep_u5": sum(i(p["A_AGE"]) < 5 for p in deps),
+             "n_dep_5_12": sum(5 <= i(p["A_AGE"]) <= 12 for p in deps),
+             "ssi_dep": tot(["SSI_VAL"], deps + extra),
+             "n_ssi": sum(i(p["SSI_VAL"]) > 0 for p in ps),
+             "n_ssi_earn": sum(i(p["SSI_VAL"]) > 0 and i(p["WSAL_VAL"]) + i(p["SEMP_VAL"]) + i(p["FRSE_VAL"]) > 0
+                               for p in ps),
+             "n_ssi_unearned": sum(i(p["SSI_VAL"]) > 0 and i(p["PTOTVAL"]) - i(p["SSI_VAL"]) - i(p["WSAL_VAL"])
+                                   - i(p["SEMP_VAL"]) - i(p["FRSE_VAL"]) > 0 for p in ps)}
         u["n_dep_other"] = (u["n_dep"] - u["n_dep_u6"] - u["n_dep_6_16"] - u["n_dep_17"] - u["n_dep_18"]
                             - u["n_dep_19_23_student"])
         units.append(u)
