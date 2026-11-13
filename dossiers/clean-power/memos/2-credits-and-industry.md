@@ -13,7 +13,7 @@ The legacy design restored every repealed credit (CLI-1A) and then, in the Octob
 ## Why it matters
 
 - The credits are the plan's largest climate cost line [EV-CLP-702].
-- They are also its least predictable: JCT scored the IRA's energy credits at $271 billion over ten years in 2022 [EV-CLP-200]; by 2024 CBO put them at about $800 billion for 2025-34 [EV-CLP-201]. The legacy carbon model counts its own credit set at about $1.50 trillion, twice the booking [EV-CLP-710].
+- They are also its least predictable: JCT scored the IRA's energy credits at $271 billion over ten years in 2022 [EV-CLP-200]; by 2024 CBO put them at about $800 billion for 2025-34 (a different window and measure, which CBO says is not directly comparable, but the direction is clear) [EV-CLP-201]. The legacy carbon model counts its own credit set at about $1.50 trillion, twice the booking [EV-CLP-710].
 - They worked: record clean power additions (53 GW in 2025) and investment that went mostly to Republican districts [EV-CLP-209] [EV-CLP-208], and they were repealed within three years [EV-CLP-214].
 
 ## What the evidence says, in five lines
