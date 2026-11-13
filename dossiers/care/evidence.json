@@ -13100,5 +13100,189 @@
     "stance": "supports"
    }
   ]
+ },
+ {
+  "id": "EV-CAR-707",
+  "statement": "MACPAC reported federal Medicaid DSH allotments of $15,643.2 million in FY2024 and $16,024.3 million in FY2025 (total state and federal $28,084.2 million), and projected unreduced federal allotments of $16,372.1 million in FY2026; unreduced allotments rise each year with the Consumer Price Index for All Urban Consumers, and with no reductions scheduled after the last reduction year allotments return to their unreduced amounts.",
+  "claim": "data",
+  "figures": [
+   "15,643.2",
+   "16,024.3",
+   "28,084.2",
+   "16,372.1"
+  ],
+  "source": "SRC-3163",
+  "anchor": [
+   "Total\n\n$27,416.1\n\n$15,643.2\n\n$28,084.2\n\n$16,024.3",
+   "TABLE 3A-2. DSH Allotment Reductions by State, FY 2026 (millions)",
+   "Total\n\n$28,707.0\n\n$16,372.1",
+   "FY 2024 DSH allotments by the Consumer Price Index\nprojections for All Urban Consumers",
+   "Unreduced allotments increase each year for all states\nexcept Tennessee",
+   "In FY 2028 and beyond, there are no DSH allotment\nreductions scheduled. Thus, under current law, state\nDSH allotments will return to their higher, unreduced\nDSH allotment amounts in FY 2028."
+  ],
+  "locator": "Appendix 3A, tables 3A-1 (FY2024-25 allotments) and 3A-2 (FY2026 unreduced allotments); appendix 3B, projections; chapter text on allotment reductions",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-13",
+  "recheck": "2027-03-15",
+  "context": "Medicaid and CHIP Payment and Access Commission (nonpartisan, legislative branch), March 2024, from CMS allotment data and CBO's CPI projections. The reduction schedule it describes is out of date: the Consolidated Appropriations Act, 2026 (P.L. 119-75) eliminated the FY2026 and FY2027 reductions and left one $8 billion reduction, for FY2028 (AHA fact sheet, February 2026, and Dentons, February 2026, not saved), so under the January 2029 law federal allotments are back at their unreduced, CPI-indexed amounts from FY2029. Allotments are ceilings; states spend somewhat less (MACPAC: $10.8 billion federal DSH payments in FY2021, not saved).",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-708",
+  "statement": "MACPAC found from Medicare cost reports that hospitals reported $39.3 billion of charity care and bad debt in FY2021, about 57 percent of it charity care for uninsured individuals ($22.5 billion); in SPRY 2019 DSH audits Medicaid shortfall was 73 percent of DSH hospitals' uncompensated care in expansion states against 12 percent in states that did not expand Medicaid, where DSH mainly paid for care of the uninsured.",
+  "claim": "data",
+  "figures": [
+   "$39.3 billion",
+   "57 percent",
+   "$22.5 billion",
+   "73 percent",
+   "12 percent"
+  ],
+  "source": "SRC-3163",
+  "anchor": [
+   "Medicaid shortfall reported for DSH hospitals in SPRY\n2019",
+   "a total of $39.3 billion in charity care and bad debt in\nFY 2021",
+   "In FY 2021, about 57 percent of reported\nuncompensated care was for charity care for\nuninsured individuals ($22.5 billion)",
+   "DSH was\nprimarily used to pay for costs incurred by hospitals\nrelated to care provided for the uninsured among\nnon-expansion states, while DSH was used to offset\nMedicaid costs among expansion states. In the\naggregate, Medicaid shortfall was responsible for a\nlarger share of uncompensated care (73 percent) for\nDSH hospitals among expansion states compared with\nstates that did not expand Medicaid (12 percent)."
+  ],
+  "locator": "Chapter 3, \"Changes in the Amount of Hospital Uncompensated Care\": Medicaid DSH audit components; unpaid costs of care for uninsured individuals",
+  "grade": "A",
+  "fact_date": "2021",
+  "checked": "2026-11-13",
+  "recheck": "2027-03-15",
+  "context": "MACPAC (nonpartisan, legislative branch), March 2024, compiling hospitals' unaudited Medicare cost reports and states' as-filed DSH audits. Bad debt is not split between insured and uninsured patients, and DSH audits cover only hospitals that receive DSH. Used for the range of the share of DSH that pays for uninsured patients rather than Medicaid shortfall.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-709",
+  "statement": "KFF and Urban Institute researchers estimated that Medicaid DSH payments totaled $12.1 billion in 2017, $6.9 billion of it federal; assuming half went to uninsured patients' care (MACPAC found 69 percent in 2014 audits), they put the federal DSH money for the uninsured at $3.5 billion, and Medicaid's total for the uninsured, with uncompensated care pools of $5.4 billion, at $9.8 billion.",
+  "claim": "analysis",
+  "figures": [
+   "$12.1 billion",
+   "$6.9 billion",
+   "69 percent",
+   "$3.5 billion",
+   "$5.4 billion",
+   "$9.8 billion"
+  ],
+  "source": "SRC-3164",
+  "anchor": [
+   "In 2017, Medicaid DSH payments to hospitals totaled $12.1 billion, with the federal share totaling $6.9 billion",
+   "we assumed that 50 percent of DSH payments went to cover uncompensated care costs for uninsured patients",
+   "in 2014, 69 percent of DSH hospital payments went to help offset the cost of caring for uninsured patients",
+   "50 percent of the full federal share of DSH payments (half of $6.9 billion or $3.5 billion)",
+   "split between DSH payments ($4.4 billion) and uncompensated care pool payments ($5.4 billion)",
+   "With estimated spending totaling $9.8 billion, funding provided through the Medicaid program followed closely."
+  ],
+  "locator": "Medicaid program section and appendix table 2 (web page)",
+  "grade": "C",
+  "fact_date": "2017",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "KFF (nonpartisan health policy research), April 6, 2021, by Urban Institute and KFF authors. The 50-50 split is the authors' stated assumption, not a measurement; MACPAC's later audits show the split varies with expansion [EV-CAR-708]. The authors count the whole federal share of DSH as new money to hospitals. Uncompensated care pools are section 1115 money in a few states, not counted here.",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-708",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-710",
+  "statement": "Urban Institute researchers calculated that the federal DSH allotment was $12,590.7 million in FY2019, or $429.00 per uninsured person nationally, with more than a tenfold spread between states.",
+  "claim": "data",
+  "figures": [
+   "$12,590.7",
+   "$429.00"
+  ],
+  "source": "SRC-3165",
+  "anchor": [
+   "| Total | $12,590.7 | $136.27 | 1.0 | $429.00 | 1.0 |",
+   "The disparity across states is greater still for the federal DSH allotment per uninsured person"
+  ],
+  "locator": "Table 2, Federal Medicaid DSH allotments by state, per low-income person and per uninsured person, FY2019",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Urban Institute (nonpartisan), Coughlin and Holahan, April 2023, funded by the Robert Wood Johnson Foundation; a ratio of CMS's final FY2019 allotments to ACS counts of the uninsured (including people with Indian Health Service coverage only). The authors argue for reforming supplemental payments; the ratio itself is arithmetic on official data. FY2019's allotment is before the rise to $16.0 billion by FY2025 [EV-CAR-707].",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-711",
+  "statement": "A nationally representative study of 1998 MEPS data found immigrants' per capita health care expenditures 55% lower than US-born persons' ($1139 against $2546), and expenditures of uninsured immigrants 61% lower after adjustment; unadjusted, uninsured immigrants' spending was $459 a person against $629 for the US-born uninsured.",
+  "claim": "analysis",
+  "figures": [
+   "55%",
+   "$1139",
+   "$2546",
+   "61%",
+   "459",
+   "629"
+  ],
+  "source": "SRC-3166",
+  "anchor": [
+   "per capita total health care expenditures of immigrants were 55% lower than those of US-born persons ($1139 vs $2546)",
+   "expenditures for uninsured immigrants were 61% lower than those for the US-born uninsured",
+   "|    Uninsured|629 (59)|459 (66)|"
+  ],
+  "locator": "Abstract; results; table 2 (per capita expenditures by insurance status)",
+  "grade": "B",
+  "fact_date": "1998",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Peer-reviewed, American Journal of Public Health, 2005 (Mohanty and others); several authors founded Physicians for a National Health Program, which favors single payer. Covers all immigrants, not only those without status, and 1998 data; the uninsured comparison is the one used here. A newer study of people without status points the same way [EV-CAR-712].",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-712",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-712",
+  "statement": "A study imputing immigration status into 2016-2017 MEPS found mean annual health care expenditures of $1629 for unauthorized immigrants against $6088 for US-born individuals; 47.1% of unauthorized immigrants were uninsured, and differences in the likelihood of uncompensated care across groups were not statistically significant.",
+  "claim": "analysis",
+  "figures": [
+   "$1629",
+   "$6088",
+   "47.1%"
+  ],
+  "source": "SRC-3167",
+  "anchor": [
+   "2016-2017 Medical Expenditure Panel Survey (MEPS)",
+   "Mean annual health care expenditures per person were $1629 (95% CI, $1330-$1928) for unauthorized immigrants",
+   "and $6088 (95% CI, $5935-$6242) for US-born individuals",
+   "Half of unauthorized immigrants (47.1%) were uninsured",
+   "Differences in likelihood of uncompensated care were not statistically significant."
+  ],
+  "locator": "Abstract (results) and results section",
+  "grade": "B",
+  "fact_date": "2017",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Peer-reviewed, JAMA Network Open, December 2020 (Wilson and others); status is predicted by a machine-learning model trained on a Los Angeles survey from 2000-08, so the national split carries model error. The authors frame the results against claims that unauthorized immigrants burden safety-net hospitals. The low spending reflects youth and low coverage as well as low use; for the uninsured alone, the gap is smaller [EV-CAR-711].",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-711",
+    "stance": "supports"
+   }
+  ]
  }
 ]
