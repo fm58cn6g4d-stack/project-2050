@@ -1,0 +1,634 @@
+Source: https://www.jct.gov/getattachment/fe1ce409-c05f-4f1d-8c92-93496125f340/x-59-11-4378.pdf
+Publisher: Joint Committee on Taxation
+Retrieved: 2026-11-13
+Original SHA-256: e2210cbd05e4a078e6a7e00b4889bc389a86c2a8b8f12e03d5737dd4d2ff49b4
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+THE INCOME AND PAYROLL TAX OFFSET
+TO CHANGES IN EXCISE TAX REVENUES
+
+Prepared by the Staff
+of the
+JOINT COMMITTEE ON TAXATION
+
+December 23, 2011
+JCX-59-11
+
+CONTENTS
+Page
+INTRODUCTION AND SUMMARY ........................................................................................... 1
+I.
+
+MODELING APPROACH .................................................................................................... 2
+
+II.
+
+MEASURING THE OFFSET................................................................................................ 5
+
+III. FORECASTING THE OFFSET ............................................................................................ 9
+IV. IMPLEMENTING THE OFFSET FOR FUTURE BUDGET PERIODS........................... 10
+
+i
+
+INTRODUCTION AND SUMMARY
+This document1 describes the economic modeling that the Joint Committee on Taxation
+staff (“Joint Committee staff”) undertakes to assess the revenue effects of the income and payroll
+tax offset that arises from changes in Federal excise taxes.2
+A revenue estimate by the Joint Committee staff compares estimated future Federal
+receipts expected to result from the enactment of a proposed change to the Internal Revenue
+Code against estimated future Federal receipts under present law. Joint Committee staff
+estimates use the Congressional Budget Office (“CBO”) ten-year macroeconomic revenue
+baseline as a starting point for estimates. Under relevant budget rules, the Joint Committee staff
+estimates compare estimated receipts over the ten-year budget period to baseline receipts.
+In preparing every revenue estimate, the Joint Committee staff employs an
+interdisciplinary approach, with input from staff economists, attorneys, and accountants in order
+to identify economic incentives faced by taxpayers as a result of the proposed change in law.
+The Joint Committee staff then considers taxpayers’ likely behavioral responses to the new tax
+environment in light of those incentives. This exercise of predicting behavioral responses to new
+tax legislation is often the most challenging and time-consuming aspect of preparing a revenue
+estimate.
+In addition to considering economic incentives, the Joint Committee staff refines the
+CBO revenue baseline to create a more detailed revenue baseline for the present law tax
+provision in question. The baseline estimates of both CBO and the Joint Committee staff reflect
+long-term economic, social, and population trends, to the extent those trends will affect tax
+revenues.
+In estimating the revenue effects of changes in excise taxes, the Joint Committee staff
+generally assumes that the net effect on total Federal tax receipts from an increase in Federal
+excise taxes is less than the increase in gross excise tax receipts. The difference arises because
+an increase in excise taxes results in a decrease in income subject to Federal income and payroll
+taxation. Conversely, a decrease in excise taxes results in an increase in Federal income and
+payroll tax. This interaction between excise tax receipts and total Federal tax receipts is referred
+to as the “income and payroll tax offset.” Historically, the Joint Committee staff has assumed an
+income and payroll tax offset of 25 percent.
+This document updates the calculation of the income and payroll tax offset, and presents
+values of the offset which the Joint Committee staff will employ as part of present-law baseline
+modeling commencing in 2012.
+1
+
+This document may be cited as follows: Joint Committee on Taxation, The Income and Payroll Tax
+Offset to Changes in Excise Tax Revenues (JCX-59-11), December 23, 2011. This document can also be found on
+our website at www.jct.gov.
+2
+
+We welcome comments from interested readers who have studied the effects of excise taxes on specific
+markets or the macro economy.
+
+1
+
+I. MODELING APPROACH
+In estimating the revenue effects of changes in excise taxes, the Joint Committee staff
+(along with staff at the Congressional Budget Office and the Department of the Treasury’s Office
+of Tax Analysis (“OTA”)) generally assumes that the net effect on total Federal tax receipts from
+an increase in Federal excise taxes is less than the increase in gross excise tax receipts. The
+difference between the change in excise tax receipts and the change in total Federal tax receipts
+is referred to as the “income and payroll tax offset.” The offset arises from the fact that an
+increase in excise taxes results in a decrease in income subject to Federal income and payroll
+taxation.
+There are several channels through which the imposition of an excise tax can affect
+taxable income. Consider the case of a producers that are entirely insensitive to the imposition of
+an excise tax on the produced product (i.e., supply is perfectly inelastic). In this case, the
+producers of the taxed product absorb the entire cost of the tax. If supply of the taxed product is
+perfectly inelastic,3 thus forcing producers of the taxed product to absorb the entire cost of the
+tax, the gross receipts of the producers remain unchanged, but the producers’ net receipts, after
+deduction of the excise tax, decline by the amount of excise tax collected. This decline in
+receipts for producers of the taxed good is allocated among profits and wages depending on
+market forces and produces some combination of a decline in wages and profits, which will
+reduce the payroll and the individual and corporate income tax bases.
+If, at the opposite behavioral extreme, demand for the taxed product is perfectly inelastic,
+consumers bear the entire tax. The producers of the taxed good take in more revenue per unit of
+sale, but deduct the excise tax as a cost of doing business, leaving net revenue per unit sold
+unchanged and the taxable income of the producers of the taxed good unchanged. In this case,
+however, the consumer will have less money to spend on other goods, consumer spending on
+non-taxed goods will decline, thus lowering the taxable income of the producers of the non-taxed
+goods. Again, this change in consumption results in a reduction of payroll taxes and corporate
+and individual income taxes in the affected industries.
+Of course, for most taxed products, it is likely that neither of these two extreme cases
+would occur. Instead, the reduction in taxable income results from some combination of reduced
+taxable income in the taxed and non-taxed sectors.
+Consistent with the general revenue estimating convention that holds nominal gross
+national product (“GNP”) fixed for revenue estimating purposes, the above discussion implicitly
+assumes that aggregate price and output levels are unaffected by changes in excise taxes. Under
+this assumption, in the extreme case in which the taxed producers bear the entire cost of the tax
+increase, the before-tax price falls by the full amount of the tax. In the case in which consumers
+bear the entire tax, the price of the taxed good rises by the full amount of the tax, and the prices
+of non-taxed goods fall such that the nominal price level remains unchanged, thus reducing
+taxable income in the non-taxed sectors. In the two polar cases, and those in between, the
+3
+
+Elasticity is a measurement of the percentage change in supply or demand given a percentage change in
+price. Inelastic supply indicates that there is very little change in the supply of the good given changes in the price.
+For a consumer, inelastic demand indicates that the consumer does not change their demand for the good with a
+change in price.
+
+2
+
+mechanism driving the income and payroll tax offset produced by excise taxes is that these taxes
+drive a wedge between income generated by the factors of production (i.e., labor and capital used
+to produce goods and services) and the taxable incomes attributable to these factors (“factor
+incomes”).
+There are a few instances in which the income and payroll tax offset might not apply, or
+instances in which its impact might be reduced. There may be effects on Federal outlays that
+need to be considered. For example, in the case of the imposition of a large sales tax broadly
+affecting the economy, income attributable to factors of production for the entire economy would
+likely experience a decline to maintain the fixed nominal price level. Assuming that Federal
+government purchases are not fixed in nominal terms, then the Federal government’s purchase of
+factors of production would decline as well. These reductions in payments would largely
+eliminate the income and payroll tax offset, as illustrated below.4
+Consider a sales tax that raises $1 trillion imposed on a $20 trillion economy. Further
+assume that the Federal government expenditures are initially $4 trillion, or 20 percent of the
+economy. Income attributable to factors of production would decline by $1 trillion, or 6.25
+percent.5 Assuming a 25 percent income and payroll tax offset,6 this would result in a decline in
+income and payroll tax receipts of $250 billion resulting in net tax receipts increasing by $750
+billion. However, since the price level has declined by 6.25 percent, the Federal government can
+purchase the same goods and services for 6.25 percent less. As a result, Federal expenditures
+would be $3.75 trillion, or $250 billion less than the initially assumed $4 trillion. The proper
+budget effect of this proposal would include the net effect on the deficit and would be a
+reduction of the deficit by the full $1 trillion (equal to the $750 billion after the offset plus the
+$250 billion expenditure savings). More careful scrutiny of this issue is important in the context
+of analyzing broad-ranging tax reform proposals that replace income taxes with consumption
+taxes.7 In general, for this type of proposal, the Joint Committee staff has not used an income
+and payroll tax offset on the replacement of income taxes with consumption taxes.
+As another example, consider a proposal which raises revenues from an excise tax, but
+rebates all of the revenues back to individuals as taxable income. In this case, assuming that the
+rebate is not income limited, an income and payroll tax offset should not be applied because
+taxable income remains constant.8
+
+4
+
+How much of the offset would remain depends on the difference between Federal government
+expenditures as a percentage of gross domestic product (“GDP”) and the offset percentage.
+5
+
+6.25 percent is equal to the $1 trillion in revenue raised divided by GDP less the Federal government
+expenditures, assuming that the Federal government doesn’t pay the tax.
+6
+
+The 25-percent assumption is discussed in more detail below.
+
+7
+
+The neutrality of Federal government expenditures with respect to price changes or income replacement
+may be affected by the extent of indexation or taxation of government transfer payments.
+8
+
+See Congressional Budget Office, “The Role of the 25 Percent Revenue Offset in Estimating the
+Budgetary Effects of Legislation,” Economic and Budget Issue Brief, January 13, 2009, pp. 1-8.
+
+3
+
+Finally, consider an excise tax from which the Federal government is not exempt, and the
+Federal government purchases a large portion of the good. That is, the Federal government is a
+taxpayer of this tax. For example, the Federal government purchases approximately half of the
+vaccines that are subject to the vaccine excise tax. Because the Federal government pays for the
+vaccines after the imposition of the tax, the income and payroll tax offset should be reduced by
+about half to reflect the increased expenditures by the Federal government on vaccines. Suppose
+that Congress imposes a new vaccine excise tax that raises $1 in gross revenues. Further,
+suppose that the Federal government purchases 50 percent of the vaccine. Therefore the Federal
+government pays $0.50 to itself, for revenues net of the Federal government purchase of $0.50.
+However, the income and payroll tax offset on the $0.50 still needs to be taken into account; net
+revenues would be $0.375 after applying a 25 percent offset to the $0.50 of excise tax receipts
+from non-Federal government sources.
+
+4
+
+II. MEASURING THE OFFSET
+The income and payroll tax offset is estimated by the share of incomes attributable to
+each productive factor in the economy (“factor incomes”), the percentage of factor income that is
+taxable, and the applicable marginal tax rate. For many years, the Joint Committee staff, as well
+as OTA and the CBO, have assumed that the income and payroll tax offset is 25 percent of the
+gross excise tax effect. Initially OTA used an offset of 30 percent in the early 1970s in estimating
+the revenue effects of a proposed windfall profits excise tax on sales of crude oil. In 1978, OTA
+economists described the rationale for an income and payroll tax offset and then estimated what
+it would be for a hypothetical $32 billion excise tax.9 Assuming that the changes to income
+resulting from the excise tax are proportional to the distribution of income, they estimated that
+the offset should be about 35 percent.
+A 1988 study recomputed the income and payroll tax offset to account for the reduction
+in marginal income tax rates resulting from the Tax Reform Act of 1986 and to incorporate the
+effects of payroll taxes.10 This analysis estimated that a change in gross excise tax revenues
+would be accompanied by an income tax offset of 17 percent and a payroll tax offset of 7
+percent, for a total offset of 24 percent.
+Table 1 below presents an income and payroll tax offset estimate using 2007 factor
+incomes and Federal tax rates. The first column presents the National Income and Product
+Account (“NIPA”) income amounts for factor incomes for 2007 in billions. The NIPA corporate
+profits income definition includes income from S corporations which generate pass-through
+income, and has adjustments for a number of income items including State and local taxes.11 The
+second column shows the percentage contribution to total factor incomes of each of the separate
+items. Sixty-eight percent of total factor income is attributable to compensation of employees.12
+The third and fourth columns show the amounts and the percentage of factor income reported to
+Internal Revenue Service that is taxable.13 The Joint Committee staff separates employee
+compensation into the amount taxable under the income tax and under the FICA, OASDI and HI
+payroll tax. The largest difference between these two tax bases is the taxation of elective
+contributions to tax deferred retirement savings plans, such as plans under section 401(k), which
+are taxable for purposes of computing FICA tax, but not for Federal income tax. Because S
+9
+
+George Tolley and C. Eugene Steuerle, “The Effects of Excises on the Taxation and Measurement of
+Income,” Compendium of Tax Research, Government Printing Office, 1978, pp. 67 - 78.
+10
+
+Sonia Conly and Linda Radey, “Changes in Excise and Payroll Taxes and Their Effects on Total Budget
+Receipts,” presentation at the Eastern Economic Association Meetings, March 10-12, 1988.
+11
+
+See Table 7.16, Bureau of Economic Analysis, “Relation of Corporate Profits, Taxes, and Dividends in
+National Income and Product Accounts to Corresponding Measures as Published by the Internal Revenue Service,”
+available at http://www.bea.gov/national/nipaweb/Index.asp.
+12
+
+In 1988, Conly and Radey reported that 73 percent of factor income was attributable to compensation of
+employees in 1985.
+13
+
+Taxable income amounts are generally from Internal Revenue Service, Statistics of Income--2007
+Individual Income Tax Returns, and Internal Revenue Service, Statistics of Income -- 2007 Corporation Income Tax
+Returns, 2010.
+
+5
+
+corporations pass through their income to shareholders, the profits attributable to them are taxed
+at the individual level. Therefore the Joint Committee staff has subtracted $287.2 billion of S
+corporation profits from the corporate profits line (both the NIPA column and the Taxable
+Column) and added these profits into the business income line for the NIPA column.14 These
+profits are treated as business income taxable to individuals.15 The fifth column is the average
+marginal tax rate for each of the income types. The corporate income tax rate is calculated as a
+25.1 percent corporate rate plus an additional 5.2 percent accounting for the taxation of dividends
+and capital gains at the individual level.16 Finally, the sixth column presents the weighted
+marginal tax rate contribution to the overall offset. The 24.6 percent number in the last row of
+the last column is the total estimated income and payroll tax offset for 2007.
+
+14
+
+See Table 7, Internal Revenue Service, Statistics of Income -- 2007 Corporation Income Tax Returns,
+2010, p. 242.
+15
+
+The table reports that 103 percent of NIPA corporate profits are taxable. NIPA amounts for corporations
+start with the IRS reported amount of $1,788.7 billion in receipts less deductions. Then the Bureau of Economic
+Analysis adjusts this amount for a number of items, including adding in misreported items, the Federal Reserve
+banks, State and local taxes, and subtracting out items including capital gains from the sale of property, dividends
+and income from domestic and foreign corporations. The net result is that in 2007 the NIPA amount of $1,738.4
+billion is slightly smaller than the IRS reported number. The amount reported in Table 1 ($1,451.2) is the NIPA
+$1,738.4 less the $287.2 in passthrough income.
+16
+
+The 25.1 percent corporate rate is the average rate reported in Bureau of Economic Analysis Table 7.16.
+The corporate rate structure is essentially flat; consequently we have assumed that the marginal and average tax rates
+are equal. The additional 5.2 percent is 1.6 percent dividends tax plus a 3.6 percent capital gains tax, where the
+marginal tax rate at the individual level on dividends and capital gains is 15.1 percent and 16.1 percent applied to the
+taxable portion of corporate profits that show up as qualified dividends and capital gains, respectively. The tax rates
+on dividends and capital gains are determined from the Joint Committee staff individual tax model. For capital gains
+for this purpose the Joint Committee staff has ignored effects on receipts in future years and from non-corporate
+capital assets.
+
+6
+
+Table 1. Calculation of the Income and Payroll Excise Tax Offset for 2007
+
+Compensation of
+Employees………………
+Income Tax………
+FICA Tax………...
+Business and Rental
+Income.………………….
+
+NIPA
+Income
+
+Percent of
+Total
+
+Taxable
+Income
+
+Percent of
+NIPA
+Income
+
+Marginal
+Tax Rate
+(MTR)
+
+Weighted
+MTR =
+b*d*e
+
+(a)
+
+(b)
+
+(c )
+
+(d)
+
+(e)
+
+(f)
+
+7,855.9
+
+0.680
+5,910.5
+6,081.7
+
+0.752
+0.774
+
+0.226
+0.118
+
+0.116
+0.062
+
+1,483.5
+
+0.128
+
+729.1
+
+0.492
+
+0.373
+
+0.024
+
+Farm Income…………….
+
+37.8
+
+0.003
+
+-14.8
+
+-0.390
+
+0.199
+
+0.000
+
+Interest Income…………..
+
+731.6
+
+0.063
+
+270.8
+
+0.370
+
+0.246
+
+0.006
+
+Corporate Profits before
+Inventory and Capital
+Consumption Adjustment..
+
+1,451.2
+
+0.126
+
+1,501.5
+
+1.035
+
+0.303
+
+0.039
+
+Total Factor Incomes…
+
+11,560.0
+
+1.000
+
+8,568
+
+0.741
+
+0.246
+
+Implicit in the 24.6 percent estimate of total factor incomes for 2007 is the assumption
+that the factors of production bear the incidence of the change according to their contribution to
+total income. Alternatively, one could argue that either labor or capital is more likely to bear the
+burden of the changes. One could argue that, in an open economy, capital can move freely across
+borders and seek out the best rate of return, and thus employees will bear the burden. In this
+case, the income and payroll tax offset is simply computed with respect to the tax rate and
+amount of taxable income earned by employees. Under this assumption, the income and payroll
+tax offset would be 26.1 percent.17 If, at the other extreme wages do not adjust and capital bears
+the burden of an increase in an excise tax, then the estimated income and payroll tax offset would
+be 21.4 percent.18
+An exact calculation of the magnitude of the income and payroll tax offset would require
+determining the exact incidence for each excise tax and applying the appropriate marginal
+income tax rates to the reductions in factor incomes. For example, the appropriate income and
+payroll tax offset rate to apply to a change in the tobacco tax could vary substantially depending
+on whether the burden of the tax is assumed to fall on tobacco farmers, tobacco processors, or
+smokers. Determining the incidence of the tobacco tax, however, is problematic in an industry in
+which the market structure for processors is oligopolistic (i.e., a market that is shared by a small
+17
+
+From the table this is calculated by summing the income and FICA tax pieces; 26.1 = (0.752*22.6) +
+(0.774*11.8).
+18
+
+21.4 percent is calculated by zeroing out the compensation of employees and recalculating the percent of
+income owing to each remaining category and proceeding as before. Thus, the percent owing to corporate profits
+would increase from 12.6 percent to 39.2 percent, and the net weighted marginal tax rate for corporate profits
+comparable to that reported in column (f) would be 12.3 percent (= 0.39*1.035*0.303), instead of 3.9 percent.
+
+7
+
+number of producers or sellers with limited competition); the elasticity of demand among
+consumers is arguably separable into a highly inelastic segment for existing smokers and a
+higher price elasticity of demand among new smokers. Further complicating such analysis,
+different Federal excise tax rates apply to different tobacco products and tobacco is subject to a
+significant variation in State excise tax rates. In the case of the gasoline excise tax, an additional
+challenge in determining incidence is posed by the fact that gasoline is both an intermediate good
+and a final consumption item. Even if both tobacco and gasoline taxes were assumed to be
+ultimately paid by final consumers of each product, it is probable that the consumption patterns
+for substitute goods for the two sets of consumers would be different, thus generating different
+income and payroll tax offsets for the two products.
+Rather than trying to derive separate offsets for each excise tax based on conjectures
+about the incidence of tax under each tax proposal, revenue estimating staffs have settled on
+using a standard offset factor of 25 percent for most excise tax estimates. This factor may be
+thought of as a marginal tax rate on factors of production. As shown in the table above, if it is
+assumed that increases in profits were shared among the factors of production according to their
+contribution to total income, then the Federal marginal tax rate in 2007 was 24.6 percent.
+Because excise taxes reduce income attributable to the factors of production, this marginal tax
+rate indicates the income and payroll tax revenue loss, or offset, for each additional dollar of
+excise tax revenue raised.
+
+8
+
+III. FORECASTING THE OFFSET
+The analysis above shows that for calendar year 2007 the offset was indeed very close to
+the standard offset factor of 25 percent. However, many tax reductions enacted in 2001 and
+2003 are set to expire at the end of 2012. With the expiration of these tax cuts, the marginal rates
+applicable for different factors of production will increase and 25 percent may be an
+underestimate of the appropriate income and payroll tax offset.
+Table 2 below shows two different series of income and payroll tax offsets for the period
+2011-2021. The first row calculates the offset by simply adjusting the marginal tax rates to be
+consistent with present law for each year. The adjusted marginal individual income and payroll
+tax rates are calculated using the Joint Committee staff’s individual tax model. The corporate
+rate is held constant at the 2007 rate. In addition to adjusting the tax rates, the second row also
+adjusts the NIPA income forecasts and the taxable portion.19 As can be seen from the table,
+adjusting the income and payroll tax offset for the changes in the tax rates raises the offset from
+approximately 25 percent in 2007 to 29 percent in 2021.20 Including adjustments, the offset is
+smaller in each year until 2018 than in row one, reflecting lower taxable portions of income.
+After 2017, the Joint Committee staff’s forecast of taxable income rises as a result of the
+imposition of the excise tax on certain high premium health insurance plans (section 4980I of the
+Internal Revenue Code).
+
+Table 2. Forecasting the Income and Payroll Tax Offset
+Item
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+2019
+
+2020
+
+2021
+
+Offsets
+Adjusting
+Marginal Tax
+Rates………….
+
+0.239
+
+0.258
+
+0.277
+
+0.281
+
+0.283
+
+0.287
+
+0.288
+
+0.290
+
+0.291
+
+0.292
+
+0.294
+
+Offsets
+Adjusting
+Marginal Tax
+Rates and
+Taxable
+Percentages……
+
+0.233
+
+0.252
+
+0.271
+
+0.276
+
+0.280
+
+0.285
+
+0.287
+
+0.292
+
+0.294
+
+0.296
+
+0.299
+
+19
+
+For the second calculation, other than the corporate calculation, the NIPA forecasts are from CBO, and
+the taxable portions are from the Joint Committee staff individual income tax model. The corporate taxable portion
+is held constant at the 2007 level.
+20
+
+The lower rate in 2011 reflects the effects of the temporary two percentage point payroll tax reduction.
+However, the analysis summarized in Table 2 is based upon the temporary two percentage point payroll tax
+reduction expiring after 2011.
+
+9
+
+IV. IMPLEMENTING THE OFFSET FOR FUTURE BUDGET PERIODS
+Beginning in January of 2012, the Joint Committee staff intends to use income and
+payroll tax offsets for excise taxes that reflect present-law tax rates and baseline macroeconomic
+projections and that are adjusted for the taxable percentage similar to those in the second row of
+Table 2 above. These calculations will be made subsequent to the release of the CBO’s 2012
+baseline. Table 3 below illustrates the calculation of the offset applying assumptions in effect in
+2011.
+
+Table 3. Income and Payroll Tax Offsets Under Present Law Baseline 2012 Through 2021
+Item
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+2017
+
+2018
+
+2019
+
+2020
+
+2021
+
+Offsets Adjusting
+Marginal Tax
+Rates and Taxable
+Percentages………
+
+0.252
+
+0.271
+
+0.276
+
+0.280
+
+0.285
+
+0.287
+
+0.292
+
+0.294
+
+0.296
+
+0.299
+
+10
+
+

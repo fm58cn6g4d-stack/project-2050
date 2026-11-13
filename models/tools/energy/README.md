@@ -1,6 +1,6 @@
 # Energy and climate model (M4)
 
-Role: the home of `MOD-energy`, the core energy and climate model of `charter/PLAN.md` 3.4 (emissions, prices, bills, dividends; flagship 4, clean power). Status: **part 1, the survey of trusted models, in progress** (`DEC-2026-11-13-09`); part 2 builds the model to the survey's design.
+Role: the home of `MOD-energy`, the core energy and climate model of `charter/PLAN.md` 3.4 (emissions, prices, bills, dividends; flagship 4, clean power). Status: **part 1, the survey of trusted models, for review** (`DEC-2026-11-13-09`); part 2 builds the model to the survey's design.
 
 | File | What |
 | --- | --- |
