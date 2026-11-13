@@ -42,5 +42,5 @@ The household diagnostic includes the process fee with a full-pass-through consu
 
 - [October 27 governing decisions](../governing/project-2050-governing-decisions.md), [allocation section 5](climate-portfolio-allocation.md), [handoff sections 2–4](codex-handoff-climate-financing-2026-10-26.md).
 - [Annual pricing export](climate-portfolio-pricing.json), hash pinned in [climate-adoption.json](../index/data/inputs/climate-adoption.json); export and baseline carbon configuration unchanged. International results and removal purchases excluded.
-- [Ledger](../index/2029-trifecta-master-ledger.md), [long-term tests](../index/fiscal-long-term-model.md), [recovery budget](../index/recovery-budget.md), [household diagnostics](../index/revenue-household-incidence-model.md).
+- [Ledger](../index/2029-trifecta-master-ledger.md), [long-term tests](../index/fiscal-long-term-model.md), [recovery budget](../index/recovery-budget.md), [household diagnostics](../../models/tools/household/results.md).
 - `test_climate_integration.py` checks annual aggregate/component reconciliation, unchanged 80/20 arithmetic, CX, diversion bounds, all four maturity cases, capital end dates, ledger totals and unscored contingency. Full validation results are recorded in the PR.
