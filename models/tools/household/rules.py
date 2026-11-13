@@ -110,10 +110,15 @@ def ssi_exclusions_indexed(u, L):
 SMI_SIZE = {1: 0.52, 2: 0.68, 3: 0.84, 4: 1.00, 5: 1.16, 6: 1.32}     # HHS's state median income size adjustment
 
 
+def state_median(size, smi4):
+    """State median income for a family of `size`, from the four-person line and HHS's size factors."""
+    return smi4 * SMI_SIZE.get(size, 1.32 + 0.03 * (size - 6))
+
+
 def guarantee_charge(income, size, smi4):
     """FAM-2.01's charge for care of a child under 5 (`DEC-2026-11-11-03`): free at or below 85% of state median
     income, then a rate rising in a straight line to 7% of income at 150% (care's working choice), 7% above."""
-    smi = smi4 * SMI_SIZE.get(size, 1.32 + 0.03 * (size - 6))
+    smi = state_median(size, smi4)
     x = income / smi
     return 0.07 * income * min(max((x - 0.85) / (1.5 - 0.85), 0.0), 1.0)
 
@@ -126,19 +131,32 @@ def cdctc_rate(agi, fs):
     return max(r - -(-max(agi - start, 0) // step), 20) / 100
 
 
-def cdctc_refundable(u, L):
-    """INC-4.01 (point 7): the dependent care credit made refundable, for out-of-pocket costs net of both care
-    guarantees. The unit's child care spending (the CPS's, `SPM_CHILDCAREXPNS`, given to the tax units of its SPM unit
-    with children under 13) is split by the children's ages: school-age care (5-12) counts in full; care for children
-    under 5 counts only up to the child care guarantee's charge (`guarantee_charge`), since the guarantee pays the rest.
+def cdctc_refundable(u, L, spend_scale=1.0, school_age_netted=0.0):
+    """INC-4.01, rescoped (Espen, November 13, option B): the dependent care credit made refundable, for care no other
+    program pays for. It counts only what a family pays itself: neither the child care guarantee (FAM-2.01) nor the
+    school-age block grant the plan keeps (CCDF for children 5 to 12, FAM-2.04) pays a dollar twice.
+    The unit's child care spending (the CPS's, `SPM_CHILDCAREXPNS`, given to the tax units of its SPM unit with
+    children under 13) is what the family paid out of pocket while working: the survey asks what was paid, and the
+    subsidies families receive, CCDF's among them, are not in it. So the school-age care it reports is already net of
+    what CCDF pays for the children it reaches, and the block grant's reach under the plan is today's (FAM-2.04 keeps
+    its school-age share at the FY2029 level, indexed to prices); that care counts in full. Care for children under 5
+    counts only up to the guarantee's charge (`guarantee_charge`), since the guarantee pays the rest.
     Limits: $3,000 or $6,000, and the lower earner's earnings on a joint return. The gain is the part of the credit
     above the tax before credits (today it is nonrefundable and comes before the child credit), at full take-up.
-    Care for dependent adults is not in the CPS."""
+    Care for a disabled adult is not in the CPS.
+
+    Two sensitivities, not the central case: `spend_scale` scales the reported spending (the survey under-reports
+    it), and `school_age_netted` removes that share of school-age spending for units at or below 85% of state median
+    income, CCDF's income line, as if the survey had reported care before CCDF's payments."""
     q = u["n_dep_u5"] + u["n_dep_5_12"]
     if not q or u.get("childcare", 0) <= 0:
         return 0.0
-    under5 = u["childcare"] * u["n_dep_u5"] / q
-    expense = u["childcare"] - under5 + min(under5, guarantee_charge(u["t_agi"], u["n_people"], L["smi4"]))
+    spend = u["childcare"] * spend_scale
+    under5 = spend * u["n_dep_u5"] / q
+    school = spend - under5
+    if school_age_netted and u["t_agi"] <= 0.85 * state_median(u["n_people"], L["smi4"]):
+        school *= 1 - school_age_netted
+    expense = school + min(under5, guarantee_charge(u["t_agi"], u["n_people"], L["smi4"]))
     joint = u["t_fs"] == "joint"
     earn = min(u["wage_h"] + u["se_h"], u["wage_s"] + u["se_s"]) if joint else u["wage_h"] + u["se_h"]
     expense = min(expense, 3000 if q == 1 else 6000, max(earn, 0))
