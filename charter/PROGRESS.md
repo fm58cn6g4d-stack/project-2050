@@ -24,7 +24,7 @@ Updated November 13, 2026 (about 01:35 UTC) by the lead, session_01UQzgBwNea5uYV
 
 - **Open PRs:** this board PR; the hospital uncompensated-care booking (tier 3, the lead's subagent, opening soon; see below).
 - **Workers (report to the lead):**
-  - Clean power E-C1, `session_01UQzgBvGHoWGmLZJ179V9R7` (Most capable, started November 13 about 01:31 UTC): `dossiers/clean-power/`, sections 1-3 and the decision memo batch; source block SRC-4400 to 4799.
+  - Clean power E-C1, `session_01UQzgBvGHoWGmLZJ179V9R7` (Most capable, started November 13 about 01:31 UTC): `dossiers/clean-power/`, sections 1-3 and the decision memo batch; its source block is reserved in `library/reserved-blocks.csv`.
   - The lead's subagent: Espen's answer on uncompensated care for people the plan doesn't cover (`dossiers/care/6-cost.md`, open question 3): "agree with b on unpaid care for uninsured" (November 13). A federal DSH-type payment to hospitals continues for that emergency care, about $1-4B a year; one tier-3 PR with its decision entry and booking.
   - Done: care base correction `session_01UQzgBskUP5ct6NJr6zMve5` (#313; `DEC-2026-11-13-01`); immigration `session_01UQzgBtaHE8nkT9Znw8gZVp` (#303 to #310); M2 (#312, the lead's subagent).
 - **Labels and decision-log conflicts:** two tier-3 PRs that both add rows to `charter/decisions.md` conflict when the first merges, and the gate drops `espen-approved` from the second when that conflict is resolved (#310, November 13). Ask Espen to label such PRs one at a time, the next only after the first merges and the second is updated.
