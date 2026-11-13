@@ -130,6 +130,22 @@ def markdown(R):
     A(f"\nPoor people in 2029 (model): {b29['poverty']['model']['all']['poor_m']:.1f} million, of whom "
       f"{b29['poverty']['model']['children']['poor_m']:.1f} million children. SPM poverty gap in 2029: "
       f"${b29['poverty_gap_bn']:.0f} billion a year.\n")
+    sl = R["snap_law_2029"]
+    A("### SNAP under P.L. 119-21 in the 2029 baseline (A-8)\n")
+    A("The 2029 baseline applies the 2025 law's SNAP changes (`snap2025.py`): the wider work rule, calibrated to CBO's "
+      "participation estimates by group, and the energy-assistance and internet-cost changes. Not applied: the state cost "
+      "share's state responses and the noncitizen rule.\n")
+    A(f"- SNAP in 2029, as the CPS reports it: ${sl['snap_prior_law_bn']}B at prior law, ${sl['snap_bn']}B under the law "
+      f"({sl['cut_pct']}% less). About {sl['people_losing_m']} million people (on the CPS's weights) lose benefits under the "
+      f"work rule. Probabilities that an at-risk adult loses benefits: 55-64 without children {sl['probabilities']['n_abawd_55_64']}, "
+      f"parents whose youngest child is 14-17 {sl['probabilities']['n_parent_child14']}, 18-54 without children "
+      f"{sl['probabilities']['n_abawd_prior']}.")
+    pl = sl["prior_law_poverty"]
+    m = b29["poverty"]["model"]
+    A(f"- SPM poverty in 2029: {pl['all']['rate']:.2f}% at prior-law SNAP, {m['all']['rate']:.2f}% under the law "
+      f"(children {pl['children']['rate']:.2f}% and {m['children']['rate']:.2f}%); "
+      f"{(m['all']['poor_m'] - pl['all']['poor_m']) * 1000:,.0f} thousand more people poor. The CPS records under half "
+      "of SNAP's benefits, so this understates the law's effect (`MODEL-CARD.md`, A-8).\n")
     A("## 2. Tax aggregates against the Census tax model, 2025 law\n")
     A("Billions of dollars, income year 2025, the same records. The Census tax model is the published companion of the "
       "CPS; the model's own calculator is what provisions run through.\n")
@@ -217,7 +233,10 @@ def main():
     R = {}
     B25 = baseline(2025)
     R["baseline_2025"] = {"aggregates": aggregates(B25), "poverty": poverty_block(B25, True)}
+    B0 = baseline(2029, snap_law=False)
+    R["snap_law_2029"] = {"prior_law_poverty": poverty_block(B0)["model"]}
     B = baseline(2029)
+    R["snap_law_2029"].update(B["snap_law"])
     H = B["households"]
     assign(H, "size_adjusted", n=10)
     deciles = average_rates(H, n=10)

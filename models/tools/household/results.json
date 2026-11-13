@@ -322,49 +322,49 @@
    "census_taxes": {
     "18_64": {
      "people_m": 208.58,
-     "poor_m": 24.98,
-     "rate": 11.98
+     "poor_m": 25.13,
+     "rate": 12.05
     },
     "65_plus": {
      "people_m": 67.58,
      "poor_m": 10.8,
-     "rate": 15.98
+     "rate": 15.99
     },
     "all": {
      "people_m": 350.87,
-     "poor_m": 45.36,
-     "rate": 12.93
+     "poor_m": 45.58,
+     "rate": 12.99
     },
     "children": {
      "people_m": 74.7,
-     "poor_m": 9.58,
-     "rate": 12.83
+     "poor_m": 9.64,
+     "rate": 12.91
     }
    },
    "model": {
     "18_64": {
      "people_m": 208.58,
-     "poor_m": 25.53,
-     "rate": 12.24
+     "poor_m": 25.69,
+     "rate": 12.32
     },
     "65_plus": {
      "people_m": 67.58,
-     "poor_m": 10.8,
-     "rate": 15.98
+     "poor_m": 10.81,
+     "rate": 16.0
     },
     "all": {
      "people_m": 350.87,
-     "poor_m": 46.32,
-     "rate": 13.2
+     "poor_m": 46.53,
+     "rate": 13.26
     },
     "children": {
      "people_m": 74.7,
-     "poor_m": 9.99,
-     "rate": 13.37
+     "poor_m": 10.03,
+     "rate": 13.43
     }
    }
   },
-  "poverty_gap_bn": 308.9
+  "poverty_gap_bn": 311.7
  },
  "families": {
   "married_2": {
@@ -2954,5 +2954,40 @@
     "T1": -639384
    }
   }
+ },
+ "snap_law_2029": {
+  "applied": true,
+  "cut_pct": 10.1,
+  "people_losing_m": 2.05,
+  "prior_law_poverty": {
+   "18_64": {
+    "people_m": 208.58,
+    "poor_m": 25.53,
+    "rate": 12.24
+   },
+   "65_plus": {
+    "people_m": 67.58,
+    "poor_m": 10.8,
+    "rate": 15.98
+   },
+   "all": {
+    "people_m": 350.87,
+    "poor_m": 46.32,
+    "rate": 13.2
+   },
+   "children": {
+    "people_m": 74.7,
+    "poor_m": 9.99,
+    "rate": 13.37
+   }
+  },
+  "probabilities": {
+   "energy": 0.471,
+   "n_abawd_55_64": 0.811,
+   "n_abawd_prior": 0.508,
+   "n_parent_child14": 0.484
+  },
+  "snap_bn": 43.4,
+  "snap_prior_law_bn": 48.2
  }
 }

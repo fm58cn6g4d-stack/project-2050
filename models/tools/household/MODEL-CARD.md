@@ -36,7 +36,7 @@ All in `params.py` (parameters) and `tax.py` (calculator); 2025 values are the l
 - **Credits:** the child tax credit ($2,200 in 2025, $2,400 in 2029, refundable up to $1,700 and $1,800, 15% of earnings above $2,500, phased out above $200,000/$400,000), the $500 credit for other dependents, and the earned income credit by number of children (childless workers 25-64).
 - **The 2025-2028 items expire before 2029:** the $6,000 senior deduction is applied in 2025 and gone in 2029; the tips, overtime and car-loan deductions are not modeled in either year (the CPS cannot see them).
 - **Payroll taxes:** Social Security and Medicare, both halves, the self-employment tax and the additional Medicare tax.
-- **Benefits:** Social Security, SSI, TANF, unemployment insurance, veterans' benefits, SNAP, housing assistance, school meals, WIC and energy assistance, as the CPS reports them or the Census imputes them for the SPM. The model does not yet simulate eligibility for them, except SNAP for the typical families.
+- **Benefits:** Social Security, SSI, TANF, unemployment insurance, veterans' benefits, SNAP, housing assistance, school meals, WIC and energy assistance, as the CPS reports them or the Census imputes them for the SPM. The model does not yet simulate eligibility for them, except SNAP for the typical families. In 2029, P.L. 119-21's SNAP changes are applied to the reported amounts (A-8).
 - **Typical families:** SNAP's federal rules (FY2025 parameters uprated: the gross income test at 130% of poverty or a state's broad option up to 200%, the 20% earnings deduction, the standard deduction, an optional excess shelter deduction, 30% of net income); the premium tax credit on the 2010 act's schedule (2026 applicable percentages).
 
 ### Assumptions (labeled, with their basis and range)
@@ -47,10 +47,10 @@ All in `params.py` (parameters) and `tax.py` (calculator); 2025 values are the l
 | A-2 | Amounts grow 2025 to 2029 by type, with CBO's February 2026 projections: earnings with wages per payroll job (+15.8%), prices (+10.7%), interest, dividends and rents per household, capital gains with GDP per household; weights grow with CBO's households (+3.6%) | CBO's fiscal-year series (`models/data/cbo/`), standing in for calendar years | Earnings growing faster than the law's indices is what produces bracket creep and EITC erosion in 2029; a slower wage path lowers 2029's poverty rate |
 | A-3 | Tax indexing uses CBO's fiscal-year chained CPI-U (FY2028 over FY2024) for the code's twelve months ending August | Gives $2,400 and $1,800 for the 2029 child credit; CBO's own path has $2,400 and $1,900 in 2030 | Off by at most one rounding step in a few amounts |
 | A-4 | The Social Security wage base follows CBO's wages per job in place of SSA's average wage index | The two move together | A few hundred dollars on the base |
-| A-5 | SPM thresholds grow with CBO's consumer spending per household (+13.6%) | The Census sets the thresholds from five years of spending on food, clothing, shelter and utilities, so they rise with spending, not prices | With prices instead (+10.7%) the 2029 poverty rate would be about 12.5% instead of 13.2% |
+| A-5 | SPM thresholds grow with CBO's consumer spending per household (+13.6%) | The Census sets the thresholds from five years of spending on food, clothing, shelter and utilities, so they rise with spending, not prices | With prices instead (+10.7%) the 2029 poverty rate would be about 12.6% instead of 13.3% |
 | A-6 | Units the Census tax model marks as nonfilers get no refundable credits | Keeps the Census's convention, so the SPM baseline stays calibrated | A full take-up run gives the same 2029 poverty rates to two decimals |
 | A-7 | No itemized deductions, AMT or the dependent care, education, saver's and premium credits in the microdata | The CPS has no itemized deductions; the Census's own tax model imputes them | Income tax after credits is about 9% above the Census tax model's in 2025, most of it in the top quintile |
-| A-8 | 2029 benefits are 2025's, uprated: P.L. 119-21's SNAP and Medicaid changes are not applied | Eligibility is not yet simulated | Understates 2029 poverty; the SNAP changes (work-requirement expansion, state cost share) reach low-income adults most. Part 2 |
+| A-8 | 2029 SNAP is 2025's, uprated, with P.L. 119-21's changes applied (`snap2025.py`). The wider work rule (sec. 10102) removes benefits from adults not disabled who worked under 20 hours a week, with probabilities calibrated so each group's loss matches CBO's participation estimate as a share of USDA's participants (EV-SEC-036, EV-SEC-039). The energy and internet changes (secs. 10103-04) are applied as CBO's expected amounts (EV-SEC-038). The Thrifty Food Plan rule (sec. 10101) needs nothing beyond price uprating. Not applied: the state cost share's state responses (about 300,000 people) and the noncitizen rule (about 90,000), which need behavior or immigration status the model lacks. The law's Medicaid changes stay with the health coverage model | CBO's section estimates (EV-SEC-034 to 038), which the secure floor already uses | The CPS records about $42B of 2025 SNAP against USDA's $95.8B, so the law's poverty effect is understated by about half. The model's cut is 10.1% of benefits, against about 9.8% implied by CBO's sections. CBPP counted 4.7 million fewer participants by March 2026, against CBO's 3 million for 2026 (EV-SEC-040); at that pace the loss would be larger |
 | A-9 | The premium credit's 2026 applicable percentages hold in 2029 | The percentages are reindexed yearly; their direction depends on premium growth against income growth | A few tenths of a cent per dollar in the family rates |
 
 ## Distribution conventions
@@ -84,7 +84,7 @@ What part 1 already shows, at 2029 law (`results.md`, section 4):
 | --- | --- | --- | --- |
 | SPM poverty, 2025, Census taxes (all / children / 18-64 / 65+) | 13.1 / 13.4 / 12.3 / 15.4% | Census P60-290, table 8 (SRC-3602): 13.1 / 13.4 / 12.3 / 15.4% | None: the model rebuilds `SPM_RESOURCES` from its elements exactly (tested) |
 | SPM poverty, 2025, the model's own taxes | 13.2 / 13.4 / 12.3 / 15.4% | Same | +0.04 points for all people: the model's income tax is slightly higher (no itemized deductions, A-7) |
-| SPM poverty, 2029 current law (model) | 13.2 / 13.4 / 12.2 / 16.0% | No official projection | The 2025 rates aged: earnings outgrow the tax law's indices (bracket creep and EITC erosion); thresholds rise with spending (A-5); the senior deduction ends (65+ up from 15.4 to 16.0%); P.L. 119-21's SNAP cuts are not applied (A-8, which would raise it) |
+| SPM poverty, 2029 current law (model) | 13.3 / 13.4 / 12.3 / 16.0% | No official projection | The 2025 rates aged: earnings outgrow the tax law's indices (bracket creep and EITC erosion); thresholds rise with spending (A-5); the senior deduction ends (65+ up from 15.4 to 16.0%); P.L. 119-21's SNAP changes add about 0.06 points, 210,000 people (A-8; understated, since the CPS records under half of SNAP) |
 | Earned income credit, 2025 law | $41.0B | Census tax model on the same records $40.5B; IRS SOI tax year 2023 (table 2.5) $66.3B on 24.4M returns | The CPS under-reports low and self-employment earnings and family links, and the IRS total includes claims its own compliance studies find improper; the model follows the Census on the same records |
 | Child and other-dependent credits, 2025 law | $119.7B, of which $23.0B refundable | Census $118.8B ($23.6B); IRS SOI 2023 (tables 2.5, 3.3) $118.9B at the $2,000 credit ($34.5B refundable) | About 7% below SOI once SOI is put at the $2,200 credit; the refundable part is $11B lower, the low-earnings under-reporting again |
 | AGI, 2025 | $16.0T | Census tax model $16.2T | 1% |
@@ -124,7 +124,6 @@ Scenario Q (the decided package), net dollars per household per year, FY2030-39 
   - move the legacy reports out of `legacy/`;
   - the year-by-year profiles;
   - INC-1 to INC-5 as rules with incidence keys;
-  - SNAP's 2025 changes in the baseline (A-8), before the ceiling check, which depends on them;
   - the 65-cent ceiling check with every plan layer;
   - replicate-weight intervals.
 
@@ -135,7 +134,7 @@ From the repository root:
 ```bash
 bash models/tools/run-all.sh                                   # builds the ledger, runs the tests and the model
 python3 models/tools/household/run.py --ledger build/ledger.json --out build/household
-python3 models/tools/household/test_household.py               # 15 tests; the legacy check needs build/
+python3 models/tools/household/test_household.py               # 16 tests; the legacy check needs build/
 python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   # rebuild the extract
 ```
 
@@ -148,6 +147,7 @@ python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   
 - household accounting: net income equals its parts, and unit and household totals agree;
 - equal-household groups and keys that sum to 100%;
 - the FAM-1 rule;
+- P.L. 119-21's SNAP changes: the source year untouched, 2029's losses matching CBO's share, a cut of 8-12% of benefits;
 - the typical families;
 - **exact reproduction of the legacy incidence model** in every scenario.
 
@@ -155,4 +155,5 @@ python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   
 
 | Run | Model version | Inputs | Provisions |
 | --- | --- | --- | --- |
-| `RUN-household-2026-11-13-a` | This PR's head (M3 part 1) | CPS ASEC 2026 extract (SHA-256 above); CBO February 2026 economic projections; `incidence-rows.csv`, `incidence-keys.csv`, `scenarios.json` as on main | The ledger as built from main on November 13, 2026 |
+| `RUN-household-2026-11-13-a` | #318, merged as `13d4664` (M3 part 1) | CPS ASEC 2026 extract (SHA-256 above); CBO February 2026 economic projections; `incidence-rows.csv`, `incidence-keys.csv`, `scenarios.json` as on main | The ledger as built from main on November 13, 2026 |
+| `RUN-household-2026-11-13-b` | The A-8 PR's head (M3 part 2, first piece: SNAP under P.L. 119-21) | As run a, with the SPM extract's four work-rule counts added | As run a; no provision result changes |

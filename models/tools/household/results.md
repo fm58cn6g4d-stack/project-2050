@@ -8,12 +8,19 @@ Percent of people below the SPM line. 2025 is the survey year; 2029 is current l
 
 | Group | Census, published 2025 (P60-290) | 2025, Census taxes | 2025, model taxes | 2029, Census taxes held | 2029, model |
 | --- | --- | --- | --- | --- | --- |
-| All people | 13.1% | 13.1% | 13.2% | 12.9% | 13.2% |
-| Children under 18 | 13.4% | 13.4% | 13.4% | 12.8% | 13.4% |
-| Adults 18-64 | 12.3% | 12.3% | 12.3% | 12.0% | 12.2% |
+| All people | 13.1% | 13.1% | 13.2% | 13.0% | 13.3% |
+| Children under 18 | 13.4% | 13.4% | 13.4% | 12.9% | 13.4% |
+| Adults 18-64 | 12.3% | 12.3% | 12.3% | 12.1% | 12.3% |
 | 65 and over | 15.4% | 15.4% | 15.4% | 16.0% | 16.0% |
 
-Poor people in 2029 (model): 46.3 million, of whom 10.0 million children. SPM poverty gap in 2029: $309 billion a year.
+Poor people in 2029 (model): 46.5 million, of whom 10.0 million children. SPM poverty gap in 2029: $312 billion a year.
+
+### SNAP under P.L. 119-21 in the 2029 baseline (A-8)
+
+The 2029 baseline applies the 2025 law's SNAP changes (`snap2025.py`): the wider work rule, calibrated to CBO's participation estimates by group, and the energy-assistance and internet-cost changes. Not applied: the state cost share's state responses and the noncitizen rule.
+
+- SNAP in 2029, as the CPS reports it: $48.2B at prior law, $43.4B under the law (10.1% less). About 2.05 million people (on the CPS's weights) lose benefits under the work rule. Probabilities that an at-risk adult loses benefits: 55-64 without children 0.811, parents whose youngest child is 14-17 0.484, 18-54 without children 0.508.
+- SPM poverty in 2029: 13.20% at prior-law SNAP, 13.26% under the law (children 13.37% and 13.43%); 210 thousand more people poor. The CPS records under half of SNAP's benefits, so this understates the law's effect (`MODEL-CARD.md`, A-8).
 
 ## 2. Tax aggregates against the Census tax model, 2025 law
 
