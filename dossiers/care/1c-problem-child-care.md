@@ -1,6 +1,6 @@
 # Care you can count on, part C (child care and pre-K): the problem
 
-Role: section 1 of the care dossier, part C. It covers what is wrong with child care for children from birth to school age and with pre-K, for whom, how large the problem is, and how the law will stand in January 2029. Status: draft (stage D, step 6). Every figure cites the evidence register (`evidence.json`, EV-CAR-500 to 599 for part C).
+Role: section 1 of the care dossier, part C. It covers what is wrong with child care for children from birth to school age and with pre-K, for whom, how large the problem is, and how the law will stand in January 2029. Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README). Every figure cites the evidence register (`evidence.json`, EV-CAR-500 to 599 for part C).
 
 **What this part covers.**
 - *Child care:* paid care and early education for children from birth until they start kindergarten. It may be given in centers, family child care homes or Head Start, while parents work, study or look for work.

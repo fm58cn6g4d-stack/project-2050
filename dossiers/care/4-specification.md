@@ -1,6 +1,6 @@
 # Care you can count on, part A (health): specification
 
-Role: section 4 of the care dossier, health part. It writes the decided health design as provisions: what each does, its parameters, who is covered and who pays, the vehicle, the agency, how it changes current law, and the evidence it rests on. Provision IDs and their fields are in `provisions.json`. Status: draft (stage D, step 4; revised after the milestone review, `review-milestone.md`, steps 1, 2 and 4). Espen decided the design in `DEC-2026-11-09-07`, `DEC-2026-11-10-09`, `DEC-2026-11-10-11`, `DEC-2026-11-10-12` and `DEC-2026-11-10-13`; where the memos and the later decisions differ, the later decisions govern ("What the decisions changed" below). Costs are in `6-cost.md`; each provision's `cost_source` points there.
+Role: section 4 of the care dossier, health part. It writes the decided health design as provisions: what each does, its parameters, who is covered and who pays, the vehicle, the agency, how it changes current law, and the evidence it rests on. Provision IDs and their fields are in `provisions.json`. Status: reviewed at L3 (health, `review-milestone.md`; see the README). Espen decided the design in `DEC-2026-11-09-07`, `DEC-2026-11-10-09`, `DEC-2026-11-10-11`, `DEC-2026-11-10-12` and `DEC-2026-11-10-13`; where the memos and the later decisions differ, the later decisions govern ("What the decisions changed" below). Costs are in `6-cost.md`; each provision's `cost_source` points there.
 
 ## How to read this section
 

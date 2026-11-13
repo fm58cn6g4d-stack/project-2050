@@ -1,6 +1,6 @@
 # Care you can count on, part D (the care workforce): the problem
 
-Role: section 1 of the care dossier, part D: who does paid care work, why the jobs pay what they pay, how many more workers the plan's care parts would need, and how the law will stand in January 2029. Status: draft (stage D, step 7). Every figure cites the evidence register (`evidence.json`); figures marked "project arithmetic" come from `tools/workforce_demand.py`, which labels each input as a register figure or a judgment with its range. Claims still missing evidence are listed at the end and are not made here.
+Role: section 1 of the care dossier, part D: who does paid care work, why the jobs pay what they pay, how many more workers the plan's care parts would need, and how the law will stand in January 2029. Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README). Every figure cites the evidence register (`evidence.json`); figures marked "project arithmetic" come from `tools/workforce_demand.py`, which labels each input as a register figure or a judgment with its range. Claims still missing evidence are listed at the end and are not made here.
 
 ## The subject
 

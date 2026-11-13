@@ -1,6 +1,6 @@
 # Care you can count on, parts B-D (long-term care, child care and pre-K, the care workforce): cost
 
-Role: section 6 of the care dossier for parts B, C and D. It prices the provisions of `4bcd-specification.md` on federal fiscal years and reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`). Status: draft (stage D, board row D-9, PR 1), on `DEC-2026-11-11-02` to `-06`. Every figure is project arithmetic, not an official score. **Nothing is booked here**: the booking follows the milestone review, and part 5 lists exactly which ledger rows and inputs it would change.
+Role: section 6 of the care dossier for parts B, C and D. It prices the provisions of `4bcd-specification.md` on federal fiscal years and reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`). Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README), on `DEC-2026-11-11-02` to `-06`. Every figure is project arithmetic, not an official score. **Nothing is booked here**: the booking follows the milestone review, and part 5 lists exactly which ledger rows and inputs it would change.
 
 ## Counting rules
 

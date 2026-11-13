@@ -7,7 +7,7 @@ Role: the independent milestone review of the immigration dossier (flagship 6; `
 - checks section 9 against sections 1-8;
 - reproduces section 6 from the tools.
 
-Status: current, as of main at commit `4b9ca52` (November 12, 2026, after #299). Reviewer: Claude Code, `session_01UQzgBtaHE8nkT9Znw8gZVp`. It changes nothing in the dossier. Every fix below is a later step: the fix steps go to a fresh Most capable session, or to this reviewer if the lead asks, and the booking goes to the lead.
+Status: current, as of main at commit `4b9ca52` (November 12, 2026, after #299). Outcome on main: the verdicts below are the review's at that commit (#303); its fix steps (#305, #307) closed the blockers, Espen's answers to its questions are `DEC-2026-11-12-17` to `-19`, and the booking (#310) was also the L3 re-check: IMM-1 to IMM-6 are at L3 in `agenda/agenda.csv`, the alternatives at L2. Reviewer: Claude Code, `session_01UQzgBtaHE8nkT9Znw8gZVp`. It changes nothing in the dossier. Every fix below is a later step: the fix steps go to a fresh Most capable session, or to this reviewer if the lead asks, and the booking goes to the lead.
 
 Espen's decisions (`DEC-2026-11-12-07`, `-12`) are settled. Where a decided choice has a cost or gap the dossier does not show, this review says so and sends it to Espen as a question; it does not argue the choice. Under `DEC-2026-11-10-07`, a clearly bounded uncertainty is not a defect. Espen noted on November 12 that the court plan will likely shift again once democratic renewal's judicial branch plan is done. This review treats that as expected, not as a defect (C-3 asks only that sections 7-8 say so).
 
@@ -220,9 +220,13 @@ It is on one basis against the booked case `mixed`, and the gap it uses, $4,184.
 
 Each is labeled. The fix step should add one independent check for memo 3, such as Penn Wharton's or the Bipartisan Policy Center's per-immigrant fiscal estimates, or widen its range.
 
+*Resolved* (`6-cost.md`, part 7, "Independent checks"): memo 3 holds on Penn Wharton's score [EV-IMM-660]; memo 6's per-person factor is qualified by KFF and Kaushal and Muchomba [EV-IMM-661] [EV-IMM-662], which put the central factor at the top of the supported range and would lower the memo 6 line by about $26 billion over FY2030-39 at KFF's ratio (booking unchanged, reported for the lead); memo 1 holds in sign on BPC's reading [EV-IMM-663], its size staying judgment.
+
 **W-2. E-Verify's error rates are from FY2009** [EV-IMM-391]. They carry condition (e)'s context, the burden table and section 9. They are named in "Evidence still needed". Bounded, because condition (e) measures the rate at the time; see L-4.
 
 **W-3. Search-extract quotations.** Section 3 asks the reviewer to spot-check EV-IMM-608 and 610-621 (`3-design.md:249`). Not done here (usage is tight). The fix step's Standard subagent should check them against the originals. None of them carries a section 9 figure except through EV-IMM-613 (Cato's 370,000-1.2 million wrongly flagged), which section 4 uses only in the burden table.
+
+*Resolved* (November 13): all 13 quotations and figures match their originals. Two catalog dates were wrong or loose and are fixed (Cato's Policy Analysis No. 775 is dated July 7, 2015; MPI's page shows December 2020 beside a bullet that says "as of 2021", noted in the entries). Each entry's `checked` date and context records the check.
 
 **W-4. The 30,000 cap's basis is a grade D legacy entry** [EV-IMM-571]. That is fine for a decided parameter; it is a commitment, not a claim.
 
@@ -267,6 +271,8 @@ Every number in section 9 traces to sections 1-8 (the subagent's trace is under 
 
 **E-2. Social Security. Not blocking.** "Social Security's funds gain from legalization" (`9-public-case.md:44`, and `:63`) omits E-Verify's loss to the funds, about −$42 billion over FY2030-39 (`6-cost.md:72`), and the gain for this design is not quantified. Fix: "Social Security's funds gained from legalization in the 2013 Senate bill's score; the E-Verify mandate costs them about $42 billion over ten years on our estimates."
 
+*Resolved* before this step: `9-public-case.md:46` already carries that clause (and the case's own source table lists the $42 billion); no further edit.
+
 **E-3. Smaller points.**
 - "5.3 million citizen children have a parent who would gain status" (`:55`): should be "could", since about 30% may not file and some are barred.
 - The GAO's 99% (`:35`) is for "the full-service component ... with a scheduled hearing" [EV-IMM-354]; carry that, as section 7 does.
@@ -289,6 +295,8 @@ Every number in section 9 traces to sections 1-8 (the subagent's trace is under 
   - The order of section 5's timeline rows (`5-delivery.md:79-80`) puts January 2031 before October 2030.
   - IMM-3.08's parenthesis "at the slow end of completions a judge even 250 hires a year clear" (`:127`, also `7-validation.md:32`) is garbled.
 - **C-5. Evidence records.** 64 entries' `supports` point to `2-options.md`, which does not exist (the file is `2-what-works.md`), and the registry checker does not catch it. 22 entries are cited nowhere (EV-IMM-015, 025, 038, 061, 108, 115, 143, 147, 168, 206, 306, 309, 311, 320, 352, 396, 607, 620, 625, 630, 631, 632); cite or drop them.
+
+  *Resolved* (November 13): the `supports` paths were repointed in fix steps 1-4 and all now resolve. Of the 22 uncited entries, EV-IMM-015 was already cited; 14 are now cited where they support a claim (EV-IMM-025, 038, 108, 143, 168, 206, 306, 352, 396, 620, 625, 630, 631, 632) and 7 are marked "Not relied on" in their context with the reason (EV-IMM-061, 115, 147, 309, 311, 320, 607). Nothing is deleted.
 - **C-6. The tools are outside CI.** `test_immigration_model.py` (8 tests, passing) is not run by `run-checks.sh`, so the model can drift from section 6 unseen. Add it to the check script (a `.github/` change, tier 3, for the lead), or move it with the model to `models/` at stage H.
 - **C-7. Section status lines.** Sections 4-9 read "draft (stage E, board row I4, PR 1/2)". After this review they should read "reviewed (L2); L3 after the fix steps", and the README likewise. The board's immigration row says L1, and the agenda says L2; the lead fixes the board.
 

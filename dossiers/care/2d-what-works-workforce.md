@@ -1,6 +1,6 @@
 # Care you can count on, part D (the care workforce): what works
 
-Role: section 2 of the care dossier, part D: the evidence on each lever for paying, staffing and supplying the care workforce, its strength, and where each has been tried. Status: draft (stage D, step 7). Bracketed tags point to `evidence.json`.
+Role: section 2 of the care dossier, part D: the evidence on each lever for paying, staffing and supplying the care workforce, its strength, and where each has been tried. Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README). Bracketed tags point to `evidence.json`.
 
 How strength is stated, strongest first:
 - **randomized trial**;

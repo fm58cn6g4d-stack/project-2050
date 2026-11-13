@@ -1,6 +1,6 @@
 # Transportation: the problem
 
-Role: section 1 of the transportation dossier: what is wrong with how the country pays for and runs its roads, transit and passenger rail, for whom, and how large. Status: draft (stage C, step 7). It is a conversion: the legacy design (`legacy/domains/transportation-moving-america-act-2031-draft-2.md`) stated most of these facts without sources. Each is now traced to its source or dropped, and the legacy figures superseded by newer data are noted.
+Role: section 1 of the transportation dossier: what is wrong with how the country pays for and runs its roads, transit and passenger rail, for whom, and how large. Status: reviewed at L3 (`review-milestone.md`; closed in stage C, see the README). It is a conversion: the legacy design (`legacy/domains/transportation-moving-america-act-2031-draft-2.md`) stated most of these facts without sources. Each is now traced to its source or dropped, and the legacy figures superseded by newer data are noted.
 
 Outcomes this section bears on:
 - OUT-05, clean, affordable power and a prepared country: transportation is the largest source of emissions;

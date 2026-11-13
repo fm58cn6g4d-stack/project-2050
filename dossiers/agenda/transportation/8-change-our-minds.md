@@ -1,6 +1,6 @@
 # Transportation: what would change our minds
 
-Role: section 8 of the transportation dossier. For each major choice (`DEC-2026-11-10-08`) it gives the main uncertainty, the finding that would change it with a threshold, who sees it and when, and the fallback. Status: draft (stage C, step 7, PR 3).
+Role: section 8 of the transportation dossier. For each major choice (`DEC-2026-11-10-08`) it gives the main uncertainty, the finding that would change it with a threshold, who sees it and when, and the fallback. Status: reviewed at L3 (`review-milestone.md`; closed in stage C, see the README).
 
 How triggers work: under the design lens (`DEC-2026-11-09-13`), a trigger starts a published review, not an automatic cut. The review has a deadline, and the agency that owns the program reports to Congress with a recommendation. A few hard stops are listed at the end. None of them takes service away from riders already using it.
 

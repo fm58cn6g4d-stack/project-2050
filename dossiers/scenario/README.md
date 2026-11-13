@@ -1,6 +1,6 @@
 # Political scenario
 
-Role: the project's political planning scenario: what the 2026 elections produced, what the published analysis says about why, and a framework of questions for 2027-28 and for the 2029 plan. Status: draft (stage B, step 1), as of November 8, 2026. Results are still being counted; every figure carries its date and source, and `1-results.md` lists what to recheck.
+Role: the project's political planning scenario: what the 2026 elections produced, what the published analysis says about why, and a framework of questions for 2027-28 and for the 2029 plan. Status: done for stage B (#78 to #101); its 2027-28 questions are open and not urgent (board question 0a; `3-framework-2027-28.md`, section 7). Every figure carries its date and source, and `1-results.md` lists what to recheck as counts are certified.
 
 This is not a flagship dossier, so it does not follow the nine-section template. It sits under `dossiers/` because "Where things live" (`charter/STANDARDS.md`) has no folder for scenario work and a new top-level folder would be a charter change (tier 3). Whether it should get its own row there is a question for Espen (`3-framework-2027-28.md`, question 10).
 
@@ -13,6 +13,7 @@ This is not a flagship dossier, so it does not follow the nine-section template.
 | `5-senate-2028.md` | The 2028 Senate map and history; its first-iteration estimate is superseded by `senate-model-2028.md` |
 | `senate-model-2028.md` | The seat-by-seat 2028 Senate model: inputs, scenarios, tipping points, Espen's priors tested, the Murkowski branches, and what each Senate size means for the 2029 plan (options and questions) |
 | `senate-model-outputs.md` | The tables `tools/senate_model.py --write` generates (do not edit by hand); `senate-model-fec-cash.csv` holds the FEC cash-on-hand extract |
+| `presidential-model-2028.md` | The state-by-state 2028 presidential model, linked to the Senate model through one shared national swing; exploratory arithmetic, not a forecast (`tools/presidential_2028.py`; tables in `presidential-model-outputs.md`, generated) |
 | `2030-2034-control.md` | Senate control through the 2033-34 Congress: the 2030 and 2032 classes, chained from the 2028 model |
 | `house-model-2028.md` | The 2028 House on the current maps and the 2029 trifecta, chained to the Senate model's runs (`tools/house_model.py`; tables in `house-model-outputs.md`) |
 | `house-stress-test-2029.md` | D1 stress test: a Democratic president and Senate with a Republican House; what passes, what the reconciliation slot becomes, which flagships move (analysis) |
@@ -30,11 +31,14 @@ This is not a flagship dossier, so it does not follow the nine-section template.
 | `compounding-prebuild.md` | The pre-build pipeline: for each flagship, what a 2027-28 House bill would contain, its vehicle and its lock-in risk |
 | `compounding-redistricting.md` | Redistricting through 2032: the 2028 redraws, what DEM-2 is worth in seats, who draws in 2031, the states ranked |
 | `compounding-defense.md` | The defense lock-in: three FY2028 paths and their effect on NSC-1A's 2030-39 base (script in `tools/`) |
+| `housing-by-2029-world.md` | Which parts of the housing design can move in each of three 2029 governing worlds, by which vehicle and when, and what 2027-28 can pre-build (analysis) |
+| `morning-brief.md` | A plain-language synthesis for Espen of the stage B scenario work, checked against its source files; no new modelling |
 | `memo-defense-baseline-and-dem2.md` | Decision memo for Espen: what defense is counted against in the fiscal tests; whether DEM-2 is written severable, and in what order |
 | `d1-planning-scenario.md` | The D1 in force (the planning scenario), decided as `DEC-2026-11-08-01`, with the options it was decided on |
+| `tools/` | The scripts behind the models above and their tests (`senate_model.py`, `senate_2028_sim.py`, `house_model.py`, `presidential_2028.py`, `redistricting_2030.py`, `scorecard_2027.py`, `senate_candidates_2028.py`, `backtest.py`, `backtest_extract.py`, `specials_extract.py`, `compounding-defense.py`; `test_*.py`) |
 
 **Time frame.** Under `DEC-2026-10-29-01` the plan is a governing program from January 2029. 2027-28 is one of its two labeled exceptions, and the work here on 2027-28 is that exception: it serves the 2029 plan and does not replace it.
 
-**Nothing here is decided.** No housing memo is decided and no 2029 design choice is final (`dossiers/home/3-design.md`). Changes this folder flags for `charter/` or `legacy/governing/` are tier 3 and wait for Espen.
+**Nothing here decides a design.** The files are analysis, options and questions; decided points are recorded as `DEC-` entries (for example `DEC-2026-11-08-01`), and the designs themselves are decided in each dossier. Changes this folder flags for `charter/` or `legacy/governing/` are tier 3 and wait for Espen.
 
 **Sources.** News, wire and analyst pages are licensed, so they enter the library only as citation rows (`library/catalog.csv`, `SRC-` IDs), with short quotations at most. Each figure names its source and the date it was read. Where outlets disagree, both are given.
