@@ -31,18 +31,18 @@ Updated November 13, 2026 (about 00:45 UTC) by the lead, session_01UQzgBwNea5uYV
 - **Labels and decision-log conflicts:** two tier-3 PRs that both add rows to `charter/decisions.md` conflict when the first merges, and the gate drops `espen-approved` from the second when that conflict is resolved (#310, November 13). Ask Espen to label such PRs one at a time, the next only after the first merges and the second is updated.
 - **Lead check-in:** `trig_01S1Wi1m3GphpoGYxPDe6ZJ4` (`send_later`, November 13, 01:03 UTC), re-armed every three hours. The outgoing lead's `trig_018c9dsspfuh2UnHeFTE5hWQ` is disabled.
 - **Codex** access to the repository is suspended by Espen for now (out of credits); don't reach it with PR comments until it is restored.
-- **Espen's usage:** a weekly-limit reset was used on November 12; the allowance must last until Monday at 2 am Eastern. Keep to three working sessions, lighter models for mechanical work, and follow-ups in the session that holds the context.
+- **Espen's usage:** a weekly-limit reset was used on November 12 and lasts until Monday at 2 am Eastern; about 12% was used by Thursday night, November 12. Keep working at three sessions, with lighter models for mechanical work.
 
 ## Next, in order
 
 1. The care base correction (tier 3, in progress), then Espen's label.
-2. Immigration's open items: the vote model's two-bill split for IMM-1 (memo 7 part 3); a Social Security funds line for E-Verify's −$42B; spot checks W-1, W-3 and C-5 from the milestone review (small).
-3. **Maintenance at the stage D/E boundary**, before clean power:
+2. **Clean power (flagship 4, stage E's other flagship)**, in a fresh Most capable session as soon as the care correction frees a slot (Espen, November 13: "we ofc should continue"). Same ladder as the other flagships: sections 1-3 and the decision memos first.
+3. **Maintenance, alongside clean power:**
+   - **M2, library and housing mechanics** (Standard; the lead's subagent, in progress): `library/build_catalog.py` respects reserved ID blocks; one home for CRS R48552; catalog anchors for D and E evidence entries; `packages.py`'s stale housing label.
    - **M1, dossier tidy-up** (Most capable): out-of-date status lines in every dossier README and review file (see "Known gaps"); care's one map; transportation's `6-cost.md` refreshed to #289 and #297's figures.
-   - **M2, library and housing mechanics** (Standard): `library/build_catalog.py` respects reserved ID blocks; one home for CRS R48552; catalog anchors for D and E evidence entries; `packages.py`'s stale housing label.
    - **M3, the household model rebuild, with the legacy outputs:** `models/tools/household/` from the legacy incidence model and the child-poverty microsimulation, with a model card and benchmarks (Census poverty figures, the Tax Policy Center). Move the legacy suite's reports out of `legacy/` as it replaces them. Most capable, about two or three sessions. The secure floor's 65-cent ceiling, the checkpoint's revenue options and stage G's fairness test need it. Also give INC-1 to INC-5 incidence keys (#304's open item).
-4. **Settlement checkpoint memo for Espen** (end of stage E): the plan-wide gap, the revenue options the legacy work holds, and which flagships drive the cost.
-5. Clean power (flagship 4).
+   - Immigration's open items (small): the vote model's two-bill split for IMM-1 (memo 7 part 3); a Social Security funds line for E-Verify's −$42B; spot checks W-1, W-3 and C-5 from the milestone review.
+4. **Settlement checkpoint memo for Espen** at the end of stage E, after clean power is booked: the plan-wide gap, the revenue options the legacy work holds, and which flagships drive the cost.
 
 **The financing settlement** (stage G, `charter/PLAN.md` section 6): once the first wave's designs are specified; re-run as later waves add cost, at each new CBO baseline, and before 2028.
 
