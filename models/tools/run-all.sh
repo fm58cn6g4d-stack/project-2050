@@ -28,6 +28,9 @@ echo "== 2b. vote simulation"; cp "$TOOLS"/votes-model.py "$BUILD"/; python3 vot
 echo "== 2c. calendar checks"; python3 "$TOOLS"/test_calendar.py
 echo "== 3. ledger markdown";   python3 ledger-make-md.py >/dev/null
 echo "== 4. incidence";         python3 incidence.py >/dev/null; python3 years.py >/dev/null; python3 incidence-make-md.py >/dev/null
+echo "== 4a. household model (M3: tests, then results; the legacy incidence model above still runs until part 2)"
+BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/household/test_household.py 2>&1 | tail -1
+python3 "$TOOLS"/household/run.py --ledger "$BUILD/ledger.json" --out "$BUILD/household" >/dev/null
 if [[ $FETCH == 1 ]]; then
   echo "== 5a. fetch CBO data";  python3 fiscal-data.py --fetch --cache "$DATA/cbo" --out "$BUILD/fiscal-baseline.csv"
 else
@@ -99,6 +102,8 @@ OUT=(
   'budget-benchmarks.md|models/tools/budget/benchmarks.md'
   'budget-benchmarks.json|models/tools/budget/benchmarks.json'
   'budget-model-card.md|models/tools/budget/MODEL-CARD.md'
+  'household/results.json|models/tools/household/results.json'
+  'household/results.md|models/tools/household/results.md'
   'health-coverage/results.json|models/tools/health-coverage/results.json'
   'health-coverage/results.md|models/tools/health-coverage/results.md'
   'health-coverage/MODEL-CARD.md|models/tools/health-coverage/MODEL-CARD.md'

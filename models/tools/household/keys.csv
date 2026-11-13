@@ -1,0 +1,44 @@
+key,method,base,top1,note
+wages,micro,wages,legacy,"wages and self-employment earnings of everyone in the household (CPS, aged to 2029); the top 1% share stays the legacy key's (12%): the CPS top-codes earnings and finds 9%"
+wages_cap,micro,wages_capped,micro,"earnings up to the Social Security wage base, person by person (head and spouse; dependents' earnings uncapped)"
+capital,legacy,,,"kept: the CPS top-codes and under-reports capital income and has no corporate equity holdings, so it cannot place corporate and capital taxes; CBO's capital income shares stay the key until a tax-data source is added"
+consumption,legacy,,,kept: the CPS has no consumption; the key is from the BLS Consumer Expenditure Survey pattern
+alcohol,legacy,,,kept: no consumption in the CPS
+energy,legacy,,,kept: no energy spending in the CPS
+gasoline,legacy,,,kept: no fuel spending in the CPS
+persons,micro,numper,micro,people in the household
+adults,micro,adults,micro,adults 18 and over in the household (SPM units)
+above400k,legacy,,,"kept: all in the top quintile either way; the top 1% split needs tax data, not the CPS"
+above450k,legacy,,,kept: as above400k
+above250k_wages,legacy,,,kept: as above400k
+billionaires,legacy,,,kept: as above400k
+death_gains,legacy,,,kept: as above400k
+estate,legacy,,,kept: as above400k
+inv400k,legacy,,,kept: as above400k
+enforcement,legacy,,,kept: no audit or noncompliance data in the CPS
+ftt,legacy,,,kept: no securities holdings in the CPS
+donors,legacy,,,kept: no charitable giving in the CPS
+ctc,micro,rule:afa_child_benefit,micro,"FAM-1's gain over the 2029 law, household by household: the American Family Act's credit less today's child credit and other-dependent credit (rules.py)"
+childcare,legacy,,,kept: the booked FAM-2 path's own key (care_booking.py); the CPS's child care spending is combined with work expenses
+education,legacy,,,kept: no school enrollment spending in the CPS
+meals,legacy,,,kept: the increment over today's free and reduced-price meals needs school-level data
+service,legacy,,,kept: national service take-up is not in the CPS
+housing,micro,housing,micro,housing assistance as Census values it for the SPM: today's assisted renters stand in for new awards
+aca_medicaid,micro,n_medicaid+n_marketplace,micro,people covered by Medicaid or a marketplace plan
+medicare,micro,n_medicare,micro,people covered by Medicare
+partb,micro,n_medicare,micro,people covered by Medicare (the Part B premium is per enrollee; its income-related part is ignored)
+ma,micro,n_medicare,micro,people covered by Medicare (Medicare Advantage enrollment is not in the CPS)
+public_opt,legacy,,,kept: the public option's take-up is the health coverage model's
+medicaid_ltc,legacy,,,kept: long-term care use is not in the CPS
+ltc_universal,legacy,,,kept: long-term care use is not in the CPS
+employer_cov,micro,n_employer_cov,micro,people covered by an employer plan
+ss_benefit,micro,ss,micro,Social Security benefits received
+leave_benefit,legacy,,,kept: leave-taking by earnings needs the leave model
+hh_clean,legacy,,,kept: clean-energy credit claims are not in the CPS
+workers_ai,legacy,,,kept: displacement risk is not in the CPS
+low_income_energy,micro,energy,micro,energy assistance (LIHEAP) as Census values it for the SPM
+brackets_top,legacy,,,kept: the top brackets' base is in the top quintile and needs tax data
+exclusion_cap,legacy,,,kept: employer premium amounts are not in the CPS
+surtax,micro,rule:surtax_100k,legacy,"C20's base, household by household: AGI above $100,000 ($200,000 joint) (rules.py); the top 1% share stays the legacy key's (55%): the CPS top-codes income and finds 28%"
+health_hh,legacy,,,kept: the health coverage model's own key (health_booking.py)
+exclusion_end,legacy,,,kept: the health coverage model's own key (health_booking.py)
