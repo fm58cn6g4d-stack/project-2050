@@ -1,6 +1,6 @@
 # A secure floor for every household: what would change our minds
 
-Role: section 8 of the secure floor dossier. For each decided choice, the finding that would change it and what we would do instead; the political and legal events that would force a fallback; what is left open; the hard stops; and when the evidence arrives. Status: reviewed (L2, milestone review `review-milestone.md`, #298; L3 after its fix steps and re-check), on `DEC-2026-11-12-06`. A change to a decided choice goes back to Espen; the triggers below say when to ask.
+Role: section 8 of the secure floor dossier. For each decided choice, the finding that would change it and what we would do instead; the political and legal events that would force a fallback; what is left open; the hard stops; and when the evidence arrives. Status: reviewed at L3 (milestone review `review-milestone.md`, #298; fixes #301; the booking, #304, was also the re-check), on `DEC-2026-11-12-06`. A change to a decided choice goes back to Espen; the triggers below say when to ask.
 
 ## By choice
 

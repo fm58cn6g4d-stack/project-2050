@@ -1,6 +1,6 @@
 # Dossier: A secure floor for every household (flagship 1)
 
-Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: started, stage D (board rows S1 to S4). Sections 1 and 2 are drafted, with the legacy research restated; section 3's seven memos and twelve points are **decided** (`DEC-2026-11-12-06`): every memo and point as recommended except the $2,200 floor (point 2), which Espen declined; sections 4-6 specify and price the decided set (row S4, PR 1), sections 7-9 in PR 2. Level: the decided items are at **L2** (`agenda/agenda.csv`); L3 after the milestone review's fix steps (`review-milestone.md`, #298) and its re-check. Headline: about **$2.49 trillion over FY2030-39 and $287 billion in FY2040** on the general fund, of which $2.0 trillion is booked (FAM-1, LAB-10); paid leave and Social Security are fund-financed (`6-cost.md`).
+Role: the secure floor flagship (`charter/PLAN.md` 3.1). Status: specified and booked (L3), stage D (board rows S1 to S4). Sections 1 and 2 are drafted, with the legacy research restated; section 3's seven memos and twelve points are **decided** (`DEC-2026-11-12-06`): every memo and point as recommended except the $2,200 floor (point 2), which Espen declined. Sections 4-9 specify, price and validate the decided set, with the milestone review's fix steps applied (`review-milestone.md`, #298; fixes #301) and Espen's answers to its questions (`DEC-2026-11-12-13` to `-16`). Level: the decided items are at **L3** in `agenda/agenda.csv`, the alternatives and options at L1-L2; the booking (#304) was also the L3 re-check. Espen chose option D on the 65-cent ceiling (`DEC-2026-11-13-03`, #330). Booked in the budget model (#304, #330): about **$2.63 trillion over FY2030-39 and $303 billion in FY2040** on the general fund (`6-cost.md`, part 6); paid leave and Social Security are fund-financed. The 65-cent ceiling is now met in every checked case but one, the married couple on the 2030-34 marketplace with rent (65.9 cents), which is monitored.
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly):
 - a monthly child benefit;
@@ -72,12 +72,12 @@ Decided programs are cited by their `DEC-` entries. Programs in dossiers not yet
 | 1. The problem | `1-problem.md`: child poverty and who the current credit misses; income support's holes; paid leave access; Social Security's depletion date and what happens then; the stacked phase-outs; the January 2029 baseline | Draft (S2) |
 | 2. What works | `2-what-works.md`: the 2021 expanded credit (poverty and the contested employment evidence), Canada's child benefit, cash trials, the earned income credit literature; state paid leave programs and the research; Social Security's anti-poverty record, minimum benefits, caregiver credits, solvency packages; coordinating phase-outs at home and abroad; each against the bills | Draft (S2) |
 | 3. Design choices | `3-design.md` and `memos/` (seven memos and twelve yes-or-no points, index in `memos/README.md`) | Decided (`DEC-2026-11-12-06`) |
-| 4. Specification | `4-specification.md`, with `provisions.json` (FAM-1.01-1.11, INC-1 to INC-5, LAB-10.01-10.05, FAM-3.01-3.08, SS-1.01-SS-11.01) | Draft (S4) |
-| 5. Delivery | `5-delivery.md` | Draft (S4) |
-| 6. Cost | `6-cost.md`, with `tools/afa_floor.py` (the child benefit against the 2029 law on the CPS file) and `tools/secure_floor_path.py` (the fiscal-year path); the child-poverty re-run on the decided design | Draft (S4) |
-| 7. Validation | `7-validation.md` | Draft (S4, PR 2) |
-| 8. What would change our minds | `8-change-our-minds.md` | Draft (S4, PR 2) |
-| 9. The public case | `9-public-case.md` | Draft (S4, PR 2) |
+| 4. Specification | `4-specification.md`, with `provisions.json` (FAM-1.01-1.11, INC-1 to INC-5, LAB-10.01-10.05, FAM-3.01-3.08, SS-1.01-SS-11.01) | Reviewed at L3, booked |
+| 5. Delivery | `5-delivery.md` | Reviewed at L3, booked |
+| 6. Cost | `6-cost.md`, with `tools/afa_floor.py` (the child benefit against the 2029 law on the CPS file) and `tools/secure_floor_path.py` (the fiscal-year path); the child-poverty re-run on the decided design | Reviewed at L3, booked |
+| 7. Validation | `7-validation.md` | Reviewed at L3 |
+| 8. What would change our minds | `8-change-our-minds.md` | Reviewed at L3 |
+| 9. The public case | `9-public-case.md` | Reviewed at L3 |
 
 ## Files and ID ranges
 
@@ -112,7 +112,7 @@ From `dossiers/shared-rules.md`; this dossier proposes answers in section 3 and 
 
 ## What S3 needs from the household model
 
-The household model (`charter/PLAN.md` 3.4, `MOD-household`) is not built yet; it unifies the incidence model (`models/tools/incidence-model.py`) and the child-poverty microsimulation (`models/tools/child-poverty/`), which has no model card. No model code is written in this step. S3's memos will need from it:
+The household model (`charter/PLAN.md` 3.4, `MOD-household`) is not built yet; it unifies the incidence model (`models/tools/household/d3.py`) and the child-poverty microsimulation (`models/tools/child-poverty/`), which has no model card. No model code is written in this step. S3's memos will need from it:
 1. **Combined phase-out rates by family type**: cents lost per added dollar for a single parent with two children, a married couple with two children and a single adult, at 50% to 300% of the poverty line, with each layer shown (taxes, the child credit, the earned income credit, SNAP, housing, health premiums in 2029-34, child care's 7% cap). Section 1, part E gives the statutory rates by hand; the model gives the distribution and the share of families at each rate.
 2. **Child poverty and deep poverty under each child-benefit option** (FAM-1A to 1D and any new one) on the Supplemental Poverty Measure, with take-up shown and without any employment response, then with the range the employment literature supports (section 2, part A).
 3. **Who the current credit misses and who each option reaches**: children below the full credit, children excluded by the Social Security number rule, non-filers.
