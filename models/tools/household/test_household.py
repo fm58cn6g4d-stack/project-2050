@@ -124,6 +124,30 @@ class Baseline(unittest.TestCase):
                 self.assertLessEqual(t1, sh[4] + 1e-9, msg=k)              # the top 1% sits inside Q5
 
 
+class SnapLaw(unittest.TestCase):
+    """P.L. 119-21's SNAP changes (snap2025.py, A-8)."""
+
+    def test_source_year_untouched_and_2029_calibrated(self):
+        import snap2025
+        b25 = baseline(2025)
+        self.assertFalse(b25["snap_law"]["applied"])
+        self.assertTrue(all(s["snap"] == s["snap_prior_law"] for s in b25["spm"]))
+        b = baseline(2029)
+        sl = b["snap_law"]
+        self.assertTrue(sl["applied"])
+        for k, v in sl["probabilities"].items():
+            self.assertTrue(0 < v <= 1, k)
+        # the people losing benefits are CBO's 2.4 million as a share of USDA's participants, on the CPS's base
+        cps_people = sum(s["w_people"] for s in b["spm"] if s["snap_prior_law"] > 0)
+        share = sl["people_losing_m"] * 1e6 / cps_people
+        self.assertAlmostEqual(share, 2.4e6 / snap2025.USDA_PARTICIPANTS_FY2025, delta=0.002)
+        # CBO's sections imply about 7% (work rule) plus about 2.6% (energy, internet) of benefits
+        self.assertTrue(8 <= sl["cut_pct"] <= 12, sl["cut_pct"])
+        self.assertTrue(all(s["snap"] <= s["snap_prior_law"] + 1e-9 for s in b["spm"]))
+        self.assertGreaterEqual(rates(b["spm"])["all"]["rate"],
+                                rates(baseline(2029, snap_law=False)["spm"])["all"]["rate"])
+
+
 class Rules(unittest.TestCase):
     def test_afa_no_earnings(self):
         L = law(2029)

@@ -18,6 +18,7 @@ from collections import defaultdict
 from data import load
 from params import law
 from tax import unit_tax
+import snap2025
 
 CASH_TRANSFERS = ("ss", "ssi", "tanf", "uc", "vet")
 NONCASH = ("snap", "housing", "school_lunch", "wic", "energy")
@@ -34,11 +35,13 @@ def cash_income(u):
             + u["dep_other_income"])
 
 
-def baseline(year=2029, takeup="census"):
+def baseline(year=2029, takeup="census", snap_law=True):
     """`takeup='census'` withholds refundable credits from units the Census tax model marks as nonfilers
-    (assumption A-6); `takeup='full'` pays every unit its statutory credits."""
+    (assumption A-6); `takeup='full'` pays every unit its statutory credits. `snap_law=False` keeps SNAP at prior law
+    (the survey's own rules), for comparison with P.L. 119-21's changes (`snap2025.py`, A-8)."""
     L = law(year)
     units, spm, hhs = load(year)
+    snap_summary = snap2025.apply(spm, year if snap_law else 2025)
     units25 = load(2025)[0] if year != 2025 else units
     by_spm = defaultdict(list)
     for u, u25 in zip(units, units25):
@@ -95,4 +98,4 @@ def baseline(year=2029, takeup="census"):
         h["federal_tax"] = h["income_tax"] + h["payroll"]
         h["net"] = h["cash"] + sum(h[k] for k in NONCASH) - h["income_tax"] - (h["payroll"] - h["payroll_er"]) - h["state_tax"]
         h["size_adjusted"] = h["expanded"] / max(h["numper"], 1) ** 0.5
-    return {"year": year, "law": L, "units": units, "spm": spm, "households": hhs}
+    return {"year": year, "law": L, "units": units, "spm": spm, "households": hhs, "snap_law": snap_summary}

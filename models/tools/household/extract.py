@@ -43,6 +43,7 @@ PERSON_COLS = [
     "SPM_TOTVAL", "SPM_SNAPSUB", "SPM_CAPHOUSESUB", "SPM_SCHLUNCH", "SPM_WICVAL", "SPM_ENGVAL",
     "SPM_FEDTAX", "SPM_FEDTAXBC", "SPM_EITC", "SPM_ACTC", "SPM_FICA", "SPM_STTAX", "SPM_CAPWKCCXPNS",
     "SPM_MEDXPNS", "SPM_CHILDSUPPD", "SPM_POOR", "SPM_TENMORTSTATUS",
+    "HRSWK", "WKSWORK", "PRDISFLG",
 ]
 HH_COLS = ["H_SEQ", "HSUP_WGT", "GESTFIPS", "H_NUMPER", "H_TENURE"]
 
@@ -58,7 +59,8 @@ SPM_FIELDS = [
     "spm", "hh", "weight", "numper", "numkids", "numadults", "threshold", "resources", "totval", "snap",
     "housing", "school_lunch", "wic", "energy", "fedtax", "fedtax_bc", "eitc", "actc", "fica", "sttax",
     "work_childcare", "medical", "child_support_paid", "poor", "tenure",
-    "w_people", "w_children", "w_18_64", "w_65"]
+    "w_people", "w_children", "w_18_64", "w_65",
+    "n_abawd_prior", "n_abawd_55_64", "n_parent_child14", "elderly_or_disabled"]
 HH_FIELDS = ["hh", "weight", "state", "numper", "tenure", "w_people"]
 
 
@@ -112,6 +114,28 @@ def build(archive):
         u = spm[s]; w = i(p["MARSUPWT"]) / 100; a = i(p["A_AGE"])
         u["w_people"] += w
         u["w_children" if a < 18 else ("w_65" if a >= 65 else "w_18_64")] += w
+
+    # SNAP's work rule (P.L. 119-21 sec. 10102), counted per SPM unit: adults not disabled who worked under 20 hours
+    # a week on average last year, by the group the rule reaches (`snap2025.py`)
+    members = defaultdict(list)
+    for ps in people.values():
+        for p in ps:
+            members[i(p["SPM_ID"])].append(p)
+    for sid, ms in members.items():
+        ages = [i(p["A_AGE"]) for p in ms]
+        kids = [a for a in ages if a < 18]
+        u = spm[sid]
+        u["n_abawd_prior"] = u["n_abawd_55_64"] = u["n_parent_child14"] = 0
+        u["elderly_or_disabled"] = int(any(a >= 60 for a in ages) or any(i(p["PRDISFLG"]) == 1 for p in ms))
+        for p, a in zip(ms, ages):
+            if i(p["PRDISFLG"]) == 1 or not 18 <= a <= 64:
+                continue
+            if max(i(p["HRSWK"]), 0) * max(i(p["WKSWORK"]), 0) / 52 >= 20:
+                continue
+            if not kids:
+                u["n_abawd_prior" if a <= 54 else "n_abawd_55_64"] += 1
+            elif min(kids) >= 14:
+                u["n_parent_child14"] += 1
 
     units = []
     for (hh, tid), ps in people.items():
