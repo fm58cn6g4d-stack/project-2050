@@ -1,0 +1,1227 @@
+Source: https://media.rff.org/documents/WP_22-3_-_Fiscal_Implications.pdf
+Publisher: Resources for the Future
+Retrieved: 2026-11-13
+Original SHA-256: 3904dbde0f0381f25bbf974a662d242455ce5560b6f3a5937d659a6f8974c798
+Rights: CC BY-NC-ND 4.0
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+The Fiscal Implications of
+the US Transition away from
+Fossil Fuels
+Daniel Raimi, Emily Grubert, Jake Higdon, Gilbert Metcalf, Sophie Pesek and
+Devyani Singh
+
+Working Paper 22-3
+January 2022
+
+About the Authors
+Daniel Raimi is a fellow at Resources for the Future and a lecturer at the Gerald R.
+Ford School of Public Policy at the University of Michigan. He works on a range of
+energy policy issues with a focus on tools to enable an equitable energy transition.
+The Fracking Debate, his first book, combines stories from his travels to dozens of
+oil and gas producing regions with a detailed examination of key policy issues, and is
+published by Columbia University Press as part of the Columbia University Center on
+Global Energy Policy book series (www.thefrackingdebate.com).
+Emily Grubert studies how we can make better decisions about large infrastructure
+systems, with a particular focus on societal priorities and energy and water systems
+in the US. Her major methods include life cycle assessment and interview and survey
+research. Grubert is an Assistant Professor of Civil and Environmental Engineering and,
+by courtesy, of Public Policy at the Georgia Institute of Technology. She holds a Ph.D. in
+Environment and Resources from Stanford University.
+Jake Higdon is the manager of US Climate Policy at Environmental Defense Fund.
+He works to research, analyze, and develop federal climate policy to enable an
+equitable transition to a low-carbon economy. His particular areas of focus include
+clean manufacturing; policies to accelerate technological innovation, including carbon
+dioxide removal technologies; and ensuring fairness for workers and communities
+negatively impacted by the shift off fossil fuels.
+Gilbert Metcalf is the John DiBiaggio Professor of Citizenship and Public Service and
+a Professor of Economics at Tufts University. In addition, he is a Research Associate at
+the National Bureau of Economic Research and a University Fellow at Resources For
+the Future. Metcalf’s primary research area is applied public finance with particular
+interests in taxation, energy, and environmental economics. His current research
+focuses on policy evaluation and design in the area of energy and climate change. His
+book, Paying for Pollution: Why a Carbon Tax is Good for America, was published by
+Oxford University Press in 2019.
+Sophie Pesek is a research analyst at RFF.
+Devyani Singh is currently a postdoctoral economist fellow at the Environmental
+Defense Fund. She was a postdoctoral fellow at Harrisburg University of Science and
+Technology when this work was done. Her current research focuses on the role of
+natural climate solutions in climate mitigation, and energy access and transition.
+
+Acknowledgements
+Funding for this work was provided by the Environmental Defense Fund. We would like
+to thank Amanda Wolfe from the Alabama Department of Revenue, Marina
+
+Resources for the Future
+
+i
+
+Voskanian at the California State Lands Commission, Efrain Ibarra from the New
+Mexico Department of Revenue, Teresa Wood from the Oklahoma Tax Commission,
+Bill Oberkehr and Jamie Dickerson of the New York State Energy and Research
+Development Authority, Massachusetts State Senator Michael Barrett, and the public
+servants who assisted our data gathering efforts from the Arkansas Commissioner
+of State Lands, the California Board of Equalization, the Colorado Department of
+Revenue, the Kansas Department of Revenue, the Ohio Department of Natural
+Resources, the Pennsylvania Department Conservation and Natural Resources, the
+Texas Comptroller’s Office, the Virginia Department of Revenue, the West Virginia
+Department of Revenue, and the Wyoming Department of Transportation. We would
+also like to Mark Haggerty of the Center for American Progress, Rob Godby at the
+University of Wyoming, Adele Morris at the Brookings Institution, Arvind Ravikumar at
+the University of Texas-Austin, Billy Pizer at RFF, and participants in a 2020 “work-inprogress” seminar at Resources for the Future for helpful conversations and comments
+on earlier drafts.
+
+About RFF
+Resources for the Future (RFF) is an independent, nonprofit research institution in
+Washington, DC. Its mission is to improve environmental, energy, and natural resource
+decisions through impartial economic research and policy engagement. RFF is
+committed to being the most widely trusted source of research insights and policy
+solutions leading to a healthy environment and a thriving economy.
+Working papers are research materials circulated by their authors for purposes of
+information and discussion. They have not necessarily undergone formal peer review.
+The views expressed here are those of the individual authors and may differ from those
+of other RFF experts, its officers, or its directors.
+
+Sharing Our Work
+Our work is available for sharing and adaptation under an AttributionNonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. You
+can copy and redistribute our material in any medium or format; you must give
+appropriate credit, provide a link to the license, and indicate if changes were made,
+and you may not apply additional restrictions. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your use.
+You may not use the material for commercial purposes. If you remix, transform, or
+build upon the material, you may not distribute the modified material. For more
+information, visit https://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+ii
+
+Abstract
+Achieving greenhouse gas reduction goals requires curtailing coal, oil, and natural
+gas production and consumption. However, these fuels are major revenue sources for
+governments. Here we develop a novel estimate of the revenues generated by fossil
+fuels for all governments in the United States, then estimate how those revenues
+change under three stylized scenarios through 2050: Business-as-usual, 2°Celsius,
+and 1.5°Celsius. We estimate that fossil fuels generate $138 billion annually for US
+governments, and that these revenues are likely to decline even in the absence of new
+climate policy. Taxes on petroleum product sales (e.g., gasoline taxes) are the largest
+source and decline under all scenarios. Revenues from oil and gas production (e.g.,
+severance taxes, federal and state royalties) are the second largest and are relatively
+stable under the BAU and 2°C Scenarios but decline rapidly under the 1.5°C scenario.
+Under all scenarios, revenues from coal production decline rapidly, approaching zero by
+2040 under the 1.5°C and 2°C scenarios. Although revenue losses are substantial under
+these scenarios, we do not view them as justification to delay action on emissions
+mitigation. Instead, they highlight the need to address revenue shortfalls, which will
+be concentrated in certain regions, alongside policies to deeply reduce emissions. The
+policy tools to accomplish both goals are relatively straightforward but implementing
+them will require overcoming considerable political challenges.
+
+Resources for the Future
+
+iii
+
+Contents
+1. Introduction
+
+1
+
+2. Social Science Research into Just Transitions
+
+2
+
+3. Historical US Fossil Fuel Revenues 
+
+5
+
+4. Projected Fossil Fuel Revenues under Three Scenarios
+
+11
+
+5. Options for Replacing Revenue 
+
+14
+
+5.1. Energy-Related Fiscal Options
+
+14
+
+5.2. Broader Fiscal Policy Options
+
+16
+
+6. Conclusion
+
+18
+
+7. References
+
+19
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+iv
+
+1. Introduction
+As the world seeks to deeply reduce emissions to prevent the worst consequences
+of climate change, the production and consumption of all fossil fuels—coal, oil, and
+natural gas—will need to decline (National Academies of Sciences 2021). A large body
+of research has arisen to examine the equity implications of the transition to cleaner
+energy sources (Carley and Konisky 2020), and political discourse has focused on the
+potential employment effects of a shift away from fossil fuels (Weber 2020; IEA 2021).
+However, little research and even less public attention have been devoted to the
+sizable implications of the energy transition for government finances and fiscal
+policies. In the United States and dozens of other nations, fossil fuels are a major
+source of revenue, supporting public services at every level of government. And
+although these fuels are often subsidized, primarily through the failure to appropriately
+price externalities (Coady et al. 2019), their contributions to government coffers remain
+considerable.
+For certain fuels and geographies, such as coal in West Virginia or oil in Alaska, fossil
+fuel revenues have already declined substantially, even in the absence of robust
+climate policy. As society seeks to achieve a “Just Transition,” addressing the revenue
+shortfalls that arise from the reduction in fossil energy will be critical, particularly for
+the rural communities where such activities are highly concentrated. Well-designed
+policies can address this challenge but require a credible estimate of the scale of
+revenue derived from fossil fuels.
+In this paper, we develop such an estimate by gathering data from hundreds of
+sources that detail revenues from coal, oil, and natural gas production, transportation,
+processing, and consumption for every level of government in the United States.
+We then use three stylized energy policy scenarios to provide a general estimate for
+how these revenues may change in the future. Finally, we identify a range of policy
+instruments to replace declining fossil fuel revenues and discuss their relative merits.
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+1
+
+2. Social Science Research into Just
+Transitions
+Scholars from a wide range of fields have examined the implications of the energy
+transition, often using the term Just Transition. This term, initially developed in the
+1990s as part of the US labor movement (Just Transition Centre 2017), has broadened
+considerably to reflect the overarching goal of distributing the benefits and costs
+of the energy transition so as not to disproportionately burden certain segments of
+society (Carley and Konisky 2020).
+Existing research provides strong evidence that today’s energy system is far from just.
+Researchers have examined the distributional effects of environmental policies across
+many dimensions, often finding that these policies disproportionately benefit wealthier
+households (Borenstein and Davis 2016; Deryugina et al. 2019; Lamb et al. 2020). One
+growing area of Just Transition research relates to the notion of “energy justice,” which
+builds on the environmental justice framework (Mohai et al. 2009; Banzhaf et al. 2019)
+and finds that communities of color often face disproportionately high energy costs
+due in part to a legacy of discriminatory housing policy (Reames 2016; Lyubich 2020;
+Chen et al. 2020).
+Our analysis fits most neatly into the stream of research focused on the implications
+of the energy transition for communities that rely heavily on coal, oil, or natural
+gas systems as a driver of local economic activity. This work also spans a range
+of disciplines, including ethnographic work that seeks to understand how coal
+extraction shapes community and individual identity (Bell 2009; Bell and York 2010),
+survey-based research that assesses support for Just Transition policies in fossil
+fuel–producing communities (Mayer 2018; Cha et al. 2019), and interview-based
+research that examines perceptions of the energy transition among residents of coal
+communities (Carley et al. 2018).
+The Just Transition topic that receives perhaps the most attention from policymakers
+and the media can be summed up in one word: jobs. Advocates of a rapid shift away
+from fossil fuels highlight the potential for job growth in emerging sectors (American
+Clean Power 2021); opponents highlight the risks for coal, oil, and natural gas workers
+(American Petroleum Institute 2017). Although numerous engineering studies have
+estimated that a rapid transition to clean energy would lead to a net increase in energy
+sector employment (Wei et al. 2010; Lehr et al. 2012; Larson et al. 2020; Pai et al. 2021),
+they do not address the distributional challenges for communities where those jobs are
+concentrated. In a recent article, Weber (2020) addresses the challenges faced by coal
+communities, finding that that each lost coal mining job reduced county-level income
+by $100,000 annually, that many who lost their jobs did not relocate and remained
+unemployed, and that these job losses exacerbated income disparities across counties.
+Although it has received much less attention from policymakers, the fiscal effects of
+the energy transition may be of similar, or even greater, significance as job gains and
+losses. For decades, scholars have understood the importance of fiscal policies as a
+
+Resources for the Future
+
+2
+
+tool to combat the potential “resource curse” associated with extractive industries
+globally (Sachs and Warner 2001; Humphreys et al. 2007; Ross 2015), and resource
+revenues have enabled the growth of sovereign wealth funds in Norway, Saudi Arabia,
+and other nations (van den Bremer et al. 2016).
+One principle that has emerged in the US context is that governments may be able
+to improve long-term economic outcomes by capturing resource rents and investing
+them in savings funds and the promotion of new economic sectors (Gunton 2003;
+Ryser et al. 2018), thereby diversifying local economies and tax bases. Although the
+concept is well understood among researchers, few US governments have taken steps
+to invest resource wealth in permanent funds that can support future government
+spending (notable exceptions include Alaska, New Mexico, Wyoming, and the Southern
+Ute Indian Tribe) or economic diversification. Yet even for those governments that
+have invested in permanent funds, a rapid energy transition poses considerable fiscal
+risk.
+What is the scale of this fiscal risk? No previous work has sought to answer this
+question at a national scale, but several recent analyses can help orient us. Newell
+and Raimi (2018a) estimate that in 2013, oil and gas production generated $28 billion
+for state and local governments, with most revenues being spent rather than saved.
+Morris et al. (2021) take a case study approach, describing several counties where coal
+contributes one-third or more to local budgets, and highlight the fiscal risk not just
+for local governments but also for holders of municipal debt. Marchand and Weber
+(2020) demonstrate that oil and gas production growth in Texas tripled local tax bases
+and increased school revenue (although teacher retention and student achievement
+declined). And Smith et al. (2021) quantify how $2 billion in annual revenues from fossil
+fuel extraction on federal lands flows to states and local governments.
+Numerous case studies examine economic, fiscal, and planning challenges for coalfired power plant communities in the rural West (J.H. Haggerty et al. 2018; K. Roemer
+et al. 2021; K. Roemer and Haggerty 2021), Appalachian Ohio (Jolley et al. 2019), and
+West Virginia (Morris et al. 2021). This work has pointed out the lack of planning for an
+energy transition and highlighted fiscal risk as a concern, particularly for rural regions.
+But how might current or future policy affect revenues for governments dependent
+on fossil fuels? Just three recent studies (none of which has yet been published in
+peer-reviewed journals) have estimated these effects at a large scale. Considine
+(2020) estimates that restrictions on federal lands leasing in eight western states
+would reduce state and local revenues by $1.6 billion to $2 billion annually, with effects
+growing over time. However, these estimates are calculated against a baseline that
+includes very optimistic assumptions about future production on federal lands, notably
+in northern Alaska.
+A more detailed modeling effort from Prest (2021) includes onshore and offshore oil
+and gas development and accounts for the potential for drilling activity to spill over
+from federal to state or private lands. He estimates that a federal leasing ban would
+reduce federal, state, and local revenues by around $5 billion annually.
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+3
+
+The most similar analysis to this paper comes from Barro et al. (2021), which estimates
+the changes in K-12 school funding in the state of Texas through 2050 under different
+oil and natural gas price scenarios. They find average annual revenue shortfalls of $2.5
+billion across these scenarios, reaching $5.8 billion annually under the lowest price
+scenario, but note that these gaps are a small percentage of total K-12 funding in the
+state. They also highlight revenue replacement options, including taxes on general
+sales, marijuana, and gaming.
+In the following section, we develop the first nationwide estimate of the contribution
+from fossil fuels to public finances in the United States over roughly the past five years.
+
+Resources for the Future
+
+4
+
+3. Historical US Fossil Fuel Revenues
+We begin by estimating annual average public revenues between 2015 and 2020 from
+coal, oil, and natural gas production for the federal government, tribes, and state and
+local governments in 21 states: Alaska, Alabama, Arkansas, California, Colorado, Illinois,
+Indiana, Kansas, Kentucky, Louisiana, Mississippi, Montana, New Mexico, North Dakota,
+Ohio, Oklahoma, Pennsylvania, Texas, Utah, West Virginia, and Wyoming. In 2019, these
+states, along with federal and tribal lands and waters, accounted for 99.8, 99.5, and 97.3
+percent of US oil, natural gas, and coal production, respectively. We include revenues
+from severance taxes, lease revenues from public lands and waters, property taxes on
+fossil energy production property, income taxes from individuals and businesses in
+relevant sectors, and sales taxes applied to mining sector purchases.
+Revenues from other fossil fuel sources, such as petroleum product taxes and property
+taxes applied to oil and gas pipelines, oil refineries, and fossil fuel–fired power plants,
+are collected in all states, not just the 21 states identified above. For that reason, we
+estimate these revenues for all 50 states and the federal government. Publicly available
+revenue data from tribes are very limited, although we were able to gather data from
+the Navajo Nation, the largest tribe in the United States by land area and membership
+(Associated Press 2021). Table 1 provides an overview of the revenue sources included
+here, with details in the Appendix.
+
+Table 1. Major Coal, Oil, and Gas Revenue Sources
+Revenue source
+
+Coal
+
+Oil
+
+Gas
+
+Primary recipient(s)
+
+Severance taxes
+
+States, some tribes
+
+Production on public lands
+
+Federal, tribes, states
+
+Property taxes
+
+Local, some tribes
+
+Production property
+Pipelines
+Refineries
+Power plants
+Petroleum product taxes
+
+States, federal, some tribes
+
+Sales taxes
+
+Local, states, some tribes
+
+Income taxes (corporate
+and personal)
+
+States, federal
+
+Note: Tribal tax policies are complex and vary widely. In general, tribes do not levy income taxes, though some impose severance
+taxes (or share revenue with states), sales taxes, and petroleum product taxes; the Navajo Nation’s possessory interest tax
+functions similarly to a property tax. Revenue from production on tribal lands is generally collected by the federal government
+and distributed to tribes and tribal members.
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+5
+
+On average from 2015 through 2020, we estimate that coal, oil, and natural gas
+generated $138 billion annually for localities, states, tribes, and the federal government.
+The largest sources were petroleum product excise taxes, which generated $48 billion
+for states and $40 billion for the federal government annually. Upstream oil and gas
+development generated $34 billion annually, led by $14 billion from production on
+federal, tribal, and state lands and waters; $11 billion from state severance taxes; and $6
+billion from local property taxes. For the remainder of this analysis, we use the terms
+“upstream” to refer to extraction and initial processing, “midstream” for long-distance
+transportation and refining, and “downstream” for marketing and consumption,
+including at power plants.
+We estimate that the midstream oil and gas segment generated $8 billion annually, with
+roughly $4 billion from property taxes on refineries and pipelines, and $4 billion from
+state and federal income taxes. Upstream coal generated roughly $3 billion annually,
+led by public lands leasing ($1.2 billion) and state severance taxes ($0.9 billion). Finally,
+we estimate that fossil fuel–fired power plants and natural gas distribution pipelines
+generated $2 billion and $1 billion annually in local property taxes, respectively.
+Although these figures may appear small relative to larger sources, they can play a
+major role for local tax bases, particularly in rural communities (J.H. Haggerty et al.
+2018).
+
+Figure 1. Annual Average Fossil Fuel Government Revenue, 2015-2019 ($2019 billions)
+
+Source: Authors. “Other” includes corporate income, personal income, and sales taxes, along with the federal coal excise tax and
+local property taxes on natural gas distribution. Tribal petroleum product fees are for the Navajo Nation only and average $14
+million annually.
+
+Resources for the Future
+
+6
+
+Among the 21 states where coal, oil, and natural gas production is concentrated,
+dependence on fossil fuel revenue varies widely. In absolute terms, the states with
+the highest levels are Texas, California, and Pennsylvania, with petroleum product
+taxes dominating in California and Pennsylvania. However, Wyoming, North Dakota,
+Alaska, and New Mexico are the most dependent on fossil fuel revenues by a variety
+of measures. In Wyoming, government revenues from fossil fuels average more than
+$7,000 annually for each resident and account for more than half of all state and local
+own-source revenue.
+North Dakota, which has experienced a major boom in oil and natural gas production
+over roughly the past decade, is the second most dependent state by these measures,
+with fossil fuels generating nearly $4,000 in government revenue per capita. These
+revenues have been accompanied by considerable fiscal challenges for localities
+experiencing rapid population growth and the need for enhanced public services,
+leading rural counties and small cities to take on hundreds of millions of dollars in new
+debt (Newell and Raimi 2018b).
+In Alaska, fossil fuel revenue has been extremely volatile, driven by oil prices and
+exacerbated by state tax policies. These policies, which include tax credits to
+incentivize new investment, have resulted in oil severance tax revenues ranging from
+roughly $7 billion in 2012 to a loss of $50 million in 2016 (all figures in 2019 dollars).
+On average from 2015 through 2019, oil severance tax revenues in the state averaged
+roughly $400 million.
+New Mexico, the third most dependent state by our measures, has also experienced
+considerable volatility, with strong growth in oil and natural gas revenues over the past
+five years. The state contributes revenue from oil and natural gas production on state
+lands to a permanent fund worth more than $20 billion to support future government
+services, leading some to refer to the state as implementing “model fiscal policy” (M.
+Haggerty 2021).
+West Virginia, the fifth most dependent state, differs from the previous four in that
+it does not invest any fossil fuel revenue into permanent funds. The state’s coal
+severance tax revenue has fallen from more than $600 million in 2011 to less than $200
+million in 2020. Revenues from oil and natural gas production have been volatile, rising
+from less than $100 million in 2010 to nearly $250 million in 2015, then falling to roughly
+$125 million in 2020.
+The other states with high dependence on fossil fuel revenues include Montana,
+Oklahoma, Louisiana, Texas, and Colorado. Within these states, there is wide variation
+in local government dependence on fossil fuel revenue. For example, although Texas
+has diversified its economy considerably over the past several decades (Slijik and
+Phillips 2021), dozens of counties in parts of South and West Texas remain heavily
+dependent on oil and natural gas production to support local services (Newell and
+Raimi 2015).
+For the above-mentioned states, Table 2 reports total fossil fuel revenue, revenue per
+capita, and revenue as a share of state and local own-source revenue.
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+7
+
+Table 2. State and Local Fossil Fuel Revenues, by State, 2015-2019 Average ($2019)
+Total government fossil revenue
+(millions)1
+
+Per capita government fossil revenue2
+
+Government fossil revenue as share of
+state and local own-source
+revenue (%)3
+
+Texas
+
+$14,591
+
+Wyoming
+
+$7,339
+
+Wyoming
+
+59
+
+California
+
+$7,823
+
+North Dakota
+
+$3,854
+
+North Dakota
+
+31
+
+Pennsylvania
+
+$4,422
+
+Alaska
+
+$2,713
+
+Alaska
+
+21
+
+Wyoming
+
+$4,264
+
+New Mexico
+
+$1,303
+
+New Mexico
+
+15
+
+North Dakota
+
+$2,917
+
+West Virginia
+
+$698
+
+West Virginia
+
+9.4
+
+New Mexico
+
+$2,726
+
+Montana
+
+$613
+
+Montana
+
+7.9
+
+Ohio
+
+$2,563
+
+Oklahoma
+
+$550
+
+Oklahoma
+
+7.7
+
+Louisiana
+
+$2,518
+
+Louisiana
+
+$540
+
+Louisiana
+
+7.2
+
+Oklahoma
+
+$2,163
+
+Texas
+
+$516
+
+Texas
+
+7.0
+
+Alaska and
+Colorado
+
+$2,000
+
+Colorado
+
+$356
+
+Colorado
+
+4.1
+
+Notes:
+1. Includes petroleum product taxes.
+2. Fossil fuel revenues divided by state population from the 2017 US Census.
+3. Fossil fuel revenues divided by total state and local own-source revenues (US Census Bureau 2020), which consist of all local
+and state internal revenue (i.e., excludes intergovernmental transfers) averaged from 2015 to 2019.
+
+Fossil fuels contribute to state and local government revenues even in states without
+significant coal, oil, or natural gas production. Consider Hawaii, a state with no fossil
+fuel production. There, petroleum product taxes contribute more than $80 million
+annually, and we estimate that natural gas distribution pipelines and fossil fuel–fired
+power plants contribute an additional $35 million per year.
+Figure 2 illustrates our estimates for all US states (tribal nations are not shown because
+of data limitations) and groups revenues by energy type, aggregated across upstream,
+midstream, and downstream phases. As noted above, Texas and California collect the
+largest amounts of fossil fuel revenues, but some unexpected states, such as Florida,
+New York, North Carolina, and Washington State also collect substantial revenues
+driven by petroleum product taxes.
+
+Resources for the Future
+
+8
+
+Figure 2. Annual Average Fossil Fuel Government Revenue, 2015-2019 ($2019 billions)
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+9
+
+Some local governments in states with little or no production depend heavily on large
+facilities that process or consume fossil fuels. For example, oil refineries are major
+sources of property tax revenue for some local governments in Michigan, Minnesota,
+and New Jersey. Coal- and natural gas–fired power plants are important local revenue
+sources in dozens of communities across the nation, and hundreds of counties and
+municipalities receive revenue from oil and natural gas transmission and distribution
+networks. At a statewide level, these sources may be small on a per capita basis, but at
+the local level, they can represent a sizable share of the tax base. For example, one oil
+refinery in Will County, Illinois (adjacent to Chicago), represented more than $1 billion
+in market value and paid more than $26 million in property taxes in 2020 (Will County
+Supervisor of Assessments Office 2021).
+In summary, we find that fossil fuels are a large contributor to public finances across
+the United States. Revenues are concentrated in certain states but are important
+across the nation. Our figures represent the most comprehensive estimates of US fossil
+fuel revenues to date, but they are not complete. As we describe in the Appendix, we
+were unable to gather or credibly estimate revenues from several sources, particularly
+state and local income and sales taxes. We also have very limited data on tribal
+revenues. The Navajo Nation was the only fossil fuel–producing tribe we identified
+that publishes relatively detailed revenue data. Future research could improve on our
+estimates by incorporating additional data, although some data limitations will likely
+persist.
+Next, we generate estimates for how fossil fuel revenues change under three stylized
+scenarios through 2050.
+
+Resources for the Future
+
+10
+
+4. Projected Fossil Fuel Revenues
+under Three Scenarios
+To estimate future changes in fossil fuel revenue, we rely primarily on three scenarios
+developed by bp (2020): business as usual (BAU), 2ºC (2C), and 1.5ºC (1.5C). BAU
+represents bp’s view on the energy future, given current policy frameworks, and the 2C
+and 1.5C scenarios are designed to reduce emissions consistent with long-term global
+temperature rises of 2ºC and 1.5ºC, respectively. We choose these scenarios because
+(1) they provide a plausible yet wide range of futures, including deep decarbonization;
+(2) detailed scenario results are publicly available; and (3) they include projections for
+the United States. Projections from the US Energy Information Administration (EIA
+2021) were excluded because they do not include a deep decarbonization scenario, and
+those of other organizations, such as the International Energy Agency (2020), cover
+North America only in aggregate.
+Because state- and local-level projections are not available, we assume that all public
+revenues associated with fossil energy systems change proportionately to the changes
+in production, processing, and consumption of each fuel. This is a limitation because
+it does not incorporate the distribution of changing fossil fuel production, processing,
+and use, nor does it account for the changes in energy commodity prices under
+alternative scenarios. Future work could incorporate these details, which is beyond our
+current scope (details in Appendix).
+Our headline result is that by 2050, fossil fuel revenues decline across all scenarios,
+even absent new climate policies. Total revenues in the BAU scenario increase above
+the baseline by 4 percent ($5 billion) in 2030 but fall 16 percent ($22 billion) by 2050. In
+the 2C scenario, total revenues fall 6 percent ($8 billion) by 2030 and 56 percent ($78
+billion) by 2050. In the 1.5C scenario, total revenues fall 18 percent ($24 billion) by 2030
+and 80 percent ($111 billion) by 2050 (Figure 3).
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+11
+
+Figure 3. Baseline and Projected Fossil Fuel Government
+Revenues under Three Scenarios
+
+Under BAU, petroleum product taxes fall roughly 30 percent ($26 billion) by 2050.
+Under the 2C and 1.5C scenarios, rapid deployment of electric vehicles and enhanced
+energy efficiency reduce these revenues by 69 percent ($60 billion) and 85 percent
+($75 billion), respectively, relative to the average in recent years.
+Upstream oil and gas revenue is more resilient, although these estimates are subject
+to large uncertainty due to volatile prices and production levels. Under BAU, revenues
+are 37 percent ($11 billion) higher than the baseline in 2030 and 22 percent ($6 billion)
+higher in 2050. In the 2C scenario, revenues in 2030 are 28 percent ($9 billion) higher,
+then decline to 21 percent ($8 billion) below the baseline by 2050. Under the 1.5C
+scenario, revenues decline 8 percent ($3 billion) by 2030, then fall rapidly to 68 percent
+($23 billion) below the baseline by 2050. Production does not fall to zero because
+in these scenarios, hydrocarbons continue to be a feedstock for petrochemicals
+production and—often coupled with carbon capture and storage—other applications.
+The resilience of upstream oil and gas largely reflects the choice of baseline period
+and the nature of the scenarios. US oil and gas production grew 28 percent from
+2015 through 2019 and declined modestly in 2020. Because future production in the
+scenarios is based on the most recent (2020) levels, it remains high relative to the
+average over the baseline period. In addition, the 2C and 1.5C scenarios envision a
+relatively high level of future natural gas demand and a relatively low level of future
+
+Resources for the Future
+
+12
+
+coal demand, compared with other scenarios with similar emissions trajectories (Newell
+et al. 2021). We discuss these issues in more detail and provide the relevant data in the
+Appendix.
+Upstream coal revenues tell a different story, declining sharply under all scenarios.
+Under BAU, they fall 22 percent ($0.5 billion) by 2030 and 70 percent ($2.1 billion) by
+2050. In the 2C and 1.5C scenarios, upstream coal revenues fall 85 and 90 percent ($2.6
+billion and $2.8 billion), respectively, by 2030, and approach zero by 2040.
+The midstream oil and gas sector follows a similar trajectory to upstream oil and gas.
+By 2050, total revenues increase 2 percent ($0.2 billion) under BAU but decline 42
+percent ($3.4 billion) and 78 percent ($6.3 billion) under 2C and 1.5C, respectively.
+Intuitively, higher levels of production and consumption under BAU lead to higher
+levels of pipeline and refinery throughput, which translates into higher levels of public
+revenues.
+Fossil power plant revenues fall under all scenarios and by 2050 are 15 percent ($0.3
+billion), 77 percent ($1.6 billion), and 90 percent ($1.9 billion) lower under BAU, 2C, and
+1.5C, respectively. Because of data limitations, we are unable to independently estimate
+the distribution of revenue losses among coal, natural gas, and the small number of
+petroleum-fueled power plants. However, revenue losses will be experienced most
+rapidly for coal power plant communities. Under BAU, coal-fired power generation falls
+more than 75 percent by 2050 and approaches zero under 2C and 1.5C. Natural gas–
+fired generation grows 34 percent under BAU, displacing coal but slowing renewables,
+and declines 60 and 83 percent under 2C and 1.5C, respectively. These scenarios from
+bp are consistent with a variety of other modeling efforts, which find that coal-fired
+power is likely to decline regardless of future climate policy, whereas natural gas-fired
+power is more sensitive to policy decisions (Murray et al. 2018; IEA 2020; EIA 2021).
+Because the bp scenarios do not provide state-level estimates on energy production,
+processing, or consumption, they are not well suited to estimate future changes in
+state-level revenue. For upstream revenues, it is likely that regions with the lowest
+production costs, lowest emissions footprints, and best access to markets will be the
+most competitive as policies and markets incentivize lower emissions across each
+fuel’s life cycle. Other factors and technologies, including the scale of deployment
+of carbon capture, use, and storage, will also help determine the future of fossil fuel
+production and use across the United States, with consequent implications for public
+revenues.
+Despite the uncertainty about how revenue reductions will be distributed, governments
+will need to identify new sources of revenue as fossil fuels decline. We now consider
+what options are available and identify issues to consider when weighing alternatives.
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+13
+
+5. Options for Replacing Revenue
+Before detailing revenue replacement options, it is worth emphasizing that the current
+and future damages from fossil fuel use easily outweigh the fiscal losses described
+here. For example, greenhouse gas emissions in the US energy sector averaged 5,117
+million metric tons of CO2-equivalent from 2015 through 2019 (EPA 2021). Using the
+US Interagency Working Group’s 2021 central estimate for the social cost of carbon
+(SCC) of $51 per metric ton, these emissions roughly translate to annual damages of
+$261 billion. These damages would be much higher under alternative SCC estimates
+in the recent climate economics literature (e.g., Daniel et al. 2019; Carleton et al.
+2020; Bressler 2021; Rennert et al. 2021). And climate damages are far from the only
+externality associated with fossil fuels, which include air pollution that damages health
+and contributes to premature mortality (Jaramillo and Muller 2016; Vohra et al. 2021)
+and water pollution and site contamination (Herlihy et al. 1990; Jackson et al. 2014;
+Raimi et al. 2021), and more.1
+That said, reductions in public revenues from fossil fuels will create fiscal challenges.
+For some states, particularly those with upstream oil and gas industries, our results
+suggest that the revenue may remain substantial for decades, providing a window for
+policymakers to invest energy revenues into savings funds, update fiscal policies, and
+seek to diversify regional economies. For states and communities reliant on coal, the
+implications are far starker.
+Policymakers have numerous options to address these revenue shortfalls, many of
+which are technically straightforward and economically efficient but challenging to
+implement, primarily for political reasons (Rabe 2018). In the following two sections, we
+assess one set of options that are directly related to the energy system, followed by an
+economy-wide second set of options.
+
+5.1. Energy-Related Fiscal Options
+Clean energy has the potential to replace some of the revenues that will be lost from
+the decline of fossil energy. For example, personal and corporate income taxes from
+clean energy industries such as wind and solar may grow to rival those from coal, oil,
+and natural gas. As noted earlier, numerous recent studies have estimated that net
+employment would increase substantially in a rapid shift to clean energy (e.g., Larson
+et al. 2020; Pai et al. 2021). Importantly, however, renewable energy employment
+currently pays considerably less than most jobs in coal, oil, and natural gas (NASEO
+and EFI 2020).
+Clean energy development on public lands will also contribute new revenues, although
+1		This description is meant to be illustrative of the damages from fossil fuel use relative to
+the fiscal losses estimated in this paper. It is not a comprehensive benefit-cost analysis,
+which would incorporate many additional elements, such as emissions mitigation costs.
+
+Resources for the Future
+
+14
+
+fossil fuels currently generate orders of magnitude more. In 2020, wind leases on
+federal lands generated just $5.5 million (Office of Natural Resource Revenue 2021),
+a number that will almost certainly grow substantially in the future. However, clean
+energy also receives large federal deployment subsidies, which may limit its capacity
+to be a major new source of revenue. The US Department of the Treasury (2021)
+estimates that federal clean energy tax credits are projected to cost $265 billion from
+fiscal year 2022 through 2031.
+Petroleum product taxes, the largest fossil revenue source, could be replaced by a
+tax applied to vehicle miles traveled (VMT). A VMT tax could reflect the weight of
+the vehicle, type of road used, and other factors to account for multiple externalities
+(e.g., pollution, congestion, and accidents) and address the regressivity of current tax
+policies for electric vehicles (Davis and Sallee 2020; Shaffer et al. 2021). However, VMT
+taxes face political hurdles, including the challenges associated with raising any new
+taxes, along with concerns about privacy and distributional effects (Raschke et al.
+2014).
+As a tool to replace declining revenue, VMT taxes are quite appealing. The
+Congressional Budget Office (2019) estimates that a $0.05 per mile tax levied on
+commercial trucks would raise $12.8 billion annually, and a back-of-the envelope
+calculation suggests that a $0.01 per mile tax applied to each passenger vehicle would
+have raised $28.5 billion based on VMT in 2017 (FHWA 2019). On average, drivers
+would pay a similar level of tax per mile driven, and revenues would total $40 billion,
+roughly equal to current federal revenues this source (see Appendix for calculations).
+States could take a similar approach by piggybacking their own VMT tax atop a federal
+one, as they do today for petroleum products.
+In the near term, governments could raise additional revenue by updating leasing terms
+such that producers of coal, oil, and natural gas on public lands pay higher royalty
+rates or other fees (e.g., “carbon adders”), raising additional revenue and potentially
+reducing emissions (Prest 2021). Most evidence suggests that higher severance tax
+rates have modest effects on oil and gas production (Yücel 1989; Chakravorty et al.
+2011; Anderson et al. 2018; Rao 2018) and would typically increase government revenue
+even if they decrease production (Brown et al. 2020). However, two factors constrain
+this approach: first, it may not be possible to amend existing leases; and second, future
+fossil fuel production will need to decline to address climate change, reducing the tax
+base.
+Another approach to raising revenue is to eliminate direct subsidies for fossil fuel
+producers (Metcalf 2017; Aldy 2021), which would raise an estimated $35 billion from
+2022 through 2031 (US Department of the Treasury 2021). States could also eliminate
+tax preferences, such as Texas’s reduced severance tax rate for “high cost” natural
+gas wells (Texas Comptroller of Public Accounts 2021a). States may also consider new
+taxes on clean energy sources, though such efforts risk slowing the transition to clean
+energy.
+As noted earlier, some US states have seeded permanent funds with fossil revenues,
+using interest earnings to support government operations. Expanding these funds
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+15
+
+could enhance fiscal stability. At their current level, however, the revenues generated
+by trust funds in Alaska, New Mexico, North Dakota, and Wyoming are unlikely to cover
+the losses associated with a rapid energy transition. In addition, the interest generated
+from permanent funds is already used to fund current services (or, in Alaska, annual
+payments to residents).
+For local governments that rely heavily on property taxes applied to fossil fuels,
+clean energy technologies offer a new potential source. For example, commercial
+wind generation facilities paid $9.4 million in property taxes in 2019 to Montana
+local governments (Montana Department of Revenue 2021). However, localities are
+often limited in their ability to construct fiscal policy because states often adopt
+laws and rules that require uniform application across localities. For example, some
+states exempt renewable energy from local property taxes (California State Board
+of Equalization 2021; Texas Comptroller of Public Accounts 2021b), which may spur
+deployment but fail to raise revenue. In addition, the regions where fossil fuels provide
+the bulk of the local tax base are not necessarily the same regions where clean energy
+technologies will flourish.
+
+5.2. Broader Fiscal Policy Options
+At the federal level, policymakers have a variety of nonenergy tools to address
+shortfalls and could assist states through transfers. Important considerations include
+the economic efficiency of the tax, revenue stability, whether revenues move in tandem
+with the broader economy, the tax incidence, administrative requirements, and more.
+For a detailed discussion of these issues, see the Appendix.
+From an economic efficiency perspective, perhaps the ideal approach is a price on
+greenhouse gas emissions, which would accelerate the energy transition while raising
+hundreds of billions in revenue to support multiple objectives, including bolstering
+public finances (Barron et al. 2018; Hafstead 2019, 2021). Another approach is a valueadded tax (VAT), a form of consumption taxation that has long been favored by tax
+experts and is common in most of the world (Metcalf 1995; Graetz 2002).
+If carbon pricing and VAT are not viable for political or other reasons, one alternative
+is raising income taxes, which account for more than half of total federal revenues.
+Recent proposals to increase taxes on corporations, capital gains, and other sources
+were projected to raise more than $200 billion in additional revenue per year (OMB
+2021).
+Compared with the federal government, states and localities have less policy flexibility
+because of balanced budget requirements (Clemens and Veuger 2020) and constraints
+on local property taxes (Preston and Ichniowski 1991). Because the federal government
+does not face these constraints, federal policies that have the effect of reducing
+fossil fuel revenues could be tied to financial transfers that help cover state and local
+shortfalls, as proposed in recent legislation (Barrasso 2021).
+States may also consider broader fiscal policy reform. One way to assess the capacity
+
+Resources for the Future
+
+16
+
+for states to raise additional revenue is to evaluate their existing tax effort, which
+can generally be understood as the share of revenue that governments could raise
+relative to the revenue they do raise (Tannenwald 1999). On average, the 10 states
+with the highest dependence on fossil fuel revenues (see Table 2) have lower property
+tax effort, individual income tax effort, and corporate income tax effort than other US
+states (though, on average, they also have higher sales tax effort; see Appendix for
+details). This implies that some states could increase tax rates on property and income
+without substantially deterring economic growth.
+Of course, such efforts would be politically challenging and could also run the risk
+of spurring out-migration for tax-averse individuals and businesses. In addition,
+downturns in fossil fuel activity in these states would likely reduce earnings for
+individuals and businesses, at least in the near term, which would reduce the tax base
+and further erode revenues. Taken together, these challenges suggest that transfers
+from the federal government to fiscally dependent states and communities will likely
+be necessary to sustain those communities during a transition away from fossil fuels.
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+17
+
+6. Conclusion
+A transition away from fossil fuels is needed to avert the worst consequences of
+climate change. This transition will provide broad benefits across society but also
+result in negative impacts for certain communities. Although most political rhetoric
+and scholarly attention have focused on the employment effects of this transition, the
+implications for public finance are also considerable. In this analysis, we estimate that
+fossil fuel production, transportation, processing, and consumption generate roughly
+$138 billion annually for all governments in the United States. Some states, led by
+Wyoming, North Dakota, Alaska, New Mexico, and West Virginia, are heavily dependent
+on these revenues to support public services. Using stylized scenarios of future
+energy use, we estimate that through 2050, nationwide revenues decline 16, 50, and 80
+percent under business-as-usual, 2ºC, and 1.5ºC scenarios, respectively. Policymakers
+at the federal level have a wide variety of options to replace these revenues, such as
+carbon pricing, VMT taxes, and more, but each option faces considerable political
+hurdles in the immediate future. Tribes, states, and local governments that are heavily
+dependent on fossil fuel revenues are likely to face considerable fiscal challenges
+without federal support in the near to medium term and will need to diversify their tax
+base in the longer term.
+
+Resources for the Future
+
+18
+
+7. References
+Aldy, J.E. 2021. Testimony on the Elimination of Fossil Fuel Subsidies to the US
+Subcommittee on the Environment. Washington, DC. https://www.rff.org/publications/
+testimony-and-public-comments/testimony-to-the-us-subcommittee-on-theenvironment-on-the-elimination-of-fossil-fuel-subsidies/.
+American Clean Power. 2021. First Clean Power Annual Report Shows Record U.S.
+Renewables Growth and Investment. Washington, DC. https://cleanpower.org/
+news/first-clean-power-annual-report-shows-record-u-s-renewables-growth-andinvestment/.
+American Petroleum Institute. 2017. The Impacts of Restricting Fossil Fuel Energy
+Production. Washington, DC: Prepared by OnLocation, Inc. https://www.api.org/~/
+media/Files/Policy/American-Energy/Impacts-of-Restricting-Fossil-Fuels-Report.pdf.
+Anderson, S.T., R. Kellogg, and S.W. Salant. 2018. Hotelling under Pressure. Journal of
+Political Economy 126(3): 984–1026.
+Associated Press. 2021. Navajo Nation Surpasses Cherokee to Become Largest US
+Tribe. US News & World Report. May 19, 2021. //www.usnews.com/news/politics/
+articles/2021-05-19/navajo-nation-surpasses-cherokee-to-become-largest-us-tribe.
+Banzhaf, S., L. Ma, and C. Timmins. 2019. Environmental Justice: The Economics of
+Race, Place, and Pollution. Journal of Economic Perspectives 33(1): 185–208. https://doi.
+org/10.1257/jep.33.1.185.
+Barrasso, J. 2021. Barrasso Budget Amendment: School Funding VS Biden Oil &
+Gas Leasing Ban. Washington, DC. https://www.barrasso.senate.gov/public/index.
+cfm/2021/2/barrasso-budget-amendment-school-funding-vs-biden-oil-gas-leasingban.
+Barro, J., J.W. Diamond, and R. W. Evans. 2021. The Effect of Transition To Low-Carbon
+Energy on
+Texas Tax Revenues: 2021-2050. Houston, TX.
+https://www.
+bakerinstitute.org/media/files/files/db24edef/cpf-pub-lowcarbon-102721.pdf.
+Barron, A.R., A.A. Fawcett, M.A.. C. Hafstead, J.R. McFarland, and A.C. Morris. 2018.
+Policy Insight From the EMF 32 Study on U.S. Carbon Tax Scenarios. Climate Change
+Economics 09(01): 1840003. https://doi.org/10.1142/S2010007818400031.
+Bell, S.E. 2009. “There Ain’t No Bond in Town Like There Used to Be”: The Destruction
+of Social Capital in the West Virginia Coalfields. Sociological Forum 24(3): 631–57.
+https://doi.org/10.1111/j.1573-7861.2009.01123.x.
+Bell, S.E., and R. York. 2010. Community Economic Identity: The Coal Industry and
+Ideology Construction in West Virginia. Rural Sociology 75(1): 111–43. https://doi.
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+19
+
+org/10.1111/j.1549-0831.2009.00004.x.
+Borenstein, S., and L.W. Davis. 2016. The Distributional Effects of US Clean Energy Tax
+Credits. Tax Policy and the Economy 30(1): 191–234. https://doi.org/10.1086/685597.
+bp. 2020. Energy Outlook 2020. https://www.bp.com/en/global/corporate/energyeconomics/energy-outlook.html.
+Bressler, R.D. 2021. The Mortality Cost of Carbon. Nature Communications 12(1): 4467.
+https://doi.org/10.1038/s41467-021-24487-w.
+Brown, J.P., P. Maniloff, and D.T. Manning. 2020. Spatially Variable Taxation and
+Resource Extraction: The Impact of State Oil Taxes on Drilling in the US. Journal of
+Environmental Economics and Management, August, 102354. https://doi.org/10.1016/j.
+jeem.2020.102354.
+California State Board of Equalization. 2021. Active Solar Energy System Exclusion.
+Sacramento. https://www.boe.ca.gov/proptaxes/active-solar-energy-system.htm.
+Carleton, T.A., A. Jina, M.T. Delgado, M. Greenstone, T. Houser, et al. 2020. Valuing the
+Global Mortality Consequences of Climate Change Accounting for Adaptation Costs
+and Benefits. Working Paper 27599. Cambridge, MA: National Bureau of Economic
+Research. https://doi.org/10.3386/w27599.
+Carley, S., T.P. Evans, and D.M. Konisky. 2018. Adaptation, Culture, and the Energy
+Transition in American Coal Country. Energy Research & Social Science 37 (March):
+133–39. https://doi.org/10.1016/j.erss.2017.10.007.
+Carley, S., and D.M. Konisky. 2020. The Justice and Equity Implications of the Clean
+Energy Transition. Nature Energy, June, 1–9. https://doi.org/10.1038/s41560-020-06416.
+Cha, M., M. Pastor, M. Wander, J. Sadd, and R. Morello-Frosch. 2019. A Roadmap to
+an Equitable Low-Carbon Future: Four Pillars for a Just Transition. Climate Equity
+Network. https://dornsife.usc.edu/assets/sites/242/docs/Just_Transition_Final_
+Report_2019.pdf.
+Chakravorty, U., S. Gerking, and A. Leach. 2011. State Tax Policy and Oil Production: The
+Role of the Severance Tax and Credits for Drilling Expenses. In U.S. Energy Tax Policy.
+Cambridge: Cambridge University Press.
+Chen, M., G.A. Ban-Weiss, and K.T. Sanders. 2020. Utilizing Smart-Meter Data to Project
+Impacts of Urban Warming on Residential Electricity Use for Vulnerable Populations
+in Southern California. Environmental Research Letters 15(6): 064001. https://doi.
+org/10.1088/1748-9326/ab6fbe.
+Clemens, J., and S. Veuger. 2020. Implications of the Covid-19 Pandemic for State
+
+Resources for the Future
+
+20
+
+Government Tax Revenues. National Tax Journal 73(3): 619–44. https://doi.org/10.17310/
+ntj.2020.3.01.
+Coady, D., I. Parry, N.-P. Le, and B. Shang. 2019. Global Fossil Fuel Subsidies
+Remain Large: An Update Based on Country-Level Estimates. Working Paper
+19/89. International Monetary Fund. https://www.imf.org/en/Publications/WP/
+Issues/2019/05/02/Global-Fossil-Fuel-Subsidies-Remain-Large-An-Update-Based-onCountry-Level-Estimates-46509.
+Congressional Budget Office. 2019. Issues and Options for a Tax on Vehicle
+Miles Traveled by Commercial Trucks. Washington, DC. https://www.cbo.gov/
+publication/55688.
+Considine, T.J. 2020. The Fiscal and Economic Impacts of Federal Onshore Oil and
+Gas Lease Moratorium and Drilling Ban Policies. Prepared for the Wyoming Energy
+Authority. https://www.wyoenergy.org/wp-content/uploads/2020/12/Final-ReportFederal-Leasing-Drilling-Ban-Policies-121420.pdf.
+Daniel, K.D., R.B. Litterman, and G. Wagner. 2019. Declining CO2 Price Paths.
+Proceedings of the National Academy of Sciences, October, 201817444. https://doi.
+org/10.1073/pnas.1817444116.
+Davis, L.W., and J.M. Sallee. 2020. Should Electric Vehicle Drivers Pay a Mileage Tax?
+Environmental and Energy Policy and the Economy 1 (January): 65–94. https://doi.
+org/10.1086/706793.
+Deryugina, T., D. Fullerton, and W.A. Pizer. 2019. An Introduction to Energy Policy TradeOffs between Economic Efficiency and Distributional Equity. Journal of the Association
+of Environmental and Resource Economists 6(S1): S1–6. https://doi.org/10.1086/701515.
+Energy Information Administration (EIA). 2021. Annual Energy Outlook 2021.
+Washington, DC: Department of Energy. https://www.eia.gov/outlooks/aeo/.
+Environmental Protection Agency (EPA). 2021.“Inventory of U.S. Greenhouse Gas
+Emissions and Sinks: 1990-2019. Washington, DC. https://www.epa.gov/ghgemissions/
+inventory-us-greenhouse-gas-emissions-and-sinks-1990-2019.
+Federal Highway Administration (FHWA). 2019. Annual Vehicle Distance Traveled in
+Miles and Related Data—2017. Washington, DC: U.S. Department of Transportation.
+https://www.fhwa.dot.gov/policyinformation/statistics/2017/vm1.cfm.
+Graetz, M.J. 2002. 100 Million Unnecessary Returns: A Fresh Start for the U.S. Tax
+System. Yale Law Journal 112.
+Gunton, T. 2003. Natural Resources and Regional Development: An Assessment of
+Dependency and Comparative Advantage Paradigms. Economic Geography 79(1):
+67–94. https://doi.org/10.1111/j.1944-8287.2003.tb00202.x.
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+21
+
+Hafstead, M. 2019. Carbon Pricing 102: Revenue Use Options. Resources for the Future
+Explainer Series. Washington, DC. https://www.rff.org/publications/explainers/carbonpricing-102/.
+———. 2021. Emissions Projections for the Climate Leadership Council Carbon
+Dividends Plan: 2021. Issue Brief 21-01. Washington, DC: Resources for the Future.
+https://www.rff.org/publications/issue-briefs/emissions-projections-for-the-climateleadership-council-carbon-dividends-plan-2021/.
+Haggerty, J.H., M.N. Haggerty, K. Roemer, and J. Rose. 2018. Planning for the Local
+Impacts of Coal Facility Closure: Emerging Strategies in the U.S. West. Resources Policy
+57 (August): 69–80. https://doi.org/10.1016/j.resourpol.2018.01.010.
+Haggerty, M. 2021. Diversifying Revenue on New Mexico State Trust Lands. Bozeman,
+MT: Headwaters Economics. https://headwaterseconomics.org/tax-policy/new-mexicostate-land/.
+Herlihy, A.T., P.R. Kaufmann, M.E. Mitch, and D.D. Brown. 1990. Regional Estimates of
+Acid Mine Drainage Impact on Streams in the Mid-Atlantic and Southeastern United
+States. Water, Air, and Soil Pollution 50(1): 91–107. https://doi.org/10.1007/BF00284786.
+Humphreys, M., J. Sachs, and J.E. Stiglitz. 2007. Escaping the Resource Curse. New
+York: Columbia University Press. https://cup.columbia.edu/book/escaping-theresource-curse/9780231141963.
+International Energy Agency (IEA). 2020. World Energy Outlook 2020. Paris. https://
+www.iea.org/reports/world-energy-outlook-2020.
+———. 2021. Recommendations of the Global Commission on People-Centred Clean
+Energy Transitions. Paris. https://www.iea.org/reports/global-commission-on-peoplecentred-clean-energy-transitions.
+Jackson, R.B., A. Vengosh, J.W. Carey, R.. Davies, T.H. Darrah, F. O’Sullivan, and G.
+Pétron. 2014. The Environmental Costs and Benefits of Fracking. Annual Review
+of Environment and Resources 39(1): 327–62. https://doi.org/10.1146/annurevenviron-031113-144051.
+Jaramillo, P., and N.Z. Muller. 2016. Air Pollution Emissions and Damages from Energy
+Production in the U.S.: 2002–2011. Energy Policy 90 (March): 202–11. https://doi.
+org/10.1016/j.enpol.2015.12.035.
+Jolley, G.J., C. Khalaf, G. Michaud, and A.M. Sandler. 2019. The Economic, Fiscal, and
+Workforce Impacts of Coal-Fired Power Plant Closures in Appalachian Ohio. Regional
+Science Policy & Practice 11(2): 403–22. https://doi.org/10.1111/rsp3.12191.
+Just Transition Centre. 2017. Just Transition: A Report for the OECD. https://www.oecd.
+org/environment/cc/g20-climate/collapsecontents/Just-Transition-Centre-report-just-
+
+Resources for the Future
+
+22
+
+transition.pdf.
+Lamb, W.F., M. Antal, K. Bohnenberger, L.I. Brand-Correa, F. Müller-Hansen, et al. 2020.
+What Are the Social Outcomes of Climate Policies? A Systematic Map and Review
+of the Ex-Post Literature. Environmental Research Letters 15(11): 113006. https://doi.
+org/10.1088/1748-9326/abc11f.
+Larson, E., C. Greig, J. Jenkins, E. Mayfield, A. Pascale, et al. 2020. Net-Zero America:
+Potential Pathways, Infrastructure, and Impacts. Interim Report. Princeton, NJ:
+Princeton University. https://environmenthalfcentury.princeton.edu/sites/g/files/
+toruqf331/files/2020-12/Princeton_NZA_Interim_Report_15_Dec_2020_FINAL.pdf.
+Lehr, U., C. Lutz, and D. Edler. 2012. Green Jobs? Economic Impacts of Renewable
+Energy in Germany. Energy Policy 47: 358–64.
+Lyubich, E. 2020. The Race Gap in Residential Energy Expenditures. Energy Institute at
+Haas WP 306. Berkeley: University of California–Berkeley. https://evalyubich.com/files/
+race_energyGap.pdf.
+Marchand, J., and J.G. Weber. 2020. How Local Economic Conditions Affect School
+Finances, Teacher Quality, and Student Achievement: Evidence from the Texas Shale
+Boom. Journal of Policy Analysis and Management 39(1): 36–63. https://doi.org/10.1002/
+pam.22171.
+Mayer, A. 2018. A Just Transition for Coal Miners? Accountability Frames, Community
+Economic Identity, and Just Transition Policy Support among Local Policy Actors.
+Environmental Innovation and Societal Transitions 28: 1–13.
+Metcalf, G.E. 1995. Value-Added Taxation: A Tax Whose Time Has Come? Journal of
+Economic Perspectives 9(1): 121–40.
+———. 2017. The Impact of Removing Tax Preferences for US Oil and Natural Gas
+Production: Measuring Tax Subsidies by an Equivalent Price Impact Approach. Journal
+of the Association of Environmental and Resource Economists 5(1): 1–37. https://doi.
+org/10.1086/693367.
+Mohai, P., D. Pellow, and J.T. Roberts. 2009. Environmental Justice. Annual Review
+of Environment and Resources 34(1): 405–30. https://doi.org/10.1146/annurevenviron-082508-094348.
+Montana Department of Revenue. 2021. Biennial Report. Billings. https://mtrevenue.gov/
+publications/biennial-reports/.
+Morris, A.C., N. Kaufman, and S. Doshi. 2021. Revenue at Risk in Coal-Reliant Counties.
+Environmental and Energy Policy and the Economy 2 (January): 83–116. https://doi.
+org/10.1086/711307.
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+23
+
+Murray, B.C., J. Bistline, J. Creason, E. Wright, A. Kanudia, and F. de la Chesnaye. 2018.
+The EMF 32 Study on Technology and Climate Policy Strategies for Greenhouse Gas
+Reductions in the U.S. Electric Power Sector: An Overview. Energy Economics 73
+(June): 286–89. https://doi.org/10.1016/j.eneco.2018.03.007.
+NASEO and EFI. 2020. The 2020 US Energy & Employment Report. https://www.
+usenergyjobs.org/.
+National Academies of Sciences, Engineering, and Medicine. 2021. Accelerating
+Decarbonization of the U.S. Energy System. Washington, DC: National Academies
+Press. https://doi.org/10.17226/25932.
+Newell, R.G., and D. Raimi. 2015. Shale Public Finance: Local Government Revenues and
+Costs Associated with Oil and Gas Development. Working Paper w21542. Cambridge,
+MA: National Bureau of Economic Research.
+———. 2018a. US State and Local Oil and Gas Revenue Sources and Uses. Energy
+Policy 112 (Supplement C): 12–18. https://doi.org/10.1016/j.enpol.2017.10.002.
+———. 2018b. The Fiscal Impacts of Increased U.S. Oil and Gas Development
+on Local Governments. Energy Policy 117 (June): 14–24. https://doi.org/10.1016/j.
+enpol.2018.02.042.
+Newell, R.G., D. Raimi, S. Villanueva, and B. Prest. 2021. Global Energy Outlook 2021:
+Pathways from Paris. Report 21-11. Washington, DC: Resources for the Future. https://
+www.rff.org/publications/reports/global-energy-outlook-2021-pathways-from-paris/.
+Office of Management and Budget (OMB). 2021. Analytical Perspectives: Budget of
+the US Government Fiscal Year 2022. Washington, DC: White House. https://www.
+whitehouse.gov/wp-content/uploads/2021/05/spec_fy22.pdf.
+Office of Natural Resource Revenue. 2021. Explore Data. Washington, DC: Department
+of Interior. https://revenuedata.doi.gov/
+Pai, Sandeep, Johannes Emmerling, Laurent Drouet, Hisham Zerriffi, and Jessica
+Jewell. 2021. “Meeting Well-below 2°C Target Would Increase Energy Sector Jobs
+Globally.” One Earth 4 (7): 1026–36. https://doi.org/10.1016/j.oneear.2021.06.005.
+Prest, Brian. 2021. “Supply-Side Reforms to Oil and Gas Production on Federal Lands:
+Modeling the Implications for Climate Emissions, Revenues, and Production Shifts.”
+RFF Working Paper 20-16. Washington, D.C.: Resources for the Future. https://www.rff.
+org/publications/working-papers/supply-side-reforms-oil-and-gas-production-federallands/.
+Preston, Anne E., and Casey Ichniowski. 1991. “A National Perspective on the Nature
+and Effects of the Local Property Tax Revolt, 1976-1986.” National Tax Journal 44 (2):
+123–45. https://doi.org/10.1086/NTJ41788887.
+
+Resources for the Future
+
+24
+
+Rabe, Barry G. 2018. Can We Price Carbon? Cambridge: MIT Press.
+Raimi, Daniel, Alan J. Krupnick, Jhih-Shyang Shah, and Alexandra Thompson. 2021.
+“Decommissioning Orphaned and Abandoned Oil and Gas Wells: New Estimates and
+Cost Drivers.” Environmental Science & Technology, July. https://doi.org/10.1021/acs.
+est.1c02234.
+Rao, Nirupama L. 2018. “Taxes and US Oil Production: Evidence from California and the
+Windfall Profit Tax.” American Economic Journal: Economic Policy 10 (4): 268–301.
+Raschke, Robyn L., Anjala S. Krishen, and Pushkin Kachroo. 2014. “Understanding the
+Components of Information Privacy Threats for Location-Based Services.” Journal of
+Information Systems 28 (1): 227–42. https://doi.org/10.2308/isys-50696.
+Reames, Tony G. 2016. “Targeting Energy Justice: Exploring Spatial, Racial/Ethnic and
+Socioeconomic Disparities in Urban Residential Heating Energy Efficiency.” Energy
+Policy 97 (October): 549–58. https://doi.org/10.1016/j.enpol.2016.07.048.
+Rennert, Kevin, Brian C. Prest, William A. Pizer, Richard G. Newell, David Anthoff, Cora
+Kingdon, Lisa Rennels, Roger Cooke, Adrian R. Raftery, Hana Sevcikova, and Frank
+Errickson. 2021. “The Social Cost of Carbon: Advances in Long-Term Probabilistic
+Projections of Population, GDP, emissions, and discount rates.” Brookings Papers
+on Economic Activity. https://www.brookings.edu/bpea-articles/the-social-cost-ofcarbon/.
+Roemer, Kelli F., and Julia H. Haggerty. 2021. “Coal Communities and the U.S. Energy
+Transition: A Policy Corridors Assessment.” Energy Policy 151 (April): 112112. https://doi.
+org/10.1016/j.enpol.2020.112112.
+Roemer, Kelli, Daniel Raimi, and Rebecca Glaser. 2021. “Coal Communities in Transition:
+A Case Study of Colstrip, Montana.” Washington, D.C.: Resources for the Future Report.
+Ross, Michael L. 2015. “What Have We Learned about the Resource Curse?”
+Annual Review of Political Science 18 (1): 239–59. https://doi.org/10.1146/annurevpolisci-052213-040359.
+Ryser, Laura, Greg Halseth, Sean Markey, Cameron Gunton, and Neil Argent. 2018.
+“Path Dependency or Investing in Place: Understanding the Changing Conditions for
+Rural Resource Regions.” The Extractive Industries and Society, October. https://doi.
+org/10.1016/j.exis.2018.10.009.
+Sachs, Jeffrey D., and Andrew M. Warner. 2001. “The Curse of Natural Resources.”
+European Economic Review 45: 827–38.
+Shaffer, Blake, Maximilian Auffhammer, and Constantine Samaras. 2021. “Make Electric
+Vehicles Lighter to Maximize Climate and Safety Benefits.” Nature 598 (7880): 254–56.
+https://doi.org/10.1038/d41586-021-02760-8.
+
+The Fiscal Implications of the US Transition away from Fossil Fuels
+
+25
+
+Slijik, Christopher, and Keith R. Phillips. 2021. “Once-Oil-Dependent Texas Economy to
+Keep Growing as Renewable Energy Expands.” Southwest Economy, no. Third Quarter.
+https://www.dallasfed.org/research/swe/2021/swe2103/swe2103b.aspx.
+Smith, Kristin, Mark Haggerty, and Jackson Rose. 2021. “Federal Fossil Fuel
+Disbursements to States: State Policy and Practice in Allocating Federal Revenue.”
+Bozeman, MT: Headwaters Economics. https://headwaterseconomics.org/tax-policy/
+federal-fossil-fuel-disbursements-to-states.
+Tannenwald, Robert. 1999. “Fiscal Disparity Among the States Revisited.” New England
+Economic Review, Federal Reserve Bank of Boston, , July. https://www.bostonfed.org/
+publications/new-england-economic-review/1999-issues/issue-july-august-1999/fiscaldisparity-among-the-states-revisited.aspx.
+Texas Comptroller of Public Accounts. 2021a. “Informattion for Approval of Reduced
+Tax Rates for High Cost Gas Wells.” Austin, TX. https://comptroller.texas.gov/taxes/
+natural-gas/high-cost-wells.php.
+———. 2021b. “Property Tax Exemption.” Austin, TX. https://comptroller.texas.gov/
+taxes/property-tax/exemptions/.
+US Census Bureau. 2020. “Annual Survey of State Government Tax Collections (STC).”
+Washington, D.C. https://www.census.gov/programs-surveys/stc.html.
+U.S. Department of the Treasury. 2021. “General Explanations of the Administration’s
+Fiscal Year 2022 Revenue Proposals.” Washington, D.C. https://home.treasury.gov/
+system/files/131/General-Explanations-FY2022.pdf.
+Vohra, Karn, Alina Vodonos, Joel Schwartz, Eloise A. Marais, Melissa P. Sulprizio,
+and Loretta J. Mickley. 2021. “Global Mortality from Outdoor Fine Particle Pollution
+Generated by Fossil Fuel Combustion: Results from GEOS-Chem.” Environmental
+Research 195 (April): 110754. https://doi.org/10.1016/j.envres.2021.110754.
+Weber, Jeremy G. 2020. “How Should We Think about Environmental Policy and Jobs?
+An Analogy with Trade Policy and an Illustration from U.S. Coal Mining.” Review of
+Environmental Economics and Policy 14 (1): 44–66. https://doi.org/10.1093/reep/rez016.
+Wei, Max, Shana Patadia, and Daniel M Kammen. 2010. “Putting Renewables and
+Energy Efficiency to Work: How Many Jobs Can the Clean Energy Industry Generate in
+the US?” Energy Policy 38 (2): 919–31.
+Will County Supervisor of Assessments Office. 2021. “Property Search.” Joliet, IL. http://
+www.willcountysoa.com/propertysearch/pinlistname?mname=exxon.
+Yücel, Mine Kuban. 1989. “Severance Taxes and Market Structure in an Exhaustible
+Resource Industry.” Journal of Environmental Economics and Management 16 (2):
+134–48. https://doi.org/10.1016/0095-0696(89)90004-1.
+
+Resources for the Future
+
+26
+
+Resources for the Future
+
+27
+
+

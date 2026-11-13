@@ -1,0 +1,966 @@
+Source: https://docs.house.gov/meetings/BA/BA04/20250917/118613/HHRG-119-BA04-Wstate-WebelB-20250917.pdf
+Publisher: Congressional Research Service (testimony before the House Financial Services Committee)
+Retrieved: 2026-11-13
+Original SHA-256: 96e901353d658998d085844739d1cc699f6a2dc56ef4e2b8d3c5c4357525aac6
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Statement of
+
+Baird Webel
+Specialist in Financial Economics
+Before
+
+Financial Services Committee
+Housing and Insurance Subcommittee
+U.S. House of Representatives
+Hearing on
+
+“The Reauthorization of the Terrorism Risk Insurance Act
+of 2002”
+September 17, 2025
+
+Congressional Research Service
+7-5700
+www.crs.gov
+<Product Code>
+
+{222A0E69-13A2-4 985-84AE-73 CC3D FF4D02}-TE-08 814209 218109 614220 107520 606003 010711 900209 506924 800712 518902 015108 423613 608810 118615 012602 110601 418719 411813 815712 318909 505704 914513 316911 203211 309518 021300 205902 913823 209006 310408 321924 317202 724111 2 21500612 809505 817004 710704 411504 818614 7
+
+Congressional Research Service
+
+1
+
+Mr. Chairman, Ranking Member, and Members of the subcommittee, thank you for the opportunity to
+testify before you today. My name is Baird Webel. I am a Specialist in Financial Economics at the
+Congressional Research Service (CRS) focusing on non-health insurance issues including terrorism risk
+insurance. I have been in this role at CRS since 2003 and have covered the previous reauthorizations of
+the Terrorism Risk Insurance Act (TRIA). CRS’s role is to provide objective, nonpartisan research and
+analysis to Congress. CRS takes no position on the desirability of any specific policy. Any arguments
+presented in my written and oral testimony are for the purposes of informing Congress, not to advocate
+for a particular policy outcome.
+My testimony today will begin with a brief introduction and overview of how the Terrorism Risk
+Insurance Act program (TRIP) would work as well as the state of the market for terrorism risk insurance.
+Following this is a discussion of significant policy concerns from past reauthorizations that may inform
+the current debate. It concludes with a side-by-side comparison of previously enacted terrorism insurance
+law.1
+
+Introduction
+Prior to the September 11, 2001, terrorist attacks, commercial insurance policies typically covered
+terrorism losses as they would other perils and without additional cost to the policyholders. The 9/11
+attacks were a shock to the overall economy and particularly to the insurance industry. The insured losses
+on all insurance lines from the attacks were approximately $60 billion in current dollars, an amount well
+above the costliest natural disasters that had occurred at the time in the United States and approximately
+four times the combined property insurance losses on the rest of the 20 largest terrorist attacks.2
+When facing large, unexpected losses, insurers (and reinsurers3) often reduce coverage and increase
+insurance prices. Immediately following September 2001, insurance against terrorism risk became
+difficult to find at nearly any price. Some observers feared that a lack of insurance against terrorism loss
+would have a wide economic impact, particularly because insurance coverage can be a significant factor
+in lending decisions.
+Responding to the insurance market disruptions and fearing a wider economic impact in a weakened
+national economy, Congress passed TRIA (P.L. 107-297), which created a temporary government
+reinsurance program sharing in terrorism losses to calm insurance markets and give the insurance industry
+time to gather the data and create the structures and capacity necessary for private insurance to cover
+terrorism risk. Although explicitly created as a three-year program expiring in 2005, the TRIP has been
+extended several times. It is currently set to expire at the end of 2027.
+TRIA did (and does) not cover terrorism losses directly but instead reimburses private insurers for a
+portion of what they pay insureds for terrorism losses. How much is to be covered by the government
+reinsurance depends on a set of parameters in the program, including a minimum event size as well as
+both aggregate and individual insurer loss levels. TRIA does not require premiums to be paid by private
+insurers for the government reinsurance coverage. However, the act does require insurers to offer
+commercial insurance for terrorism risk, known typically as the “make available” provision. The act also
+1 While my testimony is substantially based on my previous work at CRS, I have also particularly relied on data and analyses
+
+from the Congressional Budget Office and the Department of the Treasury and thank them for assistance over years in addressing
+issues surrounding TRIA.
+2 Statistics from the Insurance Information Institute, “Facts + Statistics: U.S. catastrophes,” https://www.iii.org/fact-statistic/factsstatistics-us-catastrophes; and “Terrorism,” https://www.iii.org/publications/triple-i-insurance-facts/losses/man-madecatastrophes-by-peril/terrorism.
+3 Reinsurance is often termed “insurance for insurance companies” and is risk sharing among insurance companies, sometimes
+provided by companies specializing in reinsurance.
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+2
+
+provides that the government recoup some or all federal payments under the act from insurers in the years
+following government coverage of insurer losses. TRIA is limited to commercial property and casualty
+insurance—that is, insurance covering businesses.4 It does not cover losses in health or life insurance or
+losses in personal property lines, such as homeowners insurance.
+Following TRIA’s enactment, terrorism insurance became widely available and largely affordable, and the
+insurance industry greatly expanded its financial capacity. There has been, however, little apparent
+success in developing a longer-term private solution, and fears have persisted about the economic
+consequences if terrorism insurance were not available. No attack has been certified under the act, and no
+federal payments have been made from the program.
+
+How Would the TRIA Program Work?
+In the aftermath of a terrorist attack, the first step would be for private insurers to pay claims under
+whatever terms are in place in the existing policies. Insurers would submit to the Treasury Department for
+partial reimbursement of these claims. For reimbursements under TRIA to occur, the Secretary of the
+Treasury must certify the attack, including that the single attack caused more than $5 million in losses.
+Next, the total aggregate annual terrorism losses must surpass the program trigger of $200 million. After
+these industry-wide thresholds are met, each individual insurer is responsible for a deductible equal to
+20% of its premiums on TRIA-eligible lines of insurance. The Treasury would then reimburse the
+insurers 80% of their losses from terrorist attacks above this deductible. If total insured losses go above
+$100 billion, there is no further federal reimbursement, and insurers are not responsible to pay losses
+under the policies that are in place.
+Figure 1 below shows a graphical representation of coverage under the current TRIA program. The
+precise level of aggregate insured losses where government coverage would begin is uncertain, as it
+would depend on how the losses are distributed among insurance companies and thus what exactly the
+sum of the 20% company deductibles would be. The amount shown is the sum of all the insurance
+companies’ deductibles—the maximum amount the figure could be—which currently totals $63 billion.
+In an actual attack, however, it is nearly impossible for all insurers to be impacted, as many smaller
+insurers cover geographically separate areas, and government payments are likely to begin occurring well
+under the $63 billion amount shown.
+
+4 Property and casualty insurance is one of the broader industry categories, typically contrasted to life and health insurance. The
+
+act does exclude some property and casualty insurance lines, including medical malpractice, commercial auto, burglary and theft,
+surety, professional liability, and farm owners multiple peril.
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+3
+
+Figure 1. Initial Loss Sharing Under the Current TRIA Program
+
+Source: Congressional Research Service, adapted from Congressional Budget Office, Federal Reinsurance for Terrorism
+Risks: Issues in Reauthorization, August 1, 2007, p. 12.
+Notes: Aggregate of all individual insurer deductibles totaled approximately $63 billion in 2024, according to Department
+of the Treasury data and CRS calculations. Loss sharing is likely to begin well under this amount, as the distribution of
+terrorism losses is unlikely to be equally spread among insurers. For context, the insured damages from the 9/11 attacks
+adjusted to 2025 are approximately $60 billion.
+
+What Would Happen Afterwards?
+In the years following the attack, the recoupment provisions in TRIA would take effect. The Treasury
+Secretary would be required to recoup some or all of the reimbursements to specific insurers by placing a
+premium surcharge on all the insurers offering commercial property and casualty insurance covered by
+TRIA. (This surcharge may vary for different lines of insurance and different geographic areas.)
+Mandatory recoupment is required to be completed by 2029 and would be equal to 140% of the difference
+between the aggregate retention amount and the total amount of insured losses that were not reimbursed
+by the government. The aggregate retention amount for a calendar year is based on aggregate premiums
+for the previous three years. For 2025, it is the lesser of approximately $53.3 billion and the total amount
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+4
+
+of insured losses. The Secretary has the authority to extend recoupment to include all losses reimbursed
+by the government, but this discretionary premium surcharge may not exceed 3%.
+The combination of the thresholds in law and the recoupment provisions means that, in general terms, if a
+terrorist attack occurs, the insurance industry covers the entire amount for relatively small losses. For a
+medium-size loss, the government assists insurers initially but is then required to recoup the payments it
+made to insurers through a broad levy on insurance policies afterward—the federal role is to spread the
+losses over time and over the entire insurance industry and insurance policyholders. As the size of losses
+grows larger, the federal government covers more of the losses without this mandatory recoupment.
+Ultimately, for the largest losses, the government is not required to recoup the payments it has made,
+although discretionary recoupment remains possible. The precise dollar values where losses cross these
+small, medium, and large thresholds are uncertain and will depend on how the losses are distributed
+among insurers.
+
+TRIA Extensions
+Congress has passed four extensions to the TRIA program, in 2005 (P.L. 109-144), 2007 (P.L. 110-160),
+2015 (P.L. 114-1), and 2019 (P.L. 116-94). The 2005 extension primarily focused on reducing the
+government’s upfront financial exposure under the act, whereas the 2007 extension left most of the
+upfront aspect of TRIA unchanged but accelerated the post-event recoupment provisions. The 2007
+legislation also included the only expansion of TRIA since initial enactment: It expanded the program to
+cover any acts of terrorism as opposed to only foreign acts of terrorism.
+The 2007 law extended the TRIA program to the end of 2014, but no further extension legislation was
+enacted in this time frame. Thus, the program expired for 12 days until the President signed P.L. 114-1 in
+January 2015. This law extended the program nearly six years, until the end of 2020, while reducing the
+government’s share of the losses compared with the program as it was in 2014. Specifically, P.L. 114-1
+gradually (1) increased the program trigger from $100 million to $200 million, (2) reduced the
+government share of the losses from 85% to 80%, and (3) increased the insurer aggregate retention
+amount from $27.5 billion to $37.5 billion and indexed it to the sum of insurer deductibles in years
+thereafter. In 2019, P.L. 116-94 extended TRIA to the end of 2027, leaving the rest of the law essentially
+unchanged.
+
+The Terrorism Insurance Marketplace
+TRIA’s “make available” provisions addressed the availability problem in the terrorism insurance market,
+as insurers were required by law to offer commercial terrorism coverage. However, significant uncertainty
+existed as to how businesses would react, because there was no general requirement to purchase terrorism
+coverage and the pricing of terrorism coverage was initially high.5 Prior to 2015, data regarding the
+market for terrorism insurance was somewhat inconsistent, because state regulators historically did not
+require granular reporting by insurers on terrorism coverage. Most terrorism insurance statistics were
+gathered by private surveys. This changed following P.L. 114-1 as Congress required the Treasury
+Department to collect specific data, and the state regulators also strengthened their data reporting
+requirements.
+
+5 Although there is no requirement in federal law to purchase terrorism coverage, state law may require businesses to purchase
+
+the coverage. This is particularly the case in workers’ compensation insurance. Market forces, such as requirements for
+commercial loans, may also compel businesses to purchase terrorism coverage.
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+5
+
+Analyses by Treasury have seen the TRIP as supporting a terrorism insurance market that is generally
+stable with available and affordable insurance.6 Estimates for the take-up rate for terrorism coverage
+range from around 60% to nearly 80% depending on what metrics are used. As reported by Treasury, the
+total of premiums for all TRIP-eligible lines of insurance was $314.1 billion in 2024.7 Typically, between
+30% and 35% of the terrorism coverage is provided as part of broader insurance without a specific charge.
+In total, Treasury estimates that insurers have received $68.3 billion in terrorism insurance premiums
+from 2003 through 2023.8 (This figure includes affiliated insurers known as captives.)
+The price for terrorism insurance has appeared to decline over time, although the price level reported may
+not always be comparable between sources. A 2013 report by the President’s Working Group on Financial
+Markets, based on survey data by insurance broker Aon, showed a high of more than 7% for the median
+terrorism premium as a percentage of the total property premium in 2003 with a generally downward
+trend toward values around 3%.9 The Treasury reporting has generally found pricing to be in the 2.5%3.0% range for policies that do break out a specific charge for terrorism coverage.10
+The market for terrorism risk cannot be separated from the overall insurance market trends. Losses from
+other catastrophes, such as extreme weather events, could particularly draw capital away from the
+terrorism insurance market, because events such as hurricanes share some characteristics—low frequency
+and the possibility of catastrophic levels of loss—with terrorism risk. In general, insurers’ experience
+with, and capacity to bear, catastrophic risk has increased over the life of the TRIA program. Eight of the
+10 largest natural catastrophes have occurred since 2002. For example, the combined policyholder
+surplus11 among all U.S. property and casualty insurers was $1.08 trillion at the end of 2024 compared
+with $523.0 billion (inflation adjusted) at the start of 2002.12 This $1.08 trillion has been bolstered by the
+estimated $68.3 billion in premiums paid for terrorism coverage over the years without significant claims
+payments. The policyholder surplus, however, backs all property and casualty insurance policies in the
+United States and is subject to depletion in a wide variety of events.
+The years since the last TRIA reauthorization have been challenging in insurance markets, particularly in
+those exposed to weather losses, such as homeowners insurance.13 Macroeconomic changes, such as
+rising interest rates and increasing inflation, coupled with losses due to both large catastrophes—such as
+Hurricane Ian and the 2025 Los Angeles County wildfires—and smaller “secondary perils” have weighed
+on insurer and reinsurer profits and capital levels. Insurers have responded in many areas by increasing
+prices and reducing their exposure to future losses. These actions by insurers have started to show in the
+financial status of companies in 2024. The reinsurance industry overall, for example, increased capital
+6 TRIA requires periodic reporting by the Treasury Department. Treasury’s Federal Insurance Office (FIO) has been putting out a
+
+general “Report on the Effectiveness of the Terrorism Risk Insurance Program” every other year since 2016 and a more focused
+“Study of Small Insurer Competitiveness in the Terrorism Risk Insurance Marketplace” every other year since 2017. These
+reports, along with other TRIA-related resources, can be found at https://home.treasury.gov/policy-issues/financial-marketsfinancial-institutions-and-fiscal-service/federal-insurance-office/terrorism-risk-insurance-program/trip-reports-and-resources.
+7 FIO, Study of Small Insurer Competitiveness in the Terrorism Risk Insurance Marketplace, June 2025, p. 13.
+8 FIO, Report on the Effectiveness of the Terrorism Risk Insurance Program, June 2024, p. 78.
+9 President’s Working Group on Financial Markets, The Long-Term Availability and Affordability of Insurance for Terrorism
+Risk, April 2014, p. 26.
+10 See, for example, FIO, Report on the Effectiveness of the Terrorism Risk Insurance Program, June 2018, p. 25 and Report on
+the Effectiveness of the Terrorism Risk Insurance Program, June 2024, p. 24.
+11 According the National Association of Insurance Commissioners (NAIC), policyholder surplus is “assets in excess of the
+liabilities of a company.” See NAIC, “Glossary of Insurance Terms,” https://content.naic.org/glossary-insurance-terms.
+12 A. M. Best, Best’s Aggregates & Averages, Property-Casualty, 2002 Edition, p. 2; and A. M. Best, “First Look: 2024 US
+Property/Casualty Financial Results,” March 18 2025, p. 1. Inflation adjustment from the Bureau of Labor Statistics’ CPI
+inflation calculator at https://data.bls.gov/cgi-bin/cpicalc.pl. Actual 2002 figure is $293.5 billion.
+13 See, for example, CRS Testimony TE10087, The Factors Influencing the High Cost of Insurance for Consumers, by Baird
+Webel.
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+6
+
+levels to $650 billion in 2025, up from $607 billion in 2024, and prices have started to soften as capital
+has increased.14 At the primary insurer level, the property/casualty industry as a whole recorded a $22.9
+billion underwriting gain in 2024, compared to a $21.3 billion loss in 2023.15
+Although the terrorism insurance marketplace appears relatively robust, this occurs within the context of
+the federal backstop for terrorism coverage. The large majority of terrorism insurance coverage written is
+eligible for the TRIP, with Treasury finding that, for example, 74% of the standalone terrorism policies in
+2024 were TRIP-eligible. Whether private coverage would remain available and affordable without TRIA
+is uncertain.
+
+Policy Issues in TRIA Reauthorizations
+As the temporary TRIA program has been extended for 22 years past its initial three-year term, various
+questions about TRIA have been raised over the years. Such questions can be grouped into three broad
+categories: Should the program continue to exist at all? If the program goes forward, should Congress
+leave it largely intact while making changes to the parameters of the current program? Or should the
+program operations or coverages substantially change?
+
+Is TRIA Still Needed?
+In the original act, the 107th Congress was quite clear that TRIA not be considered permanent. The act
+specifically describes the program as “temporary” twice and terms its three-year span as a “transitional
+period for the private markets to stabilize, resume pricing of such insurance, and build capacity to absorb
+any future losses.”16 Even the codification of P.L. 107-297 could be seen as reflecting this temporary
+nature: TRIA was added as a note to a code section relating to state insurance regulation, not as a separate
+section of its own.17
+While the market experience in the years since TRIA’s initial passage has been much calmer than the year
+following September 11, 2001, that relative market calm in terrorism insurance has been underpinned by
+the existence of the TRIA program. Insurers are required to offer terrorism coverage under the act, and it
+seems possible, if not likely, that insurers would again seek to exclude terrorism losses if this requirement
+were to be removed. For example, when TRIA briefly lapsed at the end of 2014, conditional terrorism
+exclusions that had been included in insurance filings with state insurance regulators were activated.18
+Exactly how widespread these exclusions would be applied if TRIA were completely removed is unclear.
+It is possible that competitive pressure might cause insurers to cover terrorism risk even without TRIA.
+The 2024 Treasury report found that 34% of the terrorism coverage that is provided in conjunction with
+other property and casualty insurance is offered without specific premiums being charged, which suggests
+that the perceived terrorism risk is low for some of the insureds.19
+The insurance industry uses tools to model and mitigate catastrophe risks, such as hurricanes. The tools to
+address terrorism risk, however, have not been developed as successfully as perhaps was hoped when
+TRIA was initially enacted. Insurance works best with a large amount of data to develop estimates for the
+14 Gavin Souter, “Rating Agencies See Reinsurance Prices Falling, Discipline Holding,” Business Insurance, September 8, 2025,
+
+https://www.businessinsurance.com/rating-agencies-see-reinsurance-prices-falling-discipline-holding/.
+15 A. M. Best, “First Look: 2024 US Property/Casualty Financial Results,” p. 2.
+16 P.L. 107-297, §101.
+17 TRIA is codified at Title 15, Section 6701 note, of the U.S. Code.
+18 See, for example, Verisk, “ISO Conditional Terrorism Endorsements to Come into Play with TRIA’s Lapse,” press release,
+December 18, 2014, https://www.verisk.com/archived/2014/december/iso-conditional-terrorism-endorsements-to-come-intoplay-with-tria-s-lapse/.
+19 FIO, Report on the Effectiveness of the Terrorism Risk Insurance Program, June 2024, p. 17.
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+7
+
+likelihood and size of future losses. However, terrorist attacks are relatively rare, and much of the data
+about various terrorist threats may be closely held by the government due to national security concerns,
+thus further reducing data available for private firms. Furthermore, the fact that terrorism is carried out by
+purposeful actors who shift strategies and tactics adds another layer of complication to modeling
+techniques that are used with phenomena such as hurricanes. The purposeful nature of the actors also
+increases potential damage from terrorist attacks, because it reduces the effectiveness of mitigation
+techniques.
+
+What Could Change in the Current TRIA?
+The most substantial changes have been made to various parameters relating to private insurers sharing
+terrorism risk with a consistent increase in the private sector’s share of the risk.
+
+Parameters That Have Already Changed
+•
+
+•
+
+•
+
+Deductible and program trigger. In an unusual structure, TRIA essentially has a twostage deductible. TRIA provides directly for an insurer deductible that is equal to 20% of
+each company’s direct earned premiums for TRIP-eligible lines of insurance. This
+deductible was originally 7% of direct earned premiums and reached the current level in
+2007.
+In addition, TRIA includes a $200 million program trigger. Annual aggregate insured
+losses must clear this amount before any funding flows out of the Treasury. The program
+trigger was added in the 2005 reauthorization and reached $200 million in 2020. If the
+program trigger is not cleared, an insurer would receive no federal funding even if its
+individual deductible is exceeded. For approximately the largest 60 or so insurers, the
+20% deductible is larger than the program trigger, so for these companies the trigger is
+essentially irrelevant.20 For the rest of the companies, depending on the distribution of the
+losses, it is possible that they might have to bear losses larger than their deductibles prior
+to receiving funds under TRIA.
+Insured loss share compensation. This is essentially equivalent to a copayment. Above
+the program trigger or deductible, private insurers cover 20% of the losses covered under
+TRIA. This amount was originally 10% and reached 20% in 2007. (The statute is actually
+written in the inverse, defining the term as the amount paid by the federal government.)
+Terrorism loss risk-spreading premiums. These risk-spreading premiums, used to fund
+the losses, are similar in concept to premiums paid by normal insureds to private insurers,
+but in operation, they are quite different. Unlike premiums in most insurance, the TRIA
+premiums are paid only after the losses, not before. Thus, there are no funds built up to
+pay future losses as there are in almost all other types of insurance. These post-event
+premiums are to be either mandatory or discretionary based on the size of the insured
+losses compared with the insurer maximum The amount shown is the sum of all the
+insurance companies’ deductibles—the maximum amount the figure could be—which
+currently totals $63 billion aggregate retention amount set in the statute based on the
+aggregate sum of deductibles for the previous three years ($53.3 billion in 2025). If
+recoupment is mandatory, the amount to be recouped is to be 140% of the federal outlays
+actually made, and the recoupment must occur prior to September 30, 2029, which
+coincides with the 10-year window used by the Congressional Budget Office for scoring
+the last reauthorization legislation.
+
+20 Based on 2024 data provided to CRS by the Treasury.
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+8
+
+Parameters That Have Not Changed
+•
+
+•
+
+Event certification level. The original act set a minimum level of insurance losses for
+certification of an “Act of Terrorism” at $5 million. This has been unchanged since 2002.
+If adjusted using the consumer price index (CPI) since 2002, this amount would be nearly
+$9 million in 2025.
+Cap on annual liability. The original act set this amount at $100 billion in aggregate
+insured losses. Above this amount, there are to be no federal payments covering the
+portion above $100 billion, and private insurers are not liable for payments assuming that
+they have met their individual deductibles. If this $100 billion amount were adjusted
+using the CPI since 2002, it would be nearly $180 billion.
+
+Could the Program Operations or Coverages Substantially Change?
+While theoretically the TRIA program’s approach could be expanded to address a wide range of perils,21
+the most-often-mentioned issues regarding TRIA coverage are nuclear, biological, chemical, or
+radiological (NBCR) terrorist events and cyberterrorism.
+
+Nuclear, Biological, Chemical, or Radiological Terrorism
+A terrorist attack with some form of an NBCR weapon seems to be the most likely type of attack causing
+large-scale losses. Such attacks may not actually result in full coverage under TRIA, because the
+underlying private policies may effectively exclude NBCR events. The current TRIA statute does not
+specifically include or exclude NBCR events. Thus, the TRIA program in general would cover insured
+losses from terrorist actions due to NBCR as it would for an attack by conventional means. However,
+most of the commercial policies that TRIA covers would exclude damage from an NBCR cause regardless
+of whether it is accidental or due to terrorism.22 Thus, despite the TRIA requirement to offer terrorism
+coverage (and the 70%-80% reported take-up rate of this coverage), most purchasers of terrorism
+insurance may not be covered for damage from a terrorist attack using chemical gas, a radiological “dirty”
+bomb, or any of dozens of other similar scenarios that could result in extremely large losses.
+Congress addressed the issue of NBCR coverage in the 2005 reauthorization, which called on the
+President’s Working Group on Financial Markets to study the question, and the 2007 reauthorization,
+which called for a Government Accountability Office (GAO) study. The GAO report was issued in 2008,
+finding that “insurers generally remain unwilling to offer NBCR coverage because of uncertainties about
+the risk and the potential for catastrophic losses.”23 In the past, legislation would have provided for
+differential treatment of NBCR attacks under TRIA, but such legislation has not been enacted (see, e.g.,
+H.R. 4134 in the 109th Congress, H.R. 2761 in the 110th Congress, and H.R. 4871 in the 110th Congress).
+Because the current TRIA program works through private insurance policies, expanding coverage to
+NBCR events would require either encouragements for or mandates upon private insurers to change the
+policies. Alternately, TRIA could be changed to directly offer such coverage.
+
+21 During the COVID-19 pandemic, legislation was introduced that would have created a program to address pandemic insurance
+
+losses explicitly modeled on TRIA.
+22 The primary exception to this is workers’ compensation insurance, which is required by most state laws to cover all sources of
+injury to workers.
+23 U.S. Government Accountability Office (GAO), Terrorism Insurance: Status of Coverage Availability for Attacks Involving
+Nuclear, Biological, Chemical, or Radiological Weapons, GAO-09-39, December 12, 2008, http://gao.gov/products/GAO-09-39.
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+9
+
+Cyberterrorism
+The underlying TRIA statute is generally silent on the issue of cyberterrorism. In 2016, the Treasury
+Department issued guidance clarifying that the cyber-liability line of insurance, then newly introduced by
+state regulators, would be included as property/casualty insurance under the TRIA program.24 A
+cyberterrorist event must meet all other TRIA thresholds, which might reduce the program’s applicability
+to such cyberattacks.
+The Treasury Department devoted a specific section of the latest report on TRIA to cyber coverage,
+reporting that 50% of standalone cyberinsurance policies (based on premium value) included terrorism
+coverage. The take-up rate for those choosing cyber coverage that is embedded in policies covering
+additional perils was 54%. These rates are similar to, but slightly lower than, the 62% take-up rate for
+general terrorism coverage found across all TRIA-eligible lines.25
+The 2019 reauthorization legislation required a study and report on cyberterrorism. In 2022, GAO issued
+a 2022 report recommending that “CISA [Cybersecurity and Infrastructure Security Agency] and FIO
+[Federal Insurance Office] should jointly assess the extent to which risks to critical infrastructure from
+catastrophic cyber incidents and potential financial exposures warrant a federal insurance response.”26
+
+Evolution of Terrorism Risk Insurance Laws
+Table 1 presents a side-by-side comparison of selected provisions from the original TRIA law, along with
+the reauthorizing laws of 2005, 2007, and 2015.
+
+24 Department of the Treasury, “Guidance Concerning Stand-Alone Cyber Liability Insurance Policies Under the Terrorism Risk
+
+Insurance Program,” 81 Federal Register 95313, December 27, 2016.
+25 FIO, Report on the Effectiveness of the Terrorism Risk Insurance Program, June 2018, p. 55.
+26 GAO, Cyber Insurance: Action Needed to Assess Potential Federal Response to Catastrophic Attacks, GAO-22-104256, June
+2022, https://www.gao.gov/assets/gao-22-104256.pdf.GAO,
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+10
+
+Table 1. Side-by-Side of Enacted Terrorism Risk Insurance Laws
+Selected Provisions
+Title
+
+Terrorism Risk
+Insurance Act of
+2002
+
+Terrorism Risk
+Insurance
+Extension Act of
+2005
+
+Terrorism Risk
+Insurance Program
+Reauthorization
+Act of 2007
+
+Terrorism Risk
+Insurance Program
+Reauthorization
+Act of 2015
+
+Expiration Date
+
+December 31, 2005.
+(§108(a))
+
+December 31, 2007.
+(§2)
+
+December 31, 2014.
+(§3(a))
+
+December 31, 2020.
+(§101)
+
+“Act of Terrorism”
+Definition
+
+For an act of
+terrorism to be
+covered under TRIA,
+it must be a violent
+act committed on
+behalf of a foreign
+person or interest as
+part of an effort to
+coerce the U.S.
+civilian population or
+influence U.S.
+government policy. It
+must have resulted in
+damage within the
+United States or to a
+U.S. airliner or
+mission abroad.
+Terrorist act is to be
+certified by the
+Secretary of the
+Treasury in
+concurrence with the
+Attorney General and
+Secretary of State.
+(§102(1)(A))
+
+No change.
+
+Removed
+requirement that a
+covered act of
+terrorism be
+committed on behalf
+of a foreign person or
+interest (thus
+expanding coverage
+to domestic
+terrorism). (§2)
+
+Removed Secretary of
+State from
+certification process
+and inserted
+Secretary of
+Homeland Security.
+(§105)
+
+Limitation on Act of
+Terrorism
+Certification in Case
+of War
+
+Terrorist act would
+not be covered in the
+event of a war, except
+for workers’
+compensation
+insurance.
+(§102(1)(B)(I))
+
+No change.
+
+No change.
+
+No change.
+
+Minimum Damage To
+Be Certified
+
+Terrorist act must
+cause more than $5
+million in property
+and casualty insurance
+losses to be certified.
+(§102(1)(B)(ii))
+
+No change.
+
+No change.
+
+No change.
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+Title
+
+Terrorism Risk
+Insurance Act of
+2002
+
+11
+
+Terrorism Risk
+Insurance
+Extension Act of
+2005
+
+Terrorism Risk
+Insurance Program
+Reauthorization
+Act of 2007
+
+Terrorism Risk
+Insurance Program
+Reauthorization
+Act of 2015
+
+Aggregate Industry
+Loss
+Requirement/Program
+Trigger
+
+No provision.
+
+Created a “program
+trigger” that would
+prevent coverage
+under the program
+unless “aggregate
+industry losses
+resulting from such
+certified act of
+terrorism” exceed
+$50 million in 2006
+and $100 million for
+2007. (§6)
+
+No change. Program
+trigger remained at
+$100 million until
+2014. (§3(c))
+
+Program trigger
+increased $20 million
+per year until it
+reaches $200 million
+in 2020. (§102)
+
+Insurer Deductible
+
+7% of earned
+premium for 2003,
+10% of earned
+premium for 2004,
+15% of earned
+premium for 2005.
+(§102(7))
+
+Raised deductible to
+17.5% for 2006 and
+20% for 2007. (§3)
+
+No change.
+Deductible remained
+at 20% until 2014.
+(§3(c))
+
+No change.
+Deductible remained
+at 20% for each
+calendar year of the
+program. (§106)
+
+Covered Lines of
+Insurance
+
+Commercial property
+and casualty
+insurance, including
+excess insurance,
+workers’
+compensation, and
+surety but excluding
+crop insurance,
+private mortgage
+insurance, title
+insurance, financial
+guaranty insurance,
+medical malpractice
+insurance, health or
+life insurance, flood
+insurance, or
+reinsurance.
+(§102(12))
+
+Excluded commercial
+auto, burglary and
+theft, professional
+liability (except for
+directors and officers
+liability), and farm
+owners multiple peril
+from coverage. (§3)
+
+No change.
+
+No change.
+
+Mandatory Availability
+
+Every insurer must
+make available
+terrorism coverage
+that does not differ
+materially from
+coverage applicable to
+losses other than
+terrorism. (§103(c))
+
+No change.
+Mandatory availability
+extended through
+2007. (§2(b))
+
+No change.
+Mandatory availability
+extended through
+2014. (§3(c))
+
+No change.
+Mandatory availability
+in effect for each
+calendar year of the
+program. (§106)
+
+Insured Loss Shared
+Compensation
+
+Federal share of
+losses will be 90% for
+insured losses that
+exceed the applicable
+insurer deductible.
+(§103(e))
+
+Reduced federal share
+of losses to 85% for
+2007. (§4)
+
+No change. Federal
+share remained at
+85% through 2014.
+
+Reduced federal share
+one percentage point
+per year until it
+reaches 80%. (§102)
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+Title
+
+Terrorism Risk
+Insurance Act of
+2002
+
+Cap on Annual
+Liability
+
+12
+
+Terrorism Risk
+Insurance
+Extension Act of
+2005
+
+Terrorism Risk
+Insurance Program
+Reauthorization
+Act of 2007
+
+Terrorism Risk
+Insurance Program
+Reauthorization
+Act of 2015
+
+Federal share of
+compensation paid
+under the program
+will not exceed $100
+billion, and insurers
+are not liable for any
+portion of losses that
+exceed $100 billion
+unless Congress acts
+otherwise to cover
+these losses. (§103(e))
+
+No change.
+
+Removed the
+possibility that a
+future Congress could
+require insurers to
+cover some share of
+losses above $100
+billion if the insurer
+has met its individual
+deductible. Requires
+insurers to clearly
+disclose this to
+policyholders. (§4(a)
+and §4(d))
+
+No change.
+
+Payment Procedures
+If Losses Exceed $100
+billion
+
+After notice by the
+Secretary of the
+Treasury, Congress
+determines the
+procedures for
+payments if losses
+exceed $100 billion.
+(§103(e)(3))
+
+No change.
+
+Required Secretary of
+the Treasury to
+publish regulations
+within 240 days of
+passage regarding
+payments if losses
+exceed $100 billion.
+(§4(c))
+
+No change.
+
+Aggregate Retention
+Amount Maximum
+
+$10 billion for 20022003, $12.5 billion for
+2004, $15 billion for
+2005 (§103(6))
+
+Raised amount to $25
+billion for 2006 and
+$27.5 billion for 2007.
+(§5)
+
+No change. Aggregate
+retention remained at
+$27.5 billion through
+2014.
+
+Raises amount $2
+billion per year until it
+reaches $37.5 billion.
+Beginning in 2020,
+sets the amount equal
+to annual average of
+the sum of insurer
+deductibles for
+previous three years.
+(§104)
+
+Mandatory
+Recoupment of
+Federal Share
+
+If insurer losses are
+less than the
+aggregate retention
+amount, a mandatory
+recoupment of the
+federal share of the
+loss will be imposed. If
+insurer losses are
+over the aggregate
+retention amount,
+such recoupment is at
+the discretion of the
+Secretary of the
+Treasury. (§103(e)(7))
+
+No change.
+
+Increases total
+recoupment amount
+to be collected by the
+premium surcharges
+to 133% of the
+previously defined
+mandatory
+recoupment amount.
+Full mandatory
+recoupment must
+occur by September
+30, 2017. (§4(e)(1))
+
+Increases total
+recoupment amount
+to be collected by the
+premium surcharges
+to 140% of the
+previously defined
+mandatory
+recoupment amount.
+Full mandatory
+recoupment must
+occur by September
+30, 2024. (§104)
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+
+Congressional Research Service
+
+Recoupment
+Surcharge
+
+Surcharge is limited to
+3% of propertycasualty insurance
+premium and may be
+adjusted by the
+Secretary to take into
+account the economic
+impact of the
+surcharge on urban
+commercial centers,
+the differential risk
+factors related to
+rural areas and
+smaller commercial
+centers, and the
+various exposures to
+terrorism risk across
+lines of insurance.
+(§103(e)(8))
+
+13
+
+No change.
+
+Removed 3% limit for
+mandatory surcharge.
+(§4(e)(2)(A))
+
+No change.
+
+Source: Congressional Research Service using public laws obtained through http://www.congress.gov.
+Notes: Section numbers for the initial TRIA law are as codified in 15 U.S.C. §6701 note. Section numbers for P.L. 109144, P.L. 110-160, and P.L. 114-1 are from the legislation as enacted.
+
+CRS TESTIMONY
+Prepared for Congress —————————————————————————————————
+<Product Code>
+
+

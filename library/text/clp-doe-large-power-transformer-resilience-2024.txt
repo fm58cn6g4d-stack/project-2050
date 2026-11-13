@@ -1,0 +1,2520 @@
+Source: https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf
+Publisher: U.S. Department of Energy
+Retrieved: 2026-11-13
+Original SHA-256: b18b19dcd6e3d2f247d53ad84d58decb2a2fd7685693f07f95e23ea96c01240c
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Large Power
+Transformer
+Resilience
+Report to Congress
+July 2024
+
+United States Department of Energy
+Washington, DC 20585
+
+Message from the Secretary
+Large power transformers (LPTs) are essential components of the electric power transmission and
+distribution grid. The susceptibility of LPTs to emerging threats and hazards, combined with their
+extended replacement lead times, presents significant challenges to grid reliability and resilience.
+These challenges include not only localized outages due to physical attacks but also more severe
+incidents with the potential for widespread consequences. To address concerns about LPT
+vulnerabilities, both government and industry have emphasized the importance of maintaining a
+surplus or strategic reserve of transformers. Such a reserve would enhance the ability of individual
+utilities and industry collaborations to respond effectively to adverse situations, strengthening the
+resilience of the U.S. grid and enabling rapid recovery from extensive transformer failures.
+Pursuant to statutory requirements, this report is being provided to the following Members of
+Congress:
+
+•
+
+The Honorable Cathy McMorris Rodgers
+Chair, House Committee on Energy and Commerce
+
+•
+
+The Honorable Frank Pallone, Jr.
+Ranking Member, House Committee on Energy and Commerce
+
+•
+
+The Honorable Tom Cole
+Chairman, House Committee on Appropriations
+
+•
+
+The Honorable Rosa DeLauro
+Ranking Member, House Committee on Appropriations
+
+•
+
+The Honorable Chuck Fleischmann
+Chairman, Subcommittee on Energy and Water Development, and Related Agencies
+House Committee on Appropriations
+
+•
+
+The Honorable Marcy Kaptur
+Ranking Member, Subcommittee on Energy and Water Development, and Related
+Agencies House Committee on Appropriations
+
+•
+
+The Honorable Joe Manchin
+Chairman, Senate Committee on Energy and Natural Resources
+
+•
+
+The Honorable John Barrasso
+Ranking Member, Senate Committee on Energy and Natural Resources
+
+Department of Energy | July 2024
+
+•
+
+The Honorable Patty Murray
+Chair, Senate Committee on Appropriations
+
+•
+
+The Honorable Susan Collins
+Vice Chair, Senate Committee on Appropriations
+
+•
+
+The Honorable Patty Murray
+Chair, Subcommittee on Energy and Water Development
+Senate Committee on Appropriations
+
+•
+
+The Honorable John Kennedy
+Ranking Member, Subcommittee on Energy and Water Development
+Senate Committee on Appropriations
+
+If you have any questions or need additional information, please contact me or Ms. Meg
+Roessing, Deputy Director for External Coordination, Office of Budget, Office of the Chief
+Financial Officer, at (202) 586-3128; Mr. Eric Delaney, Deputy Assistant Secretary for House
+Affairs, or Mr. Brian Eiler, Deputy Assistant Secretary for Senate Affairs, Office of Congressional
+and Intergovernmental Affairs, at (202) 586-5450.
+Sincerely,
+
+Jennifer Granholm
+
+Large Power Transformer Resilience | Page iii
+
+Executive Summary
+
+Department of Energy | July 2024
+
+Large power transformers (LPTs) are essential components of the electric power transmission and
+distribution grid. The susceptibility of LPTs to emerging threats and hazards, combined with their
+extended replacement lead times, presents significant challenges to grid reliability and resilience.
+These challenges include not only localized outages due to physical attacks but also more severe
+incidents with the potential for widespread consequences. To address concerns about LPT
+vulnerabilities, both government and industry have emphasized the importance of maintaining a
+surplus or strategic reserve of transformers. Such a reserve would enhance the ability of individual
+utilities and industry collaborations to respond effectively to adverse situations, strengthening the
+resilience of the U.S. grid and enabling rapid recovery from extensive transformer failures.
+This report provides an overview of the current landscape of LPT vulnerabilities, mitigation
+strategies, recent industry efforts aimed at addressing the issue of strategic LPT reserves, and the
+logistical aspects of operating such a reserve. A 2017 Department of Energy (DOE) Report to
+Congress [1] assessed options for a strategic transformer reserve and recommended a nongovernment solution driven by industry actions and compliance with North American Electric
+Reliability Corporation’s Reliability Standard CIP-014-2 requirements. While this report does not
+advocate for a change in this recommendation, it does offer data indicating significant progress
+within the industry in addressing this issue.
+The availability of spare LPTs and the concept of a strategic reserve remain complex and sensitive
+subjects. These were highlighted in the Infrastructure Investment and Jobs Act (Public Law 117–
+58), also known as the Bipartisan Infrastructure Law (BIL), section 40103(d), which called for
+assessments of efforts related to LPT sparing strategy and resilience. Various industry-driven
+initiatives aim to mitigate the risks and consequences of LPT failures. This report examines several
+of these efforts, including manufacturer and utility collaborations to enhance designs against
+threats, initiatives to address supply chain issues (including the transportation of replacement
+LPTs), standardization and improvement of LPT designs, and industry spare equipment sharing
+programs. Operational details of select LPT sharing programs, such as specifications, opportunities
+for flexible designs, spare LPT quantity requirements, storage and maintenance procedures, and
+security and transportation needs, are also included.
+In summary, this report underscores the industry’s commitment to managing the risks associated
+with potential LPT losses through a range of initiatives and strategies. To further address the
+complexity of the situation, it is crucial to engage in continued discussions with industry
+stakeholders. One possible approach is to convene the power community to explore options,
+utilizing existing forums or hosting workshops to generate new ideas, including potential costsharing arrangements with the Federal Government. Moreover, additional research and
+development efforts are needed to explore novel concepts, flexible systems (such as mobile
+transformers), and other assessment recommendations from the BIL list, such as focusing on the
+storage and security of recovery transformers and encouraging domestic manufacturing or
+expansion of existing transformer facilities. These discussions and actions will contribute to
+enhancing the resilience of the United States power grid and safeguarding its reliability in the face
+of evolving challenges.
+
+Large Power Transformer Resilience | Page ii
+
+Department of Energy | July 2024
+
+LARGE POWER TRANSFORMER RESILIENCE
+Table of Contents
+Executive Summary..................................................................................................................................... ii
+LARGE POWER TRANSFORMER RESILIENCE ......................................................................................... iii
+I. Legislative Language ............................................................................................................................ 1
+II. Introduction ….. ..................................................................................................................................... 2
+II.1 BIL Requirements ....................................................................................................................... 2
+II.2 Objectives and Expectations ....................................................................................................... 3
+III. LARGE POWER TRANSFORMERS ................................................................................................... 4
+III.1 Background ................................................................................................................................. 4
+III.1.1 What are LPTs and why are they important? ............................................................ 4
+III.2 Threats to Large Power Transformers ........................................................................................ 5
+III.2.1 Aging Infrastructure ....................................................................................................... 5
+III.2.2 Extreme Weather ........................................................................................................... 5
+III.2.3 Coronal Mass Ejection & Geomagnetic Disturbances ................................................... 8
+III.2.4 Intentional Attack........................................................................................................... 9
+III.2.5 High Altitude Electromagnetic Pulse (HEMP) ............................................................ 10
+III.2.6 Cyber-attack ................................................................................................................. 11
+III.2.7 Harmonic and Saturation Impacts ................................................................................ 11
+III.3 Large Power Transformer Replacement Challenges................................................................. 12
+III.3.1 Supply Chain Issues ..................................................................................................... 12
+III.3.2 Supply and Demand ..................................................................................................... 13
+III.3.3 Grain-Oriented Electrical Steel .................................................................................... 14
+III.3.4 Manufacturing Capacity............................................................................................... 14
+III.3.5 Dependence on Foreign Equipment and Materials ...................................................... 15
+III.3.6 Amorphous Steel.......................................................................................................... 16
+III.3.7 Spare LPT Long-Term Storage .................................................................................... 16
+III.3.8 Workforce .................................................................................................................... 16
+III.3.9 Transportation Logistics .............................................................................................. 17
+III.3.10 Rail Transport ............................................................................................................. 18
+III.3.11 Road Transport............................................................................................................. 19
+III.3.12 Logistics of LPT Replacement..................................................................................... 20
+III.3.13 Supply Chain Management: Allocation of LPT Components for Assembly ............... 20
+III.3.14 Installation Logistics .................................................................................................... 20
+
+Large Power Transformer Resilience | Page iii
+
+Department of Energy | July 2024
+
+IV. INDUSTRY STATUS OF LARGE POWER TRANSFORMER SPARES AND
+REPLACEMENTS ............................................................................................................................... 22
+IV.1 Existing Sparing and Sharing Programs ................................................................................... 22
+IV.1.1 Spare Transformer Equipment Program (STEP) ......................................................... 22
+IV.1.2 SpareConnect ............................................................................................................... 23
+IV.1.3 Regional Equipment Sharing for Transmission Outage Restoration ........................... 23
+IV.1.4 Grid Assurance............................................................................................................ 24
+IV.1.5 WattStock [64] ............................................................................................................. 26
+IV.2 Efforts Toward Next Generation Transformers ........................................................................ 27
+IV.2.1 DHS/EPRI Recovery Transformer: RecX .................................................................. 27
+IV.2.2 ABB Modular Transformer.......................................................................................... 27
+IV.2.3 GE/Prolec variable-impedance LPT ............................................................................ 27
+IV.3 Efforts Toward Standardization of Design and Manufacturing ................................................ 27
+IV.3.1 Transformer Parameter Standardization Efforts .......................................................... 27
+IV.4 Current Inventory Levels (EEI/APPA/NRECA) ...................................................................... 28
+IV.4.1 Estimating the number of most crucial LPTs............................................................... 29
+IV.4.2 Number of crucial substations and LPTs in 2016 ........................................................ 31
+IV.4.3 Industry-reported availability of spare LPTs in 2016 .................................................. 32
+IV.4.4 Industry-reported availability of spare LPTs in 2023 .................................................. 32
+V. FUTURE CONSIDERATIONS ON LPT RESILIENCE PRACTICES .............................................. 33
+V.1 Opportunities for New Flexible Advanced Transformer Designs ............................................ 33
+V.1.1 LPT Hardening via Hybrid Designs............................................................................. 33
+V.1.2 Solid State Transformers.............................................................................................. 33
+V.2 Standardized and Flexible LPT designs .................................................................................... 35
+V.2.1 Novel Transformer Designs ......................................................................................... 35
+V.3 Advanced Materials for Hardened Transformers ...................................................................... 35
+V.4 Microgrids for Enhanced Resilience During LPT Outages ...................................................... 36
+V.5 Addressing Requirements of a Strategic Inventory of Recovery Transformers ....................... 37
+VI. CONCLUSION .................................................................................................................................... 38
+REFERENCES ………..……………......................................................................................................... 39
+ACRONYMS .............................................................................................................................................. 47
+
+Large Power Transformer Resilience | Page iv
+
+Department of Energy | July 2024
+
+I.
+
+Legislative Language
+
+This report responds to the BIL section 40103(d), which called for assessments of efforts related to
+LPT sparing strategies and resilience. Various industry-driven initiatives aim to mitigate the risks
+and consequences of LPT failures. This report examines several of these efforts, including
+manufacturer and utility collaborations to enhance designs against threats, initiatives to address
+supply chain issues (including the transportation of replacement LPTs), standardization and
+improvement of LPT designs, and industry spare equipment sharing programs. Operational details
+of select LPT sharing programs, such as specifications, opportunities for flexible designs, spare LPT
+quantity requirements, storage and maintenance procedures, and security and transportation
+needs, are also included. Section 40103(d) states:
+“(d) Energy infrastructure resilience framework
+(1) In general
+The Secretary, in collaboration with the Secretary of Homeland Security, the Federal Energy
+Regulatory Commission, the North American Electric Reliability Corporation, and interested
+energy infrastructure stakeholders, shall develop common analytical frameworks, tools,
+metrics, and data to assess the resilience, reliability, safety, and security of energy
+infrastructure in the United States, including by developing and storing an inventory of
+easily transported high-voltage recovery transformers and other required equipment.
+(2) Assessment and report
+(A) Assessment
+The Secretary shall carry out an assessment of—
+(i) with respect to the inventory of high-voltage recovery transformers, new
+transformers, and other equipment proposed to be developed and stored
+under paragraph (1)—
+(I) the policies, technical specifications, and logistical and program
+structures necessary to mitigate the risks associated with the loss of
+high-voltage recovery transformers;
+(II) the technical specifications for high-voltage recovery
+transformers;
+(III) where inventory of high-voltage recovery transformers should be
+stored;
+(IV) the quantity of high-voltage recovery transformers necessary for
+the inventory;
+(V) how the stored inventory of high-voltage recovery transformers
+would be secured and maintained;
+(VI) how the high-voltage recovery transformers may be transported;
+(VII) opportunities for developing new flexible advanced transformer
+designs; and
+(VIII) whether new Federal regulations or cost-sharing requirements
+are necessary to carry out the storage of high-voltage recovery
+transformers; and
+
+Large Power Transformer Resilience | Page 1
+
+Department of Energy | July 2024
+(ii) any efforts carried out by industry as of the date of the assessment—
+(I) to share transformers and equipment;
+(II) to develop plans for next generation transformers; and
+(III) to plan for surge and long-term manufacturing of, and long-term
+standardization of, transformer designs.
+(B) Protection of information
+Information that is provided to, generated by, or collected by the Secretary under
+subparagraph (A) shall be considered to be critical electric infrastructure
+information under section 824o–1 of title 16.
+(C) Report
+Not later than 180 days after November 15, 2021, the Secretary shall submit to
+Congress a report describing the results of the assessment carried out under
+subparagraph (A).”
+
+II. Introduction
+II.1
+
+BIL REQUIREMENTS
+
+For purposes of this report, a LPT is one that has a power rating of 100 MVA or greater [1]. The
+Department of Energy (DOE) estimates that 90 percent of all electricity consumed in the U.S. passes
+through a LPT at some point in its journey from generation to user [1].
+LPTs sometimes need to be replaced, if for example, they are damaged by natural disasters or
+deliberate attacks or they simply reach their end of life (typically on the order of 40 years, although
+many LPTs have been in service for much longer). Replacement of an LPT is always challenging
+because LPTs typically weigh between 150 and 400 tons, leading to unique logistical challenges. In
+addition, another obstacle has recently emerged: lead times for acquisition of an LPT have become
+exceptionally long, with 36-month lead times being commonly quoted and maximum lead times
+reaching as much as 60 months [2, 3, 4]. Stakeholders have identified these long lead times and
+limited availability of spare LPTs as a potential concern for critical infrastructure resilience in the
+U.S. Both the public and private sectors are undertaking a variety of efforts to address this concern.
+DOE has been tasked by Congress to develop, in coordination with public and private sector
+stakeholders, an Energy Infrastructure Resilience Framework as described in BIL section 40103(d).
+The legislation requires DOE to “develop common analytical frameworks, tools, metrics, and data to
+assess the resilience, reliability, safety, and security of energy infrastructure in the United States,
+including by developing and storing an inventory of easily transported high-voltage recovery
+transformers and other required equipment.”
+As a first step, Congress has asked DOE for a report to include:
+(i) an assessment with respect to the inventory of high-voltage transformers, new transformers, and
+other equipment proposed to be developed and stored under BIL 40103(d), Paragraph 1, to include:
+
+Large Power Transformer Resilience | Page 2
+
+Department of Energy | July 2024
+
+(I)
+
+the policies, technical specifications, and logistical and program structures necessary to
+mitigate the risks associated with the loss of high-voltage recovery transformers;
+(addressed in Chapters III & IV)
+
+(II)
+
+the technical specifications for high-voltage recovery transformers; (addressed in
+Chapter IV)
+
+(III)
+
+where inventory of high-voltage recovery transformers should be stored; (addressed in
+Chapters III)
+
+(IV)
+
+the quantity of high-voltage recovery transformers necessary for the inventory;
+(addressed in Chapter III.4)
+
+(V)
+
+how the stored inventory of high-voltage recovery transformers would be secured and
+maintained; (addressed in Chapters III)
+
+(VI)
+
+how the high-voltage recovery transformers may be transported; (addressed in Chapter
+II)
+
+(VII)
+
+opportunities for developing new flexible advanced transformer designs; (addressed in
+Chapters III & IV), and
+
+(VIII)
+
+whether new Federal regulations or cost-sharing requirements are necessary to carry
+out the storage of high-voltage recovery transformers; (addressed in Chapters IV & V.5)
+
+(ii) and to include any efforts carried out by industry as of the date of the assessment:
+(I)
+
+to share transformers and equipment; (addressed in Chapters III)
+
+(II)
+
+to develop plans for next generation transformers; (addressed in Chapters IV.2 & V.1),
+and
+
+(III)
+
+to plan for surge and long-term manufacturing of, and long-term standardization of,
+transformer designs; (addressed in Chapters IV & V).
+
+II.2
+
+OBJECTIVES AND EXPECTATIONS
+
+The primary objective of this report is to summarize the present and future industry needs with
+respect to mitigation of long LPT (not distribution transformers) acquisition lead times in the U.S.
+The specific requirements of the BIL outlined in 40103(d) are addressed herein. Although this
+report seeks to provide information responsive to the BIL requests, the authors also seek to provide
+a holistic view of industry efforts toward LPT resilience. There has been a robust industrial response
+to the problem of LPT availability, and the information collected in this effort is meant to inform
+decision makers, particularly with respect to industry status of programs, which may mitigate the
+need for a federally-owned or supported reserve.
+This report addresses the objectives across three main chapters. Chapter IV summarizes the
+importance of LPTs, the highest impact threats that they face, and the challenges of LPT
+replacement. It is important to understand these aspects to appropriately evaluate the risks within
+the industry and the effectiveness of programs and efforts, which mitigate those risks. Chapter IV
+addresses the status of these industry efforts: sparing and sharing programs, next generation LPT
+designs, and efforts toward standardization of design and manufacturing. Finally, in Chapter V the
+
+Large Power Transformer Resilience | Page 3
+
+Department of Energy | July 2024
+
+future considerations for LPT resilience are discussed. This includes summaries of
+recommendations on LPT designs, resilience solutions, the need for national-level and local
+assessments, and the specific requirements of a federally-owned or supported LPT reserve.
+
+III. LARGE POWER TRANSFORMERS
+III.1
+
+BACKGROUND
+III.1.1 What are LPTs and why are they important?
+
+In modern AC power systems, power is generated at relatively low voltage, transmitted from
+generators toward end users at very high voltage to minimize losses, and then provided to end
+users at low voltages to enhance safety. The devices that shift the electric power between these
+voltage levels are transformers.
+Transformers are available in many different sizes and configurations for many different
+applications. In this report, the focus is on the largest transformers, referred to as “Large Power
+Transformers” (LPTs) which are defined here as transformers that are rated at 100 MVA or larger.
+These transformers are used to connect large generation stations to high-voltage transmission, and
+to shift voltage levels between different parts of the transmission system. Transformers perform
+several other functions as well. The U.S. Department of Commerce (DOC) estimated in 2019 that
+137 LPTs (18 percent) were produced domestically for domestic use while 617 units (82 percent)
+were imported for domestic use, and only 4 units were exported. The agency estimated LPT
+capacity utilization of ~40 percent and a total maximum capacity of ~343 LPTs/year was derived for
+domestic manufacturers [5, p. 198]. In 2022, DOE estimated that there are between 4,900 to 6,799
+LPTs currently in use in the U.S. [6, p. 13].
+LPTs, along with the transmission lines that connect to them, are the backbone of the North
+American transmission system, linking power generators to electric loads. Approximately 90
+percent of consumed electric energy in the U.S. flows through at least one LPT [7]. The
+transmission system in North America is largely networked, meaning that in most parts of the
+system there is more than one path through which power can flow from sources to consumers.
+Each path in the network typically contains LPTs. Thus, there is some redundancy in networked
+transmission, but still, it has been shown that attacks on a relatively small number of transformer
+substations, causing the loss of several LPTs simultaneously, could cause major grid disruptions or
+degraded reliability [8]. Also, the level of networking of the system typically becomes lower (fewer
+paths) as one gets closer to the consumer, and in some cases the transmission system becomes
+“radial”, meaning there is only one path from the larger grid to a group of consumers. Loss of a
+single LPT in a radial system interrupts power service to customers served by that LPT, although
+these are typically smaller transformers than the LPTs addressed in this report. Given these
+scenarios, the ability to replace LPTs in a reasonable period of time is a key factor in power system
+reliability and resilience.
+
+Large Power Transformer Resilience | Page 4
+
+III.2
+
+THREATS TO LARGE POWER TRANSFORMERS
+
+Department of Energy | July 2024
+
+III.2.1 Aging Infrastructure
+LPTs are typically considered to have a design lifetime on the order of 40 years. In 2014, a DOE
+report estimated that the average age of LPTs in the North American grid was 38–40 years [9],
+indicating that a substantial fraction of those LPTs are at or over that design lifetime. These LPTs
+will ultimately need to be replaced or refurbished.
+Design and operational modifications can affect LPT lifespan. High core flux can cause over heating
+of the thin, insulated steel plates (laminations) that make up a transformer core. In a transformer
+fleet, degradation of the unit could occur when the insulation on these laminations is subjected to
+higher temperatures for a short duration. Overheating also causes the degradation of the
+transformer winding insulation and increases the potential of transformer failure. Moreover, higher
+temperatures also affect the life of insulation [3]. Furthermore, prolonged operation at high
+temperatures can cause fires if hot insulating oil escapes the tank [10].
+Transformers naturally produce heat during operation and require varying levels of cooling capacity
+depending on both operating load and ambient temperature. At least one manufacturer, Hitachi
+Energy, designs larger units based on regional temperature data from customers. Hitachi Energy
+tests units based on expected operational conditions and adjusts designs as necessary to ensure
+safe operating temperatures. Cooling capacity can be added to an LPT design by increasing the size
+of the tank (allowing it to hold more oil) or adding radiators (to passively cool the oil) or fans (to
+actively cool). Additional capacity can be obtained by adding alternating fans for long-duration
+high-temperature events [3]. Replacing mineral oil cooled transformers with natural ester oil
+cooled units requires larger tanks to achieve the same cooling capacity, but because ester oil is
+much less flammable and more environmentally friendly, it reduces the fire risk of an overloaded
+transformer [10].
+One approach to respond to individual transformer outages is to increase the power load of other
+transformers in the area to make up for the loss of capacity, allowing utilities to trade shortened
+equipment lifespans for minimally affected service. LPTs can be overloaded up to 10–20 percent
+above their rated power, but this accelerates insulation aging. Overloading is primarily an issue for
+windings and components which carry current, bushings and internal cables [3]. Different utilities
+have different requirements for both transformer design and permissible overloading, depending
+on factors including risk tolerance, outage tolerance, and regional wildfire risk [4].
+
+III.2.2 Extreme Weather
+Extreme weather events that impact the electric grid include hurricanes, tornadoes, snowstorms,
+geomagnetic disturbances (space weather), thunderstorms, extreme heat, and wildfires. Some of
+the most common natural events that impact LPT lifetime are discussed below.
+
+Winter Weather
+Winter weather includes a broad range of effects, such as snow accumulation, ice formation, and
+very low temperatures. Utilities include plans such as ice storm or wind preparedness into their
+
+Large Power Transformer Resilience | Page 5
+
+Department of Energy | July 2024
+
+operations. 1 While such weather events are known to affect the transmission grid, not all present
+danger to transformers. We briefly review the three major winter weather effects: snow
+accumulation, ice formation, and severe cold.
+•
+
+Snow Accumulation. There is no evidence that snow accumulation has directly caused any
+high voltage transformer failures in the U.S. or elsewhere in the world. Reports from larger
+snow-related events such as the 2008 snowstorm in China 2 show that snow accumulation
+damaged transmission lines and substation equipment but not high voltage transformers.
+
+•
+
+Ice Formation. Ice formation is not dangerous for the transformer coils but may create
+flashovers if ice accumulates on the bushings. According to different reports, bushing issues
+contribute to a significant portion of LPT forced outages [11] [12]. Despite the fact that ice
+storms are discussed as a serious threat to power systems, similar to snowstorms, they
+were not found to cause direct damage to transformers. There was no damage to
+transformers in the 1998 Quebec ice storm [13, p. 68], 2006 Illinois ice storm, 3 2008 New
+Hampshire ice storm [14], 2013 Toronto ice storm [15] [16], or 2023 Michigan ice storm
+[17].
+
+•
+
+Severe Cold. Winter weather can cause low temperatures, which affects oil inside the
+transformer. However, there is no documented evidence of the actual damage done to
+transformers by this phenomenon.
+
+Thunderstorms
+Between 1991 and 2010, lightning was attributed as the cause of roughly 13 percent of power
+transformer failures (according to one US manufacturer) [18]. It is a well-researched cause of
+transformer failure, with multiple studies investigating the processes related to transients and
+exploring how to prevent or reduce the resulting damage [19] [20] [21] [22]. Lightning affects
+transformers through two principal ways: line surge and direct strike [23]. The latter is known to
+happen often in sub-transmission and distribution grids [24] but there is no evidence of
+transmission level transformers being damaged by direct strike. Line surge does not involve direct
+strike. The lightning can strike nearby causing electric fields, which create a voltage and current
+surge in the transmission lines that are connected to transformers.
+
+Wildfires
+Wildfires are a common cause of transformer damage, with many studies available on the subject
+[25]. Utilities typically have prevention and response plans. Some examples can be found from
+California and Oregon [26] [27]. The relationship between wildfires and transmission grid damage is
+known to be bidirectional. Utilities in some areas engage in preventive deenergizing of the
+transmission grid to avoid potential wildfires [28] [29].
+Quarterly Report Verification/Monitoring Investigation of Wind and Ice Storm Preparedness and Restoration of
+the Ameren Illinois Companies. The Liberty Consulting Group, 2009.
+2
+Zhou B. et al., “The great 2008 Chinese ice storm. Its socioeconomic-ecological impact and sustainability lessons
+learned,” DOI:10.1175/2010BAMS2857.1.
+3
+Investigation of Wind and Ice Storm Preparedness and Restoration of the Ameren Illinois Companies. The Liberty
+Consulting Group, 2008.
+1
+
+Large Power Transformer Resilience | Page 6
+
+Department of Energy | July 2024
+
+Heat
+
+According to a study from the European Union (EU), about 2 percent of all large transformer failures
+are due to overheating [30]. Overheating can directly lead to failures, and it can also indirectly lead
+to premature failure via reduced life of internal components. Therefore, it may be difficult to
+clearly decide which effect is observed in the transformer. The effect of heat on large transformers
+has been recognized in the industry [31] [32] [33] and is subject to ongoing theoretical studies [34].
+The threat of overheating may increase if more heat waves are observed in areas with previously
+moderate climate [35]. Modern transformer monitoring techniques are capable of detecting
+overheating issues.
+
+Earthquakes
+Earthquakes are a well-researched and well-documented type of impact on high voltage
+transformers [36] [37]. The Institute of Electrical and Electronics Engineers (IEEE) 693 standard
+provides recommendations for substation design in seismic zones, including qualifications for tanks,
+bushings, surge arresters, and transformer components [38].
+
+Hurricanes and Tornadoes
+Direct transformer damage from wind is not a common occurrence, although there is evidence from
+Canada [39] and Cyprus [40] showing that a strong storm could cause wind damage to a high
+voltage grid. However, most utilities in hurricane prone areas have invested substantially in grid
+hardening measures, flood mitigation, and operational practices to reduce the threat of LPT
+damage or failure resulting from a hurricane.
+
+Flooding
+Flooding can have a significant impact on transformers. Key impacts of flooding on transformers
+include:
+•
+
+Insulation Damage: Transformers have insulation materials that help isolate different
+voltage levels and protect the windings. Flooding can lead to the saturation of insulation
+materials, compromising their effectiveness. Water can degrade the dielectric properties of
+the insulation, causing electrical breakdowns, short circuits, and potential damage to the
+transformer windings.
+
+•
+
+Loss of Cooling: Transformers require effective cooling mechanisms to dissipate heat
+generated during operation. Flooding can disrupt the cooling systems, such as oil pumps,
+cooling fan motors and controls, or radiators, by submerging them in water. Inadequate
+cooling can result in the overheating of the transformer, leading to insulation deterioration,
+reduced lifespan, and potential failure.
+
+•
+
+Oil Contamination: Transformers are filled with insulating oil that provides cooling and
+insulation properties. Flooding can cause water to mix with the transformer oil, leading to
+oil contamination. Water-contaminated oil loses its dielectric strength and can cause
+arcing, short circuits, and damage to the transformer components.
+
+Large Power Transformer Resilience | Page 7
+
+Department of Energy | July 2024
+
+•
+
+Mechanical Stress: Flooding can subject transformers to significant mechanical stress. The
+buoyancy of water can cause transformers to shift or move from their original positions,
+leading to mechanical damage. Additionally, debris carried by floodwaters, such as
+branches, can impact the transformer, causing physical harm and compromising its
+structural integrity.
+
+•
+
+Corrosion and Oxidation: Exposure to floodwater can accelerate the corrosion and
+oxidation processes in transformer components. The presence of moisture can cause metal
+components, such as windings, terminals, and core laminations, to corrode and/or oxidize.
+Corrosion and oxidation can increase resistance, introduce electrical faults, and reduce the
+overall efficiency of the transformer.
+
+•
+
+Electrical Grounding Issues: Floodwaters can compromise the electrical grounding system
+of transformers. Submergence of grounding electrodes or connections in water can
+increase resistance, hinder proper grounding, and affect the safe operation of the
+transformer.
+
+The severity of the impact of flooding on transformers depends on factors such as the depth and
+duration of the flood, the quality of the transformer's construction, and the mitigation measures in
+place. Quick action to de-energize and isolate flooded transformers, followed by proper inspection,
+cleaning, drying, and, if necessary, repair or replacement, is essential to mitigate damage and
+restore the transformer's functionality.
+
+III.2.3 Coronal Mass Ejection & Geomagnetic Disturbances
+Geomagnetic disturbances (GMDs) are a naturally occurring phenomenon initiated by solar activity.
+They occur when a coronal mass ejection (CME), a significant discharge of magnetic field/plasma
+from the Sun, collides with Earth’s magnetosphere and results in the formation of electrojets in the
+ionosphere. The electrojets cause electric fields which couple to terrestrial power transmission
+lines, in turn driving the flow of very low-frequency geomagnetically induced currents (GICs).
+Ultimately, these GICs flowing through many types of LPTs is the cause of nearly all GMD-related
+issues. GICs can cause half-cycle saturation in LPTs by introducing a magnetic flux offset in the
+transformer core, which can result in increased harmonic generation, transformer heating, and
+system instability. An illustration of half-cycle saturation is shown in Figure 1.
+
+Figure 1 – Half-cycle saturation in a transformer [41].
+
+Large Power Transformer Resilience | Page 8
+
+Department of Energy | July 2024
+
+GMDs have damaged transformers in the past. The most famous event occurred on the HydroQuébec grid on March 13, 1989 [42] [43]. There is also evidence that GMDs caused transformer coil
+destruction in the U.S. [44].
+Transmission operators are required to take steps to mitigate the potential impacts of GICs [45].
+The hardening of the power system against GMDs can be divided into two broad categories: (1)
+protecting LPTs directly from GICs and their impacts, (2) operating the power system in way to
+minimize the risk (e.g., increasing system operating margins, preparing in advance for special GMDrelated contingencies, etc.). The most direct and commonly applied approach to protect LPTs from
+GICs is with a passive blocking or mitigation device that prevents core saturation [46].
+
+The North American Electric Reliability Corporation (NERC) standard TPL-007 requires North
+American transmission operators to conduct studies of expected GMD impacts on their systems and
+take certain mitigation measures [47].
+
+III.2.4 Intentional Attack
+Significant investment has been made in applying physical security protections at stations and
+substations containing LPTs as the electric grid continues to be the target of both physical and
+cyber-attacks that have disrupted high voltage (HV) and extra-high voltage (EHV) transformers. In
+Figure 2, data collected from Form OE-417 shows trends in electric grid attacks from 2018 to 2022
+[48].
+
+Figure 2 U.S. Trend in Electric Grid Attacks (Shows cumulative number of attacks) [48].
+
+Large Power Transformer Resilience | Page 9
+
+Department of Energy | July 2024
+
+Utilities have been actively looking at ways to decrease physical vulnerabilities. Fences around
+substations to disrupt remote line of sight to equipment, although less effective than reinforced
+shielding, are also less expensive. While it is expensive to use thicker steel on the transformers’
+shell, utilities have been monitoring oil temperatures remotely and acoustically monitoring
+substations in order to detect rifle shots and cut power to damaged transformers before they are
+irreparable.
+
+III.2.5 High Altitude Electromagnetic Pulse (HEMP)
+A HEMP (high altitude electromagnetic pulse) is an electromagnetic pulse that is created by a
+nuclear weapon explosion high in the atmosphere, nominally between 75 km and 300 km above
+ground. Each HEMP has three potential parts of its waveform that may affect an LPT. E1 HEMP is a
+2.5 ns rise time electric field with peak of approximately 50 kV/m. The E1 is finished at about 1
+microsecond. The E1 pulse can induce voltage and current spikes on wires and cables, impacting
+the equipment they are connected to—such as exposed transformer cables, which monitor and
+control temperatures, fans, and pumps. These auxiliary equipment devices have not been tested in
+a laboratory setting to determine their resilience to an E1 HEMP but are currently being assessed
+for placement in the testing queue by the DOE and the National Laboratories. The potential
+susceptibility of these systems was discussed in person with an LPT manufacturer 4. Although such a
+response is not known, a failure of these LPT auxiliary devices would generally result in a required
+reduction of power to accommodate a loss of cooling system component controls. Without the
+cooling components operational, the LPT rating would overheat and potentially fail. The LPT
+winding insulation systems have been tested for E1 HEMP at Sandia National Laboratories and were
+found to be robust to a E1 HEMP.
+E2 HEMP has a frequency content and magnitude similar to a nearby lightning strike. Since
+transformers are already designed to withstand surges due to nearby lightning strikes by their
+design of Basic Impulse Level and the use of lightning surge arrestors, E2 HEMP is typically ignored
+and not considered a threat. 5 E3 HEMP is the third part of a HEMP of concern for LPTs. This ‘latetime’ component of a HEMP occurs from 1 second to about 300 seconds after the weapon’s
+detonation. The electric field created by E3 is very low in frequency, appearing very similar to the
+electric field caused by a GMD. However, the E3 HEMP can result in larger electric fields (hence
+larger GICs), which can have a greater effect on the saturation of LPTs and severely suppressing
+system voltage, or collapsing it, with potential to cause a partial or multi-state system blackout [49].
+The short duration of these GICs; however, will not cause LPT overheating or damage [50].
+Appropriate mitigations for E3 would include neutral blocking devices on susceptible transformers.
+However, unlike a GMD, incrementally larger transformer cores may not provide benefit, and
+improved insulation systems would not be necessary as there would not be sufficient heating to
+cause damage.
+
+Guttromson, Ross, et al, “Electromagnetic Pulse – Resilient Electric Grid for National Security: Research Program
+Executive Summary”. United States: N. p., 2020. Web. doi:10.2172/1879618.
+5
+Sandia National Laboratories is conducting a detailed three-year study (2023-2026) on the potential impacts to
+power systems and component failures from E2 EMP. The analysis will attempt to validate or refute the claims
+regarding the ability of E2 to cause dielectric failures, as well as its potential for causing wide-spread relay trips.
+4
+
+Large Power Transformer Resilience | Page 10
+
+Department of Energy | July 2024
+
+III.2.6 Cyber-attack
+
+Transformers are at risk of both physical and cyber-attacks. Depending on the nature and severity
+of the cyber-attack, a transformer might need to be replaced. Due to the sensitivity of
+cybersecurity risks and mitigations; this information was not included in this report.
+
+III.2.7 Harmonic and Saturation Impacts
+Harmonic Effects
+LPTs may experience the presence of higher-order harmonics because of the presence of
+transmission-connected inverter-based resources. These resources produce harmonics on their
+own, and they can also excite existing resonances in the system, making the harmonics larger.
+When harmonics are present in the electrical system, they can cause additional heating and stress
+on a transformer’s windings, insulation, and core, shortening its lifetime. To mitigate the impact of
+harmonics on LPTs, utilities and grid operators can take several measures, including ensuring that
+inverter-based resources conform to grid codes such as IEEE Std 2800-2022, installing harmonic
+filters, and using transformers designed to handle harmonics. Transformer manufacturers can also
+design and test transformers to withstand higher levels of harmonics, and regulators can establish
+standards and guidelines for transformer resilience to harmonics.
+
+Saturation Effects
+Saturation can have a significant impact on LPT performance. Saturation occurs when the magnetic
+flux density in the transformer’s core reaches its maximum capacity and its affinity to contain
+magnetic flux (its permeability) drastically decreases. Then any increase in magneto motive force
+(MMF) results in a limited increase in the magnetic flux density, and flux ‘leaks’ out of the core. This
+leakage is generally harmful because the magnetic flux will cause currents to flow in structural parts
+of the transformer that were not designed to carry current, which can cause problematic heating.
+When a transformer’s core is saturated, the transformer’s performance can be affected in several
+ways. Saturation can cause increased core losses and generate additional heat, which can cause
+insulation breakdown and reduce the transformer’s lifespan. In addition, saturation can cause a
+decreased reactance, resulting in suppressed terminal voltage and leading to reduced efficiency and
+voltage regulation. Saturation can also cause harmonic distortion, which can cause additional stress
+on the transformer's windings and insulation, which can ultimately result in transformer failure.
+To mitigate the impact of saturation on transformers, utilities and grid operators can take several
+measures. These include designing transformers with an oversized core and selecting core
+lamination materials with a high magnetic permeability. Additionally, regulators can establish
+standards and guidelines for transformer resilience. Regular maintenance and monitoring of
+transformers can also help detect and prevent saturation-related issues before they cause
+significant damage.
+
+Large Power Transformer Resilience | Page 11
+
+III.3
+
+Department of Energy | July 2024
+
+LARGE POWER TRANSFORMER REPLACEMENT CHALLENGES
+III.3.1 Supply Chain Issues
+
+The LPT supply chain is complex. LPTs are expensive, difficult to transport, and highly customized
+devices with long lead times for manufacture, testing, delivery, and installation of new units. The
+procurement and manufacturing of LPTs typically includes prequalification of manufacturers, a
+competitive bidding process, device design, manufacture, testing, and the arrangement of special
+modes of transportation for device delivery. Transportation from the manufacturer to grid
+installation is also a significant element of the LPT total cost. Due to the size and weight of the
+devices, as well as the often-remote installation locations, the last 5 to 10 miles of transport are
+particularly expensive and challenging.
+LPTs are usually custom-built to fit the specifications of their use case. In addition to voltage rating,
+technical characteristics such as impedance and required safety equipment vary by jurisdiction.
+Required voltages are specific to the installed location. Each jurisdiction and locality have different
+requirements, and different design tradeoffs are reflected in each jurisdiction’s design choices [4].
+As a result of these factors, LPT manufacturing lead times can become very long, particularly if the
+device is sourced internationally. Prior to the Coronavirus Disease of 2019 (COVID-19) pandemic, it
+was possible to place an order for a large transformer with a lead time of less than a year, and
+recent conversations with domestic producers have indicated that much longer lead times, up to
+and exceeding 36 months, are occurring today [3] [4]. Delays may also occur if the ordering queue
+is backed up, or if the manufacturer has difficulty obtaining key inputs, such as specialty steel
+laminations, specialty copper wire and other materials, or appropriately skilled labor [51, p. 13].
+These challenges within the LPT supply chain represent potential bottlenecks to rapid grid
+expansion, raising concerns about the vulnerability of this key segment of the U.S. domestic energy
+infrastructure [6, p. 21]. Figure 3 outlines the required inputs for LPT production [6]. Within the
+LPT supply chain, raw materials such as grain-oriented electrical steel (GOES), continuously
+transposed conduction (CTC) copper wire, and insulating materials have a significant impact on final
+LPT availability and price [6, p. 9]. According to a 2020 U.S. Department of Commerce industry
+survey, GOES and CTC each account for roughly 25 percent of final LPT production costs [5, pp. 9,
+221]. In addition, the majority of GOES used for U.S. LPT manufacture is not produced domestically.
+
+Large Power Transformer Resilience | Page 12
+
+Department of Energy | July 2024
+
+Figure 3: LPT Supply Chain Inputs [6]
+
+III.3.2 Supply and Demand
+In 2020, the Asia-Pacific region had the largest global LPT market share in sales with 39 percent,
+followed by Europe with 24 percent, and the Middle East & Africa with 17 percent market share.
+North America had 15 percent while South America had the lowest market share at about 4 percent
+[6, p. 3].
+In 2019, U.S. demand for new transformers (> 60MVA) was ~750 units. Over 80 percent of these
+new units were imported due in part to long domestic transformer lead-times and lower
+manufacturing costs of imported devices. A recent DOE report suggested that U.S. domestic
+demand is expected to increase to ~900 units annually by 2027 [6, p. 2], but in interviews
+conducted for this report, U.S. transformer manufacturers reported experiencing much larger
+jumps in demand, as much as 70 percent year-over-year, in the last 1–2 years [3] [4].
+The primary LPT demand drivers include replacement of aging units currently in use, the addition of
+new LPTs to the electricity grid to accommodate transmission expansion supporting economic
+growth, and the growth in deployment of renewable energy-based generation plants and energy
+storage facilities on the transmission system.
+
+Large Power Transformer Resilience | Page 13
+
+Department of Energy | July 2024
+
+The demand for lower-voltage, lower-power transformers is also increasing. Because transformers
+used at other voltage levels use many of the same raw materials as LPTs, demand for those
+transformers impacts material availability for LPT construction and LPT cost.
+
+The intended use-life of an LPT is typically about 40 years and the average age of currently installed
+devices in the U.S. is about 40 years, with some units still in operation after more than 70 years of
+service. According to a 2014 estimate, more than 70 percent of U.S. LPTs were aged more than 25
+years [6, p. 13]. Aging LPTs increase failure risk, putting increased pressure on domestic demand
+[9].
+
+III.3.3 Grain-Oriented Electrical Steel
+Within the LPT supply chain, raw materials such as GOES, CTC copper wire, and insulating materials
+have a significant impact on final LPT availability and price. GOES is manufactured in several grades,
+including conventional oriented grade (CGO), high-permeability grade (HI-B), Permanent DomainRefined GOES (PDR), and intermediate-grade (MOH). HI-B domain-refined grade is highly demanded
+by LPT manufacturers because of its low core loss to reduce LPT weight. According to a 2020 U.S.
+Department of Commerce industry survey, GOES and CTC each account for roughly 25 percent of
+final LPT production costs.
+Furthermore, high and increasing domestic demand for transformers competes for the limited
+supply of domestically produced and imported high-quality GOES and other essential inputs. In
+addition, the steady increase in domestic electric vehicle (EV) demand puts pressure on this LPT
+supply chain segment: domestic EV production consumes non-oriented electrical steel (NOES),
+which competes for steel production capacity with domestic GOES. As a result, domestic NOES
+demand crowds out the less profitable domestic production of GOES. DOE concluded in 2022 that
+domestic GOES production “is a major weak link in the LPT supply chain with an insignificant
+domestic market, an insignificant global market demand, the inability to compete with the global
+market, the lack of technology or material substitutions, and shrinking supply due to other
+competing applications” [7, p. 52].
+
+III.3.4 Manufacturing Capacity
+DOE identifies limited cost-effective domestic LPT manufacturing capacity as a second significant
+weak link in the domestic LPT supply chain, and the best medium-term opportunity to reduce LPT
+import reliance. The total production capacity of U.S. LPT manufacturers is difficult to estimate
+because LPT manufacturing facilities typically use their capacity to produce multiple products at the
+same time. The U.S. Department of Commerce estimated that in 2019, 137 LPTs (18 percent) were
+produced domestically for domestic use while 617 units (82 percent) were imported, and only four
+units were exported. The agency estimated LPT capacity utilization of ~40 percent, and a total
+maximum capacity of ~343 LPTs/year was derived for domestic manufacturers [5, p. 198].
+Manufacturing facilities have a certain number of build slots: each slot can be used for an LPT, a
+smaller transformer, or a refurbishment of a transformer core, but capacity cannot easily be
+expanded except by building a new facility. New factory construction takes 1–3 years; aside from
+the logistical and financial challenges common to large construction projects, the most significant
+
+Large Power Transformer Resilience | Page 14
+
+Department of Energy | July 2024
+
+constraint faced by transformer factories is sourcing equipment. Specialty equipment such as
+winding machines or core tables can take 1–2 years to obtain from suppliers [4] [3]. Minor
+equipment purchases such as cranes, air pallets, or interior space reallocations can only expand
+capacity marginally, but at lower cost and quicker timeframe than facility expansions [4].
+
+III.3.5 Dependence on Foreign Equipment and Materials
+The LPT supply chain is complex and highly globalized, depending on materials and components
+sourced from around the world [3]. Higher grades enable more efficient transformers. The highest
+grade GOES PDR is only available from a single manufacturer, Nippon Steel in Japan, and is not
+manufactured in the U.S. An intermediate grade GOES, MOH, is widely available from Japan and
+South Korea. U.S. producer AK Steel makes an equivalent to MOH GOES; however, the U.S. option
+is more expensive with no efficiency benefit and is therefore not commonly used by U.S. LPT
+manufacturers [5, p. 108].
+Approximately 80 percent of GOES was imported in 2019 [5, pp. 13, 47]. Specific numbers depend
+on whether the GOES is imported in uncut rolls (20 percent), pre-cut lamination sheets (88
+percent), pre-assembled stacked cores (80 percent), wound cores (100 percent, requires PDR
+GOES), or completed transformers (35 percent of all transformers, 82 percent of LPTs) [5, p. 132].
+Furthermore, high and increasing domestic demand for smaller and more numerous substation and
+distribution transformers competes for the limited supply of domestically produced and imported
+high-quality GOES and other essential inputs [6, p. 18].
+According to a 2022 DOE LPT supply chain assessment, the most effective near-term opportunity to
+reduce LPT supply chain vulnerability is to improve domestic GOES production capability. There is
+only one GOES manufacturer in the U.S. and this company has been unable to meet domestic
+demand at quality and prices comparable to imports [6, p. 15].
+On average, imported GOES hovers around 20 percent market penetration. Previously-reported
+information has put the percentage of imported GOES as low as 12 percent, or as high as 37 percent
+between 2015–2019, with specific quantities varying depending on the year and the specific
+suppliers that were subject to a 2017 25 percent tariff on imported GOES [5, p. 98]. However, a
+DOC manufacturer survey showed unclear boundaries between GOES rolls, laminations, and cores.
+Many manufacturers purchase GOES as pre-cut laminations, either from a value-adding steel
+manufacturer or an intermediary supplier that buys GOES rolls and cuts them into laminations
+and/or stacks laminations into cores. These value-added steps do not have a separate category in
+trade data, and manufacturers categorize their GOES purchases inconsistently. For instance, 60
+percent of GOES trade volume is accounted for in manufacturer-reported lamination volume.
+Cleveland-Cliffs (through its 2020 acquisition of AK Steel) is the sole active domestic GOES supplier.
+The company is able to meet between 12–20 percent of domestic GOES demand, but is not
+currently profitable [6, pp. 20, 47] [5, p. 9] [9].
+ATI (previously Allegheny Technologies Incorporated) formerly produced GOES but shut down GOES
+production in 2016 due to unprofitability. Trade data showed a 155 percent increase in GOES
+imports the following year as a result of this shutdown. U.S. Steel has the capability to produce
+GOES through its 2022 acquisition of Big River Steel; however, it is producing NOES (non-oriented
+
+Large Power Transformer Resilience | Page 15
+
+Department of Energy | July 2024
+
+electrical steel) instead [5, p. 12]. NOES uses the same production equipment as GOES but is not
+cold-rolled; NOES is primarily used for electric motors and generators, and demand for NOES has
+grown rapidly to supply EV motors.
+
+U.S. LPT manufacturers primarily import GOES from Japan and South Korea, which produce the
+highest quality GOES [5, p. 68]. Trade data and manufacturer surveys suggest that when an
+American LPT manufacturer wants to purchase uncut low-grade GOES rolls, they may purchase
+from AK Steel, and that much of AK Steel’s GOES is intended for export. However, when LPT
+manufacturers purchase laminations or cores, they primarily import from foreign suppliers. Foreign
+suppliers can provide higher quality for lower costs, both because of reduced manufacturing costs
+and because GOES is subject to a 25 percent tariff when imported from major exporter countries,
+while laminations and cores are not.
+
+III.3.6 Amorphous Steel
+Amorphous steel is an emerging alternative to GOES. While GOES is cold-rolled to orient electrical
+steel’s magnetic fields in one direction, amorphous steel is rapidly cooled in thin sheets to create
+electrical steel with randomly oriented magnetic fields. Amorphous steel cores have lower losses
+than GOES cores and thus transformers made with amorphous steel cores can have higher
+efficiency. However, amorphous steel is brittle, which leads to decreased yields and increased
+shipping costs and labor costs both in production and core stacking. Amorphous steel transformers
+were first used in the U.S. in 1982, but due to higher associated labor costs, these have been more
+popular in China (1.1 million transformers installed) and India (1.3 million) than in the U.S. (600
+thousand) [5, pp. 136-138]. Metglas is currently the only U.S. producer of amorphous steel,
+although amorphous steel is not generally used in domestic LPTs.
+
+III.3.7 Spare LPT Long-Term Storage
+Spare LPTs have many of the maintenance requirements of in-service transformers. Many utilities
+thus find it beneficial to store spare LPT’s onsite or at a central substation. This enables routine
+maintenance to be performed as an extension to the regular activities of the other equipment at
+that substation. Incremental labor is negligible, and the expected lifespan of the spare LPT is equal
+to or greater than that of the in-service transformers it would replace. However, the on-site spare
+LPT is subject to any physical threats or risks that the in-service LPTs might face.
+Off-site storage is a more costly option but helps to mitigate risks associated with co-locating spares
+with in-service transformers. Although a more expensive option, storage depots can provide safe
+storage and can be strategically located to serve a high number of substation locations.
+
+III.3.8 Workforce
+Labor expenses vary widely between manufacturers, ranging from 1 percent–87 percent, but on
+average labor accounts for 36 percent of manufacturing cost [5, p. 221]. A 2020 U.S. Department of
+Commerce survey of 87 domestic LPT component manufacturers found that “eighty-nine percent of
+survey respondents reported having had difficulties in finding qualified or experienced workers,
+including 66 percent that identified the problem as an ongoing issue” [5, p. 221]. These
+respondents identified a need for increased training in areas such as welding, coil winding, and
+
+Large Power Transformer Resilience | Page 16
+
+Department of Energy | July 2024
+
+transformer testing [5, p. 221]. The issue is exacerbated by low foreign labor rates, significant
+foreign government subsidies, and foreign manufacturer dumping at artificially low prices [6, p. 53].
+Delta Star stated that labor costs are its biggest hurdle in competing with international
+manufacturers. The larger a transformer, the more labor it requires to wind and assemble,
+increasing the cost differential between domestic manufacturers and foreign manufacturers in
+countries with lower labor costs such as Mexico and South Korea [4].
+Because LPT manufacturers typically produce both LPTs and smaller, more numerous substation
+and distribution transformers using the same facilities, increased test space could also help to ease
+manufacturing bottlenecks [6, pp. viii-ix]. An additional potentially effective medium-term focus is
+to increase LPT workforce training, which could require “a change in both training curricula at
+various levels and increased apprenticeship and internship opportunities in collaboration with
+industry” [6, p. ix]. Long-term efforts could include increased research and development to
+improve production efficiency, reduce material content, and cut LPT production costs [6, p. ix].
+There can also be constraints in the number of skilled workers to install and maintain LPTs. While
+utilities have contracts and crew sharing agreements with each other to provide additional
+workforce to restore/repair transformers and other infrastructure after a severe event, multiple
+utilities contract with the same companies. Therefore, if there is a regional event affecting multiple
+utilities, fewer auxiliary crews may be available than the emergency plans predicted. There is a
+need for better standardization procedures and designs in the power industry, to facilitate crosstraining of work crews to dispatch across multiple utilities.
+
+III.3.9 Transportation Logistics
+Transportation time during LPT replacement is highly dependent on the size of the transformer, the
+travel distance, and the proximity to roads or railroads at both ends of the route. In addition, there
+is high variability in the available route choices, which is driven by several factors:
+•
+
+LPTs can be two to three times the weight of the heaviest “normal” loads for a railroad, so
+they require specialized staffing and data resources at the rail companies as well as at the
+governmental agencies responsible for approving the transportation route and issuing the
+relevant permits.
+
+•
+
+LPTs are susceptible to serious damage from excessive vibration or impact, so they require
+special handling during rail operations.
+
+•
+
+Heavy hauler contractors, heavy crane contractors, and riggers must be scheduled. They
+are often independent contracting companies, and not under the control of utility
+companies.
+
+•
+
+Schnabel cars, other specialized railroad cars, and highway heavy hauler vehicles needed for
+carrying LPTs must be scheduled. These specialized vehicles are few in number and often
+not owned or controlled by the utilities. When needed, these cars may be far away or
+otherwise not readily available.
+
+•
+
+Roadway and railroad path clearances must be checked as part of transport route
+assessment. Bridges need to be analyzed and may need inspection. These functions are
+
+Large Power Transformer Resilience | Page 17
+
+Department of Energy | July 2024
+
+usually performed by state government employees, who are not under the direct control of
+the utilities.
+•
+
+Road closures must be planned, including traffic detours and temporary power line
+relocations. These tasks involve local government staff, who are not under the direct
+control of the utilities.
+
+•
+
+Moving LPTs, especially across state boundaries, requires various transportation permits
+and sometimes environmental permits. The requirements for obtaining permits from
+numerous agencies may further constrain what routes can be used.
+
+Figure 4 depicts the time required to replace a damaged LPT with an existing spare LPT via various
+locations of the existing spares. Actual delivery times would be specific to each utility, transformer,
+and location. The intent is to demonstrate the impact of LPT replacement source on the length of
+time required for restoration.
+
+Figure 4: Nominal time required to replace an LPT on an expedited, emergency basis. [Provisional
+replacement is replacement by an in-service asset].
+
+III.3.10
+
+Rail Transport
+
+LPTs are typically transported via road, rail, and water. Current road, rail and port conditions are
+becoming increasingly time consuming and expensive for LPT transport [52]. Clearing a rail route
+for LPT transport can take over nine months. LPTs are larger and heavier than normal rail cars, and
+each GA inventory type has known dimensions and required axles to account for the weight. Wide
+load transport by road is an alternative, but it is much slower than rail transport; water transport by
+barge is the easiest method to move LPTs, but available destinations are severely limited [2].
+Additionally, LPTs cannot be transported by normal rail cars because this risks damage to both the
+LPT and the rail car. Most railcars have a loading capacity of about 100 tons. Typical LPTs can
+weigh 2-3 times this limit, so customized freight cars are required for these atypically heavy loads
+[52]. One such car is the Schnabel rail car, which is designed to support a load from connection
+points on each end. This makes the load a structural part of the railcar [53]. An example schematic
+of a Schnabel rail car is shown in Figure 5.
+
+Large Power Transformer Resilience | Page 18
+
+Department of Energy | July 2024
+
+Figure 5. Example of a Schnabel rail car [53].
+
+A version of this car in operation on January 27, 2013, passing through Theodore, AL can be seen in
+Figure 6. The cars have 12-20 axles to better distribute the weight across the rail section. LPTs
+typically require 18- and 20-axle Schnabel cars, while medium and small power transformers can be
+carried on 12- and 8-axle cars [2]. Additionally, the car is designed to accommodate the height of
+the transformer so that railway height clearances are not violated. A rail line needs to run a
+simulation of the load on a requested route to ensure it can fit past, under, and across obstacles
+and bridges. 20-axle rail cars with a shiftable bed can be maneuvered around a corner or obstacle,
+bridge crossings can be reinforced, overhangs can be lifted, and obstacles can be circumvented with
+a different route, but all of these steps add time and cost to the transport process. In total, the
+clearance process can take nine months to complete. Only about three of these specialized
+transport cars are available in North America. Some manufacturers rent out Schnabel cars, which
+can cost up to $2500/day plus other fees (as of 2014). Additionally, access to railroads can
+sometimes be limited due to closures, damage, or removal of rail lines [52].
+
+Figure 6. Schnabel car in operation in Theodore, AL on Jan 27, 2013 [54].
+
+III.3.11
+
+Road Transport
+
+Transport via public roads requires special permits and routes from each state through which the
+LPT will travel. DOT permits require inspection for all infrastructure over which the LPT will be
+transported (e.g., bridges), which can add to the overall transport time. Logistics and
+transportation make up 3–20 percent of the total cost of an LPT [52].
+
+Large Power Transformer Resilience | Page 19
+
+Department of Energy | July 2024
+
+Additionally, specialized vehicles are required when transporting vehicles across roadways. These
+vehicles must have additional axles and wheels to better distribute the weight of the LPT over the
+length of the transport trailer. One such trailer is the Goldhoffer trailer [55]. This trailer is suited
+for super-heavy hauls in excess of 100 tons. An example of the Goldhoffer trailer moving a 500,000
+lb. LPT is shown in Figure 7.
+
+Figure 7. Goldhoffer Trailer Moving 500,000 lb LPT [56].
+
+III.3.12
+
+Logistics of LPT Replacement
+
+The inventory numbers, locations, and transport routes for LPTs are all kept private as a national
+security measure, so a detailed discussion of LPT replacement logistics is not possible. Logistics
+support is an area for potential government assistance for industry sharing programs to help with
+transportation and permitting. Therefore, this section presents a general discussion on methods for
+handling logistics for both assembling and transporting LPTs.
+
+III.3.13
+
+Supply Chain Management: Allocation of LPT Components for
+Assembly
+
+Customers’ needs are diverse due to the highly customized nature of LPTs. Logistics can be used at
+the component level to accelerate the time required to acquire parts of sufficient quality.
+Manufacturers often use subjective judgements to select component suppliers [57]. However,
+there are more systematic methods, which can be used to make such decisions. Some methods for
+optimally choosing suppliers for the manufactured LPTs are detailed in Chien et al. [57].
+
+III.3.14
+
+Installation Logistics
+
+In addition to the transportation and delivery of replacement transformers, logistics also include
+installation, construction and assembly, oil filling and settling, as well as commissioning and testing
+activities. These steps must be scheduled and coordinated not only for individual transformer
+replacements, but also for multiple simultaneous projects, multiple replacements within a
+substation (which may have space or transportation access constraints), and continuous sequential
+
+Large Power Transformer Resilience | Page 20
+
+Department of Energy | July 2024
+
+replacements. Some of the resources that will impact a utility’s ability to perform LPT replacements
+include:
+•
+
+Number of crews available to support projects.
+
+•
+
+Availability of construction resources such as cranes or heavy haulers.
+
+•
+
+Available transformer installation resources such as oil processing rigs, oil storage
+containers, and vacuum carts.
+
+•
+
+Commissioning resources such as transformer tester crews and test equipment.
+
+•
+
+Available space within a substation, especially when multiple crews must install and
+energize an EHV LPT that consists of three single-phase transformers.
+
+Figure 8 depicts the steps required to replace an LPT. In an actual restoration, there would also be
+activities related to removing the failed unit, cleaning up any oil spills, etc. Whether these tasks
+could be deferred until after the replacement transformer is in service is dependent upon the
+nature of any environmental hazards and whether the failed asset must be removed before the
+new one can be installed.
+
+Figure 8: General steps to replace a Large Power Transformer.
+
+Table 1 summarizes the logistics for LPT replacement, giving minimum elapsed times to accomplish each
+step in an expedited manner.
+Table 1: Steps and nominal times to transport and energize a conventional replacement LPT.
+Major activity
+
+1. Prepare the site
+
+2. Prepare replacement LPT
+
+Approx.
+time
+
+Step
+a. Remove damaged LPT
+
+N/A
+
+b. Repair substation
+infrastructure, pour and cure
+new pad if necessary
+
+N/A
+
+a. Empty oil from replacement
+LPT
+
+1 day
+
+Comment
+Assume this is completed
+concurrently with steps 2 and
+3.
+Not needed if LPT will be
+transported with oil.
+
+Large Power Transformer Resilience | Page 21
+
+Department of Energy | July 2024
+
+b. Teardown/disassembly
+3. Transport replacement LPT
+
+a. Heavy hauler to rail line or
+roadway
+b. Rail or roadway transport
+
+3 days
+
+Concurrent with step 2a.
+
+3–10 days
+(avg. 7)
+
+This depends on the type and
+length of the route and the
+proximity to rail sidings.
+
+c. Heavy hauler to substation
+
+4. Assemble and energize
+
+a. Place on pad in substation;
+assemble LPT and auxiliary
+equipment
+
+3 days
+
+b. Wiring testing
+
+3 days
+
+c. Apply vacuum
+
+3 days
+
+d. Fill with oil
+
+1 day
+
+e. Oil sit time (settling)
+
+5 days
+
+f. Testing/commissioning
+
+1 day
+Total 3–4 weeks
+
+IV. INDUSTRY STATUS OF LARGE POWER
+TRANSFORMER SPARES AND REPLACEMENTS
+IV.1
+
+EXISTING SPARING AND SHARING PROGRAMS
+
+The issue of long LPT lead times may be mitigated through the creation of an inventory of LPTs
+ahead of time, keeping them in reserve until needed. There are several ways in which this can be
+achieved. The first is for each utility to maintain its own stockpile. Most transmission operators
+already do this, to varying degrees. However, self-supply of spare LPTs is relatively expensive as
+these spare LPTs are costly, infrequently utilized, and must be maintained and protected while
+producing no revenue. Many of these “self-supplied” spare LPTs are stored under less-than-ideal
+conditions, including storing them in the same substations as the in-service LPTs, making the spare
+LPTs vulnerable to the same events that affect the in-service LPTs [58].
+Another option is an industry spare LPT sharing program in which transmission operators agree to
+pool and share spare LPTs during major events. Existing LPT sharing programs are described in the
+following sections of this document. A third option would be an entity that independently
+purchases, maintains, and provides an inventory of spare LPTs and related equipment. One such
+entity presently exists, a private entity called Grid Assurance (GA). All three of these options are
+presently being used in industry, as described further in the following sections.
+
+IV.1.1 Spare Transformer Equipment Program (STEP)
+The Spare Transformer Equipment Program (STEP) was initiated by the Edison Electric Institute (EEI)
+in 2006 [7]. STEP is a collective agreement among investor-owned utilities (IOU) to share spare
+transformers in case of emergency [59]. This program was started to strengthen the energy
+sector’s ability to restore energy transmission capabilities as quickly as possible in the event of a
+terrorist attack. Under this program, each participant is required to maintain and, if necessary,
+
+Large Power Transformer Resilience | Page 22
+
+Department of Energy | July 2024
+
+acquire a specific number of transformers up to 500 kV [7, 59]. Each utility participating in STEP is
+required to sell its spare transformers to any other participating utility in the case of a triggering
+event.
+
+More than 50 energy companies that are geographically dispersed across the country and engaged
+in bulk power transmission services are members of STEP. The enrollment fee for this program is
+$10,000 and the annual fee is $7,500 [59].
+For sharing to be triggered under STEP, there must be either a presidentially-declared terrorist
+attack, or a presidentially-declared state of emergency [7, 59, 60]. Due to the stringent
+requirements placed on triggering events, to date STEP has never been utilized [60]. Also, STEP
+does not provide new or incremental capacity to the utility industry; it only allows sharing of
+existing assets [60]. STEP is further described in [61], and the reader is referred there for further
+information.
+
+IV.1.2 SpareConnect
+SpareConnect is a less formal voluntary mutual assistance initiative. This initiative was spearheaded
+by the EEI, supported by the American Public Power Association, the Canadian Electricity
+Association, the Electric Power Supply Association, the Large Public Power Council, and the National
+Rural Electric Cooperative Association [61]. SpareConnect is similar to STEP, except in
+SpareConnect transmission operators self-network using exiting communication channels to allow
+participants to meet equipment needs during an emergency not connected to terrorism [59]. When
+an event occurs, an affected utility can post a need to SpareConnect, and if another participant has
+the equipment, they can connect to the affected utility via SpareConnect. However, availability of
+equipment is not guaranteed and SpareConnect does not provide additional capacity to the utility
+industry. Rather, SpareConnect only enables the sharing of existing assets [60]. SpareConnect is
+further described in [61], and the reader is referred there for further information.
+
+IV.1.3 Regional Equipment Sharing for Transmission Outage Restoration
+The North American Transmission Forum (NATF) Regional Equipment Sharing for Transmission
+Outage Restoration (RESTORE) program is designed to enhance the resiliency and reliability of the
+energy grid by identifying sources and facilitating replacement of equipment following a disastrous
+event [62]. The RESTORE Program establishes a voluntary, but formal, agreement among
+transmission owners to commit to own, maintain, and sell to one another available spare
+equipment following an event that results in major damage to the transmission grid. This program
+provides supplemental support and is not intended to be a replacement for any current industry
+programs.
+The RESTORE program identifies an inventory of designated spare equipment to be utilized only
+after a particular type of “triggering event” has occurred. Under the RESTORE program, a triggering
+event is defined as an event that is “catastrophic in nature, creating an urgent grid need in which,
+for an extended period, the affected utility loses its ability to serve significant load or is at risk of
+losing that ability, or otherwise cannot maintain grid stability” [63]. When a triggering event occurs,
+each participant may be required to sell the specified equipment within the applicable class to
+
+Large Power Transformer Resilience | Page 23
+
+Department of Energy | July 2024
+
+affected utilities as needed to recover from the event. However, participants can use designated
+spare equipment for internal needs before making designated equipment available for acquisition
+by another affected utility.
+
+Each utility that participates in RESTORE is responsible for managing (i.e., acquiring, storing, and
+maintaining) any equipment that it commits to the program and hosting the designated equipment
+at its own facilities. To ensure designated equipment is available from the reserve when needed,
+the equipment must be maintained in accordance with best practices and replaced within 18
+months if it fails or is damaged, or is used, sold, or retired by the utility. If a utility complies with
+this “best practices” requirement to meet its designated equipment commitment, it may continue
+participation in RESTORE while awaiting any equipment replacement.
+The goal of the RESTORE program is to make the contributing party “whole” for any equipment
+provided to another participant. Under the RESTORE Sharing Agreement, the affected participants
+(buyers) are required to pay replacement costs for equipment obtained from another participant.
+The agreement provides a framework for arranging the purchase and transfer of equipment
+between the buyer and seller. Additionally, the agreement serves as a firm commitment and as a
+reliable resource for utility operators responding to critical events.
+
+IV.1.4 Grid Assurance
+GA is a company founded by American Electric Power (AEP), FirstEnergy, and Berkshire Hathaway.
+GA maintains an inventory of critical equipment, including LPTs and related equipment; provides
+secure storage for this critical equipment; and provides logistical support for moving the equipment
+from storage to where it is needed [58].
+GA is an industry response to the issue of long lead times for replacement LPTs. GA’s primary
+mission is the mitigation of new-LPT lead times through the creation of an LPT inventory. GA uses a
+subscriber model, and today there are 31 utility companies who are subscribers to GA, with service
+territories covering portions of 23 states. AEP is the largest owner, followed by First Energy and
+Berkshire Hathaway. All utility power system operators, including IOUs, municipal utilities, and
+public power, are eligible to subscribe to GA.
+GA’s “trigger event” definition is very broad and includes man-made (physical attack, cyber-attack,
+EMP), weather (hurricanes, tornadoes, derecho, ice), earth (forest fires, earthquakes), and solar
+(GMD) incidents. GA’s priority is crisis response. It provides spare assets dedicated to emergency
+needs that add incremental supply to the industry. GA prioritizes spare transformers as they have
+the longest lead times of any grid equipment. As of this writing, GA has not yet actually provided a
+replacement LPT.
+
+GA and LPT Inventory
+GA’s strategic inventory includes LPTs and associated circuit breakers and bushings. GA’s LPTs
+cover five transformer classes and support seven sets of ratings, some of which can be adjusted to
+different voltage settings. Transformer classes are determined by voltage and ratings are the
+amount of power that can be transferred. GA does not publicly disclose how many units of each
+
+Large Power Transformer Resilience | Page 24
+
+Department of Energy | July 2024
+
+class and rating are in its inventory, but it does offer its risk-assessment tools to its subscribers to
+assess their own situation. Specific voltage, impedance, and other technical specifications by model
+are determined by collecting data from multiple customers.
+
+Utility companies routinely analyze their systems to determine the locations of their most critical
+contingencies. GA works with its subscribers to determine risk levels based on the system
+information they provide. To ensure that GA can meet the expected level of need for LPTs during a
+major event, GA hired ICF International, which specializes in probability analysis. As part of its work
+for GA, ICF built a tool that analyzes diversity of risk, geography, and other factors, to determine
+how many LPTs must be held to meet a given need. The ICF’s structured model incorporates event
+parameters and event diversity in a Monte Carlo simulation for over 10,000 events, including events
+that simultaneously impact multiple LPTs. GA maintains an inventory such that ICF’s probability
+analysis indicates a 98 percent likelihood of being able to meet the anticipated needs arising from
+these events.
+GA attempts to standardize asset specifications to maximize the ability to share equipment among
+member utilities. Many parameters, such as voltages and mega volt-ampere (MVA) ratings, have
+been at least somewhat standardized, but others, especially the transformer impedance, are more
+difficult to standardize because of their impacts on the rest of the system (e.g., downstream system
+protection). Other standardized parameters include tertiary winding ratings, load tap changer
+configurations, basic impulse levels, losses and efficiency, and cooling design, as well as
+transportability considerations such as dimensional and weight constraints for road and rail
+clearance and rail car designs. Because LPTs are so costly to install and transport, GA units are
+designed to be permanent replacements, as opposed to temporary spares.
+
+Maintaining Spare LPTs
+GA has staff on site at its warehouses that maintain its inventory of LPTs in “like-new” condition.
+Due to this maintenance regimen, GA can hold an LPT in its inventory for up to 25 years, retaining
+the original 12-month OEM standard warranty to be assignable to the utility purchaser. GA units
+are minimally vulnerable to cyber threats while in storage, since their relays and controls are
+powered off and not connected to outside data networks.
+GA’s assets are stored in two warehouses that each serve GA’s subscribers in a specific geographic
+region. Both are close to transportation channels including water, rail, and major highways. These
+warehouses have strong security—physical perimeter, armed guards, and electronic surveillance
+monitored by AEP’s security organization. All LPTs are stored indoors. Each warehouse
+subcontracts key tasks, including asset experience and knowledge, monitoring and maintaining,
+heavy and wide transportation expertise, and assembly and processing [58].
+
+Transporting LPTs
+GA has a transportation logistics department that works with shipping, rail, trucking, jacking and
+lifting, and oil-filling companies to plan all portions of an LPT’s route to its in-field destination. Each
+GA inventory type has known dimensions and includes the required axle number and specialized rail
+car design to account for its weight.
+
+Large Power Transformer Resilience | Page 25
+
+Department of Energy | July 2024
+The GA logistics department investigates and updates its rail routes yearly, so that any changes in
+the ability of a rail line to handle an LPT are known in advance. GA allows each customer to specify
+five drop-off points within their territory. Customers are responsible for “last-mile” transportation,
+since they are most familiar with their local installations: once the LPT is delivered to the customer’s
+chosen drop-off point, the customer works with trucking firms to move it to the final site [58]. It
+should be noted that GA does not own its own fleet of Schnabel rail cars, because these are very
+expensive to obtain and maintain. The availability of suitable rail cars is a subject that should be
+discussed further.
+
+Financial barriers to joining GA
+For utilities that cannot earn on payments they invest into mitigation, there is an economic
+challenge to subscribing to an organization like GA. Utilities are heavily regulated to ensure low
+costs to customers, but when regulations allow them to raise rates to recover from disasters but
+not to prevent them, utilities are disincentivized from investing in prevention efforts such as
+transformer stockpiles. Rate recovery would help utilities increase resiliency by allowing them to
+raise rates to account for long-term investments, such as GA membership. Federal assistance could
+also encourage states to fund resiliency-enhancement measures [2].
+
+IV.1.5 WattStock [64]
+WattStock is a company based in Texas that developed a concept program to deal with lead time
+issues for LPTs via a temporary modular solution. WattStock’s concept centers around a singlephase transformer called the FLEX transformer, which can be used as part of a modular design to
+realize larger three-phase LPTs. Each single-phase FLEX transformer unit is designed to avoid many
+of the transportation logistics issues that make moving three-phase LPTs so difficult. This concept
+was demonstrated by manufacturing a set of these single-phase temporary LPTs in St. Louis,
+Missouri, transporting them to Houston, Texas, and replacing a three-phase 400 MVA LPT in a
+period of about seven days.
+The WattStock FLEX solution was designed to be a temporary solution that can be deployed quickly
+and that will serve until a permanent replacement LPT can be acquired. Because it is a temporary
+solution, FLEX transformers can often be run outside of their normal specified operating ranges,
+providing additional flexibility. WattStock envisioned warehousing these single-phase LPTs in
+regional distribution centers across the country, to facilitate rapid deployment.
+WattStock worked with an analytics company that developed a tool to allow WattStock to do an
+analysis of a utility’s transformers and inform that utility of which LPTs WattStock’s solution could
+replace. Using this analysis tool, WattStock developed designs for two LPT replacement systems
+and nine GSU replacement systems. WattStock’s analytics suggested that these two LPTreplacement FLEX transformer designs could be used to provide temporary replacements for as
+much as 60 percent of the substation LPTs in North America, and the nine GSU designs could
+replace up to 80 percent of the GSUs. A small number of single-phase units were built, but
+WattStock’s program was postponed for lack of funding, so at the present time WattStock has no
+inventory.
+
+Large Power Transformer Resilience | Page 26
+
+IV.2
+
+Department of Energy | July 2024
+
+EFFORTS TOWARD NEXT GENERATION TRANSFORMERS
+IV.2.1 DHS/EPRI Recovery Transformer: RecX
+
+A team led by Electric Power Research Institute (EPRI) developed a Recovery Transformer (RecX)
+that is designed to be a rapidly deployable, temporary replacement for a failed LPT [7]. RecX is a
+345 kV unit comprised of three separate single-phase modules to help simplify transportation
+logistics. A pilot deployment was demonstrated in 2012. The result is that the RecX was
+successfully installed and energized in less than six days [7].
+According to EPRI [65], this program resulted in successful design, manufacture, installation,
+energization, and field testing of a temporary replacement LPT design. However, as of 2014, the
+DHS/EPRI RecX has only been implemented at a single utility, CenterPoint Energy. Because of the
+logistical difficulty of moving and installing LPTs, the enthusiasm for a temporary solution has been
+somewhat muted; system operators are more interested in permanent solutions that can be quickly
+deployed [2].
+
+IV.2.2 ABB Modular Transformer
+In 2018, ABB reported on the development of a transformer design constructed from multiple
+single-phase modular units [66]. This design achieves voltage, power, and impedance flexibility
+using series-parallel arrays of small modules that are designed for ease of transport and installation.
+The design underwent simulation tests, yielding promising results. However, Reference [66]
+acknowledges that this is a relatively high-cost approach. As of this writing, there do not appear to
+be reported results from any hardware demonstrations or field tests of this concept.
+
+IV.2.3 GE/Prolec variable-impedance LPT
+In October 2021, GE demonstrated that it is possible to create a variable-impedance transformer by
+placing coils on the core that create negative flux in the core to modulate the leakage inductance
+[67]. An autotransformer utilizing this design which also included taps to enable it to operate at any
+of several common voltages was built and recently underwent a six-month field trial in the U.S. [68].
+A final report on these field trials is pending publication, but a draft provided by the manufacturer
+[69] indicates that this transformer met or exceeded its design expectations. The transportation
+logistics for this LPT are similar to those of other LPT designs, although this variable-impedance
+design was reported to have a shipping weight about 12 percent heavier than that of a
+conventional-design LPT of similar power rating. The initial capital cost of the flexible LPT is also
+somewhat higher than that of a conventional design due to the additional active parts it contains.
+
+IV.3
+
+EFFORTS TOWARD STANDARDIZATION OF DESIGN AND MANUFACTURING
+IV.3.1 Transformer Parameter Standardization Efforts
+
+Several efforts have been undertaken to move LPT users toward more standardized, and thus more
+sharable, designs. In conversations with industry participants conducted as part of preparing this
+report, many interviewees from different parts of the industry mentioned that LPT impedance is a
+particularly difficult parameter to standardize. Transformer impedance requirements depend on
+
+Large Power Transformer Resilience | Page 27
+
+Department of Energy | July 2024
+
+many factors that are largely determined by the power system environment in which the unit will
+be deployed, such as the specifications of any parallel transformers and the protection philosophies
+used in downstream portions of the system. In addition, the transformer impedance values that
+lead to the greatest manufacturing efficiencies do not typically align well with the values required
+by utilities [2]. However, as described above, it appears possible to create variable-impedance LPTs
+that may help to address this [69].
+Part of the reason for this standardization difficulty lies in the fact that many of today’s investorowned utilities consist of combinations of pre-existing power systems. Each of those pre-existing
+companies has its own historical design philosophy, and these can be difficult and expensive to
+change or harmonize.
+Interestingly, the longevity of transformers is one key obstacle to their standardization. There are
+examples of design standards from the 1950s that are still in use because that equipment is still in
+service.
+
+IV.4
+
+CURRENT INVENTORY LEVELS (EEI/APPA/NRECA)
+
+LPTs, just like any other type of equipment, may fail, and will need to be replaced. Because of the
+long lead time to manufacture LPTs, grid security requires that there be an adequate number of
+spare LPTs available to replace ones that fail. How many spare LPTs are sufficient? Where should
+they be located? These are not questions that can be answered precisely. Considerations include:
+•
+
+LPTs are very site-specific in their designs, so transformers with the same high- and low-side
+voltages but different impedances may not be interchangeable.
+
+•
+
+The number of replacements needed is dependent upon the number of LPTs expected to
+fail at one time (e.g., caused by a single event).
+
+•
+
+Power systems are planned to survive any foreseen contingency, such as the failure of one
+(or 2, or N) assets or pieces of equipment. Therefore, the number of replacement LPTs is
+also dependent upon how many (and which) operational LPTs will be out of service before
+the power system’s performance is unacceptable.
+
+•
+
+LPTs are difficult and slow to transport. A spare LPT, to be a viable replacement, must be
+close enough to the failed LPT and its transportation path must be feasible physically to
+transport it. Spare LPTs located in substations don’t require transport, but their physical
+proximity means they may have been exposed to the same hazard that caused the original
+LPT to fail.
+
+Utilities undertake many planning exercises and studies to evaluate the numbers and locations of
+spare LPTs needed. Measures to harden substations and protect transformers can reduce the
+anticipated number of LPT failures. Inter-utility equipment sharing and assistance agreements (see
+section III.1) and measures to enhance the viability of possible transportation routes can make it
+more feasible to rely on spares that are more remote from a damaged substation, thus reducing the
+number of spare LPTs required.
+
+Large Power Transformer Resilience | Page 28
+
+Department of Energy | July 2024
+
+While not a deterministic metric, a study contributing to the 2017 Report to Congress [51]
+approached this issue by comparing the number of spare LPTs (whether located in substations or in
+centralized equipment repositories) with the number of substation LPTs whose loss would have the
+largest effects on grid performance.
+
+IV.4.1 Estimating the number of most crucial LPTs
+The study contributing to the 2017 Report to Congress identified the most crucial high-voltage
+substations based on a ranking system. The analysis was based on a series of PSS/E power flow
+simulations of the Eastern, Western and Texas Interconnections. Each power flow simulation
+consisted of the summer peak model of the interconnection with a single high voltage (345 kV
+substations for Texas Interconnection, 500 kV substations for Western Interconnection, 500 kV and
+765 kV substations for Eastern Interconnection) substation’s LPTs removed, and the rest of the
+substation modeled as operational.
+The substations were then ranked based on how much the substation’s removal resulted in a
+decrease in the interconnection’s incremental load capability (i.e., thermal) and how much it
+resulted in a decrease in the interconnection’s reactive power headroom (i.e., voltage).
+Incremental load calculation is a metric of the amount of load-serving capability margin in the
+system. In the case of incremental load capability, substations are ranked based on the reduction in
+incremental load-serving capability—lower (or more negative) incremental load-serving capabilities
+represent more crucial rankings. Reactive power generation headroom is a measure of the ability
+of the system to support voltage, which can be obtained by measuring the reactive power
+generation headroom across the system for each simulation run. In the case of reactive power
+headroom, lower values represent more crucial rankings.
+Figure 9 illustrates this procedure for “removing” a substation’s LPTs and using the power flow
+simulation to determine the effects on the bulk power system.
+
+Large Power Transformer Resilience | Page 29
+
+Department of Energy | July 2024
+
+Figure 9: Procedure to identify crucial substations.
+
+For the substations examined in all three interconnections, a consistent pattern was observed in
+both the thermal (incremental load capability) and voltage (reactive power margin) metrics. For
+each metric in each interconnection, the loss of LPTs at a relatively small number of stations (10–20
+percent) was seen to cause significant reductions in the load-serving capability and/or reactive
+margin, indicating a significant impact on system reliability. Removal of the LPTs in most of the
+remaining stations showed virtually no change in the metrics, indicating that other constraints are
+more limiting to the ability to serve load than the particular LPTs at that station (Figure 10 and
+Figure 11).
+The points of large slope changes in the plots of the cruciality metrics (thermal incremental load
+capability and reactive power margin) were identified. These points were used to establish the
+boundaries between crucial and non-crucial stations; values of the thermal or voltage metric that
+fell below this boundary were considered crucial. For each interconnection, this boundary was
+determined for both the thermal and voltage metrics. A station was classified overall as “crucial” if
+either metric indicated that classification.
+
+Large Power Transformer Resilience | Page 30
+
+Department of Energy | July 2024
+
+Figure 10: Thermal-based substation cruciality ranking.
+
+Figure 11: Voltage-based substation cruciality ranking.
+
+IV.4.2 Number of crucial substations and LPTs in 2016
+This analysis was performed for 345 kV substations in the Texas Interconnection, 500 kV substations
+in the Western Interconnection, and 500 kV & 765 kV substations in the Eastern Interconnection.
+Overall, across the three interconnections at the above voltages, about 17 percent of the
+substations were “crucial” for at least one of the performance metrics. Of the top tier voltage LPTs
+in each interconnection, about 28 percent were located in crucial substations 6.
+
+Note for this analysis LPTs were represented as 3-phase transformer equivalents. E.g., three 1-φ transformers
+were counted as one 3-Φ equivalent transformer even through physically they were 3 separate pieces of
+equipment.
+
+6
+
+Large Power Transformer Resilience | Page 31
+
+Department of Energy | July 2024
+
+IV.4.3 Industry-reported availability of spare LPTs in 2016
+
+With assistance from EEI, utilities across the U.S. were asked to report how many spare LPTs they
+owned. Spare LPT inventory numbers were obtained from almost all members of EEI, APPA and
+National Rural Electric Cooperative Association (NRECA), plus some Federal Power Marketing
+Administrations. The reported numbers of spares covered:
+•
+•
+•
+
+765 kV high side with 500, 345, 230 & 138 kV low side
+500 kV high side with 500, 345, 287, 230, 161, 138, 115, & ≤ 100 kV low side
+345 kV high side, 138 kV low side
+
+Across the U.S., the number of high voltage spare LPTs the utilities reported was 116 percent of the
+number of high-voltage LPTs located in substations the Oak Ridge National Laboratory (ORNL)
+analysis designated as “most crucial” to the acceptable operation of the bulk power system.
+
+IV.4.4 Industry-reported availability of spare LPTs in 2023
+The 2016 analysis to estimate the number of high voltage LPTs located in the most crucial
+substations was not updated for this report. However, it may be relevant that the Energy
+Information Administration data show that annual sales of electricity in the U.S. increased by 0.75
+percent from 2016 to 2021, and the utility total nameplate generating capacity increased by 0.56
+percent. DOE has not updated the 2016 analysis of how many high voltage substations (and
+transformers) are most crucial, but these EIA numbers on the growth of U.S. electric sales and
+increase in U.S. generating capacity suggest that the percentage of LPTs whose loss would have the
+greatest impact on the grid’s power transfer and delivery capability has not materially changed.
+With the assistance of EEI, utilities across the U.S. were asked to update their reported inventories
+of spare high voltage LPTs (345 kV and above). As of August 2023, the reported utility inventories
+of high voltage LPTs increased by over 10 percent compared to the comparable numbers reported
+in 2016. Utility mutual assistance programs described in Section III.1 have continued to increase
+member utilities’ access to spare LPTs during an emergency. These programs do not increase the
+number of LPT spares, but they do improve the ability to deploy spare LPTs when needed.
+Additionally, since 2016, a new organization (GA) was established (see Section III.1.4) and has
+purchased an inventory of spare LPTs and auxiliary equipment and also worked to improve the
+logistics, equipment and personnel necessary to transport LPTs rapidly after a destructive incident
+or event, thus improving the efficacy of the fleet of spare LPTs across the Nation. GA does not
+disclose the number of spare LPTs in its inventory. While it is difficult to assess how many spare
+LPTs are needed, the 2023 inventories reported by U.S. utilities plus the GA efforts suggest that the
+industry’s efforts to provide an accessible inventory of spare LPTs have exceeded the rate of growth
+of the bulk power system’s capacity and electricity sales. In 2017, the DOE Report to Congress [1]
+concluded that the number of spare LPTs available was appropriate for prudent power system
+reliability planning. Since then, threats from deliberate attacks and extreme weather events from
+climate-change have increased. However, the utility industry has responded by significantly
+augmenting their inventories of spare LPTs.
+
+Large Power Transformer Resilience | Page 32
+
+Department of Energy | July 2024
+
+V. FUTURE CONSIDERATIONS ON LPT RESILIENCE
+PRACTICES
+V.1
+
+OPPORTUNITIES FOR NEW FLEXIBLE ADVANCED TRANSFORMER DESIGNS
+V.1.1 LPT Hardening via Hybrid Designs
+
+Hybrid transformer designs involve combining traditional electromagnetic transformers with power
+electronic converters. The power electronic converters allow active mitigation of the stressors to
+which an LPT is subjected. It is envisioned that these active mitigation approaches can overcome
+the limitations of conventional approaches in at least three ways: 1) controllable behavior that can
+tune response to each type of insult (e.g., based on intensity of the solar storm [G-scale], or
+respond to similar insults such as from a high-altitude electromagnetic pulse [EMP/E3]) [70].
+2) Active mitigation schemes can have controllable behavior that can consider system-wide
+dynamics for optimal response to insult. In contrast, conventional approaches focus on limiting
+GICs at one individual transformer but may cause increased GICs at neighboring transformers.
+3) Novel mitigation topologies. Conventional mitigation solutions have focused on blocking GIC
+flows in the transformer neutral path, but with the ability of power electronics to quickly and
+accurately control voltage/current/power, alternative approaches are possible (e.g., mitigate GICs
+with flexible ac transmission systems [FACTS] equipment [71], mitigate impact of GICs by
+compensating for magnetic flux offset [72], and others). Further research on all these topics is likely
+to lead to improved ways to harden LPTs against the effects of GMDs.
+
+V.1.2 Solid State Transformers
+Solid state transformers (SSTs) are power electronic devices that use power converters to shift
+voltage levels. A block diagram of a common SST implementation is shown in Figure 12. AC
+systems 1 and 2 on the left and right of Figure 12 operate at different voltages, and potentially at
+different frequencies. At the center of the SST is a DC (direct current) link that operates at DC
+voltage and contains an energy storage element, which is shown here as a large capacitor. The
+AC/DC block connected to AC system 1 at the left converts between the AC of AC system 1 and the
+DC of the DC link. Similarly, the DC/AC converter on the other end converts between the DC link
+and the AC of AC system 2. SSTs can also include an energy storage element such as a battery,
+which would be connected to the DC link via a DC/DC converter as shown in dashed lines in Figure
+12. SSTs can provide several performance advantages over conventional electromagnetic LPTs.
+These include:
+•
+
+Modularity. The power converters in SSTs are commonly built from several smaller
+modules, which improves reliability through redundancy and potentially improves
+repairability. Modularity could also enhance flexibility since the voltages at which SSTs
+operate are obtained by stacking modules in series. Thus, SSTs of any desired voltage could
+be constructed from suitable arrangements of appropriate modules.
+
+•
+
+Software-defined functionality. The power converters in SSTs can be controlled via
+software to vary voltages continuously (as opposed to stepwise changes obtained from tap
+changers in conventional LPTs) over any range that is in the device’s capability. Software
+
+Large Power Transformer Resilience | Page 33
+
+Department of Energy | July 2024
+
+can also be used to effectively control the impedance of the SST, although the ability of this
+impedance flexibility to address the inability to standardize LPT impedances is limited
+because of the overcurrent limitations of SSTs.
+•
+
+Isolation. The SST isolates AC system 1 from AC system 2 in several important ways. For
+example, if there is a frequency transient on AC system 1, that transient can be blocked
+from propagating into AC system 2 by the SST, because of the intervening DC link. This
+could have important ramifications for mitigation of cascading failures, among other things.
+
+Figure 12. Block diagram of a basic Solid-State Transformer.
+
+For the time being, SSTs that could fully replace LPTs remain in the research domain. Several
+challenges must be overcome, including:
+•
+•
+
+•
+
+•
+
+Cost. Today’s SSTs are significantly more expensive than their electromagnetic transformer
+counterparts.
+Reliability. SSTs are far more complex than electromagnetic transformers and contain large
+numbers of semiconductor devices that are vulnerable to transient overvoltages and
+overcurrents. LPTs, in contrast, are simple devices with proven field lifetimes of more than
+40 years. It is a major research challenge to drive the reliability of SSTs up to the point at
+which they can compete with LPTs in this regard.
+High-voltage, high-power operation. To achieve the high voltages at which SSTs operate,
+SSTs use large arrays of series/parallel devices. Properly coordinating and controlling all
+these devices while ensuring device protection is a significant challenge that is the subject
+of active research.
+System protection. Like all power electronic converters, SSTs have an upper overcurrent
+limit that they will not exceed because doing so could damage the SST. If, for example, the
+SST in Figure 12 is sending power from AC system 1 to AC system 2 and there is a fault on AC
+
+Large Power Transformer Resilience | Page 34
+
+Department of Energy | July 2024
+
+system 2, the SST can send only a limited amount of fault current into AC system 2. This
+impacts the design of the protection system for AC system 2.
+
+V.2
+
+STANDARDIZED AND FLEXIBLE LPT DESIGNS
+V.2.1 Novel Transformer Designs
+
+Although LPTs have been around for a long time and their designs are highly mature, technical
+innovation to solve some of the challenges associated with them is still ongoing. As previously
+discussed, there are several efforts to develop LPT designs that provide flexibility in transportation
+logistics, operating ranges, and critical parameters. At least one of these efforts resulted in a
+working prototype that was field-tested and found to work well [68].
+
+V.3
+
+ADVANCED MATERIALS FOR HARDENED TRANSFORMERS
+
+Many new materials exist today that were not available when LPT designs were standardized. New
+magnetic core materials, many of them composites, have been designed, fabricated, and tested.
+These materials can now be found in commercially available inductors but have not been
+implemented in LPT designs [73] [74]. In addition to commercially available soft magnetic
+composites (SMCs), researchers are pushing the limits of SMC designs through the incorporation of
+different magnetic alloys, magnetic nanoparticles, new matrix chemistries, and design approaches
+[75]. Through the incorporation of high magnetization alloys, some of these SMCs have a
+saturation magnetic polarization (Js) that can exceed that of silicon (Si) steel [76]. These SMCs offer
+a cost competitive material that can be incorporated into LPT core designs and enhance their
+resiliency to GMD and EMP events. A representative image of one SMC is displayed in Figure 13.
+
+Figure 13: Cross sectional transmission electron microscope image
+of a CoFe/Al2O3 soft magnetic composite [76].
+
+It is also possible to fabricate LPT cores using multiple materials. LPT cores with multiple materials
+that have a range of values of key magnetic parameters such as relative permeability (μr) and
+saturation magnetic polarization can make the core more resilient to GMD and EMP events,
+
+Large Power Transformer Resilience | Page 35
+
+Department of Energy | July 2024
+
+allowing it to continue to absorb and route magnetic flux even when the silicon steel magnetically
+saturates. Researchers have demonstrated multi-material designs for inductors [77]; however, little
+effort has been made to apply this concept to LPTs. Design and optimization of multi-material LPT
+magnetic cores with enhanced resiliency will be made easier using multi-objective optimization
+codes [78]. For several magnetic core materials, in particular 3 percent and 6.5 percent Si steel,
+advanced manufacturing techniques have the potential to speed up core manufacturing, decrease
+overall core cost, and enable innovative core designs/shapes [79] [80].
+In addition to advanced magnetic core materials, many new options now exist for core and winding
+insulation. However, many of these insulation materials and additives are still under development.
+One class of advanced materials are additives to enhance the breakdown strength and lifetime of
+kraft paper [81]. Another class of new materials, in which there is quite a bit of work in comparison
+to kraft paper, are additives to improve the insulation properties and lifetime of transformer oil [82]
+[83] [84]. Improving the overall robustness and lifetime of LPTs through advanced (yet still cost
+effective) insulation materials could have great benefit.
+
+V.4
+
+MICROGRIDS FOR ENHANCED RESILIENCE DURING LPT OUTAGES
+
+A microgrid is a section of the power system that can operate in parallel with the grid, and to
+separate and serve its own loads from its own sources [85]. Microgrids can be important tools for
+increasing the reliability and resilience of the electric power system because their local sources give
+them a certain level of immunity to disruptions in large central generators and the transmission
+system, including the loss of LPTs [86].
+The key parameter that will determine how effectively a microgrid buffers against electric service
+disruptions caused by the loss of LPTs is the length of time that it can operate off-grid, often
+referred to as the microgrid’s Days of Autonomy (DOA). A common recommendation for DOA that
+is used by the US Department of Defense is 14 days [87], but only a few civilian microgrids approach
+this level of stand-alone capability; in fact, the National Renewable Energy Laboratory (NREL)
+defines a “long-duration” microgrid as one with more than 1 DOA [88]. The DOA of a resilience
+microgrid should be chosen in coordination with the risk studies made by the transmission operator
+that serves the microgrid site, including the anticipated outage period induced by expected worstcase LPT outage events. However, the reality is the DOA of a microgrid is typically determined or
+constrained by the available budget, especially if the microgrid relies on batteries for energy
+storage. Low-cost, long-lived, high-capacity energy storage would be highly beneficial for high-DOA
+microgrids. Ideally, microgrids would be designed with the capability to connect temporary
+generation supplied by the system operator in the event of an extended outage. Note that the
+worst-case interruption time and the LPT lead time discussed extensively above are typically not the
+same. The worst-case interruption time will generally be much shorter because of the availability of
+spares and replacements, the ability of the system operator to reroute power over networked
+transmission, and the ability of system operators to deploy and operate temporary generation.
+
+Large Power Transformer Resilience | Page 36
+
+Department of Energy | July 2024
+
+V.5
+
+ADDRESSING REQUIREMENTS OF A STRATEGIC INVENTORY OF RECOVERY
+TRANSFORMERS
+
+In its 2017 Report to Congress [51], the DOE noted that a federally-owned LPT reserve program
+would require five or more geographically diverse sites nation-wide, and well over 100
+transformers. The financial, engineering, and logistical specifics of such a reserve were not
+addressed in that report. Further assessment was requested through the BIL section 40103(d), to
+investigate:
+•
+•
+•
+•
+•
+•
+•
+
+the policies, technical specifications, and logistical and program structures necessary to
+mitigate the risks associated with the loss of high-voltage recovery transformers
+the technical specifications for high-voltage recovery transformers;
+where inventory of high-voltage recovery transformers should be stored;
+the quantity of high-voltage recovery transformers necessary for the inventory;
+how the stored inventory of high-voltage recovery transformers would be secured and
+maintained;
+how the high-voltage recovery transformers may be transported; and
+whether new Federal regulations or cost-sharing requirements are necessary to carry out
+the storage of high-voltage recovery transformers.
+
+This report highlights the industry’s ongoing efforts to address various critical aspects of LPT reserve
+program. These efforts encompass the need for robust risk mitigation strategies, which include
+countering operational threats such as physical and cyber risks and tackling logistical challenges like
+replacement and procurement lead times. The industry has been proactive in implementing a
+range of methods, including internal LPT sparing, spare-sharing programs, subscription-based
+sparing, physical transformer protection, and asset management strategies, all aimed at mitigating
+these risks.
+The report also delves into the technical specifications of LPTs, emphasizing their unique design to
+suit specific installations. It examines the challenges associated with these specifications and
+provides insights into the industry’s ongoing efforts to address them. Furthermore, the document
+discusses the complexities surrounding the storage, quantity, security, and maintenance of
+replacement LPTs, shedding light on existing industry solutions. The transportation of replacement
+LPTs, from storage depots to designated locations, is explored in detail, with a focus on streamlining
+these processes. The report suggests that Federal assistance, particularly in the areas of rail and
+highway logistics and permitting approvals for spare LPT movement, could be beneficial. Lastly, the
+report underscores the importance of regulations and cost-sharing in LPT resilience enhancement.
+While current regulations have already prompted industry progress in ensuring an adequate supply
+of LPT assets for future risks, the potential for further regulations to introduce financial and
+technical challenges is acknowledged. A comprehensive analysis is deemed necessary to strike a
+balance between national risk tolerance and the costs associated with enhancing the power
+system's reliability and resilience.
+
+Large Power Transformer Resilience | Page 37
+
+VI. CONCLUSION
+
+Department of Energy | July 2024
+
+DOE’s assessment of the situation reveals a concerted effort within the industry to address the
+vulnerabilities associated with LPTs. As highlighted in the Executive Summary, industry initiatives
+have been making advancements to mitigate the threats posed to LPTs. This progress is indicative
+of the commitment to bolstering the reliability and resilience of the U.S. electric grid.
+It is challenging to determine the exact number of spare LPTs needed. However, based on the 2023
+inventories reported by U.S. utilities and the actions taken by industry, it appears that there is now
+an accessible inventory of spare LPTs has grown at a rate exceeding the expansion of the bulk
+power system's capacity and electric sales. The 2017 DOE Report to Congress [1] concluded that
+the number of spare LPTs available was appropriate for prudent power system reliability planning.
+Since then, the landscape has evolved with increased threats from deliberate attacks and climatechange-induced extreme events. Nevertheless, the utility industry has responded by significantly
+augmenting their inventories of spare LPTs.
+To further address the complexities of the situation and ensure the continued improvement of LPT
+resilience, several actions can be considered:
+Engage in Ongoing Industry Collaboration: It is crucial to emphasize the importance of continued
+discussions with industry stakeholders. One approach is to convene the power community, utilizing
+existing forums or hosting workshops to identify new ideas and concepts. Recommendations, such
+as exploring cost-sharing arrangements with the Federal Government, could emerge from these
+discussions. DOE could play a pivotal role in hosting and facilitating such workshops.
+Invest in Research and Development: The pursuit of novel concepts and flexible systems, such as
+mobile transformers, is essential to enhance LPT resilience. Further investment in research and
+development efforts will drive innovation in this critical area.
+Prioritize Storage and Domestic Manufacturing: As the long lead times for LPT continue, efforts
+should focus on the storage and security of recovery transformers, encouraging domestic
+manufacturing of transformers, or expanding existing facilities. These actions could be outcomes of
+discussions with industry to address the challenges of the business model, where LPTs are low
+volume products but have high impact and consequences when it comes to resilience.
+In conclusion, this report has provided a comprehensive overview of the challenges and solutions
+related to LPT resilience. It has considered the requirements outlined in the BIL, contextualized the
+issues surrounding LPT acquisition lead times, and summarized the importance of LPTs to the
+nation's electricity grid. Additionally, it has highlighted industry efforts and future considerations
+for LPT resilience. As the industry and government continue to work together, implementing the
+recommendations and strategies outlined in this report will contribute to a more robust and
+resilient U.S. electric grid, better equipped to withstand emerging threats and challenges.
+
+Large Power Transformer Resilience | Page 38
+
+REFERENCES
+[1]
+[2]
+[3]
+[4]
+[5]
+[6]
+[7]
+[8]
+[9]
+[10]
+[11]
+[12]
+[13]
+[14]
+[15]
+[16]
+[17]
+
+[18]
+[19]
+
+Department of Energy | July 2024
+
+U.S. Department of Energy, Office of Electricity, "Addressing Security and Reliability Concerns
+of Large Power Transformers," 2021.
+D. Russel, C. Heitmeyer and D. Rupert, Interviewees, [Interview]. 23 June 2023.
+H. Energy, Interviewee, [Interview]. 16 June 2023.
+D. Star, Interviewee, [Interview]. 15 June 2023.
+U.S. Department of Commerce, "The Effect of Imports of Transformers and Transformer
+Components on the National Security," 2020.
+U.S. Department of Energy, "Electric Grid Supply Chain Review: Large Power Transformers and
+High Voltage Direct Current Systems," 2022.
+K. Hall and C. L. Stiegemeier, "Preventing Long-Term Outages Due to Loss of Key Transformers
+<Technical Presentation>," in IEEE/PES Transformers Committee, Memphis, 2015.
+R. Walton, "8 utilities partner to stockpile emergency power transformers," 15 June 2015.
+[Online]. Available: https://www.utilitydive.com/news/8-utilities-partner-to-stockpile-emergencypower-transformers/400702/. [Accessed 19 April 2023].
+U.S. Department of Energy, Office of Electricity Delivery and Energy Reliability, "Large Power
+Transformers and the U.S. Electric Grid," 2014.
+Utility Products, "Natural Ester Transformers Help Mitigate Fire Impact," 10 December 2020.
+[Online]. Available: https://www.utilityproducts.com/transmissiondistribution/article/14187508/natural-ester-transformers-help-mitigate-fire-impact.
+B. Heinz-Peter and N. Fritze, "Reliability and vulnerability of transformers for electricity
+transmission and distribution," Journal of Polish Safety and Reliability Association, vol. 6, no. 3,
+pp. 15-24, 2015.
+Curtiss-Wright, "RAPID Case Study Powering Reliable Electricity Transmission," 2019.
+National Academies of Sciences, Engineering, and Medicine, "Enhancing the Resilience of the
+Nation's Electricity System," The National Academies Press, Washington, D.C., 2017.
+NEI Electric Power Engineering, "New Hampshire December 2008 Ice Storm Assessment
+Report," 2009.
+CBC News, "Toronto ice storm timeline: from the leadup to the cleanup," 9 January 2014.
+[Online]. Available: https://www.cbc.ca/news/canada/toronto/toronto-ice-storm-timeline-fromthe-lead-up-to-the-clean-up-1.2490400. [Accessed 20 June 2023].
+City of Toronto, City Manager, "Impacts from the December 2013 Extreme Winter Storm on the
+City of Toronto," City of Toronto, Toronto, CA, 2014.
+C. E. Ramirez and M. Hicks, "More than 685,000 without power after 'historic' storm dumps ice,
+snow on Michigan," The Detroit News, 21 February 2023. [Online]. Available:
+https://www.detroitnews.com/story/weather/2023/02/21/winter-storm-watch-effect-snowsoutheast-michigan-forecast-national-weather-service/69926552007/. [Accessed 20 June 2023].
+S. Patel, "New Approaches for Transformer Operation and Maintenance," POWER, 1 April 2017.
+B. Filipovic-Grcic, B. Jurisic, S. Keitoue, I. Murat, D. Filipovic-Grcic and A. Zupan, "Analysis of
+Overvoltages on Power Transformer Recorded by Transient Overvoltage Monitoring System,"
+5th International Colloquium on Transformer Research and Asset Management, pp. 85-102,
+2020.
+
+Large Power Transformer Resilience | Page 39
+
+[20]
+[21]
+[22]
+[23]
+[24]
+[25]
+[26]
+[27]
+[28]
+[29]
+[30]
+[31]
+[32]
+[33]
+
+[34]
+[35]
+[36]
+[37]
+[38]
+
+Department of Energy | July 2024
+
+A. Cancino, R. Ocón, G. Enríquez and R. Malewski, "In Service Failure of 230 kV Transformers
+due to Steep-Front Lightning Over Voltages at Mexican West Coast," in CIGRE, Paris, 2006.
+A. Piantini, J. M. Janiszewski, T. O. d. Carvalho, P. F. Obase and G. J. G. d. Santos, "Lightningcaused transformer failures in distribution systems," in 2014 International Conference on
+Lightning Protection (ICLP), Shanghai, China, 2014.
+M. M. Ariff, M. A. Kadir, J. Jasni, R. Mesron, M. Salahuddin and J. Lamsi, "Evaluation and
+assessment of transformer failure on 132kV substation," in 2008 IEEE 2nd International Power
+and Energy Conference, Johor Bahru, Malaysia, 2008.
+W. H. Bartley, "Analysis of Transformer Failures," in International Association of Engineering
+Insurers 36th Annual Conference, Stockholm, 2003.
+T. O. d. Carvalho, A. Piantini, P. F. Obase, J. M. Janiszewski and E. L. Batista, "Analysis of
+lightning-caused distribution transformer failures," in 2011 International Symposium on
+Lightning Protection, Fortaleza, Brazil, 2011.
+Washington Department of Natural Resources, "Electrical Utility Fires," in Wildland Fire
+Investigation, 2023.
+Canby Utility, "Wildfire Risk Mitigation Plan," 2022.
+Liberty Utilities (CalPeco Electric), "2022 Wildlife Mitigation Plan Update: Public Version,"
+2022.
+Pacific Gas and Electric Company, "AMENDED PG&E Public Safety Power Shutoff (PSPS)
+Report to the CPUC October 26 & 29, 2019 De-Energization Event," 2020.
+Southern California Edison Company (SCE), "2022 Wildfire Mitigation Plan Update," 2022.
+G. W. Mullis, "Transformer Failure: Frequency and Causes," EDT Engineers, 4 August 2022.
+[Online]. Available: https://www.edtengineers.com/blog-post/transformer-failure-frequency-andcauses. [Accessed 20 June 2023].
+D. Flin, "Learning how to survive the summer demand peaks," NS Energy Business, 19 May
+2000.
+CNN Wire Staff, "Power outages, one death reported in Northeast heat wave," 10 July 2010.
+[Online]. Available: http://www.cnn.com/2010/US/07/06/heat.wave/index.html. [Accessed 20
+June 2023].
+P. Helsel, "Amid heat, California issues urgent power appeal but avoids rolling blackouts," NBC
+News, 6 September 2022. [Online]. Available: https://www.nbcnews.com/news/us-news/heatcalifornia-issues-urgent-power-appeal-warns-blackouts-possible-rcna46583. [Accessed 20 June
+2023].
+X. Gao, C. A. Schlosser and E. Morgan, "Application of the Analogue Method to Modeling Heat
+Waves: A Case Study with Power Transformers," Massachusetts Institute of Technology, Boston,
+2017.
+T. Hughes, "PG&E warns approaching heat wave could lead to power outages," The Morgan Hill
+Times, 9 June 2022. [Online]. Available: https://morganhilltimes.com/pge-warns-approachingheat-wave-could-lead-to-power-outages/. [Accessed 20 June 2023].
+R. Liu, Z. Hu and R. Shu, "Study on Substation Seismic Resilience Evaluation Index and
+Resilience Matrix," in 7th Annual International Conference on Materials Science and
+Engineering: IOP Conference Series: Materials Science and Engineering 562 012052, 2019.
+R. Liu, M. Xiong and D. Tian, "Relationship between Damage Rate of High-Voltage Electrical
+Equipment and Instrumental Seismic Intensity," Advances in Civil Engineering, vol. 2021, 2021.
+IEEE, "IEEE Recommended Practice for Seismic Design of Substations," 2019.
+
+Large Power Transformer Resilience | Page 40
+
+[39]
+
+[40]
+[41]
+[42]
+[43]
+[44]
+[45]
+[46]
+[47]
+[48]
+[49]
+[50]
+[51]
+[52]
+
+[53]
+[54]
+[55]
+[56]
+
+Department of Energy | July 2024
+
+Public Safety Canada, 12 September 2013. [Online]. Available:
+https://cdd.publicsafety.gc.ca/dtpg-eng.aspx?cultureCode=enCa&provinces=9&normalizedCostYear=1&dynamic=false&eventId=1290. [Accessed 20 June
+2023].
+Daily Sabah, "Tornadoes hit northern parts of Turkish Cyprus," Transformers Magazine, 23
+November 2020.
+R. Girgis and K. Vedante, "Effects of GIC on Power Transformers and Power Systems," in IEEE
+Power and Energy Society Transmission and Distribution Conference and Expo, Orlando, FL,
+2012.
+North American Electric Reliability Corporation, "1989 Quebec Disturbance Report," 1990.
+W. Naim, P. Hilber and E. Shayesteh, "Impact of geomagnetic disturbances on power
+transformers: risk assessment of extreme events and data availability," Life Cycle Reliability and
+Safety Engineering, vol. 11, pp. 11-18, 2021.
+T. Phillips, "Solar Shield--Protecting the North American Power Grid," Science@NASA, 26
+October 2010. [Online]. Available: https://science.nasa.gov/science-news/science-atnasa/2010/26oct_solarshield. [Accessed 20 June 2023].
+North American Electric Reliability Corporation, TPL-007-4 – Transmission System Planned
+Performance for Geomagnetic Disturbance Events, 2020.
+J. Kapapenman, "Geomagnetic Storms and Their Impacts on the U.S. Power Grid," Oak Ridge
+National Laboratory, Oak Ridge, TN, 2010.
+North American Electric Reliability Corporation, TPL-007-4: Transmission System Planned
+Performance for Geomagnetic Disturbance Events, NERC.
+U.S. Department of Energy Office of Cybersecurity, Energy Security, and Emergency Response,
+"Electric Disturbance Events (OE-417) Annual Summaries," [Online]. Available:
+https://www.oe.netl.doe.gov/OE417_annual_summary.aspx. [Accessed 19 July 2023].
+R. Horton and et. al., "High-altitude electromagnetic pulse and the bulk power system potential
+impacts and mitigation strategies," Electric Power Research Institute, Palo Alto, CA, 2019.
+R. Girgis, M. Bernesjo and M. Espindola, "Development Of Appropriate GIC Thermal Capability
+Criteria For Core Form And Shell Form Power Transformers," Hitachi ABB Power Grids
+Transformer Remanufacturing & Engineering Services (TRES), St. Louis, MO, 2021.
+U.S. Department of Energy, "Strategic Transformer Reserve: Report to Congress," 2017.
+E. Csanyi, "How Challenging Can be Transporting of a Large Power Transformer (LPT),"
+Electrical Engineering Portal, 14 Feb 2014. [Online]. Available: https://electrical-engineeringportal.com/how-challenging-can-be-transporting-of-a-large-power-transformer-lpt. [Accessed 20
+Apr 2023].
+Society, IEEE Power and Energy, "IEEE Draft Guide for the Transportation of Transformers and
+Reactors Rated 10,000 kVA or larger," The Institute of Electrical and Electronics Engineers, Inc.,
+New York, 2012.
+SofterImage, "Schnabel Car Theodore 27Jan13.wmv," YouTube/Google, 2017 February 2017.
+[Online]. Available: https://www.youtube.com/watch?v=krRMIu9Dh6Q. [Accessed 8 May 2023].
+G&S Technologies, "Large Power Transformer Forensic Decomissioning," [Online]. Available:
+https://www.gstechnologies.com/large-power-transformer-forensic-decommissioning. [Accessed
+25 April 2023].
+Kansas City Star, "Moving a 500,000-pound transformer is all in a day's work," 17 January 2014.
+[Online]. Available: https://www.youtube.com/watch?v=mxRIuloZtIY. [Accessed 8 May 2023].
+
+Large Power Transformer Resilience | Page 41
+
+[57]
+[58]
+[59]
+[60]
+[61]
+[62]
+[63]
+[64]
+[65]
+[66]
+[67]
+[68]
+
+[69]
+[70]
+[71]
+
+[72]
+[73]
+[74]
+[75]
+
+Department of Energy | July 2024
+
+C.-H. Chien, P.-Y. Chen, A. J. C. Trappey and C. V. Trappey, "Intelligent Supply Chain
+Management Modules Enabling Advanced Manufacturing for the Electric-Mechanical Equipment
+Industry," Hindawi: Complexity, vol. 2022, p. 20, 2022.
+Grid Assurance, "Grid Assurance," 2023. [Online]. Available: https://gridassurance.com/faqs/.
+[Accessed 19 April 2023].
+D. Proctor, "Disaster Preparedness: The Quest for Transformer Resilience," Power Magazine, 1
+April 2018. [Online]. Available: https://www.powermag.com/disaster-preparedness-the-quest-fortransformer-resilience/. [Accessed 21 April 2023].
+D. Russel, Interviewee, Grid Assurance. [Interview]. 2023.
+ICF, "Assessment of Large Power Transformer Risk Mitigation Strategies," Prepared for the
+Office of Energy Policy and Systems Analysis, U.S. DoE, 2016.
+North American Transmission Forum, Direct Communication, 2023.
+North American Transmission Forum, "NATF RESTORE Program," 13 November 2022.
+[Online]. Available: https://www.natf.net/docs/natf/documents/resources/resiliency/natf-programoverview---restore.pdf. [Accessed 24 July 2023].
+J. Manning, Interviewee, WattStock. [Interview].
+Electric Power Research Institute, "Consideration for a Power Transformer Emergency Spare
+Strategy for the Electric Utility Industry (IEEE Std C57.150-2012)," US Department of
+Homeland Security, Washington, D.C., 2014.
+ABB, "Final Report: Novel Concept for Flexible and Resilient Large Power Transformers," DEOE0000854, 2018.
+I. Ndiaye, O. Mendez-Samora, E. Betancourt-Ramirez, A. Elasser, J. Bebic, Y. Jiang and J. AvilaMontes, "FLEXIBLE TRANSFORMER SYSTEM". US Patent 20210151235A1, 20 May 2021.
+General Electric, "GE Research and Prolec GE Power Up World’s 1st Large Flexible
+Transformer to Enhance the Resiliency of America’s Grid," 18 October 2021. [Online].
+Available: https://www.ge.com/news/press-releases/ge-research-and-prolec-ge-power-up-worlds1st-large-flexible-transformer-to-enhance.
+GE Research and Prolec GE, "DRAFT report: Design, Deployment, and Characterization of the
+World’s First Flexible Large Power Transformer," GE Research, Niskayuna, NY, 2022.
+T. Donnelly, D. Wilson, R. Robinett and W. Weaver, "Top-Down Control Design Strategy for
+Electric Power Grid EMP (E3) Protection," in IEEE Texas Power and Energy Conference,
+College Station, TX, 2023.
+T. Shahsavarian, Y. Cao, E. Anagnostou and R. Kalbfleisch, "Novel Modulated Equivalent Model
+of Point-to-Point LCC-Based High Voltage AC/DC/AC System for Geomagnetic Storm Induced
+Unbalanced Harmonic Studies," International Journal of Electrical Power and Energy Systems,
+vol. 122, 2020.
+H. Naghshbandy, A. Baayeh and A. Faraji, "Blocking DC Flux Due To Geomagnetically Induced
+Currents in the Power Network Transformers," in Proceedings of the International Power
+Systems Conference, 2019.
+L. O. Hultman and A. G. Jack, "Soft magnetic composites-materials and applications," in
+IEMDC'03 - IEEE International Electric Machines and Drives Conference, Madison, WI, 2003.
+K. J. Sunday and M. L. Taheri, "Soft magnetic composites: recent advancements in the
+technology," Metal Powder Report, vol. 72, no. 6, pp. 425-429, 2017.
+J. Watt, G. C. Bleier, Z. W. Romero, B. G. Hance, J. A. Bierner, T. C. Monson and D. L. Huber,
+"Gram scale synthesis of Fe/FexOy core–shell nanoparticles and their incorporation into matrix-
+
+Large Power Transformer Resilience | Page 42
+
+Department of Energy | July 2024
+
+[76]
+
+[77]
+[78]
+[79]
+
+[80]
+[81]
+[82]
+[83]
+[84]
+[85]
+
+[86]
+[87]
+[88]
+[89]
+[90]
+[91]
+
+free superparamagnetic nanocomposites," Journal of Materials Research, vol. 33, no. 15, pp.
+2156-2167, 2018.
+C. H. Belcher, B. Zheng, S. M. Dickens, J. Domrzalski, E. D. Langlois, B. Lehman, C. Pearce, R.
+Delaney, B. E. MacDonald, D. Apelian, E. J. Lavernia and T. C. Monson, "Phase stability and
+magnetic and electronic properties of a spark plasma sintered CoFe – P soft magnetic alloy,"
+Journal of Alloys and Compounds, vol. 925, no. 166756, 2022.
+V. C. d. Nascimento, S. R. Moon, K. Byerly, S. D. Sudhoff and P. R. Ohodnicki, "Multiobjective
+Optimization Paradigm for Toroidal Inductors With Spatially Tuned Permeability," IEEE
+Transactions on Power Electronics, vol. 36, no. 3, pp. 2510-2521, 2021.
+S. D. Sudhoff, Power magnetic devices: a multi-objective design approach, John Wiley & Sons,
+2021.
+M. Zaied, A. Ospina-Vargas, N. Buiron, J. Favergeon and N. E. Fenineche, "Additive
+Manufacturing of Soft Ferromagnetic Fe 6.5%Si Annular Cores: Process Parameters,
+Microstructure, and Magnetic Properties," IEEE Transactions on Magnetics, vol. 58, no. 11, pp.
+1-9, 2022.
+C. L. Cramer, P. Nandwana, J. Yan, S. F. Evans, A. M. Elliott, C. Chinnasamy and M. P.
+Paranthaman, "Binder jet additive manufacturing method to fabricate near net shape crack-free
+highly dense Fe-6.5 wt.% Si soft magnets," Heliyon, vol. 5, no. 11, p. e02804, 2019.
+U.S. Department of Energy, ARPA-E, "Transformers for a Modernized Grid," 15 November
+2018. [Online]. Available: https://arpa-e.energy.gov/technologies/projects/transformersmodernized-grid. [Accessed 20 June 2023].
+D. Amin, R. Walvekar, M. Khalid, M. Vaka, N. M. Mubarak and T. C. S. M. Gupta, "Recent
+Progress and Challenges in Transformer Oil Nanofluid Development: A Review on Thermal and
+Electrical Properties," IEEE Access, vol. 7, pp. 151422-151438, 2019.
+M. Hussain, F. A. Mir and M. A. Ansari, "Nanofluid transformer oil for cooling and insulating
+applications: A brief review," Applied Surface Science Advances, vol. 8, p. 100223, 2022.
+Y. Mariappan and M. Rengaraj, "A comprehensive review on nanotechnology for enhancement in
+performance of transformer liquid insulation," Materials Today: Proceedings, vol. 47, pp. 229234, 2021.
+NERC SPIDERWG, "NERC SPIDERWG Terms and Definitions Working Document," June
+2020. [Online]. Available:
+https://www.nerc.com/comm/RSTC/SPIDERWG/SPIDERWG%20Terms%20and%20Definitions
+%20Working%20Document.pdf.
+M. E. Ropp and M. J. Reno, "Influence of Inverter-Based Resources on Microgrid Protection:
+Part 2: Secondary Networks and Microgrid Protection," IEEE Power and Energy Magazine, pp.
+47-57, 19 April 2021.
+D. W. Varley, Feasibility Analysis of a Mobile Microgrid Design to Support DoD Energy
+Resilience Goals, Monterey, CA: https://apps.dtic.mil/sti/trecms/pdf/AD1184655.pdf, 2022.
+NREL and SEPA, "Voices of Experience: Microgrids for Resiliency," November 2020. [Online].
+Available: https://www.nrel.gov/docs/fy21osti/75909.pdf.
+Electric Power Research Institute, "Considerations for a Power Transformer Emergency Spare
+Strategy for the Electric Utility Industry," DHS Science and Technology, 2014.
+C. Ettl, "Container Arrangement for Power Transformers". US Patent US 10,381,147 B2, 13 Aug
+2019.
+J. Manning, WattStock, "direct communication," 2023.
+
+Large Power Transformer Resilience | Page 43
+
+[92]
+
+Department of Energy | July 2024
+
+O. Godswill, E. U. Ubeku and C. E. Mesharun, "Large Power Transformer Condition Assessment
+and Life Extension," in IEEE International Symposium on Electrical Insulation, Vancouver,
+2023.
+[93] Power Magazine, "New Approaches for Transformer Operation and Maintenance," Power
+Magazine, 1 Apr 2017.
+[94] Power Magazine, "Clinging to Power: Why Extending Transormer Life is Key," Power
+Magazine, 1 Aug 2018.
+[95] American Society of Testing and Materials (ASTM), "Standard Test Method for Dielectric
+Breakdown Voltage of Insulating Liquids Using Disk Electrodes," 11 Dec 2019. [Online].
+Available: https://compass.astm.org/document/?contentCode=ASTM%7CD0877_D0877M19%7Cen-US. [Accessed 6 Jun 2023].
+[96] American Society of Testing and Materials (ASTM), "Standard Test Method for Dielectric
+Breakdown Voltage of Insulating Liquids Using VDE Electrodes," 7 Oct 2019. [Online].
+Available: https://compass.astm.org/document/?contentCode=ASTM%7CD1816-12R19%7CenUS. [Accessed 6 Jun 2023].
+[97] Some American Society of Testing and Materials (ASTM), "Standard Test Method for Acid and
+Base Number by Color-Indicator Titration," 20 Jan 2023. [Online]. Available:
+https://compass.astm.org/document/?contentCode=ASTM%7CD0974-22%7Cen-US. [Accessed 6
+Jun 2023].
+[98] American Society of Testing and Materials (ASTM), "Standard Test Method for Interfacial
+Tension of Insulating Liquids Against Water by the Ring Method," 27 Apr 2020. [Online].
+Available: https://compass.astm.org/document/?contentCode=ASTM%7CD0971-20%7Cen-US.
+[Accessed 6 Jun 2023].
+[99] American Society of Testing and Materials (ASTM), "Standard Test Method for ASTM Color of
+Petroleum Products (ASTM Color Scale)," 19 Jan 2018. [Online]. Available:
+https://compass.astm.org/document/?contentCode=ASTM%7CD1500-12R17%7Cen-US.
+[Accessed 6 Jun 2023].
+[100] American Society of Testing and Materials (ASTM), "Standard Test Method for Water in
+Insulating Liquids by Coulometric Karl Fischer Titration," 12 Nov 2020. [Online]. Available:
+https://compass.astm.org/document/?contentCode=ASTM%7CD1533-20%7Cen-US. [Accessed 6
+Jun 2023].
+[101] American Society of Testing and Materials (ASTM), "Standard Test Method for Density,
+Relative Density, or API Gravity of Crude Petroleum and Liquid Petroleum Products by
+Hydrometer Method," 14 Mar 2023. [Online]. Available:
+https://compass.astm.org/document/?contentCode=ASTM%7CD1298-12BR17E01%7Cen-US.
+[Accessed 6 Jun 2023].
+[102] American Society of Testing and Materials (ASTM), "Standard Test Method for Visual
+Examination of Used Electrical Insulating Liquids in the Field," 25 Jul 2022. [Online]. Available:
+https://compass.astm.org/document/?contentCode=ASTM%7CD1524-15R22%7Cen-US.
+[Accessed 6 Jun 2023].
+[103] American Society of Testing and Materials (ASTM), "Standard Test Method for Dissipation
+Factor (or Power Factor) and Relative Permittivity (Dielectric Constant) of Electrical Insulating
+Liquids," 27 Dec 2016. [Online]. Available:
+https://compass.astm.org/document/?contentCode=ASTM%7CD0924-15%7Cen-US. [Accessed 6
+Jun 2023].
+[104] American Society of Testing and Materials (ASTM), "Standard Test Method for Analysis of
+Gases Dissolved in Electrical Insulating Oil by Gas Chromatography," 16 Dec 2017. [Online].
+
+Large Power Transformer Resilience | Page 44
+
+Department of Energy | July 2024
+
+Available: https://compass.astm.org/document/?contentCode=ASTM%7CD3612-02R17%7CenUS. [Accessed 6 Jun 2023].
+[105] T. N. Mahbub, S. S. Hossain, R. A. Akash, S. M. S. Reza and Z. Tasnim, "Implementing Fuzzy
+Analytical Hierarchy Process (FAHP) To Measure Malicious Behaviour of Codes In Smart
+Meter," in 2nd International Conference on Robotics,Electrical and Signal Processing
+Techniques (ICREST), Bangladesh, 2021.
+[106] K. Chinnaswamy, "Climate change impact reliability of large electric power transformers in the
+Northeast United States," Master's Theses and Capstones, vol. 681, 2011.
+[107] Duke Energy, "Climate Risk and Resilience Study: Interim Report," 2022.
+[108] Technical Engineering Portal, "Publicación de Technical Engineering Portal," [Online].
+Available: https://www.linkedin.com/posts/gabriel-engineering-construction_what-is-buchholzrelay-buchholz-relay-activity-7061198217094270976-1BY1. [Accessed 20 June 2023].
+[109] U.S. Department of the Interior, Bureau of Reclamation, Hydroelectric Research and Technical
+Services Group, "Transformer Maintenance: Facilities Instructions, Standards, and Techniques,"
+Denver, CO, 2000.
+[110] Town of Ocean City, "2017 Hazard Mitigation Plan," Ocean City, MD, 2017.
+[111] National Institute of Standards and Technology, "NIST Technical Note 1476: Performance of
+Physical Structures in Hurricane Katrina and Hurricane Rita: A Reconnaissance Report," National
+Institute of Standards and Technology, Gaithersburg, MD, 2006.
+[112] J. Kotulski, E. Wang and P. Clem, "EMP-Resilient Electric Grid Transformer Analysis," Sandia
+National Laboratories, 2020.
+[113] Utah Department of Public Safety, Division of Emergency Management, "2019 Utah State
+Hazard Mitigation Plan," 2019.
+[114] U.S. Department of Energy, Office of Cybersecurity, Energy Security, and Emergency,
+Infrastructure Security and Energy Restoration (ISER) Division, "Geomagnetic Disturbance
+Monitoring Approach and Implementation Strategies," U.S. Department of Energy, Washington,
+D.C., 2019.
+[115] National Oceanic and Atmospheric Administration, Space Weather Prediction Center, "Electric
+Power Transmission," [Online]. Available: https://www.swpc.noaa.gov/impacts/electric-powertransmission. [Accessed 20 June 2023].
+[116] North American Electric Reliability Corporation, "Reliability Standards".
+[117] C. Krause, "Power transformer insulation – history, technology and design," IEEE Transactions
+on Dielectrics and Electrical Insulation, vol. 19, no. 6, pp. 1941-1947, 2012.
+[118] V. Ammarapala, T. Chinda, P. Pongsayaporn, W. Ratanachot, K. Punthutaecha and K. Janmonta,
+"Cross-border shipment route selection utilizing analytic hierarchy process (AHP) method,"
+Songklanakarin Journal of Science and Technology, vol. 40, no. 1, pp. 31-37, 2018.
+[119] A. Chakrounj, A. E. Bouchti and H. Abbar, "Logistics and Supply Chain Analytics: Benefits and
+Challenges," in Second World Conference on Smart Trends in Systems, London, 2018.
+[120] P. Trkman, K. McCormack, M. P. V. de Oliveira and M. B. Ladeira, "The impact of business
+analytics on supply chain performance," Decision Support Systems, vol. 49, no. 3, pp. 318-327,
+2010.
+[121] H. Demirkan and D. Delen, "Leveraging the capabilities of service-oriented decision support
+systems: Putting analytics and big data in cloud," Decision Support Systems, vol. 55, no. 1, pp.
+412-421, 2013.
+[122] G. C. Souza, "Supply chain analytics," Business Horizons, vol. 57, no. 5, pp. 595-605, 2014.
+
+Large Power Transformer Resilience | Page 45
+
+Department of Energy | July 2024
+
+[123] Metglas, "Metglas Amorphous Metal Transformer Core," 9 June 2020. [Online]. Available:
+https://metglas.com/new-product-release-metglas-amorphous-metal-transformer-core/. [Accessed
+2023 5 July].
+[124] U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy, "Energy
+Conservation Program: Energy Conservation Standards for Distribution Transformers: Notice of
+Proposed Rulemaking," 2022.
+[125] North American Electric Reliability Corporation, "TPL-001-5 — Transmission System Planning
+Performance Requirements".
+[126] P. Nimkar, T. Arora, P. Bangde and P. Narnaware, "Over-flux protection of the transformer.," in
+2018 International Conference on Smart Electric Drives and Power System (ICSEDPS), 2018.
+
+Large Power Transformer Resilience | Page 46
+
+ACRONYMS
+AEP
+ATI
+BIL
+CGO
+CIP
+CME
+CTC
+DC
+DOA
+DOC
+DOE
+DOT
+EEI
+EHV
+EMP
+EPRI
+EU
+EV
+FACTS
+GA
+GIC
+GMD
+GOES
+HEMP
+HI-B
+HV
+IEEE
+IOU
+LPT
+MMF
+MVA
+NATF
+NERC
+NOES
+NREL
+ORNL
+PCB
+PDR
+RecX
+RESTORE
+SMC
+SST
+STEP
+
+Department of Energy | July 2024
+
+American Electric Power
+Allegheny Technologies Incorporated
+Bipartisan Infrastructure Law
+Conventional oriented grade electrical steel
+Critical Infrastructure Protection
+Coronal Mass Ejection
+Continuously transposed conduction
+Direct Current
+Days of Autonomy
+Department of Commerce
+Department of Energy
+Department of Transportation
+Edison Electric Institute
+Extra-high voltage
+Electromagnetic pulse
+Electric Power Research Institute
+European Union
+Electric vehicle
+Flexible AC Transmission Systems
+Grid Assurance
+Geomagnetically induced currents
+Geomagnetic disturbances
+Grain oriented electrical steel
+High altitude electromagnetic pulse
+High permeability grade
+High voltage
+Institute of Electrical and Electronics Engineers
+Investor-Owned Utilities
+Large Power Transformer
+Magneto Motive Force
+Mega volt-ampere
+North American Transmission Forum
+North American Electric Reliability Corporation
+Non-oriented electrical steel
+National Renewable Energy Laboratory
+Oak Ridge National Laboratory
+Polychlorinated bipheny
+Permanent domain refined GOES
+Recovery Transformer
+Regional Equipment Sharing for Transmission Outage Restoration
+Soft magnetic composite
+Solid State Transformers
+Spare Transformer Equipment Program
+
+Large Power Transformer Resilience | Page 47
+
+

@@ -1,0 +1,1482 @@
+Source: https://media.rff.org/documents/RFF_Report_21-01_Colstrip_Case_Study.pdf
+Publisher: Resources for the Future
+Retrieved: 2026-11-13
+Original SHA-256: 4ce695472531d313866902d1f5296e25e2795366744b9c0ea9b1f8169c54f183
+Rights: CC BY-NC-ND 4.0
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Coal Communities in
+Transition: A Case Study
+of Colstrip, Montana
+Kelli Roemer, Daniel Raimi, and Rebecca Glaser
+
+Report 21-01
+January 2021
+
+About the Authors
+Kelli Roemer is a PhD candidate in the Resources & Communities Research Group at
+Montana State University. Her doctoral research investigates community resilience and
+planning dynamics in rural communities affected by the US energy transition. Roemer
+uses qualitative methods to analyze how policy and local planning processes shape
+transitions in rural, coal-reliant communities in the US West. Her dissertation research
+is supported by a USDA NIFA predoctoral fellowship. Roemer holds an MS in natural
+resources from the University of Idaho and served two AmeriCorps member terms in
+Helena, Montana, and Lakeview, Oregon.
+Daniel Raimi is a fellow at Resources for the Future and a lecturer at the Gerald R. Ford
+School of Public Policy at the University of Michigan. He works on a range of energy
+policy issues with a focus on oil and gas regulation and taxation and climate change
+policy. The Fracking Debate, his first book, combines stories from his travels to dozens
+of oil- and gas-producing regions with a detailed examination of key policy issues; it
+was published by Columbia University Press as part of the Columbia University Center
+on Global Energy Policy book series. Raimi’s current research examines the future of oil
+and gas development in the United States, with a focus on how producing communities
+are managing near-term impacts while planning for the future.
+Rebecca Glaser is an intern at Resources for the Future, where she has worked on the
+Just Transitions team, studying federal economic interventions in Athens, Ohio, and
+Colstrip, Montana. She is also a PhD candidate in materials science and engineering at
+Georgia Institute of Technology. Broadly, she studies electrolytes for next-generation
+lithium-based batteries. Her work focuses on improving the utilization of the reactive
+materials in lithium-sulfur batteries. She has a minor in public policy.
+
+Acknowledgements
+Invaluable contributions came from Rob Godby of the University of Wyoming, Mark
+Haggerty of Headwaters Economics, Julia Haggerty of Montana State University, and
+Cindy Winland of the Just Transition Fund.
+
+Resources for the Future
+
+i
+
+About RFF
+Resources for the Future (RFF) is an independent, nonprofit research institution in
+Washington, DC. Its mission is to improve environmental, energy, and natural resource
+decisions through impartial economic research and policy engagement. RFF is
+committed to being the most widely trusted source of research insights and policy
+solutions leading to a healthy environment and a thriving economy.
+Working papers are research materials circulated by their authors for purposes of
+information and discussion. They have not necessarily undergone formal peer review.
+The views expressed here are those of the individual authors and may differ from those
+of other RFF experts, its officers, or its directors.
+
+About the Project
+RThis report is one in a series prepared by Resources for the Future and the
+Environmental Defense Fund that examines policies and programs to promote fairness
+for workers and communities in a transition to a low–greenhouse gas emissions
+economy, often referred to as a Just Transition. The first group of reports focuses on
+existing public policies and programs, grouped thematically as “tools in the toolbox”
+for policymakers seeking effective strategies to address economic challenges
+associated with the transition. This report is one of three US-based case studies that
+provide detailed information on how federal, state, and local actors can work together
+to support a successful transition. Please visit www.rff.org/fairness-for-workers or
+www.edf.org/ensuring-fairness-workers-clean-economy for more information, other
+reports in the series, blog posts, and more
+
+Sharing Our Work
+Our work is available for sharing and adaptation under an Attribution 4.0
+International (CC BY 4.0) license. You can copy and redistribute our material in
+any medium or format and remix, transform, and build upon the material for any
+purpose, even commercially. You must give appropriate credit, provide a link to the
+license, and indicate if changes were made. You may do so in any reasonable manner,
+but not in any way that suggests the licensor endorses you or your use. For more
+information, visit https://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+ii
+
+Abstract
+Colstrip, Montana, is a small, isolated community that was established in the 1920s
+for the express purpose of mining coal. Later in the 20th century, the town became
+home to a large coal-fired power plant, which has since been the bedrock of the
+local economy. In 2020, however, two of the plant’s four units were retired, the
+future of the remaining two units is highly uncertain, and a history of groundwater
+contamination caused by coal ash poses additional challenges for future economic
+development. These issues, particularly the uncertainty over the plant’s future, have
+been exacerbated by the complex ownership structure of the plant, which has made it
+difficult for local leaders to establish a clear transition plan. Although state and federal
+policymakers have attempted to intervene, transition planning efforts to date have
+been ad hoc and not well coordinated. Colstrip’s experience highlights the importance
+of providing more certainty for communities in transition. It also suggests the need for
+more coordination among local, state, and federal stakeholders while providing more
+robust planning and transition support. Looking forward, isolated, resource-dependent
+communities like Colstrip will face considerable challenges in an energy transition.
+Federal and state policymakers can help create better outcomes by striving to provide
+more certainty along with technical and financial support to facilitate locally driven
+transition efforts.
+
+Resources for the Future
+
+iii
+
+Contents
+1. Introduction
+
+1
+
+1.1. Transition Challenges for Colstrip 
+
+3
+
+1.2. Complex Ownership Structure Adds to Uncertainty
+
+5
+
+1.3. Closing Units 1 and 2 Highlights the Risk of Future Closures
+
+6
+
+1.4. Uncoordinated and Limited Transition Planning Efforts Have Created
+Challenges7
+2. Policy Interventions to Support Colstrip
+
+10
+
+2.1. State Interventions
+
+10
+
+2.2. Federal Interventions
+
+13
+
+3. Local Environmental Issues and Opportunities
+
+15
+
+3.1. Environmental, Health, and Economic Impacts of Air and Water Pollution
+
+15
+
+3.2. Economic Potential of Remediation
+
+17
+
+4. Discussion and Key Insights
+
+19
+
+5. Conclusion
+
+21
+
+6. References
+
+22
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+iv
+
+1. Introduction
+Colstrip (pop. ~2,440) is a rural community in Rosebud County in the High Plains of
+southeastern Montana, more than 100 miles east of the nearest large city (Billings,
+pop. ~110,000). It sits roughly 20 miles north of two Native American reservations, the
+Northern Cheyenne and the Crow reservations, and at the northern end of the Powder
+River Basin, the single largest source of coal in the United States and one of the largest
+deposits of coal in the world.
+As its name implies, Colstrip was born from coal.1 Established in the early 1920s by the
+Northern Pacific Railway Company to provide fuel for locomotives (City of Colstrip
+2020a), the townsite was sold in 1959 to the Montana Power Company (MPC) as
+diesel replaced coal as the fuel of choice for locomotives. For nearly a decade, coal
+production was idled, but it resumed with the construction of the Colstrip Steam
+Electric Station in the late 1960s.
+In the 1970s, a variety of factors, including federal Clean Air Act regulations on sulfur
+dioxide emissions and concerns about energy security, drove a rapid and extensive
+development of low-sulfur coal resources in the Interior West, which displaced highersulfur coal from Appalachia and the Midwest (Robertson 1979; Gerking and Hamilton
+2008). Colstrip was one of the dozens of locations identified for construction of minemouth generating plants and high-voltage long-distance transmission lines (US Bureau
+of Reclamation 1971). In 1975 and 1976, Colstrip Station’s Units 1 and 2 began operating
+with a combined capacity of 614 MW. Units 3 and 4 came online in 1983 and 1985, with
+1,480 MW of generating capacity. With a total capacity of 2,094 MW, Colstrip Station
+became the second-largest coal-fired power plant in the western United States and the
+largest in Montana.
+During construction, Rosebud County’s population more than doubled, rising from
+roughly 6,000 in 1970 to more than 13,000 in the mid-1980s. Following the completion
+of Units 3 and 4, population abruptly dropped by several thousand, settling just below
+10,000 residents in the 2000s. Coal production from the Rosebud mine, which provides
+all of the plant’s fuel, has varied since the 1980s, but in recent years, output has
+hovered near its lowest levels in decades (Figure 1).
+
+1		It is unclear why the town is named “Colstrip” rather than “Coalstrip,” though the word
+“coal” is derived from the Middle English word “col.”
+
+Resources for the Future
+
+1
+
+Figure 1. Rosebud County Population and Rosebud Mine Coal Production
+Population
+
+Coal production (milion short tons)
+
+16,000
+
+16
+
+1975 and 1976
+Units 1 and 2
+come online
+
+14,000
+
+14
+
+12,000
+
+12
+
+10,000
+
+10
+
+8,000
+
+8
+
+6,000
+
+6
+
+4,000
+2,000
+0
+
+4
+
+1983 and 1985
+Units 3 and 4
+come online
+
+1970
+
+1975
+
+1980
+
+1985
+
+2
+
+1990
+
+1995
+
+2000
+
+2005
+
+2010
+
+2015
+
+0
+
+Data sources: US Census; EIA (2020a). Note: Coal production data available only from 1983 through 2018.
+
+In recent years, as coal-fired power has come under increasing pressure from low-cost
+competitors, including natural gas, wind, and solar, Colstrip Station has become less
+competitive, leading to a reduction in power production and associated coal mining.
+In 2010, Colstrip Station generated more than 16,000 gigawatt-hours (GWh) of net
+electricity, its highest level, but annual production declined to roughly 13,000 GWh
+from 2016 to 2019 (EIA 2020b). At the Rosebud mine, employment hovered near 400
+workers from 2005 through 2016 but dipped to a low of 320 in late 2017 (MSHA 2020).2
+Colstrip represents an outsized share of the coal industry in Montana. As of 2017, the
+power plant employed nearly 80 percent of Montana’s coal power plant workforce,
+while the Rosebud mine employed more than 35 percent of the state’s coal miners
+(Nowakowski 2018).
+This year, following a legal settlement related to the installation of emissions control
+technologies under the Clean Air Act (Section 1.3), Units 1 and 2 shut down, reducing
+the plant’s capacity by 29 percent. The future of the plant’s remaining two units is
+highly uncertain, as we discuss in the sections ahead.
+
+2		More recent mine-level employment data are not available at the time of this writing.
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+2
+
+1.1. Transition Challenges for Colstrip
+For rural and remote coal-reliant communities like Colstrip, a shift away from fossil
+energy implies major social and economic transitions. Rural communities often have
+limited capacity, networks, and resources to navigate shocks such as the closure of a
+major employer. When these shocks occur, communities may experience a structural
+shift in employment and economic opportunity. The isolation and distance from
+population centers limits opportunities to participate in the knowledge and servicebased sectors, which are increasingly concentrated in urban locations (Rasker et al.
+2009). In addition, the loss of local tax revenue can affect government’s ability to
+provide services and maintain relatively low tax rates for residents (Haggerty
+et al. 2018).
+The town of Colstrip and Rosebud County are heavily reliant on coal for employment,
+economic activity, and public revenues. In 2017, the taxable value of all property across
+Rosebud County was roughly $95 million, $76 million of which was accounted for by
+the power plant, coal mine, and associated property. Units 1 and 2 represented $22
+million of this taxable value, meaning that the closure of these units erased roughly 24
+percent of the county’s property tax base (importantly, subsequent increases in the
+local property tax rate may mean that county revenues would not experience such a
+sharp drop). As shown in Figure 2, power plant property makes up an even larger share
+of the local tax base for Colstrip schools (Wagner 2018). However, state tax laws known
+as “equalization” mean that revenues raised from property taxes in other counties
+would help offset revenue shortfalls in Colstrip, limiting local losses (Montana Office of
+Public Instruction 2020).
+
+Figure 2. Local Taxable Property Values, 2017
+Millions
+$100
+
+$80
+
+$60
+
+$40
+
+$20
+
+$0
+
+All other
+property
+
+All other
+property
+
+Other
+plant-related
+property
+
+Other
+plant-related
+property
+
+Colstrip
+Units 1 and 2
+
+Colstrip
+Units 1 and 2
+
+Rosebud County
+
+Colstrip schools
+
+Data source: Wagner (2018).
+
+Resources for the Future
+
+3
+
+Local governments will experience other major changes in revenue due to the closure
+of Units 1 and 2. Lower coal production driven by the closures will reduce the federal
+and state royalties and taxes that have flowed to Rosebud County for years. The state
+estimates that these will include annual losses of roughly $460,000 in federal mineral
+royalties and $900,000 in state coal taxes, though the ultimate level of losses will
+depend on coal prices, which form the base of the tax (Wagner 2018). For context,
+total revenue from all sources for Rosebud County in 2018 was $12.6 million (Montana
+Legislature 2020). However, these losses could be partly offset by an increase in
+payments in lieu of taxes (PILTs), which could rise by roughly $750,000.3
+The closure of Units 1 and 2 has dramatically affected Colstrip’s electricity output. As
+shown in Figure 3, monthly power generation fell by 33 percent in the first half of 2020,
+reaching its lowest level since 1985.
+
+Figure 3. Colstrip Power Plant Average Monthly Net Electricity
+Generation
+MWh
+1,400,000
+
+1,000,000
+
+600,000
+
+200,000
+0
+
+1975
+
+1980
+
+1985
+
+1990
+
+1995
+
+2000
+
+2005
+
+2010
+
+2015
+
+2020
+
+Data source: EIA (2020b). Notes: No data available for year 2000. 2020 data are preliminary,
+January through May only.
+
+Another potential challenge relates to water infrastructure. The town’s fresh
+water comes from the Yellowstone River and is transported via a 30-mile pipeline
+constructed by Montana Power in 1974. Ownership of the water rights has changed
+over the years, but today, the water rights and infrastructure are shared by the City
+of Colstrip and the power plant’s six owners (City of Colstrip 2020b). If the plant’s
+remaining two units are retired, the ownership, operation, and maintenance of this
+infrastructure would be a key concern, leading community leaders to seek a longterm agreement that would expand the water rights to the city (Colstrip City Council
+3		A recent analysis prepared for Montana’s Financial Modernization and Risk Analysis
+study estimates that the county’s annual PILT payment could increase by more than
+$750,000 (Haggerty 2020).
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+4
+
+Chambers 2018). However, such an arrangement would not necessarily address who
+pays for the maintenance and operations of the infrastructure, an issue that has arisen
+in other natural resource–dependent communities (e.g., Raimi and Newell 2016; Smith
+et al. 2019).
+
+1.2. Complex Ownership Structure Adds to
+Uncertainty
+The complexity of Colstrip Station’s ownership portfolio has created additional
+challenges for the community as it navigates closures and uncertainty. Because the
+plant’s six owners face varying regulatory, economic, and social conditions, they each
+have different incentives that affect their decisionmaking. The varying approaches
+taken by plant owners have exacerbated the uncertainty over when and whether
+Units 3 and 4 will close, making it difficult for local stakeholders to plan for a potential
+transition (Haggerty et al. 2018).
+To understand this dynamic, it is useful to review the history of the plant’s ownership.
+In 1972, the Montana Power Company partnered with utilities in Washington and
+Oregon to develop Colstrip’s mines and generating facilities (Haggerty et al. 2017).
+Along with MPC, Seattle-based Puget Sound Electric (PSE) was an original partner in
+Units 1 and 2. The construction and ownership agreement for Units 3 and 4 involved
+six entities with varying levels of investment: MPC, PSE, Washington Water and Power,
+Portland General Electric (PGE), Pacific Power and Light, and Basin Electric (Coal
+Transportation Agreement 1981). Over time, companies have invested and divested
+from Colstrip, and some have changed names.
+In 1997, Montana deregulated its electricity sector (Martin and Everts 2002), which
+enabled MPC to sell its generating assets to Pennsylvania Power and Light (PPL)
+and divest its ownership of the town. Until that point, Colstrip was a true “company
+town.” It was officially incorporated in 1998, technically becoming the state’s newest
+town despite its decades of history4 (City of Colstrip 2020a). In 2015, Talen Energy, an
+independent power producer operating plants in multiple US power markets, acquired
+PPL’s assets, including Colstrip Station (Brown 2015), and is the plant’s operator.
+When Units 1 and 2 were retired, six entities retained ownership shares in Colstrip’s
+remaining units: Talen, PSE, PGE, Avista Corporation, PacifiCorp, and NorthWestern
+Energy (NWE). Each of these companies, with the exception of Talen, is an investorowned utility.
+Colstrip Station obtains all its fuel from the Rosebud mine, previously owned by
+Westmoreland Mining Company, which filed for bankruptcy in 2018. In 2019, the
+company emerged as Westmoreland Mining, LLC, which was created by Westmoreland
+4		For company towns such as Colstrip, divestiture of ownership and services could exacerbate challenges of resource dependency (Commander 2018). Though an important aspect
+of Colstrip’s situation, the impact of MPC’s divestment is not the focus of this report.
+
+Resources for the Future
+
+5
+
+Mining Company’s first lien creditors (Lutey 2019). A coal supply agreement has been
+in effect between Colstrip Units 3 and 4 owners and Westmoreland Mining Company
+since 1998 and was recently renewed through 2025 (Westmoreland Mining, LLC 2019),
+creating at least one point of certainty for the community.
+
+1.3. Closing Units 1 and 2 Highlights the Risk of
+Future Closures
+The closure of Units 1 and 2 was driven by a mix of ad hoc legal efforts and market
+factors. In March 2013, the Sierra Club and the Montana Environmental Information
+Center sued the plant’s owners,5 alleging that they had violated the Clean Air Act
+by undertaking major repairs without obtaining permits that would have required
+installation of additional pollution controls. In July 2016, the parties entered into an
+administrative order on consent (AOC) requiring Units 1 and 2 to cease operations by
+July 1, 2022 (Montana DEQ 2012). In June 2019, Talen announced that Units 1 and 2
+would be permanently retired two years early because of financial challenges, citing an
+inability to renegotiate fuel costs with the Rosebud mine operators (Talen Energy 2019).
+The future of Units 3 and 4 is unclear and, as noted above, complicated by the owners’
+different decisions over when to exit the plant. One key driver of these varying
+timelines is differing regulatory and policy environments for plant owners based in
+Oregon and Washington, states that are seeking to phase out coal-fired power.
+In March 2020, the Washington Utility and Transportation Commission (WUTC)
+approved the acceleration of depreciation of Avista Corporation’s ownership share
+of Colstrip Units 3 and 4 through December 31, 2025.6 WUTC has also approved
+PacifiCorp’s accelerated timeline for exiting ownership of Units 3 and 4, from 2046 to
+2027 (PacifiCorp 2019). To meet the requirements of Oregon’s SB 1547, PGE will fully
+depreciate Units 3 and 4 by the end of 2030 and remove them from its portfolio by the
+end of 2034 (PGE 2019). PSE will need to exit ownership of Units 3 and 4 to comply
+with Washington State’s Clean Energy Transformation Act, which requires all electric
+utilities in the state to eliminate coal-fired electricity by 2025.7
+Figure 4 illustrates the complex, shifting, and uncertain nature of Colstrip’s ownership
+structure. The stippled areas represent the closure of Units 1 and 2, and the gray areas
+with question marks indicate the ownership shares that are expected to be divested by
+various companies in the years ahead.
+
+5		Sierra Club and MEIC v. PPL Montana LLC, et al. (2013).
+6		Avista Corporation, US Securities and Exchange Commission Form 8-K, 2020.
+7		An Act Relating to Supporting Washington’s Clean Energy Economy and Transitioning
+to a Clean, Affordable, and Reliable Energy Future, SB 5116, State of Washington
+Legislature (2019).
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+6
+
+Figure 4. Colstrip Ownership Shares, 2015–2035
+Capacity per unit (MW)
+
+Ownership
+
+800
+
+Avista
+?
+
+?
+
+600
+?
+
+400
+
+?
+
+?
+
+?
+
+?
+
+?
+
+PacifiCorp
+
+?
+
+?
+
+?
+
+?
+
+Puget Sound Energy
+
+?
+
+?
+
+?
+
+?
+
+Portland General
+Electric
+
+?
+
+?
+
+NorthWestern Energy
+Talen Energy, LLC
+
+200
+
+Decommissioned
+0
+
+?
+
+1
+
+2 3
+2015
+
+4
+
+1
+
+2 3
+2020
+
+4
+
+1
+
+2 3
+2025
+
+4
+
+1
+
+2 3
+2030
+
+4
+
+1
+
+2 3
+2035
+
+Ownership uncertain
+
+4
+
+Data sources: Avista Corporation, US Securities and Exchange Commission Form 8-K, 2020; Pacificorp (2019); PGE (2019); Talen
+(2019); WUTC (2017, 2019).
+
+It is possible that buyers will emerge to take on the shares vacated by these exits.
+However, the long-term uncertainty surrounding coal-fired power in the United States,
+along with the specific challenges facing Colstrip, dim this prospect.
+In 2019, NWE filed an application with the Montana Public Service Commission for
+preapproval to acquire PSE’s 25 percent interest in Colstrip Unit 4 for $1 (Larson 2019).
+Talen, which had first right of refusal to purchase assets divested by PSE, sought to
+purchase half of PSE’s 25 percent share of Unit 4. The sale to NWE and Talen, where
+each firm would pay $0.50, needed approval from both the Montana Public Service
+Commission and WUTC. Arguing that the sale would not be in the best interest of the
+public, WUTC staff recommended that PSE’s request to sell Unit 4 be denied, followed
+by PSE’s cancellation of the sale in late October 2020 (WUTC 2020b).
+This situation highlights the central challenge faced by the community: planning for
+the future becomes all but impossible when there is deep uncertainty over not only
+whether the plant is retiring, but when.
+
+1.4. Uncoordinated and Limited Transition
+Planning Efforts Have Created Challenges
+No federal or Montana state law mandates advanced planning for the social and
+economic impacts of power plant or mine closure (though there are requirements for
+environmental remediation planning). New policies, such as those beginning to be
+
+Resources for the Future
+
+7
+
+implemented in Colorado8 and New Mexico,9 include funds to support local transition
+activities, such as planning, workforce development, and reporting requirements for
+plant owners. In the absence of centralized transition planning in Colstrip, a variety
+of actors—including community stakeholders and some plant owners—are taking
+measures to support the community in navigating the transition.
+After the closure of Units 1 and 2 was announced in 2016, three distinct proposals
+emerged to address Colstrip’s future. These efforts covered a wide range of
+approaches, reflecting the differing priorities of local and regional stakeholders, from a
+traditional comprehensive economic development strategy process aimed at economic
+diversification (SEMDC 2017), to a plan for local stakeholders to press for new federal
+efforts to maintain the viability of coal-fired power and mining nationwide (Taimerica
+Management et al. 2017), to a plan focused on job creation driven by cleaning up a
+legacy of local groundwater pollution (Northern Plains Resource Council 2019).
+In parallel—though not in coordination—with those planning efforts, some plant
+owners have established funds to support transition efforts as part of their
+negotiations to exit ownership of Colstrip Station. The first of these efforts emerged in
+2017 during rate case negotiations between WUTC and PSE.10 The resulting settlement
+required PSE to contribute $10 million for community transition planning and prompted
+the creation of the Colstrip Community Impact Advisory Group (CCIAG), which was
+convened “to develop a community transition plan to address future closures at the
+Colstrip Generation Plant” and included state and local officials, community leaders,
+and labor and economic development organizations (Montana Governor’s Office 2017).
+The approved CCIAG draft plan provides for the establishment of a seven-member
+board tasked with distributing the community impact funds provided by PSE to
+projects that support workers and enhance local economic development. The CCIAG
+plan includes two funds: $7.5 million for issuing grants and short-term loans supporting
+worker assistance, economic diversification, and tax base replacement; and a $2.5
+million endowment, the proceeds from which would be used for future grants and loans
+(CCIAG 2018).
+A second effort, the result of a partial settlement between Avista Corporation and
+WUTC, requires the company to contribute $3 million to a Colstrip Community
+Transition Fund, to be shared among the town, Rosebud County, and the Northern
+Cheyenne Tribe (WUTC 2018). As of this writing, it is not yet clear how this fund will be
+administered and distributed.
+Looking forward, additional planning and funding will likely be needed to support
+any effective transition initiative. For example, one effort in Washington State (the
+8		Just Transition from Coal-Based Electrical Energy Economy, HB19-1314, Colorado General Assembly (2019).
+9		Energy Transition Act, SB 489, New Mexico Legislature (2019).
+10		WUTC v. PSE, UE-170033 and UG-170034, before the Washington Utilities and Transportation Commission (2017)
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+8
+
+Centralia Coal Transition Fund) offers $55 million to support local transition efforts
+(State of Washington 2011); in New Mexico, $50 million has been set aside to support
+environmental remediation, severance pay, and job training in and around one
+community where a large coal-fired plant is slated to close.11
+In addition to securing transition funds, the City of Colstrip will need to address the
+impacts of potential revenue losses outlined above. The concept of “right-sizing,” or
+aligning public resources with changing population levels, is one strategy to maintain
+fiscal health in cities experiencing decline (Hummel 2015). For right-sizing to be
+effectively implemented, residents, local leaders, and planners would need to agree to
+the difficult proposition that the city will shrink (Ehrenfeucht and Nelson 2011). Though
+the CCIAG plan identified the impacts of plant closure, right-sizing strategies, such
+as participatory budgeting, have yet to play a prominent role in public discussions in
+Colstrip (CCIAG 2018; Just Transition Fund 2020).
+One option that could, in theory, enable the continued operation of the Colstrip plant in
+a carbon-constrained future would be the addition of carbon capture, use, and storage
+(CCUS) technology. However, a study commissioned by the US Department of Energy
+and completed in 2018 (but only made public in 2020) found that deploying CCUS
+would require roughly $1.3 billion of upfront investment and more than $100 million
+in annual operating costs (Leonardo Technologies, Inc. 2018). Despite the availability
+of federal tax credits for CCUS deployment, these high costs led the study authors to
+conclude that undertaking such a project may not be financially viable.
+
+11		
+Energy Transition Act, SB 489, New Mexico Legislature (2019).
+
+Resources for the Future
+
+9
+
+2. Policy Interventions to Support
+Colstrip
+For several decades, state and federal funds have been directed toward Colstrip and
+the surrounding region to support economic development planning, infrastructure,
+and other key services. In addition, several pieces of legislation have been proposed
+and enacted that have considerable bearing on the future of the plant, mine, city, and
+region. This section provides an overview of some of these interventions, including
+state and federal efforts, over roughly the last 10 years.
+
+2.1. State Interventions
+Montana has taken a variety of initiatives to support the Colstrip region. Some of the
+clearest efforts have come from the Montana Coal Board, which was established in
+1975 to allocate funds raised from the state’s severance tax on coal production. The
+board is tasked with supporting “local governmental units that have been required to
+expand the provision of public services as a consequence of large-scale development
+of coal mines and coal-using energy complexes or as a consequence of a major decline
+in coal mining.” (Montana Code Annotated 2019). The seven-member board meets
+quarterly to consider applications and award grants for infrastructure planning, health
+care, and other local services.
+In the past decade, the board has awarded more than $7 million to governmental
+entities in Rosebud County: the cities of Colstrip and Forsyth, local school districts,
+Rosebud County, the Northern Cheyenne Tribe, and other taxing units such as fire
+districts (Montana Department of Commerce 2020). Grants to cities have primarily
+supported utilities and emergency services (including law enforcement), followed
+by grants to school districts. Grants to Rosebud County have primarily supported
+health programming and general expenses such as building construction. Across all
+grants, just $130,000 (1.9 percent) was awarded to projects with an explicit economic
+development focus (Figure 5).
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+10
+
+Figure 5. Montana Coal Board Grants to Rosebud County
+Governments, 2009–2020
+Millions
+$2.5
+
+Other
+
+$2.0
+
+Economic
+Development
+Transportation
+
+$1.5
+
+General
+Health
+
+$1.0
+
+EMS
+Utilities
+
+$0.5
+
+Education
+
+$0.0
+Cities
+
+School
+districts
+
+Country
+
+Northern
+Cheyenne
+
+Other
+districts
+
+Data source: Montana Department of Commerce (2020). Notes: Data through March 2020. EMS
+includes fire and law enforcement.
+
+Along with funding direct support from the coal board, the state has considered and
+enacted numerous pieces of legislation with significant bearing on Colstrip’s future.
+These bills have focused on aspects of the state’s coal transition: addressing or
+managing remediation and timing of power plant closure, linking that process to social
+and economic transition efforts, and preventing an early closure. Table 1 identifies
+these bills, notes whether they have been enacted, and provides a brief description.
+The discussion that follows provides additional detail.
+To ensure public and environmental health for long-term rural economic development
+(BenDor et al. 2015; Haggerty et al. 2018; Hibbard and Lurie 2013), and in light of the
+many uncertainties surrounding the future of Colstrip, state legislators have enacted
+several bills focused on the decommissioning, remediation, and environmental
+reclamation of coal mines and power plants. For example, the 2017 Coal-Fired
+Generating Unit Remediation Act (SB 339) required Colstrip’s operators to submit an
+environmental remediation plan and outline the standards and extent of the cleanup
+they planned to pursue. In 2019, SB 264 amended the act to include labor standards,
+including prevailing wage standards, for workers carrying out these activities.
+
+Resources for the Future
+
+11
+
+Table 1. Recent Montana Legislation Addressing Coal Facility Closure
+Bill No.
+
+Year
+
+Status
+
+Description
+
+SB 339
+
+2017
+
+Enacted
+
+Establish Coal-Fired Generating Unit Remediation Act
+
+HB 22
+
+2017
+
+Enacted
+
+Appropriate money to assist, intervene, plan for closure of
+coal-fired generation
+
+HB 585
+
+2017
+
+Enacted
+
+Provide loans to owner of coal-fired generating units
+
+SB 338
+
+2017
+
+Not enacted
+
+Propose Coal-Fired Generating Unit Mitigated Retirement Act
+
+SB 191
+
+2019
+
+Enacted
+
+Allow counties to establish coal trust fund
+
+SB 201
+
+2019
+
+Enacted
+
+Revise requirements to hold mining permit
+
+SB 264
+
+2019
+
+Enacted
+
+Revise laws related to coal-fired generation
+remediation activities
+
+HB 292
+
+2019
+
+Enacted
+
+Increase funding to coal board
+
+HB 467
+
+2019
+
+Enacted
+
+Authorize securitization for energy infrastructure
+
+SB 33
+
+2019
+
+Not enacted
+
+Allow NWE to purchase additional 150 MW share of Unit 4 of
+Colstrip Station for $1
+
+SB 331
+
+2019
+
+Not enacted
+
+Revise electric utility cost recovery for certain coal-fired
+generating units and transmission
+
+Proposed and enacted legislation has also addressed the need for long-term planning
+in Colstrip, consistent with recent research emphasizing the importance of providing
+more certainty about closure dates to facilitate transition planning (Roemer and
+Haggerty, forthcoming). However, as discussed in Section 1, considerable uncertainty
+remains about the timing and owner obligations of closing the plant. In 2017, HB 22
+enabled state officials to represent Montana’s interests in the settlement negotiations
+between PSE and WUTC, focused on decisions about decommissioning, remediation,
+and power replacement. That same year, SB 338—which was not enacted—would have
+required plant owners to file a retirement plan, allow for the development of a transition
+agreement, and create a retirement planning and grant program and account. In 2019,
+HB 467 authorized securitization for energy infrastructure, allowing electric utilities to
+raise revenue through bonds, lowering the costs of retiring or replacing assets. This
+approach, which has garnered interest in numerous states (Bodnar et al. 2020), could
+provide substantial revenue to support transition efforts in and around Colstrip.
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+12
+
+Other legislation has focused on the economic impacts for affected communities. In
+2019, HB 292 increased the share of the state’s coal severance tax that is allocated to
+the coal board. In 2019, SB 191 allowed Rosebud and Big Horn counties to establish
+a coal trust fund, addressing a common challenge for resource-dependent counties,
+which often have limited fiscal autonomy and capacity to collect, save, and distribute
+natural resource revenues (Newell and Raimi 2018; Haggerty 2019).
+Finally, in contrast to efforts aimed at managing the closure of Colstrip, some recent
+legislation has sought to prevent or limit the decline of coal in Montana. In 2017, HB 585
+allowed the state’s Coal Severance Tax Trust Fund, which was originally designed to
+support infrastructure and economic development needs, to potentially provide loans
+to facilitate the continued operation of coal-fired power generation in Montana. In 2019,
+the “Save Colstrip” bill (SB 33) would have allowed NWE to purchase an additional 150MW share of Unit 4 of Colstrip Station for $1 (Cates-Carney 2019). The proposal, which
+was not enacted, would have given NWE more control over the retirement date of Unit
+4, which it has expressed interest in operating through 2045 (NWE 2019).
+
+2.2. Federal Interventions
+Along with those significant efforts at the state level, the federal government has
+provided consistent, if modest (roughly $4 million total from 2001 to 2018), support
+for regional economic development (Figure 6). The US Economic Development
+Administration has awarded annual grants to local and tribal entities for the
+continuation of their comprehensive economic development strategies as well several
+small grants for infrastructure projects. The USDA Rural Business-Cooperative Service
+has also been involved in the region, primarily through Rural Business Development
+Grants and the Rural Energy for America Program.
+These funds have flowed primarily to the Northern Cheyenne Tribe and the
+Southeastern Montana Development Corporation, the regional economic development
+planning organization. The majority of the funding ($2.4 million) has supported
+economic development planning, economic development grants to businesses and
+other local entities ($850,000), and infrastructure development ($640,000).
+
+Resources for the Future
+
+13
+
+Figure 6. Federal Economic Development Funds for Rosebud
+County, 2001–2018
+$2,500,000
+
+Economic development planning
+
+$2,000,000
+
+Workforce development
+Infrastructure
+
+$1,500,000
+
+Economic development grants
+
+$1,000,000
+$500,000
+$0
+Northern
+Cheyenne
+
+SEMDC
+
+Utilities
+
+Education
+
+Private
+business
+
+Data source: USASpending (2020). Note: SEMDC = Southeastern Montana Development
+Corporation.
+
+In addition to these grants, the federal government has provided funds to Colstrip and
+other Montana coal communities through the Partnerships and Opportunity Workforce
+and Economic Revitalization (POWER) Initiative. In 2017, the state Department of
+Labor and Industry was awarded $2 million, which has been distributed across worker
+retraining programs operated by local unions and higher educational institutions
+(Montana Department of Labor and Industry 2020). However, deploying these
+programs has been slowed by restrictions on eligibility, particularly the requirement
+that workers must be unemployed to enroll in a retraining program.
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+14
+
+3. Local Environmental Issues and
+Opportunities
+Like all coal-fired power plants, Colstrip generates significant quantities of waste
+products, particularly coal combustion residuals (CCRs), often referred to as “coal ash.”
+CCRs are typically stored in “dry” landfill-type structures or “wet” ponds, which, if not
+constructed and managed properly, can contaminate local water resources.
+Colstrip’s network of CCR impoundments, which in the past mostly consisted of
+ponds, exceeds 800 surface acres (Northern Plains Resource Council 2019), and
+numerous legal proceedings have documented an extensive legacy of groundwater
+contamination. Although small amounts of contamination were anticipated by the
+Montana Department of Environmental Quality (DEQ) when the ponds were permitted
+in the 1970s, the extent of groundwater pollution has substantially exceeded those
+expectations, and previous efforts to prevent the spread of contaminated water have
+failed (Montana DEQ 2020). In 2008, Colstrip’s owners settled a lawsuit brought by 57
+individuals over water contamination associated with ash ponds, paying out $25 million
+to the plaintiffs (Halstead-Acharya 2008). In 2012, the owners entered into an AOC
+with DEQ that requires the remediation of this pollution (Montana DEQ 2012).
+The remediation process has required extensive study of local hydrogeology and
+produced reports documenting the spread of the pollution, finding that the plume has
+spread under parts of Colstrip and numerous nearby creeks (Montana DEQ 2020). For
+example, a 2019 report carried out as part of the AOC found that the levels of boron,
+cobalt, lithium, and molybdenum at nearby monitoring locations were substantially
+higher than background levels (Hydrometrics, Inc. 2020).
+The AOC requires that Colstrip’s owners take numerous actions to reduce future
+leakage, monitor groundwater conditions, and address contamination where it is
+detected. This includes the addition of new synthetic liners to CCR impoundments
+and the installation of evaporation systems to reduce water volumes at ash ponds,
+limiting the risk of future leakage. In addition, the owners are required to install capture
+systems and pumping equipment at sites where the plume is detected. As of early
+October 2020, the Montana DEQ has provided conditional approval to multiple aspects
+of the cleanup plan, and public comments are being collected (Montana DEQ 2020).
+
+3.1. Environmental, Health, and Economic Impacts
+of Air and Water Pollution
+Groundwater contamination in Colstrip not only affects local ecosystems through
+its connection with streams, it also poses a potential risk to the health of Colstrip’s
+residents and economy. As noted above, some of the plume extends beneath homes
+
+Resources for the Future
+
+15
+
+in Colstrip, and failure to halt further spread could contaminate groundwater under
+additional homes (though, as noted above, Colstrip’s municipal water is supplied via a
+pipeline from the Yellowstone River).
+In addition to risks associated with water, air emissions from coal-fired power plants
+contribute to respiratory and cardiovascular illness, causing large morbidity and
+mortality impacts around the world (Rauner et al. 2020). In the United States, modern
+coal-fired power plants include equipment to reduce these pollutants considerably,
+but they do not eliminate all emissions of concern, including nitrogen oxides (NOx),
+a precursor to ozone formation and fine particulate matter (PM), and sulfur dioxide
+(SO2), also a PM precursor (e.g., Henneman et al. 2019).
+In Colstrip, pollution controls and reduced output have contributed to declines in these
+pollutants since 2000. However, SO2 and NOx emissions from the Colstrip plant have
+lagged reductions seen nationwide (Figure 7).
+
+Figure 7. Nitrogen Oxides and Sulfur Dioxide Power Plant Emissions
+NOx
+
+SO2
+
+40%
+
+40%
+Colstrip
+
+US
+
+0%
+
+0%
+
+-20%
+
+-20%
+
+-40%
+
+-40%
+
+-60%
+
+-60%
+
+-80%
+
+-80%
+
+-100%
+
+-100%
+20
+
+20
+
+00
+20
+02
+20
+04
+20
+06
+20
+08
+20
+10
+20
+12
+20
+14
+20
+16
+20
+18
+
+20%
+
+00
+20
+02
+20
+04
+20
+06
+20
+08
+20
+10
+20
+12
+20
+14
+20
+16
+20
+18
+
+20%
+
+Data source: EPA (2020a).
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+16
+
+Additional data from the Environmental Protection Agency’s Toxic Release Inventory
+database indicates that emissions of other chemicals of concern have declined
+considerably over roughly the past decade. In particular, air emissions of chromium and
+chromium compounds, which can increase risk of cancer and other diseases and have
+been the largest contributor to health risks from Colstrip’s air emissions,12 declined by
+more than 75 percent from 2007 to 2018 (EPA 2020b).
+Unfortunately, we are not aware of any studies that have examined the specific
+effects of water contamination or air emissions on the health of Colstrip residents.
+But in general terms, health risks—whether from water pollution, air pollution, or
+other sources—are often reflected in economic outcomes such as property values. A
+substantial body of research demonstrates that polluted sites considerably reduce
+the value of nearby property (Gamper-Rabindran and Timmins 2013; Guignet et al.
+2016; Haninger et al. 2017; e.g., Zabel and Guignet 2012). And studies that demonstrate
+reduced property values because of pollution may underestimate the true health risks
+for residents, particularly if people do not have full information about the extent of local
+pollution (Hausman and Stolper 2020).
+To the extent that air and water pollution harms the health or quality of life for Colstrip
+residents, some of these effects are likely reflected in lower property values. Of course,
+the closure of the power plant—without a new source of local employment and
+prosperity—would severely damage the local economy and reduce property values.
+As suggested in Section , these effects could be far more consequential than any
+reductions caused by pollution.
+In sum, reduced air pollution from the Colstrip station has likely reduced public health
+risks, but the continuation of some of these air emissions coupled with the legacy of
+groundwater contamination poses ongoing concern for the local environment and local
+public health.
+
+3.2. Economic Potential of Remediation
+Access to a healthy environment, including clean water, is a prerequisite for long-term
+economic growth. Recognizing this reality, state legislators, plant owners, and other
+stakeholders have examined options for addressing the groundwater contamination
+in Colstrip. In addition to the long-term necessity of managing this legacy, cleaning up
+groundwater in Colstrip in the near to medium term will require considerable resources,
+offering potential economic benefits for community members.13
+
+12		Chromium and chromium compound emissions accounted for more than 97 percent
+in 2007 and 84 percent in 2018 of air emissions’ health risk, as measured by their
+Risk-Screening Environmental Indicator scores (EPA 2020b).
+13		For explorations of a “restoration economy” or a “new natural resource economy,” where
+environmental remediation boosts economic activity nationwide, see BenDor et al. (2015)
+and Hibbard and Lurie (2013), respectively.
+
+Resources for the Future
+
+17
+
+In the short to medium term, plant decommissioning and environmental remediation
+efforts would offer business and employment opportunities. In the medium to long
+term, benefits would include reducing community health risks and enhancing property
+values, along with continuing (though more modest) employment opportunities
+associated with site cleanup and monitoring. One recent report (Northern Plains
+Resource Council 2019) assesses two options for pond closure and groundwater
+remediation, estimating that Talen’s plan would cost roughly $400 million through
+2069, while a “Doing It Right” plan would cost $925 million over the same period.14
+Intuitively, the authors estimate that a higher level of investment would lead to more
+local jobs and higher incomes throughout the duration of cleanup and monitoring,
+which would likely provide ancillary benefits to the community as a whole.
+One key question is whether employment opportunities generated from remediation
+activities would support workers displaced from jobs at Colstrip Station or the Rosebud
+mine. Although some activities (e.g., earth moving, project management) would be well
+matched to the skill sets of some plant and mine workers, other jobs (e.g., groundwater
+modeling and monitoring) are not a clear match. It is unclear whether and to what
+extent state policymakers would be able to ensure that remediation jobs benefited the
+local workforce and community.
+
+14		Note that this analysis was produced before Talen’s final remediation plan had been
+approved.
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+18
+
+4. Discussion and Key Insights
+For isolated rural communities such as Colstrip, the decline of coal poses enormous
+challenges and raises questions about the future viability of the community. The town,
+which was purpose-built for producing coal, is overwhelmingly reliant on its mining,
+processing, and use. At the same time, the waste products generated from burning that
+coal have created significant environmental degradation that poses another long-term
+challenge to Colstrip’s public health and economy.
+Colstrip is not a unique case. Other cities and towns, particularly isolated communities
+in the West such as Craig, Colorado, and Mercer, North Dakota, face similar challenges
+from the closure of coal-fired power plants and mines. Additional cities and towns, less
+isolated but still heavily reliant on coal, oil, or natural gas to sustain local economies,
+may face similar—albeit less acute—challenges in the years and decades ahead.
+To help support communities in transition, we offer several key insights from the
+Colstrip experience for policymakers, community leaders, and other stakeholders:
+• Deep uncertainty makes planning difficult, if not impossible, for communities
+in transition. For Colstrip, this uncertainty stems from complex ownership
+structures and competing priorities for policymakers in Montana and nearby
+states. In the absence of certainty, some state and local efforts have focused on
+maintaining the status quo rather than proactive planning, ultimately hindering
+the ability to facilitate a successful transition (see Section 2.1).
+• Future climate policy can support planning efforts in communities like Colstrip
+by aiming to provide some indication about the timeline of emissions reductions,
+thereby informing decisions about the timing of plant or mine closures. In
+addition, state and federal policymakers could support local planning efforts
+directly, by providing funds and technical assistance that takes advantage of
+existing economic development resources.
+• This case demonstrates that funding for transition planning often emerges
+from ad hoc, uncoordinated processes playing out in boardrooms and state
+utility proceedings and among local stakeholders. Planning efforts would be
+enhanced if communities, regulators, plant operators, and others coordinated
+their activities and funding decisions with clearly defined goals, similar to the
+approach recently established in Colorado and New Mexico.
+• In the absence of certainty and coordination, much of the responsibility for
+transition planning, including the need to find funding to support these efforts,
+falls on the local community. However, not all communities have the capacity
+or inclination to take a proactive planning approach, reducing the likelihood
+of developing and implementing a successful transition strategy. Policies that
+build local capacity, such as technical assistance or grants to support planning
+processes, could increase communities’ ability to plan proactively.
+
+Resources for the Future
+
+19
+
+• Isolated communities in transition may face a declining population and shrinking
+tax base in the years ahead. If so, local stakeholders need to consider how to
+right-size government services and develop new, if more modest, drivers of
+local employment and prosperity.
+• Environmental remediation activities, including cleaning up polluted
+groundwater and reclaiming mines, have the potential to provide short- and
+medium-term employment opportunities. However, absent more detailed
+information on the benefits associated with different levels of remediation,
+it is unclear what the “right” level of investment should be to carry out these
+activities. Additional research to better characterize the environmental, health,
+and other benefits of remediation would help inform these decisions.
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+20
+
+5. Conclusion
+Socioeconomic vulnerability to the decline of the coal industry varies widely, but in
+the US West, it is associated with rural communities in remote, isolated geographies.
+For communities like Colstrip, Montana, the decline of the coal industry poses acute
+economic impacts, including structural changes in employment and significant
+declines in revenue that threaten the viability of the town’s critical institutions, services,
+and infrastructure. In Colstrip, transition planning efforts led by local stakeholders have
+been hamstrung by uncertainty about whether and when the plant will close, which is
+exacerbated by the plant’s complex ownership structure.
+Although the state of Montana has a clear set of policies addressing planning for
+coal plant decommissioning and environmental remediation, it has not provided
+substantial resources or a framework that facilitates planning for the social and
+economic impacts of closure. This is in stark contrast to recent state policies enacted
+in Colorado and New Mexico. Federal grantmaking has provided some support for
+economic development planning and workforce retraining in the region, but these
+efforts have been modest, and some grants have come with restrictions that limit their
+effectiveness in supporting worker retraining.
+By characterizing the transition process under way in Colstrip, this case study
+highlights the challenges facing communities whose economies depend on coal. It
+illustrates the need for a planning framework that can enable workers, communities,
+governments, and businesses to coordinate their efforts in planning for the future and
+identifies some of the roadblocks to that coordination.
+Policy interventions aimed at mitigating the social and economic impacts of an energy
+transition—whether away from coal or any other energy source—can support workers
+and communities by providing additional certainty over funding and timelines. In
+addition, policy efforts can support workers and communities by coordinating regional
+resources to plan for transitions that are region- and context-specific, including
+the potential for linking environmental remediation activities with local economic
+development and employment opportunities.
+
+Resources for the Future
+
+21
+
+6. References
+BenDor, T., T. W. Lester, A. Livengood, A. Davis, and L. Yonavjak. 2015. Estimating the Size and
+Impact of the Ecological Restoration Economy. PLOS ONE 10(6):e0128339
+Bodnar, P., M. Gray, T. Grbusic, S. Herz, A. Lonsdale, et al. 2020. How to Retire Early: Makin
+Accelerated Coal Phaseout Feasible and Just. Basalt, CO: Rocky Mountain Institute.
+Brown, M. 2015. Colstrip Gets New Operator as PPL Spins Off Montana Assets. Billings Gazette, June 1.
+Cates-Carney, C. 2019. House Committee Hears Controversial “Save Colstrip” Bill. Montana
+Public Radio, April 8.
+City of Colstrip. 2020a. About Colstrip. https://cityofcolstrip.com.
+———. 2020b. Water Treatment. www.cityofcolstrip.com.
+Coal Transportation Agreement between the Montana Power Company and Puget Sound
+Power & Light. 1981. Accessed via US Securities and Exchange Commission website via:
+https://www.sec.gov/Archives/edgar/data/106455/000103570407000530/d48339exv10w2.htm.
+Colstrip City Council Chambers. 2018. CCIAG Meeting Minutes, April 16.
+Colstrip Community Impact Advisory Group (CCIAG). 2018. CCIAG Plan. http://
+cciag.mt.gov/Portals/190/Documents/2018%20Final%20CCIAG%20Plan.pdf?ver=2019-01-11-112905-077
+Commander, S. 2018. One-Company Towns: Scale and Consequences. IZA World of Labor,
+https://wol.iza.org/articles/one-company-towns-scale-and-consequences.
+Ehrenfeucht, R., and M. Nelson. 2011. Planning, Population Loss and Equity in New Orleans
+after Hurricane Katrina. Planning Practice & Research 26(2): 129–46.
+Energy Information Agency (EIA). 2020a. Detailed data from the EIA-7A and the US Mine
+Safety and Health Administration. US Department of Energy, Washington, DC
+———. 2020b. Form EIA-923 detailed data with previous form data (EIA-906/920). US Department of Energy, Washington, DC.
+Environmental Protection Agency (EPA). 2020a. Power Plant Data Viewer. Washington, DC.
+———. 2020b. Toxics Release Inventory Database. Washington, DC.
+Gamper-Rabindran, S., and C. Timmins. 2013. Does Cleanup of Hazardous Waste Sites Raise
+Housing Values? Evidence of Spatially Localized Benefits. Journal of Environmental
+Economics and Management 65(3): 345–60.
+Gerking, S., and S. F. Hamilton. 2008. What Explains the Increased Utilization of Powder River
+Basin Coal in Electric Power Generation? American Journal of Agricultural Economics
+90(4): 933–50.
+Guignet, D., P. J. Walsh, and R. Northcutt. 2016. Impacts of Ground Water Contamination on
+Property Values: Agricultural Run-off and Private Wells. Agricultural and Resource Economics Review 45(2): 293–318.
+Haggerty, J. H., M. N. Haggerty, K. Roemer, and J. Rose. 2018. Planning for the Local Impacts
+of Coal Facility Closure: Emerging Strategies in the U.S. West. Resources Policy 57:
+69–80
+Haggerty, J. H., K. B. Walsh, M. Haggerty, and J. Rose. 2017. Colstrip: The Status of Key Policies and Decision Processes. Montana State University, Bozeman.
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+22
+
+Haggerty, M. 2019. Replacing Coal Revenue and Investing in Economic Transition: Solutions
+for Coal-Dependent Communities. Headwaters Economics, https://headwaterseconomics.org/energy/coal/solutions-for-coal-communities/.
+Haggerty, M. 2020. Financial Modernization and Risk Analysis Study (MARA). Report prepared for Montana Legislative Fiscal Division, Helena.
+Halstead-Acharya, L. 2008. Colstrip Companies Paying $25M in Water Lawsuit. Billings Gazette, May 2.
+Haninger, K., L. Ma, and C. Timmins. 2017. The Value of Brownfield Remediation. Journal of
+the Association of Environmental and Resource Economists 4(1): 197–241
+Hausman, C., and S. Stolper. 2020. Inequality, Information Failures, and Air Pollution. Working
+Paper Series 26682, National Bureau of Economic Research, Cambridge, MA.
+Henneman, L. R. F., C. Choirat, and C. M. Zigler. 2019. Accountability Assessment of Health
+Improvements in the United States Associated with Reduced Coal Emissions between
+2005 and 2012. Epidemiology 30(4): 477–85.
+Hibbard, M., and S. Lurie. 2013. The New Natural Resource Economy: Environment and Economy in Transitional Rural Communities. Society and Natural Resources 26(7): 827–44.
+Hummel, D. 2015. Right-Sizing Cities: A Look at Five Cities. Public Budgeting and Finance
+35(2): 1–18.
+Hydrometrics, Inc. 2020. 2019 Annual Groundwater Monitoring and Corrective Action Report:
+Talen Energy, LLC Colstrip Steam Electric Station. Prepared for Talen Montana, LLC, Per
+40 CFR Section 257.90(e), Billings, MT.
+Just Transition Fund. Planning for the Long-Term: How to Replace Lost Revenue. https://
+www.justtransitionfund.org/overview.
+Larson. 2019. Ownership Shakeup at Colstrip Coal Power Plant. POWER, December 12.
+Leonardo Technologies, Inc. 2018. Colstrip Power Plant Study. Contract No. GS-23F-0231R,
+Order No. DE-FE0022594; DE-BP0005235. Prepared for Office of Fossil Energy, US
+Department of Energy.
+Lutey T. 2019. Rosebud Mine, Post Bankruptcy, Is Stable until Year’s End. Billings Gazette,
+March 21.
+Martin, J., and T. Everts. 2002. Electrical Utility Industry Restructuring Transition Advisory
+Committee: A Report to the Governor and the 58th Legislature. Montana Legislative
+Services Division, Helena.
+Montana Code Annotated. 2019. Part 2. Coal Impacts: Evaluation and Abatement Funding.
+https://leg.mt.gov.
+Montana Department of Commerce. 2020. Funded Projects. Helena.
+Montana Department of Labor and Industry. 2020. Montana Power Initiative. http://
+cciag.mt.gov/Portals/190/POWER_Initiative_Grant_OneSheet-Accessible.pdf?ver=2018-09-24-084430-803
+Montana Department of Environmental Quality (DEQ). 2012. Administrative Order on Consent
+Regarding Impacts Related to Wastewater Facilities Comprising the Closed-Loop System
+at Colstrip Steam Electric Station, Colstrip Montana. Helena.
+———. 2020. Colstrip Steam Electric Station Coal Ash Ponds: FAQs. https://deq.mt.gov/DEQAdmin/mfs/ColstripSteamElectricStation.
+Montana Governor’s Office. 2017. Governor Bullock and Attorney General Fox Announce
+Stakeholder Group to Help Community, Workers and Families of Colstrip Plan for the
+Future. Press release. Helena.
+
+Resources for the Future
+
+23
+
+Montana Legislature. 2020. MIC City and County Finances Report. Helena.
+Montana Office of Public Instruction. 2020. Understanding Montana School Finance and
+School District Budgets. School Finance Division, Helena, MT
+MSHA. 2020. Mine Employment and Coal Production. US Department of Labor, Washington,
+DC.
+Newell, R. G., and D. Raimi. 2018. The Fiscal Impacts of Increased U.S. Oil and Gas Development on Local Governments. Energy Policy 117: 14–24.
+Northern Plains Resource Council. 2019. Doing It Right II: Job Creation through Colstrip
+Cleanup. https://northernplains.org/colstrip-jobs-study-2/.
+NorthWestern Energy (NWE). 2019. NorthWestern Energy to Acquire 25% Share of Colstrip;
+Plans to Reduce Carbon by 90%. Press release. www.northwesternenergy.com.
+Nowakowski, S. 2018. SJ 5: Coal in Montana: Changing Times, Challenging Times. Report to
+Montana Legislature. Environmental Quality Council, Legislative Environmental Policy
+Office, Legislative Services Division, Helena.
+PacifiCorp. 2019. 2019 Integrated Resource Plan. https://www.pacificorp.com/energy/integrated-resource-plan.html.
+Portland General Electric (PGE). 2019. Integrated Resource Planning. https://www.portlandgeneral.com/our-company/energy-strategy/resource-planning/integrated-resource-planning.
+Public Service Commission. 2020. Minutes for the Week of August 24, 2020. Helena,
+MT. https://dataportal.mt.gov/t/DOAPSC/views/EDDISearch_15650306559830/
+PSCEDDISearch?:embed=y&:showShareOptions=true&:display_count=no&:showVizHome=no&:refresh=true&Type=Minutes
+Raimi, D., and R. G. Newell. 2016. Dunn County and Watford City, North Dakota: A Case Study
+of the Fiscal Effects of Bakken Shale Development. Working paper. Duke University
+Energy Initiative, Durham, NC.
+Rasker, R., P. H. Gude, J. A. Gude, and J. van den Noort. 2009. The Economic Importance of
+Air Travel in High-Amenity Rural Areas. Journal of Rural Studies 25(3): 343–53.
+Rauner, S., N. Bauer, A. Dirnaichner, R. V. Dingenen, C. Mutel, and G. Luderer. 2020. Coal-Exit
+Health and Environmental Damage Reductions Outweigh Economic Impacts. Nature
+Climate Change 10(4): 308–12.
+Robertson, D. 1979. Power Plant and Industrial Fuel Use of 1978: Fuel Replacement. Harvard
+Environmental Law Review 3: 214–35.
+Roemer, K.F. and Haggerty, J.H. 2021. Coal Communities and the US Coal Transition: A Policy
+Corridors Assessment (In Press). Energy Policy.
+Southeastern Montana Development Corporation (SEMDC). 2017. Colstrip Economic Diversification Strategy. Colstrip, MT: https://www.nado.org/wp-content/uploads/2017/12/
+Colstrip-Econ-Diversification-Report-Reduced-Size-1.pdf
+Smith, K. K., J. H. Haggerty, D. L. Kay, and R. Coupal. 2019. Using Shared Services to Mitigate
+Boomtown Impacts in the Bakken Shale Play: Resourcefulness or Over-adaptation? Journal of Rural and Community Development 14(2).
+State of Washington. 2011. Memorandum of Agreement between the State of Washington
+and TransAlta Centralia Generation LLC. Olympia, WA. https://ecology.wa.gov/DOE/
+files/85/858591f6-dd25-47be-ba1d-0f58264ca147.pdf
+Talen Energy. 2019. Colstrip Steam Electric Station Units 1 and 2 to Retire. Press release.
+https://talenenergy.investorroom.com.
+
+Coal Communities in Transition: A Case Study of Colstrip, Montana
+
+24
+
+Taimerica Management, Competitive Solutions, Trent Lott National Center. 2017. The Changing Coal Industry: Regional Economic Impacts, Workforce Analysis, Transition Strategies.
+Report prepared for Montana Coal Country Coalition. Mandeville, LA. https://www.
+bigskyeconomicdevelopment.org/wp-content/uploads/Coal-Country-Coalition-Report-FINAL-3-17.pdf
+US Bureau of Reclamation. 1971. North Central Power Study. Department of Interior, Washington, DC.
+USASpending. 2020. USASpending.gov. Washington, DC.
+Wagner, B. 2018. Local Tax Impacts of Colstrips 1&2 Closure. Research and Analysis Bureau,
+Montana Department of Labor and Industry, Helena.
+Westmoreland Mining, LLC. 2019. Westmoreland Rosebud Mining LLC Announces New
+Coal Supply Agreement for Colstrip Units 3&4. Press release. https://westmoreland.
+com/2019/12/westmoreland-rosebud-mining-llc-announces-new-coal-supply-agreement-for-colstrip-units-34/
+Washington Utilities and Transportation Commission (WUTC). 2017. WUTC v. PSE, UE-170033
+and UG-170034, before the Washington Utilities and Transportation Commission (2017)
+---------. 2018 Settlement reached in Avista/Hydro One merger case. Press Release. https://
+www.utc.wa.gov/aboutUs/Lists/News/DispForm.aspx?ID=510
+———. 2019. Washington UTC Approves Multiparty Settlement in Avista Rate Case. Press
+release. https://www.utc.wa.gov/aboutUs/Lists/News/DispForm.aspx?ID=636&ContentTypeId=0x010400FF58A04FBD57384DB60A5ECF52665206
+———. 2020. UTC Staff Recommend Denying PSE’s Request to Sell Colstrip Unit 4 Interests.
+Docket Number UE-200115. Press release. https://content.govdelivery.com/accounts/
+WAUTC/bulletins/2a43d88
+Zabel, J. E., and D. Guignet. 2012. A Hedonic Analysis of the Impact of LUST Sites on House
+Prices. Resource and Energy Economics 34(4): 549–64.
+
+Resources for the Future
+
+25
+
+

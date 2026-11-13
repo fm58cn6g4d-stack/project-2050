@@ -1,0 +1,5534 @@
+Source: https://www.federalreserve.gov/econres/feds/files/2022064pap.pdf
+Publisher: Board of Governors of the Federal Reserve System
+Retrieved: 2026-11-13
+Original SHA-256: aad710a374e4d6e3b1607959ab97ed22f1176a84d80afe6d5cb63c18f1bbe415
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Finance and Economics Discussion Series
+Federal Reserve Board, Washington, D.C.
+ISSN 1936-2854 (Print)
+ISSN 2767-3898 (Online)
+
+Pricing of Climate Risk Insurance: Regulation and
+Cross-Subsidies
+
+Sangmin S. Oh, Ishita Sen, and Ana-Maria Tenekedjieva
+2022-064
+
+Please cite this paper as:
+Oh, Sangmin S., Ishita Sen, and Ana-Maria Tenekedjieva (2022). “Pricing of Climate Risk Insurance: Regulation and Cross-Subsidies,” Finance and Economics Discussion Series 2022-064. Washington: Board of Governors of the Federal Reserve System,
+https://doi.org/10.17016/FEDS.2022.064.
+
+NOTE: Staff working papers in the Finance and Economics Discussion Series (FEDS) are preliminary
+materials circulated to stimulate discussion and critical comment. The analysis and conclusions set forth
+are those of the authors and do not indicate concurrence by other members of the research staff or the
+Board of Governors. References in publications to the Finance and Economics Discussion Series (other than
+acknowledgement) should be cleared with the author(s) to protect the tentative character of these papers.
+
+Pricing of Climate Risk Insurance:
+Regulation and Cross-Subsidies∗
+Sangmin S. Oh
+
+Ishita Sen
+
+Ana-Maria Tenekedjieva†
+
+Chicago Booth
+
+Harvard Business School
+
+Federal Reserve Board
+
+June 2022
+Abstract
+Homeowners’ insurance, a $15 trillion market by coverage, provides households
+financial protection from climate losses. Insurance premiums (rates) are subject to
+significant regulations at a state level in the United States. Using novel data on filings
+made by insurers to regulators, we propose a metric to quantify the extent of regulation
+in individual states. We provide evidence of decoupling of insurance rates from their
+underlying risks and identify regulation as a driving force behind this pattern. Rates
+are least reflective of risk in states we classify as “high friction”, i.e. states where
+regulations appear most restrictive. We identify two sources behind the decoupling.
+First, in high friction states, rates have not adequately adjusted in response to the
+growth in losses. Second, insurers have cross-subsidized high friction states by raising
+rates in low friction states. Our results imply that households in low friction states are
+disproportionately bearing the risks of households in high friction states. More broadly,
+our findings question whether insurance rates can play a useful role in steering climate
+adaptation and whether households will have continued access to insurance.
+Keywords: Climate Risk; Homeowners’ Insurance; Rate Regulation; Cross-subsidies; Insurance
+Availability.
+JEL Codes: G22, G52, G28, G32, Q54
+∗
+
+We thank Michael Barnett, Allen Berger, Vera Chau, Jeff Czajkowski, Kris DeFrain, Mark Egan, Martin
+Grace, Sam Hanson, Shan Ge, Mathias Kruttli, Ralph Koijen, Ryan Lewis, Gregor Matvos, Adele Moris,
+Philip Mulder, Greg Niehaus, Amine Ouazad, Kelly Posenau, Luis Quintero, David Scharfstein, Norman
+Schuerhoff, Andrei Shleifer, Jeremy Stein, Amir Sufi, Adi Sunderam, Luis Viceira, Katherine Wagner, Rachel
+Xiao, Motohiro Yogo, Kevin Zhang, and Tony Zhang, as well as seminar and conference participants at Harvard Business School, NYU Stern, University of South Carolina, Temple University, MIT Center for Real
+Estate Research, BI Norwegian, University of St. Gallen, NBER meetings, SITE conference, SFS Cavalcade,
+FIRS, NY Fed/NYU Financial Intermediation Conference, UNC CREDA, DC-Area Juniors Conference, SF
+Fed System Climate Meeting, ABFER, FRB PA Consumer Finance Round Robin, WRIEC, EEA, Booth
+Joint Program Conference, and OSU PhD Conference for their helpful comments. We are grateful to Insure.com for sharing data on homeowners’ premiums. Sen gratefully acknowledges funding from the Harvard
+Business School Division of Research. The views in this paper are solely the authors’ and do not reflect the
+views of the Board of Governors or the Federal Reserve System. All errors are our own.
+†
+Oh: oh@chicagobooth.edu; Sen: isen@hbs.edu (Corresponding author ); Tenekedjieva: anamaria.k.tenekedjieva@frb.gov
+
+The unprecedented rise in natural disasters has led to catastrophic losses of more than
+$600 billion in the United States in the last two decades, roughly twice the losses of the previous 40 years combined.1 The insurance sector acts as a front-line defense against climate risk
+by providing important risk sharing tools to households and firms. In exchange, consumers
+pay insurance premiums to protect against future climate losses. The level of premiums that
+consumers pay is a key determinant of how these losses are shared and therefore how risks
+are being redistributed across the economy.
+We study the pricing of homeowners’ (HO) insurance, which provides financial protection
+against property damages to households and to banks, who require insurance as a prerequisite
+to providing a mortgage. A large and growing portion of these damages are related to
+climate events (e.g., wildfires, hurricanes). Thus, effectively a lot of the risks that HO
+insurance redistributes is climate risk. Each year, insurers sell $15 trillion of insurance
+coverage catering to almost 85% of all U.S. homeowners who collectively pay $120 billion
+in premiums. These premiums are subject to extensive regulations in the U.S. at a state
+level. Specifically, every time an insurer wants to change premiums (rates) they must submit
+rate proposals for regulatory review and approval. States, however, vary significantly in the
+inputs they allow insurers to use in rate-setting and in the degree to which insurers can
+charge a rate that is indicated by their loss models. As a result, regulators may have the
+ability to influence rates and the manner in which risks are being shared in the economy.
+In this paper, we provide evidence of a decoupling of insurance rates from the underlying
+risk. We identify regulation as a driving force behind this pattern. Figure 1 plots the relationship between rates and risk (measured using expected losses). Rates are least reflective
+of risk in states we classify as “high friction”, i.e. states where regulations appear most
+restrictive.2 In sharp contrast, there is a strong positive relationship between rates and risk
+in low friction states, as predicted by standard models (Koijen and Yogo, 2015). We identify
+two sources behind the decoupling. First, in high friction states, rates have not adequately
+adjusted in response to growth in losses. Second, insurers have cross-subsidized high friction
+states with low friction states, where, in addition to own losses, rates have also increased
+in response to losses in high friction states. Our results point to distortions in risk sharing
+across states and imply that households in low friction states are in-part bearing the risks
+of households in high friction states.
+Our first contribution is to develop a state-level measure of rate-setting frictions as there
+1
+
+Based on the Spatial Hazard Events and Losses Database for the United States (SHELDUS), which
+includes losses from all known perils, including storms, wildfires, droughts, floods, etc. See Figure A.1.
+2
+We provide greater details on the designation of “High Friction” in Section 2 and the construction of
+the graph in Section 4.
+
+1
+
+are no existing measures of regulatory strictness to rank states. We exploit novel data
+on insurers’ historical rate filings, which are required and subject to regulatory approval
+every time insurers change rates, across almost all states from 2009 to 2019. Our measure
+estimates the extent to which the rate insurers receive after regulatory approval reflects the
+rate required to meet their actuarial goals. Using this measure, we rank states into terciles:
+high, medium and low, where high (low) friction states appear farthest from (closest to)
+actuarial goals and face the most (least) rate-setting frictions. The main advantage of our
+proposed metric is that it is based on observed regulatory actions and bypasses the significant
+heterogeneity in the regulatory frameworks across states that are harder to quantify.
+We validate that our classification captures the differential ability of insurers to update
+rates across states. Tracking the same insurer across states, we show that the insurer’s filing
+outcomes in high friction states respond less to losses than in low friction states. Specifically,
+after losses, the insurer is less likely to file for a rate change and more likely to receive a rate
+change further away from its target rate change. In other words, our measure meaningfully
+captures the extent to which insurers are differentially restricted in their ability to set rates
+across states. Given that our measure is based on the equilibrium of interactions between insurers and regulators, we provide further evidence that it indeed captures regulators’ actions
+rather than insurer’s strategic response. For example, the average underwriting profitability is lower in high friction states and insurers’ profitability drops after an increase in the
+gap between the received rate from the actuarial goal. Moreover, our ranking is robust to
+alternative measurements that explicitly remove insurer-time fixed effects.
+We next ask how insurers respond to the rate-setting frictions. We begin by showing
+that there are asymmetric rate spillovers: rates in low friction states respond to losses in
+high friction states; however, the opposite is not true. We evaluate the responsiveness of two
+filing outcomes – the likelihood of filing and the size of the rate change received – to losses
+occurring outside the filing state (out-of-state losses). Our identification strategy exploits
+the institutional feature that an insurer’s rates are regulated in every state it sells insurance
+in. As a result, a single insurer is exposed to both high and low regulation, which allows us
+to compare the same insurer’s filing outcomes in differently regulated states. To study the
+asymmetry in response, we proceed as follows. First, we ask in which states an insurer’s filing
+outcomes respond to out-of-state losses? We show that an insurer’s rates in low friction but
+not in high friction states positively respond to out-of-state losses. Second, we ask whether
+the responsiveness varies based on where the out-of-state losses originate. We show that
+only out-of-state losses from higher friction states affect the rates in low friction states.
+The following hypothetical example helps to summarize the main findings. Suppose an
+insurer operates in four states: California, North Carolina, Virginia, and New Hampshire.
+2
+
+Our results imply that if losses occurred in high friction California, rates would increase in
+Virginia and New Hampshire, both of which are low friction. In contrast, rates would not
+move in high friction North Carolina. Thus, the direction of the spillover is from High to
+Low, but not from High to High friction states. Suppose, instead that losses occurred in
+low friction Virginia. If so, rates would not move in California and North Carolina (high
+friction) or in Virginia (low friction). Thus, there are no meaningful spillovers from Low to
+High or Low to Low friction states. Crucially, the rate spillovers are persistent and thus the
+economic magnitude of the spillovers are large, implying a substantial transfer of risks. For
+example, consumers in low friction states will pay an additional $8 billion in HO premiums
+over the next 10 years (assuming historical growth rates). Our estimates imply that of the
+$8 billion, $2.4 billion or about 30% would be due to spillovers from high friction states.
+A key question is whether insurers offer better products or increase risk exposures (e.g.,
+by insuring riskier homes) in low friction states in response to out-of-state losses. If true, the
+spillovers should be interpreted as consumers paying higher rates for greater risk protection.
+Instead, if the spillovers occur without changes in product features, then they should be
+interpreted as insurers cross-subsidizing across states. Consistent with cross-subsidization,
+we find no evidence for concurrent changes in products and risk taking. First, we exploit
+the fact that insurers also have to file product changes if contract features change materially.
+These filings show no significant increase in contract changes in low friction states in response
+to out-of-state losses. Second, there is also no change in the distribution of the different
+types of HO contracts. Third, we rule out the effects of ex-post product quality differences.
+Contracts may differ in the likelihood of claims that ultimately get paid out by insurance
+companies (Gennaioli et al., 2021). However, we find that non-payment rates have stayed the
+same over time. Finally, we examine measures of insurers’ actual risk taking, e.g., growth in
+losses per property and coverage amount, and find no changes. Overall, the results suggest
+that the rate spillovers do not coincide with changes in products or risk exposures.
+The asymmetry in the spillovers helps to rule out several alternative explanations. First,
+insurers may respond to out-of-state losses because they learn about common risks that the
+filing state shares with other states. For example, if high and low friction states are both
+exposed to wildfire risk, then insurers in low states may very well respond to losses occurring
+in high states. However, equally, the opposite should also happen, i.e. rates in high states
+should also respond to losses in low states. Indeed, a re-estimation by excluding losses of
+states that that share similar risk characteristics and thus could be correlated with the losses
+of the filing state further alleviates this concern. Second, rates may respond to out-of-state
+losses because demand for insurance increases in low states after households observe losses
+in high states. However, if so, we should also expect demand to increase after losses are
+3
+
+observed in other low states and not just in high states. Third, spillovers could arise due
+to financing frictions: after experiencing losses insurers may be forced to re-calibrate rates
+(Koijen and Yogo, 2015; Ge, 2020). However, if financing frictions were the driving force we
+would expect spillovers to occur from Low to Low states also and expect stronger spillovers
+for more constrained insurers, both of which are inconsistent with the data.
+A concern that still remains is whether differences in competition and demand elasticities
+across states are driving our findings. When insurers want to increase rates across states, it
+is natural to think that rates would increase most in states where demand is most inelastic.
+If low friction states are the least competitive then we might observe rates changing most in
+these states. However, using various measures of competition, we show that low and high
+friction states are similarly competitive. In addition, our estimations include insurer × state
+fixed effects to address the concern that the aggregate measures of competition do not fully
+capture the market power of a subgroup of insurers who might be driving these results.
+An important feature of the rate spillovers is that the changes do not reverse over time.
+The persistence in these spillovers and their cumulative effects may thus imply that prices
+of insurance could become disjoint from risks over time. We provide two pieces of evidence
+confirming this intuition. First, granular data on ZIP-code level premiums reveal that rates
+no longer reflect risks, especially in high friction states. Second, rates have grown 4 percentage points slower in high friction states relative to the other states. This is surprising
+because high friction states are also more exposed to climate losses. In fact, an examination
+of long-run rates and losses reveal that growth in rates have outpaced growth in losses in low
+friction states. In comparison, growth in rates appears to have lagged behind the growth
+in losses in high friction states. Our estimates suggest that if all the states were similarly
+regulated and the rate spillovers were absent, rates would have grown 20 percentage points
+faster in high friction states relative to the other states.
+There are two key conditions necessary to rationalize the existence of rate spillovers.
+First, exits should be unattractive. Our empirical results strongly suggest that indeed exits,
+policy cancellations, and non-renewals have been relatively rare, especially for large insurers.
+We provide a range of reasons explaining why insurers so far may have chosen to stay in
+high friction states despite regulatory costs. Second, the insurers’ problem should depart
+from the simple region-by-region profit maximization. While financing frictions and crossstate learning about expected losses are natural candidates for such departure, these factors
+alone are unlikely to drive the rate spillovers, as our evidence suggests. Instead, managerial
+incentives stemming from capital market pressure and insurers’ business models are more
+plausible candidates. While our goal is not to identify the precise mechanism, we show how
+a simple model that nests several of these mechanisms can qualitatively match our empirical
+4
+
+findings. In the end, cross-subsidization is likely driven by a combination of several economic
+forces. However, our central point is about distortions in who bears climate risk, which holds
+regardless of the precise mechanism that generates it.
+The disconnect between rates and risk also has significance beyond risk sharing across
+states. First, insurance rates have a key role in climate adaptation as rates inform households
+of their local risks and have the potential to affect households’ behavior. When rates reflect
+risks they may prompt actions that help mitigate these risks e.g., by encouraging households
+to build more safely or by prompting migration to lower risk areas. If rates no longer serve as
+a useful signal of risks, households may be unaware of their risks and may be discouraged from
+taking appropriate actions to mitigate risks. Second, it portends future behavior of insurers in
+the face of rising climate risk, since they may further respond by exiting markets altogether or
+dropping important product features. These concerns underscore the importance of studying
+the implications of rate regulation for homeowners’ insurance pricing.
+Related literature: Our paper contributes to four broad strands of the literature. First,
+this paper adds to the insurance literature on the impact of the regulatory environment on
+insurance product market. Several papers study the effects of financial regulation on prices
+and supply of life and annuity insurance (Koijen and Yogo, 2015; Ge, 2020; Sen and Humphry,
+2018; Sen, 2021). Tenekedjieva (2021) shows that individual regulators’ decisions affect
+consumer demand for insurance products. A complementary line of work further emphasizes
+the role of the legal environment in amplifying the impact of regulation on insurance product
+market through judiciary rulings (Oh (2020)), the claims process (Gennaioli et al. (2021)),
+and fiduciary regulation (Egan et al. (2021)). Our work contributes to these studies by
+showing how rate regulation has consequences for the pricing and supply of homeowners’
+insurance, a large and under-studied market that serves the important role of providing
+financial protection against climate losses.
+Second, our work contributes to the literature on the price regulation of consumer financial products (Bar-Gill and Warren, 2008; Campbell et al., 2011). Several papers study the
+effects of regulatory interventions in rate-setting for banking products, e.g., Agarwal et al.
+(2015) and Nelson (2020) for credit cards.3 Within insurance, a body of work examines
+the impact of specific types of price regulation on the health insurance market (Finkelstein
+et al., 2009; Ericson and Starc, 2015; Simon, 2005) as well as the role of political incentives
+in price regulation (Liu and Liu, 2020), but a systematic study of the rate-setting frictions
+3
+
+A broader literature studies the effects of price control outside of financial services. For example, Autor
+et al. (2014) documents the negative externalities and distortions due to rent-control in Massachusetts. For
+early work on price controls resulting in cross-subsidization, see Faulhaber (1975) who focuses on the utilities
+market, and Curien (1991) who focuses on the telecommunications market.
+
+5
+
+across states has been absent thus far. We fill this gap by examining the implications of
+rate regulation for contracts that protect households against climate risk and constitute a
+significant part of their budget. We are the first to measure the degree of rate-setting friction
+across states and formally study its effects on how insurers set rates across different states.
+Third, our findings are relevant to the burgeoning literature on the implications of climate
+risk for household finances. This literature shows that households bear climate risk directly
+through real estate prices (Bernstein et al., 2019; Baldauf et al., 2020; Murfin and Spiegel,
+2020), equity prices (Engle et al., 2020), and mortgage markets (Issler et al., 2020), and
+indirectly through discounts in the municipal bond prices (Goldsmith-Pinkham et al., 2020)
+and the labor market (Kruttli et al., 2019). In a similar vein, our work addresses the critical
+question of “who bears climate risk” in the context of Homeowners’ insurance market. We
+thus also contribute to the body of work on regional redistribution in financial markets
+(Lustig and Van Nieuwerburgh, 2010; Hurst et al., 2016; Ouazad and Kahn, 2021) and in
+real estate markets (Bernstein et al., 2021) by showing that the residents of low-risk regions
+are essentially paying to insure residents in high-risk regions against climate losses.
+Finally, we contribute to the recent literature studying the effect of climate risk on financial institutions. The current discourse spans a wide range of institutions, including central
+banks (Papoutsi et al., 2021), banks (Kacperczyk and Peydró, 2021), institutional investors
+(Krueger et al., 2020), and the financial system more generally (Battiston et al., 2017). This
+paper contributes to the literature directly by focusing on the insurance sector and its ability to absorb losses, an aspect that is critical to preserving financial stability (Scott et al.,
+2017). Our results are the first to suggest that the current regulatory system may be putting
+a strain on insurers’ preparedness against climate risk.
+The rest of the paper is structured as follows. Section 1 provides an overview of the institutional details. Section 2 discusses the data and how we construct the state-level measure
+of rate-setting frictions. Section 3 presents the empirical analysis on rate spillovers and discusses alternative explanations. Section 4 provides evidence on the decoupling of insurance
+rates from risk and insurance availability. Section 5 discusses the potential mechanisms behind our empirical findings and provides a sketch of a simple model of insurance rate-setting
+in the presence of regulatory frictions. Finally, Section 6 concludes.
+
+6
+
+1.
+
+Institutional Background
+1.1.
+
+Homeowners’ insurance
+
+Homeowners’ insurance (HO) is a retail contract that provides financial protection against
+property damages. Losses sustained during climate events, e.g., wildfires, hurricanes, or
+windstorms, constitute a large part of the incurred losses in these contracts. For example,
+estimates from the Insurance Information Institute suggest that losses from wind, fire, and
+water damage accounted for more than 90% of the total HO losses in 2018.4 Moreover,
+climate losses have been increasing in significance for HO contracts in the past two decades,
+given the steep rise in losses from climate disasters (Figure A.1).
+The HO insurance market is large and economically important. Each year, insurers sell
+more than $15 trillion of coverage charging $100 billion in premiums, which makes HO one of
+the largest and fastest growing Property & Casualty (P&C) markets in the U.S. (Figure A.2).
+For households, HO insurance is an important financial product. First, it is a prerequisite
+to sustain a mortgage. As a result, HO contracts are widely used: 95% of homeowners with
+a mortgage and 85% of homeowners overall have HO insurance.5 Thus, HO contracts offer
+a safety net to a large fraction of households as well as banks who lend to them. Second,
+HO insurance premiums are a large portion of homeownership expenses. Figure A.3 shows
+the average HO premiums benchmarked against mortgage interest expenses for each state in
+the U.S.. In the average state, HO premiums cost as much as 60% of what households pay
+towards their mortgage interest expenses.
+HO insurance contracts have similar features across states. Contracts are short-dated,
+with a typical duration of 1 year. The most popular contract type (known as HO3), which
+accounts for 95% of all sold contracts, covers the same 16 perils (fire, windstorms, hail, etc.).6
+The two main excluded perils are flood, which is federally provided, and earthquake, which
+is often provided by state-run programs. One of the reasons why this contract type is so
+ubiquitous is that it provides the minimum protections which banks require for mortgages.
+The homogeneity in the contract type and its wide use by households means that we compare
+products that have broadly similar features across states.
+4
+
+See Insurance Information Institute’s homeowners’ loss by cause breakdown here. Homeowners contracts
+also provide protection against non-climate events (e.g., vandalism and theft).
+5
+See a Trulia report from October 10, 2016.
+6
+There are several types of HO contracts for owner occupied houses by level of coverage: HO1, HO2,
+HO3, and HO5. A 2022 consumer report from MyBankTracker describes HO3 as the minimum required for
+a mortgage, making it the most popular contract type - see Figure C.1.
+
+7
+
+1.2.
+1.2.1.
+
+Rate Regulation
+
+Background
+
+Homeowners’ insurance prices (henceforth rates) have been regulated in the U.S. since
+the early part of the 20th century.7 Historically, regulation had three goals: to prevent (i)
+excessive; (ii) inadequate; and (iii) unfairly discriminatory rates (NAIC, 1945). Because
+HO insurance is a prerequisite to a mortgage, regulators seek to ensure that insurance is
+affordable and available to all consumers (Tennyson, 2011).
+When an insurer wants to change rates in a given state, it must file a rate change request
+with that state’s Department of Insurance (DOI). The regulatory approval process can be
+onerous and time consuming. A typical filing is more than 1,000 pages, requires insurers to
+provide detailed information on climate loss models and other rating variables, and involves
+significant back and forth between insurers and regulators. Regulators typically examine
+the filings over several months and may not approve the full extent of the requests. Unlike
+other insurance products where risks have been relatively static over time, climate losses
+have shifted in a large way. As a result, rate regulation can be particularly challenging for
+HO because it affects the degree to which insurers can respond to shifts in the underlying
+loss distribution caused by the recent increase in climate events and losses. Appendix A.2
+provides anecdotal evidence on instances of regulatory rate suppression and the large role
+regulators play in the rate-setting process for HO insurance.
+1.2.2.
+
+Key Features
+
+Our analysis relies on several important features of the regulatory process. First, rates
+are regulated at a state of operation level. Specifically, if an insurer wants to change rates
+in a given state it operates in, it needs to file a rate request with the state’s DOI. If the
+insurer wants to change rates in multiple states at once, it still needs to file a request in every
+single state.8 For example, Illinois Union Insurance Company sold Homeowners’ insurance in
+five states in 2019: Arizona, Massachusetts, Nevada, South Carolina and Vermont. If Illinois
+Union wishes to raise rates in Arizona, it must make a rate filing at Arizona’s DOI. Similarly,
+if it wants to raise rates in Nevada, it must make a separate rate filing at Nevada’s DOI. In
+other words, insurers’ rates are regulated in every state it sells insurance in. This feature is
+crucial from the standpoint of identification as a single insurer is exposed to multiple states
+and these states may differ with respect to how regulated they are.
+7
+
+Rate regulation also occurs in automobile, health, workers’ compensation, and medical malpractice lines.
+It is important to distinguish rate regulation from financial regulation. Financial regulation is carried
+out by a single state - the state where the insurer is domiciled. In contrast, the same insurer is subject to
+rate regulation in every state it sells insurance in (i.e. there are multiple rate regulators).
+8
+
+8
+
+Second, any change in an insurer’s rate-setting model has to be filed, which may result
+in either an increase or a decrease in rates at the state level. As a result, we can observe the
+full spectrum of the state level rate changes.
+Third, there are several sources of heterogeneity in regulation across states. States vary in
+the inputs they allow insurers to use in rate-setting. Prominent exclusions include the use of
+catastrophic models, passing reinsurance costs to consumers, extent to which territorial risk
+differences can reflect in rate-setting, and the use of credit scores. For example, California
+disallows the use of forward-looking projections and catastrophic models, the transfer of
+reinsurance costs to consumers, and FICO scores, while South Carolina allows the use of these
+factors (Issler et al., 2020; R-Street, 2018). Another dimension of cross-state heterogeneity
+is in the filing and approval process. Some states require active pre-approval of rate changes
+before consumers are affected, while others permit insurers to begin using a new rate while
+regulators are still reviewing the filing and if subsequently found unacceptable the rate
+changes have to be withdrawn.9 Crucially, even when two states employ the same procedural
+rules and rate-setting inputs, regulatory strictness can vary significantly due to factors such as
+regulators’ incentives or insurance department budgets.10 Because we observe the outcomes
+of the regulatory approval process, we can bypass the different sources of heterogeneity in
+measuring the extent of regulation across states and construct a measure of the rate-setting
+frictions based on the observed regulatory outcomes.
+2.
+
+Data and Measurement
+2.1.
+
+Data
+
+We combine data from two main sources: (i) insurers’ state-level underwriting operations
+and financial statements and (ii) their regulatory rate filings.
+2.1.1.
+
+Underwriting Operations and Financial Statements
+
+Property and Casualty (P&C) insurers companies report underwriting data for each line
+of business and each state they operate in, which we collect from the Standard & Poor’s
+Market Intelligence (S&P MI) database. Underwriting data contain information on total
+homeowners’ premiums sold (which refers to the total sale of homeowners’ policies) and
+losses incurred (which refers to the claims insurers pay to consumers if an insured event
+takes place, e.g., a wildfire). The data are available at an annual frequency and for each
+9
+
+In case regulators disapprove the rate changes, the new rates have to be rolled back. Conversations
+with practitioners revealed that the cost of rolling back and refunding consumers is prohibitively high. As a
+result, in practice, insurers typically seek pre-approval even in states which do not explicitly require one.
+10
+See e.g., Liu and Liu (2020); Leverty and Grace (2018); Tenekedjieva (2021); Sen and Sharma (2020).
+
+9
+
+state an insurer operates in. In addition, we also observe premiums and losses for other
+business lines (e.g., auto insurance, workers compensation, etc.). Insurers also report detailed
+financial statements, including balance sheets and regulatory capital positions, available at
+an insurer-year level as part of their regulatory filings. We obtain these data for the subset
+of P&C insurers that sell HO insurance in the U.S. for the period 2009 to 2019. The start
+date is dictated by the availability of rate filings data (see below).
+2.1.2.
+
+Rate Filings
+
+Insurance companies are required to file rate change requests with the Department of
+Insurance every time they want to update rates in any state they operate in. We collect
+novel data on homeowners’ rate filings from S&P MI database on Insurance Product filings.
+Our rate filing sample includes 49 states and D.C. and, for the most part, spans the period
+2009 to 2019. Appendix B.1 provides additional details on these data.
+For each rate filing in each state, there are two main features. First, we observe the
+insurer’s target rate change (Rate∆Target). Target rate change is the rate change necessary
+for an insurer to fully cover its underwriting losses while meeting a profit goal (Ben-Shahar
+and Logue, 2016). Thus, a critical input in estimating the future target rate is a forecast of
+future losses, which insurers form by using historical losses or by making forward projections
+using catastrophic models. Second, we observe the rate change insurers receive after state
+regulators have examined the request (Rate∆Received). In addition, we also observe the
+date on which the request was filed (filing date), the amount of premium and the number of
+consumers affected by the rate change, and the date on which regulators finally adjudicated
+the rate request (decision date).11
+We merge the rate filings data to the underwriting and financial statements data to
+obtain a firm-state-year level panel.12 Table 1 reports the summary statistics on the final
+sample. The average insurer in our sample operates in about 15 states, collects $39 million
+in Homeowners’ insurance premiums, and has close to $3 billion in total assets. Two key
+points stand out on insurers’ rate filings. First, the propensity to file for a rate change is very
+high at 70% for the average insurer in a given state and year. This suggests that insurers are
+trying to revise rates frequently - almost every year. Second, there is a large gap between
+insurers’ target rate change and what they receive. Conditional on filing for a rate change,
+the average (Rate∆Target) is 15.6% and the average (Rate∆Received) is 5.85%.
+To compare the target rate changes with the rate changes insurer i received in state s at
+11
+In reality, insurers are updating their pricing models and the loadings on the characteristics relevant to
+rate-setting. This may result in a change in rates for all or a subset of consumers in a state. Rate∆Target
+and Rate∆Received refer to the average rate change in a state at a given point in time.
+12
+The details of the sample data and construction are described in Appendix B.1 and B.2.
+
+10
+
+time t, we define Rate Wedge as
+(1)
+
+Rate Wedgeist =
+
+Rate∆Receivedist
+Rate∆Targetist
+
+Rate Wedge ≥ 1 indicates that the insurer achieved or exceeded its target rate change for
+that state. In contrast, Rate Wedge < 1 indicates that the insurer fell short of its target rate
+change for that state. Figure 2 shows a histogram of Rate Wedge. A large fraction of filings
+have Rate Wedge < 1 and the median Rate Wedge is 0.5. Thus, target rates are significantly
+greater than the rates insurers receive for a bulk of the filings, implying that Homeowners’
+insurance is being sold at a large discount relative to insurers’ target rate.
+2.2.
+
+Measuring Rate-setting Frictions across U.S. States
+
+A key challenge is to construct a measure of regulatory strictness that takes into account
+the significant heterogeneity in the regulatory frameworks across states. Moreover, there are
+no off-the-shelf measures available that would allow us to rank states in a comprehensive
+manner. We exploit the observed outcomes from the regulatory approval process using new
+data on rate filings to provide a simple measure of regulatory strictness at the state level.
+Specifically, we measure the extent of rate-setting frictions, Frictions , for each state as follows:
+(2)
+
+Frictions = 1 − Rate Wedges
+
+where Rate Wedges is the average Rate Wedge (defined as per Equation (1)) in state s
+aggregated across insurers and years. Thus, Frictions can be interpreted as the fraction of
+the target rate change that insurers do not receive in a state on average. High (low) values of
+F rictions indicate states with potentially high (low) rate-setting frictions. We group states
+into terciles by F rictions : High, Medium, and Low. States in the highest (lowest) tercile
+face the highest (lowest) rate-setting frictions.
+In constructing the rate-setting friction measure, we exclude filings from small insurers.
+We do so for several reasons. First, small insurers typically make rate filings using external
+pricing agencies (e.g., ISO). As pricing agencies make filings on behalf of several insurers at
+once, filing outcomes of small insurers are likely to be correlated leading us to over-weight
+similar outcomes. Second, in contrast to large insurers who file almost every year, small
+insurers make infrequent filings (Table C.1). The decision of when to file is likely endogenous,
+but less worrisome in the case of large insurers as they make rate filings almost every year.
+Third, large insurers operate across a majority of U.S. states in contrast to small ones
+(Table C.1). This allows us to compute the average rate wedge using a similar composition
+11
+
+of insurers in each state rather than a set of different insurers. Specifically, our measure uses
+filings of insurers with more than 1% market share in each state. This amounts to about 20
+insurers in each state, together accounting for over 75% of the homeowners’ market share.
+Appendix B.3 presents alternative measures constructed using different number of insurers.
+There is a high degree of correlation between the baseline and the alternative measures.
+2.3.
+
+Interpreting Rate-setting Frictions: Insurer or Regulator Driven?
+
+A key concern with our measure of regulatory frictions is that it could be driven by insurers’
+incentives rather than regulators’. For example, one reason why filings receive changes below
+the target could be that insurers report inflated targets to achieve a higher rate increase
+and that relative to the true target (which we do not observe), there is no discount (i.e.
+the true Rate Wedge is closer to 1). In particular, if target inflation is pervasive, a state
+may be classified high friction not because regulators suppress rates but because insurers
+systematically over-report targets. Having said that, it is not obvious that target inflation
+is the optimal response of insurers, as we show theoretically in Appendix D. If regulators
+penalize high markups and insurers internalize the regulators’ response in their rate-setting
+decision, then target inflation will be limited in equilibrium. Consistent with this, several
+pieces of evidence show that the tendency to inflate targets is limited in the data.
+First, we compare the ratio of losses to premiums, a standard actuarial measure of insurers’ underwriting profitability, across state types. A high ratio indicates low underwriting
+profitability. If high friction states are classified as such because insurers operating in these
+states inflate rate targets then insurers in high friction states should not be less profitable
+on average. Figure 3 shows in fact that loss ratios are substantially higher (underwriting
+profitability is lower) in high friction relative to low friction states. This suggests that rates
+are low in high friction states compared to low friction states.
+Second, to test this idea more formally we examine whether the extent of rate-setting
+friction an insurer faces predicts its future profitability. If high values of friction were simply
+due to insurers inflating their target rates then we expect to see either no or even a positive
+relation with future profits. Instead, as we discuss below, we find that when an insurer faces
+high friction it has lower future profitability. Specifically, we run the following regression:
+(3)
+
+Underwriting Profitist = φFrictionist−1 + αis + αst + Controls + ist ,
+
+where Underwriting Profitist = 1−Loss Ratioist for insurer i in state s in year t. Frictionist−1 =
+1−Rate wedgeist−1 measures how far from the rate target the received rate is for insurer i in
+state s in the prior year. We include insurer × state fixed effects (αis ) to ensure we exploit
+12
+
+variation for the same insurer in the same state over time. αst are state × year fixed effects
+and absorb common state level shocks, e.g., a hurricane.13 The coefficient of interest φ measures the correlation between the extent of rate-setting frictions and future profitability. If
+insurers inflate targets, we would expect φ to be zero or even positive. In contrast, we find
+that φ is negative and statistically significant (Table 2). Furthermore, the negative relation
+is stronger in higher friction states.
+Third, we construct the friction measure in alternative ways to absorb insurer driven
+variation in Rate Wedge. Specifically, we discuss three approaches. (i) In the first approach,
+we regress Rate Wedge on insurer × year fixed effects and state fixed effects and use the
+coefficients on the state fixed effects to rank states. Intuitively, to the extent the tendency
+to inflate the rate targets is due to time-varying insurer characteristics, the insurer × year
+fixed effects would absorb such variation. (ii) We regress Rate Wedge on insurer × year fixed
+effects and insurers’ market share in each state and use the average residuals for each state
+from this regression to rank states. Intuitively, insurers’ tendency to inflate rates could vary
+by their market share in a state, e.g., large insurers may be more able to inflate target rates.
+Controlling for market shares help absorb this source of heterogeneity. (iii) We instrument
+Rate∆Target using past losses and use the predicted rate targets to construct an alternative
+measure of friction. Table B.3.1 shows that the correlation between F rictions (computed
+as per Equations (1) and (2)) and the alternative measures is very high at 0.84 on average
+across the three approaches. Overall, the evidence suggests that our measure of rate-setting
+frictions captures regulatory forces rather than insurers’ incentives.
+2.4.
+
+Assessing the Severity of the Rate-setting Frictions
+
+We next demonstrate that our classification indeed captures the differential ability of insurers to update rates across states. To do so, we examine whether rate-setting behavior
+responds to realized losses. In standard insurance pricing models (e.g., Koijen and Yogo
+(2015)), rates respond to shifts in marginal costs (expected losses), demand elasticities, and
+financing frictions. Realizations of climate losses potentially affect all of these elements, ultimately affecting rates. For example, losses could lead insurers to update beliefs about the
+distribution of future losses and affect marginal costs, worsen insurers’ financing conditions,
+or increase households’ propensity to buy insurance. In the absence of rate-setting frictions,
+we thus expect that rates would respond to realized losses, especially since HO contracts are
+short-dated and can be repriced often. Rate-setting frictions, however, may restrict insurers’
+ability to adjust rates in response to losses, and the degree to which they are restricted
+13
+
+By “year” we refer to year of filing throughout the paper.
+
+13
+
+depends on the level of friction.
+To formally examine whether the rate-setting behavior responds to realized losses differentially across states we estimate the following regression:
+(4)
+
+Yist = γSSList−1 + γ M SSList−1 × M eds + γ L SSList−1 × Lows + αis + αst + θXit + ist ,
+
+where the response variables Yist include (i) whether a rate change is filed and (ii) conditional
+on filing, the gap between the rate change received relative to insurers’ target rate change
+by insurer i in state s and year t. The variable of interest is Same-State Losses (SSL), i.e.
+losses experienced by an insurer in the state in which it has made the rate filing. Note that
+losses are lagged one year and scaled by the total premium sold. To evaluate the differential
+responsiveness to losses, we interact SSL with a dummy variable for medium (M eds ) and
+low (Lows ) friction states. Under the standard model with no regulatory frictions, we only
+expect γ > 0: when losses increase, future rates go up. However, if regulations are binding
+and our classification captures the differential ability of insurers to update rates, we expect
+γ L > γ M > 0, i.e., it is easier to update rates in low friction than in high friction states.
+We include insurer × state fixed effects (αis ) to ensure that the relevant coefficients are
+estimated using variation in loss ratios within the same insurer in the same state and not
+using variation in the composition of insurers across all states. We include state × year fixed
+effects (αst ) to absorb time varying unobserved state characteristics and local demand shocks.
+The control variables Xit (log total assets, RBC ratio, non-state loss ratio, non-homeowners
+loss ratio, reinsurance) account for time-varying insurer-level characteristics that may also
+affect insurers’ rate-setting behavior. Finally, we cluster standard errors at the state level to
+account for the common regulatory, climate, and demand conditions in a given state.
+Table 3 documents two main findings. First, column (1) compares the same insurer’s
+filing behavior across states and shows that the correlation between losses and whether an
+insurer chooses to make a rate filing is strongest in low friction states since γ L > γ M > 0,
+with only γ L statistically significant. In other words, the same insurer is more likely to file
+a rate change in a low friction than in a high friction state. Moreover, the magnitudes are
+large: there is a 10% greater likelihood to file in low friction states in response to a large
+jump in losses (from the 10th to 90th percentile).
+Second, column (2) compares the responsiveness of received rates to losses relative to
+target rates to losses across states. Thus, the coefficients γ measure the degree to which
+losses pass through to received rates via-a-vis to target rates. We find that γ is negative
+and statistically significant, γ M is positive but insignificant, and γ L is positive and statistically significant. Thus, the degree to which losses pass through to received rate changes
+is significantly lower than the degree to which losses pass through to target rates. In other
+14
+
+words, after losses, the gap between target and received rate changes increases. Crucially,
+this gap grows larger for an insurer in a high friction state relative to the same insurer in a
+low friction state.
+Overall, the evidence shows that in response to losses, insurers are less likely to make a
+rate filing and more likely to receive a lower rate change (relative to target) in high friction
+states than in low friction states. In other words, the measure F rictions meaningfully
+captures the extent to which insurers are restricted in their ability to set rates across states:
+it is harder to change rates in high friction states than in low friction states.14
+3.
+
+Regulation and Cross-Subsidization
+
+How do insurers respond to binding rate-setting frictions in highly regulated states? In this
+section, we show that insurers cross-subsidize their operations in high friction states with
+their operations in low friction states.
+3.1.
+
+Asymmetric Rate Spillovers Across U.S. States
+
+We begin by showing that there are asymmetric rate spillovers: rates in low friction states
+respond to losses in high friction states while the opposite is not true. Our identification
+strategy is to compare the same insurer’s filing outcomes across states. Insurers typically operate in multiple states. As a result, the same insurer may be exposed to multiple regulators
+who may vary in their strictness. Exploiting this within-insurer variation, we proceed in two
+steps. First, we ask in which states an insurer’s filing outcomes respond to losses occurring
+outside the filing state (out-of-state losses). We show that an insurer’s filing outcomes in low
+friction states respond to such losses but not its filing outcomes in high friction states. Second, we ask whether the response to out-of-state losses varies depending on where the losses
+come from, i.e. low, medium, or high friction states. Here we find that only out-of-state
+losses coming from high and medium friction states affect rates in low friction states.
+3.1.1.
+
+Step 1: Which filing states respond to out-of-state losses?
+
+To formally examine step 1, we estimate the following regression:
+(5)
+Yist = βOSList−1 + β M OSList−1 × M eds + β L OSList−1 × Lows + Controls + αis + αst + ist .
+
+The dependent variables Yist include (i) whether a rate change is filed (extensive margin)
+14
+We also find that execution times are on average larger in high friction states (see Figure C.3). This
+further corroborates that our measure captures states’ differential strictness.
+
+15
+
+and (ii) the size of the received change (intensive margin). The main variable of interest
+is an insurer’s “out-of-state” losses (OSL) in the prior year. To compute OSL, we sum an
+insurer’s losses in all the states it operates in other than the filing state s, which we scale
+by total premiums in states not s. For example, suppose an insurer operates in four states:
+California (CA), North Carolina (NC), Virginia (VA), and New Hampshire (NH). When we
+examine its filing outcomes in CA, OSL refers to losses in NC, VA, and NH only.
+To examine the differential response to OSL across states, we interact OSL with dummy
+variables for medium (M eds ) and low (Lows ) friction states. Splitting the responsiveness to
+OSL by filing state helps understand which states respond to OSL and whether rate-setting
+frictions matter. We include insurer × state fixed effects (αis ) to ensure that the estimation
+exploits variation in losses within the same insurer in the same state. In addition, it allows
+us to control for an insurer’s market power in a given state and other firm-state specific
+characteristics, e.g., better bargaining power with regulators. We include state × year fixed
+effects (αst ) to control for time varying unobserved state characteristics and local demand
+shocks. We control for insurers’ same-state losses (SSL), which affect filing outcomes (see
+Section 2.4). In addition, we also control for other time-varying insurer characteristics that
+are known to affect insurance rates, e.g., log total assets, RBC ratio, losses in business lines
+other than homeowners’, and reinsurance payments.
+If filing outcomes respond to OSL, we expect β > 0 and statistically significant. Moreover, if the responsiveness varies meaningfully across states, we expect β L or β M , which
+measure the same insurer’s additional responsiveness to OSL in low and medium filing
+states, to be statistically significant and economically meaningful.
+Tables 4 and 5 document the main results. Column (1) of each table shows the estimation
+of Equation (5) without the interaction terms. Both the likelihood of filing and the size of
+the rate change received increase in response to out-of-state losses (β > 0 and statistically
+significant). Columns (2) to (4) show the results by splitting the filing state into high,
+medium, and low friction. Insurers do not respond to OSL in high friction states. Column (2)
+shows that both the likelihood of filing and the size of the rate change received are statistically
+insignificant and economically small in magnitude. In contrast, both filing outcomes strongly
+respond to OSL in low friction states (column 4). In addition, β(M ed) < β(Low), i.e.
+insurers’ response to OSL is decreasing in rate-setting frictions.
+Column (5) shows the estimation of Equation (5), which allows us to track the same
+insurer’s filing behavior across different states. We find β L is positive and statistically significant and β is insignificant. Thus, filing outcomes of the same insurer positively respond to
+OSL in low friction states (since β + β L > 0) but not in high friction states. Importantly,
+
+16
+
+the magnitude of this spillover in low friction states is economically meaningful. For example, in response to large out-of-state losses, the average insurer increases rates by 0.94% per
+year in low states, which is 28.5% of the increase low states experience annually.15
+3.1.2.
+
+Step 2: Which out-of-state losses matter?
+
+To test whether insurers’ response to out-of-state losses varies depending on where the
+losses come from, we estimate the following regression:
+(6)
+
+Yist =
+
+X
+
+β˜j OSLjist−1 + Controls + αis + αst + ist ,
+
+j∈{H,M,L}
+
+In Equation (6), we split the main variable of interest OSL by the type of states the losses
+come from. Specifically, j takes three values high, medium or low friction. For example,
+OSLH refers to the sum of losses occurring in all the high friction states an insurer operates
+in (scaled by total out-of-state premiums, as before). We restrict the sample to rate filings
+in low friction states because filing outcomes are most responsive to OSL in these states, as
+discussed above. In other words, we are asking when the rate filings in low friction states
+respond to OSL, does it matter where the losses come from? If insurers are cross-subsidizing
+because of regulatory rate-setting frictions then we expect to see that the responsiveness to
+OSL would be higher for losses coming from high friction states than from low friction states,
+i.e. β˜H > β˜L .
+Table 6 shows the main findings. β˜L is statistically insignificant for both the likelihood of
+filing and the rate change received. This implies that the filing outcomes in low friction states
+do not respond to OSL when these losses come from other low friction states. Presumably,
+this is because in low friction states, insurers are able to adjust rates in response to losses
+occurring within the state to a greater extent (as shown in Table 3). Thus, losses arising
+in low friction states tend to not get passed on to households in other states. In contrast,
+β˜H and β˜M are statistically significant for both the likelihood of filing and the rate change
+received. Thus, filing outcomes in low friction states respond to OSL only when these losses
+come from high or medium friction states, where insurers cannot adjust rates in response to
+losses occurring within the state to a similar degree as in the low friction states.
+Taken together, our findings demonstrate the existence of asymmetric rate spillovers.
+The following example helps to summarize the main findings. Consider the hypothetical
+insurer that operates in 4 states: CA, NC, VA, NH. Our results imply that if losses occurred
+15
+
+We multiply β + β L = 1.679 by 0.56 (the difference between the 10th (0.30) and the 90th percentile
+losses (0.86), see Table 1) to get 0.94. We divide by 3.3, which is the unconditional average of rate change
+received in low states, to get 28.5%.
+
+17
+
+in high friction CA, the insurer’s rates would increase in VA and NH, which are both low
+friction. In contrast, rates would not move in NC, which is high friction. Suppose instead
+that losses occurred in VA, a low friction state. If so, rates would not move in CA or any
+other state the insurer operates in. Thus, there exists spillover of losses from one state to
+the other. But these spillovers are asymmetric and happen from high to low friction and not
+vice versa.
+3.1.3.
+
+Persistence and Economic Magnitude
+
+We next show that there are limited rate reversals, suggesting that rate spillovers have
+long-lasting effects. Overall, only about 6.7% of the rate filings request rate decreases.
+Moreover, the average negative rate change is only about -2% as opposed to a 6% average
+positive rate change. Both factors suggest that the rate spillovers persist over time.
+The persistence of the rate spillovers leads to a substantial transfer of risks from high to
+low states. Our estimates in Tables 5 and 6 imply that over the next 10 years, consumers in
+low states will pay an additional $8 billion in HO premiums. Of this, $2.4 billion or about
+30% would be due to rate spillovers from high friction states.16
+3.2.
+
+Shift in Products and Risks Across States?
+
+A key question is whether in response to OSL insurers offer better product features or
+increase their risk exposures (e.g., by insuring riskier homes) in low friction states. Under
+this explanation, we could interpret the rate spillovers as consumers in low friction states
+paying higher rates for greater risk protection. However, if the rate spillovers occur despite
+no change in product features, then the interpretation is that insurers cross-subsidize across
+states. Several pieces of evidence demonstrate that contract features have likely not shifted
+differently across states in a meaningful way consistent with cross-subsidization.
+3.2.1.
+
+Product Features
+
+First, we exploit the fact that insurers are also required to file product changes (“rule
+filings”) with states regulators if contract features change materially. Table 7 shows no
+significant difference in the responsiveness of rule filings to OSL in low friction states relative
+to high or medium friction states, contrary to the results on rate filings. Second, there is
+also no shift across the different types of HO contracts. We plot the fraction of insured
+16
+
+These estimates assume (i) that rates grow at the historical average level in low states and (ii) that
+losses and rates in high states grow in a way that the loss ratio (i.e. losses per dollar of premium) remains
+constant. In an alternative scenario where losses grow twice as quickly but rates grow at historical levels
+(this amounts to loss ratio increasing by one standard deviation after 10 years), consumers would pay an
+additional $1.2 billion due to rate spillovers from high states.
+
+18
+
+households that purchase the most common contract type (HO3). Figure C.1 shows that the
+fraction of HO3 is around 95% over time and across states. These findings are inconsistent
+with insurers responding to OSL by changing product features.
+Third, even if ex-ante product features are the same, ex-post there may be differences in
+product quality. For example, an important way insurance contracts differ is in the likelihood
+of claims that get paid out ultimately by insurance companies (e.g., Gennaioli et al. (2021)).17
+In the same spirit, we examine whether insurers modify the quality of HO insurance contracts
+ex-post by differentially changing the amount of claims paid across states. In this setting,
+the concern is that rates in less regulated states are rising not due to cross-subsidization,
+but because the product quality improves (a claim has now a higher likelihood to result in
+a payout). To test this, we collect data on the proportion of claims that ultimately result
+in no payments for each state.18 Figure C.4 shows that the non-payment rates stay similar
+across state types and over time. In particular, there is no evidence to suggest that insurers
+in low friction states have increased payouts, which would be consistent with product quality
+improving over time in less regulated states.
+3.2.2.
+
+Risk Exposures
+
+There are two ways in which insurers can increase their risk exposure: they can either
+seek riskier consumers – for example by expanding to riskier ZIP codes – or increase exposure
+by selling higher coverage to each consumer. For each state type, we measure the evolution
+of insurers’ risk exposure by computing the growth in losses per insured property and the
+growth in coverage.19 If the rate spillover in low friction states is because of an increase in
+risk exposure over time, then we should expect to see a greater increase in the measures of
+risk taking relative to other state types. Figure C.5 and C.6 plot the growth in coverage
+amount and in losses per insured property. Growth in both risk-taking measures are highly
+similar across states. This indicates that insurers in low friction states have not increased
+their risk exposures over time in a meaningful way.
+3.3.
+
+Role of Competition
+
+In this section, we address two questions on the role of competition in determining the
+degree of rate spillovers. The first relates to the relative difference in the level of competition
+17
+Barbu (2021) shows that financially constrained insurers exchange more valuable annuity contracts for
+less generous ones to alleviate financial distress.
+18
+Data on non-payments comes from NAIC’s Market Conduct Annual survey. The latter reports state-year
+level of non-payments starting in 2014.
+19
+Note that the analysis is at the state level because the data on coverage amount and the number of
+insured properties are only available at the state rather than the insurer level.
+
+19
+
+across states, which may be driving our findings. Second, regulators often argue that market
+forces should prevent rate spillovers from occurring. However, our results strongly suggest
+otherwise and below we discuss why competitive forces do not prevent rate spillovers.
+3.3.1.
+
+Are low friction states less competitive?
+
+When insurers want to increase rates across states, it is natural to think that they would
+do so in the states where demand is most inelastic. If low friction states are the least
+competitive and have the most inelastic demand (i.e. our friction measure and competition
+are positively correlated) then it is unclear if regulatory forces are behind these rate spillovers.
+However, the evidence is inconsistent with this alternative explanation. First, low friction
+states do not appear any less competitive than high or medium friction states. We measure
+the extent of competition in two ways. For each state, we compute the fraction of premiums
+sold by insurers that only operate in that state (single-state insurers). The idea is that
+single-state insurers should not want to raise rates when losses in high friction states prompt
+multi-state insurers to raise rates. Thus, the presence of many single-state insurers should
+make states more competitive. (ii) We compute the Herfindahl–Hirschman index (HHI) for
+each state. Figure 4 shows that the distribution of both the measures are similar across the
+three state types, implying similar competitiveness across states. Moreover, our spillover
+estimations include insurer × state fixed effects to address the concern that the aggregate
+measures of competition described above do not fully capture the market power of a subgroup
+of insurers who might be driving these results.
+3.3.2.
+
+Effect of competition on rate spillovers
+
+We begin by testing whether the level of competition in low friction states affects the
+degree of rate spillovers. We split low friction states into two groups by the share of premiums
+sold by single-state insurers. Table 8 shows that the spillover coefficients are 2.7 times greater
+for the low competition group than the high competition group for both the likelihood of filing
+and the rate change received.20 However, even for the high competition group, the spillovers
+are both statistically significant and economically meaningful. For example, the increase
+in rates in response to large out-of-state losses accounts for 43% (17%) of the increase low
+(high) competition group experience annually. Table C.3 shows the same empirical patterns
+using other proxies of competition (HHI and share of the largest five insurers).
+20
+
+These differences are not driven by the differential exposure of insurers in the low friction states to high
+friction states. Table C.5 shows the same estimation by splitting low friction states into two groups based
+on the average insurer’s exposure to high friction states. While the response to OSL is indeed greater in low
+friction states with greater exposure to high friction states, the effect is not large enough to subsume the
+single-state effect.
+
+20
+
+Overall these results suggest that while competition affects spillovers, even in the more
+competitive states, the effects are not negligible. One possibility is that overall, states are
+not sufficiently competitive. Indeed, Figure C.7 shows that the proportion of premium
+sold by single-state insurers is relatively low at around <10%. Second, the spillovers are
+especially pronounced for large insurers. Table C.4 shows that in low friction states, insurers’
+sensitivity to out-of-state losses increases in the their market share. For example, the spillover
+coefficients are about 1.7 times greater for the largest 20 insurers relative to the largest 50
+insurers, suggesting that the demand for large insurers is relatively inelastic.21
+3.4.
+
+Robustness
+
+In this sub-section, we provide evidence against alternative explanations to the rate spillovers
+being driven by regulation.
+3.4.1.
+
+Learning About Similar Risks?
+
+An alternative explanation for the rate spillovers is that insurers learn about common
+risks and update their expectations of future expected losses in the filing state upon observing
+losses in other states that share similar risk characteristics. For example, after experiencing
+wildfire losses in California, insurers may plausibly update their risk models and increase
+rates in neighbouring Oregon, which may also experience more wildfire losses in the future.
+However, the evidence is inconsistent with a learning mechanism. First, if high and
+low friction states are both exposed to common risks, then insurers in low states may very
+well respond to losses occurring in high states. However, equally, the opposite should also
+happen i.e. rates in high states should also respond to losses in low states. Second, to
+test the learning hypothesis further, we modify Equation (5) by excluding from out-of-state
+losses (OSL) the losses that occur in the same geographical region of the filing state. For
+example, when we examine filing outcomes in CA, we exclude losses occurring in all states
+in the western region of the U.S.. The assumption is that losses are correlated within a
+geographical region, but less so across different regions. Table 9 shows results that mirror
+the findings in Tables 4 and 5. The rate spillover coefficients are statistically significant and
+comparable in magnitude to the baseline estimates for both the likelihood of filing and the
+rate change received. In other words, the response to OSL is similar whether or not we
+exclude the losses from states that may have plausibly correlated losses.
+21
+
+Note that Wagner (2021) finds demand for the federally-provided flood insurance to be relatively low
+and price-sensitive. However, demand for Homeowners’ insurance is much higher: 85% of homeowners have
+an insurance, a fraction which is relatively constant over time and states of different friction level.
+
+21
+
+3.4.2.
+
+Financing Frictions
+
+We next test if the rate spillovers occur due to financing frictions (costly external finance).
+One manifestation of financing frictions operates through the constraints faced by insurance
+companies, as in Koijen and Yogo (2015, 2016) and Ge (2020). However, our findings are
+unlikely to be driven by differences in financing frictions across insurers because the estimations occur within an insurer. We compare the filing outcomes for the same insurer across
+states and show that the same insurer responds differently when making rate filings in a low
+friction state as compared to a high friction state.
+Moreover, if financial constraints are driving the rate spillovers then we would expect
+to see greater spillovers for more constrained insurers. We test whether this is the case by
+estimating the regression below:
+(7)
+
+
+Yist = β + β M × M eds + β L × Lows × OSList−1
+
++ βc + βcM × M eds + βcL × Lows × OSList−1 × Constrit−2
++ Controls + αis + αst + ist ,
+
+where Constrit−2 is an indicator which equals 1 if insurer i is financially constrained in year
+t − 2, and all other variables are defined as in Equation (5). To identify which insurers
+are financially constrained, we follow the methodology of Ge (2020). Specifically, in year
+t, insurer i is financially constrained relative to peers if its lagged net assets, RBC ratio,
+or leverage ratio are below median. If financial constraints drive rate spillovers, we expect
+(.)
+βc coefficients to be positive, statistically significant, and economically large. Table 10,
+however, shows evidence against this hypothesis. While β (.) is consistently statistically sig(.)
+nificant across specifications, βc is not statistically significant. In other words, financially
+constrained insurers do not tend to cross-subsidize more.
+Another reason why financing frictions is less likely to drive the rate spillovers is because
+of the asymmetry in rate response. If insurers were responding to financing frictions then
+we would expect them to also respond to losses occurring in other low friction states, e.g.,
+we would expect to see rate spillovers from Low to Low friction states.
+A different manifestation of financing frictions operates through the constraints faced by
+reinsurance companies (Froot and O’Connell, 1999). They argue that in the aftermath of
+losses reinsurance rates go up, driving up insurance prices. This is an unlikely driver of the
+spillovers because we should expect to see rate spillovers from low friction states to other
+low friction states, which is not the case. Also, the state × time fixed effects absorb the time
+series variation in reinsurance rates both globally as well as specifically to a certain state.
+
+22
+
+Moreover, we find no significant rate reversals (see Section 3.1), as is typically the case for
+rate spillovers induced by capital constraints. Taken together, these facts imply that the
+spillovers are unlikely to be driven by financing frictions.
+3.4.3.
+
+Correlated Demand
+
+Another alternative explanation is that rates respond to out-of-state losses due to correlation in demand across states. In other words, if after observing losses in high friction
+California, households in low friction Virginia increase their demand for insurance, then we
+may well observe rates increasing in Virginia. This is unlikely for two reasons. First, if the
+rate spillovers are driven by correlated demand, we should also expect demand to increase
+after losses in other low friction states and not just in high friction states. This would result
+in spillovers in additional directions beyond just high to low friction states. Second, the
+correlation in demand should be stronger for geographically correlated regions (i.e. regions
+that share similar risk characteristics). However, as Section 3.4.1 shows, the spillovers persist
+even when we exclude the losses from states that may have plausibly correlated risks.
+3.5.
+
+Regulatory Friction and Climate Risk
+
+We interpret our results as identifying the impact of regulatory behavior on insurance rates.
+We do not take a stance, however, on what drives such regulatory behavior. It is natural to
+think that variation in regulatory behavior comes directly from individual regulators’ discretion (e.g., due to political factors, career concerns, state budgets). However, other micro
+foundations are plausible. For example, heterogeneity in regulatory behavior could stem from
+the level of underlying climate risk and the accompanying consumer welfare considerations.
+Indeed, our measure of rate frictions positively correlates with how exposed a state is
+to climate losses. Figure 5 shows that there is a positive correlation between per-capita
+climate losses and the level of friction.22 In fact, when we regress the state-level friction
+on a set of regulator and state observables, we find that climate losses per capita is the
+only significant covariate (see Table C.2). This relationship implies that climate risk in a
+given region likely features prominently in the regulator’s decision problem. We provide one
+explicit formulation in Appendix D where we model the regulator as balancing price fairness
+against the possibility of insurer exits.
+This is not to say, however, that the level of climate risk alone drives insurers’ responses
+and cross-subsidization. Note that any risk-based explanation has to simultaneously explain
+22
+
+We measure climate exposures using long-run (from 2009 to 2019) average climate losses per capita,
+where the data on losses pertain to property damages from natural disasters and are collected from the
+Spatial Hazard Events and Losses Database for the United States (SHELDUS).
+
+23
+
+both subdued rate response to same state losses in high risk states (see Table 3) and rate
+spillovers in low risk states (see Tables 4 and 5). However, our earlier empirical results rule
+out alternative explanations in which insurers cross-subsidize not in response to regulation
+but due to climate risk-related concerns. For example, one possibility is that the effects arise
+from insurers’ inability to charge adequately high rates in high risk areas (e.g., because of
+pressure from consumer groups), which they then pass on to low risk areas. However, our
+analysis in Section 3.3 shows that the market structure is similar across states. Cross-state
+learning about expected losses is another potential mechanism for spillovers. But it is not
+clear why rate growth is subdued in high friction (high risk) areas under this explanation.
+We further clarify the role of regulation through our model in Appendix D, which illustrates
+that regulation is the key reason behind the asymmetry in rate spillovers from high friction
+to low friction states.
+4.
+
+Implications: Long-run Decoupling of Rates from Risk and Insurance
+Availability
+4.1.
+
+Decoupling of Rates and Risk
+
+Our findings on asymmetry in rate spillovers, lack of rate reversals, and subdued rate response
+in high friction states imply that rates could become disjoint from risks over time. We provide
+two pieces of evidence consistent with this implication. First, granular data on ZIP-code level
+premiums reveal that rates no longer reflect risks, especially in high friction states. Second,
+an examination of long-run rates and losses reveal lower (higher) growth in rates compared
+to the growth in losses in high (low) friction states. Both pieces of evidence strongly suggest
+the regulatory landscape has led to a growing disconnect between rates and risk.
+4.1.1.
+
+Evidence from ZIP Code-level Data
+
+Data: (i) Premiums (rates): We obtain novel data on HO premiums at a ZIP code level
+from insure.com for the year 2019.23 These data have the following three advantages. (a)
+The state-level analysis could mask substantial within state heterogeneity. The ZIP code
+level data allows us to examine the relationship between rates and risks at a granular level.
+(b) The regulatory data only allows us to examine rate changes. These data instead allow
+us to study the rate levels. (c) Most importantly, the new data provide us an out-of-sample
+validation of the main findings and that the state-level results indeed reflect the underlying
+rate patterns. Insure.com collects insurance rate quotes for the largest 15 insurers selling
+23
+
+We thank Insure.com for agreeing to share HO premiums for the year 2019.
+
+24
+
+HO policies in a particular ZIP code.24 To compare the same contract across geographies,
+we focus on HO premiums for a coverage of $300,000 with a $1,000 deductible, and $100,000
+liability.25 (ii) Risk : Insurers are only required to report losses at a state level. Thus, we
+use the expected climate losses provided by FEMA to form an estimate of insurers’ risk
+exposures at a ZIP code-level. We divide these losses by the number of housing units to
+get the expected losses per housing unit in each ZIP code. Appendix B.4 describes the
+calculations.
+Figure 1 shows a binned scatter plot of premiums and expected losses for the various
+state types. Several striking patterns emerge. (i) Insurance rates do not reflect risk : We
+expect insurers to charge higher rates in ZIP codes that have higher risks (i.e. higher expected
+losses). This pattern holds true in less regulated states: there is a strong positive relationship
+between rates and losses. In sharp contrast, rates and losses are weakly related in highly
+regulated states. In fact, consistent with pooled pricing, price dispersion is significantly lower
+in highly regulated states relative to less regulated states.
+(ii) Same risk different rates: For a given level of expected losses, rates are higher in
+less regulated states relative to highly regulated states. As illustration, consider ZIP codes
+28735 in Gerton, North Carolina (high friction state) and ZIP code 29651 in Greer, South
+Carolina (low friction state). The two ZIP codes are located 37 miles apart and have similar
+risk exposures with about $923 in expected losses per housing unit. However, the average
+premium in Greer is $1,039 and in Gerton is $778.
+(iii) Who subsidizes whom? Rates are least reflective of losses in high risk areas of high
+friction states, where rates also appear below losses. In contrast, rates appear well above
+losses in less regulated states for the most part of the distribution. Also, within highly
+regulated areas, while the rates in the riskiest areas appear below losses, rates appear more
+in line with risks in the lower risk areas. These facts suggest that the largest subsidies are
+going to the riskiest areas in high friction states, who are being subsidized by consumers in
+low friction states and by consumers in low risk areas of high friction states.
+These patterns strongly point to a disconnect between insurance rates and underlying
+risks across geographies in the U.S.. The fact that the disconnect is stronger in highly
+regulated states suggests that regulation drives these patterns. Moreover, the granular data
+confirm the earlier findings from the state level analysis.
+24
+
+Note that typically the top 15 insurers account for more than 75% of the market share, which suggests
+comprehensive data coverage.
+25
+We select a $300,000 coverage because the median sales price of houses sold in the U.S. was $327,100
+according to St. Louis Fed FRED data. To strip out the effects of expenses, we scale rates by 0.75 to account
+for the average insurers’ expense ratio.
+
+25
+
+4.1.2.
+
+Evidence from Long-Run Rates and Losses
+
+To test the extent to which the growth in rates reflects the growth in losses, we extend the
+single year ZIP-code analysis to multiple years for each state type. We begin by constructing
+an aggregate HO rate index for each state using the rate filings data. To do so, we aggregate
+the rate changes each insurer received in any given state and year to compute the average rate
+change for that state (∆Ratest ).26 We then construct the HO rate index, PsT , by growing
+rates in each state by ∆Ratest , i.e. PsT = ΠTt=2009 (1 + ∆Ratest ), where the rates in year 2008
+are set equal to 1 for all states. Panel (a) of Figure 6 shows the evolution of PsT for high
+friction states relative to all other states. In the last 10 years, rates have grown 4 percentage
+points slower in the average high friction state relative to the other states.
+The slower growth of rates in high friction states reflects regulatory frictions, especially
+since high friction states tend to be more exposed to climate losses (see Section 3.5) and
+thus should experience higher rate growth. To explicitly illustrate the disconnect between
+rates and risk, we ask how rates have changed relative to how losses have changed over a
+long time horizon. Specifically, we compute the growth in rates between 2008 and 2019,
+Πs = Ps2019 /Ps2008 , for each state. We scale the rate growth by the growth in climate losses
+per capita for each state, Γs , which we compute as the ratio of losses between 2008 and
+2019 relative to losses between 1997 and 2007. Losses per capita are in the log scale and are
+inflation adjusted. Thus, Γs measures the long-run growth in climate losses (in real terms)
+for each state and Πs /Γs measures how rates have increased relative to the long-run growth
+in climate losses.
+Figure 7 plots the relationship between our friction measure (F rictions ) and the ratio
+of growth in rates to the long-run growth in climate losses (Πs /Γs ). We uncover a strong
+negative relationship between the two variables. High friction states have experienced substantially lower growth in rates compared to the growth in losses. In contrast, states with
+low frictions have experienced an increase in rates that is several times the growth in losses
+in these states. These findings imply that regulation is a driving force behind insurance rates
+getting disjoint from the underlying risk exposures.
+4.1.3.
+
+Counterfactual Insurance Rates
+
+To quantify the impact of the regulatory frictions, we construct counterfactual rates in
+the absence of regulation by combining two thought experiments. First, we ask what the
+rate changes in low and medium friction states would have been if the spillovers in these
+states (due to out-of-state losses) were similar in magnitude as in high friction states?
+26
+
+To computeP
+∆Ratest , we weight the rate changes received by insurers’ market shares in the prior year,
+i.e. ∆Ratest = i Market Shareist−1 × Rate∆Receivedist .
+
+26
+
+To construct such counterfactual rate changes, we re-compute the rate changes for low
+and medium friction states by subtracting the additional spillover from actual rate changes,
+i.e. we subtract β L and β M (estimates from Table 5) times OSL. In other words, we impose
+that the sensitivity to out-of-state losses be at the same level for all types of states, whereas
+previously the sensitivities were significantly higher for low and medium states (see Section
+3.1). As a result, we shut down a significant portion of the rate growth in low and medium
+states that are due to OSL spillovers, which results in a lower rate growth for these states.
+Second, we ask what the rate changes in high friction states would have been if the extent
+of regulation in these states were same as in the low and medium friction states. To this
+end, we scale-up the rate changes received for high friction states each year by multiplying
+by a factor of 1.252, which is the ratio of the average rate wedge in low and medium friction
+states to that of high friction states. In other words, we impose that a similar fraction of
+target rate changes are approved and the degree of regulatory friction be at the same level
+for all state types. This props up the rate growth in high friction states.
+The effects of these two experiments are summarized in Panel (b) of Figure 6, which shows
+the evolution of the counterfactual price index, PsT , for high friction states relative to all
+other states. Two facts stand out. First, a comparison of the actual and counterfactual price
+indices for low and medium friction states across the two panels shows that rates would have
+grown 10 percentage points slower if we were to eliminate the effects of additional spillovers
+in low and medium friction states.27 Second, if we were to reduce the extent of regulation
+in high friction states, rates would have grown 13 percentage points more.28 In sum, while
+actual rates have grown 4 percentage points slower in high friction states (panel a), our
+estimates suggest that counterfactual rates would have instead grown 20 percentage points
+faster in high friction states (panel b) relative to the other states, in line with the differences
+in levels of climate risk.
+4.2.
+
+Insurance Availability
+
+It is conceivable that in response to these frictions, insurers respond by fully exiting or by not
+renewing policies in high friction states. If so, rate regulations may have detrimental effects
+on the availability of insurance for households and for the long-run survival of the insurance
+sector especially in states that are highly regulated but also most exposed to climate risk. We
+examine two measures of exits: (i) hard exits (insurers fully stop selling insurance in a given
+state) (ii) soft exits (insurers do not fully exit the state, but limit supply by terminating or
+27
+28
+
+The counterfactual price index would be 1.37 instead of the actual value of 1.47 in 2019.
+The counterfactual price index would be 1.56 instead of the actual value of 1.43 in 2019.
+
+27
+
+not renewing contracts).
+Hard exits: We first examine the extent to which insurers fully exit high friction states.
+In measuring exits, we only want to capture exits from a particular state, so we require that
+an insurer exits a particular state but continues to operate in at least one other state. We
+restrict attention to insurers that at least have 0.05% market share in a given state.29 Table
+C.7 documents the summary statistics. Exits are relatively rare, particularly amongst large
+insurers (i.e. insurers with at least 1% market share in a state).
+We next ask whether the tendency to exit is greater in high friction states. Because
+exits are rare, we collapse the data into a state × time panel. The outcome variable of
+interest is the fraction of insurers exiting a state (%Exits), defined as the total number of
+exits in a given state and year divided by the total number of insurers in the state. Table 11
+documents the main findings from estimating a cross-state regression of %Exits on a dummy
+variable for high friction states.30 Column (1) shows that high friction states experience more
+exits than low or medium friction states. Columns (2) and (3) show that large insurers are
+on average less likely to exit (the yearly likelihood is 0.17% for large vs. 0.44% for small
+insurers). Moreover, high friction states experience more exits due to small insurers exiting
+rather than large ones. Thus, despite restrictive rate-setting frictions, large insurers rarely
+choose to exit, which is consistent with them alleviating the rate-setting frictions differently,
+e.g., by cross-subsidizing more as the previous section shows.
+Soft exits: We next examine the extent to which insurers cancel or stop renewing existing contracts. We collect data on the fraction of existing policies cancelled or not renewed
+(henceforth terminations) from the NAIC’s Market Conduct Annual surveys, which are aggregated at a state year level and available from the year 2014. Overall, only 3.3% of total
+policies are terminated. However, high friction states experience 20 bps more terminations
+than low or medium friction states per year (Table 11 column (4)).
+Taken together, the evidence suggests that while households in high friction states have
+started experiencing worsening insurance availability, overall exits and terminations are still
+modest in magnitude.
+There could be several reasons why exits and terminations are infrequent. First, insurers
+commonly bundle products by offering discounts or combining deductibles for consumers
+purchasing several types of insurance from the same insurer (NAIC, 2021). Therefore, the
+returns to selling HO insurance not only includes profits from this line but also future
+revenues from other lines (e.g., auto insurance). Second, insurers may be under regulatory
+29
+
+We exclude insurers that have <0.05% market share as together they write a small fraction of total HO
+premiums but have the tendency to switch in and out of a state, which may lead to spurious findings.
+30
+We add time fixed effects to exploit the across state variation.
+
+28
+
+pressure to not terminate policies. Narratives from insurers suggest that they indeed fear
+retaliation by regulators who sometimes respond by being overtly strict in other lines of
+businesses. Third, there could be high direct costs associated with exiting and re-entering
+the market (e.g., reapplying for state licenses, rehiring brokers, reestablishing relationship
+with regulators). Finally, operating across geographies may provide diversification benefits.
+5.
+5.1.
+
+Mechanisms and Theory
+What Drives Cross-Subsidization?
+
+One of our main findings is that insurers cross-subsidize high friction states by increasing
+rates in low friction states. Underlying this cross-subsidization are two necessary conditions.
+First, exits from high friction states should be unattractive, as we discussed above. Second,
+and crucially, there should be some friction that prevents insurers’ optimization problem
+from being separable across regions as otherwise shocks in one region would not spillover
+to the others. Below we discuss several reasons why we may see a departure from region
+by region profit maximization. While identifying the precise reasons behind the spillovers
+is beyond the scope of the current paper, we provide suggestive evidence in support of the
+economic forces behind our main findings.
+5.1.1.
+
+Financing Frictions
+
+One natural candidate to relax separability across regions is financing constraints, e.g.,
+due to costly external finance. Capital constraints at the insurer level generates pricing
+spillovers because price adjustments are a way for insurers to relax these constraints through
+the firms’ internal capital markets. As a result, an insurer may choose rates in a way that
+sacrifices current economic profits and deviate from the benchmark case where the objective
+function is separable across regions. However, while this mechanism has been shown to
+generate economically meaningful pricing effects (Froot et al., 1995; Koijen and Yogo, 2015;
+Ge, 2020), we do not find much evidence for this channel with standard empirical proxies of
+financing constraints as discussed in Section 3.4.2.
+5.1.2.
+
+Learning about Expected Losses
+
+An alternate mechanism is that a shock to one region shifts the insurer’s estimates of
+expected losses in other regions, especially those that share similar risk characteristics. For
+example, if losses in CA are informative of future expected losses in VA then losses in CA
+change the insurer’s optimization problem in both states. This form of cross-state learning
+may underlie the observed cross-subsidization across states. However, we do not find strong
+29
+
+evidence in support of this mechanism. First, it is difficult to rationalize the absence of
+Low to Low spillovers under a learning hypothesis. Moreover, the degree of spillover is also
+similar whether or not we exclude losses from states that share similar risk characteristics
+and therefore should be more informative (see Section 3.4.1).
+5.1.3.
+
+Capital Market Pressure
+
+One could also deviate from the basic benchmark by focusing on managerial incentives
+shaped by capital market pressure. Since the profitability of insurers is subject to heavy
+scrutiny, large losses can induce insurers to myopically focus more on short-term profits
+(Stein, 1989). As a result, insurers may increase rates where they can easily do so (e.g., low
+friction states) in order to cater to such pressure at the expense of long-term profitability.
+Similarly, an insurer operating with a short-term profit margin target (e.g., earnings target)
+or a slow-moving “habit” in profits may also forego long-term profits and cross-subsidize
+across regions.31
+While clearly identifying the existence of this mechanism is beyond the scope, we provide
+suggestive evidence that capital market pressure could provide one potential explanation
+for the existence of rate spillovers. An insurer can either be owned by public or private
+shareholders (a stock insurance company) or by policyholders (a mutual insurance company).
+We thus split insurers into three groups – mutual, public-stock, and private-stock – and
+compare the degree of rate spillovers for the three sub-groups. Focusing on low friction
+states where spillovers are most prevalent, Table C.8 shows significant heterogeneity in the
+magnitude of the rate spillovers across the three sub-groups of insurers. Specifically, we find
+that the tendency to cross-subsidize is most pronounced for publicly traded stock companies,
+consistent with the narrative of capital market pressure. For example, relative to privatestock, public-stock companies are 12 times more responsive to out-of-state losses.
+5.1.4.
+
+Business Model
+
+Differences in business models may also potentially give rise to heterogeneity in the degree
+of rate spillovers. As Table C.8 shows, mutual insurers are highly responsive to out-of-state
+losses. For example, relative to private-stock, they are 7 times more responsive. This makes
+sense for at least two reasons. First, mutuals often purport greater degree of risk sharing
+and pooling of resources. Second, mutuals rely more heavily on debt financing (e.g., by
+increasing premiums) as they cannot access equity markets by design. As a result, mutuals
+31
+
+Based on earnings call transcripts, we observe persistent emphasis on profitability. For example, Progressive in 2014 says “ ...our target profit margins, which are also very important. We have shareholders
+that are – that own us because they know we are committed to growing as fast as you can. We are always
+going to do everything we can to make a profit, which is one of our core values.”
+
+30
+
+may be more prone to average cost pricing than otherwise similar stock companies.
+In the end, cross-subsidization is likely driven by a combination of the economic forces
+described above. While our empirical results very strongly point towards the existence of
+one or more such frictions, our central point is about distortions in who bears climate risk
+and it holds regardless of what the friction is. While our point is not to identify the precise
+mechanism, in the next section, we discuss how a simple model that nests several of these
+mechanisms can qualitatively match our empirical findings.
+5.2.
+
+Theory: A Brief Sketch of a Model of Insurance Rate-setting with Regulatory
+Frictions
+
+This section discusses one extension of the standard insurance pricing model that incorporates regulatory frictions and qualitatively matches our empirical results. Below, we briefly
+sketch the economic forces and the main insights, while Appendix D provides the full model.
+An insurer chooses the target rates in two regions that differ in the level of climate risk.
+These rates are then subject to regulatory approval in each region. We employ a general
+form of the insurer’s objective function that can nest several of the mechanisms described
+above. For example, one interpretation is consistent with the insurer maximizing a weighted
+sum of its short-term and long-term profits. As the weight depends on expected losses of
+both regions, a shock to any one region increases the weight the insurer places on short-term
+profits (e.g., due to capital market pressures). This then forces the insurer to re-optimize
+its rates across all the regions, thus generating rate spillovers from one region to the others.
+Importantly, the presence of regulation leads to an asymmetry in cross-subsidization with
+stronger spillovers from high to low regulated areas than the opposite.
+The model offers three important clarifications and insights. First, it addresses the question of why insurers did not increase rates in low friction states before losses even occurred
+if they could. The main idea is that insurers are not necessarily at the static optimum that
+simply maximizes the current-period profits. Instead, they are at the dynamic optimum
+maximizing both short- and long-term profits. As a result, in each equilibrium, rates are
+below the profit maximizing static equilibrium price. When losses occur and the weight
+towards short-term profits increases, insurers are forced to re-optimize: they increase rates
+and get closer to the static optimum price. In other words, losses in CA shift the equilibrium
+such that the new optimal price in VA, for example, is higher than before.
+Second, the model clarifies how regulatory strictness and the level of climate risk are related and when we can expect to see the positive relation observed in the data. In the model,
+the relation between strictness and risk stems from the regulator’s problem. Motivated by
+31
+
+how regulators describe their rate-setting process, we micro-found regulators as balancing
+two considerations. On one hand, she wants to keep rates high so that insurers do not exit
+the state. On the other hand, she would want to prevent rates deviating too much from the
+underlying losses, which prompts her to suppress rates. If the regulator places more weight
+on price fairness than exits, our model implies a positive relation between strictness and risk.
+Equally, however, the relation may flip direction as the regulator’s priorities shift.
+Finally, the model shows that in equilibrium target rate inflation can be sustained only
+to a limited extent since the regulator is sensitive to the gap between rates and risk and the
+insurer internalizes this knowledge in its pricing decision.
+6.
+
+Conclusion
+
+We study the rate-setting of homeowners’ insurance, a large and under-studied market that
+serves the important role of providing households and banks with financial protection against
+climate losses. In the U.S., insurance premiums (rates) are subject to extensive regulations
+at a state level. Using novel data on historical rate filings, we first quantify the extent
+of rate-setting frictions for individual states. This is helpful beyond the current paper as
+similar measures of regulatory strictness are generally unavailable. We provide evidence of
+a decoupling of insurance rates from the underlying risk and identify regulation as a driving
+force behind this phenomena. In states where regulations appear most restrictive, rates
+are least reflective of risks. We identify two sources behind the decoupling. First, in high
+friction states, insurers are restricted in their ability to change rates in response to losses.
+As a result, rates have not adequately adjusted in response to growth in losses. Second, to
+overcome these frictions, insurers cross-subsidize high friction states by raising rates in low
+friction states. As a result, and in contrast to high friction states, rates have outpaced the
+growth in losses in low friction states. Our estimates suggest that rates would have grown
+20 percentage points faster in high friction states relative to the other states in a scenario
+where all the states were similarly regulated and the rate spillovers were absent.
+Our findings point to distortions in how climate risk is shared across states, i.e. households in low friction states are disproportionately bearing the risks of households in high
+friction states. Our findings also question whether insurance rates can play a useful role
+in steering climate adaptation. In many insurance markets (e.g., health), consumers likely
+have an informational advantage over insurers. In HO insurance, however, the informational
+advantage is likely reversed: insurers have access to better technology, data, and models
+to forecast risks compared to households.32 In that sense, insurance rates can both inform
+32
+
+Big data trends reverse the informational advantage towards insurers (Brunnermeier et al., 2021).
+
+32
+
+households about their local risks and provide incentives for the insured to take risk mitigation measures (e.g., by investing in disaster-resilient home features or migrating to a safer
+region). When rates no longer reflect risks, the informational role of insurance rates breaks
+down. Moreover, it also potentially gives rise to a moral hazard problem and ultimately
+prevent insurance rates from playing a critical role in risk mitigation. Anecdotal evidence
+also suggests that the availability of cheap insurance is one of the reasons why high risk areas
+have experienced disproportionate increase in construction and real estate development.33
+By making society less resilient to climate risk, such developments may exacerbate climate
+losses and cause substantial long-run damage to livelihoods.
+Our findings also have implications for long-term insurance availability and for the stability of the insurance sector. Policymakers view a healthy insurance sector as a front-line
+defense against climate risk and key for preserving financial stability (Deloitte, 2019). However, over the long-run, rate-setting frictions could make insurers less prepared to deal with
+large losses and insurers may respond by exiting markets altogether or dropping important
+product features. A sudden wave of property losses can bring a strain on the economy directly through loss of property and employment, and also indirectly through lack of financial
+intermediation. These issues call into question the sustainability of the current regulatory
+system, especially in the face of the growing challenges posed by climate change.
+
+33
+
+See, e.g., the following news article from the Wall Street Journal (October 2020).
+
+33
+
+References
+Agarwal, S., S. Chomsisengphet, N. Mahoney, and J. Stroebel (2015). Regulating consumer financial products: Evidence from credit cards. The Quarterly Journal of Economics 130 (1), 111–164.
+Autor, D. H., C. J. Palmer, and P. A. Pathak (2014). Housing market spillovers: Evidence from the end of rent control in Cambridge, Massachusetts. Journal of Political
+Economy 122 (3), 661–717.
+Baldauf, M., L. Garlappi, and C. Yannelis (2020). Does climate change affect real estate
+prices? Only if you believe in it. The Review of Financial Studies 33 (3), 1256–1295.
+Bar-Gill, O. and E. Warren (2008, nov). Making Credit Safer. University of Pennsylvania
+Law Review 157 (1).
+Barbu, A. (2021). Ex-post loss sharing in consumer financial markets.
+Battiston, S., A. Mandel, I. Monasterolo, F. Schütze, and G. Visentin (2017, apr). A climate
+stress-test of the financial system. Nature Climate Change 7 (4), 283–288.
+Ben-Shahar, O. and K. D. Logue (2016). The perverse effects of subsidized weather insurance.
+Stanford Law Review 68 (3), 571–626.
+Bernstein, A., S. Billings, M. T. Gustafson, and R. Lewis (2021). Partisan Residential Sorting
+on Climate Change Risk. Journal of Financial Economics (forthcoming).
+Bernstein, A., M. T. Gustafson, and R. Lewis (2019). Disaster on the horizon: The price
+effect of sea level rise. Journal of Financial Economics 134 (2), 253–272.
+Brunnermeier, M., R. Lamba, and C. Segura-Rodriguez (2021). Inverse selection.
+Campbell, J. Y., S. Giglio, and P. Pathak (2011, aug). Forced sales and house prices.
+American Economic Review 101 (5), 2108–2131.
+Curien, N. (1991). The theory and measure of cross-subsidies. An application to the telecommunications industry. International Journal of Industrial Organization 9 (1), 73–108.
+Deloitte (2019). Climate risk: Regulators sharpen their focus. Technical report.
+Egan, M., S. Ge, and J. Tang (2021). Conflicting interests and the effect of fiduciary duty:
+Evidence from variable annuities.
+34
+
+Engle, R. F., S. Giglio, B. Kelly, H. Lee, and J. Stroebel (2020). Hedging climate change
+news. The Review of Financial Studies 33 (3), 1184–1216.
+Ericson, K. M. and A. Starc (2015, jul). Pricing regulation and imperfect competition on
+the massachusetts health insurance exchange. Review of Economics and Statistics 97 (3),
+667–682.
+Faulhaber, G. (1975). Cross-subsidization: pricing in public enterprises. The American
+Economic Review 65 (5), 966–977.
+Finkelstein, A., Poterba James, and C. Rothschild (2009). Redistribution by insurance
+market regulation: Analyzing a ban on gender-based retirement annuities. Journal of
+Financial Economics 91, 38–58.
+Froot, K. A., B. S. Murphy, A. B. Stern, and S. E. Usher (1995). The emerging asset class:
+Insurance risk. Viewpoint 24 (3), 19–28.
+Froot, K. A. and P. G. O’Connell (1999). The pricing of U.S. catastrophe reinsurance. In
+K. A. Froot (Ed.), The Financing of Catastrophe Risk, Chapter 5, pp. 195–232. University
+of Chicago Press.
+Ge, S. (2020). How do financial constraints affect product pricing? Evidence from weather
+and life insurance premiums. Journal of Finance [Forthcoming] .
+Gennaioli, N., R. L. Porta, F. Lopez-De-Silanes, and A. Shleifer (2021). Trust and insurance
+contracts. The Review of Financial Studies [Forthcoming] .
+Gilchrist, S., R. Schoenle, J. Sim, and E. Zakrajšek (2017). Inflation dynamics during the
+financial crisis. American Economic Review 107 (3), 785–823.
+Goldsmith-Pinkham, P., M. T. Gustafson, R. C. Lewis, and M. Schwert (2020). Sea level
+rise exposure and municipal bond yields.
+Honka, E. (2014). Quantifying search and switching costs in the US auto insurance industry.
+The RAND Journal of Economics 45 (4), 847–884.
+Hurst, E., B. J. Keys, A. Seru, and J. Vavra (2016). Regional redistribution through the US
+mortgage market. American Economic Review 106 (10), 2982–3028.
+Issler, P., R. H. Stanton, C. Vergara-Alert, and N. E. Wallace (2020). Mortgage markets
+with climate-change risk: evidence from wildfires in California.
+
+35
+
+Kacperczyk, M. T. and J.-L. Peydró (2021). Carbon emissions and the bank-lending channel.
+Available at SSRN 3974987 .
+Klemperer, P. (1995). Competition when consumers have switching costs: An overview with
+applications to industrial organization, macroeconomics, and international trade. The
+Review of Economic Studies 62 (4), 515–539.
+Koijen, R. S. and M. Yogo (2015). The cost of financial frictions for life insurers. American
+Economic Review 105 (1), 445–475.
+Koijen, R. S. and M. Yogo (2016). Shadow Insurance. Econometrica 84 (3), 1265–1287.
+Krueger, P., Z. Sautner, and L. T. Starks (2020, mar). The importance of climate risks for
+institutional investors. The Review of Financial Studies 33 (3), 1067–1111.
+Kruttli, M., B. Tran, and S. Watugala (2019). Pricing poseidon: Extreme weather uncertainty and firm return dynamics.
+Leverty, J. T. and M. F. Grace (2018, nov). Do elections delay regulatory action? Journal
+of Financial Economics 130 (2), 409–427.
+Liu, J. and W. Liu (2020). The effect of political frictions on long-term care insurance.
+Lustig, H. and S. Van Nieuwerburgh (2010). How much does household collateral constrain
+regional risk sharing? Review of Economic Dynamics 13 (2), 265–294.
+Murfin, J. and M. Spiegel (2020). Is the risk of sea level rise capitalized in residential real
+estate? The Review of Financial Studies 33 (3), 1217–1255.
+NAIC (1945). National Association of Insurance Commissioners (NAIC) Annual Conference
+Proceedings. Conference Proceedings.
+NAIC (2020). Minutes - property and casualty insurance (c) committee.
+NAIC (2021). Bundling.
+Nelson, S. (2020). Private information and price regulation in the us credit card market.
+Oh, S. S. (2020). Social inflation.
+Ouazad, A. and M. E. Kahn (2021). Mortgage finance and climate change: Securitization
+dynamics in the aftermath of natural disasters. The Review of Financial Studies, 1–49.
+
+36
+
+Papoutsi, M., M. Piazzesi, and M. Schneider (2021). How unconventional is green monetary
+policy. JEEA-FBBVA Lecture at the ASSA (January 2021).
+R-Street (2018). Insurance regulation report card. R Street Policy Study No. 163 .
+Schlesinger, H. and J.-M. G. Von der Schulenburg (1991). Search costs, switching costs and
+product heterogeneity in an insurance market. Journal of Risk and Insurance, 109–119.
+Scott, M., J. van Huizen, and C. Jung (2017). The Bank of England’s response to climate
+change. Technical report, Bank of England Quarterly Bulletin 2017 Q2.
+Sen, I. (2021). Regulatory limits to risk management. The Review of Financial Studies
+[Forthcoming] .
+Sen, I. and D. Humphry (2018). Capital regulation and product market outcomes. Bank of
+England Working Paper No. 715 .
+Sen, I. and V. Sharma (2020). Internal Models, Make Believe Prices, and Bond Market
+Cornering. Harvard Business School Working Paper .
+Simon, K. I. (2005, sep). Adverse selection in health insurance markets? Evidence from state
+small-group health insurance reforms. Journal of Public Economics 89 (9-10), 1865–1877.
+Stein, J. C. (1989). Efficient capital markets, inefficient firms: A model of myopic corporate
+behavior. The Quarterly Journal of Economics 104 (4), 655–669.
+Tenekedjieva, A.-M. (2021). The revolving door and insurance solvency regulation.
+Tennyson, S. L. (2011). Efficiency consequences of rate regulation in insurance markets.
+Technical Report March 2007, Networks Financial Institute at Indiana State University.
+Wagner, K. R. (2021). Adaptation and adverse selection in markets for natural disaster
+insurance.
+
+37
+
+Figures
+Figure 1: Decoupling of insurance rates from risk
+The figure shows the binscatter of annual insurance rates and annual expected losses per housing unit at
+the zip code-level across high friction states and the non-high friction states. The insurance rates are for
+2019 obtained from Insure.com for a policy with $300,000 dwelling coverage, $1000 deductible, and $100,000
+liability for a consumer with an excellent credit score. The construction of the expected losses is detailed in
+Appendix B.4.
+
+(b) Low and Medium Friction
+
+(a) High Friction
+
+38
+
+Figure 2: Distribution of Rate Wedge
+The figure shows the distribution of Rate Wedge, which is defined as the ratio of rate change received to the
+target rate change. The Y-axis shows the fraction of total rate filings. The data are from insurance product
+filings accessed through S&P MI.
+
+39
+
+Figure 3: Underwriting profitability by state types
+The figure shows the distribution of the average loss ratio, defined as the ratio of losses to premiums, for the
+year 2019 for high, medium and low friction states. Loss ratio is a standard actuarial measure of insurers’
+underwriting profitability. The error bars are the 95% confidence intervals. The data are from insurance
+statutory filings accessed through S&P MI.
+
+40
+
+Figure 4: Market competition by state types
+This figure shows the the distribution of two measures of competition for high, medium, and low friction
+states. Panel (a) shows the ratio of premiums sold by single-state insurers in each state. Panel (b) shows
+the Herfindahl–Hirschman index (HHI) in each state. The data are from insurance statutory filings accessed
+through S&P MI.
+
+Panel (a): Fraction of premiums sold by single-state insurers
+
+Panel (b): Herfindahl–Hirschman index (HHI)
+
+41
+
+Figure 5: Regulatory frictions and climate losses
+The figure shows F rictions , estimated as in Equation (2), and the average climate losses per capita over the
+period 2009 to 2019. The data on climate losses are from SHELDUS and refer to damages to properties.
+We exclude losses from flood as flood losses are not covered by homeowners’ insurance. Climate losses are
+inflation adjusted and are shown in 2018 dollars. The blue line is a fitted line from the following linear
+regression: log Property per caps = α + βFrictions + s .
+
+42
+
+Figure 6: Long-run growth in insurance rates
+The figure shows the aggregate homeowners’ rate index from 2008 to 2019 for the different state types. In Panel (a), we construct the HO rate index,
+PsT , by growing rates in each state by ∆Ratest , where ∆Ratest refers to the weighted average rate change for that state (see Section 4.1.2). Rates in
+year 2008 are set equal to 1 for all states. The figure shows the evolution of PsT for high friction states relative to all other states. In Panel (b), we
+construct a counterfactual rate index in a scenario where all the states were similarly regulated and the rate spillovers were absent. See Section 4.1.2
+for details. The data are from insurance product filings accessed through S&P MI.
+
+Panel (a): Actual rate growth
+
+Panel (b): Counterfactual rate growth
+
+43
+
+Figure 7: Decoupling of insurance rates from risk: long-run evidence
+The figure shows F rictions , estimated as in Equation (2), and the ratio of how rates have increased relative
+to the long-run growth in climate losses in each state. We compute the growth of rates between 2008 and
+2019, Ps,2019 /Ps,2008 . We scale the rate growth by growth in climate losses per capita, which we compute
+as the ratio of losses between 2008 to 2019 relative to losses between 1997 to 2007. Losses per capita are
+in log scale and are inflation adjusted. The blue line is a fitted line through the scatter plot using a linear
+regression. The data on climate losses are from SHELDUS. The data on insurance product filings are from
+S&P MI.
+
+44
+
+Tables
+Table 1: Summary statistics
+The table presents summary statistics on the main analysis sample. Variable descriptions are as follows.
+Rate filings: Any Filings refers to whether an insurer filed for a rate change in a given state and year.
+Rate∆Target and Rate∆Received are the rate change targeted and received by an insurer in a given state
+and year. These two variables are populated only conditional on filing. These data are at an insurer × state
+× year level. We report statistics on the full sample from 2009 to 2019. Underwriting operations: Premiums
+refer to the total amount of insurance sold. Losses refer to the total claims insurers pay to consumers if an
+insured event takes place. Loss ratio is the ratio of losses to premiums sold. These data are at an insurer
+× state × year level. We report statistics for the year 2019. Financial statements: We report loss ratio for
+non-homeowners’ lines. Net assets is total assets of the insurer. RBC ratio is the ratio of total available
+capital to total required capital. Reinsurance ratio is the fraction of premiums reinsured. N states is the
+number of states insurers sell HO insurance in. These data are at an insurer × year level. We report statistics
+for the year 2019.
+
+N
+
+Mean
+
+SD
+
+10th
+
+25th
+
+50th
+
+75th
+
+90th
+
+Any Filings
+
+17980
+
+0.70
+
+0.46
+
+0.00
+
+0.00
+
+1.00
+
+1.00
+
+1.00
+
+Rate∆Target (%)
+
+12563
+
+15.60
+
+15.97
+
+0.00
+
+5.20
+
+11.70 21.44 35.59
+
+Rate∆Received (%)
+
+12563
+
+5.85
+
+5.55
+
+0.00
+
+2.03
+
+5.00
+
+Premium (homeowners, $M)
+
+1530
+
+39.03
+
+95.72
+
+1.90
+
+4.95
+
+13.01 33.53 79.77
+
+Loss (homeowners, $M)
+
+1530
+
+22.39
+
+62.11
+
+0.80
+
+2.54
+
+6.55 17.62
+
+46.87
+
+Loss ratio (homeowners)
+
+1530
+
+0.57
+
+0.31
+
+0.30
+
+0.40
+
+0.52
+
+0.66
+
+0.86
+
+Loss ratio (non-homeowners)
+
+253
+
+0.60
+
+0.15
+
+0.49
+
+0.54
+
+0.58
+
+0.64
+
+0.71
+
+Net assets ($B)
+
+253
+
+2.86
+
+7.33
+
+0.07
+
+0.13
+
+0.33
+
+1.75
+
+6.79
+
+RBC ratio (logged)
+
+253
+
+6.58
+
+0.55
+
+5.92
+
+6.18
+
+6.57
+
+6.91
+
+7.24
+
+Reinsurance ratio
+
+253
+
+0.18
+
+0.25
+
+0.00
+
+0.01
+
+0.08
+
+0.22
+
+0.51
+
+N states a firm sells homeowners
+
+253
+
+14.62
+
+16.04
+
+2.00
+
+3.00
+
+7.00
+
+21.00 45.80
+
+Rate filings (2009-2019):
+
+8.70 12.86
+
+Underwriting operations (2019):
+
+Financial statements (2019):
+
+45
+
+Table 2: Rate Wedge predicts future losses
+The table presents the results from estimating Equation (3). Underwiting profitist equals 1-Loss Ratioist ,
+where Loss Ratio is the ratio of losses to premiums. Frictionist−1 = 1−Rate Wedgeist−1 measures how far
+from the rate target the received rate is for insurer i in state s in the prior year. All regressions include
+insurer-year and filing state-year fixed effects. We start with our main sample as detailed in Appendix B.2
+prior to the final exclusion of insurers selling in a single state. Note also that we restrict attention to
+observations where a filing was observed. The panel in column (1) includes all states, while in columns (2),
+(3) and (4) is restricted to the filing state being a high, medium or low friction state. Standard errors are
+shown in parentheses, clustered at the state level
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Underwriting profitist
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+−0.013∗∗∗
+
+−0.017∗
+
+−0.018∗∗
+
+−0.005
+
+(0.004)
+
+(0.009)
+
+(0.007)
+
+(0.007)
+
+State type
+
+All
+
+High
+
+Medium
+
+Low
+
+Controls
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Observations
+
+10,933
+
+3,235
+
+4,348
+
+3,350
+
+Frictionist−1
+
+46
+
+Table 3: Rate-setting response to same-state losses
+The table presents the results from estimating Equation (4). The dependent variables are: in column (1)
+whether a rate change is filed and in column (2) conditional on filing, the gap between the rate change
+received relative to insurers’ target rate change, for insurer i in state s and year t. The independent variable
+is Same-State Losses (SSL), i.e. losses experienced by an insurer in the state in which it has made the
+rate filing. SSLs are lagged one year and scaled by the total premium sold in the filing state. The indicator
+variables Meds and Lows equal 1 if the filing state s is, correspondingly, a medium or a low friction state. All
+regressions control for log assets, log RBC ratio, loss ratio of all other (non-homeowners’) lines of business,
+and the percent of premiums reinsured for insurer i in year t. The results pertain to our main sample as
+detailed in Appendix B.2 prior to the final exclusion of insurers selling in a single state. Note also that in
+column (2) we restrict attention to observations where a filing was observed, and therefore the sample is
+smaller. All regressions include insurer-year and filing state-year of submission fixed effects. Standard errors
+are shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Any Filingsist
+
+Received - Targetist
+
+(1)
+
+(2)
+
+−0.011
+
+−8.902∗∗∗
+
+(0.026)
+
+(2.044)
+
+0.044
+
+0.877
+
+(0.030)
+
+(2.801)
+
+0.100∗∗∗
+
+5.381∗∗
+
+(0.035)
+
+(2.584)
+
+E[LHS]
+
+0.71
+
+-9.66
+
+State type
+
+All
+
+All
+
+Controls
+
+Yes
+
+Yes
+
+State × Year Fixed Effects
+
+Yes
+
+Yes
+
+Insurer × State Fixed Effects
+
+Yes
+
+Yes
+
+Observations
+
+19,308
+
+10,634
+
+SSList−1
+
+SSList−1 × Meds
+
+SSList−1 × Lows
+
+47
+
+Table 4: Asymmetry in rate spillovers: filing decision
+The table presents the results from estimating Equation (5). The dependent variable is whether a rate
+change is filed by insurer i in the filing state s and year t. The independent variable of interest is an insurer’s
+“out-of-state” losses (OSL) in the prior year. To compute OSL, we sum an insurer’s losses in all the states
+it operates in other than the filing state s, which we scale by total premiums sold in all states except s. The
+indicator variables Meds and Lows equal 1 if the filing state s is, correspondingly, a medium or a low friction
+state. The results pertain to our main sample as detailed in Appendix B.2. The panels in columns (1) and
+(5) include all states, while in columns (2), (3) and (4) are restricted to the filing state being a high, medium
+or low friction state. All regressions control for same state losses, log assets, log RBC ratio, loss ratio of all
+other (non-homeowners’) lines of business, and the percent of premiums reinsured for insurer i in year t. All
+regressions include insurer-filing state and filing state-year of submission fixed effects. Standard errors are
+shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Any Filingsist
+
+OSList−1
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+0.027∗
+
+−0.004
+
+0.013
+
+0.151∗∗∗
+
+−0.006
+
+(0.015)
+
+(0.022)
+
+(0.012)
+
+(0.033)
+
+(0.021)
+
+OSList−1 × Meds
+
+0.019
+(0.025)
+0.162∗∗∗
+
+OSList−1 × Lows
+
+(0.041)
+
+E[LHS]
+
+0.7
+
+0.7
+
+0.8
+
+0.7
+
+0.7
+
+State type
+
+All
+
+High
+
+Medium
+
+Low
+
+All
+
+Controls
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Observations
+
+17,980
+
+5,656
+
+6,231
+
+6,093
+
+17,980
+
+48
+
+Table 5: Asymmetry in rate spillovers: rate change received
+The table presents the results from estimating Equation (5). The dependent variable is the size of the
+received change of insurer i in the filing state s and year t. If no filing was made, the received change is 0.
+The independent variable of interest is an insurer’s “out-of-state” losses (OSL) in the prior year. To compute
+OSL, we sum an insurer’s losses in all the states it operates in other than the filing state s, which we scale by
+total premiums sold in all states except s. The indicator variables Meds and Lows equal 1 if the filing state
+s is, correspondingly, a medium or low friction state. The results pertain to our main sample as detailed in
+Appendix B.2. The panels in columns (1) and (5) include all states, while in columns (2), (3) and (4) are
+restricted to the filing state being a high, medium or low friction state. All regressions control for same state
+losses, log assets, log RBC ratio, loss ratio of all other (non-homeowners’) lines of business, and the percent
+of premiums reinsured for insurer i in year t. All regressions include insurer-filing state and filing state-year
+of submission fixed effects. Standard errors are shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Rate∆Receivedist
+
+OSList−1
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+0.632∗∗∗
+
+0.085
+
+0.758∗∗
+
+1.709∗∗∗
+
+0.075
+
+(0.212)
+
+(0.196)
+
+(0.350)
+
+(0.487)
+
+(0.193)
+0.693∗
+
+OSList−1 × Meds
+
+(0.401)
+1.604∗∗∗
+
+OSList−1 × Lows
+
+(0.528)
+
+E[LHS]
+
+3.7
+
+3.4
+
+4.5
+
+3.3
+
+3.7
+
+State type
+
+All
+
+High
+
+Medium
+
+Low
+
+All
+
+Controls
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Observations
+
+17,980
+
+5,656
+
+6,231
+
+6,093
+
+17,980
+
+49
+
+Table 6: Asymmetry in rate spillovers: splitting out-of-state losses by state type
+The table presents the results from estimating Equation (6), where out-of-state losses are split in three
+groups: high, medium, and low friction. The dependent variables are: in column (1) whether a rate change
+is filed and in column (2) the size of the received change of insurer i in the filing state s and year t. If no
+filing was made, the received change is 0. The main independent variable is insurer’s “out-of-state” losses
+(OSL) in the prior year, which we split into losses coming from high (OSLH ), medium (OSLM ), low (OSLL )
+friction states, scaled by total out-of-state premiums from all states. The results pertain to our main sample
+as detailed in Appendix B.2. All regressions control for same state losses, log assets, log RBC ratio, loss
+ratio of all other (non-homeowners’) lines of business, and the percent of premiums reinsured for insurer i in
+year t. The panel is limited to low friction filing states. All regressions include insurer-filing state and filing
+state-year of submission fixed effects. Standard errors are shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Any Filingsist
+
+Rate∆Receivedist
+
+(1)
+
+(2)
+
+0.222∗∗∗
+
+2.931∗∗∗
+
+(0.057)
+
+(0.752)
+
+0.275∗∗∗
+
+2.546∗∗∗
+
+(0.067)
+
+(0.633)
+
+0.055
+
+0.681
+
+(0.148)
+
+(2.326)
+
+E[LHS]
+
+0.7
+
+3.3
+
+State type
+
+Low
+
+Low
+
+Controls
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Observations
+
+6,093
+
+6,093
+
+OSLH
+ist−1
+
+OSLM
+ist−1
+
+OSLList−1
+
+50
+
+Table 7: Product filings in response to out-of-state losses
+The table presents the results from estimating Equation (5). The dependent variable is whether a rule
+change is filed by insurer i in the filing state s and year t. The independent variable of interest is an insurer’s
+“out-of-state” losses (OSL) in the prior year. To compute OSL, we sum an insurer’s losses in all the states
+it operates in other than the filing state s, which we scale by total premiums sold in all states except s. The
+indicator variables Meds and Lows equal 1 if the filing state s is, correspondingly, a medium or low friction
+state. The results pertain to our main sample as detailed in Appendix B.2. The panels in columns (1) and
+(5) include all states, while in columns (2), (3) and (4) are restricted to the filing state being a high, medium
+or low friction state. All regressions control for same state losses, log assets, log RBC ratio, loss ratio of all
+other (non-homeowners’) lines of business, and the percent of premiums reinsured for insurer i in year t. All
+regressions include insurer-filing state and filing state-year of submission fixed effects. Standard errors are
+shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Any Rule Filingsist
+
+OSList−1
+
+(1)
+
+(2)
+
+0.006
+
+−0.007
+
+(0.009)
+
+(0.012)
+
+(3)
+
+(4)
+
+(5)
+
+0.001
+
+0.051
+
+−0.007
+
+(0.008)
+
+(0.048)
+
+(0.012)
+
+OSList−1 × Meds
+
+0.009
+(0.014)
+
+OSList−1 × Lows
+
+0.058
+(0.049)
+
+E[LHS]
+
+0.7
+
+0.6
+
+0.7
+
+0.7
+
+0.7
+
+State type
+
+All
+
+High
+
+Medium
+
+Low
+
+All
+
+Controls
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Observations
+
+17,980
+
+5,656
+
+6,231
+
+6,093
+
+17,980
+
+51
+
+Table 8: Heterogeneity in rate spillovers: by single-state insurers
+The table presents the results from estimating Equation (5) separately, where we split low friction states
+into two groups, above median (H) and below median (L), by the share of premiums sold by single-state
+insurers. As high and medium friction states are not split further, the control group remains the same as
+prior tables, i.e. all high and medium friction states. Dependent variables are denoted at the top of the
+table. The independent variable of interest is an insurer’s “out-of-state” losses (OSL) in the prior year. To
+compute OSL, we sum an insurer’s losses in all the states it operates in other than the filing state s, which
+we scale by total premiums sold in all states except s. The indicator variables Meds and Lows equal 1 if
+the state s is, correspondingly, a medium or a low friction state. The results pertain to our main sample as
+detailed in Appendix B.2. All regressions control for same state losses, log assets, log RBC ratio, loss ratio
+of all other (non-homeowners’) lines of business, and the percent of premiums reinsured for insurer i in year
+t. All regressions include insurer-filing state and filing state-year of submission fixed effects. Standard errors
+are shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Any Filingsist
+
+Rate∆Receivedist
+
+(1)
+
+(2)
+
+−0.005
+
+−0.007
+
+0.079
+
+0.072
+
+(0.021)
+
+(0.021)
+
+(0.194)
+
+(0.192)
+
+0.019
+
+0.019
+
+0.691∗
+
+0.694∗
+
+(0.025)
+
+(0.025)
+
+(0.402)
+
+(0.401)
+
+0.091∗∗
+
+0.250∗∗∗
+
+0.899∗∗
+
+2.434∗∗
+
+(0.036)
+
+(0.058)
+
+(0.427)
+
+(0.941)
+
+Single State Insurers
+
+H
+
+L
+
+H
+
+L
+
+Controls
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Observations
+
+14,620
+
+15,247
+
+14,620
+
+15,247
+
+OSList−1
+
+OSList−1 × Meds
+
+OSList−1 × Lows
+
+52
+
+(3)
+
+(4)
+
+Table 9: Learning about similar risks
+The table presents the results from estimating Equation (5). Dependent variables are denoted at the top
+of the table. The main independent variable is insurer’s “out-of-zone” losses (OZL) in the prior year. To
+compute OZL, we sum an insurer’s losses occurring outside (i) the filing state s and (ii) the same geographical
+region of s. We scale the losses by total premiums sold in the corresponding states. We use geographical
+regions from S&P MI, which are listed in Table C.6. The indicator variables Meds and Lows equal 1 if
+the state s is, correspondingly, a medium or low friction state. The results pertain to our main sample as
+detailed in Appendix B.2. Furthermore, we require that each insurer sells in at least one non-neighboring
+state and the total premium sold outside its zone is over $100,000. All regressions control for same state
+losses, log assets, log RBC ratio, loss ratio of all other (non-homeowners’) lines of business, and the percent
+of premiums reinsured for insurer i in year t. All regressions include insurer-filing state and filing state-year
+of submission fixed effects. Standard errors are shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Any Filingsist
+
+Rate∆Receivedist
+
+(1)
+
+(2)
+
+OZList−1
+
+0.027
+
+0.238
+
+(0.034)
+
+(0.256)
+
+−0.002
+
+0.746∗
+
+(0.042)
+
+(0.400)
+
+0.122∗∗
+
+1.189∗∗
+
+(0.054)
+
+(0.588)
+
+E[LHS]
+
+0.7
+
+3.8
+
+Controls
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Observations
+
+15,796
+
+15,796
+
+OZList−1 × Meds
+
+OZList−1 × Lows
+
+53
+
+Table 10: Heterogeneity in rate spillovers: by financing frictions
+The table presents the results from estimating Equation (7). Dependent variables are denoted at the top
+of the table. The independent variable of interest is an insurer’s “out-of-state” losses (OSL) in the prior
+year. To compute OSL, we sum an insurer’s losses in all the states it operates in other than the filing state
+s, which we scale by total premiums sold in all states except s. The indicator variables Meds and Lows
+equal 1 if the state s is, correspondingly, a medium or a low friction state. Constri,t−2 is 1 if insurer i is
+financially constrained according to the following definitions: below the median net assets in columns (1)
+and (4); RBC ratio in columns (2) and (5); capital to assets ratio in columns (3) and (6) in the year t − 2. All
+regressions control for same state losses, log assets, log RBC ratio, loss ratio of all other (non-homeowners’)
+lines of business, and the percent of premiums reinsured for insurer i in year t. The results pertain to our
+main sample as detailed in Appendix B.2. All regressions include insurer-filing state and filing state-year of
+submission fixed effects. Standard errors are shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01)
+
+Any Filingsist
+
+OSList−1
+
+OSList−1 × Meds
+
+OSList−1 × Lows
+
+OSList−1 × Constrit−2
+
+OSList−1 × Meds × Constrit−2
+
+OSList−1 × Lows × Constrit−2
+
+Rate∆Receivedist
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+−0.003
+
+0.014
+
+0.026
+
+0.193
+
+0.507
+
+0.340
+
+(0.020)
+
+(0.029)
+
+(0.032)
+
+(0.187)
+
+(0.411)
+
+(0.302)
+
+0.011
+
+−0.013
+
+−0.002
+
+0.627
+
+0.171
+
+0.100
+
+(0.025)
+
+(0.036)
+
+(0.036)
+
+(0.493)
+
+(0.529)
+
+(0.454)
+
+0.183∗∗∗
+
+0.138∗∗∗
+
+0.156∗∗∗
+
+1.735∗∗∗
+
+1.428∗
+
+1.061∗
+
+(0.039)
+
+(0.045)
+
+(0.046)
+
+(0.546)
+
+(0.730)
+
+(0.550)
+
+−0.026
+
+−0.024
+
+−0.038
+
+−0.985∗
+
+−0.492
+
+−0.307
+
+(0.043)
+
+(0.024)
+
+(0.026)
+
+(0.519)
+
+(0.398)
+
+(0.291)
+
+0.041
+
+0.039
+
+0.022
+
+0.822
+
+0.607
+
+0.749∗
+
+(0.050)
+
+(0.027)
+
+(0.027)
+
+(0.647)
+
+(0.436)
+
+(0.381)
+
+−0.038
+
+0.028
+
+0.002
+
+0.302
+
+0.151
+
+0.674∗∗
+
+(0.056)
+
+(0.040)
+
+(0.035)
+
+(0.615)
+
+(0.526)
+
+(0.335)
+
+E[LHS]
+
+0.7
+
+0.7
+
+0.7
+
+3.7
+
+3.7
+
+3.7
+
+Firm Constraint
+
+net A
+
+RBC
+
+K/A
+
+net A
+
+RBC
+
+K/A
+
+Controls
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Observations
+
+17,980
+
+17,980
+
+17,980
+
+17,980
+
+17,980
+
+17,980
+
+54
+
+Table 11: Exits and contract terminations
+The table presents the results from estimating the following regression: Yst = βHighs + Xs + αt + st . The
+variable of interest Highs is 1 for high friction states. The dependent variable is: in columns (1) to (3)
+the percent of insurers in state s and year t that choose to exit the state. The years of observation are
+2009 to 2019 and data source is S&P MI. In column (4) the fraction of existing policies cancelled or not
+renewed. The data are from NAIC’s Market Conduct Annual surveys, available from the year 2014. Column
+(1) shows all insurers, (2) shows large insurers (market share above 1%), and (3) shows small insurers. All
+regressions control for each state’s 2019 median household income, percent of population that is black or
+Hispanic (S&P Geographic Intelligence), percent of the state’s GDP from insurance (BEA), and average
+percentage of republican vote in the presidential elections of 2012, 2016 and 2020. We also control for the
+log sum of all HO insurers’ net assets in each state and year and the average of all HO insurers’ RBC ratio
+in each state and year (S&P MI). Standard errors are shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01)
+
+% Exits
+
+% Exits (Large)
+
+% Exits (Small)
+
+Terminations
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+0.108∗∗∗
+
+0.047
+
+0.194∗
+
+0.201∗∗∗
+
+(0.025)
+
+(0.065)
+
+(0.099)
+
+(0.064)
+
+E[LHS]
+
+0.28
+
+0.17
+
+0.44
+
+3.26
+
+Insurer Controls
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+High
+
+State Controls
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Year Fixed Effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Observations
+
+510
+
+510
+
+509
+
+290
+
+55
+
+Appendix
+Appendix A provides additional institutional details regarding Homeowners’ insurance as
+well as anecdotal evidence on rate regulation. Appendix B.1 contains additional details on the
+rate filings data, the construction of our main sample, alternative construction of the friction
+measure, and construction of the data for the ZIP code-level evidence. In Appendix C, we
+provide additional figures and tables for each section:
+• Institutional Background: Figures C.1 - C.2
+• Data and Measurement: Figure C.3, Tables C.1 - C.2
+• Regulation and Cross-Subsidization: Figures C.4 - C.7, Tables C.3 - C.8
+In Appendix D, we provide a simple model of insurer rate-setting with regulatory frictions
+and the accompanying proofs.
+
+56
+
+A.
+
+Institutional Background
+A.1.
+
+Homeowners’ insurance
+
+Figure A.1: Losses from climate disasters in the U.S.
+The figure shows the total property damages in the U.S. at an annual frequency from 1960 to 2018. The
+data are from Spatial Hazard Events and Losses Database for the United States (SHELDUS), which includes
+losses from all known perils, including storms, wildfires, droughts, floods etc. Property damages are inflation
+adjusted and are shown in 2018 dollars.
+
+57
+
+Figure A.2: Homeowners’ insurance aggregate premia written
+The figure shows the aggregate amount of homeowners’ insurance sold in the U.S. across all states between
+1996 and 2019. The data are from S&P MI and the frequency is annual. Estimates are in billions of dollars.
+
+58
+
+Figure A.3: Significance of homeowners’ insurance for households
+The figure shows average Homeowners’ insurance (left scale), average mortgage interest expenses (left scale),
+and Homeowners’ insurance as a fraction of mortgage interest expenses in each state in the U.S.. Insurance
+rates are based on a $400k home with a $300k insurance liability. Mortgage rates are based on a $400k home
+and a $300k mortgage loan for a 30 years term and for a consumer with an average FICO score (= 660-679).
+
+59
+
+A.2.
+
+Rate Regulation: Anecdotal Evidence
+Figure A.4: California
+
+Figure A.5: Oklahoma
+
+60
+
+Figure A.6: Illinois
+
+Figure A.7: Florida
+
+B.
+
+Data Construction And Measurement of Friction
+B.1.
+
+Rate Filings Data
+
+We collect data on rate filings as follows. First, we focus only on insurers’ homeowner lines of
+business in Insurance Product filings in the S&P MI database (i.e, we exclude filings of other
+lines of business, e.g., auto insurance). Within all product filings, we focus attention on the
+filings which concern insurer’s intention to change rates of their products (rate filings). From
+each filing, we extract the following variables: the insurer who initiated the request, year in
+which the request was submitted, the state in which the changes take place, and the rate
+change targeted and ultimately received. Using the filings, we construct a insurer-state-year
+panel on rate change targeted and received. If the same insurer files multiple times in the
+61
+
+same year to the same state we average the filings’ observables. The U.S. has 51 separate
+insurance jurisdictions: the 50 states and D.C.. S&P MI reports that in their data, for 47
+jurisdictions (henceforth states) we observe a full panel of filings for the years 2009 to 2019,
+i.e. we observe filings of all insurers that sell in these states for these years. For 3 states
+(Louisiana, Hawaii, and Texas) filings are available only starting in later years: Louisiana
+after 2015, Hawaii after 2012, and Texas after 2015. For these states, we include as many
+years of data as is available. We exclude Ohio as filings are incomplete (only available for a
+subset of insurers throughout the sample).
+B.2.
+
+Sample Construction
+
+To construct our main sample, we begin with all insurers who sold homeowners’ insurance
+in any state at any point in time between 2009 and 2019 and construct an insurer-state-year
+panel on their underwriting operations (insurer-state-year level) and financial (insurer-year)
+observables. We restrict attention to insurers who are actively selling HO insurance, i.e. we
+require that an insurer must have written at least $100,000 in total premiums in each of the
+previous 3 years and in each state she sells insurance in. We also limit the sample to the
+largest 50 insurers by market share in any given state and year. We do so for the following
+reasons. (i) Small insurers typically make rate filings using external pricing agencies (e.g.,
+ISO). As pricing agencies make filings on behalf of several insurers at once, filing outcomes
+of small insurers are likely to be correlated leading us to over-weight similar outcomes. (ii)
+States with a large number of small firms are then not weighted more heavily. Note that the
+largest 50 insurers typically cover around 95% of the overall HO market share (see Figure
+C.2). This allows for a robust coverage of the HO market in our analysis. We merge this final
+panel with the insurer-state-year panel on rate filings described above. The total number of
+observations in our final sample is 19,312. In the cross-subsidization regressions, we further
+restrict the panel to insurers, who in a given year sell in at least two states. This results in
+a total of 17,980 observations.
+B.3.
+
+Friction Measure: Alternative Constructions
+
+In this section, we explore several different alternative ways of constructing the state-level
+friction measure and record how correlated the alternatively constructed measures are with
+our baseline measure (F rictions ). We also record the number of states that get reclassified
+using the alternative measures.
+First, we explore the relationship between the baseline measure and alternative measures
+constructed using a different number of insurers. The baseline measure exploits the Rate
+62
+
+Wedge experienced by the largest 20 insurers in each state because of the differences in
+the filings of small and large insurers (for an extensive discussion, see Section 2.2). We
+test if alternative constructions using different numbers of insurers significantly changes the
+measurement. Specifically, we compute the alternative measure using the largest 30, 25, 15
+or 10 insurers in each state. The results are shown in the first four rows of Table B.3.1. The
+correlation between the existing and alternative friction measures varies between 83% and
+95% and only when we limit the sample to the largest 10 insurers do we see any states which
+are reclassified from high to low friction or vice versa (henceforth, major mis-classifications).
+This suggests that our friction metric is not sensitive to including different number of insurers.
+Next, we examine the time series variation of the F rictions metric and state rankings.
+The baseline measure used all 11 years in the sample to rank states, because rate setting
+regulation appears to change slowly. To test this assumption, we check how the baseline
+metric compares relative to the ones estimated using the first part (2009-2013) and the
+second part (2014-2019) of the sample. The results are shown in the fifth and sixth rows of
+Table B.3.1. We see high levels of correlation (respectively, 81% and 74% for the early and
+late period metric), and very few major mis-classifications (2 for early and none for the late
+period metric). Taken together, we interpret the results to suggest that the metric is robust
+to using different time variation.
+Third, we construct three alternative friction measures, which try to isolate the state
+regulators’ effects more explicitly. Results are depicted in rows seven through nine in Table
+B.3.1. The high correlation between the baseline measure and the three alternate ones
+suggest that our measure reflects regulatory forces at the state level and not the strategic
+behavior of insurers. We describe the three approaches in more detail below.
+• Approach 1. To test the degree to which our measure is driven by insurers’ incentives (e.g., the tendency to inflate target rates), we build an alternative measure that
+attempts to remove insurer specific variation by adding insurer × time fixed effects.
+Specifically, we run the regression 1 − RateW edgeist = αit + αs + ist and use the
+Alt(1)
+coefficients on the state fixed effects to rank states, i.e. the new metric F rictions
+contains the coefficients on αs . The correlation between the baseline measure and
+Alt(1)
+F rictions
+is 89% and only one state was subject to a major reclassification.
+• Approach 2. Insurers’ ability to inflate rates could depend on their market share in a
+state. To exclude this variation, first, we regress the rate wedge on insurer × time fixed
+effects and insurers’ market share in each state: 1−RateW edgeist = αit +M ktshareist +
+ist . Second, we construct a new measure as the average of the regression residuals for
+Alt(2)
+each state: F rictions
+= Eit [ist ]. The correlation between our baseline friction
+63
+
+Alt(2)
+
+measure and F rictions
+
+is 92% and no state was subject to a major reclassification.
+
+• Approach 3. Another way to isolate insurers’ strategic behavior is to compute the
+rate wedge with a target rate which can be “justified” only from an actuarial standpoint. To do so, we instrument Rate∆Target using past losses: Rate∆Targetist =
+LossRatioist−1 + αst + ist . Then, we use the predicted
+rate targets to constructian alh
+Alt(3)
+\
+ternative rate wedge: F rictions
+= 1 − Eit Rate∆Receivedist /Rate∆
+Targetist . The
+Alt(3)
+
+correlation between our baseline friction measure and F rictions
+states were subject to a major reclassification.
+
+is 71% and only 2
+
+Table B.3.1: Correlation between the baseline friction measure and alternative measures
+Each row reports the statistics on the relationship between the baseline measure, F rictions , as described
+in Equation (4) and an alternate friction measure computed using a different methodology. We report
+correlations and number of major re-classifications, where a state was majorly re-classified if it was high
+(low) friction under the baseline metric, and re-classified as low (high) friction under each alternative. The
+first four rows use alternative number of insurers. Rows 5 and 6 use different time horizons. Rows 7 to 9
+use alternative methods, as described in Appendix B.3.
+
+Method
+
+Correlation
+with F rictions
+
+N major misclassifications
+
+largest 30
+
+0.89
+
+0
+
+largest 25
+
+0.95
+
+0
+
+largest 15
+
+0.94
+
+0
+
+largest 10
+
+0.83
+
+3
+
+2009-2013
+
+0.82
+
+2
+
+2014-2019
+
+0.74
+
+0
+
+Split panel by included insurers:
+
+Split panel by included years:
+
+Alternative methods of estimation:
+Alt(1)
+
+0.89
+
+1
+
+Alt(2)
+
+0.91
+
+2
+
+Alt(3)
+
+0.71
+
+2
+
+F rictions
+F rictions
+F rictions
+
+B.4.
+
+Constructing ZIP-level Expected Losses
+
+To form estimates of expected losses per housing unit at the ZIP code level, we measure
+expected climate losses and non-climate losses separately and add them to construct the final
+estimates. The non-climate losses are added in order to appropriately compare premiums
+and losses.
+64
+
+(i) To measure expected climate losses, we take FEMA’s expected loss estimates (“Expected Annual Loss for Building Value”), which measure the average annual expected economic loss to buildings due to natural hazards. We exclude from it losses arising from floods
+(“Expected Annual Loss - Building Value” for Riverine and Coastal Floods). FEMA losses
+are available at the census tract level. We aggregate these losses up to the ZIP code level
+using census tract to ZIP code mapping provided by the U.S. Census. Specifically, for each
+ZIP, we sum the losses arising within its underlying census tracts. If a census tract belongs
+to multiple ZIP codes, we apportion the census tract losses to the ZIP codes in proportion
+to the fraction of housing units of the census tract that belonged to a particular ZIP code.
+We next divide the expected climate losses in each ZIP code by the number of housing units
+to get the average climate losses per housing unit. We first collect the total number of
+owner-occupied housing units with outstanding mortgages at the census tract level from the
+S&P Geographic Intelligence database. We follow the same procedure as described above to
+aggregate the census tract estimates to the ZIP code level.
+(ii) We next estimate expected non-climate losses (per housing unit) that insurers incur
+in selling HO insurance. Non-climate losses are not available at a ZIP code level. To form
+estimates of non-climate losses we regress insurers’ total losses in 2019, which are available
+at a state level, on FEMA’s climate losses aggregated to the state level. We use the intercept
+of this regression to quantify the non-climate portion of the losses in dollars and scale the
+losses by the number of housing units. Finally, we add the climate and non climate losses per
+housing unit to get an estimate of the total expected losses for each housing unit. Because our
+estimate of non-climate losses are constant across geographies, adding it does not affect the
+cross-geography relationship between premiums and total losses but just affects the levels.
+
+65
+
+C.
+
+Additional Figures and Tables
+
+Figure C.1: Homeowners’ contract types over time
+The figure shows the proportion of insured households that purchased HO3 policies through time and for each
+state type: High, Medium, and Low friction. The data are from NAIC’s Dwelling Fire, Homeowners OwnerOccupied, and Homeowners Tenant and Condominium/Cooperative Unit Owner’s Insurance and span the
+period 2008 to 2017.
+
+66
+
+Figure C.2: Homeowners’ insurance: market concentration
+The figure shows the market share of homeowners’ insurance sold by the largest insurers in a given state.
+Market share is computed as premium sold by the largest insurers divided by total premium sold in a state in
+a given year and state - and averaged over the 11 years between 2009 and 2019. States are ordered from low
+to high market share of the top 5 insurers. The data are from insurance statutory filings accessed through
+S&P MI.
+
+67
+
+Figure C.3: Execution time and Friction
+The figure shows Frictions , estimated as in Equation (2), and the time it takes each state to approve filings
+(mean execution time) in days in each state. The blue line is a fitted line from the following linear regression:
+Mean execution times = α + βFrictions + s , where each state is weighted by the total premium. The data
+are from insurance product filings accessed through S&P MI.
+
+68
+
+Figure C.4: Fraction of claims closed without payments by state type
+The figure shows the average fraction of claims closed without payment in high, medium, and low friction
+states. The data source is NAIC’s Market Conduct Annual State Surveys (available from 2014).
+
+69
+
+Figure C.5: Insurance coverage by state type
+This figure shows the percentage growth in purchased coverage through time and for each subgroup of
+states: High, Medium, and Low strictness. The data spans the period 2009 to 2017. The average coverage
+of insured properties in a given state comes from NAIC’s Dwelling Fire, Homeowners Owner-Occupied, and
+Homeowners Tenant and Condominium/Cooperative Unit Owner’s Insurance.
+
+70
+
+Figure C.6: Insured risk by state type
+This figure shows the percentage growth in losses per insured homes through time and for each subgroup of
+states: High, Medium, and Low friction. The data span the period 2008 to 2017. The number of insured
+homes in a given state comes from NAIC’s Dwelling Fire, Homeowners Owner-Occupied, and Homeowners
+Tenant and Condominium/Cooperative Unit Owner’s Insurance. Data on losses are from insurance statutory
+filings accessed through S&P MI.
+
+71
+
+Figure C.7: Fraction of premiums sold by single-state insurers
+The figure shows the fraction of premiums sold between 2009 and 2019 which come from (a) single-state
+insurers, and (b) insurers that sell insurance at least in two states in a given year. Data are from insurance
+statutory filings accessed through S&P MI.
+
+72
+
+Table C.1: Insurer characteristics by market share
+We estimate each insurer’s market share across all 51 U.S. jurisdictions by computing the fraction of all
+premium sold in 2019. We split the insurers based on whether the market share is below or above 1% and
+estimate for each group of insurers the average number of states they sell insurance in (column 1), likelihood
+of filing (number of years that insurers filed for a rate change across the states they operate in / total number
+of years in operation across all states) (column 2), and the average state rank for market share (column 3).
+In parentheses we show the standard errors of each mean.
+
+N states an insurer
+
+Yearly likelihood
+
+Average
+
+sells homeowners
+
+of filing
+
+rank in state
+
+Large insurers (market share >1%):
+33.9
+
+0.8
+
+18.5
+
+(4.16)
+
+(0.05)
+
+(3.03)
+
+Small insurers (market share ≤ 1%):
+7.1
+
+0.6
+
+75.4
+
+(0.4)
+
+(0.01)
+
+(1.53)
+
+73
+
+Table C.2: Regulator characteristics and rate-setting friction
+The table shows results from estimating the following regression: F rictions = α + βXs + s . The covariates
+are as follows. In column (1) log budget of the state’s department of insurance averaged over 2009 to 2019;
+in column (2) log number of employees of the state’s department of insurance averaged over 2009 to 2019;
+in column (3) whether the department of insurance is led by an elected or not elected (appointed) regulator
+(all three variables are sourced from NAIC’s Insurance Department Resources Report); in column (4) log
+total amount of premiums sold for HO insurance in each state (from S&P MI); in column (5) each state’s
+2019 median household income; in column (6) percent of population that is minority (Black or Hispanic)
+(the last two from S&P Geographic Intelligence); in column (7) percent of the state’s GDP attributed to the
+insurance sector (from BEA); in column (8) log property damage per capita between 2009 and 2019 (from
+SHELDUS); in column (9) the average percentage of republican vote in the presidential elections of 2012,
+2016 and 2020; in column (10) all nine variables together.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Frictions
+(1)
+Log budget
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+(9)
+
+(10)
+
+∗
+
+0.017
+
+0.002
+
+(0.010)
+
+(0.033)
+
+Log staff size
+
+0.017
+
+−0.013
+
+(0.011)
+
+(0.029)
+
+Is commissioner elected?
+
+0.005
+
+−0.006
+
+(0.022)
+
+(0.023)
+
+Log premium
+
+0.019∗∗
+
+0.014
+
+(0.008)
+
+(0.017)
+
+Median HH income
+
+0.0003
+
+0.002
+
+(0.001)
+
+(0.001)
+
+% Minority
+
+0.0002
+
+−0.0003
+
+(0.001)
+
+(0.001)
+
+% GDP from insurance
+
+−0.001
+
+0.001
+
+(0.005)
+
+(0.005)
+
+Log Prop. Damage Per Cap
+
+0.010∗∗∗
+
+0.013∗
+
+(0.004)
+
+(0.007)
+
+% Republican
+
+0.069
+
+−0.007
+
+(0.088)
+
+(0.169)
+
+0.254
+
+0.461∗∗∗
+
+0.542∗∗∗
+
+0.272∗∗
+
+0.521∗∗∗
+
+0.538∗∗∗
+
+0.547∗∗∗
+
+0.478∗∗∗
+
+0.508∗∗∗
+
+0.186
+
+(0.172)
+
+(0.054)
+
+(0.010)
+
+(0.115)
+
+(0.054)
+
+(0.018)
+
+(0.017)
+
+(0.025)
+
+(0.046)
+
+(0.381)
+
+E[LHS]
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+0.54
+
+Observations
+
+50
+
+50
+
+50
+
+50
+
+50
+
+50
+
+50
+
+50
+
+50
+
+50
+
+R2
+
+0.056
+
+0.047
+
+0.001
+
+0.104
+
+0.004
+
+0.002
+
+0.002
+
+0.135
+
+0.013
+
+0.237
+
+Constant
+
+74
+
+Table C.3: Heterogeneity in rate spillovers: by market concentration
+The table presents the results from estimating Equation (5) separately, where we split low friction states
+into two groups, above median (H) and below median (L), by the level of concentration in each market,
+estimated using either HHI index (HHI) or the fraction of premiums sold by the largest five insurers (C5).
+As high and medium friction states are not split further, the control group remains the same as prior tables,
+i.e. all high and medium friction states. Dependent variables are denoted at the top of the table. The
+independent variable of interest is an insurer’s “out-of-state” losses (OSL) in the prior year. To compute
+OSL, we sum an insurer’s losses in all the states it operates in other than the filing state s, which we scale
+by total premiums sold in all states except s. The indicator variables Meds and Lows equal 1 if the state
+s is, correspondingly, a medium or a low friction state. The results pertain to our main sample as detailed
+in Appendix B.2. All regressions control for same state losses, log assets, log RBC ratio, loss ratio of all
+other (non-homeowners’) lines of business, and the percent of premiums reinsured for insurer i in year t. All
+regressions include insurer-filing state and filing state-year of submission fixed effects. Standard errors are
+shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Any Filingsist
+
+OSList−1
+
+OSList−1 × Meds
+
+OSList−1 × Lows
+
+Concentration
+
+Rate∆ Receivedist
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+−0.006
+
+−0.006
+
+−0.006
+
+−0.006
+
+0.080
+
+0.070
+
+0.077
+
+0.074
+
+(0.021)
+
+(0.021)
+
+(0.021)
+
+(0.021)
+
+(0.193)
+
+(0.193)
+
+(0.193)
+
+(0.193)
+
+0.019
+
+0.019
+
+0.019
+
+0.019
+
+0.691∗
+
+0.694∗
+
+0.694∗
+
+0.692∗
+
+(0.025)
+
+(0.025)
+
+(0.025)
+
+(0.025)
+
+(0.403)
+
+(0.400)
+
+(0.403)
+
+(0.400)
+
+0.228∗∗∗
+
+0.116∗∗∗
+
+0.175∗∗
+
+0.152∗∗∗
+
+2.278∗∗∗
+
+1.090
+
+1.723∗∗
+
+1.489∗∗
+
+(0.058)
+
+(0.043)
+
+(0.070)
+
+(0.038)
+
+(0.712)
+
+(0.671)
+
+(0.800)
+
+(0.666)
+
+H
+
+L
+
+H
+
+L
+
+H
+
+L
+
+H
+
+L
+
+Measure
+
+C5
+
+C5
+
+HHI
+
+HHI
+
+C5
+
+C5
+
+HHI
+
+HHI
+
+Controls
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Observations
+
+14,693
+
+15,174
+
+14,511
+
+15,356
+
+14,693
+
+15,174
+
+14,511
+
+15,356
+
+75
+
+Table C.4: Heterogeneity in rate spillovers: by insurer rank
+The table shows results from estimating Equation (5), on a sample restricted to the largest 50 (as before), 30
+or 20 insurers in a given state and year (in addition to all restrictions required to construct the main sample
+as detailed in Appendix B.2). Dependent variables are denoted at the top of the table. The independent
+variable of interest is an insurer’s “out-of-state” losses (OSL) in the prior year. To compute OSL, we sum an
+insurer’s losses in all the states it operates in other than the filing state s, which we scale by total premiums
+sold in all states except s. The indicator variables Meds and Lows equal 1 if the state s is, correspondingly,
+a medium or low friction state. All regressions control for same state losses, log assets, log RBC ratio, loss
+ratio of all other (non-homeowners’) lines of business, and percent of premiums covered by reinsurance of
+insurer i in year t. All regressions include insurer-filing state and filing state-year of submission fixed effects.
+Standard errors are shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Any Filingsist
+
+Rate∆Receivedist
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+−0.006
+
+0.057∗∗
+
+0.043∗∗
+
+0.075
+
+0.704∗
+
+0.407
+
+(0.021)
+
+(0.027)
+
+(0.021)
+
+(0.193)
+
+(0.419)
+
+(0.487)
+
+0.019
+
+−0.052∗
+
+−0.036
+
+0.693∗
+
+−0.114
+
+0.102
+
+(0.025)
+
+(0.028)
+
+(0.022)
+
+(0.401)
+
+(0.504)
+
+(0.542)
+
+0.162∗∗∗
+
+0.164∗∗∗
+
+0.254∗∗∗
+
+1.604∗∗∗
+
+1.662∗∗
+
+2.713∗∗∗
+
+(0.041)
+
+(0.055)
+
+(0.063)
+
+(0.528)
+
+(0.773)
+
+(0.908)
+
+E[LHS]
+
+0.7
+
+0.7
+
+0.8
+
+3.7
+
+3.8
+
+3.7
+
+Rank
+
+≤50
+
+≤30
+
+≤20
+
+≤50
+
+≤30
+
+≤20
+
+Controls
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Observations
+
+17,980
+
+11,125
+
+7,479
+
+17,980
+
+11,125
+
+7,479
+
+OSList−1
+
+OSList−1 × Meds
+
+OSList−1 × Lows
+
+76
+
+Table C.5: Heterogeneity in rate spillovers: by exposure to high-friction states
+The table presents the results from estimating Equation (5) separately, where we split low friction states
+into two groups, above median (H) and below median (L), by level of exposure to high friction states. The
+exposure is estimated as the ratio of total premium sold by insurers operating in the state in high-friction
+states to total premium sold in all states. As high and medium friction states are not split further, the
+control group remains the same as prior tables, i.e. all high and medium friction states. Dependent variables
+are denoted at the top of the table. The independent variable of interest is an insurer’s “out-of-state” losses
+(OSL) in the prior year. To compute OSL, we sum an insurer’s losses in all the states it operates in other
+than the filing state s, which we scale by total premiums sold in all states except s. The indicator variables
+Meds and Lows equal 1 if the state s is, correspondingly, a medium or a low friction state. The results
+pertain to our main sample as detailed in Appendix B.2. All regressions control for same state losses, log
+assets, log RBC ratio, loss ratio of all other (non-homeowners’) lines of business, and the percent of premiums
+reinsured for insurer i in year t. All regressions include insurer-filing state and filing state-year of submission
+fixed effects. Standard errors are shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Any Filingsist
+
+Rate∆Receivedist
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+−0.005
+
+−0.006
+
+0.078
+
+0.073
+
+(0.021)
+
+(0.021)
+
+(0.193)
+
+(0.193)
+
+0.019
+
+0.019
+
+0.692∗
+
+0.693∗
+
+(0.025)
+
+(0.025)
+
+(0.403)
+
+(0.400)
+
+0.140∗∗∗
+
+0.188∗∗∗
+
+1.359∗
+
+1.857∗∗
+
+(0.047)
+
+(0.060)
+
+(0.719)
+
+(0.727)
+
+Exposure to Highs :
+
+L
+
+H
+
+L
+
+H
+
+Controls
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Yes
+
+Yes
+
+Observations
+
+14,285
+
+15,582
+
+14,285
+
+15,582
+
+OSList−1
+
+OSList−1 × Meds
+
+OSList−1 × Lows
+
+77
+
+Table C.6: Classification of geographical regions
+The table lists the classification of U.S. states into geographical regions. The classification is provided by
+S&P MI.
+
+Region
+
+States
+
+Mid-Atlantic
+
+DC, DE, MD, NJ, NY, PA
+
+Midwest
+
+IA, IL, IN, KS, KY, MI, MN,
+MO, ND, NE, OH, SD, WI
+
+Northeast
+
+CT, MA, ME, NH, RI, VT
+
+Southeast
+
+AL, AR, FL, GA, MS, NC,
+SC, TN, VA, WV
+
+Southwest
+
+CO, LA, NM, OK, TX, UT
+
+West
+
+AK, AZ, CA, HI, ID, MT,
+NV, OR, WA, WY
+
+78
+
+Table C.7: Number of insurer exits from states between 2009 and 2018
+The table reports summary statistics on insurer exits. We report the number and fraction of insurers that
+exit a state, defined as the total number of exits in a given state and year divided by the total number of
+insurers in the state. In measuring exits, we only want to capture exits from a particular state, so we require
+that an insurer exits a particular state but continues to operate in at least one other state. Large insurers
+have more than 1% market share in a state and small insurers have less than 1% market share in a state. We
+exclude insurers that have less than 0.5% market share in any given state. Columns (1) and (2) include all
+states. Columns (3) and (4), (5) and (6), (7) and (8) focus on correspondingly, high, medium, low friction
+states.
+
+All States
+Market share
+
+High
+
+N exits % Exited N exits
+
+Medium
+
+Low
+
+% Exited
+
+N exits
+
+% Exited
+
+N exits
+
+% Exited
+
+Large
+
+16
+
+0.17
+
+4
+
+0.18
+
+4
+
+0.12
+
+8
+
+0.22
+
+Small
+
+26
+
+0.44
+
+13
+
+0.64
+
+8
+
+0.43
+
+5
+
+0.23
+
+79
+
+Table C.8: Heterogeneity in rate spillovers: by ownership structure
+The table shows results from estimating Yist = β1 OSList−1 + β2 OSList−1 × Insurer typei + Controls +
+αis + αst + ist ., The dependent variables are denoted at the top of the table and the main independent
+variable OSL is as defined before. Insurer type refers to an insurer’s ownership structure, which are of
+three types: mutual, public-stock, and private-stock. The indicator Stocki is 1 if insurer i is a public-stock
+or a private-stock. The indicator Publicly Heldi is 1 if insurer i is a public-stock (i.e., the insurer is publicly
+traded). The results pertain to our main sample as detailed in Appendix B.2. The panel is limited to low
+friction filing states. All regressions control for same state losses, log assets, log RBC ratio, loss ratio of all
+other (non-homeowners’) lines of business, and and the percent of premiums reinsured for insurer i in year
+t. All regressions include insurer-filing state and filing state-year of submission fixed effects. Standard errors
+are shown in parentheses, clustered at the state level.
+Note: ∗ p<0.1; ∗∗ p<0.05; ∗∗∗ p<0.01
+
+Any Filingsist
+
+Rate∆Receivedist
+
+(1)
+
+(2)
+
+0.192∗∗∗
+
+2.043∗∗∗
+
+(0.048)
+
+(0.571)
+
+−0.284∗∗∗
+
+−1.752∗∗∗
+
+(0.049)
+
+(0.446)
+
+0.642∗∗∗
+
+3.679∗∗∗
+
+(0.031)
+
+(0.446)
+
+State type
+
+Low
+
+Low
+
+Controls
+
+Yes
+
+Yes
+
+State × Year Fixed effects
+
+Yes
+
+Yes
+
+Insurer × State Fixed effects
+
+Yes
+
+Yes
+
+Observations
+
+6,093
+
+6,093
+
+OSList−1
+
+OSList−1 × Stocki
+
+OSList−1 × Stocki × Publicly Heldi
+
+80
+
+D.
+
+A Model of Insurer Pricing with Regulatory Frictions
+
+In this section, we present a model of insurance pricing with regulatory frictions. The model,
+which extends the standard insurance supply framework, describes how regulation leads to
+asymmetric cross-subsidization documented in the earlier sections.
+An insurer operates in two regions R ∈ {H, L} that differ in the level of exposure to
+climate risk with H and L denoting high and low exposure. There are two regulators, one
+in each region. We denote the expected climate losses in each region as VH and VL , where
+VH > VL > 0. The insurer chooses the target price in each region, denoted as PR . The target
+price once chosen is subject to regulatory approval in its respective region. The regulator in
+region R chooses gR ∈ [0, 1] i.e. the the proportion of target price that should be approved for
+the insurer in region R. Thus, post regulatory approval, the final price in region R charged
+by the insurer is gR PR .
+D.1.
+
+The Regulator’s Problem
+
+The key objective of state insurance regulators is balancing the needs of “insurance affordability against availability and insurance company solvency”.34 To capture this trade-off, we
+assume that the regulator’s objective is given by
+(B.1)
+
+max
+gR
+
+gR VRγ − gRψ
+
+
+
+PR
+VR
+
+
+
+where γ, ψ > 0. The first term in the objective captures the regulator’s desire to keep gR
+high so that the insurer does not exit the state (i.e. maintain insurance availability). The
+incentive is stronger when the expected climate loss is high (VRγ ), with γ controlling the
+degree of sensitivity. The second term captures the regulator’s dislike for high markups
+(i.e. keep insurance affordable). Thus, when the target price deviates from the underlying
+losses (PR /VR ), the regulator seeks to reduce prices by lowering gR , with the parameter ψ
+controlling how aggressively the regulator reacts to the given markup.
+The first order condition to the regulator’s problem yields the optimal proportion of
+target price to be approved, given as
+(B.2)
+
+1
+
+1
+
+−γ−1
+
+gR = ψ 1−ψ PR1−ψ VR1−ψ .
+
+First, note that gR is decreasing in PR as long as ψ is sufficiently large. In other words,
+the discount 1 − gR is greater when the target price PR is higher, holding the underlying
+34
+
+See the 2020 NAIC minutes of the Property and Casualty Insurance Committee meeting (NAIC, 2020).
+
+81
+
+risk VR fixed. Second, the relation between gR and VR cannot be immediately gleaned from
+Equation (B.2) as PR also depends on VR in the insurer’s problem. We revisit this question
+after fully solving the insurer’s problem.
+D.2.
+
+The Insurer’s Problem
+
+We consider an insurer problem of the general form
+(B.3)
+
+max
+P
+
+Π(P ) + ΦF (P )
+
+where Π(P ) is current period profit that depends on vector of prices P . Importantly, the
+second term F (P ) is an object that is decreasing in Π(P ) and captures the trade-off in the
+insurer’s objective. Finally, Φ captures the relative weight on each part of the objective.
+This setup is quite general and encompasses a wide range of objective functions commonly
+featured in the literature. First, in the face of risk-based capital requirements, insurers may
+sacrifice current economic profits in order to relax current or future leverage constraints
+(Koijen and Yogo, 2015). With a similar financing friction, a firm with a sticky customer
+base also faces a trade-off between current profits and current market share (Gilchrist et al.,
+2017). Second, as the profitability of insurers is subject to heavy scrutiny, large losses can
+induce insurers to myopically focus more on short-term profits (Stein, 1989). In a similar
+vein, an insurer may also operate with a short-term profit margin target or exhibit a slowmoving ”habit” in profits and care about performance today relative to its history rather
+than just the level of profits today. Overall, our general statement of the insurer’s problem
+nests all these mechanisms.
+For tractability, we let F (P ) be equal to current-period revenues.35 There is naturally an
+inverse relation between profits and revenues: lowering price relative to profit-maximizing
+price reduces current-period profits, but it is also an investment in the future through higher
+market share today. Revenue also has a natural place in the insurer’s objective since insurance markets feature significant search and switching costs (Schlesinger and Von der Schulenburg, 1991; Honka, 2014) and thus current market share is an important determinant
+of future profitability (Klemperer, 1995). In addition, insurers commonly bundle products
+by offering discounts or combine deductibles for consumers purchasing several types of in35
+
+Evidence consistent with this assumption can be found in earnings call of insurance companies. For
+example, Allstate in a 2010 Q2 earnings call said, “We don’t want to grow the business and throw profitability
+out the door. And so it’s a balancing act and it changes from quarter-to-quarter. Our long-term goal though
+is, obviously, to grow market share in the Property Casualty business and we’ve talked about all the ways
+in which we’re trying to do that.”
+
+82
+
+surance from the same insurer (NAIC, 2021). The aforementioned considerations therefore
+incentivize insurers to lower its price to increase revenue today.
+D.2.1.
+
+Insurer Pricing without Regulatory Friction
+
+We first lay out the insurer’s problem in the absence of regulatory friction. Here we
+recover the standard pricing formula with market power: price is set to equate marginal
+revenue using the “effective” marginal cost, which depends on the relative weight between
+profit versus revenue maximization. We then add introduce regulatory friction into the
+insurer’s problem and solve for the optimal price and its sensitivity to losses.
+As the insurer’s profit in region R is (PR − VR ) QR and revenue PR QR , the maximization
+problem can be written as the following:
+(B.4)
+
+max
+
+PH ,PL
+
+(PH − VH ) QH + (PL − VL ) QL + (Φ − 1) (PH QH + PL QL )
+
+where Φ > 1 and is assumed to depend on VH and VL . In this setup, Φ represents the
+relative weight the insurer places on maximizing current revenue as opposed to maximizing
+contemporaneous profits.36 To highlight the role of regulatory frictions, we assume the
+insurer faces the same demand curve in each region, QH = QL = Q, where
+(B.5)
+
+=−
+
+∂ log Q
+>1
+∂ log P
+
+is the elasticity of demand.
+We further assume that the sensitivity of relative weights to climate losses is proportional
+to the level of climate risk in each region. In other words, the shift from revenue to profits
+is more pronounced with respect to losses from high-risk areas than to those from low-risk
+areas:
+(B.6)
+
+∂Φ
+∝ −VR
+∂VR
+
+⇒
+
+∂Φ
+∂Φ
+<
+<0
+∂VH
+∂VL
+
+For example, if climate losses in riskier regions receive more nationwide coverage and the
+attention of investors, then the incentive to manage short-term profits for the manager shift
+more in response to losses in riskier regions than to those in less risky regions.
+∂Φ
+We scale VR to be sufficiently greater than Φ such that VΦR ∂V
+< −γ. For example, the interpretation
+R
+of Φ as weights (and hence between 1 and 2) and the interpretation of VR as expected dollar losses from
+climate events in region R is consistent with this assumption.
+36
+
+83
+
+Taking the first-order condition of (B.4) with respect to PR yields:
+PR0
+
+(B.7)
+
+
+
+1
+1−
+
+
+
+=
+
+VR
+Φ
+
+where the superscript in PR0 denotes the fact that the price expression is obtained in the
+absence of regulatory friction. VR /Φ denotes the “effective” marginal cost to the insurer: as
+greater weight is given to revenue maximization, the insurer prices as if the marginal cost is
+lower.
+When Φ = 1, i.e. when the insurer only maximizes profits, then expression (B.7) reduces
+to the standard pricing formula with market power. Since we assume Φ to be greater than
+1, the target price is lower when the insurer also cares about the total revenue.
+D.2.2.
+
+Insurer Pricing with Regulatory Friction
+
+We now consider the general case in which the insurer is choosing the target price in
+the presence of regulatory friction. Importantly, because gR depends on PR , the insurer
+internalizes the impact that its choice of PR will have on the regulatory outcome.
+The insurer’s maximization problem is then given by:
+(B.8)
+
+max
+
+PH ,PL
+
+(gH PH − VH ) QH + (gL PL − VL ) QL + (Φ − 1) (gH PH QH + gL PL QL )
+
+Taking the first-order condition of (B.8) with respect to PR yields:
+(B.9)
+
+
+
+1 1/ (1 − ψ)
+VR
+gR PR 1 − −
+=
+
+
+Φ
+
+Equation (B.9) echoes the intuition in Equation (B.7) – the insurer once again equates
+marginal revenue with the “effective” marginal cost, now taking into account the regulatory
+decision and an adjusted markup.
+By substituting in (B.2), the expression for gR , we can further solve for the insurer’s
+target price decision PR . Proposition 1 summarizes these results:
+Proposition 1. For region R ∈ {H, L}, the insurer’s target price PR is given as
+ψ−1
+
+ψ−2−γ
+
+PR = KΦ− ψ−2 VR ψ−2
+
+(B.10)
+where
+K=ψ
+
+1
+ψ−2
+
+
+− ψ−1
+1 1/ (1 − ψ) ψ−2
+1− −
+
+
+84
+
+R PR
+Furthermore, assuming that ψ is sufficiently greater than γ such that ψ > 2 + γ, ∂g∂V
+>0
+R
+R
+> 0.
+and ∂P
+∂VR
+
+Next, we re-visit the relationship between regulatory friction and the level of underlying
+losses, which is summarized in Corollary 1.
+Corollary 1. Regulatory friction in a given region is increasing in the expected climate losses
+in the same region, i.e. ∂gR /∂VR < 0.
+Corollary 1 says that regulatory friction is greater in regions with greater climate losses,
+which we documented earlier in data. As shown in (B.2), gR depends on both PR and VR .
+While the direct dependence of gR on VR implies that gR may be decreasing in VR , the
+indirect dependence of gR on VR through PR implies that gR may actually be increasing in
+VR . In the end, the total relationship between gR and VR depends on the relative magnitude
+of these two forces. As ψ is sufficiently greater than γ, the first effect dominates and ∂gR /∂VR
+is therefore negative.
+In addition, the model also allows us to examine the extent to which regulatory friction
+leads to inflated target prices by insurers:
+Corollary 2. For region R ∈ {H, L}, gR PR < PR0 Q PR .
+Corollary 2 has two parts. The first inequality says that the final price to consumers
+in a world with regulatory friction (gR PR ), which we observe, is less than the final price to
+consumers in a counterfactual world with no regulatory friction (PR0 ). This is true because
+the regulator is sufficiently concerned about the deviation of prices from losses, compared
+to its considerations about insurer exits. Therefore, when the insurer chooses a target price
+PR that is much greater relative to expected losses VR , the regulator further decreases the
+proportion granted.
+The second inequality then says that the final target price of the insurer in a world with
+regulatory friction (PR ) may or may not be greater than that in a counterfactual world with
+no regulatory friction (PR0 ). This is because the regulator’s approval function is known to
+the insurer, and the insurer internalizes the regulatory decision when making its target price
+decision. The final target price in the presence of a regulator therefore depends on γ and ψ,
+which govern the regulator’s objective.
+D.3.
+
+Cross-Subsidization in Response to Climate Losses
+
+We now establish how the insurer’s pricing decision depend on climate losses from other
+regions. First, proposition 2 establishes the relationship between the target price in a given
+region to losses in another region:
+85
+
+Proposition 2. For region R ∈ {H, L}, PR is increasing in V−R .
+Proposition 2 establishes that price in a given region responds positively to increases in
+expected losses in another region. The loss – even if it occurs in another state – induces a
+greater focus on current-period profits, which induces the insurer to raise the target price
+PR even in a region not directly affected by losses. The next proposition describes how
+regulatory friction reinforces the degree of cross-subsidization.
+Proposition 3. Regulatory friction leads to asymmetric cross-subsidization, i.e.
+∂PL /∂VH
+∂PL0 /∂VH
+>
+= 1.
+∂PH /∂VL
+∂PH0 /∂VL
+Finally, Proposition 3 establishes that in the presence of regulatory friction, the magnitude of the price response to the other region’s losses now depends on whether the other
+region is high-risk or low-risk. In the case without a regulator, the relative magnitudes of
+∂P 0 /∂V
+the price response are the same and therefore ∂PL0 /∂VHL = 1. However, with the regulator,
+H
+the insurer is then penalized in the form of a lower gR if it chooses to increase PR without a
+proportional increase in VR . As Corollary 1 indicates, this penalization is greater in region
+H than in L, and therefore the price response is more muted in region H, resulting in an
+asymmetric cross-subsidization behavior of insurers.
+D.4.
+
+Model Proofs
+
+The Regulator’s Problem The first-order condition with respect to gR implies,
+VRγ = ψgRψ−1 PR VR−1
+Rearranging,
+gR1−ψ = ψPR VR−γ−1
+Therefore,
+1
+
+1
+
+−γ−1
+
+gR = ψ 1−ψ PR1−ψ VR1−ψ
+
+
+86
+
+Proof of Proposition 1 Since gR now depends on PR , there are additional terms to
+consider. Taking the first-order condition of the objective in (B.8) with respect to PR :
+
+
+
+
+∂ 
+
+(gR PR − VR ) QR + (Φ − 1) gR PR QR 
+{z
+} |
+{z
+}
+∂PR |
+(1)
+
+(2)
+
+Differentiating (1) with respect to PR :
+∂
+[(gR PR − VR ) QR ]
+∂PR
+∂gR
+∂QR
+=
+PR QR + gR QR + (gR PR − VR )
+∂PR
+∂PR
+Differentiating (2) with respect to PR :
+∂
+[(Φ − 1) gR PR QR ]
+∂PR
+
+
+∂gR
+∂QR
+= (Φ − 1)
+PR QR + gR QR + gR PR
+∂PR
+∂PR
+Combining the derivatives of (1) and (2), we have:
+
+
+
+
+∂ 
+
+(gR PR − VR ) QR + (Φ − 1) gR PR QR 
+{z
+} |
+{z
+}
+∂PR |
+(1)
+
+(2)
+
+∂QR
+∂gR
+PR QR + gR QR + (gR PR − VR )
+∂PR
+∂PR
+
+
+∂gR
+∂QR
++ (Φ − 1)
+PR QR + gR QR + gR PR
+∂PR
+∂PR
+∂gR
+∂QR
+∂QR
+=Φ
+PR QR + ΦgR QR + ΦgR PR
+− VR
+=0
+∂PR
+∂PR
+∂PR
+=
+
+Dividing both sides by ∂QR /∂PR :
+∂gR
+∂PR
+∂PR
+PR QR
++ ΦgR QR
++ ΦgR PR − VR = 0
+∂PR
+∂QR
+∂QR
+
+
+
+
+QR ∂PR
+QR ∂PR
+∂gR 2
+−Φ
+P −
+−ΦgR PR −
++ΦgR PR − VR = 0
+∂PR R
+PR ∂QR
+PR ∂QR
+|
+{z
+}
+|
+{z
+}
+Φ
+
+1/
+
+1/
+
+87
+
+Rearranging:
+
+ΦgR PR
+
+
+(B.11)
+
+g R PR
+1
+
+1
+
+1
+1−
+
+
+1
+1−
+
+
+
+= VR +
+
+
+=
+
+Φ ∂gR 2
+P
+ ∂PR R
+
+VR 1 ∂gR 2
++
+P
+Φ
+ ∂PR R
+
+−γ−1
+
+Note that since gR = ψ 1−ψ PR1−ψ VR1−ψ , we have
+1
+1
+−1 −γ−1
+∂gR
+1
+1
+∂gR
+=
+ψ 1−ψ PR1−ψ VR1−ψ ⇒
+PR =
+gR
+∂PR
+1−ψ
+∂PR
+1−ψ
+
+Substituting into (B.11) yields,
+
+
+1
+VR 1/ (1 − ψ)
+gR PR 1 −
+=
++
+gR PR
+
+Φ
+
+or
+
+
+VR
+1 1/ (1 − ψ)
+gR PR 1 − −
+=
+
+
+Φ
+
+(B.12)
+
+Further substituting into (B.12) the expression for gR PR ,
+ψ
+
+1
+1−ψ
+
+1
++1
+1−ψ
+
+PR
+
+−γ−1
+1−ψ
+
+VR
+
+
+
+1 1/ (1 − ψ)
+VR
+1− −
+=
+
+
+Φ
+
+Rearranging,
+2−ψ
+1−ψ
+
+PR
+
+=ψ
+
+1
+ψ−1
+
+γ+1
+−1 1+ 1−ψ
+
+VR
+1 1/ (1 − ψ)
+1− −
+
+
+Φ
+
+Exponentiating both sides by 1−ψ
+:
+2−ψ
+
+− 1−ψ
+2+γ−ψ 1−ψ
+1 1/ (1 − ψ) 2−ψ − 1−ψ
+PR = ψ
+1− −
+Φ 2−ψ VR 1−ψ 2−ψ
+
+
+ψ−1
+
+− ψ−2
+ψ−2−γ
+ψ−1
+1
+1
+1/
+(1
+−
+ψ)
+= ψ ψ−2 1 − −
+Φ− ψ−2 VR ψ−2
+
+
+1 1−ψ
+ψ−1 2−ψ
+
+Simplifying,
+ψ−1
+
+ψ−2−γ
+
+PR = KΦ− ψ−2 VR ψ−2
+
+88
+
+where
+K=ψ
+
+
+
+1
+ψ−2
+
+1 1/ (1 − ψ)
+1− −
+
+
+
+− ψ−1
+ψ−2
+>0
+
+And from (B.12), the price after the regulatory decision is
+VR
+g R PR =
+Φ
+
+
+
+1 1/ (1 − ψ)
+1− −
+
+
+
+−1
+
+Differentiating (B.10) with respect to VR , we obtain:
+
+
+ψ−2−γ
+∂PR
+∂PR
+− ψ−1
+ψ−2
+=K
+Φ ψ−2 VR
+∂VR
+∂VR
+
+
+
+ψ−2−γ
+ψ−2−γ
+ψ−1
+−1
+ψ
+−
+2
+−
+γ
+ψ−1
+− ψ−2
+−1 ∂Φ
+− ψ−1
+ψ−2
+ψ−2
+=A −
+Φ
+V
++ Φ ψ−2
+VR
+ψ−2
+∂VR R
+ψ−2
+
+
+=
+
+ψ−2−γ
+
+ψ−1
+−1 
+A
+− (ψ − 1) ∂Φ VR +Φ ψ − 2 − γ 
+Φ− ψ−2 −1 VR ψ−2
+
+ψ−2
+∂V
+ψ−2 
+{z R }
+| {z }
+{z
+} |
+|
+
+>0
+
+>0
+
+>0
+
+>0
+where the inequality follows from the fact that ∂Φ/∂VR < 0 and ψ > 2 + γ.
+Proof of Corollary 1 Recall that we had
+ψ−1
+
+ψ−2−γ
+
+1
+
+−γ−1
+
+PR = KΦ− ψ−2 VR ψ−2
+1
+
+gR = ψ 1−ψ PR1−ψ VR1−ψ
+Combining the two expressions, we have:
+gR = ψ
+
+1
+1−ψ
+
+1
+
+ 1−ψ
+ψ−2−γ
+−γ−1
+− ψ−1
+ψ−2
+ψ−2
+KΦ
+VR
+VR1−ψ
+1
+
+ψ−1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+ψ−2−γ
+
+1
+
+−γ−1
+
+= (ψK) 1−ψ Φ− ψ−2 1−ψ VR ψ−2 1−ψ VR1−ψ
+= (ψK) 1−ψ Φ ψ−2 VR1−ψ
+= (ψK) 1−ψ Φ ψ−2 VR1−ψ
+
+89
+
+γ
+−γ−1)
+(1− ψ−2
+γ
+−γ )
+(− ψ−2
+
+Differentiating gR with respect to VR ,
+
+
+γ
+1
+1
+1
+− ψ−2
+−γ )
+∂
+∂gR
+(
+1−ψ
+= (ψK) 1−ψ
+Φ ψ−2 VR
+∂VR
+∂VR
+
+
+
+
+γ
+γ
+1
+1
+1
+1
+1
+− ψ−2
+−γ ) ∂Φ
+− ψ−2
+−γ )−1
+γ
+1
+1
+(
+(
+−1
+1−ψ
+1−ψ
+Φ ψ−2 VR
++ Φ ψ−2
+−
+− γ VR
+= (ψK) 1−ψ
+ψ−2
+∂VR
+1−ψ
+ψ−2
+
+
+
+
+γ
+1
+
+1
+1
+−γ )−1 
+− ψ−2
+1
+∂Φ
+1
+γ
+(
+−1
+1−ψ
+
+
+= (ψK) 1−ψ Φ ψ−2 VR
+ ψ − 2 VR ∂VR + 1 − ψ − ψ − 2 − γ Φ
+|
+{z
+} | {z } |
+{z
+}
+<0
+
+<0
+
+<0
+
+Recall that we scaled VR such that
+VR ∂Φ
+< −γ
+Φ ∂VR
+which implies that the term inside the square brackets is less than zero. Therefore, the proof
+is complete. 
+Proof of Corollary 2 We first show that gR PR < PR0 . This is trivial since:
+
+
+1 1/ (1 − ψ)
+1− −
+
+
+
+−1
+VR
+1
+<
+1−
+= PR0
+Φ
+
+
+VR
+g R PR =
+Φ
+
+−1
+
+Next, to show PR0 < PR , consider the ratio PR /PR0 :
+ψ−1
+
+ψ−2−γ
+
+PR
+KΦ− ψ−2 VR ψ−2
+=
+−1
+VR
+PR0
+1 − 1
+Φ
+
+
+ψ−2−γ
+ψ−1
+−1
+1
+=K 1−
+Φ1− ψ−2 VR ψ−2
+
+
+
+1
+− γ
+1
+=K 1−
+Φ− ψ−2 VR ψ−2
+
+Q1
+where the last inequality depends on the magnitude of K, , γ, ψ, Φ, and VR . 
+
+90
+
+Proof of Proposition 2 Differentiating (B.10), reproduced below,
+ψ−1
+
+ψ−2−γ
+
+PR = KΦ− ψ−2 VR ψ−2
+with respect to V−R , we obtain:
+
+
+
+ψ−2−γ
+∂PR
+ψ−1
+− ψ−1
+−1 ∂Φ
+ψ−2
+ψ−2
+= KVR
+−
+Φ
+∂V−R | {z }
+ψ − 2 | {z } ∂V−R
+>0
+| {z }
+|
+{z
+}
+>0
+<0
+
+<0
+
+Note that ∂Φ/∂V−R < 0 and ψ > 2, it follows immediately that ∂PR /∂V−R > 0. 
+Proof of Proposition 3 The ratio of cross-derivatives can be computed as:
+∂PL /∂VH
+=
+∂PH /∂VL
+
+
+
+VL
+VH
+
+
+
+VL
+VH
+
+ ψ−2−γ
+
+ψ−2
+
+∂Φ/∂VH
+∂Φ/∂VL
+
+
+
+γ
+
+1− ψ−2
+
+
+∂Φ/∂VH
+=
+∂Φ/∂VL
+γ
+    ψ−2
+
+
+VL
+VH
+∂Φ/∂VH
+=
+VH
+VL
+∂Φ/∂VL
+γ
+
+
+∂PL0 /∂VH VH ψ−2
+∂PL0 /∂VH
+=
+>
+∂PH0 /∂VL VL
+∂PH0 /∂VL
+where the last inequality holds since γ > 0 and ψ > 2. So the presence of regulatory friction
+leads to asymmetric cross-subsidization. 
+
+91
+
+

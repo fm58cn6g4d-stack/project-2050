@@ -1,0 +1,139 @@
+Source: https://www.energy.gov/cmei/scep/low-income-energy-affordability-data-lead-tool
+Publisher: U.S. Department of Energy
+Retrieved: 2026-11-13
+Original SHA-256: 7790ce05784f5f190ae18bb9c8cdb7b44741e5e7dc836ab81e0c29d224da4a37
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Low-Income Energy Affordability Data (LEAD) Tool | Department of Energy
+Skip to main content
+Official websites use .gov
+A .gov website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A lock (
+Lock
+Locked padlock
+) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+Hydrocarbons and Geothermal Energy Office
+Topics
+Main Menu
+Topics
+View all Topics
+Energy Sources
+Learn about the resources and technologies used to produce power across the United States.
+Energy Usage
+Explore how energy is consumed in homes, businesses, transportation, and industry.
+Policy
+Understand the laws, regulations, and strategies that guide energy decisions and national priorities.
+Science & Innovation
+See how research, discovery, and new technologies are shaping the future of energy.
+Economy
+Discover how energy affects jobs, markets, investment, and economic growth.
+National Security & Safety
+Learn how energy systems support resilience, infrastructure protection, and public safety.
+News & Events
+Main Menu
+News & Events
+View all News & Events
+November 10, 2026
+Energy Department Closes $480 Million Loan to Expand American Energy Production and Strengthen Offshore Infrastructure in the Gulf of America
+The U.S. Department of Energy’s (DOE) Office of Energy Dominance Financing (EDF)… Read more
+View all Press Releases
+FACT SHEET: Project UPRISE Is Delivering On President Trump's Agenda To Unleash American Nuclear Power
+Nuclear
+FACT SHEET: Delivering on President Trump's Promise to Unleash Prosperity and Security for the United States and Venezuela
+FACT SHEET: The Energy Department is Ushering in a Golden Age of American Science
+Super Intelligence
+View all Fact Sheets
+Nov 12
+9:00PM EST - 11:00PM EST
+CONNECT Series Community Update Meeting
+Nov 17
+9:00AM EST - 4:00PM EST
+Savannah River EM SSAB Meeting (November 2026)
+Nov 17
+6:00PM EST - 8:00PM EST
+Portsmouth EM SSAB Meeting (November 2026)
+View all Events
+About
+Main Menu
+About
+Mission
+Supporting USA energy, science, and security priorities.
+History & Achievements
+Nobel Prize Laureates
+Contact Us
+Access general information and ways to connect with the Department of Energy.
+Careers
+Internships & Fellowships
+Apprenticeships & Workforce Development
+Work at DOE
+Funding Opportunities
+Low-Income Energy Affordability Data (LEAD) Tool
+What is the LEAD Tool?
+The Low-Income Energy Affordability Data (LEAD) Tool is an online, interactive platform that helps users make data-driven decisions on energy goals and program planning by improving their understanding of low-income and moderate-income household energy characteristics. The LEAD Tool offers the ability to select and combine geographic areas (state, county, city and census tract) into one customized group so users can see the total area for their customized geographies (e.g., specific service territories).
+Visit the LEAD Tool
+What Data is on LEAD?
+Geographic Boundaries
+National, state, county, tribal, city, disadvantaged communities, and census tract boundaries.
+Includes 50 states, DC, Puerto Rico, and federally recognized tribes.
+Energy Expenditures
+Average annual energy cost
+Average energy burden (% income)
+Household Characteristics
+Households can be broken down by:
+Area Median Income (AMI) 1
+State Median Income (SMI) 1
+Federal Poverty Level (FPL) 2
+Race, Household Income, Education, & Demographic
+Housing Unit Characteristics
+Users can analyze energy expenditures by:
+Occupant type (owner, renter)
+Building age
+Building type
+Number of units in building
+Primary heating fuel type
+1. AMI and SMI categories: 0-30%, 30-50%, 50-80%, 80-100%, 100-150%, 150%+
+2. FPL categories: 0-100%, 100-138%, 138%-200%, 200-400%, 400%+
+LEAD Data Source: U.S. Census Bureau’s American Community Survey (ACS 5-yr 2018-2022); Energy Information Administration’s utility data.
+Learn More About LEAD Tool Data
+Energy Cost
+Energy cost is defined as the amount of household expenditures spent on electricity, gas (utility and bottled), and other fuels (including fuel oil, wood, etc.). LEAD does not include transportation costs when developing energy cost metrics; however both these metrics can be examined in the Household Energy and Transportation Burden layer on the State and Local Planning for Energy (SLOPE) platform.
+Energy Burden
+Energy burden is defined as the percentage of gross household income spent on energy costs. It is calculated by dividing the average housing energy cost by the average annual household income. A household with 6% or greater energy burden is considered to be a high energy burden household .
+According to data on the LEAD tool, the national average energy burden for low-income households is 6% (i.e. an AMI of 0-80% as defined by the U.S. Department of Housing and Urban Development ), which is three times higher than that for non-low-income households, which is estimated at 2%. In some areas, depending on location and income, energy burden can be higher than 30%. Per the data available from the U.S Census Bureau’s American Community Survey (ACS) data, 42% of U.S. households, or about 51 million, are identified as low-income.
+Factors that Could Influence Energy Burden
+There are a number of different factors that could increase energy burden for households. Examples include higher-cost fuels, such as propane or other bottled fuels, and energy-inefficient homes. Energy-inefficiency can in part be due to a lack of insulation in older homes and older appliances. For households that face these challenges, there is a greater potential for quick energy and cost savings solutions. However, communities with low-income households face barriers to accessing energy technologies that can help make energy more affordable, like installing solar photovoltaic (PV) panels. In 2022, per a Lawrence Berkeley National Laboratory (LBNL) report , approximately 45% of solar PV adopters were categorized as “low-and-moderate income”, while only 23% were categorized as “low-income."
+There are factors that can prevent low-income households from accessing energy technologies, including a lack of qualifying credit and the inability to finance upgrades. LEAD Tool data estimates that 52% of low-income households are renters—not owners—of their homes. This percentage of renters further compounds the issue into a split incentive—landlords may not be motivated to pay for energy improvements, leaving potential energy bill savings out of reach for the low-income tenants.
+Energy efficiency and weatherization measures not only help to lower energy bills for low-income households, but also improve indoor air quality, safety, and comfort, thereby positively impacting human health. When hiring locally, these projects also help to shore up neighborhood housing stock and create local jobs where they are often needed.
+Low-to-Moderate-Income Households
+It is important to note that there are several different scales used to identify low- and moderate-income households in the United States. These scales have been used in the past determine who is eligible for various federal- and state-funded programs and are adjusted every year due to inflation. Further, there is no direct relationship between these scales and there is no “one-size-fits-all” approach to poverty because different states and cities across the United States have varying costs of living.
+LEAD Tool Resources
+Factsheet, FAQs, Methodology, and Data
+LEAD Tool Factsheet
+LEAD Tool Frequently Asked Questions
+LEAD Tool Raw Dataset
+Case Studies
+National Grid : Used the LEAD Tool to target energy affordability services to eligible customers in New York State.
+State of Kentucky : Used LEAD Tool data to fund energy efficiency programs for the State of Kentucky.
+Carrboro, North Carolina : Supported Carrboro in achieving building efficiencies for low-income households.
+New Haven, Connecticut : Assisted New Haven to target low-income household energy savings.
+Rochester, New York : Assisted Rochester in reducing energy costs for low-income households.
+Webinars and Tutorials
+Training and Tutorial of LEAD : A webinar that walks a user through the LEAD tool as it looks today. August 2024
+A Webinar Demonstration on LEAD : A webinar that guides state and local government users through the uses and functionalities of the LEAD tool. October 2023
+An Introductory LEAD Webinar : A webinar for State Energy Offices that walks through use-cases from LEAD. The portion on LEAD starts at 30 minutes and 18 seconds. January 2024
+Using LEAD for Energy Planning : This webinar guides users on how LEAD can be utilized by jurisdictions to create energy plans. There is a LEAD Guide that accompanies this webinar. September 2023
+Step-by-Step LEAD Guide : This guide walks users through the LEAD tool, and different considerations for stakeholders when using the tool. This document accompanies the webinar on using LEAD for energy planning.
+Next Step Resources
+Clean Energy for Low Income Communities Accelerator (CELICA) Toolkit : This toolkit provides materials to help program administrators reduce energy burden for low-income communities.
+DOE’s Weatherization Assistance Program (WAP) Resource Hub : Provides weatherization services to approximately 35,000 homes every year using DOE funds.
+ENERGY STAR’s Information on Federal Tax Credits for Energy Efficiency : Through 2032, federal income tax credits are available to homeowners, that will allow up to $3,200 annually to lower the cost of energy efficient home upgrades by up to 30 percent.
+State and Local Planning for Energy Platform (SLOPE) : Explore energy and environmental justice data layers such as LMI electricity bill savings potential and rooftop solar potential.
+Connect with Us
+Let us know how the LEAD Tool supports your energy goals, and what additional features can further support your work.
+Share your feedback and questions with us at LEAD.Tool@hq.doe.gov .
+Subscribe to the Spotlight Newsletter
+A monthly update for state, local, and K-12 stakeholders featuring resources to advance successful, high-impact, and long-lasting energy efficiency and renewable energy partnerships, programs, and projects.
+Email
+This was last updated June 2, 2025 .

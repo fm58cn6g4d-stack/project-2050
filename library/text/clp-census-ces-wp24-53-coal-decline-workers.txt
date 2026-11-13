@@ -1,0 +1,3148 @@
+Source: https://www2.census.gov/ces/wp/2024/CES-WP-24-53.pdf
+Publisher: U.S. Census Bureau, Center for Economic Studies
+Retrieved: 2026-11-13
+Original SHA-256: d6e0c34c14b50b751a977f1011fd6d5335eedc1b6fbb4649be50ae5afdeba0d3
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Transitional Costs and the Decline of Coal: Worker-Level Evidence
+by
+Jonathan Colmer
+University of Virginia
+Eleanor Krause
+University of Kentucky
+Eva Lyubich
+U.S. Census Bureau
+John Voorheis
+U.S. Census Bureau
+
+CES 24-53
+
+September 2024
+
+The research program of the Center for Economic Studies (CES) produces a wide range of
+economic analyses to improve the statistical programs of the U.S. Census Bureau. Many of these
+analyses take the form of CES research papers. The papers have not undergone the review
+accorded Census Bureau publications and no endorsement should be inferred. Any opinions and
+conclusions expressed herein are those of the author(s) and do not represent the views of the
+U.S. Census Bureau. All results have been reviewed to ensure that no confidential information is
+disclosed. Republication in whole or part must be cleared with the authors.
+Papers in the series are posted on www.census.gov/library/working-papers/series/ces-wp.html.
+For information about the series, contact Sean Wang, Editor, Discussion Papers, U.S. Census
+Bureau, Center for Economic Studies, 4600 Silver Hill Road, Washington, DC 20233,
+CES.Working.Papers@census.gov.
+
+Abstract
+We examine the labor market impacts of the U.S. coal industry’s decline using comprehensive
+administrative data on workers from 2005-2021. Coal workers most exposed to the industry’s
+contraction experienced substantial earnings losses, equivalent to 1.6 years of predecline wages.
+These losses stem from both reduced employment duration (0.37 fewer years employed) and
+lower annual earnings (17 percent decline) between 2012-2019, relative to similar workers less
+exposed to coal’s decline. Earnings reductions primarly occur when workers remain in local labor
+markets but are not employed in mining. While coal workers do not exhibit lower geographic
+mobility, relocation does not significantly mitigate their earnings losses.
+1
+0F
+
+This Version: September 2024. Correspondence: eleanor.krause@uky.edu. Affiliations: Colmer—Department of
+Economics, University of Virginia, USA; Krause—Department of Economics, University of Kentucky, USA; Lyubich—
+U.S. Census Bureau, USA; Voorheis—U.S. Census Bureau, USA. This project was supported by the Sloan
+Foundation. We thank Kyle Addison for outstanding research assistance. All errors and omissions remain our own.
+Any opinions and conclusions expressed herein are those of the authors and do not represent the views of the U.S.
+Census Bureau. The Census Bureau has ensured appropriate access and use of confidential data and has reviewed
+these results for disclosure avoidance protection (Project 7505723: CBDRB-FY23-CES019-022, CBDRB-FY24-CES019004, CBDRB-FY24-CES019-005 and CBDRB-FY24-CES023-007).
+*
+
+1
+
+Introduction
+
+The ongoing energy transition raises critical questions about its impact on American workers. The
+recent decline of coal has resulted in lower employment, reduced earnings, increased transfer receipt, and declining local revenues in coal-dependent communities (Morris et al., 2019; Hanson,
+2022; Blonz et al., 2023; Krause, 2023), but these community-level responses could reflect many
+possible dimensions of worker-level adjustment. Workers may adapt quickly to new industries or
+labor markets, minimizing welfare consequences. Alternatively, they may face substantial transitional costs due to lost firm- or industry-specific skills, or high migration and search costs. The
+coal industry’s decline provides a unique opportunity to examine the consequences of spatially
+concentrated labor demand shocks, potentially yielding insights distinct from those found in spatially diffuse industries like manufacturing (Jacobson et al., 1993; Walker, 2011; Autor et al., 2014).
+Understanding workers’ adjustment along various margins is crucial for assessing the transitional
+costs of coal’s decline, and for informing efforts to minimize the distributional labor force consequences of the broader shift away from fossil fuels.
+In this paper, we present new evidence on worker-level responses to declining industry demand, using comprehensive linked employer-employee data from the U.S. Census Bureau and
+Internal Revenue Service (IRS). Our data encompasses the universe of individuals employed in
+coal mining establishments between 2005 and 201, along with a large random sample of workers
+from other industries who serve as a control group.
+We begin by characterizing the coal mining workforce, detailing workers’ demographic profiles, earnings distributions, and geographic locations. Coal workers are predominantly male
+and non-Hispanic white, with significantly lower college atinment rates compared to the broader
+workforce. Despite this educational gap, coal workers command substantially higher earnings.
+Over our sample period, the number of coal workers declined markedly, with 80 percent of workers separating from the industry at some point. Non-employment was the modal activity for more
+than 30 percent of separated workers during non-coal years, suggesting substantial transitional
+costs. Descriptively, we document large and persistent earnings penalties following separations
+from the industry, underscoring the economic challenges faced by displaced coal workers.
+Next, we quantify the impact of coal’s decline on workers’ cumulative earnings and employment, examining sectoral and geographic mobility as potential mitigating factors. Our iden-
+
+1
+
+tification strategy exploits differential worker-level exposure to the post-2011 “coal shock,” a period when U.S. coal mining employment contracted by over 50 percent due to competition from
+cheaper natural gas and resulting waning demand for coal (Kolstad, 2017; Linn and McCormack,
+2019; Coglianese et al., 2020; Davis et al., 2022).1 We measure workers’ exposure based on their
+pre-shock “attachment” to the coal mining industry, defined by their employment history in the
+years preceding the coal shock. The richness of our data enables us to compare observationally
+similar workers who differ only in their pre-shock coal industry tenure. This approach isolates the
+causal effect of industry exposure on subsequent labor market outcomes, allowing us to decompose effects along extensive and intensive margins.
+Our analysis reveals substantial earnings losses and increased non-employment between
+2012 and 2019 for workers most exposed to the coal shock relative to observationally similar workers with less or no coal industry exposure. On average, workers employed full-time in coal mining
+pre-shock experienced cumulative earnings declines equivalent to 1.6 times their 2007–2011 average annual earnings. We find significant intensive margin losses, with exposed workers earning
+17 percent less annually when employed. Notably, the extensive margin also plays a crucial role,
+with exposed workers employed one-third of a year less than their counterparts. This is distinct
+from results in previous studies on the labor market consequences of trade shocks and environmental regulations (Walker, 2013; Autor et al., 2014).
+Aggregate earnings losses stem primarily from years in which exposed coal workers were no
+longer employed in “Mining, Quarrying, and Oil and Gas Extraction” (NAICS code 21) between
+2012 and 2019. Exposed coal workers lose about 1.7 years’ worth of earnings outside of their initial
+industry over this period – 66 percent of the sample mean – due to both extensive and intensive
+margin responses. They work 1.1 fewer years outside of mining relative to observationally similar
+workers employed outside of their initial industries, a 40 percent decline relative to the sample
+mean.2 While exposed coal workers face 12-16 percent annual earnings reductions within mining,
+they suffer 30 percent lower annual earnings in other industries.
+We find no strong evidence that geographic mobility mitigates aggregate losses. Exposed
+1
+Demand for coal has fluctuated substantially over the past century due to macroeconomic conditions, improvements in mining technology, changes in the supply of competing commodities, and other factors. After declining by
+nearly 100,000 workers between the early 1980s and 2000 (a decline of about 57 percent), the industry added about
+15,000 jobs in the first decade of the 21st century (Humphries, 2017). Unlike many other tradable industries, coal mining experienced a small uptick in employment during the Great Recession, which just preceded this most recent coal
+shock.
+2
+This includes years spent in non-employment.
+
+2
+
+coal workers experience significant earnings declines both within and outside their initial Commuting Zones (CZs) when not employed in mining. While aggregate earnings losses are driven
+by years in which workers remain inside of their initial CZs, losses are large across labor markets when compared to sample means. Exposed coal workers spend fewer years employed and
+earn less during years of employment across labor markets. Decomposing earnings losses across
+industrial sectors reveals that coal workers experience earnings penalties even during years in
+which they are employed in other ”high-wage” industries that, on average, pay the same as or
+more than mining. Across a range of measures, our estimates imply that exposed coal workers do
+not recoup lost earnings by reallocating across sectors or geographies.
+Finally, we document significant increases in Social Security Disability Insurance (SSDI) payments among workers most exposed to coal’s decline, suggesting that coal workers may recoup
+some losses, but through what is arguably a “second-best” transfer mechanism. Our findings paint
+a clear picture: aggregate losses are driven by industry separation, and neither cross-industry or
+cross-labor market transitions attenuate these losses. Thus, as the clean energy transition shifts
+employment opportunities away from labor markets centered around extractive industries, exposed workers may face particularly high transitional costs compared to other sectoral employment shocks.
+We make several contributions. First, we extend the literature on energy transitions by examining worker-lever effects, building on an extensive body of work on community-level impacts (Black et al., 2002, 2003, 2005; Jacobsen and Parker, 2016; Morris et al., 2019; Hanson, 2022;
+Krause, 2023). Together, these studies provide compelling evidence that adverse shifts in demand
+negatively impact affected communities, with consequences ranging from large declines in total
+employment and average wages to increased reliance on government transfers. However, the
+underlying mechanisms – whether these results reflect shifts in population composition or individual losses – remain ambiguous.3 We provide comprehensive evidence on individual workers’
+margins of adjustment through following the post-2011 contraction in coal demand. Our detailed
+residential and employment histories allow us to decompose aggregate effects along various margins of adjustment, revealing that rellocation across industries and labor markets provides limited
+mitigation of transitional costs for workers most exposed to the decline in coal.
+3
+
+Recently, Rud et al. (2024) examine the worker-level earnings effects of displacement from the coal industry in the
+UK context.
+
+3
+
+Second, we contribute to the broader literature on the transitional costs of labor demand
+shocks. Previous studies have shown that job displacement can lead to substantial and persistent
+earnings losses, particularly in distressed labor markets or during economic downturns (Topel,
+1990; Blanchard and Katz, 1992; Jacobson et al., 1993; Davis and von Wachter, 2011; Walker, 2013;
+Autor et al., 2014; Notowidigdo, 2020; Lachowska et al., 2020; Schmieder et al., 2023). While existing work has focused on the consequences of “trade shocks” (Autor et al., 2014; Pierce and
+Schott, 2016; Acemoglu et al., 2016; Hakkala and Huttunen, 2016; Keller and Utar, 2023) or environmental regulations (Greenstone, 2002; Walker, 2011, 2013), our study examines a more regionally concentrated shock. While coal mining represents a small share of total employment, it
+accounts for a meaningful share of local employment in coal-rich regions. The regional concentration of coal mining may exacerbate worker impacts by reducing local reallocation opportunities. Moreover, the highly specialized human capital developed in coal mining may not transfer
+readily to other industries. Consistent with this, our findings demonstrate that neither reallocation across industries nor labor markets appear to significantly mitigate transitional costs. Instead,
+non-employment is a key margin of adjustment in this spatially concentrated labor demand shock.
+The remainder of this paper is organized as follows. We describe the construction of our
+data in section 2. In section 3, we present new facts about the demographic characteristics, earnings, and geographic distribution of coal workers, and describe the ways in which these characteristics have evolved over time. We also present facts about job separations in coal mining
+and describe how earnings and income evolve with these separations. In section 4, we detail our
+quasi-experimental approach and present estimates of the worker-level response to the coal shock.
+Section 5 concludes.
+
+2
+
+Data and Sample Construction
+
+Building on the data linkage infrastructure in Colmer et al. (2022), we combine the Census Environmental Impacts Frame (Voorheis et al., 2023) with administrative tax records (Forms W-2 and
+1040) and the American Community Survey (ACS) to construct a balanced panel of the 2005–2021
+employment, wage, and location histories of all individuals whose primary source of earnings in
+any year during the 17-year period of study was at an establishment in the coal mining industry.
+We identify coal mining establishments in the Census Bureau’s County Business Patterns
+
+4
+
+Business Register (CBP-BR) and Longitudinal Business Database (LBD) as those with NAICS
+codes 2121 (coal mining) or 213113 (support activities for coal mining). We identify all employers
+(indexed by IRS Employer Identification Numbers, EIN) associated with these coal mining establishments using EIN-establishment links in the Business Register. Between 2005 and 2021, there
+were at most about 1,300 distinct coal mining establishments in a given year, but the number of
+coal mining establishments has declined precipitously since 2011 (Figure 1).
+Figure 1: Total coal mining establishments & employment, 2005–2021
+
+Note: This figure shows the total number of coal mining establishments (on the left axis) and total coal mining employment (on the right axis) between 2005 and 2021. Workers are identified as coal miners if their primary employer (in
+terms of total earnings) in a given year was a coal mining establishment. Coal mining establishments are defined as
+those with NAICS codes 2121 and 213113. The number of employees and establishments are both rounded in line with
+Census disclosure rules. Source: ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s, and Census
+Business Register.
+
+To construct a comprehensive panel of U.S. coal workers, we begin with the Environmental
+Impacts Frame (EIF) from 2005 to 2021 (Voorheis et al., 2023). The EIF is a microdata infrastructure
+that constructs consistent residential histories, and provides basic demographic information (age,
+race, ethnicity, and sex) for nearly the entire U.S. population using several sources of administrative data available within the Census Bureau. We identify the set of workers ever employed in
+coal mining by linking the EIF to the universe of IRS Form W-2s, using the EIN for the employer
+from which the worker received the greatest earnings in each year. If an EIN-year pair includes
+multiple establishments, we link the worker to the establishment that is geographically closest
+
+5
+
+to the worker.4 Our sample comprises individuals who receive W-2 earnings from a coal mining
+establishment in at least one year between 2005 and 2021. We construct a balanced panel dataset
+for these individuals, combining the EIF and W-2s to capture worker demographics along with
+complete employment and residential histories over this period, including years in which workers do not work in coal. We augment this employer-employee panel with firm characteristics from
+the LBD, including total employment, revenue, and industry information. To further enrich our
+dataset, we incorporate additional demographic information for the approximately 20 percent of
+the sample who responded to the American Community Survey (ACS). This includes education,
+occupation, marital status, and family structure.5
+Our comprehensive coal worker panel consists of approximately 218,000 individuals whose
+primary source of W-2 income was a coal mining establishment in at least one year between 2005
+and 2021. Because we define a worker’s place of employment by the NAICS code of his or her
+establishment, our definition of coal mining employment includes individuals engaged in support roles within the establishment as well as individuals directly employed as coal miners. We
+also capture individuals who work only part-time or relatively few hours in the industry, as long
+as it is their primary source of W-2 earnings in any given year. The coal workforce peaked at
+over 99,000 in 2011, and then fell by over 50 percent over the subsequent decade (Figure 1).6 This
+precipitous decline in coal demand, which we term the recent “coal shock”, was primarily driven
+by macroeconomic factors, notably the advent of inexpensive natural gas due to advances in hydraulic fracturing technology (Kolstad, 2017; Linn and McCormack, 2019; Coglianese et al., 2020;
+Davis et al., 2022).7
+In addition to the panel covering the universe of coal workers, we define an age-restricted
+panel of around 142,000 coal workers who were born between 1955 and 1985, such that they are
+between the ages of 20 and 66 throughout the entire study period, and at most 64 by 2019.8 We
+4
+We define geographic proximity based on the straight-line distance between the latitude and longitude of the
+worker in the EIF and the establishment in the CBP-BR. Our results are insensitive to matching workers to industries
+based on the (employment-weighted) modal industry within an EIN-year.
+5
+These characterstics are measured in the year in which the worker responded to the ACS.
+6
+Our coal employment figures differ slightly from official government statistics. Appendix Figure A1 our data with
+County Business Patern (CBP) estimates, which closely align with Mine Safety and Health Administration (MSHA).
+7
+Coglianese et al. (2020) attribute 92 percent of the decline in coal production between 2008 and 2016 to the falling
+price of natural gas relative to coal, with environmental regulations accounting for an additional six percent. Notably,
+this period of declining demand for coal is not the first shock to affect the industry. The coal industry has historically
+experienced multiple boom-bust cycles. For instance, previous studies have investigated the impacts of the surge in
+demand for coal during the 1970s and the subsequent collapse in the 1980s on Appalacian coal communities (Black et
+al., 2002, 2003, 2005).
+8
+This restriction omits about 35 percent of the original panel of workers who ever worked for a coal mining estab-
+
+6
+
+provide descriptive statistics covering both the comprehensive panel and age-restricted panel of
+coal workers, spanning 2005–2021.
+For our quasi-experimental analysis, we supplement the age-restricted panel of coal workers
+with an identically constructed panel of the employment and residential histories for a random
+10-percent subsample of workers born between 1955 and 1985 who responded to the 2010 ACS.9
+We focus our analysis on individuals in this combined coal and non-coal panel who worked “fulltime” in each of the five years preceding the recent coal shock (2007 to 2011), where full-time is
+defined as reporting earnings in excess of what one would earn by working at least 1,600 hours
+(about 30 hours per week) at the federal minimum wage.10 We omit a small number of workers
+who died during the sample period, those whose location could not be determined, and those
+with negative AGI, leaving a final sample of around 152,000 individuals.11 Of these, about 29,500
+worked full-time in the coal industry in every year between 2007 and 2011, while the remainder
+were employed full-time in other industries during at least some of these pre-shock years. Our
+quasi-experimental analysis concludes in 2019 to avoid the confounding effects from the Covid-19
+pandemic and its associated economic disruptions.
+
+3
+
+The coal workforce
+
+We begin by characterizing coal workers. We then describe job separations from coal mining
+establishments and present descriptive evidence on the evolution of earnings and income with
+these separations.
+
+3.1
+
+Who works in the coal industry?
+
+General demographic and earnings characteristics of coal and non-coal workers are provided in
+Table 1. Age, earnings (wages), and Adjusted Gross Income (AGI) refer to 2011 values, with
+earnings and AGI adjusted to 2019 dollars using the CPI-U deflator. The statistics in column 1
+are based on the comprehensive coal worker panel, including the entire universe of individuals
+lishment. This omitted group is composed of roughly equal numbers of young (born after 1985) and old (born before
+1955) coal workers.
+9
+Our conclusions are robust to different subsampling strategies. For example, using a 20-percent subsample of ACS
+respondents born between 1955 and 1985 living in a defined bandwidth outside of coal counties — thus ensuring that
+non-coal workers’ earnings and employment outcomes are not influenced by the local spillover effects of adverse labor
+demand shocks — produces results quantitatively similar to those presented in this paper.
+10
+In 2011, this means that reported earnings were at least $11,600.
+11
+Sample sizes are rounded to the nearest 100 or 1,000 in line with Census disclosure rules.
+
+7
+
+Table 1: Characteristics of workers
+(1)
+All coal workers
+92.73
+(25.96)
+
+(2)
+FT (“treated”) coal workers
+95.92
+(19.79)
+
+(3)
+FT (“control”) workers
+67.84
+(46.71)
+
+(4)
+Entire FT sample
+73.31
+(44.23)
+
+Non-Hispanic white (%)
+
+91.29
+(28.20)
+
+95.12
+(21.55)
+
+81.63
+(38.72)
+
+84.25
+(36.43)
+
+College degree (%)
+
+9.95
+(29.93)
+
+6.79
+(25.15)
+
+37.67
+(48.46)
+
+35.36
+(47.81)
+
+Homeowner (%)
+
+84.00
+(36.66)
+
+90.78
+(28.94)
+
+81.32
+(38.97)
+
+82.03
+(38.39)
+
+Age
+
+40.6
+(14.6)
+
+43.0
+(9.0)
+
+41.6
+(8.9)
+
+41.9
+(8.9)
+
+Wages ($1,000s)
+
+63.84
+(312.9)
+
+92.02
+(47.67)
+
+76.64
+(148.2)
+
+79.64
+(134.8)
+
+AGI ($1,000s)
+
+94.61
+(1276)
+
+110.9
+(103.5)
+
+110.4
+(424.2)
+
+110.5
+(383.3)
+
+Observations
+
+218,000
+
+29,500
+
+123,000
+
+152,000
+
+Male (%)
+
+Source: ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s and Census Business Register. Age,
+earnings, and Adjusted Gross Income (AGI) refer to 2011 values, with earnings and AGI adjusted to 2019 dollars.
+Educational attainment and homeownership status are drawn from ACS. Non-coal workers were identified from the
+2010 ACS, and thus educational attainment and homeownership for these observations are 2010 reported values. These
+characteristics for coal workers are measured in the year in which the respondent took the survey, which may differ
+from 2010. The number of observations used to compute the means for the variables indicated may differ from the total
+number of observations indicated in the final row, as only about 20 percent of coal workers are matched to the ACS,
+and some workers who ever worked for coal (column 1) have missing wages or AGI in 2011. The sample in column 1
+is the comprehensive coal panel. The sample in column 2 is exposed coal workers working full-time in coal from 2007
+to 2011, defined in the text. The sample in column 3 is other full-time workers who worked in coal for fewer than five
+years between 2007 and 2011, defined in the text. The sample in column 4 is the summation of the samples in columns
+2 and 3. Standard deviations are in parentheses.
+
+who worked for a coal mining establishment as their primary source of earnings at some point
+during the period of analysis. The statistics in column 2 are based on the sample of 29,500 fulltime coal workers born between 1955 and 1985. This group of workers —- with substantial tenure
+in the coal industry and greater exposure to the subsequent coal shock — serves as the treated
+group of workers in our quasi-experimental analysis. We refer them as exposed coal workers
+going forward. Column 3 provides summary statistics for the age-restricted group of workers
+who worked full-time between 2007 and 2011, but who did not work for a coal establishment
+in all five of these years. This group of workers — with less exposure to the recent coal shock —
+serves as the control group in our quasi-experimental analysis. The sample in column 4 consists of
+the summation of the workers described in columns 2 and 3, and thus includes the entire sample
+of age-restricted workers who worked full-time between 2007 and 2011.
+Comparing the statistics in columns 2 and 3, exposed coal workers are more likely to be
+8
+
+male, white, and less likely to have a college degree than other full-time workers less exposed
+to the macroeconomic decline in coal. Only seven percent of exposed coal workers had a college
+degree, compared to 38 percent of other full-time workers.12 Despite having lower educational
+attainment, the average full-time coal worker received roughly $16,000 more in total wages (W2 earnings) in 2011 than other full-time workers in the sample. That coal offers relatively high
+wages to individuals with relatively low levels of educational attainment previews the potentially
+disruptive consequences that contractions in demand for coal may have for exposed workers. The
+adjusted gross incomes of the two groups of full-time workers were roughly similar in 2011.
+Due to the high spatial concentration of coal deposits, the geography of coal mining employment tends to be highly concentrated as well, with large concentrations of workers in Central
+Appalachia and parts of the Mountain West. Figure 2 maps the concentration of coal mining employees as a share of total employment in 2011 across the continental United States. County-level
+coal mining employment is from the Mine Safety and Health Administration (MSHA), where employment is based on the county in which the coal mine is located. Total employment is retrieved
+from the public Quarterly Census of Employment and Wages (QCEW) data.13 While 50 percent
+of counties with any coal employment hosted relatively few numbers of coal workers (median=16
+coal workers per 1,000 employees), the right tail of the distribution is very long. A county at the
+95th percentile of the distribution among counties with any coal mining employment had 227 coal
+mining workers per 1,000 employees. A county at the 99th percentile had 361 coal workers per
+1,000 employees. In contrast, among counties with any construction employment in 2011, the median county had 40 construction workers per 1,000 employees, while a county at the 95th (99th )
+percentile of the distribution had 94 (143) construction workers per 1,000 employees.14
+Another way to view spatial concentration is by estimating the industry’s geographic Herfindahl–Hirschman index (HHI):
+HHIj =
+
+X
+
+s2ij
+
+i
+
+where sij is county i’s share of total employment in industry j. The HHI is produced by summing
+12
+
+Educational attainment, homeownership, and sex reported in Table 1 are drawn from the subset of coal workers
+who took this survey between 2005 and 2021 and thus they are based on the year in which the respondent took the
+survey. For non-coal workers drawn from the ACS subsample, characteristics are based on 2010 responses.
+13
+We use previously released aggregate statistics for these maps to avoid additional disclosure from our microdata,
+noting that while these aggregate statistics deviate slightly from the confidential Census data, there are no qualitative
+differences between aggregates from the internal microdata and the public use statistics.
+14
+County-level construction employment is based on estimates produced by the QCEW.
+
+9
+
+the square of this value across all counties. The resulting HHI for coal mining is 164.5, which
+is four times larger than other major industries, including construction (36), manufacturing (36),
+and trade, transportation, and utilities (40).15 The right tail of coal mining employment is predominately composed of counties in Eastern Kentucky and West Virginia. As a share of the U.S. coal
+workforce in 2011, the largest numbers of coal workers were located in West Virginia (hosting 26%
+of the coal workforce), Kentucky (20%), Pennsylvania (9%), Wyoming (7%), and Virginia (6%).16
+Coal communities are typically situated in more rural settings where the local economy has
+centered around coal extraction and processing. Employment opportunities outside coal are often
+limited due to the lack of outside options within the community and the relative distance to more
+urban areas (Partridge et al., 2013; Carley et al., 2018). Given these considerations, the adjustment
+costs associated with local labor demand shocks may be higher in these communities than those
+associated with labor demand shocks experienced in more urban or economically diversified contexts.
+
+3.2
+
+Job separations in coal
+
+As indicated by Figure 1, the number of coal workers declined substantially over the 2005–2021
+period, with losses concentrated in the years following coal’s 2011 peak. Here, we describe separations from coal mining establishments, including the number and frequency of these separations
+as well as descriptive evidence on the evolution of earnings prior to and following separations
+from the industry.
+3.2.1
+
+Separations from coal mining establishments
+
+Of the 218,00 workers whose primary labor income was earned at a coal mining establishment in
+at least one year during the 2005–2021 period, 174,000 (80 percent) separated from coal at some
+point during the 17-year period. We define a separation from the industry as transitioning from
+a state in which a coal mining establishment is a worker’s primary source of earnings to one in
+which it is not. This separation could occur because the worker transitions to working for a noncoal establishment or because the worker transitions into a state of not earning wages (e.g., to
+15
+
+County-level employment in these industries is again derived from the QCEW.
+Individual workers might commute across county or state lines to work in coal mines. These state-level statistics
+are based on mine-level data from the MSHA and thus do not capture the location of residence of the worker, but
+the location of employment. Our individual-level data distinguishes between location of residence and location of
+employment.
+16
+
+10
+
+Figure 2: Coal share of employment, 2011
+
+Coal share of
+employment per
+1,000 workers
+0 to 25
+25 to 50
+50 to 100
+100 to 200
+200 to 300
+300 to 500
+None
+
+Note: This figure shows the coal mining share of total employment in 2011. Coal mining employment is defined as the
+number of workers employed at coal mines in the county, based on data from the MSHA. Total employment is retrieved
+from the QCEW. Source: public data from MSHA and QCEW
+
+enter unemployment or retirement).17 Many workers transition into and out of working for a coal
+mining establishment over the sample period. To summarize the timing of these separations, we
+define the final separation as the final year in which the worker transitions away from coal over
+the study period. Figure 3 shows a histogram of these final separations for the universe of coal
+workers in the U.S. who separated from the industry at least once over the 17-year period. The
+year indicates the final year in which the worker’s primary earnings were drawn from the coal
+mining industry. We omit the final year of our sample, 2021, to avoid the mechanical classification
+of it being a worker’s final year in coal. 2012 was the peak “final” year in coal mining, followed
+closely by 2015. The frequency of separations was relatively evenly distributed across most other
+years. This is consistent with the conclusions drawn from Figure 1, which showed that the decline
+in total coal mining employment was relatively steady after 2011.
+Our data indicate that annual employment figures in the coal mining industry in any given
+year significantly understate the the total workforce that has relied on this industry as a primary
+17
+
+This could also reflect a worker transitioning from a state in which coal is his primary source of earnings to his
+secondary source of earnings.
+
+11
+
+Figure 3: Final separations from the coal industry by year, 2005–2020
+
+Note: Final year is defined as the final fiscal year in which the worker’s primary earnings were drawn from the coal
+mining industry over the sample period. All coal workers includes all workers whose primary earnings were drawn
+from the coal mining industry in any year over the 2005–2021 period who separated from the industry over the sample
+period. The age-restricted coal panel further restricts this sample to individuals born between 1955 and 1985. Source:
+ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s, and Census Business Register.
+
+income source. The cumulative number of individuals whose main earnings derived from coal
+mining between 2005 and 2021 (218,000) is more than double the industry’s peak employment
+2011 (99,500) and over five times the current workforce. This disparity suggests that there is substantial churn in the coal workforce, with many workers only employed in the industry for brief
+spells. Appendix Figure A2 plots the distribution of total years of primary employment in coal
+mining over the 2005–2021 period. Over half of the workers in our sample were primarily employed in coal mining for fewer than five years during this 17-year span. This pattern persists
+even when considering the age-restricted sample, with 47 percent of this cohort employed in coal
+for fewer than five years over the 15-year period from 2005–2019. This figure likely understates
+total industry tenure, as it does not capture workers still connected to the industry in a part-time
+capacity while earning greater income at a non-coal employer, nor does it account for employment
+histories predating 2005. Nevertheless, our findings indicate that a large share of workers are only
+
+12
+
+marginally attached to the industry.
+To assess the labor market outcomes of coal workers during non-coal employment years,
+we analyze their primary sources of earnings and the prevalence of non-employment. For each
+worker in our coal panel, we determine the modal 2-digit NAICS industry of primary earnings
+across non-coal years. We include non-employment, defined as reporting no W-2 earnings, as its
+own category. For instance, a worker with eight years in coal, five in manufacturing, and two in
+management would be classified as having manufacturing as their modal non-coal industry. For a
+worker with three years in coal, two in construction, and ten years of non-employment, the modal
+non-coal industry would be classified as non-employment.
+Figure 4: Modal industry during non-coal years
+
+Note: All coal workers refers to all workers whose primary earnings were drawn from the coal mining industry in any
+year over the 2005–2021 period. The age-restricted coal panel further restricts this sample to individuals born between
+1955 and 1985. Modal industry refers to the most frequent industry from which the worker earned his or her primary
+wages in the years in which coal was not the primary source of earnings. Non-employment is included as an “industry” of employment when calculating modal industry of employment. Industries are defined based on 2-digit NAICS
+codes: Mining (21), Construction (23), Manufacturing (31–33), Transportation and warehousing (48–49), Management
+of Companies and Enterprises (55), Administrative and Support and Waste Management and Remediation Services
+(56). Other includes all other 2-digit NAICS codes. Source: ACS 2005–2021 linked with the Environmental Impacts
+Frame, IRS W-2s, and Census Business Register.
+
+Figure 4 reports the major industries from which coal workers received earnings in non-coal
+years. We highlight the top six 2-digit sectors, aggregating the remainder into an “other” category.
+13
+
+Non-employment emerges as the predominant state for 44 percent of all coal workers during their
+non-coal years. To mitigate potential confounding effects from education or retirement, we recalculate this distribution for our age-restricted sample. Even within this working-age cohort,
+non-employment remains the modal non-coal industry for the plurality (33 percent) of individuals. Among remaining sectors, coal workers are most commonly employed in construction (10%),
+manufacturing (9%), and mining (6%).18
+The evidence presented in this section, indicating that coal employment has declined substantially since its peak in 2011, is consistent with other work that uses publicly available data to
+examine the evolution of coal mining employment in recent decades. The richness of our data
+allows for several other insights. First, aggregate statistics substantially understate the number of
+individuals who relied on the industry as their primary source of earnings at some point. Our coal
+worker panel encompasses more than twice the number of workers employed during the industry’s peak year. Second, many workers appear only marginally attached to the industry, working
+primarily for coal for relatively few years over the 2005–2021 period. Finally, non-employment is
+highly prevalent; it is the modal activity for the plurality of coal workers in our sample in years
+outside the coal industry.
+3.2.2
+
+Descriptive evidence on the evolution of earnings with separations
+
+In this section, we offer descriptive evidence on the earnings trajectories of workers following separations from the coal industry. We define a separation or “switch” event as a transition between
+firms from year t to t + 1, including transitions to non-employment.19 We define this event as
+a separation from the coal industry if the worker switches from working in coal in year t to not
+working in coal in year t + 1.20 We contrast these coal separations to non-coal separations, which
+are defined as all firm separations that are not separations from the coal industry. For this analysis,
+18
+
+These correspond to 2-digit NAICS codes 23, 31–33, and 21, respectively.
+We base our definition of firm on the firm ID as classified by the LBD. In most cases, this is the same as the firm’s EIN
+code. However, if a firm has multiple employer entities (EINs), the firm ID will differ from the EIN code. Identifying a
+firm “switch” based on EIN code produces nearly identical results to those presented here.
+20
+Because we define coal workers based on their primary source of earnings, a transition from working in coal as
+a primary source of earnings to a secondary source of earnings will be defined as a separation event. This will likely
+understate the earnings losses associated with separation events. Not included in this definition are workers who
+switch from a coal establishment to a non-coal establishment but remain employed at the same firm. Because we match
+workers to establishments based on the EIN codes of the firms from which they received their primary earnings and use
+geographic location to determine a worker’s establishment in the relatively rare cases for which multiple establishments
+are associated with the same firm in a given year, there is likely greater measurement error associated with within-firm
+“switching.” Our results are qualitatively similar to using a relatively broader definition of separations which identifies
+separations based only on whether the worker is associated with a coal establishment or not.
+19
+
+14
+
+we combine the age-restricted coal panel to the random sub-sample of 2010 ACS respondents and
+limit the sample to workers who were employed (i.e., received positive earnings) in years t and
+t − 1, such that they worked at least two consecutive years prior to defining the separation event.21
+We include all years 2005 through 2021 in the analysis, but our results are robust to omitting years
+2020 and 2021.
+To summarize the evolution of earnings prior to and following a separation event, we follow
+a local projections approach (Jordà, 2005, 2023). Specifically, for each worker-year observation,
+we define the difference in outcomes at different time horizons, compared to t − 1: ∆yi,t+h . This
+allows us to explore multiple separation events, rather than restricting to the “first event” a worker
+experiences, or requiring us to “stack” events for each worker. For a given separation event at time
+t, Switchit , we then trace out the conditional mean or earnings in the periods before and after the
+separation, relative to t − 1.22
+Our empirical specification for this descriptive analysis reflects a bivariate regression estimated for each time horizon, h,
+′
+
+∆yi,t+h = β h Switchit + Xit + αi + γt + δr + εit
+
+(1)
+
+where ∆yi,t+h is the change in W-2 earnings (wages) for worker i in year t + h relative to t − 1.23
+Switchit is an indicator equal to one if worker i separates firms between year t and t + 1, and
+zero otherwise. Again, we consider both coal separations and non-coal separations to contrast
+the evolution of earnings across these two types of events.24 In our simplest specification, we
+include no worker-level covariates or fixed effects such that βh displays unconditional variation
+′
+
+in the data. We build on this by next controlling for a vector of worker-level covariates, Xit that
+includes worker i’s age in year t, an indicator for whether the worker is male, and an indicator
+for whether the worker is non-Hispanic white, as well as Census region and year fixed effects, δr
+and γt . Finally, in our richest specification, we add to the regression worker fixed effects, αi . Note
+21
+
+This panel includes only workers between 1955 and 1985. We also omit a small number of workers who reported negative AGI during any year of the sample period. Note that this differs from our sample used for the quasiexperimental analysis, as we do not limit the sample to workers who worked full-time in all years between 2007 and
+2011.
+22
+This approach is similar to that in Rud et al. (2024), who examine the earnings impact of displacement from the UK
+coal industry for 2,000 displaced coal miners.
+23
+Earnings and AGI are missing for worker-year observations in which the worker reported no W-2 or 1040, respectively. Observations for which both variables are missing are omitted. We impute earnings as zero when earnings are
+missing but AGI is observed. Our results are robust to not imputing these values.
+24
+Because we cannot observe the month in which a worker leaves coal, we define the switch event as the final year in
+which the worker still reports earnings from the coal industry. For example, if a worker separates from a coal mining
+establishment in October 2016, 2016 will be defined as the “switch” event.
+
+15
+
+worker and year fixed effects are collinear with time-invariant worker-level characteristics as well
+as age, and thus these controls are omitted from this specification. In all specifications, we cluster
+standard errors at the commuting zone level. Our results are robust to two-way clustering at the
+worker- and firm-level, as well as including lagged separations in the regression.
+Figure 5 presents the evolution of earnings following coal and non-coal separations. We document that earnings are quite stable in the years preceding a firm separation from coal mining.
+Coal separations are associated with substantial and persistent earnings losses. Workers experience an immediate decline in earnings of about $13,000 in the separation year, with unconditional
+losses growing to about $30,000 per year in the subsequent year and persisting at around $20,000
+five years post-separation (Panel A). The magnitude of losses following a coal separation is quite
+robust across specifications. In all rows in the left panel of Figure 5, earnings fall by about $30,000
+in the year immediately following relative to the year prior to the coal separation. Including
+worker fixed effects (Panel C) reveals a larger recovery, but workers still earn about $8,500 less
+five years following the separation event.
+To put the magnitude of these losses into context, Appendix Figure A3 displays how coal
+separations affect cumulative, normalized earnings. Using the same research design described by
+equation 1, we instead define the outcome variable as cumulative earnings between year t and
+t + h, normalized by average annual earnings in the five years preceding the separation event (i.e.,
+years t − 1 through t − 5). The results suggest that coal workers lose the equivalent of over two
+years’ worth of pre-separation earnings in the five years following separation. These patterns are
+descriptive, capturing the variation in the data rather than the causal effects of separation, per
+se. Descriptively, however, we see that coal separations exhibit negligible pre-trends, followed by
+large earnings losses that fail to recover. This is consistent with the notion that most coal separations are consequences of the relatively rapid decline in demand for coal that was macroeconomic
+in nature, and thus exogenous to individual coal workers.
+The right panels of Figure 5 offer a much different picture regarding the evolution of earnings following a non-coal separation. The average firm separation is frequently endogenous to
+a worker’s expected outcomes. Workers might leave the industry for better job opportunities
+elsewhere, introducing an upward bias in the relationship between separation and subsequent
+earnings. When workers are laid off, the decision to lay one worker off rather than another may
+be correlated with factors that shape their future earnings potential. This is evidenced by the secu16
+
+Figure 5: Separations and the Evolution of Earnings
+
+(a) Coal; no controls
+
+(b) Non-coal; no controls
+
+(c) Coal; basic controls
+
+(d) Non-coal; basic controls
+
+(e) Coal; worker FE
+
+(f) Non-coal; worker FE
+
+Note: This figure plots the bivariate relationship between a firm separation and the evolution of earnings five years on
+either side of the separation event. The left panels reflect separations from coal establishments, and the right panels
+reflect all other firm separations. The sample is limited to workers born between 1955 and 1985 with non-negative
+AGI and reporting non-zero earnings in years t and t − 1. Each estimate is the result of a separate bivariate regression
+estimated for each time horizon as presented in equation 1. The top two panels include no controls. The middle two
+panels control for age, a dummy for being male, a dummy for being non-Hispanic white, and year and region fixed
+effects. The bottom two panels include year, region, and worker fixed effects. Shading reflects 95 percent confidence
+interval. Standard errors are clustered at the Commuting Zone. Source: ACS 2005–2021 linked with the Environmental
+Impacts Frame, IRS W-2s, and Census Business Register.
+
+lar decline in wages in the years preceding non-coal separations and the relatively rapid recovery
+experienced following these separations. In all models, non-coal workers’ earnings appear on a
+
+17
+
+downward trajectory in the years leading up to the separation event. Workers earn, on average,
+about $6,000 less in the year following relative to the year prior to the separation — about one-fifth
+of the loss following a coal separation. Earnings ultimately recover quickly to pre-separation levels. Again, the relative shape and magnitude of these earnings changes are quite consistent across
+panels.
+The evidence presented in this section indicates that individual workers who separate from
+firms in the coal mining industry experience relatively large earnings and income losses which
+fail to recover to their pre-separation peaks. These separations are discrete events with immediate
+earnings consequences, but the decline in coal over our period of analysis was an ongoing process
+to which workers may have adjusted along various margins. In the following section, we consider these different margins of adjustment with a longer-run focus that offers a more systematic
+evaluation of worker-level responses to the sectoral collapse.
+
+4
+
+Quasi-experimental Evidence: Margins of Adjustment
+
+Building on our descriptive analysis of firm separations, we now broaden our focus to capture
+the multifaceted labor market adjustments precipitated by the prolonged decline in coal demand.
+While job loss is a significant consequence of the coal shock, it represents only one dimension of
+workers’ possible responses to this sectoral shift. We draw upon the research design introduced
+by Autor et al. (2014) – who evaluate the consequences of rising import penetration – to examine the impact of exposure to the coal shock on cumulative earnings, years of employment, and
+changes in earnings when employed. We focus on the evolution of W-2 earnings (wages), but
+our conclusions are qualitatively similar if we look at broader measures of income as well. We
+decompose our results to examine changes within and outside workers’ original firms, industries,
+and commuting zones. Additionally, we explore alternative adjustment mechanisms, including
+increases in disability insurance uptake and early retirement. Taken together, the results in this
+section provide a comprehensive picture of workers’ responses to the coal industry’s decline.
+
+4.1
+
+Empirical approach
+
+Our empirical approach leverages the fact that some workers are more or less exposed to the largescale, macroeconomic decline in demand for coal beginning after 2011 based on their labor market
+experience in, or attachment to, the industry. Workers with greater tenure at coal mining estab18
+
+lishments in the five years prior to coal’s decline (2007–2011) are more attached to the industry,
+and therefore relatively more exposed to the coal shock that followed. We examine how this measure of exposure to the coal shock affects cumulative earnings, employment, and other margins of
+adjustment between 2012 and 2019 by estimating the following specification for all workers who
+worked full-time between 2007 and 2011:
+Eiτ = β0 + β1 1[Coali,2007-11 ] + Xi,0 γ + δr + εiτ
+′
+
+In equation 2, Eiτ =
+
+Pt=2019 Eit
+t=2012 E it
+
+(2)
+
+reflects the cumulative earnings of worker i between 2012 and
+
+0
+
+2019, normalized by his or her average annual earnings between 2007 and 2011, E it0 . This measure of cumulative earnings captures the entirety of a worker’s labor market activity following the
+coal shock. By normalizing this value to pre-shock earnings E it0 , we can observe how exposure to
+the shock influences the evolution of a worker’s earnings. We also consider several other outcome
+variables: the cumulative number of years employed between 2012 and 2019, cumulative earnings per year employed between 2012 and 2019 (again, normalized by average annual earnings
+between 2007 and 2011), and measures of geographic mobility, social insurance participation, and
+retirement income.
+As described in section 2, our quasi-experimental analysis considers the combined age-restricted
+coal workers and non-coal (ACS) respondents who worked “full-time” in each year between 2007
+and 2011. The primary independent variable of interest is 1[Coali,2007-11 ], a dummy variable indicating whether worker i’s primary employer was a coal mining establishment in all five pre-shock
+years.25 In alternative specifications, we define the primary independent variable as both a continuous and a binned variable indicating the number of years between 2007 and 2011 for which
+the worker’s primary employer was a coal mining establishment, as detailed in Appendix Section
+B.4. The conclusions of our analysis are not sensitive to this choice of specification.
+The 29,500 individuals who worked full-time for a coal mining establishment in all five preshock years serve as the “treated” group of workers most exposed to the subsequent coal shock,
+while the remaining “control” workers have less or no attachment to the coal industry.26 We
+′
+
+control for a rich set of worker-level controls Xi,0 , which includes the worker’s age, an indicator for
+25
+Characterizing pre-shock years as 2005 to 2011 and limiting the sample to workers who worked full-time during
+this entire seven-year period has no substantive impact on the conclusions. Further, the results are robust to using more
+conservative definitions of ”full-time” employment based on higher annual wages.
+26
+The vast majority of control workers have no attachment to (i.e., tenure in) the coal industry in the five pre-shock
+years, and a small fraction worked in the coal industry for fewer than five years.
+
+19
+
+being non-Hispanic white, an indicator for being male, the log of average annual wages between
+2007 and 2011, the interaction of average wages with the worker’s age, the change in average
+annual wages between 2007 and 2011, the number of years the worker worked at his or her 2011
+firm between 2007 and 2011, and 8 bins of establishment size (based on 2011 establishment). We
+also include Census region fixed effects, δr .27 We cluster standard errors on the worker’s firm,
+as measured in 2011, to allow for correlation in the error terms among workers who are initially
+employed in the same firm.28
+This identification strategy compares workers who are ex-ante observationally similar, but
+have varying attachment to the coal mining industry in the pre-shock period, and thus varying
+exposure to the subsequent macroeconomic decline in coal demand. The main identifying assumption underlying this strategy is conditional independence – conditional on the rich set of
+individual-level control variables, exposure to the coal shock is as good as randomly assigned.
+That is, after accounting for differences in observable worker characteristics including age, preshock wages, and pre-shock work experience, our strategy assumes that workers with more tenure
+in the coal industry during the pre-shock period have the same earnings and employment potential as workers with less or no tenure in the coal industry, and observed differences in earnings
+and employment trajectories between 2012 and 2019 are attributable to the fact that the macroeconomic shock diminished demand for coal workers as opposed to similar workers working in
+other industries.
+One might imagine that the most tenured coal workers could be less exposed to the adverse
+consequences of contractions in the coal industry compared to coal workers with slightly less
+tenure in terms of years worked for the industry, if the most tenured workers are the last to experience pay cuts or layoffs. Omitting workers whose primary employer was a coal mining establishment in at least one year, but fewer than five years, between 2007 and 2011 does not substantively
+impact the estimates presented below. Given that these workers are partially exposed to the coal
+shock, and thus may also experience its resulting employment and earnings consequences, our
+27
+
+In Appendix Section B.3, we include an additional control variable that captures a worker’s spatial proximity to local coal shocks in other labor markets. In Appendix Section B.4.4, we compare exposed coal workers to observationally
+similar workers with similar tenure in their respective industries, controlling for the number of years in which a worker
+worked for his or her 2011 industry over the 2007–2011 period. The conclusions drawn from these specifications are
+broadly similar to those drawn from the primary analysis.
+28
+We can also cluster on the worker’s CZ in 2011 to allow for correlation in the error terms among workers who are
+initially employed in the sample labor market. This does not change the interpretation of the coefficients.
+
+20
+
+primary estimates likely reflect a lower bound of the consequences of coal shock exposure.29 The
+conclusions are also robust to defining exposure based on alternative measures of tenure in the
+pre-shock years, as detailed in Appendix Section B.4.
+Another potential concern is that while treatment is defined at the individual level, given the
+high spatial concentration of coal mining activity, it is possible that some other (non-coal) demand
+shock differentially affected highly coal-dependent communities over this period. For example, if
+coal-rich regions were differentially exposed to the Great Recession, tenured coal workers might
+suffer from the persistent consequences of this economic event on employment absent the macroeconomic decline in coal (Yagan, 2019). While this could be a concern in other settings, the labor
+markets most affected by the Great Recession – Sun Belt states including California and Florida
+and Rust Belt states including Michigan and Indiana – do not overlap with regions in which coal
+is concentrated. Still, the conclusions in this paper are robust to more detailed levels of geographic
+controls (e.g., state), as well as controlling for local economic conditions. Our conclusions are also
+robust to restricting the analysis to only workers who worked in coal for at least one year during
+the 2007–2011 period. This within-coal analysis leverages heterogeneity in exposure to the shock
+among coal workers, who are otherwise exposed to similar macroeconomic shocks that might differentially influence coal regions.
+The coefficient estimate of β1 measures the effect of greater exposure to the coal shock, defined based on a worker’s tenure in the coal industry during the pre-shock years, on the outcome
+of interest. Importantly, it does not measure the effect of dislocation from the industry itself. Some
+tenured coal workers will continue working in the industry. This approach enables us to determine the degree to which exposure to the coal shock induces changes along both extensive and
+intensive margins.
+
+4.2
+
+Results
+
+Table 2 reports the central estimates of β1 in equation 2, reflecting the association between exposure to the coal shock and cumulative earnings (column 1), the number of years with positive
+earnings (column 2), and earnings per year (column 3). The mean and standard deviation of each
+outcome variable are presented underneath each coefficient estimate.
+29
+
+The magnitude of the coefficient estimates increases when these partially exposed workers are omitted from the
+control group, suggesting that the reported estimates do indeed reflect a lower bound on the consequences of the coal
+shock on all exposed coal workers.
+
+21
+
+Table 2: Exposure to coal shock and the evolution of earnings, 2012-2019
+(1)
+Cumulative earnings
+
+(2)
+# of years w/ earnings
+>0
+
+(3)
+Earnings per year
+employed
+
+1[Coali,2007-11 ]
+
+-1.597***
+(0.087)
+
+-0.370***
+(0.037)
+
+-0.174***
+(0.010)
+
+Outcome mean (SD)
+
+8.05 (3.71)
+
+7.45 (1.43)
+
+1.06 (0.43)
+
+Controls
+Region FE
+Observations
+
+✓
+✓
+152,000
+
+✓
+✓
+152,000
+
+✓
+✓
+152,000
+
+Source: ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s and Census Business Register. Notes:
+The outcome variables are defined over the 2012 to 2019 period. Cumulative earnings and earnings per year employed
+are normalized to average annual wages between 2007 and 2011. The primary independent variable is a dummy
+variable indicating whether or not the worker’s primary earnings were drawn from the coal industry in all five years
+between 2007 and 2011. All regressions include the full set of worker-level controls from equation 2. Sample sizes
+are rounded per Census disclosure rules. Column 1 and 2 have the same number of underlying observations. There
+are slightly fewer observations in column 3 because the outcome variable is not observed for workers who are never
+employed between 2012 and 2019. Robust standard errors in parentheses are clustered on the worker’s firm in 2011.
+*** p<0.001, ** p<0.01, * p<0.05
+
+The estimates presented in Table 2 demonstrate that greater exposure to the coal shock is associated with sizeable earnings losses between 2012 and 2019. The most exposed coal workers lost
+an additional year and a half (1.597) of their pre-shock (2007-2011) annual earnings relative to observationally similar workers not exposed to the coal shock (column 1). The negative coefficients
+in columns 2 and 3 indicate that this cumulative earnings effect stems from both reduced employment duration (the extensive margin) and lower earnings when employed (the intensive margin).
+We estimate that, on average, more exposed coal workers experienced 0.37 fewer years of work
+between 2012 and 2019 compared to their counterparts (column 2), and a 17.4 percent reduction
+in earnings during the years that they were employed (column 3).30 While we cannot distinguish
+whether earnings reductions result from fewer working hours or lower hourly wages, the magnitude of these effects is substantial. For instance, the 0.37-year reduction in employment relative to
+the mean of 7.45 years, suggests that exposure to the coal shock is associated with approximately
+a 5 percent decrease in employment years between 2012 and 2019.
+We display the sensitivity of these coefficient estimates to the inclusion of controls in Ap30
+There are slightly fewer observations in column 3 because the outcome variable is not observed for workers who
+are never employed between 2012 and 2019, but the sample sizes are rounded per Census disclosure rules to the same
+value.
+
+22
+
+pendix B.1. In Appendix Sections B.3 and B.4, we explore the sensitivity of the estimates to a
+range of alternative assumptions and specifications. Controlling for a worker’s industry tenure,
+controlling for CZ-level exposure to spatially proximate coal shocks, and exploiting different definitions of exposure to coal’s decline yield qualitatively similar conclusions to those presented
+here.31
+To examine the temporal dynamics of cumulative earnings losses over the course of coal’s
+decline, we estimate a series of regressions over varying time horizons from 2007 to 2021. Panel A
+of Figure 6 illustrates the estimated relationship between exposure to the coal shock and workers’
+cumulative earnings across these horizons. We employ the same specification as in our central
+analysis, but redefine the outcome variable for the years during coal’s decline (2012-2021) as (normalized) cumulative earnings between 2012 and the year indicated on the horizontal axis. For
+pre-shock years, we define the outcome variable as (normalized) cumulative earnings between
+the year indicated on the horizontal axis and 2011. As before, earnings are normalized to average annual wages between 2007 and 2011. The coefficient on 2019 thus corresponds to the point
+estimate in column 1 of Table 2, reflecting cumulative earnings over 2012–2019. By maintaining
+our original exposure definition, this approach captures the evolving impact of coal’s decline on
+exposed workers’ earnings trajectories.
+Panel A of Figure 6 indicates that cumulative earnings for exposed coal workers are relatively
+stable compared to observationally similar workers in the years leading up to coal’s decline. Beginning in 2012, the aggregate earnings impact for exposed coal workers grows more negative in
+a relatively linear fashion for the remainder of the period. The accumulation of losses continues
+into the Covid era: more exposed coal workers incur earnings losses over the 2012–2021 period
+amounting to over two years’ worth of annual earnings.
+While cumulative earnings losses accumulate quite linearly during coal’s decline, this time
+pattern could be consistent with different dimensions of extensive- and intensive-margin adjustments. In the bottom two panels of Figure 6, we examine the time path of these different margins
+separately. Figure 6b shows that changes in employment are relatively minimal during the initial
+years of coal’s decline, but grow progressively more negative over time. In contrast, earnings per
+31
+
+Our conclusions are also robust to alternative methods for constructing the ACS sub-sample which produces the
+majority of control workers. For example, limiting the ACS sub-sample to individuals who were living in a county
+that was between 30 and 60 miles outside of a coal county in 2010 produces largely similar results to those presented
+here. Restricting to ACS workers who lived at least 60 miles outside of a coal county, and hence are likely too far to be
+influenced by adverse spillover effects of regional coal shocks, also produces similar results.
+
+23
+
+Figure 6: Extensive and intensive margin changes
+
+(a) Cumulative earnings
+
+(b) Cumulative employment
+
+(c) Earnings per year employed
+
+Note: Figure plots the regression coefficients and 95% confidence intervals from separate regressions of cumulative
+earnings (Figure 6a) cumulative employment (Figure 6b) or earnings per year employed (Figure 6c) over the specified
+time period. In years prior to 2012, the outcome is defined over the year indicated on the x-axis and 2011. In years
+2012–2021, the outcome is defined over the period between 2012 and the year indicated on the x-axis. Cumulative
+earnings and earnings per year employed are normalized to average annual wages between 2007 and 2011. The primary
+independent variable is a dummy variable indicating whether or not the worker’s primary earnings were drawn from
+the coal industry in all five years between 2007 and 2011. All regressions include the full set of worker-level controls
+from equation 2. Source: ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s, and Census Business
+Register.
+
+year employed drop sharply in 2012, followed by a progressive decline over time that somewhat
+levels off by the end of the period. On average, exposed coal workers appear to remain relatively
+attached to the labor force in the initial years of coal’s decline, but in lower-paid positions. Over
+time, workers exit the labor force at increasing rates. These two forces — a sharp drop in earnings
+during years of employment and a slow, but progressive decline in attachment to the workforce
+— combine to generate the relatively linear time path of cumulative earnings losses revealed in
+the top panel of Figure 6.
+24
+
+4.2.1
+
+The role of reallocation
+
+To assess whether reallocation across industries or regions mitigates aggregate earnings and employment losses experienced by exposed coal workers, we decompose the total effect of coal shock
+exposure over the 2012–2019 period into three mutually exclusive categories. Table 3 presents this
+decomposition, with column 1 replicating the total effect, and columns 2-4 disaggregating outcomes into those at the worker’s 2011 employer (column 2), at other firms within the worker’s
+2011 2-digit industry (column 3), and at firms outside the original 2-digit industry (column 4). As
+an illustration, consider a worker who spends 2 years at the same (2011) firm, before separating
+and becoming unemployed for a year and then moving into a different industry for the remainder
+of the 2012–2019 period. Their cumulative earnings and cumulative years of employment while
+at the same firm will be captured in column 2. They will have zero cumulative earnings or cumulative employment in column 3 because they exited the industry, and their earnings and years
+of employment from their remaining years will be reflected in the outcome variable measured in
+column 4. Alternatively, a worker transitioning to a different firm within the same industry in
+2012 and remaining there would have all outcomes captured in column 3. Importantly, we compare treated workers to control workers within each category. That is, the earnings of exposed
+coal workers working at different firms within coal are compared to the earnings of control workers (e.g., manufacturing workers) working at different firms but within their respective industries
+(e.g., manufacturing).
+These categories are exhaustive of all possible forms of employment, such that the coefficient
+estimates in columns 2, 3, and 4 of Panels A and B sum to the coefficient estimate in column 1 of the
+corresponding panel. These estimates are not additive for Panel C (earnings per year employed),
+because the outcome variable is not observed in years in which a worker does not report any
+earnings in a given category. The estimates in column 1 correspond to those in Table 2.
+Panel A of Table 3 reveals that cumulative earnings losses for workers most exposed to the
+coal shock are predominantly driven by employment outside of the mining sector. Exposed coal
+workers suffer earnings losses equivalent to approximately 1.7 years of pre-shock annual earnings
+when outside of mining. These losses are marginaly offset by earnings from employment within
+the mining sector but different firms from their 2011 employer. Panel B exhibits a similar pattern
+for employment duration, with losses driven by years in which exposed workers are observed outside of mining. Exposed workers spend 1.1 fewer years employed outside of their initial industry
+25
+
+Table 3: Exposure to coal shock and the evolution of earnings by employer and industry
+(1)
+All employers
+
+Panel A: Cumulative earnings
+1[Coali,2007-11 ]
+-1.597***
+(0.087)
+Outcome mean (SD)
+
+8.05 (3.71)
+
+Panel B: Cumulative employment
+1[Coali,2007-11 ]
+-0.370***
+(0.037)
+Outcome mean (SD)
+
+7.45 (1.43)
+
+Panel C: Earnings per year of employment
+1[Coali,2007-11 ]
+-0.174***
+(0.010)
+
+(2)
+
+(3)
+
+Same industry
+Same firm
+Diff. firm
+
+(4)
+Diff. industry
+
+-0.213
+(0.190)
+
+0.302*
+(0.149)
+
+-1.687***
+(0.108)
+
+4.03 (3.77)
+
+1.46 (2.79)
+
+2.55 (3.79)
+
+0.166
+(0.198)
+
+0.572***
+(0.154)
+
+-1.108***
+(0.097)
+
+3.66 (3.02)
+
+1.34 (2.23)
+
+2.45 (2.80)
+
+-0.123***
+(0.012)
+
+-0.161***
+(0.012)
+
+-0.307***
+(0.019)
+
+Outcome mean (SD)
+
+1.06 (0.43)
+
+1.07 (0.35)
+
+1.04 (0.50)
+
+0.98 (0.59)
+
+Controls
+Region FE
+Obs. (Panels A and B)
+Obs. (Panel C)
+
+✓
+✓
+152,000
+152,000
+
+✓
+✓
+152,000
+122,000
+
+✓
+✓
+152,000
+55,000
+
+✓
+✓
+152,000
+85,000
+
+The outcome variables are defined over the 2012 to 2019 period. Cumulative earnings and earnings per year employed
+are normalized to average annual wages between 2007 and 2011. The primary independent variable is a dummy
+variable indicating whether or not the worker’s primary earnings were drawn from the coal industry in all five years
+between 2007 and 2011. All regressions include the full set of worker-level controls from equation 2. Column 1 shows
+aggregate effect on cumulative earnings and employment. Columns 2–4 decompose these effects into employment and
+earnings obtained at the worker’s 2011 employer versus other employers, and within versus outside of the worker’s
+2011 industry, defined at the 2-digit NAICS code. Robust standard errors in parentheses are clustered on the worker’s
+firm in 2011. Source: ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s and Census Business
+Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+than observationally similar workers over the 2012–2019 period. This extensive margin effect is
+large, representing a 45 percent decline over the sample mean (2.45 years of employment in different industries). While extensive margin responses are driven by years spent outside of mining,
+Panel C reveals that exposed coal workers experience reduced earnings per year of employment
+across firms and industries. They experience a 12 to 16 percent reduction in earnings per year of
+employment (in terms of average annual earnings from 2007 to 2011) within their initial industry. However, in years in which exposed coal workers are employed in different industries, they
+
+26
+
+suffer much larger earnings losses, on the order of 30 percent per year employed. This finding
+underscores the significance of the intensive margin – reduced earnings while employed, across
+industries – as a crucial margin of adjustment for workers exposed to the coal shock.
+One advantage of our data is that we are able to track workers’ locations throughout the
+study period, including during years of non-employment. In Appendix B.2, we analyze the effect
+of exposure to the coal shock on various dimensions of geographic mobility. We show that exposed
+coal workers do not spend substantially more time in their 2011 CZs, but they spend slightly more
+time in their 2011 state of residence and move to more proximate labor markets over the 2012–
+2019 period than observationally similar workers. In Table 4, we examine how two margins —
+geographic mobility and industry reallocation — influence exposed coal workers’ earnings losses
+simultaneously. We decompose the total worker-level effect of coal shock exposure (column 1) into
+total earnings or years of employment observed within the worker’s 2011 CZ and 2011 industry
+(column 2), total earnings or years of employment observed within the 2011 CZ but in a different
+industry (column 3), total earnings or years of employment observed in a different CZ but within
+the same industry (column 4), and total earnings or years of employment observed outside of the
+worker’s 2011 CZ and industry.
+The coefficients in Table 4 provide a nuanced assessment of how sectoral and geographic
+mobility interact to shape the earnings and employment trajectories of workers exposed to the
+coal shock. Consistent with our findings in Table 3, we observe that earnings and employment
+losses for exposed coal workers are primarily driven by years spent outside their initial industry,
+irrespective of their geographic location. The estimates in Panel A indicate that about 85 percent
+of cumulative earnings losses are driven by years in which workers are not employed in mining
+but still reside in their initial labor market. However, relative to the sample means, the coefficient
+estimates reveal that, conditional on switching industries, exposed coal workers experience large
+relative earnings losses across labor markets. Again, this is driven by both extensive and intensive
+margins. Estimates in Panel B reveal that exposed coal workers spend about 0.9 fewer years employed in their initial CZ but outside of their initial industry, and about 0.2 fewer years employed
+outside both their initial CZ and industry. Notably, the average employment duration in the same
+CZ but a different industry (2 years) is more than four times that in both a different CZ and industry (0.45 years). This suggests that the extensive margin response is proportionally similar across
+labor markets when accounting for baseline employment patterns.
+
+27
+
+Table 4: Exposure to coal shock and the evolution of earnings by sector and CZ
+(1)
+All
+
+Panel A: Cumulative earnings
+1[Coali,2007-11 ]
+-1.597***
+(0.087)
+
+(2)
+
+(3)
+
+Same CZ
+Same ind.
+Diff. ind.
+
+(4)
+(5)
+Different CZ
+Same ind.
+Diff. ind.
+
+0.070
+(0.104)
+
+-1.351***
+(0.097)
+
+0.020
+(0.026)
+
+-0.336***
+(0.023)
+
+8.05 (3.71)
+
+4.99 (3.89)
+
+2.06 (3.39)
+
+0.51 (1.87)
+
+0.49 (1.90)
+
+Panel B: Cumulative employment
+1[Coali,2007-11 ]
+-0.370***
+(0.037)
+
+0.637***
+(0.113)
+
+-0.899***
+(0.087)
+
+0.101***
+(0.023)
+
+-0.208***
+(0.019)
+
+4.57 (3.03)
+
+2.00 (2.61)
+
+0.43 (1.39)
+
+0.45 (1.40)
+
+Panel C: Earnings per year of employment
+1[Coali,2007-11 ]
+-0.174***
+-0.134***
+(0.010)
+(0.010)
+
+-0.302***
+(0.021)
+
+-0.162***
+(0.012)
+
+-0.336***
+(0.015)
+
+Outcome mean (SD)
+
+Outcome mean (SD)
+
+7.45 (1.43)
+
+Outcome mean (SD)
+
+1.06 (0.43)
+
+1.06 (0.36)
+
+0.97 (0.58)
+
+1.11 (0.58)
+
+1.02 (0.71)
+
+Controls
+Region FE
+Obs. (Panels A and B)
+Obs. (Panel C)
+
+✓
+✓
+152,000
+152,000
+
+✓
+✓
+152,000
+132,000
+
+✓
+✓
+152,000
+75,500
+
+✓
+✓
+152,000
+19,500
+
+✓
+✓
+152,000
+19,500
+
+The outcome variables are defined over the 2012 to 2019 period. Cumulative earnings and earnings per year employed
+are normalized to average annual wages between 2007 and 2011. The primary independent variable is a dummy
+variable indicating whether or not the worker’s primary earnings were drawn from the coal industry in all five years
+between 2007 and 2011. All regressions include the full set of worker-level controls from equation 2. Column 1 shows
+aggregate effect on cumulative earnings and employment. Columns 2–5 decompose these effects into employment
+and earnings obtained in the 2011 CZ of residence versus other CZs, and within versus outside of the worker’s 2011
+industry, defined at the 2-digit NAICS code. Robust standard errors in parentheses are clustered on the worker’s firm
+in 2011. Source: ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s and Census Business Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+While non-employment contributes significantly to cumulative earnings losses, we find that
+earnings reductions during periods of employment also play a crucial role. Panel C demonstrates
+that exposed coal workers suffer annual earnings declines across all industry-location pairs. Importantly, the reduction in earnings per year employed in a different 2-digit industry is more than
+double the reduction within the same industry, regardless of geographic location. That aggregate
+losses are driven by years in which workers remain in their 2011 CZ but are not employed in their
+initial industry may reflect limited alternative employment opportunities in many coal communities. However, the substantial losses — especially in relative terms — observed when workers
+28
+
+relocate to different CZs suggest that barriers to mobility are unlikely the sole friction impeding
+workers’ smooth adjustment. Although movers likely differ from non-movers in ways endogenous to expected outcomes, these estimates imply that, on average, geographic mobility does
+not attenuate the earnings and employment losses of workers exposed to the coal shock. Conditional on staying in or switching industries, former coal workers experience similar earnings losses
+whether they remain in or leave their initial CZs. This finding suggests that interventions aimed at
+encouraging relocation or reducing barriers to mobility may be insufficient to mitigate cumulative
+losses. Rather, our evidence is consistent with the presence of firm- or industry-specific skills that
+are destroyed upon displacement from the industry (Neal, 1995).
+4.2.2
+
+The role of industrial sector in offsetting losses
+
+The evidence presented above indicates that workers most exposed to the large-scale decline in
+demand for coal beginning in 2011 suffered large earnings and employment losses if they did
+not continue working in mining and extraction activities. Do other industries offer differential
+opportunities for coal workers to adjust? Coal mining has historically offered exceptionally high
+wages for individuals with relatively low levels of educational attainment. In this section, we
+explore whether entering other “high-wage” industries attenuates the aggregate earnings losses
+documented above. In Appendix Section B.5, we explore whether workers fare differently based
+on the degree to which their industries are dependent on local demand.
+In Table 5, we decompose the total worker-level effect of coal shock exposure (column 1)
+into earnings and employment changes by geographic location, industry, and the industry wage
+level. Columns 2, 3, and 5 correspond to columns 1, 2, and 4 from Table 4. We define “highwage” industries as those that pay the same or more than the 2-digit NAICS code containing
+coal mining (“Mining, Quarrying, and Oil and Gas Extraction”), and “low-wage” industries as
+those that pay less. We calculate industry wages at the 2-digit NAICS code by taking the mean
+earnings for workers in our sample who worked full-time in 2005.32 Based on this strategy, four
+industries were high-wage industries compared to the mining industry (NAICS code 21): utilities
+(22), information (51), finance and insurance (52), professional, scientific, and technical services
+32
+
+Again, we define a worker as “full-time” if their earnings are greater than what they would earn by working
+1,600 hours (about 30 hours per week) at the federal minimum wage. In 2005, the minimum wage was $5.15, so this
+implies workers who reported earnings of at least $8,240. We code “missing” NAICS codes (typically agriculture or
+government) as a single industry.
+
+29
+
+(54), and management (55).33
+Table 5: Exposure to coal shock and the evolution of earnings by geographic location and industry
+wage
+(4)
+
+(5)
+
+Yes
+-
+
+(3)
+Same CZ
+No
+Yes
+
+Yes
+-
+
+(6)
+Different CZ
+No
+Yes
+
+No
+No
+
+No
+No
+
+0.070
+(0.104)
+
+-0.844***
+(0.064)
+
+-0.507***
+(0.062)
+
+0.020
+(0.026)
+
+-0.218***
+(0.015)
+
+-0.118***
+(0.014)
+
+8.05 (3.71)
+
+4.99 (3.89)
+
+0.83 (2.35)
+
+1.23 (2.48)
+
+0.51 (1.87)
+
+0.20 (1.23)
+
+0.30 (1.32)
+
+Panel B: Cumulative employment
+1[Coali,2007-11 ]
+-0.370***
+(0.037)
+
+0.637***
+(0.113)
+
+-0.656***
+(0.055)
+
+-0.244***
+(0.066)
+
+0.101***
+(0.023)
+
+-0.158***
+(0.011)
+
+-0.051***
+(0.013)
+
+4.57 (3.03)
+
+0.68 (1.63)
+
+1.31 (2.14)
+
+0.43 (1.39)
+
+0.15 (0.76)
+
+0.30 (1.10)
+
+Panel C: Earnings per year of employment
+1[Coali,2007-11 ]
+-0.174***
+-0.134***
+(0.010)
+(0.010)
+
+-0.238***
+(0.047)
+
+-0.285***
+(0.013)
+
+-0.162***
+(0.012)
+
+-0.312***
+(0.028)
+
+-0.269***
+(0.013)
+
+(1)
+All
+Same industry
+High-wage industry
+Panel A: Cumulative earnings
+1[Coali,2007-11 ]
+-1.597***
+(0.087)
+Outcome mean (SD)
+
+Outcome mean (SD)
+
+7.45 (1.43)
+
+(2)
+
+(7)
+
+Outcome mean (SD)
+
+1.06 (0.43)
+
+1.06 (0.36)
+
+1.14 (0.58)
+
+0.89 (0.57)
+
+1.11 (0.58)
+
+1.26 (0.77)
+
+0.92 (0.67)
+
+Controls
+Region FE
+Obs. (Panels A and B)
+Obs. (Panel C)
+
+✓
+✓
+152,000
+152,000
+
+✓
+✓
+152,000
+132,000
+
+✓
+✓
+152,000
+34,000
+
+✓
+✓
+152,000
+58,000
+
+✓
+✓
+152,000
+19,500
+
+✓
+✓
+152,000
+8,000
+
+✓
+✓
+152,000
+15,500
+
+The outcome variables are defined over the 2012 to 2019 period. Cumulative earnings and earnings per year employed
+are normalized to average annual wages between 2007 and 2011. The primary independent variable is a dummy
+variable indicating whether or not the worker’s primary earnings were drawn from the coal industry in all five years
+between 2007 and 2011. All regressions include the full set of worker-level controls from equation 2. Column 1 shows
+aggregate effect on cumulative earnings and employment. Columns 2–7 decompose these effects into employment
+and earnings obtained in the 2011 CZ of residence versus other CZs, within the 2011 industry of employment versus
+outside of this industry, and within a high-wage industry versus outside of a high-wage industry. High-wage industries
+include utilities, information, finance and insurance, professional, scientific, and technical services, and management.
+Robust standard errors in parentheses are clustered on the worker’s firm in 2011. Source: ACS 2005–2021 linked with
+the Environmental Impacts Frame, IRS W-2s and Census Business Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+Table 5 shows that exposed coal workers’ aggregate losses are not attenuated by earnings
+and employment observed in other high-wage industries. While losses are apparent in both highand low-wage industries across labor markets, cumulative losses are driven by years observed in
+higher-wage industries. Exposed coal workers lose about 0.84 years’ worth of earnings in other
+33
+
+We do not condition on education in determining these high-wage industries. Coal miners have relatively low
+levels of educational attainment compared to workers employed in these high-wage industries. The only industry
+that paid higher wages than the mining sector to individuals with less than a college degree in 2005 was utilities.
+Conducting this analysis with utilities as the only high-wage, non-mining sector yields similar conclusions to that in 5.
+
+30
+
+high-wage industries within their local labor market (column 3) and about 0.22 years’ worth of
+earnings in other high-wage industries in different labor markets (column 6) relative to workers
+with less or no exposure. These earnings losses are large in relative terms, implying a reduction
+of over 100 percent of the sample means.
+We observe that it is rare for coal workers to transition into these high-wage industries. Only
+one of these industries appears in Figure 4, which showed that management served as the modal
+non-coal industry for about 4 percent of coal workers in the age-restricted sample. Consistent
+with this, Panel B of Table 5 implies that exposed coal workers spend fewer years employed in
+other high-wage industries compared to control workers. The point estimates in column 3 (-0.656)
+and column 6 (-0.158) again represent about a 100 percent decline over the associated sample
+means, suggesting that exposed coal workers are extremely unlikely to be employed in these other
+high-wage industries compared to workers with less or no exposure. This is consistent with the
+highly specialized nature of the skills demanded by the coal industry, which may not translate
+well to other high-wage industries. At the same time, coal mining is concentrated in relatively
+remote places where job opportunities in other high-wage industries are often scarce. Still, the
+estimates in Table 5 reveal that exposed coal workers who do spend time employed in other highwage industries in other labor markets experience relatively large declines in earnings per year
+employed. This is consistent with recent evidence on the uniquely high wage premium offered by
+the coal industry (Card et al., 2023).
+
+4.3
+
+The role of alternative sources of income
+
+As exposed workers experience earnings and employment declines, their income composition
+may shift towards alternate sources to supplement lost wages. A large body of literature has
+documented that declining labor market opportunities often catalyze increased reliance on Social Security Disability Insurance (SSDI) and other forms of government assistance (Black et al.,
+2002; Autor et al., 2003, 2013, 2014; Charles et al., 2018). While we do not directly observe SSDI
+receipt, we proxy for it using receipt of any Social Security benefits, defined as having received a
+form SSA-1099. This will occur if the individual received any retirement, survivor, or disability
+(SSDI) benefits. Given that our sample is born between 1955 and 1985, workers will be at most
+64 by the end of the outcome period (2019) and thus most workers will be below the minimum
+age for Social Security retirement benefits (62), suggesting that SSA-1099 receipt likely indicates
+
+31
+
+SSDI for the majority of our sample. Of course, declining employment opportunities may induce
+early retirement, and thus we explore the effect of coal shock exposure on the receipt of Social
+Security benefits separately for individuals born 1960 or later, such that they are less than 60 by
+the end of the outcome period. We additionally explore how exposure to the coal shock affects retirement withdrawals from IRA/401k accounts and pension contributions, based on form 1099-R,
+in Appendix B.6.
+Table 6: Exposure to coal shock and receipt of SSA/self-employment income, 2012-2019
+(1)
+(2)
+# of years SSA-1099 >0
+
+(3)
+(4)
+Cumulative 1040 SS income
+
+(5)
+(6)
+# of years self-emp. (1040) >0
+
+1[Coali,2007-11 ]
+
+0.368***
+(0.030)
+
+0.196***
+(0.018)
+
+0.078***
+(0.010)
+
+0.039***
+(0.005)
+
+-0.293***
+(0.023)
+
+-0.286***
+(0.021)
+
+Outcome mean (SD)
+
+0.30 (1.12)
+
+0.14 (0.80)
+
+0.16 (0.62)
+
+0.08 (0.43)
+
+0.74 (1.71)
+
+0.75 (1.69)
+
+Controls
+Region FE
+Sample
+Observations
+
+✓
+✓
+all
+152,000
+
+✓
+✓
+born 1960123,000
+
+✓
+✓
+all
+152,000
+
+✓
+✓
+born 1960123,000
+
+✓
+✓
+all
+152,000
+
+✓
+✓
+born 1960123,000
+
+The outcome variables are defined over the 2012 to 2019 period. In columns 1 and 2, the outcome variable is defined
+as the number of years between 2012 and 2019 in which the worker reported any SSA-1099 income. In columns 3
+and 4, the outcome variable is defined as the cumulative reported income from 1040 Social Security. In columns 5
+and 6, the outcome variable is defined as the number of years between 2012 and 2019 in which the worker filed any
+self-employment (1040) income. In even-numbered columns, the sample is restricted to workers born on or after 1960.
+The primary independent variable is a dummy variable indicating whether or not the worker’s primary earnings were
+drawn from the coal industry in all five years between 2007 and 2011. All regressions include the full set of worker-level
+controls from equation 2. Robust standard errors in parentheses are clustered on the worker’s firm in 2011. Source: ACS
+2005–2021 linked with the Environmental Impacts Frame, IRS W-2s and Census Business Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+Table 6 presents our findings on the relationship between exposure to the coal shock and various income sources. Columns 1 and 2 report the point estimates of β1 from equation 2, where the
+outcome variable is years of SSA-1099 receipt over 2012–2019. The most exposed workers report
+0.37 additional years of SSA-1099 receipt compared to observationally similar workers (column
+1). This effect declines to 0.20 years when restricting to workers born in 1960 or later (column 2),
+but remains substantial at over 100% of the sample mean. Given that these individuals are not yet
+eligible for early retirement, this is almost certainly driven by SSDI receipt. Appendix Figure A4,
+illustrates the dynamics of SSA-1099 receipt using the same approach used in Figure 6. Initially,
+there is no notable increase, but the gap in SSA receipt grows progressively larger, mirroring the
+inverse of employment trends shown in Figure 6b.34
+34
+
+For each time horizon, the point estimate for cumulative years of employment (Figure 6b) is almost exactly the
+
+32
+
+In columns 3 and 4 of Table 6, we explore how exposure to the coal shock influences total taxunit level Social Security income from form 1040.35 We estimate that more exposed coal workers
+receive an additional 0.078 years’ worth of earnings in Social Security income compared to similar
+workers over 2012–2019 (column 3), declining to 0.04 years (or about a 50 percent increase over the
+sample mean) for the younger cohort (column 4). These findings suggest that coal workers may be
+able to recoup a modest portion of their earnings losses through what are arguably “second-best”
+transfer mechanisms. This implies that there may be fiscal benefits of lower-cost interventions that
+help smooth the transitional costs of the decline of coal. For instance, Hyman et al. (2024) show
+that wage insurance provisions in the U.S. Trade Adjustment Assistance Act increase short-run
+employment probabilities and long-run cumulative earnings.36
+In the final two columns of Table 6, we explore how coal shock exposure influences the receipt of self-employment (as reported on Schedule SE of form 1040) income. We estimate that
+exposed workers report 0.29 fewer years of self-employment over the 2012 to 2019 period, a 40
+percent decline relative to the sample mean. This may reflect the relative skills of exposed coal
+workers, which may translate poorly to various forms of self-employment, or the labor markets in
+which coal is concentrated, which may be less amenable to successful entrepreneurial activities.
+Either case is consistent with the previously documented findings, which indicate that coal workers most exposed to the recent coal shock do not smoothly transition to alternative employment
+opportunities outside of the industry.
+
+5
+
+Conclusion
+
+After its contemporary peak in 2011, U.S. coal mining employment fell dramatically, largely driven
+by the changing price of natural gas relative to coal. This coal shock offers a unique lens through
+which to examine the labor market consequences of achanging energy landscape. By leveraging
+comprehensive administrative data on the universe of coal workers between 2005 and 2021, we
+provide systematic evidence on the individual-level consequences of, and responses to, the decline
+of coal in the United States.
+negative of the point estimate for cumulative years of SSA-1099 income (Figure A4).
+35
+Unlike receipt of a SSA-1099 form, which is defined at the worker level, Social Security income on form 1040 is
+defined at the household level. This would include, for example, a retired spouse’s retirement income, and thus we can
+be less certain that this measurement includes only SSDI income.
+36
+These provisions support workers for whom re-training is ineffective, infeasible, or unavailable.
+
+33
+
+Workers most exposed to the coal shock experienced substantial losses between 2012 and
+2019, with cumulative earnings declining by more than a year’s wages due to both reduced employment duration and lower earnings when employed. Unlike the labor market adjustment documented in other settings, non-employment emerged as an important margin of adjustment. Decomposing these effects across firms, industries, and geographies, we find that reallocation across
+industries and labor markets does not mitigate these adverse consequences. Exposed workers,
+only marginally less geographically mobile than their counterparts, face significant employment
+and earnings reductions both within and outside their initial labor markets. They struggle to
+transition to comparably high-paying industries and earn less when they do, suggesting skill mismatches rather than geographic barriers as the primary factor influencing earnings losses. Finally,
+exposed workers partially offset their earnings losses through increased reliance on transfer payments like SSDI.
+The recent decline in demand for coal provides a preview of the disruption that future contractions in demand for fossil fuels may cause for exposed workers. The clean energy transition
+is poised to reduce demand for fossil fuels, as well as energy-intensive industries, both of which
+have historically provided high wages in relatively isolated labor markets offering few alternative
+employment opportunities. When workers are not able to remain attached to the industries in
+which they might have developed firm- or industry-specific skills (Neal, 1995), the transitional
+costs appear to be substantial. The results in this paper are consistent with the presence of relatively large labor market frictions that prevent the smooth adjustment to the energy transition.
+While both skill and geographic mismatch may play important roles in influencing workers’ earnings and employment trajectories, we find relatively limited evidence suggesting that geographic
+mobility would substantially reduce the transitional costs to coal workers. Understanding the extent to which barriers to re-skilling can be remediated in practice will be important in determining
+the welfare consequences of the clean energy transition for workers in legacy sectors.
+
+References
+Acemoglu, Daron, David Autor, David Dorn, Gordon H. Hanson, and Brendan Price, “Import
+Competition and the Great US Employment Sag of the 2000s,” Journal of Labor Economics, January 2016, 34 (S1), S141–S198.
+
+34
+
+Adão, Rodrigo, Costas Arkolakis, and Federico Esposito, “Spatial Linkages, Global Shocks, and
+Local Labor Markets: Theory and Evidence,” NBER, 2019, pp. 1–66.
+Aragón, Fernando M and Juan Pablo Rud, “Natural Resources and Local Communities: Evidence
+from a Peruvian Gold Mine,” American Economic Journal: Economic Policy, May 2013, 5 (2), 1–25.
+Autor, David, David Dorn, and Gordon Hanson, “On the Persistence of the China Shock,” Brookings Papers on Economic Activity, 2021, p. 96.
+Autor, David H, David Dorn, and Gordon H Hanson, “The China Syndrome: Local Labor Market
+Effects of Import Competition in the United States,” American Economic Review, October 2013,
+103 (6), 2121–2168.
+Autor, David H., David Dorn, Gordon H. Hanson, and Jae Song, “Trade Adjustment: WorkerLevel Evidence,” The Quarterly Journal of Economics, November 2014, 129 (4), 1799–1860.
+Autor, David H, Frank Levy, and Richard J Murnane, “The Skill Content of Recent Technological
+Change: An Empirical Exploration,” Quarterly Journal of Economics, 2003, 118, 1279–1333.
+Bartik, Timothy J., Who benefits from state and local economic development policies?, Kalamazoo, Mich:
+W.E. Upjohn Institute for Employment Research, 1991.
+Black, Dan A., Kermit Daniel, and Seth G. Sanders, “The Impact of Economic Conditions on Participation in Disability Programs: Evidence from the Coal Boom and Bust,” American Economic
+Review, February 2002, 92 (1), 27–50.
+, Terra G. McKinnish, and Seth G. Sanders, “Does the availability of high-wage jobs for lowskilled men affect welfare expenditures? Evidence from shocks to the steel and coal industries,”
+Journal of Public Economics, September 2003, 87 (9-10), 1921–1942.
+,
+
+, and
+
+, “The Economic Impact of the Coal Boom and Bust,” The Economic Journal, 2005, 115
+
+(503), 449–476. Publisher: [Royal Economic Society, Wiley].
+Blanchard, Olivier Jean and Lawrence F. Katz, “Regional Evolutions,” Brookings Papers on Economic Activity, 1992, 1992 (1), 1–75. Publisher: Brookings Institution Press.
+Blonz, Joshua, Brigitte Roth Tran, and Erin Troland, “The Canary in the Coal Decline: Appalachian Household Finance and the Transition from Fossil Fuels,” NBER, 2023.
+
+35
+
+Borusyak, Kirill, Rafael Dix-Carneiro, and Brian K. Kovak, “Understanding Migration Responses to Local Shocks,” Working Paper, 2022.
+Card, David, Jesse Rothstein, and Moises Yi, “Industry Wage Differentials: A Firm-Based Approach,” NBER, 2023.
+, Nicole Maestas, and Patrick Purcell, “Labor Market Shocks and Early Social Security Benefit
+Claiming,” Working Paper 317, University of Michigan Retirement Research Center (MRRC),
+Ann Arbor, MI 2014.
+Carley, Sanya, Tom P. Evans, and David M. Konisky, “Adaptation, culture, and the energy transition in American coal country,” Energy Research & Social Science, March 2018, 37, 133–139.
+Charles, Kerwin Kofi, Yiming Li, and Melvin Stephens, “Disability Benefit Take-Up and Local
+Labor Market Conditions,” The Review of Economics and Statistics, July 2018, 100 (3), 416–423.
+Coglianese, John, Todd D. Gerarden, and James H. Stock, “The Effects of Fuel Prices, Environmental Regulations, and Other Factors on U.S. Coal Production, 2008-2016,” The Energy Journal,
+January 2020, 41 (1).
+Colmer, Jonathan, Eva Lyubich, John Voorheis, and Kyle Addison, “Nice Work if You Can Get
+It? The Distribution of Employment and Earnings during the Early Years of the Clean Energy
+Transition,” 2022.
+Davis, Rebecca J., J. Scott Holladay, and Charles Sims, “Coal-Fired Power Plant Retirements in
+the United States,” Environmental and Energy Policy and the Economy, January 2022, 3, 4–36.
+Davis, Steven J. and Till von Wachter, “Recessions and the Costs of Job Loss,” Brookings Papers
+on Economic Activity, 2011, 2011 (2).
+Goldsmith-Pinkham, Paul, Isaac Sorkin, and Henry Swift, “Bartik Instruments: What, When,
+Why, and How,” American Economic Review, August 2020, 110 (8), 2586–2624.
+Greenstone, Michael, “The Impacts of Environmental Regulations on Industrial Activity: Evidence from the 1970 and 1977 Clean Air Act Amendments and the Census of Manufactures,”
+Journal of Political Economy, December 2002, 110 (6), 1175–1219.
+
+36
+
+Gruber, Jonathan and Peter Orszag, “Does the Social Security Earnings Test Affect Labor Supply and Benefits Receipt?,” National Tax Journal, 2003, 56 (4), 755–773. Publisher: National Tax
+Association.
+Hakkala, Katariina Nilsson and Kristiina Huttunen, “Worker-Level Consequences of Import
+Shocks,” Institute for the Study of Labor (IZA), 2016, Discussion Paper No. 10033.
+Hanson, Gordon H, “Local Labor Market Impacts of the Energy Transition: Prospects and Policies,” in “Economic Policy in a More Uncertain World,” Washington, DC: The Aspen Institute,
+2022, pp. 155–199.
+Humphries, Marc, “The U.S. Coal Industry: Historical Trends and Recent Developments,” Congressional Research Service, 2017, R44922.
+Hyman, B., B. Kovak, and A. Leive, “Wage Insurance for Displaced Workers,” NBER, 2024.
+Jacobsen, Grant D. and Dominic P. Parker, “The Economic Aftermath of Resource Booms: Evidence from Boomtowns in the American West,” The Economic Journal, 2016, 126 (593), 1092–1128.
+Jacobson, Louis S., Robert J. LaLonde, and Daniel G. Sullivan, “Earnings Losses of Displaced
+Workers,” The American Economic Review, 1993, 83 (4), 685–709. Publisher: American Economic
+Association.
+Keller, Wolfgang and Hale Utar, “International trade and job polarization: Evidence at the worker
+level,” Journal of International Economics, November 2023, 145, 103810.
+Kolstad, Charles D., “What Is Killing the US Coal Industry?,” Technical Report, Stanford Institute
+for Economic Policy Research 2017.
+Krause, Eleanor, “Job loss, selective migration, and the accumulation of disadvantage: Evidence
+from Appalachia’s coal country,” Working Paper, 2023.
+Lachowska, Marta, Alexandre Mas, and Stephen A. Woodbury, “Sources of Displaced Workers’
+Long-Term Earnings Losses,” American Economic Review, October 2020, 110 (10), 3231–3266.
+Linn, Joshua and Kristen McCormack, “The roles of energy markets and environmental regulation in reducing coal-fired plant profits and electricity sector emissions,” The RAND Journal of
+Economics, 2019, 50 (4), 733–767.
+
+37
+
+Mian, Atif and Amir Sufi, “What Explains the 2007–2009 Drop in Employment?,” Econometrica,
+2014, 82 (6), 2197–2223.
+Moretti, Enrico, “Local Labor Markets,” in “Handbook of Labor Economics,” Vol. 4, Elsevier, 2011,
+pp. 1237–1313.
+Morris, Adele C, Noah Kaufman, and Siddhi Doshi, “The risk of fiscal collapse in coal-reliant
+communities,” Columbia University SIPA and The Brookings Institution, 2019, pp. 1–56.
+Neal, Derek, “Industry-Specific Human Capital: Evidence from Displaced Workers,” Journal of
+Labor Economics, 1995, 13 (4), 653–677. Publisher: [University of Chicago Press, Society of Labor
+Economists, NORC at the University of Chicago].
+Notowidigdo, Matthew J, “The Incidence of Local Labor Demand Shocks,” Journal of Labor Economics, 2020, 38 (3), 687–725.
+Partridge, Mark D., Michael R. Betz, and Linda Lobao, “Natural Resource Curse and Poverty in
+Appalachian America,” American Journal of Agricultural Economics, 2013, 95 (2), 449–456. Publisher: [Agricultural & Applied Economics Association, Oxford University Press].
+Pierce, Justin R. and Peter K. Schott, “The Surprisingly Swift Decline of US Manufacturing Employment,” American Economic Review, July 2016, 106 (7), 1632–1662.
+Redding, Stephen J, “Trade and Geography,” in “Handbook of International Economics,” Vol.
+Chapter 3, Amsterdam: Elsevier-North Holland, 2022, pp. 147–217.
+Rud, Juan-Pablo, Michael Simmons, Gerhard Toews, and Fernando Aragon, “Job displacement
+costs of phasing out coal,” Journal of Public Economics, August 2024, 236, 105167.
+Schmieder, Johannes F., Till Von Wachter, and Jörg Heining, “The Costs of Job Displacement
+over the Business Cycle and Its Sources: Evidence from Germany,” American Economic Review,
+May 2023, 113 (5), 1208–1254.
+Topel, Robert, “Specific capital and unemployment: Measuring the costs and consequences of job
+loss,” Carnegie-Rochester Conference Series on Public Policy, September 1990, 33, 181–214.
+Voorheis, John, Jonathan Colmer, Kendall A. Houghton, Eva Lyubich, Mary Munro, Cameron
+Scalera, and Jennifer R Withrow, “Building the Prototype Census Environmental Impacts
+Frame,” NBER, 2023.
+
+38
+
+Walker, W. Reed, “Environmental Regulation and Labor Reallocation: Evidence from the Clean
+Air Act,” American Economic Review, May 2011, 101 (3), 442–447.
+, “The Transitional Costs of Sectoral Reallocation: Evidence From the Clean Air Act and the
+Workforce*,” The Quarterly Journal of Economics, November 2013, 128 (4), 1787–1835.
+Yagan, Danny, “Employment Hysteresis from the Great Recession,” Journal of Political Economy,
+2019, 127 (5), 2505–2558.
+Òscar Jordà, “Estimation and Inference of Impulse Responses by Local Projections,” American
+Economic Review, February 2005, 95 (1), 161–182.
+, “Local Projections for Applied Economics,” Federal Reserve Bank of San Francisco, Working Paper
+Series, July 2023, 2023 (16), 01–35.
+
+39
+
+Appendix
+A
+
+Appendix Figures
+
+Figure A1: Coal establishments & employment, 2005–2021, administrative data versus CBP data
+
+Note: This figure shows the total number of coal mining establishments (on the left axis) and total coal mining employment (on the right axis) between 2005 and 2021, separately based on the (rounded) administrative data used in
+this paper and based on the publicly available data from the CBP. Workers are identified as coal miners if their primary
+employer (in terms of total earnings) in a given year was a coal mining establishment. Coal mining establishments are
+defined as those with NAICS codes 2121 and 213113. Source: ACS 2005–2021 linked with the Environmental Impacts
+Frame, IRS W-2s, Census Business Register, and County Business Patterns database.
+
+1
+
+Figure A2: Number of years worked in coal, 2005–2021
+
+Note: The value on the X-axis indicates the number of years a worker’s primary earnings were drawn from the coal
+mining industry between 2005 and 2021. All coal workers refers to all workers whose primary earnings were drawn
+from the coal mining industry in any year over the 2005–2021 period. The age-restricted coal panel further restricts this
+sample to individuals born between 1955 and 1985. Source: ACS 2005–2021 linked with the Environmental Impacts
+Frame, IRS W-2s, and Census Business Register.
+
+2
+
+Figure A3: Separations and the Evolution of Cumulative, Normalized Earnings
+
+(a) Coal; no controls
+
+(b) Non-coal; no controls
+
+(c) Coal; basic controls
+
+(d) Non-coal; basic controls
+
+(e) Coal; worker FE
+
+(f) Non-coal; worker FE
+
+Note: This figure plots the bivariate relationship between a firm separation and the evolution of cumulative, normalized
+earnings five years on either side of the separation event. The outcome for years t ≥ 0 is the sum of earnings between
+years t and the year on the x-axis, divided by t − 5 through t − 1 average earnings. The outcome for years t < −1 is
+the sum of earnings between years t − 2 and the year on the x-axis, divided by average earnings in years t − 5 through
+t − 1. The left panels reflect separations from coal establishments, and the right panels reflect all other firm separations.
+The sample is workers born between 1955 and 1985 with non-negative AGI and reporting non-zero earnings in years
+t and t − 1. Each estimate is the result of a separate bivariate regression estimated for each time horizon as presented
+in equation 1. The top two panels include no controls. The middle two panels control for age, a dummy for being
+male, a dummy for being non-Hispanic white, and year and region fixed effects. The bottom two panels include year,
+region, and worker fixed effects. Shading reflects 95 percent confidence interval. Standard errors are clustered at
+the Commuting Zone. Source: ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s, and Census
+Business Register.
+
+3
+
+Figure A4: Cumulative number of years receiving SSA-1099, 2007–2021
+
+Note: Figure plots the regression coefficients and 95% confidence intervals from separate regressions of the number
+of years the worker received SSA-1099 income over the specified time period. In years prior to 2012, the outcome is
+defined over the year indicated on the x-axis and 2011. In years 2012–2021, the outcome is defined over the period
+between 2012 and the year indicated on the x-axis. The primary independent variable is a dummy variable indicating
+whether or not the worker’s primary earnings were drawn from the coal industry in all five years between 2007 and
+2011. All regressions include the full set of worker-level controls from equation 2. Source: ACS 2005–2021 linked with
+the Environmental Impacts Frame, IRS W-2s, and Census Business Register.
+
+4
+
+B
+
+Margins of adjustment: Robustness and extensions
+
+B.1
+
+Sensitivity to controls
+
+Table B1 displays the sensitivity of the coefficient estimates in Table 2 to the inclusion of controls.
+We initially omit all controls and fixed effects to display the unconditional variation in the data. In
+column 2, we include region fixed effects; column 3 additionally controls for basic demographic
+characteristics — age, an indicator for being non-Hispanic white, and an indicator for being male;
+column 4 further controls for firm tenure and the change in average wages in the pre-shock period; finally, column 5 controls for pre-shock wages and their interaction with age. Each additional
+set of controls modestly reduces the magnitude of the point estimate in Panels A and B (cumulative earnings), while the coefficient in Panel B (cumulative employment) is relatively stable across
+specifications. The estimated coefficient for cumulative earnings in the least parsimonious specification is 27% smaller in magnitude than the estimate without controls. Overall, our findings are
+not especially sensitive to the inclusion of controls.
+
+B.2
+
+Geographic mobility
+
+In Table B2, we explore the consequences of exposure to the coal shock on geographic mobility.
+The outcome in column 1 is defined as the cumulative number of years between 2012 and 2019
+that a worker lived in his or her 2011 CZ. The outcome in column 2 is defined analogously but
+considers the number of years spent in the same state. The outcome in column 3 is defined as
+the maximum distance (in miles) between a worker’s 2011 residence and their residential locations over the 2012–2019 period. For example, the outcome for a worker who lived in Welch, West
+Virginia between 2011 and 2014 before moving to Raleigh, North Carolina for one year in 2015 followed by a permanent move to Beckley, West Virginia in 2016 would be the straight-line distance
+between the latitude-longitude of his residence in Welch to the latitude-longitude of his residence
+in Raleigh.
+In column 1, we estimate that greater exposure to the coal shock does not yield a statistically distinguishable impact on the number of years in which a worker lives in his or her 2011
+CZ between 2012 and 2019. The point estimate in column 2 indicates that exposed coal workers
+spend a modest amount of additional time in their 2011 state. The coefficient suggests that they
+spend about 0.18 additional years, or over two months, in the same state over the 2012–2019 pe-
+
+5
+
+Table B1: Exposure to coal shock and the evolution of earnings: Sensitivity to controls
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+Panel A: Cumulative earnings
+1[Coali,2007-11 ]
+-2.038***
+(0.119)
+
+-1.912***
+(0.086)
+
+-1.775***
+(0.087)
+
+-1.681***
+(0.089)
+
+-1.597***
+(0.087)
+
+Panel B: Cumulative employment
+1[Coali,2007-11 ]
+-0.396***
+(0.049)
+
+-0.344***
+(0.040)
+
+-0.297***
+(0.038)
+
+-0.317***
+(0.039)
+
+-0.370***
+(0.037)
+
+Panel C: Earnings per year of employment
+1[Coali,2007-11 ]
+-0.227***
+-0.215***
+(0.013)
+(0.010)
+
+-0.203***
+(0.010)
+
+-0.189***
+(0.011)
+
+-0.174***
+(0.010)
+
+✓
+
+✓
+✓
+
+✓
+✓
+✓
+
+152,000
+
+152,000
+
+152,000
+
+✓
+✓
+✓
+✓
+152,000
+
+Region FE
+Demographic controls
+Employment controls
+Earnings controls
+Observations
+
+152,000
+
+The outcome variables are defined over the 2012 to 2019 period. Cumulative earnings and earnings per year employed
+are normalized to average annual wages between 2007 and 2011. The primary independent variable is a dummy
+variable indicating whether or not the worker’s primary earnings were drawn from the coal industry in all five years
+between 2007 and 2011. Demographic controls include age, an indicator for being non-Hispanic white, and an indicator
+for being male. Employment controls include tenure at 2011 firm between 2007 and 2011, the change in average annual
+wages between 2007 and 2011, and 8 bins of 2011 establishment size. Earnings controls include the log of average
+annual wages between 2007 and 2011 and the interaction of average wages with the worker’s age. Robust standard
+errors in parentheses are clustered on the worker’s firm in 2011. Source: ACS 2005–2021 linked with the Environmental
+Impacts Frame, IRS W-2s and Census Business Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+riod. Exposed coal workers appear to move to less distant locations than observationally similar
+workers. They travel about 43 miles less to their farthest residence from their residence in 2011.
+This evidence offers a somewhat nuanced portrait of geographic mobility. Exposed coal workers
+do not appear to spend more or less time in their immediate labor market during the years of
+coal’s decline, but they do spend more time in their 2011 state of residence and move within more
+proximate locations than observationally similar workers.
+
+B.3
+
+Spatial spillovers
+
+Labor supply is responsive not only to the economic conditions in a local labor market but also to
+those conditions in possible alternative destinations (Borusyak et al., 2022). Relatedly, local labor
+6
+
+Table B2: Exposure to coal shock and geographic mobility, 2012-2019
+(1)
+# of years in 2011 CZ
+
+(2)
+# of years in 2011 state
+
+(3)
+Farthest distance from
+2011 residence (miles)
+
+0.069
+(0.036)
+
+0.183***
+(0.026)
+
+-42.680***
+(4.723)
+
+Outcome mean (SD)
+
+7.02 (2.20)
+
+7.52 (1.56)
+
+89.38 (309.50)
+
+Controls
+Region FE
+Observations
+
+✓
+✓
+152,000
+
+✓
+✓
+152,000
+
+✓
+✓
+152,000
+
+1[Coali,2007-11 ]
+
+The outcome variables are defined over the 2012 to 2019 period. The primary independent variable is a dummy
+variable indicating whether or not the worker’s primary earnings were drawn from the coal industry in all five years
+between 2007 and 2011. All regressions include the full set of worker-level controls from equation 2. Robust standard
+errors in parentheses are clustered on the worker’s firm in 2011. Source: ACS 2005–2021 linked with the Environmental
+Impacts Frame, IRS W-2s and Census Business Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+demand depends on local economic conditions as well as the economic conditions in proximate
+labor markets (Adão et al., 2019; Redding, 2022). Our primary empirical strategy detailed in section 4.1 defines “exposure” to the coal shock based on an individual worker’s tenure in the coal
+mining industry. This strategy exploits the fact that individuals with a relatively greater attachment to the industry will be relatively more exposed to the national collapse in demand for coal.
+While tenure in the industry is certainly a key factor influencing whether a worker will be affected
+by this macroeconomic coal shock, geographic location will also play a large role. Tenured coal
+workers living in regions with relatively large concentrations of coal mining employment may
+suffer from the individual consequences of the coal shock, as well as the broader consequences
+the shock has on the local community.
+To address these spatial spillovers, we add to equation 2 a control variable that reflects regional exposure to the coal shock. This variable for worker i in CZ j, ϕij , is a gravity-weighted
+measure of the CZ’s proximity to other regions’ coal shock exposure:
+
+
+X
+X
+
+ϕij =
+γc 
+ωcc′ × Coalc2005
+′
+c∈j
+
+c
+
+(3)
+
+′
+
+where Coalc2005
+is the coal mining employment share of the population in county c′ ̸= c in 2005.
+′
+This variable serves as a county’s exposure to the subsequent “coal shock.”.1 The intuition is that
+1
+
+The coal mining employment share of the population is highly correlated over time. Using instead the 2011 coal
+
+7
+
+communities in which coal was relatively more concentrated preceding the large-scale decline in
+demand for coal were relatively more exposed to this macroeconomic coal shock.2 We weight
+this exposure variable by ωcc′ , which reflects the spatial proximity, or gravity-weighted distance,
+between county c and c′ ̸= c:
+−δ
+Nc′ Dcc
+′
+ωcc′ ≡ P
+−δ
+k Nk Dck
+
+(4)
+
+where Nc′ is the 2005 population of county c′ , Dcc′ is the distance (in miles) between county c
+and c′ , and δ is the trade-cost elasticity which, following Autor et al. (2021), we set equal to 5.
+The weight γc is the population of county c, and thus we take a population-weighted average
+P
+of c′ ωcc′ × Coalc2005
+for all counties c in CZ j to generate ϕij . The variable ϕij thus reflects a
+′
+weighted sum of all other CZ’s exposure to the coal shock. We define this variable for worker i
+based on the CZ j in which he or she lived in 2011.
+Table B3: Exposure to coal shock and the evolution of earnings, controlling for spatial proximity
+to coal shocks
+(1)
+Cumulative
+earnings
+
+(2)
+# of years w/
+earnings >0
+
+(3)
+Earnings per year
+employed
+
+1[Coali,2007-11 ]
+
+-1.021***
+(0.083)
+
+-0.212***
+(0.034)
+
+-0.112***
+(0.010)
+
+Outcome mean (SD)
+
+8.05 (3.71)
+
+7.45 (1.43)
+
+1.06 (0.43)
+
+Controls
+Spatial proximity control (ϕij )
+Region FE
+Observations
+
+✓
+✓
+✓
+152,000
+
+✓
+✓
+✓
+152,000
+
+✓
+✓
+✓
+152,000
+
+The outcome variables are defined over the 2012 to 2019 period. Cumulative earnings and earnings per year employed
+are normalized to average annual wages between 2007 and 2011. The primary independent variable is a dummy
+variable indicating whether or not the worker’s primary earnings were drawn from the coal industry in all five years
+between 2007 and 2011. All regressions include the full set of worker-level controls from equation 2, as well as the
+control for spatial linkages defined in equation 3. Robust standard errors in parentheses are clustered on the worker’s
+firm in 2011. Source: ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s and Census Business
+Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+Table B3 reports the coefficient estimates β1 from equation 2 with the inclusion of this control for regional exposure to the coal shock. The point estimates can be compared to the central
+share to identify exposure to the shock, for example, yields similar results.
+2
+This exposure variable can be thought of as the “share” in a single industry Bartik shift-share instrument, where
+the “shift” is the macroeconomic shift in demand for coal, which is common to all counties (Bartik, 1991; GoldsmithPinkham et al., 2020; Krause, 2023).
+
+8
+
+estimates presented in Table 2. The magnitude of the coefficients on cumulative earnings and
+employment is between 36 and 43 percent smaller than the central estimates when controlling
+for spatial proximity to the coal shock. This indicates that controlling for the indirect effects of
+shocks in proximate labor markets indeed dampens the direct effects of the individual-level shock
+exposure (Adão et al., 2019).
+While we have omitted the results from this paper, controlling for spatial linkages does not
+alter the conclusions drawn from the decomposition exercises reported in Tables 3 through B8.
+Though the coefficients are again smaller in magnitude, the conclusions drawn from this specification are similar to those drawn from the primary analysis. Our primary specification can be
+thought of as revealing the total effect of being a “tenured” coal worker, relatively more exposed
+to the coal shock, on future earnings and employment. Controlling for the indirect effects of spatial linkages somewhat attenuates the overall effect of individual-level exposure, confirming that
+the economic conditions in related labor markets also influence an individual’s earnings and employment trajectory.
+
+B.4
+
+Alternatives definition of coal shock exposure
+
+Our primary measure of individual-level “exposure” to the coal shock, 1[Coali,2007-11 ], is a dummy
+variable characterizing whether or not the worker worked for coal in all five years between 2007
+and 2011. This is a relatively conservative measure of exposure, as some workers with relatively
+lesser tenure in the coal industry are still exposed to the adverse labor market consequences of
+declining demand for coal. This would have the effect of biasing our primary estimates toward
+zero. In two alternative specifications, we define exposure based on the number of years in which
+the coal mining industry was the worker’s primary source of earnings between 2007 and 2011. In
+the first specification, we define exposure as a continuous variable reflecting the number of years
+worked in a coal mining establishment. In the second, we use a binned treatment variable.
+B.4.1
+
+Continuous measure of coal exposure
+
+Using the sample sample of workers who worked full-time in all years from 2007 through 2011,
+we estimate an analogous version of equation 2:
+′
+
+Eiτ = β0 + β1 (Y Ci,2007-11 ) + Xi,0 β2 + δr + εiτ
+
+9
+
+(5)
+
+where Y Ci,2007-11 reflects the number of years between 2007 and 2011 that worker i’s primary
+earnings came from the coal industry. Now, β1 represents the effect of an additional year of attachment to the coal industry in the years preceding the coal shock. We include the same set of
+worker-level controls and again limit our analysis to workers who worked full-time in all five of
+these pre-shock years.
+
+The results from this exercise are reported in Table B4. The point esti-
+
+Table B4: Exposure to coal shock and the evolution of earnings using a continuous measure of
+exposure
+(1)
+Cumulative earnings
+
+(2)
+# of years w/
+earnings >0
+
+(3)
+Earnings per year
+employed
+
+# Years in coal, 2007–2011
+
+-0.434***
+(0.027)
+
+-0.095***
+(0.009)
+
+-0.048***
+(0.003)
+
+Outcome mean (SD)
+
+8.05 (3.71)
+
+7.45 (1.43)
+
+1.06 (0.43)
+
+Controls
+Region FE
+Observations
+
+✓
+✓
+152,000
+
+✓
+✓
+152,000
+
+✓
+✓
+152,000
+
+The outcome variables are defined over the 2012 to 2019 period. Cumulative earnings and earnings per year employed
+are normalized to average annual wages between 2007 and 2011. The primary independent variable is a continuous
+variable indicating the number of years in which the worker’s primary earnings were drawn from the coal industry
+between 2007 and 2011. All regressions include the full set of worker-level controls from equation 2. Robust standard
+errors in parentheses are clustered on the worker’s firm in 2011. Source: ACS 2005–2021 linked with the Environmental
+Impacts Frame, IRS W-2s and Census Business Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+mates reveal that an additional year of working full-time for the industry in the years preceding
+the shock yields a decline in cumulative earnings between 2012 and 2019 of nearly one-half of the
+average annual earnings earned during the 2007 to 2011 period. This additional year of attachment yields a decline in the number of years worked between 2012 and 2019 of about 10 percent
+of a year, or about 5 weeks, and a decline in earnings per year employed of 4.8 percent per year
+relative to the 2007–2011 annual wage. The qualitative conclusions are largely similar to those
+drawn from the primary analysis. Exposure to coal’s recent decline, defined based on a worker’s
+tenure in the coal industry in the pre-shock period, yields relatively large earnings and employment losses between 2012 and 2019 when the coal shock was in full force.
+
+10
+
+B.4.2
+
+Binned treatment variable
+
+The results in Section B.4.1 suggest that additional years of “exposure” to the coal shock — in
+terms of tenure in the coal industry — are associated with aggregate earnings and employment
+losses. However, if the effect of exposure is nonlinear, the average treatment captured in the
+estimates presented above will not reflect this nonlinearity. In Table B5, we present the estimates
+from transforming the continuous measure of coal exposure into a binned treatment variable,
+where we bin the number of years in which the worker’s primary earnings were drawn from the
+coal industry between 2007 and 2011 into three groups: zero, between 1 and 3 years, and between
+4 and 5 years.3 The remainder of the specification is exactly as before.
+Table B5: Exposure to coal shock and the evolution of earnings using a binned treatment variable
+(1)
+Cumulative earnings
+
+(2)
+# of years w/
+earnings >0
+
+(3)
+Earnings per year
+employed
+
+1-3 years in coal, 2007–11
+
+-0.713***
+(0.098)
+
+-0.163***
+(0.027)
+
+-0.077***
+(0.011)
+
+4-5 years in coal, 2007–11
+
+-2.049***
+(0.133)
+
+-0.454***
+(0.043)
+
+-0.225***
+(0.015)
+
+Outcome mean (SD)
+
+8.05 (3.71)
+
+7.45 (1.43)
+
+1.06 (0.43)
+
+Controls
+Region FE
+Observations
+
+✓
+✓
+152,000
+
+✓
+✓
+152,000
+
+✓
+✓
+152,000
+
+The outcome variables are defined over the 2012 to 2019 period. Cumulative earnings and earnings per year employed
+are normalized to average annual wages between 2007 and 2011. The primary independent variable is a binned variable
+indicating the number of years in which the worker’s primary earnings were drawn from the coal industry between
+2007 and 2011 (zero, between 1 and 3 years, and between 4 and 5 years). All regressions include the full set of workerlevel controls from equation 2. Robust standard errors in parentheses are clustered on the worker’s firm in 2011. Source:
+ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s and Census Business Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+The coefficient estimates in Table B5 confirm that workers with greater exposure to the coal
+shock, in terms of tenure in the industry between 2007 and 2011, experience larger cumulative
+earnings and employment losses than workers with no or partial exposure to the shock. Individuals who worked in the coal industry for 4-5 years between 2007 and 2011 lost about 2 years’ worth
+of earnings between 2012 and 2019 in terms of their 2007–2011 annual earnings, while those who
+3
+
+There are several possible cutoffs or methods to bin the continuous exposure variable, including allowing for one
+bin per year of exposure. The conclusions are insensitive to this choice.
+
+11
+
+worked for 1-3 years lost only 0.7 year’s worth of earnings. Both of these estimates are relative
+to workers who worked zero years in the coal industry between 2007 and 2011. The effect on
+the extensive margin — the number of years worked between 2012 and 2019 — is nearly three
+times as large for the most exposed workers relative to partially exposed workers. The effect on
+the intensive margin — earnings per year employed — is nearly three times as large for the most
+exposed workers. Scaling the coefficient estimates in columns 1-3 from Table B4 by the number of
+years in each bin reveals that these estimates are roughly consistent with relatively linear impacts
+of exposure on outcomes.4 Comparing the magnitude of the coefficients in Table B5 to those in
+Table 2 confirms that the inclusion of “partially exposed” coal workers in the control group in
+the main analysis serves to attenuate the main estimates. For this reason, we consider our central
+estimates a lower bound of the effect of exposure on aggregate earnings and employment losses.
+B.4.3
+
+Within-coal analysis
+
+The estimates in Appendix sections B.4.1 and B.4.2 indicate that individuals with “partial” exposure to coal’s decline also suffered earnings and employment losses during the 2012–2019 period.
+Thanks to the high spatial concentration of coal mining activity, if there were some, other (noncoal-related) shock or change over time that differentially affected coal communities, both partially exposed coal workers and the most exposed coal workers (i.e., the “treated” coal workers)
+would be subject to its consequences. If another geographically concentrated change adversely influenced coal communities, we might misattribute its consequences to the decline in coal. In this
+section, we explore how the most exposed group of coal workers fared relative to these other, less
+exposed coal workers. In Table B6, we limit the analysis to individuals who worked full-time in all
+years 2007–2011 (as before) and whose primary employer was a coal establishment in at least one
+of these years. Limiting the analysis to only coal workers has the advantage of absorbing other
+spurious economic conditions or shocks that differentially influence coal communities. All other
+details about the specification are exactly as in our primary analysis. “Treated” coal workers are
+those who worked in coal for all five years during the pre-shock period.
+The conclusions drawn from Table B6 are broadly similar to those drawn from the primary
+specification. Relative to other coal workers with less exposure to the shock, the most exposed
+4
+
+In separate analyses, we also consider a categorical measure of exposure, which effectively produces a bin for each
+possible extent of exposure (0, 1, 2, 3, 4, and 5 years). This exercise confirms that the earnings and employment effects
+are roughly linear in the number of years of exposure up until 4 years, after which they level off somewhat.
+
+12
+
+Table B6: Exposure to coal shock and the evolution of earnings, sample of only coal workers
+(1)
+Cumulative earnings
+
+(2)
+# of years w/ earnings
+>0
+
+(3)
+Earnings per year
+employed
+
+1[Coali,2007-11 ]
+
+-1.083***
+(0.066)
+
+-0.243***
+(0.037)
+
+-0.118***
+(0.007)
+
+Outcome mean (SD)
+
+7.25 (3.40)
+
+7.26 (1.64)
+
+0.97 (0.38)
+
+✓
+✓
+61,500
+
+✓
+✓
+61,500
+
+✓
+✓
+61,500
+
+Controls
+Region FE
+Observations
+
+The outcome variables are defined over the 2012 to 2019 period. Cumulative earnings and earnings per year employed
+are normalized to average annual wages between 2007 and 2011. The primary independent variable is a dummy
+variable indicating whether or not the worker’s primary earnings were drawn from the coal industry in all five years
+between 2007 and 2011. The sample is limited to individuals who worked at least one year in coal between 2007 and
+2011. All regressions include the full set of worker-level controls from equation 2. Robust standard errors in parentheses
+are clustered on the worker’s firm in 2011. Source: ACS 2005–2021 linked with the Environmental Impacts Frame, IRS
+W-2s and Census Business Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+coal workers experienced a decline in earnings amounting to an entire year’s worth of earnings
+over the 2012–2019 period, with both extensive and intensive margins responses contributing. The
+slight attenuation of the coefficients is consistent with the finding that these partially exposed coal
+workers are indeed treated to some extent by the decline in coal.
+B.4.4
+
+Control for industry tenure
+
+Our central specification defines a worker’s exposure to the coal shock based on his or her tenure
+in the coal industry during the pre-shock period. One might be concerned that workers with
+five years of consecutive tenure in a single industry might have different employment or earnings
+potential than workers who switched industries over the 2007–2011 period. The specification used
+to produce the estimates in Table B7 is identical to that outlined by equation 2, with one additional
+control variable: the binned number of years in which the worker worked for his or her 2011 (2digit) industry over the 2007–2011 period. The point estimates are quantitatively similar to those
+in Table 2. Compared to observationally similar workers with substantial tenure in their respective
+industries during the 2007–2011 period, exposed coal workers suffered large cumulative earnings
+losses over the 2012–2019 period, driven both by extensive and intensive margin responses.
+
+13
+
+Table B7: Exposure to coal shock and the evolution of earnings, controlling for industry tenure
+(1)
+Cumulative
+earnings
+
+(2)
+# of years w/
+earnings >0
+
+(3)
+Earnings per year
+employed
+
+1[Coali,2007-11 ]
+
+-1.547***
+(0.091)
+
+-0.401***
+(0.040)
+
+-0.165***
+(0.010)
+
+Outcome mean (SD)
+
+8.05 (3.71)
+
+7.45 (1.43)
+
+1.06 (0.43)
+
+Controls
+Binned tenure in 2011 industry
+Region FE
+Observations
+
+✓
+✓
+✓
+152,000
+
+✓
+✓
+✓
+152,000
+
+✓
+✓
+✓
+152,000
+
+The outcome variables are defined over the 2012 to 2019 period. Cumulative earnings and earnings per year employed
+are normalized to average annual wages between 2007 and 2011. The primary independent variable is a dummy
+variable indicating whether or not the worker’s primary earnings were drawn from the coal industry in all five years
+between 2007 and 2011. All regressions include the full set of worker-level controls from equation 2, as well as a control
+for the (binned) number of years in which the worker worked for his or her 2011 industry over the 2007–2011 period,
+where industry is based on 2-digit NAICS code. Robust standard errors in parentheses are clustered on the worker’s
+firm in 2011. Source: ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s and Census Business
+Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+B.5
+
+The role of spillovers and industrial sector
+
+In this section, we consider potential heterogeneity in earnings and employment trajectories based
+on the extent to which an industry depends on local demand. This exercise is motivated by the
+observation that local industries may be differentially exposed to the spillover effects of local employment declines in the coal industry. Non-tradable industries that rely on local demand may be
+more vulnerable to the negative spillovers associated with declining local labor market opportunities in other industries (Moretti, 2011; Aragón and Rud, 2013; Mian and Sufi, 2014). Given that
+exposure to the coal shock does not appear to promote substantial geographic mobility, exposed
+workers’ earnings and employment trajectories in non-mining industries may be dictated to some
+degree by these local spillovers. We define industries as tradable, non-tradable, construction,
+or other following the categorization in Mian and Sufi (2014), who define retail- and restaurantrelated industries as non-tradable, and industries that show up in global trade data as tradable.
+Specifically, tradable industries are classified as 4-digit NAICS industries for which imports plus
+exports equal at least $10,000 per worker or $500M total. Non-tradable industries include the
+retail sector and restaurants, and construction includes 4-digit industries related to construction,
+
+14
+
+real estate, or land development. Other includes all other 4-digit industries.5
+Table B8: Exposure to coal shock and the evolution of earnings geographic location and industrial
+sector
+(5)
+
+(6)
+
+Tradable
+
+(4)
+Same CZ
+Non-trad.
+Const.
+
+Tradable
+
+(7)
+(8)
+Different CZ
+Non-trad.
+Const.
+
+Other
+
+Other
+
+2.234***
+(0.206)
+
+-0.160***
+(0.048)
+
+-0.484***
+(0.037)
+
+-2.871***
+(0.154)
+
+0.138***
+(0.032)
+
+-0.020***
+(0.005)
+
+-0.074***
+(0.010)
+
+-0.360***
+(0.021)
+
+8.05 (3.71)
+
+2.53 (3.60)
+
+0.30 (1.47)
+
+0.56 (1.93)
+
+3.66 (4.19)
+
+0.36 (1.53)
+
+0.04 (0.53)
+
+0.09 (0.72)
+
+0.51 (1.97)
+
+Panel B: Cumulative employment
+1[Coali,2007-11 ]
+-0.370***
+(0.037)
+
+2.721***
+(0.164)
+
+-0.145**
+(0.045)
+
+-0.407***
+(0.032)
+
+-2.432***
+(0.150)
+
+0.230***
+(0.028)
+
+-0.016***
+(0.004)
+
+-0.054***
+(0.009)
+
+-0.267***
+(0.016)
+
+2.30 (2.99)
+
+0.31 (1.33)
+
+0.54 (1.63)
+
+3.42 (3.31)
+
+0.31 (1.17)
+
+0.04 (0.40)
+
+0.09 (0.58)
+
+0.45 (1.41)
+
+Panel C: Earnings per year of employment
+1[Coali,2007-11 ]
+-0.174***
+-0.133***
+(0.010)
+(0.007)
+
+-0.480***
+(0.032)
+
+-0.287***
+(0.014)
+
+-0.333***
+(0.025)
+
+-0.193***
+(0.017)
+
+-0.405***
+(0.046)
+
+-0.286***
+(0.024)
+
+-0.345***
+(0.016)
+
+(1)
+All
+
+Panel A: Cumulative earnings
+1[Coali,2007-11 ]
+-1.597***
+(0.087)
+Outcome mean (SD)
+
+Outcome mean (SD)
+
+7.45 (1.43)
+
+(2)
+
+(3)
+
+(9)
+
+Outcome mean (SD)
+
+1.06 (0.43)
+
+1.08 (0.42)
+
+0.86 (0.47)
+
+0.95 (0.47)
+
+1.02 (0.48)
+
+1.13 (0.58)
+
+0.79 (0.66)
+
+0.96 (0.60)
+
+1.05 (0.70)
+
+Controls
+Region FE
+Obs. (Panels A and B)
+Obs. (Panel C)
+
+✓
+✓
+152,000
+152,000
+
+✓
+✓
+152,000
+73,500
+
+✓
+✓
+152,000
+11,000
+
+✓
+✓
+152,000
+22,000
+
+✓
+✓
+152,000
+101,000
+
+✓
+✓
+152,000
+14,500
+
+✓
+✓
+152,000
+2,300
+
+✓
+✓
+152,000
+5,100
+
+✓
+✓
+152,000
+20,000
+
+The outcome variables are defined over the 2012 to 2019 period. Cumulative earnings and earnings per year employed
+are normalized to average annual wages between 2007 and 2011. The primary independent variable is a dummy
+variable indicating whether or not the worker’s primary earnings were drawn from the coal industry in all five years
+between 2007 and 2011. All regressions include the full set of worker-level controls from equation 2. Column 1 shows
+aggregate effect on cumulative earnings and employment. Columns 2–9 decompose these effects into employment
+and earnings obtained in the 2011 CZ of residence versus other CZs, and within versus outside of different industrial
+sectors, defined in the text. Robust standard errors in parentheses are clustered on the worker’s firm in 2011. Source:
+ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s and Census Business Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+Table B8 reports this decomposition. Noting that coal mining is classified as a tradable industry, the point estimates in column 2 demonstrate that cumulative earnings and employment
+losses for exposed coal workers are attenuated by employment within the tradable industry category.6 The largest contribution to reductions in cumulative earnings and employment comes from
+employment in the “other” category. The point estimate in column 5 of Panel B indicates that
+exposed coal workers spend 2.4 fewer years employed in “other” industries within their initial
+CZ than observationally similar workers.
+Panel C of Table B8 provides additional insight into how earnings may be affected by em5
+Other includes many service-oriented industries, including accommodations, education, health care and social
+assistance, and other services. The precise definitions of each category are provided in the supplemental materials in
+Mian and Sufi (2014).
+6
+Distinguishing coal from other tradable industries indicates that the positive coefficient in column 2 is almost
+entirely driven by years that exposed coal workers spend in coal mining (rather than other tradable industries).
+
+15
+
+ployment opportunities in these different sectors. We estimate that reductions in earnings during
+years of employment are substantially larger when workers are engaged in non-tradable, construction, and other industries than when they are engaged in tradable industries (which, again,
+includes coal mining). Comparing the point estimates in columns 2 and 3 of Panel C indicates
+that the reduction in earnings per year employed is about three times as large for years employed
+in “non-tradable” industries compared to years employed in “tradable” industries. This could be
+because non-tradable industries more heavily dependent on local demand are adversely affected
+by the spillover effects of the decline in coal, or because exposed coal workers are relatively less
+productive in these industrial sectors than control workers. Of note, we do not see meaningful differences in earnings per year of employment when comparing within industrial category across
+labor markets, indicating that indirect reductions in local demand may not be a substantial driver
+of the intensive margin of earnings losses relative to the direct effect on workers. Still, adverse
+local spillovers could contribute to the extensive margin by reducing employment opportunities
+within an affected labor market.
+
+B.6
+
+Retirement withdrawals and pension contributions
+
+Exposed coal workers may supplement lost earned income and reduced employment opportunities with greater reliance on retirement resources. Workers may choose to retire early during contractions in the sector or following a specific displacement event, which may contribute to lower
+living standards later in life (Gruber and Orszag, 2003; Card et al., 2014). We observe workers’
+retirement income receipt from form 1099-R, which offers the total gross retirement withdrawals
+or pensions a worker receives in a year. We differentiate between IRA/401k withdrawals and pension contributions. We consider the effect of exposure to the coal shock on these withdrawals and
+contributions over the 2012–2019 period using the strategy outlined in Section 4.1. We consider
+both the number of years over the 2012–2019 period that a worker receives a 1099-R, indicating
+any retirement/pension drawdown, as well as the cumulative gross drawdown over this period,
+normalized to average annual 2007–2011 earnings.
+Table B9 reports these results. In Panel A, the outcome is the cumulative number of years
+between 2012 and 2019 that a worker receives the retirement resource indicated. In Panel B, the
+outcome is the cumulative receipt, normalized by pre-shock earnings. Columns 1 and 2 include
+both IRA/401k withdrawals and pension contributions. Columns 3 and 4 consider only IRA/401k
+
+16
+
+Table B9: Exposure to coal shock and retirement receipt, 2012-2019
+(2)
+(1)
+Any retirement
+
+(3)
+(4)
+Defined contribution
+
+(5)
+(6)
+Defined benefit (pension)
+
+0.119**
+0.038
+
+0.079*
+0.040
+
+0.410***
+0.060
+
+0.318***
+0.075
+
+0.50 (1.20)
+
+0.40 (1.04)
+
+1.22 (1.83)
+
+0.98 (1.48)
+
+Panel B: Cumulative receipt, normalized by 2007–11 earnings
+1[Coali,2007-11 ]
+0.135***
+0.139***
+0.063***
+0.049***
+0.019
+0.017
+0.013
+0.013
+
+0.072***
+0.015
+
+0.090***
+0.015
+
+Outcome mean (SD)
+
+0.46 (0.94)
+
+0.34 (0.69)
+
+0.12 (0.44)
+
+0.09 (0.34)
+
+0.34 (0.79)
+
+0.25 (0.59)
+
+Controls
+Region FE
+Sample
+Observations
+
+✓
+✓
+all
+152,000
+
+✓
+✓
+born 1960123,000
+
+✓
+✓
+all
+152,000
+
+✓
+✓
+born 1960123,000
+
+✓
+✓
+all
+152,000
+
+✓
+✓
+born 1960123,000
+
+Panel A: Cumulative number of years of receipt
+1[Coali,2007-11 ]
+0.430***
+0.347***
+0.060
+0.071
+Outcome mean (SD)
+
+1.57 (2.01)
+
+1.30 (1.70)
+
+The outcome variables are defined over the 2012 to 2019 period. In panel A, the outcome variable is defined as the
+cumulative number of years of receipt of the retirement type indicated over the 2012–2019 period. In panel B, the
+outcome is defined as the cumulative receipt from the retirement type indicated over the 2012–2019 period, normalized
+by average annual earnings between 2007 and 2011. Columns 1 and 2 include any distributions from a retirement
+account. Columns 3 and 4 consider distributions from any defined contribution account. Columns 5 and 6 consider
+pension annuities from a defined benefit plan. In even-numbered columns, the sample is restricted to workers born on
+or after 1960. The primary independent variable is a dummy variable indicating whether or not the worker’s primary
+earnings were drawn from the coal industry in all five years between 2007 and 2011. All regressions include the full set
+of worker-level controls from equation 2. Robust standard errors in parentheses are clustered on the worker’s firm in
+2011. Source: ACS 2005–2021 linked with the Environmental Impacts Frame, IRS W-2s and Census Business Register.
+*** p<0.001, ** p<0.01, * p<0.05
+
+withdrawals, and columns 5 and 6 consider only defined benefit (pension) contributions. The
+sample in even-numbered columns is restricted to workers born in 1960 or later, such that they are
+no more than 59 in 2019, the final year of analysis.
+The point estimates in column 1 indicate that exposed coal workers spend an additional 0.43
+years receiving any retirement income — an increase of over one-quarter of the sample mean.
+Total retirement receipts over the 2012–2019 period amount to 0.135 years’ worth of pre-shock
+earnings. These results are relatively stable when considering the slightly younger cohort in column 2. The greater reliance on retirement income among exposed coal workers is due to both
+IRA/401k withdrawals and pension contributions. Exposure to the coal shock induces workers to
+spend 0.12 additional years receiving 1099-R income from an IRA/401k account and an additional
+0.41 years receiving 1099-R income from a defined pension plan. This results in an additional 0.06
+
+17
+
+years’ worth of earnings received from an IRA/401k account and an additional 0.09 years’ worth
+of earnings from pensions. The effect of coal shock exposure on cumulative pension receipt appears driven by the slightly younger cohort of workers. These findings are consistent with the
+results related to SSA-1099 receipt. Exposed coal workers recoup some portion of lost earnings
+with alternative sources of income, though the combination of increased retirement and increased
+SSA income only amounts to a fraction of cumulative earnings losses over the 2012–2019 period.
+
+18
+
+
