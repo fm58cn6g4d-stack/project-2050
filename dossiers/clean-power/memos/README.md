@@ -16,6 +16,6 @@ Every memo opens with a **decision line**: the recommended option, its cost over
 
 **Points 1-14** (section 3): the goals, road fuels, the methane fee, the border adjustment, the 80/20 split, the dividend account, the credits' cost trigger, the national inventory, the clean-heat standard, large loads paying their own way, TVA's bond cap, bill protection's sunset, codes as a condition, and farms and forests. Each is recommended yes.
 
-**The recommended set** on the general fund: about **+$0.11 trillion over FY2030-39 against the booking (range about −$0.06 to +$0.28 trillion), about $1.9 trillion in all, and about $156 billion in FY2040**, about 3.6% of the plan-wide FY2040 shortfall. Project arithmetic on the booked rows and legacy models; the booking step reruns the carbon model for memo 1's coverage.
+**The recommended set** on the general fund: about **+$0.11 trillion over FY2030-39 against the booking (range about −$0.06 to +$0.28 trillion), about $1.9 trillion in all, and about $156 billion in FY2040**, about 3.7% of the plan-wide FY2040 shortfall (about $4,239 billion). Project arithmetic on the booked rows and legacy models; the booking step reruns the carbon model for memo 1's coverage.
 
 **Decision sheet.** A one-page sheet of these options and recommendations can be published for Espen alongside the board question.
