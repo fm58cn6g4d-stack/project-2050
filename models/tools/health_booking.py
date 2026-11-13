@@ -27,7 +27,8 @@ What is booked (all $ billion by federal fiscal year unless noted; a cost positi
 - HX, the revenue from ending the employer tax exclusion, on the general fund, on CBO's convention (full pass-through).
 - HLT-7's status-rule correction (DEC-2026-11-12-19): the single plan covers people with lawful or registered
   status, so care's base, which covered everyone but a 1% residual, is lowered by the people with no status beyond
-  the residual, and Emergency Medicaid, which care's plan counted as replaced, keeps paying for everyone with no status
+  the residual, and Emergency Medicaid, which care's plan counted as replaced, keeps paying for everyone with no status,
+  as does a federal uncompensated-care payment to hospitals at today's DSH-type share for them (DEC-2026-11-13-02)
   (dossiers/care/tools/status_rule.py; 6-cost.md part 2b). Its own component, so the correction stays visible.
 - HLT-8, USDA rural health grants (discretionary).
 The employer contribution and FEHB's money are not booked (review F-4 item 3): contribution() is reported only.
@@ -117,7 +118,8 @@ def fiscal():
 
 def status_rule():
     """HLT-7's status-rule correction (DEC-2026-11-12-19): people with no immigration status beyond the residual are
-    not covered, and Emergency Medicaid keeps paying for everyone with no status (dossiers/care/tools/status_rule.py,
+    not covered, and Emergency Medicaid and hospitals' DSH-type uncompensated-care share (DEC-2026-11-13-02) keep paying
+    for everyone with no status (dossiers/care/tools/status_rule.py,
     6-cost.md part 2b). Returns the central path and the low and high readings' FY2030-39 totals ($ billion)."""
     SR = _load("hb_status_rule", os.path.join(ROOT, "dossiers", "care", "tools", "status_rule.py"))
     runs = [SR.health(i)["net"] for i in range(3)]
@@ -148,7 +150,8 @@ def booking():
     # part 6's federal-coverage correction, on HX's path: less spending (a negative component) and less HX
     xf = excl_full(hp)
     fedcov = {y: -FEDCOV_SPEND_2032 / xf * hp["excl"][y] for y in W + [2040]}
-    # the status rule (DEC-2026-11-12-19): coverage removed for people with no status, Emergency Medicaid kept
+    # the status rule (DEC-2026-11-12-19): coverage removed for people with no status, Emergency Medicaid kept, and
+    # hospitals' DSH-type uncompensated-care share kept for them (DEC-2026-11-13-02)
     sr = status_rule()
     status = {y: sr["path"][y] for y in W + [2040]}
     hx = {y: hp["excl"][y] * (1 - FEDCOV_REVENUE_2032 / xf) for y in W + [2040]}

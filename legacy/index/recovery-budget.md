@@ -6,18 +6,18 @@
 
 | Case | Debt/GDP 2039 | Debt/GDP 2056 | Deficit/GDP 2056 | Stable debt ratio 2045–56? | Broad-income rate needed, total points |
 | --- | ---: | ---: | ---: | --- | ---: |
-| mixed | 167.0% | 337.7% | 22.53% | False | 32.35 |
+| mixed | 167.1% | 337.8% | 22.54% | False | 32.36 |
 | larger_payroll | 167.7% | 340.9% | 22.78% | False | 32.73 |
-| mixed_downside | 172.4% | 356.9% | 24.07% | False | 45.71 |
-| mixed_all_debt_rate_plus1 | 176.2% | 393.3% | 28.29% | False | 36.82 |
-| mixed_no_macro_translation | 166.9% | 336.6% | 22.41% | False | — |
-| mixed_leave_admin_high | 167.1% | 338.0% | 22.56% | False | — |
-| mixed_ssa_medicare_all_hi | 167.0% | 337.7% | 22.53% | False | — |
-| mixed_ssa_medicare_all_smi | 167.0% | 337.7% | 22.53% | False | — |
-| mixed_reserve_corridor | 167.0% | 337.7% | 22.53% | False | — |
+| mixed_downside | 172.4% | 356.9% | 24.07% | False | 45.72 |
+| mixed_all_debt_rate_plus1 | 176.3% | 393.4% | 28.29% | False | 36.83 |
+| mixed_no_macro_translation | 166.9% | 336.7% | 22.42% | False | — |
+| mixed_leave_admin_high | 167.2% | 338.1% | 22.56% | False | — |
+| mixed_ssa_medicare_all_hi | 167.1% | 337.8% | 22.54% | False | — |
+| mixed_ssa_medicare_all_smi | 167.1% | 337.8% | 22.54% | False | — |
+| mixed_reserve_corridor | 167.1% | 337.8% | 22.54% | False | — |
 | mixed_corridor_downside | 172.4% | 356.9% | 24.07% | False | — |
-| mixed_legacy_education_floor | 167.1% | 337.9% | 22.54% | False | — |
-| mixed_larger_credit | 171.4% | 342.3% | 22.65% | False | — |
+| mixed_legacy_education_floor | 167.1% | 338.0% | 22.55% | False | — |
+| mixed_larger_credit | 171.5% | 342.3% | 22.66% | False | — |
 
 The last column is the total broad-tier rate required under this static tax-yield proxy, replacing the proposed two-point broad tier, with the high tier unchanged. It is not a tax score.
 
@@ -36,10 +36,10 @@ The last column is the total broad-tier rate required under this static tax-yiel
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 2029 | 6261 | 7015 | 6261 | 8405 | 1345 | 2144 | 107.5% |
 | 2030 | 6534 | 7364 | 7369 | 9602 | 1456 | 2233 | 109.4% |
-| 2035 | 7898 | 8732 | 10914 | 16305 | 2209 | 5391 | 131.8% |
-| 2039 | 9294 | 10409 | 13140 | 20820 | 3301 | 7680 | 167.0% |
-| 2045 | 11831 | 13205 | 17093 | 28116 | 5594 | 11023 | 221.5% |
-| 2056 | 17910 | 20097 | 25906 | 47467 | 12736 | 21562 | 337.7% |
+| 2035 | 7898 | 8732 | 10914 | 16307 | 2209 | 5392 | 131.8% |
+| 2039 | 9294 | 10409 | 13140 | 20821 | 3301 | 7681 | 167.1% |
+| 2045 | 11831 | 13205 | 17093 | 28118 | 5594 | 11025 | 221.5% |
+| 2056 | 17910 | 20097 | 25906 | 47472 | 12738 | 21566 | 337.8% |
 
 Totals above are $B, not $T. The audit CSV exposes every increment and matched gross-up. Internal fund grants do not appear as new external resources.
 
