@@ -25,7 +25,7 @@ Updated November 13, 2026 (about 06:00 UTC) by the outgoing lead, session_01UQzg
 **Lead handoff (November 13, about 06:00 UTC)** from `session_01UQzgBwNea5uYV7BMBRB3Ha` (context past 530,000 tokens) to the new lead named in the Standing sessions table once it confirms.
 
 - **Open PRs:**
-  - #316, the hospital uncompensated-care payment, `DEC-2026-11-13-02` (tier 3; author the lead). Espen labeled it; it was then brought up to date with main by GitHub's update (no conflict), so it should merge on the gate. Confirm it merged.
+  - #316, the hospital uncompensated-care payment (tier 3; author the lead; its decision entry is the next 11-13 ID). Espen labeled it; it was then brought up to date with main by GitHub's update (no conflict), so it should merge on the gate. Confirm it merged.
   - #320, the secure floor's INC-1 to INC-5 rows in `models/data/inputs/incidence-rows.csv` (tier 3; author the M3 part 2 worker). Behind main since #321 merged; the worker is merging main (a conflict, which will drop any label), then the reviewer re-checks. **Ask Espen for the label only after that**; Espen asked to label it and was told to wait.
   - #322, library citation rows (routine; the M3 part 2 worker).
   - This board PR.
