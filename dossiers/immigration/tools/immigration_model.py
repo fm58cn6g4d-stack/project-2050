@@ -104,7 +104,7 @@ INPUTS = {
     'reach_scale': (2.5, 2.0, 3.0, 'assumption: memo 1 reaches two to three times H.R. 6\'s population in its first decade (3-design.md)'),
     'window_growth': (1.25, 1.20, 1.30, 'assumption: 2.5-3% a year nominal from 2021-31 to 2030-39 (3-design.md)'),
     'health_share': (0.60, 0.40, 0.70, 'assumption: marketplace credits and Medicaid are the largest on-budget sources (EV-IMM-602); share of the cost'),
-    'covered_anyway_share': (0.90, 0.85, 0.95, 'assumption: share of the window after the single plan covers every resident (January 2031, HLT-7.01)'),
+    'covered_anyway_share': (0.90, 0.85, 0.95, 'assumption: share of the window after the single plan covers the newly legalized, who have status (January 2031, HLT-7.01, IMM-1.21)'),
     'price_growth': (0.025, 0.02, 0.03, 'assumption: nominal growth of unit costs'),
 }
 
@@ -328,7 +328,8 @@ def table(case='central'):
 
 
 def care_base_correction(case='central'):
-    """For the lead (not counted here): people care's base covers who have no status under memo 6 as amended.
+    """For care's booking (not counted here): people care's base covered who have no status under memo 6 as amended.
+    Booked by dossiers/care/tools/status_rule.py, which reads this function (HLT-7's status-rule component).
 
     Care covers everyone but a 1% residual. Under the amendment, people with no status are not covered:
     eligible people who have not yet filed (a filing receipt counts as status for the plan) and those
@@ -409,7 +410,7 @@ def report():
     print(f"Term-limited increment (A-1): steady-state need about {t['need']:.0f} judges; saves ${t['saving_window']:.1f}B "
           f"over FY2036-39 and ${t['saving_2040']:.1f}B in FY2040")
     cb = care_base_correction()
-    print(f"Care's base, for the lead: about {cb['people'][2031]:.1f} million people with no status counted as covered in FY2031, "
+    print(f"Care's base (booked by care's status_rule.py): about {cb['people'][2031]:.1f} million people with no status counted as covered in FY2031, "
           f"{cb['people'][2035]:.1f} million in FY2035; about ${-window(cb['saving']):.0f}B over FY2030-39 and ${-cb['saving'][2040]:.1f}B in FY2040 too high")
     print('Judges by year (central): ' + ', '.join(f"{y}: {j:.0f}" for y, j in eoir()['judges_by_year'].items()))
     a = asylum_refugees()

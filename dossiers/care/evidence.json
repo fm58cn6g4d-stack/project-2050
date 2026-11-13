@@ -13012,5 +13012,93 @@
     "stance": "supports"
    }
   ]
+ },
+ {
+  "id": "EV-CAR-704",
+  "statement": "CBO reported, from CMS-64 data, Emergency Medicaid spending for non-U.S. nationals ineligible for full Medicaid because of immigration status or the five-year wait of $3,775 million in FY2023, of which $2,746 million federal, against $3,110 million in FY2019 and $7,050 million in FY2021; the federal government spent about $18 billion over 2017-2023.",
+  "claim": "data",
+  "figures": [
+   "3,775",
+   "2,746",
+   "3,110",
+   "7,050",
+   "$18 billion"
+  ],
+  "source": "SRC-3160",
+  "anchor": [
+   "from 2017 to 2023, the federal government spent about $18 billion and state governments spent about $9 billion on emergency Medicaid services",
+   "2019 1,992 1,118 3,110 64",
+   "2021 4,896 2,154 7,050 69",
+   "2023 2,746 1,029 3,775 73"
+  ],
+  "locator": "Letter, page 2, and Table 1 (millions of dollars: federal, state, total, average federal share)",
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Congressional Budget Office (nonpartisan, legislative branch), October 2, 2024, answering the House Budget Committee's Republican chairman; it compiles states' CMS-64 reports, executive-branch data, without analysis. CBO cannot split the spending by status: lawful immigrants in the five-year wait and temporary residents are inside it, so it overstates spending on people with no status. FY2020-23 include the pandemic's higher federal match, which ended December 31, 2023; from October 1, 2026 the match is capped at the regular rate [EV-CAR-009]. KFF reports the same $3.8 billion for FY2023 as 0.4% of Medicaid spending (not saved).",
+  "supports": [
+   "dossiers/care/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-CAR-705",
+  "statement": "Pew Research Center estimated that only 1% of unauthorized immigrants were 65 or older in 2016, far lower than for other groups.",
+  "claim": "analysis",
+  "figures": [
+   "1%",
+   "65"
+  ],
+  "source": "SRC-3161",
+  "anchor": [
+   "Only 1% of unauthorized immigrants are 65 or older, far lower than for other groups."
+  ],
+  "locator": "Section on age (web page)",
+  "grade": "C",
+  "fact_date": "2016",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Pew Research Center (nonpartisan), Passel and Cohn, November 27, 2018, from 2016 Census Bureau survey data with status assigned by Pew's residual method. The population has aged since, and recent arrivals are younger; a newer age breakdown was not located. Used for long-term care's need among people with no status.",
+  "supports": [
+   "dossiers/care/6bcd-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-706",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-706",
+  "statement": "MPI estimated that 1 percent of unauthorized immigrants were age 65 or older in 2011, against 13 percent of the total population, and that 72 percent were ages 19 to 44.",
+  "claim": "analysis",
+  "figures": [
+   "1 percent",
+   "65",
+   "13 percent",
+   "72 percent",
+   "19 to 44"
+  ],
+  "source": "SRC-3162",
+  "anchor": [
+   "And only 1 percent of these immigrants are age 65 or older, versus 13 percent of the total population.",
+   "Young adults comprise a large majority of unauthorized immigrants: 72 percent are ages 19 to 44."
+  ],
+  "locator": "Section \"Demographics of the unauthorized immigrant population\" and Table 1",
+  "grade": "C",
+  "fact_date": "2011",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Migration Policy Institute (nonpartisan, pro-immigration-leaning), May 2013; Capps, Bachmeier, Fix and Van Hook, with status imputed in the 2011 ACS from the 2008 SIPP's green-card question by Penn State demographers. Independent of Pew's team and method (EV-CAR-705), though it sets its total at Pew's figure. Older data; the share 65 or older has likely risen a little as long-settled residents age.",
+  "supports": [
+   "dossiers/care/6bcd-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-705",
+    "stance": "supports"
+   }
+  ]
  }
 ]

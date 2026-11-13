@@ -176,6 +176,22 @@ def review_items(i, b, c):
             'Territories: bridge and floor outside the cap (M-1)': fy_from_cy(terr_bridge)}
 
 
+# The status rule for long-term care (DEC-2026-11-13-01): the benefit covers people with lawful or registered status,
+# so its new users with no immigration status are not covered (status_rule.py, 6bcd-cost.md part 2b). Fiscal years.
+STATUS_RULE_LINES = {'home': 'B status rule: new users with no status (DEC-2026-11-13-01)',
+                     'institutional': 'B status rule: care part of institutional care (DEC-2026-11-13-01)',
+                     'floor': 'D status rule: floor on new users\' hours (DEC-2026-11-13-01)'}
+
+
+def status_rule_items(i):
+    import sys
+    if str(HERE) not in sys.path:
+        sys.path.insert(0, str(HERE))
+    import status_rule
+    L = status_rule.ltc(i)
+    return {name: {y: L[k].get(y, 0.0) for y in FY} for k, name in STATUS_RULE_LINES.items()}
+
+
 def fy_lines(i):
     b, c, d = part_b(i), part_c(i), part_d(i)
     out = {}
@@ -193,6 +209,7 @@ def fy_lines(i):
              'C wage growth in labor (3d)': fy_from_py(c['wage_growth_fix']),
              'D floor delayed with option 4': fy_from_cy(d['floor_opt4'])}
     extra.update(review_items(i, b, c))
+    extra.update(status_rule_items(i))
     return out, extra, (b, c, d)
 
 

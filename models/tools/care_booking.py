@@ -89,10 +89,16 @@ ROWS = {
          "HLT-4.08, 9.08 (B-1): room-and-board help income-tested only from 2035"),
         ("territories", LTC_GROW, [("X", "Territories: long-term care from 2035 (M-1)")],
          "HLT-9.01 (M-1): the territories' long-term care from 2035"),
+        ("status-rule", LTC_GROW, [("X", "B status rule: new users with no status (DEC-2026-11-13-01)"),
+                                   ("X", "B status rule: care part of institutional care (DEC-2026-11-13-01)")],
+         "HLT-9.01, 9.08 (DEC-2026-11-13-01): the benefit covers people with lawful or registered status, so new users "
+         "and nursing-home residents with no status are not covered (dossiers/care/tools/status_rule.py)"),
     ],
     "HLT-10": [
-        ("floor-in-plan-rates", LTC_GROW, [("D", "D floor, plan (memo 14)"), ("X", "D floor delayed with option 4")],
-         "HLT-10.01: the care wage floor in the plan's rates from 2035, net of option 4's delay on new users' hours"),
+        ("floor-in-plan-rates", LTC_GROW, [("D", "D floor, plan (memo 14)"), ("X", "D floor delayed with option 4"),
+                                           ("X", "D status rule: floor on new users' hours (DEC-2026-11-13-01)")],
+         "HLT-10.01: the care wage floor in the plan's rates from 2035, net of option 4's delay on new users' hours "
+         "and of the hours of new users with no status (DEC-2026-11-13-01)"),
     ],
     "HLT-11": [
         ("staffing", OTHER_GROW, [("D", "D staffing (memo 16)")],

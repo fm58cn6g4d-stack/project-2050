@@ -106,6 +106,7 @@ Millions of people have lived here for decades, raising American children and do
 | E-Verify no earlier than October of the year after enactment, on the inspector's check; about mid-2031; ten-day contest | Section 4, IMM-4.13, 4.14 | `DEC-2026-11-12-12`; working timeline (section 5) |
 | The two cutoffs | Section 4, IMM-1.04 | `DEC-2026-11-12-12` |
 | The health plan for legal or registered status; emergency care otherwise | Section 4, IMM-1.21 | Espen, November 12, lead session |
+| Long-term care follows the health plan's rule | Section 4, IMM-1.23 | Espen, November 13 (`DEC-2026-11-13-01`) |
 | Applying from abroad after removal since 2025 | Section 4, IMM-1.15 | Espen, November 12, lead session; EV-IMM-658 |
 | About $0.18 trillion over 2030-39; about $28.8 billion a year from 2040; E-Verify's $42 billion to Social Security | Section 6, parts 1, 2 and 5 | Project arithmetic, `tools/immigration_model.py` and `tools/immigration_path.py` |
 | Social Security gains (S. 744: +$284 billion by 2024) | Section 6, part 2 | EV-IMM-604 |

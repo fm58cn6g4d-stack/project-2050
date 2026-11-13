@@ -25,6 +25,10 @@ What is booked (all $ billion by federal fiscal year unless noted; a cost positi
   (offsetting receipts, netted here), plus the hospital transition fund and the territories. Medicaid's long-term care
   stays in Medicaid at current-law cost (HLT-7.07; board row D-4c), so it is in none of these.
 - HX, the revenue from ending the employer tax exclusion, on the general fund, on CBO's convention (full pass-through).
+- HLT-7's status-rule correction (DEC-2026-11-12-19): the single plan covers people with lawful or registered
+  status, so care's base, which covered everyone but a 1% residual, is lowered by the people with no status beyond
+  the residual, and Emergency Medicaid, which care's plan counted as replaced, keeps paying for everyone with no status
+  (dossiers/care/tools/status_rule.py; 6-cost.md part 2b). Its own component, so the correction stays visible.
 - HLT-8, USDA rural health grants (discretionary).
 The employer contribution and FEHB's money are not booked (review F-4 item 3): contribution() is reported only.
 """
@@ -111,6 +115,15 @@ def fiscal():
     return _load("hb_fiscal", os.path.join(HERE, "fiscal-model.py"))
 
 
+def status_rule():
+    """HLT-7's status-rule correction (DEC-2026-11-12-19): people with no immigration status beyond the residual are
+    not covered, and Emergency Medicaid keeps paying for everyone with no status (dossiers/care/tools/status_rule.py,
+    6-cost.md part 2b). Returns the central path and the low and high readings' FY2030-39 totals ($ billion)."""
+    SR = _load("hb_status_rule", os.path.join(ROOT, "dossiers", "care", "tools", "status_rule.py"))
+    runs = [SR.health(i)["net"] for i in range(3)]
+    return dict(path=runs[1], window=[sum(r[y] for y in W) for r in runs], fy2040=[r[2040] for r in runs])
+
+
 def hlt6_part_a_share():
     """Part A's share of HLT-6's Advantage savings, credited to HI (funds-parameters.csv; care follow-up 3)."""
     with open(os.path.join(INPUTS, "funds-parameters.csv"), newline="", encoding="utf-8") as f:
@@ -135,6 +148,9 @@ def booking():
     # part 6's federal-coverage correction, on HX's path: less spending (a negative component) and less HX
     xf = excl_full(hp)
     fedcov = {y: -FEDCOV_SPEND_2032 / xf * hp["excl"][y] for y in W + [2040]}
+    # the status rule (DEC-2026-11-12-19): coverage removed for people with no status, Emergency Medicaid kept
+    sr = status_rule()
+    status = {y: sr["path"][y] for y in W + [2040]}
     hx = {y: hp["excl"][y] * (1 - FEDCOV_REVENUE_2032 / xf) for y in W + [2040]}
     terr_shape = {y: spend[y] for y in W + [2040]}     # the territories phase in on the waves (HLT-7.28)
     s = sum(terr_shape[y] for y in W)
@@ -157,7 +173,7 @@ def booking():
         "HLT-1": window(hlt1), "HLT-2": window(hlt2), "HLT-6": window(hlt6),
         "HLT-7/plan-spending": window(spend), "HLT-7/transition-fund": window(TRANSITION_FUND),
         "HLT-7/territories": window(terr), "HLT-7/worker-help": window(WORKER_HELP),
-        "HLT-7/federal-coverage": window(fedcov),
+        "HLT-7/federal-coverage": window(fedcov), "HLT-7/status-rule": window(status),
         "HLT-4/children-continuous-coverage": window(kids), "HLT-4/medicaid-dental-and-bundle": window(dental),
         "HX": window(hx),
     }
@@ -188,27 +204,32 @@ def booking():
                                              "out_health_other")),
                                    ("worker-help", amt["HLT-7/worker-help"], 0.0),
                                    ("federal-coverage", amt["HLT-7/federal-coverage"],
-                                    perm_for(B, F, {2039: years["HLT-7/federal-coverage"][-1]}, fedcov[2040]))])
+                                    perm_for(B, F, {2039: years["HLT-7/federal-coverage"][-1]}, fedcov[2040])),
+                                   ("status-rule", amt["HLT-7/status-rule"],
+                                    perm_for(B, F, {2039: years["HLT-7/status-rule"][-1]}, status[2040]))])
     comps = {"HLT-7": c7}
     ledger = {
         "HLT-1": (r3(amt["HLT-1"]), r3(amt["HLT-1"]), r3(amt["HLT-1"] + 0.25)),   # HLT-1.03's provider-tax range, $0-0.25T
         "HLT-2": (0.31, r3(amt["HLT-2"]), 0.53),                                 # 0.25-0.35 upgrades + 0.06-0.18 wait
         "HLT-3": (0, 0, 0), "HLT-5": (0, 0, 0),
         "HLT-6": (r3(amt["HLT-6"] * (1 - hlt6_part_a_share())),) * 3,   # Part B's share; Part A's goes to HI (funds model)
-        "HLT-7": (r3(hlt7_mid - RATE_RANGE_TN[0] - LTC_RANGE_TN[0] - 0.05 - 0.04), hlt7_mid,
-                  r3(hlt7_mid + RATE_RANGE_TN[1] + LTC_RANGE_TN[1] + 0.05 + 0.09)),
+        "HLT-7": (r3(hlt7_mid - RATE_RANGE_TN[0] - LTC_RANGE_TN[0] - 0.05 - 0.04 - (sr["window"][1] - sr["window"][0]) / 1000),
+                  hlt7_mid,
+                  r3(hlt7_mid + RATE_RANGE_TN[1] + LTC_RANGE_TN[1] + 0.05 + 0.09 + (sr["window"][2] - sr["window"][1]) / 1000)),
         "HLT-8": HLT8_TN,
         "HX": (r3(amt["HX"] * (1 - HALF_PASSTHROUGH_FY2040 / hp["excl"][2040])), r3(amt["HX"]), r3(amt["HX"])),
     }
     perms = {"HX": perm_for(B, F, {2039: years["HX"][-1]}, hx[2040])}
     fy2040 = dict(spending=spend[2040], exclusion=hx[2040], contribution=hp["contribution"][2040],
                   territories=TERRITORIES_FY2040, net=hp["net"][2040], federal_coverage=fedcov[2040],
-                  exclusion_before_correction=hp["excl"][2040])
+                  exclusion_before_correction=hp["excl"][2040], status_rule=status[2040])
     fedcov_net = (sum(fedcov[y] for y in W) + sum(hp["excl"][y] - hx[y] for y in W)) / 1000
     totals = dict(net_window=sum(hp["net"][y] for y in W) / 1000, federal_coverage_net=fedcov_net,
                   worker_help=sum(WORKER_HELP.values()) / 1000,
                   with_contribution=(sum(hp["net"][y] for y in W) - sum(hp["contribution"][y] for y in W)) / 1000,
-                  contribution_window=sum(hp["contribution"][y] for y in W) / 1000)
+                  contribution_window=sum(hp["contribution"][y] for y in W) / 1000,
+                  status_rule_window=sum(status[y] for y in W) / 1000, status_rule_range=sr["window"],
+                  status_rule_fy2040_range=sr["fy2040"])
     hlt4_path = [round(part["safety_net"][y] + kids[y] + dental[y], 2) for y in W]   # health's parts of HLT-4
     return dict(years=years, components=comps, ledger=ledger, perms=perms, fy2040=fy2040, totals=totals, hlt4_path=hlt4_path,
                 hlt4_parts=hlt4_parts,
@@ -359,7 +380,8 @@ if __name__ == "__main__":
         print("components", b["components"])
         print("perms", b["perms"])
         print("FY2040", {k: round(v, 1) for k, v in b["fy2040"].items()})
-        print("totals", {k: round(v, 3) for k, v in b["totals"].items()})
+        print("totals", {k: (round(v, 3) if not isinstance(v, list) else [round(x, 1) for x in v])
+                         for k, v in b["totals"].items()})
         if "--c19b" in sys.argv:
             print("c19b", c19b())
             print("c19", c19b(C19_BEFORE_PLAN_TN))

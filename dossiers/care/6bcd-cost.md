@@ -70,7 +70,8 @@ Role: section 6 of the care dossier for parts B, C and D. It prices the provisio
 | Room and board from 2035 without an asset test (the milestone review's B-1) | HLT-4.08, 9.08 | about $14 billion | about $3.5 billion | Memo 8 C as decided: Medicaid's room-and-board help income-tested only. A few hundred thousand long-stay residents with savings above $10,000 and income below room and board; $3-6 billion a year in all in 2035, about 60% federal (judgment; range $1.8-3.6 billion federal in 2035) | Firm |
 | CCDF kept for school-age children (M-2) | FAM-2.04 | about $48 billion | about $6 billion | Part C netted all of today's CCDF into the under-5 guarantee; only its under-5 share moves now. In ACF's FY2023 data, 34% of the children CCDF serves are 6 to under 13 and 10% are 5 to under 6 [EV-CAR-700]; school-age care costs less a child, so the working share of spending is 35% (range 30-44%) of about $12.4 billion, at the FY2029 level indexed to prices (`care_bcd_path.py`, `CCDF_SCHOOL_AGE_SHARE`) | Firm |
 | The territories (M-1): child care and pre-K; long-term care from 2035; the bridge and floor outside the capped allotments in 2030-34 | FAM-2.07, HLT-9.01, HLT-4.01, HLT-10.01 | about $29 billion ($8, $19 and $2 billion) | about $6 billion | About 3.5 million people [EV-CAR-356] [EV-CAR-357], with about 92,431 children under 5 in Puerto Rico [EV-CAR-701], not in the part files' national figures; CCDF already reserves up to half of 1% for the four smaller territories and treats Puerto Rico as a state [EV-CAR-702]: 0.5-1.0% of part C's path, 0.5-1.5% of the benefit and the care part, and $0.2-1.0 billion a year for the bridge and floor (judgment) | Firm |
-| **With these, all three** | | **about $3.67 trillion** | **about $751 billion** | | |
+| The status rule (part 2b): new users with no status not covered | HLT-9.01, 9.08, HLT-10.01 | about −$3.6 billion | about −$0.9 billion | `DEC-2026-11-13-01`; `tools/status_rule.py` | Firm |
+| **With these, all three** | | **about $3.66 trillion** | **about $750 billion** | | |
 | Respite and training in the bridge | HLT-4.06 | inside the bridge | — | "A few billion a year inside point 1's match" (memo 9) | — |
 | The hold-harmless | HLT-9.02 | inside the benefit | inside | About $0.18 trillion over 2035-39 and $24 billion in FY2040, already counted (3b) | — |
 | Rural home care add-on | `5bcd-delivery.md`, part 6 | not priced | not priced | A working choice inside tier budgets | Inside the range |
@@ -80,9 +81,25 @@ Role: section 6 of the care dossier for parts B, C and D. It prices the provisio
 | The floor in mixed-payer providers, 2030-34 | HLT-10.01 | not counted | — | A provider cannot pay the same aide $20 for Medicaid clients and less for others, so in practice the floor lifts the whole payroll, and private payers and Medicare bear the rest through prices until 2035. Not a federal cost under `DEC-2026-11-11-05`, except Medicare's share of skilled nursing and home health, which is not counted (working assumption) | Not counted |
 | The residency slots | HLT-10.07 | outside | outside | Already in HLT-4's booked safety-net component; not counted again | Booked |
 
-**All-in:** about **$3.67 trillion** over FY2030-39 and **$751 billion** in FY2040 (range about $2.1-6.3 trillion and $400-1,390 billion, part 6). It is not a score. Part 5's booked-basis figures and the margin run use the decided pieces; the items above add about $22 billion in FY2040 to a booking (about $9 billion to the general-fund gap (room and board $3.5 billion, the territories' long-term care $4.8 billion, the small part B items $0.3 billion), and the rest with part C, wherever it is booked).
+**All-in:** about **$3.66 trillion** over FY2030-39 and **$750 billion** in FY2040 (range about $2.1-6.3 trillion and $400-1,390 billion, part 6). It is not a score. Part 5's booked-basis figures and the margin run use the decided pieces; the items above add about $22 billion in FY2040 to a booking (about $9 billion to the general-fund gap (room and board $3.5 billion, the territories' long-term care $4.8 billion, the small part B items $0.3 billion), and the rest with part C, wherever it is booked).
 
 **Who pays now.** Most of the long-term care and child care cost replaces what families pay out of pocket or give unpaid [EV-CAR-401] [EV-CAR-436] [EV-CAR-514]. CBO counts about two-fifths of a broad long-term care benefit's federal cost as replacing state and out-of-pocket spending [EV-CAR-452]. It is a shift to public money as well as new care.
+
+## 2b. The status rule for long-term care
+
+Espen decided that long-term care narrows with the health plan (November 13, `DEC-2026-11-13-01`: "no, long-term care narrows too"). From January 1, 2035 the home and community care benefit and the care part of institutional care cover people with lawful or registered status, a filing receipt included (HLT-9.01 follows HLT-7.01; IMM-1.23), not every resident. People with no status keep emergency care as today. `tools/status_rule.py` prices it, and `care_bcd_path.py` carries it as three lines:
+
+| Line | FY2030-39 | FY2040 | Booked on |
+| --- | --- | --- | --- |
+| The benefit's new users with no status (memo 6 B's new-user line, net of options 2 and 4) | −$2.9 billion | −$0.8 billion | HLT-9, `status-rule` |
+| The care part of institutional care, net of option 5, for residents with no status | −$0.4 billion | −$0.1 billion | HLT-9, `status-rule` |
+| The care floor on those new users' hours | −$0.2 billion | −$0.1 billion | HLT-10 |
+| **The status rule, long-term care** | **−$3.6 billion** (range −$5.7 to −$1.2 billion) | **−$0.9 billion** (range −$1.5 to −$0.3 billion) | |
+
+- **Who it reaches.** Only new users. The states' relief, the richer budgets and the hold-harmless reach people already on Medicaid home care, and Medicaid has paid for people with no status only in emergencies since 1996 [EV-CAR-008]. People with no status in each year come from the immigration model: eligible people who have not filed, about 4.9 million in FY2035 and 4.0 million from FY2039 (all of them, since long-term care has no residual like health's).
+- **The basis** (working assumption, with its range): their share of the population times their relative need. Need is low because they are young: about 1% of unauthorized immigrants are 65 or older, against about 13-18% of everyone [EV-CAR-705] [EV-CAR-706], and about two-thirds of the benefit's new users are older people (judgment). Relative need is taken as 0.3 for the home benefit (range 0.15-0.45) and 0.1 for nursing homes (0.05-0.2). That puts about 13,000-16,000 of the benefit's roughly 3.9 million new users outside it.
+- **The cost of being wrong is small.** Even at twice the high reading, the line stays under $2 billion a year: little turns on it.
+- **What is not counted.** People who arrive without status after the act is signed (they would add a little). People with no status who need long-term care fall back on families, emergency care and state-only programs, as now.
 
 ## 3. Federal and state shares
 
@@ -130,6 +147,8 @@ Each figure has one basis: federal fiscal years, $ billion, a cost positive, aga
 | Long-term care booked; part C as booked | $4,206 billion short (7.8%) | $98 billion | — |
 | **Part C left in the EDU-9B fund** | **$4,243 billion short (7.8%)** | $135 billion | about $87 billion a year more: a fund-solvency effect the settlement must cover with the fund's rate |
 | **Part C on the general fund** (FAM-2 out of the fund) | **$4,403 billion short (8.1%)** | $66 billion | about $32 billion a year less |
+
+**The status rule** (part 2b) is booked with health's (`6-cost.md`, part 2b): long-term care's part moves the FY2040 general-fund gap by about −$0.9 billion; with health's, the plan-wide gap (case `mixed`) goes from about $4,275 billion to $4,239 billion short.
 
 **Its share of the plan-wide margin.** Parts B-D move the FY2040 general-fund gap by about $493 billion (part C in the fund, with about $87 billion more on the fund itself) to $654 billion (part C on the general fund): about 12-15% of the plan-wide gap. (Health's own FY2040 net cost as booked is also about $4,243 billion, $4,243.0 billion in `6-cost.md`, part 5; the plan-wide gap with parts B-D and part C in the fund is $4,242.7 billion. The match is a coincidence: one is health's cost, the other the whole plan's general-fund gap.) GDP is the budget model's ($54,167 billion in FY2040). The gap is expected: health's and care's shift from premiums and out-of-pocket costs to taxes is what the financing settlement designs. It is a figure to report, not an error to fix (`DEC-2026-11-10-05`), and no part of it goes to Espen on its own.
 
