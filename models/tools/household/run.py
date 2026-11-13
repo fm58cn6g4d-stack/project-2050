@@ -144,6 +144,34 @@ def ceiling_options(B):
     return out
 
 
+# CCDF's school-age reach (FAM-2.04): ACF's FY2023 average of 1,622,700 children a month, 34% aged 6 to under 13 and
+# 10% aged 5 to under 6 (EV-CAR-700); the plan keeps the block grant's school-age share at its FY2029 level, indexed.
+CCDF_SCHOOL_AGE_CHILDREN = 1622700 * (0.34 + 0.10)
+
+
+def inc4_sensitivity(B):
+    """INC-4's measurement under other readings of the survey (`rules.cdctc_refundable`): spending under-reported by
+    a quarter, a half or double; and CCDF's school-age reach netted again, as if the survey reported care before the
+    block grant's payments (it does not: it asks what families paid). The reach is the children CCDF serves aged 5 to
+    12 against the CPS's children 5 to 12 in units at or below 85% of state median income that pay for care."""
+    from rules import cdctc_refundable, state_median
+    us, L = B["units"], B["law"]
+    tot = lambda **k: sum(u["weight"] * cdctc_refundable(u, L, **k) for u in us) / 1e9
+    paying = sum(u["weight"] * u["n_dep_5_12"] for u in us if u.get("childcare", 0) > 0 and u["n_dep_5_12"]
+                 and u["t_agi"] <= 0.85 * state_median(u["n_people"], L["smi4"]))
+    reach = min(CCDF_SCHOOL_AGE_CHILDREN / paying, 1.0)
+    gainers = [u for u in us if cdctc_refundable(u, L) > 0]
+    return {"spend_x1_25_bn": round(tot(spend_scale=1.25), 2), "spend_x1_5_bn": round(tot(spend_scale=1.5), 2),
+            "spend_x2_bn": round(tot(spend_scale=2.0), 2),
+            "ccdf_school_age_children_m": round(CCDF_SCHOOL_AGE_CHILDREN / 1e6, 2),
+            "cps_school_age_paying_eligible_m": round(paying / 1e6, 2), "ccdf_reach": round(reach, 2),
+            "ccdf_netted_again_bn": round(tot(school_age_netted=reach), 2),
+            "gaining_units_m": round(sum(u["weight"] for u in gainers) / 1e6, 2),
+            "gain_school_age_share": round(sum(u["weight"] * cdctc_refundable(u, L) for u in gainers
+                                               if u["n_dep_5_12"]) / max(sum(u["weight"] * cdctc_refundable(u, L)
+                                                                             for u in gainers), 1), 3)}
+
+
 def secure_floor_rules(B, ledger_path):
     """The secure floor's rules on the 2029 baseline households: what each pays in 2029 at full take-up, against the
     booked FY2030-39 yearly average; and INC-1.02's other reading (`rules.inc1_02_age_aligned`)."""
@@ -157,6 +185,7 @@ def secure_floor_rules(B, ledger_path):
            "inc3_02_exclusions_bn_2034_prices": round(tot(RULES["ssi_exclusions_indexed"]), 2),
            "inc4_cdctc_refundable_bn": round(tot(RULES["cdctc_refundable"]), 2), "inc4_booked_avg_bn": r1(100 * led["INC-4"]),
            "smi4": round(L["smi4"])}
+    out["inc4_sensitivity"] = inc4_sensitivity(B)
     alt = [(u["weight"], inc1_02_age_aligned(u, L)) for u in us]
     out["inc1_02_age_aligned"] = {"units_losing_m": round(sum(w for w, x in alt if x < 0) / 1e6, 2),
                                   "loss_bn": round(sum(w * x for w, x in alt if x < 0) / 1e9, 2),
@@ -312,20 +341,27 @@ def markdown(R):
     A("| INC-3: SSI's limits, exclusions and the territories | `ssi` 75.5%, `ssi_exclusions` 24.5% (the booking's parts) | — | — |")
     A(f"| INC-4: the refundable dependent care credit | `cdctc` (rule) | ${sf['inc4_cdctc_refundable_bn']}B | ${sf['inc4_booked_avg_bn']}B |")
     A("| INC-5: the exclusion rule's forgone offsets | `housing` | — | — |")
-    A(f"\n- **INC-4 measures far below its booking.** On the CPS's child care spending, net of the child care guarantee "
-      f"(free below 85% of median income, a capped charge above; the CPS's national median for four-person units, "
-      f"${sf['smi4']:,}, stands in for state median income), refundability pays about ${sf['inc4_cdctc_refundable_bn']}B "
-      "a year. Most families who pay for care owe enough tax to use today's credit, and the guarantee takes over the "
-      "care of the youngest children. The CPS misses care for dependent adults and under-reports spending, so this "
-      "is a floor, but the booked $4.5 billion (a judgment, $3-6 billion) looks high. The key's shares are used, not "
-      "its level; the booking is unchanged (a change would be its own tier-3 step). *Why the CPS may run low:* the "
-      "survey under-reports what families pay for care, most of all informal and part-year care; it has no care for "
-      "dependent adults; its national median income for four ($" + f"{sf['smi4']:,}" + ") runs above HHS's state "
-      "medians, so more care counts as free under the guarantee; and families with little tax who pay for care are "
-      "few in it. The full-take-up assumption pushes the other way. *What would settle it:* IRS Statistics of "
-      "Income's Form 2441 claims by income and tax owed (the share of today's credit that liability limits), or a "
-      "published score of a refundable credit (JCT's or TPC's for the 2021 version), each adjusted for the "
-      "guarantee.")
+    s4 = sf["inc4_sensitivity"]
+    A(f"\n- **INC-4, rescoped to care no other program pays for (Espen, November 13, option B).** On the CPS's child "
+      f"care spending, net of the child care guarantee (free below 85% of median income, a capped charge above; the "
+      f"CPS's national median for four-person units, ${sf['smi4']:,}, stands in for state median income), "
+      f"refundability pays about ${sf['inc4_cdctc_refundable_bn']}B a year to about {s4['gaining_units_m']} million "
+      f"tax units, {100 * s4['gain_school_age_share']:.0f}% of it for school-age care. Most families who pay for care "
+      "owe enough tax to use today's credit, and the guarantee takes over the care of the youngest children. "
+      "*The school-age block grant (CCDF, FAM-2.04):* the survey asks what families paid, and the subsidies they "
+      "receive are not in it, so the school-age spending it reports is already net of what CCDF pays; the plan keeps "
+      "the block grant's school-age reach at today's level, so nothing more is netted. CCDF serves about "
+      f"{s4['ccdf_school_age_children_m']} million children aged 5 to 12 a month (EV-CAR-700), against "
+      f"{s4['cps_school_age_paying_eligible_m']} million in the CPS's units below CCDF's income line that pay for "
+      f"care; netting that reach again, as if the survey reported care before CCDF's payments, would give "
+      f"${s4['ccdf_netted_again_bn']}B, a lower bound. *What the CPS cannot see:* care for a disabled adult (not in "
+      f"the survey), and spending it under-reports (it asks only about care while working, and misses much informal "
+      f"and part-year care): with spending a quarter, a half or twice as high, the gain is "
+      f"${s4['spend_x1_25_bn']}B, ${s4['spend_x1_5_bn']}B or ${s4['spend_x2_bn']}B, held down by the $3,000 and "
+      "$6,000 limits and the earnings test. The full-take-up assumption pushes the other way. The booking "
+      "(`dossiers/secure-floor/6-cost.md`, part 1) adds a judgment for adult care and under-reporting and takes "
+      "off for take-up. *What would settle it:* IRS Statistics of Income's Form 2441 claims by income and tax owed, "
+      "with the qualifying person's age.")
     A(f"- **INC-1.02 moves no money on the CPS** under the reading the rule takes: the Census already assigns each child "
       "to one tax unit by residence. If the earned income credit's age test were instead aligned to the child "
       f"benefit's (under 18), about {a102['units_losing_m']} million filing units with an 18-year-old or a student "

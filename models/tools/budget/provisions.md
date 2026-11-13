@@ -15,7 +15,7 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 | Kind | Rows | Scored | Bills and base revenue | FY2030-39, $T |
 | --- | --- | --- | --- | --- |
 | Discretionary appropriation | 24 | 24 | 22 | 1.42 |
-| Mandatory (direct) spending | 47 | 47 | 43 | 31.89 |
+| Mandatory (direct) spending | 47 | 47 | 43 | 31.82 |
 | Revenue | 83 | 36 | 17 | -10.59 |
 | Interest-neutral transfer (self-funded) | 2 | 2 | 2 | 0 |
 | No direct budget effect | 23 | 16 | 16 | 0 |
@@ -93,10 +93,10 @@ Budget choice 3 (DEC-2026-11-08-05, `ASM-BILL-WINDOW`): plan totals and the D4 t
 
 | Vehicle | Bills | Window | Over its window ($B) | Ten years after it ($B) | FY2029 unpriced |
 | --- | --- | --- | --- | --- | --- |
-| R1 | 12 | FY2029-2038 | 3249 | 3438 | FAM-1, MOV-29 |
+| R1 | 12 | FY2029-2038 | 3214 | 3384 | FAM-1, MOV-29 |
 | R2 | 26 | FY2030-2039 | 4903 | 6186 | none |
 | R3 | 5 | FY2031-2040 | 491 | 483 | none |
-| FLOOR | 30 | FY2029-2038, FY2030-2039 | 23536 | 64999 | none |
+| FLOOR | 30 | FY2029-2038, FY2030-2039 | 23516 | 64928 | none |
 | APPROPS | 7 | FY2029-2038, FY2030-2039 | 525 | 817 | none |
 
 The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill from adding to the deficit in any single year after its window; the test is year by year, so the last column, the sum of the ten years after the window, only shows where to look. It counts the bill's spending rows alone (its revenue is not assigned to it in the ledger, so a bill's net effect in those years is not yet known):
@@ -112,7 +112,7 @@ The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill f
 | INC-2 | R1 | FY2029-2038 | 204.4 | 285.1 |
 | INC-2B | R1 | FY2029-2038 | 122.3 | 175.4 |
 | INC-3 | R1 | FY2029-2038 | 37.6 | 60.3 |
-| INC-4 | R1 | FY2029-2038 | 39.5 | 61.2 |
+| INC-4 | R1 | FY2029-2038 | 4.4 | 6.8 |
 | INC-5 | R1 | FY2029-2038 | 17.5 | 27.9 |
 | MOV-29 | R1 | FY2029-2038 | 257.0 | 0.0 (FY2029 unpriced) |
 | AI-9 | R2 | FY2030-2039 | 20.0 | 28.9 |
