@@ -54,7 +54,7 @@ The secure floor made the same choice for the same reason (`dossiers/secure-floo
 | --- | --- | --- |
 | 1. The problem | `1-problem.md`: the unauthorized and long-settled population; TPS, DACA and parole; the backlogs; the border and asylum; the courts; enforcement and detention; birthright citizenship; USCIS; the 2025-26 changes; the January 2029 baseline table; inherited assumptions traced | Reviewed (L3) |
 | 2. What works | `2-what-works.md`: past legalizations; the fiscal and labor-market evidence; asylum adjudication; representation; alternatives to detention; E-Verify; integration; Canada, Australia and Europe; the bills compared, each against the January 2029 law | Reviewed (L3) |
-| Legacy record | `legacy-research.md`: every legacy figure with its file and line, basis tag and whether it needs re-running on the 2029 baseline | Reference (I2); restated in sections 1-6 |
+| Legacy record | `legacy-research.md`: every legacy figure with its file and line, basis tag and whether it needs re-running on the 2029 baseline | Reference record (I2) |
 | 3. Design choices | `3-design.md` and `memos/`: seven memos, fourteen yes-or-no points, IMM-1's score re-derived | Decided (`DEC-2026-11-12-07`) |
 | 4. Specification | `4-specification.md`, with `provisions.json` (IMM-1.01-1.36, IMM-2.01-2.12, IMM-3.01-3.12, IMM-4.01-4.18, IMM-5.01-5.05, IMM-6.01-6.07) | Specified (L3); review fixes applied (#305, #307) |
 | 5. Delivery | `5-delivery.md` | Specified (L3); review fixes applied (#305, #307) |
