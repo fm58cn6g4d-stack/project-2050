@@ -248,13 +248,24 @@ class Ceiling(unittest.TestCase):
         self.assertEqual(care_credit_rate(80000, "hoh"), 0.32)
 
     def test_verdicts(self):
-        R = ceiling_check(98693, 160852)
+        rent = "2035 on, with a $1,400 rent in SNAP's shelter deduction | lowest-income state"
+        # the decided set before INC-2.02 (SNAP's earned income deduction at 20%): the shelter case fails at 100%
+        R = ceiling_check(98693, 160852, snap_earn_ded=0.20)
         sp = R["single_parent_2"]
         self.assertTrue(sp["2035 on, no shelter deduction | lowest-income state"]["pass"])
-        shelter = sp["2035 on, with a $1,400 rent in SNAP's shelter deduction | lowest-income state"]
-        self.assertFalse(shelter["pass"])
-        self.assertEqual(shelter["at"], 100)
+        self.assertFalse(sp[rent]["pass"])
+        self.assertEqual((sp[rent]["at"], sp[rent]["max"]), (100, 75.0))
         self.assertTrue(R["single_adult"]["2035 on, no shelter deduction | lowest-income state"]["pass"])
+        # with INC-2.02 at 45% (DEC-2026-11-13-03): every case meets the ceiling but one, the married couple on the
+        # marketplace in 2030-34 with the rent (65.9 at 125%), which INC-5.02's monitoring rule covers
+        R = ceiling_check(98693, 160852)
+        fails = sorted((k, c.split(" | ")[0]) for k, v in R.items() for c, r in v.items()
+                       if c.endswith("lowest-income state") and not r["pass"])
+        self.assertEqual(fails, [("married_2", "2030-34 on the marketplace, with the rent")])
+        m = R["married_2"]["2030-34 on the marketplace, with the rent | lowest-income state"]
+        self.assertEqual((m["max"], m["at"]), (65.9, 125))
+        self.assertEqual(R["single_parent_2"][rent]["max"], 55.5)
+        self.assertEqual(R["married_2"][rent]["max"], 63.8)
 
 
 class LegacyReproduction(unittest.TestCase):

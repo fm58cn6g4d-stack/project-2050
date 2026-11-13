@@ -7,7 +7,9 @@ secure_floor_booking.py. Checks that:
   from dossiers/secure-floor/tools/secure_floor_path.py, so a change to the dossier's path fails here instead of
   drifting, and every line of the path is booked once;
 - FAM-1's benefit is the decided $1.85T (the American Family Act without the $2,200 floor) and the booked rows add to
-  part 1's $2,489B over FY2030-39 and $287B in FY2040, plus part 2's two lines left to the booking (B-1, M-1);
+  part 1's $2,626B over FY2030-39 and $303B in FY2040, plus part 2's two lines left to the booking (B-1, M-1);
+- INC-2B books INC-2.02, SNAP's earned income deduction at 45% (Espen's option D, DEC-2026-11-13-03): about $12B in
+  FY2030 and $138B over FY2030-39 on rail R1, its range $8-16B a year;
 - INC-3 carries INC-3.03, SSI in the four territories (about $20B over FY2030-39);
 - the leave fund steps 0.10 points (DEC-2026-11-12-14) and, at high take-up, never borrows from Treasury;
 - Social Security's central case carries SS-7.01's one point on its expected path, not the two-point broad rate,
@@ -80,20 +82,26 @@ class SecureFloorBooking(unittest.TestCase):
 
     def test_totals_are_section_6s(self):
         t = self.b["totals"]
-        self.assertEqual(round(t["dossier_window"] * 1000), 2489)
-        self.assertEqual(round(t["dossier_fy2040"]), 287)
+        self.assertEqual(round(t["dossier_window"] * 1000), 2626)
+        self.assertEqual(round(t["dossier_fy2040"]), 303)
         self.assertEqual(round(t["before_window"] * 1000), 2000)
         # The booking: part 1 less the benefit's rounding to $1.85T, plus B-1 and M-1
         self.assertAlmostEqual(t["booked_window"], t["dossier_window"] + t["b1_m1_window"] - (1.9 - 0.0477 - 1.85), places=2)
 
     def test_model_books_the_rows(self):
-        booked = sum(sum(self.path(r)[y] for y in W) for r in ("FAM-1", "INC-1", "INC-2", "INC-3", "INC-4", "INC-5"))
+        booked = sum(sum(self.path(r)[y] for y in W) for r in ("FAM-1", "INC-1", "INC-2", "INC-2B", "INC-3", "INC-4", "INC-5"))
         self.assertAlmostEqual(booked, 1000 * sum(self.b["ledger"][k][1] for k in self.b["ledger"]), places=6)
         adoption = json.load(open(INPUTS / "recovery-adoption.json"))
         self.assertEqual(adoption["spending"]["participation_tn"], 0.1)   # LAB-10's envelope, unchanged
         for rid, v in self.b["fy2040"].items():
             if "/" not in rid:
                 self.assertAlmostEqual(self.path(rid)[2040], v, delta=0.05 * v, msg=rid)
+
+    def test_inc2b_is_option_d(self):
+        self.assertEqual(self.b["years"]["INC-2B"][0], 12.0)
+        self.assertEqual(self.b["ledger"]["INC-2B"], (0.092, 0.138, 0.183))
+        self.assertAlmostEqual(self.b["fy2040"]["INC-2B"], 16.1, delta=0.1)
+        self.assertEqual(self.bills["INC-2B"]["rail"], "R1")
 
     def test_inc3_carries_the_territories(self):
         ssi_t = SFB.path_module().lines()["INC-3.03, SSI in the territories (Espen, November 12)"]

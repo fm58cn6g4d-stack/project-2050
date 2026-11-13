@@ -80,8 +80,10 @@ def ptc_contribution(L, f, income):
     return None
 
 
-def budget(f, earnings, year=2029, bbce=False, shelter=0.0, marketplace=False, plan=False):
+def budget(f, earnings, year=2029, bbce=False, shelter=0.0, marketplace=False, plan=False, snap_earn_ded=None):
     L = law(year)
+    if snap_earn_ded is not None:
+        L = dict(L, snap_earn_ded=snap_earn_ded)
     u = unit(f, earnings)
     t = unit_tax(u, L)
     income_tax = t["income_tax"]
@@ -126,8 +128,9 @@ def cliffs(year=2029):
 #   * income tax: 2029 law, with FAM-1's child benefit in place of section 24 (`rules.afa_child_benefit`) and, for the
 #     single adult, INC-1.01's childless credit; INC-1.02 changes nothing for these families;
 #   * SNAP on federal rules: INC-2 restores the rules before P.L. 119-21, which for these families' rates are the
-#     rules `snap` already applies; INC-5.01 keeps the child benefit out of SNAP's income; with and without the excess
-#     shelter deduction;
+#     rules `snap` already applies, and INC-2.02 raises the earned income deduction from 20% to 45% (Espen's option D,
+#     DEC-2026-11-13-03; `PLAN_SNAP_EARN_DED`); INC-5.01 keeps the child benefit out of SNAP's income; with and
+#     without the excess shelter deduction;
 #   * the premium tax credit, for a family on the marketplace, in 2030-34 only: the single plan (HLT-7) ends it from
 #     2035 and charges no premium; its copays start at 200% of poverty (HLT-7.06), a line, listed with the cliffs;
 #   * child care's charge (FAM-2.01, full from July 2032) for the child under 5, net of INC-4's refundable credit on the
@@ -138,16 +141,20 @@ def cliffs(year=2029):
 CEILING = 65.0
 CEILING_POINTS = tuple(x / 100 for x in range(50, 301, 25))
 LEAVE_WORKER = (0.003, 0.0055)          # FAM-3.04: half of 0.6% at the start, half of the 1.10% ceiling
+PLAN_SNAP_EARN_DED = 0.45               # INC-2.02: 7 U.S.C. 2014(e)(2)'s 20% to 45% (DEC-2026-11-13-03)
 # FAM-2.01's charge and section 21's rate have one home, `rules.py` (INC-4's rule uses them too)
 care_charge = guarantee_charge
 care_credit_rate = cdctc_rate
 
 
-def plan_budget(f, earnings, period="2035", shelter=0.0, marketplace=False, smi4=None, leave=LEAVE_WORKER[0]):
+def plan_budget(f, earnings, period="2035", shelter=0.0, marketplace=False, smi4=None, leave=LEAVE_WORKER[0],
+                snap_earn_ded=PLAN_SNAP_EARN_DED):
     """A family's budget under every plan layer (above). `period` is "2030-34" (the premium credit still runs) or
-    "2035" (the single plan); `smi4` the state median income for four (None: no paid care for the child under 5)."""
+    "2035" (the single plan); `smi4` the state median income for four (None: no paid care for the child under 5);
+    `snap_earn_ded` SNAP's earned income deduction (INC-2.02's 45%; 0.20 gives the set before DEC-2026-11-13-03)."""
     L = law(2029)
-    b = budget(f, earnings, 2029, shelter=shelter, marketplace=marketplace and period == "2030-34", plan=True)
+    b = budget(f, earnings, 2029, shelter=shelter, marketplace=marketplace and period == "2030-34", plan=True,
+               snap_earn_ded=snap_earn_ded)
     t = unit_tax(unit(f, earnings), L)
     b["payroll"] += leave * earnings
     charge = 0.0
@@ -181,16 +188,16 @@ CEILING_CASES = [
 ]
 
 
-def ceiling_check(low_smi4, mid_smi4):
+def ceiling_check(low_smi4, mid_smi4, snap_earn_ded=PLAN_SNAP_EARN_DED):
     """INC-5.02's test for each family and case: the highest combined rate at 50-300% of poverty, where it falls, and
     whether it is at or below 65 cents. A step that crosses a line (a figure above 100, or a fall in SNAP to zero) is a
-    cliff, reported apart, not a rate."""
+    cliff, reported apart, not a rate. `snap_earn_ded=0.20` gives the decided set before INC-2.02."""
     res = {}
     for k, f in FAMILIES.items():
         res[k] = {}
         for label, kw in CEILING_CASES:
             for smi_label, smi in (("lowest-income state", low_smi4), ("typical state", mid_smi4)):
-                rows = plan_rates(f, smi4=smi, **kw)
+                rows = plan_rates(f, smi4=smi, snap_earn_ded=snap_earn_ded, **kw)
                 rates_ = [r for r in rows if r["total"] <= 100]
                 cliffs = [r["pct_poverty"] for r in rows if r["total"] > 100]
                 top = max(rates_, key=lambda r: r["total"])
@@ -198,7 +205,7 @@ def ceiling_check(low_smi4, mid_smi4):
                     "rows": rows, "max": top["total"], "at": top["pct_poverty"], "cliffs": cliffs,
                     "over": [r["pct_poverty"] for r in rates_ if r["total"] > CEILING], "pass": top["total"] <= CEILING}
             # paid leave at its 1.10% ceiling, the lowest-income state
-            rows = plan_rates(f, smi4=low_smi4, leave=LEAVE_WORKER[1], **kw)
+            rows = plan_rates(f, smi4=low_smi4, leave=LEAVE_WORKER[1], snap_earn_ded=snap_earn_ded, **kw)
             top = max((r for r in rows if r["total"] <= 100), key=lambda r: r["total"])
             res[k][f"{label} | leave at its ceiling"] = {"max": top["total"], "at": top["pct_poverty"],
                                                          "pass": top["total"] <= CEILING}
