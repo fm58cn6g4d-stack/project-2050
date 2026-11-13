@@ -1,6 +1,6 @@
 # Memo 1: The carbon fee and the dividend
 
-Role: decision memo for Espen, forks 1 and 2 of the clean power dossier (`../3-design.md`). Status: draft, for decision (E-C1). Each part is decided on its own.
+Role: decision memo for Espen, forks 1 and 2 of the clean power dossier (`../3-design.md`). Status: **Decided** (`DEC-2026-11-13-06`): part 1 B and part 2 A, as recommended; points 2-6 yes (`DEC-2026-11-13-07`). Specified in `../4-specification.md`, part A; priced in `../6-cost.md`, part 1. Each part is decided on its own.
 
 **Decision line.** Recommended: **part 1 B, a carbon price on power plants and large industry, with the border adjustment, on the legacy price path ($25 a ton in 2030 rising to $150 by 2037), and no direct charge on home heating fuels or road fuels; part 2 A, the Climate Dividend paid equally to every adult, quarterly, tax-free and named, starting before the price reaches bills, on the same IRS payment rail as the child benefit.** Cost against the booked legacy rows: about **−$0.03 trillion over FY2030-39 and about −$26 billion in FY2040** on the general fund (project arithmetic, range about −$0.10 to +$0.05 trillion), with a dividend about a third smaller. Evidence: measured effects of carbon prices in British Columbia, the EU and Europe's carbon taxes; Canada's PBO and polling on why its rebate was repealed; the legacy carbon model's split of receipts by source (a project estimate).
 

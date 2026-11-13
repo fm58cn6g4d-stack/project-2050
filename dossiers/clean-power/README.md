@@ -1,6 +1,6 @@
 # Dossier: Clean, affordable power and a prepared country (flagship 4)
 
-Role: the clean power flagship (`charter/PLAN.md` 3.1). Status: draft, stage E, step E-C1 (sections 1-3 and the decision memos); section 3's seven memos and fourteen points are **for decision**. Level: every item is at **L1** (`agenda/agenda.csv`, `home_dossier` = `clean-power`); the decided items reach L2 when Espen answers the memo batch. Nothing in this dossier is booked yet; the legacy climate rows already in the budget model stay as they are until the dossier's own booking step.
+Role: the clean power flagship (`charter/PLAN.md` 3.1). Status: **decided**, stage E, step E-C2 (sections 4-9). Espen decided the memo batch on November 13: memos 1-7 all as recommended, with memo 7's wage insurance set by Espen (`DEC-2026-11-13-06`), and points 1-14 all yes (`DEC-2026-11-13-07`). Level: the decided items are at **L2** (`agenda/agenda.csv`, `home_dossier` = `clean-power`); options no memo weighed stay at L1. **Not booked:** the legacy climate rows in the budget model stay as they are until the booking step, after the milestone review. The decided set is about **$1.85 trillion over FY2030-39 and $147 billion in FY2040** on the general fund, about +$0.04 trillion and −$17 billion against the booked rows (`6-cost.md`).
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly): "Carbon fee and dividend, clean power and grid, adaptation and insurance, the clean-industry transition."
 
@@ -16,7 +16,7 @@ Role: the clean power flagship (`charter/PLAN.md` 3.1). Status: draft, stage E, 
 | D. Adaptation and insurance | CLI-7, CLI-7B, CLI-7C, CLI-7K, CLI-7N, CLI-8 (8B declined, 8C option), CLI-13, CLI-13A, CLI-13F | FEMA and mitigation, NFIP, a federal reinsurance facility, climate risk in federal lending, farms and forests |
 | E. Workers and places in transition | CLI-11, CLI-12; the transition share of REV-C1 | Coal securitization and worker guarantees; state payments for results |
 
-Every one of these is a legacy working choice, not a decision of Espen's for this plan (`DEC-2026-10-30-02`, `DEC-2026-10-30-03`); section 3 weighs them as options.
+Every one of these is a legacy working choice, not a decision of Espen's for this plan (`DEC-2026-10-30-02`, `DEC-2026-10-30-03`); section 3 weighed them as options, and Espen decided them (`DEC-2026-11-13-06`, `DEC-2026-11-13-07`).
 
 **Outside the flagship, named where they touch it:** fossil-fuel tax preferences (REV-TS3) and the public investment corporation (REV-E2) stay with fair financing; the heat standard (LAB-6) and workforce programs (LAB-8) with work; road-fuel pricing and the clean-vehicle charges (MOV-29, MR2 to MR4) with transportation; data-center rules shared with the AI file (AI-6A); international climate finance (NSC-9) with national security; home repair's front door to the clean-power programs (HOU-12) with housing.
 
@@ -28,8 +28,11 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 | --- | --- | --- |
 | 1. The problem | `1-problem.md`: bills and energy hardship; demand and reliability; emissions; climate damage and insurance; workers and places; the January 2029 baseline table; the legacy record restated | Draft (E-C1, PR #315) |
 | 2. What works | `2-what-works.md`: carbon pricing and dividends at home and abroad; the IRA's record and the 2025 repeal; grid and permitting; public power and finance; clean and firm power costs; clean industry; adaptation and insurance; transitions; failures to avoid | Draft (E-C1, PR #315) |
-| 3. Design choices | `3-design.md` and `memos/`: eleven forks in seven memos, fourteen yes-or-no points, inherited assumptions traced, the fiscal report against the booked rows | Draft, for decision (E-C1, second PR) |
-| 4-9 | — | Later steps |
+| 3. Design choices | `3-design.md` and `memos/`: eleven forks in seven memos, fourteen yes-or-no points, inherited assumptions traced, the fiscal report against the booked rows | **Decided** (`DEC-2026-11-13-06`, `DEC-2026-11-13-07`; E-C1, PRs #315, #317) |
+| 4. Specification | `4-specification.md` and `provisions.json` (53 provisions, built by `tools/build_provisions.py`): the price and the dividend, credits and industry, standards and goals, the grid, bills, adaptation, the transition guarantee, farms and forests | Draft, L2 (E-C2, PR 1) |
+| 5. Delivery | `5-delivery.md`: every job through an existing agency, record and payment system (`DEC-2026-11-13-08`); capacity, timeline, remedies, states, rural delivery | Draft, L2 (E-C2, PR 1) |
+| 6. Cost | `6-cost.md`, with `tools/clean_power_path.py` and `tools/coverage_read.py` (a read of the carbon model for memo 1 B): the decided set by fiscal year against the booked rows, what the total leaves out, the fiscal-rule report, the booking's steps | Draft, L2 (E-C2, PR 1); not booked |
+| 7-9 | — | E-C2, PR 2 |
 
 ## Evidence and sources
 
@@ -38,4 +41,4 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 ## Open questions for Espen
 
-The memo batch: `memos/README.md` (memos 1-7) and points 1-14 in `3-design.md`. Each is decided on its own.
+None from this step. The memo batch is decided. The milestone review comes after sections 7-9, then the booking (tier 3).

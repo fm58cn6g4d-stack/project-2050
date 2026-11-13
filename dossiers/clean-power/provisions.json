@@ -1,0 +1,1452 @@
+[
+ {
+  "id": "REV-C1G.01",
+  "title": "Who pays: power plants and large industrial facilities",
+  "agenda": "REV-C1G",
+  "status": "decided, memo 1 part 1 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "The price is charged on carbon dioxide from fuel burned at (1) fossil-fuel electricity generating units that already report their emissions to EPA by continuous monitoring (40 CFR part 75, the Acid Rain Program's units), and (2) industrial facilities whose emissions are at least 25,000 tons of CO2-equivalent a year, the threshold of EPA's facility reporting program (40 CFR part 98). It is charged on each covered facility's reported emissions for the quarter, not on fuel sales, so no upstream fuel tracking is built (working choice, `DEC-2026-11-13-08`). Fuel sold to anyone else is not charged",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS) collects; EPA certifies the emissions",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-318",
+   "EV-CLP-322",
+   "EV-CLP-714"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "REV-C1G.02",
+  "title": "What is not charged",
+  "agenda": "REV-C1G",
+  "status": "decided, memo 1 part 1 B; point 2",
+  "decisions": [
+   "DEC-2026-11-13-06",
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "Homes, commercial buildings and small businesses are not charged directly, and neither are gasoline and diesel, which Moving America's fuel steps price (MOV-29), or other transport fuel. Facilities under the threshold are not charged. Electricity and covered goods carry the price in their cost; the dividend returns it",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "—",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-709",
+   "EV-CLP-318"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "REV-C1A.01",
+  "title": "The price path",
+  "agenda": "REV-C1A",
+  "status": "decided, memo 1: the legacy path kept",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "$25 a ton of CO2 in 2030; D7's equal steps to about $46 in 2032; equal steps to $150 in 2037; then 5% a year, nominal. Written in the statute, not delegated",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-700"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "REV-C1P.01",
+  "title": "Process emissions at covered facilities",
+  "agenda": "REV-C1P",
+  "status": "decided, memo 1 part 1 B: \"and their process emissions\"; as booked",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Process CO2 and N2O at covered industrial facilities (cement, steel, ammonia, lime, petrochemicals) pay the same price. Their receipts go first to the O5 account that finances the package's net cost, the remainder to the dividend, as booked (CLI-2O.01)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS); EPA",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-702",
+   "EV-CLP-715"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "REV-C2.01",
+  "title": "The border adjustment",
+  "agenda": "REV-C2",
+  "status": "decided, point 4",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "Imports of the covered goods (steel, aluminum, cement, fertilizer and ammonia, hydrogen, and basic chemicals; working choice: the goods the EU's border charge covers) pay the price on their embodied emissions, less any carbon price paid where they were made. Default emission values by product and country, with lower verified values accepted. Exports of the same goods get a rebate. Built to count as an equivalent price under the EU's border charge",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (CBP collects at entry); EPA sets default values",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-333"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "REV-C3.01",
+  "title": "The methane fee",
+  "agenda": "REV-C3",
+  "status": "decided, point 3",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "The Inflation Reduction Act's waste emissions charge (Clean Air Act sec. 136) applies from 2030, undoing the delay to 2034: $1,200 a ton of methane in 2030, $1,350 in 2031, $1,500 from 2032, not indexed, on all methane at oil and gas facilities above 25,000 tons of CO2-equivalent, with no intensity threshold. A facility is exempt for a year if it certifies, on an independent audit and measured reporting, that it meets the leak-prevention standards; a super-emitter event or a failed audit ends the exemption",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "EPA, as sec. 136 provided",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-232",
+   "EV-CLP-233"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 1 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-2A.01",
+  "title": "The Climate Dividend: equal per adult, quarterly, tax-free, named",
+  "agenda": "CLI-2A",
+  "status": "decided, memo 1 part 2 A",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Every adult 18 and over gets one equal share each quarter, adult dependents included; children are covered by the child benefit (FAM-1), not a share. The payment is called the Climate Dividend in statute and on every deposit and notice. It is not taxable and does not count as income for any federal program (shared rule 1, `DEC-2026-11-12-06`). Size: 80% of the quarter's combustion receipts divided by the adults paid; on the carbon model read about $133 an adult in 2030, $439 in 2035 and $492 in 2040 (nominal, a year; working assumption)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS and the Bureau of the Fiscal Service)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-319",
+   "EV-CLP-321",
+   "EV-CLP-706"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the dividend's own channel)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-2A.02",
+  "title": "Who is paid, and how, with no application for most people",
+  "agenda": "CLI-2A",
+  "status": "decided, memo 1 part 2 A",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Paid on the child benefit's rail and notice (FAM-1.09): to filers from their latest return; automatically to Social Security, SSI, VA and Railroad Retirement beneficiaries from those agencies' payment records; to anyone else on a one-page sign-up at the child benefit's front doors (FAM-1.10). Residents are paid under immigration's table for the plan's universal programs (shared rule 3, `DEC-2026-11-12-07`, memo 6 C), with an individual taxpayer number accepted (working choice). The payment is protected from offset and garnishment as the child benefit is (FAM-1.07; working choice)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS, Fiscal Service), with SSA, VA and the Railroad Retirement Board",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-319"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the dividend's own channel)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-2A.03",
+  "title": "Paid first, from a dividend account with a permanent appropriation",
+  "agenda": "CLI-2A",
+  "status": "decided, memo 1 part 2 A; point 6",
+  "decisions": [
+   "DEC-2026-11-13-06",
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "The fee's receipts go to a Climate Dividend account with a permanent, indefinite appropriation and Treasury's standing disbursement authority, so a lapse in appropriations or a later Congress cannot stop a payment without changing the law. The first payment goes out in the first quarter of 2030, before the price reaches bills, from an advance repaid from the account's receipts within the year",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-319",
+   "EV-CLP-310"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the dividend's own channel)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-2A.04",
+  "title": "The 80/20 split",
+  "agenda": "CLI-2A",
+  "status": "decided, point 5",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "80% of the combustion receipts to the dividend; 20% to a transition share, which pays the transition guarantee first (CLI-11.08), then the add-ons (CLI-5F.01) and, from FY2040, the bill credit (CLI-5H.01). Process receipts follow CLI-2O.01",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-700"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the dividend's own channel)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-2O.01",
+  "title": "The O5 financing bridge, as booked",
+  "agenda": "CLI-2O",
+  "status": "decided, memo 1 part 1 B: process emissions stay priced",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "The incremental process and combustion receipts from Package A's measures, less the dividend they carry, finance the package's net cost in their own account (CLI-2O, CXP, as booked). The booking step reruns the accounts for the narrower combustion base",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-702"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (the dividend's own channel)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-1A.01",
+  "title": "The credits, from tax year 2030",
+  "agenda": "CLI-1A",
+  "status": "decided, memo 2 part 1 B; as booked",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "*Power and storage:* the technology-neutral production and investment credits (secs. 45Y, 48E) for wind and solar again, and for every clean technology. *Manufacturing:* the advanced manufacturing credit (45X), wind components included, and the 48C allocation. *Homes:* 25C (efficiency and heat pumps) and 25D (rooftop solar and batteries). *Vehicles:* 30D, 25E, 45W and 30C. Each refundable; elective pay (sec. 6417) and transfer (sec. 6418) kept; the household and vehicle credits transferred to the dealer or installer at the point of sale",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-220",
+   "EV-CLP-224",
+   "EV-CLP-225",
+   "EV-CLP-226",
+   "EV-CLP-702"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (credits, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-1A.02",
+  "title": "The step-down, published in statute",
+  "agenda": "CLI-1A",
+  "status": "decided, memo 2 part 1 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Each credit steps down on a schedule tied to the rule that replaces it (working choice, matching the booked path): power credits at full value for projects starting construction through 2034, 60% for 2035-37 and none after, except storage and firm clean power (nuclear, geothermal) at full value through 2039; vehicle credits at full value through 2032, then 75%, 50% and none after 2034 as the fleet standards bind (CLI-4E.01); the household credits at full value through 2034, then for heat pumps in homes under 80% of area median income only, through 2039; 45X and 48C through 2039. No credit is extended by regulation",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-716",
+   "EV-CLP-702"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (credits, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-1A.03",
+  "title": "The cost review trigger",
+  "agenda": "CLI-1A",
+  "status": "decided, point 7",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "If the credits' outlays and revenue loss run more than 25% above the booked path (`6-cost.md`, part 1) for two fiscal years in a row, Treasury reports to Congress within 90 days and every scheduled step comes forward one year, unless Congress acts within 180 days of the report",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (Office of Tax Analysis), with JCT's estimates",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-201",
+   "EV-CLP-200"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (credits, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-1A.04",
+  "title": "Foreign-entity rules against named countries",
+  "agenda": "CLI-1A",
+  "status": "decided, memo 2 part 1 B: the legacy credit set's rule",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "The 2025 law's \"prohibited foreign entity\" tests are replaced by rules written against the countries of concern named in 10 U.S.C. 4872, so that financing is not blocked by broad material-assistance tests",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-223"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (credits, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-9.01",
+  "title": "Contracts for difference for heavy industry",
+  "agenda": "CLI-9",
+  "status": "decided, memo 2 part 2 A; as booked",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Competitive rounds for low-carbon steel, cement, aluminum, chemicals and hydrogen. Each contract pays the gap between a strike price and a reference price (the product's market price plus the carbon price paid), and the producer pays back when the reference is above the strike. Terms up to 15 years, timed to furnace and kiln rebuilds; funds obligated at signing; emissions verified independently each year",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "DOE (Loan Programs Office, now the Office of Energy Dominance Financing)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-450",
+   "EV-CLP-451",
+   "EV-CLP-452",
+   "EV-CLP-433"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (credits and industry, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-9.02",
+  "title": "Buy Clean in statute",
+  "agenda": "CLI-9",
+  "status": "decided, memo 2 part 2 A",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Federal construction and federally funded highway projects buy concrete, steel, asphalt and glass under embodied-carbon limits set from environmental product declarations, as GSA's 2023 program did, with limits tightening every three years (working choice)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "GSA; DOT (FHWA)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-448",
+   "EV-CLP-447"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (credits and industry, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-3A.01",
+  "title": "The clean electricity standard: 80% by 2035, 100% by 2040",
+  "agenda": "CLI-3A",
+  "status": "decided, memo 3 part 1 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Each retail electricity supplier holds clean credits for a share of its sales that rises in a straight line from its 2029 share to 80% in 2035 and to 100% in 2040, then stays there. Clean: wind, solar, hydro, geothermal, nuclear, storage discharging clean power, and fossil generation with capture at its captured share. Credits are the renewable energy certificates the regional tracking systems already issue for state standards, extended to every clean source; no new federal registry (working choice, `DEC-2026-11-13-08`). Suppliers selling under 1 million megawatt-hours a year meet the standard through their wholesale supplier (working choice)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "DOE (EIA certifies compliance); FERC oversees the tracking systems",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-708",
+   "EV-CLP-723",
+   "EV-CLP-408"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (standards, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-3A.02",
+  "title": "The capped payment, and where it goes",
+  "agenda": "CLI-3A",
+  "status": "decided, memo 3 part 1 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "A supplier short of credits pays an alternative compliance payment per missing megawatt-hour, capped at $40 in 2025 dollars, indexed to prices (working choice, the carbon model's figure). Payments go to bill protection (CLI-5L.01), paid through the bill credit (CLI-5H.01). On the carbon model about $0.05 trillion over 2030-39",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "DOE (EIA); Treasury",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-723"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (standards, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-3A.03",
+  "title": "Permitting, if the bipartisan package becomes law",
+  "agenda": "CLI-3A",
+  "status": "decided, memo 4 part 2 A, case 1",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "The package's transmission siting and faster review stay. Its permit-certainty section is amended so that an emissions standard, the clean electricity standard, a planned retirement or a rule under this act is never an \"interference\" with a permit, and any damages it pays are capped per project and per year, with appropriations required above the cap (working choice: the lesser of 10% of the project's sunk cost or $100 million a project a year)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "DOJ (the Judgment Fund); the permitting agencies",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-255",
+   "EV-CLP-256",
+   "EV-CLP-266"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (standards, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-3A.04",
+  "title": "Permitting, if it does not",
+  "agenda": "CLI-3A",
+  "status": "decided, memo 4 part 2 A, case 2",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "A narrow permitting title: FERC backstop siting for lines on the national-interest list (CLI-10.03); deadlines for federal decisions on transmission and clean power; a shorter window for court challenges (working choice: 150 days); and no permit-certainty damages",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "FERC; the permitting agencies",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-250",
+   "EV-CLP-258",
+   "EV-CLP-261"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (standards, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-4A.01",
+  "title": "The endangerment finding and EPA's authority, in statute",
+  "agenda": "CLI-4A",
+  "status": "decided, memo 3 part 2 A",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Congress finds that greenhouse gases endanger public health and welfare, and gives EPA express authority to set standards for vehicles and engines (sec. 202) and power plants (sec. 111), including standards based on generation shifting and averaging. Each rule the act requires has a statutory deadline and a default standard that applies if EPA misses it",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "EPA",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-240",
+   "EV-CLP-244",
+   "EV-CLP-245"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (no direct cost)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-4E.01",
+  "title": "Vehicle standards' numbers in statute",
+  "agenda": "CLI-4E",
+  "status": "decided, memo 3 part 2 A",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Fleet-average greenhouse gas standards for cars and light trucks, and for medium and heavy trucks, written into the statute year by year through 2040, set so that the expected electric share of new sales reaches about 25% of cars in 2032, 50% in 2037 and two-thirds in 2040, and about 5%, 30% and 40% of trucks (working choice: the carbon model's standards). Averaging, banking and trading as in EPA's past rules. No separate sales mandate",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "EPA, with DOT (NHTSA)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-240",
+   "EV-CLP-211"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (no direct cost)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-4H.01",
+  "title": "A clean-heat standard from 2032",
+  "agenda": "CLI-4H",
+  "status": "decided, point 9",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "Each manufacturer of space- and water-heating equipment sold in the United States meets a rising share of heat pumps or other zero-emission heat in its sales: 60% in 2032, 5 points more each year, 100% in 2040 (working choice), with credits tradable among manufacturers. Certified through DOE's existing appliance certification database. Low-income replacements are paid by the credits (CLI-1A.01) and Weatherization's heat pumps (CLI-5W.01)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "DOE (the appliance standards program)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-110"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (no direct cost)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-14.01",
+  "title": "The national goals",
+  "agenda": "CLI-14",
+  "status": "decided, point 1",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "Net zero greenhouse gas emissions by 2050, and 61-66% below 2005 by 2035, as the national targets. The act states that no domestic package the project has modeled reaches the 2035 range (the legacy model's best is about 48%), and requires an annual progress report against both",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "EPA reports; the President's budget carries it",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-116",
+   "EV-CLP-715",
+   "EV-CLP-112",
+   "EV-CLP-113"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 2 (inside EPA's base)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-14.02",
+  "title": "The national greenhouse gas inventory, a statutory duty",
+  "agenda": "CLI-14",
+  "status": "decided, point 8",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "EPA publishes the national inventory and the state inventories by April 15 each year, and keeps the facility reporting the inventory and the carbon price need (40 CFR part 98, part 75 monitoring). If EPA misses the date, the latest data are published as they stand within 30 days",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "EPA",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-103",
+   "EV-CLP-104",
+   "EV-CLP-106"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 2 (inside EPA's base)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-6A.01",
+  "title": "Interregional transfer minimums",
+  "agenda": "CLI-6A",
+  "status": "decided, memo 4 part 1 B: the legacy grid statute",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "A statutory minimum transfer capability between neighboring regions, starting from NERC's 2024 study's 35 GW of added capability, with FERC enforcing the schedule and planning it where regions do not file",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "FERC; NERC",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-403",
+   "EV-CLP-401",
+   "EV-CLP-405"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (no direct cost; FERC is fee-funded)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-6A.02",
+  "title": "Utility rules",
+  "agenda": "CLI-6A",
+  "status": "decided, memo 4 part 1 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "A performance-based ratemaking standard that state commissions must consider (PURPA sec. 111(d)), with shared savings for grid-enhancing technologies; no ratepayer-funded lobbying or advertising; minimum governance and transparency rules for regional transmission organizations, with intervenor funding; mandatory cyber standards for distribution utilities and large inverters, with funding for small co-ops",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "FERC; state commissions",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-405"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (no direct cost; FERC is fee-funded)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-6A.03",
+  "title": "Large new loads pay their own grid costs",
+  "agenda": "CLI-6A",
+  "status": "decided, point 10",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "A new load of 20 MW or more, or new service of that size at an existing large load, pays for the generation capacity and the wires its connection requires, under tariffs the state commission or FERC approves, in every market, ERCOT included. Other customers' rates may not carry those costs",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "FERC; state commissions; the Public Utility Commission of Texas for ERCOT",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-024",
+   "EV-CLP-027",
+   "EV-CLP-013"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (no direct cost; FERC is fee-funded)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-10G.01",
+  "title": "The first grid tranche",
+  "agenda": "CLI-10G",
+  "status": "decided, memo 4 part 1 B; as booked",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "$25 billion of grants, $100 billion of direct loans and $20 billion of capacity contracts for transmission, interconnection and grid upgrades, 2030-39; booked at about $39 billion in deficit terms",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "DOE (Grid Deployment Office for grants and capacity contracts; the Loan Programs Office for loans)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-717"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-10.01",
+  "title": "The second tranche, authorized up front, released on milestones",
+  "agenda": "CLI-10",
+  "status": "decided, memo 4 part 1 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "$40 billion of grants, $200 billion of loans and $40 billion of capacity contracts, released only when the first tranche's lines are under construction on schedule and the transfer minimums are on track (working choice: DOE certifies each milestone and publishes the evidence)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "DOE",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-717"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-10.02",
+  "title": "The public builders' borrowing",
+  "agenda": "CLI-10",
+  "status": "decided, point 11",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "TVA's bond limit raised from $30 billion, set in 1979, to $60 billion (working choice); Bonneville's Treasury borrowing raised by $10 billion and WAPA's transmission borrowing from $3.25 billion to $10 billion, both for transmission (working choices). Costs are recovered from the users of the lines, as today",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "TVA; Bonneville; WAPA",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-416",
+   "EV-CLP-417",
+   "EV-CLP-464",
+   "EV-CLP-420",
+   "EV-CLP-421"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-10.03",
+  "title": "Public power as builder of last resort",
+  "agenda": "CLI-10",
+  "status": "decided, memo 4 part 1 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "DOE keeps a national-interest list of lines, drawn from its needs study and FERC-approved plans. If no regional builder files to build a listed line within two years, the federal builder builds it and recovers its cost through rates FERC approves. The builder is WAPA's Transmission Infrastructure Program, extended nationwide, with TVA and Bonneville building in their own regions: no new federal corporation (working choice, `DEC-2026-11-13-08`). It uses the existing federal siting backstops, not new eminent domain",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "DOE (WAPA); TVA; Bonneville",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-421",
+   "EV-CLP-401",
+   "EV-CLP-435"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 4 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-5H.01",
+  "title": "An automatic energy bill credit",
+  "agenda": "CLI-5H",
+  "status": "decided, memo 5 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "A household enrolled in SNAP, SSI or LIHEAP at any time in the prior year gets a yearly credit on its energy bill, with no separate application. Sized to bring its home energy cost toward 6% of income, using the state's own LIHEAP benefit table and the household's income already on file (working choice); paid by the state LIHEAP office to the household's utility or fuel vendor under the vendor agreements states already hold, or to the household where heat is included in rent. Others apply as now. Money: LIHEAP's block grant made mandatory at about $12 billion a year from FY2030, indexed (working assumption), against about $4 billion today",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "HHS (LIHEAP), through the states; SNAP records from the states, SSI records from SSA",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-038",
+   "EV-CLP-039",
+   "EV-CLP-034",
+   "EV-CLP-035"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (bills and add-ons; memo 5 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-5H.02",
+  "title": "Cooling counts, and water help is permanent",
+  "agenda": "CLI-5H",
+  "status": "decided, memo 5 B: the legacy add-ons",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Summer cooling counts equally with heating in the credit; the low-income household water assistance program becomes permanent, paid the same way to water utilities",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "HHS",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-721"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (bills and add-ons; memo 5 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-5W.01",
+  "title": "Low-income heat pumps through Weatherization",
+  "agenda": "CLI-5W",
+  "status": "decided, memo 5 B; as booked",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "DOE's Weatherization Assistance Program may fund heat pumps, about 250,000 low-income homes a year from 2031 (the carbon model's working figure), on the booked $84 billion",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "DOE (Weatherization), through the states",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-702"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (bills and add-ons; memo 5 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-5L.01",
+  "title": "Bill protection, and when it ends",
+  "agenda": "CLI-5L",
+  "status": "decided, memo 5 B; point 12",
+  "decisions": [
+   "DEC-2026-11-13-06",
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "Low- and moderate-income households get added help while the standard and the price raise bills, funded first by the standard's capped payments (CLI-3A.02) and paid as part of the same bill credit (CLI-5H.01), not as a second program. It ends when EIA's average residential price, adjusted for inflation, is below its 2029 level for two years in a row, not on a fixed date",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "HHS (paid with CLI-5H.01); EIA measures",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-001",
+   "EV-CLP-723"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (bills and add-ons; memo 5 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-5F.01",
+  "title": "The rest of the add-ons, as booked",
+  "agenda": "CLI-5F",
+  "status": "decided, memo 5 B: the legacy add-ons",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "The transmission investment credit for lines in FERC-approved plans, the 45X expansions, the household resilience credit, agricultural research and technical assistance, critical-minerals offtake and adaptation finance, as booked; the minerals and adaptation-finance lines borrowed for as time-limited capital (CLI-5F, C37)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (IRS); USDA; DOE; EPA",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-721",
+   "EV-CLP-702"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (bills and add-ons; memo 5 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-7K.01",
+  "title": "Disaster capital: the mitigation fund, wildfire work and buyouts",
+  "agenda": "CLI-7K",
+  "status": "decided, memo 6 A; as booked",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "A standing mitigation fund of $3-6 billion a year, paid partly by formula with a floor for every state and tribe so small places do not lose to grant-writing capacity, partly to large competitive projects; wildfire risk reduction of $1.5-3.5 billion a year above today; voluntary buyouts and relocation of $1.9-4.7 billion a year, 2030-39. Mandatory money that cannot be withheld",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "FEMA; USDA (Forest Service) for wildfire",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-719",
+   "EV-CLP-610",
+   "EV-CLP-625",
+   "EV-CLP-605"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (adaptation, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-7.01",
+  "title": "The permanent disaster pieces",
+  "agenda": "CLI-7",
+  "status": "decided, memo 6 A; as booked",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "The post-disaster mitigation share from 15% to 20%; premium help for low- and moderate-income primary residences under the flood program, sized to income, not a cap on the rate; extreme heat as an eligible hazard; one survivor application and estimate-based public assistance; and premium help for wind, wildfire and hail for low- and moderate-income owners and renters in high-risk counties",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "FEMA (NFIP for flood premium help); Treasury for wind, wildfire and hail help (CLI-7C.01's office)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-719",
+   "EV-CLP-143",
+   "EV-CLP-150",
+   "EV-CLP-159"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (adaptation, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-7N.01",
+  "title": "NFIP's debt resolved, with a long reauthorization",
+  "agenda": "CLI-7N",
+  "status": "decided, memo 6 A; as booked",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "The program's debt to Treasury (about $22.5 billion) cancelled together with a reauthorization to 2035 and a reserve rule; scored at about $2.2 billion",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "FEMA (NFIP); Treasury",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-154",
+   "EV-CLP-608",
+   "EV-CLP-719"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (adaptation, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-7C.01",
+  "title": "A capped federal reinsurance facility",
+  "agenda": "CLI-7C",
+  "status": "decided, memo 6 A; as booked",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Treasury reinsures insurers' residential wind, wildfire and hail losses (earthquake where a state opts in) in the layer between a state-level 1-in-100-year and 1-in-250-year industry loss; insurers keep 10% of the layer; an annual cap of $150 billion; premiums priced to expected loss; recoupment after a draw, as under the terrorism program. Offered only in states that meet CLI-8.01. Its $75-150 billion contingent liability is disclosed in every fiscal test, not scored",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (the Federal Insurance Office, which runs the terrorism program)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-718",
+   "EV-CLP-616",
+   "EV-CLP-617",
+   "EV-CLP-618"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (adaptation, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-8.01",
+  "title": "Codes as a condition, and a flood standard for federal rebuilding",
+  "agenda": "CLI-8",
+  "status": "decided, point 13",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "A state keeps the wind, wildfire and hail premium help and access to the reinsurance facility if it adopts current hazard-resistant building codes within three years of enactment; new federal rebuilding aid meets a forward-looking federal flood risk standard, written into statute. Conditions attach to new aid only",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "FEMA",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-613",
+   "EV-CLP-611"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (no direct cost)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-11.01",
+  "title": "Who is covered, from records already filed",
+  "agenda": "CLI-11",
+  "status": "decided, memo 7 B, contractors included by Espen",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "A worker who loses their job when a covered facility closes or permanently cuts its workforce, on or after January 1, 2030: coal mines; coal- and gas-fired power plants; petroleum refineries; coal and gas processing plants. Covered: the facility's employees, and workers employed by a contractor who worked at the facility for at least six of the last twelve months (working choice). Eligibility comes from the closure notice the employer files (the WARN Act notice, or for a smaller facility the same notice filed with the state) and the employer's and contractors' payroll records for the site, filed once with the notice. No application beyond confirming the record; no means test",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "Labor (ETA), with the state unemployment agencies",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-516",
+   "EV-CLP-500",
+   "EV-CLP-508"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-11.02",
+  "title": "The income guarantee: 90% for two years",
+  "agenda": "CLI-11",
+  "status": "decided, memo 7 B, with Espen's parameters",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "For two years from the job loss: *in a new job,* a top-up equal to 90% of the old hourly wage less the new hourly wage, paid for the hours actually worked, up to the old weekly schedule; *in approved training,* 90% of the old weekly pay; *otherwise,* unemployment benefits only. Unemployment benefits count toward the 90%, so no one gets more than 90% of their old pay. The old wage is capped at twice the national median wage (BLS's annual figure, about $114,000 a year in 2030 on the working assumption). No suitable-job test: any job counts. Paid monthly on the worker's statement of hours and wage with a pay stub, checked after the fact against the state's quarterly wage records",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA); state unemployment agencies pay, as Labor's agents",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-516",
+   "EV-CLP-517",
+   "EV-CLP-518",
+   "EV-CLP-529"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-11.03",
+  "title": "Retraining money",
+  "agenda": "CLI-11",
+  "status": "decided, memo 7 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Up to $20,000 for training from a provider on the state's existing eligible training provider list, paid through an individual training account at an American Job Center",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "Labor (ETA), through state workforce boards",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-529"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-11.04",
+  "title": "A pension bridge at 55",
+  "agenda": "CLI-11",
+  "status": "decided, memo 7 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "A covered worker 55 or older at the job loss with a defined-benefit pension may draw it unreduced from the job loss; Treasury reimburses the plan the cost of waiving the early-retirement reduction, through the Pension Benefit Guaranty Corporation as its agent (working choice). A worker 55 or older without one may take CLI-11.02's training-level support for the full two years without enrolling in training",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "PBGC (for Treasury); Labor",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-529",
+   "EV-CLP-528"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-11.05",
+  "title": "Published counts with a review trigger, not a job test",
+  "agenda": "CLI-11",
+  "status": "decided, memo 7 B, Espen's parameter",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "Labor publishes each year, by state and facility type: workers covered, the path each took (job, training, bridge, none), the average top-up, and the hours and wages of the new jobs. If, in any year, more than half of top-up dollars go to jobs under 20 hours a week or paying under the federal poverty line for a full-time worker (working choice), Labor reports to Congress with options within 90 days. Nothing changes automatically",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "Labor",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-516"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-11.06",
+  "title": "Replacement of the lost local tax base",
+  "agenda": "CLI-11",
+  "status": "decided, memo 7 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "A county, school district or other local taxing unit losing property tax from a closed covered facility gets a yearly payment equal to the lost tax in the first year after closure, falling by 10 points a year to zero after ten years, measured from the assessor's last roll before closure. Paid through Interior's payments-in-lieu-of-taxes office, which already pays counties each year (working choice, `DEC-2026-11-13-08`)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "Interior (PILT office), for Treasury",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-513",
+   "EV-CLP-514",
+   "EV-CLP-515"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-11.07",
+  "title": "Refinancing retiring coal plants",
+  "agenda": "CLI-11",
+  "status": "decided, memo 7 B",
+  "decisions": [
+   "DEC-2026-11-13-06"
+  ],
+  "parameters": "The Federal Financing Bank buys ratepayer-backed bonds that a state commission approves to refinance a retiring coal plant's remaining book value, at Treasury's rate plus a small spread, if the plant retires on a fixed date and is not mothballed, and at least a tenth of the proceeds goes to the plant's workers and community (working choice, after New Mexico's San Juan bonds)",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R3",
+    "kind": "mandatory",
+    "note": "FY2031 reconciliation act"
+   }
+  ],
+  "agency": "Treasury (Federal Financing Bank); state commissions",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-530"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-11.08",
+  "title": "Paid first from the transition share",
+  "agenda": "CLI-11",
+  "status": "decided, memo 7 B; point 5",
+  "decisions": [
+   "DEC-2026-11-13-06",
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "The guarantee's payments are drawn from the carbon price's 20% transition share before any other use; the general fund pays any shortfall. The guarantee is an entitlement: it does not depend on the share's size",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "FLOOR",
+    "kind": "authorizing",
+    "note": "the clean power and climate act (regular order)"
+   }
+  ],
+  "agency": "Treasury",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-700",
+   "EV-CLP-713"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (memo 7 B)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-13A.01",
+  "title": "Conservation payments for methane and soil carbon",
+  "agenda": "CLI-13A",
+  "status": "decided, point 14; as booked",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "Mandatory USDA conservation funding for practices that cut methane and nitrous oxide and build soil carbon, through the existing conservation programs; about $31 billion over FY2030-39",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "USDA (NRCS)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-702"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (farms and forests, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ },
+ {
+  "id": "CLI-13F.01",
+  "title": "Reforestation",
+  "agenda": "CLI-13F",
+  "status": "decided, point 14; as booked",
+  "decisions": [
+   "DEC-2026-11-13-07"
+  ],
+  "parameters": "Reforestation and forest restoration on federal and partner land, 2030-39; about $25 billion",
+  "eligibility": "",
+  "vehicle": [
+   {
+    "vehicle": "R2",
+    "kind": "mandatory",
+    "note": "FY2030 reconciliation act"
+   }
+  ],
+  "agency": "USDA (Forest Service)",
+  "current_law": "",
+  "evidence": [
+   "EV-CLP-702"
+  ],
+  "sources": [],
+  "cost_source": "6-cost.md, part 1 (farms and forests, as booked)",
+  "spec": "dossiers/clean-power/4-specification.md"
+ }
+]

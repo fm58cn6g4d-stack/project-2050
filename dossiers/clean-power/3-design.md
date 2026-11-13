@@ -1,6 +1,6 @@
 # 3. Design choices
 
-Role: section 3 of the clean power dossier: the real forks, the options weighed, the recommendations and their consequences, and the decision memos Espen decides in one batch. Status: draft (step E-C1), **for decision**. Nothing here is decided until Espen answers; each memo and point is decided on its own, and none is adopted by silence. Every figure cites `evidence.json`; costs are on the general fund against the January 2029 law, FY2030-39 and FY2040, and a minus sign is a saving.
+Role: section 3 of the clean power dossier: the real forks, the options weighed, the recommendations and their consequences, and the decision memos Espen decides in one batch. Status: **decided**, each memo and point on its own: memos 1-7 all as recommended (`DEC-2026-11-13-06`; memo 7 B with Espen's four wage-insurance parameters) and points 1-14 all yes (`DEC-2026-11-13-07`). The text below is the batch as Espen decided it; the specification is `4-specification.md` and the cost `6-cost.md`, which reprices memo 7 B on the decided parameters (about $0.012 trillion over FY2030-39, not $0.08 trillion) and so the set at about +$0.04 trillion against the booking, not +$0.11 trillion. Every figure cites `evidence.json`; costs are on the general fund against the January 2029 law, FY2030-39 and FY2040, and a minus sign is a saving.
 
 ## The plan in one paragraph (as recommended)
 
@@ -129,7 +129,7 @@ Two things in this table are easy to miss. **The fee and dividend cost the gener
 
 ## Agenda items
 
-Every item stays at **L1** until Espen decides; on a decision, the chosen items move to L2 and the others to `alternative` in `agenda/agenda.csv`, in the same PR as the `DEC-` entry. New items this section proposes (the large-emitter coverage under REV-C1, the transmission authority under CLI-10, the automatic bill credit under CLI-5, the transition guarantee under CLI-11, the inventory duty) get IDs when decided.
+Decided (`DEC-2026-11-13-06`, `DEC-2026-11-13-07`): the chosen items are at L2 `decided` and the options the memos weighed at L2 `alternative` in `agenda/agenda.csv` (step E-C2). New rows for the decided items with no legacy home: REV-C1G (memo 1 B's coverage), CLI-5H (the automatic bill credit) and CLI-14 (the goals and the inventory); the transmission authority sits under CLI-10 and the guarantee under CLI-11. Legacy options no memo weighed stay at L1.
 
 ## Evidence still needed (for the design)
 
