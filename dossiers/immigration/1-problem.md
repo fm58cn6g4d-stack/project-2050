@@ -8,7 +8,7 @@ Role: section 1 of the immigration dossier. It covers what is wrong, for whom an
 - E. citizenship;
 - F. delivery.
 
-Part G covers eligibility for other programs (shared rule 3). Status: draft (stage E, board row I2). Every figure cites the evidence register (`evidence.json`, or another dossier's register where it already holds the fact). Figures from the second Trump administration's agencies are its own data or claims, labeled as such (`DEC-2026-10-30-01`). Claims still missing evidence are listed at the end and are not made here. The legacy record is restated with file and line in `legacy-research.md`; this section corrects it where the sources differ.
+Part G covers eligibility for other programs (shared rule 3). Status: reviewed at L3 (`review-milestone.md`; see the README). Every figure cites the evidence register (`evidence.json`, or another dossier's register where it already holds the fact). Figures from the second Trump administration's agencies are its own data or claims, labeled as such (`DEC-2026-10-30-01`). Claims still missing evidence are listed at the end and are not made here. The legacy record is restated with file and line in `legacy-research.md`; this section corrects it where the sources differ.
 
 Outcomes this section frames (`charter/outcomes.md`):
 - OUT-07, a humane, orderly and lawful immigration system with broad public consent (all parts);

@@ -1,6 +1,6 @@
 # Care you can count on, part A (health): what works
 
-Role: section 2 of the care dossier, health part: research, programs at home and abroad, and failures to avoid, behind the design choices in section 3. Status: draft (stage D, step 2). Every figure cites the evidence register (`evidence.json`). Single-payer Medicare for All, a public option and a staged path are weighed with the same care (`DEC-2026-11-09-07`); legacy designs (HLT-1 to HLT-6) are working choices, not settled (`DEC-2026-10-30-02`).
+Role: section 2 of the care dossier, health part: research, programs at home and abroad, and failures to avoid, behind the design choices in section 3. Status: reviewed at L3 (health, `review-milestone.md`; see the README). Every figure cites the evidence register (`evidence.json`). Single-payer Medicare for All, a public option and a staged path are weighed with the same care (`DEC-2026-11-09-07`); legacy designs (HLT-1 to HLT-6) are working choices, not settled (`DEC-2026-10-30-02`).
 
 ## In brief
 

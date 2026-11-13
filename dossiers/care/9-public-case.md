@@ -1,6 +1,6 @@
 # Care you can count on, part A (health): the public case
 
-Role: section 9 of the care dossier, health part: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: draft (stage D, step 4, PR 2), on `DEC-2026-11-10-09`, `-11`, `-12` and `-13`; revised after the milestone review (`review-milestone.md`, step 3). Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about".
+Role: section 9 of the care dossier, health part: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: reviewed at L3 (health, `review-milestone.md`; see the README), on `DEC-2026-11-10-09`, `-11`, `-12` and `-13`; revised after the milestone review (`review-milestone.md`, step 3). Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about".
 
 ## The brief
 

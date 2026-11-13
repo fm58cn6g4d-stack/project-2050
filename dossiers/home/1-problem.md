@@ -1,6 +1,6 @@
 # A home you can keep: the problem
 
-Role: section 1 of the housing dossier: what is wrong, for whom and how large. Status: draft (stage C, step 1; 2025 rent burden added from the ACS). Every figure cites the evidence register (`evidence.json`). The claims still missing evidence are listed at the end and are not made here.
+Role: section 1 of the housing dossier: what is wrong, for whom and how large. Status: reviewed; the L3 re-check passed (#194; `review-milestone.md`; closed in stage C, see the README). Every figure cites the evidence register (`evidence.json`). The claims still missing evidence are listed at the end and are not made here.
 
 Outcomes this section frames:
 - OUT-04, a home people can keep;

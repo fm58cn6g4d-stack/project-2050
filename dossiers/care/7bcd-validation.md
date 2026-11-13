@@ -1,6 +1,6 @@
 # Care you can count on, parts B-D (long-term care, child care and pre-K, the care workforce): validation
 
-Role: section 7 of the care dossier for parts B, C and D: how the cost in sections 4-6 compares with outside estimates, what the arithmetic misses, who the design reaches and what households pay, the strongest objections, and the signs of failure. Status: draft (stage D, board row D-9, PR 2), on `DEC-2026-11-11-02` to `-06`. Figures marked "project arithmetic" come from `tools/care_repricing.py` and `tools/care_bcd_path.py`; there is no exploratory model for parts B-D, as health has, so every comparison here is between working assumptions and outside figures, not a model run.
+Role: section 7 of the care dossier for parts B, C and D: how the cost in sections 4-6 compares with outside estimates, what the arithmetic misses, who the design reaches and what households pay, the strongest objections, and the signs of failure. Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README), on `DEC-2026-11-11-02` to `-06`. Figures marked "project arithmetic" come from `tools/care_repricing.py` and `tools/care_bcd_path.py`; there is no exploratory model for parts B-D, as health has, so every comparison here is between working assumptions and outside figures, not a model run.
 
 ## 1. Against outside figures
 

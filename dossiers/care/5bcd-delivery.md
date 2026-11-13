@@ -1,6 +1,6 @@
 # Care you can count on, parts B-D (long-term care, child care and pre-K, the care workforce): delivery
 
-Role: section 5 of the care dossier for parts B, C and D. It says who runs each provision of `4bcd-specification.md`, what capacity it needs, the timeline from enactment to the endpoints, how people get remedies, what states do, and how it reaches rural places. Status: draft (stage D, board row D-9, PR 1), on `DEC-2026-11-11-02` to `-06`. Dates are the decided ones; where a step's date is a working choice, it says so. Health's delivery (`5-delivery.md`) is the frame: CMS runs the single plan, HHS publishes readiness reports that are counts, not gates, and the endpoint is January 1, 2035.
+Role: section 5 of the care dossier for parts B, C and D. It says who runs each provision of `4bcd-specification.md`, what capacity it needs, the timeline from enactment to the endpoints, how people get remedies, what states do, and how it reaches rural places. Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README), on `DEC-2026-11-11-02` to `-06`. Dates are the decided ones; where a step's date is a working choice, it says so. Health's delivery (`5-delivery.md`) is the frame: CMS runs the single plan, HHS publishes readiness reports that are counts, not gates, and the endpoint is January 1, 2035.
 
 ## 1. Who runs what
 

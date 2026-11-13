@@ -10,7 +10,7 @@ Role: section 2 of the immigration dossier. It covers the research, the programs
 
 The bills are compared, each against the legacy design and the January 2029 law, in part G.
 
-Status: draft (stage E, board row I2). Every figure cites the evidence register (`evidence.json`). Each claim that may carry a recommendation names its evidence strength (randomized trial, quasi-experimental, observational, program evaluation, official estimate, simulation, international practice or judgment) and where it was tried. Analysis from the second Trump administration is presented as its view and carries no recommendation on its own (`DEC-2026-10-30-01`). No design choice is made here; that is I3's job. The design lens applies throughout: each test, document, deadline and verification step must earn its place against its burden (`DEC-2026-11-09-13`).
+Status: reviewed at L3 (`review-milestone.md`; see the README). Every figure cites the evidence register (`evidence.json`). Each claim that may carry a recommendation names its evidence strength (randomized trial, quasi-experimental, observational, program evaluation, official estimate, simulation, international practice or judgment) and where it was tried. Analysis from the second Trump administration is presented as its view and carries no recommendation on its own (`DEC-2026-10-30-01`). No design choice is made here; that is I3's job. The design lens applies throughout: each test, document, deadline and verification step must earn its place against its burden (`DEC-2026-11-09-13`).
 
 ## In brief
 

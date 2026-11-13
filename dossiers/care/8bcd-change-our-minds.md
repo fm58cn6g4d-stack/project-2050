@@ -1,6 +1,6 @@
 # Care you can count on, parts B-D (long-term care, child care and pre-K, the care workforce): what would change our minds
 
-Role: section 8 of the care dossier for parts B, C and D. For each decided choice, the finding that would change it and what we would do instead; the political and legal events that would force a fallback; the hard stops; and when the evidence arrives. Status: draft (stage D, board row D-9, PR 2), on `DEC-2026-11-11-02` to `-06`. A change to a decided choice goes back to Espen; the triggers below say when to ask.
+Role: section 8 of the care dossier for parts B, C and D. For each decided choice, the finding that would change it and what we would do instead; the political and legal events that would force a fallback; the hard stops; and when the evidence arrives. Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README), on `DEC-2026-11-11-02` to `-06`. A change to a decided choice goes back to Espen; the triggers below say when to ask.
 
 ## By choice
 

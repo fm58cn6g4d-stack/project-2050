@@ -1,6 +1,6 @@
 # Care you can count on, parts B-D (long-term care, child care and pre-K, the care workforce): the public case
 
-Role: section 9 of the care dossier for parts B, C and D: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: draft (stage D, board row D-9, PR 2), on `DEC-2026-11-11-02` to `-06`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about". Each promise is dated from when its provision starts.
+Role: section 9 of the care dossier for parts B, C and D: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README), on `DEC-2026-11-11-02` to `-06`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about". Each promise is dated from when its provision starts.
 
 ## The brief
 

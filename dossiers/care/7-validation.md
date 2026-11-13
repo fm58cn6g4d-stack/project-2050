@@ -1,6 +1,6 @@
 # Care you can count on, part A (health): validation
 
-Role: section 7 of the care dossier, health part: the model runs behind sections 4-6, how they compare with outside estimates, what they miss, who the design reaches, the strongest objections and the signs of failure. Status: draft (stage D, step 4, PR 2), on `DEC-2026-11-10-09`, `-11` and `-12`. Figures marked "project arithmetic" come from `tools/health_path.py` on the coverage model (`models/tools/health-coverage/`, exploratory).
+Role: section 7 of the care dossier, health part: the model runs behind sections 4-6, how they compare with outside estimates, what they miss, who the design reaches, the strongest objections and the signs of failure. Status: reviewed at L3 (health, `review-milestone.md`; see the README), on `DEC-2026-11-10-09`, `-11` and `-12`. Figures marked "project arithmetic" come from `tools/health_path.py` on the coverage model (`models/tools/health-coverage/`, exploratory).
 
 ## 1. Against outside figures
 
