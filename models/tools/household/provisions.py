@@ -9,7 +9,8 @@ the shares of the amount falling on each income quintile and on the top 1%. This
   * `model`: for each key `keys.csv` marks `micro`, the shares are measured on the 2029 baseline households (a
     household field, or a provision rule from `rules.py` computed tax unit by tax unit); the rest keep the legacy key.
 The arithmetic after the keys is the legacy model's, so with `legacy` keys and its 140 million households this module
-reproduces `legacy/index/revenue-household-incidence-model.md` exactly (tested).
+reproduces the retired legacy incidence model's last results exactly (tested against `test-data/`); `d3.py` builds
+the D3 report and the budget model's readers on it.
 """
 import csv
 import json

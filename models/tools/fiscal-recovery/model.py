@@ -163,13 +163,9 @@ def run():
         accounting[name]=dict(outlays_tn=out,payroll_tn=pay,grants_tn=grants,offset_tn=off,protection_tn=protect,
             net_gf_relief_tn=oldcost-grants-off-protect,unified_improvement_tn=pay-(out-oldcost)-off-protect)
     # Household diagnostic: preserve old benefit rows; add ONLY the new spending increment and full worker tax incidence.
-    before=os.getcwd()
-    try:
-        os.chdir(ROOT/'build')
-        inc=module('incidence',ROOT/'build/incidence.py'); sys.modules['incidence']=inc
-        yrs=module('recovery_years',ROOT/'build/years.py')
-        old_inc=yrs.series(inc.QO)
-    finally: os.chdir(before)
+    sys.path.insert(0,str(ROOT/'models/tools/household')); import d3   # the D3 test, legacy version (replaced incidence.py)
+    inc=d3.D3.load(str(ROOT/'build/ledger.json'))
+    old_inc=inc.series(inc.QO)
     by={r['year']:r for r in bridge}
     incidence={}
     for y in W:
@@ -243,8 +239,8 @@ def run():
             maturity_pass=all(gf[y]<=0 for y in range(2040,2057)),years=paths))
     for scenario in scenarios: scenario.update(F.CL.disclosure())
     files=['models/tools/climate-integration.py','models/data/inputs/climate-adoption.json','legacy/sources/climate-portfolio-pricing.json','models/tools/fiscal-recovery/model.py','models/tools/fiscal-recovery/assumptions.json','models/data/inputs/education-adoption.json',
-        'models/tools/fiscal-model.py','models/tools/funds-model.py','models/tools/incidence-model.py',
-        'models/tools/incidence-years.py','models/tools/inputs.py','models/tools/fiscal-profiles.py',
+        'models/tools/fiscal-model.py','models/tools/funds-model.py','models/tools/household/d3.py',
+        'models/tools/household/provisions.py','models/tools/inputs.py','models/tools/fiscal-profiles.py',
         'models/data/fiscal-baseline.csv','build/ledger.json','build/fiscal-model.json',
         'legacy/sources/strategic-review-arithmetic.json','legacy/sources/education-transforming-education-act-analysis-and-trust-fund.md']
     files += [str(p.relative_to(ROOT)) for p in sorted((ROOT/'models/data/inputs').glob('*.csv'))]

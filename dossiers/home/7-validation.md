@@ -171,7 +171,7 @@ The stored national run (`legacy/sources/family-comparison-model-checks.md`) com
 
 ### 2.4 What the incidence model can say
 
-- The D3 screen counts housing as $0.56 trillion, 60% to the bottom fifth (`legacy/index/revenue-household-incidence-model.md`). It does not include HOU-4D, stage 3 or section 6's new paths.
+- The D3 screen counted housing as $0.56 trillion, 60% to the bottom fifth (`legacy/index/revenue-household-incidence-model.md`, the retired legacy report). The household model's D3 report (`models/tools/household/results.md`, sections 5 and 8) now measures housing's key on today's assisted households, 93% to the bottom fifth, with the 60% key as a stated sensitivity. It does not include HOU-4D, stage 3 or section 6's new paths.
 - **Its housing key treats every dollar as a benefit to tenants.** Two parts are not: tax credits, where developers keep about half the subsidy in profit and another quarter goes to competing for awards [EV-HOU-276]; and any part of voucher spending that raises market rents for unassisted renters (section 5.1 below) [EV-HOU-397]. For D3 this changes little, since housing's share of the package is small and both effects fall mostly outside the fourth quintile, but the housing row's bottom-fifth benefit is overstated (judgment).
 
 ### 2.5 What the models miss

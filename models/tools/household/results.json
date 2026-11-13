@@ -3347,6 +3347,838 @@
    "states": 51
   }
  },
+ "d3": {
+  "ledger_summary": {
+   "dynamic_hi": 0.64,
+   "dynamic_lo": -1.36,
+   "dynamic_mid": -0.33,
+   "dynamic_optimistic": 1.12,
+   "gap_after_accepted": 22.56,
+   "gap_mid": 27.07
+  },
+  "legacy": {
+   "gf": {
+    "A": [
+     6.37,
+     3.02,
+     2.46,
+     86
+    ],
+    "Q": [
+     9.58,
+     4.82,
+     2.46,
+     76
+    ],
+    "Q-C19": [
+     9.72,
+     4.82,
+     2.46,
+     75
+    ],
+    "Q-EDU": [
+     8.75,
+     4.45,
+     2.46,
+     79
+    ],
+    "Q-H7": [
+     14.41,
+     4.94,
+     2.46,
+     51
+    ],
+    "Q-SAF": [
+     9.58,
+     4.82,
+     2.46,
+     76
+    ]
+   },
+   "q4_items": [
+    {
+     "id": "C1",
+     "label": "Carbon fee (domestic)",
+     "per_q4_household": 1629,
+     "side": "cost"
+    },
+    {
+     "id": "E2d",
+     "label": "Climate Dividend (CLI-2, 80%, per adult)",
+     "per_q4_household": 1165,
+     "side": "benefit"
+    },
+    {
+     "id": "P1",
+     "label": "Paid-leave contribution 0.6%",
+     "per_q4_household": 964,
+     "side": "cost"
+    },
+    {
+     "id": "F3",
+     "label": "Paid leave benefits (FAM-3)",
+     "per_q4_household": 900,
+     "side": "benefit"
+    },
+    {
+     "id": "F1",
+     "label": "Child Tax Credit (FAM-1)",
+     "per_q4_household": 834,
+     "side": "benefit"
+    },
+    {
+     "id": "G1",
+     "label": "Corporate rate to 28%",
+     "per_q4_household": 737,
+     "side": "cost"
+    },
+    {
+     "id": "F2",
+     "label": "Child care and pre-K (FAM-2)",
+     "per_q4_household": 689,
+     "side": "benefit"
+    },
+    {
+     "id": "EDU",
+     "label": "Education formula funding and higher education (EDU-1, EDU-5)",
+     "per_q4_household": 395,
+     "side": "benefit"
+    },
+    {
+     "id": "MR",
+     "label": "Moving America fuel steps and per-mile charge",
+     "per_q4_household": 366,
+     "side": "cost"
+    },
+    {
+     "id": "C38",
+     "label": "Top-end sprint package REV-TS1 to TS11, net of a 10% haircut (corporate items on the 25/75 convention)",
+     "per_q4_household": 318,
+     "side": "cost"
+    },
+    {
+     "id": "H2",
+     "label": "Medicare upgrades and no disability wait, gross of premiums (HLT-2)",
+     "per_q4_household": 292,
+     "side": "benefit"
+    },
+    {
+     "id": "O1",
+     "label": "SS tax above $250K (SS-1)",
+     "per_q4_household": 262,
+     "side": "cost"
+    },
+    {
+     "id": "EDU3",
+     "label": "Universal school meals and Summer EBT (EDU-3)",
+     "per_q4_household": 251,
+     "side": "benefit"
+    },
+    {
+     "id": "E1h",
+     "label": "Clean-energy credits, household share (30% of CLI-1)",
+     "per_q4_household": 227,
+     "side": "benefit"
+    },
+    {
+     "id": "C1P",
+     "label": "Process-emissions fee: full consumer pass-through proxy",
+     "per_q4_household": 209,
+     "side": "cost"
+    },
+    {
+     "id": "C19b",
+     "label": "Cap the employer health exclusion at the 75th percentile (CBO alt. 2, scaled)",
+     "per_q4_household": 192,
+     "side": "cost"
+    },
+    {
+     "id": "G7",
+     "label": "Foreign income at full rate",
+     "per_q4_household": 183,
+     "side": "cost"
+    },
+    {
+     "id": "G5",
+     "label": "Buyback tax 4%, corporate minimum 21%",
+     "per_q4_household": 179,
+     "side": "cost"
+    },
+    {
+     "id": "C18",
+     "label": "Top four brackets +1, gains +2, LIFO",
+     "per_q4_household": 177,
+     "side": "cost"
+    },
+    {
+     "id": "G10",
+     "label": "Financial transaction tax",
+     "per_q4_household": 171,
+     "side": "cost"
+    },
+    {
+     "id": "E12",
+     "label": "AI and work transition support (AI-4)",
+     "per_q4_household": 157,
+     "side": "benefit"
+    },
+    {
+     "id": "C20",
+     "label": "1-point surtax above $100K/$200K",
+     "per_q4_household": 144,
+     "side": "cost"
+    },
+    {
+     "id": "CB1",
+     "label": "Combustion fee reduction from Package A abatement",
+     "per_q4_household": -121,
+     "side": "cost"
+    },
+    {
+     "id": "G8",
+     "label": "IRS enforcement",
+     "per_q4_household": 114,
+     "side": "cost"
+    },
+    {
+     "id": "MRc",
+     "label": "Moving America truck, rail and aviation charges",
+     "per_q4_household": 109,
+     "side": "cost"
+    }
+   ],
+   "scenario_q": "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, C39-C41 and C43",
+   "years": {
+    "Q": {
+     "2030": {
+      "Q1": 5818,
+      "Q2": 3462,
+      "Q3": 1276,
+      "Q4": -1343,
+      "Q5": -42723
+     },
+     "2031": {
+      "Q1": 7003,
+      "Q2": 4742,
+      "Q3": 2323,
+      "Q4": -567,
+      "Q5": -43933
+     },
+     "2032": {
+      "Q1": 8196,
+      "Q2": 5662,
+      "Q3": 2780,
+      "Q4": -597,
+      "Q5": -45461
+     },
+     "2033": {
+      "Q1": 9359,
+      "Q2": 6746,
+      "Q3": 3526,
+      "Q4": -274,
+      "Q5": -46765
+     },
+     "2034": {
+      "Q1": 10224,
+      "Q2": 7573,
+      "Q3": 4157,
+      "Q4": 70,
+      "Q5": -48026
+     },
+     "2035": {
+      "Q1": 9233,
+      "Q2": 6920,
+      "Q3": 3750,
+      "Q4": -272,
+      "Q5": -49763
+     },
+     "2036": {
+      "Q1": 9138,
+      "Q2": 6838,
+      "Q3": 3623,
+      "Q4": -509,
+      "Q5": -51743
+     },
+     "2037": {
+      "Q1": 9604,
+      "Q2": 7181,
+      "Q3": 3769,
+      "Q4": -592,
+      "Q5": -53931
+     },
+     "2038": {
+      "Q1": 9955,
+      "Q2": 7441,
+      "Q3": 3908,
+      "Q4": -610,
+      "Q5": -56075
+     },
+     "2039": {
+      "Q1": 10363,
+      "Q2": 7767,
+      "Q3": 4114,
+      "Q4": -574,
+      "Q5": -58237
+     }
+    },
+    "Q-C19": {
+     "2030": {
+      "Q1": 5818,
+      "Q2": 3462,
+      "Q3": 1276,
+      "Q4": -1343,
+      "Q5": -42723
+     },
+     "2031": {
+      "Q1": 6985,
+      "Q2": 4656,
+      "Q3": 2117,
+      "Q4": -851,
+      "Q5": -44199
+     },
+     "2032": {
+      "Q1": 8160,
+      "Q2": 5485,
+      "Q3": 2355,
+      "Q4": -1182,
+      "Q5": -46010
+     },
+     "2033": {
+      "Q1": 9328,
+      "Q2": 6593,
+      "Q3": 3159,
+      "Q4": -778,
+      "Q5": -47238
+     },
+     "2034": {
+      "Q1": 10207,
+      "Q2": 7488,
+      "Q3": 3953,
+      "Q4": -211,
+      "Q5": -48289
+     },
+     "2035": {
+      "Q1": 9229,
+      "Q2": 6904,
+      "Q3": 3710,
+      "Q4": -327,
+      "Q5": -49815
+     },
+     "2036": {
+      "Q1": 9138,
+      "Q2": 6838,
+      "Q3": 3623,
+      "Q4": -509,
+      "Q5": -51743
+     },
+     "2037": {
+      "Q1": 9604,
+      "Q2": 7181,
+      "Q3": 3769,
+      "Q4": -592,
+      "Q5": -53931
+     },
+     "2038": {
+      "Q1": 9955,
+      "Q2": 7441,
+      "Q3": 3908,
+      "Q4": -610,
+      "Q5": -56075
+     },
+     "2039": {
+      "Q1": 10363,
+      "Q2": 7767,
+      "Q3": 4114,
+      "Q4": -574,
+      "Q5": -58237
+     }
+    },
+    "Q-EDU": {
+     "2030": {
+      "Q1": 5671,
+      "Q2": 2914,
+      "Q3": 245,
+      "Q4": -2945,
+      "Q5": -43936
+     },
+     "2031": {
+      "Q1": 7044,
+      "Q2": 4457,
+      "Q3": 1639,
+      "Q4": -1809,
+      "Q5": -44836
+     },
+     "2032": {
+      "Q1": 8501,
+      "Q2": 5726,
+      "Q3": 2521,
+      "Q4": -1416,
+      "Q5": -46011
+     },
+     "2033": {
+      "Q1": 9795,
+      "Q2": 6913,
+      "Q3": 3284,
+      "Q4": -1166,
+      "Q5": -47404
+     },
+     "2034": {
+      "Q1": 10661,
+      "Q2": 7664,
+      "Q3": 3706,
+      "Q4": -1132,
+      "Q5": -48948
+     },
+     "2035": {
+      "Q1": 9670,
+      "Q2": 6934,
+      "Q3": 3088,
+      "Q4": -1787,
+      "Q5": -50972
+     },
+     "2036": {
+      "Q1": 9589,
+      "Q2": 6832,
+      "Q3": 2887,
+      "Q4": -2150,
+      "Q5": -53061
+     },
+     "2037": {
+      "Q1": 10074,
+      "Q2": 7175,
+      "Q3": 3004,
+      "Q4": -2299,
+      "Q5": -55302
+     },
+     "2038": {
+      "Q1": 10443,
+      "Q2": 7435,
+      "Q3": 3112,
+      "Q4": -2385,
+      "Q5": -57500
+     },
+     "2039": {
+      "Q1": 10871,
+      "Q2": 7760,
+      "Q3": 3287,
+      "Q4": -2420,
+      "Q5": -59720
+     }
+    }
+   }
+  },
+  "model": {
+   "gf": {
+    "A": [
+     6.37,
+     3.02,
+     2.46,
+     86
+    ],
+    "Q": [
+     9.58,
+     4.82,
+     2.46,
+     76
+    ],
+    "Q-C19": [
+     9.72,
+     4.82,
+     2.46,
+     75
+    ],
+    "Q-EDU": [
+     8.75,
+     4.45,
+     2.46,
+     79
+    ],
+    "Q-H7": [
+     14.41,
+     4.94,
+     2.46,
+     51
+    ],
+    "Q-SAF": [
+     9.58,
+     4.82,
+     2.46,
+     76
+    ]
+   },
+   "q4_items": [
+    {
+     "id": "C1",
+     "label": "Carbon fee (domestic)",
+     "per_q4_household": 1550,
+     "side": "cost"
+    },
+    {
+     "id": "E2d",
+     "label": "Climate Dividend (CLI-2, 80%, per adult)",
+     "per_q4_household": 1122,
+     "side": "benefit"
+    },
+    {
+     "id": "F3",
+     "label": "Paid leave benefits (FAM-3)",
+     "per_q4_household": 857,
+     "side": "benefit"
+    },
+    {
+     "id": "F1",
+     "label": "Child Tax Credit (FAM-1)",
+     "per_q4_household": 845,
+     "side": "benefit"
+    },
+    {
+     "id": "P1",
+     "label": "Paid-leave contribution 0.6%",
+     "per_q4_household": 838,
+     "side": "cost"
+    },
+    {
+     "id": "G1",
+     "label": "Corporate rate to 28%",
+     "per_q4_household": 669,
+     "side": "cost"
+    },
+    {
+     "id": "F2",
+     "label": "Child care and pre-K (FAM-2)",
+     "per_q4_household": 656,
+     "side": "benefit"
+    },
+    {
+     "id": "EDU",
+     "label": "Education formula funding and higher education (EDU-1, EDU-5)",
+     "per_q4_household": 376,
+     "side": "benefit"
+    },
+    {
+     "id": "MR",
+     "label": "Moving America fuel steps and per-mile charge",
+     "per_q4_household": 348,
+     "side": "cost"
+    },
+    {
+     "id": "C38",
+     "label": "Top-end sprint package REV-TS1 to TS11, net of a 10% haircut (corporate items on the 25/75 convention)",
+     "per_q4_household": 290,
+     "side": "cost"
+    },
+    {
+     "id": "H2",
+     "label": "Medicare upgrades and no disability wait, gross of premiums (HLT-2)",
+     "per_q4_household": 251,
+     "side": "benefit"
+    },
+    {
+     "id": "O1",
+     "label": "SS tax above $250K (SS-1)",
+     "per_q4_household": 250,
+     "side": "cost"
+    },
+    {
+     "id": "EDU3",
+     "label": "Universal school meals and Summer EBT (EDU-3)",
+     "per_q4_household": 239,
+     "side": "benefit"
+    },
+    {
+     "id": "E1h",
+     "label": "Clean-energy credits, household share (30% of CLI-1)",
+     "per_q4_household": 216,
+     "side": "benefit"
+    },
+    {
+     "id": "C1P",
+     "label": "Process-emissions fee: full consumer pass-through proxy",
+     "per_q4_household": 199,
+     "side": "cost"
+    },
+    {
+     "id": "C19b",
+     "label": "Cap the employer health exclusion at the 75th percentile (CBO alt. 2, scaled)",
+     "per_q4_household": 183,
+     "side": "cost"
+    },
+    {
+     "id": "C18",
+     "label": "Top four brackets +1, gains +2, LIFO",
+     "per_q4_household": 169,
+     "side": "cost"
+    },
+    {
+     "id": "G7",
+     "label": "Foreign income at full rate",
+     "per_q4_household": 166,
+     "side": "cost"
+    },
+    {
+     "id": "G10",
+     "label": "Financial transaction tax",
+     "per_q4_household": 163,
+     "side": "cost"
+    },
+    {
+     "id": "G5",
+     "label": "Buyback tax 4%, corporate minimum 21%",
+     "per_q4_household": 162,
+     "side": "cost"
+    },
+    {
+     "id": "E12",
+     "label": "AI and work transition support (AI-4)",
+     "per_q4_household": 150,
+     "side": "benefit"
+    },
+    {
+     "id": "CB1",
+     "label": "Combustion fee reduction from Package A abatement",
+     "per_q4_household": -116,
+     "side": "cost"
+    },
+    {
+     "id": "C20",
+     "label": "1-point surtax above $100K/$200K",
+     "per_q4_household": 110,
+     "side": "cost"
+    },
+    {
+     "id": "G8",
+     "label": "IRS enforcement",
+     "per_q4_household": 109,
+     "side": "cost"
+    },
+    {
+     "id": "F5",
+     "label": "Social Security minimum benefit and CPI-E (SS-3, SS-4)",
+     "per_q4_household": 106,
+     "side": "benefit"
+    }
+   ],
+   "scenario_q": "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, C39-C41 and C43",
+   "years": {
+    "Q": {
+     "2030": {
+      "Q1": 6524,
+      "Q2": 2805,
+      "Q3": 1260,
+      "Q4": -1179,
+      "Q5": -41311
+     },
+     "2031": {
+      "Q1": 7647,
+      "Q2": 3967,
+      "Q3": 2321,
+      "Q4": -408,
+      "Q5": -42499
+     },
+     "2032": {
+      "Q1": 8797,
+      "Q2": 4825,
+      "Q3": 2774,
+      "Q4": -423,
+      "Q5": -43981
+     },
+     "2033": {
+      "Q1": 9950,
+      "Q2": 5813,
+      "Q3": 3489,
+      "Q4": -105,
+      "Q5": -45238
+     },
+     "2034": {
+      "Q1": 10817,
+      "Q2": 6562,
+      "Q3": 4097,
+      "Q4": 233,
+      "Q5": -46462
+     },
+     "2035": {
+      "Q1": 9942,
+      "Q2": 5927,
+      "Q3": 3716,
+      "Q4": -72,
+      "Q5": -48198
+     },
+     "2036": {
+      "Q1": 9908,
+      "Q2": 5820,
+      "Q3": 3604,
+      "Q4": -285,
+      "Q5": -50133
+     },
+     "2037": {
+      "Q1": 10400,
+      "Q2": 6112,
+      "Q3": 3753,
+      "Q4": -353,
+      "Q5": -52252
+     },
+     "2038": {
+      "Q1": 10771,
+      "Q2": 6330,
+      "Q3": 3896,
+      "Q4": -362,
+      "Q5": -54317
+     },
+     "2039": {
+      "Q1": 11199,
+      "Q2": 6614,
+      "Q3": 4100,
+      "Q4": -318,
+      "Q5": -56407
+     }
+    },
+    "Q-C19": {
+     "2030": {
+      "Q1": 6524,
+      "Q2": 2805,
+      "Q3": 1260,
+      "Q4": -1179,
+      "Q5": -41311
+     },
+     "2031": {
+      "Q1": 7630,
+      "Q2": 3885,
+      "Q3": 2125,
+      "Q4": -678,
+      "Q5": -42752
+     },
+     "2032": {
+      "Q1": 8763,
+      "Q2": 4656,
+      "Q3": 2369,
+      "Q4": -980,
+      "Q5": -44504
+     },
+     "2033": {
+      "Q1": 9921,
+      "Q2": 5668,
+      "Q3": 3140,
+      "Q4": -585,
+      "Q5": -45689
+     },
+     "2034": {
+      "Q1": 10801,
+      "Q2": 6481,
+      "Q3": 3903,
+      "Q4": -35,
+      "Q5": -46713
+     },
+     "2035": {
+      "Q1": 9939,
+      "Q2": 5911,
+      "Q3": 3678,
+      "Q4": -125,
+      "Q5": -48248
+     },
+     "2036": {
+      "Q1": 9908,
+      "Q2": 5820,
+      "Q3": 3604,
+      "Q4": -285,
+      "Q5": -50133
+     },
+     "2037": {
+      "Q1": 10400,
+      "Q2": 6112,
+      "Q3": 3753,
+      "Q4": -353,
+      "Q5": -52252
+     },
+     "2038": {
+      "Q1": 10771,
+      "Q2": 6330,
+      "Q3": 3896,
+      "Q4": -362,
+      "Q5": -54317
+     },
+     "2039": {
+      "Q1": 11199,
+      "Q2": 6614,
+      "Q3": 4100,
+      "Q4": -318,
+      "Q5": -56407
+     }
+    },
+    "Q-EDU": {
+     "2030": {
+      "Q1": 6462,
+      "Q2": 2418,
+      "Q3": 421,
+      "Q4": -2578,
+      "Q5": -42946
+     },
+     "2031": {
+      "Q1": 7767,
+      "Q2": 3835,
+      "Q3": 1817,
+      "Q4": -1459,
+      "Q5": -43857
+     },
+     "2032": {
+      "Q1": 9171,
+      "Q2": 5030,
+      "Q3": 2681,
+      "Q4": -1066,
+      "Q5": -45023
+     },
+     "2033": {
+      "Q1": 10452,
+      "Q2": 6122,
+      "Q3": 3418,
+      "Q4": -813,
+      "Q5": -46386
+     },
+     "2034": {
+      "Q1": 11323,
+      "Q2": 6804,
+      "Q3": 3834,
+      "Q4": -764,
+      "Q5": -47900
+     },
+     "2035": {
+      "Q1": 10454,
+      "Q2": 6103,
+      "Q3": 3258,
+      "Q4": -1362,
+      "Q5": -49932
+     },
+     "2036": {
+      "Q1": 10436,
+      "Q2": 5984,
+      "Q3": 3082,
+      "Q4": -1687,
+      "Q5": -51994
+     },
+     "2037": {
+      "Q1": 10949,
+      "Q2": 6283,
+      "Q3": 3211,
+      "Q4": -1812,
+      "Q5": -54187
+     },
+     "2038": {
+      "Q1": 11342,
+      "Q2": 6508,
+      "Q3": 3332,
+      "Q4": -1879,
+      "Q5": -56330
+     },
+     "2039": {
+      "Q1": 11793,
+      "Q2": 6798,
+      "Q3": 3513,
+      "Q4": -1896,
+      "Q5": -58500
+     }
+    }
+   }
+  }
+ },
  "families": {
   "married_2": {
    "current": [

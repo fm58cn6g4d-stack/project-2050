@@ -318,11 +318,8 @@ def household_diagnostic(d,f,b,m,u):
     """Reconcile changed household rows; estimates of incidence, not microsimulation.
     Does not value unspecified delivery/admin money as household cash or certify D3.
     """
-    before=os.getcwd()
-    try:
-        os.chdir(ROOT/'build'); inc=module('incidence',ROOT/'build/incidence.py')
-        years=module('rb_incidence_years',ROOT/'build/years.py')
-    finally: os.chdir(before)
+    sys.path.insert(0,str(ROOT/'models/tools/household')); import d3   # the D3 test, legacy version (replaced incidence.py)
+    inc=years=d3.D3.load(str(ROOT/'build/ledger.json'))
     output={}; keys={k:inc.K[k][0] for k in inc.K}
     # Broad-income allocation is a stated author assumption, not IRS microdata.
     keys['broad_income']=[1,5,12,24,58]

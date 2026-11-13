@@ -34,15 +34,17 @@ def combine(paths):
     return {y:sum(p[y] for p in paths) for y in range(2026,2057)}
 
 
+def load_d3(ledger):
+    """The D3 test's legacy version, from the household model (`models/tools/household/d3.py`)."""
+    sys.path.insert(0, str(ROOT / 'models/tools/household'))
+    import d3
+    return d3.D3.load(str(ledger))
+
+
 def analyze():
     fiscal=module('family_finance_fiscal',TOOLS/'fiscal-model.py')
-    # Existing incidence reader expects the generated ledger in its working directory.
-    previous=os.getcwd()
-    try:
-        os.chdir(ROOT/'build')
-        incidence=module('incidence',ROOT/'build/incidence.py')
-        years_module=module('years',ROOT/'build/years.py')
-    finally:os.chdir(previous)
+    # The D3 test, legacy version (the household model's d3.py, which replaced incidence.py and years.py)
+    incidence=years_module=load_d3(ROOT/'build/ledger.json')
     baseline=fiscal.read_baseline(ROOT/'models/data/fiscal-baseline.csv')
     model=json.loads((ROOT/'build/fiscal-model.json').read_text())['results']['DEC']
     ledger=json.loads((ROOT/'build/ledger.json').read_text())
@@ -93,7 +95,7 @@ def analyze():
         thresholds[name]=dict(required_2030_39_tn_at_assumed_profile=max(0,needed),
                               basis='Break-even calculation under current working paths, not a tax score')
     files=['models/tools/family-financing.py','models/tools/fiscal-model.py','models/tools/fiscal-profiles.py',
-           'models/tools/incidence-model.py','models/tools/incidence-years.py','models/data/inputs/ledger-bills.csv',
+           'models/tools/household/d3.py','models/tools/household/provisions.py','models/data/inputs/ledger-bills.csv',
            'models/data/inputs/ledger-revenue.csv','models/data/inputs/ledger-cuts.csv',
            'models/data/inputs/fiscal-profiles.csv','models/data/inputs/fiscal-components.csv',
            'models/data/inputs/incidence-keys.csv','models/data/inputs/incidence-rows.csv',
