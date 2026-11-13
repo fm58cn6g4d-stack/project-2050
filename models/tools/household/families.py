@@ -129,3 +129,101 @@ def cliffs(year=2029):
     """Where help ends at a line instead of phasing out (shares of poverty)."""
     return [("Medicaid for adults in expansion states", "138%"), ("SNAP's gross income test, without the broad option", "130%"),
             ("The premium tax credit", "400%"), ("CHIP and Medicaid for children", "state lines, usually 200-300%")]
+
+
+# ---- The 65-cent ceiling check (INC-5.02, shared rule 2): every plan layer -------------------------------------------
+# The plan's layers on a typical family's added dollar, from the dossiers' decided designs:
+#   * payroll: the employee's 7.65%, plus paid leave's worker share (FAM-3.04: 0.3% from 2030, up to 0.55% at the
+#     1.10% ceiling);
+#   * income tax: 2029 law, with FAM-1's child benefit in place of section 24 (`rules.afa_child_benefit`) and, for the
+#     single adult, INC-1.01's childless credit; INC-1.02 changes nothing for these families;
+#   * SNAP on federal rules: INC-2 restores the rules before P.L. 119-21, which for these families' rates are the
+#     rules `snap` already applies; INC-5.01 keeps the child benefit out of SNAP's income; with and without the excess
+#     shelter deduction;
+#   * the premium tax credit, for a family on the marketplace, in 2030-34 only: the single plan (HLT-7) ends it from
+#     2035 and charges no premium; its copays start at 200% of poverty (HLT-7.06), a line, listed with the cliffs;
+#   * child care's charge (FAM-2.01, full from July 2032) for the child under 5, net of INC-4's refundable credit on the
+#     charge: free at or below 85% of state median income, rising to 7% of income at 150%. Where that line falls
+#     depends on the state; the check uses the lowest state median income the CPS gives (`low_smi4`), where the charge
+#     reaches furthest down. In a typical state the charge starts above 300% of poverty for these families.
+# Housing's 30% rent rule is outside the ceiling (INC-5.02).
+CEILING = 65.0
+CEILING_POINTS = tuple(x / 100 for x in range(50, 301, 25))
+LEAVE_WORKER = (0.003, 0.0055)          # FAM-3.04: half of 0.6% at the start, half of the 1.10% ceiling
+SMI_SIZE = {1: 0.52, 2: 0.68, 3: 0.84, 4: 1.00, 5: 1.16, 6: 1.32}
+
+
+def care_charge(income, size, smi4):
+    """FAM-2.01's charge for a child under 5: 0 at or below 85% of state median income for the family's size, then a
+    rate rising in a straight line to 7% at 150% (care's working choice), 7% above."""
+    x = income / (smi4 * SMI_SIZE[size])
+    return 0.07 * income * min(max((x - 0.85) / 0.65, 0.0), 1.0)
+
+
+def care_credit_rate(agi, fs):
+    """Section 21's rate as P.L. 119-21 left it (INC-4 makes it refundable)."""
+    r = max(50 - -(-max(agi - 15000, 0) // 2000), 35)
+    start, step = (150000, 4000) if fs == "joint" else (75000, 2000)
+    return max(r - -(-max(agi - start, 0) // step), 20) / 100
+
+
+def plan_budget(f, earnings, period="2035", shelter=0.0, marketplace=False, smi4=None, leave=LEAVE_WORKER[0]):
+    """A family's budget under every plan layer (above). `period` is "2030-34" (the premium credit still runs) or
+    "2035" (the single plan); `smi4` the state median income for four (None: no paid care for the child under 5)."""
+    L = law(2029)
+    b = budget(f, earnings, 2029, shelter=shelter, marketplace=marketplace and period == "2030-34", plan=True)
+    t = unit_tax(unit(f, earnings), L)
+    b["payroll"] += leave * earnings
+    charge = 0.0
+    if smi4 and f["kids_u6"]:
+        gross = care_charge(t["agi"], f["size"], smi4)
+        charge = gross - care_credit_rate(t["agi"], t["fs"]) * min(gross, 3000)
+    b["care"] = charge
+    b["net"] = earnings - b["payroll"] - b["income_tax"] + b["snap"] - b["ptc_contribution"] - charge
+    return b
+
+
+def plan_rates(f, step=1000, points=CEILING_POINTS, **kw):
+    L = law(2029)
+    out = []
+    for p in points:
+        e = p * fpl(L, f["size"])
+        a, b = plan_budget(f, e, **kw), plan_budget(f, e + step, **kw)
+        r = {k: round(100 * (b[k] - a[k]) / step, 1) for k in ("payroll", "income_tax", "care")}
+        r["snap"] = round(-100 * (b["snap"] - a["snap"]) / step, 1)
+        r["ptc"] = round(100 * (b["ptc_contribution"] - a["ptc_contribution"]) / step, 1)
+        out.append({"pct_poverty": round(100 * p), "earnings": round(e), **r,
+                    "total": round(100 * (1 - (b["net"] - a["net"]) / step), 1)})
+    return out
+
+
+CEILING_CASES = [
+    ("2035 on, no shelter deduction", {"period": "2035"}),
+    ("2035 on, with a $1,400 rent in SNAP's shelter deduction", {"period": "2035", "shelter": 1400 * 1.107}),
+    ("2030-34 on the marketplace, no shelter deduction", {"period": "2030-34", "marketplace": True}),
+    ("2030-34 on the marketplace, with the rent", {"period": "2030-34", "marketplace": True, "shelter": 1400 * 1.107}),
+]
+
+
+def ceiling_check(low_smi4, mid_smi4):
+    """INC-5.02's test for each family and case: the highest combined rate at 50-300% of poverty, where it falls, and
+    whether it is at or below 65 cents. A step that crosses a line (a figure above 100, or a fall in SNAP to zero) is a
+    cliff, reported apart, not a rate."""
+    res = {}
+    for k, f in FAMILIES.items():
+        res[k] = {}
+        for label, kw in CEILING_CASES:
+            for smi_label, smi in (("lowest-income state", low_smi4), ("typical state", mid_smi4)):
+                rows = plan_rates(f, smi4=smi, **kw)
+                rates_ = [r for r in rows if r["total"] <= 100]
+                cliffs = [r["pct_poverty"] for r in rows if r["total"] > 100]
+                top = max(rates_, key=lambda r: r["total"])
+                res[k][f"{label} | {smi_label}"] = {
+                    "rows": rows, "max": top["total"], "at": top["pct_poverty"], "cliffs": cliffs,
+                    "over": [r["pct_poverty"] for r in rates_ if r["total"] > CEILING], "pass": top["total"] <= CEILING}
+            # paid leave at its 1.10% ceiling, the lowest-income state
+            rows = plan_rates(f, smi4=low_smi4, leave=LEAVE_WORKER[1], **kw)
+            top = max((r for r in rows if r["total"] <= 100), key=lambda r: r["total"])
+            res[k][f"{label} | leave at its ceiling"] = {"max": top["total"], "at": top["pct_poverty"],
+                                                         "pass": top["total"] <= CEILING}
+    return res
