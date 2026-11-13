@@ -82,8 +82,9 @@ class SecureFloorBooking(unittest.TestCase):
 
     def test_totals_are_section_6s(self):
         t = self.b["totals"]
-        self.assertEqual(round(t["dossier_window"] * 1000), 2626)
-        self.assertEqual(round(t["dossier_fy2040"]), 303)
+        # 2,626 and 303 until INC-4 was rescoped to care no other program pays for (Espen, November 13, option B)
+        self.assertEqual(round(t["dossier_window"] * 1000), 2587)
+        self.assertEqual(round(t["dossier_fy2040"]), 298)
         self.assertEqual(round(t["before_window"] * 1000), 2000)
         # The booking: part 1 less the benefit's rounding to $1.85T, plus B-1 and M-1
         self.assertAlmostEqual(t["booked_window"], t["dossier_window"] + t["b1_m1_window"] - (1.9 - 0.0477 - 1.85), places=2)
