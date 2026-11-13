@@ -8,20 +8,20 @@
 
 ## 1. Headline numbers
 
-Current values from this run: general-fund claims $37.66T; top-end base $10.59T; ten-year gap $27.07T; gap after accepted options +22.56T; accepted revenue $3.21T; envelope borrowing $1.30T; legacy Senate floor days under F 172; legacy assumed floor-day budget 163; DEC ten-year general-fund deficit $24.11T; DEC total debt, 2056 373.0%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$-527.
+Current values from this run: general-fund claims $37.79T; top-end base $10.59T; ten-year gap $27.20T; gap after accepted options +22.69T; accepted revenue $3.21T; envelope borrowing $1.30T; legacy Senate floor days under F 172; legacy assumed floor-day budget 163; DEC ten-year general-fund deficit $24.25T; DEC total debt, 2056 373.8%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$-483.
 
 | File | Line | Figure | Quoted | This run |
 | --- | --- | --- | --- | --- |
-| legacy/domains/domain-revenue.md | 12 | ten-year gap | gap of **$5.87T** | $27.07T |
-| legacy/domains/domain-revenue.md | 26 | general-fund claims | $11.72T claims | $37.66T |
-| legacy/domains/domain-revenue.md | 302 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-527 |
-| legacy/governing/project-2050-governing-decisions.md | 100 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-527 |
-| legacy/governing/project-2050-governing-decisions.md | 104 | ten-year gap | a $5.87T gap | $27.07T |
+| legacy/domains/domain-revenue.md | 12 | ten-year gap | gap of **$5.87T** | $27.20T |
+| legacy/domains/domain-revenue.md | 26 | general-fund claims | $11.72T claims | $37.79T |
+| legacy/domains/domain-revenue.md | 302 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-483 |
+| legacy/governing/project-2050-governing-decisions.md | 100 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-483 |
+| legacy/governing/project-2050-governing-decisions.md | 104 | ten-year gap | a $5.87T gap | $27.20T |
 | legacy/governing/project-2050-governing-decisions.md | 104 | top-end base | against a $5.85T top-end base | $10.59T |
-| legacy/index/revenue-assignment-audit.md | 72 | general-fund claims | $11.72T of claims | $37.66T |
-| legacy/index/revenue-assignment-audit.md | 118 | general-fund claims | $11.72T of claims | $37.66T |
-| legacy/index/revenue-assignment-audit.md | 176 | incidence scenario Q, fourth quintile | fourth quintile at about +$1,139 | +$-527 |
-| legacy/index/revenue-assignment-audit.md | 180 | ten-year gap | gap $5.87T | $27.07T |
+| legacy/index/revenue-assignment-audit.md | 72 | general-fund claims | $11.72T of claims | $37.79T |
+| legacy/index/revenue-assignment-audit.md | 118 | general-fund claims | $11.72T of claims | $37.79T |
+| legacy/index/revenue-assignment-audit.md | 176 | incidence scenario Q, fourth quintile | fourth quintile at about +$1,139 | +$-483 |
+| legacy/index/revenue-assignment-audit.md | 180 | ten-year gap | gap $5.87T | $27.20T |
 | legacy/index/revenue-assignment-audit.md | 180 | top-end base | base $5.85T | $10.59T |
 
 In dated passages (an "after X" note or a saved state). Usually history to leave alone, sometimes a state line to refresh or mark as dated:
@@ -29,8 +29,8 @@ In dated passages (an "after X" note or a saved state). Usually history to leave
 | File | Line | Figure | Quoted | This run |
 | --- | --- | --- | --- | --- |
 | legacy/index/revenue-assignment-audit.md | 134 | envelope borrowing | $1.15T of borrowing | $1.30T |
-| legacy/index/revenue-assignment-audit.md | 134 | general-fund claims | claims of $11.10T | $37.66T |
-| legacy/index/revenue-assignment-audit.md | 134 | ten-year gap | gap of $5.12T | $27.07T |
+| legacy/index/revenue-assignment-audit.md | 134 | general-fund claims | claims of $11.10T | $37.79T |
+| legacy/index/revenue-assignment-audit.md | 134 | ten-year gap | gap of $5.12T | $27.20T |
 
 ## 2. IDs
 

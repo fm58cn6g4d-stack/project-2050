@@ -377,7 +377,8 @@ def ceiling_markdown(R, A):
       f"{bd['single_parent_2'][CEILING_CASES[1][0]]['max']} cents: SNAP took 36 cents, not memo 7's 24, because each "
       "dollar also shrinks the shelter deduction, and FAM-1 replaces the child credit whose nonrefundable part today "
       "offsets the 10% bracket at these incomes (+10 cents). With the deduction at 45%, SNAP counts 55 cents of each "
-      "earned dollar, so it takes about 25 cents with the shelter deduction and about 17 without: the same family is at "
+      "earned dollar, so it takes about 17 cents, and up to about 25 where the shelter deduction still shrinks with "
+      "income (the married couple at 125%): the same family is at "
       f"payroll {r['payroll']}, income tax {r['income_tax']}, SNAP {r['snap']}, total **{r['total']}**.\n")
     mr = {x["pct_poverty"]: x for x in chk["married_2"][CEILING_CASES[3][0] + " | lowest-income state"]["rows"]}[125]
     A(f"**The one case still above the ceiling:** the married couple with two children and one earner, on the "

@@ -16,7 +16,7 @@ Project 2050's secure floor does four things, starting in 2030.
 
 **Social Security kept whole.** The retirement fund can pay full benefits only until late 2032 on current law, then 78% (Social Security Trustees, 2026) [EV-SEC-400]. The plan closes most of the gap by asking earnings above $250,000 and large investment incomes to pay in, and on our estimates a contribution increase of up to one point, split between workers and employers, is expected from the late 2030s to close most of the rest. On our estimates a small part of the 75-year gap, about a fifth of a point to under half a point of payroll, would still remain. The plan keeps the increase capped at one point and says so, rather than raise it further (`6-cost.md`, part 4). It adds a stronger minimum benefit and credit for caregiving years, and, from the 2030 Social Security act, promises full benefits on time whatever happens.
 
-**What it achieves, on our estimates.** Child poverty falls to about 9% (somewhere between 8% and 12%), about 3 million to 3.5 million fewer poor children (section 6). The child benefit costs about $1.85 trillion over 2030-39; the whole floor on the general budget about $2.49 trillion over the decade and about $287 billion a year from 2040, before the plan's financing (section 6).
+**What it achieves, on our estimates.** Child poverty falls to about 9% (somewhere between 8% and 12%), about 3 million to 3.5 million fewer poor children (section 6). The child benefit costs about $1.85 trillion over 2030-39; the whole floor on the general budget about $2.63 trillion over the decade and about $303 billion a year from 2040, before the plan's financing (section 6). That includes about $12 billion a year to let SNAP families keep more of what they earn, so that, with every program counted, no typical working family loses more than 65 cents of an added dollar (one case in 2030-34 is just above, and is watched).
 
 ## The case in one paragraph
 
@@ -72,7 +72,7 @@ Families with children are working harder for less security. The secure floor pa
 | Late 2032, 78% | Section 1, part F; section 4, SS-11.01 | EV-SEC-400 |
 | Up to one point from the late 2030s | Section 6, part 4; section 4, SS-7.01 | EV-SEC-697 and project arithmetic |
 | About 9% (8-12%); about 3 million to 3.5 million fewer poor children | Section 6, part 3 | EV-SEC-692 and working assumptions |
-| $1.85 trillion; $2.49 trillion; $287 billion; about $0.5 trillion | Section 6, parts 1 and 5 | Project arithmetic |
+| $1.85 trillion; $2.63 trillion; $303 billion; about $0.5 trillion; about $12 billion a year | Section 6, parts 1 and 5 | Project arithmetic |
 | $600 against about $367 a month | Section 7, part 4 | EV-SEC-262; 2029 law $2,200 a child |
 | 17-19 million children | Section 1 | EV-SEC-011, EV-SEC-601 |
 | About a quarter less food insufficiency | Section 2 | EV-SEC-209 |

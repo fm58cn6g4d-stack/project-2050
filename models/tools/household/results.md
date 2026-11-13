@@ -123,45 +123,46 @@ Net dollars per household per year (benefits minus costs). "Legacy" gives the le
 
 | Scenario | Version | Q1 | Q2 | Q3 | Q4 | Q5 | 80-99th | Top 1% |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Q | legacy | +$8,889 | +$6,433 | +$3,323 | −$527 | −$49,665 | −$16,931 | −$671,627 |
-| Q | model | +$9,595 | +$5,477 | +$3,301 | −$327 | −$48,080 | −$16,967 | −$639,233 |
-| A | legacy | +$8,943 | +$6,597 | +$3,682 | +$340 | −$39,634 | −$13,117 | −$543,449 |
-| A | model | +$9,639 | +$5,620 | +$3,635 | +$457 | −$38,460 | −$13,263 | −$517,207 |
-| Q-C19 | legacy | +$8,879 | +$6,381 | +$3,198 | −$698 | −$49,826 | −$17,089 | −$671,834 |
-| Q-C19 | model | +$9,586 | +$5,428 | +$3,183 | −$490 | −$48,233 | −$17,117 | −$639,430 |
-| Q-SAF | legacy | +$8,919 | +$6,476 | +$3,375 | −$469 | −$49,598 | −$16,865 | −$671,527 |
-| Q-SAF | model | +$9,624 | +$5,518 | +$3,351 | −$272 | −$48,016 | −$16,904 | −$639,137 |
-| Q-EDU | legacy | +$9,232 | +$6,381 | +$2,677 | −$1,951 | −$50,769 | −$18,473 | −$664,390 |
-| Q-EDU | model | +$10,015 | +$5,589 | +$2,857 | −$1,532 | −$49,706 | −$19,041 | −$632,343 |
-| Q-H7 | legacy | +$14,407 | +$16,608 | +$19,525 | +$19,998 | −$28,450 | +$4,293 | −$650,568 |
-| Q-H7 | model | +$15,353 | +$15,517 | +$18,049 | +$18,346 | −$27,197 | +$4,146 | −$622,699 |
+| Q | legacy | +$9,037 | +$6,620 | +$3,411 | −$483 | −$49,641 | −$16,907 | −$671,587 |
+| Q | model | +$9,736 | +$5,657 | +$3,386 | −$284 | −$48,059 | −$16,946 | −$639,198 |
+| A | legacy | +$9,091 | +$6,784 | +$3,770 | +$384 | −$39,609 | −$13,093 | −$543,410 |
+| A | model | +$9,780 | +$5,799 | +$3,720 | +$500 | −$38,439 | −$13,243 | −$517,172 |
+| Q-C19 | legacy | +$9,027 | +$6,569 | +$3,287 | −$653 | −$49,801 | −$17,065 | −$671,795 |
+| Q-C19 | model | +$9,726 | +$5,607 | +$3,268 | −$447 | −$48,212 | −$17,097 | −$639,395 |
+| Q-SAF | legacy | +$9,067 | +$6,663 | +$3,464 | −$425 | −$49,573 | −$16,841 | −$671,487 |
+| Q-SAF | model | +$9,765 | +$5,697 | +$3,436 | −$229 | −$47,994 | −$16,883 | −$639,103 |
+| Q-EDU | legacy | +$9,380 | +$6,568 | +$2,766 | −$1,906 | −$50,744 | −$18,449 | −$664,351 |
+| Q-EDU | model | +$10,156 | +$5,768 | +$2,942 | −$1,489 | −$49,685 | −$19,020 | −$632,309 |
+| Q-H7 | legacy | +$14,555 | +$16,796 | +$19,614 | +$20,042 | −$28,426 | +$4,317 | −$650,529 |
+| Q-H7 | model | +$15,494 | +$15,696 | +$18,134 | +$18,389 | −$27,175 | +$4,166 | −$622,664 |
 
 ### Reconciliation, scenario Q: from the legacy figures to the model's, one change at a time
 
 | Step | Q1 | Q2 | Q3 | Q4 | Q5 | Top 1% | Change in Q4 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Legacy model (legacy keys, 140M households) | +$8,889 | +$6,433 | +$3,323 | −$527 | −$49,665 | −$671,627 |  |
-| Households: the CPS count grown to FY2034-35, 147.1M | +$8,463 | +$6,124 | +$3,163 | −$502 | −$47,282 | −$639,394 | +$25 |
-| Key `aca_medicaid` measured on the CPS | +$8,470 | +$6,118 | +$3,158 | −$504 | −$47,275 | −$639,373 | −$2 |
-| Key `adults` measured on the CPS | +$8,513 | +$6,157 | +$3,124 | −$491 | −$47,336 | −$639,302 | +$13 |
-| Key `cdctc` measured on the CPS | +$8,512 | +$6,157 | +$3,125 | −$491 | −$47,335 | −$639,302 | +$0 |
-| Key `ctc` measured on the CPS | +$8,767 | +$5,980 | +$3,307 | −$441 | −$47,646 | −$639,296 | +$50 |
-| Key `eitc_childless` measured on the CPS | +$8,767 | +$5,981 | +$3,308 | −$443 | −$47,646 | −$639,298 | −$2 |
-| Key `employer_cov` measured on the CPS | +$8,767 | +$5,981 | +$3,308 | −$443 | −$47,646 | −$639,298 | +$0 |
-| Key `housing` measured on the CPS | +$9,573 | +$5,526 | +$3,070 | −$537 | −$47,665 | −$639,216 | −$94 |
-| Key `low_income_energy` measured on the CPS | +$9,628 | +$5,367 | +$3,141 | −$519 | −$47,650 | −$639,210 | +$18 |
-| Key `ma` measured on the CPS | +$9,612 | +$5,371 | +$3,151 | −$514 | −$47,654 | −$639,215 | +$5 |
-| Key `medicare` measured on the CPS | +$9,661 | +$5,369 | +$3,131 | −$541 | −$47,653 | −$639,359 | −$27 |
-| Key `partb` measured on the CPS | +$9,616 | +$5,362 | +$3,143 | −$520 | −$47,634 | −$639,328 | +$21 |
-| Key `persons` measured on the CPS | +$9,616 | +$5,362 | +$3,143 | −$520 | −$47,634 | −$639,328 | +$0 |
-| Key `snap` measured on the CPS | +$9,618 | +$5,361 | +$3,141 | −$520 | −$47,633 | −$639,332 | +$0 |
-| Key `snap_cut` measured on the CPS | +$9,615 | +$5,362 | +$3,141 | −$519 | −$47,632 | −$639,335 | +$1 |
-| Key `ss_benefit` measured on the CPS | +$9,535 | +$5,360 | +$3,159 | −$497 | −$47,591 | −$639,306 | +$22 |
-| Key `ssi` measured on the CPS | +$9,535 | +$5,360 | +$3,160 | −$497 | −$47,591 | −$639,306 | +$0 |
-| Key `ssi_exclusions` measured on the CPS | +$9,535 | +$5,360 | +$3,160 | −$497 | −$47,591 | −$639,306 | +$0 |
-| Key `surtax` measured on the CPS | +$9,535 | +$5,360 | +$3,154 | −$470 | −$47,612 | −$639,306 | +$27 |
-| Key `wages` measured on the CPS | +$9,567 | +$5,417 | +$3,212 | −$408 | −$47,822 | −$639,306 | +$62 |
-| Key `wages_cap` measured on the CPS | +$9,595 | +$5,477 | +$3,301 | −$327 | −$48,080 | −$639,233 | +$81 |
+| Legacy model (legacy keys, 140M households) | +$9,037 | +$6,620 | +$3,411 | −$483 | −$49,641 | −$671,587 |  |
+| Households: the CPS count grown to FY2034-35, 147.1M | +$8,603 | +$6,303 | +$3,248 | −$459 | −$47,258 | −$639,357 | +$24 |
+| Key `aca_medicaid` measured on the CPS | +$8,611 | +$6,297 | +$3,242 | −$462 | −$47,252 | −$639,336 | −$3 |
+| Key `adults` measured on the CPS | +$8,653 | +$6,335 | +$3,209 | −$449 | −$47,312 | −$639,264 | +$13 |
+| Key `cdctc` measured on the CPS | +$8,653 | +$6,335 | +$3,209 | −$449 | −$47,312 | −$639,264 | +$0 |
+| Key `ctc` measured on the CPS | +$8,908 | +$6,158 | +$3,391 | −$398 | −$47,623 | −$639,258 | +$51 |
+| Key `eitc_childless` measured on the CPS | +$8,907 | +$6,159 | +$3,392 | −$400 | −$47,622 | −$639,261 | −$2 |
+| Key `employer_cov` measured on the CPS | +$8,907 | +$6,159 | +$3,392 | −$400 | −$47,622 | −$639,261 | +$0 |
+| Key `housing` measured on the CPS | +$9,714 | +$5,704 | +$3,154 | −$495 | −$47,641 | −$639,178 | −$95 |
+| Key `low_income_energy` measured on the CPS | +$9,769 | +$5,546 | +$3,225 | −$477 | −$47,627 | −$639,172 | +$18 |
+| Key `ma` measured on the CPS | +$9,753 | +$5,549 | +$3,236 | −$472 | −$47,630 | −$639,178 | +$5 |
+| Key `medicare` measured on the CPS | +$9,801 | +$5,547 | +$3,215 | −$499 | −$47,629 | −$639,322 | −$27 |
+| Key `partb` measured on the CPS | +$9,757 | +$5,540 | +$3,227 | −$478 | −$47,611 | −$639,290 | +$21 |
+| Key `persons` measured on the CPS | +$9,757 | +$5,540 | +$3,227 | −$478 | −$47,611 | −$639,290 | +$0 |
+| Key `snap` measured on the CPS | +$9,759 | +$5,539 | +$3,225 | −$478 | −$47,610 | −$639,295 | +$0 |
+| Key `snap_cut` measured on the CPS | +$9,755 | +$5,541 | +$3,226 | −$477 | −$47,609 | −$639,297 | +$1 |
+| Key `snap_earn` measured on the CPS | +$9,755 | +$5,542 | +$3,226 | −$476 | −$47,611 | −$639,300 | +$1 |
+| Key `ss_benefit` measured on the CPS | +$9,676 | +$5,539 | +$3,244 | −$454 | −$47,570 | −$639,271 | +$22 |
+| Key `ssi` measured on the CPS | +$9,675 | +$5,540 | +$3,245 | −$454 | −$47,570 | −$639,271 | +$0 |
+| Key `ssi_exclusions` measured on the CPS | +$9,675 | +$5,540 | +$3,245 | −$454 | −$47,570 | −$639,271 | +$0 |
+| Key `surtax` measured on the CPS | +$9,675 | +$5,540 | +$3,239 | −$427 | −$47,590 | −$639,271 | +$27 |
+| Key `wages` measured on the CPS | +$9,708 | +$5,596 | +$3,297 | −$365 | −$47,801 | −$639,271 | +$62 |
+| Key `wages_cap` measured on the CPS | +$9,736 | +$5,657 | +$3,386 | −$284 | −$48,059 | −$639,198 | +$81 |
 
 ### Sensitivity, scenario Q: the housing key
 
@@ -169,8 +170,8 @@ The central case measures housing's key on the CPS (today's assisted households,
 
 | Housing key | Q1 | Q2 | Q3 | Q4 | Q5 |
 | --- | --- | --- | --- | --- | --- |
-| CPS-measured (central) | +$9,595 | +$5,477 | +$3,301 | −$327 | −$48,080 |
-| Legacy, 60% in Q1 (sensitivity) | +$8,789 | +$5,932 | +$3,539 | −$233 | −$48,061 |
+| CPS-measured (central) | +$9,736 | +$5,657 | +$3,386 | −$284 | −$48,059 |
+| Legacy, 60% in Q1 (sensitivity) | +$8,930 | +$6,111 | +$3,624 | −$190 | −$48,039 |
 
 ### The keys: measured against legacy
 
@@ -195,6 +196,7 @@ Percent of each key's total by quintile, and the top 1%'s share. Only keys marke
 | eitc_childless | measured | 38, 30.2, 15.2, 10.6, 6.1 | 0.3 | 38, 30, 15, 11, 6 | 0.3 |
 | snap_cut | measured | 72, 17.4, 6.1, 3.2, 1.3 | 0.4 | 73, 17, 6, 3, 1 | 0.4 |
 | snap | measured | 71.5, 17.8, 6.5, 3, 1.2 | 0.2 | 71, 18, 7, 3, 1 | 0.2 |
+| snap_earn | measured | 30, 38.2, 18.1, 9.2, 4.5 | 0.4 | 30, 38, 18, 9, 5 | 0.4 |
 | ssi | measured | 48.5, 24.3, 14.3, 9, 3.9 | 0.1 | 49, 24, 14, 9, 4 | 0.1 |
 | ssi_exclusions | measured | 46.8, 24.3, 14.1, 10.2, 4.6 | 0.2 | 47, 24, 14, 10, 5 | 0.2 |
 | cdctc | measured | 62.6, 20.9, 12.3, 2, 2.2 | 0 | 63, 21, 12, 2, 2 | 0 |
@@ -219,43 +221,43 @@ Each is a row of the D3 test (`incidence-rows.csv`, INC1 to INC5). Its amount is
 
 ## 7. The 65-cent ceiling check (INC-5.02, shared rule 2)
 
-For the three typical families at 50% to 300% of poverty: the combined cents lost per added dollar of earnings from every federal layer under the decided plan, taxes included, against the published ceiling of 65 cents. Housing's 30% rent rule is outside it, as INC-5.02 says. Layers (`families.py`, `plan_budget`): payroll with paid leave's worker share (FAM-3.04, 0.3%); income tax at 2029 law with FAM-1's child benefit in place of today's child credit and INC-1.01's childless credit; SNAP on the rules INC-2 restores, with and without the excess shelter deduction; the premium tax credit on the marketplace in 2030-34, which the single plan ends from 2035; child care's charge for the child under 5 (FAM-2.01), net of INC-4's refundable credit. The charge depends on the state's median income: the CPS's lowest state ($98,693 for four in 2029) and its national median ($160,852) stand in for HHS's figures. 2029 law and prices throughout. The 2030-34 marketplace cases at 100-138% of poverty apply in states that have not expanded Medicaid; in expansion states those adults have Medicaid instead.
+For the three typical families at 50% to 300% of poverty: the combined cents lost per added dollar of earnings from every federal layer under the decided plan, taxes included, against the published ceiling of 65 cents. Housing's 30% rent rule is outside it, as INC-5.02 says. Layers (`families.py`, `plan_budget`): payroll with paid leave's worker share (FAM-3.04, 0.3%); income tax at 2029 law with FAM-1's child benefit in place of today's child credit and INC-1.01's childless credit; SNAP on the rules INC-2 restores, with its earned income deduction at 45% (INC-2.02, Espen's option D, `DEC-2026-11-13-03`), with and without the excess shelter deduction; the premium tax credit on the marketplace in 2030-34, which the single plan ends from 2035; child care's charge for the child under 5 (FAM-2.01), net of INC-4's refundable credit. The charge depends on the state's median income: the CPS's lowest state ($98,693 for four in 2029) and its national median ($160,852) stand in for HHS's figures. 2029 law and prices throughout. The 2030-34 marketplace cases at 100-138% of poverty apply in states that have not expanded Medicaid; in expansion states those adults have Medicaid instead.
 
-| Family | Case | Highest rate (cents) | At % of poverty | Above 65 at | Result |
-| --- | --- | --- | --- | --- | --- |
-| Single parent, two children | 2035 on, no shelter deduction | 63.0 | 100% | — | **meets** |
-| Single parent, two children | 2035 on, with a $1,400 rent in SNAP's shelter deduction | 75.0 | 100% | 100%, 125% | **fails** |
-| Single parent, two children | 2030-34 on the marketplace, no shelter deduction | 65.1 | 100% | 100%, 125% | **fails** |
-| Single parent, two children | 2030-34 on the marketplace, with the rent | 77.1 | 100% | 100%, 125% | **fails** |
-| Married couple, two children (one earner) | 2035 on, no shelter deduction | 63.0 | 100% | — | **meets** |
-| Married couple, two children (one earner) | 2035 on, with a $1,400 rent in SNAP's shelter deduction | 75.0 | 100% | 100%, 125% | **fails** |
-| Married couple, two children (one earner) | 2030-34 on the marketplace, no shelter deduction | 65.1 | 100% | 100%, 125% | **fails** |
-| Married couple, two children (one earner) | 2030-34 on the marketplace, with the rent | 77.1 | 100% | 100%, 125% | **fails** |
-| Single adult | 2035 on, no shelter deduction | 56.5 | 100% | — | **meets** |
-| Single adult | 2035 on, with a $1,400 rent in SNAP's shelter deduction | 57.3 | 100% | — | **meets** |
-| Single adult | 2030-34 on the marketplace, no shelter deduction | 58.6 | 100% | — | **meets** |
-| Single adult | 2030-34 on the marketplace, with the rent | 59.4 | 100% | — | **meets** |
+| Family | Case | Highest rate (cents) | At % of poverty | Above 65 at | Result | Before INC-2.02 (20%) |
+| --- | --- | --- | --- | --- | --- | --- |
+| Single parent, two children | 2035 on, no shelter deduction | 55.5 | 100% | — | **meets** | 63.0 (meets) |
+| Single parent, two children | 2035 on, with a $1,400 rent in SNAP's shelter deduction | 55.5 | 100% | — | **meets** | 75.0 (fails) |
+| Single parent, two children | 2030-34 on the marketplace, no shelter deduction | 57.6 | 100% | — | **meets** | 65.1 (fails) |
+| Single parent, two children | 2030-34 on the marketplace, with the rent | 57.6 | 100% | — | **meets** | 77.1 (fails) |
+| Married couple, two children (one earner) | 2035 on, no shelter deduction | 55.5 | 100% | — | **meets** | 63.0 (meets) |
+| Married couple, two children (one earner) | 2035 on, with a $1,400 rent in SNAP's shelter deduction | 63.8 | 125% | — | **meets** | 75.0 (fails) |
+| Married couple, two children (one earner) | 2030-34 on the marketplace, no shelter deduction | 57.6 | 100% | — | **meets** | 65.1 (fails) |
+| Married couple, two children (one earner) | 2030-34 on the marketplace, with the rent | 65.9 | 125% | 125% | **fails** | 77.1 (fails) |
+| Single adult | 2035 on, no shelter deduction | 49.8 | 100% | — | **meets** | 56.5 (meets) |
+| Single adult | 2035 on, with a $1,400 rent in SNAP's shelter deduction | 33.2 | 100% | — | **meets** | 57.3 (meets) |
+| Single adult | 2030-34 on the marketplace, no shelter deduction | 51.8 | 100% | — | **meets** | 58.6 (meets) |
+| Single adult | 2030-34 on the marketplace, with the rent | 44.9 | 150% | — | **meets** | 59.4 (meets) |
 
 The typical state gives the same highest rates: the charge starts above 300% of poverty there, and where it does reach these families (the lowest-income state, from about 240%), their rate is 26-32 cents from 2035 and 39-46 cents in 2032-34 with the premium credit. Paid leave at its 1.10% ceiling adds 0.25 cents everywhere. Steps that cross SNAP's net income test (the single adult at 125% with the rent) are cliffs, not rates, and exist under current law.
 
-**Where it fails:** single parent at 100% of poverty, 2035 on, with the rent: payroll 8.0, income tax 31.1 (the earned income credit's 21.06% phase-out plus the 10% bracket), SNAP 36.0 (30% of a net income that rises by $1.20 a dollar once the shelter deduction shrinks), total **75.0**. Two things push it past memo 7's arithmetic: SNAP's shelter interaction (36 cents, not 24), and FAM-1, which replaces the child credit whose nonrefundable part today offsets the 10% bracket at these incomes (+10 cents).
+**What INC-2.02 fixes:** before it, the single parent at 100% of poverty, 2035 on, with the rent, reached 75.0 cents: SNAP took 36 cents, not memo 7's 24, because each dollar also shrinks the shelter deduction, and FAM-1 replaces the child credit whose nonrefundable part today offsets the 10% bracket at these incomes (+10 cents). With the deduction at 45%, SNAP counts 55 cents of each earned dollar, so it takes about 25 cents with the shelter deduction and about 17 without: the same family is at payroll 8.0, income tax 31.1, SNAP 16.5, total **55.5**.
 
-**What two fixes would cost** (2029, static, full take-up; for the lead's options, not decided):
+**The one case still above the ceiling:** the married couple with two children and one earner, on the marketplace in 2030-34 with the rent, at 125% of poverty: payroll 8.0, income tax 31.1, SNAP 24.8, the premium credit 2.1, total **65.9**. It applies only in states that have not expanded Medicaid, and only until the single plan ends the premium credit in 2035. INC-5.02's monitoring rule covers it (a family type above the ceiling for two years triggers a review by the owning dossiers); it is not fixed here.
 
-- a nonrefundable family offset against income tax of $750 a child: about $42.6B a year ($28.9B at $500, which falls short at 125% of poverty). It removes the 10% bracket's 10 cents at 100-125%: from 2035 the shelter case comes to the ceiling exactly (65.0, so paid leave at its ceiling would tip it over), and the 2030-34 marketplace case to 55; with the rent in 2030-34 it is still 67.1;
-- SNAP's earned income deduction from 20% to 45%: up to about $32.1B a year on the CPS's annual earnings of SNAP households (an upper bound: SNAP counts monthly income only in months on SNAP, and the CPS records under half of SNAP). SNAP's rate falls to about 25 cents with the shelter deduction and 17 without; every case meets the ceiling except the married couple on the marketplace in 2030-34 with the rent (65.9).
+**The options Espen weighed** (2029, static, full take-up):
 
-Only the two together clear every case. Neither is decided; the options are the lead's to put to Espen (INC-5.02's own rule is a review by the owning dossiers when a family type is above the ceiling for two years).
+- a nonrefundable family offset against income tax of $750 a child: about $42.6B a year ($28.9B at $500). Not chosen;
+- SNAP's earned income deduction from 20% to 45% (option D, chosen): up to about $32.1B a year on the CPS's annual earnings of SNAP households, an upper bound (SNAP counts monthly income only in months on SNAP; the CPS's annual earnings include months off it). The booking uses SNAP's own records instead (`dossiers/secure-floor/6-cost.md`, part 1): about $12 billion in FY2030, range $8-16 billion.
 
 ## 8. The D3 report: the revenue-mix test, the years, and what moves the fourth quintile
 
 This section carries the parts of the retired legacy report (`legacy/index/revenue-household-incidence-model.md`, last generated November 13, 2026) that section 5 does not: D3's revenue-mix test, the year-by-year paths, the rows that move the fourth quintile, the open choices, dynamic effects and the limits. D3's test: every income group below the top comes out ahead on net from the agenda's combined taxes, fees and benefits, and new general-fund revenue comes mostly from the top 1% and corporations. The engine is `d3.py`; "legacy" is the typed keys over 140 million households, which the budget model's readers still use, and "model" the measured keys.
 
-- **Scenario Q, the decided package: the household test does not pass.** On the measured keys Q1 to Q4 are +$9,595, +$5,477, +$3,301, −$327 a household a year, FY2030-39 average (legacy keys: +$8,889, +$6,433, +$3,323, −$527). The fourth quintile is the group behind.
+- **Scenario Q, the decided package: the household test does not pass.** On the measured keys Q1 to Q4 are +$9,736, +$5,657, +$3,386, −$284 a household a year, FY2030-39 average (legacy keys: +$9,037, +$6,620, +$3,411, −$483). The fourth quintile is the group behind.
 - **The revenue-mix test passes in every scenario:** the top 1% (by incidence) and corporations (statutory) bear 76% of new general-fund revenue on scenario Q (legacy keys 76%; the rule is more than half). The EDU-9B fund's contribution and SAF-R2 are not general-fund revenue and are left out of it.
-- **The employer health-exclusion cap is the swing:** at the median premium (C19, the fallback) the fourth quintile reads −$490, against −$327 at the 75th percentile (C19b, decided). Once the employer groups move (2033-35) the exclusion ends (HX), so the cap stops applying; the settlement must take that overlap out.
-- **Health is not in scenario Q on either side.** Scenario Q-H7 adds the single plan's household rows (H7h, H7w), long-term care (H9) and HX's tax, without the plan's financing (the settlement's): the fourth quintile reads +$18,346, a reading before financing, not a pass.
-- **The education fund (EDU-9B, held)** as a closer in place of C19b and C20 gives the fourth quintile −$1,532. Its contribution (about 1.4 points of payroll) is counted entirely on workers.
+- **The employer health-exclusion cap is the swing:** at the median premium (C19, the fallback) the fourth quintile reads −$447, against −$284 at the 75th percentile (C19b, decided). Once the employer groups move (2033-35) the exclusion ends (HX), so the cap stops applying; the settlement must take that overlap out.
+- **Health is not in scenario Q on either side.** Scenario Q-H7 adds the single plan's household rows (H7h, H7w), long-term care (H9) and HX's tax, without the plan's financing (the settlement's): the fourth quintile reads +$18,389, a reading before financing, not a pass.
+- **The education fund (EDU-9B, held)** as a closer in place of C19b and C20 gives the fourth quintile −$1,489. Its contribution (about 1.4 points of payroll) is counted entirely on workers.
 - **Averages hide losers inside the fourth quintile**: a household without children, marketplace or Medicare coverage, and with employer coverage above the 75th-percentile premium, gets few of the benefits and most of the costs. Within-quintile spread is the household model's next addition.
 
 **Revenue-mix test by scenario** (percent of new general-fund revenue from the top 1% and corporations):
@@ -275,18 +277,18 @@ Each row's ten-year total spread over 2030-39 by its phase-in profile (`models/d
 
 | Year | Q: Q1 | Q2 | Q3 | Q4 | Q4, legacy keys | Q-C19: Q4 | Q-EDU: Q4 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2030 | +$6,524 | +$2,805 | +$1,260 | **−$1,179** | −$1,343 | −$1,179 | −$2,578 |
-| 2031 | +$7,647 | +$3,967 | +$2,321 | **−$408** | −$567 | −$678 | −$1,459 |
-| 2032 | +$8,797 | +$4,825 | +$2,774 | **−$423** | −$597 | −$980 | −$1,066 |
-| 2033 | +$9,950 | +$5,813 | +$3,489 | **−$105** | −$274 | −$585 | −$813 |
-| 2034 | +$10,817 | +$6,562 | +$4,097 | **+$233** | +$70 | −$35 | −$764 |
-| 2035 | +$9,942 | +$5,927 | +$3,716 | **−$72** | −$272 | −$125 | −$1,362 |
-| 2036 | +$9,908 | +$5,820 | +$3,604 | **−$285** | −$509 | −$285 | −$1,687 |
-| 2037 | +$10,400 | +$6,112 | +$3,753 | **−$353** | −$592 | −$353 | −$1,812 |
-| 2038 | +$10,771 | +$6,330 | +$3,896 | **−$362** | −$610 | −$362 | −$1,879 |
-| 2039 | +$11,199 | +$6,614 | +$4,100 | **−$318** | −$574 | −$318 | −$1,896 |
+| 2030 | +$6,641 | +$2,954 | +$1,331 | **−$1,143** | −$1,306 | −$1,143 | −$2,542 |
+| 2031 | +$7,769 | +$4,122 | +$2,395 | **−$371** | −$529 | −$641 | −$1,422 |
+| 2032 | +$8,924 | +$4,986 | +$2,850 | **−$384** | −$557 | −$941 | −$1,027 |
+| 2033 | +$10,082 | +$5,981 | +$3,568 | **−$65** | −$232 | −$545 | −$773 |
+| 2034 | +$10,954 | +$6,736 | +$4,180 | **+$275** | +$113 | +$7 | −$722 |
+| 2035 | +$10,085 | +$6,109 | +$3,802 | **−$29** | −$227 | −$82 | −$1,318 |
+| 2036 | +$10,056 | +$6,009 | +$3,693 | **−$239** | −$462 | −$239 | −$1,642 |
+| 2037 | +$10,554 | +$6,309 | +$3,846 | **−$305** | −$544 | −$305 | −$1,764 |
+| 2038 | +$10,931 | +$6,535 | +$3,993 | **−$313** | −$560 | −$313 | −$1,830 |
+| 2039 | +$11,366 | +$6,826 | +$4,200 | **−$267** | −$522 | −$267 | −$1,845 |
 
-- The fourth quintile is −$1,179 in 2030 on the decided package, and not positive in every later year.
+- The fourth quintile is −$1,143 in 2030 on the decided package, and not positive in every later year.
 - **Year five (2034) passes for every quintile below the top**, D3's interim test.
 - The 2030-33 shortfall is partly sequencing: the carbon fee, leave contributions and the exclusion cap arrive before the public option and full child care. The levers are to start C19b and the carbon fee in 2031, to front-load the Climate Dividend, or to start leave contributions with benefits in 2031; each costs about a year of revenue and needs a D4 check. A shortfall that persists after 2034 is not sequencing: it is the package's costs against the fourth quintile's benefits, the financing settlement's question. None is decided.
 
