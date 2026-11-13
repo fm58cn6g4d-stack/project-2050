@@ -46,7 +46,7 @@ Health, net of HX, is about $4.1 trillion of the FY2040 gap, nearly all of it (c
 ## 3. Inputs still moving
 
 - **Clean power: not yet booked.** The recommended set, against the legacy climate rows above, is about **+$0.11T over FY2030-39 and about −$9B in FY2040** (`dossiers/clean-power/3-design.md`). It waits on Espen's memo answers, then sections 4-9, the milestone review and the booking. It moves FY2040 by less than 0.5% of the gap.
-- **The secure floor's 65-cent ceiling (D).** The household model finds the ceiling isn't met for some families with children (`dossiers/secure-floor/7-validation.md`). The options are a SNAP earned-income deduction at 45% (up to about **$32B a year**), a $750-a-child offset (about $43B), both, or reading the ceiling as memo 7 measured it. That choice is the lead's to put to Espen.
+- **The secure floor's 65-cent ceiling (D).** The household model finds the ceiling isn't met for some families with children (`dossiers/secure-floor/7-validation.md`). **Decided by Espen, booking pending (about $32B a year):** option D, SNAP's earned-income deduction raised from 20% to 45% (Espen, November 13: "go with D on the 65-cent ceiling"). Its decision entry and booking come in a tier-3 PR from the M3 part 2 worker.
 - **The household model (M3).** Part 2 is under way (`models/tools/household/`). Stage G's fairness test (D3) needs it, along with incidence keys for INC-1 to INC-5.
 - **Smaller, known items:** the hospital uncompensated-care payment is booked (`DEC-2026-11-13-02`, about $1B); SS-8's stock investment is booked at zero until its budget treatment is checked; and the climate pricing export still uses a 25% offset (about $0.6B over the decade).
 
