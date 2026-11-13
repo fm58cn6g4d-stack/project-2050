@@ -26,14 +26,14 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 | Section | File | Status |
 | --- | --- | --- |
-| 1. The problem | `1-problem.md` | Draft (E-C1) |
-| 2. What works | `2-what-works.md` | Draft (E-C1) |
-| 3. Design choices | `3-design.md` and `memos/` | To write (E-C1, second PR) |
+| 1. The problem | `1-problem.md`: bills and energy hardship; demand and reliability; emissions; climate damage and insurance; workers and places; the January 2029 baseline table; the legacy record restated | Draft (E-C1, PR #315) |
+| 2. What works | `2-what-works.md`: carbon pricing and dividends at home and abroad; the IRA's record and the 2025 repeal; grid and permitting; public power and finance; clean and firm power costs; clean industry; adaptation and insurance; transitions; failures to avoid | Draft (E-C1, PR #315) |
+| 3. Design choices | `3-design.md` and `memos/` | Drafting (E-C1, second PR) |
 | 4-9 | — | Later steps |
 
 ## Evidence and sources
 
-- `evidence.json`: evidence code **EV-CLP**. Blocks by subject: 001-099 power bills, demand and reliability; 100-199 emissions, climate damage and insurance; 200-299 federal law (the IRA, the 2025 law, the Clean Air Act, permitting); 300-399 carbon pricing at home and abroad; 400-499 grid, permitting, public power and clean industry; 500-599 workers and places in transition; 600-649 adaptation and insurance programs; 700-799 legacy figures restated (grade D).
+- `evidence.json`: evidence code **EV-CLP**. 364 entries in the first PR. Blocks by subject: 001-099 power bills, demand and reliability; 100-199 emissions, climate damage and insurance; 200-299 federal law (the IRA, the 2025 law, the Clean Air Act, permitting); 300-399 carbon pricing at home and abroad; 400-499 grid, permitting, public power and clean industry; 500-599 workers and places in transition; 600-649 adaptation and insurance programs; 700-799 legacy figures restated (grade D).
 - Sources: **Source IDs numbered 4400 to 4799 are reserved for the clean power dossier** (this README, November 13, 2026; `library/reserved-blocks.csv`). Sub-blocks follow the evidence blocks: 4400-4459, 4460-4519, 4520-4579, 4580-4659, 4660-4719, 4720-4769, 4770-4799 (spare).
 
 ## Open questions for Espen
