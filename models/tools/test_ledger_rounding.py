@@ -20,9 +20,11 @@ class LedgerPrecision(unittest.TestCase):
         # 5.88 until MR6, Moving America's 25% offset, was booked on the general fund as CX (transportation review F-1);
         # 5.75 until HX, the health plan's exclusion revenue ($5.22T), was booked (care review F-4);
         # 10.97 until part 6's federal-coverage correction took HX to $4.84T (budget B6 item 7);
-        # 10.58 until the CX and MR6 offsets took JCT's 24.4% rate in place of 25% (DEC-2026-11-12-08)
-        self.assertEqual(money_sum(values), 10.6)
-        self.assertEqual(money_sum(reversed(values)), 10.6)
+        # 10.58 until the CX and MR6 offsets took JCT's 24.4% rate in place of 25% (DEC-2026-11-12-08);
+        # 10.6 until the immigration booking added E-Verify's on-budget revenue (IMM-EV, +0.0233) and the H-1B
+        # fee's tax offset (IF1T, -0.0037) as base-revenue rows (immigration review step 5)
+        self.assertEqual(money_sum(values), 10.62)
+        self.assertEqual(money_sum(reversed(values)), 10.62)
 
 
 if __name__ == '__main__':

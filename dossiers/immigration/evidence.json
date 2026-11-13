@@ -8433,22 +8433,22 @@
  },
  {
   "id": "EV-IMM-570",
-  "statement": "The legacy ledger carries the immigration bill (IMM-1, old E11) at -0.14 trillion dollars on the general fund (range -0.25 to -0.02), described as the S. 744 CBO pattern of about $175B in the first decade, not rescored.",
+  "statement": "The legacy immigration bill is carried at -0.14 trillion dollars on the general fund (range -0.25 to -0.02), resting on CBO's score of the Senate's comprehensive bill, said to cut deficits by about $175B in its first decade, not rescored.",
   "claim": "analysis",
   "figures": [
    "-0.14",
    "$175B"
   ],
-  "source": "SRC-0049",
+  "source": "SRC-0023",
   "anchor": [
-   "| IMM-1 | E11 | Immigration bill: tiered legalization, backlogs and H-1B fee, asylum processing, enforcement priorities and detention cap, birthright codification, USCIS delivery (IMM-1 to IMM-6) | FLOOR | General fund | -0.14 (-0.25--0.02) |",
-   "S.744 CBO pattern (~$175B first decade), not rescored"
+   "| | **General-fund total** | | **-0.25 / -0.14 / -0.02** | | | **12** | |",
+   "which cut deficits by about $175B in its first decade (sourced, via the ledger)"
   ],
   "grade": "D",
   "fact_date": "2026-10",
   "checked": "2026-11-12",
   "recheck": "2027-11-12",
-  "context": "Legacy ledger, legacy/index/2029-trifecta-master-ledger.md, line 330. The $175B is widely reported as CBO's preliminary figure for the amended S. 744, not confirmed from CBO's text (EV-IMM-207; legacy-research.md, finding 1); CBO's final estimate was $158B (EV-IMM-205). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
+  "context": "Legacy domain file, legacy/domains/domain-immigration.md, lines 17 and 57; the legacy ledger carried the same row (legacy/index/2029-trifecta-master-ledger.md) until the immigration booking replaced it with the decided set (DEC-2026-11-12-17 to -19). The $175B is widely reported as CBO's preliminary figure for the amended S. 744, not confirmed from CBO's text (EV-IMM-207; legacy-research.md, finding 1); CBO's final estimate was $158B (EV-IMM-205). Legacy project text (before October 28, 2026), restated as a project estimate or design; a working choice under DEC-2026-10-30-02, not a score or evidence that the design works.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],

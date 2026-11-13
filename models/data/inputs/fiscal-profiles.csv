@@ -39,7 +39,7 @@ bill,LAB-8,,out_disc_nondefense,,2,gdp,,,,,
 bill,LAB-9,,out_other_mandatory,,4,gdp,,,,,National service slots build over four years
 bill,LAB-9D,,out_other_mandatory,,1,gdp,,,,,Authorization only; its cost sits in LAB-9
 bill,COM-1,,out_disc_nondefense,,1,gdp,,,,,
-bill,IMM-1,,out_other_mandatory,,3,gdp,,,,,Net saving grows as legalized workers enter the tax base
+bill,IMM-1,,out_other_mandatory,,1,gdp,,,,,"Components in fiscal-components.csv (immigration booking, dossiers/immigration/6-cost.md part 6): cost rising through the decade as statuses and coverage phase in, on the dossier's fiscal-year path; revenue effects in IMM-EV and IF1T"
 bill,AI-1,,out_disc_nondefense,,2,gdp,,,,,
 bill,AI-4,,out_other_mandatory,2031,3,gdp,,,,,Displacement-triggered; builds with take-up
 bill,AI-9,,out_other_mandatory,,1,gdp,,,,,
@@ -119,3 +119,5 @@ option,C44,borrow,out_other_mandatory,2030,1,cpi,2039,0,,,Capital costs already 
 bill,CLI-3E,,out_other_mandatory,2030,1,cpi,,,,,Statutory zero-direct-outlay row.
 bill,CLI-4E,,out_other_mandatory,2030,1,cpi,,,,,Statutory zero-direct-outlay row.
 bill,CLI-4H,,out_other_mandatory,2032,1,cpi,,,,,Statutory zero-direct-outlay row.
+base revenue,IMM-EV,,rev_individual,,1,gdp,,1.002393,,,"E-Verify on-budget revenue: shape from the dossier's path (fiscal-years.csv); perm fitted so FY2040 is the path's $-4.1B, then GDP (immigration booking)"
+base revenue,IF1T,,rev_individual,,1,gdp,,0.981049,,,"H-1B fee offset: shape from the dossier's path (fiscal-years.csv); perm fitted so FY2040 is the path's $0.5B, then GDP (immigration booking)"
