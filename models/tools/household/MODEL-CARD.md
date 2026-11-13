@@ -52,6 +52,7 @@ All in `params.py` (parameters) and `tax.py` (calculator); 2025 values are the l
 | A-7 | No itemized deductions, AMT or the dependent care, education, saver's and premium credits in the microdata | The CPS has no itemized deductions; the Census's own tax model imputes them | Income tax after credits is about 9% above the Census tax model's in 2025, most of it in the top quintile |
 | A-8 | 2029 SNAP is 2025's, uprated, with P.L. 119-21's changes applied (`snap2025.py`). The wider work rule (sec. 10102) removes benefits from adults not disabled who worked under 20 hours a week, with probabilities calibrated so each group's loss matches CBO's participation estimate as a share of USDA's participants (EV-SEC-036, EV-SEC-039). The energy and internet changes (secs. 10103-04) are applied as CBO's expected amounts (EV-SEC-038). The Thrifty Food Plan rule (sec. 10101) needs nothing beyond price uprating. Not applied: the state cost share's state responses (about 300,000 people) and the noncitizen rule (about 90,000), which need behavior or immigration status the model lacks. The law's Medicaid changes stay with the health coverage model | CBO's section estimates (EV-SEC-034 to 038), which the secure floor already uses | The CPS records about $42B of 2025 SNAP against USDA's $95.8B, so the law's poverty effect is understated by about half. The model's cut is 10.1% of benefits, against about 9.8% implied by CBO's sections. CBPP counted 4.7 million fewer participants by March 2026, against CBO's 3 million for 2026 (EV-SEC-040); at that pace the loss would be larger |
 | A-9 | The premium credit's 2026 applicable percentages hold in 2029 | The percentages are reindexed yearly; their direction depends on premium growth against income growth | A few tenths of a cent per dollar in the family rates |
+| A-10 | State median income for FAM-2.01's charge is the CPS's median cash income of four-person SPM units, nationally ($160,852 in 2029) and in the lowest-income state ($98,693), scaled by HHS's size factors | HHS sets the lines from the ACS; the CPS has every state but small samples (at least 59 four-person units each) | The CPS's SPM-unit median runs above HHS's family median, so the charge may start lower than modeled; it moves the charge's start, not the ceiling's binding point at 100-125% of poverty |
 
 ## Distribution conventions
 
@@ -63,7 +64,7 @@ All in `params.py` (parameters) and `tax.py` (calculator); 2025 values are the l
 
 - **Inputs:** the budget model's `ledger.json` (each provision's FY2030-39 amount) and the adopted `incidence-rows.csv`, which books each row as a formula over ledger IDs and splits it across incidence keys (both read only).
 - **Keys** (`keys.csv`): for each key, `micro` measures its shares on the 2029 baseline households (a household field, or a rule computed tax unit by tax unit in `rules.py`), and `legacy` keeps the typed key, with the reason.
-- **Measured:** 20 keys. In part 1, 14: Earnings and capped earnings; people and adults; FAM-1's child benefit (the American Family Act's credit less today's child and other-dependent credits, household by household); housing assistance; Medicaid and marketplace coverage; Medicare (three keys); employer coverage; Social Security; energy assistance; and C20's surtax base. In part 2, the secure floor's six: INC-1's childless credit (`eitc_childless`, a rule), SNAP's 2025 cuts and SNAP before them (`snap_cut`, `snap`, INC-2), SSI received and SSI's indexed exclusions (`ssi`, `ssi_exclusions`, a rule, INC-3), and the refundable dependent care credit (`cdctc`, a rule, INC-4). INC-5's forgone rent offsets use housing's key.
+- **Measured:** 20 keys. In part 1, 14: Earnings and capped earnings; people and adults; FAM-1's child benefit (the American Family Act's credit less today's child and other-dependent credits, household by household); housing assistance; Medicaid and marketplace coverage; Medicare (three keys); employer coverage; Social Security; energy assistance; and C20's surtax base. In part 2, the secure floor's six: INC-1's childless credit (`eitc_childless`, a rule), SNAP's 2025 cuts and SNAP before them (`snap_cut`, `snap`, INC-2), SSI received and SSI's indexed exclusions (`ssi`, `ssi_exclusions`, a rule, INC-3), and the refundable dependent care credit (`cdctc`, a rule, INC-4). INC-5's forgone rent offsets use housing's key. INC-4's rule measures about $0.3 billion a year of refundability against a $4.5 billion booking; `results.md`, section 6, gives the reasons the CPS may run low and the data that would settle it. INC-1.02 is read as moving no money: no family loses the earned income credit from the shared definition (the lead, on #320).
 - **Kept, with the reason in `keys.csv`:** 29 keys, where the CPS cannot see the base: consumption and excises, capital and corporate income, the top-end taxes and the health coverage model's own keys.
 - **The top 1%:** for earnings and the surtax, the top 1%'s share is the legacy key's, because the CPS top-codes high incomes. It finds 9% of earnings and 28% of the surtax base in the top 1%, against the legacy 12% and 55%.
 - **Outputs:** net dollars per household per year, FY2030-39 average, by group, for every scenario, in the legacy model's arithmetic. They are divided by the model's mid-window household count: the CPS count grown to FY2034-35 with CBO's household growth, 147.1 million against the legacy 140 million.
@@ -77,7 +78,9 @@ All in `params.py` (parameters) and `tax.py` (calculator); 2025 values are the l
 What part 1 already shows, at 2029 law (`results.md`, section 4):
 - **Without a shelter deduction:** the single parent and the married couple lose 52.7 cents at 100-125% of poverty (SNAP 24, the earned income credit's phase-out 21, payroll 7.7), as the dossier's arithmetic says. Their combined rate is 39-41 cents at 150-200%, where the credit's phase-out meets the 12% bracket. On the marketplace, that rises to about 55 cents.
 - **With rent counted in SNAP's shelter deduction:** SNAP's effective rate is 36 cents, not 24. Each added dollar also shrinks the deduction by 50 cents. The two families then reach 64.7 cents at 100-125% of poverty under current law. **This matters for INC-5.02:** the memo's arithmetic used 24 cents.
-- **In the plan preview:** removing today's child credit takes away the credit's offset to the 10% bracket at 100-125% of poverty, so those families reach 62.7 cents before any shelter effect. Part 2 checks this against the full plan.
+- **In the plan preview:** removing today's child credit takes away the credit's offset to the 10% bracket at 100-125% of poverty, so those families reach 62.7 cents before any shelter effect.
+
+**The ceiling check (INC-5.02; `results.md`, section 7)** adds every plan layer (`plan_budget`): paid leave's worker share (0.3%, 0.55% at its ceiling), FAM-1, INC-1.01, SNAP as INC-2 restores it, the premium credit in 2030-34 only, and child care's charge (FAM-2.01) net of INC-4's refundable credit. State median income, which sets the charge's lines, is the CPS's median for four-person SPM units: nationally and in the lowest-income state (assumption A-10). **Result:** met from 2035 without SNAP's shelter deduction (63.0 cents for families with children, 56.5 for the single adult); not met for families with children at 100-125% of poverty with the deduction (75.0 from 2035, 77.1 in 2030-34 on the marketplace), nor at 65.1 in 2030-34 on the marketplace without it. The results give two fixes' static costs for the lead's options.
 
 ## Benchmarks
 
@@ -135,7 +138,7 @@ From the repository root:
 ```bash
 bash models/tools/run-all.sh                                   # builds the ledger, runs the tests and the model
 python3 models/tools/household/run.py --ledger build/ledger.json --out build/household
-python3 models/tools/household/test_household.py               # 23 tests; the legacy check needs build/
+python3 models/tools/household/test_household.py               # 26 tests; the legacy check needs build/
 python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   # rebuild the extract
 ```
 
@@ -149,7 +152,7 @@ python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   
 - equal-household groups and keys that sum to 100%;
 - the FAM-1 rule, and the secure floor's: the 2021 childless credit, the care credit's rates and the guarantee's charge, the refundable part, SSI's exclusions, and SNAP's cuts as the key's base;
 - P.L. 119-21's SNAP changes: the source year untouched, 2029's losses matching CBO's share, a cut of 8-12% of benefits;
-- the typical families;
+- the typical families, and the ceiling check's layers, charge and verdicts;
 - **exact reproduction of the legacy incidence model** in every scenario.
 
 ## Run log
@@ -158,4 +161,5 @@ python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   
 | --- | --- | --- | --- |
 | `RUN-household-2026-11-13-a` | #318, merged as `13d4664` (M3 part 1) | CPS ASEC 2026 extract (SHA-256 above); CBO February 2026 economic projections; `incidence-rows.csv`, `incidence-keys.csv`, `scenarios.json` as on main | The ledger as built from main on November 13, 2026 |
 | `RUN-household-2026-11-13-b` | The A-8 PR's head (M3 part 2, first piece: SNAP under P.L. 119-21) | As run a, with the SPM extract's four work-rule counts added | As run a; no provision result changes |
+| `RUN-household-2026-11-13-d` | M3 part 2, the 65-cent ceiling check (this PR's head) | As run b | As run a; results section 7 added, no provision result changes |
 | `RUN-household-2026-11-13-c` | M3 part 2, INC-1 to INC-5 (this PR's head) | As run b, with the extract's child care spending (`SPM_CHILDCAREXPNS`), children under 5 and 5-12, and SSI recipients' detail added (no existing field changes) | As run a, with `incidence-rows.csv` INC1 to INC5 and their keys |

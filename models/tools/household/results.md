@@ -213,7 +213,37 @@ Each is a row of the D3 test (`incidence-rows.csv`, INC1 to INC5). Its amount is
 | INC-4: the refundable dependent care credit | `cdctc` (rule) | $0.34B | $4.5B |
 | INC-5: the exclusion rule's forgone offsets | `housing` | — | — |
 
-- **INC-4 measures far below its booking.** On the CPS's child care spending, net of the child care guarantee (free below 85% of median income, a capped charge above; the CPS's national median for four-person units, $160,852, stands in for state median income), refundability pays about $0.34B a year. Most families who pay for care owe enough tax to use today's credit, and the guarantee takes over the care of the youngest children. The CPS misses care for dependent adults and under-reports spending, so this is a floor, but the booked $4.5 billion (a judgment, $3-6 billion) looks high. The key's shares are used, not its level.
+- **INC-4 measures far below its booking.** On the CPS's child care spending, net of the child care guarantee (free below 85% of median income, a capped charge above; the CPS's national median for four-person units, $160,852, stands in for state median income), refundability pays about $0.34B a year. Most families who pay for care owe enough tax to use today's credit, and the guarantee takes over the care of the youngest children. The CPS misses care for dependent adults and under-reports spending, so this is a floor, but the booked $4.5 billion (a judgment, $3-6 billion) looks high. The key's shares are used, not its level; the booking is unchanged (a change would be its own tier-3 step). *Why the CPS may run low:* the survey under-reports what families pay for care, most of all informal and part-year care; it has no care for dependent adults; its national median income for four ($160,852) runs above HHS's state medians, so more care counts as free under the guarantee; and families with little tax who pay for care are few in it. The full-take-up assumption pushes the other way. *What would settle it:* IRS Statistics of Income's Form 2441 claims by income and tax owed (the share of today's credit that liability limits), or a published score of a refundable credit (JCT's or TPC's for the 2021 version), each adjusted for the guarantee.
 - **INC-1.02 moves no money on the CPS** under the reading the rule takes: the Census already assigns each child to one tax unit by residence. If the earned income credit's age test were instead aligned to the child benefit's (under 18), about 1.71 million filing units with an 18-year-old or a student 19-23 would lose about $3.58B a year (about $2,094 each). The specification (`dossiers/secure-floor/4-specification.md`, INC-1.02) does not say which reading it means.
 - **INC-3.03's territory residents are not in the CPS**, nor in the D3 test's households; their benefit is spread like today's SSI.
+
+## 7. The 65-cent ceiling check (INC-5.02, shared rule 2)
+
+For the three typical families at 50% to 300% of poverty: the combined cents lost per added dollar of earnings from every federal layer under the decided plan, taxes included, against the published ceiling of 65 cents. Housing's 30% rent rule is outside it, as INC-5.02 says. Layers (`families.py`, `plan_budget`): payroll with paid leave's worker share (FAM-3.04, 0.3%); income tax at 2029 law with FAM-1's child benefit in place of today's child credit and INC-1.01's childless credit; SNAP on the rules INC-2 restores, with and without the excess shelter deduction; the premium tax credit on the marketplace in 2030-34, which the single plan ends from 2035; child care's charge for the child under 5 (FAM-2.01), net of INC-4's refundable credit. The charge depends on the state's median income: the CPS's lowest state ($98,693 for four in 2029) and its national median ($160,852) stand in for HHS's figures. 2029 law and prices throughout.
+
+| Family | Case | Highest rate (cents) | At % of poverty | Above 65 at | Result |
+| --- | --- | --- | --- | --- | --- |
+| Single parent, two children | 2035 on, no shelter deduction | 63.0 | 100% | — | **meets** |
+| Single parent, two children | 2035 on, with a $1,400 rent in SNAP's shelter deduction | 75.0 | 100% | 100%, 125% | **fails** |
+| Single parent, two children | 2030-34 on the marketplace, no shelter deduction | 65.1 | 100% | 100%, 125% | **fails** |
+| Single parent, two children | 2030-34 on the marketplace, with the rent | 77.1 | 100% | 100%, 125% | **fails** |
+| Married couple, two children (one earner) | 2035 on, no shelter deduction | 63.0 | 100% | — | **meets** |
+| Married couple, two children (one earner) | 2035 on, with a $1,400 rent in SNAP's shelter deduction | 75.0 | 100% | 100%, 125% | **fails** |
+| Married couple, two children (one earner) | 2030-34 on the marketplace, no shelter deduction | 65.1 | 100% | 100%, 125% | **fails** |
+| Married couple, two children (one earner) | 2030-34 on the marketplace, with the rent | 77.1 | 100% | 100%, 125% | **fails** |
+| Single adult | 2035 on, no shelter deduction | 56.5 | 100% | — | **meets** |
+| Single adult | 2035 on, with a $1,400 rent in SNAP's shelter deduction | 57.3 | 100% | — | **meets** |
+| Single adult | 2030-34 on the marketplace, no shelter deduction | 58.6 | 100% | — | **meets** |
+| Single adult | 2030-34 on the marketplace, with the rent | 59.4 | 100% | — | **meets** |
+
+The typical state gives the same highest rates: the charge starts above 300% of poverty there, and where it does reach these families (the lowest-income state, from about 240%), their rate is 26-32 cents from 2035 and 39-46 cents in 2032-34 with the premium credit. Paid leave at its 1.10% ceiling adds 0.25 cents everywhere. Steps that cross SNAP's net income test (the single adult at 125% with the rent) are cliffs, not rates, and exist under current law.
+
+**Where it fails:** single parent at 100% of poverty, 2035 on, with the rent: payroll 8.0, income tax 31.1 (the earned income credit's 21.06% phase-out plus the 10% bracket), SNAP 36.0 (30% of a net income that rises by $1.20 a dollar once the shelter deduction shrinks), total **75.0**. Two things push it past memo 7's arithmetic: SNAP's shelter interaction (36 cents, not 24), and FAM-1, which replaces the child credit whose nonrefundable part today offsets the 10% bracket at these incomes (+10 cents).
+
+**What two fixes would cost** (2029, static, full take-up; for the lead's options, not decided):
+
+- a nonrefundable family offset against income tax of $750 a child: about $42.6B a year ($28.9B at $500, which falls short at 125% of poverty). It removes the 10% bracket's 10 cents at 100-125%: from 2035 the shelter case comes to the ceiling exactly (65.0, so paid leave at its ceiling would tip it over), and the 2030-34 marketplace case to 55; with the rent in 2030-34 it is still 67.1;
+- SNAP's earned income deduction from 20% to 45%: up to about $32.1B a year on the CPS's annual earnings of SNAP households (an upper bound: SNAP counts monthly income only in months on SNAP, and the CPS records under half of SNAP). SNAP's rate falls to about 25 cents with the shelter deduction and 17 without; every case meets the ceiling except the married couple on the marketplace in 2030-34 with the rent (65.9).
+
+Only the two together clear every case. Neither is decided; the options are the lead's to put to Espen (INC-5.02's own rule is a review by the owning dossiers when a family type is above the ceiling for two years).
 
