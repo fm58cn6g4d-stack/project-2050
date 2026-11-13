@@ -6,6 +6,8 @@ only, plus the dossier's own path script through health_booking.py. Checks that:
   dossiers/care/tools/health_path.py, so a change to the dossier's path fails here instead of drifting;
 - the fiscal model books the spending line at the path's FY2040 figure and the exclusion revenue (HX) at its own;
 - the plan's net cost on the model's basis (HLT-1 plus HLT-7's spending line, less HX) is the dossier's $21.74T;
+- HLT-7's status-rule component (DEC-2026-11-12-19) is care_base_correction's coverage, less the Emergency Medicaid
+  that keeps paying, booked once on its own component;
 - the employer contribution is not booked on any channel, and HX is general-fund base revenue;
 - HLT-3 and HLT-5 are retired, HLT-1, HLT-2 and HLT-6 end with the 2035 endpoint, and HLT-4's retired parts end
   with their waves while its safety-net part continues (its long-term care is care_booking.py's, test_fiscal_care.py);
@@ -104,6 +106,25 @@ class HealthBooking(unittest.TestCase):
         self.assertAlmostEqual(t(self.part("HLT-7", "worker-help")), 0.06, places=9)   # HLT-7.16, FY2033-38
         self.assertEqual(self.part("HLT-7", "worker-help")[2040], 0)
         self.assertAlmostEqual(round(self.b["totals"]["with_contribution"], 2), 16.43)
+
+    def test_status_rule_is_booked_once(self):
+        """DEC-2026-11-12-19: care's base no longer covers people with no status beyond the residual; Emergency
+        Medicaid keeps paying for them (dossiers/care/tools/status_rule.py; 6-cost.md part 2b)."""
+        t = lambda p: sum(p[y] for y in W) / 1000  # noqa: E731
+        sr = self.part("HLT-7", "status-rule")
+        self.assertAlmostEqual(t(sr), self.b["totals"]["status_rule_window"], delta=0.0005)
+        self.assertAlmostEqual(sr[2040], self.b["fy2040"]["status_rule"], delta=0.5)
+        self.assertAlmostEqual(self.b["totals"]["status_rule_window"], -0.419, delta=0.0005)   # part 2b
+        self.assertTrue(all(sr[y] < 0 for y in range(2031, 2041)))     # a saving from wave 1
+        self.assertEqual(sr[2030], 0)
+        lo, mid, hi = self.b["totals"]["status_rule_range"]
+        self.assertLess(lo, mid)
+        self.assertLess(mid, hi)
+        # the same people as the immigration model's care_base_correction, whose coverage part it is
+        SR = load("t_status_rule", ROOT / "dossiers/care/tools/status_rule.py")
+        h = SR.health(1)
+        self.assertAlmostEqual(sum(h["removed"][y] for y in W), -429.5, delta=0.5)
+        self.assertGreater(sum(h["em_kept"][y] for y in W), 0)
 
     def test_contribution_is_not_booked(self):
         # the only revenue row from the health plan is HX: no employer contribution (HLT-7.18) and no FEHB money

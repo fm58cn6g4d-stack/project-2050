@@ -59,7 +59,7 @@ Americans pay the most in the world for health care and still go without it. By 
 
 | Can say | Can't say |
 | --- | --- |
-| "Everyone who lives here is covered by 2035" (HLT-7.03), with the immigration flagship deciding coverage for people without status | "Every person in the country is covered" before the immigration flagship decides |
+| "Everyone who lives here with legal or registered status is covered by 2035, and anyone can get emergency care" (HLT-7.01, 7.03; IMM-1.21, `DEC-2026-11-12-19`; long-term care the same, `DEC-2026-11-13-01`) | "Every person in the country is covered": people with no immigration status get emergency care, not the plan |
 | "About 36.6 million uninsured in 2029" (CBO) | "Zero uninsured": on our estimates about 3.6 million remain at the endpoint |
 | "On our estimates, about $500 billion less national health spending a year at full scale" | "It saves money" without "on our estimates" and "national spending"; the federal budget's cost rises by about $2.7 trillion a year at full scale |
 | "Households stop paying about $1.5 trillion a year of premiums and out-of-pocket costs" (on our estimates) | "Families come out ahead" until the settlement sets the taxes |

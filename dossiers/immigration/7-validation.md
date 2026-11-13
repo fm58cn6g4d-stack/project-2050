@@ -58,7 +58,7 @@ Role: section 7 of the immigration dossier. It compares the costs and reach in s
 | Everyone else present on the signature date (and tier A's late arrivals of the year of enactment) | About 2-4 million | Registered status: a work permit and protection now, a green card at ten years | From filing |
 | Citizen children with an unauthorized parent | 5.3 million (MPI) [EV-IMM-007] | A parent with status and a work-eligible number; the child benefit by their own ID | 2030-31 |
 | Green cards over the decade | About 6-8 million at about 70% take-up [EV-IMM-609] [EV-IMM-603] | Permanent residence; citizenship on the clock | 2031-40 |
-| People still without status after memo 1 | About 1.5-3 million (memo 6) | Emergency care as today; child care and the child benefit for their children; not the single plan, SNAP or SSI. Filing for status brings the single plan from the receipt | — |
+| People still without status after memo 1 | About 1.5-3 million (memo 6) | Emergency care as today; child care and the child benefit for their children; not the single plan, its long-term care benefit (IMM-1.23), SNAP or SSI. Filing for status brings the single plan from the receipt | — |
 | Families on the queues | About 3.8 million on the family waiting list [EV-IMM-127] | Spouses and children of permanent residents outside the caps; more numbers | From FY2031 |
 | Refugees | At least 50,000 a year, against 7,730 admitted through June 2026 [EV-IMM-052] | Admission | From FY2030 |
 | People in detention | About 65,000 held in 2026 [EV-IMM-171], to 30,000 on average | Counsel; standards; case management for others | October 2029 (cap); counsel with the act |

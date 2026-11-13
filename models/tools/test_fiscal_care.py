@@ -79,8 +79,8 @@ class CareBooking(unittest.TestCase):
         t = self.b["totals"]
         self.assertEqual(round(t["decided_window"] * 1000), 3537)
         self.assertEqual(round(t["decided_fy2040"]), 729)
-        self.assertEqual(round(t["allin_window"] * 1000), 3665)
-        self.assertEqual(round(t["allin_fy2040"]), 751)
+        self.assertEqual(round(t["allin_window"] * 1000), 3662)   # 3,665 less the status rule (DEC-2026-11-13-01)
+        self.assertEqual(round(t["allin_fy2040"]), 750)
         self.assertAlmostEqual(t["booked_window"], t["allin_window"], places=9)   # every line booked once
         # the fiscal model's paths: the ledger keeps $1 billion per row, so the window is within $3 billion
         win = sum(sum(self.path(r)[y] for y in W) for r in OWNERS[1:]) + sum(
@@ -89,6 +89,19 @@ class CareBooking(unittest.TestCase):
         fy40 = sum(self.path(r)[2040] for r in OWNERS[1:]) + sum(
             self.part("HLT-4", n)[2040] for n, _, _, g in self.b["components"]["HLT-4"] if g)
         self.assertAlmostEqual(fy40, t["allin_fy2040"], delta=1.0)
+
+    def test_status_rule_lowers_new_users_only(self):
+        """DEC-2026-11-13-01: long-term care covers people with lawful or registered status; only new users and
+        nursing-home residents with no status come out (Medicaid's current users already have status)."""
+        names = [n for n, _, _, _ in self.b["components"]["HLT-9"]]
+        self.assertIn("status-rule", names)
+        sr = self.part("HLT-9", "status-rule")
+        self.assertTrue(all(sr[y] == 0 for y in range(2030, 2035)))
+        self.assertTrue(all(sr[y] < 0 for y in range(2035, 2041)))
+        win = sum(sr[y] for y in W)
+        self.assertAlmostEqual(win, -3.3, delta=0.15)                 # 6bcd-cost.md part 2b
+        benefit = sum(self.part("HLT-9", "home-care-benefit")[y] for y in W)
+        self.assertLess(-win, 0.01 * benefit)                          # a small share: few users have no status
 
     def test_down_payment_retired_not_double_counted(self):
         comps = {(r["owner"], r["component"]) for r in rows("fiscal-components.csv")}
