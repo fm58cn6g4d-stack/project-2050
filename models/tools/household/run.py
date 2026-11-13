@@ -97,6 +97,12 @@ def provision_runs(B, ledger_path):
         rec.append(row)
         prev = row
     out["reconciliation_q"] = rec
+    # sensitivity (the lead's answer on #318): the housing key as typed (60% in Q1) in place of the CPS measure
+    Ks = dict(KM)
+    Ks["housing"] = KL["housing"]
+    out["sensitivity_housing_legacy_q"] = {
+        "central": {g: out["scenarios"][qname]["model"][g]["net"] for g in P.GROUPS + ["Q5x", "T1"]},
+        "housing_legacy": {g: v["net"] for g, v in P.run(pkg, opts, o, drop, Ks, hh, inc)[0].items()}}
     return out
 
 
@@ -186,6 +192,13 @@ def markdown(R):
     for row in pr["reconciliation_q"]:
         ch = money(row["change_q4"]) if "change_q4" in row else ""
         A(f"| {row['step']} | " + " | ".join(money(row[g]) for g in ["Q1", "Q2", "Q3", "Q4", "Q5", "T1"]) + f" | {ch} |")
+    sv = pr["sensitivity_housing_legacy_q"]
+    A("\n### Sensitivity, scenario Q: the housing key\n")
+    A("The central case measures housing's key on the CPS (today's assisted households, 93% in Q1). The sensitivity "
+      "keeps the legacy key (60% in Q1), for awards that reach further up than today's assistance.\n")
+    A("| Housing key | Q1 | Q2 | Q3 | Q4 | Q5 |\n| --- | --- | --- | --- | --- | --- |")
+    for lab, k in (("CPS-measured (central)", "central"), ("Legacy, 60% in Q1 (sensitivity)", "housing_legacy")):
+        A(f"| {lab} | " + " | ".join(money(sv[k][g]) for g in P.GROUPS) + " |")
     A("\n### The keys: measured against legacy\n")
     A("Percent of each key's total by quintile, and the top 1%'s share. Only keys marked `micro` in `keys.csv` change.\n")
     A("| Key | Source | Model Q1-Q5 | Model top 1% | Legacy Q1-Q5 | Legacy top 1% |\n| --- | --- | --- | --- | --- | --- |")

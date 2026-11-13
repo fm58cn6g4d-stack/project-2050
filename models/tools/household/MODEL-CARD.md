@@ -103,7 +103,7 @@ Scenario Q (the decided package), net dollars per household per year, FY2030-39 
   - the earnings keys (+$144): the CPS puts 54% of earnings in the top quintile, against the typed 46%, so payroll-based costs (the paid-leave contribution, the education fund) fall less on the fourth;
   - FAM-1's key (+$51);
   - partly offset by the housing key (−$92): the CPS puts today's housing assistance 93% in the first quintile, against the typed 60%.
-- **The second quintile falls by about $900, mostly from the housing key.** If new vouchers reach the same households as today's assistance, they go even more to the bottom than the legacy key assumed. That is a reading of the key, not a change to housing's design. If the housing dossier expects awards to reach higher up, its key should say so.
+- **The second quintile falls by about $930 in all.** The housing key accounts for about $440 of it, the larger household count for about $290 and the other keys for the rest. Housing's key is a model-design choice, and the lead settled it on #318: the CPS-measured spread (today's assisted households, 93% in the first quintile) is the central case. The legacy key (60%) is a stated sensitivity in `results.md`: with it, Q1 is +$7,834, Q2 +$5,561 and Q4 −$328. If the housing dossier expects new awards to reach higher up than today's assistance, the sensitivity is the reading to use.
 - **The top 1%** pays $639,304 a year against $671,709, from the larger household count.
 - **What's still open:** the remaining typed keys (capital, consumption and the top-end taxes) dominate the costs, so the measured keys change the picture at the margin, not at the core. Replacing them needs tax data (TPC or CBO tables by key), part 2.
 

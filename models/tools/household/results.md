@@ -150,6 +150,15 @@ Net dollars per household per year (benefits minus costs). "Legacy" reproduces t
 | Key `wages` measured on the CPS | +$8,590 | +$5,059 | +$3,047 | −$501 | −$47,871 | −$639,377 | +$63 |
 | Key `wages_cap` measured on the CPS | +$8,618 | +$5,119 | +$3,137 | −$420 | −$48,129 | −$639,304 | +$81 |
 
+### Sensitivity, scenario Q: the housing key
+
+The central case measures housing's key on the CPS (today's assisted households, 93% in Q1). The sensitivity keeps the legacy key (60% in Q1), for awards that reach further up than today's assistance.
+
+| Housing key | Q1 | Q2 | Q3 | Q4 | Q5 |
+| --- | --- | --- | --- | --- | --- |
+| CPS-measured (central) | +$8,618 | +$5,119 | +$3,137 | −$420 | −$48,129 |
+| Legacy, 60% in Q1 (sensitivity) | +$7,834 | +$5,561 | +$3,368 | −$328 | −$48,110 |
+
 ### The keys: measured against legacy
 
 Percent of each key's total by quintile, and the top 1%'s share. Only keys marked `micro` in `keys.csv` change.
