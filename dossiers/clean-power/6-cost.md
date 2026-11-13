@@ -64,7 +64,7 @@ Priced bottom-up in `clean_power_path.py`, every input a working assumption labe
 
 | Input | Working assumption | Basis |
 | --- | --- | --- |
-| Covered layoffs a year, contractors included | 8,000 (range 5,000-13,000) | Coal capacity falling from 172 GW toward zero unabated by 2040 [EV-CLP-508], at about 0.18 jobs a megawatt plus a quarter for contractors (judgment); part of 44,060 coal mine jobs [EV-CLP-500]; refineries and gas plants |
+| Covered layoffs a year, contractors included | 8,000 (range 5,000-13,000) | Coal capacity of 172 GW in May 2025, scheduled to fall to 145 GW by the end of 2028 [EV-CLP-508]; about 140 GW left in 2030 closes by 2040, when unabated coal ends on the carbon model, at about 0.18 jobs a megawatt plus a quarter for contractors (judgment); part of 44,060 coal mine jobs [EV-CLP-500]; refineries and gas plants |
 | Take-up | 85% | Automatic from records |
 | Paths | 25% aged 55 or more; of the rest, 65% re-employed, 25% in training | Judgment |
 | Prior pay, after the cap at twice the median wage | $90,000 in 2030, +3% a year | Judgment |

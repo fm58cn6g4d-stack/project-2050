@@ -32,7 +32,9 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 | 4. Specification | `4-specification.md` and `provisions.json` (53 provisions, built by `tools/build_provisions.py`): the price and the dividend, credits and industry, standards and goals, the grid, bills, adaptation, the transition guarantee, farms and forests | Draft, L2 (E-C2, PR 1) |
 | 5. Delivery | `5-delivery.md`: every job through an existing agency, record and payment system (`DEC-2026-11-13-08`); capacity, timeline, remedies, states, rural delivery | Draft, L2 (E-C2, PR 1) |
 | 6. Cost | `6-cost.md`, with `tools/clean_power_path.py` and `tools/coverage_read.py` (a read of the carbon model for memo 1 B): the decided set by fiscal year against the booked rows, what the total leaves out, the fiscal-rule report, the booking's steps | Draft, L2 (E-C2, PR 1); not booked |
-| 7-9 | — | E-C2, PR 2 |
+| 7. Validation | `7-validation.md`: against outside figures; what the models miss; how it lands with the plan; who it reaches (the carbon channel by quintile under memo 1 B); emissions; objections; signs of failure | Draft, L2 (E-C2, PR 2) |
+| 8. What would change our minds | `8-change-our-minds.md` | Draft, L2 (E-C2, PR 2) |
+| 9. Public case | `9-public-case.md`, with its source table | Draft, L2 (E-C2, PR 2) |
 
 ## Evidence and sources
 
@@ -41,4 +43,4 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 ## Open questions for Espen
 
-None from this step. The memo batch is decided. The milestone review comes after sections 7-9, then the booking (tier 3).
+None blocking; the memo batch is decided. **A note for Espen:** memo 4 B described the public builder as "a federal transmission authority, on TVA's model". Under your rule to use existing machinery first (`DEC-2026-11-13-08`), sections 4 and 5 place it inside WAPA's existing transmission program, extended nationwide, with TVA and Bonneville building in their own regions, instead of creating a new federal corporation (`4-specification.md`, CLI-10.03; `5-delivery.md`, part 1, item 3). If you prefer a separate entity, only CLI-10.03's agency changes. Sections 1-9 are drafted; next are the milestone review and then the booking (tier 3).
