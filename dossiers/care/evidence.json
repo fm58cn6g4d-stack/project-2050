@@ -13351,7 +13351,7 @@
  },
  {
   "id": "EV-CAR-715",
-  "statement": "The Committee for a Responsible Federal Budget concurred with the Sanders campaign's February 2020 estimate of $12.2 trillion for three direct offsets (a household income premium, an employer payroll tax and ending health tax breaks), but its own estimate for the employer tax was $4 trillion against the campaign's $5.2 trillion, a gap it attributes to how interactions are distributed.",
+  "statement": "The Committee for a Responsible Federal Budget concurred with the Sanders campaign's February 2020 estimate of $12.2 trillion for three direct offsets (a household income premium, an employer payroll tax and ending health tax breaks) and with its $5.2 trillion for the employer tax on the campaign's method; CRFB's own earlier estimate of that tax was $4 trillion.",
   "claim": "analysis",
   "figures": [
    "$12.2 trillion",
@@ -13368,7 +13368,7 @@
   "fact_date": "2020-02-26",
   "checked": "2026-11-13",
   "recheck": "2027-11-13",
-  "context": "Committee for a Responsible Federal Budget: nonpartisan, a deficit-reduction advocate, no stake in Medicare for All passing. It scored the campaign's February 24, 2020 version of the options, a later version than the undated paper, and it concurs using the campaign's own method, so it is partial corroboration. Five years old; the 2025 law changed the tax base.",
+  "context": "Committee for a Responsible Federal Budget: nonpartisan, a deficit-reduction advocate, no stake in Medicare for All passing. It scored the campaign's February 24, 2020 version of the options, a later version than the undated paper, and it concurs using the campaign's own method, so it is partial corroboration of the campaign's figure, not an independent estimate of it. Five years old; the 2025 law changed the tax base.",
   "supports": [
    "dossiers/foundations/checkpoint-financing.md"
   ],
