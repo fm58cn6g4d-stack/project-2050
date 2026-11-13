@@ -7,7 +7,8 @@ only, plus the dossier's own path script through health_booking.py. Checks that:
 - the fiscal model books the spending line at the path's FY2040 figure and the exclusion revenue (HX) at its own;
 - the plan's net cost on the model's basis (HLT-1 plus HLT-7's spending line, less HX) is the dossier's $21.74T;
 - HLT-7's status-rule component (DEC-2026-11-12-19) is care_base_correction's coverage, less the Emergency Medicaid
-  that keeps paying, booked once on its own component;
+  and the hospitals' DSH-type uncompensated-care share (DEC-2026-11-13-02) that keep paying, booked once on its own
+  component;
 - the employer contribution is not booked on any channel, and HX is general-fund base revenue;
 - HLT-3 and HLT-5 are retired, HLT-1, HLT-2 and HLT-6 end with the 2035 endpoint, and HLT-4's retired parts end
   with their waves while its safety-net part continues (its long-term care is care_booking.py's, test_fiscal_care.py);
@@ -109,12 +110,13 @@ class HealthBooking(unittest.TestCase):
 
     def test_status_rule_is_booked_once(self):
         """DEC-2026-11-12-19: care's base no longer covers people with no status beyond the residual; Emergency
-        Medicaid keeps paying for them (dossiers/care/tools/status_rule.py; 6-cost.md part 2b)."""
+        Medicaid keeps paying for them, and so does hospitals' DSH-type uncompensated-care share (DEC-2026-11-13-02)
+        (dossiers/care/tools/status_rule.py; 6-cost.md part 2b)."""
         t = lambda p: sum(p[y] for y in W) / 1000  # noqa: E731
         sr = self.part("HLT-7", "status-rule")
         self.assertAlmostEqual(t(sr), self.b["totals"]["status_rule_window"], delta=0.0005)
         self.assertAlmostEqual(sr[2040], self.b["fy2040"]["status_rule"], delta=0.5)
-        self.assertAlmostEqual(self.b["totals"]["status_rule_window"], -0.419, delta=0.0005)   # part 2b
+        self.assertAlmostEqual(self.b["totals"]["status_rule_window"], -0.4105, delta=0.0005)   # part 2b
         self.assertTrue(all(sr[y] < 0 for y in range(2031, 2041)))     # a saving from wave 1
         self.assertEqual(sr[2030], 0)
         lo, mid, hi = self.b["totals"]["status_rule_range"]
@@ -125,6 +127,17 @@ class HealthBooking(unittest.TestCase):
         h = SR.health(1)
         self.assertAlmostEqual(sum(h["removed"][y] for y in W), -429.5, delta=0.5)
         self.assertGreater(sum(h["em_kept"][y] for y in W), 0)
+        # DEC-2026-11-13-02: the DSH-type share, on everyone with no status as Medicaid moves into the plan
+        dsh = h["dsh_kept"]
+        self.assertAlmostEqual(sum(dsh[y] for y in W), 8.4, delta=0.05)
+        self.assertAlmostEqual(dsh[2040], 1.1, delta=0.05)
+        self.assertEqual(dsh[2030], 0)
+        self.assertTrue(all(dsh[y] > 0 for y in range(2031, 2041)))
+        for y in list(W) + [2040]:
+            self.assertAlmostEqual(h["net"][y], h["removed"][y] + h["em_kept"][y] + dsh[y], places=9)
+        lo, hi = (sum(SR.health(i)["dsh_kept"][y] for y in W) for i in (0, 2))
+        self.assertLess(lo, sum(dsh[y] for y in W))
+        self.assertLess(sum(dsh[y] for y in W), hi)
 
     def test_contribution_is_not_booked(self):
         # the only revenue row from the health plan is HX: no employer contribution (HLT-7.18) and no FEHB money
