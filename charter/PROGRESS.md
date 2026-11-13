@@ -2,17 +2,18 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6): who is working, what is in motion, where each dossier stands, what comes next, known gaps and open questions for Espen. Only the lead edits it, folding in the "For the board" notes from workers' PRs (`DEC-2026-11-12-03`). Status: current. It holds no history: finished work is in Git and the PRs, decisions are in `charter/decisions.md`, and rules are in `charter/STANDARDS.md`.
 
-Updated November 13, 2026 (about 00:45 UTC) by the lead, session_01UQzgBwNea5uYV7BMBRB3Ha.
+Updated November 13, 2026 (about 01:35 UTC) by the lead, session_01UQzgBwNea5uYV7BMBRB3Ha.
 
 ## Standing sessions
 
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
 | Lead | `session_01UQzgBwNea5uYV7BMBRB3Ha` | Project 2050: lead | November 12, about 22:01 UTC |
-| Reviewer | `session_01UQzgBxJre9xhzNQVtr5prW` | Project 2050: reviewer | November 12, about 17:48 UTC; woken every three hours at :32 by the scheduled task `trig_018vXM1DzQgYoSdYohwgxr72` (older reviewer tasks are disabled) |
+| Reviewer | `session_01UQzgBw6mqUQnF5hz7WbpQH` | Project 2050: reviewer | November 13, about 01:31 UTC; woken every three hours at :32 by the scheduled task `trig_01QHkurHcrA7npaVk277NyeR` (older reviewer tasks are disabled) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 **Former standing sessions** (the most recent; earlier ones are in this file's Git history):
+- Reviewer `session_01UQzgBxJre9xhzNQVtr5prW`: PRs #284 to #313; November 12 to 13.
 - Lead `session_01UQzgBuYpTa4haagP5TUTko`: the charter audit (#290, #291), the board rewrite and restart plan, 0o/0p/0q recorded, secure floor S4 to its booking (#304), immigration I4 and its review, budget inputs #289 and #297; November 12.
 - Lead `session_01UQzgBtrMsAhWpEyfRAzn6W`: the care booking and paid-leave ceiling merges (#265, #266), the process rules `DEC-2026-11-12-01` to `-05`, the budget model's B6 remainder (#272 to #282), question 0q; November 12.
 - Reviewer `session_01UQzgBufZFsrJoyrRZhNoe2`: PRs #265 to #283; November 12.
@@ -21,25 +22,22 @@ Updated November 13, 2026 (about 00:45 UTC) by the lead, session_01UQzgBwNea5uYV
 
 ## In motion
 
-- **Open PRs:** this board PR.
+- **Open PRs:** this board PR; the hospital uncompensated-care booking (tier 3, the lead's subagent, opening soon; see below).
 - **Workers (report to the lead):**
-  - Care base correction for option C, `session_01UQzgBskUP5ct6NJr6zMve5` (Most capable, started November 13 about 00:40 UTC; tier 3). It records Espen's long-term care answer as a new decision entry and re-books care's base: health (about −$430B over FY2030-39, −$36B in FY2040, on the immigration model's estimate) and long-term care, both for people with no status. Espen's words, November 13: "no, long-term care narrows too" (IMM-1.23 follows the same rule as health).
-  - Immigration milestone review, fix steps and booking, `session_01UQzgBtaHE8nkT9Znw8gZVp` (#303, #305, #307, #310, all merged; past 700,000 tokens): done; takes on nothing more.
-  - Secure floor fix session `session_01UQzgBwAwdHFG8ArnCwHdrQ`: done (#298, #301).
-  - I4 author `session_01UQzgBufjvZ5c5m2JNm9iBZ`: done (#294, #299).
-  - The outgoing lead, `session_01UQzgBuYpTa4haagP5TUTko`: stepped back.
+  - Clean power E-C1, `session_01UQzgBvGHoWGmLZJ179V9R7` (Most capable, started November 13 about 01:31 UTC): `dossiers/clean-power/`, sections 1-3 and the decision memo batch; source block SRC-4400 to 4799.
+  - The lead's subagent: Espen's answer on uncompensated care for people the plan doesn't cover (`dossiers/care/6-cost.md`, open question 3): "agree with b on unpaid care for uninsured" (November 13). A federal DSH-type payment to hospitals continues for that emergency care, about $1-4B a year; one tier-3 PR with its decision entry and booking.
+  - Done: care base correction `session_01UQzgBskUP5ct6NJr6zMve5` (#313; `DEC-2026-11-13-01`); immigration `session_01UQzgBtaHE8nkT9Znw8gZVp` (#303 to #310); M2 (#312, the lead's subagent).
 - **Labels and decision-log conflicts:** two tier-3 PRs that both add rows to `charter/decisions.md` conflict when the first merges, and the gate drops `espen-approved` from the second when that conflict is resolved (#310, November 13). Ask Espen to label such PRs one at a time, the next only after the first merges and the second is updated.
-- **Lead check-in:** `trig_01S1Wi1m3GphpoGYxPDe6ZJ4` (`send_later`, November 13, 01:03 UTC), re-armed every three hours. The outgoing lead's `trig_018c9dsspfuh2UnHeFTE5hWQ` is disabled.
+- **Lead check-in:** a `send_later` check-in every three hours (the next is set at each check-in). The outgoing lead's `trig_018c9dsspfuh2UnHeFTE5hWQ` is disabled.
 - **Codex** access to the repository is suspended by Espen for now (out of credits); don't reach it with PR comments until it is restored.
 - **Espen's usage:** a weekly-limit reset was used on November 12 and lasts until Monday at 2 am Eastern; about 12% was used by Thursday night, November 12. Keep working at three sessions, with lighter models for mechanical work.
 
 ## Next, in order
 
-1. The care base correction (tier 3, in progress), then Espen's label.
-2. **Clean power (flagship 4, stage E's other flagship)**, in a fresh Most capable session as soon as the care correction frees a slot (Espen, November 13: "we ofc should continue"). Same ladder as the other flagships: sections 1-3 and the decision memos first.
+1. The hospital uncompensated-care booking (tier 3, the lead's subagent), then Espen's label.
+2. **Clean power (flagship 4, stage E's other flagship)**, E-C1 in progress: sections 1-3 and the decision memos; then sections 4-9, the milestone review and the booking.
 3. **Maintenance, alongside clean power:**
-   - **M2, library and housing mechanics** (Standard; the lead's subagent, in progress): `library/build_catalog.py` respects reserved ID blocks; one home for CRS R48552; catalog anchors for D and E evidence entries; `packages.py`'s stale housing label.
-   - **M1, dossier tidy-up** (Most capable): out-of-date status lines in every dossier README and review file (see "Known gaps"); care's one map; transportation's `6-cost.md` refreshed to #289 and #297's figures.
+   - **M1, dossier tidy-up** (Most capable): out-of-date status lines in every dossier README and review file (see "Known gaps"); care's one map; transportation's `6-cost.md` refreshed to #289 and #297's figures. Also: care's `6-cost.md` part 5 table still shows #230's totals; immigration's README and status lines (L3); the board's own `M2` notes.
    - **M3, the household model rebuild, with the legacy outputs:** `models/tools/household/` from the legacy incidence model and the child-poverty microsimulation, with a model card and benchmarks (Census poverty figures, the Tax Policy Center). Move the legacy suite's reports out of `legacy/` as it replaces them. Most capable, about two or three sessions. The secure floor's 65-cent ceiling, the checkpoint's revenue options and stage G's fairness test need it. Also give INC-1 to INC-5 incidence keys (#304's open item).
    - Immigration's open items (small): the vote model's two-bill split for IMM-1 (memo 7 part 3); a Social Security funds line for E-Verify's −$42B; spot checks W-1, W-3 and C-5 from the milestone review.
 4. **Settlement checkpoint memo for Espen** at the end of stage E, after clean power is booked: the plan-wide gap, the revenue options the legacy work holds, and which flagships drive the cost.
@@ -57,7 +55,7 @@ Updated November 13, 2026 (about 00:45 UTC) by the lead, session_01UQzgBwNea5uYV
 | Care parts B-D (`dossiers/care/`, flagship 2) | L3 (FAM-2A to 2F at L2) | Sections 1b-9bcd, memos 6-17; review passed (#260, #263); booked (#265) | None; the README's status table is out of date |
 | Secure floor (`dossiers/secure-floor/`, flagship 1) | L3 (alternatives and options at L1-L2) | Sections 1-9 and memos 1-7, decided (`DEC-2026-11-12-06`, `-09`, `-13` to `-15`); review #298, fixes #301; booked (#304, which was also the L3 re-check): about $2.53T over FY2030-39 and $292B in FY2040 | Incidence keys for INC-1 to INC-5 (M3); SS-8's budget treatment (research) |
 | Immigration (`dossiers/immigration/`, flagship 6) | L3 (alternatives at L2) | Sections 1-9, memos 1-7 and the first immigration model (`tools/immigration_model.py`), decided (`DEC-2026-11-12-07`, `-12`, `-17` to `-19`); milestone review #303, fixes #305 and #307; booked (#310, which was also the L3 re-check): about +$175B over FY2030-39 and +$28.8B in FY2040 | IMM-1.23's long-term care text follows option C (the care base correction); the open items in "Next" |
-| Clean power (flagship 4) | L1 | Not started | Stage E, after a slot frees |
+| Clean power (`dossiers/clean-power/`, flagship 4) | L1 | E-C1 started November 13 | Sections 1-3 and the memo batch |
 | Work (flagship 5), democratic renewal, fair financing | L1 | Not started (stages F and G) | — |
 | Rural delivery note (`dossiers/foundations/rural-delivery.md`) | — | Done (#171); applied project-wide by `DEC-2026-11-09-26` | Each dossier reads it for section 5 |
 
@@ -65,11 +63,12 @@ Updated November 13, 2026 (about 00:45 UTC) by the lead, session_01UQzgBwNea5uYV
 
 - **Done:** B1 conventions and assumptions; B2 data layer; B3 provision library; B5 viewer; B6 integration; B7 Espen's counting choices (`DEC-2026-11-08-03` to `-07`, `DEC-2026-11-12-08`). The workflow is `WORKFLOW.md` (#104).
 - **B4 benchmarks:** Espen answered 0r: a light research pass on historical spend-out averages, an evidence-backed placeholder in the model, and B4 closed with PS-4b reported as not fully validated (`DEC-2026-11-12-11`, #297). `MODEL-CARD.md` lists what is validated, bounded and not yet validated.
-- **Plan-wide FY2040 general-fund primary balance** (case `mixed`, after #310): about $4,275B short (7.89% of GDP).
+- **Plan-wide FY2040 general-fund primary balance** (case `mixed`, after #313): about $4,239B short (7.83% of GDP).
 - Budget-model workers report to the lead.
 
 ## Known gaps
 
+- **Immigration (from #313):** `dossiers/immigration/3-design.md`'s proposed shared-rule-3 note needs its first sentence changed (long-term care now narrows too) before it goes into `dossiers/shared-rules.md`.
 - **Secure floor (from S4, #287):**
   - SS-8, the trust funds' stock investment, is booked at zero: how the budget records the purchases (outlays, financing, or returns above Treasury's rate) needs a check of CBO's and OMB's treatment; the Railroad Retirement trust is the nearest precedent.
   - INC-1 to INC-5 have no incidence keys, so they are not in the D3 household test (M3).
@@ -80,12 +79,10 @@ Updated November 13, 2026 (about 00:45 UTC) by the lead, session_01UQzgBwNea5uYV
 - **For the financing settlement:** with child care and pre-K inside the education fund (EDU-9B), its reserve goes negative in 2035 at the 1.4-point rate (about 1.7 points keeps it solvent); R1's child benefit adds about $2.3 trillion in the ten years after its window (the Byrd rule).
 - **Housing, deferred** (fix step 7, #193):
   - the HOU-2D tax credits are booked as parts of HOU-1, so they show as outlays; their own revenue row is a tier-3 change;
-  - D and E evidence entries need a catalog anchor so the checker can resolve them;
-  - `models/tools/financing-protection/packages.py` still labels a screen "additional housing 135 to 100" (HOU-4D is $115 billion);
+  - `models/tools/financing-protection/packages.py`'s screen "additional housing 135 to 100" predates HOU-4D's $115 billion; it stays as a historical screen until the financing settlement rebuilds the screens (#312);
   - 11 headline figures quoted in read-only legacy files no longer match the model (`legacy/index/check-report.md`); legacy is cited, never edited.
 - **Library:**
-  - `library/build_catalog.py` assigns the next free `SRC-` number even inside a dossier's reserved block; assign IDs by hand until it is fixed.
-  - One name, CRS R48552, leads to two SNAP files (SRC-3610, SRC-3911); it needs one home.
+  - Reserved source blocks live in `library/reserved-blocks.csv`; a new dossier adds its row there (#312).
   - `catalog-facts.csv` dates depend on the clone's history depth, so the file is refreshed, never checked.
 - **Out-of-date status lines in dossier files:** the transportation README ("in progress, step 7"); the care README's tables; housing's `review-milestone.md` ("L3 not yet"); the immigration README (0p "with Espen"); the scenario README's file list. Step M1 fixes them.
 - **Public pages:** two story claims (`q4`, `downside`) cite figures that PR #45 changed; the page stays pinned to its evidence commit until an editor rereads it. `public/site/index.html` is pinned to an older commit and is rebuilt in stage H.
