@@ -258,18 +258,40 @@ class Ceiling(unittest.TestCase):
 
 
 class LegacyReproduction(unittest.TestCase):
+    """`d3.py` replaced the legacy incidence model (M3 part 2). Its legacy version must give the legacy model's last
+    results (frozen in `test-data/`) while the rows, keys, scenarios and ledger amounts are those it ran on."""
+
     def test_legacy_figures(self):
+        import hashlib
+        import d3
         build = os.environ.get("BUILD", os.path.join(ROOT, "build"))
-        led, inc = os.path.join(build, "ledger.json"), os.path.join(build, "incidence.json")
-        if not (os.path.exists(led) and os.path.exists(inc)):
-            self.skipTest("no ledger.json/incidence.json in BUILD; run models/tools/run-all.sh")
-        legacy = json.load(open(inc))
-        pkg, opts = P.rows(P.ledger_values(led))
-        K = P.legacy_keys()
-        for name, (o, drop) in P.scenarios().items():
-            res = P.run(pkg, opts, o, drop, K)[0]
-            for g in P.GROUPS + ["Q5x", "T1"]:
-                self.assertEqual(res[g]["net"], legacy[name]["res"][g]["net"], msg=(name, g))
+        led = os.path.join(build, "ledger.json")
+        if not os.path.exists(led):
+            self.skipTest("no ledger.json in BUILD; run models/tools/run-all.sh")
+        fx = json.load(open(os.path.join(HERE, "test-data", "legacy-incidence-2026-11-13.json")))
+        inputs = os.path.join(ROOT, "models", "data", "inputs")
+        same = all(hashlib.sha256(open(os.path.join(inputs, f), "rb").read()).hexdigest() == v
+                   for f, v in fx["inputs_sha256"].items())
+        same &= hashlib.sha256(json.dumps(P.ledger_values(led), sort_keys=True).encode()).hexdigest() == fx["ledger_sha256"]
+        if not same:
+            self.skipTest("the D3 inputs changed since the legacy model's last run; the frozen figures no longer apply")
+        D = d3.D3.load(led)
+        for name, (o, drop) in D.SCEN.items():
+            res = D.run(o, drop)[0]
+            self.assertEqual({g: v["net"] for g, v in res.items()}, fx["results"][name]["net"], msg=name)
+            self.assertEqual(list(D.gf_test(o)), fx["results"][name]["gf"], msg=name)
+
+    def test_year_profiles_sum_to_the_total(self):
+        import d3
+        build = os.environ.get("BUILD", os.path.join(ROOT, "build"))
+        led = os.path.join(build, "ledger.json")
+        if not os.path.exists(led):
+            self.skipTest("no ledger.json in BUILD")
+        D = d3.D3.load(led)
+        for rid, label, side, amt, parts, basis in D.ROWS:
+            if rid in ("C1P", "CB1", "CLIW", "CLIL", "E2d", "E1h") or not amt:
+                continue                                              # the climate account's own paths
+            self.assertAlmostEqual(sum(D.annual_fraction(rid, amt, y) for y in d3.YRS), amt, places=9, msg=rid)
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 # Household model: model card
 
-Role: the model card of `MOD-household`, the core model that measures taxes, benefits, poverty and distribution for real households (`charter/PLAN.md` 3.4). Status: **working** for the 2029 current-law baseline, the provision interface (with the secure floor's INC-1 to INC-5) and the typical families; step M3, part 2 under way. Owner: Claude Code (the M3 worker sessions), reporting to the lead. Generated results are in [`results.md`](results.md) and `results.json`; never quote a figure from this card that `results.md` no longer shows.
+Role: the model card of `MOD-household`, the core model that measures taxes, benefits, poverty and distribution for real households (`charter/PLAN.md` 3.4). Status: **working** for the 2029 current-law baseline, the provision interface and the D3 report (with the secure floor's INC-1 to INC-5), the typical families and the 65-cent ceiling check; step M3, part 2. Owner: Claude Code (the M3 worker sessions), reporting to the lead. Generated results are in [`results.md`](results.md) and `results.json`; never quote a figure from this card that `results.md` no longer shows.
 
 ## What it answers, and what it cannot
 
@@ -17,7 +17,7 @@ It cannot answer, by design: behavior (work, take-up, migration or marriage resp
 
 | Legacy piece | What it did | Now |
 | --- | --- | --- |
-| `models/tools/incidence-model.py`, `incidence-years.py`, `incidence-make-md.py` → `legacy/index/revenue-household-incidence-model.md` | The D3 net test with typed distribution keys over 140 million households | `provisions.py` runs the same rows and scenarios. With the legacy keys it reproduces the legacy figures exactly (tested); with measured keys it gives the model's figures (`results.md`, section 5). The legacy scripts keep running until part 2 moves the report. The year-by-year phase-in profiles (`incidence-years.py`) are not yet ported (part 2) |
+| `models/tools/incidence-model.py`, `incidence-years.py`, `incidence-make-md.py` → `legacy/index/revenue-household-incidence-model.md` | The D3 net test with typed distribution keys over 140 million households, its year-by-year profiles and its report | **Retired (M3 part 2).** `d3.py` is the engine: its legacy version gives the legacy figures exactly (tested against the last legacy run, `test-data/`) and writes `incidence.json` for the budget model's readers; its model version uses the measured keys. The year profiles are ported (`d3.py`, `series`), and the report's text is `results.md`, sections 5, 6 and 8. The legacy report is the scripts' last output, no longer regenerated |
 | `models/tools/child-poverty/` → `legacy/sources/family-child-poverty-*.md`, `legacy/index/child-poverty-agenda-analysis.html` | Child SPM poverty on the CPS ASEC 2026, the agenda's family experiments, replicate-weight uncertainty | The same archive and SPM measurement (`extract.py` checks the same SHA-256), with taxes recomputed, for every age group and aged to 2029. The child-poverty tool's replicate-weight intervals, delivery and identification branches and its eight agenda cases are not yet ported (part 2) |
 
 ## Data
@@ -96,7 +96,7 @@ What part 1 already shows, at 2029 law (`results.md`, section 4):
 | CBO, *The Distribution of Household Income, 2022* (January 2026), table 9 | — | Q1 −10.1% income tax, 9.5% payroll; top 1% 23.9% and 2.0% | Not comparable directly: a different year and law, and CBO ranks by income before transfers and taxes. Recorded for part 2's household-convention check |
 | JCT | — | No distribution table under P.L. 119-21 yet (JCX-38-25 says its estimates were not ready); the latest, JCX-26-24, is pre-2025 law | Not used |
 
-Sources: Census P60-290 is SRC-3600 (report) and SRC-3602 (table 8). TPC T26-0045 and T26-0038 (workbooks at `taxpolicycenter.org/sites/default/files/2026-06/`) are licensed and cited only; part 2 adds citation rows. IRS SOI's tax year 2023 tables 2.5 and 3.3 are at `irs.gov/pub/irs-soi/23in25ic.xls` and `23in33ar.xls`; `fetch_public.py` cannot read legacy `.xls`, so they are cited until it can. CBO's report 61911 is at `cbo.gov/publication/61911`.
+Sources: Census P60-290 is SRC-3600 (report) and SRC-3602 (table 8). TPC T26-0038 and T26-0045 are SRC-4800 and SRC-4801 (licensed, cited only); CBO 61911 is SRC-4802. IRS SOI's tax year 2023 tables 2.5 and 3.3 are at `irs.gov/pub/irs-soi/23in25ic.xls` and `23in33ar.xls`; `fetch_public.py` cannot read legacy `.xls`, so they are cited until it can. 
 
 ## Reconciliation with the legacy incidence model
 
@@ -118,18 +118,17 @@ Scenario Q (the decided package), net dollars per household per year, FY2030-39 
 - **No itemized deductions, AMT, or the dependent care, education and premium credits** in the microdata (A-7).
 - **The top of the distribution is thin:** the CPS top-codes income and misses most capital gains, so top-1% results come from the legacy keys where it matters (`keys.csv`).
 - **No health coverage values:** coverage enters only as counts for keys. The health coverage model owns premiums and out-of-pocket costs.
-- **No year-by-year path yet:** results are the FY2030-39 average, plus the 2029 baseline.
+- **Year-by-year paths are shapes:** the phase-in profiles spread each row's ten-year total (`d3.py`, `series`); they are not scored annual paths.
 - **No replicate-weight intervals yet:** sampling error on the 2029 rates is about ±0.3 points for all people and ±0.6 for children (the Census's 90% margins for 2025).
 
 ## Status and next steps
 
-- **Working:** the 2029 baseline, the benchmarks above, the provision interface on legacy and measured keys, and the typical families on current law.
-- **Part 2** (plan in the M3 part 1 PR):
-  - move the legacy reports out of `legacy/`;
-  - the year-by-year profiles;
-  - INC-1 to INC-5 as rules with incidence keys;
-  - the 65-cent ceiling check with every plan layer;
-  - replicate-weight intervals.
+- **Working:** the 2029 baseline, the benchmarks above, the provision interface on legacy and measured keys, the D3 report and its year paths (`d3.py`; the legacy incidence scripts are retired), the secure floor's INC-1 to INC-5, the typical families and the 65-cent ceiling check.
+- **Still to do:**
+  - replicate-weight intervals;
+  - a CBO-convention check against CBO 61911;
+  - the child-poverty tool's agenda cases;
+  - moving the budget model's readers from the legacy version to the measured keys (a visible change to their outputs).
 
 ## How to run
 
@@ -153,7 +152,7 @@ python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   
 - the FAM-1 rule, and the secure floor's: the 2021 childless credit, the care credit's rates and the guarantee's charge, the refundable part, SSI's exclusions, and SNAP's cuts as the key's base;
 - P.L. 119-21's SNAP changes: the source year untouched, 2029's losses matching CBO's share, a cut of 8-12% of benefits;
 - the typical families, and the ceiling check's layers, charge and verdicts;
-- **exact reproduction of the legacy incidence model** in every scenario.
+- **exact reproduction of the legacy incidence model's last results** in every scenario, while its inputs are unchanged, and year profiles that sum to each row's total.
 
 ## Run log
 
@@ -161,5 +160,6 @@ python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   
 | --- | --- | --- | --- |
 | `RUN-household-2026-11-13-a` | #318, merged as `13d4664` (M3 part 1) | CPS ASEC 2026 extract (SHA-256 above); CBO February 2026 economic projections; `incidence-rows.csv`, `incidence-keys.csv`, `scenarios.json` as on main | The ledger as built from main on November 13, 2026 |
 | `RUN-household-2026-11-13-b` | The A-8 PR's head (M3 part 2, first piece: SNAP under P.L. 119-21) | As run a, with the SPM extract's four work-rule counts added | As run a; no provision result changes |
-| `RUN-household-2026-11-13-d` | M3 part 2, the 65-cent ceiling check (this PR's head) | As run b | As run a; results section 7 added, no provision result changes |
-| `RUN-household-2026-11-13-c` | M3 part 2, INC-1 to INC-5 (this PR's head) | As run b, with the extract's child care spending (`SPM_CHILDCAREXPNS`), children under 5 and 5-12, and SSI recipients' detail added (no existing field changes) | As run a, with `incidence-rows.csv` INC1 to INC5 and their keys |
+| `RUN-household-2026-11-13-c` | #320, merged as `e897ac6` (M3 part 2, INC-1 to INC-5) | As run b, with the extract's child care spending (`SPM_CHILDCAREXPNS`), children under 5 and 5-12, and SSI recipients' detail added (no existing field changes) | As run a, with `incidence-rows.csv` INC1 to INC5 and their keys |
+| `RUN-household-2026-11-13-d` | #321, merged as `d204a85` (M3 part 2, the 65-cent ceiling check) | As run b | As run a; results section 7 added, no provision result changes |
+| `RUN-household-2026-11-13-e` | M3 part 2, the legacy reports moved (this PR's head) | As runs c and d | As run c; `d3.py` in place of the legacy scripts; results section 8 added |

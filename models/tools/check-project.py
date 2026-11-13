@@ -244,9 +244,9 @@ def check_scaled():
 # ---------------------------------------------------------------------------------------------
 def check_tables():
     out = []
-    import importlib
-    sys.path.insert(0, os.getcwd())
-    inc = importlib.import_module("incidence")
+    sys.path.insert(0, os.path.join(os.getcwd(), "..", "models", "tools", "household"))   # run from build/
+    import d3   # the D3 test, legacy version (replaced incidence.py)
+    inc = d3.D3.load("ledger.json")
     for r in read("incidence-rows.csv"):
         if r["check"]:
             a, c = inc.amount(r["amount"]), inc.amount(r["check"])

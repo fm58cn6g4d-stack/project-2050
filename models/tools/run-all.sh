@@ -10,11 +10,8 @@ WRITE=0; FETCH=0
 for a in "$@"; do [[ "$a" == "--write" ]] && WRITE=1; [[ "$a" == "--fetch" ]] && FETCH=1; done
 
 rm -rf "$BUILD"; mkdir -p "$BUILD"
-cp "$TOOLS"/ledger-build.py "$TOOLS"/ledger-paths.py "$TOOLS"/ledger-make-md.py "$TOOLS"/incidence-make-md.py \
+cp "$TOOLS"/ledger-build.py "$TOOLS"/ledger-paths.py "$TOOLS"/ledger-make-md.py \
    "$TOOLS"/climate-integration.py "$TOOLS"/fiscal-data.py "$TOOLS"/fiscal-profiles.py "$TOOLS"/inputs.py "$TOOLS"/scenarios.py "$TOOLS"/fiscal-model.py "$TOOLS"/fiscal-make-md.py "$BUILD"/
-# the two incidence scripts import each other under their working names
-cp "$TOOLS"/incidence-model.py "$BUILD"/incidence.py
-cp "$TOOLS"/incidence-years.py "$BUILD"/years.py
 
 cd "$BUILD"
 echo "== 0. transportation";    python3 "$TOOLS"/transportation/test_moving_america.py --quiet
@@ -27,8 +24,9 @@ echo "== 2a. scenario calendar"; python3 "$TOOLS/calendar/test_model.py"; python
 echo "== 2b. vote simulation"; cp "$TOOLS"/votes-model.py "$BUILD"/; python3 votes-model.py
 echo "== 2c. calendar checks"; python3 "$TOOLS"/test_calendar.py
 echo "== 3. ledger markdown";   python3 ledger-make-md.py >/dev/null
-echo "== 4. incidence";         python3 incidence.py >/dev/null; python3 years.py >/dev/null; python3 incidence-make-md.py >/dev/null
-echo "== 4a. household model (M3: tests, then results; the legacy incidence model above still runs until part 2)"
+echo "== 4. D3 household test (the household model's d3.py; incidence.json for the budget-model readers)"
+python3 "$TOOLS"/household/d3.py ledger.json incidence.json
+echo "== 4a. household model (tests, then results: the D3 report is models/tools/household/results.md)"
 BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/household/test_household.py 2>&1 | tail -1
 python3 "$TOOLS"/household/run.py --ledger "$BUILD/ledger.json" --out "$BUILD/household" >/dev/null
 if [[ $FETCH == 1 ]]; then
@@ -123,7 +121,6 @@ OUT=(
   'dashboard/calendar.json|models/data/dashboard/calendar.json'
   'capacity-funding-model.md|legacy/index/capacity-funding-model.md'
   '2029-trifecta-master-ledger-v2.md|legacy/index/2029-trifecta-master-ledger.md'
-  'revenue-household-incidence-model.md|legacy/index/revenue-household-incidence-model.md'
   'fiscal-long-term-model.md|legacy/index/fiscal-long-term-model.md'
   'fiscal-baseline.csv|models/data/fiscal-baseline.csv'
   'fiscal-paths.csv|models/data/fiscal-paths.csv'

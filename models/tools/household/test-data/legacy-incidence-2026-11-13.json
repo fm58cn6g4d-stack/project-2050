@@ -1,0 +1,113 @@
+{
+ "role": "The legacy incidence model's last results (incidence-model.py, run on main e897ac6 before its retirement in M3 part 2), frozen for test_household.py: the household model's d3.py must reproduce them while the inputs below are unchanged.",
+ "inputs_sha256": {
+  "incidence-rows.csv": "7541d394a64fbf2ba7f2266ab53d4c39c1cacea4dd2e4ec467ad6d24a2f7e183",
+  "incidence-keys.csv": "3291f19362cb456eac99454a3314c920805f450409f0a6bc768e61f66f744c5f",
+  "scenarios.json": "f72eb0d6f671ba97c13b2d7b75026bc24bd763eaf7911d23f2124fabce4bb09d"
+ },
+ "ledger_sha256": "0c80f64e7040bca8d4fb4e951e1cafcac25675eb66921dc71ad3960434b422ee",
+ "results": {
+  "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, C39-C41 and C43": {
+   "net": {
+    "Q1": 8889,
+    "Q2": 6433,
+    "Q3": 3323,
+    "Q4": -527,
+    "Q5": -49665,
+    "Q5x": -16931,
+    "T1": -671627
+   },
+   "gf": [
+    9.58,
+    4.82,
+    2.46,
+    76
+   ]
+  },
+  "A. Base package only (gap unfunded)": {
+   "net": {
+    "Q1": 8943,
+    "Q2": 6597,
+    "Q3": 3682,
+    "Q4": 340,
+    "Q5": -39634,
+    "Q5x": -13117,
+    "T1": -543449
+   },
+   "gf": [
+    6.37,
+    3.02,
+    2.46,
+    86
+   ]
+  },
+  "Q-C19. Q with the exclusion cap at the median premium (C19, the fallback)": {
+   "net": {
+    "Q1": 8879,
+    "Q2": 6381,
+    "Q3": 3198,
+    "Q4": -698,
+    "Q5": -49826,
+    "Q5x": -17089,
+    "T1": -671834
+   },
+   "gf": [
+    9.72,
+    4.82,
+    2.46,
+    75
+   ]
+  },
+  "Q-SAF. Q with SAF-R2 (alcohol excise dropped)": {
+   "net": {
+    "Q1": 8919,
+    "Q2": 6476,
+    "Q3": 3375,
+    "Q4": -469,
+    "Q5": -49598,
+    "Q5x": -16865,
+    "T1": -671527
+   },
+   "gf": [
+    9.58,
+    4.82,
+    2.46,
+    76
+   ]
+  },
+  "Q-EDU. Q with the EDU-9B education fund (held) in place of C19b and C20": {
+   "net": {
+    "Q1": 9232,
+    "Q2": 6381,
+    "Q3": 2677,
+    "Q4": -1951,
+    "Q5": -50769,
+    "Q5x": -18473,
+    "T1": -664390
+   },
+   "gf": [
+    8.75,
+    4.45,
+    2.46,
+    79
+   ]
+  },
+  "Q-H7. Q with the single plan's household rows (H7h, H7w, H7x) and its long-term care title (H9), before the settlement's new taxes; not a pass or fail": {
+   "net": {
+    "Q1": 14407,
+    "Q2": 16608,
+    "Q3": 19525,
+    "Q4": 19998,
+    "Q5": -28450,
+    "Q5x": 4293,
+    "T1": -650568
+   },
+   "gf": [
+    14.41,
+    4.94,
+    2.46,
+    51
+   ]
+  }
+ }
+}
