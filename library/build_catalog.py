@@ -9,6 +9,9 @@
   python3 library/build_catalog.py --check   # fail if a file is uncatalogued, a path is gone or the name index is stale;
                                              # stale file facts only print a note
 
+New rows are numbered after the highest existing ID and skip the blocks of numbers that dossiers have reserved
+(library/reserved-blocks.csv); an ID assigned by hand inside a block is kept as it is.
+
 The first run seeded the authored fields by the rules below; after that they are edited by hand.
 
 A citation row records a source the repository cites but may not hold, such as a licensed journal article
@@ -28,6 +31,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LIB = ROOT / 'library'
 CATALOG, FACTS, INDEX = LIB / 'catalog.csv', LIB / 'catalog-facts.csv', LIB / 'name-index.md'
+RESERVED = LIB / 'reserved-blocks.csv'
 SCOPE = ('legacy', 'library/intake', 'library/text')
 CITATION = 'citation (not saved)'
 
@@ -68,6 +72,30 @@ CHECK = {}  # files whose rights need a person's check before they stay in the p
 def tracked():
     out = subprocess.check_output(['git', 'ls-files', '-z', '--', *SCOPE], cwd=ROOT).decode().split('\0')
     return sorted(p for p in out if p)
+
+
+def reserved_blocks(path=RESERVED):
+    """(owner, first, last) for each block of SRC numbers a dossier has reserved (library/reserved-blocks.csv)."""
+    with path.open(newline='') as f:
+        return [(r['owner'], int(r['first']), int(r['last'])) for r in csv.DictReader(f)]
+
+
+def next_free(n, blocks):
+    """The first number after n (n is the highest ID so far) that lies outside every reserved block.
+    Rows added by hand inside a block are untouched; only automatic numbering skips them."""
+    n += 1
+    while True:
+        hit = next((last for _, first, last in blocks if first <= n <= last), None)
+        if hit is None:
+            return n
+        n = hit + 1
+
+
+def block_problems(blocks):
+    out = [f'reserved block {o}: first {a} is after last {b}' for o, a, b in blocks if a > b]
+    for i, (o1, a1, b1) in enumerate(blocks):
+        out += [f'reserved blocks {o1} and {o2} overlap' for o2, a2, b2 in blocks[i + 1:] if a1 <= b2 and a2 <= b1]
+    return out
 
 
 def generated_outputs():
@@ -175,10 +203,11 @@ def catalog_rows():
     known = {r['path'] for r in rows}
     generated = generated_outputs()
     n = max([int(r['id'][4:]) for r in rows] or [0])
+    blocks = reserved_blocks()
     for path in tracked():
         if path in known:
             continue
-        n += 1
+        n = next_free(n, blocks)
         kind, origin, rights, status = seed_row(path, generated)
         rows.append({'id': f'SRC-{n:04d}', 'path': path, 'title': title_of(path), 'kind': kind, 'origin': origin,
                      'rights': rights, 'status': status, 'aliases': '; '.join(ALIASES.get(path, [])), 'note': ''})
@@ -267,6 +296,7 @@ if __name__ == '__main__':
                      if not is_citation(r) and not (ROOT / r['path']).exists()]
         problems += [f'{r["id"]}: a citation row needs an http(s) address as its path' for r in rows
                      if is_citation(r) and not r['path'].startswith(('https://', 'http://'))]
+        problems += block_problems(reserved_blocks())
         ids = [r['id'] for r in rows]
         # One home per name: a title or alias that leads to two documents is ambiguous. File names may repeat.
         homes = {}

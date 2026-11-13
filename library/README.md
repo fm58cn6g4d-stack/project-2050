@@ -6,11 +6,14 @@ Role: originals and their text versions, the catalog and the name index. Status:
 | --- | --- | --- |
 | `catalog.csv` | One row per document in `legacy/`, `library/intake/` and `library/text/`, plus citation rows for sources the repository cites but does not hold: `SRC-` ID, path, title, kind, origin, rights, status, aliases, `copy_of`, note. `copy_of` marks an original upload that duplicates a working copy in `legacy/`, so its names lead to that one home | Hand (new files are appended by the script) |
 | `catalog-facts.csv` | Size, SHA-256, first commit and last content change (following renames) | Script only |
+| `reserved-blocks.csv` | Blocks of `SRC-` numbers a dossier has reserved: `owner`, `first`, `last`, `declared_in` (the dossier README that reserves it). Automatic numbering skips them | Hand (add a line when a dossier README reserves a block) |
 | `name-index.md` | Every name a document has gone by (title, file name, alias, staging row, Bill Book chapter) and its one home | Script only |
 | `text/` | Verbatim text versions of public U.S. government documents and openly licensed (Creative Commons) documents (HTML, PDF, or Excel workbooks as one labelled line per cell), made by `fetch_public.py` with the source address, retrieval date and the original's SHA-256 in a header. Evidence entries anchor to these | Script only |
 | `intake/2026-10-28/` | Espen's October 28 uploads, unchanged, with `manifest.json` checksums | Never (originals) |
 
 `python3 library/build_catalog.py` appends rows for new files and rebuilds the generated files. `--check` fails when a file is uncatalogued, a catalogued path is gone, the name index is stale, or a title or alias leads to two homes (file names may repeat). Stale file facts only print a note.
+
+New rows get the next number after the highest existing ID, skipping every block in `reserved-blocks.csv`; an ID a dossier assigns by hand inside its own block is kept. `--check` also fails if a block is backwards or two blocks overlap. `test_build_catalog.py` tests the numbering and runs with the common rebuild.
 
 To add a name, add it to the row's `aliases` column (semicolon-separated) and rerun the script.
 

@@ -79,6 +79,7 @@ python3 "$ROOT"/models/registry/test_registry.py 2>&1 | tail -1
 python3 "$ROOT"/models/registry/test_restatement.py 2>&1 | tail -1
 python3 "$ROOT"/models/registry/restatement.py --all || true
 python3 "$ROOT"/library/test_fetch_public.py 2>&1 | tail -1
+python3 "$ROOT"/library/test_build_catalog.py 2>&1 | tail -1
 
 python3 "$TOOLS"/climate-integration-report.py
 
