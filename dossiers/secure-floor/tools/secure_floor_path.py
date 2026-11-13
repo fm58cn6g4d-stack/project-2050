@@ -84,7 +84,7 @@ def lines():
     ssi_t = grown(2031, 2.169 * 1.03, 0.011)
     ssi_t[2031] *= 0.7
     out['INC-3.03, SSI in the territories (Espen, November 12)'] = monthly_to_fy(ssi_t)
-    # Point 7, rescoped (Espen, November 13, option B): only care neither the child care guarantee nor the school-age
+    # Point 7, rescoped (Espen, November 13, option B, DEC-2026-11-13-04): only care neither the child care guarantee nor the school-age
     # block grant pays. The household model measures $0.34 billion in 2029 at full take-up (rules.cdctc_refundable;
     # results.md section 6), already net of CCDF, since the CPS reports what families paid. Added by judgment: spending
     # the survey under-reports (about +$0.1 billion, its own sensitivity at half again) and care for a disabled adult,
