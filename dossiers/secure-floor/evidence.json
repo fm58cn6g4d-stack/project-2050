@@ -12838,6 +12838,33 @@
   ]
  },
  {
+  "id": "EV-SEC-616",
+  "statement": "In FY2024 SNAP served 21.6 million households a month (FNS's quality-control sample); 5,950 thousand had countable earned income, 4,697 thousand of them with net income above zero, and households with earned income averaged $1,645 a month of earnings.",
+  "claim": "data",
+  "figures": [
+   "21.6",
+   "5,950",
+   "4,697",
+   "$1,645"
+  ],
+  "source": "SRC-3995",
+  "anchor": [
+   "2024, SNAP provided benefits each month to an average of 40.2 million people living in 21.6\nmillion households.",
+   "5,950\n4,697\n1,242\n10\n5,950\n1,934",
+   "1,898\n1,281\n1,230\n859\n991\n637\n681\n365\n1,645\n214\n303"
+  ],
+  "locator": "Chapter 3, first paragraph; Appendix Table A.19, earned income column, rows gross income, no gross income, net income (4,697), no net income, not applicable, earned income; Appendix Table A.20, earned income column: gross income $1,898, net income $991, earned income $1,645 (the text version reads the tables column by column)",
+  "grade": "A",
+  "fact_date": "2024-09",
+  "checked": "2026-11-13",
+  "recheck": "2027-08-01",
+  "context": "USDA's Food and Nutrition Administration (FNS until 2026; second Trump administration), report SNAP-24-CHAR by Mathematica on the SNAP Quality Control sample of 44,891 households, August 2026 version (it replaces the May 2026 release, correcting the weights). Administrative data, measured: the QC sample excludes households issued benefits in error and disaster cases, so its 21.6 million is below FNS's administrative 22.2 million. The FY2023 report (SNAP-23-CHAR, April 2025) gives 21,375 thousand households, 5,910 thousand with earnings (Table A.19), 4,744 thousand of them with net income, averaging $1,548 a month; checked against that original, not saved. INC-2.02's cost (6-cost.md part 1) rests on these counts.",
+  "supports": [
+   "dossiers/secure-floor/6-cost.md",
+   "dossiers/secure-floor/4-specification.md"
+  ]
+ },
+ {
   "id": "EV-SEC-630",
   "statement": "SSA's Office of the Chief Actuary estimated that raising the SSI resource limits to $10,000 and $20,000 and indexing them would raise federal SSI payments by $8.9 billion over 2025 through 2034.",
   "claim": "analysis",
