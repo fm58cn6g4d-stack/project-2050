@@ -1,6 +1,6 @@
 # A secure floor for every household: the public case
 
-Role: section 9 of the secure floor dossier: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: reviewed (L2, milestone review `review-milestone.md`, #298; L3 after its fix steps and re-check), on `DEC-2026-11-12-06`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about". Each promise is dated from when its provision starts. Espen's framing for the child benefit: a benefit for working and middle-class families.
+Role: section 9 of the secure floor dossier: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: reviewed at L3 (milestone review `review-milestone.md`, #298; fixes #301; the booking, #304, was also the re-check), on `DEC-2026-11-12-06`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about". Each promise is dated from when its provision starts. Espen's framing for the child benefit: a benefit for working and middle-class families.
 
 ## The brief
 
