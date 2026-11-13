@@ -38,10 +38,10 @@ FY2040 and FY2030-39, from `legacy/sources/recovery-budget-audit.csv` (case `mix
 | Everything else: education, agency capacity, work and AI, democracy, the recovery credit | EDU-*, CAP-*, LAB-8, LAB-9, AI-*, DEM-*, others | 352 | 3.07 |
 | Revenue already booked: corporate, top-end, estate, enforcement | G1 to G11, H1b, GX, C18, C35, C38 to C43, IRS allowance | −1,064 | −8.49 |
 | Revenue already booked: new income contributions | 2 points above $20K/$40K from 2035; 4 points above $100K/$200K from 2033 | −484 | −1.91 |
-| Fund-boundary items, net (general-fund grants to the education and HI funds, less income-tax offsets; the residual to the general-fund reading) | — | −67 | −0.48 |
+| Fund-boundary items, net: the general-fund reading leaves out the dedicated funds' own audit lines (the Social Security package −732, the education fund's replacement −202, HI −66, paid leave +16; −986 in all, −$6.87T over the decade) and adds back the general fund's grants and transfers to them (the residual to `agenda_gf_primary_bn`) | — | −67 | −0.48 |
 | **General-fund gap** | | **4,240** | **23.40** |
 
-Health, net of HX, is about $4.1 trillion of the FY2040 gap, nearly all of it (care's `6-cost.md`, part 5: "Health's net cost is nearly all of the plan-wide gap"). Every other flagship together adds about $1.4 trillion in FY2040, roughly what the booked corporate and top-end package raises.
+Health, net of HX, is about $4.1 trillion of the FY2040 gap, nearly all of it (care's `6-cost.md`, part 5: "Health's net cost is nearly all of the plan-wide gap"). The other flagships together add about $1.4 trillion in FY2040 ($1.8 trillion with everything else), more than the booked corporate and top-end package raises that year ($1.06 trillion).
 
 ## 3. Inputs still moving
 
@@ -52,7 +52,7 @@ Health, net of HX, is about $4.1 trillion of the FY2040 gap, nearly all of it (c
 
 ## 4. The revenue options the legacy work holds
 
-**Already counted, so not available again.** The legacy reconciliation traces **$8.005T over FY2030-39 and $989B in FY2040** of general-fund reforms already in the `mixed` case (`legacy/sources/revenue-counted-reconciliation.md`). They include G1 (corporate rate to 28%, $1.65T), G9 (reverse the 2025 cuts above $450K, $1.45T), C38 (the sprint package REV-TS1 to TS11, $0.89T), G6 (gains at death, $0.70T), G7, G10, G11, G5, G8, G3, H1b, C18, C35, C39 to C41 and C43, less the GX and CX offsets. On top of these come the new income contributions ($1.91T) and HX ($4.84T). Health's 65% employer contribution is designed but not booked.
+**Already counted, so not available again.** The legacy reconciliation traces **$8.005T over FY2030-39 and $989B in FY2040** of general-fund reforms already in the `mixed` case (`legacy/sources/revenue-counted-reconciliation.md`). They include G1 (corporate rate to 28%, $1.65T), G9 (reverse the 2025 cuts above $450K, $1.45T), C38 (the sprint package REV-TS1 to TS11, $0.89T), G6 (gains at death, $0.70T), G7, G10, G11, G5, G8, G3, H1b, C18, C35, C39 to C41 and C43, less the GX and CX offsets. (Section 2's revenue row, $8.49T and $1,064B, is the same package before CX's −$0.49T carbon offset, which section 2 counts with clean power, and with the IRS allowance.) On top of these come the new income contributions ($1.91T) and HX ($4.84T). Health's 65% employer contribution is designed but not booked.
 
 **Not yet counted** (FY2030-39 midpoints in $T from the legacy menu, scaled from CBO and Treasury; `legacy/domains/domain-revenue.md`, "Closing the general-fund gap"; `legacy/sources/revenue-channels-and-full-menu.md`):
 
@@ -75,7 +75,7 @@ Health, net of HX, is about $4.1 trillion of the FY2040 gap, nearly all of it (c
 ## 5. Questions for Espen when stage G starts (no answer now)
 
 1. **How much of health's premium shift does a broad contribution carry?** People and employers stop paying about $3 trillion a year in premiums (2032 scale). The choices: a payroll contribution in place of premiums (the main candidate), an employer contribution kept longer, or a broad income contribution or VAT with a rebate.
-2. **How far should the plan go beyond the top-end pledge?** Corporate and top-end measures already raise about $8.5T over FY2030-39 in this case, with $1.9T more from the new income contributions, and what remains at the top is small. Closing the rest means asking middle-income households to pay something, which the household fairness test (D3) has to show is fair net of what they gain.
+2. **How far should the plan go beyond the top-end pledge?** Corporate and top-end measures already raise about $8.0T over FY2030-39 in this case, net of the carbon offset, with $1.9T more from the new income contributions, and what remains at the top is small. Closing the rest means asking middle-income households to pay something, which the household fairness test (D3) has to show is fair net of what they gain.
 3. **What share do states pay?** States' shares appear across health, long-term care, child care and pre-K, and the questions are their levels and the fallback when a state won't pay (`DEC-2026-11-11-05`).
 4. **How strict is the timing?** Should the plan accept the fiscal rule's FY2040 test as decided and phase revenue in to meet it, or pair later starts with revenue triggers? This is a question about phase-ins, not about re-opening the rule.
 
