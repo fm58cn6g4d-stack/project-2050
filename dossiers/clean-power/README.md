@@ -1,6 +1,6 @@
 # Dossier: Clean, affordable power and a prepared country (flagship 4)
 
-Role: the clean power flagship (`charter/PLAN.md` 3.1). Status: draft, stage E, step E-C1 (sections 1-3 and the decision memos). Level: every item is at **L1** (`agenda/agenda.csv`, `home_dossier` = `clean-power`); the decided items reach L2 when Espen answers the memo batch. Nothing in this dossier is booked yet; the legacy climate rows already in the budget model stay as they are until the dossier's own booking step.
+Role: the clean power flagship (`charter/PLAN.md` 3.1). Status: draft, stage E, step E-C1 (sections 1-3 and the decision memos); section 3's seven memos and fourteen points are **for decision**. Level: every item is at **L1** (`agenda/agenda.csv`, `home_dossier` = `clean-power`); the decided items reach L2 when Espen answers the memo batch. Nothing in this dossier is booked yet; the legacy climate rows already in the budget model stay as they are until the dossier's own booking step.
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly): "Carbon fee and dividend, clean power and grid, adaptation and insurance, the clean-industry transition."
 
@@ -28,7 +28,7 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 | --- | --- | --- |
 | 1. The problem | `1-problem.md`: bills and energy hardship; demand and reliability; emissions; climate damage and insurance; workers and places; the January 2029 baseline table; the legacy record restated | Draft (E-C1, PR #315) |
 | 2. What works | `2-what-works.md`: carbon pricing and dividends at home and abroad; the IRA's record and the 2025 repeal; grid and permitting; public power and finance; clean and firm power costs; clean industry; adaptation and insurance; transitions; failures to avoid | Draft (E-C1, PR #315) |
-| 3. Design choices | `3-design.md` and `memos/` | Drafting (E-C1, second PR) |
+| 3. Design choices | `3-design.md` and `memos/`: eleven forks in seven memos, fourteen yes-or-no points, inherited assumptions traced, the fiscal report against the booked rows | Draft, for decision (E-C1, second PR) |
 | 4-9 | — | Later steps |
 
 ## Evidence and sources
@@ -38,4 +38,4 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 ## Open questions for Espen
 
-None yet; the memo batch comes with section 3.
+The memo batch: `memos/README.md` (memos 1-7) and points 1-14 in `3-design.md`. Each is decided on its own.

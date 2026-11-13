@@ -38,7 +38,7 @@ Role: section 2 of the clean power dossier: the research and the record at home 
 ## B. Clean-energy credits: the IRA's record and the 2025 law
 
 **The record before repeal.**
-- *Cost estimates rose with take-up.* At enactment JCT scored the IRA's energy credits at $271 billion over ten years [EV-CLP-200]; by 2024 CBO put them at about $800 billion over 2025-34 [EV-CLP-201]. Goldman Sachs ($1.2 trillion by 2032) and the Penn Wharton Budget Model ($1,045 billion) went higher still [EV-CLP-202] [EV-CLP-203] [EV-CLP-204]. Uncapped credits deliver more building and cost more than first scored; both facts matter for the design.
+- *Cost estimates rose with take-up.* At enactment JCT scored the IRA's energy credits at $271 billion over ten years [EV-CLP-200]; by 2024 CBO put them at about $800 billion over 2025-34, a different window and measure that CBO says is not directly comparable [EV-CLP-201]. Goldman Sachs ($1.2 trillion by 2032) and the Penn Wharton Budget Model ($1,045 billion) went higher still [EV-CLP-202] [EV-CLP-203] [EV-CLP-204]. Uncapped credits deliver more building and cost more than first scored; both facts matter for the design.
 - *Investment came, and mostly to Republican districts.* Clean investment ran $277 billion over the four quarters to mid-2026 (Rhodium and MIT's Clean Investment Monitor) [EV-CLP-206]; of investment tracked from July 2022 to 2024, 77% went to districts held by Republicans [EV-CLP-208].
 - *Clean power is being built.* 53 GW of new capacity came online in 2025, the most since 2002, mostly solar and batteries, and developers plan a record 86 GW in 2026 as projects race the credit deadlines [EV-CLP-209] [EV-CLP-210].
 
