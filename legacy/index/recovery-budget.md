@@ -45,9 +45,9 @@ Totals above are $B, not $T. The audit CSV exposes every increment and matched g
 
 | Household diagnostic, FY2039 annual net $/household | Q1 | Q2 | Q3 | Q4 | Q5 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| mixed | 10,770 | 7,566 | 2,542 | -5,239 | -77,967 |
-| larger_payroll | 10,647 | 7,196 | 1,883 | -5,928 | -73,872 |
-| mixed_larger_credit | 13,065 | 10,303 | 5,705 | -2,934 | -87,566 |
+| mixed | 11,962 | 8,026 | 2,754 | -5,119 | -77,908 |
+| larger_payroll | 11,839 | 7,656 | 2,096 | -5,807 | -73,813 |
+| mixed_larger_credit | 14,258 | 10,763 | 5,918 | -2,814 | -87,507 |
 
 These are approximate quintile averages including modeled benefits, not a D3 certification or guarantees for individual households. See the assumptions and limits in the assessment.
 

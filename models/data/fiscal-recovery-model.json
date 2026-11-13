@@ -13345,222 +13345,222 @@
   "incidence_diagnostic": {
     "2030": {
       "Q1": {
-        "old_net": 4980,
-        "new_net_before_unallocated_protection": 5226
+        "old_net": 5818,
+        "new_net_before_unallocated_protection": 6064
       },
       "Q2": {
-        "old_net": 3138,
-        "new_net_before_unallocated_protection": 3404
+        "old_net": 3462,
+        "new_net_before_unallocated_protection": 3728
       },
       "Q3": {
-        "old_net": 1126,
-        "new_net_before_unallocated_protection": 1346
+        "old_net": 1276,
+        "new_net_before_unallocated_protection": 1496
       },
       "Q4": {
-        "old_net": -1428,
-        "new_net_before_unallocated_protection": -1279
+        "old_net": -1343,
+        "new_net_before_unallocated_protection": -1194
       },
       "Q5": {
-        "old_net": -42764,
-        "new_net_before_unallocated_protection": -42680
+        "old_net": -42723,
+        "new_net_before_unallocated_protection": -42639
       }
     },
     "2031": {
       "Q1": {
-        "old_net": 6131,
-        "new_net_before_unallocated_protection": 6394
+        "old_net": 7003,
+        "new_net_before_unallocated_protection": 7266
       },
       "Q2": {
-        "old_net": 4405,
-        "new_net_before_unallocated_protection": 4608
+        "old_net": 4742,
+        "new_net_before_unallocated_protection": 4945
       },
       "Q3": {
-        "old_net": 2168,
-        "new_net_before_unallocated_protection": 2215
+        "old_net": 2323,
+        "new_net_before_unallocated_protection": 2370
       },
       "Q4": {
-        "old_net": -656,
-        "new_net_before_unallocated_protection": -836
+        "old_net": -567,
+        "new_net_before_unallocated_protection": -747
       },
       "Q5": {
-        "old_net": -43976,
-        "new_net_before_unallocated_protection": -44518
+        "old_net": -43933,
+        "new_net_before_unallocated_protection": -44475
       }
     },
     "2032": {
       "Q1": {
-        "old_net": 7290,
-        "new_net_before_unallocated_protection": 7541
+        "old_net": 8196,
+        "new_net_before_unallocated_protection": 8447
       },
       "Q2": {
-        "old_net": 5312,
-        "new_net_before_unallocated_protection": 5414
+        "old_net": 5662,
+        "new_net_before_unallocated_protection": 5764
       },
       "Q3": {
-        "old_net": 2619,
-        "new_net_before_unallocated_protection": 2454
+        "old_net": 2780,
+        "new_net_before_unallocated_protection": 2615
       },
       "Q4": {
-        "old_net": -689,
-        "new_net_before_unallocated_protection": -1243
+        "old_net": -597,
+        "new_net_before_unallocated_protection": -1151
       },
       "Q5": {
-        "old_net": -45506,
-        "new_net_before_unallocated_protection": -46734
+        "old_net": -45461,
+        "new_net_before_unallocated_protection": -46689
       }
     },
     "2033": {
       "Q1": {
-        "old_net": 8417,
-        "new_net_before_unallocated_protection": 8642
+        "old_net": 9359,
+        "new_net_before_unallocated_protection": 9584
       },
       "Q2": {
-        "old_net": 6382,
-        "new_net_before_unallocated_protection": 6362
+        "old_net": 6746,
+        "new_net_before_unallocated_protection": 6726
       },
       "Q3": {
-        "old_net": 3358,
-        "new_net_before_unallocated_protection": 2952
+        "old_net": 3526,
+        "new_net_before_unallocated_protection": 3120
       },
       "Q4": {
-        "old_net": -369,
-        "new_net_before_unallocated_protection": -1334
+        "old_net": -274,
+        "new_net_before_unallocated_protection": -1239
       },
       "Q5": {
-        "old_net": -46811,
-        "new_net_before_unallocated_protection": -48783
+        "old_net": -46765,
+        "new_net_before_unallocated_protection": -48737
       }
     },
     "2034": {
       "Q1": {
-        "old_net": 9244,
-        "new_net_before_unallocated_protection": 9434
+        "old_net": 10224,
+        "new_net_before_unallocated_protection": 10414
       },
       "Q2": {
-        "old_net": 7195,
-        "new_net_before_unallocated_protection": 7036
+        "old_net": 7573,
+        "new_net_before_unallocated_protection": 7414
       },
       "Q3": {
-        "old_net": 3982,
-        "new_net_before_unallocated_protection": 3310
+        "old_net": 4157,
+        "new_net_before_unallocated_protection": 3485
       },
       "Q4": {
-        "old_net": -29,
-        "new_net_before_unallocated_protection": -1441
+        "old_net": 70,
+        "new_net_before_unallocated_protection": -1342
       },
       "Q5": {
-        "old_net": -48074,
-        "new_net_before_unallocated_protection": -50850
+        "old_net": -48026,
+        "new_net_before_unallocated_protection": -50802
       }
     },
     "2035": {
       "Q1": {
-        "old_net": 8213,
-        "new_net_before_unallocated_protection": 8365
+        "old_net": 9233,
+        "new_net_before_unallocated_protection": 9385
       },
       "Q2": {
-        "old_net": 6527,
-        "new_net_before_unallocated_protection": 6217
+        "old_net": 6920,
+        "new_net_before_unallocated_protection": 6610
       },
       "Q3": {
-        "old_net": 3568,
-        "new_net_before_unallocated_protection": 2609
+        "old_net": 3750,
+        "new_net_before_unallocated_protection": 2791
       },
       "Q4": {
-        "old_net": -375,
-        "new_net_before_unallocated_protection": -2269
+        "old_net": -272,
+        "new_net_before_unallocated_protection": -2166
       },
       "Q5": {
-        "old_net": -49813,
-        "new_net_before_unallocated_protection": -53455
+        "old_net": -49763,
+        "new_net_before_unallocated_protection": -53405
       }
     },
     "2036": {
       "Q1": {
-        "old_net": 8078,
-        "new_net_before_unallocated_protection": 8239
+        "old_net": 9138,
+        "new_net_before_unallocated_protection": 9299
       },
       "Q2": {
-        "old_net": 6429,
-        "new_net_before_unallocated_protection": 6110
+        "old_net": 6838,
+        "new_net_before_unallocated_protection": 6519
       },
       "Q3": {
-        "old_net": 3433,
-        "new_net_before_unallocated_protection": 2438
+        "old_net": 3623,
+        "new_net_before_unallocated_protection": 2628
       },
       "Q4": {
-        "old_net": -616,
-        "new_net_before_unallocated_protection": -2584
+        "old_net": -509,
+        "new_net_before_unallocated_protection": -2477
       },
       "Q5": {
-        "old_net": -51795,
-        "new_net_before_unallocated_protection": -55582
+        "old_net": -51743,
+        "new_net_before_unallocated_protection": -55530
       }
     },
     "2037": {
       "Q1": {
-        "old_net": 8502,
-        "new_net_before_unallocated_protection": 8668
+        "old_net": 9604,
+        "new_net_before_unallocated_protection": 9770
       },
       "Q2": {
-        "old_net": 6756,
-        "new_net_before_unallocated_protection": 6423
+        "old_net": 7181,
+        "new_net_before_unallocated_protection": 6848
       },
       "Q3": {
-        "old_net": 3572,
-        "new_net_before_unallocated_protection": 2536
+        "old_net": 3769,
+        "new_net_before_unallocated_protection": 2733
       },
       "Q4": {
-        "old_net": -704,
-        "new_net_before_unallocated_protection": -2751
+        "old_net": -592,
+        "new_net_before_unallocated_protection": -2639
       },
       "Q5": {
-        "old_net": -53986,
-        "new_net_before_unallocated_protection": -57924
+        "old_net": -53931,
+        "new_net_before_unallocated_protection": -57869
       }
     },
     "2038": {
       "Q1": {
-        "old_net": 8808,
-        "new_net_before_unallocated_protection": 8979
+        "old_net": 9955,
+        "new_net_before_unallocated_protection": 10126
       },
       "Q2": {
-        "old_net": 6999,
-        "new_net_before_unallocated_protection": 6650
+        "old_net": 7441,
+        "new_net_before_unallocated_protection": 7092
       },
       "Q3": {
-        "old_net": 3704,
-        "new_net_before_unallocated_protection": 2625
+        "old_net": 3908,
+        "new_net_before_unallocated_protection": 2829
       },
       "Q4": {
-        "old_net": -727,
-        "new_net_before_unallocated_protection": -2857
+        "old_net": -610,
+        "new_net_before_unallocated_protection": -2740
       },
       "Q5": {
-        "old_net": -56131,
-        "new_net_before_unallocated_protection": -60228
+        "old_net": -56075,
+        "new_net_before_unallocated_protection": -60172
       }
     },
     "2039": {
       "Q1": {
-        "old_net": 9171,
-        "new_net_before_unallocated_protection": 9346
+        "old_net": 10363,
+        "new_net_before_unallocated_protection": 10538
       },
       "Q2": {
-        "old_net": 7307,
-        "new_net_before_unallocated_protection": 6942
+        "old_net": 7767,
+        "new_net_before_unallocated_protection": 7402
       },
       "Q3": {
-        "old_net": 3902,
-        "new_net_before_unallocated_protection": 2778
+        "old_net": 4114,
+        "new_net_before_unallocated_protection": 2990
       },
       "Q4": {
-        "old_net": -695,
-        "new_net_before_unallocated_protection": -2912
+        "old_net": -574,
+        "new_net_before_unallocated_protection": -2791
       },
       "Q5": {
-        "old_net": -58296,
-        "new_net_before_unallocated_protection": -62557
+        "old_net": -58237,
+        "new_net_before_unallocated_protection": -62498
       }
     }
   },
@@ -20786,9 +20786,9 @@
     "models/data/inputs/funds-ss-rates.csv": "c6388ac3a0688374d3e9a5accfcaff2ab1e5a336f530df447fe3cc6166cf5d1e",
     "models/data/inputs/funds-ss-ssa-runs.csv": "e8395c782c528874d5d9197564e485285e8fffa42d21c5729d843d8e5948a9e9",
     "models/data/inputs/funds-ss-ssa-summary.csv": "48c6b349c6ea9db6f9c817c861b828a1128a8d86a00d2750241e50a4542a1c42",
-    "models/data/inputs/incidence-keys.csv": "8045ca5db6813c8ef66a3ed07e02f9952657b0869d866eb287152a27f43407ea",
+    "models/data/inputs/incidence-keys.csv": "3291f19362cb456eac99454a3314c920805f450409f0a6bc768e61f66f744c5f",
     "models/data/inputs/incidence-phase-in.csv": "f9131dd19575b2bde7b82ece44602e0c5f350de59881accac9c6ba02f80b317d",
-    "models/data/inputs/incidence-rows.csv": "e9baf1536f2f7dd3d822a61e6578e18655799c4232eb05f15ed2f49019e59459",
+    "models/data/inputs/incidence-rows.csv": "7541d394a64fbf2ba7f2266ab53d4c39c1cacea4dd2e4ec467ad6d24a2f7e183",
     "models/data/inputs/ledger-bills.csv": "812c328ea562fbc41d9cc159deded4649c6002e958b38d95496335f045e69728",
     "models/data/inputs/ledger-conflicts.csv": "0859546aabb45c1157d860ccc0555cf53b541170e9328f72b6707ba1c19c4cff",
     "models/data/inputs/ledger-cuts.csv": "1bbdea586037a37cf20d43d61b81b1ba8751b2236d4ec600b97b10c3bb308f0a",

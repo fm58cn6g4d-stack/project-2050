@@ -18,10 +18,11 @@ UNIT_MONEY = {"wage_h": "wages", "wage_s": "wages", "se_h": "se", "se_s": "se", 
               "dividends": "dividends", "rent": "rent", "capgain": "capgain", "pension": "pension", "ss": "ss",
               "ssi": "ssi", "tanf": "tanf", "uc": "uc", "vet": "vet", "disab_surv": "disab_surv", "other": "other",
               "child_support_rcvd": "child_support", "dep_wages": "dep_wages", "dep_other_income": "other",
-              "premiums_paid": "premiums", "c_sttax": "state_tax"}
+              "premiums_paid": "premiums", "c_sttax": "state_tax", "ssi_dep": "ssi"}
 SPM_MONEY = {"threshold": "threshold", "snap": "snap", "housing": "housing", "school_lunch": "school_lunch",
              "wic": "wic", "energy": "energy", "work_childcare": "work_childcare", "medical": "medical",
-             "child_support_paid": "child_support_paid", "sttax": "state_tax"}
+             "child_support_paid": "child_support_paid", "sttax": "state_tax",
+             "childcare": "work_childcare"}
 _CACHE = {}
 
 

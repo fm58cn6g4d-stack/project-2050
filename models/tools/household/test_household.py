@@ -22,7 +22,8 @@ from families import FAMILIES, budget as family_budget, marginal_rates  # noqa: 
 from params import law, index_factor  # noqa: E402
 from poverty import rates  # noqa: E402
 import provisions as P  # noqa: E402
-from rules import afa_child_benefit  # noqa: E402
+from rules import (afa_child_benefit, cdctc_rate, cdctc_refundable, childless_eitc_2021, guarantee_charge,  # noqa: E402
+                   inc1_childless_eitc, ssi_exclusions_indexed)
 from tax import unit_tax  # noqa: E402
 
 ZERO = {k: 0 for k in ("age_s", "wage_s", "se_h", "se_s", "interest", "dividends", "rent", "capgain", "pension", "ss",
@@ -156,6 +157,65 @@ class Rules(unittest.TestCase):
         gain = afa_child_benefit(u, L)
         self.assertEqual(u["t_ctc_total"], 0)                               # no earnings: no credit today
         self.assertGreater(gain, 12 * 300 * 2.2)                            # at least the 2024 amounts
+
+
+class SecureFloorRules(unittest.TestCase):
+    """INC-1 to INC-4's rules (`rules.py`); INC-2 and INC-5 use household fields."""
+    L = dict(law(2029), smi4=150000)
+
+    def taxed(self, **kw):
+        u = unit(**kw)
+        u.update({"t_" + k: v for k, v in unit_tax(u, self.L).items()})
+        return u
+
+    def test_childless_credit_2021_design(self):
+        from params import econ
+        f = econ("cpiu", 2028) / 270.970
+        self.assertAlmostEqual(childless_eitc_2021(self.L, 9820 * f, 9820 * f, "single", [30]), 1502.46 * f, delta=1)
+        self.assertEqual(childless_eitc_2021(self.L, 8000, 8000, "single", [18]), 0)        # from age 19
+        self.assertGreater(childless_eitc_2021(self.L, 8000, 8000, "single", [70]), 0)      # no upper limit
+        self.assertEqual(childless_eitc_2021(self.L, 9820 * f, 9820 * f, "single", [30], invest=1e5), 0)
+
+    def test_inc1_gain(self):
+        u = self.taxed(age_h=40, wage_h=10000)
+        self.assertGreater(inc1_childless_eitc(u, self.L), 0)
+        self.assertGreater(u["t_eitc"], 0)                                   # today's credit, netted out
+        kid = self.taxed(age_h=40, wage_h=10000, filestat=4, n_dep=1, n_dep_6_16=1)
+        self.assertEqual(inc1_childless_eitc(kid, self.L), 0)                # families with children: unchanged
+
+    def test_care_credit_rate(self):
+        self.assertEqual(cdctc_rate(15000, "single"), 0.50)
+        self.assertEqual(cdctc_rate(15001, "single"), 0.49)                  # each $2,000 or fraction
+        self.assertEqual(cdctc_rate(60000, "single"), 0.35)
+        self.assertEqual(cdctc_rate(80000, "single"), 0.32)
+        self.assertEqual(cdctc_rate(160000, "joint"), 0.32)                  # $4,000 steps on joint returns
+        self.assertEqual(cdctc_rate(10 ** 6, "joint"), 0.20)
+
+    def test_guarantee_charge(self):
+        self.assertEqual(guarantee_charge(0.85 * 150000, 4, 150000), 0)
+        self.assertAlmostEqual(guarantee_charge(1.5 * 150000, 4, 150000), 0.07 * 225000)
+        self.assertAlmostEqual(guarantee_charge(3 * 150000, 4, 150000), 0.07 * 450000)
+
+    def test_care_credit_refundable_part(self):
+        base = dict(age_h=30, wage_h=20000, filestat=4, n_dep=1, n_dep_6_16=1, n_dep_5_12=1, n_dep_u5=0,
+                    n_people=2, childcare=4000)
+        u = self.taxed(**base)
+        self.assertAlmostEqual(cdctc_refundable(u, self.L), cdctc_rate(u["t_agi"], "hoh") * 3000
+                               - u["t_tax_before_credits"], places=6)
+        young = self.taxed(**dict(base, n_dep_6_16=0, n_dep_u6=1, n_dep_5_12=0, n_dep_u5=1))
+        self.assertEqual(cdctc_refundable(young, self.L), 0)                 # the guarantee pays: free care
+
+    def test_ssi_exclusions(self):
+        u = unit(n_ssi=1, n_ssi_unearned=1, n_ssi_earn=0)
+        e = unit(n_ssi=1, n_ssi_unearned=0, n_ssi_earn=1)
+        self.assertEqual(ssi_exclusions_indexed(unit(n_ssi=1, n_ssi_unearned=0, n_ssi_earn=0), self.L), 0)
+        self.assertAlmostEqual(ssi_exclusions_indexed(e, self.L) / ssi_exclusions_indexed(u, self.L), 52.5 / 20)
+
+    def test_snap_cut_is_the_law(self):
+        b = baseline(2029)
+        cut = sum(h["weight"] * h["snap_cut"] for h in b["households"]) / 1e9
+        sl = b["snap_law"]
+        self.assertAlmostEqual(cut, sl["snap_prior_law_bn"] - sl["snap_bn"], delta=0.3)
 
 
 class Families(unittest.TestCase):

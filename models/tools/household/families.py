@@ -19,7 +19,7 @@ Medicaid and CHIP are cliffs, not rates, and are listed apart. Housing's 30% ren
 """
 from params import law
 from tax import unit_tax
-from rules import afa_child_benefit
+from rules import afa_child_benefit, childless_eitc_2021
 
 FAMILIES = {
     "single_parent_2": {"label": "Single parent, two children", "fs_code": 4, "age_h": 32, "age_s": -1,
@@ -90,25 +90,13 @@ def budget(f, earnings, year=2029, bbce=False, shelter=0.0, marketplace=False, p
         u.update({"t_" + k: v for k, v in t.items()})
         income_tax -= afa_child_benefit(u, L)
         if not (f["kids_u6"] + f["kids_6_16"]):
-            income_tax += t["eitc"] - childless_eitc_2021(L, earnings, t["agi"], t["fs"], f["age_h"])
+            income_tax += t["eitc"] - childless_eitc_2021(L, earnings, t["agi"], t["fs"], [f["age_h"]])
     payroll = t["fica_ee"]
     s = snap(L, f, earnings, bbce, shelter)
     contrib = ptc_contribution(L, f, t["agi"]) if marketplace else None
     return {"earnings": earnings, "payroll": payroll, "income_tax": income_tax, "snap": s,
             "ptc_contribution": contrib or 0.0, "ptc_eligible": contrib is not None,
             "net": earnings - payroll - income_tax + s - (contrib or 0.0)}
-
-
-def childless_eitc_2021(L, earned, agi, fs, age):
-    """INC-1.01: the 2021 childless credit (ARPA sec. 9621), indexed to prices from 2021: $1,502 maximum, 15.3% in and
-    out, phase-in to $9,820, phase-out from $11,610 ($17,550 joint), from age 19 with no upper limit."""
-    from params import econ
-    f = econ("cpiu", L["year"] - 1) / 270.970                      # BLS CPI-U annual 2021 = 270.970
-    if age < 19:
-        return 0.0
-    earn_end, po = 9820 * f, (17550 if fs == "joint" else 11610) * f
-    c = min(0.153 * earned, 0.153 * earn_end) - 0.153 * max(max(agi, earned) - po, 0)
-    return max(c, 0.0)
 
 
 def marginal_rates(f, year=2029, points=(0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, 2.5, 3.0), step=1000, **kw):
