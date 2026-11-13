@@ -1,6 +1,6 @@
 # Memo 2: Clean-energy credits and clean industry after the 2025 repeal
 
-Role: decision memo for Espen, forks 3 and 4 of the clean power dossier (`../3-design.md`). Status: draft, for decision (E-C1). Each part is decided on its own.
+Role: decision memo for Espen, forks 3 and 4 of the clean power dossier (`../3-design.md`). Status: **Decided** (`DEC-2026-11-13-06`): part 1 B and part 2 A, as recommended; point 7 yes (`DEC-2026-11-13-07`). Specified in `../4-specification.md`, part B. Each part is decided on its own.
 
 **Decision line.** Recommended: **part 1 B, the legacy credit set started again in 2030 (power, storage, manufacturing, household and vehicle credits; refundable, direct pay and point of sale), stepping down on a published schedule as the clean power standard and vehicle standards take over, with a cost review trigger; part 2 A, contracts for difference for clean steel, cement, chemicals and other heavy industry, with a federal Buy Clean purchasing rule.** Cost: as booked, about **$0.87 trillion over FY2030-39 and about $76 billion in FY2040** (credits $0.757 trillion and $55.9 billion; contracts $0.110 trillion and $20.5 billion), with a real risk of running higher on take-up. Evidence: JCT's and CBO's scores of the IRA credits and their growth; the Clean Investment Monitor's investment record; the 2025 law's dates; UK and German contract records; the legacy portfolio model's step-down (a project estimate).
 

@@ -5,7 +5,8 @@ standard library only, plus the dossier's own path script through immigration_bo
 - every shape, component, perm and ledger amount in models/data/inputs/ equals immigration_booking.py's derivation
   from dossiers/immigration/tools/immigration_path.py, and every line of the path is booked once;
 - IMM-1 is now a cost, not the legacy S.744 saving, and its spending and the two revenue rows add to section 6's
-  decided set ($175.1B over FY2030-39 and $28.8B in FY2040, part 1);
+  decided set ($149.0B over FY2030-39 and $22.5B in FY2040, part 1, with memo 6's health line at two-thirds of care's
+  average use, Espen, November 13; $175.1B and $28.8B at 1.0);
 - E-Verify's on-budget revenue is its own base-revenue row, not netted inside IMM-1 (counting rules);
 - CAP-7S's USCIS share ($40B) and CAP-7's pro-rata USCIS share are out.
 """
@@ -69,8 +70,8 @@ class ImmigrationBooking(unittest.TestCase):
 
     def test_totals_are_section_6s(self):
         t = self.b["totals"]
-        self.assertEqual(round(t["dossier_window"] * 1000, 1), 175.1)
-        self.assertEqual(round(t["dossier_fy2040"], 1), 28.8)
+        self.assertEqual(round(t["dossier_window"] * 1000, 1), 149.0)
+        self.assertEqual(round(t["dossier_fy2040"], 1), 22.5)
         self.assertAlmostEqual(t["spending_window"] + t["revenue_window"], t["dossier_window"], places=3)
         self.assertGreater(self.b["ledger"]["IMM-1"][1], 0)    # a cost now, not the S.744 saving
 

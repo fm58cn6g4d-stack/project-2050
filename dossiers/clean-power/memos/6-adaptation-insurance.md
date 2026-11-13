@@ -1,6 +1,6 @@
 # Memo 6: Adaptation and insurance
 
-Role: decision memo for Espen, fork 10 of the clean power dossier (`../3-design.md`). Status: draft, for decision (E-C1).
+Role: decision memo for Espen, fork 10 of the clean power dossier (`../3-design.md`). Status: **Decided** (`DEC-2026-11-13-06`): A, as recommended; point 13 yes (`DEC-2026-11-13-07`). Specified in `../4-specification.md`, part F.
 
 **Decision line.** Recommended: **A, the legacy disaster package as booked: a standing mitigation fund with a formula floor for every state and tribe, a larger post-disaster mitigation share, faster survivor aid, extreme-heat and wildfire programs, premium help for low- and moderate-income households (flood, and wind, wildfire and hail), voluntary buyouts, NFIP's debt resolved with a long reauthorization, and a federal reinsurance facility above a 1-in-100-year loss with a $150 billion cap, risk-priced premiums and recoupment.** Cost as booked: about **$0.20 trillion over FY2030-39 and $9.8 billion in FY2040**, plus a $75-150 billion contingent liability disclosed and not scored. Evidence: NOAA and Climate Central disaster counts; Treasury's Federal Insurance Office and NBER research on premiums; CRS on NFIP and BRIC; NIBS on mitigation's returns (one institute's estimates); TRIA, France's CatNat and the UK's Flood Re as working backstops.
 

@@ -1,6 +1,6 @@
 # Memo 5: Household energy bills
 
-Role: decision memo for Espen, fork 9 of the clean power dossier (`../3-design.md`). Status: draft, for decision (E-C1).
+Role: decision memo for Espen, fork 9 of the clean power dossier (`../3-design.md`). Status: **Decided** (`DEC-2026-11-13-06`): B, as recommended; point 12 yes (`DEC-2026-11-13-07`). Specified in `../4-specification.md`, part E.
 
 **Decision line.** Recommended: **B, energy help as an automatic benefit: LIHEAP's money raised and paid as a bill credit to every household already enrolled in SNAP, SSI or the low-income home energy program, without a separate application, with heat-pump retrofits and the transition bill protection as booked.** Cost: **about $0.08 trillion over FY2030-39** for the larger energy help, inside the add-ons' booked $0.12 trillion line for energy, Weatherization and water help, plus the booked heat-pump retrofits ($84 billion) and bill protection ($7 billion); **about $9-10 billion in FY2040** above the booking, because the booked add-ons end around 2040 and this help is permanent (project estimate). Evidence: HHS's LIHEAP reach as reported by NLIHC and CRS; DOE's LEAD tool; Census survey data on hardship; the legacy add-ons' split (a project estimate).
 

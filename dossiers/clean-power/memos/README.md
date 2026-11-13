@@ -1,6 +1,6 @@
 # Clean power: decision memos
 
-Role: index of the clean power flagship's decision memos, the batch Espen decides in one round (`dossiers/TEMPLATE.md`, "Decision memos in one batch"). Status: draft, **for decision** (step E-C1). Each memo, part and point is decided on its own, and none is adopted by silence. Section 3 (`../3-design.md`) has the forks at a glance, the inherited assumptions, the shared rules, the fourteen yes-or-no points and the fiscal report.
+Role: index of the clean power flagship's decision memos, the batch Espen decides in one round (`dossiers/TEMPLATE.md`, "Decision memos in one batch"). Status: **decided**: memos 1-7 all as recommended (`DEC-2026-11-13-06`, with memo 7's wage insurance set by Espen) and points 1-14 all yes (`DEC-2026-11-13-07`); sections 4-6 specify and price them (step E-C2). Each memo, part and point is decided on its own, and none is adopted by silence. Section 3 (`../3-design.md`) has the forks at a glance, the inherited assumptions, the shared rules, the fourteen yes-or-no points and the fiscal report.
 
 Every memo opens with a **decision line**: the recommended option, its cost over FY2030-39 and in FY2040, and the evidence it rests on. Costs are on the general fund against the January 2029 law and are shown against the legacy rows the budget model already books (about $1.81 trillion over FY2030-39 and $165 billion in FY2040); a minus sign is a saving.
 
@@ -16,6 +16,6 @@ Every memo opens with a **decision line**: the recommended option, its cost over
 
 **Points 1-14** (section 3): the goals, road fuels, the methane fee, the border adjustment, the 80/20 split, the dividend account, the credits' cost trigger, the national inventory, the clean-heat standard, large loads paying their own way, TVA's bond cap, bill protection's sunset, codes as a condition, and farms and forests. Each is recommended yes.
 
-**The recommended set** on the general fund: about **+$0.11 trillion over FY2030-39 against the booking (range about −$0.06 to +$0.28 trillion), about $1.9 trillion in all, and about $156 billion in FY2040**, about 3.7% of the plan-wide FY2040 shortfall (about $4,239 billion). Project arithmetic on the booked rows and legacy models; the booking step reruns the carbon model for memo 1's coverage.
+**The recommended set** on the general fund, as section 3 first estimated it: about +$0.11 trillion over FY2030-39 against the booking, about $1.9 trillion in all, and about $156 billion in FY2040. **As decided and priced in `../6-cost.md`, part 1: about $1.85 trillion over FY2030-39 (+$0.04 trillion against the booking) and about $147 billion in FY2040 (−$17.5 billion)**, mainly because memo 7 B is priced bottom-up on Espen's parameters (about $0.012 trillion, not $0.08 trillion). About 3.5% of the plan-wide FY2040 gap.
 
 **Decision sheet.** A one-page sheet of these options and recommendations can be published for Espen alongside the board question.
