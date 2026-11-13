@@ -8,20 +8,20 @@
 
 ## 1. Headline numbers
 
-Current values from this run: general-fund claims $37.79T; top-end base $10.59T; ten-year gap $27.20T; gap after accepted options +22.69T; accepted revenue $3.21T; envelope borrowing $1.30T; legacy Senate floor days under F 172; legacy assumed floor-day budget 163; DEC ten-year general-fund deficit $24.25T; DEC total debt, 2056 373.8%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$-483.
+Current values from this run: general-fund claims $37.73T; top-end base $10.59T; ten-year gap $27.14T; gap after accepted options +22.63T; accepted revenue $3.21T; envelope borrowing $1.30T; legacy Senate floor days under F 172; legacy assumed floor-day budget 163; DEC ten-year general-fund deficit $24.18T; DEC total debt, 2056 373.3%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$-485.
 
 | File | Line | Figure | Quoted | This run |
 | --- | --- | --- | --- | --- |
-| legacy/domains/domain-revenue.md | 12 | ten-year gap | gap of **$5.87T** | $27.20T |
-| legacy/domains/domain-revenue.md | 26 | general-fund claims | $11.72T claims | $37.79T |
-| legacy/domains/domain-revenue.md | 302 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-483 |
-| legacy/governing/project-2050-governing-decisions.md | 100 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-483 |
-| legacy/governing/project-2050-governing-decisions.md | 104 | ten-year gap | a $5.87T gap | $27.20T |
+| legacy/domains/domain-revenue.md | 12 | ten-year gap | gap of **$5.87T** | $27.14T |
+| legacy/domains/domain-revenue.md | 26 | general-fund claims | $11.72T claims | $37.73T |
+| legacy/domains/domain-revenue.md | 302 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-485 |
+| legacy/governing/project-2050-governing-decisions.md | 100 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-485 |
+| legacy/governing/project-2050-governing-decisions.md | 104 | ten-year gap | a $5.87T gap | $27.14T |
 | legacy/governing/project-2050-governing-decisions.md | 104 | top-end base | against a $5.85T top-end base | $10.59T |
-| legacy/index/revenue-assignment-audit.md | 72 | general-fund claims | $11.72T of claims | $37.79T |
-| legacy/index/revenue-assignment-audit.md | 118 | general-fund claims | $11.72T of claims | $37.79T |
-| legacy/index/revenue-assignment-audit.md | 176 | incidence scenario Q, fourth quintile | fourth quintile at about +$1,139 | +$-483 |
-| legacy/index/revenue-assignment-audit.md | 180 | ten-year gap | gap $5.87T | $27.20T |
+| legacy/index/revenue-assignment-audit.md | 72 | general-fund claims | $11.72T of claims | $37.73T |
+| legacy/index/revenue-assignment-audit.md | 118 | general-fund claims | $11.72T of claims | $37.73T |
+| legacy/index/revenue-assignment-audit.md | 176 | incidence scenario Q, fourth quintile | fourth quintile at about +$1,139 | +$-485 |
+| legacy/index/revenue-assignment-audit.md | 180 | ten-year gap | gap $5.87T | $27.14T |
 | legacy/index/revenue-assignment-audit.md | 180 | top-end base | base $5.85T | $10.59T |
 
 In dated passages (an "after X" note or a saved state). Usually history to leave alone, sometimes a state line to refresh or mark as dated:
@@ -29,8 +29,8 @@ In dated passages (an "after X" note or a saved state). Usually history to leave
 | File | Line | Figure | Quoted | This run |
 | --- | --- | --- | --- | --- |
 | legacy/index/revenue-assignment-audit.md | 134 | envelope borrowing | $1.15T of borrowing | $1.30T |
-| legacy/index/revenue-assignment-audit.md | 134 | general-fund claims | claims of $11.10T | $37.79T |
-| legacy/index/revenue-assignment-audit.md | 134 | ten-year gap | gap of $5.12T | $27.20T |
+| legacy/index/revenue-assignment-audit.md | 134 | general-fund claims | claims of $11.10T | $37.73T |
+| legacy/index/revenue-assignment-audit.md | 134 | ten-year gap | gap of $5.12T | $27.14T |
 
 ## 2. IDs
 
@@ -76,7 +76,7 @@ For each ledger row with a cost, the domain file's lines that name the ID are se
 | FAM-2 | 1.484 | legacy/domains/domain-family.md | ledger middle not among the figures given for this ID | 0.9, 0.6, 0.4 | Care parts B-D booking (dossiers/care/6bcd-cost.md part 5 item 5; DEC-2026-11-11-03, -04, -06): child care at 90% then 80% (FAM-2.01, 2.08), labor grown with wages, pre-K at 90% then 75% (FAM-2.02), the facilities fund (FAM-2.05), CCDF kept for school-age children (FAM-2.04, M-2), the territories (FAM-2.07, M-1) and early educators' pay to parity in 2036-37 (FAM-2G.01), on fiscal years; FY2040 $243B. Range from the path's low and high readings. Was the legacy $0.6T six-year ramp (CRFB). In case mixed the EDU-9B fund carries it (its care component reads this path), so part C is counted once; on the general fund instead is the financing settlement's choice. States' shares are paid directly; a declining state's share (FAM-2.08) is collected by offset on HLT-7.17's instrument and is in the joint-failure risk (review F-1). FAM-2D (option) carries the Bonamici pre-K standards |
 | FAM-3 | 0.9 | legacy/domains/domain-family.md | no dollar figure next to the ID | — | CBO $547B (BBB-era design); JCT break-even 0.85%; 0.6% raises ~$0.9T; ceiling 1.10% (Espen, Oct 26) |
 | HOU-1 | 0.691 | legacy/domains/domain-housing.md | ledger middle not among the figures given for this ID | 0.733, 0.56, 0.47, 0.4 | Booked provision by provision from dossiers/home/6-cost.md section 1.2 (central; low and high from its ranges less HOU-4D's), as section 5 proposes (housing fix step 7, O-6): one component per line in fiscal-components.csv, the legacy fee allowance folded into HOU-4A, the option D credits (HOU-2D) booked in the title. HOU-4D's stage 2 guarantee stays in recovery-adoption.json (housing_extra). FY2029's R1 readiness tranche ($0.75B) is outside the window (ASM-WINDOW). No expansion borrowing or pay-for adopted; C21 and C31 unchanged. |
-| IMM-1 | 0.195 | legacy/domains/domain-immigration.md | ledger middle not among the figures given for this ID | 0.175, 0.15, 0.25, 0.14 | Immigration booking (dossiers/immigration/6-cost.md part 6; milestone review step 5; DEC-2026-11-12-07, -12 and Espen's November 12 answers): re-derived from the dossier's path (models/tools/immigration_booking.py), replacing the legacy S.744 pattern (-0.14T, which did not transfer). Spending only, as components on the fiscal-year path: status 0.0559T; table 0.1125T (taking the ledger's rounding); legal -0.0400T; asylum-courts 0.0432T; enforcement 0.0136T; uscis 0.0098T. Revenue effects are their own base-revenue rows (IMM-EV, E-Verify's on-budget revenue under JCT's convention; IF1T, the H-1B fee's 25% income-tax offset). Project arithmetic bounded by CBO's 2013 and 2021 scores; not a score. CRT-5's court structure is democratic renewal's and stays unscored (ledger-conflicts.csv) |
+| IMM-1 | 0.169 | legacy/domains/domain-immigration.md | ledger middle not among the figures given for this ID | 0.175, 0.15, 0.14, 0.25 | Immigration booking (dossiers/immigration/6-cost.md part 6; milestone review step 5; DEC-2026-11-12-07, -12 and Espen's November 12 answers): re-derived from the dossier's path (models/tools/immigration_booking.py), replacing the legacy S.744 pattern (-0.14T, which did not transfer). Spending only, as components on the fiscal-year path: status 0.0559T; table 0.0865T (taking the ledger's rounding); legal -0.0400T; asylum-courts 0.0432T; enforcement 0.0136T; uscis 0.0098T. Revenue effects are their own base-revenue rows (IMM-EV, E-Verify's on-budget revenue under JCT's convention; IF1T, the H-1B fee's 25% income-tax offset). Project arithmetic bounded by CBO's 2013 and 2021 scores; not a score. CRT-5's court structure is democratic renewal's and stays unscored (ledger-conflicts.csv) |
 | CRT-P1 | 0.01 | legacy/domains/domain-courts.md | ledger middle not among the figures given for this ID | 4.1, 4.15, 4.2, 4.3 | CRT-5 (Article I immigration court) unscored. Its legacy ~$0.03T included the judge corps and appointed counsel, now booked in IMM-1 (asylum-courts: the judge teams $13.2B and counsel $9.2B over FY2030-39); re-scored without them, the court's structure is on the order of $0.003-0.01T (immigration milestone review F-2, judgment), democratic renewal's to score with its judicial branch plan |
 | CAP-8 | 0.04 | legacy/domains/domain-capacity.md | ledger middle not among the figures given for this ID | 8.9, 9.2, 9.6, 9.8 | Congressional capacity ($0.03T) plus civil service ($0.01T); staffing money sits in CAP-7 and CAP-7S. EDU-6 (bar on moving ED functions by interagency agreement) proposed to ride, pending Espen |
 | CAP-7 | 0.4557 | legacy/domains/domain-capacity.md | ledger middle not among the figures given for this ID | 0.49, 0.5, 0.4, 0.6 | The lasting increase that follows the front-loaded surge (CAP-7S), lower than the surge; sizing is a working figure until the bottom-up agency review. ~$15B in FY2030, ~$31B in 2031, ~$49B in 2032 (0.12% of GDP), ~$65B in 2040 (estimate; 0.10% and 0.148% are the alternatives). Per-agency split pro rata to CAP-7's table Immigration booking: USCIS's pro-rata 7% share set to zero (lo, mid and hi scaled by 0.93), for the same reason as CAP-7S's; USCIS's other work is fee-funded at cost (IMM-6.02). |

@@ -84,8 +84,13 @@ def lines():
     ssi_t = grown(2031, 2.169 * 1.03, 0.011)
     ssi_t[2031] *= 0.7
     out['INC-3.03, SSI in the territories (Espen, November 12)'] = monthly_to_fy(ssi_t)
-    # Point 7: $3-6 billion a year (judgment), central $4.5 billion in tax year 2030.
-    out['INC-4.01, the refundable dependent care credit (point 7)'] = filed_to_fy(grown(2030, 4.5, 0.025))
+    # Point 7, rescoped (Espen, November 13, option B): only care neither the child care guarantee nor the school-age
+    # block grant pays. The household model measures $0.34 billion in 2029 at full take-up (rules.cdctc_refundable;
+    # results.md section 6), already net of CCDF, since the CPS reports what families paid. Added by judgment: spending
+    # the survey under-reports (about +$0.1 billion, its own sensitivity at half again) and care for a disabled adult,
+    # which it cannot see (about +$0.1 billion, range 0-0.3); less take-up below full (about 85%, range 70-100%).
+    # About $0.5 billion in tax year 2030, range $0.2-1.0 billion; growing 2.5% a year, as before (judgment).
+    out['INC-4.01, the refundable dependent care credit (point 7)'] = filed_to_fy(grown(2030, 0.5, 0.025))
     # Memo 7 part 1 B: $1-3 billion a year of forgone offsets (judgment), central $2 billion
     # from FY2031, when the stipends begin, growing 3%.
     out['INC-5.01, the exclusion rule (memo 7 part 1 B)'] = grown(2031, 2.0, 0.03, YEARS)

@@ -52,7 +52,7 @@ RANGES = {
     "INC-2": (0.20, 0.25),     # CBO's window's later years [EV-SEC-035] [EV-SEC-038]
     "INC-2B": (0.092, 0.183),  # INC-2.02: $8-16B in FY2030 on the path's growth (6-cost.md part 1; DEC-2026-11-13-03)
     "INC-3": (0.034, 0.058),   # INC-3.03 $15-30B (4-specification.md); 3.01-3.02 within 20% (judgment)
-    "INC-4": (0.03, 0.06),     # section 3, point 7
+    "INC-4": (0.002, 0.009),   # point 7 as rescoped (option B): $0.2-1.0B a year (secure_floor_path.py)
     "INC-5": (0.01, 0.03),     # memo 7 part 1 B, $1-3B a year
 }
 

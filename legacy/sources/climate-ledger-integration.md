@@ -6,15 +6,15 @@ Before: common outputs rebuilt at `ffe461d32dc0f50f58213bcb5347d49343e46611`, be
 
 | Measure | Before the climate package | Now (all changes) |
 | --- | ---: | ---: |
-| DEC FY2040 GF primary gap ($B) | 71.9 | 4,539.8 |
-| DEC FY2040 GF primary gap (% GDP) | 0.133 | 8.381 |
-| Recovery mature GF gap (% GDP; negative is headroom) | -0.0083 | 8.9061 |
-| DEC 2056 debt (% GDP) | 155.7 | 373.8 |
-| Mixed reserve-corridor 2056 debt (% GDP) | 115.3 | 338.6 |
-| Scenario Q, Q4 annual average ($) | 1,261 | -483 |
-| Mixed recovery Q4 FY2039 ($) | -2,906 | -5,066 |
+| DEC FY2040 GF primary gap ($B) | 71.9 | 4,528.6 |
+| DEC FY2040 GF primary gap (% GDP) | 0.133 | 8.360 |
+| Recovery mature GF gap (% GDP; negative is headroom) | -0.0083 | 8.8870 |
+| DEC 2056 debt (% GDP) | 155.7 | 373.3 |
+| Mixed reserve-corridor 2056 debt (% GDP) | 115.3 | 338.1 |
+| Scenario Q, Q4 annual average ($) | 1,261 | -485 |
+| Mixed recovery Q4 FY2039 ($) | -2,906 | -5,069 |
 
-The climate package's own mature-year delta is zero in the conservative case (second table), so it moves neither maturity measure; any change in them above comes from other parts of the plan. The climate package raises debt because early general-fund and capital costs are borrowed, with interest. D4 is not relaxed: DEC still fails maturity; the mixed recovery illustration is short of general-fund balance at maturity by 8.91% of GDP (reported to the financing settlement), and it does not certify all-fund solvency. The mixed recovery tax rates remain illustrative.
+The climate package's own mature-year delta is zero in the conservative case (second table), so it moves neither maturity measure; any change in them above comes from other parts of the plan. The climate package raises debt because early general-fund and capital costs are borrowed, with interest. D4 is not relaxed: DEC still fails maturity; the mixed recovery illustration is short of general-fund balance at maturity by 8.89% of GDP (reported to the financing settlement), and it does not certify all-fund solvency. The mixed recovery tax rates remain illustrative.
 
 | Climate case | GF 2030–39 $B | D4-B capital $B | GF 2040 $B | GF 2050 $B |
 | --- | ---: | ---: | ---: | ---: |
