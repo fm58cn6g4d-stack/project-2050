@@ -42,3 +42,9 @@ exclusion_cap,legacy,,,kept: employer premium amounts are not in the CPS
 surtax,micro,rule:surtax_100k,legacy,"C20's base, household by household: AGI above $100,000 ($200,000 joint) (rules.py); the top 1% share stays the legacy key's (55%): the CPS top-codes income and finds 28%"
 health_hh,legacy,,,kept: the health coverage model's own key (health_booking.py)
 exclusion_end,legacy,,,kept: the health coverage model's own key (health_booking.py)
+eitc_childless,micro,rule:inc1_childless_eitc,micro,"INC-1's gain over the 2029 law, tax unit by tax unit: INC-1.01's 2021 childless credit in place of today's (rules.py); INC-1.02 moves no money on the CPS"
+snap_cut,micro,snap_cut,micro,"P.L. 119-21's SNAP cuts the model applies in 2029 (the work rule, energy and internet changes; snap2025.py), household by household: INC-2's repeal gives them back"
+snap,micro,snap_prior,micro,"SNAP before P.L. 119-21, as the CPS reports it, uprated to 2029: INC-2's sections the model does not apply household by household (the Thrifty Food Plan, the state shares, noncitizens)"
+ssi,micro,ssi+ssi_dep,micro,"SSI received, adults' and children's: INC-3.01's new and kept eligibles and INC-3.03's territory residents (not in the CPS) stand in as today's recipients"
+ssi_exclusions,micro,rule:ssi_exclusions_indexed,micro,"INC-3.02's indexed exclusions, recipient by recipient (rules.py)"
+cdctc,micro,rule:cdctc_refundable,micro,"INC-4's refundable dependent care credit, tax unit by tax unit, on the CPS's child care spending net of the child care guarantee (rules.py); dependent adults' care is not in the CPS"
