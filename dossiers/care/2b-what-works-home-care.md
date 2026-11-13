@@ -1,6 +1,6 @@
 # Care you can count on, part B (long-term care: support at home and in nursing homes for older and disabled people): what works
 
-Role: section 2 of the care dossier, part B. It covers the evidence on paying for and delivering long-term care at home, in the United States and abroad, the designs on the table, and the failures to avoid. Status: draft (stage D, step 5; corrected after the audit, `review-part-b-evidence.md`, step 5b). Figures cite `evidence.json`. Grades and the data-or-analysis labels are there; where only one research team supports a finding, the text says so.
+Role: section 2 of the care dossier, part B. It covers the evidence on paying for and delivering long-term care at home, in the United States and abroad, the designs on the table, and the failures to avoid. Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README). Figures cite `evidence.json`. Grades and the data-or-analysis labels are there; where only one research team supports a finding, the text says so.
 
 ## In brief
 

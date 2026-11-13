@@ -1,6 +1,6 @@
 # Care you can count on, part C (child care and pre-K): what works
 
-Role: section 2 of the care dossier, part C. It covers the evidence on child care and pre-K programs at home and abroad, what they cost and the failures to avoid. Status: draft (stage D, step 6). Each finding names its design strength: a randomized trial, a lottery, a quasi-experimental study (regression discontinuity, difference-in-differences, sibling comparison), a program evaluation, descriptive data or expert judgment. Tags point to `evidence.json` (EV-CAR-500 to 599).
+Role: section 2 of the care dossier, part C. It covers the evidence on child care and pre-K programs at home and abroad, what they cost and the failures to avoid. Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README). Each finding names its design strength: a randomized trial, a lottery, a quasi-experimental study (regression discontinuity, difference-in-differences, sibling comparison), a program evaluation, descriptive data or expert judgment. Tags point to `evidence.json` (EV-CAR-500 to 599).
 
 ## In brief
 

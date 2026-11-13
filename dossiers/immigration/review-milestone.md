@@ -7,7 +7,7 @@ Role: the independent milestone review of the immigration dossier (flagship 6; `
 - checks section 9 against sections 1-8;
 - reproduces section 6 from the tools.
 
-Status: current, as of main at commit `4b9ca52` (November 12, 2026, after #299). Reviewer: Claude Code, `session_01UQzgBtaHE8nkT9Znw8gZVp`. It changes nothing in the dossier. Every fix below is a later step: the fix steps go to a fresh Most capable session, or to this reviewer if the lead asks, and the booking goes to the lead.
+Status: current, as of main at commit `4b9ca52` (November 12, 2026, after #299). Outcome on main: the verdicts below are the review's at that commit (#303); its fix steps (#305, #307) closed the blockers, Espen's answers to its questions are `DEC-2026-11-12-17` to `-19`, and the booking (#310) was also the L3 re-check: IMM-1 to IMM-6 are at L3 in `agenda/agenda.csv`, the alternatives at L2. Reviewer: Claude Code, `session_01UQzgBtaHE8nkT9Znw8gZVp`. It changes nothing in the dossier. Every fix below is a later step: the fix steps go to a fresh Most capable session, or to this reviewer if the lead asks, and the booking goes to the lead.
 
 Espen's decisions (`DEC-2026-11-12-07`, `-12`) are settled. Where a decided choice has a cost or gap the dossier does not show, this review says so and sends it to Espen as a question; it does not argue the choice. Under `DEC-2026-11-10-07`, a clearly bounded uncertainty is not a defect. Espen noted on November 12 that the court plan will likely shift again once democratic renewal's judicial branch plan is done. This review treats that as expected, not as a defect (C-3 asks only that sections 7-8 say so).
 

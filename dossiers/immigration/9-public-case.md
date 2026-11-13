@@ -1,6 +1,6 @@
 # A new consensus on immigration: the public case
 
-Role: section 9 of the immigration dossier: a plain-language brief, messages, hard questions and a can-say list. It is built only from sections 1-8 and never runs ahead of them. Status: reviewed (L2; `review-milestone.md`), with the review's fix steps applied; L3 after the re-check. On `DEC-2026-11-12-07` and `-12`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about". Each promise is dated from when its provision starts.
+Role: section 9 of the immigration dossier: a plain-language brief, messages, hard questions and a can-say list. It is built only from sections 1-8 and never runs ahead of them. Status: reviewed at L3 (`review-milestone.md`, #303), with the review's fix steps applied (#305, #307); the re-check was the booking (#310). On `DEC-2026-11-12-07` and `-12`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "on our estimates" or "about". Each promise is dated from when its provision starts.
 
 ## The brief
 

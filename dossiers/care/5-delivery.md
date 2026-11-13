@@ -1,6 +1,6 @@
 # Care you can count on, part A (health): delivery
 
-Role: section 5 of the care dossier, health part. It says who runs each provision of section 4, what capacity it needs, the timeline from enactment to the endpoint, how people get remedies, and what states do. Status: draft (stage D, step 4, PR 1), on `DEC-2026-11-10-09` and `DEC-2026-11-10-11`. Dates are the decided ones; where a step's date is a working choice, it says so.
+Role: section 5 of the care dossier, health part. It says who runs each provision of section 4, what capacity it needs, the timeline from enactment to the endpoint, how people get remedies, and what states do. Status: reviewed at L3 (health, `review-milestone.md`; see the README), on `DEC-2026-11-10-09` and `DEC-2026-11-10-11`. Dates are the decided ones; where a step's date is a working choice, it says so.
 
 ## 1. Who runs what
 

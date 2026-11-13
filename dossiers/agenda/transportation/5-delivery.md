@@ -1,6 +1,6 @@
 # Transportation: delivery
 
-Role: section 5 of the transportation dossier. It says who runs each provision of section 4 (`4-specification.md`, `provisions.json`), what capacity that takes, on what timeline, what states do, what remedies hold when delivery fails, and what the statute must say so a reluctant agency cannot stall it. Status: draft (stage C, step 7, PR 3), written on the decisions in `DEC-2026-11-10-08`. It converts the legacy design's delivery content (Draft 2's divisions A, E and F) and adds only what the decisions changed.
+Role: section 5 of the transportation dossier. It says who runs each provision of section 4 (`4-specification.md`, `provisions.json`), what capacity that takes, on what timeline, what states do, what remedies hold when delivery fails, and what the statute must say so a reluctant agency cannot stall it. Status: reviewed at L3 (`review-milestone.md`; closed in stage C, see the README), written on the decisions in `DEC-2026-11-10-08`. It converts the legacy design's delivery content (Draft 2's divisions A, E and F) and adds only what the decisions changed.
 
 ## 1. Who runs what
 

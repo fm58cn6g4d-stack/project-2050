@@ -1,6 +1,6 @@
 # Transportation: what works
 
-Role: section 2 of the transportation dossier: the evidence on the tools section 3 weighs, at home and abroad, and the failures to avoid. Status: draft (stage C, step 7, PR 2). It is a conversion. The legacy files had no research section, so this one gathers what they relied on and adds outside evidence only where a choice in section 3 turns on it (`charter/STANDARDS.md`, "What needs an answer now").
+Role: section 2 of the transportation dossier: the evidence on the tools section 3 weighs, at home and abroad, and the failures to avoid. Status: reviewed at L3 (`review-milestone.md`; closed in stage C, see the README). It is a conversion. The legacy files had no research section, so this one gathers what they relied on and adds outside evidence only where a choice in section 3 turns on it (`charter/STANDARDS.md`, "What needs an answer now").
 
 ## 1. Paying for roads
 

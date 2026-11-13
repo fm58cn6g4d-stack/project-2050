@@ -1,6 +1,6 @@
 # A home you can keep: what works
 
-Role: section 2 of the housing dossier: what research says about the causes of the problem in section 1, what housing programs and policies have been shown to do, and what other countries teach. Status: draft (stage C, step 3). Every figure and factual claim cites the evidence register (`evidence.json`, EV-HOU-050 onward). Claims still missing evidence are listed at the end and are not made here. This section weighs evidence; it chooses no designs. The forks it leaves are listed at the end for section 3. Current law changed on July 11, 2026 with the ROAD to Housing Act; the section below summarizes it, and `road-act.md` maps it provision by provision.
+Role: section 2 of the housing dossier: what research says about the causes of the problem in section 1, what housing programs and policies have been shown to do, and what other countries teach. Status: reviewed; the L3 re-check passed (#194; `review-milestone.md`; closed in stage C, see the README). Every figure and factual claim cites the evidence register (`evidence.json`, EV-HOU-050 onward). Claims still missing evidence are listed at the end and are not made here. This section weighs evidence; it chooses no designs. The forks it leaves are listed at the end for section 3. Current law changed on July 11, 2026 with the ROAD to Housing Act; the section below summarizes it, and `road-act.md` maps it provision by provision.
 
 Outcomes this section bears on:
 - OUT-04, a home people can keep;

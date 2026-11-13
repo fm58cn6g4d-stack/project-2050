@@ -1,6 +1,6 @@
 # Care you can count on, part A (health): what would change our minds
 
-Role: section 8 of the care dossier, health part. For each decided choice, the finding that would change it and what we would do instead; the political and legal events that would force a fallback; and when the evidence arrives. Status: draft (stage D, step 4, PR 2), on `DEC-2026-11-10-09`, `-11` and `-12`. A change to a decided choice goes back to Espen; the triggers below say when to ask.
+Role: section 8 of the care dossier, health part. For each decided choice, the finding that would change it and what we would do instead; the political and legal events that would force a fallback; and when the evidence arrives. Status: reviewed at L3 (health, `review-milestone.md`; see the README), on `DEC-2026-11-10-09`, `-11` and `-12`. A change to a decided choice goes back to Espen; the triggers below say when to ask.
 
 ## By choice
 
