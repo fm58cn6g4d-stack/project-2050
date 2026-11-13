@@ -103,7 +103,7 @@ Status: draft (stage E, board row I2). Every figure cites the evidence register 
 | | American Immigration Council, 2024 (advocacy) | $315 billion one-time; $88 billion a year, $967.9 billion over 10.6 years | Cost build-up | [EV-IMM-226] |
 
 **What the table means for I3.**
-- **The 2013 savings came mostly from added workers, not from legalization.** S. 744 added about 10 million people by 2023 [EV-IMM-203]; S. 2611's guest-worker program alone added 2.7 million [EV-IMM-212]. The legacy design has no guest-worker expansion on that scale (`domain-immigration.md:57`).
+- **The 2013 savings came mostly from added workers, not from legalization.** S. 744 added about 10 million people by 2023 (CBO's figure for the bill as passed: a net 9.6 million) [EV-IMM-203] [EV-IMM-206]; S. 2611's guest-worker program alone added 2.7 million [EV-IMM-212]. The legacy design has no guest-worker expansion on that scale (`domain-immigration.md:57`).
 - **The narrower bills are the closer guide.** Their scores are small net costs within ten years [EV-IMM-213] [EV-IMM-215]. The direct spending (benefits for newly eligible people) arrives before the revenue grows.
 - **The sign turns on the design.** What IMM-1 costs depends on three choices:
   - the benefit bars (part G of section 1, the five-year bar);
@@ -193,6 +193,7 @@ The Senate parliamentarian ruled against three attempts to put legalization in t
 | Enrollment doubled from about 53,000 (2015) to 111,000 (2020); most unenrolled before their cases ended, about a quarter absconded | GAO, 2022 | Official audit | [EV-IMM-350] [EV-IMM-351] |
 | ICE leaves relevant participants out of its absconding rate | GAO, 2022 | Official audit | [EV-IMM-353] |
 | ISAP under $4.20 a day against about $152 for detention; 179,000 in ATD of 7.6 million on the non-detained docket (October 2024) | ICE | Agency data | [EV-IMM-359] [EV-IMM-358] |
+| In March 2020 ICE awarded BI Incorporated a contract worth $2.2 billion to help run the program | ICE | Agency data; a contract ceiling, not annual spending | [EV-IMM-352] |
 | Detention $137 per adult per day and ISAP III $4.16 (FY2018) | CRS | Official data | [EV-IMM-181] |
 
 - **Read together.**

@@ -177,7 +177,7 @@ Each is decided on its own. None is adopted by silence. Costs are judgment unles
 
    **Recommended: yes.** **Decided: changed** (`DEC-2026-11-12-07`): the unobligated money is redirected to evidence-backed border security, with wall work where the Border Patrol and others recommend it (IMM-3.07); against CBO's baseline it saves nothing.
 8. **Repeal the asylum charges that grow with delay:** the $100-a-year pending fee and the $550 first work permit charge [EV-IMM-043] [EV-IMM-045].
-   - *Cost:* small; part of CBO's $66.5 billion of fee revenue for the 2025 title [EV-IMM-619] (judgment: under $1 billion a year).
+   - *Cost:* small; part of CBO's $66.5 billion of fee revenue for the 2025 title [EV-IMM-619]; the same estimate has $81.4 billion in direct appropriations, mainly for enforcement [EV-IMM-620] (judgment: under $1 billion a year).
 
    **Recommended: yes.** **Decided: yes.**
 9. **Fold the pending $6 billion asylum and refugee reserve** [EV-IMM-578] **into memo 7's bottom-up USCIS line,** rather than adding it on top. This answers the item D9 left pending.

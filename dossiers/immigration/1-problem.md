@@ -21,7 +21,7 @@ Outcomes this section frames (`charter/outcomes.md`):
   - Estimates for 2023-24 run from 13.7 million to 15.8 million [EV-IMM-005] [EV-IMM-001] [EV-IMM-002].
   - 45% had lived here 20 years or more in 2023 [EV-IMM-005]. 5.3 million U.S.-citizen children live with an unauthorized parent [EV-IMM-007].
   - Whether the number fell in 2025-26, and by how much, is contested. Estimates of departures run from 790,000 to 1.9 million (MPI), against a DHS claim of more than 3 million [EV-IMM-012].
-- **The temporary protections have mostly been ended.** TPS covered about 1.4 million people in January 2025 and about 274,000 now [EV-IMM-022]. The Supreme Court held that courts cannot hear non-constitutional challenges to a termination [EV-IMM-023]. DACA covers 436,350 people, under a court ruling that it is unlawful [EV-IMM-016] [EV-IMM-027].
+- **The temporary protections have mostly been ended.** TPS covered about 1.4 million people in January 2025 and about 274,000 now [EV-IMM-022]. The Supreme Court held that courts cannot hear non-constitutional challenges to a termination [EV-IMM-023]. DHS announced Syria's termination on September 22, 2025 and Haiti's on November 28, 2025; district courts postponed both before the Supreme Court acted [EV-IMM-025]. DACA covers 436,350 people, under a court ruling that it is unlawful [EV-IMM-016] [EV-IMM-027].
 - **Every queue is long.**
   - The immigration courts hold 3.3 million pending cases [EV-IMM-100].
   - USCIS holds more than 12.8 million, with a net backlog above 7.7 million [EV-IMM-140].
@@ -109,6 +109,7 @@ Section 2, part A weighs what legalization does for earnings, children and publi
 | --- | --- | --- |
 | Family preference waiting list | About 3.8 million, as of November 2023 (State, via NFAP) | [EV-IMM-127] |
 | Employment backlog, first three preferences | 1,264,495 in December 2025, up 20.6% since 2020 (NFAP estimate) | [EV-IMM-125] |
+| Pending I-140 worker petitions (a processing backlog, apart from the visa-number queue) | 180,439 in FY2025 Q4, up from 43,509 in FY2016 Q1 (AIC, from USCIS data) | [EV-IMM-143] |
 | EB-2, India, November 2026 | Final action date November 1, 2013 (China October 1, 2021; others April 1, 2025) | [EV-IMM-128] |
 | Siblings of citizens (F4), November 2026 | Mexico April 22, 2001; Philippines May 15, 2008; India December 15, 2006 | [EV-IMM-129] |
 | Spouses and children of permanent residents (F2A) | Mexico April 22, 2026; others October 22, 2026 | [EV-IMM-130] |
@@ -148,7 +149,7 @@ Section 2, part A weighs what legalization does for earnings, children and publi
 
 ### C.2 Asylum in the system
 
-- **Asylum offices.** Pending affirmative cases passed 1 million by the end of FY2023 and reached 1,525,933 through most of FY2025, on DHS's count [EV-IMM-146].
+- **Asylum offices.** Pending affirmative cases passed 1 million by the end of FY2023 and reached 1,525,933 through most of FY2025, on DHS's count [EV-IMM-146]. DHS's 2026 rule counts over 1.4 million pending at the end of FY2025 [EV-IMM-306].
   - A July 2026 rule lets USCIS refer affirmative cases to the immigration courts without an interview [EV-IMM-305]. DHS expects referrals to the courts to rise at first [EV-IMM-308], and it projects waits of more than 7.3 years [EV-IMM-319].
   - The 2022 rule letting asylum officers decide the merits of border cases is still on the books, as far as the sources show [EV-IMM-300] [EV-IMM-304].
 - **The courts' asylum docket.**
@@ -178,7 +179,7 @@ Section 2, part A weighs what legalization does for earnings, children and publi
   - Firings began in February 2025 [EV-IMM-150].
 - **The 800-judge cap.** From November 1, 2028, the 2025 law says the immigration courts may have "not more than 800" judges [EV-IMM-105]. It is a ceiling, not funding for 800, and it binds the plan from its first day unless repealed.
 - **What it would take.** CRS projected, on FY2023 data, that 300 or more additional judges would only begin to reduce the backlog and would not clear it through FY2033 [EV-IMM-112]. That projection predates the fall in new cases, so it overstates the need on today's inflow.
-- **Why completions rose.** Completions rose even as judges fell. CRS cautions that an unknown share are terminations and dismissals that move people into expedited removal (context of EV-IMM-102). Speed here is not the same as fair decisions.
+- **Why completions rose.** Completions rose even as judges fell. CRS cautions that an unknown share are terminations and dismissals that move people into expedited removal (context of EV-IMM-102). The second Trump administration has extended expedited removal to the fullest extent the law allows [EV-IMM-168]. Speed here is not the same as fair decisions.
 - **The court bill.** The Real Courts, Rule of Law Act (H.R. 7836, March 2026) would create courts under Article I, independent of the executive, with an appellate division of 21 judges and 15-year terms [EV-IMM-113].
   - **As introduced, it does not appoint counsel.** It keeps the existing right to counsel "at no expense to the Government" [EV-IMM-114].
   - The legacy CRT-5's appointed counsel for children and people with serious mental illness is therefore an addition to the bill, not in it (`legacy-research.md`, section 3).
@@ -189,8 +190,8 @@ Section 2, part A weighs what legalization does for earnings, children and publi
 
 | Law | Amount | Available until | Evidence |
 | --- | --- | --- | --- |
-| 2025 reconciliation law (P.L. 119-21) | ICE detention $45 billion; ICE hiring and operations $29.85 billion | September 30, 2029 | [EV-IMM-035] [EV-IMM-036] [EV-IMM-174] |
-| | Border wall $46.55 billion | September 30, 2029 | [EV-IMM-034] [EV-IMM-175] |
+| 2025 reconciliation law (P.L. 119-21) | ICE detention $45 billion; ICE hiring and operations $29.85 billion | September 30, 2029 | [EV-IMM-035] [EV-IMM-036] [EV-IMM-174] [EV-IMM-038] |
+| | Border wall $46.55 billion | September 30, 2029 | [EV-IMM-034] [EV-IMM-175] [EV-IMM-038] |
 | | Justice Department $3.33 billion, with the 800-judge cap from November 1, 2028 | September 30, 2029 | [EV-IMM-037] [EV-IMM-105] |
 | Secure America Act (P.L. 119-98, June 10, 2026) | ICE $31.075 billion; CBP enforcement $13.02 billion; Homeland Security Investigations $7.45 billion; Border Patrol and CBP personnel $9.55 billion | September 30, 2029 | [EV-IMM-039] [EV-IMM-040] |
 
@@ -204,6 +205,7 @@ Section 2, part A weighs what legalization does for earnings, children and publi
 | Measure | Figure | Evidence |
 | --- | --- | --- |
 | People detained, mid-January 2026 | About 73,000, up 75% from about 40,000 a year earlier | [EV-IMM-172] |
+| ICE's average daily detained population, end of FY2025 (ICE's budget document) | 48,706, up 29% on FY2024 | [EV-IMM-630] |
 | April 9, 2026 | 66,978, with bedspace for about 70,000 and plans to exceed 90,000 | [EV-IMM-170] |
 | July 11, 2026 | 65,765; 46,436 (70.6%) with no criminal conviction; 183,181 on alternatives to detention | [EV-IMM-171] |
 | Bookings | More than 46,000 in July 2026; 591,385 from January 2025; 469 facilities used | [EV-IMM-173] |
@@ -223,7 +225,7 @@ Section 2, part A weighs what legalization does for earnings, children and publi
 
 ### D.3 Workplace verification today
 
-About 1.39 million employers use E-Verify, and 22 states require it for some employers (SHRM, citing DHS) [EV-IMM-190]. That is up from 779,722 employers in 2018 [EV-IMM-191]. Its record and effects are in section 2, part D.
+About 1.39 million employers use E-Verify, and 22 states require it for some employers (SHRM, citing DHS) [EV-IMM-190]. That is up from 779,722 employers in 2018, representing more than 2.5 million hiring sites [EV-IMM-191] [EV-IMM-396]. E-Verify began as the IIRIRA Basic Pilot; Congress has extended its authority through appropriations acts and continuing resolutions, most recently in the register to September 30, 2018 [EV-IMM-631] [EV-IMM-632]. Its record and effects are in section 2, part D.
 
 ## Part E. Citizenship
 
