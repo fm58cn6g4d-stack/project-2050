@@ -176,6 +176,27 @@ Tier 3, for the lead after the milestone review (`charter/STANDARDS.md`, "Milest
 | Case management (memo 5) | 150,000 at a time | 100,000-250,000 | −$5 to +$10 billion | Today's 183,181 [EV-IMM-171], less registrants, plus surge releases |
 | **The general fund, all** | **+$175.1 billion** | **about −$63 to +$430 billion** | | |
 
+### Independent checks of the three judgment lines (milestone review W-1)
+
+Each line was checked against one published source from a publisher other than CBO and other than the dossier's own models. None of these checks changes the booking (`DEC-2026-11-12-17` to `-19`); the one that moves a number is reported for the lead.
+
+| Line | Source | Verdict | What it says |
+| --- | --- | --- | --- |
+| Memo 3, about $10,000 a year of deficit reduction per added person (−$40 billion) | Penn Wharton Budget Model, 2024 [EV-IMM-660] | **Holds, on the cautious side** | PWBM scores exempting immigrants with advanced STEM degrees from the green-card limits at −$129 billion over 2025-2034, with the population up about 825 thousand by 2034. Even if all of that end-of-decade population were present for all ten years (the population in fact ramps up from about 0.2 million), that is at least about $15,000 a person-year (project arithmetic), above memo 3's $10,000. The cohort is higher-skilled and PWBM counts taxes on the larger labor force, as CBO's surge score does; memo 3's mix includes family numbers and children, which bring less, so $10,000 stays a reasonable blend and no check supports a figure above it. |
+| Memo 6, a lawful added person at care's average newly covered person (about $13,500; factor 1.0, range 0.5-1.0) | KFF, 2024 [EV-IMM-661]; Kaushal and Muchomba, 2023 [EV-IMM-662] | **Qualifies, and moves the central line down: reported for the lead** | Immigrants' average health spending is about two-thirds of U.S.-born citizens' ($4,875 against $7,277, 2021). The marginal cost of insuring a low-income immigrant adult is about $3800 a year against $9428 for a U.S.-born adult, a ratio of about 0.40. Both point below care's average, so the central factor of 1.0 sits at the top of what the evidence supports and the range's 0.5 low end is a little above the lowest estimate. See "What the check does to the figure" below. |
+| Memo 1, status cost +$50.5 billion (H.R. 6 scaled 2-3 times, netted) | Bipartisan Policy Center, about 2017 [EV-IMM-663]; BPC's 2013 scenarios already in the register [EV-IMM-611] | **Holds in sign; the size stays judgment** | BPC, which favors legalization, accepts that legalizing large numbers of people costs more than the baseline in which they keep working unauthorized, which is the baseline here (section 1). Its 2013 model has legalization with E-Verify saving $10 billion in the first decade and costing about $150 billion over twenty years: a first decade near zero, rising later, consistent with the −$50 billion low end of memo 1's range. No independent score of a status bill this broad exists, so the scaling from H.R. 6 [EV-IMM-600] is not independently checked and stays "the largest single uncertainty" (above). |
+
+**What the check does to the figure (memo 6).** At the central count of lawful added persons (memo 3's 0.45 million by FY2039 and the refugees above the baseline), `immigration_model.table` gives, for the memo 6 line as a whole:
+
+| Cost factor against care's average | FY2030-39 | FY2040 | Change against the booked $112.2 billion and $23.2 billion |
+| --- | --- | --- | --- |
+| 1.0 (booked) | $112.2 billion | $23.2 billion | none |
+| 0.67 (KFF's all-immigrant ratio) | $86.1 billion | $16.9 billion | −$26.1 billion; −$6.3 billion |
+| 0.5 (the model's low end) | $72.6 billion | $13.7 billion | −$39.6 billion; −$9.5 billion |
+| 0.40 (the marginal-cost ratio) | $64.7 billion | $11.8 billion | −$47.5 billion; −$11.4 billion |
+
+All three alternatives lie inside the line's stated range ($49-158 billion), so the range holds; at KFF's ratio the central value would be about $26 billion lower over FY2030-39 and $6.3 billion lower in FY2040 (about 0.15% of the FY2040 plan-wide gap of roughly $4,275 billion). Reasons to stay near 1.0: the surveys under-represent recent immigrants (KFF says so), the single plan has lower cost sharing than today's coverage (more use), and the marginal figure is for low-income adults only and rests on coefficients that are not statistically significant for immigrants. Nothing is changed here: the working assumption stays 1.0 (part 8) with this check recorded, and the lead decides whether the booking's central case should move.
+
 ## 8. What each figure is
 
 | Input | Treatment (`DEC-2026-11-10-07`) |
@@ -183,7 +204,7 @@ Tier 3, for the lead after the milestone review (`charter/STANDARDS.md`, "Milest
 | Who gets status; the registry's form; the fee rule; the table's rows; the numbers in memo 3; the refugee floor; the cap; the restructure; the mandate and its protections | Commitments (decided) |
 | The two cutoffs and the E-Verify start rule | Commitments (`DEC-2026-11-12-12`); the first passing check's date is a working assumption |
 | The population and take-up (12-14.5 million; about 70%) | Working assumptions, from section 1 and [EV-IMM-609] |
-| Lawful residents above care's base (memo 3's added immigrants, refugees) and their cost against care's average (0.5-1.0); the residual's share for people with no status (2.25 million) | Working assumptions; the cost ratio needs a register source, and the counts come from the first filings |
+| Lawful residents above care's base (memo 3's added immigrants, refugees) and their cost against care's average (0.5-1.0); the residual's share for people with no status (2.25 million) | Working assumptions; the cost ratio now has two independent checks (KFF, Kaushal and Muchomba [EV-IMM-661] [EV-IMM-662]) that put the central factor at the top of the supported range (part 7, W-1), and the counts come from the first filings |
 | Every line's cost and shape | Working assumptions on outside scores, laid on fiscal years |
 | The working dates (filing October 2030, ICE replaced October 2031, E-Verify's first tranche about July 2031) | Working assumptions; each moves with the act's signature |
 | The work routes' ceilings (50,000 each) | Working choice, reviewed after three years |

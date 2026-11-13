@@ -1502,7 +1502,7 @@
   "fact_date": "2026-01",
   "checked": "2026-11-12",
   "recheck": "2027-01-31",
-  "context": "CBO, The Demographic Outlook: 2026 to 2056 (January 2026). Quotations come from a Firecrawl extract of the PDF; reviewer to confirm wording and page numbers. CBO also cut its 2025-2029 net immigration projections for administrative actions, the 2025 reconciliation law and data revisions (from news coverage, not confirmed); the extract gave net immigration as 0.11% of population in 2025 rising to 0.27% in 2029. Net immigration in persons per year NOT obtained.",
+  "context": "CBO, The Demographic Outlook: 2026 to 2056 (January 2026). Quotations come from a Firecrawl extract of the PDF; reviewer to confirm wording and page numbers. CBO also cut its 2025-2029 net immigration projections for administrative actions, the 2025 reconciliation law and data revisions (from news coverage, not confirmed); the extract gave net immigration as 0.11% of population in 2025 rising to 0.27% in 2029. Net immigration in persons per year NOT obtained. Not relied on: no section of the dossier uses CBO's population projection; the register keeps it as background for the demographic argument.",
   "supports": [
    "dossiers/immigration/1-problem.md"
   ],
@@ -1963,7 +1963,7 @@
   "fact_date": "2025-01",
   "checked": "2026-11-12",
   "recheck": "2026-12-31",
-  "context": "CRS (nonpartisan), January 2025, Biden-era data. EOIR's later table restates FY2024 pending at 3,924,917 (EV-IMM-100), above CRS's 3.6 million (3,558,995 in the full text).",
+  "context": "CRS (nonpartisan), January 2025, Biden-era data. EOIR's later table restates FY2024 pending at 3,924,917 (EV-IMM-100), above CRS's 3.6 million (3,558,995 in the full text). Not relied on: superseded by EOIR's own table (EV-IMM-100), which section 1 uses for the backlog; kept for the CRS figure.",
   "supports": [
    "dossiers/immigration/1-problem.md"
   ]
@@ -2445,7 +2445,7 @@
   "fact_date": "2026-07",
   "checked": "2026-11-12",
   "recheck": "2027-01-31",
-  "context": "Public radio report; the rule text itself is in the Federal Register (not retrieved by me). Whether the rule survives litigation is unverified. Another agent may hold the rule text.",
+  "context": "Public radio report; the rule text itself is in the Federal Register (not retrieved by me). Whether the rule survives litigation is unverified. Another agent may hold the rule text. Not relied on: a press report of a rule the register holds elsewhere (EV-IMM-305, EV-IMM-308); section 1 cites those.",
   "supports": [
    "dossiers/immigration/1-problem.md"
   ]
@@ -3804,6 +3804,10 @@
    {
     "evidence": "EV-IMM-205",
     "stance": "supports"
+   },
+   {
+    "evidence": "EV-IMM-660",
+    "stance": "qualifies"
    }
   ],
   "supports": [
@@ -4517,7 +4521,7 @@
   "fact_date": "2023-09",
   "checked": "2026-11-12",
   "recheck": "2027-11-12",
-  "context": "EOIR data summarized by CRS; fiscal year 2023 (Biden administration). Dismissals and terminations together were 42 percent.",
+  "context": "EOIR data summarized by CRS; fiscal year 2023 (Biden administration). Dismissals and terminations together were 42 percent. Not relied on: FY2023 court decisions, superseded by the FY2025 figures in section 1 (EV-IMM-102, EV-IMM-109, EV-IMM-111).",
   "supports": [
    "dossiers/immigration/1-problem.md"
   ]
@@ -4563,7 +4567,7 @@
   "fact_date": "2022-09",
   "checked": "2026-11-12",
   "recheck": "2027-11-12",
-  "context": "TRAC analysis of EOIR records, fiscal year 2022. Merits decisions only; does not include grants by USCIS asylum officers.",
+  "context": "TRAC analysis of EOIR records, fiscal year 2022. Merits decisions only; does not include grants by USCIS asylum officers. Not relied on: FY2022 grants, superseded by the FY2025 and 2026 counts in section 1 (EV-IMM-109, EV-IMM-111).",
   "supports": [
    "dossiers/immigration/1-problem.md"
   ]
@@ -4785,7 +4789,7 @@
   "fact_date": "2023-09",
   "checked": "2026-11-12",
   "recheck": "2027-03-31",
-  "context": "EOIR count as relayed by CRS; later counts not retrieved here (TRAC and EOIR publish current totals).",
+  "context": "EOIR count as relayed by CRS; later counts not retrieved here (TRAC and EOIR publish current totals). Not relied on: end-FY2023 court backlog, superseded by the February 2026 docket count (EV-IMM-170) and EOIR's FY2024 table (EV-IMM-100).",
   "supports": [
    "dossiers/immigration/1-problem.md"
   ]
@@ -7415,6 +7419,10 @@
    {
     "evidence": "EV-IMM-215",
     "stance": "supports"
+   },
+   {
+    "evidence": "EV-IMM-663",
+    "stance": "qualifies"
    }
   ]
  },
@@ -7605,7 +7613,7 @@
   "fact_date": "2009",
   "checked": "2026-11-12",
   "recheck": "2027-11-12",
-  "context": "'This number' is the 12.6 million people who were not legal permanent residents in January 2009. OCACT assumes they work at the same rate as LPRs of the same age and sex, but fewer have earnings credited.",
+  "context": "'This number' is the 12.6 million people who were not legal permanent residents in January 2009. OCACT assumes they work at the same rate as LPRs of the same age and sex, but fewer have earnings credited. Not relied on: SSA's 2013-era assumption about the unauthorized population; section 1's population estimates (EV-IMM-001, 002, 005) replace it.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7633,9 +7641,9 @@
   "locator": "Opening summary",
   "grade": "C",
   "fact_date": "2021",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "Macro and demographic result; no budget dollar figure appears in the extract. Legalization assumed to start at the beginning of 2022.",
+  "context": "Macro and demographic result; no budget dollar figure appears in the extract. Legalization assumed to start at the beginning of 2022. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7691,9 +7699,9 @@
   "locator": "Executive summary, 'Reduce federal deficits' bullet; Fiscal Impact section",
   "grade": "C",
   "fact_date": "2013",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "Dynamic model of a package modeled on the Senate bill (legalization, more legal immigration, enforcement), with population growth feeding revenue; a very different method from CBO's conventional estimate of H.R. 6.",
+  "context": "Dynamic model of a package modeled on the Senate bill (legalization, more legal immigration, enforcement), with population growth feeding revenue; a very different method from CBO's conventional estimate of H.R. 6. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7725,9 +7733,9 @@
   "locator": "Federal Budget section, Scenario 2 discussion",
   "grade": "C",
   "fact_date": "2014",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "Scenario 2 is E-Verify plus legalization with no temporary-worker program. BPC says costs arise once legalized people get green cards and benefit access after five years. Publication date inferred, not shown in the extract.",
+  "context": "Scenario 2 is E-Verify plus legalization with no temporary-worker program. BPC says costs arise once legalized people get green cards and benefit access after five years. Publication date inferred, not shown in the extract. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7758,9 +7766,9 @@
   "locator": "Section 'Permanent Immigrant Registry'",
   "grade": "C",
   "fact_date": "2020",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "A policy proposal, with no cost estimate in the extract.",
+  "context": "A policy proposal, with no cost estimate in the extract. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7788,9 +7796,9 @@
   "locator": "Section 'E-Verify's False Positive Problem'",
   "grade": "C",
   "fact_date": "2014",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "Workforce size is as of the end of 2014. Cato adds that a universal mandate would likely raise error rates.",
+  "context": "Workforce size is as of the end of 2014. Cato adds that a universal mandate would likely raise error rates. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches. The paper is dated July 7, 2015 (the catalog said about 2016); the workforce figure is as of the end of 2014.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7815,9 +7823,9 @@
   "locator": "Section 'Costs of Implementing E-Verify'",
   "grade": "C",
   "fact_date": "2016",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "Cato says most queries cost little because there is no upfront government fee; a small share cost a great deal to resolve, which drives the average. Publication date approximate.",
+  "context": "Cato says most queries cost little because there is no upfront government fee; a small share cost a great deal to resolve, which drives the average. Publication date approximate. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches. The paper is dated July 7, 2015.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7844,9 +7852,9 @@
   "locator": "Summary bullets",
   "grade": "C",
   "fact_date": "2012",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "Economy-wide gain, not a federal budget estimate. Author name was not in the extract.",
+  "context": "Economy-wide gain, not a federal budget estimate. Author name was not in the extract. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7870,9 +7878,9 @@
   "locator": "Section 'Fiscal Effects'",
   "grade": "C",
   "fact_date": "2012",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "Pia M. Orrenius and Madeline Zavodny (Federal Reserve Bank of Dallas), Cato Journal, Winter 2012: the authors' judgment, not the Cato Institute's. Qualitative, no dollar figure. Read from a third-party copy of the journal PDF; the reviewer read the full PDF and confirmed the quotation.",
+  "context": "Pia M. Orrenius and Madeline Zavodny (Federal Reserve Bank of Dallas), Cato Journal, Winter 2012: the authors' judgment, not the Cato Institute's. Qualitative, no dollar figure. Read from a third-party copy of the journal PDF; the reviewer read the full PDF and confirmed the quotation. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7904,9 +7912,9 @@
   "locator": "Key-findings bullet 1 at the top of the page",
   "grade": "C",
   "fact_date": "2021",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "Gives the long-settled share directly. The report also notes an outdated registry date as a barrier. Publication month taken from MPI's later reference to a February 2021 report.",
+  "context": "Gives the long-settled share directly. The report also notes an outdated registry date as a barrier. Publication month taken from MPI's later reference to a February 2021 report. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches. The page's date line read December 2020 when checked, while the quoted bullet says 'as of 2021'; the wording is as the page gives it.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7937,9 +7945,9 @@
   "locator": "Section 'How would Congress update the registry date?'",
   "grade": "C",
   "fact_date": "2021",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "The extract does not name the underlying data source (possibly MPI or similar); treat as secondary and confirm before relying on it.",
+  "context": "The extract does not name the underlying data source (possibly MPI or similar); treat as secondary and confirm before relying on it. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7966,9 +7974,9 @@
   "locator": "Basis of Estimate, Subtitle A. Immigration Matters",
   "grade": "C",
   "fact_date": "2025",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "Table 1 shows the whole Title VII raising deficits by about $6.9 billion over 2025-2034 (outlays 73,458 and revenues 66,548 million). Publication month is from the task description; the extract shows no date.",
+  "context": "Table 1 shows the whole Title VII raising deficits by about $6.9 billion over 2025-2034 (outlays 73,458 and revenues 66,548 million). Publication month is from the task description; the extract shows no date. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -7993,9 +8001,9 @@
   "locator": "At a Glance, 'The legislation would' list",
   "grade": "A",
   "fact_date": "2025",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "Most of the revenue comes from new alien fees (asylum, work permit, parole, TPS), not legalization fees.",
+  "context": "Most of the revenue comes from new alien fees (asylum, work permit, parole, TPS), not legalization fees. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ]
@@ -8014,9 +8022,9 @@
   "locator": "Basis of Estimate, Part 1. Immigration Fees",
   "grade": "C",
   "fact_date": "2025",
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "recheck": "2027-11-12",
-  "context": "A convention for netting fee revenue that a legalization-fee estimate could reuse.",
+  "context": "A convention for netting fee revenue that a legalization-fee estimate could reuse. Quotation checked against the original on 2026-11-13 (milestone review W-3): it matches.",
   "supports": [
    "dossiers/immigration/3-design.md"
   ],
@@ -9165,6 +9173,126 @@
    "dossiers/immigration/7-validation.md",
    "dossiers/immigration/8-change-our-minds.md",
    "dossiers/immigration/4-specification.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-660",
+  "statement": "PWBM estimated that exempting immigrants with advanced STEM degrees from green-card limits would reduce federal deficits by $129 billion over the 2025-2034 period and by $634 billion over 2035-2044, with the population up by about 825 thousand in 2034 and more than 2.5 million in 2044.",
+  "claim": "analysis",
+  "figures": [
+   "$129 billion",
+   "2025-2034",
+   "$634 billion",
+   "2035-2044",
+   "825 thousand",
+   "2034",
+   "2.5 million",
+   "2044"
+  ],
+  "source": "SRC-4392",
+  "anchor": [
+   "PWBM estimates that exempting from immigrants with advanced STEM degrees from numerical limitations on green cards would reduce deficits by $129 billion over the 2025-2034 period and by $634 billion over the 2035-2044 period.",
+   "PWBM estimates that enacting this change would increase the U.S. population by about 825 thousand in 2034 and more than 2.5 million in 2044."
+  ],
+  "locator": "Opening summary; Key Points, first bullet",
+  "grade": "C",
+  "fact_date": "2024",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Penn Wharton Budget Model, University of Pennsylvania, January 2024 (Biden administration); nonpartisan, and independent of CBO. It uses the population-change (dynamic) method, which counts taxes on the larger labor force; a conventional score of the same bill adds about $4 billion. The cohort is higher-skilled than memo 3's mix of family and employment numbers, so it bounds the per-person effect from above. Used as the W-1 check of memo 3's $10,000 a person (6-cost.md, part 7).",
+  "supports": [
+   "dossiers/immigration/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-220",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-661",
+  "statement": "KFF found that in 2021 average annual per capita health care expenditures were $4,875 for immigrants and $7,277 for U.S.-born citizens, about two-thirds as much.",
+  "claim": "data",
+  "figures": [
+   "2021",
+   "$4,875",
+   "$7,277"
+  ],
+  "source": "SRC-4393",
+  "anchor": [
+   "This analysis finds that, on average, annual per capita health care expenditures for immigrants, including naturalized citizens and noncitizens, are about two-thirds of those for U.S.-born citizens overall ($4,875 vs. $7,277).",
+   "In 2021, annual average overall per capita health care expenditures for immigrants were $4,875 compared to $7,277 for U.S.-born citizens."
+  ],
+  "locator": "Introduction, second paragraph; Findings, first paragraph",
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "KFF (nonprofit), July 2024, from the 2021 Medical Expenditure Panel Survey. All immigrants including naturalized citizens, all ages; KFF notes the survey likely under-represents recent and unauthorized immigrants and that lower use partly reflects barriers to care, so the ratio may understate what covered immigrants would use. Used as the W-1 check of memo 6's per-person factor (6-cost.md, part 7).",
+  "supports": [
+   "dossiers/immigration/6-cost.md"
+  ]
+ },
+ {
+  "id": "EV-IMM-662",
+  "statement": "Kaushal and Muchomba estimated that providing insurance to an additional low-income immigrant adult costs the health care system approximately $3800 per person per year, less than one-half the $9428 for a U.S.-born adult.",
+  "claim": "analysis",
+  "figures": [
+   "$3800",
+   "$9428"
+  ],
+  "source": "SRC-4394",
+  "anchor": [
+   "Estimates suggest that providing insurance to immigrants costs the health care system approximately $3800 per person per year, less than one-half the corresponding cost ($9428 per person per year) for US-born adults."
+  ],
+  "locator": "Key Points, Findings",
+  "grade": "B",
+  "fact_date": "2023",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Peer-reviewed, JAMA Network Open, September 2023; authors at Columbia and Rutgers. Low-income adults aged 19-64 (below 138% of the poverty line), MEPS 2011-2019, around the ACA Medicaid expansions; the immigrant coefficients are not statistically significant, and the per-person figures divide two coefficients. It prices the marginal cost of coverage, which is the question memo 6's factor asks. Used as the W-1 check of memo 6 (6-cost.md, part 7).",
+  "supports": [
+   "dossiers/immigration/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-661",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-IMM-663",
+  "statement": "BPC wrote that CBO's estimate had the DREAM Act increasing budget deficits by around $26 billion by 2027, and that any bill that legalizes large numbers of undocumented immigrants would lead to additional costs compared to a scenario in which they remain working illegally.",
+  "claim": "analysis",
+  "figures": [
+   "$26 billion",
+   "2027"
+  ],
+  "source": "SRC-4395",
+  "anchor": [
+   "passage of the latest version of the DREAM Act would increase budget deficits by around $26 billion by 2027.",
+   "any bill that legalizes large numbers of undocumented immigrants would lead to additional costs compared to a scenario in which they remain working illegally."
+  ],
+  "locator": "Opening paragraph; closing paragraph of \"CBO's Forecast\"",
+  "grade": "C",
+  "fact_date": "2017",
+  "checked": "2026-11-13",
+  "recheck": "2027-11-13",
+  "context": "Bipartisan Policy Center, about 2017 (undated page; first Trump administration), a centrist think tank that favors a legalization path. It accepts the sign of CBO's result but argues the baseline matters: against a deportation baseline, legalization would cost less. The dossier's baseline is the January 2029 law with these people present (section 1), the same as CBO's. Used as the W-1 check of memo 1's status line (6-cost.md, part 7).",
+  "supports": [
+   "dossiers/immigration/6-cost.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-IMM-600",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-IMM-611",
+    "stance": "supports"
+   }
   ]
  }
 ]
