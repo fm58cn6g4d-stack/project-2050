@@ -1,0 +1,484 @@
+Source: https://www.irs.gov/pub/irs-drop/n-25-42.pdf
+Publisher: Internal Revenue Service
+Retrieved: 2026-11-13
+Original SHA-256: 131b5795bd7a082523ca7c5d6338e00d50321d3a7b104e3ff13710f211bfd993
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Part III – Administrative, Procedural, and Miscellaneous
+
+Beginning of Construction Requirements for Purposes of the Termination of Clean
+Electricity Production Credits and Clean Electricity Investment Credits for Applicable
+Wind and Solar Facilities
+
+Notice 2025-42
+SECTION 1. PURPOSE
+This notice provides guidance, consistent with Executive Order 14315 of July 7,
+2025, Ending Market Distorting Subsidies for Unreliable, Foreign-Controlled Energy
+Sources, 90 F.R. 30821 (Executive Order 14315), regarding when construction of an
+applicable wind facility or applicable solar facility (each as defined in section 2.02 of this
+notice) has begun for purposes of determining whether such facility is subject to credit
+termination provisions added to §§ 45Y and 48E of the Internal Revenue Code (Code)1
+by §§ 70512 and 70513 of Public Law 119-21, 139 Stat. 72 (July 4, 2025), commonly
+known as the One, Big, Beautiful Bill Act (OBBBA). Section 70512(a) and (l)(4) of the
+OBBBA terminates the clean electricity production credit determined under § 45Y (§ 45Y
+credit), and § 70513(a) and (g)(5) of the OBBBA terminates the clean electricity
+investment credit determined under § 48E (§ 48E credit), in the case of an applicable
+wind facility or applicable solar facility that is placed in service after December 31, 2027
+
+1 Unless otherwise specified, all “section” or “§” references are to sections of the Code or the Income Tax
+
+Regulations (26 CFR part 1).
+
+-2(credit termination date). The credit termination date applies to applicable wind and
+solar facilities the construction of which begins after July 4, 2026 (beginning of
+construction deadline), the date that is 12 months after the date of enactment of the
+OBBBA.
+SECTION 2. BACKGROUND
+.01 Overview of pre-OBBBA §§ 45Y and 48E.
+Sections 45Y and 48E were added to the Code by §§ 13701(a) and 13702(a),
+respectively, of Public Law 117-169, 136 Stat. 1818, 1982 (August 16, 2022), commonly
+known as the Inflation Reduction Act of 2022. The § 45Y credit is determined with
+respect to electricity produced by a taxpayer at a “qualified facility” and either sold by
+the taxpayer to an unrelated party during the taxable year or, if the facility is equipped
+with a metering device which is owned or operated by an unrelated person, sold,
+consumed, or stored by the taxpayer during the taxable year. The § 48E credit is
+determined with respect to a taxpayer’s “qualified investment” in a qualified facility. A
+taxpayer’s qualified investment in a qualified facility is determined with respect to the
+taxpayer’s basis in “qualified property” placed in service by the taxpayer that is part of
+the qualified facility as well as expenditures paid or incurred for certain qualified
+interconnection property.
+Sections 45Y(b)(1)(A) and 48E(b)(3)(A) define a “qualified facility” for purposes of
+§§ 45Y and 48E, respectively, as a facility which is used for the generation of electricity,
+which is placed in service after December 31, 2024, and for which the greenhouse gas
+emissions rate (for § 45Y) or anticipated greenhouse gas emissions rate (for § 48E) is
+not greater than zero. The Department of the Treasury (Treasury Department) and the
+
+-3Internal Revenue Service (IRS) published final regulations under §§ 45Y and 48E on
+January 15, 2025 (90 FR 4006). Sections 1.45Y-2 and 1.48E-2 clarify the definition of a
+“qualified facility” for purposes of §§ 45Y and 48E, respectively.
+Section 45Y(b)(2)(C)(i) requires that the Secretary of the Treasury or the
+Secretary’s delegate annually publish a table that sets forth the greenhouse gas
+emissions rates for types or categories of facilities, which a taxpayer must use for
+purposes of § 45Y. The Treasury Department and the IRS published the initial annual
+table required by § 45Y(b)(2)(C)(i) in Revenue Procedure 2025-14, 2025-7 I.R.B. 770.
+That table lists both wind facilities and solar facilities as having a greenhouse gas
+emissions rate of not greater than zero.
+As noted in section 2.02 of Notice 2022-61, 87 FR 73580, 2022-52 I.R.B. 560,
+the IRS has issued several notices, collectively referred to in this notice as the “IRS
+Notices,”2 which provide that taxpayers may establish the beginning of construction
+using the “Physical Work Test” or the “Five Percent Safe Harbor,” and may satisfy either
+the “Continuity Requirement” or the “Continuity Safe Harbor,” with respect to the credits
+determined under §§ 45, 45Q, and 48.
+Section 5 of Notice 2022-61 provides guidance, in part, to determine when
+construction begins for purposes of the credit determined under §§ 45Y and 48E.
+Section 5 of Notice 2022-61 states that principles similar to those under Notice 2013-29
+regarding the Physical Work Test and Five Percent Safe Harbor apply, and taxpayers
+
+2See Notice 2013-29, 2013-20 I.R.B. 1085; clarified by Notice 2013-60, 2013-44 I.R.B. 431; clarified and
+
+modified by Notice 2014-46, 2014-36 I.R.B. 520; updated by Notice 2015-25, 2015-13 I.R.B. 814; clarified
+and modified by Notice 2016-31, 2016-23 I.R.B. 1025; updated, clarified, and modified by Notice 2017-04,
+2017-4 I.R.B. 541; Notice 2018-59, 2018-28 I.R.B. 196; modified by Notice 2019-43, 2019-31 I.R.B. 487;
+modified by Notice 2020-41, 2020-25 I.R.B. 954; clarified and modified by Notice 2021-5, 2021-3 I.R.B.
+479; clarified and modified by Notice 2021-41, 2021-29 I.R.B. 17; Notice 2020-12, 2020-11 I.R.B. 495.
+
+-4satisfying either test will be considered to have begun construction. Section 5 of Notice
+2022-61 additionally provides, in part, that principles similar to those provided in the IRS
+Notices regarding the Continuity Requirement and the Continuity Safe Harbor apply for
+purposes of §§ 45Y and 48E, and that taxpayers may rely on the Continuity Safe Harbor
+provided the facility is placed in service no more than four calendar years after the
+calendar year during which construction began.
+.02 Overview of OBBBA Changes to §§ 45Y and 48E.
+Sections 70512(a) and 70513(a) of the OBBBA added new §§ 45Y(d)(4) and
+48E(e)(4), respectively, to the Code. These new Code provisions terminate the § 45Y
+credit and the § 48E credit, respectively, for applicable wind and solar facilities placed in
+service after December 31, 2027. For purposes of this notice, the term “applicable wind
+facility” means an applicable facility as provided in §§ 45Y(d)(4)(B)(i) and 48E(e)(4)(B)(i)
+(except as provided in § 48E(e)(4)(C) relating to energy storage technology) and
+“applicable solar facility” means an applicable facility as provided in §§ 45Y(d)(4)(B)(ii)
+and 48E(e)(4)(B)(ii) (except as provided in § 48E(e)(4)(C)). Sections 70512(l)(4) and
+70513(g)(5) of the OBBBA provide that the amendments made by §§ 70512(a) and
+70513(a) of the OBBBA, respectively, apply to facilities the construction of which begins
+after the date which is 12 months after the date of enactment of the OBBBA (that is, July
+4, 2026).
+.03 Executive Order 14315.
+Section 3(a) of Executive Order 14315 directs the Secretary of the Treasury,
+within 45 days following enactment of the OBBBA, to take action he deems necessary
+and appropriate to strictly enforce the termination provisions with respect to the § 45Y
+
+-5credit and the § 48E credit for wind and solar facilities. Such action includes issuing
+new and revised guidance for applicable wind and solar facilities to ensure that policies
+concerning “beginning of construction” are not circumvented, including guidance to
+prevent the artificial acceleration or manipulation of eligibility and to restrict the use of
+broad safe harbors unless a substantial portion of an applicable wind or solar facility has
+been built.3
+The Treasury Department and the IRS have determined that the guidance
+contained in this notice is necessary and appropriate to properly enforce the credit
+termination date for applicable wind and solar facilities. Congress provided a beginning
+of construction deadline after which the new credit termination date for applicable wind
+and solar facilities applies. This notice provides beginning of construction guidance to
+prevent taxpayers from circumventing the statutory credit termination date, prevent the
+artificial manipulation of eligibility for the § 45Y credit and § 48E credit for applicable
+wind and solar facilities, and ensure that a substantial portion of any applicable wind or
+solar facility not subject to the credit termination date is built by the beginning of
+construction deadline. Accordingly, except as provided in section 6 of this notice, the
+Five Percent Safe Harbor provided under the IRS notices is not available for purposes
+
+3 In addition, § 3(b) of Executive Order 14315 directs the Secretary of the Treasury, within 45 days
+
+following enactment of the OBBBA, to take prompt action as the Secretary of the Treasury deems
+appropriate and consistent with applicable law to implement the enhanced “Foreign Entity of Concern”
+restrictions in the OBBBA (also known as “Prohibited Foreign Entities”). Section 70512 of the OBBBA
+added those new restrictions regarding certain foreign entities in order to qualify for the § 45Y credit and
+the § 48E credit, among others, and included separate beginning of construction rules for those new
+provisions. See § 7701(a)(51) and (52) of the Code. The guidance in this notice is not intended to
+address the beginning of construction rules for the purposes of those foreign entity restrictions. The
+Treasury Department and the IRS are currently drafting additional guidance as is necessary and
+appropriate to implement those restrictions, as enacted by the OBBBA.
+
+-6of determining whether an applicable wind or solar facility has met the beginning of
+construction deadline and, thus, is not subject to the credit termination date.
+SECTION 3. METHOD FOR ESTABLISHING BEGINNING OF CONSTRUCTION
+.01 In general. For purposes of the beginning of construction deadline in
+§§ 70512(l)(4) and 70513(g)(5) of the OBBBA, a taxpayer may establish that
+construction has begun before July 5, 2026, by satisfying the Physical Work Test as
+described in section 3.02 of this notice. Except as provided in section 6 of this notice,
+the Physical Work Test described in section 3.02 of this notice is the sole method that a
+taxpayer may use for these purposes. The Physical Work Test also requires that a
+taxpayer maintain a continuous program of construction (Continuity Requirement).
+Section 4 of this notice discusses the Continuity Requirement and section 4.04 of this
+notice provides a safe harbor for satisfying this requirement (Continuity Safe Harbor).
+.02 Physical Work Test. Construction of an applicable wind or solar facility
+begins when physical work of a significant nature begins. Work performed by the
+taxpayer and work performed for the taxpayer by other persons under a binding written
+contract that is entered into prior to the manufacture, construction, or production of the
+applicable wind or solar facility for use by the taxpayer in the taxpayer’s trade or
+business (or for the taxpayer’s production of income) is taken into account in
+determining whether construction has begun. See section 5.01 of this notice. Whether
+physical work of a significant nature has begun with respect to an applicable wind or
+solar facility before July 5, 2026, will depend on the relevant facts and circumstances.
+.03 Physical work of a significant nature. The Physical Work Test requires that
+physical work of a significant nature be performed. This test focuses on the nature of
+
+-7the work performed, not the amount or the cost. Provided that physical work performed
+is of a significant nature, there is no fixed minimum amount of work or monetary or
+percentage threshold required to satisfy the Physical Work Test. Both off-site and onsite work (performed either by the taxpayer or by another person under a binding written
+contract) may be taken into account for purposes of demonstrating that physical work of
+a significant nature has begun.
+(1) Off-site physical work of a significant nature. Generally, off-site physical work
+of a significant nature may include the manufacture of components, mounting
+equipment, support structures such as racks and rails, inverters, and transformers and
+other power conditioning equipment.
+(2) On-site physical work of a significant nature. The following non-exclusive list
+of examples is intended to illustrate what constitutes on-site physical work of a
+significant nature for applicable wind and solar facilities:
+(a) Applicable wind facility. On-site physical work of a significant nature begins
+with the beginning of the excavation for the foundation, the setting of anchor bolts into
+the ground, or the pouring of the concrete pads of the foundation. If the applicable wind
+facility’s wind turbines and tower units are to be assembled on-site from components
+manufactured off-site by a person other than the taxpayer and delivered to the site,
+physical work of a significant nature begins when the manufacture of the components
+begins at the off-site location, but only if: (i) the manufacturer’s work is done pursuant to
+a binding written contract (as described in section 5.01(1) of this notice); and (ii) these
+components are not held in the manufacturer’s inventory (as described in section 3.05
+of this notice). If a manufacturer produces components for multiple applicable facilities,
+
+-8a reasonable method must be used to associate individual components with particular
+applicable facilities.
+(b) Applicable solar facility. On-site physical work of a significant nature may
+include the installation of racks or other structures to affix photovoltaic (PV) panels,
+collectors, or solar cells to a site.
+.04 Preliminary activities. Physical work of a significant nature does not include
+preliminary activities, even if the cost of those preliminary activities is properly included
+in the depreciable basis of the applicable wind or solar facility. Generally, preliminary
+activities for applicable wind or solar facilities include, but are not limited to:
+(a) planning or designing;
+(b) securing financing;
+(c) exploring;
+(d) researching;
+(e) conducting mapping and modeling to assess a resource;
+(f) obtaining permits and licenses;
+(g) conducting geophysical, gravity, magnetic, seismic and resistivity surveys;
+(h) conducting environmental and engineering studies;
+(i) clearing a site;
+(j) conducting test drilling to determine soil condition (including to test the
+strength of a foundation);
+(k) excavating to change the contour of the land (as distinguished from
+excavation for a foundation); and
+
+-9(l) removing existing foundations, turbines, and towers, solar panels, or any
+components that will no longer be part of the applicable wind or solar facility (including
+those on or attached to building structures).
+.05 Inventory. Physical work of a significant nature does not include work
+(performed either by the taxpayer or by another person under a binding written contract)
+to produce a component/part of an applicable wind or solar facility that is either in
+existing inventory or is normally held in inventory by one selling the component/part to
+the taxpayer.
+SECTION 4. CONTINUITY REQUIREMENT
+.01 Continuous program of construction. A taxpayer will satisfy the Continuity
+Requirement of this section 4 only if the taxpayer maintains a continuous program of
+construction with respect to an applicable wind or solar facility. A continuous program of
+construction involves continuing physical work of a significant nature (as described in
+section 3.03 of this notice). Unless the Continuity Safe Harbor provided in section 4.04
+of this notice applies, whether a taxpayer maintains a continuous program of
+construction to satisfy the Continuity Requirement will be determined by the relevant
+facts and circumstances.
+.02 Excusable disruptions to continuous program of construction. Certain
+disruptions in a taxpayer's continuous construction to advance towards completion of an
+applicable wind or solar facility that are beyond the taxpayer's control will not be
+considered as indicating that a taxpayer has failed to satisfy the Continuity
+Requirement.
+
+- 10 The following is a non-exclusive list of construction disruptions that will not be
+considered as indicating that a taxpayer has failed to satisfy the Continuity
+Requirement:
+(a) delays due to severe weather conditions;
+(b) delays due to natural disasters;
+(c) delays in obtaining permits or licenses from federal, state, local, or Indian
+tribal governments, including, but not limited to, delays in obtaining permits or licenses
+from the Federal Energy Regulatory Commission (FERC), the Environmental Protection
+Agency (EPA), the Bureau of Land Management (BLM), and the Federal Aviation
+Agency (FAA);
+(d) delays at the written request of a federal, state, local, or Indian tribal
+government regarding matters of public safety, security, or similar concerns;
+(e) interconnection-related delays, such as those relating to the completion of
+construction on a new transmission or distribution line or necessary transmission or
+distribution upgrades to resolve grid congestion issues that may be associated with an
+applicable wind or solar facility’s planned interconnection;
+(f) delays in the manufacture of custom components;
+(g) delays due to labor stoppages;
+(h) delays due to the inability to obtain specialized equipment of limited
+availability;
+(i) delays due to the presence of endangered species;
+(j) financing delays; and
+(k) delays due to supply shortages.
+
+- 11 .03 Timing of excusable disruption determination. In the case of a single project
+comprised of multiple facilities (as described in section 5.02(2) of this notice), whether
+an excusable disruption has occurred for purposes of the Continuity Requirement must
+be determined in the calendar year during which the last of multiple facilities is placed in
+service. In the case of a single applicable wind or solar facility, whether an excusable
+disruption has occurred for purposes of the Continuity Requirement must be determined
+in the calendar year during which the applicable wind or solar facility is placed in
+service.
+.04 Continuity safe harbor: deemed satisfaction of continuity requirement.
+Except as provided in this section 4.04, if a taxpayer places an applicable wind or solar
+facility in service by the end of a calendar year that is no more than four calendar years
+after the calendar year during which construction of the applicable wind or solar facility
+began (Continuity Safe Harbor Deadline), the applicable wind or solar facility will be
+considered to satisfy the Continuity Requirement (Continuity Safe Harbor). The
+excusable disruption rules in section 4.02 of this notice do not apply for purposes of
+applying the Continuity Safe Harbor. If an applicable wind or solar facility is not placed
+in service before the end of the fourth calendar year after the calendar year during
+which construction of the applicable wind or solar facility began, whether the applicable
+wind or solar facility satisfies the Continuity Requirement under the Physical Work Test
+will be determined by the relevant facts and circumstances.
+For example, if construction begins on an applicable wind or solar facility on
+August 20, 2025, and the applicable wind or solar facility is placed in service by
+December 31, 2029, the applicable wind or solar facility will be considered to satisfy the
+
+- 12 Continuity Safe Harbor. If the applicable wind or solar facility is not placed in service
+before January 1, 2030, whether the Continuity Requirement was satisfied will be
+determined by the relevant facts and circumstances.
+SECTION 5. OTHER RULES
+.01 Construction by contract. For property that is manufactured, constructed, or
+produced for the taxpayer by another person under a binding written contract (as
+described in section 5.01(1) of this notice), the work performed under the contract is
+taken into account in determining when physical work of a significant nature begins,
+provided the contract is entered into prior to the work taking place.
+(1) Binding written contract. A contract is binding only if it is enforceable under
+local law against the taxpayer or a predecessor and does not limit damages to a
+specified amount (for example, by use of a liquidated damages provision). For this
+purpose, a contractual provision that limits damages to an amount equal to at least five
+percent of the total contract price will not be treated as limiting damages to a specified
+amount. For additional guidance regarding the definition of a binding contract, see
+§ 1.168(k)-1(b)(4)(ii)(A)-(D).
+(2) Master contract. If a taxpayer enters into a binding written contract for a
+specific number of components to be manufactured, constructed, or produced for the
+taxpayer by another person (a “master contract”), and then through a new binding
+written contract (a “project contract”) the taxpayer assigns its rights to certain
+components to an affiliated special purpose vehicle that will own the applicable wind or
+solar facility for which such property is to be used, work performed with respect to the
+
+- 13 master contract may be taken into account in determining when physical work of a
+significant nature begins with respect to the applicable wind or solar facility.
+.02 Qualified facility – (1) In general. Physical work of a significant nature with
+respect to an applicable wind or solar facility must be performed with respect to property
+included in a qualified facility, as defined in § 1.45Y-2(b) or § 1.48E-2(d), as applicable.
+(2) Single project. Solely for purposes of determining whether construction of an
+applicable wind or solar facility has begun for purposes of this notice, multiple facilities
+that are operated as part of a single project (along with any property, such as a
+computer control system, that serves some or all such facilities) will be treated as a
+single applicable wind or solar facility. Whether multiple facilities are operated as part of
+a single project will depend on the relevant facts and circumstances. Factors indicating
+that multiple facilities are operated as part of a single project include, but are not limited
+to:
+(a) The facilities are owned by a single legal entity;
+(b) The facilities are constructed on contiguous pieces of land;
+(c) The facilities are described in a common power purchase agreement or
+agreements;
+(d) The facilities have a common intertie;
+(e) The facilities share a common substation;
+(f) The facilities are described in one or more common environmental or other
+regulatory permits;
+(g) The facilities were constructed pursuant to a single master construction
+contract; and
+
+- 14 (h) The construction of the facilities was financed pursuant to the same loan
+agreement.
+(3) Timing of single project determination. The determination of whether multiple
+facilities are operated as part of a single project and are therefore treated as a single
+applicable wind or solar facility for purposes of this notice must be made in the calendar
+year during which the last of the multiple facilities is placed in service.
+.03 Property integral to the applicable wind or solar facility. Only physical work of
+a significant nature on tangible personal property and other tangible property used as
+an integral part of the activity performed by the applicable wind or solar facility will be
+considered for purposes of determining whether a taxpayer has begun construction of
+an applicable wind or solar facility. This includes property integral to the production of
+electricity, but does not include property used for electrical transmission. See §§ 1.45Y2(b)(3) and 1.48E-2(d)(3) for additional descriptions of property integral to a qualified
+facility.
+.04 Application of 80/20 rule to retrofitted applicable wind or solar facilities – (1) In
+general. A retrofitted applicable wind or solar facility may qualify as originally placed in
+service even though it contains some used components of property, provided the fair
+market value of the used components of property is not more than 20 percent of the
+applicable wind or solar facility’s total value (the cost of the new components of property
+plus the value of the used components of property) (80/20 Rule). See §§ 1.45Y-4(d)
+and 1.48E-4(c). In the case of a single project comprised of multiple facilities (as
+described in section 5.02(2) of this notice), the 80/20 Rule is applied to each facility
+comprising the single project. For purposes of the 80/20 Rule, the cost of a new
+
+- 15 applicable wind or solar facility includes all properly capitalized costs of the new
+applicable wind or solar facility.
+(2) Beginning of construction. In situations where the 80/20 Rule applies, the
+Physical Work Test applies only with respect to the work performed on, or amounts paid
+or incurred for, new components of property used to retrofit an existing applicable wind
+or solar facility. The total cost of the applicable wind or solar facility does not include the
+cost of land (including lease payments) or any property that is not part of the applicable
+wind or solar facility, as described in section 5.03 of this notice.
+.05 Transfer of an applicable wind or solar facility – (1) In general. A taxpayer
+may claim either the § 45Y credit with respect to electricity produced by such taxpayer
+at an applicable wind or solar facility or the § 48E credit with respect to the taxpayer’s
+qualified investment with respect to an applicable wind or solar facility. Neither § 45Y
+nor § 48E requires the taxpayer to own the applicable wind or solar facility at the time
+construction began on the applicable wind or solar facility. Accordingly, except as
+provided in section 5.05(3) of this notice, a fully or partially developed applicable wind or
+solar facility may be transferred without losing its qualification under the Physical Work
+Test for purposes of the § 45Y credit or the § 48E credit.
+(2) Relocation of equipment by a taxpayer. A taxpayer may begin construction of
+an applicable wind or solar facility with the intent to develop the applicable wind or solar
+facility at a certain site, and thereafter transfer components of property of the applicable
+wind or solar facility to a different site, complete its development, and place it in service.
+The work performed or the amounts paid or incurred prior to the site transfer by such a
+
+- 16 taxpayer may be taken into account for purposes of determining when the applicable
+wind or solar facility satisfies the Physical Work Test.
+(3) Transfers of equipment between unrelated parties. In the case of a transfer
+consisting solely of tangible personal property (including contractual rights to such
+property under a binding written contract) to a transferee not related (within the meaning
+of §§ 197(f)(9)(C) and 1.197-2(h)(6)) to the transferor, any work performed or amounts
+paid or incurred by the transferor with respect to such transferred property will not be
+taken into account with respect to the transferee for purposes of the Physical Work Test.
+For example, a developer, X, intends to develop and operate Facility A at a
+location to be determined. In 2025, X pays or incurs $60,000 to have tangible personal
+property integral to Facility A manufactured off-site pursuant to a binding written
+contract. Thereafter, X incurs no further development costs and engages in no further
+development activity with respect to Facility A. In January 2026, X sells the tangible
+personal property to another developer, Y, a party unrelated to X. Y is developing and
+intends to operate Facility B, located on a parcel of land owned by Y. Y incorporates the
+tangible personal property acquired from X into Facility B. In October 2026, Y places
+Facility B in service on the parcel of land. The total cost of Facility B is $1,000,000.
+Work performed for X in 2025 on the tangible personal property cannot be taken into
+account by Y for purposes of satisfying the Physical Work Test with respect to Facility B,
+because X and Y are not related persons (within the meaning of §§ 197(f)(9)(C) and
+1.197-2(h)(6)) as described in section 5.05(3) of this notice. However, if without regard
+to the tangible personal property acquired from X, Y has otherwise satisfied the Physical
+
+- 17 Work Test with respect to Facility B in 2025, Y will be considered to have begun
+construction in 2025.
+SECTION 6. FIVE PERCENT SAFE HARBOR FOR LOW OUTPUT SOLAR
+FACILITIES
+.01 In general. In the case of a low output solar facility (as defined in section
+6.02 of this notice), a taxpayer may establish that construction has begun before July 5,
+2026, by satisfying either the Physical Work Test described in section 3.02 of this notice,
+or by applying principles similar to those provided in section 5 of Notice 2013-29
+regarding the Five Percent Safe Harbor (as described in section 2.02(2)(ii) of Notice
+2022-61).
+.02 Low output solar facility.
+(1) Definition. A low output solar facility is an applicable solar facility that has
+maximum net output of not greater than 1.5 megawatt (MW) (as measured in alternating
+current) (1.5-Megawatt Maximum). For purposes of the 1.5-Megawatt Maximum, output
+is measured at the level of the qualified facility.
+(2) Property included in an applicable solar facility. An applicable solar facility
+includes a unit of a qualified solar facility, which, in turn, includes all functionally
+interdependent components of property owned by the taxpayer that are operated
+together and that can operate apart from other property to produce electricity.
+Components of property are functionally interdependent if the placing in service of each
+of the components is dependent upon the placing in service of each of the other
+components to produce electricity. A qualified solar facility also includes property owned
+by the taxpayer that is an integral part of the qualified solar facility. A component of
+
+- 18 property owned by the taxpayer is an integral part of the qualified facility if it is used
+directly in the intended function of the facility and is essential to the completeness of
+such function. See §§ 1.45Y-2(b)(3) and 1.48E-2(d)(3) for additional descriptions of
+property integral to a qualified facility.
+.03 Measurement of output.
+(1) In general. The maximum net output of an applicable solar facility is
+measured only by nameplate generating capacity (in alternating current) of the unit of
+qualified facility (as described in §§ 1.45Y-2(b)(2) and 1.48E-2(d)(2)), which does not
+include the nameplate capacity of any component that is an integral part (as described
+in §§ 1.45Y-2(b)(3) and 1.48E-2(d)(3)) of the applicable solar facility, at the time the
+applicable solar facility is placed in service. The nameplate generating capacity of the
+applicable solar facility is measured independently from any other applicable solar
+facility that shares an integral part with the applicable solar facility. Notwithstanding this
+rule, the nameplate generating capacity of two or more applicable solar facilities having
+integrated operations are measured in the aggregate for purposes of the 1.5-Megawatt
+Maximum.
+(2) Nameplate capacity. For purposes of section 6.02(1) of this notice, the
+determination of whether a qualified facility has a maximum net output of not greater
+than 1.5 MW (as measured in alternating current) is based on the nameplate capacity.
+The nameplate capacity for purposes of the 1.5-Megawatt Maximum is the maximum
+electrical generating output in megawatts that the unit of qualified facility is capable of
+producing on a steady state basis and during continuous operation under standard
+conditions, as measured by the manufacturer and consistent with the definition of
+
+- 19 nameplate capacity provided in 40 CFR 96.202. If applicable, taxpayers should use the
+International Standard Organization (ISO) conditions to measure the maximum
+electrical generating output of a unit of qualified facility. For applicable solar facilities
+that generate electricity in direct current, a taxpayer determines whether an applicable
+solar facility has a maximum net output of not greater than 1.5 MW (in alternating
+current) by using the lesser of:
+(a) The sum of the nameplate generating capacities within the applicable solar
+facility in direct current, which is deemed the nameplate generating capacity of the unit
+of applicable solar facility in alternating current; or
+(b) The nameplate capacity of the first component of the applicable solar facility
+that inverts the direct current electricity into alternating current.
+(3) Integrated operations. For the purposes of the 1.5-Megawatt Maximum, an
+applicable solar facility is treated as having integrated operations with one or more other
+applicable solar facilities of the same technology type if the facilities are:
+(a) Owned by the same or related taxpayers;
+(b) Placed in service in the same taxable year; and
+(c) Transmit electricity generated by the facilities through the same point of
+interconnection or, if the facilities are not grid-connected or are delivering electricity
+directly to an end user behind a utility meter, are able to support the same end user.
+(4) Related taxpayers. For purposes of section 6.03(3) of this notice, the term
+“related taxpayers” means members of a group of trades or businesses that are under
+common control (as defined in § 1.52-1(b)). Related taxpayers are treated as one
+taxpayer in determining whether an applicable facility has integrated operations.
+
+- 20 SECTION 7. EFFECTIVE DATE
+This notice is effective for applicable wind and solar facilities the construction of
+which did not begin (as determined under section 5 of Notice 2022-61) prior to
+September 2, 2025.
+SECTION 8. EFFECT ON OTHER DOCUMENTS
+Except as provided in sections 6 and 7 of this notice, this notice modifies Notice
+2022-61 to provide that section 5 of such notice is not applicable for determining
+whether construction of an applicable wind or solar facility began prior to the beginning
+of construction deadline in §§ 70512(l)(4) and 70513(g)(5) of the OBBBA.
+SECTION 9. DRAFTING INFORMATION
+The principal author of this notice is the Office of Associate Chief Counsel
+(Energy, Credits, and Excise Tax); however, other personnel from the Treasury
+Department and the IRS participated in its development. For further information
+regarding this notice contact (202) 317-6853 (not a toll-free call).
+
+

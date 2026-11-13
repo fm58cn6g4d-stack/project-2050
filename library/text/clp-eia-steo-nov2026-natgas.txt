@@ -1,0 +1,306 @@
+Source: https://www.eia.gov/outlooks/steo/report/natgas.php
+Publisher: U.S. Energy Information Administration
+Retrieved: 2026-11-13
+Original SHA-256: d21ad30ab3b09cb11ed3a6a3e759c42592d06c6b4220023e191cec1bbbdba30d
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Short-Term Energy Outlook - U.S. Energy Information Administration (EIA)
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+‹ Analysis & Projections
+Short-Term Energy Outlook
+Release Date: November 10, 2026 |
+Forecast Completed: November 5, 2026 |
+Next Release Date: December 8, 2026
+|
+Full Report
+|
+Text Only
+|
+All Tables
+|
+All Figures
+Glossary › FAQS ›
+Forecasts
+Overview
+Global oil markets
+Petroleum products
+Natural gas
+Electricity, coal, and renewables
+Economy, weather, and CO 2
+Data
+Figures
+Tables
+STEO Data browser
+Real Prices Viewer
+Data series changes
+Global Energy Security Data
+Supplements
+Natural gas
+Natural gas prices
+A warm start to November is putting downward pressure on U.S. natural gas prices. Our forecast assumes 13% fewer heating degree days (HDDs) across the United States in November compared with the 10-year average for the month. We now expect 3,840 billion cubic feet of natural gas will be held in storage at the end of November, 67 Bcf more than we forecast last month. The Henry Hub spot price in our forecast averages $2.87 per million British thermal units (MMBtu) from November through March, 16% less than last month’s forecast and 36% less than last winter.
+We expect continuing growth in U.S. natural gas production to put downward pressure on Henry Hub prices in the coming year. Production growth outpaces increasing demand from domestic sources and exports, leaving U.S. natural gas inventories about 3% above 2026 levels on average. We forecast Henry Hub will average $2.88/MMBtu in 2027, down from $3.37/MMBtu this year.
+At the same time, international natural gas prices have risen to the highest levels since December 2022, supporting U.S. liquefied natural gas (LNG) export economics. Since the U.S.-Iran conflict began on February 28, the monthly near-month futures price at the European benchmark Dutch Title Transfer Facility rose from an average of $11.27/MMBtu in February 2026 to an average of $28.51/MMBtu in October, according to data from Bloomberg, L.P. Similarly, the Japan-Korea Marker near-month futures price in East Asia rose from an average of $10.82/MMBtu in February to $28.59/MMBtu in October. Tanker strikes and other logistical disruptions have continued to limit LNG exports through the Strait of Hormuz, which remain well below pre-war levels.
+LNG exports
+We forecast LNG exports to average 17.6 billion cubic feet per day (Bcf/d) in 2026 and 19.0 Bcf/d in 2027, up from 15.1 Bcf/d in 2025, as new export capacity ramps up. The seventh and final train of the Corpus Christi Stage 3 export facility (1.5 Bcf/d nominal capacity) reached substantial completion in late August. Golden Pass LNG has reported a sustained increase in feedgas demand in recent weeks following months of slower-than-expected exports from Train 1 since its April 2026 startup . U.S. LNG exports also received a boost in October as Cove Point LNG (0.8 Bcf/d nominal capacity) concluded planned maintenance on October 12.
+Residential and commercial demand
+We expect U.S. natural gas consumption in the residential and commercial sectors to average 36.4 Bcf/d during the 2026–2027 winter heating season (November–March), down 3.8% from last winter. Warmer weather—compared with last winter—reduces space heating demand.
+Our forecast includes 1% fewer HDDs this winter compared with last winter. In addition to the warm November to start the winter, January HDDs are forecast to decline 10% from last year, accompanied by a 10% decrease in residential and commercial natural gas consumption. Forecast year-over-year declines in natural gas consumption in the residential and commercial sectors from November through February are partly offset by rising consumption in March. HDDs in March are forecast to increase 31% from last winter, with residential and commercial consumption rising by 17%.
+The National Oceanic and Atmospheric Administration’s U.S. Winter Outlook reflects the influence of a strengthening El Niño and favors above-average temperatures across the northern United States from December through February. However, the timing and severity of cold weather remains uncertain. Severe cold weather events, particularly in January and February, could also increase winter demand above our forecast and cause temporary spikes in prices.
+Natural Gas
+2024 2025 2026 projected 2027 projected
+Natural gas price at Henry Hub
+(dollars per million Btu)
+2.19 3.53 3.37 2.88
+U.S. dry natural gas production
+(billion cubic feet per day)
+103.07 107.64 113.01 117.61
+U.S. natural gas consumption
+(billion cubic feet per day)
+90.33 91.88 92.35 94.42
+U.S. LNG exports
+(billion cubic feet per day)
+11.9 15.1 17.6 19.0
+Natural gas share of electricity generation
+(percentage)
+42 40 40 39
+Interactive Data Viewers
+Provides custom data views of historical and forecast data
+STEO Data browser ›
+Real Prices Viewer ›
+Related Tables
+Table 1. U.S. Energy Markets Summary
+PDF
+Table 2. Energy Prices
+PDF
+Table 5a. U.S. Natural Gas Supply, Consumption, and Inventories
+PDF
+Table 5b. U.S. Regional Natural Gas Prices
+PDF
+Table 8a. U.S. Renewable Energy Consumption
+PDF
+Table 9a. U.S. Macroeconomic Indicators and CO 2 Emissions
+PDF
+Table 9b. U.S. Regional Macroeconomic Data
+PDF
+Table 9c. U.S. Regional Weather Data
+PDF
+Table 10a. Drilling Productivity Metrics
+PDF
+Table 10b. Crude Oil and Natural Gas Production from Shale and Tight Formations
+PDF
+Related Figures
+Henry Hub natural gas price
+XLSX
+PNG
+U.S. natural gas prices
+XLSX
+PNG
+U.S. natural gas balance
+XLSX
+PNG
+U.S. marketed natural gas production
+XLSX
+PNG
+U.S. natural gas consumption
+XLSX
+PNG
+U.S. working natural gas in storage
+XLSX
+PNG
+U.S. natural gas trade
+XLSX
+PNG
+Monthly U.S. dry shale natural gas production by formation
+XLSX
+PNG
+Monthly U.S. marketed natural gas production by region
+XLSX
+PNG
+Other Resources
+Henry Hub natural gas probabilities
+(Microsoft Excel file)
+Energy Price Volatility and Forecast Uncertainty documentation
+(Adobe PDF file)
+Henry Hub natural gas price and NYMEX 95% confidence intervals
+January 2023 - Current Month
+(Adobe PDF file)
+January 2021 - December 2022
+(Adobe PDF file)
+January 2019 - December 2020
+(Adobe PDF file)
+January 2017 - December 2018
+(Adobe PDF file)
+January 2015 - December 2016
+(Adobe PDF file)
+January 2013 - December 2014
+(Adobe PDF file)
+January 2011 - December 2012
+(Adobe PDF file)
+January 2009 - December 2010
+(Adobe PDF file)
+January 2007 - December 2008
+(Adobe PDF file)
+About the Short-Term Energy Outlook
+STEO Release Schedule
+Contact STEO Experts
+Model Documentation
+Sign up for email updates
+Previous STEO Forecasts:
+Changes in Forecast from Last Month
+STEO Archives
+October 2026
+September 2026
+August 2026
+July 2026
+June 2026
+prior issues
+Other EIA Outlooks:
+Annual Energy Outlook
+International Energy Outlook
+Statistics
+Analysis
+Tools
+Education
+News
+Petroleum & Other Liquids
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+Natural Gas
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+Electricity
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+Coal
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+Nuclear & Uranium
+Uranium fuel, nuclear reactors, generation, spent fuel.
+Renewable & Alternative Fuels
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Total Energy
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+Monthly Energy Review
+Annual Energy Review
+Consumption & Efficiency
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+Residential Energy Consumption Survey (RECS)
+Commercial Buildings Energy Consumption Survey (CBECS)
+Manufacturing Energy Consumption Survey (MECS)
+U.S. States
+State energy information, including overviews, rankings, data, and analyses.
+State Energy Data System (SEDS)
+International
+International energy information, including overviews, rankings, data, and analyses.
+International Energy Statistics
+Environment
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+U.S. Energy-Related Carbon Dioxide Emissions
+Energy-Related Carbon Dioxide Emissions at the State Level, 2005-2016
+Energy-Related Carbon Dioxide Emissions at the State Level
+Analysis and Projections
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+Short-Term Energy Outlook
+Annual Energy Outlook
+Special Reports
+Special market analysis and/or data requests.
+EIA-112 Residential Utility Disconnections
+SHIP Act
+Energy & Financial Markets: What Drives Crude Oil Prices?
+International
+International energy analyses.
+Regional Analysis Briefs
+Country Analysis Briefs
+World Oil Transit Chokepoints
+OPEC Revenue
+Global Energy Security Data
+Glossary
+Data Tools, Apps, & Maps
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+Open Data
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+EIA Beta
+Come test out some of the products still in development and let us know what you think!
+Open Source Code
+EIA's open source code, available on GitHub.
+All Reports & Products
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Email Updates
+Sign up for email subscriptions to receive messages about specific EIA products
+RSS Feeds
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+Follow us. . .
+A-Z Index
+A |
+B |
+C |
+D |
+E |
+F |
+G |
+H |
+I |
+J |
+K |
+L |
+M |
+N |
+O |
+P |
+Q |
+R |
+S |
+T |
+U |
+V |
+W |
+XYZ
+Today in Energy
+Short, timely articles with graphics on energy, facts, issues, and trends.
+Energy Explained
+What is Energy?
+Units & Calculators
+U.S. Energy Facts
+Use of Energy
+Energy & Environment
+Petroleum
+Hydrocarbon Gas Liquids
+Natural Gas
+Coal
+Nuclear
+Electricity
+Hydrogen
+Hydropower
+Biofuels
+Biomass
+Wind
+Geothermal
+Solar
+For Teachers
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+Glossary
+FAQs
+Coal
+Conversion & Equivalents
+Oil/Petroleum
+Diesel
+Electricity
+Environment
+Gasoline
+General Energy
+Natural Gas
+Nuclear
+Prices
+Renewables
+What's New?
+Monthly Densified Biomass Fuel Report
+Nov 12, 2026
+Wholesale Electricity Market Data
+Nov 12, 2026
+Short-Term Energy Outlook
+Nov 10, 2026
+Press Room
+Press Releases
+Congressional Testimony
+Presentations
+Events

@@ -1,0 +1,2408 @@
+Source: https://www.congress.gov/crs_external_products/R/PDF/R46865/R46865.4.pdf
+Publisher: Congressional Research Service
+Retrieved: 2026-11-13
+Original SHA-256: 9eb3769e9f94d443980465459fdea56c32ba8dcee36174e3ed957abc2ba6dcb0
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Energy Tax Provisions:
+Overview and Budgetary Cost
+Updated February 26, 2024
+
+Congressional Research Service
+https://crsreports.congress.gov
+R46865
+
+Energy Tax Provisions: Overview and Budgetary Cost
+
+Contents
+Direct (Cash) Payments ................................................................................................................... 2
+Credit Transfers ............................................................................................................................... 2
+
+Tables
+Table 1. Renewable Energy Tax Incentives ..................................................................................... 4
+Table 2. Energy Efficiency Tax Incentives .....................................................................................11
+Table 3. Tax Incentives for Vehicles and Vehicle Infrastructure.................................................... 14
+Table 4. Renewable and Alternative Fuels Tax Incentives ............................................................ 22
+Table 5. Fossil Fuels Tax Incentives .............................................................................................. 27
+Table 6. Carbon Capture and Sequestration, Nuclear, and Other Tax Incentives .......................... 33
+
+Contacts
+Author Information........................................................................................................................ 36
+
+Energy Tax Provisions: Overview and Budgetary Cost
+
+T
+
+he 117th Congress revamped significant portions of energy tax law. In the Infrastructure,
+Investment, and Jobs Act (P.L. 117-58), the Chips and Science Act (P.L. 117-167), and the
+Inflation Reduction Act of 2022 (IRA; P.L. 117-169), Congress enacted 11 new energy tax
+provisions and modified or extended 12 existing provisions. The IRA in particular enacted or
+changed 21 energy tax provisions, including tax credits for carbon capture and storage, energyefficient building modifications, clean electricity generation, and purchases of electric vehicles.1
+The IRA also created direct payments and credit transfers, two new tax mechanisms that expand
+the number of energy providers that can benefit from nonrefundable credits. At the time of
+enactment, the Joint Committee on Taxation (JCT) estimated that the energy tax credits and
+deductions in the IRA would increase FY2022-FY2031 deficits by a combined $271 billion.2
+This report provides background information on current-law, energy-specific provisions in the
+federal income tax code (including both personal and corporate income taxes). It does not discuss
+energy-specific excise tax provisions, with the exception of tax credits used to offset both income
+and excise tax liabilities.3 It includes all energy provisions projected by the JCT to affect income
+tax revenues over the FY2023-FY2027 period, though not every provision is available to
+taxpayers in every year. For example, certain credits for other alternative fuel vehicles (discussed
+in Table 4) only apply to vehicles purchased before 2011; however, because the credit can be
+carried forward to offset tax liabilities up to 20 years into the future, these credits are expected to
+reduce federal revenues in the coming years.
+Following a description of direct pay and credit transfer tax mechanisms, this report presents a
+series of tables, each of which includes (1) the name of the provision and its Internal Revenue
+Code (IRC) section; (2) a description of the provision; (3) the law first enacting the provision; (4)
+when the provision expires (if applicable) under current law; and (5) a cost estimate (if
+available).4 Energy income tax provisions have been categorized as follows:
+•
+•
+•
+•
+•
+•
+
+renewable energy tax incentives (Table 1);
+energy efficiency tax incentives (Table 2);
+tax incentives for vehicles and vehicle infrastructure (Table 3);
+renewable and alternative fuels tax incentives (Table 4);
+fossil fuel tax incentives (Table 5); and
+carbon capture and sequestration (CCS), nuclear, and other tax incentives (Table
+6).
+
+1 The IRA enacted nine energy tax credits in Sections 25E, 40B, 45U, 45V, 45W, 45X, 45Y, 45Z, and 48E of the
+
+Internal Revenue Code. The IRA modified or extended existing energy tax credits in Sections 25C, 25D, 30C, 30D, 40,
+40A, 45, 45L, 45Q, 48, and 48C, and also modified the 179D tax deduction for energy efficient commercial buildings.
+(The Section 48C credit, which has “capped” funding, was also given new allocations; see the 48C entry in Table 1 for
+more information.)
+2 See CRS Report R47202, Tax Provisions in the Inflation Reduction Act of 2022 (H.R. 5376), coordinated by Molly F.
+Sherlock, pp. 24-27. The 10-year timeframe refers to FY2022-FY2031. The reinstatement of the Hazardous Substance
+Superfund—which is classified as neither a tax credit nor a deduction, and is not counted toward the $271 billion
+estimate—was estimated to raise $12 billion over the FY2022-FY2031 timeframe.
+3 The other major sources of federal revenue—payroll taxes, estate taxes, and gift taxes—do not contain any energyspecific provisions. For an overview of the federal tax system, see CRS Report R45145, Overview of the Federal Tax
+System in 2022, by Molly F. Sherlock and Donald J. Marples.
+4 The cost estimates are generally tax expenditure estimates, as provided in Joint Committee on Taxation, Estimates Of
+Federal Tax Expenditures For Fiscal Years 2023-2027, JCX-59-29, December 7, 2023. These estimates reflect tax
+laws enacted through August 31, 2023, and assume that temporary provisions expire as scheduled.
+
+Congressional Research Service
+
+1
+
+Energy Tax Provisions: Overview and Budgetary Cost
+
+Direct (Cash) Payments
+Business tax credits have traditionally been nonrefundable, meaning that if a business’s tax
+credits exceed its tax liabilities, the difference cannot be received as a refund. For example, if a
+business has an income tax bill of $10,000 but is eligible for credits worth $14,000, those credits
+reduce the business’s income tax payments to $0 but do not result in a federal refund for the
+remaining $4,000.
+Nonrefundable tax credits may have little to no effect on untaxed entities such as nonprofits, local
+governments, and school districts. Because these entities do not pay federal income taxes, they
+implicitly cannot benefit from nonrefundable tax credits. To incentivize greater “clean” energy
+investments, the IRA allows certain untaxed entities to receive direct cash payments in place of
+the IRC Sections 30C, 45, 45Q, 45U, 45V, 45W, 45X, 45Y, 45Z, 48, 48C, and 48E tax credits.
+The entities eligible for direct payments include
+•
+•
+•
+•
+•
+•
+
+any private-sector entity exempt from federal income taxes, including 501(c)(3)
+organizations such as hospitals, private colleges, and think tanks;
+state governments and political subdivisions thereof (including city governments,
+county governments, and school districts);
+the Tennessee Valley Authority;
+Indian tribal governments;
+Alaska Native Corporations; and
+rural electricity cooperatives.
+
+Organizations which are not tax-exempt entities can also claim direct payments in place of the
+credits for carbon oxide sequestration (IRC §45Q), clean hydrogen production (IRC §45V), and
+advanced manufacturing production (IRC §45X). However, they may only do so for five years,
+starting with the year a facility is placed in service. This election cannot be made after December
+31, 2032.
+
+Credit Transfers
+Entities not eligible for direct payments may transfer any of the tax credits listed in the previous
+section, with the exception of the credit for qualified commercial clean vehicles (IRC §45W).
+Credit transfers occur when one business sells its credits to another at an agreed-upon price in
+exchange for a cash payment.
+Such transfers hold two potential benefits for firms. First, businesses can sell their credits for a
+price between the credit’s maximum value and the business’s income tax liabilities. For example,
+if a firm owes $4,000 of federal income taxes but has a credit worth $7,000, it could sell the credit
+to a second firm for $6,000. In this example, the first firm gains $2,000 (because it pays an
+additional $4,000 in taxes but receives $6,000 in cash), while the second firm gains $1,000
+(because it buys the credit for $6,000 but reduces its tax payments by $7,000).5 While traditional
+credits are only claimed when firms file their taxes, transfers may occur at any time. Businesses
+in need of quick cash can sell their credits instead of taking out loans, which is especially
+important during periods of high interest rates.
+
+5 This example assumes that the second firm’s income tax liabilities equal or exceed $7,000.
+
+Congressional Research Service
+
+2
+
+Energy Tax Provisions: Overview and Budgetary Cost
+
+Under proposed IRS regulations, if a firm is deemed ineligible for a credit it has already sold, the
+liability falls on the purchaser of the credit.6 This could cause transferable credits to trade at less
+than their full dollar value if the purchasers of such credits factor these potential losses into their
+buying decisions.
+In 2023, transferred tax credits typically sold at 89 to 95 cents on the dollar.7 It is not yet clear
+how much of the difference between the tax credits’ sales prices and their maximum potential
+values was attributable to liability concerns, the preference for immediately available cash, or
+other factors.
+The clean vehicle credit (IRC §30D) and the used clean vehicle credit (IRC §25E) are eligible for
+a special type of credit transfer from consumers to car dealers. Such transfers are discussed in the
+Sections 30D and 25E entries in Table 3.
+
+6 Internal Revenue Service, “Section 6418 Transfer of Certain Credits,” REG-101610-23, pp. 40496-40526, June 21,
+
+2023.
+7 Crux, Transferable Tax Credit Market Intelligence Report, New York, NY, January 16, 2024, pp. 44-47,
+https://www.cruxclimate.com/2023-market-report.
+
+Congressional Research Service
+
+3
+
+Table 1. Renewable Energy Tax Incentives
+Provision
+
+Description
+
+Enacting
+Legislation
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+Residential clean
+energy credit (IRC
+§25D)
+
+A tax credit for the purchase of solar electric property, solar water
+heating property, fuel cells, geothermal heat pump property, battery
+storage property, or small wind energy property. The tax credit is
+30% of the cost of qualifying property through 2032. The tax credit
+is reduced to 26% for property placed in service in 2033 and 22%
+for property placed in service in 2034. The tax credit for fuel cells is
+limited to $500 for each 0.5 kilowatt of capacity.
+For more, see CRS Insight IN12051, Residential Energy Tax Credits:
+Changes in 2023
+
+Energy Policy
+Act of 2005
+(EPACT05;
+P.L. 109-58)
+
+Property placed in
+service by December
+31, 2034.
+
+FY2023-FY2027: $13.1
+
+Renewable electricity
+production tax credit
+(PTC) (IRC §45)
+
+A tax credit for electricity produced using qualifying renewable
+energy resources. For facilities placed in service prior to 2022, the
+2023 tax credit equals 2.8 cents per kWh for electricity produced
+from wind, closed-loop biomass, and geothermal energy and 1.3
+cents per kWh for electricity produced from open-loop biomass,
+landfill gas, trash combustion, qualified hydropower, and marine and
+hydrokinetic sources. The tax credit is available for 10 years after
+the date the facility is placed in service. Taxpayers may elect to
+receive an investment tax credit (ITC) in lieu of the PTC.
+For facilities placed in service after December 31, 2021, and the
+construction of which begins before January 1, 2025, the 2023 base
+credit is 0.55 cents per kWh from wind, closed-loop biomass,
+geothermal energy, and solar energy, and 0.3 cents per kilowatt
+hour on the sale of electricity produced from the qualified energy
+resources of open-loop biomass, landfill gas, trash, qualified
+hydropower, and marine and hydrokinetic renewable energy. The
+base credit is increased five times for facilities that meet prevailing
+wage and apprenticeship requirements during the construction
+phase and the first 10 years of operation. Facilities can increase the
+credit by 10% for meeting certain domestic content standards.
+Facilities located in energy communities can be eligible for a 10%
+increase in the credit. Certain organizations, generally tax-exempt
+entities including state and local governments and Indian tribal
+governments, may claim the tax credit as “direct pay,” while other
+entities may elect a one-time transfer of the tax credit. Taxpayers
+
+Energy Policy
+Act of 1992
+(EPACT92;
+P.L. 102-486)
+
+Construction must
+begin by December
+31, 2025.
+
+FY2023-FY2027: $39.3
+
+CRS-4
+
+Provision
+
+Description
+
+Enacting
+Legislation
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+may elect to receive an investment tax credit (ITC) in lieu of the
+PTC. For facilities financed with tax-exempt bonds, the credit
+amount would be reduced by the lesser of (1) 15%; or (2) the
+fraction of the proceeds of a tax-exempt obligation used to finance
+the project over the aggregate amount of the project’s financing
+costs.
+Advanced
+manufacturing
+production credit
+(IRC §45X)
+
+CRS-5
+
+A business tax credit for the domestic production and sale of
+qualifying solar and wind components. The amount of the credit
+depends upon the specific solar or wind component. For wind
+energy components, the credit amount would be 10% of the sales
+price if the component is an offshore wind vessel. A credit of 10%
+would also be available for the production of critical minerals.
+The credit phases out ratably over four years for components sold
+after December 31, 2029. The phaseout does not apply to the
+production of critical minerals.
+The credit cannot be claimed for components produced at a facility
+for which a credit was claimed under Section 48C.
+
+Inflation
+Reduction
+Act (P.L. 117169)
+
+Eligible components
+sold no later than
+December 31, 2032.
+
+FY2023-FY2027: $72.7
+
+Enacting
+Legislation
+
+Description
+
+Energy investment tax
+credit (ITC) (IRC §48)
+
+A tax credit for investments in qualifying energy property. The base
+credit rate is 6% for investment in geothermal, microturbine, energy
+storage technology, qualified biogas property, and microgrid
+controller property, or combined heat and power (CHP) property
+and 2% in the case of microturbine property. The increased credit
+rate is 30% (10% in the case of microturbine property) with respect
+to energy projects that have a maximum output of less than 1
+megawatt of electrical (alternating current) or thermal energy and
+for energy projects that meet certain prevailing wage and
+apprenticeship requirements. Facilities can increase the credit by 2
+percentage points (10 percentage points for projects that meet
+domestic content requirements to certify that certain steel, iron,
+and manufactured products used in the facility were domestically
+produced). Facilities located in energy communities can be eligible
+for an increase of 2 percentage points (10 percentage points for
+projects that meet wage and workforce requirements). Certain
+organizations, generally tax-exempt entities including state and local
+governments and Indian tribal governments, may claim the tax
+credit as “direct pay,” while other entities may elect a one-time
+transfer of the tax credit. For facilities financed with tax-exempt
+bonds, the credit amount is reduced by the lesser of (1) 15%; or (2)
+the fraction of the proceeds of a tax-exempt obligation used to
+finance the project over the aggregate amount of the project’s
+financing costs.
+
+Energy Tax
+Act of 1978
+(P.L. 95-618)
+
+Construction must
+begin by December
+31, 2024, except for
+geothermal and solar,
+where there is a
+permanent 10% credit.
+For offshore wind
+property,
+construction must
+begin by December
+31, 2025.
+
+FY2023-FY2027: $89.7
+Solar: $72.6
+Interchange Property: $8.0
+Section 45 Property: $7.9
+
+Credit for investment
+in advanced energy
+property (IRC §48C)
+
+A competitively awarded tax credit for investments in selected
+advanced energy property. The base credit rate is 6%, with an
+increased 30% credit rate allowed for projects meeting prevailing
+wage and registered apprenticeship requirements. A total of $10.0
+billion is allocated for advanced energy property investment tax
+credits, $4.0 billion of which must be deployed in energy
+communities or communities that have not previously received tax
+credits under this section. Certain organizations, generally taxexempt entities including state and local governments and Indian
+tribal governments, may claim the tax credit as direct pay, while
+other entities may elect a one-time transfer of the tax credit.
+
+American
+Recovery and
+Reinvestment
+Act (ARRA;
+P.L. 111-5)
+
+Allocation limit; $10
+billion.
+
+FY2023-FY2027: de minimis
+
+CRS-6
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+Provision
+
+Enacting
+Legislation
+
+Provision
+
+Description
+
+Credit for holders of
+clean renewable
+energy bonds (IRC
+§§54, 54C)
+
+An income tax credit for holders of the bond. Clean Renewable
+Energy Bonds (CREBs) are subject to a volume cap of $1.2 billion
+with a credit rate set to allow the bond to be issued at par and
+without interest. New Clean Renewable Energy Bonds (New
+CREBs) are subject to a volume cap of $2.4 billion with a credit rate
+set at 70% of what would permit the bond to be issued at par and
+without interest. Tax credit bonds were repealed in the 2017 tax
+revision (commonly called the “Tax Cuts and Jobs Act” [TCJA]; P.L.
+115-97).
+
+EPACT05
+(P.L. 109-58)
+
+Depreciation recovery
+periods for energyspecific items: fiveyear MACRS for
+certain energy
+property (IRC
+§168(e)(3)(B)(vi))
+
+Accelerated depreciation allowances are provided under the
+modified accelerated cost recovery system (MACRS) for
+investments in certain energy property. Specifically, for property
+placed in service prior to January 1, 2024, certain solar, wind,
+geothermal, fuel cell, microturbine, CHP, waste energy recovery,
+and biomass property have a five-year recovery period. For
+property placed in service after December 31, 2024, qualified
+property includes any property which is a qualified investment, and
+any energy storage technology, as those terms are defined for
+purposes of the clean electricity production and clean electricity
+investment credits. Qualified properties have a five-year recovery
+period.
+
+Tax Reform
+Act of 1986
+(P.L. 99-514)
+
+CRS-7
+
+Energy
+Improvement
+and Extension
+Act of 2008
+(P.L. 110-343)
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+Allocation limit;
+authority to issue
+repealed in P.L. 11597.
+
+FY2023-FY2027: de minimis
+
+None
+
+FY2023-FY2027: $0.5
+
+Provision
+Clean electricity
+production credit
+(IRC §45Y)
+
+CRS-8
+
+Description
+A tax credit for electricity produced using qualifying non-emitting
+energy resources for the sale of domestically produced electricity
+with a greenhouse gas emissions rate not greater than zero. To
+qualify for a tax credit, electricity would need to be produced at a
+qualifying facility placed in service after December 31, 2024.
+The base PTC amount was set to 0.3 cents per kWh in 1992 dollars
+and is adjusted for inflation. The tax credit amount is multiplied by
+five for facilities that pay prevailing wages and meet registered
+apprenticeship requirements. Facilities with a maximum net output
+of less than 1 megawatt would also qualify for the full 1.5 cents per
+kWh amount. The PTC would be available for electricity produced
+during the facility’s first 10 years of operation. Facilities can increase
+the credit by 10% for meeting certain domestic content standards.
+Facilities located in energy communities are eligible for a 10%
+increase in the credit. The ability to claim the credit as direct pay
+would be subject to meeting domestic content requirements.
+The emissions target phaseout would begin after the calendar year
+in which greenhouse gas emissions from the electric power sector
+are equal to or less than 25% of 2022 electric power sector
+emissions. Once phaseout begins, the full credit amount would
+remain available for facilities that begin construction the following
+year. The credit amount for facilities beginning construction in the
+second year would be 75% of the full credit amount. This would be
+reduced to 50% for facilities beginning construction in the third
+year, and zero afterward.
+The provision would provide that for facilities financed with taxexempt bonds, the credit amount is reduced by the lesser of (1)
+15%; or (2) the fraction of the proceeds of a tax-exempt obligation
+used to finance the project over the aggregate amount of the
+project’s financing costs.
+
+Enacting
+Legislation
+Inflation
+Reduction
+Act (P.L. 117169)
+
+Expiration Date
+The later of 2032 or
+once certain emissions
+target levels achieved.
+
+Cost or Tax Expenditure
+Estimate (billions)a
+FY2023-FY2027: no revenue
+effect
+
+Provision
+Clean electricity
+investment credit
+(IRC §48E)
+
+CRS-9
+
+Description
+A new clean electricity investment tax credit (ITC) for investment
+in qualifying zero-emissions electricity generation facilities or energy
+storage technology. Costs of qualified interconnection property are
+also eligible for clean electricity projects smaller than 5 megawatts.
+This credit is available for facilities and property placed in service
+after December 31, 2024.
+The base ITC amount is 6%, with the tax credit rate increased to
+30% for facilities that pay prevailing wages and meet registered
+apprenticeship requirements. Facilities with a maximum net output
+of less than 1 megawatt and that begin construction less than 60
+days after the Secretary of the Treasury publishes guidance on the
+wage and registered apprenticeship requirements would also qualify
+for the full 30% amount. The clean electricity ITC is increased by
+one-third (2 percentage points or 10 percentage points) for
+property placed in service in an energy community (as defined
+above for the purposes of the clean electricity PTC). Similarly, a 2percentage point domestic content bonus also applies for the clean
+electricity ITC; the bonus is increased to 10 percentage points if the
+firm meets prevailing wage and apprenticeship requirements. The
+ability to claim the credit as direct pay is subject to domestic
+content requirements. The clean electricity ITC phases out
+according to the same schedule as would apply to the clean
+electricity PTC.
+For facilities financed with tax-exempt bonds, the credit amount is
+reduced by the lesser of (1) 15%; or (2) the fraction of the
+proceeds of a tax-exempt obligation used to finance the project
+over the aggregate amount of the project’s financing costs.
+This credit also allows for the annual allocation of 1.8 gigawatts for
+“environmental justice solar and wind capacity” credits. Taxpayers
+receiving a capacity allocation may be entitled to tax credits in
+addition to otherwise allowed clean electricity ITCs. Specifically,
+projects receiving an allocation that are located in a low-income
+community or on Indian land are eligible for a 10-percentage point
+bonus investment tax credit, while projects that are part of a lowincome residential building project or qualified low-income
+economic benefit project are eligible for a 20-percentage point
+bonus investment credit. Qualifying clean electricity projects include
+
+Enacting
+Legislation
+Inflation
+Reduction
+Act (P.L. 117169)
+
+Expiration Date
+The later of 2032 or
+once certain emissions
+target levels achieved.
+
+Cost or Tax Expenditure
+Estimate (billions)a
+FY2023-FY2027: $14.8
+
+Provision
+
+Description
+
+Enacting
+Legislation
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+those with a nameplate capacity of 5 megawatts or less (other than
+facilities producing electricity through combustion or gasification).
+Facilities receiving an allocation are required to have the facility
+placed in service within four years.
+Sources: CRS analysis of the Internal Revenue Code; Joint Committee on Taxation, Estimates Of Federal Tax Expenditures For Fiscal Years 2023-2027, JCX-59-23,
+December 7, 2023; CRS correspondence with the Joint Committee on Taxation.
+Notes: IRC = Internal Revenue Code. kWh = kilowatt-hour. MACRS = modified accelerated cost recovery system. A de minimis tax expenditure is less than $250
+million FY2023-FY2027.
+a. This column provides Joint Committee on Taxation tax expenditure estimates for the provision, unless otherwise noted.
+
+CRS-10
+
+Table 2. Energy Efficiency Tax Incentives
+Enacting
+Legislation
+
+Description
+
+Energy efficient home
+improvement credit (IRC
+§25C)
+
+A 30% tax credit for qualified energy-efficiency improvements
+and expenditures for residential energy property including
+qualifying improvements to the building’s envelope (excluding
+roofs but including windows and doors), the HVAC system,
+furnaces, boilers, or stoves. The overall credit is generally
+limited to an annual value of $1,200 per taxpayer and $600 per
+item (with lower limits for certain items such as exterior
+doors), though it can be as high as $2,000 for energy-efficient
+water heaters, heat pumps, air conditioners, boilers, and
+biomass stoves. Property must be installed in the taxpayer’s
+principal residence. A credit of up to $150 is available for home
+energy audits.
+For more, see CRS Insight IN12051, Residential Energy Tax
+Credits: Changes in 2023.
+
+EPACT05
+(P.L. 109-58)
+
+Property placed in
+service by
+December 31,
+2032.
+
+FY2023-FY2027: $12.4
+
+Credit for construction
+of energy-efficient new
+homes (IRC §45L)
+
+A tax credit for eligible contractors for building and selling
+qualifying energy-efficient new homes. For homes acquired
+after 2021, the credit would be $2,500 if the home meets
+certain Energy Star efficiency standards and $5,000 if the home
+is certified as a DOE Zero Energy Ready Home (ZERH). For
+multifamily dwelling units, the credit is $500 per unit meeting
+certain Energy Star efficiency standards and $1,000 per unit
+meeting the DOE ZERH standards. The per-unit credit
+amounts are increased to $2,500 and $5,000, respectively, if
+the contractor pays its laborers and mechanics at or above
+prevailing wage rates in the local construction sector.
+
+EPACT05
+(P.L. 109-58)
+
+Property acquired
+by December 31,
+2032.
+
+FY2023-FY2027: $1.1
+
+Credit for holders of
+qualified energy
+conservation bonds (IRC
+§54D)
+
+The federal government has authorized the issue of $3.2 billion
+in Qualified Energy Conservation Bonds (QECBs). QECBs
+provide a tax credit worth 70% of the tax credit bond rate
+stipulated by the Secretary of the Treasury. QECBs issued by
+state and local governments must fund an energy-savings
+project, such as the green renovation of a public building, R&D
+in alternative fuels, and public transportation projects. The
+ability to issue new tax credit bonds was repealed in the 2017
+tax revision (TCJA; P.L. 115-97).
+
+Energy
+Improvement
+and Extension
+Act of 2008
+(P.L. 110-343)
+
+Allocation limit
+(allocated to the
+states); authority to
+issue repealed in
+P.L. 115-97.
+
+FY2023-FY2027: de minimis
+
+CRS-11
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+Provision
+
+Provision
+
+Description
+
+Enacting
+Legislation
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+Exclusion of energy
+conservation subsidies
+provided by public
+utilities (IRC §136)
+
+Subsidies provided by public utilities to customers for the
+purchase or installation of energy conservation measures are
+excluded from taxable income. For the purposes of this
+provision, public utilities are entities selling electricity or
+natural gas.
+
+EPACT92
+(P.L. 102-486)
+
+None
+
+FY2023-FY2027: de minimis
+
+Exclusion of interest on
+state and local qualified
+private activity bonds for
+green buildings and
+sustainable design
+projects (IRC
+§142(a)(14))
+
+Tax-exempt private activity bonds can be issued to finance (or
+refinance) qualified green building and sustainable design
+projects.
+
+American
+Jobs Creation
+Act of 2004
+(P.L. 108-357)
+
+Does not apply to
+any bond issued
+after September 30,
+2012.
+
+FY2023-FY2027: de minimis
+
+Energy-efficient
+commercial buildings
+deduction (IRC §179D)
+
+Businesses may deduct the cost of energy efficient commercial
+building property installed or placed in service during the
+taxable year. Qualifying energy-efficient commercial building
+property includes property installed as part of (1) the interior
+lighting system; (2) the heating, cooling, ventilation, or hot
+water system; or (3) the building envelope. Qualifying property
+must reduce the building’s annual energy and power costs by at
+least 25% relative to a reference building. The maximum
+deduction is equivalent to 50 cents per square foot of the
+building, with an additional 2 cents per square foot for every
+additional percentage point of energy and power cost
+reduction above 25%, up to a maximum of $1.00 per square
+foot, less the sum of the amounts deducted over the previous
+three years. For firms meeting prevailing wage and registered
+apprenticeship standards, the maximum deduction ranges from
+$2.50 to $5.00 per square foot of the building.
+An alternative deduction available under §179D(f) allows
+buildings engaged in qualified retrofit plans to deduct the
+adjusted basis in the retrofitted property. To qualify, the
+building must be at least five years old, and the qualified retrofit
+plan must reduce the building’s energy use intensity by at least
+25%. Both the standard §179D deduction and the alternative
+§179D(f) are adjusted for inflation after taxable year 2022. Tax-
+
+EPACT05
+(P.L. 109-58)
+
+none
+
+FY2023-FY2027: de minimis
+
+CRS-12
+
+Provision
+
+Description
+
+Enacting
+Legislation
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+exempt organizations making energy-efficiency upgrades may
+transfer the deductible amount to the property designer.
+Sources: CRS analysis of the Internal Revenue Code, and Joint Committee on Taxation, Estimates Of Federal Tax Expenditures For Fiscal Years 2023-2027, JCX-59-23,
+December 7, 2023.
+Notes: IRC = Internal Revenue Code. A de minimis tax expenditure is less than $250 million in FY2023-FY2027.
+a. This column provides Joint Committee on Taxation tax expenditure estimates for the provision, unless otherwise noted.
+
+CRS-13
+
+Table 3. Tax Incentives for Vehicles and Vehicle Infrastructure
+Provision
+
+Description
+
+Credits for other
+alternative fuel vehicles
+(IRC §30B)
+
+Tax credits were previously available for purchases of advanced
+lean burn technology motor vehicles, qualified hybrid motor
+vehicles, and qualified alternative fuel motor vehicles. The
+credits applied to four-wheeled vehicles and could be claimed
+by both individuals and businesses. Credits claimed by
+businesses could be carried forward up to 20 years (allowing
+for potential future revenue losses). A credit could be claimed
+by the seller (rather than the purchaser) if a vehicle was sold to
+a tax-exempt entity such as a local government. For all
+qualifying vehicles, the taxpayer must have acquired the vehicle
+for use or lease, and original use of the vehicle must have
+commenced with the taxpayer.
+For advanced lean burn technology passenger vehicles (PVs)
+and lightweight trucks (LWTs), hybrid PVs, and hybrid LWTs, a
+tax credit of up to $2,400 was available based on the given
+vehicle’s fuel economy. A supplementary conservation credit
+for lifetime fuel savings of up to $1,000 was also available. For
+hybrid vehicles other than PVs and LWTs, a credit was available
+based on the car’s fuel economy and incremental cost. Hybrid
+vehicles used to claim the §30B credit could not be used to
+claim the §30D credit. The credits phased out during the four
+calendar quarters after a manufacturer had sold 60,000 hybrid
+vehicles or 60,000 advanced lean burn technology vehicles.
+A tax credit was also available for purchases of qualified
+alternative fuel motor vehicles. The credit was worth up to
+50% or 80% of the vehicle’s incremental cost, with maximum
+values of $5,000 for lightweight vehicles and $40,000 for the
+heaviest vehicles. (The caps scaled up according to vehicle
+weight.) Incremental cost was defined as the excess of
+manufacturer suggested retail price (MSRP) over the price of a
+gas- or diesel-powered car of the same model. Partial credits
+were available for vehicles relying on a mix of petroleum-based
+fuel and alternative fuel. (The MSRP is the price suggested by
+the manufacturer and may differ from the price paid by the
+taxpayer.)
+
+CRS-14
+
+Enacting
+Legislation
+EPACT05
+(P.L. 109-58)
+
+Expiration Date
+Hybrid vehicles,
+excluding passenger
+vehicles and light
+trucks: Vehicle
+purchased no later
+than 12/31/2009.
+New advanced lean
+burn technology
+motor vehicles, new
+qualified alternative
+fuel vehicles, hybrid
+passenger vehicles,
+and hybrid light
+trucks: Vehicle
+purchased no later
+than 12/31/2010.
+
+Cost or Tax Expenditure
+Estimate (billions)a
+FY2023-FY2027: de minimis
+
+Provision
+
+Description
+
+Credit for qualified
+commercial clean vehicles
+(IRC §45W)
+
+The credit for qualified commercial clean vehicles, also known
+as the commercial clean vehicle credit, reduces tax payments
+for businesses and tax-exempt organizations purchasing electric
+vehicles, hybrid vehicles, and fuel cell vehicles. Vehicles must be
+made by qualified manufacturers and must have been purchased
+for use or lease, not for resale. Eligible commercial vehicles
+must be subject to a depreciation allowance, unless they are
+purchased by tax-exempt organizations for use (not for lease).
+The depreciable basis for commercial clean vehicles must be
+reduced by the amount of the §45W credit. Qualifying vehicles
+cannot have previously received a §30D clean vehicle credit,
+nor may a vehicle be used to claim more than one §45W credit
+over its lifetime. Hybrid and electric vehicles must have battery
+capacity of at least 7 kilowatt hours if the vehicle’s gross vehicle
+weight rating (GVWR) is less than 14,000 pounds, or a battery
+capacity of at least 15 kilowatt hours if the vehicle’s GVWR is
+14,000 pounds or more.
+For hybrid vehicles, the credit equals the lesser of the
+incremental cost of the vehicle or 15% of the vehicle’s cost
+basis. For electric vehicles and fuel cell vehicles, the credit
+equals the lesser of the incremental cost of the vehicle or 30%
+of the vehicle’s cost basis. A vehicle’s incremental cost is
+defined as the additional cost for an electric, hybrid, or fuel cell
+vehicle, as compared with a gas- or diesel-fueled vehicle of
+similar size and use. The credit may not exceed $40,000 for a
+vehicle with a GVWR of 14,000 pounds or more, nor may it
+exceed $7,500 for lighter-weight vehicles.
+The commercial clean vehicle credit is nonrefundable, meaning
+that taxpayers are not entitled to a refund if their tax credits
+exceed their tax liabilities. However, any unused credits may be
+carried forward to offset future tax liabilities. Tax-exempt
+organizations are eligible to receive the credit as a direct
+payment instead of as a nonrefundable tax credit.
+For leased vehicles, the tax credit is generally received by the
+vehicle’s owner rather than its lessee. Existing legal principles
+are used to distinguish between a lease and a sale for tax
+purposes. For example, if the lease agreement covers more
+
+CRS-15
+
+Enacting
+Legislation
+Inflation
+Reduction
+Act of 2022
+(P.L. 117-169)
+
+Expiration Date
+Does not apply to
+vehicles acquired
+after 12/31/2032.
+
+Cost or Tax Expenditure
+Estimate (billions)a
+FY2023-FY2027: $14.9
+
+Provision
+
+Description
+
+Enacting
+Legislation
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+than 80% or 90% of the vehicle’s projected useful life, or if the
+agreement requires the lessee to purchase the vehicle at the
+end of the lease, then the lease agreement is deemed a sale for
+tax purposes. Under these and other circumstances, the
+vehicle’s owner is ineligible for the credit, but the lessee may
+claim either the §45W credit or the §30D clean vehicle credit.
+Used clean vehicle credit
+(IRC §25E)
+
+CRS-16
+
+The used clean vehicle credit, also known as the previouslyowned clean vehicles credit, provides a tax credit for purchases
+of used electric or fuel cell vehicles. The credit equals 30% of
+the vehicle’s sales price up to a maximum value of $4,000.
+Credits in excess of tax liabilities cannot be received as refunds,
+nor can they offset future tax liabilities. To qualify for the
+credit, both the purchaser (the taxpayer) and the vehicle must
+meet certain criteria. Additional restrictions apply to credits
+transferred from purchasers to dealers.
+Individuals and couples are eligible for the credit; business
+entities such as corporations and partnerships are not. The
+taxpayer must purchase the vehicle for personal use, not for
+resale, and cannot have claimed another used clean vehicle
+credit in the three years prior to the date of purchase. In either
+the year the vehicle is acquired or the year before, the
+taxpayer’s modified adjusted gross income (MAGI) must be at
+or below certain thresholds. The thresholds are $150,000 for
+married couples, $112,500 for heads of household, and $75,000
+for single filers and others.
+To qualify for a credit, the vehicle must be purchased from a
+licensed dealer for $25,000 or less. The dealer must produce a
+report of the transaction for both the buyer and the IRS. The
+vehicle must have a gross vehicle weight rating of less than
+14,000 pounds, and used electric vehicles must have a battery
+capacity of 7 kilowatt hours or more. In addition, the vehicle’s
+model year must be at least two years before the year of
+purchase; for example, used vehicles purchased in 2030 must
+have model years of 2028 or earlier. Finally, the vehicle cannot
+have been transferred to another qualified buyer after August
+16, 2022, effectively limiting used credit claims to one per
+vehicle. (Vehicle sales from the initial owner to a dealer, or
+
+Inflation
+Reduction
+Act of 2022
+(P.L. 117-169)
+
+Does not apply to
+vehicles acquired
+after 12/31/2032.
+
+FY2023-FY2027: de minimisb
+
+Provision
+
+Description
+
+Enacting
+Legislation
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+from one dealer to another, do not violate the first transfer
+rule.)
+Rules for credit transfers under the used clean vehicle credit
+are similar to those under the clean vehicle credit. Buyers can
+claim the credit at the point of purchase, and dealers may
+compensate buyers with a reduced down payment, a reduced
+partial payment, or cash. The credit amount may exceed
+taxpayers’ income tax liabilities, in effect making transferred
+credits fully refundable. Buyers cannot transfer a partial credit
+to the dealer, and credit amounts received by the dealer are
+increased by 6.0445%. Dealers must inform buyers of the
+relevant MAGI eligibility thresholds, and buyers must attest that
+they expect to be eligible for the credit. Taxpayers who
+transfer the used clean vehicle credit but exceed the income
+limits must pay back the credit to the IRS when filing their
+taxes. Finally, the transfer rules only apply to used vehicles
+acquired between 2024 and 2032.
+The used clean vehicle credit went into effect starting in 2023.
+However, vehicles purchased in 2022 (or earlier) but acquired
+after December 31, 2022, are eligible for the credit. The credit
+does not apply to vehicles acquired by the taxpayer after
+December 31, 2032.
+Clean vehicle credit (IRC
+§30D)
+
+CRS-17
+
+New fuel cell vehicles and plug-in electric vehicles placed in
+service after 2022 may qualify for a “clean vehicle credit.”
+Eligible vehicles must have been acquired on or before
+December 31, 2032, have a gross vehicle weight rating of less
+than 14,000 pounds, and have undergone final assembly in
+North America. Qualifying plug-in electric vehicles are required
+to have a battery capacity of 7 kilowatt-hours or more.
+Individuals and businesses may claim the credit for at most one
+vehicle per year. Original use of the vehicle must commence
+with the taxpayer, and taxpayers must use or lease the vehicle;
+vehicles purchased for resale are ineligible for the credit. The
+vehicle’s MSRP cannot exceed $80,000 for vans, sport utility
+vehicles, and pickup trucks, and cannot exceed $55,000 for
+other vehicles.
+
+Energy
+Improvement
+and Extension
+Act of 2008
+(P.L. 110343); section
+modified and
+retitled
+“Clean
+vehicle
+credit” by the
+Inflation
+Reduction
+
+Vehicle must be
+placed in service on
+or before
+12/31/2032.
+
+FY2023-FY2027: $19.0
+
+Provision
+
+Description
+The credit amount is $3,750 for vehicles meeting the critical
+minerals requirement and $3,750 for vehicles meeting the battery
+components requirement, for a maximum total credit of $7,500.
+To meet the former requirement, a car’s battery must have a
+certain threshold percentage of “critical minerals that were
+extracted or processed in a country with which the United
+States has a free trade agreement, or recycled in North
+America.” The threshold percentage is 40% in 2023, 50% in
+2024, 60% in 2025, 70% in 2026, and 80% thereafter. To meet
+the latter requirement, a certain share of a battery’s
+component parts must be manufactured or assembled in North
+America, with the share depending on the year the car is placed
+in service. The share is 50% in 2023, 60% in 2024 and 2025,
+70% in 2026, 80% in 2027, 90% in 2028, and 100% thereafter. In
+addition, for vehicles placed in service after 2024, no applicable
+critical minerals in the vehicle’s battery may come from a
+“foreign entity of concern” (FEOC) as defined in 42 U.S.C.
+§18741; vehicles placed in service after 2023 cannot use battery
+components manufactured or assembled by an FEOC.
+To qualify for the credit, modified adjusted gross income
+(MAGI) for either the current or previous year must be at or
+below $300,000 for married couples, $150,000 for single filers,
+and $225,000 for heads of household. The credit is
+nonrefundable, meaning that credits in excess of tax liabilities
+are not refunded to the taxpayer.
+Beginning in 2024, a buyer may elect to transfer the credit to
+the dealer. As compensation for the transferred credit, qualified
+dealers may compensate buyers with cash, a reduced down
+payment on the vehicle, or a reduced partial payment on the
+vehicle. The transferred credit may exceed the taxpayer’s
+income tax liabilities, in effect making transferred credits fully
+refundable. Buyers are not allowed to transfer partial credits,
+and credits transferred to eligible dealers are increased by
+6.0445%. Taxpayers who transfer the credit at the time of
+purchase must still file tax form 8936 and indicate that they
+used the clean vehicle credit earlier in the year. Dealers must
+inform consumers of the MAGI thresholds at the time
+
+CRS-18
+
+Enacting
+Legislation
+Act of 2022
+(P.L. 117-169)
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+Provision
+
+Description
+
+Enacting
+Legislation
+
+Expiration Date
+
+EPACT05
+(P.L. 109-58)
+
+Property purchased
+by 12/31/2021.
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+taxpayers elect to transfer their credits, and taxpayers must
+attest to the dealer that they expect to be below the income
+threshold for their filing status. Taxpayers who transfer the
+credit but exceed the MAGI limits must pay back the credit (to
+the IRS) when filing their taxes.
+Vehicles placed in service before April 18, 2023, are not subject
+to the critical minerals requirement or the battery components
+requirement. Consumers who purchased a vehicle before April
+18, 2023, but took possession of it after that date are still
+subject to the requirements. For vehicles placed in service
+between January 1, 2023, and April 17, 2023, the minimum
+credit for vehicles with a battery capacity of at least 7 kilowatt
+hours is $3,751, with an additional $417 available for each
+additional kilowatt hour, up to a maximum credit of $7,500.
+For new plug-in electric vehicles purchased before 2023, the
+minimum credit is $2,917 for vehicles with battery capacities of
+at least 5 kilowatt hours, with an additional $417 for each
+additional kilowatt hour, up to a maximum of $7,500. If a plugin electric vehicle was purchased and received by the taxpayer
+between August 7, 2022, and December 31, 2022, the vehicle
+must have undergone final assembly in North America.
+Credit for fuel cell
+vehicles (IRC §30B)
+
+CRS-19
+
+A previously available tax credit for fuel cell vehicles. Fuel cell
+vehicles received a base credit of $4,000 for vehicles weighing
+less than 8,500 pounds. Heavier vehicles qualified for up to a
+$40,000 credit. An additional credit of up to $4,000 was
+available for cars and light trucks that exceeded the 2002 base
+fuel economy.
+The credit for fuel cell vehicles is no longer available. Certain
+qualifying fuel cell vehicles are eligible for an IRC §30D clean
+vehicle credit beginning in 2023.
+
+FY2023-FY2027: de minimis
+
+Provision
+
+Description
+
+Alternative fuel vehicle
+refueling property credit
+(IRC §30C)
+
+A tax credit for the cost of qualified alternative fuel vehicle
+refueling property at a business or at a taxpayer’s principal
+residence. Costs for vehicle charging equipment—including
+bidirectional charging equipment and charging stations for
+electric motorcycles (two- and three-wheeled electric vehicles)
+intended for use on public roads—are eligible for the credit.
+The credit is equal to 30% of qualifying costs for personal
+property (property not subject to depreciation), up to a
+maximum value of $1,000. For depreciable business property,
+the credit is equal to 30% of costs if the firm meets prevailing
+wage and qualified apprenticeship requirements, and is 6% if the
+firm does not meet such requirements. The credit for
+depreciable business property is limited to $100,000 per item
+of property. For property installed before January 1, 2023, the
+maximum total credit value is $30,000 for depreciable business
+property and $1,000 for personal property.
+Starting in 2023, property is only eligible for the credit if it is
+installed in either a nonurban or a low-income census tract.
+Any census tract not classified as an “urban area” by the
+Secretary of Commerce in the most recent decennial census
+qualifies for the credit. To qualify as a “low-income
+community,” census tracts must meet one of five criteria. First,
+all census tracts with a poverty rate of 20% or higher qualify for
+the credit. Second, census tracts located in metropolitan areas
+qualify for the credit if median family income in the tract does
+not exceed 80% of either statewide median family income or
+metropolitan area median family income, whichever is greater;
+census tracts located in nonmetropolitan areas are eligible if
+median family income does not exceed 80% of statewide
+median family income. Third, subject to regulations established
+by the Secretary of the Treasury, targeted populations (within
+the meaning of Section 103(20) of the Riegle Community
+Development and Regulatory Improvement Act of 1994 (12
+U.S. Code §4702(20)) may be treated as low-income
+communities. Fourth, high-migration rural counties—defined as
+counties which have lost 10% or more of their population due
+to net out-migration over the 20-year period ending with the
+
+CRS-20
+
+Enacting
+Legislation
+EPACT05
+(P.L. 109-58)
+
+Expiration Date
+Property placed in
+service by
+12/31/2032.
+
+Cost or Tax Expenditure
+Estimate (billions)a
+FY2023-FY2027: $0.4
+
+Provision
+
+Description
+
+Enacting
+Legislation
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+most recent census—are eligible for the credit if they are in
+census tracts located in nonmetropolitan areas wherein median
+family income does not exceed 85% of statewide median family
+income. Fifth, census tracts with fewer than 2,000 people which
+are located in empowerment zones (as designated under 26
+U.S. Code §1391) and which border a “low-income community”
+(as defined according to the criteria described here) are
+classified as “low-income communities” as well. Census tracts
+need only meet either the nonurban criterion or one of the five
+low-income criteria for property to be eligible for the credit.
+Credits for plug-in
+electric vehicles and
+electric motorcycles (IRC
+§30D)
+
+A tax credit was previously available for the purchase of
+qualifying plug-in electric vehicles. The credit ranged from
+$2,500 to $7,500 per vehicle, depending on the vehicle’s
+battery capacity. The tax credit phased out once a vehicle
+manufacturer had sold 200,000 qualifying vehicles. For vehicles
+purchased by tax-exempt organizations, the seller of the vehicle
+was able to claim the credit under certain circumstances.
+A separate 10% credit, up to $2,500, was previously available
+for the cost of two-wheeled plug-in electric vehicles (e.g.,
+motorcycles). Eligible vehicles must have had a weight rating of
+less than 14,000 pounds; have been propelled by a batterypowered electric motor with a battery capacity of at least 2.5
+kilowatt-hours; been used or leased (not resold) by the
+taxpayer; been used in the United States; been manufactured
+for use on streets, roads, and highways; and been capable of
+achieving a speed of at least 45 miles per hour. In addition,
+original use of the motorcycle must have commenced with the
+taxpayer.
+
+Energy
+Improvement
+and Extension
+Act of 2008
+(P.L. 110-343)
+ARRA (P.L.
+111-5)
+
+Credit for plug-in
+electric vehicles
+phased out and
+replaced by the
+“clean vehicle
+credit.” See the
+“Clean vehicle
+credit (IRC §30D)”
+entry in this table.
+
+FY2023-FY2027: de minimis
+
+Credit for electric
+motorcycles:
+Motorcycle
+acquired on or
+before 12/31/2021.
+
+Sources: CRS analysis of the Internal Revenue Code; Joint Committee on Taxation, Estimates Of Federal Tax Expenditures For Fiscal Years 2023-2027, JCX-59-23; and
+correspondence with the Joint Committee on Taxation.
+Notes: IRC = Internal Revenue Code. A de minimis tax expenditure is less than $250 million in FY2023-FY2027.
+a. This column provides Joint Committee on Taxation tax expenditure estimates for the provision, unless otherwise noted.
+b. The Joint Committee on Taxation did not include a cost estimate for the used clean vehicle credit in its most recent tax expenditures report (covering FY2023FY2027). The committee estimated that the credit would reduce federal revenues by $0.4 billion from FY2022 to FY2026 in its previous report. See Joint
+Committee on Taxation, Estimates Of Federal Tax Expenditures For Fiscal Years 2022-2026, JCX-22-22, December 22, 2022.
+
+CRS-21
+
+Table 4. Renewable and Alternative Fuels Tax Incentives
+Provision
+Clean fuel production
+credit (IRC §45Z)
+
+CRS-22
+
+Description
+Starting in 2025, producers registered with the IRS can claim a
+tax credit for clean fuel produced in the United States or its
+territories. Producers who sell clean fuel to other producers
+for use in a fuel mixture are eligible for the credit.
+The credit differs in value depending on the greenhouse gas
+(GHG) emissions rate for the applicable fuel; the most
+substantial credits are for zero-emission fuels. For producers
+not meeting prevailing wage and apprenticeship requirements,
+the credit has a maximum value of $0.20 per gallon of
+nonaviation fuel and 35¢ per gallon of sustainable aviation fuel.
+The maximum values rise to $1.00 and $1.75 per gallon,
+respectively, for producers meeting prevailing wage and
+qualified apprenticeship requirements. All maximum values are
+adjusted annually for inflation.
+For producers with nonzero emissions, the credit phases down
+to zero as the fuel emissions factor rises to 50 kilograms of
+CO2 per 1 million British Thermal Units (mmBTU). GHGs
+other than CO2 are evaluated on a CO2-equivalent basis
+depending on their relative contribution to global warming.
+Producers cannot use the same production facility to claim
+both the clean fuel production credit and the clean hydrogen
+production credit (IRC §45V), the investment credit (IRC §48)
+for a specified clean hydrogen facility, or the credit for carbon
+oxide sequestration (IRC §45Q).
+For more, see CRS In Focus IF12502, The Section 45Z Clean Fuel
+Production Credit.
+
+Enacting
+Legislation
+Inflation
+Reduction
+Act of 2022
+(P.L. 117-169)
+
+Expiration Date
+Fuel sold by
+12/31/2027.
+
+Cost or Tax Expenditure
+Estimate (billions)a
+FY2023-FY2027: $6.7
+
+Provision
+
+Description
+
+Sustainable aviation fuel
+credit (IRC §40B)
+
+Starting in 2023, certain taxpayers may claim tax credits for the
+sale or use of “sustainable” aviation fuel. To be deemed
+“sustainable,” such aviation fuel must reduce lifecycle GHG
+emissions by at least 50% compared with petroleum-based jet
+fuel. The credit starts at $1.25 per gallon, and there is a
+supplementary credit amount of $0.01 for each percentage
+point by which the GHG emissions reduction exceeds 50%.
+(For example, the supplementary amount would be $0.30 for
+aviation fuel which reduces emissions by 80% compared to
+petroleum-based jet fuel.) The maximum combined value of the
+baseline credit and the supplementary credit is $1.75 per gallon.
+Taxpayers may use this credit to offset their excise tax
+liabilities, offset their income tax liabilities, or receive payments.
+All credit amounts are included in taxpayers’ gross income for
+income tax purposes.
+Additional requirements for being counted as sustainable
+include the following: (1) aviation fuel must meet the
+requirements of ASTM International Standard D7566, or the
+Fischer Tropsch provisions of ASTM International Standard
+D1655, Annex A1; (2) aviation fuel may not be derived from
+coprocessing an applicable material (or materials derived from
+an applicable material) with a feedstock which is not biomass;
+and (3) fuel cannot be derived from palm fatty acid distillates or
+petroleum. Producers or importers applying for the credit must
+be registered with the Secretary of the Treasury under IRC
+§4101.
+Certain qualified fuel mixtures of kerosene and sustainable
+aviation fuel may be eligible for the credit. To be counted as a
+“qualified mixture,” the given mixture must be produced by the
+taxpayer in the United States, be used by the taxpayer (or sold
+by the taxpayer for use) in an aircraft, and be sold or used in
+the ordinary course of a trade or business of the taxpayer. In
+addition, the transfer of the mixture to the given aircraft fuel
+tank must occur in the United States.
+
+CRS-23
+
+Enacting
+Legislation
+Inflation
+Reduction
+Act of 2022
+(P.L. 117-169)
+
+Expiration Date
+Fuel not sold or
+used after
+12/31/2024.
+
+Cost or Tax Expenditure
+Estimate (billions)a
+FY2023-FY2027: de minimisb
+
+Provision
+
+Description
+
+Credit for production of
+clean hydrogen (IRC
+§45V)
+
+Taxpayers producing hydrogen at qualified clean hydrogen
+production facilities may receive a credit based on the amount
+of hydrogen produced, the lifecycle CO2 equivalent (CO2e)
+emissions rate of the hydrogen through the point of production
+(well-to-gate), and the taxpayer’s compliance with applicable
+wage and apprenticeship requirements.
+To be classified as a qualified clean hydrogen production facility,
+a facility must be owned by the taxpayer, must produce
+qualified clean hydrogen, and must have begun its construction
+before January 1, 2033. Qualified clean hydrogen (QCH) cannot
+have a lifecycle GHG emissions rate greater than 4 kilograms of
+CO2e per kilogram of hydrogen through the point of
+production. The production of QCH must occur in the United
+States or its possessions, in the ordinary course of the
+taxpayer’s trade or business, and for sale or use. The
+production and sale or use of QCH must be verified by an
+unrelated party. If a facility placed in service before January 1,
+2023, did not produce qualified clean hydrogen at that time, but
+is modified before January 1, 2033, to produce clean hydrogen,
+and if those modifications are charged to the taxpayer’s capital
+account, then the facility can qualify for the 45V credit.
+The baseline credit is $0.60 per kilogram of QCH, adjusted
+annually for inflation. Taxpayers producing QCH with lifecycle
+GHG emissions below 0.45 kilograms of CO2e through the
+point of production are eligible for the full baseline credit.
+Taxpayers are eligible for 33.4% of the baseline credit if the
+CO2e emissions rate is between 0.45 and 1.5 kilograms; 25% of
+the baseline credit if the rate is between 1.5 and 2.5 kilograms;
+and 20% of the baseline credit if the rate is between 2.5 and 4.0
+kilograms. These credit amounts are multiplied by five for
+producers meeting prevailing wage and qualified apprenticeship
+requirements. Credits are only available during the first 10
+years after the facility is placed in service.
+For projects financed with tax-exempt bonds, the credit is
+reduced by an amount equivalent to the share of financing
+coming from such bonds, with a maximum reduction of 15%.
+(For example, if 10% of project financing comes from tax-
+
+CRS-24
+
+Enacting
+Legislation
+Inflation
+Reduction
+Act of 2022
+(P.L. 117-169)
+
+Expiration Date
+Facility construction
+must begin before
+01/01/2033
+
+Cost or Tax Expenditure
+Estimate (billions)a
+FY2023-FY2027: $4.7
+
+Provision
+
+Description
+
+Enacting
+Legislation
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+exempt bonds, the credit amount is reduced by 10%; if 25% of
+its financing comes from tax-exempt bonds, the credit amount
+is reduced by 15%.)
+Clean hydrogen production facilities used to claim the §45V
+credit cannot also be used to claim the energy investment tax
+credit (in 2023 and 2024) or the credit for carbon oxide
+sequestration (indefinitely).c
+Second-generation biofuel
+producer credit (IRC
+§40(a)(4))
+
+A per-gallon tax credit for qualified second-generation biofuel
+production. The amount of the credit is generally $1.01 per
+gallon. Qualifying fuels include cellulosic biofuel, which is
+produced using lignocellulosic or hemicellulosic matter
+(cellulosic feedstock) available on a renewable or recurring
+basis, as well as second-generation biofuels, which include
+cultivated algae, cyanobacteria, or lemna.
+
+Food,
+Conservation,
+and Energy
+Act of 2008
+(P.L. 110-246)
+
+Fuel produced
+before 01/01/2025.
+
+FY2023-FY2027: de minimis
+
+Credits for biodiesel, agribiodiesel, renewable
+diesel fuel, alternative
+fuels, and alternative fuels
+mixtures (IRC §§40A,
+6426, & 6427)
+
+There are three tax credits for biodiesel: the biodiesel mixture
+credit, the biodiesel credit, and the small agri-biodiesel
+producer credit. Each gallon of biodiesel, including agribiodiesel (biodiesel made from virgin oils), may be eligible for a
+$1.00 tax credit. Additionally, an eligible small agri-biodiesel
+producer credit of 10 cents is available for each gallon of
+qualified agri-biodiesel production. The mixtures tax credit may
+be claimed as an instant excise tax credit against the blender’s
+fuel excise tax payments. Credits in excess of excise tax liability
+may be refunded. The biodiesel and small agri-biodiesel credits
+may be claimed as income tax credits.
+Tax credits are also available for certain alternative fuels and
+alternative fuels mixtures. There is a 50-cents-per-gallon excise
+tax credit for certain alternative fuels used as fuel in a motor
+vehicle, motor boat, or airplane, and a 50-cents-per-gallon
+credit for alternative fuels mixed with a traditional fuel
+(gasoline, diesel, or kerosene) for use as a fuel. Qualifying fuels
+include liquefied petroleum gas; P Series fuels (certain
+renewable, nonpetroleum, liquid fuels); compressed or liquefied
+natural gas (CNG or LNG); any liquefied fuel derived from coal
+or peat through the Fischer-Tropsch process that meets
+
+American
+Jobs Creation
+Act of 2004
+(P.L. 108-357)
+
+Fuel sold, used, or
+removed by
+12/31/2024.
+
+FY2023-FY2027: $6.4d
+
+CRS-25
+
+Safe,
+Accountable,
+Flexible,
+Efficient
+Transportatio
+n Equity Act:
+A Legacy for
+Users
+(SAFETEALU; P.L. 10959)
+
+Provision
+
+Description
+
+Enacting
+Legislation
+
+Expiration Date
+
+Cost or Tax Expenditure
+Estimate (billions)a
+
+certain carbon-capture requirements; compressed or liquefied
+gas derived from biomass; and liquid fuel derived from biomass.
+These credits will be replaced by the clean fuel production
+credit beginning in 2025.
+Sources: CRS analysis of the Internal Revenue Code; Joint Committee on Taxation, Estimates Of Federal Tax Expenditures For Fiscal Years 2023-2027, JCX-59-23,
+December 7, 2023; Joint Committee on Taxation, Estimated Budget Effects Of The Revenue Provisions Of Title I – Committee On Finance, Of An Amendment In The Nature Of A
+Substitute To H.R. 5376, “An Act To Provide For Reconciliation Pursuant To Title II Of S. Con. Res. 14,” As Passed By The Senate On August 7, 2022, And Scheduled For Consideration
+By The House Of Representatives On August 12, 2022, JCX-18-22, August 9, 2022; and Joint Committee on Taxation, Estimated Budget Effects Of The Revenue Provisions
+Contained In The House Amendment To The Senate Amendment To H.R. 1865, the Further Consolidated Appropriations Act, 2020, JCX-54R-19, December 17, 2019.
+Notes: IRC = Internal Revenue Code. A de minimis tax expenditure is less than $250 million in FY2023-FY2027.
+a. This column provides Joint Committee on Taxation tax expenditure estimates for the provision, unless otherwise noted.
+b. The Joint Committee on Taxation did not include cost estimates for the sustainable aviation fuel credit in its most recent tax expenditures reports (covering fiscal
+years 2023-2027 and 2022-2026, respectively). The committee estimated that the credit would reduce federal revenues by $49 million from FY2022 to FY2026 in its
+cost estimate of the Inflation Reduction Act of 2022. See Joint Committee on Taxation, Estimated Budget Effects Of The Revenue Provisions Of Title I – Committee On
+Finance, Of An Amendment In The Nature Of A Substitute To H.R. 5376, “An Act To Provide For Reconciliation Pursuant To Title II Of S. Con. Res. 14,” As Passed By The Senate
+On August 7, 2022, And Scheduled For Consideration By The House Of Representatives On August 12, 2022, JCX-18-22, August 9, 2022.
+c. The energy investment tax credit (ITC) is authorized by IRC Section 48 in 2023 and 2024 and by IRC Section 48E beginning in 2025. Subsection (a)(15) of IRC
+Section 48 prevents taxpayers from receiving both the ITC and the clean hydrogen production credit for the same clean hydrogen production facility, but no similar
+provision is included in IRC Section 48E. However, the Secretary of the Treasury is required to issue guidance on IRC Subsection 48E no later than January 1, 2025,
+and it is possible that the Secretary might address simultaneous receipt in the guidance. Firms might also be prevented from claiming the ITC and clean hydrogen
+production credit for the same expenditures under the “double benefit rule.” For more information on the double benefit rule, see CRS Insight IN11378, IRS
+Guidance Says No Deduction Is Allowed for Business Expenses Paid with Forgiven PPP Loans, by Sean Lowry and Jane G. Gravelle.
+d. The income tax credit portion is de minimis.
+
+CRS-26
+
+Table 5. Fossil Fuels Tax Incentives
+Enacting
+Legislation
+
+Provision
+
+Description
+
+Enhanced oil recovery
+(EOR) credit (IRC §43)
+
+A tax credit for Enhanced Oil Recovery (EOR) costs available
+when oil prices are below a certain threshold. The credit amount
+is 15% of qualified domestic EOR costs. The EOR credit phases
+out over a $6 range once oil’s reference price exceeds $28 per
+barrel (adjusted for inflation after 1991; $52.10 in 2022). The EOR
+credit was fully phased out every year from 2006 through 2015.
+Low oil prices led to the full EOR credit becoming available in
+2016, 2017, and 2021. A partial credit was available for 2018, but
+it was fully phased out in 2019, 2020, and 2022.
+For more, see CRS In Focus IF11528, Oil and Gas Tax Preferences;
+and CRS Insight IN11381, Low Oil Prices May Trigger Certain Tax
+Benefits, but Not Others.
+
+Omnibus
+Budget
+Reconciliation
+Act of 1990
+(P.L. 101-508)
+
+None
+
+FY2023-FY2027: de minimis
+
+Coal production credits:
+Refined coal and Indian
+coal (IRC §45)
+
+A tax credit for Indian coal produced from reserves that were
+owned by an Indian tribe or held in trust by the United States for
+a tribe on June 14, 2005. The amount of the credit is $2.00 per
+ton (adjusted for inflation; $2.60 per ton in 2021). Tax credits
+were also available for refined coal produced at refined coal
+production facilities placed in service after the date of the
+enactment of the American Jobs Creation Act of 2004 and before
+January 1, 2012. The amount of the credit was $4.375 per ton
+(adjusted for inflation to $7.38 in 2021.)
+
+EPACT05
+(P.L. 109-58)
+
+Coal produced by
+12/31/2021
+
+FY2023-FY2027: de minimis
+
+CRS-27
+
+Expiration Date
+
+Costa
+
+Enacting
+Legislation
+
+Provision
+
+Description
+
+Credit for producing oil
+and gas from marginal
+wells (IRC §45I)
+
+A tax credit for producing oil and gas from marginal wells,
+available when oil and gas prices are below certain thresholds. The
+base credit amount, in 2004 prices, is $3 per barrel of qualified
+crude oil and 50 cents per 1,000 cubic feet (mcf) of qualified
+natural gas. These values are adjusted for inflation every year. The
+base credit amounts were $4.50 per barrel of qualified crude oil
+and $0.75 per mcf of natural gas in 2023.
+The credit starts phasing out if the reference prices, in 2023
+dollars, exceed $22.49 per barrel of oil or $2.50 per mcf of
+natural gas for the preceding year adjusted for inflation. The credit
+is fully phased out if the reference price exceeds $18 per barrel or
+$2.00 per mcf in 2004 dollars ($26.99 for oil and $2.99 for gas in
+2023).
+The credit for crude oil has never been triggered. For natural gas,
+a partial credit was available in 2016, 2017, and 2019, and the full
+credit was available in 2020 and 2021; no credit was available in
+2022 or 2023. The §45I and §45K credits cannot be claimed for
+the same well.
+For more, see CRS In Focus IF11528, Oil and Gas Tax Preferences;
+and CRS Insight IN11381, Low Oil Prices May Trigger Certain Tax
+Benefits, but Not Other.
+
+American
+Jobs Creation
+Act of 2004
+(P.L. 108-357)
+
+None
+
+FY2023-FY2027: de minimis
+
+Safe harbor from
+arbitrage rules for
+prepaid natural gas (IRC
+§148(b)(4))
+
+This provision allows tax-exempt bonds to be used to finance
+prepaid natural gas contracts without applying otherwise
+applicable arbitrage rules.
+
+EPACT05
+(P.L. 109-58)
+
+None
+
+Not available.
+
+CRS-28
+
+Expiration Date
+
+Costa
+
+Enacting
+Legislation
+
+Provision
+
+Description
+
+Amortization of
+geological and
+geophysical expenditures
+associated with oil and
+gas exploration (IRC
+§167(h))
+
+Geological and geophysical (G&G) expenditures are costs
+associated with determining the location and potential size of a
+natural resource or mineral deposit. Generally, these costs are
+viewed as capital costs, and as such would be recovered over the
+same time frame as other capital costs. Most producers amortize
+G&G expenditures over two years. Major integrated oil
+companies amortize G&G expenditures over seven years. A major
+integrated oil company, as defined in statute, has (1) average daily
+worldwide production of crude oil of at least 500,000 barrels; (2)
+gross receipts in excess of $1 billion in its tax year ending during
+2005; and (3) at least 15% ownership interest in a crude oil
+refinery.
+For more, see CRS In Focus IF11528, Oil and Gas Tax Preferences.
+
+EPACT05
+(P.L. 109-58)
+
+None
+
+FY2023-FY2027: $0.7
+
+Seven-year MACRS
+Alaska natural gas
+pipeline (IRC
+§168(e)(3)(C)(iii))
+
+A seven-year MACRS recovery period is provided for any natural
+gas pipeline system located in the State of Alaska that has a
+capacity of more than 500 billion BTU of natural gas per day.
+
+American
+Jobs Creation
+Act of 2004
+(P.L. 108-357)
+
+None
+
+FY2023-FY2027: de minimis
+
+Seven-year MACRS for
+natural gas gathering lines
+(IRC §168(e)(3)(C)(iv))
+
+Natural gas gathering lines are treated as 7-year property. A
+natural gas gathering line consists of the pipe, equipment, and
+appurtenances determined to be a gathering line by the Federal
+Energy Regulatory Commission (FERC) or a gathering line used to
+deliver natural gas to a gas processing plant, an interconnection
+with a transmission pipeline, or an interconnection with a local
+distribution company, a gas storage facility, or an industrial
+consumer.
+
+EPACT05
+(P.L. 109-58)
+
+None
+
+Not available.
+
+15-year MACRS
+depreciation recovery
+period for natural gas
+distribution lines (IRC
+§168(e)(3)(E)(vi))
+
+A natural gas distribution line, the original use of which
+commences with the taxpayer after April 11, 2005, and which is
+placed in service before January 1, 2011, is treated as 15-year
+property.
+
+EPACT05
+(P.L. 109-58)
+
+12/31/2010 (line
+must have been
+placed in service by
+this date)
+
+FY2023-FY2027: $0.3
+
+CRS-29
+
+Expiration Date
+
+Costa
+
+Enacting
+Legislation
+
+Provision
+
+Description
+
+Amortization of air
+pollution control facilities
+(IRC §§169 and
+291(a)(4))
+
+Five-year (60-month) amortization applies to a “certified pollution
+control facility” used in connection with a plant or other property
+in operation before January 1, 1976, and to an “atmospheric
+pollution control facility” placed in service after April 11, 2005,
+and used in connection with an electric generation plant or other
+property that is primarily coal fired. Seven-year (84-month)
+amortization applies only to an “atmospheric pollution control
+facility” placed in service after April 11, 2005, and used in
+connection with an electric generation plant or other property
+that is primarily coal fired and that was placed in operation after
+December 31, 1975. If an election is made under §169 with
+respect to any certified pollution control facility, the amortizable
+basis of the facility is reduced by 20%.
+
+EPACT05
+(P.L. 109-58)
+
+None
+
+FY2023-FY2027: $0.3
+
+Expensing of tertiary
+injectants (IRC §193)
+
+Taxpayers can deduct tertiary injectant expenses, other than
+expenses for recoverable hydrocarbon injectants, in the year costs
+are incurred.
+For more, see CRS In Focus IF11528, Oil and Gas Tax Preferences.
+
+Crude Oil
+Windfall
+Profit Tax
+Act of 1980
+(P.L. 96-223)
+
+None
+
+FY2023-FY2027: de minimis
+
+Expensing of intangible
+drilling costs (IDCs) and
+exploration and
+development costs (IRC
+§§263(c), 263A(c)(3),
+291(b), 616, 617)
+
+IDCs include expenses on items without salvage value (e.g., wages,
+fuel, and drilling site preparations). Integrated oil and gas
+producers (producers who also have substantial refining or retail
+activities) must capitalize 30% of IDCs and then recover those
+costs over a five-year period. The remaining 70% of IDCs can be
+fully expensed (costs deducted in the year they are incurred).
+Nonintegrated producers can fully expense IDCs. The election to
+deduct intangible drilling and development costs applies to oil and
+gas wells and to wells drilled for any geothermal deposit. For
+mineral properties, exploration and development expenditures
+are deductible as an expense in the year paid, as opposed to being
+capitalized.
+For more, see CRS In Focus IF11528, Oil and Gas Tax Preferences.
+
+1916
+Treasury
+regulation
+(T.D. 45,
+article 223);
+codified in
+1954 (P.L. 83591)
+
+None
+
+Oil and Gas
+FY2023-FY2027: $3.3
+
+CRS-30
+
+Expiration Date
+
+Costa
+
+Other Fuels
+FY2023-FY2027: de minimis
+
+Enacting
+Legislation
+
+Provision
+
+Description
+
+Passive loss rules for
+working interests in oil
+and gas property (IRC
+§469(c)(3))
+
+Deductions from passive trade or business activities, to the extent
+they exceed income from all such passive activities, generally may
+not be deducted against other income (salary, interest, dividends,
+and active business income). These passive activity loss rules are
+not applicable to working interests in oil or gas property.
+For more, see CRS In Focus IF11528, Oil and Gas Tax Preferences.
+
+Tax Reform
+Act of 1986
+(P.L. 99-514)
+
+None
+
+FY2023-FY2027: $0.1b
+
+Percentage depletion
+(IRC §§611, 613, and
+613A)
+
+Certain independent oil and gas producers (producers who are
+not retailers or refiners) may elect to claim percentage depletion
+as opposed to cost depletion. The percentage depletion allowance
+is 15% of gross income from the property, not to exceed (1)
+100% of taxable income from the property, and (2) 65% of the
+taxpayer’s taxable income. Oil and gas producers may claim
+percentage depletion on up to 1,000 barrels of average daily
+production (or an equivalent amount of domestic natural gas).
+Percentage depletion rates for other minerals range from 5% to
+22%.
+For more, see CRS In Focus IF11528, Oil and Gas Tax Preferences.
+
+Revenue Act
+of 1926 (P.L.
+69-20)
+
+None
+
+Oil and Gas
+FY2023-FY2027: $3.8
+
+Fossil fuel capital gains
+treatment (IRC §631(c))
+
+Certain sales of coal under royalty contracts qualify for taxation as
+capital gains rather than ordinary income. Income from these sales
+is taxed at the preferred 20% rate applied to capital gains, as
+opposed to being taxed as ordinary income.
+
+Revenue Act
+of 1964 (P.L.
+88-272)
+
+None
+
+Not available.
+
+Exclusion of interest on
+state and local
+government qualified
+private activity bonds for
+energy production
+facilities (IRC §142)
+
+Interest income on state and local bonds used to finance the
+construction of certain private energy facilities for a city and one
+contiguous county, or two contiguous counties, is tax-exempt.
+These energy facility bonds are classified as private activity bonds,
+rather than as governmental bonds, because a substantial portion
+of their benefits accrues to individuals or businesses rather than
+to the general public. These bonds are subject to the state private
+activity bond annual volume cap.
+
+Revenue and
+Expenditure
+Control Act
+of 1968 (P.L.
+90-364)
+
+None
+
+FY2023-FY2027: de minimis
+
+CRS-31
+
+Expiration Date
+
+Costa
+
+Other Fuels
+FY2023-FY2027: $0.6
+
+Provision
+
+Description
+
+Exceptions for publicly
+traded partnerships with
+qualified income derived
+from certain energyrelated activities (IRC
+§7704)
+
+Publicly traded partnerships are generally treated as corporations.
+The exception from this rule occurs if at least 90% of its gross
+income is derived from interest, dividends, real property rents, or
+certain other types of qualifying income. Qualifying income
+includes income derived from certain energy-related activities,
+such as fossil fuel or geothermal exploration, development,
+mining, production, refining, transportation, and marketing.
+For more, see CRS In Focus IF11528, Oil and Gas Tax Preferences;
+and CRS Report R41893, Master Limited Partnerships: A Policy
+Option for the Renewable Energy Industry.
+
+Enacting
+Legislation
+Revenue Act
+of 1987 (P.L.
+100-203)
+
+Expiration Date
+None
+
+Costa
+Other Energy Related Activities
+FY2023-2027: $2.8
+Exploration and Mining of Natural
+Resources
+FY2023-FY2027: $0.3
+
+Sources: CRS analysis of the Internal Revenue Code; and Joint Committee on Taxation, Estimates Of Federal Tax Expenditures For Fiscal Years 2023-2027, JCX-59-23,
+December 7, 2023.
+Notes: IRC = Internal Revenue Code. MACRS = modified accelerated cost recovery system. A de minimis tax expenditure is less than $250 million in FY2023-FY2027.
+a. This column provides Joint Committee on Taxation tax expenditure estimates for the provision, unless otherwise noted.
+b. Exceptions to the passive activity loss rules are not classified as tax expenditures by JCT. These estimates are from the Treasury Department. Treasury Department
+tax expenditure estimates are available at https://home.treasury.gov/policy-issues/tax-policy/tax-expenditures. The cost estimate for this provision is $50 million
+($0.05 billion) for FY2023-FY2027 and $100 million ($0.1 billion) for FY2023-FY2032. The estimate presented in this table has been rounded to the nearest tenth of
+$1 billion (the nearest hundred million).
+
+CRS-32
+
+Table 6. Carbon Capture and Sequestration, Nuclear, and Other Tax Incentives
+Enacting
+Legislation
+
+Provision
+
+Description
+
+Credit for production of
+electricity from qualifying
+advanced nuclear power
+facilities (IRC §45J)
+
+A tax credit for electricity produced from qualifying nuclear
+facilities. The advanced nuclear production tax credit (PTC)
+provides a 1.8 cent per kWh tax credit for electricity sold that
+was produced at qualifying facilities. Criteria for qualifying
+facilities include that they must use nuclear reactor designs
+approved by the Nuclear Regulatory Commission after 1993.
+Qualifying facilities can claim tax credits during the first eight
+years of production. The credit is restricted to 6,000
+megawatts (MW) of total electric generating capacity for all
+qualifying facilities, with the 6,000 MW allocated by the Internal
+Revenue Service (IRS). Taxpayers can claim no more than $125
+million in tax credits per 1,000 MW of the allocated capacity in
+any single year.
+
+EPACT05
+(P.L. 109-58)
+
+Facilities placed in
+service by January 1,
+2021. The IRS is to
+allocate unutilized
+national megawatt
+capacity after that
+date.
+
+FY2023-FY2027: de minimis
+
+Advanced manufacturing
+investment credit (IRC
+§48D)
+
+A 25% business tax credit for investments in advanced
+manufacturing facilities. “Advanced manufacturing facilities” are
+domestic facilities producing semiconductors or
+semiconductor equipment. Businesses may elect to receive the
+credit as a payment, in effect making the credit fully refundable.
+
+Chips and
+Science Act
+(P.L. 117-167)
+
+Construction of
+qualifying property
+must begin no later
+than 12/31/2026.
+
+FY2023-FY2027: $30.7
+
+Exclusion of interest on
+state and local
+government private
+activity bonds for qualified
+carbon dioxide capture
+facilities (IRC §142(a)(17))
+
+Tax-exempt private activity bonds can be issued to finance
+direct air capture facilities (as defined in IRC §45Q(e)(3)) and
+eligible component parts used in industrial carbon dioxide
+facilities for carbon capture.
+
+Infrastructure
+Investment
+and Jobs Act
+(P.L. 117-58)
+
+None
+
+Not available
+
+CRS-33
+
+Expiration Date
+
+Costa
+
+Provision
+
+Description
+
+Credit for carbon oxide
+sequestration (IRC §45Q)
+
+A tax credit for the capture and sequestration of carbon
+emissions (including carbon dioxide and carbon monoxide).
+For carbon capture equipment placed in service on or after
+February 9, 2018, and before January 1, 2023, the credit is the
+sum of (1) $40.89 in 2023 per metric ton of carbon oxide
+captured that is not used as a tertiary injectant and placed in
+secure geological storage, during the first 12 years following
+the facility being placed in service; and (2) $27.61 in 2023 per
+metric ton of carbon oxide captured that is used as a tertiary
+injectant or other qualified uses, during the first 12 years
+following the facility being placed in service.
+For carbon capture equipment placed in service on or after
+January 1, 2023, and that began construction prior to January
+1, 2033, the credit is the sum of (1) $17 per metric ton of
+carbon oxide that is not used as a tertiary injectant and placed
+in secure geological storage, during the first 12 years following
+the facility being placed in service ($36 for Direct Air Capture
+[DAC]), increased to $85 ($180 for DAC) for facilities that
+pay prevailing wages during the construction phase; and (2)
+$12 per metric ton of carbon oxide captured that is used as a
+tertiary injectant or other qualified uses ($26 for DAC),
+increased to $60 ($130 for DAC) for facilities that pay
+prevailing wages during the construction phase and during the
+first 12 years of operation and meet registered apprenticeship
+requirements. Amounts adjusted for inflation after 2026.
+For more, see CRS In Focus IF11455, The Section 45Q Tax
+Credit for Carbon Sequestration.
+
+10-year MACRS for smart
+electric distribution
+property (IRC
+§§168(e)(3)(D)(iii) and
+168(e)(3)(D)(iv))
+15-year MACRS for
+certain electric
+transmission property
+
+CRS-34
+
+Enacting
+Legislation
+
+Expiration Date
+
+Costa
+
+Energy
+Improvement
+and Extension
+Act of 2008
+(P.L. 110-343)
+
+Construction must
+begin by December
+31, 2032.
+
+FY2023-FY2027: $4.8
+
+10-year property includes any qualified smart electric meter
+and any qualified smart electric grid system. A smart electric
+meter is a time-based meter and related communication
+equipment. Smart electric grid systems include property that is
+used as part of a system for electric distribution grid
+communications, monitoring, and management.
+
+Energy
+Improvement
+and Extension
+Act of 2008
+(P.L. 110-343)
+
+None
+
+FY2023-FY2027: $0.3
+
+15-year property includes original-use electricity transmission
+property that is used in the transmission of electricity for sale
+at 69 or more kilovolts.
+
+EPACT05
+(P.L. 109-58)
+
+None
+
+FY2023-FY2027: $0.3
+
+Enacting
+Legislation
+
+Provision
+
+Description
+
+Expiration Date
+
+Costa
+
+Zero-emission nuclear
+power production credit
+(IRC §45U)
+
+A tax credit for electricity produced from qualifying zeroemissions nuclear facilities. Qualified nuclear power facilities
+are taxpayer-owned facilities that use nuclear power to
+generate electricity that did not receive an advanced nuclear
+production tax credit allocation under Section 45J, and were
+placed in service before August 16, 2022. The tax credit is
+calculated as 0.3 cents per kWh. Taxpayers that meet
+prevailing wage requirements are eligible for a tax credit of five
+times the base amount per kWh (i.e., up to 1.5 cents per
+kWh). Credits are reduced by a reduction amount, which is
+16% of the excess of gross receipts from electricity produced
+by the facility and sold over the product of 2.5 cents times the
+amount of electricity sold during the taxable year. Thus, the
+credit would phase down as annual average prices exceed 2.5
+cents per kWh. Credit amounts and amounts in the reduction
+amount formula would be adjusted for inflation
+
+Inflation
+Reduction
+Act (P.L. 117169)
+
+December 31, 2032
+
+FY2023-FY2027: $10.1
+
+Accelerated deductions
+for nuclear
+decommissioning costs
+(IRC §468A)
+
+An eligible taxpayer may deduct cash payments made by the
+taxpayer to a nuclear decommissioning reserve fund, and
+deduct the ratable portion of any special transfer to the fund,
+even if under the applicable method of accounting the taxpayer
+would typically claim the deduction in a later tax year.
+
+Deficit
+Reduction
+Act of 1984
+(P.L. 98-369)
+
+None
+
+FY2023-FY2027: de minimis
+
+Special tax rate for
+nuclear decommissioning
+reserve funds (IRC
+§468A(e)(2))
+
+A special 20% tax rate for investments made by nuclear
+decommissioning reserve funds.
+
+Deficit
+Reduction
+Act of 1984
+(P.L. 98-369)
+
+None
+
+FY2023-FY2027: de minimis
+
+Sources: CRS analysis of the Internal Revenue Code; Joint Committee on Taxation, Estimates Of Federal Tax Expenditures For Fiscal Years 2023-2027, JCX-59-23,
+December 7, 2023.
+Notes: IRC = Internal Revenue Code. kWh = kilowatt-hour. MACRS = modified accelerated cost recovery system. A de minimis tax expenditure is less than $250
+million in FY2023-FY2027.
+a. This column provides Joint Committee on Taxation tax expenditure estimates for the provision, unless otherwise noted.
+b. Internal Revenue Service, Inflation Adjustment Factor Issued for Sequestration Credit, IRS Notice 2020-40, June 15, 2020.
+
+CRS-35
+
+Energy Tax Provisions: Overview and Budgetary Cost
+
+Author Information
+Nicholas E. Buffie
+Analyst in Public Finance
+
+Donald J. Marples
+Specialist in Public Finance
+
+Acknowledgments
+A previous version of this report was authored by Molly F. Sherlock.
+
+Disclaimer
+This document was prepared by the Congressional Research Service (CRS). CRS serves as nonpartisan
+shared staff to congressional committees and Members of Congress. It operates solely at the behest of and
+under the direction of Congress. Information in a CRS Report should not be relied upon for purposes other
+than public understanding of information that has been provided by CRS to Members of Congress in
+connection with CRS’s institutional role. CRS Reports, as a work of the United States Government, are not
+subject to copyright protection in the United States. Any CRS Report may be reproduced and distributed in
+its entirety without permission from CRS. However, as a CRS Report may include copyrighted images or
+material from a third party, you may need to obtain the permission of the copyright holder if you wish to
+copy or otherwise use copyrighted material.
+
+Congressional Research Service
+
+R46865 · VERSION 4 · UPDATED
+
+36
+
+
