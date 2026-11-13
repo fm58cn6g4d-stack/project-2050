@@ -16,3 +16,4 @@ Rules that more than one flagship depends on, such as what counts as income and 
 | A new consensus on immigration (flagship 6) | `immigration/` | E | L3 (alternatives at L2) | Review #303, fixes #305, #307; booked #310, also the L3 re-check |
 | Clean, affordable power and a prepared country (flagship 4) | `clean-power/` | E | L1 | Active: sections 1-3 and the decision memos (step E-C1) |
 | Foundations: rural delivery note | `foundations/` | C | n/a | Done (#171), research note with no register; applied project-wide (`DEC-2026-11-09-26`) |
+| Foundations: stage E financing checkpoint memo | `foundations/checkpoint-financing.md` | E | n/a | First draft, with clean power pending; decides nothing (#325) |
