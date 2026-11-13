@@ -18,7 +18,8 @@ ROOT = os.path.normpath(os.path.join(HERE, "..", "..", ".."))
 
 from budget import baseline  # noqa: E402
 from distribution import assign  # noqa: E402
-from families import FAMILIES, budget as family_budget, marginal_rates  # noqa: E402
+from families import (FAMILIES, budget as family_budget, care_charge, care_credit_rate, ceiling_check,  # noqa: E402
+                      marginal_rates, plan_budget)
 from params import law, index_factor  # noqa: E402
 from poverty import rates  # noqa: E402
 import provisions as P  # noqa: E402
@@ -168,6 +169,32 @@ class Families(unittest.TestCase):
     def test_net_is_budget(self):
         b = family_budget(FAMILIES["single_adult"], 20000)
         self.assertAlmostEqual(b["net"], 20000 - b["payroll"] - b["income_tax"] + b["snap"], places=6)
+
+
+class Ceiling(unittest.TestCase):
+    """The 65-cent ceiling check (INC-5.02), every plan layer (`families.py`, `plan_budget`)."""
+
+    def test_layers_add_up(self):
+        f = FAMILIES["single_parent_2"]
+        b = plan_budget(f, 70000, period="2030-34", marketplace=True, smi4=98693)
+        self.assertAlmostEqual(b["net"], 70000 - b["payroll"] - b["income_tax"] + b["snap"] - b["ptc_contribution"]
+                               - b["care"], places=6)
+        self.assertAlmostEqual(b["payroll"], 0.0765 * 70000 + 0.003 * 70000, places=6)
+        self.assertEqual(plan_budget(f, 70000, period="2035", marketplace=True)["ptc_contribution"], 0)
+
+    def test_care_charge_and_credit(self):
+        self.assertEqual(care_charge(0.85 * 0.84 * 100000, 3, 100000), 0)
+        self.assertAlmostEqual(care_charge(1.5 * 100000, 4, 100000), 0.07 * 150000)
+        self.assertEqual(care_credit_rate(80000, "hoh"), 0.32)
+
+    def test_verdicts(self):
+        R = ceiling_check(98693, 160852)
+        sp = R["single_parent_2"]
+        self.assertTrue(sp["2035 on, no shelter deduction | lowest-income state"]["pass"])
+        shelter = sp["2035 on, with a $1,400 rent in SNAP's shelter deduction | lowest-income state"]
+        self.assertFalse(shelter["pass"])
+        self.assertEqual(shelter["at"], 100)
+        self.assertTrue(R["single_adult"]["2035 on, no shelter deduction | lowest-income state"]["pass"])
 
 
 class LegacyReproduction(unittest.TestCase):

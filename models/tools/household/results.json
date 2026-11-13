@@ -366,6 +366,2987 @@
   },
   "poverty_gap_bn": 311.7
  },
+ "ceiling": {
+  "check": {
+   "married_2": {
+    "2030-34 on the marketplace, no shelter deduction | leave at its ceiling": {
+     "at": 100,
+     "max": 65.4,
+     "pass": false
+    },
+    "2030-34 on the marketplace, no shelter deduction | lowest-income state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 65.1,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 17795,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 26692,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 35590,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 24.0,
+       "total": 65.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 44488,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": 24.0,
+       "total": 65.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 53385,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.6,
+       "snap": -0.0,
+       "total": 50.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 62282,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.0,
+       "snap": -0.0,
+       "total": 55.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 71180,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 34.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 80078,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 15.9,
+       "snap": -0.0,
+       "total": 35.9
+      },
+      {
+       "care": 6.7,
+       "earnings": 88975,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.1,
+       "snap": -0.0,
+       "total": 42.8
+      },
+      {
+       "care": 8.0,
+       "earnings": 97872,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.6,
+       "snap": -0.0,
+       "total": 45.6
+      },
+      {
+       "care": 9.3,
+       "earnings": 106770,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 39.2
+      }
+     ]
+    },
+    "2030-34 on the marketplace, no shelter deduction | typical state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 65.1,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 17795,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 26692,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 35590,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 24.0,
+       "total": 65.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 44488,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": 24.0,
+       "total": 65.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 53385,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.6,
+       "snap": -0.0,
+       "total": 50.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 62282,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.0,
+       "snap": -0.0,
+       "total": 55.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 71180,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 34.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 80078,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 15.9,
+       "snap": -0.0,
+       "total": 35.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 88975,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.1,
+       "snap": -0.0,
+       "total": 36.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 97872,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.6,
+       "snap": -0.0,
+       "total": 37.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 106770,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 29.9
+      }
+     ]
+    },
+    "2030-34 on the marketplace, with the rent | leave at its ceiling": {
+     "at": 100,
+     "max": 77.4,
+     "pass": false
+    },
+    "2030-34 on the marketplace, with the rent | lowest-income state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 77.1,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 17795,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 26692,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 44.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 35590,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 36.0,
+       "total": 77.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 44488,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": 36.0,
+       "total": 77.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 53385,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.6,
+       "snap": -0.0,
+       "total": 50.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 62282,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.0,
+       "snap": -0.0,
+       "total": 55.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 71180,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 34.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 80078,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 15.9,
+       "snap": -0.0,
+       "total": 35.9
+      },
+      {
+       "care": 6.7,
+       "earnings": 88975,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.1,
+       "snap": -0.0,
+       "total": 42.8
+      },
+      {
+       "care": 8.0,
+       "earnings": 97872,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.6,
+       "snap": -0.0,
+       "total": 45.6
+      },
+      {
+       "care": 9.3,
+       "earnings": 106770,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 39.2
+      }
+     ]
+    },
+    "2030-34 on the marketplace, with the rent | typical state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 77.1,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 17795,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 26692,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 44.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 35590,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 36.0,
+       "total": 77.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 44488,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": 36.0,
+       "total": 77.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 53385,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.6,
+       "snap": -0.0,
+       "total": 50.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 62282,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.0,
+       "snap": -0.0,
+       "total": 55.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 71180,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 34.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 80078,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 15.9,
+       "snap": -0.0,
+       "total": 35.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 88975,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.1,
+       "snap": -0.0,
+       "total": 36.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 97872,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.6,
+       "snap": -0.0,
+       "total": 37.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 106770,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 29.9
+      }
+     ]
+    },
+    "2035 on, no shelter deduction | leave at its ceiling": {
+     "at": 100,
+     "max": 63.3,
+     "pass": true
+    },
+    "2035 on, no shelter deduction | lowest-income state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 63.0,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 17795,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 26692,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 35590,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 63.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 44488,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 63.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 53385,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 39.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 62282,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 71180,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 80078,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 6.7,
+       "earnings": 88975,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 26.7
+      },
+      {
+       "care": 8.0,
+       "earnings": 97872,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 28.0
+      },
+      {
+       "care": 9.3,
+       "earnings": 106770,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 29.2
+      }
+     ]
+    },
+    "2035 on, no shelter deduction | typical state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 63.0,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 17795,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 26692,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 35590,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 63.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 44488,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 63.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 53385,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 39.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 62282,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 71180,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 80078,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 88975,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 97872,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 106770,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      }
+     ]
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction | leave at its ceiling": {
+     "at": 100,
+     "max": 75.3,
+     "pass": false
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction | lowest-income state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 75.0,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 17795,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 26692,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 44.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 35590,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 75.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 44488,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 75.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 53385,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 39.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 62282,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 71180,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 80078,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 6.7,
+       "earnings": 88975,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 26.7
+      },
+      {
+       "care": 8.0,
+       "earnings": 97872,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 28.0
+      },
+      {
+       "care": 9.3,
+       "earnings": 106770,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 29.2
+      }
+     ]
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction | typical state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 75.0,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 17795,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 26692,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 44.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 35590,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 75.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 44488,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 75.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 53385,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 39.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 62282,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 71180,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 80078,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 88975,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 97872,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 106770,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      }
+     ]
+    }
+   },
+   "single_adult": {
+    "2030-34 on the marketplace, no shelter deduction | leave at its ceiling": {
+     "at": 100,
+     "max": 58.9,
+     "pass": true
+    },
+    "2030-34 on the marketplace, no shelter deduction | lowest-income state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 58.6,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 8660,
+       "income_tax": -15.3,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 16.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 12990,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 17320,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 23.3,
+       "total": 58.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 21650,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": -0.0,
+       "total": 35.4
+      },
+      {
+       "care": 0.0,
+       "earnings": 25980,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.7,
+       "snap": -0.0,
+       "total": 44.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 30310,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 34.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 34640,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.2,
+       "snap": -0.0,
+       "total": 34.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 38970,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 16.0,
+       "snap": -0.0,
+       "total": 36.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 43300,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.2,
+       "snap": -0.0,
+       "total": 36.2
+      },
+      {
+       "care": 0.0,
+       "earnings": 47630,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.7,
+       "snap": -0.0,
+       "total": 37.7
+      },
+      {
+       "care": 0.0,
+       "earnings": 51960,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 29.9
+      }
+     ]
+    },
+    "2030-34 on the marketplace, no shelter deduction | typical state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 58.6,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 8660,
+       "income_tax": -15.3,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 16.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 12990,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 17320,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 23.3,
+       "total": 58.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 21650,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": -0.0,
+       "total": 35.4
+      },
+      {
+       "care": 0.0,
+       "earnings": 25980,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.7,
+       "snap": -0.0,
+       "total": 44.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 30310,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 34.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 34640,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.2,
+       "snap": -0.0,
+       "total": 34.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 38970,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 16.0,
+       "snap": -0.0,
+       "total": 36.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 43300,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.2,
+       "snap": -0.0,
+       "total": 36.2
+      },
+      {
+       "care": 0.0,
+       "earnings": 47630,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.7,
+       "snap": -0.0,
+       "total": 37.7
+      },
+      {
+       "care": 0.0,
+       "earnings": 51960,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 29.9
+      }
+     ]
+    },
+    "2030-34 on the marketplace, with the rent | leave at its ceiling": {
+     "at": 100,
+     "max": 59.6,
+     "pass": true
+    },
+    "2030-34 on the marketplace, with the rent | lowest-income state": {
+     "at": 100,
+     "cliffs": [
+      125
+     ],
+     "max": 59.4,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 8660,
+       "income_tax": -15.3,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": -7.3
+      },
+      {
+       "care": 0.0,
+       "earnings": 12990,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 8.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 17320,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 24.0,
+       "total": 59.4
+      },
+      {
+       "care": 0.0,
+       "earnings": 21650,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": 233.0,
+       "total": 268.4
+      },
+      {
+       "care": 0.0,
+       "earnings": 25980,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.7,
+       "snap": -0.0,
+       "total": 44.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 30310,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 34.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 34640,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.2,
+       "snap": -0.0,
+       "total": 34.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 38970,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 16.0,
+       "snap": -0.0,
+       "total": 36.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 43300,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.2,
+       "snap": -0.0,
+       "total": 36.2
+      },
+      {
+       "care": 0.0,
+       "earnings": 47630,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.7,
+       "snap": -0.0,
+       "total": 37.7
+      },
+      {
+       "care": 0.0,
+       "earnings": 51960,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 29.9
+      }
+     ]
+    },
+    "2030-34 on the marketplace, with the rent | typical state": {
+     "at": 100,
+     "cliffs": [
+      125
+     ],
+     "max": 59.4,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 8660,
+       "income_tax": -15.3,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": -7.3
+      },
+      {
+       "care": 0.0,
+       "earnings": 12990,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 8.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 17320,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 24.0,
+       "total": 59.4
+      },
+      {
+       "care": 0.0,
+       "earnings": 21650,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": 233.0,
+       "total": 268.4
+      },
+      {
+       "care": 0.0,
+       "earnings": 25980,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.7,
+       "snap": -0.0,
+       "total": 44.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 30310,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 34.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 34640,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.2,
+       "snap": -0.0,
+       "total": 34.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 38970,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 16.0,
+       "snap": -0.0,
+       "total": 36.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 43300,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.2,
+       "snap": -0.0,
+       "total": 36.2
+      },
+      {
+       "care": 0.0,
+       "earnings": 47630,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.7,
+       "snap": -0.0,
+       "total": 37.7
+      },
+      {
+       "care": 0.0,
+       "earnings": 51960,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 29.9
+      }
+     ]
+    },
+    "2035 on, no shelter deduction | leave at its ceiling": {
+     "at": 100,
+     "max": 56.8,
+     "pass": true
+    },
+    "2035 on, no shelter deduction | lowest-income state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 56.5,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 8660,
+       "income_tax": -15.3,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 16.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 12990,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 17320,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 23.3,
+       "total": 56.5
+      },
+      {
+       "care": 0.0,
+       "earnings": 21650,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 33.2
+      },
+      {
+       "care": 0.0,
+       "earnings": 25980,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 33.2
+      },
+      {
+       "care": 0.0,
+       "earnings": 30310,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 19.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 34640,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 19.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 38970,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 43300,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 47630,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 51960,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      }
+     ]
+    },
+    "2035 on, no shelter deduction | typical state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 56.5,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 8660,
+       "income_tax": -15.3,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 16.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 12990,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 17320,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 23.3,
+       "total": 56.5
+      },
+      {
+       "care": 0.0,
+       "earnings": 21650,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 33.2
+      },
+      {
+       "care": 0.0,
+       "earnings": 25980,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 33.2
+      },
+      {
+       "care": 0.0,
+       "earnings": 30310,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 19.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 34640,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 19.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 38970,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 43300,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 47630,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 51960,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      }
+     ]
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction | leave at its ceiling": {
+     "at": 100,
+     "max": 57.5,
+     "pass": true
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction | lowest-income state": {
+     "at": 100,
+     "cliffs": [
+      125
+     ],
+     "max": 57.3,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 8660,
+       "income_tax": -15.3,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": -7.3
+      },
+      {
+       "care": 0.0,
+       "earnings": 12990,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 8.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 17320,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 57.3
+      },
+      {
+       "care": 0.0,
+       "earnings": 21650,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": 233.0,
+       "total": 266.3
+      },
+      {
+       "care": 0.0,
+       "earnings": 25980,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 33.2
+      },
+      {
+       "care": 0.0,
+       "earnings": 30310,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 19.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 34640,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 19.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 38970,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 43300,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 47630,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 51960,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      }
+     ]
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction | typical state": {
+     "at": 100,
+     "cliffs": [
+      125
+     ],
+     "max": 57.3,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 8660,
+       "income_tax": -15.3,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": -7.3
+      },
+      {
+       "care": 0.0,
+       "earnings": 12990,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 8.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 17320,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 57.3
+      },
+      {
+       "care": 0.0,
+       "earnings": 21650,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": 233.0,
+       "total": 266.3
+      },
+      {
+       "care": 0.0,
+       "earnings": 25980,
+       "income_tax": 25.3,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 33.2
+      },
+      {
+       "care": 0.0,
+       "earnings": 30310,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 19.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 34640,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 19.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 38970,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 43300,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 47630,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 51960,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      }
+     ]
+    }
+   },
+   "single_parent_2": {
+    "2030-34 on the marketplace, no shelter deduction | leave at its ceiling": {
+     "at": 100,
+     "max": 65.4,
+     "pass": false
+    },
+    "2030-34 on the marketplace, no shelter deduction | lowest-income state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 65.1,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 14750,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 22125,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 29500,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 24.0,
+       "total": 65.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 36875,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": 24.0,
+       "total": 65.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 44250,
+       "income_tax": 32.5,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.6,
+       "snap": -0.0,
+       "total": 52.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 51625,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.0,
+       "snap": -0.0,
+       "total": 55.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 59000,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 55.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 66375,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 15.9,
+       "snap": -0.0,
+       "total": 35.9
+      },
+      {
+       "care": 6.6,
+       "earnings": 73750,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.1,
+       "snap": -0.0,
+       "total": 42.7
+      },
+      {
+       "care": 8.3,
+       "earnings": 81125,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.7,
+       "snap": -0.0,
+       "total": 45.9
+      },
+      {
+       "care": 12.3,
+       "earnings": 88500,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 42.2
+      }
+     ]
+    },
+    "2030-34 on the marketplace, no shelter deduction | typical state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 65.1,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 14750,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 22125,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 29500,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 24.0,
+       "total": 65.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 36875,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": 24.0,
+       "total": 65.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 44250,
+       "income_tax": 32.5,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.6,
+       "snap": -0.0,
+       "total": 52.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 51625,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.0,
+       "snap": -0.0,
+       "total": 55.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 59000,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 55.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 66375,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 15.9,
+       "snap": -0.0,
+       "total": 35.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 73750,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.1,
+       "snap": -0.0,
+       "total": 36.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 81125,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.7,
+       "snap": -0.0,
+       "total": 37.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 88500,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 29.9
+      }
+     ]
+    },
+    "2030-34 on the marketplace, with the rent | leave at its ceiling": {
+     "at": 100,
+     "max": 77.4,
+     "pass": false
+    },
+    "2030-34 on the marketplace, with the rent | lowest-income state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 77.1,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 14750,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 13.0,
+       "total": -19.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 22125,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 29500,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 36.0,
+       "total": 77.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 36875,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": 36.0,
+       "total": 77.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 44250,
+       "income_tax": 32.5,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.6,
+       "snap": -0.0,
+       "total": 52.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 51625,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.0,
+       "snap": -0.0,
+       "total": 55.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 59000,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 55.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 66375,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 15.9,
+       "snap": -0.0,
+       "total": 35.9
+      },
+      {
+       "care": 6.6,
+       "earnings": 73750,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.1,
+       "snap": -0.0,
+       "total": 42.7
+      },
+      {
+       "care": 8.3,
+       "earnings": 81125,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.7,
+       "snap": -0.0,
+       "total": 45.9
+      },
+      {
+       "care": 12.3,
+       "earnings": 88500,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 42.2
+      }
+     ]
+    },
+    "2030-34 on the marketplace, with the rent | typical state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 77.1,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 14750,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 13.0,
+       "total": -19.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 22125,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 29500,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 2.1,
+       "snap": 36.0,
+       "total": 77.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 36875,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 2.1,
+       "snap": 36.0,
+       "total": 77.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 44250,
+       "income_tax": 32.5,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 11.6,
+       "snap": -0.0,
+       "total": 52.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 51625,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 14.0,
+       "snap": -0.0,
+       "total": 55.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 59000,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 14.1,
+       "snap": -0.0,
+       "total": 55.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 66375,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 15.9,
+       "snap": -0.0,
+       "total": 35.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 73750,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 16.1,
+       "snap": -0.0,
+       "total": 36.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 81125,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 17.7,
+       "snap": -0.0,
+       "total": 37.6
+      },
+      {
+       "care": 0.0,
+       "earnings": 88500,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 10.0,
+       "snap": -0.0,
+       "total": 29.9
+      }
+     ]
+    },
+    "2035 on, no shelter deduction | leave at its ceiling": {
+     "at": 100,
+     "max": 63.3,
+     "pass": true
+    },
+    "2035 on, no shelter deduction | lowest-income state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 63.0,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 14750,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 22125,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 29500,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 63.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 36875,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 63.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 44250,
+       "income_tax": 32.5,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 40.5
+      },
+      {
+       "care": 0.0,
+       "earnings": 51625,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 59000,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 66375,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 6.6,
+       "earnings": 73750,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 26.5
+      },
+      {
+       "care": 8.3,
+       "earnings": 81125,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 28.3
+      },
+      {
+       "care": 12.3,
+       "earnings": 88500,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 32.2
+      }
+     ]
+    },
+    "2035 on, no shelter deduction | typical state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 63.0,
+     "over": [],
+     "pass": true,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 14750,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": -8.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 22125,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 29500,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 63.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 36875,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 63.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 44250,
+       "income_tax": 32.5,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 40.5
+      },
+      {
+       "care": 0.0,
+       "earnings": 51625,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 59000,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 66375,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 73750,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 81125,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 88500,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      }
+     ]
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction | leave at its ceiling": {
+     "at": 100,
+     "max": 75.3,
+     "pass": false
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction | lowest-income state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 75.0,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 14750,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 13.0,
+       "total": -19.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 22125,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 29500,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 75.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 36875,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 75.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 44250,
+       "income_tax": 32.5,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 40.5
+      },
+      {
+       "care": 0.0,
+       "earnings": 51625,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 59000,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 66375,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 6.6,
+       "earnings": 73750,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 26.5
+      },
+      {
+       "care": 8.3,
+       "earnings": 81125,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 28.3
+      },
+      {
+       "care": 12.3,
+       "earnings": 88500,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 32.2
+      }
+     ]
+    },
+    "2035 on, with a $1,400 rent in SNAP's shelter deduction | typical state": {
+     "at": 100,
+     "cliffs": [],
+     "max": 75.0,
+     "over": [
+      100,
+      125
+     ],
+     "pass": false,
+     "rows": [
+      {
+       "care": 0.0,
+       "earnings": 14750,
+       "income_tax": -40.0,
+       "payroll": 8.0,
+       "pct_poverty": 50,
+       "ptc": 0.0,
+       "snap": 13.0,
+       "total": -19.1
+      },
+      {
+       "care": 0.0,
+       "earnings": 22125,
+       "income_tax": 0.0,
+       "payroll": 8.0,
+       "pct_poverty": 75,
+       "ptc": 0.0,
+       "snap": 24.0,
+       "total": 31.9
+      },
+      {
+       "care": 0.0,
+       "earnings": 29500,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 100,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 75.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 36875,
+       "income_tax": 31.1,
+       "payroll": 8.0,
+       "pct_poverty": 125,
+       "ptc": 0.0,
+       "snap": 36.0,
+       "total": 75.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 44250,
+       "income_tax": 32.5,
+       "payroll": 8.0,
+       "pct_poverty": 150,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 40.5
+      },
+      {
+       "care": 0.0,
+       "earnings": 51625,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 175,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 59000,
+       "income_tax": 33.1,
+       "payroll": 8.0,
+       "pct_poverty": 200,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 41.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 66375,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 225,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 73750,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 250,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 81125,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 275,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      },
+      {
+       "care": 0.0,
+       "earnings": 88500,
+       "income_tax": 12.0,
+       "payroll": 8.0,
+       "pct_poverty": 300,
+       "ptc": 0.0,
+       "snap": -0.0,
+       "total": 20.0
+      }
+     ]
+    }
+   }
+  },
+  "options": {
+   "family_offset_500_bn": 28.9,
+   "family_offset_750_bn": 42.6,
+   "snap_earnings_deduction_45_bn_upper": 32.1
+  },
+  "state_median_income_4": {
+   "lowest": 98693,
+   "lowest_state_fips": 28,
+   "national": 160852,
+   "states": 51
+  }
+ },
  "families": {
   "married_2": {
    "current": [
