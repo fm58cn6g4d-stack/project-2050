@@ -1,6 +1,6 @@
 # Household model: model card
 
-Role: the model card of `MOD-household`, the core model that measures taxes, benefits, poverty and distribution for real households (`charter/PLAN.md` 3.4). Status: **working** for the 2029 current-law baseline, the provision interface and the typical families; part 1 of step M3. Owner: Claude Code (the M3 worker sessions), reporting to the lead. Generated results are in [`results.md`](results.md) and `results.json`; never quote a figure from this card that `results.md` no longer shows.
+Role: the model card of `MOD-household`, the core model that measures taxes, benefits, poverty and distribution for real households (`charter/PLAN.md` 3.4). Status: **working** for the 2029 current-law baseline, the provision interface (with the secure floor's INC-1 to INC-5) and the typical families; step M3, part 2 under way. Owner: Claude Code (the M3 worker sessions), reporting to the lead. Generated results are in [`results.md`](results.md) and `results.json`; never quote a figure from this card that `results.md` no longer shows.
 
 ## What it answers, and what it cannot
 
@@ -64,11 +64,12 @@ All in `params.py` (parameters) and `tax.py` (calculator); 2025 values are the l
 
 - **Inputs:** the budget model's `ledger.json` (each provision's FY2030-39 amount) and the adopted `incidence-rows.csv`, which books each row as a formula over ledger IDs and splits it across incidence keys (both read only).
 - **Keys** (`keys.csv`): for each key, `micro` measures its shares on the 2029 baseline households (a household field, or a rule computed tax unit by tax unit in `rules.py`), and `legacy` keeps the typed key, with the reason.
-- **Measured in part 1:** 14 keys. Earnings and capped earnings; people and adults; FAM-1's child benefit (the American Family Act's credit less today's child and other-dependent credits, household by household); housing assistance; Medicaid and marketplace coverage; Medicare (three keys); employer coverage; Social Security; energy assistance; and C20's surtax base.
+- **Measured:** 20 keys. In part 1, 14: Earnings and capped earnings; people and adults; FAM-1's child benefit (the American Family Act's credit less today's child and other-dependent credits, household by household); housing assistance; Medicaid and marketplace coverage; Medicare (three keys); employer coverage; Social Security; energy assistance; and C20's surtax base. In part 2, the secure floor's six: INC-1's childless credit (`eitc_childless`, a rule), SNAP's 2025 cuts and SNAP before them (`snap_cut`, `snap`, INC-2), SSI received and SSI's indexed exclusions (`ssi`, `ssi_exclusions`, a rule, INC-3), and the refundable dependent care credit (`cdctc`, a rule, INC-4). INC-5's forgone rent offsets use housing's key. INC-4's rule measures about $0.3 billion a year of refundability against a $4.5 billion booking; `results.md`, section 6, gives the reasons the CPS may run low and the data that would settle it. INC-1.02 is read as moving no money: no family loses the earned income credit from the shared definition (the lead, on #320).
 - **Kept, with the reason in `keys.csv`:** 29 keys, where the CPS cannot see the base: consumption and excises, capital and corporate income, the top-end taxes and the health coverage model's own keys.
 - **The top 1%:** for earnings and the surtax, the top 1%'s share is the legacy key's, because the CPS top-codes high incomes. It finds 9% of earnings and 28% of the surtax base in the top 1%, against the legacy 12% and 55%.
 - **Outputs:** net dollars per household per year, FY2030-39 average, by group, for every scenario, in the legacy model's arithmetic. They are divided by the model's mid-window household count: the CPS count grown to FY2034-35 with CBO's household growth, 147.1 million against the legacy 140 million.
-- **Poverty effects** need a provision as a rule (`rules.py`), not a key; part 1 has two rules. The secure floor's INC-1 to INC-5 join in part 2.
+- **Poverty effects** need a provision as a rule (`rules.py`), not a key. There are five: FAM-1's child benefit, C20's surtax, INC-1's childless credit, INC-3.02's SSI exclusions and INC-4's refundable care credit.
+- **The secure floor's rows** (`incidence-rows.csv`, INC1 to INC5; `results.md`, section 6): INC-2 is split on CBO's sections of P.L. 119-21 (43.7% on the households the model cuts, 56.3% on SNAP households before the law); INC-3 on the booking's parts (75.5% on today's SSI recipients, standing in for new eligibles and for the territories, which the CPS does not cover; 24.5% on the exclusions rule). INC-4's rule nets out the child care guarantee: care of children under 5 counts only up to the guarantee's charge, with the CPS's national median income of four-person units standing in for state median income. Its keys were added to `incidence-keys.csv` as measured, rounded, so the legacy arithmetic runs on the same rows.
 
 ## Typical families
 
@@ -100,14 +101,14 @@ Sources: Census P60-290 is SRC-3600 (report) and SRC-3602 (table 8). TPC T26-004
 ## Reconciliation with the legacy incidence model
 
 Scenario Q (the decided package), net dollars per household per year, FY2030-39 (`results.md`, section 5, reconciliation table):
-- The legacy model gives Q1 to Q4 +$7,883, +$6,045, +$3,143 and **−$629**. The household model gives +$8,618, +$5,119, +$3,137 and **−$420**. The **D3 result does not change**: the fourth quintile still comes out behind on scenario Q, and ahead on the base package alone (+$364 against +$238).
+- The legacy model gives Q1 to Q4 +$8,889, +$6,433, +$3,323 and **−$527**. The household model gives +$9,595, +$5,477, +$3,301 and **−$327**. The **D3 result does not change**: the fourth quintile still comes out behind on scenario Q, and ahead on the base package alone (+$457 against +$340). These figures include the secure floor's INC-1 to INC-5 (part 2); before them, part 1 gave −$629 and −$420.
 - **What moves the fourth quintile:**
-  - the household count, 147.1 million against 140 million (+$30);
-  - the earnings keys (+$144): the CPS puts 54% of earnings in the top quintile, against the typed 46%, so payroll-based costs (the paid-leave contribution, the education fund) fall less on the fourth;
-  - FAM-1's key (+$51);
-  - partly offset by the housing key (−$92): the CPS puts today's housing assistance 93% in the first quintile, against the typed 60%.
-- **The second quintile falls by about $930 in all.** The housing key accounts for about $440 of it, the larger household count for about $290 and the other keys for the rest. Housing's key is a model-design choice, and the lead settled it on #318: the CPS-measured spread (today's assisted households, 93% in the first quintile) is the central case. The legacy key (60%) is a stated sensitivity in `results.md`: with it, Q1 is +$7,834, Q2 +$5,561 and Q4 −$328. If the housing dossier expects new awards to reach higher up than today's assistance, the sensitivity is the reading to use.
-- **The top 1%** pays $639,304 a year against $671,709, from the larger household count.
+  - the household count, 147.1 million against 140 million (+$25);
+  - the earnings keys (+$143): the CPS puts 54% of earnings in the top quintile, against the typed 46%, so payroll-based costs (the paid-leave contribution, the education fund) fall less on the fourth;
+  - FAM-1's key (+$50);
+  - partly offset by the housing key (−$94): the CPS puts today's housing assistance 93% in the first quintile, against the typed 60%.
+- **The second quintile falls by about $960 in all.** The housing key accounts for about $450 of it, the larger household count for about $310 and the other keys for the rest. Housing's key is a model-design choice, and the lead settled it on #318: the CPS-measured spread (today's assisted households, 93% in the first quintile) is the central case. The legacy key (60%) is a stated sensitivity in `results.md`: with it, Q1 is +$8,789, Q2 +$5,932 and Q4 −$233. If the housing dossier expects new awards to reach higher up than today's assistance, the sensitivity is the reading to use.
+- **The top 1%** pays $639,233 a year against $671,627, from the larger household count.
 - **What's still open:** the remaining typed keys (capital, consumption and the top-end taxes) dominate the costs, so the measured keys change the picture at the margin, not at the core. Replacing them needs tax data (TPC or CBO tables by key), part 2.
 
 ## What it does not do (limits)
@@ -137,7 +138,7 @@ From the repository root:
 ```bash
 bash models/tools/run-all.sh                                   # builds the ledger, runs the tests and the model
 python3 models/tools/household/run.py --ledger build/ledger.json --out build/household
-python3 models/tools/household/test_household.py               # 19 tests; the legacy check needs build/
+python3 models/tools/household/test_household.py               # 26 tests; the legacy check needs build/
 python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   # rebuild the extract
 ```
 
@@ -149,7 +150,7 @@ python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   
 - the exact SPM identity and the Census's published rates;
 - household accounting: net income equals its parts, and unit and household totals agree;
 - equal-household groups and keys that sum to 100%;
-- the FAM-1 rule;
+- the FAM-1 rule, and the secure floor's: the 2021 childless credit, the care credit's rates and the guarantee's charge, the refundable part, SSI's exclusions, and SNAP's cuts as the key's base;
 - P.L. 119-21's SNAP changes: the source year untouched, 2029's losses matching CBO's share, a cut of 8-12% of benefits;
 - the typical families, and the ceiling check's layers, charge and verdicts;
 - **exact reproduction of the legacy incidence model** in every scenario.
@@ -161,3 +162,4 @@ python3 models/tools/household/extract.py --archive /path/to/asecpub26csv.zip   
 | `RUN-household-2026-11-13-a` | #318, merged as `13d4664` (M3 part 1) | CPS ASEC 2026 extract (SHA-256 above); CBO February 2026 economic projections; `incidence-rows.csv`, `incidence-keys.csv`, `scenarios.json` as on main | The ledger as built from main on November 13, 2026 |
 | `RUN-household-2026-11-13-b` | The A-8 PR's head (M3 part 2, first piece: SNAP under P.L. 119-21) | As run a, with the SPM extract's four work-rule counts added | As run a; no provision result changes |
 | `RUN-household-2026-11-13-d` | M3 part 2, the 65-cent ceiling check (this PR's head) | As run b | As run a; results section 7 added, no provision result changes |
+| `RUN-household-2026-11-13-c` | M3 part 2, INC-1 to INC-5 (this PR's head) | As run b, with the extract's child care spending (`SPM_CHILDCAREXPNS`), children under 5 and 5-12, and SSI recipients' detail added (no existing field changes) | As run a, with `incidence-rows.csv` INC1 to INC5 and their keys |
