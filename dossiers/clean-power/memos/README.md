@@ -1,6 +1,6 @@
 # Clean power: decision memos
 
-Role: index of the clean power flagship's decision memos, the batch Espen decides in one round (`dossiers/TEMPLATE.md`, "Decision memos in one batch"). Status: draft, **for decision** (step E-C1). Each memo, part and point is decided on its own, and none is adopted by silence. Section 3 (`../3-design.md`) has the forks at a glance, the inherited assumptions, the shared rules, the fourteen yes-or-no points and the fiscal report.
+Role: index of the clean power flagship's decision memos, the batch Espen decides in one round (`dossiers/TEMPLATE.md`, "Decision memos in one batch"). Status: **decided**: memos 1-7 all as recommended (`DEC-2026-11-13-06`, with memo 7's wage insurance set by Espen) and points 1-14 all yes (`DEC-2026-11-13-07`); sections 4-6 specify and price them (step E-C2). Each memo, part and point is decided on its own, and none is adopted by silence. Section 3 (`../3-design.md`) has the forks at a glance, the inherited assumptions, the shared rules, the fourteen yes-or-no points and the fiscal report.
 
 Every memo opens with a **decision line**: the recommended option, its cost over FY2030-39 and in FY2040, and the evidence it rests on. Costs are on the general fund against the January 2029 law and are shown against the legacy rows the budget model already books (about $1.81 trillion over FY2030-39 and $165 billion in FY2040); a minus sign is a saving.
 

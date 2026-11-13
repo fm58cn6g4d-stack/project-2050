@@ -1,6 +1,6 @@
 # Memo 3: The clean power standard and Clean Air Act authority
 
-Role: decision memo for Espen, forks 5 and 6 of the clean power dossier (`../3-design.md`). Status: draft, for decision (E-C1). Each part is decided on its own.
+Role: decision memo for Espen, forks 5 and 6 of the clean power dossier (`../3-design.md`). Status: **Decided** (`DEC-2026-11-13-06`): part 1 B and part 2 A, as recommended; points 1, 8 and 9 yes (`DEC-2026-11-13-07`). Specified in `../4-specification.md`, part C. Each part is decided on its own.
 
 **Decision line.** Recommended: **part 1 B, a clean electricity standard in statute, 80% by 2035 and 100% by 2040, through tradable credits, with a capped alternative compliance payment whose revenue goes to bill protection; part 2 A, Congress writes the greenhouse endangerment finding and express authority into the Clean Air Act and sets vehicle standards' numbers in statute.** Cost: about **$0.02 trillion over FY2030-39 and $2.5 billion in FY2040** for administration (booked as CLI-3), with payments under the cap about $0.05 trillion that fund bill protection (legacy model) [EV-CLP-724] [EV-CLP-723]. Evidence: the legacy carbon model's run of the standard (a project estimate); *West Virginia v. EPA*; EPA's 2026 rescissions; LBNL's queue data.
 
