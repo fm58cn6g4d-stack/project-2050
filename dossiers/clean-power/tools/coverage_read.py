@@ -74,7 +74,8 @@ MF = {"start": P["ch4_start"], "mult": 0, "path": CH4_REAL, "ogShare": P["ch4_og
       "cert": {"s0": P["cert_s0"], "s1": P["cert_s1"], "year": P["cert_year"], "abate": P["cert_abate"]}}
 full = dict(d7_pol, credits=True, ces=ces, standards=True, gridStatute=True, weatherize=True, methaneFee=MF)
 CASES = [
-    dict(id="full", policy=full, price=D7_REAL),
+    dict(id="mov", policy=dict(base_pol, roadExempt=True, roadPath=ROAD_REAL), price=None),
+    dict(id="full", policy=full, price=D7_REAL, households=2035, householdsBase="mov"),
     dict(id="proc", policy=dict(full, cover=dict(d7_pol["cover"], process=True)), price=D7_REAL),
     dict(id="border", policy=dict(full, cover=dict(d7_pol["cover"], border=True)), price=D7_REAL),
 ]
@@ -103,7 +104,31 @@ def run():
                        process=round(nom(rp["rev"]["process"]), 2), border=round(nom(rb["rev"]["border"]), 2),
                        dividend_adult_package=round(P["dividend_share"] * c1 * 1e9 / (adults * 1e6), 0),
                        dividend_adult_B=round(P["dividend_share"] * covered * 1e9 / (adults * 1e6), 0))
+    run.households = R["households"].get("full")
+    run.share_2035 = rows[2035]["share_B"]
     return rows
+
+
+def households_B():
+    """2035, 2025 dollars, by CEX quintile: the model's household module on the full package, and memo 1 B's version of it.
+    Under B no heating fuel is charged; the electricity cost (the retail price change) is kept; the cost passed through
+    everything else is the B receipts per household less electricity, spread as the module spreads it; the dividend scales
+    with the receipts. Project arithmetic on the module's own output."""
+    if not hasattr(run, "households"):
+        run()
+    hh, s = run.households, run.share_2035
+    allg = hh[0]
+    total = allg["heat"] + allg["elec"] + allg["other"]          # the module's net receipts per household (gasoline is zero)
+    other_b = max(0.0, s * total - allg["elec"]) / allg["other"]
+    out = []
+    for g in hh:
+        adults = g["people"] - g["kids"]
+        div_b = g["dividend"] * s
+        out.append(dict(name=g["name"], adults=round(adults, 1), dividend=round(g["dividend"]), heat=round(g["heat"]),
+                        elec=round(g["elec"]), other=round(g["other"]), net=round(g["net"]),
+                        dividend_B=round(div_b), other_B=round(g["other"] * other_b),
+                        net_B=round(div_b - g["elec"] - g["other"] * other_b)))
+    return out
 
 
 def main():
@@ -119,6 +144,10 @@ def main():
               f"{r['dividend_adult_package']:7.0f} {r['dividend_adult_B']:6.0f}")
     print(f"FY2030-39 sums: package {tot('c1_package'):.1f}; power and industry {tot('c1_covered_B'):.1f} "
           f"({tot('c1_covered_B') / tot('c1_package'):.3f}); process {tot('process'):.1f}; border {tot('border'):.1f}")
+    print("\nHouseholds, 2035, 2025 dollars (package, then memo 1 B): dividend, heating, electricity, other, net")
+    for g in households_B():
+        print(f"{g['name']:22s} {g['dividend']:6d} {-g['heat']:6d} {-g['elec']:6d} {-g['other']:7d} {g['net']:+6d}   |  "
+              f"B: {g['dividend_B']:5d}      0 {-g['elec']:6d} {-g['other_B']:7d} {g['net_B']:+6d}")
     if "--json" in sys.argv:
         json.dump({str(k): v for k, v in rows.items()}, open(sys.argv[sys.argv.index("--json") + 1], "w"), indent=1)
     return rows
