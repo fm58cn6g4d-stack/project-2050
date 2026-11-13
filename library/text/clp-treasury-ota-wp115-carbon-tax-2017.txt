@@ -1,0 +1,1361 @@
+Source: https://home.treasury.gov/system/files/131/WP-115.pdf
+Publisher: U.S. Department of the Treasury, Office of Tax Analysis
+Retrieved: 2026-11-13
+Original SHA-256: 732d89aa0bd1c994a9bdf36dfd6bc2948a5f48e936e3ab9d8cde265373fb24cd
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Office of Tax Analysis
+Working Paper 115
+January 2017
+
+Methodology for Analyzing a Carbon Tax
+John Horowitz, Julie-Anne Cronin, Hannah Hawkins,
+Laura Konda, and Alex Yuskavage
+
+The OTA Working Papers Series presents original research by the staff of the Office of Tax
+Analysis. These papers are intended to generate discussion and critical comment while
+informing and improving the quality of the analysis conducted by the Office. The papers are
+works in progress and subject to revision. Views and opinions expressed are those of the authors
+and do not necessarily represent official Treasury positions or policy. Comments are welcome,
+as are suggestions for improvements, and should be directed to the authors. OTA Working
+Papers may be quoted without additional permission.
+
+Methodology for Analyzing a Carbon Tax
+January 2017
+John Horowitz1, Julie-Anne Cronin2, Hannah Hawkins3, Laura Konda4, and Alex Yuskavage5
+
+Keywords: carbon tax, greenhouse gas emissions,
+tax swap, revenue recycling, distributional analysis
+JEL Codes: H23, H24
+
+1
+
+John Horowitz: Office of Tax Analysis, U.S. Department of the Treasury, John.Horowitz@treasury.gov.
+Julie-Anne Cronin: Office of Tax Analysis, U.S. Department of the Treasury, Julie-Anne.Cronin@treasury.gov.
+3
+Hannah Hawkins: Tax Legislative Counsel, U.S. Department of the Treasury, Hannah.Hawkins@treasury.gov.
+4
+Laura Konda: Office of Tax Analysis, U.S. Department of the Treasury, Laura.Konda@treasury.gov.
+5
+Alex Yuskavage: Office of Tax Analysis, U.S. Department of the Treasury, Alexander.Yuskavage@treasury.gov.
+2
+
+The authors thank Nathan Born for his research assistance.
+
+2
+
+I.
+
+Introduction
+
+Treasury’s Office of Tax Analysis (OTA) is responsible for estimating the revenue, economic, and
+distributional effects of current and alternative tax systems, including individual, business, estate, and
+excise tax systems. The purpose of this technical paper is to document the methodology OTA would use
+to estimate the revenue and distributional effects of a carbon tax. Carbon taxes have been sufficiently
+widely discussed that a technical assessment of the issues involved was warranted. In addition to
+describing the office’s methodology, this technical paper lays out several of the tax policy issues that
+would be involved in implementing such a tax.
+The majority of the tax issues involved with a carbon tax are straightforward and would be consistent
+with U.S. policy experience with other excise taxes in terms of how the tax could be implemented and
+administered and how OTA would assess its revenue and distributional effects. Other issues involve
+broader changes to the U.S. tax system and are not part of standard excise tax analysis. In particular,
+because a carbon tax would raise substantial revenue, at least in early years, and because this revenue is
+likely to enter general revenue (unlike other excise taxes whose revenues are typically invested in trust
+funds with specific spending mandates), a carbon tax would allow Congress to reduce other taxes if
+desired in a so-called “tax swap.” Such a reduction in other taxes would raise its own set of tax policy
+issues in terms of timing, distributional effects, and tax administration.
+The analytical and methodological issues can be more readily understood in the context of a specific
+example. To examine the effects of a sample carbon tax, OTA estimated the 10-year revenue effects of
+a carbon tax that started at $49 per metric ton of carbon dioxide equivalent (mt CO2-e) in 2019 and
+increased to $70 in 2028. We estimate that such a tax would generate net revenues of $194 billion in the
+first year of the tax and $2,221 billion over the 10-year window from 2019 through 2028. This revenue
+could finance significant reductions in other taxes. In 2019, this carbon tax revenue would represent
+approximately 50 percent of projected corporate income tax payments or 20 percent of the OASDI
+portion of the payroll tax. If the revenue were rebated to individuals it would amount to $583 per person
+in the U.S. The last section of the paper uses Treasury’s Distribution Model to provide distributional
+analysis of this sample tax and four possible tax swaps. Distributional analysis is particularly valuable
+in this context for guiding the choice of the tax swap to address possible equity considerations.
+Proposals for a carbon tax are often accompanied by recommendations for changes in Federal spending
+(e.g., research into energy efficiency or renewable energy generation; geoengineering) or changes in
+environmental regulations. These items are outside the expertise of OTA and are not discussed here.
+II.
+
+Revenue Estimation and Design Issues
+
+1.
+
+The tax base – What would be taxed?
+
+Any assessment of the revenue and distributional effects of a tax must be predicated on a choice of what
+the base of the tax would be and at which points the tax would be collected. Because the U.S. does not
+currently have a carbon tax or other excise taxes of a similar scope, some basic assumptions regarding
+what the base of the tax could be are necessary. This section provides a discussion of the issues in
+determining the tax base in terms of administrative burden, compliance, and coverage of greenhouse gas
+emissions.
+3
+
+We divide the potential tax base into three categories:6 (i) fossil fuel emissions; (ii) non-fuel emissions,
+including industrial process and product use emissions, emissions of fluorinated gases, and other
+emissions not counted as fossil fuel emissions; and (iii) biomass fuels such as ethanol. Non-carbonbased energy sources such as nuclear, wind, solar, and geothermal do not emit greenhouse gases and
+would not be taxed. Although land-use-based and other non-point emissions, such as from soil
+management, livestock, or deforestation, might eventually be covered in some way by a carbon tax
+system, this paper does not address the issues that such coverage would involve.
+a.
+
+Fossil Fuel emissions
+
+Fossil fuel combustion represents roughly 76 percent of U.S. greenhouse gas emissions.7 Essentially all
+of these could be covered by an excise tax levied on coal, natural gas, and petroleum at distinct points in
+the supply chain. A streamlined set of taxable activities and a straightforward taxable unit would give
+the fossil fuel component of the carbon tax a light administrative burden.
+Fossil fuel emissions could be taxed using either a so-called “upstream” or “midstream” approach. The
+approaches differ on the point in the supply chain at which the fuel’s emissions would be taxed: An
+upstream approach taxes raw fuels while a midstream approach taxes fuels at a designated point further
+down the supply chain but before they reach final consumers. A hybrid of the two approaches is also
+possible.
+Under an upstream system, an excise tax would be levied on (i) crude oil as it reaches the refinery, (ii)
+natural gas as it leaves the processor to enter a pipeline system or, for gas that bypasses the processor or
+pipeline system, arrives at the end user, and (iii) coal as it leaves the mine. To be consistent with a
+carbon tax focused solely on domestic use, fuel imports would be taxed and exports would be eligible
+for a refundable tax credit. Aviation fuels used in foreign trade, a designation that includes international
+flights, would be exempt from the tax. Carbon dioxide captured from a fossil fuel plant or through
+industrial processes and permanently stored would be eligible for a refundable tax credit.8
+Fuels or fuel products that are delivered to uses that do not release emissions, such as waxes, lubricants,
+solvents, or chemical feedstocks, would be exempted from the tax or could claim a credit. An upstream
+system would need to promulgate rules to govern such exemptions and credits. This issue does not arise
+to any great degree under a midstream tax, which aims to tax only those fuel products that are destined
+to be combusted.
+Under a midstream system, an excise tax would be levied on (i′) petroleum-based fuels as they leave the
+refinery or are otherwise sold for use, an arrangement referred to as being imposed at the “terminal
+rack,” (ii′) natural gas as it leaves local distribution centers, and (iii′) fuels used by electric generating
+facilities or other industrial users that have not been previously taxed. A hybrid upstream/midstream
+6
+
+Tax categories do not necessarily conform to categories in the Greenhouse Gas Inventory (EPA, 2016a), the Greenhouse
+Gas Reporting Program (EPA, 2016b), or the Intergovernmental Panel on Climate Change.
+7
+OTA estimate based on Environmental Protection Agency (EPA) and Energy Information Administration data.
+8
+Treatment of imports, exports, aviation fuels, and captured carbon dioxide is the same under both upstream and midstream
+approaches.
+
+4
+
+approach that taxed natural gas and coal upstream and petroleum products midstream is also possible.
+Under either upstream or midstream approach, the tax would be based on the imputed carbon dioxide
+emissions per unit of fuel. Table 1 shows candidate imputed emissions and per-fuel-unit taxes that
+would apply under the upstream and midstream approaches assuming a tax of $49 per metric ton of
+carbon dioxide equivalent (mt CO2-e). A per-unit fuel tax would be cost-effective because each of these
+fuels’ carbon dioxide emissions are essentially invariant to how the fuel is burned:9,10 A high mileage
+car emits essentially the same amount of carbon dioxide per gallon of gasoline as a low mileage car,
+although of course, the high mileage car can go much further on that gallon of gasoline.
+The carbon content of coal is more variable than the carbon content of refined fuels or natural gas.
+Under the imputed-emissions approach shown in Table 1 the tax would depend only on the type of coal
+and would not distinguish within coal of a given type. We therefore would expect consumers of each
+coal type to engage in some degree of “arbitrage.” Coal consumers of each coal type would likely seek
+out coal sources that yielded higher amounts of energy per unit of tax, causing average carbon dioxide
+emissions for different coal types to be greater than the parameters shown in Table 1. We have not
+attempted to predict how large an effect this might be. To minimize distortions, the Secretary of the
+Treasury could be provided the authority to update periodically the carbon-content parameters used to
+construct the coal taxes in a way that reflects changes over time in the carbon content of coal coming to
+market. In the upstream tax case, similar concerns may apply to variability in the carbon content of
+crude oil.
+Under an upstream system, crude oil would be taxed based on its total carbon content regardless of the
+fuels and products it is used to produce. This approach is necessary to ensure the tax falls fully on those
+fuel products that are later used for energy purposes. Fuels and fuel products whose emissions were
+substantially lower than the Table 1 coefficients would be eligible to claim a credit based on their lower
+emissions. This treatment may be somewhat challenging for taxation of non-fuel petroleum products
+that emit greenhouse gases as they breakdown over time. Secretarial discretion would be needed to
+define which products have emissions that are not accurately reflected in Table 1.
+For electric generating facilities and other stationary combustion sources, a midstream approach could
+instead tax actual emissions, as measured by a continuous emissions monitoring system, rather than the
+fuel inputs. A measured emissions tax would not presently be possible for transport fuels or natural gas
+used directly by residences or commercial establishments; for these uses, some form of fuel-based tax
+would still be required.11 Under a measured emissions tax, emissions from renewable fuels at electric
+generating facilities and other point sources would initially be taxed at the same rate as emissions from
+fossil fuels but they could be made eligible to claim full or partial credit based on the renewable fuel
+used, depending on how the system wishes to treat renewable fuels.
+9
+
+Fossil fuel combustion also releases small amounts of methane and N2O and these are not invariant to the circumstances of
+combustion. Table 1 taxes are based solely on each fuel’s CO 2 emissions. Tax legislation would determine whether the
+Table 1 parameters should be modified to incorporate non-CO2 emissions or whether the non-CO2 emissions would be
+covered separately as a form of industrial emission.
+10
+Under an upstream system, imports of refined fuels would be taxed and exports provided a credit at the midstream rates
+shown in Table 1.
+11
+A measured emissions tax would require writing new tax guidance for emissions measurement. Fuel-based taxes would be
+able to take advantage of existing guidance on fuels measurement.
+
+5
+
+Comparison of upstream and midstream approaches. Our assessment is that the upstream, midstream, or
+upstream-midstream hybrid approaches would tax essentially the same quantity of fossil-fuel-based
+emissions, with minor differences. One exception is that a midstream system would not readily cover
+emissions from petroleum fuels burned at the refinery. Under a midstream system, those emissions
+would presumably be covered instead as industrial (non-fuel) emissions, described below.
+Our assessment is further that under any of these approaches the carbon tax could be collected through
+modest modifications to existing Form 720, the tax form on which existing federal excise taxes are
+reported. Furthermore, under any of the approaches, the carbon tax could, if desired, readily be imposed
+on top of existing fuel and energy taxes and those Federal tax revenues could continue to flow to the
+Highway Trust Fund, Oil Spill Liability Trust Fund, Leaking Underground Storage Tank Trust Fund,
+Black Lung Disability Trust Fund, and related entities.
+Differences between the upstream and midstream approaches arise instead primarily from (i) the time
+needed to write necessary tax guidance (a function, in part of the number of taxable activities and the
+availability of existing tax guidance), (ii) the number and sophistication of the taxpayers and the variety
+of taxable activities involved, which together affect longer-term compliance and administration
+concerns, and (iii) the number of products or fuel uses that should be exempted from the tax or,
+conversely, the number of fuel uses that might be missed by the chosen tax point.12 A midstream
+approach would entail fewer exemptions for non-emitting uses compared to the upstream approach but
+would involve a larger number of tax filers. In general, tax administration has historically been able to
+deal effectively with exemptions to taxable activities; this experience is particularly relevant to the
+upstream tax approach.
+
+12
+
+In essence, tax analysis must consider errors of both Type I (fuel uses that would be taxed even though they do not release
+greenhouse gases) and Type II (fuel uses that would not be taxed even though they release greenhouse gases).
+
+6
+
+Table 1. CO2 content and tax rates for fossil fuels @ $49/metric ton of carbon dioxide
+equivalent (mt CO2-e)
+Fuel
+
+CO2 content1
+
+Tax @ $49/mt CO2-e
+
+Natural gas and coal
+(Upstream or midstream approach)2
+Natural gas
+53.12 kg/mcf
+$2.60/mcf
+Anthracite
+2,578.68 kg/short ton
+$126.36/short ton
+Bituminous
+2,236.80 kg/short ton
+$109.60/short ton
+Sub-bituminous
+1,685.51 kg/short ton
+$82.59/short ton
+Lignite
+1,266.25 kg/short ton
+$62.05/short ton
+Petroleum
+Midstream approach
+(representative fuels):
+Gasoline
+8.89 kg/gallon
+$0.44/gallon
+Diesel, home heating oil
+10.16 kg/gallon
+$0.50/gallon
+Jet fuel
+9.57 kg/gallon
+$0.47/gallon
+Upstream approach:
+Crude oil
+432 kg/bbl3
+$21.17/barrel
+1
+Source: http://www.eia.gov/environment/emissions/co2_vol_mass.cfm. CO2 content parameters
+represent OTA’s assessment of tax-relevant emissions and should not be considered definitive for
+any carbon tax that may be enacted.
+2
+For natural gas and coal, upstream and midstream approaches differ in the point in the supply
+chain at which the fuel is taxed but not the form of the fuel or the per-unit fuel tax at the point of
+taxation.
+3
+Source: https://www.epa.gov/energy/ghg-equivalencies-calculator-calculations-and-references
+
+Tax guidance. A variety of existing tax rules and (non-tax) regulations provide language and protocols
+that could be used to issue the tax guidance necessary for a carbon tax, including definitions of taxable
+activities.
+For an upstream point of taxation for crude oil, the current tax levied for the Oil Spill Liability Trust
+Fund (OSLTF), described in Internal Revenue Code (IRC) Section 4611, would provide essentially all
+required guidance, although additional guidance would be required for an export tax credit, which is not
+currently provided; our assessment is that this credit would be relatively straightforward. Crude oil
+derived from tar sands is currently exempt from the OSLTF tax but is assumed to be subject to an
+upstream carbon tax.
+For a midstream approach for petroleum-based emissions, which would tax refined fuels, the IRC
+defines the fuels currently subject to tax as well as establishes the tax rates, relevant taxable events, and
+exemptions, and imposes registration requirements for blenders, producers, enterers, terminal operators
+and others. Applicable regulations and other IRS administrative guidance provide further detail and
+information on taxable fuels.13 The Leaking Underground Storage Tank (LUST) tax covers all carbonemitting motor fuels and further includes home heating oil and other refined products not subject to the
+more prominent taxes that finance the Highway Trust Fund or Airport and Airways Trust Funds, which
+include exemptions for off-road and non-transport fuel uses, among others. In addition, LUST exempts
+13
+
+IRS Publication 510 (https://www.irs.gov/pub/irs-pdf/p510.pdf ) provides a thorough and comprehensive compilation of
+the rules, definitions and administrative requirements relating to the fuel excise taxes.
+
+7
+
+fuel destined for export or for use by the purchaser as supplies for vessels employed in foreign trade or
+trade between the United States and any of its possessions. This tax therefore covers essentially all
+petroleum products that lead to Table 1 emissions, and does not cover any products that do not lead to
+Table 1 emissions. Our assessment is that this existing tax language and guidelines could largely be
+adopted for a carbon tax. A tax that used the LUST tax framework would constitute a midstream point
+of taxation.
+For an upstream point of taxation for coal, the tax could rely almost entirely on guidance issued for the
+existing coal excise tax, which is imposed on the first sale of coal mined in the United States. The
+existing tax does not apply to sales of lignite or imported coal; a cost-effective tax would cover both of
+these components and expanded tax rules would need to be written to cover these products. The existing
+coal excise tax also exempts exports but these are presumed to also be exempted under a carbon tax.
+For a midstream approach, the tax on coal (and natural gas) would be levied at the electric utility or
+other point-source emitter rather than at the first point of sale. No current Federal excise taxes are
+applied at these points. Large emitters could be readily identified using protocols developed by EPA
+under its Greenhouse Gas Reporting Program. Although regulatory actions, including registration of
+emitters, undertaken for this program are not valid for IRS purposes, they provide language and
+procedures that could presumably be adopted by the IRS. A cost-effective tax would need to expand
+beyond this set of large emitters and be applied to all emitters, regardless of size.
+No Federal taxes are currently levied on natural gas. New tax rules would be needed to define fuel
+measurement protocols and to identify and register the relevant points of taxation in the upstream case.
+Midstream taxation is discussed in the previous paragraph.
+A cost-effective tax system would also provide a credit for carbon dioxide capture and permanent
+sequestration. The current Section 45Q credit for carbon sequestration provides rules needed to
+administer such a credit, although the current credit is not refundable. Tax treatment would be
+essentially the same under upstream or midstream approaches.
+b.
+
+Non-fuel emissions
+
+A number of greenhouse gas emissions would not be covered by a fuel-based emissions tax. They
+include: (i) emissions that arise during the production of industrial products such as cement, lime, glass,
+ammonia, petrochemicals, and others, (ii) emissions from the mining of coal and the extraction and
+refining or processing of oil and natural gas; these are mostly non-combustion emissions but some
+combustion emissions might be included here if they occur above the point at which the fossil fuel tax is
+imposed and (iii) direct emissions of fluorinated gases.
+Except for fluorinated gases, these non-fuel emissions are generally not directly linked to a readily
+observed output or input (as is true for fossil fuel combustion) and therefore tax rules would have to be
+specific to each process. Because tax rules would be specific to each process, greater rule-making effort
+would be required, and there is the possibility that some cost-effective emissions reductions would not
+immediately be counted as such and might therefore not be undertaken. We expect that in most cases,
+tax rules could borrow from language and experience developed under the EPA’s Greenhouse Gas
+Reporting Program. Additional tax efforts would be required to identify and register those entities that
+8
+
+would be responsible for the tax. Such actions would benefit from previous Greenhouse Gas Reporting
+Program efforts but additional effort would be required.
+Fluorinated gases could be taxed at the manufacturer or importer. The U.S. has experience taxing the
+import and manufacture of a number of ozone depleting chemicals. Although the set of fluorinated
+gases that are greenhouse gases is different from the set of ozone depleting chemicals, much of the tax
+guidance and tax administration experience for ozone depleting chemicals could be used for fluorinated
+gases that are greenhouse gases.
+Advantages and disadvantages of taxing non-fuel emissions. Because non-fuel emissions require greater
+tax administration efforts and because some carbon tax proposals focus exclusively on fossil-fuel
+emissions, it is worth laying out the advantages and disadvantages of applying the tax to non-fuel
+emissions.
+The primary advantage of extending the tax to non-fuel emissions is the potential to lower the overall
+costs of controlling emissions; the more sources that reduce emissions cost-effectively, the lower is the
+cost of any given amount of overall emissions reduction. The cost savings potential from taxing nonfuel emissions is greater the higher is the potential for sources of non-fuel emissions to develop low-cost
+strategies to reduce emissions.
+The disadvantage of extending the tax to non-fuel emissions is that these emissions are not as easy to
+tax. This leads to two drawbacks: (1) Because non-fuel emissions are not directly measured and cannot
+generally be directly linked to a specific input or output, the basis for taxation must be described in
+fairly deep detail. The process would require imputing the emissions that are released by each relevant
+production process. The promulgation of these imputation rules is a potentially lengthy process,
+although some of the necessary work has again been done for the purposes of greenhouse gas reporting.
+(2)This imputation process runs the risk that some emissions-reducing strategies might be missed. For
+example, emitters may be able to find strategies to lower their emissions that would not be recognized
+under the potential regulations. A third, presumably minor, disadvantage is that because not all non-fuel
+emissions can be readily taxed and because tax rules may take a long time to develop, there is the
+possibility of leakage from taxed non-fuel emissions activities into other, not-yet taxed non-fuel
+emissions activities.
+The decision to extend the tax to cover non-fuel emissions could be made on an activity-by-activity
+basis. OTA did not attempt to assess the tax administration requirements nor the benefits and costs for
+covering any specific process. A few non-fuel emissions, such as fluorinated gases, could likely be
+readily taxed without incurring the disadvantages described above.
+c.
+
+Biomass fuels
+
+Biomass fuels such as ethanol, wood, animal waste, and corn stover, among others, are used for
+transportation, power generation, and heating. OTA did not assess the rationale for taxing these fuels, if
+at all, nor, if they were taxed, what CO2 content parameters would apply.
+Because of the wide range of fuel sources, only a midstream-type of approach could be used. Biomass
+fuels used for transportation could be taxed effectively as they leave the processor or at the terminal
+9
+
+rack, as is done for other transportation fuels. Biomass fuels used for power generation and heating may
+be subject to minimal processing and there may be no clear point in the supply chain until those fuels
+reach the electric generator or other stationary emitter.
+Given these assessments, and for purposes of simplicity, the subsequent discussion of revenue
+estimation uses a tax base that includes fuel-and non-fuel emissions but excludes biomass fuels.
+However, the assessments could be modified to take account of alternative choices.
+2.
+
+Revenue Estimation
+
+To examine the revenue potential of a sample carbon tax designed as described above, OTA estimated
+the 10-year revenue effects of a carbon tax that started at $49 per metric ton CO2-e on January 1, 2019
+and rose at roughly a 2 percent real rate through 2040, applied to all energy-related carbon dioxide
+emissions and selected other major sources of greenhouse gas emissions.14 We used 2019 as the first
+year of the tax because our assessment is that it would take two years to prepare to tax the three fossil
+fuels. Analysis assumes that in addition to full coverage of fossil fuel emissions, 33 percent of
+eventually-covered non-energy emissions would be covered by tax rules beginning in 2019, 67 percent
+in 2020, and 100 percent in 2021. Renewable fuels are assumed to not be taxed in this scenario.
+The carbon tax scenario and projected net revenues and emissions are shown in Table 2.15 OTA
+analysis, based on projections from the Energy Information Administration (EIA), estimates that such a
+tax would raise $2,221 billion in net revenue over the 10-year window from 2019 through 2028.16 A tax
+applied only to energy-related carbon dioxide emissions would raise $1,846 billion in net revenue over
+the 2019-2028 window. In both cases, projected revenue is approximately linear in the starting tax rate.
+
+14
+
+The tax (initial tax rate and real rate of growth) is presumed to be set by Congress.
+Emissions projections are shown to facilitate comparison with other projections of carbon tax revenue.
+16
+OTA analysis does not traditionally provide an assessment of non-fiscal benefits.
+15
+
+10
+
+Table 2. Tax, Net Revenue, and Emissions under a Carbon Tax (main scenario)
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2028
+
+Taxa ($/mt CO2-e,
+nominal)
+
+$49
+
+$52
+
+$54
+
+$56
+
+$58
+
+$60
+
+$62
+
+$65
+
+$67
+
+$70
+
+Revenue and
+Emissions
+Net revenueb,c
+($bn, nominal)
+Net revenue as pct.
+of GDP b,c
+
+$194
+
+$210
+
+$218
+
+$214
+
+$214
+
+$219
+
+$225
+
+$235
+
+$240
+
+$250
+
+0.90
+
+0.93
+
+0.92
+
+0.87
+
+0.83
+
+0.82
+
+0.80
+
+0.80
+
+0.79
+
+0.79
+
+Emissions
+6,261
+5,951
+5,551
+5,271
+5,091
+5,032
+5,005
+4,970
+4,941
+4,930
+(covered sources,c
+mmt CO2-e)
+Emissions (covered
+0.95
+0.91
+0.86
+0.82
+0.79
+0.79
+0.79
+0.79
+0.79
+0.79
+sources) as pct. of
+baselinec
+a
+Tax levied on carbon dioxide from energy uses of fossil fuels and on selected other non-fuel emissions. Analysis
+assumes that 33 percent of eventually-covered non-fuel emissions will be covered by tax rules beginning in 2019, 67
+percent in 2020, and 100 percent in 2021. Renewable fuels are assumed not taxed in this analysis.
+b
+For purposes of making revenue estimates, a degree of non-compliance with the carbon tax is assumed to occur.
+c
+OTA calculations based on EIA and EPA data. Covered source emissions are the sum of carbon dioxide from
+energy uses of fossil fuels and selected other taxable emissions. Baseline emissions are emissions under current law
+from sources that would be covered by the sample carbon tax.
+
+OTA estimates that gross revenue under the tax scenario in Table 2 would be $2,962 billion over the
+ten-year window from 2019 to 2028. The difference between gross revenue raised by the tax and the net
+revenue available for spending or reductions in other taxes (shown in Table 2) arises because the
+imposition of the carbon tax reduces taxpayer income subject to other Federal taxes and thus reduces
+income tax revenues at least to some extent. The wedge between gross and net tax revenue due to this
+effect is referred to as the offset.
+The magnitude of the offset depends on the full range of price changes precipitated by the carbon tax,
+since these affect incomes differentially, and the resulting reductions in income tax revenues depend in
+turn on the taxes and tax rates applied to these affected incomes. Induced price changes also affect
+baseline government spending; the reduction in (relative) prices that leads to reduced incomes also
+reduces what the government must spend on goods and services (e.g., Sheiner 1994), an effect that
+somewhat compensates for the loss in income tax revenues. As with the income effect, the effect on
+government spending depends on the full set of price changes induced by the carbon tax. The
+government budget effect is made more complex by the fact that many categories of spending are
+denominated in nominal terms or otherwise affected by price changes differently from consumer and
+business spending. Overall, the induced income tax effect, adjusted for government spending effects, is
+assumed to reduce the amount of gross carbon tax revenues available for new spending or reductions in
+other taxes by 25 percent.17
+17
+
+The 25 percent offset for excise taxes represents long-standing practice for the Joint Committee on Taxation, the
+Congressional Budget Office, and OTA. Because carbon tax revenues are projected to be considerably larger than other
+excise taxes, more detailed analysis of the offset in the carbon tax context may be warranted.
+
+11
+
+Carbon tax revenues in Table 2 decline as a proportion of GDP over the budget window. Thus, a
+revenue neutral reduction in corporate, payroll, or other tax rates (the “tax swap”) would have positive
+net revenue in the early years and negative net revenue in later years if the revised rates remained
+constant over the budget window. Tax rates that varied over time and were aimed at keeping the budget
+in balance each year would fall initially but need to rise beginning in 2021. This is roughly the
+experience that British Columbia had with its business tax rate, which, after the introduction of a
+revenue-neutral carbon tax, fell year by year from 12 percent in 2008 to 10 percent in 2011 and then rose
+to 11 percent in 2013 (British Columbia Ministry of Finance, 2014). Adjusting corporate, payroll, or
+other tax rates annually to match carbon tax revenues would be difficult to do in the U.S. and would
+potentially be disruptive of other tax-based decisions. A rebate could more readily be varied from year
+to year such that the net revenue effect of the combined carbon tax/rebate would be zero in every year.
+Like other tax revenue, carbon tax revenue would be subject to uncertainty. More rapid advances in
+energy efficiency or renewable energy generation than initially projected would lead to unexpected
+reductions in carbon tax revenue. To provide preliminary analysis of the range of possible tax revenue
+scenarios, OTA estimated carbon tax revenues under an assumption of more rapid technological
+progress in which covered emissions fell to 20 percent of their baseline levels within 15 years (by 2033),
+with reductions accelerating over time. Results under this scenario are shown in Table 3.
+Large-scale revenue uncertainty is primarily a long-run phenomenon. Nevertheless, at some point it
+may be necessary to revise the tax swap if future projections of carbon tax net revenues fall below initial
+projections. This revision would be on top of any revision due to projected decreases in tax revenue as a
+percent of GDP, such as in Table 2.
+OTA traditionally produces revenue estimates of policy based on economic assumptions produced by
+the Office of Management and Budget. Revenue estimates in Tables 2 and 3 instead reflect EIA
+projections of macroeconomic variables.
+
+12
+
+Table 3. Tax, Net Revenue, and Emissions under a Carbon Tax (rapid technological progress scenario)
+2019
+
+2020
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+2026
+
+2027
+
+2028
+
+Taxa ($/mt CO2-e,
+nominal)
+
+$49
+
+$52
+
+$54
+
+$56
+
+$58
+
+$60
+
+$62
+
+$65
+
+$67
+
+$70
+
+Revenue and
+Emissions
+Net revenueb,c
+($bn, nominal)
+Net revenue as pct.
+of GDP b,c
+
+$189
+
+$185
+
+$175
+
+$166
+
+$160
+
+$158
+
+$155
+
+$154
+
+$149
+
+$145
+
+0.90
+
+0.86
+
+0.77
+
+0.71
+
+0.65
+
+0.62
+
+0.58
+
+0.55
+
+0.51
+
+0.48
+
+Emissions
+6,109
+5,640
+5,083
+4,665
+4,344
+4,124
+3,925
+3,710
+3,488
+3,263
+(covered sources,c
+mmt CO2-e)
+Emissions (covered
+0.93
+0.86
+0.78
+0.73
+0.68
+0.65
+0.62
+0.59
+0.56
+0.53
+sources) as pct. of
+baselinec
+a
+Tax levied on carbon dioxide from energy uses of fossil fuels and on selected other non-fuel emissions. Analysis
+assumes that 33 percent of eventually-covered non-energy emissions will be covered by tax rules beginning in 2019, 67
+percent in 2020, and 100 percent in 2021. Renewable fuels are not taxed in this analysis.
+b
+For purposes of making revenue estimates, a degree of non-compliance with the carbon tax is assumed to occur.
+c
+OTA calculations based on EIA and EPA data. Covered source emissions are the sum of carbon dioxide from energy
+uses of fossil fuels and selected other taxable sources of emissions. Baseline emissions are emissions under current law
+from sources that would be covered by the carbon tax.
+
+3.
+
+Other carbon tax design decisions
+
+The analysis described above excluded effects from alternative design choices that are sometimes
+discussed in the context of a carbon tax. This section describes several of these design options and
+briefly describes how they could affect the analysis above. In each case, these options are meant to
+provide policymakers a fuller understanding of possible carbon tax design choices.
+a.
+
+Safety Valves and Emissions Targets
+
+The carbon tax is an alternative form of market-based environmental policy to a carbon cap-and-trade.
+Cap-and-trade systems in the U.S. and elsewhere have frequently included some form of safety valve
+(Jacoby and Ellerman, 2014), a policy provision for responding to real-world outcomes after the cap is
+in place.18 This section discusses a safety valve in the context of a carbon tax.
+Under a cap-and-trade policy for greenhouse gas emissions, the overall volume of emissions that the
+covered entities will emit is essentially certain – it is equal to the cap – but the resulting price of
+allowances is uncertain. Therefore a safety valve is tied to the allowance price. If, after the cap was in
+place, allowance prices turned out to be too high, relative to a chosen ceiling, the government would
+18
+
+Legislation could also provide discretion to the Secretary to make future tax changes in response to economic or
+environmental consequences. A safety valve typically refers instead to a pre-specified legislative provision for changing the
+tax path that does not rely on or grant discretion to the Administration.
+
+13
+
+issue new allowances or make future allowances available sooner, thus nudging the allowance price
+lower. If allowance prices turned out to be too low, relative to a chosen price floor, the government
+would tighten the cap, either by buying up and retiring allowances or issuing fewer future allowances,
+thus raising the allowance price and achieving greater emissions reduction. When allowance prices fell
+in the middle range between the price ceiling and floor, the policy would operate as a pure cap-and-trade
+system. Thus the safety valve provides a check on actual allowance prices after the policy is put in
+place. The safety valve policy entails specifying the relevant price floor and ceiling and the mechanism
+by which the cap would change.
+Similar principles could guide the design of a carbon tax safety valve. Under a carbon tax, the cost of
+controlling emissions would be certain – it would be equal to the tax rate – but the overall volume of
+greenhouse gas emissions that would result is uncertain. The safety valve would therefore be tied to our
+overall emissions. Once the tax is in place, if emissions ended up “too high” (above a chosen upperlevel trigger), future taxes would be increased relative to the initial path. If emissions ended up falling
+more than expected – if they met a specific lower-level target – the tax would pause in its yearly rise or
+be dropped altogether. Thus the safety valve provides some control over the actual emissions reductions
+achieved after the tax policy is put in place. A safety valve policy would entail specifying the emissions
+reduction targets and the way in which the carbon tax would respond if these targets were met.
+Qualitatively, depending on how a safety value was designed and how emissions evolved over time, this
+could increase or reduce the revenues associated with a carbon tax. OTA did not analyze the tax
+implications of a carbon tax safety valve.
+b.
+
+Treatment of tax preferences
+
+Clean energy tax preferences. The U.S. tax code currently provides tax provisions that encourage
+renewable energy production and improve energy efficiency. A carbon tax would provide incentives for
+these activities more cost-effectively, and its incentives make other tax incentives unnecessary to
+achieve emissions reductions goals. That is, to the extent that such tax provisions result in investments
+in energy efficiency or in renewable generation that would be undertaken anyway in response to the
+carbon tax then they entail a cost to the Treasury in terms of lower revenues without conferring any
+additional social benefits. To the extent that these provisions result in investments that would not
+otherwise be undertaken then their per-unit costs are necessarily higher than the costs of emissions
+reductions being undertaken elsewhere in the economy.19 Both arguments suggest that a cost-effective
+tax system would not include tax preferences for clean energy.20
+Fossil fuel tax preferences. The tax code includes a number of tax preferences for fossil fuel
+exploration, extraction, processing, and distribution. These provisions increase fossil fuel use and
+19
+
+The tax provision most directly affected by these concerns is the Energy Investment Tax Credit. Several other tax
+provisions that have in the past provided production or investment incentives that would be more cost-effectively provided by
+a carbon tax either have expired or will have expired prior to the date of any carbon tax. These include the nonbusiness
+energy credit, the residential energy efficient property credit, the renewable electricity production tax credit, the advanced
+nuclear power credit, the energy efficient commercial buildings deduction, the alternative vehicle refueling property credit
+and the alternative motor vehicle credit.
+20
+Some tax preferences may be separately warranted because they address network or learning-by-doing externalities more
+effectively than the carbon tax (alone) would.
+
+14
+
+greenhouse gas emissions. Thus, a cost-effective tax system would not include tax preferences for fossil
+fuels.
+OTA did not assess the extent to which the carbon tax would affect the revenue cost of clean energy or
+fossil fuel tax preferences.
+c.
+
+More rapid tax phase-in
+
+A cost-effective carbon tax would fall equally on all three fossil fuels. However, the tax could
+potentially be phased-in more rapidly for some emissions sources. More rapid phase-in would be
+possible for those fuels for which a large part of the necessary tax infrastructure exists under current law.
+Such tax infrastructure exists for an upstream coal tax, upstream petroleum tax, or midstream transport
+fuels tax. That is, the tax on oil/transportation fuels could potentially be introduced before the tax on
+natural gas and coal. Likewise, the tax on coal could be introduced before the tax on natural gas.
+The economic benefit of a more rapid phase-in comes from more rapid reduction in greenhouse gas
+emissions from the taxed fuels. The economic costs of differential phase-in arise from inefficiencies in
+how emissions are reduced, since carbon emissions would not face a uniform tax during the phase-in
+period. Analytically, such design choices could be readily incorporated within the methodological
+framework described here.
+d.
+
+Border Tax Adjustments
+
+A carbon tax could include a border tax adjustment. A standard border tax adjustment would apply the
+carbon tax to imports based on the greenhouse gas emissions estimated to be released during their
+production.21 This standard adjustment is essentially an estimate of how much higher the imported
+good’s price would be if an identical carbon tax had been applied in the country from which the good
+was being imported.22 The standard adjustment would also provide a credit for exports, with the
+analogous aim of assessing how much lower the exported good’s price would be if the U.S. carbon tax
+had not been applied. A border adjustment for the carbon tax could be applied broadly to all goods or
+applied only to a narrower set of goods whose production is particularly energy intensive. This
+narrower set of goods is typically deemed to include iron and steel, chemicals, paper, aluminum, cement,
+and bulk glass (Aldy and Pizer, 2011; Metcalf and Weisbach, 2009).
+A border tax adjustment would effectively broaden the base of the carbon tax to include carbonintensive products consumed in the U.S. but produced elsewhere while excluding the tax on exported
+products (as would be done for imported and exported fossil fuels).23 Border tax adjustments would
+reduce the incentive for producers to shift the location of production of energy-intensive products abroad
+to avoid the tax or, analogously, for consumers to increase purchases of energy-intensive imports.
+21
+
+The economics of a border tax adjustment are complex and beyond the scope of this analysis. This section discusses
+border tax adjustment issues that we believe would be broadly relevant.
+22
+A discussion of how carbon content could be imputed is provided by Perese (2010).
+23
+It is not unambiguous that a border tax adjustment improves competitiveness or U.S. economic performance conditional on
+a greenhouse gas emissions goal. For example, possible adjustments in the exchange rate as a result of changes in patterns of
+trade mean that gains in more energy-intensive sectors must be weighed against losses in less energy-intensive sectors.
+
+15
+
+Border tax adjustments, however, also have substantial disadvantages in terms of complexity and
+administration.
+OTA has not assessed the administrative burden or revenue effects of potential border adjustments for a
+carbon tax.24 Such effects would depend on how broadly or narrowly was the set of goods to which the
+border adjustment was applied, the imputed carbon intensities by industry, product, or country of import
+origin and the methods by which imputations would be constructed, and the extent to which the border
+adjustment differentiated across the countries from which imports derive, including provisions to reduce
+the import tax for explicit or implicit carbon prices imposed in those countries.25
+In lieu of a border adjustment, policymakers may choose to provide assistance to U.S. producers in
+energy-intensive trade-exposed industries, either through the tax code or through domestic spending.
+OTA did not attempt to analyze the administrative burden or revenue effects of any such policy.
+Border tax adjustment for electricity. Although the volume of trade in electricity is currently small, the
+ease of cross-border electricity sales and electricity’s high energy content suggests that a border tax
+adjustment for traded electricity could be desirable even if border tax adjustments for other sectors were
+not enacted.26
+In the case of electricity, the standard border tax adjustment (consisting of an import tax and export
+credit based on the carbon intensities of the electricity sector in the country from which the electricity is
+imported and the U.S., respectively) would run the risk of electricity being exported and then reimported as a means of garnering tax credits that are not associated with a reduction in greenhouse gas
+emissions; this pattern could occur since both Canada and Mexico have lower carbon intensities for
+electricity than the U.S.27 To preclude such cycling, the export credit would need to be offered at a rate
+equal to or lower rate than the import tax, adjusted for transmission costs. This arrangement would
+remove the possibility of electricity being exported solely for the purpose of re-importation.
+III.
+
+Distributional analysis
+
+OTA provides distributional analysis of major tax proposals. In this section, we describe the Treasury
+Distribution Model (TDM) and use it to estimate the vertical equity impacts of a U.S. carbon tax and
+alternative illustrative “tax swap” provisions. We then estimate the effect of the proposed changes in tax
+24
+
+Border tax adjustments would also have effects on greenhouse gas emissions and domestic profits, wages, and
+employment. Estimates of these effects are typically outside the realm of OTA.
+25
+To be consistent with general tax principles, the tax on imports should be the difference between the U.S. carbon tax and
+the carbon tax, if any, in the country from which the imports are derived, assuming this tax is not credited on export. This is
+not necessarily a straightforward calculation since many countries will not have the broad-based, uniform carbon tax or
+equivalent emissions trading scheme discussed here.
+26
+In 2014, the U.S. imported 67 million MWh and exported 13 million MWh, primarily to and from Canada, on a base of 4.1
+billion MWH (EIA, 2016: http://www.eia.gov/totalenergy/data/monthly/pdf/sec7_3.pdf.)
+27
+The imputed carbon intensity of imported electricity, calculated for the border tax adjustment, could, in principle, include
+that country’s imports; if Canada imported U.S. electricity, even if on a “transitory” basis, this action should increase the
+carbon intensity attributed to Canadian electricity and this adjustment would provide some brake on export-import cycling.
+Such an adjustment would be complex however and would likely not fully eliminate cycling. Reducing the export credit
+would provide a more robust solution.
+
+16
+
+law on the distribution of after-tax income across families.28 Tax law changes here include both the
+carbon tax and accompanying illustrative tax reductions such as a per person rebate or reduction in
+payroll or corporate income taxes. Estimates below show the effect of a $49 carbon tax on projected
+2017 incomes.
+1.
+
+The Treasury Distribution Model
+
+The TDM uses families as the unit of analysis since families generally operate as an economic unit,
+making common decisions and sharing resources. The TDM estimates each family’s total annual
+consumption using income from individual income tax and information returns and savings rates
+imputed from the Survey of Consumer Finances.29 This methodology allows Treasury to preserve the
+accuracy of income information reported on tax returns when estimating consumption. Survey data may
+underreport income and using such data, without correction, can lead to implausibly high consumption
+to income ratios, such as those found in the U.S. Consumer Expenditure Survey (CEX). 30
+After total consumption is estimated using tax data, each tax family is matched to a similar family in the
+CEX. That family’s expenditure shares for 33 consumption categories are then applied to Treasury’s
+estimate of total consumption. We are careful to match families with similar characteristics, including
+family size. Larger families have the ability to share resources (benefit from returns to scale) so their
+consumption shares may be quite different from smaller families. Certain commodities like home
+heating are easier to share than others like clothing so a family with two members might have twice the
+expenditures on clothing compared to a single person but they may not have twice the expenditures on
+home heating. To impute the consumption shares from the CEX, we do an unconstrained statistical
+match with 3 years of CEX data. The statistical match is based on dividing the CEX and tax data into
+900 similar cells. Each cell has a unique combination of marital status (2 possibilities), age of the oldest
+filer (5 age ranges), family size (5 sizes) and consumption rank (18 ranks).31
+a.
+
+Methodology for Distributing a Carbon Tax
+
+In general, a carbon tax would create a wedge between the prices received by producers and the prices
+paid by consumers. The tax might be passed forward, only increasing the prices paid by consumers, or
+it might be passed backward, only decreasing the prices received by producers. Or, it might be passed
+partly forward and partly backward, both increasing the prices paid by consumers and reducing the
+prices received by producers. How much of the tax is passed forward versus backward depends
+primarily on demand and supply price elasticities (how responsive producers and consumers are to
+changes in price).
+28
+
+A summary of Treasury’s methodology for distributional analysis, as well as distributions of income, current law and
+Administration policy, is available on the Department of Treasury’s website: https://www.treasury.gov/resource-center/taxpolicy/Pages/Tax-Analysis-and-Research.aspx .
+29
+Savings are additional savings from cash income. Cash income already excludes some types of savings such as
+contributions to certain tax preferred retirement accounts (deductible 401(K) and individual retirement accounts). The
+savings rates for certain groups are negative, indicating that the families in this group are dissaving on average.
+30
+Toder et. al. (2011) reconciles the CEX to national accounts and finds the “Personal Savings figure from the CEX is simply
+not credible, especially for the lower income units” (p. 61).
+31
+A more complete description of the TDM, including detail on its income and consumption imputations can be found in
+Cronin (2017, forthcoming).
+
+17
+
+If the tax is passed forward, the prices paid by consumers are the original prices plus the tax. This
+would result in a general price rise which is inconsistent with revenue estimating assumptions. In
+contrast, if the tax is passed backward, the prices paid by consumers are unchanged and the producer
+receives the original price less the tax. To pay the tax, producers lower wages and capital returns. Thus,
+under either method the purchasing power of consumers falls (either because of higher prices or lower
+wages and capital income). The TDM assumes that the tax is passed back, decreasing the prices
+received by producers but leaving the prices paid by consumers unchanged. This assumption makes the
+distributional model consistent with Treasury’s revenue estimation procedures, which assume that the
+general price level is unchanged.
+Given this approach, there are three components to Treasury’s carbon tax distribution estimates. First
+the tax is passed back to factor incomes. Second, because factor incomes fall, we assume that the taxes
+associated with those factor incomes (individual income, payroll and corporate income taxes) also fall.
+Lastly although the general price level does not change, relative prices do change. Carbon intensive
+goods become more expensive relative to goods that are not carbon intensive. Each component is
+discussed below.
+Component 1: Factor income effects
+Under the assumption that the carbon tax lowers the price producers receive, factors of production
+receive lower returns. Although the tax initially hits producers of carbon intensive goods, under the
+assumption of mobile labor and capital, the returns to all labor and supernormal capital would fall. As a
+result, labor and supernormal capital returns bear the burden of the carbon tax.32 In the TDM, a family’s
+share of the factor income tax is proportional to their share of total labor and supernormal capital
+income. Labor income, which primarily includes wages, earnings from self-employment and certain
+work-related fringe benefits, is estimated to be about $10.6 trillion at 2017 levels. Supernormal capital
+income, which includes a share of dividends, realized gains, and capital income from noncorporate
+businesses, is estimated to be about $1.1 trillion at 2017 levels. Families ranked in the top ten percent of
+the income distribution receive about 39 percent of all labor income and 83 percent of all supernormal
+capital income.33 The factor income effect of the carbon tax is progressive.
+Component 2: Tax offset
+Because the carbon tax reduces factor incomes, it reduces the taxes that are paid by factor incomes,
+namely individual income, corporate income and payroll taxes. The reduction in income and payroll
+taxes offsets part of the revenue raised by the carbon tax. OTA uses a standard total offset of 25 percent
+of the excise tax revenue. In the TDM, roughly half of the offset is applied to lower individual income
+32
+
+As discussed in Cronin et al. (2013) the normal return to capital is exempt from consumption taxes. Under a consumption
+tax, such as a value added tax (a VAT), new investments are expensed (allowed a full deduction). On a present value basis,
+this is equivalent to exempting the normal return from tax. Only returns in excess of the normal return, referred to here as the
+supernormal return, are taxed. In this context, the supernormal return includes all returns in excess of the normal return.
+Supernormal returns could be the result of successful risk taking or rents. For consistency, Treasury applies the same
+methodology to all forms of a consumption tax (including excises and a carbon tax).
+33
+A complete distribution of family income by source both across and within decile is available on Treasury’s website.
+https://www.treasury.gov/resource-center/tax-policy/tax-analysis/Documents/Distribution-of-Income-by-Source-2017.pdf
+
+18
+
+tax liabilities, 15 percent is for lower corporate income tax liabilities and the remaining 34 percent is for
+lower payroll tax liabilities. A family’s share of each tax offset is in proportion to their positive tax
+burdens under each tax. Families ranked in the top ten percent of the income distribution bear 74
+percent of the burden of the positive individual income tax, 73 percent of the corporate income tax
+burden and 33 percent of the payroll tax burden. On net the tax offset component is regressive.
+Component 3: Relative price effects
+Under the third component, consumption goods with relatively high carbon intensities are assumed to
+become more expensive relative to consumption goods with relatively low-carbon intensities. This
+occurs even though the general price level is unchanged. To achieve this relative price effect, we first
+estimate the increase in prices that would occur if the tax were passed forward into increases in
+consumer prices. We estimate how the initial increase in the price of carbon (due to the carbon tax)
+would flow through to the 33 consumption goods directly used by families (which, along with goods
+used directly by government and for export, are termed “final goods”). As discussed in Box 1, goods
+with high carbon content experience relatively large price increases and goods with lower carbon
+content experience small price increases. Next, to keep the price level unchanged, we impose a general
+price decrease (roughly a 2.6 percent decline) for all 33 consumption goods. We are left with higher
+prices for carbon intensive goods and lower prices for goods that are not carbon intensive.
+Results are shown in Table 4. The table shows the price increases that would occur if the carbon tax
+were passed forward (column 2) without allowing consumers to switch to less expensive goods.
+Allowing consumers to choose less expensive alternatives would result in smaller price changes but such
+changes are a burden to the consumer so the distribution tables measure burden on the original market
+basket. The general price decrease which is the same for all goods (column 3) and the net price change
+(column 4) is the sum of the two price changes. By design, the net price change is zero for all goods,
+but as can be seen in the table, prices of carbon-intensive goods rise relative to other goods. Net prices
+fall between 0.6 percent and 2.6 percent for the majority of consumer purchase categories. The
+exceptions are energy goods, which necessarily rely heavily on the taxed commodities; price increases
+for electricity, natural gas, home heating oil, and gasoline are projected to rise by between 9.2 (gasoline)
+percent and 24.4 percent (natural gas). A few expenditure categories (water, mass transit, and air
+transportation) exhibit small net price increases from 1.0 to 4.9 percent.
+
+19
+
+Table 4. Relative Price Increases (percent)
+Consumer expenditure
+Price Increase from
+category
+Carbon Taxa
+Natural gas
+27.0
+Electricity
+16.9
+Home heating oil
+12.4
+Gasoline
+11.8
+Air transportation
+7.5
+Mass transit
+6.4
+Water
+3.6
+Other
+< 2.0
+All categories
+2.6
+a
+
+General Price
+Decrease
+-2.6
+-2.6
+-2.6
+-2.6
+-2.6
+-2.6
+-2.6
+-2.6
+-2.6
+
+Net Change in
+Price
+24.4
+14.3
+9.8
+9.2
+4.9
+3.8
+1.0
+-0.6 to -2.6
+0.0
+
+Source: OTA calculations based on BEA and EIA data.
+
+The relative price has little effect on vertical equity except at the very top of the distribution where the
+relative price effect reduces burdens slightly.
+
+20
+
+Box 1: Increase in prices for carbon-intensive goods
+Although the fuel-based carbon tax would fall directly only on oil, natural gas, and coal (or in
+the case of a midstream approach, on their immediate products), its effects would reach
+throughout the economy. Firms that have to pay higher prices for energy inputs can be
+expected to raise prices to account for increased production costs. To the extent that these
+goods are in turn used in the production of still other goods, we should expect the carbon tax
+to potentially affect the price of any good in the economy. The approach used here assumes
+that business-to-business transactions would not be affected by these price effects because
+businesses would pass on any such price changes. Families consuming final goods are not
+able to offset the price effects in this manner, however, and therefore the new prices will
+affect family utility.
+We use Input-Output (I-O) tables produced by the Bureau of Economic Analysis to convert
+raw energy price increases to price increases for 389 industries/commodities. The analysis
+uses the 2007 Benchmark tables, which are the most recent tables for which detailed
+information is available. We calculate implied energy price changes by applying the $49
+carbon tax to projected 2019 commodity prices for oil, natural gas, and coal. We assume that
+there is 100 percent pass-through of the tax and then apply the calculated percentage price
+increases to the I-O table commodities of “Oil and Gas Extraction” (which we subdivide into
+separate components for oil and gas extraction) and “Coal Mining.” Our results contain only
+the effects of the fuel-based component of the carbon tax; we do not attempt to estimate the
+economic effects of the non-fuel carbon tax.
+Finally, the purchaser price of these goods is calculated by adding in transportation and trade
+margins. Using a crosswalk supplied by the Bureau of Labor Statistics, we use these
+purchaser prices to determine the change in price of 33 consumer price categories used in the
+CEX.
+There are many ways in which the economy has changed since 2007, the most recent year for
+which the I-O tables are available. Both the energy intensity of the economy (measured in
+terms of BTU’s per dollar of real GDP) and the carbon intensity (measured in terms of tons of
+greenhouse gas emissions per dollar of real GDP) have fallen substantially. To address the
+change in energy intensity we reduced the size of the coal, oil, and gas extraction industries by
+17 percent relative to all other sectors. Value-added and import amounts were adjusted as
+necessary to retain the essential characteristics of the I-O table. To address changes in the
+carbon content of electricity and other energy market changes, we used EIA projections to
+assess the effect of the carbon tax on energy consumed directly by households (first four
+entries in Table 4.)
+
+21
+
+b.
+
+Pass-back versus Pass-forward
+
+As discussed above, Treasury assumes all consumption taxes, including carbon taxes, are passed back to
+sources of income, namely labor and supernormal capital income; thus the pass-back approach is also
+referred to as the sources method. An alternative methodology would be to assume that carbon taxes are
+passed forward to the uses of income, through price increases on goods produced with carbon; this is
+also referred to as the uses method.34 On a present value basis, the two methods result in the same tax
+lifetime burden for a family if the family consumes all of its income (leaves no bequests). Thus, when
+families are ranked by permanent income, the two methods typically give very similar results.
+The timing of tax burdens under the two methodologies, however, is not the same. Relative to the
+sources method, the uses method will show a higher burden in years where a family consumes more than
+their income (borrows or dis-saves) and a lower burden in the years that a family consumes less than
+their income (saves). To the extent that low-income families are more likely to borrow against future
+income, the uses method will appear more regressive than the sources method when families are ranked
+by annual income. Likewise to the extent that elderly families are consuming out of past income
+(dissaving), the uses method will show a higher burden on the elderly than the sources method when
+families are ranked by annual income.
+Bequests also affect the equivalence of the sources (income) and uses (consumption) method. If a
+family consumes more over its lifetime than it earns because it receives a bequest then the uses method
+will assign a higher lifetime burden to the family than the sources method. In contrast, if a family
+consumes less over its lifetime than it earns because it leaves a bequest then the uses method will assign
+the family a lower lifetime burden than the sources method. To the extent that high income families are
+more likely to leave bequests, the uses method will appear more regressive than the sources method
+because it will assign a lower burden to high income families who leave bequests.
+Under either the sources or uses method, transfer income is left unchanged (“held harmless.”) Under the
+sources method, transfer income does not bear the burden of the carbon tax, only factor incomes do, so
+the tax does not burden families that have only transfer income except to the extent that they consume a
+larger share of carbon intensive goods than the average family. As discussed above the carbon tax under
+the sources method has three components: factor income tax burden, factor income tax burden offset and
+the relative price change burden. The average family will not have a burden from the relative price
+change because it nets to zero. Families with only transfer income will not bear the factor income tax or
+accompanying tax offsets so they can only be affected by the burden of the relative price change.
+Families that consume more than the average level of the taxed good will pay more for their pre-tax
+level of consumption and families that consume a below average level of carbon will pay less for their
+pre-tax level of consumption.
+Similarly, under the uses method, transfer income is indexed to the general price level so again only
+families who consume more than their income or who consume a relatively high share of carbon
+intensive goods (so the price change in their market basket is greater than the general price change) have
+a burden from the carbon tax. For example, if a family had only social security income and the price
+34
+
+The Urban-Brookings Tax Policy Center (TPC) follows the sources method and the Congressional Budget Office (CBO)
+follows the uses method.
+
+22
+
+level rose by 3 percent, under the uses (pass-forward) method, their income would also go up by 3
+percent because social security income is indexed to the general price level. If they consumed all of
+their income and consumed an average market basket then the price of their market basket would also
+rise by 3 percent. They would be held harmless. If instead, they had a carbon-intensive market basket,
+then cost of their market basket would rise by more than 3 percent and they would be worse off. On the
+other hand, families with only transfer income who consume a less carbon intensive market basket may
+actually win from a carbon tax as the prices of the goods that they consume fall relative to the average
+family (sources method) or as their indexed income increases by more than the prices of the goods that
+they consume (uses method).
+2.
+
+Distributional analysis: Results
+
+A carbon tax would potentially allow a reduction in other tax rates, the so-called tax swap or “revenue
+recycling”. Distributional analysis is particularly valuable for showing how possible tax swaps could be
+designed to address distributional considerations (e.g., Marron and Morris, 2016). To provide
+information relevant to this assessment, we first show the distributional effects of the carbon tax without
+revenue recycling. We then show the further distributional effects of revenue recycling using four tax
+swap scenarios.
+a.
+
+Baseline: Distribution of the carbon tax before revenue recycling
+
+Table 5 shows the distribution of a $49 per metric ton carbon tax without revenue recycling and
+assuming the tax is passed back to factor income (sources method). Table 5 is a standard Treasury
+distribution table. The first two columns show the distribution of families and the distribution of cash
+income by decile. The third and fourth columns show the share of the total tax burden borne by each
+decile under current law and under the proposed law. In this case proposed law is current law plus the
+carbon tax. The fifth and six columns show the average federal tax rate by income decile under current
+and proposed law. Columns 7 thru 10 show the change in tax burden by decile in various forms: as a
+total dollar amount, as an average dollar amount, as a share of the total change in tax burden, and as a
+percent of the total federal tax burden under current law. Each statistic may be of interest to various
+users of the table.
+The last column shows the change in after-tax income by decile. This is the preferred statistic to judge
+the regressivity (or progressivity) of a proposal. The percent change in after-tax income shows how the
+tax change affects each income deciles’ consumption possibilities. If a proposal results in the same
+percentage change in after-tax income for all deciles then the proposal is considered distributionally
+neutral with regard to vertical equity.35 In contrast, if a proposal results in smaller decreases in after-tax
+income for low-income families than for high income families then it is progressive and if a proposal
+results in larger decreases in after-tax income for low-income families than for high income families
+then it is regressive.
+
+35
+
+Treasury’s standard distributional analysis only addresses questions of vertical equity. In general, vertical equity requires
+that families with a greater ability to pay (as measured by income) pay a higher fraction of their income in taxes. Treasury’s
+standard tables do not address questions of horizontal equity, which is the notion that families with an equal ability to pay
+should have equal tax burdens.
+
+23
+
+As can be seen in Table 5, the carbon tax is progressive for much of the income distribution. The lowest
+income decile is estimated to have a 0.8 percent decrease in after-tax income because of the carbon tax
+and the magnitude of this percentage change in after-tax income rises with income through the 9th decile.
+In the 9th decile, after-tax income is estimated to fall by 1.8 percent because of the carbon tax.
+The progressive trend reverses itself, however, at the top of the income distribution. The top 5 percent is
+estimated to have a smaller decrease in after-tax income than all but the bottom 3 deciles. Looking at
+the detail within the top ten percent, the decline in the carbon tax burden continues as income rises. The
+top 0.1 percent of the income distribution is estimated to have a smaller decline in after-tax income than
+the poorest income decile.
+
+Compared to TPC (Marron and Toder 2013) and CBO (Dinan 2012), Treasury’s distribution of a carbon
+tax is less regressive. Although Treasury and TPC both pass the carbon tax back to sources of income,
+Treasury passes the tax back only to labor and supernormal capital income whereas TPC also passes the
+tax back to transfer income. TPC includes transfer income in their standard analysis because Social
+Security benefits are indexed to the wage at retirement so new retirees will receive lower benefits. This
+is a very long run view. In contrast the Treasury tables represent the distributional results in the shorter
+run. CBO follows the uses method to distribute a carbon tax which, as discussed above, will result in a
+less progressive distribution to the extent that low-income households consume more than they earn and
+to the extent that higher income households are more likely to leave bequests.
+Even if Treasury were to follow the uses method to distribute the carbon tax, Treasury would likely not
+find the same degree of regressivity as shown in the CBO analysis because Treasury’s consumption to
+income ratios at the bottom of the income distribution are not as extreme as those found in the CEX
+
+24
+
+(which is used by CBO).36 The CEX is the only data set with detailed consumption information and it is
+the common source of data for carbon tax distributions. However, as mentioned above, the CEX has
+weaknesses as a source of information on total income, especially for families at the lower end of the
+income distribution. To better measure total consumption, the TDM uses tax data to measure income
+and taxes and the Survey of Consumer Finances to measure savings. The TDM uses the CEX only to
+partition the TDM’s estimate of total consumption into commodity shares.
+Treasury’s imputation from the CEX also accounts for family size. The CEX, in its published tables by
+income decile, does not adjust for family size.37 Its lowest income quintile has an average family size of
+1.7 and its highest income decile has an average family size of 3.2. Family size affects returns to scale
+in consumption and it affects a family’s relative well-being so it needs to be considered both when
+ranking families and when imputing consumption to families.38 Without taking family size into account,
+it is not possible to tell if the larger share of total consumption spent by low-income families on certain
+carbon intensive goods is because the families are low income or because they have few members and
+are therefore unable to benefit from returns to scale. In the TDM, we rank families with the same
+income but more members lower and impute consumption based on both family size and consumption
+rank so we can better measure consumption shares for low and high income families.
+b.
+
+Results: Distribution under four tax swaps
+
+Table 6 shows the distributional effects of recycling all of the net revenue from the $49 per metric ton
+carbon tax. We considered four illustrative options for revenue recycling: (1) providing a fully
+refundable per person tax credit, (2) lowering the OASDI payroll tax rate, (3) lowering the corporate tax
+rate and (4) a combination of a per person credit, payroll tax cut and corporate tax cut. Each recycling
+option is static (assumes no change in family income) and revenue neutral (when combined with the
+carbon tax) in the first year of the tax. Lowering the payroll tax rate or corporate tax rate may result in
+shifting income between taxable and nontaxable compensation or shifting income between the corporate
+and non-corporate sector; these effects are not considered in these tables. The tax swap policies are
+chosen solely for illustrative purposes.
+The first three columns of the table are for reference and show the distribution of families, income and
+average federal tax rates by income decile. Column 4 shows the carbon tax without revenue recycling,
+the same result as found in Table 5 and also included for reference. Columns 5 thru 8 show each
+recycling option. (i) Combining the per person rebate with the carbon tax results in a very progressive
+change in tax burdens. The TDM estimates that the poorest decile would experience almost a 9 percent
+increase in average after-tax income compared to a 1 percent decrease in average after-tax income for
+the top income decile. (ii) Combining a reduction in the OASDI payroll tax rate with the carbon tax
+would be distributionally neutral with only the very top of the income distribution (the top 1 percent)
+experiencing an average net decrease in after-tax income greater than 0.5 percent.39 (iii) Combining a
+36
+
+When ranking by consumption and following the uses method, Cronin, Fullerton and Sexton (2016) find similar results.
+See “Table 1. Quintiles of income before taxes: Average annual expenditures and characteristics, Consumer Expenditure
+Survey, 2014” available on the Bureau of Labor Statistics website: http://www.bls.gov/opub/reports/consumerexpenditures/2014/home.htm#tableC
+38
+See Cronin et. al. (2012) for a discussion of family size adjustments in distributional analysis.
+39
+These results are for vertical equity only. As a class each decile is estimated to have only small changes in after-tax
+income from the combination of a payroll tax cut and carbon tax. Some families within each class, however, may be winners
+37
+
+25
+
+reduction in the corporate tax rate with the carbon tax would be a regressive change in tax burdens. The
+bottom 90 percent of families in the income distribution would experience an average decrease in aftertax income but the top 10 percent would experience an average increase in after-tax income. The top 0.1
+percent would be expected to increase income by about 6 percent on average under the carbon tax plus
+corporate rate cut. (iv) Combining the carbon tax with a revenue neutral mix of a per person rebate,
+payroll tax cut and corporate rate cut gives mixed results. The bottom and top of the income distribution
+would experience average net increases in after-tax income whereas the middle of the distribution would
+experience only small average changes in after-tax income.
+
+(experience tax cuts) and others may be losers (experience tax increases).
+
+26
+
+References
+Aldy, Joseph, and Pizer, William. 2011. “The Competitiveness of Climate Change Mitigation Policies,”
+NBER Working paper 17705. http://www.nber.org/papers/w17705.pdf
+British Columbia Ministry of Finance. 2014. Budget and Fiscal Plan 2014/15 – 2016/17.
+http://bcbudget.gov.bc.ca/2014/bfp/2014_Budget_Fiscal_Plan.pdf.
+Dinan, Terry. 2012. “Offsetting a Carbon Tax’s Costs on Low-Income Households,” Congressional
+Budget Office Working Paper 2012-16. https://www.cbo.gov/sites/default/files/112th-congress-20112012/workingpaper/11-13LowIncomeOptions_0.pdf.
+Cronin, Julie-Anne. 2017 (forthcoming.) “U.S. Treasury Distributional Analysis Methodology,” OTA
+Technical Paper.
+Cronin, Julie-Anne, Fullerton, Don, and Sexton, Steven. 2016. “Carbon Tax Rebates and
+Redistribution.” Conference paper, NBER Energy Policy Tradeoffs between Economic Efficiency and
+Distributional Equity, September 16-17, Durham, North Carolina.
+Cronin, Julie-Anne, Lin, Emily Y., Power, Laura, and Cooper, Michael. 2013, “Distributing the
+Corporate Income Tax: Revised U.S. Treasury Distribution Methodology,” National Tax Journal Vol.
+66(1): 239-262.
+Cronin, Julie-Anne, DeFilippes, Portia, and Lin, Emily Y. 2012. “Effects of Adjusting Distribution
+Tables for Family Size,” National Tax Journal Vol. 65(4): 739-758.
+Jacoby, Henry, and Ellerman, Denny. 2004. “The safety valve and climate policy,” Energy Policy Vol.
+32: 481-91.
+Marron, Donald, and Morris, Adele. 2016. “How to Use Carbon Tax Revenues,” Tax Policy Center.
+https://www.brookings.edu/wp-content/uploads/2016/07/howtousecarbontaxrevenuemarronmorris.pdf.
+Marron, Donald, and Toder, Eric. 2013. “Carbon Taxes and Corporate Tax Reform,” Tax Policy Center.
+http://www.urban.org/sites/default/files/alfresco/publication-pdfs/412744-Carbon-Taxes-and-CorporateTax-Reform.PDF.
+Metcalf, Gilbert E., and Weisbach, David. 2009. “The Design of a Carbon Tax,” Harvard
+Environmental Law Review Vol. 33: 499-556.
+Perese, Kevin. 2010. “Input-Output Model Analysis: Pricing Carbon Dioxide Emissions,” Congressional
+Budget Office Working Paper 2010-04. https://www.cbo.gov/sites/default/files/111th-congress-20092010/workingpaper/2010-04-io_model_paper_0.pdf.
+Sheiner, Louise. 1994. “Rationalizing the Excise Tax Offset,” Federal Reserve Board of Governors,
+unpublished working paper, 1994.
+
+27
+
+Toder, Eric, Nunns, Jim, and Rosenberg, Joseph. 2011. “Methodology for Distributing a VAT,”
+Research report, Tax Policy Center, Urban Institute and Brookings Institution.
+http://www.taxpolicycenter.org/sites/default/files/alfresco/publication-pdfs/1001533-Methodology-forDistributing-a-VAT.PDF.
+U.S. Environmental Protection Agency. 2016a. US Greenhouse Gas Inventory Report: 1990-2014.
+https://www.epa.gov/sites/production/files/2016-04/documents/us-ghg-inventory-2016-main-text.pdf.
+U.S. Environmental Protection Agency, Office of Atmospheric Programs, Climate Change Division,
+Greenhouse Gas Reporting Program. 2016b. “GHG Reporting Program Data Sets.”
+https://www.epa.gov/ghgreporting/ghg-reporting-program-data-sets.
+
+28
+
+

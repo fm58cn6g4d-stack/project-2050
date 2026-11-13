@@ -1,0 +1,4064 @@
+Source: https://home.treasury.gov/system/files/311/Analyses_of_US_Homeowners_Insurance_Markets_2018-2022_Climate-Related_Risks_and_Other_Factors_0.pdf
+Publisher: U.S. Department of the Treasury, Federal Insurance Office
+Retrieved: 2026-11-13
+Original SHA-256: e733b37fd3aa87624fa6ee7064a5ad1ffe4dcf222a14a609ceb391fd03e7f159
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Analyses of U.S. Homeowners
+Insurance Markets, 2018-2022:
+Climate-Related Risks and
+Other Factors
+Federal Insurance Office,
+U.S. Department of the Treasury
+January 2025
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+
+TABLE OF CONTENTS
+Glossary...................................................................................................................................iii
+Table of Figures ....................................................................................................................... v
+I. Introduction and Executive Summary of Key Findings ............................................. 1
+II. Data and Methodology ................................................................................................... 5
+III. Homeowners Insurance Market .................................................................................... 9
+National Market Analyses of PCMI Data ...................................................................... 9
+
+Factors Affecting Cost and Availability of Homeowners Insurance ........................... 15
+
+Other Residential Insurance Markets Outside the Scope of PCMI Data ..................... 19
+
+IV. Analyses of PCMI Data and Climate-Related Risk ................................................... 22
+Total Expected Annual Losses from Climate Risk Categories .................................... 22
+
+National Homeowners Insurance and Climate-Related Risk Analyses ....................... 26
+
+Regional Homeowners Insurance Markets and Climate-Related Perils ...................... 30
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+i
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+
+V. Conclusion and Recommendations ............................................................................. 44
+Appendix A. General Insurance and PCMI Data Call Reference Materials ................. 46
+
+Appendix B. Residual Market Information ....................................................................... 50
+
+Appendix C. Additional Regional Analyses ....................................................................... 54
+
+Appendix D. Supporting Underlying Metrics ................................................................... 66
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+ii
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+GLOSSARY
+E&S Insurance
+FAIR Plan
+FEMA
+FIO
+HO-3 and HO-5
+HOI Perils
+
+........
+........
+........
+........
+........
+........
+
+Hurricane TLCR
+Categories
+Local Insurer
+
+........
+
+Midwest Region
+
+........
+
+NAIC
+NFIP
+NOAA
+Northeast Region
+
+........
+........
+........
+........
+
+Northern Great Plains
+Region
+Northwest Region
+NRI
+Paid Loss Ratio
+
+........
+
+PCMI Data
+PCMI Data Call
+
+........
+........
+
+QUASR
+Regional Insurer
+
+........
+........
+
+Report
+
+........
+
+........
+
+........
+........
+........
+
+Excess and surplus lines insurance
+Fair Access to Insurance Requirements Plan
+Federal Emergency Management Agency
+Federal Insurance Office
+Homeowners insurance policy forms in PCMI Data
+Nine homeowners insurance perils—cold wave, hail, heatwave,
+hurricane, lightning, strong wind, tornado, wildfire, and winter
+storm—analyzed in this Report as covered by HO-3 and HO-5
+homeowners insurance policy forms
+Total expected annual losses to buildings from hurricanes, i.e.,
+grouping of ZIP Codes into quintiles based on hurricane risk
+In Report Section IV.C: Insurer that derives 95 percent or more
+of its total homeowners direct premiums written from business
+in one state
+Illinois, Indiana, Iowa, Michigan, Minnesota, Missouri, Ohio,
+and Wisconsin
+National Association of Insurance Commissioners
+National Flood Insurance Program
+National Oceanic and Atmospheric Administration
+Connecticut, Delaware, District of Columbia, Maine, Maryland,
+Massachusetts, New Hampshire, New Jersey, New York,
+Pennsylvania, Rhoda Island, Vermont, and West Virginia
+Montana, Nebraska, North Dakota, South Dakota, and Wyoming
+Alaska, Idaho, Oregon, and Washington
+FEMA’s National Risk Index
+Measure reflecting how much insurers are paying for claims
+relative to what they are receiving in premium
+Homeowners insurance data analyzed in this Report
+Property and Casualty Market Intelligence Data Call by the
+NAIC on behalf of state insurance regulators
+Florida’s Quarterly and Supplemental Reporting System
+In Report Section IV.C: Insurer that derives 70 percent or more
+of its total homeowners direct premiums written from states in
+the region
+FIO, Analyses of U.S. Homeowners Insurance Markets, 20182022: Climate-Related Risks and Other Factors (January 2025)
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+iii
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Severe convective storm ........
+Severe Convective
+Storm TLCR Categories
+
+........
+
+Southeast Region
+
+........
+
+Southern Great Plains
+Region
+Southwest Region
+
+........
+
+TLCR Categories
+
+........
+
+Wildfire TLCR
+Categories
+ZCTA
+
+........
+
+ZIP Codes
+
+........
+
+........
+
+........
+
+Thunderstorm that may produce lightning, hail, strong winds, or
+tornados
+Total expected annual losses to buildings from severe
+convective storms, i.e., grouping of ZIP Codes into quintiles for
+severe convective storm risk
+Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana,
+Mississippi, North Carolina, South Carolina, Tennessee, and
+Virginia
+Kansas, Oklahoma, and Texas
+Arizona, California, Colorado, Hawaii, Nevada, New Mexico,
+and Utah
+Total expected annual losses to buildings from climate risk
+categories, i.e., grouping of ZIP Codes into quintiles based on
+risk for HOI Perils
+Total expected annual losses to buildings from wildfire risk, i.e.,
+grouping of ZIP Codes into quintiles based on wildfire risk
+ZIP Code Tabulation Areas, i.e., geographic representations of
+areas covered by ZIP Codes; for ease of reference, this Report
+refers to ZCTAs as ZIP Codes
+Zone Improvement Plan Codes used by the U.S. Postal Service
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+iv
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+TABLE OF FIGURES
+Figure 1: Composition of Residential Insurance Market, By Percent of Premiums, 2021 ..............5
+Figure 2: Metrics Analyzed for Report ............................................................................................7
+Figure 3: Summary of Selected Homeowners Insurance Market Analyses ....................................9
+Figure 4: National PCMI Data Paid Loss Ratios (2018-2022 Average) by ZIP Code ..................10
+Figure 5: Homeowners Insurance Underwriting Ratios, 2000 to 2023 .........................................11
+Figure 6: National PCMI Data Claim Frequency (2018-2022 Average) by ZIP Code .................12
+Figure 7: National PCMI Data Claim Severity (2018-2022 Average) by ZIP Code .....................12
+Figure 8: National PCMI Data Nonrenewal Rates (2018-2022 Average) by ZIP Code ...............13
+Figure 9: National PCMI Data Premiums Per Policy (2018-2022 Average) by ZIP Code ...........14
+Figure 10: National PCMI Data Percent Changes in Premiums Per Policy, from 2018 to
+2022, by ZIP Code .......................................................................................................14
+Figure 11: TLCR Categories by ZIP Code ....................................................................................24
+Figure 12: (A) Hurricane TLCR Categories, (B) Severe Convective Storm TLCR
+Categories, and (C) Wildfire TLCR Categories by ZIP Code .....................................25
+Figure 13: Nationwide Percentage of Building Value at Risk from Flooding ..............................26
+Figure 14: Summary of Homeowners Insurance and Climate-Related Risk Analyses .................26
+Figure 15: National PCMI Data (A) Paid Loss Ratios, (B) Claim Frequency, and
+(C) Claim Severity (2018-2022 Averages) by TLCR Categories ................................27
+Figure 16: National PCMI Data (A) Nonrenewal Rates (2018-2022 Average) by TLCR
+Categories and (B) Percent Changes in Categories, from 2018 to 2022 .....................28
+Figure 17: National PCMI Data (A) Premiums Per Policy (2018-2022 Average) by TLCR
+Categories and (B) Percent Changes in Categories, from 2018 to 2022 .....................29
+Figure 18: National PCMI Data (A) Nonpayment Cancellation Rates (2018-2022
+Average) by TLCR Categories and (B) Percent Changes in Categories, from
+2018 to 2022 ................................................................................................................29
+Figure 19: Seven U.S. Regions Used in This Report, by Three Predominant HOI Perils .............30
+Figure 20: Regional Comparison (2018-2022 Averages) ..............................................................31
+Figure 21: Southeast Region: (A) Regional TLCR Categories and (B) Regional Hurricane
+TLCR Categories by Zip Code ....................................................................................33
+Figure 22: Southeast Region: (A) Paid Loss Ratios, (B) Claim Frequency, and (C) Claim
+Severity (2018-2022 Averages) by Regional TLCR Categories .................................35
+Figure 23: Southeast Region: Nonrenewal Rates (2018-2022 Average) by Regional
+TLCR Categories .........................................................................................................36
+Figure 24: Southeast Region: Premiums Per Policy (2018-2022 Average) by Regional
+TLCR Categories .........................................................................................................36
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+v
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 25: Midwest Region: (A) Regional TLCR Categories and (B) Regional Severe
+Convective Storm TLCR Categories by ZIP Code ......................................................37
+Figure 26: Midwest Region: (A) Paid Loss Ratios, (B) Claim Frequency, and (C) Claim
+Severity (2018-2022 Averages) by Regional TLCR Categories .................................38
+Figure 27: Midwest Region: Nonrenewal Rates (2018-2022 Average) by Regional TLCR
+Categories ....................................................................................................................39
+Figure 28: Midwest Region: Premiums Per Policy (2018-2022 Average) by Regional
+TLCR Categories .........................................................................................................39
+Figure 29: Southwest Region: (A) Regional TLCR Categories and (B) Regional Wildfire
+TLCR Categories by ZIP Code ....................................................................................40
+Figure 30: Southwest Region: (A) Paid Loss Ratios, (B) Claim Frequency, and (C) Claim
+Severity (2018-2022 Averages) by Regional TLCR Categories .................................41
+Figure 31: Southwest Region: Nonrenewal Rates (2018-2022 Average) by Regional
+TLCR Categories .........................................................................................................42
+Figure 32: Southwest Region: Premiums Per Policy (2018-2022 Average) by Regional
+TLCR Categories .........................................................................................................43
+Figure 33: Northeast Region: (A) Regional TLCR Categories and (B) Regional Hurricane
+TLCR Categories by ZIP Code ....................................................................................54
+Figure 34: Northeast Region: (A) Paid Loss Ratios, (B) Claim Frequency, and (C) Claim
+Severity (2018-2022 Averages) by Regional TLCR Categories .................................55
+Figure 35: Northeast Region: Premiums Per Policy (2018-2022 Average) by Regional
+TLCR Categories .........................................................................................................56
+Figure 36: Northern Great Plains Region: (A) Regional TLCR Categories and (B)
+Regional Severe Convective Storm TLCR Categories by ZIP Code ..........................57
+Figure 37: Northern Great Plains Region: (A) Paid Loss Ratios, (B) Claim Frequency,
+and (C) Claim Severity (2018-2022 Averages) by Regional TLCR Categories .........58
+Figure 38: Northern Great Plains Region: Nonrenewal Rates (2018-2022 Average) by
+Regional TLCR Categories ..........................................................................................58
+Figure 39: Northern Great Plains Region: Premiums Per Policy (2018-2022 Average) by
+Regional TLCR Categories ..........................................................................................59
+Figure 40: Southern Great Plains Region: (A) Regional TLCR Categories and (B)
+Regional Severe Convective Storm TLCR Categories by ZIP Code ..........................60
+Figure 41: Southern Great Plains Region: (A) Paid Loss Ratios, (B) Claim Frequency,
+and (C) Claim Severity (2018-2022 Averages) by Regional TLCR Categories .........61
+Figure 42: Southern Great Plains: Premiums Per Policy (2018-2022 Average) by
+Regional TLCR Categories ..........................................................................................62
+Figure 43: Northwest Region: (A) Regional TLCR Categories and (B) Regional Wildfire
+TLCR Categories by ZIP Code ....................................................................................62
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+vi
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 44: Northwest Region: (A) Paid Loss Ratios, (B) Claim Frequency, and (C) Claim
+Severity (2018-2022 Averages) by Regional TLCR Categories .................................63
+Figure 45: Northwest Region: Nonrenewal Rates (2018-2022 Average) by Regional
+TLCR Categories .........................................................................................................64
+Figure 46: Northwest Region: Premiums Per Policy (2018-2022 Average) by Regional
+TLCR Categories .........................................................................................................65
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+vii
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+I.
+
+INTRODUCTION AND EXECUTIVE SUMMARY OF KEY FINDINGS
+
+This Report by the Federal Insurance Office (FIO) assesses the private U.S. homeowners
+insurance market by analyzing a new, nationwide dataset on homeowners insurance policies that
+includes information from more than 246 million policies from 2018 through 2022, aggregated to
+the ZIP Code level, or an annual average of 49.3 million policies. The dataset represents
+approximately 80 percent of premiums written by private homeowners insurers in the United
+States for the two most common forms of homeowners insurance policies. The dataset was
+created through a first-of-its kind collaboration among the National Association of Insurance
+Commissioners (NAIC), state insurance regulators, and FIO.1
+Homeowners insurance is important to U.S. consumers, the economy, and the financial system.
+For many Americans, their home is their largest financial asset. The cost and availability of
+adequate homeowners insurance has a direct impact on housing expenses and the value of
+homes. The cost and availability of insurance can also have significant consequences for local
+governments whose tax bases rely on property values, and for real estate lenders and investors in
+mortgage securities that rely on insurance for loss protection. Moreover, homes are increasingly
+vulnerable to natural catastrophes.2 From 2018 through 2022—the five-year time period for the
+data analyzed in this Report—the annual number of major disaster declarations for climaterelated events was almost double the annual average over the 50-year period from 1960 to 2010.3
+In 2023, a significant number of natural catastrophes again impacted the United States, at an
+estimated cost of $114 billion, of which approximately $80 billion was insured.4 In the first
+three quarters of 2024, natural catastrophes caused the United States to suffer an estimated $145
+billion in economic losses, of which nearly $80 billion was insured.5
+
+1
+
+State insurance regulators are the primary regulators of the business of insurance in the United States. FIO’s
+authorities include monitoring all aspects of the insurance sector, as well as identifying issues or gaps in the
+regulation of insurers that could contribute to a systemic crisis in the insurance industry or the U.S. financial system;
+monitoring the extent to which traditionally underserved communities and consumers, minorities, and low- and
+moderate-income persons have access to affordable insurance products; collecting data and information on and from
+the insurance industry and insurers; analyzing and disseminating data and information; and issuing reports regarding
+all lines of insurance that FIO monitors. 31 U.S.C. §§ 313-14.
+The insurance industry generally uses “natural catastrophes” for both weather-related and non-weather-related
+events. In this Report, “climate-related disasters” refer to weather-related events that may increase in frequency or
+intensity due to climate change, such as hurricanes and wildfires, as distinguished from non-weather-related natural
+phenomena such as earthquakes and earthquake-related tsunamis.
+2
+
+“Major disaster declarations” are issued by the President pursuant to the Robert T. Stafford Disaster Relief and
+Emergency Assistance Act, 42 U.S.C. §§ 5121-5207, for any natural catastrophe that the President believes has
+caused damage of such severity that it is beyond the combined capabilities of state and local governments to
+respond. See, e.g., Federal Emergency Management Agency (FEMA), Fact Sheet: Disaster Declaration Process,
+May 2011, https://www.fema.gov/pdf/media/factsheets/dad_disaster_declaration.pdf. See also FEMA, “Disasters
+and Other Declarations,” available through https://www.fema.gov/disasters/declarations (Disaster Declarations).
+3
+
+“Facts + Statistics: U.S. Catastrophes,” Insurance Information Institute (III),
+https://www.iii.org/publications/insurance-handbook/insurance-and-disasters/facts-statistics-us-catastrophes (see
+table, “Natural Catastrophe Losses in the United States By Peril, 2023”).
+4
+
+5
+
+Michael Lörinc, et al., Aon: Q3 Global Catastrophe Recap (October 2024), 7, 13-15, https://assets.aon.com//media/files/aon/reports/2024/aon-q3-2024-global-catastrophe-recap.pdf.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+1
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+The dataset provides consistent and comparable information from more than 330 private
+homeowners insurers in the United States. Using this data, the Report provides an overview of
+the U.S. homeowners insurance market in terms of costs to consumers and insurers, analyzes the
+relationship between the availability and cost of homeowners insurance and the costs of climaterelated disasters, and highlights differences in such observations across regions and perils. To
+measure the costs of climate-related disasters, the Report uses expected annual losses to
+buildings from the National Risk Index (NRI) of the Federal Emergency Management Agency
+(FEMA) for nine climate-related perils generally covered by homeowners insurance: cold wave,
+hail, heatwave, hurricane, lightning, strong wind, tornado, wildfire, and winter storm. This
+measure does not include floods because private homeowners insurance generally excludes
+coverage for losses from floods.
+This work complements the important efforts that states and local communities are undertaking
+to understand and address homeowners insurance market challenges arising from the increasing
+costs of climate-related disasters and other factors. This Report also responds to Executive
+Order 14,030 on Climate-Related Financial Risk, which directed FIO to “assess, in consultation
+with States, the potential for major disruptions of private insurance coverage in regions of the
+country particularly vulnerable to climate change impacts.”6
+The Report’s key findings are summarized below. In Section II, the Report describes in greater
+detail the scope of the data and the metrics used in this Report. Section III analyzes insurers’
+losses, and the availability and cost of homeowners insurance, and includes a discussion of
+possible factors affecting policies and premiums. Section IV analyzes how the cost and
+availability of insurance may be affected by losses from climate-related risk by analyzing
+differences in insurance outcomes across ZIP Code quintiles based on the costs of climaterelated disasters. The analyses summarize outcomes in the highest and lowest risk ZIP Codes,
+which are defined by the top and bottom quintiles based on expected annual losses to buildings
+from climate-related risks. The section also includes more detailed analyses of three regions, out
+of the seven regions analyzed, to highlight the varying effects of three perils—wildfires,
+hurricanes, and severe convective storms (i.e., thunderstorms that may produce lightning, hail,
+strong winds, or tornados)—on U.S. insurance markets. The detailed analyses for the other four
+regions are included in Appendix C. Section V concludes the Report with recommendations.
+The Report’s key findings include:
+U.S. homeowners faced increasing costs for insurance between 2018 and 2022, with changes
+in these costs varying significantly across ZIP Codes. Average premiums per policy
+nationwide increased 8.7 percent faster than inflation during this period. Some consumers faced
+substantially larger premium increases than the national average. Consumers in the top 20
+percent of ZIP Codes saw premiums per policy rise at least 14.7 percent faster than inflation
+6
+
+Exec. Order No. 14,030, 86 Fed. Reg. 27,967 (May 20, 2021). Also in response to a separate tasking in this
+Executive Order, Treasury published: FIO, Insurance Supervision and Regulation of Climate-Related Risks (June
+2023), https://home.treasury.gov/system/files/311/FIO-June-2023-Insurance-Supervision-and-Regulation-ofClimate-Related-Risks.pdf (responding to the Executive Order tasking to “assess climate-related issues or gaps in
+the supervision and regulation of insurers, including as part of the [Financial Stability Oversight Council’s] analysis
+of financial stability”).
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+2
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+while, for the lowest 20 percent of ZIP Codes, premiums per policy declined by at least 1.4
+percent relative to inflation. In addition, nonrenewal rates rose in 2022, suggesting many
+consumers found it more difficult and challenging to purchase insurance.
+The cost of insurance for consumers was much greater in areas with higher expected losses
+to buildings from climate-related perils than in areas with lower expected losses.
+Consumers living in the top 20 percent of ZIP Codes with the highest expected annual losses to
+buildings from climate-related perils paid average inflation-adjusted premiums per policy of
+$2,321 between 2018 and 2022—82 percent more than the average for the bottom 20 percent of
+ZIP Codes. The higher cost for consumers in the highest risk ZIP Codes relative to the lowest
+risk ZIP Codes was also reflected in higher rates of policy cancellation for nonpayment.
+Insurers’ costs also were higher in areas with the highest expected losses from climaterelated perils. The paid loss ratio, which reflects how much insurers paid for claims relative to
+what they received in premiums, was 18 percent higher in the highest risk ZIP Codes—despite
+homeowners paying higher premiums per policy in these areas—than in the lowest risk ZIP
+Codes. These areas also had higher severity of claims, about $24,000 on average compared to an
+average of about $19,000 for the lowest risk ZIP Codes. Extended periods during which insurers
+have elevated paid loss ratios may cause insurers to respond by raising rates, not renewing
+policies, or changing coverage options.
+Policy nonrenewal rates also were higher in areas with the highest expected losses from
+climate-related perils. Consumers in the highest risk ZIP codes faced higher policy nonrenewal
+rates, with an average for the five-year period of 1.61 percent, about 80 percent higher than the
+average in the lowest risk ZIP Codes. Moreover, average nonrenewal rates increased by
+substantially more in the highest risk areas than in the lowest risk areas over this period, which
+indicates that consumers in these highest risk areas faced decreasing availability over the fiveyear period.
+From a regional perspective, different predominant climate-related perils resulted in
+diverse claims and loss patterns. The predominant peril impacted regions’ claims and loss
+patterns in varying ways, with higher claims frequency associated with regions impacted by
+severe convective storms and higher claims severity corresponding to regions impacted by
+wildfires. Insurers’ paid loss ratios were very high—above 85 percent—in the highest risk
+quintiles in two regions, both of which had lower premiums per policy than the national average
+for this quintile. Hurricanes accounted for more expected annual losses to buildings than did
+other perils in the United States and were associated with the highest premiums per policy and
+nonrenewal rates in the seven U.S. regions.
+Regardless of the predominant peril, the ZIP Codes within each region with the highest
+
+expected losses generally had the highest cost of insurance for consumers, highest paid
+losses affecting insurers’ costs, and highest nonrenewal rates. Insurers’ paid loss ratios were
+higher in the highest risk ZIP Codes than in the lowest risk ZIP Codes within five of the seven
+regions; consumers paid higher premiums per policy in the highest risk ZIP Codes compared to
+those in the lowest risk ZIP Codes in six of the seven regions; and nonrenewal rates were higher
+in the highest risk ZIP Codes than in the lowest risk ZIP Codes in six of the seven regions.
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+3
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+The summary findings above may not fully capture the many dimensions of cost and
+availability of homeowners insurance. First, inflation and the rise in replacement and
+reconstruction costs were significant during this period, and the adjustments for inflation may not
+adequately reflect the total costs homeowners may have faced when repairing and rebuilding
+their homes, such as the extended time required to rebuild when many homeowners are
+rebuilding at the same time. Second, homeowners facing policy nonrenewal or cancellation may
+have sought insurance coverage from other insurers not captured by the data used for this Report,
+such as smaller insurers or residual markets (i.e., insurers of last resort that write policies for
+certain homeowners who cannot obtain a policy in the standard market). Third, public data from
+residual markets during 2018 to 2022 showed that the number of such policies written increased
+significantly in a few states, such as California, Florida, and Louisiana, but showed modest
+declines in most other residual markets. Residual markets generally cover fewer perils at a
+higher price in comparison to policies from private insurers. Fourth, this Report only examines
+the impact of climate-related perils covered by standard, multi-peril homeowners insurance
+policies, which do not cover damages from flooding. Finally, the data analyzed in this Report
+does not include 2023 or 2024, and public data suggests that premiums and nonrenewals
+increased significantly in some states in the past two years.
+The findings in this Report are averages for large groups of ZIP Codes and should not be relied
+on by consumers making personal decisions about homeowners insurance. Moreover, results
+from specific ZIP Codes may not be comparable due to differences in the number and type of
+insurers and varying market shares across ZIP Codes. Section II and Appendix D discuss
+additional caveats concerning use of the data.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+4
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+II.
+
+DATA AND METHODOLOGY
+
+This section provides an overview of the homeowners insurance data analyzed in this Report, the
+metrics used in this Report, and some data limitations.7
+Many insurers across the United States have adopted a set of standardized homeowners policy
+forms that allow homeowners to purchase the type of policy that best fits their needs (see
+Appendix A.1). This Report focuses on homeowners multi-peril insurance for owner-occupied
+properties on HO-3 and HO-5 policy forms, which together constitute almost 85 percent of the
+homeowners insurance market (see Figure 1).8 Multi-peril policies generally cover property
+damage from a variety of perils, such as wind, hail, theft, and mold, but typically expressly
+exclude coverage for damage from floods (see Box 2), earthquakes, or sinkholes.
+Figure 1: Composition of Residential Insurance Market, By Percent of Premiums, 2021
+
+Source: NAIC, 2021 Homeowners Report. (NAIC Homeowners Reports do not include data on HO-7 polices for
+mobile/manufactured homes.)
+
+The findings in this Report are based on data from 2018 through 2022 from more than 330
+homeowners insurers (PCMI Data). The PCMI Data is based on data collected through the
+Property and Casualty Market Intelligence Data Call (PCMI Data Call) by the NAIC on behalf of
+participating U.S. states, directed to both large homeowners insurers and additional homeowners
+insurers identified by participating states.9 The PCMI Data encompasses an annual average of
+7
+
+For more information on homeowners insurance generally, which is the second largest line of property & casualty
+(P&C) insurance, see, e.g., NAIC, 2023 Market Share Reports For Property/Casualty Groups and Companies by
+State and Countrywide (August 2024), 13, 154, https://content.naic.org/sites/default/files/publication-msr-pbproperty-casualty.pdf. For more information on the P&C market, see FIO, Annual Report on the Insurance Industry
+(2024), 49-71, https://home.treasury.gov/system/files/311/2024-09-30%20Clean%20FIO%20AR%20508_2.pdf.
+8
+
+See NAIC, Dwelling Fire, Homeowners Owner-Occupied, and Homeowners Tenant and
+Condominium/Cooperative Unit Owner’s Insurance Report: Data for 2021 (2023), 28–29, 133,
+https://naic.soutronglobal.net/Portal/Public/enGB/DownloadImageFile.ashx?objectId=10478&ownerType=0&ownerId=2006 (2021 Homeowners Report).
+This Report discusses owner-occupied homes and single-family homes because HO-3 and HO-5 policies cover
+homes that fit both criteria. However, owner-occupied homes and single-family homes are not synonymous: owneroccupied homes include more than single-family homes (such as condos), while single-family homes are not all
+owner-occupied and can include homes rented out to people not related to the property owner.
+9
+
+This Report relies upon the PCMI Data provided to FIO as of November 1, 2024, as well as other information that
+FIO obtained under its data collection authorities from a single insurer. See FIO Act 31 U.S.C. § 313. For more
+information on the data call by the NAIC and state insurance regulators, see “Property & Casualty Insurance Market
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+5
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+49.3 million policies, an estimated 80 percent of total HO-3 and HO-5 homeowners insurance
+direct premiums nationwide, and at least 50 percent of the HO-3 and HO-5 direct premiums in
+every state but Florida.10
+The data on which the analyses for this Report is based has been aggregated to the ZIP Code
+level. The NAIC collected detailed data from individual insurers at a ZIP Code level and
+provided a subset of the data fields to FIO. Specifically, the PCMI Data is aggregated to about
+33,000 populated, residential ZIP Codes. The Report’s analyses primarily rely on ZIP Code
+Tabulation Areas (ZCTAs), which are geographic representations of the areas covered by ZIP
+Codes, but for ease of reference, this Report uses the common term “ZIP Codes” throughout.11
+FIO used the PCMI Data to analyze multiple metrics relating to insurance losses, availability of
+insurance, and cost of insurance, as summarized in Figure 2. For a description of each data field
+used in this Report, see Appendix A.2. The PCMI Data Call includes additional data fields that
+were not shared with Treasury or analyzed in this Report. All nominal dollar value metrics were
+adjusted for inflation, and values are reported in real terms.12
+
+Intelligence Data Call,” NAIC, https://content.naic.org/industry/data-call/property-ho.htm; NAIC, “States Issue
+Property & Casualty Market Intelligence Data Call Covering Over 80% of U.S. Market,” news release, March 8,
+2024, https://content.naic.org/article/states-issue-property-casualty-market-intelligence-data-call-covering-over-80us-market. The initial deadline for insurers to submit data to the NAIC for the PCMI Data Call was June 6, 2024.
+FIO received data from the PCMI Data Call from the NAIC on a periodic basis between June and October 2024.
+FIO frequently coordinated with NAIC on data validation concerns and other issues regarding the information from
+the PCMI Data Call. This Report does not include any data corrections submitted by insurers to the NAIC after
+November 1. After November 1, the NAIC was continuing to coordinate with insurers on submitting updated PCMI
+Data, including data on fields that were not provided to FIO and are not analyzed in this Report.
+10
+
+Not all U.S. states participated in the PCMI Data Call. FIO calculated estimated state market shares based on a
+comparison of PCMI Data premiums with premiums shown in annual statutory filings to state insurance regulators.
+FIO received very limited data on the U.S. territories, which therefore are not included in the analyses in this Report.
+11
+
+The U.S. Census Bureau created ZCTAs to allow data to be mapped, displayed, and geographically analyzed.
+See, e.g., “ZIP Code Tabulation Areas (ZCTAs),” U.S. Census Bureau, https://www.census.gov/programssurveys/geography/guidance/geo-areas/zctas.html.
+12
+
+This Report used U.S. Bureau of Labor Statistics data to adjust nominal dollar values for inflation to calculate real
+values. Specifically, premiums values are adjusted based on a consumer-specific metric, the Consumer Price Index,
+Urban, and insurer losses are adjusted based on a producer-specific metric—the average of the Producer Price Index
+Single Family Residential Construction metric for (1) Goods and (2) Services—that reflects the cost of single-family
+home repairs over the five-year time period.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+6
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 2: Metrics Analyzed for Report
+Metric
+
+Calculation Based on NAIC
+Data Fields Received
+
+Definition and Use
+Insurance Losses
+
+Paid Loss Ratio
+
+Losses Paid in Reporting Year /
+Written Premium
+
+The amount insurers have paid on claims to or on behalf of
+policyholders relative to premiums received and helps assess
+insurers’ underwriting profitability (see Box 1). Sustained high paid
+loss ratios may lead insurers to request rate increases, change policy
+terms and conditions, decide not to renew policies, or exit a market
+entirely. Thus, years with high paid loss ratios may precede changes
+in availability and cost.
+
+Claim Frequency
+
+Count of Paid Claims in
+Reporting Year / Policies in
+Force at End of Reporting Year
+
+The percentage of claims insurers have paid relative to the policies
+they have issued. Similar to paid loss ratio, increases in claim
+frequency may precede changes in availability and cost.
+
+Claim Severity
+
+Losses Paid in Reporting Year /
+Count of Paid Claims in
+Reporting Year
+
+The average amount insurers have paid for each claim. Similar to
+paid loss ratio, increases in claim severity may precede changes in
+availability and cost.
+
+Availability of Insurance
+Nonrenewal Rate
+
+Count of Nonrenewals in
+Reporting Year / Policies in
+Force at End of Reporting Year
+
+The percentage of policies insurers did not renew when the policy
+period ends due to the risk profiles of properties (e.g., the age of the
+roof) or areas (e.g., areas with more severe climate-related risks). In
+areas with high nonrenewal rates, households may have more limited
+options for insurers or may face increased difficulty purchasing
+private insurance.
+Cost of Insurance
+
+Premiums Per
+Policy
+
+Written Premium / Policies in
+Force at End of Reporting Year
+
+The average cost of a policy. Premiums may be related to a number
+of factors, such as climate-related risk, inflation, costs of
+reconstruction, and reinsurance, as discussed in Section III.B.
+
+Nonpayment
+Cancellation Rate
+
+Count of Nonpayment
+Cancellations in Reporting Year
+/ Policies in Force at End of
+Reporting Year
+
+The percentage of policies insurers cancelled policies before the
+policy period ends because policyholders failed to pay their
+premiums on time. States sometimes suspend nonpayment
+cancellations for a specified period after a major disaster.
+
+Source: FIO. See also NAIC Definitions for State Regulator Property & Casualty Insurance Market Intelligence
+Data Call (April 22, 2024), 1, https://content.naic.org/sites/default/files/industry-data-call-property-hodefinitions.pdf.
+
+“Nonrenewals” and “cancellations” are distinct metrics, as discussed in Figure 2 and shown in
+Figure 3. All of the nonrenewals and cancellations analyzed in this Report were initiated by
+insurers (although, in some instances, they may have been prompted by policyholder actions or
+inactions). Nonrenewals occur when an insurer decides not to renew the policy when the policy
+period ends, while cancellations occur when an insurer decides to cancel a policy before the end
+of the policy period. The cancellations analyzed in this report are only those for when a
+policyholder fails to timely pay the premium owed. Insurers may exercise greater discretion
+when not renewing a policy than they can when cancelling a policy before the end of its policy
+period. For example, if climate risk is increasing in an area but a policyholder is still paying the
+required premiums, an insurer cannot cancel the policy for nonpayment. Because nonrenewals
+may be for any reason, they may provide insights into the availability of insurance, while
+nonpayment cancellation rates may help illuminate the costs of insurance.
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+7
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+While the PCMI Data is the most comprehensive and detailed data on the U.S. homeowners
+insurance market available to date, it does not include various components of the homeowners
+insurance market, all insurers, or all homeowners insurance policy forms. For example, the
+PCMI Data does not include information on owner-occupied homeowners insurance policies that
+are provided by residual market plans or excess & surplus (E&S) insurance markets (see Section
+III.C). Flood insurance (Box 2) and reinsurance (Section III.A.2) are also outside the scope of
+the PCMI Data. In addition, the PCMI Data does not include data from 2023 and 2024.
+Also, while the data collected for this Report is the broadest and most granular collection to date
+relating to homeowners insurance, its scope varies across states and ZIP Codes within states.
+Generally, the collection targeted the largest insurers, but regulators in some states determined
+that additional smaller insurers domiciled in their states should also report. Accordingly, the data
+is less representative in states that have more policies underwritten by smaller insurers that were
+not asked to report. The PCMI Data includes 80 percent of HO-3 and HO-5 policies nationwide,
+as measured by direct premiums written, with market share by the same measure above 50
+percent in 49 states, including almost complete coverage in a handful of states.
+The PCMI Data is based on a first-of-its-kind collaborative effort by the NAIC, state insurance
+regulators, and FIO. Some fields were collected for the first time during this data call, and the
+data call was also the first time most participating insurers had reported data at a ZIP Code level.
+The data was also reported retrospectively for 2018 through 2022, which could lead to
+inconsistencies if insurers were not contemporaneously recording the data in a form readily
+compatible with the PCMI Data Call. Because this was a novel data collection effort, the data
+collected required data review and validation by the NAIC and state insurance regulators. The
+NAIC updated FIO periodically regarding progress by the NAIC on data validation, including
+some difficulties with validation and data corrections. Prior to this Report’s publication, there
+remained certain data anomalies that may be subject to ongoing correction, which is not
+uncommon for a first-of-its-kind data collection.
+This Report therefore has relied on the aggregation of data to support the robustness of the
+results presented, with more than 33,000 ZIP Codes and over 45 million policies each year for
+nationwide results; equal groupings of more than 6,000 ZIP Codes for national quintile results;
+and thousands of ZIP Codes for regional results. Using larger groupings of data allows for
+greater statistical confidence than would be possible regarding outcomes for highly granular
+areas, such as individual or small groups of ZIP Codes. Given the broad, nationwide market
+coverage, the data can be informative for aggregate analyses of nationwide and regional
+developments, as in this Report. The NAIC also used the data collected through the PCMI Data
+Call to conduct overall market analyses.13 On balance, due to the sample size of the data and
+given that the analyses generally use averages calculated over large numbers of aggregated ZIP
+Codes, the data is of sufficient quality to support the analyses conducted for this Report.
+
+See, e.g., NAIC, “State Insurance Regulators Monitor the Home Insurance Market to Protect Consumers,” news
+release, December 4, 2024, https://content.naic.org/article/state-insurance-regulators-monitor-home-insurancemarket-protect-consumers (describing changes in the homeowners insurance market based on analyses of
+information from the PCMI Data Call).
+13
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+8
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+III. HOMEOWNERS INSURANCE MARKET
+This section presents analyses of insurance losses, availability of insurance, and costs of
+insurance metrics in the homeowners insurance market nationwide. Section III.A provides
+average national statistics and accompanying maps at the ZIP Code level to illustrate variation in
+the metrics across different parts of the United States, while Section III.B describes the numerous
+intersecting and overlapping factors—inflation and replacement costs, reinsurance, people
+moving into higher climate risk areas, state insurance regulation, litigation-related costs, and
+increasing frequency and severity of climate-related disasters—that can impact homeowners
+insurance cost and availability. Section III.C provides a brief description of two residential
+insurance markets outside the scope of the PCMI Data: residual markets and excess & surplus
+lines markets.
+National Market Analyses of PCMI Data
+Using the PCMI Data, this section provides an overview of three aspects of the homeowners
+insurance market: (1) insurance losses, (2) availability of insurance, and (3) cost of insurance.
+The analyses below—summarized in Figure 3—are based on data covering all populated ZIP
+Codes in the 50 states and the District of Columbia (D.C.), with maps that present results
+distributed across five groups with equal numbers of ZIP Codes (plus a grouping for no data).
+Regional differences in the metrics are explored further in Section IV.C.
+Figure 3: Summary of Selected Homeowners Insurance Market Analyses
+Homeowners Market
+Analyses
+
+2018
+
+2019
+
+2020
+
+Insurance Losses
+56.4%
+57.1%
+
+Average
+2018 2022
+
+2021
+
+2022
+
+57.5%
+
+55.9%
+
+57.5%
+
+Paid Loss Ratio
+
+60.7%
+
+Claim Frequency
+
+5.9%
+
+5.7%
+
+6.2%
+
+5.9%
+
+5.5%
+
+5.8%
+
+Claim Severity
+
+$19,409
+
+$18,892
+
+$18,044
+
+$16,990
+
+$17,696
+
+$18,206
+
+Nonrenewal Rate
+
+Availability of Insurance
+1.05%
+1.01%
+0.90%
+
+1.02%
+
+1.20%
+
+1.04%
+
+Premiums per Policy
+
+$1,598
+
+Cost of Insurance
+$1,628
+$1,659
+
+$1,695
+
+$1,737
+
+$1,663
+
+Nonpayment Cancellation Rate
+
+1.53%
+
+1.50%
+
+1.56%
+
+1.62%
+
+1.58%
+
+PCMI Data Sample
+46.2
+47.8
+49.5
+million
+million
+million
+
+51.1
+million
+
+51.9
+million
+
+49.3
+million
+
+Number of Policies
+
+1.67%
+
+Source: PCMI Data (nominal dollar values adjusted for inflation) (annual and average values calculated using
+national aggregate values)
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+9
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Insurance Losses
+The metrics relevant to insurance losses—the paid loss ratio, claim frequency, and claim
+severity—affect both the cost and availability of insurance.
+Paid loss ratios indicate the amount insurers have paid on policyholders’ claims relative to what
+they are receiving in premiums, and this metric helps insurers assess underwriting profitability.
+Higher paid loss ratios could lead insurers to adjust their underwriting practices, including
+through rate increases, changing policy terms and conditions, deciding not to renew policies, or
+exiting a specific geography entirely.14 From 2018 through 2022, the national average paid loss
+ratio for the PCMI Data was 57.5 percent and remained relatively constant throughout the fiveyear period although its distribution varied widely across ZIP Codes (see Figure 4). The top
+quintile of ZIP Codes with the highest average paid loss ratios (i.e., ratios greater than 66.0
+percent) are dispersed across the country, but there are somewhat higher concentrations in the
+central and southeastern parts of the country. Note that white areas of maps are places without
+information from the PCMI Data, for example: public lands, large bodies of water, areas with a
+larger percentage of local insurers, and/or data fields that were not otherwise provided.
+Figure 4: National PCMI Data Paid Loss Ratios (2018-2022 Average) by ZIP Code
+
+Source: PCMI Data (nominal dollar values adjusted for inflation) (equal number of ZIP Codes appear in each
+category)
+
+Box 1: Insurers’ Financial Performance and Paid Loss Ratios
+Homeowners insurers seek to earn profits in two principal ways: underwriting profit and
+investment earnings. First, insurers collect premiums in exchange for providing insurance
+coverage; if the amount of premium exceeds the amount of losses and expenses incurred in a
+given year, insurers have earned an underwriting profit. Second, insurers collect premiums on or
+before the first day of coverage, but do not pay claims until days or months later, if any claims
+
+14
+
+A paid loss ratio above 100 percent indicates that premiums will not cover paid losses.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+10
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+are submitted at all. In the time between when an insurer collects a premium and pays a claim,
+insurers invest the premium and collect investment earnings.15
+Insurers and market observers can track underwriting profitability by looking at the ratio of
+losses and expenses paid by the insurer relative to the premiums the insurers take in. This
+“combined ratio” is the sum of the incurred losses (paid claims and an estimated amount to cover
+future claim payments) plus expenses divided by earned premiums. A combined ratio of 105
+percent means an insurer expects to lose five cents for every $1.00 in premium collected (before
+accounting for any investment earnings the insurer may make). The paid loss ratio (paid losses
+divided by premiums) is a subset of the combined ratio.
+In general, underwriting profits for the homeowners segment since 2000 have varied, and the
+segment has been unprofitable in recent years, sustaining underwriting losses in each year from
+2017 to 2023, except in 2019 (see Figure 5). The paid loss ratio—which includes significant
+losses from climate-related events—was the primary determinant of overall underwriting
+profitability for insurers in this period, while the ratio of other expenses was relatively stable at
+about 40 percent (see Figure 5).
+Figure 5: Homeowners Insurance Underwriting Ratios, 2000 to 2023
+
+Source: S&P Global (“Ratio of Other Expenses” includes the loss adjustment expense for investigating, managing,
+settling, and similar costs for handling claims; the expense ratio for operating and overhead costs, not including
+taxes; and the dividend ratio)
+
+From 2018 through 2022, the national average claim frequency and severity for homeowners
+insurers covered by the PCMI Data remained relatively constant, with an average claim
+frequency of 5.8 percent and average claim severity of $18,206 per claim. The maps showing
+the distributions of average claim frequency (Figure 6) and claim severity (Figure 7) by ZIP
+Code illustrate the metrics’ relationship with the dominant perils in different regions. For
+example, in the western United States where wildfires are the predominant peril, there is
+typically low claim frequency but high claim severity. Claims frequency reflects the number of
+claims filed, not necessarily the number of people affected, since the same homeowners could be
+impacted by multiple disasters and file multiple claims. Higher claims severity suggests that
+See, e.g., NAIC, U.S. Property & Casualty and Title Insurance Industries – 2021 Full Year Results (2022),
+https://content.naic.org/sites/default/files/inlinefiles/2021%20Annual%20Property%20%26%20Casualty%20and%20Title%20Industry%20Report.pdf.
+15
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+11
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+those who filed claims may have suffered costly losses. In contrast, the central United States
+faces severe convective storms, which typically lead to more frequent, but less costly claims than
+areas impacted by wildfires. Section IV.C explores the implications of these regional differences
+in predominant perils for the cost and availability of insurance.
+Figure 6: National PCMI Data Claim Frequency (2018-2022 Average) by ZIP Code
+
+Source: PCMI Data (equal number of ZIP Codes appear in each category)
+
+Figure 7: National PCMI Data Claim Severity (2018-2022 Average) by ZIP Code
+
+Source: PCMI Data (nominal dollar values adjusted for inflation) (equal number of ZIP Codes appear in each
+category)
+
+Availability of Insurance
+The metric used in this Report relating to the availability of insurance is the nonrenewal rate.16
+The nonrenewal rate is a measure of the percentage of policies insurers did not renew due to the
+risk profiles of certain insured properties (e.g., properties with older roofs that are more likely to
+be damaged by hurricanes or hail) or the risk profile for a specific area (e.g., ZIP Codes in a
+16
+
+The nonpayment cancellation rate is discussed in the next section.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+12
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+wildland-urban interface zone that have become more prone to wildfires). Higher nonrenewals
+can indicate that insurers are tightening underwriting standards, and households in areas with
+higher nonrenewal rates may have more limited options for insurance coverage.
+Nationally, nonrenewal rates in the PCMI Data were relatively constant from 2018 through 2019,
+fell slightly in 2020 and 2021 in part due to moratoriums connected to the COVID-19 pandemic,
+then rose to 1.20 percent in 2022. Average nonrenewal rates for 2018 to 2022 differed
+significantly across ZIP Codes, however, with the highest nonrenewal rates concentrated in parts
+of the central, southern, and western regions of the United States (see Figure 8).
+Figure 8: National PCMI Data Nonrenewal Rates (2018-2022 Average) by ZIP Code
+
+Source: PCMI Data (equal number of ZIP Codes appear in each category) (Texas insurer data did not include
+information on nonrenewals and therefore is excluded from the figure and the above national calculations.)
+
+Cost of Insurance
+Metrics relating to the cost of insurance include premiums per policy and nonpayment
+cancellation rates (the rates at which insurers cancel policies before the policy period ends due to
+the failure of policyholders to pay their premiums on time).
+From 2018 through 2022, national premiums per policy averaged $1,663. The highest average
+inflation-adjusted premiums per policy were greater than $2,099 and were observed in the central
+and southeastern United States (see Figure 9). The increase in premiums per policy nationwide
+was 8.7 percent between 2018 and 2022, with inflation-adjusted premiums per policy reaching
+$1,737 in 2022. The largest percentage changes occurred in the central and western United
+States (Figure 10). When ZIP Codes are ranked from lowest to highest percent change in
+premiums per policy from 2018 through 2022, the lowest 20 percent of ZIP Codes did not keep
+pace with inflation, while the highest 20 percent of ZIP Codes saw real premiums per policy
+increase at least 14.7 percent, that is nominal premiums per policy rising 14.7 percent or more
+than inflation.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+13
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 9: National PCMI Data Premiums Per Policy (2018-2022 Average) by ZIP Code
+
+Source: PCMI Data (nominal dollar values adjusted for inflation) (equal number of ZIP Codes appear in each
+category)
+
+Figure 10: National PCMI Data Percent Changes in Premiums Per Policy, from 2018 to
+2022, by ZIP Code
+
+Source: PCMI Data (nominal dollar values adjusted for inflation) (equal number of ZIP Codes appear in each
+category)
+
+Nonpayment cancellations remained relatively constant during this five-year period at an average
+of 1.58 percent. The ZIP Codes with the highest average nonpayment cancellation rates were in
+the Midwest and Southeast and distributed throughout the rest of the country.
+The average most common deductibles per policy also increased faster than inflation, although
+with significant amounts of variation among ZIP Codes.17
+
+17
+
+The aggregated data at the national level on all perils and all other perils deductibles showed a trend of increasing
+deductibles. The Report does not present additional analyses of deductibles at the ZIP Code level given concerns
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+14
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+In sum, U.S. homeowners faced increased cost of insurance and reduced insurance availability as
+reflected in increased average premiums between 2018 and 2022 and an increase in policy
+nonrenewal rates in 2022.
+Factors Affecting Cost and Availability of Homeowners Insurance
+A range of intersecting and often overlapping factors may affect the increasing cost and
+decreasing availability of insurance for homeowners, including inflationary pressures reflected in
+rising replacement and building costs; elevated cost of reinsurance; the movement of people into
+riskier areas; state insurance regulation on insurance rates and nonrenewal or cancellation
+moratoriums; increasing litigation-related costs; and increasingly frequent and severe climaterelated disasters.18 This section discusses how each of those factors may affect insurance
+availability and cost, although more research is needed to isolate and quantify their independent
+and interdependent impacts.19
+Inflation and Replacement Costs
+Insurers point to rising inflation as an important factor affecting insurance prices, in particular by
+increasing the replacement costs required to repair and rebuild homes (i.e., cost of construction,
+including labor, building materials, and additional costs incurred during the rebuilding process,
+such as permits).20 Between 2020 and 2023, replacement costs for property & casualty-related
+losses increased by an average of 45 percent.21 The Producer Price Index for single family
+residential construction materials increased 36 percent between 2018 and 2022, within the longer
+trend increase of 46 percent between 2014 and 2023.22 Single family residential construction
+workers’ employment costs also rose 37 percent between 2018 and 2022, and 45 percent during
+the longer time period of 2014 to 2023.23 The COVID-19 pandemic contributed to these rising
+costs by disrupting supply chains, causing material prices for home repair and reconstruction to
+increase in some areas by almost 25 percent between the second quarter of 2020 and the second
+
+about the quality, accuracy, and consistency of the underlying data fields for deductibles which had never before
+been collected nationwide. For more caveats on the data, see Section II.
+18
+
+A.M. Best, Market Segment Outlook: US Homeowners (2020),
+https://www3.ambest.com/ambv/sales/bwpurchase.aspx?record_code=335750.
+19
+
+Many of the comments FIO received in response to its Federal Register Notice (see 88 Fed. Reg. 75,380
+(November 2, 2023)) noted a range of factors affecting the cost of insurance and the difficulty of attribution.
+American Property Casualty Insurance Association, “Rising Inflation and Increased Building Costs Could Cause
+Residents to Be Underinsured After a Disaster,” news release, May 6, 2022, https://www.apci.org/media/newsreleases/release/71646/.
+20
+
+III & Milliman, “Inflation, High Interest Rates, and Catastrophes Contribute to 2023 Underwriting Loss for P&C
+Industry, New Triple-I/Milliman Report Shows,” news release, November 2, 2023, https://www.iii.org/pressrelease/inflation-high-interest-rates-and-catastrophes-contribute-to-2023-underwriting-loss-for-pc-industry-newtriple-i-milliman-report-shows-110223.
+21
+
+“Producer Price Index by Commodity: Special Indexes: Construction Materials,” Federal Reserve Bank of St.
+Louis, last updated December 12, 2024, https://fred.stlouisfed.org/series/WPUSI012011.
+22
+
+“Employment Cost Index: Total Compensation for Private Industry Workers in Construction,” Federal Reserve
+Bank of St. Louis, last updated October 31, 2024, https://fred.stlouisfed.org/series/CIU2012300000000I.
+23
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+15
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+quarter of 2021.24 Housing material prices then increased at a slower rate until the second
+quarter of 2022, when they began to decline before stabilizing, between the second quarter of
+2023 and the second quarter of 2024, at prices above pre-pandemic levels.25 The analyses in this
+Report show nominal dollar values adjusted for inflation in order to see whether changes exceed
+these substantial increases in inflation over the five-year time period.26
+Reinsurance
+Insurers often factor the availability and cost of reinsurance—insurance for insurers—into
+whether to offer insurance coverage and at what price.27 Generally, in exchange for a premium
+paid by the insurer, a reinsurer agrees to reimburse a specified portion of the ceding insurer’s
+losses under one or more of the policies of insurance it has written. Reinsurance helps diversify
+and spread risks so that geographically specific events, such as a hurricane, are not borne solely
+by insurers in that locale. Diversification occurs globally with major reinsurance hubs around
+the world.28
+In recent years, the reinsurance market has been a hard market, with reinsurers tightening their
+terms and conditions, raising rates, and requiring ceding insurers to retain more risk.29 Observers
+have remarked upon the correlation between increases in reinsurance pricing and in increased
+insured losses globally from natural catastrophes.30 Other factors affecting reinsurance prices are
+
+“Home Reconstruction Cost Rollercoaster Stabilizes in 2024,” CoreLogic, October 14, 2024,
+https://www.corelogic.com/intelligence/home-reconstruction-cost-stabilizes-in-2024/.
+24
+
+25
+
+“Home Reconstruction Cost,” CoreLogic.
+
+26
+
+See Section II for more details on the inflation adjustments used for this Report.
+
+See, e.g., Natalie Ambrosio Preudhomme & Kevin Fagan, “CRE Insurance Primer: How Insurers Set P&C
+Premiums,” Moody’s, November 20, 2023, https://cre.moodysanalytics.com/insights/market-insights/cre-insuranceprimer-how-insurers-set-pc-premiums/. For more on reinsurance, see, e.g., FIO, The Breadth and Scope of the
+Global Reinsurance Market and the Critical Role Such Market Plays in Supporting Insurance in the United States
+(2014), https://home.treasury.gov/system/files/311/FIO%20-Reinsurance%20Report.pdf (updated on February 11,
+2015); FIO, Report Providing an Assessment of the Current State of the Market for Natural Catastrophe Insurance
+in the United States (2015), https://home.treasury.gov/system/files/311/Natural%20Catastrophe%20Report.pdf (Nat
+Cat Report).
+27
+
+28
+
+See, e.g., Johannes Bender & Taoufik Gharib, S&P Global Ratings Top 40 Global Reinsurers and Reinsurers By
+Country: 2023 (2023), https://www.spglobal.com/ratings/en/research/articles/230905-s-p-global-ratings-top-40global-reinsurers-and-reinsurers-by-country-2023-12841726#ContactInfo.
+29
+
+See, e.g., A.M. Best, Global Reinsurance: More Stable and Improved Results Following Shift from Property
+Catastrophe Risks (2022), https://web.ambest.com/docs/defaultsource/ratings/global_re_2022_web.pdf?sfvrsn=8e9899d1_3.
+Guy Carpenter, “U.S. Property Catastrophe Rate On Line Index, 2000-2023,” February 2023
+https://www.guycarp.com/insights/2023/02/chart-guy-carpenter-US-property-catastrophe-rate-on-line-index-20002023.html; Steve Bowen, et al., Gallagher Re: Natural Catastrophe and Climate Report: 2023 (2024), 71,
+https://www.ajg.com/gallagherre/-/media/files/gallagher/gallagherre/news-and-insights/2024/january/naturalcatastrophe-and-climate-report-2023.pdf.
+30
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+16
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+similar to those affecting homeowners insurance premiums, such as larger losses from movement
+into risky areas, increasing replacement costs, and inflation.31
+While reinsurance is relevant to insurers of all sizes, regional and local homeowners insurers
+may be more affected than national homeowners insurers by changes in reinsurance cost and
+availability. Analysis of NAIC Annual Financial Statement data suggests that U.S. regional and
+local insurers use reinsurance more than do national insurers. Regional and local insurers may
+write more concentrated books of business and thus may be more in need of the risk
+diversification and capacity benefits of reinsurance, in comparison to larger, national insurers.
+Research has found that such regional and local insurers tend to be more impacted by changes in
+reinsurance availability and cost, which affects their own underwriting decisions and, in turn,
+insurance cost and availability.32 Section IV.C provides data on the percent of premiums written
+by regional and local insurers in each region.
+Population Movement into Areas of Higher Climate Risk
+The movement of people into areas within the United States with higher climate risk can also
+raise the cost of insurance and reduce availability as more properties are subject to greater
+climate-related losses. Some research indicates that increases in homeowners insurance losses in
+recent years are attributable to more people building new homes in higher climate-risk areas.33
+Between 2018 and 2022, 0.9 million new homes were built in the areas with the highest risk.34 If
+more people move into areas of higher climate-related risk, increasing the demand for housing in
+these areas, property values will also tend to rise, leading to higher potential losses to
+homeowners when climate-related events occur.35
+
+See, e.g., Mohit Pande, “The State of the Reinsurance Property Catastrophe Market,” Swiss Re, May 16, 2023,
+https://www.swissre.com/risk-knowledge/mitigating-climate-risk/state-of-reinsurance-property-cat-market.html;
+Jeremy Waite, “Beginning of a New Era—Impact of Global Issues in (Re)insurance,” Guy Carpenter, 2023,
+https://www.guycarp.com/insights/2023/11/impact-global-issues-reinsurance.html. Other factors for reinsurance
+include cost of capital and competing investment opportunities; as interest rates have gone up, so has the cost of
+reinsurance.
+31
+
+See, e.g., III, Trends and Insights: Drivers of Homeowners’ Insurance Rate Increases (2022),
+https://www.iii.org/sites/default/files/docs/pdf/state_of_the_risk_homeowners_02032022.pdf (Trends and Insights);
+Parinitha Sastry et al., “When Insurers Exit: Climate Losses, Fragile Insurers, and Mortgage Markets,” Harvard
+Business School, December 2023, https://www.hbs.edu/faculty/Pages/item.aspx?num=65216.
+32
+
+33
+
+III, Trends and Insights. See also, e.g., Factors Influencing the High Cost of Insurance for Consumers, Before the
+House Financial Services Committee, 118th Cong. (November 3, 2023) (statement of the American Property and
+Casualty Insurance Association), https://democrats-financialservices.house.gov/uploadedfiles/hhrg-118-ba04wstate-gordonr-20231102.pdf.
+U.S. Census Bureau, “B25024 American Community Survey Units in Structure: 2018 ACS 1-Year Estimates
+Detailed Tables,” and “B25024 Units in Structure: 2022 ACS 1-Year Estimates Detailed Tables,” available through
+https://data.census.gov/table?q=B25024 (ACS Table B25024); NRI.
+34
+
+35
+
+For example, one study found that for every percentage point of growth in a location, house price growth in that
+location increased by 1.4 percentage points. See Kristine Gevorgyan, “Do Demographic Changes Affect House
+Prices?” Journal of Demographic Economics, November 7, 2019, https://www.cambridge.org/core/journals/journalof-demographic-economics/article/abs/do-demographic-changes-affect-houseprices/EDCD6AA8D40A41F19D9D24B4AD4F053A.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+17
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+State Insurance Regulation
+State insurance regulators implement and enforce the laws and regulations governing insurers
+domiciled or doing business within their respective states.36 State insurance regulation,
+particularly rate regulation and regulatory actions on nonrenewals or cancellations, can impact
+the cost and availability of insurance.
+An insurance rate determines the price at which an insurance policy or contract is sold and
+typically reflects the risk characteristics of the policyholder and the insured property. States
+regulate the circumstances under which an insurer may raise the rate for a particular type of
+policy, with a state’s rate regulation usually falling in one of the following categories: (1) open
+rating, (2) use-and-file, (3) file-and-use, (4) flex band, and (5) prior approval (see Appendix A.4
+for further explanations of each regime and a summary of the rate regulatory regime used in each
+state). States that use open rating, use-and-file, and file-and-use regulation predominately rely
+upon market competition to keep insurance rates from being excessive. Insurers operating in
+states with prior approval regimes may need to take additional steps when seeking rate increases.
+State laws and regulations may also affect nonrenewal and cancellation rates. At least 12 states
+have laws or regulations that allow the state insurance regulator to impose moratoriums on
+cancellations or nonrenewals, require insurers to provide grace periods, or take other measures to
+ensure an insurance contract is honored and stays in force if a state of emergency is declared or
+in the wake of weather-related disasters.37 In addition, about 17 states imposed moratoriums on
+the ability of insurers to cancel or not renew policies or to provide policyholders with a 60-day or
+longer grace period during the COVID-19 pandemic. Such measures can maintain the
+availability of insurance in states and local areas in the short-term following a severe event.
+Litigation-Related Costs
+Some insurance market participants have also pointed to concerns about litigation expenses and
+losses as a cost driver, such as “one-way” attorneys’ fees laws (i.e., requiring the insurer to pay
+the plaintiff’s legal costs if the plaintiff wins in court but not requiring the plaintiff to pay the
+insurer’s legal costs if the insurer wins) and assignment-of-benefits state laws, which allow a
+policyholder to enter into an agreement to assign their claims and rights to a third party.38
+An insurer is “domiciled” in the state that issued its primary license. See also NAIC & Center for Insurance
+Policy and Research, State Insurance Regulation (2011), https://content.naic.org/sites/default/files/inlinefiles/topics_white_paper_hist_ins_reg.pdf.
+36
+
+37
+
+See also, e.g., State of Iowa Insurance Division, Bulletin 21-04 (July 26, 2021),
+https://iid.iowa.gov/media/177/download?inline= (requesting that insurers waive deadlines for repair completion
+and cover the substantial material cost increases under their policies’ replacement costs provisions after 2020
+derecho); Oklahoma Department of Insurance, Bulletin 2019-EXEC-01 (Revised June 5, 2019),
+https://www.oid.ok.gov/wp-content/uploads/2019/10/19-0344-PRJ-RLK-Draft-Bulletin-Final-Version-Revision-65-19-2.pdf (after severe convective storms in 2019, issuing a moratorium on the cancellation of insurance policies
+and rate increases, ordering that policyholders could obtain copies of their insurance policies for free, and other
+actions).
+“How Legal System Abuse Drives Social Inflation,” III (July 17, 2022), https://www.iii.org/article/socialinflation-hard-to-measure-important-to-understand.
+38
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+18
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Insurers’ defense costs and containment expenses rose almost 40 percent between 2018 and 2022
+(from $1.97 billion to $2.76 billion), but then declined by almost 15 percent in 2023 (to $2.35
+billion).39 The decline in these expenses between 2022 and 2023 may be due in part to legal
+reforms in Florida enacted between 2021 and 2023 to address high litigation costs.40
+Increase in Frequency and Severity of Climate-Related Disasters
+Across the country, Americans have been experiencing an increased number of severe weather
+events, as reflected in data from the National Oceanic and Atmospheric Administration
+(NOAA)’s National Centers for Environmental Information, FEMA, and the U.S. Global Change
+Research Program.41 There was an over five-fold increase in the annual number of billion-dollar
+weather and climate disasters identified by NOAA from 2018 through 2022 as compared to the
+1980s, after adjusting for inflation, and the average number of major disaster declarations issued
+per year for climate-related events for the five-year period from 2018 through 2022 was almost
+double the average for the fifty years between 1960 and 2010.42 Section IV uses PCMI Data to
+aid in understanding how climate-related risk may relate to insurers’ underwriting practices in
+ZIP Code categories and regions.
+Other Residential Insurance Markets Outside the Scope of PCMI Data
+The above factors also affect two residential insurance markets outside the scope of the PCMI
+Data: residual markets and excess and surplus (E&S) insurance markets. These markets, which
+may be used as alternative sources of insurance coverage, provide potentially useful points of
+comparison for the private insurance markets covered by the PCMI Data. These markets also
+may help alleviate, to some extent, availability and cost of insurance issues by providing
+
+39
+
+S&P Global.
+
+40
+
+Beginning in 2021, Florida enacted statutes that restructured the litigation rules for disputed insurance claims,
+limited the assignment of attorney’s fees to third parties in property insurance cases, and repealed Florida’s one-way
+attorney fee statutes, with certain exceptions. Florida Office of Insurance Regulation (FLOIR), Property Insurance
+Stability Report (2023), 3-4, https://floir.com/docs-sf/default-source/property-and-casualty/stability-unitreports/july-2023-isu-report.pdf?sfvrsn=8566a813_2.
+41
+
+In a few instances, agencies use different terms for the same types of weather/climate events. This Report uses
+the term “hurricane” (as does FEMA) to refer to tropical cyclones, tropical depressions, tropical storms, hurricanes,
+major hurricanes, and typhoons that NOAA terms “tropical cyclones.” See NOAA’s National Centers for
+Environmental Information (NCEI), “Billion-Dollar Weather and Climate Disasters: Time Series,” available through
+https://www.ncei.noaa.gov/access/billions/ (Billion- Dollar Disasters); “Tropical Cyclone Climatology,” NOAA,
+National Hurricane Center, and Central Pacific Hurricane Center, https://www.nhc.noaa.gov/climo/; FEMA,
+National Risk Index: Technical Documentation (2023),
+https://www.fema.gov/sites/default/files/documents/fema_national-risk-index_technical-documentation.pdf. This
+Report uses “severe convective storms” to refer to thunderstorms that produce tornadoes, hail, strong winds, and
+lightning, which NOAA describes as “severe storms,” while the NRI provides estimated losses for tornado, hail,
+lightning, and strong wind separately. See NOAA NCEI, “Billion-Dollar Disasters”; “Severe Storms,” NOAA,
+https://www.noaa.gov/explainers/severe-storms; FEMA, National Risk Index: Technical Documentation.
+NOAA NCEI, “Billion-Dollar Disasters”; FEMA, “OpenFEMA Dataset: Disaster Declarations Summaries – v2,”
+https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2.
+42
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+19
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+insurance to homes that private insurers in the standard or admitted market (i.e., those insurers
+licensed in that state) may no longer cover.
+Residual Markets
+Residual markets are often referred to as “insurers of last resort” for individuals or businesses
+that are unable to obtain insurance coverage through the admitted or standard market because
+they may be viewed as high risk—such as homes at risk of hurricanes along the Eastern and Gulf
+coasts or wildfires in the Northwest or Southwest.43
+The PCMI Data covers large, private market insurers and does not include information from
+residual markets, which have been growing in size in some states that have higher climate risk.
+Between 2018 and 2022, the total number of residential policies in residual markets increased
+over 50 percent to more than 2.7 million policies, with the growth primarily in three states:
+California, Florida, and Louisiana.44 Relatively smaller increases occurred in two other states,
+while the number of residential policies in other states’ residual market plans declined (see
+Appendix B.1 for details by state).45 The growth of policies written by residual market insurers
+is consistent with the PCMI Data on insurance availability, including the growth in the
+nonrenewal rates for the Highest Risk categories in the Southeast and Southwest parts of the
+country. This suggests that the premium increases in the PCMI Data may not reflect the full
+changes in the cost of insurance because some policyholders subject to higher expected losses
+from climate-related perils may have moved to residual market insurers.
+Most residual markets are “Fair Access to Insurance Requirements” (FAIR) plans, which
+generally provide policyholders with basic coverage for eligible properties but with differences
+in rules, perils covered, insurance coverage limits, and deductibles that vary by state (see
+Appendix B.2, which provides more details on each of the 33 residual market plans which were
+established through state legislation but generally are not state-funded).46
+
+43
+
+For more information, see, e.g., FIO, Annual Report on the Insurance Industry (2021), Box 3, 66-67,
+https://home.treasury.gov/system/files/311/FIO-2021-Annual-Report-Insurance-Industry.pdf; FIO, Nat Cat Report.
+“A Firm Foundation: How Insurance Supports the Economy – Residual Markets,” III, available through
+https://www.iii.org/publications/a-firm-foundation-how-insurance-supports-the-economy/a-50-statecommitment/residual-markets (Residual Markets) (citing Property Insurance Plans Service Office (PIPSO) data that
+does not include data for the Hawaii FAIR plan). In 2024, PIPSO began reporting data for the Hawaii FAIR plans’
+2023 policies and premiums data. PIPSO, PIPSO Reports (2024), available through https://pipso.com/publications
+(PIPSO Reports 2024).
+44
+
+“A Firm Foundation,” III; “Facts + Statistics: Homeowners and Renters Insurance,” III, https://www.iii.org/tablearchive/20793 (archived table of High-Risk Markets, Insurance Provided by Fair Plans by State).
+45
+
+46
+
+PIPSO, PIPSO Reports (2022), 4, available through pipso.com/publications/; PIPSO, PIPSO Report 2024, Exhibit
+A1, 1, Exhibit D1, available through https://pipso.com/publications/; “Residual Markets,” III. In May 2023,
+Colorado enacted legislation to create a FAIR Plan, but is not expected to begin issuing policies until 2025. See
+“What is the FAIR Plan?,” Colorado Department of Regulatory Agencies, Division of Insurance,
+https://doi.colorado.gov/insurance-products/homeowners/renters-insurance/fair-access-to-insurance-requirementsfair-plan. Residual markets typically are funded through premiums and reinsurance and, if those are insufficient to
+cover claims and expenses, through assessments on insurers operating within the state or through bond issuances.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+20
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Notably, residual market plans generally cover fewer perils at a higher price than what HO-3 and
+HO-5 policies in the standard market offer. As a result, homeowners who have had their HO-3
+or HO-5 policies cancelled or not renewed (and if they are unable to obtain a policy from
+standard market insurers) may have difficulty obtaining equivalent coverage from a residual
+market plan.47 While deductibles vary by plan, some plans require named peril percentage
+deductibles forcing policyholders to retain more of the risk of loss.48 All residual market plans
+have coverage limits for a dwelling and (separately or combined) for its contents, but these limits
+vary greatly: dwelling-only limits range from $150,000 to $1.17 million, while combined
+dwelling and contents coverage limits range from $200,000 to $3 million.49
+Excess & Surplus Lines Insurance
+Policyholders that have difficulty obtaining homeowners insurance from standard or admitted
+market insurers may be able to obtain coverage from “non-admitted” insurers that operate in the
+E&S market.50 However, such insurance tends to be more expensive and has fewer regulatory
+protections in comparison to other insurers. E&S insurers have more freedom than admitted
+insurers to modify underwriting standards and rates, adopt new policy provisions, or exit
+geographic areas, and are generally not subject to state solvency regulations.51 Moreover, state
+insurance guaranty associations, which provide certain protections for consumers if their insurer
+becomes insolvent, do not cover claims by policyholders of failed E&S insurers.52 The E&S
+market for residential property insurance as a percentage of the total homeowners insurance
+market, increased from 1.0 percent in 2018 to 1.3 percent in 2022.53 From 2018 to 2022, direct
+premiums written for non-standard homeowners insurance placed with E&S insurers grew 67.9
+percent, and the E&S market experienced significant growth in the areas at greater risk from
+hurricanes and wildfires.54
+
+Generally, each of the insurers within the state shares in the FAIR or beach plan’s profits, losses, and expenses in
+proportion to their share of the insurance market within the state. “Fair Access to Insurance Requirements Plans,”
+NAIC, last updated December 13, 2024, https://content.naic.org/cipr-topics/fair-access-insurance-requirements-fairplans#.
+47
+
+Only eight residual market plans (in Florida, Louisiana, Illinois, Michigan, North Carolina (FAIR and beach
+plans), Ohio, and Rhode Island) offer HO-3 policies or ones that are roughly equivalent to such policies. No
+residual market offers HO-5 policies. See Appendix B.
+48
+
+See, e.g., PIPSO, Compendium of Property Insurance Plans (2022), 22, 149, 478, available through
+https://pipso.com/publications/.
+49
+
+PIPSO, Compendium of Property Insurance Plans, 10, 22, 43, 536.
+
+See, e.g., “Surplus Lines,” NAIC, last updated September 22, 2023, https://content.naic.org/insurancetopics/surplus-lines.
+50
+
+51
+
+See FIO, Nat Cat Report, 13.
+
+52
+
+“Surplus Lines,” NAIC.
+
+53
+
+FIO calculations based on data from S&P Global.
+
+Jason Woleben, “US E&S Insurance Market Report: Growth Slows for Excess and Surplus Market,” S&P Global
+Market Intelligence, June 20, 2024, https://www.spglobal.com/marketintelligence/en/news-insights/research/us-e-sinsurance-market-report-growth-slows-for-excess-and-surplus-market.
+54
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+21
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+IV. ANALYSES OF PCMI DATA AND CLIMATE-RELATED RISK
+This section begins by explaining the calculation of the Total Expected Annual Losses to
+Buildings from Climate Risk (TLCR) Categories (Section IV.A) and then uses the PCMI Data to
+analyze changes in the availability and cost of insurance, as well as the insurance losses that may
+affect those changes, between 2018 and 2022, from two perspectives:
+o National Homeowners Insurance Market and Climate-Related Risk Analyses
+(Section IV.B) use national TLCR Categories to examine whether ZIP Codes at higher
+risk of expected losses from climate-related disasters involving perils covered by HO-3
+and HO-5 policies show differences in insurance losses, insurance availability, and cost
+of insurance as compared to ZIP Codes at lower risk.
+o Regional Homeowners Insurance Markets and Climate-Related Risk Analyses
+(Section IV.C) use regional TLCR Categories to highlight how the predominant perils in
+each of seven regions within the United States may have different impacts on insurance
+losses, insurance availability, and cost of insurance. The section highlights three regions
+and their different predominant perils while analyses of the remaining four regions and
+their predominant perils are provided in Appendix C.
+Total Expected Annual Losses from Climate Risk Categories
+The analyses in this section categorize ZIP Codes nationwide using groups defined as the TLCR
+Categories, such that each category is one quintile (20 percent) of the total number of ZIP Codes
+analyzed and has been assigned a label corresponding to its relative risk of expected losses:
+Lowest Risk, Lower Risk, Medium Risk, Higher Risk, and Highest Risk. The TLCR Categories
+are used to examine the impact on the insurance market from nine perils covered by HO-3 and
+HO-5 policies: cold wave, hail, heatwave, hurricane, lightning, strong wind, tornado, wildfire,
+and winter storm (i.e., homeowners insurance (HOI) Perils).
+The TLCR Categories are used to observe the potential relationship between (1) expected losses
+to buildings from current climate-related risk and (2) changes in metrics relating to insurance
+losses, availability of insurance, and cost of insurance. More specifically, a subset of the data
+available through FEMA’s NRI as of March 2023 was used to construct a measure of the current
+percentage of U.S. building value at risk annually in each ZIP Code from the HOI Perils. The
+measure was used to sort ZIP Codes into five groups along a spectrum from lowest to highest
+relative risk. The ZIP Code groupings for the TLCR Categories are constant over the five-year
+timeframe of the Report. A constant measure of expected loss from climate risk over time
+recognizes that it is difficult to discern the increases in severity and frequency of climate-related
+disasters in any particular year or over the five-year period of this Report.
+Calculation of Total Expected Annual Losses from Climate Risk Categories
+FIO used a subset of the NRI data that most closely aligns with the perils and losses covered by
+the homeowners insurance line expressed as a percentage of building value at risk in each ZIP
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+22
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Code.55 FIO converted NRI census tract data to ZIP Code data in order to pair it with the PCMI
+Data. The value is specified for each ZIP Code as follows:
+
+Percentage of building
+value at risk from HOI
+Perils
+
+Sum of expected annual losses to buildings from HOI Perils
+=
+Sum of total building value
+
+•
+
+Expected annual losses to buildings combines the value of buildings in each area with the
+annualized probability that the hazard will occur per year and the estimated percentage of
+the exposed building value that would be lost if such a hazard did occur.56
+
+•
+
+Total building value includes information for single-family homes as well as other types
+of buildings (e.g., commercial, manufacturing, government).57
+
+•
+
+The HOI Perils are the nine perils that are both included in the NRI and typically covered
+under a standard HO-3 or HO-5 policy: cold wave, hail, heatwave, hurricane, lightning,
+strong wind, tornado, wildfire, and winter weather.58
+
+Using the percentage of building value at risk from HOI Perils, the TLCR Categories are
+constructed such that 20 percent of ZIP Codes were in each category (i.e., quintiles). The
+Regional TLCR Categories are constructed in the same manner using only the ZIP Codes within
+a given region.
+National Distribution of Expected Losses from Climate Risk from HOI Perils
+Figure 11 shows the distribution of the TLCR Categories across the country. The expected
+losses from HOI Perils resulting from climate risk are not distributed evenly across ZIP Codes:
+almost two-thirds of the national building value at risk from HOI Perils is concentrated in the top
+category of ZIP Codes, while the bottom category has less than two percent of the building value
+at risk. The coastal hurricane regions in the Southeast and Northeast, severe convective storm
+regions in the Great Plains and Midwest, and wildfire regions in the Northwest and Southwest
+have the highest levels of risk under the TLCR Categories.
+
+55
+
+The NRI is a national dataset that helps illustrate the U.S. communities most at risk from 18 natural hazards based
+on social vulnerability, community resilience, and expected annual losses to buildings, populations, and agriculture.
+The NRI expected annual loss estimates are based primarily on historical data. The dataset is available at the state,
+census tract, and county level. See FEMA, National Risk Index: Technical Documentation.
+56
+
+FEMA, National Risk Index: Technical Documentation, Section 4.4.
+
+57
+
+Future analyses of the PCMI Data could use climate risk estimates that exclusively relate to homeowners
+insurance policyholders, rather than the NRI which also includes manufacturing, commercial, and government
+buildings.
+58
+
+Changes in the frequency, severity, or distribution of HOI perils have also been attributed to climate change by the
+U.S. Global Change Research Program (USGCRP). See USGCRP, Fifth National Climate Assessment (2023) 2-16,
+2-39, 25-10, https://nca2023.globalchange.gov/downloads/NCA5_2023_FullReport.pdf (NCA5).
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+23
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 11: TLCR Categories by ZIP Code
+
+Sources: NRI
+
+Of the building value at risk from HOI Perils used to calculate the TLCR Categories, hurricanes
+account for 61.4 percent, severe convective storms account for 25.4 percent, and wildfires
+account for 11.7 percent (cold waves, heatwaves, and winter weather comprise the remaining 1.5
+percent). Figure 12 shows the spatial distribution across ZIP Codes for three perils
+individually—hurricanes, severe convective storms, and wildfires—using the same methodology
+as the TLCR Categories for the HOI Perils, but only including expected annual losses to
+buildings as a percentage of total building value for the specified perils. Figure 12 illustrates the
+outsized impact of certain perils in specific regions.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+24
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 12: (A) Hurricane TLCR Categories, (B) Severe Convective Storm TLCR
+Categories, and (C) Wildfire TLCR Categories by ZIP Code
+A
+
+B
+
+C
+
+Source: NRI59
+
+Flooding is excluded from the TLCR Categories because it is excluded from HO-3 and HO-5
+policies. However, coastal and riverine flooding cause significant economic losses in regions
+and communities and can create insurance market challenges (see Box 2, Figure 13).
+Box 2. Flood Insurance and the National Flood Insurance Program
+While most homeowners insurance policies do not cover damage caused by floods, homeowners
+can obtain separate, stand-alone flood policies either through the National Flood Insurance
+Program (NFIP) administered by FEMA or through private insurers.60 Flood insurance is
+required for properties located in designated high-risk, flood-prone areas that have mortgages
+from a federally regulated or insured lender, may be mandated by some other mortgage lenders,
+and is available for nearly all homeowners.61 The vast majority of people who purchase flood
+insurance do so through the NFIP. Overall policy count has been steadily declining since the
+program’s highest policy count of 5.7 million in 2009.62 At the end of fiscal year 2022, the NFIP
+reported that there were 4.7 million federally backed flood insurance policies in force, providing
+an aggregate $1.3 trillion of coverage.63 By contrast, the private, residential flood insurance
+
+59
+
+Because the Hurricane TLCR Categories shows zero risk for 25.8 percent of the United States (i.e., greater than a
+single quintile), the Report combines the first two quintiles of the Hurricane TLCR Categories so that the bottom 40
+percent of risk is illustrated together.
+60
+
+See “About Us,” FEMA & NFIP, https://www.floodsmart.gov/about.
+
+61
+
+Flood Disaster Protection Act of 1973, 42 U.S.C. § 4002 et seq.
+
+“Spotlight on: Flood Insurance,” III, last updated June 27, 2024, https://www.iii.org/article/spotlight-on-floodinsurance.
+62
+
+“The Watermark – National Flood Insurance Program Financial Statements,” FEMA, last updated March 6, 2023,
+https://www.fema.gov/flood-insurance/work-with-nfip/watermark-financial-statements.
+63
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+25
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+market grew from 293,977 policies in 2018 to 419,096 in 2023, partially offsetting the declining
+NFIP policy count.64
+Figure 13: Nationwide Percentage of Building Value at Risk from Flooding
+
+Source: NRI
+
+National Homeowners Insurance and Climate-Related Risk Analyses
+This section uses the TLCR Categories to analyze the relationship between climate risk and
+insurance losses, availability, and cost at the ZIP Code level. Figure 14 summarizes
+underwriting and other metrics for the Highest Risk and Lowest Risk categories, which each
+equal 20 percent of the ZIP Codes analyzed.
+Figure 14: Summary of Homeowners Insurance and Climate-Related Risk Analyses
+2018-2022 Average
+Insurance Losses
+Paid Loss Ratio
+Claim Frequency
+Claim Severity
+Availability of Insurance
+Nonrenewal Rate
+Cost of Insurance
+Premiums Per Policy
+Nonpayment Cancellation Rate
+PCMI Data Sample
+PCMI Policies
+
+TLCR Categories
+Lowest Risk
+Highest Risk
+54.7%
+4.1%
+$19,039
+
+64.7%
+7.0%
+$23,952
+
+0.90%
+
+1.61%
+
+$1,277
+1.32%
+
+$2,321
+2.17%
+
+12.7 million
+
+5.8 million
+
+Source: PCMI Data (nominal dollar values adjusted for inflation)
+
+NAIC, “Private Flood Insurance Data,” 4 (presentation, NAIC Climate and Resiliency Task Force, virtual
+meeting, October 12, 2023), https://content.naic.org/sites/default/files/call_materials/PrivateFlood_Oct2023_0.pdf.
+64
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+26
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Insurance Losses and Climate-Related Risk
+This section examines the underwriting metrics relating to insurance losses (i.e., paid loss ratio,
+claim frequency, and claim severity) and expected losses from climate risk. The Highest Risk
+category had the highest paid loss ratio at 64.7 percent over the five-year period, while the lower
+four categories had an average paid loss ratio of 56.1 percent (see Figure 15A). This indicates
+that, on average, the Highest Risk category had an 8.6 percentage point higher share of paid
+losses relative to premiums than the lower four risk categories.
+Figure 15: National PCMI Data (A) Paid Loss Ratios, (B) Claim Frequency, and (C) Claim
+Severity (2018-2022 Averages) by TLCR Categories
+A
+B
+C
+
+Source: PCMI Data (nominal dollar values adjusted for inflation), NRI
+
+In addition, the Highest Risk category had higher claim frequency than the Lowest Risk category
+(see Figure 15B). The Highest Risk category had an average claim frequency of 7.0 percent,
+while the Lowest Risk category had an average claim frequency of 4.1 percent over the five-year
+period. The Highest Risk category, however, was not notably higher than the Higher Risk
+category.
+Insurers on average paid more per claim for policies in the Highest Risk category than in the
+other four categories. The claim severity for the Highest Risk category was $6,532 more than
+the average claim severity for the lower four categories (see Figure 15C). The Lowest Risk
+category’s claim severity was elevated compared to the claim severity for the other lower risk
+categories.
+Availability of Insurance and Climate-Related Risk
+This section examines the nonrenewal rate as an underwriting metric relating to the availability
+of insurance.
+On average, during the five-year period, the Highest Risk category had nonrenewal rates 0.71
+percentage points more than the Lowest Risk category (1.61 percent versus 0.90 percent) (see
+Figure 16A). In addition, the nonrenewal rate for the Highest Risk category rose substantially,
+more than doubling from 2018 to 2022 (1.10 percent in 2018 to 2.37 percent in 2022) (see Figure
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+27
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+16B). A higher nonrenewal rate in the Highest Risk ZIP Codes could indicate that more
+policyholders in these areas face challenges finding available insurance.
+Figure 16: National PCMI Data (A) Nonrenewal Rates (2018-2022 Average) by TLCR
+Categories and (B) Percent Changes in Categories, from 2018 to 2022
+A
+
+B
+
+Source: PCMI Data, NRI
+
+Cost of Insurance and Climate-Related Risk
+This section addresses underwriting metrics concerning the cost of insurance: premiums per
+policy and nonpayment cancellation rates. These metrics consistently appear to correspond with
+the expected losses from climate risk.
+Premiums per policy appear positively correlated with the TLCR Categories (see Figure 17A).65
+During the five-year period, the average annual premiums per policy in the Highest Risk
+category were $2,321, which is 81.7 percent more than the $1,277 figure for the Lowest Risk
+category. These results could reflect the higher historical claims and perceived risk in those
+areas.
+Premiums per policy increased in each of the TLCR Categories between 2018 and 2022,
+increasing the most (10.5 percent) in the Lowest Risk category and the least (5.8 percent) in the
+Highest Risk category (see Figure 17B). The variation in the percent change in premiums per
+policy across TLCR Categories could be caused by a variety of factors, including insurer
+decisions to limit their overall exposure to the highest risk areas through nonrenewals rather than
+premium increases, or consumer choices to accept more financial risk (e.g., through higher
+deductibles) to limit potential premium increases. Rate regulation may also be a factor since
+
+65
+
+This finding is similar to that in a paper which used an estimated measure of premiums per policy based on
+mortgage escrow payments to show that premiums are higher in areas with higher expected climate disaster risk. See
+Benjamin Keys & Philip Mulder, “Property Insurance and Disaster Risk: New Evidence from Mortgage Escrow
+Data,” National Bureau of Economic Research, June 2024, 19,
+https://www.nber.org/system/files/working_papers/w32579/w32579.pdf.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+28
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+insurers generally are able to increase premiums at a faster pace in those states that have
+relatively less-restrictive rate approval processes.66
+Figure 17: National PCMI Data (A) Premiums Per Policy (2018-2022 Average) by TLCR
+Categories and (B) Percent Changes in Categories, from 2018 to 2022
+A
+
+B
+
+Source: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+The average nonpayment cancellation rate was the highest in the Highest Risk category and the
+lowest in the Lowest Risk category during the five-year period (see Figure 18). In addition, the
+rate increased by 51.6 percent from 2018 to 2022 in the Highest Risk category, compared to a 5.0
+percent decline in the Lowest Risk category. By 2022, nonpayment cancellation rates in the
+Highest Risk category were 104.7 percent higher than those in the Lowest Risk category. This
+pattern is consistent with that of nonrenewal rates, which also increased substantially in the
+Highest Risk category during the time period.
+Figure 18: National PCMI Data (A) Nonpayment Cancellation Rates (2018-2022 Average)
+by TLCR Categories and (B) Percent Changes in Categories, from 2018 to 2022
+
+Source: PCMI Data, NRI
+
+66
+
+Rate regulation is discussed further in Section III.B.4.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+29
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+These analyses show that insurers’ costs were higher in areas with the highest expected losses
+from climate-related perils. Similarly, consumers in highest climate-risk areas faced higher costs
+and decreasing availability over the five-year period.67 Also, both nonrenewals and nonpayment
+cancellation rates increased the most in the Highest Risk category during this period.
+Regional Homeowners Insurance Markets and Climate-Related Perils
+While the analyses in Section IV.B highlight the relationship between climate risk and insurance
+market outcomes on a nationwide basis, this section evaluates whether such relationships exist
+within regions that face different predominant HOI Perils. Regions in the United States face
+risks specific to their location, from wildfires in the western United States, to severe convective
+storms in the middle of the country, to hurricanes along the Gulf and Atlantic coasts (Figure
+19).68
+Figure 19: Seven U.S. Regions Used in This Report, by Three Predominant HOI Perils
+
+Source: FIO
+
+The metrics for all seven regions are presented in Figure 20. Importantly, the individual regions
+do not represent equal amounts of expected annual losses from climate-related risk as this risk is
+not distributed evenly across the country. As a result, for these regional analyses, the ZIP Codes
+in each region are divided evenly into categories of expected annual losses to buildings from
+climate risk based only on the ZIP Codes within the same region.69 Highlights include:
+•
+
+The regions predominantly affected by wildfires (the Northwest and Southwest Regions)
+tended to have lower claim frequency but higher claim severity than other regions.
+
+67
+
+These findings are also supported by a 2023 study that showed that nonrenewals and premium increases in certain
+states were associated with climate-related risks. See First Street Foundation, The 9th National Risk Assessment: The
+Insurance Issue (2023), https://assets.riskfactor.com/media/National-Risk-Assessment-The-Insurance-Issue.pdf.
+68
+
+See USGCRP, NCA5, 21-30. The regions in this Report do not completely align with the NCA5 regions in order
+to avoid having a region with a single state.
+69
+
+By comparison, the national categories in Section III.A were based on annual expected losses to buildings from
+climate risk for the entire country.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+30
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Regions more affected by severe convective storms (the Midwest, Northern Great Plains,
+and Southern Great Plains Regions) tended to have higher claim frequency. This reflects
+that severe convective storms are more frequent, smaller events, while wildfires are less
+common but can cause more extensive losses.
+•
+
+The Highest Risk category in the Southeast Region, which is predominantly affected by
+hurricanes, had the highest premiums per policy and the highest nonrenewal rate of any
+of the Highest Risk categories in the seven regions.
+
+•
+
+Regardless of the predominant peril, the ZIP Codes within each region with the highest
+expected losses generally had the highest cost of insurance for consumers, highest paid
+losses affecting insurers’ costs, and highest nonrenewal rates. Insurance losses—as
+measured by the paid loss ratio—were higher in the Highest Risk category than the
+Lowest Risk category within five of the seven regions. Consumers also paid more
+premiums per policy in the Highest Risk category compared to the Lowest Risk category
+in six of the seven regions. In addition, nonrenewal rates were higher in the Highest Risk
+category than the Lowest Risk category in six of the seven regions.
+
+Northeast
+
+Midwest
+
+Northern
+Great
+Plains
+
+Southern
+Great
+Plains
+
+Southwest
+
+Northwest
+
+Hurricane
+
+Hurricane
+
+Storms*
+
+Storms*
+
+Storms*
+
+Wildfire
+
+Wildfire
+
+N/A
+
+11
+
+12 + DC
+
+8
+
+5
+
+3
+
+7
+
+4
+
+50 + DC
+
+9.7
+10.4
+million
+million
+Lowest Risk Regional Category**
+Paid Loss Ratio
+51.6%
+43.1%
+Claim
+6.1%
+4.2%
+Frequency
+Claim Severity
+$14,249
+$12,113
+Nonrenewal
+1.27%
+0.45%
+Rate
+Premiums Per
+$1,514
+$1,049
+Policy
+Highest Risk Regional Category**
+Paid Loss Ratio
+57.6%
+41.1%
+Claim
+7.9%
+5.6%
+Frequency
+Claim Severity
+$23,244
+$15,874
+Nonrenewal
+2.32%
+0.72%
+Rate
+Premiums Per
+$2,936
+$1,936
+Policy
+
+11.1
+million
+
+0.8
+million
+
+5.0
+million
+
+9.7
+million
+
+2.5
+million
+
+49.3
+million
+
+52.0%
+
+65.4%
+
+56.8%
+
+49.8%
+
+47.8%
+
+54.7%
+
+5.2%
+
+6.4%
+
+7.9%
+
+3.4%
+
+3.0%
+
+4.1%
+
+$15,352
+
+$19,092
+
+$15,945
+
+$21,060
+
+$22,991
+
+$19,039
+
+1.32%
+
+0.65%
+
+0.18%
+
+0.85%
+
+0.56%
+
+0.90%
+
+$1,371
+
+$1,709
+
+$1,985
+
+$1,303
+
+$1,297
+
+$1,277
+
+77.4%
+
+85.9%
+
+40.4%
+
+97.7%
+
+51.4%
+
+64.7%
+
+7.9%
+
+12.4%
+
+5.3%
+
+5.6%
+
+2.9%
+
+7.0%
+
+$19,074
+
+$15,921
+
+$21,791
+
+$34,077
+
+$25,326
+
+$23,952
+
+0.78%
+
+1.09%
+
+0.64%
+
+1.92%
+
+0.86%
+
+1.61%
+
+$1,764
+
+$2,091
+
+$2,564
+
+$1,838
+
+$1,277
+
+$2,321
+
+Descriptive
+Largest Peril
+Number of
+States
+PCMI Policies
+
+National
+
+Southeast
+
+Figure 20: Regional Comparison (2018-2022 Averages)
+
+Source: PCMI Data, NRI (nominal dollar values adjusted for inflation). *“Storms” here is shorthand for Severe
+Convective Storms. **TLCR Categories are calculated separately for each region and, therefore, the risk categories
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+31
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+may not be directly comparable across regions.
+
+The sections below focus on three regions (out of seven), choosing one region for each of three
+predominant HOI Perils—the Southeast (hurricanes), Midwest (severe convective storms), and
+Southwest (wildfires)—to highlight the varying effects of these three perils on insurance
+outcomes in these regions. Understanding how insurance markets address the variation in losses
+caused by different perils will help federal, state, and local governments—as well as
+consumers—take steps to address insurance availability and costs, including through risk
+mitigation.
+The analyses for the remaining four regions and their predominant perils—the Northeast
+(hurricanes), Northern Great Plains (severe convective storms), Southern Great Plains (severe
+convective storms), and Northwest (wildfires) Regions—are in Appendix C.
+Southeast Region
+The Southeast Region consists of 11 states: Alabama, Arkansas, Florida, Georgia, Kentucky,
+Louisiana, Mississippi, North Carolina, South Carolina, Tennessee, and Virginia. About a
+quarter of the U.S. population lives in the Southeast Region.70 It also experienced higher
+population growth (3.0 percent) from 2018 to 2022 than did the nation as a whole (1.9 percent),
+with the population growth, especially in coastal areas, increasing exposure in areas of higher
+climate risk.71 Population movement into the region increased housing demand, leading to
+increases in home prices and new home construction, with the number of single-family homes
+growing 5.7 percent during this five-year period (from 24.6 million to 26.0 million).72 The
+Southeast Region has a diverse climate. The region faces a variety of perils, including extreme
+heat, extreme precipitation, drought, sea level rise, and hurricanes, but hurricanes are the
+predominate peril in the region.73 These risks are compounded in the region’s densely populated
+urban areas.
+Figure 21A illustrates which ZIP Codes in the Southeast Region are in each of the Regional
+TLCR Categories for all the HOI Perils. Figure 22B illustrates which are in each of the Regional
+Hurricane TLCR Categories, showing that areas bordering the Atlantic and the Gulf of Mexico
+are most at risk from hurricanes. On a national basis, more than a third of the Southeast
+
+U.S. Census Bureau, “DP05 American Community Survey Demographic and Housing Estimates: 2018 ACS 1Year Estimates Data Profiles” and “2022 1-Year Estimates Data Profile,” available through
+https://data.census.gov/table?q=DP05 (ACS Table DP05).
+70
+
+U.S. Census Bureau, “ACS Table DP05” (2018 1-Year Estimates Data Profile & 2022 1-Year Estimates Data
+Profile); USGCRP, NCA5, Chapter 22; Sam Khater, et al., Freddie Mac: Migration to Environmentally Risky
+Areas: A Consequence of the Pandemic (2022), https://www.freddiemac.com/research/insight/20221109-migrationenvironmentally-risky-areas-consequence (noting migration changes, which started before the COVID-19 pandemic,
+accelerated in 2020).
+71
+
+Frank Seo, “How Has the Pandemic Changed the House Price Landscape in the South?” Southern Ag Today,
+August 23, 2024, https://www.southernagtoday.org/2024/08/23/how-has-the-pandemic-changed-the-house-pricelandscape-in-the-south/; U.S. Census, “ACS Table B25024” (2022 5-Year Estimates Detailed Tables).
+72
+
+73
+
+USGCRP, NCA5, Chapter 22.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+32
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Region’s ZIP Codes (concentrated along the coast) are in the Highest Risk category (see Figures
+11 and 12).
+Figure 21: Southeast Region: (A) Regional TLCR Categories and (B) Regional Hurricane
+TLCR Categories by Zip Code
+A
+
+B
+
+Source: NRI
+
+From 2018 through 2022, the Southeast Region experienced 78 major disasters related to the
+HOI Perils, with the most significant events involving hurricanes and severe convective storms.
+Thirteen hurricanes resulted in disaster declarations across nine states during this five-year
+period, including 2022’s Hurricanes Ian ($56 billion in insured losses) and 2021’s Ida ($41
+billion in insured losses), both of which ranked (in terms of insured losses) behind only 2005’s
+Hurricane Katrina ($102 billion in insured losses), which is the costliest hurricane in the United
+States to date.74
+In 2022, over 420 homeowners insurers operated in the Southeast Region. The top 10 insurers in
+the Southeast Region—excluding Citizens Property Insurance Corporation (Florida Citizens), a
+major residual market insurer—wrote an average of 34.3 percent of the regional premiums
+written between 2018 and 2022.75 During this period, the average direct premium written by
+these top 10 insurers grew from $9.4 billion to $14.3 billion. Forty two percent of premiums in
+the Southeast are written by Regional Insurers, including 29 percent written by Local Insurers.76
+Some insurers in the Southeast Region have faced financial challenges in the homeowners
+insurance market and were placed in receivership. The insurance markets stabilized to some
+
+“Catastrophes: Facts + Statistics: Hurricanes,” III (January 2024), https://www.iii.org/fact-statistic/facts-statisticshurricanes. (These are inflation-adjusted numbers in 2023 dollars.)
+74
+
+75
+
+All data in this paragraph is from NAIC statutory filings obtained through S&P Global for homeowners insurers
+operating in the United States, excluding territories. While Florida Citizens was the seventh largest insurer during
+this period, it was excluded from the national top 10 because it is a residual market insurer. For more on residual
+markets, see Section III.C; for more on the Florida homeowners insurance market, see Box 3.
+For the Regional Analyses, a “Regional Insurer” derives 70 percent or more of its total homeowners direct
+premiums written from states in the region, while a “Local Insurer” derives 95 percent or more of its total
+homeowners direct premiums written from business in one state.
+76
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+33
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+degree in 2023, though the Southeast Region continues to be impacted by the effects of prior
+hurricane seasons and other factors.77
+Box 3. Florida Homeowners Insurance Market
+Under the NRI, Florida is the state with the highest annual expected losses from climate-related
+events. The PCMI Data Call contains relatively limited data on the Florida insurance market.
+Therefore, this box provides data from other available sources on homeowners insurance, namely
+Florida’s Quarterly and Supplemental Reporting System (QUASR) and Florida Citizens, the
+state’s residual insurer.
+Florida had an average of nearly 7 million total personal residential insurance policies in force
+during the 2018-2022 period.78 Local insurers comprised 57 percent of the Florida market in
+2022.79 QUASR publishes company-level data at the state- and county-levels for both personal
+and commercial residential insurance policies. Starting in 2025, QUASR will include ZIP Code
+level data updated monthly. QUASR does not publish county-level data that insurers have
+identified as trade secrets and, from 2018 to 2022, the percent of Florida premiums accounted for
+in the QUASR data fell from 73 percent to 27 percent.80 Using the available data, both Florida
+total residential policies and QUASR show premiums increasing between 2018 and 2022,
+although with different values (the five-year average premiums per policy were $1,985 in the
+state data versus $2,897 in the QUASR data).
+During the same five-year period, the number of HO-3 policies in force issued by Florida
+Citizens increased by over 300 percent, to 585,411 in 2022.81 Average premiums per policy in
+the residual market ($2,995) were higher than the state and QUASR averages.82
+Insurance Losses and Climate-Related Risk
+During the five-year period, the average paid loss ratio for the Southeast Region was 53.7
+percent, which is slightly below the national average of 57.5 percent for the same period. Across
+the five risk categories, the regional paid loss ratio averaged 49.7 to 57.6 percent, with the
+See, e.g., Tom Jacobs & Hassan Javed, “Receivership Roll Call, 2021,” S&P Global, January 31, 2022,
+https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/receivership-roll-call-202168570528. Annual receivership roll calls are available through S&P MarketWatch.
+77
+
+78
+
+Florida Citizens, Florida Residential Property Market Share (2022), 11,
+https://www.citizensfla.com/documents/20702/93160/20221231+Market+Share+Report.pdf/3a08beac-316c-d8dc04fd-3c763434bf2f?t=1686677960500. Data is reported by Citizens but reflects the total Florida personal
+residential market.
+79
+
+S&P Global.
+
+See FLOIR, “Personal and Commercial Residential Policy Data,” https://floir.com/tools-and-data/residentialmarket-share-reports (see Previous Residential Market Share Reports for 2024).
+80
+
+81
+
+Florida Citizens, Corporate Analytics Business Overview (2018), 11,
+https://www.citizensfla.com/documents/20702/93064/20181231+Business+Overview.pdf/50f1f66f-f186-48e4-96c67d7a865f6f1f?t=1550503002833; Florida Citizens, Corporate Analytics Business Overview (2022), 11,
+https://www.citizensfla.com/documents/20702/93064/20221231+Business+Overview.pdf/a566ba7c-70b7-95d9d397-25e921966d9f?t=1686677876843 (2022 Corporate Analytics Business Overview).
+82
+
+For more on residual markets, see Section III.C.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+34
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+highest ratio in the Highest Risk category (see Figure 22A). The average paid loss ratio for
+Louisiana was the highest of the states in the region due to Hurricane Ida in 2021, the second
+most severe (in terms of insured losses) hurricane to strike Louisiana, behind only Hurricane
+Katrina.83
+Figure 22: Southeast Region: (A) Paid Loss Ratios, (B) Claim Frequency, and (C) Claim
+Severity (2018-2022 Averages) by Regional TLCR Categories
+A
+B
+C
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+The average claim frequency during the five-year period for the region was 7.0 percent, which
+was over 20 percent higher than the national average claim frequency of 5.8 percent for the same
+period. The average regional claim frequency for the Highest Risk category averaged slightly
+higher than the lower categories (see Figure 22B). Louisiana had the highest average claim
+frequency at 13.7 percent due to five hurricanes that hit Louisiana between 2018 and 2022.
+During the five-year period, the average claim severity for the region was $16,075, which was
+more than 10 percent below the national average claim severity of $18,206. The average
+regional claim severity for the Highest Risk category ($23,244) was approximately 63 percent
+higher than that for the Lowest Risk category ($14,249) (see Figure 22C).
+Availability of Insurance and Climate-Related Risk
+The average nonrenewal rate during the five-year period for the region was 1.43 percent, which
+was 38 percent higher than the national average nonrenewal rate of 1.04 percent. The average
+nonrenewal rate was highest for the Highest Risk category at 2.32 percent, with the four other
+risk categories ranging between 1.04 and 1.40 percent (see Figure 23).
+
+“Hurricane Ida 2021,” NOAA, https://www.weather.gov/lch/2021Ida; “Costliest U.S. Tropical Cyclones,” NOAA
+NCEI & National Hurricane Center (last updated November 1, 2024),
+https://www.ncei.noaa.gov/access/billions/dcmi.pdf.
+83
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+35
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 23: Southeast Region: Nonrenewal Rates (2018-2022 Average) by Regional TLCR
+Categories
+
+Sources: PCMI Data, NRI
+
+Cost of Insurance and Climate-Related Risk
+The average premiums per policy for the five-year period for the Southeast Region were $1,919,
+about 15 percent above the national average of $1,663 (see Figure 24). The average premiums
+per policy for the Highest Risk category were $2,936, which was about $1,000 more than that for
+the Higher Risk category, more than $1,400 higher than for the Lowest Risk category, and about
+$1,300 higher than for each of the other two categories’ five-year averages.
+Figure 24: Southeast Region: Premiums Per Policy (2018-2022 Average) by Regional
+TLCR Categories
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+Midwest Region
+The Midwest Region consists of eight states: Illinois, Indiana, Iowa, Michigan, Minnesota,
+Missouri, Ohio, and Wisconsin. The region’s population was 62.2 million in 2022 and grew
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+36
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+more slowly than did the national population from 2018 (0.6 percent vs. 1.9 percent).84 The
+number of single-family homes in the region grew by 1.9 percent from during the same period.85
+The Midwest Region is prone to a wide variety of perils, including thunderstorms, heatwaves,
+severe cold, blizzards, droughts, floods, and tornados.86 The predominant climate-related peril is
+severe convective storms, which occur frequently when warm, humid air from the Gulf of
+Mexico mixes with cold, dry air from Canada.87 Risk of tornados is particularly high in Iowa
+(sometimes considered part of “Tornado Alley”), Illinois, Indiana, and Missouri.88 From 2018
+through 2022, the Midwest Region experienced 13 disaster declarations for severe convective
+storms.89
+Figure 25A illustrates which ZIP Codes in the Midwest Region are in each of the Regional
+TLCR Categories for all of the HOI Perils. Figure 25B illustrates which are in each of the
+Regional Severe Convective Storm TLCR Categories. On a national basis, only 3.6 percent of
+the Region’s ZIP Codes are part of the Highest Risk category: most ZIP Coes fall into the three
+middle risk categories, with 12.4 percent in the Lowest Risk category (see Figures 11 and 12).
+Figure 25: Midwest Region: (A) Regional TLCR Categories and (B) Regional Severe
+Convective Storm TLCR Categories by ZIP Code
+A
+B
+
+Source: NRI
+
+In 2022, over 350 homeowners insurers operated in the Midwest Region.90 Between 2018 and
+2022, the market share of the top 10 insurers in this region increased by about 3 percent in this
+
+U.S. Census Bureau, “ACS Table DP05” (2018 ACS 1-Year Estimates Data Profiles and 2022 1-Year Estimates
+Data Profile).
+84
+
+85
+
+U.S. Census, “ACS Table B25024” (2022 5-Year Estimates Detailed Tables).
+
+86
+
+Jeff Andresen, et al., Historical Climate and Climate Trends in the Midwestern USA (2012),
+https://glisa.umich.edu/wp-content/uploads/2021/02/MTIT_Historical.pdf.
+87
+
+“Thunderstorms,” Midwestern Regional Climate Center, mrcc.geddes.rcac.purdue.edu/living_wx/thunderstorms.
+
+88
+
+For more on Tornado Alley, see Appendix C.3 (Southern Great Plains Region).
+
+89
+
+FEMA, “Disaster Declarations.”
+
+90
+
+All data in this paragraph is based on NAIC statutory filings available through S&P Global.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+37
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+region. In 2022, 16.7 percent of premiums for homeowners insurance in the Midwest Region
+were written by Regional Insurers, including 7.0 percent by Local Insurers.
+Insurance Losses and Climate-Related Risk
+The average paid loss ratio for the five-year period was 61.3 percent for the Midwest Region as a
+whole, with variations across Regional TLCR Categories and across the states in the region.
+Overall, the average paid loss ratio was the highest (77.4 percent) in the Highest Risk category,
+likely a result of the extreme storms and tornado outbreaks, particularly in 2022 (see Figure
+26A). Iowa had the highest average paid loss ratio, due in large part to a significant severe
+convective storm in the form of a derecho that impacted the state in 2020.
+Figure 26: Midwest Region: (A) Paid Loss Ratios, (B) Claim Frequency, and (C) Claim
+Severity (2018-2022 Averages) by Regional TLCR Categories
+A
+B
+C
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+The average claim frequency for the five-year period for the region was 6.4 percent, which was
+slightly above the national average of 5.8 percent. The regional average claim frequency was
+highest in the Higher Risk and the Highest Risk categories at 6.8 percent and 7.9 percent
+respectively (Figure 26B). The average claim severity for the period for the region was $16,542,
+which was nine percent below the national average for the same period. The average regional
+claim severity for the period was highest in the Highest Risk category at $19,074 (Figure 26C).
+The averages for claim frequency and severity demonstrate how insurers in the region were
+affected by severe convective storms that were high-frequency and low-to-medium severity loss
+events.
+Availability of Insurance and Climate-Related Risk
+The average nonrenewal rate in the Midwest Region for the five-year period did not correspond
+with the risk categories (see Figure 27). For the five-year period, the average nonrenewal rate
+across all Regional TLCR Categories in the Midwest Region was 1.11 percent, which was
+slightly above the national average nonrenewal rate of 1.04 percent.
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+38
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 27: Midwest Region: Nonrenewal Rates (2018-2022 Average) by Regional TLCR
+Categories
+
+Sources: PCMI Data, NRI
+
+Cost of Insurance and Climate-Related Risk
+In the Midwest Region, the average premiums per policy for the five-year period were $1,545,
+which was seven percent lower than the national average premiums per policy of $1,663. The
+average premiums per policy for the period were the highest ($1,764) in the Highest Risk
+category (see Figure 28).
+Figure 28: Midwest Region: Premiums Per Policy (2018-2022 Average) by Regional TLCR
+Categories
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+Southwest Region
+The Southwest Region has seven states: Arizona, California, Colorado, Hawaii, Nevada, New
+Mexico, and Utah. The region’s population was 62.3 million in 2022, and grew by 0.3 percent
+between 2018 and 2022, which was below the national population growth rate of 1.9 percent for
+the same period.91 The number of single-family homes grew from 15.6 million to 16.3 million, a
+
+91
+
+U.S. Census Bureau, “ACS Table DP05” (2018–2019 and 2021–2022 ACS 1-Year Estimates Data Profiles).
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+39
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+4.6 percent increase, and comprised about two-thirds of the housing stock.92 Since 2000, the
+Southwest has been experiencing a megadrought, which has made the region increasingly prone
+to wildfires.93 Insurance losses are also increasing because more people are living in wildlandurban-interface areas.
+Figure 29A illustrates which ZIP Codes in the Southwest Region are in each of the Regional
+TLCR Categories for all HOI Perils. Figure 29B illustrates which are in each of the Regional
+Wildfire TLCR Categories. On a national basis, almost one quarter of the region’s ZIP Codes
+are in the Highest Risk category, but the majority of the region’s ZIP Codes are in the Lowest
+Risk category (see Figures 11 and 12).
+Figure 29: Southwest Region: (A) Regional TLCR Categories and (B) Regional Wildfire
+TLCR Categories by ZIP Code
+A
+
+B
+
+Source: NRI
+
+Of the HOI Perils, wildfires have been the largest contributors to annual losses in the Southwest
+Region. Wildfires led to 124 disaster declarations in the region and each state in the region had
+at least two such declarations from 2018 through 2022. California and Arizona had 60 and 16
+disaster declarations, respectively. Wildfires in this region burned an average 3.3 million acres
+annually from 2018 through 2022.94 California had the largest number of average acres burned
+and the most residences destroyed due to wildfires of any state within the United States. In the
+five-year period, the region had five wildfires that caused over $100 million in damages,
+including three in California (2018 Camp Fire, 2021 Dixie Fire, 2021 Beckwourth Complex
+
+92
+
+U.S. Census Bureau, “ACS Table B25024” (2022 ACS 5-Year Estimates Detailed Tables).
+
+93
+
+NOAA, National Integrated Drought Information System, Research Spotlight: Climate-Drive Megadrought,
+https://www.drought.gov/research-spotlight-climate-driven-megadrought.
+94
+
+National Interagency Coordination Center (NICC), Wildland Fire Summary and Statistics Annual Report (2018),
+4, 41, 43, 48 (2018 Wildland Fire Report); NICC, Wildland Fire Summary and Statistics Annual Report (2019), 7, 9,
+41, 43, 47, 49 (2019 Wildland Fire Report); NICC, Wildland Fire Summary and Statistics Annual Report (2020), 6,
+35, 38, 43, 45 (2020 Wildland Fire Report); NICC, Wildland Fire Summary and Statistics Annual Report (2021), 7,
+37, 39, 44, 46 (2021 Wildland Fire Report); NICC, Wildland Fire Summary and Statistics Annual Report (2022), 6,
+37, 39, 44, 46 (2022 Wildland Fire Report). All Wildland Fire Reports available through “Intelligence: NICC
+Annual Reports,” NICC, https://www.nifc.gov/nicc/predictive-services/intelligence.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+40
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Fires), one in Colorado (2020 Marshall Fire), and one in New Mexico (2022 Hermits Peak
+Fire).95
+In 2022, 289 homeowners insurers operated in the Southwest Region.96 The combined market
+share of the top 10 homeowners insurers in the Southwest Region increased by 6.4 percent from
+2018 to reach 47.4 percent in 2022, less than the 63 percent market share held by the top 10
+homeowners insurers on a national level. In 2022, Regional Insurers wrote 35.5 percent of
+premiums for this region, including 24.1 percent written by Local Insurers.
+Insurance Losses and Climate-Related Risk
+During the five-year period, the average paid loss ratio in the Southwest Region was 81.6
+percent, which was higher than the national average paid loss ratio for the period of 57.5 percent.
+The region’s relatively high average paid loss ratio indicates that insurers may have been less
+able to cover paid losses and administrative and other expenses from their premiums. The
+average paid loss ratios were highest in the Higher Risk and Highest Risk categories at 106.7
+percent and 97.7 percent, respectively (see Figure 30A). During this five-year period, California
+had the highest average paid loss ratio by state, reflecting the numerous large and destructive
+wildfires that California experienced during this five-year period. Over half of the average total
+premiums and average total paid losses for the region were in California, so insurers’ experience
+in that state had a significant influence on the regional figures.
+Figure 30: Southwest Region: (A) Paid Loss Ratios, (B) Claim Frequency, and (C) Claim
+Severity (2018-2022 Averages) by Regional TLCR Categories
+A
+B
+C
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+The average claim frequency for the Southwest Region during this five-year period was 5.3
+percent, which was slightly less than the national average claim frequency of 5.8 percent (see
+Figure 30B). The highest average claim frequency (6.9 percent) was in the Higher Risk
+95
+
+“Data Visualization, Disaster Declarations for States and Counties,” FEMA.
+
+96
+
+All data in this paragraph concerns homeowners insurers operating in the United States, excluding territories,
+based on NAIC statutory filings obtained through S&P Global.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+41
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+category. The states in the region with the highest average claim frequency were Colorado and
+New Mexico, which reflects the exposure of those states to relatively frequent severe convective
+storms.97
+During the five-year period, the average claim severity in this region was over $26,845, which
+was about 50 percent higher than the average national claim severity of $18,206 for the same
+period. The average claim severity in the Highest Risk category was 61.8 percent higher than the
+average claim severity in the Lowest Risk category during the five-year period (see Figure 30C).
+In 2018 and 2019, the Higher Risk and Highest Risk categories experienced significant spikes in
+claim severity, a result of the large number of homes in the region (predominantly in California)
+that were damaged or destroyed in wildfires in 2017 and 2018 and for which claims were filed in
+2018 and 2019.
+Availability of Insurance and Climate-Related Risk
+The average nonrenewal rate for the five-year period for the Southwest Region was 1.28 percent,
+which was 23.5 percent higher than the national average nonrenewal rate of 1.04 percent for the
+same period. The average nonrenewal rates during this five-year period were highest in the
+Higher Risk and Highest Risk categories, at 1.38 percent and 1.92 percent, respectively (see
+Figure 31).
+Figure 31: Southwest Region: Nonrenewal Rates (2018-2022 Average) by Regional TLCR
+Categories
+
+Sources: PCMI Data, NRI
+
+Cost of Insurance and Climate-Related Risk
+The region’s average premiums per policy, adjusted for inflation, for the five-year period were
+$1,611, which was slightly less than the national average premiums per policy of $1,663. The
+average premiums per policy were highest in the Higher Risk and Highest Risk categories, which
+had average premiums per policy of $1,867 and $1,838, respectively (see Figure 32).
+See, e.g., “Severe Weather Climatology for Southeast and South Central Colorado,” NOAA National Weather
+Service, https://www.weather.gov/pub/severeWeatherClimatology; “Severe Weather Climatology for New Mexico,”
+NOAA National Weather Service, https://www.weather.gov/abq/svrwxclimo.
+97
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+42
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 32: Southwest Region: Premiums Per Policy (2018-2022 Average) by Regional
+TLCR Categories
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+43
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+V.
+
+CONCLUSION AND RECOMMENDATIONS
+
+This Report highlights the ongoing challenges for some consumers seeking adequate and
+available homeowners insurance. Based on ZIP Code level data, this Report complements the
+important work of states and local communities. In particular, the analyses in this Report
+generally show that the cost of insurance for homeowners increased and the insurance
+availability declined from 2018 through 2022. The analyses also show that the cost of insurance
+was higher and the availability of insurance was lower in areas with the highest expected annual
+losses to buildings from climate-related perils when compared with the areas with the lowest
+expected annual losses. Publicly available information suggests that these market patterns have
+continued into 2023 and 2024. FIO will continue to collaborate with state insurance regulators,
+the NAIC, and other stakeholders to help inform policymakers’ efforts to monitor and address
+challenges in the U.S. homeowners insurance market. FIO offers the following
+recommendations:
+1. State insurance regulators, the NAIC, and FIO should continue collaboration on the
+PCMI Data Call on an annual basis. The Report highlights significant variations in the
+cost and availability of homeowners insurance and insurers’ costs across local areas.
+Continued annual collection of ZIP Code level homeowners insurance data by state insurance
+regulators and the NAIC, in collaboration with FIO, will be an important component of
+efforts by local, state, and federal policymakers and insurance regulators to monitor
+developments in the homeowners insurance markets across the United States, including with
+respect to how such markets are being impacted by climate-related disasters and other
+factors.
+2. State insurance regulators and the NAIC should enhance future PCMI Data Calls to
+include large residual market insurers, additional data fields and policy forms, and
+other market segments such as those related to multi-family residential properties.
+Obtaining ZIP Code level data from large residual market insurers will provide a more
+complete assessment of insurance costs and availability in the United States. In addition, the
+potential future collection of additional data fields and policy forms, as well as other market
+segments, could help policymakers and state insurance regulators assess challenges in the
+homeowners and multi-family residential insurance markets.
+3. The NAIC should take additional steps to make the data from their PCMI Data Call
+available to policymakers and researchers while protecting the confidential nature of
+any individual insurer data. The PCMI Data Call is a larger collection with a broader
+range of information than what was made available to FIO. Making information from the
+PCMI Data Call available to policymakers and researchers—with appropriate confidentiality
+restrictions—would enable additional analyses of insurance markets. The data could be used
+to conduct additional analyses in coordination with other regulators and policymakers. For
+example, the data could help federal, state, and local governments make more informed
+decisions on mitigation and resilience projects and investment, helping to identify where
+these efforts are most needed in light of higher losses and population movement. The data
+could also inform efforts by federal and state policymakers to evaluate whether and how the
+public sector could help reduce insurance protection gaps. The data from the PCMI Data
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+44
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Call, together with FEMA’s data on flood insurance, could provide regulators and
+policymakers with a holistic view of insurance coverage for U.S. homeowners. Also, the
+data could be used to inform how changes in the cost and availability of homeowners
+insurance could affect banking and real estate values and the financial position of local
+economies. In addition, the NAIC and state insurance regulators should work with
+researchers, academics, and policymakers on data standardization methods and development
+of best practices for future data collection efforts and analyses.
+4. State and federal regulators and policymakers should continue their efforts to improve
+public awareness about the importance of adequate homeowners insurance. State
+insurance regulators and state and federal policymakers should use the information from the
+PCMI Data Call to help improve consumer awareness, with the goal of enabling local
+communities and insurance consumers to better understand their insurance markets,
+including the benefits of programs relating to pre-disaster mitigation investments in property
+resilience. Public-private partnerships with the insurance industry and other stakeholder
+groups can help with this important educational effort.
+In order to promote transparency and research, Treasury is releasing a subset of the aggregated
+data metrics underlying the analysis in the Report on its website.98 Subject to appropriate
+confidentiality measures and legal mechanisms, Treasury also plans to share the aggregate ZIP
+Code level PCMI Data with researchers/academics who are under detail arrangements to FIO.
+
+See “Reports & Notices,” FIO, https://home.treasury.gov/policy-issues/financial-markets-financial-institutionsand-fiscal-service/federal-insurance-office/reports-notices.
+98
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+45
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+APPENDIX A. GENERAL INSURANCE AND PCMI DATA CALL REFERENCE
+MATERIALS
+Common Homeowners Insurance Policy Forms
+Policies that are the subject of this Report are shaded in blue below.
+Dwelling fire policies (DPs) (single-family, owner-occupied, non-seasonal buildings):
+DP-1: Generally provides coverage for the cost of the dwelling structure, plus any attached structures, against
+specific named perils such as fire and lightning, and may include coverage for windstorms and hail.
+DP-2: Typically covers same perils as DP-1, but also offers a broader range of coverage for additional named
+perils such as falling objects, the weight of snow, and vandalism.
+DP-3: Generally offers “all-risk” coverage for a dwelling, plus additional attached structures. It covers all perils
+except any that are expressly excluded from coverage by name.
+Homeowners package policies (HOs) for owner-occupied dwellings with four or fewer family units:
+HO-1: Typically offers the narrowest, most basic homeowners insurance coverage. It covers the structure of a
+policyholder’s dwelling but may not cover their personal property or personal liability.
+HO-2: Often provides a bit more coverage than an HO-1. It offers broad named perils coverage for a
+policyholder’s dwelling and possessions. It can also cover liability and additional living expenses.
+HO-3: Most common homeowners insurance coverage policy. It provides coverage for dwellings and personal
+property for any peril except those that are specifically excluded in the policy.
+HO-5: Similar, yet more comprehensive, version of HO-3. It offers multi-peril coverage except for perils
+expressly excluded on buildings and personal property.
+HO-8: Designed primarily for older homes for which the cost to repair the damaged house (e.g., due to the cost of
+less common building materials) exceeds the home’s actual cash value. Similar to HO-1, this policy provides
+basic named perils coverage on personal property.
+Homeowners package policies for renters, condo and co-op units, and mobile or manufactured homes:
+HO-4 (Renter’s Insurance): Offers basic insurance to tenants and typically provides named perils coverage for a
+renter’s personal belongings within the dwelling. In some cases, it may also provide liability coverage.
+HO-6 (Condo/Co-op Insurance): Sometimes referred to as “walls-in” coverage, it typically provides broad named
+perils coverage for personal property within the walls of a condominium or cooperative unit, the unit itself, and
+building items in which the unit owner may have an insurable interest.
+HO-7 (Mobile/Manufactured homes): Similar to HO-3, typically provides coverage for mobile or manufactured
+homes (e.g., RVs, trailers) except for perils expressly excluded in the policy, and broad named perils coverage for
+personal property.
+Source: NAIC99
+
+NAIC, 2021 Homeowners Report, 3-4; Alani Asis, et al., “Types of Homeowners Insurance Policies,” CNN,
+January 18, 2024, https://www.cnn.com/cnn-underscored/money/types-of-homeowner-insurance; NAIC, Definitions
+for State Regulator Property & Casualty Insurance Market Intelligence Data Call (April 22, 2024), 1,
+https://content.naic.org/sites/default/files/industry-data-call-property-ho-definitions.pdf. (Definitions for State
+Regulator P&C Data Call).
+99
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+46
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+PCMI Data Call Fields Used in this Report
+Data Type
+
+Data Fields (in Italics) and Description
+
+Premiums
+
+Written Premium measures the amount that policyholders pay for their insurance. Generally, insurers
+determine the premium amount for a homeowners policy based on: (1) the amount of insurance
+purchased (typically based on the value of the insured property); (2) the types and characteristics of
+property covered (e.g., dwelling or personal belongings); (3) the types of perils covered and the risk of
+loss due to those covered perils; and (4) the specific limits and deductibles a policyholder chooses. 100
+
+Number of
+Policies
+
+Policies in Force at End of Reporting Year measures the number of policies still active at the end of each
+reporting year. The reporting year is the calendar year in which the policy was written which, for the
+PCMI Data Call, was 2018, 2019, 2020, 2021, or 2022.
+
+Paid Claims
+
+Count of Paid Claims in Reporting Year measures the number of claims that were closed with payment
+during each reporting year. Large numbers of claims correspond to large numbers of policyholders
+affected by events.
+
+Paid Losses
+
+Losses Paid in Reporting Year measures the total amount of money paid to policyholders by insurers
+during each reporting year. High losses might correspond either to large numbers of policyholders
+affected by events or to a smaller number of policyholders that experienced large losses.
+
+Nonrenewals
+and
+Cancellations
+
+Count of Nonrenewals in Reporting Year (which includes only the number of existing policies that the
+insurer chose not to renew the following year for the circumstances permitted under the policy’s
+nonrenewal clause), and Count of Nonpayment Cancellations in Reporting Year (which occur when an
+insurer decides to cancel a policy before the policy period ends because the policyholder failed to pay
+the premiums due in a timely manner)
+
+Source: FIO, NAIC101
+
+100
+
+NAIC, 2021 Homeowners Report, 2.
+
+101
+
+See NAIC, Definitions for State Regulator P&C Data Call, 1.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+47
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+State Insurance Rate Regulatory Regimes by Region
+Region
+
+Open
+Rating
+
+Use-and-File
+
+File-and-Use
+
+Southeast
+
+Kentucky
+
+Arkansas, Florida,102
+Georgia, Virginia
+
+Northeast
+
+Vermont
+
+Midwest
+
+Illinois, Iowa,
+Missouri,
+Wisconsin
+
+Connecticut,
+Delaware, D.C.,
+Maine,
+Massachusetts, New
+Hampshire, Rhode
+Island
+Indiana, Michigan,
+Minnesota, Ohio
+
+Northern Great Plains
+Southern Great Plains
+Southwest
+Northwest
+
+Wyoming
+Oklahoma
+Arizona,
+Utah
+Idaho
+
+Montana, Nebraska,
+South Dakota
+Kansas, Texas
+Colorado, Nevada,
+New Mexico
+Oregon
+
+Flex
+Band
+
+Prior Approval
+Alabama, Louisiana,
+Mississippi, North
+Carolina, South Carolina,
+Tennessee
+Maryland, New Jersey,
+New York, Pennsylvania,
+West Virginia
+
+North Dakota
+California, Hawaii
+Alaska
+
+Washington
+
+Source: NAIC103
+
+Open rating: insurer establishes rates with a presumption that they comply with the state’s
+standards and the state regulator only intervenes in limited circumstances.
+Use-and-file: insurer releases a product with certain rates while also submitting a rate filing with
+the state regulator, who may object within a fixed number of days but otherwise the insurer may
+continue to use the rates.
+File-and-use: insurer files a rate request with the state regulator, who has a fixed number of days
+to review it and object or disallow it, but if the state regulator takes no action within the required
+time period, then the insurer may implement the rate.
+
+102
+
+Florida allows insurers to use either file and use or use-and-file, but if an insurer uses the use-and-file method
+and the Florida Office of Insurance Regulation disallows the rate, then the insurer must refund the excessive
+portions of the premiums that it has collected. See Fla. Stat. Ann. § 627.062.
+103
+
+NAIC, NAIC Model Laws, Regulations, Guidelines and Other Resources, Rate Filing Methods for
+Property/Casualty Insurance, Workers’ Compensation, Title (Fall 2022), PA-10-1 – PA-10-24; NAIC, NAIC Model
+Laws, Regulations, Guidelines and Other Resources, Rate Filing Methods for Property/Casualty Insurance,
+Workers’ Compensation, Title (Summer 2021), PA-10-18; NAIC Model Laws, Regulations, Guidelines and Other
+Resources, Rate Filing Methods for Property/Casualty Insurance, Workers’ Compensation, Title (Fall 2022), PA-101 – PA-10-22; NAIC, Compendium of State Laws on Insurance Topics, Rate Filing Methods for Property/Casualty
+Insurance, Workers’ Compensation, Title (Fall 2022), II-PA-10-1 – PA-10-22. The NAIC Compendium of State
+Laws on Insurance Topics, which contains the chapter on Rate Filing Methods for Property/Casualty Insurance,
+Workers Compensation, Title, may be obtained either through NAIC Publications,
+https://content.naic.org/account_manager.htm, or through a subscription to Thomas Reuters Practical Compliance.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+48
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Flex band: insurer files a rate request with the state regulator and as long as the rate increase is
+less than a fixed amount, the rate filing generally is treated the same as under file-and-use
+regulations; however, if the rate increase is at or above the fixed amount, the rate filing generally
+is treated the same as under prior approval regulations.
+Prior approval: insurer files a rate request with a state regulator and may not implement the rate
+until the state regulator has approved it.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+49
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+APPENDIX B. RESIDUAL MARKET INFORMATION
+Number of Residential Policies in State Residual Market Plans, 2018 to 2022
+Plans
+Alabama
+Mississippi
+North Carolina
+South Carolina
+Texas
+Beach Plans Total
+California
+Connecticut
+Delaware
+D.C.
+Florida
+Georgia
+Hawaii
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
+New Jersey
+New Mexico
+New York
+North Carolina
+Ohio
+Oregon
+Pennsylvania
+Rhode Island
+Texas
+Virginia
+Washington
+West Virginia
+Wisconsin
+FAIR Plan Total
+Total for All Plans
+
+2018
+20,910
+20,660
+199,392
+21,055
+202,710
+464,727
+
+2019
+
+2020
+
+Beach Plans
+17,949
+16,288
+17,671
+14,397
+201,374
+201,178
+19,509
+16,498
+189,935
+187,529
+446,438
+435,890
+
+2021
+
+2022
+
+% Change
+2018-2022
+
+16,507
+12,457
+211,113
+15,153
+194,410
+449,640
+
+18,001
+12,052
+218,906
+14,715
+223,925
+487,599
+
+-13.91%
+-41.67%
+9.79%
+-30.11%
+10.47%
+4.92%
+
+FAIR Plans plus Florida and Louisiana
+119,570
+161,395
+198,206
+226,524
+1,804
+1,658
+1,461
+1,315
+1,435
+1,330
+1,272
+1,183
+188
+162
+128
+106
+452,526
+463,757
+568,051
+808,431
+1,709
+13,726
+12,508
+9,307
+NA
+NA
+NA
+NA
+4,390
+3,850
+2,427
+2,014
+1,183
+1,112
+1,041
+806
+1,288
+1,194
+1,120
+1,057
+15,307
+14,659
+13,476
+12,564
+8,419
+7,821
+6,849
+5,936
+46,171
+41,408
+39,671
+45,072
+1,250
+1,123
+925
+836
+230,828
+221,545
+209,342
+202,424
+18,040
+17,283
+15,334
+15,752
+5,079
+4,803
+4,399
+4,045
+5,369
+4,601
+4,309
+3,361
+2,488
+2,335
+2,088
+2,000
+11,911
+10,658
+9,418
+8,423
+10,897
+10,498
+9,168
+8,020
+34,839
+31,082
+27,756
+25,106
+177,002
+184,975
+193,723
+205,650
+17,309
+15,680
+13,917
+12,151
+1,948
+1,787
+1,669
+1,647
+13,484
+12,543
+11,483
+10,646
+15,524
+16,889
+14,430
+13,501
+104,165
+89,913
+79,575
+72,520
+28,946
+27,533
+25,980
+23,953
+72
+82
+68
+96
+382
+343
+309
+297
+5,481
+5,254
+4,513
+4,465
+1,339,004 1,370,999 1,474,616 1,729,208
+1,803,731 1,817,437 1,910,506 2,178,848
+
+254,478
+1,159
+1,078
+107
+1,214,351
+9,217
+NA
+2,441
+660
+794
+12,138
+4,989
+146,056
+689
+197,010
+15,270
+3,764
+2,891
+1,954
+7,593
+7,409
+20,814
+211,662
+10,930
+1,722
+9,462
+12,859
+66,488
+22,118
+116
+276
+3,822
+2,244,317
+2,731,916
+
+112.83%
+-35.75%
+-24.88%
+-43.09%
+168.35%
+439.32%
+NA
+-44.40%
+-44.21%
+-38.35%
+-20.70%
+-40.74%
+216.34%
+-44.88%
+-14.65%
+-15.35%
+-25.89%
+-46.15%
+-21.46%
+-36.25%
+-32.01%
+-40.26%
+19.58%
+-36.85%
+-11.60%
+-29.83%
+-17.17%
+-36.17%
+-23.59%
+61.11%
+-27.75%
+-30.27%
+67.61%
+51.46%
+
+Sources: “Insurance Provided by Fair Plans by State,” III, https://www.iii.org/table-archive/20793 (archived tables);
+“Insurance Provided Beach and Windstorm Plans,” III, https://www.iii.org/table-archive/21303 (archived tables).
+See Section III.C for more information on residual markets.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+50
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Types of Policies and Perils Covered by State Residual Market Plans
+Types of Homeowners Policies,
+including Extending Coverage Endorsements (E.C. End’t)
+Beach or Windstorm Plans
+
+HOI Perils Covered by Residual
+Market Plan
+
+Alabama
+
+Offered wind/hail/hurricane only policy for condominiums, homes, mobile
+homes, and commercial businesses located in the Gulf Front, Beach and
+Seacoast areas of select counties. As of 2017, Alabama’s plan is no longer
+writing new fire, E.C., and theft policies but existing policies were not
+affected. Every Alabama plan policy is written with a package policy issued
+by an insurance company that underwrites other coverages, which may
+include fire.
+
+Wind, hail, and hurricane only
+
+Mississippi
+
+Offered a windstorm and hail policy for 1-4 family residential properties
+along the coast in select counties.
+
+Windstorm and hail only
+
+North Carolina
+
+Beach Territories (i.e., south and east of the inland waterway, including
+Outer Banks) can obtain DP-1 and DP-2. Beach and Coastal Territories (i.e.,
+18 eligible coastal counties) can obtain WH D2 01 (Dwelling Windstorm and
+Hail only), Homeowner Windstorm and Hail Special Forms HW-3 and HW-6
+with HW3234 Endorsement, and Homeowner Special Forms HO-3 and HO6 with HO3234 Endorsement.
+
+DP forms cover fire, lightning,
+windstorm, and hail; WH D2 01
+covers only windstorm and hail;
+special forms cover named and multiperils similar to HO-3 and HO-6
+forms.
+
+South Carolina
+
+WHP1 (Dwelling Wind and Hail only policy), WHP10 (Replacement Cost
+for Principal Single-Family Dwelling Endorsement – requires a separate
+flood insurance policy), WHM1 (Manufactured Home Wind and Hail only
+policy), and WHA1 (Condominium Unit Owners Wind and Hail only
+policy). Coverage is only available in two defined zones in coastal areas.
+
+Wind and hail only
+
+Texas
+
+Dwelling Windstorm policy (requires evidence of flood insurance if in flood
+plain), TWIA 280 (Condominium Property Form), and endorsements for
+TWIA 802 (Replacement Cost Coverage A Dwelling) and TWIA 804
+(Replacement Cost Coverage A Dwelling – Actual Cash Value Roofs). Only
+available in the 14 counties along the Gulf Coast.
+
+Wind and hail only
+
+California
+
+CFP-1 (equivalent to DP-1)
+
+Fire, lightning, windstorm, and hail
+
+Connecticut
+
+DP-1
+
+Fire, lightning, wind, and hail
+
+Delaware
+
+DP-1
+
+Fire, lightning, windstorm, and hail
+
+D.C.
+
+DP-1, HO-2, HO-4, HO-6, and HO-8
+
+Policies cover named perils
+
+Florida
+
+DP-1, DP-3, HO-3, HO-4, HO-6, MHO-3 (mobile home policy), MHO-4
+(mobile home renters policy), DW-2 (dwelling wind only), HW-2
+(homeowners wind only), HW-4 (renters wind only), HW-6 (condominium
+wind only), and MW-2 (mobile home wind only). Personal Lines Account
+offers multi-peril residential policies throughout the state while the Coastal
+Account offers wind only and multi-peril residential policies in 35 coastal
+counties.
+
+Policies cover named perils or multiperils
+
+Georgia
+
+DP-1, HO-8, and DWH (Dwelling wind and hail only). Wind and hail only
+policies are available only in the six counties along the coast.
+
+Fire, lightning, wind, and hail
+
+Hawaii
+
+DP-2, HO-2, HO-4, and HO-6
+
+Policies cover named perils or multiperils
+
+Illinois
+
+DP-1, HO-2, HO-3, HO-4, HO-6, and HO-8
+
+Policies cover named perils or multiperils.
+
+Indiana
+
+DP-1, DP-2, HO-2, and HO-8
+
+Policies cover named perils or multiperils.
+
+Plans
+
+FAIR Plans plus Florida and Louisiana
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+51
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Plans
+
+Types of Homeowners Policies,
+including Extending Coverage Endorsements (E.C. End’t)
+
+HOI Perils Covered by Residual
+Market Plan
+
+Iowa
+
+Dwelling Fire policy and HO-8
+
+Fire, lightning, and named perils for
+HO-8 policies.
+
+Kansas
+
+Did not offer a dwelling policy that covered HOI Perils other than those
+listed in the Fire, E.C., and VMM column
+
+Fire and lightning only
+
+Kentucky
+
+DP-2, HO-4, HO-6, and HO-8
+
+Policies cover named perils or multiperils.
+
+Louisiana
+
+DWG-1, DWG-2, DWG-3, HO-2, HO-3, HO-4, HO-6, and HO-8
+
+The DWG-1 to DWG-3 only cover
+windstorm and hail; other policies
+cover named perils or multi-perils.
+
+Maryland
+
+DP-1, HO-2, HO-4, HO-6, and HO-8
+
+Policies cover named perils or multiperils.
+
+Massachusetts
+
+DP-2, DP-3, HO-2, HO-4, HO-6, and HO-8 as well as DP-1 for mobile
+homes at a fixed location
+
+Policies cover named perils or multiperils.
+
+Michigan
+
+DP-1, HO-2, HO-3, HO-4, and HO-6
+
+Policies cover named perils or multiperils.
+
+Minnesota
+
+DP-1 including for mobile homes, HO-4, HO-6, and HO-8
+
+Policies cover named perils or multiperils.
+
+Mississippi
+
+Dwelling Fire policies, Dwelling Fire policies with E.C. for windstorm and
+hail permitted except for properties or mobile homes located in three coastal
+counties
+
+Fire and lightning and with E.C.
+End’t windstorm and hail
+
+Missouri
+
+DP-1
+
+Fire, lightning, windstorm, and hail
+
+New Jersey
+
+DP-1 and DP-2
+
+Fire, lightning, windstorm, and hail
+
+New Mexico
+
+DP-1
+
+Fire, lightning, windstorm, and hail
+
+New York
+
+DP-1 and DP-2; mobile homes can only obtain DP-1
+
+Fire, lightning, windstorm, and hail;
+DP-2 also covers damage from
+freezing and weight of ice, snow, or
+sleet
+
+North Carolina
+
+DP-1, DP-2, DP-2 with DP475 endorsement form, HO-2, HO-3, HO-4, HO6, and HO-8. Available statewide except for Coastal and Beach Territories
+covered by the NC beach plan (NC Coastal Property Insurance Pool).
+
+Policies cover named perils or multiperils.
+
+Ohio
+
+DP-1, HO-2, HO-3, HO-4, HO-6, and HO-8
+
+Policies cover named perils or multiperils.
+
+Oregon
+
+DP-1
+
+Fire and lightning and, with E.C.
+End’t, wind, and hail
+
+Pennsylvania
+
+DP-1 and DP-2
+
+Fire and lightning, and with E.C.
+End’t, wind, and hail
+
+Rhode Island
+
+DP-1, HO-2, HO-3, HO-4, HO-5, HO-6, and HO-8
+
+Policies cover named perils or multiperils.
+
+Texas
+
+Offers a Dwelling Policy, a Homeowners Policy, a Tenant Policy, and a
+Condominium Policy
+
+The policies cover fire, lightning,
+wind, and hail. However, wind and
+hail perils are excluded from
+coverage when the risk is located in
+the designated catastrophe area
+eligible for coverage with Texas
+beach plan (Texas Windstorm
+Insurance Association).
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+52
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Plans
+
+Types of Homeowners Policies,
+including Extending Coverage Endorsements (E.C. End’t)
+
+HOI Perils Covered by Residual
+Market Plan
+
+Virginia
+
+FP-1 (similar to DP-1) and FP-2 (similar to DP-2)
+
+Fire, lightning, wind and hail
+
+Washington
+
+WFP-1 (similar to DP-1
+
+Fire and lightning and, with E.C.
+End’t, wind and hail
+
+West Virginia
+
+DP-1
+
+Fire, lightning, wind, and hail
+
+Wisconsin
+
+HO-8
+
+Policies cover named perils or multiperils.
+
+Sources: III, Residual Markets; PIPSO, Compendium of Property Insurance Plans (2022); Alabama Insurance
+Underwriting Association (AIUA), Consumer Information, Basic Coverage, https://www.aiua.org/consumerinformation/basic-coverages; California FAIR Plan Property Insurance, Dwelling Property Policy Specimen CFP 00
+01, July 2017, https://www.cfpnet.com/wp-content/uploads/2020/05/DP0001.pdf; Connecticut FAIR Plan, Policy
+Forms, Liability Forms, Endorsements and Questionnaires, https://www.ctfairplan.com/policy-forms.html; Delaware
+FAIR Plan, DP-00-01, Dwelling Property Basic Form, https://www.defairplan.com/documents/DP0001FPDE.pdf;
+DC Property Insurance Facility (DCPIF), Policies, https://www.dcpif.org/policies; Florida Citizens, Personal
+Policies, https://www.citizensfla.com/personal-policies; Georgia Underwriting Association (GUA), Comparison of
+Coverages, https://georgiaunderwriting.com/wp-content/uploads/2018/02/comparison2.pdf; Hawaii Property
+Insurance Association (HPIA), Forms for Download, https://www.hpiainfo.com/forms-for-download/; Illinois FAIR
+Plan Association, Coverage Comparison, https://www.illinoisfairplan.com/assets/pdfs/ComparisonCoverage.pdf;
+Indiana FAIR Plan, Consumers, https://www.indianafairplan.com/consumers.html; Maryland Joint Insurance
+Association, Policies, https://www.mdjia.org/policies; Michigan Basic Property Insurance Association, About Us,
+https://www.mbpia.com/about-us; Minnesota FAIR Plan, General Rules,
+https://www.mnfairplan.org/assets/pdfs/policy-forms/other-docs/WRules.pdf; Mississippi Residential Property
+Insurance Underwriting Association, Basic Rating Rules and Rates for Use in Insuring One and Two Family
+Dwellings, Effective December 1, 2014, https://msplans.com/sites/default/files/MRPIUA/Rate%20Manual%2012-12014.pdf; Missouri FAIR Plan, Coverages, Policy Forms, and Producer Forms,
+https://missourifairplan.com/coverages.html; New Jersey Insurance Underwriting Association (NJIUA), Producer
+Guidelines, June 2013, https://portal.njiua.org/Documents/ProducersGuide.pdf; New York Property Insurance
+Underwriting Association (NYPIUA), Dwelling Insurance Application Information & Instructions,
+https://www.nypiua.com/assets/insurance/DWELLING_APPLICATION-Instructions.pdf; North Carolina Joint
+Underwriting Association (NCJUA) – FAIR Plan - North Carolina Insurance Underwriting Association (NCIUA) –
+Coastal Property Insurance Pool (NCCPIP), Services and Coverages, https://www.ncjuanciua.org/html/svcs_cov.htm; NCJUA-NCCPIP, Operational Documents, Producing Agents and Brokers Manual of
+Rules and Procedures, NCIUA-NCCPIP, Manual of Rules and Procedures, June 1, 2024, https://www.ncjuanciua.org/html/operationaldocs.htm; Ohio FAIR Plan (OFP), Coverages Available from OFP,
+https://www.ohiofairplan.com/Public/Coverages.aspx; Oregon FAIR Plan, Insurance Coverages,
+https://orfairplan.com/agents/insurance-coverages/; Insurance Placement Facility of Pennsylvania, Coverages
+provided, https://www.pafairplan.com/Page?pageid=coverage; South Carolina Wind and Hail Underwriting
+Association (SCWHUA), Forms, https://www.scwind.com/forms.html; SCWHUA, Q&A,
+https://www.scwind.com/qanda.html; Texas FAIR Plan Association, Sample Policy Forms and Endorsements,
+https://www.texasfairplan.org/about-us/sample-policy-forms-and-endorsements/; Texas Wind Insurance Association
+(TWIA), About Us Hub, https://www.twia.org/about-us/; TWIA, Forms, Sample Policies, Endorsements,
+Certificates, https://www.twia.org/forms-sample-policies-endorsements-certificates/; Virginia Property Insurance
+Association, Policy Forms, https://www.vpia.com/producers/policy-forms/; Washington FAIR Plan Association
+(WFP), Customers, https://www.wafairplan.com/customers/; WFP, Applications,
+https://www.wafairplan.com/applications/; West Virginia Essential Property Association, Coverages Provided,
+https://www.wvfairplan.com/Page?pageid=coverage.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+53
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+APPENDIX C. ADDITIONAL REGIONAL ANALYSES
+Northeast Region
+The Northeast Region consists of twelve states: Connecticut, Delaware, Maine, Maryland,
+Massachusetts, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, Vermont,
+and West Virginia, as well as the District of Columbia. The Northeast is the second most
+populous region in the country (66.7 million in 2022), with a population that grew by 1.6 percent
+between 2018 and 2022, slightly less than the national rate of 1.9 percent.104 The number of
+single-family homes grew by 2.6 percent from 2018 to 2022 and comprise about 61.4 percent of
+the housing stock.105 The region is subject to significant heatwaves and rainfall events, including
+from tropical storm systems and Nor’easters.106 Hurricane risk is the largest contributor to the
+Northeast Region’s TLCR Categories, though it is affected less by hurricanes than the Gulf and
+southern coasts. Hurricane Ida in 2021 caused the most damage between 2018 and 2022.
+Figure 33A illustrates which ZIP Codes in the Northeast Region are in each of the Regional
+TLCR Categories for all the HOI Perils. Figure 33B illustrates which are in each of the Regional
+Hurricane TLCR Categories, which also shows the region’s highest hurricane risk is along the
+coast. For comparison, if ZIP Codes were split according to the national hurricane risk
+categories, only 181 ZIP Codes would be labeled as Highest Risk for hurricanes (as compared to
+the 1,476 ZIP Codes shown in Figure 33B). More generally, on a national basis, approximately
+one-third of the ZIP Codes in the Northeast Region are in the Lowest Risk category (see Figures
+11 and 12).
+Figure 33: Northeast Region: (A) Regional TLCR Categories and (B) Regional Hurricane
+TLCR Categories by ZIP Code
+A
+
+B
+
+Source: NRI
+
+U.S. Census Bureau, “ACS Table DP05” (2018-2019 and 2021-2022 ACS 1-Year Estimates Data Profiles); U.S.
+Census Bureau, “P1 Decennial Census Total Population: 2020 DEC 118th Congressional District Summary File,”
+available through https://data.census.gov/table/DECENNIALDHC2020.P1 (Decennial Table P1).
+104
+
+105
+
+U.S. Census Bureau, “ACS Table B25024” (2022 ACS 5-Year Estimates Detailed Tables).
+
+106
+
+USGCRP, NCA5, Chapter 21. Remainder of paragraph also sourced from NCA5.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+54
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Over 460 homeowners insurers operated in the region in 2022.107 In 2022, the top 10
+homeowners insurers in the region wrote 31.9 percent of premiums, a slight increase from 2018.
+Regional Insurers wrote about a third of premiums, including 13.5 percent by Local Insurers.
+Insurance Losses and Climate-Related Risk
+Insurers in the Northeast Region during the five-year period had a paid loss ratio which averaged
+43.6 percent, below the national average paid loss ratio of 57.5 percent. The highest average
+paid loss ratios for the five-year period (see Figure 34A) were in the Medium Risk category
+(50.5 percent) and the Lowest Risk category (43.1 percent). The Highest Risk category and the
+Higher Risk category had average paid loss ratios for the period of 41.1 percent and 42.0 percent.
+Figure 34: Northeast Region: (A) Paid Loss Ratios, (B) Claim Frequency, and (C) Claim
+Severity (2018-2022 Averages) by Regional TLCR Categories
+A
+
+B
+
+C
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+Over the five-year period the average claim frequency was 4.8 percent, which is lower than the
+national average claim frequency of 5.8 percent. Average claim frequency ranged from 3.6
+percent in the Lower Risk category to 5.6 percent in the Highest Risk category (see Figure 34B).
+Average claim severity was higher in the Higher Risk and Highest Risk categories than in the
+other categories (see Figure 34C). In the two highest categories, the average claim frequency
+was 5.3 percent and the average claim amount was $16,911 per claim. In the two lowest risk
+categories, the average claim frequency was 3.9 percent, and the average claim size was $12,994
+per claim.
+Availability of Insurance and Climate-Related Risk
+The Northeast Region had an average nonrenewal rate for the five-year period of 0.57 percent,
+which is lower than the national average of 1.04 percent, which indicates the relative availability
+of insurance in the region. However, differences in availability existed across the region and
+107
+
+Data in this paragraph is from NAIC statutory filings obtained through S&P Global Market Intelligence (S&P
+Global), presented on a statutory accounting basis. National totals exclude U.S. territories.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+55
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+average nonrenewal rates generally were higher in the Highest Risk and Higher Risk categories
+(0.72 percent and 0.69 percent, respectively), compared to an average rate of 0.49 percent for the
+three lower risk categories.
+Cost of Insurance and Climate-Related Risk
+In the Northeast Region, the average premiums per policy for the five-year period were $1,480,
+about 10 percent lower than the national average of $1,663. The average premiums per policy
+for the five-year period in the Highest Risk category ($1,936) were nearly twice as high as in the
+Lowest Risk category ($1,049) (see Figure 35).
+Figure 35: Northeast Region: Premiums Per Policy (2018-2022 Average) by Regional
+TLCR Categories
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+Northern Great Plains Region
+The Northern Great Plains Region consists of five states: Montana, Nebraska, North Dakota,
+South Dakota, and Wyoming. The region’s population was 5.4 million in 2022 and has been
+growing faster than the national rate since 2018 (2.9 percent vs. 1.9 percent).108 The number of
+single-family homes grew 2.4 percent from 2018 to 2022 and comprised about 72 percent of the
+housing stock.109 The Northern Great Plains Region experiences several major climate perils,
+including severe convective storms, winter storms, wildfire, droughts, and floods. Between 2018
+and 2022, the Northern Great Plains was most impacted by wildfires, severe convective storms,
+and winter storms, including a “Bomb Cyclone” in March 2019 that caused $1 billion in
+damages in Nebraska alone and a May 2022 derecho that affected most of the region.110 Severe
+
+U.S. Census Bureau, “ACS Table B25024” (ACS 1-Year Estimate Detailed Tables for 2018, 2019, 2021, and
+2022; Table Notes; 2020 ACS 5-Year Estimates Detailed Tables).
+108
+
+109
+
+U.S. Census Bureau, “ACS Table B25024” (2022 ACS 5-Year Estimates Detailed Tables).
+
+FEMA, “Disasters Declarations”; “2019 Bomb Cyclone,” NOAA National Weather Service, March 13, 2019,
+https://www.weather.gov/bou/BombCycloneMarch13th2019#; Makenzie Huber, “Spring 2022 Derecho Cost $2.8
+Billion, NOAA Says. Some Damage Won’t Be Fixed Until 2024,” South Dakota Searchlight, January 17, 2023,
+https://southdakotasearchlight.com/2023/01/17/may-2022-derecho-cost-billion-dollars-noaa-damage-fixed-2024/.
+110
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+56
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+convective storms are the region’s predominant peril in terms of expected losses, particularly in
+North Dakota, South Dakota, and Nebraska.
+Figure 36A illustrates which ZIP Codes in the Northern Great Plains Region are in each of the
+Regional TLCR Categories for all HOI Perils. Figure 36B illustrates which are in each of the
+Regional Severe Convective Storm TLCR Categories. On a national basis, over 40.9 percent of
+the region’s ZIP Codes are in the Highest Risk category, and another 34.4 percent are in the
+Higher Risk category (see Figures 11 and 12).
+Figure 36: Northern Great Plains Region: (A) Regional TLCR Categories and (B) Regional
+Severe Convective Storm TLCR Categories by ZIP Code
+A
+
+B
+
+Source: NRI
+
+In 2022, over 160 homeowners insurers operated in the Northern Great Plains.111 Between 2018
+and 2022 the region’s homeowners insurance market became less concentrated, with the top 10
+homeowners insurers’ market share declining from 54.8 percent in 2018 to 53.6 percent in 2022.
+In 2022, Regional Insurers wrote 12.4 percent of premiums in the region, including 4.0 percent
+written by Local Insurers.
+Insurance Losses and Climate-Related Risk
+The average paid loss ratio for the five-year period varied across risk categories and states within
+the region (see Figure 37C). The average paid loss ratio for the five-year period was the highest
+in the Highest Risk category (85.9 percent), which was likely due in part to a spring derecho that
+impacted the region in 2022.112
+
+111
+
+All data in this paragraph concerns homeowners insurers operating in the United States, excluding territories,
+based on NAIC statutory filings obtained through S&P Global.
+112
+
+Huber, “Spring 2022 Derecho Cost $2.8 Billion.”
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+57
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 37: Northern Great Plains Region: (A) Paid Loss Ratios, (B) Claim Frequency, and
+(C) Claim Severity (2018-2022 Averages) by Regional TLCR Categories
+A
+
+B
+
+C
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+Availability of Insurance and Climate-Related Risk
+The average nonrenewal rate for the five-year period for the region was 0.98 percent, similar to
+the national average nonrenewal rate of 1.04 percent. The average nonrenewal rates were similar
+across the top four risk categories at around 1.00 percent (see Figure 38).
+Figure 38: Northern Great Plains Region: Nonrenewal Rates (2018-2022 Average) by
+Regional TLCR Categories
+
+Sources: PCMI Data, NRI
+
+Cost of Insurance and Climate-Related Risk
+In the Northern Great Plains Region, the average premiums per policy for the five-year period
+were $2,009, over 20 percent above the national average of $1,663. The average premiums per
+policy for the five-year period for the region ranged from $1,709 in the Lowest Risk category to
+$2,252 in the Higher Risk category (see Figure 39).
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+58
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 39: Northern Great Plains Region: Premiums Per Policy (2018-2022 Average) by
+Regional TLCR Categories
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+Southern Great Plains Region
+The Southern Great Plains Region consists of three states: Kansas, Oklahoma, and Texas. The
+region’s population was about 37.0 million in 2022, an increase of 4.0 percent from 2018, more
+than twice as fast as the nation’s growth rate.113 The number of single-family homes grew 7.3
+percent between 2018 and 2022 and comprise 69 percent of the housing stock.114 The Southern
+Great Plains Region faces significant risks from a variety of major perils, including severe
+convective storms, wildfires, droughts, and flooding. Tornado Alley cuts through Oklahoma and
+Texas, and it creates optimal conditions for severe convective storms.115 Although severe
+convective storms are the predominant peril in the Southern Great Plains Region in terms of
+expected losses, there are areas along the Texas coast at moderate to high risk for hurricanes.
+Figure 40A illustrates which ZIP Codes in the Southern Great Plains Region are in each of the
+Regional TLCR Categories for all the HOI Perils. Figure 40B illustrates which are in each of the
+Regional Severe Convective Storm TLCR Categories. On a national basis, over 44.7 percent of
+the region’s ZIP Codes fall in the Highest Risk category, and another 31.8 percent are in the
+Higher Risk category (see Figures 11 and 12).
+
+113
+
+U.S. Census Bureau, “ACS Table DP05” (2018-2019 and 2021-2022 ACS 1-Year Estimates Data Profiles).
+
+114
+
+U.S. Census Bureau, “ACS Table B25024” (2022 ACS 5-Year Estimates Detailed Tables).
+
+115
+
+USGCRP, NCA5, Chapter 26. See, also “Air Masses,” NOAA, last updated June 5, 2023.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+59
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 40: Southern Great Plains Region: (A) Regional TLCR Categories and (B) Regional
+Severe Convective Storm TLCR Categories by ZIP Code
+A
+
+B
+
+Source: NRI
+
+In 2022, over 260 homeowners insurers operated in the Southern Great Plains Region.116 The
+market share of the top 10 homeowners insurers increased from 43.5 percent in 2018 to 51.4
+percent in 2022. The Southern Great Plains has the second highest presence of Regional Insurers
+after the Southeast. In 2022, Regional Insurers wrote 37.5 percent of premiums in the region,
+including 31.3 percent written by Local Insurers.
+Insurance Losses and Climate-Related Risk
+During the five-year period, the average paid loss ratio varied across risk categories and states in
+the Southern Great Plains Region. The region’s average paid loss ratio was 59.2 percent, which
+was similar to the national average of 57.5 percent. The highest paid loss ratio on average over
+the five-year period was in the Higher Risk category (69.9 percent), and the lowest paid loss ratio
+was in the Highest Risk category (40.4 percent) (see Figure 41A). During this five-year period,
+Texas was hit by a significant number of severe convective storms and four hurricanes/tropical
+storms as well as Winter Storm Uri.117 These disasters contributed to Texas having a higher paid
+loss ratio in each year during this five-year period than Kansas and Oklahoma.
+
+116
+
+All data in this paragraph concerns homeowners insurers operating in the United States, excluding territories,
+based on NAIC statutory filings obtained through S&P Global.
+“Major South Texas Storm Events,” NOAA National Weather Service,
+https://www.weather.gov/crp/stormhistory; “Insurance Companies Sue Texas Power Grid Operator Over 2021
+Winter Storm Losses,” Insurance Journal, January 7, 2022,
+https://www.insurancejournal.com/news/southcentral/2022/01/07/648413.htm (Winter Storm Uri in 2021 resulted in
+about 500,000 claims and over $10 billion in estimated losses).
+117
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+60
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 41: Southern Great Plains Region: (A) Paid Loss Ratios, (B) Claim Frequency, and
+(C) Claim Severity (2018-2022 Averages) by Regional TLCR Categories
+C
+B
+A
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+The average claim frequency for the five-year period for the region was 8.2 percent, which was
+over 40 percent higher than the national average of 5.8 percent, reflecting the prevalence of
+severe convective storms. The three middle risk categories had roughly the same average claim
+frequency of about 9.2 percent (see Figure 41B). Claim frequency appears to have driven
+underwriting results, as demonstrated by the average paid loss ratio (see Figure 41A), with the
+highest average claim frequency in the Higher Risk category of 9.6 percent. The region’s
+average claim severity was $19,739, which was over 8 percent higher than the national average
+of $18,206 (see Figure 41C). Average claim severity for the period ranged from $15,945 in the
+Lowest Risk category to $22,502 for the Medium Risk category.
+Availability of Insurance and Climate-Related Risk
+Texas insurer data did not include information on renewals and cancellations. The average
+nonrenewal rate for the five-year period in Kansas and Oklahoma was 0.71 percent. Low levels
+of nonrenewals suggest that insurance remained largely available in those two states.
+Cost of Insurance and Climate-Related Risk
+In the Southern Great Plains Region, the average premiums per policy for the five-year period
+were $2,441, which was over 45 percent higher than the national average of $1,663 (see Figure
+42). The premiums per policy were relatively similar on average across the four higher risk
+categories with the Lowest Risk category paying on average $500 less per year.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+61
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 42: Southern Great Plains: Premiums Per Policy (2018-2022 Average) by Regional
+TLCR Categories
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+Northwest Region
+The Northwest Region consists of four states: Alaska, Idaho, Oregon, and Washington. The
+Northwest Region’s population grew 3.4 percent from 2018 to reach 14.7 million in 2022, higher
+than the nation’s 1.9 percent growth rate.118 The number of single-family homes grew 5.5
+percent from 2018 to 2022 and comprised 68.5 percent of the housing stock. The Northwest
+Region has experienced increasingly frequent and destructive wildfires.
+Figure 43A illustrates which ZIP Codes in the Northwest Region are in each of the Regional
+TLCR Categories for all HOI Perils. Figure 43B illustrates which are in each of the Regional
+Wildfire TLCR Categories. On a national basis, about two-thirds of the region’s ZIP Codes are
+in the Lowest Risk category, while about one third are in the Lower Risk to Highest Risk
+categories (see Figures 11 and 12).
+Figure 43: Northwest Region: (A) Regional TLCR Categories and (B) Regional Wildfire
+TLCR Categories by ZIP Code
+A
+
+B
+
+Source: NRI
+
+U.S. Census Bureau, “ACS Table DP05” (2018-2019 and 2021-2022 ACS 1-Year Estimates Data Profiles).
+Remainder of data in this paragraph from same source.
+118
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+62
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Wildfires have been the most impactful events in the region between 2018 and 2022.119 Seventy
+wildfires led to disaster declarations, the vast majority coming from Oregon and Washington.
+Wildfires in the Northwest Region burned an average of 2.8 million acres annually during this
+five-year period.120 The most destruction to homes occurred in 2020, when over 2,270
+residences in Oregon were destroyed by wildfires. The largest fires in terms of economic losses
+were in Oregon: the 2018 Klondike Fire ($105 million in damages), the 2021 Bootleg Fire ($101
+million in damages), and the 2022 Cedar Creek Fire ($134 million in damages).121
+In 2022, over 180 homeowners insurers operated in the Northwest Region.122 The top 10
+homeowners insurers held a combined market share of 49.5 percent in 2022, increasing from
+48.5 percent in 2018. Regional Insurers wrote 9.9 percent of premiums in the Northwest Region,
+including 3.7 percent written by Local Insurers.
+Insurance Losses and Climate Related-Risk
+Insurers in the Northwest Region have generally been able to cover paid losses from their
+premiums as measured by the average paid loss ratio for the five-year period of 57.1 percent (see
+Figure 44A). The average paid loss ratio for all risk categories during this period ranged from
+47.8 percent for the Lowest Risk category to 69.3 percent for the Medium Risk category.
+Figure 44: Northwest Region: (A) Paid Loss Ratios, (B) Claim Frequency, and (C) Claim
+Severity (2018-2022 Averages) by Regional TLCR Categories
+A
+
+B
+
+C
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+119
+
+See FEMA, “Disaster Declarations.”
+
+120
+
+NICC, 2018 Wildland Fire Report, 4, 41, 43, 48; NICC, 2019 Wildland Fire Report, 7, 9, 41, 43, 47, 49; NICC,
+2020 Wildland Fire Report, 6, 35, 38, 43, 45; NICC, 2021 Wildland Fire Report, 7, 37, 39, 44, 46; NICC, 2022
+Wildland Fire Report, 6, 37, 39, 44, 46.
+“Data Visualization, Disaster Declarations for States and Counties,” FEMA, https://www.fema.gov/datavisualization/disaster-declarations-states-and-counties.
+121
+
+122
+
+All data in this paragraph concerns homeowners insurers operating in the United States, excluding territories,
+based on NAIC statutory filings obtained through S&P Global.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+63
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Average claim frequency for the five-year period for the region was 3.2 percent, or about 45
+percent below the national average of 5.8 percent. The highest average claim frequency was in
+the Higher Risk category at 3.8 percent (see Figure 44B).
+Wildfires are relatively infrequent events that may cause severe damages. The average claim
+severity for the five-year period for the region was $23,789, or over 30 percent above the
+national average of $18,206. The Highest Risk category and the Medium Risk category had the
+highest average claim severity at $25,326 and $24,574, respectively (see Figure 44C). Average
+claim severity varied by state, with Alaska having the highest and Idaho the lowest. In 2019,
+wildfires burned almost 2.5 million acres in Alaska, over half of the total acres burned by
+wildfires in the entire United States that year.123
+Availability of Insurance and Climate-Related Risk
+For the Northwest Region, the average nonrenewal rate for the five-year period was 0.67 percent,
+over 35 percent below the national average nonrenewal rate of 1.04 percent. The highest average
+nonrenewal rates for the period were in the Higher Risk and Highest Risk categories, which were
+0.74 percent and 0.86 percent, respectively (See Figure 45).
+Figure 45: Northwest Region: Nonrenewal Rates (2018-2022 Average) by Regional TLCR
+Categories
+
+Sources: PCMI Data, NRI
+
+Cost of Insurance and Climate-Related Risk
+The average premiums per policy for the period were $1,210, which was about 30 percent below
+the national premiums per policy for the five-year period (see Figure 46). The average premiums
+per policy for the five-year period were highest in the Lowest Risk and Highest Risk categories,
+which had average premiums per policy of $1,297 and $1,277, respectively.
+
+123
+
+NICC, 2019 Wildland Fire Report, 9.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+64
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+Figure 46: Northwest Region: Premiums Per Policy (2018-2022 Average) by Regional
+TLCR Categories
+
+Sources: PCMI Data, NRI (nominal dollar values adjusted for inflation)
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+65
+
+Analyses of U.S. Homeowners Insurance Markets, 2018-2022:
+Climate-Related Risks and Other Factors (January 2025)
+APPENDIX D. SUPPORTING UNDERLYING METRICS
+To promote transparency and research, Treasury is releasing a large subset of the aggregated ZIP
+code level data metrics supporting the analyses in the Report (“Supporting Underlying Metrics”)
+which, together with this Report, is available here: https://home.treasury.gov/policyissues/financial-markets-financial-institutions-and-fiscal-service/federal-insurance-office/reportsnotices. Treasury expects that this new, granular, nationwide dataset will provide useful
+information to stakeholders.
+The Supporting Underlying Metrics are presented at the ZIP Code level, by year. To protect the
+privacy of insurers and homeowners, the Supporting Underlying Metrics include only ZIP Codes
+with information from at least 10 insurers or at least 50 policies in each ZIP Code. These limits
+reduce the total number of policies by 0.6 percent and ZIP Codes by 22 percent from the sample
+underlying the Report.
+For more details regarding collection, review, validation, and limitations of the PCMI Data, see
+Section II. Using larger groupings of data allows for greater statistical confidence than would
+outcomes for highly granular areas, such as individual or small groups of ZIP Codes.
+Accordingly, due to the sample size of the data and given that the analyses use averages
+calculated over large numbers of aggregated ZIP Codes, Treasury deems the data of sufficient
+quality to support the aggregate-level analyses conducted for this Report. For more details
+regarding the Supporting Underlying Metrics, see link above.
+
+_____________________________________________________________________________
+FEDERAL INSURANCE OFFICE, U.S. DEPARTMENT OF THE TREASURY
+66
+
+

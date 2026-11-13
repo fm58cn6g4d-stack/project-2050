@@ -1,0 +1,64 @@
+Source: https://www.everycrsreport.com/reports/IF13052.html
+Publisher: Congressional Research Service
+Retrieved: 2026-11-13
+Original SHA-256: 0740ac9f7973bf42c7a651645c2ec6fd62195b1c4fe01e9fd9ce925ab65802f5
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+H.R. 1 Provisions Affecting Renewable Energy - EveryCRSReport.com
+Internet Explorer version 8 or any modern web browser is required to use this website, sorry.
+H.R. 1 Provisions Affecting Renewable Energy
+July 2, 2025
+IF13052
+H.R. 1 Provisions Affecting Renewable Energy
+July 2, 2025
+(IF13052)
+On May 22, 2025, the House passed its version of H.R. 1 , the One Big Beautiful Bill Act. On July 1, the Senate passed its version of the bill. The bill would reduce tax rates, adjust spending for various federal programs, increase the statutory debt limit, and otherwise address agencies and programs throughout the federal government.
+Three titles of the bill—Title IV: Energy and Commerce, Title VIII: Committee on Natural Resources, and Title XI: Committee on Ways and Means—have provisions that would directly affect renewable energy investments, tax incentives, and development. Title I: Committee on Agriculture also has a small section addressing energy, but it is not applicable to renewable energy. This In Focus discusses renewable energy provisions in the House-passed bill and highlights key differences between that version and the Senate-passed version.
+H.R. 1 would also make changes to other energy-related programs—such as funding or tax incentives for energy efficiency, weatherization, nuclear power, carbon sequestration, electric vehicles, clean fuels, and hydrogen production—beyond the scope of this In Focus.
+Title IV: Energy and Commerce Rescissions
+Title IV's provisions affecting renewable energy are rescissions of previously appropriated funds. The title also includes provisions addressing additional funding, expedited permitting, and program de-risking, but targeted to fossil fuel or nuclear power applications.
+Section 41001 of Title IV would rescind funds related to various sections of P.L. 117-169 , often referred to as the Inflation Reduction Act of 2022 (IRA). Relevant to renewable energy, the title would rescind the unobligated balance of funds related to the following IRA sections:
+50141: Department of Energy Loan Programs Office and the Title 17 Loan Guarantee Program
+50144: Energy infrastructure reinvestment financing, also known as the 1706 Program
+50145: Tribal Energy Loan Guarantee Program
+50151: Transmission Facility Financing
+50152: Grants to Facilitate the Siting of Interstate Electricity Transmission Lines
+50153: Interregional and Offshore Wind Electricity Transmission Planning, Modeling, and Analysis
+Title VIII: Committee on Natural Resources
+Title VIII's provisions affecting renewable energy relate to leasing of federal lands for renewable energy development and related procedures.
+The Bureau of Land Management (BLM) administers the majority of renewable energy development on federal lands. BLM's authority for solar and wind leasing derives from general authorities under the Federal Land Policy and Management Act of 1976 ( P.L. 94-579 ) and is currently implemented via regulations (43 C.F.R. §§2800 et seq.).
+Section 80111 addresses the period of time unleased geothermal parcels are available for noncompetitive leasing following an unsuccessful competitive lease sale. It would reduce the period of time from the current two years to one year.
+Section 80181 would revise and codify wind and solar fees (acreage rent and royalty fees) on federally leased land. Acreage rent would remain largely the same as under current regulation while the capacity fees would, in general, increase compared to the current rate.
+Section 80182 addresses renewable energy revenue sharing. Under current law and regulations all federal revenues from leasing for solar and wind energy generation are deposited into the Treasury. Section 80182 would apportion 25% of those revenues ("bonus bids, rentals, fees, or other payments under a right-of-way, permit, lease, or other authorization") to the state where the revenues derive, 25% to the county, and the remaining 50% to the Treasury.
+Title XI: Committee on Ways and Means
+Title XI's provisions affecting renewable energy include alterations to federal tax incentives for energy development.
+Section 112006 would modify the end date for the residential clean energy credit, 26 U.S.C. §25D. The credit would not apply to property (solar electric, solar water heating, fuel cell, small wind, geothermal heat pump, and battery storage) placed in service after December 31, 2025.
+Section 112008 would modify the clean electricity production credit, 26 U.S.C. §45Y, for facilities that have a greenhouse gas emissions rate not greater than zero. First it would eliminate the current phase-out of the credit (triggered by achieving a U.S. greenhouse gas emissions target or by 2032, whichever is later). The bill would end the credit for projects that start construction later than 60 days after enactment or that enter service after December 31, 2028, and would disallow rental or leasing of the project to a third party. Section 112008 would also disallow the credit for taxpayers who are a "specified foreign entity" or a "foreign-influenced entity" or who make various payments to a "prohibited foreign entity." It would also eliminate the credit for facilities—the construction of which begin after December 31, 2025—that include "material assistance" from a "prohibited foreign entity," which includes entities associated with China, where a large percentage of solar component production and processing takes place. This could have significant impacts on solar installations, as the United States has limited manufacturing capacity for the solar component supply chain. (For more information, see CRS Report R48280, Solar Photovoltaics (PV): Status and Issues for Congress , by Morgan Smith.)
+Section 112009 would modify the clean electricity investment credit, 26 U.S.C. §48E, for the same kinds of facilities and in the same way Section 112008 would modify the clean electricity production credit. It would eliminate the current phase-out of the credit, establish the same end credit conditions for construction date and service date, and disallow the credit for the same types of taxpayers under the same conditions as Section 112008.
+Section 112014 would modify the phase-out of, and other restrictions for, the advanced manufacturing production credit, 26 U.S.C. §45X, applicable to certain solar, wind, and energy storage technologies. It would adjust the credit phase-out by reducing the credit to 0% after December 31, 2031, instead of the current reduction to 25% after December 31, 2031, and to 0% after December 31, 2032. It would also add similar restrictions as in Sections 112008 and 112009 disallowing the credit for some taxpayers (who are a "specified foreign entity" or a "foreign-influenced entity" or who make various payments to a "prohibited foreign entity") under the same conditions ("material assistance"). This section would also eliminate the transferability of the credit to other taxpayers (i.e., tax-paying entities would no longer be allowed to sell their credits to another entity) and eliminate the applicability of the credit to all wind energy components sold after December 31, 2027.
+Section 112015 would phase out the energy credit, 26 U.S.C. §48, for certain geothermal properties. The credit would apply to geothermal projects for which construction begins before January 1, 2032 (current law is January 1, 2035). The credit phase-out would include a reduction from 6% to 5.2% in 2030 (current law sets this reduction in 2033) and 4.4% in 2031 (current law is 2034). Similar to the adjustments in Sections 112008 and 112009, the credit would not be eligible to taxpayers who are a "specified foreign entity" or a "foreign-influenced entity" or who make various payments to a "prohibited foreign entity." Section 112015 would also restrict the transferability of credits starting two years after enactment.
+Senate Version of the Act
+The Senate passed its own version of the act on July 1, 2025. The Senate version makes similar rescissions as above in the House bill, but variations in tax provisions from the House version include the following:
+does not require certain projects to begin construction within 60 days of the act's enactment;
+modifies some of the energy tax credit termination dates compared to the House version;
+does not modify the leasing processes nor energy credit phase-out for certain geothermal properties; and
+modifies the advanced manufacturing production credit to include limits on foreign entities and to eliminate credits for wind energy components sold after December 31, 2027, but does not otherwise modify the phase-out dates for other energy technologies.
+Selected Industry Responses to the Act
+Some stakeholders have argued that the changes to funding and tax incentives impose risks to announced and under-construction solar and energy storage factories. For example, see the Solar Energy Industries Association (SEIA) analysis of the bill.
+Others have highlighted some changes included in the Senate version. For example, the Edison Electric Institute (EEI) argues that it includes "more reasonable timelines for phasing out energy tax credits and to preserve transferability. Importantly, the [Senate] legislation also enhances provisions that support electric companies' efforts to reduce reliance on China and other foreign entities of concern for supply chains."
+Several stakeholders recommended preserving the "start of construction standard" in current law as opposed to the "placed-in-service standard" used in many parts of H.R. 1 to determine project eligibility for funding support and tax incentives. Given the various challenges and uncertainties related to energy projects, these stakeholders note the placed-in-service standard "would disrupt" energy investment and development. The American Clean Power Association (ACP) response includes a list of stakeholders who have signed on to these recommendations.
+Other analyses assert H.R. 1 would "raise[] energy costs on consumers and businesses and push[] down on demand for clean energy technologies." The Rhodium Group released one such analysis .
+Many other stakeholders support the act overall—without specifically mentioning the renewable energy provisions. Many have instead highlighted the act's support for energy investments overall, stability for financing energy projects, or changes in tax incentives. Some of these stakeholders includ e Coterra Energy, the American Petroleum Institute, and Chevron Corporation.
+Other groups focus on revisions to the federal tax code and spending and the potential to support U.S. economic growth and enable other tax reductions. For examples, see the Club for Growth and The Tax Foundation responses.
+Download PDF
+Download EPUB
+Revision History
+Jul. 2, 2025
+HTML
+·
+PDF
+Metadata
+Report Type: In Focus
+Source: Congress.gov
+Raw Metadata: JSON

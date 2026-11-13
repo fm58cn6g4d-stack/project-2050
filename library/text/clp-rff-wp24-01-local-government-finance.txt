@@ -1,0 +1,6412 @@
+Source: https://media.rff.org/documents/WP_24-01_v2.pdf
+Publisher: Resources for the Future
+Retrieved: 2026-11-13
+Original SHA-256: fb3a96863d8388711dc9fa5d590984d6bd577be3ca650795e097500157be9ad0
+Rights: CC BY-NC-ND 4.0
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+The Energy Transition and
+Local Government Finance:
+New Data and Insights from
+10 US States
+Daniel Raimi, Elena Davert, Haley Neuenfeldt, Amy Van Zanen, and Zach Whitlock
+
+Working Paper 24-01
+January 2024
+
+About the Authors
+Daniel Raimi is a fellow at Resources for the Future (RFF) and a lecturer at the
+Gerald R. Ford School of Public Policy at the University of Michigan. He works on a
+range of energy policy issues with a focus on tools to enable an equitable energy
+transition. He has published in academic journals including Science, Science Advances,
+Environmental Science and Technology, Journal of Economic Perspectives, Review
+of Environmental Economics and Policy, Energy Research and Social Science,
+Energy Policy, and in popular outlets including The New Republic, Newsweek, Slate,
+and Fortune. He has presented his research for policymakers, industry, and other
+stakeholders around the United States and internationally, including before the US
+Senate Budget Committee and the Energy and Mineral Resources Subcommittee of the
+US House’s Natural Resources Committee. In 2017, he published The Fracking Debate
+(Columbia University Press), a book that combines stories from his travels to dozens of
+oil- and gas-producing regions with a detailed examination of key policy issues.
+Elena Davert completed an MS/MPP from the University of Michigan’s School for
+Environment and Sustainability and Gerald R. Ford School of Public Policy. Her work
+focuses on community resilience and climate adaptation via investments in physical
+infrastructure.
+Haley Neuenfeldt is an MS/MPP candidate at the University of Michigan’s School for
+Environment and Sustainability and Gerald R. Ford School of Public Policy. Her policy
+interest is in equitable implementation of renewable energy policy at the local and
+state levels.
+Amy Van Zanen is a PhD student at the University of Michigan’s School for
+Environment and Sustainability. Her research focuses on the policy implications of
+climate-induced changes to hydrologic cycles.
+Zach Whitlock is a research analyst at RFF. He graduated from the University of
+Pennsylvania in 2020 with a BSE in Materials Science and Engineering and a BA in
+Earth Science. He then earned his MPhil in Environmental Policy from the University
+of Cambridge, where his dissertation focused on tracking trends in the climate
+change discourse of environmental lobbying organizations. Before Cambridge, his
+research interests lay at the intersection of materials engineering and environmental
+stewardship. Prior to joining RFF, he covered recent developments in voluntary ESG
+and climate initiatives for Longview Global Advisors.
+
+Resources for the Future
+
+i
+
+Acknowledgements
+We thank the Wilderness Society, and Julia Stuble in particular, for their support of
+this project. Thank you to Sarah Mills at the University of Michigan for coordinating
+the collaboration among the authors, to Dustin Tingley from Harvard University for
+comments on preliminary findings from the work, Ben Gilbert from the Colorado School
+of Mines for comments on a draft of the paper presented at the 2024 Allied Social
+Science Association annual conference in San Antonio, TX, and to the participants
+at that session organized by the International Association of Energy Economics. We
+are grateful to Anthony Lopez and Brian Sergi of the National Renewable Energy
+Laboratory for sharing data on developable land for wind and solar. Most importantly,
+we are grateful to the hundreds of state and local government officials who responded
+to our questions and data requests during the research phase of this project.
+
+About RFF
+Resources for the Future (RFF) is an independent, nonprofit research institution in
+Washington, DC. Its mission is to improve environmental, energy, and natural resource
+decisions through impartial economic research and policy engagement. RFF is
+committed to being the most widely trusted source of research insights and policy
+solutions leading to a healthy environment and a thriving economy.
+Working papers are research materials circulated by their authors for purposes of
+information and discussion. They have not necessarily undergone formal peer review.
+The views expressed here are those of the individual authors and may differ from those
+of other RFF experts, its officers, or its directors.
+
+About RFF’s Equity in the Energy
+Transition Initiative
+RFF’s Equity in the Energy Transition initiative recognizes that the United States and
+the world need to rapidly reduce greenhouse gas emissions to avoid the worst impacts
+of climate change. Research carried out by the initiative and its partners seeks to
+understand how these changes to the energy system will affect communities and what
+policy tools can effectively deliver solutions to ensure a more equitable energy system.
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+ii
+
+Sharing Our Work
+Our work is available for sharing and adaptation under an AttributionNonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license. You
+can copy and redistribute our material in any medium or format; you must give
+appropriate credit, provide a link to the license, and indicate if changes were made,
+and you may not apply additional restrictions. You may do so in any reasonable
+manner, but not in any way that suggests the licensor endorses you or your use.
+You may not use the material for commercial purposes. If you remix, transform, or
+build upon the material, you may not distribute the modified material. For more
+information, visit https://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+Resources for the Future
+
+iii
+
+Abstract
+Fossil fuels are the primary contributor to global climate change, and efforts to reach
+net-zero emissions will require a dramatic curtailment of their extraction and use.
+However, fossil fuels fund public services at all levels of government, and research has
+not assessed whether clean energy sources can provide similar scales of revenue. In
+this paper, we analyze a novel dataset that we have assembled on how fossil fuels and
+renewable energy contribute to local governments in 79 US counties across 10 states.
+Revenues from fossil fuels far outweigh renewables in aggregate terms, providing more
+than $1,000 per capita annually in dozens of counties. However, wind and solar in some
+states generate more local public revenue than fossil fuels per unit of primary energy
+production. In most counties that depend heavily on fossil fuels for local revenues,
+solar—but not wind—has the technical potential to replace existing fossil fuel
+revenues, but this would require dedicating implausibly large portions of developable
+land (in some cases, more than half) to solar. For counties with less reliance on fossil
+fuels, wind and solar can more plausibly replace fossil fuel revenue streams. This
+finding suggests that while renewable energy will provide new revenue streams for
+communities, fossil fuel–dependent regions will need to build new tax bases well
+beyond wind and solar, develop other sources of revenue, or risk a decline in public
+service provision.
+
+Resources for the Future
+
+iv
+
+Contents
+1. Introduction
+
+1
+
+2. Related Research
+
+2
+
+3. Data and Methods
+
+3
+
+4. Results
+
+5
+
+4.1. National Results
+
+5
+
+4.2. Understanding State-Level Variation
+
+11
+
+5. Discussion and Conclusion
+
+12
+
+References14
+Appendix17
+A.1. Counties and Energy Sources
+
+17
+
+A.2. County-Level Revenues						
+
+21
+
+A.3. Calculating Replacement Revenue 		
+
+29
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+v
+
+1. Introduction
+Today’s energy system plays an important role in funding public services at the
+local, state, tribal, and federal levels in the United States, supporting transportation
+infrastructure, public education, social services, and more. As fossil fuel production
+decreases as a result of increased competition from new sources, natural declines,
+and public policies that incentivize technologies such as wind and solar, the decline of
+coal, oil, and natural gas will reduce government revenue, while the rise of clean energy
+will generate new income streams. In this analysis, we present new data to better
+understand the current contribution of the energy system to local government budgets
+and consider how an energy transition may change this.
+The importance of energy-related revenues for local governments has been noted by
+lawmakers in recent years, perhaps most prominently in the Inflation Reduction Act
+of 2022. In the act, Congress stipulated that certain clean energy projects would be
+eligible for enhanced tax credits if they were built in areas where 25 percent or more
+of local tax revenues come from fossil fuels.1 However, no data currently exist that
+would allow the federal government or most local governments to calculate whether a
+community would meet this threshold (IRS 2023). Relatedly, no analysis has assessed
+whether clean energy technologies such as wind and solar can help replace declining
+fossil fuel revenues in the communities that rely on them.
+To start to fill these information gaps, we gathered and analyze a novel dataset that
+contains roughly 40,000 observations of local government revenue from the energy
+system, including the production of coal, oil, and natural gas; the transportation and
+refining of those fuels; electric generation from coal, natural gas, wind, and solar; and
+the electricity grid. Our data cover 79 energy-producing counties across 10 leading
+energy-producing states: Alaska, California, Colorado, Montana, North Dakota, New
+Mexico, Ohio, Texas, West Virginia, and Wyoming. We develop estimates for county
+governments, school districts, municipalities, and other local governments (e.g., fire
+or hospital districts) within each county. To contextualize the importance of these
+revenue streams, we also compare local government revenues with wages paid to fossil
+fuel workers in select counties.
+The analysis allows us not only to assess the scale of revenues that support essential
+services but also to make comparisons across energy technologies and fuel sources.
+Although more data are needed to provide a comprehensive picture, our analysis offers
+the first view as to whether clean energy technologies such as wind and solar can fill
+the gap left by declining revenues from fossil fuels.
+
+1		Inflation Reduction Act of 2022, H.R.5376, 117th Cong. (2022). https://www.congress.
+gov/bill/117th-congress/house-bill/5376.
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+1
+
+2. Related Research
+Despite the importance of the topic to hundreds of communities across the US, little
+research has quantified the scale of public revenues generated by energy commodities
+and infrastructure. We are aware of just two national analyses. The first (E. Brunner,
+Hoen, and Hyman 2022) focuses exclusively on wind energy and finds that the
+installation of new generation facilities increases local school district revenue by
+$1,000 or more per pupil, leading to increased expenditures, primarily on infrastructure.
+The second nationwide analysis is Raimi et al. (2023), who estimate that the
+production, processing, transportation, and combustion of fossil fuels generated $138
+billion annually for local, state, tribal, and federal governments from 2015 through 2019.
+However, that analysis did not include estimates at the local (i.e., county) level, nor
+did it estimate the fiscal contributions of clean energy sources such as wind or solar,
+neither did it include revenues generated by electric transmission and distribution
+infrastructure.
+A modest body of research has examined the fiscal contributions of specific energy
+technologies or fuels at different regional scales. This includes national-level analysis
+from Newell and Raimi (2018), who calculate state and local government revenues from
+oil and gas production across 16 US states; Prest (2022), who estimates the effects
+of changes in federal oil and gas leasing policies on the federal budget; and Prest
+et al. (2023), who estimate changes in local government revenue under alternative
+decarbonization scenarios in five US oil- and gas-producing regions. Smith et al. (2021)
+provide a highly localized view by documenting how $2 billion in annual revenues from
+fossil fuel production on federal lands are distributed to the state and local levels.
+McBride et al. (2022) assess county-level tax revenues from oil and gas production
+across the United States but rely on a proprietary analysis carried out by an industry
+data firm that does not make its methods or data public.
+Research reports from the University of Michigan (Uebelhor et al. 2021; Hintz et al.
+2021) have documented the policies that dictate how wind and solar are taxed at
+the local level but do not quantify the resulting revenues. Another research report,
+from Rhodes (2023), uses tax filings from the state of Texas to estimate that a
+representative 100 megawatt (MW) wind or solar farm could generate roughly $10–$20
+million in local tax revenue over its 30-year lifespan and that existing clean energy
+projects will generate hundreds of millions of dollars in revenue for dozens of counties
+in Texas. At the same time, numerous analyses have found that proximity to certain
+forms of energy infrastructure, including hydraulically fractured natural gas wells,
+solar installations, and wind farms can reduce property values, at least temporarily, for
+nearby homeowners (Muehlenbachs, Spiller, and Timmins 2015; Elmallah et al. 2023; E.
+J. Brunner et al. 2024), which could reduce local property tax bases.
+Other work has provided evidence through case studies at local or regional levels.
+Mayer (2018) finds that local government officials in the Mountain West perceive that
+fossil fuels provide more fiscal benefits than renewables but does not quantify those
+contributions. One analysis from the US Department of Energy estimates that new
+
+Resources for the Future
+
+2
+
+nuclear power stations could more than replace local government revenue losses
+associated with coal plant closures (Hansen et al. 2022). Other case studies have
+focused on the potential revenue losses for retiring coal-fired power plants in regions
+including Iowa, Montana, and Ohio (Jolley et al. 2019; Christianson et al. 2021; Roemer
+and Haggerty 2022); Appalachian communities that are heavily dependent on coal
+mining (Morris et al. 2021); and fossil fuel–dependent economies in West Virginia and
+Wyoming (Gazmararian and Tingley 2023).
+
+3. Data and Methods
+Our data were gathered over roughly two years from thousands of federal, state, and
+local documents, datasets, and other sources (primarily direct communication with
+local and state government officials).2 Where available, we obtained data reported in
+state or local government documents that specified revenues collected from energy
+sources or infrastructure that flowed to local levels. In many cases, detailed data were
+not available, requiring us to make estimates. For example, states often distribute
+energy-related revenues to counties, school districts, municipalities, and other local
+governments according to formulas specified in statutes but report aggregated data
+only at the county level. In these cases, we estimate how this revenue is distributed
+among local governments within a given county based on statutes and complementary
+data, such as local government financial reporting. Details of our methods for making
+these estimates are included in the state-by-state appendices.
+Because of the time required to gather these data, a comprehensive national analysis
+was not possible. We therefore sought to include states and counties that represent
+a wide range of energy activities, including the production of coal, oil, and natural
+gas; transportation and refining of these fuels; electricity generation infrastructure
+from coal, natural gas, wind, and solar; and electricity transmission and distribution
+infrastructure. We include revenues from land leases (e.g., royalties, lease payments,
+and rents from public lands), severance taxes, property taxes, electric generation taxes,
+and—where data were available—payments in lieu of taxes. We did not seek to include
+incomes taxes, sales taxes, or other sources, because our previous work indicated that
+available data would not provide sufficient granularity to understand the contribution
+of the energy sector at the local level (Newell and Raimi 2018; Raimi et al. 2023).
+Although it is not comprehensive (e.g., we did not gather data on all revenue sources or
+from nuclear, hydro, or bioenergy), our dataset represents the most extensive effort to
+document how a wide range of energy technologies contribute to local public services.
+In total, our dataset includes roughly 40,000 observations across 79 counties (or, in
+the case of Alaska, boroughs) in 10 states: Alaska, California, Colorado, Montana, North
+Dakota, New Mexico, Ohio, Texas, West Virginia, and Wyoming (see appendix for full
+list). We chose these states because they are leading energy producers across a wide
+
+2		We do not include Native Nations in this analysis because detailed revenue data are
+typically not publicly available.
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+3
+
+range of technologies and because our previous work (Newell and Raimi 2018; Raimi
+et al. 2023) suggested that they would have sufficiently granular data to allow us to
+produce reliable revenue estimates.
+One challenge with quantifying revenue flows to local governments is determining
+whether and how to include revenue that is collected by states or the federal
+government and then distributed to local government entities. For example, most
+states collect severance taxes when fossil fuels are extracted, the proceeds of which
+often flow into general funds that are distributed based on each state’s unique
+budgeting process and may ultimately be used to fund K–12 education and local
+governments. In these cases, we cannot directly observe energy-related revenues that
+may flow to local governments, because we do not know which dollars are “energy”
+dollars and which come from other revenue sources. Because of this complexity, we
+include revenues only where state- or local-level reporting allows us to directly observe
+flows of energy-related revenues to local governments (see state-by-state appendices
+for details). This means that our estimates are a lower bound of the true level of energy
+revenues that flow to the local level.
+Another challenge comes from gathering data on property tax revenue from wind
+and solar facilities. In some locations, state or local authorities publish data that allow
+us to determine or estimate property taxes paid by these facilities. In other states
+and for certain energy sources, particularly solar, these more comprehensive data
+are not available. In such cases, we first contacted local assessors. If unsuccessful,
+we next attempted to carry out manual searches of assessment data through county
+government websites. Wherever possible, we aggregated property values or taxes paid
+for parcels that host wind and solar facilities. This task was feasible for most but not
+all counties, particularly in cases where large-footprint energy facilities stretch across
+thousands of individual parcels (e.g., large wind farms). Where we present data on wind
+and solar revenues, those data represent comprehensive analysis of our counties of
+interest unless otherwise noted.
+Yet another limitation is that in some states, the available data do not allow us to
+compare across different energy types. For example, Wyoming’s state government
+assesses the value of most power generation, transmission, and distribution property
+but does not make detailed data publicly available. Instead, it aggregates the data
+into three categories that include all electric utility assets by county—major electrics,
+municipal electrics, and rural electrics—and does not distinguish among different
+types of infrastructure (e.g., generation, transmission, distribution) or energy sources
+(e.g., coal, natural gas, or wind) (Wyoming Department of Revenue 2021). Colorado,
+Montana, and West Virginia take a similar approach, limiting our ability to analyze data,
+particularly in the electricity sector.
+Despite these limitations, our dataset allows us to draw novel policy relevant insights.
+In the following section, we present our analysis of the data from 2021, the most recent
+available year.3
+3		In cases where 2021 data were not available but data from the previous or subsequent
+year were, we use the 2020 or 2022 data.
+
+Resources for the Future
+
+4
+
+4. Results
+Because our focus is on local government revenues from the energy system, we
+present results from the perspective of the government and not the energy industry.
+This differs from other analyses, which often seek to measure the effective tax rate
+that companies face in a given state (e.g., Headwaters Economics 2012; Colorado
+Legislative Council Staff 2014; Pennsylvania Independent Fiscal Office 2014). Therefore,
+these results should not be interpreted as the level of tax (or other payments) paid by
+companies operating in each county or state.
+
+4.1. National Results
+Our analysis reveals three main insights. First, although we include counties with
+extensive wind and solar development, local revenues from fossil fuels dominate those
+from renewables in our sample counties. This result is unsurprising because 79 percent
+of US primary energy production came from fossil fuels in 2021 (EIA 2023b), but the
+magnitude of the difference is revealing. Figure 1 illustrates that although wind and
+solar generated more than $1 million for 20 of our 79 sample counties in 2021, fossil
+fuels generated orders of magnitude more in the counties where production occurs at
+large scale, such as Weld County, Colorado ($527 million); North Slope Borough, Alaska
+($395 million); Kern County, California ($238 million); and Midland County, Texas ($209
+million). Local governments receive more than $100 million annually from fossil fuels in
+11 of our 79 sample counties (see appendix for full results).
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+5
+
+Figure 1. Direct Local Government Revenue from (A) Wind and
+Solar and (B) Fossil Fuels in 2021
+A. Wind and Solar
+
+B. Fossil Fuels
+
+Note: Counties with outlines were included in our sample. We gathered sufficient fossil fuel
+data for 77 counties and sufficient wind and solar data for 32 counties. In 2021, no utility-scale
+solar farms were operating in any of our sample counties in AK, ND, or WV. Solar data were
+unavailable in CA (except Kern County), NM, and MT.
+
+Resources for the Future
+
+6
+
+To put these figures in perspective, fossil fuels generated more than $10,000 per
+capita in government revenue for 5 of our sample counties and more than $1,000 per
+capita for 28 counties. The highest level of per capita revenue from wind and solar was
+roughly $1,000, and only 11 counties exceeded $100 per capita.
+Another useful metric is the share of local government revenue that comes from the
+energy sector. Unfortunately, a comprehensive analysis is not possible because there is
+no database that tracks local government revenues and expenditures across all taxing
+entities (this is especially true for the thousands of taxing entities such as fire districts
+and hospital districts). In the absence of comprehensive data, we turn to property tax
+revenue information, which is systematically reported by most state governments in
+annual reports that aggregate total property tax revenues at the county level for all
+taxing entities within that county.
+Using these data, we can assess the share of total property taxes derived from the
+energy system. Among our 79 sample counties, the energy system contributes more
+than half of total property taxes in 22 counties, with 4 exceeding 90 percent (North
+Slope Borough, Alaska, and Campbell, Converse, and Sublette Counties, Wyoming)
+(Figure 2). Fossil fuels are the dominant contributor and account for more than half
+of property tax revenues in 15 counties and more than 10 percent in 47 counties.
+Wind and solar contribute more than half of property tax revenues in just one county
+(Roosevelt County, New Mexico) and more than 10 percent in 8 counties (see appendix
+for full results).
+
+Figure 2. Share of Local Property Tax Revenues from the Energy
+System in 2021
+
+Note: Includes property tax revenue for counties, school districts, municipalities, and other
+taxing entities within each county. West Virginia data exclude local property taxes from oil
+and gas production properties. Montana data exclude local property taxes from pipeline
+infrastructure.
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+7
+
+Across our sample counties, oil and gas accounted for 82 percent of energy-related local
+government revenue, compared with 8 percent for coal and 2 percent for wind and solar.
+In some states, electricity system revenues were reported in an aggregate generation,
+transmission, and distribution category, which accounts for the final 8 percent (Figure
+3). The true share of revenue from fossil fuels is likely higher, as our estimates exclude
+indirect revenues from sources such as permanent funds that are endowed exclusively
+by fossil fuels, along with other sources such as sales and income taxes, which also are
+likely dominated by fossil fuels.
+
+Figure 3. Direct Local Government Revenue in 79 Counties by
+Energy Type in 2021
+
+Note: Excludes local property tax revenue for oil and gas production in West Virginia and
+pipelines in Montana.
+
+Our second main finding is that on an energy-equivalent basis, local revenues from wind
+and solar in some cases exceed those from fossil fuels.4 In Colorado, Montana, North
+Dakota, Ohio, Texas, and West Virginia, renewables often produce similar, if not higher,
+levels of local revenue as fossil fuels per unit of primary energy production. Indeed, the
+highest levels of local revenue per unit of primary energy production are from wind
+and solar in New Mexico, Ohio, and Texas. But there is wide variation across and even
+within states: in Alaska, California, and Wyoming, oil and gas generate substantially more
+revenue than wind or solar on an energy-equivalent basis (Figure 4). What’s more, local
+revenues vary widely because of local revenue policies, which in some cases fully or
+partially exempts certain power producers from property tax liability, which we discuss
+further in Section 4.2.
+4		“Energy-equivalent basis” refers to the total primary energy production from each energy
+source in each county in 2021. To estimate primary energy production from wind and
+solar, we use EIA’s “fossil fuel equivalency” approach, which assumes that wind and solar
+plants generate electricity with a conversion efficiency equal to the average US fossilfired power generation fleet (EIA 2023a).
+
+Resources for the Future
+
+8
+
+Figure 4. Direct Local Government Revenue per MMBtu of Primary Energy Production
+in 2021
+
+Note: Revenue and energy data are from 2021. MMBtu = million British thermal units. Includes energy production and revenue
+data from 79 counties across 10 states. Energy production data are from EIA for coal, wind, and solar and from various state
+agencies for oil and gas. Excludes local property tax revenue for oil and gas production in West Virginia and pipelines in
+Montana.
+
+Two key dynamics that drive these differences are wide variation in tax mechanisms
+and revenue allocation policies across states. In most states, a large share of revenue
+generated by fossil fuels flows to the state government through severance taxes and
+leasing royalties, with a relatively small portion allocated to the local level (Newell and
+Raimi 2018). For wind and solar, the dominant revenue mechanisms in most states are
+local property taxes, which directly fund counties, school districts, municipalities, and
+other local taxing entities.
+Because the electricity sector will play a key role in efforts to reach net-zero emissions,
+it is also instructive to compare revenues within that sector (Figure 5). This also
+provides more of an apples-to-apples comparison, since wind and solar are primarily
+used for electricity generation, whereas fossil fuels are used for a broader set of
+applications (e.g., direct end uses in transportation, buildings, and industry).
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+9
+
+Figure 5. Direct Local Government Revenues per MWh of Electricity Generation in 2021
+
+Note: Includes revenue only from electric-generating assets. Revenue and electricity data are from 2021. MWh = megawatt hour.
+Electricity generation data from EIA.
+
+Our third main finding is that in most counties, solar—but not wind—could technically
+replace fossil fuel revenues but would require a large share of available land,
+particularly in counties that depend heavily on fossil fuels. For example, in Weld
+County, Colorado, solar energy facilities could generate a level of revenue equivalent
+to that of fossil fuels ($527 million in 2021) but would need to occupy roughly 4,800
+square kilometers, more than half of the developable land in the county. In counties
+where fossil fuels contribute little local revenue, wind and solar development can more
+easily replace them. In Carson County, Texas, for example, where fossil fuels generated
+$1.7 million in 2021, wind could match these revenues with 12 percent of developable
+land, while solar could provide the same amount using just 0.5 percent of this land.5
+(Results for all counties are provided in the appendix.)
+The scale of deployment needed to replace fossil fuel revenues with renewables in the
+most fossil fuel–dependent counties would almost certainly cause land use conflict
+(Sward et al. 2021; Moore et al. 2022). For counties where fossil fuel revenues exceed
+$100 million per year, generating an equivalent amount from wind is not physically
+5		These calculations assume that future wind and solar energy development pays the
+same level of property taxes or payments in lieu of taxes per MW as facilities did in 2021.
+They use developable land, wind, and solar capacity potential estimates from Lopez
+et al. (2023) and assume that development is subject to the average local setback
+requirements. For details on these calculations and assumptions, see the appendix.
+
+Resources for the Future
+
+10
+
+possible, given existing tax rates, and doing so with solar would require between 14
+and 66 percent of developable land, a scale that dwarfs existing land uses for energy
+production.6 For context, biofuels production, the United States’ most land-intensive
+energy source by a wide margin (Lovering et al. 2022), occupies roughly 5 to 10
+percent of agricultural land in Iowa, the nation’s leading biofuels producer.7
+
+4.2. Understanding State-Level Variation
+Our results show wide variation across states and energy types. Although we are
+not able to explain all this variation quantitatively, we can identify some major
+contributing factors. As mentioned in Section 4.1, the most important factor is likely
+the wide variation in state policy and how funds are shared between state and local
+governments. In the context of oil and gas, state and local revenue collections range
+from roughly 1 to 40 percent of the value of oil and gas produced. The share of this
+revenue that is collected by, or allocated to, local governments also varies widely,
+ranging from 0.5 to 9 percent of the value of oil and gas produced (Newell and Raimi
+2018).
+The distinction between direct and indirect revenues also affects results. For example,
+local governments in New Mexico receive the lowest amount of direct revenue per
+unit of energy production from oil and gas among our sample counties (see Figure 3).
+However, local governments within these counties do collect substantial oil and gas
+revenues indirectly through state permanent funds and other mechanisms that we do
+not quantify in this analysis (Prest et al. 2023).
+State policies toward renewable energy explain additional variation. In California, local
+revenues per unit of solar generation are far below those of Texas and Wyoming,
+the other states for which we have solar-specific data. This is primarily because
+in California, state policy dictates that local governments cannot tax new solar
+generation infrastructure (California State Board of Equalization 2021). As a result,
+property owners pay taxes on the assessed value of the land but not on the value of
+newly installed solar equipment. But solar revenues in California are not zero, because
+some older solar facilities, such as the large concentrated solar power stations in San
+Bernardino County, contribute meaningfully to the local tax base.
+Revenues from wind also vary widely across jurisdictions and are likely explained by
+several factors. First, older properties are consistently assessed at lower valuations
+than newer properties. For example, wind farms in Wyoming that began operating
+between 2000 and 2005 were valued at $35,000/MW, whereas those that began
+
+6		This calculation excludes Alaska, New Mexico, and North Dakota, where we do not have
+data on solar revenues.
+7		This calculation assumes 0.38 to 0.66 million acres of land per billion gallons of biofuels
+produced (Austin et al. 2022). In Iowa, which produced 4.4 billion gallons of biofuels
+in 2021 (Urbanchuk 2022), this implies land use of 1.6–2.9 million acres, roughly 5–10
+percent of the state’s 30.6 million acres of farmland (USDA 2021).
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+11
+
+operating between 2015 and 2021 were valued at $101,000/MW.8 In some counties,
+such as Paulding County, Ohio, wind farms do not pay property taxes but instead make
+a payment in lieu of taxes, which in 2021 equaled roughly $8,000/MW. Finally, some
+states apply taxes to wind farms in addition to local property taxes, such as Wyoming’s
+wind generation tax, which allocates 60 percent of revenues collected from the tax to
+local governments where the infrastructure is located.9
+Revenue from coal- and natural gas–fired power plants also show a wide range. One
+major contributor to this variation is the different business models for electric power
+generation, transmission, and distribution across states. As with solar in California,
+Alaska exhibits much lower-than-average revenue generation from electric generation
+property. A major cause is that in Alaska, 90 percent of state residents are served by
+not-for-profit municipal utilities or community-owned cooperatives (Alaska Power
+Association 2023). Electric cooperatives pay a small tax imposed by the state (totaling
+$2 million in 2021), with all revenue returned to the borough in which the co-op is
+located (Alaska Department of Revenue 2022).
+
+5. Discussion and Conclusion
+When considering the implications of an energy transition, most analysts and public
+figures focus on potential employment impacts. For example, President Joe Biden
+regularly states, “When I think climate, I think jobs,” and former president Donald
+Trump vowed, “We’re going to put our miners back to work” (Lebowitz 2023; Trump
+2017). Similarly, a growing body of scholarly work and analysis from major energy
+institutions highlights the effects of an energy transition on jobs (Pai et al. 2021;
+Finkelstein Shapiro and Metcalf 2021; Mayfield et al. 2023; IEA 2023). This focus
+on employment is appropriate, given the importance of wages and benefits that
+support families and communities, along with the crucial role that work has in shaping
+individuals’ identities (e.g., Timma 2007).
+In raw financial terms, however, the issue of public revenues may be just as important
+as jobs in fossil fuel–dependent communities, if not more. For example, total wages
+paid to fossil fuel workers in Alaska’s North Slope Borough in 2021 were $328 million,
+compared with local government revenue of $396 million that same year.10 In Weld
+County, Colorado, total fossil fuel wages were $338 million, compared with $565 million
+in local revenue. In some cases, local revenue far exceeds local wages, such as in
+8		Authors’ analysis based on revenue data provided by the office of the Wyoming State
+Tax Commissioner and electricity data from the EIA.
+9		“Tax upon Production of Electricity from Wind Resources,” Wyoming Statutes §39-22.
+10		This includes wages paid to employees in the following sectors, as defined by the
+North American Industrial Classification System (NAICS): 211, oil and gas extraction;
+213, support activities for mining; 2121, coal mining; 221112, fossil fuel electric power
+generation; 221210, natural gas distribution; 23712, oil and gas pipeline and related
+structures construction; 324, petroleum and coal products manufacturing; and 486,
+pipeline transportation.
+
+Resources for the Future
+
+12
+
+Carbon County, Wyoming, where revenues outweigh wages by more than four to one.
+Among our 79 sample counties, local government revenue from fossil fuels exceeded
+local wages from those same sectors in 33 counties.11
+These figures, while instructive, are also incomplete for at least three reasons. First,
+nonwage benefits (e.g., health insurance, retirement savings) for fossil fuel workers
+can be substantial and are not accounted for here. Second, the wage data we use from
+the US Census Bureau (2023) base the location of wages paid on the location of the
+business establishment, not that of the worker, who could live and work in a different
+county. This is particularly the case for companies whose physical establishments are in
+different locations from the energy assets they operate. On the other hand, the revenue
+figures we report here are lower bounds and do not account for the dollars that flow
+to federal, tribal, or state governments, which likely far exceed revenues flowing to the
+local level.
+Regardless of the details of the calculations, it is clear that the energy sector plays a
+major role in supporting government services across the United States, and efforts
+to dramatically reduce greenhouse gas emissions will have major consequences for
+these revenue streams and the services they support. Although local, state, and federal
+policymakers have recognized the importance of this issue, little data is available to
+guide decisionmaking.
+This analysis provides a novel dataset of local government revenue from the extraction,
+processing, transportation, and use of fossil fuels, as well as wind and solar energy
+across 79 counties in 10 US states. The data are far from comprehensive, suggesting
+the need for more research to better characterize the scale of local revenues from the
+energy system.
+Our results demonstrate that fossil fuels, particularly oil and gas, play a dominant
+role in generating revenue for local governments, providing more than half of all local
+property tax revenues in 15 of our 79 sample counties and more than 10 percent in
+47 counties. Although wind and solar in some states generate more revenue per unit
+of primary energy production than fossil fuels, the scale and energy density of fossil
+fuel production, compared with the geographically dispersed nature of wind and solar
+means that these alternatives would need to cover implausibly large portions of fossil
+fuel–dependent counties to replace the revenues they currently generate.
+For locations with little reliance on fossil fuels, however, wind and solar offer a new
+opportunity to grow local tax bases and support public services. Clearly, communities
+stand to benefit when new wind and solar development support local public services.
+But for those communities that are heavily dependent on fossil fuels, our results
+strongly suggest that state or federal financial support will be needed to ensure delivery
+of essential services under any deep decarbonization scenario. Over the longer term,
+these locations will need additional support to develop new economic drivers and
+diversify the local tax base away from its current dependence on fossil fuels.
+11		Local revenue data from authors; county-level wage data from the US Census Bureau
+(2023).
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+13
+
+References
+Alaska Department of Revenue. 2022. Shared Tax Report 2022. Anchorage, AK: Tax Division.
+December 28, 2022. http://tax.alaska.gov/programs/documentviewer/viewer.
+aspx?1752r.
+Alaska Power Association. 2023. “Welcome to Alaska Power Association.” https://
+alaskapower.org/.
+Austin, K. G., J. P. H. Jones, and C. M. Clark. 2022. “A Review of Domestic Land Use Change
+Attributable to U.S. Biofuel Policy.” Renewable and Sustainable Energy Reviews 159
+(May): 112181. https://doi.org/10.1016/j.rser.2022.112181.
+California State Board of Equalization. 2021. “Active Solar Energy System Exclusion.” https://
+www.boe.ca.gov/proptaxes/active-solar-energy-system.htm.
+Christianson, Eric, Nora Ladjahasan, Amy Logan, Olivia Behn, and Peter F. Orazem. 2021. The
+Economic, Fiscal, and Social Impacts of Utility-Owned Coal-Fired Power Plants in Iowa.
+Ames: Iowa State University Extension and Outreach. https://www.iaenvironment.org/
+webres/File/Power%20Plant%20Economic%20Impact%20-%20Final.pdf.
+Colorado Legislative Council Staff. 2014. “Effective Severance Tax Rates.” Denver: Colorado
+General Assembly.
+EIA (U.S. Energy Information Administration). 2023a. “Monthly Energy Review, Appendix E:
+Alternative Approaches for Deriving Energy Contents of Noncombustible Renewables.”
+Washington, DC: US Department of Energy. https://www.eia.gov/totalenergy/data/
+monthly/.
+———. 2023b. “Monthly Energy Review: August 2023, Table 1.2.” Washington, DC: US
+Department of Energy. https://www.eia.gov/totalenergy/data/monthly/.
+Finkelstein Shapiro, Alan, and Gilbert E. Metcalf. 2021. The Macroeconomic Effects of a
+Carbon Tax to Meet the US Paris Agreement Target: The Role of Firm Creation and
+Technology Adoption. Working Paper 21-14. Washington, DC: Resources for the Future.
+https://www.rff.org/publications/working-papers/the-macroeconomic-effects-of-acarbon-tax-to-meet-the-us-paris-agreement-target/.
+Gazmararian, Alexander F., and Dustin Tingley. 2023. Uncertain Futures: How to Unlock the
+Climate Impasse. Cambridge: Cambridge University Press.
+Hansen, J., W. Jenson, A. Wrobel, N. Stauff, K. Biegel, T. Kim, R. Belles, and F. Omitaomu. 2022.
+Investigating Benefits and Challenges of Converting Retiring Coal Plants into Nuclear
+Plants. INL/RPT-22-67964. https://fuelcycleoptions.inl.gov/SiteAssets/SitePages/
+Home/C2N2022Report.pdf.
+Headwaters Economics. 2012. Oil and Natural Gas Fiscal Best Practices: Lessons for State
+and Local Governments. http://headwaterseconomics.org/wp-content/uploads/
+Energy_Fiscal_Best_Practices.pdf.
+Hintz, Olivia, Emma Uebelhor, and Eli Gold. 2021. Inventory of State Solar Property Tax
+Treatments. CLOSUP Working Paper 54. Ann Arbor: Center for Local, State, and Urban
+Policy, University of Michigan. https://closup.umich.edu/research/working-papers/
+inventory-state-solar-property-tax-treatments.
+IEA (International Energy Agency). 2023. Net Zero Roadmap: A Global Pathway to Keep
+the 1.5°C Goal in Reach. Paris: IEA. https://www.iea.org/reports/net-zero-roadmap-aglobal-pathway-to-keep-the-15-0c-goal-in-reach.
+IRS (Internal Revenue Service). 2023. Notice 2023-29. Washington, DC: US Department of the
+Treasury. https://www.irs.gov/pub/irs-drop/n-23-29.pdf.
+
+Resources for the Future
+
+14
+
+Jolley, G. Jason, Christelle Khalaf, Gilbert Michaud, and Austin M. Sandler. 2019. “The
+Economic, Fiscal, and Workforce Impacts of Coal-Fired Power Plant Closures in
+Appalachian Ohio.” Regional Science Policy & Practice 11 (2): 403–22. https://doi.
+org/10.1111/rsp3.12191.
+Lebowitz, Megan. 2023. “Biden Touts Clean Energy Manufacturing and Union Jobs in Visit to
+Philadelphia.” NBC News. July 20, 2023. https://www.nbcnews.com/politics/joe-biden/
+biden-tout-clean-energy-manufacturing-union-jobs-philadelphia-rcna95306.
+Lopez, Anthony, Wesley Cole, Brian Sergi, Aaron Levine, Jesse Carey, Cailee Mangan, Trieu
+Mai, Travis Williams, Pavlo Pinchuk, and Jianyu Gu. 2023. “Impact of Siting Ordinances
+on Land Availability for Wind and Solar Development.” Nature Energy (August): 1–10.
+https://doi.org/10.1038/s41560-023-01319-3.
+Lovering, Jessica, Marian Swain, Linus Blomqvist, and Rebecca R. Hernandez. 2022. “LandUse Intensity of Electricity Production and Tomorrow’s Energy Landscape.” PLOS ONE 17
+(7): e0270155. https://doi.org/10.1371/journal.pone.0270155.
+Mayer, Adam. 2018. “The Fiscal Impacts of Energy: Perspectives from Local Governments
+in the Mountain West, USA.” Energy Policy 122 (November): 186–93. https://doi.
+org/10.1016/j.enpol.2018.07.043.
+Mayfield, Erin, Jesse Jenkins, Eric Larson, and Chris Greig. 2023. “Labor Pathways to Achieve
+Net-Zero Emissions in the United States by Mid-Century.” Energy Policy 177 (June):
+113516. https://doi.org/10.1016/j.enpol.2023.113516.
+McBride, Jameson, Juzel Lloyd, and Seaver Wang. 2022. “Oil and Gas Assets at Risk: How
+Will Clean Energy’s Rise Impact Oil and Gas Communities in the United States amidst
+Shrinking Fossil Fuel Demand?” The Breakthrough Institute. https://thebreakthrough.
+org/articles/oil-and-gas-assets-at-risk-impacts-of-declining-fossil-production-inclimate-scenarios-in-the-us.
+Moore, Sharlissa, Hannah Graff, Carolyn Ouellet, Skyler Leslie, and Danny Olweean. 2022.
+“Can We Have Clean Energy and Grow Our Crops Too? Solar Siting on Agricultural Land
+in the United States.” Energy Research & Social Science 91 (September): 102731. https://
+doi.org/10.1016/j.erss.2022.102731.
+Morris, Adele C., Noah Kaufman, and Siddhi Doshi. 2021. “Revenue at Risk in Coal-Reliant
+Counties.” Environmental and Energy Policy and the Economy 2 (January): 83–116.
+https://doi.org/10.1086/711307.
+Newell, Richard G., and Daniel Raimi. 2018. “US State and Local Oil and Gas Revenue
+Sources and Uses.” Energy Policy 112 (Supplement C): 12–18. https://doi.org/10.1016/j.
+enpol.2017.10.002.
+Pai, Sandeep, Johannes Emmerling, Laurent Drouet, Hisham Zerriffi, and Jessica Jewell. 2021.
+“Meeting Well-below 2°C Target Would Increase Energy Sector Jobs Globally.” One Earth
+4 (7): 1026–36. https://doi.org/10.1016/j.oneear.2021.06.005.
+Pennsylvania Independent Fiscal Office. 2014. Natural Gas Extraction: An Interstate Tax
+Comparison. Special Report 2014-2. http://www.ifo.state.pa.us/releases.cfm?id=77.
+Prest, Brian C. 2022. “Supply-Side Reforms to Oil and Gas Production on Federal Lands:
+Modeling the Implications for CO2 Emissions, Federal Revenues, and Leakage.” Journal of
+the Association of Environmental and Resource Economists 9 (4): 681–720. https://doi.
+org/10.1086/718963.
+Prest, Brian C., Daniel Raimi, and Zachary Whitlock. 2023. Assessing the Future of Oil and Gas
+Production and Local Government Revenue in Five Western US Basins. Working Paper
+23-28. Washington, DC: Resources for the Future. https://www.rff.org/publications/
+working-papers/assessing-the-future-of-oil-and-gas-production-and-localgovernment-revenue-in-five-western-us-basins/.
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+15
+
+Raimi, Daniel, Jake Higdon, Devyani Singh, and Gilbert Metcalf. 2023. “The Fiscal Implications
+of Energy Transition.” Review of Environmental Economics and Policy 17 (2): 217–50.
+https://doi.org/10.1086/725051.
+Rhodes, Joshua D. 2023. The Economic Impact of Renewable Energy and Energy Storage
+in Rural Texas. Austin, TX: IdeaSmiths. https://www.ideasmiths.net/wp-content/
+uploads/2023/01/Economic-Impact-of-Renewable-Energy_JAN2023.pdf.
+Roemer, Kelli F., and Julia H. Haggerty. 2022. “The Energy Transition as Fiscal Rupture: Public
+Services and Resilience Pathways in a Coal Company Town.” Energy Research & Social
+Science 91 (September): 102752. https://doi.org/10.1016/j.erss.2022.102752.
+Smith, Kristin, Mark Haggerty, and Jackson Rose. 2021. Federal Fossil Fuel Disbursements
+to States: State Policy and Practice in Allocating Federal Revenue. Bozeman, MT:
+Headwaters Economics. https://headwaterseconomics.org/tax-policy/federal-fossilfuel-disbursements-to-states.
+Sward, Jeffrey A., Roberta S. Nilson, Venktesh V. Katkar, Richard C. Stedman, David L.
+Kay, Jennifer E. Ifft, and K. Max Zhang. 2021. “Integrating Social Considerations in
+Multicriteria Decision Analysis for Utility-Scale Solar Photovoltaic Siting.” Applied Energy
+288 (April): 116543. https://doi.org/10.1016/j.apenergy.2021.116543.
+Timma, Hilary. 2007. “Experiencing the Workplace: Shaping Worker Identities through
+Assessment, Work and Learning.” Studies in Continuing Education 29 (2): 163–79.
+https://doi.org/10.1080/01580370701403282.
+Trump, Donald J. 2017. “Remarks at the Conservative Political Action Conference in
+National Harbor, Maryland.” American Presidency Project. February 24, 2017. https://
+www.presidency.ucsb.edu/documents/remarks-the-conservative-political-actionconference-national-harbor-maryland.
+Uebelhor, Emma, Olivia Hintz, and Eli Gold. 2021. “Inventory of State Wind Property Tax
+Treatments.” CLOSUP Working Paper 55. Ann Arbor: Center for Local, State, and Urban
+Policy, University of Michigan. https://closup.umich.edu/research/working-papers/
+inventory-state-wind-property-tax-treatments.
+Urbanchuk, John M. 2022. Contribution of the Renewable Fuels Industry to the Economy of
+Iowa. ABF Economics. https://iowarfa.org/wp-content/uploads/2022/02/2021-IowaBiofuels-Impact-Draft.FINAL_.pdf.
+US Census Bureau. 2023. “County Business Patterns: 2021.” Last updated November 9, 2023.
+https://www.census.gov/programs-surveys/cbp/data/datasets.html.
+USDA (US Department of Agriculture). 2021. Iowa Ag News: Farms and Land in Farms. USDA
+National Agricultural Statistics Service. https://www.nass.usda.gov/Statistics_by_
+State/Iowa/Publications/Other_Surveys/2021/IA-Farms-02-21.pdf.
+Wyoming Department of Revenue. 2021. 2020 Annual Report. https://revenue.wyo.gov/
+about-us/dor-annual-reports.
+
+Resources for the Future
+
+16
+
+Appendix
+A.1. Counties and Energy Sources
+Table A.1 lists all counties included in this analysis and indicates the relevant energy
+source or infrastructure where revenue data were collected.
+
+Table A.1. Counties and Energy Sources Included in This Analysis
+
+State
+
+County/
+borough
+
+Oil
+and
+gas
+
+Coal
+
+Processing/
+refining
+
+Pipelines
+
+Power:
+oil or gas
+
+Power:
+coal
+
+Power:
+solar
+
+Power:
+wind
+
+Power:
+various
+
+AK
+
+Denali
+
+—
+
+—
+
+—
+
+—
+
+X
+
+X
+
+—
+
+X
+
+—
+
+AK
+
+Kenai
+Peninsula
+
+X
+
+—
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+AK
+
+North Slope
+
+X
+
+—
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+CA
+
+Kern
+
+X
+
+—
+
+X
+
+X
+
+X
+
+—
+
+X
+
+X
+
+X
+
+CA
+
+Los Angeles
+
+X
+
+—
+
+X
+
+—
+
+X
+
+—
+
+X
+
+—
+
+—
+
+CA
+
+San
+Bernardino
+
+X
+
+—
+
+—
+
+—
+
+X
+
+—
+
+X
+
+—
+
+X
+
+CO
+
+Alamosa
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+CO
+
+Garfield
+
+X
+
+X
+
+X
+
+X
+
+—
+
+—
+
+X
+
+—
+
+X
+
+CO
+
+Kit Carson
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+X
+
+—
+
+X
+
+CO
+
+Lincoln
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+X
+
+—
+
+X
+
+CO
+
+Logan
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+X
+
+X
+
+X
+
+CO
+
+Moffat
+
+X
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+CO
+
+Montezuma
+
+X
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+CO
+
+Pueblo
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+X
+
+X
+
+X
+
+CO
+
+Rio Blanco
+
+X
+
+X
+
+X
+
+X
+
+—
+
+—
+
+X
+
+—
+
+X
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+17
+
+State
+
+County/
+borough
+
+Oil
+and
+gas
+
+Coal
+
+Processing/
+refining
+
+Pipelines
+
+Power:
+oil or gas
+
+Power:
+coal
+
+Power:
+solar
+
+Power:
+wind
+
+Power:
+various
+
+CO
+
+Weld
+
+X
+
+X
+
+X
+
+X
+
+X
+
+—
+
+X
+
+X
+
+X
+
+MT
+
+Big Horn
+
+X
+
+X
+
+—
+
+—
+
+—
+
+X
+
+—
+
+—
+
+—
+
+MT
+
+Musselshell
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+X
+
+MT
+
+Richland
+
+X
+
+X
+
+—
+
+—
+
+X
+
+—
+
+—
+
+—
+
+X
+
+MT
+
+Rosebud
+
+X
+
+X
+
+—
+
+—
+
+—
+
+X
+
+—
+
+—
+
+X
+
+MT
+
+Sheridan
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+MT
+
+Toole
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+—
+
+X
+
+X
+
+MT
+
+Wheatland
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+—
+
+X
+
+X
+
+MT
+
+Yellowstone
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+X
+
+ND
+
+Dunn
+
+X
+
+—
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+ND
+
+McKenzie
+
+X
+
+X
+
+—
+
+X
+
+X
+
+—
+
+—
+
+—
+
+X
+
+ND
+
+McLean
+
+X
+
+X
+
+—
+
+X
+
+—
+
+X
+
+—
+
+—
+
+X
+
+ND
+
+Mercer
+
+X
+
+X
+
+—
+
+X
+
+—
+
+X
+
+—
+
+—
+
+X
+
+ND
+
+Morton
+
+—
+
+—
+
+—
+
+X
+
+—
+
+X
+
+—
+
+X
+
+X
+
+ND
+
+Mountrail
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+ND
+
+Stark
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+X
+
+X
+
+ND
+
+Williams
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+X
+
+X
+
+NM
+
+Chaves
+
+X
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+NM
+
+Eddy
+
+X
+
+—
+
+—
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+NM
+
+Lea
+
+X
+
+—
+
+—
+
+—
+
+X
+
+—
+
+—
+
+X
+
+—
+
+NM
+
+Luna
+
+X
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+X
+
+—
+
+NM
+
+McKinley
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+—
+
+—
+
+—
+
+Resources for the Future
+
+18
+
+State
+
+County/
+borough
+
+Oil
+and
+gas
+
+Coal
+
+Processing/
+refining
+
+Pipelines
+
+Power:
+oil or gas
+
+Power:
+coal
+
+Power:
+solar
+
+Power:
+wind
+
+Power:
+various
+
+NM
+
+Rio Arriba
+
+X
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+NM
+
+Roosevelt
+
+X
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+X
+
+—
+
+NM
+
+San Juan
+
+X
+
+—
+
+—
+
+—
+
+X
+
+X
+
+—
+
+—
+
+—
+
+OH
+
+Belmont
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+OH
+
+Clermont
+
+—
+
+—
+
+—
+
+—
+
+—
+
+X
+
+—
+
+—
+
+—
+
+OH
+
+Gallia
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+—
+
+—
+
+—
+
+OH
+
+Harrison
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+OH
+
+Jefferson
+
+X
+
+X
+
+—
+
+—
+
+X
+
+X
+
+—
+
+—
+
+—
+
+OH
+
+Lucas
+
+—
+
+—
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+OH
+
+Monroe
+
+X
+
+—
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+OH
+
+Paulding
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+X
+
+X
+
+—
+
+OH
+
+Van Wert
+
+—
+
+—
+
+—
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+OH
+
+Washington
+
+X
+
+—
+
+—
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+TX
+
+Andrews
+
+X
+
+—
+
+X
+
+X
+
+—
+
+—
+
+X
+
+X
+
+X
+
+TX
+
+Carson
+
+X
+
+—
+
+—
+
+X
+
+—
+
+—
+
+—
+
+X
+
+X
+
+TX
+
+Harris
+
+X
+
+—
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+X
+
+TX
+
+Limestone
+
+X
+
+—
+
+X
+
+X
+
+—
+
+X
+
+X
+
+X
+
+X
+
+TX
+
+Martin
+
+X
+
+—
+
+X
+
+X
+
+—
+
+—
+
+—
+
+X
+
+X
+
+TX
+
+Midland
+
+X
+
+—
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+TX
+
+Nolan
+
+X
+
+—
+
+—
+
+X
+
+—
+
+—
+
+X
+
+X
+
+X
+
+TX
+
+Pecos
+
+X
+
+—
+
+—
+
+X
+
+—
+
+—
+
+X
+
+X
+
+X
+
+TX
+
+Reeves
+
+X
+
+—
+
+X
+
+X
+
+—
+
+—
+
+X
+
+—
+
+X
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+19
+
+State
+
+County/
+borough
+
+Oil
+and
+gas
+
+Coal
+
+Processing/
+refining
+
+Pipelines
+
+Power:
+oil or gas
+
+Power:
+coal
+
+Power:
+solar
+
+Power:
+wind
+
+Power:
+various
+
+TX
+
+Titus
+
+X
+
+—
+
+—
+
+X
+
+—
+
+X
+
+—
+
+—
+
+X
+
+WV
+
+Doddridge
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+WV
+
+Grant
+
+X
+
+X
+
+—
+
+X
+
+—
+
+X
+
+—
+
+X
+
+X
+
+WV
+
+Greenbrier
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+WV
+
+Logan
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+WV
+
+Marion
+
+X
+
+X
+
+—
+
+X
+
+—
+
+X
+
+—
+
+—
+
+X
+
+WV
+
+Marshall
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+WV
+
+Ohio
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+WV
+
+Putnam
+
+X
+
+X
+
+—
+
+X
+
+—
+
+X
+
+—
+
+—
+
+X
+
+WV
+
+Raleigh
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+WV
+
+Tyler
+
+X
+
+X
+
+—
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+WY
+
+Albany
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+X
+
+—
+
+WY
+
+Campbell
+
+X
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+WY
+
+Carbon
+
+X
+
+X
+
+X
+
+X
+
+—
+
+X
+
+—
+
+X
+
+X
+
+WY
+
+Converse
+
+X
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+X
+
+X
+
+WY
+
+Laramie
+
+X
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+X
+
+X
+
+WY
+
+Lincoln
+
+X
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+WY
+
+Natrona
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+—
+
+X
+
+—
+
+WY
+
+Sublette
+
+X
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+—
+
+X
+
+WY
+
+Sweetwater
+
+X
+
+X
+
+X
+
+X
+
+—
+
+—
+
+X
+
+—
+
+X
+
+WY
+
+Uinta
+
+X
+
+X
+
+X
+
+X
+
+—
+
+—
+
+—
+
+X
+
+X
+
+Resources for the Future
+
+20
+
+A.2. County-Level Revenues
+Table A.2 shows the level of revenue for each county from fossil fuels, wind and solar,
+and our unspecified-electric category. Note that this category generally contains
+electric generation, transmission, and distribution infrastructure in states where these
+data were not available as distinct categories or by fuel type.
+
+Table A.2. Direct Local Government Energy Revenue by County
+Total
+
+All fossil fuels
+
+County/borough
+
+Year
+
+AK
+
+Denali
+
+2021
+
+$31,487
+
+$24,889
+
+$6,598
+
+—
+
+AK
+
+Kenai Peninsula
+
+2021
+
+$9,140,294
+
+$9,140,294
+
+—
+
+—
+
+AK
+
+North Slope
+
+2021
+
+$395,539,447
+
+$395,539,447
+
+—
+
+—
+
+CA
+
+Kern
+
+2021
+
+$282,197,074
+
+$238,327,784
+
+$6,731,003
+
+$37,138,287
+
+CA
+
+Los Angeles
+
+2021–2022
+
+$75,616,324
+
+$74,590,934
+
+$1,025,389
+
+—
+
+CA
+
+San Bernardino
+
+2021
+
+$7,093,332
+
+$1,363,987
+
+$5,160,652
+
+$568,692
+
+CO
+
+Alamosa
+
+2021
+
+$3,459,926
+
+$3,459,926
+
+—
+
+—
+
+CO
+
+Garfield
+
+2021
+
+$78,730,794
+
+$74,215,563
+
+$33,867
+
+$4,481,364
+
+CO
+
+Kit Carson
+
+2021
+
+$7,309,758
+
+$4,896,761
+
+$1,500,603
+
+$912,395
+
+CO
+
+Lincoln
+
+2021
+
+$6,804,211
+
+$2,108,350
+
+$2,798,621
+
+$1,897,240
+
+CO
+
+Logan
+
+2021
+
+$9,268,671
+
+$6,843,969
+
+$1,838,842
+
+$585,860
+
+CO
+
+Moffat
+
+2021
+
+$25,303,850
+
+$12,923,236
+
+—
+
+$12,380,614
+
+CO
+
+Montezuma
+
+2021
+
+$6,005,340
+
+$4,994,570
+
+—
+
+$1,010,770
+
+CO
+
+Pueblo
+
+2021
+
+$47,955,012
+
+$1,824,798
+
+$5,236,172
+
+$40,894,043
+
+CO
+
+Rio Blanco
+
+2021
+
+$19,199,335
+
+$18,491,653
+
+$14,249
+
+$693,433
+
+CO
+
+Weld
+
+2021
+
+$565,266,755
+
+$526,896,983
+
+$2,454,434
+
+$35,915,337
+
+MT
+
+Big Horn
+
+2020
+
+$9,351,677
+
+$9,351,677
+
+—
+
+—
+
+MT
+
+Musselshell
+
+2020
+
+$4,545,849
+
+$3,535,751
+
+—
+
+$1,010,099
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+Wind and solar
+
+Other or
+unspecified
+
+State
+
+21
+
+County/borough
+
+Year
+
+Total
+
+MT
+
+Richland
+
+2020
+
+$35,811,030
+
+$28,439,688
+
+—
+
+$7,371,341
+
+MT
+
+Rosebud
+
+2020
+
+$20,835,962
+
+$20,835,962
+
+—
+
+—
+
+MT
+
+Sheridan
+
+2020
+
+$2,090,871
+
+$2,090,871
+
+—
+
+—
+
+MT
+
+Toole
+
+2020
+
+$4,005,796
+
+$747,044
+
+$1,770,390
+
+$1,488,362
+
+MT
+
+Wheatland
+
+2020
+
+$4,198,057
+
+$110
+
+$914,534
+
+$3,283,414
+
+MT
+
+Yellowstone
+
+2020
+
+$38,237,813
+
+$11,708,125
+
+—
+
+$26,529,688
+
+ND
+
+Dunn
+
+2021
+
+$47,905,807
+
+$46,895,488
+
+—
+
+$1,010,319
+
+ND
+
+McKenzie
+
+2021
+
+$129,647,925
+
+$125,665,101
+
+—
+
+$3,982,824
+
+ND
+
+McLean
+
+2021
+
+$3,578,357
+
+$3,248,976
+
+—
+
+$329,380
+
+ND
+
+Mercer
+
+2021
+
+$7,472,949
+
+$7,046,328
+
+—
+
+$426,621
+
+ND
+
+Morton
+
+2021
+
+$9,206,665
+
+$2,105,441
+
+$3,794,050
+
+$3,307,174
+
+ND
+
+Mountrail
+
+2021
+
+$57,811,270
+
+$56,370,103
+
+—
+
+$1,441,167
+
+ND
+
+Stark
+
+2021
+
+$27,394,271
+
+$24,301,541
+
+$1,529,226
+
+$1,563,504
+
+ND
+
+Williams
+
+2021
+
+$65,514,016
+
+$61,151,916
+
+$734,602
+
+$3,627,499
+
+NM
+
+Chaves
+
+2021
+
+$578,923
+
+$578,923
+
+—
+
+—
+
+NM
+
+Eddy
+
+2021
+
+$71,322,696
+
+$71,322,696
+
+—
+
+—
+
+NM
+
+Lea
+
+2021
+
+$123,327,423
+
+$121,634,620
+
+$1,692,803
+
+—
+
+NM
+
+Luna
+
+2021
+
+$150,002
+
+—
+
+$150,002
+
+—
+
+NM
+
+McKinley
+
+2021
+
+$2,563,439
+
+$2,563,439
+
+—
+
+—
+
+NM
+
+Rio Arriba
+
+2021
+
+$4,932,887
+
+$4,932,887
+
+—
+
+—
+
+NM
+
+Roosevelt
+
+2021
+
+$5,638,667
+
+$5,467,958
+
+$170,709
+
+—
+
+NM
+
+San Juan
+
+2021
+
+$23,629,293
+
+$23,629,293
+
+—
+
+—
+
+OH
+
+Belmont
+
+2021
+
+$26,569,360
+
+$26,569,360
+
+—
+
+—
+
+Resources for the Future
+
+All fossil fuels
+
+Wind and solar
+
+Other or
+unspecified
+
+State
+
+22
+
+All fossil fuels
+
+County/borough
+
+Year
+
+Total
+
+OH
+
+Clermont
+
+2022
+
+$2,784,996
+
+$2,784,996
+
+—
+
+—
+
+OH
+
+Gallia
+
+2022
+
+$1,957,215
+
+$1,957,215
+
+—
+
+—
+
+OH
+
+Harrison
+
+2021
+
+$17,886,364
+
+$17,886,364
+
+—
+
+—
+
+OH
+
+Jefferson
+
+2021
+
+$22,257,048
+
+$22,257,048
+
+—
+
+—
+
+OH
+
+Lucas
+
+2021
+
+$939,326
+
+$939,326
+
+—
+
+—
+
+OH
+
+Monroe
+
+2021
+
+$21,270,051
+
+$21,270,051
+
+—
+
+—
+
+OH
+
+Paulding
+
+2021
+
+$3,615,474
+
+—
+
+$3,615,474
+
+—
+
+OH
+
+Van Wert
+
+2021
+
+$450,730
+
+$450,730
+
+—
+
+—
+
+OH
+
+Washington
+
+2021
+
+$399,224
+
+$399,224
+
+—
+
+—
+
+TX
+
+Andrews
+
+2021
+
+$80,960,413
+
+$67,711,115
+
+$8,855,526
+
+$4,393,771
+
+TX
+
+Carson
+
+2021
+
+$9,712,215
+
+$1,669,037
+
+$5,842,843
+
+$2,200,335
+
+TX
+
+Harris
+
+2021
+
+$166,204,142
+
+$88,573,935
+
+—
+
+$77,630,206
+
+TX
+
+Limestone
+
+2021
+
+$16,416,731
+
+$14,387,169
+
+$574,008
+
+$1,455,554
+
+TX
+
+Martin
+
+2021
+
+$150,269,312
+
+$146,681,091
+
+$202,452
+
+$3,385,769
+
+TX
+
+Midland
+
+2021
+
+$215,922,040
+
+$208,665,392
+
+—
+
+$7,256,649
+
+TX
+
+Nolan
+
+2021
+
+$21,351,238
+
+$7,304,312
+
+$11,739,852
+
+$2,307,074
+
+TX
+
+Pecos
+
+2021
+
+$61,354,327
+
+$44,495,389
+
+$12,616,002
+
+$4,242,936
+
+TX
+
+Reeves
+
+2021
+
+$193,342,482
+
+$185,324,046
+
+$948,941
+
+$7,069,496
+
+TX
+
+Titus
+
+2021
+
+$4,193,717
+
+$1,481,790
+
+—
+
+$2,711,927
+
+WV
+
+Doddridge
+
+2021
+
+$9,693,996
+
+$8,203,856
+
+—
+
+$1,490,139
+
+WV
+
+Grant
+
+2021
+
+$10,593,745
+
+$8,015,099
+
+$1,055,852
+
+$1,522,794
+
+WV
+
+Greenbrier
+
+2021
+
+$2,803,149
+
+$454,104
+
+$98,779
+
+$2,250,267
+
+WV
+
+Logan
+
+2021
+
+$22,494,566
+
+$19,812,760
+
+—
+
+$2,681,807
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+Wind and solar
+
+Other or
+unspecified
+
+State
+
+23
+
+All fossil fuels
+
+Wind and solar
+
+Other or
+unspecified
+
+State
+
+County/borough
+
+Year
+
+Total
+
+WV
+
+Marion
+
+2021
+
+$14,038,351
+
+$10,658,454
+
+—
+
+$3,379,896
+
+WV
+
+Marshall
+
+2021
+
+$52,948,163
+
+$41,269,963
+
+—
+
+$11,678,200
+
+WV
+
+Ohio
+
+2021
+
+$13,834,352
+
+$11,800,233
+
+—
+
+$2,034,119
+
+WV
+
+Putnam
+
+2021
+
+$12,841,129
+
+$11,467,741
+
+—
+
+$1,373,388
+
+WV
+
+Raleigh
+
+2021
+
+$22,810,657
+
+$17,722,379
+
+—
+
+$5,088,278
+
+WV
+
+Tyler
+
+2021
+
+$4,596,555
+
+$4,085,495
+
+—
+
+$511,060
+
+WY
+
+Campbell
+
+2021
+
+$192,328,030
+
+$182,302,764
+
+—
+
+$10,025,267
+
+WY
+
+Carbon
+
+2021
+
+$32,132,740
+
+$23,596,373
+
+$7,692,425
+
+$843,942
+
+WY
+
+Converse
+
+2021
+
+$100,271,909
+
+$87,884,040
+
+$9,176,010
+
+$3,211,859
+
+WY
+
+Laramie
+
+2021
+
+$47,949,083
+
+$42,452,617
+
+$2,361,814
+
+$3,134,652
+
+WY
+
+Lincoln
+
+2021
+
+$28,283,188
+
+$26,244,759
+
+—
+
+$2,038,428
+
+WY
+
+Sublette
+
+2021
+
+$89,957,928
+
+$89,585,468
+
+—
+
+$372,459
+
+WY
+
+Sweetwater
+
+2021
+
+$66,209,915
+
+$59,697,365
+
+$376,226
+
+$6,136,324
+
+WY
+
+Uinta
+
+2021
+
+$9,937,631
+
+$8,204,161
+
+$1,290,482
+
+$442,988
+
+Note: Excludes property tax revenue from oil and gas extraction in West Virginia and pipelines in Montana.
+
+Resources for the Future
+
+24
+
+Table A.3 reports the share of local property taxes generated by the energy system in
+the most recent available year. Local property tax revenues include those flowing to
+counties, school districts, municipalities, and other taxing entities such as hospital or
+fire districts.
+
+Table A.3. Share of Local Property Tax Revenues from the Energy System
+State
+
+County/borough
+
+Year
+
+Energy share
+
+Fossil fuel share
+
+Wind and solar share
+
+AK
+
+Denali
+
+2021
+
+0.0%
+
+0%
+
+0%
+
+AK
+
+Kenai Peninsula
+
+2021
+
+9%
+
+9%
+
+0%
+
+AK
+
+North Slope
+
+2021
+
+98%
+
+98%
+
+0%
+
+CA
+
+Kern
+
+2021
+
+29%
+
+25%
+
+1%
+
+CA
+
+Los Angeles
+
+2021
+
+0.4%
+
+0%
+
+0%
+
+CA
+
+San Bernardino
+
+2021
+
+0.3%
+
+0%
+
+0%
+
+CO
+
+Alamosa
+
+2021
+
+17%
+
+17%
+
+0%
+
+CO
+
+Garfield
+
+2021
+
+48%
+
+45%
+
+0%
+
+CO
+
+Kit Carson
+
+2021
+
+39%
+
+24%
+
+9%
+
+CO
+
+Lincoln
+
+2021
+
+54%
+
+16%
+
+22%
+
+CO
+
+Logan
+
+2021
+
+19%
+
+10%
+
+7%
+
+CO
+
+Moffat
+
+2021
+
+72%
+
+29%
+
+0%
+
+CO
+
+Montezuma
+
+2021
+
+15%
+
+12%
+
+0%
+
+CO
+
+Pueblo
+
+2021
+
+23%
+
+1%
+
+3%
+
+CO
+
+Rio Blanco
+
+2021
+
+9%
+
+8%
+
+0%
+
+CO
+
+Weld
+
+2021
+
+57%
+
+53%
+
+0%
+
+MT
+
+Big Horn
+
+2020
+
+1%
+
+1%
+
+0%
+
+MT
+
+Musselshell
+
+2020
+
+9%
+
+0%
+
+0%
+
+MT
+
+Richland
+
+2020
+
+24%
+
+0%
+
+0%
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+25
+
+State
+
+County/borough
+
+Year
+
+Energy share
+
+Fossil fuel share
+
+Wind and solar share
+
+MT
+
+Rosebud
+
+2020
+
+74%
+
+74%
+
+0%
+
+MT
+
+Sheridan
+
+2020
+
+0.0%
+
+0%
+
+0%
+
+MT
+
+Toole
+
+2020
+
+21%
+
+0%
+
+12%
+
+MT
+
+Wheatland
+
+2020
+
+55%
+
+0%
+
+12%
+
+MT
+
+Yellowstone
+
+2020
+
+12%
+
+3%
+
+0%
+
+NM
+
+Chaves
+
+2020
+
+4%
+
+4%
+
+0%
+
+NM
+
+Eddy
+
+2020
+
+58%
+
+58%
+
+0%
+
+NM
+
+Lea
+
+2020
+
+68%
+
+68%
+
+1%
+
+NM
+
+Luna
+
+2020
+
+0.1%
+
+0%
+
+1%
+
+NM
+
+McKinley
+
+2020
+
+9%
+
+9%
+
+0%
+
+NM
+
+Rio Arriba
+
+2020
+
+28%
+
+28%
+
+0%
+
+NM
+
+Roosevelt
+
+2020
+
+3%
+
+3%
+
+53%
+
+NM
+
+San Juan
+
+2020
+
+30%
+
+30%
+
+0%
+
+ND
+
+Dunn
+
+2020
+
+83%
+
+70%
+
+0%
+
+ND
+
+McKenzie
+
+2020
+
+76%
+
+63%
+
+0%
+
+ND
+
+McLean
+
+2020
+
+4%
+
+2%
+
+0%
+
+ND
+
+Mercer
+
+2020
+
+12%
+
+9%
+
+0%
+
+ND
+
+Morton
+
+2020
+
+13%
+
+5%
+
+0%
+
+ND
+
+Mountrail
+
+2020
+
+52%
+
+44%
+
+0%
+
+ND
+
+Stark
+
+2020
+
+6%
+
+3%
+
+0%
+
+ND
+
+Williams
+
+2020
+
+31%
+
+25%
+
+0%
+
+OH
+
+Belmont
+
+2021
+
+12%
+
+12%
+
+0%
+
+OH
+
+Clermont
+
+2021–2022
+
+0.4%
+
+0%
+
+0%
+
+Resources for the Future
+
+26
+
+State
+
+County/borough
+
+Year
+
+Energy share
+
+Fossil fuel share
+
+Wind and solar share
+
+OH
+
+Gallia
+
+2021–2022
+
+3%
+
+3%
+
+0%
+
+OH
+
+Harrison
+
+2021
+
+16%
+
+16%
+
+0%
+
+OH
+
+Jefferson
+
+2021
+
+12%
+
+12%
+
+0%
+
+OH
+
+Lucas
+
+2021–2022
+
+0.1%
+
+0%
+
+0%
+
+OH
+
+Monroe
+
+2021
+
+17%
+
+17%
+
+0%
+
+OH
+
+Paulding
+
+2021
+
+8%
+
+0%
+
+8%
+
+OH
+
+Van Wert
+
+2021–2022
+
+1%
+
+1%
+
+0%
+
+OH
+
+Washington
+
+2021–2022
+
+0.3%
+
+0%
+
+0%
+
+TX
+
+Andrews
+
+2021
+
+66%
+
+55%
+
+7%
+
+TX
+
+Carson
+
+2021
+
+59%
+
+10%
+
+35%
+
+TX
+
+Harris
+
+2021
+
+1%
+
+1%
+
+0%
+
+TX
+
+Limestone
+
+2021
+
+33%
+
+29%
+
+1%
+
+TX
+
+Martin
+
+2021
+
+61%
+
+60%
+
+0%
+
+TX
+
+Midland
+
+2021
+
+29%
+
+28%
+
+0%
+
+TX
+
+Nolan
+
+2021
+
+44%
+
+15%
+
+24%
+
+TX
+
+Pecos
+
+2021
+
+56%
+
+41%
+
+12%
+
+TX
+
+Reeves
+
+2021
+
+46%
+
+44%
+
+0%
+
+TX
+
+Titus
+
+2021
+
+8%
+
+3%
+
+0%
+
+WV
+
+Doddridge
+
+2021
+
+18%
+
+15%
+
+0%
+
+WV
+
+Grant
+
+2021
+
+66%
+
+49%
+
+7%
+
+WV
+
+Greenbrier
+
+2021
+
+8%
+
+1%
+
+0%
+
+WV
+
+Logan
+
+2021
+
+71%
+
+62%
+
+0%
+
+WV
+
+Marion
+
+2021
+
+25%
+
+19%
+
+0%
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+27
+
+State
+
+County/borough
+
+Year
+
+Energy share
+
+Fossil fuel share
+
+Wind and solar share
+
+WV
+
+Marshall
+
+2021
+
+49%
+
+37%
+
+0%
+
+WV
+
+Ohio
+
+2021
+
+19%
+
+16%
+
+0%
+
+WV
+
+Putnam
+
+2021
+
+19%
+
+17%
+
+0%
+
+WV
+
+Raleigh
+
+2021
+
+32%
+
+24%
+
+0%
+
+WV
+
+Tyler
+
+2021
+
+4%
+
+3%
+
+0%
+
+WY
+
+Campbell
+
+2021
+
+91%
+
+86%
+
+0%
+
+WY
+
+Carbon
+
+2021
+
+88%
+
+54%
+
+16%
+
+WY
+
+Converse
+
+2021
+
+97%
+
+81%
+
+6%
+
+WY
+
+Laramie
+
+2021
+
+32%
+
+26%
+
+2%
+
+WY
+
+Lincoln
+
+2021
+
+57%
+
+53%
+
+0%
+
+WY
+
+Sublette
+
+2021
+
+91%
+
+91%
+
+0%
+
+WY
+
+Sweetwater
+
+2021
+
+47%
+
+42%
+
+0%
+
+WY
+
+Uinta
+
+2021
+
+42%
+
+31%
+
+4%
+
+Note: Total revenue data from assorted state sources. Energy data from authors. Excludes property tax revenue from oil and gas
+extraction in West Virginia and pipelines in Montana.
+
+Resources for the Future
+
+28
+
+A.3. Calculating Replacement Revenue
+To estimate the amount of wind or solar energy development needed to replace fossil
+fuel revenues in each county, we rely on recently published estimates of county-level
+wind and solar potential from Lopez et al. (2023), who gathered more than 2,000
+local ordinances related to wind and solar siting. Based on these data, they estimate
+the amount of developable land available to wind and solar in each county under
+different setbacks specified in the ordinances. The authors focus on three scenarios:
+a “no setbacks” scenario, in which there are no restrictions on the siting of wind or
+solar facilities with respect to distance from structures or other infrastructure such
+as roads; a “50th percentile” scenario, which assumes county-level setbacks are as
+stringent as the average national setback distance across all ordinances; and a “90th
+percentile” scenario, which assumes setbacks are as stringent as the 90th percentile of
+all ordinances. They then estimate the maximum potential wind and solar development
+under each policy scenario within each county.1
+For this analysis, we chose to use the 50th percentile scenario, because a no setbacks
+scenario is inconsistent with existing local land use policies, and the 90th percentile
+scenario would tend to overstate the land use restrictions for wind and solar
+development. To estimate the amount of land needed to match county-level fossil fuel
+revenues, we first use state-level average revenues for wind and solar to estimate the
+amount of wind or solar deployment needed to match fossil fuel revenues. We then
+use the Lopez et al. (2023) estimates to assess the land use requirements of that scale
+of wind or solar deployment. In many cases for wind, the amount of land needed to
+match fossil fuel revenues exceeds the available land. For solar, where our revenue data
+are more limited, land requirements exceed available area for only one county, Harris
+County, Texas, which is heavily urbanized and has relatively little available land. Table
+A.4 presents a complete list of developable land, the land needed to match existing
+fossil fuel revenues, and the proportion of developable land that would be required to
+do so. Lopez et al. do not provide estimates for Alaska, so we do not present results for
+this state here.
+
+1		The authors provided us with county-level results for both developable land area and
+maximum potential wind and solar deployment (in MW) via email.
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+29
+
+Table A.4. Wind and Solar Land Needs to Replace Fossil Fuel Revenues
+
+State
+
+County
+
+Fossil fuel
+revenue
+
+Developable land
+(km2)
+Wind
+
+Solar
+
+Land needed to match
+fossil fuel revenue (km2)
+Wind
+
+Solar
+
+Share of land to match
+fossil fuel revenue
+Wind
+
+Solar
+
+CA
+
+Kern
+
+$238,327,784
+
+1,449
+
+11,654
+
+91,720
+
+4,866
+
+Not possible
+
+42%
+
+CA
+
+Los Angeles
+
+$74,590,934
+
+477
+
+2,525
+
+28,706
+
+1,523
+
+Not possible
+
+60%
+
+CA
+
+San
+Bernardino
+
+$1,363,987
+
+6,735
+
+24,599
+
+525
+
+28
+
+8%
+
+0%
+
+CO
+
+Alamosa
+
+$3,459,926
+
+141
+
+596
+
+339
+
+32
+
+Not possible
+
+5%
+
+CO
+
+Garfield
+
+$74,215,563
+
+785
+
+1,748
+
+7,273
+
+682
+
+Not possible
+
+39%
+
+CO
+
+Kit Carson
+
+$4,896,761
+
+2,222
+
+4,674
+
+480
+
+45
+
+22%
+
+1%
+
+CO
+
+Lincoln
+
+$2,108,350
+
+3,960
+
+5,181
+
+207
+
+19
+
+5%
+
+0%
+
+CO
+
+Logan
+
+$6,843,969
+
+1,866
+
+3,875
+
+671
+
+63
+
+36%
+
+2%
+
+CO
+
+Moffat
+
+$12,923,236
+
+5,009
+
+8,940
+
+1,267
+
+119
+
+25%
+
+1%
+
+CO
+
+Montezuma
+
+$4,994,570
+
+1,429
+
+2,385
+
+489
+
+46
+
+34%
+
+2%
+
+CO
+
+Pueblo
+
+$1,824,798
+
+1,692
+
+4,029
+
+179
+
+17
+
+11%
+
+0%
+
+CO
+
+Rio Blanco
+
+$18,491,653
+
+2,751
+
+4,478
+
+1,812
+
+170
+
+66%
+
+4%
+
+CO
+
+Weld
+
+$526,896,983
+
+2,944
+
+8,414
+
+51,638
+
+4,841
+
+Not possible
+
+58%
+
+MT
+
+Big Horn
+
+$9,351,677
+
+3,693
+
+8,186
+
+648
+
+No data
+
+18%
+
+No data
+
+MT
+
+Musselshell
+
+$3,535,751
+
+1,702
+
+3,813
+
+245
+
+No data
+
+14%
+
+No data
+
+MT
+
+Richland
+
+$28,439,688
+
+1,341
+
+3,305
+
+1,970
+
+No data
+
+Not possible
+
+No data
+
+MT
+
+Rosebud
+
+$20,835,962
+
+5,091
+
+9,755
+
+1,443
+
+No data
+
+28%
+
+No data
+
+MT
+
+Sheridan
+
+$2,090,871
+
+905
+
+2,942
+
+145
+
+No data
+
+16%
+
+No data
+
+MT
+
+Toole
+
+$747,044
+
+1,448
+
+3,840
+
+52
+
+No data
+
+4%
+
+No data
+
+Resources for the Future
+
+30
+
+State
+
+County
+
+Fossil fuel
+revenue
+
+Developable land
+(km2)
+Wind
+
+Solar
+
+Land needed to match
+fossil fuel revenue (km2)
+Wind
+
+Solar
+
+Share of land to match
+fossil fuel revenue
+Wind
+
+Solar
+
+MT
+
+Wheatland
+
+$110
+
+1,228
+
+2,480
+
+0
+
+No data
+
+0%
+
+No data
+
+MT
+
+Yellowstone
+
+$11,708,125
+
+2,263
+
+5,336
+
+811
+
+No data
+
+36%
+
+No data
+
+NM
+
+Chaves
+
+$578,923
+
+8,556
+
+13,877
+
+34
+
+No data
+
+0%
+
+No data
+
+NM
+
+Eddy
+
+$71,322,696
+
+3,677
+
+8,624
+
+4,226
+
+No data
+
+Not possible
+
+No data
+
+NM
+
+Lea
+
+$121,634,620
+
+3,962
+
+9,959
+
+7,206
+
+No data
+
+Not possible
+
+No data
+
+NM
+
+Luna
+
+$0
+
+4,552
+
+6,587
+
+0
+
+No data
+
+0%
+
+No data
+
+NM
+
+McKinley
+
+$2,563,439
+
+8,375
+
+12,448
+
+152
+
+No data
+
+2%
+
+No data
+
+NM
+
+Rio Arriba
+
+$4,932,887
+
+4,861
+
+8,483
+
+292
+
+No data
+
+6%
+
+No data
+
+NM
+
+Roosevelt
+
+$5,467,958
+
+2,737
+
+5,430
+
+324
+
+No data
+
+12%
+
+No data
+
+NM
+
+San Juan
+
+$23,629,293
+
+6,449
+
+11,030
+
+1,400
+
+No data
+
+22%
+
+No data
+
+ND
+
+Dunn
+
+$46,895,488
+
+626
+
+3,808
+
+4,014
+
+No data
+
+Not possible
+
+No data
+
+ND
+
+McKenzie
+
+$125,665,101
+
+1,105
+
+4,593
+
+10,756
+
+No data
+
+Not possible
+
+No data
+
+ND
+
+McLean
+
+$3,248,976
+
+27
+
+1,721
+
+278
+
+No data
+
+Not possible
+
+No data
+
+ND
+
+Mercer
+
+$7,046,328
+
+196
+
+1,114
+
+603
+
+No data
+
+Not possible
+
+No data
+
+ND
+
+Morton
+
+$2,105,441
+
+523
+
+2,752
+
+180
+
+No data
+
+34%
+
+No data
+
+ND
+
+Mountrail
+
+$56,370,103
+
+278
+
+2,425
+
+4,825
+
+No data
+
+Not possible
+
+No data
+
+ND
+
+Stark
+
+$24,301,541
+
+288
+
+2,311
+
+2,080
+
+No data
+
+Not possible
+
+No data
+
+ND
+
+San Juan
+
+$61,151,916
+
+144
+
+3,073
+
+5,234
+
+No data
+
+Not possible
+
+No data
+
+OH
+
+Belmont
+
+$26,569,360
+
+17
+
+657
+
+1,077
+
+No data
+
+Not possible
+
+No data
+
+OH
+
+Clermont
+
+$2,784,996
+
+1
+
+563
+
+113
+
+No data
+
+Not possible
+
+No data
+
+OH
+
+Gallia
+
+$1,957,215
+
+10
+
+838
+
+79
+
+No data
+
+Not possible
+
+No data
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+31
+
+State
+
+County
+
+Fossil fuel
+revenue
+
+Developable land
+(km2)
+Wind
+
+Solar
+
+Land needed to match
+fossil fuel revenue (km2)
+Wind
+
+Solar
+
+Share of land to match
+fossil fuel revenue
+Wind
+
+Solar
+
+OH
+
+Harrison
+
+$17,886,364
+
+18
+
+483
+
+725
+
+No data
+
+Not possible
+
+No data
+
+OH
+
+Jefferson
+
+$22,257,048
+
+13
+
+531
+
+902
+
+No data
+
+Not possible
+
+No data
+
+OH
+
+Lucas
+
+$939,326
+
+0
+
+238
+
+38
+
+No data
+
+Not possible
+
+No data
+
+OH
+
+Monroe
+
+$21,270,051
+
+8
+
+797
+
+862
+
+No data
+
+Not possible
+
+No data
+
+OH
+
+Paulding
+
+$0
+
+261
+
+559
+
+0
+
+No data
+
+0%
+
+No data
+
+OH
+
+Van Wert
+
+$450,730
+
+194
+
+876
+
+18
+
+No data
+
+9%
+
+No data
+
+OH
+
+Washington
+
+$399,224
+
+4
+
+1,156
+
+16
+
+No data
+
+Not possible
+
+No data
+
+TX
+
+Andrews
+
+$67,711,115
+
+1,035
+
+3,165
+
+5,159
+
+343
+
+Not possible
+
+11%
+
+TX
+
+Carson
+
+$1,669,037
+
+1,032
+
+1,804
+
+127
+
+8
+
+12%
+
+0%
+
+TX
+
+Harris
+
+$88,573,935
+
+22
+
+224
+
+6,749
+
+449
+
+Not possible Not possible
+
+TX
+
+Limestone
+
+$14,387,169
+
+292
+
+1,362
+
+1,096
+
+73
+
+Not possible
+
+5%
+
+TX
+
+Martin
+
+$146,681,091
+
+452
+
+1,752
+
+11,177
+
+744
+
+Not possible
+
+42%
+
+TX
+
+Midland
+
+$208,665,392
+
+344
+
+1,594
+
+15,900
+
+1,058
+
+Not possible
+
+66%
+
+TX
+
+Nolan
+
+$7,304,312
+
+1,285
+
+1,968
+
+557
+
+37
+
+43%
+
+2%
+
+TX
+
+Pecos
+
+$44,495,389
+
+5,549
+
+10,769
+
+3,390
+
+226
+
+61%
+
+2%
+
+TX
+
+Reeves
+
+$185,324,046
+
+2,393
+
+5,567
+
+14,121
+
+940
+
+Not possible
+
+17%
+
+TX
+
+Titus
+
+$1,481,790
+
+17
+
+157
+
+113
+
+8
+
+Not possible
+
+5%
+
+WV
+
+Doddridge
+
+$8,203,856
+
+32
+
+407
+
+385
+
+No data
+
+Not possible
+
+No data
+
+WV
+
+Grant
+
+$8,015,099
+
+111
+
+483
+
+376
+
+No data
+
+Not possible
+
+No data
+
+WV
+
+Greenbrier
+
+$454,104
+
+372
+
+1,309
+
+21
+
+No data
+
+6%
+
+No data
+
+WV
+
+Logan
+
+$19,812,760
+
+67
+
+110
+
+931
+
+No data
+
+Not possible
+
+No data
+
+Resources for the Future
+
+32
+
+State
+
+County
+
+Fossil fuel
+revenue
+
+Developable land
+(km2)
+Wind
+
+Solar
+
+Land needed to match
+fossil fuel revenue (km2)
+Wind
+
+Solar
+
+Share of land to match
+fossil fuel revenue
+Wind
+
+Solar
+
+WV
+
+Marion
+
+$10,658,454
+
+1
+
+389
+
+501
+
+No data
+
+Not possible
+
+No data
+
+WV
+
+Marshall
+
+$41,269,963
+
+4
+
+334
+
+1,938
+
+No data
+
+Not possible
+
+No data
+
+WV
+
+Ohio
+
+$11,800,233
+
+0
+
+61
+
+0
+
+No data
+
+Not possible
+
+No data
+
+WV
+
+Putnam
+
+$11,467,741
+
+17
+
+431
+
+539
+
+No data
+
+Not possible
+
+No data
+
+WV
+
+Raleigh
+
+$17,722,379
+
+76
+
+509
+
+832
+
+No data
+
+Not possible
+
+No data
+
+WV
+
+Tyler
+
+$4,085,495
+
+11
+
+315
+
+192
+
+No data
+
+Not possible
+
+No data
+
+WY
+
+Campbell
+
+$182,302,764
+
+4,997
+
+10,004
+
+5,930
+
+1,393
+
+Not possible
+
+14%
+
+WY
+
+Carbon
+
+$23,596,373
+
+7,700
+
+13,469
+
+768
+
+180
+
+10%
+
+1%
+
+WY
+
+Converse
+
+$87,884,040
+
+4,326
+
+7,875
+
+2,859
+
+672
+
+66%
+
+9%
+
+WY
+
+Laramie
+
+$42,452,617
+
+2,221
+
+5,339
+
+1,381
+
+324
+
+62%
+
+6%
+
+WY
+
+Lincoln
+
+$26,244,759
+
+594
+
+4,704
+
+854
+
+201
+
+Not possible
+
+4%
+
+WY
+
+Sublette
+
+$89,585,468
+
+3,755
+
+5,374
+
+2,914
+
+685
+
+78%
+
+13%
+
+WY
+
+Sweetwater
+
+$59,697,365
+
+5,846
+
+22,432
+
+1,942
+
+456
+
+33%
+
+2%
+
+WY
+
+Uinta
+
+$8,204,161
+
+1,530
+
+3,496
+
+267
+
+63
+
+17%
+
+2%
+
+Note: Alaska boroughs not included because the Lopez et al. (2023) data did not provide wind and solar potential.
+
+The Energy Transition and Local Government Finance: New Data and Insights from 10 US States
+
+33
+
+Resources for the Future
+
+34
+
+
