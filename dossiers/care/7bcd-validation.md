@@ -48,7 +48,7 @@ Role: section 7 of the care dossier for parts B, C and D: how the cost in sectio
 - *Pre-K:* about 5.2 million 3- and 4-year-olds.
 - *Workers:* most home care aides (the 2024 median is $16.77 an hour [EV-CAR-613]) and child care staff (median $16.82 [EV-CAR-516]) get a raise to the floor.
 
-**Household cost by income.** No household model in `models/` covers care: `models/tools/incidence-model.py` spreads the legacy FAM-2 and HLT-4 rows over income quintiles with fixed keys and has no copay or income-line logic, and the child poverty model applies the legacy 75% line, not the decided 85% (`models/tools/child-poverty/model.py`). So this section shows two things: the incidence model's keys applied to the decided cost, and the decided rules applied to typical cases.
+**Household cost by income.** No household model in `models/` covers care: the D3 test in `models/tools/household/d3.py` (which replaced the legacy `incidence-model.py`) spreads the booked FAM-2 and HLT-4 rows over income quintiles with fixed keys and has no copay or income-line logic, and the child poverty model applies the legacy 75% line, not the decided 85% (`models/tools/child-poverty/model.py`). So this section shows two things: the incidence model's keys applied to the decided cost, and the decided rules applied to typical cases.
 
 *The decided cost on the incidence model's keys, FY2040, per household per year* (project arithmetic: 140 million households, a fifth in each quintile; the keys are the legacy model's judgment):
 

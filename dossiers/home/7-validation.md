@@ -144,7 +144,7 @@ When this section was drafted, the plan set no target for homes built or preserv
 | --- | --- | --- |
 | Child poverty microsimulation (`models/tools/child-poverty/`) | `run_validation.py` and `check_agenda_results.py`, November 9, 2026 | Both pass: 117 tests, the stored eight cases and 42 sensitivities. The national rerun needs the Census archive, which is not in the repository; the stored national results are used below |
 | Budget model (`models/tools/budget/`, fiscal model) | Through `bash .github/scripts/run-checks.sh` | 19 benchmarks, 16 pass, 3 fail (PS-4a, PS-4b, TF-2); milestone not passed (`MODEL-CARD.md`) |
-| Household incidence (`models/tools/incidence-model.py`) | Through the same checks | Housing carried as one row, $0.56 trillion on a 60/25/10/4/1 quintile key (`models/data/inputs/incidence-keys.csv`) |
+| Household incidence (`models/tools/household/d3.py`, which replaced the legacy `incidence-model.py`) | Through the same checks | Its legacy version carries housing as one row, $0.56 trillion on a 60/25/10/4/1 quintile key (`models/data/inputs/incidence-keys.csv`); its measured version is in 2.4 below |
 | Scenario calendar | Read through section 5 | Ranges only |
 
 ### 2.2 What the household model can say

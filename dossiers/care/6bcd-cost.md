@@ -1,6 +1,6 @@
 # Care you can count on, parts B-D (long-term care, child care and pre-K, the care workforce): cost
 
-Role: section 6 of the care dossier for parts B, C and D. It prices the provisions of `4bcd-specification.md` on federal fiscal years and reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`). Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README), on `DEC-2026-11-11-02` to `-06`. Every figure is project arithmetic, not an official score. **Nothing is booked here**: the booking follows the milestone review, and part 5 lists exactly which ledger rows and inputs it would change.
+Role: section 6 of the care dossier for parts B, C and D. It prices the provisions of `4bcd-specification.md` on federal fiscal years and reports the fiscal-rule effect to the financing settlement (`charter/STANDARDS.md`, "Fiscal rule in dossiers: report, don't gate", `DEC-2026-11-10-05`). Status: reviewed at L3 (parts B-D, `review-milestone-bcd.md`; see the README), on `DEC-2026-11-11-02` to `-06`, and booked (#265). Every figure is project arithmetic, not an official score; part 5 reports the booked rows.
 
 ## Counting rules
 
@@ -128,43 +128,51 @@ What states pay toward parts B-D, beside the federal cost (central; `care_bcd_pa
 
 ## 5. The fiscal-rule report
 
-Each figure has one basis: federal fiscal years, $ billion, a cost positive, against what the budget model now books (`models/data/recovery-budget-paths.csv`, case `mixed`, read after `bash models/tools/run-all.sh` at commit `aa6b250`).
+Under `DEC-2026-11-10-05`, parts B-D report their effect and pass it to the settlement. The budget model books the decided design (`models/tools/care_booking.py`; #265, with the status rule for long-term care in #313), so this part reports the booked rows. Each figure is the fiscal model's generated row path (`models/tools/fiscal-model.py`, the `rows` of its JSON output and the components in `models/data/inputs/fiscal-components.csv`): federal fiscal years, general fund, a cost positive; the plan-wide balance is `models/data/recovery-budget-paths.csv` (case `mixed`).
 
-| Measure | FY2030-39 | FY2040 (permanent) |
-| --- | --- | --- |
-| Parts B-D, federal cost as decided (part 1) | $3,537 billion | $729 billion (1.3% of GDP) |
-| With the items in part 2 | $3,574 billion | $735 billion |
-| Already booked for the same purposes: HLT-4's long-term care component; the EDU-9B fund's care component | $319 billion; $786 billion | $44 billion; $106 billion |
-| **Net change in spending a booking would make** | **about $2,432 billion** | **about $580 billion (1.1% of GDP)** |
-| *of which:* long-term care and the workforce in home care and nursing homes, net of HLT-4's component, all on the general fund | about $1,811 billion | about $456 billion |
-| *of which:* child care, pre-K and early educators' pay, net of the fund's care component | about $622 billion | about $124 billion |
-
-**Where part C lands changes the general fund's share.** In case `mixed` the general fund pays the EDU-9B fund a grant of 30% of the fund's outlays after 2034 (`models/tools/recovery-budget/model.py`, `edu_fund`; `gf_share_mixed`). So part C left in the fund costs the general fund about 30 cents on the dollar, and the rest falls on the fund's payroll receipts and reserve. Part C on the general fund costs all of it there, and the fund's grant falls with its care outlays. The budget model, run in memory with these lines (`tools/care_bcd_margin.py`; nothing written), gives:
-
-| FY2040 | General-fund primary balance (`agenda_gf_primary_bn`, case `mixed`, before interest) | Education fund's general-fund grant | On the fund's own receipts and reserve |
+| Row | What it books | FY2030-39 ($ trillion) | FY2040 ($ billion) |
 | --- | --- | --- | --- |
-| As booked | $3,750 billion short (6.9% of GDP) | $98 billion | — |
-| Long-term care booked; part C as booked | $4,206 billion short (7.8%) | $98 billion | — |
-| **Part C left in the EDU-9B fund** | **$4,243 billion short (7.8%)** | $135 billion | about $87 billion a year more: a fund-solvency effect the settlement must cover with the fund's rate |
-| **Part C on the general fund** (FAM-2 out of the fund) | **$4,403 billion short (8.1%)** | $66 billion | about $32 billion a year less |
+| HLT-4, care's parts | The bridge (HLT-4.01), the care wage floor in Medicaid in 2030-34, training and supply money (HLT-10.06, 10.07), the small items (HLT-4.02 to 4.04, 4.07) and the territories' bridge and floor. They replace HLT-4's legacy long-term care component ("HCBS down payment and care workforce", 0.3194). Health's parts of the row are in `6-cost.md`, part 5; the whole row is 0.414 and 21.1 | 0.235 | 2.3 |
+| HLT-9 | Long-term care, regular order from 2035 (rail FLOOR): the home and community care benefit and the care part of institutional care gross, the states' payment as an offsetting receipt, the state option below the line, room and board, the territories, and the status rule (`DEC-2026-11-13-01`) | 1.697 | **444.1** |
+| | of which the home and community care benefit (HLT-9.01 to 9.07) | 1.702 | 437.4 |
+| | of which the care part of institutional care (HLT-9.08) | 0.546 | 133.6 |
+| | of which the states' payment (HLT-9.09, an offsetting receipt) | −0.605 | −148.1 |
+| | of which the state option below the line | 0.024 | 13.8 |
+| | of which room and board help | 0.014 | 3.5 |
+| | of which the territories | 0.019 | 4.8 |
+| | of which the status rule (part 2b) | −0.003 | −0.8 |
+| HLT-10 | The care wage floor in the plan's rates from 2035, net of option 4's delay and of the new users with no status | 0.210 | **53.9** |
+| HLT-11 | The nursing home staffing standard | 0.036 | **6.9** |
+| FAM-2 | Child care and pre-K with early educators' pay (FAM-2G), reconciliation (R2): in case `mixed` the EDU-9B fund carries it | 1.484 | **242.8** |
+| | of which child care (FAM-2.01, 2.08) | 0.651 | 102.3 |
+| | of which pre-K (FAM-2.02) | 0.493 | 80.0 |
+| | of which early educators' pay (FAM-2G.01) | 0.259 | 53.3 |
+| | of which CCDF kept for school-age children (FAM-2.04) | 0.048 | 6.0 |
+| | of which the facilities fund (FAM-2.05, FY2030-34) | 0.025 | 0 |
+| | of which the territories | 0.008 | 1.2 |
+| **Parts B-D, as booked** (the rows above) | | **3.662** | **750.0** |
 
-**The status rule** (part 2b) is booked with health's (`6-cost.md`, part 2b): long-term care's part moves the FY2040 general-fund gap by about −$0.9 billion; with health's, the plan-wide gap (case `mixed`) goes from about $4,275 billion to $4,240 billion short (health's part now includes hospitals' uncompensated-care payment, `DEC-2026-11-13-02`, about +$1 billion in FY2040).
+A row's components can differ from its total by 0.1 in the last place, from rounding. The booked total is $3,662 billion over FY2030-39 and $750 billion in FY2040, and `test_fiscal_care.py` checks both against the dossier's path (part 1's decided pieces are $3,537 billion and $729 billion; the booked rows add part 2's items and the status rule).
 
-**Its share of the plan-wide margin.** Parts B-D move the FY2040 general-fund gap by about $493 billion (part C in the fund, with about $87 billion more on the fund itself) to $654 billion (part C on the general fund): about 12-15% of the plan-wide gap. (Health's own FY2040 net cost as booked is also about $4,243 billion, $4,243.0 billion in `6-cost.md`, part 5; the plan-wide gap with parts B-D and part C in the fund is $4,242.7 billion. The match is a coincidence: one is health's cost, the other the whole plan's general-fund gap.) GDP is the budget model's ($54,167 billion in FY2040). The gap is expected: health's and care's shift from premiums and out-of-pocket costs to taxes is what the financing settlement designs. It is a figure to report, not an error to fix (`DEC-2026-11-10-05`), and no part of it goes to Espen on its own.
+| Measure, FY2040 | As booked |
+| --- | --- |
+| Parts B-D, federal cost (the rows above) | **$750.0 billion** (1.4% of GDP) |
+| Plan-wide general-fund primary balance (`agenda_gf_primary_bn`, case `mixed`, before interest; every booked flagship) | **$4,240.4 billion short** (7.83% of GDP) |
+| The EDU-9B fund's general-fund grant (the whole fund, FAM-2's care component included) | $139.2 billion |
+
+**Where part C is counted.** Part C is counted once. In case `mixed` the EDU-9B fund's care component is FAM-2's booked path (`models/tools/recovery-budget/assumptions.json`, `education_components.care`, `ledger_row` FAM-2), and the general fund pays the fund a grant of 30% of the fund's outlays after 2034 (`models/tools/recovery-budget/model.py`, `edu_fund`; `gf_share_mixed`). So the general fund bears about 30 cents of each part C dollar after 2034, and the rest falls on the fund's payroll receipts and reserve: its solvency is the settlement's to cover with the fund's rate. Counting part C on the general fund instead is the settlement's choice (`3c-design-child-care.md`, "Inherited assumptions"). That alternative has not been re-priced since the booking.
+
+**Its share of the plan-wide margin.** The model reports the plan-wide gap only, not each flagship's part of it. Parts B-D's rows carry $750.0 billion of FY2040 outlays, of which FAM-2's $242.8 billion sits in the EDU-9B fund in case `mixed`, so their general-fund effect is below the rows' total. GDP is the budget model's ($54,167 billion in FY2040). The gap is expected: health's and care's shift from premiums and out-of-pocket costs to taxes is what the financing settlement designs. It is a figure to report, not an error to fix (`DEC-2026-11-10-05`), and no part of it goes to Espen on its own.
+
+**The status rule** (part 2b) is booked on HLT-9's `status-rule` component (the table) and in HLT-10's row, with health's on HLT-7's (`6-cost.md`, part 2b); both are inside the figures above.
 
 **The test years.** The decided costs are permanent: the benefit, the care part, child care and pre-K, the floor and parity all continue past FY2040 and grow with wages and the population over 85. Nothing in parts B-D ends after FY2040 except the facilities fund (FY2035) and the bridge (FY2034).
 
-**What a booking would change** (tier 3, for the lead after the milestone review; the same pattern as health's `models/tools/health_booking.py` and `test_fiscal_health.py`):
-1. `models/data/inputs/fiscal-components.csv`, line 34 (`HLT-4,ltc-hcbs-care-workforce,0.3194`): retire, and add a component for the bridge (HLT-4.01) on a year shape.
-2. `models/data/inputs/ledger-bills.csv`, line 5 (HLT-4, 0.319 / 0.498 / 0.677): the midpoint and range change, since HLT-4's components must sum to its midpoint (`ASM-PROF-COMPONENTS`); the note's LAB-3 sentence goes.
-3. `ledger-bills.csv`: new rows for HLT-9 (the benefit and the care part; rail FLOOR, regular order, from 2035), HLT-10 (the floor: an R1 part for 2030-34 and a regular-order part from 2035, as a `split` row in `models/data/budget/provision-splits.csv`) and HLT-11 (regular order); or the same as components of HLT-4 and HLT-7. Recommended: new rows, since each has its own vehicle and agenda home.
-4. `models/data/inputs/fiscal-years.csv`: one year-shape row per new component, from `tools/care_bcd_path.py`'s fiscal-year lines; `models/data/inputs/fiscal-profiles.csv`: rows for the new bills, and line 11 (FAM-2's six-year GDP ramp) replaced by a year shape.
-5. `ledger-bills.csv`, line 11 (FAM-2, 0.4 / 0.6 / 0.9, R2) to the decided path, with memo 15's parity either inside it or as a FAM-2G row; **and** `models/tools/recovery-budget/assumptions.json`, `education_components.care` (anchors 12, 88, 106, 106, 123, 143 for 2030, 2033, 2036, 2040, 2045, 2049) set to the same path, or FAM-2 taken out of `transferred_agenda` in `models/data/inputs/education-adoption.json`. Part C must be counted in one place; which one is the financing settlement's choice, since EDU-9B is a legacy decision now held as a working choice (`3c-design-child-care.md`, "Inherited assumptions").
-6. `models/data/budget/provisions.csv`: rows 5-9 (HLT-4 and its components) and 18 (FAM-2), and new rows for HLT-9, HLT-10, HLT-11 and FAM-2G with their vehicles.
-7. States' payments (HLT-9.09, FAM-2.08) as offsetting receipts, labeled as health's are; part 1 is net of them.
-8. Incidence: `models/data/inputs/incidence-rows.csv` lines 27 (F2, key `childcare`) and 35 (H4, key `medicaid_ltc`), `incidence-phase-in.csv` lines 3 (F2's ramp) and 23 (H4's booked path), and a row for HLT-9 (key `medicaid_ltc` or a new one for a universal benefit, which reaches higher quintiles than Medicaid does).
-9. `models/data/inputs/ledger-dynamic.csv`, DY6 (parents' added employment from FAM-2, $0.15-0.30 trillion), which scales with the program it follows; and `votes-bills.csv` lines 3 and 9, if the bills' sizes enter the vote model.
-10. Not booked: the hold-harmless (inside HLT-9), the residency slots (in HLT-4's safety-net component), Head Start's grant (current law).
+**What the booking did, and what it left out** (each labeled on its row):
+1. **HLT-4's legacy long-term care component is retired**, and its down payment is the bridge and the floor in the rows above, so nothing is counted twice (part 4). HLT-9, HLT-10 and HLT-11 are new bills in regular order; FAM-2 is on the decided path.
+2. **The states' payments are booked net** (HLT-9.09, FAM-2.08; part 1's figures are net of them). HLT-9.09 is its own offsetting receipt on health's HLT-7.17 instrument, labeled with the joint legal risk that part 6 prices.
+3. **The household test (D3)** carries the F2 and H4 rows, HLT-9's H9 row on the `ltc_universal` key, and DY6's added employment (`models/data/inputs/incidence-rows.csv`, `incidence-keys.csv`, `ledger-dynamic.csv`).
+4. **Not booked:** the hold-harmless (inside HLT-9), the residency slots (in HLT-4's safety-net component, health's), and Head Start's grant (current law).
 
 ## 6. Sensitivities
 
