@@ -43,4 +43,4 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 ## Open questions for Espen
 
-None from this step. The memo batch is decided. Sections 1-9 are drafted; next are the milestone review and then the booking (tier 3).
+None blocking; the memo batch is decided. **A note for Espen:** memo 4 B described the public builder as "a federal transmission authority, on TVA's model". Under your rule to use existing machinery first (`DEC-2026-11-13-08`), sections 4 and 5 place it inside WAPA's existing transmission program, extended nationwide, with TVA and Bonneville building in their own regions, instead of creating a new federal corporation (`4-specification.md`, CLI-10.03; `5-delivery.md`, part 1, item 3). If you prefer a separate entity, only CLI-10.03's agency changes. Sections 1-9 are drafted; next are the milestone review and then the booking (tier 3).

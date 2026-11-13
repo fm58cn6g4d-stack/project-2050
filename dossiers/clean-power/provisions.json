@@ -881,7 +881,7 @@
   "decisions": [
    "DEC-2026-11-13-06"
   ],
-  "parameters": "DOE keeps a national-interest list of lines, drawn from its needs study and FERC-approved plans. If no regional builder files to build a listed line within two years, the federal builder builds it and recovers its cost through rates FERC approves. The builder is WAPA's Transmission Infrastructure Program, extended nationwide, with TVA and Bonneville building in their own regions: no new federal corporation (working choice, `DEC-2026-11-13-08`). It uses the existing federal siting backstops, not new eminent domain",
+  "parameters": "DOE keeps a national-interest list of lines, drawn from its needs study and FERC-approved plans. If no regional builder files to build a listed line within two years, the federal builder builds it and recovers its cost through transmission rates: rates FERC approves, or, for a line inside ERCOT, where FERC has no rate jurisdiction, ERCOT's transmission cost-of-service charge that the Public Utility Commission of Texas approves for every transmission owner there. The builder is WAPA's Transmission Infrastructure Program, extended nationwide, with TVA and Bonneville building in their own regions: no new federal corporation (working choice, `DEC-2026-11-13-08`). WAPA's program can build, finance or partner on lines today but has mostly lent and partnered; the act funds and staffs it to build (`5-delivery.md`, part 2). It uses the existing federal siting backstops, not new eminent domain",
   "eligibility": "",
   "vehicle": [
    {
@@ -890,7 +890,7 @@
     "note": "the clean power and climate act (regular order)"
    }
   ],
-  "agency": "DOE (WAPA); TVA; Bonneville",
+  "agency": "DOE (WAPA); TVA; Bonneville; FERC, or the Public Utility Commission of Texas for ERCOT",
   "current_law": "",
   "evidence": [
    "EV-CLP-421",

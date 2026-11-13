@@ -76,7 +76,7 @@ BILLS[2040] = round(8.0 * 1.022 ** 10, 1)
 # ---- 5. Memo 7 B: the transition guarantee, on Espen's parameters ---------------------------------------------------
 # Every input is a working assumption (judgment unless an evidence ID is named). 2030 dollars, then 3% a year wage growth.
 G = dict(
-    workers_per_year=8000,      # covered layoffs a year, contractors included: coal plants (~140 GW close by 2040 [EV-CLP-508],
+    workers_per_year=8000,      # covered layoffs a year, contractors included: coal plants (172 GW in May 2025, 145 GW scheduled by end-2028 [EV-CLP-508]; ~140 GW left in 2030 closes by 2040,
                                 # ~0.18 jobs/MW, +25% contractors), coal mines (part of 44,060 [EV-CLP-500]), refineries and gas plants
     take_up=0.85,               # automatic from payroll records and closure notices; some leave the labor force or move on at once
     share_55=0.25,              # workers 55 and older at layoff (the pension bridge)
