@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6): who is working, what is in motion, where each dossier stands, what comes next, known gaps and open questions for Espen. Only the lead edits it, folding in the "For the board" notes from workers' PRs (`DEC-2026-11-12-03`). Status: current. It holds no history: finished work is in Git and the PRs, decisions are in `charter/decisions.md`, and rules are in `charter/STANDARDS.md`.
 
-Updated November 13, 2026 (about 01:35 UTC) by the lead, session_01UQzgBwNea5uYV7BMBRB3Ha.
+Updated November 13, 2026 (about 06:00 UTC) by the outgoing lead, session_01UQzgBwNea5uYV7BMBRB3Ha, for the lead handoff.
 
 ## Standing sessions
 
@@ -22,23 +22,34 @@ Updated November 13, 2026 (about 01:35 UTC) by the lead, session_01UQzgBwNea5uYV
 
 ## In motion
 
-- **Open PRs:** this board PR; the hospital uncompensated-care booking (tier 3, the lead's subagent, opening soon; see below).
+**Lead handoff (November 13, about 06:00 UTC)** from `session_01UQzgBwNea5uYV7BMBRB3Ha` (context past 530,000 tokens) to the new lead named in the Standing sessions table once it confirms.
+
+- **Open PRs:**
+  - #316, the hospital uncompensated-care payment (tier 3; author the lead; its decision entry is the next 11-13 ID). Espen labeled it; it was then brought up to date with main by GitHub's update (no conflict), so it should merge on the gate. Confirm it merged.
+  - #320, the secure floor's INC-1 to INC-5 rows in `models/data/inputs/incidence-rows.csv` (tier 3; author the M3 part 2 worker). Behind main since #321 merged; the worker is merging main (a conflict, which will drop any label), then the reviewer re-checks. **Ask Espen for the label only after that**; Espen asked to label it and was told to wait.
+  - #322, library citation rows (routine; the M3 part 2 worker).
+  - This board PR.
 - **Workers (report to the lead):**
-  - Clean power E-C1, `session_01UQzgBvGHoWGmLZJ179V9R7` (Most capable, started November 13 about 01:31 UTC): `dossiers/clean-power/`, sections 1-3 and the decision memo batch; its source block is reserved in `library/reserved-blocks.csv`.
-  - The lead's subagent: Espen's answer on uncompensated care for people the plan doesn't cover (`dossiers/care/6-cost.md`, open question 3): "agree with b on unpaid care for uninsured" (November 13). A federal DSH-type payment to hospitals continues for that emergency care, about $1-4B a year; one tier-3 PR with its decision entry and booking.
-  - Done: care base correction `session_01UQzgBskUP5ct6NJr6zMve5` (#313; `DEC-2026-11-13-01`); immigration `session_01UQzgBtaHE8nkT9Znw8gZVp` (#303 to #310); M2 (#312, the lead's subagent).
+  - M3 part 2, `session_01UQzgBvcq5CFU3aHTEQs51E` (Most capable, started about 05:02 UTC). Done: #321 (the 65-cent check: it fails, 75.0 cents for families with children at 100-125% of poverty with rent in SNAP's shelter deduction). Queued, in order: #320's main merge; the legacy-reports move (`d3.py` replaces `incidence-*.py`, built on branch `claude/m3-part2-legacy-move`, opens after #320); then **Espen's answer D on the 65-cent ceiling** (November 13: "go with D on the 65-cent ceiling"): SNAP's earned-income deduction from 20% to 45%, up to about $32B a year, as one tier-3 PR with a `DEC-` entry quoting Espen, the provision in the secure floor's specification, its booking and the re-run check (it clears every case but the 2030-34 marketplace one, 65.1 cents, which is monitored). It starts after #316 merges, so the two decision-log edits don't conflict. Lead's answers already given: INC-1.02 read so no family loses the EITC; INC-4's $0.3B-measured against $4.5B-booked gap gets a reconciliation note, not a booking change; the housing key's central case is the CPS spread (93% in Q1), the legacy 60% a sensitivity.
+  - Reviewer `session_01UQzgBw6mqUQnF5hz7WbpQH`: see Standing sessions.
+  - Done, Espen may archive: clean power E-C1 `session_01UQzgBvGHoWGmLZJ179V9R7` (#315, #317; about 540,000 tokens, so E-C2 goes to a fresh session); M3 part 1 `session_01UQzgBwdLcHcwAfDxTeXZaS` (#318, #319); care base `session_01UQzgBskUP5ct6NJr6zMve5` (#313); former reviewer `session_01UQzgBxJre9xhzNQVtr5prW`.
+- **Waiting on Espen:**
+  - **Clean power's memo batch** (#317, merged; `dossiers/clean-power/memos/README.md`): memos 1-7 (eleven decisions) and points 1-14, each recommended. Put to Espen on November 13 with a table; no answer yet. On the answers: one tier-3 DEC PR, then E-C2 (sections 4-9) in a fresh Most capable session.
+  - #320's label, once current and re-approved; then the D PR's label.
+- **Espen's instruction for the night** (November 13, about 06:00 UTC): "pls keep things moving over night, and make progress wherever you can, then prepare clear summaries and decision docs for me tmw". So: keep three sessions working on ready steps (M3 part 2; M1, the dossier tidy-up; immigration's small items; E-C2 waits on the memo answers), and by Espen's morning have one plain summary of the night and one decision document covering the clean power memo batch, the labels waiting and anything new, each item numbered with its recommendation. Espen uses they/them and isn't a programmer.
+- **Small tier-3 cleanups for later (from the legacy move):** `.github/merge-policy.json` still lists `legacy/index/revenue-household-incidence-model.md` as a generated output (harmless; drop it later); `models/data/inputs/scenarios.json`'s "role" text names `incidence-model.py` (should name `models/tools/household/d3.py`). The child-poverty validation suite stays in `run-checks.sh` until the household model ports its 8 agenda cases.
+- **Lead check-in:** `trig_01PgFK2nZnrqDchtrJ9VG2bj` (07:37 UTC) is the outgoing lead's; the new lead recreates it for itself and disables this one.
 - **Labels and decision-log conflicts:** two tier-3 PRs that both add rows to `charter/decisions.md` conflict when the first merges, and the gate drops `espen-approved` from the second when that conflict is resolved (#310, November 13). Ask Espen to label such PRs one at a time, the next only after the first merges and the second is updated.
-- **Lead check-in:** a `send_later` check-in every three hours (the next is set at each check-in). The outgoing lead's `trig_018c9dsspfuh2UnHeFTE5hWQ` is disabled.
 - **Codex** access to the repository is suspended by Espen for now (out of credits); don't reach it with PR comments until it is restored.
 - **Espen's usage:** a weekly-limit reset was used on November 12 and lasts until Monday at 2 am Eastern; about 12% was used by Thursday night, November 12. Keep working at three sessions, with lighter models for mechanical work.
 
 ## Next, in order
 
-1. The hospital uncompensated-care booking (tier 3, the lead's subagent), then Espen's label.
-2. **Clean power (flagship 4, stage E's other flagship)**, E-C1 in progress: sections 1-3 and the decision memos; then sections 4-9, the milestone review and the booking.
+1. #316 merged; #320 current, re-approved and labeled; the legacy-reports move; the 65-cent fix (D).
+2. **Clean power (flagship 4, stage E's other flagship)**: E-C1 done (#315, #317); Espen's memo answers, then E-C2 (sections 4-9), the milestone review and the booking.
 3. **Maintenance, alongside clean power:**
    - **M1, dossier tidy-up** (Most capable): out-of-date status lines in every dossier README and review file (see "Known gaps"); care's one map; transportation's `6-cost.md` refreshed to #289 and #297's figures. Also: care's `6-cost.md` part 5 table still shows #230's totals; immigration's README and status lines (L3); the board's own `M2` notes.
-   - **M3, the household model rebuild, with the legacy outputs:** `models/tools/household/` from the legacy incidence model and the child-poverty microsimulation, with a model card and benchmarks (Census poverty figures, the Tax Policy Center). Move the legacy suite's reports out of `legacy/` as it replaces them. Most capable, about two or three sessions. The secure floor's 65-cent ceiling, the checkpoint's revenue options and stage G's fairness test need it. Also give INC-1 to INC-5 incidence keys (#304's open item).
+   - **M3, the household model rebuild** (part 1 done, #318 and #319; part 2 in progress, see above), **with the legacy outputs:** `models/tools/household/` from the legacy incidence model and the child-poverty microsimulation, with a model card and benchmarks (Census poverty figures, the Tax Policy Center). Move the legacy suite's reports out of `legacy/` as it replaces them. Most capable, about two or three sessions. The secure floor's 65-cent ceiling, the checkpoint's revenue options and stage G's fairness test need it. Also give INC-1 to INC-5 incidence keys (#304's open item).
    - Immigration's open items (small): the vote model's two-bill split for IMM-1 (memo 7 part 3); a Social Security funds line for E-Verify's −$42B; spot checks W-1, W-3 and C-5 from the milestone review.
 4. **Settlement checkpoint memo for Espen** at the end of stage E, after clean power is booked: the plan-wide gap, the revenue options the legacy work holds, and which flagships drive the cost.
 
@@ -55,7 +66,7 @@ Updated November 13, 2026 (about 01:35 UTC) by the lead, session_01UQzgBwNea5uYV
 | Care parts B-D (`dossiers/care/`, flagship 2) | L3 (FAM-2A to 2F at L2) | Sections 1b-9bcd, memos 6-17; review passed (#260, #263); booked (#265) | None; the README's status table is out of date |
 | Secure floor (`dossiers/secure-floor/`, flagship 1) | L3 (alternatives and options at L1-L2) | Sections 1-9 and memos 1-7, decided (`DEC-2026-11-12-06`, `-09`, `-13` to `-15`); review #298, fixes #301; booked (#304, which was also the L3 re-check): about $2.53T over FY2030-39 and $292B in FY2040 | Incidence keys for INC-1 to INC-5 (M3); SS-8's budget treatment (research) |
 | Immigration (`dossiers/immigration/`, flagship 6) | L3 (alternatives at L2) | Sections 1-9, memos 1-7 and the first immigration model (`tools/immigration_model.py`), decided (`DEC-2026-11-12-07`, `-12`, `-17` to `-19`); milestone review #303, fixes #305 and #307; booked (#310, which was also the L3 re-check): about +$175B over FY2030-39 and +$28.8B in FY2040 | IMM-1.23's long-term care text follows option C (the care base correction); the open items in "Next" |
-| Clean power (`dossiers/clean-power/`, flagship 4) | L1 | E-C1 started November 13 | Sections 1-3 and the memo batch |
+| Clean power (`dossiers/clean-power/`, flagship 4) | L1 | Sections 1-3 and memos 1-7 drafted (#315, #317); about +$0.11T against the booked legacy climate rows, about $1.9T over FY2030-39 and $156B in FY2040 for the recommended set | Espen's memo answers, then E-C2 |
 | Work (flagship 5), democratic renewal, fair financing | L1 | Not started (stages F and G) | — |
 | Rural delivery note (`dossiers/foundations/rural-delivery.md`) | — | Done (#171); applied project-wide by `DEC-2026-11-09-26` | Each dossier reads it for section 5 |
 
