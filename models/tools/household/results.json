@@ -1,0 +1,2958 @@
+{
+ "baseline_2025": {
+  "aggregates": {
+   "actc_bn": 23.0,
+   "agi_bn": 16026.2,
+   "census_actc_bn": 23.6,
+   "census_agi_bn": 16169.4,
+   "census_ctc_bn": 118.8,
+   "census_eitc_bn": 40.5,
+   "census_fica_bn": 948.3,
+   "census_income_tax_bn": 1929.0,
+   "ctc_bn": 119.7,
+   "eitc_bn": 41.0,
+   "households_m": 137.1,
+   "income_tax_bn": 2097.3,
+   "payroll_employee_bn": 952.0
+  },
+  "poverty": {
+   "census_published_field": {
+    "18_64": 12.28,
+    "65_plus": 15.38,
+    "all": 13.11,
+    "children": 13.39
+   },
+   "census_taxes": {
+    "18_64": {
+     "people_m": 201.26,
+     "poor_m": 24.71,
+     "rate": 12.28
+    },
+    "65_plus": {
+     "people_m": 65.21,
+     "poor_m": 10.03,
+     "rate": 15.38
+    },
+    "all": {
+     "people_m": 338.55,
+     "poor_m": 44.39,
+     "rate": 13.11
+    },
+    "children": {
+     "people_m": 72.08,
+     "poor_m": 9.65,
+     "rate": 13.39
+    }
+   },
+   "model": {
+    "18_64": {
+     "people_m": 201.26,
+     "poor_m": 24.8,
+     "rate": 12.32
+    },
+    "65_plus": {
+     "people_m": 65.21,
+     "poor_m": 10.03,
+     "rate": 15.38
+    },
+    "all": {
+     "people_m": 338.55,
+     "poor_m": 44.52,
+     "rate": 13.15
+    },
+    "children": {
+     "people_m": 72.08,
+     "poor_m": 9.7,
+     "rate": 13.45
+    }
+   }
+  }
+ },
+ "baseline_2029": {
+  "aggregates": {
+   "actc_bn": 24.0,
+   "agi_bn": 19372.7,
+   "census_actc_bn": 24.5,
+   "census_agi_bn": 16757.5,
+   "census_ctc_bn": 123.2,
+   "census_eitc_bn": 42.0,
+   "census_fica_bn": 982.7,
+   "census_income_tax_bn": 1999.2,
+   "ctc_bn": 132.4,
+   "eitc_bn": 42.7,
+   "households_m": 142.1,
+   "income_tax_bn": 2683.6,
+   "payroll_employee_bn": 1147.7
+  },
+  "distribution_d3": {
+   "1": {
+    "avg_income": 23787.7,
+    "federal_rate": 0.9,
+    "households_m": 28.4,
+    "income_tax_rate": -5.5,
+    "payroll_rate": 6.4,
+    "share_income_tax": -1.4
+   },
+   "2": {
+    "avg_income": 64813.5,
+    "federal_rate": 10.4,
+    "households_m": 28.4,
+    "income_tax_rate": 1.3,
+    "payroll_rate": 9.0,
+    "share_income_tax": 0.9
+   },
+   "3": {
+    "avg_income": 110180.8,
+    "federal_rate": 16.1,
+    "households_m": 28.4,
+    "income_tax_rate": 5.4,
+    "payroll_rate": 10.7,
+    "share_income_tax": 6.3
+   },
+   "4": {
+    "avg_income": 173693.0,
+    "federal_rate": 20.9,
+    "households_m": 28.4,
+    "income_tax_rate": 9.4,
+    "payroll_rate": 11.5,
+    "share_income_tax": 17.4
+   },
+   "5": {
+    "avg_income": 397160.4,
+    "federal_rate": 27.5,
+    "households_m": 28.4,
+    "income_tax_rate": 18.2,
+    "payroll_rate": 9.3,
+    "share_income_tax": 76.8
+   },
+   "T1": {
+    "avg_income": 1326676.3,
+    "federal_rate": 33.5,
+    "households_m": 1.4,
+    "income_tax_rate": 28.1,
+    "payroll_rate": 5.4,
+    "share_income_tax": 19.8
+   },
+   "all": {
+    "avg_income": 153931.4,
+    "federal_rate": 22.1,
+    "households_m": 142.1,
+    "income_tax_rate": 12.2,
+    "payroll_rate": 9.9,
+    "share_income_tax": 100.0
+   }
+  },
+  "distribution_deciles": {
+   "1": {
+    "avg_income": 12646.3,
+    "federal_rate": -3.3,
+    "households_m": 14.2,
+    "income_tax_rate": -8.5,
+    "payroll_rate": 5.2,
+    "share_income_tax": -0.6
+   },
+   "10": {
+    "avg_income": 534251.8,
+    "federal_rate": 29.1,
+    "households_m": 14.2,
+    "income_tax_rate": 20.8,
+    "payroll_rate": 8.4,
+    "share_income_tax": 58.9
+   },
+   "2": {
+    "avg_income": 34927.9,
+    "federal_rate": 2.4,
+    "households_m": 14.2,
+    "income_tax_rate": -4.4,
+    "payroll_rate": 6.8,
+    "share_income_tax": -0.8
+   },
+   "3": {
+    "avg_income": 54716.9,
+    "federal_rate": 8.2,
+    "households_m": 14.2,
+    "income_tax_rate": -0.2,
+    "payroll_rate": 8.4,
+    "share_income_tax": -0.1
+   },
+   "4": {
+    "avg_income": 74915.2,
+    "federal_rate": 11.9,
+    "households_m": 14.2,
+    "income_tax_rate": 2.4,
+    "payroll_rate": 9.5,
+    "share_income_tax": 1.0
+   },
+   "5": {
+    "avg_income": 97611.3,
+    "federal_rate": 14.6,
+    "households_m": 14.2,
+    "income_tax_rate": 4.4,
+    "payroll_rate": 10.2,
+    "share_income_tax": 2.3
+   },
+   "6": {
+    "avg_income": 122747.2,
+    "federal_rate": 17.2,
+    "households_m": 14.2,
+    "income_tax_rate": 6.2,
+    "payroll_rate": 11.0,
+    "share_income_tax": 4.0
+   },
+   "7": {
+    "avg_income": 152812.7,
+    "federal_rate": 19.7,
+    "households_m": 14.2,
+    "income_tax_rate": 8.2,
+    "payroll_rate": 11.5,
+    "share_income_tax": 6.7
+   },
+   "8": {
+    "avg_income": 194580.1,
+    "federal_rate": 22.0,
+    "households_m": 14.2,
+    "income_tax_rate": 10.4,
+    "payroll_rate": 11.6,
+    "share_income_tax": 10.7
+   },
+   "9": {
+    "avg_income": 260074.4,
+    "federal_rate": 24.2,
+    "households_m": 14.2,
+    "income_tax_rate": 13.0,
+    "payroll_rate": 11.2,
+    "share_income_tax": 18.0
+   },
+   "T1": {
+    "avg_income": 1326676.3,
+    "federal_rate": 33.5,
+    "households_m": 1.4,
+    "income_tax_rate": 28.1,
+    "payroll_rate": 5.4,
+    "share_income_tax": 19.8
+   },
+   "all": {
+    "avg_income": 153931.4,
+    "federal_rate": 22.1,
+    "households_m": 142.1,
+    "income_tax_rate": 12.2,
+    "payroll_rate": 9.9,
+    "share_income_tax": 100.0
+   }
+  },
+  "distribution_tpc": {
+   "1": {
+    "avg_income": 13375.8,
+    "federal_rate": 3.6,
+    "households_m": 56.4,
+    "income_tax_rate": -2.1,
+    "payroll_rate": 5.7,
+    "share_income_tax": -0.6
+   },
+   "2": {
+    "avg_income": 49672.9,
+    "federal_rate": 12.1,
+    "households_m": 46.5,
+    "income_tax_rate": 2.1,
+    "payroll_rate": 10.0,
+    "share_income_tax": 1.8
+   },
+   "3": {
+    "avg_income": 92791.5,
+    "federal_rate": 17.2,
+    "households_m": 38.4,
+    "income_tax_rate": 6.5,
+    "payroll_rate": 10.7,
+    "share_income_tax": 8.7
+   },
+   "4": {
+    "avg_income": 162842.4,
+    "federal_rate": 21.2,
+    "households_m": 30.3,
+    "income_tax_rate": 9.8,
+    "payroll_rate": 11.4,
+    "share_income_tax": 18.0
+   },
+   "5": {
+    "avg_income": 409572.0,
+    "federal_rate": 27.8,
+    "households_m": 25.4,
+    "income_tax_rate": 18.6,
+    "payroll_rate": 9.2,
+    "share_income_tax": 72.1
+   },
+   "T1": {
+    "avg_income": 1438058.5,
+    "federal_rate": 34.0,
+    "households_m": 1.2,
+    "income_tax_rate": 28.7,
+    "payroll_rate": 5.4,
+    "share_income_tax": 18.5
+   },
+   "all": {
+    "avg_income": 111524.0,
+    "federal_rate": 22.1,
+    "households_m": 197.1,
+    "income_tax_rate": 12.2,
+    "payroll_rate": 9.9,
+    "share_income_tax": 100.0
+   }
+  },
+  "law": {
+   "ctc": 2400,
+   "ctc_refundable": 1800,
+   "eitc_earned": [
+    9310,
+    13960,
+    19610,
+    19610
+   ],
+   "fpl": [
+    17320.0,
+    6090.0
+   ],
+   "ss_wage_base": 205200,
+   "std": {
+    "hoh": 25900,
+    "joint": 34550,
+    "single": 17250
+   }
+  },
+  "poverty": {
+   "census_taxes": {
+    "18_64": {
+     "people_m": 208.58,
+     "poor_m": 24.98,
+     "rate": 11.98
+    },
+    "65_plus": {
+     "people_m": 67.58,
+     "poor_m": 10.8,
+     "rate": 15.98
+    },
+    "all": {
+     "people_m": 350.87,
+     "poor_m": 45.36,
+     "rate": 12.93
+    },
+    "children": {
+     "people_m": 74.7,
+     "poor_m": 9.58,
+     "rate": 12.83
+    }
+   },
+   "model": {
+    "18_64": {
+     "people_m": 208.58,
+     "poor_m": 25.53,
+     "rate": 12.24
+    },
+    "65_plus": {
+     "people_m": 67.58,
+     "poor_m": 10.8,
+     "rate": 15.98
+    },
+    "all": {
+     "people_m": 350.87,
+     "poor_m": 46.32,
+     "rate": 13.2
+    },
+    "children": {
+     "people_m": 74.7,
+     "poor_m": 9.99,
+     "rate": 13.37
+    }
+   }
+  },
+  "poverty_gap_bn": 308.9
+ },
+ "families": {
+  "married_2": {
+   "current": [
+    {
+     "earnings": 17795,
+     "income_tax": -55.0,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": -23.4
+    },
+    {
+     "earnings": 26692,
+     "income_tax": 0.0,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 31.6
+    },
+    {
+     "earnings": 35590,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 52.7
+    },
+    {
+     "earnings": 44488,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 52.7
+    },
+    {
+     "earnings": 53385,
+     "income_tax": 31.1,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 38.7
+    },
+    {
+     "earnings": 62282,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.7
+    },
+    {
+     "earnings": 71180,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 88975,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 106770,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    }
+   ],
+   "marketplace": [
+    {
+     "earnings": 17795,
+     "income_tax": -55.0,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": -23.4
+    },
+    {
+     "earnings": 26692,
+     "income_tax": 0.0,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 31.6
+    },
+    {
+     "earnings": 35590,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 2.1,
+     "snap": 24.0,
+     "total": 54.8
+    },
+    {
+     "earnings": 44488,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 2.1,
+     "snap": 24.0,
+     "total": 54.8
+    },
+    {
+     "earnings": 53385,
+     "income_tax": 31.1,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 11.6,
+     "snap": -0.0,
+     "total": 50.3
+    },
+    {
+     "earnings": 62282,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 14.0,
+     "snap": -0.0,
+     "total": 54.7
+    },
+    {
+     "earnings": 71180,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 14.1,
+     "snap": -0.0,
+     "total": 33.7
+    },
+    {
+     "earnings": 88975,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 16.1,
+     "snap": -0.0,
+     "total": 35.8
+    },
+    {
+     "earnings": 106770,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 10.0,
+     "snap": -0.0,
+     "total": 29.6
+    }
+   ],
+   "plan": [
+    {
+     "earnings": 17795,
+     "income_tax": -40.0,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": -8.3
+    },
+    {
+     "earnings": 26692,
+     "income_tax": 0.0,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 31.6
+    },
+    {
+     "earnings": 35590,
+     "income_tax": 31.1,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 62.7
+    },
+    {
+     "earnings": 44488,
+     "income_tax": 31.1,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 62.7
+    },
+    {
+     "earnings": 53385,
+     "income_tax": 31.1,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 38.7
+    },
+    {
+     "earnings": 62282,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.7
+    },
+    {
+     "earnings": 71180,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 88975,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 106770,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    }
+   ],
+   "shelter": [
+    {
+     "earnings": 17795,
+     "income_tax": -55.0,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": -23.4
+    },
+    {
+     "earnings": 26692,
+     "income_tax": 0.0,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": 36.0,
+     "total": 43.6
+    },
+    {
+     "earnings": 35590,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 0.0,
+     "snap": 36.0,
+     "total": 64.7
+    },
+    {
+     "earnings": 44488,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 0.0,
+     "snap": 36.0,
+     "total": 64.7
+    },
+    {
+     "earnings": 53385,
+     "income_tax": 31.1,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 38.7
+    },
+    {
+     "earnings": 62282,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.7
+    },
+    {
+     "earnings": 71180,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 88975,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 106770,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    }
+   ]
+  },
+  "single_adult": {
+   "current": [
+    {
+     "earnings": 8660,
+     "income_tax": -5.0,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 26.7
+    },
+    {
+     "earnings": 12990,
+     "income_tax": 7.7,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 39.3
+    },
+    {
+     "earnings": 17320,
+     "income_tax": 17.6,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 0.0,
+     "snap": 23.3,
+     "total": 48.6
+    },
+    {
+     "earnings": 21650,
+     "income_tax": 10.0,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 17.6
+    },
+    {
+     "earnings": 25980,
+     "income_tax": 10.0,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 17.6
+    },
+    {
+     "earnings": 30310,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.6
+    },
+    {
+     "earnings": 34640,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 43300,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 51960,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    }
+   ],
+   "marketplace": [
+    {
+     "earnings": 8660,
+     "income_tax": -5.0,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 26.7
+    },
+    {
+     "earnings": 12990,
+     "income_tax": 7.7,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 39.3
+    },
+    {
+     "earnings": 17320,
+     "income_tax": 17.6,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 2.1,
+     "snap": 23.3,
+     "total": 50.7
+    },
+    {
+     "earnings": 21650,
+     "income_tax": 10.0,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 2.1,
+     "snap": -0.0,
+     "total": 19.8
+    },
+    {
+     "earnings": 25980,
+     "income_tax": 10.0,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 11.7,
+     "snap": -0.0,
+     "total": 29.3
+    },
+    {
+     "earnings": 30310,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 14.1,
+     "snap": -0.0,
+     "total": 33.7
+    },
+    {
+     "earnings": 34640,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 14.2,
+     "snap": -0.0,
+     "total": 33.8
+    },
+    {
+     "earnings": 43300,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 16.2,
+     "snap": -0.0,
+     "total": 35.9
+    },
+    {
+     "earnings": 51960,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 10.0,
+     "snap": -0.0,
+     "total": 29.6
+    }
+   ],
+   "plan": [
+    {
+     "earnings": 8660,
+     "income_tax": -15.3,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 16.3
+    },
+    {
+     "earnings": 12990,
+     "income_tax": 0.0,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 31.6
+    },
+    {
+     "earnings": 17320,
+     "income_tax": 25.3,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 0.0,
+     "snap": 23.3,
+     "total": 56.2
+    },
+    {
+     "earnings": 21650,
+     "income_tax": 25.3,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 33.0
+    },
+    {
+     "earnings": 25980,
+     "income_tax": 25.3,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 33.0
+    },
+    {
+     "earnings": 30310,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.6
+    },
+    {
+     "earnings": 34640,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 43300,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 51960,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    }
+   ],
+   "shelter": [
+    {
+     "earnings": 8660,
+     "income_tax": -5.0,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 2.7
+    },
+    {
+     "earnings": 12990,
+     "income_tax": 7.7,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 15.3
+    },
+    {
+     "earnings": 17320,
+     "income_tax": 17.6,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 49.3
+    },
+    {
+     "earnings": 21650,
+     "income_tax": 10.0,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 0.0,
+     "snap": 233.0,
+     "total": 250.7
+    },
+    {
+     "earnings": 25980,
+     "income_tax": 10.0,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 17.6
+    },
+    {
+     "earnings": 30310,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.6
+    },
+    {
+     "earnings": 34640,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 43300,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 51960,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    }
+   ]
+  },
+  "single_parent_2": {
+   "current": [
+    {
+     "earnings": 14750,
+     "income_tax": -55.0,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": -23.4
+    },
+    {
+     "earnings": 22125,
+     "income_tax": -15.0,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 16.6
+    },
+    {
+     "earnings": 29500,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 52.7
+    },
+    {
+     "earnings": 36875,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 52.7
+    },
+    {
+     "earnings": 44250,
+     "income_tax": 32.5,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.2
+    },
+    {
+     "earnings": 51625,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.7
+    },
+    {
+     "earnings": 59000,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.7
+    },
+    {
+     "earnings": 73750,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 88500,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    }
+   ],
+   "marketplace": [
+    {
+     "earnings": 14750,
+     "income_tax": -55.0,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": -23.4
+    },
+    {
+     "earnings": 22125,
+     "income_tax": -15.0,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 16.6
+    },
+    {
+     "earnings": 29500,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 2.1,
+     "snap": 24.0,
+     "total": 54.8
+    },
+    {
+     "earnings": 36875,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 2.1,
+     "snap": 24.0,
+     "total": 54.8
+    },
+    {
+     "earnings": 44250,
+     "income_tax": 32.5,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 11.6,
+     "snap": -0.0,
+     "total": 51.7
+    },
+    {
+     "earnings": 51625,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 14.0,
+     "snap": -0.0,
+     "total": 54.7
+    },
+    {
+     "earnings": 59000,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 14.1,
+     "snap": -0.0,
+     "total": 54.8
+    },
+    {
+     "earnings": 73750,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 16.1,
+     "snap": -0.0,
+     "total": 35.8
+    },
+    {
+     "earnings": 88500,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 10.0,
+     "snap": -0.0,
+     "total": 29.6
+    }
+   ],
+   "plan": [
+    {
+     "earnings": 14750,
+     "income_tax": -40.0,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": -8.3
+    },
+    {
+     "earnings": 22125,
+     "income_tax": 0.0,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 31.6
+    },
+    {
+     "earnings": 29500,
+     "income_tax": 31.1,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 62.7
+    },
+    {
+     "earnings": 36875,
+     "income_tax": 31.1,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 62.7
+    },
+    {
+     "earnings": 44250,
+     "income_tax": 32.5,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.2
+    },
+    {
+     "earnings": 51625,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.7
+    },
+    {
+     "earnings": 59000,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.7
+    },
+    {
+     "earnings": 73750,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 88500,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    }
+   ],
+   "shelter": [
+    {
+     "earnings": 14750,
+     "income_tax": -55.0,
+     "payroll": 7.7,
+     "pct_poverty": 50,
+     "ptc": 0.0,
+     "snap": 13.0,
+     "total": -34.4
+    },
+    {
+     "earnings": 22125,
+     "income_tax": -15.0,
+     "payroll": 7.7,
+     "pct_poverty": 75,
+     "ptc": 0.0,
+     "snap": 24.0,
+     "total": 16.6
+    },
+    {
+     "earnings": 29500,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 100,
+     "ptc": 0.0,
+     "snap": 36.0,
+     "total": 64.7
+    },
+    {
+     "earnings": 36875,
+     "income_tax": 21.1,
+     "payroll": 7.7,
+     "pct_poverty": 125,
+     "ptc": 0.0,
+     "snap": 36.0,
+     "total": 64.7
+    },
+    {
+     "earnings": 44250,
+     "income_tax": 32.5,
+     "payroll": 7.7,
+     "pct_poverty": 150,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.2
+    },
+    {
+     "earnings": 51625,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 175,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.7
+    },
+    {
+     "earnings": 59000,
+     "income_tax": 33.1,
+     "payroll": 7.7,
+     "pct_poverty": 200,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 40.7
+    },
+    {
+     "earnings": 73750,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 250,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    },
+    {
+     "earnings": 88500,
+     "income_tax": 12.0,
+     "payroll": 7.7,
+     "pct_poverty": 300,
+     "ptc": 0.0,
+     "snap": -0.0,
+     "total": 19.7
+    }
+   ]
+  }
+ },
+ "provisions": {
+  "group_income_mid_window": {
+   "Q1": 28210,
+   "Q2": 76862,
+   "Q3": 130663,
+   "Q4": 205982,
+   "Q5": 470991,
+   "Q5x": 0,
+   "T1": 1573300
+  },
+  "households_mid_window_m": 147.1,
+  "keys": {
+   "above250k_wages": {
+    "legacy": [
+     0,
+     0,
+     0,
+     2,
+     98
+    ],
+    "legacy_top1": 55,
+    "shares": [
+     0,
+     0,
+     0,
+     2,
+     98
+    ],
+    "source": "legacy",
+    "top1": 55
+   },
+   "above400k": {
+    "legacy": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "legacy_top1": 70,
+    "shares": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "source": "legacy",
+    "top1": 70
+   },
+   "above450k": {
+    "legacy": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "legacy_top1": 80,
+    "shares": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "source": "legacy",
+    "top1": 80
+   },
+   "aca_medicaid": {
+    "legacy": [
+     38,
+     30,
+     19,
+     10,
+     3
+    ],
+    "legacy_top1": 0,
+    "shares": [
+     40.6,
+     27.9,
+     17.1,
+     9.1,
+     5.3
+    ],
+    "source": "micro",
+    "top1": 0.4
+   },
+   "adults": {
+    "legacy": [
+     15.6,
+     18.6,
+     21.5,
+     21.3,
+     23
+    ],
+    "legacy_top1": 1,
+    "shares": [
+     16.4,
+     19.3,
+     20.9,
+     21.6,
+     21.8
+    ],
+    "source": "micro",
+    "top1": 1.1
+   },
+   "alcohol": {
+    "legacy": [
+     12,
+     17,
+     21,
+     23,
+     27
+    ],
+    "legacy_top1": 2,
+    "shares": [
+     12,
+     17,
+     21,
+     23,
+     27
+    ],
+    "source": "legacy",
+    "top1": 2
+   },
+   "billionaires": {
+    "legacy": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "legacy_top1": 100,
+    "shares": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "source": "legacy",
+    "top1": 100
+   },
+   "brackets_top": {
+    "legacy": [
+     0,
+     0,
+     1,
+     8,
+     91
+    ],
+    "legacy_top1": 50,
+    "shares": [
+     0,
+     0,
+     1,
+     8,
+     91
+    ],
+    "source": "legacy",
+    "top1": 50
+   },
+   "capital": {
+    "legacy": [
+     1,
+     2,
+     4,
+     8,
+     85
+    ],
+    "legacy_top1": 50,
+    "shares": [
+     1,
+     2,
+     4,
+     8,
+     85
+    ],
+    "source": "legacy",
+    "top1": 50
+   },
+   "childcare": {
+    "legacy": [
+     28,
+     30,
+     24,
+     13,
+     5
+    ],
+    "legacy_top1": 0,
+    "shares": [
+     28,
+     30,
+     24,
+     13,
+     5
+    ],
+    "source": "legacy",
+    "top1": 0
+   },
+   "consumption": {
+    "legacy": [
+     9,
+     14,
+     19,
+     24,
+     34
+    ],
+    "legacy_top1": 4,
+    "shares": [
+     9,
+     14,
+     19,
+     24,
+     34
+    ],
+    "source": "legacy",
+    "top1": 4
+   },
+   "ctc": {
+    "legacy": [
+     33,
+     30,
+     21,
+     12,
+     4
+    ],
+    "legacy_top1": 0,
+    "shares": [
+     36.8,
+     27.3,
+     23.8,
+     12.8,
+     -0.7
+    ],
+    "source": "micro",
+    "top1": 0.0
+   },
+   "death_gains": {
+    "legacy": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "legacy_top1": 85,
+    "shares": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "source": "legacy",
+    "top1": 85
+   },
+   "donors": {
+    "legacy": [
+     0,
+     2,
+     8,
+     25,
+     65
+    ],
+    "legacy_top1": 20,
+    "shares": [
+     0,
+     2,
+     8,
+     25,
+     65
+    ],
+    "source": "legacy",
+    "top1": 20
+   },
+   "education": {
+    "legacy": [
+     24,
+     26,
+     22,
+     17,
+     11
+    ],
+    "legacy_top1": 0.5,
+    "shares": [
+     24,
+     26,
+     22,
+     17,
+     11
+    ],
+    "source": "legacy",
+    "top1": 0.5
+   },
+   "employer_cov": {
+    "legacy": [
+     3,
+     12,
+     24,
+     31,
+     30
+    ],
+    "legacy_top1": 2,
+    "shares": [
+     4.3,
+     12.9,
+     22.3,
+     28.9,
+     31.7
+    ],
+    "source": "micro",
+    "top1": 1.6
+   },
+   "energy": {
+    "legacy": [
+     11,
+     15,
+     20,
+     24,
+     30
+    ],
+    "legacy_top1": 3,
+    "shares": [
+     11,
+     15,
+     20,
+     24,
+     30
+    ],
+    "source": "legacy",
+    "top1": 3
+   },
+   "enforcement": {
+    "legacy": [
+     2,
+     4,
+     6,
+     8,
+     80
+    ],
+    "legacy_top1": 55,
+    "shares": [
+     2,
+     4,
+     6,
+     8,
+     80
+    ],
+    "source": "legacy",
+    "top1": 55
+   },
+   "estate": {
+    "legacy": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "legacy_top1": 85,
+    "shares": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "source": "legacy",
+    "top1": 85
+   },
+   "exclusion_cap": {
+    "legacy": [
+     2,
+     10,
+     24,
+     33,
+     31
+    ],
+    "legacy_top1": 2,
+    "shares": [
+     2,
+     10,
+     24,
+     33,
+     31
+    ],
+    "source": "legacy",
+    "top1": 2
+   },
+   "exclusion_end": {
+    "legacy": [
+     0.9,
+     9.3,
+     22.4,
+     31.8,
+     35.6
+    ],
+    "legacy_top1": 2.5,
+    "shares": [
+     0.9,
+     9.3,
+     22.4,
+     31.8,
+     35.6
+    ],
+    "source": "legacy",
+    "top1": 2.5
+   },
+   "ftt": {
+    "legacy": [
+     1,
+     3,
+     6,
+     12,
+     78
+    ],
+    "legacy_top1": 40,
+    "shares": [
+     1,
+     3,
+     6,
+     12,
+     78
+    ],
+    "source": "legacy",
+    "top1": 40
+   },
+   "gasoline": {
+    "legacy": [
+     10,
+     16,
+     21,
+     25,
+     28
+    ],
+    "legacy_top1": 1.5,
+    "shares": [
+     10,
+     16,
+     21,
+     25,
+     28
+    ],
+    "source": "legacy",
+    "top1": 1.5
+   },
+   "health_hh": {
+    "legacy": [
+     5.9,
+     12.1,
+     20.6,
+     28.4,
+     33.0
+    ],
+    "legacy_top1": 1.4,
+    "shares": [
+     5.9,
+     12.1,
+     20.6,
+     28.4,
+     33.0
+    ],
+    "source": "legacy",
+    "top1": 1.4
+   },
+   "hh_clean": {
+    "legacy": [
+     8,
+     14,
+     22,
+     28,
+     28
+    ],
+    "legacy_top1": 2,
+    "shares": [
+     8,
+     14,
+     22,
+     28,
+     28
+    ],
+    "source": "legacy",
+    "top1": 2
+   },
+   "housing": {
+    "legacy": [
+     60,
+     25,
+     10,
+     4,
+     1
+    ],
+    "legacy_top1": 0,
+    "shares": [
+     93.4,
+     6.2,
+     0.2,
+     0.1,
+     0.2
+    ],
+    "source": "micro",
+    "top1": 0.2
+   },
+   "inv400k": {
+    "legacy": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "legacy_top1": 85,
+    "shares": [
+     0,
+     0,
+     0,
+     0,
+     100
+    ],
+    "source": "legacy",
+    "top1": 85
+   },
+   "leave_benefit": {
+    "legacy": [
+     8,
+     17,
+     24,
+     28,
+     23
+    ],
+    "legacy_top1": 1,
+    "shares": [
+     8,
+     17,
+     24,
+     28,
+     23
+    ],
+    "source": "legacy",
+    "top1": 1
+   },
+   "low_income_energy": {
+    "legacy": [
+     60,
+     40,
+     0,
+     0,
+     0
+    ],
+    "legacy_top1": 0,
+    "shares": [
+     66.6,
+     20.8,
+     8.6,
+     2.2,
+     1.8
+    ],
+    "source": "micro",
+    "top1": 0.0
+   },
+   "ltc_universal": {
+    "legacy": [
+     31.3,
+     25.7,
+     19,
+     13.5,
+     10.5
+    ],
+    "legacy_top1": 0.7,
+    "shares": [
+     31.3,
+     25.7,
+     19,
+     13.5,
+     10.5
+    ],
+    "source": "legacy",
+    "top1": 0.7
+   },
+   "ma": {
+    "legacy": [
+     22,
+     27,
+     23,
+     16,
+     12
+    ],
+    "legacy_top1": 0.5,
+    "shares": [
+     26.8,
+     25.9,
+     19.8,
+     14.4,
+     13.0
+    ],
+    "source": "micro",
+    "top1": 0.6
+   },
+   "meals": {
+    "legacy": [
+     8,
+     20,
+     27,
+     26,
+     19
+    ],
+    "legacy_top1": 0.5,
+    "shares": [
+     8,
+     20,
+     27,
+     26,
+     19
+    ],
+    "source": "legacy",
+    "top1": 0.5
+   },
+   "medicaid_ltc": {
+    "legacy": [
+     50,
+     25,
+     14,
+     7,
+     4
+    ],
+    "legacy_top1": 0,
+    "shares": [
+     50,
+     25,
+     14,
+     7,
+     4
+    ],
+    "source": "legacy",
+    "top1": 0
+   },
+   "medicare": {
+    "legacy": [
+     24,
+     26,
+     21,
+     16,
+     13
+    ],
+    "legacy_top1": 1,
+    "shares": [
+     26.8,
+     25.9,
+     19.8,
+     14.4,
+     13.0
+    ],
+    "source": "micro",
+    "top1": 0.6
+   },
+   "partb": {
+    "legacy": [
+     15,
+     24,
+     23,
+     20,
+     18
+    ],
+    "legacy_top1": 1,
+    "shares": [
+     26.8,
+     25.9,
+     19.8,
+     14.4,
+     13.0
+    ],
+    "source": "micro",
+    "top1": 0.6
+   },
+   "persons": {
+    "legacy": [
+     15,
+     18,
+     21,
+     22,
+     24
+    ],
+    "legacy_top1": 1,
+    "shares": [
+     17.3,
+     19.9,
+     20.9,
+     21.0,
+     21.0
+    ],
+    "source": "micro",
+    "top1": 1.1
+   },
+   "public_opt": {
+    "legacy": [
+     18,
+     30,
+     27,
+     17,
+     8
+    ],
+    "legacy_top1": 0,
+    "shares": [
+     18,
+     30,
+     27,
+     17,
+     8
+    ],
+    "source": "legacy",
+    "top1": 0
+   },
+   "service": {
+    "legacy": [
+     26,
+     28,
+     22,
+     15,
+     9
+    ],
+    "legacy_top1": 0,
+    "shares": [
+     26,
+     28,
+     22,
+     15,
+     9
+    ],
+    "source": "legacy",
+    "top1": 0
+   },
+   "ss_benefit": {
+    "legacy": [
+     30,
+     28,
+     20,
+     13,
+     9
+    ],
+    "legacy_top1": 0.5,
+    "shares": [
+     17.7,
+     27.6,
+     22.8,
+     16.4,
+     15.4
+    ],
+    "source": "micro",
+    "top1": 0.7
+   },
+   "surtax": {
+    "legacy": [
+     0,
+     0,
+     0,
+     6,
+     94
+    ],
+    "legacy_top1": 55,
+    "shares": [
+     -0.0,
+     0.0,
+     0.3,
+     4.8,
+     94.9
+    ],
+    "source": "micro",
+    "top1": 55
+   },
+   "wages": {
+    "legacy": [
+     3,
+     9,
+     16,
+     26,
+     46
+    ],
+    "legacy_top1": 12,
+    "shares": [
+     1.8,
+     6.9,
+     13.9,
+     23.7,
+     53.7
+    ],
+    "source": "micro",
+    "top1": 12
+   },
+   "wages_cap": {
+    "legacy": [
+     3,
+     10,
+     19,
+     30,
+     38
+    ],
+    "legacy_top1": 3,
+    "shares": [
+     2.1,
+     8.0,
+     16.1,
+     27.4,
+     46.4
+    ],
+    "source": "micro",
+    "top1": 2.9
+   },
+   "workers_ai": {
+    "legacy": [
+     15,
+     25,
+     28,
+     22,
+     10
+    ],
+    "legacy_top1": 0,
+    "shares": [
+     15,
+     25,
+     28,
+     22,
+     10
+    ],
+    "source": "legacy",
+    "top1": 0
+   }
+  },
+  "reconciliation_q": [
+   {
+    "Q1": 7883,
+    "Q2": 6045,
+    "Q3": 3143,
+    "Q4": -629,
+    "Q5": -49715,
+    "Q5x": -16979,
+    "T1": -671709,
+    "step": "Legacy model (legacy keys, 140M households)"
+   },
+   {
+    "Q1": 7505,
+    "Q2": 5755,
+    "Q3": 2992,
+    "Q4": -599,
+    "Q5": -47329,
+    "Q5x": -16164,
+    "T1": -639472,
+    "change_q1": -378,
+    "change_q4": 30,
+    "step": "Households: the CPS count grown to FY2034-35, 147.1M"
+   },
+   {
+    "Q1": 7513,
+    "Q2": 5749,
+    "Q3": 2987,
+    "Q4": -601,
+    "Q5": -47323,
+    "Q5x": -16158,
+    "T1": -639451,
+    "change_q1": 8,
+    "change_q4": -2,
+    "step": "Key `aca_medicaid` measured on the CPS"
+   },
+   {
+    "Q1": 7555,
+    "Q2": 5787,
+    "Q3": 2953,
+    "Q4": -588,
+    "Q5": -47383,
+    "Q5x": -16225,
+    "T1": -639380,
+    "change_q1": 42,
+    "change_q4": 13,
+    "step": "Key `adults` measured on the CPS"
+   },
+   {
+    "Q1": 7810,
+    "Q2": 5610,
+    "Q3": 3135,
+    "Q4": -537,
+    "Q5": -47694,
+    "Q5x": -16553,
+    "T1": -639374,
+    "change_q1": 255,
+    "change_q4": 51,
+    "step": "Key `ctc` measured on the CPS"
+   },
+   {
+    "Q1": 7810,
+    "Q2": 5610,
+    "Q3": 3135,
+    "Q4": -537,
+    "Q5": -47694,
+    "Q5x": -16553,
+    "T1": -639374,
+    "change_q1": 0,
+    "change_q4": 0,
+    "step": "Key `employer_cov` measured on the CPS"
+   },
+   {
+    "Q1": 8594,
+    "Q2": 5168,
+    "Q3": 2904,
+    "Q4": -629,
+    "Q5": -47712,
+    "Q5x": -16577,
+    "T1": -639294,
+    "change_q1": 784,
+    "change_q4": -92,
+    "step": "Key `housing` measured on the CPS"
+   },
+   {
+    "Q1": 8649,
+    "Q2": 5010,
+    "Q3": 2975,
+    "Q4": -611,
+    "Q5": -47698,
+    "Q5x": -16561,
+    "T1": -639288,
+    "change_q1": 55,
+    "change_q4": 18,
+    "step": "Key `low_income_energy` measured on the CPS"
+   },
+   {
+    "Q1": 8633,
+    "Q2": 5014,
+    "Q3": 2985,
+    "Q4": -606,
+    "Q5": -47701,
+    "Q5x": -16565,
+    "T1": -639293,
+    "change_q1": -16,
+    "change_q4": 5,
+    "step": "Key `ma` measured on the CPS"
+   },
+   {
+    "Q1": 8681,
+    "Q2": 5012,
+    "Q3": 2965,
+    "Q4": -633,
+    "Q5": -47701,
+    "Q5x": -16556,
+    "T1": -639437,
+    "change_q1": 48,
+    "change_q4": -27,
+    "step": "Key `medicare` measured on the CPS"
+   },
+   {
+    "Q1": 8636,
+    "Q2": 5005,
+    "Q3": 2977,
+    "Q4": -612,
+    "Q5": -47682,
+    "Q5x": -16538,
+    "T1": -639406,
+    "change_q1": -45,
+    "change_q4": 21,
+    "step": "Key `partb` measured on the CPS"
+   },
+   {
+    "Q1": 8636,
+    "Q2": 5005,
+    "Q3": 2977,
+    "Q4": -612,
+    "Q5": -47682,
+    "Q5x": -16538,
+    "T1": -639406,
+    "change_q1": 0,
+    "change_q4": 0,
+    "step": "Key `persons` measured on the CPS"
+   },
+   {
+    "Q1": 8557,
+    "Q2": 5002,
+    "Q3": 2995,
+    "Q4": -590,
+    "Q5": -47640,
+    "Q5x": -16496,
+    "T1": -639377,
+    "change_q1": -79,
+    "change_q4": 22,
+    "step": "Key `ss_benefit` measured on the CPS"
+   },
+   {
+    "Q1": 8557,
+    "Q2": 5002,
+    "Q3": 2989,
+    "Q4": -564,
+    "Q5": -47661,
+    "Q5x": -16518,
+    "T1": -639377,
+    "change_q1": 0,
+    "change_q4": 26,
+    "step": "Key `surtax` measured on the CPS"
+   },
+   {
+    "Q1": 8590,
+    "Q2": 5059,
+    "Q3": 3047,
+    "Q4": -501,
+    "Q5": -47871,
+    "Q5x": -16739,
+    "T1": -639377,
+    "change_q1": 33,
+    "change_q4": 63,
+    "step": "Key `wages` measured on the CPS"
+   },
+   {
+    "Q1": 8618,
+    "Q2": 5119,
+    "Q3": 3137,
+    "Q4": -420,
+    "Q5": -48129,
+    "Q5x": -17014,
+    "T1": -639304,
+    "change_q1": 28,
+    "change_q4": 81,
+    "step": "Key `wages_cap` measured on the CPS"
+   }
+  ],
+  "scenarios": {
+   "A. Base package only (gap unfunded)": {
+    "legacy": {
+     "Q1": {
+      "benefit": 9357,
+      "cost": 1420,
+      "net": 7938,
+      "pct": 34.5
+     },
+     "Q2": {
+      "benefit": 8594,
+      "cost": 2386,
+      "net": 6208,
+      "pct": 10.3
+     },
+     "Q3": {
+      "benefit": 7001,
+      "cost": 3499,
+      "net": 3502,
+      "pct": 3.3
+     },
+     "Q4": {
+      "benefit": 5331,
+      "cost": 5093,
+      "net": 238,
+      "pct": 0.1
+     },
+     "Q5": {
+      "benefit": 3730,
+      "cost": 43414,
+      "net": -39683,
+      "pct": -7.6
+     },
+     "Q5x": {
+      "benefit": 3777,
+      "cost": 16942,
+      "net": -13165,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 2843,
+      "cost": 546375,
+      "net": -543531,
+      "pct": -12.6
+     }
+    },
+    "model": {
+     "Q1": {
+      "benefit": 10021,
+      "cost": 1359,
+      "net": 8662,
+      "pct": 30.7
+     },
+     "Q2": {
+      "benefit": 7433,
+      "cost": 2171,
+      "net": 5262,
+      "pct": 6.8
+     },
+     "Q3": {
+      "benefit": 6646,
+      "cost": 3175,
+      "net": 3471,
+      "pct": 2.7
+     },
+     "Q4": {
+      "benefit": 5058,
+      "cost": 4694,
+      "net": 364,
+      "pct": 0.2
+     },
+     "Q5": {
+      "benefit": 3225,
+      "cost": 41735,
+      "net": -38509,
+      "pct": -8.2
+     },
+     "Q5x": {
+      "benefit": 3249,
+      "cost": 16560,
+      "net": -13311,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 2777,
+      "cost": 520054,
+      "net": -517278,
+      "pct": -32.9
+     }
+    }
+   },
+   "Q-C19. Q with the exclusion cap at the median premium (C19, the fallback)": {
+    "legacy": {
+     "Q1": {
+      "benefit": 9357,
+      "cost": 1484,
+      "net": 7873,
+      "pct": 34.2
+     },
+     "Q2": {
+      "benefit": 8594,
+      "cost": 2601,
+      "net": 5993,
+      "pct": 10.0
+     },
+     "Q3": {
+      "benefit": 7001,
+      "cost": 3982,
+      "net": 3019,
+      "pct": 2.9
+     },
+     "Q4": {
+      "benefit": 5331,
+      "cost": 6131,
+      "net": -800,
+      "pct": -0.4
+     },
+     "Q5": {
+      "benefit": 3730,
+      "cost": 53606,
+      "net": -49876,
+      "pct": -9.6
+     },
+     "Q5x": {
+      "benefit": 3777,
+      "cost": 20914,
+      "net": -17137,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 2843,
+      "cost": 674759,
+      "net": -671916,
+      "pct": -15.6
+     }
+    },
+    "model": {
+     "Q1": {
+      "benefit": 10021,
+      "cost": 1413,
+      "net": 8608,
+      "pct": 30.5
+     },
+     "Q2": {
+      "benefit": 7433,
+      "cost": 2363,
+      "net": 5070,
+      "pct": 6.6
+     },
+     "Q3": {
+      "benefit": 6646,
+      "cost": 3627,
+      "net": 3018,
+      "pct": 2.3
+     },
+     "Q4": {
+      "benefit": 5058,
+      "cost": 5641,
+      "net": -583,
+      "pct": -0.3
+     },
+     "Q5": {
+      "benefit": 3225,
+      "cost": 51507,
+      "net": -48282,
+      "pct": -10.3
+     },
+     "Q5x": {
+      "benefit": 3249,
+      "cost": 20414,
+      "net": -17165,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 2777,
+      "cost": 642277,
+      "net": -639501,
+      "pct": -40.6
+     }
+    }
+   },
+   "Q-EDU. Q with the EDU-9B education fund (held) in place of C19b and C20": {
+    "legacy": {
+     "Q1": {
+      "benefit": 9932,
+      "cost": 1705,
+      "net": 8226,
+      "pct": 35.8
+     },
+     "Q2": {
+      "benefit": 9214,
+      "cost": 3221,
+      "net": 5993,
+      "pct": 10.0
+     },
+     "Q3": {
+      "benefit": 7513,
+      "cost": 5015,
+      "net": 2498,
+      "pct": 2.4
+     },
+     "Q4": {
+      "benefit": 5680,
+      "cost": 7732,
+      "net": -2053,
+      "pct": -1.1
+     },
+     "Q5": {
+      "benefit": 3927,
+      "cost": 54745,
+      "net": -50819,
+      "pct": -9.8
+     },
+     "Q5x": {
+      "benefit": 3976,
+      "cost": 22497,
+      "net": -18521,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 2983,
+      "cost": 667455,
+      "net": -664472,
+      "pct": -15.5
+     }
+    },
+    "model": {
+     "Q1": {
+      "benefit": 10568,
+      "cost": 1530,
+      "net": 9037,
+      "pct": 32.0
+     },
+     "Q2": {
+      "benefit": 8022,
+      "cost": 2792,
+      "net": 5230,
+      "pct": 6.8
+     },
+     "Q3": {
+      "benefit": 7133,
+      "cost": 4441,
+      "net": 2693,
+      "pct": 2.1
+     },
+     "Q4": {
+      "benefit": 5389,
+      "cost": 7014,
+      "net": -1625,
+      "pct": -0.8
+     },
+     "Q5": {
+      "benefit": 3412,
+      "cost": 53167,
+      "net": -49755,
+      "pct": -10.6
+     },
+     "Q5x": {
+      "benefit": 3438,
+      "cost": 22527,
+      "net": -19088,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 2909,
+      "cost": 635324,
+      "net": -632415,
+      "pct": -40.2
+     }
+    }
+   },
+   "Q-H7. Q with the single plan's household rows (H7h, H7w, H7x) and its long-term care title (H9), before the settlement's new taxes; not a pass or fail": {
+    "legacy": {
+     "Q1": {
+      "benefit": 15030,
+      "cost": 1629,
+      "net": 13401,
+      "pct": 58.3
+     },
+     "Q2": {
+      "benefit": 20375,
+      "cost": 4155,
+      "net": 16220,
+      "pct": 27.0
+     },
+     "Q3": {
+      "benefit": 27072,
+      "cost": 7726,
+      "net": 19346,
+      "pct": 18.4
+     },
+     "Q4": {
+      "benefit": 31347,
+      "cost": 11451,
+      "net": 19896,
+      "pct": 11.1
+     },
+     "Q5": {
+      "benefit": 31093,
+      "cost": 59593,
+      "net": -28500,
+      "pct": -5.5
+     },
+     "Q5x": {
+      "benefit": 31017,
+      "cost": 26772,
+      "net": 4245,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 32536,
+      "cost": 683186,
+      "net": -650650,
+      "pct": -15.1
+     }
+    },
+    "model": {
+     "Q1": {
+      "benefit": 15926,
+      "cost": 1551,
+      "net": 14376,
+      "pct": 51.0
+     },
+     "Q2": {
+      "benefit": 19001,
+      "cost": 3842,
+      "net": 15159,
+      "pct": 19.7
+     },
+     "Q3": {
+      "benefit": 25076,
+      "cost": 7191,
+      "net": 17885,
+      "pct": 13.7
+     },
+     "Q4": {
+      "benefit": 28958,
+      "cost": 10706,
+      "net": 18253,
+      "pct": 8.9
+     },
+     "Q5": {
+      "benefit": 29961,
+      "cost": 57207,
+      "net": -27246,
+      "pct": -5.8
+     },
+     "Q5x": {
+      "benefit": 30089,
+      "cost": 25991,
+      "net": 4098,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 27530,
+      "cost": 650300,
+      "net": -622770,
+      "pct": -39.6
+     }
+    }
+   },
+   "Q-SAF. Q with SAF-R2 (alcohol excise dropped)": {
+    "legacy": {
+     "Q1": {
+      "benefit": 9357,
+      "cost": 1444,
+      "net": 7913,
+      "pct": 34.4
+     },
+     "Q2": {
+      "benefit": 8594,
+      "cost": 2507,
+      "net": 6088,
+      "pct": 10.1
+     },
+     "Q3": {
+      "benefit": 7001,
+      "cost": 3805,
+      "net": 3196,
+      "pct": 3.0
+     },
+     "Q4": {
+      "benefit": 5331,
+      "cost": 5903,
+      "net": -571,
+      "pct": -0.3
+     },
+     "Q5": {
+      "benefit": 3730,
+      "cost": 53378,
+      "net": -49648,
+      "pct": -9.5
+     },
+     "Q5x": {
+      "benefit": 3777,
+      "cost": 20690,
+      "net": -16913,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 2843,
+      "cost": 674452,
+      "net": -671609,
+      "pct": -15.6
+     }
+    },
+    "model": {
+     "Q1": {
+      "benefit": 10021,
+      "cost": 1374,
+      "net": 8646,
+      "pct": 30.7
+     },
+     "Q2": {
+      "benefit": 7433,
+      "cost": 2273,
+      "net": 5160,
+      "pct": 6.7
+     },
+     "Q3": {
+      "benefit": 6646,
+      "cost": 3459,
+      "net": 3187,
+      "pct": 2.4
+     },
+     "Q4": {
+      "benefit": 5058,
+      "cost": 5423,
+      "net": -366,
+      "pct": -0.2
+     },
+     "Q5": {
+      "benefit": 3225,
+      "cost": 51290,
+      "net": -48065,
+      "pct": -10.2
+     },
+     "Q5x": {
+      "benefit": 3249,
+      "cost": 20201,
+      "net": -16952,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 2777,
+      "cost": 641985,
+      "net": -639209,
+      "pct": -40.6
+     }
+    }
+   },
+   "Q. Decided package: Package B (C18, C35, C19b, C20), the sprint package C38, C39-C41 and C43": {
+    "legacy": {
+     "Q1": {
+      "benefit": 9357,
+      "cost": 1474,
+      "net": 7883,
+      "pct": 34.3
+     },
+     "Q2": {
+      "benefit": 8594,
+      "cost": 2549,
+      "net": 6045,
+      "pct": 10.1
+     },
+     "Q3": {
+      "benefit": 7001,
+      "cost": 3858,
+      "net": 3143,
+      "pct": 3.0
+     },
+     "Q4": {
+      "benefit": 5331,
+      "cost": 5960,
+      "net": -629,
+      "pct": -0.3
+     },
+     "Q5": {
+      "benefit": 3730,
+      "cost": 53446,
+      "net": -49715,
+      "pct": -9.6
+     },
+     "Q5x": {
+      "benefit": 3777,
+      "cost": 20756,
+      "net": -16979,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 2843,
+      "cost": 674552,
+      "net": -671709,
+      "pct": -15.6
+     }
+    },
+    "model": {
+     "Q1": {
+      "benefit": 10021,
+      "cost": 1403,
+      "net": 8618,
+      "pct": 30.5
+     },
+     "Q2": {
+      "benefit": 7433,
+      "cost": 2313,
+      "net": 5119,
+      "pct": 6.7
+     },
+     "Q3": {
+      "benefit": 6646,
+      "cost": 3509,
+      "net": 3137,
+      "pct": 2.4
+     },
+     "Q4": {
+      "benefit": 5058,
+      "cost": 5478,
+      "net": -420,
+      "pct": -0.2
+     },
+     "Q5": {
+      "benefit": 3225,
+      "cost": 51354,
+      "net": -48129,
+      "pct": -10.2
+     },
+     "Q5x": {
+      "benefit": 3249,
+      "cost": 20263,
+      "net": -17014,
+      "pct": null
+     },
+     "T1": {
+      "benefit": 2777,
+      "cost": 642080,
+      "net": -639304,
+      "pct": -40.6
+     }
+    }
+   }
+  },
+  "sensitivity_housing_legacy_q": {
+   "central": {
+    "Q1": 8618,
+    "Q2": 5119,
+    "Q3": 3137,
+    "Q4": -420,
+    "Q5": -48129,
+    "Q5x": -17014,
+    "T1": -639304
+   },
+   "housing_legacy": {
+    "Q1": 7834,
+    "Q2": 5561,
+    "Q3": 3368,
+    "Q4": -328,
+    "Q5": -48110,
+    "Q5x": -16990,
+    "T1": -639384
+   }
+  }
+ }
+}
