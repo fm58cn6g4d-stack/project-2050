@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6): who is working, what is in motion, where each dossier stands, what comes next, known gaps and open questions for Espen. Only the lead edits it, folding in the "For the board" notes from workers' PRs (`DEC-2026-11-12-03`). Status: current. It holds no history: finished work is in Git and the PRs, decisions are in `charter/decisions.md`, and rules are in `charter/STANDARDS.md`.
 
-Updated November 12, 2026 (about 22:20 UTC) by the lead, session_01UQzgBwNea5uYV7BMBRB3Ha.
+Updated November 13, 2026 (about 00:45 UTC) by the lead, session_01UQzgBwNea5uYV7BMBRB3Ha.
 
 ## Standing sessions
 
@@ -21,28 +21,22 @@ Updated November 12, 2026 (about 22:20 UTC) by the lead, session_01UQzgBwNea5uYV
 
 ## In motion
 
-- **Open PRs:**
-  - #309, Espen's answer on Social Security's cap, one new decision entry (tier 3; the lead). Waiting on the reviewer, then Espen's label (ping them).
-  - #307, immigration: Espen's answers written in (routine; author the immigration worker). Waiting on the reviewer.
-  - This board PR.
+- **Open PRs:** this board PR.
 - **Workers (report to the lead):**
-  - Immigration milestone review and fix steps 1-4, `session_01UQzgBtaHE8nkT9Znw8gZVp` (#303, #305, both merged; about 315,000 tokens). Sent a `handoff` naming the new lead; asked for its `done` and it will take the immigration booking (brief sent once #304 merged). Its #307 (routine, open) writes Espen's three answers into the dossier and reprices: the decided set is about +$0.17T over FY2030-39 and +$27.7B in FY2040. It also finds care's base overstated by about $430B over FY2030-39 under option C, which goes to a health booking correction.
+  - Care base correction for option C, `session_01UQzgBskUP5ct6NJr6zMve5` (Most capable, started November 13 about 00:40 UTC; tier 3). It records Espen's long-term care answer as a new decision entry and re-books care's base: health (about −$430B over FY2030-39, −$36B in FY2040, on the immigration model's estimate) and long-term care, both for people with no status. Espen's words, November 13: "no, long-term care narrows too" (IMM-1.23 follows the same rule as health).
+  - Immigration milestone review, fix steps and booking, `session_01UQzgBtaHE8nkT9Znw8gZVp` (#303, #305, #307, #310, all merged; past 700,000 tokens): done; takes on nothing more.
   - Secure floor fix session `session_01UQzgBwAwdHFG8ArnCwHdrQ`: done (#298, #301).
   - I4 author `session_01UQzgBufjvZ5c5m2JNm9iBZ`: done (#294, #299).
-  - The outgoing lead, `session_01UQzgBuYpTa4haagP5TUTko`: stepped back; its PRs are handed over.
-- **Espen's answers still to record as DEC entries** (in the immigration booking PR, tier 3; quote Espen):
-  - "both as recommended" on the review's two questions (from-abroad applications, limited; the signing-day cutoff kept and stated plainly).
-  - Health coverage for people without status: **C**. The single plan covers people with registered status or any lawful status, including lawful temporary workers. People with no status get emergency care only, as today. Priced net of the Emergency Medicaid and uncompensated care already paid for those who gain coverage. This amends `DEC-2026-11-12-07` memo 6 C for health only. Espen: "i think it has to be C, with the proper net cost fixes for current care outlays". A later look at coverage for farmworkers, contractors, transient and seasonal workers is noted for section 8.
-- **A check for Espen, from #307:** the long-term care benefit (IMM-1.23) stays "every resident", since the option C amendment was for health coverage only. Is that the intent?
-- **Social Security's cap:** Espen answered "keep the one-point cap"; recorded in #309.
+  - The outgoing lead, `session_01UQzgBuYpTa4haagP5TUTko`: stepped back.
+- **Labels and decision-log conflicts:** two tier-3 PRs that both add rows to `charter/decisions.md` conflict when the first merges, and the gate drops `espen-approved` from the second when that conflict is resolved (#310, November 13). Ask Espen to label such PRs one at a time, the next only after the first merges and the second is updated.
 - **Lead check-in:** `trig_01S1Wi1m3GphpoGYxPDe6ZJ4` (`send_later`, November 13, 01:03 UTC), re-armed every three hours. The outgoing lead's `trig_018c9dsspfuh2UnHeFTE5hWQ` is disabled.
 - **Codex** access to the repository is suspended by Espen for now (out of credits); don't reach it with PR comments until it is restored.
 - **Espen's usage:** a weekly-limit reset was used on November 12; the allowance must last until Monday at 2 am Eastern. Keep to three working sessions, lighter models for mechanical work, and follow-ups in the session that holds the context.
 
 ## Next, in order
 
-1. #309 approved and labeled.
-2. The immigration booking (tier 3, option C's health coverage repriced in section 6, with the DEC entries above, CRT-5's re-score note, and C-6's `.github/` change to run the immigration test, also tier 3); then the reviewer's L3 re-check.
+1. The care base correction (tier 3, in progress), then Espen's label.
+2. Immigration's open items: the vote model's two-bill split for IMM-1 (memo 7 part 3); a Social Security funds line for E-Verify's −$42B; spot checks W-1, W-3 and C-5 from the milestone review (small).
 3. **Maintenance at the stage D/E boundary**, before clean power:
    - **M1, dossier tidy-up** (Most capable): out-of-date status lines in every dossier README and review file (see "Known gaps"); care's one map; transportation's `6-cost.md` refreshed to #289 and #297's figures.
    - **M2, library and housing mechanics** (Standard): `library/build_catalog.py` respects reserved ID blocks; one home for CRS R48552; catalog anchors for D and E evidence entries; `packages.py`'s stale housing label.
@@ -62,7 +56,7 @@ Updated November 12, 2026 (about 22:20 UTC) by the lead, session_01UQzgBwNea5uYV
 | Health (`dossiers/care/`, flagship 2, part A) | L3 | Sections 1-9, memos 1-5; review passed (#224 to #229); booked (#230, #237, #279) | None; the README's status table is out of date |
 | Care parts B-D (`dossiers/care/`, flagship 2) | L3 (FAM-2A to 2F at L2) | Sections 1b-9bcd, memos 6-17; review passed (#260, #263); booked (#265) | None; the README's status table is out of date |
 | Secure floor (`dossiers/secure-floor/`, flagship 1) | L3 (alternatives and options at L1-L2) | Sections 1-9 and memos 1-7, decided (`DEC-2026-11-12-06`, `-09`, `-13` to `-15`); review #298, fixes #301; booked (#304, which was also the L3 re-check): about $2.53T over FY2030-39 and $292B in FY2040 | Incidence keys for INC-1 to INC-5 (M3); SS-8's budget treatment (research) |
-| Immigration (`dossiers/immigration/`, flagship 6) | L2 | Sections 1-9, memos 1-7 and the first immigration model (`tools/immigration_model.py`), decided (`DEC-2026-11-12-07`, `-12`); milestone review: L2 pass (#303); fix steps 1-4 done (#305): about +$0.41T over FY2030-39 and +$56.5B in FY2040, or about +$0.17T and +$27.7B with option C once #307 merges; not booked | The booking, then the reviewer's L3 re-check |
+| Immigration (`dossiers/immigration/`, flagship 6) | L3 (alternatives at L2) | Sections 1-9, memos 1-7 and the first immigration model (`tools/immigration_model.py`), decided (`DEC-2026-11-12-07`, `-12`, `-17` to `-19`); milestone review #303, fixes #305 and #307; booked (#310, which was also the L3 re-check): about +$175B over FY2030-39 and +$28.8B in FY2040 | IMM-1.23's long-term care text follows option C (the care base correction); the open items in "Next" |
 | Clean power (flagship 4) | L1 | Not started | Stage E, after a slot frees |
 | Work (flagship 5), democratic renewal, fair financing | L1 | Not started (stages F and G) | — |
 | Rural delivery note (`dossiers/foundations/rural-delivery.md`) | — | Done (#171); applied project-wide by `DEC-2026-11-09-26` | Each dossier reads it for section 5 |
@@ -71,7 +65,7 @@ Updated November 12, 2026 (about 22:20 UTC) by the lead, session_01UQzgBwNea5uYV
 
 - **Done:** B1 conventions and assumptions; B2 data layer; B3 provision library; B5 viewer; B6 integration; B7 Espen's counting choices (`DEC-2026-11-08-03` to `-07`, `DEC-2026-11-12-08`). The workflow is `WORKFLOW.md` (#104).
 - **B4 benchmarks:** Espen answered 0r: a light research pass on historical spend-out averages, an evidence-backed placeholder in the model, and B4 closed with PS-4b reported as not fully validated (`DEC-2026-11-12-11`, #297). `MODEL-CARD.md` lists what is validated, bounded and not yet validated.
-- **Plan-wide FY2040 general-fund primary balance** (case `mixed`, after #304): about $4,230B short.
+- **Plan-wide FY2040 general-fund primary balance** (case `mixed`, after #310): about $4,275B short (7.89% of GDP).
 - Budget-model workers report to the lead.
 
 ## Known gaps
