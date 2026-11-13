@@ -2,18 +2,19 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6): who is working, what is in motion, where each dossier stands, what comes next, known gaps and open questions for Espen. Only the lead edits it, folding in the "For the board" notes from workers' PRs (`DEC-2026-11-12-03`). Status: current. It holds no history: finished work is in Git and the PRs, decisions are in `charter/decisions.md`, and rules are in `charter/STANDARDS.md`.
 
-Updated November 13, 2026 (about 09:10 UTC) by the lead, session_01UQzgBuU8feeYuYt6o6GeGK.
+Updated November 13, 2026 (about 15:15 UTC) by the lead, session_01UQzgBuU8feeYuYt6o6GeGK.
 
 ## Standing sessions
 
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
 | Lead | `session_01UQzgBuU8feeYuYt6o6GeGK` | Project 2050: lead | November 13, about 06:00 UTC |
-| Reviewer | `session_01UQzgBx3GY2ubHn3v5pRWdb` | Project 2050: reviewer | November 13, about 06:00 UTC; woken every three hours at :32 by the scheduled task `trig_01HM2PZzezuaA4AA2ThDMR8P` (older reviewer tasks are disabled) |
+| Reviewer | `session_01UQzgBxNwxtd5koUq9phZwU` | Project 2050: reviewer | November 13, about 12:09 UTC; woken every three hours at :32 by the scheduled task `trig_019mwEJpZ4HeKBduzE2dM1ae` (older reviewer tasks are disabled) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 **Former standing sessions** (the most recent; earlier ones are in this file's Git history):
 - Lead `session_01UQzgBwNea5uYV7BMBRB3Ha`: the secure floor and immigration bookings to L3 (#304, #310), Espen's decisions DEC-2026-11-12-16 to -19 and DEC-2026-11-13-01 to -02, the care base under option C (#313), the reviewer handover, M2 (#312), clean power E-C1 (#315, #317), M3 parts 1-2 (#318 to #321); November 12 to 13.
+- Reviewer `session_01UQzgBx3GY2ubHn3v5pRWdb`: PRs #323 to #331; November 13 (handed over at about 586,000 tokens).
 - Reviewer `session_01UQzgBw6mqUQnF5hz7WbpQH`: PRs #314 to #322; November 13 (handed over at about 712,000 tokens).
 - Reviewer `session_01UQzgBxJre9xhzNQVtr5prW`: PRs #284 to #313; November 12 to 13.
 - Lead `session_01UQzgBuYpTa4haagP5TUTko`: the charter audit (#290, #291), the board rewrite and restart plan, 0o/0p/0q recorded, secure floor S4 to its booking (#304), immigration I4 and its review, budget inputs #289 and #297; November 12.
@@ -23,21 +24,19 @@ Updated November 13, 2026 (about 09:10 UTC) by the lead, session_01UQzgBuU8feeYu
 
 - **Open PRs:**
   - #330, the secure floor's SNAP earned-income deduction to 45% (Espen's option D, with its decision entry; tier 3; author `session_01UQzgBtQcZhNsuZ4WPD35B5`). Approved at `33e118a`, current with main; **waits on Espen's label**. Booked at about $12B a year (range $8-16B; $138B over FY2030-39, $16.1B in FY2040), well below the "up to about $32B" first quoted (that was the CPS upper bound). Every ceiling case passes but one, the married couple on the 2030-34 marketplace with rent (65.9 cents), which is monitored. Plan-wide FY2040: $4,240.4B to $4,256.6B short. After it merges, the secure floor README's headline ($2.49T and $287B) needs refreshing (about $2.63T and $303B), with the other stale secure-floor lines #326 listed.
-  - #329, the M1 follow-up (routine; author `session_01UQzgBwjXwGX78u9dixvMpQ`): care `6bcd-cost.md` part 5 as booked, retired-script references, 12 HOU rows to L3 citing #194. Waits on the reviewer.
   - This board PR.
-- **Merged overnight:** #316 (`DEC-2026-11-13-02`), #320 (Espen's label), #321, #322, #323, #324, #325 (the stage E checkpoint memo, first draft, `dossiers/foundations/checkpoint-financing.md`), #326 (M1), #327 (the D3 test in the household model; the legacy incidence scripts retired), #328 (immigration's small items).
+- **Merged overnight:** #316 (`DEC-2026-11-13-02`), #320 (Espen's label), #321, #322, #323, #324, #325 (the stage E checkpoint memo, first draft, `dossiers/foundations/checkpoint-financing.md`), #326 (M1), #327 (the D3 test in the household model; the legacy incidence scripts retired), #328 (immigration's small items), #329 (the M1 follow-up), #331.
 - **Workers (report to the lead):**
   - Option D, `session_01UQzgBtQcZhNsuZ4WPD35B5` (Most capable): holds #330 until it merges.
-  - M1 follow-up, `session_01UQzgBwjXwGX78u9dixvMpQ` (Standard): holds #329.
-  - Reviewer: see Standing sessions (about 455,000 tokens at 09:00 UTC; hand over past 600,000).
-  - Done, Espen may archive: M3 part 2 `session_01UQzgBvcq5CFU3aHTEQs51E` (#320 to #322, #327); M1 `session_01UQzgBtAeRDYo4gqoiVQ76i` (#326); checkpoint memo `session_01UQzgBxH31r4ahuzdcCUEwy` (#325); immigration small items `session_01UQzgBvHkN79AyRQaiqmRRS` (#328); clean power E-C1 `session_01UQzgBvGHoWGmLZJ179V9R7`; M3 part 1 `session_01UQzgBwdLcHcwAfDxTeXZaS`; care base `session_01UQzgBskUP5ct6NJr6zMve5`; former reviewers `session_01UQzgBxJre9xhzNQVtr5prW` and `session_01UQzgBw6mqUQnF5hz7WbpQH`; former lead `session_01UQzgBwNea5uYV7BMBRB3Ha`.
-- **Waiting on Espen** (all go in the morning decision document):
+  - Reviewer: see Standing sessions.
+  - Done, Espen may archive: M3 part 2 `session_01UQzgBvcq5CFU3aHTEQs51E` (#320 to #322, #327); M1 `session_01UQzgBtAeRDYo4gqoiVQ76i` (#326); checkpoint memo `session_01UQzgBxH31r4ahuzdcCUEwy` (#325); immigration small items `session_01UQzgBvHkN79AyRQaiqmRRS` (#328); clean power E-C1 `session_01UQzgBvGHoWGmLZJ179V9R7`; M3 part 1 `session_01UQzgBwdLcHcwAfDxTeXZaS`; care base `session_01UQzgBskUP5ct6NJr6zMve5`; former reviewers `session_01UQzgBxJre9xhzNQVtr5prW`, `session_01UQzgBw6mqUQnF5hz7WbpQH` and `session_01UQzgBx3GY2ubHn3v5pRWdb`; M1 follow-up `session_01UQzgBwjXwGX78u9dixvMpQ` (#329); former lead `session_01UQzgBwNea5uYV7BMBRB3Ha`.
+- **Waiting on Espen**, all in the decision document posted November 13 about 11:15 UTC (https://claude.ai/artifact/HouYTVFgnhsepKsZzoopxD, items 1-30; no answers yet at 15:15 UTC):
   - **Clean power's memo batch** (#317, merged; `dossiers/clean-power/memos/README.md`): memos 1-7 (eleven decisions) and points 1-14, each recommended. On the answers: one tier-3 DEC PR, then E-C2 (sections 4-9) in a fresh Most capable session.
   - #330's label.
   - **Two measured-below-booked figures, each a booking change (tier 3):** INC-4, the refundable care credit, measures about $0.3B a year on the CPS against $4.5B booked (#320); immigration memo 6's health-use factor, booked at 1.0, looks nearer 0.67 against KFF and a JAMA study, about −$26B over FY2030-39 and −$6.3B in FY2040 (#328, EV-IMM-660 to 663).
 - **Espen's instruction for the night** (November 13, about 06:00 UTC): "pls keep things moving over night, and make progress wherever you can, then prepare clear summaries and decision docs for me tmw". So: up to three sessions on ready steps (M3 part 2, M1, the checkpoint memo draft; then immigration's small items; E-C2 waits on the memo answers), and by Espen's morning (Eastern) one plain summary of the night and one decision document covering the clean power memo batch, the labels waiting and anything new, every item numbered with its recommendation and cost.
 - **Small tier-3 cleanups for later (from the legacy move):** `.github/merge-policy.json` still lists `legacy/index/revenue-household-incidence-model.md` as a generated output (harmless; drop it later); `models/data/inputs/scenarios.json`'s "role" text names `incidence-model.py` (should name `models/tools/household/d3.py`). The child-poverty validation suite stays in `run-checks.sh` until the household model ports its 8 agenda cases. Also `models/data/inputs/readme.md:43` names the retired scripts (#327, #329).
-- **Lead check-ins:** a `send_later` safety net every three hours (next about 12:05 UTC), and Espen's morning summary at 11:00 UTC (`trig_012yoPa1QXUfdacWwzWJWUi2`). The outgoing lead's `trig_01PgFK2nZnrqDchtrJ9VG2bj` and the old reviewer task `trig_01QHkurHcrA7npaVk277NyeR` are disabled, not deleted.
+- **Lead check-ins:** a `send_later` safety net every three hours (next about 18:15 UTC). The outgoing lead's `trig_01PgFK2nZnrqDchtrJ9VG2bj` and the old reviewer tasks `trig_01QHkurHcrA7npaVk277NyeR` and `trig_01HM2PZzezuaA4AA2ThDMR8P` are disabled, not deleted.
 - **Labels and decision-log conflicts:** two tier-3 PRs that both add rows to `charter/decisions.md` conflict when the first merges, and the gate drops `espen-approved` from the second when that conflict is resolved (#310, November 13). Ask Espen to label such PRs one at a time, the next only after the first merges and the second is updated.
 - **Codex** access to the repository is suspended by Espen for now (out of credits); don't reach it with PR comments until it is restored.
 - **Espen's usage:** a weekly-limit reset was used on November 12 and lasts until Monday at 2 am Eastern; about 12% was used by Thursday night, November 12. Keep to three sessions, with lighter models for mechanical work.
