@@ -10,7 +10,7 @@
 | larger_payroll | 168.0% | 340.0% | 22.67% | False | 32.52 |
 | mixed_downside | 172.8% | 356.0% | 23.96% | False | 45.43 |
 | mixed_all_debt_rate_plus1 | 176.6% | 392.5% | 28.17% | False | 36.63 |
-| mixed_no_macro_translation | 167.3% | 335.8% | 22.30% | False | — |
+| mixed_no_macro_translation | 167.3% | 335.8% | 22.31% | False | — |
 | mixed_leave_admin_high | 167.5% | 337.2% | 22.45% | False | — |
 | mixed_ssa_medicare_all_hi | 167.4% | 336.9% | 22.43% | False | — |
 | mixed_ssa_medicare_all_smi | 167.4% | 336.9% | 22.43% | False | — |
@@ -36,10 +36,10 @@ The last column is the total broad-tier rate required under this static tax-yiel
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | 2029 | 6261 | 7015 | 6261 | 8405 | 1345 | 2144 | 107.5% |
 | 2030 | 6534 | 7364 | 7351 | 9597 | 1456 | 2245 | 109.5% |
-| 2035 | 7898 | 8732 | 10865 | 16278 | 2212 | 5412 | 132.0% |
-| 2039 | 9294 | 10409 | 13090 | 20800 | 3308 | 7710 | 167.4% |
-| 2045 | 11831 | 13205 | 17092 | 28070 | 5593 | 10978 | 221.4% |
-| 2056 | 17910 | 20097 | 25937 | 47396 | 12704 | 21459 | 336.9% |
+| 2035 | 7898 | 8732 | 10866 | 16278 | 2212 | 5412 | 132.0% |
+| 2039 | 9294 | 10409 | 13092 | 20803 | 3308 | 7711 | 167.4% |
+| 2045 | 11831 | 13205 | 17094 | 28072 | 5593 | 10979 | 221.4% |
+| 2056 | 17910 | 20097 | 25939 | 47400 | 12705 | 21461 | 336.9% |
 
 Totals above are $B, not $T. The audit CSV exposes every increment and matched gross-up. Internal fund grants do not appear as new external resources.
 

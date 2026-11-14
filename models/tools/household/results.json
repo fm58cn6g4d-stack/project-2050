@@ -3397,8 +3397,8 @@
    "dynamic_lo": -1.36,
    "dynamic_mid": -0.33,
    "dynamic_optimistic": 1.12,
-   "gap_after_accepted": 22.71,
-   "gap_mid": 27.22
+   "gap_after_accepted": 22.7,
+   "gap_mid": 27.21
   },
   "legacy": {
    "gf": {

@@ -2588,11 +2588,11 @@
   "rail": "R2",
   "rail_name": "Reconciliation II (FY2030 resolution, summer 2029)",
   "channel": "General fund",
-  "cost_lo": 0.071,
-  "cost_mid": 0.157,
-  "cost_hi": 0.157,
+  "cost_lo": 0.074,
+  "cost_mid": 0.163,
+  "cost_hi": 0.163,
   "own_revenue": 0,
-  "net_mid": 0.157,
+  "net_mid": 0.163,
   "basis": "estimate",
   "basis_note": "Equal to the receipts (C3A), by year from the energy model; the net cost is the offset (CXA). clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py)",
   "floor_days": 0,
@@ -2605,8 +2605,8 @@
   "own_rev_hi": 0,
   "own_rev_channel": "",
   "gf_rule": "all",
-  "gf_lo": 0.071,
-  "gf_mid": 0.157,
-  "gf_hi": 0.157
+  "gf_lo": 0.074,
+  "gf_mid": 0.163,
+  "gf_hi": 0.163
  }
 ]

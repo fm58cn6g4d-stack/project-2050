@@ -1,0 +1,936 @@
+Source: https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_4_9_b
+Publisher: U.S. Energy Information Administration
+Retrieved: 2026-11-14
+Original SHA-256: 0dd9130990359ca1448f4dca4a96f2b12321ed16a8ceaf93eea6d296edb3a7af
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Electric Power Monthly - U.S. Energy Information Administration (EIA)
+See all Reports
+Electric Power Monthly
+Data for August 2026
+Release Date:
+October 23, 2026
+Next Release Date:
+November 24, 2026
+Go
+Back
+Previous Issues
+SAS Output
+Table 4.9.B. Receipts of Natural Gas Delivered for Electricity Generation by State, (Year-to-Date) August 2026 and 2025
+(Million Cubic Feet)
+Electric Power Sector
+Census Division
+and State
+All Sectors
+Electric Utilities
+Independent Power Producers
+Commercial Sector
+Industrial Sector
+August 2026 YTD
+August 2025 YTD
+Percentage Change
+August 2026 YTD
+August 2025 YTD
+August 2026 YTD
+August 2025 YTD
+August 2026 YTD
+August 2025 YTD
+August 2026 YTD
+August 2025 YTD
+New England
+233,945
+279,688
+-16%
+235
+900
+233,710
+278,787
+0
+0
+0
+0
+Connecticut
+118,873
+107,417
+11%
+0
+0
+118,873
+107,417
+0
+0
+0
+0
+Maine
+15,482
+25,520
+-39%
+0
+0
+15,482
+25,520
+0
+0
+0
+0
+Massachusetts
+49,140
+82,972
+-41%
+235
+900
+48,905
+82,071
+0
+0
+0
+0
+New Hampshire
+29,387
+23,881
+23%
+0
+0
+29,387
+23,881
+0
+0
+0
+0
+Rhode Island
+21,063
+39,898
+-47%
+0
+0
+21,063
+39,898
+0
+0
+0
+0
+Vermont
+0
+0
+--
+0
+0
+0
+0
+0
+0
+0
+0
+Middle Atlantic
+1,128,718
+1,170,034
+-3.5%
+68,861
+72,409
+1,042,451
+1,080,901
+0
+0
+17,406
+16,724
+New Jersey
+133,617
+149,002
+-10%
+0
+0
+133,617
+149,002
+0
+0
+0
+0
+New York
+312,883
+332,927
+-6.0%
+68,861
+72,409
+239,531
+255,814
+0
+0
+4,491
+4,704
+Pennsylvania
+682,218
+688,106
+-0.9%
+0
+0
+669,303
+676,085
+0
+0
+12,915
+12,020
+East North Central
+1,001,949
+1,046,459
+-4.3%
+391,831
+419,041
+597,601
+609,688
+4,009
+4,014
+8,508
+13,716
+Illinois
+109,438
+139,206
+-21%
+16,264
+4,702
+93,119
+131,320
+0
+0
+55
+3,185
+Indiana
+173,040
+182,765
+-5.3%
+102,649
+106,559
+70,391
+76,206
+0
+0
+0
+0
+Michigan
+263,688
+244,574
+7.8%
+137,815
+144,847
+118,514
+92,227
+4,009
+4,014
+3,350
+3,486
+Ohio
+359,372
+364,491
+-1.4%
+42,027
+50,739
+315,577
+309,937
+0
+0
+1,768
+3,815
+Wisconsin
+96,411
+115,424
+-16%
+93,076
+112,195
+0
+0
+0
+0
+3,335
+3,229
+West North Central
+123,266
+213,238
+-42%
+99,305
+177,095
+18,315
+31,029
+1,628
+1,576
+4,019
+3,539
+Iowa
+36,552
+47,657
+-23%
+32,533
+44,118
+0
+0
+0
+0
+4,019
+3,539
+Kansas
+15,731
+17,982
+-13%
+15,731
+17,982
+0
+0
+0
+0
+0
+0
+Minnesota
+20,242
+52,781
+-62%
+15,372
+32,961
+4,862
+19,806
+8
+13
+0
+0
+Missouri
+36,349
+54,453
+-33%
+21,276
+41,668
+13,453
+11,223
+1,619
+1,563
+0
+0
+Nebraska
+7,298
+10,303
+-29%
+7,298
+10,303
+0
+0
+0
+0
+0
+0
+North Dakota
+3,778
+19,436
+-81%
+3,778
+19,436
+0
+0
+0
+0
+0
+0
+South Dakota
+3,317
+10,626
+-69%
+3,317
+10,626
+0
+0
+0
+0
+0
+0
+South Atlantic
+1,998,566
+2,060,977
+-3.0%
+1,669,235
+1,713,357
+311,204
+324,826
+0
+0
+18,126
+22,793
+Delaware
+15,689
+17,665
+-11%
+0
+0
+15,689
+17,665
+0
+0
+0
+0
+District of Columbia
+0
+0
+--
+0
+0
+0
+0
+0
+0
+0
+0
+Florida
+933,735
+940,733
+-0.7%
+889,013
+895,708
+41,278
+41,951
+0
+0
+3,444
+3,073
+Georgia
+244,154
+283,643
+-14%
+207,194
+226,002
+36,961
+51,027
+0
+0
+0
+6,614
+Maryland
+80,792
+78,402
+3.0%
+13,351
+15,260
+67,440
+63,142
+0
+0
+0
+0
+North Carolina
+309,947
+292,588
+5.9%
+261,214
+250,671
+48,733
+41,917
+0
+0
+0
+0
+South Carolina
+123,433
+110,151
+12%
+113,841
+102,931
+8,935
+6,717
+0
+0
+658
+504
+Virginia
+267,442
+317,981
+-16%
+178,067
+218,476
+81,088
+91,043
+0
+0
+8,287
+8,461
+West Virginia
+23,374
+19,815
+18%
+6,555
+4,308
+11,080
+11,366
+0
+0
+5,739
+4,141
+East South Central
+785,407
+803,731
+-2.3%
+621,474
+633,604
+144,051
+150,749
+0
+0
+19,882
+19,378
+Alabama
+283,099
+291,421
+-2.9%
+145,142
+147,098
+137,957
+144,322
+0
+0
+0
+0
+Kentucky
+102,026
+107,361
+-5.0%
+96,098
+101,084
+5,928
+6,278
+0
+0
+0
+0
+Mississippi
+301,364
+296,463
+1.7%
+301,199
+296,314
+165
+149
+0
+0
+0
+0
+Tennessee
+98,918
+108,486
+-8.8%
+79,036
+89,108
+0
+0
+0
+0
+19,882
+19,378
+West South Central
+2,183,946
+2,387,276
+-8.5%
+776,438
+904,314
+984,724
+1,045,146
+0
+0
+422,784
+437,816
+Arkansas
+101,685
+109,360
+-7.0%
+93,100
+101,027
+6,779
+6,154
+0
+0
+1,807
+2,180
+Louisiana
+395,419
+388,056
+1.9%
+220,179
+219,920
+37,139
+25,207
+0
+0
+138,101
+142,930
+Oklahoma
+204,286
+214,993
+-5.0%
+156,446
+164,739
+43,908
+46,350
+0
+0
+3,932
+3,904
+Texas
+1,482,556
+1,674,868
+-11%
+306,713
+418,629
+896,899
+967,436
+0
+0
+278,945
+288,803
+Mountain
+686,537
+597,845
+15%
+581,722
+483,696
+104,518
+113,929
+0
+0
+297
+220
+Arizona
+267,884
+258,010
+3.8%
+190,922
+185,842
+76,962
+72,168
+0
+0
+0
+0
+Colorado
+101,607
+88,452
+15%
+91,012
+69,549
+10,595
+18,903
+0
+0
+0
+0
+Idaho
+7,942
+21,697
+-63%
+7,942
+14,741
+0
+6,955
+0
+0
+0
+0
+Montana
+4,765
+5,390
+-12%
+4,765
+5,383
+0
+7
+0
+0
+0
+0
+Nevada
+135,215
+106,725
+27%
+135,215
+106,725
+0
+0
+0
+0
+0
+0
+New Mexico
+56,574
+49,468
+14%
+39,624
+33,577
+16,950
+15,891
+0
+0
+0
+0
+Utah
+68,088
+44,770
+52%
+67,791
+44,549
+0
+0
+0
+0
+297
+220
+Wyoming
+44,461
+23,336
+91%
+44,451
+23,330
+10
+5
+0
+0
+0
+0
+Pacific Contiguous
+339,148
+449,136
+-24%
+129,637
+205,255
+191,930
+226,911
+0
+0
+17,581
+16,971
+California
+248,196
+282,128
+-12%
+88,237
+100,789
+142,378
+164,369
+0
+0
+17,581
+16,971
+Oregon
+69,417
+102,602
+-32%
+24,952
+63,183
+44,465
+39,419
+0
+0
+0
+0
+Washington
+21,534
+64,406
+-67%
+16,448
+41,283
+5,087
+23,123
+0
+0
+0
+0
+Pacific Noncontiguous
+21
+7,498
+-100%
+21
+7,498
+0
+0
+0
+0
+0
+0
+Alaska
+21
+7,498
+-100%
+21
+7,498
+0
+0
+0
+0
+0
+0
+Hawaii
+0
+0
+--
+0
+0
+0
+0
+0
+0
+0
+0
+U.S. Total
+8,481,503
+9,015,884
+-5.9%
+4,338,759
+4,617,170
+3,628,504
+3,861,967
+5,637
+5,590
+508,603
+531,157
+NM = Not meaningful due to large relative standard error or excessive percentage change.
+W = Withheld to avoid disclosure of individual company data.
+Notes:
+See Glossary for definitions. Values for 2025 are final. Values for 2026 are preliminary. See Technical Notes for a discussion of the sample design for the Form EIA-923.
+Totals may not equal sum of components because of independent rounding. Percentage change is calculated before rounding.
+Source: U.S. Energy Information Administration, Form EIA-923, "Power Plant Operations Report."
+Statistics
+Analysis
+Tools
+Education
+News
+Petroleum & Other Liquids
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+Natural Gas
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+Electricity
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+Coal
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+Nuclear & Uranium
+Uranium fuel, nuclear reactors, generation, spent fuel.
+Renewable & Alternative Fuels
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Total Energy
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+Monthly Energy Review
+Annual Energy Review
+Consumption & Efficiency
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+Residential Energy Consumption Survey (RECS)
+Commercial Buildings Energy Consumption Survey (CBECS)
+Manufacturing Energy Consumption Survey (MECS)
+U.S. States
+State energy information, including overviews, rankings, data, and analyses.
+State Energy Data System (SEDS)
+International
+International energy information, including overviews, rankings, data, and analyses.
+International Energy Statistics
+Environment
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+U.S. Energy-Related Carbon Dioxide Emissions
+Energy-Related Carbon Dioxide Emissions at the State Level, 2005-2016
+Energy-Related Carbon Dioxide Emissions at the State Level
+Analysis and Projections
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+Short-Term Energy Outlook
+Annual Energy Outlook
+Special Reports
+Special market analysis and/or data requests.
+EIA-112 Residential Utility Disconnections
+SHIP Act
+Energy & Financial Markets: What Drives Crude Oil Prices?
+International
+International energy analyses.
+Regional Analysis Briefs
+Country Analysis Briefs
+World Oil Transit Chokepoints
+OPEC Revenue
+Global Energy Security Data
+Glossary
+Data Tools, Apps, & Maps
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+Open Data
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+EIA Beta
+Come test out some of the products still in development and let us know what you think!
+Open Source Code
+EIA's open source code, available on GitHub.
+All Reports & Products
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Email Updates
+Sign up for email subscriptions to receive messages about specific EIA products
+RSS Feeds
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+Follow us. . .
+A-Z Index
+A |
+B |
+C |
+D |
+E |
+F |
+G |
+H |
+I |
+J |
+K |
+L |
+M |
+N |
+O |
+P |
+Q |
+R |
+S |
+T |
+U |
+V |
+W |
+XYZ
+Today in Energy
+Short, timely articles with graphics on energy, facts, issues, and trends.
+Energy Explained
+What is Energy?
+Units & Calculators
+U.S. Energy Facts
+Use of Energy
+Energy & Environment
+Petroleum
+Hydrocarbon Gas Liquids
+Natural Gas
+Coal
+Nuclear
+Electricity
+Hydrogen
+Hydropower
+Biofuels
+Biomass
+Wind
+Geothermal
+Solar
+For Teachers
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+Glossary
+FAQs
+Coal
+Conversion & Equivalents
+Oil/Petroleum
+Diesel
+Electricity
+Environment
+Gasoline
+General Energy
+Natural Gas
+Nuclear
+Prices
+Renewables
+What's New?
+Monthly Densified Biomass Fuel Report
+Nov 12, 2026
+Wholesale Electricity Market Data
+Nov 12, 2026
+Short-Term Energy Outlook
+Nov 10, 2026
+Press Room
+Press Releases
+Congressional Testimony
+Presentations
+Events

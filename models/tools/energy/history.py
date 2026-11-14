@@ -59,10 +59,12 @@ def inputs():
     return rows
 
 
-def run():
+def run(over=None):
+    """over: world settings to apply in every year (the energy model passes its fuel spread and 2025 calibration)."""
     rows = inputs()
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as fh:
         for r in rows:
+            r["world"].update(over or {})
             r["S"]["nuc"] = r.pop("nuclear_twh") / (0.92 * 8.76)        # the engine's nuclear capacity factor, so its nuclear output is the measured one
         json.dump(rows, fh)
     try:

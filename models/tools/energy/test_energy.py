@@ -99,13 +99,47 @@ ok("history: measured 2025 coal + gas power CO2 near 1,460 Mt", 1400 < sum(co2[2
 H = run.history.run()
 ok("history: runs 11 years, total fossil generation within 2% of measured each year",
    len(H) == 11 and all(abs((h["model_coal_twh"] + h["model_gas_twh"]) / (h["measured_coal_twh"] + h["measured_gas_twh"]) - 1) < 0.02 for h in H))
-ok("HI-1 is computed, not pending", B["HI-1"]["result"] in ("pass", "fail"), B["HI-1"]["model"])
+ok("HI-1 is computed, not pending", B["HI-1"]["result"].split(" ")[0] in ("pass", "fail"), B["HI-1"]["model"])
+
+# --- the regional fuel price spread: traced to EIA's state tables; the 2025 calibration holds with it
+sp = data.fuel_spread()
+ctab = data._state_col(data.FUEL_SPREAD_SRC["coal"][0])
+ok("fuel spread: Nebraska's and Virginia's 2025 coal prices read from the saved EIA table", ctab.get("Nebraska") == 1.29 and ctab.get("Virginia") == 4.54, str((ctab.get("Nebraska"), ctab.get("Virginia"))))
+ok("fuel spread: coal 20-40% and gas 10-30% of the average price, and the model uses it", 0.2 <= sp["coal"] <= 0.4 and 0.1 <= sp["gas"] <= 0.3 and all(abs(m.WORLD["fuelSpread"][k] - sp[k] * m.a("fuel_spread_mult")) < 1e-3 for k in sp), str(sp))
+cal = json.loads(subprocess.run(["node", "-e", """
+const M = require(process.argv[1]); const w = Object.assign(M.world(), JSON.parse(process.argv[2])); const r = M.simulate({ permitYear: null }, w)[0];
+console.log(JSON.stringify({ coal: r.gen.coal, power: r.power }));""", os.path.join(HERE, "engine", "cfd-model.js"),
+    json.dumps({k: m.WORLD[k] for k in ("fuelSpread", "coalVom", "emCal")})], capture_output=True, text=True).stdout)
+ok("2025 calibration with the spread: coal output 750 TWh and power CO2 1,485 Mt, within 0.5%", abs(cal["coal"] / 749.8 - 1) < 0.005 and abs(cal["power"] / 1484.6 - 1) < 0.005, f"{cal['coal']:.0f} TWh, {cal['power']:.0f} Mt")
+ok("HI-1: the spread narrows the history gap against one national price", B["HI-1"]["result"].startswith("pass") or float(B["HI-1"]["model"].split("average gap ")[1].split("%")[0]) < 9.1, B["HI-1"]["model"])
+
+# --- the power credits follow the decided step-down (CLI-1A.02), not the IRA's emissions trigger
+step = json.loads(subprocess.run(["node", "-e", """
+const M = require(process.argv[1]); const sched = JSON.parse(process.argv[2]); const pol = { permitYear: null, credits: true };
+const on = M.simulate(pol, Object.assign(M.world(), { crPowSched: sched })), trig = M.simulate(pol, M.world());
+const cr = rows => Object.fromEntries(rows.filter(r => r.year >= 2034 && r.year <= 2042).map(r => [r.year, r.credits]));
+console.log(JSON.stringify({ on: cr(on), trig: cr(trig) }));""", os.path.join(HERE, "engine", "cfd-model.js"), json.dumps(m.WORLD["crPowSched"])], capture_output=True, text=True).stdout)
+ok("power credits: the model uses CLI-1A.02's dates (full through 2034, 60% through 2037, storage through 2039)",
+   m.WORLD["crPowSched"] == {"full": 2034, "part": 0.6, "partEnd": 2037, "firm": 2039}, str(m.WORLD["crPowSched"]))
+ok("power credits: the decided step-down costs less in 2036-39 than the trigger rule", sum(step["on"][str(y)] for y in range(2036, 2040)) < sum(step["trig"][str(y)] for y in range(2036, 2040)),
+   f"{sum(step['on'][str(y)] for y in range(2036, 2040)):.0f} vs {sum(step['trig'][str(y)] for y in range(2036, 2040)):.0f} $B")
+ret = json.loads(subprocess.run(["node", "-e", """
+const M = require(process.argv[1]); const w = Object.assign(M.world(), JSON.parse(process.argv[2]));
+const rows = M.simulate({ permitYear: null, credits: true, ces: { start: 2030, target: 0.8, year: 2035, target2: 1.0, year2: 2040 } }, w);
+console.log(JSON.stringify(rows.filter(r => r.year >= 2030).map(r => r.retail)));""", os.path.join(HERE, "engine", "cfd-model.js"),
+    json.dumps({k: m.WORLD[k] for k in ("fuelSpread", "coalVom", "emCal", "crPhase", "crPowSched", "retailNetCredits", "retailAcp")})], capture_output=True, text=True).stdout)
+ok("retail price moves under 0.75 cents in any one year (no credit cliff)", max(abs(b - a) for a, b in zip(ret, ret[1:])) < 0.75, f"largest step {max(abs(b - a) for a, b in zip(ret, ret[1:])):.2f}")
 
 # --- Espen's EPS runs of the plan's settings (EP-1, EP-2)
 ep = data.eps_p2050()
 ok("EPS runs: both runs start at the current-policies 2025 total", ep["run1_price"][2025] == ep["run2_package"][2025] == data.eps_runs()["current_policies"][2025])
 ok("EPS runs: the package cuts more than the price alone from 2030", all(ep["run2_package"][y] < ep["run1_price"][y] for y in range(2030, 2051)))
 ok("EP-1 and EP-2 are reported", B["EP-1"]["result"] == B["EP-2"]["result"] == "reported")
+eg = data.eps_generation()
+ok("EPS generation: three runs, 2025-2050, the same 2025 total", sorted(eg) == ["current_policies", "run1_price", "run2_package"] and all(len(eg[r]) == 26 for r in eg)
+   and abs(eg["run1_price"][2025]["total"] - eg["current_policies"][2025]["total"]) < 0.01)
+ok("EPS generation: types add up to the total", all(abs(sum(v for k, v in eg[r][y].items() if k != "total") - eg[r][y]["total"]) < 0.05 for r in eg for y in eg[r]))
+ok("EP-3 is reported", B["EP-3"]["result"] == "reported", B["EP-3"]["model"][:60])
 
 print(f"{len(fails)} FAILED: {fails}" if fails else "energy model: all passed")
 sys.exit(1 if fails else 0)

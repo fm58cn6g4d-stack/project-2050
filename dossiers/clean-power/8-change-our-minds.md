@@ -15,7 +15,7 @@ Role: section 8 of the clean power dossier. For each decided choice, the finding
 | Contracts for difference | Memo 2 part 2 A | Contract costs per ton far above the carbon price path, or bidders far fewer than the plants due for rebuild | Memo 2 part 2 B, credits only, with Buy Clean kept |
 | 80% clean by 2035, 100% by 2040 | Memo 3 part 1 B | Suppliers at the payment cap for three years running because the grid cannot connect projects [EV-CLP-708] | Keep 2040, move the 2035 step later (CLI-3B's 80% by 2040 for the interim), and put the payments into transmission |
 | | | The capped payment raising bills more than the bill protection returns | Lower the cap; Espen's |
-| | | The 2040 target missed by more than five points with suppliers at the cap (the energy model expects about 12) | Put part of the payments into transmission, which is the limit; or move the 100% date; Espen's |
+| | | The 2040 target missed by more than five points with suppliers at the cap (the energy model expects about 13) | Put part of the payments into transmission, which is the limit; or move the 100% date; Espen's |
 | The finding and the numbers in statute | Memo 3 part 2 A | The D.C. Circuit restoring the 2009 finding before 2029 [EV-CLP-243] | Keep the statute; the restored finding is a floor, not a substitute |
 | The grid and the builder of last resort | Memo 4 part 1 B; `DEC-2026-11-13-10` | The first windows (about 2032) showing the competitive-cost test lets no line reach the federal builder, or lets too many | Loosen or tighten the trigger and the test; the standby role stays |
 | | | The second tranche's milestones missed | The money stays unspent; that is the gate's purpose |
