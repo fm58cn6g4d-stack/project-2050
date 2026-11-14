@@ -47,7 +47,7 @@
    "group": "Accounting identities",
    "name": "The program's added debt grows by exactly its added deficit (spending, revenue and interest)",
    "status": "pass",
-   "value": 3.2741809263825417e-11,
+   "value": 3.456079866737127e-11,
    "target": 0.0,
    "tolerance": "$1,000 (1e-6 billion)",
    "unit": "$B, largest gap",

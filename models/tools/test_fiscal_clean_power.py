@@ -8,9 +8,8 @@ standard library only, plus the dossier's own path script through clean_power_bo
   (+$43.0B over FY2030-39 and -$51.6B in FY2040, part 1), plus the offset on the standard's payments, the one
   line section 6 left to the booking (about $38B and $10B);
 - memo 1 B's REV-C1 is about $1.20T, CLI-2 stays 80% of it, and the dividend and the fee stay off the general fund;
-- the standard's payments go to the grid account (memo 9 B, DEC-2026-11-13-14): it funds CLI-10's milestone releases
-  (already booked) and a small remainder (CLI-3A, never more than each year's payments), and the rest stay as receipts;
-  JCT's offset applies to all of them (CXA);
+- the standard's payments are all general-fund receipts (DEC-2026-11-14-02): CLI-3A pays out nothing, and JCT's
+  offset applies to them (CXA);
 - the transition share is general-fund revenue only from FY2040 (C1T, DEC-2026-11-13-13).
 """
 import csv
@@ -84,14 +83,14 @@ class CleanPowerBooking(unittest.TestCase):
         self.assertAlmostEqual(self.b["ledger"]["CLI-2"][1] - 0.8 * c1, 1.5311296000407166 - 0.8 * 1.9, places=4)
         self.assertEqual(self.b["revenue"]["CX"][1], round(-0.244 * (c1 + 0.03 + 0.022), 3))
 
-    def test_the_grid_account_keeps_the_rest_as_receipts(self):
+    def test_the_payments_are_general_fund_receipts(self):
         t = self.b["totals"]
         for y in list(W) + [2040]:
-            paid, spent = -self.gf("C3A", y), self.gf("CLI-3A", y)
-            self.assertGreaterEqual(paid + 1e-9, spent + self.gf("CLI-10", y), msg=y)   # the account never outspends the payments
+            paid = -self.gf("C3A", y)
+            self.assertEqual(self.gf("CLI-3A", y), 0.0, msg=y)                    # CLI-3A pays out nothing
             self.assertAlmostEqual(self.gf("CXA", y), 0.244 * paid, delta=0.05, msg=y)
-        self.assertAlmostEqual(t["acp_kept_window"], 0.158, places=3)
-        self.assertAlmostEqual(t["account_window"], 0.005, places=3)
+        self.assertEqual(self.b["ledger"]["CLI-3A"], (0.0, 0.0, 0.0))
+        self.assertAlmostEqual(t["acp_kept_window"], self.b["revenue"]["C3A"][1], places=6)   # receipts equal the payments
 
     def test_transition_share_from_fy2040_only(self):
         self.assertEqual([self.gf("C1T", y) for y in W], [0.0] * 10)

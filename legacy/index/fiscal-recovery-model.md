@@ -61,18 +61,18 @@ Delaying C19b/C20 to a three-year 2033–35 phase-in forgoes $0.360T; these rece
 
 | Case | GF primary 2030–39 ($T) | Extra net receipts needed at maturity (% GDP) | FY2040 GF gap ($B) | Total debt/GDP 2056 | FY2056 extra primary adjustment for flat debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Education reference | 23.204 | 9.242% | 4264.9 | 364.1% | 13.05% GDP |
-| Recovery: delay C19b/C20 | 23.564 | 9.242% | 4264.9 | 365.1% | 13.06% GDP |
-| Recovery downside | 24.804 | 9.551% | 4420.3 | 373.7% | 13.43% GDP |
-| Recovery plus housing/service space | 24.065 | 9.423% | 4367.4 | 369.6% | 13.27% GDP |
-| Recovery plus housing/service space downside | 25.305 | 9.732% | 4522.7 | 378.2% | 13.64% GDP |
-| Replace C19b/C20 plus housing/service space downside | 25.778 | 9.900% | 4606.7 | 382.3% | 13.84% GDP |
+| Education reference | 23.199 | 9.241% | 4264.2 | 364.0% | 13.05% GDP |
+| Recovery: delay C19b/C20 | 23.559 | 9.241% | 4264.2 | 365.0% | 13.06% GDP |
+| Recovery downside | 24.799 | 9.550% | 4419.6 | 373.6% | 13.43% GDP |
+| Recovery plus housing/service space | 24.060 | 9.422% | 4366.7 | 369.6% | 13.27% GDP |
+| Recovery plus housing/service space downside | 25.300 | 9.731% | 4522.0 | 378.2% | 13.64% GDP |
+| Replace C19b/C20 plus housing/service space downside | 25.773 | 9.899% | 4606.1 | 382.2% | 13.83% GDP |
 
 | Case | Additional net resources phased 2035–44 (% GDP at maturity) | Debt/GDP 2056 after illustrative adjustment |
 | --- | ---: | ---: |
 | Education reference | 11.53% | 148.1% |
-| Recovery: delay C19b/C20 | 11.54% | 149.0% |
-| Recovery downside | 11.86% | 151.6% |
+| Recovery: delay C19b/C20 | 11.53% | 149.0% |
+| Recovery downside | 11.86% | 151.5% |
 | Recovery plus housing/service space | 11.72% | 150.1% |
 | Recovery plus housing/service space downside | 12.05% | 152.6% |
 | Replace C19b/C20 plus housing/service space downside | 12.22% | 153.4% |

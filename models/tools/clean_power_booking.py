@@ -22,12 +22,10 @@ What is booked (central path, $ billion by federal fiscal year; a cost positive)
 - Memo 7 B: CLI-11, the transition guarantee, on the energy model's closure timing.
 - DEC-2026-11-13-13 (option A): from FY2040 the 20% transition share is general-fund revenue (C1T); its waterfall's
   draws are CLI-5H and CLI-11, booked on the general fund.
-- The clean standard's capped payments (CLI-3A.02; memo 9 B, DEC-2026-11-13-14): Treasury's receipts (C3A) and JCT's
-  24.4% offset on them (CXA), since the payment is a new fee (DEC-2026-11-12-08, part 4). The payments go to a grid
-  account sized each year to ready-to-build transmission, not to bill protection and the bill credit. The account
-  first funds the second tranche's milestone releases, already booked in CLI-10, so those draws add nothing; CLI-3A is
-  what it spends beyond them (siting grants and the equipment reserve's net cost: a working assumption,
-  ACCOUNT_NEW_USES), capped by each year's payments. Everything else is general-fund receipts.
+- The clean standard's capped payments (CLI-3A.02; DEC-2026-11-14-02, amending memo 9 B): Treasury's receipts (C3A)
+  and JCT's 24.4% offset on them (CXA), since the payment is a new fee (DEC-2026-11-12-08, part 4). All of the
+  payments are general-fund receipts: CLI-3A pays out nothing (no bill top-up, no grid account), and grid build-out
+  is CLI-10's, from the general fund.
 """
 import csv
 import importlib.util
@@ -46,10 +44,6 @@ CLI5_LEGACY_GF = 0.168     # climate-adoption.json legacy_gf_tn before this book
 ACP_PERMIT_WINDOW = None   # read from results.json (the decided set with the permitting package): the low end
 GRID2_RANGE = (0.0, 0.08)  # 6-cost.md part 5
 GUARANTEE_RANGE = (0.006, 0.040)
-# Memo 9 B: the grid account's uses beyond CLI-10's milestone draws, $ billion a year in FY2026 dollars from the first
-# year of payments, grown with the CPI (working assumption, 6-cost.md part 6, 6a: a siting-grant program the size of
-# IRA section 50152's and the net cost of a pooled equipment reserve; low, central, high)
-ACCOUNT_NEW_USES = (0.25, 0.5, 1.5)
 
 
 def _load(name, path):
@@ -170,28 +164,20 @@ def booking():
     low = r(permit / 1000, 3)
     revenue["C3A"] = (low, mid, mid)
     revenue["CXA"] = (r(-OFFSET * mid), r(-OFFSET * mid), r(-OFFSET * low))
-    # Memo 9 B: the grid account. Its draws for CLI-10's milestones are already booked there; CLI-3A is its spending
-    # beyond them, capped by what is left of each year's payments; the rest stays as receipts
-    cpi = F.growth_index(B, "cpi")
-    def account(level):
-        return {y: (min(level * cpi[y] / cpi[2026], max(0.0, acp[y] - P["grid2"].get(y, 0.0))) if acp[y] > 0 else 0.0)
-                for y in FY}
-    acct = {k: account(v) for k, v in zip(("lo", "mid", "hi"), ACCOUNT_NEW_USES)}
-    years["CLI-3A"] = window(acct["mid"])
-    perms["CLI-3A"] = perm_for(F, B, acct["mid"][2039], acct["mid"][2040], "gdp")
-    ledger["CLI-3A"] = tuple(r(sum(acct[k][y] for y in W) / 1000, 3) for k in ("lo", "mid", "hi"))
-    kept = {y: acp[y] - acct["mid"][y] for y in FY}
+    # DEC-2026-11-14-02: CLI-3A pays out nothing; every payment stays as a general-fund receipt
+    years["CLI-3A"] = [0.0] * len(W)
+    perms["CLI-3A"] = 0.0
+    ledger["CLI-3A"] = (0.0, 0.0, 0.0)
+    kept = {y: acp[y] for y in FY}
 
     tn = lambda d: sum(d.get(y, 0.0) for y in W) / 1000  # noqa: E731
     totals = dict(change_window=tn(P["change"]), change_fy2040=P["change"][2040],
                   acp_offset_window=OFFSET * mid, acp_offset_fy2040=OFFSET * acp[2040],
-                  acp_kept_window=mid - ledger["CLI-3A"][1], acp_kept_fy2040=kept[2040],
-                  account_window=ledger["CLI-3A"][1], account_fy2040=acct["mid"][2040],
-                  account_cli10_window=tn(P["grid2"]),
+                  acp_kept_window=mid, acp_kept_fy2040=kept[2040],
                   c1_window=c1[1], cx_window=revenue["CX"][1], transition_fy2040=P["ts"][2040])
     fy2040 = dict(CX=cx[2040], **{"CLI-5": base[2040] + delta[2040]}, **{"CLI-10": 0.0},
                   **{"CLI-5H": P["bills"][2040], "CLI-11": P["g7"][2040], "C1T": P["ts"][2040],
-                     "C3A": acp[2040], "CLI-3A": acct["mid"][2040], "CXA": -OFFSET * acp[2040]})
+                     "C3A": acp[2040], "CLI-3A": 0.0, "CXA": -OFFSET * acp[2040]})
     return dict(years=years, after=after, perms=perms, ledger=ledger, revenue=revenue,
                 legacy_gf_cli5=legacy_gf, fy2040=fy2040, totals=totals)
 
