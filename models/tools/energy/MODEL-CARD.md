@@ -38,6 +38,7 @@ It cannot answer, by design (`survey.md`, 4.5):
 - `sectorPrice`, memo 1 B's coverage. The share of the fee each sector's fuel pays directly: buildings 0, non-road transport 0, industry at its covered share.
 - `heatStd`, the clean-heat standard (CLI-4H.01). A soft floor on heat pumps' share of heating-equipment sales, like the vehicle standards.
 - `retailNetCredits`. Nets the power credits out of the cost passed to retail prices. Without it the engine charged ratepayers the full capital cost of credited plants, and restoring credits appeared to raise prices (BI-1 caught this).
+- `retailAcp`. Adds the clean standard's capped payments, which suppliers pay to Treasury, to the cost passed to retail prices. Credit trades between plants net out inside the sector either way. Clean power's re-review found the gap (R-2, `dossiers/clean-power/review-m4.md`).
 - `feeHeat` on each row, so the household module charges home heating only when buildings are priced.
 
 ## Evidence map

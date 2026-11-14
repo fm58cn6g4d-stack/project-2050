@@ -70,7 +70,7 @@ MEMO1B = {"buildings": 0, "industry": a("ind_cover"), "nonroad": 0}             
 CES = {"start": P["ces_start"], "target": P["ces_target"], "year": P["ces_year"], "target2": a("ces_target2"), "year2": int(a("ces_year2"))}
 HEAT = {"start": int(a("heat_std_start")), "share": a("heat_std_share"), "step": a("heat_std_step")}
 WORLD = {"cesAcp": P["ces_acp"], "gsTx": P["grid_statute_tx"], "wxHomes": P["weatherize_homes_m"],
-         "crYears": int(a("credit_years")), "crVehYears": int(a("vehicle_credit_years")), "retailNetCredits": True,
+         "crYears": int(a("credit_years")), "crVehYears": int(a("vehicle_credit_years")), "retailNetCredits": True, "retailAcp": True,
          "gpTx": 0.8 * a("grid_standby_scale"), "gpRecon": 15 * a("grid_standby_scale"), "gpCurt": 0.05 * a("grid_standby_scale"), "gpCost": 12 * a("grid_standby_scale")}  # the standby builder: the engine's grid program, scaled
 
 

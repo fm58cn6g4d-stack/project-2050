@@ -17,7 +17,7 @@ SCC_2020 = {2030: 230, 2040: 270, 2050: 310}   # EPA 2023 (SRC-5006), SC-CO2 at 
 TCRE = (0.27, 0.45, 0.63)                      # IPCC AR6 WG1 SPM D.1.1 (SRC-5037), deg C per 1,000 Gt CO2
 
 
-LEGACY_WORLD = {"crYears": 10, "crVehYears": None, "retailNetCredits": False}   # undo this model's world settings: carbon-model.py runs the defaults
+LEGACY_WORLD = {"crYears": 10, "crVehYears": None, "retailNetCredits": False, "retailAcp": False}   # undo this model's world settings: carbon-model.py runs the defaults
 
 
 def bench_cases():
