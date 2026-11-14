@@ -244,7 +244,7 @@ def main():
     ACC = {cid: m.accounts(rows) for cid, rows in R["cases"].items()}
     labels = {c["id"]: c["label"] for c in cfg["cases"]}
     L, O = m.scenarios()
-    layers, options = [c[0] for c in L], [c[0] for c in O] + ["cl_permit", "decided_permit"]
+    layers, options = [c[0] for c in L], [c[0] for c in O] + ["cl_permit", "decided_permit", "permit_bld_hi"]
     B = benchmarks(E, ACC, R["households"])
     HIST = next(b["_history"] for b in B if "_history" in b)
     MONTHLY = next(b["_monthly"] for b in B if "_history" in b)
@@ -401,10 +401,10 @@ def report(res, E, ACC, layers, options, labels):
     w("| Case | Started by 2040 | Online 2040 | Online 2050 | Captured 2050 | Below 2005, 2035 / 2050 | 45Q on retrofits, 2030-39 / 2040-49 | 45Q on other capture, 2030-39 / 2040-49 |")
     w("| --- | --- | --- | --- | --- | --- | --- | --- |")
     q = lambda e, k, a, b: sum(e[y][k] for y in range(a, b + 1))
-    for cid in ("decided", "retro1", "retro1_stack", "retro_hi", "retro_hi_stack"):
+    for cid in ("decided", "retro1", "retro1_stack", "retro1_rcredit", "retro_hi", "retro_hi_stack", "retro_hi_rcredit"):
         e = E[cid]
         w(f"| {labels[cid].replace('Sensitivity: ', '')} | {e[2040]['retroStarted']:.0f} | {e[2040]['retroCoal']:.0f} / {e[2040]['retroGas']:.0f} | {e[2050]['retroCoal']:.0f} / {e[2050]['retroGas']:.0f} | {e[2050]['retroCapt']:.0f} | {100 * e[2035]['below2005']:.0f}% / {100 * e[2050]['below2005']:.0f}% | {q(e, 'retroQ45', 2030, 2039):.1f} / {q(e, 'retroQ45', 2040, 2049):.1f} | {q(e, 'q45Other', 2030, 2039):.0f} / {q(e, 'q45Other', 2040, 2049):.0f} |")
-    w("\n45Q in 2025 $ billion, calendar years. Retrofits' 45Q is in the engine's credits; 45Q on new capture plants and industrial capture is reported only (the ledger books current-law 45Q outside this model). \"Stacking\" (`q45Stack`) pays 45Q on top of the carbon price a stored ton avoids; the other runs pay the larger of the two, the engine's default. A coal unit with a retrofit under way is not retired if the retrofit will meet the power plant standard (capture of at least 90%, CLI-4R.01); at 75% capture in operation it cannot, so under the standard no coal retrofit starts.\n")
+    w("\n45Q in 2025 $ billion, calendar years. Retrofits' 45Q is in the engine's credits; 45Q on new capture plants and industrial capture is reported only (the ledger books current-law 45Q outside this model). \"Stacking\" (`q45Stack`) pays 45Q on top of the carbon price a stored ton avoids; \"Retrofit credit\" (`q45Stack` \"retro\") stacks for retrofits begun by 2039 only. The other runs pay the larger of the two, the engine's default. A coal unit with a retrofit under way is not retired if the retrofit will meet the power plant standard (capture of at least 90%, CLI-4R.01); at 75% capture in operation it cannot, so under the standard no coal retrofit starts.\n")
     w("\n**HI-2, month by month** (gap between the engine's and EIA's measured coal and gas power CO2, %; the gas-to-coal price ratio in brackets):\n")
     w("| Year | " + " | ".join(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]) + " |")
     w("| --- |" + " --- |" * 12)

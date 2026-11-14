@@ -132,6 +132,8 @@ def scenarios(permit=None):
             ("ces_cap20", "Named run for clean power's design test: the clean standard's payment cap at $20/MWh (2025 dollars; decided $40)", dict(decided, cesAcp=20.0), PRICE),
             ("ces_cap60", "Named run for clean power's design test: the clean standard's payment cap at $60/MWh", dict(decided, cesAcp=60.0), PRICE),
             ("retro_hi", "Sensitivity: the decided set with retrofits at design capture (90%) and twice the yearly rate and ceiling (scale 2)", dict(decided, retroScale=2.0, retroCapture=A["ccs_retrofit_capture"]["high"]), PRICE),
+            ("retro1_rcredit", "Sensitivity: a retrofit credit (memo 8): 45Q on top of the carbon price for retrofits begun by 2039 only, the larger of the two elsewhere; research-based limits (scale 1)", dict(decided, retroScale=1.0, q45Stack="retro", retroQ45By=2039), PRICE),
+            ("retro_hi_rcredit", "Sensitivity: the retrofit credit at design capture (90%) and scale 2", dict(decided, retroScale=2.0, retroCapture=A["ccs_retrofit_capture"]["high"], q45Stack="retro", retroQ45By=2039), PRICE),
             ("retro_hi_stack", "Sensitivity: retrofits at design capture and scale 2, with 45Q stacking on the carbon price (memo 8)", dict(decided, retroScale=2.0, retroCapture=A["ccs_retrofit_capture"]["high"], q45Stack=True), PRICE)]
     return L, opts
 
@@ -146,17 +148,19 @@ def config():
             out["world"] = {"gpTx": 0.8 * k, "gpRecon": 15 * k, "gpCurt": 0.05 * k, "gpCost": 12 * k}
         st, acp = p.pop("q45Stack", None), p.pop("cesAcp", None)
         if st:
-            out.setdefault("world", {})["q45Stack"] = True
+            out.setdefault("world", {})["q45Stack"] = st
         if acp is not None:
             out.setdefault("world", {})["cesAcp"] = acp
-        r, rc = p.pop("retroScale", None), p.pop("retroCapture", None)
+        r, rc, qb = p.pop("retroScale", None), p.pop("retroCapture", None), p.pop("retroQ45By", None)
         if r is not None:
-            out.setdefault("world", {})["retro"] = dict(retro(r), **({"capture": rc} if rc else {}))
+            out.setdefault("world", {})["retro"] = dict(retro(r), **({"capture": rc} if rc else {}), **({"q45By": qb} if qb else {}))
         return out
     cases = [case(*x) for x in L + O]
     LP, _ = scenarios(permit=int(a("permit_year_sensitivity")))
     cases += [dict(id="cl_permit", label="Sensitivity: 2029 current law with the 2026-28 permitting package enacted", policy=LP[0][2], price=None),
-              dict(id="decided_permit", label="Sensitivity: the decided set with the permitting package", policy=LP[-1][2], price=PRICE)]
+              dict(id="decided_permit", label="Sensitivity: the decided set with the permitting package", policy=LP[-1][2], price=PRICE),
+              dict(id="permit_bld_hi", label="Named run for clean power's design test: the permitting package with a builder everywhere (memo 4 option A, the full grid program)", policy=LP[-1][2], price=PRICE,
+                   world={"gpTx": 0.8, "gpRecon": 15, "gpCurt": 0.05, "gpCost": 12})]
     for c in cases:
         if c["id"] == "decided":
             c["mc"] = True
