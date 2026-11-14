@@ -2,17 +2,18 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6): who is working, what is in motion, where each dossier stands, what comes next, known gaps and open questions for Espen. Only the lead edits it, folding in the "For the board" notes from workers' PRs (`DEC-2026-11-12-03`). Status: current. It holds no history: finished work is in Git and the PRs, decisions are in `charter/decisions.md`, and rules are in `charter/STANDARDS.md`.
 
-Updated November 14, 2026 (about 02:25 UTC) by the lead, session_01UQzgBuP5ZGwT3KENpUcuNd.
+Updated November 14, 2026 (about 08:40 UTC) by the outgoing lead, session_01UQzgBuP5ZGwT3KENpUcuNd, for the lead handoff.
 
 ## Standing sessions
 
 | Role | Session | Title | Since |
 | --- | --- | --- | --- |
-| Lead | `session_01UQzgBuP5ZGwT3KENpUcuNd` | Project 2050: lead | November 13, about 23:16 UTC |
+| Lead | `session_01UQzgBuP5ZGwT3KENpUcuNd` (handing over; the new lead adds itself) | Project 2050: lead | November 13, about 23:16 UTC |
 | Reviewer | `session_01UQzgBxNwxtd5koUq9phZwU` | Project 2050: reviewer | November 13, about 12:09 UTC; woken every three hours at :32 by the scheduled task `trig_019mwEJpZ4HeKBduzE2dM1ae` (older reviewer tasks are disabled) |
 | Strategy | `session_01UQzgBuA3EdnR7Dx4kUq1un` | Project 2050: strategy and systems | October 27 |
 
 **Former standing sessions** (the most recent; earlier ones are in this file's Git history):
+- Lead `session_01UQzgBuP5ZGwT3KENpUcuNd`: the handoff and #335 merged; E-C2, the rebookings, M4 (energy and climate model, two sessions), clean power's milestone review, re-review on MOD-energy and booking at L3 (#359); Espen's decisions `DEC-2026-11-13-09` to `-15` and memo 8 D (#371, pending); the one-at-a-time merge queue; November 13 to 14.
 - Lead `session_01UQzgBuU8feeYuYt6o6GeGK`: the overnight relay of November 13 (#320 to #334: M3 part 2 finished, M1, the stage E checkpoint memo, immigration's small items, option D), the decision document and Espen's November 13 round (#335, DEC-2026-11-13-04 to -08), two reviewer handovers, E-C2 and the rebookings started; November 13.
 - Lead `session_01UQzgBwNea5uYV7BMBRB3Ha`: the secure floor and immigration bookings to L3 (#304, #310), Espen's decisions DEC-2026-11-12-16 to -19 and DEC-2026-11-13-01 to -02, the care base under option C (#313), the reviewer handover, M2 (#312), clean power E-C1 (#315, #317), M3 parts 1-2 (#318 to #321); November 12 to 13.
 - Reviewer `session_01UQzgBx3GY2ubHn3v5pRWdb`: PRs #323 to #331; November 13 (handed over at about 586,000 tokens).
@@ -23,30 +24,28 @@ Updated November 14, 2026 (about 02:25 UTC) by the lead, session_01UQzgBuP5ZGwT3
 
 ## In motion
 
-- **Open PRs:** this board PR.
-- **Merged November 13-14:** #330, #332 to #341 (the handoff, E-C2, the rebookings, `DEC-2026-11-13-09`); #342 (M4's survey); #343 (board); #344 and #346 (clean power's milestone review and fixes: L2 pass; L3 blockers B-1, B-2, O-1 fixed); #345 (`DEC-2026-11-13-10` to `-12`: the standby builder, tribal nations in the guarantee, re-review on the new model); #347 (MOD-energy, `models/tools/energy/`, status working); #348 (the climate pricing export at 24.4%; Espen's label); #349 and #351 (clean power's re-review on MOD-energy); #350, #352, #355, #356 (M4 follow-ups: standard payments in retail prices, the power history check HI-1 and Espen's two EPS runs, regional fuel prices, credits follow CLI-1A.02's step-down); #353 (`DEC-2026-11-13-13`, the transition share's remainder to the general fund from FY2040; Espen's label); #354 (clean power on `-13`). The reviewer's optional note on #335 stands: DEC-06's "except 14" means the decision document's item 14 (memo 7), not point 14; clarify it when `charter/decisions.md` is next touched in a tier-3 PR.
+**Lead handoff (November 14, about 08:40 UTC)** from `session_01UQzgBuP5ZGwT3KENpUcuNd` (context about 705,000 tokens, past the 600,000 line) to a new lead. Its lineage depth is 5, so Espen (or the strategy session) starts the new lead with the one-line prompt: "You are the new Project 2050 lead: follow the handoff in charter/PROGRESS.md and .claude/skills/sessions/SKILL.md."
+
+- **Merge queue (Espen, November 14: move open PRs through one by one).** Workers were told to push nothing until the lead says it is their turn; they commit locally. Order:
+  1. #371 (tier 3, the decision row for memo 8 D, carbon capture retrofits; author the outgoing lead; the new lead owns it). Approved at `2020eac`, current with main `afd65e6`; **waits only on Espen's label**. Nothing else may move main until it merges.
+  2. #362 (routine; clean power design test and memo 9's decided record; owner `session_01UQzgBwjJYCNKoAtuv3JaqD`). Conflicts with main; changes requested (catalog-facts.csv rewritten by a shallow clone; memo 9 fixes). The worker resolves locally and pushes when told.
+  3. #372 (tier 3; the grid-account booking of memo 9 B; same worker). Changes requested (README status lines). **Before asking Espen for its label, tell Espen plainly** (the reviewer's note): as sized to ready-to-build projects, about $158B over FY2030-39 and $41B in FY2040 of the standard's payments stay as general-fund receipts and little grid is funded beyond CLI-10; the households' $163B top-up is gone; the "up to 1.4 Gt and 0.5 cents" is not bought on this sizing. Clean power falls to about $1.74T and $83B; the plan-wide FY2040 gap to about $4,163.0B. Espen may want to revisit the split.
+  4. M4's branches (owner `session_01UQzgBsvbaeg7scCg7HJbVB`): `claude/m4-followups` (memo 8 marked decided, citing the decision #371 adds; needs #371 merged) and `claude/m4-pr3` (local; a second receipts benchmark against Treasury OTA, passes).
+  After each merge: update the next PR's branch once (GitHub's update or a merge of main), then let it merge. Two tier-3 PRs that both add `charter/decisions.md` rows conflict: resolve by keeping both rows in order, then the reviewer re-approves.
 - **Workers (report to the lead):**
-  - Clean power's booking (tier 3, the L3 close-out), `session_01UQzgButU9bQRw8o2Tq3QvS` (Most capable; it also did the milestone review, fixes and re-review), branch `claude/clean-power-booking`, on `dossiers/clean-power/review-m4.md` "What the booking must use" and `6-cost.md` part 6, with #356's credit figures; it refreshes review-m4.md R-2/R-6, `7-validation.md` and `9-public-case.md` in the same PR. The reviewer does the L3 re-check on it. Then Espen's label.
-  - M4, `session_01UQzgBtLC9XG5ZhhwqzJVwW` (Most capable): parts 1-2 and follow-ups merged; its context was compacted once. Left: the full-engine history check (HI-1 beyond power) before the model leaves "working"; PR-2 (receipts about 26% above CBO's in the first decade, the engine's known lag); `pricing.py`'s "CX, 25%" labels (a tier-3 touch, batch with the next); an optional EPS package comparison if Espen runs it.
-  - Reviewer: see Standing sessions.
-  - Done, Espen may archive: E-C2 `session_01UQzgBwvZTryixNAc6pThNU` (#338, #341); rebookings `session_01UQzgBv5F38Tpd5UjbR3xCf` (#339); M4A financing `session_01UQzgBtSzgtGkdukhQoJaNv` (#334, #336); D `session_01UQzgBtQcZhNsuZ4WPD35B5`; secure floor status `session_01UQzgBtrghrWBbFGS3ZaJNo`; former lead `session_01UQzgBuU8feeYuYt6o6GeGK`; and every session the board listed as done before.
-- **The decision document** (a Claude Doc; the doc id is 881ecff6-a8f3-448b-89c5-ed3312e423ce and the artifact link is https://claude.ai/artifact/HouYTVFgnhsepKsZzoopxD; body node 83add86c-21a5): items 1-30, all answered. Item 1 (#330) is merged. Items 2-28 are merged in #335. Items 29-30 needed no decision. Espen comments there, and the lead answers in the doc's own threads with the Claude Docs connector.
-- **Espen's direction today** (`DEC-2026-11-13-08`, now in `charter/STANDARDS.md`'s design lens): use existing machinery and systems first, and simplify where a system or design is more complex and costly to administer than its purpose needs. Apply it in every brief and review.
-- **Waiting on Espen:** the label on clean power's booking once it is approved and current. Nothing else is open for decision.
-- **A snapshot page of MOD-energy's predictions** for Espen (not a source of record): https://claude.ai/artifact/HtUiL7sspMPqMT8oG33DYp.
-- **Small items for later:**
-  - From #339: `agenda/agenda.csv`'s INC-4 title could name the block grant; `dossiers/secure-floor/3-design.md` point 7 still describes INC-4's earlier scope; `immigration_booking.py`'s non-JSON printout fails with `KeyError: 'CAP-7S'` (`--json` and the tests are fine).
-  - For clean power's booking (from E-C2): the budget treatment of TVA's, Bonneville's and WAPA's added borrowing (the transition share after FY2039 is settled by `DEC-2026-11-13-13`).
-  - The secure floor README table's rows 1-2 still say "Draft (S2)" (#333 left them).
-  - HOU-1, HOU-2 and HOU-3 are parent rows with no provisions, left at L2 (#329). The lead settles them with their children.
-  - E-Verify's Social Security funds line is written up in #328 for a tier-3 change to the funds model.
-  - M3's later items: replicate-weight intervals, the CBO-convention check, moving the budget readers to the measured keys.
-  - The tier-3 cleanups from the legacy move: `merge-policy.json`, `scenarios.json`'s role text, `models/data/inputs/readme.md:43`.
-- **Lead check-in:** a `send_later` safety net every three hours (next about 05:20 UTC November 14). The outgoing lead's `trig_01GVpVXmkRjHBDk6wp48qX5X` is disabled, not deleted.
-- **Labels and decision-log conflicts:** two tier-3 PRs that both add rows to `charter/decisions.md` conflict when the first merges, and the gate drops `espen-approved` from the second when that conflict is resolved. Ask Espen to label such PRs one at a time.
-- **Gate note:** a routine PR can sit "ready, merging now" while main moves under it. GitHub's branch update (or a merge of main) un-sticks it; the approval carries over (#329, November 13).
-- **Codex** access stays suspended; don't reach it with PR comments.
-- **Espen's usage:** keep to three sessions, with lighter models for mechanical work.
+  - Clean power part 2, `session_01UQzgBwjJYCNKoAtuv3JaqD` (Most capable; started 04:50 UTC): memo 9's decided record; a "how transmission actually gets built" section built on the legacy work (domain-climate, SRC-0155/0156/4532, legacy CLI-5, CLI-6D, CLI-10), cited by ID, plus 2026 data and BAAJA's manager's amendment; the CLI-10.03 siting fix (FPA 216 needs a DOE corridor; DOE cancelled all three on August 12, 2026); evidence updates; then #372.
+  - M4 part 2, `session_01UQzgBsvbaeg7scCg7HJbVB` (Most capable; started 04:33 UTC, taking over from `session_01UQzgBtLC9XG5ZhhwqzJVwW`): memo 8 follow-up; PR-3; then a ranked list of new model capabilities, each saying what it implies for clean power (Espen: "continue refining itself and building more utility by being able to analyze more aspects of climate policy"; "incorporate its findings into the clean power dossier ... to back up, interrogate, and design the best climate policy package we can").
+  - Reviewer: `session_01UQzgBxNwxtd5koUq9phZwU`, **context about 520,000 tokens: hand it over first** (the new lead starts the successor; schedule from `trig_019mwEJpZ4HeKBduzE2dM1ae`).
+  - Done, Espen may archive: the first M4 session `session_01UQzgBtLC9XG5ZhhwqzJVwW` (#342 to #361, #364 handed over); clean power's review, booking and design-test session `session_01UQzgButU9bQRw8o2Tq3QvS` (#344, #346, #349, #351, #354, #359); E-C2, the rebookings, M4A, D and secure floor status sessions; former lead `session_01UQzgBuU8feeYuYt6o6GeGK`.
+- **Merged since the last board update:** #357 to #361, #363 to #370 (among them: clean power booked at L3, #359, on option A for the standard's payments offset; `DEC-2026-11-13-14`, memo 9 B with the grid account sized to ready-to-build projects; `DEC-2026-11-13-15`, use all information as evidence, not as a default; M4's CCS retrofit option, design menu and history checks). Plan-wide FY2040 gap: $4,203.9B short after #359.
+- **MOD-energy status:** working. HI-1 (2015-25 power history) fails narrowly, 5.7% against 5%: coal-gas switching too strong, so near-term power cuts and early receipts lean high (disclosed in the booking). A damped coal response is the planned fix. A snapshot page for Espen: https://claude.ai/artifact/HtUiL7sspMPqMT8oG33DYp (not a source of record).
+- **Espen's process notes, November 14:** (1) run one merge queue; workers push only when told. Write this into `.claude/skills/sessions/SKILL.md` in the next tier-3 batch. (2) Use all information as evidence, not as a default (`DEC-2026-11-13-15`, in STANDARDS and the skill); no extra section on each document.
+- **Waiting on Espen:** #371's label; then #372's label after Espen sees the receipts point above.
+- **The decision document** (a Claude Doc; doc id 881ecff6-a8f3-448b-89c5-ed3312e423ce; artifact https://claude.ai/artifact/HouYTVFgnhsepKsZzoopxD; body node 83add86c-21a5): items 1-30, all answered. Espen comments there, and the lead answers in the doc's own threads with the Claude Docs connector.
+- **Small items for later:** `immigration_booking.py`'s non-JSON printout fails with `KeyError: 'CAP-7S'` on main (`--json` and the tests are fine); `agenda/agenda.csv`'s INC-4 title and `dossiers/secure-floor/3-design.md` point 7 still describe INC-4's old scope (`DEC-2026-11-13-04`); a guard in `library/build_catalog.py` against shallow-clone rewrites of catalog-facts.csv; the secure floor README rows 1-2; HOU-1 to HOU-3; E-Verify's funds line; M3's later items; the legacy-move tier-3 cleanups; "CX, 25%" labels in climate-portfolio `pricing.py`; booking D's small cost with #372's change.
+- **Next after the queue:** the settlement checkpoint memo (`dossiers/foundations/checkpoint-financing.md`), now that clean power is booked.
+- **Lead check-in:** the outgoing lead's `send_later` check-ins are disabled at handoff; the new lead sets its own.
+- **Codex** stays suspended. **Espen's usage:** keep to three working sessions, efficient briefs.
 
 ## Next, in order
 
