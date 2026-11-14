@@ -220,7 +220,7 @@ Also:
 2. CLI-5H's start in FY2031 (O-2), and the pot-or-entitlement choice.
 3. The FY2030 price start if B-1's fix moves it.
 4. Forgiveness under the builder's statute (F-3).
-5. Where the booking can use the M4 energy model (`models/tools/energy/`, `DEC-2026-11-13-09`): for the 100%-by-2040 run and memo 1 B's coverage, if M4 has them by then. The booking need not wait for M4: the legacy model's coverage setting (part 6, step 1) is enough.
+5. Where the booking can use the M4 energy model (`models/tools/energy/`, `DEC-2026-11-13-09`): for the 100%-by-2040 run and memo 1 B's coverage, if M4 has them by then. The booking need not wait for M4: the legacy model's coverage setting (part 6, step 1) is enough. *(Superseded by `DEC-2026-11-13-12`: the booking waits for a re-review of the dossier on M4's model, and clean power is booked once, after it.)*
 
 ### W. Weak evidence
 
@@ -297,7 +297,7 @@ Other record points:
 - **Housing.** HOU-12 is the front door.
 - **Care.** The guarantee carries no health benefit; that seam is named.
 - **Fair financing.** The CX offset, the standard's payments (O-1) and the transition share after FY2039 are its seams.
-- **M4.** The booking may use it but need not wait (F-4).
+- **M4.** The booking may use it but need not wait (F-4). *(Superseded by `DEC-2026-11-13-12`: the dossier is re-reviewed on M4's model and booked once, after that.)*
 
 ## 3. The builder of last resort: a choice for Espen
 

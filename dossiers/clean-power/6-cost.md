@@ -155,7 +155,7 @@ On the pattern of the secure floor's (`dossiers/secure-floor/6-cost.md`, part 6)
 6. **Check the budget treatment of the public builders' added borrowing** (part 2), including forgiveness of unrepaid balances under the builder's statute.
 6a. **The standard's payments** (part 2; review O-1): a receipt and an outlay to the bill credit, from the carbon model's run of the decided 100%-by-2040 path; record whether the 24.4% offset applies.
 6b. **Timing:** the price's start (part 1, FY2030 note), CLI-5H's money from FY2031, and the year shape that follows.
-6c. **The M4 energy model** (`models/tools/energy/`, `DEC-2026-11-13-09`) may serve for the 100%-by-2040 run and memo 1 B's coverage if it has them in time; the booking need not wait for it.
+6c. **The M4 energy model** (`models/tools/energy/`, `DEC-2026-11-13-09`). The booking waits for it: clean power is re-reviewed on the new model and booked once, after that re-review and its fixes (`DEC-2026-11-13-12`). The re-review tests first the 100%-by-2040 standard's clean share and payments, memo 1 B's receipts, dividend and 2035 emissions, regional bills, the gas fleet's wind-down and the credits' cost; the steps above are then rerun on its results.
 7. **Incidence:** the household model's dividend and fee rows on the narrower base: no heating charge, a smaller dividend (section 7 checks D3 with it).
 8. **Rows the decisions leave as booked:** CLI-1, CLI-9, CLI-3 (CLI-3E's zero-direct-cost row relabeled 80%/100%), CLI-10G, CLI-5L, CLI-5W, CLI-7, CLI-7K, CLI-7C, CLI-7N, CLI-13A, CLI-13F, CLI-2O, CXP.
 

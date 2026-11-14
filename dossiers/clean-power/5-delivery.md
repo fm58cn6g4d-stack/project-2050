@@ -74,7 +74,8 @@ And two simplifications in how help reaches people:
 | 2030 onward | Closures from January 1, 2030 covered; the first published counts in 2031 | Labor; states |
 | 2031 | The standard's first compliance year (target set from the 2029 share) | DOE (EIA) |
 | From 2032 | The clean-heat standard's first share | DOE |
-| By 2032 | The national-interest list's first one-year windows close; the solicitations and the builder of last resort can start | DOE; TVA; Bonneville; WAPA; the eastern corporation |
+| About 2031 | DOE publishes the first national-interest list (CLI-10.03) | DOE |
+| By 2032 | One year after listing, the first windows close (CLI-10.03's one-year trigger); the solicitations and the builder of last resort can start | DOE; TVA; Bonneville; WAPA; the eastern corporation |
 | From 2033, on milestones | The second tranche's money released | DOE |
 | 2035 | The standard at 80%; the price at about $109 | DOE; IRS |
 | 2040 | The standard at 100% | DOE |
