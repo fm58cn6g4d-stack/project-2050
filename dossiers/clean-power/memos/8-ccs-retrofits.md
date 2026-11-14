@@ -1,6 +1,6 @@
 # Memo 8: Carbon capture retrofits on existing power plants
 
-Role: decision memo for Espen. This is a new question, raised by the energy model's comparison with the Energy Policy Simulator, not one of the original forks. Status: **decided: D** (`DEC-2026-11-14-01`). Espen, November 14, 2026: "Yes the new D: the tax credit on top of the carbon price for retrofits begun by 2039, no double payment otherwise". Specified in `../4-specification.md`, part C (CLI-4R.01). Its cost is not yet booked; that waits for a later tier-3 booking change.
+Role: decision memo for Espen. This is a new question, raised by the energy model's comparison with the Energy Policy Simulator, not one of the original forks. Status: **decided: D** (`DEC-2026-11-14-01`). Espen, November 14, 2026: "Yes the new D: the tax credit on top of the carbon price for retrofits begun by 2039, no double payment otherwise". Specified in `../4-specification.md`, part C (CLI-4R.01). Booked as CLI-4R: about $2.6 billion over FY2030-39 and $1.6 billion in FY2040 on `retro1_rcredit` (nominal fiscal years; range to $12 billion and $6.0 billion on `retro_hi_rcredit`), `../6-cost.md` part 6, 6c.
 
 **Decision line.** Decided: **D** (`DEC-2026-11-14-01`; recommended). A retrofit credit, inside a rule that pays a stored ton once everywhere else.**
 - **The compliance rule:** a coal or gas unit that captures at least 90% of its CO2, measured over each year, counts as clean under the standard that ends unabated coal by 2040.

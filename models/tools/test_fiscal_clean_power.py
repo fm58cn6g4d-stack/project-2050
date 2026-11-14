@@ -36,7 +36,7 @@ def load(name, path):
 CB = load("clean_power_booking", HERE / "clean_power_booking.py")
 rows = lambda name: list(csv.DictReader(open(INPUTS / name, newline="", encoding="utf-8")))  # noqa: E731
 CHANGED = ("CX", "CLI-5")                                   # booked rows the booking reshapes
-NEW = ("CLI-10", "CLI-5H", "CLI-11", "CLI-3A", "C1T", "C3A", "CXA")
+NEW = ("CLI-10", "CLI-5H", "CLI-11", "CLI-3A", "C1T", "C3A", "CXA", "CLI-4R")
 
 
 class CleanPowerBooking(unittest.TestCase):
@@ -92,6 +92,25 @@ class CleanPowerBooking(unittest.TestCase):
         self.assertEqual(self.b["ledger"]["CLI-3A"], (0.0, 0.0, 0.0))
         self.assertAlmostEqual(t["acp_kept_window"], self.b["revenue"]["C3A"][1], places=6)   # receipts equal the payments
 
+    def test_the_retrofit_credit_is_the_model_cases_path(self):
+        """CLI-4R (memo 8 D, DEC-2026-11-14-01): FY2030-39 equals the central case's path converted to nominal fiscal years."""
+        res = json.load(open(ROOT / "models" / "tools" / "energy" / "results.json"))
+        run = res["run"]
+        prov = res["provisions"]["CLI-4R.01"]
+        years = {r["id"]: [float(r["y%d" % y]) for y in W] for r in rows("fiscal-years.csv")}["CLI-4R"]
+        self.assertAlmostEqual(sum(years), prov["fy2030_39"], delta=0.05)               # the model's own window sum
+        # the engine's 2025-dollar 45Q times the inflation index, calendar year y as fiscal year y
+        for y, v in zip(W, years):
+            self.assertAlmostEqual(v, prov["by_year"][str(y)], places=2, msg=y)
+        self.assertGreater(prov["by_year"]["2040"], 0.0)
+        self.assertAlmostEqual(self.gf("CLI-4R", 2040), prov["by_year"]["2040"], delta=0.01)
+        self.assertEqual(run["convention"][:35], "calendar year y booked as fiscal ye")
+        # the high end is the ledger's high, the central case its mid
+        bills = {r["id"]: r for r in rows("ledger-bills.csv")}["CLI-4R"]
+        hi = res["provisions"]["CLI-4R.01-hi"]
+        self.assertAlmostEqual(float(bills["cost_hi"]), hi["fy2030_39"] / 1000, delta=0.0006)
+        self.assertAlmostEqual(float(bills["cost_mid"]), prov["fy2030_39"] / 1000, delta=0.0006)
+
     def test_transition_share_from_fy2040_only(self):
         self.assertEqual([self.gf("C1T", y) for y in W], [0.0] * 10)
         self.assertAlmostEqual(self.gf("C1T", 2040), -33.1, places=6)
@@ -107,8 +126,8 @@ class CleanPowerBooking(unittest.TestCase):
         window = sum(change[y] for y in W)
         self.assertEqual(round(t["change_window"] * 1000, 1), 43.0)
         self.assertEqual(round(t["change_fy2040"], 1), -51.6)
-        self.assertAlmostEqual(window, 1000 * (t["change_window"] + t["acp_offset_window"] - t["acp_kept_window"]), delta=0.5)
-        self.assertAlmostEqual(change[2040], t["change_fy2040"] + t["acp_offset_fy2040"] - t["acp_kept_fy2040"], delta=0.5)
+        self.assertAlmostEqual(window, 1000 * (t["change_window"] + t["acp_offset_window"] - t["acp_kept_window"] + t["cli4r_ledger_window"] / 1000), delta=0.5)
+        self.assertAlmostEqual(change[2040], t["change_fy2040"] + t["acp_offset_fy2040"] - t["acp_kept_fy2040"] + t["cli4r_fy2040"], delta=0.5)
 
 
 if __name__ == "__main__":

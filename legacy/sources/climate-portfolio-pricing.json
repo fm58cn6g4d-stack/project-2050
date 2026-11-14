@@ -183,7 +183,7 @@
      "unfavorable": 0.18033056042381393
     },
     "id": "cx",
-    "label": "Income and payroll tax offset (CX, 25%) on the added REV-C1 receipts",
+    "label": "Income and payroll tax offset (CX, 24.4%) on the added REV-C1 receipts",
     "path_bn": {
      "central": {
       "2030": 1.822959912311102,
@@ -4459,7 +4459,7 @@
      -20.095219738835937,
      -21.922057896911927
     ],
-    "label": "CX recapture: 25% of the added receipts go to the general fund; the dividend keeps 55% of the increment"
+    "label": "CX recapture: 24.4% of the added receipts go to the general fund; the dividend keeps 55.6% of the increment"
    },
    "O3": {
     "cases": {
@@ -8252,7 +8252,7 @@
   "models/tools/climate-portfolio/packages.py": "def50a0e88ec62caafe4a5499e63d469196076247bc8cd2140f10182524f6f06",
   "models/tools/climate-portfolio/portfolio.py": "1c4a4d60ca6a28b951955e423199b9e1b2742bb80576a80c8c36d6a49654a689",
   "models/tools/climate-portfolio/pricing.json": "45ce8b9b39c96b0de1b16e28100fa613d2218d6d9b73a125a28b8caadb3a3693",
-  "models/tools/climate-portfolio/pricing.py": "fb17bf9dcd9fac37009459cc8ddf2a9698676fa3ebcd9391a29670a7a64a2e08",
+  "models/tools/climate-portfolio/pricing.py": "1aa9a57abf65d6ffcad8a09e578c98adaf7f662cc6c431a20342fa9018113039",
   "models/tools/climate-portfolio/run.js": "109a1e02d13007e680eac3629c9d220f6f3a763651b27488477b6a39da2fbdae"
  }
 }

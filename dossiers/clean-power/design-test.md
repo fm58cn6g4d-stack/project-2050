@@ -14,6 +14,7 @@ Energy CO2 below 2005 (2035, 2040); clean share of generation; national retail p
 | Builder at 75% (`bld_75`) | 41.3% | 52.8% | 90% | 15.8 | 1,105 | 128 | −749 |
 | Standby builder at 25% (`bld_lo`) | 40.3% | 50.6% | 85% | 16.3 | 967 | 199 | +812 |
 | Decided set with the permitting package | 42.4% | 54.5% | 94% | 15.6 | 1,125 | 74 | −2,198 |
+| Permitting package plus builder everywhere (`permit_bld_hi`, #369) | 43.4% | 55.7% | 96% | 15.2 | 1,268 | 15 | −3,100 |
 | Standard's cap at $20 (`ces_cap20`) | 40.8% | 51.7% | 87% | 15.8 | 1,036 | 85 | +55 |
 | Standard's cap at $60 (`ces_cap60`) | 40.8% | 51.8% | 88% | 16.3 | 1,037 | 229 | −82 |
 | Economy-wide price (memo 1 A) | 41.5% | 52.8% | 87% | 16.1 | 1,041 | 175 | −1,356 |
@@ -41,7 +42,7 @@ The builder is the engine's federal grid program at a fraction of full strength 
 - **It has no trigger and no supply limit:** it builds everywhere every year, not only where the one-year trigger is met, and never waits on transformers, crews or siting.
 - **Its $12 billion a year is booked as a federal cost** (line 515, counted in the credits), though under CLI-10.02 and CLI-10.03 the builder's capital is borrowed and repaid through rates.
 
-So `bld_hi`'s −1.43 Gt is the most a builder could add on this engine, not a forecast. M4 has been asked for a run with the builder at full strength together with the permitting package, to bound the overlap.
+So `bld_hi`'s −1.43 Gt is the most a builder could add on this engine, not a forecast. M4's run of the full builder together with the permitting package (`permit_bld_hi`, #369) bounds the overlap: it cuts 3.1 Gt over 2030-50 against 2.2 Gt for permitting alone, so the builder adds about 0.9 Gt on top of permitting, not the 1.4 Gt it adds alone, and the standard's payments fall to about $15 billion over FY2030-39.
 
 ## How transmission actually gets built
 
@@ -77,5 +78,4 @@ This builds on the legacy transmission work, cited by ID, and says where the new
 ## Next
 
 - The standard's payments are booked as general-fund receipts, with no grid account (`DEC-2026-11-14-02`; `6-cost.md`, part 6, 6a).
-- M4's run of the builder at full strength plus permitting (`permit_bld_hi`) is in #369; quoted here once it merges.
 - CLI-10.03's siting text is corrected, and the eastern corporation has eminent domain on TVA's model (`DEC-2026-11-14-03`).

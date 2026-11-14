@@ -115,7 +115,7 @@
    "target": "Treasury OTA working paper 115: 0.71 net, 0.95 gross (SRC-5071); CBO about 0.63 if its base were the engine's (PR-2)",
    "tol": "reported (a convention comparison: the engine's figure is 1 minus the offset by construction)",
    "what": "Revenue convention, not a test of the engine: net receipts per dollar of (price times covered emissions), the engine's accounting against Treasury's carbon tax estimate (OTA, 2017) and CBO's (PR-2)",
-   "why": "Treasury (Obama administration, January 2017) counts gross receipts at 95% of the price times covered emissions over 2019-28, because it assumes some non-compliance, then takes a 25% offset ($2,962B gross, $2,221B net). The engine charges every covered ton the full price and takes the adopted 24.4% offset, so its receipts per ton run 6% above Treasury's convention; against CBO the gap is about 21% (PR-2), which also mixes in any difference between CBO's base and the engine's. Treasury's convention sits between the two. A booking that wants a central figure can scale the model's receipts by about 0.94; CBO's convention is the low side."
+   "why": "Treasury (Obama administration, January 2017) counts gross receipts at 95% of the price times covered emissions over 2019-28, because it assumes some non-compliance, then takes a 25% offset ($2,962B gross, $2,221B net). The engine charges every covered ton the full price and takes the adopted 24.4% offset, so its receipts per ton run 6% above Treasury's convention; against CBO the gap is about 21% (PR-2), which also mixes in any difference between CBO's base and the engine's. Treasury's 0.71 sits between the engine's 0.76 and CBO's equivalent of about 0.63. A booking that wants Treasury's convention can scale the model's receipts by about 0.94; scaling to CBO's (about 0.83) also rests on PR-2's base, which it cannot confirm."
   },
   {
    "id": "CR-1",
@@ -1169,6 +1169,64 @@
    "fy2040": -41.4,
    "label": "clean standard's capped payments, to bill protection"
   },
+  "CLI-4R.01": {
+   "booked_mid_fy2030_39": null,
+   "by_year": {
+    "2030": 0.0,
+    "2031": 0.0,
+    "2032": 0.0,
+    "2033": 0.0,
+    "2034": 0.0,
+    "2035": 0.0,
+    "2036": 0.0,
+    "2037": 0.44,
+    "2038": 0.86,
+    "2039": 1.26,
+    "2040": 1.62,
+    "2041": 1.94,
+    "2042": 2.35,
+    "2043": 2.8,
+    "2044": 3.27,
+    "2045": 3.5,
+    "2046": 3.63,
+    "2047": 3.76,
+    "2048": 3.92,
+    "2049": 3.59,
+    "2050": 3.21
+   },
+   "fy2030_39": 2.6,
+   "fy2040": 1.6,
+   "label": "retrofit credit (memo 8 D): 45Q on retrofits begun by 2039, case retro1_rcredit (research-based limits, 75% capture)"
+  },
+  "CLI-4R.01-hi": {
+   "booked_mid_fy2030_39": null,
+   "by_year": {
+    "2030": 0.0,
+    "2031": 0.0,
+    "2032": 0.0,
+    "2033": 0.0,
+    "2034": 0.0,
+    "2035": 0.0,
+    "2036": 0.0,
+    "2037": 2.61,
+    "2038": 4.26,
+    "2039": 5.16,
+    "2040": 5.99,
+    "2041": 6.74,
+    "2042": 7.56,
+    "2043": 8.64,
+    "2044": 9.78,
+    "2045": 10.48,
+    "2046": 10.85,
+    "2047": 11.2,
+    "2048": 11.7,
+    "2049": 10.88,
+    "2050": 9.82
+   },
+   "fy2030_39": 12.0,
+   "fy2040": 6.0,
+   "label": "retrofit credit, high end: case retro_hi_rcredit (90% capture, twice the limits)"
+  },
   "CX": {
    "booked_mid_fy2030_39": null,
    "by_year": {
@@ -1347,8 +1405,8 @@
    "models/tools/energy/engine/cfd-model.js": "740f50ff1c5b109c",
    "models/tools/energy/history.js": "4882d3c65521f29e",
    "models/tools/energy/history.py": "6d5db6f13804cfdb",
-   "models/tools/energy/model.py": "5d3979772f282bd6",
-   "models/tools/energy/run.py": "4303cd1bf465766b",
+   "models/tools/energy/model.py": "51ba17fa0b427f3d",
+   "models/tools/energy/run.py": "0ff387ce370ef8b7",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb"
   },
   "mc_draws": 60,
