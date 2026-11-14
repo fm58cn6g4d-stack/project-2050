@@ -1,0 +1,5961 @@
+Source: https://www.eia.gov/outlooks/aeo/assumptions/pdf/Legs_Regs_2026.pdf
+Publisher: U.S. Energy Information Administration
+Retrieved: 2026-11-13
+Original SHA-256: e899e9326248987a774586a2fe55b7f34c3938206b6f84d2a2db106dec8d5407
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Summary of Legislation and
+Regulations Included in the
+Annual Energy Outlook 2026
+April 2026
+
+www.eia.gov
+U.S. Department of Energy
+Washington, DC 20585
+
+The U.S. Energy Information Administration (EIA), the statistical and analytical agency within the
+U.S. Department of Energy (DOE), prepared this report. By law, our data, analyses, and forecasts are
+independent of approval by any other officer or employee of the U.S. Government. The views in this
+report do not represent those of DOE or any other federal agencies.
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+April 2026
+
+The version of the National Energy Modeling System (NEMS) used for our Annual Energy Outlook
+2026 (AEO2026) generally represents legislation, environmental regulations, and international
+protocols, including recent government regulations as of December 2025. Impacts of legislation,
+executive actions, regulations, or judicial rulings occurring after this date are not reflected in
+AEO2026 and will be addressed to the extent possible in subsequent EIA outlooks. The potential
+effects of proposed federal and state legislation, regulations, or standards are not reflected in the
+Counterfactual Baseline case. In addition, the Counterfactual Baseline case does not reflect sections
+of legislation that have been enacted but have not been funded or lack implementation regulations.
+A list of the federal and selected state legislation and regulations included in AEO2026, including how
+we incorporated them, is provided in each module’s documentation. This document provides an
+overview of all the relevant regulations and includes summary tables that represent both new and
+existing legislation and regulations, as of December 2025, represented in NEMS.
+In addition to the Counterfactual Baseline, AEO2026 features 10 side cases. The Alternative
+Transportation case, the Alternative Electricity case, and the Alternative Electricity-Alternative
+Transportation Combination case do make assumptions about certain regulations. For more details,
+see the AEO2026 Case Descriptions.
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+April 2026
+
+Table of Contents
+Updated Laws and Regulations Reflected in the Annual Energy Outlook 2026 (AEO2026)
+Counterfactual Baseline Case .................................................................................................................. 1
+Summary: Existing Federal and State Legislation and Regulations in the AEO2026 Counterfactual
+Baseline Case ........................................................................................................................................... 2
+Residential sector ......................................................................................................................... 2
+Commercial sector ....................................................................................................................... 6
+Industrial sector ......................................................................................................................... 13
+Transportation sector................................................................................................................. 16
+Electric power sector.................................................................................................................. 18
+Oil and natural gas supply .......................................................................................................... 27
+Natural gas market ..................................................................................................................... 28
+Liquid fuels market ..................................................................................................................... 29
+Appendix A. Existing State-level Clean Energy Policies in the AEO2026 Counterfactual Baseline Case 35
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+i
+
+April 2026
+
+Updated Laws and Regulations Reflected in the Annual Energy
+Outlook 2026 (AEO2026) Counterfactual Baseline Case
+Legislative and regulatory provisions that have been updated since AEO2025 are briefly described
+below. For a list of all laws and regulations included in AEO2026, see the Summary: Existing and New
+Federal and State Legislation and Regulations in the Annual Energy Outlook 2026 table, included in
+the next section. All AEO2026 cases use the macroeconomic outlook from S&P Global Market
+Intelligence as of August 2025.
+The One Big Beautiful Bill Act (OBBBA) was passed on July 4, 2025. It modifies several provisions of
+laws incorporated in AEO2023 and AEO2025, such as:
+•
+•
+•
+
+•
+
+Changing the project online requirement for a production tax credit of up to $3.00 per
+kilogram of hydrogen to producers of clean hydrogen (IRA Section 45V) from 2033 to 2027
+Increasing the tax credit for carbon dioxide (CO2) used for enhanced oil recovery to $85 per
+metric ton (IRA Section 45Q tax credit, a subsidy for carbon sequestration)
+Terminating tax credits for qualified zero-carbon generators in Sections 45Y and 48E of the
+IRA earlier (Under OBBBA, the deadline to be placed in service for wind and solar facilities is
+now 2027, and for other technologies, phase out begins in 2033.)
+Terminating several transportation-related tax credits earlier, including the Clean Vehicle
+Credit (Section 30D), Qualified Commercial Clean Vehicles Credit (Section 45W), and
+Alternative Fuel Vehicle Refueling Property Credit (Section 30C)
+
+Other major federal legislation included:
+•
+
+•
+
+•
+
+H.J. Res.87 became Public Law 119-15 on June 12, 2025. Congress disapproved the waivers
+issued by the U.S. Environmental Protection Agency (EPA) for several California regulations,
+including the Advanced Clean Trucks (ACT) rule. Therefore, the ACT is not enforced in the
+Counterfactual Baseline (CB) case or any of the side cases in AEO2026.
+H.R.1 became Public Law 119-21 on July 4, 2025. Section 40006 set civil penalties for
+noncompliance with National Highway Traffic Safety Administration (NHTSA) Corporate
+Average Fuel Economy (CAFE) standards to $0. Therefore, light-duty vehicle CAFE standards
+are not enforced in the CB case or any side cases in AEO2026. As discussed in the case
+descriptions, EPA’s 2024 multi-pollutant emission standards, which cover similar portions of
+the fleet, are modeled in all cases except the Alternative Transportation case and the
+Alternative Electricity-Alternative Transportation Combination case.
+In 2024, EPA finalized its Section 111 of the Clean Air Act (CAA) regulating CO2 emissions from
+existing coal, oil, and natural gas-fired steam generating units and new natural gas-fired
+combustion turbines in the Greenhouse Gas Standards and Guidelines for Fossil Fuel-Fired
+Power Plants rule. This policy was first represented in AEO2025. Although there has been
+a proposal to repeal parts of this policy, no final ruling had been made before the policy
+cutoff date for AEO2026, and therefore, no changes were made to the core cases. The
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+1
+
+April 2026
+
+•
+
+•
+
+Alternative Electricity case explores the repeal of CO2 emissions regulations in the power
+sector.
+The U.S. government introduced tariffs on nearly all trade partners beginning on April 2,
+2025, with several subsequent modifications to tariffs occurring throughout the
+year. Although some anticipated effects of these tariffs were captured through AEO’s
+macroeconomic indicators, product-specific changes, such as tariff-related price increases to
+U.S. solar panels or batteries, were not included in AEO2026.
+Several Presidential Executive Orders were signed related to the energy sector in 2025:
+o On January 20, 2025, President Donald J. Trump issued an order to halt permit and
+leases for offshore wind projects, potentially conflicting with state offshore wind
+mandates. To account for this in AEO2026, we delayed offshore wind mandate
+deadlines and also constrained the required capacity for each target based on land
+availability not including federal lands.
+o Other Executive Orders, including those for nuclear and coal, were not included in
+AEO2026 due to insufficient information regarding implementation details needed
+for modeling.
+
+Summary: Existing Federal and State Legislation and Regulations
+in the AEO2026 Counterfactual Baseline Case
+Residential sector
+A.
+
+Legislation
+National Appliance
+Energy Conservation
+Act of 1987
+(NAECA1987)
+a. Room air
+conditioners
+b. Central air
+conditioners and heat
+pumps
+c. Water heaters
+d. Refrigerators and
+freezers
+e. Dishwashers
+f. Fluorescent lamp
+ballasts
+g. Clothes washers
+h. Furnaces
+i. Clothes dryers
+
+Brief description
+Requires the Secretary of
+Energy to set minimum
+efficiency standards for
+various appliance categories
+with periodic updates
+In 2027, set standards for
+room air conditioners
+In 2023, set standards for
+central air conditioners and
+heat pumps
+In 2029, set standards for
+water heaters
+In 2030, set standards for
+refrigerators and freezers
+In 2027, set standards for
+dishwashers
+In 2014, set standards for
+fluorescent lamp ballasts
+In 2028, set standards for
+clothes washers
+In 2029, set standards for
+furnaces
+In 2028, set standards for
+clothes dryers
+
+Annual Energy Outlook
+(AEO) handling
+Increase efficiency of new
+appliance purchases in
+the residential sector
+Increase efficiency of new
+room air conditioners
+Increase efficiency of new
+central (or other) air
+conditioners
+Increase efficiency of new
+water heaters
+Increase efficiency of new
+refrigerators and freezers
+Increase efficiency of new
+dishwashers
+Increase efficiency of new
+fluorescent lamp ballasts
+Increase efficiency of new
+clothes washers
+Increase efficiency of new
+furnaces
+Increase efficiency of new
+clothes dryers
+
+Basis
+Public Law 100-12
+
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+2
+
+April 2026
+
+Legislation
+j. Boilers
+B.
+
+Energy Policy Act of
+1992 (EPACT1992)
+a. Building codes
+
+All states adopt the IECC
+2006 code by 2017
+
+In 2012, set standards for
+various lighting types
+
+Increase efficacy of
+various new lighting types
+
+In 2006, set standards for
+torchiere lamps
+In 2006, set standards for
+compact fluorescent lamps
+In 2019, set standards for
+ceiling fans and in 2020 for
+ceiling fan light kits
+
+Increase efficacy of new
+torchiere bulbs
+Increase efficacy of new
+compact fluorescent bulbs
+Miscellaneous and lighting
+electricity consumption
+for new ceiling fans and
+ceiling fan light kit drops
+by the required amount
+
+d. Dehumidifier
+standard
+
+In 2019, set standards for
+dehumidifiers
+
+Dehumidifier electricity
+consumption drops by the
+required amount
+
+e. Energy-efficient
+equipment tax credit
+
+Provides tax credits to
+purchasers of certain energyefficient equipment in 2006
+and 2007
+Provides $1,000 or $2,000 tax
+credit to builders if they
+construct homes that are 30%
+or 50%, respectively, more
+efficient than code in 2006
+and 2007
+Provides tax credits to
+producers of energy-efficient
+refrigerators, dishwashers,
+and clothes washers for each
+unit they produce that meets
+certain efficiency
+specifications
+
+Cost of applicable
+equipment drops by the
+required amount
+
+From 2012 to 2014, required
+less wattage for bulbs; a 2020
+backstop standard that would
+have effectively eliminated
+incandescent bulbs was
+removed in December 2019,
+
+Wattage for new bulbs is
+reduced by 28% in 2013
+
+Energy Policy Act of
+2005 (EPACT2005)
+a. Torchiere lamp
+standard
+b. Compact fluorescent
+lamp standard
+c. Ceiling fan and light
+kit standard
+
+f. New home tax credit
+
+g. Energy-efficient
+appliance tax credit
+
+D.
+
+Annual Energy Outlook
+(AEO) handling
+Increase efficiency of new
+boilers
+
+For the International Energy
+Conservation Code (IECC)
+2006, specifies whole house
+efficiency minimums
+
+b. Various lighting types
+C.
+
+Brief description
+In 2021, set standards for
+boilers
+
+Energy Independence
+and Security Act of
+2007 (EISA2007)
+a. General service
+incandescent lamp
+standard
+
+Basis
+Federal Register Notice
+of Final Rulemaking
+Public Law 102-486
+Trend of states’
+adoption of codes,
+allowing for lead times
+for enforcement and
+builder compliance
+Federal Register Notice
+of Final Rulemaking
+Public Law 109-58
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+Overall savings
+determined by number
+of ceiling fan shipments
+and estimated
+kilowatthour (kWh)
+savings per unit
+Overall savings
+determined by number
+of dehumidifier
+shipments and
+estimated kWh savings
+per unit
+Federal Register Notice
+of Final Rulemaking
+
+Shell package cost for
+these homes drops by the
+required amount
+
+Cost reductions to
+consumers are
+assumed to be 100% of
+the builder’s tax credit
+
+Cost savings passed on to
+the consumer, reducing
+the price of the appliance
+by the required amount
+
+Cost reductions to
+consumers are
+assumed to be 100% of
+the producer’s tax
+credit
+Public Law 110-140
+Federal Register Notice
+of Final Rulemaking
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+3
+
+April 2026
+
+Legislation
+b. External power
+supply standard
+
+E.
+
+c. Manufactured
+housing code
+
+In 2011, set standard for
+manufactured homes to meet
+latest IECC
+
+d. Miscellaneous
+refrigeration products
+
+In 2029, set minimum
+efficiency standards for wine
+coolers
+
+Energy Improvement
+and Extension Act of
+2008 (EIEA2008)
+a. Energy-efficient
+equipment tax credit
+b. Energy-efficient
+appliance tax credit
+
+F.
+
+American Recovery and
+Reinvestment Act of
+2009 (ARRA2009)
+
+a. Energy-efficient
+equipment tax credit
+
+b. Weatherization and
+State Energy Programs
+
+G.
+
+Brief description
+reinstated in 2022, and is
+effective in 2023
+In 2016, set standards for
+external power supplies
+
+Tax Relief,
+Unemployment
+Insurance
+Reauthorization, and
+Job Creation Act of
+2010
+
+Annual Energy Outlook
+(AEO) handling
+Electricity consumption by
+external power supplies is
+reduced by the required
+amount
+All manufactured homes
+shipped after 2011 are
+required to meet the 2006
+IECC
+Other electricity
+consumption is reduced
+by the required amount
+
+Basis
+Overall savings on
+compact fluorescent
+bulbs determined by
+number of shipments
+and estimated kWh
+savings per unit
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+Public Law 110-343
+
+Offers purchasers of certain
+energy-efficient equipment
+tax credits through 2016
+Offers producers of energyefficient refrigerators, clothes
+washers, and dishwashers tax
+credits for each unit they
+produce that meets certain
+efficiency specifications,
+subject to an annual cap
+
+Cost of applicable
+equipment is reduced by
+the required amount
+Cost savings passed on to
+the consumer, reducing
+the price of the appliance
+by the required amount
+
+Federal Register Notice
+of Final Rulemaking
+
+Increases cap of energyefficient equipment specified
+under Section E(a) of
+ARRA2009 to $1,500;
+removes cap for solar
+photovoltaic (PV), wind, and
+ground-source (geothermal)
+heat pumps
+Increases funding for
+weatherization and other
+programs to improve the
+energy efficiency of existing
+housing stock
+
+Cost of applicable
+equipment is reduced by
+the required amount
+
+Federal Register Notice
+of Final Rulemaking
+
+Annual funding amount is
+applied to retrofit existing
+housing; base savings for
+heating and cooling based
+on $2,600 per-home
+investment as specified in
+weatherization program
+evaluation
+
+Federal Register Notice
+of Final Rulemaking
+
+Cost reductions to
+consumer are assumed
+to be 100% of the
+producer’s tax credit
+
+Public Law 111-5
+
+Public Law 111-312
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+4
+
+April 2026
+
+Legislation
+a. Energy-efficient
+equipment tax credit
+H.
+
+I.
+
+Consolidated
+Appropriations Act of
+2016 (H.R. 2029)
+a. Residential solar
+investment tax credit
+(ITC)
+
+Bipartisan Budget Act
+(BBA) of 2018 (H.R.
+1892)
+a. Residential energy
+efficiency and non-solar
+renewable energy tax
+credits
+
+J.
+
+Taxpayer Certainty and
+Disaster Tax Relief Act
+of 2019 (H.R. 3301)
+
+K.
+
+Energy Policy and
+Conservation Act of
+1975 (EPCA1975)
+a. Dedicated-purpose
+pool pumps
+
+L.
+
+Consolidated
+Appropriations Act,
+2021
+
+M.
+
+Inflation Reduction Act
+(IRA)
+a. Section 13301
+Extension, increase, and
+modifications of
+nonbusiness energy
+property credit
+b. Section 13302
+Residential clean
+energy credit
+
+Brief description
+Tax credits for some energyefficient equipment are
+extended, generally to
+EISA2007 amounts
+
+Extends the EPACT2005 30%
+ITC for solar property through
+2019, decreasing to 26% in
+2020, to 22% in 2021, and
+expiring after 2021
+
+Annual Energy Outlook
+(AEO) handling
+Reduces the cost of
+applicable equipment by
+specified amount
+
+Basis
+
+Public Law 114-113
+Tax credit is incorporated
+into cash flow for solar
+generation systems;
+investment cost for solar
+water heaters is reduced
+by the required
+percentage
+
+Federal Register Notice
+of Final Rulemaking
+
+Retroactively extends existing
+federal 25C tax credits for
+home energy efficiency
+upgrades and equipment
+through 2017. It also extends
+the 25D credit for non-solar
+technology tax credits with
+the same ramp down as solar
+through 2021
+Retroactively extended
+existing federal 25C tax
+credits for home energy
+efficiency upgrades and
+equipment through 2020
+
+Cost of applicable
+equipment is reduced by
+the required amount; tax
+credit is incorporated into
+cash flow for non-solar
+generation systems based
+on updated timeline
+
+BBA2018, Section
+40401-40402 (26 USC
+25)
+
+Expanded EPCA1975 coverage
+of pump efficiency to pool
+pumps, effective 2021
+Extends the ramp down of
+ITCs for distributed
+generation equipment by an
+additional two years
+
+Other electricity
+consumption is reduced
+by the required amount
+26% ITC extended through
+2022; phases out to 22%
+in 2023 and no tax credit
+after 2023
+
+Extends tax credits under IRS
+Section 25C for home energy
+efficiency improvements and
+modifies the tax credit for
+qualified energy efficiency
+improvements.
+Extends the credit under IRS
+Section 25D for the cost of
+qualified residential clean
+energy expenditures and
+projects
+
+Cost of applicable major
+end-use equipment is
+reduced by the required
+amount through 2032
+
+Public Law 115-123
+
+Cost of applicable
+equipment is reduced by
+the required amount
+Public Law 94-163
+Federal Register Notice
+of Final Rulemaking
+Public Law 116-260
+
+Public Law 117-169
+
+ITC for solar PV, fuel cells,
+wind, ground-source heat
+pumps, and solar water
+heaters is increased to
+30% and extended
+through 2032; phases out
+to 26% in 2033, 22% in
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+5
+
+April 2026
+
+N.
+
+Legislation
+
+Brief description
+
+c. Section 13304
+Extension, increase, and
+modifications of new
+energy efficient home
+credit
+
+Extends Section 45L credits
+for new energy-efficient
+homes, and increases the
+credit amount if qualified
+projects meet prevailing wage
+and apprenticeship
+requirements
+
+One Big Beautiful Bill
+Act (OBBBA)
+a. Section 70505
+Termination of energyefficient home
+improvement credit
+b. Section 70506
+Termination of
+residential clean energy
+credit
+c. Section 70508
+Termination of new
+energy-efficient home
+credit
+
+Terminates the IRS Section
+25C energy-efficient property
+tax credit after December 31,
+2025
+Terminates the IRS Section
+25D for the cost of qualified
+residential clean energy
+expenditures and projects
+after December 31, 2025
+Terminates IRS Section 45L
+tax credits for new energyefficient homes after June 30,
+2026
+
+Commercial sector
+A.
+
+Legislation
+National Appliance
+Energy Conservation
+Act of 1987
+(NAECA1987)
+a. Room air
+conditioners
+b. Other residential-size
+air conditioners (<5.4
+tons)
+c. Fluorescent lamp
+ballasts
+
+B.
+
+Energy Policy Act of
+1992 (EPACT1992)
+a. Building codes
+
+Brief description
+Requires the Secretary of
+Energy to set minimum
+efficiency standards for
+various appliance categories
+with periodic updates
+In 2014, set standards for
+room air conditioners
+In 2023, set standards for
+central air conditioners
+In 2014, set standards for
+fluorescent lamp ballasts
+
+Directs U.S. Department of
+Energy (DOE) to participate in
+development of model energy
+codes and help states adopt
+
+Annual Energy Outlook
+(AEO) handling
+2034; and no tax credit
+after 2034
+Apply $500–$2,500 tax
+credit for new housing
+units meeting or
+exceeding ENERGY STAR
+specifications, and extend
+this credit through 2032
+
+Basis
+
+Public Law 119-21
+Eliminate federal tax
+credit for applicable major
+end-use equipment after
+2025
+Eliminate ITC for solar PV,
+fuel cells, wind, groundsource heat pumps, and
+solar water heaters after
+2025
+Eliminate tax credit for
+new housing units
+meeting or exceeding
+ENERGY STAR
+specifications after 2026
+
+Annual Energy Outlook
+(AEO) handling
+Appliance categories
+represented in the
+commercial sector are
+included
+
+Basis
+Public Law 100-12
+
+Increases efficiency of
+new room air conditioners
+Increases efficiency of
+new central airconditioning and heat
+pumps
+Increases efficiency of
+electronic ballast
+purchases; modeled using
+a power factor and a
+minimum efficacy for
+select lamps based on
+lamp size and wattage
+
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+
+Incorporated into
+commercial building shell
+assumptions. Efficiency of
+new shell is represented
+relative to existing shell in
+
+Based on ICF
+International
+commercial shell
+indexes, developed for
+EIA in 2018.
+
+Federal Register Notice
+of Final Rulemaking
+
+Public Law 102-486
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+6
+
+April 2026
+
+Legislation
+
+Brief description
+and implement more efficient
+energy codes
+
+b. Window labeling
+
+Helps consumers determine
+which windows are more
+energy efficient
+
+c. Commercial furnaces
+and boilers
+
+In 2023, sets standards for
+furnaces
+
+d. Commercial air
+conditioners and heat
+pumps
+e. Commercial water
+heaters
+
+Sets standards for air
+conditioners and heat pumps
+
+Basis
+
+Based on ICF
+International
+commercial shell
+indexes developed for
+EIA in 2018
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking
+
+In 2003, set standards for
+water heaters, updated in
+2026
+In 2012, set standards for
+various lighting types
+
+Increases efficiency of
+new water heaters
+
+Federal Register Notice
+of Final Rulemaking
+
+Increases efficacy of new
+incandescent and
+fluorescent bulbs
+
+g. Electric motors
+
+Specifies minimum efficiency
+levels for a variety of motor
+types and sizes
+
+h. Federal energy
+management
+
+Requires federal agencies to
+reduce energy consumption
+by 20% by 2000 relative to
+1985
+
+i. Business investment
+tax credit (ITC) for solar
+energy property
+
+Provides a permanent 10%
+ITC for solar property
+
+End-use services are
+modeled at equipment
+level (motors contained in
+new equipment must
+meet the standards)
+Federal share of the
+commercial sector uses
+the 10-year Treasury note
+rate as a discount rate in
+equipment purchase
+decisions
+Tax credit is incorporated
+into cash flow for solar
+generation systems;
+investment cost is
+reduced for solar water
+heaters by 10%
+
+Federal Register Notice
+of Final Rulemaking for
+fluorescent
+requirements;
+incandescent
+requirements
+superseded by
+EISA2007
+Federal Register Notice
+of Final Rulemaking
+
+Executive Order 13123:
+Greening the
+Government Through
+Efficient Energy
+Management
+
+Requires federal agencies to
+reduce energy consumption
+30% by 2005 and 35% by
+2010 relative to 1985 through
+cost-effective life-cycle
+energy measures
+
+f. Lamps
+
+C.
+
+Annual Energy Outlook
+(AEO) handling
+shell efficiency indexes.
+Shell efficiency is assumed
+to improve 7% for space
+heating and 2% for space
+cooling in existing
+buildings by 2050
+Incorporated into
+commercial building shell
+assumptions. Efficiency of
+new shell is represented
+relative to existing
+building shell efficiency
+indexes.
+Increases efficiency of
+new natural gas-fired and
+distillate fuel oil-fired
+furnaces and boilers
+Superseded by
+EPACT2005 standards
+
+Federal share of the
+commercial sector uses
+the 10-year Treasury note
+rate as a discount rate in
+equipment purchase
+decisions
+
+Superseded by
+Executive Order 13123,
+EPACT2005, and
+EISA2007
+Federal Register Notice
+of Final Rulemaking;
+rates and schedule
+superseded by the IRA
+extension and
+expansion of the ITC
+(Public Law 117-169)
+Superseded by
+EPACT2005 and
+EISA2007
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+7
+
+April 2026
+
+D.
+
+Legislation
+Energy Policy Act of
+2005 (EPACT2005)
+a. Commercial package
+air conditioners and
+heat pumps
+
+Brief description
+
+Annual Energy Outlook
+(AEO) handling
+
+In 2018, set minimum
+efficiency levels, updated in
+2023 and to be updated in
+2029
+
+Increases efficiency of
+new air-cooled air
+conditioners and heat
+pumps
+
+Federal Register Notice
+of Final Rulemaking
+
+b. Lamp ballasts
+
+In 2008, banned manufacture
+or import of mercury vapor
+lamp ballasts; in 2009 and
+2010, set minimum efficacy
+level for T12 energy saver
+ballasts, based on application
+In 2006, set standards for
+medium base lamps to
+ENERGY STAR specifications
+In 2006, set standards to
+ENERGY STAR specifications
+
+Mercury vapor lighting
+phases out of use;
+minimum efficacy of T12
+ballasts is set at specified
+standard levels
+
+Federal Register Notice
+of Final Rulemaking
+
+Efficacy level of compact
+fluorescent lamps is set at
+required level
+Miscellaneous electricity
+consumption is reduced
+by the required amount
+
+Federal Register Notice
+of Final Rulemaking
+
+e. Distribution
+transformers
+
+In 2007, set standards as
+National Electrical
+Manufacturers Association
+Class I Efficiency levels;
+updated in 2016
+
+f. Pre-rinse spray valves
+
+In 2019, set maximum flow
+rate to 1.28 gallons per
+minute
+
+The estimation of the
+share of miscellaneous
+electricity consumption
+attributable to
+transformer losses
+includes the effects of the
+standard
+Energy use for water
+heating is reduced by the
+required amount
+
+g. Federal energy
+management
+
+Requires federal agencies to
+reduce energy consumption
+by 20% by 2015 relative to
+2003 through cost-effective
+life-cycle energy measures
+
+h. Business ITC credit
+for fuel cells and
+microturbines
+
+Provides a 30% ITC for fuel
+cells and a 10% ITC for
+microturbines installed in
+2006 through 2016
+
+c. Compact fluorescent
+lamps
+d. Illuminated exit signs
+and traffic signals
+
+Federal share of the
+commercial sector uses
+the 10-year Treasury note
+rate as a discount rate for
+equipment purchase
+decisions as opposed to
+adding risk premiums to
+the 10-year Treasury note
+rate
+Tax credit is incorporated
+into cash flow for fuel
+cells and microturbines
+
+Basis
+Public Law 109-58
+
+Number of shipments,
+share of shipments that
+currently meet
+standard, and
+estimated kilowatthour
+(kWh) savings per unit
+determine overall
+savings
+Federal Register Notice
+of Final Rulemaking
+
+Number of shipments,
+share of shipments that
+currently meet
+standard, and
+estimated kWh savings
+per unit determine
+overall savings
+Superseded by
+EISA2007
+
+Extended through 2008
+by Public Law 109-432
+and through 2016 by
+the Energy
+Improvement and
+Extension Act of 2008
+(EIEA2008); Extended
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+8
+
+April 2026
+
+E.
+
+Annual Energy Outlook
+(AEO) handling
+
+Legislation
+
+Brief description
+
+i. Business solar ITC
+
+Provides a 30% investment
+tax credit for solar property
+installed in 2006 through
+2016
+
+Tax credit is incorporated
+into cash flow for solar
+generation systems;
+investment cost for solar
+water heaters is reduced
+by 30%
+
+j. Vending machines
+
+In 2019, set standards to
+ENERGY STAR specifications
+
+Increases efficiency of
+new vending machines
+
+Requires use of specific
+energy efficiency measures in
+equipment manufactured in
+or after 2009; updated in
+2017
+Sets maximum allowable
+wattage. based on lumen
+output from 2012 to 2014. A
+2020 backstop standard that
+would have effectively
+eliminated incandescent
+bulbs was removed in
+December 2019, reinstated in
+2022, effective in 2023
+Sets minimum efficiency
+levels for metal halide lamp
+ballasts starting in 2009;
+updated in 2017
+
+Increases efficiency of
+new walk-in refrigerators
+and freezers
+
+Federal Register Notice
+of Final Rulemaking
+
+Incandescent and halogen
+general service lighting
+systems that do not meet
+standards are removed
+from technology choice
+menu
+
+Federal Register Notice
+of Final Rulemaking
+
+Metal halide lighting
+systems that do not meet
+standards are removed
+from technology choice
+menu; minimum system
+efficiency includes
+specified standard levels
+for ballasts based on type
+All existing and new
+federal floorspace uses
+10-year Treasury note
+rate for lighting purchase
+decisions in 2009
+Federal share of the
+commercial sector uses
+the 10-year Treasury note
+rate as a discount rate in
+equipment purchase
+decisions (as opposed to
+adding risk premiums to
+the 10-year Treasury note
+
+Federal Register Notice
+of Final Rulemaking
+
+Energy Independence
+and Security Act of
+2007 (EISA2007)
+a. Commercial walk-in
+coolers and walk-in
+freezers
+b. Incandescent and
+halogen lamps
+
+c. Metal halide lamp
+ballasts
+
+d. Federal use of
+energy-efficient lighting
+
+e. Federal energy
+management
+
+Requires use of energyefficient lighting fixtures and
+bulbs in federal buildings to
+the maximum extent possible
+starting in 2009
+Requires federal agencies to
+reduce energy consumption
+per square foot by 30% by
+2015 relative to 2003 through
+cost-effective life-cycle
+energy measures
+
+Basis
+by subsequent
+legislation, most
+recently extended
+through 2024 by the
+IRA (Public Law 117169)
+Extended through 2008
+by Public Law 109-432,
+through 2016 by
+EIEA2008, and through
+2019 and then phased
+down to 10% by Public
+Law 114-113; expanded
+to 30% starting in 2022
+by the IRA (Public Law
+117-169)
+Federal Register Notice
+of Final Rulemaking
+
+Federal Register Notice
+of Final Rulemaking
+
+Federal Register Notice
+of Final Rulemaking
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+9
+
+April 2026
+
+Legislation
+
+F.
+
+Energy Improvement
+and Extension Act of
+2008 (EIEA2008)
+a. Business solar ITC
+
+Annual Energy Outlook
+(AEO) handling
+rate to develop discount
+rates for other
+commercial decisions)
+
+Extends EPACT2005’s 30% ITC
+for solar property through
+2016
+
+Tax credit is incorporated
+into cash flow for solar
+generation systems;
+investment cost is
+reduced for solar water
+heaters by 30%
+
+Extends EPACT2005’s 30% ITC
+for fuel cells and 10% ITC for
+microturbines through 2016
+Provides a 10% ITC for CHP
+systems installed in 2009
+through 2016
+
+Tax credit is incorporated
+into cash flow for fuel
+cells and microturbines
+Tax credit is incorporated
+into cash flow for CHP
+systems
+
+d. Business ITC for small
+wind turbines
+
+Provides a 30% ITC for wind
+turbines installed in 2009
+through 2016
+
+Tax credit is incorporated
+into cash flow for wind
+turbines
+
+e. Business ITC for
+geothermal heat pumps
+
+Provides a 10% ITC for
+geothermal heat pump
+systems installed in 2009
+through 2016
+
+Investment cost for
+geothermal heat pump
+systems is reduced by
+10%
+
+Removes the cap on the
+EIEA2008 30% ITC for wind
+turbines through 2016
+
+Tax credit is incorporated
+into cash flow for wind
+turbines
+
+Provides funding for
+efficiency improvement in
+federal buildings and facilities
+
+All existing and new
+federal floorspace uses
+the 10-year Treasury note
+rate for purchase
+decisions in years in which
+stimulus funding is
+available to account for
+new, replacement, and
+retrofit projects; some
+
+b. Business ITC for fuel
+cells and microturbines
+c. Business ITC for
+combined-heat-andpower (CHP) systems
+
+G.
+
+Brief description
+
+American Recovery and
+Reinvestment Act of
+2009 (ARRA2009)
+a. Business ITC for small
+wind turbines
+
+b. Stimulus funding to
+federal agencies
+
+Basis
+
+Public Law 110-343
+Federal Register Notice
+of Final Rulemaking;
+rates and schedule
+superseded by the IRA
+extension and
+expansion of the ITC
+(Public Law 117-169)
+Federal Register Notice
+of Final Rulemaking
+Federal Register Notice
+of Final Rulemaking;
+rates and schedule
+superseded by the IRA
+extension and
+expansion of the ITC
+(Public Law 117-169)
+Federal Register Notice
+of Final Rulemaking;
+rates and schedule
+superseded by the IRA
+extension and
+expansion of the ITC
+(Public Law 117-169)
+Federal Register Notice
+of Final Rulemaking;
+rates and schedule
+superseded by the IRA
+extension and
+expansion of the ITC
+(Public Law 117-169)
+Public Law 111-5
+Federal Register Notice
+of Final Rulemaking;
+rates and schedule
+superseded by the IRA
+extension and
+expansion of the ITC
+(Public Law 117-169)
+Federal Register Notice
+of Final Rulemaking
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+10
+
+April 2026
+
+H.
+
+I.
+
+J.
+
+Legislation
+
+Brief description
+
+c. State Energy Program
+funding and energy
+efficiency and
+conservation block
+grants
+
+Provides grants for state and
+local governments for energy
+efficiency and renewable
+energy purposes (State
+Energy Program funding
+conditioned on enactment of
+new building codes)
+
+d. Funding for smart
+grid projects
+
+Provides funding for smart
+grid demonstration projects
+
+Consolidated
+Appropriations Act of
+2016 (H.R. 2029)
+a. Business solar ITC
+
+California Global
+Warming Solutions Act
+of 2006: emissions limit
+(SB-32)
+a. Limits California
+greenhouse gas (GHG)
+
+Tax Cuts and Jobs Act
+(TCJA) of 2017 (H.R. 1)
+a. 100% expensing for
+qualified renewable
+energy property
+
+Annual Energy Outlook
+(AEO) handling
+funding is assumed to be
+used for solar PV, small
+wind turbine, and fuel cell
+installations
+All public commercial
+sector buildings use the
+10-year Treasury note
+rate for purchase
+decisions in years in which
+stimulus funding is
+available. New building
+shell efficiency is 10%
+better than 2003 by 2018
+for improved building
+codes. Some funding is
+assumed to be used for
+solar PV and small wind
+turbine installations
+Consumers are assumed
+to become more
+responsive to electricity
+price changes resulting in
+higher price elasticity of
+demand for certain end
+uses
+
+Basis
+
+Federal Register Notice
+of Final Rulemaking
+
+Federal Register Notice
+of Final Rulemaking
+
+Public Law 114-113
+
+Extends EPACT2005’s 30% ITC
+for solar property through
+2019, decreasing to 26% in
+2020, 22% in 2021, and then
+remaining at 10% in 2022 and
+subsequent years
+
+Tax credits are
+incorporated into the cash
+flow for solar generation
+systems; investment cost
+for solar water heaters is
+reduced by the required
+percentage
+
+Federal Register Notice
+of Final Rulemaking;
+rates and schedule
+superseded by the IRA
+extension and
+expansion of the ITC
+(Public Law 117-169)
+
+Limits the statewide GHG
+emissions level to the 1990
+level to be achieved by 2020
+
+Additional subsidies are
+applied for energyefficient technologies in
+the Pacific Census
+Division; all increase in
+efficiency is attributed to
+California
+
+Apply assumptions of
+SB-350 as it sets a goal
+of doubling energy
+efficiency savings
+targets by 2030
+
+100% expensing and 50%
+bonus depreciation for
+geothermal heat pumps
+and solar thermal water
+heating are incorporated,
+reducing the investment
+cost
+
+TCJA2017, Section
+13201 (26 USC 168)
+
+Introduces 100% expensing
+for qualified property,
+including geothermal heat
+pumps, solar PV, and solar
+thermal water heating placed
+in service by 2022. Qualified
+property placed in service
+
+Public Law 115-97
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+11
+
+April 2026
+
+Legislation
+K.
+
+Bipartisan Budget Act
+(BBA) of 2018 (H.R.
+1892)
+a. Commercial ITC for
+distributed and
+renewable technologies
+
+L.
+
+Consolidated
+Appropriations Act,
+2021
+
+M.
+
+Inflation Reduction Act
+(IRA)
+a. Section 13102
+extension and
+modification of energy
+tax credit
+
+Brief description
+from 2023 to 2026 receives
+50% bonus depreciation
+
+Annual Energy Outlook
+(AEO) handling
+
+Basis
+Public Law 115-123
+
+Extends ITC provisions for
+several technologies not
+covered by the 2016
+Consolidated Appropriations
+Act, including geothermal
+heat pumps, qualified fuel cell
+and microturbine equipment,
+combined heat and power,
+and qualified small wind
+beginning construction before
+January 1, 2022
+Extends the phaseout of ITCs
+for distributed generation
+equipment by an additional
+two years
+
+The tax credits are
+incorporated into cash
+flow for applicable
+distributed generation
+systems; investment costs
+for geothermal heat
+pumps are reduced
+
+BBA2018, Section
+40411 (26 USC 48);
+rates and schedule
+superseded by the IRA
+extension and
+expansion of the ITC
+(Public Law 117-169)
+
+26% ITC extended through
+2022; phases down to
+22% in 2023 and 10% for
+subsequent years
+
+Public Law 116-260;
+rates and schedule
+superseded by the IRA
+extension and
+expansion of the ITC
+(Public Law 117-169)
+Public Law 117-169
+
+These provisions include
+extensions of the Internal
+Revenue Service Code Section
+48 ITC for certain energy
+properties
+
+Tax credits are
+incorporated into the cash
+flow for commercial solar
+and wind generation
+systems, increasing to
+30% in 2022 and available
+thereafter. Fuel cells and
+microturbines are eligible
+for a 30% and a 10%
+credit, respectively,
+through 2024. Investment
+costs for solar water
+heaters and groundsource heat pumps are
+reduced by the required
+percentage.
+See section 13102
+description for
+commercial solar and
+wind. We do not assume
+reductions in the ITC rate
+due to GHG targets being
+met.
+Estimated MACRS
+depreciation value for
+geothermal technologies
+and solar water heaters
+relative to installed costs
+that are subject to the
+updated ITC. The portion
+of costs offset by the ITC
+cannot be depreciated.
+
+Public Law 117-169
+
+b. Section 13702 Clean
+electricity investment
+credit
+
+This provision creates a new
+ITC for eligible clean energy
+technologies.
+
+c. Section 13703 cost
+recovery for qualified
+facilities, qualified
+property, and energy
+storage technology
+
+The provision updates the
+definition of a five-year
+property to include property
+qualifying for the clean
+energy investment tax credit,
+and any energy storage
+technology for modified
+accelerated cost recovery
+(MACRS).
+
+Public Law 117-169
+
+Public Law 117-169
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+12
+
+April 2026
+
+Legislation
+
+O.
+
+One Big Beautiful Bill
+Act (OBBBA)
+a. Section 70509
+Termination of cost
+recovery for energy
+property
+b. Section 70307 Special
+Depreciation Allowance
+for Qualified Production
+Property
+
+Brief description
+
+The provision terminates cost
+recovery for clean energy
+projects, which are no longer
+included in the five-year
+property definition.
+
+Eliminate ITC for solar PV,
+fuel cells, wind, groundsource heat pumps, and
+solar water heaters after
+2025.
+
+This provision allows for 100%
+year-one depreciation for
+qualifying equipment placed
+in service after January 19,
+2025.
+
+Estimated and applied
+savings to installed cost
+due to MACRS
+depreciation for
+geothermal technologies
+and solar water heaters.
+The value of the year-one
+100% MACRS depreciation
+does not include the value
+of rebates or other
+incentives that offset the
+installed cost of
+equipment. We do not
+explicitly model energy
+storage in the commercial
+sector.
+
+Industrial sector
+A.
+
+Legislation
+Clean Air Act
+Amendments of 1990
+(CAAA1990)
+
+Brief description
+
+a. Process emissions
+
+Numerous process emissions
+requirements for specified
+industries and activities
+
+b. Emissions related to
+hazardous and toxic
+substances
+
+Numerous emissions
+requirements for hazardous
+and toxic substances
+
+c. Industrial sulfur
+dioxide (SO2) emissions
+
+Sets annual limit for industrial
+SO2 emissions at 5.6 million
+tons. If limit is reached,
+specific regulations could be
+implemented
+Requires industrial boilers
+and process heaters to
+conduct periodic tune-ups or
+meet emissions limits on
+hazardous air pollutants to
+
+d. Industrial boiler
+hazardous air
+pollutants
+
+Annual Energy Outlook
+(AEO) handling
+We do not explicitly
+model energy storage in
+the commercial sector.
+
+Annual Energy Outlook
+(AEO) handling
+
+Basis
+
+Public Law 119-21
+
+Public Law 119-21
+
+Basis
+
+Requirements not yet
+modeled, because process
+emissions currently only
+modeled for the cement
+and lime industries.
+Not modeled because
+they are not directly
+related to energy
+projections
+Industrial SO2 emissions
+are not projected to reach
+the limit
+
+CAAA1990, 40 CFR 60
+
+Costs of compliance that
+are not offset by
+efficiency gains (nonrecoverable costs) are
+modeled as an additional
+
+U.S. Environmental
+Protection Agency,
+National Emissions
+Standards for
+Hazardous Air
+
+CAAA1990, 40 CFR 60
+
+CAAA1990, Section 406
+(42 USC 7651)
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+13
+
+April 2026
+
+B.
+
+Brief description
+comply with the Maximum
+Achievable Control
+Technology (MACT) floor.
+Regulations finalized
+December 2012
+
+e. Emissions from
+stationary diesel
+engines
+
+Requires engine
+manufacturers to meet the
+same emission standards as
+nonroad diesel engines. Fully
+effective in 2011
+
+New stationary engines
+meet the standards
+
+Specifies minimum
+combustion efficiency for
+package boilers larger than
+300,000 British thermal units
+(Btu) per hour: natural gas
+boilers at 80% and oil boilers
+at 83%
+
+All package boilers are
+assumed to meet the
+efficiency standards.
+Although the standards
+do not apply to fielderected boilers, which are
+typically used in steamintensive industries, we
+assume they meet the
+standards in the AEO.
+
+Standards specified in
+EPACT1992, 10 CFR 431
+
+The California Assembly Bill
+32 (AB-32) sets GHG
+reduction goals for 2020 for
+California. A cap-and-trade
+program applies to multiple
+economic sectors including
+electric power plants, large
+industrial facilities, suppliers
+of transportation fuel, and
+suppliers of natural gas.
+
+Energy prices in the West
+Census Region increase
+based on GHG cap and
+trade prices and assumed
+emissions. The Industrial
+Demand Module is unable
+to model emissions at the
+state level.
+
+California Code of
+Regulations, California
+Cap on Greenhouse Gas
+Emissions and MarketBased Compliance
+Mechanisms,
+Subchapter 10 Climate
+Change, Article 5,
+Sections 95802 to
+96022, Title 17,
+(Sacramento,
+California: May 2014)
+
+Specifies minimum efficiency
+levels for a variety of motor
+types and sizes
+
+Purchases of motors must
+meet the EISA2007
+standards. Motors
+manufactured after June
+1, 2016, are required to
+comply with higher
+efficiency standards.
+
+EISA2007, 10 CFR Part
+431 as amended
+
+Energy Policy Act of
+1992 (EPACT1992)
+a. Boiler efficiency
+standards
+
+C.
+
+D.
+
+E.
+
+Annual Energy Outlook
+(AEO) handling
+capital cost in the
+Macroeconomic Activity
+Module based on
+proposed regulations as
+of September 2012
+
+Legislation
+
+California Global
+Warming Solutions Act
+of 2006 (AB-32); as
+amended, 2016 (SB-32)
+a. Limits the statewide
+greenhouse gas (GHG)
+emissions level to the
+1990 level to be
+achieved by 2020; SB32 in 2016 requires a
+40% reduction from the
+1990 GHG emission
+level by 2030
+
+The Energy
+Independence and
+Security Act of 2007
+(EISA2007)
+a. Motor efficiency
+standards
+
+The Energy
+Improvement and
+
+Basis
+Pollutants for
+Industrial, Commercial,
+and Institutional
+Boilers, Major Source
+(40 CFR 63, Subpart
+DDDDD) and Area
+Source (40 CFR 63 Part
+JJJJJJ)
+40 CFR Parts 60, 85, 89,
+94, 1039, 1065, and
+1068
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+14
+
+April 2026
+
+Legislation
+Extension Act of 2008
+(EIEA2008)
+a. Combined-heat-andpower tax incentive
+
+F.
+
+G.
+
+H.
+
+Bipartisan Budget Act
+of 2018 (BBA2018)
+a. Tax credits create
+incentives to build
+combined-heat-andpower units
+
+Consolidated
+Appropriations Act,
+2021 (CAA2021)
+a. Tax credits create
+incentives to build
+combined-heat-andpower units
+
+Inflation Reduction Act,
+2022 (IRA)
+a. Section 13102
+Extension and
+modification of energy
+tax credit
+
+Annual Energy Outlook
+(AEO) handling
+
+Basis
+
+Provides an ITC for up to 15
+megawatts (MW) of capacity
+in combined-heat-and-power
+systems of 50 MW or less
+through 2016
+
+System costs are adjusted
+to reflect the tax credit.
+
+EIEA2008, Title I, Sec.
+103
+
+BBA2018 retroactively
+extended the CHP ITC from
+the Energy Improvement and
+Extension Act of 2008
+(EIEA2008) through the end
+of 2021. The ITC in EIEA2008
+originally spanned from 2008
+through the end of 2016, but
+BBA2018 applied the ITC to all
+qualifying CHP facilities that
+began construction before
+January 1, 2022
+
+Superseded by
+Consolidated
+Appropriations Act, 2021
+
+U.S. Congress,
+“H.R.1892 - Bipartisan
+Budget Act of 2018”,
+Division D, Title I,
+Subtitle C—Extension
+and phase-out of
+energy credit, Sec.
+40411, 115th Congress
+(2017–2018), became
+Public Law No: 115-123
+on February 9, 2018
+
+CAA2021 extended the CHP
+ITC in Title 26 U.S. Code
+Section 48 through the end of
+2023. The new Inflation
+Reduction Act CHP ITC
+structure now applies for
+2023 and 2024, but we still
+use the flat 10% credit in
+2022.
+
+CHP tax credit incentive
+included in calculations of
+CHP economics through
+2022 (originally 2023 in
+the law, but the 2023 rate
+is now superseded by the
+structure prescribed in
+the Inflation Reduction
+Act).
+
+U.S. Congress, “H.R.133
+- Consolidated
+Appropriations Act,
+2021,” Division EE, Title
+I, Subtitle C—Extension
+of Certain Other
+Provisions, Sec. 132,
+116th Congress (2019–
+2020), became Public
+Law No: 116-260 on
+December 27, 2020
+
+IRA extended the CHP ITC in
+Title 26 U.S. Code Section 48
+through the end of 2024, and
+modified its structure in 2023
+and 2024. Instead of a flat
+10% credit in 2023 and 2024,
+it has a baseline 6% ITC credit.
+If a project meets prevailing
+wage and apprenticeship
+requirements set out in the
+bill, this percentage is instead
+30%. If the project meets
+domestic material content
+requirements defined in the
+bill, the ITC increases by a
+further 10 percentage points,
+or by 2 percentage points if
+the project does not meet the
+material requirements.
+
+We assume the minimum
+CHP tax credit of 10% in
+calculations of CHP
+economics in 2023 and
+2024.
+
+U.S. Congress,
+“H.R.5376 – Inflation
+Reduction Act of 2022,”
+Title I, Subtitle D—
+Energy Security, Sec.
+13102, 117th Congress
+(2021–2022), became
+Public Law No: 117-169
+on August 16, 2022.
+
+Brief description
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+15
+
+April 2026
+
+Legislation
+
+b. Section 13204 Clean
+hydrogen
+
+Brief description
+Finally, if a project is sited in
+an energy community as
+defined in the bill, the ITC is
+increased by 10 percentage
+points. If the project is not
+sited in an energy community,
+the ITC is increased by 2
+percentage points.
+Section 45V creates up to a
+$3.00/kg H2 PTC for clean
+hydrogen production.
+OBBBA changes the project
+online requirement from
+2033 to 2027.
+
+Transportation sector
+Legislation
+Corporate Average Fuel
+Economy Standards for
+Passenger Cars and
+Light Trucks for Model
+Years 2027 and Beyond
+and Fuel Efficiency
+Standards for HeavyDuty Pickup Trucks and
+Vans for Model Years
+2030 and Beyond
+
+Brief description
+Sets CAFE standards for model
+year 2027 and beyond lightduty vehicles and Class 2b
+pickups and vans
+
+B.
+
+Multi-Pollutant
+Emissions Standards for
+Model Years 2027 and
+Later Light- Duty and
+Medium-Duty Vehicles
+
+Sets tailpipe GHG standards for
+model year 2027 and beyond
+light-duty vehicles and Class 2b
+pickups and vans
+
+C.
+
+Petroleum-Equivalent
+Fuel Economy
+Calculation
+
+This final rule revises DOE's
+regulations regarding
+procedures for calculating a
+value for the petroleumequivalent fuel economy of
+electric vehicles (EVs). The
+petroleum equivalency factor
+(PEF) is used by EPA in
+calculating light-duty vehicle
+manufacturers' compliance
+with CAFE standards.
+
+A.
+
+Annual Energy Outlook
+(AEO) handling
+
+Assumes that hydrogen
+produced from
+electrolyzers is eligible for
+the PTC (hydrogen
+produced using carbon
+capture methods are
+instead eligible for the
+45Q tax credit).
+
+Annual Energy Outlook
+(AEO) handling
+Technology options and
+attributes (cost,
+performance, weight)
+are updated to align
+with the latest
+associated Final
+Regulatory Impact
+Analysis (FRIA). The
+standards are not
+enforced due to the
+elimination of civil
+penalties.
+Tailpipe GHG standards
+are increased in model
+years 2027–2032.
+Technology attributes
+and options are aligned
+with the MY2027+ CAFE
+standard FRIA as noted
+above.
+Changes to the PEF for
+MY2027–30 are
+implemented in CAFE
+compliance calculations
+for light-duty vehicles.
+The PEF is held
+constant after 2030.
+
+Basis
+
+U.S. Congress, “H.R.
+5376 – Inflation
+Reduction Act of 2022,“
+Title I, Subtitle D—
+Energy Security, Sec.
+13204, 117th Congress
+(2021–2022), became
+Public Law No: 117-169
+on August 16, 2022
+One Big Beautiful Bill
+Act (OBBBA)
+
+Basis
+Corporate Average Fuel
+Economy Standards for
+Passenger Cars and Light
+Trucks for Model Years
+2027 and Beyond and Fuel
+Efficiency Standards for
+Heavy-Duty Pickup Trucks
+and Vans for Model Years
+2030 and Beyond; Federal
+Register Vol. 89, No. 121,
+June 2024
+Multi-Pollutant Emissions
+Standards for Model Years
+2027 and Later Light- Duty
+and Medium-Duty
+Vehicles. Federal Register
+Vol. 89, No. 76, April
+2024.
+10 CFR Part 474. [EERE
+2021-VT-0033].
+RIN 1904-AF47
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+16
+
+April 2026
+
+Legislation
+Inflation Reduction Act
+of 2022 – Clean Vehicle
+Credit and Commercial
+Clean Vehicle Credit
+
+Brief description
+Federal tax credits are
+available to offset the upfront
+incremental cost of battery
+electric, plug-in hybrid electric,
+and hydrogen fuel cell vehicles
+
+E.
+
+Inflation Reduction Act
+of 2022 – Alternative
+Fuel Vehicle Refueling
+Property Credit
+
+Federal tax credits are
+available to offset the
+equipment and installation
+cost of electric vehicle supply.
+
+F.
+
+One Big Beautiful Bill
+Act (OBBBA)
+a. Section 70502:
+Termination of clean
+vehicle credit.
+
+D.
+
+F.
+
+G.
+
+b. Section 70503:
+Termination of
+qualified
+commercial clean
+vehicles credit.
+c. Section 70504:
+Termination of
+alternative fuel
+vehicle refueling
+property credit
+State electric, hybrid,
+and alternative-fuel
+vehicle tax and other
+incentives
+
+Heavy-Duty National
+Program; Phase II
+Greenhouse Gas
+Emissions and Fuel
+
+Terminates the Section 30D
+Clean Vehicle Credit after
+September 30, 2025.
+Terminates the Section 45W
+Qualified Commercial Clean
+Vehicles Credit on September
+30, 2025.
+
+Annual Energy Outlook
+(AEO) handling
+The tax credits for
+qualified vehicles –
+Section 30D for lightduty vehicles and
+Section 45W for
+medium- and heavyduty – are included in
+the sales projections.
+Growth in 30D
+eligibility is based on
+estimate developed for
+the EPA MY2027+
+Multi-Pollutant rule.
+The tax credit is applied
+to EV charging
+installations required
+for depot-operated
+fleet purchase of
+electric medium- and
+heavy-duty trucks,
+assuming an average of
+18% of charger
+installations qualify.
+
+Basis
+26 USC 30D, Clean vehicle
+credit and 26 USC 45W
+Commercial Clean Vehicle
+Credit (Public Law No.
+117-169, 2022)
+
+26 USC 30C, Alternative
+Fuel Vehicle Refueling
+Property Credit (Public
+Law No. 117-169, 2022)
+
+Public Law 119-21
+
+Reduces tax credit
+eligibility in 2025 by
+25%; eliminate credit in
+following years.
+Reduces tax credit
+eligibility in 2025 by
+25%; eliminate credit in
+following years.
+
+Terminates the Section 30C
+Alternative Fuel Vehicle
+Refueling Property Credit on
+June 30,2026.
+
+Eliminate credit after
+2026.
+
+More than 10 states provide
+incentives to purchase electric,
+hybrid, or alternative-fuel
+vehicles; the tax incentives are
+in the form of rebates, tax
+credits, and exemptions. Other
+incentives include toll lane fee
+credits, use of High Occupancy
+Vehicle lanes, and exemptions
+from emissions inspections and
+licensing fees. The incentives
+offered and the mix varies by
+state.
+Establishes greenhouse gas
+(GHG) emissions and fuel
+consumption standards for onroad, heavy-duty trucks and
+
+State tax and other
+incentives for hybrid,
+electric, and other
+alternative-fuel vehicles
+are included in the
+sales projections.
+
+Various state laws in place
+in California, Colorado,
+Connecticut, Delaware,
+District of Columbia,
+Illinois, Maine, Maryland,
+Massachusetts,
+Minnesota, New Jersey,
+New York, Oregon,
+Pennsylvania, Rhode
+Island, Vermont, and
+Washington.
+
+HD National Program
+Phase I and Phase II
+standards are modeled,
+with both engine and
+
+Section 202 of the Clean
+Air Act Title 49 USC,
+Chapter 32902[k]; Energy
+Independence and
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+17
+
+April 2026
+
+Legislation
+Consumption Standards
+for Heavy-Duty Vehicles
+and Phase III
+Greenhouse Gas
+Emissions Standards for
+Heavy-Duty Vehicles
+
+H.
+
+Control of Air Pollution
+from New Motor
+Vehicles: Heavy-Duty
+Engine and Vehicle
+Standards
+
+I.
+
+The International
+Convention for the
+Prevention of Pollution
+from Ships (MARPOL)
+Annex VI
+
+Brief description
+their engines. Standards begin
+for model year 2021 vehicles
+and engines and are fully
+phased in by model year 2024
+(Phase II); a second round of
+standards (GHG-only) for
+medium- and heavy-duty
+vehicles begins for model year
+2027 vehicles and is fully
+implemented by model year
+2032 (Phase III); the second
+round adds heavy-haul tractors
+and trailers
+This EPA program finalizes new
+air pollution standards for
+heavy-duty trucks, including
+NOx, ozone, and particulate
+matter.
+
+Sets limits on emissions of
+sulfur oxides and nitrogen
+oxides from ship exhausts and
+prohibits deliberate emissions
+of ozone-depleting substances.
+First effective on May 19,
+2005. Requirements added on
+January 1, 2015, set a
+maximum of 0.1% sulfur fuel
+use or exhaust scrubber use in
+Emission Control Areas (ECA),
+from a previous 1% limit. In
+October 2016, International
+Maritime Organization
+members agreed to the 2008
+MARPOL amendments that
+implemented a new global
+limit in 2020 for sulfur
+emissions from ships. Under
+the new requirement, vessel
+operators must use fuel oil on
+board (which includes main
+and auxiliary engines and
+boilers) with a sulfur content of
+no more than 0.5% mass per
+mass
+
+Electric power sector
+A.
+
+Legislation
+Clean Air Act
+Amendments of 1990
+(CAAA1990)
+
+Brief description
+Establishes a national limit on
+electricity generator emissions
+of sulfur dioxide (SO2) to be
+
+Annual Energy Outlook
+(AEO) handling
+chassis technologies;
+compliance is modeled
+among the 14 heavyduty vehicle regulatory
+classifications; EPA
+Phase III standards are
+modeled in similar
+fashion; the standards
+are held constant in
+model years after 2032
+
+The cost to comply with
+NOx standards is
+implemented as an
+incremental cost on
+each of the internal
+combustion engine
+powertrains, based on
+cost calculations in the
+regulation.
+MARPOL Annex VI fuel
+sulfur mandates are
+reflected in domestic
+and international
+shipping fuel choices
+starting in 2015
+
+Annual Energy Outlook
+(AEO) handling
+SO2 cap-and-trade
+program is explicitly
+modeled, choosing the
+
+Basis
+Security Act of 2007, Title
+1, Section 102; Federal
+Register, Vol. 76, No. 179,
+September 2011; Federal
+Register, Vol 81, No. 206,
+October 2016
+Federal Register, Vol 89,
+No. 117, June 2024
+
+Federal Register Vol. 88,
+No. 15, January 2023.
+
+MARPOL 73/78, (33 U.S.C
+1901(a) (4) & (5),
+1902(a)(1) & (5), and 1907
+(a), as amended by the
+Maritime Pollution
+Prevention Act of 2008
+(MPPA), RESOLUTION
+MEPC.320(74), Public Law
+110-280, 122 Stat 2611)
+
+Basis
+Clean Air Act
+Amendments of 1990,
+Title IV, Sections 401
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+18
+
+April 2026
+
+Legislation
+
+New Source
+Performance
+Standards: Greenhouse
+Gas Emissions from
+New, Modified, and
+Reconstructed Fossil
+Fuel-Fired Electric
+Generating Units
+
+Emission Guidelines for
+Greenhouse Gas
+Emissions from Existing
+Fossil Fuel-Fired Electric
+Generating Units
+
+Brief description
+achieved through a cap-andtrade program
+
+Annual Energy Outlook
+(AEO) handling
+optimal mix of options
+for meeting the
+national emissions cap
+
+Requires the EPA to establish
+National Ambient Air Quality
+Standards (NAAQS) for criteria
+pollutants. States have until
+March 2026 to comply. Areas
+falling into the designation of
+moderate nonattainment had
+until late 2023 to comply
+
+These standards are not
+explicitly represented,
+but the Cross State Air
+Pollution Rule is
+incorporated and was
+developed to help
+states meet their
+NAAQS
+
+Section 111(b) enables EPA to
+develop standards for
+emissions for new stationary
+sources, e.g., power plants; in
+2024, EPA finalized new rules
+that determined the best
+system for emission reduction
+(BSER) for GHG reductions for
+new combustion turbine
+electric generating units
+(EGUs). The 111(b) ruling
+requires new natural gas plants
+that intend to run as base load
+units (greater than 40%
+capacity factor) to operate
+with 90% CO2 capture by 2032,
+while plants operating at
+intermediate or low load levels
+have standards consistent with
+current efficient designs and
+use of low-emitting fuel.
+Section 111(d) enables EPA to
+develop standards for
+emissions existing stationary
+sources, e.g., power plants; in
+May 2024, EIA finalized new
+rules that determined the best
+system for emission reduction
+(BSER) for GHG reductions for
+existing coal-fired EGUs. The
+111(d) ruling allows existing
+steam turbines at coal power
+plants to operate until January
+1, 2039, if they either convert
+to a natural gas-fired steam
+unit or cofire at least 40% with
+natural gas by 2030. They must
+be retrofitted with a carbon
+capture and sequestration
+
+This performance
+standard is represented
+by restricting operation
+to an annual 40%
+capacity factor on any
+new natural gas-fired
+combined cycle plants
+that are built without
+CCS.
+
+These requirements are
+represented for existing
+coal plants, allowing
+the model to make
+economic decisions
+regarding conversion
+fully to natural gas-fired
+operation, conversion
+to co-fire with natural
+gas, or retrofit with a
+CCS system by the
+appropriate deadlines.
+
+Basis
+through 406, Sulfur
+Dioxide Reduction
+Program, 42 U.S.C. 7651a
+through 7651e
+Clean Air Act Amendment
+of 1990, Title I, Sections
+108 and 109, National
+Ambient Air Quality
+Standards for Ozone, 40
+CFR Part 50, Federal
+Register, Vol. 68, No. 3,
+January 8, 2003. National
+Ambient Air Quality
+Standards for Particulate
+Matter, 40 CFR Part 50,
+Federal Register, Vol. 62,
+No. 138, July 18, 1997
+U.S. Environmental
+Protection Agency, New
+Source Performance
+Standards for Greenhouse
+Gas Emissions from New,
+Modified, and
+Reconstructed Fossil FuelFired Electric Generating
+Units; Emission Guidelines
+for Greenhouse Gas
+Emissions from Existing
+Fossil Fuel-Fired Electric
+Generating Units; and
+Repeal of the Affordable
+Clean Energy Rule. Federal
+Register, Vol. 89, No. 91
+(May 9, 2024), 40 CFR
+Parts 60.
+
+U.S. Environmental
+Protection Agency, New
+Source Performance
+Standards for Greenhouse
+Gas Emissions from New,
+Modified, and
+Reconstructed Fossil FuelFired Electric Generating
+Units; Emission Guidelines
+for Greenhouse Gas
+Emissions from Existing
+Fossil Fuel-Fired Electric
+Generating Units; and
+Repeal of the Affordable
+Clean Energy Rule. Federal
+Register, Vol. 89, No. 91
+(May 9, 2024), 40 CFR
+Parts 60.
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+19
+
+April 2026
+
+Legislation
+
+B.
+
+Cross-State Air
+Pollution Rule (CSAPR)
+
+C.
+
+Mercury and Air Toxics
+Standards (MATS)
+
+D.
+
+EPA’s Effluent
+Limitation Guidelines
+(ELG)
+
+Brief description
+(CCS) system with a 90%
+capture rate by 2032 if they
+are intended to operate
+beyond January 1, 2039.
+Otherwise, coal power plants
+must retire by 2032.
+CSAPR requires states to
+reduce SO2 and nitrogen oxides
+(NOx) emissions from power
+plants. CSAPR consists of four
+individual cap-and-trade
+programs, covering two
+different SO2 groups, an annual
+NOx group, and a seasonal NOx
+group. A total of 23 states are
+subject to annual limits, and 25
+states are subject to seasonal
+limits. In September 2016, EPA
+finalized an update to the
+emission budgets and target
+dates for the CSAPR ozone
+season program. On March 15,
+2021, EPA finalized an update
+to the CSAPR to require
+additional emissions
+reductions of nitrogen oxides
+from power plants in 12 states
+and revised the budgets for
+their emissions from 2022 to
+2024. AEO2026 does not
+reflect changes that would
+have been introduced through
+EPA’s 2023 Good Neighbor
+Plan to further revise NOx
+standards because the U.S.
+Supreme Court issued a stay
+on implementation in June
+2024.
+MATS sets standards to reduce
+air pollution from coal- and oilfired power plants with a
+capacity greater than 25 MW.
+The revised 2024 rule requires
+plants to achieve the maximum
+achievable control technology
+for mercury, hydrogen chloride
+(HCl), and fine particulate
+matter (PM 2.5)
+EPA regulates wastewater
+discharges from coal-fired
+power plants to limit pollutants
+discharged. The rule was most
+recently amended in 2024,
+establishing zero pollutants
+limitations for certain
+wastewater stream and
+
+Annual Energy Outlook
+(AEO) handling
+
+Basis
+
+Cap-and-trade
+programs for SO2 and
+NOX are modeled
+explicitly, allowing the
+model to choose the
+best method for
+meeting the emission
+caps. Updated budgets
+and dates are
+incorporated
+
+U.S. Environmental
+Protection Agency, CrossState Air Pollution Rule,
+website epa.gov/air
+transport. Federal
+Register, Vol. 70, No. 91
+(May 12, 2005), 40 CFR
+Parts 51, 72, 73, 74, 77,
+78, and 96. Federal
+Register 86 FR 23054
+(April 30, 2021)
+
+The Electricity Market
+Module (EMM)
+assumes that all coalfired generating plants
+above 25 MW that are
+still in operation by the
+regulatory deadline are
+in compliance.
+
+U. S. Environmental
+Protection Agency,
+Mercury and Air Toxics
+Standards, website
+
+Not explicitly modeled
+in NEMS, but ELG
+compliance is reflected
+in Form EIA-860 filings,
+as each plant takes
+action to comply, and
+reflected in EMM input
+assumptions
+
+EPA, Steam Electric Power
+Generating Effluent
+Guidelines, Federal
+Register, Vol. 85, No. 198
+(October 13, 2020), 40
+CFR Part 423.
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+20
+
+April 2026
+
+Legislation
+
+E.
+
+New Source Review
+(NSR)
+
+F.
+
+Federal Energy
+Regulatory Commission
+(FERC) Orders 888 and
+889
+
+G.
+
+State Clean Energy
+Standard (CES) Laws,
+Mandates, and Goals
+
+Brief description
+mercury and arsenic
+limitations for certain
+groundwater and surface
+impoundment waste streams
+On August 28, 2003, EPA
+issued a final rule defining
+certain power plant and
+industrial facility activities as
+routine maintenance, repair,
+and replacement, which are
+not subject to NSR. As stated
+by EPA, these changes provide
+a category of equipment
+replacement activities that is
+not subject to major NSR
+requirements under the
+routine maintenance, repair,
+and replacement (RMRR)
+exclusion. In other words, a
+facility’s engagement in RMRR
+activities will not have to get
+preconstruction approval from
+the state or EPA and will not
+have to install best available
+emissions control technologies
+that might be required under
+the NSR process
+FERC has issued two related
+rules, Orders 888 and 889,
+which aim to bring low-cost
+power to consumers through
+competition, ensure continued
+reliability in the industry, and
+provide for open and equitable
+transmission services by
+owners of these facilities.
+
+Several jurisdictions have
+enacted laws requiring that a
+certain percentage of their
+generation comes from
+qualifying zero-emitting or
+renewable sources. Among
+these states, some have
+implemented technology-
+
+Annual Energy Outlook
+(AEO) handling
+
+Basis
+
+We assume coal plants
+are able to increase
+their output as
+electricity demand
+increases. Their
+maximum capacity
+factor is set at 65%. We
+assume the capacity of
+existing plants does not
+increase
+
+EPA, 40 CFR Parts 51 and
+52, Deterioration (PSD)
+and Non-Replacement
+Provision of the Vol. 68,
+No. 207, page 61,248,
+Prevention of Significant
+Attainment New Source
+Review (NSR): Equipment
+Routine Maintenance,
+Repair and Replacement
+Exclusion; Final Rule,
+Federal Register, October
+27, 2003
+
+All generators in a given
+region are assumed to
+satisfy load
+requirements anywhere
+within the region.
+Similarly, transactions
+between regions are
+assumed to occur if the
+cost differentials
+between them make it
+economical to do so.
+
+Promoting Wholesale
+Competition Through
+Open Access, NonDiscriminatory
+Transmission Services by
+Public Utilities; Public
+Utilities and Transmitting
+Utilities, Order No. 888
+Issued April 24, 1996), 18
+CFR Parts 35 and 385,
+Docket Nos. RM95-8-000
+and RM94-7-001; Open
+Access Same-Time
+Information System
+(formerly Real-Time
+Information Networks)
+and Standards of Conduct,
+Order No. 889, (Issued
+April 24, 1996), 18 CFR
+Part 37, Docket No.
+RM95-9-000
+The states with CES or
+other requirements
+providing quantified
+projections are detailed in
+the Appendix: Existing
+State-level Clean Energy
+Policies.
+
+To the extent possible,
+AEO2026 reflects state
+laws and regulations
+enacted as of
+December 2025. We
+also include clean
+energy targets set forth
+by state-level executive
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+21
+
+April 2026
+
+H.
+
+Legislation
+
+Brief description
+specific targets, requiring that
+a certain percentage of
+required generation comes
+from a specific energy
+technology source
+
+Regional and State Air
+Emissions Regulations
+
+The Northeast Regional
+Greenhouse Gas Initiative
+(RGGI) applies to fossil-fueled
+power plants over 25 MW in
+10 states in New England and
+the mid-Atlantic region of the
+United States. The rule caps
+CO2 emissions and requires
+that states account for CO2
+emitted with allowances
+purchased at auction. In
+December 2017, an Updated
+Model Rule was released,
+specifying a cap through 2030,
+modifications to the Cost
+Containment Reserves, and the
+creation of an Emissions
+Containment Reserve
+The California Assembly Bill 32
+(AB32) sets GHG reduction
+goals for 2020 for California. A
+cap-and-trade program aims to
+enforce the caps. The cap-andtrade program applies to
+multiple economic sectors
+including electric power plants,
+large industrial facilities,
+suppliers of transportation
+fuel, and suppliers of natural
+gas. Emissions resulting from
+electricity generated outside
+California but consumed in the
+state are also subject to the
+cap
+The California Senate Bill 32
+(SB32) sets GHG reduction
+goals for 2030 for California, at
+40% lower than 1990 levels,
+requiring additional declines
+from the AB32 goals. The
+California Assembly Bill 398
+
+Annual Energy Outlook
+(AEO) handling
+branch entities, but do
+not include voluntary
+goals. Mandatory
+targets from the
+various states are
+aggregated at the
+regional level, and
+achievement of
+nondiscretionary
+compliance criteria is
+evaluated for each
+region (see the
+Renewable Fuels
+Module Assumptions
+document)
+The impact of RGGI is
+included in the EMM,
+adjusting when needed
+to estimate the
+emissions caps at the
+regional level used in
+NEMS.
+
+Basis
+
+Regional Greenhouse Gas
+Initiative Model rule,
+www.rggi.org
+
+The EMM models the
+cap-and-trade program
+explicitly for CO2 for
+California through an
+emission constraint
+that accounts for
+emissions from the
+other sectors. Limited
+banking and borrowing
+of allowances as well as
+an allowance reserve
+and offsets are
+incorporated as
+specified in the bill
+
+California Code of
+Regulations, Subchapter
+10 Climate Change, Article
+5, Sections 95800 to
+96023, Title 17, California
+Cap on Greenhouse Gas
+Emissions and MarketBased Compliance
+Mechanisms,
+(Sacramento, CA: July
+2011)
+
+The EMM assumes the
+cap-and-trade program
+developed for AB32 will
+continue, and it sets
+new annual targets
+through 2030 to
+achieve the
+
+California Senate Bill 32,
+California Global Warming
+Solutions Act of 2006:
+emissions limit
+(September 8, 2016);
+California Assembly Bill
+398, California Global
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+22
+
+April 2026
+
+Legislation
+
+Brief description
+(AB398), passed in July 2017,
+provided more clarification on
+how the new targets will be
+achieved
+
+I.
+
+New York (NY) Clean
+Energy Standard
+
+The Clean Energy Standard
+creates two mechanisms to
+achieve New York’s goal to
+reduce carbon emissions
+through greater use of
+renewable and other zero
+emission generation. A
+renewable energy standard
+requires 50% of New York
+electricity sales to come from
+renewable energy sources by
+2030. The zero-emission credit
+(ZEC) program requires loadserving entities to purchase
+ZECs based on their share of
+state sales. Certain existing
+nuclear units are eligible to
+receive the ZECs if their
+profitability is determined at
+risk because of low market
+prices
+
+J.
+
+Illinois Future Energy
+Jobs Bill and Climate
+and Equitable Jobs Act
+
+The Future Energy Jobs Bill
+revised the state’s RPS
+program and created a zeroemission credit (ZEC) program
+for existing nuclear units.
+Existing nuclear units serving
+Illinois are eligible to receive
+the ZECs. The Clinton and Quad
+Cities nuclear plants were
+selected to receive payments
+under the original ZEC
+program. In September 2021,
+the Illinois Climate and
+Equitable Jobs Act was passed
+and includes carbon mitigation
+credits available to additional
+nuclear power plants, which
+led to the reversal of plans to
+shut down the Byron and
+Dresden plants
+
+Annual Energy Outlook
+(AEO) handling
+SB32/AB398 goals.
+After 2030, the target
+remains flat
+
+In the EMM, the
+renewable standard is
+modeled explicitly
+along with other state
+Renewable Portfolio
+Standards (RPS)
+programs; see the
+Appendix for more
+details. For states with
+programs designed
+specifically to provide
+support to existing
+nuclear generating
+plants (as is the New
+York Clean Energy
+Standard), the
+supporting subsidy is
+modeled by requiring
+the existing eligible
+units to remain
+operable during the
+program and by
+calculating any
+payment needed to
+keep them profitable.
+The calculated payment
+is passed through to
+retail prices
+In the EMM, the
+renewable standard is
+modeled explicitly in
+the same manner as
+other state RPS
+programs see the
+Appendix for more
+details. For states with
+programs designed
+specifically to provide
+support to existing
+nuclear generating
+plants (as is the Illinois
+Future Energy Jobs Bill
+and Climate and
+Equitable Jobs Act), the
+supporting subsidy is
+modeled by requiring
+the existing eligible
+units to remain
+operable during the
+
+Basis
+Warming Solutions Act of
+2006: market-based
+compliance mechanisms,
+fire prevention fees, sales
+and use tax
+manufacturing exemption
+(July 25, 2017)
+State of New York Public
+Service Commission,
+Order Adopting a Clean
+Energy Standard, August
+1, 2016
+
+State of Illinois, Future
+Energy Jobs Bill, Public Act
+099-0906, June 1, 2017
+and Climate and Equitable
+Jobs Act, SB2408,
+September 15, 2021
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+23
+
+April 2026
+
+Legislation
+
+Brief description
+
+K.
+
+New Jersey Zero
+Emission Certificate
+program for nuclear
+power plants
+
+New Jersey Senate Bill S2313
+establishes a zero-emission
+certificate (ZEC) program for
+existing nuclear power plants;
+a maximum of $300 million is
+available annually over 10
+years to nuclear plants that
+demonstrate they make a
+significant contribution to New
+Jersey air quality and that they
+are at risk of closure within 3
+years
+
+L.
+
+Connecticut Senate Bill
+No. 1501
+
+N.
+
+Infrastructure
+Investment and Jobs
+Act 2021
+
+Connecticut passed Senate Bill
+No. 1501 in June 2017,
+permitting nuclear power to
+compete in zero-emissions
+state energy auctions and
+solicitations, as required under
+Public Act 17-3. In December
+2018, Connecticut’s
+Department of Energy and
+Environmental Protection
+selected a 10-year proposal
+from the Millstone nuclear
+plant for about half of its
+2.1gigawatt output. Between
+2022 and 2029, Millstone will
+receive higher prices based on
+environmental, economic, and
+grid benefits. The Seabrook
+nuclear power plant, in New
+Hampshire, was also selected,
+and its contract begins in 2022.
+The civil nuclear credit
+program supports nuclear
+power plants in competitive
+electricity markets that may
+shut down due to economic
+viability. The Secretary of
+Energy will determine specific
+
+Annual Energy Outlook
+(AEO) handling
+program and by
+calculating any
+payment needed to
+keep them profitable.
+The calculated payment
+is passed through to
+retail prices
+For states with
+programs designed
+specifically to provide
+support to existing
+nuclear generating
+plants (as is the New
+Jersey Zero Emission
+Certificate program),
+the supporting subsidy
+is modeled by requiring
+the existing eligible
+units to remain
+operable during the
+program and by
+calculating any
+payment needed to
+keep them profitable,
+subject to the cap. The
+calculated payment is
+passed through to retail
+prices
+As the Connecticut
+legislation creates a
+general clean energy
+auction, rather than
+specific support for
+existing nuclear
+generating plants, the
+standard modeling
+approach used to
+model other state
+nuclear programs is not
+applied to Connecticut.
+In the AEO2026 core
+cases, nuclear plants in
+New England tend to be
+economical and are not
+projected to retire
+through at least 2030
+
+The EMM models this
+program by expanding
+the earlier state ZEC
+logic to all competitive
+states that are not
+already receiving state
+payments, but for these
+
+Basis
+
+State of New Jersey,
+Senate Bill No. 2313, May
+23, 2018
+
+Connecticut General
+Assembly, Senate Bill No.
+1501, June 2017
+
+Infrastructure, Investment
+and Jobs Act, HR3684,
+November 15,2021,
+Section 40323
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+24
+
+April 2026
+
+Legislation
+
+Brief description
+unit eligibility and credit level,
+under a $6 billion total budget,
+allocated in fiscal years (FY)
+2022–2026
+IRA sections 13701 and 13702
+created new PTC and ITC for
+qualified domestically
+produced electricity from zeroemission resources; OBBBA
+sections 70512 and 70513
+revised the expiration date and
+added restrictions for the tax
+credit eligibility
+
+Annual Energy Outlook
+(AEO) handling
+additional states, the
+costs are not passed
+through to electricity
+prices
+The EMM models the
+new tax credit values
+assuming the prevailing
+wage and
+apprenticeship
+requirements are
+satisfied for all
+qualifying technologies
+in the electric power
+sector. The domestic
+content bonus is
+assumed for onshore
+and offshore wind,
+biomass facilities, and
+both nuclear
+technologies. The tax
+credits for wind and
+solar technologies
+terminate for plants
+under construction
+after July 4, 2026, and
+in service after
+December 31, 2027.
+Tax credits for other
+technologies are
+phased out after 2033
+(under construction
+date). The energy
+community bonus
+credit is not modeled
+for onshore wind and
+solar technologies due
+to the limited
+availability of the
+credit. OBBBA
+introduced an energy
+community bonus for
+new nuclear
+construction, but it was
+not modeled due to a
+lack of data availability
+and IRS guidance.
+Geothermal, battery
+storage, hydroelectric,
+and offshore wind
+technologies take the
+ITC, while biomass,
+onshore wind, nuclear,
+and both solar
+technologies take the
+PTC. In the EMM, the
+restrictions related to
+
+Basis
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+25
+
+April 2026
+
+Legislation
+
+Brief description
+
+IRA section 13502 created a
+PTC for domestically
+manufacturing components
+under the Advanced
+Manufacturing PTC section
+45X; OBBBA section 70514
+modified the provisions;
+IRA section 13105 created a
+PTC for existing nuclear
+generation for facilities online
+before 2022. Qualifying
+generation will get a credit in
+2024 through 2032. OBBBA
+Section 70510 added certain
+restrictions prohibiting
+ownership by foreign entities.
+
+IRA section 13104 extends and
+modifies the carbon dioxide
+capture (CO2) credit under IRS
+section 45Q; OBBBA section
+112011 made revisions to
+certain credit values
+
+Annual Energy Outlook
+(AEO) handling
+foreign entities of
+concern were modeled
+by assuming an
+additional three
+percentage point risk
+premium on the cost of
+capital for wind, solar,
+and battery storage
+builds during the time
+the tax credit is
+available.
+The EMM assumes no
+technology is eligible
+for the bonus credit
+because of the period
+of tax credit availability
+shortened by OBBBA.
+
+Basis
+
+The EMM explicitly
+models the credits
+based on a base rate of
+0.3 cents/kWh that is
+reduced when average
+revenues exceed 2.5
+cents/kWh. The
+facilities are assumed
+to meet prevailing
+wage and
+apprenticeship
+requirements to receive
+a bonus factor of five.
+The EMM assumes that
+no existing nuclear
+units will be restricted
+from claiming the credit
+based on ownership.
+The tax credit is
+extended and modified
+according to the values
+indicated in the IRA,
+assuming prevailing
+wage and
+apprenticeship
+requirements are met.
+The required start date
+for qualifying CO2
+capture and storage
+projects is extended to
+all plants that begin
+construction before
+January 1, 2033.
+The tax credit for CO2
+used for EOR and
+stored in saline aquifers
+are both set to $85 per
+metric ton (mt). After
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+26
+
+April 2026
+
+Legislation
+
+Brief description
+
+Oil and natural gas supply
+A.
+
+Legislation
+The Outer Continental
+Shelf Deep Water
+Royalty Relief Act
+(DWRRA)
+
+B.
+
+Energy Policy and
+Conservation Act
+Amendments of 2000
+
+C.
+
+Tax Cuts and Jobs Act of
+2017
+
+D.
+
+Colorado setback
+requirements between
+new wells and most
+buildings
+
+Brief description
+Requires that all tracts
+offered by November 28,
+2000, in deep water in certain
+areas of the Gulf of Mexico
+must be offered under the
+new bidding system
+permitted by the DWRRA. The
+Secretary of the Interior must
+offer such tracts with a
+specific minimum royalty
+suspension volume based on
+water depth
+Requires the U.S. Geological
+Survey (USGS) to inventory oil
+and natural gas resources
+beneath federal lands
+
+Sets federal corporate tax
+rate at 21% and establishes a
+program for the leasing and
+developing of crude oil and
+natural gas from the coastal
+plain (1002 Area) of the Arctic
+National Wildlife Refuge
+(ANWR)
+The Colorado Oil and Gas
+Conservation Commission
+(COGCC) approved revisions
+to oil and natural gas
+permitting rules in Colorado.
+Of note is the provision that
+increased the drilling setback
+from homes and businesses
+from 500 feet to 2,000 feet.
+
+Annual Energy Outlook
+(AEO) handling
+2026, credits rise with
+inflation.
+
+Annual Energy Outlook
+(AEO) handling
+Incorporates royalty rates
+based on water depth
+
+To date, the USGS has
+completed its Rocky
+Mountain oil and natural
+gas resource inventory.
+The results of this
+inventory have been
+incorporated in the
+technically recoverable oil
+and natural gas resource
+volumes used for the
+Rocky Mountain region
+
+Federal tax rate is set to
+21%. Oil fields in the 1002
+Area of ANWR are
+available for exploration
+and development if
+economical
+Modeled by reducing the
+acreage that can be
+drilled in Colorado
+
+Basis
+
+Basis
+43 USC SS 1331-1356
+(2002)
+
+Scientific Inventory of
+Onshore Federal Lands:
+Oil and Gas Resources
+and Reserves and the
+Extent and Nature of
+Restrictions or
+Impediments to Their
+Development: The
+Paradox/San Juan,
+Uinta/Piceance,
+Greater Green River,
+and Powder River
+Basins and the
+Montana Thrust Belt;
+Prepared by the U.S.
+Departments of
+Interior, Agriculture,
+and Energy, January
+2003
+Public Law 115-97
+
+Senate Bill 19-181
+directed the COGCC to
+regulate drilling in a
+way that protects
+public health and the
+environment
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+27
+
+April 2026
+
+Legislation
+
+Brief description
+The new setback requirement
+applies to new permit
+applications and still-pending
+applications submitted under
+the previous rules
+Increased royalty rates for
+production on federal lands,
+water. New royalties on
+extracted methane on federal
+land to include venting/flaring
+
+Annual Energy Outlook
+(AEO) handling
+
+E.
+
+Inflation Reduction Act
+(IRA), as amended by
+OBBBA
+
+F.
+
+IRA Section 13104
+Extension and
+modification of credit
+for carbon oxide
+sequestration, as
+amended by OBBBA
+Section 70522
+Restriction on Carbon
+Oxide Sequestration
+Credit
+
+This provision extends the
+carbon oxide capture credit
+under IRS section 45Q
+
+a. Section 50261
+Offshore oil and gas
+royalty rate
+
+This provision increases the
+minimum royalty rate for new
+offshore fossil fuel leases
+
+b. Section 50262
+Mineral Leasing Act
+modernization
+c. Section 50264 Lease
+sales under the 2017–
+2022 Outer Continental
+Shelf leasing program
+
+This provision updates the
+onshore oil and natural gas
+royalty rates
+This provision requires the
+completion of the 2017–2022
+Outer Continental Shelf
+leasing program
+
+Updated the onshore oil
+and natural gas
+production royalty rates
+We assume the 2017–
+2022 Outer Continental
+Shelf Leasing Program is
+completed
+
+Brief description
+Taxes are levied on each
+gasoline-gallon equivalent of
+compressed natural gas and
+each diesel-gallon equivalent
+of liquefied natural gas used
+in road vehicles and ships
+
+Annual Energy Outlook
+(AEO) handling
+Current federal motor
+fuels excise taxes on
+natural gas fuel for road
+vehicles and ships are
+included in retail prices
+and are assumed to be
+
+Natural gas market
+A.
+
+Legislation
+Federal Motor Fuels
+Excise Taxes for
+Compressed Natural
+Gas and Liquefied
+Natural Gas in Vehicles.
+Liquefied natural gas
+
+Adjusted royalty rates
+accordingly for production
+on federal lands, water.
+Removed royalties on
+extracted methane from
+venting/flaring on federal
+lands
+The tax credit is extended
+and modified according to
+the values indicated in the
+IRA, assuming prevailing
+wage and apprenticeship
+requirements are met.
+The required start date
+for qualifying CO2 capture
+and storage projects is
+extended to all plants that
+begin construction before
+January 1, 2033.
+Following OBBBA
+amendments, the tax
+credit for CO2 used for
+enhanced oil recovery
+(EOR) or stored in saline
+aquifers is set to $85 per
+metric ton (mt) from 2023
+to 2026. After 2026,
+credits rise with inflation.
+Implemented updated
+minimum royalty rates
+
+Basis
+
+Public Law 117-169
+
+Basis
+26 USC 4041
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+28
+
+April 2026
+
+Legislation
+tax changed as of
+January 1, 2016, under
+the Surface
+Transportation and
+Veterans Health Care
+Choice Improvement
+Act of 2015 (H.R. 3236)
+State Motor Fuels Taxes
+for Compressed Natural
+Gas and Liquefied
+Natural Gas in Vehicles
+
+Brief description
+
+C.
+
+Renewable Fuel
+Standard (RFS)
+
+Requires the use of a
+determined amount of
+cellulosic biofuel each year
+
+D.
+
+California Low Carbon
+Fuel Standard (LCFS)
+
+California passed legislation
+that aims to reduce the
+carbon intensity (CI) of motor
+gasoline and diesel fuels sold
+in California by 10% between
+2012 and 2020 through the
+increased sale of alternative
+low-carbon fuels. In 2018, the
+LCFS was extended through
+2030 with an additional 10%
+planned reduction in carbon
+intensity, for a total 20%
+reduction relative to the 2010
+baseline
+
+B.
+
+Taxes are levied on each
+gallon, gasoline-gallon
+equivalent, or diesel-gallon
+equivalent of natural gas for
+road vehicles
+
+Annual Energy Outlook
+(AEO) handling
+extended indefinitely in
+nominal dollars
+
+Current state motor fuels
+excise taxes on natural
+gas fuel for road vehicles
+are included in retail
+prices and are assumed to
+be extended indefinitely
+in nominal rates
+Assumes that nearly all
+cellulosic biofuel use is
+met by renewable natural
+gas (RNG)
+Reflects LCFS credits into
+RNG production decisions
+for landfill and dairy farmbased RNG
+
+Basis
+
+Determined by review
+of existing state laws
+
+Energy Policy Act of
+2005, Section 1501.
+Renewable Fuel
+Standard Mandates
+California Air Resources
+Board (CARB), Final
+Regulation Order:
+Subarticle 7. Low
+Carbon Fuel Standard
+
+Liquid fuels market
+A.
+
+B.
+
+Legislation
+Ultra-low sulfur diesel
+(ULSD) regulations under
+the Clean Air Act
+Amendment of 1990
+Mobile Source Air Toxics
+(MSAT) Controls Under
+the Clean Air Act
+Amendment of 1990
+
+Brief description
+Since mid-2012, all diesel for
+domestic use (highway,
+nonroad, locomotive, marine)
+must be at or below 15 parts
+per million (ppm) of sulfur
+Establishes a list of 21
+substances emitted from
+motor vehicles that are
+known to cause serious
+human health effects,
+particularly benzene,
+formaldehyde, 1.3 butadiene,
+acetaldehyde, diesel exhaust
+organic gases, and diesel
+particulate matter;
+establishes anti-backsliding
+and anti-dumping rules for
+gasoline
+
+Annual Energy Outlook
+(AEO) handling
+Reflected in diesel
+specifications
+
+Modeled by updating
+gasoline specifications to
+most current EPA gasoline
+survey data (2005), which
+represents antibacksliding requirements
+
+Basics
+40 CFR Parts 69, 80, 86,
+89, 94, 1039, 1048,
+1065, and 1068
+40 CFR Parts 60 and 86
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+29
+
+April 2026
+
+C.
+
+Legislation
+Low Sulfur Gasoline
+Regulations Under the
+Clean Air Act
+Amendment of 1990
+
+D.
+
+Tier 3 Vehicle Emission
+and Fuel Standards
+Program
+
+E.
+
+Methyl Tertiary Butyl
+Ether (MTBE) Bans in 25
+states
+
+F.
+
+Regional Clean Fuel
+Formations
+
+G.
+
+Federal Motor Fuels
+Excise Taxes
+
+H.
+
+State Motor Fuel Taxes
+
+I.
+
+Diesel Excise Taxes
+
+J.
+
+Energy Policy Act of
+2005 (EPACT2005)
+a. Biodiesel mixture tax
+credit (BTC)
+
+Brief description
+Gasoline must contain an
+average of 30 ppm sulfur or
+less by 2006; small refiners
+may be permitted to delay
+compliance until 2008
+Gasoline must contain an
+average of 10 ppm sulfur or
+less by January 1, 2017; small
+refiners may be permitted a
+three-year delay
+25 states ban the use of
+MTBE in gasoline by 2007
+
+Annual Energy Outlook
+(AEO) handling
+Reflected in gasoline
+specifications
+
+Basics
+40 CFR Parts 80, 85,
+and 86
+
+Reflected in gasoline
+specifications beginning in
+2017
+
+40 CFR Parts 79, 80, 85,
+et al., final rule
+
+Ethanol assumed to be
+the oxygenate of choice
+for all motor gasoline
+blends
+
+State laws in Arizona,
+California, Colorado,
+Connecticut, Illinois,
+Indiana, Iowa, Kansas,
+Kentucky, Maine,
+Michigan, Minnesota,
+Missouri, Montana,
+Nebraska, New
+Hampshire, New
+Jersey, New York,
+North Carolina, Ohio,
+Rhode Island, South
+Dakota, Vermont,
+Washington, and
+Wisconsin
+State implementation
+plans required by the
+Clean Air Act
+Amendments of 1990,
+as approved by EPA
+
+States with air quality
+problems can specify
+alternative gasoline or diesel
+formulations with EPA’s
+permission. California has
+long had authority to set its
+own fuel standards
+Taxes are levied on each
+gallon of transportation fuels
+to fund infrastructure and
+general revenue. These taxes
+are set to expire at various
+times in the future but are
+expected to be renewed, as
+they have been in the past
+Taxes are levied on each
+gallon of transportation fuels.
+The assumption that state
+taxes will increase at the rate
+of inflation supports an
+implied need for additional
+highway revenues as driving
+increases
+Phases out the 4.3 cents
+excise tax on railroads
+between 2005 and 2007
+
+Reflected in Petroleum
+Administration for
+Defense District (PADD)level gasoline and diesel
+specifications
+
+Petroleum product blenders
+may claim tax credits for
+blending biodiesel or
+
+Gasoline, diesel, and
+ethanol blend tax rates
+are included in end-use
+prices and are assumed to
+be extended indefinitely
+at current nominal rates
+
+26 USC 4041 Extended
+by American Jobs
+Creation Act of 2004
+
+Gasoline and diesel rates
+are included in end-use
+prices and are assumed to
+be extended indefinitely
+in real terms (to keep
+pace with inflation)
+
+Determined by review
+of existing state laws
+performed semiannually by EIA’s Office
+of Energy Statistics
+
+Modeled by phasing out
+
+American Jobs Creation
+Act of 2004, Section
+241
+
+The tax credits are
+applied against the
+production costs of the
+
+26 USC 40, 26 USC
+6426, and 26 USC40A;
+Tax credits extended
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+30
+
+April 2026
+
+Legislation
+
+b. Renewable Fuel
+Standard (RFS)
+
+c. Elimination of oxygen
+content requirement in
+reformulated gasoline
+
+d. Coal gasification
+provisions
+
+K.
+
+L.
+
+Energy Independence
+and Security Act of 2007
+(EISA2007)
+a. Renewable Fuel
+Standard (RFS)
+
+State Heating Oil
+Mandates
+
+Brief description
+renewable diesel into diesel
+fuel or heating oil. Qualified
+producers or blenders are
+eligible for an income tax
+credit of $1.00 per gallon. The
+current BTC was signed into
+law in December 2019, was
+retroactively applied to 2018
+and 2019, and expired at the
+end of 2022
+This section has largely been
+redefined by EISA2007 (see
+item K); however, EPA
+rulemaking completed for this
+law was assumed to contain
+guiding principles of the rules
+and administration of
+EISA2007
+Removes the 2% oxygen
+requirement for reformulated
+gasoline (RFG) nationwide
+
+Investment tax credit
+program for qualifying
+advanced clean coal projects
+including coal-to-liquids (CTL)
+projects
+
+Requires the use of 36 billion
+gallons of ethanol per year by
+2022. Corn ethanol is limited
+to 15 billion gallons. Any
+other biofuel may be used to
+fulfill the balance of the
+requirement, but the balance
+must include 16 billion
+gallons per year of cellulosic
+biofuel by 2022 and 1 billion
+gallons per year of biodiesel
+by 2012. EPA is authorized to
+reduce volume targets
+specified in the statute in
+some circumstances.
+A number of northeastern
+states passed legislation that
+reduces the maximum sulfur
+content of heating oil to
+between 15 ppm and 50 ppm
+in different phases through
+2016
+
+Annual Energy Outlook
+(AEO) handling
+products into which they
+are blended. Biodiesel
+and renewable diesel are
+assumed to be blended
+into highway diesel,
+nonroad diesel, or heating
+oil
+
+Basics
+through December 31,
+2016, by Public Law
+114-113)
+
+Energy Policy Act of
+2005, Section 1501
+
+Oxygenate waiver already
+an option of the model.
+MTBE was phased out in
+2006 as a result of the
+petroleum industry’s
+decision to discontinue
+use
+Two CTL units are
+available to build with
+lower capital costs,
+reflecting the provision’s
+funding
+
+Energy Policy Act of
+2005, Section 1504
+
+The RFS is included;
+however, we assume the
+schedule for cellulosic
+biofuel is adjusted
+downward, consistent
+with waiver provisions
+contained in the law
+
+40 CFR Part 80 Subpart
+M; 40 CFR Part 1090;
+RFS Program: RFS
+Annual Rules
+
+All state regulations
+included as legislated.
+2013 EIA heating oil
+consumption data are
+used to calculate
+respective state census
+division shares for new
+
+Vermont Energy Act of
+2011, Maine State
+Legislature HP1160,
+New Jersey State
+Department of
+Environmental
+Protection,
+Amendment N.J.A.C.
+
+Energy Policy Act of
+2005, Section 1307
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+31
+
+April 2026
+
+M.
+
+Legislation
+
+Brief description
+
+California Low Carbon
+Fuel Standard (LCFS)
+
+California passed legislation
+that aims to reduce the
+carbon intensity (CI) of motor
+gasoline and diesel fuels sold
+in California by 10% between
+2012 and 2020 through the
+increased sale of alternative
+low-carbon fuels. In 2018, the
+LCFS was extended through
+2030 with an additional 10%
+planned reduction in carbon
+intensity, for a total 20%
+reduction relative to the 2010
+baseline
+Oregon passed legislation
+that aims to reduce the
+carbon intensity (CI) of motor
+gasoline and diesel fuels sold
+in Oregon by 10% by 2025
+from the 2015 baseline,
+followed by a 20% reduction
+by 2030 and 37% by 2035
+The California AB32, the
+Global Warming Solutions Act
+of 2006, authorized the
+California Air Resources
+Board to set GHG reduction
+goals for 2020 for California.
+A cap-and-trade program was
+designed to enforce the caps.
+The cap-and-trade program
+applies to multiple economic
+sectors including electric
+power plants, large industrial
+facilities, and suppliers of
+natural gas. Emissions
+resulting from electricity
+generated outside California
+but consumed in the state are
+also subject to the cap
+EPA approved two waivers for
+the use of ethanol motor
+gasoline blends of up to 15%
+in 2001 vehicles and newer
+
+Oregon Clean Fuels
+Program (CFP)
+
+N.
+
+California Assembly Bill
+32 (AB32)
+
+O.
+
+EPA Waiver
+
+P.
+
+U.S. Department of
+Commerce, Bureau of
+Industry and Security
+(BIS): clarification on the
+export of crude oil under
+the Export
+
+The definition of crude oil
+excludes hydrocarbon
+mixtures that have been
+processed through a crude oil
+distillation tower
+
+Annual Energy Outlook
+(AEO) handling
+consumption of low sulfur
+diesel as heating oil
+The LCFS is included as
+legislated for gasoline and
+diesel fuel sold in
+California and for other
+regulated fuels
+
+The CFP is included as
+legislated for gasoline and
+diesel fuel sold in Oregon
+and for other regulated
+fuels. The update to the
+CFP extending legislation
+to 2030 and 2035 is not
+included in AEO2023
+The AB32 cap-and-trade
+was more fully
+implemented in AEO2013,
+in which industrial
+facilities, refineries, fuel
+providers, and non-CO2
+GHG emissions were
+added to the
+representation already in
+the electrical power
+sector of NEMS. In
+addition, limited banking
+and borrowing, as well as
+an allowance reserve and
+offset purchases, were
+modeled, providing some
+compliance flexibility and
+cost containment
+These two waivers were
+included and modeled
+based on forecast vehicle
+fleets and potential
+infrastructure and liability
+setbacks
+Processed American
+Petroleum Institute (API)
+50+ crude oil is assumed
+to be processed
+condensate and is
+allowed to be exported
+
+Basics
+7:27-9.2, New York
+State Senate Bill
+51145C
+California Air Resources
+Board (CARB), Final
+Regulation Order:
+Subarticle 7. Low
+Carbon Fuel Standard
+
+Oregon Department of
+Environmental Quality
+(DEQ), Permanent
+Administrative Order
+DEQ 199-2018, Chapter
+340
+California Code of
+Regulations,
+Subchapter 10 Climate
+Change, Article 5,
+Sections 95800 to
+96023, Title 17,
+California Cap on
+Greenhouse Gas
+Emissions and MarketBased Compliance
+Mechanisms,
+(Sacramento, CA: July
+2011)
+
+EPA–HQ–OAR–2009–
+0211; FRL–9215–5,
+EPA–HQ– OAR–2009–
+0211; FRL–9258–6
+Crude oil was defined
+in Section 754.2 of the
+EAR on December 30,
+2014, and was
+subsequently moved to
+Section 772.1 on May
+12, 2016; see page 13
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+32
+
+April 2026
+
+Q.
+
+R.
+
+S.
+
+T.
+
+U.
+
+V.
+
+W.
+
+Legislation
+Administration
+Regulations (EAR)
+U.S. Congress, H.R.
+1314—Bipartisan Budget
+Act of 2015, Title IV –
+Strategic Petroleum
+Reserve, Sec. 401-404,
+114th Congress (2015–
+2016)
+U.S. Congress, H.R. 22—
+FAST Act, Sec. 32204,
+Strategic Petroleum
+Reserve drawdown and
+sale, 114th Congress
+(2015–2016)
+U.S. Congress, H.R.
+2029—Consolidated
+Appropriations Act,
+2016, Division O—Other
+matters, Title I—Oil
+Exports, Safety Valve,
+and Maritime Security,
+114th Congress (2015–
+2016)
+U.S. Congress, H.R.34 –
+21st Century Cures Act,
+Sec. 5010, Strategic
+Petroleum Reserve
+drawdown, 114th
+Congress (Dec. 4, 2015)
+U.S. Congress, H.R.1 –
+An act to provide for
+reconciliation pursuant
+to titles II and V of the
+concurrent resolution on
+the budget for fiscal year
+2018, Sec. 2003,
+Strategic Petroleum
+Reserve drawdown and
+sale, 115th Congress
+(Dec. 22, 2017)
+U.S. Congress, H.R.1892
+- Bipartisan Budget Act
+(BBA) of 2018, Sec.
+30204, Strategic
+Petroleum Reserve
+drawdown, 115th
+Congress (Feb. 8, 2018)
+U.S. Congress, H.R.1625
+– Consolidated
+Appropriations Act,
+2018, Sec. 501, Strategic
+Petroleum Reserve
+drawdown, 115th
+Congress (March 23,
+2018)
+
+Brief description
+
+Annual Energy Outlook
+(AEO) handling
+
+Basics
+
+Sec. 401-404 requires a test
+drawdown, actual drawdown,
+and sale of crude oil from the
+Strategic Petroleum Reserve
+(SPR) during FY 2018–FY 2025
+
+Explicitly represents the
+crude oil withdrawals
+from the SPR as specified
+by the act
+
+H.R.1314—Bipartisan
+Budget Act of 2015
+
+Sec. 32204 requires
+drawdown and sale of crude
+oil from the SPR during a
+specified timeframe
+
+Explicitly represents the
+crude oil withdrawals
+from the SPR as specified
+by the act
+
+H.R.22—Fixing
+America’s Surface
+Transportation Act
+
+Title 1, Sec. 101 ends the ban
+on U.S. crude oil exports;
+however, under extenuating
+circumstances, the President
+may restrict U.S. crude oil
+exports for no more than one
+year
+
+Any crude oil produced in
+the United States is
+allowed to be exported
+
+H.R.2029—
+Consolidated
+Appropriations Act,
+2016
+
+Sec. 5010 requires drawdown
+and sale of crude oil from the
+SPR during FY 2017–FY 2019
+(Public Law 114-255)
+
+Explicitly represents the
+crude oil withdrawals
+from the SPR as specified
+by the act
+
+H.R.34—21st Century
+Cures Act, Dec. 4, 2015
+
+Sec. 20003 requires
+drawdown and sale of crude
+oil from the SPR during FY
+2026–FY 2027 (Public Law
+115-97)
+
+Explicitly represents the
+crude oil withdrawals
+from the SPR as specified
+by the act
+
+H.R.1—Sec. 20003,
+Public Law 115-97, Dec.
+22, 2017
+
+Sec. 30204 requires
+drawdown and sale of crude
+oil from the SPR during FY
+2022–FY 2027 (Public Law
+115-123)
+
+Explicitly represents the
+crude oil withdrawals
+from the SPR as specified
+by the act
+
+H.R.1892—Bipartisan
+Budget Act of 2018,
+Feb. 8, 2018
+
+Sec. 501 requires drawdown
+and sale of crude oil from the
+SPR during FY 2020–FY 2021
+(Public Law 115-123)
+
+Explicitly represents the
+crude oil withdrawals
+from the SPR as specified
+by the act
+
+H.R.1625—
+Consolidated
+Appropriations Act,
+2018, March 23, 2018
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+33
+
+April 2026
+
+X.
+
+Y.
+
+Z.
+
+Annual Energy Outlook
+(AEO) handling
+Explicitly represents the
+crude oil withdrawals
+from the SPR as specified
+by the act
+
+Basics
+S.2800—America’s
+Water Infrastructure
+Act of 2018, Oct. 23,
+2018
+
+Explicitly represents the
+crude oil withdrawals
+from the SPR as specified
+by the act
+
+H.R.3684—
+Infrastructure
+Investment and Jobs
+Act, Nov. 15, 2021
+
+Legislation
+U.S. Congress, S.2800 –
+America’s Water
+Infrastructure Act of
+2018, Sec. 3009,
+Strategic Petroleum
+Reserve drawdown,
+115th Congress (Oct. 23,
+2018)
+U.S. Congress, H.R.3684
+– Infrastructure
+Investment and Jobs Act,
+Sec. 90002, Strategic
+Petroleum Reserve
+drawdown and sale,
+117th Congress (Nov. 15,
+2021)
+Inflation Reduction Act
+(IRA), as amended by
+the One Big Beautiful Bill
+Act of 2025
+
+Brief description
+Sec. 3009 requires drawdown
+and sale of crude oil from the
+SPR during FY 2028 (Public
+Law 115-270)
+
+Section 13201 Extension
+of incentives for
+biodiesel, renewable
+diesel, and alternative
+fuels
+
+This provision allows the
+biodiesel and renewable
+diesel credit and an
+alternative fuel credit through
+December 31, 2024.
+
+We apply the tax credit
+through 2024. The 45Z
+clean fuel production
+credit changes made by
+OBBBA section 70521
+replace this provision
+
+Section 13202 Extension
+of second-generation
+biofuel incentives
+
+This provision extends a tax
+credit for second-generation
+biofuel production.
+
+We apply the tax credit
+through 2024. The 45Z
+clean fuel production
+credit changes made by
+OBBBA section 70521
+replace this provision.
+
+Section 13203
+Sustainable aviation fuel
+credit
+
+This provision reduces the
+sustainable aviation fuel
+credit equal to $1.00 per
+gallon starting in 2025.
+
+We implemented a
+simplified version of this
+credit through 2029
+based on sustainable
+aviation fuel credit
+changes made by OBBBA
+section 70521
+
+IRA Section 13704 Clean
+fuel production tax
+credit, amended by
+OBBBA Section 70521
+Extension and
+modification of clean
+fuel production credit
+
+Extends the 45Z clean fuel
+production credit through
+Dec 31, 2029, and removes
+eligibility for imports.
+Reduces the sustainable
+aviation fuel credit equal to
+$1.00 per gallon starting in
+2025.
+
+We implemented a
+simplified version of this
+credit for certain qualified
+fuels.
+
+Sec. 90002 requires
+drawdown and sale of crude
+oil from the SPR during FY
+2028–FY 2031 (Public Law
+117-58)
+
+Public Law 117-169,
+Public Law 119-21
+
+Data source: U.S. Energy Information Administration, Office of Energy Analysis
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+34
+
+April 2026
+
+Appendix A. Existing State-level Clean Energy Policies in the
+AEO2026 Counterfactual Baseline Case
+To the extent possible, the AEO2026 reflects state laws and regulations enacted as of December
+2025, which include minimum requirements for clean energy generation or capacity for load-serving
+entities operating in states. We do not include zero-emission credit policies within this group. The
+AEO2026 projections do not include laws and regulations with voluntary goals. We include policies
+that are enacted in legislation or set forth by state-level executive branch entities.
+AEO2026 assumes that states will meet their clean energy standards and targets. We estimate
+compliance constraints in most regions; however, because NEMS is not a state-level model, each
+state generally represents a portion of one or more NEMS electricity regions. In general, we have
+confirmed the requirements for each state through original legislative or regulatory documentation.
+For clean energy generation requirements (Table 1), states meet required levels of renewable
+generation based on qualified generation or purchases of renewable energy credits. 1 The modeled
+requirements may differ from the written legislation based on the limitations in the model. For
+example, policies designed to create an economy-wide carbon-neutral state are modeled as a 100%
+clean electricity standard because our National Energy Modeling System (NEMS) is limited in
+constraining carbon emissions. For AEO2026, a complete review of all states was implemented.
+Table A1. State Renewable Portfolio Standards (RPS) and Clean Energy Standards (CES) in AEO2026
+State
+Arizona
+
+Policy Title
+Renewable Energy Standard
+and Tariff
+
+Year
+2025
+
+Target
+IOU: 15%,
+COOP: 15%
+
+California
+
+Renewables Portfolio
+Standard
+
+2030
+
+Overall: 60%
+
+California
+
+Executive Order B-55-18
+
+2045
+
+Overall: 100%
+
+Colorado
+
+House Bill 10-1001
+
+2020
+
+Colorado
+
+Senate Bill 19-236
+
+2050
+
+IOU: 30%,
+COOP: 14%,
+MUNI: 10%,
+OTHER: 10%
+IOU: 100%
+
+Connecticut 2
+
+An ACT Concerning Energy
+Affordability, Access &
+Accountability
+An Act Concerning Climate
+Change Mitigation
+
+2030
+
+Overall: 44%
+
+2040
+
+Overall: 100%
+
+Connecticut
+
+Technology
+Biomass, Biomass CCS, Geothermal,
+New Hydro, Solar, Solar Thermal,
+Wind
+Biomass, Biomass CCS, Geothermal,
+New Hydro, Solar, Solar Thermal,
+Wind
+Biomass, Biomass CCS, Fossil CCS,
+Geothermal, Hydro, Nuclear, Solar,
+Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+Existing Hydro, Solar, Solar Thermal,
+Wind
+
+ACP ($/MWh)
+
+Biomass, Biomass CCS, Fossil CCS,
+Geothermal, Hydro, Nuclear, Solar,
+Solar Thermal, Wind
+Biomass, Biomass CCS, Fuel Cells,
+Geothermal, New Hydro, New
+Nuclear, Solar, Solar Thermal, Wind
+Biomass, Biomass CCS, Fossil CCS,
+Fuel Cells, Geothermal, Hydro,
+Nuclear, Solar, Solar Thermal, Wind
+
+$55.00
+
+1 G. Barbose, U.S. Renewables Portfolio and Clean Electricity Standards: 2025 Status Update (Berkeley, CA: Lawrence
+
+Berkeley National Laboratory, August 2025).
+
+2 Connecticut’s Public Act No. 25-173 (July 2025) lowered its 2030 Class I RPS target from 40% to 29% (Class II and Class III
+
+4% requirements remained the same). This was NOT included AEO2026 but will be included in future outlooks.
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+35
+
+April 2026
+State
+DC
+
+Policy Title
+Clean Energy DC Omnibus
+Amendment Act
+Local Solar Expansion Act
+
+Year
+2032
+
+Target
+Overall: 100%
+
+2042
+
+Overall: 15%
+
+Delaware
+
+Renewable Energy Portfolio
+Standards Act
+
+2035
+
+Overall: 40%
+
+Delaware
+
+Renewable Energy Portfolio
+Standards- Solar
+Climate and Equitable Jobs
+Act- RPS
+Climate and Equitable Jobs
+Act- Wind
+Climate and Equitable Jobs
+Act- Solar
+Climate and Equitable Jobs
+Act- CES 100
+
+2035
+
+Overall: 10%
+
+2040
+
+2050
+
+IOU: 50%,
+OTHER: 50%
+IOU: 18%,
+OTHER: 18%
+IOU: 22%,
+OTHER: 22%
+Overall: 100%
+
+An Act to Reform Maine's
+Renewable Portfolio
+Standard
+An Act to Advance a Clean
+Energy Economy
+
+2040
+
+Overall: 60%
+
+2040
+
+Overall: 100%
+
+Clean Energy Jobs Act of
+2019
+Clean Energy Jobs Act of
+2019- Solar
+Clean Energy Jobs Act of
+2019- Wind
+
+2030
+
+Overall: 52%
+
+2030
+
+Overall: 14%
+
+2030
+
+Wind
+
+$22.40
+
+2020
+
+Hydro
+
+$15.00
+
+2050
+
+Overall: 80%
+
+2035
+
+Overall: 60%
+
+2040
+
+Overall: 100%
+
+2035
+
+Minnesota
+
+Solar Energy Standard
+
+2035
+
+IOU: 56%,
+COOP: 55%,
+MUNI: 55%,
+OTHER: 55%
+IOU: 2%
+
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+Existing Hydro, Solar, Solar Thermal,
+Wind
+Biomass, Biomass CCS, Fossil CCS,
+Geothermal, Hydro, Nuclear, Solar,
+Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind
+
+$35.00
+
+Minnesota
+
+Clean Energy Jobs Act of
+2019- Hydro
+An Act Advance Clean
+Energy
+Clean and Renewable
+Energy and Energy Waste
+Reduction Act- RPS
+Clean and Renewable
+Energy and Energy Waste
+Reduction Act- CES
+House File 7- RPS
+
+IOU: 13%,
+COOP: 13%,
+MUNI: 2%,
+OTHER: 13%
+Overall: 2%
+
+Minnesota
+
+House File 7- CES
+
+2040
+
+Overall: 100%
+
+Missouri
+
+Clean Energy Act
+
+2021
+
+IOU: 15%
+
+Missouri
+
+Clean Energy Act- Solar
+
+2021
+
+IOU: 0.3%
+
+DC
+
+Illinois
+Illinois
+Illinois
+Illinois
+Maine
+Maine
+Maryland
+Maryland
+Maryland
+
+Maryland
+Massachusetts
+Michigan
+Michigan
+
+2030
+2030
+
+Technology
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind
+Solar, Solar Thermal
+
+ACP ($/MWh)
+$50.00
+
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind,
+Distributed Solar (3x multiplier),
+Distributed Wind (1.5x multiplier)
+Solar, Solar Thermal, Distributed
+Solar (3x multiplier)
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind
+New Wind
+
+$30.00
+
+$100.00
+
+$150.00
+
+New Solar
+Biomass, Biomass CCS, Fossil CCS,
+Geothermal, Hydro, Nuclear, Solar,
+Solar Thermal, Wind
+New Biomass, Biomass CCS, Fuel
+Cells, Geothermal, New Hydro,
+Solar, Solar Thermal, Wind
+Biomass, Biomass CCS, Fossil CCS,
+Fuel Cells, Geothermal, Hydro,
+Nuclear, Solar, Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+Solar, Solar Thermal, Wind
+Solar, Solar Thermal
+
+$50.00
+
+$22.40
+$22.40
+
+Solar, Solar Thermal
+Biomass, Biomass CCS, Fossil CCS,
+Geothermal, Hydro, Nuclear, Solar,
+Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind
+Solar, Solar Thermal
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+36
+
+April 2026
+State
+Nebraska
+
+Policy Title
+Nebraska Net-Zero Carbon
+Goal
+
+Year
+2050
+
+Target
+Overall: 100%
+
+Nevada
+
+Senate Bill 358
+
+2030
+
+Overall: 50%
+
+New
+Hampshire
+
+Electric Renewable Portfolio
+Standard
+
+2025
+
+New Jersey
+
+Assembly Bill 3723
+
+2030
+
+IOU: 25%,
+COOP: 25%,
+MUNI: 0%,
+OTHER: 25%
+Overall: 52%
+
+New Jersey
+
+Assembly Bill 3723- Solar
+
+2031
+
+Overall: 1%
+
+New Mexico
+
+Renewable Energy Act-RPS
+
+2040
+
+New Mexico
+
+Renewable Energy Act-CES
+
+2050
+
+IOU: 80%,
+COOP: 75%,
+MUNI: 75%,
+OTHER: 80%
+Overall: 100%
+
+New York
+
+Senate Bill 6599-RPS
+
+2030
+
+Overall: 70%
+
+New York
+
+Senate Bill 6599-CES
+
+2040
+
+Overall: 100%
+
+North Carolina
+
+Clean Energy and Energy
+Efficiency Portfolio Standard
+
+2021
+
+North Carolina
+
+House Bill 951
+
+2050
+
+IOU: 12%,
+COOP: 10%,
+MUNI: 10%
+IOU: 100%
+
+Ohio
+
+Alternative Energy Portfolio
+Standard
+
+2026
+
+IOU: 8%,
+OTHER: 8%
+
+Oregon
+
+Clean Energy Targets
+
+2040
+
+IOU: 100%
+
+Pennsylvania
+
+Alternative Energy Portfolio
+Standard- RPS
+
+2020
+
+IOU: 8%
+
+Pennsylvania
+
+2020
+
+IOU: 0%
+
+Rhode Island
+
+Alternative Energy Portfolio
+Standard- Solar
+House Bill 7277
+
+2033
+
+Overall: 100%
+
+Vermont
+
+Renewable Energy Standard
+
+2035
+
+Overall: 100%
+
+Virginia
+
+Senate Bill 851
+
+2050
+
+IOU: 100%,
+OTHER: 100%
+
+Washington
+
+Senate Bill 5116
+
+2045
+
+Overall: 100%
+
+Wisconsin
+
+Renewable Portfolio
+Standard
+
+2015
+
+IOU: 10%,
+COOP: 10%,
+MUNI: 10%
+
+Technology
+Biomass, Biomass CCS, Fossil CCS,
+Geothermal, Hydro, Nuclear, Solar,
+Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind
+New Biomass, Biomass CCS,
+Geothermal, Hydro, Solar, Solar
+Thermal, Wind
+Biomass, Biomass CCS, Fuel Cells,
+Geothermal, Hydro, Solar, Solar
+Thermal, Wind
+Solar, Solar Thermal
+
+ACP ($/MWh)
+
+$61.20
+
+$50.00
+$128.00
+
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind
+Biomass, Biomass CCS, Fossil CCS,
+Geothermal, Hydro, Nuclear, Solar,
+Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+Hydro, Nuclear, Solar, Solar
+Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind
+Biomass, Biomass CCS, Fossil CCS,
+Geothermal, Hydro, Nuclear, Solar,
+Solar Thermal, Wind
+Biomass, Biomass CCS, Fuel Cells,
+Geothermal, Hydro, Pumped
+Storage, Solar, Solar Thermal,
+Storage, Wind
+Biomass, Biomass CCS, Fossil CCS,
+Geothermal, Hydro, Nuclear, Solar,
+Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+New Hydro, Solar, Solar Thermal,
+Wind
+Solar, Solar Thermal
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+Hydro, Solar, Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+Hydro, Nuclear, Solar, Solar
+Thermal, Wind
+Biomass, Biomass CCS, Fossil CCS,
+Geothermal, Hydro, Nuclear, Solar,
+Solar Thermal, Wind
+Biomass, Biomass CCS, Geothermal,
+New Hydro, Solar, Solar Thermal,
+Wind
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+$45.00
+
+$45.00
+
+$50.00
+$10.00
+
+$50.00
+
+37
+
+April 2026
+Data source: U.S. Energy Information Administration, Annual Energy Outlook 2026
+Note: IOU=Investor-Owned Electric Utility, COOP=Rural Electric Cooperative, MUNI=Municipally Owned Utility,
+ACP=Alternative Compliance Payment, MWh=megawatthour
+
+Table A2 and Table A3 show enforceable state level capacity targets for battery storage and offshore
+wind. States that have announced aspirational goals, without a clear policy enforcement mechanism,
+are not listed and were not included in AEO2026.
+Table A2. State energy storage capacity targets
+megawatts (MW)
+State
+Maryland
+
+Policy title
+Maryland Energy Storage Program
+
+End
+year
+2033
+
+Target
+3,000
+
+Massachusetts
+
+Senate Bill 2967
+
+2030
+
+3,500
+
+Michigan
+
+Public Act 235
+
+2029
+
+2,500
+
+Nevada
+
+Senate Bill No. 204
+
+2030
+
+1,000
+
+New Jersey
+
+A.B. 3723
+
+2030
+
+2,000
+
+New York
+
+Order Establishing Updated Storage
+Goal & Deployment Policy
+Energy Storage Systems Act
+
+2030
+
+6,000
+
+2033
+
+600
+
+Rhode Island
+Virginia
+
+Regulations Governing the
+2035 3,100
+Deployment of Energy Storage
+Data source: U.S. Energy Information Administration, Annual Energy Outlook 2026
+
+Table A3. State offshore wind capacity targets
+megawatts (MW)
+End year
+2030
+
+End year
+adjusted
+2034
+
+Target
+2,000
+
+Lease cap
+2,100
+
+Target
+adjusted
+2,000
+
+Maine
+
+Policy title
+Act Concerning the Procurement of
+Energy Derived from Offshore Wind
+Maine Wind Energy Act
+
+2040
+
+2040
+
+3,000
+
+8,889
+
+3,000
+
+Maryland
+
+Maryland Public Utilities Code
+
+2031
+
+2035
+
+8,500
+
+1,614
+
+1,614
+
+Massachusetts
+
+Act Driving Clean Energy and
+Offshore Wind
+Executive Order No.307
+
+2050
+
+2050
+
+5,600
+
+14,177
+
+5,600
+
+2040
+
+2040
+
+11,000
+
+10,950
+
+10,950
+
+Climate Leadership and Community
+Protection Act
+Affordable Clean Energy Security Act
+
+2035
+
+2035
+
+9,000
+
+6,550
+
+6,550
+
+2030
+
+2034
+
+600
+
+2,100
+
+600
+
+An Act...relating to the development
+of offshore wind capacity
+
+2032
+
+2036
+
+5,200
+
+5,856
+
+5,200
+
+State
+Connecticut
+
+New Jersey
+New York
+Rhode Island
+Virginia
+
+Data source: U.S. Energy Information Administration (EIA), Annual Energy Outlook 2026 (AEO2026)
+Note: Due to the conflict between state offshore wind targets and the Presidential Executive Order to halt permit and leases
+for offshore wind projects, for AEO2026, EIA delayed the end target year for near term targets and also constrained the
+maximum capacity for each target based on land availability not including federal lands.
+
+U.S. Energy Information Administration | Summary of Legislation and Regulations in the Annual Energy Outlook 2026
+
+38
+
+
