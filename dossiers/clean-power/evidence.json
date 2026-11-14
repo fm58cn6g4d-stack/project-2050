@@ -542,43 +542,6 @@
   ]
  },
  {
-  "id": "EV-CLP-017",
-  "statement": "NERC found that PJM's projected anticipated reserve margin for summer 2026 had fallen from 35.7% to 29.7% since the prior assessment, and that PJM expects its summer peak demand to grow by 56 GW to 210 GW in 2035.",
-  "claim": "analysis",
-  "figures": [
-   "35.7%",
-   "29.7%",
-   "56 GW",
-   "210 GW",
-   "2035",
-   "2026"
-  ],
-  "source": "SRC-4415",
-  "anchor": [
-   "2026 Summer ARM has fallen from 35.7% to 29.7%",
-   "PJM expects its summer peak demand to grow by 56 GW to a total of 210 GW in 2035"
-  ],
-  "locator": "PJM entry in \"High-Risk Area Details\"",
-  "grade": "C",
-  "fact_date": "2025",
-  "checked": "2026-11-13",
-  "recheck": "2026-12-15",
-  "context": "NERC 2025 Long-Term Reliability Assessment (January 2026); a planning forecast using PJM's submissions. NERC notes PJM's own initiatives added some capacity after the July 2025 data submittal.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
-  ],
-  "corroboration": [
-   {
-    "evidence": "EV-CLP-021",
-    "stance": "supports"
-   },
-   {
-    "evidence": "EV-CLP-013",
-    "stance": "supports"
-   }
-  ]
- },
- {
   "id": "EV-CLP-018",
   "statement": "NERC's winter reliability assessment released in November 2025 found aggregate peak demand up 20 GW (2.5%) since the previous winter while total resources rose by only 9.4 GW, and that all areas had adequate resources for normal peak conditions but extreme cold could cause shortfalls.",
   "claim": "analysis",
@@ -1129,42 +1092,6 @@
   ]
  },
  {
-  "id": "EV-CLP-037",
-  "statement": "University researchers wrote in 2025 that LIHEAP funding has never been high enough to meet need, providing assistance to just 16% of eligible households in 2020, and that the 2026 budget proposal zeroed out LIHEAP while the entire staff of the LIHEAP office was laid off on April 1, 2025.",
-  "claim": "analysis",
-  "figures": [
-   "16%",
-   "2020",
-   "2026",
-   "April 1, 2025"
-  ],
-  "source": "SRC-4431",
-  "anchor": [
-   "the administration’s 2026 budget proposal zeros out funding for the Low Income Home Energy Assistance Program, or LIHEAP",
-   "on April 1, 2025, the administration laid off the entire staff of the LIHEAP office.",
-   "In 2020, LIHEAP provided assistance to just 16% of eligible households."
-  ],
-  "locator": "Paragraphs 2 and 8",
-  "grade": "C",
-  "fact_date": "2025-05",
-  "checked": "2026-11-13",
-  "recheck": "2027-02-28",
-  "context": "The Conversation commentary, 2025-05-13, by university researchers who study energy insecurity; advocacy-leaning commentary, not a data source. It describes the second Trump administration's actions. The 16% figure is from HHS data via the authors.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
-  ],
-  "corroboration": [
-   {
-    "evidence": "EV-CLP-036",
-    "stance": "supports"
-   },
-   {
-    "evidence": "EV-CLP-039",
-    "stance": "supports"
-   }
-  ]
- },
- {
   "id": "EV-CLP-038",
   "statement": "The National Low Income Housing Coalition reported, citing HHS, that an estimated 5.9 million families, 17% of estimated eligible households, received LIHEAP assistance in fiscal year 2024 through the regular program.",
   "claim": "data",
@@ -1600,6 +1527,82 @@
   ]
  },
  {
+  "id": "EV-CLP-054",
+  "statement": "USDA's Food and Nutrition Service reports that SNAP served an average of 22,581,486 households a month in fiscal year 2025, covering an average of 42,145,499 people.",
+  "claim": "data",
+  "figures": [
+   "22,581,486",
+   "42,145,499",
+   "2025"
+  ],
+  "source": "SRC-3613",
+  "anchor": [
+   "FY 2025\n\n42,145,499\n\n22,581,486"
+  ],
+  "locator": "annual summary, FY 2025 row; column order in the file is persons, then households (Participation Persons, Participation Households)",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-14",
+  "recheck": "2027-02-01",
+  "context": "USDA Food and Nutrition Service (renamed Food and Nutrition Administration), second Trump administration; data as of October 9, 2026. Fiscal year 2025 is the latest full year; FY 2026 is preliminary and runs lower (20,625,982 households on the same table). Data may include disaster assistance and are subject to revision. Same file as EV-SEC-039.",
+  "supports": [
+   "dossiers/clean-power/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-055",
+  "statement": "HHS's LIHEAP Clearinghouse says the LIHEAP statute lets Indian tribes and tribal organizations apply for a LIHEAP block grant, and that as of FY 2026 149 tribes and tribal organizations in 25 states received LIHEAP funds to operate programs directly.",
+  "claim": "data",
+  "figures": [
+   "149",
+   "25",
+   "2026"
+  ],
+  "source": "SRC-4774",
+  "anchor": [
+   "The LIHEAP statute allows Indian tribes and tribal organizations that wish to assist low-income households in meeting the costs of home energy to apply for a LIHEAP block grant.",
+   "As of FY 2026, 149 tribes and tribal organizations in 25 states received LIHEAP funds allowing them to directly operate LIHEAP programs."
+  ],
+  "locator": "opening paragraph (\"What You'll Find Here\"), page last updated 2/20/2026",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-14",
+  "recheck": "2027-02-28",
+  "context": "HHS Administration for Children and Families (LIHEAP Clearinghouse page, run under contract), second Trump administration, 2026. Count of direct grantees, not of tribal households served. The same office's fact sheet says about 150 Tribes apply each year (SRC-1944), and the FY2022 report to Congress counted 150 direct-funded tribes and tribal organizations; the count has been 150 to 151 since 2019. Read through a search extract because the host's certificate failed verification for the fetch script.",
+  "supports": [
+   "dossiers/clean-power/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-056",
+  "statement": "The IRS began issuing the 2020 economic impact payments 14 calendar days after the CARES Act became law, had issued more than 157 million by May 21, 2020, and 168.2 million totaling $280 billion by December 31, 2020; the IRS could use third-party records to pay Social Security and Railroad Retirement beneficiaries with no filing requirement automatically.",
+  "claim": "data",
+  "figures": [
+   "14 calendar days",
+   "157 million",
+   "May 21, 2020",
+   "168.2 million",
+   "$280 billion",
+   "December 31, 2020"
+  ],
+  "source": "SRC-4773",
+  "anchor": [
+   "Remarkably, the IRS began issuing the EIPs on April 10, 2020,\njust 14 calendar days after the passage of the CARES Act",
+   "In June 2020, we reported that our review of the more than 157 million EIPs issued as of\nMay 21, 2020",
+   "As of December 31, 2020, the IRS issued 168.2 million EIPs totaling $280 billion.",
+   "the IRS can use available information such as\nthird-party income reporting documents to automatically issue an EIP to individuals who receive\nSocial Security and Railroad Retirement Board (RRB) retirement benefits and do not have a\nFederal income tax return filing requirement."
+  ],
+  "locator": "Background and Results of Review, pages 1 to 4 (Implementation of Economic Impact Payments, Report 2021-46-034)",
+  "grade": "A",
+  "fact_date": "2020",
+  "checked": "2026-11-14",
+  "recheck": "2028-05-31",
+  "context": "Treasury Inspector General for Tax Administration (the IRS's independent oversight body), final audit report, May 24, 2021, under the Biden administration; the CARES Act was signed March 27, 2020, so April 10 is day 14 and May 21 is day 55 (about eight weeks). TIGTA's interim report found 98 percent of the first 157 million payments computed correctly, and later reports found payments to ineligible and deceased individuals; the speed came with those errors. The IRS reported that automatic payments went to Social Security, Railroad Retirement, SSI and VA beneficiaries (IRS Publication 5420); this report states the authority and the agency data-sharing.",
+  "supports": [
+   "dossiers/clean-power/5-delivery.md"
+  ]
+ },
+ {
   "id": "EV-CLP-100",
   "statement": "In 2023, total gross U.S. greenhouse gas emissions were 6,197.3 MMT CO2 Eq., according to EPA's latest Inventory.",
   "claim": "data",
@@ -1642,31 +1645,6 @@
   "checked": "2026-11-13",
   "recheck": "2027-04-15",
   "context": "Same EPA inventory as EV-CLP-100. Net emissions subtract forest and land carbon sinks (about 16 percent of gross in 2023).",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
-  ]
- },
- {
-  "id": "EV-CLP-102",
-  "statement": "EPA reported that in 2022 net U.S. greenhouse gas emissions were 5,489 million metric tons of carbon dioxide equivalent and 17 percent below 2005 levels.",
-  "claim": "data",
-  "figures": [
-   "5,489",
-   "17 percent",
-   "2022",
-   "2005"
-  ],
-  "source": "SRC-4461",
-  "anchor": [
-   "5,489 million metric tons of carbon dioxide",
-   "Net emissions were 17 percent below 2005 levels.",
-   "• In 2022, net U.S. greenhouse gas emissions were"
-  ],
-  "grade": "A",
-  "fact_date": "2022",
-  "checked": "2026-11-13",
-  "recheck": "2027-04-15",
-  "context": "EPA data highlights published April 2024 under the Biden administration. Later inventory revisions lowered estimates of net emissions by about 0.9 percent on average (see the main text of the 2025 inventory), so use EV-CLP-101 for the newest level.",
   "supports": [
    "dossiers/clean-power/1-problem.md"
   ]
@@ -2202,30 +2180,6 @@
   ]
  },
  {
-  "id": "EV-CLP-123",
-  "statement": "CRS reports that NOAA concluded there were 27 U.S. billion-dollar disasters in 2024, for a total cost of $182.7 billion.",
-  "claim": "data",
-  "figures": [
-   "27",
-   "$182.7 billion",
-   "2024"
-  ],
-  "source": "SRC-4464",
-  "anchor": [
-   "damages billion-dollar disasters. In 2024, NOAA",
-   "concluded there were 27 U.S. billion-dollar disasters, for a",
-   "total cost of $182.7 billion (Figure 1)."
-  ],
-  "grade": "A",
-  "fact_date": "2024",
-  "checked": "2026-11-13",
-  "recheck": "2027-01-15",
-  "context": "CRS (nonpartisan), March 17, 2025, restating NOAA. Independent publisher confirming EV-CLP-120.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
-  ]
- },
- {
   "id": "EV-CLP-124",
   "statement": "Climate Central relaunched the U.S. billion-dollar disaster database in October 2025, saying NOAA ceased operating the project in May 2025, and counted 14 billion-dollar disasters costing $101.4 billion in the first six months of 2025.",
   "claim": "data",
@@ -2583,31 +2537,6 @@
   ]
  },
  {
-  "id": "EV-CLP-146",
-  "statement": "AP reported State Farm would not renew about 72,000 California policies, 30,000 houses and 42,000 apartments, starting in summer 2024.",
-  "claim": "data",
-  "figures": [
-   "72,000",
-   "30,000",
-   "42,000",
-   "2024"
-  ],
-  "source": "SRC-4489",
-  "anchor": [
-   "State Farm will discontinue coverage for 72,000 houses and apartments in California starting summer 2024, the insurance giant said.",
-   "it won’t renew the policies on 30,000 houses and 42,000 apartments"
-  ],
-  "locator": "opening paragraph and photo caption",
-  "grade": "C",
-  "fact_date": "2024-03",
-  "checked": "2026-11-13",
-  "recheck": "2027-01-31",
-  "context": "Associated Press, March 22, 2024, from company and regional news reporting. State Farm cited costs, catastrophe risk and regulation; other insurers have since expanded or restricted writing in California, so the market is not uniformly exiting.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
-  ]
- },
- {
   "id": "EV-CLP-147",
   "statement": "The California FAIR Plan reported 696,562 policies in force as of June 2026, up 157% from September 2022.",
   "claim": "data",
@@ -2790,38 +2719,6 @@
   ]
  },
  {
-  "id": "EV-CLP-153",
-  "statement": "A Federal Reserve Board working paper on the $15 trillion homeowners' insurance market found rates are least reflective of risk in states with the most restrictive rate regulation.",
-  "claim": "analysis",
-  "figures": [
-   "$15 trillion"
-  ],
-  "source": "SRC-4471",
-  "anchor": [
-   "Homeowners’ insurance, a $15 trillion market by coverage, provides households",
-   "are least reflective of risk in states we classify as “high friction”, i.e. states where"
-  ],
-  "locator": "Abstract and Introduction",
-  "grade": "B",
-  "fact_date": "2022",
-  "checked": "2026-11-13",
-  "recheck": "2027-12-31",
-  "context": "Federal Reserve Board working paper (June 2022) by two academics and a Board economist, reviewed only as a working paper. It contests the idea that premiums track climate risk uniformly; regulation affects availability and price. Dated: 2022 data.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
-  ],
-  "corroboration": [
-   {
-    "evidence": "EV-CLP-145",
-    "stance": "qualifies"
-   },
-   {
-    "evidence": "EV-CLP-143",
-    "stance": "qualifies"
-   }
-  ]
- },
- {
   "id": "EV-CLP-154",
   "statement": "CRS reports the National Flood Insurance Program owes $22.525 billion to Treasury after Congress cancelled $16 billion of its debt in 2017 and it borrowed $2 billion in February 2025, leaving $7.9 billion of borrowing authority under a $30.425 billion limit.",
   "claim": "data",
@@ -2845,32 +2742,6 @@
   "checked": "2026-11-13",
   "recheck": "2027-02-28",
   "context": "CRS (nonpartisan), updated October 5, 2026. NFIP has not repaid the principal; interest is paid from premiums.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
-  ]
- },
- {
-  "id": "EV-CLP-155",
-  "statement": "After the $16 billion cancellation in 2017, FEMA borrowed another $6.1 billion on November 9, 2017, bringing NFIP debt to $20.525 billion.",
-  "claim": "data",
-  "figures": [
-   "$16 billion",
-   "$6.1 billion",
-   "$20.525 billion",
-   "2017",
-   "November 9, 2017"
-  ],
-  "source": "SRC-4465",
-  "anchor": [
-   "cancelled $16 billion of NFIP debt, making it possible for the program to pay claims for",
-   "FEMA borrowed another $6.1 billion on November 9, 2017, to fund estimated 2017 losses,",
-   "activities, bringing the debt up to $20.525 billion."
-  ],
-  "grade": "A",
-  "fact_date": "2017-11",
-  "checked": "2026-11-13",
-  "recheck": "2027-02-28",
-  "context": "CRS (nonpartisan), updated October 2026. The NFIP did not borrow again until February 2025, which raised debt to $22.525 billion (EV-CLP-154).",
   "supports": [
    "dossiers/clean-power/1-problem.md"
   ]
@@ -3212,30 +3083,6 @@
     "stance": "supports"
    }
   ]
- },
- {
-  "id": "EV-CLP-205",
-  "statement": "Rhodium Group and MIT's Clean Investment Monitor found that US clean technology investment was $75 billion in the second quarter of 2026, up 22% from the first quarter and 4% from the second quarter of 2025, the second-highest quarter on record.",
-  "claim": "data",
-  "figures": [
-   "$75 billion",
-   "22%",
-   "4%"
-  ],
-  "source": "SRC-4554",
-  "anchor": [
-   "In the second quarter of 2026, clean energy and transportation investment in the United States totaled $75 billion, a 22% increase from Q1 2026 and a 4% jump from Q2 2025.",
-   "This marks the second-highest quarter of investments on record behind Q3 2025"
-  ],
-  "grade": "C",
-  "fact_date": "2026-06",
-  "checked": "2026-11-13",
-  "recheck": "2026-11-30",
-  "context": "Rhodium Group with MIT CEEPR (research bodies; Q2 2026 update released August 11, 2026). Counts actual spending on manufacturing, energy and industry facilities and retail purchases (retail was 56% of the quarter, so much of the total is household and vehicle purchases). The next quarterly update (Q3 2026) is due in about November 2026. Spending after the 2025 law is not a direct measure of the IRA's effect.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
-  ],
-  "locator": "opening paragraph"
  },
  {
   "id": "EV-CLP-206",
@@ -4175,30 +4022,6 @@
   "locator": "tracker entry dated March 19, 2026"
  },
  {
-  "id": "EV-CLP-247",
-  "statement": "CRS reports that the IRA appropriated $27 billion to EPA for the Greenhouse Gas Reduction Fund for FY2022, available until September 30, 2024, to make competitive grants.",
-  "claim": "data",
-  "figures": [
-   "$27 billion",
-   "FY2022",
-   "September 30, 2024"
-  ],
-  "source": "SRC-4542",
-  "anchor": [
-   "appropriated $27 billion to EPA for FY2022, out of money\nin the Treasury not otherwise appropriated, to remain\navailable until September 30, 2024, to make grants, on a\ncompetitive basis"
-  ],
-  "grade": "A",
-  "fact_date": "2022",
-  "checked": "2026-11-13",
-  "recheck": "2027-06-30",
-  "context": "CRS (nonpartisan) In Focus on the fund. $20 billion was for two national grant programs and $7 billion for a program for low-income and disadvantaged communities (Solar for All). Section 60002 of the 2025 law repealed the fund and rescinded unobligated balances (EV-CLP-231), after the appropriation's availability had expired and the grants were awarded.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md",
-   "dossiers/clean-power/2-what-works.md"
-  ],
-  "locator": "opening paragraph"
- },
- {
   "id": "EV-CLP-248",
   "statement": "In April 2026 environmental and public health groups and 24 state attorneys general petitioned EPA to reconsider the rescission, arguing that the final rule relied on technical analyses performed after public comment closed and so was not a logical outgrowth of the proposal.",
   "claim": "analysis",
@@ -4277,28 +4100,6 @@
    "dossiers/clean-power/2-what-works.md"
   ],
   "locator": "Roll Call 356"
- },
- {
-  "id": "EV-CLP-252",
-  "statement": "As passed by the House, the SPEED Act would impose a 150-day statute of limitations on NEPA claims, restrict who may sue and limit the court remedy to remand rather than injunction or vacatur.",
-  "claim": "data",
-  "figures": [
-   "150-day"
-  ],
-  "source": "SRC-4540",
-  "anchor": [
-   "§3 would add a new section to NEPA limiting judicial review\nof certain agency actions, such as by imposing a 150-day\nstatute of limitations for filing a claim, adding requirements\naffecting who may file a claim, limiting the available remedy to\nremand as opposed to injunctive relief or vacatur"
-  ],
-  "grade": "C",
-  "fact_date": "2026-03",
-  "checked": "2026-11-13",
-  "recheck": "2026-12-31",
-  "context": "CRS In Focus (nonpartisan), March 10, 2026, describing the House-passed text. CRS also notes the bill directs courts to rule within set time frames. The bill covers NEPA only; it does not include transmission siting or cost allocation.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md",
-   "dossiers/clean-power/2-what-works.md"
-  ],
-  "locator": "section on proposed changes to NEPA, §3"
  },
  {
   "id": "EV-CLP-253",
@@ -4682,6 +4483,113 @@
    "dossiers/clean-power/2-what-works.md"
   ],
   "locator": "\"Manager's amendment\" paragraph under section 1401"
+ },
+ {
+  "id": "EV-CLP-267",
+  "statement": "Under the Food and Nutrition Act the Secretary may not approve a plan for the Indian-reservation food distribution program that lets a reservation household take SNAP and that program simultaneously, and the regulation repeats it: no household on any Indian reservation may participate simultaneously in SNAP and the Food Distribution Program.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4763",
+  "anchor": [
+   "The Secretary shall not approve any plan for a distribution described in paragraph (1) that permits any household on any Indian reservation to participate simultaneously in the supplemental nutrition assistance program and the program established under this subsection."
+  ],
+  "locator": "7 U.S.C. 2013(b)(2)(C); 7 CFR 253.5(a)(2)(i) says the same (SRC-4764)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "Primary law as codified (current through P.L. 119-136). The text says \"simultaneously\"; it does not say \"in the same month\", and neither the statute nor 7 CFR 253.5 defines the period. The bar applies to households on an Indian reservation; the regulation's wording is: \"No household on any Indian reservation shall be permitted to participate simultaneously in SNAP and the Food Distribution Program.\"",
+  "supports": [
+   "dossiers/clean-power/4-specification.md",
+   "dossiers/clean-power/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-268",
+  "statement": "The federal greenhouse gas reporting rule requires the annual greenhouse gas report for reporting year 2011 and later to be submitted by March 31 of each calendar year for emissions in the previous calendar year, except as paragraphs (b)(1), (5) and (6) provide.",
+  "claim": "data",
+  "figures": [
+   "March 31",
+   "2011"
+  ],
+  "source": "SRC-4765",
+  "anchor": [
+   "The annual report for reporting years 2011 and beyond must be submitted no later than March 31 of each calendar year for GHG emissions in the previous calendar year, except as provided in paragraphs (b)(1) , (5) , and (6) of this section."
+  ],
+  "locator": "40 CFR 98.3(b)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-14",
+  "recheck": "2027-03-31",
+  "context": "Regulation as in the eCFR on November 13, 2026. Exceptions now in force: reporting year 2024 was due May 30, 2025 (b)(5) and reporting year 2025 is due no later than March 10, 2027 (b)(6), so the March 31 rule is not what applies to the 2025 report. EPA, second Trump administration, proposed in 2025 to remove most reporting subparts from the program; check the rule's status before relying on part 98 data.",
+  "supports": [
+   "dossiers/clean-power/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-269",
+  "statement": "The Acid Rain Program's emissions-monitoring rule requires each electronic quarterly emissions report for an affected unit to be submitted within 30 days following the end of each calendar quarter.",
+  "claim": "data",
+  "figures": [
+   "30 days"
+  ],
+  "source": "SRC-4766",
+  "anchor": [
+   "Each electronic report must be submitted to the Administrator within 30 days following the end of each calendar quarter."
+  ],
+  "locator": "40 CFR 75.64(a)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "Regulation as in the eCFR on November 13, 2026. Part 75 reporting applies to units that are affected units under the Acid Rain Program and units subject to other programs that cross-refer to it; the paragraph says quarterly, within 30 days, in the electronic format EPA specifies.",
+  "supports": [
+   "dossiers/clean-power/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-270",
+  "statement": "Title IV of the Clean Air Act defines \"State\" as one of the 48 contiguous States and the District of Columbia and defines a \"utility unit\" by a generator \"in any State\"; Hawaii, Alaska and Puerto Rico are not named in the definitions, but units there fall outside the definition of a utility unit.",
+  "claim": "data",
+  "figures": [
+   "48"
+  ],
+  "source": "SRC-4767",
+  "anchor": [
+   "The term “State” means one of the 48 contiguous States and the District of Columbia.",
+   "a unit that serves a generator in any State that produces electricity for sale, or",
+   "The term “affected unit” means a unit that is subject to emission reduction requirements or limitations under this subchapter."
+  ],
+  "locator": "42 U.S.C. 7651a(14), (17)(A)(i), (2); 40 CFR 72.2 \"State\" and \"Utility unit\" repeat it (SRC-4768); 40 CFR 72.6(a)(2)-(3) make existing and new utility units the affected units (SRC-4769)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "Primary law as codified. The text does not list Hawaii, Alaska or Puerto Rico; it limits \"State\" to the 48 contiguous States and the District, and a utility unit is a unit serving a generator \"in any State\", so a utility unit in Hawaii, Alaska or Puerto Rico is not a utility unit under this definition and so is not an affected unit under 40 CFR 72.6(a). That is a reading of the definitions: the regulation states no express exclusion by name. Non-utility units that opt in under 40 CFR part 74 were not checked. 40 CFR 72.2 also defines \"sulfur-free generator\" as one in the contiguous States or the District.",
+  "supports": [
+   "dossiers/clean-power/4-specification.md",
+   "dossiers/clean-power/5-delivery.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-271",
+  "statement": "The Federal Power Act's backstop siting authority for interstate transmission does not apply within the ERCOT area: its ERCOT subsection says the section shall not apply within the area referred to in section 824k(k)(2)(A).",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4771",
+  "anchor": [
+   "This section shall not apply within the area referred to in section 824k(k)(2)(A) of this title."
+  ],
+  "locator": "16 U.S.C. 824p(k) (heading \"ERCOT\")",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "Primary law as codified (current through P.L. 119-136). The subsection's heading is \"ERCOT\"; the area it refers to is defined in 16 U.S.C. 824k(k)(2)(A), which was not saved.",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md",
+   "dossiers/clean-power/review-milestone.md"
+  ]
  },
  {
   "id": "EV-CLP-300",
@@ -5144,38 +5052,6 @@
   ]
  },
  {
-  "id": "EV-CLP-316",
-  "statement": "The Parliamentary Budget Officer projected that, with the federal fuel charge at $80 per tonne in 2024-25, the Government would collect $13.0 billion from provinces where it applied, rising to $24.4 billion in 2030-31 at $170 per tonne.",
-  "claim": "analysis",
-  "figures": [
-   "$80",
-   "$13.0 billion",
-   "$170",
-   "$24.4 billion",
-   "2024-25",
-   "2030-31"
-  ],
-  "source": "SRC-4585",
-  "anchor": [
-   "Based on projections from ECCC, with the federal fuel charge set at $80 per tonne in 2024-25, the Government will collect $13.0 billion from backstop provinces. With the fuel charge rising to $170 per tonne in 2030-31, we project that the Government will collect $24.4 billion in proceeds from backstop provinces."
-  ],
-  "locator": "Section on budgetary impacts (text above Table 4)",
-  "grade": "C",
-  "fact_date": "2024-10",
-  "checked": "2026-11-13",
-  "recheck": "2027-03-31",
-  "context": "PBO, October 2024; built on Environment and Climate Change Canada projections. All proceeds were returned to households, businesses and other recipients; the charge ended April 2025 so neither figure was collected.",
-  "supports": [
-   "dossiers/clean-power/2-what-works.md"
-  ],
-  "corroboration": [
-   {
-    "evidence": "EV-CLP-313",
-    "stance": "supports"
-   }
-  ]
- },
- {
   "id": "EV-CLP-317",
   "statement": "The Parliamentary Budget Officer reported that Environment and Climate Change Canada estimated the fuel charge would account for almost 13 million tonnes of emissions reductions in 2030 and lower real GDP by 0.6 per cent compared with no fuel charge.",
   "claim": "analysis",
@@ -5342,29 +5218,6 @@
   ]
  },
  {
-  "id": "EV-CLP-323",
-  "statement": "The Commission's latest annual ETS report gives emissions from power and industry installations as 1 013 Mt CO2eq, a 2% decrease from 2024 levels.",
-  "claim": "data",
-  "figures": [
-   "1 013",
-   "2%",
-   "2024"
-  ],
-  "source": "SRC-4595",
-  "anchor": [
-   "Emissions from power and industry installations amounted to 1 013 Mt CO2eq, representing a 2% decrease from 2024 levels."
-  ],
-  "locator": "Section 3.1 (emissions)",
-  "grade": "A",
-  "fact_date": "2025",
-  "checked": "2026-11-13",
-  "recheck": "2027-11-30",
-  "context": "European Commission report COM(2026) 596 (fact year 2025). Shows the annual fall slowing. An extracted sentence elsewhere in the report (\"2% decrease compared to 2005\") appears to be an error and was not used.",
-  "supports": [
-   "dossiers/clean-power/2-what-works.md"
-  ]
- },
- {
   "id": "EV-CLP-324",
   "statement": "EU ETS auction clearing prices averaged EUR 73.43 in 2025, up from EUR 64.74 in 2024, and in the first half of 2026 varied between EUR 62.19 and EUR 91.34.",
   "claim": "data",
@@ -5510,30 +5363,6 @@
   "checked": "2026-11-13",
   "recheck": "2027-06-30",
   "context": "European Commission report COM(2026) 596. The same report says ETS2 auctions can start early (2027) to make revenue available, and that the Commission is updating its assessment of ETS2's impacts after the European Council's October conclusions. The quote's \"10\" is a footnote marker in the source.",
-  "supports": [
-   "dossiers/clean-power/2-what-works.md"
-  ]
- },
- {
-  "id": "EV-CLP-330",
-  "statement": "The ETS2 cap is set to bring emissions from buildings and road transport down by 42% by 2030 compared to 2005 levels, all allowances will be auctioned, and Member States must use the revenue for climate action and social measures.",
-  "claim": "data",
-  "figures": [
-   "42%",
-   "2030",
-   "2005"
-  ],
-  "source": "SRC-4599",
-  "anchor": [
-   "The ETS2 cap will be set to bring emissions down by 42% by 2030 compared to 2005 levels.",
-   "All emission allowances in the ETS2 will be auctioned. Member States will be required to use ETS2 revenues for climate action and social measures, and they will report on how this money is spent."
-  ],
-  "locator": "Page text (paragraphs 2-3)",
-  "grade": "A",
-  "fact_date": "2026",
-  "checked": "2026-11-13",
-  "recheck": "2027-06-30",
-  "context": "European Commission page. The ETS2 target date of 2030 is unchanged by the 2026 postponement of its start.",
   "supports": [
    "dossiers/clean-power/2-what-works.md"
   ]
@@ -8060,6 +7889,54 @@
   ]
  },
  {
+  "id": "EV-CLP-465",
+  "statement": "The statute on WAPA's Transmission Infrastructure Program lets WAPA borrow from the Treasury up to $3,250,000,000 in outstanding repayable balances at any one time for constructing, financing, facilitating, planning, operating, maintaining or studying construction of new or upgraded transmission lines with at least one terminus within the area WAPA serves, and forgives any balance remaining at the end of a project's useful life.",
+  "claim": "data",
+  "figures": [
+   "$3,250,000,000"
+  ],
+  "source": "SRC-4770",
+  "anchor": [
+   "such sums (not to exceed, in the aggregate (including deferred interest), $3,250,000,000 in outstanding repayable balances at any one time) as, in the judgment of the Administrator, are from time to time required for the purpose of⁠—",
+   "constructing, financing, facilitating, planning, operating, maintaining, or studying construction of new or upgraded electric power transmission lines and related facilities with at least one terminus within the area served by the Western Area Power Administration; and",
+   "If, at the end of the useful life of a project, there is a remaining balance owed to the Treasury under this section, the balance shall be forgiven."
+  ],
+  "locator": "42 U.S.C. 16421a(b)(1)(B)(i); forgiveness is (b)(2)(A), not (d)(2) (subsection (d) is certification)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "Primary law as codified (current through P.L. 119-136). Complements EV-CLP-421 (WAPA's page). Each project is repaid separately from its own transmission revenue (subsection (c)).",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md",
+   "dossiers/clean-power/review-milestone.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-466",
+  "statement": "The statute on DOE's Transmission Facilitation Program lets DOE participate with an eligible entity in designing, developing, constructing, operating, maintaining or owning an eligible transmission project, lets the Treasury lend DOE up to $2,500,000,000 in outstanding repayable balances at any one time, and lets DOE recover its costs for such a project through rates charged to customers benefitting.",
+  "claim": "data",
+  "figures": [
+   "$2,500,000,000"
+  ],
+  "source": "SRC-4772",
+  "anchor": [
+   "participate with an eligible entity in designing, developing, constructing, operating, maintaining, or owning an eligible project.",
+   "not to exceed, in the aggregate (including deferred interest), $2,500,000,000 in outstanding repayable balances at any 1 time.",
+   "through rates charged to customers benefitting from the new transmission capability provided by the eligible project."
+  ],
+  "locator": "42 U.S.C. 18713(e)(1)(C); (d)(2); (d)(4)(C)",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "Primary law as codified (current through P.L. 119-136). Participation under (e)(1)(C) is subject to subsections (h) and (i) (public-private partnership and certification conditions).",
+  "supports": [
+   "dossiers/clean-power/2-what-works.md",
+   "dossiers/clean-power/review-milestone.md"
+  ]
+ },
+ {
   "id": "EV-CLP-500",
   "statement": "EIA reports that the average number of employees at U.S. coal mines in 2024 was 44,060, which was 1,416 fewer than in 2023.",
   "claim": "data",
@@ -8078,30 +7955,6 @@
   "checked": "2026-11-13",
   "recheck": "2026-12-31",
   "context": "EIA, final 2024 data from the Mine Safety and Health Administration's mine employment reports (published November 2025, second Trump administration). Counts mine operators' employees, excluding contract workers and small preparation plants.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
-  ]
- },
- {
-  "id": "EV-CLP-501",
-  "statement": "DOE's USEER report counted 44,700 Coal Fuels workers in the Mining and Extraction industry in 2024, 69.5% of Coal Fuels workers, and 10,400 in manufacturing.",
-  "claim": "data",
-  "figures": [
-   "44,700",
-   "69.5%",
-   "10,400"
-  ],
-  "source": "SRC-4725",
-  "anchor": [
-   "Most Coal Fuels workers were in the Mining and Extraction industry",
-   "(44,700, or 69.5%), followed by Manufacturing, with 10,400 workers"
-  ],
-  "locator": "Fuels chapter, Coal Fuels, Employment by Industry",
-  "grade": "A",
-  "fact_date": "2024",
-  "checked": "2026-11-13",
-  "recheck": "2027-08-31",
-  "context": "DOE Office of Energy Jobs, second Trump administration, released August 2025; survey data for 2024 collected by BW Research. Counts a wider coal workforce than the EIA mine count (EV-CLP-500), including equipment makers and services. The 2025 edition dropped trend comparisons with earlier years.",
   "supports": [
    "dossiers/clean-power/1-problem.md"
   ]
@@ -8185,29 +8038,6 @@
   ]
  },
  {
-  "id": "EV-CLP-505",
-  "statement": "The supplement counts 85,094 union jobs in clean electricity generation in 2024, against 39,171 in fossil-based electricity generation.",
-  "claim": "data",
-  "figures": [
-   "85,094",
-   "39,171"
-  ],
-  "source": "SRC-4741",
-  "anchor": [
-   "There are 85,094 union jobs in clean electricity generation, compared with 39,171 in fossil based electricity generation."
-  ],
-  "locator": "Key findings, In electricity generation, the majority of union jobs are in clean energy",
-  "grade": "C",
-  "fact_date": "2024",
-  "checked": "2026-11-13",
-  "recheck": "2027-08-31",
-  "context": "Inclusive Economics, November 2025 (Hewlett Foundation funded). These are counts, not rates: the clean generation workforce is larger than the fossil workforce, so the counts do not show which side has the higher union share.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md",
-   "dossiers/clean-power/2-what-works.md"
-  ]
- },
- {
   "id": "EV-CLP-506",
   "statement": "EIA reports that U.S. coal plant operators retired 2.6 GW of coal capacity in 2025, the least since 2010, after planning 8.5 GW, with 4.8 GW of planned retirements delayed to a later year.",
   "claim": "data",
@@ -8228,30 +8058,6 @@
   "checked": "2026-11-13",
   "recheck": "2027-04-30",
   "context": "EIA, April 2026, second Trump administration. The retirement figures are data; EIA's statement that DOE emergency orders kept more coal capacity from retiring is the agency's account of cause.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
-  ]
- },
- {
-  "id": "EV-CLP-507",
-  "statement": "EIA reports that operators plan to retire 6.4 GW of coal capacity in 2026, almost 4% of the coal fleet operating at the end of 2025, and says these plans could change.",
-  "claim": "data",
-  "figures": [
-   "6.4 GW",
-   "4%",
-   "2026",
-   "2025"
-  ],
-  "source": "SRC-4723",
-  "anchor": [
-   "In 2026, the U.S. electric power sector currently plans to retire 6.4 GW of coal-fired generating capacity , which accounts for almost 4% of the U.S. coal fleet that was in operation as of the end of 2025."
-  ],
-  "locator": "Text, last paragraph",
-  "grade": "A",
-  "fact_date": "2026",
-  "checked": "2026-11-13",
-  "recheck": "2027-04-30",
-  "context": "EIA, April 2026, second Trump administration. A plan reported by owners, which EIA warns depends on regulatory decisions, including further emergency orders.",
   "supports": [
    "dossiers/clean-power/1-problem.md"
   ]
@@ -8658,32 +8464,6 @@
   ]
  },
  {
-  "id": "EV-CLP-521",
-  "statement": "CRS noted that the IWG on coal and power plant communities was established in July 2021, and that for FY2025 the Biden administration requested $8 million for it, the House committee included $5 million and the Senate committee $7 million.",
-  "claim": "data",
-  "figures": [
-   "2021",
-   "$8 million",
-   "$5 million",
-   "$7 million",
-   "FY2025"
-  ],
-  "source": "SRC-4733",
-  "anchor": [
-   "In July 2021, the Biden Administration established the IWG to facilitate economic revitalization in communities affected by changes in coal, oil, and gas industries and by power plant closures",
-   "For IWG funding in FY2025, the Administration requested $8 million under OSCEP, the House committee report included $5 million under FECM, and the Senate committee report recommended $7 million under FECM."
-  ],
-  "locator": "Overview and Funding sections",
-  "grade": "A",
-  "fact_date": "2024-12",
-  "checked": "2026-11-13",
-  "recheck": "2027-01-31",
-  "context": "CRS (nonpartisan), December 2024, before the second Trump administration. The IWG's funding came from committee reports, not statute.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
-  ]
- },
- {
   "id": "EV-CLP-522",
   "statement": "IRS guidance in 2025 describes the IRA energy community bonus as a 10 percent increase in the credit amount for production-based credits and 2 percentage points on the rate for investment credits, or 10 percentage points for projects that meet wage and apprenticeship requirements.",
   "claim": "data",
@@ -8990,6 +8770,32 @@
   ]
  },
  {
+  "id": "EV-CLP-534",
+  "statement": "The Institute for Energy Economics and Financial Analysis projected in May 2019 that closing the Navajo Generating Station and Kayenta Mine would cut the Navajo Nation's budget by 23 percent ($40 million) in the fiscal year after closure and take an 85 percent hit on the Hopi Tribe's annual budget of $18 to $21 million.",
+  "claim": "data",
+  "figures": [
+   "23 percent",
+   "$40 million",
+   "85 percent",
+   "$18 to $21 million"
+  ],
+  "source": "SRC-4775",
+  "anchor": [
+   "The closures of NGS and Kayenta Mine will result in a 23 percent annual budget reduction ($40 million) for Navajo Nation in the fiscal year after closure.",
+   "The Hopi annual budget has run from $18 to $21 million annually in recent years. It will take an 85 percent hit through loss of mining royalties."
+  ],
+  "locator": "Key Findings (executive summary page)",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "IEEFA, a think tank that advocates a shift from fossil fuels to clean energy, May 2019, before the plant closed (it ceased generation in November 2019) and before the Kayenta Mine's closure that fall, so these are projections, not outcomes. The Navajo figure rests on the Navajo Nation president's May 2019 projection that revenue would fall from $172 million to $132 million by fiscal year 2021; the Hopi share is IEEFA's reading of its tribal newspaper. Other sources are consistent: a House Natural Resources Committee memo (2018) said mining was over 85% of the Hopi general fund operating budget and 22% of the Navajo Nation's; azcentral (October 2019) reported $14.3 million of the Hopi Tribe's $17.3 million fiscal 2018 revenue, or 83%, came from coal operations, and Navajo leaders expected a $30 million to $50 million drop in coal revenue in 2020. Authors Karl Cates and Pam Eaton; no outcome data after the closure were found.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md",
+   "dossiers/clean-power/4-specification.md"
+  ]
+ },
+ {
   "id": "EV-CLP-600",
   "statement": "CRS reports that BRIC made over $4.6 billion available for FY2020-FY2023, and that as of March 29, 2026 about $1 billion of the $4.622 billion selected for funding, 21.6%, had been obligated.",
   "claim": "data",
@@ -9142,33 +8948,6 @@
   ]
  },
  {
-  "id": "EV-CLP-606",
-  "statement": "CRS reports that the Disaster Relief Fund had an available balance of $9.29 billion at the end of January 2026, after obligations of $879 million and $4.39 billion during two lapses in FY2026 appropriations.",
-  "claim": "data",
-  "figures": [
-   "$9.29 billion",
-   "$879",
-   "$4.39 billion",
-   "2026"
-  ],
-  "source": "SRC-4740",
-  "anchor": [
-   "For FY2026, appropriations have lapsed twice. During the initial lapse, FEMA obligated $879",
-   "million from the DRF. After a CR was passed, $4.39 billion in obligations were made from the",
-   "provided under the CR. This helped preserve an available balance in the DRF of $9.29 billion as"
-  ],
-  "locator": "DRF Appropriations, Continuing Resolutions",
-  "grade": "A",
-  "fact_date": "2026-01",
-  "checked": "2026-11-13",
-  "recheck": "2027-03-31",
-  "context": "CRS (nonpartisan), March 2026. The balance fluctuates month to month with appropriations and declarations; FEMA's monthly Disaster Relief Fund reports are the current series (the fema.gov reports were not downloadable).",
-  "supports": [
-   "dossiers/clean-power/1-problem.md",
-   "dossiers/clean-power/2-what-works.md"
-  ]
- },
- {
   "id": "EV-CLP-607",
   "statement": "CRS reports that the FY2025 full-year continuing resolution contained $22.51 billion for the DRF, after the American Relief Act, 2025 had added a $29 billion supplemental.",
   "claim": "data",
@@ -9221,31 +9000,6 @@
   "supports": [
    "dossiers/clean-power/1-problem.md",
    "dossiers/clean-power/2-what-works.md"
-  ]
- },
- {
-  "id": "EV-CLP-609",
-  "statement": "CRS reports that after the NFIP borrowed $2 billion on February 10, 2025, its debt to the Treasury was $22.525 billion, with $7.9 billion of borrowing authority remaining.",
-  "claim": "data",
-  "figures": [
-   "$2 billion",
-   "$22.525 billion",
-   "$7.9 billion",
-   "2025"
-  ],
-  "source": "SRC-4739",
-  "anchor": [
-   "On February 10, 2025, the NFIP",
-   "borrowed $2 billion to pay NFIP claims. The debt is now $22.525 billion, with $7.9 billion of remaining"
-  ],
-  "locator": "First paragraph",
-  "grade": "A",
-  "fact_date": "2026-03",
-  "checked": "2026-11-13",
-  "recheck": "2026-12-11",
-  "context": "CRS (nonpartisan), March 2026. Borrowing authority is capped at $30.425 billion; the interest is paid from premiums. A debt of this size is not repaid by premiums on present terms.",
-  "supports": [
-   "dossiers/clean-power/1-problem.md"
   ]
  },
  {

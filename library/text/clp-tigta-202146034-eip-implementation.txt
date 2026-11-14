@@ -1,0 +1,1530 @@
+Source: https://www.oversight.gov/sites/default/files/documents/reports/2021-05/202146034fr.pdf
+Publisher: Treasury Inspector General for Tax Administration
+Retrieved: 2026-11-14
+Original SHA-256: 0e7b6c92b71d2759b9ab3f04c6c179e4f3e5712102eb3581493c28103982c8a2
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+TREASURY INSPECTOR GENERAL FOR TAX ADMINISTRATION
+
+Implementation of Economic Impact Payments
+May 24, 2021
+Report Number: 2021-46-034
+
+This report has cleared the Treasury Inspector General for Tax Administration disclosure review process and information
+determined to be restricted from public release has been redacted from this document.
+
+1
+
+TIGTACommunications@tigta.treas.gov | www.treasury.gov/tigta
+
+HIGHLIGHTS: Implementation of Economic Impact Payments
+Final Audit Report issued on May 24, 2021
+
+Report Number 2021-46-034
+
+Why TIGTA Did This Audit
+
+What TIGTA Found
+
+This audit was initiated to assess
+the IRS’s Economic Impact
+Payment (EIP) outreach and
+assistance to individuals, accuracy
+of the computation, and
+adequacy of controls to prevent
+ineligible individuals from
+receiving a payment.
+
+The IRS, as required by the CARES Act, initiated a multipronged
+public awareness campaign to inform taxpayers about the availability
+of the EIP. These efforts included coordinating with local community
+organizations, food banks, and homeless shelters to reach
+unsheltered individuals; notifying approximately 9 million individuals
+who do not have a tax return filing requirement but may qualify for
+an EIP; and designating a National EIP Registration Day. In addition,
+the IRS established processes to issue a notice to each EIP recipient
+as required by the CARES Act. The notice provides the recipient with
+the amount of their payment and the method used to send their
+payment, e.g., direct deposit or paper check/prepaid debit card.
+
+This is a part of a series of audits
+to evaluate the IRS’s
+implementation of the EIP and the
+Recovery Rebate Credit. TIGTA is
+conducting a separate review of
+the IRS’s processing of Recovery
+Rebate Credit claims.
+
+Impact on Taxpayers
+One of the most significant
+parts of the Coronavirus Aid,
+Relief, and Economic Security
+(CARES) Act, signed into law on
+March 27, 2020, is a refundable
+Recovery Rebate Credit for
+individuals. The Act authorizes
+the IRS to make an advance
+payment of the Recovery Rebate
+Credit to eligible individuals by
+December 31, 2020. This advance
+payment is referred to as the EIP.
+As of December 31, 2020, the IRS
+has issued 168.2 million EIPs
+totaling $280 billion.
+
+As TIGTA reported in June 2020, our review of the more than
+157 million EIPs issued as of May 21, 2020, found that the IRS
+correctly computed the EIP amount for 98 percent (154 million) of
+these payments. However, as of July 16, 2020, the IRS had issued
+more than 4.4 million EIPs totaling nearly $5.5 billion to potentially
+ineligible individuals. These payments include payments made to
+deceased individuals, potentially nonqualified dependents,
+nonresidents, individuals in U.S. Territories (who have also received
+payments from the Territories), and individuals with filing status
+changes. In response to our alerting management of the issuance of
+payments to the previously mentioned potentially ineligible
+individuals, the IRS added instructions to IRS.gov to inform these
+types of individuals of their ineligibility and the need to return
+these payments, including the process to be followed. As of
+October 1, 2020, individuals voluntarily returned 65,447 payments
+totaling more than $80 million.
+Finally, the IRS recognized that the EIP created a new risk for
+tax-related identity theft. In response, the IRS developed specific
+filters to identify potentially fraudulent filings. Once a return was
+identified as potentially fraudulent, it was sent to an IRS team for
+review. As of November 11, 2020, the IRS has identified
+457,325 questionable tax returns associated with the EIP for review
+and determined that 38,273 returns were a fraudulent EIP claim.
+
+What TIGTA Recommended
+TIGTA made two recommendations to the IRS including
+implementing a multipronged public awareness campaign to inform
+the public about the availability of the Recovery Rebate Credit related
+to individuals who died in Calendar Year 2020, and developing
+processes to identify and prevent the issuance of future EIPs to
+individuals who are ineligible based on applicable dependency
+requirements.
+IRS management disagreed with both recommendations.
+Management believes a public awareness campaign is not warranted
+and its systems do not have the ability to look to outside data
+sources to identify and prevent the issuance of future EIPs to
+ineligible individuals based on applicable dependency requirements.
+
+U.S. DEPARTMENT OF THE TREASURY
+WASHINGTON, D.C. 20220
+
+TREASURY INSPECTOR GENERAL
+FOR TAX ADMINISTRATION
+
+May 24, 2021
+
+MEMORANDUM FOR: COMMISSIONER OF INTERNAL REVENUE
+
+FROM:
+
+Michael E. McKenney
+Deputy Inspector General for Audit
+
+SUBJECT:
+
+Final Audit Report – Implementation of Economic Impact Payments
+(Audit # 202040632)
+
+This report presents the results of our review to assess the Internal Revenue Service’s (IRS)
+Economic Impact Payment outreach and assistance to individuals, accuracy of the computation
+of the payment, and adequacy of controls to prevent ineligible individuals from receiving a
+payment. This review was part of our Fiscal Year 2020 discretionary audit work and addresses
+the major management and performance challenge of Implementing Tax Law Changes.
+Management’s complete response to the draft report is included as Appendix IV.
+Copies of this report are also being sent to the IRS managers affected by the report
+recommendations. If you have any questions, please contact me or Russell P. Martin, Assistant
+Inspector General for Audit (Returns Processing and Account Services).
+
+Implementation of Economic Impact Payments
+
+Table of Contents
+Background .....................................................................................................................................Page 1
+Results of Review .......................................................................................................................Page 4
+Some Economic Impact Payments Were Sent to
+Potentially Ineligible Individuals .....................................................................................Page 5
+Recommendation 1: ...................................................................Page 7
+Recommendation 2: .......................................................................... Page 9
+
+Economic Impact Payments to Incarcerated Individuals ......................................Page 13
+Processes Have Been Established to Identify Fraudulent Tax
+Return Filings to Receive an Economic Impact Payment ......................................Page 13
+Economic Impact Payment 2 ...........................................................................................Page 14
+
+Appendices
+Appendix I – Detailed Objective, Scope, and Methodology ................................Page 17
+Appendix II – Outcome Measures .................................................................................Page 19
+Appendix III – Notice 1444, Your Economic Impact Payment.............................Page.24
+Appendix IV – Management’s Response to the Draft Report .............................Page.25
+Appendix V – Glossary of Terms ....................................................................................Page 31
+Appendix VI – Abbreviations .......................................................................................... Page 32
+
+Implementation of Economic Impact Payments
+
+Background
+The Coronavirus Aid, Relief, and Economic Security (CARES) Act, signed into law on
+March 27, 2020, is the largest economic rescue package in U.S. history, providing financial
+assistance for individuals, families, and businesses affected by the Coronavirus Disease 2019
+(COVID-19) pandemic. One of the most significant parts of the CARES Act for individuals is
+Section 2201, 2020 Recovery Rebates for Individuals. Section 2201 created a refundable tax
+credit of up to $1,200 per eligible individual to be applied toward income earned during Tax
+Year 1 2020. In addition, eligible individuals can receive up to $500 for each child in their family
+who is under 17 years old.
+The CARES Act defines eligible individuals as those with adjusted gross income up to $75,000
+(up to $150,000 for married couples filing a joint return). Individuals with income above the
+income thresholds will have their credit reduced by $5 for each $100 above the threshold
+amount. In addition to the income requirements, individuals:
+•
+
+Must have a work-eligible Social Security Number (SSN). Married members of the
+military are eligible as long as one spouse has a work-eligible SSN, i.e., one spouse can
+have an Individual Taxpayer Identification Number. 2
+
+•
+
+Must be a U.S. citizen or resident alien.
+
+•
+
+Cannot be claimed as a dependent on someone else’s Federal income tax return.
+
+The CARES Act also required the Department of the Treasury to conduct a public awareness
+campaign regarding the availability of the credit and required the Internal Revenue Service (IRS)
+to issue a notice to each recipient within 15 days of their payment being issued. The notice
+must include the amount of the payment and the method used to issue the payment, e.g., direct
+deposit, paper check, or prepaid debit card.
+
+The CARES Act authorizes advance payment of the Recovery Rebate Credit
+The CARES Act authorizes the IRS to make an advance payment of the Recovery Rebate Credit
+to eligible individuals. This advance payment is referred to as the Economic Impact Payment
+(EIP). Advance payments must be made before December 31, 2020. To determine eligibility and
+the amount of the advance EIP, the IRS is authorized to use information from an individual’s Tax
+Year 2019 tax return. If the individual has not yet filed a Tax Year 2019 return, the IRS can use
+the individual’s Tax Year 2018 return. In addition, the IRS can use available information such as
+third-party income reporting documents to automatically issue an EIP to individuals who receive
+Social Security and Railroad Retirement Board (RRB) retirement benefits and do not have a
+Federal income tax return filing requirement. Figure 1 shows the process the IRS used to
+calculate the EIP.
+
+1
+
+See Appendix V for a glossary of terms.
+
+2
+
+Individual tax identification number issued by the IRS to individuals who are required to have a Taxpayer
+Identification Number for Federal tax purposes but do not have and are not eligible to receive an SSN.
+
+Page 1
+
+Implementation of Economic Impact Payments
+
+Figure 1: Calculation of the EIP
+
+Source: Treasury Inspector General for Tax Administration (TIGTA) analysis of EIP Core Requirement
+Process Flow.
+
+Individuals who are eligible for the Recovery Rebate Credit must reduce the amount of the
+credit by the amount of their advance payments. Individuals whose EIP is less than the
+allowable Recovery Rebate Credit will receive the additional credit when they file their Tax
+Year 2020 tax return. Individuals whose EIP was more than the allowable credit based on their
+Tax Year 2020 return do not have to repay the excess.
+
+The Consolidated Appropriations Act, 2021, (CAA)3 enacted on December 27, 2020,
+authorized the IRS to issue a second EIP (hereafter referred to as EIP2)
+The CAA created an additional Recovery Rebate Credit of up to $600 for each eligible individual
+and $600 for each eligible child. Similar to the CARES Act, the CAA authorized the IRS to make
+advance payments of the new Recovery Rebate Credit, hereafter referred to as EIP2. These
+payments were to be issued no later than January 15, 2021.
+The CAA also modified the eligibility requirements of the CARES Act Recovery Rebate Credit to
+match those of the new credit. The Act:
+
+3
+
+•
+
+Modified the SSN requirement for Married Filing Joint filers. The CARES Act
+required both individuals on a married filing joint return to have a valid SSN unless one
+spouse is a member of the military. The CAA modified this requirement to include all
+Married Filing Joint filers for which only one spouse has a valid SSN. However, the law
+clarified that for nonmilitary families, only the spouse and qualifying children that have a
+valid SSN are to be considered when determining the credit amount to which these filers
+are entitled.
+
+•
+
+Increased the income phase-out dollar limit for individuals filing as a Qualifying
+Widow or Widower from $75,000 to $150,000. Individuals who file as a Qualifying
+Widow with income above the income threshold will have their credit reduced by $5 for
+each $100 above the threshold amount.
+
+Pub. L. No 116-260.
+
+Page 2
+
+Implementation of Economic Impact Payments
+The CAA also specified that individuals who were deceased before January 1, 2020, do not
+qualify for an EIP2 or the new Recovery Rebate Credit.
+
+TIGTA reviews of the IRS’s issuance of the EIPs
+This is a part of a series of audits to evaluate the IRS’s implementation of the EIP and the
+Recovery Rebate Credit. In June 2020, we issued a report that presented interim results of
+our review of the IRS’s issuance of the EIPs. 4 We reported that significant coordination and
+efforts were taken by the IRS to expedite its analysis and reprogramming of systems and to
+educate individuals on the EIP. Remarkably, the IRS began issuing the EIPs on April 10, 2020,
+just 14 calendar days after the passage of the CARES Act, which was enacted at the same time
+the IRS was closing its facilities in response to COVID-19. Efforts included:
+•
+
+Completing extensive computer programming and testing necessary to issue the EIPs
+despite office closures and employees needing to work remotely. This included
+developing computer programming requirements to identify eligible individuals and
+compute the allowable EIP amount, as well as modifying the Master File to capture
+information related to the issuance of the EIP in each individual’s tax account.
+
+•
+
+Establishing a dedicated web page on IRS.gov (www.IRS.gov/coronavirus/
+economic-impact-payments) to provide updated information related to the issuance
+of the EIP, including a continually evolving list of Frequently Asked Questions (FAQ). As
+of September 30, 2020, the IRS reported more than 285 million visits to its EIPs web
+page.
+
+•
+
+Developing an online tool, “Get My Payment,” that provides taxpayers with the ability to
+check the status of their EIP payment and submit bank information for taxpayer accounts
+that are missing that information. As of September 30, 2020, the IRS reported
+approximately 579 million uses of this tool.
+
+•
+
+Coordinating with the Free File Alliance to develop the NonFilers: Enter Payment Info
+Here tool (hereafter referred to as the Nonfiler tool). This tool assists taxpayers who are
+eligible to receive an EIP but do not have a Federal tax return filing requirement. The
+tool enables these individuals to quickly file a short tax return that contains the
+information the IRS needs to issue their EIP for free. As of September 30, 2020,
+7,582,400 individuals submitted a short EIP return using the Nonfiler tool. The IRS kept
+the tool opened until November 21. The IRS reports accepting 8,518,600 returns
+through the tool as of this date.
+
+•
+
+Coordinating with other Federal agencies to obtain program data that could be used to
+automatically send an EIP to individuals who receive benefits from these agencies and do
+not regularly interact with the IRS. For example, the IRS worked with the Bureau of the
+Fiscal Service (BFS), 5 the Social Security Administration (SSA), and the Department of
+Veterans Affairs (VA) to identify beneficiary recipients along with their direct deposit
+
+4
+
+TIGTA, Ref. No. 2020-46-041, Interim Results of the 2020 Filing Season: Effect of COVID-19 Shutdown on Tax
+Processing and Customer Service Operations and Assessment of Efforts to Implement Legislative Provisions
+
+(June 2020).
+5
+
+Agency of the U.S. Department of the Treasury that issues payments on behalf of the IRS.
+
+Page 3
+
+Implementation of Economic Impact Payments
+account numbers, if available, for use in systemically issuing the EIP without the
+beneficiary having to file a short-form tax return.
+This audit focuses on the accuracy of the IRS’s calculation of the first EIP based on the CARES
+Act (hereafter referred to as EIP1) and efforts to prevent payments to ineligible individuals. We
+also provide preliminary information on the IRS’s efforts to issue EIP2 payments. We are
+conducting a separate review that will continue to evaluate IRS efforts to identify eligible
+individuals who did not receive an EIP1 and/or an EIP2 payment as well as the IRS’s processing
+of Recovery Rebate Credit claims. This review will also include an assessment of IRS efforts to
+assist eligible individuals who do not have a Federal tax return filing requirement and did not
+receive an EIP. We plan to issue this report later in Calendar Year 2021.
+
+Results of Review
+As required by the CARES Act, the IRS initiated a multipronged public awareness campaign to
+inform taxpayers about the availability of the EIP. This included:
+•
+
+Coordinating with local community organizations, food banks, and homeless shelters to
+reach unsheltered individuals. For example, the IRS reached out to 4,598 homeless
+shelters with information on how to obtain an EIP and asked these organizations to act
+as “trusted partners” to receive payments on behalf of their clients.
+
+•
+
+Coordinating with the Department of the Treasury to notify approximately 9 million
+individuals who do not have a tax return filing requirement but may qualify for an EIP.
+The IRS, in a joint effort with the Department of the Treasury, used available tax data to
+identify individuals who may have income reported to the IRS by a third party but do not
+have a tax return filing requirement. Once identified, the IRS sent these individuals a
+letter notifying them that they may be eligible for an EIP and urging them to use the
+Nonfiler tool on IRS.gov to file a short return before October 15, 2020, to receive an EIP.
+
+•
+
+Designating a National EIP Registration Day and extending the deadline to use the
+Nonfiler tool from October 15, 2020, to November 21, 2020. The IRS worked with
+partner groups, including those that work with low-income and underserved
+communities, to spread the word about the deadline and provide support to help
+individuals register for the payments.
+
+As of December 31, 2020, the IRS issued 168.2 million EIPs totaling $280 billion. In addition, the
+IRS also established processes to issue a notice to each EIP recipient as required by the CARES
+Act. The notice provides the recipient with the amount of their payment and the method that
+their payment was sent, e.g., direct deposit or check/prepaid debit card. 6 For the purpose of this
+report, EIP figures presented reflect payments issued as of the time frame noted. We will
+continue to provide updated figures as part of our subsequent reviews.
+
+6
+
+See Appendix III for an example of the notice sent.
+
+Page 4
+
+Implementation of Economic Impact Payments
+
+Some Economic Impact Payments Were Sent to Potentially Ineligible
+Individuals
+In June 2020, we reported that our review of the more than 157 million EIPs issued as of
+May 21, 2020, found that the IRS correctly computed the EIP amount for 98 percent (154 million)
+of these payments. Subsequent to our June report, we reviewed the payments associated with
+the other 2 percent (3 million payments) in which our calculated EIP amount did not match the
+IRS EIP amount. For these payments, the difference between the two amounts resulted from:
+•
+
+2.1 million payments in which we used a Tax Year 2019 tax return that was processed
+subsequent to the IRS’s initial determination of the individual’s eligibility and EIP amount.
+The IRS’s computation was based on the individual’s Tax Year 2018 tax return as the Tax
+Year 2019 had not yet been processed.
+
+•
+
+896,514 payments in which there was a difference in the number of children that
+qualified for the $500 payment. For example, we relied on the child’s age as of
+January 1, 2020, to identify the number of children who qualified for the extra $500 in
+the EIP. The IRS relied on the child’s age during the tax year used to determine
+eligibility, i.e., Tax Year 2018 or 2019.
+
+While the IRS correctly computed the EIP amount for most of the payments, as of July 16, 2020,
+the IRS had issued more than 4.4 million EIPs totaling nearly $5.5 billion to potentially ineligible
+individuals. Figure 2 provides more details on these EIPs.
+
+Figure 2: Potentially Erroneous EIPs Issued as of July 16, 2020
+Payments
+
+Dollars
+
+Deceased
+
+2,174,616
+
+$3.5 billion
+
+Dependents
+
+1,844,846
+
+$1.4 billion
+
+Nonresidents
+
+324,864
+
+$444 million
+
+Duplicate U.S. Territory Payments
+
+61,119
+
+$92 million
+
+Duplicate Payments for Filing Status Changes
+
+46,763
+
+$69 million
+
+4,452,208
+
+$5.5 billion
+
+Total
+
+Source: TIGTA analysis of payments issued as of July 16, 2020.
+
+The EIPs issued to deceased individuals
+As of July 16, 2020, the IRS issued nearly 2.2 million payments totaling nearly $3.5 billion to
+individuals who per IRS records were deceased. This includes 667,574 payments totaling more
+than $1.6 billion in which one of the individuals on a married filing joint return was deceased
+and 20,851 payments totaling more than $49 million in which both individuals were deceased.
+As we previously reported, we notified IRS management on April 15, 2020, that the EIPs were
+being issued to deceased individuals. IRS management initially noted that payments to these
+individuals were allowed because the CARES Act does not prohibit the issuance of payments to
+deceased individuals.
+However, the Department of the Treasury subsequently changed its position, noting that
+individuals who were deceased are not entitled to an EIP, and if a payment was received, it
+Page 5
+
+Implementation of Economic Impact Payments
+should be returned to the IRS. On May 1, 2020, we raised concerns to IRS management
+regarding the lack of guidance regarding how an individual can return an EIP that they received
+in error. In response to our concerns, the IRS updated the EIP FAQs on its website on
+May 6, 2020, with new guidance regarding payments that were issued to deceased individuals.
+The IRS informed individuals who received these payments for an individual who died before the
+receipt of the payment that the payment should be returned to the IRS. The IRS also included
+steps that should be taken to return these payments as part of its FAQs. In our discussions with
+IRS management, they stated that they are relying on individuals to voluntarily return these
+payments. As of October 1, 2020, a total of 59,500 payments totaling more than $72 million
+have been voluntarily returned.
+To prevent additional payments from being issued to deceased individuals, the IRS:
+•
+
+Provided the BFS with a data file that contained the Taxpayer Identification Number
+(TIN) 7 of individuals listed in IRS records as being deceased for the past five years and
+requested that the BFS remove these individuals from payment files. Payments were
+removed using this process between May 1, 2020, and May 8, 2020. The BFS was able to
+stop 230,086 payments totaling more than $358 million using the provided information.
+However, in initiating this action, the BFS stopped the entire payment even when the
+spouse of the deceased individual was alive and entitled to their portion of the EIP.
+We alerted the IRS to this situation. In response, the IRS worked with the BFS to
+identify the specific individuals whose portion of their EIP should not have been
+stopped. IRS management stated that they implemented corrective programming on
+September 24, 2020, and issued approximately 225,000 recovery payments for the
+spouse’s portion of the EIP.
+
+•
+
+Implemented programming on May 13, 2020, to discontinue calculating and sending the
+EIPs to deceased individuals. Our analysis of payments issued subsequent to
+May 13, 2020, confirmed that the programming is working as intended.
+
+In addition, at the direction of the Department of the Treasury, the BFS cancelled all outstanding
+EIP paper checks on July 6, 2020, that were previously issued to deceased individuals. The
+IRS posted information on its EIP website alerting taxpayers that the BFS has cancelled
+outstanding EIP checks issued to recipients who may not be eligible, including those who
+records show are deceased. The IRS also conducted a recovery effort to identify individuals
+associated with joint payments to ensure that these individuals received the EIP to which they
+are entitled. On November 19, 2020, the IRS issued recovery payments to these individuals.
+As of October 1, 2020, from the nearly 2.2 million payments issued to deceased individuals, a
+total of 668,277 payments totaling more than $872 million have been rejected by the bank or
+returned to the IRS as undeliverable.
+
+7
+
+A nine-digit number assigned to taxpayers for identification purposes. Depending upon the nature of the taxpayer,
+the TIN is either an Employer Identification Number, an SSN, or an Individual TIN.
+
+Page 6
+
+Implementation of Economic Impact Payments
+
+The CAA clarifies Recovery Rebate Credit eligibility of individuals deceased in Calendar
+Year 2020
+Title II of Division N of the CAA, enacted on December 27, 2020, clarifies that individuals
+who died in Calendar Year 2020 are eligible to receive the Recovery Rebate Credit. On
+January 5, 2021, the IRS added the following FAQ to its EIP web page:
+
+Will a deceased individual receive the payment?
+Payment won’t be issued to someone who has died before January 1, 2020. If you filed a
+joint return in 2019 and your spouse died before January 1, 2020, you won’t receive a
+$600 payment for your deceased spouse, but you’ll still be issued up to $600 for you and
+$600 for any qualifying children, if all other eligibility criteria are met. With regard to eligible
+
+individuals who died in 2020, the Recovery Rebate Credit may be claimed on line 30 of their
+2020 tax return. Please refer to the instructions for the 2020 Form 1040 for more
+information.
+
+Although clarification was included in this legislation, we remain concerned that considerable
+confusion may exist on the part of the families and estates of individuals with a Date of Death
+in Calendar Year 2020. This confusion arises from the fact that prior to the passage of the CAA,
+the IRS instructed the families of deceased individuals, including those who died in Calendar
+Year 2020, to return the decedent’s EIP, i.e., the advance payment of the Recovery Rebate Credit,
+because they were not entitled to these advance payments.
+Given the IRS’s extensive messaging and position prior to the passage of the CAA regarding the
+EIPs sent to deceased individuals, we are concerned that the families and estates of individuals
+with a Date of Death in Calendar Year 2020 may not understand that these deceased individuals
+are in fact eligible for the Recovery Rebate Credit, and as such may not file a decedent’s Tax
+Year 2020 tax return to claim this credit. Of the nearly 2.2 million EIPs the IRS issued to
+deceased individuals prior to May 2020, 831,958 payments were issued to individuals with a
+Date of Death in Calendar Year 2020.
+Our ongoing coverage will include an assessment of the IRS’s processing of final tax returns
+associated with individuals deceased in Calendar Year 2020 to ensure that their Recovery Rebate
+Credit is accurately calculated, and they receive the amount to which they are entitled.
+Recommendation 1: The Commissioner, Wage and Investment Division, should initiate a
+multipronged public awareness campaign to inform the public about the availability of the
+Recovery Rebate Credit related to individuals deceased in Calendar Year 2020. This campaign
+should clarify information previously provided about the advance payments as well as actions
+that need to be taken to claim the Recovery Rebate Credit for a Calendar Year 2020 decedent.
+Management’s Response: The IRS disagreed with this recommendation. IRS
+management noted that the instructions for Form 1040, U.S. Individual Income Tax
+Return, and Form 1040-SR, U.S. Tax Return for Seniors, state that individuals who died
+in Calendar Year 2020 are eligible for the Recovery Rebate Credit, provided other
+eligibility requirements are met. IRS management has also taken further actions, such
+as clarifying information posted previously on its website about the advance payments
+to reflect the eligibility of decedents in 2020, as well as posting information about
+claiming the 2020 Recovery Rebate Credit for eligible decedents. IRS management
+believes these actions are sufficient and a public awareness campaign is not warranted.
+Page 7
+
+Implementation of Economic Impact Payments
+Office of Audit Comment: We remain concerned that the families and estates
+of individuals deceased in Calendar Year 2020 may be unaware of this Recovery
+Rebate Credit eligibility provision.
+
+The EIPs issued to individuals who were claimed as dependents
+Our analysis of EIP payments issued as of July 16, 2020, identified approximately 1.8 million
+potentially erroneous payments totaling nearly $1.4 billion associated with ineligible
+dependents. These included:
+•
+
+Nearly 1.1 million payments totaling more than $553.6 million that were issued for
+dependents who were older than 16 in Calendar Year 2020. The CARES Act states to be
+eligible for the $500 qualifying child payment, a child:
+o
+
+Must be 16 years old or younger at the end of the tax year.
+
+o
+
+Must be the taxpayer’s son, daughter, stepchild, foster or adopted child, brother,
+sister, stepbrother, stepsister, half-brother or half-sister, grandchildren, niece or
+nephew.
+
+o
+
+Must have not provided more than one-half of their own support for the year, and
+other criteria.
+
+Our review of an IRS draft EIP Programming Requirements document identified that the
+IRS initially planned to evaluate the age of dependents as of January 1, 2020. IRS
+management indicated that they did not consider the age of the dependents in Calendar
+Year 2020 because the CARES Act authorizes them to rely on the information on
+taxpayers’ Tax Year 2018 or 2019 return when determining eligibility for the EIP. IRS
+management also stated that the computer processes used to calculate and issue the EIP
+cannot coordinate with the IRS database where Date of Birth information resides. While
+the IRS uses SSA data to verify that applicable age requirements related to credits and
+deductions are met when processing a tax return, it would need to complete extensive
+reprogramming to access this information during EIP processing.
+•
+
+388,023 payments totaling $465.6 million issued to SSA/RRB/VA/Supplemental Security
+Income (SSI) beneficiaries who were claimed as a dependent on a Tax Year 2019 tax
+return filed before the EIP was issued. The CARES Act states that to be eligible for the
+EIP, an individual cannot be claimed as a dependent on someone else’s Federal income
+tax return. IRS management stated that these individuals were not identified as a
+dependent because the Tax Year 2019 tax return on which they were claimed had not
+been processed at the time the IRS verified the individual’s dependent status.
+
+•
+
+269,384 payments totaling $341.9 million issued to individuals who filed their own return
+and were also claimed as a dependent on someone else’s tax return. As previously
+noted, the CARES Act states that an individual who can be claimed as a dependent is not
+eligible for the EIP. Individuals are instructed to check a box on their tax return to notify
+the IRS that they can be claimed as someone else’s dependent. The IRS relied on this
+checkbox to identify individuals who were not eligible for an EIP. These
+269,384 individuals did not check the dependent box on their tax return as instructed.
+
+Page 8
+
+Implementation of Economic Impact Payments
+
+EIP dependent payments were made for the same qualifying child used on more than one
+tax return
+In addition to the previously mentioned payments, we also identified 175,724 payments totaling
+an estimated $44 million for qualifying children claimed on more than one tax return. These
+175,724 payments involved 87,745 unique dependent TINs. The number of times a particular
+child’s TIN was used on a tax return ranged from two tax returns to 21 tax returns. We alerted
+the IRS of our identification of payments issued for multiple individuals and recommended that
+the IRS:
+•
+
+Update IRS.gov with information to encourage individuals who received an erroneous
+qualifying child EIP for a multiple use dependent to return the payment. The IRS
+disagreed. IRS management stated that these payments would be the result of either a
+taxpayer intentionally claiming a dependent to whom they knew they were not entitled,
+or an error caused by the taxpayer or an IRS employee during transcription of the
+return. IRS management stated that they doubt a FAQ would persuade someone who
+intentionally claimed a child in error to return the payment. In addition, taxpayers
+would be unaware of a transposition or transcription error and would not recognized
+that the FAQ applied to them.
+
+•
+
+Contact these individuals to alert them that their TIN or their child’s TIN has been used
+as a dependent on someone else’s tax return and instruct them to notify the IRS if they
+believe their TIN or their child’s TIN may have been stolen. IRS management responded
+that they are evaluating the resources needed to accomplish our recommendation and
+will consider the messaging through direct mailings.
+
+•
+
+Establish processes to recover payments that are determined to be the result of the
+identity theft of the dependent’s TIN. The IRS disagreed due to the amount of resources
+needed in comparison to the potential amount to be recovered. IRS management
+stated that deficiency procedures would be required to examine the facts and
+circumstances of each duplication to determine who is entitled to claim the dependent.
+
+As of October 1, 2020, only 872 of the approximately 1.8 million individuals we identified have
+voluntarily returned their payments totaling more than $1.1 million. In our subsequent
+conversation with the IRS, IRS management explained that to identify dependents who did not
+check the dependent box on their return or those dependents used on multiple returns during
+EIP calculation and issuance would require extensive reprogramming of the involved systems.
+While TIGTA recognizes the challenge involved to improve the current process, the IRS should
+still consider program changes that would help it prevent future erroneous payments related to
+dependents.
+Recommendation 2: The Commissioner, Wage and Investment Division, should ensure that
+prior to issuing future EIPs, processes are developed to cross-check return filings to identify and
+prevent payments to individuals who are not eligible based on applicable dependency
+requirements.
+Management’s Response: The IRS disagreed with this recommendation and the related
+outcome measure (see Appendix II for more information on the reported outcome
+measure). ********************************2************************************************
+*******************************************2*************************. In addition, IRS
+Page 9
+
+Implementation of Economic Impact Payments
+management believes implementing a process to do so would not guarantee a payment
+to an unentitled individual would be stopped, as the subsequent use of the dependent
+by the entitled person may not occur until after the first person’s return has been
+processed and the EIP issued. In effect, this would harm the rightful individuals by
+denying the payment to them. **********2************************************************
+*******************************************2************************************************
+*******************2*******************.
+Office of Audit Comment: *****2************************************************
+************************************2************************************************
+********2********. The IRS captures each use of a TIN for an applicable tax year in
+the Duplicate TIN database. The TINs that are used more than once are identified
+with a priority code. At a minimum, we believe the IRS can use the Duplicate TIN
+database to determine whether a TIN has already been used as a dependent on a
+tax return before issuing an EIP.
+
+EIP payments issued to nonresidents
+In June 2020, we reported that our analysis of payments issued as of May 21, 2020, identified
+309,601 payments totaling more than $423 million that were issued to individuals whose SSN
+indicates they are a legal alien authorized to work in the United States. However, these
+individuals had no Federal Insurance Contributions Act (FICA) tax withheld from their wages in
+Calendar Years 2018 or 2019, which indicates they are likely not considered a U.S. resident.
+Certain nonresident aliens are exempt from FICA taxes based on their VISA type, such as
+nonresident alien students and professors temporarily present in the United States. We
+conducted this analysis based on reports by news media that individuals who were not U.S.
+residents were receiving the EIPs. These individuals include foreign college students who stayed
+temporarily in the United States and filed the incorrect tax returns that make them appear to be
+U.S. residents.
+Our updated analysis of payments issued as of July 16, 2020, found the number of these
+potentially erroneous payments increased to 324,864 payments totaling nearly $444 million. Of
+the 324,864 payments, 30,175 of these payments totaling more than $37 million were calculated
+by the IRS using a Form 1040, which listed a foreign address.
+The CARES Act states that to be eligible for an EIP, an individual must be a U.S. citizen or
+resident alien. On May 1, 2020, we sent an alert to the IRS detailing our identification of the
+previously mentioned EIPs issued to individuals who are likely not U.S. residents and asked for
+clarification on the steps the IRS used to ensure that individuals for whom an EIP is being issued
+are in fact U.S. residents. In response to our alert, the IRS added the following FAQ to its
+website:
+
+Does someone who is a resident alien qualify for the Payment?
+A person who is a nonresident alien in 2020 is not eligible for the Payment. A person who is
+a qualifying resident alien with a valid SSN is eligible for the Payment only if he or she is a
+qualifying resident alien in 2020 and could not be claimed as a dependent of another
+taxpayer for 2020. Aliens who received a payment but are not qualifying resident aliens for
+2020 should return the payment to the IRS.
+Page 10
+
+Implementation of Economic Impact Payments
+As of October 1, 2020, 2,361 payments totaling more than $2.8 million have been voluntarily
+returned to the IRS. Management also indicated to ensure that only U.S. residents are sent an
+EIP, payments were issued to only taxpayers who file a Form 1040. Taxpayers filing the Form
+1040 NR, U.S. Nonresident Alien Income Tax Return, are not eligible for the EIP. However, the
+IRS has no process to identify nonresidents who incorrectly filed a Form 1040 similar to those we
+identified in our analysis.
+Based on our analysis, we have indications that nonresident aliens may be filing incorrect
+Form 1040 tax returns. We plan to conduct an audit to determine whether IRS processes ensure
+that aliens working in the United States are accurately determining their residency status and are
+filing the proper income tax return. 8
+
+Individuals with addresses in a U.S. Territory erroneously received duplicate EIPs
+Our analysis of payments issued as of July 16, 2020, identified 59,946 individuals who incorrectly
+received two EIPs – one from a U.S. Territory and one from the IRS. These individuals incorrectly
+received 61,119 payments totaling nearly $92.2 million. Some of these individuals listed a U.S.
+domestic address on their U.S. tax return used to calculate the EIP while others listed a U.S.
+Territory address on their U.S. tax return.
+In May 2020, we met with IRS management to discuss processes and procedures they developed
+to ensure that the Territories do not issue duplicate payments to individuals who have already
+received an EIP from the IRS. IRS management indicated that U.S. Territories are responsible for
+determining who is eligible to receive an EIP payment and the amount of the payment as well as
+issuing the payment. IRS management further explained that each U.S. Territory included steps
+to identify duplicate payments in their respective EIP Implementation Plans, which they entered
+into with the Department of the Treasury.
+To assist U.S. Territories in the identification of potential duplicate payments, the IRS identified
+payments it made to individuals with a U.S. Territory address similar to the analysis we
+performed. The IRS sent these files to the Territories on a weekly basis. IRS management also
+noted that each U.S. Territory is required to send data to the IRS on a monthly basis starting on
+June 30, 2020, which details the specific individuals who were issued an EIP by the U.S. Territory,
+including individuals the Territory identified as receiving a duplicate payment. In addition, on
+June 8, 2020, the IRS updated the following information to its FAQs on its website:
+
+What does it mean if I received a Payment from both the IRS and a U.S territory tax
+agency?
+In general, eligible individuals should not receive a Payment from both the IRS and a U.S.
+territory tax agency. If you have received a Payment from more than one jurisdiction and
+you are a resident of a U.S. territory for the 2020 tax year, please consult your U.S. territory
+tax agency concerning information about Payments received by U.S. territory residents from
+the IRS, including incorrect or duplicate Payments. If you have received a Payment from
+more than one jurisdiction and you are a NOT a resident of a U.S. territory for the 2020 tax
+year, you should return any incorrect or duplicate Payments received from the U.S. territory
+tax agency to the IRS pursuant to the instructions about repayments.
+
+8
+
+TIGTA Audit 202140004, Processes to Ensure That Aliens File the Correct Tax Form Based on Their Residency Status.
+
+Page 11
+
+Implementation of Economic Impact Payments
+As of October 1, 2020, a total of 2,384 of the 59,946 individuals we identified have voluntarily
+returned payments totaling more than $3.6 million.
+Finally, IRS management stated that on October 9, 2020, they established a team to analyze EIP
+data and support the Territories in identifying potential duplicate payments to reclaim the funds.
+In response to the CAA, the U.S. Territories were required to establish new EIP Implementation
+Plans with the Department of the Treasury for the issuance of the second stimulus payment
+enacted on December 27, 2020. 9 According to the IRS, these plans were signed on
+January 19, 2021. The IRS stated that it is currently evaluating its authority to continue to assist
+the Territories’ identification and recovery of potential duplicate payments.
+
+Duplicate EIP payments were issued erroneously to some individuals whose filing status
+changed between Tax Year 2018 and Tax Year 2019
+As we reported in June 2020, our analysis of payments issued as of May 21, 2020, identified
+46,759 individuals who received two EIP payments. These involved duplicate payments to some
+individuals whose filing status changed between Tax Year 2018 and Tax Year 2019, i.e., filed as
+married in Tax Year 2018 and single in Tax Year 2019 or vice versa. The payments issued in error
+totaled more than $69 million. These include:
+•
+
+16,339 individuals who filed as the secondary taxpayer on a Married Filing Jointly return
+in Tax Year 2018 and subsequently filed as Single, i.e., Single, Head of Household,
+Qualifying Widow(er), or Married Filing Separately, in Tax Year 2019 as the primary
+taxpayer on a tax return. One payment was sent to the bank account or address shown
+on the Tax Year 2018 tax return, and one payment was sent to the bank account or
+address shown on the Tax Year 2019 tax return.
+
+•
+
+30,420 individuals who filed as Single in Tax Year 2018 as the primary taxpayer on a tax
+return and subsequently filed as the secondary taxpayer on a Married Filing Jointly return
+in Tax Year 2019. One payment was sent to the bank account or address shown on the
+Tax Year 2018 tax return, and one payment was sent to the bank account or address
+shown on the Tax Year 2019 tax return.
+
+We sent the IRS an alert notifying it of our concerns on May 12, 2020. IRS management noted
+that programming requirements were put in place to ensure that multiple EIPs were not issued
+to the same individual. However, because the IRS processed payments based on both Tax
+Years 2018 and 2019 returns at the same time, the programming was unable to mark the
+account for the Tax Year 2018 return to show a payment was issued before the Tax Year 2019
+payment was issued. The IRS submitted programming changes on May 15, 2020, to correct this
+issue, and we confirmed that the programming changes are working as intended as we only
+identified an additional four payments for a total of 46,763 erroneous payments. As with other
+EIPs issued in error, the IRS is asking these individuals to voluntarily return their duplicate
+
+9
+
+The CAA, Pub. L. No. 116-260.
+
+Page 12
+
+Implementation of Economic Impact Payments
+payment. As of October 1, 2020, 330 individuals we identified have voluntarily returned
+payments totaling $429,793.
+
+Economic Impact Payments to Incarcerated Individuals
+In April 2020, the IRS stated that it planned to hold EIP payments identified as being associated
+with incarcerated individuals. However, as we reported in June 2020, we found that the IRS’s
+programming to hold these payments was not working, i.e., payments were being issued to
+incarcerated individuals. We notified the IRS that these payments were not being held as it
+intended. The IRS subsequently modified its computer programming to exclude incarcerated
+individuals from receiving an EIP and worked with the BFS to intercept some of these payments.
+On September 24, 2020, the U.S. District Court in the Northern District of California issued a
+preliminary injunction stopping the IRS from holding EIPs from individuals on the sole basis of
+their incarceration status. In response, the IRS updated its EIP FAQs on its website citing the
+court ruling and providing information on how these individuals can claim their EIP. Individuals
+were instructed to use the IRS Nonfiler tool by November 21, 2020, or mail a simplified Tax Year
+2019 paper tax return to the IRS by the court-ordered deadline of November 4, 2020. In
+addition, the IRS provided information to correctional facilities regarding the court ruling,
+including information on how to submit the simplified paper tax return, and took steps to
+ensure that individuals whose payments had been held, intercepted, or returned receive a
+payment.
+
+Processes Have Been Established to Identify Fraudulent Tax Return Filings to
+Receive an Economic Impact Payment
+The IRS recognized that the issuance of the EIPs created a new risk for tax-related identity theft
+as these payments would be issued to eligible individuals who do not normally file a tax return.
+As we noted earlier, the IRS developed a simplified Tax Year 2019 tax return that these
+individuals could file to receive their EIP. ******2**************************************************
+**************************************************2**************************************************
+**************************************************2**************************************************
+********2*******.
+In response, the IRS developed specific filters to identify potentially fraudulent EIP nonfiler
+return filings. ***********************************2**************************************************
+**************************************************2**************************************************
+**************************************************2**************************************************
+**************************************************2**************************************************
+**************************************************2*******.
+Once questionable returns are identified, an IRS team manually reviews these returns before
+they are released for regular processing. This verification includes evaluating these returns using
+existing IRS identity theft processes to authenticate the identity of the tax return filer. As of
+November 11, 2020, the IRS identified 457,325 questionable tax returns associated with the EIP
+and determined that 38,273 returns were fraudulent with the EIPs. The IRS does not have an
+
+Page 13
+
+Implementation of Economic Impact Payments
+estimate of the fraudulent EIPs protected. However, using the maximum payment of $1,200, we
+estimate the amount protected is nearly $46 million.
+
+Economic Impact Payment 2
+In response to the enactment of the CAA, the IRS issued 147 million EIP2 payments totaling
+$142 billion on December 29, 2020. IRS management stated that they had only two calendar
+days after enactment to issue the second stimulus payments before the IRS shut down its
+processing systems, including those involved in calculating and issuing the EIPs, to make the
+programming changes needed for the upcoming filing season. The system responsible for
+calculating and issuing the EIPs was not brought back online until January 25, 2021. As such, the
+IRS was limited to this bulk payment issuance. Eligible individuals who were not issued an EIP2
+on December 29, 2020, will receive the additional payment when they file their Tax Year 2020 tax
+return and claim the Recovery Rebate Credit.
+The IRS also stated that while it was able to issue 147 million EIP2 payments in December 2020,
+it could take many weeks for payments that must be issued as a paper check or debit card to be
+distributed to taxpayers. This delay is the result of a limitation on the number of nondirect
+deposit payments the BFS can process each week.
+
+TIGTA’s interim report identified concerns related to the issuance of the EIP1 to
+temporary bank accounts
+In our June 2020 interim report, we identified and brought to IRS management’s attention that
+multiple EIP deposits were being sent to the same bank account. Specifically, our analysis
+identified 49,141 payments totaling $75 million associated with 8,793 unique bank accounts that
+received four or more direct deposit EIPs. We first notified the IRS of our concerns on
+April 15, 2020. According to IRS management, some of these payments occurred because the
+computer programming intended to prevent multiple direct deposit of payments into the same
+bank accounts was not used to calculate and issue the EIPs. Furthermore, many taxpayers who
+used temporary bank accounts, typically associated with refund products, 10 provided the
+temporary bank account numbers instead of their true bank account numbers. In response, the
+IRS developed programming that identified payments associated with tax accounts that had a
+refund product indicator on the tax account and sent a paper check rather than attempting to
+send a direct deposit.
+IRS management noted that in many of these instances, the tax preparation company did not
+provide the bank account belonging to the taxpayer (referred to as the Ultimate Bank Account
+(UBA)) on the tax return or erroneously provided the temporary bank account number as the
+taxpayer’s UBA. As such, when the IRS created its payment files using the UBA from these tax
+returns, the UBA was not the correct bank account for the taxpayers. This resulted in payments
+being rejected by the banks and led to the IRS reissuing these payments in paper check or debit
+card format, further delaying taxpayers’ access to the payments.
+
+10
+
+Banking products typically offered by tax preparers in which the tax preparation fees are automatically deducted
+from the tax refund.
+
+Page 14
+
+Implementation of Economic Impact Payments
+
+A data error resulted in some EIP2 payments being incorrectly sent to temporary bank
+accounts
+Shortly after the IRS issued the EIP2 payments, individuals began reporting that the Get My
+Payment tool showed that their EIP2 was deposited in a bank account that they did not
+recognize. According to the IRS, similar to the first EIP, some EIP2 payments were issued to
+temporary bank accounts typically associated with various products that are offered by tax
+return preparation companies. The IRS stated that individuals who use these products have
+their refund deposited into a temporary bank account where authorized fees, tax preparation
+fees, etc. are removed from the refund before the refund is deposited into the taxpayer’s own
+bank account.
+In preparation for additional anticipated stimulus legislation, the IRS initiated an effort in the
+summer of 2020 to correct UBA information on certain taxpayers’ accounts so that future EIPs
+could be issued as a direct deposit. However, due to an IRS data error, the taxpayers’ accounts
+were incorrectly updated with the temporary bank accounts. In December 2020, the IRS issued
+nearly 13 million EIP2 payments to these temporary bank accounts rather than to the correct
+UBA for these taxpayers.
+Once the issue was identified, the IRS immediately began working with financial industry
+partners to resolve the issue, and some industry partners were able to redirect the EIP2 to the
+true bank accounts belonging to the affected taxpayers. While some of these payments were
+redirected to the taxpayers’ true bank accounts, many payments were rejected by the banks and
+returned to the IRS. The IRS has taken steps to identify and correct the bank account
+information associated with 2.88 million individuals whose payments were sent incorrectly to a
+temporary bank account. IRS management noted that these 2.88 million payments will be
+reissued as direct deposits no later than February 3, 2021, to these taxpayers. When we
+questioned how the IRS could reissue these payments past the deadline set in the legislation of
+January 15, 2021, IRS management explained that IRS Office of Chief Counsel determined that
+the IRS can continue to reissue payments if the payment was initially sent prior to the cut-off
+date set by law. However, the IRS cannot initiate any new payments after the cutoff date of
+January 15, 2021.
+As part of its efforts to reissue direct deposit payments to the previously mentioned population
+of individuals, the IRS also plans to reissue approximately 2 million EIP2 payments as a paper
+check. These include individuals who received a debit card and could not pass the
+authentication process to activate the card, as well as individuals who had their direct deposit
+payment rejected and the IRS does not have updated bank account information for them.
+
+The IRS is making continued efforts to improve UBA information
+Recognizing that using an incorrect UBA to send taxpayers their EIPs causes undue burden on
+taxpayers, the IRS has and continues to undertake initiatives to improve the reporting of the
+UBA as well as identifying other sources of valid UBAs associated with taxpayers. The IRS
+continued to work with its Security Summit partners 11 during Calendar Year 2020 to improve the
+submission of bank account information and expand the number of future payments that can be
+issued as a direct deposit using taxpayers’ UBA. For example, one such effort resulted in the IRS
+11
+
+Collaboration effort between the IRS and industry partners such as H&R Block, Intuit, Thomson Reuters, Drake
+Software, and Wolters Kluwer Tax & Accounting.
+
+Page 15
+
+Implementation of Economic Impact Payments
+changing the requirement for the UBA field for Tax Year 2020 and future returns to require
+preparers/software providers to include a “T” in the first digit of the UBA if the account in that
+field is a temporary bank account (such as for a debit card product). The IRS has also performed
+mock testing on the use of this information to prevent future EIPs from going to temporary
+bank accounts should it be required to issue additional payments.
+Another initiative involves the IRS working with the BFS to identify approximately 13 million
+individuals who received a paper EIP check for which the BFS had a direct deposit number.
+These individuals receive Government benefits via direct deposit from Federal agencies other
+than the SSA and the VA. However, IRS management noted that they cannot use these bank
+accounts to issue future EIPs as a direct deposit without specific legislation. Current legislation
+only authorizes the IRS to obtain direct deposit information from the SSA, the RRB, and the VA
+for issuing the EIPs. If the IRS can get authority to proactively coordinate with all Federal
+agencies to identify their beneficiaries, the IRS believes it can significantly expand the number of
+direct deposit EIPs it can issue for individuals it knows about and possibly identify additional
+eligible individuals should future payments be required.
+We will continue to monitor the IRS’s efforts to resolve this issue as part of our ongoing work to
+assess the IRS’s issuance of the EIPs and processing of Recovery Rebate Credit claims on Tax
+Year 2020 tax returns.
+
+Page 16
+
+Implementation of Economic Impact Payments
+
+Appendix I
+Detailed Objective, Scope, and Methodology
+The overall objective of this audit was to assess the IRS’s EIP outreach and assistance to
+individuals, accuracy of the computation of the payment, and adequacy of controls to prevent
+ineligible individuals from receiving a payment. To accomplish our objective, we:
+•
+
+Assessed the IRS’s outreach and assistance to individuals regarding the EIPs.
+
+•
+
+Used the payment criteria included in the CARES Act and developed a systemic program
+to assess whether the IRS calculated the EIP correctly.
+
+•
+
+Analyzed EIP payment files and identified any individual directly and/or indirectly
+receiving more than one EIP.
+
+•
+
+Analyzed EIP payment files and identified any individual potentially ineligible for the EIP.
+
+•
+
+Determined whether the IRS has controls and processes to detect fraudulent simplified
+Tax Year 2019 returns.
+
+Performance of This Review
+This review was performed with information obtained from the Wage and Investment Division
+Headquarters; Accounts Management function; Customer Assistance, Relationships, and
+Education function; and Return Integrity and Compliance Services function in Atlanta, Georgia;
+the Wage and Investment Division Submission Processing function offices in Cincinnati, Ohio;
+and the Information Technology organization in Lanham, Maryland, during the period
+March through December 2020. We conducted this performance audit in accordance with
+generally accepted government auditing standards. Those standards require that we plan and
+perform the audit to obtain sufficient, appropriate evidence to provide a reasonable basis for
+our findings and conclusions based on our audit objective. We believe that the evidence
+obtained provides a reasonable basis for our findings and conclusions based on our audit
+objective.
+Major contributors to the report were Russell P. Martin, Assistant Inspector General for
+Audit (Returns Processing and Account Services); Deann L. Baiza, Director; Ngan B. Tang,
+Audit Manager; Karen C. Fulte, Senior Auditor; Brieane K. Hamaoka, Senior Auditor;
+Tracy M. Hernandez, Senior Auditor; Robert J. Howes, Senior Auditor; Jane G. Lee, Senior
+Auditor; David P. Robben, Senior Auditor; Heidi C. Turbyfill, Senior Auditor; Linda M. Valentine,
+Senior Auditor; Michael J. Bibler, Auditor; Laura R. Christoffersen, Auditor; James M. Allen,
+Information Technology Specialist; Karen A. Brown, Information Technology Specialist;
+Hong Cao, Information Technology Specialist; Shannon D. Cummings, Information Technology
+Specialist; Meera B. Dave, Information Technology Specialist; Cheryl F. Joneckis, Information
+Technology Specialist; Donald J. Meyer, Information Technology Specialist; Johnathan D. Elder,
+Information Technology Specialist, Applied Research and Technology; and Laura P. Haws,
+Information Technology Specialist, Applied Research and Technology.
+
+Page 17
+
+Implementation of Economic Impact Payments
+
+Validity and Reliability of Data From Computer-Based Systems
+During this review, we obtained extracts from the Individual Master File for Tax Years 2018, 2019,
+and 2020; the Individual Return Transaction File for Processing Years 2019 and 2020; the
+Information Returns Master File for Tax Years 2018 and 2019; the Prisoner File for Processing
+Year 2019; Individual Master File Refund Files; and the National Account Profile for Processing
+Years 2019 and 2020 that were available on TIGTA’s Data Center Warehouse. We obtained the
+Social Security SSI and VA beneficiary recipient files from the IRS. We also obtained data from
+the IRS which detailed the specific individuals who were issued an EIP by each U.S. Territory
+between May and July 2020. Before relying on the data, we ensured that each file contained the
+specific data elements we requested. In addition, we selected judgmental samples of each
+extract and verified that the data in the extracts were the same as the data captured in the
+Integrated Data Retrieval System. We also performed analysis to ensure the validity and
+reasonableness of our data, such as ranges of dollar values and obvious invalid values. Based on
+the results of our tests, we believe that the data used in our review were reliable.
+
+Internal Controls Methodology
+Internal controls relate to management’s plans, methods, and procedures used to meet their
+mission, goals, and objectives. Internal controls include the processes and procedures for
+planning, organizing, directing, and controlling program operations. They also include the
+systems for measuring, reporting, and monitoring program performance. We determined that
+the following internal controls were relevant to our audit objective: the process for planning,
+organizing, directing, and controlling program operations for the issuance of the EIPs. We
+evaluated these controls by meeting with IRS management, reviewing IRS procedures, and
+reviewing IRS reports.
+
+Page 18
+
+Implementation of Economic Impact Payments
+
+Appendix II
+Outcome Measures
+This appendix presents detailed information on the measurable impact that our recommended
+corrective actions will have on tax administration. These benefits will be incorporated into our
+Semiannual Report to Congress.
+
+Type and Value of Outcome Measure:
+•
+
+Cost Savings (Funds Put to Better Use) – Potential; 1,437,531 payments totaling more
+than $2.5 billion that were issued to individuals who were deceased
+(see Recommendation 1).
+
+Methodology Used to Measure the Reported Benefit:
+We obtained extracts from the Individual Master File for Tax Years 2018, 2019, and 2020; the
+Individual Return Transaction File for Processing Years 2019 and 2020; the Information Returns
+Master File for Tax Years 2018 and 2019; Individual Master File Refund Files; and the National
+Account Profile for Processing Years 2019 and 2020.
+Our computer analyses of payments that were issued as of July 16, 2020, identified
+2,174,616 payments totaling $3,473,925,623 that were issued to individuals who were deceased.
+To be conservative, we removed all payments that were included in more than one type of
+erroneous payment to arrive at 2,162,253 payments totaling $3,446,380,335. We then analyzed
+the Individual Master File as of October 1, 2020, and removed 665,286 payments totaling
+$867,284,737 that have been cancelled by the bank or returned to the IRS as undeliverable. We
+also removed 59,436 payments totaling $72,101,945 that were voluntarily returned by the
+individuals. We finally arrived at 1,437,531 payments totaling $2,506,993,653 that were issued to
+individuals who were deceased.
+
+Type and Value of Outcome Measure:
+•
+
+Cost Savings (Funds Put to Better Use) – Potential; 1,809,068 payments totaling more
+than $1.3 billion that were issued to individuals due to dependent-related issue
+(see Recommendation 2).
+
+Methodology Used to Measure the Reported Benefit:
+We obtained extracts from the Individual Master File for Tax Years 2018, 2019, and 2020; the
+Individual Return Transaction File for Processing Years 2019 and 2020; the Information Returns
+Master File for Tax Years 2018 and 2019; Individual Master File Refund Files; and the National
+Account Profile for Processing Years 2019 and 2020. We obtained the Social Security SSI and
+VA beneficiary recipient files from the IRS.
+Our computer analyses of payments that were issued as of July 16, 2020, identified
+1,844,846 potentially erroneous payments totaling $1,405,260,151 due to dependent-related
+issue. These included:
+
+Page 19
+
+Implementation of Economic Impact Payments
+o
+
+1,099,460 payments in which dependents claimed on the returns who were older
+than 16 and/or Individual TIN in Calendar Year 2020 and received $553,698,780.
+
+o
+
+388,023 payments in which Social Security Retirement, Social Security SSI, and VA
+beneficiaries received the EIP based on SSA/RRB/SSI/VA data totaling $465,627,600
+and were also claimed as a dependent on a tax return.
+
+o
+
+269,384 payments totaling $341,944,271 in which the individual was a dependent on
+someone else’s return and filed their own tax return. These individuals did not check
+the box on their tax return indicating they can be claimed as a dependent.
+
+o
+
+87,979 payments due to the dependent being used on multiple returns. We initially
+identified 87,745 unique dependent TINs that were used as a dependent on more
+than one tax return, and the IRS issued a qualifying child payment on each of those
+returns. These TINs were used on 175,724 tax returns resulting in 175,724 payments.
+Because one of the instances in which the same dependent is used more than once is
+a legitimate payment for the EIP, the difference between 175,724 less than unique list
+of dependent SSNs (87,745) equals the 87,979 excess dependent-related payments
+paid to duplicate primary taxpayers. Because eligible individuals can receive up to
+$500 for each child in their family who is under 17 years old, we estimated
+$43,989,500 (87,979 x $500) for qualifying children claimed on more than one tax
+return.
+
+To be conservative, we removed all payments that were included in more than one type of
+erroneous payment to arrive at 1,822,276 payments totaling $1,389,755,654. We then analyzed
+the Individual Master File as of October 1, 2020, and removed 12,394 payments totaling
+$18,950,728 that have been cancelled by the bank or returned to the IRS as undeliverable. We
+also removed 814 payments totaling $1,057,457 that were voluntarily returned by the
+individuals. We finally arrived at 1,809,068 payments totaling $1,369,747,469 that were issued to
+individuals due to dependent-related issue.
+
+Management’s Response: IRS management disagreed with the outcome measure
+stating that the outcome includes almost 1.1 million payments for $553.6 million for
+dependents who were older than 16 years of age at the end of 2020 but were not older
+than 16 years during the respective tax year on which the EIPs were based. Under the
+CARES Act, the advance payment of the Recovery Rebate Credit, or EIP, is determined as
+the amount that would have been allowed as a credit for the applicable base tax year
+had the provision been applicable to such taxable year. Therefore, dependents not
+above 16 years of age for the year of the tax return used to calculate the EIP, either 2018
+or 2019, are qualifying children and were appropriately included in the total EIP amount.
+
+Office of Audit Comment: The CARES Act authorizes the IRS to use a Tax
+Year 2018 or 2019 tax return to determine eligibility for the EIP. However, we
+believe the IRS also has a responsibility to use the data it has available to prevent
+knowingly issuing improper payments to the extent possible.
+
+Page 20
+
+Implementation of Economic Impact Payments
+
+Type and Value of Outcome Measure:
+•
+
+Cost Savings (Funds Put to Better Use) – Actual; 310,496 payments totaling more than
+$424 million that were issued to potential ineligible nonresidents (see page 5).
+
+Methodology Used to Measure the Reported Benefit:
+We obtained extracts from the Individual Master File for Tax Years 2018, 2019, and 2020; the
+Individual Return Transaction File for Processing Years 2019 and 2020; the Information Returns
+Master File for Tax Years 2018 and 2019; Individual Master File Refund Files; and the National
+Account Profile for Processing Years 2019 and 2020.
+Our computer analyses of payments that were issued as of July 16, 2020, identified
+324,864 payments totaling $443,707,295 issued to potential ineligible nonresidents. These
+individuals’ SSN indicates they are a legal alien authorized to work in the United States.
+However, these individuals had no FICA tax withheld from their wages in Calendar Year 2018 or
+2019.
+To be conservative, we removed all payments that were included in more than one type of
+erroneous payment to arrive at 323,248 payments totaling $440,203,814. We then analyzed the
+Individual Master File as of October 1, 2020, and removed 10,399 payments totaling $12,925,592
+that have been cancelled by the bank or returned to the IRS as undeliverable. We also removed
+2,353 payments totaling $2,872,237 that were voluntarily returned by the individuals. We finally
+arrived at 310,496 payments totaling $424,405,985 that were issued to potential ineligible
+nonresidents.
+
+Management’s Response: IRS management disagreed with the outcome measure
+stating that the methodology used to make the determination relies on the absence of
+FICA tax payments withheld from wages earned by authorized legal aliens during Tax
+Year 2018 or 2019. The exemption from employer withholding of FICA taxes is not a
+proxy for an individual’s status as a resident alien or a nonresident alien. In fact, both
+nonresident and resident aliens performing services in the United States are generally
+subject to FICA tax unless a specific exclusion applies. While the potentially improper
+EIPs identified may include many nonresident aliens, the measure also likely includes
+many resident aliens who legitimately had no FICA tax withholding. Had the IRS denied
+the EIP to all aliens who were either exempt from FICA tax withholding or who
+performed work exempt from FICA tax withholding, many eligible resident aliens would
+not have received the credit. That would not be legally correct. Nor is it correct to count
+as improper every EIP issued to an alien who was either exempt from FICA tax
+withholding or who performed work exempt from FICA tax withholding.
+
+Office of Audit Comment: We agree there are exceptions in which a valid
+foreign person could be considered a resident alien and not subject to FICA tax.
+However, we are unable to identify individuals with these exceptions with the
+available tax return data.
+
+Page 21
+
+Implementation of Economic Impact Payments
+
+Type and Value of Outcome Measure:
+•
+
+Cost Savings (Funds Put to Better Use) – Actual; 53,012 payments totaling $82,485,047
+that were issued to individuals in the five U.S. Territories who have already received a
+stimulus payment from the IRS (see page 5).
+
+Methodology Used to Measure the Reported Benefit:
+We obtained extracts from the Individual Master File for Tax Years 2018, 2019, and 2020; the
+Individual Return Transaction File for Processing Years 2019 and 2020; the Information Returns
+Master File for Tax Years 2018 and 2019; Individual Master File Refund Files; and the National
+Account Profile for Processing Years 2019 and 2020. We obtained the Social Security SSI and VA
+beneficiary recipient files from the IRS. We also obtained data from the IRS that detail the
+specific individuals who were issued an EIP by each U.S. Territory between May 2020 and
+July 2020.
+Our computer analyses of payments that were issued as of July 16, 2020, identified
+61,119 payments totaling $92,198,662 that were issued to 59,946 individuals in the five U.S.
+Territories who have already received a stimulus payment from the IRS.
+To be conservative, we removed all payments that were included in more than one type of
+erroneous payment to arrive at 59,056 payments totaling $91,895,089. We then analyzed the
+Individual Master File as of October 1, 2020, and removed 3,672 payments totaling $5,799,210
+that have been cancelled by the bank or returned to the IRS as undeliverable. We also removed
+2,372 payments totaling $3,610,832 that were voluntarily returned by the individuals. We finally
+arrived at 53,012 payments totaling $82,485,047 that were issued to individuals in the five U.S.
+Territories who have already received a stimulus payment from the IRS.
+
+Type and Value of Outcome Measure:
+•
+
+Cost Savings (Funds Put to Better Use) – Actual; 46,165 payments totaling $68,608,265
+that were issued to individuals who had changes in their filing statuses (see page 5).
+
+Methodology Used to Measure the Reported Benefit:
+We obtained extracts from the Individual Master File for Tax Years 2018, 2019, and 2020; the
+Individual Return Transaction File for Processing Years 2019 and 2020; the Information Returns
+Master File for Tax Years 2018 and 2019; Individual Master File Refund Files; and the National
+Account Profile for Processing Years 2019 and 2020.
+Our analysis of payments issued as May 21, 2020, identified 46,759 payments totaling
+$69,434,647 that were issued to individuals who filed as Married Filing Jointly in Tax Year 2018
+as the secondary taxpayer on a tax return and filed as Single, i.e., Single, Head of Household,
+Qualifying Widow(er), or Married Filing Separately, in Tax Year 2019 as the primary taxpayer on a
+tax return, or filed as Single in Tax Year 2018 as the primary taxpayer on a tax return and filed as
+Married Filing Jointly in Tax Year 2019 as the secondary on a tax return. We subsequently
+updated our analysis of payments issued as of July 16, 2020, and identified four additional
+payments for a total of 46,763 payments totaling $69,440,447 that were issued to individuals
+whose filing status changed between Tax Year 2018 and Tax Year 2019.
+
+Page 22
+
+Implementation of Economic Impact Payments
+To be conservative, we removed all payments that were included in more than one type of
+erroneous payment to arrive at 46,671 payments totaling $69,270,875. We then analyzed the
+Individual Master File as of October 1, 2020, and removed 176 payments totaling $232,817 that
+have been cancelled by the bank or returned to the IRS as undeliverable. We also removed
+330 payments totaling $429,793 that were voluntarily returned by the individuals. We finally
+arrived at 46,165 payments totaling $68,608,265 that were issued to individuals who filed as
+Married Filing Jointly in Tax Year 2018 as the secondary taxpayer on a tax return and filed as
+Single, i.e., Single, Head of Household, Qualifying Widow(er), or Married Filing Separately, in Tax
+Year 2019 as the primary taxpayer on a tax return, or filed as Single in Tax Year 2018 as the
+primary taxpayer on a tax return and filed as Married Filing Jointly in Tax Year 2019 as the
+secondary on a tax return.
+
+Page 23
+
+Implementation of Economic Impact Payments
+
+Appendix III
+Notice 1444, Your Economic Impact Payment
+
+Page 24
+
+Implementation of Economic Impact Payments
+
+Appendix IV
+Management’s Response to the Draft Report
+
+Page 25
+
+Implementation of Economic Impact Payments
+
+Page 26
+
+Implementation of Economic Impact Payments
+
+3
+social media postings, and more than 500 informational postings on IRS.gov. With
+assistance from partners in the tax professional community, the IRS provided key EIP
+information translated into 35 different languages. Our social media channels saw an
+increase of nearly a half-million new followers during the height of the pandemic. Social
+media quickly became a major source for delivering messages, with innovative graphics
+and materials shared and used by groups across the nation. We also worked to share
+information with Facebook on its COVID-19 Information Center and with Google to
+prioritize top searches to direct users to IRS.gov.
+We disagree with the finding and related outcome measure that that nearly 1.8 million
+payments attributable to dependents, totaling nearly $1.4 billion, were potentially
+erroneous. The outcome measure includes almost 1.1 million payments for $553.6
+million for dependents who were older than 16 years of age at the end of 2020 but were
+not older than 16 years during the respective tax year on which the EIPs were based.
+Under the CARES Act, the advance payment of the Recovery Rebate Credit, or EIP, is
+determined as the amount that would have been allowed as a credit for the applicable
+base tax year had the provision been applicable to such taxable year.2 Therefore,
+dependents not above 16 years of age for the year of the tax return used to calculate the
+EIP, either 2018 or 2019, are qualifying children and were appropriately included in
+the total EIP amount.
+The remainder of the outcome measure includes individuals who received an EIP but
+were claimed as a dependent on another return or who did not receive EIPs but were
+claimed as dependents on more than one return by other individuals. As mandated by
+the CARES Act, the EIPs were to be issued “as rapidly as possible”3. To accomplish this
+objective, information readily available from previously processed 2018 and 2019 tax
+returns was used, on an individual basis, to determine eligibility and calculate payment
+amounts. In all cases where tax return information was used, the taxpayers declared
+under penalties of perjury that they had examined their returns, accompanying
+schedules and statements and, to the best of their knowledge and belief, they were true,
+correct, and complete. The IRS has compliance processes that identify multiple uses of
+the same Taxpayer Identification Number across multiple returns; ************2************
+************************************************2***************************************************
+************************************************2***************************************************
+************************************************2***************************************************
+************************************************2***************************************************
+**********************2********************.
+We also disagree with the finding and associated outcome measure that 310,496
+payments totaling $424 million were sent to ineligible individuals. The methodology used
+to make that determination relies on the absence of Federal Insurance Contributions Act
+(FICA) payments withheld from wages earned by authorized legal
+2 Internal Revenue Code (IRC) § 6428(f)(2).
+3 IRC § 6428(f)(3)(A).
+
+Page 27
+
+Implementation of Economic Impact Payments
+
+Page 28
+
+Implementation of Economic Impact Payments
+
+Page 29
+
+Implementation of Economic Impact Payments
+
+2
+CORRECTIVE ACTION
+The Economic Impact Payments (EIPs) are calculated and disbursed based on select
+tax return information stored within the Master File, the official system of record for tax
+assessments and payments. ***************2**************************************************
+************************************************2**************************************************.
+Implementing a process to do so would not guarantee a payment to an unentitled
+individual would be stopped as the subsequent use of the dependent by the entitled
+person may not occur until after the first person’s return has been processed and the
+EIP issued. In effect, this would harm the rightful individuals by denying payment to
+them. ******************************************2**************************************************
+*************************************************2**************************************************
+***2***.
+IMPLEMENTATION DATE
+N/A
+RESPONSIBLE OFFICIAL
+N/A
+CORRECTIVE ACTION MONITORING PLAN
+N/A
+
+Page 30
+
+Implementation of Economic Impact Payments
+
+Appendix V
+Glossary of Terms
+Term
+
+Definition
+
+Individual Master File
+
+The IRS database that maintains transactions or records of individual tax
+accounts.
+
+Individual Return
+Transaction File
+
+A database the IRS maintains that contains information on the individual tax
+returns it receives.
+
+Integrated Data Retrieval
+System
+
+IRS computer system capable of retrieving or updating stored information.
+It works in conjunction with a taxpayer’s account records.
+
+National Account Profile
+
+A compilation of selected entity data from various IRS Master Files and the
+SSA.
+
+Tax Year
+
+A 12-month accounting period for keeping records on income and
+expenses used as the basis for calculating the annual taxes due. For most
+individual taxpayers, the tax year is synonymous with the calendar year.
+
+Page 31
+
+Implementation of Economic Impact Payments
+
+Appendix VI
+Abbreviations
+BFS
+
+Bureau of the Fiscal Service
+
+CAA
+
+Consolidated Appropriations Act, 2021
+
+CARES Act
+
+Coronavirus Aid, Relief, and Economic Security Act
+
+COVID-19
+
+Coronavirus Disease 2019
+
+EIP
+
+Economic Impact Payment
+
+FAQ
+
+Frequently Asked Question
+
+FICA
+
+Federal Insurance Contributions Act
+
+IRS
+
+Internal Revenue Service
+
+RRB
+
+Railroad Retirement Board
+
+SSA
+
+Social Security Administration
+
+SSI
+
+Supplemental Security Income
+
+SSN
+
+Social Security Number
+
+TIGTA
+
+Treasury Inspector General for Tax Administration
+
+TIN
+
+Taxpayer Identification Number
+
+UBA
+
+Ultimate Bank Account
+
+VA
+
+Department of Veteran Affairs
+
+Page 32
+
+To report fraud, waste, or abuse,
+call our toll-free hotline at:
+(800) 366-4484
+By Web:
+www.treasury.gov/tigta/
+
+Or Write:
+Treasury Inspector General for Tax Administration
+P.O. Box 589
+Ben Franklin Station
+Washington, D.C. 20044-0589
+
+Information you provide is confidential, and you may remain anonymous.
+
+

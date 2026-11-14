@@ -131,6 +131,33 @@ def households_B():
     return out
 
 
+def standard_payments():
+    """The clean electricity standard's alternative compliance payments (CLI-3A.02), $ billion nominal, by year.
+    Runs the carbon model twice on the decided package: `full` holds the standard at 80% after 2035 (the legacy CLI-3A, whose
+    payments are the $0.05T the dossier first carried [EV-CLP-723]); `ces100` is the decided path, a straight line to 80% in
+    2035 and on to 100% in 2040 (memo 3 part 1 B, DEC-2026-11-13-06). The model's credit price sits at the $40 cap (2025
+    dollars) whenever the target is missed, so suppliers pay the cap on every missing megawatt-hour. The model prices every
+    sector (it cannot leave buildings unpriced); the clean share is grid-limited, not price-limited, so memo 1 B barely moves
+    it. Project arithmetic on the model's own output, milestone review O-1."""
+    ces2 = dict(ces, target2=1.0, year2=2040)
+    cases = [dict(id="full", policy=full, price=D7_REAL), dict(id="ces100", policy=dict(full, ces=ces2), price=D7_REAL)]
+    cfg = dict(cases=cases, mcDraws=0, mcSeed=P["mc_seed"],
+               world={"cesAcp": P["ces_acp"], "gsTx": P["grid_statute_tx"], "wxHomes": P["weatherize_homes_m"]})
+    with tempfile.TemporaryDirectory() as d:
+        f = os.path.join(d, "carbon-config.json")
+        json.dump(cfg, open(f, "w"))
+        out = subprocess.run(["node", os.path.join(TOOLS, "carbon", "p2050-run.js"), f], check=True,
+                             capture_output=True, text=True).stdout
+    R = json.loads(out)
+    rows = {}
+    for r80, r100 in zip(R["cases"]["full"], R["cases"]["ces100"]):
+        y = r80["year"]
+        if 2030 <= y <= 2050:
+            rows[y] = dict(clean_80=round(r80["cleanShare"], 3), clean_100=round(r100["cleanShare"], 3),
+                           acp_80=round(r80.get("cesAcp", 0) * defl(y), 2), acp_100=round(r100.get("cesAcp", 0) * defl(y), 2))
+    return rows
+
+
 def main():
     rows = run()
     W = range(2030, 2040)
@@ -148,6 +175,12 @@ def main():
     for g in households_B():
         print(f"{g['name']:22s} {g['dividend']:6d} {-g['heat']:6d} {-g['elec']:6d} {-g['other']:7d} {g['net']:+6d}   |  "
               f"B: {g['dividend_B']:5d}      0 {-g['elec']:6d} {-g['other_B']:7d} {g['net_B']:+6d}")
+    sp = standard_payments()
+    print("\nThe standard's payments, $ billion nominal (80% held after 2035, then the decided 100% by 2040)")
+    for y in list(W) + [2040, 2045, 2050]:
+        r = sp[y]
+        print(f"{y}  clean {r['clean_80']:.3f} {r['clean_100']:.3f}  payments {r['acp_80']:6.2f} {r['acp_100']:6.2f}")
+    print(f"FY2030-39 sums: 80% held {sum(sp[y]['acp_80'] for y in W):.1f}; decided path {sum(sp[y]['acp_100'] for y in W):.1f}")
     if "--json" in sys.argv:
         json.dump({str(k): v for k, v in rows.items()}, open(sys.argv[sys.argv.index("--json") + 1], "w"), indent=1)
     return rows

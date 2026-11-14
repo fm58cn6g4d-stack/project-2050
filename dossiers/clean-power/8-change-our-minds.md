@@ -1,6 +1,6 @@
 # Clean, affordable power and a prepared country: what would change our minds
 
-Role: section 8 of the clean power dossier. For each decided choice, the finding that would change it and what we would do instead; the political and legal events that would force a fallback; what is left open; the hard stops; and when the evidence arrives. Status: draft (step E-C2, PR 2), at L2, on `DEC-2026-11-13-06` and `DEC-2026-11-13-07`. A change to a decided choice goes back to Espen; the fallbacks named here are the memos' own alternatives.
+Role: section 8 of the clean power dossier. For each decided choice, the finding that would change it and what we would do instead; the political and legal events that would force a fallback; what is left open; the hard stops; and when the evidence arrives. Status: reviewed (L2), with the milestone review's fixes; L3 after the booking; on `DEC-2026-11-13-06` and `DEC-2026-11-13-07`. A change to a decided choice goes back to Espen; the fallbacks named here are the memos' own alternatives.
 
 ## By choice
 
@@ -15,8 +15,9 @@ Role: section 8 of the clean power dossier. For each decided choice, the finding
 | Contracts for difference | Memo 2 part 2 A | Contract costs per ton far above the carbon price path, or bidders far fewer than the plants due for rebuild | Memo 2 part 2 B, credits only, with Buy Clean kept |
 | 80% clean by 2035, 100% by 2040 | Memo 3 part 1 B | Suppliers at the payment cap for three years running because the grid cannot connect projects [EV-CLP-708] | Keep 2040, move the 2035 step later (CLI-3B's 80% by 2040 for the interim), and put the payments into transmission |
 | | | The capped payment raising bills more than the bill protection returns | Lower the cap; Espen's |
+| | | The 2040 target missed by more than five points with suppliers at the cap (the carbon model expects about 9) | Put part of the payments into transmission, which is the limit; or move the 100% date; Espen's |
 | The finding and the numbers in statute | Memo 3 part 2 A | The D.C. Circuit restoring the 2009 finding before 2029 [EV-CLP-243] | Keep the statute; the restored finding is a floor, not a substitute |
-| The grid and the builder of last resort | Memo 4 part 1 B | The first two-year windows (about 2033) showing WAPA's program cannot build in the Eastern or Texas interconnections | A separate federal transmission corporation on TVA's model, as memo 4 first described it |
+| The grid and the builder of last resort | Memo 4 part 1 B; `DEC-2026-11-13-10` | The first windows (about 2032) showing the competitive-cost test lets no line reach the federal builder, or lets too many | Loosen or tighten the trigger and the test; the standby role stays |
 | | | The second tranche's milestones missed | The money stays unspent; that is the gate's purpose |
 | Permitting | Memo 4 part 2 A | The package's final text (after November 16, 2026) [EV-CLP-261] | Case 1 or case 2 as it stands; if it passed with the permit-certainty section narrowed already [EV-CLP-266], the amendment shrinks to the cap |
 | The automatic bill credit | Memo 5 B | The first winter's match reaching far fewer households than half of those eligible | Outreach at SNAP and SSI offices; not a new application |
@@ -36,7 +37,7 @@ Role: section 8 of the clean power dossier. For each decided choice, the finding
 
 - **The permitting package becomes law unamended, and the plan's amendment fails.** Every later standard then carries a contingent damages cost [EV-CLP-255]; the dossier discloses it in every fiscal test and the standards proceed.
 - **The Byrd rule strikes the dividend account's permanent appropriation from R2.** The dividend still pays; the permanence moves to the clean power and climate act (regular order).
-- **The Senate rules reform fails.** The standard, the Clean Air Act finding, the clean-heat standard and the grid statute need 60 votes. What reconciliation carries (the price, the dividend, credits, contracts, money for the grid, the guarantee and the disaster package) stands alone. The credits' step-down then holds (part 1).
+- **The Senate rules reform fails.** The standard, the Clean Air Act finding, the clean-heat standard and the grid statute need 60 votes. What reconciliation carries (the price and its reporting base, the dividend, credits, contracts, money for the grid, the guarantee with its coverage, and the disaster package with the premium help) stands alone; the reinsurance facility waits for the act only if the Byrd rule strikes its codes condition from R2. The credits' step-down then holds (part 1).
 - **A court finds the border adjustment inconsistent with trade obligations.** The adjustment is rebuilt on the EU's model; the domestic price stays.
 - **A later Congress repeals the price.** The legacy model's test of a repeal in 2033 keeps 73% clean power in 2035 from the credits, standard and rules alone [EV-CLP-723]; that durability is the standard's purpose.
 - **A later administration declines to defend rules in court.** The statute's numbers run without a rule (CLI-4E.01), and every required rule has a default standard (CLI-4A.01).
@@ -51,7 +52,7 @@ Role: section 8 of the clean power dossier. For each decided choice, the finding
 ## Hard stops
 
 - **No direct charge on households** for home heating or road fuels without Espen's decision (memo 1 B; point 2).
-- **No dividend paid after the price starts** (CLI-2A.03): if the first payment cannot go out first, the price's start moves with it.
+- **No dividend paid after the price starts** (CLI-2A.03): the first payment goes out through the 2020-21 payments' process in the quarter before the price begins, and if it cannot, the price's start moves with it.
 - **No suitable-job test** in the guarantee (Espen's parameter); the review trigger informs Congress, it does not cut payments.
 - **No uncapped federal insurance backstop:** the facility's $150 billion cap and recoupment are part of the decision (memo 6 A).
 
@@ -64,8 +65,8 @@ Role: section 8 of the clean power dossier. For each decided choice, the finding
 | 2027-28 | EPA's facility data on every source above the threshold; the reporting program's status | REV-C1G.01's coverage and the IRS's workload |
 | 2027-28 | AHRI shipment shares | CLI-4H.01's starting share |
 | 2027-28 | A count of workers, contractors included, at plants and mines likely to close in 2030-40 | The guarantee's cost |
-| At the booking | The carbon model rerun for memo 1 B's coverage; the household model's D3 test with it | The receipts, the dividend and part 4's distribution |
+| At the booking | The carbon model rerun for memo 1 B's coverage and the decided 100%-by-2040 path; the household model's D3 test with it | The receipts, the dividend, the standard's payments and part 4's distribution |
 | Winter 2030-31 | The first automatic bill credits | Memo 5's reach |
 | 2031 onward | The guarantee's yearly counts; the standard's first compliance year | CLI-11.05; CLI-3A.01 |
-| About 2033 | The first builder-of-last-resort windows close | CLI-10.03's delivery |
+| About 2032 | The first builder-of-last-resort windows close | CLI-10.03's delivery |
 | Each April, from 2030 | The national inventory (CLI-14.02) | Emissions against section 7, part 5 |
