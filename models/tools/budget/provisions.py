@@ -446,13 +446,19 @@ def deficit_path(spec, mid10, S=None, B=None):
 
 
 def climate_path(spec, S=None, B=None):
-    """Climate rows: the profile path of the row's pre-package amount (zero for new rows), plus
-    the package's exact annual account. Same on both bases, as the fiscal model has it."""
+    """Climate rows: the path of the row's pre-package amount (zero for new rows), on its year shape
+    when fiscal-years.csv has one (CLI-5, clean power's booking) and its profile otherwise, plus the
+    package's exact annual account. Same on both bases, as the fiscal model has it."""
     CL = climate()
     B = B or baseline()
     rid = spec["id"]
-    base = (profile_path(B, CL.CONFIG["legacy_gf_tn"][rid], _profile(spec))
-            if rid in CL.CONFIG["legacy_gf_tn"] else {y: 0 for y in range(Y0, Y1 + 1)})
+    shapes = year_shapes()
+    if rid not in CL.CONFIG["legacy_gf_tn"]:
+        base = {y: 0 for y in range(Y0, Y1 + 1)}
+    elif rid in shapes:
+        base = years_path(B, CL.CONFIG["legacy_gf_tn"][rid], shapes[rid], _profile(spec))
+    else:
+        base = profile_path(B, CL.CONFIG["legacy_gf_tn"][rid], _profile(spec))
     return {y: base[y] + CL.delta_rows(y)[rid] for y in range(Y0, Y1 + 1)}
 
 

@@ -8,21 +8,21 @@ Role: the re-review of the clean power dossier on the new energy and climate mod
 
 | Line, nominal $ billion | Dossier (`tools/clean_power_path.py`, booked basis) | Energy model (`results.json`, decided set) |
 | --- | --- | --- |
-| Carbon price receipts, FY2030-39 (FY2040) | 1,203 (166) | 1,188 (166) |
-| Transition share, FY2030-39 (FY2040) | 241 (33) | 238 (33) |
-| Offset on the combustion price, border adjustment and methane fee, FY2030-39 | 306 | 306 |
-| Dividend per adult, 2035 | $439 | $408 |
+| Carbon price receipts, FY2030-39 (FY2040) | 1,203 (166) | 1,185 (168) |
+| Transition share, FY2030-39 (FY2040) | 241 (33) | 237 (34) |
+| Offset on the combustion price, border adjustment and methane fee, FY2030-39 | 306 | 305 |
+| Dividend per adult, 2035 | $439 | $405 |
 
 The general fund's figures barely move: about **$1.85 trillion over FY2030-39 and $146 billion in FY2040** on the ledger's convention (+$0.04 trillion and −$18.5 billion against the booked rows). Only the transition guarantee's timing changed. With Espen's decision on the transition share (R-3, `DEC-2026-11-13-13`), FY2040 is about **$113 billion** (−$52 billion). The model moves five things the dossier carried on judgment or on the legacy model, and settles the two questions left for it:
 
 | | Before (#346) | On the energy model | Section |
 | --- | --- | --- | --- |
-| Clean power, 2035 / 2040 | 75% / 91% (legacy, with permitting) | **73% / 88%**, 92% in 2045 | R-1 |
-| The standard's capped payments | $0.11 trillion; $29 billion in 2040 | **$0.16 trillion; $40 billion in FY2040** ($0.07 trillion and $20 billion with permitting) | R-1 |
+| Clean power, 2035 / 2040 | 75% / 91% (legacy, with permitting) | **73% / 87%**, 92% in 2045 | R-1 |
+| The standard's capped payments | $0.11 trillion; $29 billion in 2040 | **$0.16 trillion; $41 billion in FY2040** ($0.07 trillion and $21 billion with permitting) | R-1 |
 | Energy CO2 below 2005, 2035 | 40-48% (judgment) | **about 41%** (band 40-42%); net GHG 43% | R-7 |
-| Dividend per adult, 2035 | about $439 | **about $408** (a couple about $820) | R-5 |
-| Carbon channel, 2035, lowest to highest fifth | +62, +46, −6, −154, −654 | **+99, +84, +7, −185, −833** | R-8 |
-| The credits' cost risk over the booking | up to +$0.74 trillion | **about +$0.27 trillion** (+$0.43 trillion with the builder's extra credits) | R-6 |
+| Dividend per adult, 2035 | about $439 | **about $405** (a couple about $810) | R-5 |
+| Carbon channel, 2035, lowest to highest fifth | +62, +46, −6, −154, −654 | **+97, +81, +6, −184, −824** | R-8 |
+| The credits' cost risk over the booking | up to +$0.74 trillion | **about +$0.14 trillion** (+$0.28 trillion with the builder's extra credits), with the power credits on the decided step-down | R-6 |
 | The transition guarantee | $12 billion; $1.7 billion in FY2040 | **$14 billion; $0.7 billion in FY2040** (coal closes by 2035) | R-9 |
 | The transition share after FY2039 | open | **the waterfall, then a remainder of about $23 billion a year, kept in the general fund** (Espen, `DEC-2026-11-13-13`) | R-3 |
 | The builders' borrowing | open | **time-limited capital, repaid from rates; net cost is forgiveness only** | R-4 |
@@ -40,6 +40,16 @@ The energy model's fix for R-2 (#350, `retailAcp`) merged at `baa7e99`: the stan
 - The decided set is $113.3 billion in FY2040, −$51.6 billion against the booking, and 2.7% of the plan-wide gap.
 - **Updated:** `6-cost.md`, parts 1, 2, 4, 5, 6 (6d) and 7; CLI-2A.04; sections 7, 8 and 9; the README.
 
+## Refresh after #356 and the booking
+
+M4's #356 makes the model's power credits follow CLI-1A.02's decided step-down (full value for projects starting through 2034, 60% in 2035-37, then none; storage through 2039), and #355 added regional fuel prices to the dispatch. On main at `55ab566`:
+- **The credits' cost:** $1,037 billion over FY2030-39 with the builder's extra credited generation ($896 billion without it), down from $1,191 billion. The risk over the booked $0.76 trillion falls to about +$0.14-0.28 trillion (R-6).
+- **The 2040 retail price:** 16.1 cents a kilowatt-hour against 14.7 under current law, about a tenth higher, up from 15.1: less credit offsets bills once the power credits step down after 2034. 2035 is unchanged at 14.9 against 14.3. The standard's payments add about 0.6 cents of it (R-2).
+- **The standard's payments:** $163 billion over FY2030-39 and $41 billion in FY2040 ($74 billion and $21 billion with the permitting package); clean power 87% in 2040.
+- **Households, 2035:** +$97, +$81, +$6, −$184 and −$824, lowest fifth to highest; the dividend about $405 an adult (R-5, R-8).
+- **Known biases, disclosed** (#360): HI-1 (the 2015-25 power history, 5.7% average gap against a 5% tolerance) and PR-2 (receipts 26% above CBO's) fail. The engine's coal-to-gas switching is too strong, so its near-term power cuts and early receipts are likely overstated (`6-cost.md`, part 6, 1a; `7-validation.md`, part 2).
+- **The booking** (`6-cost.md`, part 6) uses these figures and applies the 24.4% offset to the payments: about $40 billion over FY2030-39 and $10.1 billion in FY2040. The decided set is $1,893.5 billion and $123.4 billion; the plan-wide FY2040 gap goes from $4,245.4 billion to $4,203.9 billion short.
+
 ## How it was done
 
 - Read the model's card, `results.md` and `results.json` at `9578318`, and again at `baa7e99` after #350, and the engine's retail-price and standard code (`engine/cfd-model.js`).
@@ -55,14 +65,15 @@ The energy model's fix for R-2 (#350, `retailAcp`) merged at `baa7e99`: the stan
   - The energy model with the package gives $0.07 trillion and $20 billion. That is lower than the legacy figure because its standby builder adds lines.
   - The $234 billion the reviewer quoted is the model's layer before the standby builder.
   - The dossier now carries the energy model's figure without the package (the 2029 law), with the package case as the low end.
-- **The offset.** The model applies none ("a capped compliance payment, not a tax"). The payments are a cost to suppliers collected by Treasury, like a fee, so the plan's convention (`DEC-2026-11-12-08`) points to applying the 24.4%: about $38 billion over FY2030-39 and $10 billion in FY2040. That is the booking's call (tier 3). It is noted in `6-cost.md`, parts 2 and 6.
+- **The offset.** The model applies none ("a capped compliance payment, not a tax"). The payments are a cost to suppliers collected by Treasury, like a fee, so the plan's convention (`DEC-2026-11-12-08`) points to applying the 24.4%: about $40 billion over FY2030-39 and $10.1 billion in FY2040. The booking applied it (`6-cost.md`, part 6, 6a).
 - **Fixed:** CLI-3A.02 and the consistency table; `6-cost.md`, part 2 and part 6 (6a), and part 7; `7-validation.md`, parts 1 and 2; section 8's trigger (about 12 points short in 2040).
 
 **R-2. The model's retail price left out the standard's payments. Fixed in the model by #350.**
 - At `9578318`, adding the 100% standard left the engine's 2040 retail price unchanged (15.0 cents before and after), though suppliers paid about $41 billion that year.
 - The engine passes the standard to costs as a credit price: fossil generators pay it, clean generators receive it. The capped payments to Treasury never entered the average cost (`engine/cfd-model.js`, the `vc` term against `cesAcpBn`).
 - This review estimated about two-thirds of a cent a kilowatt-hour by 2040 if they were passed through. The model's fix (#350, the `retailAcp` option) gives about half a cent: the standard's layer goes from 15.0 to 15.5 cents, and the decided set's 2040 price from 14.7 to 15.1 cents against current law's 14.7. That is about 3% of an average bill.
-- This does not change a decision, and the money returns through the bill credit. Section 9's bill answer already says electricity rises somewhat.
+- After #356 the standard's layer adds about 0.6 cents (15.7 to 16.3 cents in 2040), and the decided set's 2040 price is 16.1 cents against current law's 14.7, mostly because the power credits step down after 2034.
+- This does not change a decision, and the payments return through the bill credit. Section 9's bill answer now says the price is about a tenth higher than current law by 2040.
 - **Fixed:** in the model by #350 (the M4 session's); in the dossier, `7-validation.md`, parts 2 and 4, on the new figures.
 
 **R-3. The transition share after FY2039: the waterfall, then the remainder in the general fund (decided, `DEC-2026-11-13-13`).**
@@ -84,14 +95,14 @@ The energy model's fix for R-2 (#350, `retailAcp`) merged at `baa7e99`: the stan
 - **Fixed:** `6-cost.md`, part 6 (6e) and part 7.
 
 **R-5. Receipts, the offset and the dividend reconcile; the dividend is a little smaller.**
-- Combustion receipts under memo 1 B are $1,188 billion against the dossier's $1,203 billion on the booked basis, and the offset matches to the billion (table above).
-- The dividend per adult is $408 in 2035 against the dossier's $439, because the model prices industry at an assumed 80% covered share (70-90%; `assumptions.csv`, `ind_cover`). No count of combustion CO2 above the 25,000-ton threshold is in the evidence yet.
+- Combustion receipts under memo 1 B are $1,185 billion against the dossier's $1,203 billion on the booked basis, and the offset matches to the billion (table above).
+- The dividend per adult is $405 in 2035 against the dossier's $439, because the model prices industry at an assumed 80% covered share (70-90%; `assumptions.csv`, `ind_cover`). No count of combustion CO2 above the 25,000-ton threshold is in the evidence yet.
 - The model's receipts run 26% above CBO's on CBO's price path (its PR-2 benchmark fails). The engine cuts emissions slowly in its first decade, so the receipts and the dividend are the high side of a range.
 - **Fixed:** CLI-2A.01, "Who this reaches" and the consistency table; sections 7 and 9 ($410; a couple $820); the PR-2 caution in section 7, part 2.
 - Process receipts ($265 billion against the booked $244 billion) and the border adjustment ($44 billion against $30 billion) are the booking's to update.
 
 **R-6. The credits' cost risk is smaller than the legacy model said.**
-- The model counts the decided set's credits at about $1.03 trillion over FY2030-39 before the standby builder, and $1.19 trillion with the extra credited generation its lines connect. That is against the booked $0.76 trillion: a risk of about +$0.27 trillion, or +$0.43 trillion with the builder.
+- After #356 the model's power credits follow CLI-1A.02's step-down. It counts the decided set's credits at about $0.90 trillion over FY2030-39 before the standby builder, and $1.04 trillion with the extra credited generation its lines connect. That is against the booked $0.76 trillion: a risk of about +$0.14 trillion, or +$0.28 trillion with the builder (before #356, +$0.27 and +$0.43 trillion).
 - The legacy model's $1.50 trillion gave +$0.74 trillion.
 - The model's power credits stop at its emissions trigger, not CLI-1A.02's 60% step, so this is a cross-check, not a score.
 - **Fixed:** `6-cost.md`, part 2.
@@ -104,14 +115,14 @@ The energy model's fix for R-2 (#350, `retailAcp`) merged at `baa7e99`: the stan
 - **Fixed:** `7-validation.md`, parts 1 and 5; section 9 ("about 41%").
 
 **R-8. Who comes out ahead: the same shape, by more at the bottom.**
-- On the model's household module in 2035, after #350, the lowest fifth is +$99, the second +$84, the middle +$7, the fourth −$185 and the highest −$833 (2025 dollars, carbon channel). Before #350 they were +$106, +$91, +$11, −$186 and −$850.
+- On the model's household module in 2035, after #356, the lowest fifth is +$97, the second +$81, the middle +$6, the fourth −$184 and the highest −$824 (2025 dollars, carbon channel). Before #350 they were +$106, +$91, +$11, −$186 and −$850.
 - The model nets the credits out of retail prices, so electricity costs households less than in the legacy read.
 - Its electricity column now includes the standard's payments (R-2): the lowest fifth pays about $43 a year more for electricity instead of $26. The payments return to lower- and moderate-income households through the bill credit, which this table leaves out.
 - **Fixed:** `7-validation.md`, part 4, and the illustrative households.
 
 **R-9. The coal and gas fleets: closures come early.**
 - On the model the decided set leaves 31 GW of coal in 2030 and none by 2035, against 127 and 89 GW under current law.
-- Gas plants stay open and run less: capacity rises from 591 to 698 GW by 2040 while generation halves.
+- Gas plants stay open and run less: capacity rises from 591 to 696 GW by 2040 while generation halves.
 - So the transition guarantee's closures come early and are mostly coal: the same 80,000 workers over FY2030-39 as before, but 14,000 a year in 2030-34 and 2,000 a year in 2035-39 (judgment on the model's fleet path).
 - Repriced: about $14 billion over FY2030-39 and $0.7 billion in FY2040, against $12 billion and $1.7 billion. The FY2040 decided set falls by $1 billion.
 - **Fixed:** `tools/clean_power_path.py` (`PROFILE`); `6-cost.md`, parts 1, 4 and 5; sections 7 and 9 ("about $14 billion").
@@ -123,9 +134,12 @@ The energy model's fix for R-2 (#350, `retailAcp`) merged at `baa7e99`: the stan
 
 ## What the booking (tier 3) must use
 
+Booked as listed, in `6-cost.md`, part 6 (`models/tools/clean_power_booking.py`, with the offset on the standard's payments applied).
+
+
 1. **The energy model's `results.json` `provisions`** for:
    - the year shapes of REV-C1A/C1G, C1P, C2, C3 and CX;
-   - the standard's payments (CLI-3A.02: $157 billion, $40 billion in FY2040), as a receipt and an outlay to the bill credit, with the 24.4% offset if the booking applies it (R-1).
+   - the standard's payments (CLI-3A.02: $163 billion, $41 billion in FY2040), as a receipt and an outlay to the bill credit, with the 24.4% offset if the booking applies it (R-1).
 2. **The dossier's booked-basis changes** (`tools/clean_power_path.py`) against the ledger: memo 1 B's offset saving and lost add-on financing, memo 4 B's second tranche, memo 5 B's bill credit, and memo 7 B on the new closure profile. They reconcile with the model within 1-2%.
 3. **Receipts as the high side of a range** (PR-2 +26%); the ledger's midpoints below the model, as today.
 4. **The transition share from FY2040:**
@@ -133,9 +147,9 @@ The energy model's fix for R-2 (#350, `retailAcp`) merged at `baa7e99`: the stan
    - the waterfall's draws for the guarantee and the bill credit;
    - the remainder kept in the general fund (R-3, `DEC-2026-11-13-13`).
 5. **The builders' capital** as time-limited capital with rate repayments, net cost only expected forgiveness; no double count with the second tranche; the extra credited generation under CLI-1's risk (R-4).
-6. **The credits:** the booked CLI-1, with the model's +$0.27-0.43 trillion as the disclosed risk (R-6).
+6. **The credits:** the booked CLI-1, with the model's +$0.14-0.28 trillion as the disclosed risk (R-6, after #356).
 7. **The household model's D3 test** on the model's carbon-channel distribution (R-8), which now includes the standard's payments in electricity (R-2, #350).
 
 ## For Espen
 
-**Answered.** This review asked one question: where the transition share's remainder goes after FY2039. Espen chose to keep it in the general budget (`DEC-2026-11-13-13`). From 2040 the share raises about $33 billion a year. It pays the worker guarantee and the energy bill credit first, about $11 billion, and the rest stays in the general budget. Clean power's yearly cost from 2040 is about $113 billion.
+**Answered.** This review asked one question: where the transition share's remainder goes after FY2039. Espen chose to keep it in the general budget (`DEC-2026-11-13-13`). From 2040 the share raises about $33 billion a year. It pays the worker guarantee and the energy bill credit first, about $11 billion, and the rest stays in the general budget. Clean power's yearly cost from 2040 is about $113 billion before the offset on the standard's payments, and about $123 billion as booked with it (`6-cost.md`, part 6).
