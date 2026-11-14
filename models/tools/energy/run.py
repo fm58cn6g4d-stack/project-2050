@@ -18,7 +18,7 @@ SCC_2020 = {2030: 230, 2040: 270, 2050: 310}   # EPA 2023 (SRC-5006), SC-CO2 at 
 TCRE = (0.27, 0.45, 0.63)                      # IPCC AR6 WG1 SPM D.1.1 (SRC-5037), deg C per 1,000 Gt CO2
 
 
-LEGACY_WORLD = {"crYears": 10, "crVehYears": None, "retailNetCredits": False, "retailAcp": False, "fuelSpread": {"coal": 0, "gas": 0}, "coalVom": 4, "emCal": 1.024}   # undo this model's world settings: carbon-model.py runs the defaults
+LEGACY_WORLD = {"crYears": 10, "crVehYears": None, "retailNetCredits": False, "retailAcp": False, "fuelSpread": {"coal": 0, "gas": 0}, "coalVom": 4, "emCal": 1.024, "crPhase": False, "crPowSched": None}   # undo this model's world settings: carbon-model.py runs the defaults
 
 
 EPS2_WORLD = {"zevPath": {2032: 0.25, 2037: 0.5, 2040: 0.67, 2050: 1.0}, "zevTrkPath": {2032: 0.03, 2037: 0.20, 2040: 0.26, 2050: 0.65}}   # EPS run 2's sales standards
@@ -130,7 +130,7 @@ def benchmarks(E, ACC, HH):
     add(id="CR-1", what="Restoring the credits alone (from 2030, stepping down): points of energy CO2 below 2005 in 2035", model=f"{cr:.1f} points",
         target="The IRA against no IRA in the 2026 review: 39-48% against 27-35% below 2005 in 2035 (SRC-4479), about 8-13 points",
         tol="reported", result="reported",
-        why="Not like for like: the IRA's credits ran from 2023 with twelve years to 2035 and longer terms; these start in 2030 and step down from 2033. The engine's power credits stop at its trigger, and grid access, not cost, limits wind and solar building (SRC-0077, v2.4).")
+        why="Not like for like: the IRA's credits ran from 2023 with twelve years to 2035 and longer terms; these start in 2030; the household credits step down from 2035 and the power credits to 60% for projects starting 2035-37 (CLI-1A.02); and grid access, not cost, limits wind and solar building (SRC-0077, v2.4).")
     dr = E["b_cr"][2035]["retail"] - base[2035]["retail"]
     add(id="BI-1", what="Retail electricity price from restoring the credits, 2035 (cents a kWh, 2025 dollars)", model=f"{dr:+.2f}",
         target="Repealing them raised bills: Rhodium $78-192, REPEAT about $280, Energy Innovation $460 a household in 2035 (SRC-4477, SRC-4478, SRC-5020)",
@@ -163,15 +163,20 @@ def benchmarks(E, ACC, HH):
     mae = sum(abs(h["gap_pct"]) for h in test) / len(test)
     mae0 = sum(abs(h["gap_pct_single_price"]) for h in H if not h["coal_supply_shock"]) / len(test)
     worst = max(test, key=lambda h: abs(h["gap_pct"]))
+    mae_all = sum(abs(h["gap_pct"]) for h in H) / len(H)
+    oos = [h for h in test if h["year"] != 2025]          # 2025 is in-sample: the engine is calibrated to it
+    mae_out = sum(abs(h["gap_pct"]) for h in oos) / len(oos)
+    low = sum(h["gap_pct"] < 0 for h in oos)
     sp0 = data.fuel_spread()
     test_mae = sum(abs(h["gap_pct"]) for h in H if h["year"] >= 2023) / len([h for h in H if h["year"] >= 2023])
     H1 = history.run({"fuelSpread": sp0, "coalVom": 5.07, "emCal": 1.002})   # the measured spread alone, recalibrated to 2025 the same way
     mae1 = sum(abs(h["gap_pct"]) for h in H1 if h["year"] not in SHOCK) / len(test)
     add(id="HI-1", what="History run, power sector: the engine's dispatch on each year's measured fleet, generation and fuel prices, 2015-2025, against EIA's measured coal and gas power CO2 (SRC-5052 to 5057)",
-        model=f"average gap {mae:.1f}%; largest {worst['gap_pct']:+.1f}% ({worst['year']}); 2021 and 2022 {H[6]['gap_pct']:+.0f}% and {H[7]['gap_pct']:+.0f}%, not scored", target="EIA, Monthly Energy Review table 11.6",
-        tol="average absolute gap 5% or less, and every year within 10%, outside the 2021-22 coal shortage", result="pass" if mae <= 5 and abs(worst["gap_pct"]) <= 10 else "fail",
+        model=f"scored years: average gap {mae:.1f}% ({mae_out:.1f}% without 2025, the calibration year); largest {worst['gap_pct']:+.1f}% ({worst['year']}); all eleven years {mae_all:.1f}%; 2021 and 2022 {H[6]['gap_pct']:+.0f}% and {H[7]['gap_pct']:+.0f}%, not scored", target="EIA, Monthly Energy Review table 11.6",
+        tol="average absolute gap 5% or less, and every year within 10%, outside the 2021-22 coal shortage", result="pass (2021-22 excluded)" if mae <= 5 and abs(worst["gap_pct"]) <= 10 else "fail",
         why=f"Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once: its average gap was {mae0:.1f}% in the scored years and {H0[6]['gap_pct']:+.0f}% in 2021. Plants pay different delivered prices by region, so the dispatch now splits each block of plants by the spread of fuel prices: EIA measures {sp0['coal']:.0%} of the average price for coal and {sp0['gas']:.0%} for gas across states, weighted by what each state's power plants buy (SRC-5058 to SRC-5061). That understates what plants act on (some states are withheld; contracts, plants that must run and differences within a state add to it), so the model uses {m.a('fuel_spread_mult'):.1f} times it, a labeled calibration: fitted to 2015-2020 and tested on 2023-2025 ({test_mae:.1f}% there), and the largest multiple that keeps coal's recalibrated running cost near the engine's sourced $4/MWh (assumptions.csv, fuel_spread_mult). With the measured spread alone the scored gap is {mae1:.1f}%. "
-            "2021 and 2022 are shown but not scored: gas prices doubled, and coal plants could not run harder because coal was short (stockpiles 37% below their five-year average in September 2021; rail and mine limits through 2022; EIA, SRC-5062 and SRC-5063). The engine has no fuel-supply limit, so it still runs too much coal in those years. The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built.")
+            f"2021 and 2022 are shown but not scored: gas prices doubled, and coal plants could not run harder because coal was short (stockpiles 37% below their five-year average in September 2021; rail and mine limits through 2022; EIA, SRC-5062 and SRC-5063). The engine has no fuel-supply limit, so it still runs too much coal in those years. Counting every year, the average gap is {mae_all:.1f}%, which would fail. "
+            f"Of the {len(oos)} scored years other than 2025, {low} run low: the engine still burns too little coal and too much gas when gas is cheap, so it still switches toward gas too readily, if far less than before. A carbon price works through the same switch, so the engine's near-term power cut still leans high; EP-1 shows the same. The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built.")
     out.append({"_history": H})
     return out
 
