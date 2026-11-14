@@ -1455,7 +1455,7 @@
   "fact_date": "2024",
   "checked": "2026-11-13",
   "recheck": "2026-12-31",
-  "context": "ACEG and Grid Strategies Rev. 1 addendum (July 2025) using the FERC Energy Infrastructure Update for April 2025; FERC does not say which lines were added, and the authors say the data are often incomplete. The authors still conclude the pace must rise more than fivefold. Advocacy coalition; the longer-run decline is the robust finding.",
+  "context": "ACEG and Grid Strategies Rev. 1 addendum (July 2025) using the FERC Energy Infrastructure Update for April 2025; FERC does not say which lines were added, and the authors say the data are often incomplete. The authors still conclude the pace must rise more than fivefold. Advocacy coalition; the longer-run decline is the robust finding. The same authors' 2025 figure (435 miles) is EV-CLP-734.",
   "supports": [
    "dossiers/clean-power/1-problem.md"
   ],
@@ -6545,7 +6545,7 @@
   "fact_date": "2024",
   "checked": "2026-11-13",
   "recheck": "2026-12-31",
-  "context": "Lawrence Berkeley National Laboratory (DOE lab), December 2025; \"1\" is a footnote marker in the report. Projects built in a given year are survivors; the lab notes timelines are longer in most but not all regions, with ERCOT and non-ISO areas faster.",
+  "context": "Lawrence Berkeley National Laboratory (DOE lab), December 2025; \"1\" is a footnote marker in the report. Projects built in a given year are survivors; the lab notes timelines are longer in most but not all regions, with ERCOT and non-ISO areas faster. The 2026 edition's figure for projects built in 2025 (61 months) is EV-CLP-733.",
   "supports": [
    "dossiers/clean-power/1-problem.md",
    "dossiers/clean-power/2-what-works.md"
@@ -10240,6 +10240,737 @@
     "evidence": "EV-CLP-702",
     "stance": "qualifies"
    }
+  ]
+ },
+ {
+  "id": "EV-CLP-733",
+  "statement": "LBNL found the median project built in 2025 took 61 months from interconnection request to commercial operations, compared with 36 months in 2015 and 22 months in 2008, and that about 19% of projects (13% of capacity) requesting interconnection in 2000-2020 had reached commercial operations by the end of 2025.",
+  "claim": "data",
+  "figures": [
+   "61 months",
+   "36 months",
+   "22 months",
+   "19%",
+   "13%",
+   "2025",
+   "2015",
+   "2008",
+   "2000-2020"
+  ],
+  "source": "SRC-4784",
+  "anchor": [
+   "The median project built in 2025 took 61 months from the interconnection request to commercial operations, compared to 36 months in 2015 and 22 months in 2008",
+   "About 19% of projects (13% of capacity) requesting interconnection from 2000-2020 reached commercial operations by the end of 2025"
+  ],
+  "locator": "Queued Up 2026 Edition, High-Level Findings, \"Completion rates are generally low; wait times remain long\"",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-14",
+  "recheck": "2027-06-30",
+  "context": "Lawrence Berkeley National Laboratory with Interconnection.fyi, June 2026 (DOE lab, DOE-funded; the lab disclaims that its views reflect the U.S. government). The source says \"median\", not \"typical\". Projects built in a given year are survivors, and a footnote marker follows \"operations\" in the report. This is the 2026 edition; the 2025 edition (55 months for 2024) is EV-CLP-409 and the earlier completion rate is EV-CLP-049 and EV-CLP-408. Read through a Firecrawl PDF parse of the first 30 of 71 pages; the direct download returned HTTP 403.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md",
+   "dossiers/clean-power/2-what-works.md",
+   "dossiers/clean-power/design-test.md",
+   "dossiers/clean-power/memos/9-standard-payments-to-the-grid.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-734",
+  "statement": "Grid Strategies reported that the United States built 435 miles of new 345 kV and above transmission in 2025.",
+  "claim": "data",
+  "figures": [
+   "435 miles",
+   "345 kV",
+   "2025"
+  ],
+  "source": "SRC-4785",
+  "anchor": [
+   "The United States built 435 miles of new 345 kV and above transmission in 2025"
+  ],
+  "locator": "Section VI, Conclusion",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-14",
+  "recheck": "2027-06-30",
+  "context": "Grid Strategies LLC (power-sector consultancy), report \"United States Trails the World in High-Capacity Transmission Construction\", November 2026, prepared with support from the Connected Grid Initiative (an advocacy coalition for transmission); it argues for the permitting bill. Counts come from FERC's monthly Energy Infrastructure Update, which the authors say is often incomplete and which FERC has revised upward before (EV-CLP-051). The firm's project page (gridstrategiesllc.com, read 2026-11-14, modified November 9, 2026) gives the same 435 miles and says most came from three projects in Colorado and the Southwest Power Pool. The same firm's congestion report gives 411 miles for 2025 (EV-CLP-735).",
+  "supports": [
+   "dossiers/clean-power/1-problem.md",
+   "dossiers/clean-power/design-test.md",
+   "dossiers/clean-power/memos/9-standard-payments-to-the-grid.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-735",
+  "statement": "Grid Strategies' congestion report stated that 411 miles of new, high-capacity transmission were completed in the U.S. in 2025, far short of the approximately 5,000 miles needed each year.",
+  "claim": "data",
+  "figures": [
+   "411 miles",
+   "2025",
+   "5,000 miles"
+  ],
+  "source": "SRC-4786",
+  "anchor": [
+   "In 2025, 411 miles of new, high-capacity transmission were completed in the U.S., far short of the approximately 5,000 miles of new, high-capacity transmission needed each year"
+  ],
+  "locator": "\"Mitigating Congestion: Expanding transmission capacity\", p. 8",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-14",
+  "recheck": "2027-06-30",
+  "context": "Grid Strategies LLC, \"Transmission Congestion for 2025\", September 2026, prepared for the Connected Grid Initiative (advocacy coalition). Discrepancy: the same firm's November 2026 report says 435 miles for 2025 (EV-CLP-734). The September report's footnote 24 cites a \"forthcoming report\" on miles built in 2025, so 411 is probably a preliminary count; the report does not say so. Use 435 as the later figure and report the 24-mile gap.",
+  "supports": [
+   "dossiers/clean-power/1-problem.md",
+   "dossiers/clean-power/design-test.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-736",
+  "statement": "On August 12, 2026 DOE announced it will not move forward with designating any of the three National Interest Electric Transmission Corridors it had advanced in December 2024, and its page says the process is complete with no corridors designated.",
+  "claim": "data",
+  "figures": [
+   "August 12, 2026",
+   "December 2024"
+  ],
+  "source": "SRC-4776",
+  "anchor": [
+   "On August 12, 2026, Secretary of Energy Chris Wright announced the U.S. Department of Energy (DOE) will not move forward with designating any of the three NIETCs previously selected in December 2024 to advance in the review process.",
+   "The four-phase NIETC designation process was established to identify and evaluate potential corridors, engage affected states, Tribes, local communities, industry, landowners, and other stakeholders, and conduct any required environmental review. The process that began in December 2023 is now complete, with no NIETCs designated from the three potential corridors that advanced to Phase 3."
+  ],
+  "locator": "\"National Interest Electric Transmission Corridor Designation Process\", opening section and \"NIETC Process Phases\"",
+  "grade": "A",
+  "fact_date": "2026-08",
+  "checked": "2026-11-14",
+  "recheck": "2027-03-31",
+  "context": "DOE, second Trump administration; page last updated October 30, 2026. The cancellation is a fact; DOE's reasons are its own view (EV-CLP-737). DOE's announcement headline, linked from the page, uses \"Cancellation\"; the page body says DOE \"will not move forward\". The page says the decision does not preclude future designations. Under current law FERC's backstop siting authority applies only inside a designated corridor (16 U.S.C. 824p(b), SRC-4771).",
+  "supports": [
+   "dossiers/clean-power/4-specification.md",
+   "dossiers/clean-power/design-test.md",
+   "dossiers/clean-power/memos/9-standard-payments-to-the-grid.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-737",
+  "statement": "DOE's page says contributing factors in its decision on the three corridors included significant public concerns, the rescission of Transmission Facility Financing funding, the lack of expressed developer interest in seeking FERC backstop siting authority, and the broader applicability of Transmission Facilitation Program funding.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-4776",
+  "anchor": [
+   "Contributing factors included significant public concerns and a lack of broad support, the rescission of Transmission Facility Financing funding, the lack of expressed developer interest in seeking FERC backstop siting authority, and the broader applicability of Transmission Facilitation Program funding to projects outside the NIETC program."
+  ],
+  "locator": "FAQ \"What was DOE's decision on the three potential NIETCs?\", third bullet",
+  "grade": "C",
+  "fact_date": "2026-08",
+  "checked": "2026-11-14",
+  "recheck": "2027-03-31",
+  "context": "DOE, second Trump administration, page updated October 30, 2026. These are the administration's stated reasons, not independently established; the dossier rests on independent sources. The funding rescission is checkable in the law (EV-CLP-754). The page says \"lack of expressed developer interest\", which is DOE's characterization; it cites no survey or filing. Presented as that administration's view only.",
+  "supports": [
+   "dossiers/clean-power/4-specification.md",
+   "dossiers/clean-power/design-test.md",
+   "dossiers/clean-power/memos/9-standard-payments-to-the-grid.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-754",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-738",
+  "statement": "As of September 30, 2025 the outstanding amount WAPA's Transmission Infrastructure Program had borrowed from Treasury for the Electrical District 5 to Palo Verde Hub project was $76.2 million (OMB authorized up to $91 million); the project was completed in 2015 and the loan converted to a 30-year Treasury financing agreement due in 2045, and the report gives WAPA's borrowing authority as $3.2 billion.",
+  "claim": "data",
+  "figures": [
+   "$76.2 million",
+   "$91 million",
+   "September 30, 2025",
+   "2015",
+   "30-year",
+   "2045",
+   "$3.2 billion"
+  ],
+  "source": "SRC-4777",
+  "anchor": [
+   "Substation to the Test Track Substation. The OMB authorized use of up to $91 million in borrowing\nauthority to finance the construction and related costs of the ED5 PVH project. As of September\n30, 2025, the outstanding amount borrowed was $76.2 million. In 2015, the project was completed,\nand the outstanding loan was converted to a 30-year long-term financing agreement with the U.S.\nTreasury. The principle is due at maturity in 2045 while interest is due semi-annually at a rate of",
+   "WAPA's authority to borrow from the Treasury has remained unchanged of $3.2 billion as of\nSeptember 30, 2025."
+  ],
+  "locator": "Notes to the financial statements, note 10 \"Debt\" (a), and the borrowing authority note",
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-14",
+  "recheck": "2026-12-31",
+  "context": "WAPA (a DOE power marketing administration), FY 2025 Agency Financial Report, posted June 2026; audited federal financial statements. The $76.2 million is the only TIP debt to Treasury shown. The report rounds the borrowing authority to $3.2 billion; the statute and WAPA's program pages give $3.25 billion (EV-CLP-421, EV-CLP-465).",
+  "supports": [
+   "dossiers/clean-power/design-test.md",
+   "dossiers/clean-power/memos/9-standard-payments-to-the-grid.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-739",
+  "statement": "WAPA's TIP fact sheet says TIP provided a $162 million construction loan for the Montana Alberta Tie line (energized 2013, fully repaid), that the Electrical District No. 5-Palo Verde Hub line has operated since 2015 and is in active repayment, and that a $25 million TransWest Express development loan was fully repaid.",
+  "claim": "data",
+  "figures": [
+   "$162 million",
+   "2013",
+   "2015",
+   "$25 million"
+  ],
+  "source": "SRC-4778",
+  "anchor": [
+   "Montana Alberta Tie Ltd\nEnergized in 2013, this 230-kilovolt transmission project\nfacilitates the delivery of energy from Montana to\ninterconnected markets. TIP provided a $162 million\nconstruction loan, which has been fully repaid.",
+   "Electrical District No. 5 - Palo Verde Hub\nOperational since 2015, this 109-mile transmission line\nadds up to 410 megawatts of bidirectional capacity in\nArizona, linking to the vital Palo Verde hub serving\nArizona, Southern California and Nevada. The project is\nin active repayment.\nTransWest Express\nConsisting of an overhead transmission line extending\napproximately 725 miles from south-central Wyoming\ncrossing Colorado and Utah, this project will transmit\nabout 3,000 MW of electricity annually. TIP provided a\n$25 million development loan, which has been\nfully repaid."
+  ],
+  "locator": "TIP fact sheet, project descriptions",
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "WAPA, DOE power marketing administration, fact sheet posted June 2026. Amount differs by source: the request cited about $161-162 million, this sheet and WAPA's projects page say $162 million; WAPA's FY 2012 annual report (not recorded as a source) says the developer repaid a $151 million investment in August 2012. The amounts are not reconciled here.",
+  "supports": [
+   "dossiers/clean-power/design-test.md",
+   "dossiers/clean-power/memos/9-standard-payments-to-the-grid.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-740",
+  "statement": "As introduced, the Senate permitting bill's transmission permitting section rewrites the backstop siting section so that FERC \"shall\" issue permits after a comment period of at least 45 days for lines of at least 230 kilovolts, with no corridor designation required, allows simultaneous processing for lines of at least 345 kilovolts, and amends the rights-of-way subsection (e) only in its court-procedure paragraph, leaving the eminent-domain authority of paragraph (1) unamended.",
+  "claim": "data",
+  "figures": [
+   "45 days",
+   "230",
+   "345"
+  ],
+  "source": "SRC-4779",
+  "anchor": [
+   "inserting ``Except as provided in subsections (d)(1) and (i),\nthe Commission shall, after notice and an opportunity for\nhearing, including a public comment period of at least 45 days,\nissue one or more permits to individual or joint applicants for",
+   "``(5) the electric transmission facilities are capable of\ntransmitting electric energy at a voltage of not less than 230\nkilovolts or, in the case of facilities that include advanced",
+   "``(6) Simultaneous processing.--In the case of transmission\nfacilities that are capable of transmitting electric energy at\na voltage of not less than 345 kilovolts, an application under\nsubsection (c) shall be submitted to the Commission",
+   "(d) Rights-of-Way.--Section 216(e)(3) of the Federal Power Act (16\nU.S.C. 824p(e)(3)) is amended by striking ``shall conform'' and all\nthat follows through the period at the end and inserting ``shall be in\naccordance with rule 71.1 of the Federal Rules of Civil Procedure.''."
+  ],
+  "locator": "S. 5653, sec. 2101(b), (c) new 216(d)(6), and (d)",
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-14",
+  "recheck": "2026-11-20",
+  "context": "S. 5653 as introduced September 30, 2026; bill text, Capito, Whitehouse, Lee, Heinrich, GPO (SRC-4779); superseded for floor action by the November 10 substitute (EV-CLP-741, EV-CLP-742). The strike-and-insert in 2101(b)(1) removes the words tying permits to a DOE-designated corridor, and 2101(a) replaces the definitions subsection, so the corridor designation authority goes. Current eminent-domain text is in 16 U.S.C. 824p(e)(1) (SRC-4771). The introduced 2101(e)(1) also strikes current subsection (f), which holds the just-compensation formula (fair market value including severance damages), and inserts cost allocation. The state clock (a state that has not acted within one year, current 824p(b)(1)(C)(i)) is kept but runs from filing with the State. Section 2101(j)(1) amends IRA section 50151(b), whose funds were rescinded by the 2025 reconciliation law (EV-CLP-754).",
+  "supports": [
+   "dossiers/clean-power/4-specification.md",
+   "dossiers/clean-power/design-test.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-741",
+  "statement": "In the Senate substitute amendment, the transmission permitting section provides that for backstop siting the Commission \"shall\" issue permits after a public comment period of at least 45 days, for facilities capable of at least 230 kilovolts or necessary to interconnect or operate such facilities.",
+  "claim": "data",
+  "figures": [
+   "45 days",
+   "230"
+  ],
+  "source": "SRC-4787",
+  "anchor": [
+   "the Commission shall, after notice and an opportunity for hearing, including a public comment period of at least 45 days, issue one or more permits to individual or joint applicants for the construction or modification of electric transmission facilities necessary in the national interest",
+   "capable of transmitting electric energy at a voltage of not less than 230 kilovolts; or",
+   "necessary to safely and reliably interconnect or operate 1 or more facilities described in clause (i) for which the permit is provided; or"
+  ],
+  "locator": "S. Amdt. 6883 as printed (KAT26764), Division B, Title I, sec. 2101(b), printed pp. 238-239",
+  "grade": "A",
+  "fact_date": "2026-11",
+  "checked": "2026-11-14",
+  "recheck": "2026-11-20",
+  "context": "Capito substitute amendment (SA 6883) to H.R. 2347, proposed by Sen. Thune for Sen. Capito, November 10, 2026; text as printed in the copy hosted by the National Ocean Industries Association (noia.org), a trade association, because the congress.gov amendment page had no text and refused automated download (HTTP 403). A reviewer should confirm against the Congressional Record or congress.gov. The substitute's new 216(d) ends at paragraph (5); the introduced paragraphs (6) and (7) allowing simultaneous state and federal processing for 345 kV lines do not appear in it, which McGuireWoods (EV-CLP-263) and Earthjustice (SRC-4566) also report. The one-year state clock in the existing 216(b)(1)(C) is retained, running from filing with the State, as in the introduced text (EV-CLP-740).",
+  "supports": [
+   "dossiers/clean-power/4-specification.md",
+   "dossiers/clean-power/design-test.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-742",
+  "statement": "The Senate substitute amends the rights-of-way subsection (e) of the backstop siting section only by striking \"or a State\" in paragraph (1) and by replacing the court-procedure language in its last paragraph with Federal Rule of Civil Procedure 71.1; it does not strike paragraph (1)'s eminent-domain authority, and it replaces subsection (f) (compensation) with cost allocation.",
+  "claim": "data",
+  "figures": [
+   "71.1"
+  ],
+  "source": "SRC-4787",
+  "anchor": [
+   "(d) RIGHTS-OF-WAY.—Section 216(e) of the Federal Power Act (16 U.S.C. 824p(e)) is amended by striking “or a State” in paragraph (1)",
+   "inserting “shall be in accordance with rule 71.1 of the Federal Rules of Civil Procedure.”",
+   "(1) IN GENERAL.—Section 216 of the Federal Power Act (16 U.S.C. 824p) is amended by striking subsection (f) and inserting the following:"
+  ],
+  "locator": "S. Amdt. 6883 as printed (KAT26764), Division B, Title I, sec. 2101(d) and (e)(1), printed pp. 242-243 (ellipsis marks the omitted words of the struck paragraph (3) text)",
+  "grade": "A",
+  "fact_date": "2026-11",
+  "checked": "2026-11-14",
+  "recheck": "2026-11-20",
+  "context": "Same source and caveats as EV-CLP-741 (substitute text from a trade-association-hosted copy; confirm against congress.gov). Eminent domain is retained: current 216(e)(1) (16 U.S.C. 824p(e)(1), SRC-4771) lets a permit holder who cannot agree on compensation acquire the right-of-way \"by the exercise of the right of eminent domain\" in federal or state court, and the substitute leaves those words untouched. Striking \"or a State\" from the property the paragraph excludes (\"owned by the United States or a State\") would make state-owned land condemnable by a permit holder (an inference from reading the amendment against current law). Current subsection (f) is the just-compensation provision (fair market value including severance damages); the substitute strikes it and inserts cost allocation, as the introduced text did (EV-CLP-740); constitutional just compensation and Rule 71.1 still govern a taking. The same pages show the amendment also strikes \"or a State\" only in paragraph (1); the printed text gives no other change to 216(e).",
+  "supports": [
+   "dossiers/clean-power/4-specification.md",
+   "dossiers/clean-power/design-test.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-743",
+  "statement": "Rhodium Group modeled that the permitting bill's transmission provisions would lift new interregional transmission additions to an average 1.9-2.6 TW-mi a year through 2040, against 0.7 TW-mi a year added in 2015-2024, a 167-262% rise on the past decade's pace.",
+  "claim": "analysis",
+  "figures": [
+   "1.9-2.6 TW-mi",
+   "0.7",
+   "167-262%",
+   "2040",
+   "2015"
+  ],
+  "source": "SRC-4788",
+  "anchor": [
+   "With BAAJA in place, we project the rate of new interregional transmission additions to the grid to increase by 167-262% relative to the pace over the last decade, reaching an average annual pace of 1.9-2.6 TW-mi of new interregional transmission capacity additions through 2040",
+   "just 0.7 terawatt-miles (TW-mi) of new lines added on an annual basis from 2015 to 2024"
+  ],
+  "locator": "\"Powering up the pace of transmission capacity additions\"",
+  "grade": "C",
+  "fact_date": "2040",
+  "checked": "2026-11-14",
+  "recheck": "2026-12-31",
+  "context": "Rhodium Group (independent energy and climate research firm), \"Estimating the US Energy System Impacts of BAAJA\", published around November 2, 2026 (the page text read carries no date; the date comes from the request), supported by CleanEcon, with an earlier version supported by the Bipartisan Policy Center. It models the bill as introduced on September 30, not the November 7 substitute, uses RHG-NEMS, and gives low, mid and high scenarios; it leaves out the permit-certainty sections and local congestion benefits. The 0.7 baseline is the ACEG and Grid Strategies 2015-2024 average. RFF's separate model finds interregional capacity roughly doubling (EV-CLP-745).",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-745",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-744",
+  "statement": "Rhodium Group projected the permitting bill's modeled provisions would reduce average household electricity bills by $50-78 a year in 2040 and cut economy-wide greenhouse gas emissions by 5-148 million metric tons a year in 2040, and by as much as 1.5 gigatons cumulatively.",
+  "claim": "analysis",
+  "figures": [
+   "$50-78",
+   "2040",
+   "5-148 million metric tons",
+   "1.5 gigatons"
+  ],
+  "source": "SRC-4788",
+  "anchor": [
+   "We project that the combined impact of these provisions would reduce household electricity bills by $50-78 per year in 2040 compared to without BAAJA",
+   "uniformly reduce economywide greenhouse gas (GHG) emissions by 5-148 million metric tons annually in 2040 and as much as 1.5 gigatons cumulatively"
+  ],
+  "locator": "Introductory summary",
+  "grade": "C",
+  "fact_date": "2040",
+  "checked": "2026-11-14",
+  "recheck": "2026-12-31",
+  "context": "Rhodium Group (see EV-CLP-743 for publisher, funding, date and model scope). Headline check: the bill savings combine the transmission provisions with the data-center cost-allocation provisions; Rhodium says the transmission mechanism drives 61%, 4% and 50% of the 2040 price decline in the low, mid and high scenarios, so in the mid case most of the saving comes from the ratepayer provisions. The 1.5 gigatons is the low-emissions scenario; the mid scenario is 368 million metric tons cumulative and the high scenario about 5 million a year in 2040. The figures also include gas pipeline provisions and LNG effects.",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-745",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-745",
+  "statement": "Resources for the Future projected that the permitting bill's modeled provisions would raise overall transmission capacity about 30 percent above baseline by 2041, with interregional capacity more than doubling, and cut cumulative power-sector carbon dioxide emissions by about 1.8 gigatonnes through 2041.",
+  "claim": "analysis",
+  "figures": [
+   "30 percent",
+   "2041",
+   "1.8 gigatonnes"
+  ],
+  "source": "SRC-4789",
+  "anchor": [
+   "we project overall transmission capacity to increase by 30 percent over the baseline; interregional transmission capacity more than doubles.",
+   "cumulative carbon dioxide emissions from the power sector declining by about 1.8 gigatonnes (Gt) through 2041 as compared to the baseline"
+  ],
+  "locator": "Summary, first and fourth bullets",
+  "grade": "C",
+  "fact_date": "2041",
+  "checked": "2026-11-14",
+  "recheck": "2026-12-31",
+  "context": "Resources for the Future (nonpartisan research institution), issue brief by Kevin Rennert and Aaron Bergman, October 29, 2026; uses NREL's (now National Laboratory of the Rockies) ReEDS model with a high-demand scenario; models only power-sector effects of selected provisions, represents the permit-certainty sections as intended rather than as possibly broader, and uses 2024 technology costs without tariff increases. The text gives 1.83 gigatons in the emissions section. Power sector only to 2041, so it is not comparable with Rhodium's economy-wide 1.5 gigatons through 2040 (EV-CLP-744).",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-743",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-744",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-746",
+  "statement": "FERC Commissioner David Rosner wrote in a concurrence on Southwest Power Pool's interregional coordination tariff that since 2011 Order No. 1000's interregional consultation requirements have resulted in exactly zero interregional transmission projects.",
+  "claim": "data",
+  "figures": [
+   "2011",
+   "1000",
+   "zero"
+  ],
+  "source": "SRC-4790",
+  "anchor": [
+   "Since 2011, Order No. 1000’s interregional consultation requirements have resulted in exactly zero interregional transmission projects."
+  ],
+  "locator": "Concurrence, second paragraph",
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-14",
+  "recheck": "2027-06-30",
+  "context": "FERC (independent federal regulator) news page for Commissioner Rosner's concurrence in Docket No. ER26-1311-000; the page shows no date, and its docket link carries accession number 20260410, consistent with April 2026. One commissioner's statement, not a Commission finding, and he cites no list of projects. It supports the point that interregional planning under Order 1000 has produced no projects. Rosner is a Democratic appointee.",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-747",
+  "statement": "Wood Mackenzie estimated that U.S. power transformers would face a supply shortage of 30% in 2025 (distribution transformers 10%), and that imports would account for about 80% of U.S. power transformer supply.",
+  "claim": "analysis",
+  "figures": [
+   "30%",
+   "10%",
+   "80%",
+   "2025"
+  ],
+  "source": "SRC-4791",
+  "anchor": [
+   "a supply shortage for power and distribution transformers to hit 30% and 10%, respectively, in 2025",
+   "In 2025, imports will account for an estimated 80% of US power transformer supply and 50% of the distribution transformer supply."
+  ],
+  "locator": "Press release, opening paragraphs",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-14",
+  "recheck": "2026-12-31",
+  "context": "Wood Mackenzie (research and consultancy firm that sells market research), press release of August 14, 2025 on its report \"Untangling the US transformer supply chain crisis\". Mismatch with the request: the 128-week lead time is not in this press release; trade press (EEPower, POWER) attributes 128 weeks for power transformers (144 for step-up units) to Wood Mackenzie's second-quarter 2025 survey, so it is not recorded here. Wood Mackenzie's own August 13, 2025 commentary gives the distribution deficit as 6%, not 10%. POWER (January 2026) quotes a transformer maker who disputes that a shortage exists. McKinsey's separate estimate is EV-CLP-748.",
+  "supports": [
+   "dossiers/clean-power/design-test.md",
+   "dossiers/clean-power/memos/9-standard-payments-to-the-grid.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-748",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-748",
+  "statement": "McKinsey estimated that in Europe and North America combined, power transformer demand of 914 GVA exceeded supply of 566 GVA by 38 percent in 2025.",
+  "claim": "analysis",
+  "figures": [
+   "914 GVA",
+   "566 GVA",
+   "38 percent",
+   "2025"
+  ],
+  "source": "SRC-4792",
+  "anchor": [
+   "In these markets, domestic power transformer demand of 914 GVA exceeded supply of 566 GVA by 38 percent in 2025."
+  ],
+  "locator": "Section on the supply and demand gap",
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-14",
+  "recheck": "2026-12-31",
+  "context": "McKinsey & Company (consultancy), article \"The transformer supercycle: Why demand is outrunning supply\" by Hirschberg, Reus and Schleyer, September 18, 2026; based on McKinsey Energy Solutions data and expert interviews, and McKinsey sells advice to utilities and manufacturers. The 38% covers Europe and North America together, not the United States alone, so it supports but is not the same measure as Wood Mackenzie's 30% for the U.S. (EV-CLP-747). It also reports lead times up to five years.",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-747",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CLP-749",
+  "statement": "The Secretary of Energy Advisory Board told the Secretary of Energy that the Power Marketing Administrations own about 14% of the transmission in the United States.",
+  "claim": "data",
+  "figures": [
+   "14%"
+  ],
+  "source": "SRC-4780",
+  "anchor": [
+   "The PMAs own about 14% of the transmission in the United States. Although they have"
+  ],
+  "locator": "Recommendation 4",
+  "grade": "C",
+  "fact_date": "2024-04",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "DOE advisory board (Biden administration; working group of Norman Bay, Paula Gold-Williams, Shirley Ann Jackson and Maria Pope), recommendations approved April 9, 2024. The board gives no source or method for the 14%. Mismatch with the request: the board names the Power Marketing Administrations, not TVA; a 2018 Cato Institute bulletin (not recorded as a source) puts about 14% on all federal entities, TVA included. The same recommendation notes WAPA's $3.25 billion Treasury borrowing for transmission (EV-CLP-421).",
+  "supports": [
+   "dossiers/clean-power/design-test.md",
+   "dossiers/clean-power/memos/9-standard-payments-to-the-grid.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-750",
+  "statement": "Bonneville Power Administration described its Grid Expansion and Reinforcement Portfolio as a nearly $8 billion portfolio across 20+ major projects reinforcing the regional backbone to unlock roughly 10,000 MW of capacity.",
+  "claim": "data",
+  "figures": [
+   "$8 billion",
+   "20+",
+   "10,000 MW"
+  ],
+  "source": "SRC-4781",
+  "anchor": [
+   "– Nearly $8 billion portfolio across 20+ major projects reinforcing the\nregional backbone to unlock roughly 10,000 MW of capacity"
+  ],
+  "locator": "\"BPA Transmission 101\", Transmission Expansion slide",
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-14",
+  "recheck": "2027-06-30",
+  "context": "BPA (DOE power marketing administration), October 2026 staff presentation (copy hosted on a Washington State site). A self-description of plans, not built capacity. Mismatch with the request: this slide does not say \"mostly rebuilds and reconductoring\". BPA's project summaries (not recorded as sources) put the first tranche at about $2 billion, \"mostly upgrades, rebuilds and other improvements to existing facilities\", and the second at $3.9 billion with new 500 kV lines among its projects, which sums to about $5.9 billion, not nearly $8 billion; the difference is unexplained. BPA borrowing authority is EV-CLP-420.",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-751",
+  "statement": "Grid Strategies listed MISO's Tranche 2.1 portfolio at $21.8 billion with about 1,900 miles of 765 kV, SPP's 2025 plan at $8.6 billion with 949 miles of 765 kV, ERCOT's 765 kV plan at an estimated $20 billion for 2,468 miles, and PJM's investments since 2023 at over 1,100 miles of 500 kV, 765 kV and 525 kV HVDC lines for just over $10 billion.",
+  "claim": "data",
+  "figures": [
+   "$21.8 billion",
+   "1,900 miles",
+   "$8.6 billion",
+   "949 miles",
+   "$20 billion",
+   "2,468 miles",
+   "1,100 miles",
+   "$10 billion"
+  ],
+  "source": "SRC-4785",
+  "anchor": [
+   "MISO’s Long Range Transmission Plan Tranche 2.1 portfolio, approved by the MISO Board in December 2024, which is a $21.8 billion portfolio with approximately 1,900 miles of 765 kV transmission projects",
+   "Southwest Power Pool (SPP)’s $8.6 billion 2025 Integrated Transmission Plan (ITP), which includes 949 miles of 765 kV transmission projects",
+   "ERCOT’s Strategic Transmission Expansion Plan (STEP), which consists of an estimated $20 billion in investments for 2,468 miles of 765 kV transmission",
+   "which, since 2023, include over 1,100 miles of 500 kV, 765 kV, and 525 kV HVDC transmission projects, totaling just over $10 billion"
+  ],
+  "locator": "Section IV, \"Planned high-capacity transmission\" bullets",
+  "grade": "C",
+  "fact_date": "2026-11",
+  "checked": "2026-11-14",
+  "recheck": "2026-12-31",
+  "context": "Grid Strategies LLC, November 2026 (see EV-CLP-734 for funder and stance). A secondary roll-up of plans approved by regional operators, not funded or built lines; the report cites MISO, SPP, ERCOT, PUCT and PJM documents. Differences: the same firm's congestion report puts ERCOT's 765 kV backbone at nearly $33 billion (EV-CLP-753); PJM's total 2025 baseline approvals were $11.8 billion across all voltages (EV-CLP-752); a 2026 blog by an advocacy group for Texas 765 kV lines gives MISO's 765 kV mileage as roughly 1,800 (not recorded). MISO's own page confirms $21.8 billion, 24 projects and a 3,631-mile 765 kV backbone, in service 2032-2034 (not recorded as a source); SPP's press release confirms $8.6 billion (not recorded).",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-752",
+  "statement": "PJM's Board approved 122 new baseline projects in the 2025 Regional Transmission Expansion Plan at an estimated cost of $11.8 billion, primarily to maintain system reliability.",
+  "claim": "data",
+  "figures": [
+   "122",
+   "$11.8 billion",
+   "2025"
+  ],
+  "source": "SRC-4793",
+  "anchor": [
+   "PJM’s RTEP process identified 122 new baseline projects in 2025 at an estimated cost of $11.8 billion, primarily to maintain system reliability."
+  ],
+  "locator": "2025 Key Highlights",
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-14",
+  "recheck": "2027-02-28",
+  "context": "PJM Interconnection (regional grid operator for 13 states and D.C.), 2025 RTEP report. Costs are PJM's estimates; the spending is mostly local and regional reliability and load growth, not interregional lines, and the projects are paid for by PJM customers.",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-753",
+  "statement": "Grid Strategies' congestion report said ERCOT and the Public Utility Commission of Texas approved a 765 kV backbone plan comprising several thousand new miles of transmission and nearly $33 billion in investment, not expected online until the early 2030s.",
+  "claim": "data",
+  "figures": [
+   "765 kV",
+   "$33 billion",
+   "early 2030s"
+  ],
+  "source": "SRC-4786",
+  "anchor": [
+   "have also approved a significant 765 kV backbone transmission plan to serve, in part, oil and gas-related demand growth in the Permian Basin, comprising several thousand new miles of transmission and representing nearly $33 billion in investment.",
+   "While not expected to come online until the early 2030s"
+  ],
+  "locator": "\"Mitigating Congestion: Expanding transmission capacity\", p. 8",
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-14",
+  "recheck": "2026-12-31",
+  "context": "Grid Strategies LLC, September 2026, prepared for the Connected Grid Initiative (advocacy coalition); cites ERCOT's January 2025 comparison document, which was not obtained. The firm's November 2026 report gives ERCOT's STEP as an estimated $20 billion for 2,468 miles (EV-CLP-751); the two reports are not reconciled, possibly by plan scope. ERCOT is outside FERC backstop siting under both current law and the bill.",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-754",
+  "statement": "The 2025 reconciliation law, in its section 50402 on repeals and rescissions, rescinds the unobligated balances of amounts made available under Inflation Reduction Act sections 50151, 50152 and 50153, codified at 42 U.S.C. 18715, 18715a and 18715b.",
+  "claim": "data",
+  "figures": [
+   "50402",
+   "50151",
+   "50152",
+   "50153",
+   "18715",
+   "18715a",
+   "18715b"
+  ],
+  "source": "SRC-4531",
+  "anchor": [
+   "SEC. 50402. REPEALS; RESCISSIONS.",
+   "available under the sections described in paragraph (2) are\nrescinded.\n(2) Sections described.--The sections referred to in",
+   "(E) Section 50151 (42 U.S.C. 18715).\n(F) Section 50152 (42 U.S.C. 18715a).\n(G) Section 50153 (42 U.S.C. 18715b)."
+  ],
+  "locator": "Sec. 50402(b)(1) and (b)(2)(E)-(G)",
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "Primary law, enacted July 4, 2025 (OBBBA, P.L. 119-21), GPO enrolled text. The law gives no dollar amounts, so the unobligated balances rescinded are not stated; the request's \"$2B unobligated\" is unverified. CRS Insight IN11981 (not recorded as a source) describes the original appropriations as $2 billion for transmission facility financing loans (50151, for lines in designated corridors), $760 million for siting grants (50152) and $100 million for interregional and offshore wind transmission planning (50153). DOE's NIETC page lists the rescission of Transmission Facility Financing funding among its reasons for ending the corridor process (EV-CLP-737).",
+  "supports": [
+   "dossiers/clean-power/design-test.md",
+   "dossiers/clean-power/memos/9-standard-payments-to-the-grid.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-755",
+  "statement": "DOE's draft 2026 National Transmission Needs Study, citing Lawrence Berkeley National Laboratory analysis, reports that cross-interconnection links from ERCOT to neighboring regions had locational price differentials of $31-48/MWh averaged over 2012-2023, links between WestConnect and SPP $18-33/MWh, and the highest within-region links $17-18/MWh.",
+  "claim": "data",
+  "figures": [
+   "$31",
+   "$48/MWh",
+   "$18/MWh",
+   "$33/MWh",
+   "$17",
+   "2012",
+   "2023"
+  ],
+  "source": "SRC-4782",
+  "anchor": [
+   "(Figure ES-3 (c)). Cross-interconnection links from ERCOT to neighboring regions show some\nof the highest LMP differentials from $31 per megawatt-hour (MWh) to $48/MWh averaged\nacross all hours from 2012 to 2023, and links between Western Interconnection (WestConnect)\nand Eastern Interconnection (SPP) have LMP differentials from $18/MWh to $33/MWh\n(Figure ES-3 (a)). Interregional links also have high transmission congestion value, particularly\nbetween NorthernGrid and WestConnect, and between ISO-NE and NYISO (Figure ES-3 (a)).\nTransmission links within regions have lower LMP differentials, with the highest-value withinregion links between New York City and the rest of NYISO ($17 to $18/MWh) and within"
+  ],
+  "locator": "Executive Summary, \"Interregional and cross-interconnection linkages have the highest potential value\"",
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-14",
+  "recheck": "2026-12-31",
+  "context": "DOE Office of Electricity, second Trump administration, draft for consultation and public comment, July 2026; the figures are historical differences in locational marginal prices from LBNL (a DOE lab), not forecasts of savings from a new line. The draft says parts of the Western Interconnection and the Southeast are possibly underrepresented. The study's framing, that these links have the highest potential value, is an interpretation. Grid Strategies' congestion report repeats the same figures (SRC-4786, not separately entered).",
+  "supports": [
+   "dossiers/clean-power/design-test.md",
+   "dossiers/clean-power/memos/9-standard-payments-to-the-grid.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-756",
+  "statement": "EIA reported that the SunZia Wind Project in New Mexico (3,650 megawatts, with a 550-mile high voltage direct current transmission line) was slated to begin commercial operations that month, after Pattern Energy started construction in 2023 following almost two decades of permitting and planning.",
+  "claim": "data",
+  "figures": [
+   "3,650",
+   "550-mile",
+   "2023"
+  ],
+  "source": "SRC-4783",
+  "anchor": [
+   "The SunZia Wind Project, the largest wind farm in the United States, is slated to begin commercial operations this month.",
+   "has a total net summer generating capacity of 3,650 megawatts (MW)",
+   "Pattern Energy started construction of the SunZia Wind Project in 2023 , after almost two decades of permitting and planning.",
+   "Pattern Energy also built the SunZia Transmission Project—a 550-mile high voltage direct current transmission line"
+  ],
+  "locator": "\"Today in Energy\", first and second paragraphs",
+  "grade": "A",
+  "fact_date": "2026-06",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "EIA (federal statistical agency), Today in Energy, June 12, 2026 (second Trump administration). Mismatches with the request: the sources do not say about 17 years to permit. EIA says \"almost two decades of permitting and planning\"; Vox (October 2026, not recorded) says the project was proposed in 2006 and did not break ground for 17 years, and quotes a former Interior deputy secretary arguing that financing hindered it more than permitting; Reuters (June 18, 2026, not recorded) says fully operational after nearly two decades of permitting and construction. WECC's 2026 progress report (not recorded) says the line was energized in 2025 and in testing through early 2026, so \"energized 2026\" is wrong by that account; commercial operation began in June 2026.",
+  "supports": [
+   "dossiers/clean-power/design-test.md",
+   "dossiers/clean-power/memos/9-standard-payments-to-the-grid.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-757",
+  "statement": "NYSERDA states that the 339-mile Champlain Hudson Power Express reached commercial operation on May 13, 2026 under the state's Tier 4 program, and that NYSERDA procures its renewable energy certificates rather than the electricity delivered.",
+  "claim": "data",
+  "figures": [
+   "339",
+   "May 13, 2026",
+   "Tier 4"
+  ],
+  "source": "SRC-4794",
+  "anchor": [
+   "which reached commercial operation on May 13, 2026, making it eligible to deliver clean hydropower from Hydro-Québec in Canada to New York City.",
+   "339 miles of total transmission line, the longest fully buried line in North America",
+   "NYSERDA does not purchase electricity delivered by CHPE. Instead, it procures the renewable energy attributes—called Tier 4 Renewable Energy Certificates"
+  ],
+  "locator": "NYSERDA Tier 4 Program page, opening paragraph, \"CHPE Construction\" and \"What NYSERDA's Tier 4 Contract Does\"",
+  "grade": "A",
+  "fact_date": "2026-05",
+  "checked": "2026-11-14",
+  "recheck": "2027-12-31",
+  "context": "New York State Energy Research and Development Authority (state agency and the contract counterparty, so the page is promotional about the program). Trade press (S&P Global, HVDC World, May 2026, not recorded) reports the same commercial operation date, about $6 billion cost and a $97.50/MWh first-year price; the line is 1,250 MW HVDC, privately developed by Transmission Developers Inc. (Blackstone) with Hydro-Québec supplying the power under a 25-year contract.",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-758",
+  "statement": "On January 23, 2026 the Illinois Supreme Court reversed the appellate court and affirmed the Illinois Commerce Commission's grant of a certificate of public convenience and necessity to Grain Belt Express, holding that a showing of current and present financial capability was not a condition of the certificate, with one justice taking no part, and remanded the other challenges to the appellate court.",
+  "claim": "data",
+  "figures": [
+   "January 23, 2026"
+  ],
+  "source": "SRC-4795",
+  "anchor": [
+   "Filed | January 23, 2026",
+   "Appellate court judgment reversed.",
+   "Commission decision affirmed.",
+   "Cause remanded.",
+   "Proof of GBX’s current and present financial capability was not a condition precedent to the issuance of the CPCN.",
+   "JUSTICE HOLDER WHITE took no part in the consideration or decision of this case."
+  ],
+  "locator": "Concerned Citizens & Property Owners v. Illinois Commerce Comm'n, 2026 IL 131026, caption, para. 33 and paras. 37-40",
+  "grade": "A",
+  "fact_date": "2026-01",
+  "checked": "2026-11-14",
+  "recheck": "2027-06-30",
+  "context": "Illinois Supreme Court opinion by Justice O'Brien. The 6-0 vote in the request is from press reports (NPR Illinois, Engineering News-Record, January 23-26, 2026, not recorded); the opinion shows six justices taking part and one taking no part. The holding is narrow: it concerns only the financing condition under the state Public Utilities Act, and the court left the constitutional and other statutory challenges to the appellate court. The ruling resolved a state permit question; the line's federal permitting (a FAST-41 schedule with an estimated completion date of 01/18/2027 on the federal dashboard, read through a search extract and not recorded as a source) is separate. The DOE loan guarantee for the project was terminated in July 2025 (EV-CLP-435).",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
+  ]
+ },
+ {
+  "id": "EV-CLP-759",
+  "statement": "Grid Strategies reported over 10,000 miles of 500 kV and above transmission projects planned and scheduled to come online by 2034, about 84% of them between 2030 and 2034, according to utility and RTO data.",
+  "claim": "data",
+  "figures": [
+   "10,000 miles",
+   "2034",
+   "84%",
+   "2030"
+  ],
+  "source": "SRC-4785",
+  "anchor": [
+   "Across the country, over 10,000 miles of 500 kV+ transmission projects have been planned and are scheduled to come online by 2034.",
+   "Of the roughly 10,000 miles of planned high-capacity transmission projects, about 84% are expected to come online between 2030 and 2034 according to data from utilites and RTOs."
+  ],
+  "locator": "Section IV, \"Planned high-capacity transmission, a positive indicator\"",
+  "grade": "C",
+  "fact_date": "2026-11",
+  "checked": "2026-11-14",
+  "recheck": "2026-12-31",
+  "context": "Grid Strategies LLC, November 2026 (see EV-CLP-734 for funder and stance). Planned and scheduled lines, not built ones; the same report notes that Boardman-to-Hemingway has taken some 20 years of development. The report's own count of what was built is 435 miles in 2025 (EV-CLP-734), and MISO's own status report (not recorded) counts over 10,200 circuit miles of all voltages planned over the decade.",
+  "supports": [
+   "dossiers/clean-power/design-test.md"
   ]
  }
 ]
