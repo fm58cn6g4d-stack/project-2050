@@ -426,7 +426,7 @@ const CFD = (() => {
       // in all (both times scale); a retrofit comes online lead years later, derated, and earns 45Q for 12 years if it started by q45End - 3.
       if (w.retro && y >= w.retro.start) { const R = w.retro, room = Math.max(0, R.cap * R.scale - retroStarted), q45ok = y <= S.q45End - 3, q45 = q45ok ? w.q45 : 0;
         let budget = Math.min(R.rate * R.scale, room);
-        const coalLeft = Math.max(0, Math.min(S.coal - retroQ.reduce((a, c) => a + c.coal, 0), R.coalElig - retroStarted));
+        const coalLeft = Math.max(0, Math.min(S.coal - retroQ.reduce((a, c) => a + c.coal, 0), R.coalElig - retroQ.reduce((a, c) => a + c.coal, 0))); // eligible coal not yet started (gas starts do not count against it)
         const sc = budget > 0 && retroEcon(w, R, 'coal', Pe, q45) > 0 ? Math.min(budget, coalLeft) : 0; budget -= sc;
         const sg = budget > 0 && retroEcon(w, R, 'gas', Pe, q45) > 0 ? Math.min(budget, Math.max(0, S.cc - retroQ.reduce((a, c) => a + c.gas, 0))) : 0;
         if (sc + sg > 0) { retroQ.push({ on: y + R.lead, coal: sc, gas: sg, q45: q45ok }); retroStarted += sc + sg; }

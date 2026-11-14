@@ -126,6 +126,9 @@ def scenarios(permit=None):
             ("ind_hi", f"Sensitivity: industry coverage {A['ind_cover']['high']:.0%}", dict(decided, sectorPrice=dict(MEMO1B, industry=A["ind_cover"]["high"])), PRICE),
             ("bld_lo", f"Sensitivity: the standby builder at {A['grid_standby_scale']['low']:.0%} of a full grid program", dict(decided, gridScale=A["grid_standby_scale"]["low"]), PRICE),
             ("bld_hi", "Sensitivity: a builder everywhere (memo 4 option A: the full grid program)", dict(decided, gridScale=A["grid_standby_scale"]["high"]), PRICE),
+            ("bld_75", "Sensitivity (clean power memo 9): the standby builder at 75% of a full grid program", dict(decided, gridScale=0.75), PRICE),
+            ("cap20", "Sensitivity (clean power memo 9): the decided set with the standard's capped payment at $20/MWh", dict(decided, acpCap=20.0), PRICE),
+            ("cap60", "Sensitivity (clean power memo 9): the decided set with the standard's capped payment at $60/MWh", dict(decided, acpCap=60.0), PRICE),
             ("retro1", "Sensitivity: the decided set with carbon-capture retrofits on existing plants at the research-based limits (scale 1)", dict(decided, retroScale=1.0), PRICE),
             ("retro_hi", "Sensitivity: the decided set with retrofits at design capture (90%) and twice the yearly rate and ceiling (scale 2)", dict(decided, retroScale=2.0, retroCapture=A["ccs_retrofit_capture"]["high"]), PRICE)]
     return L, opts
@@ -139,6 +142,9 @@ def config():
         out = dict(id=c, label=l, policy=p, price=pr)
         if k is not None:
             out["world"] = {"gpTx": 0.8 * k, "gpRecon": 15 * k, "gpCurt": 0.05 * k, "gpCost": 12 * k}
+        cap = p.pop("acpCap", None)
+        if cap is not None:
+            out.setdefault("world", {})["cesAcp"] = cap
         r, rc = p.pop("retroScale", None), p.pop("retroCapture", None)
         if r is not None:
             out.setdefault("world", {})["retro"] = dict(retro(r), **({"capture": rc} if rc else {}))
