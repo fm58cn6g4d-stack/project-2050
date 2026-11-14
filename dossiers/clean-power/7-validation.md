@@ -38,7 +38,7 @@ Role: section 7 of the clean power dossier: how the costs and results in section
 - **Care.** Displaced workers' health coverage is the single plan's from 2035 (`DEC-2026-11-10-09`); before then, the 2029 restoration (HLT-1) and the marketplace. The guarantee carries no separate health benefit, which is one reason it costs less than the legacy estimate (`6-cost.md`, part 1).
 - **Immigration.** Who is paid the dividend follows immigration's table for universal programs (rule 3, `DEC-2026-11-12-07`, memo 6 C). The guarantee follows employment records.
 - **Work.** The heat standard (LAB-6) and apprenticeships (LAB-8) stay with work; retraining under CLI-11.03 uses the same eligible provider lists. Oil and gas field workers outside the guarantee are the work flagship's to serve.
-- **Fair financing.** The fee's 24.4% offset is a revenue line the settlement sees (CX); memo 1 B lowers it. Where the transition share sits after FY2039 is the booking's question (`6-cost.md`, part 2).
+- **Fair financing.** The fee's 24.4% offset is a revenue line the settlement sees (CX); memo 1 B lowers it. After FY2039 the transition share's remainder stays in the general fund (`DEC-2026-11-13-13`; `6-cost.md`, part 2).
 - **Rural.** USDA's Rural Utilities Service carries co-op lending alongside DOE (`5-delivery.md`, part 6).
 
 ## 4. Reach: for whom
