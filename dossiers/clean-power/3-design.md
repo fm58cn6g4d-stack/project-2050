@@ -92,8 +92,8 @@ Each is decided on its own; a "no" is recorded and the dossier is revised.
 
 | Group | Rows | FY2030-39 | FY2040 |
 | --- | --- | --- | --- |
-| Fee and dividend accounting | CLI-2 (nets to zero in its own channel), CLI-2O, CX, CXP | $410 billion | $71.0 billion |
-| Credits and industry | CLI-1, CLI-9 | $866 billion | $76.4 billion |
+| Fee and dividend accounting | CLI-2 (nets to zero in its own channel), CLI-2O, CX, CXP | $410 billion | $71.1 billion |
+| Credits and industry | CLI-1, CLI-9 | $866 billion | $76.3 billion |
 | Standards | CLI-3 (CLI-3E, 4E, 4H at zero) | $20 billion | $2.5 billion |
 | Grid | CLI-10G (CLI-6 at zero) | $39 billion | $0 |
 | Bills and add-ons | CLI-5, CLI-5L, CLI-5W | $224 billion | $1.7 billion |
@@ -103,7 +103,7 @@ Each is decided on its own; a "no" is recorded and the dossier is revised.
 
 Two things in this table are easy to miss. **The fee and dividend cost the general fund money**, about $0.41 trillion over ten years and $71 billion in FY2040, because the dividend returns 80% of the fee tax-free while the fee's offset against income and payroll taxes falls on the general fund (the convention Espen adopted, `DEC-2026-11-12-08`). And **the credits carry most of FY2040's cost**.
 
-**The recommended set**, against the booking (project arithmetic; ranges summed line by line, so wide): about **+$0.11 trillion over FY2030-39 (range about −$0.06 to +$0.28 trillion) and about −$9 billion in FY2040 (range about −$20 to +$5 billion)**, from memo 1 B (about −$0.03 trillion; −$26 billion), memo 4 B (+$0.04-0.08 trillion of borrowing-eligible capital; about 0), memo 5 B (0; +$9-10 billion) and memo 7 B (+$0.08 trillion; +$6-10 billion). So the recommended set is about **$1.9 trillion over FY2030-39 and about $156 billion in FY2040**, about 3.7% of the plan-wide FY2040 general-fund shortfall of about $4,239 billion (case `mixed`, after #313; `charter/PROGRESS.md`).
+**The recommended set**, against the booking (project arithmetic; ranges summed line by line, so wide): about **+$0.11 trillion over FY2030-39 (range about −$0.06 to +$0.28 trillion) and about −$9 billion in FY2040 (range about −$20 to +$5 billion)**, from memo 1 B (about −$0.03 trillion; −$26 billion), memo 4 B (+$0.04-0.08 trillion of borrowing-eligible capital; about 0), memo 5 B (0; +$9-10 billion) and memo 7 B (+$0.08 trillion; +$6-10 billion). So the recommended set is about **$1.9 trillion over FY2030-39 and about $156 billion in FY2040**, about 3.7% of the plan-wide FY2040 general-fund shortfall of about $4,239 billion (case `mixed`, after #313; `charter/PROGRESS.md`). These are section 3's first estimates; the decided set as priced, and the gap at the current head, are in `6-cost.md`, parts 1 and 4.
 
 **What these figures leave out.**
 - The credits' cost risk: the legacy model counts its credit set at about twice the booking [EV-CLP-710].
@@ -122,10 +122,12 @@ Two things in this table are easy to miss. **The fee and dividend cost the gener
 | Income test on credits (memo 2 C) | Buyers at the point of sale | Lower cost | **No** (not recommended) |
 | Clean electricity credits for suppliers | Utilities | The floor that survives a repeal | Yes; most states already run one |
 | Fleet standards | Automakers | Transport cuts the price does not deliver | Yes |
-| Clean-heat standard | Furnace buyers, distributors | Buildings coverage in place of a price | Point 9 |
+| Clean-heat standard | Manufacturers and distributors (the sales share); households replacing a furnace or water heater, who face a heat pump's higher upfront cost and, in some homes, a panel upgrade, most in cold climates and homes on propane or oil | Buildings coverage in place of a price | Point 9; separate schedules for space and water heating, and an emergency-replacement allowance through 2039, so no one is forced into a conversion when equipment fails (CLI-4H.01). Low-income help comes through the credits and Weatherization |
 | Annual LIHEAP application | Low-income households | Targeting | **Replaced** by automatic credit for enrolled households |
 | Code adoption for insurance help | States and localities | Lower losses, $11 per $1 by NIBS's estimate [EV-CLP-611] | Point 13, three years to comply |
-| Transition guarantee eligibility | Employers (records they already file) | No means test for workers | Yes |
+| Transition guarantee eligibility | Employers and site contractors (records they already file; contractors file site payroll within 30 days) | No means test for workers | Yes |
+| The guarantee's monthly hours statement | Re-employed workers: one statement a month with a pay stub, for up to two years, checked after the fact against state wage records | The hourly top-up with no suitable-job test (Espen's design); state records hold quarterly earnings, not hours | Yes: the price of having no job test |
+| A contractor's six-of-twelve-months test | Contractors' workers, shown from the contractor's site payroll or their own pay stubs | Covers the people who worked the site, not passing vendors | Yes (working choice) |
 
 ## Agenda items
 
