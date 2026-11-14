@@ -70,7 +70,8 @@ MEMO1B = {"buildings": 0, "industry": a("ind_cover"), "nonroad": 0}             
 CES = {"start": P["ces_start"], "target": P["ces_target"], "year": P["ces_year"], "target2": a("ces_target2"), "year2": int(a("ces_year2"))}
 HEAT = {"start": int(a("heat_std_start")), "share": a("heat_std_share"), "step": a("heat_std_step")}
 WORLD = {"cesAcp": P["ces_acp"], "gsTx": P["grid_statute_tx"], "wxHomes": P["weatherize_homes_m"],
-         "crYears": int(a("credit_years")), "crVehYears": int(a("vehicle_credit_years")), "retailNetCredits": True}
+         "crYears": int(a("credit_years")), "crVehYears": int(a("vehicle_credit_years")), "retailNetCredits": True,
+         "gpTx": 0.8 * a("grid_standby_scale"), "gpRecon": 15 * a("grid_standby_scale"), "gpCurt": 0.05 * a("grid_standby_scale"), "gpCost": 12 * a("grid_standby_scale")}  # the standby builder: the engine's grid program, scaled
 
 
 def scenarios(permit=None):
@@ -89,6 +90,7 @@ def scenarios(permit=None):
                             ("std", "+ vehicle and power plant standards in statute (memo 3 part 2 A; CLI-4A, 4E)", {"standards": True}),
                             ("heat", "+ the clean-heat standard from 2032 (point 9; CLI-4H)", {"heatStd": HEAT}),
                             ("homes", "+ Weatherization heat pumps and the grid statute (CLI-5W, CLI-6)", {"weatherize": True, "gridStatute": True}),
+                            ("builder", "+ public power as standby builder of last resort (memo 4 B, DEC-2026-11-13-10; CLI-10.03), the engine's grid program at half strength", {"grid": True}),
                             ("decided", "+ the methane fee (point 3; REV-C3): **the decided set**", {"methaneFee": METHANE_FEE})]:
         prev = dict(prev, **add)
         L.append((cid, label, prev, PRICE))
@@ -100,13 +102,22 @@ def scenarios(permit=None):
              dict(decided, sectorPrice={"buildings": 1, "industry": 1, "nonroad": 1}), {y: (PRICE[y] if y >= 2032 else 0.0) for y in YRS}),
             ("nofee33", "Durability: the decided set with the price repealed from 2033", dict(decided), {y: (PRICE[y] if y < 2033 else 0.0) for y in YRS}),
             ("ind_lo", f"Sensitivity: industry coverage {A['ind_cover']['low']:.0%}", dict(decided, sectorPrice=dict(MEMO1B, industry=A["ind_cover"]["low"])), PRICE),
-            ("ind_hi", f"Sensitivity: industry coverage {A['ind_cover']['high']:.0%}", dict(decided, sectorPrice=dict(MEMO1B, industry=A["ind_cover"]["high"])), PRICE)]
+            ("ind_hi", f"Sensitivity: industry coverage {A['ind_cover']['high']:.0%}", dict(decided, sectorPrice=dict(MEMO1B, industry=A["ind_cover"]["high"])), PRICE),
+            ("bld_lo", f"Sensitivity: the standby builder at {A['grid_standby_scale']['low']:.0%} of a full grid program", dict(decided, gridScale=A["grid_standby_scale"]["low"]), PRICE),
+            ("bld_hi", "Sensitivity: a builder everywhere (memo 4 option A: the full grid program)", dict(decided, gridScale=A["grid_standby_scale"]["high"]), PRICE)]
     return L, opts
 
 
 def config():
     L, O = scenarios()
-    cases = [dict(id=c, label=l, policy=p, price=pr) for c, l, p, pr in L + O]
+    def case(c, l, p, pr):
+        p = dict(p)
+        k = p.pop("gridScale", None)
+        out = dict(id=c, label=l, policy=p, price=pr)
+        if k is not None:
+            out["world"] = {"gpTx": 0.8 * k, "gpRecon": 15 * k, "gpCurt": 0.05 * k, "gpCost": 12 * k}
+        return out
+    cases = [case(*x) for x in L + O]
     LP, _ = scenarios(permit=int(a("permit_year_sensitivity")))
     cases += [dict(id="cl_permit", label="Sensitivity: 2029 current law with the 2026-28 permitting package enacted", policy=LP[0][2], price=None),
               dict(id="decided_permit", label="Sensitivity: the decided set with the permitting package", policy=LP[-1][2], price=PRICE)]

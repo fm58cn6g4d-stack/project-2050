@@ -9,7 +9,8 @@ It answers, year by year from 2025 to 2050, against the January 2029 current law
 - **receipts:** the carbon price on power plants and large industry (memo 1 B), process emissions, the border adjustment, the methane fee, and the clean electricity standard's capped payments, each with the adopted 24.4% income and payroll tax offset (`DEC-2026-11-12-08`);
 - **outlays:** the 80/20 split into the Climate Dividend and the transition share, the dividend per adult, and the engine's estimate of the credits' cost (a cross-check, not a score);
 - **prices and households:** the national average retail electricity price, and the carbon channel's cost and dividend by income fifth;
-- **layers and options:** the decided set built up one measure at a time, the options memo 1 weighed (A, C, D), a repeal test and sensitivities;
+- **layers and options:** the decided set built up one measure at a time, the options memo 1 weighed (A, C, D), a repeal test and sensitivities (industry coverage, the builder's strength, the permitting package);
+- **for clean power's re-review** (`DEC-2026-11-13-12`): `results.md` answers the list in #346 point by point, including the coal and gas fleets' wind-down for the transition guarantee's count of closures. The guarantee itself (CLI-11, with tribal governments' lost revenue, `DEC-2026-11-13-11`) is priced by the dossier, not here;
 - **for the booking step:** every receipt and outlay by fiscal year under provision IDs (`results.json`, `provisions`).
 
 It cannot answer, by design (`survey.md`, 4.5):
@@ -19,6 +20,7 @@ It cannot answer, by design (`survey.md`, 4.5):
 - **land use and forests** beyond the inventory's sink held at its recent level; CLI-13 stays as booked;
 - **leakage** beyond the border adjustment's small trade response;
 - **health effects** beyond the carbon model's own power-plant figure (not reported here yet);
+- **bills by region:** the engine is one national market (#346's item 3);
 - **official scores or individual benefits** (`charter/PLAN.md` 3.4).
 
 ## How it is built
@@ -53,6 +55,7 @@ It cannot answer, by design (`survey.md`, 4.5):
 | Offset | 24.4% (`excise-offset.csv`) | Decision (`DEC-2026-11-12-08`); CBO 21-25% (SRC-2453); JCT 25% historically (SRC-5005) |
 | Dividend | 80% of combustion receipts, equal per adult; adults 77% of CBO's population | Decision (CLI-2A.04); share a convention (`assumptions.csv`) |
 | Permitting package | Not assumed; a sensitivity with it enacted in 2027 | Working choice (`dossiers/clean-power/3-design.md`) |
+| The standby builder of last resort | The engine's federal grid program at half strength (25-100%) | Decision (memo 4 B as decided, `DEC-2026-11-13-10`); strength a **labeled assumption** (`assumptions.csv`, `grid_standby_scale`): it builds only where others fail, so less than a builder everywhere |
 | 2025 starting point | EIA energy CO2 by sector (SRC-5004) | Data |
 | Baseline benchmark | AEO2026 combination case (SRC-5049; main case SRC-5050) | Analysis (EIA, second Trump administration; checked against Rhodium and the 2026 review) |
 | 2005 base | EPA net 6,536 Mt (SRC-4460); EIA energy 5,999 Mt | Data |
