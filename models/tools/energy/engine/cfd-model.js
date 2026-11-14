@@ -437,13 +437,18 @@ const CFD = (() => {
       const coalGF = coalVC + w.fom.coal / (Math.max(0.15, dx.coalCF) * 8.76);
       let ret = Math.min(S.coal, w.coalSched) + S.coal * 0.15 * logistic((coalGF - best) / 8) + (dx.coalCF < 0.15 ? S.coal * 0.15 : 0);
       if (pol.standards && y + 1 >= 2033) ret += S.coal / Math.max(1, 2040 - y); // reinstated power plant rule: unabated coal out by 2040
+      // Project 2050 M4: a coal unit with a retrofit under way that will meet the standard (capture at least R.comply, CLI-4R.01's 90%) is not retired;
+      // without the standard any retrofit is kept. A retrofit below that capture cannot comply, so none starts under the standard and any built retire by 2040.
+      const retroOK = w.retro ? (!pol.standards || w.retro.capture >= (w.retro.comply || 0.9)) : false;
+      if (retroOK) ret = Math.min(ret, Math.max(0, S.coal - retroQ.filter(c => !c.done).reduce((a, c) => a + c.coal, 0)));
+      if (w.retro && !retroOK && pol.standards && y + 1 >= 2040) S.coalR = 0;
       ret = Math.min(S.coal, ret); S.coal -= ret;
       // Project 2050 M4: capture retrofits. Each year, where the expected carbon price or 45Q covers the cost (retroEcon), owners start
       // (from the year `start`) retrofits on coal units still running (coal first, up to coalElig) and then on combined cycles, at most rate GW a year and cap GW
       // in all (both times scale); a retrofit comes online lead years later, derated, and earns 45Q for 12 years if it started by q45End - 3.
       if (w.retro && y >= w.retro.start) { const R = w.retro, room = Math.max(0, R.cap * R.scale - retroStarted), q45ok = y <= S.q45End - 3, q45 = q45ok ? w.q45 : 0;
         let budget = Math.min(R.rate * R.scale, room);
-        const coalLeft = Math.max(0, Math.min(S.coal - retroQ.reduce((a, c) => a + c.coal, 0), R.coalElig - retroCoalStarted));
+        const coalLeft = Math.max(0, Math.min(S.coal - retroQ.reduce((a, c) => a + c.coal, 0), R.coalElig - retroCoalStarted)) * (retroOK ? 1 : 0);
         const sc = budget > 0 && retroEcon(w, R, 'coal', Pe, q45) > 0 ? Math.min(budget, coalLeft) : 0; budget -= sc;
         const sg = budget > 0 && retroEcon(w, R, 'gas', Pe, q45) > 0 ? Math.min(budget, Math.max(0, S.cc - retroQ.reduce((a, c) => a + c.gas, 0))) : 0;
         if (sc + sg > 0) { retroQ.push({ on: y + R.lead, coal: sc, gas: sg, q45: q45ok }); retroStarted += sc + sg; retroCoalStarted += sc; }

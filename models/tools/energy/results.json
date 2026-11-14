@@ -1335,11 +1335,11 @@
    "models/tools/energy/data.py": "f36b324e0b55e161",
    "models/tools/energy/engine.js": "02cfae2717d425cc",
    "models/tools/energy/engine/cfd-households.js": "cf0b0d33ac3e8213",
-   "models/tools/energy/engine/cfd-model.js": "884d0a37b37ca0fe",
+   "models/tools/energy/engine/cfd-model.js": "6a70ccb6dd45a284",
    "models/tools/energy/history.js": "4882d3c65521f29e",
    "models/tools/energy/history.py": "6d5db6f13804cfdb",
    "models/tools/energy/model.py": "35dd0b3933af75d8",
-   "models/tools/energy/run.py": "56cb3f49f4c287ab",
+   "models/tools/energy/run.py": "0602f9d5edfe9d49",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb"
   },
   "mc_draws": 60,
@@ -3556,32 +3556,32 @@
   },
   "retro1_stack": {
    "fy2040": {
-    "acp": 42.66,
-    "c1": 169.3,
+    "acp": 41.95,
+    "c1": 168.55,
     "c1p": 41.05,
-    "c2": 9.75,
+    "c2": 9.76,
     "c3": 1.24,
-    "credits": 62.86,
-    "dividend": 135.44,
-    "offset": -54.01,
-    "transition": 33.86
+    "credits": 63.61,
+    "dividend": 134.84,
+    "offset": -53.83,
+    "transition": 33.71
    },
    "label": "Sensitivity: retrofits at the research-based limits (scale 1), with 45Q paid on top of the carbon price avoided (stacking; memo 8)",
    "per_adult": {
     "2030": 121,
     "2035": 410,
-    "2040": 491
+    "2040": 489
    },
    "window_2030_39": {
-    "acp": 174.49,
-    "c1": 1199.19,
+    "acp": 172.4,
+    "c1": 1197.16,
     "c1p": 248.89,
-    "c2": 47.87,
+    "c2": 47.88,
     "c3": 21.86,
-    "credits": 1038.29,
-    "dividend": 959.35,
-    "offset": -370.35,
-    "transition": 239.84
+    "credits": 1040.69,
+    "dividend": 957.73,
+    "offset": -369.85,
+    "transition": 239.43
    },
    "years": {
     "2030": {
@@ -3615,34 +3615,34 @@
      "transport": 1622.0732
     },
     "2040": {
-     "below2005": 0.5163,
+     "below2005": 0.5171,
      "buildings": 353.6456,
-     "cleanShare": 0.8694,
-     "energy": 2901.5224,
+     "cleanShare": 0.8716,
+     "energy": 2897.1949,
      "evShare": 0.6714,
-     "ghgBelow2005": 0.5388,
+     "ghgBelow2005": 0.5395,
      "hp": 0.3792,
-     "industry": 849.5837,
+     "industry": 849.3566,
      "methane": 218.4508,
-     "power": 295.3024,
+     "power": 291.2033,
      "process": 233.4359,
-     "retail": 15.998,
-     "transport": 1402.9907
+     "retail": 15.9649,
+     "transport": 1402.9894
     },
     "2050": {
-     "below2005": 0.66,
+     "below2005": 0.6603,
      "buildings": 190.7623,
-     "cleanShare": 0.9662,
-     "energy": 2039.6725,
+     "cleanShare": 0.9668,
+     "energy": 2037.8498,
      "evShare": 0.99,
-     "ghgBelow2005": 0.6774,
+     "ghgBelow2005": 0.6776,
      "hp": 0.6583,
-     "industry": 808.4555,
+     "industry": 807.9444,
      "methane": 219.0509,
-     "power": 86.2969,
+     "power": 84.9865,
      "process": 203.5283,
-     "retail": 17.3246,
-     "transport": 954.1578
+     "retail": 17.3062,
+     "transport": 954.1567
     }
    }
   },
@@ -3740,32 +3740,32 @@
   },
   "retro_hi_stack": {
    "fy2040": {
-    "acp": 41.1,
-    "c1": 167.56,
+    "acp": 40.65,
+    "c1": 167.33,
     "c1p": 41.05,
-    "c2": 9.75,
+    "c2": 9.77,
     "c3": 1.24,
-    "credits": 64.43,
-    "dividend": 134.05,
-    "offset": -53.58,
-    "transition": 33.51
+    "credits": 68.09,
+    "dividend": 133.87,
+    "offset": -53.53,
+    "transition": 33.47
    },
    "label": "Sensitivity: retrofits at design capture and scale 2, with 45Q stacking on the carbon price (memo 8)",
    "per_adult": {
     "2030": 121,
-    "2035": 410,
-    "2040": 486
+    "2035": 411,
+    "2040": 485
    },
    "window_2030_39": {
-    "acp": 172.77,
-    "c1": 1197.39,
+    "acp": 172.96,
+    "c1": 1198.27,
     "c1p": 248.89,
     "c2": 47.87,
     "c3": 21.86,
-    "credits": 1039.97,
-    "dividend": 957.91,
-    "offset": -369.91,
-    "transition": 239.48
+    "credits": 1046.37,
+    "dividend": 958.61,
+    "offset": -370.12,
+    "transition": 239.65
    },
    "years": {
     "2030": {
@@ -3784,49 +3784,49 @@
      "transport": 1786.1456
     },
     "2035": {
-     "below2005": 0.406,
+     "below2005": 0.4053,
      "buildings": 468.6769,
-     "cleanShare": 0.7252,
-     "energy": 3563.1062,
+     "cleanShare": 0.7234,
+     "energy": 3567.6948,
      "evShare": 0.4227,
-     "ghgBelow2005": 0.4289,
+     "ghgBelow2005": 0.4282,
      "hp": 0.1854,
-     "industry": 893.6881,
-     "methane": 218.1605,
-     "power": 578.6679,
-     "process": 256.5457,
-     "retail": 14.9322,
-     "transport": 1622.0732
+     "industry": 893.8255,
+     "methane": 218.1995,
+     "power": 583.1066,
+     "process": 256.5461,
+     "retail": 14.9465,
+     "transport": 1622.0857
     },
     "2040": {
-     "below2005": 0.518,
+     "below2005": 0.5182,
      "buildings": 353.6456,
-     "cleanShare": 0.8742,
-     "energy": 2891.4834,
+     "cleanShare": 0.8757,
+     "energy": 2890.1028,
      "evShare": 0.6714,
-     "ghgBelow2005": 0.5403,
+     "ghgBelow2005": 0.5406,
      "hp": 0.3792,
-     "industry": 849.3854,
+     "industry": 848.9894,
      "methane": 218.4508,
-     "power": 285.4626,
-     "process": 233.4359,
-     "retail": 15.9478,
-     "transport": 1402.9899
+     "power": 284.4701,
+     "process": 233.4362,
+     "retail": 15.8796,
+     "transport": 1402.9977
     },
     "2050": {
-     "below2005": 0.6617,
+     "below2005": 0.6616,
      "buildings": 190.7623,
-     "cleanShare": 0.9694,
-     "energy": 2029.4411,
+     "cleanShare": 0.9698,
+     "energy": 2030.0554,
      "evShare": 0.99,
-     "ghgBelow2005": 0.6789,
+     "ghgBelow2005": 0.6788,
      "hp": 0.6583,
-     "industry": 806.309,
+     "industry": 805.1914,
      "methane": 219.0509,
-     "power": 78.214,
-     "process": 203.5282,
-     "retail": 17.2103,
-     "transport": 954.1559
+     "power": 79.9433,
+     "process": 203.5283,
+     "retail": 17.1675,
+     "transport": 954.1584
     }
    }
   },
