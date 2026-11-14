@@ -159,5 +159,14 @@ ok("EPS generation: three runs, 2025-2050, the same 2025 total", sorted(eg) == [
 ok("EPS generation: types add up to the total", all(abs(sum(v for k, v in eg[r][y].items() if k != "total") - eg[r][y]["total"]) < 0.05 for r in eg for y in eg[r]))
 ok("EP-3 is reported", B["EP-3"]["result"] == "reported", B["EP-3"]["model"][:60])
 
+# --- the design menu (menu.py): one-off runs start from a committed case and reproduce the named runs
+import menu  # noqa: E402
+mz = menu.main([], show=False)
+ok("menu: no changes reproduces the decided set", mz["run"] == mz["base_run"])
+m75 = menu.main(["--builder", "0.75"], show=False)["run"]
+rs = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "results.json")))["scenarios"]["bld_75"]
+ok("menu: --builder 0.75 reproduces the committed bld_75 run", round(m75["co2_below_2005"][2035] / 100, 3) == round(rs["years"]["2035"]["below2005"], 3)
+   and abs(m75["fy2030_39_bn"]["acp"] - rs["window_2030_39"]["acp"]) < 1)
+
 print(f"{len(fails)} FAILED: {fails}" if fails else "energy model: all passed")
 sys.exit(1 if fails else 0)

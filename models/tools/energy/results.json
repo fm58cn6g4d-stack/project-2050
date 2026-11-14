@@ -106,7 +106,7 @@
    "target": "CBO option 73: $919B (SRC-5036)",
    "tol": "within 25%",
    "what": "Receipts on CBO's price path, 2025-2034, net of the income and payroll tax offset",
-   "why": "+26%, about the same in every year (FY2025 $71B against CBO's $53B; FY2034 $148B against $118B). The engine cuts emissions slowly in its first decade (PR-1, lower half of EMF 37's range), which keeps its tax base, and so its receipts, high; the legacy ledger set REV-C1's midpoint about 5% below the model for the same reason (ledger-revenue.csv, C1). CBO covers energy CO2 and some large manufacturers' other gases from 2025; the engine prices fuel CO2 and industrial process CO2 and N2O, and starts its price with no warning (CBO's estimate is static apart from the offset)."
+   "why": "+26%, about the same in every year (FY2025 $71B against CBO's $53B; FY2034 $148B against $118B). The gap is in the level from the first year, not in the speed of the cuts: CBO's FY2026 receipts are 83% of the engine's, and on gasoline alone, the fuel least able to respond in a year, 85% (CBO's alternative without gasoline gives $18.0B less in FY2026; the engine's light-duty vehicle CO2 stands in for gasoline's). The ratio then falls slowly to 80% by FY2034: the engine's base does shrink a little more slowly than CBO's, but that adds only a few points over the decade. Most of the gap is there from the first year: CBO counts about a sixth less revenue per ton taxed, on every fuel. Its notes don't say why; candidates are a larger offset or compliance and collection allowances in JCT's conventions, or a narrower base (feedstocks, exports). The legacy ledger set REV-C1's midpoint about 5% below the model (ledger-revenue.csv, C1). An earlier version of this note put the whole gap down to slow first-decade cuts; the year-by-year ratio shows that is the smaller part. CBO covers energy CO2 and some large manufacturers' other gases from 2025; the engine prices fuel CO2 and industrial process CO2 and N2O, and starts its price with no warning (CBO's estimate is static apart from the offset)."
   },
   {
    "id": "CR-1",
@@ -1335,11 +1335,11 @@
    "models/tools/energy/data.py": "f36b324e0b55e161",
    "models/tools/energy/engine.js": "02cfae2717d425cc",
    "models/tools/energy/engine/cfd-households.js": "cf0b0d33ac3e8213",
-   "models/tools/energy/engine/cfd-model.js": "6a70ccb6dd45a284",
+   "models/tools/energy/engine/cfd-model.js": "740f50ff1c5b109c",
    "models/tools/energy/history.js": "4882d3c65521f29e",
    "models/tools/energy/history.py": "6d5db6f13804cfdb",
-   "models/tools/energy/model.py": "35dd0b3933af75d8",
-   "models/tools/energy/run.py": "0602f9d5edfe9d49",
+   "models/tools/energy/model.py": "cf6951b9b2078a7e",
+   "models/tools/energy/run.py": "c15849f8abfa144b",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb"
   },
   "mc_draws": 60,
@@ -3370,6 +3370,98 @@
     }
    }
   },
+  "permit_bld_hi": {
+   "fy2040": {
+    "acp": 11.69,
+    "c1": 128.21,
+    "c1p": 41.7,
+    "c2": 10.28,
+    "c3": 1.24,
+    "credits": 65.1,
+    "dividend": 102.57,
+    "offset": -44.27,
+    "transition": 25.64
+   },
+   "label": "Named run for clean power's design test: the permitting package with a builder everywhere (memo 4 option A, the full grid program)",
+   "per_adult": {
+    "2030": 119,
+    "2035": 358,
+    "2040": 372
+   },
+   "window_2030_39": {
+    "acp": 15.1,
+    "c1": 1016.24,
+    "c1p": 257.86,
+    "c2": 48.42,
+    "c3": 21.86,
+    "credits": 1268.13,
+    "dividend": 812.99,
+    "offset": -328.03,
+    "transition": 203.25
+   },
+   "years": {
+    "2030": {
+     "below2005": 0.307,
+     "buildings": 565.8324,
+     "cleanShare": 0.5693,
+     "energy": 4157.6014,
+     "evShare": 0.1949,
+     "ghgBelow2005": 0.3217,
+     "hp": 0.0264,
+     "industry": 958.3367,
+     "methane": 264.2922,
+     "power": 847.2799,
+     "process": 305.4334,
+     "retail": 14.1519,
+     "transport": 1786.1523
+    },
+    "2035": {
+     "below2005": 0.4338,
+     "buildings": 468.5474,
+     "cleanShare": 0.7942,
+     "energy": 3396.7621,
+     "evShare": 0.4235,
+     "ghgBelow2005": 0.4527,
+     "hp": 0.1857,
+     "industry": 882.8396,
+     "methane": 218.1605,
+     "power": 423.7859,
+     "process": 267.1158,
+     "retail": 14.2304,
+     "transport": 1621.5891
+    },
+    "2040": {
+     "below2005": 0.5566,
+     "buildings": 353.5479,
+     "cleanShare": 0.9646,
+     "energy": 2659.8207,
+     "evShare": 0.6715,
+     "ghgBelow2005": 0.5752,
+     "hp": 0.3793,
+     "industry": 826.9825,
+     "methane": 218.4508,
+     "power": 76.7776,
+     "process": 237.1533,
+     "retail": 15.1539,
+     "transport": 1402.5127
+    },
+    "2050": {
+     "below2005": 0.6729,
+     "buildings": 190.7096,
+     "cleanShare": 0.9885,
+     "energy": 1962.4972,
+     "evShare": 0.99,
+     "ghgBelow2005": 0.6893,
+     "hp": 0.6584,
+     "industry": 789.2946,
+     "methane": 219.0509,
+     "power": 28.562,
+     "process": 202.5572,
+     "retail": 17.2789,
+     "transport": 953.9311
+    }
+   }
+  },
   "price": {
    "fy2040": {
     "acp": 0.0,
@@ -3554,6 +3646,98 @@
     }
    }
   },
+  "retro1_rcredit": {
+   "fy2040": {
+    "acp": 40.06,
+    "c1": 166.38,
+    "c1p": 43.17,
+    "c2": 9.26,
+    "c3": 1.24,
+    "credits": 64.31,
+    "dividend": 133.1,
+    "offset": -53.69,
+    "transition": 33.28
+   },
+   "label": "Sensitivity: a retrofit credit (memo 8): 45Q on top of the carbon price for retrofits begun by 2039 only, the larger of the two elsewhere; research-based limits (scale 1)",
+   "per_adult": {
+    "2030": 120,
+    "2035": 405,
+    "2040": 482
+   },
+   "window_2030_39": {
+    "acp": 160.22,
+    "c1": 1182.84,
+    "c1p": 264.95,
+    "c2": 44.06,
+    "c3": 21.86,
+    "credits": 1039.92,
+    "dividend": 946.28,
+    "offset": -369.34,
+    "transition": 236.57
+   },
+   "years": {
+    "2030": {
+     "below2005": 0.3052,
+     "buildings": 565.8309,
+     "cleanShare": 0.565,
+     "energy": 4168.3708,
+     "evShare": 0.195,
+     "ghgBelow2005": 0.3198,
+     "hp": 0.0264,
+     "industry": 960.8132,
+     "methane": 264.3116,
+     "power": 855.5751,
+     "process": 307.336,
+     "retail": 14.1497,
+     "transport": 1786.1515
+    },
+    "2035": {
+     "below2005": 0.4083,
+     "buildings": 468.6875,
+     "cleanShare": 0.7316,
+     "energy": 3549.7292,
+     "evShare": 0.4227,
+     "ghgBelow2005": 0.4282,
+     "hp": 0.1854,
+     "industry": 901.9289,
+     "methane": 218.1605,
+     "power": 557.0328,
+     "process": 274.4475,
+     "retail": 14.9395,
+     "transport": 1622.08
+    },
+    "2040": {
+     "below2005": 0.519,
+     "buildings": 353.6536,
+     "cleanShare": 0.8774,
+     "energy": 2885.7449,
+     "evShare": 0.6714,
+     "ghgBelow2005": 0.5394,
+     "hp": 0.3792,
+     "industry": 854.685,
+     "methane": 218.4508,
+     "power": 274.4097,
+     "process": 245.6128,
+     "retail": 16.0081,
+     "transport": 1402.9966
+    },
+    "2050": {
+     "below2005": 0.6574,
+     "buildings": 190.7666,
+     "cleanShare": 0.9618,
+     "energy": 2055.2996,
+     "evShare": 0.99,
+     "ghgBelow2005": 0.6743,
+     "hp": 0.6583,
+     "industry": 812.1797,
+     "methane": 219.0509,
+     "power": 98.1922,
+     "process": 208.0747,
+     "retail": 17.4671,
+     "transport": 954.1611
+    }
+   }
+  },
   "retro1_stack": {
    "fy2040": {
     "acp": 41.95,
@@ -3735,6 +3919,98 @@
      "process": 208.0748,
      "retail": 17.4762,
      "transport": 954.163
+    }
+   }
+  },
+  "retro_hi_rcredit": {
+   "fy2040": {
+    "acp": 38.8,
+    "c1": 165.17,
+    "c1p": 43.17,
+    "c2": 9.27,
+    "c3": 1.24,
+    "credits": 68.69,
+    "dividend": 132.14,
+    "offset": -53.4,
+    "transition": 33.03
+   },
+   "label": "Sensitivity: the retrofit credit at design capture (90%) and scale 2",
+   "per_adult": {
+    "2030": 120,
+    "2035": 406,
+    "2040": 479
+   },
+   "window_2030_39": {
+    "acp": 160.79,
+    "c1": 1183.85,
+    "c1p": 264.95,
+    "c2": 44.05,
+    "c3": 21.86,
+    "credits": 1046.16,
+    "dividend": 947.08,
+    "offset": -369.59,
+    "transition": 236.77
+   },
+   "years": {
+    "2030": {
+     "below2005": 0.3052,
+     "buildings": 565.8309,
+     "cleanShare": 0.565,
+     "energy": 4168.3708,
+     "evShare": 0.195,
+     "ghgBelow2005": 0.3198,
+     "hp": 0.0264,
+     "industry": 960.8132,
+     "methane": 264.3116,
+     "power": 855.5751,
+     "process": 307.336,
+     "retail": 14.1497,
+     "transport": 1786.1515
+    },
+    "2035": {
+     "below2005": 0.4076,
+     "buildings": 468.6875,
+     "cleanShare": 0.7299,
+     "energy": 3554.0819,
+     "evShare": 0.4227,
+     "ghgBelow2005": 0.4275,
+     "hp": 0.1854,
+     "industry": 902.0669,
+     "methane": 218.1929,
+     "power": 561.235,
+     "process": 274.4479,
+     "retail": 14.9546,
+     "transport": 1622.0925
+    },
+    "2040": {
+     "below2005": 0.5201,
+     "buildings": 353.6536,
+     "cleanShare": 0.8813,
+     "energy": 2878.7216,
+     "evShare": 0.6714,
+     "ghgBelow2005": 0.5404,
+     "hp": 0.3792,
+     "industry": 854.3114,
+     "methane": 218.4508,
+     "power": 267.7519,
+     "process": 245.6131,
+     "retail": 15.9262,
+     "transport": 1403.0048
+    },
+    "2050": {
+     "below2005": 0.6595,
+     "buildings": 190.7666,
+     "cleanShare": 0.9662,
+     "energy": 2042.8231,
+     "evShare": 0.99,
+     "ghgBelow2005": 0.6762,
+     "hp": 0.6583,
+     "industry": 808.9619,
+     "methane": 219.0509,
+     "power": 88.9319,
+     "process": 208.0748,
+     "retail": 17.2955,
+     "transport": 954.1627
     }
    }
   },
