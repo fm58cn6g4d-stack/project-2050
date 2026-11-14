@@ -58,7 +58,7 @@ Energy CO2 below 2005 (EIA's 2005 level, 5,999 Mt), net greenhouse gases below 2
 
 ## Receipts and the dividend
 
-**REV-C1 (the domestic fee), on the decided package.** About **$2.00T** in 2030-39 (10th-90th percentile $1.92-2.14T), against the ledger's $1.90T (range $1.65-2.10T, estimate). The fee alone would raise $2.10T; the companion measures shrink its base by $0.10T. Because the model cuts emissions more slowly in the first decade than the large published models, its receipts sit toward the high side; a faster-responding model would land lower. The dividend (80%) is $1.60T and the transition share $0.40T.
+**REV-C1 (the domestic fee), on the decided package.** About **$2.00T** in 2030-39 (10th-90th percentile $1.92-2.14T), against the ledger's $1.20T (range $1.04-1.33T, estimate), which since clean power's booking prices power plants and large industry only (memo 1 B; dossiers/clean-power/6-cost.md part 6), where this model prices the legacy economy-wide fee. The fee alone would raise $2.10T; the companion measures shrink its base by $0.10T. Because the model cuts emissions more slowly in the first decade than the large published models, its receipts sit toward the high side; a faster-responding model would land lower. The dividend (80%) is $1.60T and the transition share $0.40T.
 
 | Year | Fee ($/t, nominal) | Receipts ($B, nominal) | Energy CO2 (Mt) | Clean electricity | Dividend per adult ($, nominal) | Couple |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -103,9 +103,9 @@ Per household in 2025 dollars, from the model's household module (BLS Consumer E
 
 | Row | This model, 2030-39 ($T) | Ledger, mid (range) | Note |
 | --- | --- | --- | --- |
-| REV-C1 (C1) | 2.00 (1.92-2.14) | 1.90 (1.65-2.10) | the ledger sits below the model because the model responds slowly in the first decade |
+| REV-C1 (C1) | 2.00 (1.92-2.14) | 1.20 (1.04-1.33) | the ledger books memo 1 B's power and industry coverage; this model prices the legacy economy-wide fee and responds slowly in the first decade |
 | REV-C2 (C2) | 0.053 | 0.03 (0.02-0.05) | export rebates nearly cancel the import charge |
 | REV-C3 (C3) | 0.022 (0.020-0.024) | 0.02 (0.02-0.03) | credited to CLI-5 |
-| Excise offset (CX) | -0.51 | -0.48 (-0.53--0.41) | 24.4% of the carbon, border and methane fees (JCT's income and payroll tax offset rate, as MR6 for Moving America; DEC-2026-11-12-08) |
+| Excise offset (CX) | -0.51 | -0.31 (-0.34--0.27) | 24.4% of the carbon, border and methane fees (JCT's income and payroll tax offset rate, as MR6 for Moving America; DEC-2026-11-12-08) |
 
 CLI-3's 80%-by-2035 target is not met in the model (75% in 2035); its alternative compliance payments, about $0.05T in 2030-39, are an unsized channel. The incidence model spreads REV-C1 over the window with its own profile (`incidence-phase-in.csv`, C1); the model's year-by-year receipts could replace it.

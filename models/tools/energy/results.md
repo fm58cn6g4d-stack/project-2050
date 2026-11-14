@@ -88,7 +88,7 @@ Nominal $ billion by fiscal year, a cost positive, the decided set (`results.jso
 
 | Provision | FY2030-39 | FY2040 | Booked, FY2030-39 |
 | --- | --- | --- | --- |
-| REV-C1A: carbon price receipts on covered combustion (REV-C1A, C1G) | -1,185 | -168 | -1,900 |
+| REV-C1A: carbon price receipts on covered combustion (REV-C1A, C1G) | -1,185 | -168 | -1,203 |
 | REV-C1P.01: process-emissions receipts | -265 | -43 | -244 |
 | REV-C2.01: border adjustment, net of export rebates | -44 | -9 | -30 |
 | REV-C3.01: methane fee | -22 | -1 | -22 |

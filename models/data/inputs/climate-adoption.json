@@ -10,7 +10,7 @@
   "credit_split_basis": "Proportional allocation over pricing denominator: CLI-1 0.90T and CLI-5 transmission ITC/45X 0.22T. No saving on other CLI-5 lines; total savings counted once. Conservative 0.67 multiplier until scored.",
   "legacy_gf_tn": {
     "CLI-1": 0.9,
-    "CLI-5": 0.168
+    "CLI-5": 0.307
   },
   "post2050": "Hold each 2050 nominal real flow constant in 2025 dollars using export inflation (2.2%); zero-ended items remain zero; recompute O5 annually. Sensitivity/proxy, not an emissions forecast.",
   "contingent_liability_bn": [
