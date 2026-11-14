@@ -84,7 +84,7 @@ const CFD = (() => {
     retailAcp: false, // M4: true adds the clean standard's capped payments (cesAcpBn, paid by suppliers to Treasury) to the cost passed to retail prices; credit trades between plants net out inside the sector either way
     retailNetCredits: false, // M4: true nets the year's power-credit payments out of the cost passed to retail prices (cost-of-service: a subsidy lowers the revenue requirement); false keeps the original model, which passes new plants' full capital cost through
     hpPremPolicy: null, hpPremYear: null, // optional policy heat-pump premium from a start year (null: w.hpPrem throughout), e.g. a clean-heat standard
-    crPowerTrigger: 383, crVehYears: null, zevPath: null, zevTrkPath: null, // power-credit phase-out trigger (Mt power CO2); vehicle credits' own term (null: crYears); optional statutory zero-emission sales schedules {year: share}
+    crPowerTrigger: 383, crPhase: false, crPowSched: null, crVehYears: null, zevPath: null, zevTrkPath: null, // power-credit phase-out trigger (Mt power CO2); vehicle credits' own term (null: crYears); optional statutory zero-emission sales schedules {year: share}
   };
   // Monte Carlo ranges [low, high] around the central value (triangular)
   const RANGES = {
@@ -199,7 +199,7 @@ const CFD = (() => {
     const soft = (std, mkt) => std <= 0 ? mkt : Math.min(0.99, std + w.stdSoft * Math.log(1 + Math.exp((mkt - std) / w.stdSoft))); // carmakers differ: some are held up by the standard even when the average is above it
     let hiT = 0, saf = 0, sLag1 = null, sLag2 = null, infra = 0, ldvScale = null, evAsc = null, trkE = 0.005, hp = 0, lowT = 0, indEff = 0, bEff = 0, capNew = 0, fomBase = null, avg0 = null, retailAdj = 0;
     const ccsS = { gasproc: 0, ammonia: 0, cement: 0, steel: 0, refH2: 0 };
-    let KC = null, KN = null, nucCum = 1, wave = 0, tx = null, PS = null, PW = null, KS = null, KW = null, bld = { want: 0, ready: 0, grid: 0, industry: 0, built: 0, tx: 0 }, credNext = 0, load0 = 0, powerPrev = 9999, windElig = [], credCost = 0, price = 0, missedPrev = false, frozen = false, ratchetYears = 0, cumAb = 0, e2029 = null, elecLoadPrev = 0, dElast = 0;
+    let KC = null, KN = null, nucCum = 1, wave = 0, tx = null, PS = null, PW = null, KS = null, KW = null, bld = { want: 0, ready: 0, grid: 0, industry: 0, built: 0, tx: 0 }, credNext = 0, crTrig = null, load0 = 0, powerPrev = 9999, windElig = [], credCost = 0, price = 0, missedPrev = false, frozen = false, ratchetYears = 0, cumAb = 0, e2029 = null, elecLoadPrev = 0, dElast = 0;
     const rows = [];
     let cesBase = null; const clampT = yy => { const c = pol.ces, b = cesBase === null ? 0.45 : cesBase; if (c.year2 && yy > c.year) return yy >= c.year2 ? c.target2 : c.target + (c.target2 - c.target) * (yy - c.year) / (c.year2 - c.year); return yy >= c.year ? c.target : b + (c.target - b) * (yy - (c.start - 1)) / (c.year - (c.start - 1)); };
     for (let y = Y0; y <= Y1; y++) {
@@ -367,11 +367,22 @@ const CFD = (() => {
       const dx = Math.abs(Pe - P) > 0.5 ? dispatch(S, G, Pe, w, y) : d;
       const nn = n + 1;
       if (tx === null) { tx = w.txBase; PS = w.pipe0.solar; PW = w.pipe0.wind; KS = w.k0.solar; KW = w.k0.wind; }
-      const crNext = pol.credits && y + 1 >= 2030 && (y + 1 < 2032 || power > w.crPowerTrigger);
-      const stItc = crNext ? w.crItc : (y + 1 <= 2033 ? 0.3 : y + 1 === 2034 ? 0.225 : y + 1 === 2035 ? 0.15 : 0); // storage credit survives to 2035 under current law
+      // Project 2050 M4: crPhase follows the IRA's phase-out (26 U.S.C. 45Y(d)(3), 48E(e)(3)): once power CO2 falls to the trigger (the
+      // applicability year), plants starting the next year get 100%, the second year 75%, the third 50%, then none. false keeps the
+      // original engine, which ends the credits the year after the trigger.
+      if (crTrig === null && y + 1 >= 2032 && power <= w.crPowerTrigger) crTrig = y;
+      const crF = !pol.credits || y + 1 < 2030 ? 0 : !w.crPhase ? ((y + 1 < 2032 || power > w.crPowerTrigger) ? 1 : 0)
+        : crTrig === null || y + 1 <= crTrig + 1 ? 1 : y + 1 === crTrig + 2 ? 0.75 : y + 1 === crTrig + 3 ? 0.5 : 0;
+      // Project 2050 M4: crPowSched = { full, part, partEnd, firm } replaces the trigger with a step-down fixed in statute (CLI-1A.02):
+      // wind, solar and transmission at full value for construction starting through `full`, `part` of it through `partEnd`, then none;
+      // storage (batteries and long-duration) at full value through `firm`. null keeps the trigger above.
+      const CS = pol.credits && y + 1 >= 2030 ? w.crPowSched : null, yy1 = y + 1;
+      const crC = CS ? (yy1 <= CS.full ? 1 : yy1 <= CS.partEnd ? CS.part : 0) : crF, crS = CS ? (yy1 <= CS.firm ? 1 : 0) : crF;
+      const crNext = crC > 0, crItcF = w.crItc * crC, crItcS = w.crItc * crS;
+      const stItc = crS > 0 ? crItcS : (y + 1 <= 2033 ? 0.3 : y + 1 === 2034 ? 0.225 : y + 1 === 2035 ? 0.15 : 0); // storage credit survives to 2035 under current law
       const cS0 = w.capex.solar * Math.pow(1 - w.decline.solar, nn), cSt0 = w.capex.stor * Math.pow(1 - w.decline.stor, nn);
-      const cS = cS0 * (crNext ? 1 - w.crItc : 1), cW = w.capex.wind * Math.pow(1 - w.decline.wind, nn), cSt = cSt0 * (1 - stItc);
-      const ptcLev = crNext ? w.crPtc * 0.59 : 0, pmF = 1 + w.pmFloor * phi;
+      const cS = cS0 * (crNext ? 1 - crItcF : 1), cW = w.capex.wind * Math.pow(1 - w.decline.wind, nn), cSt = cSt0 * (1 - stItc);
+      const ptcLev = crNext ? w.crPtc * crC * 0.59 : 0, pmF = 1 + w.pmFloor * phi;
       const lc = (cx, fom, cf) => (cx * w.fcr + fom) / (cf * 8.76);
       const vfS = clamp(1 - w.vfSolar * (1 - w.pmValue * phi) * d.solShare + 3 * d.storShift / G, 0.25, 1), vfW = clamp(1 - w.vfWind * (1 - w.pmValue * phi) * d.windShare, 0.4, 1);
       const ctFirm = (w.capex.ct * w.fcr + w.fom.ct) / 8.76; // $/MWh-equivalent of firming one average kW
@@ -460,11 +471,12 @@ const CFD = (() => {
       capNew += (mS * cS + mW * cW + mCC * w.capex.cc + mCCS * w.capex.ccs * w.ccsCostMult + mCT * w.capex.ct + mSt * cSt * durF + mL * lCx * (1 - stItc) + mN * nucCx * (1 - nucItc)) * w.fcr / 1000 + mN * w.fom.nuc / 1000
         + (mS * w.fom.solar + mW * w.fom.wind + mCC * w.fom.cc + mCCS * w.fom.ccs + mCT * w.fom.ct + mSt * w.fom.stor + mL * L.fom) / 1000;
       // credit outlays booked to next year's row: investment credits at build, wind production credit for ten years
-      if (crNext) { windElig.push({ twh: mW * w.cf.newWind * 8.76, end: y + 11 }); credNext = (mS * cS0 + mSt * cSt0 * durF + mL * lCx) * w.crItc / 1000; } else credNext = 0;
+      credNext = (mS * cS0 * crItcF + (mSt * cSt0 * durF + mL * lCx) * crItcS) / 1000;
+      if (crNext) windElig.push({ twh: mW * w.cf.newWind * 8.76, end: y + 11, f: crC });
       if (pol.nuclear && y + 1 >= 2030) credNext += mN * nucCx * w.npItc / 1000 + (y + 1 < 2040 ? w.npFusion + 1 : 0); // reactor credit, fusion R&D, hydro support ($1bn/yr ASSUMED)
       if (pol.grid && y + 1 >= 2030 && y + 1 < 2040) credNext += w.gpCost;
-      if (crNext) credNext += 9; // transmission investment credit: 30% of about $30bn a year (ASSUMED)
-      credNext += windElig.filter(c => c.end > y + 1).reduce((a, c) => a + c.twh, 0) * w.crPtc / 1000;
+      if (crNext) credNext += 9 * crC; // transmission investment credit: 30% of about $30bn a year (ASSUMED)
+      credNext += windElig.filter(c => c.end > y + 1).reduce((a, c) => a + c.twh * (c.f === undefined ? 1 : c.f), 0) * w.crPtc / 1000;
       powerPrev = power; retailAdj = retailNext;
       if (pol.ces && y + 1 >= pol.ces.start) { // credit price moves toward the level that meets next year's target path, capped at the alternative compliance payment
         const tgt = clampT(y + 1), sh = cleanShare;

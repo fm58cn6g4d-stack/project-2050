@@ -76,7 +76,10 @@ WORLD = {"cesAcp": P["ces_acp"], "gsTx": P["grid_statute_tx"], "wxHomes": P["wea
          "fuelSpread": {k: round(v * a("fuel_spread_mult"), 4) for k, v in data.fuel_spread().items()},  # regional and plant fuel prices (HI-1): plants switch between coal and gas gradually
          # recalibrated with the spread to the engine's own 2025 targets (EIA coal output 750 TWh, power CO2 1,485 Mt): coal's running cost
          # $3.59/MWh (engine default 4) and the emissions calibration 0.986 (engine default 1.024). test_energy.py checks both targets.
-         "coalVom": 3.59, "emCal": 0.986}  # the standby builder: the engine's grid program, scaled
+         "coalVom": 3.59, "emCal": 0.986,
+         "crPhase": True,  # without a schedule, the power credits phase out over three years after the trigger, as the IRA provides
+         "crPowSched": {"full": int(a("power_credit_full_through")), "part": a("power_credit_part"), "partEnd": int(a("power_credit_part_through")),
+                        "firm": int(a("storage_credit_full_through"))}}  # the decided step-down (CLI-1A.02), not the IRA's emissions trigger  # the standby builder: the engine's grid program, scaled
 
 
 def scenarios(permit=None):
