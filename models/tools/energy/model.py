@@ -70,6 +70,18 @@ COVER_NONE = {"process": False, "methane": False, "fgas": False, "border": False
 MEMO1B = {"buildings": 0, "industry": a("ind_cover"), "nonroad": 0}                # REV-C1G.01-.02
 CES = {"start": P["ces_start"], "target": P["ces_target"], "year": P["ces_year"], "target2": a("ces_target2"), "year2": int(a("ces_year2"))}
 HEAT = {"start": int(a("heat_std_start")), "share": a("heat_std_share"), "step": a("heat_std_step")}
+RETRO = {"scale": a("ccs_retrofit_scale"), "start": int(a("ccs_retrofit_start")), "lead": int(a("ccs_retrofit_lead_years")), "rate": a("ccs_retrofit_rate_gw"),
+         "cap": a("ccs_retrofit_cap_gw"), "coalElig": a("ccs_retrofit_coal_eligible_gw"), "capture": a("ccs_retrofit_capture"),
+         "capexCoal": a("ccs_retrofit_capex_coal"), "capexGas": a("ccs_retrofit_capex_gas"), "fomCoal": a("ccs_retrofit_fom_coal"), "fomGas": a("ccs_retrofit_fom_gas"),
+         "vomCoal": a("ccs_retrofit_vom_coal"), "vomGas": a("ccs_retrofit_vom_gas"), "derateCoal": a("ccs_retrofit_derate_coal"), "derateGas": a("ccs_retrofit_derate_gas"),
+         "hrCoal": a("ccs_retrofit_hr_coal"), "hrGas": a("ccs_retrofit_hr_gas")}   # carbon capture retrofits on existing plants (engine option retro)
+
+
+def retro(scale):
+    """The retrofit option at a given scale (0: none)."""
+    return dict(RETRO, scale=scale) if scale > 0 else None
+
+
 WORLD = {"cesAcp": P["ces_acp"], "gsTx": P["grid_statute_tx"], "wxHomes": P["weatherize_homes_m"],
          "crYears": int(a("credit_years")), "crVehYears": int(a("vehicle_credit_years")), "retailNetCredits": True, "retailAcp": True,
          "gpTx": 0.8 * a("grid_standby_scale"), "gpRecon": 15 * a("grid_standby_scale"), "gpCurt": 0.05 * a("grid_standby_scale"), "gpCost": 12 * a("grid_standby_scale"),  # the standby builder: the engine's grid program, scaled
@@ -79,7 +91,8 @@ WORLD = {"cesAcp": P["ces_acp"], "gsTx": P["grid_statute_tx"], "wxHomes": P["wea
          "coalVom": 3.59, "emCal": 0.986,
          "crPhase": True,  # without a schedule, the power credits phase out over three years after the trigger, as the IRA provides
          "crPowSched": {"full": int(a("power_credit_full_through")), "part": a("power_credit_part"), "partEnd": int(a("power_credit_part_through")),
-                        "firm": int(a("storage_credit_full_through"))}}  # the decided step-down (CLI-1A.02), not the IRA's emissions trigger
+                        "firm": int(a("storage_credit_full_through"))},
+         "retro": retro(RETRO["scale"])}  # the decided step-down (CLI-1A.02), not the IRA's emissions trigger
 
 
 def scenarios(permit=None):
@@ -112,7 +125,14 @@ def scenarios(permit=None):
             ("ind_lo", f"Sensitivity: industry coverage {A['ind_cover']['low']:.0%}", dict(decided, sectorPrice=dict(MEMO1B, industry=A["ind_cover"]["low"])), PRICE),
             ("ind_hi", f"Sensitivity: industry coverage {A['ind_cover']['high']:.0%}", dict(decided, sectorPrice=dict(MEMO1B, industry=A["ind_cover"]["high"])), PRICE),
             ("bld_lo", f"Sensitivity: the standby builder at {A['grid_standby_scale']['low']:.0%} of a full grid program", dict(decided, gridScale=A["grid_standby_scale"]["low"]), PRICE),
-            ("bld_hi", "Sensitivity: a builder everywhere (memo 4 option A: the full grid program)", dict(decided, gridScale=A["grid_standby_scale"]["high"]), PRICE)]
+            ("bld_hi", "Sensitivity: a builder everywhere (memo 4 option A: the full grid program)", dict(decided, gridScale=A["grid_standby_scale"]["high"]), PRICE),
+            ("retro1", "Sensitivity: the decided set with carbon-capture retrofits on existing plants at the research-based limits (scale 1)", dict(decided, retroScale=1.0), PRICE),
+            ("retro1_stack", "Sensitivity: retrofits at the research-based limits (scale 1), with 45Q paid on top of the carbon price avoided (stacking; memo 8)", dict(decided, retroScale=1.0, q45Stack=True), PRICE),
+            ("bld_75", "Named run for clean power's design test: the standby builder at 75% of a full grid program", dict(decided, gridScale=0.75), PRICE),
+            ("ces_cap20", "Named run for clean power's design test: the clean standard's payment cap at $20/MWh (2025 dollars; decided $40)", dict(decided, cesAcp=20.0), PRICE),
+            ("ces_cap60", "Named run for clean power's design test: the clean standard's payment cap at $60/MWh", dict(decided, cesAcp=60.0), PRICE),
+            ("retro_hi", "Sensitivity: the decided set with retrofits at design capture (90%) and twice the yearly rate and ceiling (scale 2)", dict(decided, retroScale=2.0, retroCapture=A["ccs_retrofit_capture"]["high"]), PRICE),
+            ("retro_hi_stack", "Sensitivity: retrofits at design capture and scale 2, with 45Q stacking on the carbon price (memo 8)", dict(decided, retroScale=2.0, retroCapture=A["ccs_retrofit_capture"]["high"], q45Stack=True), PRICE)]
     return L, opts
 
 
@@ -124,6 +144,14 @@ def config():
         out = dict(id=c, label=l, policy=p, price=pr)
         if k is not None:
             out["world"] = {"gpTx": 0.8 * k, "gpRecon": 15 * k, "gpCurt": 0.05 * k, "gpCost": 12 * k}
+        st, acp = p.pop("q45Stack", None), p.pop("cesAcp", None)
+        if st:
+            out.setdefault("world", {})["q45Stack"] = True
+        if acp is not None:
+            out.setdefault("world", {})["cesAcp"] = acp
+        r, rc = p.pop("retroScale", None), p.pop("retroCapture", None)
+        if r is not None:
+            out.setdefault("world", {})["retro"] = dict(retro(r), **({"capture": rc} if rc else {}))
         return out
     cases = [case(*x) for x in L + O]
     LP, _ = scenarios(permit=int(a("permit_year_sensitivity")))
