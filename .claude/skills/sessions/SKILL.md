@@ -123,6 +123,7 @@ For the reviewer, the lead starts the successor; the reviewer starts nothing.
 3. The lead creates a new recurring task with the same schedule, the prompt "Review pass: follow 'The review pass' in `.claude/skills/sessions/SKILL.md` on current main", and `persistent_session_id` set to the new reviewer, then disables the old task with `update_trigger` (`enabled: false`). Never delete it: `delete_trigger` also deletes every session the task started, which can include the old reviewer.
 4. The lead updates the Standing sessions table in its next board PR, adds the old reviewer to the "Former standing sessions" list (role, session ID, PRs reviewed, dates), and retitles the old reviewer "Project 2050: former reviewer, <PRs reviewed>, <first date> to <last date>" (for example "Project 2050: former reviewer, PRs #26 to #65, Oct 26 to Oct 30").
 5. Reviews already posted stay valid. The gate checks the reviewer's session ID line, not the title.
+6. **Outstanding change requests.** The gate clears a `changes-requested` verdict only with a later approval carrying the same `Reviewer:` ID. Before stepping down, the old reviewer approves each PR whose fix it has checked. For any still outstanding, the new reviewer, once the fix is in, posts its approval with the old reviewer's ID copied into the `Reviewer:` line and a line saying it approves as that reviewer's successor (`DEC-2026-11-14-05`). The lead lists such PRs in the successor's brief.
 
 ## The review pass
 
@@ -156,6 +157,7 @@ The lead is the one session that knows everything in motion, so a handover or a 
 - **One safety-net check-in every three hours** (`send_later`), for anything nobody reported: one batched look at the open PRs and `get_session` on each active session.
 - **At each event, a quick context check**: `get_session` on the sessions it touches, noting their state and context size, so handovers start before 600,000 tokens.
 - **Workers send three messages only**: `ready`, `blocked` and `done`. No progress reports.
+- **One merge queue, run by the lead** (`DEC-2026-11-14-04`). Open PRs merge one at a time, in an order the lead sets and keeps on the board. Workers commit locally and push only when the lead tells them it is their turn, so they don't knock each other's PRs out of date. After each merge the lead updates the next PR's branch once, then lets it merge.
 - **Keeping PRs current.** Tier-3 PRs fall behind main within minutes. Update a PR's branch with GitHub's update (or a merge of main), not a push of new content, so approvals and the label carry over; when the update tool refuses with a head mismatch, ask the PR's author. After Espen labels a PR, update its branch at once if it has fallen behind.
 - **Report a merge only on the closed event,** or a read showing `merged: true`, never on a gate comment saying "merging now".
 
