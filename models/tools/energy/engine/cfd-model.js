@@ -128,7 +128,8 @@ const CFD = (() => {
   const NB = 40;
   // Project 2050 M4: what a stored ton earns. By default the carbon price avoided or 45Q, whichever is larger (not both); with w.q45Stack
   // the owner keeps both, as current law allows unless the price's statute nets 45Q out of the fee credit (memo 8).
-  const capInc = (w, P, q) => w.q45Stack ? P + q : Math.max(P, q);
+  // q45Stack 'retro' stacks for retrofits only (a retrofit credit on top of the price), the larger of the two elsewhere.
+  const capInc = (w, P, q) => w.q45Stack === true ? P + q : Math.max(P, q), capIncR = (w, P, q) => w.q45Stack ? P + q : Math.max(P, q);
   function tranches(S, w, P, y) {
     const inc = capInc(w, P, y <= (S.q45End || 2035) + 12 ? w.q45 : 0); // capture incentive per stored ton (fee avoided or 45Q, not both); 45Q pays for 12 years
     const t = [];
@@ -148,16 +149,16 @@ const CFD = (() => {
     // Project 2050 M4: carbon capture retrofitted to existing coal and combined-cycle plants (world option retro; see retroEcon)
     const R = w.retro;
     if (R && (S.coalR || 0) > 0.01) { const hr = 10.5 * (1 + R.hrCoal), c = hr * EF.coal * R.capture;
-      t.push({ k: 'coalr', gw: S.coalR * 0.8, hr, ef: hr * EF.coal * (1 - R.capture), vc: hr * w.coalPower + w.coalVom + R.vomCoal + w.ts * c + P * hr * EF.coal - capInc(w, P, S.q45R || 0) * c + (1 - R.capture) * lam }); }
+      t.push({ k: 'coalr', gw: S.coalR * 0.8, hr, ef: hr * EF.coal * (1 - R.capture), vc: hr * w.coalPower + w.coalVom + R.vomCoal + w.ts * c + P * hr * EF.coal - capIncR(w, P, S.q45R || 0) * c + (1 - R.capture) * lam }); }
     if (R && (S.gasR || 0) > 0.01) { const hr = 7.0 * (1 + R.hrGas), c = hr * EF.gas * R.capture;
-      t.push({ k: 'ccr', gw: S.gasR * 0.87, hr, ef: hr * EF.gas * (1 - R.capture), vc: hr * w.gasPower + 2.1 + R.vomGas + w.ts * c + P * hr * EF.gas - capInc(w, P, S.q45R || 0) * c + (1 - R.capture) * lam }); }
+      t.push({ k: 'ccr', gw: S.gasR * 0.87, hr, ef: hr * EF.gas * (1 - R.capture), vc: hr * w.gasPower + 2.1 + R.vomGas + w.ts * c + P * hr * EF.gas - capIncR(w, P, S.q45R || 0) * c + (1 - R.capture) * lam }); }
     return t.sort((a, b) => a.vc - b.vc);
   }
   // retrofit economics: net gain per MWh from fitting capture to a coal (hr0 10.5) or combined-cycle (hr0 7.0) unit, against its annualized
   // cost per MWh at a 70% capacity factor. Each captured ton earns the carbon price avoided or 45Q, whichever is larger (not both), as the engine's new capture plants do
   function retroEcon(w, R, fuel, Pe, q45) {
     const coal = fuel === 'coal', hr0 = coal ? 10.5 : 7.0, ef = coal ? EF.coal : EF.gas, pen = coal ? R.hrCoal : R.hrGas, hr = hr0 * (1 + pen), c = hr * ef * R.capture;
-    const gain = Pe * hr0 * ef - (Pe * hr * ef - capInc(w, Pe, q45) * c) - (hr - hr0) * (coal ? w.coalPower : w.gasPower) - (coal ? R.vomCoal : R.vomGas) - w.ts * c;
+    const gain = Pe * hr0 * ef - (Pe * hr * ef - capIncR(w, Pe, q45) * c) - (hr - hr0) * (coal ? w.coalPower : w.gasPower) - (coal ? R.vomCoal : R.vomGas) - w.ts * c;
     const fixed = ((coal ? R.capexCoal : R.capexGas) * w.fcr + (coal ? R.fomCoal : R.fomGas)) / (0.7 * 8.76);
     return gain - fixed;
   }
@@ -337,7 +338,7 @@ const CFD = (() => {
       // 45Q on the other stored tons (new gas plants with capture, industrial capture), $bn: claimed where it beats the price faced, or always if it
       // stacks. Reported only (q45Other), as the ledger books current-law 45Q outside this model.
       const q45P = y <= S.q45End + 12 ? w.q45 : 0, q45I = y <= S.q45End ? w.q45 : 0, Pind = SP.industry > 0 ? P : 0;
-      const q45Other = (((w.q45Stack || q45P > P) ? (d.gen.ccs || 0) * 7.124 * EF.gas * 0.9 * q45P : 0) + ((w.q45Stack || q45I > Pind) ? stored * q45I : 0)) / 1000;
+      const q45Other = (((w.q45Stack === true || q45P > P) ? (d.gen.ccs || 0) * 7.124 * EF.gas * 0.9 * q45P : 0) + ((w.q45Stack === true || q45I > Pind) ? stored * q45I : 0)) / 1000;
       const capR = w.retro ? w.retro.capture : 0.9, fossG = (d.gen.coal || 0) + (d.gen.cc || 0) + (d.gen.ct || 0) + 0.1 * (d.gen.ccs || 0) + (1 - capR) * ((d.gen.coalr || 0) + (d.gen.ccr || 0)), cleanShare = 1 - fossG / G;
       if (pol.ces && y === pol.ces.start - 1) cesBase = cleanShare;
       const cesTgt = pol.ces && y >= pol.ces.start ? clampT(y) : null, cesAcpBn = cesTgt !== null && (S.cesL || 0) >= w.cesAcp - 1e-6 ? Math.max(0, cesTgt - cleanShare) * G * w.cesAcp / 1000 : 0;
@@ -446,7 +447,7 @@ const CFD = (() => {
       // Project 2050 M4: capture retrofits. Each year, where the expected carbon price or 45Q covers the cost (retroEcon), owners start
       // (from the year `start`) retrofits on coal units still running (coal first, up to coalElig) and then on combined cycles, at most rate GW a year and cap GW
       // in all (both times scale); a retrofit comes online lead years later, derated, and earns 45Q for 12 years if it started by q45End - 3.
-      if (w.retro && y >= w.retro.start) { const R = w.retro, room = Math.max(0, R.cap * R.scale - retroStarted), q45ok = y <= S.q45End - 3, q45 = q45ok ? w.q45 : 0;
+      if (w.retro && y >= w.retro.start) { const R = w.retro, room = Math.max(0, R.cap * R.scale - retroStarted), q45ok = y <= (R.q45By || S.q45End - 3), q45 = q45ok ? w.q45 : 0;
         let budget = Math.min(R.rate * R.scale, room);
         const coalLeft = Math.max(0, Math.min(S.coal - retroQ.reduce((a, c) => a + c.coal, 0), R.coalElig - retroCoalStarted)) * (retroOK ? 1 : 0);
         const sc = budget > 0 && retroEcon(w, R, 'coal', Pe, q45) > 0 ? Math.min(budget, coalLeft) : 0; budget -= sc;
