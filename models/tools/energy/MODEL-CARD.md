@@ -120,6 +120,16 @@ It cannot answer, by design (`survey.md`, 4.5):
 - **Clean power's dossier tools.** `dossiers/clean-power/tools/coverage_read.py` and `clean_power_path.py` stand in for this model's coverage run. They can read `results.json` instead.
 - **The climate pricing export's 25% offset** (#289) is rebuilt in a separate tier-3 PR, because its file's hash is pinned in `models/data/inputs/climate-adoption.json`.
 
+- **Design menu** (`menu.py`). One-off runs for testing designs. Start from any committed case (default: the decided set), then change any of:
+  - the price path (scaled, or a new start and growth rate);
+  - each sector's share of the price;
+  - the border adjustment, process emissions and the methane fee;
+  - the standby builder's strength;
+  - the clean standard's payment cap;
+  - retrofits and 45Q stacking.
+
+  It prints emissions, the 2040 clean share and price, cumulative CO2 and the FY2030-39 receipts and outlays beside the base case. A run is quoted only once it is a named case in `model.py` (and so in `results.json`). Tests check that the menu reproduces the decided set and the committed `bld_75` run.
+
 ## Run log
 
 `results.md` and `results.json` record the first 16 hex digits of the SHA-256 of every input file: the engine, the driver, this model's code and assumptions, the adopted inputs and the saved data. The same inputs give the same outputs, so the rebuild's drift check ties every published figure to its inputs.
