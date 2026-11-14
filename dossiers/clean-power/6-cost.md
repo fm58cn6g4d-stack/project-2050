@@ -51,7 +51,7 @@ Role: section 6 of the clean power dossier. It prices the provisions of `4-speci
 
 ### Memo 4 B: the second tranche and the builder of last resort
 
-- **The second tranche** ($40 billion of grants, $200 billion of loans, $40 billion of capacity contracts, CLI-10.01) at the first tranche's ratio of deficit cost to instruments (about $32 billion for $145 billion [EV-CLP-717]): **about $60 billion over FY2030-39**, released only on milestones, so none before FY2033 on the working path. Range **$0 to $80 billion**: zero if no milestone is met; the top end adds the builder's start-up.
+- **The second tranche** ($40 billion of grants, $200 billion of loans, $40 billion of capacity contracts, CLI-10.01) at the first tranche's ratio of deficit cost to instruments (about $32 billion for $145 billion [EV-CLP-717]): **about $60 billion over FY2030-39**, released only on milestones, so none before FY2033 on the working path. Range **$0 to $80 billion**: zero if no milestone is met; the top end adds the builder of last resort's start-up, which is small because the eastern corporation starts lean and grows only with the lines it takes on (`DEC-2026-11-13-10`); its lines are financed by its bonds and repaid from their rates (part 2).
 - **Time-limited capital** under the fiscal rule's investment envelope (D4-B), ending with the window like the first tranche: **zero in FY2040**.
 - **The public builders' borrowing** (CLI-10.02) is repaid from the lines' rates. How the budget counts it is in part 2.
 

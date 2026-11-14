@@ -44,8 +44,6 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 ## Open questions for Espen
 
-From the milestone review (`review-milestone.md`, "For Espen"; #344):
-1. **The builder of last resort.** Memo 4 B described "a federal transmission authority, on TVA's model"; the draft places it in WAPA's program, extended nationwide (CLI-10.03). The review compares that with TVA, Bonneville and WAPA in their own regions plus a TVA-style authority for the East only, recommends the second, and recommends leaving lines inside ERCOT off the list unless Texas agrees. CLI-10.03 is unchanged until Espen decides.
-2. **Tribal governments in the transition guarantee.** CLI-11.06 replaces lost county property tax; tribal nations that host plants and mines lose lease and royalty revenue instead. The review recommends extending the declining replacement to them. Not written until Espen decides.
+None open. Espen decided the milestone review's two questions (`review-milestone.md`, #344): the builder of last resort is TVA, Bonneville and WAPA in their own regions plus a lean TVA-style corporation for the East only, as a standby power that steps in quickly at competitive cost, with lines inside ERCOT only with Texas's agreement (`DEC-2026-11-13-10`); and the transition guarantee's tax-base replacement extends to tribal governments (`DEC-2026-11-13-11`). Both are in sections 4-9.
 
 Next: the booking (tier 3, the lead's), then a short L3 re-check.

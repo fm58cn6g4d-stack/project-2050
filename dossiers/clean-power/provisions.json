@@ -880,13 +880,13 @@
  },
  {
   "id": "CLI-10.03",
-  "title": "Public power as builder of last resort",
+  "title": "Public power as builder of last resort: a standby power that steps in quickly, at competitive cost",
   "agenda": "CLI-10",
-  "status": "decided, memo 4 part 1 B",
+  "status": "decided, memo 4 part 1 B; builders and role, `DEC-2026-11-13-10`",
   "decisions": [
    "DEC-2026-11-13-06"
   ],
-  "parameters": "DOE keeps a national-interest list of lines, drawn from its needs study and FERC-approved plans. If no regional builder files to build a listed line within two years, the federal builder builds it and recovers its cost through transmission rates: rates FERC approves, or, for a line inside ERCOT, where FERC has no rate jurisdiction, ERCOT's transmission cost-of-service charge that the Public Utility Commission of Texas approves for every transmission owner there. The builder is WAPA's Transmission Infrastructure Program, extended nationwide, with TVA and Bonneville building in their own regions: no new federal corporation (working choice, `DEC-2026-11-13-08`). WAPA's program can build, finance or partner on lines today but has mostly lent and partnered; the act funds and staffs it to build (`5-delivery.md`, part 2). It uses the existing federal siting backstops, not new eminent domain",
+  "parameters": "*The list.* DOE keeps a national-interest list of lines, drawn from its needs study and FERC-approved plans. *The trigger:* a listed line is open to the federal builder if no regional builder has filed to build it within one year of listing, or a filed project misses its construction start by more than a year (working choices). *The competitive-cost test:* DOE first offers the line in a competitive solicitation, to build and own or to build and transfer; the federal builder takes it only if no bid comes or none meets the test, and only if its own estimated cost of service (capital, financing at Treasury's rate, operation) is no higher than the best bid or the regulated estimate, which DOE certifies and publishes. It is not a standing builder everywhere: it acts where existing utilities and builders fail to act. *Who builds:* TVA in its service area; Bonneville in its area; WAPA under its Transmission Infrastructure Program, which already lets it construct lines with at least one terminus in its area [EV-CLP-465]; in the Eastern Interconnection outside TVA, a new federal transmission corporation on TVA's model, with a board, bond authority set in its charter (working choice: $10 billion to start, raised as lines are assigned) and rates under FERC. The corporation starts lean, a small staff that prepares solicitations and cost tests, and grows only with the lines it takes on, contracting their construction (working choice). *Texas:* lines wholly inside ERCOT are off the list unless Texas agrees with DOE to site them and recover their cost through the PUCT-approved transmission cost-of-service charge, because federal backstop siting does not apply in ERCOT [EV-CLP-271] and FERC sets no rates there; ties between ERCOT and its neighbors stay on the list, sited in Texas under Texas law. *Cost recovery* through rates FERC approves from the users of the line, as Bonneville's are. It uses the existing federal siting backstops outside ERCOT, not new eminent domain",
   "eligibility": "",
   "vehicle": [
    {
@@ -895,10 +895,13 @@
     "note": "the clean power and climate act (regular order)"
    }
   ],
-  "agency": "DOE (WAPA); TVA; Bonneville; FERC, or the Public Utility Commission of Texas for ERCOT",
+  "agency": "DOE (the list, the solicitation and the cost test); TVA; Bonneville; WAPA; the new eastern corporation; FERC",
   "current_law": "",
   "evidence": [
    "EV-CLP-421",
+   "EV-CLP-465",
+   "EV-CLP-271",
+   "EV-CLP-466",
    "EV-CLP-401",
    "EV-CLP-435"
   ],
@@ -1331,7 +1334,7 @@
   "decisions": [
    "DEC-2026-11-13-06"
   ],
-  "parameters": "A county, school district or other local taxing unit losing property tax from a closed covered facility gets a yearly payment equal to the lost tax in the first year after closure, falling by 10 points a year to zero after ten years, measured from the assessor's last roll before closure. Paid through Interior's payments-in-lieu-of-taxes office, which already pays counties each year (working choice, `DEC-2026-11-13-08`)",
+  "parameters": "A county, school district or other local taxing unit losing property tax from a closed covered facility gets a yearly payment equal to the lost tax in the first year after closure, falling by 10 points a year to zero after ten years, measured from the assessor's last roll before closure. *Tribal governments* (decided, `DEC-2026-11-13-11`): a tribal government losing lease, royalty or tribal tax revenue from a closed covered facility on or serving its lands gets the same declining payment, measured from its average revenue from the facility in the three years before closure, as shown in its lease and royalty records (working choice). Paid through Interior: the payments-in-lieu-of-taxes office for counties, which already pays them each year, and the Bureau of Indian Affairs, which already administers tribal leases and royalty records, for tribes (working choice, `DEC-2026-11-13-08`)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1340,12 +1343,13 @@
     "note": "FY2031 reconciliation act"
    }
   ],
-  "agency": "Interior (PILT office), for Treasury",
+  "agency": "Interior (PILT office; BIA for tribes), for Treasury",
   "current_law": "",
   "evidence": [
    "EV-CLP-513",
    "EV-CLP-514",
-   "EV-CLP-515"
+   "EV-CLP-515",
+   "EV-CLP-534"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1 (memo 7 B)",

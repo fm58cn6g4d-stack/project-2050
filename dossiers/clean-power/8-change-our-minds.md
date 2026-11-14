@@ -17,7 +17,7 @@ Role: section 8 of the clean power dossier. For each decided choice, the finding
 | | | The capped payment raising bills more than the bill protection returns | Lower the cap; Espen's |
 | | | The 2040 target missed by more than five points with suppliers at the cap (the carbon model expects about 9) | Put part of the payments into transmission, which is the limit; or move the 100% date; Espen's |
 | The finding and the numbers in statute | Memo 3 part 2 A | The D.C. Circuit restoring the 2009 finding before 2029 [EV-CLP-243] | Keep the statute; the restored finding is a floor, not a substitute |
-| The grid and the builder of last resort | Memo 4 part 1 B | The first two-year windows (about 2033) showing WAPA's program cannot build in the Eastern or Texas interconnections | A separate federal transmission corporation on TVA's model, as memo 4 first described it |
+| The grid and the builder of last resort | Memo 4 part 1 B; `DEC-2026-11-13-10` | The first windows (about 2032) showing the competitive-cost test lets no line reach the federal builder, or lets too many | Loosen or tighten the trigger and the test; the standby role stays |
 | | | The second tranche's milestones missed | The money stays unspent; that is the gate's purpose |
 | Permitting | Memo 4 part 2 A | The package's final text (after November 16, 2026) [EV-CLP-261] | Case 1 or case 2 as it stands; if it passed with the permit-certainty section narrowed already [EV-CLP-266], the amendment shrinks to the cap |
 | The automatic bill credit | Memo 5 B | The first winter's match reaching far fewer households than half of those eligible | Outreach at SNAP and SSI offices; not a new application |
@@ -68,5 +68,5 @@ Role: section 8 of the clean power dossier. For each decided choice, the finding
 | At the booking | The carbon model rerun for memo 1 B's coverage and the decided 100%-by-2040 path; the household model's D3 test with it | The receipts, the dividend, the standard's payments and part 4's distribution |
 | Winter 2030-31 | The first automatic bill credits | Memo 5's reach |
 | 2031 onward | The guarantee's yearly counts; the standard's first compliance year | CLI-11.05; CLI-3A.01 |
-| About 2033 | The first builder-of-last-resort windows close | CLI-10.03's delivery |
+| About 2032 | The first builder-of-last-resort windows close | CLI-10.03's delivery |
 | Each April, from 2030 | The national inventory (CLI-14.02) | Emissions against section 7, part 5 |

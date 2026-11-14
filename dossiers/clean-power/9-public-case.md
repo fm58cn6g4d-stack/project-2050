@@ -10,13 +10,13 @@ Project 2050's clean power plan does five things, starting in 2030.
 
 **Polluters pay, and every adult gets a Climate Dividend,** from 2030. Power plants and large factories pay for the carbon they put in the air, starting at $25 a ton in 2030 and reaching $150 by 2037 [EV-CLP-700]. There is no charge on your gas bill or at the pump. Most of the money comes back to every adult as the Climate Dividend, paid four times a year, tax-free, with the first payment going out before the price begins: on our estimates about $440 a person in 2035 (section 6). A border charge makes imported steel, cement and chemicals pay the same price, so American factories are not undercut.
 
-**Clean power built faster,** from 2030. Tax credits for clean power, heat pumps and electric cars come back in 2030 and step down on a fixed schedule as new rules take over: a clean electricity standard of 80% by 2035 and 100% by 2040, and vehicle standards written into law. The grid gets public money and, where no one else will build a needed line, a public builder.
+**Clean power built faster,** from 2030. Tax credits for clean power, heat pumps and electric cars come back in 2030 and step down on a fixed schedule as new rules take over: a clean electricity standard of 80% by 2035 and 100% by 2040, and vehicle standards written into law. The grid gets public money and, where no one else will build a needed line, a public builder that steps in quickly and only at a competitive cost.
 
 **Help with bills that comes to you,** from winter 2030-31. A household already getting SNAP, SSI or energy help gets a credit on its energy bill each year, with no new application. Cooling counts as much as heating.
 
 **Ready for disasters,** from 2030. Money for every state and tribe to prepare, help with insurance costs for lower-income homeowners, and a federal backstop for insurers in a catastrophic year, for states that adopt modern building codes.
 
-**A guarantee for workers and towns,** for closures from 2030. A worker who loses a job when a coal mine, a power plant or a refinery closes keeps up to 90% of their old hourly pay for two years in a new job, or 90% of their old pay while training. Workers 55 and older can draw their pension in full. Towns get their lost property tax replaced, falling over ten years.
+**A guarantee for workers and towns,** for closures from 2030. A worker who loses a job when a coal mine, a power plant or a refinery closes keeps up to 90% of their old hourly pay for two years in a new job, or 90% of their old pay while training. Workers 55 and older can draw their pension in full. Towns, and tribal nations that host plants and mines, get their lost tax or royalty revenue replaced, falling over ten years.
 
 **What it costs, on our estimates.** About $1.85 trillion over 2030-39 on the federal budget, close to what the budget already carries for these purposes, and about $147 billion a year from 2040, before the plan's financing (section 6). The worker guarantee is about $12 billion of that over ten years.
 
@@ -76,7 +76,8 @@ Americans are paying more for power, more for insurance and more after every sto
 | Solar and wind cheaper than new gas | $40-98 and $37-99 against $51-129 a megawatt-hour | 2 (memo 2) | EV-CLP-456, EV-CLP-457 |
 | Clean investment in Republican districts | 77% | 2 | EV-CLP-208 |
 | Coal workers' lost earnings | about 1.6 years of wages | 1, 7 | EV-CLP-516 |
-| Guarantee | 90% for two years; pension at 55; tax base over ten years | 4 (CLI-11.02, .04, .06) | Decided, `DEC-2026-11-13-06` |
+| Guarantee | 90% for two years; pension at 55; tax base, and tribal revenue, over ten years | 4 (CLI-11.02, .04, .06) | Decided, `DEC-2026-11-13-06`, `-11` |
+| A public builder that steps in quickly, at a competitive cost | standby power | 4 (CLI-10.03) | Decided, `DEC-2026-11-13-10` |
 | Worked example | $26 job topped up to $36 an hour | 7, part 4 (the miner); 4, Part G (the rule) | 90% of $40, the guarantee's rule |
 | Rosebud County's tax base replaced, then 10 points less a year | full in year one, over ten years | 4 (CLI-11.06); 6, part 1 | Decided, `DEC-2026-11-13-06`; EV-CLP-514 |
 | Close to what the budget already carries | $1.85 trillion against $1.81 trillion booked | 6, part 1 | Project arithmetic |
