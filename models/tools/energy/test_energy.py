@@ -137,6 +137,17 @@ co2 = run.history.mer_series(run.history.MER_MONTHLY["co2"], "CLEIEUS")
 ok("HI-2: January 2021 coal power CO2 read from the saved EIA text (82.018 Mt)", co2[(2021, 1)] == 82.018)
 ok("HI-2 is reported and HI-1 scores every year", B["HI-2"]["result"] == "reported" and "leaving out" in B["HI-1"]["model"], B["HI-1"]["model"])
 
+# --- carbon-capture retrofits (engine option retro): off in the plan's runs; traced inputs; the sensitivities behave
+ipm = open(os.path.join(data.TEXT, "m4-epa-ipm-2023-ch6-ccs-retrofit.txt"), encoding="utf-8").read()
+ok("retrofits: EPA's coal capital ($2,506/kW) and heat-rate penalty (44.25%) are in the saved IPM text", "2,506" in ipm and "44.25" in ipm)
+ok("retrofits: off in the decided set's runs (scale 0) and in the legacy reproduction", m.WORLD["retro"] is None and run.LEGACY_WORLD["retro"] is None)
+ok("retrofits: at the research-based limits none pays under the plan's price, so retro1 equals the decided set",
+   E["retro1"][2050]["retroStarted"] == 0 and abs(E["retro1"][2050]["ghgNet"] - E["decided"][2050]["ghgNet"]) < 1e-6)
+ok("retrofits: at design capture and twice the limits, gas retrofits come online by 2050 and capture CO2",
+   E["retro_hi"][2050]["retroGas"] > 0 and E["retro_hi"][2050]["retroCapt"] > 0, f"{E['retro_hi'][2050]['retroGas']:.0f} GW, {E['retro_hi'][2050]['retroCapt']:.0f} Mt")
+ok("retrofits: on EPS's terms the price-only run cuts more by 2035 than without them (EP-3)",
+   E["b_eps1_retro"][2035]["ghgNet"] < E["b_eps1"][2035]["ghgNet"])
+
 # --- Espen's EPS runs of the plan's settings (EP-1, EP-2)
 ep = data.eps_p2050()
 ok("EPS runs: both runs start at the current-policies 2025 total", ep["run1_price"][2025] == ep["run2_package"][2025] == data.eps_runs()["current_policies"][2025])
