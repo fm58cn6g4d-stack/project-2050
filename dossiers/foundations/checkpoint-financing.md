@@ -19,7 +19,7 @@ Role: the financing checkpoint at the end of stage E (`charter/PLAN.md`, section
    - Employers have to pass their premium savings into pay.
    - The rate creeps up about a quarter of a point a year if health spending keeps growing faster than incomes.
    - The revenue-mix half of the fairness test fails unless health's contributions are counted as replacing premiums.
-9. **After health**, about $70 billion a year is left in FY2040, plus about $1.9 trillion over FY2030-39, mostly before the plan reaches full scale. A small menu covers it (part C).
+9. **After health**, about $70 billion a year is left in FY2040, plus about $1.9 trillion over FY2030-39. A small menu covers it (part C).
 
 ## Part A. The plan-wide gap
 
@@ -244,7 +244,7 @@ Together they close health's FY2040 cost ($1,060B + $207B + $2,827B = $4,094B). 
 
 ## Part C. The rest of the gap after health
 
-**What remains.** With health financed as recommended, the FY2040 gap is about **$70 billion** (0.13% of GDP). Over FY2030-39 it is about **$1.89 trillion**, mostly the early years, when the recovery credit, child benefit and care costs run ahead of the revenue that phases in. The decade figure matters for the debt guardrail, not the FY2040 test.
+**What remains.** With health financed as recommended, the FY2040 gap is about **$70 billion** (0.13% of GDP). Over FY2030-39 it is about **$1.89 trillion**, spread across the decade at roughly $0.1 to $0.27 trillion a year (project arithmetic: the gap less health's booked rows, year by year), and it falls to the FY2040 figure as the booked income contributions phase in. The decade figure matters for the debt guardrail, not the FY2040 test.
 
 **Items dossiers sent the settlement** (each to price at stage G):
 - housing's FY2040 and FY2041 maturity gaps (`DEC-2026-11-09-09`, `DEC-2026-11-10-04`) and HOU-2D's revenue row;
