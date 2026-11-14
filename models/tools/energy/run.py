@@ -4,7 +4,7 @@ Usage (from the repository root):  python3 models/tools/energy/run.py [--out DIR
 DIR defaults to models/tools/energy/; run-all.sh writes to build/energy/ and compares with the committed copies.
 Outputs carry no dates: the run log is the hashes of every input, so the same inputs give the same files.
 """
-import argparse, csv, hashlib, json, os, re, sys
+import argparse, math, csv, hashlib, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -169,29 +169,42 @@ def benchmarks(E, ACC, HH):
         why="A shape test: the levels depend on the coverage and on the 20% that does not return as the dividend.")
     HW = {k: m.WORLD[k] for k in ("fuelSpread", "coalVom", "emCal")}
     H, H0 = history.run(HW), history.run({"fuelSpread": {"coal": 0, "gas": 0}})   # the second: the engine as it was, one national price
-    SHOCK = (2021, 2022)   # coal supply shortfall: low stockpiles, rail and mine limits (SRC-5062, SRC-5063)
+    SHOCK = (2021, 2022)   # coal supply shortfall: low stockpiles, rail and mine limits (SRC-5062, SRC-5063); flagged, scored
     for h, h0 in zip(H, H0):
         h["gap_pct_single_price"] = h0["gap_pct"]
         h["coal_supply_shock"] = h["year"] in SHOCK
-    test = [h for h in H if not h["coal_supply_shock"]]
-    mae = sum(abs(h["gap_pct"]) for h in test) / len(test)
-    mae0 = sum(abs(h["gap_pct_single_price"]) for h in H if not h["coal_supply_shock"]) / len(test)
-    worst = max(test, key=lambda h: abs(h["gap_pct"]))
-    mae_all = sum(abs(h["gap_pct"]) for h in H) / len(H)
-    oos = [h for h in test if h["year"] != 2025]          # 2025 is in-sample: the engine is calibrated to it
-    mae_out = sum(abs(h["gap_pct"]) for h in oos) / len(oos)
-    low = sum(h["gap_pct"] < 0 for h in oos)
+    mae = sum(abs(h["gap_pct"]) for h in H) / len(H)
+    mae0 = sum(abs(h["gap_pct_single_price"]) for h in H) / len(H)
+    worst = max(H, key=lambda h: abs(h["gap_pct"]))
+    rest = [h for h in H if not h["coal_supply_shock"]]
+    mae_rest = sum(abs(h["gap_pct"]) for h in rest) / len(rest)
     sp0 = data.fuel_spread()
-    test_mae = sum(abs(h["gap_pct"]) for h in H if h["year"] >= 2023) / len([h for h in H if h["year"] >= 2023])
-    H1 = history.run({"fuelSpread": sp0, "coalVom": 5.07, "emCal": 1.002})   # the measured spread alone, recalibrated to 2025 the same way
-    mae1 = sum(abs(h["gap_pct"]) for h in H1 if h["year"] not in SHOCK) / len(test)
+    # HI-2: month by month, 2019-2024
+    MO = history.monthly(HW)
+    fitrows = [r for r in MO if (r["year"], r["month"]) != (2021, 2)]          # February 2021: Winter Storm Uri, gas at $17
+    mo_mae = sum(abs(r["gap_pct"]) for r in fitrows) / len(fitrows)
+    clim = {}
+    for r in fitrows:
+        clim.setdefault(r["month"], []).append(r["coal_stock_mt"])
+    lr = [math.log(r["gas_coal_ratio"]) for r in fitrows]
+    deficit = [max(0.0, sum(clim[r["month"]]) / len(clim[r["month"]]) - r["coal_stock_mt"]) for r in fitrows]
+    gaps = [r["gap_pct"] for r in fitrows]
+    (_, b1), r2p = history.fit([lr], gaps)
+    (_, _, b2), r2b = history.fit([lr, deficit], gaps)
+    cheap = [r for r in fitrows if r["gas_coal_ratio"] < 1.2]
+    dear = [r for r in fitrows if r["gas_coal_ratio"] > 2.0]
+    avg = lambda rs: sum(r["gap_pct"] for r in rs) / len(rs)
     add(id="HI-1", what="History run, power sector: the engine's dispatch on each year's measured fleet, generation and fuel prices, 2015-2025, against EIA's measured coal and gas power CO2 (SRC-5052 to 5057)",
-        model=f"scored years: average gap {mae:.1f}% ({mae_out:.1f}% without 2025, the calibration year); largest {worst['gap_pct']:+.1f}% ({worst['year']}); all eleven years {mae_all:.1f}%; 2021 and 2022 {H[6]['gap_pct']:+.0f}% and {H[7]['gap_pct']:+.0f}%, not scored", target="EIA, Monthly Energy Review table 11.6",
-        tol="average absolute gap 5% or less, and every year within 10%, outside the 2021-22 coal shortage", result="pass (2021-22 excluded)" if mae <= 5 and abs(worst["gap_pct"]) <= 10 else "fail",
-        why=f"Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once: its average gap was {mae0:.1f}% in the scored years and {H0[6]['gap_pct']:+.0f}% in 2021. Plants pay different delivered prices by region, so the dispatch now splits each block of plants by the spread of fuel prices: EIA measures {sp0['coal']:.0%} of the average price for coal and {sp0['gas']:.0%} for gas across states, weighted by what each state's power plants buy (SRC-5058 to SRC-5061). That understates what plants act on (some states are withheld; contracts, plants that must run and differences within a state add to it), so the model uses {m.a('fuel_spread_mult'):.1f} times it, a labeled calibration: fitted to 2015-2020 and tested on 2023-2025 ({test_mae:.1f}% there), and the largest multiple that keeps coal's recalibrated running cost near the engine's sourced $4/MWh (assumptions.csv, fuel_spread_mult). With the measured spread alone the scored gap is {mae1:.1f}%. "
-            f"2021 and 2022 are shown but not scored: gas prices doubled, and coal plants could not run harder because coal was short (stockpiles 37% below their five-year average in September 2021; rail and mine limits through 2022; EIA, SRC-5062 and SRC-5063). The engine has no fuel-supply limit, so it still runs too much coal in those years. Counting every year, the average gap is {mae_all:.1f}%, which would fail. "
-            f"Of the {len(oos)} scored years other than 2025, {low} run low: the engine still burns too little coal and too much gas when gas is cheap, so it still switches toward gas too readily, if far less than before. A carbon price works through the same switch, so the engine's near-term power cut still leans high; EP-1 shows the same. The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built.")
-    out.append({"_history": H})
+        model=f"average gap {mae:.1f}%; largest {worst['gap_pct']:+.1f}% ({worst['year']}); {mae_rest:.1f}% leaving out 2021-22", target="EIA, Monthly Energy Review table 11.6",
+        tol="average absolute gap 5% or less, and every year within 10%", result="pass" if mae <= 5 and abs(worst["gap_pct"]) <= 10 else "fail",
+        why=f"Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once (average gap {mae0:.1f}%). The dispatch now splits each block of plants by the spread of fuel prices EIA measures across states ({sp0['coal']:.0%} of the average price for coal, {sp0['gas']:.0%} for gas; SRC-5058 to SRC-5061) times a labeled calibration of {m.a('fuel_spread_mult'):.1f} (assumptions.csv, fuel_spread_mult). That roughly halves the gap but does not close it. "
+            f"An earlier version left out 2021-22 for the coal shortage EIA documents (SRC-5062, SRC-5063). The monthly run (HI-2) does not support that: the same over-response appears, in the other direction, in months when stockpiles were full, and the stockpile adds nothing once prices are counted. So every year is scored, and the check fails. The engine still switches between coal and gas too readily when prices move; a carbon price works through the same switch, so its near-term power cut leans high (EP-1, EP-3). The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built.")
+    add(id="HI-2", what="History run by month, power sector, 2019-2024: the engine's dispatch on each month's measured generation and fuel prices (at an annual rate, on that year's fleet), against EIA's measured monthly coal and gas power CO2 (SRC-5057, SRC-5064 to SRC-5066)",
+        model=f"average monthly gap {mo_mae:.1f}%; {avg(cheap):+.1f}% in months with gas under 1.2 times coal's price ({len(cheap)} months), {avg(dear):+.1f}% with gas over 2 times ({len(dear)} months)",
+        target="EIA, Monthly Energy Review tables 7.2b, 9.9, 11.6 and 6.3", tol="reported (diagnostic)", result="reported",
+        why=f"The gap moves with the gas-to-coal price ratio: its logarithm alone explains {r2p:.0%} of the month-to-month gap ({b1:+.1f} points per unit). Adding the coal stockpile's shortfall from its usual level for the month leaves the fit at {r2b:.0%} ({b2:+.2f} points per million tons): once prices are counted, the 2021-22 shortage explains little, though the two moved together (stocks were lowest when gas was dearest), so annual data could not tell them apart. "
+            "So the engine's coal-gas switching is too strong in both directions, not only when coal was short. A test of one cause, coal bought under take-or-pay contracts (fuel cost sunk in the short run), improved the monthly fit from about 8% to 6% at a 30% contracted share, but the 2025 recalibration then put coal's running cost at $9-14/MWh, above published figures; it is not adopted until the contract evidence is in. February 2021 (Winter Storm Uri, gas at $17) is shown but left out of the fit.")
+    out.append({"_history": H, "_monthly": MO})
     return out
 
 
@@ -213,6 +226,7 @@ def main():
     layers, options = [c[0] for c in L], [c[0] for c in O] + ["cl_permit", "decided_permit"]
     B = benchmarks(E, ACC, R["households"])
     HIST = next(b["_history"] for b in B if "_history" in b)
+    MONTHLY = next(b["_monthly"] for b in B if "_history" in b)
     B = [b for b in B if "_history" not in b]
     D, cl = E["decided"], E["cl"]
     pct = lambda xs, q: sorted(xs)[min(len(xs) - 1, max(0, int(round(q * (len(xs) - 1)))))]
@@ -243,7 +257,7 @@ def main():
     files = ["models/tools/energy/engine/cfd-model.js", "models/tools/energy/engine/cfd-households.js", "models/tools/carbon/cfd-cex-2024.json", "models/tools/energy/engine.js", "models/tools/energy/model.py",
              "models/tools/energy/run.py", "models/tools/energy/data.py", "models/tools/energy/assumptions.csv", "models/data/inputs/carbon-parameters.csv",
              "models/data/inputs/excise-offset.csv", "models/tools/transportation/moving_america.py", "models/data/energy/eps-us-4.0.7-runs-2026-11-13.csv",
-             "models/data/energy/eps-us-4.0.7-runs-2026-11-13-p2050.csv", "models/data/energy/eps-us-4.0.7-generation-2026-11-13.csv", "models/tools/energy/history.py", "models/tools/energy/history.js"] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for f, _ in history.SRC.values()] + ["library/text/m4-eia-mer-t11-06-power-co2.txt"] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for pair in data.FUEL_SPREAD_SRC.values() for f in pair] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for f, _ in data.AEO.values()]
+             "models/data/energy/eps-us-4.0.7-runs-2026-11-13-p2050.csv", "models/data/energy/eps-us-4.0.7-generation-2026-11-13.csv", "models/tools/energy/history.py", "models/tools/energy/history.js"] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for f, _ in history.SRC.values()] + ["library/text/m4-eia-mer-t11-06-power-co2.txt"] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for pair in data.FUEL_SPREAD_SRC.values() for f in pair] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for f in history.MER_MONTHLY.values()] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for f, _ in data.AEO.values()]
     res = {
         "model": "MOD-energy", "status": "working",
         "run": {"inputs_sha256_16": {f: sha(os.path.join(ROOT, f)) for f in files}, "offset_rate": m.OFFSET, "inflation": m.P["inflation"],
@@ -262,6 +276,7 @@ def main():
                       "avoided_co2_2030_2050_gt": round(avoid_co2 / 1000, 2), "warming_avoided_c": [round(avoid_co2 / 1e6 * t, 4) for t in TCRE]},
         "weather_2025": data.weather_2025(),
         "history_power": HIST,
+        "history_power_monthly": MONTHLY,
         "benchmarks": B,
     }
     os.makedirs(args.out, exist_ok=True)
@@ -358,9 +373,14 @@ def report(res, E, ACC, layers, options, labels):
     w("| Year | Model CO2 | Measured CO2 | Gap | Gap with one national fuel price | Coal, model / measured | Gas, model / measured |")
     w("| --- | --- | --- | --- | --- | --- | --- |")
     for h in res["history_power"]:
-        yr = f"{h['year']} (coal shortage, not scored)" if h["coal_supply_shock"] else str(h["year"])
+        yr = f"{h['year']} (coal shortage)" if h["coal_supply_shock"] else str(h["year"])
         w(f"| {yr} | {h['model_co2']:,.0f} | {h['measured_co2']:,.0f} | {h['gap_pct']:+.1f}% | {h['gap_pct_single_price']:+.1f}% | {h['model_coal_twh']:,.0f} / {h['measured_coal_twh']:,.0f} | {h['model_gas_twh']:,.0f} / {h['measured_gas_twh']:,.0f} |")
     cp, ep = data.eps_runs()["current_policies"], data.eps_p2050()
+    w("\n**HI-2, month by month** (gap between the engine's and EIA's measured coal and gas power CO2, %; the gas-to-coal price ratio in brackets):\n")
+    w("| Year | " + " | ".join(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]) + " |")
+    w("| --- |" + " --- |" * 12)
+    for y in sorted({r["year"] for r in res["history_power_monthly"]}):
+        w(f"| {y} | " + " | ".join(f"{r['gap_pct']:+.0f} ({r['gas_coal_ratio']:.1f})" for r in res["history_power_monthly"] if r["year"] == y) + " |")
     w("\n**EP-1 and EP-2, the curves** (net greenhouse gases, Mt CO2e, land use included as each model books it). Espen's EPS runs of the plan's settings (EPS 4.0.7, 2026-11-13) beside this engine's runs of the same settings; each model's cut is against its own current-policy run, since the two models start from different totals:\n")
     w("| Year | EPS current policies | EPS run 1, price | EPS run 2, package | Engine current policies | Engine, price | Engine, package | Cut, price: EPS / engine | Cut, package: EPS / engine |")
     w("| --- | --- | --- | --- | --- | --- | --- | --- | --- |")

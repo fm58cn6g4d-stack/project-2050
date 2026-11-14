@@ -150,7 +150,8 @@ Against 2029 current law, the decided set avoids about 28,164 Mt CO2e over 2030-
 | BK-1 | The legacy run reproduced: the decided legacy package through this model's driver, REV-C1 receipts FY2030-39 | $1.996T | legacy/index/climate-carbon-model.md: $2.00T (SRC-0056) | within 0.5% (the legacy figure is rounded) | **pass** |
 | BK-2 | Memo 1 B's arithmetic against a run: the carbon price's receipts FY2030-39 and the dividend per adult in 2035 | $1.19T; $405 | memo 1 B (proportional estimate on the legacy model): about $1.2T; about $430 an adult | within 10% | **pass** |
 | DI-1 | Who comes out ahead in 2035 on the carbon channel (dividend less costs, by income fifth) | Lowest 20 percent +97, Second 20 percent +81, Third 20 percent +6, Fourth 20 percent -184, Highest 20 percent -824 | Treasury, TPC and RFF: lower fifths ahead, top behind with a per-adult rebate (SRC-4615, SRC-5035, SRC-4620) | bottom two fifths ahead, top fifth behind | **pass (shape)** |
-| HI-1 | History run, power sector: the engine's dispatch on each year's measured fleet, generation and fuel prices, 2015-2025, against EIA's measured coal and gas power CO2 (SRC-5052 to 5057) | scored years: average gap 4.3% (4.8% without 2025, the calibration year); largest -9.2% (2016); all eleven years 5.7%; 2021 and 2022 +12% and +12%, not scored | EIA, Monthly Energy Review table 11.6 | average absolute gap 5% or less, and every year within 10%, outside the 2021-22 coal shortage | **pass (2021-22 excluded)** |
+| HI-1 | History run, power sector: the engine's dispatch on each year's measured fleet, generation and fuel prices, 2015-2025, against EIA's measured coal and gas power CO2 (SRC-5052 to 5057) | average gap 5.7%; largest +12.2% (2022); 4.3% leaving out 2021-22 | EIA, Monthly Energy Review table 11.6 | average absolute gap 5% or less, and every year within 10% | **fail** |
+| HI-2 | History run by month, power sector, 2019-2024: the engine's dispatch on each month's measured generation and fuel prices (at an annual rate, on that year's fleet), against EIA's measured monthly coal and gas power CO2 (SRC-5057, SRC-5064 to SRC-5066) | average monthly gap 8.0%; -11.4% in months with gas under 1.2 times coal's price (21 months), +7.4% with gas over 2 times (19 months) | EIA, Monthly Energy Review tables 7.2b, 9.9, 11.6 and 6.3 | reported (diagnostic) | **reported** |
 
 **HI-1, year by year** (power-sector CO2 from coal and gas, Mt; generation, TWh):
 
@@ -162,11 +163,22 @@ Against 2029 current law, the decided set avoids about 28,164 Mt CO2e over 2030-
 | 2018 | 1,696 | 1,731 | -2.0% | +3.4% | 1,089 / 1,150 | 1,532 / 1,472 |
 | 2019 | 1,542 | 1,590 | -3.1% | -8.3% | 872 / 965 | 1,681 / 1,588 |
 | 2020 | 1,356 | 1,423 | -4.7% | -8.5% | 665 / 773 | 1,735 / 1,627 |
-| 2021 (coal shortage, not scored) | 1,698 | 1,523 | +11.5% | +19.0% | 1,186 / 898 | 1,291 / 1,579 |
-| 2022 (coal shortage, not scored) | 1,695 | 1,510 | +12.2% | +16.8% | 1,140 / 832 | 1,378 / 1,687 |
+| 2021 (coal shortage) | 1,698 | 1,523 | +11.5% | +19.0% | 1,186 / 898 | 1,291 / 1,579 |
+| 2022 (coal shortage) | 1,695 | 1,510 | +12.2% | +16.8% | 1,140 / 832 | 1,378 / 1,687 |
 | 2023 | 1,378 | 1,400 | -1.5% | -6.8% | 634 / 675 | 1,847 / 1,806 |
 | 2024 | 1,330 | 1,407 | -5.5% | -8.6% | 513 / 652 | 2,009 / 1,870 |
 | 2025 | 1,462 | 1,462 | +0.0% | -1.9% | 732 / 735 | 1,814 / 1,811 |
+
+**HI-2, month by month** (gap between the engine's and EIA's measured coal and gas power CO2, %; the gas-to-coal price ratio in brackets):
+
+| Year | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2019 | -6 (1.9) | -5 (1.8) | -5 (1.7) | -7 (1.4) | -10 (1.3) | -10 (1.3) | -9 (1.3) | -8 (1.2) | -8 (1.3) | -9 (1.3) | -6 (1.5) | -3 (1.5) |
+| 2020 | -7 (1.4) | -8 (1.3) | -11 (1.1) | -12 (1.1) | -11 (1.1) | -12 (1.1) | -10 (1.1) | -9 (1.2) | -10 (1.2) | -7 (1.3) | -5 (1.6) | -4 (1.7) |
+| 2021 | -5 (1.7) | +9 (8.9) | -2 (1.7) | -3 (1.6) | -2 (1.7) | -3 (1.8) | -2 (2.0) | -2 (2.1) | +5 (2.5) | +14 (2.8) | +15 (2.8) | +13 (2.7) |
+| 2022 | +2 (3.0) | +5 (2.8) | +6 (2.4) | +12 (2.8) | +10 (3.4) | +7 (3.5) | +2 (3.0) | +5 (3.6) | +12 (3.2) | +11 (2.4) | +8 (2.3) | +8 (3.4) |
+| 2023 | +9 (2.7) | +2 (1.7) | -6 (1.3) | -12 (1.1) | -13 (1.0) | -12 (1.1) | -8 (1.2) | -8 (1.2) | -9 (1.1) | -11 (1.2) | -7 (1.4) | -5 (1.3) |
+| 2024 | +0 (2.0) | -9 (1.2) | -14 (0.9) | -17 (0.8) | -14 (0.9) | -9 (1.1) | -9 (1.0) | -10 (0.9) | -11 (1.0) | -12 (1.1) | -12 (1.1) | -3 (1.6) |
 
 **EP-1 and EP-2, the curves** (net greenhouse gases, Mt CO2e, land use included as each model books it). Espen's EPS runs of the plan's settings (EPS 4.0.7, 2026-11-13) beside this engine's runs of the same settings; each model's cut is against its own current-policy run, since the two models start from different totals:
 
@@ -197,7 +209,8 @@ Against 2029 current law, the decided set avoids about 28,164 Mt CO2e over 2030-
 - **BK-1.** Shows the engine's new options default to the old behavior and the accounts read the engine as carbon-model.py does; the drift check on the legacy outputs shows the same from the other side.
 - **BK-2.** Memo 1 scaled the legacy model's receipts by power and industry's share; this runs the narrower price, so buildings and non-road fuel respond as unpriced sectors and industry pays on its covered share.
 - **DI-1.** A shape test: the levels depend on the coverage and on the 20% that does not return as the dividend.
-- **HI-1.** Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once: its average gap was 7.2% in the scored years and +19% in 2021. Plants pay different delivered prices by region, so the dispatch now splits each block of plants by the spread of fuel prices: EIA measures 30% of the average price for coal and 20% for gas across states, weighted by what each state's power plants buy (SRC-5058 to SRC-5061). That understates what plants act on (some states are withheld; contracts, plants that must run and differences within a state add to it), so the model uses 1.5 times it, a labeled calibration: fitted to 2015-2020 and tested on 2023-2025 (2.4% there), and the largest multiple that keeps coal's recalibrated running cost near the engine's sourced $4/MWh (assumptions.csv, fuel_spread_mult). With the measured spread alone the scored gap is 5.6%. 2021 and 2022 are shown but not scored: gas prices doubled, and coal plants could not run harder because coal was short (stockpiles 37% below their five-year average in September 2021; rail and mine limits through 2022; EIA, SRC-5062 and SRC-5063). The engine has no fuel-supply limit, so it still runs too much coal in those years. Counting every year, the average gap is 5.7%, which would fail. Of the 8 scored years other than 2025, 8 run low: the engine still burns too little coal and too much gas when gas is cheap, so it still switches toward gas too readily, if far less than before. A carbon price works through the same switch, so the engine's near-term power cut still leans high; EP-1 shows the same. The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built.
+- **HI-1.** Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once (average gap 9.1%). The dispatch now splits each block of plants by the spread of fuel prices EIA measures across states (30% of the average price for coal, 20% for gas; SRC-5058 to SRC-5061) times a labeled calibration of 1.5 (assumptions.csv, fuel_spread_mult). That roughly halves the gap but does not close it. An earlier version left out 2021-22 for the coal shortage EIA documents (SRC-5062, SRC-5063). The monthly run (HI-2) does not support that: the same over-response appears, in the other direction, in months when stockpiles were full, and the stockpile adds nothing once prices are counted. So every year is scored, and the check fails. The engine still switches between coal and gas too readily when prices move; a carbon price works through the same switch, so its near-term power cut leans high (EP-1, EP-3). The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built.
+- **HI-2.** The gap moves with the gas-to-coal price ratio: its logarithm alone explains 87% of the month-to-month gap (+18.7 points per unit). Adding the coal stockpile's shortfall from its usual level for the month leaves the fit at 87% (+0.07 points per million tons): once prices are counted, the 2021-22 shortage explains little, though the two moved together (stocks were lowest when gas was dearest), so annual data could not tell them apart. So the engine's coal-gas switching is too strong in both directions, not only when coal was short. A test of one cause, coal bought under take-or-pay contracts (fuel cost sunk in the short run), improved the monthly fit from about 8% to 6% at a 30% contracted share, but the 2025 recalibration then put coal's running cost at $9-14/MWh, above published figures; it is not adopted until the contract evidence is in. February 2021 (Winter Storm Uri, gas at $17) is shown but left out of the fit.
 
 ## Run log
 
@@ -214,6 +227,9 @@ Offset rate 0.244, inflation 0.022; calendar year y booked as fiscal year y; nom
 - `library/text/m4-eia-epm-table-4_13_b-gas-cost-by-state.txt`: `eb140c1582936dd1`
 - `library/text/m4-eia-epm-table-4_6_b-coal-receipts-by-state.txt`: `225d6b1f80b80901`
 - `library/text/m4-eia-epm-table-4_9_b-gas-receipts-by-state.txt`: `c50cdac9581d79fd`
+- `library/text/m4-eia-mer-t06-03-coal-stocks.txt`: `5b13fe7d3f007daf`
+- `library/text/m4-eia-mer-t07-02b-generation-power-sector.txt`: `cf9e0d6a94af972d`
+- `library/text/m4-eia-mer-t09-09-fossil-fuel-cost-power-plants.txt`: `88cd72c02bb77919`
 - `library/text/m4-eia-mer-t11-06-power-co2.txt`: `b51f9974277efa92`
 - `models/data/energy/eps-us-4.0.7-generation-2026-11-13.csv`: `26b86066c6f03aa0`
 - `models/data/energy/eps-us-4.0.7-runs-2026-11-13-p2050.csv`: `5566e5a36269c546`
@@ -227,7 +243,7 @@ Offset rate 0.244, inflation 0.022; calendar year y booked as fiscal year y; nom
 - `models/tools/energy/engine/cfd-households.js`: `cf0b0d33ac3e8213`
 - `models/tools/energy/engine/cfd-model.js`: `8039785a3d4415b8`
 - `models/tools/energy/history.js`: `4882d3c65521f29e`
-- `models/tools/energy/history.py`: `11f940610afd8126`
+- `models/tools/energy/history.py`: `32e9e95c04e0f779`
 - `models/tools/energy/model.py`: `513064417db9dffd`
-- `models/tools/energy/run.py`: `135aa4177fc17e7d`
+- `models/tools/energy/run.py`: `647d861d3fa3fb40`
 - `models/tools/transportation/moving_america.py`: `3cc781a2a1312dbb`

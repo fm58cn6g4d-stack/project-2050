@@ -130,6 +130,13 @@ console.log(JSON.stringify(rows.filter(r => r.year >= 2030).map(r => r.retail)))
     json.dumps({k: m.WORLD[k] for k in ("fuelSpread", "coalVom", "emCal", "crPhase", "crPowSched", "retailNetCredits", "retailAcp")})], capture_output=True, text=True).stdout)
 ok("retail price moves under 0.75 cents in any one year (no credit cliff)", max(abs(b - a) for a, b in zip(ret, ret[1:])) < 0.75, f"largest step {max(abs(b - a) for a, b in zip(ret, ret[1:])):.2f}")
 
+# --- HI-2, the monthly history run
+MO = run.history.monthly({k: m.WORLD[k] for k in ("fuelSpread", "coalVom", "emCal")})
+ok("HI-2: 72 months, 2019-2024, each with measured CO2 and prices", len(MO) == 72 and all(r["measured_co2"] > 0 and r["gas_coal_ratio"] > 0 for r in MO))
+co2 = run.history.mer_series(run.history.MER_MONTHLY["co2"], "CLEIEUS")
+ok("HI-2: January 2021 coal power CO2 read from the saved EIA text (82.018 Mt)", co2[(2021, 1)] == 82.018)
+ok("HI-2 is reported and HI-1 scores every year", B["HI-2"]["result"] == "reported" and "leaving out" in B["HI-1"]["model"], B["HI-1"]["model"])
+
 # --- Espen's EPS runs of the plan's settings (EP-1, EP-2)
 ep = data.eps_p2050()
 ok("EPS runs: both runs start at the current-policies 2025 total", ep["run1_price"][2025] == ep["run2_package"][2025] == data.eps_runs()["current_policies"][2025])

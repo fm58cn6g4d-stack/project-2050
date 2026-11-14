@@ -155,12 +155,21 @@
   },
   {
    "id": "HI-1",
-   "model": "scored years: average gap 4.3% (4.8% without 2025, the calibration year); largest -9.2% (2016); all eleven years 5.7%; 2021 and 2022 +12% and +12%, not scored",
-   "result": "pass (2021-22 excluded)",
+   "model": "average gap 5.7%; largest +12.2% (2022); 4.3% leaving out 2021-22",
+   "result": "fail",
    "target": "EIA, Monthly Energy Review table 11.6",
-   "tol": "average absolute gap 5% or less, and every year within 10%, outside the 2021-22 coal shortage",
+   "tol": "average absolute gap 5% or less, and every year within 10%",
    "what": "History run, power sector: the engine's dispatch on each year's measured fleet, generation and fuel prices, 2015-2025, against EIA's measured coal and gas power CO2 (SRC-5052 to 5057)",
-   "why": "Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once: its average gap was 7.2% in the scored years and +19% in 2021. Plants pay different delivered prices by region, so the dispatch now splits each block of plants by the spread of fuel prices: EIA measures 30% of the average price for coal and 20% for gas across states, weighted by what each state's power plants buy (SRC-5058 to SRC-5061). That understates what plants act on (some states are withheld; contracts, plants that must run and differences within a state add to it), so the model uses 1.5 times it, a labeled calibration: fitted to 2015-2020 and tested on 2023-2025 (2.4% there), and the largest multiple that keeps coal's recalibrated running cost near the engine's sourced $4/MWh (assumptions.csv, fuel_spread_mult). With the measured spread alone the scored gap is 5.6%. 2021 and 2022 are shown but not scored: gas prices doubled, and coal plants could not run harder because coal was short (stockpiles 37% below their five-year average in September 2021; rail and mine limits through 2022; EIA, SRC-5062 and SRC-5063). The engine has no fuel-supply limit, so it still runs too much coal in those years. Counting every year, the average gap is 5.7%, which would fail. Of the 8 scored years other than 2025, 8 run low: the engine still burns too little coal and too much gas when gas is cheap, so it still switches toward gas too readily, if far less than before. A carbon price works through the same switch, so the engine's near-term power cut still leans high; EP-1 shows the same. The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built."
+   "why": "Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once (average gap 9.1%). The dispatch now splits each block of plants by the spread of fuel prices EIA measures across states (30% of the average price for coal, 20% for gas; SRC-5058 to SRC-5061) times a labeled calibration of 1.5 (assumptions.csv, fuel_spread_mult). That roughly halves the gap but does not close it. An earlier version left out 2021-22 for the coal shortage EIA documents (SRC-5062, SRC-5063). The monthly run (HI-2) does not support that: the same over-response appears, in the other direction, in months when stockpiles were full, and the stockpile adds nothing once prices are counted. So every year is scored, and the check fails. The engine still switches between coal and gas too readily when prices move; a carbon price works through the same switch, so its near-term power cut leans high (EP-1, EP-3). The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built."
+  },
+  {
+   "id": "HI-2",
+   "model": "average monthly gap 8.0%; -11.4% in months with gas under 1.2 times coal's price (21 months), +7.4% with gas over 2 times (19 months)",
+   "result": "reported",
+   "target": "EIA, Monthly Energy Review tables 7.2b, 9.9, 11.6 and 6.3",
+   "tol": "reported (diagnostic)",
+   "what": "History run by month, power sector, 2019-2024: the engine's dispatch on each month's measured generation and fuel prices (at an annual rate, on that year's fleet), against EIA's measured monthly coal and gas power CO2 (SRC-5057, SRC-5064 to SRC-5066)",
+   "why": "The gap moves with the gas-to-coal price ratio: its logarithm alone explains 87% of the month-to-month gap (+18.7 points per unit). Adding the coal stockpile's shortfall from its usual level for the month leaves the fit at 87% (+0.07 points per million tons): once prices are counted, the 2021-22 shortage explains little, though the two moved together (stocks were lowest when gas was dearest), so annual data could not tell them apart. So the engine's coal-gas switching is too strong in both directions, not only when coal was short. A test of one cause, coal bought under take-or-pay contracts (fuel cost sunk in the short run), improved the monthly fit from about 8% to 6% at a 30% contracted share, but the 2025 recalibration then put coal's running cost at $9-14/MWh, above published figures; it is not adopted until the contract evidence is in. February 2021 (Winter Storm Uri, gas at $17) is shown but left out of the fit."
   }
  ],
  "history_power": [
@@ -295,6 +304,656 @@
    "model_coal_twh": 732.1,
    "model_gas_twh": 1813.8,
    "year": 2025
+  }
+ ],
+ "history_power_monthly": [
+  {
+   "coal_stock_mt": 99.1,
+   "gap_pct": -5.57,
+   "gas_coal_ratio": 1.905,
+   "measured_co2": 147.56,
+   "model_co2": 139.34,
+   "month": 1,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 98.6,
+   "gap_pct": -4.71,
+   "gas_coal_ratio": 1.754,
+   "measured_co2": 124.19,
+   "model_co2": 118.34,
+   "month": 2,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 96.9,
+   "gap_pct": -5.39,
+   "gas_coal_ratio": 1.663,
+   "measured_co2": 124.18,
+   "model_co2": 117.49,
+   "month": 3,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 108.1,
+   "gap_pct": -7.3,
+   "gas_coal_ratio": 1.396,
+   "measured_co2": 100.86,
+   "model_co2": 93.49,
+   "month": 4,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 115.7,
+   "gap_pct": -10.49,
+   "gas_coal_ratio": 1.346,
+   "measured_co2": 118.07,
+   "model_co2": 105.68,
+   "month": 5,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 116.9,
+   "gap_pct": -10.04,
+   "gas_coal_ratio": 1.271,
+   "measured_co2": 134.18,
+   "model_co2": 120.71,
+   "month": 6,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 110.7,
+   "gap_pct": -8.98,
+   "gas_coal_ratio": 1.257,
+   "measured_co2": 169.65,
+   "model_co2": 154.41,
+   "month": 7,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 110.3,
+   "gap_pct": -8.43,
+   "gas_coal_ratio": 1.205,
+   "measured_co2": 164.59,
+   "model_co2": 150.71,
+   "month": 8,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 110.6,
+   "gap_pct": -7.82,
+   "gas_coal_ratio": 1.321,
+   "measured_co2": 144.43,
+   "model_co2": 133.14,
+   "month": 9,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 118.6,
+   "gap_pct": -8.53,
+   "gas_coal_ratio": 1.27,
+   "measured_co2": 118.99,
+   "model_co2": 108.84,
+   "month": 10,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 122.4,
+   "gap_pct": -6.48,
+   "gas_coal_ratio": 1.51,
+   "measured_co2": 120.61,
+   "model_co2": 112.8,
+   "month": 11,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 128.1,
+   "gap_pct": -2.72,
+   "gas_coal_ratio": 1.524,
+   "measured_co2": 123.09,
+   "model_co2": 119.75,
+   "month": 12,
+   "year": 2019
+  },
+  {
+   "coal_stock_mt": 134.1,
+   "gap_pct": -6.96,
+   "gas_coal_ratio": 1.351,
+   "measured_co2": 118.46,
+   "model_co2": 110.22,
+   "month": 1,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 139.1,
+   "gap_pct": -7.68,
+   "gas_coal_ratio": 1.263,
+   "measured_co2": 106.82,
+   "model_co2": 98.61,
+   "month": 2,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 145.0,
+   "gap_pct": -11.17,
+   "gas_coal_ratio": 1.109,
+   "measured_co2": 101.11,
+   "model_co2": 89.81,
+   "month": 3,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 151.5,
+   "gap_pct": -11.6,
+   "gas_coal_ratio": 1.094,
+   "measured_co2": 85.23,
+   "model_co2": 75.34,
+   "month": 4,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 153.7,
+   "gap_pct": -10.92,
+   "gas_coal_ratio": 1.148,
+   "measured_co2": 94.17,
+   "model_co2": 83.89,
+   "month": 5,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 149.9,
+   "gap_pct": -12.28,
+   "gas_coal_ratio": 1.068,
+   "measured_co2": 123.04,
+   "model_co2": 107.93,
+   "month": 6,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 137.1,
+   "gap_pct": -10.31,
+   "gas_coal_ratio": 1.079,
+   "measured_co2": 163.55,
+   "model_co2": 146.69,
+   "month": 7,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 128.3,
+   "gap_pct": -8.84,
+   "gas_coal_ratio": 1.242,
+   "measured_co2": 160.92,
+   "model_co2": 146.69,
+   "month": 8,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 127.9,
+   "gap_pct": -9.72,
+   "gas_coal_ratio": 1.247,
+   "measured_co2": 125.44,
+   "model_co2": 113.25,
+   "month": 9,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 132.1,
+   "gap_pct": -7.26,
+   "gas_coal_ratio": 1.309,
+   "measured_co2": 113.03,
+   "model_co2": 104.82,
+   "month": 10,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 134.5,
+   "gap_pct": -4.54,
+   "gas_coal_ratio": 1.565,
+   "measured_co2": 104.2,
+   "model_co2": 99.46,
+   "month": 11,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 131.4,
+   "gap_pct": -3.87,
+   "gas_coal_ratio": 1.651,
+   "measured_co2": 127.06,
+   "model_co2": 122.14,
+   "month": 12,
+   "year": 2020
+  },
+  {
+   "coal_stock_mt": 123.7,
+   "gap_pct": -5.37,
+   "gas_coal_ratio": 1.684,
+   "measured_co2": 129.2,
+   "model_co2": 122.27,
+   "month": 1,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 107.7,
+   "gap_pct": 9.47,
+   "gas_coal_ratio": 8.87,
+   "measured_co2": 129.85,
+   "model_co2": 142.14,
+   "month": 2,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 109.6,
+   "gap_pct": -2.1,
+   "gas_coal_ratio": 1.741,
+   "measured_co2": 103.13,
+   "model_co2": 100.97,
+   "month": 3,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 115.5,
+   "gap_pct": -2.65,
+   "gas_coal_ratio": 1.611,
+   "measured_co2": 96.08,
+   "model_co2": 93.53,
+   "month": 4,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 117.9,
+   "gap_pct": -2.43,
+   "gas_coal_ratio": 1.725,
+   "measured_co2": 109.09,
+   "model_co2": 106.44,
+   "month": 5,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 108.7,
+   "gap_pct": -2.85,
+   "gas_coal_ratio": 1.81,
+   "measured_co2": 146.43,
+   "model_co2": 142.25,
+   "month": 6,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 95.0,
+   "gap_pct": -2.48,
+   "gas_coal_ratio": 2.03,
+   "measured_co2": 169.88,
+   "model_co2": 165.67,
+   "month": 7,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 81.8,
+   "gap_pct": -1.65,
+   "gas_coal_ratio": 2.146,
+   "measured_co2": 170.97,
+   "model_co2": 168.15,
+   "month": 8,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 77.5,
+   "gap_pct": 4.96,
+   "gas_coal_ratio": 2.507,
+   "measured_co2": 134.49,
+   "model_co2": 141.17,
+   "month": 9,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 81.9,
+   "gap_pct": 13.82,
+   "gas_coal_ratio": 2.803,
+   "measured_co2": 115.86,
+   "model_co2": 131.87,
+   "month": 10,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 89.2,
+   "gap_pct": 15.33,
+   "gas_coal_ratio": 2.828,
+   "measured_co2": 107.01,
+   "model_co2": 123.41,
+   "month": 11,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 91.9,
+   "gap_pct": 12.93,
+   "gas_coal_ratio": 2.725,
+   "measured_co2": 110.76,
+   "model_co2": 125.09,
+   "month": 12,
+   "year": 2021
+  },
+  {
+   "coal_stock_mt": 84.5,
+   "gap_pct": 1.66,
+   "gas_coal_ratio": 2.982,
+   "measured_co2": 139.66,
+   "model_co2": 141.98,
+   "month": 1,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 81.0,
+   "gap_pct": 5.36,
+   "gas_coal_ratio": 2.765,
+   "measured_co2": 115.99,
+   "model_co2": 122.21,
+   "month": 2,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 86.1,
+   "gap_pct": 5.85,
+   "gas_coal_ratio": 2.372,
+   "measured_co2": 104.47,
+   "model_co2": 110.58,
+   "month": 3,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 90.7,
+   "gap_pct": 11.52,
+   "gas_coal_ratio": 2.849,
+   "measured_co2": 96.33,
+   "model_co2": 107.43,
+   "month": 4,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 92.7,
+   "gap_pct": 10.4,
+   "gas_coal_ratio": 3.395,
+   "measured_co2": 113.77,
+   "model_co2": 125.6,
+   "month": 5,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 86.9,
+   "gap_pct": 7.21,
+   "gas_coal_ratio": 3.453,
+   "measured_co2": 137.66,
+   "model_co2": 147.59,
+   "month": 6,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 79.2,
+   "gap_pct": 2.42,
+   "gas_coal_ratio": 3.049,
+   "measured_co2": 165.81,
+   "model_co2": 169.82,
+   "month": 7,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 75.6,
+   "gap_pct": 5.38,
+   "gas_coal_ratio": 3.586,
+   "measured_co2": 162.49,
+   "model_co2": 171.23,
+   "month": 8,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 79.4,
+   "gap_pct": 12.35,
+   "gas_coal_ratio": 3.247,
+   "measured_co2": 128.66,
+   "model_co2": 144.55,
+   "month": 9,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 87.3,
+   "gap_pct": 10.63,
+   "gas_coal_ratio": 2.358,
+   "measured_co2": 108.38,
+   "model_co2": 119.91,
+   "month": 10,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 93.2,
+   "gap_pct": 7.64,
+   "gas_coal_ratio": 2.302,
+   "measured_co2": 107.7,
+   "model_co2": 115.93,
+   "month": 11,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 88.9,
+   "gap_pct": 8.31,
+   "gas_coal_ratio": 3.366,
+   "measured_co2": 129.54,
+   "model_co2": 140.3,
+   "month": 12,
+   "year": 2022
+  },
+  {
+   "coal_stock_mt": 92.7,
+   "gap_pct": 8.79,
+   "gas_coal_ratio": 2.722,
+   "measured_co2": 116.33,
+   "model_co2": 126.56,
+   "month": 1,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 99.8,
+   "gap_pct": 2.28,
+   "gas_coal_ratio": 1.691,
+   "measured_co2": 95.5,
+   "model_co2": 97.67,
+   "month": 2,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 109.0,
+   "gap_pct": -5.72,
+   "gas_coal_ratio": 1.348,
+   "measured_co2": 102.64,
+   "model_co2": 96.77,
+   "month": 3,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 119.5,
+   "gap_pct": -11.93,
+   "gas_coal_ratio": 1.093,
+   "measured_co2": 88.07,
+   "model_co2": 77.57,
+   "month": 4,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 127.8,
+   "gap_pct": -12.56,
+   "gas_coal_ratio": 1.016,
+   "measured_co2": 99.63,
+   "model_co2": 87.12,
+   "month": 5,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 129.2,
+   "gap_pct": -11.8,
+   "gas_coal_ratio": 1.057,
+   "measured_co2": 124.37,
+   "model_co2": 109.69,
+   "month": 6,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 122.9,
+   "gap_pct": -8.1,
+   "gas_coal_ratio": 1.215,
+   "measured_co2": 160.12,
+   "model_co2": 147.16,
+   "month": 7,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 117.9,
+   "gap_pct": -8.21,
+   "gas_coal_ratio": 1.181,
+   "measured_co2": 159.01,
+   "model_co2": 145.95,
+   "month": 8,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 118.1,
+   "gap_pct": -9.14,
+   "gas_coal_ratio": 1.134,
+   "measured_co2": 126.77,
+   "model_co2": 115.18,
+   "month": 9,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 123.0,
+   "gap_pct": -11.26,
+   "gas_coal_ratio": 1.154,
+   "measured_co2": 108.45,
+   "model_co2": 96.24,
+   "month": 10,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 131.0,
+   "gap_pct": -7.14,
+   "gas_coal_ratio": 1.351,
+   "measured_co2": 105.55,
+   "model_co2": 98.01,
+   "month": 11,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 133.0,
+   "gap_pct": -5.26,
+   "gas_coal_ratio": 1.328,
+   "measured_co2": 113.11,
+   "model_co2": 107.15,
+   "month": 12,
+   "year": 2023
+  },
+  {
+   "coal_stock_mt": 123.9,
+   "gap_pct": 0.12,
+   "gas_coal_ratio": 1.96,
+   "measured_co2": 138.51,
+   "model_co2": 138.67,
+   "month": 1,
+   "year": 2024
+  },
+  {
+   "coal_stock_mt": 129.2,
+   "gap_pct": -9.27,
+   "gas_coal_ratio": 1.169,
+   "measured_co2": 96.63,
+   "model_co2": 87.67,
+   "month": 2,
+   "year": 2024
+  },
+  {
+   "coal_stock_mt": 135.5,
+   "gap_pct": -13.67,
+   "gas_coal_ratio": 0.876,
+   "measured_co2": 90.5,
+   "model_co2": 78.12,
+   "month": 3,
+   "year": 2024
+  },
+  {
+   "coal_stock_mt": 138.8,
+   "gap_pct": -17.45,
+   "gas_coal_ratio": 0.807,
+   "measured_co2": 86.28,
+   "model_co2": 71.23,
+   "month": 4,
+   "year": 2024
+  },
+  {
+   "coal_stock_mt": 139.9,
+   "gap_pct": -13.89,
+   "gas_coal_ratio": 0.895,
+   "measured_co2": 104.26,
+   "model_co2": 89.78,
+   "month": 5,
+   "year": 2024
+  },
+  {
+   "coal_stock_mt": 135.2,
+   "gap_pct": -9.42,
+   "gas_coal_ratio": 1.068,
+   "measured_co2": 129.53,
+   "model_co2": 117.33,
+   "month": 6,
+   "year": 2024
+  },
+  {
+   "coal_stock_mt": 127.4,
+   "gap_pct": -8.79,
+   "gas_coal_ratio": 1.016,
+   "measured_co2": 156.16,
+   "model_co2": 142.44,
+   "month": 7,
+   "year": 2024
+  },
+  {
+   "coal_stock_mt": 121.8,
+   "gap_pct": -10.16,
+   "gas_coal_ratio": 0.922,
+   "measured_co2": 152.53,
+   "model_co2": 137.03,
+   "month": 8,
+   "year": 2024
+  },
+  {
+   "coal_stock_mt": 122.6,
+   "gap_pct": -10.65,
+   "gas_coal_ratio": 0.979,
+   "measured_co2": 123.36,
+   "model_co2": 110.22,
+   "month": 9,
+   "year": 2024
+  },
+  {
+   "coal_stock_mt": 127.7,
+   "gap_pct": -11.78,
+   "gas_coal_ratio": 1.057,
+   "measured_co2": 107.51,
+   "model_co2": 94.84,
+   "month": 10,
+   "year": 2024
+  },
+  {
+   "coal_stock_mt": 131.1,
+   "gap_pct": -12.2,
+   "gas_coal_ratio": 1.087,
+   "measured_co2": 101.27,
+   "model_co2": 88.91,
+   "month": 11,
+   "year": 2024
+  },
+  {
+   "coal_stock_mt": 127.8,
+   "gap_pct": -3.08,
+   "gas_coal_ratio": 1.604,
+   "measured_co2": 120.33,
+   "model_co2": 116.63,
+   "month": 12,
+   "year": 2024
   }
  ],
  "households_2035": [
@@ -662,6 +1321,9 @@
    "library/text/m4-eia-epm-table-4_13_b-gas-cost-by-state.txt": "eb140c1582936dd1",
    "library/text/m4-eia-epm-table-4_6_b-coal-receipts-by-state.txt": "225d6b1f80b80901",
    "library/text/m4-eia-epm-table-4_9_b-gas-receipts-by-state.txt": "c50cdac9581d79fd",
+   "library/text/m4-eia-mer-t06-03-coal-stocks.txt": "5b13fe7d3f007daf",
+   "library/text/m4-eia-mer-t07-02b-generation-power-sector.txt": "cf9e0d6a94af972d",
+   "library/text/m4-eia-mer-t09-09-fossil-fuel-cost-power-plants.txt": "88cd72c02bb77919",
    "library/text/m4-eia-mer-t11-06-power-co2.txt": "b51f9974277efa92",
    "models/data/energy/eps-us-4.0.7-generation-2026-11-13.csv": "26b86066c6f03aa0",
    "models/data/energy/eps-us-4.0.7-runs-2026-11-13-p2050.csv": "5566e5a36269c546",
@@ -675,9 +1337,9 @@
    "models/tools/energy/engine/cfd-households.js": "cf0b0d33ac3e8213",
    "models/tools/energy/engine/cfd-model.js": "8039785a3d4415b8",
    "models/tools/energy/history.js": "4882d3c65521f29e",
-   "models/tools/energy/history.py": "11f940610afd8126",
+   "models/tools/energy/history.py": "32e9e95c04e0f779",
    "models/tools/energy/model.py": "513064417db9dffd",
-   "models/tools/energy/run.py": "135aa4177fc17e7d",
+   "models/tools/energy/run.py": "647d861d3fa3fb40",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb"
   },
   "mc_draws": 60,
