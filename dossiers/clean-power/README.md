@@ -45,8 +45,10 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 ## Open questions for Espen
 
-One, in the booking (`6-cost.md`, part 6, 6a): **the tax offset on the clean standard's payments.** The booking applies JCT's 24.4% (option A, recommended, as for the carbon fee on the same companies): about $40 billion over FY2030-39 and $10.1 billion in FY2040, Under memo 9 B (`DEC-2026-11-13-14`) the payments go to a grid account sized to ready-to-build transmission and the rest are general-fund receipts (about $158 billion over FY2030-39 and $40.7 billion in FY2040), so the decided set as booked is about $1.74 trillion and $82.7 billion (`6-cost.md`, part 6, 6a).
+Settled in the booking: the tax offset on the clean standard's payments applies (JCT's 24.4%, option A; about $40 billion over FY2030-39 and $10.1 billion in FY2040; `6-cost.md`, part 6, 6a), and the transition share's remainder stays in the general fund from FY2040 (`DEC-2026-11-13-13`, option A). The payments now go to a grid account sized to ready-to-build transmission, with the rest kept as general-fund receipts (memo 9 B, `DEC-2026-11-13-14`).
 
-The re-review's question (`review-m4.md`, R-3) is decided: from FY2040 the transition share's remainder stays in the general fund (`DEC-2026-11-13-13`, option A). The 20% share, about $33 billion a year, pays the guarantee and the bill credit first, about $11 billion; the rest, about $23 billion, stays in the general fund.
+What memo 9 B buys, as booked: the account's main ready-to-build need is the second tranche's milestone releases, already booked in CLI-10, so it adds little grid beyond CLI-10 (about $5 billion over FY2030-39) and keeps about **$158 billion over FY2030-39 and $40.7 billion in FY2040 as receipts**. On this sizing the energy model's upper bound for B (up to about 1.4 billion tons less CO2 and 0.5 cents lower in 2040) is not bought; lower- and moderate-income households lose the payments' top-up (about $163 billion over FY2030-39) and keep the bill credit. A larger account would spend more of the payments on grid work, if ready-to-build projects exist to use it (`6-cost.md`, part 6, 6a; part 5).
 
-Next: the reviewer's L3 re-check on the booking's PR, then Espen's label (tier 3).
+Open, for the next batch: whether the new eastern transmission corporation gets condemnation power in its charter (CLI-10.03; `design-test.md`, #362).
+
+Next: the reviewer's review of the memo 9 B booking (#372), then Espen's label (tier 3).
