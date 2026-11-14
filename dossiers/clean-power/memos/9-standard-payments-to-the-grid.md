@@ -1,4 +1,4 @@
-# Memo 8: Where the clean standard's payments go
+# Memo 9: Where the clean standard's payments go
 
 Role: decision memo for Espen, from the design test on the energy model (`../design-test.md`). Status: **open**. It would amend CLI-3A.02 (memo 3 part 1 B, `DEC-2026-11-13-06`) and the standby builder's reach under CLI-10.03 (memo 4 B, `DEC-2026-11-13-10`); nothing else in those decisions changes.
 
