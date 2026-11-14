@@ -1035,3 +1035,6 @@ SRC-5060,library/text/m4-eia-epm-table-4_10_b-coal-cost-by-state.txt,7811,e3205d
 SRC-5061,library/text/m4-eia-epm-table-4_13_b-gas-cost-by-state.txt,7841,eb140c1582936dd1afa1d45864d60f9bfffa9342a2b66a2bea9a2961c063e436,,
 SRC-5062,library/text/m4-eia-tie-52379-gas-power-january-record-coal-stocks.txt,7763,581783aeb04ff8acf68579f17ec8a739cdd88ff0d744ea486433522086ec04b2,,
 SRC-5063,library/text/m4-eia-tie-52798-summer-2022-wholesale-prices-coal-constraints.txt,7864,322e90a90d5cbd7cfb77d272f4423ff7321c4dfafbc7ea9616fd0cbd7afd53d7,,
+SRC-5064,library/text/m4-eia-mer-t07-02b-generation-power-sector.txt,1229430,cf9e0d6a94af972d377b6f16fcbe7f4c18d49b99da17e88a064daba50088ebc1,,
+SRC-5065,library/text/m4-eia-mer-t09-09-fossil-fuel-cost-power-plants.txt,667199,88cd72c02bb77919917d517a10680502219ebbf27ac4f5d88123944e5a89aa2c,,
+SRC-5066,library/text/m4-eia-mer-t06-03-coal-stocks.txt,549153,5b13fe7d3f007daff088f39b35a63d44efaba36c412a4a180e3534ebd460bbeb,,
