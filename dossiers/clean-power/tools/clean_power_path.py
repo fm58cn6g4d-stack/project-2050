@@ -8,7 +8,7 @@ changes `models/`. Nominal $ billion, a cost positive, FY y runs from October of
 Run from the repository root (needs node for the carbon model read):
     python3 dossiers/clean-power/tools/clean_power_path.py
 """
-import csv, os, sys
+import csv, json, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, "..", "..", ".."))
@@ -78,6 +78,13 @@ BILLS[2040] = round(8.0 * 1.022 ** 10, 1)
 
 # ---- 5. Memo 7 B: the transition guarantee, on Espen's parameters ---------------------------------------------------
 # Every input is a working assumption (judgment unless an evidence ID is named). 2030 dollars, then 3% a year wage growth.
+# Closure timing (re-review on MOD-energy, DEC-2026-11-13-12): on models/tools/energy/ the decided set leaves 31 GW of coal
+# in 2030 and none by 2035 (127 and 89 GW under current law), while gas capacity stays open and runs less (591 GW in 2030,
+# 699 GW in 2040). So covered closures come early: the same 80,000 workers over FY2030-39 as before, but 14,000 a year in
+# 2030-34 (coal plants and mines) and 2,000 a year in 2035-39 (refineries, gas processing, the last mines). Judgment on the
+# model's fleet path; the count of workers at plants and mines likely to close is still "Evidence still needed".
+PROFILE = {y: (14000 if y <= 2034 else 2000) for y in range(2030, 2041)}
+
 G = dict(
     workers_per_year=8000,      # covered layoffs a year, contractors included: coal plants (172 GW in May 2025, 145 GW scheduled by end-2028 [EV-CLP-508]; ~140 GW left in 2030 closes by 2040,
                                 # ~0.18 jobs/MW, +25% contractors), coal mines (part of 44,060 [EV-CLP-500]), refineries and gas plants
@@ -100,9 +107,9 @@ G = dict(
 )
 
 
-def guarantee_per_cohort():
+def guarantee_per_cohort(workers=None):
     g = G
-    n = g["workers_per_year"] * g["take_up"]
+    n = (workers if workers is not None else g["workers_per_year"]) * g["take_up"]
     top = 0.9 - (1 - g["gap"])                                                      # 0.20 of old hourly pay
     wi = top * g["hours"] * g["months_paid"] / 12 * g["pay"]
     tr = ((0.9 - g["ui"]) * 6 + 0.9 * (g["train_months"] - 6)) / 12 * g["pay"] + g["train_cost"] + top * g["hours"] * g["pay"]
@@ -113,18 +120,43 @@ def guarantee_per_cohort():
 
 
 def memo7():
-    per = guarantee_per_cohort()
     out = {}
     for y in Y:
         grow = 1.03 ** (y - 2030)
-        # worker payments: each year's closures are paid over about two years; the first year's cohort half in FY2030
-        # (judgment: closures spread through the year, so FY2030 carries about half a year's payments)
-        workers = per * grow * (0.5 if y == 2030 else 1.0)
+        # worker payments: each year's closures are paid over about two years: half in the year of closure, half the next
+        # (judgment: closures spread through the year), on the closure profile above
+        cur, prev = PROFILE[y], PROFILE.get(y - 1, 0)
+        workers = (0.5 * guarantee_per_cohort(cur) + 0.5 * guarantee_per_cohort(prev)) * grow
         # places: replacement starts at the full lost tax and falls 10 points a year for ten years, cohort by cohort;
         # local tax grows 2% a year (judgment: assessed values roughly with prices)
-        places = sum(G["tax_per_year"] * max(0.0, 1 - 0.1 * (y - c)) for c in range(2030, y + 1)) * 1.02 ** (y - 2030)
+        places = sum(G["tax_per_year"] * PROFILE[c] / 8000 * max(0.0, 1 - 0.1 * (y - c)) for c in range(2030, y + 1)) * 1.02 ** (y - 2030)
         refi = G["refi_subsidy"] / 10 if y <= 2039 else 0.0
         out[y] = workers + places + refi
+    return out
+
+
+def m4_compare(rows, share, model):
+    """The re-review on MOD-energy (DEC-2026-11-13-12): this tool's booked-basis arithmetic against the energy model's run
+    of the decided set (models/tools/energy/results.json, written by its run.py). Reads, never runs, the energy model."""
+    f = os.path.join(ROOT, "models/tools/energy/results.json")
+    if not os.path.exists(f):
+        return None
+    R = json.load(open(f))
+    dec, pv = R["scenarios"]["decided"], R["provisions"]
+    w, f40 = dec["window_2030_39"], dec["fy2040"]
+    c1 = {y: rows["CX"][y] / OFFSET * C1_SHARE_OF_CX * share[y] for y in Y}
+    s = lambda d: sum(d[y] for y in W)
+    out = dict(
+        c1=(s(c1), c1[2040], w["c1"], f40["c1"]),
+        transition=(0.2 * s(c1), 0.2 * c1[2040], w["transition"], f40["transition"]),
+        offset_on_c1_c2_c3=((s(c1) + 30.0 + 22.0) * OFFSET, None, (w["c1"] + w["c2"] + w["c3"]) * OFFSET, None),
+        standard_payments=(None, None, -pv["CLI-3A.02"]["fy2030_39"], -pv["CLI-3A.02"]["fy2040"]),
+        dividend_per_adult=(model[2035]["dividend_adult_B"], None, dec["per_adult"]["2035"], None),
+    )
+    print("\nRe-review on MOD-energy (this tool | the energy model; FY2030-39, FY2040; nominal $B):")
+    for k, v in out.items():
+        fmt = lambda x: "    —" if x is None else f"{x:8.1f}"
+        print(f"  {k:22s}" + " ".join(fmt(x) for x in v))
     return out
 
 
@@ -165,7 +197,7 @@ def main():
     print(f"{'CHANGE vs booked':28s}" + fmt(chg))
     print(f"{'DECIDED SET':28s}" + fmt(tot))
     print(f"\nshare_B by year: " + " ".join(f"{y}:{share[y]:.3f}" for y in Y))
-    print(f"memo 7 B per year's closures (2030 dollars): ${guarantee_per_cohort():.2f}B")
+    print(f"memo 7 B per 8,000 closures (2030 dollars): ${guarantee_per_cohort():.2f}B")
     print(f"FY2040: decided set ${tot[2040]:.1f}B = {100 * tot[2040] / GDP_FY2040:.2f}% of GDP; "
           f"{100 * tot[2040] / PLAN_GAP_FY2040:.1f}% of the plan-wide gap (${PLAN_GAP_FY2040:.1f}B); change {chg[2040]:+.1f}B "
           f"= {100 * chg[2040] / PLAN_GAP_FY2040:+.2f}% of the gap")
@@ -173,6 +205,7 @@ def main():
     print(f"Transition share in FY2040 under B (20% of the receipts still raised): ${ts40:.1f}B")
     d35 = model[2035]
     print(f"Dividend per adult 2035 (nominal): package ${d35['dividend_adult_package']:.0f}, B ${d35['dividend_adult_B']:.0f}")
+    m4_compare(rows, share, model)
     return dict(rows=rows, cx=cx, c5=c5, grid2=GRID2, bills=BILLS, g7=g7, change=chg, total=tot, share=share)
 
 
