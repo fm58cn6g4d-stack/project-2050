@@ -1,0 +1,689 @@
+Source: https://www.epa.gov/system/files/documents/2024-04/chapter-6-co2-capture-storage-and-transport.pdf
+Publisher: U.S. Environmental Protection Agency
+Retrieved: 2026-11-14
+Original SHA-256: 36728b60b1c8a17b71407ae8c9de08fcb6fd1c80cff3514ceb995229d8091b7a
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+6.
+
+CO2 Capture, Storage, and Transport
+
+6.1
+
+CO2 Capture
+
+The EPA 2023 Reference Case allows for the building of potential (new) Ultra-Supercritical Coal (USC)
+and Natural Gas Combined Cycle (NGCC) Electric Generating Units (EGUs) with Carbon Capture and
+Storage (CCS) technology.56 CCS is also available as a retrofit option to existing coal-fired and NGCC
+EGUs.
+6.1.1
+
+CO2 Capture for Potential EGUs
+
+Potential USC EGUs are provided with two CCS options, namely, a 36-percent carbon dioxide (CO2)
+capture efficiency option and a 90-percent CO2 capture efficiency option. Potential NGCC EGUs, on
+the other hand, are provided with only the 90-percent CO2 capture efficiency option. The CCS cost and
+performance assumptions provided in Table 6-1 are based on the Annual Energy Outlook 2023 (AEO
+2023).
+Table 6-1 Cost and Performance Assumptions for Potential USC and NGCC with and without
+Carbon Capture in the EPA 2023 Reference Case
+
+Size (MW)
+First Year Available
+Lead Time (Years)
+Availability
+
+Combined
+Cycle Single
+Shaft
+418
+2028
+3
+87%
+
+Heat Rate (Btu/kWh)
+Capital (2022$/kW)
+Fixed O&M (2022$/kW/yr)
+Variable O&M (2022$/MWh)
+
+6,431
+1,118
+15.87
+2.87
+
+Heat Rate (Btu/kWh)
+Capital (2022$/kW)
+Fixed O&M (2022$/kW/yr)
+Variable O&M (2022$/MWh)
+
+6,431
+1,096
+15.87
+2.87
+
+Heat Rate (Btu/kWh)
+Capital (2022$/kW)
+Fixed O&M (2022$/kW/yr)
+Variable O&M (2022$/MWh)
+
+6,431
+1,054
+15.87
+2.87
+
+Heat Rate (Btu/kWh)
+Capital (2022$/kW)
+Fixed O&M (2022$/kW/yr)
+Variable O&M (2022$/MWh)
+
+6,431
+1,012
+15.87
+2.87
+
+Heat Rate (Btu/kWh)
+Capital (2022$/kW)
+Fixed O&M (2022$/kW/yr)
+Variable O&M (2022$/MWh)
+
+6,431
+968
+15.87
+2.87
+
+Heat Rate (Btu/kWh)
+Capital (2022$/kW)
+Fixed O&M (2022$/kW/yr)
+Variable O&M (2022$/MWh)
+
+6,431
+922
+15.87
+2.87
+
+Combined
+Cycle Multi Shaft
+
+Combined
+Cycle with
+90% CCS
+
+1083
+2028
+3
+87%
+
+377
+2030
+3
+87%
+Vintage #1 (2028)
+6,370
+989
+13.73
+2.10
+Vintage #2 (2030)
+6,370
+7,124
+969
+2,539
+13.73
+31.06
+2.10
+6.57
+Vintage #3 (2035)
+6,370
+7,124
+932
+2,396
+13.73
+31.06
+2.10
+6.57
+Vintage #4 (2040)
+6,370
+7,124
+895
+2,252
+13.73
+31.06
+2.10
+6.57
+Vintage #5 (2045)
+6,370
+7,124
+856
+2,105
+13.73
+31.06
+2.10
+6.57
+Vintage #6 (2050-2055)
+6,370
+7,124
+816
+1,958
+13.73
+31.06
+2.10
+6.57
+
+56 The term carbon capture refers to removing CO
+
+Ultrasupercritical
+Coal without
+CCS
+650
+2028
+4
+85%
+
+Ultrasupercritical
+Coal with
+36% CCS
+650
+2030
+4
+85%
+
+Ultrasupercritical
+Coal with
+90% CCS
+650
+2030
+4
+85%
+
+8,638
+3,717
+45.68
+5.06
+
+9,751
+4,624
+61.11
+7.97
+
+12,507
+5,979
+67.02
+12.35
+
+8,638
+3,538
+45.68
+5.06
+
+9,751
+4,385
+61.11
+7.97
+
+12,507
+5,648
+67.02
+12.35
+
+8,638
+3,353
+45.68
+5.06
+
+9,751
+4,138
+61.11
+7.97
+
+12,507
+5,309
+67.02
+12.35
+
+8,638
+3,160
+45.68
+5.06
+
+9,751
+3,884
+61.11
+7.97
+
+12,507
+4,960
+67.02
+12.35
+
+8,638
+2,966
+45.68
+5.06
+
+9,751
+3,628
+61.11
+7.97
+
+12,507
+4,612
+67.02
+12.35
+
+8,638
+3,789
+45.68
+5.06
+
+2 from the flue gases emitted by fossil fuel-fired EGUs.
+
+6-1
+
+6.1.2
+
+CO2 Capture for Existing EGUs with CCS Retrofit
+
+As noted, EPA 2023 Reference Case offers the option of adding CCS to existing coal-fired and NGCC
+EGUs as a retrofit option starting in 2030. The option comes with a CO2 capture efficiency of 90 percent.
+As in the case of potential EGUs with CCS, the CO2 capture assumptions for CCS retrofit represent an
+amine-based, post-combustion CO2 capture system.
+The cost and performance assumptions provided in Table 6-2 are based on the Sargent & Lundy57 cost
+algorithm (Attachment 6-1 summarizes the study)58. One issue that must be addressed when installing
+an amine-based, post-combustion CO2 capture system is that sulfur oxides (e.g., sulfur dioxide (SO2)
+and sulfur trioxide (SO3)) in the EGU flue gas can degrade the amine-based solvent that absorbs the
+CO2. Since the amine will preferentially absorb SO2 before CO2, it will be necessary to treat the EGU
+flue gas to lower the sulfur oxide concentration to 10 parts per million by volume or less. Meeting this
+constraint will require installing a supplemental Wet Flue Gas Desulfurization (FGD) technology or
+retrofitting an existing FGD. In EPA 2023 Reference Case, non FBC coal units without FGD or SCR
+controls are required to install FGD and SCR controls before retrofitting with CCS retrofits. However,
+existing FGDs are not retrofitted in the EPA 2023 Reference Case.
+Table 6-2 Performance and Unit Cost (2022$) Assumptions for Carbon Capture in the EPA 2023
+Reference Case
+Capital
+Fixed
+Capacity
+Variable O&M
+Cost
+O&M
+Penalty
+2
+(mills/kWh)
+($/kW)
+($/kW-yr)
+(%)
+9,000
+2,160
+31.47
+4.87
+27.61
+400
+10,000
+2,506
+35.30
+5.66
+30.68
+11,000
+2,884
+39.49
+6.51
+33.75
+Coal Steam
+9,000
+2,160
+27.00
+4.87
+27.62
+(Assuming
+700
+10,000
+2,506
+30.63
+5.66
+30.69
+Bituminous
+11,000
+2,884
+34.60
+6.51
+33.76
+Coal)
+9,000
+2,160
+25.21
+4.87
+27.62
+1,000
+10,000
+2,506
+28.76
+5.66
+30.68
+11,000
+2,884
+32.64
+6.51
+33.75
+7,000
+1,176
+47.13
+1.90
+15.23
+100
+8,000
+1,380
+50.05
+2.23
+17.40
+9,000
+1,594
+53.13
+2.58
+19.58
+Combined
+7,000
+1,176
+23.35
+1.90
+15.23
+Cycle
+300
+8,000
+1,380
+25.64
+2.23
+17.40
+(Assuming
+9,000
+1,594
+28.06
+2.58
+19.58
+Natural Gas)
+7,000
+1,177
+18.59
+1.90
+15.24
+500
+8,000
+1,380
+20.76
+2.23
+17.40
+9,000
+1,595
+23.05
+2.58
+19.60
+1Incremental costs are applied to the derated (i.e., after retrofit) capacity.
+2The CO Transportation, Storage, and Monitoring portion of the variable O&M has been removed
+2
+from Sargent & Lundy cost method and modeled separately.
+Technology
+
+Capacity
+(MW)
+
+Heat Rate
+(Btu/kWh)
+
+Heat Rate
+Penalty
+(%)
+38.14
+44.25
+50.94
+38.15
+44.27
+50.95
+38.16
+44.26
+50.94
+17.97
+21.07
+24.35
+17.97
+21.07
+24.35
+17.99
+21.07
+24.37
+
+“IPM Model – Updates to Cost and Performance for APC Technologies – CO2 Reduction Retrofit
+Cost Development Methodology.” Project 13527-002; March 2023.
+57 Sargent & Lundy.
+
+58
+
+The capital cost of the CCS retrofit options on coal steam units is assumed to reduce by 5% starting in 2030 and by
+10% starting in 2040. Similarly, the capital cost of the CCS retrofit options on combined cycle units is assumed to
+reduce by 5%, 7%,10%, and 15% starting in 2028, 2030, 2035, and 2040 respectively. These reductions are
+expected due to lessons learned and experience gained from demonstrations based on 45Q incentivized projects and
+movement toward competitive bidding projects with multiple executed projects for each supplier.
+
+6-2
+
+The capacity-derating penalty and associated heat rate penalty are an output of the Sargent & Lundy model.
+(See Section 5.1.1 for further details.)
+6.1.3
+
+Coal-Fired Units Installing CCS Retrofit by 2030
+
+Table 6-3 shows the existing coal-fired units allowed to install CCS retrofit by 2030 as these units are in
+the process of, or have completed Front-End Engineering Design (FEED) studies. All other coal steam
+and combined cycle units can install CCS retrofits starting in 2035.
+Table 6-3 Existing Coal-Fired Units that can Install CCS Retrofit by 2030 in the EPA 2023
+Reference Case
+Unit Name
+Four Corners
+Four Corners
+Gerald Gentleman
+Dry Fork Station
+Milton R Young
+Milton R Young
+Brame Energy Center
+Brame Energy Center
+Dallman
+Prairie State Generating Station
+
+6.2
+
+Plant Type
+Coal Steam
+Coal Steam
+Coal Steam
+Coal Steam
+Coal Steam
+Coal Steam
+Coal Steam
+Coal Steam
+Coal Steam
+Coal Steam
+
+State Name
+New Mexico
+New Mexico
+Nebraska
+Wyoming
+North Dakota
+North Dakota
+Louisiana
+Louisiana
+Illinois
+Illinois
+
+CO2 Storage
+
+This section describes the cost of geologic storage of carbon dioxide as updated in 2023 using the
+GeoCAT 2.0 model and applied in the EPA 2023 Reference Case.59 This update includes the quantity (in
+metric tons of capacity) and cost (in dollars per metric ton of CO 2) of potential geologic storage of carbon
+dioxide by location (generally defined as that portion of a geologic basin contained within one state) and
+by geologic storage type. There are three storage types that are estimated:
+•
+•
+•
+
+Saline reservoirs (a.k.a. saline aquifers),
+Enhanced oil recovery, and
+Abandoned oil and gas fields.
+
+The storage costs are calculated as the levelized 60 real-dollar costs for hypothetical storage projects of
+each type that might be developed inside of 10km by 10km grid “cells” located within each basin/state
+storage region. The portion of the gross cell area that can be developed is estimated based on:
+•
+•
+•
+
+Population density (a higher population density reduces available area),
+Wilderness status, and
+A general availability factor that accounts for considerations such as geologic suitability, land
+accessibility, permitting difficulties, etc.
+
+The geologic characteristics for each cell assumed for modeling come from several sources, including:
+
+59 A discussion of the original GeoCAT model and its application for EPA can be found in U.S. Environmental
+
+Protection Agency, Office of Water, “Geologic CO2 Sequestration Technology and Cost Analysis, Technical Support
+Document” (EPA 816-B-08-009) June 2008, https://www.epa.gov/sites/production/files/201507/documents/support_uic_co2_technologyandcostanalysis.pdf and Harry Vidas, Robert Hugman and Christa Clapp,
+“Analysis of Geologic Sequestration Costs for the United States and Implications for Climate Change Mitigation,”
+Science Digest, Energy Procedia, Volume 1, Issue 1, February 2009, Pages 4281-4288. Available online at
+https://www.sciencedirect.com/science/article/pii/S1876610209008832.
+60 The levelized real-dollar cost is the constant real $/unit revenue required by the provider of the geologic storage
+services to recover all capital and operating costs and exactly earn his target rate of return on his investment.
+
+6-3
+
+•
+•
+•
+•
+
+Saline reservoir information from NATCARB61 (saline reservoir depth, pressure, temperature,
+porosity, estimated potential storage capacity, etc.),
+Studies conducted by NETL to characterize the geology and estimate the economics of specific
+storage locations (saline reservoir depth, pressure, temperature, potential storage capacity, etc.),
+Studies conducted by the US Geologic Survey (regional temperature gradients, regional EOR
+potential, and storage capacity),
+Commercial oil and gas well databases (historical oil and gas well locations, reservoir depths,
+cumulative production, current reserves, regional formation tops, etc.). 62
+
+The outputs of the model are sequestration cost curves that indicate how much potential storage capacity
+is available at different CO2 price points within each basin/state storage region. The various basins/states
+that were modeled as “storage regions” are shown in Figure 6-1. Note that not every storage type is
+available in each region and that regions with zero or near-zero capacity were not put into the EPA 2023
+Reference Case when their estimated potential storage capacity was below three million metric tons
+(about the capacity needed for a 100 MW gas-fired power plant over 20 years).
+Figure 6-1: Storage Regions in GeoCAT 2.0
+
+Note: Regional boundaries are based on the American Association of Petroleum Geologists (AAPG) basin definitions,
+Department of Interior offshore leasing areas and state borders. Not every type of storage reservoir can be found in
+each storage region.
+
+6.2.1
+
+Unit Costs for Geologic Storage
+
+The storage cost calculated for each type of storage for each cell is largely a function of the geologic
+characteristics of that cell and assumptions used in the costing algorithms for individual components of
+geologic sequestration of CO2. The largest economic drivers are the costs of well operation, injection and
+monitoring well construction costs, and the costs of site monitoring. Depending on the nature of each cost
+61 NATCARB Saline spatial database, National Energy Technology Laboratory’s Energy Data eXchange: NATCARB -
+
+Submissions - EDX (doe.gov)
+62 Historical oil and gas well data came from the Enverus Foundations databases: Enverus Foundations | AnalystCurated Datasets | Enverus
+
+6-4
+
+element, “unit costs” are specified as dollars per storage site, dollars per square mile, dollars per foot as a
+function of well depth, dollars per labor hour, or other kinds of specifications or algorithms. The unit costs
+are then multiplied by the number of units required for a project. For example, the drilling of injection wells
+could be modelled as:
+$230/foot injection well drilling and completion (D&C) construction cost
+x 6,000 feet (measured drilling depth) per well
+x 4 injection wells per project
+= $5.52 million capital expenditures for injection well D&C per project.
+6.2.2
+
+Levelized Costs for Geologic Storage
+
+The individual capital cost and operating cost components are combined into a pro forma project cash
+flow model for each 10km-by-10km cell. For example, the pro forma calculations for saline reservoirs
+would typically cover a four-year site characterization and construction period, a 30-year injection period,
+and a 50-year post-closure monitoring period. Each pro forma project has specifications for the volume of
+CO2 injected, depth of injection, number of injection and monitoring wells, and other factors. Based on the
+timing of expenses and financial assumptions, these costs are translated in the model into levelized real
+dollars per metric ton of CO2 injected using standard discounted cash flow techniques. 63 For EOR
+projects, the value of incremental crude oil recovery is subtracted from the gross storage costs to obtain
+the net costs – which can be negative in cases where the value of incremental oil exceeds the gross
+storage costs.
+Note that the levelized cost shown here does not include the effect of federal tax credits under Section
+45Q. Under the Inflation Reduction Act (IRA), the tax credit was raised to $60/metric ton for carbon
+dioxide used in enhanced oil recovery or other industrial operations and to $85/metric for permanently
+stored CO2 such as in saline aquifers or abandoned oil and gas fields. The CCUS credit is available for
+CCUS projects beginning construction before January 1, 2033, and is to be applied to CO 2 quantities
+stored in the first 12 years of a project’s operation. While not included in the storage cost curves
+presented here, the value of any applicable tax credit is accounted for in the EPA 2023 Reference Case.
+6.2.3
+
+Aggregated Storage Cost Curves
+
+For purposes of modeling within the EPA 2023 Reference Case, separate cost curves are created for
+each basin/state storage region in cost increments or steps of $5/metric ton. These curves are
+constructed by sorting each element (that is, the storage quantity and levelized cost for each individual
+cell/reservoir type) from lowest to highest costs and then aggregating all the elements into a single curve
+for each storage region.
+For the Lower 48 as a whole, the geologic storage cost curves that result from this analysis are shown in
+Figure 6-2. Note that the x-axis is in units for billion metric tons of potential storage capacity and is shown
+on a logarithmic scale due to the wide range of capacities among the three storage types.
+
+63 In mathematical terms, the levelized cost produces a net present value of cash inflows (discounted at the operator’s
+
+weighted average cost of capital) that exactly equals the net present value of cash outflows (also discounted at the
+operator’s weighted average cost of capital).
+
+6-5
+
+Figure 6-2: Lower 48 Geologic Storage Supply Cost Curves
+
+Note: These are levelized costs for geologic storage of carbon dioxide computed using GeoCAT 2.0. They do not
+include capture or transportation costs, and they also exclude the effects of 45Q tax credits.
+
+The aggregated Lower 48 curves are constructed like the regional storage cost supply curves by sorting
+each element (that is, a reservoir type within each cell) starting from the least expensive to the most
+expensive and then accumulating the potential storage capacity at higher and higher costs. The
+aggregated Lower 48 curve for saline aquifers alone is shown as a green line, the curve for EOR alone is
+shown as an orange line, and the curve for abandoned oil and gas fields alone is shown as a blue line.
+The aggregation of all three types is shown as a dashed red line. The total modeled potential geologic
+storage capacity is 3,813 billion metric tons for the Lower 48. This is about 752 times the annual US
+carbon dioxide emission for all fossil fuel combustion (estimated in EPA’s 2021 National GHG Inventory
+to be 5.067 billion metric tons).
+
+6.3
+
+CO2 Transport
+
+The EPA 2023 Reference Case includes the cost of transporting carbon dioxide by pipeline from a power
+plant to the geologic storage site. These pipeline transportation costs are represented by a matrix (in
+dollars per metric ton) between “sources” (that is, either center points of IPM regions for “new” power
+plants or individual existing power plant locations) and “sinks” (the center points of basin/state storage
+regions). These transport costs are a function of transport distance measured in miles and are based on
+the assumption that each source/sink pair is served by its own pipeline. The costs of pipeline
+transportation are based on standard engineering calculations for what diameter of pipeline is needed to
+transport a given volume of CO2 and recent capital costs for pipelines in terms of dollars per inch-mile of
+pipeline. The tariff rate is calculated using standard discounted cash flow techniques given these capital
+costs plus some assumptions about the cost of capital (that is, interest on debt, return on equity, and the
+debt-to-equity ratio) and operating and maintenance costs for the CO 2 pipelines. The source-to-sink
+transportation cost matrix is created by multiplying the travel distances (calculated with geospatial
+geometry using latitude-longitude center points of the regions) by the relevant dollar-per-ton-mile
+transportation cost factors. To limit the size of the cost matrix, only the transportation links with a distance
+of less than 750 miles are modeled in the EPA 2023 Reference Case.
+6-6
+
+List of tables that are uploaded directly to the web:
+Table 6-4 CO2 Storage Cost Curves in EPA 2023 Reference Case
+Table 6-5 CO2 Transportation Matrix in EPA 2023 Reference Case
+Attachment 6-1 CO2 Reduction Retrofit Cost Development Methodology
+
+6-7
+
+

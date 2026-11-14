@@ -18,9 +18,11 @@ SCC_2020 = {2030: 230, 2040: 270, 2050: 310}   # EPA 2023 (SRC-5006), SC-CO2 at 
 TCRE = (0.27, 0.45, 0.63)                      # IPCC AR6 WG1 SPM D.1.1 (SRC-5037), deg C per 1,000 Gt CO2
 
 
-LEGACY_WORLD = {"crYears": 10, "crVehYears": None, "retailNetCredits": False, "retailAcp": False, "fuelSpread": {"coal": 0, "gas": 0}, "coalVom": 4, "emCal": 1.024, "crPhase": False, "crPowSched": None}   # undo this model's world settings: carbon-model.py runs the defaults
+LEGACY_WORLD = {"crYears": 10, "crVehYears": None, "retailNetCredits": False, "retailAcp": False, "fuelSpread": {"coal": 0, "gas": 0}, "coalVom": 4, "emCal": 1.024, "crPhase": False, "crPowSched": None, "retro": None}   # undo this model's world settings: carbon-model.py runs the defaults
 
 
+EPS_RETRO_WORLD = {"retro": dict(m.RETRO, scale=1.0, start=2031, lead=1, rate=50, cap=300, coalElig=300, capture=0.95, derateCoal=0, derateGas=0,
+                                  hrCoal=0.33, hrGas=0.0, capexCoal=1919 * 1.36, capexGas=923 * 1.36)}   # EPS 4.0.7's retrofit terms as the M4 research read them from its code (scratchpad notes; to verify)
 EPS2_WORLD = {"zevPath": {2032: 0.25, 2037: 0.5, 2040: 0.67, 2050: 1.0}, "zevTrkPath": {2032: 0.03, 2037: 0.20, 2040: 0.26, 2050: 0.65}}   # EPS run 2's sales standards
 
 
@@ -45,6 +47,7 @@ def bench_cases():
             dict(id="b_cr", label="Benchmark run: the credits alone, no price", policy=dict(mov, credits=True), price=None),
             dict(id="b_legacy", label="Benchmark run: the legacy decided package as carbon-model.py runs it", policy=legacy, price=m.PRICE, world=LEGACY_WORLD),
             dict(id="b_eps1", label="Matched to Espen's EPS run 1: the price on power and all industry, with process CO2, oil, gas and coal-mine methane and fluorinated gases priced (EPS's defaults)", policy=eps1, price=eps_path),
+            dict(id="b_eps1_retro", label="EP-3 test: EP-1's run with capture retrofits on EPS's terms as read from its code (95% capture, no derating, no gas heat-rate penalty, one year to build, any plant eligible, from 2031; EPS's 2030 capital costs in 2012 dollars times 1.36): the price on power and all industry, with process CO2, oil, gas and coal-mine methane and fluorinated gases priced (EPS's defaults)", policy=eps1, price=eps_path, world=EPS_RETRO_WORLD),
             dict(id="b_eps2", label="Matched to Espen's EPS run 2: run 1 plus the credits, the 80%/100% standard, EPS's sales-standard paths and the clean-heat standard", policy=eps2, price=eps_path, world=EPS2_WORLD)]
 
 
@@ -124,11 +127,18 @@ def benchmarks(E, ACC, HH):
     ep1, ecp = eg["run1_price"], eg["current_policies"]
     ec = {y: (ecp[y]["coal"], ep1[y]["coal"], ep1[y]["wind"] + ep1[y]["solar"] - ecp[y]["wind"] - ecp[y]["solar"], ep1[y]["coal_ccs"] + ep1[y]["gas_ccs"]) for y in yrs}
     fmt = lambda d: "; ".join(f"{y}: coal {d[y][0]:,.0f} to {d[y][1]:,.0f}, wind and solar {d[y][2]:+,.0f}, fossil with capture {d[y][3]:,.0f}" for y in yrs)
+    rr = E["b_eps1_retro"]
+    cut0 = {y: cl[y]["ghgNet"] - E["b_eps1"][y]["ghgNet"] for y in yrs}
+    cut_r = {y: cl[y]["ghgNet"] - rr[y]["ghgNet"] for y in yrs}
+    ecut = {y: data.eps_runs()["current_policies"][y] - data.eps_p2050()["run1_price"][y] for y in yrs}
+    rg = {y: rr[y]["gen"].get("coalr", 0) + rr[y]["gen"].get("ccr", 0) for y in yrs}   # TWh from retrofitted plants
+    share35 = (cut_r[2035] - cut0[2035]) / (ecut[2035] - cut0[2035]) if ecut[2035] != cut0[2035] else 0
     add(id="EP-3", what="Same settings, two models: power plants under the price alone (EP-1's runs): coal generation without and with the price, the extra wind and solar, and fossil generation with carbon capture, TWh",
         model=fmt(mc), target="EPS: " + fmt(ec), tol="reported", result="reported",
         why=f"Both models start 2030 with about the same coal under current policies ({mc[2030][0]:,.0f} and {ec[2030][0]:,.0f} TWh), so the difference is the response, not the starting fleet. "
             f"In 2030, the price's first year, this engine runs {100 * (1 - mc[2030][1] / mc[2030][0]):.0f}% less coal and has already added {mc[2030][2]:,.0f} TWh of wind and solar, because its investors build ahead on the expected price; EPS runs {100 * (1 - ec[2030][1] / ec[2030][0]):.0f}% less coal and adds none yet. Its coal-to-gas switching in the first year is likely too strong (HI-1). "
-            f"By 2035 both have added about the same wind and solar ({mc[2035][2]:,.0f} and {ec[2035][2]:,.0f} TWh). The difference is carbon capture: EPS fits it to existing coal and gas plants, {ec[2035][3]:,.0f} TWh in 2035 ({ep1[2035]['coal_ccs']:,.0f} from coal), so its gas and coal burn without capture falls far faster; this engine builds capture only on new gas plants ({mc[2035][3]:,.0f} TWh) and has no retrofits. Retrofitting most of the coal fleet within five years is far beyond anything built so far, so EPS's 2035 power cut leans high on that count, and this engine's leans low if retrofits prove feasible at scale.")
+            f"By 2035 both have added about the same wind and solar ({mc[2035][2]:,.0f} and {ec[2035][2]:,.0f} TWh). The difference is carbon capture: EPS fits it to existing coal and gas plants, {ec[2035][3]:,.0f} TWh in 2035 ({ep1[2035]['coal_ccs']:,.0f} from coal), so its gas and coal burn without capture falls far faster. This engine now has a retrofit option (assumptions.csv, ccs_retrofit_*), but on EPA's costs (IPM Table 6-2: a third of a coal unit's output lost, 44% more fuel per MWh), 75% capture in operation (Boundary Dam 3 managed at most 63% a year) and about seven years to build, no retrofit pays under this price before the late 2030s, so the engine builds none here ({mc[2035][3]:,.0f} TWh of capture, all on new gas plants). "
+            f"Run on EPS's own retrofit terms as read from its code (95% capture, no capacity lost, one year to build, every plant eligible), the same engine's price-only run cuts {cut_r[2035]:,.0f} Mt by 2035 instead of {cut0[2035]:,.0f} ({rg[2035]:,.0f} TWh from retrofitted plants), against EPS's {ecut[2035]:,.0f}: those terms alone more than close the 2035 gap between the two models ({share35:.0%} of it). Retrofitting most of the coal fleet within five years is far beyond anything built so far, so EPS's 2035 power cut leans high on that count.")
     b, base = E["b_econ"], E["mov"]
     per = {y: 100 * (base[y]["energy"] - b[y]["energy"]) / base[y]["energy"] / b[y]["price"] for y in (2035, 2040)}
     add(id="PR-1", what="Response to a carbon price: % cut in energy CO2 per dollar a ton (economy-wide price alone, against current law with Moving America)",
@@ -376,6 +386,12 @@ def report(res, E, ACC, layers, options, labels):
         yr = f"{h['year']} (coal shortage)" if h["coal_supply_shock"] else str(h["year"])
         w(f"| {yr} | {h['model_co2']:,.0f} | {h['measured_co2']:,.0f} | {h['gap_pct']:+.1f}% | {h['gap_pct_single_price']:+.1f}% | {h['model_coal_twh']:,.0f} / {h['measured_coal_twh']:,.0f} | {h['model_gas_twh']:,.0f} / {h['measured_gas_twh']:,.0f} |")
     cp, ep = data.eps_runs()["current_policies"], data.eps_p2050()
+    w("\n**Carbon-capture retrofits (sensitivity; the decided set's runs leave them out until clean power adopts a retrofit policy).** GW started by the year, GW online after derating (coal / combined cycle), Mt CO2 captured, and the decided set's energy CO2 below 2005:\n")
+    w("| Case | Started by 2040 | Online 2040 | Online 2050 | Captured 2050 | Below 2005, 2035 / 2050 |")
+    w("| --- | --- | --- | --- | --- | --- |")
+    for cid in ("decided", "retro1", "retro_hi"):
+        e = E[cid]
+        w(f"| {labels[cid].replace('Sensitivity: ', '')} | {e[2040]['retroStarted']:.0f} | {e[2040]['retroCoal']:.0f} / {e[2040]['retroGas']:.0f} | {e[2050]['retroCoal']:.0f} / {e[2050]['retroGas']:.0f} | {e[2050]['retroCapt']:.0f} | {100 * e[2035]['below2005']:.0f}% / {100 * e[2050]['below2005']:.0f}% |")
     w("\n**HI-2, month by month** (gap between the engine's and EIA's measured coal and gas power CO2, %; the gas-to-coal price ratio in brackets):\n")
     w("| Year | " + " | ".join(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]) + " |")
     w("| --- |" + " --- |" * 12)

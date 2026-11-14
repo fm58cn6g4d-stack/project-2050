@@ -1038,3 +1038,7 @@ SRC-5063,library/text/m4-eia-tie-52798-summer-2022-wholesale-prices-coal-constra
 SRC-5064,library/text/m4-eia-mer-t07-02b-generation-power-sector.txt,1229430,cf9e0d6a94af972d377b6f16fcbe7f4c18d49b99da17e88a064daba50088ebc1,,
 SRC-5065,library/text/m4-eia-mer-t09-09-fossil-fuel-cost-power-plants.txt,667199,88cd72c02bb77919917d517a10680502219ebbf27ac4f5d88123944e5a89aa2c,,
 SRC-5066,library/text/m4-eia-mer-t06-03-coal-stocks.txt,549153,5b13fe7d3f007daff088f39b35a63d44efaba36c412a4a180e3534ebd460bbeb,,
+SRC-5067,library/text/m4-epa-ipm-2023-ch6-ccs-retrofit.txt,18422,83aebb4abb04cdf64e7cd67f0f9465abf9a09cfa02ba4136e74d903d03501d2d,,
+SRC-5068,library/text/m4-crs-r48033-class-vi-2026.txt,54933,09b72e0cc1778bc5fdb2ca59167dd6c94b46647e331c31192edbebafbb3a2303,,
+SRC-5069,library/text/m4-fr-2026-19071-cps-partial-repeal.txt,361638,62c4896586ddb042faabf123b0e722f89c9131bf35d72210b3896f443913dde9,,
+SRC-5070,library/text/m4-usc-26-45q-2024-ed.txt,33042,4070a8fa3dbe74666e5c2e4cf1b4ddc3c3dae0adc8d636ec10073373bae57f4b,,

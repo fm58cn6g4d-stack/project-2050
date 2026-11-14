@@ -9,7 +9,7 @@ const cfg = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const path = tbl => tbl ? (y => tbl[String(y)] != null ? tbl[String(y)] : 0) : null;
 const KEEP = ['year', 'price', 'power', 'transport', 'ldv', 'industry', 'buildings', 'energy', 'process', 'methane', 'n2o', 'hfc', 'ghgNet',
   'below2005', 'ghgBelow2005', 'rev', 'gross', 'credits', 'methanePrice', 'cleanShare', 'cesPrice', 'cesAcp', 'evShare', 'hp', 'pop',
-  'retail', 'wholesale', 'elecDelta', 'feeHeat', 'stored', 'G', 'gen', 'cap'];
+  'retail', 'wholesale', 'elecDelta', 'feeHeat', 'stored', 'G', 'gen', 'cap', 'retroCoal', 'retroGas', 'retroCapt', 'retroQ45', 'retroStarted'];
 const slim = rows => rows.map(r => Object.fromEntries(KEEP.map(k => [k, r[k]])));
 function polOf(c) {
   const p = JSON.parse(JSON.stringify(c.policy || {}));
