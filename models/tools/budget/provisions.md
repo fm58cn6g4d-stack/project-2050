@@ -15,7 +15,7 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 | Kind | Rows | Scored | Bills and base revenue | FY2030-39, $T |
 | --- | --- | --- | --- | --- |
 | Discretionary appropriation | 24 | 24 | 22 | 1.42 |
-| Mandatory (direct) spending | 51 | 51 | 47 | 32.20 |
+| Mandatory (direct) spending | 51 | 51 | 47 | 32.04 |
 | Revenue | 86 | 39 | 20 | -10.89 |
 | Interest-neutral transfer (self-funded) | 2 | 2 | 2 | 0 |
 | No direct budget effect | 23 | 16 | 16 | 0 |
@@ -94,7 +94,7 @@ Budget choice 3 (DEC-2026-11-08-05, `ASM-BILL-WINDOW`): plan totals and the D4 t
 | Vehicle | Bills | Window | Over its window ($B) | Ten years after it ($B) | FY2029 unpriced |
 | --- | --- | --- | --- | --- | --- |
 | R1 | 12 | FY2029-2038 | 3214 | 3384 | FAM-1, MOV-29 |
-| R2 | 30 | FY2030-2039 | 5140 | 6797 | none |
+| R2 | 30 | FY2030-2039 | 4982 | 6313 | none |
 | R3 | 5 | FY2031-2040 | 625 | 483 | none |
 | FLOOR | 30 | FY2029-2038, FY2030-2039 | 23516 | 64928 | none |
 | APPROPS | 7 | FY2029-2038, FY2030-2039 | 525 | 817 | none |
@@ -124,7 +124,7 @@ The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill f
 | CLI-13F | R2 | FY2030-2039 | 24.6 | 0.0 |
 | CLI-2 | R2 | FY2030-2039 | 0.0 | 0.0 |
 | CLI-2O | R2 | FY2030-2039 | -91.5 | -101.6 |
-| CLI-3A | R2 | FY2030-2039 | 163.0 | 492.0 |
+| CLI-3A | R2 | FY2030-2039 | 5.0 | 8.2 |
 | CLI-5H | R2 | FY2030-2039 | 0.0 | 109.9 |
 | CLI-5L | R2 | FY2030-2039 | 7.2 | 20.2 |
 | CLI-5W | R2 | FY2030-2039 | 84.0 | 0.0 |

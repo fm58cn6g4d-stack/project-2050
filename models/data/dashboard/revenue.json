@@ -854,7 +854,7 @@
   "in_base": "Yes",
   "reaches_middle": "No",
   "legal_risk": "Low",
-  "overlap": "Paid out in full through bill protection and the bill credit (CLI-3A); the net cost is the offset (CXA)",
+  "overlap": "Paid into the grid account (memo 9 B; DEC-2026-11-13-14): it funds CLI-10's milestone releases and a small remainder (CLI-3A); the rest are general-fund receipts; JCT's offset applies (CXA)",
   "source": "The energy model (models/tools/energy/results.json, provisions CLI-3A.02; MOD-energy, DEC-2026-11-13-12); low end the decided set with the permitting package; dossiers/clean-power/6-cost.md part 2"
  },
  {

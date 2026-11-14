@@ -8,20 +8,20 @@
 
 ## 1. Headline numbers
 
-Current values from this run: general-fund claims $38.10T; top-end base $10.89T; ten-year gap $27.21T; gap after accepted options +22.70T; accepted revenue $3.21T; envelope borrowing $1.30T; legacy Senate floor days under F 172; legacy assumed floor-day budget 163; DEC ten-year general-fund deficit $24.26T; DEC total debt, 2056 372.0%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$-312.
+Current values from this run: general-fund claims $37.95T; top-end base $10.89T; ten-year gap $27.06T; gap after accepted options +22.55T; accepted revenue $3.21T; envelope borrowing $1.30T; legacy Senate floor days under F 172; legacy assumed floor-day budget 163; DEC ten-year general-fund deficit $24.11T; DEC total debt, 2056 370.3%; baseline debt, 2056 180.2%; incidence scenario Q, fourth quintile +$-312.
 
 | File | Line | Figure | Quoted | This run |
 | --- | --- | --- | --- | --- |
-| legacy/domains/domain-revenue.md | 12 | ten-year gap | gap of **$5.87T** | $27.21T |
-| legacy/domains/domain-revenue.md | 26 | general-fund claims | $11.72T claims | $38.10T |
+| legacy/domains/domain-revenue.md | 12 | ten-year gap | gap of **$5.87T** | $27.06T |
+| legacy/domains/domain-revenue.md | 26 | general-fund claims | $11.72T claims | $37.95T |
 | legacy/domains/domain-revenue.md | 302 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-312 |
 | legacy/governing/project-2050-governing-decisions.md | 100 | incidence scenario Q, fourth quintile | fourth quintile nets about +$1,139 | +$-312 |
-| legacy/governing/project-2050-governing-decisions.md | 104 | ten-year gap | a $5.87T gap | $27.21T |
+| legacy/governing/project-2050-governing-decisions.md | 104 | ten-year gap | a $5.87T gap | $27.06T |
 | legacy/governing/project-2050-governing-decisions.md | 104 | top-end base | against a $5.85T top-end base | $10.89T |
-| legacy/index/revenue-assignment-audit.md | 72 | general-fund claims | $11.72T of claims | $38.10T |
-| legacy/index/revenue-assignment-audit.md | 118 | general-fund claims | $11.72T of claims | $38.10T |
+| legacy/index/revenue-assignment-audit.md | 72 | general-fund claims | $11.72T of claims | $37.95T |
+| legacy/index/revenue-assignment-audit.md | 118 | general-fund claims | $11.72T of claims | $37.95T |
 | legacy/index/revenue-assignment-audit.md | 176 | incidence scenario Q, fourth quintile | fourth quintile at about +$1,139 | +$-312 |
-| legacy/index/revenue-assignment-audit.md | 180 | ten-year gap | gap $5.87T | $27.21T |
+| legacy/index/revenue-assignment-audit.md | 180 | ten-year gap | gap $5.87T | $27.06T |
 | legacy/index/revenue-assignment-audit.md | 180 | top-end base | base $5.85T | $10.89T |
 
 In dated passages (an "after X" note or a saved state). Usually history to leave alone, sometimes a state line to refresh or mark as dated:
@@ -29,8 +29,8 @@ In dated passages (an "after X" note or a saved state). Usually history to leave
 | File | Line | Figure | Quoted | This run |
 | --- | --- | --- | --- | --- |
 | legacy/index/revenue-assignment-audit.md | 134 | envelope borrowing | $1.15T of borrowing | $1.30T |
-| legacy/index/revenue-assignment-audit.md | 134 | general-fund claims | claims of $11.10T | $38.10T |
-| legacy/index/revenue-assignment-audit.md | 134 | ten-year gap | gap of $5.12T | $27.21T |
+| legacy/index/revenue-assignment-audit.md | 134 | general-fund claims | claims of $11.10T | $37.95T |
+| legacy/index/revenue-assignment-audit.md | 134 | ten-year gap | gap of $5.12T | $27.06T |
 
 ## 2. IDs
 
@@ -88,13 +88,13 @@ For each ledger row with a cost, the domain file's lines that name the ID are se
 | SAF-10 | 0.122 | legacy/domains/domain-public-safety.md | ledger middle not among the figures given for this ID | 0.09, 0.012, 0.003 | $12.1B a year by title plus $0.8B one-time; rides R3 (Byrd unchecked). Own revenue is durable sources only (~$9.2B a year) |
 | CLI-10 | 0.06 | legacy/domains/domain-climate.md | ledger middle not among the figures given for this ID | 0.1, 0.35, 0.38, 0.45 | Time-limited capital (D4-B), none before FY2033, ending with the window. $280B of grants, loans and contracts at the first tranche's ratio (EV-CLP-717). The public builders' line capital (TVA, Bonneville, WAPA, the eastern corporation) is repaid from rates; only expected forgiveness of unrepaid balances is a net cost, not booked separately (6-cost.md part 2); the energy model's standby-builder program cost overlaps this row and is not added. clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py) |
 | CLI-11 | 0.014 | legacy/domains/domain-climate.md | ledger middle not among the figures given for this ID | 0.08, 0.1, 0.27, 0.35 | Bottom-up on judgment inputs; closures early as coal closes by 2035 on the energy model. Paid first from the transition share (CLI-2A.04), so CLI-5's financing falls by the same amount; booked on the general fund, the same net. clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py) |
-| CLI-3A | 0.163 | legacy/domains/domain-climate.md | ledger middle not among the figures given for this ID | 0.02 | Equal to the receipts (C3A), by year from the energy model; the net cost is the offset (CXA). clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py) |
+| CLI-3A | 0.005 | legacy/domains/domain-climate.md | ledger middle not among the figures given for this ID | 0.02 | Memo 9 B (DEC-2026-11-13-14): the account is sized each year to ready-to-build transmission; it first funds CLI-10's milestone releases (booked there), and this row is what it spends beyond them (siting grants and the equipment reserve's net cost; working assumption $0.25-1.5B a year in FY2026 dollars). Payments beyond that stay as receipts (C3A). clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py) |
 | HX | 4.835 | legacy/domains/domain-revenue.md | no dollar figure next to the ID | — | Counted only on premiums that become taxable wages. Low: half of the employer-paid share passed into pay (Anand, 2017; care review F-3), about $370B less in FY2040. The employer contribution (net $1,061B in FY2040 at 65%) is not booked until the settlement sets its share and is never added to this full figure; FEHB's contribution would be intragovernmental. Includes the payroll-tax part that current law credits to OASDI and HI, booked here on the general fund (care review F-4) |
 | C1 | 1.2027 | legacy/domains/domain-revenue.md | ledger middle not among the figures given for this ID | 1.25, 1.29, 1.0, 1.5 | Under memo 1 B each year's booked receipts times power and industry's share (69% in 2030 to 58% in 2040, the carbon model read; clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py)); 80% to the dividend (CLI-2), 20% to the transition share, which finances CLI-5 through FY2039 and is general-fund revenue from FY2040 (C1T, DEC-2026-11-13-13). The energy model's run ($1.19T, results.json) is the high side of a range (its PR-2 benchmark runs 26% above CBO) |
 | CX | -0.306 | legacy/domains/domain-revenue.md | ledger middle not among the figures given for this ID | 0.38, 0.2, 0.15, 0.49 | Scoring convention, as MR6 for Moving America; the dividend is tax-free, so nothing is recaptured |
 | ED1 | 2.1 | legacy/domains/domain-revenue.md | ledger middle not among the figures given for this ID | 2.602 | Reaches every worker (~$830-900 a year at the median wage if all on the worker); needs D3 and D4 decisions; would move ~$1.2T of general-fund claims (FAM-2, EDU-1, EDU-3, EDU-4) into the fund |
 | IMM-EV | 0.0233 | legacy/domains/domain-revenue.md | no dollar figure next to the ID | — | Social Security's funds lose about $42B over FY2030-39 on the same convention (dossiers/immigration/6-cost.md part 2); not a sign the mandate pays for itself |
-| C3A | 0.163 | legacy/domains/domain-revenue.md | no dollar figure next to the ID | — | Paid out in full through bill protection and the bill credit (CLI-3A); the net cost is the offset (CXA) |
+| C3A | 0.163 | legacy/domains/domain-revenue.md | no dollar figure next to the ID | — | Paid into the grid account (memo 9 B; DEC-2026-11-13-14): it funds CLI-10's milestone releases and a small remainder (CLI-3A); the rest are general-fund receipts; JCT's offset applies (CXA) |
 | CXA | -0.0398 | legacy/domains/domain-revenue.md | no dollar figure next to the ID | — | The payment is a new fee, so the convention for new excise taxes and fees applies (DEC-2026-11-12-08, part 4); the energy model applies none |
 
 ## 5. Scaled figures

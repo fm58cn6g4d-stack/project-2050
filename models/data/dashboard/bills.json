@@ -2582,19 +2582,19 @@
  {
   "id": "CLI-3A",
   "legacy": "CLI-3A",
-  "bill": "The standard's capped payments paid out through bill protection and the bill credit (CLI-3A.02)",
+  "bill": "The grid account from the standard's capped payments (CLI-3A.02; memo 9 B): spending beyond CLI-10's milestone draws",
   "domain": "Climate",
   "source": "dossiers/clean-power/6-cost.md",
   "rail": "R2",
   "rail_name": "Reconciliation II (FY2030 resolution, summer 2029)",
   "channel": "General fund",
-  "cost_lo": 0.074,
-  "cost_mid": 0.163,
-  "cost_hi": 0.163,
+  "cost_lo": 0.002,
+  "cost_mid": 0.005,
+  "cost_hi": 0.015,
   "own_revenue": 0,
-  "net_mid": 0.163,
+  "net_mid": 0.005,
   "basis": "estimate",
-  "basis_note": "Equal to the receipts (C3A), by year from the energy model; the net cost is the offset (CXA). clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py)",
+  "basis_note": "Memo 9 B (DEC-2026-11-13-14): the account is sized each year to ready-to-build transmission; it first funds CLI-10's milestone releases (booked there), and this row is what it spends beyond them (siting grants and the equipment reserve's net cost; working assumption $0.25-1.5B a year in FY2026 dollars). Payments beyond that stay as receipts (C3A). clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py)",
   "floor_days": 0,
   "felt_months": 30,
   "durability": 55,
@@ -2605,8 +2605,8 @@
   "own_rev_hi": 0,
   "own_rev_channel": "",
   "gf_rule": "all",
-  "gf_lo": 0.074,
-  "gf_mid": 0.163,
-  "gf_hi": 0.163
+  "gf_lo": 0.002,
+  "gf_mid": 0.005,
+  "gf_hi": 0.015
  }
 ]
