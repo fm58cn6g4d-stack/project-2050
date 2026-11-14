@@ -116,6 +116,8 @@ Against 2029 current law, the decided set avoids about 25,708 Mt CO2e over 2030-
 | BL-1 | Energy CO2 under 2029 current law, against AEO2026's combination case (SRC-5049) | 2030: 4,578, 2035: 4,328, 2040: 4,114, 2050: 3,690 | 2030: 4,517, 2035: 4,305, 2040: 4,246, 2050: 4,348 | within 5% in 2030, 2035 and 2040; 2050 reported | **pass** |
 | EM-1 | Closeness of the current-law path to AEO2026's combination case, 2026-2050 (symmetric mean absolute percentage error, the En-ROADS practice, SRC-5045) | 5.1% | 0% | reported | **reported** |
 | BL-2 | Net greenhouse gases below 2005 in 2035 under current policy | 28% | Rhodium 26-35% (SRC-4474); the 2026 review's OBBBA runs 31-37% (SRC-4479) | inside 26-37% | **pass** |
+| BL-3 | Net greenhouse gases under current policy, change from 2025 (the Energy Policy Simulator's Current Policies pathway, run by Espen, November 13, 2026) | 2035 -13%, 2050 -25% | EPS 4.0.7: 2035 -10%, 2050 -21% | within 5 points in 2035; 2050 reported | **pass** |
+| PK-1 | A package against a package: the decided set against the Energy Policy Simulator's US Climate Action pathway, change in net greenhouse gases from 2025 to 2035 (and 2050) | 2035 -29%, 2050 -59% | EPS: 2035 -43%, 2050 -91% | reported (not like for like) | **reported** |
 | PR-1 | Response to a carbon price: % cut in energy CO2 per dollar a ton (economy-wide price alone, against current law with Moving America) | 2035: 0.15% at $87, 2040: 0.14% at $125 | EMF 37: 0.06-0.31% per dollar (SRC-5024) | inside the range in 2035 and 2040 | **pass** |
 | PR-2 | Receipts on CBO's price path, 2025-2034, net of the income and payroll tax offset | $1,157B | CBO option 73: $919B (SRC-5036) | within 25% | **fail** |
 | CR-1 | Restoring the credits alone (from 2030, stepping down): points of energy CO2 below 2005 in 2035 | 5.2 points | The IRA against no IRA in the 2026 review: 39-48% against 27-35% below 2005 in 2035 (SRC-4479), about 8-13 points | reported | **reported** |
@@ -132,6 +134,8 @@ Against 2029 current law, the decided set avoids about 25,708 Mt CO2e over 2030-
 - **BL-1.** Gaps 2030 +1.4%, 2035 +0.5%, 2040 -3.1%, 2050 -15.1%. They part after 2040: AEO2026 has power CO2 rising again from 2040 (to 1,042 Mt in 2050, with data-center load and gas build), while the engine keeps retiring coal and adding wind and solar (624 Mt); and the engine's electric-vehicle uptake is faster (1,472 against 1,617 Mt of transport CO2). EIA's own reference cases have missed energy CO2 by 14.6% on average (SRC-5002), so the 2050 gap is inside the range of a baseline's error.
 - **EM-1.** One number for how far apart two whole paths are; the year-by-year gaps are in BL-1.
 - **BL-2.** Both benchmarks include the 2025 law; Rhodium's lower end assumes high gas prices and slower clean build.
+- **BL-3.** Compared as changes from each model's own 2025, because the bases differ: EPS starts at 5,496 Mt with its land sink, the engine at 5,360 Mt (Rhodium's 2025 estimate, 18% below 2005). EPS's baseline includes the 2025 law and later EPA actions (SRC-5017), like this one. After 2040 EPS's emissions level off (4,637 Mt in 2040, 4,364 in 2050) as AEO2026's do (BL-1), while the engine keeps falling.
+- **PK-1.** The EPS package is far wider and has no carbon price: the IRA's credits restored through 2050, a clean standard of 76% in 2035 and 95% from 2040, federal and state vehicle sales standards from 2031, building electrification and efficiency standards, about 150 industrial electrification and 100 efficiency settings, a 50% low-carbon fuel standard, methane capture, land, farm and forest measures, and direct air capture and rock weathering of roughly 370 Mt a year by 2050 (SRC-5044; the run's settings file). The decided set leaves farms and forests as booked, adds no carbon removal, and its industry and building measures are fewer. The gap shows what those extra measures would have to do; it is not a test of either model.
 - **PR-1.** The engine sits in the range's lower half, as its own validation found against NEMS, REGEN and E3 (SRC-0077, v2.3): it responds slowly in the first decade, so its receipts lean high and its cuts lean low. EMF 37's prices are in 2018-2020 dollars, the engine's in 2025 dollars.
 - **PR-2.** +26%, about the same in every year (FY2025 $72B against CBO's $53B; FY2034 $147B against $118B). The engine cuts emissions slowly in its first decade (PR-1, lower half of EMF 37's range), which keeps its tax base, and so its receipts, high; the legacy ledger set REV-C1's midpoint about 5% below the model for the same reason (ledger-revenue.csv, C1). CBO covers energy CO2 and some large manufacturers' other gases from 2025; the engine prices fuel CO2 and industrial process CO2 and N2O, and starts its price with no warning (CBO's estimate is static apart from the offset).
 - **CR-1.** Not like for like: the IRA's credits ran from 2023 with twelve years to 2035 and longer terms; these start in 2030 and step down from 2033. The engine's power credits stop at its trigger, and grid access, not cost, limits wind and solar building (SRC-0077, v2.4).
@@ -147,13 +151,15 @@ Offset rate 0.244, inflation 0.022; calendar year y booked as fiscal year y; nom
 
 - `library/text/m4-eia-aeo2026-tab18-combination.txt`: `b1f1cb8f500b9102`
 - `library/text/m4-eia-aeo2026-tab18-counterfactual.txt`: `c76517faf98e2edd`
+- `models/data/energy/eps-us-4.0.7-runs-2026-11-13.csv`: `f6bd2f8c612b1e1f`
 - `models/data/inputs/carbon-parameters.csv`: `1209e9fbd89f3e64`
 - `models/data/inputs/excise-offset.csv`: `8cc362a5d923b385`
-- `models/tools/carbon/cfd-households.js`: `4a59c4ca442072b4`
-- `models/tools/carbon/cfd-model.js`: `70c83c2775de993f`
+- `models/tools/carbon/cfd-cex-2024.json`: `11f4b296801bc20d`
 - `models/tools/energy/assumptions.csv`: `7c84576cf4293338`
-- `models/tools/energy/data.py`: `e024a4de70ec642b`
-- `models/tools/energy/engine.js`: `07059e1db8048d0f`
+- `models/tools/energy/data.py`: `45d30ff164c8c639`
+- `models/tools/energy/engine.js`: `36d539f752136c47`
+- `models/tools/energy/engine/cfd-households.js`: `cf0b0d33ac3e8213`
+- `models/tools/energy/engine/cfd-model.js`: `d21a0e6c4d8c48fb`
 - `models/tools/energy/model.py`: `4a687f4a40ebc226`
-- `models/tools/energy/run.py`: `97aa14916bad96c8`
+- `models/tools/energy/run.py`: `5dbafe6b5d7662d4`
 - `models/tools/transportation/moving_america.py`: `3cc781a2a1312dbb`

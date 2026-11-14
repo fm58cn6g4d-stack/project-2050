@@ -62,6 +62,17 @@ old = json.loads(subprocess.run(["node", os.path.join(HERE, "..", "carbon", "p20
 os.unlink(f.name)
 ok("engine.js and p2050-run.js agree on the legacy package", all(abs(a["energy"] - E["b_legacy"][a["year"]]["energy"]) < 1e-9 and abs(a["gross"] - E["b_legacy"][a["year"]]["gross"]) < 1e-9 for a in old))
 
+# --- the engine copy: its own regression checks, and identical to the legacy original when no M4 option is set
+r = subprocess.run(["node", os.path.join(HERE, "engine", "cfd-tests.js")], capture_output=True, text=True)
+ok("the engine copy passes the carbon model's regression checks and the M4 additions", r.returncode == 0, r.stdout.strip().splitlines()[-1])
+same = subprocess.run(["node", "-e", """
+const A = require(process.argv[1]), B = require(process.argv[2]), w = A.world();
+const pols = [{}, { permitYear: 2027 }, { permitYear: null, startPrice: 0, step: 0, ratchet: false }, { permitYear: 2027, credits: true, standards: true, grid: true, nuclear: true }];
+let bad = 0; for (const p of pols) { const a = A.simulate(p, A.world()), b = B.simulate(p, B.world());
+  a.forEach((r, i) => { if (r.energy !== b[i].energy || r.gross !== b[i].gross || r.retail !== b[i].retail || r.ghgNet !== b[i].ghgNet) bad++; }); }
+console.log(bad);""", os.path.join(HERE, "..", "carbon", "cfd-model.js"), os.path.join(HERE, "engine", "cfd-model.js")], capture_output=True, text=True).stdout.strip()
+ok("the engine copy with default options equals the legacy original, four designs, every year", same == "0", same + " rows differ")
+
 # --- benchmarks the status rests on
 B = {b["id"]: b for b in run.benchmarks(E, ACC, R["households"])}
 for bid in ("DA-1", "DA-2", "BL-1", "PR-1", "BK-1"):

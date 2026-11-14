@@ -5,8 +5,7 @@ const HH = (() => {
   function one(r, b, r0, T, i, off) {
     const k = 1 - off, P = r.price;
     const gasoline = T.gasoline[i] * ((r.feeGasoline != null ? r.feeGasoline : 0.0085 * P) / 3.40) * (r.ldv / r0.ldv) * k; // zero when road fuels are outside the fee (Project 2050, D7)            // fee per gallon over price, times remaining fuel use
-    const Ph = r.feeHeat != null ? r.feeHeat : P; // home heating fuel's own price (zero when buildings are not charged, M4 memo 1 B)
-    const heat = (T.gas[i] * (0.0551 * Ph / 15.29) + T.oil[i] * 0.0025 * Ph) * (r.buildings / r0.buildings) * k; // gas per Mcf; fuel oil and propane ~2.5 kg CO2 per dollar (ASSUMED)
+    const heat = (T.gas[i] * (0.0551 * P / 15.29) + T.oil[i] * 0.0025 * P) * (r.buildings / r0.buildings) * k; // gas per Mcf; fuel oil and propane ~2.5 kg CO2 per dollar (ASSUMED)
     const elec = T.elec[i] * (r.retail - b.retail) / 17.3;                                   // change in the retail price against no policy
     return { gasoline, heat, elec, energy: T.gasoline[i] + T.gas[i] + T.oil[i] + T.elec[i] };
   }

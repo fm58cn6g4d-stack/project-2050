@@ -1,9 +1,9 @@
-// MOD-energy's engine driver: runs Espen's carbon model (models/tools/carbon/cfd-model.js) on the cases run.py writes,
+// MOD-energy's engine driver: runs the model's engine (engine/cfd-model.js, a copy of Espen's carbon model v3.4 with M4's options) on the cases run.py writes,
 // and prints JSON with every row field the energy model's accounts read. Role: a thin driver, like the carbon model's own
 // p2050-run.js, with more fields and households against any base case. Usage: node engine.js config.json > runs.json
 const fs = require('fs');
-const M = require('../carbon/cfd-model.js');
-const HH = require('../carbon/cfd-households.js');
+const M = require('./engine/cfd-model.js');
+const HH = require('./engine/cfd-households.js');
 const CEX = JSON.parse(fs.readFileSync(__dirname + '/../carbon/cfd-cex-2024.json', 'utf8'));
 const cfg = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const path = tbl => tbl ? (y => tbl[String(y)] != null ? tbl[String(y)] : 0) : null;

@@ -7,7 +7,8 @@ Role: the home of `MOD-energy`, the core energy and climate model of `charter/PL
 | `survey.md` | Part 1: the validated energy and climate policy models used for U.S. policy analysis, what each can teach this model, and the recommended design |
 | `MODEL-CARD.md` | What the model answers and cannot, its evidence map, mechanisms, benchmarks, limits and interfaces |
 | `run.py` | One command: runs every scenario and benchmark and writes `results.json` and `results.md` (generated; do not edit) |
-| `model.py`, `engine.js`, `data.py` | Scenarios and accounts; the driver for the engine (`models/tools/carbon/cfd-model.js`); the data layer |
+| `model.py`, `engine.js`, `data.py` | Scenarios and accounts; the driver for the engine; the data layer |
+| `engine/` | The engine: a copy of Espen's carbon model v3.4 (`models/tools/carbon/`) with M4's options, and its regression checks |
 | `assumptions.csv` | This model's labeled working assumptions, with ranges; adopted inputs stay in `models/data/inputs/` |
 | `test_energy.py` | Tests, run by `run-all.sh` before every rebuild |
 

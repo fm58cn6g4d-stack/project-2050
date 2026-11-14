@@ -80,6 +80,19 @@ def benchmarks(E, ACC, HH):
     add(id="BL-2", what="Net greenhouse gases below 2005 in 2035 under current policy", model=f"{g35:.0f}%",
         target="Rhodium 26-35% (SRC-4474); the 2026 review's OBBBA runs 31-37% (SRC-4479)", tol="inside 26-37%",
         result="pass" if 26 <= g35 <= 37 else "fail", why="Both benchmarks include the 2025 law; Rhodium's lower end assumes high gas prices and slower clean build.")
+    eps = data.eps_runs()
+    ch = lambda path, y: 100 * (path[y] / path[2025] - 1)
+    mc_ = {y: ch({k: cl[k]["ghgNet"] for k in cl}, y) for y in (2035, 2050)}
+    ec_ = {y: ch(eps["current_policies"], y) for y in (2035, 2050)}
+    add(id="BL-3", what="Net greenhouse gases under current policy, change from 2025 (the Energy Policy Simulator's Current Policies pathway, run by Espen, November 13, 2026)",
+        model=f"2035 {mc_[2035]:+.0f}%, 2050 {mc_[2050]:+.0f}%", target=f"EPS 4.0.7: 2035 {ec_[2035]:+.0f}%, 2050 {ec_[2050]:+.0f}%",
+        tol="within 5 points in 2035; 2050 reported", result="pass" if abs(mc_[2035] - ec_[2035]) <= 5 else "fail",
+        why=f"Compared as changes from each model's own 2025, because the bases differ: EPS starts at {eps['current_policies'][2025]:,.0f} Mt with its land sink, the engine at 5,360 Mt (Rhodium's 2025 estimate, 18% below 2005). EPS's baseline includes the 2025 law and later EPA actions (SRC-5017), like this one. After 2040 EPS's emissions level off ({eps['current_policies'][2040]:,.0f} Mt in 2040, {eps['current_policies'][2050]:,.0f} in 2050) as AEO2026's do (BL-1), while the engine keeps falling.")
+    md, me = ch({k: E["decided"][k]["ghgNet"] for k in E["decided"]}, 2035), ch(eps["us_climate_action"], 2035)
+    add(id="PK-1", what="A package against a package: the decided set against the Energy Policy Simulator's US Climate Action pathway, change in net greenhouse gases from 2025 to 2035 (and 2050)",
+        model=f"2035 {md:+.0f}%, 2050 {ch({k: E['decided'][k]['ghgNet'] for k in E['decided']}, 2050):+.0f}%", target=f"EPS: 2035 {me:+.0f}%, 2050 {ch(eps['us_climate_action'], 2050):+.0f}%",
+        tol="reported (not like for like)", result="reported",
+        why="The EPS package is far wider and has no carbon price: the IRA's credits restored through 2050, a clean standard of 76% in 2035 and 95% from 2040, federal and state vehicle sales standards from 2031, building electrification and efficiency standards, about 150 industrial electrification and 100 efficiency settings, a 50% low-carbon fuel standard, methane capture, land, farm and forest measures, and direct air capture and rock weathering of roughly 370 Mt a year by 2050 (SRC-5044; the run's settings file). The decided set leaves farms and forests as booked, adds no carbon removal, and its industry and building measures are fewer. The gap shows what those extra measures would have to do; it is not a test of either model.")
     b, base = E["b_econ"], E["mov"]
     per = {y: 100 * (base[y]["energy"] - b[y]["energy"]) / base[y]["energy"] / b[y]["price"] for y in (2035, 2040)}
     add(id="PR-1", what="Response to a carbon price: % cut in energy CO2 per dollar a ton (economy-wide price alone, against current law with Moving America)",
@@ -166,9 +179,9 @@ def main():
             "CLI-1A-model": ("the engine's credit cost (a cross-check on the booking, not a score)", lambda y: A[y]["credits"])}
     led = {r["id"]: r for r in csv.DictReader(open(os.path.join(ROOT, "models/data/inputs/ledger-revenue.csv"), encoding="utf-8"))}
     booked = {"REV-C1A": ("C1", -1), "REV-C1P.01": ("C1P", -1), "REV-C2.01": ("C2", -1), "REV-C3.01": ("C3", -1)}
-    files = ["models/tools/carbon/cfd-model.js", "models/tools/carbon/cfd-households.js", "models/tools/energy/engine.js", "models/tools/energy/model.py",
+    files = ["models/tools/energy/engine/cfd-model.js", "models/tools/energy/engine/cfd-households.js", "models/tools/carbon/cfd-cex-2024.json", "models/tools/energy/engine.js", "models/tools/energy/model.py",
              "models/tools/energy/run.py", "models/tools/energy/data.py", "models/tools/energy/assumptions.csv", "models/data/inputs/carbon-parameters.csv",
-             "models/data/inputs/excise-offset.csv", "models/tools/transportation/moving_america.py"] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for f, _ in data.AEO.values()]
+             "models/data/inputs/excise-offset.csv", "models/tools/transportation/moving_america.py", "models/data/energy/eps-us-4.0.7-runs-2026-11-13.csv"] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for f, _ in data.AEO.values()]
     res = {
         "model": "MOD-energy", "status": "working",
         "run": {"inputs_sha256_16": {f: sha(os.path.join(ROOT, f)) for f in files}, "offset_rate": m.OFFSET, "inflation": m.P["inflation"],

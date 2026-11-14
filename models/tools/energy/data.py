@@ -70,3 +70,19 @@ def weather_2025():
         normal = sum((d[y] + d[y + 1]) / 2 for y in range(2015, 2025)) / 10
         out[kind] = {"2025": y25, "normal_2015_2024": round(normal, 1), "ratio": round(y25 / normal, 4)}
     return out
+
+
+# Espen's two runs of the Energy Policy Simulator web tool, version 4.0.7 (November 13, 2026): total CO2e including land use.
+EPS_RUNS = os.path.join(ROOT, "models", "data", "energy", "eps-us-4.0.7-runs-2026-11-13.csv")
+
+
+def eps_runs():
+    """{"current_policies": {year: Mt}, "us_climate_action": {year: Mt}}."""
+    with open(EPS_RUNS, encoding="utf-8") as f:
+        rows = [r for r in f if not r.startswith("#")]
+    import csv as _csv
+    out = {"current_policies": {}, "us_climate_action": {}}
+    for r in _csv.DictReader(rows):
+        for k in out:
+            out[k][int(r["year"])] = float(r[k])
+    return out

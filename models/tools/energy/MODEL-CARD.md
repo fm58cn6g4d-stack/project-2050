@@ -25,14 +25,14 @@ It cannot answer, by design (`survey.md`, 4.5):
 
 | Layer | File | What it does |
 | --- | --- | --- |
-| Engine | `models/tools/carbon/cfd-model.js` (Espen's Carbon Dividend Model v3.4, extended) | Power dispatch and build, vehicle cohorts, heating turnover, industrial abatement, methane, fluorinated gases, the border adjustment; 2025 dollars |
+| Engine | `engine/cfd-model.js`: a copy of Espen's Carbon Dividend Model v3.4 (`models/tools/carbon/`) with M4's options; `engine/cfd-tests.js` holds its regression checks | Power dispatch and build, vehicle cohorts, heating turnover, industrial abatement, methane, fluorinated gases, the border adjustment; 2025 dollars |
 | Driver | `engine.js` | Runs the cases and returns every row field the accounts need, households against any base case, and the Monte Carlo |
 | Scenarios and accounts | `model.py` | The layers, options and sensitivities; nominal accounts by year |
 | Data | `data.py` | AEO2026, EIA and NOAA series read from the library's saved texts |
 | Results and benchmarks | `run.py` | One command: `python3 models/tools/energy/run.py` writes `results.json` and `results.md` |
 | Tests | `test_energy.py` | Identities, boundary cases, data traced to source, driver equivalence, the status benchmarks |
 
-**What M4 added to the engine.** Every addition defaults to the old behavior, so the legacy runs and their booked figures are unchanged. BK-1 and the rebuild's drift check on `legacy/index/climate-carbon-model.md` both show this.
+**Why a copy, and what M4 added to it.** The legacy carbon model stays as it is: its exports record the engine file's hash, and one of them is pinned in an adopted input (`models/data/inputs/climate-adoption.json`), so editing it would be a tier-3 change for no change in any figure. The energy model runs its own copy. Every option added defaults to the original behavior, and `test_energy.py` checks that the copy with defaults gives the original's rows exactly on four designs; BK-1 reproduces the legacy run's receipts. When the legacy suite is retired (`models/README.md`), its readers can move to this engine.
 - `sectorPrice`, memo 1 B's coverage. The share of the fee each sector's fuel pays directly: buildings 0, non-road transport 0, industry at its covered share.
 - `heatStd`, the clean-heat standard (CLI-4H.01). A soft floor on heat pumps' share of heating-equipment sales, like the vehicle standards.
 - `retailNetCredits`. Nets the power credits out of the cost passed to retail prices. Without it the engine charged ratepayers the full capital cost of credited plants, and restoring credits appeared to raise prices (BI-1 caught this).
@@ -57,6 +57,7 @@ It cannot answer, by design (`survey.md`, 4.5):
 | Baseline benchmark | AEO2026 combination case (SRC-5049; main case SRC-5050) | Analysis (EIA, second Trump administration; checked against Rhodium and the 2026 review) |
 | 2005 base | EPA net 6,536 Mt (SRC-4460); EIA energy 5,999 Mt | Data |
 | Weather | NOAA degree days (SRC-5047, SRC-5048) | Data |
+| The Energy Policy Simulator's two pathways | Total CO2e including land use, 2025-2050, from version 4.0.7's web tool, Current Policies and US Climate Action, run by Espen (`models/data/energy/eps-us-4.0.7-runs-2026-11-13.csv`) | Analysis (Energy Innovation's model and scenarios; an advocate's package, SRC-5044) |
 | The engine's behavioral inputs | 37 uncertain inputs with ranges, each sourced or assumed in the carbon model's notes (SRC-0077) | Mixed, as documented there |
 
 ## Mechanisms and their basis
@@ -73,6 +74,7 @@ It cannot answer, by design (`survey.md`, 4.5):
 - **The status rests on DA-1, DA-2, BL-1, PR-1 and BK-1, and all pass.** DA-1 and DA-2 are in-sample (the engine is calibrated to those figures). BL-1 tracks AEO2026 through 2040, and the 2050 gap is explained. PR-1 is inside EMF 37's per-dollar range, in its lower half. BK-1 reproduces the legacy run.
 - **PR-2 fails.** Receipts on CBO's price path run about 26% above CBO's $919 billion in every year. The engine cuts emissions slowly in its first decade, so its tax base stays high. The ledger already sets REV-C1 below the model for this reason. A booking should take the model's receipts as the high side of a range, not as a point.
 - **HI-1 is not built.** The history run needs the engine to start in 2015.
+- **Against the Energy Policy Simulator, run by Espen (November 13, 2026):** BL-3 passes. Current policy cuts net greenhouse gases 13% from 2025 to 2035 here, and 10% in the simulator's Current Policies pathway. PK-1 is reported, not tested: the simulator's US Climate Action package cuts 43% by 2035 against the decided set's 29%. It is a far wider package with no carbon price: more industrial, building, land and carbon-removal measures. The gap shows what such measures would have to add toward point 1's goal.
 - **Reported, not pass or fail:**
   - CR-1, the credits' effect against the IRA comparisons. The comparison is not like for like, and the reason is stated.
   - EM-1, the closeness score.

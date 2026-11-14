@@ -46,6 +46,24 @@
    "why": "Both benchmarks include the 2025 law; Rhodium's lower end assumes high gas prices and slower clean build."
   },
   {
+   "id": "BL-3",
+   "model": "2035 -13%, 2050 -25%",
+   "result": "pass",
+   "target": "EPS 4.0.7: 2035 -10%, 2050 -21%",
+   "tol": "within 5 points in 2035; 2050 reported",
+   "what": "Net greenhouse gases under current policy, change from 2025 (the Energy Policy Simulator's Current Policies pathway, run by Espen, November 13, 2026)",
+   "why": "Compared as changes from each model's own 2025, because the bases differ: EPS starts at 5,496 Mt with its land sink, the engine at 5,360 Mt (Rhodium's 2025 estimate, 18% below 2005). EPS's baseline includes the 2025 law and later EPA actions (SRC-5017), like this one. After 2040 EPS's emissions level off (4,637 Mt in 2040, 4,364 in 2050) as AEO2026's do (BL-1), while the engine keeps falling."
+  },
+  {
+   "id": "PK-1",
+   "model": "2035 -29%, 2050 -59%",
+   "result": "reported",
+   "target": "EPS: 2035 -43%, 2050 -91%",
+   "tol": "reported (not like for like)",
+   "what": "A package against a package: the decided set against the Energy Policy Simulator's US Climate Action pathway, change in net greenhouse gases from 2025 to 2035 (and 2050)",
+   "why": "The EPS package is far wider and has no carbon price: the IRA's credits restored through 2050, a clean standard of 76% in 2035 and 95% from 2040, federal and state vehicle sales standards from 2031, building electrification and efficiency standards, about 150 industrial electrification and 100 efficiency settings, a 50% low-carbon fuel standard, methane capture, land, farm and forest measures, and direct air capture and rock weathering of roughly 370 Mt a year by 2050 (SRC-5044; the run's settings file). The decided set leaves farms and forests as booked, adds no carbon removal, and its industry and building measures are fewer. The gap shows what those extra measures would have to do; it is not a test of either model."
+  },
+  {
    "id": "PR-1",
    "model": "2035: 0.15% at $87, 2040: 0.14% at $125",
    "result": "pass",
@@ -474,15 +492,17 @@
   "inputs_sha256_16": {
    "library/text/m4-eia-aeo2026-tab18-combination.txt": "b1f1cb8f500b9102",
    "library/text/m4-eia-aeo2026-tab18-counterfactual.txt": "c76517faf98e2edd",
+   "models/data/energy/eps-us-4.0.7-runs-2026-11-13.csv": "f6bd2f8c612b1e1f",
    "models/data/inputs/carbon-parameters.csv": "1209e9fbd89f3e64",
    "models/data/inputs/excise-offset.csv": "8cc362a5d923b385",
-   "models/tools/carbon/cfd-households.js": "4a59c4ca442072b4",
-   "models/tools/carbon/cfd-model.js": "70c83c2775de993f",
+   "models/tools/carbon/cfd-cex-2024.json": "11f4b296801bc20d",
    "models/tools/energy/assumptions.csv": "7c84576cf4293338",
-   "models/tools/energy/data.py": "e024a4de70ec642b",
-   "models/tools/energy/engine.js": "07059e1db8048d0f",
+   "models/tools/energy/data.py": "45d30ff164c8c639",
+   "models/tools/energy/engine.js": "36d539f752136c47",
+   "models/tools/energy/engine/cfd-households.js": "cf0b0d33ac3e8213",
+   "models/tools/energy/engine/cfd-model.js": "d21a0e6c4d8c48fb",
    "models/tools/energy/model.py": "4a687f4a40ebc226",
-   "models/tools/energy/run.py": "97aa14916bad96c8",
+   "models/tools/energy/run.py": "5dbafe6b5d7662d4",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb"
   },
   "mc_draws": 60,

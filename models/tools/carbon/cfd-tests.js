@@ -58,15 +58,4 @@ ok('no hydrogen burned without a fee or credit', baseP.every(r => (r.gen.h2 || 0
   const gs = M.simulate({ ...nf, gridStatute: true }, w), wx = M.simulate({ ...nf, weatherize: true }, w);
   ok('grid statute does not raise power emissions', gs[15].power <= baseP[15].power + 1);
   ok('Weatherization adds heat pumps', wx[14].hp > baseP[14].hp); }
-// M4 additions (memo 1 B coverage; the clean-heat standard)
-{ const pol = { permitYear: null }, d = M.simulate(pol, w), one = M.simulate({ ...pol, sectorPrice: { buildings: 1, industry: 1, nonroad: 1 } }, w);
-  ok('sector prices at 1 reproduce the original model exactly', d.every((r, i) => r.energy === one[i].energy && r.gross === one[i].gross));
-  const b = M.simulate({ ...pol, sectorPrice: { buildings: 0, industry: 0.8, nonroad: 0 } }, w);
-  ok('memo 1 B: no buildings or non-road receipts', b.every(r => r.rev.buildings === 0 && r.feeHeat === 0));
-  ok('memo 1 B: industry pays its covered share only', Math.abs(b[15].rev.industry - 0.8 * b[15].price * b[15].industry / 1000) < 1e-9);
-  ok('memo 1 B: unpriced buildings emit at least as much', b[15].buildings >= d[15].buildings - 1e-9, b[15].buildings.toFixed(0) + ' vs ' + d[15].buildings.toFixed(0));
-  ok('memo 1 B: power still pays in full', Math.abs(b[15].rev.power - b[15].price * b[15].power / 1000) < 1e-9);
-  const h = M.simulate({ ...pol, startPrice: 0, step: 0, ratchet: false, heatStd: { start: 2032, share: 0.6, step: 0.05 } }, w), h0 = M.simulate({ ...pol, startPrice: 0, step: 0, ratchet: false }, w);
-  ok('clean-heat standard adds heat pumps and cuts buildings CO2', h[15].hp > h0[15].hp && h[15].buildings < h0[15].buildings);
-  ok('clean-heat standard does nothing before it starts', h[6].buildings === h0[6].buildings); }
 console.log(fail ? fail + ' FAILED' : 'all passed'); process.exit(fail ? 1 : 0);
