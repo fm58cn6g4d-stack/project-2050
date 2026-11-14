@@ -84,7 +84,7 @@ const CFD = (() => {
     retailAcp: false, // M4: true adds the clean standard's capped payments (cesAcpBn, paid by suppliers to Treasury) to the cost passed to retail prices; credit trades between plants net out inside the sector either way
     retailNetCredits: false, // M4: true nets the year's power-credit payments out of the cost passed to retail prices (cost-of-service: a subsidy lowers the revenue requirement); false keeps the original model, which passes new plants' full capital cost through
     hpPremPolicy: null, hpPremYear: null, // optional policy heat-pump premium from a start year (null: w.hpPrem throughout), e.g. a clean-heat standard
-    crPowerTrigger: 383, crPhase: false, crPowSched: null, crVehYears: null, zevPath: null, zevTrkPath: null, // power-credit phase-out trigger (Mt power CO2); vehicle credits' own term (null: crYears); optional statutory zero-emission sales schedules {year: share}
+    crPowerTrigger: 383, crPhase: false, crPowSched: null, retro: null, crVehYears: null, zevPath: null, zevTrkPath: null, // power-credit phase-out trigger (Mt power CO2); vehicle credits' own term (null: crYears); optional statutory zero-emission sales schedules {year: share}
   };
   // Monte Carlo ranges [low, high] around the central value (triangular)
   const RANGES = {
@@ -142,7 +142,21 @@ const CFD = (() => {
     add('ct', S.ct * 0.5, 10.0, w.gasPower, EF.gas, 5, 0.9); add('ct', S.ct * 0.5, 11.5, w.gasPower, EF.gas, 5, 0.9);
     const capt = 7.124 * EF.gas * 0.9;
     if (S.ccs > 0.01) t.push({ k: 'ccs', gw: S.ccs * 0.85, hr: 7.124, ef: 7.124 * EF.gas * 0.1, vc: 7.124 * w.gasPower + 6.6 + w.ts * capt + P * 7.124 * EF.gas - inc * capt + 0.1 * lam });
+    // Project 2050 M4: carbon capture retrofitted to existing coal and combined-cycle plants (world option retro; see retroEcon)
+    const R = w.retro;
+    if (R && (S.coalR || 0) > 0.01) { const hr = 10.5 * (1 + R.hrCoal), c = hr * EF.coal * R.capture;
+      t.push({ k: 'coalr', gw: S.coalR * 0.8, hr, ef: hr * EF.coal * (1 - R.capture), vc: hr * w.coalPower + w.coalVom + R.vomCoal + w.ts * c + P * hr * EF.coal - Math.max(P, S.q45R || 0) * c + (1 - R.capture) * lam }); }
+    if (R && (S.gasR || 0) > 0.01) { const hr = 7.0 * (1 + R.hrGas), c = hr * EF.gas * R.capture;
+      t.push({ k: 'ccr', gw: S.gasR * 0.87, hr, ef: hr * EF.gas * (1 - R.capture), vc: hr * w.gasPower + 2.1 + R.vomGas + w.ts * c + P * hr * EF.gas - Math.max(P, S.q45R || 0) * c + (1 - R.capture) * lam }); }
     return t.sort((a, b) => a.vc - b.vc);
+  }
+  // retrofit economics: net gain per MWh from fitting capture to a coal (hr0 10.5) or combined-cycle (hr0 7.0) unit, against its annualized
+  // cost per MWh at a 70% capacity factor. Each captured ton earns the carbon price avoided or 45Q, whichever is larger (not both), as the engine's new capture plants do
+  function retroEcon(w, R, fuel, Pe, q45) {
+    const coal = fuel === 'coal', hr0 = coal ? 10.5 : 7.0, ef = coal ? EF.coal : EF.gas, pen = coal ? R.hrCoal : R.hrGas, hr = hr0 * (1 + pen), c = hr * ef * R.capture;
+    const gain = Pe * hr0 * ef - (Pe * hr * ef - Math.max(Pe, q45) * c) - (hr - hr0) * (coal ? w.coalPower : w.gasPower) - (coal ? R.vomCoal : R.vomGas) - w.ts * c;
+    const fixed = ((coal ? R.capexCoal : R.capexGas) * w.fcr + (coal ? R.fomCoal : R.fomGas)) / (0.7 * 8.76);
+    return gain - fixed;
   }
   function dispatch(S, G, P, w, y) {
     const windE = S.windE, solE = S.solE, nucE = S.nuc * w.cf.nuc * 8.76;
@@ -171,7 +185,7 @@ const CFD = (() => {
       gasT.forEach(t => { t._h = t._g * sh(t) * f; h2Mt += t._h * t.hr / 134; }); }
     T.forEach(t => { const g = t._g || 0, h = t._h || 0; gen[t.k] = (gen[t.k] || 0) + g - h; if (h) gen.h2 = (gen.h2 || 0) + h; emis += (g - h) * t.ef * w.emCal; vcost += g * (t.vc - P * t.ef - (t.k === 'ccs' ? 0.1 : t.k === 'ldes' ? 0 : 1) * (S.cesL || 0)) + (h ? h * t.hr * (H.mm - w.gasPower) : 0); });
     const curtNet = Math.max(0, curt - (gen.ldes || 0) / (S.ldesRte || 0.45) / Math.max(1, windE + solE));
-    const firm = S.nuc * w.cf.nuc + (w.hydroOther + (S.hyd || 0)) / 8.76 + (S.coal * 0.8 + S.cc * 0.87 + S.ct * 0.9 + S.ccs * 0.85) + S.wind * 0.12 + S.solar * credS + S.stor * stC + (S.ldes || 0) * 0.9;
+    const firm = S.nuc * w.cf.nuc + (w.hydroOther + (S.hyd || 0)) / 8.76 + (S.coal * 0.8 + S.cc * 0.87 + S.ct * 0.9 + S.ccs * 0.85 + (S.coalR || 0) * 0.8 + (S.gasR || 0) * 0.87) + S.wind * 0.12 + S.solar * credS + S.stor * stC + (S.ldes || 0) * 0.9;
     const coalCF = S.coal > 0.5 ? (gen.coal || 0) / (S.coal * 8.76) : 0;
     // marginal cost of the dearest running coal and cc tranche (for displacement decisions)
     return { gen, emis, vcost, price: priceSum / NB, curt, vs, solShare, windShare: windE / G, firm, peak, coalCF, T, margin, unserved, storShift, surplus, curtNet, h2Mt, stC,
@@ -189,7 +203,7 @@ const CFD = (() => {
   function simulate(polIn, w, pricePath) {
     const pol = Object.assign({}, POLICY, polIn); pol.cover = Object.assign({}, POLICY.cover, polIn && polIn.cover); pol.sectorPrice = Object.assign({}, POLICY.sectorPrice, polIn && polIn.sectorPrice);
     const SP = pol.sectorPrice, spDefault = SP.buildings === 1 && SP.industry === 1 && SP.nonroad === 1;
-    const S = Object.assign({}, w.cap); S.storE = S.stor * 4; S.ldes = 0; let KL = null; S.windE = S.wind * w.cf.wind * 8.76; S.solE = S.solar * w.cf.solar * 8.76;
+    const S = Object.assign({}, w.cap); S.coalR = 0; S.gasR = 0; S.q45R = 0; const retroQ = []; let retroStarted = 0, retroElig = 0, retroCapt = 0, retroQ45 = 0; S.storE = S.stor * 4; S.ldes = 0; let KL = null; S.windE = S.wind * w.cf.wind * 8.76; S.solE = S.solar * w.cf.solar * 8.76;
     // vehicles: cohorts by age
     const AG = 36, surv = a => 1 / (1 + Math.exp((a - 17) / 4));
     const hist = [0.078, 0.081, 0.076, 0.058, 0.032, 0.018, 0.015, 0.012, 0.01, 0.006]; // EV share of sales, 2025 back to 2016 (2025 SOURCED; earlier ASSUMED)
@@ -305,7 +319,9 @@ const CFD = (() => {
       S.h2 = y >= 2032 ? { mm: (w.h2.p30 * Math.pow(w.h2.p50 / w.h2.p30, clamp((y - 2030) / 20, 0, 1)) - h2Cr) / 0.134, mt: w.h2.s32 + (w.h2.s50 - w.h2.s32) * (y - 2032) / 18 } : null;
       const d = dispatch(S, G, P, w, y);
       const power = d.emis; credCost += d.h2Mt * h2Cr;
-      const fossG = (d.gen.coal || 0) + (d.gen.cc || 0) + (d.gen.ct || 0) + 0.1 * (d.gen.ccs || 0), cleanShare = 1 - fossG / G;
+      if (w.retro) { const R = w.retro; retroCapt = (d.gen.coalr || 0) * 10.5 * (1 + R.hrCoal) * EF.coal * R.capture + (d.gen.ccr || 0) * 7.0 * (1 + R.hrGas) * EF.gas * R.capture; // Mt captured
+        retroQ45 = S.q45R > P ? retroCapt * S.q45R / 1000 : 0; credCost += retroQ45; } // 45Q outlay ($bn) where it, not the fee, is the incentive
+      const capR = w.retro ? w.retro.capture : 0.9, fossG = (d.gen.coal || 0) + (d.gen.cc || 0) + (d.gen.ct || 0) + 0.1 * (d.gen.ccs || 0) + (1 - capR) * ((d.gen.coalr || 0) + (d.gen.ccr || 0)), cleanShare = 1 - fossG / G;
       if (pol.ces && y === pol.ces.start - 1) cesBase = cleanShare;
       const cesTgt = pol.ces && y >= pol.ces.start ? clampT(y) : null, cesAcpBn = cesTgt !== null && (S.cesL || 0) >= w.cesAcp - 1e-6 ? Math.max(0, cesTgt - cleanShare) * G * w.cesAcp / 1000 : 0;
       if (fomBase === null) fomBase = S.coal * w.fom.coal;
@@ -360,6 +376,7 @@ const CFD = (() => {
       rows.push({ year: y, price: P, power, transport, ldv, industry, buildings, energy, process, methane, n2o, hfc: hfcEmis, covered: energy + coveredOther, ghgNet, target,
         below2005: 1 - energy / E2005, ghgBelow2005: 1 - ghgNet / NET2005, rev, gross, net, pool: poolD, transition: net * (1 - pol.dividendShare), perShare, childShare: cs, family4: perShare * (2 + 2 * cs),
         gen: Object.assign({ nuclear: d.nucE, hydro: w.hydroOther + (S.hyd || 0), wind: d.windE * (1 - d.curt), solar: d.solE * (1 - d.curt) }, d.gen), G, cap: Object.assign({}, S), coalCF: d.coalCF,
+        retroCoal: S.coalR, retroGas: S.gasR, retroCapt, retroQ45, retroStarted,
         credits: credCost + credPower, credInd, cleanShare, methanePrice: Pm, cesPrice: S.cesL || 0, cesTarget: cesTgt, cesAcp: cesAcpBn, creditsPower: credPower, build: bld, evShare: evS, evStock: stockEV / stock, trkE, hp, lowT, ccs: Object.assign({}, ccsS), stored, elecLoad, retail: 13.2 + dRes, wholesale: d.price,
         gasoline: 0.0085 * PR, feeGasoline: pol.roadExempt ? 0 : 0.0085 * P, natgas: 0.0551 * PB, feeHeat: PB, elecDelta: dRes, deciles: FOOT.map(f => divPc - costPc * f / fMean), pop: pp, unserved: d.unserved, missed: missedPrev });
 
@@ -404,6 +421,20 @@ const CFD = (() => {
       let ret = Math.min(S.coal, w.coalSched) + S.coal * 0.15 * logistic((coalGF - best) / 8) + (dx.coalCF < 0.15 ? S.coal * 0.15 : 0);
       if (pol.standards && y + 1 >= 2033) ret += S.coal / Math.max(1, 2040 - y); // reinstated power plant rule: unabated coal out by 2040
       ret = Math.min(S.coal, ret); S.coal -= ret;
+      // Project 2050 M4: capture retrofits. Each year, where the expected carbon price or 45Q covers the cost (retroEcon), owners start
+      // (from the year `start`) retrofits on coal units still running (coal first, up to coalElig) and then on combined cycles, at most rate GW a year and cap GW
+      // in all (both times scale); a retrofit comes online lead years later, derated, and earns 45Q for 12 years if it started by q45End - 3.
+      if (w.retro && y >= w.retro.start) { const R = w.retro, room = Math.max(0, R.cap * R.scale - retroStarted), q45ok = y <= S.q45End - 3, q45 = q45ok ? w.q45 : 0;
+        let budget = Math.min(R.rate * R.scale, room);
+        const coalLeft = Math.max(0, Math.min(S.coal - retroQ.reduce((a, c) => a + c.coal, 0), R.coalElig - retroStarted));
+        const sc = budget > 0 && retroEcon(w, R, 'coal', Pe, q45) > 0 ? Math.min(budget, coalLeft) : 0; budget -= sc;
+        const sg = budget > 0 && retroEcon(w, R, 'gas', Pe, q45) > 0 ? Math.min(budget, Math.max(0, S.cc - retroQ.reduce((a, c) => a + c.gas, 0))) : 0;
+        if (sc + sg > 0) { retroQ.push({ on: y + R.lead, coal: sc, gas: sg, q45: q45ok }); retroStarted += sc + sg; }
+        for (const c of retroQ) if (c.on === y + 1) { const cc = Math.min(c.coal, S.coal), cg = Math.min(c.gas, S.cc);
+          S.coal -= cc; S.coalR += cc * (1 - R.derateCoal); S.cc -= cg; S.gasR += cg * (1 - R.derateGas); c.done = { coal: cc * (1 - R.derateCoal), gas: cg * (1 - R.derateGas) }; }
+        const live = retroQ.filter(c => c.done), tot = live.reduce((a, c) => a + c.done.coal + c.done.gas, 0),
+          elig = live.filter(c => c.q45 && y + 1 < c.on + 12).reduce((a, c) => a + c.done.coal + c.done.gas, 0);
+        S.q45R = tot > 0 ? w.q45 * elig / tot : 0; retroElig = elig; }
       // energy need next year and economic displacement of running fossil plant
       const need = Math.max(0, w.gen2025 * Math.pow(1 + w.loadGrowth, nn) - w.gen2025 * Math.pow(1 + w.loadGrowth, n)) + Math.max(0, elecLoad - elecLoadPrev) + ret * dx.coalCF * 8.76 * 0.5;
       elecLoadPrev = elecLoad;
@@ -462,7 +493,7 @@ const CFD = (() => {
          stCN = Math.min(0.85, 0.6 + 0.05 * (durN - 4)); // new batteries get longer; cost per kW rises with the energy added
       let mSt = mS * 0.35 * durF0 / durF, mCT = 0; // the same spending buys more storage when it is cheaper
       const peakN = (G * (1 + w.loadGrowth)) / 8.76 * 1.5, credS2 = clamp(0.35 - 1.2 * d.solShare, 0.04, 0.35);
-      const firmN = S.nuc * w.cf.nuc + (w.hydroOther + (S.hyd || 0)) / 8.76 + S.coal * 0.8 + S.cc * 0.87 + S.ct * 0.9 + S.ccs * 0.85 + S.wind * 0.12 + S.solar * credS2 + S.stor * d.stC + mSt * stCN + S.ldes * 0.9;
+      const firmN = S.nuc * w.cf.nuc + (w.hydroOther + (S.hyd || 0)) / 8.76 + S.coal * 0.8 + S.cc * 0.87 + S.ct * 0.9 + S.ccs * 0.85 + (S.coalR || 0) * 0.8 + (S.gasR || 0) * 0.87 + S.wind * 0.12 + S.solar * credS2 + S.stor * d.stC + mSt * stCN + S.ldes * 0.9;
       const short = Math.max(0, peakN * 1.13 - firmN);
       if (short > 0) { const kCT = (w.capex.ct * w.fcr + w.fom.ct + 0.08 * 8.76 * Pe * 10.5 * EF.gas) / 0.9, kSt = (cSt * durF * w.fcr + w.fom.stor) / stCN, sh = logistic((kSt - kCT) / 12); mCT = Math.min(short * sh / 0.9, Math.max(0, gasK - mCC)); mSt += (short - mCT * 0.9) / stCN; } // turbines beyond the supply limit are replaced by storage
       const rpl = S.stor / 18, avgD = S.storE / S.stor; // batteries last about 18 years (ASSUMED); worn-out ones are replaced like for like in power, at the duration then on sale
