@@ -138,6 +138,11 @@ def scenarios(permit=None):
     return L, opts
 
 
+def grid_world(k):
+    """The engine's federal grid program at strength k (1 is full; the standby builder is decided at A['grid_standby_scale'])"""
+    return {"gpTx": 0.8 * k, "gpRecon": 15 * k, "gpCurt": 0.05 * k, "gpCost": 12 * k}
+
+
 def config():
     L, O = scenarios()
     def case(c, l, p, pr):
@@ -145,7 +150,7 @@ def config():
         k = p.pop("gridScale", None)
         out = dict(id=c, label=l, policy=p, price=pr)
         if k is not None:
-            out["world"] = {"gpTx": 0.8 * k, "gpRecon": 15 * k, "gpCurt": 0.05 * k, "gpCost": 12 * k}
+            out["world"] = grid_world(k)
         st, acp = p.pop("q45Stack", None), p.pop("cesAcp", None)
         if st:
             out.setdefault("world", {})["q45Stack"] = st
@@ -160,7 +165,7 @@ def config():
     cases += [dict(id="cl_permit", label="Sensitivity: 2029 current law with the 2026-28 permitting package enacted", policy=LP[0][2], price=None),
               dict(id="decided_permit", label="Sensitivity: the decided set with the permitting package", policy=LP[-1][2], price=PRICE),
               dict(id="permit_bld_hi", label="Named run for clean power's design test: the permitting package with a builder everywhere (memo 4 option A, the full grid program)", policy=LP[-1][2], price=PRICE,
-                   world={"gpTx": 0.8, "gpRecon": 15, "gpCurt": 0.05, "gpCost": 12})]
+                   world=grid_world(1.0))]
     for c in cases:
         if c["id"] == "decided":
             c["mc"] = True
