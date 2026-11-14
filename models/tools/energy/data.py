@@ -136,3 +136,17 @@ def fuel_spread():
         m = sum(Q[s] * C[s] for s in ks) / W
         out[fuel] = round((sum(Q[s] * (C[s] - m) ** 2 for s in ks) / W) ** 0.5 / m, 3)
     return out
+
+
+EPS_GEN = os.path.join(ROOT, "models", "data", "energy", "eps-us-4.0.7-generation-2026-11-13.csv")
+
+
+def eps_generation():
+    """{run: {year: {type: TWh}}} for Espen's EPS runs' electricity generation (current_policies, run1_price, run2_package)."""
+    out = {}
+    lines = [l for l in open(EPS_GEN, encoding="utf-8") if not l.startswith("#")]
+    hdr = lines[0].strip().split(",")
+    for l in lines[1:]:
+        v = l.strip().split(",")
+        out.setdefault(v[0], {})[int(v[1])] = {k: float(x) for k, x in zip(hdr[2:], v[2:])}
+    return out

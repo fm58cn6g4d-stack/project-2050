@@ -370,7 +370,7 @@ const CFD = (() => {
       // Project 2050 M4: crPhase follows the IRA's phase-out (26 U.S.C. 45Y(d)(3), 48E(e)(3)): once power CO2 falls to the trigger (the
       // applicability year), plants starting the next year get 100%, the second year 75%, the third 50%, then none. false keeps the
       // original engine, which ends the credits the year after the trigger.
-      if (crTrig === null && y + 1 >= 2032 && power <= w.crPowerTrigger) crTrig = y;
+      if (crTrig === null && y >= 2032 && power <= w.crPowerTrigger) crTrig = y; // the applicability year is 2032 at the earliest
       const crF = !pol.credits || y + 1 < 2030 ? 0 : !w.crPhase ? ((y + 1 < 2032 || power > w.crPowerTrigger) ? 1 : 0)
         : crTrig === null || y + 1 <= crTrig + 1 ? 1 : y + 1 === crTrig + 2 ? 0.75 : y + 1 === crTrig + 3 ? 0.5 : 0;
       // Project 2050 M4: crPowSched = { full, part, partEnd, firm } replaces the trigger with a step-down fixed in statute (CLI-1A.02):
