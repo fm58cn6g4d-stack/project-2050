@@ -33,7 +33,7 @@ Every case below is the decided clean power set built up one layer at a time aga
 | Named run for clean power's design test: the clean standard's payment cap at $20/MWh (2025 dollars; decided $40) | 31% / 41% / 52% / 66% | 43% / 67% | 73% / 96% |
 | Named run for clean power's design test: the clean standard's payment cap at $60/MWh | 31% / 41% / 52% / 66% | 43% / 67% | 73% / 96% |
 | Sensitivity: the decided set with retrofits at design capture (90%) and twice the yearly rate and ceiling (scale 2) | 31% / 41% / 52% / 66% | 43% / 68% | 73% / 97% |
-| Sensitivity: retrofits at design capture and scale 2, with 45Q stacking on the carbon price (memo 8) | 30% / 41% / 52% / 66% | 43% / 68% | 73% / 97% |
+| Sensitivity: retrofits at design capture and scale 2, with 45Q stacking on the carbon price (memo 8) | 30% / 41% / 52% / 66% | 43% / 68% | 72% / 97% |
 | Sensitivity: 2029 current law with the 2026-28 permitting package enacted | 24% / 28% / 33% / 42% | 29% / 42% | 58% / 82% |
 | Sensitivity: the decided set with the permitting package | 31% / 42% / 55% / 67% | 44% / 69% | 77% / 98% |
 
@@ -182,11 +182,11 @@ Against 2029 current law, the decided set avoids about 28,164 Mt CO2e over 2030-
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | + the methane fee (point 3; REV-C3): **the decided set** | 0 | 0 / 0 | 0 / 0 | 0 | 41% / 66% | 0.0 / 0.0 | 20 / 0 |
 | the decided set with carbon-capture retrofits on existing plants at the research-based limits (scale 1) | 0 | 0 / 0 | 0 / 0 | 0 | 41% / 66% | 0.0 / 0.0 | 20 / 0 |
-| retrofits at the research-based limits (scale 1), with 45Q paid on top of the carbon price avoided (stacking; memo 8) | 25 | 0 / 5 | 0 / 16 | 13 | 41% / 66% | 0.3 / 10.9 | 92 / 164 |
+| retrofits at the research-based limits (scale 1), with 45Q paid on top of the carbon price avoided (stacking; memo 8) | 25 | 0 / 10 | 0 / 21 | 17 | 41% / 66% | 1.9 / 15.0 | 92 / 163 |
 | the decided set with retrofits at design capture (90%) and twice the yearly rate and ceiling (scale 2) | 12 | 0 / 0 | 0 / 30 | 30 | 41% / 66% | 0.0 / 0.0 | 20 / 0 |
-| retrofits at design capture and scale 2, with 45Q stacking on the carbon price (memo 8) | 50 | 0 / 13 | 0 / 34 | 34 | 41% / 66% | 1.5 / 28.9 | 92 / 160 |
+| retrofits at design capture and scale 2, with 45Q stacking on the carbon price (memo 8) | 50 | 6 / 13 | 6 / 34 | 65 | 41% / 66% | 9.3 / 53.2 | 92 / 158 |
 
-45Q in 2025 $ billion, calendar years. Retrofits' 45Q is in the engine's credits; 45Q on new capture plants and industrial capture is reported only (the ledger books current-law 45Q outside this model). "Stacking" (`q45Stack`) pays 45Q on top of the carbon price a stored ton avoids; the other runs pay the larger of the two, the engine's default. Coal retrofits started under stacking are not completed: the engine retires coal on price and the 2040 standard without regard to a retrofit under way (a known limit).
+45Q in 2025 $ billion, calendar years. Retrofits' 45Q is in the engine's credits; 45Q on new capture plants and industrial capture is reported only (the ledger books current-law 45Q outside this model). "Stacking" (`q45Stack`) pays 45Q on top of the carbon price a stored ton avoids; the other runs pay the larger of the two, the engine's default. A coal unit with a retrofit under way is not retired if the retrofit will meet the power plant standard (capture of at least 90%, CLI-4R.01); at 75% capture in operation it cannot, so under the standard no coal retrofit starts.
 
 
 **HI-2, month by month** (gap between the engine's and EIA's measured coal and gas power CO2, %; the gas-to-coal price ratio in brackets):
@@ -229,7 +229,7 @@ Against 2029 current law, the decided set avoids about 28,164 Mt CO2e over 2030-
 - **BK-1.** Shows the engine's new options default to the old behavior and the accounts read the engine as carbon-model.py does; the drift check on the legacy outputs shows the same from the other side.
 - **BK-2.** Memo 1 scaled the legacy model's receipts by power and industry's share; this runs the narrower price, so buildings and non-road fuel respond as unpriced sectors and industry pays on its covered share.
 - **DI-1.** A shape test: the levels depend on the coverage and on the 20% that does not return as the dividend.
-- **HI-1.** Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once (average gap 9.1%). The dispatch now splits each block of plants by the spread of fuel prices EIA measures across states (30% of the average price for coal, 20% for gas; SRC-5058 to SRC-5061) times a labeled calibration of 1.5 (assumptions.csv, fuel_spread_mult). That roughly halves the gap but does not close it. An earlier version left out 2021-22 for the coal shortage EIA documents (SRC-5062, SRC-5063). The monthly run (HI-2) does not support that: the same over-response appears, in the other direction, in months when stockpiles were full, and the stockpile adds nothing once prices are counted. So every year is scored, and the check fails. The engine still switches between coal and gas too readily when prices move; a carbon price works through the same switch, so its near-term power cut leans high (EP-1, EP-3). The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built.
+- **HI-1.** Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once (average gap 9.1%). The dispatch now splits each block of plants by the spread of fuel prices EIA measures across states (30% of the average price for coal, 20% for gas; SRC-5058 to SRC-5061) times a labeled calibration of 1.5 (assumptions.csv, fuel_spread_mult). That roughly halves the gap but does not close it. An earlier version left out 2021-22 for the coal shortage EIA documents (SRC-5062, SRC-5063). The monthly run (HI-2) does not support that: the same over-response appears, in the other direction, in months when stockpiles were full, and the stockpile adds nothing once prices are counted. So every year is scored, and the check fails. The engine still switches between coal and gas too readily when prices move; a carbon price works through the same switch, so its near-term power cut leans high (EP-1, EP-3). The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built. **Damped switching, tested and not adopted** (`coalDamp` 0.6, assumptions.csv `coal_damp`): letting plants move only 60% of the way from last period's dispatch toward this period's narrows the yearly gap to 5.2% (still a fail) and the monthly gap to 6.9%, but only on the cheap-gas side (-8.2% in those months; +7.4% when gas is dear, nearly unchanged). It also cuts the engine's short-run elasticity of coal-and-gas CO2 to the gas price from 0.26 to 0.16; the published estimates the M4 research noted (Knittel, Metaxoglou and Trindade, NBER w21627, 2015) are to be checked before any damping is adopted. The remaining gap sits mostly in 2021-22, the dear-gas, short-coal months, where a lag cannot help.
 - **HI-2.** The gap moves with the gas-to-coal price ratio: its logarithm alone explains 89% of the month-to-month gap (+19.5 points per unit). Adding the coal stockpile's shortfall from its usual level for the month leaves the fit at 90% (+0.07 points per million tons): once prices are counted, the 2021-22 shortage explains little, though the two moved together (stocks were lowest when gas was dearest), so annual data could not tell them apart. So the engine's coal-gas switching is too strong in both directions, not only when coal was short. A test of one cause, coal bought under take-or-pay contracts (fuel cost sunk in the short run), improved the monthly fit from about 8% to 6% at a 30% contracted share, but the 2025 recalibration then put coal's running cost at $9-14/MWh, above published figures; it is not adopted until the contract evidence is in. February 2021 (Winter Storm Uri, gas at $17) is shown but left out of the fit.
 
 ## Run log
@@ -257,13 +257,13 @@ Offset rate 0.244, inflation 0.022; calendar year y booked as fiscal year y; nom
 - `models/data/inputs/carbon-parameters.csv`: `1209e9fbd89f3e64`
 - `models/data/inputs/excise-offset.csv`: `8cc362a5d923b385`
 - `models/tools/carbon/cfd-cex-2024.json`: `11f4b296801bc20d`
-- `models/tools/energy/assumptions.csv`: `bc69ceb76be5dc40`
+- `models/tools/energy/assumptions.csv`: `0f7325e0e127d266`
 - `models/tools/energy/data.py`: `f36b324e0b55e161`
 - `models/tools/energy/engine.js`: `02cfae2717d425cc`
 - `models/tools/energy/engine/cfd-households.js`: `cf0b0d33ac3e8213`
-- `models/tools/energy/engine/cfd-model.js`: `813761bcde2122ea`
+- `models/tools/energy/engine/cfd-model.js`: `6a70ccb6dd45a284`
 - `models/tools/energy/history.js`: `4882d3c65521f29e`
-- `models/tools/energy/history.py`: `799b3ee741789e7f`
+- `models/tools/energy/history.py`: `6d5db6f13804cfdb`
 - `models/tools/energy/model.py`: `35dd0b3933af75d8`
-- `models/tools/energy/run.py`: `ffc5f6f7c0141725`
+- `models/tools/energy/run.py`: `0602f9d5edfe9d49`
 - `models/tools/transportation/moving_america.py`: `3cc781a2a1312dbb`

@@ -161,7 +161,17 @@ const CFD = (() => {
     const fixed = ((coal ? R.capexCoal : R.capexGas) * w.fcr + (coal ? R.fomCoal : R.fomGas)) / (0.7 * 8.76);
     return gain - fixed;
   }
+  // Project 2050 M4 (HI-1, HI-2): damped coal-gas switching. Plants move only part of the way, coalDamp (null: off, the original), from
+  // the dispatch their reference prices would give (w.dampRef: last period's fuel prices and carbon price) toward this period's.
+  // Partial adjustment, as in Knittel, Metaxoglou and Trindade (NBER w21627, 2015); prices, margins and capacity come from this period's dispatch.
   function dispatch(S, G, P, w, y) {
+    const d = dispatch0(S, G, P, w, y), lam = w.coalDamp, ref = w.dampRef;
+    if (lam === null || lam === undefined || !ref) return d;
+    const r = dispatch0(S, G, ref.P === undefined ? P : ref.P, Object.assign({}, w, { coalPower: ref.coalPower, gasPower: ref.gasPower }), y), gen = {};
+    for (const k of new Set([...Object.keys(d.gen), ...Object.keys(r.gen)])) gen[k] = (r.gen[k] || 0) + lam * ((d.gen[k] || 0) - (r.gen[k] || 0));
+    return Object.assign({}, d, { gen, emis: r.emis + lam * (d.emis - r.emis), h2Mt: r.h2Mt + lam * (d.h2Mt - r.h2Mt), coalCF: S.coal > 0.5 ? (gen.coal || 0) / (S.coal * 8.76) : 0 });
+  }
+  function dispatch0(S, G, P, w, y) {
     const windE = S.windE, solE = S.solE, nucE = S.nuc * w.cf.nuc * 8.76;
     const storE = S.storE || S.stor * 4, dur = storE / S.stor, storShift = storE * 0.365, stC = Math.min(0.85, 0.6 + 0.05 * (dur - 4)); // TWh/yr shifted; longer batteries shift more and count for more at the peak
     const vs = (windE + solE) / G, thr = 0.42 + w.pmCurt * (S.phi || 0) + w.gpCurt * (S.gp || 0) + w.gsCurt * (S.gs || 0) + Math.min(Math.min(0.2, 0.13 * dur / 4), 3 * storShift / G);
@@ -427,13 +437,18 @@ const CFD = (() => {
       const coalGF = coalVC + w.fom.coal / (Math.max(0.15, dx.coalCF) * 8.76);
       let ret = Math.min(S.coal, w.coalSched) + S.coal * 0.15 * logistic((coalGF - best) / 8) + (dx.coalCF < 0.15 ? S.coal * 0.15 : 0);
       if (pol.standards && y + 1 >= 2033) ret += S.coal / Math.max(1, 2040 - y); // reinstated power plant rule: unabated coal out by 2040
+      // Project 2050 M4: a coal unit with a retrofit under way that will meet the standard (capture at least R.comply, CLI-4R.01's 90%) is not retired;
+      // without the standard any retrofit is kept. A retrofit below that capture cannot comply, so none starts under the standard and any built retire by 2040.
+      const retroOK = w.retro ? (!pol.standards || w.retro.capture >= (w.retro.comply || 0.9)) : false;
+      if (retroOK) ret = Math.min(ret, Math.max(0, S.coal - retroQ.filter(c => !c.done).reduce((a, c) => a + c.coal, 0)));
+      if (w.retro && !retroOK && pol.standards && y + 1 >= 2040) S.coalR = 0;
       ret = Math.min(S.coal, ret); S.coal -= ret;
       // Project 2050 M4: capture retrofits. Each year, where the expected carbon price or 45Q covers the cost (retroEcon), owners start
       // (from the year `start`) retrofits on coal units still running (coal first, up to coalElig) and then on combined cycles, at most rate GW a year and cap GW
       // in all (both times scale); a retrofit comes online lead years later, derated, and earns 45Q for 12 years if it started by q45End - 3.
       if (w.retro && y >= w.retro.start) { const R = w.retro, room = Math.max(0, R.cap * R.scale - retroStarted), q45ok = y <= S.q45End - 3, q45 = q45ok ? w.q45 : 0;
         let budget = Math.min(R.rate * R.scale, room);
-        const coalLeft = Math.max(0, Math.min(S.coal - retroQ.reduce((a, c) => a + c.coal, 0), R.coalElig - retroCoalStarted));
+        const coalLeft = Math.max(0, Math.min(S.coal - retroQ.reduce((a, c) => a + c.coal, 0), R.coalElig - retroCoalStarted)) * (retroOK ? 1 : 0);
         const sc = budget > 0 && retroEcon(w, R, 'coal', Pe, q45) > 0 ? Math.min(budget, coalLeft) : 0; budget -= sc;
         const sg = budget > 0 && retroEcon(w, R, 'gas', Pe, q45) > 0 ? Math.min(budget, Math.max(0, S.cc - retroQ.reduce((a, c) => a + c.gas, 0))) : 0;
         if (sc + sg > 0) { retroQ.push({ on: y + R.lead, coal: sc, gas: sg, q45: q45ok }); retroStarted += sc + sg; retroCoalStarted += sc; }
