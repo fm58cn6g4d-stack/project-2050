@@ -1,0 +1,266 @@
+Source: https://www.eia.gov/outlooks/aeo/retrospective/
+Publisher: U.S. Energy Information Administration
+Retrieved: 2026-11-13
+Original SHA-256: f480031b3e1b41cc135899f456a936242cbb4da9d2a172d7ec2946e2a7a04b65
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Annual Energy Outlook Retrospective Review -
+U.S. Energy Information Administration (EIA)
+Analysis & Projections
+Skip to page content
+Overview
+Browse Data
+Monthly short-term forecasts through the next calendar year
+Annual projections to 2050
+International projections
+All projections reports
+Search by Tag
+Major Topics
+Find by
+Most popular
+AEO (Annual Energy Outlook)
+Congressional & other requests
+IEO (International Energy Outlook)
+STEO (Short-Term Energy Outlook)
+All reports
+Alphabetical
+Recurring
+Tag Cloud
+Glossary
+FAQS
+Annual Energy Outlook 2025
+Annual Energy Outlook Retrospective 2025
+Release Date:
+March 10, 2026
+Next Release Date:
+TBD
+Full report PDF
+Report charts XLSX
+Data file CSV
+Data file visualization tool
+Introduction
+Each Annual Energy Outlook (AEO) provides detailed projections on U.S. energy production, consumption, and prices. The AEO Retrospective compares recent history with projections from previous editions of the AEO. The AEO Retrospective shows the relationship between past AEO projections and actual energy indicators, and it informs discussions about the underlying models.
+AEO projections are not statements of what will happen but of what we believe could happen given specific assumptions supplied to our National Energy Modeling System (NEMS). Our assumptions are publicly available and include externally developed oil price paths and GDP projections. The core AEO cases (High/Low Macroeconomic Growth, High/Low Oil and Gas Supply, High/Low Zero-Carbon Technology Cost, High/Low Oil Price) assume current laws and regulations are unchanged throughout the projection period and the policies with end dates expire without extensions. In addition, most AEO case projections assume that other trends are consistent with historical and current market behavior as well as technological and demographic changes.
+Many factors contribute to differences between the AEO projections and realized outcomes. Changes in laws or regulations, industry-specific market conditions, and technological breakthroughs can lead to significant differences between projections and realized outcomes. For some measures, the AEO case design contributes to the tendency to over- or under-estimate measures. For example, we produce the AEO Reference case with the assumption that current laws and regulations that affect the energy sector remain unchanged throughout the projection period. If policies are set to expire, we let them expire and do not assume they are extended. Historically, new laws and regulations generally have reduced energy intensity. As a result, the AEO Reference case typically, but not always, overestimates energy intensity. Similarly, in the Reference case, tax credits with end dates expire according to existing laws and regulations. This factor historically caused an underestimation of renewable energy because the tax credit incentives for wind and solar projects were extended multiple times.
+Past AEO Retrospectives focused on Reference case tables that compared the absolute percentage differences for many of the primary variables published in AEOs. This year, we are revising the publication in two ways. First, we are enhancing data availability by releasing a new data file and updated viewer for select indicators across most AEO cases since 2005. The dataset analyzed in this report is only a small subset of the larger dataset. Second, we are revising this AEO Retrospective to highlight trends across NEMS cases, highlighting how the AEO analytic results have changed over time. We explore trends across multiple fuel types and sectors. In this publication, we only show our projections until 2030, to focus on the differences between our projections and historical outcomes.
+Three technical notes. First, in some series there is a gap between the historical data and where projections begin. This gap is due to updates to the historical series after the AEO analytic cutoff and, in some cases, revisions to how EIA converts renewable energy generation to British thermal units. Second, all monetary values have been normalized using real 2012 U.S. dollars to enable comparisons across years and outlooks. Third, the data was pulled from the new data file as of August, 2025.
+Energy Consumption Grew More Slowly than Projected, Driven by Case Design and Structural Economic Shifts
+Across AEO vintages, projected total energy consumption through 2030 exceeded realized consumption, with actual energy use remaining relatively flat from the mid-2000s onward despite continued population growth.
+This result is due to a combination of regulatory and economic factors that result in slower growth than in our projections. First, later-released legislation and regulations (such as provisions from the Inflation Reduction Act, updated appliance and fuel economy standards, and modernized building codes) increased efficiency and reduced energy consumption relative to our assumption of unchanged laws and regulations. Second, slower-than-assumed economic growth following the 2008 financial crisis, demand reductions during the COVID-19 pandemic in 2020 2021, and longer-term shifts toward less energy-intensive economic activity reduced energy demand relative to projections that assumed steady macroeconomic trends. For example, during the COVID-19 pandemic, energy use for transportation declined as work from home became more prevalent and leisure travel decreased.
+Data source: U.S. Energy Information Administration, Annual Energy Outlook (AEO) Retrospective 2025
+Efficiency Gains in Shale Gas Production and International Demand for U.S. Natural Gas Drove Natural Gas Production Higher
+Dry natural gas production grew faster than projected across nearly all AEO cases beginning in the late 2000s, while net natural gas imports declined more rapidly than projected, and natural gas consumption exceeded projections in most years.
+Beginning around 2008, unprecedented productivity gains in shale gas production, including longer horizontal laterals, improved hydraulic fracturing techniques, and higher recovery rates lowered production costs and increased supply beyond modeled assumptions. Faster coal retirements in the 2010s increased natural gas use in the power sector. At the same time, natural gas increasingly served as a balancing and reliability resource as renewable generation expanded, raising consumption.
+Higher domestic production reduced import needs more quickly than projected. Additionally, growth in liquefied natural gas export capacity and global demand for U.S. natural gas led to a more rapid decline in net imports than projected in most AEO vintages.
+Dry natural gas production rose more rapidly than projected across most cases. In some years, natural gas production exceeded projections in the High Oil and Gas Supply (HOGS) case even with the faster resource development assumed in that case.
+Data source: U.S. Energy Information Administration, Annual Energy Outlook (AEO) Retrospective 2025
+Note: HOGS=High Oil and Gas Supply Case
+Coal Consumption and Production Declined Faster than Projected
+Coal consumption and production declined more rapidly than projected in the Reference case and most alternative cases, particularly after 2010.
+In the mid-2010s, rapid growth in low-cost shale gas reduced natural gas prices and displaced coal in the electric power sector. In the 2020s, additional declines occurred as environmental regulations, including U.S. Environmental Protection Agency (EPA) Section 111 performance standards, contributed to accelerated coal plant retirements.
+Differences between realized outcomes and EIA’s projections were more pronounced in many High Economic Growth cases, where we projected coal consumption as higher than the Reference case projections to meet increased demand driven by economic growth.
+Data source: U.S. Energy Information Administration, Annual Energy Outlook (AEO) Retrospective 2025
+Observed Natural Gas and Coal Fuel Prices Have Been Generally Lower than Projected
+Real natural gas and coal prices were generally lower than projected, with observed prices declining more sharply following periods of elevated prices.
+For natural gas, efficiency gains from shale resources led to higher-than-projected production leading to lower prices beginning in the 2010s, while coal prices declined as demand contracted faster than projected.
+Electricity prices remained within a relatively narrow range and were generally close to, or slightly below, Reference case projections through 2025.
+Electricity prices are influenced by multiple interacting factors, including fuel costs, capital investments, regulatory compliance, and market structure. Declining natural gas prices and lower-than-expected renewable generation costs offset anticipated increases in capital and compliance costs, resulting in prices consistent with long-run AEO projections.
+Side case projections for prices are generally consistent with Reference case projections until 2030 and tend to have a broader impact on prices in the long-term.
+Data source: U.S. Energy Information Administration, Annual Energy Outlook (AEO) Retrospective 2025
+Note: HOGS=High Oil and Gas Supply Case
+Oil Production and Petroleum Exports Increased More Rapidly than Projected
+Across AEO vintages, domestic crude oil production increased more rapidly than projected in the Reference case, particularly beginning in the early 2010s. As production rose, petroleum net imports declined faster than projected, and the United States became a net exporter of petroleum.
+Rapid growth in tight oil production, driven by technological advances such as horizontal drilling and hydraulic fracturing substantially increased domestic crude oil supply beyond modeled assumptions beginning in the early 2010s. This rapidly increasing production drove the buildout of additional export capacity, and U.S. crude oil and petroleum product exports became increasingly important in meeting international demand. The repeal of crude oil export restrictions in late 2015 and growing global refining demand enabled exports to rise more quickly than earlier projections, accelerating declines in net imports. Earlier AEO projections assumed more gradual production growth and more limited export market development, which contributed to projected petroleum net imports remaining higher than realized outcomes.
+Comparing with the High and Low Oil and Gas Supply cases shows that while these scenarios generally bounded actual outcomes, even projections that assumed greater resource availability and faster technological progress underestimated the rapid production growth and the subsequent decline in petroleum net imports.
+Data source: U.S. Energy Information Administration, Annual Energy Outlook (AEO) Retrospective 2025
+Note: HOGS = High Oil and Gas Supply Case
+Note: LOGS = Low Oil and Gas Supply Case
+Renewable Generation Grew Faster than Projected while Nuclear Generation was Closer to Projections
+Wind and solar generation grew faster than projected in the Reference case beginning in the 2010s, while nuclear generation remained relatively close to projections.
+Rapid declines in wind and solar technology costs, improvements in capacity factors, and repeated extensions of federal production and investment tax credits, along with state renewable portfolio standards, increased renewable deployment beyond modeled baselines. Nuclear generation outcomes were sensitive to late-breaking plant-level decisions such as revised retirement announcements, license renewals and extensions, changes in capacity factors, and the introduction of state or federal financial support, which caused realized generation to periodically exceed or fall below projections based on information available at the time of each AEO.
+Data source: U.S. Energy Information Administration, Annual Energy Outlook (AEO) Retrospective 2025
+Top
+About the Annual Energy Outlook
+Contact information and staff
+Download NEMS
+Retrospective Review
+NEMS: An Overview (2023) PDF
+Previous Editions of the AEO Evaluation of Projections in Past Editions
+Select Year
+dropdown arrow
+2022
+2020
+2018
+2016
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+See all
+Documentation and Assumptions
+Trends and Expectations Surrounding the Outlook for Energy Markets (August 2020)
+-->
+Annual Energy Outlook 2025 Case
+Descriptions
+Assumptions report
+Working Groups
+Model Documentation
+Additional AEO Documentation
+AEO2025 Model Development
+Statistics
+Analysis
+Tools
+Education
+News
+Petroleum & Other Liquids
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+Natural Gas
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+Electricity
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+Coal
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+Nuclear & Uranium
+Uranium fuel, nuclear reactors, generation, spent fuel.
+Renewable & Alternative Fuels
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Total Energy
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+Monthly Energy Review
+Annual Energy Review
+Consumption & Efficiency
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+Residential Energy Consumption Survey (RECS)
+Commercial Buildings Energy Consumption Survey (CBECS)
+Manufacturing Energy Consumption Survey (MECS)
+U.S. States
+State energy information, including overviews, rankings, data, and analyses.
+State Energy Data System (SEDS)
+International
+International energy information, including overviews, rankings, data, and analyses.
+International Energy Statistics
+Environment
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+U.S. Energy-Related Carbon Dioxide Emissions
+Energy-Related Carbon Dioxide Emissions at the State Level, 2005-2016
+Energy-Related Carbon Dioxide Emissions at the State Level
+Analysis and Projections
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+Short-Term Energy Outlook
+Annual Energy Outlook
+Special Reports
+Special market analysis and/or data requests.
+EIA-112 Residential Utility Disconnections
+SHIP Act
+Energy & Financial Markets: What Drives Crude Oil Prices?
+International
+International energy analyses.
+Regional Analysis Briefs
+Country Analysis Briefs
+World Oil Transit Chokepoints
+OPEC Revenue
+Global Energy Security Data
+Glossary
+Data Tools, Apps, & Maps
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+Open Data
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+EIA Beta
+Come test out some of the products still in development and let us know what you think!
+Open Source Code
+EIA's open source code, available on GitHub.
+All Reports & Products
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Email Updates
+Sign up for email subscriptions to receive messages about specific EIA products
+RSS Feeds
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+Follow us. . .
+A-Z Index
+A |
+B |
+C |
+D |
+E |
+F |
+G |
+H |
+I |
+J |
+K |
+L |
+M |
+N |
+O |
+P |
+Q |
+R |
+S |
+T |
+U |
+V |
+W |
+XYZ
+Today in Energy
+Short, timely articles with graphics on energy, facts, issues, and trends.
+Energy Explained
+What is Energy?
+Units & Calculators
+U.S. Energy Facts
+Use of Energy
+Energy & Environment
+Petroleum
+Hydrocarbon Gas Liquids
+Natural Gas
+Coal
+Nuclear
+Electricity
+Hydrogen
+Hydropower
+Biofuels
+Biomass
+Wind
+Geothermal
+Solar
+For Teachers
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+Glossary
+FAQs
+Coal
+Conversion & Equivalents
+Oil/Petroleum
+Diesel
+Electricity
+Environment
+Gasoline
+General Energy
+Natural Gas
+Nuclear
+Prices
+Renewables
+What's New?
+Monthly Densified Biomass Fuel Report
+Nov 12, 2026
+Wholesale Electricity Market Data
+Nov 12, 2026
+Short-Term Energy Outlook
+Nov 10, 2026
+Press Room
+Press Releases
+Congressional Testimony
+Presentations
+Events

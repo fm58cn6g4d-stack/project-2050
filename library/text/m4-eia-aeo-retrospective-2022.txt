@@ -1,0 +1,393 @@
+Source: https://www.eia.gov/outlooks/archive/aeo22/retrospective/
+Publisher: U.S. Energy Information Administration
+Retrieved: 2026-11-13
+Original SHA-256: 4a0359f07dbd5183ed17b5bcb3de0a286743d6981644abf79454d062a3182125
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+Annual Energy Outlook Retrospective Review - Energy Information Administration
+U.S. Energy Information Administration (EIA)
+Analysis & Projections
+Glossary › FAQS ›
+Overview
+Projection Data
+Monthly short-term forecasts through the next calendar year
+Annual projections to 2050
+International projections
+All projections reports
+Analysis & Projections
+Major Topics
+Most popular
+AEO (Annual Energy Outlook)
+Congressional & other requests
+IEO (International Energy Outlook)
+STEO (Short-Term Energy Outlook)
+All reports
+Find by
+Alphabetical
+Recurring
+Tag Cloud
+‹ Analysis & Projections
+Annual Energy Outlook Retrospective Review
+Release Date: September 14, 2022 | Next Release Date: December 2023 | Full report | Tables data
+Evaluation and Previous Reference Case Projections
+We project U.S. energy production, consumption, and prices each year in the Annual Energy Outlook (AEO). We produce the AEO on an alternating cycle: in even years, we include complete documentation and a large number of alternative cases, and in odd years, we include limited documentation and fewer alternative cases. Following an even year AEO, we also produce an Annual Energy Outlook Retrospective (AEO Retrospective) which compares recent history with Reference case projections from previous editions of the AEO. The AEO Retrospective shows the relationship between past AEO projections and actual energy indicators, and it informs discussions about the underlying models.
+AEO projections are not statements of what will happen but of what we believe would happen given specific assumptions supplied to our National Energy Modeling System (NEMS). Our assumptions are publicly available and include externally developed oil price paths and GDP projections. 1 The AEO Reference case projection generally assumes that other trends are consistent with historical and current market behavior as well as technological and demographic changes. The AEO Reference case assumes current laws and regulations are unchanged throughout the projection period and those policies with end dates expire without extensions.
+Although the AEO Retrospective focuses on only Reference case projections, the AEO contains a range of cases, and this range explores some of the uncertainty inherent in long-term projections. Each year’s AEO typically includes Low and High Economic Growth cases, Low and High Oil and Gas Supply cases, Low and High Oil Price cases, and Low and High Renewables Cost cases. Past AEOs have also included alternative cases examining the impact of proposed policy changes.
+Methodology
+The AEO Retrospective summarizes the relationship between the Reference case projections and realized energy use by comparing absolute differences and the average absolute percentage differences for many of the primary measures published in AEOs from 1994 to 2022. 2 The average absolute percentage difference is the simple mean of the absolute percentage difference between all of the Reference case projections for a given year and the associated historical value. 3 Most historical data are from the Monthly Energy Review (MER), which can be accessed from our open data API . 4 Table 1 summarizes 31 comparisons based on 27 primary measures projected in the AEO given four measures are shown in nominal and real dollars.
+This year’s AEO Retrospective includes measures for six sources of electricity generation: solar, wind, conventional hydroelectric, coal, natural gas, and nuclear. Through 2007, the combined net generation from solar and wind was less than 1.0% of U.S. generation, but it grew to 1.4% just a year later and to 12.0% by 2021. So, since AEO2007, the AEO Retrospective focuses on comparing actuals against projections to focus on the years when wind and solar formed a growing share of the nation’s net generation mix. We expect to continue these measures in future AEO Retrospectives.
+To illustrate the degree of variance, Table 2 shows the standard deviations of the percentage forecast errors between the Reference case projections and the actual values for every horizon H=0 to H=15 based on a 2017 paper authored by researchers Lynn H. Kaack, Jay Apt, M. Granger Morgan, and Patrick McSharry. 5, 6 For price estimates, we compute the standard deviations of the log errors because the authors in the aforementioned methodology 7 found that the error distributions of price quantities are asymmetric as a result of prices being generally log-normally distributed.
+Table 3 through Table 29 show detailed results that include the Reference case projections, historical values, and percentage differences between projected and actual values for all covered years. These tables also provide the average absolute difference across all AEOs for each covered year. Prior-year statistics can change from one year’s evaluation to the next because of revisions to historical data in the MER and changes in the measurement of GDP. In addition, NEMS is not static, and statistical biases may change over time. EIA reviews this report and other analyses and modifies NEMS to capture developing energy market trends more accurately.
+Key findings
+Table 1 shows that 20 of the 31 variables have historically been overestimated more than they were underestimated. In a statistically unbiased projection, with a sufficiently large number of samples, over- or under-estimates over time would occur in equal measure. With some earlier years having only a small number of associated projections, many of these samples may not be statistically significant. The second column of Table 1 summarizes the percentage of occurrences in which a particular measure was overestimated relative to its actual value out of the total number of annual projections for which an actual value can be compared. A zero indicates that a measure was always underestimated, and 100% indicates a measure was always overestimated. Quantities that are over- or underestimated significantly more than 50% of the time may be considered biased, though formal statistical tests would be required to confirm.
+As reflected in the average absolute percentage differences in the first column of Table 1, we project measures of energy consumption with greater accuracy than measures of net imports and of energy prices. AEO Reference case projections for total energy consumption varied, on average, 9.2% above or below actuals. Energy consumption tends to change at a slower pace than other indicators, in part, because many energy-using devices, such as appliances, automobiles, and industrial equipment, are expensive to purchase and have long service lives. The substantial lead time for these large purchases, along with the effects of energy contracts and other mechanisms, tend to slow changes in consumer energy demand.
+Projections varied more widely from actuals for net imports of petroleum and natural gas. Projections of net imports of petroleum differed, on average, by nearly five times from actuals because of the earlier models underestimating net U.S. exports of crude oil and petroleum products. For example, the Reference cases from AEO1998 through AEO2018 showed the United States as a net importer of petroleum and other liquids through 2020 when, in fact, the United States became a net exporter starting in late 2019.
+In general, we identify the input assumptions with the highest combination of uncertainty and impact and use those to form the basis for our alternative scenarios in the AEO. Many factors contribute to differences between the AEO Reference case projections and realized outcomes, but two primary contributors are the initial projections of future oil prices and the overall economic activity that we used in NEMS, 8 which are both exogenous inputs to the model. 9 These projections can greatly influence the other projections the model makes, which is why each recent AEO includes alternative cases exploring differences in economic growth (Low and High Economic Growth cases) and in oil prices (Low and High Oil Price cases). Changes in industry-specific market conditions, significant technological breakthroughs, and new laws or regulations (effective after we published an AEO) can also lead to significant differences between projections and realized outcomes.
+For some measures, the AEO Reference case design contributes to the tendency to over- or under-estimate measures. As an example, we produce the AEO Reference case with the assumption that current laws and regulations that affect the energy sector remain unchanged throughout the projection period. New laws and regulations tend to reduce energy intensity, and as a result, the AEO Reference case typically, but not always, overestimates energy intensity. In the AEO, tax credits with sunset dates expire according to existing law and regulation. This causes an underestimate of renewable energy, as the production tax credit (PTC) and investment tax credit (ITC), which incentivize the development of wind and solar projects, have been extended multiple times.
+Among the six primary sources of electricity generation listed in the retrospective, our projections for nuclear generation show the least variance, differing, on average, 4.0% (31 billion kilowatthours [BkWh]) for years 2006–2021. Nuclear generators tend to have high capacity factors that are quite stable over time, with a relatively long realized asset life. 10 Coal-fired generation projections were higher than actuals by an average of 48.8%, or 513 BkWh. Most AEO projections since the AEO2007 overestimated coal and hydroelectric generation figures and underestimated generation from natural gas, solar, and wind. Our projections were higher than actuals for natural gas-fired generation by about 19.8%, or 281 BkWh for years 2006-2021. Solar generation projections were under actuals by about 46.2%, or 38 BkWh, and for wind by 29.4%, or 74 BkWh over that time period. For wind and especially solar, the relatively high percent deviation is largely a function of the relatively small value of these series in relationship to the whole. That is, the 38 BkWh difference is about a third of the total solar power generated in the U.S. in 2021, which was 113.8 BkWh, and less than 2% of the 1,474 BkWh of generation from natural gas that same year. For solar, the lack of granular data before 2014 for small-scale systems that are less than 1 megawatt contributed to the variance. AEOs from 2009 to 2015 show that our estimates of grid-connected solar photovoltaic (PV) capacity were about 4% or higher than Solar Electric Industry Association estimates, depending on the level of assumed policies. 11
+Because these six series represent the bulk of electricity generation, any overestimate in one series will tend to lead to an underestimate in one or more other series (and vice versa) because generation from all sources must equal projected electricity demand each year of the projection period. 12 Although individual generation resources showed more variance, estimates of electricity sales differed by only about 7.4% for years 1993–2021.
+EIA has focused on adoption rates of renewable energy technologies in recent years, with significant revisions to NEMS modeling inputs since 2015. In 2016, we wrote “Wind and Solar Data and Projections from the U.S. Energy Information Administration: Past Performance and Ongoing Enhancements”, 13 which identified policy as a major driver outside the Reference case analysis. EIA also carefully examines our technology costs each year, 14 and periodically release a report that evaluates the overnight capital cost and performance characteristics for 25 electric generator types. 15
+These new measures, like existing measures, help inform EIA about the uncertainty in the Reference case. As discussed in this section, consumption metrics tend to vary less than price metrics. In areas with revolutionary technology cost changes or policy changes, the AEO Reference and core side cases will tend to have statistical biases as a feature of the case design. The retrospective highlights projection measures with unintended biases and measures warranting further research.
+Table 1. Comparison of AEO Reference case projections with realized outcomes, 1994–2021
+Variable
+Average absolute percentage differences (%)
+Percentage of projections over-estimated (%)
+Gross domestic product
+Real gross domestic product (average cumulative growth) 1 (table 3)
+0.8
+61.1
+Petroleum
+Imported refiner acquisition cost of crude oil (constant dollars) (table 4a)
+45.6
+32.8
+Imported refiner acquisition cost of crude oil (nominal dollars) (table 4b)
+41.3
+30.1
+Total petroleum and other liquids consumption (table 5)
+10.5
+72.5
+Crude oil production (table 6)
+19.4
+31.6
+Petroleum net imports (table 7)
+487.5
+73.5
+Natural gas
+Natural gas price, electric power sector (constant dollars) 2 (table 8a)
+46.9
+57.8
+Natural gas price, electric power sector (nominal dollars) 2 (table 8b)
+49.7
+59.6
+Total natural gas consumption (table 9)
+8.9
+54.8
+Dry natural gas production (table 10)
+11.3
+39.4
+Natural gas net imports (table 11) 3
+284.9
+59.6
+Coal
+Coal prices to electric generating plants (constant dollars) 4 (table 12a)
+20.5
+42.2
+Coal prices to electric generating plants (nominal dollars) 4 (table 12b)
+19.6
+45.7
+Total coal consumption (table 13)
+36
+79.8
+Coal production excluding waste coal (table 14)
+29.5
+80.8
+Electricity
+Average electricity prices (constant dollars) (table 15a)
+9.8
+31.6
+Average electricity prices (nominal dollars) (table 15b)
+9.8
+38.9
+Total electricity sales excluding direct use (table 16)
+7.4
+70.5
+Solar net generation (all sectors), projected versus actual (table 17) 5,6
+46.2
+19.9
+Wind net generation (all sectors), projected versus actual (table 18) 5
+29.4
+16.2
+Conventional hydroelectric power net generation (all sectors), Projected versus actual (table 19) 5
+7.4
+72.8
+Coal net generation (all sectors), projected versus actual (table 20) 5
+48.8
+97.8
+Natural gas net generation (all sectors), projected versus actual (table 21) 5
+19.8
+8.1
+Nuclear net generation (all sectors), projected versus actual (table 22) 5
+3.9
+63.2
+Total energy, carbon and intensity
+Total energy consumption (all sectors) (table 23)
+9.2
+81.3
+Delivered residential energy consumption (table 24)
+7
+67.4
+Delivered commercial energy consumption (table 25)
+7.2
+56.8
+Delivered industrial energy consumption (table 26)
+11.2
+82.8
+Delivered transportation energy consumption (table 27)
+11.6
+78.8
+Total energy-related carbon dioxide emissions (table 28)
+14.6
+79.8
+Energy intensity (energy consumption / real dollar GDP) (table 29)
+11.7
+96.2
+Data source: Historical data are from the U.S. Energy Information Administration open data API (accessed April 2022), http://www.eia.gov/opendata/ ; GDP data from the U.S. Bureau of Economic Analysis (accessed February 2022), https://apps.bea.gov/national/xls/gdplev.xlsx
+Notes: AEO = Annual Energy Outlook. These statistics summarize the calculations in Tables 2 through 29. Tables 17–22 are based on AEO2007 through AEO2022 Reference case projections. The remaining tables are based on the AEO1994 through AEO2022 Reference case projections.
+1 The basis for GDP comparison is the projection differences in the cumulative average growth rate of real GDP from the first year shown for each AEO. The summary information for projection differences for GDP growth rates is absolute percentage point differences; for all other AEO concepts, the comparison basis is absolute percentage differences.
+2 As of 2013, the wellhead price of natural gas was no longer reported by EIA. With the 2015 edition of the Retrospective, the natural gas price to the electric power sector replaced the wellhead price.
+3 As natural gas net imports approached zero and then turned negative (indicating the change to U.S. net exporter status), the Average absolute percentage difference increased significantly.
+4 Beginning in AEO2003, EIA electric generating projections incorporated combined-heat-and-power (CHP) electricity generation in electricity generating plants. Prior to AEO2003, coal price projections reflected data collected, estimated, and reported to electric utilities and excluded CHP power generation.
+5 Beginning with the AEO2022 Retrospective, EIA included projections from AEO2007 through AEO2021 for net generation from solar, wind, conventional hydro, coal, natural gas, and nuclear.
+6 Does not include off-grid photovoltaics. Differences in data availability prior to 2014 for small-scale solar (systems less than 1 megawatt [MW] each) also contributed to the variances between projections and actuals.
+Notes
+1 NEMS documentation is available on the EIA website .
+2 We have used NEMS to prepare the AEO since 1994. This publication considers only the projections made after 1994. In addition, the Annual Energy Outlook 2009 results are from “An Updated Annual Energy Outlook 2009 Reference Case Reflecting Provisions of the American Recovery and Reinvestment Act and Recent Changes in the Economic Outlook,” which is available on the EIA website . Further, projections in the 1994 and 1995 AEOs ended in 2010, so these two publications have no entries for the later years in Tables 2 through 16 and Tables 23 through 29.
+3 For each calendar year, the historic value is compared against each AEO projected value to find the absolute difference. If the historic value in year 2010 were 10, and there were three AEO estimates of 11, 12, and 13, the absolute differences would be 1, 2, and 3. The average absolute difference is 2. In the same example, we would have 10%, 20%, and 30% difference, which would average to 20% difference in that calendar year.
+4 The exceptions include historical data related to GDP from the U.S. Department of Commerce, Bureau of Economic Analysis (BEA).
+5 The methodology used is derived from Kaack, et al., “Empirical prediction intervals improve energy forecasting,” Proceedings of the National Academies of Sciences, 114(33) published August 15, 2017.
+6 H is defined as the number of years since the first projection year, which varies by AEO (for example, H=0 corresponds to the year 2017 for AEO2018 and to the year 2016 for AEO2017).
+7 The methodology used is derived from Kaack, et al., “Empirical prediction intervals improve energy forecasting,” Proceedings of the National Academies of Sciences, 114(33) published August 15, 2017.
+8 Although dynamic feedback in the model can modify these initial forecasts, the resulting changes tend to be small.
+9 To improve these exogenous inputs, EIA relies on two sources. Each year, EIA purchases macroeconomic projections from an outside vendor, who themselves have a process for improving their GDP projections. EIA also undertakes a future World Oil Price analysis each year to best estimate a range of future oil prices.
+10 U.S. Energy Information Administration, “ In 2019, 9 of the 10 highest-generating U.S. power plants were nuclear plants .” Today in Energy , September 25, 2020.
+11 U.S. Energy Information Administration. Wind and Solar Data and Projections from the U.S. Energy Information Administration: Past Performance and Ongoing Enhancements . Washington, DC: U.S. Energy Information Administration, 2016. Accessed April 27, 2022.
+12 The price of electricity in NEMS affects projected demand for electricity, meaning that generation from higher cost sources can depress electricity demand. However, many sources of end-use demand cannot switch between fuels, and thus this tends to be a smaller effect.
+13 U.S. Energy Information Administration. Wind and Solar Data and Projections from the U.S. Energy Information Administration: Past Performance and Ongoing Enhancements . Washington, DC: U.S. Energy Information Administration, 2016. Accessed April 27, 2022.
+14 U.S. Energy Information Administration. Cost and Performance Characteristics of New Generating Technologies, Annual Energy Outlook 2022. Washington, DC: U.S. Energy Information Administration, 2022. Accessed July 29, 2022.
+15 U.S. Energy Information Administration. Capital Cost and Performance Characteristic Estimates for Utility Scale Electric Power Generating Technologies. Washington, DC: U.S. Energy Information Administration, 2022. Accessed July 29, 2022.
+Comparison tables
+Table 1. Comparison of AEO Reference case projections with realized outcomes, 1994–2021
+Table 2. Standard deviations of the forecast errors
+Projected vs. Actual
+Table 3. Real gross domestic product growth trends
+Table 4a. Imported refiner acquisition cost of crude oil (constant $)
+Table 4b. Imported refiner acquisition cost of crude oil (nominal $)
+Table 5. Total petroleum and other liquids consumption
+Table 6. Domestic crude oil production
+Table 7. Petroleum net imports
+Table 8a. Natural gas price, electric power sector (constant $)
+Table 8b. Natural gas price, electric power sector (nominal $)
+Table 9. Total natural gas consumption
+Table 10. Dry natural gas production
+Table 11. Natural gas net imports
+Table 12a. Coal prices to electric generating plants (constant $)
+Table 12b. Coal prices to electric generating plants (nominal $)
+Table 13. Total coal consumption
+Table 14. Coal production excluding waste coal
+Table 15a. Average electricity prices (constant $)
+Table 15b. Average electricity prices (nominal $)
+Table 16. Total electricity sales excluding direct use
+Table 17. Solar net generation (all sectors)
+Table 18. Wind net generation (all sectors)
+Table 19. Conventional hydroelectric power net generation (all sectors)
+Table 20. Coal net generation (all sectors)
+Table 21. Natural gas net generation (all sectors)
+Table 22. Nuclear net generation (all sectors)
+Table 23. Total energy consumption (all sectors)
+Table 24. Total delivered residential energy consumption
+Table 25. Total delivered commercial energy consumption
+Table 26. Total delivered industrial energy consumption
+Table 27. Total delivered transportation energy consumption
+Table 28. Total energy-related carbon dioxide emissions
+Table 29. Energy intensity
+About the Annual Energy Outlook
+Contact information and staff
+Information on Obtaining NEMS
+Retrospective Review
+NEMS: An Overview (2018)
+Previous Editions of the AEO Evaluation of Projections in Past Editions
+2020
+2018
+2016
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+2006 -->
+See all
+Documentation and Assumptions
+Trends and Expectations Surrounding the Outlook for Energy Markets (August 2020)
+-->
+Annual Energy Outlook 2022 Case Descriptions
+Assumptions report (2022)
+Working Groups
+Model documentation
+Additional AEO Documentation
+Statistics
+Analysis
+Tools
+Education
+News
+Petroleum & Other Liquids
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+Natural Gas
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+Electricity
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+Coal
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+Nuclear & Uranium
+Uranium fuel, nuclear reactors, generation, spent fuel.
+Renewable & Alternative Fuels
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Total Energy
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+Monthly Energy Review
+Annual Energy Review
+Consumption & Efficiency
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+Residential Energy Consumption Survey (RECS)
+Commercial Buildings Energy Consumption Survey (CBECS)
+Manufacturing Energy Consumption Survey (MECS)
+U.S. States
+State energy information, including overviews, rankings, data, and analyses.
+State Energy Data System (SEDS)
+International
+International energy information, including overviews, rankings, data, and analyses.
+International Energy Statistics
+Environment
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+U.S. Energy-Related Carbon Dioxide Emissions
+Energy-Related Carbon Dioxide Emissions at the State Level, 2005-2016
+Energy-Related Carbon Dioxide Emissions at the State Level
+Analysis and Projections
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+Short-Term Energy Outlook
+Annual Energy Outlook
+Special Reports
+Special market analysis and/or data requests.
+EIA-112 Residential Utility Disconnections
+SHIP Act
+Energy & Financial Markets: What Drives Crude Oil Prices?
+International
+International energy analyses.
+Regional Analysis Briefs
+Country Analysis Briefs
+World Oil Transit Chokepoints
+OPEC Revenue
+Global Energy Security Data
+Glossary
+Data Tools, Apps, & Maps
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+Open Data
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+EIA Beta
+Come test out some of the products still in development and let us know what you think!
+Open Source Code
+EIA's open source code, available on GitHub.
+All Reports & Products
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Email Updates
+Sign up for email subscriptions to receive messages about specific EIA products
+RSS Feeds
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+Follow us. . .
+A-Z Index
+A |
+B |
+C |
+D |
+E |
+F |
+G |
+H |
+I |
+J |
+K |
+L |
+M |
+N |
+O |
+P |
+Q |
+R |
+S |
+T |
+U |
+V |
+W |
+XYZ
+Today in Energy
+Short, timely articles with graphics on energy, facts, issues, and trends.
+Energy Explained
+What is Energy?
+Units & Calculators
+U.S. Energy Facts
+Use of Energy
+Energy & Environment
+Petroleum
+Hydrocarbon Gas Liquids
+Natural Gas
+Coal
+Nuclear
+Electricity
+Hydrogen
+Hydropower
+Biofuels
+Biomass
+Wind
+Geothermal
+Solar
+For Teachers
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+Glossary
+FAQs
+Coal
+Conversion & Equivalents
+Oil/Petroleum
+Diesel
+Electricity
+Environment
+Gasoline
+General Energy
+Natural Gas
+Nuclear
+Prices
+Renewables
+What's New?
+Monthly Densified Biomass Fuel Report
+Nov 12, 2026
+Wholesale Electricity Market Data
+Nov 12, 2026
+Short-Term Energy Outlook
+Nov 10, 2026
+Press Room
+Press Releases
+Congressional Testimony
+Presentations
+Events

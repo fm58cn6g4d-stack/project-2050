@@ -1,0 +1,1088 @@
+Source: https://www.eia.gov/outlooks/aeo/pdf/2026/OBBBA_Assumptions.pdf
+Publisher: U.S. Energy Information Administration
+Retrieved: 2026-11-13
+Original SHA-256: 9d66ab02c987cd28bfc0b49bad5413367e41af73446de6fce4755745840366ef
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+AEO2026: One Big Beautiful
+Bill Act Assumptions in the
+Counterfactual Baseline and
+core side cases
+April 2026
+
+www.eia.gov
+U.S. Department of Energy
+Washington, DC 20585
+
+The U.S. Energy Information Administration (EIA), the statistical and analytical agency within the
+U.S. Department of Energy (DOE), prepared this report. By law, our data, analyses, and forecasts are
+independent of approval by any other officer or employee of the U.S. Government. The views in this
+report do not represent those of DOE or any other federal agencies.
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+i
+
+April 2026
+The One Big Beautiful Bill Act (OBBBA), Public Law 119-21, took effect on July 4, 2025, and includes a
+number of energy-related provisions. 1 We reviewed the law for directives that would influence energy
+consumption, production, and trade in the U.S. economy as modeled in the National Energy Modeling
+System (NEMS). We incorporated provisions of this law into the Counterfactual Baseline (CB) case and
+side cases in our Annual Energy Outlook 2026 (AEO2026), unless otherwise noted. Case assumptions
+were frozen in December 2025, and AEO2026 does not include regulatory guidance or provisions issued
+after that time.
+This document is a summary; further details about how we modeled the OBBBA provisions are in the
+NEMS Assumptions documents.
+All cases use the macroeconomic outlook from S&P Global Market Intelligence as of August 2025.
+Although all provisions of the OBBBA are current law, some are not explicitly included in the NEMS
+version used for AEO2026. We did not include these provisions for one of three reasons:
+1. Guidance is not yet available on how federal agencies will implement some provisions, and
+without that guidance, we lack the details to analyze their effect. We will analyze these
+provisions in the future as we receive more clarity.
+2. A number of provisions require significant modifications to NEMS that were not possible in this
+timeframe, and we will consider ways to include these provisions in a future outlook to the
+extent possible.
+3. Other provisions do not align with our analytic resolution.
+Some provisions are not listed in the following table because they are not relevant to this analysis or had
+minor impacts to the energy system. In the Excluded column of Table 1, the numbers in bold correspond
+to one or more of the reasons listed above. The use of -- indicates that a certain column is not
+applicable.
+
+1 One Big Beautiful Bill Act, Public Law 119-21, (July 4, 2025).
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+ii
+
+April 2026
+Table 1. One Big Beautiful Bill Act provisions included or excluded in the National Energy Modeling System (NEMS)
+
+Section
+
+Provision
+
+Description
+
+Included
+
+Excluded
+
+Title I Committee on Agriculture, Nutrition, and Forestry
+10103
+
+Availability of standard
+utility allowances based
+on receipt of energy
+assistance
+
+Limits utility allowance in addition to
+other energy assistance to
+households with an elderly or
+disabled member. Treats state
+energy assistance as money paid to a
+household with no elderly or disabled
+members; treats as expense incurred
+by the household if the household
+has an elderly or disabled member.
+
+--
+
+(3)
+
+10605
+
+Bioenergy program for
+advanced biofuels
+
+Appropriates $7 million available
+annually for payments to eligible
+producers of advanced biofuels
+through 2031 (was through 2024). No
+more than 5% of the funds are
+available to producers with capacity
+greater than 150 million gallons of
+advanced biofuels.
+
+--
+
+(1,3)
+
+As of AEO2026, the CAFE
+standards for light-duty
+vehicles are not enforced in
+the model.
+
+--
+
+Title IV Committee on Commerce, Science, and Transportation
+40006
+
+Corporate average fuel
+economy (CAFE) civil
+penalties
+
+Eliminates the penalty for
+manufacturer violations of CAFE
+standards as of enactment
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+1
+
+April 2026
+Section
+
+Provision
+
+Description
+
+Included
+
+Excluded
+
+Title V Committee on Energy and Natural Resources
+Subtitle A—Oil and Gas Leasing
+50101
+
+Onshore oil and gas
+leasing
+
+Repeal of Section 50262 of Public
+Law 117-169, Offshore Oil and Gas
+Royalty Rate. That provision
+increased the minimum royalty rate
+for new offshore fossil fuel leases.
+
+Minimum royalty rate was
+reduced from 16.66% to
+12.5% in offshore module
+
+--
+
+50102
+
+Offshore oil and gas
+leasing
+
+This provision authorizes the U.S.
+Department of the Interior (DOI) to
+conduct offshore oil and gas sales in
+the Gulf of America and Alaska
+regions.
+
+--
+
+We do not explicitly model
+leasing programs. We
+assume resources in a region
+are available if economical
+and not explicitly banned. (3)
+
+50103
+
+Royalties on extracted
+methane
+
+--
+
+(2)
+
+50104
+
+Alaska oil and gas leasing
+
+Repeal of Section 50263 of Public
+Law 117-169, Royalties on All
+Extracted Methane. That provision
+modified the royalties paid for
+natural gas produced on federal land
+and on the Outer Continental Shelf,
+including natural gas lost through
+upstream equipment.
+This provision authorizes the U.S.
+Department of the Interior (DOI) to
+conduct oil and gas leasing programs
+in Alaska.
+
+--
+
+50105
+
+National Petroleum
+Reserve-Alaska
+
+This provision restores the Oil and
+Gas Leasing program established
+under section 107 of the Naval
+Petroleum Reserves Production Act
+of 1976.
+
+--
+
+We don't explicitly model
+leasing programs. We
+assume resources in a region
+are available if economical
+and not explicitly banned. (3)
+We don't explicitly model
+leasing programs. We
+assume resources in a region
+are available if economical
+and not explicitly banned. (3)
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+2
+
+April 2026
+Section
+
+Provision
+
+Description
+
+Included
+
+Excluded
+
+Existing functionality in the
+coal model fulfills this
+provision
+
+--
+
+Subtitle B—Mining
+50201
+
+Coal leasing
+
+This provision authorizes DOI to
+conduct coal leasing activities.
+
+50202
+
+Coal royalty
+
+This provision changes the coal
+royalty rate from 12.5% to 7%.
+
+50203
+
+Leases for known
+recoverable coal
+resources
+
+This provision increases federal lands
+available for lease.
+
+50204
+
+Authorization to mine
+federal coal
+
+Subtitle C—Lands
+50302
+
+Renewable energy fees
+on federal land
+
+The coal model will expand
+or contract the coal supply
+curves based on market
+demand and utilization
+rates in the various supply
+regions.
+This provision allows DOI to authorize The model already allows
+the mining of federal lands.
+mining of coal on federal
+lands.
+This provision establishes fees for
+solar and wind energy project
+development on federal lands.
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+The model excludes federal
+lands from solar and wind
+
+3
+
+The coal model supply curves
+do not differentiate between
+federal and non-federal
+lands, so there would be no
+way of implementing a policy
+change to federal coal royalty
+rates that would affect
+results, other than changing
+observed mine prices, which
+happens every year with
+calibration of the model base
+year. (3)
+--
+
+--
+
+--
+
+April 2026
+Section
+
+Provision
+
+Description
+
+Included
+
+Excluded
+
+resources available for
+capacity additions.
+50303
+
+Renewable energy
+revenue sharing
+
+Revenue-sharing provision requiring
+the U.S. Treasury to pay 25% to the
+state and additional 25% to the
+counties share of the rentals and fees
+collected from a renewable project
+on public lands where the revenue
+was generated.
+
+We addressed this by
+eliminating federal lands
+from the wind and solar
+supply curves.
+
+The Electricity Market
+Module (EMM) lacks the
+spatial resolution to
+implement explicitly, but it
+was addressed by the
+removal of federal lands
+from the wind and solar
+curves. (3)
+
+Subtitle D—Energy
+50401
+
+Strategic Petroleum
+Reserve
+
+Repeal of drawdown or sale and
+appropriates $218 million for
+maintenance and $171 million for
+purchase of petroleum products for
+storage (funds remain available
+through Sep 30, 2029).
+
+Repeal of drawdown or
+sales (7 million barrels in
+2026 and 2027) included in
+model.
+
+Funds for maintenance and
+purchasing are outside the
+scope of our model (3)
+
+50402
+
+Repeals/rescinds specific
+Inflation Reduction act
+(IRA) provisions
+
+Unobligated balances of amounts
+under the sections below are
+rescinded.
+
+See sections 50402A 50402H.
+
+See sections 50402A 50402H.
+
+50402A
+
+State-Based Home
+Energy Efficiency
+Contractor Training
+Grants
+
+Unobligated balance of state-based
+home energy efficiency contractor
+training grants under IRA Section
+50123 rescinded.
+
+--
+
+(3)
+
+50402B
+
+Funding for DOE Loan
+Programs Office
+
+Unobligated balance of funding for
+DOE energy loan programs under IRA
+Section 50141 rescinded.
+
+--
+
+(1)
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+4
+
+April 2026
+Section
+
+Provision
+
+Description
+
+Included
+
+Excluded
+
+50402C
+
+Energy Infrastructure
+Reinvestment Financing
+
+Unobligated balance under IRA
+Section 50144 for additional loan
+guarantee authority under the
+Energy Policy Act of 2005 for energy
+infrastructure that reduces air
+pollution is rescinded.
+
+--
+
+(1)
+
+50402D
+
+Tribal Energy Loan
+Guarantee Program
+
+Unobligated balance under IRA
+Section 50145 for DOE’s Tribal Loan
+Guarantee Program is rescinded.
+
+--
+
+(1,3)
+
+50402EG
+
+Electric Transmission
+
+Unobligated balances under IRA
+Sections 50151–50153 for DOE
+programs that facilitate certain
+transmission lines or transmission
+siting and planning is rescinded.
+
+--
+
+(3)
+
+50402H
+
+Advanced Industrial
+Facilities Deployment
+Program
+
+Unobligated balance under IRA
+Section 50161 for $5.8 billion
+available to DOE’s Office of Clean
+Energy Demonstrations for advanced
+industrial technologies is rescinded.
+
+The one cement carbon
+capture sequestion (CCS)
+plant award that had been
+granted has been
+terminated. Capital cost
+impacts from this award
+have been removed for
+AEO2026.
+
+--
+
+50403
+
+Energy dominance
+financing
+
+Removes requirement for
+(re)financed energy infrastructure to
+reduce, use, or sequester air
+pollutants or greenhouse gases
+(GHGs); eliminates the need for
+controls on fossil fuel generators and
+to analyze affected communities.
+
+--
+
+The funding available under
+this provision is entirely
+discretionary, is projectspecific, and is available to
+projects and technologies
+that are not modeled. So, it is
+outside the scope of our
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+5
+
+April 2026
+Section
+
+Provision
+
+Description
+
+Included
+
+Excluded
+
+Expands definition of energy
+infrastructure, appropriates $1 billion
+through September 2028.
+
+model. As projects using
+within-scope technologies
+are awarded loans and
+commence with project
+development, they will be
+added to the projections.
+(1,3)
+
+Title VI Committee on Environment and Public Works
+60001
+
+Rescission of funding for
+Clean Heavy-Duty
+Vehicles
+
+Unobligated funds to help
+communities replace eligible vehicles
+with zero-emission vehicles are
+rescinded.
+
+--
+
+(3)
+
+60002
+
+Repeal of GHG reduction
+fund
+
+Repeals funds deployment of zeroemission technologies in low-income
+and disadvantaged communities and
+rescinds unobligated balances.
+
+--
+
+(1,3)
+
+60003
+
+Rescission of funding for
+Diesel Emissions
+Reductions
+
+Unobligated funding to identify and
+reduce diesel emissions from goods
+movement facilities is rescinded.
+
+--
+
+(1,3)
+
+60012
+
+Rescission of funding for
+Methane Emissions
+Reduction Incentive
+Program
+
+This section rescinds the unobligated
+balances for incentives to carry out
+the methane emissions charge for
+qualified petroleum and natural gas
+systems and delays the collection of
+the charge to start in 2034.
+
+--
+
+(1,3)
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+6
+
+April 2026
+Section
+
+Provision
+
+Description
+
+Included
+
+Excluded
+
+60013
+
+Rescission of funding for
+Climate Pollution
+Reduction Grants
+
+This section rescinds unobligated
+funds for the U.S. Environmental
+Protection Agency’s (EPA) GHG air
+pollution implementation grants and
+GHG air pollution planning and
+implementation.
+
+--
+
+(1,3)
+
+60020–
+60024
+
+Transportation and
+Infrastructure
+
+These sections rescind unobligated
+balances of funds for assistance for
+using low-carbon materials for
+constructing or altering federal
+buildings; for low-carbon
+transportation materials grants; and
+for a neighborhood access and equity
+grant program.
+
+--
+
+(3)
+
+Title VII Finance
+70501
+
+Termination of
+previously owned clean
+vehicle credit
+
+This provision terminates the Section
+25E[g] vehicle tax credit after
+September 30, 2025, instead of
+December 31, 2032.
+
+--
+
+The used-vehicle market is
+outside the scope of our
+model. (3)
+
+70502
+
+Termination of clean
+vehicle credit
+
+This provision terminates the Section
+30D[h] vehicle tax credit after
+September 30, 2025, instead of
+December 31, 2032.
+
+Addressed in our model.
+
+--
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+7
+
+April 2026
+Section
+
+Provision
+
+Description
+
+Included
+
+Excluded
+
+70503
+
+Termination of qualified
+commercial clean
+vehicles credit
+
+This provision terminates the Section
+45W[g] vehicle tax credit after
+September 30, 2025.
+
+Addressed in our model.
+
+--
+
+70504
+
+Termination of
+alternative fuel vehicle
+refueling property credit
+
+This provision terminates the Section
+30C[i] refueling property credit after
+June 30, 2026, instead of December
+31, 2032.
+
+Addressed in our model.
+
+--
+
+70505
+
+Termination of energy
+efficiency home
+improvement credit
+
+Termination of
+residential clean energy
+credit
+
+We represent the
+availability of the tax credit
+in Residential Demand
+Module (RDM) with the
+expiration of the tax rate as
+amended.
+We represent the
+availability of the tax credit
+in RDM with the expiration
+of the tax rate as amended.
+
+--
+
+70506
+
+70507
+
+Termination of energy
+efficient commercial
+buildings deduction
+
+This provision terminates the IRS
+Section 25C[h] efficient property tax
+credit after December 31, 2025,
+instead of December 31, 2032, and
+adjusts qualifications for oil-fired
+equipment.
+This provision terminates the Section
+25D[h] efficient property credit after
+December 31, 2025, instead of
+December 31, 2034, and provides the
+30% tax credit for equipment placed
+in service after Dec 31, 2021, and
+before Jan 1, 2026.
+This provision terminates the Section
+179D deduction for energy-efficient
+commercial building construction
+that begins after June 30, 2026.
+
+--
+
+(2,3)
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+8
+
+--
+
+April 2026
+Section
+
+Provision
+
+Description
+
+Included
+
+Excluded
+
+70508
+
+Termination of new
+energy-efficient home
+credit
+
+This provision terminates the Section
+45L[h] new energy-efficient home
+credit for homes acquired after June
+30, 2026, instead of December 31,
+2032.
+
+We represent the
+availability of the tax credit
+in RDM with the expiration
+of the tax credit as
+amended.
+
+--
+
+70509
+
+Termination of cost
+recovery for energy
+property
+
+The provision terminates the use of a
+five-year property definition for
+accelerated cost recovery for energy
+property as defined in Section
+48(a)(3), where construction begins
+after December 31, 2024.
+
+--
+
+70510
+
+Modifications of zeroemission nuclear power
+production credit
+
+This provision restricts 45U credit
+eligibility to exclude prohibited
+foreign entities for years after
+enactment and prohibit foreigninfluenced entities two years after
+enactment.
+
+70511
+
+Termination of clean
+hydrogen production
+credit
+
+This provision limits the 45V clean
+hydrogen production credit to
+facilities where construction begins
+before January 1, 2028, instead of
+before January 1, 2033.
+
+We assume the
+termination of the five-year
+modified accelerated cost
+recovery system (MACRS)
+for certain commercial
+end-use equipment and for
+applicable technologies in
+the electric power sector.
+Because of existing
+restrictions on foreign
+ownership, we assume
+existing nuclear plants to
+be eligible for the tax credit
+to the full extent. In
+addition, uranium may be
+imported from other
+sources and is therefore
+assumed to not be affected
+by the Foreign Entity of
+Concern(FEOC) restrictions.
+We incorporate the
+expiration of the tax credit
+as amended.
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+9
+
+--
+
+--
+
+April 2026
+Section
+
+Provision
+
+Description
+
+Included
+
+Excluded
+
+70512 and
+70513
+
+Termination and
+restrictions on clean
+electricity production
+credit
+
+This provision terminates the Section
+45Y[d] credit for solar and wind
+beginning construction after July 4,
+2026, and placed in service after
+December 31, 2027. If construction
+begins before July 5, 2026, sunset
+does not apply. Amends the phaseout for qualifying systems to be 100%
+for systems beginning construction in
+2033; 75% for systems beginning
+construction in 2034; 50% for
+systems beginning construction in
+2035; and 0% for facilities beginning
+construction after December 31,
+2035. Also, increases restrictions on
+claiming credit if tax payer receives
+material assistance from or is a
+prohibited foreign entity and repeals
+ability to transfer credit.
+
+We incorporate the
+termination or phaseout of
+the tax credit as amended
+for all technologies
+assumed to take the
+production tax credit.
+
+--
+
+70513
+
+Termination and
+restrictions on clean
+electricity investment
+credit
+
+This provision terminates the Section
+48E(e) credit for solar and wind
+beginning construction after July 4,
+2026, and placed in service after
+December 31, 2027. If construction
+begins before July 5, 2026, sunset
+does not apply. Amends the phaseout for qualifying systems to be 100%
+for systems beginning construction in
+2033; 75% for systems beginning
+construction in 2034; 50% for
+systems beginning construction in
+2035; and 0% for facilities beginning
+
+Our model incorporates
+the termination or
+phaseout of the tax credit
+as amended for all
+technologies assumed to
+take the investment tax
+credit.
+
+--
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+10
+
+April 2026
+Section
+
+Provision
+
+Description
+
+Included
+
+Excluded
+
+We removed the
+adjustment to reduce wind
+capital costs that was made
+in AEO2025 to reflect the
+value of this tax credit.
+
+Other elements of this
+provision are beyond the
+scope of NEMS. (2)
+
+We implemented a
+simplified version of this
+credit for certain qualified
+fuels.
+
+We did not model the credit
+values based on the lifecycle
+carbon emissions or
+emissions factor associated
+with qualified fuels. (2,3)
+
+45Q tax credit for EOR CCS
+was raised from $60 per
+short ton (mt) of CO2 to
+$85/mt of CO2. Now at
+parity with the 45Q credit
+for saline CCS.
+
+(1)
+
+construction after December 31,
+2035. Also, increases restrictions on
+claiming credit if tax payer receives
+material assistance from or is a
+prohibited foreign entity and repeals
+ability to transfer credit.
+70514
+
+Phase-out and
+restrictions on Advanced
+Manufacturing
+Production Credit
+
+70521
+
+Extension and
+modification of clean
+fuel production credit
+
+112011
+
+Restrictions on carbon
+oxide sequestration
+credit
+
+Modifies the Advanced
+Manufacturing Production Credit by
+introducing a phase-out schedule for
+critical minerals (excluding
+metallurgical coal) starting in 2030,
+with a full termination by the end of
+2033, imposes restriction on the
+credit for prohibited foreign entities,
+and terminates the credit for wind
+energy components after 2027 and
+metallurgical coal after 2029.
+Extends the 45Z clean fuel
+production credit through through
+December 31, 2029, and removes
+eligibility for imports. Reduces the
+sustainable aviation fuel credit equal
+to $1.00 per gallon starting in 2025.
+Increases the amount of the credit
+for CO2 used in enhanced oil recovery
+(EOR) to match the credit for storage.
+Eliminates credit if tax payer is
+specified foreign entity and
+eliminates credit two years after bill
+passage if taxpayer is a foreigninfluenced entity.
+
+U.S. Energy Information Administration | AEO2026: One Big Beautiful Bill Act Assumptions
+
+11
+
+
