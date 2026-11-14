@@ -228,7 +228,7 @@ General-fund basis for most rows. SS-1 is shown on its unified basis. % of GDP i
 | CLI-10 | spending | out_other_mandatory | 0.060 | 0.025 | 0.000 | 0.000 | Time-limited capital (D4-B): shape in fiscal-years.csv, none after FY2039 (clean power booking) |
 | CLI-5H | spending | out_other_mandatory | 0.000 | 0.000 | 0.017 | 0.015 | Nothing in FY2030-39 (inside CLI-5); from FY2040 fiscal-after.csv, then CPI (clean power booking) |
 | CLI-11 | spending | out_other_mandatory | 0.014 | 0.002 | 0.001 | 0.001 | Shape in fiscal-years.csv; perm fitted so FY2040 is the path's $0.7B, then GDP (clean power booking) |
-| CLI-3A | spending | out_other_mandatory | 0.163 | 0.067 | 0.077 | 0.077 | Equal to C3A: shape in fiscal-years.csv; perm fitted so FY2040 is the energy model's $39.8B, then GDP (clean power booking) |
+| CLI-3A | spending | out_other_mandatory | 0.163 | 0.067 | 0.077 | 0.077 | Equal to C3A: shape in fiscal-years.csv; perm fitted so FY2040 is the energy model's $41.4B, then GDP (clean power booking) |
 | G1 | base revenue | rev_corporate | -1.650 | -0.369 | -0.379 | -0.391 |  |
 | H1b | base revenue | rev_individual | -0.500 | -0.115 | -0.119 | -0.126 |  |
 | HX | base revenue | rev_individual | -4.835 | -1.751 | -1.928 | -2.130 | Ending the employer tax exclusion as groups move (HLT-7.22); shape from the dossier's path (fiscal-years.csv); grows with premiums after 2039 (CBO's Medicare category, as C19b); perm fitted so FY2040 is the path's $966B after part 6's federal-coverage correction ($1,043B before) |
@@ -247,7 +247,7 @@ General-fund basis for most rows. SS-1 is shown on its unified basis. % of GDP i
 | IMM-EV | base revenue | rev_individual | -0.023 | -0.008 | -0.008 | -0.008 | E-Verify on-budget revenue: shape from the dossier's path (fiscal-years.csv); perm fitted so FY2040 is the path's $-4.1B, then GDP (immigration booking) |
 | IF1T | base revenue | rev_individual | 0.004 | 0.001 | 0.001 | 0.001 | H-1B fee offset: shape from the dossier's path (fiscal-years.csv); perm fitted so FY2040 is the path's $0.5B, then GDP (immigration booking) |
 | C1T | base revenue | rev_individual | 0.000 | 0.000 | -0.061 | -0.061 | Nothing in FY2030-39; from FY2040 fiscal-after.csv, then GDP (DEC-2026-11-13-13; clean power booking) |
-| C3A | base revenue | rev_individual | -0.163 | -0.067 | -0.077 | -0.077 | The standard's payments: shape in fiscal-years.csv; perm fitted so FY2040 is the energy model's $39.8B, then GDP (clean power booking) |
+| C3A | base revenue | rev_individual | -0.163 | -0.067 | -0.077 | -0.077 | The standard's payments: shape in fiscal-years.csv; perm fitted so FY2040 is the energy model's $41.4B, then GDP (clean power booking) |
 | CXA | base revenue | rev_individual | 0.040 | 0.016 | 0.019 | 0.019 | 24.4% offset on C3A: shape in fiscal-years.csv; perm as C3A (clean power booking) |
 | C5 | trim | out_medicare_net | -0.300 | -0.074 | -0.000 | -0.000 | Dental delayed past the window: saves inside it, none after |
 | C17 | trim | out_disc_nondefense | -0.100 | -0.025 | -0.025 | -0.025 |  |

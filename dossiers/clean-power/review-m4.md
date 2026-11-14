@@ -65,7 +65,7 @@ M4's #356 makes the model's power credits follow CLI-1A.02's decided step-down (
   - The energy model with the package gives $0.07 trillion and $20 billion. That is lower than the legacy figure because its standby builder adds lines.
   - The $234 billion the reviewer quoted is the model's layer before the standby builder.
   - The dossier now carries the energy model's figure without the package (the 2029 law), with the package case as the low end.
-- **The offset.** The model applies none ("a capped compliance payment, not a tax"). The payments are a cost to suppliers collected by Treasury, like a fee, so the plan's convention (`DEC-2026-11-12-08`) points to applying the 24.4%: about $38 billion over FY2030-39 and $10 billion in FY2040. The booking applied it (`6-cost.md`, part 6, 6a).
+- **The offset.** The model applies none ("a capped compliance payment, not a tax"). The payments are a cost to suppliers collected by Treasury, like a fee, so the plan's convention (`DEC-2026-11-12-08`) points to applying the 24.4%: about $40 billion over FY2030-39 and $10.1 billion in FY2040. The booking applied it (`6-cost.md`, part 6, 6a).
 - **Fixed:** CLI-3A.02 and the consistency table; `6-cost.md`, part 2 and part 6 (6a), and part 7; `7-validation.md`, parts 1 and 2; section 8's trigger (about 12 points short in 2040).
 
 **R-2. The model's retail price left out the standard's payments. Fixed in the model by #350.**

@@ -45,6 +45,8 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 ## Open questions for Espen
 
-None. The re-review's question (`review-m4.md`, R-3), where the transition share's remainder goes after FY2039, is decided: it stays in the general fund (`DEC-2026-11-13-13`, option A). From FY2040 the 20% share, about $33 billion a year, pays the guarantee and the bill credit first, about $11 billion; the rest, about $23 billion, stays in the general fund. That brings clean power's FY2040 cost to about $113 billion.
+One, in the booking (`6-cost.md`, part 6, 6a): **the tax offset on the clean standard's payments.** The booking applies JCT's 24.4% (option A, recommended, as for the carbon fee on the same companies): about $40 billion over FY2030-39 and $10.1 billion in FY2040, so the decided set is about $1.89 trillion and $123.4 billion. Without it (B) the payments net to zero and FY2040 is about $113.3 billion.
+
+The re-review's question (`review-m4.md`, R-3) is decided: from FY2040 the transition share's remainder stays in the general fund (`DEC-2026-11-13-13`, option A). The 20% share, about $33 billion a year, pays the guarantee and the bill credit first, about $11 billion; the rest, about $23 billion, stays in the general fund.
 
 Next: the reviewer's L3 re-check on the booking's PR, then Espen's label (tier 3).
