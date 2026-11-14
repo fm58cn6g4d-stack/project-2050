@@ -33,9 +33,12 @@ Every case below is the decided clean power set built up one layer at a time aga
 | Named run for clean power's design test: the clean standard's payment cap at $20/MWh (2025 dollars; decided $40) | 31% / 41% / 52% / 66% | 43% / 67% | 73% / 96% |
 | Named run for clean power's design test: the clean standard's payment cap at $60/MWh | 31% / 41% / 52% / 66% | 43% / 67% | 73% / 96% |
 | Sensitivity: the decided set with retrofits at design capture (90%) and twice the yearly rate and ceiling (scale 2) | 31% / 41% / 52% / 66% | 43% / 68% | 73% / 97% |
+| Sensitivity: a retrofit credit (memo 8): 45Q on top of the carbon price for retrofits begun by 2039 only, the larger of the two elsewhere; research-based limits (scale 1) | 31% / 41% / 52% / 66% | 43% / 67% | 73% / 96% |
+| Sensitivity: the retrofit credit at design capture (90%) and scale 2 | 31% / 41% / 52% / 66% | 43% / 68% | 73% / 97% |
 | Sensitivity: retrofits at design capture and scale 2, with 45Q stacking on the carbon price (memo 8) | 30% / 41% / 52% / 66% | 43% / 68% | 72% / 97% |
 | Sensitivity: 2029 current law with the 2026-28 permitting package enacted | 24% / 28% / 33% / 42% | 29% / 42% | 58% / 82% |
 | Sensitivity: the decided set with the permitting package | 31% / 42% / 55% / 67% | 44% / 69% | 77% / 98% |
+| Named run for clean power's design test: the permitting package with a builder everywhere (memo 4 option A, the full grid program) | 31% / 43% / 56% / 67% | 45% / 69% | 79% / 99% |
 
 **Uncertainty** (the carbon model's uncertain inputs, 60 draws, 10th-90th percentile): the decided set is 40%-42% below 2005 in 2035 and 65%-67% in 2050. Published models disagree by more than this for the same policy (EMF 32: 26-47% for one tax in 2030; survey.md, 2.9), so treat the band as a floor on the uncertainty.
 
@@ -183,10 +186,12 @@ Against 2029 current law, the decided set avoids about 28,164 Mt CO2e over 2030-
 | + the methane fee (point 3; REV-C3): **the decided set** | 0 | 0 / 0 | 0 / 0 | 0 | 41% / 66% | 0.0 / 0.0 | 20 / 0 |
 | the decided set with carbon-capture retrofits on existing plants at the research-based limits (scale 1) | 0 | 0 / 0 | 0 / 0 | 0 | 41% / 66% | 0.0 / 0.0 | 20 / 0 |
 | retrofits at the research-based limits (scale 1), with 45Q paid on top of the carbon price avoided (stacking; memo 8) | 25 | 0 / 10 | 0 / 21 | 17 | 41% / 66% | 1.9 / 15.0 | 92 / 163 |
+| a retrofit credit (memo 8): 45Q on top of the carbon price for retrofits begun by 2039 only, the larger of the two elsewhere; research-based limits (scale 1) | 25 | 0 / 10 | 0 / 21 | 29 | 41% / 66% | 1.9 / 19.6 | 20 / 0 |
 | the decided set with retrofits at design capture (90%) and twice the yearly rate and ceiling (scale 2) | 12 | 0 / 0 | 0 / 30 | 30 | 41% / 66% | 0.0 / 0.0 | 20 / 0 |
 | retrofits at design capture and scale 2, with 45Q stacking on the carbon price (memo 8) | 50 | 6 / 13 | 6 / 34 | 65 | 41% / 66% | 9.3 / 53.2 | 92 / 158 |
+| the retrofit credit at design capture (90%) and scale 2 | 50 | 6 / 13 | 6 / 34 | 86 | 41% / 66% | 9.0 / 60.7 | 20 / 0 |
 
-45Q in 2025 $ billion, calendar years. Retrofits' 45Q is in the engine's credits; 45Q on new capture plants and industrial capture is reported only (the ledger books current-law 45Q outside this model). "Stacking" (`q45Stack`) pays 45Q on top of the carbon price a stored ton avoids; the other runs pay the larger of the two, the engine's default. A coal unit with a retrofit under way is not retired if the retrofit will meet the power plant standard (capture of at least 90%, CLI-4R.01); at 75% capture in operation it cannot, so under the standard no coal retrofit starts.
+45Q in 2025 $ billion, calendar years. Retrofits' 45Q is in the engine's credits; 45Q on new capture plants and industrial capture is reported only (the ledger books current-law 45Q outside this model). "Stacking" (`q45Stack`) pays 45Q on top of the carbon price a stored ton avoids; "Retrofit credit" (`q45Stack` "retro") stacks for retrofits begun by 2039 only. The other runs pay the larger of the two, the engine's default. A coal unit with a retrofit under way is not retired if the retrofit will meet the power plant standard (capture of at least 90%, CLI-4R.01); at 75% capture in operation it cannot, so under the standard no coal retrofit starts.
 
 
 **HI-2, month by month** (gap between the engine's and EIA's measured coal and gas power CO2, %; the gas-to-coal price ratio in brackets):
@@ -261,9 +266,9 @@ Offset rate 0.244, inflation 0.022; calendar year y booked as fiscal year y; nom
 - `models/tools/energy/data.py`: `f36b324e0b55e161`
 - `models/tools/energy/engine.js`: `02cfae2717d425cc`
 - `models/tools/energy/engine/cfd-households.js`: `cf0b0d33ac3e8213`
-- `models/tools/energy/engine/cfd-model.js`: `6a70ccb6dd45a284`
+- `models/tools/energy/engine/cfd-model.js`: `740f50ff1c5b109c`
 - `models/tools/energy/history.js`: `4882d3c65521f29e`
 - `models/tools/energy/history.py`: `6d5db6f13804cfdb`
-- `models/tools/energy/model.py`: `35dd0b3933af75d8`
-- `models/tools/energy/run.py`: `12c868588196782e`
+- `models/tools/energy/model.py`: `cf6951b9b2078a7e`
+- `models/tools/energy/run.py`: `c15849f8abfa144b`
 - `models/tools/transportation/moving_america.py`: `3cc781a2a1312dbb`
