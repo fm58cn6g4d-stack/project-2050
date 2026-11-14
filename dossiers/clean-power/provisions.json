@@ -172,7 +172,7 @@
   "decisions": [
    "DEC-2026-11-13-06"
   ],
-  "parameters": "Every adult 18 and over gets one equal share each quarter, adult dependents included; children are covered by the child benefit (FAM-1), not a share. The payment is called the Climate Dividend in statute and on every deposit and notice. It is not taxable and does not count as income for any federal program (shared rule 1, `DEC-2026-11-12-06`). Size: 80% of the quarter's combustion receipts divided by the adults paid; on the carbon model read about $133 an adult in 2030, $439 in 2035 and $492 in 2040 (nominal, a year; working assumption)",
+  "parameters": "Every adult 18 and over gets one equal share each quarter, adult dependents included; children are covered by the child benefit (FAM-1), not a share. The payment is called the Climate Dividend in statute and on every deposit and notice. It is not taxable and does not count as income for any federal program (shared rule 1, `DEC-2026-11-12-06`). Size: 80% of the quarter's combustion receipts divided by the adults paid; on the energy model (MOD-energy) about $119 an adult in 2030, $409 in 2035 and $485 in 2040 (nominal, a year; working assumption; the legacy read gave $133, $439 and $492)",
   "eligibility": "",
   "vehicle": [
    {
@@ -501,7 +501,7 @@
   "decisions": [
    "DEC-2026-11-13-06"
   ],
-  "parameters": "A supplier short of credits pays an alternative compliance payment per missing megawatt-hour, capped at $40 in 2025 dollars, indexed to prices (working choice, the carbon model's figure). Treasury collects the payments, and they go to the bill credit (CLI-5H.01) for as long as they are paid: first to bill protection (CLI-5L.01) while it runs, then to the credit itself, so none is stranded when bill protection ends. On the carbon model's run of the decided path, the clean share is 91% in 2040 and 94% in 2045, limited by grid access, not price, so suppliers pay about **$0.11 trillion over 2030-39 and about $29 billion in 2040**, falling slowly after (the carbon model read, `tools/coverage_read.py`; `6-cost.md`, part 2). They are a charge on electricity bills, returned to lower- and moderate-income households",
+  "parameters": "A supplier short of credits pays an alternative compliance payment per missing megawatt-hour, capped at $40 in 2025 dollars, indexed to prices (working choice, the carbon model's figure). Treasury collects the payments, and they go to the bill credit (CLI-5H.01) for as long as they are paid: first to bill protection (CLI-5L.01) while it runs, then to the credit itself, so none is stranded when bill protection ends. On the energy model's run of the decided set (MOD-energy, `models/tools/energy/results.md`), the clean share is 73% in 2035, 88% in 2040 and 92% in 2045, limited by grid access, not price, so suppliers pay about **$0.16 trillion over FY2030-39 and about $41 billion in FY2040**, then $20-36 billion a year to 2050 ($0.07 trillion and $21 billion if the permitting package passes; `6-cost.md`, part 2). They are a charge on electricity bills, returned to lower- and moderate-income households",
   "eligibility": "",
   "vehicle": [
    {
