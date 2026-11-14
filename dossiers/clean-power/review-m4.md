@@ -47,6 +47,7 @@ M4's #356 makes the model's power credits follow CLI-1A.02's decided step-down (
 - **The 2040 retail price:** 16.1 cents a kilowatt-hour against 14.7 under current law, about a tenth higher, up from 15.1: less credit offsets bills once the power credits step down after 2034. 2035 is unchanged at 14.9 against 14.3. The standard's payments add about 0.6 cents of it (R-2).
 - **The standard's payments:** $163 billion over FY2030-39 and $41 billion in FY2040 ($74 billion and $21 billion with the permitting package); clean power 87% in 2040.
 - **Households, 2035:** +$97, +$81, +$6, −$184 and −$824, lowest fifth to highest; the dividend about $405 an adult (R-5, R-8).
+- **Known biases, disclosed** (#360): HI-1 (the 2015-25 power history, 5.7% average gap against a 5% tolerance) and PR-2 (receipts 26% above CBO's) fail. The engine's coal-to-gas switching is too strong, so its near-term power cuts and early receipts are likely overstated (`6-cost.md`, part 6, 1a; `7-validation.md`, part 2).
 - **The booking** (`6-cost.md`, part 6) uses these figures and applies the 24.4% offset to the payments: about $40 billion over FY2030-39 and $10.1 billion in FY2040. The decided set is $1,893.5 billion and $123.4 billion; the plan-wide FY2040 gap goes from $4,245.4 billion to $4,203.9 billion short.
 
 ## How it was done
