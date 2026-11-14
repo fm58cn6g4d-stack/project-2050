@@ -6,12 +6,12 @@
 
 Package A (with the approved $150-by-2037 price) plus the core and fuller disaster tiers and the CLI-7C reinsurance backstop, nominal $B. Four cases pair savings and costs consistently: **favorable** (credit savings x1.33, low costs) / **central** / **conservative** (credit savings x0.67, the project rule until scored; central costs) / **unfavorable** (credit savings x0.67, high costs). Negative is a saving. Removal purchases (CLI-13) are kept outside the package and shown separately.
 
-**Accounts.** *General fund* items are paid without borrowing. *D4-B borrowing* covers time-limited capital. The *carbon channel* covers clean-industry contracts and forests, financed first from the transition share (20%) of the added REV-C1 receipts. Under D7 the dividend takes 80% and the general fund books a 25% income and payroll tax offset (CX). D7: REV-C1 receipts split 80% Climate Dividend and 20% transition share; the general fund books a 25% income and payroll tax offset (CX) on carbon fees. Added receipts from the higher price and process coverage follow the same rule unless Espen changes it.
+**Accounts.** *General fund* items are paid without borrowing. *D4-B borrowing* covers time-limited capital. The *carbon channel* covers clean-industry contracts and forests, financed first from the transition share (20%) of the added REV-C1 receipts. Under D7 the dividend takes 80% and the general fund books a 24.4% income and payroll tax offset (CX). D7: REV-C1 receipts split 80% Climate Dividend and 20% transition share; the general fund books the adopted income and payroll tax offset (CX) on carbon fees, read by pricing.py from models/data/inputs/excise-offset.csv (24.4%, DEC-2026-11-12-08; was 25%). Added receipts from the higher price and process coverage follow the same rule unless Espen changes it.
 
 | Item | Account | D4 class | 2030-39 | FY2040 | FY2050 |
 | --- | --- | --- | --- | --- | --- |
 | Credit redesign (standard-led, with snap-back), ledger terms; industrial support excluded | general fund | permanent | -354 / -266 / -179 / -179 | -70 / -53 / -35 / -35 | +0 / +0 / +0 / +0 |
-| Income and payroll tax offset (CX, 25%) on the added REV-C1 receipts | general fund | permanent | +26 / +26 / +26 / +26 | -0 / -0 / -0 / -0 | +0 / +0 / +0 / +0 |
+| Income and payroll tax offset (CX, 25%) on the added REV-C1 receipts | general fund | permanent | +25 / +25 / +25 / +25 | -0 / -0 / -0 / -0 | +0 / +0 / +0 / +0 |
 | Bill protection for low- and moderate-income households (while the increase lasts) | general fund | permanent | +7 / +7 / +7 / +8 | +2 / +2 / +2 / +2 | +1 / +2 / +2 / +2 |
 | Disaster permanent pieces: D2, D3, D6, D7 and D8 | general fund | permanent | +41 / +78 / +78 / +135 | +5 / +9 / +9 / +16 | +6 / +12 / +12 / +20 |
 | CLI-7C reinsurance facility, expected net cost (decided Oct 27; $75-150B contingent liability disclosed, not scored) | general fund | permanent | -3 / +3 / +3 / +11 | -0 / +0 / +0 / +1 | -1 / +1 / +1 / +2 |
@@ -25,7 +25,7 @@ Package A (with the approved $150-by-2037 price) plus the core and fuller disast
 
 | Account result ($B nominal; favorable / central / conservative / unfavorable) | Value |
 | --- | --- |
-| General fund, 2030-39 (includes any channel shortfall) | -151 / +79 / +166 / +378 |
+| General fund, 2030-39 (includes any channel shortfall) | -151 / +78 / +166 / +378 |
 | General fund, FY2040 (the D4-B maturity year) | -49 / -17 / +0 / +19 |
 | General fund, FY2050 | +9 / +18 / +18 / +33 |
 | D4-B borrowing, 2030-39 | +108 / +152 / +152 / +212 |
@@ -34,7 +34,7 @@ Package A (with the approved $150-by-2037 price) plus the core and fuller disast
 | Carbon channel: shortfall in years when uses exceed the transition share (charged to the general fund, included above) | +65 / +114 / +114 / +168 |
 | Carbon channel: transition-share surplus left over | +0 / +0 / +0 / +0 |
 
-Added REV-C1 receipts: +103B over 2030-39 (FY2040 -2B), of which process coverage +244B. The dividend takes +82B and the transition share +21B. In 2035 the increment adds about $40 to each adult's dividend, and its CX offset costs the general fund the equivalent of about $13 an adult.
+Added REV-C1 receipts: +103B over 2030-39 (FY2040 -2B), of which process coverage +244B. The dividend takes +82B and the transition share +21B. In 2035 the increment adds about $40 to each adult's dividend, and its CX offset costs the general fund the equivalent of about $12 an adult.
 
 ## Paying for the package: options
 
@@ -42,10 +42,10 @@ Each option applies to the package's increment over the decided package (the $15
 
 | Option | General fund 2030-39 | FY2040 | FY2050 | Dividend change per unit, 2030-39 average | Dividend change per unit, 2050 |
 | --- | --- | --- | --- | --- | --- |
-| **O1**: D7 as is: every added dollar splits 80/20; the general fund pays CX and any channel shortfall | -151 / +79 / +166 / +378 | -49 / -17 / +0 / +19 | +9 / +18 / +18 / +33 | +0 / +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 / +0 |
-| **O2**: CX recapture: 25% of the added receipts go to the general fund; the dividend keeps 55% of the increment | -176 / +53 / +141 / +352 | -48 / -17 / +1 / +19 | +9 / +18 / +18 / +32 | -12 / -16 / -19 / -21 / -22 | -1 / -1 / -1 / -1 / -2 |
-| **O3**: Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund | -346 / -117 / -29 / +183 | -80 / -48 / -31 / -13 | -35 / -26 / -26 / -12 | -93 / -121 / -143 / -157 / -171 | -208 / -272 / -321 / -353 / -385 |
-| **O5**: Process fee pays the package's net cost: each year process receipts cover the package's remaining general-fund cost (carbon-channel shortfall and general-fund items); the rest follows D7 | -209 / +20 / +95 / +234 | -49 / -17 / +0 / +0 | +0 / +0 / +0 / +0 | -28 / -36 / -43 / -47 / -51 | -86 / -113 / -132 / -146 / -159 |
+| **O1**: D7 as is: every added dollar splits 80/20; the general fund pays CX and any channel shortfall | -151 / +78 / +166 / +378 | -49 / -17 / +0 / +19 | +9 / +18 / +18 / +33 | +0 / +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 / +0 |
+| **O2**: CX recapture: 25% of the added receipts go to the general fund; the dividend keeps 55% of the increment | -176 / +53 / +141 / +352 | -48 / -17 / +1 / +19 | +9 / +18 / +18 / +32 | -12 / -16 / -18 / -20 / -22 | -1 / -1 / -1 / -1 / -2 |
+| **O3**: Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund | -347 / -117 / -30 / +182 | -80 / -48 / -31 / -13 | -35 / -26 / -26 / -12 | -93 / -121 / -143 / -157 / -171 | -208 / -272 / -321 / -353 / -385 |
+| **O5**: Process fee pays the package's net cost: each year process receipts cover the package's remaining general-fund cost (carbon-channel shortfall and general-fund items); the rest follows D7 | -209 / +20 / +95 / +234 | -49 / -17 / +0 / +0 | +0 / +0 / +0 / +0 | -28 / -36 / -43 / -47 / -51 | -86 / -112 / -132 / -146 / -159 |
 
 **Decided: O5** (decided by Espen, Oct 27 ("approve O5 and CLI-7C"); Codex books it with Package A). O5 is the only option that leaves the package at or below zero for the general fund in FY2040 and FY2050 in all four cases, so the package's permanent pieces (disaster D2-D8, farm payments, bill protection) are paid at maturity by the fee that causes them. It costs households far less than O3: process receipts leave the dividend only in years the package would otherwise draw on the general fund. O2 barely moves the general fund. O3 raises more but takes about $90-170 a year from each quintile's dividend over 2030-39. Under O5 the combustion fee keeps D7's 80/20 split untouched. Corrected after review (Oct 26): an earlier O5 also spent the $150 step's transition share, which the shared ledger already credits to CLI-5; without it O5 still meets the maturity test but its 2030-39 result is about +$21B (central), not -$68B.
 
@@ -142,5 +142,6 @@ Source hashes (SHA-256):
 - `build/carbon-config.json`: `58715c14990e8839db0f801d79a733ba2b890b709a2414193f42cfc8c12f4608`
 - `models/tools/climate-portfolio/packages.py`: `def50a0e88ec62caafe4a5499e63d469196076247bc8cd2140f10182524f6f06`
 - `models/tools/climate-portfolio/packages.json`: `3dba81388e5663010c2f685e549f9b03ff343c13d72ba13cedc00e03aa42957e`
-- `models/tools/climate-portfolio/pricing.py`: `e2261e59a1f0c8795ca01624be254e69d7417bc7a4be29e73350be0548c0591a`
-- `models/tools/climate-portfolio/pricing.json`: `a3bf9d977ee6a6e8a8f104419111a8d334939878c9903edddc8de5eff78b43ad`
+- `models/tools/climate-portfolio/pricing.py`: `fb17bf9dcd9fac37009459cc8ddf2a9698676fa3ebcd9391a29670a7a64a2e08`
+- `models/tools/climate-portfolio/pricing.json`: `45ce8b9b39c96b0de1b16e28100fa613d2218d6d9b73a125a28b8caadb3a3693`
+- `models/data/inputs/excise-offset.csv`: `8cc362a5d923b38517a704cfe767364da99bb14871aec80a30ded64c8b337141`

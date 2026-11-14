@@ -2379,10 +2379,10 @@
   "rail_name": "Reconciliation II (FY2030 resolution, summer 2029)",
   "channel": "General fund",
   "cost_lo": -0.16430439363445637,
-  "cost_mid": -0.09154544278062254,
+  "cost_mid": -0.09149324790568326,
   "cost_hi": -0.07884156534838155,
   "own_revenue": 0,
-  "net_mid": -0.09154544278062254,
+  "net_mid": -0.09149324790568326,
   "basis": "estimate",
   "basis_note": "Accounting allocation only, not an additional program. Negative cost is transition financing plus process waterfall; CLI-5 retains the already-booked baseline share. CX is separate. Components are never added on top of this financing aggregate.",
   "floor_days": 0,
@@ -2396,7 +2396,7 @@
   "own_rev_channel": "",
   "gf_rule": "all",
   "gf_lo": -0.16430439363445637,
-  "gf_mid": -0.09154544278062254,
+  "gf_mid": -0.09149324790568326,
   "gf_hi": -0.07884156534838155
  },
  {

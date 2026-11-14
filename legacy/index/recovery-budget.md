@@ -47,7 +47,7 @@ Totals above are $B, not $T. The audit CSV exposes every increment and matched g
 | --- | ---: | ---: | ---: | ---: | ---: |
 | mixed | 12,031 | 8,213 | 2,839 | -5,069 | -77,882 |
 | larger_payroll | 11,908 | 7,842 | 2,181 | -5,758 | -73,787 |
-| mixed_larger_credit | 14,326 | 10,949 | 6,002 | -2,764 | -87,481 |
+| mixed_larger_credit | 14,326 | 10,949 | 6,003 | -2,764 | -87,481 |
 
 These are approximate quintile averages including modeled benefits, not a D3 certification or guarantees for individual households. See the assumptions and limits in the assessment.
 

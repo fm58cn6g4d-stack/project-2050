@@ -10,7 +10,7 @@ import portfolio as P
 import packages as K
 
 HERE, ROOT = P.HERE, P.ROOT
-SOURCES = K.SOURCES + ['models/tools/climate-portfolio/pricing.py', 'models/tools/climate-portfolio/pricing.json']
+SOURCES = K.SOURCES + ['models/tools/climate-portfolio/pricing.py', 'models/tools/climate-portfolio/pricing.json', 'models/data/inputs/excise-offset.csv']
 W10 = range(2030, 2040)
 
 
@@ -55,6 +55,8 @@ def main():
     ap.add_argument('--write', action='store_true')
     args = ap.parse_args()
     pr = json.loads((HERE / 'pricing.json').read_text())
+    import sys; sys.path.insert(0, str(ROOT / 'models/tools')); from inputs import offset_rate  # noqa: E402
+    pr['channel']['cx_share'] = offset_rate(2030)   # the adopted income and payroll tax offset (excise-offset.csv; DEC-2026-11-12-08), one home for the rate
     pk = json.loads((HERE / 'packages.json').read_text())
     pa = json.loads((HERE / 'assumptions.json').read_text())
     cfg = json.loads((ROOT / 'build/carbon-config.json').read_text())
@@ -302,7 +304,7 @@ def report(pr, d):
           '**unfavorable** (credit savings x0.67, high costs). Negative is a saving. Removal purchases (CLI-13) are kept outside the package and shown separately.', '',
           '**Accounts.** *General fund* items are paid without borrowing. *D4-B borrowing* covers time-limited capital. The *carbon channel* covers clean-industry contracts and forests, '
           f"financed first from the transition share ({int(100*bu['channel']['transition_share'])}%) of the added REV-C1 receipts. Under D7 the dividend takes {int(100*bu['channel']['dividend_share'])}% "
-          f"and the general fund books a {int(100*bu['channel']['cx_share'])}% income and payroll tax offset (CX). {bu['channel']['basis']}", '',
+          f"and the general fund books a {100*bu['channel']['cx_share']:.1f}% income and payroll tax offset (CX). {bu['channel']['basis']}", '',
           '| Item | Account | D4 class | 2030-39 | FY2040 | FY2050 |', '| --- | --- | --- | --- | --- | --- |']
     for it in bu['items']:
         L.append(f"| {it['label']} | {it['account']} | {it['d4']} | {f4(it['window_bn'])} | {f4(it['fy2040_bn'])} | {f4(it['fy2050_bn'])} |")
