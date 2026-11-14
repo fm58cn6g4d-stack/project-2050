@@ -66,6 +66,8 @@ So `bld_hi`'s −1.43 Gt is the most a builder could add on this engine, not a f
 
 **Where a builder adds, and where it duplicates.** A federal builder of last resort adds most on cross-seam and interregional lines (DOE's July 2026 draft needs study values ERCOT ties at $31-48/MWh and SPP-WestConnect at $18-33/MWh [{NEEDS}]), in the non-RTO Southeast and West, on the public power systems' own lines (reconductoring), and as anchor offtaker for stranded merchant lines. It duplicates in the RTO regions and ERCOT, where $70 billion and more is approved and execution binds; there it competes for transformers and crews, and Treasury-rate financing could make "last resort" the default. That is why memo 9's account pays first for reconductoring, risk cover, equipment and siting grants, and only for ready-to-build work, and why the trigger and competitive-cost test stay.
 
+**The builder's siting path, corrected in CLI-10.03.** The specification said the builder "uses the existing federal siting backstops outside ERCOT, not new eminent domain". Under current law there is no working federal backstop: FPA 216's permits and their eminent domain (216(e)) reach only lines inside a DOE corridor (SRC-4771), and none is left [{NIETC}]. The bill as introduced (S.5653) strikes the corridor language from 216(b), has FERC "issue" permits for lines of 230 kV and up once a state has held an application for a year, and keeps 216(e)(1)'s eminent domain for permit holders, changing only its court procedure (§2101(b) and (d)) [{BAAJA}]; the November substitute's 216(e) text is not yet checked. So CLI-10.03 now names the three paths: TVA's and Bonneville's own condemnation powers in their regions; FERC's permits if the bill passes; and if it fails, CLI-3A.04's backstop (which must reach listed lines without a corridor) or legacy CLI-6D, Congress listing the lines itself. Two older inconsistencies this settles: legacy CLI-10 relies on "eminent domain" (the public builders' own) while CLI-10.03 said "not new eminent domain"; and the legacy domain assumes the bill is enacted, which the dossier dropped. **Open, for Espen with the next batch:** the new eastern corporation has no condemnation power unless its charter grants one. Granting it (as TVA has) makes the standby builder able to act where states and FERC cannot; withholding it keeps the builder to willing-seller and state-sited routes. Not decided here.
+
 ## Limits
 
 - The builder is a labeled assumption with the five generous features above. How fast a real builder can site lines is the open question [EV-CLP-435] [EV-CLP-437].
@@ -76,5 +78,5 @@ So `bld_hi`'s −1.43 Gt is the most a builder could add on this engine, not a f
 ## Next
 
 - The booking change for memo 9 B (tier 3, separate PR): CLI-3A's pay-out becomes grid-account outlays sized to ready-to-build need, with the rest kept as receipts.
-- M4: a run with the builder at full strength plus permitting, to bound the overlap.
+- M4's run of the builder at full strength plus permitting (`permit_bld_hi`) is in #369; quoted here once it merges.
 - CLI-10.03's siting text is corrected in `4-specification.md` (see the PR).
