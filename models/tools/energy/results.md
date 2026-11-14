@@ -225,9 +225,9 @@ Offset rate 0.244, inflation 0.022; calendar year y booked as fiscal year y; nom
 - `models/tools/energy/data.py`: `f36b324e0b55e161`
 - `models/tools/energy/engine.js`: `6bf12af1a0ef8882`
 - `models/tools/energy/engine/cfd-households.js`: `cf0b0d33ac3e8213`
-- `models/tools/energy/engine/cfd-model.js`: `816b60fc40a21c2a`
+- `models/tools/energy/engine/cfd-model.js`: `8039785a3d4415b8`
 - `models/tools/energy/history.js`: `4882d3c65521f29e`
 - `models/tools/energy/history.py`: `11f940610afd8126`
-- `models/tools/energy/model.py`: `654e0defdfc2e8ce`
+- `models/tools/energy/model.py`: `513064417db9dffd`
 - `models/tools/energy/run.py`: `135aa4177fc17e7d`
 - `models/tools/transportation/moving_america.py`: `3cc781a2a1312dbb`
