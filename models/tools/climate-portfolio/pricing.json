@@ -367,8 +367,7 @@
  "channel": {
   "dividend_share": 0.8,
   "transition_share": 0.2,
-  "cx_share": 0.25,
-  "basis": "D7: REV-C1 receipts split 80% Climate Dividend and 20% transition share; the general fund books a 25% income and payroll tax offset (CX) on carbon fees. Added receipts from the higher price and process coverage follow the same rule unless Espen changes it."
+  "basis": "D7: REV-C1 receipts split 80% Climate Dividend and 20% transition share; the general fund books the adopted income and payroll tax offset (CX) on carbon fees, read by pricing.py from models/data/inputs/excise-offset.csv (24.4%, DEC-2026-11-12-08; was 25%). Added receipts from the higher price and process coverage follow the same rule unless Espen changes it."
  },
  "removal_run_rate_2050_bn": [
   60,
