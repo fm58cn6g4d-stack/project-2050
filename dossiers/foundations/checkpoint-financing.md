@@ -7,8 +7,8 @@ Role: the financing checkpoint at the end of stage E (`charter/PLAN.md`, section
 1. **The gap.** In FY2040, the first year the fiscal rule tests, the plan's general fund is about **$4.16 trillion short (7.69% of GDP)**.
 2. **Health is nearly all of it.** The single health plan's booked net cost is **$4.09 trillion** in FY2040. Everything else in the plan, after the revenue already booked, is about **$0.07 trillion** short.
 3. **Health is cheaper for the country.** National health spending falls about **$0.49 trillion (6%)** in 2032 on the coverage model, about $0.75 trillion in FY2040, while covering about 34 million more people.
-4. **The government's bill is money that already exists.** In FY2040 households stop paying about **$2.37 trillion** in premiums and out-of-pocket costs, employers about **$2.37 trillion** in premiums, and states about **$0.34 trillion**. The plan's new federal spending, about **$5.06 trillion**, is close to their total.
-5. **So affordable means moving that money, fairly.** The plan is affordable for the government if the money people and employers stop paying to insurers comes in as public contributions. It must be done so that households below the top come out ahead, which is the project's fairness test (D3).
+4. **The government's bill is money that already exists.** In FY2040 households stop paying about **$2.37 trillion** in premiums and out-of-pocket costs, employers about **$2.37 trillion** in premiums, and states about **$0.34 trillion**. The plan's new federal spending, about **$5.06 trillion**, is close to their total. It comes out close because two other terms roughly cancel: the national saving lowers the federal bill, while some of today's spending on these people is paid by sources the model names no payer for (part B1).
+5. **So affordable means moving that money, fairly.** The plan is affordable for the government if the money households, employers and states stop paying comes in as public contributions; the national saving covers the rest. It must be done so that households below the top come out ahead, which is the project's fairness test (D3).
 6. **The recommended way** (memos F1 to F3):
    - employers keep paying 65% of their former premiums during the move, then the same amount as a payroll contribution of about 7.7% from 2036;
    - states pay 80% of their former Medicaid spending for the people who move, instead of the working 50%;
@@ -142,7 +142,29 @@ So the savings on private coverage pay for covering everyone and paying Medicaid
 | **States** | Their share of Medicaid for the people who move (about $449B in 2032) | They pay half of it (HLT-7.17), so they stop paying about **$344B**; long-term care stays with them (HLT-7.07) |
 | **Federal government** | Medicare, Medicaid, the premium credits, and the tax break for employer coverage | New spending of about **$5,060B** (HLT-1 to HLT-8, net of the federal money the plan replaces and the states' payment), less about **$966B** of income and payroll tax on former premiums that become pay (HX): **$4,094B net** |
 
-The federal government's new spending (about $5.06 trillion) is close to what households, employers and states stop paying (about $5.09 trillion). The two are not the same people. The national saving shows up as more care for the same money, not as a smaller federal bill.
+The federal government's new spending (about $5.06 trillion) is close to what households, employers and states stop paying (about $5.09 trillion). That closeness comes from two terms that roughly cancel. Written out on the coverage model's 2032 full-scale figures ($B, decided variant; `health_financing.py`; the two terms are found group by group from `health_path.groups`):
+
+| | 2032 ($B) |
+| --- | --- |
+| Employers stop paying | 1,547 |
+| Households stop paying (net of the copays they keep paying) | 1,547 |
+| States stop paying (half their former Medicaid spending for the people who move) | 224 |
+| **Other spending on these people today, with no named payer** (below) | **565** |
+| Less the national saving (lower prices and administration, net of covering everyone) | −491 |
+| **= New federal spending, net of the federal money the plan replaces and the states' payment** | **3,392** |
+
+**The missing term.** About $565 billion of today's spending on the people who move is in the model's spending figures but is not assigned to households, employers or states. By group it is:
+- today's Medicare enrollees, $301B: CMS's Medicare spending is above CBO's net federal subsidy plus enrollees' premiums and out-of-pocket costs. The difference is Medicare's other receipts and the seam between CMS's and CBO's figures, which the model card says do not reconcile exactly;
+- employer groups $170B, the individual market $37B and Medicaid $33B;
+- care for the uninsured paid by others (hospitals' uncompensated care and other programs), $22B.
+
+About $169B of the total is the copays households keep paying under the plan, which the table counts net. The rest, about $0.4 trillion, is a seam in the model's accounts, not a payer who can be asked to keep paying.
+
+**What it means.**
+- The national saving does lower the federal bill: without it the government would need about $0.49 trillion more in 2032.
+- The saving and the missing term roughly offset each other, which is why the new federal spending comes out close to what households, employers and states stop paying.
+- In FY2040 terms the two are about $0.75 trillion (saving) and $0.88 trillion (missing term).
+- The financing below is sized to the booked federal cost ($4,094B net in FY2040), not to this identity, so the seam does not change any recommendation. It does bound how far "they stop paying X, so they can pay X" holds: to within about a tenth.
 
 **What "affordable for the government" therefore means.** The plan needs no money the country doesn't already spend. It needs about $4.1 trillion a year (FY2040) now paid to insurers and providers to be paid as public contributions instead. The test of fairness is whether each household pays in less than it stops paying.
 
