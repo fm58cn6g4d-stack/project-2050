@@ -47,6 +47,6 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 Settled in the booking: the tax offset on the clean standard's payments applies (JCT's 24.4%, option A; about $40 billion over FY2030-39 and $10.1 billion in FY2040; `6-cost.md`, part 6, 6a); the transition share's remainder stays in the general fund from FY2040 (`DEC-2026-11-13-13`, option A); and the standard's payments are all general-fund receipts, about $163 billion over FY2030-39 and $41.4 billion in FY2040, with no grid account (`DEC-2026-11-14-02`, amending memo 9 B, to revisit later). Grid build-out is CLI-10's, from the general fund. Lower- and moderate-income households lose the payments' top-up and keep the bill credit.
 
-Open, for the next batch: whether the new eastern transmission corporation gets condemnation power in its charter (CLI-10.03; `design-test.md`, #362).
+Decided with this booking: the new eastern transmission corporation gets federal eminent domain in its charter, as TVA has (`DEC-2026-11-14-03`; CLI-10.03).
 
 Next: the reviewer's review of the payments booking (#372), then Espen's label (tier 3).
