@@ -70,7 +70,7 @@
    "target": "EPS: 2030: 285, 2035: 962, 2040: 955, 2050: 933",
    "tol": "reported",
    "what": "Same settings, two models: the cut from the price alone (Espen's EPS run 1, against each model's own current-policy run), Mt CO2e",
-   "why": "This model's cut is 189% of EPS's in 2030, 82% in 2035 and 123% in 2050: about the same size over the period, with a different shape. This engine cuts more at first, because its power plants switch from coal to gas as soon as the price makes coal dearer. The regional fuel price spread (HI-1) slows that switching but does not remove the gap: from 2020 to 2021, when gas prices doubled, measured coal power rose 16% while the engine's roughly doubled. Part of that was the coal shortage, which annual data cannot separate out, so the engine's first-year power response is likely still too strong; monthly or plant-level history would settle it. EPS's cut comes mostly in 2031-2035, as plants retire and new capacity is built, and then levels off, while this engine's keeps growing as the price rises 5% a year and equipment turns over. Methane and fluorinated gases are priced in both runs, as EPS's defaults do."
+   "why": "This model's cut is 189% of EPS's in 2030, 82% in 2035 and 123% in 2050: about the same size over the period, with a different shape. This engine cuts more at first, because its power plants switch from coal to gas as soon as the price makes coal dearer. The regional fuel price spread (HI-1) slows that switching but does not remove the gap: from 2020 to 2021, when gas prices doubled, measured coal power rose 16% while the engine's roughly doubled. Part of that was the coal shortage, which annual data cannot separate out, so the engine's first-year power response is likely still too strong; monthly or plant-level history would settle it. EPS's cut comes mostly in 2031-2035, as plants retire, new capacity is built and carbon capture is fitted to existing coal and gas plants (EP-3), and then levels off, while this engine's keeps growing as the price rises 5% a year and equipment turns over. Methane and fluorinated gases are priced in both runs, as EPS's defaults do."
   },
   {
    "id": "EP-2",
@@ -80,6 +80,15 @@
    "tol": "reported",
    "what": "Same settings, two models: the cut from the package (Espen's EPS run 2, against each model's own current-policy run), Mt CO2e",
    "why": "This model's cut is 102% of EPS's in 2030, 70% in 2035 and 117% in 2050: about the same size over the period, with a different shape. The settings differ where the sliders allowed: EPS's construction subsidies start in 2026, its sales standards also cover buses, motorbikes and light trucks, its building electrification covers appliances too, and its methane capture covers coal mines and landfills; this model's standards also retire unabated coal by 2040. EPS's package cut is larger through 2040 and this model's larger by 2050, the same pattern as EP-1."
+  },
+  {
+   "id": "EP-3",
+   "model": "2030: coal 524 to 64, wind and solar +308, fossil with capture 0; 2035: coal 349 to 0, wind and solar +724, fossil with capture 67; 2040: coal 208 to 0, wind and solar +1,012, fossil with capture 166",
+   "result": "reported",
+   "target": "EPS: 2030: coal 546 to 266, wind and solar +0, fossil with capture 0; 2035: coal 353 to 0, wind and solar +716, fossil with capture 762; 2040: coal 278 to 0, wind and solar +650, fossil with capture 899",
+   "tol": "reported",
+   "what": "Same settings, two models: power plants under the price alone (EP-1's runs): coal generation without and with the price, the extra wind and solar, and fossil generation with carbon capture, TWh",
+   "why": "Both models start 2030 with about the same coal under current policies (524 and 546 TWh), so the difference is the response, not the starting fleet. In 2030, the price's first year, this engine runs 88% less coal and has already added 308 TWh of wind and solar, because its investors build ahead on the expected price; EPS runs 51% less coal and adds none yet. Its coal-to-gas switching in the first year is likely too strong (HI-1). By 2035 both have added about the same wind and solar (724 and 716 TWh). The difference is carbon capture: EPS fits it to existing coal and gas plants, 762 TWh in 2035 (396 from coal), so its gas and coal burn without capture falls far faster; this engine builds capture only on new gas plants (67 TWh) and has no retrofits. Retrofitting most of the coal fleet within five years is far beyond anything built so far, so EPS's 2035 power cut leans high on that count, and this engine's leans low if retrofits prove feasible at scale."
   },
   {
    "id": "PR-1",
@@ -654,20 +663,21 @@
    "library/text/m4-eia-epm-table-4_6_b-coal-receipts-by-state.txt": "225d6b1f80b80901",
    "library/text/m4-eia-epm-table-4_9_b-gas-receipts-by-state.txt": "c50cdac9581d79fd",
    "library/text/m4-eia-mer-t11-06-power-co2.txt": "b51f9974277efa92",
+   "models/data/energy/eps-us-4.0.7-generation-2026-11-13.csv": "26b86066c6f03aa0",
    "models/data/energy/eps-us-4.0.7-runs-2026-11-13-p2050.csv": "5566e5a36269c546",
    "models/data/energy/eps-us-4.0.7-runs-2026-11-13.csv": "f6bd2f8c612b1e1f",
    "models/data/inputs/carbon-parameters.csv": "1209e9fbd89f3e64",
    "models/data/inputs/excise-offset.csv": "8cc362a5d923b385",
    "models/tools/carbon/cfd-cex-2024.json": "11f4b296801bc20d",
    "models/tools/energy/assumptions.csv": "a1dd03d2bc4a4a15",
-   "models/tools/energy/data.py": "90bd85f350402109",
+   "models/tools/energy/data.py": "f36b324e0b55e161",
    "models/tools/energy/engine.js": "6bf12af1a0ef8882",
    "models/tools/energy/engine/cfd-households.js": "cf0b0d33ac3e8213",
    "models/tools/energy/engine/cfd-model.js": "816b60fc40a21c2a",
    "models/tools/energy/history.js": "4882d3c65521f29e",
    "models/tools/energy/history.py": "11f940610afd8126",
    "models/tools/energy/model.py": "654e0defdfc2e8ce",
-   "models/tools/energy/run.py": "f1ad3977f99d9318",
+   "models/tools/energy/run.py": "135aa4177fc17e7d",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb"
   },
   "mc_draws": 60,
