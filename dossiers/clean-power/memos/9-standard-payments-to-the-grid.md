@@ -1,6 +1,6 @@
 # Memo 9: Where the clean standard's payments go
 
-Role: decision memo and its record, from the design test on the energy model (`../design-test.md`). Status: **decided, B** (`DEC-2026-11-13-14`), with the grid account sized each year to ready-to-build transmission projects and anything beyond that kept as general-fund receipts. It amends CLI-3A.02 (memo 3 part 1 B, `DEC-2026-11-13-06`) and the standby builder's reach under CLI-10.03 (memo 4 B, `DEC-2026-11-13-10`) on this point only. The bill credit keeps its own funding.
+Role: decision memo and its record, from the design test on the energy model (`../design-test.md`). Status: **decided, B** (`DEC-2026-11-13-14`), **amended by `DEC-2026-11-14-02`** (all payments to the general fund; no grid account), with the grid account sized each year to ready-to-build transmission projects and anything beyond that kept as general-fund receipts. It amends CLI-3A.02 (memo 3 part 1 B, `DEC-2026-11-13-06`) and the standby builder's reach under CLI-10.03 (memo 4 B, `DEC-2026-11-13-10`) on this point only. The bill credit keeps its own funding.
 
 **Decision line.** Decided: **B, the payments build the grid.** When suppliers fall short of the standard and pay the capped payment, Treasury puts the money into a grid account that the standby builder and the second tranche draw on, instead of adding it to bill protection and the bill credit. Each year the account takes only what ready-to-build transmission work can use; the rest is general-fund receipts. On the energy model's full-builder run, which is an upper bound for B, this cuts **up to about 1.4 billion tons** more CO2 over 2030-50 and lowers the 2040 electricity price by **up to about 0.5 cents** a kWh. The booking's general-fund cost is unchanged; on the model the extra build costs about $60 billion over FY2030-39 before the receipts the account does not spend. Lower- and moderate-income households lose the payments' top-up (about $163 billion over FY2030-39) and keep the bill credit.
 
@@ -51,6 +51,8 @@ It aims the payments at the cause of the shortfall: the more the grid grows, the
 
 ## The grid account
 
+*Superseded in part by `DEC-2026-11-14-02`; see Consequences.* 
+
 **Ready-to-build.** A transmission line or upgrade is ready to build when it has (1) accepted cost allocation in a FERC-approved plan, or a signed offtake or anchor contract, (2) siting under way with the lead state or FERC (application filed), and (3) its long-lead equipment (transformers, breakers, conductor) procured or reserved. Reconductoring and grid-enhancing technologies on existing rights of way meet (2) by definition. DOE certifies the list each year and publishes it with the account's size: the sum of what those projects can draw that year. Working choice, from the research in `../design-test.md`; it uses the plans, filings and contracts that already exist rather than a new review.
 
 **What the account pays for, in order** (working choice):
@@ -70,4 +72,4 @@ It aims the payments at the cause of the shortfall: the more the grid grows, the
 
 ## Consequences
 
-CLI-3A.02 changes where the payments go; CLI-10.03 gains the grid account; CLI-5H.01 and CLI-5L.01 lose the payments as a funding source (bill protection then runs on the bill credit's own funding). The booking's C3A and CXA rows stay; CLI-3A's pay-out becomes grid-account outlays sized to ready-to-build need, with the rest kept as receipts, in a follow-up tier-3 change with the specification rows. Section 7's households table and section 9's bill answer gain the lower 2040 price.
+**Superseded in part by `DEC-2026-11-14-02`:** all of the standard's payments are now general-fund receipts and there is no grid account; grid build-out is paid from the general fund through CLI-10. The analysis below stands as the record of why. CLI-3A.02 makes the payments general-fund receipts; CLI-5H.01 and CLI-5L.01 lose them as a funding source and keep their own (the bill credit's LIHEAP funding; bill protection's booked line). As booked (`../6-cost.md`, part 6, 6a): C3A and CXA stay; CLI-3A pays out nothing; about **$163 billion over FY2030-39 and $41.4 billion in FY2040** stay in the general fund. Sized to ready-to-build projects, the account would have funded little beyond CLI-10's milestone releases, which is why Espen chose the general fund for now.

@@ -2582,19 +2582,19 @@
  {
   "id": "CLI-3A",
   "legacy": "CLI-3A",
-  "bill": "The standard's capped payments paid out through bill protection and the bill credit (CLI-3A.02)",
+  "bill": "The standard's capped payments: no pay-out (CLI-3A.02; DEC-2026-11-14-02)",
   "domain": "Climate",
   "source": "dossiers/clean-power/6-cost.md",
   "rail": "R2",
   "rail_name": "Reconciliation II (FY2030 resolution, summer 2029)",
   "channel": "General fund",
-  "cost_lo": 0.074,
-  "cost_mid": 0.163,
-  "cost_hi": 0.163,
+  "cost_lo": 0.0,
+  "cost_mid": 0.0,
+  "cost_hi": 0.0,
   "own_revenue": 0,
-  "net_mid": 0.163,
+  "net_mid": 0.0,
   "basis": "estimate",
-  "basis_note": "Equal to the receipts (C3A), by year from the energy model; the net cost is the offset (CXA). clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py)",
+  "basis_note": "DEC-2026-11-14-02 (amending memo 9 B): all of the standard's payments are general-fund receipts (C3A); no bill top-up and no grid account; grid build-out is CLI-10's. clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py)",
   "floor_days": 0,
   "felt_months": 30,
   "durability": 55,
@@ -2605,8 +2605,8 @@
   "own_rev_hi": 0,
   "own_rev_channel": "",
   "gf_rule": "all",
-  "gf_lo": 0.074,
-  "gf_mid": 0.163,
-  "gf_hi": 0.163
+  "gf_lo": 0.0,
+  "gf_mid": 0.0,
+  "gf_hi": 0.0
  }
 ]
