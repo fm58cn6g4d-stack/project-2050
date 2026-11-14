@@ -2,7 +2,7 @@
 
 Role: the live status of the plan (`charter/PLAN.md`, section 6): who is working, what is in motion, where each dossier stands, what comes next, known gaps and open questions for Espen. Only the lead edits it, folding in the "For the board" notes from workers' PRs (`DEC-2026-11-12-03`). Status: current. It holds no history: finished work is in Git and the PRs, decisions are in `charter/decisions.md`, and rules are in `charter/STANDARDS.md`.
 
-Updated November 13, 2026 (about 23:45 UTC) by the lead, session_01UQzgBuP5ZGwT3KENpUcuNd.
+Updated November 14, 2026 (about 02:25 UTC) by the lead, session_01UQzgBuP5ZGwT3KENpUcuNd.
 
 ## Standing sessions
 
@@ -24,24 +24,25 @@ Updated November 13, 2026 (about 23:45 UTC) by the lead, session_01UQzgBuP5ZGwT3
 ## In motion
 
 - **Open PRs:** this board PR.
-- **Merged today:** #330 (D, `DEC-2026-11-13-03`), #332, #333, #334, #335 (Espen's November 13 round, `DEC-2026-11-13-04` to `-08`), #336, #337 (the lead handoff), #338 and #341 (E-C2: clean power sections 4-9 at L2), #339 (the rebookings: INC-4 at about $0.5B a year, memo 6's health factor at 0.67; Espen's label), #340 (`DEC-2026-11-13-09`, start M4; Espen's label). The reviewer's optional note on #335 stands: DEC-06's "except 14" means the decision document's item 14 (memo 7), not point 14; clarify it when `charter/decisions.md` is next touched in a tier-3 PR.
+- **Merged November 13-14:** #330, #332 to #341 (the handoff, E-C2, the rebookings, `DEC-2026-11-13-09`); #342 (M4's survey); #343 (board); #344 and #346 (clean power's milestone review and fixes: L2 pass; L3 blockers B-1, B-2, O-1 fixed); #345 (`DEC-2026-11-13-10` to `-12`: the standby builder, tribal nations in the guarantee, re-review on the new model); #347 (MOD-energy, `models/tools/energy/`, status working); #348 (the climate pricing export at 24.4%; Espen's label); #349 and #351 (clean power's re-review on MOD-energy); #350, #352, #355, #356 (M4 follow-ups: standard payments in retail prices, the power history check HI-1 and Espen's two EPS runs, regional fuel prices, credits follow CLI-1A.02's step-down); #353 (`DEC-2026-11-13-13`, the transition share's remainder to the general fund from FY2040; Espen's label); #354 (clean power on `-13`). The reviewer's optional note on #335 stands: DEC-06's "except 14" means the decision document's item 14 (memo 7), not point 14; clarify it when `charter/decisions.md` is next touched in a tier-3 PR.
 - **Workers (report to the lead):**
-  - M4, the energy and climate model, `session_01UQzgBtLC9XG5ZhhwqzJVwW` (Most capable, started about 23:30 UTC; `DEC-2026-11-13-09`). Part 1: a survey of validated, widely used energy and climate policy models (EPS, NEMS, ReEDS, GCAM, REPEAT, Rhodium and others), learning from the Energy Policy Simulator through documentation Espen uploads into that session (port no EPS code: it is GPL; cite each borrowed method). Part 2: build `models/tools/energy/` to the toolkit standard.
-  - Clean power's milestone review (L2/L3) and fixes, `session_01UQzgButU9bQRw8o2Tq3QvS` (Most capable, started about 23:42 UTC), branches `claude/clean-power-review` and `claude/clean-power-review-fixes`. It also weighs the builder of last resort (below) for Espen. The booking (tier 3) follows its fixes.
+  - Clean power's booking (tier 3, the L3 close-out), `session_01UQzgButU9bQRw8o2Tq3QvS` (Most capable; it also did the milestone review, fixes and re-review), branch `claude/clean-power-booking`, on `dossiers/clean-power/review-m4.md` "What the booking must use" and `6-cost.md` part 6, with #356's credit figures; it refreshes review-m4.md R-2/R-6, `7-validation.md` and `9-public-case.md` in the same PR. The reviewer does the L3 re-check on it. Then Espen's label.
+  - M4, `session_01UQzgBtLC9XG5ZhhwqzJVwW` (Most capable): parts 1-2 and follow-ups merged; its context was compacted once. Left: the full-engine history check (HI-1 beyond power) before the model leaves "working"; PR-2 (receipts about 26% above CBO's in the first decade, the engine's known lag); `pricing.py`'s "CX, 25%" labels (a tier-3 touch, batch with the next); an optional EPS package comparison if Espen runs it.
   - Reviewer: see Standing sessions.
   - Done, Espen may archive: E-C2 `session_01UQzgBwvZTryixNAc6pThNU` (#338, #341); rebookings `session_01UQzgBv5F38Tpd5UjbR3xCf` (#339); M4A financing `session_01UQzgBtSzgtGkdukhQoJaNv` (#334, #336); D `session_01UQzgBtQcZhNsuZ4WPD35B5`; secure floor status `session_01UQzgBtrghrWBbFGS3ZaJNo`; former lead `session_01UQzgBuU8feeYuYt6o6GeGK`; and every session the board listed as done before.
 - **The decision document** (a Claude Doc; the doc id is 881ecff6-a8f3-448b-89c5-ed3312e423ce and the artifact link is https://claude.ai/artifact/HouYTVFgnhsepKsZzoopxD; body node 83add86c-21a5): items 1-30, all answered. Item 1 (#330) is merged. Items 2-28 are merged in #335. Items 29-30 needed no decision. Espen comments there, and the lead answers in the doc's own threads with the Claude Docs connector.
 - **Espen's direction today** (`DEC-2026-11-13-08`, now in `charter/STANDARDS.md`'s design lens): use existing machinery and systems first, and simplify where a system or design is more complex and costly to administer than its purpose needs. Apply it in every brief and review.
-- **Waiting on Espen:** the builder of last resort (memo 4 B, CLI-10.03). Espen approved "a federal transmission authority, on TVA's model"; E-C2 delivers it through WAPA's Transmission Infrastructure Program extended nationwide, with TVA and Bonneville in their own regions, under `DEC-2026-11-13-08`. Espen asked what that covers and was given two options: A, WAPA extended (the draft); B, the three in their own regions plus a new TVA-style authority only for the East outside TVA and Texas. WAPA has no presence in the East or Texas and would need building authority; ERCOT lines need PUCT-approved rates. The milestone review weighs both; CLI-10.03 stays as drafted until Espen decides.
+- **Waiting on Espen:** the label on clean power's booking once it is approved and current. Nothing else is open for decision.
+- **A snapshot page of MOD-energy's predictions** for Espen (not a source of record): https://claude.ai/artifact/HtUiL7sspMPqMT8oG33DYp.
 - **Small items for later:**
   - From #339: `agenda/agenda.csv`'s INC-4 title could name the block grant; `dossiers/secure-floor/3-design.md` point 7 still describes INC-4's earlier scope; `immigration_booking.py`'s non-JSON printout fails with `KeyError: 'CAP-7S'` (`--json` and the tests are fine).
-  - For clean power's booking (from E-C2): where the 20% transition share sits after FY2039, and the budget treatment of TVA's, Bonneville's and WAPA's added borrowing.
+  - For clean power's booking (from E-C2): the budget treatment of TVA's, Bonneville's and WAPA's added borrowing (the transition share after FY2039 is settled by `DEC-2026-11-13-13`).
   - The secure floor README table's rows 1-2 still say "Draft (S2)" (#333 left them).
   - HOU-1, HOU-2 and HOU-3 are parent rows with no provisions, left at L2 (#329). The lead settles them with their children.
   - E-Verify's Social Security funds line is written up in #328 for a tier-3 change to the funds model.
   - M3's later items: replicate-weight intervals, the CBO-convention check, moving the budget readers to the measured keys.
   - The tier-3 cleanups from the legacy move: `merge-policy.json`, `scenarios.json`'s role text, `models/data/inputs/readme.md:43`.
-- **Lead check-in:** `trig_01R5NHeo8PCrGN9yZFrQQkmb` (`send_later`, about 02:17 UTC November 14), the three-hour safety net. The outgoing lead's `trig_01GVpVXmkRjHBDk6wp48qX5X` is disabled, not deleted.
+- **Lead check-in:** a `send_later` safety net every three hours (next about 05:20 UTC November 14). The outgoing lead's `trig_01GVpVXmkRjHBDk6wp48qX5X` is disabled, not deleted.
 - **Labels and decision-log conflicts:** two tier-3 PRs that both add rows to `charter/decisions.md` conflict when the first merges, and the gate drops `espen-approved` from the second when that conflict is resolved. Ask Espen to label such PRs one at a time.
 - **Gate note:** a routine PR can sit "ready, merging now" while main moves under it. GitHub's branch update (or a merge of main) un-sticks it; the approval carries over (#329, November 13).
 - **Codex** access stays suspended; don't reach it with PR comments.
@@ -49,8 +50,8 @@ Updated November 13, 2026 (about 23:45 UTC) by the lead, session_01UQzgBuP5ZGwT3
 
 ## Next, in order
 
-1. Clean power's milestone review and fixes (in progress), then its booking (tier 3); M4 (in progress); Espen's answer on the builder of last resort.
-2. **Clean power (flagship 4, stage E's other flagship)**: E-C1 done (#315, #317); memos decided (#335, `DEC-2026-11-13-06`, `-07`); E-C2 done (#338, #341: sections 4-9 at L2; about $1.85T over FY2030-39 and $147B in FY2040); the milestone review in progress, then the booking.
+1. Clean power's booking (tier 3, in progress; the L3 close-out), then Espen's label; then the settlement checkpoint memo (item 4).
+2. **Clean power (flagship 4, stage E's other flagship)**: E-C1 done (#315, #317); memos decided (#335, `DEC-2026-11-13-06`, `-07`); E-C2 done (#338, #341: sections 4-9 at L2; about $1.85T over FY2030-39 and $147B in FY2040); milestone review and fixes done (#344, #346), re-reviewed on MOD-energy (#349, #351, #354); the booking in progress.
 3. **Maintenance, alongside clean power:**
    - **M1** done (#326, follow-up #329; the secure floor's lines after D in #333; the "crs r44593" two homes in #338). Left: HOU-1, HOU-2 and HOU-3 are parent rows with no provisions of their own, left at L2 (#329), for the lead to settle with their children.
    - **M3, the household model:** parts 1-2 done (#318 to #322, #327). Left for a later Most capable session: replicate-weight intervals; the CBO-convention check; moving the budget model's readers to the measured keys; the model card's note that the fixture's exact reproduction holds as of `e897ac6`. INC-4 is rebooked at about $0.5B a year on the household model's measure (#339, `DEC-2026-11-13-04`).
@@ -70,7 +71,7 @@ Updated November 13, 2026 (about 23:45 UTC) by the lead, session_01UQzgBuP5ZGwT3
 | Care parts B-D (`dossiers/care/`, flagship 2) | L3 (FAM-2A to 2F at L2) | Sections 1b-9bcd, memos 6-17; review passed (#260, #263); booked (#265) | None (README map fixed, #326) |
 | Secure floor (`dossiers/secure-floor/`, flagship 1) | L3 (alternatives and options at L1-L2) | Sections 1-9 and memos 1-7, decided (`DEC-2026-11-12-06`, `-09`, `-13` to `-15`); review #298, fixes #301; booked (#304, which was also the L3 re-check), then D (#330) and INC-4 rescoped (#339): about $2.59T over FY2030-39 and $298B in FY2040 | SS-8's budget treatment (research); INC-1 to INC-5 are in the D3 test (#320) |
 | Immigration (`dossiers/immigration/`, flagship 6) | L3 (alternatives at L2) | Sections 1-9, memos 1-7 and the first immigration model (`tools/immigration_model.py`), decided (`DEC-2026-11-12-07`, `-12`, `-17` to `-19`); milestone review #303, fixes #305 and #307; booked (#310, which was also the L3 re-check), memo 6's health factor at 0.67 (#339): about +$149B over FY2030-39 and +$22.5B in FY2040 | IMM-1.23's long-term care text follows option C (the care base correction); the open items in "Next" |
-| Clean power (`dossiers/clean-power/`, flagship 4) | L2 | Sections 1-9 and memos 1-7 (#315, #317, #338, #341), decided (#335); the decided set about $1.85T over FY2030-39 (+$0.04T against the booked legacy climate rows) and $147B in FY2040 (−$17.5B), not yet booked | The milestone review (in progress), its fixes, then the booking (tier 3) |
+| Clean power (`dossiers/clean-power/`, flagship 4) | L2 (L3 on booking) | Sections 1-9 and memos 1-7, decided (#335, `DEC-2026-11-13-10` to `-13`); milestone review and fixes (#344, #346); re-review on MOD-energy (#349, #351, #354): the decided set about $1,854B over FY2030-39 and $113B in FY2040 (−$51.6B against the booked legacy rows), not yet booked | The booking (tier 3, in progress) |
 | Work (flagship 5), democratic renewal, fair financing | L1 | Not started (stages F and G) | — |
 | Rural delivery note (`dossiers/foundations/rural-delivery.md`) | — | Done (#171); applied project-wide by `DEC-2026-11-09-26` | Each dossier reads it for section 5 |
 
@@ -89,7 +90,6 @@ Updated November 13, 2026 (about 23:45 UTC) by the lead, session_01UQzgBuP5ZGwT3
   - INC-1 to INC-5 are now in the D3 household test (#320).
   - Nit: `tools/afa_floor.py`'s docstring should cite sec. 1(f)(6), not 1(f)(4).
 - **Budget model:**
-  - The climate pricing export (`legacy/sources/climate-portfolio-pricing.json`) still uses a 25% offset; CXP's booking differs from it by about $0.6 billion over FY2030-39 until the export is rebuilt (#289).
   - Held nits: a missing period after "HLT-3's slot" in HLT-7's ledger note (tier 3); "-0.00 points" on the dedicated-funds page.
 - **For the financing settlement:** with child care and pre-K inside the education fund (EDU-9B), its reserve goes negative in 2035 at the 1.4-point rate (about 1.7 points keeps it solvent); R1's child benefit adds about $2.3 trillion in the ten years after its window (the Byrd rule).
 - **Housing, deferred** (fix step 7, #193):
