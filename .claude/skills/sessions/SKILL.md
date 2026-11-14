@@ -95,6 +95,7 @@ For the reviewer, the lead starts the successor; the reviewer starts nothing.
 
 **Handing over the lead.**
 1. **Write the handoff.** In a PR, update the board's Standing sessions table, add the outgoing session to a "Former standing sessions" list under it (role, session ID, what it covered, dates), and add a short "Lead handoff" note. The note lists:
+   - where the project stands in `charter/PLAN.md` section 6's stages, and what comes next (the board's "Where we are in the plan" line, kept current);
    - every active session (ID, step, state, report-back address);
    - open PRs and their author sessions;
    - your scheduled check-ins (`list_triggers`, the ones bound to your session ID) and what each is for;
@@ -152,6 +153,7 @@ Never push, merge, edit repository files, add or remove labels, or change settin
 
 The lead is the one session that knows everything in motion, so a handover or a question from Espen never starts from a guess (`DEC-2026-11-12-05`).
 
+- **Keep the board's "Where we are in the plan" line current** at each stage step, so every lead and worker knows the stage, its last step and what follows (Espen, November 14).
 - **Keep an in-motion list** at the top of the board: each active session (step, state, report-back address, context size), each open PR (author, tier, what it waits on) and each scheduled check-in. Track it as events happen, write it into each batched board PR (`DEC-2026-11-12-03`), and always before a handoff. Espen doesn't read the board; write it for the next lead.
 - **Wait on events, not the clock.** For a known event (a label added, a merge, the gate's verdict on a new head), run a background shell loop that checks about once a minute and exits when the event happens: `git ls-remote` or `git fetch` for merges and new heads, and the `gh` search API (the only `gh` use allowed here, one call a minute or slower) for labels and reviews. A shell loop can't call the GitHub MCP tools; use those in the lead's own turn. Match the reviewer's own comment, not the gate's template that quotes the approval lines. It costs no tokens while it waits. Workers' messages (`ready`, `blocked`, `done`) carry the rest.
 - **One safety-net check-in every three hours** (`send_later`), for anything nobody reported: one batched look at the open PRs and `get_session` on each active session.
