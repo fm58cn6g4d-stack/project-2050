@@ -9,6 +9,7 @@ import argparse, csv, hashlib, json, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import data  # noqa: E402
+import history  # noqa: E402
 import model as m  # noqa: E402
 
 ROOT = data.ROOT
@@ -20,6 +21,9 @@ TCRE = (0.27, 0.45, 0.63)                      # IPCC AR6 WG1 SPM D.1.1 (SRC-503
 LEGACY_WORLD = {"crYears": 10, "crVehYears": None, "retailNetCredits": False, "retailAcp": False}   # undo this model's world settings: carbon-model.py runs the defaults
 
 
+EPS2_WORLD = {"zevPath": {2032: 0.25, 2037: 0.5, 2040: 0.67, 2050: 1.0}, "zevTrkPath": {2032: 0.03, 2037: 0.20, 2040: 0.26, 2050: 0.65}}   # EPS run 2's sales standards
+
+
 def bench_cases():
     """Extra engine runs the benchmarks need (none is a policy Project 2050 proposes)."""
     mov = m.scenarios()[0][1][2]
@@ -29,11 +33,19 @@ def bench_cases():
     legacy = dict(m.NO_FEE, permitYear=P["permit_year"], childShare=0, roadExempt=True, roadPath=m.ROAD, othRoad=P["oth_road"], offset=0, admin=0,
                   dividendShare=P["dividend_share"], cover=dict(m.COVER_NONE), ratchet=False, credits=True,
                   ces={"start": P["ces_start"], "target": P["ces_target"], "year": P["ces_year"]}, standards=True, gridStatute=True, weatherize=True, methaneFee=m.METHANE_FEE)
+    # Espen's EPS runs (models/data/energy/eps-us-4.0.7-runs-2026-11-13-p2050.csv): price points as set, straight lines between
+    pts = {2029: 0, 2030: 23.1, 2031: 31.35, 2032: 39.6, 2033: 56.1, 2035: 87.45, 2036: 102.3, 2037: 115.5, 2038: 118.8, 2040: 125.4, 2045: 143.55, 2050: 165}
+    eps_path = {y: (interp(pts, y) if y >= 2030 else 0.0) for y in m.YRS}
+    eps1 = dict(m.NO_FEE, permitYear=None, cover=dict(m.COVER_NONE, process=True, fgas=True), fgasRate=1.0, sectorPrice={"buildings": 0, "industry": 1, "nonroad": 0},
+                offset=0, admin=0, ratchet=False, methaneFee={"start": 2030, "mult": 1, "floor": 0, "ogShare": 1, "coal": True, "landfill": False})
+    eps2 = dict(eps1, credits=True, ces=m.CES, standards=True, heatStd=m.HEAT)
     cbo_path = {y: (25 * 1.05 ** (y - 2025) if y >= 2025 else 0.0) / 1.0 for y in m.YRS}   # CBO option 73: $25 in 2025 rising 5% a year above inflation
     return [dict(id="b_econ", label="Benchmark run: economy-wide price on the decided path, nothing else", policy=econ, price=m.PRICE),
             dict(id="b_cbo", label="Benchmark run: CBO's option ($25 a ton from 2025, +5% a year real, all fuels)", policy=cbo, price=cbo_path),
             dict(id="b_cr", label="Benchmark run: the credits alone, no price", policy=dict(mov, credits=True), price=None),
-            dict(id="b_legacy", label="Benchmark run: the legacy decided package as carbon-model.py runs it", policy=legacy, price=m.PRICE, world=LEGACY_WORLD)]
+            dict(id="b_legacy", label="Benchmark run: the legacy decided package as carbon-model.py runs it", policy=legacy, price=m.PRICE, world=LEGACY_WORLD),
+            dict(id="b_eps1", label="Matched to Espen's EPS run 1: the price on power and all industry, with process CO2, oil, gas and coal-mine methane and fluorinated gases priced (EPS's defaults)", policy=eps1, price=eps_path),
+            dict(id="b_eps2", label="Matched to Espen's EPS run 2: run 1 plus the credits, the 80%/100% standard, EPS's sales-standard paths and the clean-heat standard", policy=eps2, price=eps_path, world=EPS2_WORLD)]
 
 
 def interp(tbl, y):
@@ -93,6 +105,16 @@ def benchmarks(E, ACC, HH):
         model=f"2035 {md:+.0f}%, 2050 {ch({k: E['decided'][k]['ghgNet'] for k in E['decided']}, 2050):+.0f}%", target=f"EPS: 2035 {me:+.0f}%, 2050 {ch(eps['us_climate_action'], 2050):+.0f}%",
         tol="reported (not like for like)", result="reported",
         why="The EPS package is far wider and has no carbon price: the IRA's credits restored through 2050, a clean standard of 76% in 2035 and 95% from 2040, federal and state vehicle sales standards from 2031, building electrification and efficiency standards, about 150 industrial electrification and 100 efficiency settings, a 50% low-carbon fuel standard, methane capture, land, farm and forest measures, and direct air capture and rock weathering of roughly 370 Mt a year by 2050 (SRC-5044; the run's settings file). The decided set leaves farms and forests as booked, adds no carbon removal, and its industry and building measures are fewer. The gap shows what those extra measures would have to do; it is not a test of either model.")
+    ep, cp = data.eps_p2050(), eps["current_policies"]
+    for bid, cid, k, what in (("EP-1", "b_eps1", "run1_price", "the price alone"), ("EP-2", "b_eps2", "run2_package", "the package")):
+        mod = {y: cl[y]["ghgNet"] - E[cid][y]["ghgNet"] for y in (2030, 2035, 2040, 2050)}
+        epsd = {y: cp[y] - ep[k][y] for y in mod}
+        add(id=bid, what=f"Same settings, two models: the cut from {what} (Espen's EPS run {bid[-1]}, against each model's own current-policy run), Mt CO2e",
+            model=", ".join(f"{y}: {mod[y]:,.0f}" for y in mod), target="EPS: " + ", ".join(f"{y}: {epsd[y]:,.0f}" for y in epsd),
+            tol="reported", result="reported",
+            why=f"This model's cut is {mod[2030] / epsd[2030]:.0%} of EPS's in 2030, {mod[2035] / epsd[2035]:.0%} in 2035 and {mod[2050] / epsd[2050]:.0%} in 2050: about the same size over the period, with a different shape. " + (
+                "This engine cuts more at first, because its power plants switch from coal to gas as soon as the price makes coal dearer (HI-1 finds that switching too quick against history); EPS's cut comes mostly in 2031-2035, as plants retire and new capacity is built, and then levels off, while this engine's keeps growing as the price rises 5% a year and equipment turns over. Methane and fluorinated gases are priced in both runs, as EPS's defaults do." if bid == "EP-1" else
+                "The settings differ where the sliders allowed: EPS's construction subsidies start in 2026, its sales standards also cover buses, motorbikes and light trucks, its building electrification covers appliances too, and its methane capture covers coal mines and landfills; this model's standards also retire unabated coal by 2040. EPS's package cut is larger through 2040 and this model's larger by 2050, the same pattern as EP-1."))
     b, base = E["b_econ"], E["mov"]
     per = {y: 100 * (base[y]["energy"] - b[y]["energy"]) / base[y]["energy"] / b[y]["price"] for y in (2035, 2040)}
     add(id="PR-1", what="Response to a carbon price: % cut in energy CO2 per dollar a ton (economy-wide price alone, against current law with Moving America)",
@@ -131,8 +153,14 @@ def benchmarks(E, ACC, HH):
         model=", ".join(f"{g['name']} {g['net']:+,.0f}" for g in hh), target="Treasury, TPC and RFF: lower fifths ahead, top behind with a per-adult rebate (SRC-4615, SRC-5035, SRC-4620)",
         tol="bottom two fifths ahead, top fifth behind", result="pass (shape)" if ok else "fail (shape)",
         why="A shape test: the levels depend on the coverage and on the 20% that does not return as the dividend.")
-    add(id="HI-1", what="History run (engine started from 2015 and run to 2025 against EIA's measured CO2)", model="not built", target="EIA 2015-2025",
-        tol="—", result="pending", why="The engine starts in 2025; a 2015 start needs that year's fleet, prices and policies. Planned (survey.md, section 3).")
+    H = history.run()
+    mae = sum(abs(h["gap_pct"]) for h in H) / len(H)
+    worst = max(H, key=lambda h: abs(h["gap_pct"]))
+    add(id="HI-1", what="History run, power sector: the engine's dispatch on each year's measured fleet, generation and fuel prices, 2015-2025, against EIA's measured coal and gas power CO2 (SRC-5052 to 5057)",
+        model=f"average gap {mae:.1f}%; largest {worst['gap_pct']:+.1f}% ({worst['year']})", target="EIA, Monthly Energy Review table 11.6",
+        tol="average absolute gap 5% or less, and every year within 10%", result="pass" if mae <= 5 and abs(worst["gap_pct"]) <= 10 else "fail",
+        why="Total fossil generation is right by construction; the error is the split between coal and gas. When gas was cheap (2015-16, 2019-20, 2023-24) the engine burns too much gas and too little coal and its CO2 is low; when gas was dear (2021-22) it swings back to coal too far and its CO2 is high. Real fleets switch less: regional fuel prices, contracts, transmission and plants' minimum running levels slow it. So the engine's near-term power response to a carbon price, which also works through coal-gas switching, is likely too quick, and its 2030 cuts lean high (EP-1). A fix, for a later step: a spread of regional fuel prices in the dispatch, calibrated to this history. The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built.")
+    out.append({"_history": H})
     return out
 
 
@@ -153,6 +181,8 @@ def main():
     L, O = m.scenarios()
     layers, options = [c[0] for c in L], [c[0] for c in O] + ["cl_permit", "decided_permit"]
     B = benchmarks(E, ACC, R["households"])
+    HIST = next(b["_history"] for b in B if "_history" in b)
+    B = [b for b in B if "_history" not in b]
     D, cl = E["decided"], E["cl"]
     pct = lambda xs, q: sorted(xs)[min(len(xs) - 1, max(0, int(round(q * (len(xs) - 1)))))]
     mc = R["mc"]["decided"]
@@ -181,7 +211,8 @@ def main():
     booked = {"REV-C1A": ("C1", -1), "REV-C1P.01": ("C1P", -1), "REV-C2.01": ("C2", -1), "REV-C3.01": ("C3", -1)}
     files = ["models/tools/energy/engine/cfd-model.js", "models/tools/energy/engine/cfd-households.js", "models/tools/carbon/cfd-cex-2024.json", "models/tools/energy/engine.js", "models/tools/energy/model.py",
              "models/tools/energy/run.py", "models/tools/energy/data.py", "models/tools/energy/assumptions.csv", "models/data/inputs/carbon-parameters.csv",
-             "models/data/inputs/excise-offset.csv", "models/tools/transportation/moving_america.py", "models/data/energy/eps-us-4.0.7-runs-2026-11-13.csv"] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for f, _ in data.AEO.values()]
+             "models/data/inputs/excise-offset.csv", "models/tools/transportation/moving_america.py", "models/data/energy/eps-us-4.0.7-runs-2026-11-13.csv",
+             "models/data/energy/eps-us-4.0.7-runs-2026-11-13-p2050.csv", "models/tools/energy/history.py", "models/tools/energy/history.js"] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for f, _ in history.SRC.values()] + ["library/text/m4-eia-mer-t11-06-power-co2.txt"] + [os.path.relpath(os.path.join(data.TEXT, f), ROOT) for f, _ in data.AEO.values()]
     res = {
         "model": "MOD-energy", "status": "working",
         "run": {"inputs_sha256_16": {f: sha(os.path.join(ROOT, f)) for f in files}, "offset_rate": m.OFFSET, "inflation": m.P["inflation"],
@@ -199,6 +230,7 @@ def main():
         "valuation": {"avoided_ghg_2030_2050_mt": round(sum(avoid.values())), "scc_2020usd_bn_undiscounted": round(scc_val),
                       "avoided_co2_2030_2050_gt": round(avoid_co2 / 1000, 2), "warming_avoided_c": [round(avoid_co2 / 1e6 * t, 4) for t in TCRE]},
         "weather_2025": data.weather_2025(),
+        "history_power": HIST,
         "benchmarks": B,
     }
     os.makedirs(args.out, exist_ok=True)
@@ -291,6 +323,18 @@ def report(res, E, ACC, layers, options, labels):
     w("| --- | --- | --- | --- | --- | --- |")
     for b in res["benchmarks"]:
         w(f"| {b['id']} | {b['what']} | {b['model']} | {b['target']} | {b['tol']} | **{b['result']}** |")
+    w("\n**HI-1, year by year** (power-sector CO2 from coal and gas, Mt; generation, TWh):\n")
+    w("| Year | Model CO2 | Measured CO2 | Gap | Coal, model / measured | Gas, model / measured |")
+    w("| --- | --- | --- | --- | --- | --- |")
+    for h in res["history_power"]:
+        w(f"| {h['year']} | {h['model_co2']:,.0f} | {h['measured_co2']:,.0f} | {h['gap_pct']:+.1f}% | {h['model_coal_twh']:,.0f} / {h['measured_coal_twh']:,.0f} | {h['model_gas_twh']:,.0f} / {h['measured_gas_twh']:,.0f} |")
+    cp, ep = data.eps_runs()["current_policies"], data.eps_p2050()
+    w("\n**EP-1 and EP-2, the curves** (net greenhouse gases, Mt CO2e, land use included as each model books it). Espen's EPS runs of the plan's settings (EPS 4.0.7, 2026-11-13) beside this engine's runs of the same settings; each model's cut is against its own current-policy run, since the two models start from different totals:\n")
+    w("| Year | EPS current policies | EPS run 1, price | EPS run 2, package | Engine current policies | Engine, price | Engine, package | Cut, price: EPS / engine | Cut, package: EPS / engine |")
+    w("| --- | --- | --- | --- | --- | --- | --- | --- | --- |")
+    for y in (2030, 2035, 2040, 2045, 2050):
+        c, p1, p2 = E["cl"][y]["ghgNet"], E["b_eps1"][y]["ghgNet"], E["b_eps2"][y]["ghgNet"]
+        w(f"| {y} | {cp[y]:,.0f} | {ep['run1_price'][y]:,.0f} | {ep['run2_package'][y]:,.0f} | {c:,.0f} | {p1:,.0f} | {p2:,.0f} | {cp[y] - ep['run1_price'][y]:,.0f} / {c - p1:,.0f} | {cp[y] - ep['run2_package'][y]:,.0f} / {c - p2:,.0f} |")
     w("\n**Why the differences arise.**\n")
     for b in res["benchmarks"]:
         w(f"- **{b['id']}.** {b['why']}")
