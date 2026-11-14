@@ -140,6 +140,8 @@ Against 2029 current law, the decided set avoids about 27,394 Mt CO2e over 2030-
 | BL-2 | Net greenhouse gases below 2005 in 2035 under current policy | 28% | Rhodium 26-35% (SRC-4474); the 2026 review's OBBBA runs 31-37% (SRC-4479) | inside 26-37% | **pass** |
 | BL-3 | Net greenhouse gases under current policy, change from 2025 (the Energy Policy Simulator's Current Policies pathway, run by Espen, November 13, 2026) | 2035 -13%, 2050 -25% | EPS 4.0.7: 2035 -10%, 2050 -21% | within 5 points in 2035; 2050 reported | **pass** |
 | PK-1 | A package against a package: the decided set against the Energy Policy Simulator's US Climate Action pathway, change in net greenhouse gases from 2025 to 2035 (and 2050) | 2035 -30%, 2050 -60% | EPS: 2035 -43%, 2050 -91% | reported (not like for like) | **reported** |
+| EP-1 | Same settings, two models: the cut from the price alone (Espen's EPS run 1, against each model's own current-policy run), Mt CO2e | 2030: 525, 2035: 751, 2040: 965, 2050: 1,095 | EPS: 2030: 285, 2035: 962, 2040: 955, 2050: 933 | reported | **reported** |
+| EP-2 | Same settings, two models: the cut from the package (Espen's EPS run 2, against each model's own current-policy run), Mt CO2e | 2030: 538, 2035: 892, 2040: 1,293, 2050: 1,811 | EPS: 2030: 538, 2035: 1,340, 2040: 1,458, 2050: 1,586 | reported | **reported** |
 | PR-1 | Response to a carbon price: % cut in energy CO2 per dollar a ton (economy-wide price alone, against current law with Moving America) | 2035: 0.15% at $87, 2040: 0.14% at $125 | EMF 37: 0.06-0.31% per dollar (SRC-5024) | inside the range in 2035 and 2040 | **pass** |
 | PR-2 | Receipts on CBO's price path, 2025-2034, net of the income and payroll tax offset | $1,157B | CBO option 73: $919B (SRC-5036) | within 25% | **fail** |
 | CR-1 | Restoring the credits alone (from 2030, stepping down): points of energy CO2 below 2005 in 2035 | 5.2 points | The IRA against no IRA in the 2026 review: 39-48% against 27-35% below 2005 in 2035 (SRC-4479), about 8-13 points | reported | **reported** |
@@ -147,7 +149,33 @@ Against 2029 current law, the decided set avoids about 27,394 Mt CO2e over 2030-
 | BK-1 | The legacy run reproduced: the decided legacy package through this model's driver, REV-C1 receipts FY2030-39 | $1.996T | legacy/index/climate-carbon-model.md: $2.00T (SRC-0056) | within 0.5% (the legacy figure is rounded) | **pass** |
 | BK-2 | Memo 1 B's arithmetic against a run: the carbon price's receipts FY2030-39 and the dividend per adult in 2035 | $1.19T; $408 | memo 1 B (proportional estimate on the legacy model): about $1.2T; about $430 an adult | within 10% | **pass** |
 | DI-1 | Who comes out ahead in 2035 on the carbon channel (dividend less costs, by income fifth) | Lowest 20 percent +99, Second 20 percent +84, Third 20 percent +7, Fourth 20 percent -185, Highest 20 percent -833 | Treasury, TPC and RFF: lower fifths ahead, top behind with a per-adult rebate (SRC-4615, SRC-5035, SRC-4620) | bottom two fifths ahead, top fifth behind | **pass (shape)** |
-| HI-1 | History run (engine started from 2015 and run to 2025 against EIA's measured CO2) | not built | EIA 2015-2025 | — | **pending** |
+| HI-1 | History run, power sector: the engine's dispatch on each year's measured fleet, generation and fuel prices, 2015-2025, against EIA's measured coal and gas power CO2 (SRC-5052 to 5057) | average gap 9.1%; largest +19.0% (2021) | EIA, Monthly Energy Review table 11.6 | average absolute gap 5% or less, and every year within 10% | **fail** |
+
+**HI-1, year by year** (power-sector CO2 from coal and gas, Mt; generation, TWh):
+
+| Year | Model CO2 | Measured CO2 | Gap | Coal, model / measured | Gas, model / measured |
+| --- | --- | --- | --- | --- | --- |
+| 2015 | 1,638 | 1,877 | -12.7% | 958 / 1,352 | 1,729 / 1,335 |
+| 2016 | 1,534 | 1,787 | -14.2% | 825 / 1,239 | 1,794 / 1,379 |
+| 2017 | 1,710 | 1,713 | -0.2% | 1,191 / 1,206 | 1,312 / 1,298 |
+| 2018 | 1,789 | 1,731 | +3.4% | 1,231 / 1,150 | 1,390 / 1,472 |
+| 2019 | 1,458 | 1,590 | -8.3% | 745 / 965 | 1,808 / 1,588 |
+| 2020 | 1,302 | 1,423 | -8.5% | 594 / 773 | 1,806 / 1,627 |
+| 2021 | 1,812 | 1,523 | +19.0% | 1,316 / 898 | 1,161 / 1,579 |
+| 2022 | 1,764 | 1,510 | +16.8% | 1,202 / 832 | 1,316 / 1,687 |
+| 2023 | 1,304 | 1,400 | -6.8% | 528 / 675 | 1,954 / 1,806 |
+| 2024 | 1,286 | 1,407 | -8.6% | 460 / 652 | 2,062 / 1,870 |
+| 2025 | 1,434 | 1,462 | -1.9% | 697 / 735 | 1,849 / 1,811 |
+
+**EP-1 and EP-2, the curves** (net greenhouse gases, Mt CO2e, land use included as each model books it). Espen's EPS runs of the plan's settings (EPS 4.0.7, 2026-11-13) beside this engine's runs of the same settings; each model's cut is against its own current-policy run, since the two models start from different totals:
+
+| Year | EPS current policies | EPS run 1, price | EPS run 2, package | Engine current policies | Engine, price | Engine, package | Cut, price: EPS / engine | Cut, package: EPS / engine |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2030 | 5,144 | 4,858 | 4,606 | 4,968 | 4,443 | 4,431 | 285 / 525 | 538 / 538 |
+| 2035 | 4,958 | 3,996 | 3,618 | 4,682 | 3,932 | 3,790 | 962 / 751 | 1,340 / 892 |
+| 2040 | 4,637 | 3,682 | 3,178 | 4,437 | 3,472 | 3,145 | 955 / 965 | 1,458 / 1,293 |
+| 2045 | 4,311 | 3,628 | 2,968 | 4,194 | 3,141 | 2,620 | 683 / 1,054 | 1,343 / 1,574 |
+| 2050 | 4,364 | 3,431 | 2,778 | 3,996 | 2,901 | 2,185 | 933 / 1,095 | 1,586 / 1,811 |
 
 **Why the differences arise.**
 
@@ -158,6 +186,8 @@ Against 2029 current law, the decided set avoids about 27,394 Mt CO2e over 2030-
 - **BL-2.** Both benchmarks include the 2025 law; Rhodium's lower end assumes high gas prices and slower clean build.
 - **BL-3.** Compared as changes from each model's own 2025, because the bases differ: EPS starts at 5,496 Mt with its land sink, the engine at 5,360 Mt (Rhodium's 2025 estimate, 18% below 2005). EPS's baseline includes the 2025 law and later EPA actions (SRC-5017), like this one. After 2040 EPS's emissions level off (4,637 Mt in 2040, 4,364 in 2050) as AEO2026's do (BL-1), while the engine keeps falling.
 - **PK-1.** The EPS package is far wider and has no carbon price: the IRA's credits restored through 2050, a clean standard of 76% in 2035 and 95% from 2040, federal and state vehicle sales standards from 2031, building electrification and efficiency standards, about 150 industrial electrification and 100 efficiency settings, a 50% low-carbon fuel standard, methane capture, land, farm and forest measures, and direct air capture and rock weathering of roughly 370 Mt a year by 2050 (SRC-5044; the run's settings file). The decided set leaves farms and forests as booked, adds no carbon removal, and its industry and building measures are fewer. The gap shows what those extra measures would have to do; it is not a test of either model.
+- **EP-1.** This model's cut is 184% of EPS's in 2030, 78% in 2035 and 117% in 2050: about the same size over the period, with a different shape. This engine cuts more at first, because its power plants switch from coal to gas as soon as the price makes coal dearer (HI-1 finds that switching too quick against history); EPS's cut comes mostly in 2031-2035, as plants retire and new capacity is built, and then levels off, while this engine's keeps growing as the price rises 5% a year and equipment turns over. Methane and fluorinated gases are priced in both runs, as EPS's defaults do.
+- **EP-2.** This model's cut is 100% of EPS's in 2030, 67% in 2035 and 114% in 2050: about the same size over the period, with a different shape. The settings differ where the sliders allowed: EPS's construction subsidies start in 2026, its sales standards also cover buses, motorbikes and light trucks, its building electrification covers appliances too, and its methane capture covers coal mines and landfills; this model's standards also retire unabated coal by 2040. EPS's package cut is larger through 2040 and this model's larger by 2050, the same pattern as EP-1.
 - **PR-1.** The engine sits in the range's lower half, as its own validation found against NEMS, REGEN and E3 (SRC-0077, v2.3): it responds slowly in the first decade, so its receipts lean high and its cuts lean low. EMF 37's prices are in 2018-2020 dollars, the engine's in 2025 dollars.
 - **PR-2.** +26%, about the same in every year (FY2025 $72B against CBO's $53B; FY2034 $147B against $118B). The engine cuts emissions slowly in its first decade (PR-1, lower half of EMF 37's range), which keeps its tax base, and so its receipts, high; the legacy ledger set REV-C1's midpoint about 5% below the model for the same reason (ledger-revenue.csv, C1). CBO covers energy CO2 and some large manufacturers' other gases from 2025; the engine prices fuel CO2 and industrial process CO2 and N2O, and starts its price with no warning (CBO's estimate is static apart from the offset).
 - **CR-1.** Not like for like: the IRA's credits ran from 2023 with twelve years to 2035 and longer terms; these start in 2030 and step down from 2033. The engine's power credits stop at its trigger, and grid access, not cost, limits wind and solar building (SRC-0077, v2.4).
@@ -165,7 +195,7 @@ Against 2029 current law, the decided set avoids about 27,394 Mt CO2e over 2030-
 - **BK-1.** Shows the engine's new options default to the old behavior and the accounts read the engine as carbon-model.py does; the drift check on the legacy outputs shows the same from the other side.
 - **BK-2.** Memo 1 scaled the legacy model's receipts by power and industry's share; this runs the narrower price, so buildings and non-road fuel respond as unpriced sectors and industry pays on its covered share.
 - **DI-1.** A shape test: the levels depend on the coverage and on the 20% that does not return as the dividend.
-- **HI-1.** The engine starts in 2025; a 2015 start needs that year's fleet, prices and policies. Planned (survey.md, section 3).
+- **HI-1.** Total fossil generation is right by construction; the error is the split between coal and gas. When gas was cheap (2015-16, 2019-20, 2023-24) the engine burns too much gas and too little coal and its CO2 is low; when gas was dear (2021-22) it swings back to coal too far and its CO2 is high. Real fleets switch less: regional fuel prices, contracts, transmission and plants' minimum running levels slow it. So the engine's near-term power response to a carbon price, which also works through coal-gas switching, is likely too quick, and its 2030 cuts lean high (EP-1). A fix, for a later step: a spread of regional fuel prices in the dispatch, calibrated to this history. The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built.
 
 ## Run log
 
@@ -173,15 +203,24 @@ Offset rate 0.244, inflation 0.022; calendar year y booked as fiscal year y; nom
 
 - `library/text/m4-eia-aeo2026-tab18-combination.txt`: `b1f1cb8f500b9102`
 - `library/text/m4-eia-aeo2026-tab18-counterfactual.txt`: `c76517faf98e2edd`
+- `library/text/m4-eia-epa-table-03_01_a.txt`: `5c2d470e4764dccf`
+- `library/text/m4-eia-epa-table-03_01_b.txt`: `247c8c90b973209f`
+- `library/text/m4-eia-epa-table-04_02_a.txt`: `8b97379fb21e6faf`
+- `library/text/m4-eia-epa-table-04_02_b.txt`: `783ba1f59abd3604`
+- `library/text/m4-eia-epa-table-07_04.txt`: `0f7cb06a2e682ccc`
+- `library/text/m4-eia-mer-t11-06-power-co2.txt`: `b51f9974277efa92`
+- `models/data/energy/eps-us-4.0.7-runs-2026-11-13-p2050.csv`: `5566e5a36269c546`
 - `models/data/energy/eps-us-4.0.7-runs-2026-11-13.csv`: `f6bd2f8c612b1e1f`
 - `models/data/inputs/carbon-parameters.csv`: `1209e9fbd89f3e64`
 - `models/data/inputs/excise-offset.csv`: `8cc362a5d923b385`
 - `models/tools/carbon/cfd-cex-2024.json`: `11f4b296801bc20d`
 - `models/tools/energy/assumptions.csv`: `e0efde771afb1654`
-- `models/tools/energy/data.py`: `45d30ff164c8c639`
+- `models/tools/energy/data.py`: `fe967a0b16708948`
 - `models/tools/energy/engine.js`: `6bf12af1a0ef8882`
 - `models/tools/energy/engine/cfd-households.js`: `cf0b0d33ac3e8213`
 - `models/tools/energy/engine/cfd-model.js`: `5415d2807399d005`
+- `models/tools/energy/history.js`: `4882d3c65521f29e`
+- `models/tools/energy/history.py`: `be6b2fe69bea053f`
 - `models/tools/energy/model.py`: `91c7e0a6dd991a6f`
-- `models/tools/energy/run.py`: `9ec8bf4d69ae96e9`
+- `models/tools/energy/run.py`: `a021ec9e6a0bc395`
 - `models/tools/transportation/moving_america.py`: `3cc781a2a1312dbb`

@@ -82,9 +82,30 @@ v = json.loads(same)
 ok("the standard's capped payments reach the retail price (retailAcp; review R-2)", v["acp"] > 0 and v["d"] > 0, f"payments ${v['acp']:.0f}B in 2040, retail +{v['d']:.2f} cents in 2041")
 
 # --- benchmarks the status rests on
-B = {b["id"]: b for b in run.benchmarks(E, ACC, R["households"])}
+B = {b["id"]: b for b in run.benchmarks(E, ACC, R["households"]) if "id" in b}
 for bid in ("DA-1", "DA-2", "BL-1", "PR-1", "BK-1"):
     ok(f"benchmark {bid} passes", B[bid]["result"].startswith("pass"), B[bid]["model"])
+
+# --- the history check (HI-1): inputs traced to the saved EIA text; it runs every year and the gap is reported, not tuned away
+import history  # noqa: E402
+gen, cap = history.annual(*history.SRC["gen"]), history.annual(*history.SRC["cap"])
+gtxt = open(os.path.join(data.TEXT, history.SRC["gen"][0]), encoding="utf-8").read()
+ctxt = open(os.path.join(data.TEXT, history.SRC["cap"][0]), encoding="utf-8").read()
+ok("history: every year 2015-2025 parsed from each EIA table", all(sorted(history.annual(*v)) == list(range(2015, 2026)) for v in history.SRC.values()))
+ok("history: 2024 coal generation is in the saved EIA text", f"{gen[2024][0]:,.0f}" in gtxt or f"{gen[2024][0]:,.1f}" in gtxt, f"{gen[2024][0]:,.0f} GWh")
+ok("history: 2024 coal capacity is in the saved EIA text", f"{cap[2024][0]:,.1f}" in ctxt, f"{cap[2024][0]:,.0f} MW")
+co2 = history.measured_co2()
+ok("history: measured 2025 coal + gas power CO2 near 1,460 Mt", 1400 < sum(co2[2025]) < 1520, f"{sum(co2[2025]):,.0f} Mt")
+H = run.history.run()
+ok("history: runs 11 years, total fossil generation within 2% of measured each year",
+   len(H) == 11 and all(abs((h["model_coal_twh"] + h["model_gas_twh"]) / (h["measured_coal_twh"] + h["measured_gas_twh"]) - 1) < 0.02 for h in H))
+ok("HI-1 is computed, not pending", B["HI-1"]["result"] in ("pass", "fail"), B["HI-1"]["model"])
+
+# --- Espen's EPS runs of the plan's settings (EP-1, EP-2)
+ep = data.eps_p2050()
+ok("EPS runs: both runs start at the current-policies 2025 total", ep["run1_price"][2025] == ep["run2_package"][2025] == data.eps_runs()["current_policies"][2025])
+ok("EPS runs: the package cuts more than the price alone from 2030", all(ep["run2_package"][y] < ep["run1_price"][y] for y in range(2030, 2051)))
+ok("EP-1 and EP-2 are reported", B["EP-1"]["result"] == B["EP-2"]["result"] == "reported")
 
 print(f"{len(fails)} FAILED: {fails}" if fails else "energy model: all passed")
 sys.exit(1 if fails else 0)
