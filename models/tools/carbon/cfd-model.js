@@ -77,6 +77,7 @@ const CFD = (() => {
     cesAcp: 40, cesGain: 300, gsTx: 0.3, gsCurt: 0.02, wxHomes: 0.25,
     crItc: 0.38, crPtc: 34, crEv: 6800, crEvTake: 0.85, crUsed: 1000, crTruck: 0.08, crHp: 6.9, crPack: 15, crYears: 10, crCharge: 0.03, crInd: 0.15, // ITC and PTC include average bonus adders (ASSUMED 8 points and 10%)
     crTruckCost: 20000, crHpCost: 3000, // average 45W and 25C credit per sale ($), so a case that removes one credit can also remove its cost
+    retailNetCredits: false, // M4: true nets the year's power-credit payments out of the cost passed to retail prices (cost-of-service: a subsidy lowers the revenue requirement); false keeps the original model, which passes new plants' full capital cost through
     hpPremPolicy: null, hpPremYear: null, // optional policy heat-pump premium from a start year (null: w.hpPrem throughout), e.g. a clean-heat standard
     crPowerTrigger: 383, crVehYears: null, zevPath: null, zevTrkPath: null, // power-credit phase-out trigger (Mt power CO2); vehicle credits' own term (null: crYears); optional statutory zero-emission sales schedules {year: share}
   };
@@ -111,8 +112,10 @@ const CFD = (() => {
     dividendShare: 0.90, offset: 0.25, admin: 0.015, sccRate: '2.0',
     cover: { process: true, methane: true, fgas: true, border: true, bunkers: false }, fgasRate: 0.2,
     credits: false, permitYear: null, standards: false, grid: false, nuclear: false, // companion measures: restored clean energy tax credits from 2030; permitting reform enacted in permitYear
-    ces: null, gridStatute: false, weatherize: false, // Project 2050: ces = { start, target, year } (CLI-3: 80% clean electricity by 2035); CLI-6; CLI-5 Weatherization
+    ces: null, gridStatute: false, weatherize: false,
+    heatStd: null, // Project 2050 M4 (CLI-4H, point 9): { start: 2032, share: 0.6, step: 0.05 } = heat pumps' minimum share of heating-equipment sales, rising to 100%; a soft floor like the vehicle standards // Project 2050: ces = { start, target, year } (CLI-3: 80% clean electricity by 2035); CLI-6; CLI-5 Weatherization
     childShare: 0.5, // dividend shares: adult 1, child childShare (Project 2050's CLI-2A: 1, equal per person)
+    sectorPrice: { buildings: 1, industry: 1, nonroad: 1 }, // Project 2050 M4 (memo 1 part 1 B): share of the fee each sector's fuel pays directly. buildings 0 = homes and commercial fuel not charged; industry = share of industrial combustion CO2 at covered (large) facilities, applied as a blended price signal; nonroad 0 = aviation and other transport fuel not charged. Defaults keep the original model
     roadExempt: false, roadPath: null, othRoad: 0.5, // Project 2050 (D7): gasoline and diesel outside the fee; roadPath(y) = their own per-gallon tax increase as $/t (real), e.g. Moving America's fuel steps; othRoad = share of 'other transport' CO2 that is road-type fuel (ASSUMED)
   };
 
@@ -173,7 +176,8 @@ const CFD = (() => {
 
   // ---------- one simulation ----------
   function simulate(polIn, w, pricePath) {
-    const pol = Object.assign({}, POLICY, polIn); pol.cover = Object.assign({}, POLICY.cover, polIn && polIn.cover);
+    const pol = Object.assign({}, POLICY, polIn); pol.cover = Object.assign({}, POLICY.cover, polIn && polIn.cover); pol.sectorPrice = Object.assign({}, POLICY.sectorPrice, polIn && polIn.sectorPrice);
+    const SP = pol.sectorPrice, spDefault = SP.buildings === 1 && SP.industry === 1 && SP.nonroad === 1;
     const S = Object.assign({}, w.cap); S.storE = S.stor * 4; S.ldes = 0; let KL = null; S.windE = S.wind * w.cf.wind * 8.76; S.solE = S.solar * w.cf.solar * 8.76;
     // vehicles: cohorts by age
     const AG = 36, surv = a => 1 / (1 + Math.exp((a - 17) / 4));
@@ -195,6 +199,7 @@ const CFD = (() => {
       else if (y === pol.startYear) price = pol.startPrice;
       else if (!frozen) { const ex = pol.ratchet && missedPrev ? pol.ratchetExtra : 0; if (ex) ratchetYears++; price += (pol.stepType === 'linear' ? pol.step : price * pol.step / 100) + ex; }
       const P = price, Pe = pricePath ? (pricePath(y) + pricePath(Math.min(Y1, y + 5)) + pricePath(Math.min(Y1, y + 9))) / 3 : Math.max(expected(pol, y), P);
+      const PB = SP.buildings * P, PBe = SP.buildings * Pe, PI = SP.industry * P, PIe = SP.industry * Pe, PN = SP.nonroad * P, PNe = SP.nonroad * Pe; // sector prices (M4: memo 1 B coverage)
       const dRes = retailAdj, eRes = w.elecRes + dRes, eCom = w.elecCom + dRes, eInd = w.elecInd + dRes; // cents/kWh
 
       const credPower = credNext;
@@ -235,20 +240,21 @@ const CFD = (() => {
       if (crVeh) credCost += crVeh * 0.55 * trkS * w.crTruckCost * erode / 1000; // 45W: 0.55m truck sales (ASSUMED), $20k average
       const trk = E25.transport * TR.trk * Math.pow(1.005, n) * (1 - trkE) * Math.pow(dslP / w.diesel, w.trkElast);
       const trkTWh = E25.transport * TR.trk * Math.pow(1.005, n) * trkE / 0.0102 / 6.8 * 2.0 / 1000; // Mt -> bn gal -> bn mi -> TWh
-      if (y > Y0) saf += 0.15 * (w.safMax[0] * logistic((Pe - w.safCost[0]) / 40) + w.safMax[1] * logistic((Pe - w.safCost[1]) / 80) - w.safMax[0] * logistic(-w.safCost[0] / 40) - w.safMax[1] * logistic(-w.safCost[1] / 80) - saf); // low-carbon jet fuel: waste oils first (limited supply), then alcohol-to-jet and synthetic
-      const av = E25.transport * TR.av * Math.pow(1.005, n) * Math.pow((w.jet + 0.00957 * P * (1 - saf)) / w.jet, w.avElast) * (1 - saf);
+      if (y > Y0) saf += 0.15 * (w.safMax[0] * logistic((PNe - w.safCost[0]) / 40) + w.safMax[1] * logistic((PNe - w.safCost[1]) / 80) - w.safMax[0] * logistic(-w.safCost[0] / 40) - w.safMax[1] * logistic(-w.safCost[1] / 80) - saf); // low-carbon jet fuel: waste oils first (limited supply), then alcohol-to-jet and synthetic
+      const av = E25.transport * TR.av * Math.pow(1.005, n) * Math.pow((w.jet + 0.00957 * PN * (1 - saf)) / w.jet, w.avElast) * (1 - saf);
       const oth = E25.transport * TR.oth * Math.pow(dslP / w.diesel, -0.1);
       const transport = ldv + trk + av + oth;
       const petIdx = (ldv + trk + av) / (E25.transport * (1 - TR.oth));
 
       // --- buildings: heating stock turnover ---
-      const fossH = (w.gasBldg + EF.gas * 1000 * Pe / 1000) / 0.85, hpH = ((eRes + eCom) / 2) / 100 * 293.07 / 2.8;
+      const fossH = (w.gasBldg + EF.gas * 1000 * PBe / 1000) / 0.85, hpH = ((eRes + eCom) / 2) / 100 * 293.07 / 2.8;
       const hpPremY = w.hpPremYear != null && y >= w.hpPremYear ? w.hpPremPolicy : w.hpPrem;
-      const hpS = logistic(w.hpAsc - w.hpBeta * (hpH + hpPremY - crCons * w.crHp * erode - fossH));
+      const hpMkt = logistic(w.hpAsc - w.hpBeta * (hpH + hpPremY - crCons * w.crHp * erode - fossH)), hs = pol.heatStd;
+      const hpS = hs && y >= hs.start ? soft(Math.min(1, hs.share + hs.step * (y - hs.start)), hpMkt) : hpMkt;
       if (crCons) credCost += crCons * 84 * (1 - hp) / 18 * hpS * w.crHpCost * erode / 1000; // 25C: 84m fossil-heated homes (ASSUMED from RECS shares)
       if (y > Y0) hp += (1 - hp) / 18 * hpS + (pol.weatherize && y >= 2031 ? w.wxHomes / 84 * (1 - hp) : 0); // CLI-5: Weatherization funds heat pumps, about wxHomes million low-income homes a year
       if (pol.weatherize && y >= 2031) credCost += 0; // its cost is CLI-5's ledger row, not modeled here
-      bEff += 0.2 * ((1 - Math.pow((w.gasBldg + 53.1 * P / 1000) / w.gasBldg, w.bldgElast)) - bEff);
+      bEff += 0.2 * ((1 - Math.pow((w.gasBldg + 53.1 * PB / 1000) / w.gasBldg, w.bldgElast)) - bEff);
       const bBase = E25.buildings * Math.pow(1 + w.bldgTrend, n);
       const buildings = bBase * (1 - hp) * (1 - bEff);
       const hpTWh = bBase * hp / EF.gas * 0.85 / 2.8 / 3.412; // Mt -> TBtu -> TWh
@@ -257,16 +263,16 @@ const CFD = (() => {
       const iBase = E25.industry * Math.pow(1 + w.indTrend, n);
       const refining = iBase * w.refShare * (0.4 + 0.6 * petIdx);
       const otherInd = iBase * (1 - w.refShare);
-      indEff += 0.15 * ((1 - Math.pow((7 + 0.06 * P) / 7, w.indElast)) - indEff);
+      indEff += 0.15 * ((1 - Math.pow((7 + 0.06 * PI) / 7, w.indElast)) - indEff);
       const heatGap = (eInd / 100 * 293.07 / 3 + 2) - (w.gasInd / 0.8); // $/MMBtu useful heat, heat pump vs gas boiler
       const ltCost = heatGap / (EF.gas / 0.8); // $/t abated before the fee
       const cRate = w.ccsRate * (1 + 0.3 * phi);
       const indCr = crOn && cy < 2 ? w.crInd : 0; // industrial investment credits and grants
-      lowT += cRate * (logistic((Pe - ltCost * (1 - indCr)) / 15) - lowT);
-      const inc = Math.max(Pe, y <= S.q45End ? w.q45 : 0);
+      lowT += cRate * (logistic((PIe - ltCost * (1 - indCr)) / 15) - lowT);
+      const inc = Math.max(SP.industry > 0 ? Pe : 0, y <= S.q45End ? w.q45 : 0); // capture sites (refineries, cement, steel, gas processing, ammonia) are all large facilities, so covered whenever industry is
       const cCost = { gasproc: 16.1, ammonia: 19.0, cement: 60.8, steel: 65.9, refH2: 57.3 }; // SOURCED: NETL 2018$
       for (const k in ccsS) { const c = (cCost[k] * 1.27 + w.ts) * w.ccsCostMult * (1 - indCr); if (y > Y0) ccsS[k] += cRate * (logistic((inc - c) / 12) - ccsS[k]); }
-      if (y > Y0) hiT += cRate * 0.5 * (logistic((Pe - w.htCost * (1 - indCr)) / 40) - logistic(-w.htCost / 40) - hiT); // furnaces and kilns: capture, hydrogen or electric heat; slow because the equipment lasts decades
+      if (y > Y0) hiT += cRate * 0.5 * (logistic((PIe - w.htCost * (1 - indCr)) / 40) - logistic(-w.htCost / 40) - hiT); // furnaces and kilns: capture, hydrogen or electric heat; slow because the equipment lasts decades
       const ltAb = otherInd * w.lowTempShare * lowT, htAb = otherInd * w.htShare * w.htMax * Math.max(0, hiT);
       const refAb = refining * 0.25 * 0.9 * ccsS.refH2;
       const ccsAb = { refH2: refAb, cement: INV.cement * 0.9 * ccsS.cement, steel: INV.steel * 0.6 * ccsS.steel, gasproc: INV.ngCO2 * 0.9 * ccsS.gasproc, ammonia: INV.ammonia * 0.9 * ccsS.ammonia };
@@ -292,7 +298,7 @@ const CFD = (() => {
       if (pol.ces && y === pol.ces.start - 1) cesBase = cleanShare;
       const cesTgt = pol.ces && y >= pol.ces.start ? clampT(y) : null, cesAcpBn = cesTgt !== null && (S.cesL || 0) >= w.cesAcp - 1e-6 ? Math.max(0, cesTgt - cleanShare) * G * w.cesAcp / 1000 : 0;
       if (fomBase === null) fomBase = S.coal * w.fom.coal;
-      const fixed = capNew + (S.coal * w.fom.coal - fomBase) / 1000;                  // $bn/yr vs 2025
+      const fixed = capNew + (S.coal * w.fom.coal - fomBase) / 1000 - (w.retailNetCredits ? credPower : 0);                  // $bn/yr vs 2025
       const avgCost = (d.vcost + P * d.emis + fixed * 1000) / G;                       // $/MWh
       if (avg0 === null) avg0 = avgCost;
       const retailNext = (avgCost - avg0) / 10;                                         // cents/kWh
@@ -324,11 +330,13 @@ const CFD = (() => {
       const coveredOther = process + methane + n2o + hfcEmis;
       const ghgNet = energy + coveredOther + (NET2025 - (E25.power + E25.transport + E25.industry + E25.buildings) - rows0Other(w));
       const imp = w.impEmb * Math.pow(1 + 0.06 * P / 100, -0.5);
-      const rev = { power: P * power, transport: pol.roadExempt ? P * (av + oth * (1 - pol.othRoad)) : P * transport, industry: P * industry, buildings: P * buildings,
+      const rev = spDefault ? { power: P * power, transport: pol.roadExempt ? P * (av + oth * (1 - pol.othRoad)) : P * transport, industry: P * industry, buildings: P * buildings } :
+        { power: P * power, transport: pol.roadExempt ? PN * (av + oth * (1 - pol.othRoad)) : P * (ldv + trk) + PN * (av + oth), industry: PI * industry, buildings: PB * buildings };
+      Object.assign(rev, {
         process: pol.cover.process ? P * (process + n2o) : 0, methane: mf ? pOG * ch4OGc + pCoal * ch4Coal + pLF * ch4LF : (pol.cover.methane ? P * methane : 0),
         fgas: pol.cover.fgas ? P * pol.fgasRate * hfcCons : 0,
         border: pol.cover.border ? P * (imp * (1 - w.originCredit) - w.expEmb * (industry + process) / (E25.industry + rows0Proc())) : 0, // export rebates shrink as U.S. industry cleans up
-        bunkers: pol.cover.bunkers ? P * INV.bunkers : 0 };
+        bunkers: pol.cover.bunkers ? P * INV.bunkers : 0 });
       for (const k in rev) rev[k] /= 1000; // $bn
       const gross = Object.values(rev).reduce((a, b) => a + b, 0);
       const net = gross * (1 - pol.offset), poolD = (gross - (mf ? rev.methane : 0)) * (1 - pol.offset) * pol.dividendShare * (1 - pol.admin); // a separate methane fee (REV-C3) does not feed the dividend
@@ -342,7 +350,7 @@ const CFD = (() => {
         below2005: 1 - energy / E2005, ghgBelow2005: 1 - ghgNet / NET2005, rev, gross, net, pool: poolD, transition: net * (1 - pol.dividendShare), perShare, childShare: cs, family4: perShare * (2 + 2 * cs),
         gen: Object.assign({ nuclear: d.nucE, hydro: w.hydroOther + (S.hyd || 0), wind: d.windE * (1 - d.curt), solar: d.solE * (1 - d.curt) }, d.gen), G, cap: Object.assign({}, S), coalCF: d.coalCF,
         credits: credCost + credPower, credInd, cleanShare, methanePrice: Pm, cesPrice: S.cesL || 0, cesTarget: cesTgt, cesAcp: cesAcpBn, creditsPower: credPower, build: bld, evShare: evS, evStock: stockEV / stock, trkE, hp, lowT, ccs: Object.assign({}, ccsS), stored, elecLoad, retail: 13.2 + dRes, wholesale: d.price,
-        gasoline: 0.0085 * PR, feeGasoline: pol.roadExempt ? 0 : 0.0085 * P, natgas: 0.0551 * P, elecDelta: dRes, deciles: FOOT.map(f => divPc - costPc * f / fMean), pop: pp, unserved: d.unserved, missed: missedPrev });
+        gasoline: 0.0085 * PR, feeGasoline: pol.roadExempt ? 0 : 0.0085 * P, natgas: 0.0551 * PB, feeHeat: PB, elecDelta: dRes, deciles: FOOT.map(f => divPc - costPc * f / fMean), pop: pp, unserved: d.unserved, missed: missedPrev });
 
       // --- investment for next year (uses the expected fee) ---
       const dx = Math.abs(Pe - P) > 0.5 ? dispatch(S, G, Pe, w, y) : d;

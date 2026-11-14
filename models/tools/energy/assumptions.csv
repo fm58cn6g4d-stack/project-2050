@@ -1,0 +1,12 @@
+key,value,low,high,basis
+ind_cover,0.80,0.70,0.90,"labeled assumption: share of industrial fuel-combustion CO2 at facilities emitting at least 25,000 t CO2e a year (REV-C1G.01's threshold, EPA's reporting program, 40 CFR part 98); the program covers most large combustion sources, but a count of covered combustion CO2 is not yet in the evidence (dossiers/clean-power/4-specification.md, ""Evidence still needed""). Applied as a blended price signal on all industry"
+ces_target2,1.0,1.0,1.0,"decision: CLI-3A.01, 100% clean electricity in 2040 (DEC-2026-11-13-06, memo 3 part 1 B)"
+ces_year2,2040,2040,2040,"decision: CLI-3A.01"
+heat_std_start,2032,2032,2032,"decision: CLI-4H.01, the clean-heat standard from 2032 (DEC-2026-11-13-07, point 9)"
+heat_std_share,0.60,0.50,0.70,"working choice in CLI-4H.01: heat pumps' minimum share of heating-equipment sales in 2032"
+heat_std_step,0.05,0.05,0.05,"working choice in CLI-4H.01: 5 points more each year, 100% in 2040"
+credit_years,5,5,5,"working choice in CLI-1A.02: household credits at full value through 2034 (the engine then steps them to 75% and 50%)"
+vehicle_credit_years,3,3,3,"working choice in CLI-1A.02: vehicle credits at full value through 2032, then 75%, 50% and none after 2034"
+adult_share,0.77,0.76,0.78,"the carbon model's convention for adults 18 and over as a share of CBO's population (dossiers/clean-power/4-specification.md, CLI-2A)"
+permit_year_sensitivity,2027,2027,2027,"sensitivity only: the 2026-28 permitting package treated as enacted, phased in over four years; the 2029 baseline does not assume it (dossiers/clean-power/3-design.md, inherited assumptions)"
+mc_draws,60,60,60,"model setting: Monte Carlo draws over the carbon model's 37 uncertain inputs (the legacy run uses 120; 60 keeps the checks fast)"
