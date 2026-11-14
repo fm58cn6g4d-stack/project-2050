@@ -111,11 +111,11 @@
   {
    "id": "PR-3",
    "model": "0.76",
-   "result": "pass",
-   "target": "Treasury OTA working paper 115: 0.71 net, 0.95 gross (SRC-5071); CBO about 0.63 (PR-2)",
-   "tol": "within 10% of Treasury",
-   "what": "Net receipts per dollar of (price times covered emissions): the engine's convention against Treasury's carbon tax estimate (OTA, 2017) and CBO's (PR-2)",
-   "why": "Treasury (Obama administration, January 2017) counts gross receipts at 95% of the price times covered emissions over 2019-28, because it assumes some non-compliance, then takes a 25% offset ($2,962B gross, $2,221B net). The engine charges every covered ton the full price and takes the adopted 24.4% offset, so its receipts per ton run 6% above Treasury's and about 21% above CBO's. Treasury's convention sits between the two. A booking that wants a central figure can scale the model's receipts by about 0.94; CBO's convention is the low side."
+   "result": "reported",
+   "target": "Treasury OTA working paper 115: 0.71 net, 0.95 gross (SRC-5071); CBO about 0.63 if its base were the engine's (PR-2)",
+   "tol": "reported (a convention comparison: the engine's figure is 1 minus the offset by construction)",
+   "what": "Revenue convention, not a test of the engine: net receipts per dollar of (price times covered emissions), the engine's accounting against Treasury's carbon tax estimate (OTA, 2017) and CBO's (PR-2)",
+   "why": "Treasury (Obama administration, January 2017) counts gross receipts at 95% of the price times covered emissions over 2019-28, because it assumes some non-compliance, then takes a 25% offset ($2,962B gross, $2,221B net). The engine charges every covered ton the full price and takes the adopted 24.4% offset, so its receipts per ton run 6% above Treasury's convention; against CBO the gap is about 21% (PR-2), which also mixes in any difference between CBO's base and the engine's. Treasury's convention sits between the two. A booking that wants a central figure can scale the model's receipts by about 0.94; CBO's convention is the low side."
   },
   {
    "id": "CR-1",
@@ -1348,7 +1348,7 @@
    "models/tools/energy/history.js": "4882d3c65521f29e",
    "models/tools/energy/history.py": "6d5db6f13804cfdb",
    "models/tools/energy/model.py": "5d3979772f282bd6",
-   "models/tools/energy/run.py": "a6431611fb1867a1",
+   "models/tools/energy/run.py": "4303cd1bf465766b",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb"
   },
   "mc_draws": 60,
