@@ -10293,17 +10293,11 @@
   "context": "Grid Strategies LLC (power-sector consultancy), report \"United States Trails the World in High-Capacity Transmission Construction\", November 2026, prepared with support from the Connected Grid Initiative (an advocacy coalition for transmission); it argues for the permitting bill. Counts come from FERC's monthly Energy Infrastructure Update, which the authors say is often incomplete and which FERC has revised upward before (EV-CLP-051). The firm's project page (gridstrategiesllc.com, read 2026-11-14, modified November 9, 2026) gives the same 435 miles and says most came from three projects in Colorado and the Southwest Power Pool. The same firm's congestion report gives 411 miles for 2025 (EV-CLP-735).",
   "supports": [
    "dossiers/clean-power/design-test.md"
-  ],
-  "corroboration": [
-   {
-    "evidence": "EV-CLP-735",
-    "stance": "qualifies"
-   }
   ]
  },
  {
   "id": "EV-CLP-735",
-  "statement": "Grid Strategies' congestion report (September 2026) stated that 411 miles of new, high-capacity transmission were completed in the U.S. in 2025, far short of the approximately 5,000 miles needed each year.",
+  "statement": "Grid Strategies' congestion report stated that 411 miles of new, high-capacity transmission were completed in the U.S. in 2025, far short of the approximately 5,000 miles needed each year.",
   "claim": "data",
   "figures": [
    "411 miles",
@@ -10322,12 +10316,6 @@
   "context": "Grid Strategies LLC, \"Transmission Congestion for 2025\", September 2026, prepared for the Connected Grid Initiative (advocacy coalition). Discrepancy: the same firm's November 2026 report says 435 miles for 2025 (EV-CLP-734). The September report's footnote 24 cites a \"forthcoming report\" on miles built in 2025, so 411 is probably a preliminary count; the report does not say so. Use 435 as the later figure and report the 24-mile gap.",
   "supports": [
    "dossiers/clean-power/design-test.md"
-  ],
-  "corroboration": [
-   {
-    "evidence": "EV-CLP-734",
-    "stance": "qualifies"
-   }
   ]
  },
  {
@@ -10433,7 +10421,7 @@
  },
  {
   "id": "EV-CLP-740",
-  "statement": "As introduced (September 30, 2026), section 2101 of the Senate permitting bill rewrites the backstop siting section so that FERC \"shall\" issue permits after a comment period of at least 45 days for lines of at least 230 kilovolts, with no corridor designation required, allows simultaneous processing for lines of at least 345 kilovolts, and amends the rights-of-way subsection (e) only in paragraph (3), leaving paragraph (1)'s eminent-domain authority unamended.",
+  "statement": "As introduced, the Senate permitting bill's transmission permitting section rewrites the backstop siting section so that FERC \"shall\" issue permits after a comment period of at least 45 days for lines of at least 230 kilovolts, with no corridor designation required, allows simultaneous processing for lines of at least 345 kilovolts, and amends the rights-of-way subsection (e) only in its court-procedure paragraph, leaving the eminent-domain authority of paragraph (1) unamended.",
   "claim": "data",
   "figures": [
    "45 days",
@@ -10452,14 +10440,14 @@
   "fact_date": "2026-09",
   "checked": "2026-11-14",
   "recheck": "2026-11-20",
-  "context": "Bill text as introduced, Capito, Whitehouse, Lee, Heinrich, GPO (SRC-4779); superseded for floor action by the November 10 substitute (EV-CLP-741, EV-CLP-742). The strike-and-insert in 2101(b)(1) removes the words tying permits to a DOE-designated corridor, and 2101(a) replaces the definitions subsection, so the corridor designation authority goes. Current eminent-domain text is in 16 U.S.C. 824p(e)(1) (SRC-4771). The introduced 2101(e)(1) also strikes current subsection (f), which holds the just-compensation formula (fair market value including severance damages), and inserts cost allocation. The state clock (a state that has not acted within one year, current 824p(b)(1)(C)(i)) is kept but runs from filing with the State. Section 2101(j)(1) amends IRA section 50151(b), whose funds were rescinded by the 2025 reconciliation law (EV-CLP-754).",
+  "context": "S. 5653 as introduced September 30, 2026; bill text, Capito, Whitehouse, Lee, Heinrich, GPO (SRC-4779); superseded for floor action by the November 10 substitute (EV-CLP-741, EV-CLP-742). The strike-and-insert in 2101(b)(1) removes the words tying permits to a DOE-designated corridor, and 2101(a) replaces the definitions subsection, so the corridor designation authority goes. Current eminent-domain text is in 16 U.S.C. 824p(e)(1) (SRC-4771). The introduced 2101(e)(1) also strikes current subsection (f), which holds the just-compensation formula (fair market value including severance damages), and inserts cost allocation. The state clock (a state that has not acted within one year, current 824p(b)(1)(C)(i)) is kept but runs from filing with the State. Section 2101(j)(1) amends IRA section 50151(b), whose funds were rescinded by the 2025 reconciliation law (EV-CLP-754).",
   "supports": [
    "dossiers/clean-power/design-test.md"
   ]
  },
  {
   "id": "EV-CLP-741",
-  "statement": "In the Senate substitute amendment, section 2101 provides that for backstop siting the Commission \"shall\" issue permits after a public comment period of at least 45 days, for facilities capable of at least 230 kilovolts or necessary to interconnect or operate such facilities.",
+  "statement": "In the Senate substitute amendment, the transmission permitting section provides that for backstop siting the Commission \"shall\" issue permits after a public comment period of at least 45 days, for facilities capable of at least 230 kilovolts or necessary to interconnect or operate such facilities.",
   "claim": "data",
   "figures": [
    "45 days",
@@ -10479,17 +10467,11 @@
   "context": "Capito substitute amendment (SA 6883) to H.R. 2347, proposed by Sen. Thune for Sen. Capito, November 10, 2026; text as printed in the copy hosted by the National Ocean Industries Association (noia.org), a trade association, because the congress.gov amendment page had no text and refused automated download (HTTP 403). A reviewer should confirm against the Congressional Record or congress.gov. The substitute's new 216(d) ends at paragraph (5); the introduced paragraphs (6) and (7) allowing simultaneous state and federal processing for 345 kV lines do not appear in it, which McGuireWoods (EV-CLP-263) and Earthjustice (SRC-4566) also report. The one-year state clock in the existing 216(b)(1)(C) is retained, running from filing with the State, as in the introduced text (EV-CLP-740).",
   "supports": [
    "dossiers/clean-power/design-test.md"
-  ],
-  "corroboration": [
-   {
-    "evidence": "EV-CLP-263",
-    "stance": "supports"
-   }
   ]
  },
  {
   "id": "EV-CLP-742",
-  "statement": "The Senate substitute amends the rights-of-way subsection (e) of the backstop siting section only by striking \"or a State\" in paragraph (1) and by replacing the court-procedure language in paragraph (3) with Federal Rule of Civil Procedure 71.1; it does not strike paragraph (1)'s eminent-domain authority, and it replaces subsection (f) (compensation) with cost allocation.",
+  "statement": "The Senate substitute amends the rights-of-way subsection (e) of the backstop siting section only by striking \"or a State\" in paragraph (1) and by replacing the court-procedure language in its last paragraph with Federal Rule of Civil Procedure 71.1; it does not strike paragraph (1)'s eminent-domain authority, and it replaces subsection (f) (compensation) with cost allocation.",
   "claim": "data",
   "figures": [
    "71.1"
@@ -10508,12 +10490,6 @@
   "context": "Same source and caveats as EV-CLP-741 (substitute text from a trade-association-hosted copy; confirm against congress.gov). Eminent domain is retained: current 216(e)(1) (16 U.S.C. 824p(e)(1), SRC-4771) lets a permit holder who cannot agree on compensation acquire the right-of-way \"by the exercise of the right of eminent domain\" in federal or state court, and the substitute leaves those words untouched. Striking \"or a State\" from the property the paragraph excludes (\"owned by the United States or a State\") would make state-owned land condemnable by a permit holder (an inference from reading the amendment against current law). Current subsection (f) is the just-compensation provision (fair market value including severance damages); the substitute strikes it and inserts cost allocation, as the introduced text did (EV-CLP-740); constitutional just compensation and Rule 71.1 still govern a taking. The same pages show the amendment also strikes \"or a State\" only in paragraph (1); the printed text gives no other change to 216(e).",
   "supports": [
    "dossiers/clean-power/design-test.md"
-  ],
-  "corroboration": [
-   {
-    "evidence": "EV-CLP-740",
-    "stance": "supports"
-   }
   ]
  },
  {
@@ -10615,7 +10591,7 @@
  },
  {
   "id": "EV-CLP-746",
-  "statement": "FERC Commissioner David Rosner wrote in a concurrence in Docket No. ER26-1311-000, on Southwest Power Pool's interregional coordination tariff, that since 2011 Order No. 1000's interregional consultation requirements have resulted in exactly zero interregional transmission projects.",
+  "statement": "FERC Commissioner David Rosner wrote in a concurrence on Southwest Power Pool's interregional coordination tariff that since 2011 Order No. 1000's interregional consultation requirements have resulted in exactly zero interregional transmission projects.",
   "claim": "data",
   "figures": [
    "2011",
@@ -10631,7 +10607,7 @@
   "fact_date": "2026",
   "checked": "2026-11-14",
   "recheck": "2027-06-30",
-  "context": "FERC (independent federal regulator) news page for Commissioner Rosner's concurrence; the page shows no date, and its docket link carries accession number 20260410, consistent with April 2026. One commissioner's statement, not a Commission finding, and he cites no list of projects. It supports the point that interregional planning under Order 1000 has produced no projects, a point CRS and others also make. Rosner is a Democratic appointee.",
+  "context": "FERC (independent federal regulator) news page for Commissioner Rosner's concurrence in Docket No. ER26-1311-000; the page shows no date, and its docket link carries accession number 20260410, consistent with April 2026. One commissioner's statement, not a Commission finding, and he cites no list of projects. It supports the point that interregional planning under Order 1000 has produced no projects. Rosner is a Democratic appointee.",
   "supports": [
    "dossiers/clean-power/design-test.md"
   ]
@@ -10699,11 +10675,10 @@
  },
  {
   "id": "EV-CLP-749",
-  "statement": "The Secretary of Energy Advisory Board told the Secretary of Energy in April 2024 that the Power Marketing Administrations own about 14% of the transmission in the United States.",
+  "statement": "The Secretary of Energy Advisory Board told the Secretary of Energy that the Power Marketing Administrations own about 14% of the transmission in the United States.",
   "claim": "data",
   "figures": [
-   "14%",
-   "2024"
+   "14%"
   ],
   "source": "SRC-4780",
   "anchor": [
@@ -10818,17 +10793,11 @@
   "context": "Grid Strategies LLC, September 2026, prepared for the Connected Grid Initiative (advocacy coalition); cites ERCOT's January 2025 comparison document, which was not obtained. The firm's November 2026 report gives ERCOT's STEP as an estimated $20 billion for 2,468 miles (EV-CLP-751); the two reports are not reconciled, possibly by plan scope. ERCOT is outside FERC backstop siting under both current law and the bill.",
   "supports": [
    "dossiers/clean-power/design-test.md"
-  ],
-  "corroboration": [
-   {
-    "evidence": "EV-CLP-751",
-    "stance": "qualifies"
-   }
   ]
  },
  {
   "id": "EV-CLP-754",
-  "statement": "The 2025 reconciliation law (P.L. 119-21), in its section 50402 on repeals and rescissions, rescinds the unobligated balances of amounts made available under Inflation Reduction Act sections 50151, 50152 and 50153, codified at 42 U.S.C. 18715, 18715a and 18715b.",
+  "statement": "The 2025 reconciliation law, in its section 50402 on repeals and rescissions, rescinds the unobligated balances of amounts made available under Inflation Reduction Act sections 50151, 50152 and 50153, codified at 42 U.S.C. 18715, 18715a and 18715b.",
   "claim": "data",
   "figures": [
    "50402",
@@ -10842,7 +10811,7 @@
   "source": "SRC-4531",
   "anchor": [
    "SEC. 50402. REPEALS; RESCISSIONS.",
-   "(1) In general.--The unobligated balances of amounts made available under\nthe sections described in paragraph (2) are rescinded.",
+   "available under the sections described in paragraph (2) are\nrescinded.\n(2) Sections described.--The sections referred to in",
    "(E) Section 50151 (42 U.S.C. 18715).\n(F) Section 50152 (42 U.S.C. 18715a).\n(G) Section 50153 (42 U.S.C. 18715b)."
   ],
   "locator": "Sec. 50402(b)(1) and (b)(2)(E)-(G)",
@@ -10857,22 +10826,20 @@
  },
  {
   "id": "EV-CLP-755",
-  "statement": "DOE's draft 2026 National Transmission Needs Study, citing Lawrence Berkeley National Laboratory analysis of 65 links, reports that cross-interconnection links from ERCOT to neighboring regions had locational price differentials of $31-48/MWh averaged over 2012-2023, links between WestConnect and SPP $18-33/MWh, and the highest within-region links $17-18/MWh.",
+  "statement": "DOE's draft 2026 National Transmission Needs Study, citing Lawrence Berkeley National Laboratory analysis, reports that cross-interconnection links from ERCOT to neighboring regions had locational price differentials of $31-48/MWh averaged over 2012-2023, links between WestConnect and SPP $18-33/MWh, and the highest within-region links $17-18/MWh.",
   "claim": "data",
   "figures": [
-   "65",
    "$31",
    "$48/MWh",
    "$18/MWh",
    "$33/MWh",
    "$17",
-   "$18/MWh",
    "2012",
    "2023"
   ],
   "source": "SRC-4782",
   "anchor": [
-   "(Figure ES-3 (c)). Cross-interconnection links from ERCOT to neighboring regions show some\nof the highest LMP differentials from $31 per megawatt-hour (MWh) to $48/MWh averaged\nacross all hours from 2012 to 2023, and links between Western Interconnection (WestConnect)\nand Eastern Interconnection (SPP) have LMP differentials from $18/MWh to $33/MWh\n(Figure ES-3 (a)). Interregional links also have high transmission congestion value, particularly\nbetween NorthernGrid and WestConnect, and between ISO-NE and NYISO (Figure ES-3 (a))."
+   "(Figure ES-3 (c)). Cross-interconnection links from ERCOT to neighboring regions show some\nof the highest LMP differentials from $31 per megawatt-hour (MWh) to $48/MWh averaged\nacross all hours from 2012 to 2023, and links between Western Interconnection (WestConnect)\nand Eastern Interconnection (SPP) have LMP differentials from $18/MWh to $33/MWh\n(Figure ES-3 (a)). Interregional links also have high transmission congestion value, particularly\nbetween NorthernGrid and WestConnect, and between ISO-NE and NYISO (Figure ES-3 (a)).\nTransmission links within regions have lower LMP differentials, with the highest-value withinregion links between New York City and the rest of NYISO ($17 to $18/MWh) and within"
   ],
   "locator": "Executive Summary, \"Interregional and cross-interconnection linkages have the highest potential value\"",
   "grade": "C",
