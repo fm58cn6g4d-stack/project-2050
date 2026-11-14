@@ -13,53 +13,53 @@ Every case below is the decided clean power set built up one layer at a time aga
 | + the carbon price on power plants and large industry, with process emissions (memo 1 B; REV-C1A, C1G, C1P) | 30% / 37% / 43% / 51% | 37% / 51% | 70% / 92% |
 | + the border adjustment (REV-C2) | 30% / 37% / 43% / 51% | 37% / 51% | 70% / 92% |
 | + the credits, stepping down (memo 2 B; CLI-1A) | 31% / 39% / 46% / 53% | 39% / 53% | 71% / 92% |
-| + the clean electricity standard, 80% by 2035 and 100% by 2040 (memo 3 B; CLI-3A) | 31% / 39% / 46% / 53% | 39% / 54% | 71% / 94% |
+| + the clean electricity standard, 80% by 2035 and 100% by 2040 (memo 3 B; CLI-3A) | 31% / 39% / 46% / 53% | 39% / 54% | 72% / 94% |
 | + vehicle and power plant standards in statute (memo 3 part 2 A; CLI-4A, 4E) | 31% / 39% / 48% / 60% | 39% / 60% | 71% / 94% |
 | + the clean-heat standard from 2032 (point 9; CLI-4H) | 31% / 39% / 49% / 64% | 40% / 64% | 70% / 92% |
-| + Weatherization heat pumps and the grid statute (CLI-5W, CLI-6) | 31% / 40% / 50% / 65% | 40% / 64% | 70% / 93% |
+| + Weatherization heat pumps and the grid statute (CLI-5W, CLI-6) | 31% / 40% / 50% / 64% | 40% / 64% | 70% / 93% |
 | + public power as standby builder of last resort (memo 4 B, DEC-2026-11-13-10; CLI-10.03), the engine's grid program at half strength | 31% / 41% / 52% / 66% | 41% / 66% | 73% / 96% |
 | + the methane fee (point 3; REV-C3): **the decided set** | 31% / 41% / 52% / 66% | 43% / 68% | 73% / 96% |
 | Option: memo 1 A, the economy-wide fee (buildings and non-road fuel priced; industry in full) | 31% / 41% / 53% / 67% | 43% / 69% | 73% / 96% |
 | Option: memo 1 C, no carbon price (credits, standards and the methane fee only) | 25% / 36% / 48% / 61% | 38% / 62% | 67% / 93% |
-| Option: memo 1 D, the economy-wide fee from 2032 | 30% / 41% / 53% / 67% | 43% / 69% | 72% / 96% |
+| Option: memo 1 D, the economy-wide fee from 2032 | 30% / 41% / 53% / 67% | 43% / 69% | 73% / 96% |
 | Durability: the decided set with the price repealed from 2033 | 28% / 37% / 48% / 61% | 39% / 62% | 69% / 94% |
-| Sensitivity: industry coverage 70% | 31% / 40% / 52% / 65% | 43% / 67% | 73% / 96% |
+| Sensitivity: industry coverage 70% | 31% / 41% / 52% / 65% | 43% / 67% | 73% / 96% |
 | Sensitivity: industry coverage 90% | 31% / 41% / 52% / 66% | 43% / 68% | 73% / 96% |
 | Sensitivity: the standby builder at 25% of a full grid program | 31% / 40% / 51% / 65% | 42% / 67% | 72% / 95% |
 | Sensitivity: a builder everywhere (memo 4 option A: the full grid program) | 31% / 42% / 54% / 67% | 44% / 68% | 76% / 98% |
 | Sensitivity: 2029 current law with the 2026-28 permitting package enacted | 24% / 29% / 34% / 43% | 29% / 43% | 58% / 84% |
 | Sensitivity: the decided set with the permitting package | 31% / 42% / 55% / 67% | 44% / 69% | 77% / 98% |
 
-**Uncertainty** (the carbon model's uncertain inputs, 60 draws, 10th-90th percentile): the decided set is 39%-42% below 2005 in 2035 and 65%-68% in 2050. Published models disagree by more than this for the same policy (EMF 32: 26-47% for one tax in 2030; survey.md, 2.9), so treat the band as a floor on the uncertainty.
+**Uncertainty** (the carbon model's uncertain inputs, 60 draws, 10th-90th percentile): the decided set is 40%-42% below 2005 in 2035 and 65%-67% in 2050. Published models disagree by more than this for the same policy (EMF 32: 26-47% for one tax in 2030; survey.md, 2.9), so treat the band as a floor on the uncertainty.
 
 **By sector, the decided set** (Mt CO2; change from 2029 current law in brackets):
 
 | Year | Power | Transport | Industry | Buildings | Process CO2 and N2O | Methane |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2030 | 852 (-381) | 1,786 (-10) | 961 (-19) | 566 (-3) | 307 (-2) | 264 (-105) |
-| 2035 | 570 (-490) | 1,622 (-91) | 900 (-102) | 469 (-83) | 274 (-19) | 218 (-140) |
-| 2040 | 286 (-640) | 1,403 (-219) | 846 (-184) | 354 (-183) | 246 (-59) | 218 (-132) |
-| 2050 | 107 (-517) | 954 (-518) | 799 (-287) | 191 (-317) | 208 (-104) | 219 (-121) |
+| 2035 | 567 (-493) | 1,622 (-91) | 901 (-101) | 469 (-83) | 274 (-19) | 218 (-140) |
+| 2040 | 280 (-646) | 1,403 (-219) | 849 (-181) | 354 (-183) | 246 (-59) | 218 (-132) |
+| 2050 | 99 (-525) | 954 (-518) | 805 (-281) | 191 (-317) | 208 (-104) | 219 (-121) |
 
-**The clean electricity standard.** On the decided set clean power reaches 73% of generation in 2035 against the 80% target, and 88% in 2040 against 100%: suppliers short of credits pay the capped payment, about $160 billion over FY2030-39 ($73 billion with the permitting package). Grid access, not price, limits wind and solar building in the engine (SRC-0077, v2.4), so the standard works mainly as a floor and a source of bill-protection money; memo 3's figure of about $0.05 trillion was on the legacy model with the permitting package assumed and the 80% target only.
+**The clean electricity standard.** On the decided set clean power reaches 73% of generation in 2035 against the 80% target, and 88% in 2040 against 100%: suppliers short of credits pay the capped payment, about $157 billion over FY2030-39 ($71 billion with the permitting package). Grid access, not price, limits wind and solar building in the engine (SRC-0077, v2.4), so the standard works mainly as a floor and a source of bill-protection money; memo 3's figure of about $0.05 trillion was on the legacy model with the permitting package assumed and the 80% target only.
 
 Point 1's goal is 61-66% below 2005 in 2035 (net); the decided set reaches about 43%, as section 3 of the dossier says plainly that no modeled package reaches the range.
 
 ## For clean power's re-review (`DEC-2026-11-13-12`; the list in #346)
 
-1. **The 100%-by-2040 standard.** Clean power reaches 73% in 2035, 88% in 2040 and 92% in 2045, held back by grid access, not price. Suppliers short of credits pay about $160 billion over FY2030-39 and $41 billion in FY2040 ($73 billion over FY2030-39 with the permitting package). #346 carries about $110 billion and $29 billion in 2040 from the legacy model, which assumes the permitting package in every run and reaches 91% in 2040; this model does not assume the package, and with it the payments fall to the figure in brackets, below #346's; the two models also differ in grid build (here the standby builder adds lines) and in the target path (100% by 2040 here). Retail electricity in 2040 is 14.7 cents a kWh against 14.7 under current law (2025 dollars, national average).
-2. **Memo 1 B's narrower price.** Receipts and the dividend are in the next table: about $409 an adult in 2035 (#346: about $439). Energy CO2 is 41% below 2005 in 2035 and net greenhouse gases 43%, inside the dossier's judged 40-48%. Buildings emit 469 Mt in 2035 with the clean-heat standard and no price, against 449 Mt under memo 1 A's economy-wide price.
+1. **The 100%-by-2040 standard.** Clean power reaches 73% in 2035, 88% in 2040 and 92% in 2045, held back by grid access, not price. Suppliers short of credits pay about $157 billion over FY2030-39 and $40 billion in FY2040 ($71 billion over FY2030-39 with the permitting package). #346 carries about $110 billion and $29 billion in 2040 from the legacy model, which assumes the permitting package in every run and reaches 91% in 2040; this model does not assume the package, and with it the payments fall to the figure in brackets, below #346's; the two models also differ in grid build (here the standby builder adds lines) and in the target path (100% by 2040 here). Retail electricity in 2040 is 15.1 cents a kWh against 14.7 under current law (2025 dollars, national average).
+2. **Memo 1 B's narrower price.** Receipts and the dividend are in the next table: about $408 an adult in 2035 (#346: about $439). Energy CO2 is 41% below 2005 in 2035 and net greenhouse gases 43%, inside the dossier's judged 40-48%. Buildings emit 469 Mt in 2035 with the clean-heat standard and no price, against 449 Mt under memo 1 A's economy-wide price.
 3. **Bills by region.** Not answered: the engine is one national market. The households table below is by income; a regional split needs the household model's state codes and regional generation mixes, a later step.
 4. **The coal and gas fleets' wind-down** (GW of capacity, and TWh generated in brackets), for the guarantee's count of covered closures:
 
 | Year | Coal, current law | Coal, decided set | Gas, current law | Gas, decided set |
 | --- | --- | --- | --- | --- |
 | 2030 | 127 (518) | 31 (63) | 567 (1,842) | 591 (1,994) |
-| 2035 | 89 (330) | 0 (0) | 629 (1,964) | 656 (1,476) |
-| 2040 | 55 (187) | 0 (0) | 676 (2,001) | 699 (902) |
-| 2045 | 25 (75) | 0 (0) | 715 (1,903) | 743 (836) |
+| 2035 | 89 (330) | 0 (0) | 629 (1,964) | 655 (1,469) |
+| 2040 | 55 (187) | 0 (0) | 676 (2,001) | 698 (884) |
+| 2045 | 25 (75) | 0 (0) | 715 (1,903) | 740 (811) |
 
-5. **The credits against the booking.** The engine counts about $1,192 billion over FY2030-39 (the standby builder adds about $161 billion of it: its own program cost at half strength, which the engine counts with the credits, and the extra credited wind, solar and storage its lines connect) against the booked CLI-1 of $757 billion; a cross-check, not a score.
+5. **The credits against the booking.** The engine counts about $1,191 billion over FY2030-39 (the standby builder adds about $162 billion of it: its own program cost at half strength, which the engine counts with the credits, and the extra credited wind, solar and storage its lines connect) against the booked CLI-1 of $757 billion; a cross-check, not a score.
 6. **Outside runs.** BL-3 and PK-1 in the benchmarks compare with Espen's Energy Policy Simulator runs.
 
 The transition guarantee (memo 7 B, CLI-11, with tribal governments' lost revenue, DEC-2026-11-13-11) is a fiscal program the dossier prices; this model supplies the closures (item 4), not its cost.
@@ -71,14 +71,14 @@ The transition guarantee (memo 7 B, CLI-11, with tribal governments' lost revenu
 | + the carbon price on power plants and large industry, with process emissions (memo 1 B; REV-C1A, C1G, C1P) | 1,261 (193) | 274 (45) | 0 (0) | 0 (0) | 0 (0) | -375 (-58) | 1,009 (155) | 252 (39) | $424 |
 | + the border adjustment (REV-C2) | 1,261 (193) | 274 (45) | 37 (8) | 0 (0) | 0 (0) | -384 (-60) | 1,009 (155) | 252 (39) | $424 |
 | + the credits, stepping down (memo 2 B; CLI-1A) | 1,210 (177) | 266 (44) | 44 (9) | 0 (0) | 0 (0) | -371 (-56) | 968 (142) | 242 (35) | $411 |
-| + the clean electricity standard, 80% by 2035 and 100% by 2040 (memo 3 B; CLI-3A) | 1,217 (175) | 266 (44) | 44 (9) | 0 (0) | 193 (46) | -373 (-56) | 974 (140) | 243 (35) | $415 |
-| + the methane fee (point 3; REV-C3): **the decided set** | 1,191 (167) | 265 (43) | 45 (10) | 22 (1) | 160 (41) | -371 (-54) | 952 (134) | 238 (33) | $409 |
-| Option: memo 1 A, the economy-wide fee (buildings and non-road fuel priced; industry in full) | 2,031 (297) | 265 (43) | 49 (11) | 22 (1) | 172 (42) | -578 (-86) | 1,625 (238) | 406 (59) | $691 |
-| Option: memo 1 C, no carbon price (credits, standards and the methane fee only) | 0 (0) | 0 (0) | 0 (0) | 22 (1) | 288 (53) | -5 (-0) | 0 (0) | 0 (0) | $0 |
-| Option: memo 1 D, the economy-wide fee from 2032 | 1,884 (299) | 246 (43) | 46 (11) | 22 (1) | 176 (43) | -536 (-86) | 1,508 (239) | 377 (60) | $695 |
-| Sensitivity: the decided set with the permitting package | 1,084 (140) | 258 (42) | 48 (10) | 22 (1) | 73 (21) | -344 (-47) | 867 (112) | 217 (28) | $379 |
+| + the clean electricity standard, 80% by 2035 and 100% by 2040 (memo 3 B; CLI-3A) | 1,214 (174) | 266 (44) | 43 (9) | 0 (0) | 189 (45) | -372 (-55) | 971 (139) | 243 (35) | $414 |
+| + the methane fee (point 3; REV-C3): **the decided set** | 1,188 (166) | 265 (43) | 44 (9) | 22 (1) | 157 (40) | -371 (-54) | 950 (133) | 238 (33) | $408 |
+| Option: memo 1 A, the economy-wide fee (buildings and non-road fuel priced; industry in full) | 2,029 (297) | 265 (43) | 49 (11) | 22 (1) | 169 (42) | -577 (-86) | 1,623 (237) | 406 (59) | $690 |
+| Option: memo 1 C, no carbon price (credits, standards and the methane fee only) | 0 (0) | 0 (0) | 0 (0) | 22 (1) | 283 (52) | -5 (-0) | 0 (0) | 0 (0) | $0 |
+| Option: memo 1 D, the economy-wide fee from 2032 | 1,882 (298) | 246 (43) | 46 (11) | 22 (1) | 174 (42) | -536 (-86) | 1,505 (238) | 376 (60) | $694 |
+| Sensitivity: the decided set with the permitting package | 1,083 (139) | 258 (42) | 48 (10) | 22 (1) | 71 (20) | -344 (-47) | 866 (111) | 217 (28) | $379 |
 
-FY2040 in brackets. The carbon price's receipts on the decided set: 10th-90th percentile $1,080-1,263 billion over FY2030-39. The dividend is 80% of combustion receipts (CLI-2A.04); process receipts follow the O5 account (CLI-2O.01); the offset applies to all four fees, as CX and CXP book it. The standard's payments carry no offset here (a capped compliance payment, not a tax).
+FY2040 in brackets. The carbon price's receipts on the decided set: 10th-90th percentile $1,080-1,260 billion over FY2030-39. The dividend is 80% of combustion receipts (CLI-2A.04); process receipts follow the O5 account (CLI-2O.01); the offset applies to all four fees, as CX and CXP book it. The standard's payments carry no offset here (a capped compliance payment, not a tax).
 
 ## For the budget model's booking step
 
@@ -86,15 +86,15 @@ Nominal $ billion by fiscal year, a cost positive, the decided set (`results.jso
 
 | Provision | FY2030-39 | FY2040 | Booked, FY2030-39 |
 | --- | --- | --- | --- |
-| REV-C1A: carbon price receipts on covered combustion (REV-C1A, C1G) | -1,191 | -167 | -1,900 |
+| REV-C1A: carbon price receipts on covered combustion (REV-C1A, C1G) | -1,188 | -166 | -1,900 |
 | REV-C1P.01: process-emissions receipts | -265 | -43 | -244 |
-| REV-C2.01: border adjustment, net of export rebates | -45 | -10 | -30 |
+| REV-C2.01: border adjustment, net of export rebates | -44 | -9 | -30 |
 | REV-C3.01: methane fee | -22 | -1 | -22 |
 | CX: income and payroll tax offset on all four fees (24.4%) | 371 | 54 | — |
-| CLI-2A.04-dividend: Climate Dividend (80% of combustion receipts) | 952 | 134 | — |
+| CLI-2A.04-dividend: Climate Dividend (80% of combustion receipts) | 950 | 133 | — |
 | CLI-2A.04-transition: transition share (20% of combustion receipts) | 238 | 33 | — |
-| CLI-3A.02: clean standard's capped payments, to bill protection | -160 | -41 | — |
-| CLI-1A-model: the engine's credit cost (a cross-check on the booking, not a score) | 1,192 | 84 | — |
+| CLI-3A.02: clean standard's capped payments, to bill protection | -157 | -40 | — |
+| CLI-1A-model: the engine's credit cost (a cross-check on the booking, not a score) | 1,191 | 84 | — |
 
 ## Households in 2035 (the carbon channel, against Moving America's current-law path)
 
@@ -102,12 +102,12 @@ Per household, 2025 dollars, by income fifth (BLS Consumer Expenditure Survey 20
 
 | Fifth | Adults | Dividend | Heating | Electricity | Other goods | Net |
 | --- | --- | --- | --- | --- | --- | --- |
-| All consumer units | 1.8 | +739 | 0 | -38 | -917 | -216 |
-| Lowest 20 percent | 1.3 | +534 | 0 | -26 | -401 | +106 |
-| Second 20 percent | 1.7 | +698 | 0 | -35 | -572 | +91 |
-| Third 20 percent | 2.0 | +821 | 0 | -38 | -773 | +11 |
-| Fourth 20 percent | 2.2 | +903 | 0 | -42 | -1,048 | -186 |
-| Highest 20 percent | 2.4 | +985 | 0 | -49 | -1,786 | -850 |
+| All consumer units | 1.8 | +738 | 0 | -62 | -892 | -216 |
+| Lowest 20 percent | 1.3 | +533 | 0 | -43 | -390 | +99 |
+| Second 20 percent | 1.7 | +697 | 0 | -57 | -556 | +84 |
+| Third 20 percent | 2.0 | +820 | 0 | -61 | -751 | +7 |
+| Fourth 20 percent | 2.2 | +902 | 0 | -68 | -1,019 | -185 |
+| Highest 20 percent | 2.4 | +984 | 0 | -80 | -1,737 | -833 |
 
 ## Prices
 
@@ -116,16 +116,16 @@ Per household, 2025 dollars, by income fifth (BLS Consumer Expenditure Survey 20
 | 2029 current law (no new policy) | 13.8 / 14.3 / 14.7 |
 | + the carbon price on power plants and large industry, with process emissions (memo 1 B; REV-C1A, C1G, C1P) | 14.1 / 15.7 / 16.5 |
 | + the credits, stepping down (memo 2 B; CLI-1A) | 14.1 / 14.8 / 15.0 |
-| + the clean electricity standard, 80% by 2035 and 100% by 2040 (memo 3 B; CLI-3A) | 14.1 / 14.8 / 15.0 |
-| + the methane fee (point 3; REV-C3): **the decided set** | 14.1 / 14.6 / 14.7 |
-| Option: memo 1 A, the economy-wide fee (buildings and non-road fuel priced; industry in full) | 14.1 / 14.7 / 14.7 |
-| Option: memo 1 C, no carbon price (credits, standards and the methane fee only) | 13.8 / 13.3 / 13.9 |
+| + the clean electricity standard, 80% by 2035 and 100% by 2040 (memo 3 B; CLI-3A) | 14.1 / 15.1 / 15.5 |
+| + the methane fee (point 3; REV-C3): **the decided set** | 14.1 / 14.9 / 15.1 |
+| Option: memo 1 A, the economy-wide fee (buildings and non-road fuel priced; industry in full) | 14.1 / 14.9 / 15.1 |
+| Option: memo 1 C, no carbon price (credits, standards and the methane fee only) | 13.8 / 13.8 / 14.5 |
 
 The engine's retail price is its 2025 average (EIA, 17.3 cents) plus the change in the power sector's average cost, passed through in full: the cost-of-service treatment of regulated utilities (survey.md, 4.1). It is a national average; regional prices differ.
 
 ## Avoided emissions, valued, and warming
 
-Against 2029 current law, the decided set avoids about 27,365 Mt CO2e over 2030-2050, 24.54 Gt of it CO2. **Valuation (a labeled side table, not booked):** at EPA's 2023 social cost of carbon (2% near-term discount rate, $230 a ton in 2030 rising to $310 in 2050, 2020 dollars; SRC-5006), that is about $7,603 billion of avoided damages, summed without discounting and valuing every gas at the CO2 rate. The second Trump administration's OMB directs agencies not to monetize greenhouse gas effects (M-25-27, SRC-5007) and withdrew the interagency estimates (EO 14154, SRC-4732); this table is Project 2050's labeled valuation on EPA's peer-reviewed 2023 estimates, not federal guidance. **Warming:** at IPCC's 0.45°C per 1,000 Gt CO2 (likely 0.27-0.63; SRC-5037), the avoided CO2 is about 0.0110°C (0.0066-0.0155); methane's shorter-lived warming is not converted.
+Against 2029 current law, the decided set avoids about 27,394 Mt CO2e over 2030-2050, 24.56 Gt of it CO2. **Valuation (a labeled side table, not booked):** at EPA's 2023 social cost of carbon (2% near-term discount rate, $230 a ton in 2030 rising to $310 in 2050, 2020 dollars; SRC-5006), that is about $7,611 billion of avoided damages, summed without discounting and valuing every gas at the CO2 rate. The second Trump administration's OMB directs agencies not to monetize greenhouse gas effects (M-25-27, SRC-5007) and withdrew the interagency estimates (EO 14154, SRC-4732); this table is Project 2050's labeled valuation on EPA's peer-reviewed 2023 estimates, not federal guidance. **Warming:** at IPCC's 0.45°C per 1,000 Gt CO2 (likely 0.27-0.63; SRC-5037), the avoided CO2 is about 0.0111°C (0.0066-0.0155); methane's shorter-lived warming is not converted.
 
 **Weather in the starting year.** NOAA's degree days (SRC-5047, SRC-5048) put 2025 at 97% of the 2015-2024 heating average and 106% of the cooling average, so the engine's 2025 calibration needs no weather adjustment beyond a few percent of buildings CO2 (EIA's "colder winter" was colder than 2024's, not than normal).
 
@@ -145,8 +145,8 @@ Against 2029 current law, the decided set avoids about 27,365 Mt CO2e over 2030-
 | CR-1 | Restoring the credits alone (from 2030, stepping down): points of energy CO2 below 2005 in 2035 | 5.2 points | The IRA against no IRA in the 2026 review: 39-48% against 27-35% below 2005 in 2035 (SRC-4479), about 8-13 points | reported | **reported** |
 | BI-1 | Retail electricity price from restoring the credits, 2035 (cents a kWh, 2025 dollars) | -0.68 | Repealing them raised bills: Rhodium $78-192, REPEAT about $280, Energy Innovation $460 a household in 2035 (SRC-4477, SRC-4478, SRC-5020) | reported (direction: restoring lowers prices) | **pass (direction)** |
 | BK-1 | The legacy run reproduced: the decided legacy package through this model's driver, REV-C1 receipts FY2030-39 | $1.996T | legacy/index/climate-carbon-model.md: $2.00T (SRC-0056) | within 0.5% (the legacy figure is rounded) | **pass** |
-| BK-2 | Memo 1 B's arithmetic against a run: the carbon price's receipts FY2030-39 and the dividend per adult in 2035 | $1.19T; $409 | memo 1 B (proportional estimate on the legacy model): about $1.2T; about $430 an adult | within 10% | **pass** |
-| DI-1 | Who comes out ahead in 2035 on the carbon channel (dividend less costs, by income fifth) | Lowest 20 percent +106, Second 20 percent +91, Third 20 percent +11, Fourth 20 percent -186, Highest 20 percent -850 | Treasury, TPC and RFF: lower fifths ahead, top behind with a per-adult rebate (SRC-4615, SRC-5035, SRC-4620) | bottom two fifths ahead, top fifth behind | **pass (shape)** |
+| BK-2 | Memo 1 B's arithmetic against a run: the carbon price's receipts FY2030-39 and the dividend per adult in 2035 | $1.19T; $408 | memo 1 B (proportional estimate on the legacy model): about $1.2T; about $430 an adult | within 10% | **pass** |
+| DI-1 | Who comes out ahead in 2035 on the carbon channel (dividend less costs, by income fifth) | Lowest 20 percent +99, Second 20 percent +84, Third 20 percent +7, Fourth 20 percent -185, Highest 20 percent -833 | Treasury, TPC and RFF: lower fifths ahead, top behind with a per-adult rebate (SRC-4615, SRC-5035, SRC-4620) | bottom two fifths ahead, top fifth behind | **pass (shape)** |
 | HI-1 | History run (engine started from 2015 and run to 2025 against EIA's measured CO2) | not built | EIA 2015-2025 | — | **pending** |
 
 **Why the differences arise.**
@@ -181,7 +181,7 @@ Offset rate 0.244, inflation 0.022; calendar year y booked as fiscal year y; nom
 - `models/tools/energy/data.py`: `45d30ff164c8c639`
 - `models/tools/energy/engine.js`: `6bf12af1a0ef8882`
 - `models/tools/energy/engine/cfd-households.js`: `cf0b0d33ac3e8213`
-- `models/tools/energy/engine/cfd-model.js`: `d21a0e6c4d8c48fb`
-- `models/tools/energy/model.py`: `b06e6ab956e366fb`
-- `models/tools/energy/run.py`: `0c902e6685c5f414`
+- `models/tools/energy/engine/cfd-model.js`: `5415d2807399d005`
+- `models/tools/energy/model.py`: `91c7e0a6dd991a6f`
+- `models/tools/energy/run.py`: `9ec8bf4d69ae96e9`
 - `models/tools/transportation/moving_america.py`: `3cc781a2a1312dbb`

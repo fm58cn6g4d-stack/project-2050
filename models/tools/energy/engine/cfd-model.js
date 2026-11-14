@@ -81,6 +81,7 @@ const CFD = (() => {
     cesAcp: 40, cesGain: 300, gsTx: 0.3, gsCurt: 0.02, wxHomes: 0.25,
     crItc: 0.38, crPtc: 34, crEv: 6800, crEvTake: 0.85, crUsed: 1000, crTruck: 0.08, crHp: 6.9, crPack: 15, crYears: 10, crCharge: 0.03, crInd: 0.15, // ITC and PTC include average bonus adders (ASSUMED 8 points and 10%)
     crTruckCost: 20000, crHpCost: 3000, // average 45W and 25C credit per sale ($), so a case that removes one credit can also remove its cost
+    retailAcp: false, // M4: true adds the clean standard's capped payments (cesAcpBn, paid by suppliers to Treasury) to the cost passed to retail prices; credit trades between plants net out inside the sector either way
     retailNetCredits: false, // M4: true nets the year's power-credit payments out of the cost passed to retail prices (cost-of-service: a subsidy lowers the revenue requirement); false keeps the original model, which passes new plants' full capital cost through
     hpPremPolicy: null, hpPremYear: null, // optional policy heat-pump premium from a start year (null: w.hpPrem throughout), e.g. a clean-heat standard
     crPowerTrigger: 383, crVehYears: null, zevPath: null, zevTrkPath: null, // power-credit phase-out trigger (Mt power CO2); vehicle credits' own term (null: crYears); optional statutory zero-emission sales schedules {year: share}
@@ -302,7 +303,7 @@ const CFD = (() => {
       if (pol.ces && y === pol.ces.start - 1) cesBase = cleanShare;
       const cesTgt = pol.ces && y >= pol.ces.start ? clampT(y) : null, cesAcpBn = cesTgt !== null && (S.cesL || 0) >= w.cesAcp - 1e-6 ? Math.max(0, cesTgt - cleanShare) * G * w.cesAcp / 1000 : 0;
       if (fomBase === null) fomBase = S.coal * w.fom.coal;
-      const fixed = capNew + (S.coal * w.fom.coal - fomBase) / 1000 - (w.retailNetCredits ? credPower : 0);                  // $bn/yr vs 2025
+      const fixed = capNew + (S.coal * w.fom.coal - fomBase) / 1000 - (w.retailNetCredits ? credPower : 0) + (w.retailAcp ? cesAcpBn : 0);                  // $bn/yr vs 2025
       const avgCost = (d.vcost + P * d.emis + fixed * 1000) / G;                       // $/MWh
       if (avg0 === null) avg0 = avgCost;
       const retailNext = (avgCost - avg0) / 10;                                         // cents/kWh

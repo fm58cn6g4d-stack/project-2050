@@ -73,6 +73,14 @@ let bad = 0; for (const p of pols) { const a = A.simulate(p, A.world()), b = B.s
 console.log(bad);""", os.path.join(HERE, "..", "carbon", "cfd-model.js"), os.path.join(HERE, "engine", "cfd-model.js")], capture_output=True, text=True).stdout.strip()
 ok("the engine copy with default options equals the legacy original, four designs, every year", same == "0", same + " rows differ")
 
+same = subprocess.run(["node", "-e", """
+const M = require(process.argv[1]); const pol = { permitYear: null, ces: { start: 2030, target: 0.8, year: 2035, target2: 1.0, year2: 2040 } };
+const off = M.simulate(pol, M.world()), w = M.world(); w.retailAcp = true; const on = M.simulate(pol, w);
+const y = on.findIndex(r => r.year === 2041), r = on[y];
+console.log(JSON.stringify({ acp: on[y - 1].cesAcp, d: r.retail - off[y].retail }));""", os.path.join(HERE, "engine", "cfd-model.js")], capture_output=True, text=True).stdout.strip()
+v = json.loads(same)
+ok("the standard's capped payments reach the retail price (retailAcp; review R-2)", v["acp"] > 0 and v["d"] > 0, f"payments ${v['acp']:.0f}B in 2040, retail +{v['d']:.2f} cents in 2041")
+
 # --- benchmarks the status rests on
 B = {b["id"]: b for b in run.benchmarks(E, ACC, R["households"])}
 for bid in ("DA-1", "DA-2", "BL-1", "PR-1", "BK-1"):
