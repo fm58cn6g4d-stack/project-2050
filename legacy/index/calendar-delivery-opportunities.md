@@ -78,6 +78,10 @@ The optimistic implication is plausible as a research direction: early benefits,
 | CLI-3E | CLI-3E | 36 | Not mod | Not mod | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
 | CLI-4E | CLI-4E | 36 | Not mod | Not mod | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
 | CLI-4H | CLI-4H | 36 | Not mod | Not mod | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
+| CLI-10 | R2 | 30 | 2032-01 | 2032-04 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
+| CLI-5H | R2 | 30 | 2032-01 | 2032-04 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
+| CLI-11 | R2 | 18 | 2031-01 | 2031-04 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
+| CLI-3A | R2 | 30 | 2032-01 | 2032-04 | No date verified; Initial effect under unvalidated legacy lag; not full implementation | Effective dates; agency capacity; rules; state/private participation; reach and measurement remain to be specified |
 
 ## Focused evidence and health acceleration
 

@@ -196,15 +196,15 @@
  },
  {
   "id": "C1",
-  "option": "Carbon fee at $25/ton in 2030, D7's steps through 2032 (~$46), then rising to $150 by 2037 (revised Oct 26), gasoline and diesel exempt, domestic fee only (D7, REV-C1A)",
+  "option": "Carbon fee on power plants and large industrial facilities (memo 1 B, DEC-2026-11-13-06): $25/ton in 2030, D7's steps through 2032 (~$46), then rising to $150 by 2037; buildings, gasoline, diesel and non-road fuel unpriced; domestic fee only (REV-C1A, C1G)",
   "channel": "Carbon fee",
-  "lo": 1.65,
-  "mid": 1.9,
-  "hi": 2.1,
+  "lo": 1.0445,
+  "mid": 1.2027,
+  "hi": 1.3293,
   "in_base": "No",
   "reaches_middle": "Yes",
   "legal_risk": "Low",
-  "overlap": "80% ($1.52T) to the dividend (CLI-2, per adult); 20% ($0.38T) to the transition share, all credited to CLI-5 (was $0.29T on the ~$100 path); the step's ~$0.09T lowers CLI-5's general-fund residual and is not available again. Options: REV-C1B ($50 + 5% path), C1C (escalator), C1D (road-fuel convergence, open, not adopted), C1E (gasoline phase-in, conflicts with D7), C1F (Talarico path)",
+  "overlap": "Under memo 1 B each year's booked receipts times power and industry's share (69% in 2030 to 58% in 2040, the carbon model read; clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py)); 80% to the dividend (CLI-2), 20% to the transition share, which finances CLI-5 through FY2039 and is general-fund revenue from FY2040 (C1T, DEC-2026-11-13-13). The energy model's run ($1.19T, results.json) is the high side of a range (its PR-2 benchmark runs 26% above CBO)",
   "source": "index/climate-carbon-model.md: $2.00T on the decided climate package with the Oct 26 price (10th-90th $1.92-2.14T); the midpoint set about 5% lower and the range widened downward as on Oct 21, because the model responds slowly in its first decade (Espen, Oct 21; price Espen, Oct 26)"
  },
  {
@@ -237,14 +237,14 @@
   "id": "CX",
   "option": "Income and payroll tax offset on the carbon, border and methane fees (24.4%, JCT)",
   "channel": "General fund",
-  "lo": -0.531,
-  "mid": -0.476,
-  "hi": -0.412,
+  "lo": -0.343,
+  "mid": -0.306,
+  "hi": -0.265,
   "in_base": "Yes",
   "reaches_middle": "No",
   "legal_risk": "",
   "overlap": "Scoring convention, as MR6 for Moving America; the dividend is tax-free, so nothing is recaptured",
-  "source": "24.4% (JCT's rate, excise-offset.csv; DEC-2026-11-12-08) of REV-C1 + REV-C2 + REV-C3 (CBO/JCT convention for excise taxes); booked Oct 21 at 25% (Espen)"
+  "source": "24.4% (JCT's rate, excise-offset.csv; DEC-2026-11-12-08) of REV-C1 + REV-C2 + REV-C3, REV-C1 on memo 1 B's narrower base (clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py)); booked Oct 21 at 25% (Espen). The standard's payments carry their own offset (CXA)"
  },
  {
   "id": "PS1",
@@ -830,5 +830,44 @@
   "legal_risk": "Low",
   "overlap": "IF1's receipts are retained by USCIS and a training fund, outside the general fund; this is the general fund's offset on them",
   "source": "dossiers/immigration/6-cost.md part 1 (immigration_booking.py)"
+ },
+ {
+  "id": "C1T",
+  "option": "The transition share's remainder in the general fund from FY2040 (DEC-2026-11-13-13, option A): 20% of REV-C1 once the add-ons end; its waterfall's draws are CLI-5H and CLI-11",
+  "channel": "General fund",
+  "lo": 0.0,
+  "mid": 0.0,
+  "hi": 0.0,
+  "in_base": "Yes",
+  "reaches_middle": "No",
+  "legal_risk": "Low",
+  "overlap": "Nothing in FY2030-39 (the share finances CLI-5); from FY2040 about $33B a year (fiscal-after.csv)",
+  "source": "dossiers/clean-power/6-cost.md part 2 (clean_power_booking.py)"
+ },
+ {
+  "id": "C3A",
+  "option": "The clean electricity standard's capped payments (CLI-3A.02): suppliers short of credits pay $40 a missing MWh (2025 dollars) to Treasury",
+  "channel": "General fund",
+  "lo": 0.071,
+  "mid": 0.157,
+  "hi": 0.157,
+  "in_base": "Yes",
+  "reaches_middle": "No",
+  "legal_risk": "Low",
+  "overlap": "Paid out in full through bill protection and the bill credit (CLI-3A); the net cost is the offset (CXA)",
+  "source": "The energy model (models/tools/energy/results.json, provisions CLI-3A.02; MOD-energy, DEC-2026-11-13-12); low end the decided set with the permitting package; dossiers/clean-power/6-cost.md part 2"
+ },
+ {
+  "id": "CXA",
+  "option": "Income and payroll tax offset on the standard's capped payments (24.4%, JCT)",
+  "channel": "General fund",
+  "lo": -0.0383,
+  "mid": -0.0383,
+  "hi": -0.0173,
+  "in_base": "Yes",
+  "reaches_middle": "No",
+  "legal_risk": "",
+  "overlap": "The payment is a new fee, so the convention for new excise taxes and fees applies (DEC-2026-11-12-08, part 4); the energy model applies none",
+  "source": "24.4% of C3A (excise-offset.csv; clean_power_booking.py)"
  }
 ]

@@ -9618,18 +9618,17 @@
  },
  {
   "id": "EV-CLP-705",
-  "statement": "The legacy carbon model raises about $2.00T from the fee over 2030-39 (10th-90th percentile $1.92-2.14T), against the ledger's $1.90T, with a dividend of $1.60T; it notes it responds more slowly than the large published models, so its receipts lean high.",
+  "statement": "The legacy carbon model raises about $2.00T from the economy-wide fee over 2030-39 (10th-90th percentile $1.92-2.14T), with a dividend of $1.60T; it notes it responds more slowly than the large published models, so its receipts lean high.",
   "claim": "analysis",
   "figures": [
    "$2.00T",
    "2030-39",
    "$1.92-2.14T",
-   "$1.90T",
    "$1.60T"
   ],
   "source": "SRC-0056",
   "anchor": [
-   "About **$2.00T** in 2030-39 (10th-90th percentile $1.92-2.14T), against the ledger's $1.90T",
+   "About **$2.00T** in 2030-39 (10th-90th percentile $1.92-2.14T)",
    "The dividend (80%) is $1.60T",
    "its receipts sit toward the high side"
   ],

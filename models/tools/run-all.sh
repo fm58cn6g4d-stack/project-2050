@@ -69,6 +69,7 @@ python3 -W ignore::ResourceWarning "$TOOLS"/recovery-budget/model.py --output-di
 python3 -W ignore::ResourceWarning "$TOOLS"/recovery-budget/test_model.py
 echo "== 8c. secure floor booking check (review step 7: FAM-1, INC-1 to 5, the leave step, Social Security as decided)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_secure_floor.py 2>&1 | tail -1
 echo "== 8c. immigration booking check (review step 5: IMM-1 as components, E-Verify revenue and the H-1B offset apart, USCIS shares out)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_immigration.py 2>&1 | tail -1
+echo "== 8c. clean power booking check (memo 1 B, CLI-10, CLI-5H, CLI-11, the standard's payments, the transition share from FY2040)"; BUILD="$BUILD" python3 -W ignore::ResourceWarning "$TOOLS"/test_fiscal_clean_power.py 2>&1 | tail -1
 
 echo "== 8d. public story page (claim register and generated page)"
 # Fails if the story's own content changed without a rebuild; only reports a cited source passage that moved.

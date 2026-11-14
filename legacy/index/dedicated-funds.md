@@ -86,21 +86,21 @@ Where an account's receipts fall short of its program, the gap is a general-fund
 
 ## Carbon channel (D7)
 
-REV-C1 ($1.90T) spread over 2030-39 on the fee's durability path (price times a falling emissions index, the C1 profile in `incidence-phase-in.csv`); REV-C2 ($0.03T) on the same path. 80% of C1 is the dividend (CLI-2), the rest the transition share (to CLI-5). The dividend is equal per adult (CLI-2A); it uses a population of 346 million in 2030 growing 0.4% a year, 78% of it adults (estimates).
+REV-C1 ($1.20T) spread over 2030-39 on the fee's durability path (price times a falling emissions index, the C1 profile in `incidence-phase-in.csv`); REV-C2 ($0.03T) on the same path. 80% of C1 is the dividend (CLI-2), the rest the transition share (to CLI-5). The dividend is equal per adult (CLI-2A); it uses a population of 346 million in 2030 growing 0.4% a year, 78% of it adults (estimates).
 
 | Year | C1 ($B) | Dividend ($B) | Per adult ($) | Couple ($) | Transition ($B) | C2 ($B) |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2030 | 63 | 50 | 186 | 372 | 13 | 1 |
-| 2031 | 87 | 69 | 256 | 512 | 17 | 1 |
-| 2032 | 108 | 87 | 319 | 638 | 22 | 2 |
-| 2033 | 150 | 120 | 440 | 880 | 30 | 2 |
-| 2034 | 188 | 151 | 550 | 1,099 | 38 | 3 |
-| 2035 | 222 | 178 | 646 | 1,292 | 44 | 4 |
-| 2036 | 252 | 201 | 728 | 1,456 | 50 | 4 |
-| 2037 | 277 | 221 | 798 | 1,595 | 55 | 4 |
-| 2038 | 276 | 221 | 793 | 1,586 | 55 | 4 |
-| 2039 | 277 | 221 | 791 | 1,583 | 55 | 4 |
-| 2030-39 ($T) | 1.90 | 1.52 | | | 0.38 | 0.03 |
+| 2030 | 40 | 32 | 118 | 236 | 8 | 1 |
+| 2031 | 55 | 44 | 162 | 324 | 11 | 1 |
+| 2032 | 69 | 55 | 202 | 404 | 14 | 2 |
+| 2033 | 95 | 76 | 279 | 557 | 19 | 2 |
+| 2034 | 119 | 95 | 348 | 696 | 24 | 3 |
+| 2035 | 141 | 113 | 409 | 818 | 28 | 4 |
+| 2036 | 159 | 127 | 461 | 922 | 32 | 4 |
+| 2037 | 175 | 140 | 505 | 1,010 | 35 | 4 |
+| 2038 | 175 | 140 | 502 | 1,004 | 35 | 4 |
+| 2039 | 175 | 140 | 501 | 1,002 | 35 | 4 |
+| 2030-39 ($T) | 1.20 | 0.96 | | | 0.24 | 0.03 |
 
 ## Historical education-fund comparison (pre-adoption)
 

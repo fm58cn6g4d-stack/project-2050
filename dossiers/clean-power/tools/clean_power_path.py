@@ -1,7 +1,8 @@
 """Clean power: the decided set on the general fund, by federal fiscal year, against the booked legacy climate rows.
 
-Role: section 6's arithmetic (`dossiers/clean-power/6-cost.md`). A dossier tool, not a booking: it reads the budget model's
-booked climate rows (case `mixed`) from `legacy/sources/recovery-budget-audit.csv`, reads the carbon model for memo 1 B's
+Role: section 6's arithmetic (`dossiers/clean-power/6-cost.md`). A dossier tool and the booking's source: it reads the budget model's
+climate rows as booked before clean power's booking (case `mixed`, frozen from `legacy/sources/recovery-budget-audit.csv` at
+main `59e5773` in `booked-before.csv`, so the booking does not feed back into its own basis), reads the carbon model for memo 1 B's
 coverage (`coverage_read.py`), and adds the decided changes as working assumptions, each labeled below. Nothing here
 changes `models/`. Nominal $ billion, a cost positive, FY y runs from October of y-1.
 
@@ -27,11 +28,12 @@ GROUPS = [("Fee and dividend accounting", ["CLI-2O", "CX", "CXP"]), ("Credits an
 
 
 def booked():
-    rows = {r: {y: 0.0 for y in Y} for r in BOOKED}
-    with open(os.path.join(ROOT, "legacy/sources/recovery-budget-audit.csv")) as f:
+    """The booked legacy climate rows before clean power's booking (case `mixed`, nominal $B, a cost positive)."""
+    rows = {}
+    with open(os.path.join(HERE, "booked-before.csv")) as f:
         for r in csv.DictReader(f):
-            if r["case"] == "mixed" and r["line"] in rows and int(r["year"]) in Y:
-                rows[r["line"]][int(r["year"])] = float(r["primary_deficit_change_bn"])
+            rows[r["line"]] = {y: float(r["y%d" % y]) for y in Y}
+    assert set(rows) == set(BOOKED), sorted(set(rows) ^ set(BOOKED))
     return rows
 
 
@@ -74,6 +76,15 @@ GRID2 = {2030: 0, 2031: 0, 2032: 0, 2033: 3, 2034: 6, 2035: 8, 2036: 9, 2037: 10
 # credit are in 6-cost.md, memo 5 B (milestone review O-2).
 BILLS = {y: 0.0 for y in W}
 BILLS[2040] = round(8.0 * 1.022 ** 10, 1)
+
+
+# ---- 4b. The clean standard's payments (CLI-3A.02): received by Treasury and paid out through bill protection and the bill
+# credit, so they net to zero, except JCT's 24.4% offset on them as a new fee (DEC-2026-11-12-08, part 4), settled by the
+# booking: by year from the energy model (models/tools/energy/results.json, provisions CLI-3A.02).
+def acp_offset():
+    res = json.load(open(os.path.join(ROOT, "models", "tools", "energy", "results.json")))
+    by = res["provisions"]["CLI-3A.02"]["by_year"]
+    return {y: -OFFSET * float(by[str(y)]) for y in Y}
 
 
 # ---- 5. Memo 7 B: the transition guarantee, on Espen's parameters ---------------------------------------------------
@@ -174,12 +185,26 @@ def plan_gap_fy2040():
 PLAN_GAP_FY2040, GDP_FY2040 = plan_gap_fy2040()
 
 
-def main():
+def compute():
+    """The decided set's changes against the booked rows, by fiscal year (the booking reads this)."""
     rows = booked()
     model = coverage_read.run()
     share = {y: model[y]["share_B"] for y in Y}
     cx, c5 = memo1(rows, share)
     g7 = memo7()
+    ts = {y: (0.2 * rows["CX"][y] / OFFSET * C1_SHARE_OF_CX * share[y] if y >= 2040 else 0.0) for y in Y}
+    held = {y: (-ts[y] if ts[y] else 0.0) for y in Y}
+    acp = acp_offset()
+    chg = {y: cx[y] + c5[y] + GRID2[y] + BILLS[y] + g7[y] + held[y] for y in Y}   # section 6's decided changes
+    chg_all = {y: chg[y] + acp[y] for y in Y}                                     # and the payments' offset
+    c1 = {y: rows["CX"][y] / OFFSET * C1_SHARE_OF_CX * share[y] for y in Y}   # REV-C1 under B, booked basis
+    return dict(rows=rows, model=model, share=share, cx=cx, c5=c5, grid2=GRID2, bills=BILLS, g7=g7, ts=ts,
+                held=held, acp=acp, change=chg, change_all=chg_all, c1=c1)
+
+
+def main():
+    P = compute()
+    rows, model, share, cx, c5, g7 = P["rows"], P["model"], P["share"], P["cx"], P["c5"], P["g7"]
     s = lambda d: sum(d[y] for y in W)
     fmt = lambda d: " ".join(f"{d[y]:7.1f}" for y in Y) + f" | {s(d):8.1f} {d[2040]:7.1f}"
     print("FY                          " + " ".join(f"{y:>7}" for y in Y) + " |  2030-39    2040")
@@ -195,10 +220,10 @@ def main():
     # DEC-2026-11-13-13 (option A): from FY2040 the ledger's CLI-2 outlay is the dividend (80% of C1)
     # plus the waterfall's draws, which are the memo 5 B and 7 B rows above; the rest of the 20%
     # transition share stays in the general fund. Through FY2039 the share finances the add-ons.
-    ts = {y: (0.2 * rows["CX"][y] / OFFSET * C1_SHARE_OF_CX * share[y] if y >= 2040 else 0.0) for y in Y}
-    held = {y: (-ts[y] if ts[y] else 0.0) for y in Y}
+    ts, held, chg = P["ts"], P["held"], P["change"]
     print(f"{'DEC-13-13 A: share to GF':28s}" + fmt(held))
-    chg = {y: cx[y] + c5[y] + GRID2[y] + BILLS[y] + g7[y] + held[y] for y in Y}
+    print(f"{'CLI-3A.02: offset on paymts':28s}" + fmt(P["acp"]))
+    chg = P["change_all"]
     tot = {y: tot_b[y] + chg[y] for y in Y}
     print(f"{'CHANGE vs booked':28s}" + fmt(chg))
     print(f"{'DECIDED SET':28s}" + fmt(tot))

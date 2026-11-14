@@ -6,7 +6,7 @@ Role: a summary of `models/data/budget/provisions.csv`, the provision spec for e
 
 ## The rows
 
-The ledger has 179 rows: 83 bills, 64 revenue options, 23 gap-closing options and 9 dynamic-feedback rows. One bill, HOU-1, is split into 69 components, each with its own spec. The fiscal model scores 125 of the rows; the other 54 are on the revenue menu, outside the general fund, or are borrowing lines whose spending sits in other rows.
+The ledger has 186 rows: 87 bills, 67 revenue options, 23 gap-closing options and 9 dynamic-feedback rows. One bill, HOU-1, is split into 69 components, each with its own spec. The fiscal model scores 132 of the rows; the other 54 are on the revenue menu, outside the general fund, or are borrowing lines whose spending sits in other rows.
 
 ### By kind
 
@@ -15,8 +15,8 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 | Kind | Rows | Scored | Bills and base revenue | FY2030-39, $T |
 | --- | --- | --- | --- | --- |
 | Discretionary appropriation | 24 | 24 | 22 | 1.42 |
-| Mandatory (direct) spending | 47 | 47 | 43 | 31.82 |
-| Revenue | 83 | 36 | 17 | -10.59 |
+| Mandatory (direct) spending | 51 | 51 | 47 | 32.19 |
+| Revenue | 86 | 39 | 20 | -10.88 |
 | Interest-neutral transfer (self-funded) | 2 | 2 | 2 | 0 |
 | No direct budget effect | 23 | 16 | 16 | 0 |
 
@@ -27,10 +27,10 @@ Ten-year amounts are FY2030-39 deficit effects in trillions on the unified basis
 | Regular (annual) appropriations | 7 | 7 | discretionary 7 | HLT-8, EDU-8, DEM-11, DEM-16, CAP-7, NSC-1, NSC-8 |
 | Supplemental or emergency appropriations | 0 | 0 |  |  |
 | Advance appropriation | 0 | 0 |  |  |
-| Reconciliation (R1, R2, R3) | 60 | 60 | discretionary 7, mandatory 34, revenue 17, transfer 2 |  |
+| Reconciliation (R1, R2, R3) | 64 | 64 | discretionary 7, mandatory 38, revenue 17, transfer 2 |  |
 | Regular-order authorization | 33 | 33 | discretionary 8, mandatory 9, none 16 |  |
 | Not a provision (financing line or feedback) | 16 | 9 | revenue 9, none 7 |  |
-| Unknown | 63 | 16 | discretionary 2, mandatory 4, revenue 57 |  |
+| Unknown | 66 | 19 | discretionary 2, mandatory 4, revenue 60 |  |
 
 No row is modeled as a supplemental, emergency or advance appropriation: nothing in the ledger or its notes says any is (CONVENTIONS.md, section 4). The vehicle of a bill is its ledger rail; of a revenue or option row, the reconciliation package that `models/data/inputs/votes-bills.csv` assigns it to, where it does.
 
@@ -38,7 +38,7 @@ No row is modeled as a supplemental, emergency or advance appropriation: nothing
 
 | Appropriation type | Rows |
 | --- | --- |
-| Direct spending provided by the law itself | 115 |
+| Direct spending provided by the law itself | 119 |
 | Unknown | 9 |
 | Authorized, subject to later appropriation | 8 |
 | Annual appropriation | 7 |
@@ -47,9 +47,9 @@ No row is modeled as a supplemental, emergency or advance appropriation: nothing
 
 | Budget authority | Rows |
 | --- | --- |
-| Equal to outlays (a benefit, entitlement or tax credit) | 86 |
+| Equal to outlays (a benefit, entitlement or tax credit) | 89 |
 | Derived from outlays at B2's discretionary spend-out rates (rough) | 24 |
-| Unknown | 15 |
+| Unknown | 16 |
 | Provided in full on enactment; amount not priced | 15 |
 | None (revenue, or no budget effect) | 2 |
 
@@ -61,14 +61,14 @@ Spending that budget authority out at the same rates does not give back the mode
 
 ## Unknown fields
 
-A field is `unknown` where the repository does not say. Nothing was guessed. For the 125 scored rows (and the 69 HOU-1 components):
+A field is `unknown` where the repository does not say. Nothing was guessed. For the 132 scored rows (and the 69 HOU-1 components):
 
 | Field | Unknown | Rows |
 | --- | --- | --- |
 | `category` | 0 | none |
-| `vehicle` | 16 | H1b, HX, IMM-EV, IF1T, G8, GX, CX, MR6, CXP, C5, C17, C19, C29, C33, C34, C36 |
+| `vehicle` | 19 | H1b, HX, IMM-EV, IF1T, G8, GX, CX, MR6, CXP, C5, C17, C19, C29, C33, C34, C36, C1T, C3A, CXA |
 | `appropriation` | 9 | EDU-4, LAB-8, DEM-17, NSC-10, SAF-10, MOV-29, MOV-30, C17, C34 |
-| `budget_authority` | 15 | EDU-1, CLI-5, CLI-7, HOU-1, LAB-9, CLI-7C, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, CLI-2O, C29, C33 |
+| `budget_authority` | 16 | EDU-1, CLI-5, CLI-7, HOU-1, LAB-9, CLI-7C, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, CLI-2O, C29, C33, CLI-10 |
 | `start` | 0 | none |
 | `ramp` | 0 | none |
 | `indexation` | 0 | none |
@@ -84,8 +84,8 @@ The model always has a growth index and an end year (or none) for a scored row; 
 
 | Field | Stated | Model only | Stated for |
 | --- | --- | --- | --- |
-| `indexation_basis` | 9 | 185 | FAM-1, FAM-2, EDU-3, EDU-5, SS-1, DEM-11, CAP-7, C35, FAM-1/benefit |
-| `expiry_basis` | 27 | 167 | CLI-5, LAB-5, DEM-17, MOV-29, MOV-30, MOV-31, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, HOU-1/hou-1d-04-one-time-start, HOU-1/hou-3c-01-revolving-fund-grants, HOU-1/hou-3c-02-construction-loan-subsidy, HOU-1/hou-5-01-public-housing-repair, HOU-1/hou-6-01-zoning-reward, HOU-1/hou-8-01-social-housing-pilot, HOU-1/hou-4-10-recovery-housing, HOU-1/hou-4-12-wider-backstop-to-2035, HOU-1/hou-4-06-testing-grants, HOU-1/hou-10-01-down-payment-help, HOU-1/hou-11-01-manufactured-home-grants, HOU-1/hou-12-01-home-repair-fund, HOU-1/hou-14-02-section-502-at-scale, HOU-1/hou-14-03-rural-rental-fund-and-vouchers, HOU-1/hou-14-04-self-help-and-farmworker |
+| `indexation_basis` | 9 | 192 | FAM-1, FAM-2, EDU-3, EDU-5, SS-1, DEM-11, CAP-7, C35, FAM-1/benefit |
+| `expiry_basis` | 28 | 173 | CLI-5, LAB-5, DEM-17, MOV-29, MOV-30, MOV-31, CLI-7N, CLI-5W, CLI-10G, CLI-7K, CLI-9, CLI-13F, CLI-10, HOU-1/hou-1d-04-one-time-start, HOU-1/hou-3c-01-revolving-fund-grants, HOU-1/hou-3c-02-construction-loan-subsidy, HOU-1/hou-5-01-public-housing-repair, HOU-1/hou-6-01-zoning-reward, HOU-1/hou-8-01-social-housing-pilot, HOU-1/hou-4-10-recovery-housing, HOU-1/hou-4-12-wider-backstop-to-2035, HOU-1/hou-4-06-testing-grants, HOU-1/hou-10-01-down-payment-help, HOU-1/hou-11-01-manufactured-home-grants, HOU-1/hou-12-01-home-repair-fund, HOU-1/hou-14-02-section-502-at-scale, HOU-1/hou-14-03-rural-rental-fund-and-vouchers, HOU-1/hou-14-04-self-help-and-farmworker |
 
 ## Each bill in its own CBO window
 
@@ -94,8 +94,8 @@ Budget choice 3 (DEC-2026-11-08-05, `ASM-BILL-WINDOW`): plan totals and the D4 t
 | Vehicle | Bills | Window | Over its window ($B) | Ten years after it ($B) | FY2029 unpriced |
 | --- | --- | --- | --- | --- | --- |
 | R1 | 12 | FY2029-2038 | 3214 | 3384 | FAM-1, MOV-29 |
-| R2 | 26 | FY2030-2039 | 4903 | 6186 | none |
-| R3 | 5 | FY2031-2040 | 491 | 483 | none |
+| R2 | 30 | FY2030-2039 | 5134 | 6775 | none |
+| R3 | 5 | FY2031-2040 | 625 | 483 | none |
 | FLOOR | 30 | FY2029-2038, FY2030-2039 | 23516 | 64928 | none |
 | APPROPS | 7 | FY2029-2038, FY2030-2039 | 525 | 817 | none |
 
@@ -117,11 +117,15 @@ The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill f
 | MOV-29 | R1 | FY2029-2038 | 257.0 | 0.0 (FY2029 unpriced) |
 | AI-9 | R2 | FY2030-2039 | 20.0 | 28.9 |
 | CLI-1 | R2 | FY2030-2039 | 756.6 | 742.5 |
+| CLI-10 | R2 | FY2030-2039 | 60.0 | 0.0 |
 | CLI-10G | R2 | FY2030-2039 | 39.4 | 0.0 |
+| CLI-11 | R2 | FY2030-2039 | 14.0 | 8.5 |
 | CLI-13A | R2 | FY2030-2039 | 30.8 | 38.3 |
 | CLI-13F | R2 | FY2030-2039 | 24.6 | 0.0 |
 | CLI-2 | R2 | FY2030-2039 | 0.0 | 0.0 |
 | CLI-2O | R2 | FY2030-2039 | -91.5 | -101.6 |
+| CLI-3A | R2 | FY2030-2039 | 157.0 | 470.1 |
+| CLI-5H | R2 | FY2030-2039 | 0.0 | 109.9 |
 | CLI-5L | R2 | FY2030-2039 | 7.2 | 20.2 |
 | CLI-5W | R2 | FY2030-2039 | 84.0 | 0.0 |
 | CLI-7C | R2 | FY2030-2039 | 3.4 | 4.6 |
@@ -142,12 +146,12 @@ The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill f
 | LAB-9 | R2 | FY2030-2039 | 120.0 | 199.1 |
 | NSC-10 | R2 | FY2030-2039 | 70.0 | 110.5 |
 | AI-4 | R3 | FY2031-2040 | 229.5 | 362.0 |
-| CLI-5 | R3 | FY2031-2040 | 125.4 | 68.9 |
+| CLI-5 | R3 | FY2031-2040 | 260.2 | 68.9 |
 | DEM-17 | R3 | FY2031-2040 | 26.2 | 0.0 |
 | MOV-30 | R3 | FY2031-2040 | 74.3 | 0.0 |
 | SAF-10 | R3 | FY2031-2040 | 35.3 | 52.4 |
 
-Not assigned to a bill, in the decided program (scenario DEC): 29 rows (base revenue, the decided options and later-Congress bills: DEM-3, DEM-4, MOV-31, G1, H1b, HX, IMM-EV, IF1T, G3, G11, G5, G6, G7, G8, G9, G10, GX, CX, MR6, CXP, C18, C19b, C38, C20, C35, C39, C40, C41, C43), a deficit effect of -11.62 trillion dollars over FY2029-38 and -13.55 trillion over FY2030-39 (negative: revenue and savings). The declined options are left out.
+Not assigned to a bill, in the decided program (scenario DEC): 32 rows (base revenue, the decided options and later-Congress bills: DEM-3, DEM-4, MOV-31, G1, H1b, HX, IMM-EV, IF1T, G3, G11, G5, G6, G7, G8, G9, G10, GX, CX, MR6, CXP, C18, C19b, C38, C20, C35, C39, C40, C41, C43, C1T, C3A, CXA), a deficit effect of -11.86 trillion dollars over FY2029-38 and -13.84 trillion over FY2030-39 (negative: revenue and savings). The declined options are left out.
 
 ## Where the files disagree
 

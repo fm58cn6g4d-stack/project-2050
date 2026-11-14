@@ -23,8 +23,8 @@ class LedgerPrecision(unittest.TestCase):
         # 10.58 until the CX and MR6 offsets took JCT's 24.4% rate in place of 25% (DEC-2026-11-12-08);
         # 10.6 until the immigration booking added E-Verify's on-budget revenue (IMM-EV, +0.0233) and the H-1B
         # fee's tax offset (IF1T, -0.0037) as base-revenue rows (immigration review step 5)
-        self.assertEqual(money_sum(values), 10.62)
-        self.assertEqual(money_sum(reversed(values)), 10.62)
+        self.assertEqual(money_sum(values), 10.91)
+        self.assertEqual(money_sum(reversed(values)), 10.91)
 
 
 if __name__ == '__main__':

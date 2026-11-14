@@ -29,7 +29,7 @@ bill,SS-1,,out_social_security,,1,special_ss,,,,,"D8 package: net -$4.74T in win
 bill,CLI-1,,out_other_mandatory,,1,gdp,,0.8,0.04,,Clean-energy credits; scale down as deployment saturates after 2039 (estimate)
 bill,CLI-2,,out_other_mandatory,,1,gdp,,,,yes,Dividend is paid from the carbon fee; its 20% remainder funds CLI-5 (counted there)
 bill,CLI-3,,out_disc_nondefense,,2,gdp,,,,,
-bill,CLI-5,,out_other_mandatory,,3,gdp,,0.3,,,"Net of fee and border revenue; capital-heavy, so most ends with the window (estimate)"
+bill,CLI-5,,out_other_mandatory,,3,gdp,,0.14752,,,"Net of fee and border revenue; year shape in fiscal-years.csv (clean power booking: the booked base plus memo 1 B's lost transition share); perm fitted so FY2040 is the booked base's, as the add-ons end with the window"
 bill,CLI-6,,out_other_mandatory,,1,gdp,,,,,
 bill,CLI-7,,out_other_mandatory,,1,gdp,,,,,
 bill,HOU-1,,out_other_mandatory,,2,gdp,,0.55,,,Component paths in fiscal-components.csv book dossiers/home/6-cost.md section 1.2 line by line (housing fix step 7); aggregate columns retained for reference
@@ -80,7 +80,7 @@ base revenue,G8,,rev_individual,,3,rev_individual,,,,,Enforcement yield builds a
 base revenue,G9,,rev_individual,,1,rev_individual,,,,,
 base revenue,G10,,rev_other,,1,gdp,,,,,
 base revenue,GX,,rev_individual,,1,rev_individual,,,,,
-base revenue,CX,,rev_individual,,1,gdp,,,,,"Excise offset on the carbon, border and methane fees; shape follows their receipts (fiscal-years.csv)"
+base revenue,CX,,rev_individual,,1,gdp,,0.980337,,,"Excise offset on the carbon, border and methane fees; shape follows their receipts (fiscal-years.csv); perm fitted so FY2040 is the booked offset under memo 1 B (clean power booking)"
 base revenue,MR6,,rev_individual,,1,gdp,,,,,"Excise offset on Moving America's new excises; shape follows their receipts (fiscal-years.csv), as CX"
 base revenue,HX,,rev_individual,,1,out_medicare_net,,1.000129,,,"Ending the employer tax exclusion as groups move (HLT-7.22); shape from the dossier's path (fiscal-years.csv); grows with premiums after 2039 (CBO's Medicare category, as C19b); perm fitted so FY2040 is the path's $966B after part 6's federal-coverage correction ($1,043B before)"
 option,C18,revenue,rev_individual,,1,rev_individual,,,,,
@@ -122,3 +122,10 @@ bill,CLI-4E,,out_other_mandatory,2030,1,cpi,,,,,Statutory zero-direct-outlay row
 bill,CLI-4H,,out_other_mandatory,2032,1,cpi,,,,,Statutory zero-direct-outlay row.
 base revenue,IMM-EV,,rev_individual,,1,gdp,,1.002393,,,"E-Verify on-budget revenue: shape from the dossier's path (fiscal-years.csv); perm fitted so FY2040 is the path's $-4.1B, then GDP (immigration booking)"
 base revenue,IF1T,,rev_individual,,1,gdp,,0.981049,,,"H-1B fee offset: shape from the dossier's path (fiscal-years.csv); perm fitted so FY2040 is the path's $0.5B, then GDP (immigration booking)"
+bill,CLI-10,,out_other_mandatory,,1,gdp,,0.0,,,"Time-limited capital (D4-B): shape in fiscal-years.csv, none after FY2039 (clean power booking)"
+bill,CLI-5H,,out_other_mandatory,2040,1,cpi,,,,,"Nothing in FY2030-39 (inside CLI-5); from FY2040 fiscal-after.csv, then CPI (clean power booking)"
+bill,CLI-11,,out_other_mandatory,,1,gdp,,0.797989,,,"Shape in fiscal-years.csv; perm fitted so FY2040 is the path's $0.7B, then GDP (clean power booking)"
+bill,CLI-3A,,out_other_mandatory,,1,gdp,,1.168862,,,"Equal to C3A: shape in fiscal-years.csv; perm fitted so FY2040 is the energy model's $39.8B, then GDP (clean power booking)"
+base revenue,C1T,,rev_individual,2040,1,gdp,,,,,"Nothing in FY2030-39; from FY2040 fiscal-after.csv, then GDP (DEC-2026-11-13-13; clean power booking)"
+base revenue,C3A,,rev_individual,,1,gdp,,1.168862,,,"The standard's payments: shape in fiscal-years.csv; perm fitted so FY2040 is the energy model's $39.8B, then GDP (clean power booking)"
+base revenue,CXA,,rev_individual,,1,gdp,,1.168862,,,24.4% offset on C3A: shape in fiscal-years.csv; perm as C3A (clean power booking)
