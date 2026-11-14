@@ -86,3 +86,69 @@ def run(over=None):
 if __name__ == "__main__":
     for r in run():
         print(r)
+
+
+MER_MONTHLY = {"gen": "m4-eia-mer-t07-02b-generation-power-sector.txt", "cost": "m4-eia-mer-t09-09-fossil-fuel-cost-power-plants.txt",
+               "co2": "m4-eia-mer-t11-06-power-co2.txt", "stock": "m4-eia-mer-t06-03-coal-stocks.txt"}
+
+
+def mer_series(slug, msn):
+    """{(year, month): value} for one Monthly Energy Review series saved as EIA's CSV text (annual rows, month 13, left out)."""
+    out = {}
+    for line in open(os.path.join(TEXT, slug), encoding="utf-8"):
+        if line.startswith(f'"{msn}","'):
+            p = line.split('","')
+            if p[1][-2:] != "13":
+                try:
+                    out[(int(p[1][:4]), int(p[1][4:6]))] = float(p[2])
+                except ValueError:
+                    pass
+    return out
+
+
+def monthly(over=None, years=range(2019, 2025)):
+    """HI-2: the engine's dispatch month by month on measured monthly generation and fuel prices (each month at an annual rate,
+    on that year's fleet), against measured monthly coal and gas power CO2. Returns rows with the gap and the gas-to-coal price ratio."""
+    ser = lambda f, k: mer_series(MER_MONTHLY[f], k)
+    G = {k: ser("gen", k) for k in ("ELEGPUS", "CLEGPUS", "NGEGPUS", "NUEGPUS", "WYEGPUS", "SOEGPUS")}
+    C = {k: ser("cost", k) for k in ("CLERDUS", "NGERDUS")}
+    E = {k: ser("co2", k) for k in ("CLEIEUS", "NNEIEUS")}
+    ST = ser("stock", "CLEKPUS")
+    ann = {r["year"]: r for r in inputs()}
+    rows = []
+    for y in years:
+        for mo in range(1, 13):
+            k, f = (y, mo), 12 / 1000                     # a month's GWh at an annual rate in TWh
+            tot, nuc, wind, sol = (G[s][k] * f for s in ("ELEGPUS", "NUEGPUS", "WYEGPUS", "SOEGPUS"))
+            coal, gas = G["CLEGPUS"][k] * f, G["NGEGPUS"][k] * f
+            S = dict(ann[y]["S"], windE=wind, solE=sol, nuc=nuc / (0.92 * 8.76))
+            w = dict(hydroOther=tot - nuc - wind - sol - coal - gas, coalPower=C["CLERDUS"][k], gasPower=C["NGERDUS"][k])
+            w.update(over or {})
+            rows.append(dict(year=y, month=mo, G=tot, S=S, world=w, meas=(E["CLEIEUS"][k] + E["NNEIEUS"][k]) * 12, stock=ST.get(k)))
+    with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as fh:
+        json.dump([dict(year=r["year"], G=r["G"], S=r["S"], world=r["world"]) for r in rows], fh)
+    try:
+        out = json.loads(subprocess.run(["node", os.path.join(HERE, "history.js"), fh.name], check=True, capture_output=True, text=True).stdout)
+    finally:
+        os.unlink(fh.name)
+    return [dict(year=r["year"], month=r["month"], model_co2=round(o["co2"] / 12, 2), measured_co2=round(r["meas"] / 12, 2),
+                 gap_pct=round(100 * (o["co2"] / r["meas"] - 1), 2), gas_coal_ratio=round(r["world"]["gasPower"] / r["world"]["coalPower"], 3),
+                 coal_stock_mt=round(r["stock"] / 1000, 1) if r["stock"] else None) for r, o in zip(rows, out)]
+
+
+def fit(xs, y):
+    """Least squares of y on a constant and the columns xs; returns (coefficients, R squared)."""
+    X = [[1.0] + list(r) for r in zip(*xs)]
+    k = len(X[0])
+    M = [[sum(a[i] * a[j] for a in X) for j in range(k)] + [sum(a[i] * v for a, v in zip(X, y))] for i in range(k)]
+    for c in range(k):
+        p = max(range(c, k), key=lambda r: abs(M[r][c]))
+        M[c], M[p] = M[p], M[c]
+        for r in range(k):
+            if r != c:
+                f = M[r][c] / M[c][c]
+                M[r] = [a - f * b for a, b in zip(M[r], M[c])]
+    b = [M[i][k] / M[i][i] for i in range(k)]
+    mean = sum(y) / len(y)
+    res = sum((v - sum(bj * xj for bj, xj in zip(b, a))) ** 2 for a, v in zip(X, y))
+    return b, 1 - res / sum((v - mean) ** 2 for v in y)
