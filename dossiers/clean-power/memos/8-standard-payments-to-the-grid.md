@@ -41,7 +41,7 @@ The standard asks for 80% clean power by 2035 and 100% by 2040. On the energy mo
 
 ## Limits
 
-- The builder's strength is a labeled assumption in the engine (`grid_standby_scale`; $12 billion a year at full strength). The payments ($93-163 billion) roughly match the extra build B needs, but no run ties the build to the payments year by year. I've asked M4 whether such a run can be made.
+- The builder's strength is a labeled assumption in the engine (`grid_standby_scale`; $12 billion a year at full strength). The payments ($93-163 billion) roughly match the extra build B needs, but no run ties the build to the payments year by year; M4 has been asked whether one can be made.
 - The model's near-term power cuts lean high (HI-1; `6-cost.md`, part 6, 1a). The grid lever works through wind and solar access, so the comparison between runs is less exposed than the levels.
 
 ## Consequences if B
