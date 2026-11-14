@@ -130,7 +130,13 @@ const CFD = (() => {
     const inc = Math.max(P, y <= (S.q45End || 2035) + 12 ? w.q45 : 0); // capture incentive per stored ton (fee avoided or 45Q, not both); 45Q pays for 12 years
     const t = [];
     const lam = S.cesL || 0; // Clean Energy Standard: a fossil MWh needs credits it must buy ($/MWh)
-    const add = (k, gw, hr, fuel, ef, vom, avail, extra) => { if (gw > 0.01) t.push({ k, gw: gw * avail, hr, ef: hr * ef, vc: hr * fuel + vom + P * hr * ef + lam + (extra || 0) }); };
+    // Project 2050 M4 (HI-1): plants pay different delivered fuel prices by region and contract. fuelSpread = { coal, gas } is the
+    // standard deviation of that price as a share of the national average; each tranche splits into five equal parts at the
+    // quintile means of a normal spread. 0 (the default) keeps the original single national price.
+    const FS = w.fuelSpread || { coal: 0, gas: 0 }, QZ = [-1.4, -0.53, 0, 0.53, 1.4];
+    const add = (k, gw, hr, fuel, ef, vom, avail, extra) => { if (gw <= 0.01) return; const sd = k === 'coal' ? (FS.coal || 0) : (FS.gas || 0);
+      if (!sd) { t.push({ k, gw: gw * avail, hr, ef: hr * ef, vc: hr * fuel + vom + P * hr * ef + lam + (extra || 0) }); return; }
+      QZ.forEach(z => t.push({ k, gw: gw * avail / QZ.length, hr, ef: hr * ef, vc: hr * fuel * Math.max(0.2, 1 + sd * z) + vom + P * hr * ef + lam + (extra || 0) })); };
     add('coal', S.coal * 0.3, 9.8, w.coalPower, EF.coal, w.coalVom, 0.8); add('coal', S.coal * 0.4, 10.5, w.coalPower, EF.coal, w.coalVom, 0.8); add('coal', S.coal * 0.3, 11.6, w.coalPower, EF.coal, w.coalVom, 0.8);
     add('cc', S.cc * 0.35, 6.5, w.gasPower, EF.gas, 2.1, 0.87); add('cc', S.cc * 0.4, 7.0, w.gasPower, EF.gas, 2.1, 0.87); add('cc', S.cc * 0.25, 7.7, w.gasPower, EF.gas, 2.1, 0.87);
     add('ct', S.ct * 0.5, 10.0, w.gasPower, EF.gas, 5, 0.9); add('ct', S.ct * 0.5, 11.5, w.gasPower, EF.gas, 5, 0.9);

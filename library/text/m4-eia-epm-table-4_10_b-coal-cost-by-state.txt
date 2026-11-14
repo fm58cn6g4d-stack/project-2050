@@ -1,0 +1,683 @@
+Source: https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_4_10_b
+Publisher: U.S. Energy Information Administration
+Retrieved: 2026-11-14
+Original SHA-256: e9e1b19844ead01298ff2a0a1efc54a13e2ed9ad335db84390848619641b110c
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Electric Power Monthly - U.S. Energy Information Administration (EIA)
+See all Reports
+Electric Power Monthly
+Data for August 2026
+Release Date:
+October 23, 2026
+Next Release Date:
+November 24, 2026
+Go
+Back
+Previous Issues
+SAS Output
+Table 4.10.B. Average Cost of Coal Delivered for Electricity Generation by State, (Year-to-Date) August 2026 and 2025
+(Dollars per MMBtu)
+Census Division
+and State
+Electric Power Sector
+Electric Utilities
+Independent Power Producers
+August 2026 YTD
+August 2025 YTD
+Percentage Change
+August 2026 YTD
+August 2025 YTD
+August 2026 YTD
+August 2025 YTD
+New England
+W
+W
+W
+--
+--
+W
+W
+Connecticut
+--
+--
+--
+--
+--
+--
+--
+Maine
+W
+W
+W
+--
+--
+W
+W
+Massachusetts
+--
+--
+--
+--
+--
+--
+--
+New Hampshire
+--
+--
+--
+--
+--
+--
+--
+Rhode Island
+--
+--
+--
+--
+--
+--
+--
+Vermont
+--
+--
+--
+--
+--
+--
+--
+Middle Atlantic
+2.83
+2.52
+12%
+3.21
+--
+2.82
+2.52
+New Jersey
+--
+--
+--
+--
+--
+--
+--
+New York
+--
+--
+--
+--
+--
+--
+--
+Pennsylvania
+2.83
+2.52
+12%
+3.21
+--
+2.82
+2.52
+East North Central
+2.31
+2.31
+0.0%
+2.52
+2.53
+1.96
+1.95
+Illinois
+1.67
+1.66
+0.6%
+1.75
+1.76
+1.64
+1.63
+Indiana
+W
+W
+W
+2.81
+2.80
+W
+W
+Michigan
+W
+W
+W
+2.51
+2.39
+W
+W
+Ohio
+2.25
+2.26
+-0.4%
+2.47
+2.80
+2.20
+2.18
+Wisconsin
+2.46
+2.58
+-4.7%
+2.46
+2.58
+--
+--
+West North Central
+1.87
+1.84
+1.6%
+1.87
+1.84
+--
+--
+Iowa
+1.74
+1.78
+-2.2%
+1.74
+1.78
+--
+--
+Kansas
+1.68
+1.61
+4.3%
+1.68
+1.61
+--
+--
+Minnesota
+2.49
+2.42
+2.9%
+2.49
+2.42
+--
+--
+Missouri
+2.00
+1.92
+4.2%
+2.00
+1.92
+--
+--
+Nebraska
+1.25
+1.29
+-3.1%
+1.25
+1.29
+--
+--
+North Dakota
+1.96
+1.95
+0.5%
+1.96
+1.95
+--
+--
+South Dakota
+2.63
+2.39
+10%
+2.63
+2.39
+--
+--
+South Atlantic
+3.32
+3.43
+-3.2%
+3.36
+3.47
+2.84
+2.78
+Delaware
+--
+--
+--
+--
+--
+--
+--
+District of Columbia
+--
+--
+--
+--
+--
+--
+--
+Florida
+3.39
+3.59
+-5.6%
+3.39
+3.59
+--
+--
+Georgia
+3.36
+3.62
+-7.2%
+3.36
+3.62
+--
+--
+Maryland
+W
+W
+W
+--
+--
+W
+W
+North Carolina
+4.23
+4.31
+-1.9%
+4.23
+4.31
+--
+--
+South Carolina
+3.82
+3.59
+6.4%
+3.82
+3.59
+--
+--
+Virginia
+4.61
+4.54
+1.5%
+4.61
+4.54
+--
+--
+West Virginia
+W
+2.81
+W
+2.66
+2.88
+W
+2.28
+East South Central
+W
+W
+W
+2.49
+2.38
+W
+W
+Alabama
+2.42
+2.53
+-4.3%
+2.42
+2.53
+--
+--
+Kentucky
+2.46
+2.27
+8.4%
+2.46
+2.27
+--
+--
+Mississippi
+W
+W
+W
+3.07
+2.94
+W
+W
+Tennessee
+2.69
+2.75
+-2.2%
+2.69
+2.75
+--
+--
+West South Central
+2.04
+2.04
+0.0%
+2.08
+2.04
+2.00
+2.05
+Arkansas
+W
+W
+W
+2.20
+2.20
+W
+W
+Louisiana
+2.26
+W
+W
+2.26
+2.55
+--
+W
+Oklahoma
+2.24
+1.94
+15%
+2.24
+1.94
+--
+--
+Texas
+1.95
+1.93
+1.0%
+1.92
+1.85
+1.97
+1.97
+Mountain
+W
+W
+W
+2.82
+2.65
+W
+W
+Arizona
+3.52
+3.27
+7.6%
+3.52
+3.27
+--
+--
+Colorado
+2.42
+2.17
+12%
+2.42
+2.17
+--
+--
+Idaho
+--
+--
+--
+--
+--
+--
+--
+Montana
+W
+W
+W
+--
+--
+W
+W
+Nevada
+W
+W
+W
+--
+5.64
+W
+W
+New Mexico
+3.60
+3.58
+0.6%
+3.60
+3.58
+--
+--
+Utah
+3.74
+3.58
+4.5%
+3.74
+3.58
+--
+--
+Wyoming
+W
+W
+W
+1.64
+1.75
+W
+W
+Pacific Contiguous
+--
+W
+W
+--
+--
+--
+W
+California
+--
+--
+--
+--
+--
+--
+--
+Oregon
+--
+--
+--
+--
+--
+--
+--
+Washington
+--
+W
+W
+--
+--
+--
+W
+Pacific Noncontiguous
+4.41
+4.37
+0.9%
+4.41
+4.37
+--
+--
+Alaska
+4.41
+4.37
+0.9%
+4.41
+4.37
+--
+--
+Hawaii
+--
+--
+--
+--
+--
+--
+--
+U.S. Total
+2.44
+2.42
+0.8%
+2.51
+2.50
+2.18
+2.14
+NM = Not meaningful due to large relative standard error or excessive percentage change.
+W = Withheld to avoid disclosure of individual company data.
+Notes:
+See Glossary for definitions. Values for 2025 are final. Values for 2026 are preliminary.
+See Technical Notes for a discussion of the sample design for the Form EIA-923.
+Totals may not equal sum of components because of independent rounding. Percentage change is calculated before rounding.
+Coal includes anthracite, bituminous, subbituminous, lignite, waste coal, and coal-derived synthesis gas.
+Source: U.S. Energy Information Administration, Form EIA-923, "Power Plant Operations Report."
+Statistics
+Analysis
+Tools
+Education
+News
+Petroleum & Other Liquids
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+Natural Gas
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+Electricity
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+Coal
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+Nuclear & Uranium
+Uranium fuel, nuclear reactors, generation, spent fuel.
+Renewable & Alternative Fuels
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Total Energy
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+Monthly Energy Review
+Annual Energy Review
+Consumption & Efficiency
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+Residential Energy Consumption Survey (RECS)
+Commercial Buildings Energy Consumption Survey (CBECS)
+Manufacturing Energy Consumption Survey (MECS)
+U.S. States
+State energy information, including overviews, rankings, data, and analyses.
+State Energy Data System (SEDS)
+International
+International energy information, including overviews, rankings, data, and analyses.
+International Energy Statistics
+Environment
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+U.S. Energy-Related Carbon Dioxide Emissions
+Energy-Related Carbon Dioxide Emissions at the State Level, 2005-2016
+Energy-Related Carbon Dioxide Emissions at the State Level
+Analysis and Projections
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+Short-Term Energy Outlook
+Annual Energy Outlook
+Special Reports
+Special market analysis and/or data requests.
+EIA-112 Residential Utility Disconnections
+SHIP Act
+Energy & Financial Markets: What Drives Crude Oil Prices?
+International
+International energy analyses.
+Regional Analysis Briefs
+Country Analysis Briefs
+World Oil Transit Chokepoints
+OPEC Revenue
+Global Energy Security Data
+Glossary
+Data Tools, Apps, & Maps
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+Open Data
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+EIA Beta
+Come test out some of the products still in development and let us know what you think!
+Open Source Code
+EIA's open source code, available on GitHub.
+All Reports & Products
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Email Updates
+Sign up for email subscriptions to receive messages about specific EIA products
+RSS Feeds
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+Follow us. . .
+A-Z Index
+A |
+B |
+C |
+D |
+E |
+F |
+G |
+H |
+I |
+J |
+K |
+L |
+M |
+N |
+O |
+P |
+Q |
+R |
+S |
+T |
+U |
+V |
+W |
+XYZ
+Today in Energy
+Short, timely articles with graphics on energy, facts, issues, and trends.
+Energy Explained
+What is Energy?
+Units & Calculators
+U.S. Energy Facts
+Use of Energy
+Energy & Environment
+Petroleum
+Hydrocarbon Gas Liquids
+Natural Gas
+Coal
+Nuclear
+Electricity
+Hydrogen
+Hydropower
+Biofuels
+Biomass
+Wind
+Geothermal
+Solar
+For Teachers
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+Glossary
+FAQs
+Coal
+Conversion & Equivalents
+Oil/Petroleum
+Diesel
+Electricity
+Environment
+Gasoline
+General Energy
+Natural Gas
+Nuclear
+Prices
+Renewables
+What's New?
+Monthly Densified Biomass Fuel Report
+Nov 12, 2026
+Wholesale Electricity Market Data
+Nov 12, 2026
+Short-Term Energy Outlook
+Nov 10, 2026
+Press Room
+Press Releases
+Congressional Testimony
+Presentations
+Events

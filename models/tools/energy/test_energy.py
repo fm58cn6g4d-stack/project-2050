@@ -101,6 +101,18 @@ ok("history: runs 11 years, total fossil generation within 2% of measured each y
    len(H) == 11 and all(abs((h["model_coal_twh"] + h["model_gas_twh"]) / (h["measured_coal_twh"] + h["measured_gas_twh"]) - 1) < 0.02 for h in H))
 ok("HI-1 is computed, not pending", B["HI-1"]["result"] in ("pass", "fail"), B["HI-1"]["model"])
 
+# --- the regional fuel price spread: traced to EIA's state tables; the 2025 calibration holds with it
+sp = data.fuel_spread()
+ctab = data._state_col(data.FUEL_SPREAD_SRC["coal"][0])
+ok("fuel spread: Nebraska's and Virginia's 2025 coal prices read from the saved EIA table", ctab.get("Nebraska") == 1.29 and ctab.get("Virginia") == 4.54, str((ctab.get("Nebraska"), ctab.get("Virginia"))))
+ok("fuel spread: coal 20-40% and gas 10-30% of the average price, and the model uses it", 0.2 <= sp["coal"] <= 0.4 and 0.1 <= sp["gas"] <= 0.3 and all(abs(m.WORLD["fuelSpread"][k] - sp[k] * m.a("fuel_spread_mult")) < 1e-3 for k in sp), str(sp))
+cal = json.loads(subprocess.run(["node", "-e", """
+const M = require(process.argv[1]); const w = Object.assign(M.world(), JSON.parse(process.argv[2])); const r = M.simulate({ permitYear: null }, w)[0];
+console.log(JSON.stringify({ coal: r.gen.coal, power: r.power }));""", os.path.join(HERE, "engine", "cfd-model.js"),
+    json.dumps({k: m.WORLD[k] for k in ("fuelSpread", "coalVom", "emCal")})], capture_output=True, text=True).stdout)
+ok("2025 calibration with the spread: coal output 750 TWh and power CO2 1,485 Mt, within 0.5%", abs(cal["coal"] / 749.8 - 1) < 0.005 and abs(cal["power"] / 1484.6 - 1) < 0.005, f"{cal['coal']:.0f} TWh, {cal['power']:.0f} Mt")
+ok("HI-1: the spread narrows the history gap against one national price", B["HI-1"]["result"] == "pass" or float(B["HI-1"]["model"].split("average gap ")[1].split("%")[0]) < 9.1, B["HI-1"]["model"])
+
 # --- Espen's EPS runs of the plan's settings (EP-1, EP-2)
 ep = data.eps_p2050()
 ok("EPS runs: both runs start at the current-policies 2025 total", ep["run1_price"][2025] == ep["run2_package"][2025] == data.eps_runs()["current_policies"][2025])

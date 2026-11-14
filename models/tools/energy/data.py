@@ -102,3 +102,37 @@ def eps_p2050():
         for k in out:
             out[k][int(r["year"])] = float(r[k])
     return out
+
+
+FUEL_SPREAD_SRC = {"coal": ("m4-eia-epm-table-4_10_b-coal-cost-by-state.txt", "m4-eia-epm-table-4_6_b-coal-receipts-by-state.txt"),
+                   "gas": ("m4-eia-epm-table-4_13_b-gas-cost-by-state.txt", "m4-eia-epm-table-4_9_b-gas-receipts-by-state.txt")}
+DIVISIONS = {"New England", "Middle Atlantic", "East North Central", "West North Central", "South Atlantic", "East South Central",
+             "West South Central", "Mountain", "Pacific Contiguous", "Pacific Noncontiguous", "U.S. Total"}
+
+
+def _state_col(slug, k=2):
+    """{state: value} from an Electric Power Monthly table by state saved one cell per line: the k-th cell after the state's
+    name (k=2 is the electric power sector's earlier year-to-date column in tables 4.6.B to 4.13.B). Withheld cells are skipped."""
+    L = [l.strip() for l in open(os.path.join(TEXT, slug), encoding="utf-8").read().split("\n---\n", 1)[1].splitlines()]
+    out = {}
+    for i, x in enumerate(L):
+        if re.fullmatch(r"[A-Z][a-zA-Z .]+", x) and x not in DIVISIONS and i + k < len(L):
+            try:
+                out[x] = float(L[i + k].replace(",", ""))
+            except ValueError:
+                pass
+    return out
+
+
+def fuel_spread():
+    """Spread of the delivered price of coal and of gas across states, weighted by the power sector's receipts: the standard
+    deviation as a share of the weighted mean (Electric Power Monthly tables 4.6.B, 4.9.B, 4.10.B and 4.13.B, January-August 2025).
+    States EIA withholds are left out, and plants within a state pay different prices too, so this understates the spread."""
+    out = {}
+    for fuel, (cost, qty) in FUEL_SPREAD_SRC.items():
+        C, Q = _state_col(cost), _state_col(qty)
+        ks = [s for s in C if s in Q and Q[s] > 0]
+        W = sum(Q[s] for s in ks)
+        m = sum(Q[s] * C[s] for s in ks) / W
+        out[fuel] = round((sum(Q[s] * (C[s] - m) ** 2 for s in ks) / W) ** 0.5 / m, 3)
+    return out
