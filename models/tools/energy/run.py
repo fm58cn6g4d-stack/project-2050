@@ -201,6 +201,12 @@ def benchmarks(E, ACC, HH):
     gaps = [r["gap_pct"] for r in fitrows]
     (_, b1), r2p = history.fit([lr], gaps)
     (_, _, b2), r2b = history.fit([lr, deficit], gaps)
+    # damped switching (coalDamp), tested, not adopted
+    lamD = m.a("coal_damp"); HD = dict(HW, coalDamp=lamD)
+    hd = history.run(HD); md = [r for r in history.monthly(HD) if (r["year"], r["month"]) != (2021, 2)]
+    hd_mae = sum(abs(h["gap_pct"]) for h in hd) / len(hd); md_mae = sum(abs(r["gap_pct"]) for r in md) / len(md)
+    md_cheap = [r["gap_pct"] for r in md if r["gas_coal_ratio"] < 1.2]; md_dear = [r["gap_pct"] for r in md if r["gas_coal_ratio"] > 2.0]
+    el0, elD = history.gas_elasticity(HW), history.gas_elasticity(HD)
     cheap = [r for r in fitrows if r["gas_coal_ratio"] < 1.2]
     dear = [r for r in fitrows if r["gas_coal_ratio"] > 2.0]
     avg = lambda rs: sum(r["gap_pct"] for r in rs) / len(rs)
@@ -208,7 +214,8 @@ def benchmarks(E, ACC, HH):
         model=f"average gap {mae:.1f}%; largest {worst['gap_pct']:+.1f}% ({worst['year']}); {mae_rest:.1f}% leaving out 2021-22", target="EIA, Monthly Energy Review table 11.6",
         tol="average absolute gap 5% or less, and every year within 10%", result="pass" if mae <= 5 and abs(worst["gap_pct"]) <= 10 else "fail",
         why=f"Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once (average gap {mae0:.1f}%). The dispatch now splits each block of plants by the spread of fuel prices EIA measures across states ({sp0['coal']:.0%} of the average price for coal, {sp0['gas']:.0%} for gas; SRC-5058 to SRC-5061) times a labeled calibration of {m.a('fuel_spread_mult'):.1f} (assumptions.csv, fuel_spread_mult). That roughly halves the gap but does not close it. "
-            f"An earlier version left out 2021-22 for the coal shortage EIA documents (SRC-5062, SRC-5063). The monthly run (HI-2) does not support that: the same over-response appears, in the other direction, in months when stockpiles were full, and the stockpile adds nothing once prices are counted. So every year is scored, and the check fails. The engine still switches between coal and gas too readily when prices move; a carbon price works through the same switch, so its near-term power cut leans high (EP-1, EP-3). The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built.")
+            f"An earlier version left out 2021-22 for the coal shortage EIA documents (SRC-5062, SRC-5063). The monthly run (HI-2) does not support that: the same over-response appears, in the other direction, in months when stockpiles were full, and the stockpile adds nothing once prices are counted. So every year is scored, and the check fails. The engine still switches between coal and gas too readily when prices move; a carbon price works through the same switch, so its near-term power cut leans high (EP-1, EP-3). The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built. "
+            f"**Damped switching, tested and not adopted** (`coalDamp` {lamD:.1f}, assumptions.csv `coal_damp`): letting plants move only {lamD:.0%} of the way from last period's dispatch toward this period's narrows the yearly gap to {hd_mae:.1f}% (still a fail) and the monthly gap to {md_mae:.1f}%, but only on the cheap-gas side ({sum(md_cheap) / len(md_cheap):+.1f}% in those months; {sum(md_dear) / len(md_dear):+.1f}% when gas is dear, nearly unchanged). It also cuts the engine's short-run elasticity of coal-and-gas CO2 to the gas price from {el0:.2f} to {elD:.2f}; the published estimates the M4 research noted (Knittel, Metaxoglou and Trindade, NBER w21627, 2015) are to be checked before any damping is adopted. The remaining gap sits mostly in 2021-22, the dear-gas, short-coal months, where a lag cannot help.")
     add(id="HI-2", what="History run by month, power sector, 2019-2024: the engine's dispatch on each month's measured generation and fuel prices (at an annual rate, on that year's fleet), against EIA's measured monthly coal and gas power CO2 (SRC-5057, SRC-5064 to SRC-5066)",
         model=f"average monthly gap {mo_mae:.1f}%; {avg(cheap):+.1f}% in months with gas under 1.2 times coal's price ({len(cheap)} months), {avg(dear):+.1f}% with gas over 2 times ({len(dear)} months)",
         target="EIA, Monthly Energy Review tables 7.2b, 9.9, 11.6 and 6.3", tol="reported (diagnostic)", result="reported",

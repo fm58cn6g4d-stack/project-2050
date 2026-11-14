@@ -161,7 +161,17 @@ const CFD = (() => {
     const fixed = ((coal ? R.capexCoal : R.capexGas) * w.fcr + (coal ? R.fomCoal : R.fomGas)) / (0.7 * 8.76);
     return gain - fixed;
   }
+  // Project 2050 M4 (HI-1, HI-2): damped coal-gas switching. Plants move only part of the way, coalDamp (null: off, the original), from
+  // the dispatch their reference prices would give (w.dampRef: last period's fuel prices and carbon price) toward this period's.
+  // Partial adjustment, as in Knittel, Metaxoglou and Trindade (NBER w21627, 2015); prices, margins and capacity come from this period's dispatch.
   function dispatch(S, G, P, w, y) {
+    const d = dispatch0(S, G, P, w, y), lam = w.coalDamp, ref = w.dampRef;
+    if (lam === null || lam === undefined || !ref) return d;
+    const r = dispatch0(S, G, ref.P === undefined ? P : ref.P, Object.assign({}, w, { coalPower: ref.coalPower, gasPower: ref.gasPower }), y), gen = {};
+    for (const k of new Set([...Object.keys(d.gen), ...Object.keys(r.gen)])) gen[k] = (r.gen[k] || 0) + lam * ((d.gen[k] || 0) - (r.gen[k] || 0));
+    return Object.assign({}, d, { gen, emis: r.emis + lam * (d.emis - r.emis), h2Mt: r.h2Mt + lam * (d.h2Mt - r.h2Mt), coalCF: S.coal > 0.5 ? (gen.coal || 0) / (S.coal * 8.76) : 0 });
+  }
+  function dispatch0(S, G, P, w, y) {
     const windE = S.windE, solE = S.solE, nucE = S.nuc * w.cf.nuc * 8.76;
     const storE = S.storE || S.stor * 4, dur = storE / S.stor, storShift = storE * 0.365, stC = Math.min(0.85, 0.6 + 0.05 * (dur - 4)); // TWh/yr shifted; longer batteries shift more and count for more at the peak
     const vs = (windE + solE) / G, thr = 0.42 + w.pmCurt * (S.phi || 0) + w.gpCurt * (S.gp || 0) + w.gsCurt * (S.gs || 0) + Math.min(Math.min(0.2, 0.13 * dur / 4), 3 * storShift / G);
