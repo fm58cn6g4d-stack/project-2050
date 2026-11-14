@@ -93,7 +93,7 @@
   "DEC+FY29.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC+FY29: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 8.95
+   "value": 8.96
   },
   "DEC+FY29.gf_worst": {
    "kind": "pct2",
@@ -153,7 +153,7 @@
   "DEC-CAUT.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC-CAUT: debt held by the public, % of GDP, FY2056",
-   "value": 479.2
+   "value": 479.5
   },
   "DEC-CAUT.envelope_room": {
    "kind": "tn2",
@@ -168,7 +168,7 @@
   "DEC-CAUT.gf_worst": {
    "kind": "pct2",
    "label": "DEC-CAUT: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 13.97
+   "value": 13.98
   },
   "DEC-CAUT.interest_pct.2056": {
    "kind": "pct1",
@@ -223,7 +223,7 @@
   "DEC-R1.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC-R1: debt held by the public, % of GDP, FY2056",
-   "value": 429.1
+   "value": 429.2
   },
   "DEC-R1.envelope_room": {
    "kind": "tn2",
@@ -233,7 +233,7 @@
   "DEC-R1.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC-R1: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 9.58
+   "value": 9.59
   },
   "DEC-R1.gf_worst": {
    "kind": "pct2",
@@ -268,7 +268,7 @@
   "DEC.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 8.95
+   "value": 8.96
   },
   "DEC.gf_worst": {
    "kind": "pct2",
@@ -288,7 +288,7 @@
   "GROSS.debt_pct.2039": {
    "kind": "pct1",
    "label": "GROSS: debt held by the public, % of GDP, FY2039",
-   "value": 179.2
+   "value": 179.3
   },
   "GROSS.debt_pct.2056": {
    "kind": "pct1",
@@ -308,7 +308,7 @@
   "GROSS.gf_worst": {
    "kind": "pct2",
    "label": "GROSS: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 10.21
+   "value": 10.22
   },
   "GROSS.interest_pct.2056": {
    "kind": "pct1",
@@ -328,7 +328,7 @@
   "PB+S.debt_pct.2056": {
    "kind": "pct1",
    "label": "PB+S: debt held by the public, % of GDP, FY2056",
-   "value": 375.2
+   "value": 375.3
   },
   "PB+S.envelope_room": {
    "kind": "tn2",
@@ -338,7 +338,7 @@
   "PB+S.fiscal_gap": {
    "kind": "pct2",
    "label": "PB+S: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 9.12
+   "value": 9.13
   },
   "PB+S.gf_worst": {
    "kind": "pct2",
@@ -510,7 +510,7 @@
   "DEC+TRIMS.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC+TRIMS: debt held by the public, % of GDP, FY2056",
-   "value": 367.0
+   "value": 367.1
   },
   "DEC+TRIMS.envelope_room": {
    "kind": "tn2",
@@ -520,7 +520,7 @@
   "DEC+TRIMS.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC+TRIMS: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 8.84
+   "value": 8.85
   },
   "DEC+TRIMS.gf_worst": {
    "kind": "pct2",
@@ -545,7 +545,7 @@
   "DEC-CAUT.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC-CAUT: debt held by the public, % of GDP, FY2056",
-   "value": 479.3
+   "value": 479.5
   },
   "DEC-CAUT.envelope_room": {
    "kind": "tn2",
@@ -560,7 +560,7 @@
   "DEC-CAUT.gf_worst": {
    "kind": "pct2",
    "label": "DEC-CAUT: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 13.98
+   "value": 13.99
   },
   "DEC-CAUT.interest_pct.2056": {
    "kind": "pct1",
@@ -580,7 +580,7 @@
   "DEC-DYN.debt_pct.2056": {
    "kind": "pct1",
    "label": "DEC-DYN: debt held by the public, % of GDP, FY2056",
-   "value": 373.4
+   "value": 373.5
   },
   "DEC-DYN.envelope_room": {
    "kind": "tn2",
@@ -625,7 +625,7 @@
   "DEC-R1.fiscal_gap": {
    "kind": "pct2",
    "label": "DEC-R1: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 9.58
+   "value": 9.59
   },
   "DEC-R1.gf_worst": {
    "kind": "pct2",
@@ -700,7 +700,7 @@
   "GROSS.gf_worst": {
    "kind": "pct2",
    "label": "GROSS: D4 test 1, general-fund balance in its worst year, % of GDP",
-   "value": 10.21
+   "value": 10.22
   },
   "GROSS.interest_pct.2056": {
    "kind": "pct1",
@@ -730,7 +730,7 @@
   "PB+S.fiscal_gap": {
    "kind": "pct2",
    "label": "PB+S: fiscal gap, % of GDP (hold the 2029 debt ratio)",
-   "value": 9.12
+   "value": 9.13
   },
   "PB+S.gf_worst": {
    "kind": "pct2",

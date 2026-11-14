@@ -11,7 +11,7 @@ Package A (with the approved $150-by-2037 price) plus the core and fuller disast
 | Item | Account | D4 class | 2030-39 | FY2040 | FY2050 |
 | --- | --- | --- | --- | --- | --- |
 | Credit redesign (standard-led, with snap-back), ledger terms; industrial support excluded | general fund | permanent | -354 / -266 / -179 / -179 | -70 / -53 / -35 / -35 | +0 / +0 / +0 / +0 |
-| Income and payroll tax offset (CX, 25%) on the added REV-C1 receipts | general fund | permanent | +25 / +25 / +25 / +25 | -0 / -0 / -0 / -0 | +0 / +0 / +0 / +0 |
+| Income and payroll tax offset (CX, 24.4%) on the added REV-C1 receipts | general fund | permanent | +25 / +25 / +25 / +25 | -0 / -0 / -0 / -0 | +0 / +0 / +0 / +0 |
 | Bill protection for low- and moderate-income households (while the increase lasts) | general fund | permanent | +7 / +7 / +7 / +8 | +2 / +2 / +2 / +2 | +1 / +2 / +2 / +2 |
 | Disaster permanent pieces: D2, D3, D6, D7 and D8 | general fund | permanent | +41 / +78 / +78 / +135 | +5 / +9 / +9 / +16 | +6 / +12 / +12 / +20 |
 | CLI-7C reinsurance facility, expected net cost (decided Oct 27; $75-150B contingent liability disclosed, not scored) | general fund | permanent | -3 / +3 / +3 / +11 | -0 / +0 / +0 / +1 | -1 / +1 / +1 / +2 |
@@ -43,7 +43,7 @@ Each option applies to the package's increment over the decided package (the $15
 | Option | General fund 2030-39 | FY2040 | FY2050 | Dividend change per unit, 2030-39 average | Dividend change per unit, 2050 |
 | --- | --- | --- | --- | --- | --- |
 | **O1**: D7 as is: every added dollar splits 80/20; the general fund pays CX and any channel shortfall | -151 / +78 / +166 / +378 | -49 / -17 / +0 / +19 | +9 / +18 / +18 / +33 | +0 / +0 / +0 / +0 / +0 | +0 / +0 / +0 / +0 / +0 |
-| **O2**: CX recapture: 25% of the added receipts go to the general fund; the dividend keeps 55% of the increment | -176 / +53 / +141 / +352 | -48 / -17 / +1 / +19 | +9 / +18 / +18 / +32 | -12 / -16 / -18 / -20 / -22 | -1 / -1 / -1 / -1 / -2 |
+| **O2**: CX recapture: 24.4% of the added receipts go to the general fund; the dividend keeps 55.6% of the increment | -176 / +53 / +141 / +352 | -48 / -17 / +1 / +19 | +9 / +18 / +18 / +32 | -12 / -16 / -18 / -20 / -22 | -1 / -1 / -1 / -1 / -2 |
 | **O3**: Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund | -347 / -117 / -30 / +182 | -80 / -48 / -31 / -13 | -35 / -26 / -26 / -12 | -93 / -121 / -143 / -157 / -171 | -208 / -272 / -321 / -353 / -385 |
 | **O5**: Process fee pays the package's net cost: each year process receipts cover the package's remaining general-fund cost (carbon-channel shortfall and general-fund items); the rest follows D7 | -209 / +20 / +95 / +234 | -49 / -17 / +0 / +0 | +0 / +0 / +0 / +0 | -28 / -36 / -43 / -47 / -51 | -86 / -112 / -132 / -146 / -159 |
 
@@ -142,6 +142,6 @@ Source hashes (SHA-256):
 - `build/carbon-config.json`: `58715c14990e8839db0f801d79a733ba2b890b709a2414193f42cfc8c12f4608`
 - `models/tools/climate-portfolio/packages.py`: `def50a0e88ec62caafe4a5499e63d469196076247bc8cd2140f10182524f6f06`
 - `models/tools/climate-portfolio/packages.json`: `3dba81388e5663010c2f685e549f9b03ff343c13d72ba13cedc00e03aa42957e`
-- `models/tools/climate-portfolio/pricing.py`: `fb17bf9dcd9fac37009459cc8ddf2a9698676fa3ebcd9391a29670a7a64a2e08`
+- `models/tools/climate-portfolio/pricing.py`: `1aa9a57abf65d6ffcad8a09e578c98adaf7f662cc6c431a20342fa9018113039`
 - `models/tools/climate-portfolio/pricing.json`: `45ce8b9b39c96b0de1b16e28100fa613d2218d6d9b73a125a28b8caadb3a3693`
 - `models/data/inputs/excise-offset.csv`: `8cc362a5d923b38517a704cfe767364da99bb14871aec80a30ded64c8b337141`

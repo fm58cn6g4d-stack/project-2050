@@ -6,7 +6,7 @@ Generated from models/data/inputs/ by models/tools/run-all.sh Â· Espen Swanson Â
 
 One row per bill or title in the agenda, keyed by its domain-file ID (HLT-1, CLI-5, IMM-1 ...), with the old ledger ID kept in a crosswalk column. Channel revenue is shown at gross and never netted against general-fund outlays; the gap comes from the general-fund column alone. legacy/index/options-register.md lists every option once, with the ones that exclude or overlap each other. The decisions behind these figures are in legacy/governing/project-2050-governing-decisions.md and the decision briefs.
 
-**Bottom line.** The agenda asks the general fund for about $37.94T net over 2030-39 ($38.40T of outlays less $0.46T of savings) against $10.89T from the top-end base: a gap of **$27.05T** at the midpoint. **D4 is decided (Decision Brief 2, Oct 20): the fiscal-arc rule, D4-B.** Permanent programs are paid for at maturity (FY2040 and every later year); time-limited investments may be borrowed for inside an envelope of 0.5% of GDP to 2034, tapering to zero by 2040 (about $1.6T); guardrails are measured against the real baseline. The accepted revenue (Package B, the sprint package C38, and C39-C41: TS12, HP1, HP3) is $3.21T, and the accepted borrowing lines (C21, C30-C32, C37 and C42, CAP-7S's rebuild surge) are $1.30T, inside the envelope. That leaves **$22.54T** over ten years still to close, so the ten-year general-fund deficit is the envelope borrowing plus that remainder; legacy/index/fiscal-long-term-model.md tests whether the run rate is covered from 2040. **No program trims are taken** (C5, C17, C33, C34 and C36 declined). Alternatives (C19 to C19b, C29 to C37) are listed but not summed. The range is $29.86T to $48.08T of claims and a gap of $18.15T to $39.72T (a stress bound). **D2 is decided: graduated cloture (F)**, adopted in week one of 2029, with the talking filibuster (C) as the opening offer and the carve-out (G) as the fallback. The legacy fixed-duration crosswalk reports **172 Senate floor days under F against 163** (166 under majority cloture, E; 213 under C).
+**Bottom line.** The agenda asks the general fund for about $37.94T net over 2030-39 ($38.40T of outlays less $0.46T of savings) against $10.89T from the top-end base: a gap of **$27.05T** at the midpoint. **D4 is decided (Decision Brief 2, Oct 20): the fiscal-arc rule, D4-B.** Permanent programs are paid for at maturity (FY2040 and every later year); time-limited investments may be borrowed for inside an envelope of 0.5% of GDP to 2034, tapering to zero by 2040 (about $1.6T); guardrails are measured against the real baseline. The accepted revenue (Package B, the sprint package C38, and C39-C41: TS12, HP1, HP3) is $3.21T, and the accepted borrowing lines (C21, C30-C32, C37 and C42, CAP-7S's rebuild surge) are $1.30T, inside the envelope. That leaves **$22.54T** over ten years still to close, so the ten-year general-fund deficit is the envelope borrowing plus that remainder; legacy/index/fiscal-long-term-model.md tests whether the run rate is covered from 2040. **No program trims are taken** (C5, C17, C33, C34 and C36 declined). Alternatives (C19 to C19b, C29 to C37) are listed but not summed. The range is $29.86T to $48.09T of claims and a gap of $18.15T to $39.73T (a stress bound). **D2 is decided: graduated cloture (F)**, adopted in week one of 2029, with the talking filibuster (C) as the opening offer and the carve-out (G) as the fallback. The legacy fixed-duration crosswalk reports **172 Senate floor days under F against 163** (166 under majority cloture, E; 213 under C).
 
 All dollar figures are ten-year totals for 2030-39 in trillions. "Estimate" means Claude's estimate where no doc or score exists; "proposal" means an author's figure sized against current programs, not a score. Legacy crosswalk only: reconciliation was charged 15 days plus 2 for its resolution; 163 was an assumed net budget. Neither is a validated current capacity estimate. Use legacy/index/calendar-scenarios.md for the current method.
 
@@ -26,7 +26,7 @@ All dollar figures are ten-year totals for 2030-39 in trillions. "Estimate" mean
 | --- | --- | --- | --- | --- | --- |
 | Health | 11 | 23.64 | 28.52 | 34.58 | 8 |
 | Family | 9 | 3.13 | 4.01 | 5.04 | 0 |
-| Climate | 23 | 0.46 | 1.52 | 2.55 | 14 |
+| Climate | 24 | 0.47 | 1.53 | 2.56 | 14 |
 | Capacity | 3 | 0.80 | 1.06 | 1.34 | 2 |
 | Education | 6 | 0.64 | 0.93 | 1.24 | 0 |
 | Housing | 2 | 0.54 | 0.69 | 0.92 | 3 |
@@ -43,7 +43,7 @@ All dollar figures are ten-year totals for 2030-39 in trillions. "Estimate" mean
 | Integrity | 1 | 0.00 | 0.00 | 0.00 | 1 |
 | Executive power | 1 | 0.00 | 0.00 | 0.00 | 6 |
 | Rights | 2 | 0.00 | 0.00 | 0.02 | 7 |
-| **Total** | | **29.86** | **37.94** | **48.08** | **115** (+51 for R1-R3) |
+| **Total** | | **29.86** | **37.94** | **48.09** | **115** (+51 for R1-R3) |
 
 ## Channels at gross
 
@@ -80,12 +80,12 @@ Two consequences for the rest of the agenda: the third reconciliation bill is no
 | Vehicle | Rows | General-fund net ($T) | Floor days |
 | --- | --- | --- | --- |
 | Reconciliation I (FY2029 resolution, February preferred, March latest) | 12 | 3.52 | 17 |
-| Reconciliation II (FY2030 resolution, summer 2029) | 30 | 4.98 | 17 |
+| Reconciliation II (FY2030 resolution, summer 2029) | 31 | 4.98 | 17 |
 | Regular order (needs majority cloture) | 30 | 28.30 | 115 |
 | Annual appropriations | 7 | 0.53 | 0 |
 | Reconciliation III (FY2031 resolution, summer 2030) | 5 | 0.62 | 17 |
 
-R2 is the heaviest vehicle (30 rows, about $5.0T): it carries housing, the labor credits, national service, the journalism credit, veterans health and five education rows (EDU-1, EDU-3, EDU-4, EDU-5, EDU-7) beside health upgrades, child care, leave, the clean-energy credits and the dividend. If R1 is lost (D5), its contents move here too. The Talarico stress test suggests universal meals (EDU-3) would be felt sooner on R1, but R2 now targets summer 2029; actual 2030-31 service delivery still requires a separate implementation path.
+R2 is the heaviest vehicle (31 rows, about $5.0T): it carries housing, the labor credits, national service, the journalism credit, veterans health and five education rows (EDU-1, EDU-3, EDU-4, EDU-5, EDU-7) beside health upgrades, child care, leave, the clean-energy credits and the dividend. If R1 is lost (D5), its contents move here too. The Talarico stress test suggests universal meals (EDU-3) would be felt sooner on R1, but R2 now targets summer 2029; actual 2030-31 service delivery still requires a separate implementation path.
 
 ## Options still open
 
@@ -180,6 +180,7 @@ There are 21 contested regular-order bills (EDU-6 is proposed to ride CAP-8 and 
 | CLI-3E | CLI-3E |
 | CLI-4E | CLI-4E |
 | CLI-4H | CLI-4H |
+| CLI-4R | CLI-4R |
 | CLI-5H | CLI-5H |
 | CLI-5L | CLI-5L |
 | CLI-5W | CLI-5W |
@@ -395,6 +396,7 @@ Gross outlays and own revenue are shown separately; the three general-fund colum
 | CLI-5H | CLI-5H | The automatic energy bill credit (memo 5 B, CLI-5H.01), permanent from FY2040 | R2 | General fund | 0.00 (0.00-0.00) |  | 0.000 | 0.000 | 0.000 | 0 | Unverified | 55 | estimate | Inside CLI-5's energy line through FY2039; from FY2040 about $8B a year above today's LIHEAP in 2030 dollars, grown 2.2% (fiscal-after.csv, $9.9B in FY2040). Paid first from the transition share (CLI-2A.04), which is general-fund revenue from FY2040 (C1T). clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py) | dossiers/clean-power/6-cost.md |
 | CLI-11 | CLI-11 | The transition guarantee for workers and places (memo 7 B, CLI-11), on Espen's parameters | R2 | General fund | 0.01 (0.01-0.04) |  | 0.014 | 0.006 | 0.040 | 0 | Unverified | 60 | estimate | Bottom-up on judgment inputs; closures early as coal closes by 2035 on the energy model. Paid first from the transition share (CLI-2A.04), so CLI-5's financing falls by the same amount; booked on the general fund, the same net. clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py) | dossiers/clean-power/6-cost.md |
 | CLI-3A | CLI-3A | The standard's capped payments: no pay-out (CLI-3A.02; DEC-2026-11-14-02) | R2 | General fund | 0.00 (0.00-0.00) |  | 0.000 | 0.000 | 0.000 | 0 | Unverified | 55 | estimate | DEC-2026-11-14-02 (amending memo 9 B): all of the standard's payments are general-fund receipts (C3A); no bill top-up and no grid account; grid build-out is CLI-10's. clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py) | dossiers/clean-power/6-cost.md |
+| CLI-4R | CLI-4R | The retrofit credit (memo 8 D, CLI-4R.01): 45Q on top of the carbon price for retrofits begun by 2039 | R2 | General fund | 0.00 (0.00-0.01) |  | 0.003 | 0.003 | 0.012 | 0 | Unverified | 55 | estimate | DEC-2026-11-14-01. The energy model's case retro1_rcredit (research-based limits, 75% capture) is the central case: about $2.6B over FY2030-39 and $1.6B in FY2040 (nominal fiscal years); the high end is retro_hi_rcredit (90% capture, twice the limits): about $12B and $6.0B. The low end is the central case (no lower case is modeled). The credit runs 12 years a retrofit, so it continues after FY2039. The small dip in carbon-price receipts (about $1-2B over FY2030-39) is not booked. clean power booking (dossiers/clean-power/6-cost.md part 6; clean_power_booking.py) | dossiers/clean-power/6-cost.md |
 
 ## Revenue menu
 

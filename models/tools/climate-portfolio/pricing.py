@@ -57,6 +57,7 @@ def main():
     pr = json.loads((HERE / 'pricing.json').read_text())
     import sys; sys.path.insert(0, str(ROOT / 'models/tools')); from inputs import offset_rate  # noqa: E402
     pr['channel']['cx_share'] = offset_rate(2030)   # the adopted income and payroll tax offset (excise-offset.csv; DEC-2026-11-12-08), one home for the rate
+    PAY_OPTIONS['O2'] = PAY_OPTIONS['O2'].format(cx=100 * pr['channel']['cx_share'], div=100 * (pr['channel']['dividend_share'] - pr['channel']['cx_share']))   # the adopted offset, not 25%
     pk = json.loads((HERE / 'packages.json').read_text())
     pa = json.loads((HERE / 'assumptions.json').read_text())
     cfg = json.loads((ROOT / 'build/carbon-config.json').read_text())
@@ -136,7 +137,7 @@ def main():
                           path={k: {y: fn(k, y) * defl(y) for y in YEARS} for k in CASES}))
     item('credits', 'Credit redesign (standard-led, with snap-back), ledger terms; industrial support excluded', 'general fund', 'permanent',
          lambda k, y: d_cred[y] * scale * SAVE[k])
-    item('cx', 'Income and payroll tax offset (CX, 25%) on the added REV-C1 receipts', 'general fund', 'permanent',
+    item('cx', f"Income and payroll tax offset (CX, {100 * ch['cx_share']:.1f}%) on the added REV-C1 receipts", 'general fund', 'permanent',
          lambda k, y: ch['cx_share'] * d_rev[y])
     item('bill', 'Bill protection for low- and moderate-income households (while the increase lasts)', 'general fund', 'permanent',
          lambda k, y: (max(0.0, (rr[y]['retail'] - rd[y]['retail']) / 100 * pa['residential_kwh_month'] * 12) * bp['households_m'][COST[k]] / 1000) if y >= bp['years'][0] else 0.0)
@@ -222,7 +223,7 @@ def main():
 
 PAY_OPTIONS = {
     'O1': 'D7 as is: every added dollar splits 80/20; the general fund pays CX and any channel shortfall',
-    'O2': 'CX recapture: 25% of the added receipts go to the general fund; the dividend keeps 55% of the increment',
+    'O2': 'CX recapture: {cx:.1f}% of the added receipts go to the general fund; the dividend keeps {div:.1f}% of the increment',
     'O3': 'Process fee outside the dividend (like REV-C3): process receipts fund the carbon channel first, any surplus to the general fund',
     'O5': "Process fee pays the package's net cost: each year process receipts cover the package's remaining general-fund cost "
           "(carbon-channel shortfall and general-fund items); the rest follows D7",

@@ -22,6 +22,8 @@ What is booked (central path, $ billion by federal fiscal year; a cost positive)
 - Memo 7 B: CLI-11, the transition guarantee, on the energy model's closure timing.
 - DEC-2026-11-13-13 (option A): from FY2040 the 20% transition share is general-fund revenue (C1T); its waterfall's
   draws are CLI-5H and CLI-11, booked on the general fund.
+- Memo 8 D (DEC-2026-11-14-01): CLI-4R, the retrofit credit, on the energy model's case retro1_rcredit (high end
+  retro_hi_rcredit, the ledger's high), nominal fiscal years as for the standard's payments.
 - The clean standard's capped payments (CLI-3A.02; DEC-2026-11-14-02, amending memo 9 B): Treasury's receipts (C3A)
   and JCT's 24.4% offset on them (CXA), since the payment is a new fee (DEC-2026-11-12-08, part 4). All of the
   payments are general-fund receipts: CLI-3A pays out nothing (no bill top-up, no grid account), and grid build-out
@@ -103,6 +105,16 @@ def energy_acp():
     return {y: -float(p[str(y)]) for y in FY}, permit
 
 
+def energy_retrofit():
+    """Memo 8 D (DEC-2026-11-14-01): the retrofit credit's path, nominal $ billion by fiscal year (a cost positive).
+    results.json's CLI-4R.01 (case retro1_rcredit, the central case) and CLI-4R.01-hi (retro_hi_rcredit, the high end)
+    are the engine's 45Q on retrofits in 2025 dollars times the carbon parameters' inflation, calendar year y booked
+    as fiscal year y: the convention energy_acp() already uses for CLI-3A.02."""
+    p = json.load(open(os.path.join(ROOT, "models", "tools", "energy", "results.json")))["provisions"]
+    return ({y: float(p["CLI-4R.01"]["by_year"][str(y)]) for y in FY},
+            {y: float(p["CLI-4R.01-hi"]["by_year"][str(y)]) for y in FY})
+
+
 def booking():
     P = path_module().compute()
     F = fiscal()
@@ -170,14 +182,25 @@ def booking():
     ledger["CLI-3A"] = (0.0, 0.0, 0.0)
     kept = {y: acp[y] for y in FY}
 
+    # Memo 8 D: the retrofit credit, central case with the high case as the disclosed range. The small dip in the
+    # carbon price's receipts (about $1-2B over 2030-39) is not booked: C1 here is the dossier's path, not a model case
+    rq, rq_hi = energy_retrofit()
+    years["CLI-4R"] = window(rq)
+    mid4 = r(sum(years["CLI-4R"]) / 1000, 3)
+    # the ledger keeps a bill to $1 billion ($3B for the path's $2.6B), and the model scales the year shape to it;
+    # the perm is fitted on the scaled FY2039 so that FY2040 is the model path's own $1.6B
+    perms["CLI-4R"] = perm_for(F, B, rq[2039] * mid4 * 1000 / sum(years["CLI-4R"]), rq[2040], "gdp")
+    ledger["CLI-4R"] = (mid4, mid4, r(sum(window(rq_hi)) / 1000, 3))
+
     tn = lambda d: sum(d.get(y, 0.0) for y in W) / 1000  # noqa: E731
     totals = dict(change_window=tn(P["change"]), change_fy2040=P["change"][2040],
                   acp_offset_window=OFFSET * mid, acp_offset_fy2040=OFFSET * acp[2040],
                   acp_kept_window=mid, acp_kept_fy2040=kept[2040],
-                  c1_window=c1[1], cx_window=revenue["CX"][1], transition_fy2040=P["ts"][2040])
+                  cli4r_window=sum(rq[y] for y in W), cli4r_ledger_window=mid4 * 1000, cli4r_fy2040=rq[2040], cli4r_hi_window=sum(rq_hi[y] for y in W),
+                  cli4r_hi_fy2040=rq_hi[2040], c1_window=c1[1], cx_window=revenue["CX"][1], transition_fy2040=P["ts"][2040])
     fy2040 = dict(CX=cx[2040], **{"CLI-5": base[2040] + delta[2040]}, **{"CLI-10": 0.0},
                   **{"CLI-5H": P["bills"][2040], "CLI-11": P["g7"][2040], "C1T": P["ts"][2040],
-                     "C3A": acp[2040], "CLI-3A": 0.0, "CXA": -OFFSET * acp[2040]})
+                     "C3A": acp[2040], "CLI-3A": 0.0, "CXA": -OFFSET * acp[2040], "CLI-4R": rq[2040]})
     return dict(years=years, after=after, perms=perms, ledger=ledger, revenue=revenue,
                 legacy_gf_cli5=legacy_gf, fy2040=fy2040, totals=totals)
 

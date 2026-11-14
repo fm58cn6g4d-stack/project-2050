@@ -126,6 +126,7 @@ bill,CLI-10,,out_other_mandatory,,1,gdp,,0.0,,,"Time-limited capital (D4-B): sha
 bill,CLI-5H,,out_other_mandatory,2040,1,cpi,,,,,"Nothing in FY2030-39 (inside CLI-5); from FY2040 fiscal-after.csv, then CPI (clean power booking)"
 bill,CLI-11,,out_other_mandatory,,1,gdp,,0.797989,,,"Shape in fiscal-years.csv; perm fitted so FY2040 is the path's $0.7B, then GDP (clean power booking)"
 bill,CLI-3A,,out_other_mandatory,,1,gdp,,0.0,,,"Pays out nothing (DEC-2026-11-14-02): the standard's payments are all general-fund receipts (C3A); kept at zero so the provision stays visible (clean power booking)"
+bill,CLI-4R,,out_other_mandatory,,1,gdp,,1.057221,,,"Shape in fiscal-years.csv; perm fitted so FY2040 is the model path's $1.6B, then GDP (clean power booking)"
 base revenue,C1T,,rev_individual,2040,1,gdp,,,,,"Nothing in FY2030-39; from FY2040 fiscal-after.csv, then GDP (DEC-2026-11-13-13; clean power booking)"
 base revenue,C3A,,rev_individual,,1,gdp,,1.141671,,,"The standard's payments: shape in fiscal-years.csv; perm fitted so FY2040 is the energy model's $41.4B, then GDP (clean power booking)"
 base revenue,CXA,,rev_individual,,1,gdp,,1.141671,,,24.4% offset on C3A: shape in fiscal-years.csv; perm as C3A (clean power booking)

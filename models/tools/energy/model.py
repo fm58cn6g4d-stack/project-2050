@@ -194,7 +194,7 @@ def accounts(rows):
         out[y] = dict(c1=c1, c1p=c1p, c2=c2, c3=c3, acp=acp, offset=-OFFSET * (c1 + c1p + c2 + c3),
                       dividend=P["dividend_share"] * c1, transition=(1 - P["dividend_share"]) * c1,
                       per_adult=P["dividend_share"] * c1 * 1e9 / (adults * 1e6) if adults else 0.0,
-                      credits=r["credits"] * d, price=r["price"] * d)
+                      credits=r["credits"] * d, price=r["price"] * d, retro_q45=r.get("retroQ45", 0.0) * d)
     return out
 
 
