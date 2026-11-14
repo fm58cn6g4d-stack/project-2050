@@ -46,6 +46,9 @@ echo "== 6a. provision specs (budget B3)"; python3 -W ignore::ResourceWarning "$
 python3 "$TOOLS"/budget/provisions_report.py --ledger "$BUILD/ledger.json" --out "$BUILD/budget-provisions.md"
 echo "== 6b. carbon model";    (cd "$TOOLS"/carbon && node cfd-tests.js >/dev/null) || { echo "carbon model checks failed: run node models/tools/carbon/cfd-tests.js"; exit 1; }
                                 cp "$TOOLS"/carbon-model.py "$BUILD"/; python3 carbon-model.py
+echo "== 6b2. energy and climate model (MOD-energy: tests, then results)"
+python3 "$TOOLS"/energy/test_energy.py | tail -1
+python3 "$TOOLS"/energy/run.py --out "$BUILD/energy"
 echo "== 6c. dedicated funds";  cp "$TOOLS"/funds-model.py "$BUILD"/; python3 funds-model.py
 echo "== 6d. surge funding";  python3 "$TOOLS"/test_capacity_funding.py
                                cp "$TOOLS"/capacity-funding.py "$BUILD"/; python3 capacity-funding.py
@@ -100,6 +103,8 @@ OUT=(
   'budget-benchmarks.md|models/tools/budget/benchmarks.md'
   'budget-benchmarks.json|models/tools/budget/benchmarks.json'
   'budget-model-card.md|models/tools/budget/MODEL-CARD.md'
+  'energy/results.json|models/tools/energy/results.json'
+  'energy/results.md|models/tools/energy/results.md'
   'household/results.json|models/tools/household/results.json'
   'household/results.md|models/tools/household/results.md'
   'health-coverage/results.json|models/tools/health-coverage/results.json'
