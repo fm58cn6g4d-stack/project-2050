@@ -33,3 +33,4 @@ ccs_retrofit_derate_coal,0.307,0.276,0.338,"capacity lost to the capture system'
 ccs_retrofit_derate_gas,0.174,0.152,0.196,"capacity lost, combined cycle: EPA IPM Table 6-2 (SRC-5067)"
 ccs_retrofit_hr_coal,0.443,0.381,0.509,"heat-rate penalty, coal: EPA IPM Table 6-2 (SRC-5067)"
 ccs_retrofit_hr_gas,0.211,0.180,0.244,"heat-rate penalty, combined cycle: EPA IPM Table 6-2 (SRC-5067)"
+coal_damp,0.6,0.4,0.8,"diagnostic only, not in the plan's runs: the share of the way coal and gas generation move in a period from the dispatch at last period's prices toward this period's (partial adjustment, engine option coalDamp). Tested against HI-1 and HI-2 and the engine's own gas-price elasticity; not adopted because it lowers that elasticity further (results.md, HI-1)"

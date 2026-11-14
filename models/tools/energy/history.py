@@ -10,7 +10,7 @@ Labeled choices: fuel prices are EIA's nominal costs (not deflated: the effect o
 gas capacity is split into combined cycle and combustion turbines in the engine's 2025 proportion; battery capacity is
 EIA's "other energy sources" capacity, which is mostly batteries.
 """
-import json, os, re, subprocess, tempfile
+import json, math, os, re, subprocess, tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TEXT = os.path.normpath(os.path.join(HERE, "..", "..", "..", "library", "text"))
@@ -63,8 +63,9 @@ def run(over=None):
     """over: world settings to apply in every year (the energy model passes its fuel spread and 2025 calibration)."""
     rows = inputs()
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as fh:
-        for r in rows:
-            r["world"].update(over or {})
+        for i, r in enumerate(rows):
+            prev = rows[i - 1]["world"] if i else r["world"]       # damped switching's reference: last year's fuel prices (2015 has none earlier)
+            r["world"].update(over or {}, dampRef=dict(coalPower=prev["coalPower"], gasPower=prev["gasPower"]))
             r["S"]["nuc"] = r.pop("nuclear_twh") / (0.92 * 8.76)        # the engine's nuclear capacity factor, so its nuclear output is the measured one
         json.dump(rows, fh)
     try:
@@ -82,6 +83,27 @@ def run(over=None):
                         model_gas_twh=round(o["gas"], 1), measured_gas_twh=round(gen[y][3] / 1000, 1)))
     return res
 
+
+
+def gas_elasticity(over=None, years=(2019, 2023, 2024)):
+    """The engine's short-run elasticity of coal-and-gas power CO2 to the gas price (gas at 0.9 and 1.1 times measured, each listed
+    year's fleet), averaged over the years; with damping, the reference is the year's measured price."""
+    rows = []
+    for r in inputs():
+        if r["year"] not in years:
+            continue
+        r["S"]["nuc"] = r.pop("nuclear_twh") / (0.92 * 8.76)
+        base = dict(r["world"])
+        for f in (0.9, 1.1):
+            rows.append(dict(r, world=dict(base, **(over or {}), dampRef=dict(coalPower=base["coalPower"], gasPower=base["gasPower"]), gasPower=base["gasPower"] * f)))
+    with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as fh:
+        json.dump(rows, fh)
+    try:
+        out = json.loads(subprocess.run(["node", os.path.join(HERE, "history.js"), fh.name], check=True, capture_output=True, text=True).stdout)
+    finally:
+        os.unlink(fh.name)
+    el = [(math.log(out[i + 1]["co2"]) - math.log(out[i]["co2"])) / (math.log(1.1) - math.log(0.9)) for i in range(0, len(out), 2)]
+    return sum(el) / len(el)
 
 if __name__ == "__main__":
     for r in run():
@@ -122,8 +144,10 @@ def monthly(over=None, years=range(2019, 2025)):
             tot, nuc, wind, sol = (G[s][k] * f for s in ("ELEGPUS", "NUEGPUS", "WYEGPUS", "SOEGPUS"))
             coal, gas = G["CLEGPUS"][k] * f, G["NGEGPUS"][k] * f
             S = dict(ann[y]["S"], windE=wind, solE=sol, nuc=nuc / (0.92 * 8.76))
-            w = dict(hydroOther=tot - nuc - wind - sol - coal - gas, coalPower=C["CLERDUS"][k], gasPower=C["NGERDUS"][k])
-            w.update(over or {})
+            w = dict(hydroOther=tot - nuc - wind - sol - coal - gas, coalPower=C["CLERDUS"][k], gasPower=C["NGERDUS"][k],
+                     peakFactor=min(1.5, 1.5 * ann[y]["G"] / tot))   # a month's peak is no higher than the year's (the engine's peak is 1.5 times average load)
+            last12 = [((y * 12 + mo - 1 - j) // 12, (y * 12 + mo - 1 - j) % 12 + 1) for j in range(1, 13)]
+            w.update(over or {}, dampRef={f: sum(C[m][q] for q in last12) / 12 for f, m in (("coalPower", "CLERDUS"), ("gasPower", "NGERDUS"))})   # the past 12 months' prices
             rows.append(dict(year=y, month=mo, G=tot, S=S, world=w, meas=(E["CLEIEUS"][k] + E["NNEIEUS"][k]) * 12, stock=ST.get(k)))
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as fh:
         json.dump([dict(year=r["year"], G=r["G"], S=r["S"], world=r["world"]) for r in rows], fh)
