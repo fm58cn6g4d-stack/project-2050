@@ -122,7 +122,8 @@ def monthly(over=None, years=range(2019, 2025)):
             tot, nuc, wind, sol = (G[s][k] * f for s in ("ELEGPUS", "NUEGPUS", "WYEGPUS", "SOEGPUS"))
             coal, gas = G["CLEGPUS"][k] * f, G["NGEGPUS"][k] * f
             S = dict(ann[y]["S"], windE=wind, solE=sol, nuc=nuc / (0.92 * 8.76))
-            w = dict(hydroOther=tot - nuc - wind - sol - coal - gas, coalPower=C["CLERDUS"][k], gasPower=C["NGERDUS"][k])
+            w = dict(hydroOther=tot - nuc - wind - sol - coal - gas, coalPower=C["CLERDUS"][k], gasPower=C["NGERDUS"][k],
+                     peakFactor=min(1.5, 1.5 * ann[y]["G"] / tot))   # a month's peak is no higher than the year's (the engine's peak is 1.5 times average load)
             w.update(over or {})
             rows.append(dict(year=y, month=mo, G=tot, S=S, world=w, meas=(E["CLEIEUS"][k] + E["NNEIEUS"][k]) * 12, stock=ST.get(k)))
     with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as fh:
