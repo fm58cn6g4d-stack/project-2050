@@ -1,6 +1,6 @@
 # Clean, affordable power and a prepared country: delivery
 
-Role: section 5 of the clean power dossier. It says who runs each provision of `4-specification.md`, through which existing agency, records and payment system, what capacity that needs, the timeline from enactment to full operation, how people get remedies, what states do, and how the plan reaches rural places. Status: draft (step E-C2, PR 1), at L2, on `DEC-2026-11-13-06` and `DEC-2026-11-13-07`. It applies Espen's rule to use existing machinery first and simplify where a system or design is more complex than its purpose needs (`DEC-2026-11-13-08`), alongside the design lens (`DEC-2026-11-09-13`). Dates are working choices unless the provision fixes them.
+Role: section 5 of the clean power dossier. It says who runs each provision of `4-specification.md`, through which existing agency, records and payment system, what capacity that needs, the timeline from enactment to full operation, how people get remedies, what states do, and how the plan reaches rural places. Status: reviewed (L2), on `DEC-2026-11-13-06` and `DEC-2026-11-13-07`; L3 after the milestone review's fixes (this file carries them) and the booking. It applies Espen's rule to use existing machinery first and simplify where a system or design is more complex than its purpose needs (`DEC-2026-11-13-08`), alongside the design lens (`DEC-2026-11-09-13`). Dates are working choices unless the provision fixes them.
 
 ## 1. Who runs what, and through which existing system
 
@@ -8,11 +8,11 @@ Every job below runs through an agency, a set of records and a payment system th
 
 | Job | Agency | Existing machinery | What is new | Provisions |
 | --- | --- | --- | --- | --- |
-| Measuring covered emissions | EPA | Continuous emissions monitoring at power plants (40 CFR part 75) and the facility reporting program (40 CFR part 98), which already measure every covered source | A quarterly certified total per facility, sent to the IRS | REV-C1G.01, REV-C1P.01 |
-| Collecting the carbon price | Treasury (IRS) | The quarterly federal excise return (Form 720) and the excise tax staff | A new line on the return, priced on EPA's certified total | REV-C1A.01, REV-C1G.01 |
+| Measuring covered emissions | EPA | Continuous emissions monitoring at power plants (40 CFR part 75, reported quarterly) and the facility reporting program (40 CFR part 98, reported yearly by March 31), which already measure every covered source | Power plants' quarterly totals and industrial facilities' yearly totals, certified and sent to the IRS; R2 keeps both programs in force for every covered facility | REV-C1G.01, REV-C1P.01 |
+| Collecting the carbon price | Treasury (IRS) | The quarterly federal excise return (Form 720) and the excise tax staff; estimated-payment rules | A new line on the return: power plants on the quarter's certified total; industrial facilities on quarterly estimates from last year's report, settled on the annual report | REV-C1A.01, REV-C1G.01 |
 | The border adjustment | Treasury (CBP), with EPA | CBP's entry system and its existing duty collection; the EU border charge's product list and default values as the template | Default values by product and country; a verified-value claim; an export rebate claim on the drawback model | REV-C2.01 |
 | The methane fee | EPA | Sec. 136's waste emissions charge, its rule and reporting (subpart W) | Restored on the decided schedule, with the certification exemption | REV-C3.01 |
-| The Climate Dividend | Treasury (IRS and the Bureau of the Fiscal Service) | The child benefit's payment file and notice (FAM-1.09), built from the 2021 advance child credit and the 2020-21 economic impact payments; SSA, VA and Railroad Retirement payment records | A quarterly payment on the same file; the dividend account | CLI-2A.01 to .04 |
+| The Climate Dividend | Treasury (IRS and the Bureau of the Fiscal Service) | For the first payment, the 2020-21 economic impact payments' process: the latest return and SSA, VA and Railroad Retirement payment records [EV-CLP-056]. From then on, the child benefit's payment file and notice (FAM-1.09), built from the 2021 advance child credit and the same records | A one-time first payment, then a quarterly payment on the shared file; the dividend account | CLI-2A.01 to .04 |
 | Front doors for people outside the tax and benefit systems | SSA field offices, USDA Rural Development offices, IRS assistance centers, VITA sites | The child benefit's front doors (FAM-1.10) | One more line on the same confirmation | CLI-2A.02 |
 | The credits | Treasury (IRS) | Elective pay (sec. 6417) and transfer (sec. 6418) registration; the dealer transfer portal the IRS ran for the clean vehicle credits in 2024-25 | Turned back on, with the step-down dates and the trigger report | CLI-1A.01 to .04 |
 | Contracts for difference | DOE (Loan Programs Office) | The office's underwriting, credit review and portfolio monitoring, which booked losses of about 3% of disbursements [EV-CLP-427] | A contracts desk and independent emissions verification | CLI-9.01 |
@@ -24,13 +24,13 @@ Every job below runs through an agency, a set of records and a payment system th
 | Grid rules and large loads | FERC; state commissions | FERC's planning orders and enforcement; state rate cases | Transfer minimums; a large-load cost rule | CLI-6A.01 to .03 |
 | Grid money | DOE (Grid Deployment Office; Loan Programs Office) | The transmission facilitation program's capacity contracts and grants; LPO's lending | Two tranches, the second on milestones | CLI-10G.01, CLI-10.01 |
 | Builder of last resort | WAPA (DOE), TVA, Bonneville | WAPA's Transmission Infrastructure Program, which has authority to build and already lends for and partners on transmission; ERCOT's cost-of-service charge for lines inside Texas, where FERC has no rate jurisdiction; TVA's and Bonneville's construction and rate-setting | National reach for WAPA's program; higher borrowing limits | CLI-10.02, .03 |
-| The bill credit and bill protection | HHS (LIHEAP), through state LIHEAP offices | States' LIHEAP benefit tables and their vendor agreements, under which states already pay utilities and fuel vendors; SNAP enrollment the same states hold; SSI enrollment SSA already shares with states | A yearly match of last year's SNAP, SSI and LIHEAP rolls; payment without an application | CLI-5H.01, .02, CLI-5L.01 |
+| The bill credit and bill protection | HHS (LIHEAP), through state LIHEAP offices and tribal LIHEAP grantees | States' and tribes' LIHEAP benefit tables and their vendor agreements, under which they already pay utilities and fuel vendors; SNAP enrollment the states hold; FDPIR enrollment the tribal agencies hold; SSI enrollment SSA already shares with states | A yearly match of last year's SNAP, SSI, FDPIR and LIHEAP rolls; payment without an application; the standard's payments added to the sum | CLI-5H.01, .02, CLI-5L.01, CLI-3A.02 |
 | Heat pumps for low-income homes | DOE (Weatherization), through state agencies | The Weatherization network | Heat pumps as an allowed measure | CLI-5W.01 |
 | The add-ons | Treasury (IRS); USDA; DOE; EPA | Each component's existing program | As booked | CLI-5F.01 |
 | Disaster programs | FEMA; USDA (Forest Service) | Hazard mitigation grants; NFIP's policy system through its write-your-own insurers; the Forest Service's fuels program | A formula floor; premium help on the policy | CLI-7K.01, CLI-7.01, CLI-7N.01 |
 | The reinsurance facility | Treasury (Federal Insurance Office) | The terrorism risk insurance program's office, rules and recoupment machinery | A second program on the same model | CLI-7C.01 |
 | Codes condition | FEMA | FEMA's building code adoption tracking, which already counts adoption by jurisdiction | A three-year deadline tied to the aid | CLI-8.01 |
-| The transition guarantee | Labor (ETA); state unemployment agencies as Labor's agents | WARN notices; state quarterly wage records; unemployment benefit payment systems, which paid trade adjustment's wage insurance the same way | One file per closure from the employer and its contractors; a monthly top-up | CLI-11.01 to .03, .05 |
+| The transition guarantee | Labor (ETA); state unemployment agencies as Labor's agents | WARN notices and their plant-closing and mass-layoff definitions; state quarterly wage records; unemployment benefit payment systems, which paid trade adjustment's wage insurance the same way | One file per closure: the owner's notice lists its site contractors, and each files its site payroll within 30 days; a monthly top-up | CLI-11.01 to .03, .05 |
 | The pension bridge | PBGC, for Treasury | PBGC's actuarial and benefit systems | Reimbursing a plan's early-retirement waiver | CLI-11.04 |
 | Tax-base replacement | Interior (PILT office), for Treasury | The payments-in-lieu-of-taxes system that already pays counties every year | A second payment line, on the state's certified figures | CLI-11.06 |
 | Plant refinancing | Treasury (Federal Financing Bank); state commissions | State securitization laws and the FFB's lending | Federal purchase of approved bonds | CLI-11.07 |
@@ -62,12 +62,14 @@ And two simplifications in how help reaches people:
 | 2027-28 (attempted under divided government) | NFIP's long reauthorization; LIHEAP's funding; BRIC's court-ordered funding; the permitting fixes. Whatever passes moves into the 2029 baseline | Congress |
 | 2027-28 (preparation) | Draft the dividend's payment type with the child benefit's file; draft the standard's compliance rules with the regional tracking systems; draft model contracts for difference; EPA confirms the reporting program's data cover every facility above the threshold | Treasury; DOE; EPA (preparation, not launch) |
 | January 20, 2029 | Executive action: resume inventory work; pay obligated awards; start rulemakings | The President; EPA; DOE |
-| By January 2030 | R2 enacted: the price, the dividend, the credits, the contracts, the first grid tranche, bill protection, heat pumps, disaster capital, the reinsurance facility, NFIP's debt | Congress |
-| First quarter 2030 | The first Climate Dividend, paid from an advance, before the price reaches bills | Treasury |
-| January 1, 2030 | The price begins at $25; credits for tax year 2030; contract rounds open | IRS; DOE |
-| April 2030 | First quarterly excise returns for covered emissions | IRS; EPA |
-| 2029-30 | The clean power and climate act: the standard, the Clean Air Act finding and numbers, the clean-heat standard, the grid statute, permitting, codes, the guarantee's terms | Congress |
-| By summer 2030 | R3 enacted: the border adjustment, the methane fee, the add-ons, the bill credit, the second tranche's authority, the builders' borrowing, the guarantee's money | Congress |
+| By January 2030 | R2 enacted: the price and its reporting duty, the dividend, the credits, the contracts, the first grid tranche, bill protection, heat pumps, disaster capital and premium help, the reinsurance facility with its codes condition, NFIP's debt | Congress |
+| From enactment | Credits for tax year 2030; contract rounds open | IRS; DOE |
+| April-June 2030 | The first Climate Dividend, a one-time payment through the 2020-21 payments' process, paid from an advance, before the price begins | Treasury; SSA; VA; RRB |
+| July 1, 2030 | The price begins at $25: the first calendar quarter at least six months after enactment and after the first dividend (CLI-2A.03) | IRS; EPA |
+| By July 2030 | The child benefit's first monthly payments (FAM-1.07); the dividend's next payments use the same rail | IRS; Fiscal Service |
+| October 2030 | First quarterly excise returns: power plants on their certified quarter, industrial facilities on estimates | IRS; EPA |
+| 2029-30 | The clean power and climate act: the standard, the Clean Air Act finding and numbers, the clean-heat standard, the grid statute, permitting, the codes condition for rebuilding aid and premium help, the inventory's date | Congress |
+| By summer 2030 | R3 enacted: the border adjustment, the methane fee, the add-ons, the bill credit, the second tranche's authority, the builders' borrowing, the transition guarantee in full | Congress |
 | Winter 2030-31 | The first automatic bill credits, matched from FY2030 rolls | States; HHS |
 | 2030 onward | Closures from January 1, 2030 covered; the first published counts in 2031 | Labor; states |
 | 2031 | The standard's first compliance year (target set from the 2029 share) | DOE (EIA) |
@@ -77,22 +79,22 @@ And two simplifications in how help reaches people:
 | 2035 | The standard at 80%; the price at about $109 | DOE; IRS |
 | 2040 | The standard at 100% | DOE |
 
-**If R2 is late.** The price and the first dividend move together: the price starts the first calendar quarter at least six months after enactment, and the first dividend is paid in the quarter before (working choice). The credits apply from the tax year of enactment.
+**The price's start, in every case.** The price starts on the first calendar quarter at least six months after R2's enactment, and the first dividend is paid in the quarter before (working choice, CLI-2A.03). If R2 is enacted by October 2029, that is April 1, 2030; by January 2030, July 1, 2030 (the working timeline); later, later. The credits apply from the tax year of enactment. Section 6 prices FY2030 on the booked year shape, which starts the price in January 2030; the booking sets the shape (`6-cost.md`, part 1).
 
-**If the clean power and climate act is late or fails.** Nothing in R2 or R3 depends on it except bill protection's funding from the standard's payments (CLI-3A.02), which the transition share covers until the standard exists. Without the standard and the Clean Air Act finding, the credits' step-down (CLI-1A.02) would end subsidies without the rules that replace them; the trigger then reports it, and section 8 says what changes.
+**If the clean power and climate act is late or fails.** Nothing in R2 or R3 depends on it except bill protection's funding from the standard's payments (CLI-3A.02), which the transition share covers until the standard exists. The guarantee, the premium help and the price's reporting base ride the reconciliation acts with their money; if the Byrd rule strikes the reinsurance facility's codes condition from R2, the facility waits for the act. Without the standard and the Clean Air Act finding, the credits' step-down (CLI-1A.02) would end subsidies without the rules that replace them; the trigger then reports it, and section 8 says what changes.
 
 ## 4. Remedies
 
 - **The Climate Dividend.** The child benefit's notice and correction route (FAM-1.10): a person missing a payment confirms at a front door, and the correction takes effect the next quarter, with back payments. Appeal as for any IRS payment.
 - **Covered facilities.** EPA's certified total can be disputed through EPA's existing reporting corrections; the tax is assessed and appealed as any excise.
 - **The bill credit.** A household that should have been matched and was not applies to the state LIHEAP office as now, and gets the credit for that year. States' existing fair hearings apply.
-- **The guarantee.** A worker left off the employer's file, or disputing an hourly figure, asks the state unemployment agency, which decides within 30 days (working choice) with the agency's existing appeal. An employer that fails to file the closure record pays the guarantee's cost for its workers (working choice: the WARN Act's own penalty structure).
+- **The guarantee.** A worker left off the employer's file, or disputing an hourly figure, asks the state unemployment agency, which decides within 30 days (working choice) with the agency's existing appeal. An employer, or a site contractor, that fails to file its record pays the guarantee's cost for its workers (working choice: the WARN Act's own penalty structure).
 - **Places.** A county disputing its tax-base figure takes it to the state, which certifies it; PILT's existing review applies.
 - **Facilities and suppliers.** Court review of rules and orders as the Administrative Procedure Act and the Clean Air Act provide, within CLI-3A.04's shorter windows if case 2 applies.
 
 ## 5. States' roles
 
-- **LIHEAP.** States run the automatic credit with their own benefit tables and vendor agreements, matching their own SNAP rolls and SSA's SSI data. No new state matching cost: the money is federal.
+- **LIHEAP.** States, and tribes that run their own LIHEAP grants, run the automatic credit with their own benefit tables and vendor agreements, matching their own SNAP or FDPIR rolls and SSA's SSI data. No new state matching cost: the money is federal.
 - **Weatherization.** As today, with heat pumps allowed.
 - **The standard.** State standards stay; a supplier's credits count toward both. State commissions approve large-load tariffs (CLI-6A.03) and securitization bonds (CLI-11.07).
 - **Codes.** Adopting current hazard-resistant codes within three years is the condition for the wind, wildfire and hail help and the reinsurance facility (CLI-8.01). It is a condition on new aid only.
@@ -112,5 +114,5 @@ Rural places are where the transition's costs and much of its building fall: coa
 
 - **The covered-facility count and the IRS's excise workload.** Studied in implementation; the 2027-28 check of the reporting program's coverage answers it.
 - **WAPA's national reach.** Whether WAPA's program, extended, can build in the Eastern and Texas interconnections at the pace the list needs, or a separate entity is needed. The first two-year windows (about 2033) show it; it is a delivery question, not a change to the commitment.
-- **How many households the automatic match reaches.** No study of automatic LIHEAP enrollment is in the register (memo 5); the first winter's counts answer it.
+- **How many households the automatic match reaches.** No study of automatic LIHEAP enrollment is in the register (memo 5). SNAP alone serves about 22.6 million households in an average month [EV-CLP-054], so the match likely reaches more than half of eligible households, and the fixed sum's credit is smaller than today's average benefit (`6-cost.md`, memo 5 B). The 2027-28 preparation match sizes it; the first winter's counts confirm it.
 - **The guarantee's hourly reporting.** State wage records hold quarterly earnings, and only a few states record hours; the worker's monthly statement carries the hours. The published counts (CLI-11.05) show whether that works.

@@ -7,7 +7,7 @@
   "decisions": [
    "DEC-2026-11-13-06"
   ],
-  "parameters": "The price is charged on carbon dioxide from fuel burned at (1) fossil-fuel electricity generating units that already report their emissions to EPA by continuous monitoring (40 CFR part 75, the Acid Rain Program's units), and (2) industrial facilities whose emissions are at least 25,000 tons of CO2-equivalent a year, the threshold of EPA's facility reporting program (40 CFR part 98). It is charged on each covered facility's reported emissions for the quarter, not on fuel sales, so no upstream fuel tracking is built (working choice, `DEC-2026-11-13-08`). Fuel sold to anyone else is not charged",
+  "parameters": "The price is charged on carbon dioxide from fuel burned at (1) fossil-fuel electricity generating units that already report their emissions to EPA by continuous monitoring (40 CFR part 75, the Acid Rain Program's units), and, outside the contiguous states where that program does not reach [EV-CLP-270], generating units that report under part 98 at or above the threshold below, and (2) industrial facilities whose emissions are at least 25,000 tons of CO2-equivalent a year, the threshold of EPA's facility reporting program (40 CFR part 98). It is charged on each covered facility's reported emissions, not on fuel sales, so no upstream fuel tracking is built (working choice, `DEC-2026-11-13-08`; memo 1 B described a charge on fuel sold to power plants). Power plants pay each quarter on their part 75 quarterly reports [EV-CLP-269]. Industrial facilities, which report once a year under part 98 [EV-CLP-268], pay quarterly estimated amounts on the prior year's reported emissions at the quarter's price and settle on the annual report, as estimated taxes are (working choice). R2 itself requires every facility the price covers to keep reporting under parts 75 and 98, as part of the tax base's definition, so the price does not depend on the clean power and climate act or on EPA's rules of the day. Fuel sold to anyone else is not charged",
   "eligibility": "",
   "vehicle": [
    {
@@ -21,7 +21,10 @@
   "evidence": [
    "EV-CLP-318",
    "EV-CLP-322",
-   "EV-CLP-714"
+   "EV-CLP-714",
+   "EV-CLP-268",
+   "EV-CLP-269",
+   "EV-CLP-270"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1 (memo 1 B)",
@@ -224,7 +227,7 @@
    "DEC-2026-11-13-06",
    "DEC-2026-11-13-07"
   ],
-  "parameters": "The fee's receipts go to a Climate Dividend account with a permanent, indefinite appropriation and Treasury's standing disbursement authority, so a lapse in appropriations or a later Congress cannot stop a payment without changing the law. The first payment goes out in the first quarter of 2030, before the price reaches bills, from an advance repaid from the account's receipts within the year",
+  "parameters": "The fee's receipts go to a Climate Dividend account with a permanent, indefinite appropriation and Treasury's standing disbursement authority, so a lapse in appropriations or a later Congress cannot stop a payment without changing the law. **The first payment is a one-time payment, made the way the 2020-21 economic impact payments were** [EV-CLP-056]: to filers from their latest return, and automatically to Social Security, SSI, VA and Railroad Retirement beneficiaries from those agencies' payment records, in the calendar quarter before the price begins, from an advance repaid from the account's receipts within the year. From the child benefit's first monthly payment (no later than July 2030, FAM-1.07) the dividend moves to the shared rail (CLI-2A.02). **The price begins on the first calendar quarter that starts at least six months after enactment and after the first dividend is paid** (working choice): on the working timeline, R2 by about January 2030, so the price begins July 1, 2030 and the first dividend goes out in April-June 2030",
   "eligibility": "",
   "vehicle": [
    {
@@ -237,7 +240,8 @@
   "current_law": "",
   "evidence": [
    "EV-CLP-319",
-   "EV-CLP-310"
+   "EV-CLP-310",
+   "EV-CLP-056"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1 (the dividend's own channel)",
@@ -497,7 +501,7 @@
   "decisions": [
    "DEC-2026-11-13-06"
   ],
-  "parameters": "A supplier short of credits pays an alternative compliance payment per missing megawatt-hour, capped at $40 in 2025 dollars, indexed to prices (working choice, the carbon model's figure). Payments go to bill protection (CLI-5L.01), paid through the bill credit (CLI-5H.01). On the carbon model about $0.05 trillion over 2030-39",
+  "parameters": "A supplier short of credits pays an alternative compliance payment per missing megawatt-hour, capped at $40 in 2025 dollars, indexed to prices (working choice, the carbon model's figure). Treasury collects the payments, and they go to the bill credit (CLI-5H.01) for as long as they are paid: first to bill protection (CLI-5L.01) while it runs, then to the credit itself, so none is stranded when bill protection ends. On the carbon model's run of the decided path, the clean share is 91% in 2040 and 94% in 2045, limited by grid access, not price, so suppliers pay about **$0.11 trillion over 2030-39 and about $29 billion in 2040**, falling slowly after (the carbon model read, `tools/coverage_read.py`; `6-cost.md`, part 2). They are a charge on electricity bills, returned to lower- and moderate-income households",
   "eligibility": "",
   "vehicle": [
    {
@@ -509,7 +513,8 @@
   "agency": "DOE (EIA); Treasury",
   "current_law": "",
   "evidence": [
-   "EV-CLP-723"
+   "EV-CLP-723",
+   "EV-CLP-708"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1 (standards, as booked)",
@@ -634,7 +639,7 @@
   "decisions": [
    "DEC-2026-11-13-07"
   ],
-  "parameters": "Each manufacturer of space- and water-heating equipment sold in the United States meets a rising share of heat pumps or other zero-emission heat in its sales: 60% in 2032, 5 points more each year, 100% in 2040 (working choice), with credits tradable among manufacturers. Certified through DOE's existing appliance certification database. Low-income replacements are paid by the credits (CLI-1A.01) and Weatherization's heat pumps (CLI-5W.01)",
+  "parameters": "Each manufacturer of heating equipment sold in the United States meets a rising share of heat pumps or other zero-emission heat in its sales, on two schedules (working choices): *space heating* 60% in 2032, rising in equal steps to 100% in 2040; *water heating* from its 2029 national share, rising in equal steps from 2032 to 100% in 2040. Both starting points are checked against AHRI's shipment data before enactment. Credits are tradable among manufacturers within each schedule. *Emergency replacement:* through 2039, a unit the installer certifies as replacing failed equipment of the same kind may be sold outside the share, up to 10% of a manufacturer's sales, so no household is forced into an unplanned conversion when a furnace or water heater fails in winter. Certified through DOE's existing appliance certification database. Low-income replacements are paid by the credits (CLI-1A.01) and Weatherization's heat pumps (CLI-5W.01)",
   "eligibility": "",
   "vehicle": [
    {
@@ -909,7 +914,7 @@
   "decisions": [
    "DEC-2026-11-13-06"
   ],
-  "parameters": "A household enrolled in SNAP, SSI or LIHEAP at any time in the prior year gets a yearly credit on its energy bill, with no separate application. Sized to bring its home energy cost toward 6% of income, using the state's own LIHEAP benefit table and the household's income already on file (working choice); paid by the state LIHEAP office to the household's utility or fuel vendor under the vendor agreements states already hold, or to the household where heat is included in rent. Others apply as now. Money: LIHEAP's block grant made mandatory at about $12 billion a year from FY2030, indexed (working assumption), against about $4 billion today",
+  "parameters": "A household enrolled in SNAP, SSI, LIHEAP or the Food Distribution Program on Indian Reservations (whose households cannot take SNAP in the same month [EV-CLP-267]) at any time in the prior year gets a yearly credit on its energy bill, with no separate application. Sized from the state's (or tribe's) own LIHEAP benefit table toward 6% of income, using the household's income already on file. **A fixed yearly sum** (working choice): if the matched households' credits exceed the allotment, every credit is scaled down in the same proportion, so the cost is known and the formula is published (`6-cost.md`, memo 5 B, for the matched count and the average credit). Paid by the state LIHEAP office, or by the tribe for tribes that run their own LIHEAP grant [EV-CLP-055], to the household's utility or fuel vendor under the vendor agreements they already hold, or to the household where heat is included in rent. Others apply as now. Money: LIHEAP's block grant made mandatory at about $12 billion a year from FY2031 (R3, with the first credits in winter 2030-31), indexed (working assumption), against about $4 billion today, plus the standard's payments (CLI-3A.02)",
   "eligibility": "",
   "vehicle": [
    {
@@ -918,13 +923,16 @@
     "note": "FY2031 reconciliation act"
    }
   ],
-  "agency": "HHS (LIHEAP), through the states; SNAP records from the states, SSI records from SSA",
+  "agency": "HHS (LIHEAP), through the states and tribal grantees; SNAP records from the states, SSI records from SSA, FDPIR records from the tribal agencies",
   "current_law": "",
   "evidence": [
    "EV-CLP-038",
    "EV-CLP-039",
    "EV-CLP-034",
-   "EV-CLP-035"
+   "EV-CLP-035",
+   "EV-CLP-267",
+   "EV-CLP-054",
+   "EV-CLP-055"
   ],
   "sources": [],
   "cost_source": "6-cost.md, part 1 (bills and add-ons; memo 5 B)",
@@ -991,7 +999,7 @@
    "DEC-2026-11-13-06",
    "DEC-2026-11-13-07"
   ],
-  "parameters": "Low- and moderate-income households get added help while the standard and the price raise bills, funded first by the standard's capped payments (CLI-3A.02) and paid as part of the same bill credit (CLI-5H.01), not as a second program. It ends when EIA's average residential price, adjusted for inflation, is below its 2029 level for two years in a row, not on a fixed date",
+  "parameters": "Low- and moderate-income households get added help while the standard and the price raise bills, funded first by the standard's capped payments (CLI-3A.02) and paid as part of the same bill credit (CLI-5H.01), not as a second program. It ends when EIA's average residential price, adjusted for inflation, is below its 2029 level for two years in a row, not on a fixed date; the standard's payments then continue to the bill credit (CLI-3A.02)",
   "eligibility": "",
   "vehicle": [
    {
@@ -1074,7 +1082,7 @@
   "decisions": [
    "DEC-2026-11-13-06"
   ],
-  "parameters": "The post-disaster mitigation share from 15% to 20%; premium help for low- and moderate-income primary residences under the flood program, sized to income, not a cap on the rate; extreme heat as an eligible hazard; one survivor application and estimate-based public assistance; and premium help for wind, wildfire and hail for low- and moderate-income owners and renters in high-risk counties",
+  "parameters": "The post-disaster mitigation share from 15% to 20%; premium help for low- and moderate-income primary residences under the flood program, sized to income, not a cap on the rate; extreme heat as an eligible hazard; one survivor application and estimate-based public assistance; and premium help for wind, wildfire and hail for low- and moderate-income owners and renters in high-risk counties. The premium help rides R2 with the disaster capital; the other rules ride the clean power and climate act",
   "eligibility": "",
   "vehicle": [
    {
@@ -1131,7 +1139,7 @@
   "decisions": [
    "DEC-2026-11-13-06"
   ],
-  "parameters": "Treasury reinsures insurers' residential wind, wildfire and hail losses (earthquake where a state opts in) in the layer between a state-level 1-in-100-year and 1-in-250-year industry loss; insurers keep 10% of the layer; an annual cap of $150 billion; premiums priced to expected loss; recoupment after a draw, as under the terrorism program. Offered only in states that meet CLI-8.01. Its $75-150 billion contingent liability is disclosed in every fiscal test, not scored",
+  "parameters": "Treasury reinsures insurers' residential wind, wildfire and hail losses (earthquake where a state opts in) in the layer between a state-level 1-in-100-year and 1-in-250-year industry loss; insurers keep 10% of the layer; an annual cap of $150 billion; premiums priced to expected loss; recoupment after a draw, as under the terrorism program. Offered only in states that meet CLI-8.01's codes test, which R2 writes into the facility's own terms (if the Byrd rule strikes it, the facility waits for the act). Its $75-150 billion contingent liability is disclosed in every fiscal test, not scored",
   "eligibility": "",
   "vehicle": [
    {
@@ -1187,7 +1195,7 @@
   "decisions": [
    "DEC-2026-11-13-06"
   ],
-  "parameters": "A worker who loses their job when a covered facility closes or permanently cuts its workforce, on or after January 1, 2030: coal mines; coal- and gas-fired power plants; petroleum refineries; coal and gas processing plants. Covered: the facility's employees, and workers employed by a contractor who worked at the facility for at least six of the last twelve months (working choice). Eligibility comes from the closure notice the employer files (the WARN Act notice, or for a smaller facility the same notice filed with the state) and the employer's and contractors' payroll records for the site, filed once with the notice. No application beyond confirming the record; no means test",
+  "parameters": "A worker who loses their job when a covered facility closes or permanently cuts its workforce, on or after January 1, 2030: coal mines; coal- and gas-fired power plants; petroleum refineries; coal and gas processing plants. Covered: the facility's employees, and workers employed by a contractor who worked at the facility for at least six of the last twelve months (working choice). A permanent cut is a WARN Act plant closing or mass layoff at the site; for a facility too small for the WARN Act, the same events by the same definitions, reported to the state. Eligibility comes from the closure notice the employer files and the payroll records for the site: the facility's owner lists its site contractors in the notice, and each contractor files its site payroll with the state within 30 days, under the same remedy as the owner (`5-delivery.md`, part 4). A contractor's worker left off a file may show coverage from their own pay stubs. No application beyond confirming the record; no means test",
   "eligibility": "",
   "vehicle": [
    {

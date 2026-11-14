@@ -1,6 +1,6 @@
 # Dossier: Clean, affordable power and a prepared country (flagship 4)
 
-Role: the clean power flagship (`charter/PLAN.md` 3.1). Status: **decided**, stage E, step E-C2 (sections 4-9). Espen decided the memo batch on November 13: memos 1-7 all as recommended, with memo 7's wage insurance set by Espen (`DEC-2026-11-13-06`), and points 1-14 all yes (`DEC-2026-11-13-07`). Level: the decided items are at **L2** (`agenda/agenda.csv`, `home_dossier` = `clean-power`); options no memo weighed stay at L1. **Not booked:** the legacy climate rows in the budget model stay as they are until the booking step, after the milestone review. The decided set is about **$1.85 trillion over FY2030-39 and $147 billion in FY2040** on the general fund, about +$0.04 trillion and −$17 billion against the booked rows (`6-cost.md`).
+Role: the clean power flagship (`charter/PLAN.md` 3.1). Status: **decided**, stage E; sections 4-9 **reviewed (L2)** by the milestone review (`review-milestone.md`, #344), with its fixes applied; L3 after the booking and a short re-check. Espen decided the memo batch on November 13: memos 1-7 all as recommended, with memo 7's wage insurance set by Espen (`DEC-2026-11-13-06`), and points 1-14 all yes (`DEC-2026-11-13-07`). Level: the decided items are at **L2** (`agenda/agenda.csv`, `home_dossier` = `clean-power`); options no memo weighed stay at L1. **Not booked:** the legacy climate rows in the budget model stay as they are until the booking step, after the milestone review. The decided set is about **$1.85 trillion over FY2030-39 and $147 billion in FY2040** on the general fund, about +$0.04 trillion and −$17.5 billion against the booked rows (`6-cost.md`).
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly): "Carbon fee and dividend, clean power and grid, adaptation and insurance, the clean-industry transition."
 
@@ -29,12 +29,13 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 | 1. The problem | `1-problem.md`: bills and energy hardship; demand and reliability; emissions; climate damage and insurance; workers and places; the January 2029 baseline table; the legacy record restated | Draft (E-C1, PR #315) |
 | 2. What works | `2-what-works.md`: carbon pricing and dividends at home and abroad; the IRA's record and the 2025 repeal; grid and permitting; public power and finance; clean and firm power costs; clean industry; adaptation and insurance; transitions; failures to avoid | Draft (E-C1, PR #315) |
 | 3. Design choices | `3-design.md` and `memos/`: eleven forks in seven memos, fourteen yes-or-no points, inherited assumptions traced, the fiscal report against the booked rows | **Decided** (`DEC-2026-11-13-06`, `DEC-2026-11-13-07`; E-C1, PRs #315, #317) |
-| 4. Specification | `4-specification.md` and `provisions.json` (53 provisions, built by `tools/build_provisions.py`): the price and the dividend, credits and industry, standards and goals, the grid, bills, adaptation, the transition guarantee, farms and forests | Draft, L2 (E-C2, PR 1) |
-| 5. Delivery | `5-delivery.md`: every job through an existing agency, record and payment system (`DEC-2026-11-13-08`); capacity, timeline, remedies, states, rural delivery | Draft, L2 (E-C2, PR 1) |
-| 6. Cost | `6-cost.md`, with `tools/clean_power_path.py` and `tools/coverage_read.py` (a read of the carbon model for memo 1 B): the decided set by fiscal year against the booked rows, what the total leaves out, the fiscal-rule report, the booking's steps | Draft, L2 (E-C2, PR 1); not booked |
-| 7. Validation | `7-validation.md`: against outside figures; what the models miss; how it lands with the plan; who it reaches (the carbon channel by quintile under memo 1 B); emissions; objections; signs of failure | Draft, L2 (E-C2, PR 2) |
-| 8. What would change our minds | `8-change-our-minds.md` | Draft, L2 (E-C2, PR 2) |
-| 9. Public case | `9-public-case.md`, with its source table | Draft, L2 (E-C2, PR 2) |
+| 4. Specification | `4-specification.md` and `provisions.json` (53 provisions, built by `tools/build_provisions.py`): the price and the dividend, credits and industry, standards and goals, the grid, bills, adaptation, the transition guarantee, farms and forests | Reviewed (L2), fixes applied |
+| 5. Delivery | `5-delivery.md`: every job through an existing agency, record and payment system (`DEC-2026-11-13-08`); capacity, timeline, remedies, states, rural delivery | Reviewed (L2), fixes applied |
+| 6. Cost | `6-cost.md`, with `tools/clean_power_path.py` and `tools/coverage_read.py` (a read of the carbon model for memo 1 B): the decided set by fiscal year against the booked rows, what the total leaves out, the fiscal-rule report, the booking's steps | Reviewed (L2), fixes applied; not booked |
+| 7. Validation | `7-validation.md`: against outside figures; what the models miss; how it lands with the plan; who it reaches (the carbon channel by quintile under memo 1 B); emissions; objections; signs of failure | Reviewed (L2), fixes applied |
+| 8. What would change our minds | `8-change-our-minds.md` | Reviewed (L2), fixes applied |
+| 9. Public case | `9-public-case.md`, with its source table | Reviewed (L2), fixes applied |
+| Milestone review | `review-milestone.md`: the L2/L3 review (#344); its fixes are the next PR | Current |
 
 ## Evidence and sources
 
@@ -43,4 +44,8 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 ## Open questions for Espen
 
-None blocking; the memo batch is decided. **A note for Espen:** memo 4 B described the public builder as "a federal transmission authority, on TVA's model". Under your rule to use existing machinery first (`DEC-2026-11-13-08`), sections 4 and 5 place it inside WAPA's existing transmission program, extended nationwide, with TVA and Bonneville building in their own regions, instead of creating a new federal corporation (`4-specification.md`, CLI-10.03; `5-delivery.md`, part 1, item 3). If you prefer a separate entity, only CLI-10.03's agency changes. Sections 1-9 are drafted; next are the milestone review and then the booking (tier 3).
+From the milestone review (`review-milestone.md`, "For Espen"; #344):
+1. **The builder of last resort.** Memo 4 B described "a federal transmission authority, on TVA's model"; the draft places it in WAPA's program, extended nationwide (CLI-10.03). The review compares that with TVA, Bonneville and WAPA in their own regions plus a TVA-style authority for the East only, recommends the second, and recommends leaving lines inside ERCOT off the list unless Texas agrees. CLI-10.03 is unchanged until Espen decides.
+2. **Tribal governments in the transition guarantee.** CLI-11.06 replaces lost county property tax; tribal nations that host plants and mines lose lease and royalty revenue instead. The review recommends extending the declining replacement to them. Not written until Espen decides.
+
+Next: the booking (tier 3, the lead's), then a short L3 re-check.
