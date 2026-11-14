@@ -18,21 +18,19 @@ The Energy Policy Simulator (Energy Innovation, version 4.0.7, runs Espen made i
 
 ## The question inside the question: does 45Q stack on the price?
 
-Under a carbon price, a stored ton is not emitted, so it pays no fee. Under current law it also earns 45Q, up to $85 a ton. Nothing in the plan's specification stops an owner from getting both. Stacking is what decides whether retrofits pay: with both, a retrofit begun around 2032, when the plan's price is about $40-56 a ton, would earn about $125-140 a ton, near the roughly $140 a 75%-capture coal retrofit needs. With the larger of the two only, it earns $85, far short. So the plan has to say which it means. Option A says the larger, not both.
+Under a carbon price, a stored ton is not emitted, so it pays no fee. Under current law it also earns 45Q, up to $85 a ton. Nothing in the plan's specification stops an owner from getting both. Stacking is what decides whether retrofits pay: with both, a retrofit begun around 2032, when the plan's price is about $40-56 a ton, would earn about $125-140 a ton: enough for a combined-cycle retrofit, and for a coal retrofit at 90% capture (about $110 a ton). With the larger of the two only, it earns $85, far short. So the plan has to say which it means. Option A says the larger, not both.
 
 ## What the energy model finds
 
 The energy model's default is the larger of the two, not both. Every case below says which it uses.
 
-- **Timing rules retrofits out under the plan as decided, if 45Q does not stack.** The plan's standard ends unabated coal by 2040 (CLI-4A.01). A retrofit must start by about 2033 to beat that date, when the plan's price is about $56 a ton. At EPA's costs and 75% capture in operation, a coal retrofit pays only once the expected price passes about $140 a ton, around 2045; at 90% capture, about $110 (MOD-energy, `assumptions.csv`, `ccs_retrofit_*`; project estimate on EPA's costs).
+- **Timing rules retrofits out under the plan as decided, if 45Q does not stack.** The plan's standard ends unabated coal by 2040 (CLI-4A.01). A retrofit takes about seven years, so it must start by about 2033 to be running when that date arrives, and the plan's price then is about $56 a ton. At EPA's costs and 75% capture in operation, a coal retrofit pays only once the expected price passes about $140 a ton, around 2045, and at 75% it could not meet the standard anyway; at 90% capture it pays at about $110 (MOD-energy, `assumptions.csv`, `ccs_retrofit_*`; project estimate on EPA's costs).
 - **At the research-based limits, none is built** (case `retro1`): emissions, costs and prices are the decided set's.
-- **If 45Q stacks, retrofits start from 2031, but little comes of them** (case `retro1_stack`, the research-based limits):
-  - **What is built:** 25 GW are started by 2040. About 5 GW of combined cycles are online by 2040 after derating, and 16 GW by 2050.
-  - **Coal:** the coal retrofits started never finish, because the coal they were meant for retires first. (The model retires coal on price and under the 2040 standard without regard to a retrofit under way. That is a known limit; it may understate coal retrofits, though at 75% capture in operation they would still fail A's 90% test.)
-  - **Emissions:** energy CO2 is the same as the decided set's, 41% below 2005 in 2035 and 66% in 2050.
-  - **Cost:** 45Q on all stored tons comes to about $92 billion over 2030-39, against about $20 billion when it doesn't stack, and about $160 billion in 2040-49, against about $0 (2025 dollars). Industrial capture and new gas plants with capture take most of it, because they collect 45Q on top of a price that already pays them to capture.
-- **At design capture and twice the limits, about 30 GW of combined cycles are retrofitted by 2050**, capturing about 30 Mt a year (case `retro_hi`). They come in the 2040s, after coal is gone.
-- **Raising 45Q to $120-150 a ton, without stacking, gets 6-12 GW started, but they come online after the coal fleet retires** (one-off runs, November 14, 2026). Money cannot buy back the seven years.
+- **If 45Q stacks, retrofits start from 2031** (cases `retro1_stack` and `retro_hi_stack`):
+  - **At 75% capture in operation** (the research-based limits): 25 GW are started by 2040, all combined cycles. About 10 GW are online by 2040 and 21 GW by 2050. No coal retrofit starts, because at 75% capture a coal unit could not meet the standard and would retire in 2040 anyway.
+  - **At 90% capture and twice the limits:** about 6 GW of coal and 13 GW of combined cycles are online by 2040, and capture reaches about 65 Mt a year by 2050. These coal units keep running past 2040 as verified-capture units under A's rule.
+  - **Emissions:** about the same as the decided set. Energy CO2 is 41% below 2005 in 2035 and 66% in 2050 in every case. Stacking raises power emissions by about 20 Mt a year in the early 2030s, because the model's builders hold back some wind, solar and gas plants while waiting for capture plants. It lowers them by about 20 Mt by 2050.
+  - **Cost:** 45Q on all stored tons comes to about $92 billion over 2030-39, against about $20 billion without stacking, and about $160 billion in 2040-49, against about $0 (2025 dollars). Industrial capture and new gas plants with capture take most of it, because they would collect 45Q on top of a price that already pays them to capture. The retrofits' own 45Q adds about $2-9 billion over 2030-39 and $15-53 billion in the 2040s.
 - **EPS's 2035 result comes from its retrofit terms.** On those terms as read from its code, unverified (95% capture, no capacity lost, one year to build, every plant eligible), the energy model's price-only run produces 768 TWh from retrofitted plants in 2035 against EPS's 762, and cuts slightly more than EPS (benchmark EP-3). On the measured record, those terms are optimistic.
 
 ## Options
@@ -57,7 +55,7 @@ The energy model's default is the larger of the two, not both. Every case below 
 - *Cost:* about $0 over FY2030-39; about $2.5 billion a year in the late 2040s on 30 GW capturing 30 Mt (project estimate on case `retro_hi`).
 - *What it gives up:* little; it keeps a path open for firm gas with capture after 2040, which the 100% clean standard otherwise prices out.
 
-**Why A.** The evidence does not support paying for retrofits on the plan's timetable: they arrive after the coal they would clean has retired, and the one record we have shows capture well below design. Letting 45Q stack on the price would pay twice for tons the price already pays to store, at about $70 billion over FY2030-39, without changing the emissions the model sees. A costs nothing and keeps the option open. D is a reasonable add-on if Espen wants a firm, low-carbon gas path in the 2040s.
+**Why A.** The evidence does not support paying for retrofits on the plan's timetable: they arrive after the coal they would clean has retired, and the one record we have shows capture well below design. Letting 45Q stack on the price would get some retrofits built, about 6 GW of coal at best, but it would pay twice for tons the price already pays to store: about $70 billion more over FY2030-39, without changing the emissions the model sees. If Espen wants those coal retrofits anyway, B buys them for less, because it pays only the units it contracts. A costs nothing and keeps the option open. D is a reasonable add-on if Espen wants a firm, low-carbon gas path in the 2040s.
 
 ## Consequences
 
