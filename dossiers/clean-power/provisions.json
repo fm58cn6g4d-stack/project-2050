@@ -255,7 +255,7 @@
   "decisions": [
    "DEC-2026-11-13-07"
   ],
-  "parameters": "80% of the combustion receipts to the dividend; 20% to a transition share, which pays the transition guarantee first (CLI-11.08), then the add-ons (CLI-5F.01) and, from FY2040, the bill credit (CLI-5H.01). Process receipts follow CLI-2O.01",
+  "parameters": "80% of the combustion receipts to the dividend; 20% to a transition share, which pays the transition guarantee first (CLI-11.08), then the add-ons (CLI-5F.01) and, from FY2040, the bill credit (CLI-5H.01). From FY2040 what the share does not pay out stays in the general fund (`DEC-2026-11-13-13`, option A; about $23 billion in FY2040). Process receipts follow CLI-2O.01",
   "eligibility": "",
   "vehicle": [
    {

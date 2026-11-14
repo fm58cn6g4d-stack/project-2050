@@ -46,7 +46,7 @@ Role: section 8 of the clean power dossier. For each decided choice, the finding
 
 - **The schedules inside decided targets:** the credits' step-down dates (CLI-1A.02), the vehicle numbers year by year (CLI-4E.01), the clean-heat shares (CLI-4H.01): working choices matched to the booked path or the carbon model.
 - **Thresholds and caps set here as working choices:** the standard's small-supplier threshold; the capped payment at $40 a megawatt-hour; the permit-certainty damages cap; TVA's, Bonneville's and WAPA's new limits; the contractor test of six months in twelve; the guarantee's review trigger; the refinancing's worker and community share.
-- **Where the transition share sits after FY2039** and how the budget records the public builders' borrowing: the booking's questions (`6-cost.md`, part 2).
+- **How the budget records the public builders' borrowing:** the booking's question (`6-cost.md`, part 2). Where the transition share sits after FY2039 is decided (`DEC-2026-11-13-13`).
 - **The legacy CLI-8 bullets not put to Espen** (risk disclosure at sale, forward-looking underwriting, the insurance data partnership): not committed; an option for the insurance work later.
 
 ## Hard stops
