@@ -1,0 +1,213 @@
+Source: https://www.eia.gov/electricity/annual/html/epa_07_04.html
+Publisher: U.S. Energy Information Administration
+Retrieved: 2026-11-14
+Original SHA-256: b5eb69539a3547a4037a794880e2bc10fce7463c52efa5cddcaaf595101f1524
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+SAS Output
+Table 7.4. Weighted Average Cost of Fossil Fuels for the Electric Power Industry, 2015 through 2025
+Coal
+Petroleum
+Natural Gas
+Total Fossil
+Bituminous
+Subbituminous
+Lignite
+All Coal Ranks
+Period
+Receipts (Trillion Btu)
+Average Cost (Dollars per MMBtu)
+Receipts (Trillion Btu)
+Average Cost (Dollars per MMBtu)
+Receipts (Trillion Btu)
+Average Cost (Dollars per MMBtu)
+Receipts (Trillion Btu)
+Average Cost (Dollars per MMBtu)
+Receipts (Trillion Btu)
+Average Cost (Dollars per MMBtu)
+Receipts (Trillion Btu)
+Average Cost (Dollars per MMBtu)
+Receipts (Trillion Btu)
+Average Cost (Dollars per MMBtu)
+2015
+6,797
+2.58
+7,353
+1.94
+855
+1.92
+15,086
+2.22
+286
+6.74
+10,174
+3.23
+25,546
+2.65
+2016
+5,770
+2.40
+5,818
+1.89
+840
+1.74
+12,516
+2.11
+219
+5.24
+10,619
+2.87
+23,354
+2.47
+2017
+5,279
+2.31
+6,123
+1.90
+773
+1.66
+12,261
+2.06
+190
+7.10
+9,952
+3.37
+22,403
+2.65
+2018
+4,838
+2.31
+5,765
+1.90
+677
+1.71
+11,371
+2.06
+219
+9.68
+11,254
+3.55
+22,844
+2.83
+2019
+4,670
+2.26
+5,401
+1.86
+601
+1.68
+10,746
+2.02
+145
+9.07
+12,105
+2.89
+22,996
+2.50
+2020
+3,399
+2.11
+4,300
+1.78
+566
+1.90
+8,329
+1.92
+145
+5.98
+12,381
+2.40
+20,855
+2.22
+2021
+3,513
+2.13
+4,610
+1.85
+553
+2.09
+8,754
+1.98
+162
+10.08
+11,967
+5.20
+20,883
+3.82
+2022
+3,499
+2.74
+4,748
+2.17
+538
+1.78
+8,876
+2.36
+182
+16.53
+12,840
+7.21
+21,898
+5.22
+2023
+3,130
+3.15
+4,428
+2.15
+481
+1.79
+8,112
+2.51
+152
+15.98
+13,669
+3.36
+21,934
+3.12
+2024
+2,813
+3.08
+3,628
+2.08
+451
+1.94
+6,965
+2.47
+115
+14.70
+14,206
+2.76
+21,286
+2.73
+2025
+3,039
+2.98
+3,905
+2.05
+452
+1.94
+7,493
+2.42
+147
+14.12
+13,808
+3.85
+21,448
+3.40
+* = Value is less than half of the smallest unit of measure. (e.g., for values with no decimals, the smallest unit is 1 then values under 0.5 are shown as *.)
+NM = Not meaningful due to large relative standard error or excessive percentage change.
+W = Withheld to avoid disclosure of individual company data.
+Notes:
+Beginning in January 2013, the threshold for reporting fuel receipts data was changed from 50 megawatts to 200 megawatts of nameplate capacity for plants primarily fueled by natural gas, petroleum coke, distillate fuel oil, and residual fuel oil. In addition, the requirement to report self-produced and minor fuels, i.e., blast furnace gas, other manufactured gases, kerosene, jet fuel, propane, and waste oils was eliminated. The threshold for coal plants remained at 50 megawatts. The following caveats for each fuel type should be noted:
+COAL - All coal ranks subtotal includes anthracite, bituminous, subbituminous, lignite, waste coal, and coal-derived synthesis gas. Prior to 2011, synthesis gas was included in the category of Other Gases.
+Bituminous coal includes anthracite coal and beginning in 2011, coal-derived synthesis gas.
+PETROLEUM - includes petroleum liquids (distillate fuel oil and residual fuel oil) and petroleum coke which includes petroleum coke-derived synthesis gas. Prior to 2011, petroleum coke-derived synthesis gas was included in Other Gases. Prior to 2013, petroleum liquids included distillate fuel oil, residual fuel oil, kerosene, jet fuel, waste oil, and, beginning in 2011, propane. Prior to 2011, propane was included in the category of Other Gases.
+NATURAL GAS - includes natural gas only. Prior to 2011, includes Other Gases.
+- All values are final.
+- See Glossary for definitions.
+- Starting in January 2013, there may have been a shift in the continuity of Chapter 7 tables due to changes in the sample design of Form EIA-923 and the imputation process.
+- See the EIA-923 section of the Technical Notes for a discussion of the sample design for the Form EIA-923 and predecessor forms.
+- See the Technical Notes for fuel conversion factors.
+- Totals may not equal the sum of components because of independent rounding.
+Sources: U.S. Energy Information Administration (EIA), Form EIA-923, "Power Plant Operations Report" and predecessor forms including Form EIA-423, "Monthly Cost and Quality of Fuels for Electric Plants Report" and Federal Energy Regulatory Commission (FERC), FERC Form 423, "Monthly Report of Cost and Quality of Fuels for Electric Plants."

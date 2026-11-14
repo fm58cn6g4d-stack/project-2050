@@ -64,6 +64,24 @@
    "why": "The EPS package is far wider and has no carbon price: the IRA's credits restored through 2050, a clean standard of 76% in 2035 and 95% from 2040, federal and state vehicle sales standards from 2031, building electrification and efficiency standards, about 150 industrial electrification and 100 efficiency settings, a 50% low-carbon fuel standard, methane capture, land, farm and forest measures, and direct air capture and rock weathering of roughly 370 Mt a year by 2050 (SRC-5044; the run's settings file). The decided set leaves farms and forests as booked, adds no carbon removal, and its industry and building measures are fewer. The gap shows what those extra measures would have to do; it is not a test of either model."
   },
   {
+   "id": "EP-1",
+   "model": "2030: 525, 2035: 751, 2040: 965, 2050: 1,095",
+   "result": "reported",
+   "target": "EPS: 2030: 285, 2035: 962, 2040: 955, 2050: 933",
+   "tol": "reported",
+   "what": "Same settings, two models: the cut from the price alone (Espen's EPS run 1, against each model's own current-policy run), Mt CO2e",
+   "why": "This model's cut is 184% of EPS's in 2030, 78% in 2035 and 117% in 2050: about the same size over the period, with a different shape. This engine cuts more at first, because its power plants switch from coal to gas as soon as the price makes coal dearer (HI-1 finds that switching too quick against history); EPS's cut comes mostly in 2031-2035, as plants retire and new capacity is built, and then levels off, while this engine's keeps growing as the price rises 5% a year and equipment turns over. Methane and fluorinated gases are priced in both runs, as EPS's defaults do."
+  },
+  {
+   "id": "EP-2",
+   "model": "2030: 538, 2035: 892, 2040: 1,293, 2050: 1,811",
+   "result": "reported",
+   "target": "EPS: 2030: 538, 2035: 1,340, 2040: 1,458, 2050: 1,586",
+   "tol": "reported",
+   "what": "Same settings, two models: the cut from the package (Espen's EPS run 2, against each model's own current-policy run), Mt CO2e",
+   "why": "This model's cut is 100% of EPS's in 2030, 67% in 2035 and 114% in 2050: about the same size over the period, with a different shape. The settings differ where the sliders allowed: EPS's construction subsidies start in 2026, its sales standards also cover buses, motorbikes and light trucks, its building electrification covers appliances too, and its methane capture covers coal mines and landfills; this model's standards also retire unabated coal by 2040. EPS's package cut is larger through 2040 and this model's larger by 2050, the same pattern as EP-1."
+  },
+  {
    "id": "PR-1",
    "model": "2035: 0.15% at $87, 2040: 0.14% at $125",
    "result": "pass",
@@ -128,12 +146,124 @@
   },
   {
    "id": "HI-1",
-   "model": "not built",
-   "result": "pending",
-   "target": "EIA 2015-2025",
-   "tol": "\u2014",
-   "what": "History run (engine started from 2015 and run to 2025 against EIA's measured CO2)",
-   "why": "The engine starts in 2025; a 2015 start needs that year's fleet, prices and policies. Planned (survey.md, section 3)."
+   "model": "average gap 9.1%; largest +19.0% (2021)",
+   "result": "fail",
+   "target": "EIA, Monthly Energy Review table 11.6",
+   "tol": "average absolute gap 5% or less, and every year within 10%",
+   "what": "History run, power sector: the engine's dispatch on each year's measured fleet, generation and fuel prices, 2015-2025, against EIA's measured coal and gas power CO2 (SRC-5052 to 5057)",
+   "why": "Total fossil generation is right by construction; the error is the split between coal and gas. When gas was cheap (2015-16, 2019-20, 2023-24) the engine burns too much gas and too little coal and its CO2 is low; when gas was dear (2021-22) it swings back to coal too far and its CO2 is high. Real fleets switch less: regional fuel prices, contracts, transmission and plants' minimum running levels slow it. So the engine's near-term power response to a carbon price, which also works through coal-gas switching, is likely too quick, and its 2030 cuts lean high (EP-1). A fix, for a later step: a spread of regional fuel prices in the dispatch, calibrated to this history. The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built."
+  }
+ ],
+ "history_power": [
+  {
+   "gap_pct": -12.73,
+   "measured_co2": 1876.7,
+   "measured_coal_twh": 1352.4,
+   "measured_gas_twh": 1334.7,
+   "model_co2": 1637.8,
+   "model_coal_twh": 958.0,
+   "model_gas_twh": 1729.0,
+   "year": 2015
+  },
+  {
+   "gap_pct": -14.18,
+   "measured_co2": 1786.9,
+   "measured_coal_twh": 1239.1,
+   "measured_gas_twh": 1379.3,
+   "model_co2": 1533.5,
+   "model_coal_twh": 824.8,
+   "model_gas_twh": 1793.6,
+   "year": 2016
+  },
+  {
+   "gap_pct": -0.17,
+   "measured_co2": 1712.6,
+   "measured_coal_twh": 1205.8,
+   "measured_gas_twh": 1297.7,
+   "model_co2": 1709.7,
+   "model_coal_twh": 1191.1,
+   "model_gas_twh": 1312.4,
+   "year": 2017
+  },
+  {
+   "gap_pct": 3.37,
+   "measured_co2": 1730.9,
+   "measured_coal_twh": 1149.5,
+   "measured_gas_twh": 1471.8,
+   "model_co2": 1789.2,
+   "model_coal_twh": 1231.2,
+   "model_gas_twh": 1390.2,
+   "year": 2018
+  },
+  {
+   "gap_pct": -8.32,
+   "measured_co2": 1590.4,
+   "measured_coal_twh": 965.0,
+   "measured_gas_twh": 1588.5,
+   "model_co2": 1458.2,
+   "model_coal_twh": 745.2,
+   "model_gas_twh": 1808.3,
+   "year": 2019
+  },
+  {
+   "gap_pct": -8.5,
+   "measured_co2": 1423.1,
+   "measured_coal_twh": 773.4,
+   "measured_gas_twh": 1626.8,
+   "model_co2": 1302.1,
+   "model_coal_twh": 593.8,
+   "model_gas_twh": 1806.4,
+   "year": 2020
+  },
+  {
+   "gap_pct": 18.96,
+   "measured_co2": 1522.8,
+   "measured_coal_twh": 898.0,
+   "measured_gas_twh": 1579.2,
+   "model_co2": 1811.6,
+   "model_coal_twh": 1316.0,
+   "model_gas_twh": 1161.2,
+   "year": 2021
+  },
+  {
+   "gap_pct": 16.81,
+   "measured_co2": 1510.5,
+   "measured_coal_twh": 831.5,
+   "measured_gas_twh": 1687.1,
+   "model_co2": 1764.4,
+   "model_coal_twh": 1202.1,
+   "model_gas_twh": 1316.5,
+   "year": 2022
+  },
+  {
+   "gap_pct": -6.8,
+   "measured_co2": 1399.6,
+   "measured_coal_twh": 675.1,
+   "measured_gas_twh": 1806.1,
+   "model_co2": 1304.4,
+   "model_coal_twh": 527.7,
+   "model_gas_twh": 1953.5,
+   "year": 2023
+  },
+  {
+   "gap_pct": -8.6,
+   "measured_co2": 1406.9,
+   "measured_coal_twh": 652.2,
+   "measured_gas_twh": 1869.9,
+   "model_co2": 1286.0,
+   "model_coal_twh": 460.1,
+   "model_gas_twh": 2061.9,
+   "year": 2024
+  },
+  {
+   "gap_pct": -1.92,
+   "measured_co2": 1462.0,
+   "measured_coal_twh": 734.9,
+   "measured_gas_twh": 1811.0,
+   "model_co2": 1434.0,
+   "model_coal_twh": 697.3,
+   "model_gas_twh": 1848.7,
+   "year": 2025
   }
  ],
  "households_2035": [
@@ -492,17 +622,26 @@
   "inputs_sha256_16": {
    "library/text/m4-eia-aeo2026-tab18-combination.txt": "b1f1cb8f500b9102",
    "library/text/m4-eia-aeo2026-tab18-counterfactual.txt": "c76517faf98e2edd",
+   "library/text/m4-eia-epa-table-03_01_a.txt": "5c2d470e4764dccf",
+   "library/text/m4-eia-epa-table-03_01_b.txt": "247c8c90b973209f",
+   "library/text/m4-eia-epa-table-04_02_a.txt": "8b97379fb21e6faf",
+   "library/text/m4-eia-epa-table-04_02_b.txt": "783ba1f59abd3604",
+   "library/text/m4-eia-epa-table-07_04.txt": "0f7cb06a2e682ccc",
+   "library/text/m4-eia-mer-t11-06-power-co2.txt": "b51f9974277efa92",
+   "models/data/energy/eps-us-4.0.7-runs-2026-11-13-p2050.csv": "5566e5a36269c546",
    "models/data/energy/eps-us-4.0.7-runs-2026-11-13.csv": "f6bd2f8c612b1e1f",
    "models/data/inputs/carbon-parameters.csv": "1209e9fbd89f3e64",
    "models/data/inputs/excise-offset.csv": "8cc362a5d923b385",
    "models/tools/carbon/cfd-cex-2024.json": "11f4b296801bc20d",
    "models/tools/energy/assumptions.csv": "e0efde771afb1654",
-   "models/tools/energy/data.py": "45d30ff164c8c639",
+   "models/tools/energy/data.py": "fe967a0b16708948",
    "models/tools/energy/engine.js": "6bf12af1a0ef8882",
    "models/tools/energy/engine/cfd-households.js": "cf0b0d33ac3e8213",
    "models/tools/energy/engine/cfd-model.js": "5415d2807399d005",
+   "models/tools/energy/history.js": "4882d3c65521f29e",
+   "models/tools/energy/history.py": "be6b2fe69bea053f",
    "models/tools/energy/model.py": "91c7e0a6dd991a6f",
-   "models/tools/energy/run.py": "9ec8bf4d69ae96e9",
+   "models/tools/energy/run.py": "a021ec9e6a0bc395",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb"
   },
   "mc_draws": 60,

@@ -86,3 +86,19 @@ def eps_runs():
         for k in out:
             out[k][int(r["year"])] = float(r[k])
     return out
+
+
+# Espen's two runs of the plan's settings (spec sheet), version 4.0.7 web tool (November 13, 2026): total CO2e including land use.
+EPS_P2050 = os.path.join(ROOT, "models", "data", "energy", "eps-us-4.0.7-runs-2026-11-13-p2050.csv")
+
+
+def eps_p2050():
+    """{"run1_price": {year: Mt}, "run2_package": {year: Mt}}."""
+    import csv as _csv
+    with open(EPS_P2050, encoding="utf-8") as f:
+        rows = [r for r in f if not r.startswith("#")]
+    out = {"run1_price": {}, "run2_package": {}}
+    for r in _csv.DictReader(rows):
+        for k in out:
+            out[k][int(r["year"])] = float(r[k])
+    return out
