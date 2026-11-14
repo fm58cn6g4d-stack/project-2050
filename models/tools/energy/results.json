@@ -160,7 +160,7 @@
    "target": "EIA, Monthly Energy Review table 11.6",
    "tol": "average absolute gap 5% or less, and every year within 10%",
    "what": "History run, power sector: the engine's dispatch on each year's measured fleet, generation and fuel prices, 2015-2025, against EIA's measured coal and gas power CO2 (SRC-5052 to 5057)",
-   "why": "Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once (average gap 9.1%). The dispatch now splits each block of plants by the spread of fuel prices EIA measures across states (30% of the average price for coal, 20% for gas; SRC-5058 to SRC-5061) times a labeled calibration of 1.5 (assumptions.csv, fuel_spread_mult). That roughly halves the gap but does not close it. An earlier version left out 2021-22 for the coal shortage EIA documents (SRC-5062, SRC-5063). The monthly run (HI-2) does not support that: the same over-response appears, in the other direction, in months when stockpiles were full, and the stockpile adds nothing once prices are counted. So every year is scored, and the check fails. The engine still switches between coal and gas too readily when prices move; a carbon price works through the same switch, so its near-term power cut leans high (EP-1, EP-3). The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built."
+   "why": "Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once (average gap 9.1%). The dispatch now splits each block of plants by the spread of fuel prices EIA measures across states (30% of the average price for coal, 20% for gas; SRC-5058 to SRC-5061) times a labeled calibration of 1.5 (assumptions.csv, fuel_spread_mult). That roughly halves the gap but does not close it. An earlier version left out 2021-22 for the coal shortage EIA documents (SRC-5062, SRC-5063). The monthly run (HI-2) does not support that: the same over-response appears, in the other direction, in months when stockpiles were full, and the stockpile adds nothing once prices are counted. So every year is scored, and the check fails. The engine still switches between coal and gas too readily when prices move; a carbon price works through the same switch, so its near-term power cut leans high (EP-1, EP-3). The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built. **Damped switching, tested and not adopted** (`coalDamp` 0.6, assumptions.csv `coal_damp`): letting plants move only 60% of the way from last period's dispatch toward this period's narrows the yearly gap to 5.2% (still a fail) and the monthly gap to 6.9%, but only on the cheap-gas side (-8.2% in those months; +7.4% when gas is dear, nearly unchanged). It also cuts the engine's short-run elasticity of coal-and-gas CO2 to the gas price from 0.26 to 0.16; the published estimates the M4 research noted (Knittel, Metaxoglou and Trindade, NBER w21627, 2015) are to be checked before any damping is adopted. The remaining gap sits mostly in 2021-22, the dear-gas, short-coal months, where a lag cannot help."
   },
   {
    "id": "HI-2",
@@ -1331,15 +1331,15 @@
    "models/data/inputs/carbon-parameters.csv": "1209e9fbd89f3e64",
    "models/data/inputs/excise-offset.csv": "8cc362a5d923b385",
    "models/tools/carbon/cfd-cex-2024.json": "11f4b296801bc20d",
-   "models/tools/energy/assumptions.csv": "bc69ceb76be5dc40",
+   "models/tools/energy/assumptions.csv": "0f7325e0e127d266",
    "models/tools/energy/data.py": "f36b324e0b55e161",
    "models/tools/energy/engine.js": "02cfae2717d425cc",
    "models/tools/energy/engine/cfd-households.js": "cf0b0d33ac3e8213",
-   "models/tools/energy/engine/cfd-model.js": "813761bcde2122ea",
+   "models/tools/energy/engine/cfd-model.js": "6a70ccb6dd45a284",
    "models/tools/energy/history.js": "4882d3c65521f29e",
-   "models/tools/energy/history.py": "799b3ee741789e7f",
+   "models/tools/energy/history.py": "6d5db6f13804cfdb",
    "models/tools/energy/model.py": "35dd0b3933af75d8",
-   "models/tools/energy/run.py": "ffc5f6f7c0141725",
+   "models/tools/energy/run.py": "0602f9d5edfe9d49",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb"
   },
   "mc_draws": 60,
@@ -3556,32 +3556,32 @@
   },
   "retro1_stack": {
    "fy2040": {
-    "acp": 42.66,
-    "c1": 169.3,
+    "acp": 41.95,
+    "c1": 168.55,
     "c1p": 41.05,
-    "c2": 9.75,
+    "c2": 9.76,
     "c3": 1.24,
-    "credits": 62.86,
-    "dividend": 135.44,
-    "offset": -54.01,
-    "transition": 33.86
+    "credits": 63.61,
+    "dividend": 134.84,
+    "offset": -53.83,
+    "transition": 33.71
    },
    "label": "Sensitivity: retrofits at the research-based limits (scale 1), with 45Q paid on top of the carbon price avoided (stacking; memo 8)",
    "per_adult": {
     "2030": 121,
     "2035": 410,
-    "2040": 491
+    "2040": 489
    },
    "window_2030_39": {
-    "acp": 174.49,
-    "c1": 1199.19,
+    "acp": 172.4,
+    "c1": 1197.16,
     "c1p": 248.89,
-    "c2": 47.87,
+    "c2": 47.88,
     "c3": 21.86,
-    "credits": 1038.29,
-    "dividend": 959.35,
-    "offset": -370.35,
-    "transition": 239.84
+    "credits": 1040.69,
+    "dividend": 957.73,
+    "offset": -369.85,
+    "transition": 239.43
    },
    "years": {
     "2030": {
@@ -3615,34 +3615,34 @@
      "transport": 1622.0732
     },
     "2040": {
-     "below2005": 0.5163,
+     "below2005": 0.5171,
      "buildings": 353.6456,
-     "cleanShare": 0.8694,
-     "energy": 2901.5224,
+     "cleanShare": 0.8716,
+     "energy": 2897.1949,
      "evShare": 0.6714,
-     "ghgBelow2005": 0.5388,
+     "ghgBelow2005": 0.5395,
      "hp": 0.3792,
-     "industry": 849.5837,
+     "industry": 849.3566,
      "methane": 218.4508,
-     "power": 295.3024,
+     "power": 291.2033,
      "process": 233.4359,
-     "retail": 15.998,
-     "transport": 1402.9907
+     "retail": 15.9649,
+     "transport": 1402.9894
     },
     "2050": {
-     "below2005": 0.66,
+     "below2005": 0.6603,
      "buildings": 190.7623,
-     "cleanShare": 0.9662,
-     "energy": 2039.6725,
+     "cleanShare": 0.9668,
+     "energy": 2037.8498,
      "evShare": 0.99,
-     "ghgBelow2005": 0.6774,
+     "ghgBelow2005": 0.6776,
      "hp": 0.6583,
-     "industry": 808.4555,
+     "industry": 807.9444,
      "methane": 219.0509,
-     "power": 86.2969,
+     "power": 84.9865,
      "process": 203.5283,
-     "retail": 17.3246,
-     "transport": 954.1578
+     "retail": 17.3062,
+     "transport": 954.1567
     }
    }
   },
@@ -3740,32 +3740,32 @@
   },
   "retro_hi_stack": {
    "fy2040": {
-    "acp": 41.1,
-    "c1": 167.56,
+    "acp": 40.65,
+    "c1": 167.33,
     "c1p": 41.05,
-    "c2": 9.75,
+    "c2": 9.77,
     "c3": 1.24,
-    "credits": 64.43,
-    "dividend": 134.05,
-    "offset": -53.58,
-    "transition": 33.51
+    "credits": 68.09,
+    "dividend": 133.87,
+    "offset": -53.53,
+    "transition": 33.47
    },
    "label": "Sensitivity: retrofits at design capture and scale 2, with 45Q stacking on the carbon price (memo 8)",
    "per_adult": {
     "2030": 121,
-    "2035": 410,
-    "2040": 486
+    "2035": 411,
+    "2040": 485
    },
    "window_2030_39": {
-    "acp": 172.77,
-    "c1": 1197.39,
+    "acp": 172.96,
+    "c1": 1198.27,
     "c1p": 248.89,
     "c2": 47.87,
     "c3": 21.86,
-    "credits": 1039.97,
-    "dividend": 957.91,
-    "offset": -369.91,
-    "transition": 239.48
+    "credits": 1046.37,
+    "dividend": 958.61,
+    "offset": -370.12,
+    "transition": 239.65
    },
    "years": {
     "2030": {
@@ -3784,49 +3784,49 @@
      "transport": 1786.1456
     },
     "2035": {
-     "below2005": 0.406,
+     "below2005": 0.4053,
      "buildings": 468.6769,
-     "cleanShare": 0.7252,
-     "energy": 3563.1062,
+     "cleanShare": 0.7234,
+     "energy": 3567.6948,
      "evShare": 0.4227,
-     "ghgBelow2005": 0.4289,
+     "ghgBelow2005": 0.4282,
      "hp": 0.1854,
-     "industry": 893.6881,
-     "methane": 218.1605,
-     "power": 578.6679,
-     "process": 256.5457,
-     "retail": 14.9322,
-     "transport": 1622.0732
+     "industry": 893.8255,
+     "methane": 218.1995,
+     "power": 583.1066,
+     "process": 256.5461,
+     "retail": 14.9465,
+     "transport": 1622.0857
     },
     "2040": {
-     "below2005": 0.518,
+     "below2005": 0.5182,
      "buildings": 353.6456,
-     "cleanShare": 0.8742,
-     "energy": 2891.4834,
+     "cleanShare": 0.8757,
+     "energy": 2890.1028,
      "evShare": 0.6714,
-     "ghgBelow2005": 0.5403,
+     "ghgBelow2005": 0.5406,
      "hp": 0.3792,
-     "industry": 849.3854,
+     "industry": 848.9894,
      "methane": 218.4508,
-     "power": 285.4626,
-     "process": 233.4359,
-     "retail": 15.9478,
-     "transport": 1402.9899
+     "power": 284.4701,
+     "process": 233.4362,
+     "retail": 15.8796,
+     "transport": 1402.9977
     },
     "2050": {
-     "below2005": 0.6617,
+     "below2005": 0.6616,
      "buildings": 190.7623,
-     "cleanShare": 0.9694,
-     "energy": 2029.4411,
+     "cleanShare": 0.9698,
+     "energy": 2030.0554,
      "evShare": 0.99,
-     "ghgBelow2005": 0.6789,
+     "ghgBelow2005": 0.6788,
      "hp": 0.6583,
-     "industry": 806.309,
+     "industry": 805.1914,
      "methane": 219.0509,
-     "power": 78.214,
-     "process": 203.5282,
-     "retail": 17.2103,
-     "transport": 954.1559
+     "power": 79.9433,
+     "process": 203.5283,
+     "retail": 17.1675,
+     "transport": 954.1584
     }
    }
   },
