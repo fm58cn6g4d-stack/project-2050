@@ -12,11 +12,11 @@ The standard asks for 80% clean power by 2035 and 100% by 2040. On the energy mo
 
 ## What the evidence says, in five lines
 
-1. **The grid is the limit.** Transmission must roughly double its growth rate [EV-CLP-400]; the typical project built in 2025 waited about 61 months to connect [{LBNL}] and 13% of requests are built [EV-CLP-408]; only about 435 miles of 345 kV and above were built in 2025 [{GS}]. The energy model finds grid access, not price, limits wind and solar (SRC-0077).
+1. **The grid is the limit.** Transmission must roughly double its growth rate [EV-CLP-400]; the typical project built in 2025 waited about 61 months to connect [EV-CLP-733] and 13% of requests are built [EV-CLP-408]; only about 435 miles of 345 kV and above were built in 2025 [EV-CLP-734]. The energy model finds grid access, not price, limits wind and solar (SRC-0077).
 2. **On the model, the standard adds little carbon when the grid binds.** Its layer cuts about 315 Mt of CO2 over 2030-50 (summed year by year) and slightly raises 2035 emissions, while suppliers pay about $193 billion over FY2030-39 at that layer (`../design-test.md`). The cap's level barely matters for carbon: at $20, $40 or $60 the 2035 cut is 41% in all three, while payments are $85, $163 or $229 billion.
 3. **Grid access is the strongest lever the model has.** A full-strength builder cuts about 1.43 Gt more over 2030-50, with clean power at 92% in 2040 and the price at 15.5 cents against 16.1 (`../design-test.md`). The engine treats it generously (ramped in by 2032, added on top of permitting, no supply limit), so this is an upper bound.
-4. **Money is rarely what binds.** Siting authority, cost allocation, equipment and lead times are. WAPA's $3.25 billion loan authority has financed two lines in seventeen years [{WAPA}]; DOE cancelled its last three national-interest corridors partly for lack of developer interest in federal backstop siting [{NIETC}]; transformers run about 30% short with lead times over two years [{XFMR}].
-5. **Building lines across states is slow whoever pays:** the Grain Belt Express lost its federal guarantee in 2025 [EV-CLP-435] [EV-CLP-437], and SunZia took 17 years to permit. Money alone does not site a line.
+4. **Money is rarely what binds.** Siting authority, cost allocation, equipment and lead times are. WAPA's $3.25 billion loan authority has financed two lines in seventeen years [EV-CLP-738] [EV-CLP-739]; DOE cancelled its last three national-interest corridors partly for lack of developer interest in federal backstop siting [EV-CLP-736] [EV-CLP-737]; transformers ran about 30% short in 2025, mostly imported [EV-CLP-747].
+5. **Building lines across states is slow whoever pays:** the Grain Belt Express lost its federal guarantee in 2025 [EV-CLP-435] [EV-CLP-437], and SunZia took almost two decades to permit, plan and finance [EV-CLP-756]. Money alone does not site a line.
 
 ## The options as weighed
 
@@ -54,10 +54,10 @@ It aims the payments at the cause of the shortfall: the more the grid grows, the
 **Ready-to-build.** A transmission line or upgrade is ready to build when it has (1) accepted cost allocation in a FERC-approved plan, or a signed offtake or anchor contract, (2) siting under way with the lead state or FERC (application filed), and (3) its long-lead equipment (transformers, breakers, conductor) procured or reserved. Reconductoring and grid-enhancing technologies on existing rights of way meet (2) by definition. DOE certifies the list each year and publishes it with the account's size: the sum of what those projects can draw that year. Working choice, from the research in `../design-test.md`; it uses the plans, filings and contracts that already exist rather than a new review.
 
 **What the account pays for, in order** (working choice):
-1. **Reconductoring and grid-enhancing technologies first**, including on Bonneville's, WAPA's, the other power marketing administrations' and TVA's own systems (about 14% of US transmission [{PMA}]). These add capacity in 18-36 months per project on existing rights of way.
-2. **Risk instruments rather than capital that rates repay:** capacity contracts that anchor stranded or merchant lines, and first-loss cover for interregional and cross-seam lines, where the needs study finds the most value [{NEEDS}]. The builder's own capital stays on its borrowing authority and rates (CLI-10.02, CLI-10.03).
-3. **A pooled DOE equipment reserve** for transformers, breakers and conductor, sold on at cost to ready-to-build projects, to cut the lead times that bind [{XFMR}].
-4. **Host-community and state siting grants**, replacing the rescinded IRA §50152 [{OBBBA}].
+1. **Reconductoring and grid-enhancing technologies first**, including on Bonneville's, WAPA's, the other power marketing administrations' and TVA's own systems (about 14% of US transmission [EV-CLP-749]). These add capacity in 18-36 months per project on existing rights of way.
+2. **Risk instruments rather than capital that rates repay:** capacity contracts that anchor stranded or merchant lines, and first-loss cover for interregional and cross-seam lines, where the needs study finds the most value [EV-CLP-755]. The builder's own capital stays on its borrowing authority and rates (CLI-10.02, CLI-10.03).
+3. **A pooled DOE equipment reserve** for transformers, breakers and conductor, sold on at cost to ready-to-build projects, to cut the lead times that bind [EV-CLP-747].
+4. **Host-community and state siting grants**, replacing the rescinded IRA §50152 [EV-CLP-754].
 5. **Borrowing against future payments** for early, fast assets, since no payments arrive in FY2030-31.
 
 **Unspent payments** are general-fund receipts in the year collected. The account does not carry a balance beyond one year (working choice), so it cannot grow into a standing fund.
