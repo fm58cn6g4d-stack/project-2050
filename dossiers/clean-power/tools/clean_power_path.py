@@ -68,7 +68,10 @@ GRID2 = {2030: 0, 2031: 0, 2032: 0, 2033: 3, 2034: 6, 2035: 8, 2036: 9, 2037: 10
 # ---- 4. Memo 5 B: the automatic bill credit ---------------------------------------------------------------------------
 # Inside the booked add-ons' energy line through FY2039 (EV-CLP-721: $0.12T for LIHEAP, Weatherization and water help;
 # the credit's added cost is about $0.08T). From FY2040 the credit is permanent and the add-ons are not: about $8B a year
-# above today's LIHEAP in 2030 dollars (EV-CLP-035, EV-CLP-038), grown 2.2% a year: about $9.7B in FY2040.
+# above today's LIHEAP in 2030 dollars (EV-CLP-035, EV-CLP-038), grown 2.2% a year: about $9.9B in FY2040.
+# Working assumptions (judgment): reach rises in proportion to money (three times the money, three times today's 17%
+# reach); 2.2% a year is a price-growth assumption for energy bills, not a sourced figure. Who is matched and the average
+# credit are in 6-cost.md, memo 5 B (milestone review O-2).
 BILLS = {y: 0.0 for y in W}
 BILLS[2040] = round(8.0 * 1.022 ** 10, 1)
 
@@ -88,11 +91,12 @@ G = dict(
     hours=0.8,                  # hours worked as a share of the old schedule (the top-up counts hours up to the old schedule)
     months_paid=20,             # months of the two years with a job, after a search
     ui=0.35,                    # unemployment benefits as a share of capped prior pay, for 6 months (counted toward the 90%)
-    train_months=12, train_cost=20000,
+    train_months=12,            # months of training paid at 90% (judgment)
+    train_cost=20000,           # the retraining account's cap, CLI-11.03 [EV-CLP-529]
     db_waiver=170000,           # Treasury's cost of the plan paying an unreduced pension from layoff (about 7 years early)
     tax_per_year=0.15,          # $B of local property tax lost each year as closures accumulate (plants, mines, refineries)
     refi_subsidy=0.25,          # $B: Treasury's credit cost on ratepayer-backed refinancing bonds over the window
-    admin=0.05,                 # administration as a share of payments (state UI agencies as Labor's agents)
+    admin=0.05,                 # administration as a share of payments (state UI agencies as Labor's agents; judgment)
 )
 
 
@@ -114,8 +118,10 @@ def memo7():
     for y in Y:
         grow = 1.03 ** (y - 2030)
         # worker payments: each year's closures are paid over about two years; the first year's cohort half in FY2030
+        # (judgment: closures spread through the year, so FY2030 carries about half a year's payments)
         workers = per * grow * (0.5 if y == 2030 else 1.0)
-        # places: replacement starts at the full lost tax and falls 10 points a year for ten years, cohort by cohort
+        # places: replacement starts at the full lost tax and falls 10 points a year for ten years, cohort by cohort;
+        # local tax grows 2% a year (judgment: assessed values roughly with prices)
         places = sum(G["tax_per_year"] * max(0.0, 1 - 0.1 * (y - c)) for c in range(2030, y + 1)) * 1.02 ** (y - 2030)
         refi = G["refi_subsidy"] / 10 if y <= 2039 else 0.0
         out[y] = workers + places + refi
@@ -123,8 +129,17 @@ def memo7():
 
 
 # ---- 6. Assemble --------------------------------------------------------------------------------------------------
-PLAN_GAP_FY2040 = 4256.6     # plan-wide FY2040 general-fund primary gap, $B short, case `mixed` (models/data/recovery-budget-paths.csv)
-GDP_FY2040 = 54167.0
+def plan_gap_fy2040():
+    """The plan-wide FY2040 general-fund primary gap ($B short) and GDP, case `mixed`, read from the budget model's paths
+    file at the current head (not hard-coded: milestone review F-1)."""
+    with open(os.path.join(ROOT, "models/data/recovery-budget-paths.csv")) as f:
+        for r in csv.DictReader(f):
+            if r["case"] == "mixed" and r["year"] == "2040":
+                return float(r["agenda_gf_primary_bn"]), float(r["gdp_bn"])
+    raise SystemExit("recovery-budget-paths.csv has no mixed FY2040 row")
+
+
+PLAN_GAP_FY2040, GDP_FY2040 = plan_gap_fy2040()
 
 
 def main():
@@ -152,8 +167,10 @@ def main():
     print(f"\nshare_B by year: " + " ".join(f"{y}:{share[y]:.3f}" for y in Y))
     print(f"memo 7 B per year's closures (2030 dollars): ${guarantee_per_cohort():.2f}B")
     print(f"FY2040: decided set ${tot[2040]:.1f}B = {100 * tot[2040] / GDP_FY2040:.2f}% of GDP; "
-          f"{100 * tot[2040] / PLAN_GAP_FY2040:.1f}% of the plan-wide gap (${PLAN_GAP_FY2040}B); change {chg[2040]:+.1f}B "
+          f"{100 * tot[2040] / PLAN_GAP_FY2040:.1f}% of the plan-wide gap (${PLAN_GAP_FY2040:.1f}B); change {chg[2040]:+.1f}B "
           f"= {100 * chg[2040] / PLAN_GAP_FY2040:+.2f}% of the gap")
+    ts40 = 0.2 * rows["CX"][2040] / OFFSET * C1_SHARE_OF_CX * share[2040]
+    print(f"Transition share in FY2040 under B (20% of the receipts still raised): ${ts40:.1f}B")
     d35 = model[2035]
     print(f"Dividend per adult 2035 (nominal): package ${d35['dividend_adult_package']:.0f}, B ${d35['dividend_adult_B']:.0f}")
     return dict(rows=rows, cx=cx, c5=c5, grid2=GRID2, bills=BILLS, g7=g7, change=chg, total=tot, share=share)
