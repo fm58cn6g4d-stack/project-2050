@@ -76,6 +76,6 @@ This builds on the legacy transmission work, cited by ID, and says where the new
 
 ## Next
 
-- The booking change for memo 9 B (tier 3, separate PR): CLI-3A's pay-out becomes grid-account outlays sized to ready-to-build need, with the rest kept as receipts.
+- The standard's payments are booked as general-fund receipts, with no grid account (`DEC-2026-11-14-02`; `6-cost.md`, part 6, 6a).
 - M4's run of the builder at full strength plus permitting (`permit_bld_hi`) is in #369; quoted here once it merges.
-- CLI-10.03's siting text is corrected in `4-specification.md` (see the PR).
+- CLI-10.03's siting text is corrected, and the eastern corporation has eminent domain on TVA's model (`DEC-2026-11-14-03`).

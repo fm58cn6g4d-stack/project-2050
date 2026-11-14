@@ -51,7 +51,7 @@ It aims the payments at the cause of the shortfall: the more the grid grows, the
 
 ## The grid account
 
-**Superseded in part by `DEC-2026-11-14-02`:** all of the standard's payments are now general-fund receipts and there is no grid account; grid build-out is paid from the general fund through CLI-10. The analysis below stands as the record of why. 
+*Superseded in part by `DEC-2026-11-14-02`; see Consequences.* 
 
 **Ready-to-build.** A transmission line or upgrade is ready to build when it has (1) accepted cost allocation in a FERC-approved plan, or a signed offtake or anchor contract, (2) siting under way with the lead state or FERC (application filed), and (3) its long-lead equipment (transformers, breakers, conductor) procured or reserved. Reconductoring and grid-enhancing technologies on existing rights of way meet (2) by definition. DOE certifies the list each year and publishes it with the account's size: the sum of what those projects can draw that year. Working choice, from the research in `../design-test.md`; it uses the plans, filings and contracts that already exist rather than a new review.
 
