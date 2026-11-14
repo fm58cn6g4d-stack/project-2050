@@ -9,11 +9,11 @@ class IntegrationTests(unittest.TestCase):
   for case in C.DATA['budget']['cases']:
    for y in range(2030,2057):
     a=C.account(y,case)
-    # The export's accounts are at a 25% offset; CXP is booked at JCT's rate (DEC-2026-11-12-08).
-    rate_gap=(C.offset_rate(y)-.25)*a['added_receipts_bn']
+    # The export's accounts use the offset rate it records (24.4% since #289's rebuild); CXP is booked at JCT's rate (DEC-2026-11-12-08).
+    rate_gap=(C.offset_rate(y)-C.DATA['budget']['channel']['cx_share'])*a['added_receipts_bn']
     self.assertAlmostEqual(sum(C.delta_rows(y,case).values()),a['general_fund_net_cost_bn']+a['d4b_net_cost_bn']+rate_gap,places=8)
     self.assertAlmostEqual(a['added_receipts_bn'],a['process_receipts_bn']+a['combustion_receipts_change_bn'],places=9)
-    self.assertAlmostEqual(a['cx_cost_bn'],.25*a['added_receipts_bn'],places=9)
+    self.assertAlmostEqual(a['cx_cost_bn'],C.DATA['budget']['channel']['cx_share']*a['added_receipts_bn'],places=9)
     self.assertAlmostEqual(a['dividend_bn'],.8*a['added_receipts_bn']-a['process_dividend_diversion_bn'],places=9)
     self.assertLessEqual(a['process_dividend_diversion_bn'],.8*a['process_receipts_bn']+1e-8)
  def test_maturity_all_four_cases(self):

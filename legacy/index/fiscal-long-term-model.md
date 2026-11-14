@@ -97,7 +97,7 @@ All program scenarios include every program row (with MOV-31 and DEM-3, which th
 | 2036 | 3,734 | 7.99 | 27.05 | 3,235 | 282 | 19.41 | 14.5 | 142.4 | 123.0 |
 | 2037 | 3,941 | 8.13 | 35.42 | 3,424 | 436 | 26.67 | 14.9 | 152.0 | 125.4 |
 | 2038 | 4,175 | 8.30 | 43.99 | 3,639 | 598 | 34.12 | 15.5 | 161.9 | 127.8 |
-| 2039 | 4,376 | 8.38 | 52.67 | 3,820 | 775 | 41.69 | 16.0 | 172.0 | 130.3 |
+| 2039 | 4,377 | 8.38 | 52.67 | 3,820 | 775 | 41.69 | 16.0 | 172.0 | 130.3 |
 | 2040 | 4,529 | 8.36 | 61.35 | 3,960 | 967 | 49.27 | 16.3 | 182.0 | 132.7 |
 | 2042 | 5,017 | 8.60 | 79.21 | 4,423 | 1,408 | 64.95 | 17.5 | 202.7 | 137.8 |
 | 2045 | 5,782 | 8.88 | 107.17 | 5,148 | 2,218 | 89.71 | 19.1 | 235.5 | 145.8 |
@@ -224,7 +224,7 @@ General-fund basis for most rows. SS-1 is shown on its unified basis. % of GDP i
 | CLI-7K | spending | out_other_mandatory | 0.112 | 0.025 | 0.000 | 0.000 | Exact climate annual override, conservative Package A/O5; see climate-adoption.json |
 | CLI-9 | spending | out_other_mandatory | 0.110 | 0.036 | 0.000 | 0.000 | Exact climate annual override, conservative Package A/O5; see climate-adoption.json |
 | CLI-13F | spending | out_other_mandatory | 0.025 | 0.005 | 0.000 | 0.000 | Exact climate annual override, conservative Package A/O5; see climate-adoption.json |
-| CLI-2O | spending | out_other_mandatory | -0.092 | -0.012 | -0.015 | -0.022 | Exact climate annual override, conservative Package A/O5; see climate-adoption.json |
+| CLI-2O | spending | out_other_mandatory | -0.091 | -0.012 | -0.015 | -0.022 | Exact climate annual override, conservative Package A/O5; see climate-adoption.json |
 | G1 | base revenue | rev_corporate | -1.650 | -0.369 | -0.379 | -0.391 |  |
 | H1b | base revenue | rev_individual | -0.500 | -0.115 | -0.119 | -0.126 |  |
 | HX | base revenue | rev_individual | -4.835 | -1.751 | -1.928 | -2.130 | Ending the employer tax exclusion as groups move (HLT-7.22); shape from the dossier's path (fiscal-years.csv); grows with premiums after 2039 (CBO's Medicare category, as C19b); perm fitted so FY2040 is the path's $966B after part 6's federal-coverage correction ($1,043B before) |

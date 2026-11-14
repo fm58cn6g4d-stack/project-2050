@@ -61,8 +61,8 @@ Delaying C19b/C20 to a three-year 2033–35 phase-in forgoes $0.360T; these rece
 
 | Case | GF primary 2030–39 ($T) | Extra net receipts needed at maturity (% GDP) | FY2040 GF gap ($B) | Total debt/GDP 2056 | FY2056 extra primary adjustment for flat debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Education reference | 23.279 | 9.398% | 4347.3 | 367.0% | 13.23% GDP |
-| Recovery: delay C19b/C20 | 23.639 | 9.398% | 4347.3 | 368.1% | 13.24% GDP |
+| Education reference | 23.279 | 9.398% | 4347.2 | 367.0% | 13.23% GDP |
+| Recovery: delay C19b/C20 | 23.639 | 9.398% | 4347.2 | 368.1% | 13.24% GDP |
 | Recovery downside | 24.879 | 9.706% | 4502.6 | 376.6% | 13.60% GDP |
 | Recovery plus housing/service space | 24.140 | 9.579% | 4449.7 | 372.6% | 13.45% GDP |
 | Recovery plus housing/service space downside | 25.380 | 9.887% | 4605.0 | 381.2% | 13.82% GDP |
@@ -96,7 +96,7 @@ Average annual net benefit by quintile, dollars per household. All existing bene
 | 2036 | 9,360 | 6,684 | 2,703 | -2,433 |
 | 2037 | 9,833 | 7,021 | 2,812 | -2,594 |
 | 2038 | 10,192 | 7,272 | 2,911 | -2,693 |
-| 2039 | 10,606 | 7,588 | 3,075 | -2,742 |
+| 2039 | 10,607 | 7,588 | 3,075 | -2,742 |
 
 ## Trust-fund redesign comparisons
 

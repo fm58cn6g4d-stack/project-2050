@@ -18,10 +18,10 @@ The climate package's own mature-year delta is zero in the conservative case (se
 
 | Climate case | GF 2030–39 $B | D4-B capital $B | GF 2040 $B | GF 2050 $B |
 | --- | ---: | ---: | ---: | ---: |
-| favorable | -208.8 | 108.0 | -48.8 | 0.0 |
-| central | 20.3 | 151.9 | -17.2 | 0.0 |
-| conservative | 95.5 | 151.9 | 0.0 | 0.0 |
-| unfavorable | 234.4 | 212.3 | 0.0 | 0.0 |
+| favorable | -209.4 | 108.0 | -48.8 | 0.0 |
+| central | 19.6 | 151.9 | -17.1 | 0.0 |
+| conservative | 94.9 | 151.9 | 0.0 | 0.0 |
+| unfavorable | 234.0 | 212.3 | 0.0 | 0.0 |
 
 ## Accounting choices
 

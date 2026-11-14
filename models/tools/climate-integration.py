@@ -27,7 +27,7 @@ def delta_rows(y,case=CASE):
     rows={rid:item(i,y,case) for i,rid in CONFIG['item_rows'].items()}
     rows.update({rid:share*item('credits',y,case) for rid,share in CONFIG['credit_split'].items()})
     # CXP at JCT's offset rate (excise-offset.csv, DEC-2026-11-12-08). The pinned export computes its O5
-    # accounts at 25% (cx_cost_bn); the booking differs from them by (rate - 0.25) x added receipts.
+    # accounts at the same rate since its rebuild (#289), so the booking and the export now agree.
     rows['CXP']=offset_rate(y)*a['added_receipts_bn']
     rows['CLI-2O']=a['dividend_bn']-a['added_receipts_bn']
     return rows

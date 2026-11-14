@@ -121,7 +121,7 @@ The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill f
 | CLI-13A | R2 | FY2030-2039 | 30.8 | 38.3 |
 | CLI-13F | R2 | FY2030-2039 | 24.6 | 0.0 |
 | CLI-2 | R2 | FY2030-2039 | 0.0 | 0.0 |
-| CLI-2O | R2 | FY2030-2039 | -91.5 | -101.5 |
+| CLI-2O | R2 | FY2030-2039 | -91.5 | -101.6 |
 | CLI-5L | R2 | FY2030-2039 | 7.2 | 20.2 |
 | CLI-5W | R2 | FY2030-2039 | 84.0 | 0.0 |
 | CLI-7C | R2 | FY2030-2039 | 3.4 | 4.6 |
