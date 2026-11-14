@@ -269,7 +269,7 @@ Together they close health's FY2040 cost ($1,060B + $207B + $2,827B = $4,094B). 
 3. Memo F3, the states' share: A (50%), B (80%, recommended), C (100%) or D (none)?
 4. Part B4's four yes-or-no points.
 
-**At stage G (no answer needed now):**
+**At stage G, the full settlement after stage F, which re-audits what this checkpoint settles (Espen, November 14; no answer needed now):**
 1. The rate structure of the health contribution: one rate, or a lower first tier with more at the top.
 2. How strictly to phase revenue to the FY2040 test and the decade's debt path (part C).
 3. The states' shares across health, long-term care, child care and pre-K, together (`DEC-2026-11-11-05`).
