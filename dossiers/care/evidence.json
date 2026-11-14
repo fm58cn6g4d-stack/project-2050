@@ -13405,5 +13405,29 @@
     "stance": "qualifies"
    }
   ]
+ },
+ {
+  "id": "EV-CAR-717",
+  "statement": "In 2024 the federal government sponsored 31 percent of national health spending, households 28 percent, private businesses 18 percent, state and local governments 16 percent and other private revenues 6 percent.",
+  "claim": "data",
+  "figures": [
+   "2024",
+   "31 percent",
+   "28 percent",
+   "18 percent",
+   "16 percent",
+   "6 percent"
+  ],
+  "source": "SRC-3104",
+  "anchor": "The largest shares of total health spending were sponsored by the federal government (31 percent) and the households (28 percent). The private business share of health spending accounted for 18 percent of total health care spending, state and local governments accounted for 16 percent, and other private revenues accounted for 6 percent.",
+  "locator": "Historical NHE, 2024",
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-14",
+  "recheck": "2026-12-15",
+  "context": "CMS Office of the Actuary, National Health Expenditure Accounts by type of sponsor, 2024 data released December 2025, second Trump administration; official accounts. Sponsor shares assign premiums to whoever pays them (employers or households) and count payroll taxes for Medicare to employers and households, so they differ from shares by payer (EV-CAR-121).",
+  "supports": [
+   "dossiers/foundations/checkpoint-financing.md"
+  ]
  }
 ]
