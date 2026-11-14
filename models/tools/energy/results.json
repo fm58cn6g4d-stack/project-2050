@@ -88,7 +88,7 @@
    "target": "EPS: 2030: coal 546 to 266, wind and solar +0, fossil with capture 0; 2035: coal 353 to 0, wind and solar +716, fossil with capture 762; 2040: coal 278 to 0, wind and solar +650, fossil with capture 899",
    "tol": "reported",
    "what": "Same settings, two models: power plants under the price alone (EP-1's runs): coal generation without and with the price, the extra wind and solar, and fossil generation with carbon capture, TWh",
-   "why": "Both models start 2030 with about the same coal under current policies (524 and 546 TWh), so the difference is the response, not the starting fleet. In 2030, the price's first year, this engine runs 88% less coal and has already added 308 TWh of wind and solar, because its investors build ahead on the expected price; EPS runs 51% less coal and adds none yet. Its coal-to-gas switching in the first year is likely too strong (HI-1). By 2035 both have added about the same wind and solar (724 and 716 TWh). The difference is carbon capture: EPS fits it to existing coal and gas plants, 762 TWh in 2035 (396 from coal), so its gas and coal burn without capture falls far faster; this engine builds capture only on new gas plants (67 TWh) and has no retrofits. Retrofitting most of the coal fleet within five years is far beyond anything built so far, so EPS's 2035 power cut leans high on that count, and this engine's leans low if retrofits prove feasible at scale."
+   "why": "Both models start 2030 with about the same coal under current policies (524 and 546 TWh), so the difference is the response, not the starting fleet. In 2030, the price's first year, this engine runs 88% less coal and has already added 308 TWh of wind and solar, because its investors build ahead on the expected price; EPS runs 51% less coal and adds none yet. Its coal-to-gas switching in the first year is likely too strong (HI-1). By 2035 both have added about the same wind and solar (724 and 716 TWh). The difference is carbon capture: EPS fits it to existing coal and gas plants, 762 TWh in 2035 (396 from coal), so its gas and coal burn without capture falls far faster. This engine now has a retrofit option (assumptions.csv, ccs_retrofit_*), but on EPA's costs (IPM Table 6-2: a third of a coal unit's output lost, 44% more fuel per MWh), 75% capture in operation (Boundary Dam 3 managed at most 63% a year) and about seven years to build, no retrofit pays under this price before the late 2030s, so the engine builds none here (67 TWh of capture, all on new gas plants). Run on EPS's own retrofit terms as read from its code (95% capture, no capacity lost, one year to build, every plant eligible), the same engine's price-only run cuts 1,048 Mt by 2035 instead of 792 (768 TWh from retrofitted plants), against EPS's 962: those terms alone more than close the 2035 gap between the two models (151% of it). Retrofitting most of the coal fleet within five years is far beyond anything built so far, so EPS's 2035 power cut leans high on that count."
   },
   {
    "id": "PR-1",
@@ -1331,15 +1331,15 @@
    "models/data/inputs/carbon-parameters.csv": "1209e9fbd89f3e64",
    "models/data/inputs/excise-offset.csv": "8cc362a5d923b385",
    "models/tools/carbon/cfd-cex-2024.json": "11f4b296801bc20d",
-   "models/tools/energy/assumptions.csv": "a1dd03d2bc4a4a15",
+   "models/tools/energy/assumptions.csv": "bc69ceb76be5dc40",
    "models/tools/energy/data.py": "f36b324e0b55e161",
-   "models/tools/energy/engine.js": "6bf12af1a0ef8882",
+   "models/tools/energy/engine.js": "529054c11fc48848",
    "models/tools/energy/engine/cfd-households.js": "cf0b0d33ac3e8213",
-   "models/tools/energy/engine/cfd-model.js": "8039785a3d4415b8",
+   "models/tools/energy/engine/cfd-model.js": "0e6c615cf6bba12f",
    "models/tools/energy/history.js": "4882d3c65521f29e",
    "models/tools/energy/history.py": "32e9e95c04e0f779",
-   "models/tools/energy/model.py": "513064417db9dffd",
-   "models/tools/energy/run.py": "647d861d3fa3fb40",
+   "models/tools/energy/model.py": "6d81e913ed9118e6",
+   "models/tools/energy/run.py": "4cedc97291a4846d",
    "models/tools/transportation/moving_america.py": "3cc781a2a1312dbb"
   },
   "mc_draws": 60,
@@ -3183,6 +3183,190 @@
      "process": 226.2813,
      "retail": 17.2401,
      "transport": 1430.1247
+    }
+   }
+  },
+  "retro1": {
+   "fy2040": {
+    "acp": 41.42,
+    "c1": 167.78,
+    "c1p": 43.17,
+    "c2": 9.25,
+    "c3": 1.24,
+    "credits": 62.69,
+    "dividend": 134.22,
+    "offset": -54.03,
+    "transition": 33.56
+   },
+   "label": "Sensitivity: the decided set with carbon-capture retrofits on existing plants at the research-based limits (scale 1)",
+   "per_adult": {
+    "2030": 120,
+    "2035": 405,
+    "2040": 486
+   },
+   "window_2030_39": {
+    "acp": 162.61,
+    "c1": 1185.16,
+    "c1p": 264.95,
+    "c2": 44.05,
+    "c3": 21.86,
+    "credits": 1037.03,
+    "dividend": 948.13,
+    "offset": -369.91,
+    "transition": 237.03
+   },
+   "years": {
+    "2030": {
+     "below2005": 0.3052,
+     "buildings": 565.8309,
+     "cleanShare": 0.565,
+     "energy": 4168.3708,
+     "evShare": 0.195,
+     "ghgBelow2005": 0.3198,
+     "hp": 0.0264,
+     "industry": 960.8132,
+     "methane": 264.3116,
+     "power": 855.5751,
+     "process": 307.336,
+     "retail": 14.1497,
+     "transport": 1786.1515
+    },
+    "2035": {
+     "below2005": 0.4083,
+     "buildings": 468.6875,
+     "cleanShare": 0.7316,
+     "energy": 3549.7292,
+     "evShare": 0.4227,
+     "ghgBelow2005": 0.4282,
+     "hp": 0.1854,
+     "industry": 901.9289,
+     "methane": 218.1605,
+     "power": 557.0328,
+     "process": 274.4475,
+     "retail": 14.9395,
+     "transport": 1622.08
+    },
+    "2040": {
+     "below2005": 0.5176,
+     "buildings": 353.6536,
+     "cleanShare": 0.8732,
+     "energy": 2893.8624,
+     "evShare": 0.6714,
+     "ghgBelow2005": 0.5381,
+     "hp": 0.3792,
+     "industry": 854.9598,
+     "methane": 218.4508,
+     "power": 282.251,
+     "process": 245.6129,
+     "retail": 16.058,
+     "transport": 1402.998
+    },
+    "2050": {
+     "below2005": 0.656,
+     "buildings": 190.7666,
+     "cleanShare": 0.9586,
+     "energy": 2063.3704,
+     "evShare": 0.99,
+     "ghgBelow2005": 0.673,
+     "hp": 0.6583,
+     "industry": 814.2242,
+     "methane": 219.0509,
+     "power": 104.2166,
+     "process": 208.0748,
+     "retail": 17.57,
+     "transport": 954.1631
+    }
+   }
+  },
+  "retro_hi": {
+   "fy2040": {
+    "acp": 41.42,
+    "c1": 167.78,
+    "c1p": 43.17,
+    "c2": 9.25,
+    "c3": 1.24,
+    "credits": 62.69,
+    "dividend": 134.22,
+    "offset": -54.03,
+    "transition": 33.56
+   },
+   "label": "Sensitivity: the decided set with retrofits at design capture (90%) and twice the yearly rate and ceiling (scale 2)",
+   "per_adult": {
+    "2030": 120,
+    "2035": 405,
+    "2040": 486
+   },
+   "window_2030_39": {
+    "acp": 162.61,
+    "c1": 1185.16,
+    "c1p": 264.95,
+    "c2": 44.05,
+    "c3": 21.86,
+    "credits": 1037.03,
+    "dividend": 948.13,
+    "offset": -369.91,
+    "transition": 237.03
+   },
+   "years": {
+    "2030": {
+     "below2005": 0.3052,
+     "buildings": 565.8309,
+     "cleanShare": 0.565,
+     "energy": 4168.3708,
+     "evShare": 0.195,
+     "ghgBelow2005": 0.3198,
+     "hp": 0.0264,
+     "industry": 960.8132,
+     "methane": 264.3116,
+     "power": 855.5751,
+     "process": 307.336,
+     "retail": 14.1497,
+     "transport": 1786.1515
+    },
+    "2035": {
+     "below2005": 0.4083,
+     "buildings": 468.6875,
+     "cleanShare": 0.7316,
+     "energy": 3549.7292,
+     "evShare": 0.4227,
+     "ghgBelow2005": 0.4282,
+     "hp": 0.1854,
+     "industry": 901.9289,
+     "methane": 218.1605,
+     "power": 557.0328,
+     "process": 274.4475,
+     "retail": 14.9395,
+     "transport": 1622.08
+    },
+    "2040": {
+     "below2005": 0.5176,
+     "buildings": 353.6536,
+     "cleanShare": 0.8732,
+     "energy": 2893.8624,
+     "evShare": 0.6714,
+     "ghgBelow2005": 0.5381,
+     "hp": 0.3792,
+     "industry": 854.9598,
+     "methane": 218.4508,
+     "power": 282.251,
+     "process": 245.6129,
+     "retail": 16.058,
+     "transport": 1402.998
+    },
+    "2050": {
+     "below2005": 0.6596,
+     "buildings": 190.7666,
+     "cleanShare": 0.9671,
+     "energy": 2041.9268,
+     "evShare": 0.99,
+     "ghgBelow2005": 0.6763,
+     "hp": 0.6583,
+     "industry": 813.4411,
+     "methane": 219.0509,
+     "power": 83.5561,
+     "process": 208.0748,
+     "retail": 17.4762,
+     "transport": 954.163
     }
    }
   },
