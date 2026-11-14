@@ -57,7 +57,7 @@ Role: section 7 of the clean power dossier: how the costs and results in section
 The legacy read (`tools/coverage_read.py`) gave +62, +46, −6, −154 and −654: the energy model's electricity cost is lower because it nets the credits out of retail prices (its BI-1 benchmark). Its electricity column includes the standard's payments (#350). Under B:
 - **The bottom two-fifths come out ahead on average, nationally** (about $97 and $81 a year), and the middle fifth about even.
 - **The top two-fifths pay more than they get** on the carbon channel, through goods.
-- **These are the carbon channel alone.** They include the standard's payments in electricity (part 2, about 0.6 cents a kilowatt-hour by 2040) but leave out the bill credit that returns them (about $12 billion a year to households on SNAP, SSI, FDPIR or LIHEAP). The D3 test with every plan layer is the household model's, at the booking.
+- **These are the carbon channel alone.** They include the standard's payments in electricity (part 2, about 0.6 cents a kilowatt-hour by 2040) but leave out the bill credit (about $12 billion a year to households on SNAP, SSI, FDPIR or LIHEAP), which no longer returns them: under memo 9 B they fund the grid account and the rest are general-fund receipts (`DEC-2026-11-13-14`). The D3 test with every plan layer is the household model's, at the booking.
 
 **Illustrative households** (2035, on the energy model; nominal dividend):
 

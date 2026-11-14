@@ -125,7 +125,7 @@ base revenue,IF1T,,rev_individual,,1,gdp,,0.981049,,,"H-1B fee offset: shape fro
 bill,CLI-10,,out_other_mandatory,,1,gdp,,0.0,,,"Time-limited capital (D4-B): shape in fiscal-years.csv, none after FY2039 (clean power booking)"
 bill,CLI-5H,,out_other_mandatory,2040,1,cpi,,,,,"Nothing in FY2030-39 (inside CLI-5); from FY2040 fiscal-after.csv, then CPI (clean power booking)"
 bill,CLI-11,,out_other_mandatory,,1,gdp,,0.797989,,,"Shape in fiscal-years.csv; perm fitted so FY2040 is the path's $0.7B, then GDP (clean power booking)"
-bill,CLI-3A,,out_other_mandatory,,1,gdp,,1.141671,,,"Equal to C3A: shape in fiscal-years.csv; perm fitted so FY2040 is the energy model's $41.4B, then GDP (clean power booking)"
+bill,CLI-3A,,out_other_mandatory,,1,gdp,,0.985776,,,"The grid account's spending beyond CLI-10 (memo 9 B): shape in fiscal-years.csv; perm fitted so FY2040 is $0.68B (the working assumption grown with the CPI), then GDP (clean power booking)"
 base revenue,C1T,,rev_individual,2040,1,gdp,,,,,"Nothing in FY2030-39; from FY2040 fiscal-after.csv, then GDP (DEC-2026-11-13-13; clean power booking)"
 base revenue,C3A,,rev_individual,,1,gdp,,1.141671,,,"The standard's payments: shape in fiscal-years.csv; perm fitted so FY2040 is the energy model's $41.4B, then GDP (clean power booking)"
 base revenue,CXA,,rev_individual,,1,gdp,,1.141671,,,24.4% offset on C3A: shape in fiscal-years.csv; perm as C3A (clean power booking)
