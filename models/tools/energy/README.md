@@ -9,6 +9,7 @@ Role: the home of `MOD-energy`, the core energy and climate model of `charter/PL
 | `run.py` | One command: runs every scenario and benchmark and writes `results.json` and `results.md` (generated; do not edit) |
 | `model.py`, `engine.js`, `data.py` | Scenarios and accounts; the driver for the engine; the data layer |
 | `engine/` | The engine: a copy of Espen's carbon model v3.4 (`models/tools/carbon/`) with M4's options, and its regression checks |
+| `menu.py` | One-off design runs: change the price path, coverage, builder, payment cap or retrofits and compare with a committed case (`python3 models/tools/energy/menu.py --help`). Not results of record |
 | `assumptions.csv` | This model's labeled working assumptions, with ranges; adopted inputs stay in `models/data/inputs/` |
 | `test_energy.py` | Tests, run by `run-all.sh` before every rebuild |
 
