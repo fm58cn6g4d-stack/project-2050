@@ -1,6 +1,6 @@
 # Dossier: Clean, affordable power and a prepared country (flagship 4)
 
-Role: the clean power flagship (`charter/PLAN.md` 3.1). Status: **decided**, stage E; sections 4-9 **reviewed (L2)** by the milestone review (`review-milestone.md`, #344), with its fixes applied; L3 after the booking and a short re-check. Espen decided the memo batch on November 13: memos 1-7 all as recommended, with memo 7's wage insurance set by Espen (`DEC-2026-11-13-06`), and points 1-14 all yes (`DEC-2026-11-13-07`). Level: the decided items are at **L2** (`agenda/agenda.csv`, `home_dossier` = `clean-power`); options no memo weighed stay at L1. **Not booked:** the legacy climate rows in the budget model stay as they are until the booking step, after the milestone review. The decided set is about **$1.85 trillion over FY2030-39 and $147 billion in FY2040** on the general fund, about +$0.04 trillion and −$17.5 billion against the booked rows (`6-cost.md`).
+Role: the clean power flagship (`charter/PLAN.md` 3.1). Status: **decided**, stage E; sections 4-9 **reviewed (L2)** by the milestone review (`review-milestone.md`, #344), with its fixes applied; L3 after the booking and a short re-check. Espen decided the memo batch on November 13: memos 1-7 all as recommended, with memo 7's wage insurance set by Espen (`DEC-2026-11-13-06`), and points 1-14 all yes (`DEC-2026-11-13-07`). Level: the decided items are at **L2** (`agenda/agenda.csv`, `home_dossier` = `clean-power`); options no memo weighed stay at L1. **Not booked:** the legacy climate rows in the budget model stay as they are until the booking step, after the milestone review. The decided set is about **$1.85 trillion over FY2030-39 and $146 billion in FY2040** on the general fund, about +$0.04 trillion and −$18.5 billion against the booked rows (`6-cost.md`), on the ledger's convention for the transition share; re-reviewed on the energy model (`review-m4.md`, `DEC-2026-11-13-12`).
 
 **What it brings together** (`charter/PLAN.md` 3.1, exactly): "Carbon fee and dividend, clean power and grid, adaptation and insurance, the clean-industry transition."
 
@@ -35,7 +35,8 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 | 7. Validation | `7-validation.md`: against outside figures; what the models miss; how it lands with the plan; who it reaches (the carbon channel by quintile under memo 1 B); emissions; objections; signs of failure | Reviewed (L2), fixes applied |
 | 8. What would change our minds | `8-change-our-minds.md` | Reviewed (L2), fixes applied |
 | 9. Public case | `9-public-case.md`, with its source table | Reviewed (L2), fixes applied |
-| Milestone review | `review-milestone.md`: the L2/L3 review (#344); its fixes are the next PR | Current |
+| Milestone review | `review-milestone.md`: the L2/L3 review (#344); its fixes are #346 | Current |
+| Re-review on the energy model | `review-m4.md`: the decided set run on MOD-energy (`DEC-2026-11-13-12`), with what the booking must use | Current |
 
 ## Evidence and sources
 
@@ -44,6 +45,6 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 ## Open questions for Espen
 
-None open. Espen decided the milestone review's two questions (`review-milestone.md`, #344): the builder of last resort is TVA, Bonneville and WAPA in their own regions plus a lean TVA-style corporation for the East only, as a standby power that steps in quickly at competitive cost, with lines inside ERCOT only with Texas's agreement (`DEC-2026-11-13-10`); and the transition guarantee's tax-base replacement extends to tribal governments (`DEC-2026-11-13-11`). Both are in sections 4-9.
+One, from the re-review on the energy model (`review-m4.md`, R-3): **where the transition share's remainder goes after FY2039.** From FY2040 the 20% share (about $33 billion a year) pays the guarantee and the bill credit first (about $11 billion); the rest, about $23 billion, has no named use. The re-review recommends holding it as general-fund receipts, which lowers clean power's FY2040 cost from about $146 billion to about $113 billion; the alternatives are raising the dividend or a standing transition and adaptation fund.
 
 Next: the booking (tier 3, the lead's), then a short L3 re-check.

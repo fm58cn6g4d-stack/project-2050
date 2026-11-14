@@ -1,6 +1,6 @@
 # Clean, affordable power and a prepared country: the public case
 
-Role: section 9 of the clean power dossier: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: reviewed (L2), with the milestone review's fixes; on `DEC-2026-11-13-06` and `DEC-2026-11-13-07`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "about" or "on our estimates"; each promise says when it starts.
+Role: section 9 of the clean power dossier: a plain-language brief, messages, hard questions and a can-say list, built only from sections 1-8 and never ahead of them. Status: reviewed (L2), with the milestone review's fixes and the re-review on the energy model (`review-m4.md`); on `DEC-2026-11-13-06` and `DEC-2026-11-13-07`. Every number traces to its section and evidence ID in the source table at the end. Sources are named in plain text before each tag. Project estimates say "about" or "on our estimates"; each promise says when it starts.
 
 ## The brief
 
@@ -18,7 +18,7 @@ Project 2050's clean power plan does five things, starting in 2030.
 
 **A guarantee for workers and towns,** for closures from 2030. A worker who loses a job when a coal mine, a power plant or a refinery closes keeps up to 90% of their old hourly pay for two years in a new job, or 90% of their old pay while training. Workers 55 and older can draw their pension in full. Towns, and tribal nations that host plants and mines, get their lost tax or royalty revenue replaced, falling over ten years.
 
-**What it costs, on our estimates.** About $1.85 trillion over 2030-39 on the federal budget, close to what the budget already carries for these purposes, and about $147 billion a year from 2040, before the plan's financing (section 6). The worker guarantee is about $12 billion of that over ten years.
+**What it costs, on our estimates.** About $1.85 trillion over 2030-39 on the federal budget, close to what the budget already carries for these purposes, and about $146 billion a year from 2040, before the plan's financing (section 6). The worker guarantee is about $14 billion of that over ten years.
 
 ## The case in one paragraph
 
@@ -39,12 +39,12 @@ Americans are paying more for power, more for insurance and more after every sto
 - **"Canada tried a carbon tax with a rebate and dropped it."** Canada dropped the charge on consumers and kept the price on large emitters (Government of Canada, 2025) [EV-CLP-310]. This plan is the part Canada kept.
 - **"Will my electric bill go up?"** Somewhat, while the clean grid is being built: the price, and what utilities pay when they fall short of the clean power standard, show up in bills. A cap limits what they pay, and that money goes back to lower- and moderate-income households through the bill credit. On our estimates, the lowest-income two-fifths of households come out ahead on average, nationally, on the price and the dividend alone, before the bill credit (section 7).
 - **"What does it cost?"** About $1.85 trillion over ten years on our estimates, close to what the budget already carries for these purposes; the plan's financing is set in one place for the whole plan (section 6).
-- **"Does it meet the climate goals?"** Not by 2035 on its own, and we say so. On our estimates it cuts energy emissions to roughly 40-48% below 2005 by 2035 (section 7), against a national goal of 61-66% (Congressional Research Service) [EV-CLP-116]. It puts the country on the path to net zero by 2050 and requires the government to publish the count every year.
+- **"Does it meet the climate goals?"** Not by 2035 on its own, and we say so. On our estimates it cuts energy emissions to about 41% below 2005 by 2035 (section 7), against a national goal of 61-66% (Congressional Research Service) [EV-CLP-116]. It puts the country on the path to net zero by 2050 and requires the government to publish the count every year.
 - **"Who pays if a hurricane overwhelms insurers?"** Insurers and premiums first. The federal backstop starts only above a once-in-a-century loss, is capped at $150 billion, and is paid back afterward (section 4).
 
 ## Stories (composite illustrations, not real people)
 
-- **Linda and Ray, retired in Ohio, heating with gas.** No new line on their gas bill. Two Climate Dividends, about $880 a year in 2035 on our estimates, arrive with their Social Security (section 7).
+- **Linda and Ray, retired in Ohio, heating with gas.** No new line on their gas bill. Two Climate Dividends, about $820 a year in 2035 on our estimates, arrive with their Social Security (section 7).
 - **Denise, a home health aide on SNAP in Detroit.** Her winter energy credit arrives on her bill without a form, starting the winter of 2030-31.
 - **Marcus, 35, a coal miner in West Virginia.** When the mine closes, he trains as a lineworker at 90% of his old pay. If he takes a job at $26 an hour instead of his old $40, he is topped up to $36 for every hour he works, for the rest of the two years.
 - **Rosebud County, Montana.** When the plant closes, the county's lost property tax is replaced in full the first year, then 10 points less each year over ten years, giving it time to rebuild its tax base.
@@ -54,7 +54,7 @@ Americans are paying more for power, more for insurance and more after every sto
 | Can say | Can't say |
 | --- | --- |
 | "No charge on your gas bill or at the pump" | "Your energy bills won't go up" (electricity rises somewhat at first) |
-| "About $440 a person in 2035, on our estimates" | A firm dividend amount: it moves with what polluters pay |
+| "About $410 a person in 2035, on our estimates" | A firm dividend amount: it moves with what polluters pay |
 | "The first payment goes out before the price begins" (in 2030) | "Paid starting in 2029": nothing starts before 2030 |
 | "Lower-income households come out ahead on average on the price and dividend, on our estimates" | "Every family comes out ahead": the middle fifth is about even and the top two-fifths pay more than they get on the carbon channel, and households on coal- or oil-heavy grids may be behind |
 | "Puts us on the path to net zero by 2050" | "Meets the 2035 goal" |
@@ -71,7 +71,7 @@ Americans are paying more for power, more for insurance and more after every sto
 | LIHEAP reach | about 17% of eligible households | 1, 3 | EV-CLP-038 |
 | Billion-dollar disasters, 2025 | 24, about $118.5 billion | 1 | EV-CLP-125 |
 | Price path | $25 (2030) to $150 (2037) | 4 (REV-C1A.01) | EV-CLP-700 |
-| Climate Dividend per adult, 2035 | about $440 (a couple about $880) | 6, part 1; 7, part 4 | The carbon model read (`tools/coverage_read.py`); project estimate |
+| Climate Dividend per adult, 2035 | about $410 (a couple about $820) | 4 (CLI-2A.01); 7, part 4 | The energy model (`models/tools/energy/results.md`); project estimate |
 | Standard | 80% by 2035, 100% by 2040 | 4 (CLI-3A.01) | Decided, `DEC-2026-11-13-06` |
 | Solar and wind cheaper than new gas | $40-98 and $37-99 against $51-129 a megawatt-hour | 2 (memo 2) | EV-CLP-456, EV-CLP-457 |
 | Clean investment in Republican districts | 77% | 2 | EV-CLP-208 |
@@ -83,10 +83,10 @@ Americans are paying more for power, more for insurance and more after every sto
 | Close to what the budget already carries | $1.85 trillion against $1.81 trillion booked | 6, part 1 | Project arithmetic |
 | Before the plan's financing | the financing is set plan-wide | 6, part 4 | `DEC-2026-11-10-05` |
 | What utilities pay when they fall short of the standard | returned through the bill credit | 4 (CLI-3A.02); 6, part 2 | The carbon model read |
-| Cost of the set | about $1.85 trillion (2030-39); about $147 billion a year from 2040 | 6, parts 1 and 4 | Project arithmetic (`tools/clean_power_path.py`) |
-| Guarantee's cost | about $12 billion over ten years | 6, part 1 | Project arithmetic; working assumption |
-| Low-income households ahead on the carbon channel | bottom two-fifths ahead on average, nationally, in 2035 | 7, part 4 | The carbon model read; EV-CLP-707 |
-| Emissions in 2035 | roughly 40-48% below 2005 | 7, part 5 | EV-CLP-704, EV-CLP-715; judgment, widened below the legacy package for buildings left unpriced until the clean-heat standard |
+| Cost of the set | about $1.85 trillion (2030-39); about $146 billion a year from 2040 | 6, parts 1 and 4 | Project arithmetic (`tools/clean_power_path.py`) |
+| Guarantee's cost | about $14 billion over ten years | 6, part 1 | Project arithmetic; working assumption |
+| Low-income households ahead on the carbon channel | bottom two-fifths ahead on average, nationally, in 2035 | 7, part 4 | The energy model's household module |
+| Emissions in 2035 | about 41% below 2005 (energy CO2) | 7, part 5 | The energy model (`models/tools/energy/results.md`); project estimate, band 39-42% |
 | The national 2035 goal | 61-66% below 2005 | 4 (CLI-14.01) | EV-CLP-116 |
 | Canada kept the large-emitter price | 2025 | 2 | EV-CLP-310 |
 | Reinsurance cap | $150 billion, above a 1-in-100-year loss | 4 (CLI-7C.01) | EV-CLP-718 |

@@ -15,7 +15,7 @@ Role: section 6 of the clean power dossier. It prices the provisions of `4-speci
 
 | Line | Provisions | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | 2037 | 2038 | 2039 | **FY2030-39** | **2040** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Fee and dividend accounting, as booked (CX, CXP, CLI-2O) | REV-C1, CLI-2 | 11.2 | 14.7 | 17.3 | 23.6 | 29.2 | 56.2 | 62.8 | 69.3 | 62.2 | 63.1 | **409.5** | **71.1** |
+| Fee and dividend accounting, as booked (CX, CXP, CLI-2O) | REV-C1, CLI-2 | 11.2 | 14.7 | 17.3 | 23.6 | 29.2 | 56.2 | 62.8 | 69.3 | 62.2 | 63.2 | **409.6** | **71.1** |
 | Credits and industry, as booked (CLI-1, CLI-9) | CLI-1A, CLI-9 | 87.2 | 94.7 | 102.6 | 103.9 | 103.1 | 65.5 | 64.5 | 64.1 | 88.8 | 91.7 | **866.1** | **76.3** |
 | Standards, as booked (CLI-3) | CLI-3A, CLI-4, CLI-14 | 0.9 | 1.8 | 1.9 | 2.0 | 2.0 | 2.1 | 2.2 | 2.3 | 2.4 | 2.5 | **20.0** | **2.5** |
 | Grid, first tranche, as booked (CLI-10G) | CLI-10G | 3.6 | 3.6 | 3.7 | 3.8 | 3.9 | 4.0 | 4.1 | 4.2 | 4.2 | 4.3 | **39.4** | **0** |
@@ -27,13 +27,13 @@ Role: section 6 of the clean power dossier. It prices the provisions of `4-speci
 | Memo 1 B: the add-ons' lost transition share | REV-C1G.01, CLI-2A.04 | 4.3 | 5.8 | 7.2 | 10.1 | 13.0 | 15.8 | 18.2 | 20.9 | 21.7 | 22.3 | **139.2** | **0** |
 | Memo 4 B: the second tranche and the builder of last resort | CLI-10.01 to .03 | 0 | 0 | 0 | 3.0 | 6.0 | 8.0 | 9.0 | 10.0 | 11.0 | 13.0 | **60.0** | **0** |
 | Memo 5 B: the bill credit, permanent from FY2040 | CLI-5H.01 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **0** | **9.9** |
-| Memo 7 B: the transition guarantee | CLI-11 | 0.4 | 0.8 | 1.0 | 1.1 | 1.2 | 1.4 | 1.5 | 1.5 | 1.6 | 1.7 | **12.2** | **1.7** |
-| **Change against the booking** | | **−0.5** | **−0.4** | **−0.6** | **1.9** | **4.4** | **5.9** | **6.4** | **6.9** | **7.8** | **9.8** | **41.6** | **−17.5** |
-| **The decided set on the general fund** | | **126.1** | **156.1** | **178.8** | **189.9** | **197.4** | **179.5** | **186.2** | **193.5** | **218.9** | **225.9** | **1,852.4** | **147.4** |
+| Memo 7 B: the transition guarantee | CLI-11 | 0.7 | 1.4 | 1.7 | 1.9 | 2.2 | 1.7 | 1.1 | 1.0 | 0.9 | 0.8 | **13.6** | **0.7** |
+| **Change against the booking** | | **−0.2** | **0.2** | **0.1** | **2.7** | **5.3** | **6.2** | **6.1** | **6.5** | **7.2** | **8.9** | **43.0** | **−18.5** |
+| **The decided set on the general fund** | | **126.4** | **156.7** | **179.5** | **190.7** | **198.3** | **179.9** | **185.9** | **193.0** | **218.3** | **225.1** | **1,853.8** | **146.4** |
 
-- **The decided set:** about **$1.85 trillion over FY2030-39 and $147 billion in FY2040**, against $1.81 trillion and $165 billion booked: **about +$0.04 trillion over the ten years and about −$17 billion in FY2040.**
+- **The decided set:** about **$1.85 trillion over FY2030-39 and $146 billion in FY2040**, against $1.81 trillion and $165 billion booked: **about +$0.04 trillion over the ten years and about −$18.5 billion in FY2040.** The re-review on the energy model (`review-m4.md`, `DEC-2026-11-13-12`) moved only memo 7 B's timing (coal closes by 2035 on that model); every other line reconciles with it.
 - **Against section 3's estimate** (+$0.11 trillion; about $156 billion in FY2040), two things moved, both on the decided designs:
-  - *Memo 7 B is priced bottom-up* on Espen's parameters, at about $0.012 trillion and $1.7 billion in FY2040, in place of the legacy session estimate of $0.08 trillion [EV-CLP-713] (part 1, memo 7).
+  - *Memo 7 B is priced bottom-up* on Espen's parameters, at about $0.014 trillion and $0.7 billion in FY2040, in place of the legacy session estimate of $0.08 trillion [EV-CLP-713] (part 1, memo 7).
   - *Memo 1 B is read year by year* from the carbon model: power and industry's share of receipts falls from 69% in 2030 to 58% in 2040 as power cleans up, so the offset saving in FY2040 is about $29 billion, not $26 billion.
 - **FY2030 and the price's start.** The table uses the booked year shape, which starts the price in January 2030. Under CLI-2A.03 the price starts on the first quarter at least six months after enactment, July 1, 2030 on the working timeline, so FY2030's fee lines (receipts, the offset and memo 1 B's two rows alike) would be about a third of what the table shows. The net effect on the general fund is a few billion dollars in FY2030 and none after. The booking sets the shape (part 6).
 - **The ranges** (part 5) are wide: about **−$0.06 to +$0.17 trillion** over FY2030-39 and **−$28 to −$1 billion** in FY2040 against the booking.
@@ -67,7 +67,7 @@ Priced bottom-up in `clean_power_path.py`, every input a working assumption labe
 
 | Input | Working assumption | Basis |
 | --- | --- | --- |
-| Covered layoffs a year, contractors included | 8,000 (range 5,000-13,000) | Coal capacity of 172 GW in May 2025, scheduled to fall to 145 GW by the end of 2028 [EV-CLP-508]; about 140 GW left in 2030 closes by 2040, when unabated coal ends on the carbon model, at about 0.18 jobs a megawatt plus a quarter for contractors (judgment); part of 44,060 coal mine jobs [EV-CLP-500]; refineries and gas plants |
+| Covered layoffs, contractors included | 80,000 over FY2030-39: 14,000 a year in 2030-34, 2,000 a year in 2035-39 (range 50,000-130,000) | Coal capacity of 172 GW in May 2025, scheduled to fall to 145 GW by the end of 2028 [EV-CLP-508]. On the energy model the decided set leaves 31 GW of coal in 2030 and none by 2035 (127 and 89 GW under current law), while gas plants stay open and run less (591 GW in 2030, 699 GW in 2040; `models/tools/energy/results.md`), so closures come early: coal plants at about 0.18 jobs a megawatt plus a quarter for contractors (judgment), most of 44,060 coal mine jobs [EV-CLP-500], then refineries and gas processing |
 | Take-up | 85% | Automatic from records |
 | Paths | 25% aged 55 or more; of the rest, 65% re-employed, 25% in training | Judgment |
 | Prior pay, after the cap at twice the median wage | $90,000 in 2030, +3% a year | Judgment |
@@ -75,9 +75,9 @@ Priced bottom-up in `clean_power_path.py`, every input a working assumption labe
 | Hours worked | 80% of the old schedule, 20 of 24 months | Judgment |
 | Unemployment benefits | 35% of capped pay for six months, counted toward the 90% | Judgment |
 | Pension bridge | Treasury reimburses a plan's waiver: about $170,000 a worker with a defined-benefit plan (60% of those 55 or more) | Judgment |
-| Lost local tax | $0.15 billion more each year as closures accumulate; replaced in full, then 10 points less a year | Judgment; Rosebud County's plant and mine property was $76 million of $95 million taxable [EV-CLP-514] |
+| Lost local and tribal tax and royalty revenue | $0.15 billion for each 8,000 closures, replaced in full, then 10 points less a year | Judgment; Rosebud County's plant and mine property was $76 million of $95 million taxable [EV-CLP-514]; the Navajo Nation's and Hopi Tribe's losses [EV-CLP-534] |
 
-- **Result:** about **$12 billion over FY2030-39** (workers about $5.5 billion, places about $6.5 billion, refinancing's credit cost about $0.25 billion) and **about $1.7 billion in FY2040**. Range about **$5-40 billion** over FY2030-39 and $1-5 billion in FY2040.
+- **Result:** about **$14 billion over FY2030-39** and **about $0.7 billion in FY2040**: front-loaded, because coal closes by 2035 on the energy model. Range about **$6-40 billion** over FY2030-39 and $0.3-5 billion in FY2040.
 - **Why it is far below section 3's $0.08 trillion.** The legacy figure was a session estimate for guaranteed pensions, health care and an energy-communities fund, with no derivation [EV-CLP-713]. The decided design has no separate health guarantee (the care plan covers health), pays the top-up only on hours actually worked, caps pay at twice the median wage, and counts unemployment benefits toward the 90%. Each of Espen's parameters lowers the cost; only covering contractors raises it.
 - **It is paid first from the transition share** (CLI-11.08), which then finances that much less of the add-ons, so the general fund carries it either way.
 - **The gas fleet.** The 8,000 rests mainly on coal. CLI-11.01 also covers gas-fired plants, and under 100% clean power by 2040 unabated gas must stop serving retail sales or pay the standard's payments, so closures in 2036-40 may run above the count. The range's top ($40 billion over FY2030-39; $5 billion in FY2040) is that case. EIA's gas fleet data and plant employment would replace the judgment (`4-specification.md`, "Evidence still needed").
@@ -87,12 +87,12 @@ Priced bottom-up in `clean_power_path.py`, every input a working assumption labe
 
 | Item | Provisions | FY2030-39 | FY2040 | Basis | Firm or contingent |
 | --- | --- | --- | --- | --- | --- |
-| The credits' cost risk | CLI-1A | up to about +$0.74 trillion | up to about +$50 billion | The carbon model counts its own credit set at about $1.50 trillion, twice the booking [EV-CLP-710]; the IRA's credits ran far above their first score [EV-CLP-200] [EV-CLP-201]. The trigger (CLI-1A.03) limits it | Contingent; the trigger bounds it |
+| The credits' cost risk | CLI-1A | about +$0.27 trillion on the energy model; up to about +$0.74 trillion on the legacy model | about +$8 to +$50 billion | The energy model counts the decided set's credits at about $1.03 trillion over FY2030-39 before the standby builder, and $1.19 trillion with the extra credited wind, solar and storage its lines connect, against the booked $0.76 trillion (`models/tools/energy/results.md`, item 5; a cross-check, not a score); the legacy carbon model counted $1.50 trillion [EV-CLP-710]; the IRA's credits ran far above their first score [EV-CLP-200] [EV-CLP-201]. The trigger (CLI-1A.03) limits it | Contingent; the trigger bounds it |
 | The reinsurance facility's exposure | CLI-7C.01 | $0-150 billion in a bad year, recouped | same | $75-150 billion of contingent liability, disclosed in every fiscal test, never scored [EV-CLP-718] | Contingent |
 | Disaster appropriations outside the baseline | — | about $150-250 billion | about $15-25 billion | Current-law exposure that recurs outside CBO's extrapolated baseline [EV-CLP-720]; not this plan's cost | Reported beside the test |
 | Permit-certainty damages | CLI-3A.03 | $0 to the cap | same | Only if the bipartisan package becomes law; the cap bounds what the Judgment Fund pays [EV-CLP-255] [EV-CLP-256] | Contingent |
-| The standard's payments | CLI-3A.02 | about $0.11 trillion, collected and paid out | about $29 billion, collected and paid out | Suppliers short of the decided path (80% by 2035, 100% by 2040) pay the $40 cap (2025 dollars) on each missing megawatt-hour. On the carbon model's run of the decided path the clean share is 75% in 2035, 91% in 2040 and 94% in 2045, limited by grid access [EV-CLP-708], so payments run about $8-13 billion a year in 2032-35, rising to $29 billion in 2040 and about $22 billion in 2045 (the carbon model read, `tools/coverage_read.py`; with the standard held at 80% they would be $0.05 trillion and end in 2036 [EV-CLP-723]). Treasury collects them and pays them to the bill credit (CLI-3A.02), so they net to about zero on the general fund, except that an excise-like receipt carries the 24.4% income and payroll tax offset under the plan's convention (`DEC-2026-11-12-08`): up to about $7 billion in FY2040 if it applies. They are a charge on electricity bills, returned to lower- and moderate-income households | A receipt and an outlay; the offset is the booking's question |
-| The transition share after FY2039 | CLI-2A.04 | — | about $33 billion a year raised | Under B the 20% share is about $33 billion in FY2040 (the carbon model read on the booked basis). The booking ends the add-ons with the window and shows no use for the share after FY2039. If the statute's waterfall (CLI-2A.04) pays the guarantee and the bill credit from it, their FY2040 general-fund cost (about $11.6 billion, part 1) is zero. The booking step settles where the share sits; this section counts the conservative case | Open question for the booking |
+| The standard's payments | CLI-3A.02 | about $0.16 trillion, collected and paid out ($0.07 trillion with the permitting package) | about $41 billion, collected and paid out ($21 billion with the package) | Suppliers short of the decided path (80% by 2035, 100% by 2040) pay the $40 cap (2025 dollars) on each missing megawatt-hour. On the energy model (MOD-energy, `models/tools/energy/results.md`) clean power reaches 73% in 2035, 88% in 2040 and 92% in 2045, held back by grid access, not price; the payments run $9 billion in 2032 rising to $41 billion in 2040, then $20-36 billion a year to 2050. The legacy carbon model, which assumes the permitting package, gave $0.11 trillion and $29 billion (`tools/coverage_read.py`); the energy model with the package gives $0.07 trillion and $21 billion, lower because its standby builder adds lines. Treasury collects them and pays them to the bill credit (CLI-3A.02), so they net to about zero on the general fund, except that an excise-like receipt may carry the 24.4% offset (`DEC-2026-11-12-08`): up to about $10 billion in FY2040 if it applies. The energy model applies none ("a capped compliance payment, not a tax") | A receipt and an outlay; the offset is the booking's question |
+| The transition share after FY2039 | CLI-2A.04 | — | about $33 billion a year raised | Under B the 20% share is about $33 billion in FY2040 on this tool and on the energy model alike. The ledger books CLI-2's outlay as the whole fee (`models/tools/ledger-build.py`), so from FY2040, when the add-ons end, the share counts as spent though nothing is funded. The statute's waterfall (CLI-2A.04) pays the guarantee and the bill credit from it first (about $10.6 billion in FY2040); the remainder, about $23 billion, has no named use. The booking should record the waterfall and hold the remainder as general-fund receipts until Espen directs it (`review-m4.md`, R-3; a question for Espen) | Decided waterfall; remainder open, for Espen |
 | The public builders' borrowing | CLI-10.02, .03 | not counted | not counted | TVA's, Bonneville's and WAPA's capital spending shows in federal outlays as it is built and is repaid from rates over decades. How much more they build under the higher limits is not known; at $5-10 billion of added capital a year it would add that to outlays in build years and return it later (judgment). Not costless: WAPA's program and DOE's Transmission Facilitation Program both forgive any balance a line's rates have not repaid at the end of its life [EV-CLP-465] [EV-CLP-466]. WAPA's program at $10 billion (CLI-10.02) covers a few large lines at most. Needs CBO's treatment of the power marketing administrations and TVA checked before the booking | Timing, with a contingent cost; to check |
 | The O5 bridge's rerun | CLI-2O.01 | small, probably favorable | small | Part 1, memo 1 | To rerun in the booking |
 | The dividend's administration | CLI-2A.01 | under $2 billion | under $0.2 billion | A second payment on the child benefit's file (judgment); the IRS's rebuild is CAP-7 | Firm, left to the booking |
@@ -101,7 +101,7 @@ Priced bottom-up in `clean_power_path.py`, every input a working assumption labe
 | Extending the guarantee to oil and gas field workers | — | about $0.01-0.05 trillion if extended | a few billion | Not in the decided design (`4-specification.md`, "Where particular groups fall"); judgment | Not decided |
 | Bill protection's sunset | CLI-5L.01 | inside the booked $7.2 billion | ends early if bills fall | The booked path stands; the sunset can only shorten it | Firm, a possible saving |
 
-**All-in on the general fund:** about **$1.85 trillion over FY2030-39 and $147 billion in FY2040**, with the credits' cost risk, the facility's exposure and the standard's payments disclosed beside it. It is not a score.
+**All-in on the general fund:** about **$1.85 trillion over FY2030-39 and $146 billion in FY2040**, with the credits' cost risk, the facility's exposure and the standard's payments disclosed beside it. It is not a score.
 
 ## 3. Benchmarks against outside scores
 
@@ -118,17 +118,17 @@ One basis: federal fiscal years, $ billion, a cost positive, against what the bu
 
 | Measure | FY2030-39 | FY2040 (permanent) |
 | --- | --- | --- |
-| The decided set on the general fund (part 1) | $1,852 billion | $147.4 billion (0.27% of GDP) |
+| The decided set on the general fund (part 1) | $1,854 billion | $146.4 billion (0.27% of GDP) |
 | Already booked for the same purposes (the sixteen legacy rows) | $1,811 billion | $164.9 billion |
-| **Net change a booking would make** | **about +$42 billion** | **about −$17.5 billion (−0.03% of GDP)** |
+| **Net change a booking would make** | **about +$43 billion** | **about −$18.5 billion (−0.03% of GDP)** |
 | *of which:* memo 1 B | −$31 billion | −$29.1 billion |
 | *of which:* memo 4 B | +$60 billion | 0 |
 | *of which:* memo 5 B | 0 | +$9.9 billion |
-| *of which:* memo 7 B | +$12 billion | +$1.7 billion |
+| *of which:* memo 7 B | +$14 billion | +$0.7 billion |
 
-- **The yearly cost** is in part 1: about $126 billion in FY2030, rising to $226 billion in FY2039 as the price, the credits and the add-ons ramp up, then about $147 billion in FY2040 as the time-limited pieces end.
-- **The permanent cost from FY2040: about $147 billion a year** on the general fund. Of it, the fee offset is about $42 billion (net of B's saving), the credits and contracts about $76 billion (stepping down), and the rest is the standards' administration, the permanent disaster pieces, farms, the bill credit and the guarantee. Time-limited capital (both grid tranches, the disaster capital, the add-ons) ends with the window.
-- **Its share of the plan-wide margin.** The plan-wide FY2040 general-fund primary gap is **$4,245.4 billion short** at main's head (7.84% of GDP; `agenda_gf_primary_bn`, case `mixed`, in `models/data/recovery-budget-paths.csv`, after #339's rebooking of INC-4 and immigration's memo 6, `DEC-2026-11-13-04`, `-05`; the tool reads it, not a hard-coded figure). Clean power's whole decided set is about **3.5% of that gap** in FY2040 (section 3 said about 3.7% on the earlier gap). A booking of it would change the gap by **about −$17.5 billion, to about $4,228 billion (7.81% of GDP)**: −0.4% of the gap. The standard's payments (part 2) would add up to about $7 billion if the offset applies to them.
+- **The yearly cost** is in part 1: about $126 billion in FY2030, rising to $226 billion in FY2039 as the price, the credits and the add-ons ramp up, then about $146 billion in FY2040 as the time-limited pieces end. If the transition share's remainder after the waterfall is held as general-fund receipts (part 2), FY2040 is about $113 billion.
+- **The permanent cost from FY2040: about $146 billion a year** on the general fund, on the ledger's convention that counts the whole transition share as spent (about $113 billion with the waterfall and the remainder held as receipts; part 2). Of it, the fee offset is about $42 billion (net of B's saving), the credits and contracts about $76 billion (stepping down), and the rest is the standards' administration, the permanent disaster pieces, farms, the bill credit and the guarantee. Time-limited capital (both grid tranches, the disaster capital, the add-ons) ends with the window.
+- **Its share of the plan-wide margin.** The plan-wide FY2040 general-fund primary gap is **$4,245.4 billion short** at main's head (7.84% of GDP; `agenda_gf_primary_bn`, case `mixed`, in `models/data/recovery-budget-paths.csv`, after #339's rebooking of INC-4 and immigration's memo 6, `DEC-2026-11-13-04`, `-05`; the tool reads it, not a hard-coded figure). Clean power's whole decided set is about **3.4% of that gap** in FY2040 (section 3 said about 3.7% on the earlier gap). A booking of it would change the gap by **about −$18.5 billion, to about $4,227 billion (7.80% of GDP)**: −0.4% of the gap; about −$52 billion if the transition share's remainder is held as receipts. The standard's payments (part 2) would add up to about $7 billion if the offset applies to them.
 - **The test years.** The decided costs that are permanent grow with prices and the economy; the fee offset grows with the price (5% a year after 2037) faster than covered emissions fall, and the dividend with it.
 - **It is a figure to report, not an error to fix** (`DEC-2026-11-10-05`). Nothing here goes to Espen on its own: no memo set options that reach the same people at very different cost, except memo 2's restore-everything option, which Espen did not take.
 
@@ -140,9 +140,9 @@ One basis: federal fiscal years, $ billion, a cost positive, against what the bu
 | How receipts respond overall | the booked $1.90 trillion | $1.65-2.10 trillion | about ±$0.02 trillion on memo 1 B's net | small | The ledger's range for C1 |
 | The second tranche (memo 4 B) | $60 billion | $0-80 billion | −$0.06 to +$0.02 trillion | 0 | Milestones |
 | The bill credit (memo 5 B) | $9.9 billion in FY2040 | $6-14 billion | 0 | −$4 to +$4 billion | Reach and prices |
-| The guarantee (memo 7 B) | $12 billion | $5-40 billion | −$0.01 to +$0.03 trillion | −$1 to +$3 billion | Part 1's inputs |
+| The guarantee (memo 7 B) | $14 billion | $6-40 billion | −$0.01 to +$0.03 trillion | −$0.4 to +$4 billion | Part 1's inputs |
 | The credits' take-up | as booked | up to twice | up to +$0.74 trillion | up to +$50 billion | Part 2; not in the range below |
-| **The change against the booking, all** | **+$0.04 trillion; −$17.5 billion** | **−$0.06 to +$0.17 trillion; −$28 to −$1 billion** | | | Summed line by line, so wide; the credits' risk shown separately |
+| **The change against the booking, all** | **+$0.04 trillion; −$18.5 billion** | **−$0.06 to +$0.17 trillion; −$28 to −$1 billion** | | | Summed line by line, so wide; the credits' risk shown separately |
 
 ## 6. The booking (tier 3, after the milestone review)
 
@@ -150,12 +150,14 @@ On the pattern of the secure floor's (`dossiers/secure-floor/6-cost.md`, part 6)
 1. **Rerun the carbon model with memo 1 B's coverage.** Either add a coverage setting to `models/tools/carbon/cfd-model.js` that leaves buildings and non-road transport unpriced (defaulting to today's behavior, so no other output moves), or keep this dossier's read as the basis and say so. The rerun also refreshes the O5 accounts (`climate-adoption.json`) and the dividend per adult.
 2. **REV-C1 (C1)** in `models/data/inputs/ledger-revenue.csv`: about **$1.20 trillion** (range on the ledger's own $1.65-2.10 trillion times the covered share), with the note "power plants and large industry (memo 1 B, DEC-2026-11-13-06)"; CX follows at 24.4%; `fiscal-years.csv`'s CX shape from the rerun.
 3. **CLI-2** (the dividend) at 80% of the new C1; **CLI-5**'s financing (`ledger-build.py`'s `_c5`) on the new C1, less the guarantee's draw.
-4. **New rows:** CLI-10 (the second tranche, $0.06 trillion, time-limited capital, D4-B), CLI-5H (the bill credit, permanent from FY2040; inside CLI-5 before), CLI-11 (the guarantee, $0.012 trillion and $1.7 billion in FY2040), each on its rail with a year shape from the path.
+4. **New rows:** CLI-10 (the second tranche, $0.06 trillion, time-limited capital, D4-B), CLI-5H (the bill credit, permanent from FY2040; inside CLI-5 before), CLI-11 (the guarantee, $0.014 trillion and $0.7 billion in FY2040), each on its rail with a year shape from the path.
 5. **Decide where the transition share sits after FY2039** (part 2) and book the guarantee's and bill credit's FY2040 cost accordingly.
 6. **Check the budget treatment of the public builders' added borrowing** (part 2), including forgiveness of unrepaid balances under the builder's statute.
-6a. **The standard's payments** (part 2; review O-1): a receipt and an outlay to the bill credit, from the carbon model's run of the decided 100%-by-2040 path; record whether the 24.4% offset applies.
+6a. **The standard's payments** (part 2): a receipt and an outlay to the bill credit, by year from the energy model (`results.json`, `provisions`, CLI-3A.02: $160 billion over FY2030-39, $41 billion in FY2040); record whether the 24.4% offset applies (the energy model applies none).
 6b. **Timing:** the price's start (part 1, FY2030 note), CLI-5H's money from FY2031, and the year shape that follows.
-6c. **The M4 energy model** (`models/tools/energy/`, `DEC-2026-11-13-09`). The booking waits for it: clean power is re-reviewed on the new model and booked once, after that re-review and its fixes (`DEC-2026-11-13-12`). The re-review tests first the 100%-by-2040 standard's clean share and payments, memo 1 B's receipts, dividend and 2035 emissions, regional bills, the gas fleet's wind-down and the credits' cost; the steps above are then rerun on its results.
+6c. **The energy model (MOD-energy, `models/tools/energy/`).** Clean power was re-reviewed on it (`review-m4.md`, `DEC-2026-11-13-12`). The booking uses its `results.json` `provisions` for the standard's payments and the year shapes of REV-C1, C1P, C2, C3 and CX; this tool's booked-basis arithmetic for the changes against the ledger (they reconcile within 1-2%: `tools/clean_power_path.py`, the re-review table); and its receipts as the high side of a range, since its PR-2 benchmark runs 26% above CBO.
+6d. **The transition share after FY2039** (part 2): CLI-2's outlay at 80% of C1 plus the waterfall's draws from FY2040; the remainder as general-fund receipts unless Espen directs it.
+6e. **The builders' borrowing** (part 2): TVA's, Bonneville's, WAPA's and the eastern corporation's line capital as time-limited capital (D4-B) outlays as built, with rate repayments over the lines' lives; only expected forgiveness is a net cost. The energy model's standby-builder program cost (about $6 billion a year in 2025 dollars at half strength) overlaps the second tranche (CLI-10.01) and must not be booked twice; its extra credited generation belongs to CLI-1's risk, not to the builder.
 7. **Incidence:** the household model's dividend and fee rows on the narrower base: no heating charge, a smaller dividend (section 7 checks D3 with it).
 8. **Rows the decisions leave as booked:** CLI-1, CLI-9, CLI-3 (CLI-3E's zero-direct-cost row relabeled 80%/100%), CLI-10G, CLI-5L, CLI-5W, CLI-7, CLI-7K, CLI-7C, CLI-7N, CLI-13A, CLI-13F, CLI-2O, CXP.
 
@@ -167,11 +169,11 @@ On the pattern of the secure floor's (`dossiers/secure-floor/6-cost.md`, part 6)
 | Power and industry's share of receipts | Working assumption: the carbon model read, on the booked $1.90 trillion; range ±10 points |
 | The dividend per adult | Working assumption: the carbon model read |
 | The credits' cost | Booked path; its risk a disclosed range, bounded by the trigger (commitment) |
-| The standard's payments | Working assumption: the carbon model's run of the decided path, about $0.11 trillion over 2030-39 and $29 billion in 2040, to the bill credit; whether the offset applies is the booking's question |
+| The standard's payments | Working assumption: the energy model's run of the decided path, about $0.16 trillion over FY2030-39 and $41 billion in FY2040 ($0.07 trillion and $21 billion with the permitting package), to the bill credit; whether the offset applies is the booking's question |
 | The bill credit's size | Working choice: a fixed sum, scaled down in proportion; the matched count is studied in the 2027-28 preparation match |
 | The second tranche's cost | Working assumption on the first tranche's ratio; released on milestones (commitment) |
 | The bill credit's cost | Working assumption on LIHEAP's reach and cost |
 | The guarantee's cost | Working assumption, bottom-up on judgment inputs; to study in implementation with the published counts (CLI-11.05) |
-| The transition share after FY2039 | Open question for the booking (part 2) |
-| The public builders' borrowing in the budget | Open question for the booking (part 2) |
+| The transition share after FY2039 | Waterfall decided (CLI-2A.04); the remainder's use is a question for Espen; booked as general-fund receipts meanwhile |
+| The public builders' borrowing in the budget | Time-limited capital with rate repayments; net cost is expected forgiveness (part 6, 6e) |
 | The disaster package, the facility, farms and forests | Booked; the facility's exposure contingent and disclosed |
