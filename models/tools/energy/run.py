@@ -147,9 +147,13 @@ def benchmarks(E, ACC, HH):
         why="The engine sits in the range's lower half, as its own validation found against NEMS, REGEN and E3 (SRC-0077, v2.3): it responds slowly in the first decade, so its receipts lean high and its cuts lean low. EMF 37's prices are in 2018-2020 dollars, the engine's in 2025 dollars.")
     cy = {y: (ACC["b_cbo"][y]["c1"] + ACC["b_cbo"][y]["c1p"]) * (1 - m.OFFSET) for y in range(2025, 2035)}
     cbo = sum(0.75 * cy[y] + 0.25 * cy.get(y - 1, 0.0) for y in cy)   # CBO's fiscal years (October to September); first year three quarters
+    # where the gap sits: FY2026 overall, and on gasoline alone (CBO's fourth alternative excludes gasoline; SRC-5036: $81.3B and $63.3B in FY2026)
+    fy26 = 0.75 * cy[2026] + 0.25 * cy[2025]
+    gas26 = sum(f * E["b_cbo"][y]["ldv"] * E["b_cbo"][y]["price"] * m.defl(y) / 1000 * (1 - m.OFFSET) for y, f in ((2026, 0.75), (2025, 0.25)))   # light-duty vehicles' CO2 as gasoline's (labeled proxy)
+    r_all, r_gas = 81.3 / fy26, (81.3 - 63.3) / gas26
     add(id="PR-2", what="Receipts on CBO's price path, 2025-2034, net of the income and payroll tax offset", model=f"${cbo:,.0f}B",
         target="CBO option 73: $919B (SRC-5036)", tol="within 25%", result="pass" if abs(cbo - 919.3) / 919.3 <= 0.25 else "fail",
-        why=f"{100 * (cbo - 919.3) / 919.3:+.0f}%, about the same in every year (FY2025 ${0.75 * cy[2025]:.0f}B against CBO's $53B; FY2034 ${0.75 * cy[2034] + 0.25 * cy[2033]:.0f}B against $118B). The engine cuts emissions slowly in its first decade (PR-1, lower half of EMF 37's range), which keeps its tax base, and so its receipts, high; the legacy ledger set REV-C1's midpoint about 5% below the model for the same reason (ledger-revenue.csv, C1). CBO covers energy CO2 and some large manufacturers' other gases from 2025; the engine prices fuel CO2 and industrial process CO2 and N2O, and starts its price with no warning (CBO's estimate is static apart from the offset).")
+        why=f"{100 * (cbo - 919.3) / 919.3:+.0f}%, about the same in every year (FY2025 ${0.75 * cy[2025]:.0f}B against CBO's $53B; FY2034 ${0.75 * cy[2034] + 0.25 * cy[2033]:.0f}B against $118B). The gap is in the level from the first year, not in the speed of the cuts: CBO's FY2026 receipts are {r_all:.0%} of the engine's, and on gasoline alone, the fuel least able to respond in a year, {r_gas:.0%} (CBO's alternative without gasoline gives $18.0B less in FY2026; the engine's light-duty vehicle CO2 stands in for gasoline's). The ratio then falls slowly to {118.1 / (0.75 * cy[2034] + 0.25 * cy[2033]):.0%} by FY2034: the engine's base does shrink a little more slowly than CBO's, but that adds only a few points over the decade. Most of the gap is there from the first year: CBO counts about a sixth less revenue per ton taxed, on every fuel. Its notes don't say why; candidates are a larger offset or compliance and collection allowances in JCT's conventions, or a narrower base (feedstocks, exports). The legacy ledger set REV-C1's midpoint about 5% below the model (ledger-revenue.csv, C1). An earlier version of this note put the whole gap down to slow first-decade cuts; the year-by-year ratio shows that is the smaller part. CBO covers energy CO2 and some large manufacturers' other gases from 2025; the engine prices fuel CO2 and industrial process CO2 and N2O, and starts its price with no warning (CBO's estimate is static apart from the offset).")
     cr = 100 * (E["b_cr"][2035]["below2005"] - base[2035]["below2005"])
     add(id="CR-1", what="Restoring the credits alone (from 2030, stepping down): points of energy CO2 below 2005 in 2035", model=f"{cr:.1f} points",
         target="The IRA against no IRA in the 2026 review: 39-48% against 27-35% below 2005 in 2035 (SRC-4479), about 8-13 points",
@@ -201,6 +205,12 @@ def benchmarks(E, ACC, HH):
     gaps = [r["gap_pct"] for r in fitrows]
     (_, b1), r2p = history.fit([lr], gaps)
     (_, _, b2), r2b = history.fit([lr, deficit], gaps)
+    # damped switching (coalDamp), tested, not adopted
+    lamD = m.a("coal_damp"); HD = dict(HW, coalDamp=lamD)
+    hd = history.run(HD); md = [r for r in history.monthly(HD) if (r["year"], r["month"]) != (2021, 2)]
+    hd_mae = sum(abs(h["gap_pct"]) for h in hd) / len(hd); md_mae = sum(abs(r["gap_pct"]) for r in md) / len(md)
+    md_cheap = [r["gap_pct"] for r in md if r["gas_coal_ratio"] < 1.2]; md_dear = [r["gap_pct"] for r in md if r["gas_coal_ratio"] > 2.0]
+    el0, elD = history.gas_elasticity(HW), history.gas_elasticity(HD)
     cheap = [r for r in fitrows if r["gas_coal_ratio"] < 1.2]
     dear = [r for r in fitrows if r["gas_coal_ratio"] > 2.0]
     avg = lambda rs: sum(r["gap_pct"] for r in rs) / len(rs)
@@ -208,7 +218,8 @@ def benchmarks(E, ACC, HH):
         model=f"average gap {mae:.1f}%; largest {worst['gap_pct']:+.1f}% ({worst['year']}); {mae_rest:.1f}% leaving out 2021-22", target="EIA, Monthly Energy Review table 11.6",
         tol="average absolute gap 5% or less, and every year within 10%", result="pass" if mae <= 5 and abs(worst["gap_pct"]) <= 10 else "fail",
         why=f"Total fossil generation is right by construction; the test is the split between coal and gas. With one national fuel price the engine switched the whole fleet at once (average gap {mae0:.1f}%). The dispatch now splits each block of plants by the spread of fuel prices EIA measures across states ({sp0['coal']:.0%} of the average price for coal, {sp0['gas']:.0%} for gas; SRC-5058 to SRC-5061) times a labeled calibration of {m.a('fuel_spread_mult'):.1f} (assumptions.csv, fuel_spread_mult). That roughly halves the gap but does not close it. "
-            f"An earlier version left out 2021-22 for the coal shortage EIA documents (SRC-5062, SRC-5063). The monthly run (HI-2) does not support that: the same over-response appears, in the other direction, in months when stockpiles were full, and the stockpile adds nothing once prices are counted. So every year is scored, and the check fails. The engine still switches between coal and gas too readily when prices move; a carbon price works through the same switch, so its near-term power cut leans high (EP-1, EP-3). The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built.")
+            f"An earlier version left out 2021-22 for the coal shortage EIA documents (SRC-5062, SRC-5063). The monthly run (HI-2) does not support that: the same over-response appears, in the other direction, in months when stockpiles were full, and the stockpile adds nothing once prices are counted. So every year is scored, and the check fails. The engine still switches between coal and gas too readily when prices move; a carbon price works through the same switch, so its near-term power cut leans high (EP-1, EP-3). The full-engine history run (vehicles, buildings and building decisions from 2015) is still to be built. "
+            f"**Damped switching, tested and not adopted** (`coalDamp` {lamD:.1f}, assumptions.csv `coal_damp`): letting plants move only {lamD:.0%} of the way from last period's dispatch toward this period's narrows the yearly gap to {hd_mae:.1f}% (still a fail) and the monthly gap to {md_mae:.1f}%, but only on the cheap-gas side ({sum(md_cheap) / len(md_cheap):+.1f}% in those months; {sum(md_dear) / len(md_dear):+.1f}% when gas is dear, nearly unchanged). It also cuts the engine's short-run elasticity of coal-and-gas CO2 to the gas price from {el0:.2f} to {elD:.2f}; the published estimates the M4 research noted (Knittel, Metaxoglou and Trindade, NBER w21627, 2015) are to be checked before any damping is adopted. The remaining gap sits mostly in 2021-22, the dear-gas, short-coal months, where a lag cannot help.")
     add(id="HI-2", what="History run by month, power sector, 2019-2024: the engine's dispatch on each month's measured generation and fuel prices (at an annual rate, on that year's fleet), against EIA's measured monthly coal and gas power CO2 (SRC-5057, SRC-5064 to SRC-5066)",
         model=f"average monthly gap {mo_mae:.1f}%; {avg(cheap):+.1f}% in months with gas under 1.2 times coal's price ({len(cheap)} months), {avg(dear):+.1f}% with gas over 2 times ({len(dear)} months)",
         target="EIA, Monthly Energy Review tables 7.2b, 9.9, 11.6 and 6.3", tol="reported (diagnostic)", result="reported",
@@ -233,7 +244,7 @@ def main():
     ACC = {cid: m.accounts(rows) for cid, rows in R["cases"].items()}
     labels = {c["id"]: c["label"] for c in cfg["cases"]}
     L, O = m.scenarios()
-    layers, options = [c[0] for c in L], [c[0] for c in O] + ["cl_permit", "decided_permit"]
+    layers, options = [c[0] for c in L], [c[0] for c in O] + ["cl_permit", "decided_permit", "permit_bld_hi"]
     B = benchmarks(E, ACC, R["households"])
     HIST = next(b["_history"] for b in B if "_history" in b)
     MONTHLY = next(b["_monthly"] for b in B if "_history" in b)
@@ -390,10 +401,10 @@ def report(res, E, ACC, layers, options, labels):
     w("| Case | Started by 2040 | Online 2040 | Online 2050 | Captured 2050 | Below 2005, 2035 / 2050 | 45Q on retrofits, 2030-39 / 2040-49 | 45Q on other capture, 2030-39 / 2040-49 |")
     w("| --- | --- | --- | --- | --- | --- | --- | --- |")
     q = lambda e, k, a, b: sum(e[y][k] for y in range(a, b + 1))
-    for cid in ("decided", "retro1", "retro1_stack", "retro_hi", "retro_hi_stack"):
+    for cid in ("decided", "retro1", "retro1_stack", "retro1_rcredit", "retro_hi", "retro_hi_stack", "retro_hi_rcredit"):
         e = E[cid]
         w(f"| {labels[cid].replace('Sensitivity: ', '')} | {e[2040]['retroStarted']:.0f} | {e[2040]['retroCoal']:.0f} / {e[2040]['retroGas']:.0f} | {e[2050]['retroCoal']:.0f} / {e[2050]['retroGas']:.0f} | {e[2050]['retroCapt']:.0f} | {100 * e[2035]['below2005']:.0f}% / {100 * e[2050]['below2005']:.0f}% | {q(e, 'retroQ45', 2030, 2039):.1f} / {q(e, 'retroQ45', 2040, 2049):.1f} | {q(e, 'q45Other', 2030, 2039):.0f} / {q(e, 'q45Other', 2040, 2049):.0f} |")
-    w("\n45Q in 2025 $ billion, calendar years. Retrofits' 45Q is in the engine's credits; 45Q on new capture plants and industrial capture is reported only (the ledger books current-law 45Q outside this model). \"Stacking\" (`q45Stack`) pays 45Q on top of the carbon price a stored ton avoids; the other runs pay the larger of the two, the engine's default. Coal retrofits started under stacking are not completed: the engine retires coal on price and the 2040 standard without regard to a retrofit under way (a known limit).\n")
+    w("\n45Q in 2025 $ billion, calendar years. Retrofits' 45Q is in the engine's credits; 45Q on new capture plants and industrial capture is reported only (the ledger books current-law 45Q outside this model). \"Stacking\" (`q45Stack`) pays 45Q on top of the carbon price a stored ton avoids; \"Retrofit credit\" (`q45Stack` \"retro\") stacks for retrofits begun by 2039 only. The other runs pay the larger of the two, the engine's default. A coal unit with a retrofit under way is not retired if the retrofit will meet the power plant standard (capture of at least 90%, CLI-4R.01); at 75% capture in operation it cannot, so under the standard no coal retrofit starts.\n")
     w("\n**HI-2, month by month** (gap between the engine's and EIA's measured coal and gas power CO2, %; the gas-to-coal price ratio in brackets):\n")
     w("| Year | " + " | ".join(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]) + " |")
     w("| --- |" + " --- |" * 12)

@@ -10241,5 +10241,224 @@
     "stance": "qualifies"
    }
   ]
+ },
+ {
+  "id": "EV-CLP-725",
+  "statement": "EPA's power model prices a carbon capture retrofit on a 700 MW coal unit at 10,000 Btu/kWh at $2,506/kW (2022 dollars), with fixed O&M of $30.63/kW-yr and variable O&M of 5.66 mills/kWh, at 90 percent capture.",
+  "claim": "analysis",
+  "figures": [
+   "700",
+   "10,000",
+   "2,506",
+   "30.63",
+   "5.66",
+   "90"
+  ],
+  "source": "SRC-5067",
+  "anchor": [
+   "700\n10,000\n2,506\n30.63\n5.66\n30.69",
+   "The option comes with a CO2 capture efficiency of 90 percent.",
+   "Table 6-2 Performance and Unit Cost (2022$) Assumptions for Carbon Capture in the EPA 2023"
+  ],
+  "grade": "C",
+  "fact_date": "2024-04",
+  "context": "EPA IPM 2023 Reference Case documentation (Biden administration, April 2024), from Sargent & Lundy's 2023 cost algorithm; an engineering cost model, not observed project costs.",
+  "supports": [
+   "dossiers/clean-power/memos/8-ccs-retrofits.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-727",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-14",
+  "recheck": "2027-11-14"
+ },
+ {
+  "id": "EV-CLP-726",
+  "statement": "In EPA's cost table, a combined-cycle retrofit (300 MW, 8,000 Btu/kWh) costs $1,380/kW in 2022 dollars, and the coal retrofit raises the unit's heat rate by 44.27 percent and the combined cycle's by 21.07 percent.",
+  "claim": "analysis",
+  "figures": [
+   "300",
+   "8,000",
+   "1,380",
+   "44.27",
+   "21.07"
+  ],
+  "source": "SRC-5067",
+  "anchor": [
+   "300\n8,000\n1,380\n25.64\n2.23\n17.40",
+   "38.15\n44.27\n50.95",
+   "17.97\n21.07\n24.35\n17.99",
+   "Table 6-2 Performance and Unit Cost (2022$) Assumptions for Carbon Capture in the EPA 2023"
+  ],
+  "grade": "C",
+  "fact_date": "2024-04",
+  "context": "EPA IPM 2023 Reference Case documentation (Biden administration, April 2024; Sargent & Lundy). The heat-rate penalty is the extra fuel the capture system uses; the table lists the 400, 700 and 1,000 MW coal rows and the 100, 300 and 500 MW combined-cycle rows in that order.",
+  "supports": [
+   "dossiers/clean-power/memos/8-ccs-retrofits.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-725",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-14",
+  "recheck": "2027-11-14"
+ },
+ {
+  "id": "EV-CLP-727",
+  "statement": "Between 2014 and 2022, the capture system at Boundary Dam Unit 3, the only commercial-scale post-combustion capture on a coal unit, captured no more than 63 percent of the unit's carbon dioxide in any calendar year.",
+  "claim": "data",
+  "figures": [
+   "2014",
+   "2022",
+   "63"
+  ],
+  "source": "SRC-5069",
+  "anchor": [
+   "and power, is Boundary Dam Unit 3.",
+   "However, between 2014 and 2022, the\ncapture system at Boundary Dam\nachieved a total capture efficiency of not\nmore than 63 percent over the course of\na calendar year."
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "context": "EPA, second Trump administration, final rule of September 17, 2026, which repealed most of the 2024 Carbon Pollution Standards; the agency has a stated stance against the 2024 rule, so its findings are read with skepticism (DEC-2026-10-30-01). Its account of Boundary Dam 3's annual capture is a measured record it cites from the operator's reports.",
+  "supports": [
+   "dossiers/clean-power/memos/8-ccs-retrofits.md"
+  ],
+  "checked": "2026-11-14",
+  "recheck": "2027-11-14"
+ },
+ {
+  "id": "EV-CLP-728",
+  "statement": "EPA's 2026 partial repeal finds that 90 percent capture is not adequately demonstrated for existing coal-fired steam generating units.",
+  "claim": "analysis",
+  "figures": [
+   "90"
+  ],
+  "source": "SRC-5069",
+  "anchor": [
+   "finalizing the determination that CCS\nwith 90 percent capture and,\nconsequently, 90 percent CCS are not\nadequately demonstrated for existing\ncoal-fired steam generating units."
+  ],
+  "grade": "C",
+  "fact_date": "2026-09",
+  "context": "EPA, second Trump administration, final rule of September 17, 2026, which repealed most of the 2024 Carbon Pollution Standards; the agency has a stated stance against the 2024 rule, so its findings are read with skepticism (DEC-2026-10-30-01). Its account of Boundary Dam 3's annual capture is a measured record it cites from the operator's reports. The 2024 rule (Biden administration) found the opposite; the memo presents both views and weighs Boundary Dam 3's record (EV-CLP-727) and Petra Nova's (EV-CLP-730).",
+  "supports": [
+   "dossiers/clean-power/memos/8-ccs-retrofits.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-727",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CLP-725",
+    "stance": "contests"
+   }
+  ],
+  "checked": "2026-11-14",
+  "recheck": "2027-11-14"
+ },
+ {
+  "id": "EV-CLP-729",
+  "statement": "The 2024 Carbon Pollution Standards estimated about seven years to install 90 percent capture at an existing coal unit and weighed capture at 40 GW of coal capacity.",
+  "claim": "analysis",
+  "figures": [
+   "seven",
+   "90",
+   "40 GW"
+  ],
+  "source": "SRC-5069",
+  "anchor": [
+   "2024 CPS, the EPA estimated that it\nwould take approximately seven years\nto implement 90 percent CCS for\nexisting coal-fired units.",
+   "CPS considered the viability and\nreasonableness of installing and\noperating CCS at 40 GW of coal\ncapacity."
+  ],
+  "grade": "C",
+  "fact_date": "2024-05",
+  "context": "EPA's 2024 rule (Biden administration) as restated in its 2026 partial repeal (second Trump administration).",
+  "supports": [
+   "dossiers/clean-power/memos/8-ccs-retrofits.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CLP-728",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-14",
+  "recheck": "2027-11-14"
+ },
+ {
+  "id": "EV-CLP-730",
+  "statement": "Petra Nova's carbon capture facility at W.A. Parish, idled in 2020, restarted on September 13, 2023.",
+  "claim": "data",
+  "figures": [
+   "2020",
+   "13",
+   "2023"
+  ],
+  "source": "SRC-5069",
+  "anchor": [
+   "2020, citing the poor economics of\nutilizing captured CO2 for EOR at that\ntime. On September 13, 2023, the\ncarbon capture facility at Petra Nova\nrestarted."
+  ],
+  "grade": "A",
+  "fact_date": "2023-09-13",
+  "context": "EPA, second Trump administration, final rule of September 17, 2026, which repealed most of the 2024 Carbon Pollution Standards; the agency has a stated stance against the 2024 rule, so its findings are read with skepticism (DEC-2026-10-30-01). Its account of Boundary Dam 3's annual capture is a measured record it cites from the operator's reports.",
+  "supports": [
+   "dossiers/clean-power/memos/8-ccs-retrofits.md"
+  ],
+  "checked": "2026-11-14",
+  "recheck": "2027-11-14"
+ },
+ {
+  "id": "EV-CLP-731",
+  "statement": "At least 13 permitted Class VI carbon-storage wells are operating, and 142 Class VI permit applications are pending at EPA.",
+  "claim": "data",
+  "figures": [
+   "13",
+   "142"
+  ],
+  "source": "SRC-5068",
+  "anchor": [
+   "at least 13 permitted wells operating",
+   "142 Class VI permit applications are currently pending review"
+  ],
+  "grade": "A",
+  "fact_date": "2026-10",
+  "context": "Congressional Research Service, R48033, updated October 19, 2026, citing EPA.",
+  "supports": [
+   "dossiers/clean-power/memos/8-ccs-retrofits.md"
+  ],
+  "checked": "2026-11-14",
+  "recheck": "2027-11-14"
+ },
+ {
+  "id": "EV-CLP-732",
+  "statement": "The carbon oxide sequestration credit is paid for 12 years, multiplied by 5 where prevailing-wage and apprenticeship rules are met, on facilities whose construction begins before January 1, 2033, and a power unit's capture must be designed for not less than 75 percent of its baseline carbon dioxide.",
+  "claim": "data",
+  "figures": [
+   "12",
+   "5",
+   "1",
+   "2033",
+   "75"
+  ],
+  "source": "SRC-5070",
+  "anchor": [
+   "multiplied by 5",
+   "the construction of which begins before January 1, 2033",
+   "has a capture design capacity of not less than 75 percent",
+   "during the 12-year period"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "context": "26 U.S.C. 45Q, 2024 edition; Pub. L. 119-21, sec. 70522 (July 4, 2025) set the base rate at $17 for all uses after 2024, indexed from 2025.",
+  "supports": [
+   "dossiers/clean-power/memos/8-ccs-retrofits.md"
+  ],
+  "checked": "2026-11-14",
+  "recheck": "2027-11-14"
  }
 ]
