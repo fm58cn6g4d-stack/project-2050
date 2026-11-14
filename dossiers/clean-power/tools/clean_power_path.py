@@ -192,7 +192,13 @@ def main():
     print(f"{'memo 4 B: tranche 2 + builder':28s}" + fmt(GRID2))
     print(f"{'memo 5 B: bill credit':28s}" + fmt(BILLS))
     print(f"{'memo 7 B: guarantee':28s}" + fmt(g7))
-    chg = {y: cx[y] + c5[y] + GRID2[y] + BILLS[y] + g7[y] for y in Y}
+    # DEC-2026-11-13-13 (option A): from FY2040 the ledger's CLI-2 outlay is the dividend (80% of C1)
+    # plus the waterfall's draws, which are the memo 5 B and 7 B rows above; the rest of the 20%
+    # transition share stays in the general fund. Through FY2039 the share finances the add-ons.
+    ts = {y: (0.2 * rows["CX"][y] / OFFSET * C1_SHARE_OF_CX * share[y] if y >= 2040 else 0.0) for y in Y}
+    held = {y: (-ts[y] if ts[y] else 0.0) for y in Y}
+    print(f"{'DEC-13-13 A: share to GF':28s}" + fmt(held))
+    chg = {y: cx[y] + c5[y] + GRID2[y] + BILLS[y] + g7[y] + held[y] for y in Y}
     tot = {y: tot_b[y] + chg[y] for y in Y}
     print(f"{'CHANGE vs booked':28s}" + fmt(chg))
     print(f"{'DECIDED SET':28s}" + fmt(tot))
@@ -201,12 +207,12 @@ def main():
     print(f"FY2040: decided set ${tot[2040]:.1f}B = {100 * tot[2040] / GDP_FY2040:.2f}% of GDP; "
           f"{100 * tot[2040] / PLAN_GAP_FY2040:.1f}% of the plan-wide gap (${PLAN_GAP_FY2040:.1f}B); change {chg[2040]:+.1f}B "
           f"= {100 * chg[2040] / PLAN_GAP_FY2040:+.2f}% of the gap")
-    ts40 = 0.2 * rows["CX"][2040] / OFFSET * C1_SHARE_OF_CX * share[2040]
-    print(f"Transition share in FY2040 under B (20% of the receipts still raised): ${ts40:.1f}B")
+    print(f"Transition share in FY2040 under B (20% of the receipts still raised): ${ts[2040]:.1f}B; "
+          f"waterfall {BILLS[2040] + g7[2040]:.1f}B; remainder {ts[2040] - BILLS[2040] - g7[2040]:.1f}B")
     d35 = model[2035]
     print(f"Dividend per adult 2035 (nominal): package ${d35['dividend_adult_package']:.0f}, B ${d35['dividend_adult_B']:.0f}")
     m4_compare(rows, share, model)
-    return dict(rows=rows, cx=cx, c5=c5, grid2=GRID2, bills=BILLS, g7=g7, change=chg, total=tot, share=share)
+    return dict(rows=rows, cx=cx, c5=c5, grid2=GRID2, bills=BILLS, g7=g7, held=held, change=chg, total=tot, share=share)
 
 
 if __name__ == "__main__":

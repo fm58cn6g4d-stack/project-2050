@@ -45,6 +45,6 @@ Every one of these is a legacy working choice, not a decision of Espen's for thi
 
 ## Open questions for Espen
 
-One, from the re-review on the energy model (`review-m4.md`, R-3): **where the transition share's remainder goes after FY2039.** From FY2040 the 20% share (about $33 billion a year) pays the guarantee and the bill credit first (about $11 billion); the rest, about $23 billion, has no named use. The re-review recommends holding it as general-fund receipts, which lowers clean power's FY2040 cost from about $146 billion to about $113 billion; the alternatives are raising the dividend or a standing transition and adaptation fund.
+None. The re-review's question (`review-m4.md`, R-3), where the transition share's remainder goes after FY2039, is decided: it stays in the general fund (`DEC-2026-11-13-13`, option A). From FY2040 the 20% share, about $33 billion a year, pays the guarantee and the bill credit first, about $11 billion; the rest, about $23 billion, stays in the general fund. That brings clean power's FY2040 cost to about $113 billion.
 
 Next: the booking (tier 3, the lead's), then a short L3 re-check.

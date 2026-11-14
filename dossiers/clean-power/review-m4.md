@@ -13,7 +13,7 @@ Role: the re-review of the clean power dossier on the new energy and climate mod
 | Offset on the combustion price, border adjustment and methane fee, FY2030-39 | 306 | 306 |
 | Dividend per adult, 2035 | $439 | $408 |
 
-The general fund's figures barely move: about **$1.85 trillion over FY2030-39 and $146 billion in FY2040** (+$0.04 trillion and −$18.5 billion against the booked rows). Only the transition guarantee's timing changed. The model moves five things the dossier carried on judgment or on the legacy model, and settles the two questions left for it:
+The general fund's figures barely move: about **$1.85 trillion over FY2030-39 and $146 billion in FY2040** on the ledger's convention (+$0.04 trillion and −$18.5 billion against the booked rows). Only the transition guarantee's timing changed. With Espen's decision on the transition share (R-3, `DEC-2026-11-13-13`), FY2040 is about **$113 billion** (−$52 billion). The model moves five things the dossier carried on judgment or on the legacy model, and settles the two questions left for it:
 
 | | Before (#346) | On the energy model | Section |
 | --- | --- | --- | --- |
@@ -24,7 +24,7 @@ The general fund's figures barely move: about **$1.85 trillion over FY2030-39 an
 | Carbon channel, 2035, lowest to highest fifth | +62, +46, −6, −154, −654 | **+99, +84, +7, −185, −833** | R-8 |
 | The credits' cost risk over the booking | up to +$0.74 trillion | **about +$0.27 trillion** (+$0.43 trillion with the builder's extra credits) | R-6 |
 | The transition guarantee | $12 billion; $1.7 billion in FY2040 | **$14 billion; $0.7 billion in FY2040** (coal closes by 2035) | R-9 |
-| The transition share after FY2039 | open | **the waterfall, then a remainder of about $23 billion a year: for Espen** | R-3 |
+| The transition share after FY2039 | open | **the waterfall, then a remainder of about $23 billion a year, kept in the general fund** (Espen, `DEC-2026-11-13-13`) | R-3 |
 | The builders' borrowing | open | **time-limited capital, repaid from rates; net cost is forgiveness only** | R-4 |
 
 ## Refresh after #350
@@ -33,13 +33,12 @@ The energy model's fix for R-2 (#350, `retailAcp`) merged at `baa7e99`: the stan
 - **The standard's payments** fall slightly: $157 billion over FY2030-39 and $40 billion in FY2040 ($71 billion and $20 billion with the permitting package). The possible offset is about $38 billion and $10 billion (R-1).
 - **The 2040 retail price** is 15.1 cents a kilowatt-hour against 14.7 under current law (2025 dollars). In 2035 it is 14.9 against 14.3 (R-2).
 - **Households, 2035, carbon channel:** +$99, +$84, +$7, −$185 and −$833 from the lowest fifth to the highest. The electricity column now includes the payments (R-8).
-- **Unchanged within rounding:** receipts ($1,188 billion), the transition share ($238 billion; $33 billion in FY2040), the offset, emissions (41% in 2035), the dividend (about $410 an adult in 2035; $408 on the model), and the decided set's cost on the general fund ($1,853.8 billion; $146.4 billion in FY2040).
+- **Unchanged within rounding:** receipts ($1,188 billion), the transition share ($238 billion; $33 billion in FY2040), the offset, emissions (41% in 2035), the dividend (about $410 an adult in 2035; $408 on the model), and the decided set's cost on the general fund ($1,853.8 billion over FY2030-39).
 
-**What depends on Espen's answer on the transition share (R-3).** The general-fund figures for FY2040 on are written on the ledger's convention, which counts the whole share as spent. Under each answer:
-- **A, the general budget** (recommended): the FY2040 cost is about $113 billion, about −$52 billion against the booking.
-- **B, the dividend:** the FY2040 cost stays about $146 billion, and the 2040 dividend rises from about $483 to about $565 an adult.
-- **C, a standing fund:** the FY2040 cost stays about $146 billion, spent through the fund instead of the dividend.
-Everything else in this review reads the same under all three.
+**Espen's decision on the transition share (R-3).** Espen chose A, keeping the remainder in the general fund (`DEC-2026-11-13-13`). The dossier now carries it:
+- `tools/clean_power_path.py` adds a FY2040 row of −$33.1 billion for the share. The waterfall's draws are already the memo 5 B and 7 B rows.
+- The decided set is $113.3 billion in FY2040, −$51.6 billion against the booking, and 2.7% of the plan-wide gap.
+- **Updated:** `6-cost.md`, parts 1, 2, 4, 5, 6 (6d) and 7; CLI-2A.04; sections 7, 8 and 9; the README.
 
 ## How it was done
 
@@ -66,13 +65,13 @@ Everything else in this review reads the same under all three.
 - This does not change a decision, and the money returns through the bill credit. Section 9's bill answer already says electricity rises somewhat.
 - **Fixed:** in the model by #350 (the M4 session's); in the dossier, `7-validation.md`, parts 2 and 4, on the new figures.
 
-**R-3. The transition share after FY2039: the waterfall is decided, the remainder is Espen's.**
+**R-3. The transition share after FY2039: the waterfall, then the remainder in the general fund (decided, `DEC-2026-11-13-13`).**
 - **How the ledger books it.** `models/tools/ledger-build.py` books CLI-2's outlay as the whole carbon fee. The 20% transition share finances the add-ons (CLI-5) through FY2039. From FY2040 the add-ons end, but the share still counts as spent: about $33 billion a year that funds nothing.
 - **The waterfall** (CLI-2A.04, point 5, decided) pays the guarantee and the bill credit from the share first: about $10.6 billion in FY2040.
 - **The remainder,** about $23 billion a year, has no named use in any decision.
 - **The default.** Held as general-fund receipts, which is how the money stands unless a law spends it, it lowers clean power's FY2040 cost from about $146 billion to about $113 billion. That is about −$52 billion against the booking instead of −$18.5 billion.
 - **Alternatives:** raise the dividend from FY2040 (to 100% of combustion receipts less the waterfall), or a standing transition and adaptation fund.
-- Which one is a choice about who gets money, so it goes to Espen (below). The booking should record the waterfall and hold the remainder as receipts until Espen answers.
+- Which one is a choice about who gets money, so it went to Espen, who chose the default: the remainder stays in the general fund (`DEC-2026-11-13-13`, option A).
 - **Fixed:** `6-cost.md`, parts 2, 4, 6 (6d) and 7; the README's open question.
 
 **R-4. The builders' borrowing: time-limited capital, repaid from rates.**
@@ -132,13 +131,11 @@ Everything else in this review reads the same under all three.
 4. **The transition share from FY2040:**
    - CLI-2's outlay at 80% of C1;
    - the waterfall's draws for the guarantee and the bill credit;
-   - the remainder as general-fund receipts until Espen directs it (R-3).
+   - the remainder kept in the general fund (R-3, `DEC-2026-11-13-13`).
 5. **The builders' capital** as time-limited capital with rate repayments, net cost only expected forgiveness; no double count with the second tranche; the extra credited generation under CLI-1's risk (R-4).
 6. **The credits:** the booked CLI-1, with the model's +$0.27-0.43 trillion as the disclosed risk (R-6).
 7. **The household model's D3 test** on the model's carbon-channel distribution (R-8), which now includes the standard's payments in electricity (R-2, #350).
 
 ## For Espen
 
-**One question: where the transition share's remainder goes after FY2039.**
-
-From 2040 the 20% transition share of the carbon price raises about $33 billion a year. As decided, it pays the worker guarantee and the energy bill credit first, about $11 billion. Nothing says where the other $23 billion or so goes. We recommend keeping it in the general budget, which lowers clean power's yearly cost from about $146 billion to about $113 billion. The alternatives are to add it to the Climate Dividend, about $80 more a year per adult in 2040, or to put it in a standing fund for transition and disaster preparation.
+**Answered.** This review asked one question: where the transition share's remainder goes after FY2039. Espen chose to keep it in the general budget (`DEC-2026-11-13-13`). From 2040 the share raises about $33 billion a year. It pays the worker guarantee and the energy bill credit first, about $11 billion, and the rest stays in the general budget. Clean power's yearly cost from 2040 is about $113 billion.
