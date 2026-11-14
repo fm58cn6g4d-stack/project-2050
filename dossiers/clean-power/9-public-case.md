@@ -18,7 +18,7 @@ Project 2050's clean power plan does five things, starting in 2030.
 
 **A guarantee for workers and towns,** for closures from 2030. A worker who loses a job when a coal mine, a power plant or a refinery closes keeps up to 90% of their old hourly pay for two years in a new job, or 90% of their old pay while training. Workers 55 and older can draw their pension in full. Towns, and tribal nations that host plants and mines, get their lost tax or royalty revenue replaced, falling over ten years.
 
-**What it costs, on our estimates.** About $1.85 trillion over 2030-39 on the federal budget, close to what the budget already carries for these purposes, and about $146 billion a year from 2040, before the plan's financing (section 6). The worker guarantee is about $14 billion of that over ten years.
+**What it costs, on our estimates.** About $1.85 trillion over 2030-39 on the federal budget, close to what the budget already carries for these purposes, and about $146 billion a year from 2040, before the plan's financing (section 6). From 2040 that figure depends on a choice still open: if the money left over in the transition share stays in the general budget, it is about $113 billion. The worker guarantee is about $14 billion of that over ten years.
 
 ## The case in one paragraph
 
@@ -83,10 +83,10 @@ Americans are paying more for power, more for insurance and more after every sto
 | Close to what the budget already carries | $1.85 trillion against $1.81 trillion booked | 6, part 1 | Project arithmetic |
 | Before the plan's financing | the financing is set plan-wide | 6, part 4 | `DEC-2026-11-10-05` |
 | What utilities pay when they fall short of the standard | returned through the bill credit | 4 (CLI-3A.02); 6, part 2 | The carbon model read |
-| Cost of the set | about $1.85 trillion (2030-39); about $146 billion a year from 2040 | 6, parts 1 and 4 | Project arithmetic (`tools/clean_power_path.py`) |
+| Cost of the set | about $1.85 trillion (2030-39); about $146 billion a year from 2040 (about $113 billion if the transition share's remainder stays in the general budget; open, for Espen) | 6, parts 1 and 4 | Project arithmetic (`tools/clean_power_path.py`) |
 | Guarantee's cost | about $14 billion over ten years | 6, part 1 | Project arithmetic; working assumption |
 | Low-income households ahead on the carbon channel | bottom two-fifths ahead on average, nationally, in 2035 | 7, part 4 | The energy model's household module |
-| Emissions in 2035 | about 41% below 2005 (energy CO2) | 7, part 5 | The energy model (`models/tools/energy/results.md`); project estimate, band 39-42% |
+| Emissions in 2035 | about 41% below 2005 (energy CO2) | 7, part 5 | The energy model (`models/tools/energy/results.md`); project estimate, band 40-42% |
 | The national 2035 goal | 61-66% below 2005 | 4 (CLI-14.01) | EV-CLP-116 |
 | Canada kept the large-emitter price | 2025 | 2 | EV-CLP-310 |
 | Reinsurance cap | $150 billion, above a 1-in-100-year loss | 4 (CLI-7C.01) | EV-CLP-718 |
