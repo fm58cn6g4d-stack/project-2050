@@ -1,0 +1,286 @@
+Source: https://www.eia.gov/environment/emissions/carbon/
+Publisher: U.S. Energy Information Administration
+Retrieved: 2026-11-13
+Original SHA-256: 23372ce9153e6e0ab96b5df96aba60a87367a8ec998cb9ef887fc1a576cc97b0
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+U.S. Energy Information Administration - EIA - Independent Statistics and Analysis
+U.S. Energy Information Administration (EIA) - Pub
+Environment
+Glossary › FAQS ›
+Overview
+Data
+Summary
+Electric power plant environmental
+International emissions
+All environment data reports
+-->
+Analysis & Projections
+Major Topics
+Most popular
+Emissions
+Forecasts/projections
+International
+All reports
+Browse by Tag
+Alphabetical
+Frequency
+Tag Cloud
+U.S. Energy-Related Carbon Dioxide Emissions, 2025
+Release Date: July 21, 2026 | Next Release Date: Summer 2027
+| Full report |
+Methodology and Supplemental Content Emissions
+Harmonization --> Revision notice -->
+Previous Issues:
+Year:
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+Executive Summary
+This report highlights notable trends in energy-related carbon dioxide (CO 2 ) emissions in the United States in 2025, based on preliminary data. The U.S. Energy Information Administration (EIA) has published this report on an annual basis since 2010 , and has published monthly historical data and forecasts on energy-related CO 2 emissions since August 2009.
+U.S. energy-related CO 2 emissions increased by 2%, or about 115 million metric tons (MMmt), in 2025. Emissions increased across all economic sectors, with the largest increase (in tonnage) in the electric power sector as a result of both higher electricity demand and a larger share of electricity generated from coal, relative to 2024 (Table 1). Colder winter weather relative to 2024 also led to an increase in emissions from the residential and commercial sectors for space heating.
+Emissions increases in the industrial and transportation sectors were small, with energy efficiency gains and switches to less carbon-intensive fuels curbing growth. The following sections of the report provide more detail and insights into emissions changes for each sector.
+Table 1. Total U.S. energy-related carbon dioxide emissions by sector, 2021–2025
+million metric tons of carbon dioxide
+Sector
+2021
+2022
+2023
+2024
+2025
+Residential
+325
+340
+313
+304
+331
+Commercial
+245
+260
+245
+239
+256
+Industrial
+977
+964
+964
+955
+960
+Transportation
+1,807
+1,842
+1,855
+1,863
+1,871
+Electric power
+1,553
+1,539
+1,422
+1,427
+1,485
+Total
+4,906
+4,945
+4,799
+4,789
+4,904
+Data source: U.S. Energy Information Administration, Monthly Energy Review , May 2026, Tables 11.1–11.6
+Note: Totals may not equal sum of components due to independent rounding.
+Figure 1. U.S. energy-related CO 2 emissions by sector, 1990–2025
+Figure data
+Key Findings
+Growth in electricity demand and coal’s share of electricity generation were the largest contributors to increases in CO 2 emissions
+CO 2 emissions from the electric power sector rose by 4%, or 58 MMmt, in 2025, partly because of growth in overall electricity generation. Net generation in the electric power sector increased by 3%, or 119 terawatthours (TWh), in 2025, surpassing 2024’s record annual generation . Hot summer weather, which led to increased demand for space cooling and record summer peak electricity demand , and growth in electricity demand from data centers and manufacturing facilities both contributed to increased generation.
+Changes in the electricity generation mix also influenced sectoral CO 2 emissions, with both net growth in fossil fuel-fired generation and relative growth in coal-fired generation, which emits more CO 2 per kilowatthour than natural gas when combusted . Specifically:
+Coal-fired electricity generation increased by 13% (85 TWh), raising coal-related CO 2 emissions by 78 MMmt
+Natural gas-fired electricity generation decreased by 4% (64 TWh), lowering natural gas-related CO 2 emissions by 23 MMmt
+Wind generation increased by 3% (12 TWh) and solar generation rose by 34% (75 TWh), curbing increased emissions from electricity generation
+Electricity generation from other sources was essentially flat compared with 2024.
+Figure 2. Share of U.S. electric power sector generation by fuel source, 1990–2025
+Figure data
+Colder winter weather led to higher residential and commercial natural gas use and CO 2 emissions
+CO 2 emissions increased in 2025 from rising consumption of natural gas, propane, and distillate fuel oil— key fuels used in space heating –in both the residential and commercial sectors. Increases in CO 2 were primarily a result of colder winter weather relative to 2024. U.S. population-weighted heating degree days (HDDs), increased by 9% relative to last year, with a peak winter HDD reaching 12% higher than the 2024 winter season.
+Figure 3. U.S. monthly average heating degree days, 2020–2025
+Figure data
+Direct energy use CO 2 emissions in the residential and commercial sectors increased by 9% (27 MMmt) and 7% (17 MMmt) relative to 2024, respectively.
+Figure 4. U.S. residential sector direct carbon dioxide emissions by fuel source, 1990–2025
+Figure data
+Figure 5. U.S. commercial sector direct carbon dioxide emissions by fuel source, 1990–2025
+Figure data
+Total industrial CO 2 emissions remained mostly unchanged as decreases in coal-related emissions balanced increases from natural gas
+CO 2 emissions from the U.S. industrial sector increased by less than 1% (5 MMmt) in 2025. Despite an increase in industrial output in 2025 , emissions from the sector remained relatively unchanged because of changes in fuels used. Specifically, coal use in the industrial sector, for both power and manufacturing, continued to decrease through 2025 . However, as coal use in industry has decreased, natural gas use has continued to increase and is expected to reach records in 2026 and 2027 . As a result of these fuel changes, industrial coal-related emissions fell by 4% (3 MMmt) in 2025 while natural gas-related emissions rose by 1% (6 MMmt). The residual increase in total emissions was a result of modest increases in consumption of various petroleum products.
+Figure 6. U.S. industrial sector direct carbon dioxide emissions by fuel source, 1990–2025
+Figure data
+Transportation sector CO 2 emissions remained flat as decreases from motor gasoline emissions offset increases from distillate fuel oil
+U.S. transportation sector emissions remained effectively unchanged in 2025 as emissions changes in the two most-used fuels, motor gasoline and distillate fuel oil, offset each other. CO 2 emissions from motor gasoline fell by 1% (12 MMmt), but CO 2 emissions from distillate fuel oil increased by 3% (12 MMmt). Smaller emissions increases from other fuels, such as jet fuel as use has gradually returned to near pre-pandemic levels , did not meaningfully affect overall sectoral emissions changes. Total transportation sector emissions rose by less than 1% relative to 2024.
+Decreases in motor gasoline CO 2 emissions were most closely associated with improvements in vehicle fuel economy, some of which can be attributed to changing trends in vehicle powertrains. Most of these fuel economy improvements can be attributed to continued efficiency improvements in conventional light-duty vehicles. To a lesser extent, increases in electric vehicles and hybrid electric vehicles in the U.S. light-duty fleet also contribute to fuel economy improvements. Emissions reductions from improvements in light-duty vehicle fuel economy outpaced emissions growth from steadily rising on-road vehicle travel , resulting in an overall reduction in motor gasoline emissions.
+Increases in CO 2 emissions from distillate fuel oil, mostly from increased vehicle travel and on-road diesel consumption, offset emissions decreases from motor gasoline. Diesel is a more common fuel in larger heavy-freight vehicles, for which there are fewer electric and hybrid options. As a result, demand for freight movement grows faster than fuel economy improvements, leading to a net increase in distillate emissions.
+Figure 7. U.S. transportation sector carbon dioxide emissions by fuel source, 1990–2025
+Figure data
+Background and Data
+We based our analysis of U.S. energy-related CO 2 emissions in this report on data published in our Monthly Energy Review (MER). This initial analysis is based on preliminary 2025 data published in the May 2026 edition of the MER. These values are subject to change as final data are published from underlying sources, according to source data revision policies and publication schedules. Although these results are still preliminary, we expect only minor revisions to these estimates. If major revisions to 2025 CO 2 emissions estimates do occur, then this report will be revised accordingly. Supplemental analysis, figures from past reports, and a discussion of the methodology and terminology used in this report are available in the Appendix .
+Emissions values and analysis presented in this report pertain only to U.S. CO 2 emissions associated with fossil-fuel combustion and non-combustion applications of energy products (for example, as industrial feedstocks). We do not include estimates of CO 2 emissions outside this scope or other greenhouse gas emissions burned or released in production, extraction, or distribution of energy products. Our approach may result in discrepancies between our emissions estimates and those of other organizations, including other U.S. government agencies.
+In addition to historical estimates, we also offer short-term forecasts and long-term projections of U.S. energy-related CO 2 emissions in several other data products. You can find a short-term forecast of U.S. energy-related CO 2 emissions and key drivers in our monthly Short-Term Energy Outlook (STEO), which includes monthly forecasts by fuel source currently through the end of 2027 and the latest estimates of the effects of recent events on energy markets and energy-related CO 2 emissions. We publish long-term U.S. emissions projections in our Annual Energy Outlook , which provides annual projections of energy-related CO 2 emissions by fuel source, sector, and end use through 2050.
+EIA has published this report on an annual basis since 2010 . The STEO has included a forecast for energy-related CO 2 emissions since August 2009 . The MER has also included historical data for energy-related CO 2 emissions on a monthly basis since August 2009 .
+This report was updated to address an error on electric power generation in the written text.
+↑ Top
+Statistics
+Analysis
+Tools
+Education
+News
+Petroleum & Other Liquids
+Crude oil, gasoline, heating oil, diesel, propane, and other liquids including biofuels and natural gas liquids.
+Natural Gas
+Exploration and reserves, storage, imports and exports, production, prices, sales.
+Electricity
+Sales, revenue and prices, power plants, fuel use, stocks, generation, trade, demand & emissions.
+Coal
+Reserves, production, prices, employment and productivity, distribution, stocks, imports and exports.
+Nuclear & Uranium
+Uranium fuel, nuclear reactors, generation, spent fuel.
+Renewable & Alternative Fuels
+Includes hydropower, solar, wind, geothermal, biomass and ethanol.
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Total Energy
+Comprehensive data summaries, comparisons, analysis, and projections integrated across all energy sources.
+Monthly Energy Review
+Annual Energy Review
+Consumption & Efficiency
+Energy use in homes, commercial buildings, manufacturing, and transportation.
+Residential Energy Consumption Survey (RECS)
+Commercial Buildings Energy Consumption Survey (CBECS)
+Manufacturing Energy Consumption Survey (MECS)
+U.S. States
+State energy information, including overviews, rankings, data, and analyses.
+State Energy Data System (SEDS)
+International
+International energy information, including overviews, rankings, data, and analyses.
+International Energy Statistics
+Environment
+Greenhouse gas data, voluntary reporting, electric power plant emissions.
+U.S. Energy-Related Carbon Dioxide Emissions
+Energy-Related Carbon Dioxide Emissions at the State Level, 2005-2016
+Energy-Related Carbon Dioxide Emissions at the State Level
+Analysis and Projections
+Monthly and yearly energy forecasts, analysis of energy topics, financial analysis, congressional reports.
+Short-Term Energy Outlook
+Annual Energy Outlook
+Special Reports
+Special market analysis and/or data requests.
+EIA-112 Residential Utility Disconnections
+SHIP Act
+Energy & Financial Markets: What Drives Crude Oil Prices?
+International
+International energy analyses.
+Regional Analysis Briefs
+Country Analysis Briefs
+World Oil Transit Chokepoints
+OPEC Revenue
+Global Energy Security Data
+Glossary
+Data Tools, Apps, & Maps
+Tools to customize searches, view specific data sets, study detailed documentation, and access time-series data.
+Open Data
+EIA's free and open data available as API, Excel add-in, bulk files, and widgets
+EIA Beta
+Come test out some of the products still in development and let us know what you think!
+Open Source Code
+EIA's open source code, available on GitHub.
+All Reports & Products
+EIA Survey Forms
+Forms EIA uses to collect energy data including descriptions, links to survey instructions, and additional information.
+Email Updates
+Sign up for email subscriptions to receive messages about specific EIA products
+RSS Feeds
+Subscribe to feeds for updates on EIA products including Today in Energy and What's New.
+Follow us. . .
+A-Z Index
+A |
+B |
+C |
+D |
+E |
+F |
+G |
+H |
+I |
+J |
+K |
+L |
+M |
+N |
+O |
+P |
+Q |
+R |
+S |
+T |
+U |
+V |
+W |
+XYZ
+Today in Energy
+Short, timely articles with graphics on energy, facts, issues, and trends.
+Energy Explained
+What is Energy?
+Units & Calculators
+U.S. Energy Facts
+Use of Energy
+Energy & Environment
+Petroleum
+Hydrocarbon Gas Liquids
+Natural Gas
+Coal
+Nuclear
+Electricity
+Hydrogen
+Hydropower
+Biofuels
+Biomass
+Wind
+Geothermal
+Solar
+For Teachers
+Lesson plans, science fair experiments, field trips, teacher guide, and career corner.
+Glossary
+FAQs
+Coal
+Conversion & Equivalents
+Oil/Petroleum
+Diesel
+Electricity
+Environment
+Gasoline
+General Energy
+Natural Gas
+Nuclear
+Prices
+Renewables
+What's New?
+Monthly Densified Biomass Fuel Report
+Nov 12, 2026
+Wholesale Electricity Market Data
+Nov 12, 2026
+Short-Term Energy Outlook
+Nov 10, 2026
+Press Room
+Press Releases
+Congressional Testimony
+Presentations
+Events

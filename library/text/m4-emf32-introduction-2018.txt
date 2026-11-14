@@ -1,0 +1,185 @@
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6145491/
+Publisher: Climate Change Economics (World Scientific)
+Retrieved: 2026-11-13
+Original SHA-256: ca15b2db5eb88600f527ed1e495e4f4f1e5312d341528b358e6cc849943562a4
+Rights: CC BY 4.0
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+INTRODUCTION TO THE EMF 32 STUDY ON U.S. CARBON TAX SCENARIOS - PMC
+Skip to main content
+Official websites use .gov
+A
+.gov website belongs to an official
+government organization in the United States.
+Secure .gov websites use HTTPS
+A lock (
+Lock
+Locked padlock icon
+) or https:// means you've safely
+connected to the .gov website. Share sensitive
+information only on official, secure websites.
+Search PMC Full-Text Archive
+Search in PMC
+Journal List
+User Guide
+PERMALINK
+Copy
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+the contents by NLM or the National Institutes of Health.
+Learn more:
+PMC Disclaimer
+|
+PMC Copyright Notice
+Clim Chang Econ (Singap)
+. Author manuscript; available in PMC: 2019 Mar 20.
+Published in final edited form as: Clim Chang Econ (Singap). 2018 Mar 20;9(1):1840001. doi: 10.1142/S2010007818400018
+INTRODUCTION TO THE EMF 32 STUDY ON U.S. CARBON TAX SCENARIOS
+ALLEN A FAWCETT
+ALLEN A FAWCETT
+* The EMF 32 Steering Committee
+† U.S. Environmental Protection Agency, 1200 Pennsylvania Avenue NW, Washington, DC 20460, USA
+Find articles by ALLEN A FAWCETT
+*, †, ¶ , JAMES R MCFARLAND
+JAMES R MCFARLAND
+* The EMF 32 Steering Committee
+† U.S. Environmental Protection Agency, 1200 Pennsylvania Avenue NW, Washington, DC 20460, USA
+Find articles by JAMES R MCFARLAND
+*, † , ADELE C MORRIS
+ADELE C MORRIS
+* The EMF 32 Steering Committee
+‡ Brookings Institution, 1775 Massachusetts Ave, NW Washington, DC 20036, USA
+Find articles by ADELE C MORRIS
+*, ‡ , JOHN P WEYANT
+JOHN P WEYANT
+* The EMF 32 Steering Committee
+§ Department of Management Science and Engineering, Stanford University, Huang Engineering Center, 475 Via Ortega Stanford, CA 94305-4121, USA
+Find articles by JOHN P WEYANT
+*, §
+Author information
+Article notes
+Copyright and License information
+* The EMF 32 Steering Committee
+† U.S. Environmental Protection Agency, 1200 Pennsylvania Avenue NW, Washington, DC 20460, USA
+‡ Brookings Institution, 1775 Massachusetts Ave, NW Washington, DC 20036, USA
+§ Department of Management Science and Engineering, Stanford University, Huang Engineering Center, 475 Via Ortega Stanford, CA 94305-4121, USA
+¶ Email: Fawcett.Allen@epa.gov
+Issue date 2018 Feb.
+This is an Open Access article published by World Scientific Publishing Company. It is distributed under the terms of the Creative Commons Attribution 4.0 (CC-BY) License. Further distribution of this work is permitted, provided the original work is properly cited.
+PMC Copyright notice
+PMCID: PMC6145491 NIHMSID: NIHMS966734 PMID: 30245781
+The publisher's version of this article is available at Clim Chang Econ (Singap)
+Abstract
+This paper is an introduction to, “The EMF 32 Study on U.S. Carbon Tax Scenarios,” part of the Stanford Energy Modeling Forum (EMF) Model Inter-comparison Project (MIP) number 32. Eleven modeling teams participated in this study examining the economic and environmental impacts of various carbon tax trajectories and differing uses of carbon tax revenues. This special issue of Climate Change Economics documents the results of this study with four crosscutting papers that summarize results across models, and ten papers from individual modeling teams.
+Keywords: Climate policy, carbon tax, revenue recycling, CGE models, model inter-comparison project
+JEL Classification: C68, H23, Q43, Q48, Q50, Q52, Q54, Q58
+Economists have long argued that market-based policies that price greenhouse gas emissions are a cost effective way to address the negative externalities associated with climate change. 1 Furthermore, economists have also emphasized that the economic impacts of a policy that prices greenhouse gas emissions depends upon not just the level of the carbon price, but also upon how the revenues are used. 2 “The EMF 32 Study on U.S. Carbon Tax Scenarios,” part of the Stanford Energy Modeling Forum (EMF) Model Inter-comparison Project number 32, explores these issues through a cross-model comparison of results from U.S. climate policy scenarios focusing on different carbon tax trajectories and different options for using the revenues from the tax. This special issue of Climate Change Economics presents the main findings of the study.
+This introductory paper has four objectives: (1) describe the motivation for this component of the EMF 32 study, (2) put this study in the context of other past and current inter-model comparison projects, (3) describe the structure of this special issue of the Climate Change Economics , and (4) give a brief overview of the insights developed in the papers produced by the individual modeling teams that are included in this special issue.
+EMF 32 focuses on the interactions between carbon tax policies and revenue recycling in the United States. It follows several previous EMF studies that have explored issues related to climate policy, including:
+EMF 12 – Controlling Global Carbon Emissions – Cost and Policy Options; 3
+EMF 14 – Integrated Assessment of Climate Change; 4
+EMF 16 – The Cost of the Kyoto Protocol: A Multi-Model Evaluation; 5
+EMF 19 – Climate Change: Technology Strategies and International Trade; 6
+EMF 21 – Multi-Greenhouse Gas Mitigation and Climate Policy; 7
+EMF 22 – International, U.S., and E.U. Climate Change Control Scenarios; 8
+EMF 24 – Study on U.S. Technology and Climate Policy Strategies; 9
+EMF 25 – Strategies for Mitigating Climate Change Through Energy Efficiency; 10
+EMF 27 – Study on Global Technology and Climate Policy Strategies; 11
+EMF 28 – The Effects of Technology Choices on EU Climate Policy; 12
+EMF 29 – The Role of Border Carbon Adjustment in Unilateral Climate Policy. 13
+EMF 32 started in October 2014 as a follow up to the EMF 24 “ Study on U.S. Technology and Climate Policy Strategies ,” that explored a range of U.S. climate policy architectures under a variety of technology assumptions. The policies examined in EMF 24 included a range of cap-and-trade scenarios with varying stringencies; isolated and combined sectoral policies such as corporate average fuel economy standards (CAFE), renewable portfolio standards (RPS), clean energy standards (CES); and finally a scenario combining a cap-and-trade policy with electricity and transportation sector sectoral policies. One limitation of the EMF 24 study was that all of the scenarios assumed that climate policy revenues were returned lump-sum to households.
+From the beginning, the EMF 32 study sought to explore the implications of different uses of climate policy revenues, with a carbon tax being the primary policy instrument, instead of cap-and-trade. In a parallel model comparison exercise, EMF 32 also explored climate policy designs focused solely on the electric power sector, such as those that states may have chosen to adopt, were they to have implemented the Obama Administration’s Clean Power Plan.
+As the work under EMF 32 progressed, the two tracks of analysis grew and diverged into two separate studies. This special issue of Climate Change Economics documents the “EMF 32 Study on U.S. Carbon Tax Scenarios.” The “EMF 32 Study on Technology and Climate Policy Strategies for Greenhouse Gas Reductions in the U.S. Electric Power Sector,” will appear in a forthcoming special issue of Energy Economics . 14
+After this introductory piece, subsequent papers in this special issue of Climate Change Economics present the results from the EMF 32 study in several forms. The first four present results from all of the models involved in the project. We begin with two overview papers, one technical and one targeted more to the lay reader. The technical overview paper ( McFarland et al. (2018 )) describes the scenarios analyzed in the EMF 32 study, documents model-specific results for the core scenarios, and suggests areas for future research. The second overview paper ( Barron et al. (2018 )) summarizes the broader policy-relevant results from the study and discusses the strengths and limitations of this kind of modeling.
+The subsequent two papers detail the multi-model results for two important outcomes of a carbon tax in the United States: the distributional outcomes across income classes and regions ( Caron et al. (2018 )) and the impacts on sectoral output, energy production and consumption, and competitiveness ( Macaluso et al. (2018 )).
+In addition to the four papers comparing results across models, this special issue includes 10 papers from individual modeling teams that provided results for this study. In their individual papers, they describe their particular approach and experiences running the study scenarios and developing unique insights from the application of their individual modeling platforms. We highlight a few of the insights of these papers here:
+Woollacott (2018) examines the welfare costs associated with the EMF 32 carbon tax scenarios using the U.S. version of the Applied Dynamic Analysis of the Global Economy (ADAGE) model, and approximates the co-benefits that arise from the concomitant reductions in non-GHG emissions using the Co-Benefits Risk Assessment (COBRA) Screening Model. Using estimates of the marginal welfare cost per ton and the marginal co-benefits per ton, the paper estimates the implied climate benefit per ton that is required to justify particular levels of CO 2 abatement. The paper also examines the distributional impacts of the EMF-32 scenarios looking both at regional impacts and impacts across income quintiles.
+Rauch and Yonezawa (2018) uses the CEPE model, an overlapping generations model, to explore lifetime incidence and intergenerational distributional impacts of the EMF 32 carbon tax and revenue recycling scenarios. They find that current generations alive at the time the policy is implemented generally experience smaller welfare impacts than future generations; for low rates of increase in the carbon tax, the largest welfare impacts are for the generation born when the tax is first implemented; and for high rates of increase in the carbon tax, welfare impacts increase for successive generations. These intergenerational distributional impacts of the cost of mitigation provide an interesting starting point for future work that could compare these cost impacts to the intergenerational environmental benefits of climate action.
+Ross (2018) explores the regional implications of the EMF 32 carbon tax scenarios using the Dynamic Integrated Economy/Energy/Emissions Model (DIEM). The paper shows that nationally the costs of a carbon tax policy are quite low, but regional impacts can vary significantly based on the structure of the local economies, particularly their energy intensity and dependence on fossil generation. Furthermore, while national approaches to revenue recycling can affect the overall costs of a policy, they do little to change the pattern of relative costs across regions of the United States.
+Zhu et al. (2018) augment the revenue recycling options in the EMF 32 scenarios with two additional scenarios: an investment subsidy, and a subsidy for renewable energy. Using Environment and Climate Change Canada’s multi-sector, multi-region (EC-MSMR) Computable General Equilibrium (CGE) model, the paper shows that from a welfare perspective using carbon tax revenues to subsidize renewable energy is inferior to all other options examined.
+The Future Agricultural Resources Model (FARM) used in Sands (2018) , is the only model in this study that represents negative emissions technologies such as bioelectricity with CO 2 capture and storage (BECCS). Assuming that the government pays a subsidy for each ton of negative CO 2 emissions equal to the carbon price, FARM shows that in a scenario with a 76% reduction target by 2050 the remaining net carbon tax revenue peaks in the 2030’s and declines thereafter. This results in dramatically less carbon tax revenue available for revenue recycling compared to a scenario with a similar target that does not allow BECCS.
+The G-Cubed modeling team presents results in McKibbin et al. (2018) that explore the impacts of imposing a border carbon adjustment (BCA) on imports in the context of the EMF 32 scenarios with a carbon tax that starts at $25 and rises by 5% real annually. They find that BCAs can have strikingly different effects depending on the use of the revenue. The BCAs in the rebate scenario result in slightly lower domestic output in most sectors than would occur under the same tax without them. The BCAs, in other words, do more harm than good to the production side of the economy — including in the relatively energy-intensive sectors like durable goods manufacturing. In contrast, when the revenue is used to reduce a distortionary tax — in this case, the tax on capital — BCAs tend to result in higher output than the carbon tax alone. That is, for most sectors domestic output falls by less under the capital tax swap with the BCA than it does with the tax swap alone.
+Chen et al. (2018) use the Goulder–Hafstead Environment-Energy-Economy (GH-E3) model to examine the significance of uncertainty in baseline forecasts (oil prices, natural gas prices, renewable costs, energy efficiency, and rate of economic growth) on short and medium-term carbon dioxide emissions projections under a carbon tax. The paper shows that energy efficiency and economic growth assumptions are the largest drivers of baseline emissions uncertainty; however, emissions abatement (reductions relative to baseline) is relatively insensitive to alternative baseline scenarios. Across the range alternative forecast scenarios examined the E3 model estimates that the short term emissions target scenarios in EMF 32 can be met with modest carbon taxes.
+A new version of the Intertemporal General Equilibrium Model (IGEM) with an industry structure based on the North American Industry Classification System (NAICS) is described in Jorgenson et al. (2018) . The paper finds that while emissions outcomes are insensitive to the choice of revenue recycling option, welfare and distributional outcomes can vary widely. From a cost effectiveness perspective (i.e., considering only the costs of abatement, not the benefits), the paper shows that using carbon tax revenues to reduce capital taxes has a smaller welfare loss per ton abated than using the revenues to reduce labor taxes, and lump sum redistribution of carbon tax revenues has the highest welfare cost per ton abated. From an equity perspective though, the paper finds that capital tax recycling is regressive, while labor tax recycling and lump sum redistribution are progressive.
+Arora et al. (2018) uses the National Energy Modeling System (NEMS) to compare using carbon tax revenues to reduce corporate income tax rates or fund direct lump sum payments to consumers under the range of EMF 32 carbon tax trajectories. The paper shows that while energy consumption is more sensitive to carbon price the revenue recycling scheme, real consumption, investment and GDP are more sensitive to the choice of revenue recycling scheme than to the carbon tax, with greater marginal impacts when revenue is recycled lump sum to households.
+Caron et al. (2018) use the U.S. Regional Energy Policy (USREP) model linked to the Regional Energy Deployment System (ReEDS) model to examine the distributional impacts across income quintiles of carbon taxes under different revenue recycling options. As with some other models in EMF 32 that examine distributional issues, this paper finds that there is a trade-off between efficiency and equity, with recycling carbon tax revenue to reduce capital taxes being the most efficient, but also the most regressive, and recycling carbon tax revenue via lump sum transfers to households being the least efficient, but the most progressive. This paper goes on to show that hybrid revenue recycling schemes sacrifice little overall efficiency by recycling most carbon tax revenues to reduce capital taxes, while setting aside a small share of collected tax revenue for transfers to keep the lowest income households unharmed, or for transfers to ensure that the overall impacts of the policy are progressive.
+Acknowledgments
+The views and opinions expressed in this paper are those of the authors alone and do not necessarily state or reflect those of the U.S. Government or the EPA, and no official endorsement should be inferred.
+Footnotes
+1 The economic case for using taxes to internalize negative externalities dates back nearly a century to Pigou (1920) . See Bovenberg and Goulder (2002) for an overview of environmental tax theory.
+2 Two recent collections of papers on the economics of climate policy and the design of carbon taxes include: Fullerton and Wolfram (2012) , and Parry et al. (2015) .
+3 Gaskins and Weyant (1993) ; Weyant (1993) .
+4 Haites et al. (1997) .
+5 Weyant (1999) .
+6 Weyant (2004) .
+7 de la Chesnaye and Weyant (2006) .
+8 Clarke et al. (2009) .
+9 Fawcett et al. (2014) .
+10 Huntington and Smith (2011) .
+11 Weyant et al. (2014) .
+12 Weyant et al. (2013) .
+13 Böhringer et al. (2012) .
+14 Murray et al.
+References
+Arora V, Daniels D, Mead I, Traver R. EMF32 Results from NEMS: Revenue recycling. Climate Change Economics. 2018;9(1):1840014. [ Google Scholar ]
+Barron A, Fawcett A, Hafstead M, McFarland J, Morris A. Policy insights from the EMF 32 study on U.S. carbon tax scenarios. Climate Change Economics. 2018;9(1):1840003. doi: 10.1142/S2010007818400031. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+Böhringer C, Balistreri E, Rutherford T, editors. The role of border carbon adjustment in unilateral climate policy: Results from EMF 29. Energy Economics. 2012;34(Supplement 2):S95–S250. [ Google Scholar ]
+Bovenberg AL, Goulder LH. Environmental taxation and regulation. In: Auerbach Alan J, Feldstein Martin., editors. Handbook of Public Economics. Amsterdam: North-Holland; 2002. [ Google Scholar ]
+Caron J, Cohen S, Reilly J, Brown M. Exploring the impacts of a national U.S. CO2 tax and revenue recycling options with a coupled electricity-economy model. Climate Change Economics. 2018;9(1):1840015. [ Google Scholar ]
+Caron J, Cole J, Goettle R, Onda C, McFarland J, Woollacott J. Distributional implications of a national CO2 tax in the U.S. across income classes and regions: A multi-model overview. Climate Change Economics. 2018;9(1):1840004. doi: 10.1142/S2010007818400043. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+Chen Y, Goulder LH, Hafstead MAC. Quantifying the determinants of future CO2 emissions. Climate Change Economics. 2018;9(1):1840012. [ Google Scholar ]
+Clarke L, Bohringer C, Rutherford TF, editors. International, U.S., and E.U. climate change control scenarios: Results from EMF 22. Energy Economics. 2009;31(2):S63–S306. [ Google Scholar ]
+de la Chesnaye F, Weyant J, editors. The Energy Journal. 2006. Multi-greenhouse gas mitigation and climate policy; pp. 1–520. (Special Issue) [ Google Scholar ]
+Fawcett AA, Clarke LE, Weyant JP, editors. The EMF 24 sudy on U.S. technology and climate policy strategies. The Energy Journal. 2014;35(Special Issue 1):1–247. [ Google Scholar ]
+Fullerton D, Wolfram C, editors. The Design and Implementation of Climate Policy. Michigan: Na; 2012. [ Google Scholar ]
+Gaskins DW, Weyant JP. Model comparisons of the costs of reducing CO2 emissions. American Economic Revue. 1993;83(2):318–323. [ Google Scholar ]
+Haites E, Bashmakov I, McKibbin W, Shukla P. The economic impacts of annex I actions on all countries. Report on an IPCC Workshop held; Oslo, Norway. 18–20, August; 1997. 1997. [ Google Scholar ]
+Huntington H, Smith E, editors. Strategies for mitigating climate change through energy efficiency: A multi-model perspective. The Energy Journal. 2011;35(Special Issue 1):1–260. [ Google Scholar ]
+Jorgenson DW, Goettle RJ, Ho MS, Wilcoxen PJ. The welfare consequences of taxing carbon. Climate Change Economics. 2018;9(1):1840013. [ Google Scholar ]
+Macaluso N, Tuladhar S, Woollacott J, McFarland J, Creason J, Cole J. The impact of carbon taxation and revenue recycling on U.S. industries. Climate Change Economics. 2018;9(1):1840005. doi: 10.1142/S2010007818400055. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+McFarland J, Fawcett A, Morris A, Reilly J, Wilcoxen P. Overview of economy-wide U.S. carbon tax strategies: Results from EMF 32. Climate Change Economics. 2018;9(1):1840002. doi: 10.1142/S201000781840002X. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+McKibbin WJ, Morris AC, Wilcoxen PJ, Liu W. The role of border carbon adjustments in a U.S. carbon tax. Climate Change Economics. 2018;9(1):1840011. [ Google Scholar ]
+Murray BC, Bistline J, Creason J, editors. The EMF 32 study on technology and climate policy strategies for greenhouse gas reductions in the U S electric power sector. 2018 doi: 10.1016/j.eneco.2018.03.007. https://emf.stanford.edu/projects/emf-32-us-ghg-and-revenue-recycling-scenarios . [ DOI ] [ PMC free article ] [ PubMed ]
+Parry I, Morris A, Williams RC, editors. Implementing a US Carbon Tax. UK: Routledge; 2015. [ Google Scholar ]
+Pigou AC. The Economics of Welfare. UK: Palgrave Macmillan; 1920. [ Google Scholar ]
+Rauch S, Yonezawa H. The intergenerational incidence of green tax reform. Climate Change Economics. 2018;9(1):1840007. [ Google Scholar ]
+Ross. Regional implications of carbon taxes. Climate Change Economics. 2018;9(1):1840008. [ Google Scholar ]
+Sands R. U.S. Carbon tax scenarios and bioenergy. Climate Change Economics. 2018;9(1):1840010. doi: 10.1142/S2010007818400031. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+Weyant JP. Costs of reducing global carbon emissions. Journal of Economic Perspectives. 1993;7(4):27–46. doi: 10.1257/jep.7.4.27. Available at: [ DOI ] [ Google Scholar ]
+Weyant J, editor. The Energy Journal. 1999. The cost of the kyoto protocol: A multi-model evaluation; pp. 1–398. Special Issue. [ Google Scholar ]
+Weyant J, editor. EMF 19 Alternative technology strategies for climate change policy. Energy Economics. 2004;26(4):501–755. [ Google Scholar ]
+Weyant J, Knopf B, de Cian E, Keppo I, van Vuuren DP, editors. The EMF 28 study on scenarios for transforming the european energy system. Climate Change Economics. 2013;4(Suppl. 1):1340001–1340007. [ Google Scholar ]
+Weyant J, Kriegler E, Blanford G, Krey V, Edmonds J, Riahi K, Richels R, Tavoni M, editors. The EMF 27 study on global technology and climate policy strategies. Climatic Change. 2014;123(3–4):345–783. [ Google Scholar ]
+Woollacott The economic costs and co-benefits of carbon taxation: A general equilibrium assessment. Climate Change Economics. 2018;9(1):1840006. doi: 10.1142/S2010007818400055. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]
+Zhu Y, Ghosh M, Luo D, Macaluso N, Rattray J. Revenue recycling and cost effective GHG abatement: An exploratory analysis using a global multi-sector multi-region CGE model. Climate Change Economics. 2018;9(1):1840009. [ Google Scholar ]
+ACTIONS
+View on publisher site
+PDF (76.5 KB)
+Cite
+Collections
+Permalink
+PERMALINK
+Copy
+RESOURCES
+Similar articles
+Cited by other articles
+Links to NCBI Databases
+Cite
+Copy
+Download .nbib
+.nbib
+Format:
+AMA
+APA
+MLA
+NLM
+Add to Collections
+Create a new collection
+Add to an existing collection
+Name your collection
+*
+Choose a collection
+Unable to load your collection due to an error
+Please try again
+Add
+Cancel
+Back to Top
