@@ -57,6 +57,8 @@ def build(args):
             k, v = kv.split("=")
             if k not in ("buildings", "industry", "nonroad"):
                 raise SystemExit(f"--sector takes buildings, industry or nonroad, not {k}")
+            if not 0 <= float(v) <= 1:
+                raise SystemExit(f"--sector {k} takes 0 to 1")
             sp[k] = float(v)
         pol["sectorPrice"] = sp
     for flag, key in (("border", "border"), ("process", "process")):
@@ -68,7 +70,9 @@ def build(args):
     if args.builder is not None:
         k = args.builder
         pol["grid"] = k > 0
-        world.update({"gpTx": 0.8 * k, "gpRecon": 15 * k, "gpCurt": 0.05 * k, "gpCost": 12 * k})
+        if not 0 <= k <= 1:
+            raise SystemExit("--builder takes 0 to 1")
+        world.update(m.grid_world(k))
     if args.acp is not None:
         world["cesAcp"] = args.acp
     if args.retro is not None:

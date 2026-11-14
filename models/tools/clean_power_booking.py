@@ -22,9 +22,10 @@ What is booked (central path, $ billion by federal fiscal year; a cost positive)
 - Memo 7 B: CLI-11, the transition guarantee, on the energy model's closure timing.
 - DEC-2026-11-13-13 (option A): from FY2040 the 20% transition share is general-fund revenue (C1T); its waterfall's
   draws are CLI-5H and CLI-11, booked on the general fund.
-- The clean standard's capped payments (CLI-3A.02): Treasury's receipts (C3A), the same amount paid out through bill
-  protection and the bill credit (CLI-3A), and JCT's 24.4% offset on them (CXA), since the payment is a new fee
-  (DEC-2026-11-12-08, part 4). Their net cost is the offset.
+- The clean standard's capped payments (CLI-3A.02; DEC-2026-11-14-02, amending memo 9 B): Treasury's receipts (C3A)
+  and JCT's 24.4% offset on them (CXA), since the payment is a new fee (DEC-2026-11-12-08, part 4). All of the
+  payments are general-fund receipts: CLI-3A pays out nothing (no bill top-up, no grid account), and grid build-out
+  is CLI-10's, from the general fund.
 """
 import csv
 import importlib.util
@@ -156,24 +157,27 @@ def booking():
     # The clean standard's payments, their pay-out and the offset on them
     acp, permit = energy_acp()
     years["C3A"] = window(acp)
-    years["CLI-3A"] = window(acp)
     years["CXA"] = [round(-OFFSET * v, 2) for v in window(acp)]
-    for rid, grow in (("C3A", "gdp"), ("CLI-3A", "gdp"), ("CXA", "gdp")):
+    for rid, grow in (("C3A", "gdp"), ("CXA", "gdp")):
         perms[rid] = perm_for(F, B, acp[2039], acp[2040], grow)
-    # to $1 billion, as the ledger keeps the pay-out (a bill), so receipts and pay-out match exactly
     mid = r(sum(years["C3A"]) / 1000, 3)
     low = r(permit / 1000, 3)
     revenue["C3A"] = (low, mid, mid)
-    ledger["CLI-3A"] = (low, mid, mid)
     revenue["CXA"] = (r(-OFFSET * mid), r(-OFFSET * mid), r(-OFFSET * low))
+    # DEC-2026-11-14-02: CLI-3A pays out nothing; every payment stays as a general-fund receipt
+    years["CLI-3A"] = [0.0] * len(W)
+    perms["CLI-3A"] = 0.0
+    ledger["CLI-3A"] = (0.0, 0.0, 0.0)
+    kept = {y: acp[y] for y in FY}
 
     tn = lambda d: sum(d.get(y, 0.0) for y in W) / 1000  # noqa: E731
     totals = dict(change_window=tn(P["change"]), change_fy2040=P["change"][2040],
                   acp_offset_window=OFFSET * mid, acp_offset_fy2040=OFFSET * acp[2040],
+                  acp_kept_window=mid, acp_kept_fy2040=kept[2040],
                   c1_window=c1[1], cx_window=revenue["CX"][1], transition_fy2040=P["ts"][2040])
     fy2040 = dict(CX=cx[2040], **{"CLI-5": base[2040] + delta[2040]}, **{"CLI-10": 0.0},
                   **{"CLI-5H": P["bills"][2040], "CLI-11": P["g7"][2040], "C1T": P["ts"][2040],
-                     "C3A": acp[2040], "CLI-3A": acp[2040], "CXA": -OFFSET * acp[2040]})
+                     "C3A": acp[2040], "CLI-3A": 0.0, "CXA": -OFFSET * acp[2040]})
     return dict(years=years, after=after, perms=perms, ledger=ledger, revenue=revenue,
                 legacy_gf_cli5=legacy_gf, fy2040=fy2040, totals=totals)
 

@@ -168,5 +168,9 @@ rs = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "re
 ok("menu: --builder 0.75 reproduces the committed bld_75 run", round(m75["co2_below_2005"][2035] / 100, 3) == round(rs["years"]["2035"]["below2005"], 3)
    and abs(m75["fy2030_39_bn"]["acp"] - rs["window_2030_39"]["acp"]) < 1)
 
+tr = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", "library", "text", "m4-treasury-ota-wp115-carbon-tax-2017.txt")).read()
+ok("PR-3: Treasury's figures are in the saved text", all(x in tr for x in ("$2,962 billion", "$2,221 billion", "6,261", "4,930", "non-compliance")))
+ok("PR-3 is reported as a convention comparison", B["PR-3"]["result"] == "reported", B["PR-3"]["model"])
+
 print(f"{len(fails)} FAILED: {fails}" if fails else "energy model: all passed")
 sys.exit(1 if fails else 0)
