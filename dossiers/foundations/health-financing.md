@@ -4,6 +4,13 @@ Role: the stage E memo on the single health plan (HLT-1 to HLT-8). It prices the
 
 Status: **for Espen's decision, November 15, 2026; revised the same day (#386)** to add, at Espen's direction, the fix for households that lose cash (part 2.7) and an employer contribution that is mandatory and built not to cut pay (part 2.6). It recommends and books nothing. The questions in part 9 are Espen's, and any booking that follows is a separate tier-3 change to adopted inputs.
 
+**Superseded in part by `health-cost-review.md` (November 15, 2026).** An independent cost review found errors in the gross cost, in both directions, and redesigned the financing around Espen's take-home test. These parts are replaced there:
+- the gross cost (FY2040 $8,407B, now $7,795B with the errors fixed) and part 1.2b's correction, which the review makes;
+- the national saving (about 6%, now about 8%);
+- the package choice (part 3) and part 9's questions 1, 2, 12 and 17.
+
+The rest of this memo stands, read with the review's figures: the seam, the payer accounting, the employer protections, the worker transition credit and the states' payment.
+
 How it is built, following Espen's three directions of November 15:
 1. Cost the planned system in full first, then design its financing.
 2. Don't carry today's tax rates into the new system.
@@ -101,6 +108,8 @@ This memo gives all three wherever a rate appears.
 
 ### 1.1 The gross cost, year by year
 
+*Superseded: the FY2040 gross is $7,795B with the errors fixed (`health-cost-review.md`, part 1.2). The year path below is the uncorrected one.*
+
 The plan's gross cost each year is everything it pays out:
 - doctors', hospitals' and drug claims for everyone enrolled, at the decided rates (about 1.15 times Medicare after the hospital glide to 2036), less the small copays;
 - its administration (5%, the working figure);
@@ -134,6 +143,8 @@ How it is built: the booked health spending (corrected for the Medicare seam, 1.
 - **Booking.** Every figure here uses the corrected cost. The booked rows change only in a later tier-3 booking PR (part 10). The uncorrected reading appears in part 5 as the cautious case.
 
 ### 1.2b A second correction to make at booking: doctors are priced at the hospital rate
+
+*Superseded: made in `health-cost-review.md`, part 1.2, step 1, with the households and loser counts re-run (its part 1.6).*
 
 - **What is wrong.** The decided design pays hospitals about 1.15 times Medicare after a glide (HLT-7.10). It pays physicians and other clinicians at Medicare's fee schedule, with primary-care and rural add-ons and no glide (HLT-7.12, memo 5 B). But the booking path (`dossiers/care/tools/health_path.py`, `groups()`) prices all non-hospital, non-drug claims at the hospital target of 1.15. That covers physicians and clinical services ($1,110B of national spending in 2024), and with them the other professional and home health services, which the model doesn't split out.
 - **The size,** on the same route as part 6's levers (the 2032 full-scale groups, scaled to FY2040; hospitals unchanged):
@@ -404,6 +415,8 @@ Espen, November 15: "I think the employer contribution has to be designed so it'
 - **The alternatives are priced in 4.3:** a credit for every worker, a credit at 75%, a narrower phase-out, a higher low-pay line instead, and a permanent credit for low-paid workers.
 
 ## Part 3. The packages
+
+*Superseded: the packages are re-priced on the corrected cost, against the take-home test, in `health-cost-review.md`, part 2 (recommended there: package E).*
 
 All four packages cover the FY2040 gross cost of $8,407B exactly. They share:
 - the federal general revenue committed ($2,724B);
@@ -775,6 +788,8 @@ A separate agent (November 15) re-derived the key figures from the underlying mo
 3. the household model's coverage averages (part 4.3).
 
 ## Part 9. Questions for Espen
+
+*Questions 1, 2, 12 and 17 are superseded by `health-cost-review.md`, part 4.*
 
 Each question is decided on its own; none is adopted by silence.
 
