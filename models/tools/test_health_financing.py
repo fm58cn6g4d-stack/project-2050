@@ -62,10 +62,10 @@ class HealthFinancing(unittest.TestCase):
         for grp in ("packages", "sensitivities"):
             for k, o in self.r[grp].items():
                 got = o["employer_net"] + o["state_extra"] + o["household_collected"] + o["savings"]
-                self.assertAlmostEqual(got, o["need"] + o["hi"] + o["hi_tax"], delta=0.5, msg=(grp, k))
+                self.assertAlmostEqual(got, o["need"] + o["hi"] + o["hi_tax"] + o["credit_bn"], delta=0.5,
+                                       msg=(grp, k))
                 # the household rows' collections equal household_collected
-                n = 6 if o["hi"] else 5
-                hh_rows = [bn for lb, bn, _ in o["rows"][n:]]
+                hh_rows = [bn for lb, bn, _ in o["rows"][o["n_fixed_rows"]:]]
                 self.assertAlmostEqual(-sum(hh_rows), o["household_collected"], delta=0.5, msg=(grp, k))
 
     def test_package_paths_close_each_year_and_end_at_fy2040(self):
@@ -73,7 +73,7 @@ class HealthFinancing(unittest.TestCase):
             o = self.r["packages"][k]
             for y, d in path.items():
                 self.assertAlmostEqual(d["employers"] + d["states"] + d["savings"] + d["households"],
-                                       d["need"] + d["hi"] + d["hi_tax"], delta=0.01)
+                                       d["need"] + d["hi"] + d["hi_tax"] + d["credit"], delta=0.01)
             self.assertAlmostEqual(path[2040]["first"], o["first"], delta=1e-6)
             self.assertAlmostEqual(path[2040]["vat"], o["vat_rate"], delta=1e-6)
 
@@ -122,10 +122,50 @@ class HealthFinancing(unittest.TestCase):
             for e in ex:
                 parts = (e["stop_paying"] + e["hx_on_worker_share"] + e["worker_hi_ends"] + e["pay_change"]
                          + e["tax_on_pay_change"]
-                         + e["contribution"] + e["self_employed"] + e["vat"])
+                         + e["contribution"] + e["self_employed"] + e["vat"] + e["credit"])
                 self.assertAlmostEqual(parts, e["net"], delta=4, msg=(k, e["name"]))
                 self.assertAlmostEqual(-e["contribution"], e["rate1"] / 100 * e["base"] + e["rate2"] / 100
                                        * e["base2"], delta=1)
+
+    def test_the_fix_cuts_the_losers_and_protects_the_hardest_case(self):
+        """Package A with the phase-in and the worker transition credit: fewer bottom-four households lose cash, and
+        far fewer lose more than 5%; the $45,000 worker whose employer offered no coverage no longer loses."""
+        m, before = self.r["micro"]["A"], self.r["micro"]["A_before_fix"]
+        self.assertLess(m["bottom_four_losers_m"], before["bottom_four_losers_m"] - 3)
+        self.assertLess(m["bottom_four_lose_5pct_m"], 0.6 * before["bottom_four_lose_5pct_m"])
+        self.assertLess(sum(m[q]["lose_5pct_m"] for q in ("Q1", "Q2", "Q3")), 1.0)
+        ex = {e["name"]: e for e in self.r["examples"]["A"]}
+        u = [e for n, e in ex.items() if "no coverage" in n][0]
+        self.assertGreaterEqual(u["net"], 0)
+        self.assertLess([e for e in self.r["examples"]["A_before_fix"] if "no coverage" in e["name"]][0]["net"], -3000)
+        # the credit is the contribution charged on that worker's pay (phased in at FY2040's share), in full
+        self.assertAlmostEqual(u["credit"], u["employer_pays"], delta=1)
+        self.assertAlmostEqual(u["employer_pays"], (1 - HF.phase_left(2040)) * u["employer_base"]
+                               * self.r["packages"]["A"]["employer_rate"] / 100, delta=1)
+
+    def test_phase_in_and_credit_are_priced_into_the_rate(self):
+        a, b = self.r["packages"]["A"], self.r["sensitivities"]["A_before_fix"]
+        pp = b["household_collected"] / b["first"]      # a point's yield on the widened base (memo part 2.1, item 3)
+        self.assertAlmostEqual(HF.phase_left(2035), 0.9)
+        self.assertAlmostEqual(HF.phase_left(2040), 0.425)
+        self.assertAlmostEqual(a["phase_in_bn"], 0.425 * a["no_offer_share"] * a["employer_premium_part"], delta=0.01)
+        cost = a["phase_in_bn"] * (1 - self.r["tau"]) + a["credit_bn"]
+        self.assertAlmostEqual((a["first"] - b["first"]) * pp, cost, delta=0.03 * cost)
+        no = self.r["no_offer"]
+        self.assertAlmostEqual(no["share"], no["target"], delta=0.1 * no["target"])
+
+    def test_employer_split_and_pay_holds(self):
+        """The pass-through rule's pay rises owed less the restraint the wage rule leaves to future raises equals the
+        premiums that become pay less the contribution charged; if pay holds, the household rate falls."""
+        a, sp = self.r["packages"]["A"], self.r["employer_split"]
+        self.assertAlmostEqual(sp["owed_bn"] - sp["restraint_bn"], a["employer_premium_part"] - a["employer_gross"],
+                               delta=1.0)
+        self.assertLess(self.r["pay_holds"]["first"], a["first"])
+        self.assertLess(self.r["pay_holds"]["micro"]["bottom_four_losers_m"], self.r["micro"]["A"]["bottom_four_losers_m"])
+        k = self.r["savings_kept"]
+        self.assertAlmostEqual(k["kept_bn"], 0.5 * sp["owed_bn"], delta=0.01)
+        self.assertGreater(k["first"], a["first"])
+        self.assertGreater(k["micro"]["bottom_four_losers_m"], self.r["micro"]["A"]["bottom_four_losers_m"])
 
     def test_keys_sum_to_100(self):
         for k, (sh, _) in self.r["keys"].items():
