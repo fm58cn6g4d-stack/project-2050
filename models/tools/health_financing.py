@@ -654,6 +654,9 @@ def examples(ctx, o, growth_gap):
     cases = [
         dict(name="Single worker, $45,000 pay, single job coverage", cash=45000, agi=45000, wages=45000, joint=False,
              people=1, er_prem=9804 - 1672, ee_prem=1672, own=0, oop=oop["esi"], m=0.12, consume=0.95),
+        dict(name="Single worker, $45,000 pay, employer offers no coverage, uninsured today", cash=45000, agi=45000,
+             wages=45000, joint=False, people=1, er_prem=0, ee_prem=0, own=0, oop=oop["uninsured"], m=0.12,
+             consume=0.95),
         dict(name="Family of four, $90,000 pay, family job coverage", cash=90000, agi=90000, wages=90000, joint=True,
              people=4, er_prem=28303 - 7471, ee_prem=7471, own=0, oop=4 * oop["esi"], m=0.12, consume=0.9),
         dict(name="Family of four, $160,000 pay, family job coverage", cash=160000, agi=160000, wages=160000,

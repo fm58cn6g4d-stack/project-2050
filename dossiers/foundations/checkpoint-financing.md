@@ -4,6 +4,9 @@ Role: the financing checkpoint at the end of stage E (`charter/PLAN.md`, section
 
 ## In plain terms
 
+> **Superseded (items 2 to 8, the health items), November 15, 2026:** replaced by [`health-financing.md`](health-financing.md), the fresh start on the single health plan's pricing and financing. Kept for the record; don't rely on its health figures.
+
+
 1. **The gap.** In FY2040, the first year the fiscal rule tests, the plan's general fund is about **$4.16 trillion short (7.69% of GDP)**.
 2. **Health is nearly all of it.** The single health plan's booked net cost is **$4.09 trillion** in FY2040. Everything else in the plan, after the revenue already booked, is about **$0.07 trillion** short.
 3. **Health is cheaper for the country.** National health spending falls about **$0.49 trillion (6%)** in 2032 on the coverage model, about $0.75 trillion in FY2040, while covering about 34 million more people.
@@ -106,7 +109,10 @@ On top of these come the new income contributions ($1.91T) and HX ($4.84T).
 
 **A staleness check.** CBO's latest options volume is still *Options for Reducing the Deficit: 2025 to 2034* (December 2024), which predates P.L. 119-21. Options that interact with the 2025 law's rates and deductions need rescoring against the 2029 baseline before they are booked. The model's static diagnostic, about 32 points of a broad income tier to stop debt rising after 2045 (`models/data/recovery-budget.json`, `required_broad_rate_points`), is a proxy, not a proposal.
 
-## Part B. Making the single health plan affordable
+## Part B. Making the single health plan affordable (superseded)
+
+> **Superseded (all of part B), November 15, 2026:** replaced by [`health-financing.md`](health-financing.md), the fresh start on the single health plan's pricing and financing. Kept for the record; don't rely on its health figures.
+
 
 Espen, November 14: "in the financing memo I want particular attention paid to a holistic look at making Medicare for all affordable. In theory, it should come out cheaper for the country, but that also means it needs to be affordable for the government." The plan's design is decided (memos 1 to 5, `DEC-2026-11-10-09` to `-13`; `DEC-2026-11-12-19`; `DEC-2026-11-13-02`) and is not reopened here; this part chooses how it is paid for.
 
@@ -266,6 +272,9 @@ Together they close health's FY2040 cost ($1,060B + $207B + $2,827B = $4,094B). 
 
 ## Part C. The rest of the gap after health
 
+> **Superseded (the "What remains" arithmetic where it rests on part B's package; the list of items for stage G and the menu stay), November 15, 2026:** replaced by [`health-financing.md`](health-financing.md), the fresh start on the single health plan's pricing and financing. Kept for the record; don't rely on its health figures.
+
+
 **What remains.** With health financed as recommended, the FY2040 gap is about **$70 billion** (0.13% of GDP). Over FY2030-39 it is about **$1.89 trillion**, spread across the decade at roughly $0.1 to $0.27 trillion a year (project arithmetic: the gap less health's booked rows, year by year), and it falls to the FY2040 figure as the booked income contributions phase in. The decade figure matters for the debt guardrail, not the FY2040 test.
 
 **Items dossiers sent the settlement** (each to price at stage G):
@@ -285,6 +294,9 @@ Together they close health's FY2040 cost ($1,060B + $207B + $2,827B = $4,094B). 
 
 ## Part D. Questions for Espen
 
+> **Superseded (questions 1 to 4, memos F1 to F3 and part B4's points; the new questions are in its part 8), November 15, 2026:** replaced by [`health-financing.md`](health-financing.md), the fresh start on the single health plan's pricing and financing. Kept for the record; don't rely on its health figures.
+
+
 **Now (this memo's batch):**
 1. Memo F1, the household side: A (income contribution, recommended), B (worker payroll) or C (income plus VAT)?
 2. Memo F2, the employer side: A (65%, then a payroll contribution from 2036, recommended), B (premium-based, never converted), C (100% of former premiums) or D (none)?
@@ -298,6 +310,8 @@ Together they close health's FY2040 cost ($1,060B + $207B + $2,827B = $4,094B). 
 4. Whether to weigh Medicare "Part E" (employers offer plans meeting Medicare's standards or pay in, indefinitely; board, "Directions for later stages"). It would reopen the 2035 endpoint (memo 1), so it is outside this memo; F2 B is its financing half.
 
 ## Part E. How the Medicare for All bills propose to pay, beside this plan
+
+> **Note, November 15, 2026:** [`health-financing.md`](health-financing.md), part 6, extends this comparison and corrects three points (S. 1506's state obligations, the per-employee transition floor, and the Medicare trust fund transfer).
 
 A comparison only. It changes no decision and no booked figure, and recommends nothing. Sources: Sen. Sanders's S. 1506 (SRC-3260) and his options paper (SRC-3041), Rep. Jayapal's H.R. 3069 (SRC-3261), and the care dossier's comparison (`dossiers/care/research-s1506-comparison.md`, row "Trust fund and financing") with its cost section (`dossiers/care/6-cost.md`, part 4).
 

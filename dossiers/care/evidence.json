@@ -13571,7 +13571,8 @@
   "source": "SRC-3112",
   "anchor": [
    "The average annual premiums for employer-sponsored health insurance in 2026 are $9,804 for single coverage and $28,303 for family coverage.",
-   "The average annual contribution amounts for covered workers are $1,672 for single coverage and $7,471 for family coverage"
+   "The average annual contribution amounts for covered workers are $1,672 for single coverage and $7,471 for family coverage",
+   "Over the last year, the average single premium increased by 5%, and the average family premium increased by 5%. By comparison, workers’ wages increased by 3.7%"
   ],
   "locator": "Summary of Findings, Health insurance premiums and worker contributions",
   "grade": "B",
