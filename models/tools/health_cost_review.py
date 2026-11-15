@@ -1122,7 +1122,7 @@ def run_part3():
 
 def md3(out):
     """Markdown tables for part 3 of the memo."""
-    w = ["| R (S = 5) | Workers ahead | Below 200% of poverty | Retirees and non-workers ahead | With the booked 2 points "
+    w = ["| R (S = " + f"{out['S']:.2f}" + ", H1b folded in) | Workers ahead | Below 200% of poverty | Retirees and non-workers ahead | With the booked 2 points "
          "| Bottom-four losers (M) | T: today → plan | Booked revenue taken ($B) | Plan-wide gap ($B) | Top rate on wages |",
          "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
     E = out["E"]
