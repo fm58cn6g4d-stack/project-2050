@@ -13558,5 +13558,29 @@
   "supports": [
    "dossiers/foundations/notes/health-financing-findings-2026-11-15.md"
   ]
+ },
+ {
+  "id": "EV-CAR-722",
+  "statement": "The average annual premiums for employer-sponsored health insurance in 2026 are $9,804 for single coverage and $28,303 for family coverage; covered workers contribute $1,672 for single coverage and $7,471 for family coverage on average, and workers' wages rose 3.7% over the year against 5% for premiums.",
+  "claim": "data",
+  "figures": [
+   "$9,804",
+   "$1,672",
+   "3.7%"
+  ],
+  "source": "SRC-3112",
+  "anchor": [
+   "The average annual premiums for employer-sponsored health insurance in 2026 are $9,804 for single coverage and $28,303 for family coverage.",
+   "The average annual contribution amounts for covered workers are $1,672 for single coverage and $7,471 for family coverage"
+  ],
+  "locator": "Summary of Findings, Health insurance premiums and worker contributions",
+  "grade": "B",
+  "fact_date": "2026",
+  "checked": "2026-11-15",
+  "recheck": "2027-10-22",
+  "context": "KFF Employer Health Benefits Survey, published 2026-10-22, 1,937 non-federal firms with ten or more workers; nonpartisan. Survey estimate, not administrative data. Used for the worked household examples.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ]
  }
 ]
