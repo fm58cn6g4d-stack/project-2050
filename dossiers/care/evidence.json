@@ -13469,8 +13469,7 @@
   "recheck": "2027-02-15",
   "context": "CBO baseline (nonpartisan), current law including P.L. 119-21. The saved text lists one cell per line, so each row runs from actual 2025 to 2032 in column order. Medicare's offsetting receipts are mostly enrollees' Part B and Part D premiums, with the states' Part D payments; the subsidy table (EV-CAR-052) nets them out. Its corroboration is CBO's own subsidy table, the same publisher.",
   "supports": [
-   "dossiers/foundations/checkpoint-financing.md",
-   "models/tools/health_financing.py"
+   "dossiers/foundations/notes/health-financing-findings-2026-11-15.md"
   ],
   "corroboration": [
    {
@@ -13497,7 +13496,7 @@
   "recheck": "2027-11-15",
   "context": "Estimates for tax years 2014 to 2016. IRS Publication 1415 (October 2022, Biden administration period), estimated from National Research Program audits; agency analysis checked as usual. Supports placing an income contribution's shortfall where income is not withheld or reported by third parties, which is concentrated at the top.",
   "supports": [
-   "dossiers/foundations/checkpoint-financing.md"
+   "dossiers/foundations/notes/health-financing-findings-2026-11-15.md"
   ],
   "corroboration": [
    {
@@ -13527,7 +13526,7 @@
   "recheck": "2027-11-15",
   "context": "Incomes in 1992 dollars (about $320,000 in FY2040 dollars for the $100,000 line, on CPI-U). Academic (NBER working paper, published 2002); 1979-90 tax returns. The authors call the group pattern suggestive given its imprecision. Wage income below the top is withheld, so it responds mainly through work; the top's income is more readily shifted. Used to place the income contribution's avoidance allowance at the top.",
   "supports": [
-   "dossiers/foundations/checkpoint-financing.md"
+   "dossiers/foundations/notes/health-financing-findings-2026-11-15.md"
   ],
   "corroboration": [
    {
@@ -13557,7 +13556,7 @@
   "recheck": "2027-11-15",
   "context": "Tax Foundation (market-oriented think tank) restating IRS Statistics of Income tables for individual returns excluding dependents; the figures are the IRS's. Tax units, not households, so the share is a guide to the CPS's top-coding, not a household key.",
   "supports": [
-   "dossiers/foundations/checkpoint-financing.md"
+   "dossiers/foundations/notes/health-financing-findings-2026-11-15.md"
   ]
  }
 ]
