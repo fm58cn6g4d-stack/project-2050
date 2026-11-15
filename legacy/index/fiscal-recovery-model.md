@@ -119,7 +119,7 @@ Social Security: D8 plus SS-5, with a 0.34-point joint-interaction haircut, need
 | Medicare HI | Depletion | Model balance (% payroll) |
 | --- | --- | ---: |
 | Current law | 2033 | -0.56 |
-| With HI's program sources | 2036 | -0.42 |
-| Half HLT6 HI savings | 2035 | -0.43 |
+| With HI's program sources | 2035 | -0.54 |
+| Half HLT6 HI savings | 2034 | -0.55 |
 
 HI baseline does not reproduce the Trustees exactly; use improvement against its own baseline, not the absolute balance as certification. Transportation is modeled only to 2046: renewal coverage then does not prove 75-year solvency. The CSV [financial inventory](../sources/fiscal-recovery-inventory.csv) preserves all 148 bill/revenue/option/dynamic rows without summing alternatives. Full assumptions, annual paths and source hashes are in the [JSON](data/fiscal-recovery-model.json).

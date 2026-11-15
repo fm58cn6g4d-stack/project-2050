@@ -183,20 +183,31 @@ def hi_sources():
     the 2035 endpoint (care follow-up 3). Returns (H1a, HLT-6)."""
     ramp = [float(x) for x in str(P["hi_ramp"]).split("/")]
     tot = REV["H1a"]["mid"] * 1000
-    w = {t: ramp[t - 2030] * hi_payroll(t) for t in W}
-    s = tot / sum(w.values())
-    h1a = {t: s * w[t] / hi_payroll(t) * 100 for t in W}
+    years = next((r for r in read("fiscal-years.csv") if r["id"] == "H1a"), None)
+    if years is not None:
+        # Health stream (e) (DEC-2026-11-15-19; health_booking.py): H1a has its own fiscal-year path and goes to the
+        # plan's fund from the January 2035 endpoint, when HI folds into it, so HI is credited only with the years
+        # before (FY2035 three quarters of a year after the endpoint) and nothing after
+        pre = {t: 1.0 if t < 2035 else (0.25 if t == 2035 else 0.0) for t in W}
+        h1a = {t: num(years["y%d" % t]) * pre[t] / hi_payroll(t) * 100 for t in W}
+        h1a_after = 0.0
+    else:
+        w = {t: ramp[t - 2030] * hi_payroll(t) for t in W}
+        s = tot / sum(w.values())
+        h1a = {t: s * w[t] / hi_payroll(t) * 100 for t in W}
+        h1a_after = h1a[2039]
     shape = next(r for r in read("fiscal-years.csv") if r["id"] == "HLT-6")
     tot6 = sum(-num(shape["y%d" % t]) for t in W)
     gf6 = -BILL["HLT-6"]["gf_mid"] * 1000                          # the general-fund share the ledger books
     a = P["hi_hlt6_part_a_share"]
     hlt6 = {t: -num(shape["y%d" % t]) / tot6 * gf6 / (1 - a) * a / hi_payroll(t) * 100 for t in W}
-    return (lambda t: 0.0 if t < 2030 else h1a.get(t, h1a[2039]),
+    return (lambda t: 0.0 if t < 2030 else h1a.get(t, h1a_after),
             lambda t: hlt6.get(t, 0.0))
 
 HIS_H1A, HIS_HLT6 = hi_sources()
 def HIS(t): return HIS_H1A(t) + HIS_HLT6(t)
 hi_hlt6_window = sum(HIS_HLT6(t) / 100 * hi_payroll(t) for t in W) / 1000
+hi_h1a_window = sum(HIS_H1A(t) / 100 * hi_payroll(t) for t in W) / 1000
 def run_hi(with_program, administration=None):
     R = P["hi_reserve_2025"]; depl = None; rows = []
     for t in YEARS:
@@ -344,7 +355,7 @@ w("## Medicare HI (summary level)\n")
 hc, hp = hi["Current law"], hi["With HI's program sources"]
 w(f"Rates are the 2026 Trustees' HI cost and income rates for every year they publish (Table III.B7: each year 2026-35, then every five years), interpolated between (sourced); HI's taxable payroll is taken as {P['hi_payroll_ratio']:.2f} times OASDI's because it is uncapped (estimate). **Check:** the model puts depletion in **{hc['depletion']}** with {hc['payable']:.0f}% payable and a 75-year balance of **{hc['balance']:.2f}%**, against the Trustees' 2033, 89% and −0.56% (sourced).\n")
 gain = hp["balance"] - hc["balance"]
-w(f"**With the program.** HI's sources in the program are REV-H1a (${REV['H1a']['mid']:.1f}T) and HLT-6's Part A share (${hi_hlt6_window:.2f}T at {P['hi_hlt6_part_a_share']:.0%} of the Advantage savings, FY2030-34 only, working assumption), ${hi_window:.2f}T in 2030-39; REV-H1a is held at the same share of HI payroll after 2039 (estimate). Under the plan HI folds into the plan's fund at the 2035 endpoint (HLT-7.22), so the reading that matters is that HI is kept whole until then; the years after 2035 are shown for current-law comparison only. They improve the 75-year balance by **{gain:+.2f}%** of HI payroll, against the Trustees' 0.56% gap"
+w(f"**With the program.** HI's sources in the program are REV-H1a (${hi_h1a_window:.1f}T credited to HI; from the 2035 endpoint it is health stream (e), paid into the plan's fund, DEC-2026-11-15-19) and HLT-6's Part A share (${hi_hlt6_window:.2f}T at {P['hi_hlt6_part_a_share']:.0%} of the Advantage savings, FY2030-34 only, working assumption), ${hi_window:.2f}T in 2030-39. Under the plan HI folds into the plan's fund at the 2035 endpoint (HLT-7.22), so the reading that matters is that HI is kept whole until then; the years after 2035 are shown for current-law comparison only. They improve the 75-year balance by **{gain:+.2f}%** of HI payroll, against the Trustees' 0.56% gap"
   + (", so they close it on this reading" if gain >= 0.56 else f", leaving about {0.56-gain:.2f}% for a further HI source") + f"; on the model's own rates HI then depletes in {hp['depletion'] or 'no year before 2100'}"
   + f" and the balance is {hp['balance']:+.2f}%. The model's current-law balance is {hc['balance']-(-0.56):+.2f} points off the Trustees' (budget benchmark TF-2), so both the gain and the absolute balance can be read.\n")
 
