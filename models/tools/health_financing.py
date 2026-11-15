@@ -501,15 +501,17 @@ def package(ctx, emp_share=1.0, emp_base="payroll", state_share=1.0, first=None,
     return o
 
 
-# The packages (memo part 5). Recommended: A.
+# The packages (memo part 4). Recommended: A. Every package puts the employer contribution on each worker's pay up to
+# the Social Security wage base (memo part 3.1): like the premium it replaces, it does not rise with a top earner's
+# pay, so it adds nothing to the top rate on wages; the uncapped HI base is a sensitivity.
 PACKAGES = {
     "A": dict(label="Premiums become contributions: employers and states keep paying what they pay now; one "
-                    "household contribution", emp_share=1.0, emp_base="payroll", state_share=1.0, close="first"),
-    "B": dict(label="Mid-single digits with a rebated value-added tax", emp_share=1.0, emp_base="payroll",
+                    "household contribution", emp_share=1.0, emp_base="payroll_cap", state_share=1.0, close="first"),
+    "B": dict(label="Mid-single digits with a rebated value-added tax", emp_share=1.0, emp_base="payroll_cap",
               state_share=1.0, first=FIRST_TIER_TARGET, close="vat"),
-    "C": dict(label="Mid-single digits with employers paying more than their former premiums", emp_base="payroll",
+    "C": dict(label="Mid-single digits with employers paying more than their former premiums", emp_base="payroll_cap",
               state_share=1.0, first=FIRST_TIER_TARGET, close="employer"),
-    "D": dict(label="Mid-single digits with a top tier", emp_share=1.0, emp_base="payroll", state_share=1.0,
+    "D": dict(label="Mid-single digits with a top tier", emp_share=1.0, emp_base="payroll_cap", state_share=1.0,
               first=FIRST_TIER_TARGET, close="second"),
 }
 
@@ -612,6 +614,23 @@ def stacking_check(o, K, pp, e=TOP1_ELASTICITY):
 
 
 HEALTH_GROWTH = 0.054   # CMS's projection of national health spending, 2025-34, a year (EV-CAR-056)
+
+
+def stacking_adjusted(ctx, spec, e=TOP1_ELASTICITY):
+    """The package re-solved when the top 1% yields only what stacking_check() finds on the health charges at its
+    margin (the first and second tiers, and the employer contribution when uncapped), instead of the central
+    allowance: the shortfall is added to the need and the closing item re-solved. Returns (package, shortfall $B)."""
+    o = package(ctx, **spec)
+    K = ctx["K"]
+    marginal = ("First tier: the statutory charge", "Second tier: the statutory charge")
+    rows = [(lb, bn, k) for lb, bn, k in o["rows"] if lb in marginal
+            or (o["emp_base"] == "payroll" and lb.startswith("Employer health contribution"))]
+    static = sum(-bn * K[k][1] / 100 for _, bn, k in rows)
+    credits = sum(bn * K[k][1] / 100 for lb, bn, k in o["rows"] if "avoidance keeps" in lb)
+    assumed = static - credits
+    share = stacking_check(o, K, ctx["pp"], e)["share"]
+    lost = max(assumed - share * static, 0.0)
+    return package(ctx, **dict(spec, need=o["need"] + lost)), lost
 
 
 def examples(ctx, o, growth_gap):
@@ -726,7 +745,7 @@ def run():
         "A_states_80": package(ctx, **dict(PACKAGES["A"], state_share=0.8)),
         "A_states_50": package(ctx, **dict(PACKAGES["A"], state_share=0.5)),
         "A_states_0": package(ctx, **dict(PACKAGES["A"], state_share=0.0)),
-        "A_employer_capped": package(ctx, **dict(PACKAGES["A"], emp_base="payroll_cap")),
+        "A_employer_uncapped": package(ctx, **dict(PACKAGES["A"], emp_base="payroll")),
         "A_employer_on_premiums": package(ctx, **dict(PACKAGES["A"], emp_base="premiums")),
         "A_first_4_with_hi": package(ctx, **dict(PACKAGES["B"], first=FIRST_TIER_TARGET - 1.45)),
         "D_top_avoidance_60": package(ctx, **dict(PACKAGES["D"], high_avoid=0.6)),
@@ -740,6 +759,7 @@ def run():
     rc_booked = payers(coverage(False), g40)
     micro_ = {k: micro(ctx, P[k]) for k in P}
     micro_["A_states_80"] = micro(ctx, S["A_states_80"])
+    micro_["A_employer_uncapped"] = micro(ctx, S["A_employer_uncapped"])
     statutory = P["A"]["rows"]
     st_charge = -[bn for lb, bn, _ in statutory if lb.startswith("First tier: the statutory")][0]
     base_2040 = st_charge / (P["A"]["first"] / 100)
@@ -752,6 +772,13 @@ def run():
     ex = {k: examples(ctx, P[k], gg) for k in P}
     tc = {k: topcode_check(P[k], K, hh) for k in P}
     stk = {k: stacking_check(P[k], K, pp) for k in P}
+    stk["A_employer_uncapped"] = stacking_check(S["A_employer_uncapped"], K, pp)
+    adj = {}
+    for name, spec in (("A", PACKAGES["A"]), ("A_employer_uncapped", dict(PACKAGES["A"], emp_base="payroll")),
+                       ("B", PACKAGES["B"])):
+        for e in (0.12, TOP1_ELASTICITY, 0.4):
+            o_, lost = stacking_adjusted(ctx, spec, e)
+            adj[f"{name}@{e}"] = dict(lost=lost, first=o_["first"], vat=o_["vat_rate"], households=o_["households"])
     pt = {k: passthrough_check(ctx, P[k]) for k in ("A",)}
     pt["first_draft"] = passthrough_check(ctx, S["first_draft"])
     hi = dict(rate=2.9, yield_2040=2.9 * pp["payroll_gross"], addl_rate=0.9)
@@ -766,7 +793,7 @@ def run():
                 packages=P, sensitivities=S, savings_2040=sav, sens_2040={k: v * g40 for k, v in sens.items()},
                 package_paths=paths_, payers=rc, payers_booked=rc_booked, payer_path=payer_path(c, ctx["gp"]),
                 group_payers_2032=ctx["gp"], micro=micro_, examples=ex, growth_gap=gg, topcode=tc, stacking=stk,
-                passthrough=pt, hi=hi, g40=g40, pp_person=ctx["pp_person"],
+                passthrough=pt, hi=hi, stacking_adjusted=adj, g40=g40, pp_person=ctx["pp_person"],
                 before_financing=per_household(relief_rows(ctx["f40"]), K, hh))
 
 
@@ -840,6 +867,9 @@ def main():
         for y, v in r["package_paths"][k].items():
             print("  path", y, {a: round(b, 2) for a, b in v.items()})
     print("micro A states 80", r["micro"]["A_states_80"])
+    print("micro A uncapped", r["micro"]["A_employer_uncapped"])
+    for k, v in r["stacking_adjusted"].items():
+        print("stacking adjusted", k, {a: (round(b, 2) if not isinstance(b, dict) else b) for a, b in v.items()})
     print("passthrough", r["passthrough"])
     print("incomes", r["incomes_2040"], "base", {k: round(v) for k, v in r["base_2040"]["per_household"].items()},
           round(r["base_2040"]["statutory_bn"]), round(r["base_2040"]["cps_grown_bn"]))

@@ -82,7 +82,8 @@ class HealthFinancing(unittest.TestCase):
         q3 = [d for d in a["detail"] if d[0] == "First tier: the statutory charge"][0][2]["Q3"]
         self.assertAlmostEqual(-q3, a["first"] / 100 * b["per_household"]["Q3"], delta=2)
         self.assertLess(abs(b["cps_grown_bn"] / b["statutory_bn"] - 1), 0.05)
-        self.assertAlmostEqual(a["employer_rate"], 11.87, delta=0.01)
+        self.assertAlmostEqual(a["employer_rate"], 11.87 / HF.CAP_SHARE, delta=0.01)    # on pay up to the wage base
+        self.assertAlmostEqual(self.r["sensitivities"]["A_employer_uncapped"]["employer_rate"], 11.87, delta=0.01)
         self.assertAlmostEqual(a["employer_rate_with_hi"], a["employer_rate"] + 1.45, places=9)
         self.assertAlmostEqual(HF.TOP_RATE_BEFORE_HEALTH, 63.0)
 
