@@ -96,7 +96,7 @@ Budget choice 3 (DEC-2026-11-08-05, `ASM-BILL-WINDOW`): plan totals and the D4 t
 | R1 | 12 | FY2029-2038 | 3214 | 3384 | FAM-1, MOV-29 |
 | R2 | 31 | FY2030-2039 | 4980 | 6324 | none |
 | R3 | 5 | FY2031-2040 | 625 | 483 | none |
-| FLOOR | 30 | FY2029-2038, FY2030-2039 | 16266 | 45522 | none |
+| FLOOR | 30 | FY2029-2038, FY2030-2039 | 16266 | 45016 | none |
 | APPROPS | 7 | FY2029-2038, FY2030-2039 | 525 | 817 | none |
 
 The reconciliation bills, row by row. The Byrd rule bars a reconciliation bill from adding to the deficit in any single year after its window; the test is year by year, so the last column, the sum of the ten years after the window, only shows where to look. It counts the bill's spending rows alone (its revenue is not assigned to it in the ledger, so a bill's net effect in those years is not yet known):

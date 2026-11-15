@@ -204,7 +204,7 @@ def booking(full=True):
     hlt7_fy = {"plan-spending": spend, "transition-fund": {y: TRANSITION_FUND.get(y, 0.0) for y in FY},
                "territories": terr, "worker-help": {y: WORKER_HELP.get(y, 0.0) for y in FY},
                "federal-coverage": fedcov, "status-rule": status}
-    rev_fy, fin = {}, None
+    rev_fy, fin, after = {}, None, {}
     if full:
         fin = financing()
         # D2 on the plan's whole gross with the errors fixed: the coverage groups' gross cost and the HLT-7 items
@@ -215,6 +215,7 @@ def booking(full=True):
                         "states-payment": cor["states"], "worker-credit": fin["credit"]})
         for k in ("admin-4pct", "drug-prices", "national-budget", "states-payment", "worker-credit"):
             years["HLT-7/" + k] = window(hlt7_fy[k])
+        after["HLT-7/worker-credit"] = credit_after(fin["credit"][2040])
         rev_fy = fin["rows"]
         for k, v in rev_fy.items():
             years[k] = window(v)
@@ -289,7 +290,7 @@ def booking(full=True):
         fy2040.update(seam=cor["model"][2040] - hp["net"][2040], corrections=cor["errors"][2040] - cor["model"][2040],
                       **{k: hlt7_fy[k][2040] for k in NEW_HLT7}, revenue={k: v[2040] for k, v in rev_fy.items()})
     return dict(years=years, components=comps, ledger=ledger, perms=perms, fy2040=fy2040, totals=totals, hlt4_path=hlt4_path,
-                hlt4_parts=hlt4_parts, revenue=revenue, hlt7_fy=hlt7_fy, revenue_fy=rev_fy, spend_before=spend0,
+                hlt4_parts=hlt4_parts, revenue=revenue, hlt7_fy=hlt7_fy, revenue_fy=rev_fy, spend_before=spend0, after=after,
                 contribution={y: hp["contribution"][y] for y in W + [2040]})
 
 
@@ -438,6 +439,22 @@ def financing():
                h1b=h1b, statutory_2040=o["statutory"], haircut=o["haircut"])
     _CACHE["financing"] = out
     return out
+
+
+CREDIT_LAST_FULL, CREDIT_NONE_FROM = 2044, 2049   # DEC-2026-11-15-24: in full through 2044, none from 2049
+AFTER_YEARS = list(range(2040, 2051))   # through FY2050, the first year at zero
+
+
+def credit_after(credit_2040, B=None, F=None):
+    """The worker transition credit after the window, FY2040-49 ($ billion), for fiscal-after.csv: in full through
+    calendar 2044, growing with pay (the payroll category), then a fifth less each year (80% in 2045 to 20% in 2048)
+    and none from calendar 2049 (DEC-2026-11-15-24; health_financing.py WORKER_CREDIT), on the fiscal-year blend.
+    FY2049 keeps a quarter of calendar 2048's 20%; from FY2050 it is zero."""
+    F = F or fiscal()
+    B = B or F.read_baseline(os.path.join(ROOT, "models", "data", "fiscal-baseline.csv"))
+    g = F.growth_index(B, "rev_payroll")
+    share = lambda y: 1.0 if y <= CREDIT_LAST_FULL else max(0.0, 1 - (y - CREDIT_LAST_FULL) / (CREDIT_NONE_FROM - CREDIT_LAST_FULL))  # noqa: E731
+    return {y: round(credit_2040 * g[y] / g[2040] * (0.25 * share(y - 1) + 0.75 * share(y)), 2) for y in AFTER_YEARS}
 
 
 def booking_base():

@@ -138,6 +138,34 @@ class HealthFinancingBooking(unittest.TestCase):
         self.assertAlmostEqual(self.part("plan-spending")[2040], self.b["fy2040"]["spending"], delta=0.5)
         self.assertEqual((self.rev["H1a"]["channel"], self.rev["H1a"]["in_base"]), ("General fund", "Yes"))
 
+    def test_credit_ends_after_the_window(self):
+        """DEC-2026-11-15-24: in full through 2044, none from 2049. Both the fiscal model and the provisions library
+        (whose long-run path to 2056 is the debt model's) book fiscal-after.csv's phase-down, not the 2039 level grown."""
+        want = self.b["after"]["HLT-7/worker-credit"]
+        rows = {r["id"]: r for r in csv.DictReader(open(ROOT / "models/data/inputs/fiscal-after.csv", newline=""))}
+        r = rows["HLT-7/worker-credit"]
+        self.assertEqual({y: float(r["y%d" % y]) for y in HB.AFTER_YEARS}, want)
+        fm = self.part("worker-credit")
+        # the budget library's provisions.py and data.py, not the household model's modules of the same names
+        keep = sys.modules.get("data")
+        sys.modules["data"] = load("data", HERE / "budget" / "data.py")
+        try:
+            P = load("hfb_provisions", HERE / "budget" / "provisions.py")
+        finally:
+            if keep is not None:
+                sys.modules["data"] = keep
+            else:
+                del sys.modules["data"]
+        S = P.specs()
+        pv = P.deficit_path(S["HLT-7"], self.bills["HLT-7"]["gf_mid"])
+        full = fiscal.row_path(self.base, self.bills["HLT-7"]["gf_mid"], fiscal.PR.BILLS["HLT-7"], "HLT-7")
+        for y in range(2040, 2057):
+            self.assertAlmostEqual(fm[y], want.get(y, 0.0), places=6, msg=y)
+            self.assertAlmostEqual(pv[y], full[y], places=6, msg=y)      # the two agree, credit included
+        self.assertTrue(all(fm[y] == 0 for y in range(2050, 2057)))
+        self.assertLess(fm[2049], 0.1 * fm[2044])
+        self.assertGreater(fm[2044], fm[2040])
+
     def test_first_call_and_the_plan_wide_gap(self):
         calls, need, own = HB.first_call(self.b)
         self.assertAlmostEqual(calls[2040], 515.7, delta=3)                    # DEC-2026-11-15-20
