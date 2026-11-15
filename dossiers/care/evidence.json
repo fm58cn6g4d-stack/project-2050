@@ -13583,5 +13583,812 @@
   "supports": [
    "dossiers/foundations/health-financing.md"
   ]
+ },
+ {
+  "id": "EV-CAR-723",
+  "statement": "Warren's November 2019 plan says Medicare for All would cost the country just under $52 trillion over ten years, against $52 trillion over ten years under the current system, and would require $20.5 trillion of new federal spending after $6 trillion is redirected from states.",
+  "claim": "analysis",
+  "figures": [
+   "$52 trillion",
+   "$20.5 trillion",
+   "$6 trillion"
+  ],
+  "source": "SRC-3356",
+  "anchor": [
+   "Maintain our current system, which will cost the country $52 trillion over ten years.",
+   "Switch to my approach to Medicare for All, which would cost the country just under $52 trillion over ten years.",
+   "After incorporating the $6 trillion we will redirect from states to help fund Medicare, the experts conclude that total new federal spending required to enact Medicare for All will be $20.5 trillion."
+  ],
+  "locator": "The Cost of Medicare for All and Paying for Medicare for All",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Sponsor's own estimate: Warren's presidential campaign, November 1, 2019, advocating the plan; her expert letters were commissioned and published by the campaign. The estimate starts from Urban Institute's 2019 single-payer estimate and assumes far larger savings than Urban did (EV-CAR-724, EV-CAR-744). CRFB scored the plan as written at about $27 trillion of federal cost (EV-CAR-743), and Urban researchers called its administrative and cost-growth assumptions unrealistic (EV-CAR-742), so the dossier presents $20.5 trillion as the sponsor's figure, not a consensus one. NPR confirms the plan states these totals (EV-CAR-731), which does not test them.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-731",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-743",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-742",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-724",
+  "statement": "The Berwick and Johnson letter commissioned by Warren starts from Urban's $34.0 trillion estimate of additional federal spending and subtracts $1.8 trillion for insurer administrative spending, $1.7 trillion for prescription drug reform, $2.9 trillion for comprehensive payment reform, $1.1 trillion for slower cost growth and $6.1 trillion for redirected state and local spending, to reach $20.5 trillion.",
+  "claim": "analysis",
+  "figures": [
+   "34.0",
+   "1.8",
+   "1.7",
+   "2.9",
+   "1.1",
+   "6.1",
+   "20.5"
+  ],
+  "source": "SRC-3357",
+  "anchor": [
+   "Urban Estimate of Additional Federal Spending | 34.0",
+   "Insurer Administrative Spending | -1.8",
+   "Prescription Drug Reform | -1.7",
+   "Comprehensive Payment Reform | -2.9",
+   "Slowing Medical Costs Growth over Time | -1.1",
+   "Redirecting Other Public Spending on Health Coverage | -6.1",
+   "Estimate of New Federal Spending Required to Fund Warren Medicare for All Plan | 20.5"
+  ],
+  "locator": "Table 1, Ten-Year Cost Reductions Relative to Urban Institute Projections (trillions, 2020-29)",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Sponsor's own estimate: Warren's presidential campaign, November 1, 2019, advocating the plan; her expert letters were commissioned and published by the campaign. Authors Donald Berwick and Simon Johnson, October 31, 2019, hosted by the campaign. The letter calls its estimate conservative and an upper bound and says it did not count savings from innovation incentives, accountable care organizations or lower utilization than Urban assumed. Rows are quoted as table lines and shortened to the row label and value. The $6.1 trillion is the letter's rounding of the state and local redirection (the plan text says $6 trillion). The arithmetic sums: 34.0 - 1.8 - 1.7 - 2.9 - 1.1 - 6.1 = 20.4, which the letter shows as 20.5 after rounding.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-742",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-743",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-CAR-740",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-725",
+  "statement": "Warren's plan would have employers, which it projects will pay nearly $9 trillion over ten years for employee health care, pay an Employer Medicare Contribution equal to 98% of their prior per-employee health spending (adjusted up for national spending growth) times their employees, saving employers $200 billion; large firms with very high executive pay and buybacks would pay a supplemental contribution if the $8.8 trillion target falls short.",
+  "claim": "analysis",
+  "figures": [
+   "$9 trillion",
+   "98%",
+   "$200 billion",
+   "$8.8 trillion"
+  ],
+  "source": "SRC-3356",
+  "anchor": [
+   "They are projected to pay nearly $9 trillion over the next ten years",
+   "Their Employer Medicare Contribution would be 98% of that amount",
+   "companies will pay less than they otherwise would have, saving $200 billion over the next ten years.",
+   "If we’re falling short of the $8.8 trillion revenue target for the next ten years, we will make up lost revenue with a Supplemental Employer Medicare Contribution requirement for big companies"
+  ],
+  "locator": "Replacing Employer Health Spending with a New Employer Medicare Contribution",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Sponsor's own estimate: Warren's presidential campaign, November 1, 2019, advocating the plan; her expert letters were commissioned and published by the campaign. The 98% is set against what each employer's own spending over the last few years, grown by national health spending, would have been, so each firm keeps paying roughly what it paid. Tax Policy Center (EV-CAR-735) and CRFB (EV-CAR-741) both describe it as a head tax borne by workers in lower wages, not a saving to employers.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-735",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-741",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-740",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-726",
+  "statement": "Warren's plan exempts companies with under 50 employees that do not pay for employee health care today and self-employed people below an income threshold; each employer's per-employee cost would gradually converge on the national average, and employers with collective bargaining agreements could reduce their contribution down to that average if they pass the savings to workers.",
+  "claim": "analysis",
+  "figures": [
+   "50"
+  ],
+  "source": "SRC-3356",
+  "anchor": [
+   "Small businesses — companies with under 50 employees — would be exempt from this requirement too if they aren’t paying for employee health care today.",
+   "People who are self-employed would be exempt from making Employer Medicare Contributions unless they exceed an income threshold.",
+   "Over time, an employer’s health care cost-per-employee would be gradually shifted to converge at the average health care cost-per-employee nationally.",
+   "Employers can reduce their contribution requirements all the way down to the national average health care cost per employee."
+  ],
+  "locator": "Replacing Employer Health Spending with a New Employer Medicare Contribution",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Sponsor's own estimate: Warren's presidential campaign, November 1, 2019, advocating the plan; her expert letters were commissioned and published by the campaign. Firms that cross 50 employees would be phased into a contribution equal to the national average per employee, and merging firms would pay the weighted average. Burman (EV-CAR-735) confirms the 50-employee exemption and warns it creates a penalty on hiring the 50th worker.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-735",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-741",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-727",
+  "statement": "Under Warren's maintenance-of-effort requirement, state and local governments would redirect $6 trillion of existing health insurance spending into Medicare for All over ten years: $3.3 trillion for Medicaid and the Children's Health Insurance Program and $2.7 trillion of employer contributions to premiums for their employees.",
+  "claim": "analysis",
+  "figures": [
+   "$6 trillion",
+   "$3.3 trillion",
+   "$2.7 trillion"
+  ],
+  "source": "SRC-3356",
+  "anchor": [
+   "we will redirect $6 trillion in existing state and local government insurance spending into the Medicare for All system.",
+   "state and local governments will redirect $3.3 trillion of what they currently spend to support Medicaid and the Children’s Health Insurance Program and $2.7 trillion of what they currently spend on employer contributions to private insurance premiums for their employees into Medicare for All."
+  ],
+  "locator": "Redirecting Taxpayer-Funded Health Spending",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Sponsor's own estimate: Warren's presidential campaign, November 1, 2019, advocating the plan; her expert letters were commissioned and published by the campaign. The plan says the requirement is similar to the mechanism the George W. Bush administration used for Medicaid spending under the Part D drug benefit, and that states would pay less over time because overall growth would be slower than today. The Berwick and Johnson letter rounds the same amounts to $3.4 trillion and $6.1 trillion (EV-CAR-724). CRFB scores the state and local employee-premium part at about $3 trillion (EV-CAR-740) and no source here tests the Medicaid and CHIP part.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-740",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-732",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-728",
+  "statement": "Warren's plan says households would spend $11 trillion on premiums, deductibles, copays and out-of-pocket costs over ten years under the current system and practically nothing under hers, would owe about $1.15 trillion of existing taxes on the take-home pay returned to them plus $250 billion from ending health-account and medical-expense tax breaks, $1.4 trillion in all, and claims not one penny of middle-class tax increases and relief of $12,400 for the typical middle class family.",
+  "claim": "analysis",
+  "figures": [
+   "$11 trillion",
+   "$1.15 trillion",
+   "$250 billion",
+   "$1.4 trillion",
+   "$12,400"
+  ],
+  "source": "SRC-3356",
+  "anchor": [
+   "Over the next ten years, individuals will spend $11 trillion on health care in the form of premiums, deductibles, copays, and out-of-pocket costs.",
+   "approximately $1.15 trillion if we apply average effective tax rates.",
+   "Together, those changes would generate another $250 billion in revenue.",
+   "another $1.4 trillion in funding for Medicare for All is generated automatically",
+   "Not one penny in middle-class tax increases.",
+   "relieves the typical middle class family of $12,400 in insurance premiums and other related health care costs"
+  ],
+  "locator": "Automatic Increases in Take-Home Pay; Option 2 summary",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Sponsor's own estimate: Warren's presidential campaign, November 1, 2019, advocating the plan; her expert letters were commissioned and published by the campaign. The $1.4 trillion is a tax on pay that workers get back once premiums end, so middle-class households do owe more tax on that pay; the plan calls it existing taxes, not new ones. The employer contribution is paid by employers but, by Tax Policy Center and CRFB, borne by workers (EV-CAR-735, EV-CAR-741), which qualifies the claim of no new middle-class taxes. CRFB's central estimate of the revenue feedback is $1.5 trillion (EV-CAR-740).",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-740",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-735",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-741",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-729",
+  "statement": "Warren's plan counts on about $2.3 trillion from closing one third of the tax gap, about $800 billion from a financial transactions tax of one-tenth of one percent, about $100 billion from a fee on the forty or so largest banks, and $2.9 trillion from corporate tax changes (ending accelerated depreciation and a country-by-country minimum tax with a tax on foreign firms' U.S. sales).",
+  "claim": "analysis",
+  "figures": [
+   "$2.3 trillion",
+   "$800 billion",
+   "$100 billion",
+   "$2.9 trillion"
+  ],
+  "source": "SRC-3356",
+  "anchor": [
+   "That will produce another $2.3 trillion in net federal revenue",
+   "a small tax on financial transactions — one-tenth of one percent on the sale of bonds, stocks, or derivatives — would generate about $800 billion in revenue over the next ten years.",
+   "would generate an additional $100 billion over the next ten years",
+   "These changes will generate an estimated $2.9 trillion over the next ten years."
+  ],
+  "locator": "Cracking Down on Tax Evasion and Fraud; Targeted Taxes on the Financial Sector, Large Corporations, and the Top 1%",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Sponsor's own estimate: Warren's presidential campaign, November 1, 2019, advocating the plan; her expert letters were commissioned and published by the campaign. Revenue estimates come from experts the campaign engaged (Zandi, Stevenson and Johnson; Saez and Zucman). CRFB credits the financial taxes at $1.0 trillion but scores the tax gap at $300 billion (central) against the campaign's $2.4 trillion and the corporate items at lower values than the campaign's (EV-CAR-738).",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-738",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-737",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-730",
+  "statement": "Warren's plan counts on $3 trillion over ten years from the top 1% of households, of which it attributes $1 trillion to raising the billionaire wealth tax to six cents on each dollar above $1 billion and $2 trillion to taxing the top 1%'s capital gains annually at labor-income rates, plus $400 billion from comprehensive immigration reform and $798 billion from ending Overseas Contingency Operations funding.",
+  "claim": "analysis",
+  "figures": [
+   "$3 trillion",
+   "1%",
+   "$1 trillion",
+   "$2 trillion",
+   "$400 billion",
+   "$798 billion"
+  ],
+  "source": "SRC-3356",
+  "anchor": [
+   "we can raise another $3 trillion over ten years by asking the top 1% of households in America to pay a little more.",
+   "we can raise an additional $1 trillion in revenue",
+   "we can raise another $2 trillion over ten years",
+   "immigration reform would generate an additional $400 billion in direct federal revenue.",
+   "will provide $798 billion over the ten-year period relative to current spending levels."
+  ],
+  "locator": "Targeted Taxes on the Financial Sector, Large Corporations, and the Top 1%; Immigration Reform; Reining in Defense Spending",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Sponsor's own estimate: Warren's presidential campaign, November 1, 2019, advocating the plan; her expert letters were commissioned and published by the campaign. The split of the $3 trillion into $1 trillion and $2 trillion follows the order of the plan's text and is the project's reading. CRFB's central estimate for the wealth and capital-gains taxes is $1.5 trillion against the campaign-based $3.2 trillion because of avoidance and interactions among the taxes (EV-CAR-738), and it credits immigration at $400 billion and the defense item at $800 billion. Gleckman (EV-CAR-736) and NPR's reporting of Gleckman (EV-CAR-733) doubt that the wealth and investment-return taxes could be collected at these rates.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-738",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-736",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-733",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-737",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-731",
+  "statement": "NPR reported that Warren's plan is built on Urban Institute's 2019 analysis, which estimated $52 trillion of national health spending over the next decade under current law and $59 trillion under a single-payer plan requiring $34 trillion of new federal spending, whereas Warren's plan estimates total costs held to $52 trillion and $20.5 trillion of new federal spending.",
+  "claim": "analysis",
+  "figures": [
+   "$52 trillion",
+   "$59 trillion",
+   "$34 trillion",
+   "$20.5 trillion"
+  ],
+  "source": "SRC-3355",
+  "anchor": [
+   "Urban Institute, which estimated that under current law, Americans would spend $52 trillion over the next decade on health care",
+   "costs would total $59 trillion over a decade, which would require $34 trillion in new federal spending.",
+   "Warren's plan estimates that total health costs could be held to $52 trillion and that $20.5 trillion in new federal spending would be necessary."
+  ],
+  "locator": "Section headed How Warren wants to reduce spending",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "NPR (news organization, no stake in the plan), November 1, 2019, reporting the sponsor's and Urban's figures; it confirms the description of the two estimates and does not itself test the plan's estimate. Compare EV-CAR-223 and EV-CAR-734 for Urban's own statement.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-734",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-723",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-732",
+  "statement": "NPR reported that Warren's plan would pay hospitals 110 percent of Medicare rates, slightly less than Urban's 115 percent assumption, and that state and local governments would redirect more than $6 trillion that they currently spend on Medicaid and the Children's Health Insurance Program to the federal government.",
+  "claim": "analysis",
+  "figures": [
+   "110 percent",
+   "115 percent",
+   "$6 trillion"
+  ],
+  "source": "SRC-3355",
+  "anchor": [
+   "It would also pay hospitals 110 percent of what Medicare pays right now — slightly less than Urban’s 115 percent assumption.",
+   "Warren also stipulates that state and local governments would redirect the more than $6 trillion they currently spend on Medicaid and the Children's Health Insurance Program (CHIP) to the federal government."
+  ],
+  "locator": "Section headed How Warren wants to reduce spending",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "NPR, November 1, 2019, news report (no stake). NPR attributes the whole $6 trillion to Medicaid and CHIP; the plan splits it into $3.3 trillion for Medicaid and CHIP and $2.7 trillion for state employee premiums (EV-CAR-727).",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-744",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-727",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-733",
+  "statement": "Howard Gleckman of the Urban-Brookings Tax Policy Center told NPR that something like half of the wealth of the wealthiest Americans is held in privately held businesses and that it is really hard to value those assets for tax purposes, which raises questions about how much a wealth tax on billionaires would bring in.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3355",
+  "anchor": [
+   "Something like half of the wealth of the wealthiest people in America are held in privately held corporations, privately held businesses",
+   "And it’s really hard to value those assets for tax purposes."
+  ],
+  "locator": "Section headed Where the $20.5 trillion comes from",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Expert comment quoted in NPR, November 1, 2019, by a Tax Policy Center senior fellow (nonpartisan, joint Urban Institute and Brookings Institution project). Gleckman's own TaxVox post (EV-CAR-736) is the same author, so it is not counted as independent corroboration. The point is an opinion on valuation difficulty, not a measured share.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-738",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-734",
+  "statement": "Urban Institute researchers wrote that its current-law national health spending for 2020-29 of $52 trillion splits into $17 trillion of federal spending, $27 trillion of private and state and local spending that single-payer would subsume, and $8 trillion that single-payer would not affect, and that it is not appropriate to compare an increase of $34 trillion in federal spending with $52 trillion of national spending and conclude these are savings.",
+  "claim": "analysis",
+  "figures": [
+   "$52 trillion",
+   "$17 trillion",
+   "$27 trillion",
+   "$8 trillion",
+   "$34 trillion",
+   "2020",
+   "29"
+  ],
+  "source": "SRC-3224",
+  "anchor": [
+   "we divide the $52 trillion estimated current-law spending on health care over 2020–29 into three pieces: $17 trillion in federal spending; $27 trillion in private spending and state and local government spending",
+   "and $8 trillion in spending (a mix of government and private spending) that would not be affected by a single-payer program.",
+   "it is not appropriate to compare an estimated increase in federal spending of $34 trillion over 10 years with a current-law level of national health spending of $52 trillion over the same period and conclude these are savings in national health spending."
+  ],
+  "locator": "Section headed How single-payer reform would affect federal and national spending (Urban Wire, October 16, 2019)",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Urban Institute (nonpartisan research institute), blog by Blumberg, Holahan and Simpson, October 16, 2019, explaining its own estimates; this is the accounting distinction Warren's plan relies on (federal spending falls on the budget, national spending includes employers, households and states). Urban's own estimate is one model's projection; see EV-CAR-223 for its $7 trillion rise in national spending. NPR reports the same Urban figures (EV-CAR-731).",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-731",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-735",
+  "statement": "Leonard Burman of the Tax Policy Center argued that Warren's per-employee Employer Medicare Contribution, meant to raise $8.8 trillion over ten years, is a regressive and distortionary tax that hits employers with generous coverage hardest, penalizes a firm that reaches 50 employees (a $500,000 tax on the 50th worker at $10,000 per employee), and would be scored as a tax by CBO and the Joint Committee on Taxation.",
+  "claim": "analysis",
+  "figures": [
+   "$8.8 trillion",
+   "50",
+   "$10,000",
+   "$500,000"
+  ],
+  "source": "SRC-3358",
+  "anchor": [
+   "Her “Employer Medicare Contribution,” however, is a regressive tax that could have many undesirable effects.",
+   "The fee is intended to avoid that windfall and raise $8.8 trillion over ten years to help pay for Medicare for All.",
+   "At, say, $10,000 per employee, that 50th worker would subject the firm to a $500,000 tax.",
+   "the Congressional Budget Office and the Joint Committee on Taxation surely will treat it that way since it is compulsory"
+  ],
+  "locator": "Blog post, Tax Policy Center, November 5, 2019",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Tax Policy Center (nonpartisan; joint Urban Institute and Brookings Institution), November 5, 2019, an economist's critique of one design feature; it takes no position on Medicare for All itself and suggests a payroll-tax add-on or a broad-based tax instead. The $500,000 example is Burman's illustration of the hiring cliff, which he says could be softened at a revenue cost.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-741",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-725",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-736",
+  "statement": "Howard Gleckman of the Tax Policy Center wrote that, taken together, Warren's taxes on investment returns and on wealth could push the marginal effective tax rate on the very wealthiest above 100 percent (a 2 percent wealth tax on assets above $50 million equals a 33 percent income tax on a 6 percent return), which he called unrealistic because the rich would invest less or avoid the taxes.",
+  "claim": "analysis",
+  "figures": [
+   "100 percent",
+   "2 percent",
+   "$50 million",
+   "33 percent",
+   "6 percent"
+  ],
+  "source": "SRC-3359",
+  "anchor": [
+   "many of the very wealthiest could pay a marginal effective tax rate on their investments that exceeds 100 percent.",
+   "The rich either would invest less or—more likely—find a way to avoid paying the taxes.",
+   "For someone with a 6 percent return on assets in excess of $50 million, a 2 percent wealth tax is equal to a 33 percent income tax on the earnings from that wealth."
+  ],
+  "locator": "Blog post, Tax Policy Center, November 7, 2019",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Tax Policy Center (nonpartisan; joint Urban Institute and Brookings Institution), November 7, 2019, written about Warren's overall tax proposals, only some of which are in the Medicare for All plan (the others are described elsewhere on her website). It does not estimate revenue.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-738",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-733",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-737",
+  "statement": "The Committee for a Responsible Federal Budget estimated that Warren's additional offsets (taxes on financial institutions, wealth and investors and corporations, tax compliance, immigration reform and ending Overseas Contingency Operations spending) would raise between $4.75 trillion and $10.95 trillion over a decade, with a central estimate of $6.75 trillion, and based its low-cost estimates on the campaign's economists.",
+  "claim": "analysis",
+  "figures": [
+   "$4.75 trillion",
+   "$10.95 trillion",
+   "$6.75 trillion"
+  ],
+  "source": "SRC-3045",
+  "anchor": [
+   "We estimate these proposals would likely save between $4.75 trillion and $10.95 trillion over a decade, with a central estimate of $6.75 trillion.",
+   "In general, our low-cost estimates are based on the Johnson, Stevenson, & Zandi estimates provided by the campaign."
+  ],
+  "locator": "Warren Additional Offsets (CRFB, updated February 26, 2020)",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "CRFB (nonpartisan, deficit-reduction advocate), analysis dated January 2020 and updated February 26, 2020, so after the November 2019 release but a review of the same plan. The campaign's own figures sit at the high-revenue end of this range; CRFB's central case is about $4 trillion lower. CRFB scores policies in full effect from FY2021 with no transition and conventional (non-macroeconomic) scoring.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-736",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-742",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-738",
+  "statement": "CRFB scored Warren's tax-gap measures at $300 billion in its central estimate against $2.4 trillion in its campaign-based low-cost estimate, and her taxes on wealth and accrued capital gains at $1.5 trillion centrally against $3.2 trillion, because interactions among the taxes lead to high rates of avoidance.",
+  "claim": "analysis",
+  "figures": [
+   "$300 billion",
+   "$2.4 trillion",
+   "$1.5 trillion",
+   "$3.2 trillion"
+  ],
+  "source": "SRC-3045",
+  "anchor": [
+   "we assume they would generate $300 billion in revenue over a decade in our central estimate",
+   "Reduce the Tax Gap | $2.4 trillion/$300 billion/$100 billion",
+   "Under our central estimate, these proposals would raise about $1.5 trillion over a decade.",
+   "Under our low-cost estimate, based on Johnson, Stevenson, & Zandi as well as Saez & Zucman, they would raise $3.2 trillion."
+  ],
+  "locator": "Warren Additional Offsets: Reduce the Tax Gap; Increase Taxes on Wealth & Accrued Capital Gains (CRFB, updated February 26, 2020)",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "CRFB (nonpartisan, deficit-reduction advocate), January-February 2020. The tax-gap quotation is the central estimate, which CRFB calls the most that could credibly be scored from compliance measures without restructuring the tax system. The $2.4 trillion is read from CRFB's table row (low-cost, central and high-cost estimates in that order). CRFB's tax-gap and wealth-tax judgments rest on its own models and the Tax Policy Center's estimates, not on a published score of Warren's wealth tax.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-736",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-733",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-739",
+  "statement": "CRFB estimated that Warren's health plan has a gross cost of $31.75 trillion and, after its offsets, would add $6.1 trillion to deficits over ten years in its central estimate, saving $1.2 trillion in its low-cost estimate and adding $11.2 trillion in its high-cost estimate.",
+  "claim": "analysis",
+  "figures": [
+   "$31.75 trillion",
+   "$6.1 trillion",
+   "$1.2 trillion",
+   "$11.2 trillion"
+  ],
+  "source": "SRC-3045",
+  "anchor": [
+   "Senator Elizabeth Warren’s health plan has a gross cost of $31.75 trillion and, incorporating offsets, would add $6.1 trillion to deficits over ten years under our central estimate. It would save $1.2 trillion in our low-cost estimate and add $11.2 trillion to deficits in our high-cost estimate."
+  ],
+  "locator": "Key findings (CRFB, updated February 26, 2020)",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "CRFB (nonpartisan, deficit-reduction advocate), January-February 2020, ten years FY2021-30 with the plan in full effect at the start; its low-cost estimate relies on the campaign's own revenue figures, so even the sponsor's assumptions leave the plan only $1.2 trillion ahead. The gross cost includes Warren's targeted spending increases beyond Medicare for All and long-term care.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-742",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-CAR-743",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-740",
+  "statement": "CRFB estimated that Warren's direct offsets (health tax breaks, the employer contribution and the state and local contribution) would raise $14.2 trillion centrally, within $13.1 trillion to $15.3 trillion, including $9.7 trillion from the private Employer Medicare Contribution, and said it largely concurs with the campaign's estimates.",
+  "claim": "analysis",
+  "figures": [
+   "$14.2 trillion",
+   "$13.1 trillion",
+   "$15.3 trillion",
+   "$9.7 trillion",
+   "$8.9 trillion",
+   "$10.6 trillion"
+  ],
+  "source": "SRC-3045",
+  "anchor": [
+   "We estimate these proposals would likely generate between $13.1 trillion and $15.3 trillion over a decade, with a central estimate of $14.2 trillion.",
+   "This would raise $9.7 trillion, $8.9 trillion, and $10.6 trillion over a decade in our central, low-cost, and high-cost estimates, respectively.",
+   "with which we largely concur."
+  ],
+  "locator": "Warren Direct Offsets (CRFB, updated February 26, 2020)",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "CRFB (nonpartisan, deficit-reduction advocate), January-February 2020. The offsets are mostly money diverted from existing premium payments, so most of this is not new revenue in the economy but a reassignment of existing spending to the federal budget. CRFB's central employer-contribution figure ($9.7 trillion) is above the campaign's $8.8 trillion; its low-cost figure ($8.9 trillion) is the campaign-based one. The \"largely concur\" quotation is for the campaign and Berwick and Johnson estimates. CRFB's text puts the state and local contribution at about $3 trillion centrally ($2.7 to $3.2 trillion), which is not quoted here.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-725",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-735",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-741",
+  "statement": "CRFB described Warren's Employer Medicare Contribution as becoming over time a head tax, a fixed-dollar amount paid per employee, which although technically paid by employers would ultimately be borne by employees in the form of reduced wages, with adjustments and exemptions for small employers, part-time employees, merging firms and firms with high-quality benefits.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-3045",
+  "anchor": [
+   "Ultimately, this contribution would serve as a “head tax,” or a fixed-dollar amount paid per employee.",
+   "Though technically paid by employers, the tax – like current health insurance premiums – would ultimately be borne by employees in the form of reduced wages.",
+   "Adjustments and exemptions would exist for small employers, part-time employees, merging firms, and firms that currently offer high-quality benefits."
+  ],
+  "locator": "Warren Direct Offsets: Require Private Employer Medicare Contributions (CRFB, updated February 26, 2020)",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "CRFB (nonpartisan, deficit-reduction advocate), January-February 2020. Agrees with Burman's reading (EV-CAR-735); the wage-incidence claim is standard economic assumption, not measured for this proposal.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-735",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-742",
+  "statement": "Urban Institute researchers told CNN that Warren's assumption of 2.3% administrative spending, which saves $1.8 trillion over a decade, is too low and that they consider 6% more reasonable, and John Holahan said that getting health spending growth down to GDP growth is not something the country has ever done.",
+  "claim": "analysis",
+  "figures": [
+   "2.3%",
+   "$1.8 trillion",
+   "6%"
+  ],
+  "source": "SRC-3399",
+  "anchor": [
+   "Warren would set Medicare for All administrative spending at 2.3%, which would save $1.8 trillion over a decade, according to the analysis by Berwick and Simon Johnson",
+   "They consider 6% to be more reasonable because, as the sole payer, the federal government will have to invest in managing care",
+   "“To get down to GDP growth is not something we’ve ever done in this country,” Holahan said."
+  ],
+  "locator": "News analysis, CNN, November 19, 2019, section on slashing administrative costs and the spending growth assumption",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Urban Institute researchers (nonpartisan; authors of the baseline estimate Warren adjusts) quoted in a CNN news analysis, November 19, 2019; the comments are expert opinion on assumptions, and the 6% is Urban's own modeling assumption, not a measured rate. The sponsor's side is the 2.3% Medicare administrative rate (EV-CAR-744). Quotation text taken from a search extract of the article (the CNN page was truncated on fetch) and repeated in a syndicated copy.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-743",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-744",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-743",
+  "statement": "CRFB estimated that Warren's Medicare for All plan would likely cost $27 trillion, with a range of $23 trillion to $33 trillion under its low- and high-cost estimates, against the campaign's lower estimate of new federal spending, and that her plan would raise national health expenditures by about 3 percent.",
+  "claim": "analysis",
+  "figures": [
+   "$29 trillion",
+   "$27 trillion",
+   "$23 trillion",
+   "$33 trillion",
+   "3 percent"
+  ],
+  "source": "SRC-3080",
+  "anchor": [
+   "We recently estimated these proposals would likely cost $29 trillion and $27 trillion, respectively, with a range of $23 trillion to $33 trillion under our low- and high-cost estimates.",
+   "Under Senator Elizabeth Warren’s (D-MA) plan, which also imposes aggressive reductions to provider payments, we estimated NHE would increase by 3 percent."
+  ],
+  "locator": "Text and footnote 1 (CRFB, March 17, 2020)",
+  "grade": "C",
+  "fact_date": "2020",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "CRFB (nonpartisan, deficit-reduction advocate), March 2020; \"respectively\" refers to Sanders ($29 trillion) and Warren ($27 trillion). The estimate is of federal cost on CRFB's own assumptions, not the same quantity as the campaign's $20.5 trillion (which redirects $6 trillion from states), so the gap is a different scope in part; compare EV-CAR-723.",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-742",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-723",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-744",
+  "statement": "Warren's plan would pay hospitals an average of 110% of current Medicare rates and other non-hospital providers current Medicare rates, cut brand-name drug prices by 70% and generics by 30%, and hold net administrative spending at the 2.3% Medicare reaches today.",
+  "claim": "analysis",
+  "figures": [
+   "110%",
+   "70%",
+   "30%",
+   "2.3%"
+  ],
+  "source": "SRC-3356",
+  "anchor": [
+   "reimburse hospitals at an average of 110% of current Medicare rates",
+   "reimburse physicians and other non-hospital providers at current Medicare rates",
+   "bring down Medicare prices for brand name prescription drugs by 70% and prices for generics by 30%",
+   "setting net administrative spending at 2.3%"
+  ],
+  "locator": "Reducing Insurer Administrative Costs; Comprehensive Payment Reform; Reining in out-of-control Prescription Drug Costs",
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Sponsor's own estimate: Warren's presidential campaign, November 1, 2019, advocating the plan; her expert letters were commissioned and published by the campaign. These are the policy levers behind the cost estimate. The plan notes private insurers' administrative costs were 12% of premiums collected in 2017, against 2.3% for Medicare. Urban researchers consider 6% a more reasonable administrative rate (EV-CAR-742).",
+  "supports": [
+   "dossiers/foundations/health-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-732",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-CAR-742",
+    "stance": "contests"
+   }
+  ]
  }
 ]

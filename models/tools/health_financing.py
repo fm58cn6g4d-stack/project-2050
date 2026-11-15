@@ -73,6 +73,14 @@ TOP1_ELASTICITY = 0.25       # top-1% elasticity of reported income for the stac
                              # range 0.12-0.4; working figure)
 FIRST_TIER_TARGET = 5.5      # Espen's "mid single digits" (November 15), the middle of the lead's 5-6%
 VAT_REBATE_SHARE = 0.25      # a per-person rebate of a quarter of the VAT's gross yield, paid from it
+# The Medicare payroll tax (HI): 1.45% from workers and 1.45% from employers on all pay, 2.9% on self-employment
+# income. In the whole-system packages it is repealed at the January 2035 endpoint and its money raised by the plan's
+# own contributions instead (memo part 3.3); its yield is taken as 2.9 times the budget model's payroll point
+# (approximate; the 0.9% Additional Medicare Tax and H1b stay as they are). The halves are split evenly.
+HI_RATE = 2.9
+HI_ENDPOINT = {y: (0.0 if y < 2035 else (0.75 if y == 2035 else 1.0)) for y in range(2030, 2041)}  # fiscal years
+LOW_PAY_LINE = 20000         # the low-pay exemption option: the first $20,000 of each worker's pay (2025 dollars,
+                             # price-indexed) is outside the employer contribution
 
 
 def _read(path):
@@ -369,6 +377,14 @@ def keys():
     P.RULES["income_line"] = _line_rule(20000, 40000)
     P.RULES["income_high"] = _line_rule(100000, 200000)
     P.RULES["agi"] = lambda u, L: u["t_agi"]
+    def band(u, L):
+        from params import econ
+        line = LOW_PAY_LINE * econ("cpiu", L["year"] - 1) / econ("cpiu", 2024)
+        base = L["ss_wage_base"]
+        own = [u["wage_h"] + max(u["se_h"], 0), u["wage_s"] + max(u["se_s"], 0), u["dep_wages"]]
+        return sum(max(min(x, base) - line, 0.0) for x in own)
+    P.RULES["wages_band"] = band
+    K["wages_band"] = P.micro_shares(B, "rule:wages_band")
     K["income_line"] = P.micro_shares(B, "rule:income_line")
     hs, _ = P.micro_shares(B, "rule:income_high")
     K["income_high"] = (hs, K["surtax"][1])
@@ -383,7 +399,7 @@ def keys():
     n29 = sum(h["weight"] for h in H)
     grow = gap["gdp_2040"] / gdp_2029 / (hh2040 / n29)
     vals = {"agi": P.household_base(B, "rule:agi"), "base": P.household_base(B, "rule:income_line"),
-            "high": P.household_base(B, "rule:income_high")}
+            "high": P.household_base(B, "rule:income_high"), "band": P.household_base(B, "rule:wages_band")}
     sel = [(f"Q{q}", lambda h, q=q: h["g5"] == q) for q in range(1, 6)] + [("T1", lambda h: h["top1"])]
     inc = {m: {} for m in ("expanded", "agi", "base")}
     for g_, s in sel:
@@ -425,33 +441,52 @@ def relief_rows(f40):
             ("Tax on former premiums, both shares (HX)", -f40["hx"], "exclusion_end")]
 
 
-def employer_rows(f40, tau, share, base):
+def employer_rows(f40, tau, share, base, hi_er=0.0):
     """The employer side at `share` of former premiums (private and state and local employers). `base`: 'premiums'
     (on each employer's former premiums, HLT-7.18; borne by the workers who had the coverage), 'payroll' (all pay, the
     HI base) or 'payroll_cap' (pay up to the Social Security wage base, person by person). Pay that does not rise is
     not taxed, so HX falls by the exclusion's rate on it."""
-    gross = share * f40["employers"]
-    key = {"premiums": "employer_cov", "payroll": "wages", "payroll_cap": "wages_cap"}[base]
+    prem = share * f40["employers"]
+    key = {"premiums": "employer_cov", "payroll": "wages", "payroll_cap": "wages_cap", "payroll_band": "wages_band"}[base]
     hx_key = "exclusion_end" if base == "premiums" else key
-    return [(f"Employer health contribution, {round(100 * share)}% of former premiums ({base})", -gross, key),
-            ("Less tax on pay that no longer rises (HX falls)", gross * tau, hx_key)], gross * (1 - tau)
+    # `hi_er`: the employer's half of the repealed HI tax, raised by the same contribution; HI was deductible and so is
+    # the contribution, so it changes no other tax
+    return [(f"Employer health contribution ({base})", -(prem + hi_er), key),
+            ("Less tax on pay that no longer rises (HX falls)", prem * tau, hx_key)], prem * (1 - tau) + hi_er
 
 
-def employer_rate(f40, share, base, pp):
-    """The employer contribution as a rate on pay: all employers' former premiums over all pay (uncapped) or over pay
-    below the wage base. Federal payroll pays it too, intragovernmentally."""
-    r = share * f40["employers_all"] / pp["payroll_gross"]
-    return r / CAP_SHARE if base == "payroll_cap" else r
+def employer_rate(f40, share, base, pp, hi_er=0.0):
+    """The employer contribution as a rate on its base: its yield (with federal payroll, which pays it too,
+    intragovernmentally) over all pay, pay up to the wage base, or pay between the low-pay line and the wage base."""
+    r = (share * f40["employers_all"] + hi_er) / pp["payroll_gross"]
+    return r / {"payroll": 1.0, "payroll_cap": CAP_SHARE, "payroll_band": band_share()}[base]
+
+
+def band_share():
+    """Share of all pay between the low-pay line and the wage base, person by person: the CPS's share less the
+    top-coding allowance applied to the capped base (CAP_SHARE over the CPS's capped share)."""
+    _, _, _, _, X = keys()
+    H = X["H"]
+    w = sum(h["weight"] * h["wages"] for h in H)
+    cap = sum(h["weight"] * h["wages_capped"] for h in H)
+    band = sum(h["weight"] * X["vals"]["band"][h["hh"]] for h in H)
+    return band / w * CAP_SHARE / (cap / w)
 
 
 def package(ctx, emp_share=1.0, emp_base="payroll", state_share=1.0, first=None, second=0.0, close="first",
-            vat_rebate=VAT_REBATE_SHARE, savings=0.0, label="", need=None, f40=None, pp=None, high_avoid=None):
+            vat_rebate=VAT_REBATE_SHARE, savings=0.0, label="", need=None, f40=None, pp=None, high_avoid=None,
+            replace_hi=True, hi=None, hi_er_share=0.5):
     """A whole health financing package, FY2040 (or another year, with `need`, `f40` and `pp` for it). The closing
     item (`close`: 'first' tier, 'vat', 'second' tier or 'employer' share) is solved so the package covers the need
-    exactly; the others are as given."""
+    exactly; the others are as given. With `replace_hi` (the whole-system packages), the HI payroll tax is repealed and
+    its money raised by the employer contribution (the employer's half) and the household side (the rest)."""
     need = ctx["need"] if need is None else need
     f40 = ctx["f40"] if f40 is None else f40
     pp = ctx["pp"] if pp is None else pp
+    hi = (HI_RATE * pp["payroll_gross"] if hi is None else hi) if replace_hi else 0.0
+    hi_er = hi * hi_er_share
+    fed_need = need
+    need = need + hi
     tau, K, hh = ctx["tau"], ctx["K"], ctx["hh"]
     point = 0.1 * f40["states_moved"]
     extra = (state_share - STATE_SHARE_BOOKED) * 10 * point
@@ -460,8 +495,8 @@ def package(ctx, emp_share=1.0, emp_base="payroll", state_share=1.0, first=None,
     first_got = (first or 0.0) * pp["broad_income"]
     if close == "employer":
         rest_emp = need - savings - extra - got2 - first_got
-        emp_share = rest_emp / (f40["employers"] * (1 - tau))
-    emp, emp_net = employer_rows(f40, tau, emp_share, emp_base)
+        emp_share = (rest_emp - hi_er) / (f40["employers"] * (1 - tau))
+    emp, emp_net = employer_rows(f40, tau, emp_share, emp_base, hi_er)
     rest = need - savings - emp_net - extra
     vat_gross = 0.0
     if close == "first":
@@ -473,6 +508,8 @@ def package(ctx, emp_share=1.0, emp_base="payroll", state_share=1.0, first=None,
         got2 = rest - first_got
         second = got2 / (1 - h2) * (1 - pp["haircut"]) / pp["high_income"]
     rows = relief_rows(f40) + emp
+    if hi:
+        rows.insert(3, ("Medicare payroll tax (HI) ends, both halves", hi, "wages"))
     if first_got:
         rows += income_rows(first_got, pp, label="First tier")
     if got2:
@@ -483,14 +520,15 @@ def package(ctx, emp_share=1.0, emp_base="payroll", state_share=1.0, first=None,
     if vat_gross:
         rows += [("Value-added tax, gross", -vat_gross, "consumption"),
                  ("Per-person rebate", vat_gross * vat_rebate, "persons")]
-    e_rate = employer_rate(f40, emp_share, emp_base, pp) if emp_base != "premiums" else 0.0
+    e_rate = employer_rate(f40, emp_share, emp_base, pp, hi_er) if emp_base != "premiums" else 0.0
     o = dict(label=label, emp_share=emp_share, emp_base=emp_base, state_share=state_share, close=close,
-             savings=savings, need=need, rest=rest, employer_gross=-emp[0][1], employer_net=emp_net,
+             savings=savings, need=fed_need, hi=hi, hi_er=hi_er, hi_er_share=hi_er_share, need_with_hi=need, rest=rest, employer_gross=-emp[0][1],
+             employer_premium_part=emp_share * f40["employers"], employer_net=emp_net,
              hx_kept=f40["hx"] - emp[1][1], state_extra=extra, first=first or 0.0, second=second,
              vat_rate=vat_gross / pp["vat"], vat_gross=vat_gross, vat_rebate=vat_rebate if vat_gross else 0.0,
              employer_rate=e_rate, employer_rate_with_hi=e_rate + 1.45 if e_rate else 0.0,
              household_collected=first_got + got2 + vat_gross * (1 - vat_rebate), rows=rows)
-    o["top_rate_on_wages"] = TOP_RATE_BEFORE_HEALTH + o["first"] + o["second"]
+    o["top_rate_on_wages"] = TOP_RATE_BEFORE_HEALTH - (HI_RATE if hi else 0.0) + o["first"] + o["second"]
     o["top_rate_with_employer"] = o["top_rate_on_wages"] + (e_rate if emp_base == "payroll" else 0.0)
     if K is not None:
         o["households"] = per_household(rows, K, hh)
@@ -501,19 +539,89 @@ def package(ctx, emp_share=1.0, emp_base="payroll", state_share=1.0, first=None,
     return o
 
 
-# The packages (memo part 4). Recommended: A. Every package puts the employer contribution on each worker's pay up to
-# the Social Security wage base (memo part 3.1): like the premium it replaces, it does not rise with a top earner's
-# pay, so it adds nothing to the top rate on wages; the uncapped HI base is a sensitivity.
+# The packages (memo part 4). Recommended: A.
 PACKAGES = {
-    "A": dict(label="Premiums become contributions: employers and states keep paying what they pay now; one "
-                    "household contribution", emp_share=1.0, emp_base="payroll_cap", state_share=1.0, close="first"),
-    "B": dict(label="Mid-single digits with a rebated value-added tax", emp_share=1.0, emp_base="payroll_cap",
-              state_share=1.0, first=FIRST_TIER_TARGET, close="vat"),
-    "C": dict(label="Mid-single digits with employers paying more than their former premiums", emp_base="payroll_cap",
-              state_share=1.0, first=FIRST_TIER_TARGET, close="employer"),
-    "D": dict(label="Mid-single digits with a top tier", emp_share=1.0, emp_base="payroll_cap", state_share=1.0,
-              first=FIRST_TIER_TARGET, close="second"),
+    "A": dict(label="One employer contribution and one household contribution, sized to the whole system",
+              emp_share=1.0, close="first"),
+    "B": dict(label="A household rate of 5.5%, with a rebated value-added tax", emp_share=1.0,
+              first=FIRST_TIER_TARGET, close="vat"),
+    "C": dict(label="A household rate of 5.5%, with a larger employer contribution", first=FIRST_TIER_TARGET,
+              close="employer"),
+    "D": dict(label="A household rate of 5.5%, with a top tier", emp_share=1.0, first=FIRST_TIER_TARGET,
+              close="second"),
 }
+# Every package (memo part 3): the HI payroll tax repealed at the 2035 endpoint and its money raised by the employer
+# contribution, so workers pay no health payroll tax; the employer contribution on each worker's pay between the
+# low-pay line and the Social Security wage base; states at 100% of their former Medicaid spending for the people
+# who move.
+COMMON = dict(emp_base="payroll_band", state_share=1.0, replace_hi=True, hi_er_share=1.0)
+for _k in PACKAGES:
+    PACKAGES[_k] = dict(COMMON, **PACKAGES[_k])
+
+
+
+def replaced_path(c):
+    """By fiscal year: the federal money the plan replaces (Medicare net of premiums, Medicaid's federal share outside
+    long-term care, premium credits) and the states' booked 50% payment, for the groups that have moved ($ billion)."""
+    HP, I, B, P = c["HP"], c["I"], c["B"], c["P"]
+    _, _, _, f = HP.groups(I, B, P)
+    ms = moved_shares(c)
+    rep = {"medicare": I["sub_medicare"], "medicaid": I["sub_medicaid"] - f["medicaid_ltc_kept_federal"],
+           "individual": I["sub_ptc"]}
+    return {y: dict(federal=sum(v * ms[g][y] for g, v in rep.items()), states_booked=f["state_moe"] * ms["medicaid"][y])
+            for y in YEARS}
+
+
+def system_view(ctx, o, y=Y, row=None):
+    """The whole system's gross cost in fiscal year `y` and the package's sources that pay it ($ billion): the gross
+    cost is the booked health spending (rebased) plus the federal money and the states' payment it nets. The sources
+    add to it exactly: federal general revenue already spent on these programs (net of the repealed HI tax), the
+    states' payment, the employer contribution, the household side, HX's remainder and any savings."""
+    n, rp_ = ctx["need_p"][y], ctx["replaced_p"][y]
+    gross = n["spending"] + n["seam"] + rp_["federal"] + rp_["states_booked"]
+    f = ctx["flows_p"][y]
+    if row is None:      # FY2040, from the package itself
+        hi, emp, hh_, extra, sav = o["hi"], o["employer_gross"], o["household_collected"], o["state_extra"], o["savings"]
+        lost = o["employer_premium_part"] * ctx["tau"]
+    else:                # a year of package_path()
+        hi, emp, hh_, extra, sav = row["hi"], row["employer_gross"], row["households"], row["states"], row["savings"]
+        lost = (row["employer_gross"] - row["hi"] * o["hi_er_share"]) * ctx["tau"]
+    src = dict(federal_general_revenue=rp_["federal"] - hi, states=rp_["states_booked"] + extra, employers=emp,
+               households=hh_, hx_remainder=f["hx"] - lost, savings=sav)
+    return dict(gross=gross, sources=src, hi_repealed=hi, check=sum(src.values()) - gross)
+
+
+def design_levers(c, g40):
+    """Effects on FY2040's cost of changes to the decided design (memo part 6), each on the coverage model's 2032
+    full-scale groups scaled by g40, with everything else as decided ($ billion; a saving negative)."""
+    HP, I, B, P = c["HP"], c["I"], c["B"], c["P"]
+    base = sum(HP.groups(I, B, P)[0].values())
+    out = {}
+    t0 = HP.TARGET
+    try:
+        for t in (1.05, 1.10, 1.20):
+            HP.TARGET = t
+            out[f"rate_{t:.2f}"] = (sum(HP.groups(I, B, P, hosp_rate=t)[0].values()) - base) * g40
+    finally:
+        HP.TARGET = t0
+    for name, key, val in [("admin_3pct", "sp_admin", 0.03), ("admin_4pct", "sp_admin", 0.04),
+                           ("copays_none", "sp_cs_low_rate", 0.0), ("drugs_23pct", "sp_drug_cut", 0.23)]:
+        J = dict(I)
+        J[key] = val
+        B2 = HP.M.build_base(J)
+        B2 = dict(B2, S=dict(B2["S"], medicare=B["S"]["medicare"]), nhe0=B["nhe0"])
+        out[name] = (sum(HP.groups(J, B2, P)[0].values()) - base) * g40
+    return out
+
+
+def growth_hold(ctx, extra=0.01, start=2037):
+    """A national health budget that holds the plan's spending growth to nominal GDP growth plus `extra` from `start`
+    (memo part 6): the FY2040 saving on the gross cost, against the model's growth path ($ billion)."""
+    gp, gdp = ctx["growth"], ctx["gap"]["gdp"]
+    g0 = ctx["gross_2036"]
+    plan = g0 * gp[Y] / gp[2036]
+    held = g0 * (gdp[Y] / gdp[2036]) * (1 + extra) ** (Y - start + 1)
+    return held - plan, plan
 
 
 def package_path(ctx, spec, need_p, flows_p, gap):
@@ -527,11 +635,13 @@ def package_path(ctx, spec, need_p, flows_p, gap):
         need = need_p[y]["net"]
         point = 0.1 * f["states_moved"]
         extra = (o40["state_share"] - STATE_SHARE_BOOKED) * 10 * point
-        emp_net = o40["emp_share"] * f["employers"] * (1 - ctx["tau"])
+        hi = HI_RATE * pp["payroll_gross"] * HI_ENDPOINT[y] if o40["hi"] else 0.0
+        emp_net = o40["emp_share"] * f["employers"] * (1 - ctx["tau"]) + hi * o40["hi_er_share"]
         sav = o40["savings"] * (need_p[y]["net"] / need_p[Y]["net"]) if o40["savings"] else 0.0
-        rest = need - emp_net - extra - sav
+        rest = need + hi - emp_net - extra - sav
         s = max(rest, 0.0) / o40["household_collected"] if o40["household_collected"] else 0.0
-        out[y] = dict(need=need, employers=emp_net, employer_gross=o40["emp_share"] * f["employers"], states=extra,
+        out[y] = dict(need=need, hi=hi, employers=emp_net, employer_gross=o40["emp_share"] * f["employers"] + hi * o40["hi_er_share"],
+                      states=extra,
                       savings=sav, households=rest, scale=s,
                       first=o40["first"] * s * ctx["pp"]["broad_income"] / pp["broad_income"],
                       second=o40["second"] * s * ctx["pp"]["high_income"] / pp["high_income"],
@@ -556,7 +666,8 @@ def micro(ctx, o):
         return ne * pp_["esi"] + nk * pp_["ng"] + nm * pp_["medicaid"] + nmc * pp_["medicare"] + nu * pp_["uninsured"]
     base_of = {"health_hh": health, "employer_cov": lambda h: h["n_employer_cov"],
                "exclusion_end": lambda h: h["n_employer_cov"], "wages": lambda h: h["wages"],
-               "wages_cap": lambda h: h["wages_capped"], "income_line": lambda h: vals["base"][h["hh"]],
+               "wages_cap": lambda h: h["wages_capped"], "wages_band": lambda h: vals["band"][h["hh"]],
+               "income_line": lambda h: vals["base"][h["hh"]],
                "income_high": lambda h: vals["high"][h["hh"]], "consumption": lambda h: max(h["expanded"], 0.0),
                "persons": lambda h: h["numper"], "capital": lambda h: max(h["capital"], 0.0)}
     for a in AVOID_WEIGHTS:
@@ -579,8 +690,10 @@ def micro(ctx, o):
         Hq = [h for h in H if h["g5"] == q]
         w = sum(h["weight"] for h in Hq)
         lw = sum(h["weight"] for h in Hq if net[h["hh"]] < 0)
+        big = lambda t: sum(h["weight"] for h in Hq if net[h["hh"]] < -t * max(h["expanded"], 1.0))  # noqa: E731
         out[f"Q{q}"] = dict(losers_m=lw * scale / 1e6, share=100 * lw / w,
-                            avg=sum(h["weight"] * net[h["hh"]] for h in Hq) / w)
+                            avg=sum(h["weight"] * net[h["hh"]] for h in Hq) / w,
+                            lose_2pct_m=big(0.02) * scale / 1e6, lose_5pct_m=big(0.05) * scale / 1e6)
     T = [h for h in H if h["top1"]]
     out["T1"] = dict(losers_m=sum(h["weight"] for h in T if net[h["hh"]] < 0) * scale / 1e6,
                      share=100 * sum(h["weight"] for h in T if net[h["hh"]] < 0) / sum(h["weight"] for h in T))
@@ -595,6 +708,7 @@ def micro(ctx, o):
         median_loss=sorted(-net[h["hh"]] for h in L)[len(L) // 2] if L else 0.0)
     out["all_losers_m"] = sum(out[f"Q{q}"]["losers_m"] for q in range(1, 6))
     out["bottom_four_losers_m"] = sum(out[f"Q{q}"]["losers_m"] for q in range(1, 5))
+    out["bottom_four_lose_5pct_m"] = sum(out[f"Q{q}"]["lose_5pct_m"] for q in range(1, 5))
     out["profile_bottom_four"] = prof
     return out
 
@@ -729,6 +843,11 @@ def context():
                price_2032=cpi(2032) / cpi(2026), price_2040=cpi(2040) / cpi(2026),
                income_growth=X["grow"] ** (1 / (Y - 2029)) - 1, n29=X["n29"],
                persons_2029=sum(h["weight"] * h["numper"] for h in X["H"]))
+    ctx["replaced_p"] = replaced_path(c)
+    n40, r40 = need_p[2036], ctx["replaced_p"][2036]
+    ctx["gross_2036"] = n40["spending"] + n40["seam"] + r40["federal"] + r40["states_booked"]
+    gf = HB.health_path()["gf"]
+    ctx["growth"] = {y: gf[y] for y in YEARS}
     _CACHE["ctx"] = ctx
     return ctx
 
@@ -749,20 +868,32 @@ def run():
         "A_states_50": package(ctx, **dict(PACKAGES["A"], state_share=0.5)),
         "A_states_0": package(ctx, **dict(PACKAGES["A"], state_share=0.0)),
         "A_employer_uncapped": package(ctx, **dict(PACKAGES["A"], emp_base="payroll")),
-        "A_employer_on_premiums": package(ctx, **dict(PACKAGES["A"], emp_base="premiums")),
-        "A_first_4_with_hi": package(ctx, **dict(PACKAGES["B"], first=FIRST_TIER_TARGET - 1.45)),
+        "A_employer_capped_no_low_pay_line": package(ctx, **dict(PACKAGES["A"], emp_base="payroll_cap")),
+        "A_hi_kept": package(ctx, **dict(PACKAGES["A"], replace_hi=False)),
+        "A_hi_split": package(ctx, **dict(PACKAGES["A"], hi_er_share=0.5)),
         "D_top_avoidance_60": package(ctx, **dict(PACKAGES["D"], high_avoid=0.6)),
         "B_first_6": package(ctx, **dict(PACKAGES["B"], first=6.0)),
         "B_first_5": package(ctx, **dict(PACKAGES["B"], first=5.0)),
     }
     # the first draft's package on the corrected method, for the trace (employers 65% on payroll, states 80%)
-    S["first_draft"] = package(ctx, emp_share=0.65, state_share=0.8, need=ctx["need_p"][Y]["booked"])
+    S["first_draft"] = package(ctx, emp_share=0.65, state_share=0.8, emp_base="payroll", replace_hi=False,
+                               need=ctx["need_p"][Y]["booked"])
     paths_ = {k: package_path(ctx, PACKAGES[k], ctx["need_p"], ctx["flows_p"], gap) for k in P}
     rc = payers(c, g40)
     rc_booked = payers(coverage(False), g40)
     micro_ = {k: micro(ctx, P[k]) for k in P}
     micro_["A_states_80"] = micro(ctx, S["A_states_80"])
-    micro_["A_employer_uncapped"] = micro(ctx, S["A_employer_uncapped"])
+    for k in ("A_employer_uncapped", "A_employer_capped_no_low_pay_line", "A_hi_kept", "A_with_savings"):
+        micro_[k] = micro(ctx, S[k])
+    levers = design_levers(c, g40)
+    gh = {e: growth_hold(ctx, e) for e in (0.0, 0.01)}
+    # the design memos' recommendations (memo part 6): administration booked at 4% (target 3%) and a national budget
+    # holding growth to GDP plus 1 point from 2037; both lower the need, closed by the household rate
+    design_saving = -(levers["admin_4pct"] + gh[0.01][0])
+    S["A_with_design_memos"] = package(ctx, **dict(PACKAGES["A"], savings=design_saving))
+    micro_["A_with_design_memos"] = micro(ctx, S["A_with_design_memos"])
+    views = {k: system_view(ctx, P[k]) for k in P}
+    path_views = {y: system_view(ctx, P["A"], y, paths_["A"][y]) for y in YEARS}
     statutory = P["A"]["rows"]
     st_charge = -[bn for lb, bn, _ in statutory if lb.startswith("First tier: the statutory")][0]
     base_2040 = st_charge / (P["A"]["first"] / 100)
@@ -778,6 +909,7 @@ def run():
     stk["A_employer_uncapped"] = stacking_check(S["A_employer_uncapped"], K, pp)
     adj = {}
     for name, spec in (("A", PACKAGES["A"]), ("A_employer_uncapped", dict(PACKAGES["A"], emp_base="payroll")),
+                       ("A_employer_capped_no_low_pay_line", dict(PACKAGES["A"], emp_base="payroll_cap")),
                        ("B", PACKAGES["B"])):
         for e in (0.12, TOP1_ELASTICITY, 0.4):
             o_, lost = stacking_adjusted(ctx, spec, e)
@@ -796,7 +928,8 @@ def run():
                 packages=P, sensitivities=S, savings_2040=sav, sens_2040={k: v * g40 for k, v in sens.items()},
                 package_paths=paths_, payers=rc, payers_booked=rc_booked, payer_path=payer_path(c, ctx["gp"]),
                 group_payers_2032=ctx["gp"], micro=micro_, examples=ex, growth_gap=gg, topcode=tc, stacking=stk,
-                passthrough=pt, hi=hi, stacking_adjusted=adj, g40=g40, pp_person=ctx["pp_person"],
+                passthrough=pt, hi=hi, stacking_adjusted=adj, views=views, path_views=path_views, levers=levers,
+                growth_hold=gh, band_share=band_share(), replaced_path=ctx["replaced_p"], g40=g40, pp_person=ctx["pp_person"],
                 before_financing=per_household(relief_rows(ctx["f40"]), K, hh))
 
 
@@ -812,7 +945,7 @@ def passthrough_check(ctx, o, p=0.5):
     EV-CAR-299), workers lose that pay and its tax, owners keep it less corporate tax (21%), and the household
     contribution rises to replace the lost tax. At 100% employers keep no net saving, so nothing depends on it."""
     f = ctx["f40"]
-    kept = (1 - p) * max(f["employers"] - o["employer_gross"], 0.0)
+    kept = (1 - p) * max(f["employers"] - o["employer_premium_part"], 0.0)
     rate = f["hx"] / (f["employers"] / (1 - HB.health_path()["I"]["esi_employee_share"]))
     lost = kept * (rate - 0.21)
     rows = [("Pay that does not rise", -kept, "employer_cov"), ("Tax not paid on it", kept * rate, "exclusion_end"),
@@ -870,7 +1003,15 @@ def main():
         for y, v in r["package_paths"][k].items():
             print("  path", y, {a: round(b, 2) for a, b in v.items()})
     print("micro A states 80", r["micro"]["A_states_80"])
-    print("micro A uncapped", r["micro"]["A_employer_uncapped"])
+    for k in ("A_employer_uncapped", "A_employer_capped_no_low_pay_line", "A_hi_kept", "A_with_savings"):
+        print("micro", k, {q: (round(v["losers_m"], 1) if isinstance(v, dict) and "losers_m" in v else v)
+                           for q, v in r["micro"][k].items() if q != "profile_bottom_four"})
+    for k, v in r["views"].items():
+        print("view", k, round(v["gross"]), {a: round(b) for a, b in v["sources"].items()}, round(v["check"], 6))
+    for y, v in r["path_views"].items():
+        print("path view", y, round(v["gross"]), {a: round(b) for a, b in v["sources"].items()}, round(v["check"], 6))
+    print("levers", {k: round(v) for k, v in r["levers"].items()}, "growth hold",
+          {k: (round(a), round(b)) for k, (a, b) in r["growth_hold"].items()}, "band share", round(r["band_share"], 4))
     for k, v in r["stacking_adjusted"].items():
         print("stacking adjusted", k, {a: (round(b, 2) if not isinstance(b, dict) else b) for a, b in v.items()})
     print("passthrough", r["passthrough"])

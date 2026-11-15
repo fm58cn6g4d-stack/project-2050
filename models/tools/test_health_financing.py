@@ -62,17 +62,18 @@ class HealthFinancing(unittest.TestCase):
         for grp in ("packages", "sensitivities"):
             for k, o in self.r[grp].items():
                 got = o["employer_net"] + o["state_extra"] + o["household_collected"] + o["savings"]
-                self.assertAlmostEqual(got, o["need"], delta=0.5, msg=(grp, k))
+                self.assertAlmostEqual(got, o["need"] + o["hi"], delta=0.5, msg=(grp, k))
                 # the household rows' collections equal household_collected
-                hh_rows = [bn for lb, bn, _ in o["rows"][5:]]
+                n = 6 if o["hi"] else 5
+                hh_rows = [bn for lb, bn, _ in o["rows"][n:]]
                 self.assertAlmostEqual(-sum(hh_rows), o["household_collected"], delta=0.5, msg=(grp, k))
 
     def test_package_paths_close_each_year_and_end_at_fy2040(self):
         for k, path in self.r["package_paths"].items():
             o = self.r["packages"][k]
             for y, d in path.items():
-                self.assertAlmostEqual(d["employers"] + d["states"] + d["savings"] + d["households"], d["need"],
-                                       delta=0.01)
+                self.assertAlmostEqual(d["employers"] + d["states"] + d["savings"] + d["households"],
+                                       d["need"] + d["hi"], delta=0.01)
             self.assertAlmostEqual(path[2040]["first"], o["first"], delta=1e-6)
             self.assertAlmostEqual(path[2040]["vat"], o["vat_rate"], delta=1e-6)
 
@@ -82,10 +83,22 @@ class HealthFinancing(unittest.TestCase):
         q3 = [d for d in a["detail"] if d[0] == "First tier: the statutory charge"][0][2]["Q3"]
         self.assertAlmostEqual(-q3, a["first"] / 100 * b["per_household"]["Q3"], delta=2)
         self.assertLess(abs(b["cps_grown_bn"] / b["statutory_bn"] - 1), 0.05)
-        self.assertAlmostEqual(a["employer_rate"], 11.87 / HF.CAP_SHARE, delta=0.01)    # on pay up to the wage base
-        self.assertAlmostEqual(self.r["sensitivities"]["A_employer_uncapped"]["employer_rate"], 11.87, delta=0.01)
-        self.assertAlmostEqual(a["employer_rate_with_hi"], a["employer_rate"] + 1.45, places=9)
+        # the employer contribution: former premiums (all employers) plus the repealed HI tax, over its base
+        S = self.r["sensitivities"]
+        self.assertAlmostEqual(S["A_hi_kept"]["employer_rate"] * HF.band_share(), 11.87, delta=0.01)
+        self.assertAlmostEqual(a["employer_rate"] * HF.band_share(), 11.87 + HF.HI_RATE, delta=0.01)
+        self.assertAlmostEqual(S["A_employer_uncapped"]["employer_rate"], 11.87 + HF.HI_RATE, delta=0.01)
         self.assertAlmostEqual(HF.TOP_RATE_BEFORE_HEALTH, 63.0)
+
+    def test_whole_system_sources_add_to_the_gross_cost(self):
+        """Every package's sources (federal general revenue already spent, states, employers, households, HX's
+        remainder, savings) add to the system's gross cost, in FY2040 and in every year of package A's path."""
+        for k, v in self.r["views"].items():
+            self.assertAlmostEqual(v["check"], 0.0, delta=0.01, msg=k)
+        for y, v in self.r["path_views"].items():
+            self.assertAlmostEqual(v["check"], 0.0, delta=0.01, msg=y)
+            self.assertGreaterEqual(v["sources"]["federal_general_revenue"], 0.0)
+        self.assertAlmostEqual(self.r["views"]["A"]["gross"], 8407, delta=5)
 
     def test_hx_left_at_full_employer_share_is_the_workers_share(self):
         """At 100%, employers' premiums never become pay, so what HX keeps is the tax on the pay workers used to put
