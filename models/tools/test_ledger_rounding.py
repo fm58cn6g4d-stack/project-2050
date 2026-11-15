@@ -22,9 +22,11 @@ class LedgerPrecision(unittest.TestCase):
         # 10.97 until part 6's federal-coverage correction took HX to $4.84T (budget B6 item 7);
         # 10.58 until the CX and MR6 offsets took JCT's 24.4% rate in place of 25% (DEC-2026-11-12-08);
         # 10.6 until the immigration booking added E-Verify's on-budget revenue (IMM-EV, +0.0233) and the H-1B
-        # fee's tax offset (IF1T, -0.0037) as base-revenue rows (immigration review step 5)
-        self.assertEqual(money_sum(values), 10.91)
-        self.assertEqual(money_sum(reversed(values)), 10.91)
+        # fee's tax offset (IF1T, -0.0037) as base-revenue rows (immigration review step 5);
+        # 10.91 until the health financing booking added package E's rows (HCU, the fold-in's HCW to HCH, HEC and HEX,
+        # HS1 to HS4) and moved H1a into the base (DEC-2026-11-15-09 to -24): +9.73
+        self.assertEqual(money_sum(values), 20.64)
+        self.assertEqual(money_sum(reversed(values)), 20.64)
 
 
 if __name__ == '__main__':

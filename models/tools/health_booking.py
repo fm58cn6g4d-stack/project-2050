@@ -31,7 +31,22 @@ What is booked (all $ billion by federal fiscal year unless noted; a cost positi
   as does a federal uncompensated-care payment to hospitals at today's DSH-type share for them (DEC-2026-11-13-02)
   (dossiers/care/tools/status_rule.py; 6-cost.md part 2b). Its own component, so the correction stays visible.
 - HLT-8, USDA rural health grants (discretionary).
-The employer contribution and FEHB's money are not booked (review F-4 item 3): contribution() is reported only.
+FEHB's money is not booked (review F-4 item 3); contribution(), the care dossier's transitional employer contribution,
+is reported only.
+
+The health financing booking (stage E's financing checkpoint, DEC-2026-11-15-05 to -29; dossiers/foundations/
+health-cost-review.md part 5; test_fiscal_health_financing.py):
+- HLT-7's spending line on the corrected path (corrected()): each year's coverage groups from health_cost_review.rebuild()
+  with the cost review's nine corrections, Medicare and Medicaid rebased to CBO (the seam, DEC-2026-11-15-28);
+  components for D1 (admin-4pct), D5 (drug-prices), D2 (national-budget, from FY2037), the states at 100%
+  (states-payment) and the worker transition credit (worker-credit, from FY2035);
+- package E's revenue rows with the unified household contribution (financing()): HCU, the fold-in's HCW, HCA, HCP and
+  HCH, the employer contribution HEC with HEX (the tax it takes from HX), and the five new streams HS1 to HS4 and H1a.
+  The household contribution, its fold-in and the streams start with the January 2035 endpoint, since part 9,
+  question 9 (the path before it) is open; transition_options() prices the proposals;
+- health's first call on booked revenue (first_call()), a reassignment reported, not booked.
+The financing tools (health_financing.py, health_cost_review.py) read the budget as it stood before this booking
+(health_before_booking.json), so the package is not counted twice; that file is frozen.
 """
 import csv
 import importlib.util
@@ -138,15 +153,21 @@ def perm_for(B, F, path, target2040, grow=GROW):
     return target2040 / (path[2039] * g[2040] / g[2039])
 
 
-def booking():
+def booking(full=True):
+    """The health rows. With `full` (the default), HLT-7 on the corrected path and the package's rows
+    (DEC-2026-11-15-05 to -29: corrected(), financing()); `full=False` gives only the rows other bookings read
+    (HLT-4's health parts, HLT-1, HLT-2, HLT-6), without the financing tools, which read them in turn."""
     hp = health_path()
     F = fiscal()
     B = F.read_baseline(os.path.join(ROOT, "models", "data", "fiscal-baseline.csv"))
 
     # HLT-1: restoration in calendar 2030, on fiscal years
     hlt1 = fy({2030: hp["restore_cal"]})
-    # HLT-7 spending line: the path's net cost plus the exclusion revenue it nets, less the restoration (HLT-1)
-    spend = {y: hp["net"][y] + hp["excl"][y] - hlt1.get(y, 0.0) for y in W + [2040]}
+    # HLT-7 spending line: the path's net cost plus the exclusion revenue it nets, less the restoration (HLT-1). Booked
+    # on the corrected path, Medicare rebased to CBO (DEC-2026-11-15-05, -28); spend0 is the care dossier's own path
+    spend0 = {y: hp["net"][y] + hp["excl"][y] - hlt1.get(y, 0.0) for y in W + [2040]}
+    cor = corrected() if full else None
+    spend = {y: cor["errors"][y] + hp["excl"][y] - hlt1.get(y, 0.0) for y in W + [2040]} if full else spend0
     # part 6's federal-coverage correction, on HX's path: less spending (a negative component) and less HX
     xf = excl_full(hp)
     fedcov = {y: -FEDCOV_SPEND_2032 / xf * hp["excl"][y] for y in W + [2040]}
@@ -155,7 +176,7 @@ def booking():
     sr = status_rule()
     status = {y: sr["path"][y] for y in W + [2040]}
     hx = {y: hp["excl"][y] * (1 - FEDCOV_REVENUE_2032 / xf) for y in W + [2040]}
-    terr_shape = {y: spend[y] for y in W + [2040]}     # the territories phase in on the waves (HLT-7.28)
+    terr_shape = {y: spend0[y] for y in W + [2040]}    # the territories phase in on the waves (HLT-7.28)
     s = sum(terr_shape[y] for y in W)
     terr = {y: terr_shape[y] * TERRITORIES_TN * 1000 / s for y in W}
     terr[2040] = TERRITORIES_FY2040
@@ -180,6 +201,23 @@ def booking():
         "HLT-4/children-continuous-coverage": window(kids), "HLT-4/medicaid-dental-and-bundle": window(dental),
         "HX": window(hx),
     }
+    hlt7_fy = {"plan-spending": spend, "transition-fund": {y: TRANSITION_FUND.get(y, 0.0) for y in FY},
+               "territories": terr, "worker-help": {y: WORKER_HELP.get(y, 0.0) for y in FY},
+               "federal-coverage": fedcov, "status-rule": status}
+    rev_fy, fin = {}, None
+    if full:
+        fin = financing()
+        # D2 on the plan's whole gross with the errors fixed: the coverage groups' gross cost and the HLT-7 items
+        # that are part of it (the territories, the federal-coverage and status-rule corrections), as cost_cases()
+        d2 = {y: (cor["gross_errors"][y] + terr.get(y, TERRITORIES_FY2040) + fedcov[y] + status[y]) * cor["hold"][y]
+              for y in FY}
+        hlt7_fy.update({"admin-4pct": cor["d1"], "drug-prices": cor["d5"], "national-budget": d2,
+                        "states-payment": cor["states"], "worker-credit": fin["credit"]})
+        for k in ("admin-4pct", "drug-prices", "national-budget", "states-payment", "worker-credit"):
+            years["HLT-7/" + k] = window(hlt7_fy[k])
+        rev_fy = fin["rows"]
+        for k, v in rev_fy.items():
+            years[k] = window(v)
     # The ledger keeps $1 billion ($0.001T; ledger-build.py rounds gf_mid to three places), so each row's ten-year
     # amount is its shape's sum rounded to that; the fiscal model scales the shape to it. Components keep $0.1 billion
     # and the largest part takes the rounding, so the parts add to the ledger amount exactly.
@@ -209,20 +247,31 @@ def booking():
                                    ("federal-coverage", amt["HLT-7/federal-coverage"],
                                     perm_for(B, F, {2039: years["HLT-7/federal-coverage"][-1]}, fedcov[2040])),
                                    ("status-rule", amt["HLT-7/status-rule"],
-                                    perm_for(B, F, {2039: years["HLT-7/status-rule"][-1]}, status[2040]))])
+                                    perm_for(B, F, {2039: years["HLT-7/status-rule"][-1]}, status[2040]))]
+                         + ([(k, amt["HLT-7/" + k], perm_for(B, F, {2039: years["HLT-7/" + k][-1]}, hlt7_fy[k][2040]))
+                             for k in NEW_HLT7] if full else []))
     comps = {"HLT-7": c7}
     ledger = {
         "HLT-1": (r3(amt["HLT-1"]), r3(amt["HLT-1"]), r3(amt["HLT-1"] + 0.25)),   # HLT-1.03's provider-tax range, $0-0.25T
         "HLT-2": (0.31, r3(amt["HLT-2"]), 0.53),                                 # 0.25-0.35 upgrades + 0.06-0.18 wait
         "HLT-3": (0, 0, 0), "HLT-5": (0, 0, 0),
         "HLT-6": (r3(amt["HLT-6"] * (1 - hlt6_part_a_share())),) * 3,   # Part B's share; Part A's goes to HI (funds model)
+        # the high end also carries D2 not achieved (DEC-2026-11-15-08: never done before, EV-CAR-742)
         "HLT-7": (r3(hlt7_mid - RATE_RANGE_TN[0] - LTC_RANGE_TN[0] - 0.05 - 0.04 - (sr["window"][1] - sr["window"][0]) / 1000),
                   hlt7_mid,
-                  r3(hlt7_mid + RATE_RANGE_TN[1] + LTC_RANGE_TN[1] + 0.05 + 0.09 + (sr["window"][2] - sr["window"][1]) / 1000)),
+                  r3(hlt7_mid + RATE_RANGE_TN[1] + LTC_RANGE_TN[1] + 0.05 + 0.09 + (sr["window"][2] - sr["window"][1]) / 1000
+                     - (amt.get("HLT-7/national-budget", 0.0) if full else 0.0))),
         "HLT-8": HLT8_TN,
         "HX": (r3(amt["HX"] * (1 - HALF_PASSTHROUGH_FY2040 / hp["excl"][2040])), r3(amt["HX"]), r3(amt["HX"])),
     }
     perms = {"HX": perm_for(B, F, {2039: years["HX"][-1]}, hx[2040])}
+    revenue = {}
+    for k, v in rev_fy.items():
+        lo_m, hi_m = REVENUE_RANGE.get(k, (1.0, 1.0))
+        mid = r3(amt[k])
+        lo, hi = sorted((r3(mid * lo_m), r3(mid * hi_m)))
+        revenue[k] = (lo, mid, hi)
+        perms[k] = perm_for(B, F, {2039: years[k][-1]}, v[2040], REVENUE_CAT[k])
     fy2040 = dict(spending=spend[2040], exclusion=hx[2040], contribution=hp["contribution"][2040],
                   territories=TERRITORIES_FY2040, net=hp["net"][2040], federal_coverage=fedcov[2040],
                   exclusion_before_correction=hp["excl"][2040], status_rule=status[2040])
@@ -234,9 +283,227 @@ def booking():
                   status_rule_window=sum(status[y] for y in W) / 1000, status_rule_range=sr["window"],
                   status_rule_fy2040_range=sr["fy2040"])
     hlt4_path = [round(part["safety_net"][y] + kids[y] + dental[y], 2) for y in W]   # health's parts of HLT-4
+    if full:
+        totals.update(seam_window=sum(cor["model"][y] - hp["net"][y] for y in W) / 1000,
+                      corrected_window=sum(cor["errors"][y] - cor["model"][y] for y in W) / 1000)
+        fy2040.update(seam=cor["model"][2040] - hp["net"][2040], corrections=cor["errors"][2040] - cor["model"][2040],
+                      **{k: hlt7_fy[k][2040] for k in NEW_HLT7}, revenue={k: v[2040] for k, v in rev_fy.items()})
     return dict(years=years, components=comps, ledger=ledger, perms=perms, fy2040=fy2040, totals=totals, hlt4_path=hlt4_path,
-                hlt4_parts=hlt4_parts,
+                hlt4_parts=hlt4_parts, revenue=revenue, hlt7_fy=hlt7_fy, revenue_fy=rev_fy, spend_before=spend0,
                 contribution={y: hp["contribution"][y] for y in W + [2040]})
+
+
+
+# ---- the health financing booking (stage E's financing checkpoint; DEC-2026-11-15-05 to -29) ----------------------
+# Espen's decisions of November 15 (PR #393): the cost review's corrections (DEC-2026-11-15-05), D5 drugs 25% below
+# today's (-06), D1 administration at 4% (-07), D2 a national health budget at GDP + 1 from 2037 (-08), package E
+# (-09) with the unified household contribution (-10 to -13), the small-employer allowance (-14), the five new streams
+# (-15 to -19), health's first call on booked revenue (-20), the employer contribution and its rules (-21 to -23), the
+# worker transition credit (-24), the states at 100% (-25), the self-employed (-26), D3 and D4 kept (-27), HLT-7 on
+# CBO's Medicare figure (-28) and counting in the plan's fund (-29). The household contribution's path through the
+# transition (health-financing.md part 9, question 9) is not decided (DEC-2026-11-15-29), so nothing that depends on it
+# is booked: the contribution, its fold-in and the five new streams start with the January 2035 endpoint, when every
+# answer to that question gives the same charge, and transition_options() prices the proposals for FY2031-34.
+FY = W + [2040]
+NEW_HLT7 = ("admin-4pct", "drug-prices", "national-budget", "states-payment", "worker-credit")
+D1_ADMIN, D5_DRUGS = 0.04, 0.25           # DEC-2026-11-15-07, -06
+D2_EXTRA, D2_START = 0.01, 2037           # DEC-2026-11-15-08
+STATES_SHARE = 1.0                        # DEC-2026-11-15-25: 100% of former Medicaid spending, on the rebased base
+UNIFIED = dict(R=2.25, S_BASE=5.0, lo=1.38, hi=2.5, form="linear")   # DEC-2026-11-15-11 to -13; S = 5 + H1b's points
+ENDPOINT = {y: (0.0 if y < 2035 else (0.75 if y == 2035 else 1.0)) for y in FY}   # calendar 2035 on fiscal years
+# The package's revenue rows ($B a year, a gain positive): (id, the cost review's FY2040 figure's key, category, growth
+# index before FY2040, from), with the range's (lo, hi) as multiples of the central figure.
+STREAMS = [   # health_cost_review.NEW_STREAMS, in order (DEC-2026-11-15-15 to -19); H1a is the ledger's own row
+    ("HS1", "rev_other", (0.5, 1.5)), ("HS2", "rev_individual", (0.0, 250 / 150)),
+    ("HS3", "rev_individual", (20 / 45, 70 / 45)), ("HS4", "rev_corporate", (40 / 70, 100 / 70)),
+    ("H1a", "rev_individual", (45 / 60, 75 / 60))]
+REVENUE_CAT = dict(HCU="rev_individual", HCW="rev_payroll", HCA="rev_payroll", HCP="rev_payroll",
+                   HCH="rev_individual", HEC="rev_payroll", HEX="rev_individual", **{k: c for k, c, _ in STREAMS})
+# Ranges: the streams' own (health-cost-review.md part 2.2); the household contribution at a 30% and a 10% avoidance
+# allowance against the central 20% (health-household-contribution.md part 7); the rest are formula rows, mid only
+REVENUE_RANGE = dict(HCU=(0.7 / 0.8, 0.9 / 0.8), **{k: r for k, _, r in STREAMS})
+_CACHE = {}
+
+
+def _hf():
+    sys.path.insert(0, HERE)
+    sys.path.insert(0, os.path.join(HERE, "household"))
+    import health_cost_review as CR
+    import health_financing as HF
+    return HF, CR
+
+
+def corrected():
+    """HLT-7's spending line on the corrected care path (DEC-2026-11-15-05, -28): dossiers/care/tools/health_path.py's
+    fiscal-year path, run with each year's coverage groups from health_cost_review.rebuild() with every correction on
+    (CORRECTED) and Medicare rebased to CBO (health_financing.coverage(True)), in place of health_path.groups(). rebuild()
+    at its DEFAULT options reproduces groups() exactly (check_reproduces()), so the corrections are the only change.
+    Then D1 and D5 on the same path, each its own component; D2 on the gross cost from FY2037; and the states' payment
+    from 50% (what the path nets) to 100% of their former spending on the rebased base, CHIP's included ($ billion by
+    fiscal year; a cost positive)."""
+    if "corrected" in _CACHE:
+        return _CACHE["corrected"]
+    HF, CR = _hf()
+    c = HF.coverage(True)
+    HP, I, B, P = c["HP"], c["I"], c["B"], c["P"]
+    glide = HP.rate_path(HP.hospital_start(I, B))
+    ctx0 = CR._ctx()
+    keep = CR._ctx
+    CR._ctx = lambda: ctx0
+    try:
+        cases = {"model": (None, {}), "errors": (CR.CORRECTED, {}), "d1": (CR.CORRECTED, dict(sp_admin=D1_ADMIN)),
+                 "d5": (CR.CORRECTED, dict(sp_admin=D1_ADMIN, sp_drug_cut=D5_DRUGS))}
+        reb = {k: {r: CR.rebuild(o, hosp_rate=r, I_over=i) for r in set(glide.values())} for k, (o, i) in cases.items()}
+    finally:
+        CR._ctx = keep
+    facts = HP.groups(I, B, P)[3]
+    orig = HP.groups
+    series = {}
+    try:
+        for k, cache in reb.items():
+            HP.groups = lambda I_, B_, P_, hosp_rate=HP.TARGET, cache=cache: (cache[hosp_rate]["net"], None, None, facts)
+            series[k], gf = HP.path(I, B, P, glide)
+    finally:
+        HP.groups = orig
+    tot = {k: {y: s[y]["total"] for y in FY} for k, s in series.items()}
+    r0 = reb["errors"][HP.TARGET]
+    # the states: the path nets sp_state_moe (50%) of Medicaid's state part outside long-term care; at 100% they pay all
+    # of their former spending for the people who move, CHIP's state part included (health_cost_review's states, $466B)
+    netted = r0["state_moe_booked"] - I["sp_retained_other"]
+    extra_full = STATES_SHARE * r0["state_former"] - netted
+    mcd = HF.moved_shares(c)["medicaid"]
+    states = {y: -extra_full * mcd[y] for y in FY}
+    # D2: the plan's gross cost held to GDP + 1 point from 2037 (health_financing.growth_hold(), year by year), on the
+    # errors-fixed gross, as health_cost_review.cost_cases() prices it
+    gdp = HF.plan_gap()["gdp"]
+    gdp[2040] = float(HF.paths()[2040]["gdp_bn"])
+    g = {y: series["errors"][y]["moved_gf"] for y in FY}    # all groups moved from 2036: the gross grows with gf
+    gross = {y: r0["cost_total"] * g[y] for y in FY}
+    hold = {y: ((gdp[y] / gdp[2036]) * (1 + D2_EXTRA) ** (y - D2_START + 1) / (gf[y] / gf[2036]) - 1)
+            if y >= D2_START else 0.0 for y in FY}
+    out = dict(model=tot["model"], errors=tot["errors"], d1={y: tot["d1"][y] - tot["errors"][y] for y in FY},
+               d5={y: tot["d5"][y] - tot["d1"][y] for y in FY}, hold=hold, states=states, gross_errors=gross,
+               state_former_full=r0["state_former"], states_netted_full=netted, glide=glide,
+               full_2032={k: {r: v["net_total"] for r, v in c_.items()} for k, c_ in reb.items()})
+    _CACHE["corrected"] = out
+    return out
+
+
+def financing():
+    """Package E with the unified household contribution (DEC-2026-11-15-09 to -24), FY2040 from
+    health_cost_review.unified_package() and year by year FY2030-40 ($ billion; revenue a gain positive, spending a cost
+    positive). The employer contribution follows the waves from 2031 (health_financing.package_path(): on the premiums
+    of the coverage moved, then the payroll-based contribution with the no-offer phase-in from 2035), as the credit
+    does from 2035; the household contribution, its fold-in (the worker's HI, the 0.9% and worker HI on former
+    premiums end; H1b's wage half loses its base, won back in the surcharge) and the five new streams start with the
+    January 2035 endpoint (part 9, question 9 open; DEC-2026-11-15-29). Health's first call on booked revenue is
+    what is left of health's need each year (a reassignment, not a row: it changes no total)."""
+    if "financing" in _CACHE:
+        return _CACHE["financing"]
+    HF, CR = _hf()
+    ctx = HF.context()
+    case = CR.cost_cases(CR._g40())["design"]
+    h1b = CR.h1b_restated(ctx)
+    u = CR.unified_spec(UNIFIED["R"], S=UNIFIED["S_BASE"] + h1b["fold_into_s_points"], lo=UNIFIED["lo"],
+                        hi=UNIFIED["hi"], form=UNIFIED["form"])
+    o = CR.unified_package(ctx, case, u)
+    # the employer contribution and the credit, year by year, on package F's spec (health_cost_review.health_package)
+    allow = CR.SMALL_FIRM_ALLOWANCE_SHARE / HF.band_share()
+    f40 = dict(ctx["f40"])
+    f40["states_moved"] += case["state"]
+    f40["households"] -= case["outside"]
+    spec = dict(HF.COMMON, emp_share=1 - allow, need=o["need_case"], f40=f40, first=0.0, second=0.0,
+                savings=o["streams"] + o["remainder_F"], close="second")
+    pp = HF.package_path(ctx, spec, ctx["need_p"], ctx["flows_p"], ctx["gap"])
+    per = {y: HF.per_point(ctx["gap"], y) for y in FY}
+    inc = {y: per[y]["high_income"] / per[2040]["high_income"] for y in FY}       # GDP, as the income tiers
+    pay = {y: per[y]["payroll_gross"] / per[2040]["payroll_gross"] for y in FY}   # the payroll point
+    b = booking_base()
+    hxr = {y: b["hx"][y] / b["hx"][2040] for y in FY}
+    E, tau, lost = ENDPOINT, ctx["tau"], o["lost"]
+    emp = {y: pp[y]["employer_gross"] for y in FY}
+    rows = {
+        "HCU": {y: o["household_collected"] * inc[y] * E[y] for y in FY},
+        "HCW": {y: -lost["W"] * pay[y] * E[y] for y in FY},
+        "HCA": {y: -lost["A"] * pay[y] * E[y] for y in FY},
+        "HCP": {y: -lost["hxp"] * hxr[y] * E[y] for y in FY},
+        "HCH": {y: -lost["H1b"] * inc[y] * E[y] for y in FY},
+        "HEC": emp,
+        "HEX": {y: -tau * emp[y] for y in FY},
+    }
+    for (rid, _, _), (_, v, _, _) in zip(STREAMS, CR.NEW_STREAMS):
+        rows[rid] = {y: v * inc[y] * E[y] for y in FY}
+    credit = {y: pp[y]["credit"] for y in FY}
+    out = dict(rows=rows, credit=credit, package=o, spec=u, tau=tau, allowance_share=allow, path=pp, case=case,
+               h1b=h1b, statutory_2040=o["statutory"], haircut=o["haircut"])
+    _CACHE["financing"] = out
+    return out
+
+
+def booking_base():
+    """The pieces of the booking that the financing reads: HX's path ($ billion by fiscal year)."""
+    hp = health_path()
+    xf = excl_full(hp)
+    return dict(hx={y: hp["excl"][y] * (1 - FEDCOV_REVENUE_2032 / xf) for y in FY})
+
+
+def first_call(b=None):
+    """Health's first call on booked revenue (DEC-2026-11-15-20), by fiscal year ($ billion): health's own booked need
+    after this booking (its spending rows, less HX), less the package's own revenue rows. Plan-wide, the gap is the
+    rest of the plan's (about $70B in FY2040, health_cost_review.GAP_BEFORE_REASSIGN) plus this."""
+    HF, _ = _hf()
+    b = b or booking()
+    before = HF.audit_lines()
+    old7 = {y: before["HLT-7"].get(y, 0.0) for y in FY}
+    new7 = {y: sum(b["hlt7_fy"][k][y] for k in b["hlt7_fy"]) for y in FY}
+    need0 = HF.need_path(HF.seam())
+    need = {y: need0[y]["booked"] + new7[y] - old7[y] for y in FY}
+    own = {y: sum(v[y] for v in b["revenue_fy"].values()) for y in FY}
+    return {y: need[y] - own[y] for y in FY}, need, own
+
+
+def transition_options():
+    """Part 9, question 9 for the unified contribution (not decided, DEC-2026-11-15-29): what each path for FY2031-34
+    would collect, and health's first call on booked revenue in those years under each ($ billion by fiscal year).
+    'endpoint': nothing before January 2035, as booked; 'waves': the base rate in steps with the share of people moved
+    (the exemption as decided) and the surcharge at 5 points from wave 1, no fold-in before the endpoint (HI still pays
+    Medicare's claims) and no credit for premiums still paid; 'full': R and S = 5 in full from wave 1."""
+    HF, CR = _hf()
+    ctx = HF.context()
+    f = financing()
+    u = f["spec"]
+    h = f["haircut"]
+    base40 = CR.unified_statutory_bn(ctx, dict(u, S=0.0), "base") * (1 - h)
+    sur40 = CR.unified_statutory_bn(ctx, dict(u, S=UNIFIED["S_BASE"]), "surcharge") * (1 - h)
+    c = HF.coverage(True)
+    HP, I, B, P = c["HP"], c["I"], c["B"], c["P"]
+    facts = HP.groups(I, B, P)[3]
+    people = facts["people"]
+    moved = {}
+    for y in range(2030, 2036):
+        sh = HP.shares_moved(y, facts["child_share_moving"])
+        sh["employer"] = HP.employer_share(y, facts["child_share_employer"])
+        moved[y] = sum(sh[k] * people[k] for k in people) / sum(people.values())
+    mfy = {y: 0.25 * moved.get(y - 1, 0.0) + 0.75 * moved[y] for y in range(2031, 2036)}
+    per = {y: HF.per_point(ctx["gap"], y) for y in FY}
+    inc = {y: per[y]["high_income"] / per[2040]["high_income"] for y in FY}
+    on = {y: 0.25 * (y - 1 >= 2031) + 0.75 * (y >= 2031) for y in FY}
+    pre = {y: 1.0 - ENDPOINT[y] for y in FY}          # the part of each fiscal year before calendar 2035
+    calls, _, _ = first_call()
+    out = dict(moved_share=moved, steps={y: round(UNIFIED["R"] * moved[y], 2) for y in range(2031, 2035)},
+               base_2040=base40, surcharge5_2040=sur40, options={})
+    for name in ("endpoint", "waves", "full"):
+        got = {}
+        for y in range(2031, 2036):
+            if name == "endpoint":
+                got[y] = 0.0
+            elif name == "waves":
+                got[y] = (base40 * mfy[y] + sur40) * inc[y] * on[y] * pre[y]
+            else:
+                got[y] = (base40 + sur40) * inc[y] * on[y] * pre[y]
+        out["options"][name] = dict(collected=got, first_call={y: calls[y] - got[y] for y in got},
+                                    collected_window=sum(got.values()))
+    return out
 
 
 # ---- the household test (D3): HLT-7's household rows (incidence-rows.csv H7h, H7w, H7x) ----
@@ -339,7 +606,7 @@ def legacy_shapes():
     """Phase-in shapes (incidence-phase-in.csv, method norm) for the health rows rebooked in #230: H1 (HLT-1), H2 and
     PB (HLT-2) and MA (HLT-6), each its booked fiscal-year path scaled to its largest year. H4 (HLT-4) is now
     care_booking.py's, since care parts B-D's booking rebuilt HLT-4."""
-    b = booking()
+    b = booking(full=False)
     sc = lambda v: [round(x / max(v, key=abs), 3) + 0.0 if max(v, key=abs) else 0.0 for x in v]  # noqa: E731
     return {"H1": sc(b["years"]["HLT-1"]), "H2": sc(b["years"]["HLT-2"]), "MA": sc(b["years"]["HLT-6"])}
 

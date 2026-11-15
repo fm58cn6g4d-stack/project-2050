@@ -165,7 +165,7 @@ def fiscal():
 def health_hlt4():
     """Health's HLT-4 parts as health_booking.py derives them: [(name, amount $T, perm or None)]."""
     HB = _load("cb_health_booking", os.path.join(HERE, "health_booking.py"))
-    return HB, HB.booking()["hlt4_parts"]
+    return HB, HB.booking(full=False)["hlt4_parts"]
 
 
 def perm_for(F, B, v2039, v2040, grow):
@@ -273,7 +273,7 @@ def incidence():
     ([HLT-9]) on its own key. Shapes are each booked fiscal-year path scaled to its largest year (method norm)."""
     b = booking()
     HB = _load("cb_health_booking2", os.path.join(HERE, "health_booking.py"))
-    hlt4_health = HB.booking()["hlt4_path"]
+    hlt4_health = HB.booking(full=False)["hlt4_path"]
     sc = lambda v: [round(t / max(v, key=abs), 3) + 0.0 if max(v, key=abs) else 0.0 for t in v]  # noqa: E731
     rows = b["rows_fy"]
     hlt4 = [hlt4_health[k] + rows["HLT-4"][y] for k, y in enumerate(W)]

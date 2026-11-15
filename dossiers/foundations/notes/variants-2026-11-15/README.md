@@ -84,7 +84,7 @@ Notes on the results:
 
 ## For the booking PR (beyond `health-cost-review.md` part 5)
 
-- Rebuild the chosen household design in `health_cost_review.py`, and add HI to today's visible cost in `take_home_micro`.
-- Restate H1b.
-- Record the 0.9% working figure.
+- Rebuild the chosen household design in `health_cost_review.py`, and add HI to today's visible cost in `take_home_micro`. **Done in #392** (confirmed at booking: `take_home_micro` counts the worker's HI and the 0.9% in today's cost).
+- Restate H1b. **Booked:** its wage half ($43.5B in FY2040) is row HCH, won back in the unified contribution's surcharge (S = 5.96, `DEC-2026-11-15-13`); the investment half stays in H1b.
+- Record the 0.9% working figure. **Booked** as row HCA at $53.5B in FY2040, labeled a working figure (probably low: nearer $70B with the CPS's top-coding).
 - Update Espen's calculator page (https://claude.ai/artifact/UTnkf4c11ANSxt5BbVcsz9, private; it still shows package A) to the chosen package.
