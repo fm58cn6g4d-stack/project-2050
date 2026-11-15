@@ -216,7 +216,7 @@ A session is one focused working session by one agent. The session counts are th
 | *Alongside C-D* | *The federal budget model (`models/tools/budget/`, steps B1-B7), on which every dossier is booked* | — |
 | **E. Climate and immigration** | Flagships 4 and 6, with immigration specified well before the 2028 cycle | 9–12 |
 | **F. Work and democratic renewal** | Flagship 5 and the democratic renewal foundation, including state capacity sized to the specified flagships | 7–10 |
-| **G. Fair financing** | The financing settlement, solved on stable first-wave designs, with the household fairness test (it needs the rebuilt household model), after a short checkpoint memo at the end of stage E. It is re-run when a later wave adds real cost, at each new CBO baseline, and before the plan goes public in 2028 | 3–5 |
+| **G. Fair financing** | The financing settlement, solved on stable first-wave designs, with the household fairness test (it needs the rebuilt household model), after a substantial checkpoint memo at the end of stage E that aims to settle the single health plan's financing (`DEC-2026-11-14-06`); stage G then audits the whole plan's financing in depth after stage F, re-checking what the checkpoint settled. It is re-run when a later wave adds real cost, at each new CBO baseline, and before the plan goes public in 2028 | 3–5 |
 | **H. Toolkit and front door** | Release the core models as a professional toolkit, and rebuild the illustrated vision | 5–8 |
 | **I. Wave two** | Education and transportation to L3, with priority pieces at L4 | 6–10 |
 | **J. Wave three** | Every remaining topic to L3 | 20–35 |
