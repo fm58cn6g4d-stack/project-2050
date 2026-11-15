@@ -50,7 +50,7 @@ At $72,000 it is $0; at $500,000 it is $15,892 (3.2%).
    - **Doctors were priced at the hospitals' rate** (1.15, not about 1.05): **−$275B** (#386 found this one).
    - **Medicaid's spending came from a projection made before the 2025 law** (the "Medicaid seam"): **−$137B**. It also overstated what the states spend now, by about $223B.
 2. **Some errors ran the other way, and they are fixed too.**
-   - The model averaged employers' prices wrongly, so it overstated what single payer saves on employer plans: **+$473B**.
+   - The model averaged employers' prices wrongly, so it overstated what single payer saves on employer plans: **+$235B**. A further **+$238B** is not an error fix: it is this review's own judgment (a working assumption) that private prices for services other than hospitals and doctors are only 10-20% above Medicare's, and it is labeled as such (part 1.2, step 4b).
    - It also left out CHIP's care (**+$81B**), and it moved nursing-home and over-the-counter spending into the plan, which covers neither.
    - The honest net: the system costs **$7.8 trillion in FY2040, not $8.4 trillion**. The country spends **about $1.0 trillion (8%) less** than under today's law, not 6% less.
 3. **Three design changes take it to $7.3 trillion:** administration at 4% (D1), a national health budget from 2037 (D2), and drug prices 25% below today's rather than 15% (D5). Peer countries pay about a third of US drug prices.
@@ -93,13 +93,14 @@ Effects are in $B. The 2032 column is at full scale; FY2040 is ×1.533. Each ste
 | **1. Physicians at the decided fee-schedule rate.** The plan pays them Medicare's fees plus add-ons, about 1.05, but the code used the hospital target, 1.15 (#386, part 1.2b) | −180 | **−275** | −275 | Yes |
 | **2. The newly covered priced off people under 65.** The code took 80% of the average repriced claim of everyone now covered, Medicare's enrollees included: $12,700 a person in 2032. Off private enrollees' repriced claims, at the uninsured's ages (about 14% children), it is $6,700 | −202 | **−310** | −310 | Yes |
 | **3. Each payer's own mix of services** (one national hospital share and drug share had been used for every payer) | −37 | −56 | −56 | A simplification |
-| **4. Price indexes averaged by volume.** The code set private prices at 2.08 times Medicare, a spending-weighted average of the hospital ratio (2.54) and the physician ratio (1.4). To reprice, the plan's rates must be divided by each service's own price ratio and the results added, which is the same as a harmonic average. That, with private prices for other services at 1.1-1.2 times Medicare and dental on the plan's own schedule, gives smaller private savings | +309 | **+473** | +473 | Yes, in the other direction |
+| **4a. Private hospital and physician prices averaged by volume.** The code set private prices at 2.08 times Medicare, a spending-weighted average of the hospital ratio (2.54) and the physician ratio (1.4). To reprice, the plan's rates must be divided by each service's own price ratio and the results added, which is the same as a harmonic average. Other private services stay at the model's 2.08 | +153 | **+235** | +235 | Yes, in the other direction (the independent agent: +$251B) |
+| **4b. Private prices for other services at 1.1-1.2 times Medicare, and dental on the plan's own schedule** (90% of private dental prices). These are **working assumptions, not error fixes**. No source gives these ratios; commercial premiums over Medicare are smaller outside hospitals and specialists (CBO 2022: primary care 1.17). Range: 0 at the model's blend; +$160B with other services at 1.4, like physicians; +$238B central | +155 | +238 | +238 | **A judgment** (cautious: it raises the cost) |
 | **5. Each payer's own administrative share** (Table 19: Medicare 6.5%, Medicaid 9.2%, private 10.7%, against 6%, 6% and 12%) | −32 | −50 | −50 | Data |
 | **6. Out of pocket.** Nursing homes ($48.7B in 2024) and over-the-counter products ($123.2B) stay outside the plan, which covers neither (HLT-7.05, HLT-7.07). Medicare enrollees' cost sharing is priced at Medicare's prices, not commercial ones | +9 | +13 | **+360** | Yes. Households keep paying about $346B outside the plan |
 | **7. Medicaid's hospital payments at their measured level** (1.00 times Medicare, against the 0.72 physician fee index) | −230 | **−352** | −352 | Yes |
 | **8. CHIP's care added.** The code replaced CHIP's federal money but never paid for its 3.5 million children's care: CMS lists CHIP outside "Medicaid" | +53 | +81 | +11 | Yes (an omission) |
 | **9. Medicaid and CHIP rebased to CBO's February 2026 baseline** (the Medicaid seam) | −89 | **−137** | +15 | Yes. Federal money committed rises by $153B, and the states' current spending falls by $223B |
-| **Total** | **−399** | **−612 → $7,795B** | **−184** | |
+| **Total** | **−399** | **−612 → $7,795B** | **−184** | Errors and data corrections: −$850B; the judgment in 4b: +$238B |
 
 What each change does:
 - **To the household rate under package A:** about −2.75 points, from 10.61% to **7.86%**. This counts the states' lower payment.
@@ -138,7 +139,7 @@ Each row gives the FY2040 effect on gross cost, then the household rate under pa
 | **The growth path** | CBO's growth in federal health subsidies, about 5.5% a year 2032-40, against nominal GDP at 3.8% | CMS: 5.4% a year for all health spending, 2025-34, against GDP at 4.1% [EV-CAR-056]; Holahan: holding growth to GDP has never been done [EV-CAR-742] | A national budget at GDP + 1 from 2037: **−$249B** | Squeezes rates or volume if growth runs hot; the review trigger is the guard | Reasonable as a baseline; D2 is the lever |
 | **The other payers taken over** | All out-of-pocket spending moved into the plan; CHIP left out | Nursing-home and over-the-counter spending stays with households; CHIP moves | Step 6, +$13B (with $346B left with households); step 8, +$81B | — | **Errors, fixed** |
 | **Double counting** | CHIP's federal money counted as replaced without its care; the states' share taken as CMS's total less CBO's federal subsidy | Steps 8 and 9 | The states' payment base falls $223B; federal money committed rises $153B | — | **Fixed** |
-| **Private prices** | 2.08 times Medicare, blended | A volume-weighted average service by service | **+$473B** (step 4). Physicians at 1.29: +$96B more; other services at 1.4: −$78B | — | **Error, fixed (it raises the cost)** |
+| **Private prices** | 2.08 times Medicare, blended | A volume-weighted average service by service | Hospitals and physicians: **+$235B** (step 4a, an error fixed). Other services at 1.1-1.2: **+$238B** (step 4b, a working assumption; range 0 to +$238B). Physicians at 1.29: +$96B more | — | 4a: **error, fixed**; 4b: **judgment, labeled** |
 
 ### 1.4 Against the independent literature
 
@@ -165,7 +166,7 @@ It found the same errors and sized them close to this review. Leaving out the ph
 | Newly covered | −$327B | −$310B | Age mix |
 | Medicaid's hospital index | −$397B (1.00, and hospitals 62% of benefits) | −$352B (1.00) | Service shares |
 | Medicaid seam | −$227B gross; states' base −$115B at 50% (−$230B at 100%) | −$137B gross, −$223B states | The agent rebased the total on CBO's growth (3.7% a year); this review uses CBO's FY2032 level over Table 19's federal share. The agent's 2024 federal outlays came from its own knowledge, so this review doesn't use them |
-| Private price average | +$251B | +$473B | This review also prices other services and dental service by service |
+| Private price average | +$251B | +$235B (4a), plus +$238B of working assumptions (4b) | The agent re-weighted all private non-drug services at a harmonic index; this review prices other services and dental separately, as a stated judgment |
 | Out of pocket | +$63B net | +$13B | Service mix |
 | CHIP | +$48B (CBO level) | +$81B (then −$9B in the rebase) | Level |
 | Physician fix, payer-specific hospital shares | −$333B | −$275B (then −$56B in step 3) | Order of the steps |
@@ -230,10 +231,13 @@ A1's poorest fifths gain slightly less than with the physician fix alone. The re
 | C43 45% above $5M; C35 estate tax; C40; C41 | 23, 20, 10, 7 | GX overlap adjustment | −62 |
 | The indexed income contributions (4 points above $100K/$200K, 2 above $20K/$40K) | 484 | **Total available** | **1,582** |
 
-Package E takes $579B of it, and F takes $847B. The other flagships keep the rest. Which flagships are cut is stage G's question: health needs the money, not any particular row.
+Package E takes $579B of it, and F takes $847B. The other flagships keep the rest. Which rows go to health, and which flagships are cut, is stage G's question: health needs the money, not any particular row.
+
+**This list includes the indexed income contributions,** and with them 2 points on AGI above $20,000/$40,000, which nearly every worker pays. If stage G keeps that row and gives it to health, it is a broad charge on workers that this memo's take-home test does not show. For the single worker at $72,000 it is about 2% × ($72,000 − $20,000) ≈ $1,040 a year, and they still pass ($1,371 + $1,040 = $2,411, against $5,679). **The grid and the pass rates show health's own charges only.** Recommended for stage G: take health's share from the top-end and corporate rows first, so the take-home result holds for the plan as a whole.
 
 **Employers.** Package A sets employers as a whole at what they would otherwise spend. Packages E to G keep that rate (19.3% in the band) but add the **small-employer allowance**: the first $100,000 of each employer's pay in the band is exempt. It costs about $215B in FY2040, so employers as a whole pay about 10% less than they would have spent.
 - It has no cliff, unlike Warren's exemption below 50 workers (Burman [EV-CAR-735]).
+- **One allowance per controlled group:** businesses under common control share one $100,000, as the tax code does for benefit plans and as the phase-in's status rule does (`health-financing.md`, part 2.6). A firm can't split itself to multiply it.
 - A firm of four $45,000 workers has $100,000 of pay in the band and pays nothing.
 - It rests on a rough working figure: SUSB 2022 firm counts and pay (Census) give about 6% of all pay inside the allowance.
 - Firms that offered no coverage in 2028 keep the phase-in, and the pay protections stay (`health-financing.md`, part 2.6).
@@ -259,6 +263,12 @@ Households in 2026 dollars; budget lines in FY2040 $B.
 | Q4 / Q5 / top 1% | +2,096 / −13,191 / −75,160 | +12,947 / −7,069 / −212,131 | +13,186 / −892 / −142,002 | +12,430 / −20,434 / −363,878 |
 | Bottom-four households losing cash (losing more than 5%), millions | 22.1 (3.5) | **1.6 (0.1)** | 1.3 (0.0) | 2.3 (0.2) |
 | On the evidence | Holds; fails the take-home test | Holds if the new streams come in near the center | Holds; the largest cut to the rest of the plan | **Doesn't hold:** at a 75.7% top rate the top tier yields far less than its statutory charge (`health-financing.md`, part 2.4) |
+
+**Package E rests on yes to questions 2 and 3** (D1, D2 and D5, $449B together; D2 alone is $249B, and holding growth near GDP's has never been done [EV-CAR-742]). **On the errors-only cost ($7,795B, package E0 in the tool):**
+- either **booked revenue taken rises from $579B to $1,029B** and the plan-wide gap from $649B to **$1,099B**;
+- or the line rate rises from 4 points to **about 10.7 points** above $100K/$200K, near package G's ground and its top-rate problem.
+
+Households below the line, the take-home result and the loser counts are the same either way.
 
 **The sources add up exactly** (`_sources()`). E's in $B: federal money committed 2,876; health payroll contribution 580; states 466; employers 1,945; households 156 net of the credit; tax on former premiums 358; new streams 385; booked revenue 579. Total 7,345.
 
@@ -316,13 +326,24 @@ Each cell is today's visible cost (grown to FY2040) → the plan's (its share of
 | Family of four | $150,000 | 16,738 → 5,100 (3.4%) | 8,152 → 1,994 (1.3%) | 42,394 → 1,994 (1.3%) |
 | Family of four | $200,000 | 16,738 → 5,303 (2.7%) | 8,152 → 1,994 (1.0%) | 42,394 → 1,994 (1.0%) |
 
+**Why the grid's single worker at $72,000 differs from test household T (2.6):**
+- **The grid uses averages:** KFF's 2026 worker share for single coverage ($1,672) and the model's average out-of-pocket costs on covered services (about $1,110 a person in 2026). Grown to FY2040, today's cost is $3,910, the plan's $1,194, a saving of $2,716.
+- **T uses the case in the brief:** $2,100 a year toward the premium and $1,950 out of pocket, both above those averages. Grown to FY2040, today's cost is $5,679, the plan's $1,371, a saving of $4,307.
+- The plan's figure differs only through the tax on the larger premium share.
+- So the same pay with average costs saves about $2,700, and with T's costs about $4,300.
+
+| Single, $72,000, job coverage | Today (grown to FY2040) | Package E | Change |
+| --- | --- | --- | --- |
+| At KFF's and the model's averages (the grid) | 3,910 | 1,194 | −2,716 |
+| **At T's own costs** | **5,679** | **1,371** | **−4,307** |
+
 The job-coverage column's plan figure is mostly the income and payroll tax on the premium share that now comes as pay. Each worker gets that pay in full and keeps most of it. For the family at $72,000, $1,994 is four people's copays and $2,058 is the tax on the $10,500 that used to go to their premium share.
 
 Under package A1 (the corrected broad contribution), every single worker with job coverage above about $45,000 fails, and so does every uninsured single worker above about $35,000. The full grids for all four packages are printed by `python3 models/tools/health_cost_review.py --part2 --md`.
 
 ### 2.6 Test household T: a single worker at $72,000
 
-Today the worker pays about $175 a month ($2,100 a year) toward the premium and about $1,950 out of pocket: $4,050, or 5.6% of pay, in 2026. Grown to FY2040 like everything else here (×1.40 in real terms), that is **$5,679**.
+Today the worker pays about $175 a month ($2,100 a year) toward the premium and about $1,950 out of pocket: $4,050, or 5.6% of pay, in 2026. These are the case's own figures, from the brief, and both are above the averages the grid uses (2.5). Grown to FY2040 like everything else here (×1.40 in real terms), that is **$5,679**.
 
 | Under | Household contribution | Copays | Tax on the pay that used to go to the premium | **Visible cost a year** | Against today |
 | --- | --- | --- | --- | --- | --- |
@@ -357,6 +378,7 @@ These are averages:
 | **Growth against income** | The rate drifts up about 0.1 point a year, since health grows faster than incomes. With D2, little drift | General revenue must grow 5-6% a year. Top-end bases grow faster than GDP, which partly covers it. D2 holds the gap to about 1 point | The same, and larger | The line rate drifts up fastest |
 | **Legal risk** | Low | **Medium:** the wealth tax ($150B). Without it, booked revenue rises to $729B (gap $799B), or the line rate to about 6.2 points | Medium | Medium |
 | **Political risk** | A visible new tax on most workers | Taxes on the very rich, which are popular but contested. Stage G must cut or refinance $579B elsewhere | The largest hole in the rest of the plan | A 75.7% top rate; the yield falls short |
+| **The stack on capital income** | As booked | Gains taxed as ordinary income above $1M (about 39.6% + 5% H1b + 1 point C18 + the 45% bracket above $5M), on top of G11's mark-to-market and a 2% wealth tax. At a 6% return, a 2% wealth tax equals about a 33% tax on that return, so the combined charge on the very wealthiest can pass 100% of their return [EV-CAR-736]. **For stage G:** add up the capital stack as `health-financing.md` 2.4 does for wages, and cap the wealth tax and the accrual taxes together | The same | Smaller (no wealth tax needed if the line rate rises) |
 | **Reliance on the budget** | Low: most money is contributions | About $960B (13%) from general revenue beyond federal health money already spent. The law commits it to the plan's fund | About $1.2T (17%) | Low |
 
 ### 2.9 Recommendation: package E
@@ -395,7 +417,7 @@ Each is decided on its own; none is adopted by silence.
 1. **The cost corrections** (part 1.2, steps 1 to 9): book them in the next tier-3 booking PR? **Recommended: yes.**
 2. **D5, drug prices 25% below today's** instead of 15%: about −$115B in FY2040. **Recommended: yes.** US prices would still be about twice peers'.
 3. **D1 (administration 4%) and D2 (a national health budget at GDP + 1 from 2037):** as recommended in `health-financing.md`, now −$85B and −$249B. **Recommended: yes.**
-4. **The package:** E (recommended), F, G, or A1?
+4. **The package:** E (recommended), F, G, or A1? E's figures as shown assume yes to questions 2 and 3. Without them, E needs $1,029B of booked revenue (gap $1,099B), or about 10.7 points above the line (part 2.3).
 5. **The household contribution under E:** 4% of AGI above $100,000 single / $200,000 couple (2025 dollars, indexed)? **Recommended: yes.** The alternatives: 0% (package F), or a lower line such as $75,000/$150,000, which raises more but fails more workers between the lines.
 6. **The small-employer allowance:** the first $100,000 of each employer's pay in the band exempt, at about $215B? **Recommended: yes.** The alternatives: none (as package A), or $50,000.
 7. **Each new revenue stream, decided one by one** (part 2.2):
@@ -442,7 +464,7 @@ Each is decided on its own; none is adopted by silence.
   - KFF [EV-CAR-295, EV-CAR-722];
   - Warren and its reviews [EV-CAR-723 to EV-CAR-744];
   - Urban [SRC-3223].
-- **Evidence still needed** (cited here in plain text; to be entered in the register at booking):
+- **Evidence still needed** (cited here in plain text). **Each needs an evidence entry before the booking PR relies on it**, above all those behind step 7 (−$352B, resting partly on the AHA, an interested party), step 4a (CBO 2022) and D5 (RAND for ASPE):
   - Medicaid's hospital payments against Medicare's: AHA payment-to-cost fact sheets, 2020 and 2023; MACPAC, "Medicaid Base and Supplemental Payments to Hospitals," 2024;
   - the physician fee index (Zuckerman, Skopec and Aarons, Health Affairs, 2021);
   - CBO, "The Prices That Commercial Health Insurers and Medicare Pay for Hospitals' and Physicians' Services," 2022;

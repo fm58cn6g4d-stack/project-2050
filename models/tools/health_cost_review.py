@@ -172,6 +172,11 @@ def rebuild(opts=None, hosp_rate=PLAN_HOSPITAL, I_over=None):
     def ratio(svc, payer):
         if o["average"] == "spending":
             return plan_rate(svc) / blend[payer]
+        if o["average"] == "volume_hp" and svc not in ("hospital", "physician") \
+                and payer in ("phi", "oop_private", "oop"):
+            # step 4a: only the hospital and physician ratios divided service by service; every other private
+            # service, dental included, stays at the model's blended index
+            return plan_rate(svc) / blend[payer]
         if svc == "dental":
             return PLAN_DENTAL_OF_PRIVATE / dental_vs_private.get(payer, 1.0)
         if payer == "medicare":
@@ -302,8 +307,10 @@ STEPS = [
      dict(newly="nonelderly")),
     ("3. Each payer's own service mix (Table 19), not one national hospital and drug share",
      dict(mix="service", average="spending")),
-    ("4. Price indexes averaged by volume, service by service (private hospital 2.54, physician 1.4, others 1.1-1.2)",
-     dict(average="volume")),
+    ("4a. Private hospital and physician prices averaged by volume (2.54 and 1.4 divided service by service), an error",
+     dict(average="volume_hp")),
+    ("4b. Private prices for other services at 1.1-1.2 times Medicare and dental on the plan's schedule (working "
+     "assumptions, not errors)", dict(average="volume")),
     ("5. Each payer's own administrative share (Table 19)", dict(admin="table")),
     ("6. Out of pocket: nursing homes and over-the-counter products stay outside; Medicare's cost sharing at "
      "Medicare's prices; dental on the plan's schedule", dict(oop="service")),
@@ -501,6 +508,8 @@ PACKAGES2 = {
     "A1": ("Package A on the corrected cost (reference)", "fixed", dict(close="first")),
     "E": ("Take-home first: no charge below $100K/$200K, 4 points above it, new streams, booked revenue for the rest",
           "design", dict(second=4.0, streams=True, allowance=True, reassign=True)),
+    "E0": ("Package E without design memos D1, D2 and D5 (the errors-only cost)", "fixed",
+           dict(second=4.0, streams=True, allowance=True, reassign=True)),
     "F": ("No household contribution: new streams and booked revenue", "design",
           dict(second=0.0, streams=True, allowance=True, reassign=True)),
     "G": ("Self-financed above a line: the whole remainder on AGI above $100K/$200K, no booked revenue taken", "design",
