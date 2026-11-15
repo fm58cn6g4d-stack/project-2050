@@ -105,7 +105,7 @@ NO_OFFER_WORKER_SHARE = 0.08  # KFF 2026: 92% of workers are at firms offering h
 # 1095-C, and Medicare's enrollment).
 # Refundable, claimed on the income tax return and paid through the year by lower withholding: `share` of the
 # employer health contribution charged on their pay (W-2s and Schedule SE), phased out with the household's AGI
-# between `start` and `end` (single; joint lines twice these; 2025 dollars, price-indexed, as the other lines). Full
+# between `start` and `end` (single; joint lines twice these; 2026 dollars, price-indexed, as the other lines). Full
 # from the January 2035 endpoint through 2044, then a fifth less each year (80% in 2045 to 20% in 2048), none from
 # 2049. Lines in 2026 dollars.
 WORKER_CREDIT = dict(share=1.0, start=60000, end=120000, nocov_only=True)

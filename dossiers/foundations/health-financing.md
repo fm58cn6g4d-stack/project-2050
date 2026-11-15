@@ -24,7 +24,7 @@ Units and sources:
 
 | Contribution | Rate | Charged on (the base) | Who pays | How it is collected |
 | --- | --- | --- | --- | --- |
-| **Household health contribution** | **10.6%** | **Taxable income:** AGI less the standard deduction ($16,100 single, $32,200 couple; $2,050 more for a single person 65 or over, $1,650 more for each spouse 65 or over) | Every household with taxable income | With the income tax, by withholding and on the return |
+| **Household health contribution** | **10.6%** | **Taxable income:** AGI less the standard deduction ($16,100 single, $24,150 head of household, $32,200 couple; $2,050 more for a single person 65 or over, $1,650 more for each spouse 65 or over) | Every household with taxable income | With the income tax, by withholding and on the return |
 | **Employer health contribution** | **19.3%** | Each worker's pay between **$20,000** and the Social Security wage base ($184,500 in 2026); about 11.9% of all pay | Every employer; the self-employed on 92.35% of net earnings | With payroll taxes on Form 941; SECA on Schedule SE |
 | **Health payroll contribution** | **2.9%** | All pay, no cap | 1.45% from the worker, 1.45% from the employer; 2.9% from the self-employed | As today's Medicare tax |
 | **Worker transition credit** (paid back) | 100% of the employer contribution on your pay | Your W-2s and Schedule SE | People who had earnings in 2028 and no job coverage, plan of their own or Medicare that year; phased out between AGI of $60,000 and $120,000 ($120,000 and $240,000 for couples) | Refundable on the return, paid through withholding; in full 2035-2044, then a fifth less each year, none from 2049 |
@@ -39,7 +39,7 @@ This memo gives all three wherever a rate appears.
 
 **Glossary:**
 - **AGI (adjusted gross income):** the income on line 11 of Form 1040: pay, business income, investment income, pensions and the taxable part of Social Security.
-- **Taxable income:** AGI less the standard deduction. On the tax return it also subtracts itemized deductions and the business-income deduction; this memo recommends that the health contribution not count those (part 9, question 5).
+- **Taxable income:** AGI less the standard deduction. On the tax return, people who itemize subtract their itemized deductions instead, and business owners also subtract the business-income deduction; this memo recommends that the health contribution not count those (part 9, question 5).
 - **Base:** what a rate is charged on.
 - **Line:** an amount of income below which nothing is due (for example, the employer contribution's $20,000).
 - **Statutory rate:** the rate written in law, on its base.
@@ -282,7 +282,7 @@ How the transition years are paid:
 - **The 2.9% payroll contribution** goes to the plan from the endpoint. Before then it pays Medicare's hospital claims.
 - **The household rate rises with the waves.** It starts near 3% because the early years carry costs that no payer moves with: the restoration, Medicare's upgrades and Medicare at 60.
 - **Recommended:** set the rate in law as steps that follow this path (about 3% from 2031, 5% from 2033, 9% at the endpoint, then set each year to balance the fund), with the FY2030 restoration ($50B) on the general fund. (The table charges households that $50B, 0.4%, so the years add up; on the recommended path it moves to the general fund and the contribution starts in 2031.)
-- **The catch:** a household whose own coverage hasn't moved yet (for example, a childless worker with job coverage in 2031-34) pays the contribution and its own premium share for two to four years. Part 9, question 7.
+- **The catch:** a household whose own coverage hasn't moved yet (for example, a childless worker with job coverage in 2031-34) pays the contribution and its own premium share for two to four years. Part 9, question 9.
 - **Growth.** After full adoption the household rate drifts up about 0.1 to 0.15 point a year, because the plan's cost grows at CBO's health rate (about 5.7% a year), faster than incomes. Design memo D2 addresses this.
 - **After FY2040.** The phase-in ends in 2044, and the credit steps down over 2045-48 and ends in 2049. Once both stop costing money, about 0.8 point comes off the rate, on FY2040's economy (part 4.3, "The long run").
 
@@ -306,7 +306,7 @@ How the transition years are paid:
 ### 2.5 Avoidance, placed where it happens
 
 The budget model's income-contribution yields carry a 20% allowance for avoidance, on top of JCT's own behavioral response. The household tables put all of it on the top fifth, shared in proportion to the charge, for three reasons:
-- the base is AGI, so itemized deductions can't shrink it;
+- the base is taxable income counting only the standard deduction, so itemized deductions can't shrink it;
 - withheld wages are misreported at about 1%, against 55% for income nobody reports [EV-CAR-719];
 - measured responses below the top are small [EV-CAR-720].
 
@@ -374,7 +374,7 @@ Espen, November 15: "I think the employer contribution has to be designed so it'
 ### 2.7 The fix for households that lose cash: a worker transition credit
 
 - **Who qualifies (one plain test, from records the government holds):** people who had earnings in 2028 (a W-2 or Schedule SE) and no job coverage, no individual-market plan and no Medicare that year (Forms 1095-A, 1095-B and 1095-C, and Medicare's enrollment). That means people who were uninsured, on Medicaid or on other public coverage. No application: the IRS knows who qualifies.
-- **How much:** the employer contribution charged on their pay (the new W-2 box, or Schedule SE), **in full**. It phases out with the household's AGI between **$60,000 and $120,000** single ($120,000 and $240,000 for couples), in 2025 dollars, price-indexed like the other lines.
+- **How much:** the employer contribution charged on their pay (the new W-2 box, or Schedule SE), **in full**. It phases out with the household's AGI between **$60,000 and $120,000** single ($120,000 and $240,000 for couples), in 2026 dollars, price-indexed like the other lines.
 - **How it is paid:** a refundable credit on the income tax return, delivered through the year by lower withholding, so it arrives with each paycheck.
 - **When:** from the January 2035 endpoint, in full through 2044 (the phase-in decade), then a fifth less each year (80% in 2045, down to 20% in 2048), with none from 2049.
 - **Cost:** $56B in FY2035, $123B in FY2040 (0.6 point on the household rate), $456B over FY2030-39.
@@ -499,6 +499,10 @@ Package A:
 - **With the fix, FY2040:** **+443 (+1.0%)**. If the employer did offer coverage but this worker wasn't on it, the contribution is the full 4,828, the credit returns all of it, and the net is about +1,200.
 - **In the long run** (after the phase-in ends in 2044 and the credit in 2049): about **−$3,400 a year** on FY2040's economy, against a world where they would still be uninsured. They then pay about $7,200 a year in the two contributions: much the same as other workers on that pay, and less than the $16,100 that goes to health care for a $45,000 worker with job coverage under today's system (the employer's and the worker's premiums and the out-of-pocket costs). Part 4.3 sets out the choice.
 
+**Two example assumptions to know** (the second cross-check):
+- The retired couple at $60,000 is given $9,000 of taxable Social Security. Section 86's thresholds aren't indexed, so by FY2040 about $12,900 would be taxable. That puts AGI near $36,900, a contribution of about $150, and a net of about +14,040.
+- The self-employed example leaves out two effects. When premiums end, the self-employed health insurance deduction ends with them, adding about $12,500 to AGI (about −$2,800 in tax and contribution). Against that, a deduction for the employer contribution would be worth about +$1,950 (part 9, question 11). Net, the example is nearer +$2,800 than +$3,700.
+
 **On the alternative base** (AGI above $20,500/$41,000 in 2026 dollars, at 11.16%), the same households come out within about $500 of these figures. For example, the uninsured worker is +797 and the family at $160,000 is +419.
 
 The same households under the other packages (2026 dollars):
@@ -528,7 +532,7 @@ How this is counted (`micro()`): each fifth's total is spread over its own house
 | **Paying more than they save, with the fix (package A)** | **0.9** | **3.4** | **6.8** | **15.8** | **26.9** | 25.0 |
 | **… losing more than 5% of their income** | **0.0** | **0.1** | **0.6** | **5.4** | **6.2** | 12.6 |
 
-- **A correction.** The merged memo put the over-5% count at 16.1 million for the bottom four. That test compared FY2040 dollars with 2029 incomes, which are about 30% smaller. On FY2040 incomes the merged package's count is 11.8 million. The counts of households that lose at all were right.
+- **A correction.** The merged memo put the over-5% count at 16.1 million for the bottom four. That test compared FY2040 dollars with 2029 incomes, which are about 30% smaller. On FY2040 incomes the merged package's count is 11.7 million (11.8 million with the low-pay line now set in 2026 dollars). The counts of households that lose at all were right.
 - **What the fix does:**
   - In the bottom three fifths, households losing more than 5% fall from **6.9 million to 0.75 million**, and households losing at all from 15.7 million to 11.1 million.
   - The median loss among bottom-four losers falls from about $4,400 to about $3,400 a year.
@@ -537,6 +541,7 @@ How this is counted (`micro()`): each fifth's total is spread over its own house
   - about 59% have job coverage that cost little relative to their pay: mostly single workers on good pay. A premium is the same for everyone; the plan's contributions follow pay;
   - about 37% are working households with no job coverage, mostly above the credit's income range;
   - about 9% are Medicare households with income well above the deduction.
+  - (The groups overlap, for example a Medicare enrollee living with a covered worker, so the shares add to more than 100%.)
 - **The fourth fifth is where affordability is thinnest:** half of it pays more, and the fix doesn't change that. The rate rise that pays for the credit adds about 0.8 million losers there. Design memos D1 and D2 (part 6) bring the bottom-four count to **20.8 million** (3.5 million losing more than 5%) and lift the fourth fifth to about +$3,240.
 - **The low-pay line protects the poorest.** Without it (the contribution at 14.3% on all pay up to the wage base), the poorest fifth's losers rise from 0.9 million to 4.0 million, and the bottom-four count to 33.5 million. That variant keeps the credit sized on the band, so it overstates the line's effect somewhat; a credit on all pay up to the wage base would narrow the gap.
 
@@ -700,7 +705,7 @@ A separate agent (November 15) re-derived the key figures from the underlying mo
 - the booked need: $4,093.7B, and $3,794B after the seam;
 - the gross cost: $8,407B, by two routes;
 - the employer pieces: $2,197B, and the $686B of tax they displace;
-- the per-point yield on the old base: $180.2B. The memo's $187B adds the pay formerly put into premiums before tax, which is now income (the second fix below);
+- the per-point yield on the old base: $180.2B. The merged memo's $187B (now $197B on taxable income) adds the pay formerly put into premiums before tax, which is now income (the second fix below);
 - the middle fifth's net, within $4;
 - the employer base share: 0.608 against 0.609.
 
@@ -745,7 +750,7 @@ A separate agent (November 15) re-derived the key figures from the underlying mo
 | The no-low-pay-line variant keeps a credit sized on the band, so it overstates the line's protection with the fix in place | Small | Noted in 4.3 |
 | The examples use the statutory rate on actual pay, while the fifth tables spread the aggregate, which is about a quarter lower per dollar of CPS pay (the payroll point, below) | About a third in an example's credit and employer row | Noted in 4.2; to settle in the booking PR |
 
-**After the cross-check,** at Espen's direction, the household base became taxable income, and the household figures moved to 2026 dollars. The design's lines were set in 2026 dollars, which moves the employer rate from 19.5% to 19.3%. All the figures in this memo are from the run after these changes. RECHECK_PLACEHOLDER
+**After the cross-check,** at Espen's direction, the household base became taxable income, and the household figures moved to 2026 dollars. The design's lines were set in 2026 dollars, which moves the employer rate from 19.5% to 19.3%. All the figures in this memo are from the run after these changes. A second fresh agent then re-derived the taxable-income yield and the rate (10.613%), the 2026-dollar fifth tables, every worked example and part 10's gap, and confirmed them. It found the household base's ratio is taken on 2029 incomes (on FY2040's real incomes it would put the rate about 0.05 point higher, at about 10.66%), two example assumptions (below, in 4.2) and some wording, all fixed.
 
 **The top three remaining risks to accuracy:**
 1. the payroll point;
