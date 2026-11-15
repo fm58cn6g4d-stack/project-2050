@@ -294,7 +294,7 @@ Together they close health's FY2040 cost ($1,060B + $207B + $2,827B = $4,094B). 
 
 ## Part D. Questions for Espen
 
-> **Superseded (questions 1 to 4, memos F1 to F3 and part B4's points; the new questions are in its part 8), November 15, 2026:** replaced by [`health-financing.md`](health-financing.md), the fresh start on the single health plan's pricing and financing. Kept for the record; don't rely on its health figures.
+> **Superseded (questions 1 to 4, memos F1 to F3 and part B4's points; the new questions are in its part 9), November 15, 2026:** replaced by [`health-financing.md`](health-financing.md), the fresh start on the single health plan's pricing and financing. Kept for the record; don't rely on its health figures.
 
 
 **Now (this memo's batch):**
@@ -311,7 +311,7 @@ Together they close health's FY2040 cost ($1,060B + $207B + $2,827B = $4,094B). 
 
 ## Part E. How the Medicare for All bills propose to pay, beside this plan
 
-> **Note, November 15, 2026:** [`health-financing.md`](health-financing.md), part 6, extends this comparison and corrects three points (S. 1506's state obligations, the per-employee transition floor, and the Medicare trust fund transfer).
+> **Note, November 15, 2026:** [`health-financing.md`](health-financing.md), part 7, extends this comparison and corrects three points (S. 1506's state obligations, the per-employee transition floor, and the Medicare trust fund transfer).
 
 A comparison only. It changes no decision and no booked figure, and recommends nothing. Sources: Sen. Sanders's S. 1506 (SRC-3260) and his options paper (SRC-3041), Rep. Jayapal's H.R. 3069 (SRC-3261), and the care dossier's comparison (`dossiers/care/research-s1506-comparison.md`, row "Trust fund and financing") with its cost section (`dossiers/care/6-cost.md`, part 4).
 

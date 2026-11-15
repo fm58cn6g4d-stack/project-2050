@@ -214,7 +214,7 @@ How the transition years are paid:
 - **States pay with each Medicaid third.**
 - **The 2.9% payroll contribution** goes to the plan from the endpoint. Before then it pays Medicare's hospital claims.
 - **The household rate rises with the waves.** It starts near 3% because the early years carry costs that no payer moves with: the restoration, Medicare's upgrades and Medicare at 60.
-- **Recommended:** set the rate in law as steps that follow this path (about 3% from 2031, 5% from 2033, 9% at the endpoint, then set each year to balance the fund), with the FY2030 restoration ($50B) on the general fund.
+- **Recommended:** set the rate in law as steps that follow this path (about 3% from 2031, 5% from 2033, 9% at the endpoint, then set each year to balance the fund), with the FY2030 restoration ($50B) on the general fund. (The table charges households that $50B, 0.4%, so the years add up; on the recommended path it moves to the general fund and the contribution starts in 2031.)
 - **The catch:** a household whose own coverage hasn't moved yet (for example, a childless worker with job coverage in 2031-34) pays the contribution and its own premium share for two to four years. Part 9, question 7.
 - **Growth.** After full adoption the household rate drifts up about 0.14 point a year, because the plan's cost grows at CBO's health rate (about 5.7% a year), faster than incomes. Design memo D2 addresses this.
 
@@ -229,7 +229,7 @@ How the transition years are paid:
   The handover notes' 50.6% left out SS-1. Package A adds the 10.35% household contribution, for **73.3%**. The capped employer contribution adds nothing at the top.
 - **The evidence.**
   - Diamond and Saez's revenue-maximizing top rate is about 73%, counting federal, state, payroll and sales taxes (`legacy/domains/domain-revenue.md`, "Combined top rates").
-  - Reported income at the top responds with an elasticity of about 0.12-0.4 (Saez, Slemrod and Giertz, 2012, not yet in the register; Gruber and Saez [EV-CAR-720]).
+  - Reported income responds to tax rates most at the top: Gruber and Saez measured a taxable-income elasticity of 0.57 above $100,000 in 1992 dollars [EV-CAR-720]. Saez, Slemrod and Giertz's survey (2012; not yet in the register) puts the range at about 0.12-0.4. The check below runs 0.12, 0.25, 0.4 and the registered 0.57.
 - **The stacking check** (`stacking_check()`). Suppose the elasticity is 0.25. Then the top 1%'s income shrinks as the rate rises, and the taxes already on it shrink with it. Counting both, the top 1% yields about **44%** of its new charge under package A.
   - That costs about $67B, or 0.36 point on the household rate. The fourth fifth falls to about +$900.
   - An uncapped employer contribution, on HI's base, would add 11.9 points at the top. The top 1% would then yield only about 21%, and the household rate would need about 12.2%.
@@ -323,7 +323,7 @@ How the table is built:
 ### 4.2 Worked examples
 
 Each example is in today's dollars, at FY2040's rates, with health costs at FY2040's relation to income.
-- **Growth:** health costs per person grow about 5.4% a year [EV-CAR-056] against incomes on the model's path, so premiums are about 1.34 times today's relative to pay.
+- **Growth:** health costs per person grow about 4.8% a year (CMS's 5.4% for total national health spending [EV-CAR-056], less population growth of about 0.5% a year on CBO's projections) against incomes on the model's path. So premiums are about 1.25 times today's relative to pay.
 - **Premiums:** KFF's 2026 averages: single coverage $9,804, with the worker paying $1,672; family coverage $28,303, with the worker paying $7,471 [EV-CAR-722, EV-CAR-111].
 - **Out-of-pocket costs, copays and the $3,500 Medicare premium:** the coverage model's averages.
 - **Lines:** price-indexed, so in these terms the $20,000 line is about $17,700 and the $40,000 line about $35,400.
@@ -334,25 +334,25 @@ Package A:
 
 | Household | Stops paying (premiums + out of pocket − copays) | Employer: would have spent → pays | Pay change, then tax on it | Tax on former pre-tax premium | Household contribution (rate × base) | **Net a year** |
 | --- | --- | --- | --- | --- | --- | --- |
-| Single worker, $45,000, single job coverage | 2,247 + 2,101 − 462 = **3,885** | 10,927 → 5,316 | +5,612, −1,532 | −613 | 10.35% × 35,139 = −3,636 | **+3,716 (+8.3%)** |
-| Single worker, $45,000, employer offers no coverage, uninsured today | 0 + 2,735 − 462 = **2,273** | 0 → 5,316 | −5,316, +1,451 | 0 | 10.35% × 21,965 = −2,273 | **−3,864 (−8.6%)**, and now covered |
-| Family of four, $90,000, family job coverage | 10,039 + 8,403 − 1,849 = **16,593** | 27,992 → 14,084 | +13,909, −3,797 | −2,741 | 10.35% × 78,510 = −8,123 | **+15,842 (+17.6%)** |
-| Family of four, $160,000, family job coverage | **16,593** | 27,992 → 27,723 | +270, −101 | −3,745 | 10.35% × 134,870 = −13,954 | **−936 (−0.6%)** |
-| Retired couple on Medicare, $60,000 (Social Security $36,000 and pension $24,000; AGI about $33,000) | 6,861 + 7,185 − 924 = **13,121** | — | — | — | below the line: 0 | **+13,121 (+21.9%)** |
-| Retired couple on Medicare, $110,000 (AGI about $102,500) | **13,121** | — | — | — | 10.35% × 67,062 = −6,938 | **+6,183 (+5.6%)** |
-| Self-employed single, $70,000 net, buys an individual-market plan | 11,534 + 5,129 − 462 = **16,200** | pays the employer contribution, 19.5% × (92.35% × 70,000 − 17,719) = −9,143 | — | — | 10.35% × 47,281 = −4,892 | **+2,165 (+3.1%)** |
+| Single worker, $45,000, single job coverage | 2,085 + 2,013 − 443 = **3,655** | 10,140 → 5,316 | +4,824, −1,317 | −569 | 10.35% × 34,190 = −3,537 | **+3,056 (+6.8%)** |
+| Single worker, $45,000, employer offers no coverage, uninsured today | 0 + 2,621 − 443 = **2,178** | 0 → 5,316 | −5,316, +1,451 | 0 | 10.35% × 21,965 = −2,273 | **−3,959 (−8.8%)**, and now covered |
+| Family of four, $90,000, family job coverage | 9,316 + 8,052 − 1,772 = **15,596** | 25,976 → 14,084 | +11,892, −3,247 | −2,543 | 10.35% × 75,770 = −7,839 | **+13,859 (+15.4%)** |
+| Family of four, $160,000, family job coverage | **15,596** | 25,976 → 27,723 | −1,747, +652 | −3,475 | 10.35% × 132,131 = −13,671 | **−2,645 (−1.7%)** |
+| Retired couple on Medicare, $60,000 (Social Security $36,000 and pension $24,000; AGI about $33,000) | 6,574 + 6,884 − 886 = **12,572** | — | — | — | below the line: 0 | **+12,572 (+21.0%)** |
+| Retired couple on Medicare, $110,000 (AGI about $102,500) | **12,572** | — | — | — | 10.35% × 67,062 = −6,938 | **+5,634 (+5.1%)** |
+| Self-employed single, $70,000 net, buys an individual-market plan | 11,051 + 4,914 − 443 = **15,523** | pays the employer contribution, 19.5% × (92.35% × 70,000 − 17,719) = −9,143 | — | — | 10.35% × 47,281 = −4,892 | **+1,488 (+2.1%)** |
 
 The same households under the other packages:
 
 | Household | B | C | D |
 | --- | --- | --- | --- |
-| Single worker, job coverage | +1,021 | +3,272 | +5,419 |
-| Uninsured worker | −7,198 | −4,947 | −2,800 |
-| Family at $90,000 | +12,441 | +13,957 | +19,646 |
-| Family at $160,000 | −7,030 | −3,932 | +5,600 |
-| Retired couple at $60,000 | +7,614 | +13,121 | +13,121 |
-| Retired couple at $110,000 | −287 | +9,433 | +9,433 |
-| Self-employed | −2,279 | −1,040 | +4,456 |
+| Single worker, job coverage | +314 | +2,565 | +4,713 |
+| Uninsured worker | −7,293 | −5,042 | −2,895 |
+| Family at $90,000 | +10,326 | +11,842 | +17,531 |
+| Family at $160,000 | −8,871 | −5,773 | +3,759 |
+| Retired couple at $60,000 | +7,065 | +12,572 | +12,572 |
+| Retired couple at $110,000 | −836 | +8,884 | +8,884 |
+| Self-employed | −2,957 | −1,717 | +3,779 |
 
 D's figures rest on a top tier the evidence says wouldn't be collected.
 
@@ -388,7 +388,7 @@ How this is counted (`micro()`): each fifth's total is spread over its own house
 | Employer contribution with no low-pay line (14.3% up to the wage base) | 10.35% | +6,109 | +8,955 | +8,391 | +1,548 | −19,915 | −127,188 |
 | Employer contribution on all pay, HI's base (11.9%) | 10.35% | +6,255 | +9,508 | +9,496 | +3,385 | −23,557 | −218,322 |
 | Same, after the stacking check (elasticity 0.25) | 12.2% | +6,206 | +9,000 | +7,962 | +270 | −29,532 | −240,492 |
-| A after the stacking check (elasticity 0.25 / 0.4) | 10.7% / 11.2% | +6,755 / +6,743 | +10,158 / +10,027 | +9,207 / +8,812 | +915 / +111 | | |
+| A after the stacking check (elasticity 0.25 / 0.4 / 0.57, the registered figure) | 10.7% / 11.2% / 11.7% | +6,755 / +6,743 / +6,729 | +10,158 / +10,027 / +9,886 | +9,207 / +8,812 / +8,386 | +915 / +111 / −753 | | |
 | Employers at 65% of what they'd otherwise spend (the first draft's share) | 13.2% | +6,824 | +10,412 | +9,533 | +1,455 | −23,137 | −155,057 |
 | Avoidance spread "elastic" / "even" | 10.35% | +6,788 / +6,817 | +10,494 / +10,796 | +10,235 / +11,163 | +2,449 / +4,953 | | |
 | Top 1% at its IRS share of the base (29%, against the CPS's 12%) | 10.35% | +6,815 | +10,779 | +11,112 | +4,846 | −28,464 | −395,293 |
@@ -396,7 +396,7 @@ How this is counted (`micro()`): each fifth's total is spread over its own house
 
 What the table shows:
 - **Pass-through.** At 100%, nothing depends on how much of their savings employers pass into pay, because they keep no net saving. In the first draft's package, if employers passed on only half [EV-CAR-299], the fourth fifth would fall to about −$3,200.
-- **The fourth fifth** stays positive except in these cases: the cautious seam reading, states at 50% or less, the 2.9% folded into the employer contribution, and the first draft's shares.
+- **The fourth fifth** stays positive except in these cases: the cautious seam reading, states at 50% or less, the 2.9% folded into the employer contribution, the first draft's shares, and the registered top-end elasticity of 0.57.
 - **The rest of the plan.** Scenario Q, the rest of the plan without health, gives the fourth fifth +$552 (`models/tools/household/results.md`, section 8).
 
 ## Part 6. Design memos: changes to the decided design, for Espen to weigh
@@ -422,7 +422,7 @@ Espen, November 15: "it's ok to reopen parts of the design if compelling evidenc
   - C: hold growth to GDP growth.
 - **Effect in FY2040:** B −$270B (1.4 points); C −$590B (3.2 points). The effect grows every year after.
 - **Evidence:**
-  - Warren's plan assumed growth held to GDP [EV-CAR-744].
+  - Warren's plan counted $1.1 trillion over ten years from slower cost growth [EV-CAR-724]; Urban's John Holahan said getting health spending growth down to GDP growth is not something the country has ever done [EV-CAR-742].
   - Urban's researchers note that this has never been done in the US [EV-CAR-742].
   - B leaves room above GDP for an older population and new treatments.
 - **Quality and access:** if growth runs hot, a budget squeezes payment rates or volume. The review trigger is the guard against that.
@@ -463,7 +463,7 @@ Warren's figures are the sponsor's own (grade C) and predate the 2025 law. They 
 | Households | Paper: 4% above about $29,000 for a family of four | Nothing | "No new middle-class taxes": higher take-home pay is taxed under current law [EV-CAR-728] | 10.35% above $20,000/$40,000 |
 | Top-end and other revenue | Paper: about $4.6T (rates to 52%, a 1% wealth tax, the estate tax and more) | None | Financial transactions tax, wealth and capital-gains taxes, corporate changes, the tax gap, immigration reform, ending overseas war funds [EV-CAR-729, EV-CAR-730] | None for health: the plan's top-end taxes fund its other flagships |
 | HI payroll tax | Not mentioned | Not mentioned | Kept | Kept at 2.9% as the plan's own contribution; into the plan's fund from 2035 |
-| Cost assumptions | — | — | Administration 2.3%, hospitals at 110% of Medicare, growth held to GDP [EV-CAR-744] | Administration 5% (D1: 4%); 1.15 times Medicare; CBO's growth (D2: GDP + 1) |
+| Cost assumptions | — | — | Administration 2.3%, hospitals at 110% of Medicare [EV-CAR-744]; $1.1T from slower cost growth [EV-CAR-724] | Administration 5% (D1: 4%); 1.15 times Medicare; CBO's growth (D2: GDP + 1) |
 | What reviewers found | CRFB and TPC qualify the paper's figures [EV-CAR-714 to EV-CAR-716] | — | CRFB: the direct offsets about right, the extra revenue well short; +$6.1T to deficits, range −$1.2T to +$11.2T [EV-CAR-737 to EV-CAR-741]. TPC: the employer charge works like a head tax and penalizes hiring the 50th worker [EV-CAR-735]; the stacked top taxes could pass 100% [EV-CAR-736] | Part 8's cross-check; part 2.4's stack |
 
 What this plan takes, and what it does differently:
@@ -498,7 +498,7 @@ A separate agent (November 15) re-derived the key figures from the underlying mo
 - the booked need: $4,093.7B, and $3,794B after the seam;
 - the gross cost: $8,407B, by two routes;
 - the employer pieces: $2,197B, and the $686B of tax they displace;
-- the per-point yield: $180.2B;
+- the per-point yield on the old base: $180.2B. The memo's $187B adds the pay formerly put into premiums before tax, which is now income (the second fix below);
 - the middle fifth's net, within $4;
 - the employer base share: 0.608 against 0.609.
 
@@ -513,6 +513,8 @@ A separate agent (November 15) re-derived the key figures from the underlying mo
 | CBO's fiscal-year 2032 Medicare figure is used as calendar 2032 | The seam would be about −$284B in FY2040, not −$300B | Open; small |
 | The HX key (`exclusion_end`) is a typed legacy key, while `employer_cov` is measured | Small | Open; noted |
 | Emergency Medicaid, which the status rule keeps, may sit in the states' base | Small | Open; noted |
+
+**The agent review of #385 (November 15)** confirmed the arithmetic. It also found that the worked examples grew per-person health costs at the total national rate (5.4%), which includes population growth. They now use per-person growth, about 4.8%; the family at $90,000 moves from about +$15,800 to +$13,900. The fifth tables were not affected.
 
 **The top three remaining risks to accuracy:**
 1. the payroll point;
@@ -538,7 +540,7 @@ Each question is decided on its own; none is adopted by silence.
    - a credit for premiums still paid: fairer, but FY2031-34 revenue falls by roughly $0.9T, and the early rate about doubles for everyone else;
    - a start in 2035, borrowing about $2.6T over FY2030-34.
 8. **The states at 100%** of their former Medicaid spending for the people who move, indexed (recommended), or 80%, 50% (booked) or 0%?
-9. **The self-employed** pay the employer contribution on net earnings, in the same band, as SECA does (recommended)?
+9. **The self-employed** pay the employer contribution on net earnings, in the same band, as SECA does (recommended)? At booking, deduct that contribution from their income base, as an employee's comes out of pay before tax. The worked example doesn't yet deduct it, so it slightly overstates their household contribution.
 10. **D1, administration:** book 4%, with a 3% target (recommended)?
 11. **D2, a national health budget:** hold growth to GDP plus 1 point from 2037 (recommended)?
 12. **D3 and D4:** keep the 1.15 payment rate and the small copays (recommended)?

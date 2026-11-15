@@ -1,6 +1,6 @@
 # Memo F3: What share of their former Medicaid spending states keep paying
 
-Role: decision memo for Espen, fork 3 of the financing checkpoint's health batch (`README.md`; `../checkpoint-financing.md`, part B). Status: **superseded, November 15, 2026, by [`../health-financing.md`](../health-financing.md) (its part 8 holds the new questions); kept for the record.** Earlier status: **for decision, November 14, 2026**. Figures are FY2040, from `models/tools/health_financing.py` (project arithmetic, not an official score). Each option's household figures include the income contribution (memo F1, A) sized to close the rest and memo F2 at A.
+Role: decision memo for Espen, fork 3 of the financing checkpoint's health batch (`README.md`; `../checkpoint-financing.md`, part B). Status: **superseded, November 15, 2026, by [`../health-financing.md`](../health-financing.md) (its part 9 holds the new questions); kept for the record.** Earlier status: **for decision, November 14, 2026**. Figures are FY2040, from `models/tools/health_financing.py` (project arithmetic, not an official score). Each option's household figures include the income contribution (memo F1, A) sized to close the rest and memo F2 at A.
 
 ## The question
 

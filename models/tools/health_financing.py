@@ -747,7 +747,18 @@ def stacking_check(o, K, pp, e=TOP1_ELASTICITY):
     return dict(shrink=shrink, static=d, collected=collected, share=collected / d if d else 0.0)
 
 
-HEALTH_GROWTH = 0.054   # CMS's projection of national health spending, 2025-34, a year (EV-CAR-056)
+HEALTH_GROWTH_TOTAL = 0.054   # CMS's projection of national health spending, 2025-34, a year (EV-CAR-056)
+
+
+def _pop_growth():
+    """Population growth a year, 2026-36: CBO's civilian population aged 16 and over (the household model's CBO
+    series), the proxy for turning total health spending growth into growth per person (the review of #385)."""
+    from params import econ
+    return (econ("population_civ_16yo", 2036) / econ("population_civ_16yo", 2026)) ** 0.1 - 1
+
+
+# health spending per person: CMS's total growth less population growth
+HEALTH_GROWTH = (1 + HEALTH_GROWTH_TOTAL) / (1 + _pop_growth()) - 1
 
 
 def stacking_adjusted(ctx, spec, e=TOP1_ELASTICITY):
@@ -936,8 +947,8 @@ def run():
     sh, t1 = K["income_line"]
     implied = {g_: base_2040 * 1e9 * s / 100 / (hh * 0.2) for g_, s in zip(GROUPS, sh)}
     implied["T1"] = base_2040 * 1e9 * t1 / 100 / (hh * 0.01)
-    # health costs per person grow with CMS's projection of national health spending, 5.4% a year (EV-CAR-056), against
-    # nominal income per household on the model's path (2029 to FY2040)
+    # health costs per person grow with CMS's projection of national health spending, 5.4% a year (EV-CAR-056), less
+    # population growth, against nominal income per household on the model's path (2029 to FY2040)
     gg = ((1 + HEALTH_GROWTH) / (1 + ctx["income_growth"])) ** (Y - 2026)
     ex = {k: examples(ctx, P[k], gg) for k in P}
     tc = {k: topcode_check(P[k], K, hh) for k in P}
@@ -947,7 +958,7 @@ def run():
     for name, spec in (("A", PACKAGES["A"]), ("A_employer_uncapped", dict(PACKAGES["A"], emp_base="payroll")),
                        ("A_employer_capped_no_low_pay_line", dict(PACKAGES["A"], emp_base="payroll_cap")),
                        ("B", PACKAGES["B"])):
-        for e in (0.12, TOP1_ELASTICITY, 0.4):
+        for e in (0.12, TOP1_ELASTICITY, 0.4, 0.57):
             o_, lost = stacking_adjusted(ctx, spec, e)
             adj[f"{name}@{e}"] = dict(lost=lost, first=o_["first"], vat=o_["vat_rate"], households=o_["households"])
     pt = {k: passthrough_check(ctx, P[k]) for k in ("A",)}
