@@ -126,7 +126,7 @@ class Unified(unittest.TestCase):
     def test_cbo_payroll_matches_the_library(self):
         path = os.path.join(CR.ROOT, "library", "text", "cbo-2026-long-term-social-security-projections-workbook.txt")
         lines = open(path, encoding="utf-8").read().splitlines()
-        start = next(i for i, x in enumerate(lines) if "2. Projected Gross Domestic Product and Taxable Payroll" in x)
+        start = next(i for i, x in enumerate(lines) if x.endswith("= Taxable payroll"))      # table 2's header
         for y, v in CR.CBO_TAXABLE_PAYROLL.items():
             i = next(i for i in range(start, len(lines)) if lines[i].endswith(f"= {y}"))
             self.assertAlmostEqual(float(lines[i + 2].split("= ")[1]), v, places=3)
