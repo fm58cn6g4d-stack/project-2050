@@ -100,13 +100,13 @@ class Unified(unittest.TestCase):
 
     def test_reproduces_x3(self):
         r = self.x3
-        self.assertAlmostEqual(r["reassigned"], 308.06, delta=0.05)
+        self.assertAlmostEqual(r["reassigned"] - r["lost"]["H1b"], 308.06, delta=0.05)   # X3 kept H1b whole
         self.assertAlmostEqual(r["pass_all"], 78.66, delta=0.01)
         self.assertAlmostEqual(r["pass_below_200"], 98.55, delta=0.01)
         self.assertAlmostEqual(r["exemption_cost_bn"], 18.99, delta=0.01)
         self.assertAlmostEqual(r["T"]["plan"], 3514.1, delta=0.5)
         self.assertAlmostEqual(r["T"]["today"], 6692.3, delta=0.5)
-        self.assertAlmostEqual(r["lost"]["total"], 359.36, delta=0.05)
+        self.assertAlmostEqual(r["lost"]["total"] - r["lost"]["H1b"], 359.36, delta=0.05)
 
     def test_booked_revenue_adds_up(self):
         o = CR.unified_package(self.ctx, self.case, self.u3, basis="hf")
@@ -143,6 +143,14 @@ class Unified(unittest.TestCase):
         b = CR.unified_package(self.ctx, self.case, self.u3)
         self.assertGreater(a["reassigned"], b["reassigned"])
         self.assertGreater(CR.take_home_micro(self.ctx, a)["all"], CR.take_home_micro(self.ctx, b)["all"])
+
+    def test_h1b_folded_into_s_wins_back_its_wage_half(self):
+        fold = CR.h1b_restated(self.ctx)["fold_into_s_points"]
+        a = CR.unified_package(self.ctx, self.case, self.u3)                              # S = 5, H1b lost
+        b = CR.unified_package(self.ctx, self.case, CR.unified_spec(3.0, S=5.0 + fold))  # H1b folded into S
+        self.assertAlmostEqual(a["reassigned"] - b["reassigned"], a["lost"]["H1b"], places=6)
+        self.assertAlmostEqual(b["reassigned"], a["remainder_F"] + a["lost"]["total"] - a["lost"]["H1b"]
+                               - a["household_collected"], places=6)
 
     def test_h1b_restatement_keeps_its_yield(self):
         h = CR.h1b_restated(self.ctx)

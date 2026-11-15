@@ -968,7 +968,8 @@ def worker_hi_bn(ctx, basis="cbo"):
 
 def fold_in_lost(ctx, o, basis="cbo"):
     """What the fold-in stops collecting, FY2040 $B: the worker's HI, the 0.9% (household model, statutory
-    thresholds, earnings grown with GDP per household) and worker HI on former pre-tax premiums (in HX)."""
+    thresholds, earnings grown with GDP per household), worker HI on former pre-tax premiums (in HX), and H1b's wage
+    half, whose base (the worker's HI and the 0.9%) is repealed; the surcharge or the `h1b` step wins it back."""
     _, _, _, _, X = HF.keys()
     scale = ctx["hh"] / X["n29"] / 1e9
     amt = {}
@@ -979,7 +980,8 @@ def fold_in_lost(ctx, o, basis="cbo"):
     HF.household_key("amt_fold", lambda h: amt.get(h["hh"], 0.0))
     W = worker_hi_bn(ctx, basis)
     hxp = WORKER_HI * o["hx_kept"] / ctx["tau"]
-    return dict(W=W, A=A, hxp=hxp, total=W + A + hxp, basis=basis)
+    H = h1b_restated(ctx)["wage_half"]
+    return dict(W=W, A=A, hxp=hxp, H1b=H, total=W + A + hxp + H, basis=basis)
 
 
 def unified_package(ctx, case, u, basis="cbo", haircut=None):
@@ -995,6 +997,7 @@ def unified_package(ctx, case, u, basis="cbo", haircut=None):
     rows = F["rows"] + [("Worker HI (1.45%) ends", lost["W"], "wages"),
                         ("Additional Medicare tax (0.9%) ends", lost["A"], "amt_fold"),
                         ("Worker HI on former pre-tax premiums ends (HX)", lost["hxp"], "exclusion_end"),
+                        ("H1b's wage half loses its base", lost["H1b"], "income_high"),
                         ("Unified health contribution: the statutory charge", -st, tag),
                         (f"Unified health contribution: less avoidance ({round(100 * h)}%)", st * h, "avoid_" + tag)]
     o = dict(F, rows=rows, unified=u, key=tag, lost=lost, remainder_F=F["reassigned"], statutory=st,
@@ -1015,11 +1018,16 @@ def top_rate_unified(u, h1b_in_s=0.0):
     return HF.TOP_RATE_BEFORE_HEALTH - 5.0 + 1.45 + u["R"] + u["S"] + u.get("h1b", 0.0) + h1b_in_s
 
 
+_H1B = {}
+
+
 def h1b_restated(ctx, haircuts=(0.1, 0.2, 0.3, 0.4)):
     """H1b's wage half loses its base when HI is folded in. Its share of H1b: wages above $400K over AGI above $400K
     on the household model (the investment half stays as a 5% investment-income tax). Restated as its own step (points
     on AGI above $400K) or folded into S (extra surcharge points), each sized to keep the booked $62.7B whole; and
     each at other avoidance allowances (H1b's own yield moves the same way)."""
+    if haircuts in _H1B:
+        return _H1B[haircuts]
     _, _, _, _, X = HF.keys()
     ig = X["grow"] / ctx["price_2040"]
     ig_e = sum(x["weight"] * max(earn_unit(x) * ig - H1B_LINE[j], 0.0) for x, a, j, n in _units(ctx))
@@ -1038,6 +1046,7 @@ def h1b_restated(ctx, haircuts=(0.1, 0.2, 0.3, 0.4)):
                                      h1b_yield=H1B_BN * (1 - hc) / 0.8, wage_half_yield=wage_half * (1 - hc) / 0.8)
     out["own_step_points"] = out["by_haircut"][0.2]["own_step_points"]
     out["fold_into_s_points"] = out["by_haircut"][0.2]["fold_into_s_points"]
+    _H1B[haircuts] = out
     return out
 
 
@@ -1083,24 +1092,30 @@ def run_part3():
                     losers=HF.micro(ctx, oE)["bottom_four_losers_m"], households_2026=per_household_2026(ctx, oE),
                     others=take_home_micro(ctx, oE, who="others")["all"],
                     pass_with_low2=take_home_micro(ctx, oE, low2=True)["all"])
+    fold = h1b_restated(ctx)["fold_into_s_points"]
+    S0 = 5.0 + fold                         # H1b's wage half folded into the surcharge, as recommended
+    out["S"] = S0
     for R in RATES:
-        out["rates"][R] = unified_row(ctx, case, unified_spec(R))
+        out["rates"][R] = unified_row(ctx, case, unified_spec(R, S=S0))
     ok = [R for R in RATES if out["rates"][R]["pass_all"] >= TARGET]
     out["meets_target"] = ok
     near = sorted(RATES, key=lambda R: abs(R - (max(ok) if ok else RATES[0])))[:2]
     for R in sorted(near):
-        out["s4"][R] = unified_row(ctx, case, unified_spec(R, S=4.0), others=False)
+        out["s4"][R] = unified_row(ctx, case, unified_spec(R, S=4.0 + fold), others=False)
     Rc = max(ok) if ok else RATES[0]
     out["chosen"] = Rc
     for name, kw in (("to 250%", dict(hi=2.5)), ("to 300%", dict(hi=3.0)), ("steady rate to 200%", dict(form="linear")),
                      ("steady rate to 250%", dict(hi=2.5, form="linear"))):
-        out["phase"][name] = unified_row(ctx, case, unified_spec(Rc, **kw), others=False)
+        out["phase"][name] = unified_row(ctx, case, unified_spec(Rc, S=S0, **kw), others=False)
+    out["recommended"] = {R: unified_row(ctx, case, unified_spec(R, S=S0, hi=2.5, form="linear"))
+                          for R in (2.25, 2.5)}
+    out["h1b_not_restated"] = unified_package(ctx, case, unified_spec(Rc))["reassigned"]
     out["h1b"] = h1b_restated(ctx)
-    out["haircut"] = {hc: unified_package(ctx, case, unified_spec(Rc), haircut=hc)["reassigned"]
+    out["haircut"] = {hc: unified_package(ctx, case, unified_spec(Rc, S=S0), haircut=hc)["reassigned"]
                       for hc in (0.1, 0.2, 0.3, 0.4)}
-    out["basis"] = {b: unified_package(ctx, case, unified_spec(Rc), basis=b)["reassigned"]
+    out["basis"] = {b: unified_package(ctx, case, unified_spec(Rc, S=S0), basis=b)["reassigned"]
                     for b in ("hf", "cbo", "micro")}
-    out["part_b_off"] = take_home_micro(ctx, unified_package(ctx, case, unified_spec(Rc)), who="others",
+    out["part_b_off"] = take_home_micro(ctx, unified_package(ctx, case, unified_spec(Rc, S=S0)), who="others",
                                         part_b=False)["all"]
     return out
 
