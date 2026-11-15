@@ -1,0 +1,1765 @@
+{
+ "lost": {
+  "W": 289.7578187727659,
+  "W_micro": 342.89549104404125,
+  "A": 53.522251617378565,
+  "A_2029_bn": 23.549634552417544,
+  "hxp": 16.08342119852661,
+  "total": 359.3634915886711,
+  "payroll_gross": 199.8329784639765,
+  "tau": 0.31238175733853474,
+  "hx_kept": 346.49430193183343
+ },
+ "targets": [
+  287.808387132096,
+  507.49708858170425
+ ],
+ "W1": {
+  "collected": 918.0626521449253,
+  "reassigned": 287.80838713209573,
+  "gap": 357.80838713209573,
+  "employer_rate_band": 19.313335287457747,
+  "employer_gross": 1945.2686516266351,
+  "take_home": {
+   "by_agi": {
+    "0-25K": 91.84280527340238,
+    "25-50K": 87.98237874016127,
+    "50-75K": 75.59660233522972,
+    "75-100K": 69.77701884318867,
+    "100-150K": 67.93728620594223,
+    "150-200K": 65.67882315221719,
+    "200-1000000K": 38.94495800739582
+   },
+   "by_kind": {
+    "medicare": 76.32846961263189,
+    "job": 67.31779770741404,
+    "uninsured": 86.59914172795867,
+    "medicaid": 50.257315082307315,
+    "own": 96.55352057449804
+   },
+   "all": 70.141313738667,
+   "below_200fpl": 89.35357702881099,
+   "below_200fpl_share": 19.729190139132964
+  },
+  "T": {
+   "today": 6692.317763373737,
+   "today_hi": 1013.5500000000001,
+   "plan": 3948.432307987793,
+   "contribution": 2619.6448913643,
+   "copays": 498.4253747790672,
+   "tax_on_premium": 830.3620418444261
+  },
+  "T2": {
+   "today": 6692.317763373737,
+   "today_hi": 1013.5500000000001,
+   "plan": 4994.523232941298,
+   "contribution": 2619.6448913643,
+   "copays": 498.4253747790672,
+   "tax_on_premium": 830.3620418444259
+  },
+  "grid": {
+   "single 55000": [
+    4707,
+    2987,
+    798
+   ],
+   "single 72000": [
+    4954,
+    3833,
+    1044
+   ],
+   "single 90000": [
+    5215,
+    4480,
+    1305
+   ],
+   "single 110000": [
+    5505,
+    5200,
+    1595
+   ],
+   "single 150000": [
+    6128,
+    6685,
+    2218
+   ],
+   "family 55000": [
+    17535,
+    4261,
+    798
+   ],
+   "family 72000": [
+    17782,
+    6866,
+    1044
+   ],
+   "family 90000": [
+    18043,
+    7514,
+    1305
+   ],
+   "family 110000": [
+    18333,
+    8233,
+    1595
+   ],
+   "family 150000": [
+    18913,
+    10719,
+    2175
+   ]
+  },
+  "grid2": {
+   "single 55000": [
+    4707,
+    3723,
+    798
+   ],
+   "single 72000": [
+    4954,
+    4909,
+    1044
+   ],
+   "single 90000": [
+    5215,
+    5917,
+    1305
+   ],
+   "single 110000": [
+    5505,
+    7036,
+    1595
+   ],
+   "single 150000": [
+    6128,
+    9321,
+    2218
+   ],
+   "family 55000": [
+    17535,
+    4749,
+    798
+   ],
+   "family 72000": [
+    17782,
+    7694,
+    1044
+   ],
+   "family 90000": [
+    18043,
+    8701,
+    1305
+   ],
+   "family 110000": [
+    18333,
+    9821,
+    1595
+   ],
+   "family 150000": [
+    18913,
+    13107,
+    2175
+   ]
+  },
+  "losers": 7.693091112461669,
+  "losers5": 0.23950153433110527,
+  "households": {
+   "Q1": 6241,
+   "Q2": 11422,
+   "Q3": 14534,
+   "Q4": 12680,
+   "Q5": -8933,
+   "T1": -273467
+  },
+  "low_grid": {
+   "single 15000 job": {
+    "today": 4127,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 218,
+    "plan": 1004,
+    "passes": true
+   },
+   "single 15000 uninsured": {
+    "today": 2256,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 218,
+    "plan": 539,
+    "passes": true
+   },
+   "single 15000 medicaid": {
+    "today": 486,
+    "prem": 0,
+    "oop": 268,
+    "hi": 218,
+    "plan": 539,
+    "passes": false
+   },
+   "single 15000 own": {
+    "today": 3546,
+    "prem": 442,
+    "oop": 2886,
+    "hi": 218,
+    "plan": 539,
+    "passes": true
+   },
+   "single 25000 job": {
+    "today": 4272,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 362,
+    "plan": 1363,
+    "passes": true
+   },
+   "single 25000 uninsured": {
+    "today": 2401,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 362,
+    "plan": 899,
+    "passes": true
+   },
+   "single 25000 medicaid": {
+    "today": 631,
+    "prem": 0,
+    "oop": 268,
+    "hi": 362,
+    "plan": 899,
+    "passes": false
+   },
+   "single 25000 own": {
+    "today": 4721,
+    "prem": 1472,
+    "oop": 2886,
+    "hi": 362,
+    "plan": 899,
+    "passes": true
+   },
+   "single 40000 job": {
+    "today": 4490,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 580,
+    "plan": 2448,
+    "passes": true
+   },
+   "single 40000 uninsured": {
+    "today": 2618,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 580,
+    "plan": 1937,
+    "passes": true
+   },
+   "single 40000 medicaid": {
+    "today": 848,
+    "prem": 0,
+    "oop": 268,
+    "hi": 580,
+    "plan": 1438,
+    "passes": false
+   },
+   "single 40000 own": {
+    "today": 8167,
+    "prem": 4700,
+    "oop": 2886,
+    "hi": 580,
+    "plan": 1937,
+    "passes": true
+   },
+   "single 55000 job": {
+    "today": 4707,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 798,
+    "plan": 2987,
+    "passes": true
+   },
+   "single 55000 uninsured": {
+    "today": 2836,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 798,
+    "plan": 2476,
+    "passes": true
+   },
+   "single 55000 medicaid": {
+    "today": 1066,
+    "prem": 0,
+    "oop": 268,
+    "hi": 798,
+    "plan": 1978,
+    "passes": false
+   },
+   "single 55000 own": {
+    "today": 11365,
+    "prem": 7681,
+    "oop": 2886,
+    "hi": 798,
+    "plan": 2476,
+    "passes": true
+   },
+   "family 15000 job": {
+    "today": 16955,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 218,
+    "plan": 2613,
+    "passes": true
+   },
+   "family 15000 uninsured": {
+    "today": 8370,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 218,
+    "plan": 539,
+    "passes": true
+   },
+   "family 15000 medicaid": {
+    "today": 1290,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 218,
+    "plan": 539,
+    "passes": true
+   },
+   "family 15000 own": {
+    "today": 12205,
+    "prem": 442,
+    "oop": 11546,
+    "hi": 218,
+    "plan": 539,
+    "passes": true
+   },
+   "family 25000 job": {
+    "today": 17100,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 362,
+    "plan": 2973,
+    "passes": true
+   },
+   "family 25000 uninsured": {
+    "today": 8515,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 362,
+    "plan": 899,
+    "passes": true
+   },
+   "family 25000 medicaid": {
+    "today": 1435,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 362,
+    "plan": 899,
+    "passes": true
+   },
+   "family 25000 own": {
+    "today": 12645,
+    "prem": 736,
+    "oop": 11546,
+    "hi": 362,
+    "plan": 899,
+    "passes": true
+   },
+   "family 40000 job": {
+    "today": 17318,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 580,
+    "plan": 3512,
+    "passes": true
+   },
+   "family 40000 uninsured": {
+    "today": 8732,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 580,
+    "plan": 1438,
+    "passes": true
+   },
+   "family 40000 medicaid": {
+    "today": 1652,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 580,
+    "plan": 1438,
+    "passes": true
+   },
+   "family 40000 own": {
+    "today": 13304,
+    "prem": 1178,
+    "oop": 11546,
+    "hi": 580,
+    "plan": 1438,
+    "passes": true
+   },
+   "family 55000 job": {
+    "today": 17535,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 798,
+    "plan": 4261,
+    "passes": true
+   },
+   "family 55000 uninsured": {
+    "today": 8950,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 798,
+    "plan": 1978,
+    "passes": true
+   },
+   "family 55000 medicaid": {
+    "today": 1870,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 798,
+    "plan": 1978,
+    "passes": false
+   },
+   "family 55000 own": {
+    "today": 15582,
+    "prem": 3239,
+    "oop": 11546,
+    "hi": 798,
+    "plan": 1978,
+    "passes": true
+   }
+  },
+  "R": 3.5962127932781263,
+  "S": 2.0,
+  "line": {
+   "ratio": 13.725223802820194,
+   "pp_comp": 918.062652144925,
+   "t1": 22.42525936568359,
+   "t1_cps": 12.38168519267503,
+   "shares": [
+    1.5043710425912182,
+    6.076185092671313,
+    12.540332132511333,
+    21.05022789515485,
+    58.828883837071295
+   ]
+  },
+  "sur_2026": {
+   "single": 205399.99999999997,
+   "joint": 256749.99999999997
+  },
+  "capped": false,
+  "target": 287.808387132096
+ },
+ "W2": {
+  "collected": 918.0626521449344,
+  "reassigned": 287.80838713208647,
+  "gap": 357.80838713208647,
+  "employer_rate_band": 19.313335287457747,
+  "employer_gross": 1945.2686516266351,
+  "take_home": {
+   "by_agi": {
+    "0-25K": 93.3978209494091,
+    "25-50K": 90.0358179683923,
+    "50-75K": 85.14273797131435,
+    "75-100K": 75.96390505656187,
+    "100-150K": 74.39413227541031,
+    "150-200K": 74.34697025716318,
+    "200-1000000K": 41.113351752452175
+   },
+   "by_kind": {
+    "medicare": 81.01712925169102,
+    "job": 72.76427289764096,
+    "uninsured": 90.41955386513496,
+    "medicaid": 56.562751356376744,
+    "own": 96.90334209532409
+   },
+   "all": 75.15702887643042,
+   "below_200fpl": 92.13874786979578,
+   "below_200fpl_share": 19.729190139132964
+  },
+  "T": {
+   "today": 6692.317763373737,
+   "today_hi": 1013.5500000000001,
+   "plan": 3661.5497463206875,
+   "contribution": 2332.762329697194,
+   "copays": 498.4253747790672,
+   "tax_on_premium": 830.3620418444261
+  },
+  "T2": {
+   "today": 6692.317763373737,
+   "today_hi": 1013.5500000000001,
+   "plan": 4707.640671274193,
+   "contribution": 2332.762329697194,
+   "copays": 498.4253747790672,
+   "tax_on_premium": 830.3620418444259
+  },
+  "grid": {
+   "single 55000": [
+    4707,
+    2761,
+    798
+   ],
+   "single 72000": [
+    4954,
+    3540,
+    1044
+   ],
+   "single 90000": [
+    5215,
+    4117,
+    1305
+   ],
+   "single 110000": [
+    5505,
+    4757,
+    1595
+   ],
+   "single 150000": [
+    6128,
+    6085,
+    2218
+   ],
+   "family 55000": [
+    17535,
+    4003,
+    798
+   ],
+   "family 72000": [
+    17782,
+    6541,
+    1044
+   ],
+   "family 90000": [
+    18043,
+    7118,
+    1305
+   ],
+   "family 110000": [
+    18333,
+    7758,
+    1595
+   ],
+   "family 150000": [
+    18913,
+    10087,
+    2175
+   ]
+  },
+  "grid2": {
+   "single 55000": [
+    4707,
+    3498,
+    798
+   ],
+   "single 72000": [
+    4954,
+    4616,
+    1044
+   ],
+   "single 90000": [
+    5215,
+    5553,
+    1305
+   ],
+   "single 110000": [
+    5505,
+    6593,
+    1595
+   ],
+   "single 150000": [
+    6128,
+    8721,
+    2218
+   ],
+   "family 55000": [
+    17535,
+    4491,
+    798
+   ],
+   "family 72000": [
+    17782,
+    7369,
+    1044
+   ],
+   "family 90000": [
+    18043,
+    8306,
+    1305
+   ],
+   "family 110000": [
+    18333,
+    9346,
+    1595
+   ],
+   "family 150000": [
+    18913,
+    12475,
+    2175
+   ]
+  },
+  "losers": 6.4411336518575695,
+  "losers5": 0.20142983868711867,
+  "households": {
+   "Q1": 6297,
+   "Q2": 11651,
+   "Q3": 15006,
+   "Q4": 13468,
+   "Q5": -10479,
+   "T1": -310536
+  },
+  "low_grid": {
+   "single 15000 job": {
+    "today": 4127,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 218,
+    "plan": 935,
+    "passes": true
+   },
+   "single 15000 uninsured": {
+    "today": 2256,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 218,
+    "plan": 480,
+    "passes": true
+   },
+   "single 15000 medicaid": {
+    "today": 486,
+    "prem": 0,
+    "oop": 268,
+    "hi": 218,
+    "plan": 480,
+    "passes": true
+   },
+   "single 15000 own": {
+    "today": 3546,
+    "prem": 442,
+    "oop": 2886,
+    "hi": 218,
+    "plan": 480,
+    "passes": true
+   },
+   "single 25000 job": {
+    "today": 4272,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 362,
+    "plan": 1255,
+    "passes": true
+   },
+   "single 25000 uninsured": {
+    "today": 2401,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 362,
+    "plan": 801,
+    "passes": true
+   },
+   "single 25000 medicaid": {
+    "today": 631,
+    "prem": 0,
+    "oop": 268,
+    "hi": 362,
+    "plan": 801,
+    "passes": false
+   },
+   "single 25000 own": {
+    "today": 4721,
+    "prem": 1472,
+    "oop": 2886,
+    "hi": 362,
+    "plan": 801,
+    "passes": true
+   },
+   "single 40000 job": {
+    "today": 4490,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 580,
+    "plan": 2281,
+    "passes": true
+   },
+   "single 40000 uninsured": {
+    "today": 2618,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 580,
+    "plan": 1779,
+    "passes": true
+   },
+   "single 40000 medicaid": {
+    "today": 848,
+    "prem": 0,
+    "oop": 268,
+    "hi": 580,
+    "plan": 1281,
+    "passes": false
+   },
+   "single 40000 own": {
+    "today": 8167,
+    "prem": 4700,
+    "oop": 2886,
+    "hi": 580,
+    "plan": 1779,
+    "passes": true
+   },
+   "single 55000 job": {
+    "today": 4707,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 798,
+    "plan": 2761,
+    "passes": true
+   },
+   "single 55000 uninsured": {
+    "today": 2836,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 798,
+    "plan": 2260,
+    "passes": true
+   },
+   "single 55000 medicaid": {
+    "today": 1066,
+    "prem": 0,
+    "oop": 268,
+    "hi": 798,
+    "plan": 1761,
+    "passes": false
+   },
+   "single 55000 own": {
+    "today": 11365,
+    "prem": 7681,
+    "oop": 2886,
+    "hi": 798,
+    "plan": 2260,
+    "passes": true
+   },
+   "family 15000 job": {
+    "today": 16955,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 218,
+    "plan": 2513,
+    "passes": true
+   },
+   "family 15000 uninsured": {
+    "today": 8370,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 218,
+    "plan": 480,
+    "passes": true
+   },
+   "family 15000 medicaid": {
+    "today": 1290,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 218,
+    "plan": 480,
+    "passes": true
+   },
+   "family 15000 own": {
+    "today": 12205,
+    "prem": 442,
+    "oop": 11546,
+    "hi": 218,
+    "plan": 480,
+    "passes": true
+   },
+   "family 25000 job": {
+    "today": 17100,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 362,
+    "plan": 2833,
+    "passes": true
+   },
+   "family 25000 uninsured": {
+    "today": 8515,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 362,
+    "plan": 801,
+    "passes": true
+   },
+   "family 25000 medicaid": {
+    "today": 1435,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 362,
+    "plan": 801,
+    "passes": true
+   },
+   "family 25000 own": {
+    "today": 12645,
+    "prem": 736,
+    "oop": 11546,
+    "hi": 362,
+    "plan": 801,
+    "passes": true
+   },
+   "family 40000 job": {
+    "today": 17318,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 580,
+    "plan": 3313,
+    "passes": true
+   },
+   "family 40000 uninsured": {
+    "today": 8732,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 580,
+    "plan": 1281,
+    "passes": true
+   },
+   "family 40000 medicaid": {
+    "today": 1652,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 580,
+    "plan": 1281,
+    "passes": true
+   },
+   "family 40000 own": {
+    "today": 13304,
+    "prem": 1178,
+    "oop": 11546,
+    "hi": 580,
+    "plan": 1281,
+    "passes": true
+   },
+   "family 55000 job": {
+    "today": 17535,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 798,
+    "plan": 4003,
+    "passes": true
+   },
+   "family 55000 uninsured": {
+    "today": 8950,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 798,
+    "plan": 1761,
+    "passes": true
+   },
+   "family 55000 medicaid": {
+    "today": 1870,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 798,
+    "plan": 1761,
+    "passes": true
+   },
+   "family 55000 own": {
+    "today": 15582,
+    "prem": 3239,
+    "oop": 11546,
+    "hi": 798,
+    "plan": 1761,
+    "passes": true
+   }
+  },
+  "R": 3.2023843236879808,
+  "S": 4.0,
+  "line": {
+   "ratio": 13.725223802820333,
+   "pp_comp": 918.0626521449343,
+   "t1": 28.86154306069966,
+   "t1_cps": 15.37551783660941,
+   "shares": [
+    1.3550627404139175,
+    5.4731258378619945,
+    11.29570853471885,
+    18.97410528676987,
+    62.90199760023536
+   ]
+  },
+  "sur_2026": {
+   "single": 205399.99999999997,
+   "joint": 256749.99999999997
+  },
+  "capped": false,
+  "target": 287.808387132096
+ },
+ "W3": {
+  "collected": 918.0626521449303,
+  "reassigned": 287.8083871320905,
+  "gap": 357.8083871320905,
+  "employer_rate_band": 19.313335287457747,
+  "employer_gross": 1945.2686516266351,
+  "take_home": {
+   "by_agi": {
+    "0-25K": 94.1433841972624,
+    "25-50K": 90.66381888526256,
+    "50-75K": 89.51866360713315,
+    "75-100K": 80.18550752851249,
+    "100-150K": 77.40878715630913,
+    "150-200K": 77.89506895517106,
+    "200-1000000K": 42.3746103682015
+   },
+   "by_kind": {
+    "medicare": 82.84406453448493,
+    "job": 75.43425306571089,
+    "uninsured": 92.31930972411054,
+    "medicaid": 59.46466817932303,
+    "own": 97.07052832912653
+   },
+   "all": 77.57988570199055,
+   "below_200fpl": 93.22148432508779,
+   "below_200fpl_share": 19.729190139132964
+  },
+  "T": {
+   "today": 6692.317763373737,
+   "today_hi": 1013.5500000000001,
+   "plan": 3514.123804053752,
+   "contribution": 2185.336387430258,
+   "copays": 498.4253747790672,
+   "tax_on_premium": 830.3620418444266
+  },
+  "T2": {
+   "today": 6692.317763373737,
+   "today_hi": 1013.5500000000001,
+   "plan": 4560.214729007257,
+   "contribution": 2185.336387430258,
+   "copays": 498.4253747790672,
+   "tax_on_premium": 830.3620418444264
+  },
+  "grid": {
+   "single 55000": [
+    4707,
+    2645,
+    798
+   ],
+   "single 72000": [
+    4954,
+    3390,
+    1044
+   ],
+   "single 90000": [
+    5215,
+    3930,
+    1305
+   ],
+   "single 110000": [
+    5505,
+    4530,
+    1595
+   ],
+   "single 150000": [
+    6128,
+    5777,
+    2218
+   ],
+   "family 55000": [
+    17535,
+    3871,
+    798
+   ],
+   "family 72000": [
+    17782,
+    6375,
+    1044
+   ],
+   "family 90000": [
+    18043,
+    6915,
+    1305
+   ],
+   "family 110000": [
+    18333,
+    7515,
+    1595
+   ],
+   "family 150000": [
+    18913,
+    9762,
+    2175
+   ]
+  },
+  "grid2": {
+   "single 55000": [
+    4707,
+    3382,
+    798
+   ],
+   "single 72000": [
+    4954,
+    4466,
+    1044
+   ],
+   "single 90000": [
+    5215,
+    5366,
+    1305
+   ],
+   "single 110000": [
+    5505,
+    6366,
+    1595
+   ],
+   "single 150000": [
+    6128,
+    8413,
+    2218
+   ],
+   "family 55000": [
+    17535,
+    4359,
+    798
+   ],
+   "family 72000": [
+    17782,
+    7202,
+    1044
+   ],
+   "family 90000": [
+    18043,
+    8102,
+    1305
+   ],
+   "family 110000": [
+    18333,
+    9102,
+    1595
+   ],
+   "family 150000": [
+    18913,
+    12150,
+    2175
+   ]
+  },
+  "losers": 5.649346256917801,
+  "losers5": 0.17004352167581918,
+  "households": {
+   "Q1": 6327,
+   "Q2": 11770,
+   "Q3": 15253,
+   "Q4": 13880,
+   "Q5": -11288,
+   "T1": -330203
+  },
+  "low_grid": {
+   "single 15000 job": {
+    "today": 4127,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 218,
+    "plan": 900,
+    "passes": true
+   },
+   "single 15000 uninsured": {
+    "today": 2256,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 218,
+    "plan": 450,
+    "passes": true
+   },
+   "single 15000 medicaid": {
+    "today": 486,
+    "prem": 0,
+    "oop": 268,
+    "hi": 218,
+    "plan": 450,
+    "passes": true
+   },
+   "single 15000 own": {
+    "today": 3546,
+    "prem": 442,
+    "oop": 2886,
+    "hi": 218,
+    "plan": 450,
+    "passes": true
+   },
+   "single 25000 job": {
+    "today": 4272,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 362,
+    "plan": 1200,
+    "passes": true
+   },
+   "single 25000 uninsured": {
+    "today": 2401,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 362,
+    "plan": 750,
+    "passes": true
+   },
+   "single 25000 medicaid": {
+    "today": 631,
+    "prem": 0,
+    "oop": 268,
+    "hi": 362,
+    "plan": 750,
+    "passes": false
+   },
+   "single 25000 own": {
+    "today": 4721,
+    "prem": 1472,
+    "oop": 2886,
+    "hi": 362,
+    "plan": 750,
+    "passes": true
+   },
+   "single 40000 job": {
+    "today": 4490,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 580,
+    "plan": 2195,
+    "passes": true
+   },
+   "single 40000 uninsured": {
+    "today": 2618,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 580,
+    "plan": 1698,
+    "passes": true
+   },
+   "single 40000 medicaid": {
+    "today": 848,
+    "prem": 0,
+    "oop": 268,
+    "hi": 580,
+    "plan": 1200,
+    "passes": false
+   },
+   "single 40000 own": {
+    "today": 8167,
+    "prem": 4700,
+    "oop": 2886,
+    "hi": 580,
+    "plan": 1698,
+    "passes": true
+   },
+   "single 55000 job": {
+    "today": 4707,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 798,
+    "plan": 2645,
+    "passes": true
+   },
+   "single 55000 uninsured": {
+    "today": 2836,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 798,
+    "plan": 2148,
+    "passes": true
+   },
+   "single 55000 medicaid": {
+    "today": 1066,
+    "prem": 0,
+    "oop": 268,
+    "hi": 798,
+    "plan": 1650,
+    "passes": false
+   },
+   "single 55000 own": {
+    "today": 11365,
+    "prem": 7681,
+    "oop": 2886,
+    "hi": 798,
+    "plan": 2148,
+    "passes": true
+   },
+   "family 15000 job": {
+    "today": 16955,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 218,
+    "plan": 2461,
+    "passes": true
+   },
+   "family 15000 uninsured": {
+    "today": 8370,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 218,
+    "plan": 450,
+    "passes": true
+   },
+   "family 15000 medicaid": {
+    "today": 1290,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 218,
+    "plan": 450,
+    "passes": true
+   },
+   "family 15000 own": {
+    "today": 12205,
+    "prem": 442,
+    "oop": 11546,
+    "hi": 218,
+    "plan": 450,
+    "passes": true
+   },
+   "family 25000 job": {
+    "today": 17100,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 362,
+    "plan": 2761,
+    "passes": true
+   },
+   "family 25000 uninsured": {
+    "today": 8515,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 362,
+    "plan": 750,
+    "passes": true
+   },
+   "family 25000 medicaid": {
+    "today": 1435,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 362,
+    "plan": 750,
+    "passes": true
+   },
+   "family 25000 own": {
+    "today": 12645,
+    "prem": 736,
+    "oop": 11546,
+    "hi": 362,
+    "plan": 750,
+    "passes": true
+   },
+   "family 40000 job": {
+    "today": 17318,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 580,
+    "plan": 3211,
+    "passes": true
+   },
+   "family 40000 uninsured": {
+    "today": 8732,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 580,
+    "plan": 1200,
+    "passes": true
+   },
+   "family 40000 medicaid": {
+    "today": 1652,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 580,
+    "plan": 1200,
+    "passes": true
+   },
+   "family 40000 own": {
+    "today": 13304,
+    "prem": 1178,
+    "oop": 11546,
+    "hi": 580,
+    "plan": 1200,
+    "passes": true
+   },
+   "family 55000 job": {
+    "today": 17535,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 798,
+    "plan": 3871,
+    "passes": true
+   },
+   "family 55000 uninsured": {
+    "today": 8950,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 798,
+    "plan": 1650,
+    "passes": true
+   },
+   "family 55000 medicaid": {
+    "today": 1870,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 798,
+    "plan": 1650,
+    "passes": true
+   },
+   "family 55000 own": {
+    "today": 15582,
+    "prem": 3239,
+    "oop": 11546,
+    "hi": 798,
+    "plan": 1650,
+    "passes": true
+   }
+  },
+  "R": 3.0,
+  "S": 5.027779042477924,
+  "line": {
+   "ratio": 13.725223802820274,
+   "pp_comp": 918.0626521449303,
+   "t1": 32.16908180728974,
+   "t1_cps": 16.94101868962759,
+   "shares": [
+    1.2769881443289193,
+    5.157780963880059,
+    10.64488414479233,
+    17.88848290871812,
+    65.03186383828057
+   ]
+  },
+  "sur_2026": {
+   "single": 205399.99999999997,
+   "joint": 256749.99999999997
+  },
+  "capped": false,
+  "target": 287.808387132096
+ },
+ "W4": {
+  "collected": 698.3739506953198,
+  "reassigned": 507.4970885817011,
+  "gap": 577.4970885817011,
+  "employer_rate_band": 19.313335287457747,
+  "employer_gross": 1945.2686516266351,
+  "take_home": {
+   "by_agi": {
+    "0-25K": 99.90075846963967,
+    "25-50K": 95.42298213208673,
+    "50-75K": 95.93816915032181,
+    "75-100K": 97.75277310553771,
+    "100-150K": 95.11606548889581,
+    "150-200K": 91.2808272621355,
+    "200-1000000K": 59.51357477164621
+   },
+   "by_kind": {
+    "medicare": 89.53764449741068,
+    "job": 88.33161581109063,
+    "uninsured": 96.85960187712593,
+    "medicaid": 80.17155676734886,
+    "own": 98.02388829360706
+   },
+   "all": 89.23399892564805,
+   "below_200fpl": 99.85668196813265,
+   "below_200fpl_share": 19.729190139132964
+  },
+  "T": {
+   "today": 6692.317763373737,
+   "today_hi": 1013.5500000000001,
+   "plan": 2966.029412940102,
+   "contribution": 1637.241996316608,
+   "copays": 498.4253747790672,
+   "tax_on_premium": 830.3620418444266
+  },
+  "T2": {
+   "today": 6692.317763373737,
+   "today_hi": 1013.5500000000001,
+   "plan": 4012.120337893607,
+   "contribution": 1637.241996316608,
+   "copays": 498.4253747790672,
+   "tax_on_premium": 830.3620418444264
+  },
+  "grid": {
+   "single 55000": [
+    4707,
+    2214,
+    798
+   ],
+   "single 72000": [
+    4954,
+    2831,
+    1044
+   ],
+   "single 90000": [
+    5215,
+    3235,
+    1305
+   ],
+   "single 110000": [
+    5505,
+    3685,
+    1595
+   ],
+   "single 150000": [
+    6128,
+    4631,
+    2218
+   ],
+   "family 55000": [
+    17535,
+    3378,
+    798
+   ],
+   "family 72000": [
+    17782,
+    5754,
+    1044
+   ],
+   "family 90000": [
+    18043,
+    6159,
+    1305
+   ],
+   "family 110000": [
+    18333,
+    6608,
+    1595
+   ],
+   "family 150000": [
+    18913,
+    8555,
+    2175
+   ]
+  },
+  "grid2": {
+   "single 55000": [
+    4707,
+    2950,
+    798
+   ],
+   "single 72000": [
+    4954,
+    3907,
+    1044
+   ],
+   "single 90000": [
+    5215,
+    4671,
+    1305
+   ],
+   "single 110000": [
+    5505,
+    5521,
+    1595
+   ],
+   "single 150000": [
+    6128,
+    7267,
+    2218
+   ],
+   "family 55000": [
+    17535,
+    3866,
+    798
+   ],
+   "family 72000": [
+    17782,
+    6582,
+    1044
+   ],
+   "family 90000": [
+    18043,
+    7346,
+    1305
+   ],
+   "family 110000": [
+    18333,
+    8196,
+    1595
+   ],
+   "family 150000": [
+    18913,
+    10943,
+    2175
+   ]
+  },
+  "losers": 3.4731354511719563,
+  "losers5": 0.09819870306017599,
+  "households": {
+   "Q1": 6448,
+   "Q2": 12259,
+   "Q3": 16262,
+   "Q4": 15576,
+   "Q5": -7337,
+   "T1": -293136
+  },
+  "low_grid": {
+   "single 15000 job": {
+    "today": 4127,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 218,
+    "plan": 770,
+    "passes": true
+   },
+   "single 15000 uninsured": {
+    "today": 2256,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 218,
+    "plan": 337,
+    "passes": true
+   },
+   "single 15000 medicaid": {
+    "today": 486,
+    "prem": 0,
+    "oop": 268,
+    "hi": 218,
+    "plan": 337,
+    "passes": true
+   },
+   "single 15000 own": {
+    "today": 3546,
+    "prem": 442,
+    "oop": 2886,
+    "hi": 218,
+    "plan": 337,
+    "passes": true
+   },
+   "single 25000 job": {
+    "today": 4272,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 362,
+    "plan": 994,
+    "passes": true
+   },
+   "single 25000 uninsured": {
+    "today": 2401,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 362,
+    "plan": 562,
+    "passes": true
+   },
+   "single 25000 medicaid": {
+    "today": 631,
+    "prem": 0,
+    "oop": 268,
+    "hi": 362,
+    "plan": 562,
+    "passes": true
+   },
+   "single 25000 own": {
+    "today": 4721,
+    "prem": 1472,
+    "oop": 2886,
+    "hi": 362,
+    "plan": 562,
+    "passes": true
+   },
+   "single 40000 job": {
+    "today": 4490,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 580,
+    "plan": 1877,
+    "passes": true
+   },
+   "single 40000 uninsured": {
+    "today": 2618,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 580,
+    "plan": 1397,
+    "passes": true
+   },
+   "single 40000 medicaid": {
+    "today": 848,
+    "prem": 0,
+    "oop": 268,
+    "hi": 580,
+    "plan": 899,
+    "passes": false
+   },
+   "single 40000 own": {
+    "today": 8167,
+    "prem": 4700,
+    "oop": 2886,
+    "hi": 580,
+    "plan": 1397,
+    "passes": true
+   },
+   "single 55000 job": {
+    "today": 4707,
+    "prem": 2344,
+    "oop": 1566,
+    "hi": 798,
+    "plan": 2214,
+    "passes": true
+   },
+   "single 55000 uninsured": {
+    "today": 2836,
+    "prem": 0,
+    "oop": 2038,
+    "hi": 798,
+    "plan": 1735,
+    "passes": true
+   },
+   "single 55000 medicaid": {
+    "today": 1066,
+    "prem": 0,
+    "oop": 268,
+    "hi": 798,
+    "plan": 1236,
+    "passes": false
+   },
+   "single 55000 own": {
+    "today": 11365,
+    "prem": 7681,
+    "oop": 2886,
+    "hi": 798,
+    "plan": 1735,
+    "passes": true
+   },
+   "family 15000 job": {
+    "today": 16955,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 218,
+    "plan": 2270,
+    "passes": true
+   },
+   "family 15000 uninsured": {
+    "today": 8370,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 218,
+    "plan": 337,
+    "passes": true
+   },
+   "family 15000 medicaid": {
+    "today": 1290,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 218,
+    "plan": 337,
+    "passes": true
+   },
+   "family 15000 own": {
+    "today": 12205,
+    "prem": 442,
+    "oop": 11546,
+    "hi": 218,
+    "plan": 337,
+    "passes": true
+   },
+   "family 25000 job": {
+    "today": 17100,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 362,
+    "plan": 2494,
+    "passes": true
+   },
+   "family 25000 uninsured": {
+    "today": 8515,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 362,
+    "plan": 562,
+    "passes": true
+   },
+   "family 25000 medicaid": {
+    "today": 1435,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 362,
+    "plan": 562,
+    "passes": true
+   },
+   "family 25000 own": {
+    "today": 12645,
+    "prem": 736,
+    "oop": 11546,
+    "hi": 362,
+    "plan": 562,
+    "passes": true
+   },
+   "family 40000 job": {
+    "today": 17318,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 580,
+    "plan": 2832,
+    "passes": true
+   },
+   "family 40000 uninsured": {
+    "today": 8732,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 580,
+    "plan": 899,
+    "passes": true
+   },
+   "family 40000 medicaid": {
+    "today": 1652,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 580,
+    "plan": 899,
+    "passes": true
+   },
+   "family 40000 own": {
+    "today": 13304,
+    "prem": 1178,
+    "oop": 11546,
+    "hi": 580,
+    "plan": 899,
+    "passes": true
+   },
+   "family 55000 job": {
+    "today": 17535,
+    "prem": 10476,
+    "oop": 6262,
+    "hi": 798,
+    "plan": 3378,
+    "passes": true
+   },
+   "family 55000 uninsured": {
+    "today": 8950,
+    "prem": 0,
+    "oop": 8152,
+    "hi": 798,
+    "plan": 1236,
+    "passes": true
+   },
+   "family 55000 medicaid": {
+    "today": 1870,
+    "prem": 0,
+    "oop": 1072,
+    "hi": 798,
+    "plan": 1236,
+    "passes": true
+   },
+   "family 55000 own": {
+    "today": 15582,
+    "prem": 3239,
+    "oop": 11546,
+    "hi": 798,
+    "plan": 1236,
+    "passes": true
+   }
+  },
+  "R": 2.2475834920433155,
+  "S": 4.0,
+  "line": {
+   "ratio": 10.440832931127494,
+   "pp_comp": 698.3739506953196,
+   "t1": 32.910888846611925,
+   "t1_cps": 17.294689848518264,
+   "shares": [
+    1.2593498704026758,
+    5.086539618456065,
+    10.497852723010695,
+    17.643223812357373,
+    65.51303397577318
+   ]
+  },
+  "sur_2026": {
+   "single": 205399.99999999997,
+   "joint": 256749.99999999997
+  },
+  "capped": false,
+  "target": 507.49708858170425
+ }
+}
