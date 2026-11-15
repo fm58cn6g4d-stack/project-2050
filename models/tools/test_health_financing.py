@@ -62,7 +62,7 @@ class HealthFinancing(unittest.TestCase):
         for grp in ("packages", "sensitivities"):
             for k, o in self.r[grp].items():
                 got = o["employer_net"] + o["state_extra"] + o["household_collected"] + o["savings"]
-                self.assertAlmostEqual(got, o["need"] + o["hi"], delta=0.5, msg=(grp, k))
+                self.assertAlmostEqual(got, o["need"] + o["hi"] + o["hi_tax"], delta=0.5, msg=(grp, k))
                 # the household rows' collections equal household_collected
                 n = 6 if o["hi"] else 5
                 hh_rows = [bn for lb, bn, _ in o["rows"][n:]]
@@ -73,7 +73,7 @@ class HealthFinancing(unittest.TestCase):
             o = self.r["packages"][k]
             for y, d in path.items():
                 self.assertAlmostEqual(d["employers"] + d["states"] + d["savings"] + d["households"],
-                                       d["need"] + d["hi"], delta=0.01)
+                                       d["need"] + d["hi"] + d["hi_tax"], delta=0.01)
             self.assertAlmostEqual(path[2040]["first"], o["first"], delta=1e-6)
             self.assertAlmostEqual(path[2040]["vat"], o["vat_rate"], delta=1e-6)
 
@@ -85,9 +85,9 @@ class HealthFinancing(unittest.TestCase):
         self.assertLess(abs(b["cps_grown_bn"] / b["statutory_bn"] - 1), 0.05)
         # the employer contribution: former premiums (all employers) plus the repealed HI tax, over its base
         S = self.r["sensitivities"]
-        self.assertAlmostEqual(S["A_hi_kept"]["employer_rate"] * HF.band_share(), 11.87, delta=0.01)
-        self.assertAlmostEqual(a["employer_rate"] * HF.band_share(), 11.87 + HF.HI_RATE, delta=0.01)
-        self.assertAlmostEqual(S["A_employer_uncapped"]["employer_rate"], 11.87 + HF.HI_RATE, delta=0.01)
+        self.assertAlmostEqual(a["employer_rate"] * HF.band_share(), 11.87, delta=0.01)
+        self.assertAlmostEqual(S["A_hi_folded"]["employer_rate"] * HF.band_share(), 11.87 + HF.HI_RATE, delta=0.01)
+        self.assertAlmostEqual(S["A_employer_uncapped"]["employer_rate"], 11.87, delta=0.01)
         self.assertAlmostEqual(HF.TOP_RATE_BEFORE_HEALTH, 63.0)
 
     def test_whole_system_sources_add_to_the_gross_cost(self):
@@ -120,7 +120,8 @@ class HealthFinancing(unittest.TestCase):
     def test_examples_add_up(self):
         for k, ex in self.r["examples"].items():
             for e in ex:
-                parts = (e["stop_paying"] + e["hx_on_worker_share"] + e["pay_change"] + e["tax_on_pay_change"]
+                parts = (e["stop_paying"] + e["hx_on_worker_share"] + e["worker_hi_ends"] + e["pay_change"]
+                         + e["tax_on_pay_change"]
                          + e["contribution"] + e["self_employed"] + e["vat"])
                 self.assertAlmostEqual(parts, e["net"], delta=4, msg=(k, e["name"]))
                 self.assertAlmostEqual(-e["contribution"], e["rate1"] / 100 * e["base"] + e["rate2"] / 100
