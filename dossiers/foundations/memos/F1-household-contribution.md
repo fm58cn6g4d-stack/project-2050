@@ -1,6 +1,6 @@
 # Memo F1: How households pay in place of premiums
 
-Role: decision memo for Espen, fork 1 of the financing checkpoint's health batch (`README.md`; `../checkpoint-financing.md`, part B). Status: **for decision, November 14, 2026**. Figures are FY2040, from `models/tools/health_financing.py` (project arithmetic, not an official score), with memo F2 at A and memo F3 at B.
+Role: decision memo for Espen, fork 1 of the financing checkpoint's health batch (`README.md`; `../checkpoint-financing.md`, part B). Status: **superseded, November 15, 2026, by [`../health-financing.md`](../health-financing.md) (its part 9 holds the new questions); kept for the record.** Earlier status: **for decision, November 14, 2026**. Figures are FY2040, from `models/tools/health_financing.py` (project arithmetic, not an official score), with memo F2 at A and memo F3 at B.
 
 ## The question
 

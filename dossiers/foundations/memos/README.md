@@ -1,6 +1,6 @@
 # Financing decision memos: the health batch
 
-Role: the decision memos of the stage E settlement checkpoint (`../checkpoint-financing.md`, part B), one batch, sent together so Espen can decide it in one round. Status: **for Espen's decision, November 14, 2026**; none decided. Each memo is decided on its own (`charter/STANDARDS.md`, "Decision memos"); a decision gets a `DEC-` entry from the lead, and any booking that follows is a tier-3 change to adopted inputs.
+Role: the decision memos of the stage E settlement checkpoint (`../checkpoint-financing.md`, part B), one batch, sent together so Espen can decide it in one round. Status: **superseded, November 15, 2026, by [`../health-financing.md`](../health-financing.md) (its part 9 holds the new questions); kept for the record.** Earlier status: **for Espen's decision, November 14, 2026**; none decided. Each memo is decided on its own (`charter/STANDARDS.md`, "Decision memos"); a decision gets a `DEC-` entry from the lead, and any booking that follows is a tier-3 change to adopted inputs.
 
 ## The forks at a glance
 

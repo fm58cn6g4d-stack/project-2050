@@ -1,0 +1,2298 @@
+Source: https://www.irs.gov/pub/irs-pdf/p1415.pdf
+Publisher: Internal Revenue Service
+Retrieved: 2026-11-15
+Original SHA-256: 85409a6e4056f925578cc7adf14a391998d52c20c3779399d8785ef1ef807d0c
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+Research, Applied
+Analytics & Statistics
+
+t
+t
+t
+t
+t
+t
+
+Federal Tax
+Compliance
+Research:
+Federal Tax Compliance Research:
+
+t
+
+2014–2016
+
+t
+
+for
+Tax
+Years
+Tax
+TaxGap
+GapEstimates
+Estimates for
+Tax
+Years
+2011–2013
+
+t
+t
+t
+t
+
+t
+t
+
+Federal Tax Compliance Research:
+
+t
+
+Tax Gap Estimates for Tax Years 2011–2013
+
+t
+t
+t
+
+Federal Tax Compliance Research:
+Tax Gap Estimates for Tax Years 2011–2013
+
+t
+t
+t
+t
+
+Federal Tax Compliance Research:
+
+Publication 1415 (Rev. 10-2022) Catalog Number 10263H Department of the Treasury Internal Revenue Service www.irs.gov
+
+Tax Gap Estimates for Tax Years 2011–2013
+
+t
+t
+
+This page intentionally left blank.
+
+Federal Tax Compliance Research:
+Tax Gap Estimates for Tax Years 2014-2016
+Melanie R. Krause
+Chief Data and Analytics Officer
+Research, Applied Analytics & Statistics
+Barry W. Johnson
+Deputy Chief Data and Analytics Officer, Statistics
+Director Statistics of Income, RAAS
+Peter J. Rose
+Director, Knowledge Development & Application Division
+Research, Applied Analytics & Statistics
+Mary-Helen Risler
+Chief, Compliance Modeling Lab
+Research, Applied Analytics & Statistics
+Staff Contributors:
+Theodore Black
+Jonathan Fieman
+Andrew Johns
+Patrick Langetieg
+Kara Leibel
+Mark Payne
+Alan Plumley
+Thomas Schuh
+Eric Spitzer
+
+Suggested Citation:
+Internal Revenue Service
+Research, Applied Analytics & Statistics
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014-2016
+Publication 1415 (Rev. 08-2022)
+Washington, DC
+August 2022
+
+This page intentionally left blank.
+
+Table of Contents
+1
+
+EXECUTIVE SUMMARY.......................................................................................................................................... 1
+
+2
+
+INTRODUCTION........................................................................................................................................................ 4
+
+3
+
+TAX GAP ESTIMATES FOR TAX YEARS 2014-2016 .......................................................................................... 5
+3.1
+TAX GAP CONCEPTS: DOLLAR MEASURES ..................................................................................................................... 5
+3.2
+TAX GAP CONCEPTS: RATIO MEASURES ......................................................................................................................... 6
+3.3
+SIGNIFICANT TAX LAW AND OTHER CHANGES SINCE TAX YEAR 2011-2013................................................................. 6
+3.4
+ESTIMATES FOR TAX YEARS 2014-2016 ......................................................................................................................... 7
+3.4.1
+Overall Gross and Net Tax Gap ............................................................................................................................. 7
+3.4.2
+Nonfiling Tax Gap ................................................................................................................................................ 10
+3.4.3
+Underreporting Tax Gap ...................................................................................................................................... 12
+3.4.4
+Underpayment Tax Gap ....................................................................................................................................... 12
+3.4.5
+Enforced and Other Late Payments...................................................................................................................... 13
+3.4.6
+Net Tax Gap by Type of Tax ................................................................................................................................. 13
+3.4.7
+Voluntary Compliance Rates by Type of Tax ....................................................................................................... 13
+3.4.8
+Visibility: A Link Between Reporting Compliance and Third-Party Information Reporting ............................... 13
+
+4
+
+DATA AND METHODOLOGY............................................................................................................................... 15
+4.1
+NONFILING TAX GAP .................................................................................................................................................... 15
+4.1.1
+Individual Income Tax Nonfiling Tax Gap ........................................................................................................... 15
+4.1.1.1 ....................................................................................................................... Late Filer Methodology…15
+4.1.1.2 ........................................................................................................................ Not-Filer Methodology…16
+
+4.1.2
+Self-Employment Tax Nonfiling Tax Gap ............................................................................................................. 16
+4.1.3
+Estate Tax Nonfiling Tax Gap .............................................................................................................................. 16
+4.2
+UNDERREPORTING TAX GAP......................................................................................................................................... 17
+4.2.1
+Individual Income Tax and Self-Employment Tax Underreporting Tax Gaps ..................................................... 17
+4.2.1.1 ......................................................................................................................................... Overview…17
+4.2.1.2 .................................................................................................... Methodology for Tax Years 2014-2016…17
+4.2.1.2.1.................................................................................................. Additional Tip Income Adjustments…18
+4.2.1.2.2.............................................................................................................................Tax Calculator…18
+4.2.1.2.3............................................................................................................................... Filing Status…19
+4.2.1.2.4.......................................................................................................... Unallocated Marginal Effects…19
+4.2.1.3 .......................................................................................... Self-Employment Tax Underreporting Tax Gap…19
+4.2.1.4 ........................................................................................... Uncollected Social Security and Medicare Tax…21
+4.2.1.5 ....................................................................................................... Estimates for Tax Years 2014-2016…211
+
+4.2.2
+
+Corporation Income Tax Underreporting Tax Gap ............................................................................................. 21
+
+4.2.2.1 ...............................................................................Small Corporation Income Tax Underreporting Tax Gap…22
+4.2.2.2 ...............................................................................Large Corporation Income Tax Underreporting Tax Gap…22
+4.2.2.2.1.................................................................................................. Pareto/Extreme Value Methodology…23
+
+4.2.3
+Employment Tax Underreporting Tax Gap .......................................................................................................... 23
+4.2.4
+Estate Tax Underreporting Tax Gap .................................................................................................................... 24
+4.3
+UNDERPAYMENT TAX GAP ........................................................................................................................................... 24
+4.4
+ENFORCED AND OTHER LATE PAYMENTS ..................................................................................................................... 25
+5
+
+TAX GAP PROJECTIONS FOR TAX YEARS 2017-2019 ................................................................................... 26
+
+6
+
+REFERENCES........................................................................................................................................................... 29
+
+______________________________________________________________________________________________________
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+i
+
+Figures and Tables
+TABLE OF CONTENTS .............................................................................................................................................................. I
+FIGURE 1. TY 2014-2016 TAX GAP MAP ............................................................................................................................... 8
+TABLE 1. DECOMPOSITION OF DIFFERENCES IN TY 2011-2013 AND TY 2014-2016 TAX GAP ESTIMATES .... 9
+FIGURE 2. TAX GAP AND VOLUNTARY COMPLIANCE RATE ESTIMATES: TY 2001, TY 2006,
+TY 2008-2010 (ANNUAL AVERAGE), TY 2011-2013 (ANNUAL AVERAGE) AND TY 2014-2016 (ANNUAL
+AVERAGE) ................................................................................................................................................................ 10
+TABLE 2. TAX GAP ESTIMATES FOR TAX YEARS 2014-2016 ...................................................................................... 11
+TABLE 3. VOLUNTARY COMPLIANCE RATES BY TYPE OF TAX, TAX YEARS 2011-2013, AND 2014-2016
+...................................................................................................................... ERROR! BOOKMARK NOT DEFINED.
+FIGURE 3. EFFECT OF INFORMATION REPORTING ON INDIVIDUAL INCOME TAX REPORTING
+COMPLIANCE, TAX YEARS 2014-2016 ............................................................................................................... 14
+TABLE 4: GROUPING OF INCOME ITEMS FOR JOINT DCE ESTIMATION OF UNDETECTED INCOME........ 18
+TABLE 5. INDIVIDUAL INCOME TAX UNDERREPORTING TAX GAP BY SOURCE: TAX YEARS 2014-2016 .. 20
+TABLE 6. INDIVIDUAL INCOME TAX UNDERREPORTING TAX GAP BY TYPE OF CREDIT: TAX YEARS
+2014-2016 .................................................................................................................................................................... 21
+TABLE 7. TAX GAP PROJECTIONS FOR TAX YEAR 2017-2019 BY COMPONENT ................................................. 27
+TABLE 8. TAX GAP PROJECTIONS FOR TAX YEAR 2017-2019 BY TYPE OF TAX ................................................. 28
+
+_____________________________________________________________________________________________________
+
+ii
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+Executive Summary
+
+Federal Tax Compliance Research:
+Tax Gap Estimates for Tax Years 2014-2016
+1
+
+Executive Summary
+
+This report presents estimates of the tax gap for the Tax Year (TY) 2014-2016 timeframe and tax gap
+projections for TY 2017-2019. It also provides revised estimates for TY 2011-2013 that incorporate data
+that were not yet available when the estimates were initially released. The tax gap is a measure of the level
+of overall noncompliance in the context of Internal Revenue Code (IRC) provisions in effect at the time.
+The estimates provide the Internal Revenue Service (IRS) with periodic appraisals of the nature and extent
+of noncompliance for use in formulating tax administration strategies. The word “tax” in the phrase “tax
+gap” is used broadly to encompass both tax and refundable and nonrefundable tax credits.
+The gross tax gap is the amount of true tax liability that is not paid voluntarily and timely. The estimated
+annual gross tax gap for Tax Years (TY) 2014-2016 is $496 billion. The voluntary compliance rate
+(VCR) is a ratio measure of relative compliance and is defined as the amount of “tax paid voluntarily and
+timely” divided by “total true tax”, expressed as a percentage. The estimated VCR is 85.0 percent.
+The gross tax gap comprises three components:
+• Nonfiling (tax not paid on time by those who do not file required returns on time, $39 billion),
+• Underreporting (tax understated on timely filed returns, $398 billion), and
+• Underpayment (tax that was reported on time, but not paid on time, $59 billion).
+The net tax gap is the gross tax gap less tax that subsequently will be paid, either voluntarily but late or
+collected through IRS administrative and enforcement activities. The net tax gap is the portion of the gross
+tax gap that will not be paid. An estimated $68 billion of the gross tax gap eventually will be paid,
+resulting in a TY 2014-2016 net tax gap of $428 billion. The Net Compliance Rate (NCR) is defined as
+the sum of “tax paid voluntarily and timely” and “enforced and other late payments” divided by “total true
+tax”, expressed as a percentage. The estimated NCR is 87.0 percent.
+The tax gap estimates are also segmented by type of tax. The individual income tax makes up the largest
+component of the tax gap, contributing $357 billion to the gross tax gap and $306 to the net tax gap. The
+second and third largest components involve employment tax, which includes self-employment, FICA and
+FUTA tax, and corporation income tax.
+Comparison with Previous Estimates
+Many factors contribute to differences over time in both the gross tax gap and the VCR. These include
+factors such as the overall level of economic activity, changes in the composition of economic activity (for
+example, shifts toward those activities with higher or lower compliance rates), changes in tax law and tax
+administration practices, updated data and improved methodologies, and changes in underlying compliance
+behavior on the part of taxpayers, tax preparers, and other tax advisors.
+The estimated VCR for TY 2014-2016 (85.0 percent) is slightly higher than the revised TY 2011-2013
+estimate (83.7 percent). However, the TY 2014-2016 gross and net tax gap estimates of $496 billion and
+$428 billion, respectively, are higher than their respective revised TY 2011-2013 estimates by $58 billion
+______________________________________________________________________________________________________
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+1
+
+Executive Summary
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+(gross) and by $48 billion (net). These increases can be attributed to economic growth between the two
+periods as evidenced by the more than 23 percent increase in true tax liability.
+The Effect of Information Reporting on Tax Compliance
+Consistent with findings from earlier tax gap analyses, compliance is higher when amounts are subject to
+information reporting and even higher when also subject to withholding. The extent of coverage by
+information reporting and/or withholding is called “visibility” because incomes that are reported to the IRS
+are more “visible” to both the IRS and taxpayers. Misreporting of income amounts subject to substantial
+information reporting and withholding is 1 percent of income. For amounts subject to substantial
+information reporting but not withholding, it is 6 percent; and for income amounts subject to little or no
+information reporting, such as nonfarm sole proprietor income, it is 55 percent.
+Tax Gap Projections, TY 2017-2019
+This tax gap estimate release includes tax gap projections for the TY 2017-2019 timeframe. The projected
+
+annual gross tax gap for the TY 2017-2019 timeframe is $540 billion. The VCR is projected to be 85.1
+percent. An estimated annual $70 billion of the gross tax gap is expected to be paid eventually
+resulting in an annual net tax gap of $470 billion. The NCR projection is 87.0 percent. The
+underreporting tax gap accounts for $35 billion of the $44 billion increase between the TY 2014-2016 gross
+tax gap estimate and the TY 2017-2019 projection. The rest of the difference is due to increases in the
+underpayment tax gap of $7 billion and the nonfiling tax gap of $2 billion.
+Methodology
+In keeping with recent tax gap releases, the new estimates and projections in this report reflect an estimated
+average compliance rate and associated annual tax gap covering a timeframe of three tax years. The
+approaches used to estimate the various tax gap components for TY 2014-2016 generally follow the
+methods used for the previous TY 2011-2013 estimates, with some improvements. For the largest
+components, these TY 2014-2016 estimates, like the prior TY 2011-2013 estimates, are based on actual
+compliance data from completed examinations. Improvements for TY 2014-2016 are reflected in the
+individual income tax and self-employment tax nonfiling tax gap methodologies that incorporate an
+expanded set of data which includes information that was not available for previous estimates. The
+individual income tax underreporting tax gap estimation methodology is modified slightly to address
+changes in the underlying statistical sample data that are the foundation of that component estimate. The
+estate tax nonfiling and underreporting tax gap estimates reflect updated methodologies that take into
+account recent increases in the filing threshold that greatly reduced the number of estates subject to this tax.
+A particular challenge for tax gap estimation is the time it takes to collect certain compliance data, especially
+data on underreporting that come from completed examinations. Waiting for the data to become available
+allows the estimates to reflect the compliance behavior for the years of the estimates, but by then the
+timeframe of the estimates can be several years prior to the year of the tax gap release. To address this issue,
+the current release includes tax gap projections for TY 2017-2019 as a bridge between the competing
+priorities of the need for more contemporaneous tax gap estimates and having tax gap estimates based on
+compliance data for the timeframe of the estimates. Differences between the estimation methods used to
+produce the tax gap estimates and the projections vary by component, reflecting the timing in which
+compliance data become available for use in estimation. For example, the projections of the underreporting
+tax gap generally reflect the level of the tax gap that takes into account the growth in the reported tax or the
+_____________________________________________________________________________________________________
+
+2
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2011–2010
+
+Executive Summary
+
+reported amount of line items on tax returns while assuming compliance behavior has not changed from
+prior years. The projections will be updated as additional compliance data become available.
+Data Limitations
+Given the complexity of the tax system and available data, no single approach can be used for estimating
+each component of the tax gap. Each approach is subject to measurement or nonsampling error; the
+component estimates that are based on samples are also subject to sampling error. For the individual income
+tax underreporting tax gap, Detection Controlled Estimation is used to adjust for measurement errors that
+results when some existing noncompliance is not detected during an audit. Other statistical techniques are
+used to control for bias in estimates based on operational audit data. Due to the heterogenous nature of the
+estimation methodology, no standard errors are reported; however, the user should be mindful of these
+limitations when using these estimates.
+Given available data, these are the best possible estimates of the tax gap components presented. However,
+the estimates cannot fully represent noncompliance in some components of the tax system, particularly as
+it relates to corporation income tax, income from flow-through entities, foreign or illegal activities, and
+digital assets, because data are lacking. For example, the IRS does not have a reliable method for estimating
+the corporation income tax nonfiling tax gap. The tax gap associated with illegal activities has been outside
+the scope of tax gap estimation because the objective of government is to eliminate those activities, which
+would eliminate any associated tax. With respect to noncompliance associated with digital assets and other
+emerging issues, it takes time to develop the expertise to uncover associated noncompliance and for
+examinations to be completed that can be used to measure the extent of that noncompliance.
+Notwithstanding, the IRS is actively working on new methods for estimating and projecting the tax gap to
+better reflect changes in taxpayer behavior as they emerge.
+
+______________________________________________________________________________________________________
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+3
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+2
+
+Introduction
+
+This report presents estimates of the tax gap for the Tax Year (TY) 2014-2016 timeframe and tax gap
+projections for TY 2017-2019. It also provides revised estimates for TY 2011-2013 that incorporate data
+that were not yet available when the estimates were initially released. The tax gap is a measure of the level
+of overall noncompliance given all the events that occurred during the relevant tax periods and the Internal
+Revenue Code (IRC) provisions in effect at the time. Tax gap estimates provide the Internal Revenue
+Service (IRS) with periodic appraisals about the nature and extent of noncompliance for use in formulating
+tax administration strategies. Like the TY 2011-2013 tax gap estimates, the estimates presented in this report
+reflect estimated average compliance rates and associated annual tax gap amounts covering a timeframe of
+three tax years.
+The gross tax gap is the amount of true tax that is not paid voluntarily and timely. The net tax gap is the
+gross tax gap less tax that subsequently will be paid, either voluntarily but late or collected through IRS
+administrative and enforcement activities. The net tax gap is the portion of the gross tax gap that will not
+be paid. The word “tax” in the phrase “tax gap” is used broadly to encompass both tax and refundable and
+nonrefundable tax credits. The IRC allows for various refundable and nonrefundable tax credits, and the
+tax gap estimates account for noncompliance with these credits as well as the tax that these credits offset.
+Thus, for some taxpayers, their “tax” for purposes of tax gap estimation is zero or negative.
+The tax gap framework separates noncompliance into components by type of tax and source of
+noncompliance. There are three primary sources of noncompliance that result in payment of less than the
+true tax: (1) the nonfiling tax gap (the tax not paid on time by those who do not file required returns on
+time); (2) the underreporting tax gap (the net understatement of tax on timely filed returns); and (3) the
+underpayment tax gap (the amount of tax reported on timely filed returns that is not paid on time).
+The unobservable nature of the tax gap makes its estimation difficult and the estimates subject to
+uncertainty. The amount of tax paid by taxpayers can be observed. The counterfactual amount, which is the
+amount of tax that should have been paid by taxpayers, is not observed. The difference between these two
+amounts is the gross tax gap. The asymmetry of information between taxpayers and the IRS, even with
+third-party information reporting and the statutory authority to examine books and records to ascertain that
+the correct tax has been paid, leaves the IRS at a disadvantage in evaluating whether a taxpayer in fact has
+paid the correct tax.
+Estimating the tax gap is inherently challenging and, given the complexity of the tax system and available
+data, no single approach can be used for estimating each component. Each approach is subject to
+nonsampling error; the component estimates that are based on samples are further subject to sampling error.
+The uncertainty of the estimates, therefore, is not readily captured by standard errors that typically
+accompany population estimates based on sample data. For that reason, standard errors, confidence
+intervals, and significance tests for statistical comparisons across years are not reported. When using these
+estimates and making comparisons across years, the user should be mindful of these limitations.
+The estimates and projections were prepared by IRS staff using methodologies developed from research
+and analysis conducted or sponsored by the IRS. Estimating the tax gap requires assessing the merits of
+alternative methodologies, assumptions, and data sources. This report provides summary information about
+
+_____________________________________________________________________________________________________
+
+4
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+the estimation methodologies used to produce these estimates of the tax gap. More detailed information
+about the underlying approaches and assumptions can be found in other documents.1
+The next section of the report presents an overview of the tax gap concepts and estimates. It contains an
+updated schematic representation of the estimates, known as the tax gap “map” and an updated “visibility”
+figure displaying the relationship between individual income tax reporting compliance and third-party
+information reporting and withholding. It also includes a summary of significant tax law and other changes
+that apply to the TY 2014-2016 timeframe. Section 4 includes a general summary of the estimation methods
+and greater detail on the estimates for each of the three primary sources of noncompliance—nonfiling,
+underreporting, and underpayment. The final section of the report covers the TY 2017-2019 projections.
+3
+
+Tax Gap Estimates for Tax Years 2014-2016
+
+The primary focus of tax gap estimation is to measure tax compliance behavior. The tax gap concept
+translates noncompliant behavior into measures that reflect tax not paid voluntarily and/or timely as a result
+of the noncompliant behavior. The concepts and measures are defined on a tax year basis.
+3.1
+
+Tax Gap Concepts: Dollar Measures
+
+Tax gap dollar concepts are measures of the extent of noncompliance. The gross tax gap is defined as the
+dollar amount of true tax that is not paid on time. The gross tax gap measure is defined and estimated at an
+aggregate level that incorporates all types of tax and all sources of noncompliance. The gross tax gap
+measure is also defined and estimated by type of tax, the three primary sources of noncompliance, and other
+subcomponents.
+Enforced and other late payments are defined as the amount of the gross tax gap that eventually will be
+paid. This report presents estimates of the payments at an aggregate level and by type of tax.
+The net tax gap is defined as the gross tax gap less enforced and other late payments. It is the amount of the
+gross tax gap that will not be paid. After subtracting estimates of enforced and other late payments for each
+type of tax, this report presents net tax gap estimates by type of tax. The use of the word “net” in this context
+reflects the subtraction of enforced and other late payments from the gross tax gap.
+The net misreported amount, or NMA, is a concept associated with the underreporting tax gap. The NMA
+is the dollar amount of misreporting associated with a particular tax return or schedule line item. Although
+most often a NMA reflects an amount of income, expense, or similar line item that has been misreported,
+the NMA is also defined for the total amount of tax misreported. Since amounts reported on tax return and
+schedule lines can be either positive or negative and can be overstated or understated, the actual computation
+depends on whether the line item is an income item or an offset item (such as a deduction, expense, or
+credit). For an income item, the NMA is calculated as the sum of all amounts understated minus the sum of
+all amounts overstated. In general, income items are underreported in the aggregate, so the NMA for income
+items generally is positive. For an offset item, the NMA is calculated as the sum of all amounts overstated
+minus the sum of all amounts understated. In general, offset items are overstated in the aggregate, so the
+NMA for offsets typically is positive. For this concept, the word “net” refers to the offsetting of overstated
+and understated amounts and not the subtraction of enforced and other late payments.
+
+1
+
+See https://www.irs.gov/statistics for additional tax gap reports and documents.
+
+______________________________________________________________________________________________________
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+5
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+3.2
+
+Tax Gap Concepts: Ratio Measures
+
+Tax gap concepts include several ratio measures expressed as rates or percentages. The purpose of these
+measures is to provide a relative measure of compliance or noncompliance. These measures are ratios of
+dollar amounts in the aggregate.2
+The voluntary compliance rate (VCR) is defined as the amount of tax paid voluntarily and timely divided
+by total true tax, expressed as a percentage. The VCR is a complement to the gross tax gap.
+The net compliance rate (NCR) is defined as the sum of all timely and enforced and other late payments
+divided by total true tax, expressed as a percentage. The NCR is a complement to the net tax gap. It is also
+equal to one minus the ratio of the net tax gap to total true tax.
+Two other measures are used only for the underreporting tax gap. The net misreporting percentage (NMP)
+for a given line item is the NMA divided by the sum of the absolute values of the amounts that should have
+been reported. For most return or schedule line items, amounts that should have been reported can be
+positive only. However, amounts can be either positive or negative for business-related net income and
+certain other lines. So, for those line items where amounts can be negative, the denominator of the NMP is
+not the net of positive and negative amounts, but instead it is the total of all the amounts disregarding the
+sign in the calculation—that is, it is the sum of the absolute values. The NMP is a complement to the NMA.
+The voluntary reporting rate, or VRR, is another underreporting tax gap measure. It is a measure of the
+overall extent of reporting compliance for a particular type of tax. It is defined as the amount of reported
+tax divided by the amount of tax that should have been reported. It reflects reporting compliance on timely
+filed returns and is a complement to the underreporting tax gap for a particular type of tax.
+3.3
+
+Significant Tax Law and Other Changes Since Tax Year 2011-2013
+
+Tax law and the level of economic activity can affect the tax gap. Major tax legislation enacted for the
+TY 2014-2016 timeframe included the Protecting Americans from Tax Hikes (PATH) Act of 2015, which
+made permanent or extended the tax benefits for individual and business taxpayers and enacted program
+integrity provisions for certain individual tax credits.
+Legislation enacted in December 2017 and known as the Tax Cuts and Jobs Act (TCJA) made permanent
+changes to the corporation income tax and temporary changes to the individual income tax. The TCJA
+reduced the top corporate income tax rate from 35 percent to 21 percent. The corporation Alternative
+Minimum Tax was eliminated and there were rule changes for businesses regarding deductions,
+depreciation, expensing, credits, treatment of foreign source income, cost recovery, and accounting
+methods. Changes to the individual income tax made by TCJA included a general lowering of income tax
+rates, repeal of personal and dependent exemptions, increases in the standard deductions, elimination of or
+limits on certain itemized deductions, expansion of the child tax credit, and a new deduction related to passthrough business income.
+The total number of corporation income tax returns filed continued to decline during the TY 2014-2016
+timeframe, although the number of large corporation income tax returns increased. Reported income tax
+after credits on corporation income tax returns increased with the average for the TY 2014-2016 timeframe
+about $60 billion higher than for the TY 2011-2013 timeframe.
+2
+
+At a tax return level, these ratios may be undefined or have limited meaning because the numerator, denominator, or both may
+be zero.
+_____________________________________________________________________________________________________
+
+6
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+3.4
+
+Estimates for Tax Years 2014-2016
+
+Like the TY 2011-2013 estimates, the estimates presented in this report reflect estimated average
+compliance rates and associated annual tax gap amounts covering a timeframe of three tax years. The
+approaches used to estimate the various tax gap components for TY 2014-2016 generally follow the
+methods used for the previous TY 2011-2013 estimates. The methods for each component are described
+later in the report.
+There are a few changes worth highlighting. For TY 2014-2016, the individual income tax and selfemployment tax nonfiling tax gap methodologies incorporate an expanded set of data which includes
+information that was not available for previous estimates. The estate tax nonfiling and underreporting tax
+gap estimates are no longer developed by applying previously estimated compliance rates to reported data.
+Instead, new analyses were completed and used to develop the estimates. 3
+The individual income tax underreporting tax gap estimation methodology was modified slightly to address
+the fact that the NRP statistical sample for TY 2016 was limited to the subset of the individual income tax
+return filing population that reported certain individual income tax credits. The methodology for the
+individual income tax underreporting tax gap was the primary driver behind the decision to pool three tax
+years for tax gap estimation beginning with the TY 2008-2010 estimates. The pooling of three years of NRP
+data was envisioned as part of the implementation of annual NRP individual income tax reporting
+compliance samples beginning with TY 2006. The three-year timeframe is used in this report even though
+the NRP TY 2016 sampling frame included only returns with certain credits. Through TY 2015, the NRP
+sample design allocated evenly over three tax years the total number of returns that previously would have
+formed a single larger periodic sample designed around certain statistical precision measures. Resource
+constraints led the IRS to reduce the number of NRP returns beginning with TY 2016. For TY 2016, the
+NRP sample design only included returns that claimed the American Opportunity Tax Credit or the Child
+Tax Credit or the Earned Income Tax Credit or the Net Premium Tax Credit or that required reconciling the
+Advance Premium Tax Credit with the Premium Tax Credit. Therefore, the TY 2014-2016 individual
+income tax underreporting tax gap estimates reflect data from the TY 2014-2016 timeframe for those line
+items and data from the TY 2014-2015 timeframe for all other line items. This approach assumes that the
+compliance behavior for most line items for TY 2016 is accurately reflected by the TY 2014-2015 tax gap
+estimates.
+3.4.1
+
+Overall Gross and Net Tax Gap
+
+The tax gap map schematic on the following page shows the gross tax gap, enforced and other late payments,
+and net tax gap for all types of taxes and components combined and also by type of tax and component
+separately. The estimated annual gross tax gap for the TY 2014-2016 timeframe is $496 billion. An
+estimated $68 billion of the gross tax gap eventually will be paid resulting in a net tax gap of $428 billion.
+The voluntary compliance rate (VCR) is 85.0 percent. The estimated net compliance rate (NCR) is
+87.0 percent.
+Table 1 on page 10 reports the TY 2014-2016 tax gap estimates for the major components, along with the
+previously published and revised TY 2011-2013 estimates and a decomposition of the changes between the
+estimates.
+
+3
+
+The estimation methods are similar to those used in developing the TY 2006 estate tax underreporting and nonfiling tax gap
+estimates.
+______________________________________________________________________________________________________
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+7
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+Figure 1. TY 2014-2016 Tax Gap Map
+
+_______________________________________________________________________________________________________________________________________________
+
+8
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+Table 1. Decomposition of Differences in TY 2011-2013 and TY 2014-2016 Tax Gap Estimates
+[Money amounts are in billions of dollars]
+
+Tax Gap Component
+
+TY 2011–2013
+Prior Published [1]
+
+TY 2011–2013
+Revised[1]
+
+TY 2014–2016 [1]
+
+Decomposition of Difference Between
+TY 2014–2016 Estimates and
+Prior Published TY 2011–2013 Estimates
+Total
+
+Estimated Total True Tax
+Gross Tax Gap
+Nonfiling Tax Gap
+Underreporting Tax Gap
+Underpayment Tax Gap
+Voluntary Compliance Rate
+Enforced and Other Late Payments
+[4]
+Net Tax Gap
+Net Compliance Rate
+[1]
+
+$2,683
+$441
+$39
+$352
+$50
+83.6%
+$60
+$381
+85.8%
+
+$2,688
+$438
+$37
+$349
+$52
+83.7%
+$58
+$380
+85.9%
+
+$3,307
+$496
+$39
+$398
+$59
+85.0%
+$68
+$428
+87.0%
+
+$625
+$55
+$0
+$46
+$9
+1.4%
+$8
+$47
+1.3%
+
+Due to Updated
+Methods[2]
+$5
+-$3
+-$2
+-$3
+$2
+0.1%
+-$1
+-$1
+0.1%
+
+Due to Other
+Factors[3]
+$620
+$58
+$2
+$49
+$7
+1.3%
+$9
+$48
+1.2%
+
+The estimates are the annual averages for the covered timeframe.
+
+[2]
+
+Difference between the prior published TY 2011–2013 and TY 2014–2016 tax gap estimates accounted for by updated methods (includes updated data).
+
+[3]
+
+Difference between the prior published TY 2011–2013 and TY 2014–2016 tax gap estimates accounted for by changes in economic activity, changes in compliance behavior, and statistical variability.
+
+[4]
+
+The net tax gap is the gross tax gap reduced by the amount of enforced and other late payments that will eventually be paid.
+
+Detail may not add to total due to rounding.
+Dollar amounts are in billions.
+
+Table 1 includes revised TY 2011-2013 tax gap estimates by tax gap component. Although some
+compliance data are available for analysis soon after tax returns are filed, other data are not available for
+several years. The examination data for large corporation income tax returns is an example of the latter.
+The revised TY 2011-2013 estimates incorporate data that were not available in 2019 when the initial
+TY 2011-2013 estimates were developed. The revised TY 2011-2013 gross tax gap estimate is $438 billion
+or about $3 billion lower than the prior estimate of $441 billion. The revised TY 2011-2013 VCR is 83.7
+percent or about 0.1 percentage points higher than the prior estimate of 83.6 percent.
+The three right-most columns in Table 1 show the results of a decomposition of the differences in the
+previously published TY 2011-2013 estimates and the TY 2014-2016 estimates into the portion attributable
+to methodological updates and the portion attributable to other factors. This was determined by applying
+the current methodology to TY 2011-2013 and attributing the difference between those estimates and the
+published estimates to updates in methodology. The remainder is attributable to other factors. Very little of
+the difference in the estimates is attributable to methodological changes.
+Many factors contribute to differences over time in both the gross tax gap and the VCR. These include
+factors such as the overall level of economic activity, changes in the composition of economic activity with
+shifts toward those with higher or lower compliance rates, changes in tax law and administration, updated
+data and improved methodologies, and changes in underlying compliance behavior on the part of taxpayers,
+tax preparers, and other tax advisors. Figure 2 on the next page shows the gross tax gap and VCR estimates
+for TY 2001 and later. During the TY 2014-2016 timeframe, the economic expansion and recovery from
+the Great Recession continued. The impact of the Great Recession is reflected in estimated gross tax gaps
+for TY 2008-2010 and TY 2011-2013 that are lower than for TY 2006.
+Even though the estimated VCR for TY 2014-2016 is slightly higher than the revised TY 2011-2013
+estimate, the estimated gross tax gap nevertheless increased because of the growth in the economy. The
+TY 2014-2016 gross and net tax gap estimates of $496 billion and $428 billion respectively are higher than
+their respective revised TY 2011-2013 estimates by $58 billion (gross) and by $48 billion (net) because the
+estimated average annual true tax for the TY 2014-2016 timeframe is about $620 billion higher than the
+revised estimate for the TY 2011-2013 timeframe. The TY 2014-2016 VCR estimate of 85.0 percent is 1.3
+_____________________________________________________________________________________________________
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+9
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+percentage points higher than the revised TY 2011-2013 estimate. The TY 2014-2016 NCR of 87.0 percent
+is about 1.2 percentage points higher than the revised TY 2011-2013 estimate.
+The estimated TY 2014-2016 gross tax gap of $496 billion exceeds the previous high estimate which was
+for TY 2006 and prior to the Great Recession. The estimated TY 2014-2016 VCR is higher than the prior
+four estimates. Three of the prior estimates were either 83.7 percent or 83.8 percent and the TY 2014-2016
+VCR is higher than those by about 1.2 to 1.3 percentage points. The TY 2006 VCR was lower than those
+three estimates by about 1.4 to 1.5 percentage points.
+Figure 2. Tax Gap and Voluntary Compliance Rate Estimates: TY 2001, TY 2006,
+TY 2008-2010 (Annual Average), TY 2011-2013 (Annual Average) and TY 2014-2016 (Annual Average)
+
+Table 2 on page 11 provides a breakout of the nonfiling, underreporting, and underpayment tax gaps into
+major subcomponents and reports their shares of the gross tax gap.
+3.4.2
+
+Nonfiling Tax Gap
+
+Sufficiently reliable information exists for developing estimates of the nonfiling tax gap for three types of
+tax: individual income tax, self-employment tax, and estate tax. The nonfiling tax gap is the tax gap
+associated with required tax returns that were filed after the filing deadline or valid extension date-or were
+not filed at all.
+_____________________________________________________________________________________________________
+
+10
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+Table 2. Tax Gap Estimates for Tax Years 2014-20161
+[Money amounts are in billions of dollars]
+
+Tax Gap Component
+
+TY 2014–2016
+
+Estimated Total True Tax
+Gross Tax Gap
+Voluntary Compliance Rate
+Enforced and Other Late Payments
+Net Tax Gap
+Net Compliance Rate
+Nonfiling Tax Gap
+Individual Income Tax
+Self-Employment Tax
+Estate Tax
+Underreporting Tax Gap
+Individual Income Tax
+Non-Business Income
+Business Income
+Adjustments, Deductions, Exemptions
+Filing Status
+Other Taxes [4]
+Unallocated Marginal Effects [5]
+Credits
+Corporation Income Tax
+Small Corporations (assets under $10M)
+Large Corporations (assets of $10M or more)
+Employment Tax
+Self-Employment Tax
+Uncollected Social Security and Medicare Tax
+FICA and FUTA Tax
+Estate Tax
+Underpayment Tax Gap
+Individual Income Tax
+Corporation Income Tax
+Employment Tax
+Estate Tax
+Excise Tax
+[1]
+
+The estimates are the annual averages for the Tax Year 2014-2016 timeframe.
+
+[2]
+
+Less than 0.5 percent.
+
+[3]
+
+Less than $0.5 billion.
+
+[1]
+
+$3,307
+$496
+85.0%
+$68
+$428
+87.0%
+$39
+$32
+$7
+
+Share of Gross
+Tax Gap
+100%
+
+8%
+7%
+1%
+
+[3]
+
+[2]
+
+$398
+$278
+$60
+$130
+$25
+$5
+$4
+$11
+$42
+$37
+$14
+$23
+$82
+$53
+
+80%
+56%
+12%
+26%
+5%
+1%
+1%
+2%
+9%
+7%
+3%
+5%
+17%
+11%
+
+[3]
+
+[2]
+
+$29
+$1
+$59
+$47
+$4
+$5
+$3
+
+6%
+12%
+9%
+1%
+1%
+1%
+
+[3]
+
+[2]
+
+[2]
+
+[4]
+
+The Other taxes component includes the Alternative Minimum Tax, Excess APTC Repayment, and taxes reported in the
+“Other Taxes” section of the Form 1040 except for self-employment tax and unreported social security and Medicare tax
+(which are included in the employment tax gap estimates).
+[5]
+
+The Unallocated marginal effects component reflects the difference between (1) the estimate of the individual income tax
+underreporting tax gap where underreported tax is calculated based on all misreporting combined and (2) the estimate of the
+individual income tax underreporting tax gap based on the sum of the tax gaps associated with each line item where the line
+item tax gap is calculated based on the misreporting of that item only. There may be a difference whenever more than one
+line item has been misreported on the same return and the combined misreporting results in a higher marginal tax rate than
+when the tax on the misreported amounts is calculated separately.
+Detail may not add to total due to rounding.
+
+_____________________________________________________________________________________________________
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+11
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+As shown in Table 2 on the previous page, the nonfiling tax gap accounts for about 8 percent of the gross
+tax gap. The estimated TY 2014-2016 nonfiling tax gap of $39 billion is $2 billion higher than the revised
+TY 2011-2013 nonfiling tax gap of $37 billion.
+The individual income tax nonfiling tax gap is estimated to be $32 billion, which is about 7 percent of the
+gross tax gap. The self-employment tax nonfiling tax gap is estimated to be $7 billion, which is about 1
+percent of the gross tax gap. The estate tax nonfiling tax gap is estimated to be less than $0.5 billion, which
+is less than one half of one percent of the gross tax gap.
+As a share of the total nonfiling tax gap, the individual income tax nonfiling tax gap is about 83 percent.
+The self-employment tax nonfiling tax gap is about 17 percent of the estimated nonfiling tax gap, and the
+estate tax nonfiling tax gap is about 1 percent.
+3.4.3
+
+Underreporting Tax Gap
+
+As shown in Table 2, of the $496 billion gross tax gap, $398 billion (approximately 80 percent) is estimated
+to result from the underreporting of true tax on timely filed returns. The estimated TY 2014-2016
+underreporting tax gap of $398 billion is $49 billion higher than the revised TY 2011-2013 underreporting
+tax gap of $349 billion.
+The individual income tax underreporting tax gap is $278 billion or 56 percent of the gross tax gap. The
+corporation income tax underreporting tax gap, the employment tax underreporting tax gap, and the estate
+tax underreporting tax gap are 7 percent, 17 percent, and less than one half of one percent of the gross tax
+gap, respectively.
+As a share of the underreporting tax gap, the individual income tax underreporting tax gap estimate is about
+70 percent of the underreporting tax gap. The corporation income tax underreporting tax gap estimate is
+about 9 percent, the employment tax underreporting tax gap estimate is about 21 percent, and the estate tax
+is less than one half of one percent of the underreporting tax gap.
+3.4.4
+
+Underpayment Tax Gap
+
+About 12 percent of the gross tax gap results from taxpayers not timely paying in full the tax they report on
+timely filed returns. The estimated underpayment tax gap is $59 billion. This estimated TY 2014-2016
+underpayment tax gap of $59 billion is $7 billion higher than the revised TY 2011-2013 underpayment tax
+gap of $52 billion.
+About 9 percent of the gross tax gap, about $47 billion, is from underpayment of individual income tax.
+Underpayment of corporation income taxes accounts for 1 percent of the gross tax gap. Underpayment of
+employment taxes (Federal Insurance Contributions Act, FICA, Federal Unemployment Tax Act, FUTA,
+Self-Employment Contributions Act, SECA and the railroad retirement tax) accounts for 1 percent of the
+gross tax gap. These shares correspond to $4 billion (corporation income taxes) and $5 billion (employment
+taxes) respectively. Estate tax accounts for about $3 billion or about 1 percent of the gross tax gap. Excise
+tax accounts for less than $0.5 billion.
+As shares of the underpayment tax gap, about 79 percent is from underpayment of individual income tax.
+Underpayment of corporation income taxes accounts for 7 percent of the underpayment tax gap.
+Underpayment of employment taxes accounts for 8 percent of the underpayment tax gap. Estate tax
+accounts for about 5 percent of the of the underpayment tax gap. Excise tax accounts for less than one-half
+of 1 percent.
+_____________________________________________________________________________________________________
+
+12
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+3.4.5
+
+Enforced and Other Late Payments
+
+Some of the gross tax gap is collected through IRS enforcement and administrative efforts and some is paid
+late without any IRS action taken. The total amount of enforced and other late payments is $68 billion.
+About 75 percent of the total, or $51 billion, is associated with individual income tax. About 11 percent of
+the total is the $8 billion in corporation income tax enforced and other late payments. Employment tax
+enforced and other late payments are 10 percent of the total or $6 billion. Estate tax enforced and other late
+payments are $3 billion or about 4 percent of the total. Excise tax enforced and other late payments account
+for less than one-half of 1 percent of all enforced and other late payments.
+3.4.6
+
+Net Tax Gap by Type of Tax
+
+Estimates of enforced and other late payments by type of tax are subtracted from the respective gross tax
+gap estimates to obtain the net tax gap estimates by type of tax. As shown on the Tax Gap Map, the net tax
+gap for individual income tax is $306 billion and for corporation income tax is $34 billion. The net tax gap
+for employment taxes is $87 billion. The estate tax net tax gap is $2 billion. The excise tax net tax gap is
+less than $0.5 billion.4
+3.4.7
+
+Voluntary Compliance Rates by Type of Tax
+
+Table 3 shows the VCRs by type of tax along with their distributions of tax liability. The VCR estimates
+remain largely unchanged when compared with the revised TY 2011-2013 estimates.
+Table 3. Voluntary Compliance Rates By Type Of Tax, Tax Years 2011-2013, And 201420161
+Voluntary Compliance Rate
+Tax Gap Component
+Overall (all taxes combined)
+Individual Income Tax
+Corporation Income Tax
+Employment Tax
+Estate Tax
+Excise Tax
+[1]
+
+Distribution of Liability
+
+TY2011–TY2013 TY2011–TY2013
+TY2011–TY2013 TY2011–TY2013
+TY2014–TY2016
+TY2014–TY2016
+Prior Published
+Revised
+Prior Published
+Revised
+84%
+78%
+86%
+91%
+81%
+N/A
+
+84%
+77%
+87%
+91%
+82%
+N/A
+
+85%
+79%
+88%
+92%
+79%
+N/A
+
+100%
+52%
+11%
+34%
+1%
+2%
+
+100%
+52%
+11%
+34%
+1%
+2%
+
+100%
+53%
+11%
+34%
+1%
+2%
+
+The Voluntary Compliance Rates reflect all three types of noncompliance: Nonfiling, underreporting, and underpayment.
+
+3.4.8
+
+Visibility: A Link Between Reporting Compliance and Third-Party Information Reporting
+
+These most recent estimates continue to confirm the relationship between reporting compliance and thirdparty information reporting that was demonstrated by prior tax gap releases. For the individual income tax,
+reporting compliance is far higher when income items are subject to information reporting and even higher
+when also subject to withholding. As shown in Figure 3 on the next page, from the individual income tax
+underreporting tax gap estimates, the net misreporting percentage (NMP) for income amounts subject to
+substantial information reporting and withholding is 1 percent; for income amounts subject to substantial
+information reporting but not withholding, the NMP is 6 percent; and for income amounts subject to little
+or no information reporting, such as nonfarm proprietor income, the NMP is 55 percent. The grouping of
+items into categories is the same as for the TY 2008-2010 and TY 2011-2013 estimates.
+
+4
+
+The excise tax gap is included in the total tax gap numbers but is not shown separately in the tax gap map.
+
+_____________________________________________________________________________________________________
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+13
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+Figure 3. Effect of Information Reporting on Individual Income Tax Reporting Compliance, Tax Years 2014-2016
+
+14
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+4
+
+Data and Methodology
+
+There is no single method for estimating all the components of the tax gap. Rather, the approach for each
+component varies according to the type of information available. New and updated compliance data were
+available for most of the components. The general methodological approaches taken for the TY 2014-2016
+estimates follow prior estimation practices. However, there have been some changes and enhancements
+facilitated in part by the new data and these are noted in the following methodological overviews for each
+tax gap component.
+4.1
+
+Nonfiling Tax Gap
+
+Estimates of nonfiling tax gaps were developed for individual income tax, self-employment tax, and estate
+tax. The methods used for each are described next. The IRS has been conducting research into estimating a
+corporation nonfiling tax gap but has not yet found a sufficiently reliable method and data upon which to
+base an estimate.
+4.1.1
+
+Individual Income Tax Nonfiling Tax Gap
+
+Taxpayers who expect to have a tax liability are required to prepay a significant share of their estimated tax
+liability for a given year through withholding or estimated tax payments. Some taxpayers do not timely file
+required returns to self-assess their tax liability and to reconcile that with prepayments and credits. These
+prepayments and credits may exceed their true tax liability or cover it in full or in part. Only true tax in
+excess of timely payments and any credits for which they are estimated to be eligible is included in the
+nonfiling tax gap. Although nonfilers whose prepayments and credits fully satisfied their true tax liability
+are not in compliance with the filing requirements of the IRC, this noncompliance does not increase the tax
+gap since their tax was paid on time.
+Since the publication of the TY 2011-2013 tax gap estimates, IRS has been able to improve upon both the
+“Census Method” used to estimate the TY 2008-2010 individual income tax nonfiling tax gap and the
+“Administrative Data Method” used to estimate the TY 2011-2013 nonfiling tax gap by making it possible
+to take advantage of the strengths of each approach while overcoming most of their weaknesses. Like the
+previously used Census Method, this hybrid approach links Census survey data to tax administrative data,
+but unlike the previous method, it links the Census records to far more substantial tax records for nonfilers.
+This makes it possible to make reliable estimates of the unpaid tax obligation of each nonfiler in a
+representative sample using the demographic characteristics provided in the Census survey data (to establish
+tax units and their filing status) and using the detailed income and tax withholding information provided in
+the tax administrative data. This improved methodology is described in more detail below. As with previous
+methods, it separates nonfilers into two groups: (1) “late filers” (those who filed a required return after the
+extended due date and within four years of the tax year of interest); and (2) “not-filers” (those who did not
+file a required return within four years of the tax year of interest). 5
+4.1.1.1
+
+Late Filer Methodology
+
+The method used to estimate the tax gap associated with late filers remains unchanged, and it is based solely
+on tax administrative data. The timing of their return filing and their timely payments of tax are known with
+certainty. Their tax liability is based largely on what they report on their tax return (e.g., filing status,
+income, deductions, credits, etc.), but this is supplemented by income reported for them by third parties
+whenever this was not reported by the taxpayer on the tax return. Unlike for not-filers, additional selfemployment income is not imputed to these returns.
+
+5
+
+The “not-filer” terminology is specific to the individual income tax and self-employment tax nonfiling tax gap estimates.
+
+Internal Revenue Service | Research, Analysis & Statistic
+
+15
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+4.1.1.2
+
+Not-Filer Methodology
+
+The improved method used to estimate the nonfiling tax gap attributable to not-filers relies on linking
+individual records from the Annual Social and Economic Supplement of the Current Population Survey
+(CPS-ASEC)—a representative Census sample of the U.S. population—to detailed income and tax
+withholding records of the entire population from tax administrative data. The records are linked
+anonymously through the use of a unique Protected Identification Key (PIK) assigned by the Census Bureau
+to both sets of records, revealing which individuals in the Census sample did not appear as a primary or
+secondary taxpayer on a timely or late filed return. These potential not-filers are assigned to tax units and
+filing statuses based on the demographic information recorded in the CPS-ASEC data. In addition to the
+income reported in the detailed tax administrative data from third-party information returns, selfemployment income is imputed to some of these potential nonfilers based on the extent of self-employment
+income established among filers in the IRS National Research Program’s audits of stratified random
+samples of tax returns. Potential nonfilers whose income is sufficient to give them a filing obligation are
+not-filers. The gross tax gap associated with not-filers is calculated by estimating their tax liability (after
+tax credits) and then subtracting from that amount the amount of tax that they had paid on time (e.g., through
+withholding).
+In summary, this estimation methodology incorporated two main improvements compared with earlier
+methodologies: (1) it linked Census data to detailed (rather than very limited) tax administrative data; and
+(2) for the imputations of self-employment income, the formulas were estimated based on the extent to
+which such income was established in representative audits of filed returns rather than being based solely
+on the amount of such income that taxpayers voluntarily report on their tax returns. 6 The resulting individual
+income tax nonfiling tax gap estimate for the TY 2014-2016 timeframe is $32 billion. This is about $1
+billion higher than the previously published TY 2011-2013 estimate.
+4.1.2
+
+Self-Employment Tax Nonfiling Tax Gap
+
+The nonfiling tax gap associated with self-employment tax is a byproduct of estimating the nonfiling tax
+gap associated with individual income tax. The self-employment tax due for each required return was
+straightforward to compute, given the self-employment income associated with the not-filers and late filers.
+Timely payments were allocated to income tax and self-employment tax in proportion to the two tax
+liabilities. The resulting estimate of the self-employment tax nonfiling tax gap is $7 billion. This is about
+$1 billion higher than the previously published TY 2011-2013 estimate.
+4.1.3
+
+Estate Tax Nonfiling Tax Gap
+
+The TY 2014-2016 estate tax nonfiling tax gap estimate reflects the tax gap associated with late filers. The
+nonfiling tax gap associated with late filed returns (late-filer tax gap) is estimated from the tax reported on
+actual late filed returns net of timely made payments and is less than $0.5 billion. The estate tax nonfiling
+tax gap estimate no longer reflects the nonfiling tax gap associated with required returns that will not be
+filed. Prior methodology used wealth-adjusted mortality curves developed from the University of Michigan
+Health and Retirement Study and the National Center for Health Statistics to estimate the number of returns
+with an estate tax filing obligation. However, the increase in the estate tax filing threshold meant the survey
+data had too few observations to support an estimate.
+
+6
+
+This accounts for self-employment income that filers do not report, but that can be established by audits.
+
+16
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+4.2
+
+Underreporting Tax Gap
+
+4.2.1
+
+Individual Income Tax and Self-Employment Tax Underreporting Tax Gaps
+
+4.2.1.1
+
+Overview
+
+The basic approach for estimating the TY 2014-2016 individual income tax and self-employment tax
+underreporting tax gaps is the same as that used for the TY 2008-2010 and TY 2011-2013 estimates.
+Examiner-recommended adjustments from the statistically representative NRP samples of individual
+income tax filers are the foundation of the estimates.7 The methodology uses an econometric technique to
+account for income that is not detected during the audits, an inherent limitation in situations where taxpayers
+are intentionally noncompliant or conduct business in cash with poor or nonexistent record keeping. This
+methodological step is unique to estimating these components of the tax gap and sets these estimates apart
+from other analyses and estimates developed from NRP data that do not make such an adjustment. The
+adjustment results in estimates of noncompliance that are higher than those based on unadjusted NRP data.
+4.2.1.2
+
+Methodology for Tax Years 2014-2016
+
+The IRS National Research Program designs and administers individual income tax reporting compliance
+studies. Beginning with TY 2006, the program moved from a larger periodic sample to smaller annual
+samples. The annual samples consist of approximately 14,000 returns—roughly one-third the size of prior
+periodic studies. The annual samples can be combined over several years to provide compliance estimates
+at a level of reliability similar to a much larger single-year sample. The NRP uses a process called
+classification to determine the type of audit for each return selected and the mandatory issues to be
+examined.8 In the case of simple returns where information can be easily reconciled with the information
+returns filed by third parties and there are no other indications of significant compliance issues, taxpayers
+are not audited and not contacted. Returns that have only a small number of simple issues identified in
+classification are routed to correspondence exams. More complicated returns are assigned to one of two
+types of audits that generally involve face-to-face interaction with the taxpayer: either an office audit
+handled by a Tax Compliance Officer at an IRS office or a field audit handled by a Revenue Agent, who
+may visit the taxpayer’s place of business.
+Not all underreported income is detected by every audit, even audits of the scope and quality conducted
+under the NRP. For tax gap estimates prior to TY 2001, a multiplier approach was used to adjust the audit
+data for undetected income. Beginning with the TY 2001 estimate, an econometric technique termed
+Detection Controlled Estimation (DCE) has been used. The current adaptation of the DCE methodology
+allows for greater variability in the average detection rates across line items. 9 The modeling approach for
+the detection component generally requires data that include 15 or more returns audited by the same
+examiner. To meet this requirement, it was necessary to pool multiple tax years of NRP data.
+TY 2011-2015 data were pooled in order to have sufficient observations and to improve the reliability of
+the estimates of undetected income. Since NRP data from TY 2014-2015 were used in the DCE estimation,
+the actual results of the DCE estimation for the TY 2014-2015 sample were available to estimate the
+individual income tax underreporting tax gap.10 TY 2016 NRP data were not used for DCE estimation
+because the sampling frame was limited to returns that claimed certain credits or that required reconciling
+7
+
+The NRP samples included tax filers living abroad for TYs 2008-2010 but did not include them for tax years after TY 2010.
+Examples of issues include line items on the return, filing status, number of dependents, and whether an activity is engaged in
+for profit or as a hobby.
+9
+“Detection rate” is defined as the amount of unreported income detected during an audit as a percentage of the total unreported
+income. The smaller the detection rate, the larger the amount of total underreporting is relative to detected underreporting.
+10
+An imputation methodology was previously developed to allocate the DCE estimates derived from the pooled TY 2006–2008
+NRP data to the TY 2008–2010 NRP data for the TY 2008–2010 tax gap estimates. That imputation methodology was no longer
+necessary beginning with the TY 2011–2013 estimates of the individual income tax underreporting tax gap.
+8
+
+Internal Revenue Service | Research, Analysis & Statistic
+
+17
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+the Advance Premium Tax Credit. However, DCE estimation produced detection equations that were
+applied to the TY 2016 NRP data under the assumption that estimated detection equations from TY 2011
+through TY 2015 were applicable to TY 2016.
+Since some income items with significant information reporting were not routinely classified, the estimation
+also included an additional modeling step conditional on whether or not the line item was classified and
+whether there were mismatches with information documents for these items. The data requirements for
+DCE meant that some income items still needed to be grouped together for purposes of estimating the
+detection equation, even when using NRP data pooled across multiple years. 11 Table 4 shows the specific
+groupings of income items used for estimation.
+Table 4: Grouping of Income Items for Joint DCE Estimation of Undetected Income
+Items Subject to Significant
+Items Routinely Classified
+Information Reporting
+Estimated Jointly
+Estimated Jointly
+Estimated Separately
+Wages and Salaries
+Short-term Capital Gains
+Schedule C
+Interest
+Long-term Capital Gains
+Schedule F
+Dividends
+Rents and Royalties
+State and Local Tax Refunds
+Partnership, S corp., Estate, Other
+Pension and IRA income
+Form 4797 Net Gains
+Gross Social Security income
+Other Income
+Unemployment compensation
+4.2.1.2.1
+
+Additional Tip Income Adjustments
+
+Tip income is concentrated in a few industries and occupations and represents a relatively small amount of
+overall wages, salaries, and tips. However, since a significant portion of tip income is paid in cash by
+customers, tip income is subject to less information reporting than most wages and salaries. The lack of
+complete information reporting and the cash nature of many tips suggest that tip income has a lower
+compliance rate than other wages and salaries and is harder to detect during an audit. To supplement the
+DCE estimates for wages and salaries, unreported tip income was assumed to have the same noncompliance
+rate as the detected noncompliance rate for sole proprietor net income or loss. Reported tip income was
+multiplied by an adjustment factor to estimate unreported tip income.
+4.2.1.2.2
+
+Tax Calculator
+
+For each income item and return, the DCE estimation provides return-level predictions of the probability
+of undetected income and the amount of undetected income conditional on the presence of undetected
+income. The DCE estimation predicts a positive probability of undetected income for most line items on
+most returns, although this is typically very small for returns where no unreported income was detected. In
+order to simulate a realistic distribution of undetected income consistent with the predicted incidence of
+undetected income, a simulation process randomly allocates undetected income for each income item based
+on the probability of undetected income for that item on each return. This was done by assigning a random
+number to each return and then assigning undetected income to that return if the random number was less
+than the probability of undetected income for that return. This entire process is repeated ten times to create
+ten simulated TY 2014-2016 data sets.
+
+11
+
+An example of such a DCE requirement is the need for at least 15 audits by the same auditor in which a given line item (or
+grouping of line items) was audited.
+18
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+For the next step, which estimates underreported taxes resulting from total underreported income (both
+examiner-detected and DCE-undetected), a tax calculator is applied to individual observations (i.e., tax
+returns) from the ten simulated TY 2014-2016 data sets. This process yields ten underreporting tax gap
+estimates for each line item, which are then averaged to produce the final underreporting tax gap estimate.
+The final line-item underreporting tax gap estimates are summed to estimate the overall individual income
+tax underreporting tax gap.
+Estimating the tax gap associated with particular return line items in this second step requires an iterative
+analysis. Estimating the underreporting tax gap for each income item involves a process in which the
+additional income for each income item is added to the reported amount of income and then the additional
+tentative tax based on that additional income is calculated. 12 Then that additional income is dropped, and
+the process repeated for the next income item.
+For filing status, the individual income tax underreporting tax gap is the difference in tentative tax based
+on reported income, deductions, and filing status and tentative tax based on income and deductions that
+should have been reported calculated using the filing status that should have been reported. For credits, the
+individual income tax underreporting tax gap is the difference between credits based on reported income,
+deductions, and filing status and credits based on income, deductions, and filing status that should have
+been reported. Although there are no specific DCE adjustments for credits, the DCE adjustment to income
+items flows through to the calculation of the tax gap associated with credits.
+4.2.1.2.3
+
+Filing Status
+
+The net misreported amount of tax associated with misreporting of filing status is explicitly calculated. The
+tax gap associated with filing status does not include the effect of filing status on credits. Those effects are
+included in the tax gap associated with credits. For the TY 2014-2016 timeframe, the average annual tax
+gap associated with misreported filing status is $5 billion.
+4.2.1.2.4
+
+Unallocated Marginal Effects
+
+The marginal tax rate used to estimate the tax gap associated with a given income line item is calculated
+holding all other line items at their reported amounts. This calculation understates the true marginal tax rate
+whenever more than one line item has been underreported on the same return and the combined
+underreporting results in a higher marginal tax rate than when the tax on the underreported amounts is
+calculated separately. For TY 2001 and TY 2006, the total individual income tax underreporting tax gap
+estimates were the sum of the tax gap amounts associated with each line item. Therefore, the TY 2001 and
+TY 2006 estimates understated the total individual income tax underreporting tax gap. Beginning with the
+TY 2008-2010 tax gap estimates, the total individual income tax underreporting tax gap is calculated based
+on the marginal tax rates associated with all misreporting for a given return. The difference between the
+total individual income tax underreporting tax gap and the sum of the individual line-item tax gaps is
+characterized in the tax gap reports as “unallocated marginal effects.” For the TY 2014-2016 timeframe,
+the annual tax gap associated with unallocated marginal effects is $11 billion.
+4.2.1.3
+
+Self-Employment Tax Underreporting Tax Gap
+
+Self-employment taxes are required to be reported by individuals with self-employment income on
+individual income tax returns. The underreporting of self-employment income, primarily income reported
+on Schedules C and F, results in underreported self-employment taxes. Each spouse on a joint return has a
+separate earned income threshold above which the combined wages and self-employment income are
+12
+
+Tentative tax is the amount reported on TY 2016 Form 1040 line 44.
+
+Internal Revenue Service | Research, Analysis & Statistic
+
+19
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+subject to Medicare taxes, but not social security taxes. Undetected self-employment income (Schedules C
+and F) is allocated to the primary taxpayer and secondary taxpayer according to each taxpayer’s respective
+share of self-employment income as determined by the NRP examiner. Undetected wages, salaries, and tips
+are allocated similarly. The tax calculator then calculates the amount of self-employment taxes that should
+have been reported.
+Table 5. Individual Income Tax Underreporting Tax Gap by Source: Tax Years 2014-20161
+[Money amounts are in billions of dollars]
+
+Line Item
+Amount
+
+Tax
+
+Tax Return Line Items
+Gross Tax Gap
+Individual Income Tax Underreporting Tax Gap
+Items Subject to Substantial Information Reporting
+and Withholding
+Wages, salaries, tips
+Items Subject to Substantial Information Reporting
+Interest income
+Dividend income
+State income tax refunds
+Pensions & annuities
+Unemployment Compensation
+Taxable Social Security benefits
+Items Subject to Some Information Reporting
+Partnership, S-Corp, Estate & Trust, etc.
+Alimony income
+Capital gains [5]
+Short-term Capital Gains
+Long-term Capital Gains
+Items Subject to Little or No Information Reporting
+Form 4797 income
+Other income
+Nonfarm proprietor income
+Farm income
+Rents & royalties
+Other Taxes
+Unallocated Marginal Effects
+Income Offsets (Adjustments, Deductions, Exemptions)
+Total Credits
+Filing Status
+[1]
+
+Tax Gap
+$496
+$278
+
+Share of
+Individual
+Share of
+Income Tax
+Gross
+Underreporting
+Tax Gap
+Tax Gap
+100%
+n.a.
+56%
+100%
+
+Net
+Misreporting
+Percentage [2]
+n.a.
+17%
+
+$7
+
+1%
+
+2%
+
+1%
+
+$7
+$15
+$1
+$1
+$1
+$7
+
+1%
+3%
+
+2%
+5%
+
+[3]
+
+[3]
+
+[3]
+
+[3]
+
+[3]
+
+[3]
+
+1%
+
+2%
+
+[3]
+
+[3]
+
+[3]
+
+$6
+$43
+$25
+
+1%
+9%
+5%
+
+2%
+15%
+9%
+
+1%
+6%
+4%
+4%
+9%
+4%
+12%
+13%
+15%
+12%
+
+[4]
+
+[4]
+
+[4]
+
+[4]
+
+$18
+$6
+$12
+$126
+$4
+$16
+$80
+$5
+$21
+$4
+$11
+$25
+$42
+$5
+
+4%
+1%
+2%
+25%
+1%
+3%
+16%
+1%
+4%
+1%
+2%
+5%
+9%
+1%
+
+6%
+2%
+4%
+45%
+1%
+6%
+29%
+2%
+7%
+1%
+4%
+9%
+15%
+2%
+
+18%
+17%
+16%
+55%
+35%
+42%
+57%
+64%
+53%
+6%
+n.a.
+6%
+38%
+n.a.
+
+The estimates are the annual averages for the Tax Year 2014-2016 timeframe.
+
+[2]
+
+The net misreporting percentage is the net misreported amount divided by the sum of the absolute values of the amounts that should have been
+reported, expressed as a percentage.
+[3]
+Less than 0.5 percent or $0.5 billion.
+[4]
+The estimate is based on a very small sample size. The estimated tax gap is less than $ 0.5 billion and net misreporting percentage is less than
+5%.
+n.a.: not applicable.
+Detail may not add to total due to rounding.
+
+20
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+4.2.1.4
+
+Uncollected Social Security and Medicare Tax
+
+Employees who did not report tips to their employers or whose employer did not withhold social security
+and Medicare taxes from their pay are required to report and pay the employee share of employment taxes
+on their individual income tax return. The tax calculator was used to calculate the employee’s share of
+employment taxes that should have been reported for tips not reported to their employer and for wages
+where employment taxes were not withheld. As with the self-employment tax underreporting tax gap, these
+underreported FICA taxes are included in the employment tax underreporting tax gap and not the individual
+income tax underreporting tax gap. The estimate is less than one-half billion dollars.
+4.2.1.5
+
+Estimates for Tax Years 2014-2016
+
+The estimates in Table 5 on the previous page and Table 6 below provide a breakdown of the components
+of the individual income tax underreporting tax gap. The income components in Table 5 are grouped by the
+“visibility” categories shown earlier in Figure 3. For each component, the table shows the component’s
+share of the individual income tax underreporting tax gap. The table also shows each component’s share of
+the gross tax gap. Business income, including rents and royalties, reported on Schedules C, E, and F,
+accounts for 47 percent of the total individual income tax underreporting tax gap for TY 2014-2016. This
+consists of nonfarm proprietor income which accounts for 29 percent, flow-through income (partnerships,
+S corporations, and estates and trusts) which accounts for 9 percent, rent and royalty income which accounts
+for 7 percent, and farm income which accounts for 2 percent. Credits in the aggregate account for 15 percent
+of the individual income tax underreporting tax gap. The EITC accounts for 10 percent of the individual
+income tax underreporting tax gap, followed by the refundable and nonrefundable child tax credit (3
+percent), the refundable and nonrefundable education credits (2 percent) and all other credits (1 percent).
+Table 6. Individual Income Tax Underreporting Tax Gap by Type of Credit:
+Tax Years 2014-20161
+[Money amounts are in billions of dollars]
+
+Tax Return Line Items
+Gross Tax Gap
+Individual Income Tax Underreporting Tax Gap
+Total Credits
+Child Tax Credit and Additional Child Tax Credit
+EITC
+Education Credits
+All Other Credits
+[1]
+[2]
+
+Tax Gap
+$496
+$278
+$42
+$8
+$28
+$5
+$2
+
+Share of
+Individual
+Share of
+Income Tax
+Gross Tax
+Underreporting
+Gap
+Tax Gap
+100%
+N/A
+56%
+100%
+9%
+15%
+2%
+3%
+6%
+10%
+1%
+2%
+[2]
+1%
+
+The estimates are the annual averages for the Tax Year 2014-2016 timeframe.
+Less than 0.5 percent.
+
+Detail may not add to total due to rounding.
+
+4.2.2
+
+Corporation Income Tax Underreporting Tax Gap
+
+The corporation income tax underreporting tax gap estimates are developed separately for small
+corporations (those without a balance sheet or with assets less than $10 million) and all other corporations.
+The estimates are based on data from “risk-based” operational audits instead of a statistically representative
+sample of NRP selected audits. The limited scope and selection criteria for non-NRP audits introduce
+statistical bias, meaning that the corporation audit issues and results are not necessarily representative of
+Internal Revenue Service | Research, Analysis & Statistic
+
+21
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+the overall corporation population. Proposed adjustments on these examined returns are used as the basis
+for estimating the noncompliance for the entire population of corporation income tax filers. The IRS has
+developed methods to project the results of these audits to the population. However, there is considerable
+uncertainty surrounding the estimates of this component of the tax gap because of data limitations, lack of
+information from which to develop a reasonable method to adjust for undetected noncompliance, and other
+issues. Because of this uncertainty, unlike the individual income tax underreporting tax gap component, the
+corporation income tax underreporting tax gap component estimate does not include any adjustments for
+income undetected by the examinations upon which the estimates are based. Using non-NRP data
+potentially biases the estimates upwards (if the analytical techniques described below do not fully adjust
+for the selection bias) while not adjusting for undetected income biases the estimates downwards. Despite
+these limitations, the corporate estimates are a reasonable estimate of corporation income tax
+noncompliance.
+4.2.2.1
+
+Small Corporation Income Tax Underreporting Tax Gap13
+
+Since operational audits are selected for examination based on their expected compliance risk, the
+examination results are not broadly applicable to the general population without additional assumptions and
+modeling. The estimates included here were based on an econometric approach that controls for the bias
+from using nonrepresentative operational audit data. The econometric model is estimated using the
+operational audit data and tax return data for TY 2009-2016 to develop underreporting tax gap estimates.
+The basic approach is to jointly estimate an econometric model consisting of five equations:
+(1)
+(2)
+(3)
+(4)
+(5)
+
+the probability of a return being audited;
+the probability of detecting underreported tax conditional on an audit;
+the amount of underreported tax conditional on detected underreporting;
+the probability of detecting overreported tax conditional on an audit and no detected
+underreporting; and
+the amount of overreported tax conditional on an audit and no detected underreporting.
+
+Given that less than one percent of small corporations are audited for any given year and there is variation
+in examination results from year to year, a period estimate is expected to provide more consistent and
+accurate results than estimating each year separately. Data from TYs 2009-2016 are used to jointly estimate
+the model for the final estimates. Examinations included in the final modeling were those selected based
+upon their discriminant function (DIF) score, through regular classification, or through statistical
+sampling.14 The estimated small corporation income tax underreporting tax gap is $14 billion.
+4.2.2.2
+
+Large Corporation Income Tax Underreporting Tax Gap15
+
+Similar to the small corporation income tax underreporting tax gap, the large corporation income tax
+underreporting tax gap estimates rely on operational audit data. The final estimate is based on the same
+
+13
+
+Small corporations are defined as corporations reporting less than $10 million in assets, including those with no balance sheet.
+Examinations used in the modeling included some returns audited through the NRP TY 2010 small corporation reporting
+compliance study of corporations with a balance sheet and with assets less than $250,000. Estimates from the model for this
+subset of returns are consistent with the results of the NRP study.
+15
+The large corporation income tax underreporting tax gap estimate consists of the income tax underreporting tax gaps of two
+subgroups of corporations with $10 million or more in assets. Mid-size corporations are defined as corporations reporting at least
+$10 million in assets, but less than $250 million. Large corporations are defined as corporations reporting at least $250 million
+in assets.
+14
+
+22
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+pareto/extreme value method that was used for the TY 2008-2010 and TY 2011-2013 large corporation
+income tax underreporting tax gap estimates.
+4.2.2.2.1
+
+Pareto/Extreme Value Methodology
+
+The methodology adopted for the large corporation income tax underreporting tax gap uses the general
+observation from operational audit results that the majority of audit adjustments are concentrated in a
+relatively small number of audits (Bloomquist 2008). Axtell (2001) found that the distribution of U.S. firm
+sizes follows a Pareto distribution. Both Krishnaji (1970) and Revankar (1974) show that underreported
+income also follows a Pareto distribution if two conditions are met: (a) income follows a Pareto distribution
+and (b) underreporting is a constant fraction of true income. A study by Axtell (2001) provides support for
+the two conditions.
+Through the use of the Pareto distribution applied to audit adjustment data, extreme values of
+noncompliance among the largest corporations (corporations with assets over $250 million) can be used to
+estimate the noncompliance of the rest of the population. Operational audit data for the large corporations
+for TYs 2005-2011 were used to identify the audits with extreme values in terms of the proposed audit
+adjustments to tax. The first step is to rank the audit results in descending order and identify the operational
+audits for corporations with assets over $250 million that account for all the net proposed audit adjustments.
+The proposed audit adjustments for all the other examined returns, which include both positive and negative
+amounts, offset each other. The parameters of a linear relationship between the log (base 10) of the audit
+recommendation and the log of the rank of the return (in descending order so that the largest
+recommendation received a rank of one) are then estimated. This linear relationship is then used to estimate
+the total tax gap and voluntary reporting rate (VRR) 16 for the large corporations for TYs 2005-2011. The
+average VRR is then applied to the reported TY 2014-2016 tax liability of both the mid-size and large
+corporations arriving at a corporation income tax underreporting tax gap estimate of $23 billion.
+4.2.3
+
+Employment Tax Underreporting Tax Gap
+
+The employment tax component of the underreporting tax gap includes social security and Medicare taxes
+under the Federal Insurance Contributions Act (FICA) and the Self-Employment Contributions Act
+(SECA), payments for federal unemployment insurance under the Federal Unemployment Tax Act
+(FUTA)., and railroad retirement and railroad unemployment repayment taxes under the Railroad
+Retirement Tax Act (RRTA). The estimate of the employment tax underreporting tax gap presented in this
+report covers taxes associated with FICA, FUTA, and SECA. There currently is no liability for repayment
+taxes under the RRTA. The FICA and FUTA taxes associated with employers of agricultural and household
+workers are also excluded from the estimates due to lack of compliance data. Therefore, the estimate of the
+employment tax underreporting tax gap presented in this report should be considered an underestimate of
+the “true” tax gap because estimates for some components are not available.
+The components of the employment tax underreporting tax gap estimate that are associated with employer
+reporting of FICA and FUTA are estimated using information available from the National Research
+Program (NRP) Employment Tax Study for TYs 2008-2010. The NRP data are used to estimate compliance
+rates, specifically VRRs, for FICA and FUTA taxes for TY 2008-2010. These rates are then applied to the
+reported TY 2014-2016 population data for Form 941 filers (FICA) and Form 940 filers (FUTA) to generate
+estimates of underreported FICA and FUTA taxes for TY 2014-2016. The VRR estimates for FICA taxes
+16
+
+The VRR is defined as the aggregate amount of tax reported on the returns, expressed as a percentage of the estimated total
+amount of tax that should have been reported (in this case, as determined by the auditors and projected to the rest of the
+population). The VRR differs from the VCR in that the VRR is an estimate of only the underreporting tax gap component. The
+VCR includes the nonfiling and underpayment tax gaps in the calculation.
+Internal Revenue Service | Research, Analysis & Statistic
+
+23
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+are also applied to Form 944 filers. This process is conducted separately for three different types of
+employers that correspond to three IRS business operating divisions: small businesses (generally those with
+fewer than $10 million in assets) and self-employed, large businesses (generally those with $10 million or
+more in assets), and tax-exempt or government entities. Implicit in this methodology is the assumption that
+the employers excluded from the NRP sample have the same compliance rate as other employers of the
+same type.
+The VRRs used in this report are the same as those developed for the TY 2011-2013 tax gap estimates.
+Because no new NRP employment tax study has been undertaken, no new data are available.
+It is estimated that the employer FICA and FUTA employment tax underreporting tax gap for TY 20142016 is a combined $29 billion, with $28 billion from underreported FICA taxes and $1 billion from
+underreported FUTA taxes.
+As described earlier in the report, the self-employment tax component of the employment tax
+underreporting tax gap estimate is based on underreported income data from the TY 2014-2016 NRP
+individual income tax reporting compliance studies, adjusted for undetected noncompliance. The tax effect
+was estimated by the tax calculator as described earlier in the report in the Tax Calculator section. The selfemployment tax underreporting tax gap estimate is $53 billion. Similarly, the tax gap associated with
+uncollected FICA is also estimates in conjunction with the individual income tax underreporting tax gap
+and is less than one-half billion dollars.
+4.2.4
+
+Estate Tax Underreporting Tax Gap
+
+Examination data on reporting compliance for statistically representative samples of filed returns is not
+available for estate tax returns. A methodology developed under contract for the IRS uses “risk-based”
+operational examination data and an econometric approach to attempt to adjust for the selection bias from
+using the operational examination data. This approach is similar to the methodology used for the small
+corporation income tax gap estimates and is the methodology used to develop the TY 2006 estimate. 17
+However, unlike for the TY 2006 estimate, complete tax return data by death year, instead of processing
+year, were available. Operational audit data were combined with a random sample of tax returns filed timely
+for death years 2011-2016 in order to predict underreported tax on unaudited returns using an econometric
+model. The underreporting tax gap for each death year was estimated separately. The estate tax
+underreporting tax gap estimate for TY 2014-2016 is estimated to be $1.3 billion.
+4.3
+
+Underpayment Tax Gap
+
+In contrast with other components of the tax gap, the underpayment tax gap is generally observed and can
+be tabulated from IRS data systems. The gross underpayment tax gap is the amount of tax liability that is
+reported on timely filed returns but is not paid on time. Underpayment tax gap estimates by type of tax and
+tax year are developed through a tabulation of IRS administrative data that sums the amount of liability
+timely reported but not timely paid. These tabulations are developed for individual income tax returns,
+corporation income tax returns, employment tax returns, excise tax returns, and estate and gift tax returns.
+Employers withhold and deposit individual income tax from the pay of employees. The tax withheld and
+deposited is reported and reconciled on the employer’s employment tax returns. For purposes of tax gap
+Erard, Brian. 1999. “Estate Tax Underreporting Gap Study: A Report Prepared for the Internal Revenue Service Economic
+Analysis and Modeling Group.” Order number TIRNO-98-P-00406. Internal Revenue Service.
+17
+
+24
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+estimation, an employer’s failure to deposit or otherwise make timely payments of withheld income tax is
+included in the individual income tax gap and not the employment tax gap because the ultimate liability in
+this case is the employees’ individual income tax liability.
+The amount of individual income tax underpayment tabulated in this way accounts for what employers
+report on timely filed returns, but do not pay on time. However, it does not account for situations in which
+an employer withholds income tax from employees but does not report it on time (or pay it on time) because
+those tabulations are based solely on timely filed employment tax returns. Therefore, because the individual
+employee is assumed to report the tax liability and withholding on time, any amount of withheld income
+tax the employer paid late in connection with a late employment tax return must also be included in the
+individual income tax underpayment gap. These amounts are tabulated separately from the IRS Business
+Master File through a recent date. It is possible that additional late payments could be made for the tax year
+in question after that date, in which case the individual income tax underpayment tax gap would be
+understated by that amount. This is the only exception to the general rule that the underpayment tax gap
+can be observed.
+Finally, the self-employment tax underpayment tax gap is separated from the individual income tax
+underpayment tax gap tabulations even though they are both reported on Form 1040. The self-employment
+tax portion was prorated from the total by assuming that the income and self-employment underpayment
+tax gaps are proportional to the corresponding total individual income tax and self-employment tax
+liabilities.
+4.4
+
+Enforced and Other Late Payments
+
+Some of the gross tax gap is collected through IRS enforcement efforts and some is paid late, i.e., after the
+payment due date, without IRS intervention. For example, a payment may be remitted when filing a return
+just before an extended filing deadline18 or when filing an amended return. The general approach to
+estimating enforced and other late payments for a particular tax year is to add actual late payments made to
+date to a projection of what will likely be paid in the future for that tax year. The details of the projection
+methods are described in detail in a forthcoming technical report.
+All late payments are tabulated from IRS administrative data. These tabulations distinguish payments made
+after the due date from those paid on time. These tabulations are used to estimate enforced and other late
+payment for all taxes except the corporation income tax.
+The corporation income tax estimates of enforced and other late payments are taken entirely from the
+tabulations of Total Enforcement Revenue Collected (TERC) from the IRS Enforcement Revenue
+Information System. This is primarily because corporations often make timely estimated tax payments or
+realize other credits that are eventually applied to enforcement assessments related to a tax year that begins
+after the payment was made or the credit was realized. These payments cannot be identified in the standard
+tabulations of late payments used for the other types of tax because the payments are actually made before
+the original due date; so, they are enforced payments paid “on time.” Using TERC assumes that corporations
+do not make any nonenforced late payments, which would not be captured by TERC.
+
+18
+
+The payment due date is generally the original due date of the return; extending the filing deadline does not extend the payment
+deadline.
+Internal Revenue Service | Research, Analysis & Statistic
+
+25
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+5
+
+Tax Gap Projections for Tax Years 2017-2019
+
+This report includes average annual tax gap projections for the TY 2017-2019 timeframe. These figures are
+called projections instead of estimates to highlight the differences between the projection and estimation
+methodologies. The methods and data are different enough that the numbers have different interpretations.
+The differences vary by tax gap component and reflect the timing in which compliance data become
+available for use in estimation. For the largest components of the tax gap, compliance data for the projection
+years are not yet available. The projections for those components were developed to capture the growth in
+the reported tax or the reported amount of each line item, under assumptions of constant compliance. Thus,
+the projection figures reflect the level of the tax gap assuming compliance behavior has not changed from
+prior years. The TY 2014-2016 estimates for those components, however, are based on actual compliance
+data for the years of the estimates and are a measurement of compliance behavior19. The projections will be
+updated as additional compliance data become available. For certain small tax gap components for which
+data from TY 2017-2019 are available, the projections adopt mostly identical methodologies to those used
+for TY 2014-2016.
+The primary focus of tax gap estimation is to measure compliance behavior as manifested in tax paid
+voluntarily and timely. To be most informative—and consistent with tax gap concepts and objectives--the
+methodology for measuring the tax gap should be grounded in data on actual compliance behavior for the
+years being estimated. For the tax gap estimates, with the exception of the large corporation income tax and
+the FICA and FUTA tax underreporting tax gap estimates, the estimation methodologies for all major tax
+gap components are based on data for the tax years being estimated.
+The extent of the differences between the tax gap projection methodologies and the tax gap estimation
+methodologies varies by tax gap component. For the small corporation income tax underreporting tax gap
+and the estate tax underreporting tax gap, the projections are developed by applying the TY 2014 -2016
+estimated overall compliance rates for those components to the associated reported tax for the
+TY 2017-2019 timeframe. Thus, the projections reflect a tax gap under the assumption that overall
+compliance rates for TY 2017-2019 are the same as those estimated for TY 2014-2016. For the individual
+income tax underreporting tax gap and self-employment tax underreporting tax gap, the projections are
+done at the line-item level and then summed under the assumption that the estimated compliance rates and
+average marginal tax rates at the line-item level are applicable to the associated TY 2017-2019 line items.
+The result of the assumptions is that the tax gap for a line item grows at the same rate as the growth in the
+reported amount for the line item.
+The TY 2014-2016 FICA and FUTA underreporting tax gap estimates themselves are projections based on
+applying the compliance rates from the NRP TY 2008-2010 study to reported data for TY 2014-2016. The
+TY 2017-2019 projections use the same compliance rates applied to TY 2017-2019 reported data. The
+projection for the large corporation income tax underreporting tax gap uses the estimated compliance rate
+developed for the TY 2014-2016 estimate. This rate is applied to reported tax data for TY 2014-2016 and
+for TY 2017-2019 to develop the estimate and projection. Thus, the large corporation income tax
+underreporting tax gap estimate and projection use the same compliance rate assumption.
+The individual income tax and self-employment tax nonfiling tax gap projections use a different method
+than the one used for the TY 2014-2016 timeframe. Specifically, the projections use the “Administrative
+Data Method” instead of the “Census Method” because Census data were not available for all of the
+projected years. However, the Administrative Data Method has consistently provided similar estimates to
+19
+
+The exception is the large corporation underreporting tax gap for which sufficiently complete examination data are not yet
+available.
+26
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+the Census Method over time. The estate tax nonfiling tax gap projection uses the same methodology that
+was used for the TY 2014-2016 tax gap estimate.
+The enforced and other late payments projections use the same approach as the TY 2014-2016 tax gap
+estimates but the projections have fewer years of actual payments than the estimates and so they include
+more years that are forecasts of eventual payments.
+Table 7 reports the projections for the TY 2017-2019 timeframe. The average annual gross tax gap is
+projected to be $540 billion. The associated VCR is projected to be 85.1 percent. The projection of enforced
+and other late payments is $70 billion, which yields a net tax gap projection of $470 billion. The associated
+NCR projection is 87.0 percent. The gross tax gap nonfiling, underreporting, and underpayment component
+projections for TY 2017-2019 timeframe are $41 billion, $433 billion, and $66 billion respectively.
+Table 7. Tax Gap Projections for Tax Year 2017-2019 by Component1
+[Money amounts are in billions of dollars]
+
+Tax Gap Component
+
+TY 2017-2019[1]
+
+Estimated Total True Tax
+Gross Tax Gap
+Voluntary Compliance Rate
+Enforced and Other Late Payments
+Net Tax Gap
+Net Compliance Rate
+Nonfiling Tax Gap
+Individual Income Tax
+Self-Employment Tax
+Estate Tax
+Underreporting Tax Gap
+Individual Income Tax
+Corporation Income Tax
+Small Corporations (assets under $10M)
+Large Corporations (assets of $10M or more)
+Employment Tax
+Self-Employment Tax
+Uncollected Social Security and Medicare Tax
+FICA and FUTA Tax
+Estate Tax
+Underpayment Tax Gap
+Individual Income Tax
+Corporation Income Tax
+Employment Tax
+Estate Tax
+Excise Tax
+[1]
+
+The projections are the annual averages for the Tax Year 2017-2019 timeframe.
+
+[2]
+
+Less than 0.5 percent.
+
+[3]
+
+Less than $0.5 billion.
+
+$3,621
+$540
+85.1%
+$70
+$470
+87.0%
+$41
+$33
+$7
+
+Share of Gross
+Tax Gap
+100%
+
+8%
+6%
+1%
+
+[3]
+
+[2]
+
+$433
+$304
+$37
+$15
+$22
+$91
+$58
+
+80%
+56%
+7%
+3%
+4%
+17%
+11%
+
+[3]
+
+[2]
+
+$32
+$1
+$66
+$53
+$6
+$4
+$3
+
+6%
+12%
+10%
+1%
+1%
+1%
+
+[3]
+
+[2]
+
+[2]
+
+Detail may not add to total due to rounding.
+
+Table 8 on the following page reports the gross tax gap, enforced and other late payments, and net tax gap
+by type of tax. The gross tax gap projection for individual income tax is $390 billion; for corporation income
+tax it is $43 billion; for employment tax it is $102 billion; and for estate tax combined it is $4 billion.
+
+Internal Revenue Service | Research, Analysis & Statistic
+
+27
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+Table 8. Tax Gap Projections for Tax Year 2017-2019 by Type of Tax1
+[Money amounts are in billions of dollars]
+
+Type of Tax
+Total
+Individual Income Tax
+Corporation Income Tax
+Employment Tax
+Estate Tax
+[1]
+
+Gross
+Tax Gap
+
+Enforced &
+Other Late
+Payments
+
+Net
+Tax Gap
+
+$540
+$390
+$43
+$102
+$4
+
+$70
+$51
+$9
+$7
+$3
+
+$470
+$339
+$34
+$95
+$1
+
+The projections are the annual averages for the Tax Year 2017-2019 timeframe.
+
+Detail may not add to total due to rounding.
+
+28
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+es for Tax Years 2011-2013
+6 References
+Robert L. Axtell. “Zipf Distribution of U.S. Firm Sizes,” Science, 293:1818-1820. 2001.
+Charles Bennett. “Preliminary Results of the National Research Program’s reporting Compliance Study of
+Tax Year 2001 Individual Returns,” The IRS Research Bulletin (Publication 1500), Internal Revenue
+Service, Washington, D.C. 2005.
+Kim M. Bloomquist. “Estimation of Corporate Tax Underreporting Using Extreme Values from
+Operational Audit Data,” Paper presented at the 14th Anniversary Organization Science Winter
+Conference, Squaw Creek, CA. February 7-10, 2008.
+Kim M. Bloomquist, Edward Emblom, Andrew Johns, and Patrick Langetieg. “Estimates of the Tax Year
+2006 Individual Income Tax Underreporting Gap,” The IRS Research Bulletin: Proceedings of the 2012
+IRS/TPC Research Conference (Publication 1500).
+Robert E. Brown and Mark J. Mazur. “IRS’s Comprehensive Approach to Compliance Measurement,”
+National Tax Journal. 56(3):689-700. September 2003.
+Bureau of Labor Statistics. BLS Spotlight on Statistics: The Recession of 2007-2009. February 2012.
+B. Erard & Associates. Development of a Strategy for Estimating the Federal Income Tax Reporting Gap
+Among Small Corporations, Draft Report for IRS Contract TIRNO-03-P-00429. July 16, 2004.
+B. Erard & Associates. IRS Tax Gap Estimation: Preliminary Results of Detection Controlled Analysis,
+PowerPoint presentation to Internal Revenue Service Office of Research. November 1, 2005.
+B. Erard & Associates. Preliminary Econometric Results, Results summary report submitted to Internal
+Revenue Service Office of Research. January 27, 2006.
+B. Erard & Associates. Adjustment of Income Tax Underreporting Using Detection Controlled Estimation,
+Final Report for IRS Contract Number TIRNO-05-D-00050 0001, November 15, 2007.
+B. Erard & Associates, Estimates of Income Underreporting Based on Generalized Detection Controlled
+Estimation Methodology, Task 1 Final Report for IRS Contract TIRNO-10-D-00021 0001. July 22, 2011.
+Brian Erard and Jonathan S. Feinstein. “The Individual Income Reporting Gap: What We See and What
+We Don't,” The IRS Research Bulletin: Proceedings of the 2011 IRS/TPC Research Conference,
+(Publication 1500, rev.4-2012).
+Jonathan S. Feinstein. “Detection Controlled Estimation,” Journal of Law and Economics, 33(1):233-276.
+1990.
+Jonathan S. Feinstein. “An Econometric Analysis of Income Tax Evasion and its Detection,” Rand Journal
+of Economics, 22(1):14-35. 1991.
+Hertz, Thomas, Pat Langetieg, Mark Payne, Alan Plumley, and Margaret Jones (2021). “Estimating the
+Extent of Individual Income Tax Nonfiling,” 2021 IRS Research Bulletin, Publication 1500.
+Internal Revenue Service. Estimation of the Underreporting Tax Gap for Tax Years 2008-2010:
+Methodology, Research, Applied Analytics & Statistics Technical Paper, (3-2017).
+Internal Revenue Service. Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2008-2010,
+IRS Publication 1415 (Rev. 5-2016), Washington, D.C. 2016.
+Internal Revenue Service. Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2011-2013,
+IRS Publication 1415 (Rev. 9-2019), Washington, D.C. 2019.
+Internal Revenue Service. Income Tax Compliance Research: Estimates for 1973-1981, Appendix B,
+Department of Treasury. 1983.
+Internal Revenue Service. Income Tax Compliance Research: Gross and Net Employment Tax Gap
+Estimates for 1984-1997, IRS Publication 1415-E (10-93), Washington, D.C. 1993.
+Internal Revenue Service | Research, Analysis & Statistic
+
+29
+
+Federal Tax Compliance Research: Tax Gap Estimates for Tax Years 2014–2016
+
+Internal Revenue Service. Income Tax Compliance Research: Gross Tax Gap Estimates and Projections
+for 1973-1992, IRS Publication 7285 (3-88), Washington, D.C. 1988.
+Internal Revenue Service. Tax Gap Estimates for Tax Years 2008-2010: Overview. April 2016.
+Internal Revenue Service. Tax Gap Estimates for Tax Years 2011-2013: Overview. September 2019.
+Internal Revenue Service. Tax Gap for Tax Year 2006: Overview. January 2012.
+Internal Revenue Service. Tax Year 2006 Tax Gap Estimate: Summary of Estimation Methods. January
+2012.
+Internal Revenue Service. Tax Gap “Map”: Tax Year 2006. December 2011.
+Internal Revenue Service, Office of Research. Federal Tax Compliance Research: Tax Year 2006 Tax Gap
+Estimation, March 2012.
+Internal Revenue Service, Research, Analysis & Statistics. Corporation Income Tax Underreporting Gap
+Methodology—Alternative Estimation Methods Using Audit Data. Publication 5161, January 2015.
+Internal Revenue Service, Research, Analysis & Statistics. Tax Compliance Research: Estimates of the Tax
+Gap for TY 2006. Publication 5162, October 2015.
+Internal Revenue Service, Research, Analysis & Statistics. The Feasibility of Estimating the Offshore
+Portion of the Individual Income Tax Gap. Publication 5161, January 2015.
+Internal Revenue Service, Research, Analysis & Statistics. The Feasibility of Estimating the Tax Gap
+Associated with Informal Supplier Income. Publication 5161, January 2015.
+Internal Revenue Service, Research, Analysis & Statistics. The Feasibility of Providing Interim Estimates
+of the Tax Gap. Publication 5161, January 2015.
+Andrew Johns and Joel Slemrod, “The Distribution of Income Tax Noncompliance,” National Tax Journal,
+63 (3):397-418, 2010.
+Dale W. Jorgenson, Frank M. Gollop, and Barbara M. Fraumeni, Productivity and U.S. Economic Growth,
+Cambridge MA: Harvard University Press, 1987.
+N. Krishnaji, “Characterization of the Pareto Distribution Through a Model of Underreported Incomes,”
+Econometrica, 38(2):251-255. 1970.
+Pat Langetieg, Mark Payne, and Alan Plumley, The Individual Income Tax and Self-Employment Tax
+Nonfiling Gaps for Tax Years 2008-2010, Research, Applied Analytics & Statistics Technical Paper,
+Internal Revenue Service. (4-2016)
+Pat Langetieg, Mark Payne, and Alan Plumley, “The Individual Income Tax and Self-Employment Tax
+Nonfiling Gaps for Tax Years 2008-2010,” The IRS Research Bulletin: Proceedings of the 2016 IRS/TPC
+Research Conference (Publication 1500, rev.3-2017).
+Josh Lawrence, Michael Udell and Tiffany Young, “The Income Tax Position of Persons Not Filing Returns
+for Tax Year 2005,” The IRS Research Bulletin: Proceedings of the 2011 IRS/TPC Research Conference
+(Publication 1500, rev.4-2012).
+Carolyn M. Morton, “Trends in the Compliance of Small Corporations,” The IRS Research Bulletin, 1992.
+Alan Plumley, The Underpayment Gap for Tax Years 2008-2010, Research, Applied Analytics & Statistics
+Technical Paper, Internal Revenue Service. (2-2016)
+Alan Plumley, The Net Tax Gap for Tax Years 2008-2010, Research, Applied Analytics & Statistics
+Technical Paper, Internal Revenue Service. (2-2016)
+Nagesh S. Revankar, Michael J. Hartley, and Marcello Pagano, “A Characterization of the Pareto
+Distribution,” The Annals of Statistics, 2(3): 599-601, 1974.
+
+30
+
+Internal Revenue Service | Research, Applied Analytics & Statistics
+
+
