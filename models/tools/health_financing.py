@@ -669,6 +669,22 @@ def package_path(ctx, spec, need_p, flows_p, gap):
     return out
 
 
+EXTRA_BASES = {}   # name -> function of a household record, for keys built from the households themselves
+
+
+def household_key(name, f):
+    """Register a key built from the 2029 households themselves: the fifths' and the top 1%'s shares of the weighted
+    base f(h), for per_household(), and f itself for micro()'s spread."""
+    K, _, _, _, X = keys()
+    H = X["H"]
+    tot = sum(h["weight"] * f(h) for h in H) or 1.0
+    sh = [100 * sum(h["weight"] * f(h) for h in H if h["g5"] == q) / tot for q in range(1, 6)]
+    t1 = 100 * sum(h["weight"] * f(h) for h in H if h["top1"]) / tot
+    K[name] = (sh, t1)
+    EXTRA_BASES[name] = f
+    return sum(h["weight"] * f(h) for h in H)
+
+
 def micro(ctx, o):
     """The spread inside each fifth: every household's net effect, FY2040, each row's quintile amount spread over the
     fifth's households in proportion to the household's own amount of that row's base, so the fifths' averages are
@@ -693,6 +709,7 @@ def micro(ctx, o):
     for a in AVOID_WEIGHTS:
         base_of[f"avoid_{a}"] = base_of["income_line"]
         base_of[f"avoid_high_{a}"] = base_of["income_high"]
+    base_of.update(EXTRA_BASES)
     scale = hh / n29
     net = {h["hh"]: 0.0 for h in H}
     for _, bn, key in o["rows"]:
@@ -730,6 +747,7 @@ def micro(ctx, o):
     out["bottom_four_losers_m"] = sum(out[f"Q{q}"]["losers_m"] for q in range(1, 5))
     out["bottom_four_lose_5pct_m"] = sum(out[f"Q{q}"]["lose_5pct_m"] for q in range(1, 5))
     out["profile_bottom_four"] = prof
+    out["_net"] = net
     return out
 
 
