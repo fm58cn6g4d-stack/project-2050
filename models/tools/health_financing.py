@@ -84,19 +84,30 @@ VAT_REBATE_SHARE = 0.25      # a per-person rebate of a quarter of the VAT's gro
 # (approximate; the 0.9% Additional Medicare Tax and H1b stay as they are). The halves are split evenly.
 HI_RATE = 2.9
 HI_ENDPOINT = {y: (0.0 if y < 2035 else (0.75 if y == 2035 else 1.0)) for y in range(2030, 2041)}  # fiscal years
-LOW_PAY_LINE = 20000         # the low-pay exemption option: the first $20,000 of each worker's pay (2025 dollars,
-                             # price-indexed) is outside the employer contribution
+LOW_PAY_LINE = 20000         # the low-pay line: the first $20,000 of each worker's pay (2026 dollars, price-indexed)
+                             # is outside the employer contribution
+LINE_BASE_CPI = 2025         # the design's lines are in 2026 dollars: a tax year's line moves with the prior year's
+                             # CPI-U, so 2026's line is indexed from 2025's (the household line of the alternative
+                             # base keeps the budget model's own definition, in 2025 dollars: `_line_rule`)
+# The household contribution's base (memo part 2.1, item 3; Espen, November 15): the income tax's taxable income
+# (AGI less the standard deduction; the household model has no itemized deductions), `taxable`; the alternative is
+# AGI above $20,000/$40,000, `line`, the budget model's broad base.
+HH_BASE = "taxable"
+STD_2026 = {"single": 16100, "joint": 32200}        # the standard deduction for 2026 (sec. 63(c), as P.L. 119-21 set it)
+STD_AGED_2026 = {"single": 2050, "joint": 1650}     # the additional amount at 65, per person
 # The phase-in for employers that reported no group coverage for 2028, the last full year before the law (memo part
 # 2.6; Forms 1095-B and 1095-C, W-2 box 12 DD): their rate is a tenth of the full rate in calendar 2035 and rises by a
 # tenth a year, full from 2044.
 PHASE_IN_START, PHASE_IN_YEARS = 2035, 10
 NO_OFFER_WORKER_SHARE = 0.08  # KFF 2026: 92% of workers are at firms offering health benefits (EV-CAR-295)
-# The worker transition credit (memo part 2.7): for people who had earnings in 2028 and neither employer coverage nor
-# an individual-market plan that year (the IRS's 2028 Forms W-2, Schedules SE and Forms 1095-A, 1095-B and 1095-C).
+# The worker transition credit (memo part 2.7): for people who had earnings in 2028 and no employer coverage,
+# individual-market plan or Medicare that year (the IRS's 2028 Forms W-2, Schedules SE and Forms 1095-A, 1095-B and
+# 1095-C, and Medicare's enrollment).
 # Refundable, claimed on the income tax return and paid through the year by lower withholding: `share` of the
 # employer health contribution charged on their pay (W-2s and Schedule SE), phased out with the household's AGI
 # between `start` and `end` (single; joint lines twice these; 2025 dollars, price-indexed, as the other lines). Full
-# from the January 2035 endpoint through 2044, then a fifth less each year, ending after 2049.
+# from the January 2035 endpoint through 2044, then a fifth less each year (80% in 2045 to 20% in 2048), none from
+# 2049. Lines in 2026 dollars.
 WORKER_CREDIT = dict(share=1.0, start=60000, end=120000, nocov_only=True)
 CREDIT_LAST_FULL, CREDIT_STEPDOWN = 2044, 5
 
@@ -385,7 +396,7 @@ _CACHE = {}
 def _band_unit(u, L, line=None):
     """A tax unit's pay between the low-pay line and the Social Security wage base, person by person (2029)."""
     from params import econ
-    line = (LOW_PAY_LINE if line is None else line) * econ("cpiu", L["year"] - 1) / econ("cpiu", 2024)
+    line = (LOW_PAY_LINE if line is None else line) * econ("cpiu", L["year"] - 1) / econ("cpiu", LINE_BASE_CPI)
     base = L["ss_wage_base"]
     own = [u["wage_h"] + max(u["se_h"], 0), u["wage_s"] + max(u["se_s"], 0), u["dep_wages"]]
     return sum(max(min(x, base) - line, 0.0) for x in own)
@@ -415,9 +426,9 @@ def no_offer():
     band = {u["tid"]: _band_unit(u, L) for u in U}
     nocov = [u for u in U if u["n_employer_cov"] == 0 and band[u["tid"]] > 0]
     tot_band = sum(u["weight"] * band[u["tid"]] for u in U)
-    tot_earn = sum(u["weight"] * _earners(u) for u in U if band[u["tid"]] > 0)
+    tot_earn = sum(u["weight"] * _earners(u) for u in U)    # KFF's 8% is of all workers (the cross-check)
     nc_band = sum(u["weight"] * band[u["tid"]] for u in nocov)
-    nc_earn = sum(u["weight"] * _earners(u) for u in nocov)
+    nc_earn = sum(u["weight"] * _earners(u) for u in U if u["n_employer_cov"] == 0)
     ratio = (nc_band / nc_earn) / (tot_band / tot_earn)
     s_no = NO_OFFER_WORKER_SHARE * ratio
     p = s_no * tot_band / nc_band
@@ -461,10 +472,12 @@ def credit_key(start, end, left=0.0, nocov_only=False):
     B = X["B"]
     drawn = no_offer()["drawn"]
     def rule(u, L):
-        f = econ("cpiu", L["year"] - 1) / econ("cpiu", 2024) * (2 if u["t_fs"] == "joint" else 1)
+        f = econ("cpiu", L["year"] - 1) / econ("cpiu", LINE_BASE_CPI) * (2 if u["t_fs"] == "joint" else 1)
         a0, a1 = start * f, end * f
         ph = 1.0 if u["t_agi"] <= a0 else max(0.0, (a1 - u["t_agi"]) / (a1 - a0))
-        if nocov_only and u["n_employer_cov"] + u["n_marketplace"] > 0:   # no employer or individual-market plan
+        # no employer, individual-market or Medicare coverage (Medicare's enrollees stop paying its premiums, so they
+        # already gain: the cross-check)
+        if nocov_only and u["n_employer_cov"] + u["n_marketplace"] + u["n_medicare"] > 0:
             return 0.0
         return _band_unit(u, L) * ph * ((1 - left) if u["tid"] in drawn else 1.0)
     P.RULES[name] = rule
@@ -489,14 +502,17 @@ def keys():
     P.RULES["income_line"] = _line_rule(20000, 40000)
     P.RULES["income_high"] = _line_rule(100000, 200000)
     P.RULES["agi"] = lambda u, L: u["t_agi"]
+    P.RULES["taxable"] = lambda u, L: max(u["t_taxable_income"], 0.0)
     P.RULES["wages_band"] = _band_unit
     K["wages_band"] = P.micro_shares(B, "rule:wages_band")
     K["income_line"] = P.micro_shares(B, "rule:income_line")
+    K["taxable"] = P.micro_shares(B, "rule:taxable")
     hs, _ = P.micro_shares(B, "rule:income_high")
     K["income_high"] = (hs, K["surtax"][1])
     for name, w in AVOID_WEIGHTS.items():
         K[f"avoid_{name}"] = avoidance_key(K, "income_line", w)
         K[f"avoid_high_{name}"] = avoidance_key(K, "income_high", w)
+        K[f"avoid_tx_{name}"] = avoidance_key(K, "taxable", w)
     g = (econ("households", 2036) / econ("households", 2032)) ** 0.25 - 1
     hh2040 = P.mid_window_households(B) * (1 + g) ** (Y - 2034.5)
     gap = plan_gap()
@@ -505,15 +521,17 @@ def keys():
     n29 = sum(h["weight"] for h in H)
     grow = gap["gdp_2040"] / gdp_2029 / (hh2040 / n29)
     vals = {"agi": P.household_base(B, "rule:agi"), "base": P.household_base(B, "rule:income_line"),
-            "high": P.household_base(B, "rule:income_high"), "band": P.household_base(B, "rule:wages_band")}
+            "high": P.household_base(B, "rule:income_high"), "band": P.household_base(B, "rule:wages_band"),
+            "taxable": P.household_base(B, "rule:taxable")}
     sel = [(f"Q{q}", lambda h, q=q: h["g5"] == q) for q in range(1, 6)] + [("T1", lambda h: h["top1"])]
-    inc = {m: {} for m in ("expanded", "agi", "base")}
+    inc = {m: {} for m in ("expanded", "agi", "base", "taxable")}
     for g_, s in sel:
         w = sum(h["weight"] for h in H if s(h))
         inc["expanded"][g_] = grow * sum(h["weight"] * h["expanded"] for h in H if s(h)) / w
-        for m in ("agi", "base"):
+        for m in ("agi", "base", "taxable"):
             inc[m][g_] = grow * sum(h["weight"] * vals[m][h["hh"]] for h in H if s(h)) / w
-    cps_base = grow * sum(h["weight"] * vals["base"][h["hh"]] for h in H) * hh2040 / n29 / 1e9
+    cps_base = {b: grow * sum(h["weight"] * vals[v][h["hh"]] for h in H) * hh2040 / n29 / 1e9
+                for b, v in (("line", "base"), ("taxable", "taxable"))}
     _CACHE["keys"] = (K, hh2040, inc, cps_base, dict(B=B, H=H, n29=n29, grow=grow, vals=vals))
     return _CACHE["keys"]
 
@@ -529,13 +547,15 @@ def per_household(rows, K, hh):
     return {g: round(v) for g, v in out.items()}
 
 
-def income_rows(collected, pp, tier="broad", avoid="central", label="Health contribution on income", h=None):
+def income_rows(collected, pp, tier="broad", avoid="central", label="Health contribution on income", h=None,
+                base=None):
     """An income contribution that collects `collected` ($ billion) as the statutory charge (on the base's key) and
-    the part avoidance keeps from being collected (on the avoidance key)."""
+    the part avoidance keeps from being collected (on the avoidance key). `base`: 'taxable' or 'line' (HH_BASE)."""
     h = pp["haircut"] if h is None else h
+    base = HH_BASE if base is None else base
     statutory = collected / (1 - h)
-    key = "income_line" if tier == "broad" else "income_high"
-    akey = f"avoid_{avoid}" if tier == "broad" else f"avoid_high_{avoid}"
+    key = ("taxable" if base == "taxable" else "income_line") if tier == "broad" else "income_high"
+    akey = (f"avoid_tx_{avoid}" if base == "taxable" else f"avoid_{avoid}") if tier == "broad" else f"avoid_high_{avoid}"
     return [(f"{label}: the statutory charge", -statutory, key),
             (f"{label}: less what avoidance keeps from being collected ({round(100 * h)}%)", statutory * h, akey)]
 
@@ -568,6 +588,13 @@ def employer_rate(f40, share, base, pp, hi_er=0.0):
     return r / {"payroll": 1.0, "payroll_cap": CAP_SHARE, "payroll_band": band_share()}[base]
 
 
+def taxable_ratio():
+    """Taxable income over AGI above $20,000/$40,000, on the 2029 households: the budget model's yield per point on
+    the second, scaled to the first."""
+    _, _, _, cps, _ = keys()
+    return cps["taxable"] / cps["line"]
+
+
 def band_share():
     """Share of all pay between the low-pay line and the wage base, person by person: the CPS's share less the
     top-coding allowance applied to the capped base (CAP_SHARE over the CPS's capped share)."""
@@ -581,11 +608,12 @@ def band_share():
 
 def package(ctx, emp_share=1.0, emp_base="payroll", state_share=1.0, first=None, second=0.0, close="first",
             vat_rebate=VAT_REBATE_SHARE, savings=0.0, label="", need=None, f40=None, pp=None, high_avoid=None,
-            replace_hi=True, hi=None, hi_er_share=0.5, phase_in=0.0, credit=None):
+            replace_hi=True, hi=None, hi_er_share=0.5, phase_in=0.0, credit=None, hh_base=None):
     """A whole health financing package, FY2040 (or another year, with `need`, `f40` and `pp` for it). The closing
     item (`close`: 'first' tier, 'vat', 'second' tier or 'employer' share) is solved so the package covers the need
     exactly; the others are as given. With `replace_hi` (the whole-system packages), the HI payroll tax is repealed and
     its money raised by the employer contribution (the employer's half) and the household side (the rest).
+    `hh_base`: the household contribution's base, 'taxable' (taxable income) or 'line' (AGI above $20,000/$40,000).
     `phase_in`: the share of the full rate that employers with no 2028 coverage do not yet pay (phase_left()); the pay
     it leaves is taxed. `credit`: the worker health credit (WORKER_CREDIT's form), a share of the contribution charged
     on each worker's pay, phased out with AGI; both are paid by the closing item."""
@@ -604,6 +632,9 @@ def package(ctx, emp_share=1.0, emp_base="payroll", state_share=1.0, first=None,
                                                                                               if hi else 0.0))
     need = need + hi + hi_tax
     tau, K, hh = ctx["tau"], ctx["K"], ctx["hh"]
+    hh_base = HH_BASE if hh_base is None else hh_base
+    if hh_base == "taxable":    # a point on taxable income, from the budget model's point on AGI above the line
+        pp = dict(pp, broad_income=pp["broad_income"] * taxable_ratio())
     point = 0.1 * f40["states_moved"]
     extra = (state_share - STATE_SHARE_BOOKED) * 10 * point
     h2 = pp["haircut"] if high_avoid is None else high_avoid
@@ -651,7 +682,7 @@ def package(ctx, emp_share=1.0, emp_base="payroll", state_share=1.0, first=None,
     if first_got:
         on_newly = first / 100 * newly * (1 - pp["haircut"])
         pp_old = dict(pp, broad_income=pp["broad_income"] - newly * 0.01 * (1 - pp["haircut"]))
-        rows += income_rows(first_got - on_newly, pp_old, label="First tier")
+        rows += income_rows(first_got - on_newly, pp_old, label="First tier", base=hh_base)
         rows += [("First tier on pay formerly put into premiums before tax, now in income", -on_newly,
                   "exclusion_end")]
     if got2:
@@ -668,7 +699,7 @@ def package(ctx, emp_share=1.0, emp_base="payroll", state_share=1.0, first=None,
              need_with_hi=need, rest=rest, employer_gross=-emp[0][1] - d,
              employer_premium_part=prem, employer_net=emp_net, phase_in=phase_in, phase_in_bn=d,
              no_offer_share=s_no, credit=credit, credit_key=ckey, credit_bn=cbn, credit_per_dollar=cr,
-             n_fixed_rows=n_fixed,
+             n_fixed_rows=n_fixed, hh_base=hh_base, base_key="taxable" if hh_base == "taxable" else "income_line",
              hx_kept=f40["hx"] - emp[1][1], state_extra=extra, first=first or 0.0, second=second,
              vat_rate=vat_gross / pp["vat"], vat_gross=vat_gross, vat_rebate=vat_rebate if vat_gross else 0.0,
              employer_rate=e_rate, employer_rate_with_hi=e_rate + 1.45 if e_rate else 0.0,
@@ -757,15 +788,14 @@ def line_variant(ctx, spec, line):
     try:
         K["wages_band"] = P.micro_shares(B, "rule:" + name)
         vals["band"].update(P.household_base(B, "rule:" + name))
-        tot = sum(h["weight"] * vals["band"][h["hh"]] for h in H)
         o = package(ctx, **spec)
         m = micro(ctx, o)
     finally:
         K["wages_band"] = keep_k
         vals["band"].clear()
         vals["band"].update(keep_v)
-    tot0 = sum(h["weight"] * vals["band"][h["hh"]] for h in H)
-    return o, m, o["employer_rate"] * tot0 / tot
+    # package() already states the rate on the swapped band (band_share() reads it), so no rescaling (cross-check)
+    return o, m, o["employer_rate"]
 
 
 def design_levers(c, g40):
@@ -815,7 +845,7 @@ def package_path(ctx, spec, need_p, flows_p, gap):
         hi = HI_RATE * pp["payroll_gross"] * HI_ENDPOINT[y] if o40["hi"] else 0.0
         prem = o40["emp_share"] * f["employers"]
         left = phase_left(y) if o40["phase_in"] else 0.0
-        d = left * o40["no_offer_share"] * prem
+        d = left * o40["no_offer_share"] * prem * HI_ENDPOINT[y]   # FY2035: three quarters of a year, as the credit
         if o40["credit"] and y >= PHASE_IN_START:   # the credit starts with the payroll-based contribution
             cr = sum(c["share"] * credit_key(c["start"], c["end"], left, c.get("nocov_only", False))[1]
                      for c in _credits(o40["credit"]))
@@ -884,12 +914,13 @@ def _bases(ctx):
     base_of = {"health_hh": health, "employer_cov": lambda h: h["n_employer_cov"],
                "exclusion_end": lambda h: h["n_employer_cov"], "wages": lambda h: h["wages"],
                "wages_cap": lambda h: h["wages_capped"], "wages_band": lambda h: vals["band"][h["hh"]],
-               "income_line": lambda h: vals["base"][h["hh"]],
+               "income_line": lambda h: vals["base"][h["hh"]], "taxable": lambda h: vals["taxable"][h["hh"]],
                "income_high": lambda h: vals["high"][h["hh"]], "consumption": lambda h: max(h["expanded"], 0.0),
                "persons": lambda h: h["numper"], "capital": lambda h: max(h["capital"], 0.0)}
     for a in AVOID_WEIGHTS:
         base_of[f"avoid_{a}"] = base_of["income_line"]
         base_of[f"avoid_high_{a}"] = base_of["income_high"]
+        base_of[f"avoid_tx_{a}"] = base_of["taxable"]
     base_of.update(EXTRA_BASES)
     return base_of
 
@@ -1084,19 +1115,19 @@ def stacking_adjusted(ctx, spec, e=TOP1_ELASTICITY):
 
 
 def examples(ctx, o, growth_gap):
-    """Worked examples in today's (2026) dollars at FY2040's rates, with health costs at FY2040's relation to income:
-    KFF's 2026 premiums (EV-CAR-722) and the coverage model's per-person out-of-pocket costs, copays and Medicare
-    premiums (2032 basis, taken back to 2026 at HEALTH_GROWTH), all times `growth_gap` (health costs per person over
-    incomes, 2026 to FY2040). Full pass-through (total pay fixed, HX's convention); tax on pay that changes and on the
-    former pre-tax premium share at the household's federal bracket plus both halves of payroll tax (15.3%). The lines
-    are taken as $20,000/$40,000 and $100,000/$200,000 in today's dollars. Households below the top fifth bear no
-    avoidance. The self-employed pay the employer contribution on 92.35% of net earnings, as SECA does."""
+    """Worked examples in FY2040, in 2026 dollars (FY2040's amounts with price growth taken out; `net_fy2040` is the
+    nominal figure), at FY2040's rates: KFF's 2026 premiums (EV-CAR-722) and the coverage model's per-person
+    out-of-pocket costs, copays and Medicare premiums (2032 basis, taken back to 2026 at HEALTH_GROWTH), all times
+    `growth_gap` (health costs per person over prices, 2026 to FY2040). The household base is the package's: taxable
+    income (AGI less the 2026 standard deduction) or AGI above the line. Full pass-through (total pay fixed, HX's
+    convention); tax on pay that changes and on the former pre-tax premium share at the household's federal bracket
+    plus both halves of payroll tax (15.3%). Households below the top fifth bear no avoidance. The self-employed pay the employer contribution on 92.35% of net earnings, as SECA does."""
     r1, r2, v, er = o["first"] / 100, o["second"] / 100, o["vat_rate"] / 100, o["employer_rate"] / 100
     gg = growth_gap
     back = (1 + HEALTH_GROWTH) ** (2032 - 2026)
     inc_back = (1 + ctx["income_growth"]) ** (Y - 2026)
     persons_2040 = ctx["persons_2029"] * ctx["hh"] / ctx["n29"]
-    rebate_pp = o["vat_gross"] * o["vat_rebate"] * 1e9 / persons_2040 / inc_back if o["vat_gross"] else 0.0
+    rebate_pp = o["vat_gross"] * o["vat_rebate"] * 1e9 / persons_2040 / ctx["price_2040"] if o["vat_gross"] else 0.0
     copay = gg * ctx["pp_person"]["copay"] / back
     oop = {k: gg * x / back for k, x in ctx["oop_pp"].items()}
     med_prem = gg * 3500 / back
@@ -1114,28 +1145,35 @@ def examples(ctx, o, growth_gap):
              consume=0.8),
         dict(name="Retired couple on Medicare, $60,000 (Social Security $36,000, pension $24,000)", cash=60000,
              agi=24000 + 9000, wages=0, joint=True, people=2, er_prem=0, ee_prem=0, own=2 * med_prem,
-             oop=2 * oop["medicare"], m=0.12, consume=0.95),
+             oop=2 * oop["medicare"], m=0.12, consume=0.95, aged=2),
         dict(name="Retired couple on Medicare, $110,000 (Social Security $50,000, pension and savings $60,000)",
              cash=110000, agi=60000 + 42500, wages=0, joint=True, people=2, er_prem=0, ee_prem=0, own=2 * med_prem,
-             oop=2 * oop["medicare"], m=0.22, consume=0.85),
+             oop=2 * oop["medicare"], m=0.22, consume=0.85, aged=2),
         dict(name="Self-employed single person, $70,000 net, buys an individual-market plan", cash=70000,
              agi=70000 - 5000, wages=0, se=70000, joint=False, people=1, er_prem=0, ee_prem=0, own=ng_prem,
              oop=oop["ng_unsub"], m=0.22, consume=0.9),
     ]
-    # the lines are price-indexed while these examples hold incomes at today's dollars of income, so in these terms
-    # the lines shrink by prices over incomes, 2026 to FY2040 (the independent cross-check, memo part 8)
-    lf = ctx["price_2040"] / inc_back
+    # the examples are in 2026 dollars: FY2040's amounts with price growth taken out (Espen, November 15: one dollar
+    # basis). The design's lines are price-indexed from 2026, so they keep their 2026 values; the alternative base's
+    # household line is the budget model's, in 2025 dollars; the wage base grows with average pay, faster than prices
+    from params import econ
+    lf = 1.0
+    lf_line = econ("cpiu", 2025) / econ("cpiu", 2024)
+    wb = 184500 * inc_back / ctx["price_2040"]
     payroll_t = 0.124 + (0.0 if o["hi"] else HI_RATE / 100)   # both halves of payroll tax that remain on pay
     out = []
     for c in cases:
         line1, line2 = ((40000, 200000) if c["joint"] else (20000, 100000))
-        line1, line2 = line1 * lf, line2 * lf
+        line1, line2 = line1 * lf_line, line2 * lf_line
+        if o.get("hh_base", HH_BASE) == "taxable":   # the standard deduction (2026: IRS, P.L. 119-21), and at 65
+            line1 = (STD_2026["joint"] if c["joint"] else STD_2026["single"]) + c.get("aged", 0) * (
+                STD_AGED_2026["joint"] if c["joint"] else STD_AGED_2026["single"])
         prem_today = gg * (c["ee_prem"]) + c["own"]
         stop = prem_today + c["oop"] - copay * c["people"]
         tax_ee = -(c["m"] + payroll_t) * gg * c["ee_prem"]   # the former pre-tax premium share is now taxable (HX)
         # the employer's base: pay up to the wage base, less the low-pay line where the package has it ($184,500 is
         # the 2026 Social Security wage base)
-        cap = lambda x: min(x, 184500) - (LOW_PAY_LINE * lf if o["emp_base"] == "payroll_band" else 0)  # noqa: E731
+        cap = lambda x: min(x, wb) - (LOW_PAY_LINE * lf if o["emp_base"] == "payroll_band" else 0)  # noqa: E731
         base_e = (x if o["emp_base"] == "payroll" else max(cap(x), 0.0)) if (x := c["wages"]) else 0.0
         hi_ee = HI_RATE / 200 * c["wages"] if o["hi"] else 0.0       # the worker's HI half, repealed
         er_saved = gg * c["er_prem"] + (HI_RATE / 200 * c["wages"] if o["hi"] else 0.0)
@@ -1148,7 +1186,7 @@ def examples(ctx, o, growth_gap):
         base1, base2 = max(agi - line1, 0), max(agi - line2, 0)
         contrib = -(r1 * base1 + r2 * base2)
         se = 0.9235 * c.get("se", 0)
-        se_base = (se if o["emp_base"] == "payroll" else max(min(se, 184500) - (LOW_PAY_LINE * lf if o["emp_base"] ==
+        se_base = (se if o["emp_base"] == "payroll" else max(min(se, wb) - (LOW_PAY_LINE * lf if o["emp_base"] ==
                                                                                       "payroll_band" else 0), 0.0))
         se_contrib = -er * se_base + (HI_RATE / 100 * se if o["hi"] else 0.0)   # SECA's HI part ends
         vat = (-v * c["consume"] * c["cash"] + rebate_pp * c["people"]) if v else 0.0
@@ -1168,6 +1206,7 @@ def examples(ctx, o, growth_gap):
                         agi=round(agi), lines=round(line1), base=round(base1), base2=round(base2),
                         rate1=o["first"], rate2=o["second"], contribution=round(contrib),
                         self_employed=round(se_contrib), vat=round(vat), credit=round(credit), net=round(net),
+                        net_fy2040=round(net * ctx["price_2040"]), agi_share=round(-100 * contrib / agi, 1) if agi else 0.0,
                         net_share=round(100 * net / c["cash"], 1)))
     return out
 
@@ -1237,6 +1276,8 @@ def run():
         "B_first_5": package(ctx, **dict(PACKAGES["B"], first=5.0)),
         # the fix's parts and its alternatives (memo parts 2.6, 2.7 and 4.3)
         "A_before_fix": package(ctx, **dict(PACKAGES["A"], **BEFORE_FIX)),
+        "A_before_fix_line_base": package(ctx, **dict(PACKAGES["A"], hh_base="line", **BEFORE_FIX)),
+        "A_line_base": package(ctx, **dict(PACKAGES["A"], hh_base="line")),
         "A_phase_in_only": package(ctx, **dict(PACKAGES["A"], credit=None)),
         "A_credit_only": package(ctx, **dict(PACKAGES["A"], phase_in=0.0)),
         "A_credit_75pct": package(ctx, **dict(PACKAGES["A"], credit=dict(WORKER_CREDIT, share=0.75))),
@@ -1260,7 +1301,7 @@ def run():
     micro_ = {k: micro(ctx, P[k]) for k in P}
     micro_["A_states_80"] = micro(ctx, S["A_states_80"])
     for k in ("A_employer_uncapped", "A_employer_capped_no_low_pay_line", "A_hi_folded", "A_with_savings",
-              "A_before_fix", "A_phase_in_only", "A_credit_only", "A_credit_75pct", "A_credit_50_100k",
+              "A_before_fix", "A_before_fix_line_base", "A_line_base", "A_phase_in_only", "A_credit_only", "A_credit_75pct", "A_credit_50_100k",
               "A_credit_all_workers", "A_credit_all_workers_half", "A_long_run_low_pay_credit"):
         micro_[k] = micro(ctx, S[k])
     # the low-pay line at $30,000 instead of the credit (memo part 4.3)
@@ -1284,15 +1325,16 @@ def run():
     statutory = P["A"]["rows"]
     st_charge = -[bn for lb, bn, _ in statutory if lb.startswith("First tier: the statutory")][0]
     base_2040 = st_charge / (P["A"]["first"] / 100)
-    sh, t1 = K["income_line"]
+    sh, t1 = K[P["A"]["base_key"]]
     implied = {g_: base_2040 * 1e9 * s / 100 / (hh * 0.2) for g_, s in zip(GROUPS, sh)}
     implied["T1"] = base_2040 * 1e9 * t1 / 100 / (hh * 0.01)
     # health costs per person grow with CMS's projection of national health spending, 5.4% a year (EV-CAR-056), less
-    # population growth, against nominal income per household on the model's path (2029 to FY2040)
-    gg = ((1 + HEALTH_GROWTH) / (1 + ctx["income_growth"])) ** (Y - 2026)
+    # population growth; the examples are in 2026 dollars, so against prices (CBO's CPI-U), 2026 to FY2040
+    gg = (1 + HEALTH_GROWTH) ** (Y - 2026) / ctx["price_2040"]   # health costs per person over prices, 2026-FY2040
     ex = {k: examples(ctx, P[k], gg) for k in P}
     ex["A_before_fix"] = examples(ctx, S["A_before_fix"], gg)
-    tc = {k: topcode_check(P[k], K, hh) for k in P}
+    ex["A_line_base"] = examples(ctx, S["A_line_base"], gg)
+    tc = {k: topcode_check(P[k], K, hh, key=P[k]["base_key"]) for k in P}
     stk = {k: stacking_check(P[k], K, pp) for k in P}
     stk["A_employer_uncapped"] = stacking_check(S["A_employer_uncapped"], K, pp)
     adj = {}
@@ -1312,7 +1354,8 @@ def run():
                                                                             "avoid_central", "consumption",
                                                                             "persons")},
                 incomes_2040={m: {k: round(v) for k, v in d.items()} for m, d in ctx["incomes"].items()},
-                base_2040=dict(statutory_bn=base_2040, cps_grown_bn=ctx["cps_base"], per_household=implied),
+                base_2040=dict(statutory_bn=base_2040, cps_grown_bn=ctx["cps_base"][P["A"]["hh_base"]],
+                               per_household=implied),
                 packages=P, sensitivities=S, savings_2040=sav, sens_2040={k: v * g40 for k, v in sens.items()},
                 package_paths=paths_, payers=rc, payers_booked=rc_booked, payer_path=payer_path(c, ctx["gp"]),
                 group_payers_2032=ctx["gp"], micro={k: {a: b for a, b in v.items() if a != "_net"}
@@ -1320,17 +1363,18 @@ def run():
                 passthrough=pt, hi=hi, stacking_adjusted=adj, views=views, path_views=path_views, levers=levers,
                 growth_hold=gh, band_share=band_share(), replaced_path=ctx["replaced_p"], g40=g40, pp_person=ctx["pp_person"],
                 before_financing=per_household(relief_rows(ctx["f40"]), K, hh),
-                no_offer={k: v for k, v in no_offer().items() if k != "drawn"},
+                no_offer={k: v for k, v in no_offer().items() if k != "drawn"}, price_2040=ctx["price_2040"],
+                taxable_ratio=taxable_ratio(),
                 phase_left={y: phase_left(y) for y in YEARS}, line_30k_rate=r30, employer_split=split,
                 pay_holds=dict(holds, micro={k: v for k, v in holds["micro"].items() if k != "_net"}),
                 savings_kept=dict(kept, micro={k: v for k, v in kept["micro"].items() if k != "_net"}))
 
 
-def topcode_check(o, K, hh, top1_share=TOP1_BASE_SHARE_IRS):
-    sh, t1 = K["income_line"]
+def topcode_check(o, K, hh, top1_share=TOP1_BASE_SHARE_IRS, key="income_line"):
+    sh, t1 = K[key]
     scale = (100 - top1_share) / (100 - t1)
     q = [s * scale for s in sh[:4]] + [sh[4] * scale + (top1_share - t1 * scale)]
-    return per_household(o["rows"], dict(K, income_line=(q, top1_share)), hh)
+    return per_household(o["rows"], dict(K, **{key: (q, top1_share)}), hh)
 
 
 def passthrough_check(ctx, o, p=0.5):
