@@ -186,9 +186,10 @@ def hi_sources():
     years = next((r for r in read("fiscal-years.csv") if r["id"] == "H1a"), None)
     if years is not None:
         # Health stream (e) (DEC-2026-11-15-19; health_booking.py): H1a has its own fiscal-year path and goes to the
-        # plan's fund from the January 2035 endpoint, when HI folds into it, so HI is credited only with the years
-        # before (FY2035 three quarters of a year after the endpoint) and nothing after
-        pre = {t: 1.0 if t < 2035 else (0.25 if t == 2035 else 0.0) for t in W}
+        # plan's fund from the January 2035 endpoint, when HI folds into it, so HI is credited only with the fiscal
+        # years before it. FY2035's booked amount is calendar 2035's, all after the endpoint, so HI gets none of it
+        # (a start before 2035 would add its October-December 2034 quarter, which this path does not separate)
+        pre = {t: 1.0 if t < 2035 else 0.0 for t in W}
         h1a = {t: num(years["y%d" % t]) * pre[t] / hi_payroll(t) * 100 for t in W}
         h1a_after = 0.0
     else:

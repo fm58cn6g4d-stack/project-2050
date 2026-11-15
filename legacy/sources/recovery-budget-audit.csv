@@ -569,7 +569,7 @@ mixed,2035,C43,18.196,0,-18.196
 mixed,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 mixed,2035,"EDU replacement, net of existing-law and old agenda",201.2039737344,32.6884516531195,-168.5155220812805
 mixed,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",584.0329023600324,21.24880899950838,-562.784093360524
-mixed,2035,HI H1a and Part A HLT-6 share,9.23050757426177,-13.643919431598778,-22.874427005860547
+mixed,2035,HI H1a and Part A HLT-6 share,0.0,-13.643919431598778,-13.643919431598778
 mixed,2035,Paid leave actual contributions and benefits,142.44704935610548,169.70111665757778,27.254067301472304
 mixed,2035,Recovery credit,0,92.54195901383638,92.54195901383638
 mixed,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
@@ -3317,7 +3317,7 @@ larger_payroll,2035,C43,18.196,0,-18.196
 larger_payroll,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 larger_payroll,2035,"EDU replacement, net of existing-law and old agenda",287.43424819200004,32.6884516531195,-254.74579653888054
 larger_payroll,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",584.0329023600324,21.24880899950838,-562.784093360524
-larger_payroll,2035,HI H1a and Part A HLT-6 share,9.23050757426177,-13.643919431598778,-22.874427005860547
+larger_payroll,2035,HI H1a and Part A HLT-6 share,0.0,-13.643919431598778,-13.643919431598778
 larger_payroll,2035,Paid leave actual contributions and benefits,142.44704935610548,169.70111665757778,27.254067301472304
 larger_payroll,2035,Recovery credit,0,92.54195901383638,92.54195901383638
 larger_payroll,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
@@ -6087,7 +6087,7 @@ mixed_downside,2035,C43,18.196,0,-18.196
 mixed_downside,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 mixed_downside,2035,"EDU replacement, net of existing-law and old agenda",196.4136227963519,88.30940689077613,-108.10421590557576
 mixed_downside,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",584.0329023600324,21.24880899950838,-562.784093360524
-mixed_downside,2035,HI H1a and Part A HLT-6 share,9.23050757426177,-6.821959715799389,-16.05246729006116
+mixed_downside,2035,HI H1a and Part A HLT-6 share,0.0,-6.821959715799389,-6.821959715799389
 mixed_downside,2035,Paid leave actual contributions and benefits,142.44704935610548,169.70111665757778,27.254067301472304
 mixed_downside,2035,Recovery credit,0,92.54195901383638,92.54195901383638
 mixed_downside,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
@@ -8853,7 +8853,7 @@ mixed_all_debt_rate_plus1,2035,C43,18.196,0,-18.196
 mixed_all_debt_rate_plus1,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 mixed_all_debt_rate_plus1,2035,"EDU replacement, net of existing-law and old agenda",201.2039737344,32.6884516531195,-168.5155220812805
 mixed_all_debt_rate_plus1,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",584.0329023600324,21.24880899950838,-562.784093360524
-mixed_all_debt_rate_plus1,2035,HI H1a and Part A HLT-6 share,9.23050757426177,-13.643919431598778,-22.874427005860547
+mixed_all_debt_rate_plus1,2035,HI H1a and Part A HLT-6 share,0.0,-13.643919431598778,-13.643919431598778
 mixed_all_debt_rate_plus1,2035,Paid leave actual contributions and benefits,142.44704935610548,169.70111665757778,27.254067301472304
 mixed_all_debt_rate_plus1,2035,Recovery credit,0,92.54195901383638,92.54195901383638
 mixed_all_debt_rate_plus1,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
@@ -11597,7 +11597,7 @@ mixed_no_macro_translation,2035,C43,18.196,0,-18.196
 mixed_no_macro_translation,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 mixed_no_macro_translation,2035,"EDU replacement, net of existing-law and old agenda",201.2039737344,32.6884516531195,-168.5155220812805
 mixed_no_macro_translation,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",591.43525,21.49641365924249,-569.9388363407575
-mixed_no_macro_translation,2035,HI H1a and Part A HLT-6 share,9.3475,-13.816849816849818,-23.164349816849818
+mixed_no_macro_translation,2035,HI H1a and Part A HLT-6 share,0.0,-13.816849816849818,-13.816849816849818
 mixed_no_macro_translation,2035,Paid leave actual contributions and benefits,144.2525,171.85200003300736,27.59950003300736
 mixed_no_macro_translation,2035,Recovery credit,0,92.54195901383638,92.54195901383638
 mixed_no_macro_translation,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
@@ -14341,7 +14341,7 @@ mixed_leave_admin_high,2035,C43,18.196,0,-18.196
 mixed_leave_admin_high,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 mixed_leave_admin_high,2035,"EDU replacement, net of existing-law and old agenda",201.2039737344,32.6884516531195,-168.5155220812805
 mixed_leave_admin_high,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",584.0329023600324,21.24880899950838,-562.784093360524
-mixed_leave_admin_high,2035,HI H1a and Part A HLT-6 share,9.23050757426177,-13.643919431598778,-22.874427005860547
+mixed_leave_admin_high,2035,HI H1a and Part A HLT-6 share,0.0,-13.643919431598778,-13.643919431598778
 mixed_leave_admin_high,2035,Paid leave actual contributions and benefits,142.44704935610548,174.64386762818683,32.196818272081345
 mixed_leave_admin_high,2035,Recovery credit,0,92.54195901383638,92.54195901383638
 mixed_leave_admin_high,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
@@ -17084,7 +17084,7 @@ mixed_ssa_medicare_all_hi,2035,C43,18.196,0,-18.196
 mixed_ssa_medicare_all_hi,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 mixed_ssa_medicare_all_hi,2035,"EDU replacement, net of existing-law and old agenda",201.2039737344,32.6884516531195,-168.5155220812805
 mixed_ssa_medicare_all_hi,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",584.0329023600324,21.24880899950838,-562.784093360524
-mixed_ssa_medicare_all_hi,2035,HI H1a and Part A HLT-6 share,9.23050757426177,-13.643919431598778,-22.874427005860547
+mixed_ssa_medicare_all_hi,2035,HI H1a and Part A HLT-6 share,0.0,-13.643919431598778,-13.643919431598778
 mixed_ssa_medicare_all_hi,2035,Paid leave actual contributions and benefits,142.44704935610548,169.70111665757778,27.254067301472304
 mixed_ssa_medicare_all_hi,2035,Recovery credit,0,92.54195901383638,92.54195901383638
 mixed_ssa_medicare_all_hi,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
@@ -19828,7 +19828,7 @@ mixed_ssa_medicare_all_smi,2035,C43,18.196,0,-18.196
 mixed_ssa_medicare_all_smi,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 mixed_ssa_medicare_all_smi,2035,"EDU replacement, net of existing-law and old agenda",201.2039737344,32.6884516531195,-168.5155220812805
 mixed_ssa_medicare_all_smi,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",584.0329023600324,21.24880899950838,-562.784093360524
-mixed_ssa_medicare_all_smi,2035,HI H1a and Part A HLT-6 share,9.23050757426177,-13.643919431598778,-22.874427005860547
+mixed_ssa_medicare_all_smi,2035,HI H1a and Part A HLT-6 share,0.0,-13.643919431598778,-13.643919431598778
 mixed_ssa_medicare_all_smi,2035,Paid leave actual contributions and benefits,142.44704935610548,169.70111665757778,27.254067301472304
 mixed_ssa_medicare_all_smi,2035,Recovery credit,0,92.54195901383638,92.54195901383638
 mixed_ssa_medicare_all_smi,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
@@ -22572,7 +22572,7 @@ mixed_reserve_corridor,2035,C43,18.196,0,-18.196
 mixed_reserve_corridor,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 mixed_reserve_corridor,2035,"EDU replacement, net of existing-law and old agenda",201.2039737344,32.6884516531195,-168.5155220812805
 mixed_reserve_corridor,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",584.0329023600324,21.24880899950838,-562.784093360524
-mixed_reserve_corridor,2035,HI H1a and Part A HLT-6 share,9.23050757426177,-13.643919431598778,-22.874427005860547
+mixed_reserve_corridor,2035,HI H1a and Part A HLT-6 share,0.0,-13.643919431598778,-13.643919431598778
 mixed_reserve_corridor,2035,Paid leave actual contributions and benefits,142.44704935610548,169.70111665757778,27.254067301472304
 mixed_reserve_corridor,2035,Recovery credit,0,92.54195901383638,92.54195901383638
 mixed_reserve_corridor,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
@@ -25321,7 +25321,7 @@ mixed_corridor_downside,2035,C43,18.196,0,-18.196
 mixed_corridor_downside,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 mixed_corridor_downside,2035,"EDU replacement, net of existing-law and old agenda",196.4136227963519,88.30940689077613,-108.10421590557576
 mixed_corridor_downside,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",584.0329023600324,21.24880899950838,-562.784093360524
-mixed_corridor_downside,2035,HI H1a and Part A HLT-6 share,9.23050757426177,-6.821959715799389,-16.05246729006116
+mixed_corridor_downside,2035,HI H1a and Part A HLT-6 share,0.0,-6.821959715799389,-6.821959715799389
 mixed_corridor_downside,2035,Paid leave actual contributions and benefits,142.44704935610548,169.70111665757778,27.254067301472304
 mixed_corridor_downside,2035,Recovery credit,0,92.54195901383638,92.54195901383638
 mixed_corridor_downside,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
@@ -28087,7 +28087,7 @@ mixed_legacy_education_floor,2035,C43,18.196,0,-18.196
 mixed_legacy_education_floor,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 mixed_legacy_education_floor,2035,"EDU replacement, net of existing-law and old agenda",201.2039737344,33.14603403652461,-168.05793969787538
 mixed_legacy_education_floor,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",584.0329023600324,21.24880899950838,-562.784093360524
-mixed_legacy_education_floor,2035,HI H1a and Part A HLT-6 share,9.23050757426177,-13.643919431598778,-22.874427005860547
+mixed_legacy_education_floor,2035,HI H1a and Part A HLT-6 share,0.0,-13.643919431598778,-13.643919431598778
 mixed_legacy_education_floor,2035,Paid leave actual contributions and benefits,142.44704935610548,169.70111665757778,27.254067301472304
 mixed_legacy_education_floor,2035,Recovery credit,0,92.54195901383638,92.54195901383638
 mixed_legacy_education_floor,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
@@ -30831,7 +30831,7 @@ mixed_larger_credit,2035,C43,18.196,0,-18.196
 mixed_larger_credit,2035,Matched dedicated uses (gross presentation proxy),223.34629264117544,223.34629264117544,0.0
 mixed_larger_credit,2035,"EDU replacement, net of existing-law and old agenda",201.2039737344,32.6884516531195,-168.5155220812805
 mixed_larger_credit,2035,"SS actual 2031 start, high-base package and SS-7.01 fallback",584.0329023600324,21.24880899950838,-562.784093360524
-mixed_larger_credit,2035,HI H1a and Part A HLT-6 share,9.23050757426177,-13.643919431598778,-22.874427005860547
+mixed_larger_credit,2035,HI H1a and Part A HLT-6 share,0.0,-13.643919431598778,-13.643919431598778
 mixed_larger_credit,2035,Paid leave actual contributions and benefits,142.44704935610548,169.70111665757778,27.254067301472304
 mixed_larger_credit,2035,Recovery credit,0,462.7097950691819,462.7097950691819
 mixed_larger_credit,2035,Smaller capacity and AI authorizations,0,-75.57409387755102,-75.57409387755102
