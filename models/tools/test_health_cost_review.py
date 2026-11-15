@@ -148,8 +148,14 @@ class Unified(unittest.TestCase):
         fold = CR.h1b_restated(self.ctx)["fold_into_s_points"]
         a = CR.unified_package(self.ctx, self.case, self.u3)                              # S = 5, H1b lost
         b = CR.unified_package(self.ctx, self.case, CR.unified_spec(3.0, S=5.0 + fold))  # H1b folded into S
-        self.assertAlmostEqual(a["reassigned"] - b["reassigned"], a["lost"]["H1b"], places=6)
-        self.assertAlmostEqual(b["reassigned"], a["remainder_F"] + a["lost"]["total"] - a["lost"]["H1b"]
+        L = a["lost"]
+        # the fold-in's total carries H1b's wage half on top of HI, the 0.9% and HI on former premiums
+        self.assertAlmostEqual(L["total"] - (L["W"] + L["A"] + L["hxp"]), CR.h1b_restated(self.ctx)["wage_half"],
+                               places=6)
+        self.assertGreater(L["H1b"], 40.0)
+        # with H1b folded into S, booked revenue taken is what S = 5 takes when H1b is kept whole (pinned to the
+        # pieces, not to the total, so dropping the wage half from the total fails here)
+        self.assertAlmostEqual(b["reassigned"], a["remainder_F"] + L["W"] + L["A"] + L["hxp"]
                                - a["household_collected"], places=6)
 
     def test_h1b_restatement_keeps_its_yield(self):
