@@ -2,7 +2,7 @@
 
 Role: the stage E memo that tries to break `health-financing.md`'s cost estimate. It then redesigns the plan's financing around Espen's take-home test of November 15. It replaces that memo's gross cost (part 1.1, and with it part 1.2b's correction, now made here) and the package choice (parts 3 and 9, questions 1 and 2); those parts are marked superseded there. Everything else in `health-financing.md` stands: the payer accounting, the employer protections, the worker transition credit, the states' maintenance of effort and the Medicare seam.
 
-Status: **for Espen's decision, November 15, 2026.** It recommends and books nothing. The coverage model, the booked rows and the adopted inputs are unchanged. Any correction goes to a later tier-3 booking PR (part 5).
+Status: **for Espen's decision, November 15, 2026.** It recommends and books nothing. The coverage model, the booked rows and the adopted inputs are unchanged. Any correction goes to a later tier-3 booking PR (part 5). The household contribution Espen chose on November 15 (one unified contribution in place of package E's tier) is rebuilt and priced across rates in `health-household-contribution.md`.
 
 Units:
 - **Households: 2026 dollars.** These are FY2040's amounts with price growth taken out.

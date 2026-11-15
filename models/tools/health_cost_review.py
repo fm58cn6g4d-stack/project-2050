@@ -532,54 +532,98 @@ def _marginal(taxable, fs):
     return .396
 
 
-def contribution(agi, fs, o):
-    """The household health contribution in 2026 dollars for a household in FY2040 under package o."""
+def contribution(agi, fs, o, persons=1):
+    """The household health contribution in 2026 dollars for a household in FY2040 under package o (the unified
+    contribution of part 3 when o carries `unified`)."""
+    if o.get("unified"):
+        return unified_charge(agi, fs, persons, o["unified"])
     fsj = "joint" if fs == "joint" else "single"
     taxable = max(agi - STD["joint" if fs == "joint" else "single"], 0.0)
     return o["first"] / 100 * taxable + o["second"] / 100 * max(agi - LINE_HIGH[fsj], 0.0)
 
 
-def visible(agi, fs, persons, kind, prem_share, oop, o, fpl200):
-    """Today's and the plan's visible health costs (2026 dollars, FY2040): today premium share plus out of pocket on
-    covered services; the plan's household contribution, copays (none below 200% of poverty) and the tax on the pay
-    that used to go to premiums before tax. The 1.45% worker payroll tax for health is the same in both."""
+# The worker's Medicare payroll tax today: 1.45% of wages and 92.35% of self-employment income (the worker's half),
+# and the 0.9% Additional Medicare Tax above $200,000 single / $250,000 joint (sec. 3101(b)(2), not indexed, so the
+# threshold falls in real terms: divided by FY2040's price level when costs are in 2026 dollars).
+WORKER_HI = 0.0145
+AMT_RATE, AMT_THRESHOLD = 0.009, {"single": 200000, "joint": 250000}
+LINE_LOW = {"single": 20000 * 1.027, "joint": 40000 * 1.027}      # the booked 2 points' line, 2026 dollars
+# Medicare Part B's standard premium, 2026 ($202.90 a month, CMS, November 2025), grown as other premiums. The CPS's
+# premiums paid (PHIP_VAL) leave Part B out (Census counts it separately in the SPM's medical costs); working assumption.
+PART_B_2026 = 202.90 * 12
+PRICE_2040 = None
+
+
+def worker_hi(earn, fs):
+    """The worker's HI and Additional Medicare Tax, FY2040, 2026 dollars, on `earn` (wages plus 92.35% of
+    self-employment income, 2026 dollars)."""
+    j = "joint" if fs == "joint" else "single"
+    return WORKER_HI * max(earn, 0.0) + AMT_RATE * max(earn - AMT_THRESHOLD[j] / PRICE_2040, 0.0)
+
+
+def visible(agi, fs, persons, kind, prem_share, oop, o, fpl200, earn=None, low2=False):
+    """Today's and the plan's visible health costs (2026 dollars, FY2040). Today: premium share, out of pocket on
+    covered services, and the worker's HI and 0.9% on `earn` (AGI if not given). The plan: the household contribution,
+    copays (none below 200% of poverty), the tax on the pay that used to go to premiums before tax, and the worker's
+    HI and 0.9% unless the package folds them into its contribution (part 3). `low2`: also the booked 2 points on AGI
+    above $20,000/$40,000 for the other flagships (a stage G item, shown separately)."""
+    earn = agi if earn is None else earn
+    hi = worker_hi(earn, fs)
+    folded = bool(o.get("unified"))
     cp = 0.0 if (agi < fpl200 or kind == "medicaid") else COPAY_2040 * persons
     agi_plan = agi + (prem_share if kind == "job" else 0.0)
-    tax_prem = prem_share * (_marginal(max(agi_plan - STD["joint" if fs == "joint" else "single"], 0), fs) + 0.0765) \
+    ptax = 0.062 + (0.0 if folded else WORKER_HI)
+    tax_prem = prem_share * (_marginal(max(agi_plan - STD["joint" if fs == "joint" else "single"], 0), fs) + ptax) \
         if kind == "job" else 0.0
-    plan = contribution(agi_plan, fs, o) + cp + tax_prem
-    return prem_share + oop, plan
+    plan = contribution(agi_plan, fs, o, persons) + cp + tax_prem + (0.0 if folded else hi)
+    if low2:
+        plan += 0.02 * max(agi_plan - LINE_LOW["joint" if fs == "joint" else "single"], 0.0)
+    return prem_share + oop + hi, plan
 
 
 COPAY_2040 = None
 
 
 def _setup_visible(ctx):
-    global COPAY_2040
+    global COPAY_2040, PRICE_2040
     g = 1.048 ** 8 / ctx["price_2040"]                 # 2032 nominal to FY2040 in 2026 dollars
     COPAY_2040 = ctx["pp_person"]["copay"] * g
+    PRICE_2040 = ctx["price_2040"]
     oop = {k: v * g * COVERED_OOP_SHARE for k, v in ctx["oop_pp"].items()}
     return g, oop
+
+
+def earn_unit(u):
+    """A tax unit's earnings on the HI base (2029 dollars): wages and 92.35% of self-employment income."""
+    return u["wage_h"] + u["wage_s"] + 0.9235 * (max(u["se_h"], 0) + max(u["se_s"], 0))
+
+
+def _is_worker(u):
+    earn = u["wage_h"] + u["wage_s"] + max(u["se_h"], 0) + max(u["se_s"], 0)
+    return not (earn <= 0 or (u["age_h"] >= 65 and u["n_medicare"] > 0 and u["wage_h"] <= 0))
 
 
 def fpl200(persons):
     return 2 * (15650 + 5500 * (persons - 1))
 
 
-def take_home_micro(ctx, o):
+def take_home_micro(ctx, o, low2=False, who="workers", part_b=True):
     """Each worker tax unit (wages or self-employment) on the household model: does what visibly leaves its pay and
-    wallet fall? Returns pass shares by AGI (2026 dollars) and by coverage."""
+    wallet fall? Today's cost counts the worker's HI and 0.9% (the plan's too, unless its contribution replaces them)
+    and Medicare Part B's premium (`part_b`). `who`: 'workers', or 'others' (retirees on Medicare without wages and
+    every unit with no earnings). Returns pass shares by AGI (2026 dollars), by coverage, and below 200% of
+    poverty."""
     g, oop = _setup_visible(ctx)
     K, _, _, _, X = HF.keys()
     U = X["B"]["units"]
     hgrow = 1.048 ** 11 / ctx["price_2040"]            # 2029 nominal to FY2040, 2026 dollars, per person
     igrow = X["grow"] / ctx["price_2040"]
+    partb = PART_B_2026 * REAL_HEALTH_2040 if part_b else 0.0
     bands = [(0, 25e3), (25e3, 50e3), (50e3, 75e3), (75e3, 100e3), (100e3, 150e3), (150e3, 200e3), (200e3, 1e12)]
     res = {b: [0.0, 0.0] for b in bands}
-    bykind = {}
+    bykind, low = {}, [0.0, 0.0]
     for u in U:
-        earn = u["wage_h"] + u["wage_s"] + max(u["se_h"], 0) + max(u["se_s"], 0)
-        if earn <= 0 or (u["age_h"] >= 65 and u["n_medicare"] > 0 and u["wage_h"] <= 0):
+        if _is_worker(u) != (who == "workers"):
             continue
         agi = u["t_agi"] * igrow
         fs = "joint" if u["t_fs"] == "joint" else "single"
@@ -591,9 +635,9 @@ def take_home_micro(ctx, o):
         oo = (u["n_employer_cov"] * oop["esi"] + u["n_marketplace"] * oop["ng_sub"] + u["n_medicaid"] * oop["medicaid"]
               + u["n_medicare"] * oop["medicare"]
               + max(n - u["n_employer_cov"] - u["n_marketplace"] - u["n_medicaid"] - u["n_medicare"], 0)
-              * oop["uninsured"])
+              * oop["uninsured"]) + u["n_medicare"] * partb
         today, plan = visible(agi, fs, n, kind, prem if kind == "job" else 0.0, oo + (prem if kind != "job" else 0.0),
-                              o, fpl200(n))
+                              o, fpl200(n), earn=earn_unit(u) * igrow, low2=low2)
         ok = plan <= today
         for b in bands:
             if b[0] <= agi < b[1]:
@@ -602,11 +646,16 @@ def take_home_micro(ctx, o):
         bk = bykind.setdefault(kind, [0.0, 0.0])
         bk[0] += u["weight"]
         bk[1] += u["weight"] * ok
+        if agi < fpl200(n):
+            low[0] += u["weight"]
+            low[1] += u["weight"] * ok
     tot = sum(v[0] for v in res.values())
-    return dict(by_agi={f"{int(b[0] / 1e3)}-{int(min(b[1], 1e9) / 1e3)}K": 100 * v[1] / v[0] for b, v in res.items()},
+    return dict(by_agi={f"{int(b[0] / 1e3)}-{int(min(b[1], 1e9) / 1e3)}K": 100 * v[1] / v[0] for b, v in res.items()
+                        if v[0]},
                 by_kind={k: 100 * v[1] / v[0] for k, v in bykind.items()},
                 kind_share={k: 100 * v[0] / tot for k, v in bykind.items()},
-                all=100 * sum(v[1] for v in res.values()) / tot)
+                all=100 * sum(v[1] for v in res.values()) / tot, below_200fpl=100 * low[1] / low[0],
+                below_200fpl_share=100 * low[0] / tot, units_m=tot * ctx["hh"] / X["n29"] / 1e6)
 
 
 # KFF 2026 (EV-CAR-722): workers' premium shares, single and family.
@@ -660,8 +709,12 @@ def household_T(ctx, o):
     agi = 72000 - 2100
     today, plan = visible(agi, "single", 1, "job", prem, oo, o, fpl200(1))
     c = contribution(agi + prem, "single", o)
-    return dict(today=today, plan=plan, contribution=c, copays=COPAY_2040, tax_on_premium=plan - c - COPAY_2040,
-                today_2026=4050.0, change=plan - today, plan_share=100 * plan / 72000, today_share=100 * today / 72000)
+    hi = worker_hi(agi, "single")
+    hi_plan = 0.0 if o.get("unified") else hi
+    return dict(today=today, today_hi=hi, plan=plan, plan_hi=hi_plan, contribution=c, copays=COPAY_2040,
+                tax_on_premium=plan - c - COPAY_2040 - hi_plan, plan_without_hi=plan - hi_plan,
+                today_without_hi=today - hi, today_2026=4050.0, change=plan - today, plan_share=100 * plan / 72000,
+                today_share=100 * today / 72000)
 
 
 # ---- employers by firm size (SUSB 2022, Census; 2026 dollars at the 2022 pay structure) -------------------------
@@ -731,7 +784,8 @@ def md(out):
                    ("Plan-wide FY2040 gap after health ($B)", lambda p: f"{p['plan_gap_2040']:,.0f}"),
                    ("Top federal rate on wages", lambda p: f"{p['top_rate']:.1f}%"),
                    ("Workers passing the take-home test", lambda p: f"{p['take_home']['all']:.0f}%"),
-                   ("Single worker at $72,000: visible cost a year (today grown: 5,679)", lambda p: f"{p['T']['plan']:,.0f}"),
+                   ("Single worker at $72,000: visible cost a year, HI counted on both sides (today grown: 6,692)",
+                    lambda p: f"{p['T']['plan']:,.0f}"),
                    ("Net per household Q1 / Q2 / Q3", lambda p: " / ".join(f"{p['households'][q]:+,}" for q in ("Q1", "Q2", "Q3"))),
                    ("Net per household Q4 / Q5 / top 1%", lambda p: " / ".join(f"{p['households'][q]:+,}" for q in ("Q4", "Q5", "T1"))),
                    ("Bottom-four households losing cash (M; over 5%)", lambda p: f"{p['losers']['bottom_four']:.1f} ({p['losers']['bottom_four_5pct']:.1f})"),
@@ -795,7 +849,313 @@ def run_part2():
     return out
 
 
+# ======================================================================================== Part 3: the unified contribution
+# Espen, November 15: one health contribution replacing the worker's 1.45% HI, the 0.9% Additional Medicare Tax and
+# worker HI on former premiums (employers keep their 1.45%); collected by withholding on wages and on the return for
+# other income; R% of all AGI, S points on AGI above $200,000/$250,000 of 2025 ($205,400/$256,750 in 2026 dollars,
+# indexed as LINE_HIGH is), and a low-income exemption: nothing at or below `lo` times poverty for the tax unit's
+# size, the full rate from `hi` times poverty, no cliff. Everything else is package E (cost case "design", the five
+# new streams, the small-employer allowance, the worker transition credit; booked revenue closes the rest and may go
+# negative, a surplus). Lines and the exemption are applied to FY2040 AGI in 2026 dollars.
+SURCHARGE_LINE = {"single": 200000 * 1.027, "joint": 250000 * 1.027}
+H1B_LINE = {"single": 400000 * 1.027, "joint": 400000 * 1.027}   # H1b's $400K (one line), indexed the same way
+H1B_BN = 62.719            # H1b on the audit lines, FY2040 (Medicare and the investment-income tax to 5% above $400K)
+# CBO's 2026 long-term Social Security projections (SRC-3813, table 2): taxable payroll, calendar years, $ trillion.
+# HI's base is all covered earnings; taxable payroll is the part under the wage base, about CAP_SHARE (0.83) of it.
+CBO_TAXABLE_PAYROLL = {2039: 18.186, 2040: 18.849}
+# Plan-wide FY2040 gap before health takes booked revenue ($B), the convention of run_part2 (gap = 70 + reassigned).
+GAP_BEFORE_REASSIGN = 70.0
+
+
+def unified_spec(R, S=5.0, lo=1.38, hi=2.00, form="quadratic", h1b=0.0):
+    """R and S in points; `form`: 'quadratic' (charge = R x AGI x the share of the way from lo to hi, the drafted
+    design) or 'linear' (charge = R x hi/(hi - lo) x (AGI - lo x poverty), capped at R x AGI: one steady rate in the
+    band); `h1b`: points on AGI above H1b's line (H1b restated as its own step)."""
+    return dict(R=R, S=S, lo=lo, hi=hi, form=form, h1b=h1b)
+
+
+def poverty(persons):
+    return fpl200(max(persons, 1)) / 2
+
+
+def unified_charge(agi, fs, persons, u, part="all"):
+    """The unified contribution, 2026 dollars, FY2040. `part`: 'all', 'base' (R with the exemption), 'surcharge'
+    or 'h1b'."""
+    j = "joint" if fs == "joint" else "single"
+    agi = max(agi, 0.0)
+    out = 0.0
+    if part in ("all", "base"):
+        F, R, lo, hi = poverty(persons), u["R"] / 100, u["lo"], u["hi"]
+        x = agi / F
+        if x <= lo:
+            b = 0.0
+        elif x >= hi:
+            b = R * agi
+        elif u["form"] == "quadratic":
+            b = R * agi * (x - lo) / (hi - lo)
+        else:
+            b = min(R * agi, R * hi / (hi - lo) * (agi - lo * F))
+        out += b
+    if part in ("all", "surcharge"):
+        out += u["S"] / 100 * max(agi - SURCHARGE_LINE[j], 0.0)
+    if part in ("all", "h1b"):
+        out += u.get("h1b", 0.0) / 100 * max(agi - H1B_LINE[j], 0.0)
+    return out
+
+
+def exemption_marginal(u):
+    """The exemption's own marginal rate (points) at the bottom and top of its band, on top of the other taxes."""
+    R, lo, hi = u["R"], u["lo"], u["hi"]
+    if u["form"] == "quadratic":
+        return R * lo / (hi - lo), R * (2 * hi - lo) / (hi - lo)
+    return R * hi / (hi - lo), R * hi / (hi - lo)
+
+
+def _units(ctx):
+    _, _, _, _, X = HF.keys()
+    ig = X["grow"] / ctx["price_2040"]
+    for u in X["B"]["units"]:
+        yield u, u["t_agi"] * ig, ("joint" if u["t_fs"] == "joint" else "single"), max(u["n_people"], 1)
+
+
+def _old_line_base(ctx):
+    """The household model's AGI above $100K/$200K (package E's tier), FY2040, 2026 dollars, weighted 2029 units."""
+    return sum(u["weight"] * max(a - LINE_HIGH[j], 0.0) for u, a, j, n in _units(ctx))
+
+
+def unified_statutory_bn(ctx, u, part="all"):
+    """The contribution's statutory yield, FY2040 $B: package E's yield per point above $100K/$200K (the budget
+    model's, before the 20% allowance) scaled by the household model's base, as for every variant."""
+    pts = 100 * sum(x["weight"] * unified_charge(a, j, n, u, part) for x, a, j, n in _units(ctx))
+    return ctx["pp"]["high_income"] / (1 - ctx["pp"]["haircut"]) * pts / _old_line_base(ctx)
+
+
+def _unified_key(ctx, u):
+    """Register the contribution's own quintile key (and its avoidance key, all in the top fifth) on the 2029
+    households; nothing else is changed. The top 1%'s share is scaled from the legacy key's 55%, as in the variants."""
+    import provisions as P
+    K, _, _, _, X = HF.keys()
+    tag = "unified_" + "_".join(f"{k}{u[k]}" for k in sorted(u))
+    if tag in K:
+        return tag
+    ig = X["grow"] / ctx["price_2040"]
+    P.RULES[tag] = lambda x, L: unified_charge(x["t_agi"] * ig, x["t_fs"], max(x["n_people"], 1), u)
+    sh, _ = P.micro_shares(X["B"], "rule:" + tag)
+    vals = P.household_base(X["B"], "rule:" + tag)
+    ratio = 100 * sum(x["weight"] * unified_charge(a, j, n, u) for x, a, j, n in _units(ctx)) / _old_line_base(ctx)
+    t1 = min(K["income_high"][1] * (u["R"] + u["S"] + u.get("h1b", 0.0)) / ratio, sh[4])
+    K[tag] = (sh, t1)
+    HF.EXTRA_BASES[tag] = lambda h: vals[h["hh"]]
+    K["avoid_" + tag] = HF.avoidance_key(K, tag, HF.AVOID_WEIGHTS["central"])
+    HF.EXTRA_BASES["avoid_" + tag] = HF.EXTRA_BASES[tag]
+    return tag
+
+
+def worker_hi_bn(ctx, basis="cbo"):
+    """The worker's 1.45% HI in FY2040, $B. 'cbo': CBO's taxable payroll (SRC-3813), fiscal year, over CAP_SHARE for
+    the earnings above the wage base; 'hf': half of HF's 2.9% on the budget model's payroll point ($135B in 2030 at
+    4% a year, assumptions.json's education fund figure); 'micro': the household model's earnings grown with GDP per
+    household."""
+    if basis == "hf":
+        return HF.HI_RATE / 2 * ctx["pp"]["payroll_gross"]
+    if basis == "micro":
+        _, _, _, _, X = HF.keys()
+        return sum(u["weight"] * WORKER_HI * earn_unit(u) * X["grow"] for u in X["B"]["units"]) \
+            * ctx["hh"] / X["n29"] / 1e9
+    fy = 0.25 * CBO_TAXABLE_PAYROLL[2039] + 0.75 * CBO_TAXABLE_PAYROLL[2040]
+    return WORKER_HI * fy * 1000 / HF.CAP_SHARE
+
+
+def fold_in_lost(ctx, o, basis="cbo"):
+    """What the fold-in stops collecting, FY2040 $B: the worker's HI, the 0.9% (household model, statutory
+    thresholds, earnings grown with GDP per household), worker HI on former pre-tax premiums (in HX), and H1b's wage
+    half, whose base (the worker's HI and the 0.9%) is repealed; the surcharge or the `h1b` step wins it back."""
+    _, _, _, _, X = HF.keys()
+    scale = ctx["hh"] / X["n29"] / 1e9
+    amt = {}
+    for u in X["B"]["units"]:
+        thr = AMT_THRESHOLD["joint" if u["t_fs"] == "joint" else "single"]
+        amt[u["hh"]] = amt.get(u["hh"], 0.0) + AMT_RATE * max(earn_unit(u) * X["grow"] - thr, 0.0)
+    A = sum(h["weight"] * amt.get(h["hh"], 0.0) for h in X["H"]) * scale
+    HF.household_key("amt_fold", lambda h: amt.get(h["hh"], 0.0))
+    W = worker_hi_bn(ctx, basis)
+    hxp = WORKER_HI * o["hx_kept"] / ctx["tau"]
+    H = h1b_restated(ctx)["wage_half"]
+    return dict(W=W, A=A, hxp=hxp, H1b=H, total=W + A + hxp + H, basis=basis)
+
+
+def unified_package(ctx, case, u, basis="cbo", haircut=None):
+    """Package E with the unified contribution in place of its 4 points above $100K/$200K. Built from package F (no
+    household contribution: the remainder booked revenue would close), plus the fold-in's lost revenue, less the
+    contribution's yield; its rows feed per_household() and micro() on the contribution's own keys."""
+    F = health_package(ctx, case, dict(PACKAGES2["E"][2], second=0.0))
+    lost = fold_in_lost(ctx, F, basis)
+    tag = _unified_key(ctx, u)
+    h = ctx["pp"]["haircut"] if haircut is None else haircut
+    st = unified_statutory_bn(ctx, u)
+    got = st * (1 - h)
+    rows = F["rows"] + [("Worker HI (1.45%) ends", lost["W"], "wages"),
+                        ("Additional Medicare tax (0.9%) ends", lost["A"], "amt_fold"),
+                        ("Worker HI on former pre-tax premiums ends (HX)", lost["hxp"], "exclusion_end"),
+                        ("H1b's wage half loses its base", lost["H1b"], "income_high"),
+                        ("Unified health contribution: the statutory charge", -st, tag),
+                        (f"Unified health contribution: less avoidance ({round(100 * h)}%)", st * h, "avoid_" + tag)]
+    o = dict(F, rows=rows, unified=u, key=tag, lost=lost, remainder_F=F["reassigned"], statutory=st,
+             household_collected=got, first=0.0, second=0.0, haircut=h,
+             reassigned=F["reassigned"] + lost["total"] - got)
+    o["plan_gap_2040"] = GAP_BEFORE_REASSIGN + o["reassigned"]
+    o["households"] = HF.per_household(rows, ctx["K"], ctx["hh"])
+    no_ex = dict(u, lo=0.0, hi=1e-9)
+    o["exemption_cost_bn"] = (unified_statutory_bn(ctx, no_ex, "base") - unified_statutory_bn(ctx, u, "base")) * (1 - h)
+    o["top_rate_on_wages"] = top_rate_unified(u)
+    return o
+
+
+def top_rate_unified(u, h1b_in_s=0.0):
+    """The combined top federal rate on wages (statutory, both halves): the plan's before health (63.0, with H1b's
+    5% Medicare rate) less Medicare's 5% (HI 2.9, the 0.9 and H1b's 1.2), plus the employer's 1.45%, R, S and H1b's
+    restated step."""
+    return HF.TOP_RATE_BEFORE_HEALTH - 5.0 + 1.45 + u["R"] + u["S"] + u.get("h1b", 0.0) + h1b_in_s
+
+
+_H1B = {}
+
+
+def h1b_restated(ctx, haircuts=(0.1, 0.2, 0.3, 0.4)):
+    """H1b's wage half loses its base when HI is folded in. Its share of H1b: wages above $400K over AGI above $400K
+    on the household model (the investment half stays as a 5% investment-income tax). Restated as its own step (points
+    on AGI above $400K) or folded into S (extra surcharge points), each sized to keep the booked $62.7B whole; and
+    each at other avoidance allowances (H1b's own yield moves the same way)."""
+    if haircuts in _H1B:
+        return _H1B[haircuts]
+    _, _, _, _, X = HF.keys()
+    ig = X["grow"] / ctx["price_2040"]
+    ig_e = sum(x["weight"] * max(earn_unit(x) * ig - H1B_LINE[j], 0.0) for x, a, j, n in _units(ctx))
+    ig_a = sum(x["weight"] * max(a - H1B_LINE[j], 0.0) for x, a, j, n in _units(ctx))
+    share = ig_e / ig_a
+    wage_half = H1B_BN * share
+    one = dict(R=0.0, S=0.0, lo=0.0, hi=1e-9, form="quadratic")
+    pt_400 = unified_statutory_bn(ctx, dict(one, h1b=1.0), "h1b")
+    pt_s = unified_statutory_bn(ctx, dict(one, S=1.0), "surcharge")
+    out = dict(wage_share=share, wage_half=wage_half, by_haircut={})
+    for hc in haircuts:
+        # the points needed to keep the booked wage half whole if the restated step loses `hc` to avoidance, and
+        # what H1b itself would raise at that allowance (its booked figure assumes the plan's 20%)
+        out["by_haircut"][hc] = dict(own_step_points=wage_half / (pt_400 * (1 - hc)),
+                                     fold_into_s_points=wage_half / (pt_s * (1 - hc)),
+                                     h1b_yield=H1B_BN * (1 - hc) / 0.8, wage_half_yield=wage_half * (1 - hc) / 0.8)
+    out["own_step_points"] = out["by_haircut"][0.2]["own_step_points"]
+    out["fold_into_s_points"] = out["by_haircut"][0.2]["fold_into_s_points"]
+    _H1B[haircuts] = out
+    return out
+
+
+def per_household_2026(ctx, o):
+    """Net per household by fifth, FY2040, in 2026 dollars (per_household() is in FY2040 dollars)."""
+    return {k: round(v / ctx["price_2040"]) for k, v in o["households"].items()}
+
+
+def unified_row(ctx, case, u, basis="cbo", others=True, part_b=True, haircut=None):
+    """One row of the rate table: the package and its tests."""
+    o = unified_package(ctx, case, u, basis, haircut)
+    th = take_home_micro(ctx, o, part_b=part_b)
+    m = HF.micro(ctx, o)
+    T = household_T(ctx, o)
+    lo_m, hi_m = exemption_marginal(u)
+    row = dict(spec=u, reassigned=o["reassigned"], gap=o["plan_gap_2040"], collected=o["household_collected"],
+               statutory=o["statutory"], lost=o["lost"], exemption_cost_bn=o["exemption_cost_bn"],
+               pass_all=th["all"], pass_below_200=th["below_200fpl"], by_agi=th["by_agi"], by_kind=th["by_kind"],
+               kind_share=th["kind_share"], losers=m["bottom_four_losers_m"], losers5=m["bottom_four_lose_5pct_m"],
+               T=T, households_2026=per_household_2026(ctx, o), top_rate=o["top_rate_on_wages"],
+               marginal_band=(lo_m, hi_m))
+    row["pass_with_low2"] = take_home_micro(ctx, o, low2=True, part_b=part_b)["all"]
+    if others:
+        ot = take_home_micro(ctx, o, who="others", part_b=part_b)
+        row["others"] = dict(all=ot["all"], below_200=ot["below_200fpl"], by_kind=ot["by_kind"],
+                             kind_share=ot["kind_share"], units_m=ot["units_m"], by_agi=ot["by_agi"])
+    return row
+
+
+RATES = [2.0, 2.25, 2.5, 2.75, 3.0, 3.25, 3.5]
+TARGET = 85.0      # Espen: "85-90% of workers to come out ahead (or more)"
+
+
+def run_part3():
+    ctx = HF.context()
+    case = cost_cases(_g40())["design"]
+    out = dict(lost_bases={b: worker_hi_bn(ctx, b) for b in ("hf", "cbo", "micro")}, rates={}, s4={}, phase={})
+    # package E on the same test, for like-for-like household figures
+    oE = health_package(ctx, case, PACKAGES2["E"][2])
+    thE = take_home_micro(ctx, oE)
+    out["E"] = dict(reassigned=oE["reassigned"], gap=GAP_BEFORE_REASSIGN + oE["reassigned"], pass_all=thE["all"],
+                    pass_below_200=thE["below_200fpl"], T=household_T(ctx, oE), top_rate=oE["top_rate_on_wages"],
+                    losers=HF.micro(ctx, oE)["bottom_four_losers_m"], households_2026=per_household_2026(ctx, oE),
+                    others=take_home_micro(ctx, oE, who="others")["all"],
+                    pass_with_low2=take_home_micro(ctx, oE, low2=True)["all"])
+    fold = h1b_restated(ctx)["fold_into_s_points"]
+    S0 = 5.0 + fold                         # H1b's wage half folded into the surcharge, as recommended
+    out["S"] = S0
+    for R in RATES:
+        out["rates"][R] = unified_row(ctx, case, unified_spec(R, S=S0))
+    ok = [R for R in RATES if out["rates"][R]["pass_all"] >= TARGET]
+    out["meets_target"] = ok
+    near = sorted(RATES, key=lambda R: abs(R - (max(ok) if ok else RATES[0])))[:2]
+    for R in sorted(near):
+        out["s4"][R] = unified_row(ctx, case, unified_spec(R, S=4.0 + fold), others=False)
+    Rc = max(ok) if ok else RATES[0]
+    out["chosen"] = Rc
+    for name, kw in (("to 250%", dict(hi=2.5)), ("to 300%", dict(hi=3.0)), ("steady rate to 200%", dict(form="linear")),
+                     ("steady rate to 250%", dict(hi=2.5, form="linear"))):
+        out["phase"][name] = unified_row(ctx, case, unified_spec(Rc, S=S0, **kw), others=False)
+    out["recommended"] = {R: unified_row(ctx, case, unified_spec(R, S=S0, hi=2.5, form="linear"))
+                          for R in (2.25, 2.5)}
+    out["h1b_not_restated"] = unified_package(ctx, case, unified_spec(Rc))["reassigned"]
+    out["h1b"] = h1b_restated(ctx)
+    out["haircut"] = {hc: unified_package(ctx, case, unified_spec(Rc, S=S0), haircut=hc)["reassigned"]
+                      for hc in (0.1, 0.2, 0.3, 0.4)}
+    out["basis"] = {b: unified_package(ctx, case, unified_spec(Rc, S=S0), basis=b)["reassigned"]
+                    for b in ("hf", "cbo", "micro")}
+    out["part_b_off"] = take_home_micro(ctx, unified_package(ctx, case, unified_spec(Rc, S=S0)), who="others",
+                                        part_b=False)["all"]
+    return out
+
+
+def md3(out):
+    """Markdown tables for part 3 of the memo."""
+    w = ["| R (S = " + f"{out['S']:.2f}" + ", H1b folded in) | Workers ahead | Below 200% of poverty | Retirees and non-workers ahead | With the booked 2 points "
+         "| Bottom-four losers (M) | T: today → plan | Booked revenue taken ($B) | Plan-wide gap ($B) | Top rate on wages |",
+         "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+    E = out["E"]
+    w.append(f"| E (4 above $100K/$200K, HI kept) | {E['pass_all']:.1f}% | {E['pass_below_200']:.1f}% | "
+             f"{E['others']:.1f}% | {E['pass_with_low2']:.1f}% | {E['losers']:.1f} | "
+             f"{E['T']['today']:,.0f} → {E['T']['plan']:,.0f} | {E['reassigned']:,.0f} | {E['gap']:,.0f} | "
+             f"{E['top_rate']:.1f}% |")
+
+    def line(lab, r):
+        mark = " **✓**" if r["pass_all"] >= TARGET else ""
+        oth = f"{r['others']['all']:.1f}%" if "others" in r else "—"
+        return (f"| {lab}{mark} | {r['pass_all']:.1f}% | {r['pass_below_200']:.1f}% | {oth} | "
+                f"{r['pass_with_low2']:.1f}% | {r['losers']:.1f} | {r['T']['today']:,.0f} → {r['T']['plan']:,.0f} | "
+                f"{r['reassigned']:,.0f} | {r['gap']:,.0f} | {r['top_rate']:.2f}% |")
+    for R, r in out["rates"].items():
+        w.append(line(f"{R:.2f}%", r))
+    for R, r in out["s4"].items():
+        w.append(line(f"{R:.2f}% with S = 4", r))
+    w += ["", "| Exemption at R = %.2f%% | Workers ahead | Below 200%% | Exemption's cost ($B) | Its own marginal rate "
+          "(points) | Booked revenue taken ($B) | Gap ($B) |" % out["chosen"], "| --- | --- | --- | --- | --- | --- | --- |"]
+    base = out["rates"][out["chosen"]]
+    for lab, r in [("138% to 200%, as drafted", base)] + list(out["phase"].items()):
+        lo, hi = r["marginal_band"]
+        w.append(f"| {lab} | {r['pass_all']:.1f}% | {r['pass_below_200']:.1f}% | {r['exemption_cost_bn']:.1f} | "
+                 f"{lo:.1f} to {hi:.1f} | {r['reassigned']:,.0f} | {r['gap']:,.0f} |")
+    return "\n".join(w)
+
+
 def main():
+    if "--part3" in sys.argv:
+        out = run_part3()
+        print(md3(out) if "--md" in sys.argv else json.dumps(out, indent=1, default=float))
+        return
     rows, opts, g40 = bridge()
     lv = levers(g40)
     if "--part2" in sys.argv:
