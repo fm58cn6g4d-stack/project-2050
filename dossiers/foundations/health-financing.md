@@ -2,7 +2,7 @@
 
 Role: the stage E memo on the single health plan (HLT-1 to HLT-8). It prices the plan as a whole system, year by year from FY2030 to FY2040, and then designs its financing from scratch. It replaces these parts of `checkpoint-financing.md`, which are marked superseded there: part B; the health items of its "In plain terms"; part C's arithmetic; and part D's questions (memos F1 to F3 and part B4's points).
 
-Status: **for Espen's decision, November 15, 2026.** It recommends and books nothing. The questions in part 9 are Espen's, and any booking that follows is a separate tier-3 change to adopted inputs.
+Status: **for Espen's decision, November 15, 2026; revised the same day (#386)** to add, at Espen's direction, the fix for households that lose cash (part 2.7) and an employer contribution that is mandatory and built not to cut pay (part 2.6). It recommends and books nothing. The questions in part 9 are Espen's, and any booking that follows is a separate tier-3 change to adopted inputs.
 
 How it is built, following Espen's three directions of November 15:
 1. Cost the planned system in full first, then design its financing.
@@ -24,8 +24,8 @@ Units and sources:
 3. **Your question, answered: yes.** In FY2040 households, employers, states and the other payers stop paying about $5.7 trillion for health care. The new public money the plan needs is about $4.9 trillion. The difference, about $0.8 trillion, is what single payer saves on prices and administration.
 4. **How package A pays the $8.4 trillion** (FY2040):
    - **Federal money already spent on health: $2.7 trillion (32%).** This is the general revenue the government already spends on Medicare, Medicaid and marketplace subsidies for these people, kept for the plan.
-   - **An employer health contribution: $2.2 trillion (26%).** It is set so employers as a whole pay what they would otherwise have spent on premiums: about **19.5% of each worker's pay between $20,000 and the Social Security wage base** (about $185,000 today). That is about 12% of all pay. Nothing is due on the first $20,000 of anyone's pay.
-   - **A household health contribution: $1.9 trillion (23%).** It is about **10.35% of income above $20,000 (single) or $40,000 (couple)**, collected with the income tax.
+   - **An employer health contribution: $2.15 trillion (26%).** It is set so employers as a whole pay what they would otherwise have spent on premiums: about **19.5% of each worker's pay between $20,000 and the Social Security wage base** (about $185,000 today). That is about 12% of all pay. Nothing is due on the first $20,000 of anyone's pay. Every employer pays it; those that offered no coverage before the law start low and step up over ten years (item 7).
+   - **A household health contribution: $2.0 trillion (23%) after the worker credit is paid back.** It is about **11.3% of income above $20,000 (single) or $40,000 (couple)**, collected with the income tax.
    - **A health payroll contribution of 2.9% on all pay: $0.6 trillion (7%).** That is 1.45% each from workers and employers. It is today's Medicare payroll tax, kept as one of the plan's own contributions because it is the plan's only charge on top earners' pay.
    - **The states: $0.7 trillion (8%).** They keep paying what they pay now for the Medicaid patients who move into the plan.
    - **Tax on the pay workers used to put into premiums before tax: $0.3 trillion (3%).**
@@ -34,22 +34,31 @@ Units and sources:
 
    | Fifth of households | Poorest | Second | Middle | Fourth | Top | Top 1% |
    | --- | --- | --- | --- | --- | --- | --- |
-   | Net effect | **+$6,800** | **+$10,300** | **+$9,500** | **+$1,500** | −$23,000 | −$132,000 |
+   | Net effect | **+$7,100** | **+$11,300** | **+$10,600** | **+$1,500** | −$25,300 | −$143,000 |
 
-   The middle fifth pays about 5.6% of its income in the household contribution, and stops paying about 10% of its income in premiums and medical bills.
-6. **Affordable at every income? Not yet for everyone.**
-   - About **30 million households in the bottom four fifths** (of about 121 million) pay more in cash than they save, and 16 million of them by more than 5% of their income.
-   - Half the fourth fifth is among them. Two groups dominate: workers whose job coverage cost little relative to their pay, and workers whose employers offered no coverage. Most in the second group gain coverage they don't have now, which the cash count leaves out.
-   - Two of the design changes in part 6 bring this down to about **25 million** and the household rate to about **8.4%**.
-7. **Your 5-6% household rate: what it costs.** It needs about $1 trillion a year from somewhere else.
-   - **The top end is already used.** With the plan's other taxes, the top federal rate on wages is about 63% before health. A top tier big enough would push it past 80%, where on the evidence it would raise little.
-   - **The other routes:** a value-added tax of about 11.5% with a rebate (package B), or employers paying about 31% of pay in the band (package C).
+   The middle fifth pays about 6.2% of its income in the household contribution, and stops paying about 10% of its income in premiums and medical bills.
+6. **Affordable at every income? Much closer, with the fix you asked for.**
+   - **Before the fix,** about **29.6 million households in the bottom four fifths** (of about 121 million) paid more in cash than they saved, 11.7 million of them by more than 5% of their income. (The merged memo said 16.1 million; that count compared 2040 dollars with 2029 incomes, a mistake corrected here.) The hardest case was a $45,000 worker whose employer offered no coverage: **−$3,959 a year (−8.8%)**.
+   - **The fix** (part 2.7) has two parts. Employers that offered no coverage start slowly (item 7). And workers who had **no job coverage and no plan of their own in 2028** get back the employer contribution charged on their pay as a refundable credit on their tax return, in full up to $60,000 of income ($120,000 for a couple) and phasing out by $120,000 ($240,000). It runs from 2035 to 2044, then steps down to zero by 2050.
+   - **After the fix:** **24.8 million** bottom-four households lose cash, and only **5.8 million** by more than 5%. In the bottom three fifths, those losing more than 5% fall from 6.3 million to about 0.6 million. The $45,000 worker is now **+$274 a year**, and covered.
+   - **Who still loses:** mostly the fourth fifth (15.3 million households, 5.2 million by more than 5%). They are chiefly workers whose job coverage cost little next to their pay. A premium charges everyone the same; the plan charges by pay. A credit wide enough to reach them would cost more than it saves, because everyone's rate would rise to pay for it (part 4.3).
+   - **What it costs:** about $180 billion in FY2040, or **0.95 point on the household rate (10.35% to 11.3%)**.
+7. **The employer contribution: mandatory, and built so it can't cut pay** (part 2.6).
+   - **Mandatory.** It is a tax, paid with payroll taxes on Form 941 and by the self-employed through SECA. There is no small-firm exemption and nothing to opt out of.
+   - **A slower start for employers that offered no coverage in 2028:** a tenth of the rate in 2035, rising a tenth a year to the full rate in 2044. For a $45,000 worker that is about 1.2% of pay a year, less than pay normally grows, so pay never has to fall.
+   - **Pay rates can't be cut.** Workers employed when their employer starts paying can't have their pay rate cut through 2044.
+   - **Savings must reach pay.** Employers that pay less than their old premiums must pass the difference into pay for three years. Under a union contract, the members decide how: wages, pensions or other benefits.
+   - **What the law can't do:** set future raises. Over time most of a payroll cost lands on pay growth. That is why the credit in item 6 exists, and why yearly published pay counts trigger a review if pay falls behind.
+8. **Your 5-6% household rate: what it costs.** It needs about $1.1 trillion a year from somewhere else.
+   - **The top end is already used.** With the plan's other taxes, the top federal rate on wages is about 63% before health. A top tier big enough would push it to about 85%, where on the evidence it would raise little.
+   - **The other routes:** a value-added tax of about 14% with a rebate (package B), or employers paying about 35% of pay in the band (package C).
    - **Both leave the bottom three fifths worse off than package A.**
-8. **Design changes worth considering (part 6):**
+9. **Design changes worth considering (part 6):**
    - book administration at 4% instead of 5%, with 3% as the target: about −$0.09 trillion;
    - a national health budget that holds growth to the economy's growth plus 1 point from 2037: about −$0.27 trillion in FY2040, more each year after.
+   - With both, the household rate is about **9.4%**, and 19.3 million bottom-four households lose cash (3.4 million by more than 5%).
    - Recommended unchanged, with their price: the payment rate (1.15 times Medicare; each 0.05 is about $0.34 trillion) and the small copays (removing them costs about $0.25 trillion).
-9. **The transition years.** Each payer starts paying when its group moves into the plan. The household contribution starts at about **3% in 2031**, when children and the uninsured move, reaches about **5.4% in 2034** and about **10% from 2036**.
+10. **The transition years.** Each payer starts paying when its group moves into the plan. The household contribution starts at about **3% in 2031**, when children and the uninsured move, reaches about **5.4% in 2034**, about **9.5% in 2035** and about **11% from 2037**.
 
 ## Part 1. What the new system costs
 
@@ -137,14 +146,15 @@ CBO's five illustrative single-payer options changed national spending in 2030 b
    - This is the only general revenue package A uses. It is money the budget already spends, so it is not new.
 2. **An employer health contribution.**
    - **Base:** each worker's pay between a low-pay line of $20,000 (price-indexed) and the Social Security wage base, about 61% of all pay. This share comes from the household model's CPS data, with a top-coding allowance; the independent check found 0.608 against the code's 0.609. The contribution is collected with the payroll tax.
-   - **Size:** employers as a whole contribute what they would otherwise have spent on premiums for their workers, $2,197B in FY2040. That covers private, state and local employers; the federal government's own share is federal money already. This follows the structure of Warren's 2019 plan, which set the employer contribution against what employers would otherwise pay [EV-CAR-725]. It makes the move neutral for employers as a group, so nothing depends on whether they pass premium savings into pay.
+   - **Who pays:** every employer, collected with the payroll tax on Form 941, and the self-employed through SECA. Employers that offered no coverage in 2028 step up to the full rate over 2035-44 (part 2.6).
+   - **Size:** employers as a whole contribute what they would otherwise have spent on premiums for their workers, $2,197B in FY2040 at the full rate, or $2,150B with the phase-in. That covers private, state and local employers; the federal government's own share is federal money already. This follows the structure of Warren's 2019 plan, which set the employer contribution against what employers would otherwise pay [EV-CAR-725]. It makes the move neutral for employers as a group, so nothing depends on whether they pass premium savings into pay.
    - **Rate: about 19.5%** of pay in the band, or about 11.9% of all pay.
-   - **Why the low-pay line:** without it, low-paid workers whose employers offer no coverage today carry the contribution through their pay with nothing to offset it. With it, the poorest fifth's households that lose fall from 4.5 million to 2.0 million (part 4.3).
+   - **Why the low-pay line:** without it, low-paid workers whose employers offer no coverage today carry the contribution through their pay with nothing to offset it. With it, the poorest fifth's households that lose fall from 3.7 million to 0.7 million with the fix, and from 4.5 million to 2.0 million without it (part 4.3).
    - **Why the cap at the wage base:** like a premium, the contribution doesn't rise with a top earner's pay. It therefore adds nothing to the top tax rate (part 2.4).
    - **The self-employed** pay it on 92.35% of net earnings, in the same band, as SECA does today.
 3. **A household health contribution.**
    - **Base:** adjusted gross income above $20,000 single or $40,000 joint (price-indexed), collected with the income tax and by withholding. It is not a payroll tax: it falls on wages, pensions and investment income alike.
-   - **Rate:** whatever closes the rest. In package A that is **10.35%** in FY2040 ($1,939B).
+   - **Rate:** whatever closes the rest. In package A that is **11.3%** in FY2040: $2,118B collected, of which $147B goes back to workers as the transition credit (part 2.7), leaving $1,971B.
    - **Yield:** a point raises about $187B collected. That includes the pay workers used to put into premiums before tax, which is now income, and it is net of the budget model's 20% allowance for avoidance (part 2.5).
 4. **A health payroll contribution of 2.9% on all pay.**
    - Workers and employers pay 1.45% each, and the self-employed 2.9%, on the same base and with the same collection as today's Medicare hospital insurance (HI) tax. It raises about **$580B** in FY2040.
@@ -157,6 +167,9 @@ CBO's five illustrative single-payer options changed national spending in 2030 b
 6. **The tax on pay workers used to put into premiums before tax.**
    - The end of the employer exclusion is decided (memo 3 B). Once premiums end, the pay workers used to put into them before tax is taxed like other pay: **$279B** in FY2040.
    - Employers' own premium money never becomes pay in package A, because it goes into the employer contribution.
+   - With the phase-in, the pay that the contribution doesn't yet take is taxed too: another $15B, so **$294B** in all.
+
+**Paid back:** the worker transition credit, $147B in FY2040, refunded through the income tax to workers who had no job coverage and no plan of their own in 2028 (part 2.7).
 
 **What ends, explicitly:**
 - **Premiums, deductibles and coinsurance** end as each group moves. Only the plan's small copays above 200% of poverty remain (memo 4 C).
@@ -180,43 +193,47 @@ CBO's five illustrative single-payer options changed national spending in 2030 b
 | Source | FY2040 ($B) | Share | Rate and base |
 | --- | --- | --- | --- |
 | Federal general revenue already spent on these programs | 2,724 | 32% | An appropriation, indexed to the plan's growth |
-| Employer health contribution | 2,197 | 26% | 19.5% of each worker's pay between $20,000 and the wage base (11.9% of all pay) |
-| Household health contribution | 1,939 | 23% | 10.35% of income above $20,000/$40,000 |
+| Employer health contribution | 2,150 | 26% | 19.5% of each worker's pay between $20,000 and the wage base (11.9% of all pay); employers with no 2028 coverage at 57.5% of it in FY2040 |
+| Household health contribution, net of the worker transition credit | 1,971 | 23% | 11.3% of income above $20,000/$40,000 ($2,118B), less the credit ($147B) |
 | Health payroll contribution | 580 | 7% | 2.9% of all pay (1.45% from workers, 1.45% from employers) |
 | States' payment | 689 | 8% | 100% of former Medicaid spending for the people who move, indexed |
-| Tax on pay formerly put into premiums | 279 | 3% | Ordinary income and payroll tax on it |
+| Tax on pay formerly put into premiums, and on pay the phase-in leaves | 294 | 3% | Ordinary income and payroll tax on it |
 | **The system's gross cost** | **8,407** | 100% | |
 
 **The federal budget's view.** The new money these sources raise is **$3,794B**: the booked net cost ($4,094B) less the seam ($300B). It is made up of:
-- the employer contribution's net yield, $1,511B. It lowers other tax by $686B, because those premiums never become taxable pay;
-- households, $1,939B;
+- the employer contribution's net yield, $1,479B. At the full rate it would be $1,511B, after lowering other tax by $686B, because those premiums never become taxable pay; the phase-in costs $32B ($47B less the $15B of tax on the pay it leaves);
+- households, $1,971B: $2,118B collected less the $147B credit;
 - the states' extra, $344B.
 
 ### 2.3 Year by year: how each year is paid (package A, $B)
 
-| FY | Gross cost | Federal general revenue committed | Health payroll contribution | States | Employers | Households | Tax on former pre-tax premiums | Household rate |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2030 | 50 | 0 | 0 | 0 | 0 | 50 | 0 | 0.4% |
-| 2031 | 813 | 187 | 0 | 92 | 112 | 408 | 14 | 3.0% |
-| 2032 | 1,169 | 259 | 0 | 127 | 156 | 607 | 20 | 4.4% |
-| 2033 | 1,885 | 371 | 0 | 219 | 503 | 728 | 64 | 5.0% |
-| 2034 | 2,823 | 528 | 0 | 350 | 1,002 | 815 | 127 | 5.4% |
-| 2035 | 5,670 | 1,695 | 357 | 494 | 1,553 | 1,373 | 198 | 8.8% |
-| 2036 | 6,778 | 2,156 | 495 | 553 | 1,763 | 1,586 | 224 | 9.8% |
-| 2037 | 7,147 | 2,285 | 515 | 584 | 1,862 | 1,665 | 237 | 9.9% |
-| 2038 | 7,549 | 2,423 | 536 | 617 | 1,968 | 1,756 | 250 | 10.1% |
-| 2039 | 7,959 | 2,569 | 557 | 652 | 2,079 | 1,837 | 264 | 10.2% |
-| **2040** | **8,407** | **2,724** | **580** | **689** | **2,197** | **1,939** | **279** | **10.35%** |
-| FY2030-39 | 41,842 | 12,472 | 2,461 | 3,687 | 10,999 | 10,824 | 1,399 | |
+| FY | Gross cost | Federal general revenue committed | Health payroll contribution | States | Employers | Households, net of the credit | Tax on former pre-tax premiums | Credit paid back | Household rate |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2030 | 50 | 0 | 0 | 0 | 0 | 50 | 0 | 0 | 0.4% |
+| 2031 | 813 | 187 | 0 | 92 | 112 | 408 | 14 | 0 | 3.0% |
+| 2032 | 1,169 | 259 | 0 | 127 | 156 | 607 | 20 | 0 | 4.4% |
+| 2033 | 1,885 | 371 | 0 | 219 | 503 | 728 | 64 | 0 | 5.0% |
+| 2034 | 2,823 | 528 | 0 | 350 | 1,002 | 815 | 127 | 0 | 5.4% |
+| 2035 | 5,670 | 1,695 | 357 | 494 | 1,483 | 1,421 | 220 | 66 | 9.5% |
+| 2036 | 6,778 | 2,156 | 495 | 553 | 1,690 | 1,636 | 247 | 102 | 10.8% |
+| 2037 | 7,147 | 2,285 | 515 | 584 | 1,795 | 1,711 | 258 | 112 | 10.9% |
+| 2038 | 7,549 | 2,423 | 536 | 617 | 1,906 | 1,798 | 270 | 123 | 11.0% |
+| 2039 | 7,959 | 2,569 | 557 | 652 | 2,024 | 1,875 | 282 | 135 | 11.1% |
+| **2040** | **8,407** | **2,724** | **580** | **689** | **2,150** | **1,971** | **294** | **147** | **11.3%** |
+| FY2030-39 | 41,842 | 12,472 | 2,461 | 3,687 | 10,671 | 11,049 | 1,501 | 538 | |
+
+The first eight money columns add to the gross cost. The credit is collected in the household rate and paid back, so the households' column is net of it.
 
 How the transition years are paid:
-- **Employers start paying as each group moves:** for children's coverage from 2031, then for each third of employer groups in 2033-35. They pay on the premiums they paid for the workers who have moved. From the endpoint they pay the payroll-based contribution.
+- **Employers start paying as each group moves:** for children's coverage from 2031, then for each third of employer groups in 2033-35. They pay on the premiums they paid for the workers who have moved. From the endpoint they pay the payroll-based contribution; employers with no 2028 coverage pay a tenth of it in 2035, rising a tenth a year (part 2.6). That leaves $70B uncollected in FY2035, falling to $47B in FY2040 and nothing from 2045.
+- **The worker transition credit starts with the payroll-based contribution in 2035:** $66B in FY2035 (three quarters of a year), rising with pay to $147B in FY2040.
 - **States pay with each Medicaid third.**
 - **The 2.9% payroll contribution** goes to the plan from the endpoint. Before then it pays Medicare's hospital claims.
 - **The household rate rises with the waves.** It starts near 3% because the early years carry costs that no payer moves with: the restoration, Medicare's upgrades and Medicare at 60.
-- **Recommended:** set the rate in law as steps that follow this path (about 3% from 2031, 5% from 2033, 9% at the endpoint, then set each year to balance the fund), with the FY2030 restoration ($50B) on the general fund. (The table charges households that $50B, 0.4%, so the years add up; on the recommended path it moves to the general fund and the contribution starts in 2031.)
+- **Recommended:** set the rate in law as steps that follow this path (about 3% from 2031, 5% from 2033, 9.5% at the endpoint, then set each year to balance the fund), with the FY2030 restoration ($50B) on the general fund. (The table charges households that $50B, 0.4%, so the years add up; on the recommended path it moves to the general fund and the contribution starts in 2031.)
 - **The catch:** a household whose own coverage hasn't moved yet (for example, a childless worker with job coverage in 2031-34) pays the contribution and its own premium share for two to four years. Part 9, question 7.
-- **Growth.** After full adoption the household rate drifts up about 0.14 point a year, because the plan's cost grows at CBO's health rate (about 5.7% a year), faster than incomes. Design memo D2 addresses this.
+- **Growth.** After full adoption the household rate drifts up about 0.1 to 0.15 point a year, because the plan's cost grows at CBO's health rate (about 5.7% a year), faster than incomes. Design memo D2 addresses this.
+- **After FY2040.** The phase-in ends in 2044 and the credit steps down over 2045-49. Both stop costing money, which takes about 0.95 point off the rate, on FY2040's economy, by 2050 (part 4.3, "The long run").
 
 ### 2.4 The top end, and why it can't carry much more
 
@@ -226,13 +243,13 @@ How the transition years are paid:
   - 5% Medicare (H1b), which includes today's 2.9%;
   - the booked 4 + 2 income points.
 
-  The handover notes' 50.6% left out SS-1. Package A adds the 10.35% household contribution, for **73.3%**. The capped employer contribution adds nothing at the top.
+  The handover notes' 50.6% left out SS-1. Package A adds the 11.3% household contribution, for **74.3%**. The capped employer contribution adds nothing at the top.
 - **The evidence.**
   - Diamond and Saez's revenue-maximizing top rate is about 73%, counting federal, state, payroll and sales taxes (`legacy/domains/domain-revenue.md`, "Combined top rates").
   - Reported income responds to tax rates most at the top: Gruber and Saez measured a taxable-income elasticity of 0.57 above $100,000 in 1992 dollars [EV-CAR-720]. Saez, Slemrod and Giertz's survey (2012; not yet in the register) puts the range at about 0.12-0.4. The check below runs 0.12, 0.25, 0.4 and the registered 0.57.
-- **The stacking check** (`stacking_check()`). Suppose the elasticity is 0.25. Then the top 1%'s income shrinks as the rate rises, and the taxes already on it shrink with it. Counting both, the top 1% yields about **44%** of its new charge under package A.
-  - That costs about $67B, or 0.36 point on the household rate. The fourth fifth falls to about +$900.
-  - An uncapped employer contribution, on HI's base, would add 11.9 points at the top. The top 1% would then yield only about 21%, and the household rate would need about 12.2%.
+- **The stacking check** (`stacking_check()`). Suppose the elasticity is 0.25. Then the top 1%'s income shrinks as the rate rises, and the taxes already on it shrink with it. Counting both, the top 1% yields about **43%** of its new charge under package A.
+  - That costs about $78B, or 0.42 point on the household rate. The fourth fifth falls to about +$800.
+  - An uncapped employer contribution, on HI's base, would add 11.9 points at the top. The top 1% would then yield only about 19%, and the household rate would need about 13.2%.
   - **The stack is a plan-wide question for stage G.**
 
 ### 2.5 Avoidance, placed where it happens
@@ -244,51 +261,125 @@ The budget model's income-contribution yields carry a 20% allowance for avoidanc
 
 So every household below the top fifth is charged its full statutory amount: the rate times its base. Part 5 shows the range: Gruber and Saez's elasticities applied to every fifth, and the first draft's even spread.
 
+### 2.6 The employer contribution: mandatory, and built not to cut pay
+
+Espen, November 15: "I think the employer contribution has to be designed so it's mandatory and also can't reduce worker pay, somehow. Maybe a slower phase in for those folks makes sense or something else." Five rules do this. The end of this part sets out what the law can and can't guarantee, and part 2.7 adds the credit for the workers most exposed.
+
+**1. Mandatory, with nothing to opt out of.**
+- It is a tax on the employer, like the employer's half of payroll tax. Employers deposit it with their payroll taxes and report it on the forms they already file: Form 941 (Form 943 for farms, Form 944 for the smallest employers, Schedule H for household employers, Form CT-1 for railroads). Each worker's amount goes in a new box on the W-2.
+- The self-employed pay the same rate on the same band through SECA, on Schedule SE. So calling a worker a contractor saves nothing.
+- **No small-firm exemption.** Warren exempted firms under 50 workers that didn't offer coverage. The Tax Policy Center's Burman showed that this puts a cliff at the 50th worker [EV-CAR-735]. Here the low-pay line and the phase-in protect small, low-paying employers without a cliff.
+- **Burden:** one more line on returns employers already file, collected by the IRS with its existing deposit rules and penalties. No new agency.
+
+**2. A slower start for employers that offered no coverage.**
+- **The test:** the employer reported no group health coverage for 2028. The IRS already holds these records: Forms 1095-C from larger employers, Forms 1095-B from insurers (which name the sponsoring employer), and box 12 DD on the W-2. 2028 is the last full year before the law, so an employer can't qualify by dropping coverage after the law passes. (The handoff proposed 2029; 2028 closes that gap.)
+- **The schedule:** a tenth of the full rate in calendar 2035, rising by a tenth each year, full from 2044.
+- **Why that speed:** each year's step is 1.95% of pay in the band. That is about 1.2% of pay for a $45,000 worker, rising to about 1.8% at the wage base. Pay rose 3.7% in 2026 [EV-CAR-722], and the model's path is about 3.2% a year. So even if every step came out of pay, pay could still rise in dollars every year. After prices (about 2.3% a year), it would be roughly flat for lower-paid workers through the decade and would fall slightly, by under 1% a year, for the best paid.
+- **Who it covers:** KFF finds 92% of workers are at firms that offer coverage [EV-CAR-295]. The other 8% are lower paid, so they earn about 5% of the pay in the band.
+- **Anti-gaming:** status is judged across a controlled group of businesses, as the tax code already does for benefit plans, and a successor keeps its predecessor's status, as state unemployment insurance does for experience ratings. Employers formed after the law pay the full rate: they set pay in the new system.
+- **Cost:** $70B in FY2035, falling to $47B in FY2040 ($32B after the tax on the pay it leaves, 0.17 point) and nothing from 2045.
+- **Model note:** the CPS doesn't say whether a worker's employer offered coverage. The model draws the 5% from workers in households with no job coverage, by a fixed random draw.
+
+**3. Pay rates can't be cut.**
+- An employer may not lower the base pay rate of anyone it employed when its contribution began, through 2044, unless the job changes or the worker asks for fewer hours.
+- **Enforcement:** the Labor Department's Wage and Hour Division, with remedies like the minimum-wage law's: back pay plus an equal amount in damages. To find cases it screens the quarterly wage records employers already send to state unemployment insurance, and the W-2s, for continuing workers whose pay fell. Workers can also complain.
+- **Its limit:** it protects incumbents' pay rates in dollars. It doesn't protect raises, hours or the starting pay of new hires.
+
+**4. Savings must reach pay.**
+- Employers that used to spend more on premiums than they now pay in contribution save money. For three years after their workers move (through 2037), they must raise the pay of the workers they covered by at least the difference, per worker: their 2028 premium cost (grown with health costs) less the new contribution on that worker's pay. They certify it once a year with the fourth-quarter Form 941, and it is checked by audit.
+- **Sizes, in FY2040 terms (before tax):** $774B of pay rises at employers that save, against $727B of contribution above former premiums at employers that now pay more. For the second group, rule 3 stops pay cuts, so the difference can only come out of future raises. The two differ by the $47B phase-in.
+- The household tables already assume the savings reach pay, so this rule costs nothing in the arithmetic. It makes that assumption more likely to hold.
+
+**5. Union contracts.**
+- **Warren's provision:** employers with bargained coverage could cut their contribution down to the national average per worker if they passed the savings to workers "in the form of increased wages, pensions, or other collectively-bargained benefits," and newly bargained contracts could do the same, as an incentive to organize [EV-CAR-726; SRC-3356, read November 15].
+- **What carries over:** savings under a contract go to its members, in whatever form they bargain: wages, pensions or other benefits. Either side can reopen the contract's health article within 12 months of the employer's first contribution. Until a new agreement, rule 4 applies and the savings are paid as wages. Employers' hourly payments into multiemployer health funds are part of that bargaining.
+- **What doesn't:** a lower rate for union employers. Here the rate is uniform on pay, so there is no employer-specific amount to reduce, and a reduction would lose revenue. Whether the plan should encourage organizing belongs to the work flagship (stage F).
+
+**What the law can and can't guarantee.**
+- **It can guarantee:** that every employer pays; that incumbents' pay rates don't fall in dollars through 2044; that savings go into pay for three years; and a phase-in slow enough for normal raises to absorb.
+- **It can't set** the raises employers would otherwise have given, or hours, hiring, new hires' pay or prices. Over time most of a payroll cost lands on pay:
+  - when premiums rise 10%, covered workers' wages fall 2.3% (Baicker and Chandra [EV-CAR-296]);
+  - total compensation falls $0.52 for each dollar of higher premiums, mostly through workers' premium shares (Anand [EV-CAR-299]). Under the plan there are no premium shares, so the adjustment has to come through pay;
+  - CRFB expected Warren's contribution to be borne by workers through lower wages [EV-CAR-741].
+- **So the memo assumes,** as CBO does, that in the long run total pay is fixed and the contribution comes out of it. The household tables are built that way.
+
+**If pay doesn't behave as assumed** (FY2040, package A):
+
+| Case | Household rate | Q1 | Q2 | Q3 | Q4 | Bottom-four households losing cash (by more than 5%) |
+| --- | --- | --- | --- | --- | --- | --- |
+| As assumed: the contribution comes out of pay, and savings go into pay | 11.3% | +7,050 | +11,290 | +10,576 | +1,515 | 24.8M (5.8M) |
+| Pay holds where the contribution is above former premiums; owners bear the $727B | 10.9% | +7,092 | +11,957 | +11,645 | +3,433 | 20.0M (2.6M) |
+| Employers that save keep half of it ($387B) | 11.5% | +6,149 | +9,032 | +7,825 | +85 | 26.5M (5.6M) |
+
+**What the plan does about it:**
+- The worker transition credit (2.7) protects the workers most exposed, whatever pay does.
+- **Published counts each year,** from W-2s and state wage records: pay growth for continuing workers at phase-in employers, at employers that saved and at employers that now pay more, against all workers.
+- **A review trigger:** if pay at saving employers rises by less than half their saving, or pay at phase-in employers falls behind other workers' by more than a year's step, Treasury and Labor report to Congress with options: extend rule 4, slow the phase-in, or extend the credit.
+- This follows the design lens: published counts with a review trigger, not policing up front (`DEC-2026-11-09-13`).
+- **Burden:** rules 3 and 4 are new duties on employers, for ten years and three years. They rest on records employers already file. Small employers that offered no coverage face only rule 3.
+
+**Considered and not recommended:** moving each employer gradually from its own 2028 premium cost to the full rate, as Warren's plan did. It would spread the change for employers that now pay more. But it needs each employer's 2028 cost, which only larger employers report on the W-2, and it makes the rate employer-specific for a decade. Rule 3 plus normal raises does the same job more simply.
+
+### 2.7 The fix for households that lose cash: a worker transition credit
+
+- **Who qualifies (one plain test, from records the IRS holds):** people who had earnings in 2028 (a W-2 or Schedule SE) and neither job coverage nor an individual-market plan that year (Forms 1095-A, 1095-B and 1095-C). That means people who were uninsured, on Medicaid or on other public coverage. No application: the IRS knows who qualifies.
+- **How much:** the employer contribution charged on their pay (the new W-2 box, or Schedule SE), **in full**. It phases out with the household's AGI between **$60,000 and $120,000** single ($120,000 and $240,000 for couples), in 2025 dollars, price-indexed like the other lines.
+- **How it is paid:** a refundable credit on the income tax return, delivered through the year by lower withholding, so it arrives with each paycheck.
+- **When:** from the January 2035 endpoint, in full through 2044 (the phase-in decade), then a fifth less each year, ending after 2049.
+- **Cost:** $66B in FY2035, $147B in FY2040 (0.79 point on the household rate), $538B over FY2030-39.
+- **Why these people:**
+  - Their employer paid nothing for their health care, so the contribution comes out of their pay with nothing behind it.
+  - People who bought their own plan stop paying for it, so they already gain. The self-employed example in 4.2 is +$1,034 without the credit, so the test leaves them out.
+- **Why transitional:** in the long run, two workers on the same pay pay the same, whatever coverage they had in 2028. The credit gives the people who start with nothing from an employer the same slow start the phase-in gives employers. The long run is set out honestly in 4.3.
+- **Burden:** none for workers. The IRS works out who qualifies from its own records, and employers report the contribution on the W-2 they file anyway.
+- **Limits of the model:** the CPS can't tie coverage to each worker, so the model applies the test to tax units, which approximates who qualifies. People who start work after 2028 don't qualify; they take jobs whose pay is already set in the new system.
+- **The alternatives are priced in 4.3:** a credit for every worker, a credit at 75%, a narrower phase-out, a higher low-pay line instead, and a permanent credit for low-paid workers.
+
 ## Part 3. The packages
 
 All four packages cover the FY2040 gross cost of $8,407B exactly. They share:
 - the federal general revenue committed ($2,724B);
 - the 2.9% payroll contribution;
 - the states' payment (100%, $689B);
-- the employer base.
+- the employer base, the employer phase-in (2.6) and the worker transition credit (2.7).
 
 They differ in how households and employers make up the rest.
 
 | | **A. Contributions sized to the system (recommended)** | B. Household 5.5%, with a rebated VAT | C. Household 5.5%, larger employer contribution | D. Household 5.5%, with a top tier |
 | --- | --- | --- | --- | --- |
-| Household contribution above $20K/$40K | **10.35%** | 5.5% | 5.5% | 5.5% |
-| Second tier above $100K/$200K | — | — | — | 13.6 points |
-| Value-added tax (a quarter rebated per person) | — | 11.5% | — | — |
-| Employer contribution in the band (share of all pay) | 19.5% (11.9%) | 19.5% (11.9%) | 31.2% (19.0%) | 19.5% (11.9%) |
+| Household contribution above $20K/$40K | **11.3%** | 5.5% | 5.5% | 5.5% |
+| Second tier above $100K/$200K | — | — | — | 16.3 points |
+| Value-added tax (a quarter rebated per person) | — | 13.8% | — | — |
+| Employer contribution in the band (share of all pay) | 19.5% (11.9%) | 19.5% (11.9%) | 35.4% (21.6%) | 19.5% (11.9%) |
 | Health payroll contribution | 2.9% of all pay | 2.9% | 2.9% | 2.9% |
-| Top federal rate on wages | 73.3% | 68.5% | 68.5% | 82.1% |
-| **Net per household, FY2040: Q1 / Q2 / Q3 / Q4** | **+6,765 / +10,259 / +9,513 / +1,536** | +5,024 / +8,005 / +8,117 / +2,391 | +6,665 / +9,996 / +9,479 / +1,674 | +6,896 / +11,622 / +13,583 / +8,786 |
-| Q5 / top 1% | −22,986 / −132,216 | −18,449 / −102,559 | −22,726 / −92,986 | −35,800 / −400,393 |
-| Bottom-four households that lose (millions, of about 121) | 29.6 | 35.3 | 30.2 | 19.3 (on paper) |
-| … losing more than 5% of their income | 16.1 | 20.6 | 17.9 | 9.4 (on paper) |
+| Top federal rate on wages | 74.3% | 68.5% | 68.5% | 84.8% |
+| **Net per household, FY2040: Q1 / Q2 / Q3 / Q4** | **+7,050 / +11,290 / +10,576 / +1,515** | +4,965 / +8,590 / +8,904 / +2,539 | +7,147 / +11,776 / +11,398 / +1,685 | +7,207 / +12,923 / +15,451 / +10,198 |
+| Q5 / top 1% | −25,344 / −143,273 | −19,911 / −107,752 | −26,918 / −98,983 | −40,692 / −464,479 |
+| Bottom-four households that lose (millions, of about 121) | 24.8 | 34.2 | 20.2 | 9.4 (on paper) |
+| … losing more than 5% of their income | 5.8 | 8.9 | 7.6 | 1.5 (on paper) |
 | New collection machinery | none | a federal VAT | none | none |
-| On the evidence | holds; the top 1% yields about 44% of its new charge | holds; heaviest on the middle | holds; workers bear it through pay | **doesn't hold**: the top 1% yields about 29% of its new charge (part 2.4) |
+| On the evidence | holds; the top 1% yields about 43% of its new charge | holds; hardest on the bottom two fifths | holds; workers bear it through pay | **doesn't hold**: the top 1% yields about 23% of its new charge (part 2.4) |
 
 **Why A:**
 - **Health care as a right:** no premiums, no deductibles, care free at the point of use except small capped copays above 200% of poverty.
 - **The single payer's savings are in the cost** (part 1).
 - **The most affordable for the bottom three fifths** of the three credible packages (A, B, C).
 - **Existing machinery only:** income tax withholding and the payroll tax system (`DEC-2026-11-13-08`).
-- **It doesn't meet a 5-6% statutory household rate.** In effective terms it does: the middle fifth pays about 5.6% of its income and the second fifth about 3.2%.
+- **It doesn't meet a 5-6% statutory household rate.** In effective terms it nearly does: the middle fifth pays about 6.2% of its income and the second fifth about 3.5%.
 
 **What 5-6% costs:**
 - **B:**
-  - a federal VAT of about 11.5% on top of state sales taxes;
-  - the bottom three fifths lose $1,400-2,300 a year against A, and about 6 million more bottom-four households lose;
+  - a federal VAT of about 14% on top of state sales taxes;
+  - the bottom three fifths lose $1,700-2,700 a year against A, and about 9 million more bottom-four households lose;
   - it needs a new federal collection system;
-  - at a 6% household rate the VAT is 10.4%; at 5%, 12.7%.
+  - at a 6% household rate the VAT is 12.6%; at 5%, 15.0%.
 - **C:**
-  - employers pay about 1.6 times what they would otherwise have spent;
+  - employers pay about 1.8 times what they would otherwise have spent, because the larger employer contribution also pays for the phase-in and the credit;
   - in the long run workers bear it through pay, so it is a worker payroll tax in all but name;
   - it is a big jump in labor cost for employers that offered no coverage.
 - **D:**
   - it looks best on paper and is the least likely to deliver;
-  - at about 82% on top wages, and near 96% if the top tier lost 60% to avoidance, most of it wouldn't be collected.
+  - at about 85% on top wages, and about 101% if the top tier lost 60% to avoidance, most of it wouldn't be collected.
 
 ## Part 4. Households
 
@@ -299,24 +390,27 @@ They differ in how households and employers make up the rest.
 | Expanded income (D3's ranking measure) | 33,634 | 91,643 | 155,789 | 245,592 | 561,562 | 1,875,845 |
 | AGI | 15,783 | 63,866 | 131,823 | 221,196 | 525,542 | 1,813,694 |
 | AGI above $20,000/$40,000 (the base, as the budget model's yield implies it) | 2,490 | 25,939 | 79,743 | 165,123 | 471,802 | 1,778,855 |
-| × the household rate | 10.35% | 10.35% | 10.35% | 10.35% | 10.35% | 10.35% |
-| **= household contribution charged** | **−258** | **−2,684** | **−8,250** | **−17,084** | **−48,814** | **−184,047** |
-| … and on the pay formerly put into premiums before tax, now in income | −22 | −228 | −549 | −779 | −872 | −1,225 |
-| Less what avoidance keeps from being collected (top fifth only) | 0 | 0 | 0 | 0 | +15,418 | +58,131 |
+| × the household rate | 11.3% | 11.3% | 11.3% | 11.3% | 11.3% | 11.3% |
+| **= household contribution charged** | **−281** | **−2,932** | **−9,015** | **−18,667** | **−53,336** | **−201,093** |
+| … and on the pay formerly put into premiums before tax, now in income | −24 | −249 | −599 | −851 | −953 | −1,338 |
+| Less what avoidance keeps from being collected (top fifth only) | 0 | 0 | 0 | 0 | +16,846 | +63,516 |
 | Premiums and out-of-pocket costs they stop paying | +4,629 | +9,493 | +16,161 | +22,280 | +25,889 | +21,967 |
 | Employer premiums that would have gone to coverage | +3,089 | +9,355 | +16,220 | +20,966 | +23,035 | +22,739 |
 | Tax on former premiums, both shares, if paid as pay | −287 | −2,971 | −7,155 | −10,158 | −11,371 | −15,971 |
 | Employer health contribution, borne through pay | −560 | −3,936 | −10,055 | −19,909 | −38,205 | −49,170 |
 | Less the tax on the pay the contribution takes instead | +175 | +1,229 | +3,141 | +6,219 | +11,934 | +15,360 |
-| **Net** | **+6,765** | **+10,259** | **+9,513** | **+1,536** | **−22,986** | **−132,216** |
-| Net as a share of expanded income | +20.1% | +11.2% | +6.1% | +0.6% | −4.1% | −7.0% |
-| Household contribution as a share of expanded income | 0.8% | 3.2% | 5.6% | 7.3% | 8.8% | 9.9% |
+| The phase-in: contribution employers with no 2028 coverage don't yet pay, less tax on that pay | +32 | +141 | +221 | +269 | +404 | +617 |
+| Worker transition credit | +279 | +1,160 | +1,657 | +1,365 | +411 | +101 |
+| **Net** | **+7,050** | **+11,290** | **+10,576** | **+1,515** | **−25,344** | **−143,273** |
+| Net as a share of expanded income | +21.0% | +12.3% | +6.8% | +0.6% | −4.5% | −7.6% |
+| Household contribution as a share of expanded income | 0.9% | 3.5% | 6.2% | 7.9% | 9.7% | 10.8% |
 
 The 2.9% payroll contribution is not a row: households pay it today and keep paying it.
 
 How the table is built:
 - **Households:** about 151 million in FY2040, ranked by size-adjusted income, with equal numbers in each fifth.
-- **Spreading rows across fifths:** each row uses one of the household model's measured keys (`models/tools/household/keys.csv`): `health_hh`, `employer_cov`, `exclusion_end`, the band of pay between $20,000 and the wage base, and AGI above the line.
+- **Spreading rows across fifths:** each row uses one of the household model's measured keys (`models/tools/household/keys.csv`): `health_hh`, `employer_cov`, `exclusion_end`, the band of pay between $20,000 and the wage base, and AGI above the line. The phase-in and the credit use keys built from the 2029 households themselves (`no_offer()`, `credit_key()`).
+- **Why the credit reaches the top fifth at all:** a household can hold more than one tax unit, such as a grown child with a low income and no coverage, and the credit follows the tax unit's own income.
 - **Employer rows:** they follow CBO in assuming total pay is fixed. Premiums an employer no longer pays would become pay, and the contribution comes out of that pay instead. So in total those rows nearly cancel, but not within a fifth: premiums follow coverage, while the contribution follows pay.
 - **Cash only:** the table doesn't count the value of coverage to people who are uninsured now.
 
@@ -329,30 +423,36 @@ Each example is in today's dollars, at FY2040's rates, with health costs at FY20
 - **Lines:** price-indexed, so in these terms the $20,000 line is about $17,700 and the $40,000 line about $35,400.
 - **The contribution's base:** the household's income after the plan, which now includes its pay change and its former pre-tax premium share.
 - **Tax on pay that changes:** the federal bracket plus both halves of the remaining payroll taxes.
+- **The employer rate:** 19.5% on actual pay in the band. If the budget model's payroll point is low (part 8), the rate on actual pay would be about 16-17%, and every employer amount here would be about a sixth smaller. The fifth tables and loser counts don't depend on this: they spread the contribution's total.
 
 Package A:
 
-| Household | Stops paying (premiums + out of pocket − copays) | Employer: would have spent → pays | Pay change, then tax on it | Tax on former pre-tax premium | Household contribution (rate × base) | **Net a year** |
-| --- | --- | --- | --- | --- | --- | --- |
-| Single worker, $45,000, single job coverage | 2,085 + 2,013 − 443 = **3,655** | 10,140 → 5,316 | +4,824, −1,317 | −569 | 10.35% × 34,190 = −3,537 | **+3,056 (+6.8%)** |
-| Single worker, $45,000, employer offers no coverage, uninsured today | 0 + 2,621 − 443 = **2,178** | 0 → 5,316 | −5,316, +1,451 | 0 | 10.35% × 21,965 = −2,273 | **−3,959 (−8.8%)**, and now covered |
-| Family of four, $90,000, family job coverage | 9,316 + 8,052 − 1,772 = **15,596** | 25,976 → 14,084 | +11,892, −3,247 | −2,543 | 10.35% × 75,770 = −7,839 | **+13,859 (+15.4%)** |
-| Family of four, $160,000, family job coverage | **15,596** | 25,976 → 27,723 | −1,747, +652 | −3,475 | 10.35% × 132,131 = −13,671 | **−2,645 (−1.7%)** |
-| Retired couple on Medicare, $60,000 (Social Security $36,000 and pension $24,000; AGI about $33,000) | 6,574 + 6,884 − 886 = **12,572** | — | — | — | below the line: 0 | **+12,572 (+21.0%)** |
-| Retired couple on Medicare, $110,000 (AGI about $102,500) | **12,572** | — | — | — | 10.35% × 67,062 = −6,938 | **+5,634 (+5.1%)** |
-| Self-employed single, $70,000 net, buys an individual-market plan | 11,051 + 4,914 − 443 = **15,523** | pays the employer contribution, 19.5% × (92.35% × 70,000 − 17,719) = −9,143 | — | — | 10.35% × 47,281 = −4,892 | **+1,488 (+2.1%)** |
+| Household | Stops paying (premiums + out of pocket − copays) | Employer: would have spent → pays | Pay change, then tax on it | Tax on former pre-tax premium | Household contribution (rate × base) | Worker transition credit | **Net a year** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Single worker, $45,000, single job coverage | 2,085 + 2,013 − 443 = **3,655** | 10,140 → 5,316 | +4,824, −1,317 | −569 | 11.3% × 34,190 = −3,865 | — | **+2,728 (+6.1%)** |
+| Single worker, $45,000, employer offers no coverage, uninsured today | 0 + 2,621 − 443 = **2,178** | 0 → 3,056 (57.5% of 5,316, the phase-in in FY2040) | −3,056, +834 | 0 | 11.3% × 24,224 = −2,738 | +3,056 | **+274 (+0.6%)**, and now covered |
+| Family of four, $90,000, family job coverage | 9,316 + 8,052 − 1,772 = **15,596** | 25,976 → 14,084 | +11,892, −3,247 | −2,543 | 11.3% × 75,770 = −8,566 | — | **+13,133 (+14.6%)** |
+| Family of four, $160,000, family job coverage | **15,596** | 25,976 → 27,723 | −1,747, +652 | −3,475 | 11.3% × 132,131 = −14,937 | — | **−3,911 (−2.4%)** |
+| Retired couple on Medicare, $60,000 (Social Security $36,000 and pension $24,000; AGI about $33,000) | 6,574 + 6,884 − 886 = **12,572** | — | — | — | below the line: 0 | — | **+12,572 (+21.0%)** |
+| Retired couple on Medicare, $110,000 (AGI about $102,500) | **12,572** | — | — | — | 11.3% × 67,062 = −7,581 | — | **+4,991 (+4.5%)** |
+| Self-employed single, $70,000 net, buys an individual-market plan | 11,051 + 4,914 − 443 = **15,523** | pays the employer contribution, 19.5% × (92.35% × 70,000 − 17,719) = −9,143 | — | — | 11.3% × 47,281 = −5,345 | — (had a plan of their own) | **+1,034 (+1.5%)** |
+
+**The uninsured worker, before and after the fix, and in the long run:**
+- **Before the fix** (package A as merged): the full 5,316 comes out of pay, with 1,451 back in tax, and the household contribution is 10.35% × 21,965 = 2,273. Net **−3,959 (−8.8%)**.
+- **With the fix, FY2040:** **+274 (+0.6%)**. If the employer did offer coverage but this worker wasn't on it, the contribution is the full 5,316, the credit returns all of it, and the net is about +1,100.
+- **In the long run** (after the phase-in ends in 2044 and the credit in 2049): about **−$4,000 a year** on FY2040's economy, against a world where they would still be uninsured. They then pay what any worker on $45,000 pays, about $7,600 a year in the two contributions, which is less than what goes to health care today for a $45,000 worker with job coverage: the employer's and the worker's premiums and out-of-pocket costs, about $14,200 here. Part 4.3 sets out the choice.
 
 The same households under the other packages:
 
 | Household | B | C | D |
 | --- | --- | --- | --- |
-| Single worker, job coverage | +314 | +2,565 | +4,713 |
-| Uninsured worker | −7,293 | −5,042 | −2,895 |
-| Family at $90,000 | +10,326 | +11,842 | +17,531 |
-| Family at $160,000 | −8,871 | −5,773 | +3,759 |
-| Retired couple at $60,000 | +7,065 | +12,572 | +12,572 |
-| Retired couple at $110,000 | −836 | +8,884 | +8,884 |
-| Self-employed | −2,957 | −1,717 | +3,779 |
+| Single worker, job coverage | −555 | +1,794 | +4,713 |
+| Uninsured worker | −3,588 | +2,499 | +1,680 |
+| Family at $90,000 | +8,902 | +9,798 | +17,531 |
+| Family at $160,000 | −11,369 | −9,198 | +3,759 |
+| Retired couple at $60,000 | +5,976 | +12,572 | +12,572 |
+| Retired couple at $110,000 | −2,758 | +8,884 | +8,884 |
+| Self-employed | −4,289 | −3,692 | +3,779 |
 
 D's figures rest on a top tier the evidence says wouldn't be collected.
 
@@ -360,43 +460,78 @@ D's figures rest on a top tier the evidence says wouldn't be collected.
 
 How this is counted (`micro()`): each fifth's total is spread over its own households in proportion to each one's base (its coverage on the CPS, its pay in the band, its AGI above the line). The fifths' averages are therefore exactly those in 4.1.
 
-| | Q1 | Q2 | Q3 | Q4 | Q5 |
-| --- | --- | --- | --- | --- | --- |
-| Households paying more than they save (millions) | 2.0 | 5.3 | 7.5 | 14.8 | 24.7 |
-| … losing more than 5% of their income | 0.9 | 3.4 | 3.9 | 8.0 | 16.6 |
+**Before and after the fix** (millions of FY2040 households):
 
-- **About 29.6 million households in the bottom four fifths lose cash,** 16.1 million of them by more than 5% of their income. The median loss among them is about $6,000 a year.
-- **Who they are:**
-  - about half have job coverage that cost little relative to their pay, or high income for their fifth;
-  - about 48% are working households with no job coverage. Their pay bears the employer contribution with nothing behind it. Most are now uninsured, on Medicaid or in the individual market, and they gain coverage, which the cash count leaves out;
-  - about 8% are Medicare households with income well above the line.
-- **The low-pay line protects the poorest.** Without it (the contribution at 14.3% on all pay up to the wage base), the poorest fifth's losers rise from 2.0 million to 4.5 million, and the bottom-four count to 34.4 million.
-- **The fourth fifth is where affordability is thinnest:** half of it pays more. Design memos D1 and D2 (part 6) cut the bottom-four count to **25.4 million** (12.4 million losing more than 5%) and lift the fourth fifth to about +$4,900.
-- **These counts are rough.** The CPS under-reports Medicaid, and the model gives every person in a coverage group that group's average cost. Real premiums and medical bills vary far more, so the true spread is wider in both directions.
+| | Q1 | Q2 | Q3 | Q4 | **Bottom four** | Q5 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Paying more than they save, before the fix (A as merged) | 2.0 | 5.3 | 7.5 | 14.8 | **29.6** | 24.7 |
+| … losing more than 5% of their income | 0.6 | 2.7 | 3.0 | 5.4 | **11.7** | 12.3 |
+| **Paying more than they save, with the fix (package A)** | **0.7** | **2.8** | **6.1** | **15.3** | **24.8** | 25.3 |
+| **… losing more than 5% of their income** | **0.0** | **0.1** | **0.5** | **5.2** | **5.8** | 13.4 |
+
+- **A correction.** The merged memo put the over-5% counts at 16.1 million for the bottom four (0.9, 3.4, 3.9 and 8.0). That test compared FY2040 dollars with 2029 incomes, which are about 30% smaller. On FY2040 incomes the count before the fix is 11.7 million. The counts of households that lose at all were right.
+- **What the fix does:**
+  - In the bottom three fifths, households losing more than 5% fall from **6.3 million to 0.6 million**, and households losing at all from 14.8 million to 9.5 million.
+  - The median loss among bottom-four losers falls from about $5,950 to about $4,900 a year.
+  - On the counts, the credit does almost all the work. The phase-in mainly keeps pay from falling at employers that never offered coverage, including for their workers above the credit's income range, and gives those employers time.
+- **Who still loses** (bottom four, with the fix):
+  - about 64% have job coverage that cost little relative to their pay: mostly single workers on good pay. A premium is the same for everyone; the plan's contributions follow pay;
+  - about 33% are working households with no job coverage, mostly above the credit's income range;
+  - about 6% are Medicare households with income well above the line.
+- **The fourth fifth is where affordability is thinnest:** half of it pays more, and the fix doesn't change that. The rate rise that pays for the credit adds about 0.4 million losers there. Design memos D1 and D2 (part 6) bring the bottom-four count to **19.3 million** (3.4 million losing more than 5%) and lift the fourth fifth to about +$4,850.
+- **The low-pay line protects the poorest.** Without it (the contribution at 14.3% on all pay up to the wage base), the poorest fifth's losers rise from 0.7 million to 3.7 million, and the bottom-four count to 31.2 million.
+
+**The fix's design, against the alternatives** (FY2040, package A; each re-solves the household rate):
+
+| Design | Household rate | Cost ($B) | Bottom-four losers (M) | … over 5% (M) | Bottom three fifths over 5% (M) | Fourth fifth's average |
+| --- | --- | --- | --- | --- | --- | --- |
+| None (A as merged) | 10.35% | 0 | 29.6 | 11.7 | 6.3 | +1,536 |
+| Phase-in only | 10.52% | 32 | 29.4 | 11.1 | 5.7 | +1,507 |
+| **Phase-in and the transition credit (recommended)** | **11.30%** | **180** | **24.8** | **5.8** | **0.6** | **+1,515** |
+| The same credit at 75% of the contribution | 11.11% | 143 | 26.2 | 6.3 | 1.1 | +1,513 |
+| The credit phased out between $50,000 and $100,000 | 11.17% | 154 | 24.8 | 6.4 | 1.0 | +1,331 |
+| The credit for every worker, not only those without coverage in 2028 | 14.84% | 843 | 21.2 | 6.3 | 1.4 | +4,809 |
+| The same, at half the contribution | 12.68% | 437 | 25.3 | 8.4 | 3.5 | +3,158 |
+| No credit; the low-pay line raised to $30,000 (the employer rate becomes 27.5% in the band) | 10.52% | 32 | 27.4 | 9.8 | 4.4 | +1,665 |
+
+What the comparison shows:
+- **Targeting is what makes it work.** A credit for every worker costs almost five times as much. It lifts the fourth fifth's average, but the rate rise to pay for it leaves as many households losing more than 5%.
+- **At 75%** the credit roughly matches the worker's loss after tax for a typical worker, but it leaves 0.5 million more in the bottom three fifths losing over 5%. In full it is simpler to explain: you get back what was charged on your pay.
+- **A higher low-pay line** helps everyone's lowest pay, including people who already gain, and moves the contribution onto pay above $30,000. It does about a third as much for the households losing more than 5%.
+
+**The long run** (after the phase-in ends in 2044 and the credit in 2049):
+- Priced on FY2040's economy, the long run is package A as merged: a 10.35% rate, 29.6 million bottom-four households paying more than they would under today's law, 11.7 million by more than 5%.
+- By then the comparison means less. It sets someone's health contributions against a world in which they would still be uninsured, or on Medicaid at no cost. Every worker on the same pay pays the same, and less than today's premiums take out of pay for workers with job coverage (the $45,000 example in 4.2).
+- **The alternative is a permanent credit for every low-paid worker** (the contribution on their pay, phased out between $30,000 and $60,000). It costs about $179B (0.95 point), the same as the transition, but does less: 27.2 million losers and 10.1 million over 5%, because most of it goes to workers who already gain. **Recommended: keep the credit transitional** (part 9, question 6).
+
+**These counts are rough.** The CPS under-reports Medicaid, and the model gives every person in a coverage group that group's average cost. Real premiums and medical bills vary far more, so the true spread is wider in both directions.
 
 ## Part 5. What changes the numbers: sensitivities on package A (FY2040)
 
 | Case | Household rate | Q1 | Q2 | Q3 | Q4 | Q5 | Top 1% |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **A as recommended** | **10.35%** | **+6,765** | **+10,259** | **+9,513** | **+1,536** | **−22,986** | **−132,216** |
-| With design memos D1 and D2 | 8.4% | +6,817 | +10,803 | +11,157 | +4,872 | −16,586 | −108,473 |
-| Savings booked (administration 3%, drugs 23% lower) | 9.0% | +6,801 | +10,633 | +10,642 | +3,828 | −18,589 | −115,904 |
-| The seam not fixed (the cautious reading) | 12.0% | +6,722 | +9,809 | +8,153 | −1,226 | −28,284 | −151,874 |
-| States at 80% / 50% / 0% | 11.1% / 12.2% / 14.0% | +6,745 / +6,715 / +6,666 | +10,052 / +9,742 / +9,225 | +8,888 / +7,951 / +6,388 | +267 / −1,636 / −4,808 | | |
-| The 2.9% folded into the employer contribution (workers pay no health payroll tax; employer 24.3%) | 10.9% | +6,945 | +10,385 | +9,030 | −169 | −24,677 | −106,273 |
-| The 2.9% repealed and its money split between the two contributions | 12.0% | +6,989 | +10,592 | +9,413 | +543 | −23,308 | −113,404 |
-| Employer contribution with no low-pay line (14.3% up to the wage base) | 10.35% | +6,109 | +8,955 | +8,391 | +1,548 | −19,915 | −127,188 |
-| Employer contribution on all pay, HI's base (11.9%) | 10.35% | +6,255 | +9,508 | +9,496 | +3,385 | −23,557 | −218,322 |
-| Same, after the stacking check (elasticity 0.25) | 12.2% | +6,206 | +9,000 | +7,962 | +270 | −29,532 | −240,492 |
-| A after the stacking check (elasticity 0.25 / 0.4 / 0.57, the registered figure) | 10.7% / 11.2% / 11.7% | +6,755 / +6,743 / +6,729 | +10,158 / +10,027 / +9,886 | +9,207 / +8,812 / +8,386 | +915 / +111 / −753 | | |
-| Employers at 65% of what they'd otherwise spend (the first draft's share) | 13.2% | +6,824 | +10,412 | +9,533 | +1,455 | −23,137 | −155,057 |
-| Avoidance spread "elastic" / "even" | 10.35% | +6,788 / +6,817 | +10,494 / +10,796 | +10,235 / +11,163 | +2,449 / +4,953 | | |
-| Top 1% at its IRS share of the base (29%, against the CPS's 12%) | 10.35% | +6,815 | +10,779 | +11,112 | +4,846 | −28,464 | −395,293 |
-| The first draft's package on the corrected method (65%, 80%, no seam fix) | 15.5% | +6,429 | +9,267 | +7,537 | −1,373 | −31,241 | −239,715 |
+| **A as recommended (with the fix)** | **11.3%** | **+7,050** | **+11,290** | **+10,576** | **+1,515** | **−25,344** | **−143,273** |
+| A before the fix (as merged in #385) | 10.35% | +6,765 | +10,259 | +9,513 | +1,536 | −22,986 | −132,216 |
+| With design memos D1 and D2 | 9.4% | +7,103 | +11,834 | +12,220 | +4,851 | −18,945 | −119,530 |
+| Savings booked (administration 3%, drugs 23% lower) | 10.0% | +7,086 | +11,664 | +11,705 | +3,807 | −20,948 | −126,961 |
+| The seam not fixed (the cautious reading) | 12.9% | +7,007 | +10,840 | +9,216 | −1,247 | −30,643 | −162,931 |
+| States at 80% / 50% / 0% | 12.0% / 13.1% / 15.0% | +7,030 / +7,001 / +6,951 | +11,084 / +10,773 / +10,256 | +9,951 / +9,014 / +7,451 | +246 / −1,657 / −4,829 | | |
+| The 2.9% folded into the employer contribution (workers pay no health payroll tax; employer 24.3%) | 11.9% | +7,230 | +11,416 | +10,093 | −190 | −27,035 | −117,330 |
+| The 2.9% repealed and its money split between the two contributions | 13.0% | +7,274 | +11,623 | +10,476 | +522 | −25,667 | −124,462 |
+| Employer contribution with no low-pay line (14.3% up to the wage base) | 11.3% | +6,394 | +9,987 | +9,454 | +1,527 | −22,274 | −138,245 |
+| Employer contribution on all pay, HI's base (11.9%) | 11.3% | +6,540 | +10,539 | +10,559 | +3,364 | −25,915 | −229,379 |
+| Same, after the stacking check (elasticity 0.25) | 13.2% | +6,488 | +9,992 | +8,905 | +6 | −32,357 | −253,278 |
+| A after the stacking check (elasticity 0.25 / 0.4 / 0.57, the registered figure) | 11.7% / 12.2% / 12.8% | +7,039 / +7,025 / +7,010 | +11,173 / +11,027 / +10,871 | +10,222 / +9,781 / +9,310 | +796 / −99 / −1,055 | | |
+| Employers at 65% of what they'd otherwise spend (the first draft's share) | 13.8% | +7,009 | +11,083 | +10,224 | +1,442 | −24,670 | −162,244 |
+| Avoidance spread "elastic" / "even" | 11.3% | +7,075 / +7,107 | +11,547 / +11,877 | +11,365 / +12,379 | +2,513 / +5,248 | | |
+| Top 1% at its IRS share of the base (29%, against the CPS's 12%) | 11.3% | +7,105 | +11,859 | +12,323 | +5,132 | −31,331 | −430,717 |
+| Pay holds where the contribution is above former premiums (owners bear it; part 2.6) | 10.9% | +7,092 | +11,957 | +11,645 | +3,433 | −29,041 | −309,889 |
+| Employers that save keep half their saving (part 2.6) | 11.5% | +6,149 | +9,032 | +7,825 | +85 | −18,004 | −45,219 |
+| The first draft's package on the corrected method (65%, 80%, no seam fix, no fix) | 15.5% | +6,429 | +9,267 | +7,537 | −1,373 | −31,241 | −239,715 |
 
 What the table shows:
-- **Pass-through.** At 100%, nothing depends on how much of their savings employers pass into pay, because they keep no net saving. In the first draft's package, if employers passed on only half [EV-CAR-299], the fourth fifth would fall to about −$3,200.
-- **The fourth fifth** stays positive except in these cases: the cautious seam reading, states at 50% or less, the 2.9% folded into the employer contribution, the first draft's shares, and the registered top-end elasticity of 0.57.
+- **Pass-through.** At 100%, employers as a group keep no net saving. But some employers save and others pay more (part 2.6). If those that save kept half of it, the fourth fifth would fall to about +$85 and 1.7 million more bottom-four households would lose. That is what rule 4 and the review trigger are for. In the first draft's package, the aggregate check alone (employers passing on half [EV-CAR-299]) put the fourth fifth at about −$3,300.
+- **The fourth fifth** stays positive except in these cases: the cautious seam reading, states at 50% or less, the 2.9% folded into the employer contribution, the first draft's shares, and top-end elasticities of 0.4 or more.
 - **The rest of the plan.** Scenario Q, the rest of the plan without health, gives the fourth fifth +$552 (`models/tools/household/results.md`, section 8).
 
 ## Part 6. Design memos: changes to the decided design, for Espen to weigh
@@ -442,7 +577,7 @@ Espen, November 15: "it's ok to reopen parts of the design if compelling evidenc
 - **Effect:** B +$251B (1.3 points).
 - **Recommendation: A.** The copays are small, capped and waived below 200% of poverty. Removing them would raise the rate for everyone.
 
-**Package A with D1 B and D2 B:** a household rate of **8.4%**, the fourth fifth at +$4,872, and 25.4 million bottom-four households losing cash.
+**Package A with D1 B and D2 B:** a household rate of **9.4%**, the fourth fifth at +$4,851, and 19.3 million bottom-four households losing cash (3.4 million by more than 5%).
 
 ## Part 7. Beside the Sanders, Jayapal and Warren plans
 
@@ -458,9 +593,9 @@ Warren's figures are the sponsor's own (grade C) and predate the 2025 law. They 
 | --- | --- | --- | --- | --- |
 | Cost first? | No program cost stated | No | Yes: about $52T national over ten years, $20.5T new federal [EV-CAR-723]. CRFB puts it at about $27T [EV-CAR-743] | Yes: gross cost by year (part 1) |
 | Financing | None in the bill; the paper is a menu | None | A full plan | Part 2's six sources, in law |
-| Employers | Paper: 7.5% of payroll, the first $2 million exempt. In the transition, per enrolling worker, the higher of 75% of premiums or the 7.5% | Nothing | 98% of each employer's prior per-worker spending, converging to the national average. Firms under 50 workers that don't offer coverage are exempt [EV-CAR-725, EV-CAR-726] | What employers as a whole would otherwise spend, as a contribution on pay between a $20,000 line and the wage base |
+| Employers | Paper: 7.5% of payroll, the first $2 million exempt. In the transition, per enrolling worker, the higher of 75% of premiums or the 7.5% | Nothing | 98% of each employer's prior per-worker spending, converging to the national average. Firms under 50 workers that don't offer coverage are exempt [EV-CAR-725, EV-CAR-726] | What employers as a whole would otherwise spend, as a contribution on pay between a $20,000 line and the wage base. Mandatory for all, through Form 941 and SECA; phased in over 2035-44 for employers with no 2028 coverage; pay rates protected; savings passed into pay (part 2.6) |
 | States | Eligibility no stricter than January 2025's; a floor on institutional long-term care spending (sec. 204) | No maintenance of effort; long-term care moves into the program | A maintenance of effort of about $6T: Medicaid and CHIP, and state employee premiums [EV-CAR-727] | 100% of former Medicaid spending outside long-term care, indexed |
-| Households | Paper: 4% above about $29,000 for a family of four | Nothing | "No new middle-class taxes": higher take-home pay is taxed under current law [EV-CAR-728] | 10.35% above $20,000/$40,000 |
+| Households | Paper: 4% above about $29,000 for a family of four | Nothing | "No new middle-class taxes": higher take-home pay is taxed under current law [EV-CAR-728] | 11.3% above $20,000/$40,000, with a transition credit for workers who had no coverage in 2028 |
 | Top-end and other revenue | Paper: about $4.6T (rates to 52%, a 1% wealth tax, the estate tax and more) | None | Financial transactions tax, wealth and capital-gains taxes, corporate changes, the tax gap, immigration reform, ending overseas war funds [EV-CAR-729, EV-CAR-730] | None for health: the plan's top-end taxes fund its other flagships |
 | HI payroll tax | Not mentioned | Not mentioned | Kept | Kept at 2.9% as the plan's own contribution; into the plan's fund from 2035 |
 | Cost assumptions | — | — | Administration 2.3%, hospitals at 110% of Medicare [EV-CAR-744]; $1.1T from slower cost growth [EV-CAR-724] | Administration 5% (D1: 4%); 1.15 times Medicare; CBO's growth (D2: GDP + 1) |
@@ -472,7 +607,8 @@ What this plan takes, and what it does differently:
   - an employer contribution set against what employers would otherwise spend;
   - a maintenance of effort for the states.
 - **Unlike Warren:**
-  - The employer contribution is on pay, not a charge per worker. TPC found the per-worker charge works like a head tax [EV-CAR-735]. Here the low-pay line, rather than a small-firm exemption, protects low-paid workers.
+  - The employer contribution is on pay, not a charge per worker. TPC found the per-worker charge works like a head tax [EV-CAR-735]. Here the low-pay line, rather than a small-firm exemption, protects low-paid workers, and a ten-year phase-in replaces the exemption for employers that never offered coverage.
+  - Union contracts keep Warren's choice of how savings reach members (wages, pensions or other benefits), but not a lower rate for union employers (part 2.6, rule 5).
   - There is a household contribution. This plan's top end is already spent, and the reviewers found Warren's top-end revenue short.
   - The cost assumptions are less aggressive. The design memos price Warren-like ones.
 - **From Sanders:**
@@ -526,26 +662,35 @@ A separate agent (November 15) re-derived the key figures from the underlying mo
 Each question is decided on its own; none is adopted by silence.
 
 1. **The package:** A (recommended), B, C or D?
-2. **"Mid single digits":** did you mean the household rate on income above the line, or what a typical household pays of its income? **Recommendation: judge it by what households pay.** Under A the middle fifth pays about 5.6% of its income, and workers' health payroll contribution is 1.45%. A 5-6% statutory rate needs about $1T a year from a VAT or a larger employer contribution, and costs the bottom three fifths more.
+2. **"Mid single digits":** did you mean the household rate on income above the line, or what a typical household pays of its income? **Recommendation: judge it by what households pay.** Under A the middle fifth pays about 6.2% of its income, and workers' health payroll contribution is 1.45%. A 5-6% statutory rate needs about $1.1T a year from a VAT or a larger employer contribution, and costs the bottom three fifths more.
 3. **The employer contribution's size:** what employers as a whole would otherwise have spent on premiums (recommended), or less (65%, as in the first draft)?
 4. **Its base:**
    - pay between a $20,000 low-pay line and the wage base, about 19.5% (recommended);
    - pay up to the wage base with no line, about 14.3%;
    - all pay, about 11.9%.
-5. **A phase-in for employers that offered no coverage in 2029:** their rate steps up over five years (recommended; to price at booking), or none?
-6. **The 2.9% payroll contribution:**
+5. **The employer contribution, mandatory and pay-protected (part 2.6).** Each rule can be decided on its own; all five are recommended:
+   - **a. Mandatory for every employer,** paid with payroll taxes on Form 941 and by the self-employed through SECA, with no small-firm exemption.
+   - **b. The phase-in** for employers that reported no coverage for 2028: a tenth of the rate in 2035, rising a tenth a year, full in 2044. It costs $32B in FY2040 and nothing from 2045. The alternative is no phase-in.
+   - **c. No cuts in pay rates** through 2044 for workers employed when their employer's contribution began, enforced by the Labor Department.
+   - **d. Savings into pay:** for three years, employers that save must pass the per-worker difference into the pay of the workers they covered.
+   - **e. Union contracts:** savings go to members in whatever form they bargain, with a reopener within 12 months. No lower rate for union employers; whether to encourage organizing goes to the work flagship.
+6. **The fix for households that lose cash (parts 2.7 and 4.3):**
+   - **a. The worker transition credit** as designed (recommended): the contribution on the pay of people who had earnings and no job coverage or plan of their own in 2028, in full, phased out between $60,000 and $120,000 ($120,000 and $240,000 for couples). Cost $147B in FY2040 (0.8 point). It cuts bottom-four households losing more than 5% of income from 11.7 million to 5.8 million.
+   - The alternatives, priced in 4.3: the credit at 75% (0.2 point cheaper, a little less protection); a credit for every worker (3.5 points more, no better on the over-5% count); the low-pay line at $30,000 instead (cheaper, about a third of the protection); or no credit.
+   - **b. How long:** transitional, full through 2044 and ending after 2049 (recommended), or a permanent credit for every low-paid worker, phased out between $30,000 and $60,000? The permanent one costs about the same and protects fewer of the households that lose.
+7. **The 2.9% payroll contribution:**
    - keep it as the plan's own contribution on all pay (recommended);
    - fold it into the employer contribution, so workers pay no payroll tax for health. This costs about $108B of other tax, and the fourth fifth turns slightly negative.
-7. **The household contribution in the transition:** steps that follow the waves (about 3% from 2031, 5% from 2033, 9% at the endpoint), with no credit for premiums still paid (recommended)? The alternatives:
+8. **The household contribution in the transition:** steps that follow the waves (about 3% from 2031, 5% from 2033, 9.5% at the endpoint), with no credit for premiums still paid (recommended)? The alternatives:
    - a credit for premiums still paid: fairer, but FY2031-34 revenue falls by roughly $0.9T, and the early rate about doubles for everyone else;
    - a start in 2035, borrowing about $2.6T over FY2030-34.
-8. **The states at 100%** of their former Medicaid spending for the people who move, indexed (recommended), or 80%, 50% (booked) or 0%?
-9. **The self-employed** pay the employer contribution on net earnings, in the same band, as SECA does (recommended)? At booking, deduct that contribution from their income base, as an employee's comes out of pay before tax. The worked example doesn't yet deduct it, so it slightly overstates their household contribution.
-10. **D1, administration:** book 4%, with a 3% target (recommended)?
-11. **D2, a national health budget:** hold growth to GDP plus 1 point from 2037 (recommended)?
-12. **D3 and D4:** keep the 1.15 payment rate and the small copays (recommended)?
-13. **The Medicare seam:** rebook HLT-7 on CBO's Medicare figure in the booking PR: −$0.30T in FY2040, −$1.28T over FY2030-39 (recommended)?
-14. **Counting and the fund:** count health's contributions outside D3's revenue-mix test, as replacements for premiums, and pay them into the plan's fund, with the general fund covering any shortfall (recommended)?
+9. **The states at 100%** of their former Medicaid spending for the people who move, indexed (recommended), or 80%, 50% (booked) or 0%?
+10. **The self-employed** pay the employer contribution on net earnings, in the same band, as SECA does (recommended)? At booking, deduct that contribution from their income base, as an employee's comes out of pay before tax. The worked example doesn't yet deduct it, so it slightly overstates their household contribution.
+11. **D1, administration:** book 4%, with a 3% target (recommended)?
+12. **D2, a national health budget:** hold growth to GDP plus 1 point from 2037 (recommended)?
+13. **D3 and D4:** keep the 1.15 payment rate and the small copays (recommended)?
+14. **The Medicare seam:** rebook HLT-7 on CBO's Medicare figure in the booking PR: −$0.30T in FY2040, −$1.28T over FY2030-39 (recommended)?
+15. **Counting and the fund:** count health's contributions outside D3's revenue-mix test, as replacements for premiums, and pay them into the plan's fund, with the general fund covering any shortfall (recommended)? The credit would be paid from the same fund, as a refund of the contribution.
 
 **For stage G** (no answer needed now):
 - the top-rate stack across flagships (SS-1, H1b, the booked income points);
@@ -566,13 +711,14 @@ Each question is decided on its own; none is adopted by silence.
   - book the employer contribution's row, net of the tax it displaces;
   - book the states' share (HLT-7.17);
   - book the household contribution's rows and path, and `scenarios.json`;
-  - price the phase-in and the transition choices;
+  - book the phase-in (a lower employer row through FY2044) and the worker transition credit (an outlay row, FY2035-49), as Espen decides them;
+  - price the transition choices;
   - settle the payroll point;
   - book any design memo Espen adopts.
 
 ## Method and sources
 
-- **Code:** `models/tools/health_financing.py`: `coverage`, `seam`, `need_path`, `replaced_path`, `system_view`, `payers`, `payer_path`, `flow_path`, `package`, `package_path`, `micro`, `stacking_check`, `design_levers`, `growth_hold`, `examples`. Tests: `models/tools/test_health_financing.py`.
+- **Code:** `models/tools/health_financing.py`: `coverage`, `seam`, `need_path`, `replaced_path`, `system_view`, `payers`, `payer_path`, `flow_path`, `package`, `package_path`, `micro`, `stacking_check`, `design_levers`, `growth_hold`, `examples`; for the fix and the employer protections, `no_offer`, `phase_left`, `credit_key`, `line_variant`, `employer_split`, `pay_holds_check`, `savings_kept_check`. Tests: `models/tools/test_health_financing.py`.
 - **What the code reads** (it changes none of them): the coverage model; the care path (`dossiers/care/tools/health_path.py`); the booking (`health_booking.py`); the budget model's audit and paths; the household model's 2029 CPS households.
 - **Evidence:**
   - CBO's Medicare baseline [EV-CAR-718];
@@ -583,10 +729,11 @@ Each question is decided on its own; none is adopted by silence.
   - JCT's estimate of the exclusion [EV-CAR-052];
   - Medicare's administration [EV-CAR-217];
   - CBO's single-payer options [EV-CAR-218, EV-CAR-220];
-  - Anand on pass-through [EV-CAR-299];
+  - Anand on pass-through [EV-CAR-299]; Baicker and Chandra on premiums and wages [EV-CAR-296];
+  - KFF's 2026 offer rates [EV-CAR-295];
   - Vermont [EV-CAR-244, EV-CAR-245];
   - the bills and the options paper [EV-CAR-272 to EV-CAR-292, EV-CAR-713 to EV-CAR-716];
-  - Warren's plan and its reviews [EV-CAR-723 to EV-CAR-744].
+  - Warren's plan and its reviews [EV-CAR-723 to EV-CAR-744]; Warren's union provision re-read at its source (SRC-3356, through an Exa fetch, November 15).
 - **Legacy work,** weighed as evidence, not as defaults (`DEC-2026-11-13-15`):
   - `legacy/domains/domain-revenue.md`;
   - `legacy/sources/revenue-channels-and-full-menu.md`;
