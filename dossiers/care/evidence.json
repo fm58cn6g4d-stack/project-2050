@@ -13428,5 +13428,136 @@
   "supports": [
    "dossiers/foundations/checkpoint-financing.md"
   ]
+ },
+ {
+  "id": "EV-CAR-718",
+  "statement": "CBO's February 2026 baseline projects Medicare's mandatory outlays at about $1.87 trillion in fiscal year 2032, Medicare's offsetting receipts (premiums and other payments to the government) at about $340 billion, and Medicare's net mandatory outlays at about $1.53 trillion.",
+  "claim": "analysis",
+  "figures": [],
+  "rounded": [
+   {
+    "figure": "$1.87 trillion",
+    "value": "1866.597",
+    "scale": 0.001,
+    "places": 2
+   },
+   {
+    "figure": "$340 billion",
+    "value": "340.39299999999997",
+    "scale": 1,
+    "places": 0
+   },
+   {
+    "figure": "$1.53 trillion",
+    "value": "1526.204",
+    "scale": 0.001,
+    "places": 2
+   }
+  ],
+  "source": "SRC-3395",
+  "anchor": [
+   "CBO’s Baseline Projections of Mandatory Outlays, Adjusted to Exclude the Effects of Timing Shifts",
+   "row 13 | This file presents data that supplement CBO’s February 2026 report The Budget and Economic Outlook: 2026 to 2036. = Medicare\nrow 13 |  = 1179.972\nrow 13 |  = 1286.8679999999999\nrow 13 |  = 1373.623\nrow 13 |  = 1451.663\nrow 13 |  = 1551.816\nrow 13 |  = 1648.614\nrow 13 |  = 1752.64\nrow 13 |  = 1866.597",
+   "row 52 | This file presents data that supplement CBO’s February 2026 report The Budget and Economic Outlook: 2026 to 2036. = Offsetting receipts",
+   "row 53 | This file presents data that supplement CBO’s February 2026 report The Budget and Economic Outlook: 2026 to 2036. = Medicare\nrow 53 |  = -192.315\nrow 53 |  = -223.917\nrow 53 |  = -233.70400000000001\nrow 53 |  = -248.78899999999999\nrow 53 |  = -266.20800000000003\nrow 53 |  = -292.47500000000002\nrow 53 |  = -315.858\nrow 53 |  = -340.39299999999997",
+   "row 80 | This file presents data that supplement CBO’s February 2026 report The Budget and Economic Outlook: 2026 to 2036. = Medicare\nrow 80 |  = 987.65699999999993\nrow 80 |  = 1062.951\nrow 80 |  = 1139.9190000000001\nrow 80 |  = 1202.874\nrow 80 |  = 1285.6079999999999\nrow 80 |  = 1356.1390000000001\nrow 80 |  = 1436.7820000000002\nrow 80 |  = 1526.204"
+  ],
+  "locator": "Table 3-2 (timing-adjusted), rows 13 (Medicare), 52-53 (offsetting receipts, Medicare) and 80 (Medicare, net); columns 2025 to 2032 in order, the last value FY2032",
+  "grade": "A",
+  "fact_date": "2032",
+  "checked": "2026-11-15",
+  "recheck": "2027-02-15",
+  "context": "CBO baseline (nonpartisan), current law including P.L. 119-21. The saved text lists one cell per line, so each row runs from actual 2025 to 2032 in column order. Medicare's offsetting receipts are mostly enrollees' Part B and Part D premiums, with the states' Part D payments; the subsidy table (EV-CAR-052) nets them out. Its corroboration is CBO's own subsidy table, the same publisher.",
+  "supports": [
+   "dossiers/foundations/checkpoint-financing.md",
+   "models/tools/health_financing.py"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-052",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-719",
+  "statement": "The IRS estimates that taxpayers misreport 1 percent of income subject to substantial information reporting and withholding, such as wages, 6 percent of income with information reporting but no withholding, and 55 percent of income with little or no information reporting, such as sole proprietors' income.",
+  "claim": "analysis",
+  "figures": [
+   "1 percent",
+   "6 percent",
+   "55 percent"
+  ],
+  "source": "SRC-3396",
+  "anchor": "Misreporting of income amounts subject to substantial\ninformation reporting and withholding is 1 percent of income. For amounts subject to substantial\ninformation reporting but not withholding, it is 6 percent; and for income amounts subject to little or no\ninformation reporting, such as nonfarm sole proprietor income, it is 55 percent.",
+  "locator": "Section on the effect of information reporting on tax compliance (Figure 3)",
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Estimates for tax years 2014 to 2016. IRS Publication 1415 (October 2022, Biden administration period), estimated from National Research Program audits; agency analysis checked as usual. Supports placing an income contribution's shortfall where income is not withheld or reported by third parties, which is concentrated at the top.",
+  "supports": [
+   "dossiers/foundations/checkpoint-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-720",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-720",
+  "statement": "Gruber and Saez estimate an elasticity of taxable income of 0.57 for taxpayers with incomes above $100,000, against 0.18 for $10,000 to $50,000 and 0.11 for $50,000 to $100,000; for broad income, the estimates below $100,000 are negative but insignificant.",
+  "claim": "analysis",
+  "figures": [
+   "0.57",
+   "0.18",
+   "0.11"
+  ],
+  "source": "SRC-3397",
+  "anchor": [
+   "There are modest elasticities of taxable income of 0.18 for those in the $10,000-$50,000 income range, and of only 0.11 in the $50,000-$100,000 range. But there is a much larger elasticity of 0.57 for those in the very top income category.",
+   "For broad income, the estimates are actually negative (but smaller than their standard errors) for those below $100,000"
+  ],
+  "locator": "Section on heterogeneity by income group, Table 8 discussion (NBER Working Paper 7512, pp. 21-22)",
+  "grade": "B",
+  "fact_date": "2000",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Incomes in 1992 dollars (about $320,000 in FY2040 dollars for the $100,000 line, on CPI-U). Academic (NBER working paper, published 2002); 1979-90 tax returns. The authors call the group pattern suggestive given its imprecision. Wage income below the top is withheld, so it responds mainly through work; the top's income is more readily shifted. Used to place the income contribution's avoidance allowance at the top.",
+  "supports": [
+   "dossiers/foundations/checkpoint-financing.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-CAR-719",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-CAR-721",
+  "statement": "In tax year 2022 taxpayers filed 153.8 million returns reporting nearly $14.8 trillion of adjusted gross income, and the top 1 percent of returns had 22.4 percent of it.",
+  "claim": "data",
+  "figures": [
+   "153.8 million",
+   "$14.8 trillion",
+   "22.4"
+  ],
+  "source": "SRC-3398",
+  "anchor": [
+   "In 2022, taxpayers filed 153.8 million tax returns, reported earning nearly $14.8 trillion in adjusted gross income",
+   "The top 1 percent earned 22.4 percent of total AGI"
+  ],
+  "locator": "Key findings and the summary of tax year 2022",
+  "grade": "B",
+  "fact_date": "2022",
+  "checked": "2026-11-15",
+  "recheck": "2027-11-15",
+  "context": "Tax Foundation (market-oriented think tank) restating IRS Statistics of Income tables for individual returns excluding dependents; the figures are the IRS's. Tax units, not households, so the share is a guide to the CPS's top-coding, not a household key.",
+  "supports": [
+   "dossiers/foundations/checkpoint-financing.md"
+  ]
  }
 ]
