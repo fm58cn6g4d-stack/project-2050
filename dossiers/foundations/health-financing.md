@@ -51,16 +51,17 @@ This memo gives all three wherever a rate appears.
 
 1. **What the new system costs.** The single plan pays for nearly everyone's care. Its gross cost is about **$8.4 trillion in FY2040**: what it pays doctors, hospitals and drug makers, plus its administration and the other items the plan adds. It grows from about $1.2 trillion in FY2032 to about $5.7 trillion in FY2035, when everyone is in.
 2. **The country still spends less.** All health spending in FY2040 is about **$11.7 trillion under the plan against $12.4 trillion under today's law: about $0.8 trillion (6%) less**, while about 34 million more people are covered. Most of the saving comes from paying near-Medicare prices and lower administration. Covering everyone and ending most cost sharing push the other way (part 1.3).
-3. **Your question, answered: yes.** In FY2040 households, employers, states and the other payers stop paying about $5.7 trillion for health care. The new public money the plan needs is about $4.9 trillion. The difference, about $0.8 trillion, is what single payer saves on prices and administration.
-4. **How package A pays the $8.4 trillion** (FY2040):
+3. **A pricing correction to come (part 1.2b):** the cost model pays doctors at the hospitals' 1.15 times Medicare, but the decided design pays them Medicare's fee schedule plus add-ons. Fixing that at booking lowers the FY2040 cost by about $0.28 trillion (range $0.14-0.41 trillion), about 1.4 points off the household rate (to about 9.2%). The figures below don't include it yet.
+4. **Your question, answered: yes.** In FY2040 households, employers, states and the other payers stop paying about $5.7 trillion for health care. The new public money the plan needs is about $4.9 trillion. The difference, about $0.8 trillion, is what single payer saves on prices and administration.
+5. **How package A pays the $8.4 trillion** (FY2040):
    - **Federal money already spent on health: $2.7 trillion (32%).** This is the general revenue the government already spends on Medicare, Medicaid and marketplace subsidies for these people, kept for the plan.
-   - **An employer health contribution: $2.16 trillion (26%).** It is set so employers as a whole pay what they would otherwise have spent on premiums: **19.3% of each worker's pay between $20,000 and the Social Security wage base**. Nothing is due on the first $20,000 of anyone's pay. Every employer pays it; those that offered no coverage before the law start low and step up over ten years (item 7).
+   - **An employer health contribution: $2.16 trillion (26%).** It is set so employers as a whole pay what they would otherwise have spent on premiums: **19.3% of each worker's pay between $20,000 and the Social Security wage base**. Nothing is due on the first $20,000 of anyone's pay. Every employer pays it; those that offered no coverage before the law start low and step up over ten years (item 8).
    - **A household health contribution: $2.0 trillion (23%) after the worker credit is paid back.** It is **10.6% of the taxable income on your tax return**, collected with the income tax.
    - **A health payroll contribution of 2.9% on all pay: $0.6 trillion (7%).** That is 1.45% each from workers and employers. It is today's Medicare payroll tax, kept as one of the plan's own contributions because it is the plan's only charge on top earners' pay.
    - **The states: $0.7 trillion (8%).** They keep paying what they pay now for the Medicaid patients who move into the plan.
    - **Tax on the pay workers used to put into premiums before tax: $0.3 trillion (3%).**
    - **What ends:** premiums, deductibles, coinsurance, and Medicare's Part B and D premiums.
-5. **What it means for households** (FY2040, average per household a year, **2026 dollars**):
+6. **What it means for households** (FY2040, average per household a year, **2026 dollars**):
 
    | Fifth of households | Poorest | Second | Middle | Fourth | Top | Top 1% |
    | --- | --- | --- | --- | --- | --- | --- |
@@ -70,31 +71,31 @@ This memo gives all three wherever a rate appears.
    | **Net effect of the whole plan** | **+$5,100** | **+$7,800** | **+$7,200** | **+$800** | −$17,200 | −$97,200 |
 
    The middle fifth pays 10.6% of about $68,700 of taxable income, $7,290, which is 7.6% of its AGI. It stops paying about $11,700 in premiums and medical bills. (The poorest fifth's AGI is small because most of its income, such as Social Security and benefits, isn't taxed.)
-6. **Affordable at every income? Much closer, with the fix you asked for.**
+7. **Affordable at every income? Much closer, with the fix you asked for.**
    - **Before the fix,** about **30.7 million households in the bottom four fifths** (of about 121 million) paid more in cash than they saved, 12.4 million of them by more than 5% of their income. The hardest case was a $45,000 worker whose employer offered no coverage: **−$3,400 a year (−7.6%)**.
-   - **The fix** (part 2.7) has two parts. Employers that offered no coverage start slowly (item 7). And workers who had **no job coverage, no plan of their own and no Medicare in 2028** get back the employer contribution charged on their pay, as a refundable credit on their tax return. It is paid in full up to $60,000 of AGI ($120,000 for a couple) and phases out by $120,000 ($240,000). It is paid in full from 2035 to 2044, then a fifth less each year, with none from 2049.
+   - **The fix** (part 2.7) has two parts. Employers that offered no coverage start slowly (item 8). And workers who had **no job coverage, no plan of their own and no Medicare in 2028** get back the employer contribution charged on their pay, as a refundable credit on their tax return. It is paid in full up to $60,000 of AGI ($120,000 for a couple) and phases out by $120,000 ($240,000). It is paid in full from 2035 to 2044, then a fifth less each year, with none from 2049.
    - **After the fix:** **26.9 million** bottom-four households lose cash, and only **6.2 million** by more than 5%. In the bottom three fifths, those losing more than 5% fall from 6.9 million to under 0.8 million. The $45,000 worker is now **+$440 a year**, and covered.
    - **Who still loses:** mostly the fourth fifth (15.8 million households, 5.4 million by more than 5%). They are chiefly workers whose job coverage cost little next to their pay. A premium charges everyone the same; the plan charges by pay. A credit for every worker would reach them, but it would cost more than five times as much, and because everyone's rate would rise to pay for it, it would not cut the number losing more than 5% (part 4.3).
    - **What it costs:** about $150 billion in FY2040, **0.8 point on the household rate (9.8% to 10.6%)**.
    - **A correction:** the merged memo's count of 16.1 million losing more than 5% compared 2040 dollars with 2029 incomes. It is fixed here.
-7. **The employer contribution: mandatory, and built so it can't cut pay** (part 2.6).
+8. **The employer contribution: mandatory, and built so it can't cut pay** (part 2.6).
    - **Mandatory.** It is a tax, paid with payroll taxes on Form 941 and by the self-employed through SECA. There is no small-firm exemption and nothing to opt out of.
    - **A slower start for employers that offered no coverage in 2028:** a tenth of the rate in 2035, rising a tenth a year to the full rate in 2044. For a $45,000 worker each step is about $480, or 1.1% of pay. Pay normally grows faster than that, so pay never has to fall.
    - **Pay rates can't be cut.** Workers employed when their employer starts paying can't have their pay rate cut through 2044.
    - **Savings must reach pay.** Employers that pay less than their old premiums must pass the difference into pay for three years. Under a union contract, the members decide how: wages, pensions or other benefits.
-   - **What the law can't do:** set future raises. Over time most of a payroll cost lands on pay growth. That is why the credit in item 6 exists, and why yearly published pay counts trigger a review if pay falls behind.
-8. **The household base: taxable income.** As you suggested, the contribution is charged on the taxable income on your tax return, with no separate $20,000/$40,000 line. Charging it on AGI above that line instead would need 11.2% rather than 10.6%, and would leave 1.7 million fewer bottom-four households losing cash, because the standard deduction is a little below the line. The recommendation is to count only the standard deduction, not itemized deductions (part 9, question 5).
-9. **Your 5-6% household rate: what it costs.** It needs about $1 trillion a year from somewhere else.
+   - **What the law can't do:** set future raises. Over time most of a payroll cost lands on pay growth. That is why the credit in item 7 exists, and why yearly published pay counts trigger a review if pay falls behind.
+9. **The household base: taxable income.** As you suggested, the contribution is charged on the taxable income on your tax return, with no separate $20,000/$40,000 line. Charging it on AGI above that line instead would need 11.2% rather than 10.6%, and would leave 1.7 million fewer bottom-four households losing cash, because the standard deduction is a little below the line. The recommendation is to count only the standard deduction, not itemized deductions (part 9, question 5).
+10. **Your 5-6% household rate: what it costs.** It needs about $1 trillion a year from somewhere else.
    - **The top end is already used.** With the plan's other taxes, the top federal rate on wages is about 63% before health. A top tier big enough would push it to about 84%, where on the evidence it would raise little.
    - **The other routes:** a value-added tax of about 13% with a rebate (package B), or employers paying about 34% of pay in the band (package C).
    - **Both leave the bottom three fifths worse off than package A.**
-10. **Design changes worth considering (part 6):**
+11. **Design changes worth considering (part 6):**
     - book administration at 4% instead of 5%, with 3% as the target: about −$0.09 trillion;
     - a national health budget that holds growth to the economy's growth plus 1 point from 2037: about −$0.27 trillion in FY2040, more each year after.
     - With both, the household rate is about **8.8%**, and 20.8 million bottom-four households lose cash (3.5 million by more than 5%).
     - Recommended unchanged, with their price: the payment rate (1.15 times Medicare; each 0.05 is about $0.34 trillion) and the small copays (removing them costs about $0.25 trillion).
-11. **The transition years.** Each payer starts paying when its group moves into the plan. The household contribution starts at about **3% in 2031**, when children and the uninsured move. It reaches about **5% in 2034**, about **9% in 2035**, about **10% in 2036** and **10.6% by 2040**.
-12. **The rest of the plan.** With health paid for this way, the rest of the plan is about $70 billion short in FY2040 and about $1.9 trillion over FY2030-39 (part 10).
+12. **The transition years.** Each payer starts paying when its group moves into the plan. The household contribution starts at about **3% in 2031**, when children and the uninsured move. It reaches about **5% in 2034**, about **9% in 2035**, about **10% in 2036** and **10.6% by 2040**.
+13. **The rest of the plan.** With health paid for this way, the rest of the plan is about $70 billion short in FY2040 and about $1.9 trillion over FY2030-39 (part 10).
 
 ## Part 1. What the new system costs
 
@@ -131,6 +132,22 @@ How it is built: the booked health spending (corrected for the Medicare seam, 1.
   - **$1,281B over FY2030-39**.
 - **Timing.** Before 2035 the effect is small, because today's Medicare enrollees move only at the endpoint.
 - **Booking.** Every figure here uses the corrected cost. The booked rows change only in a later tier-3 booking PR (part 10). The uncorrected reading appears in part 5 as the cautious case.
+
+### 1.2b A second correction to make at booking: doctors are priced at the hospital rate
+
+- **What is wrong.** The decided design pays hospitals about 1.15 times Medicare after a glide (HLT-7.10). It pays physicians and other clinicians at Medicare's fee schedule, with primary-care and rural add-ons and no glide (HLT-7.12, memo 5 B). But the booking path (`dossiers/care/tools/health_path.py`, `groups()`) prices all non-hospital, non-drug claims at the hospital target of 1.15. That covers physicians and clinical services ($1,110B of national spending in 2024), and with them the other professional and home health services, which the model doesn't split out.
+- **The size,** on the same route as part 6's levers (the 2032 full-scale groups, scaled to FY2040; hospitals unchanged):
+
+  | Rate on physician and other non-hospital claims | FY2040 cost | Household rate |
+  | --- | --- | --- |
+  | **1.05: Medicare's fee schedule, plus the 10% add-ons on about half of spending (central)** | **−$275B** | **−1.4 points** |
+  | 1.00: Medicare's fee schedule only | −$413B | −2.1 points |
+  | 1.10 | −$138B | −0.7 point |
+
+  The other non-hospital services are taken at the same basis, because Medicare pays them on its own fee schedules.
+- **What it means.** The gross cost, the booked net cost and the household rate in this memo are all too high by about this much. At the central figure, package A's household rate would be about 9.2% rather than 10.6%. The households' gains would rise and the loser counts fall; they are not re-run here.
+- **What it does not change:** the hospital glide, the employer contribution (set by former premiums), the states' payment and the credit.
+- **Booking.** The coverage model and the booked rows are not changed in this PR. The fix goes in the booking PR (part 10), with the payroll point, and part 9 question 17 asks Espen to confirm it. If physician rates at Medicare's level look too low for access, that is design memo D3's question (the rate), not this one.
 
 ### 1.3 National health spending: today against the plan, every payer named
 
@@ -795,6 +812,7 @@ Each question is decided on its own; none is adopted by silence.
 14. **D3 and D4:** keep the 1.15 payment rate and the small copays (recommended)?
 15. **The Medicare seam:** rebook HLT-7 on CBO's Medicare figure in the booking PR: −$0.30T in FY2040, −$1.28T over FY2030-39 (recommended)?
 16. **Counting and the fund:** count health's contributions outside D3's revenue-mix test, as replacements for premiums, and pay them into the plan's fund, with the general fund covering any shortfall (recommended)? The credit would be paid from the same fund, as a refund of the contribution.
+17. **The physician rate correction (part 1.2b):** at booking, price physician and other non-hospital claims at Medicare's fee schedule plus the add-ons, as the decided design says, instead of the hospital target: about −$0.28T in FY2040 and about 1.4 points off the household rate (recommended)?
 
 **For stage G** (no answer needed now):
 - the top-rate stack across flagships (SS-1, H1b, the booked income points);
@@ -826,6 +844,7 @@ Each question is decided on its own; none is adopted by silence.
     - item 1 (one more point above $100,000/$200,000) would now stack on a top rate of about 73.6%, so on the stacking check it would raise less than its $67B.
 - **A booking PR (tier 3), after Espen answers,** would:
   - rebase HLT-7 on CBO's Medicare figure;
+  - price physician and other non-hospital claims at the decided rate (part 1.2b), with the coverage model's own single-payer run;
   - book the employer contribution's row, net of the tax it displaces;
   - book the states' share (HLT-7.17);
   - book the household contribution's rows and path, and `scenarios.json`;
@@ -836,7 +855,7 @@ Each question is decided on its own; none is adopted by silence.
 
 ## Method and sources
 
-- **Code:** `models/tools/health_financing.py`: `coverage`, `seam`, `need_path`, `replaced_path`, `system_view`, `payers`, `payer_path`, `flow_path`, `package`, `package_path`, `micro`, `stacking_check`, `design_levers`, `growth_hold`, `examples`; for the fix and the employer protections, `no_offer`, `phase_left`, `credit_key`, `line_variant`, `employer_split`, `pay_holds_check`, `savings_kept_check`. Tests: `models/tools/test_health_financing.py`.
+- **Code:** `models/tools/health_financing.py`: `coverage`, `seam`, `physician_rate`, `need_path`, `replaced_path`, `system_view`, `payers`, `payer_path`, `flow_path`, `package`, `package_path`, `micro`, `stacking_check`, `design_levers`, `growth_hold`, `examples`; for the fix and the employer protections, `no_offer`, `phase_left`, `credit_key`, `line_variant`, `employer_split`, `pay_holds_check`, `savings_kept_check`. Tests: `models/tools/test_health_financing.py`.
 - **What the code reads** (it changes none of them): the coverage model; the care path (`dossiers/care/tools/health_path.py`); the booking (`health_booking.py`); the budget model's audit and paths; the household model's 2029 CPS households.
 - **Evidence:**
   - CBO's Medicare baseline [EV-CAR-718];

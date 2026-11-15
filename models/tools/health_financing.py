@@ -821,6 +821,23 @@ def design_levers(c, g40):
     return out
 
 
+def physician_rate(c, g40, rates=(1.0, 1.05, 1.10)):
+    """The correction to make at booking (memo part 1.2b): the booking path (`health_path.groups()`) prices all
+    non-hospital, non-drug claims at the hospital target (TARGET, 1.15), while the decided design pays physicians and
+    other clinicians at Medicare's fee schedule with add-ons (HLT-7.12). The FY2040 effect on cost of pricing those
+    claims at each rate instead, hospitals unchanged, on the 2032 full-scale groups scaled by g40 ($ billion)."""
+    HP, I, B, P = c["HP"], c["I"], c["B"], c["P"]
+    base = sum(HP.groups(I, B, P)[0].values())
+    t0, out = HP.TARGET, {}
+    try:
+        for ph in rates:
+            HP.TARGET = ph
+            out[ph] = (sum(HP.groups(I, B, P, hosp_rate=t0)[0].values()) - base) * g40
+    finally:
+        HP.TARGET = t0
+    return out
+
+
 def growth_hold(ctx, extra=0.01, start=2037):
     """A national health budget that holds the plan's spending growth to nominal GDP growth plus `extra` from `start`
     (memo part 6): the FY2040 saving on the gross cost, against the model's growth path ($ billion)."""
@@ -1314,6 +1331,7 @@ def run():
     holds = pay_holds_check(ctx, P["A"])
     kept = savings_kept_check(ctx, P["A"])
     levers = design_levers(c, g40)
+    phys = physician_rate(c, g40)
     gh = {e: growth_hold(ctx, e) for e in (0.0, 0.01)}
     # the design memos' recommendations (memo part 6): administration booked at 4% (target 3%) and a national budget
     # holding growth to GDP plus 1 point from 2037; both lower the need, closed by the household rate
@@ -1364,7 +1382,7 @@ def run():
                 growth_hold=gh, band_share=band_share(), replaced_path=ctx["replaced_p"], g40=g40, pp_person=ctx["pp_person"],
                 before_financing=per_household(relief_rows(ctx["f40"]), K, hh),
                 no_offer={k: v for k, v in no_offer().items() if k != "drawn"}, price_2040=ctx["price_2040"],
-                taxable_ratio=taxable_ratio(),
+                taxable_ratio=taxable_ratio(), physician_rate=phys,
                 phase_left={y: phase_left(y) for y in YEARS}, line_30k_rate=r30, employer_split=split,
                 pay_holds=dict(holds, micro={k: v for k, v in holds["micro"].items() if k != "_net"}),
                 savings_kept=dict(kept, micro={k: v for k, v in kept["micro"].items() if k != "_net"}))

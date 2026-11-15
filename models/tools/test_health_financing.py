@@ -167,6 +167,14 @@ class HealthFinancing(unittest.TestCase):
         self.assertGreater(k["first"], a["first"])
         self.assertGreater(k["micro"]["bottom_four_losers_m"], self.r["micro"]["A"]["bottom_four_losers_m"])
 
+    def test_physician_rate_correction(self):
+        """Memo part 1.2b: physician and other non-hospital claims at the decided rate lower FY2040's cost."""
+        ph = self.r["physician_rate"]
+        self.assertAlmostEqual(ph[1.05], -275, delta=5)
+        self.assertLess(ph[1.0], ph[1.05])
+        self.assertLess(ph[1.05], ph[1.10])
+        self.assertLess(ph[1.10], 0)
+
     def test_keys_sum_to_100(self):
         for k, (sh, _) in self.r["keys"].items():
             self.assertAlmostEqual(sum(sh), 100, delta=1e-6, msg=k)
