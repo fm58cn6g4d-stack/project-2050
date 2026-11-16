@@ -1,6 +1,6 @@
 {
  "archive_sha256": "fe819d0d2fc4470c282e76c247b8aa8b6054811619730307e9f2fe6186707d93",
- "ledger_sha256": "0d6094ffc83248d13daea6ea4e60d10d34888e57ec4b412eab414b96c9d6e637",
+ "ledger_sha256": "8102f3f9a94a880bc7889b4de21e525906096576ba2f5e1ea7bcdb240dc75480",
  "max_base_weight_difference": 0.005,
  "method": "successive difference replication, 160 replicates: SE = sqrt(4/160 x sum (est_r - est_0)^2); 90% interval = estimate +/- 1.645 SE; sampling error only",
  "metrics": {
@@ -150,52 +150,52 @@
     "value": -630830.0
    },
    "Q-H7_net_Q1": {
-    "half90": 157.4738,
-    "hi90": 15389.4738,
-    "lo90": 15074.5262,
-    "replicate_base": 15232.0,
-    "se": 95.7288,
-    "value": 15232.0
+    "half90": 152.5031,
+    "hi90": 14843.5031,
+    "lo90": 14538.4969,
+    "replicate_base": 14691.0,
+    "se": 92.7071,
+    "value": 14691.0
    },
    "Q-H7_net_Q2": {
-    "half90": 211.7596,
-    "hi90": 15828.7596,
-    "lo90": 15405.2404,
-    "replicate_base": 15617.0,
-    "se": 128.7293,
-    "value": 15617.0
+    "half90": 199.0413,
+    "hi90": 13492.0413,
+    "lo90": 13093.9587,
+    "replicate_base": 13293.0,
+    "se": 120.9977,
+    "value": 13293.0
    },
    "Q-H7_net_Q3": {
-    "half90": 217.6611,
-    "hi90": 18396.6611,
-    "lo90": 17961.3389,
-    "replicate_base": 18179.0,
-    "se": 132.3168,
-    "value": 18179.0
+    "half90": 195.1722,
+    "hi90": 12770.1722,
+    "lo90": 12379.8278,
+    "replicate_base": 12575.0,
+    "se": 118.6457,
+    "value": 12575.0
    },
    "Q-H7_net_Q4": {
-    "half90": 208.5411,
-    "hi90": 18750.5411,
-    "lo90": 18333.4589,
-    "replicate_base": 18542.0,
-    "se": 126.7727,
-    "value": 18542.0
+    "half90": 180.3441,
+    "hi90": 8310.3441,
+    "lo90": 7949.6559,
+    "replicate_base": 8130.0,
+    "se": 109.6317,
+    "value": 8130.0
    },
    "Q-H7_net_Q5": {
-    "half90": 237.093,
-    "hi90": -26619.907,
-    "lo90": -27094.093,
-    "replicate_base": -26857.0,
-    "se": 144.1295,
-    "value": -26857.0
+    "half90": 372.6263,
+    "hi90": -56088.3737,
+    "lo90": -56833.6263,
+    "replicate_base": -56461.0,
+    "se": 226.5205,
+    "value": -56461.0
    },
    "Q-H7_net_T1": {
-    "half90": 3550.443,
-    "hi90": -617635.557,
-    "lo90": -624736.443,
-    "replicate_base": -621186.0,
-    "se": 2158.324,
-    "value": -621186.0
+    "half90": 4903.1838,
+    "hi90": -862446.8162,
+    "lo90": -872253.1838,
+    "replicate_base": -867350.0,
+    "se": 2980.6588,
+    "value": -867350.0
    },
    "Q-SAF_net_Q1": {
     "half90": 103.0008,
@@ -649,7 +649,7 @@
    }
   }
  },
- "model_commit": "e561ca5",
+ "model_commit": "e02a317",
  "persons_joined": 134729,
  "replicate_member": "asec_csv_repwgt_2026.csv",
  "run_date": "2026-11-16",
