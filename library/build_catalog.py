@@ -214,16 +214,35 @@ def catalog_rows():
     return copies(rows)
 
 
+def is_shallow():
+    """True in a shallow clone, where the history is cut off and git dates would come out wrong."""
+    out = subprocess.run(['git', 'rev-parse', '--is-shallow-repository'], cwd=ROOT, capture_output=True, text=True)
+    return out.returncode == 0 and out.stdout.strip() == 'true'
+
+
 def facts(rows):
     out = []
+    shallow = is_shallow()
+    old = {r['id']: r for r in load(FACTS, FACT_COLUMNS)} if shallow else {}
+    kept = []
     for r in rows:
         p = ROOT / r['path']
         if not p.exists():
             continue
         data = p.read_bytes()
-        first, last = git_dates(r['path'])
+        prev = old.get(r['id'])
+        if shallow and prev and prev['path'] == r['path']:
+            # a shallow clone's history is cut off, so its dates would differ with the depth: keep the recorded ones
+            first, last = prev['first_commit'], prev['last_content_commit']
+            kept.append(r['id'])
+        else:
+            first, last = git_dates(r['path'])
         out.append({'id': r['id'], 'path': r['path'], 'bytes': len(data), 'sha256': hashlib.sha256(data).hexdigest(),
                     'first_commit': first, 'last_content_commit': last})
+    if shallow:
+        print(f'note: this is a shallow clone, so catalog-facts.csv keeps its recorded Git dates for {len(kept)} rows '
+              '(only bytes and SHA-256 are refreshed); a row new to the file gets dates from the cut-off history. '
+              'Run "git fetch --unshallow" first to recompute the dates.', file=sys.stderr)
     return out
 
 

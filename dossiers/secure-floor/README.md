@@ -69,8 +69,8 @@ Decided programs are cited by their `DEC-` entries. Programs in dossiers not yet
 
 | Section | File | Status |
 | --- | --- | --- |
-| 1. The problem | `1-problem.md`: child poverty and who the current credit misses; income support's holes; paid leave access; Social Security's depletion date and what happens then; the stacked phase-outs; the January 2029 baseline | Draft (S2) |
-| 2. What works | `2-what-works.md`: the 2021 expanded credit (poverty and the contested employment evidence), Canada's child benefit, cash trials, the earned income credit literature; state paid leave programs and the research; Social Security's anti-poverty record, minimum benefits, caregiver credits, solvency packages; coordinating phase-outs at home and abroad; each against the bills | Draft (S2) |
+| 1. The problem | `1-problem.md`: child poverty and who the current credit misses; income support's holes; paid leave access; Social Security's depletion date and what happens then; the stacked phase-outs; the January 2029 baseline | Reviewed at L3 (milestone review #298, fixes #301; L3 re-check with the booking, #304) |
+| 2. What works | `2-what-works.md`: the 2021 expanded credit (poverty and the contested employment evidence), Canada's child benefit, cash trials, the earned income credit literature; state paid leave programs and the research; Social Security's anti-poverty record, minimum benefits, caregiver credits, solvency packages; coordinating phase-outs at home and abroad; each against the bills | Reviewed at L3 (milestone review #298, fixes #301; L3 re-check with the booking, #304) |
 | 3. Design choices | `3-design.md` and `memos/` (seven memos and twelve yes-or-no points, index in `memos/README.md`) | Decided (`DEC-2026-11-12-06`) |
 | 4. Specification | `4-specification.md`, with `provisions.json` (FAM-1.01-1.11, INC-1 to INC-5, LAB-10.01-10.05, FAM-3.01-3.08, SS-1.01-SS-11.01) | Reviewed at L3, booked |
 | 5. Delivery | `5-delivery.md` | Reviewed at L3, booked |
