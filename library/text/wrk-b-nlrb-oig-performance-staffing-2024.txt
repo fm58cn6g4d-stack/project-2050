@@ -1,0 +1,2784 @@
+Source: https://www.oversight.gov/sites/default/files/documents/reports/2024-03/Final-Report-Performance-Based-Staffing-OIG-AMR-102-24-02.pdf
+Publisher: National Labor Relations Board Office of Inspector General
+Retrieved: 2026-11-16
+Original SHA-256: 2cb2bd4df9e276a2b6cebadbb5658735cce1f6dc354654529f06421e7e9fc4d3
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+UNITED STATES GOVERNMENT
+National Labor Relations Board
+Office of Inspector General
+
+Performance Based Staffing
+
+Report No. OIG-AMR-102-24-02
+
+March 22, 2024
+
+CONTENTS
+EXECUTIVE SUMMARY .............................................................................................. 1
+BACKGROUND ............................................................................................................ 2
+OBJECTIVE, SCOPE, AND METHODOLOGY ..............................................................2
+FINDINGS SUMMARY ................................................................................................. 5
+ALLOCATION OF FULL-TIME EQUIVALENTS ............................................................ 5
+Calculation of Field Staffing Needs........................................................................ 5
+Adjustments for COVID-19 Period ......................................................................... 7
+Compliance with Governmentwide Requirements ................................................9
+Management Comments ....................................................................................... 11
+Office of Inspector General Response .................................................................... 11
+LEVEL FUNDING FY 2014 TO FY 2022 ................................................................... 12
+Payroll and Expense as Compared to FTEs ......................................................... 13
+Management Comments ....................................................................................... 15
+Office of Inspector General Response .................................................................... 15
+Regional Case Intake and FTEs ........................................................................... 15
+Regional Payroll and Benefits and Cases Intake ................................................. 17
+Trends in Case Processing.................................................................................... 18
+Initial Charge Dispositions.................................................................................... 18
+Post-Complaint Actions ......................................................................................... 20
+R Case Processing................................................................................................ 21
+Non-Case Processing Trend Considerations ........................................................ 24
+Effect of Level Funding on Field Office Staffing and Case Work ........................ 26
+INTERNAL CONTROLS ............................................................................................. 26
+RECOMMENDATIONS .............................................................................................. 27
+APPENDICES
+APPENDIX A – Internal Control Matrix
+APPENDIX B – Management Comments
+Memorandum from the Associate General Counsel, Division of
+Operations-Management, OIG Report No. OIG-AMR-102-XX-XX, signed
+March 18, 2024
+
+EXECUTIVE SUMMARY
+The National Labor Relations Board’s annual appropriation remained
+unchanged for Fiscal Years (FY) 2014 through FY 2022. During that time
+period, the percentage of the appropriation used for personnel costs increased
+from approximately 76 percent to 79 percent. Also during that time, both the
+Field staffing level, as measured by full-time equivalents (FTE), and case intake
+decreased.
+The objectives of this audit were to determine whether Field Office FTEs are
+assigned or allocated in accordance with Governmentwide guidance to ensure
+that the Agency meets its goals and objectives; evaluate the effect of the level
+funding appropriation on the Field Office staffing and the processing of Field
+Office case work; and evaluate the internal controls over the calculation of Field
+Office staffing.
+We determined that the methodology used by the Division of OperationsManagement to assign or allocate Field Office FTEs does not meet
+Governmentwide guidance. We also determined that the process to assign or
+allocate Field Office FTEs lacks an appropriate system of internal controls. As
+a result, the Agency is at risk of not allocating FTEs to the Field Offices in a
+manner that would ensure that it meets its goals and objectives. We also
+determined that the effect of the level appropriation over 9 fiscal years from FY
+2014 to FY 2022 was that the Field Office FTEs declined; and, despite a decline
+in case intake, the time to issue complaints from the filing of a charge
+increased. We made four recommendations for corrective action.
+The Management Comments noted agreement with information in the draft
+report generally related to the appropriation, staffing, case intake, and the
+impact of limited budgetary resources. Management also provided information
+that it determined was relevant for context. Based on the Management
+Comments, we reached agreement on Recommendations 1, 3, and 4. The
+Management Comments are included with the report as Appendix B and noted
+at appropriate places in the body of the report.
+
+BACKGROUND
+The National Labor Relations Board (NLRB or Agency) was
+established in 1935 to administer the National Labor
+Relations Act. The NLRB has two primary functions: (1) to
+investigate and resolve (through settlement, prosecution, or
+dismissal) allegations of unfair labor practices by employers
+and unions (C cases); and (2) to investigate and resolve
+questions concerning representation among employees to
+determine whether the employees wish to be represented by
+a union (R cases).
+All NLRB proceedings originate with the filing of a charge or
+petition by an employee, labor union, employer, or other
+private party at a Field Office in one of the 26 Regions.
+Using the case intake data, the Division of OperationsManagement performs an analysis of Regional staffing and
+determines the appropriate staffing level for each Region.
+That analysis is then considered by the Agency when making
+budget formulations and hiring decisions.
+The Agency’s annual appropriation remained unchanged for
+Fiscal Years (FY) 2014 through FY 2022. During that time
+period, the percentage of the appropriation used for
+personnel costs increased from approximately 76 percent to
+79 percent. Also during that time, the NLRB staffing level,
+as measured by full-time equivalents (FTE), and case intake
+decreased.
+This audit reviewed the process that the Division of
+Operations-Management uses to determine Regional staffing
+levels and what, if any, was the impact of a level
+appropriation for 9 fiscal years.
+OBJECTIVE, SCOPE, AND METHODOLOGY
+The objective of this audit was to:
+•
+
+Determine whether Field Office FTEs are assigned or
+allocated in accordance with Governmentwide
+guidance to ensure that the Agency meets its goals
+and objectives;
+
+2
+
+•
+
+Evaluate the effect of the level funding appropriation
+on the Field Office staffing and the processing of Field
+Office case work; and
+
+•
+
+Evaluate the internal controls over the Agency’s
+calculation of Field Office staffing.
+
+The scope of this audit was:
+•
+
+To determine whether Field Office FTEs are assigned
+or allocated in accordance with Governmentwide
+guidance to ensure that the Agency meets its goals
+and objectives and evaluate the internal controls, the
+scope is the Field Office staffing calculation for FY
+2022; and
+
+•
+
+To evaluate the effect of the level funding appropriation
+on the Field Office staffing and the processing of Field
+Office case work, the scope is appropriated funding
+levels; Field Office FTE levels and case work; and
+Agency expenses for FY 2014 through FY 2022.
+
+We reviewed laws and Governmentwide policies related to
+the expenditure of appropriated funds and the budgeting
+process. From the Division of Operations-Management, we
+obtained the guidance documentation related to Regional
+FTE calculations, Regional FTE calculation spreadsheets,
+and correspondence related to the Regional FTE calculation.
+We also interviewed staff in the Division of OperationsManagement to learn about the Regional FTE calculation
+process. We recalculated the Regional FTEs. We compared
+the Division of Operations-Management’s FTE information to
+the data from the Agency’s payroll system. We also
+compared the Agency’s FTE calculation methodology to the
+Office of Management and Budget (OMB) guidance.
+We obtained the FY 2014 through FY 2022 appropriation
+data and calculated the real value of the appropriations for
+the scope period.
+We reviewed NxGen Case Management System (NxGen)
+reports to determine which data fields would be used to
+determine case processing trends. We obtained, from the
+Office of Chief Information Officer, an extract of NxGen data
+for the scope period. We determined whether the data in the
+
+3
+
+NxGen data fields related to case processing trends was
+accurate. To do so, we used a generally accepted sampling
+criteria to achieve a 90 percent confidence level. The 90
+percent confidence level is consistent with U.S. Government
+Accountability Office (GAO) guidance and our expected
+deviation rate. We also conducted tests to determine if the
+NxGen data was complete.
+To determine the effect of level funding during the scope
+period we analyzed Regional Office case workload and
+trends. For C cases, we analyzed trends in charge
+dispositions, post-complaint actions, and C case hearing
+sessions opened. For R cases, we analyzed the trends in
+cases with elections held and disposed of by issuing
+certification and R case hearing sessions opened.
+We also obtained a list of employees from the Office of
+Human Resources and the payroll and benefit expenses from
+the Agency’s financial system. We computed the FTEs by
+compiling a list of employees with payroll and position data.
+Because Regional Compliance personnel were reassigned to
+the Division of Operations-Management for pay period
+202013 through pay period 202208 as a Centralized
+Compliance Unit, for the Regional FTE calculations, we
+assigned those hours to the Region in which the employees
+were actually working. We also compared the payroll and
+benefit expenses between the Regional employees and the
+Agency to identify the trends.
+We interviewed Regional personnel to learn about the impact
+of the staffing decisions on Regional staff and case
+processing. We also obtained and reviewed the guidance
+issued by the Agency related to restricting spending during
+the scope period. We reviewed documentation related to the
+Agency’s use of the Voluntary Early Retirement Authority
+(VERA) and Voluntary Separation Incentive Payment (VSIP)
+programs. We also reviewed data reported in the Agency’s
+Federal Employee Viewpoint Surveys (FEVS).
+We reviewed the GAO’s Standards for Internal Control in the
+Federal Government, dated September 2014, to identify the
+relevant internal control standards related to the audit
+objectives. We then evaluated the FTE calculation process
+and procedures to determine whether they met the GAO’s
+internal control standards.
+
+4
+
+We conducted this performance audit in accordance with
+generally accepted government auditing standards during
+the period from October 14, 2022 through March 04, 2024.
+Those standards require that we plan and perform the audit
+to obtain sufficient, appropriate evidence to provide a
+reasonable basis for our findings and conclusions based on
+our audit objectives. We believe that the evidence obtained
+provides a reasonable basis for our findings and conclusions
+based on our audit objectives.
+FINDINGS SUMMARY
+We determined that the methodology used by the Division of
+Operations-Management to assign or allocate Field Office
+FTEs does not meet Governmentwide guidance. We also
+determined that the process to assign or allocate Field Office
+FTEs lacks an appropriate system of internal controls. As a
+result, the Agency is at risk of not allocating FTEs to the
+Field Offices in a manner that would ensure that it meets its
+goals and objectives.
+We also determined that the effect of the level appropriation
+over 9 fiscal years from FY 2014 to FY 2022 was that the
+Field Office FTEs declined; and, despite a decline in case
+intake, the time to issue complaints from the filing of a
+charge increased.
+ALLOCATION OF FULL-TIME EQUIVALENTS
+Calculation of Field Staffing Needs
+For purposes of budgeting and staff calculations, the
+Government uses what is known as FTE employment rather
+than employees. An FTE employment means the total
+number of regular straight-time hours worked by employees,
+not including overtime or holidays hours worked, divided by
+the number of compensable hours in the applicable year.
+The latest Regional staffing charts for the scope period was
+dated July 25, 2022, and was through June 30, 2022. The
+Division of Operations-Management used a multi-tab
+spreadsheet to calculate the Regional staffing needs based
+on what was described as a rolling average 3-year case
+
+5
+
+intake that is calculated with data taken from NxGen
+reports. The analysis does not differentiate between C and R
+cases. The calculated staffing levels were then compared to
+the actual staffing levels, as determined by the Division of
+Operations-Management, to make Regional staffing decisions
+and budget requests.
+To determine staffing needs, the spreadsheet used formulas
+to calculate the staffing as follows:
+•
+
+1 Board Agent per 45 cases of rolling average intake,
+plus 1 Board Agent per Region for compliance;
+
+•
+
+1 supervisor for every 5 Board Agents;
+
+•
+
+2 Managers, 2 non-unit Administrative Professionals,
+and 1 Regional Director per Region; and
+
+•
+
+1 Unit Administrative Professional for every 5
+professionals (Board Agents, Supervisors, and
+Managers) and 1 additional Unit Administrative
+Professional for compliance.
+
+We reviewed the spreadsheet and generally found that the
+formulas were used to implement the stated methodology;
+however, we found that three Regions had formula errors:
+•
+
+Region 14 – the calculation for FY 2018 case intake
+was the same formula as used for Region 18 and
+therefore referenced the wrong data cells;
+
+•
+
+Region 16 – the calculation for determining FY 2018
+case intake used the FY 2022 case intake data
+resulting in an overstatement. Additionally, R cases
+were not included; and
+
+•
+
+Region 27 – the calculation for FY 2021 fourth quarter
+case intake used R case intake from Region 21.
+
+The impact of the formula errors is shown in the table below:
+Region
+14
+16
+27
+
+Calculated 3-Year
+Average Cases
+665.33
+968.67
+447.33
+
+Corrected 3-Year
+Average Cases
+679.67
+884.67
+443.33
+
+6
+
+Difference
+14.33
+-84.00
+-4.00
+
+For Regions 14 and 27, the differences in Regions’ FTE
+between the original Division of Operations-Management
+calculation and the corrected calculation was less than ±0.5
+Professional FTE and ±0.1 Administrative FTE. For Region
+16, the correction resulted in a decrease of 1.83 Board
+Agents FTEs, which would have also resulted in a decrease
+of 0.37 supervisors and 0.44 Unit administrative FTEs. It is
+likely that the errors occurred because the formulas were
+manually copied from one cell to another.
+We also compared the Division of Operations-Management’s
+current Field Office staffing calculation as of June 30, 2022,
+to an FTE calculation based on payroll data from the Office
+of Human Resources. As a result of that comparison, we
+found differences that are likely errors:
+
+Region
+2
+5
+10
+12
+18
+19
+20
+29
+32
+
+Position Type
+Board Agents
+Supervisors
+Board Agents
+Board Agents
+Board Agents
+Board Agents
+Board Agents
+Supervisors
+Board Agents
+
+Division of
+OperationsManagement Data
+17.05
+4
+27
+21.0
+15
+19.8
+15.8
+3.6
+12.3
+
+Payroll
+Data
+19.50
+2
+25
+23.4
+16.6
+17.3
+17.0
+5.0
+10.0
+
+Difference
+(2.45)
+2
+2
+(2.4)
+(1.6)
+2.5
+(1.2)
+(1.4)
+2.3
+
+The differences are likely the result of the Division of
+Operations-Management manually collecting and
+maintaining the data rather than using the Agency’s
+automated payroll data system. Given the internal controls
+involved in the payroll process, we would expect the payroll
+data to be a more accurate source of staffing.
+Adjustments for COVID-19 Period
+To consider the effect of the COVID-19 pandemic case
+intake, the Division of Operations-Management
+recommended that the Agency “continue to use a rolling
+three-year average but account for the known anomaly of a
+sustained drop in filing attendant to the COVID-19
+pandemic.” To determine the period, the Division of
+Operation-Management evaluated the COVID-19 infections
+rates, monthly Gross Domestic Product, and the initial
+claims for unemployment. The Agency then made a
+7
+
+determination to remove the five quarters from April 1, 2020
+to June 30, 2021, from the Field Office staffing analysis and
+replace them with earlier quarters, resulting in the following
+time periods being used to calculate a 36-month rolling
+average:
+As of June 30,
+2022 calculation
+
+April 1, 2018 – March 31, 2020 (24 months)
+July 1, 2021 – June 30, 2022 (12 months)
+
+Below is the quarterly case intake for the periods April 1,
+2018 to June 30, 2022, with the COVID-19 pandemic period
+highlighted and bolded and the five quarters added to the
+Field Office staffing calculation just highlighted.
+Dates
+
+Quarter
+
+4/1/2018 - 6/30/2018
+7/1/2018 – 9/30/2018
+10/1/2018 – 12/31/2018
+1/1/2019 – 3/31/2019
+4/1/2019 – 6/30/2019
+7/1/2019 – 9/30/2019
+10/1/2019 – 12/31/2019
+1/1/2020 – 3/31/2020
+4/1/2020 – 6/30/2020
+7/1/2020 – 9/30/2020
+10/1/2020 – 12/31/2020
+1/1/2021 – 3/31/2021
+4/1/2021 – 6/30/2021
+7/1/2021 – 9/30/2021
+10/1/2021 – 12/31/2021
+1/1/2022 – 3/31/2022
+4/1/2022 – 6/30/2022
+
+FY 18 Q3
+FY 18 Q4
+FY 19 Q1
+FY 19 Q2
+FY 19 Q3
+FY 19 Q4
+FY 20 Q1
+FY 20 Q2
+FY 20 Q3
+FY 20 Q4
+FY 21 Q1
+FY 21 Q2
+FY 21 Q3
+FY 21 Q4
+FY 22 Q1
+FY 22 Q2
+FY 22 Q3
+
+Intake
+5,443
+5,215
+5,037
+5,234
+5,404
+4,966
+4,781
+4,594
+3,805
+4,452
+3,920
+4,083
+4,276
+4,441
+4,489
+4,960
+5,262
+
+Change from
+Prior Quarter
+4.61%
+-4.19%
+-3.41%
+3.91%
+3.25%
+-8.11%
+-3.73%
+-3.91%
+-17.17%
+17.00%
+-11.95%
+4.16%
+4.73%
+3.86%
+1.08%
+10.49%
+6.09%
+
+Adjusting for the COVID-19 pandemic period was not an
+unreasonable management decision and was in accordance
+with OMB’s Circular A-11 guidance that the Agency should
+make reasonable assumptions with regard to workload. The
+methodology used, however, was not grounded in a proper
+analysis.
+The average case intake during the COVID-19 pandemic
+period was 4,107, the replacement case intake average
+quarterly intake was 5,267, and the three quarters prior to
+the pandemic period were showing a decline in cases. Given
+those circumstances, projecting an average case intake
+increase for five quarters on the magnitude of 14.6 percent
+8
+
+over the quarter immediately prior to the pandemic was
+questionable. Although it is not possible to determine what
+would have occurred but for the pandemic, a more detailed
+and documented analysis of the likely case intake trends
+should have been undertaken to ensure greater precision in
+determining the allocation of resources.
+Compliance with Governmentwide Requirements
+The Agency’s methodology for determining Field Office
+staffing was described in a document entitled “FAQs About
+the Staffing Chart.” The document was not dated. Because
+the document references the first five quarters of the COVID19 pandemic, we determined that the March 2021 version of
+OMB’s Circular A-11 applied.
+The Agency’s document did not meet the seven requirements
+of the Circular A-11 criteria.
+•
+
+Base estimates for staffing requirements on the
+assumption that improvements in skills, organization,
+procedures, and supervision will produce a steady
+increase in productivity. Personnel should be
+reassigned, to the maximum extent, to meet new
+program requirements.
+o The 45 cases per Board Agent standard did not
+include assumptions that improvements in
+skills, organization, procedures, or supervision
+would produce steady increases in productivity
+or explain why such assumptions were not
+applicable.
+
+•
+
+Use personnel currently funded to the maximum
+extent in staffing new programs and expansions of
+existing programs.
+o Because the NLRB’s jurisdiction is based on a
+statute, the NLRB is unlikely to have new
+programs. Increases in intake of C and R cases,
+however, would represent an expansion in
+program operations. The methodology assumes
+that increases in case intake requires additional
+personnel.
+
+9
+
+•
+
+Reductions generally should be planned where the
+workload is stable.
+o The case load standard does not provide for
+reductions in staffing for a stable workload, nor
+does it explain why such assumptions are not
+applicable.
+
+•
+
+Where appropriate, use calculations converting
+workload to required personnel that include an
+estimate of available workhours per employee,
+excluding annual leave, sick leave, administrative
+leave, training, and other non-work time from these
+calculations. Base exclusions for annual and sick
+leave on current experience of actual leave taken
+rather than leave earned.
+o The calculation is not based on available
+workhours per employee.
+
+•
+
+Base estimates of available time on current data,
+reflect steps taken to improve the ratio of available
+time to total time, and recognize differences in
+available time by organization, location, or activity.
+o The calculation is not based on available
+workhours per employee.
+
+•
+
+Employment levels should reflect budget proposals
+and assumptions with regard to workload, efficiency,
+proposed legislation, interagency reimbursable
+arrangements, and other special staffing methods.
+o The employment level calculation reflects
+assumptions about Field Office workload. The
+calculation does not reflect assumptions of
+efficiency, as the methodology assumes a Board
+Agent processes the same number of cases in a
+year, does not consider special staffing needs,
+and does not differentiate between difficult cases
+and easier cases.
+
+•
+
+Base estimates of personnel resources on the total
+number of regularly scheduled straight-time hours
+(worked or to be worked) in the fiscal year.
+
+10
+
+o The calculation methodologies for proposed and
+current staffing are based on the number of
+cases received rather than regularly scheduled
+straight-time hours.
+We confirmed with the Office of the Chief Financial Officer
+that the Division of Operations-Management provides the
+number of needed positions to the Budget Branch. The
+Budget Branch then formulates the budget request based on
+Agency priorities and the information provided by the
+program offices. Because the Budget Branch relies on the
+Division of Operations-Management for the staffing analysis,
+it should meet OMB’s Circular A-11 requirements.
+Management Comments
+Management Comments state that the Division of
+Operations-Management concluded, based on years of
+experience, that 45 cases per full-time Board Agent,
+excluding Compliance Officer, was the most effective and
+efficient way to determine the number of staff needed for
+each Region. The comments also described a method for
+calculating FTEs that does not included counting employees’
+time in a paid leave status, and notes that he Agency’s
+payroll records may not reflect employees on paid and
+unpaid leave or temporally reassigned.
+Office of Inspector General Response
+Our report does not question the appropriateness of a 45
+case per Board Agent standard. The finding relates our
+review of documentation provided by management and the
+lack of documentation of how the Agency determined 45 case
+was an appropriate standard within the framework of OMB’s
+Circular A-11 requirements. The methodology described in
+the Management Comments for calculating FTEs is incorrect
+in that OMB’s guidance states that the FTE calculation
+includes annual leave, sick leave, compensatory time office
+and other approved absences. Also, the Agency’s financial
+system has the detail information necessary to accurately
+calculate FTEs.
+
+11
+
+LEVEL FUNDING FY 2014 TO FY 2022
+For the period beginning FY 2014 through FY 2022, the
+NLRB received an appropriation for each fiscal year in the
+amount of $274,224,000.
+To understand the value of an amount of funding over time,
+the general practice is to deflate the amount using the
+Consumer Price Index. We deflated the appropriation
+calculated using the Consumer Price Index. The FY 2022
+appropriation value, in 2014 real terms dollars, was $234.1
+million, resulting in a difference from the appropriation
+amount of $40.1 million:
+Appropriation
+$280,000,000
+
+Appropriation ($)
+
+$270,000,000
+$260,000,000
+$250,000,000
+$240,000,000
+$230,000,000
+$220,000,000
+$210,000,000
+$200,000,000
+
+FY2014 FY2015 FY2016 FY2017 FY2018 FY2019 FY2020 FY2021 FY2022
+Appropriation Amount
+
+Real Value - Deflated
+
+The amount of funding necessary, in FY 2022, to maintain
+the same level of spending adjusted for inflation would be
+$321.2 million, or approximately $47 million in increase
+funding.
+Based on this analysis, although the amount of the annual
+appropriation was consistent of the 9-year period, the value
+of the appropriation declined. As a result, the Agency would
+have to adjust its expenditures to avoid an Anti-deficiency
+Act violation to continue to operate through the period
+authorized by the appropriation.
+
+12
+
+Payroll and Expense as Compared to FTEs
+As shown in the chart below, the payroll and benefits are the
+primary Agency expenditure. Overall, during the 9-year
+period, the percentage of the Agency’s obligations for payroll
+and benefits expenses increased from 75.58 percent to
+78.81:
+Trends in Appropriation & Payroll and Benefits Expenses FY2014 - FY2022
+$300,000,000
+$250,000,000
+$200,000,000
+
+$274,224,000
+
+$274,224,000
+
+$207,259,387
+
+$218,142,903
+
+FY2014
+
+FY2016
+
+$216,124,031
+
+$202,003,114
+
+$150,000,000
+$100,000,000
+$50,000,000
+$-
+
+FY2015
+
+Total Agency Appropriation
+
+FY2017
+
+FY2018
+
+FY2019
+
+FY2020
+
+FY2021
+
+FY2022
+
+Total Agency Payroll and Benefits Expenses
+
+To better understand the payroll and benefit expenses, we
+also calculated the FTE levels for both the Agency and the
+Regions. As a starting point, the first quarter 2014 Agency
+FTE level was 1568 and for the last quarter of 2022 the FTE
+level was 1200. Based on that calculation we determined
+that the Agency had an overall decline in FTEs of 368, or 23
+percent.
+For the Regions, we calculated that the first quarter 2014
+FTE level was 1,087 and for the last quarter of 2022 the FTE
+level was 709. Based on that calculation we determined that
+the Regions had an overall decline in FTEs of 378, or 35
+percent.
+We also determined that although the overall Agency FTE
+declined, there was a 10 FTE gain for all other positions that
+were not assigned to the Regions:
+
+13
+
+FTE
+Category
+Overall
+Regional Offices
+
+FY 2014-Q1
+1568
+1087
+
+FY 2022-Q4
+1200
+709
+
+Inc (Dec)
+(368)
+(378)
+
+Percent
+-23%
+-35%
+
+481
+
+491
+
+10
+
+2%
+
+All Other
+
+We also compared the payroll and benefits expenses for the
+Regions to all the other payroll and benefits expenses.
+Based on that comparison, we determined that over the 9year scope period, the Regional payroll and benefit expenses
+had an 8.46 percent reduction while all other payroll and
+benefit expenses increased by 28.56 percent. The effect of
+the changes in payroll and benefits on the overall Agency
+expenditures is shown in the chart below:
+Payroll and Benefits Expenses - % of Appropriation
+90.00%
+80.00%
+70.00%
+60.00% 26.00%
+
+27.61%
+
+28.62%
+
+29.05%
+
+28.80%
+
+50.10%
+
+50.93%
+
+49.45%
+
+FY2015
+
+FY2016
+
+FY2017
+
+28.29%
+
+30.00%
+
+31.92%
+
+33.43%
+
+47.80%
+
+45.37%
+
+45.82%
+
+45.64%
+
+45.39%
+
+FY2018
+
+FY2019
+
+FY2020
+
+FY2021
+
+50.00%
+40.00%
+30.00%
+20.00%
+
+49.58%
+
+10.00%
+0.00%
+FY2014
+
+Regional Offices
+
+FY2022
+
+All Other
+
+This analysis supports a finding that in order to maintain its
+expenditures at a level authorized by the annual
+appropriation, over the 9-year period, the Agency reduced
+expenditures for Regional payroll and benefit expenses by
+reducing the FTE levels while expenses related to payroll and
+benefits for all other positions increased and the amounts for
+any other expenditures and lapsed funds generally remained
+consistent.
+With regard to lapsed funding, with the exception of FY 2017
+through FY 2019, the amounts were nominal.
+
+14
+
+Management Comments
+With respect to the comparison of the Field and all other
+staffing, the Management Comments included information
+on activities performed by the Headquarters staff that
+supports or otherwise are resources for the Regional case
+process function.
+Office of Inspector General Response
+The comparison of the Field Office staffing to all other
+staffing expenses is provided to ensure that the audit met
+the objective to evaluate the effect of the level funding
+appropriation on Field Office staffing. The decision on how
+to allocate budgetary resources was a management decision
+that was not related to the objective, the finding should not
+be read for any purpose beyond the stated objective. As
+such, the information in the comments was not within the
+purview of the audit’s objectives, we express on opinion
+regarding the information provided by management.
+Regional Case Intake and FTEs
+As shown in the two following charts, over the 9-year period,
+both the quarterly case intake as well as the Regional Board
+Agent and Administrative Professional FTEs declined. We
+used the Board Agent and Administrative Professionals as an
+indicator of case processing capacity because C cases and R
+cases are primarily processed by individuals in those
+positions.
+
+15
+
+Case Intake
+
+6500
+
+5801
+
+Number of Cases
+
+6000
+5500
+5000
+
+5289
+
+4500
+4000
+3500
+
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+3000
+FY 2014
+
+FY 2015
+
+FY 2016
+
+FY 2017
+
+FY 2018
+
+FY 2019
+
+FY 2020
+
+FY 2021
+
+FY 2022
+
+Board Agent and Administrative Staff FTEs
+900 853.63
+800
+700
+600
+
+532.65
+
+500
+400
+300
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+Number of Board Agent FTEs
+
+1000
+
+FY 2014
+
+FY 2015
+
+FY 2016
+
+FY 2017
+
+FY 2018
+
+FY 2019
+
+FY 2020
+
+FY 2021
+
+FY 2022
+
+The case intake as measured by the quarterly intake per
+Board Agent and Administrative Professionals, however, had
+an increasing trend, as shown by the dotted line, over the
+same period:
+
+16
+
+11.50
+11.00
+10.50
+10.00
+9.50
+9.00
+8.50
+8.00
+7.50
+7.00
+6.50
+6.00
+5.50
+5.00
+
+10.89
+
+6.20
+
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+Number of Cases per Board Agent
+
+Cases Per Board Agent and Administrative Staff FTE
+
+FY 2014
+
+FY 2015
+
+FY 2016
+
+FY 2017
+
+FY 2018
+
+FY 2019
+
+FY 2020
+
+FY 2021
+
+FY 2022
+
+When we analyzed the trend for the individual Regions, we
+found that 17 Regions had an increasing trend of one or
+more case per Board Agent and Administrative Professional
+FTE and 9 Regions had a change of less than one case either
+increasing or decreasing per FTE.
+Regional Payroll and Benefits and Cases Intake
+For all positions in the Regions over the 9-year period, the
+total annualized Regional FTE decreased from 1,067 in FY
+2014 to 719 in FY 2022, a decrease of 33 percent. For the
+same period of time, however, the total payroll and benefits
+expenses, rounded, per FTE increased from $127,423 to
+$173,163, an increment of $45,739, or 36 percent. Overall,
+the Regional case intake decreased from 23,100 in FY 2014
+to 20,512 in FY 2022, or 11 percent.
+Despite an annualized decline of 33 percent in FTEs and an
+11 percent decline in case intake, because of the total
+Regional payroll and benefits expenses increased by 36
+percent, the FTE costs per case, not including any overhead,
+also increased:
+Regional Offices
+Case Intake
+Total Payroll and
+Benefits Expenses
+per case received
+
+FY 2014
+23,100
+
+FY 2015
+23,018
+
+FY 2016
+23,861
+
+FY 2017
+21,637
+
+FY 2018
+20,954
+
+FY 2019
+20,641
+
+FY 2020
+17,632
+
+FY 2021
+16,720
+
+FY 2022
+20,512
+
+$5,885.70
+
+$5,968.09
+
+$5,853.31
+
+$6,267.13
+
+$6,255.91
+
+$6,028.17
+
+$7,126.47
+
+$7,485.12
+
+$6,067.77
+
+17
+
+Trends in Case Processing
+Initial Charge Dispositions
+Using a linear trend line, the dotted line in the chart below,
+we observed a decrease in C case intake over the 9-year
+period. Beginning in the second quarter FY 2022, however,
+the C case intake increased above the trend line to a
+quarterly amount that was near other peaks in C case
+intake. We also observed that C case intake began to
+increase in the first quarter FY 2021 - a point that was
+generally the low point in case intake for the scope period:
+
+6,000
+5,500
+5,000
+4,500
+4,000
+3,500
+3,000
+2,500
+2,000
+1,500
+1,000
+500
+-
+
+5,182
+
+4,695
+
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+Number of C Cases
+
+C Case Intake
+
+FY 2014
+
+FY 2015
+
+FY 2016
+
+FY 2017
+
+FY 2018
+
+FY 2019
+
+FY 2020
+
+FY 2021
+
+FY 2022
+
+When analyzing the trend in charge dispositions, we
+observed that the percentage of charges disposed of by a
+particular disposition generally remained consistent through
+the 9-year period. There was an increase in disposition by
+deferral beginning in fourth quarter FY 2019, but that trend
+appeared to be resolved by the end of the scope period:
+
+18
+
+Percentage of Cases per Disposition
+
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+90.00%
+85.00%
+80.00%
+75.00%
+70.00%
+65.00%
+60.00%
+55.00%
+50.00%
+45.00%
+40.00%
+35.00%
+30.00%
+25.00%
+20.00%
+15.00%
+10.00%
+5.00%
+0.00%
+FY 2014
+
+FY 2015
+Complaint
+
+FY 2016
+FY 2017
+Deferral
+
+FY 2018
+FY 2019
+FY 2020
+FY 2021
+Dismissal and Withdrawal
+Settlement
+
+FY 2022
+
+During the 9-year scope period, we observed that the
+quarterly average days to dispose of a case by complaint
+increased from 135 to 232 days. When we combined the
+non-complaint dispositions and compared disposition times
+to complaint dispositions, we observed that the complaint
+dispositions had a steady increase in average disposition
+days while the non-complaint dispositions had a modest
+trending decrease in time to disposition:
+Average Days to Case Dispositon
+(Complaint and Non-complaint Dispositions)
+232
+
+250
+
+150 135
+100
+
+98
+
+101
+
+50
+0
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+Average Days
+
+200
+
+FY 2014
+
+FY 2015
+
+Complaint
+
+FY 2016
+
+FY 2017
+
+Non-Complaint
+
+FY 2018
+
+FY 2019
+
+Linear (Complaint)
+
+19
+
+FY 2020
+
+FY 2021
+
+FY 2022
+
+Linear (Non-Complaint)
+
+Based on the declining Board Agent and Administrative
+Professional FTEs, C case intake trends, and C case
+disposition trends, we determined that the declining FTEs
+resulted in an increase in time to issue a complaint despite a
+decline in C case intake.
+Post-Complaint Actions
+During the 9-year scope period, we observed that there was a
+consistent trending decline in the number of complaint cases
+without a hearing that resulted in a post-complaint
+dismissal, withdrawal, or settlement dispositions without a
+hearing:
+
+170
+160
+150
+140
+130
+120
+110
+100
+90
+80
+70
+60
+50
+40
+30 18
+20
+10
+7
+0
+
+52
+38
+
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+Number of Cases
+
+Post-Complaint Dispositions without a Hearing
+
+FY 2014
+
+FY 2015
+
+FY 2016
+FY 2017
+FY 2018
+FY 2019
+FY 2020
+Post-complaint Dismissal and Withdrawal
+Post-complaint Settlement
+Linear (Post-complaint Dismissal and Withdrawal)
+Linear (Post-complaint Settlement)
+
+FY 2021
+
+FY 2022
+
+The NxGen C case hearing sessions data includes complaint
+and compliance hearings. Except for five quarters –
+including a period at the beginning of the COVID-19
+pandemic, the C case hearing had a declining trend:
+
+20
+
+130
+120
+110
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+
+74
+60
+
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+Number of Hearing Session(s)
+
+C Case Hearing Session(s) Conducted
+
+FY 2014
+
+FY 2015
+
+FY 2016
+
+FY 2017
+
+FY 2018
+
+FY 2019
+
+FY 2020
+
+FY 2021
+
+FY 2022
+
+The C case hearing trend indicates that the hearing sessions
+generally followed a declining trend consistent with case
+intake. While the first quarter FY 2014 had fewer hearings,
+that was likely the result of the Government closure for the
+first 16 days of the quarter. Also, the sharp decrease in
+cases in second quarter FY 2020 followed by a sharp
+increase was likely due to the pandemic.
+R Case Processing
+As with the C cases, generally the R case intake declined
+over the 9-year period of the level appropriation. We
+observed that there was a corresponding decline in the
+elections results certified:
+
+21
+
+R Case Intake
+900
+
+Number of R Cases
+
+800
+700
+600
+500
+
+619
+594
+
+400
+300
+200
+100
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+FY 2014
+
+FY 2015
+
+FY 2016
+
+FY 2017
+
+FY 2018
+
+FY 2019
+
+FY 2020
+
+FY 2021
+
+FY 2022
+
+We observed a correlation between the R case intake and
+number of cases with elections held and certified during the
+scope period:
+Number of R Cases with Election Held and Certified During the
+Scope Period
+600
+438
+
+400 353
+300
+200
+100
+0
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+Number of Cases
+
+500
+
+FY 2014
+
+FY 2015
+
+FY 2016
+
+FY 2017
+
+FY 2018
+
+FY 2019
+
+FY 2020
+
+FY 2021
+
+FY 2022
+
+We generally observed a decrease in the time from the
+petition filed date to election certification between the third
+quarter FY 2015 and first quarter FY 2020. At the beginning
+of the COVID-19 pandemic period, we observed a sharp
+increase that then appears to level at the higher average.
+
+22
+
+Average Days from Petition Filed Dated to Election
+Certification
+140
+
+100
+
+89
+
+88
+
+80
+60
+40
+20
+0
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+Average Days
+
+120
+
+FY 2014
+
+FY 2015
+
+FY 2016
+
+FY 2017
+
+FY 2018
+
+FY 2019
+
+FY 2020
+
+FY 2021
+
+FY 2022
+
+With regard to average days for the filing of the petition to
+certification of the election, while there was an overall
+increasing trend, it may be due in part to the regulatory time
+processing requirements for R cases. Those requirements
+first went into effect in FY 2015 and then were amended to
+increase the time limits in FY 2020.
+Because the R case intake generally had a decreasing trend
+until the beginning of second quarter FY 2022 during the
+scope period, we would expect to see a decrease in the
+hearing session held and a correlation between the two.
+Using a linear trend line, however, we observed that despite
+a decline in R case intake there was a slightly increasing
+trend in the hearing sessions held during the 9-year period:
+
+23
+
+120
+110
+100
+90
+80
+70
+59
+60
+50
+40
+30
+20
+10
+0
+
+76
+
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+Q1
+Q2
+Q3
+Q4
+
+Number of Hearing Session(s)
+
+R Case Hearing Session(s) Held
+
+FY 2014
+
+FY 2015
+
+FY 2016
+
+FY 2017
+
+FY 2018
+
+FY 2019
+
+FY 2020
+
+FY 2021
+
+FY 2022
+
+Hearings require additional work for Regional staff; therefore,
+the decreasing R case intake does not appear to have
+resulted in a comparable decline in work.
+Non-Case Processing Trend Considerations
+According to documentation provided by the Agency, at
+various times during the scope period, spending restrictions
+were put in place that may have affected case processing.
+For example, in FY 2016, the Division of OperationsManagement requested that the Regions maximize the use of
+video conferences for pre-trial preparation and witness
+preparation and testimony; and use alternative techniques to
+limit travel. In FY 2018, the Regions were again asked to
+reduce expenses including limiting Board Agent travel. The
+Agency also provided documentation that, in FY 2020, it
+established the Centralized R-Case Decision Writing Program
+to address a significant volume of pre-election R case
+decisions.
+In FY 2018, the Agency used the VERA/VISP programs to
+reduce the FTE level. That process, however, was not related
+to the level funding. Initially, the request to use the
+programs was based on the anticipated reduction in funding.
+When the reduction did not occur, the Agency proceeded
+with the programs to reduce the FTE level to “reshape the
+workforce and allow for the strategic replacement of surplus
+positions” and to comply with OMB Memorandum 17-22 –
+Comprehensive Plan for Reforming the Federal Government
+24
+
+and Reducing the Federal Civilian Workforce. As seen in the
+above data in FY 2019, following VERA/VISP, there was a
+greater percentage of funds for other than payroll and
+benefits and other Agency expenses. The trend, however,
+returned to prior levels in the following fiscal years.
+When we interviewed Regional management, they explained
+that the loss of personnel through the VERA/VISP program
+coincided with an increase in case intake and that the two
+events had a negative impact on employee morale. They also
+explained that due to funding issues, employee training was
+not always available, senior positions were not filled, and
+mission-related travel was restricted.
+When we also interviewed employees, they explained that, at
+various times, they were told that funding issues prevented
+Regions from having sufficient supplies and equipment –
+particularly when laptops or monitors broke; required the
+cancellation of training through the Headquarters and Field
+exchange programs; was the reason for the closure of
+occupational health units and a lack of training for CPR; and
+caused vacancies in supervisory and management positions
+– as a result supervisory assistance was not always available
+when needed and there were delays in reviews and approvals
+of case-related work. They also explained that as the result
+of the increasing caseload, employees were suffering
+“burnout” trying to handle a significant increase in the
+caseload and they were less efficient at meeting case
+processing standards that remained consistent despite the
+increasing caseloads.
+We also reviewed the Agency results for the FEVS. We
+generally found that at the beginning of the period, the
+responses related to workload were generally on the positive
+side and became more negative by the end of the scope
+period. We also observed that the shift was greater for
+Regional personnel.
+Workload
+Category
+
+2014
+
+2022
+
+Agency - POS %
+
+59.53%
+
+47.10%
+
+-12.43%
+
+Regional Offices - POS %
+
+53.85%
+
+26.10%
+
+-27.75%
+
+Agency - NEG %
+
+23.75%
+
+42.60%
+
+18.85%
+
+Regional Offices - NEG %
+
+28.79%
+
+64.40%
+
+35.61%
+
+25
+
+Inc or -Dec
+
+Effect of Level Funding on Field Office Staffing and Case Work
+The effect of the level funding appropriation on the Field
+Office staffing was a reduction in Regional FTEs with an
+overall increase in the number of cases per Board Agent and
+Administrative Professional. Also, at various times during
+the scope period, the Agency took steps to restrict case
+processing expenditures.
+For the C cases, we determined that during the period of
+level funding, there was an increase in time to issue
+complaints while the number of charges decreased. The
+decrease in Board Agent and Administrative Professional
+FTEs does not, however, appear to have had a significant
+impact on the processing of R cases. This may in part be
+due to the fact that R cases have regulatory time processing
+requirements while C cases do not. As a result, Regional
+Directors have less discretion in allocating personnel
+resources between C and R cases. We also observed that,
+over time, employee morale declined.
+INTERNAL CONTROLS
+From GAO’s Standards for Internal Control in the Federal
+Government we selected the internal control attributes and
+standards that are applicable to the Division of OperationsManagement FTE calculation process. Using those
+standards, we determined the process to assign or allocate
+Field Office FTEs lacks an appropriate system of internal
+controls, as identified in the internal control matrix provided
+at Appendix A. Also, as identified above, we found that the
+Field Office FTE calculation methodology did not meet OMB
+Circular A-11 guidance. As a result of those determinations,
+we also found that the Agency is at risk of not allocating
+FTEs to the Field Offices in a manner that would ensure that
+it meets the Agency’s goals and objectives.
+With regard to our review of case processing trends, when
+conducting data reliability testing, we found conflicting
+criteria for NxGen data entry regarding the charge
+withdrawal action disposition date and the petition file date.
+We also found a lack of data in NxGen to confirm the
+transfer of cases between Regions.
+
+26
+
+RECOMMENDATIONS
+We recommend that the Division of Operations-Management:
+1. Coordinate with the Office of the Chief Financial Officer to ensure its
+methodology to develop Field Office staffing requirements meets OMB
+requirements;
+2. Evaluate its method of determining Regional staffing levels and consider
+whether a method that evaluates the level of work associated with the
+cases in addition to the case intake is more appropriate and what, if any,
+impact the ratios of R cases to C cases may affect the level of work;
+3. Develop a process to assess field staffing data that includes data quality
+checks; and
+4. Develop an internal control process to address the findings at Appendix
+A and related NxGen data issues.
+
+27
+
+APPENDIX A
+GAO - STANDARDS
+3.05 Management periodically
+evaluates the organizational
+structure so that it meets the
+entity’s objectives and has
+adapted to any new objectives for
+the entity, such as a new law or
+regulation.
+
+CONCLUSION
+MEETS
+
+RESULTS
+According to the Division of
+Operations-Management, a staffing
+calculation is completed and
+published on a quarterly basis. The
+calculation is developed in
+coordination with the General
+Counsel’s Office.
+
+3.09 Management develops and
+maintains documentation of its
+internal control system.
+3.10 Effective documentation
+assists in management’s design
+of internal control by establishing
+and communicating the who,
+what, when, where, and why of
+internal control execution to
+personnel.
+
+DOES NOT
+MEET
+
+Management does not have a policy
+that documents a staffing
+calculation internal control system.
+The document provided by the
+Division of Operations-Management
+“FAQs About the Staffing Chart” is
+not a control system. It describes a
+methodology for calculating Field
+Office staffing; however, it does not
+document the timing,
+responsibilities, reviews, and
+approvals.
+
+4.05 Management recruits,
+develops, and retains competent
+personnel to achieve the entity’s
+objectives.
+
+DOES NOT
+MEET
+
+The "FAQs About the Staffing Chart"
+does not describe how the staffing
+charts are used to recruit, develop,
+and retain competent personnel.
+
+10.03 Reviews by Management at
+the functional or activity level:
+Management compares actual
+performance to planned or
+expected results throughout the
+organization and analyzes
+significant differences.
+
+MEETS
+
+For the Fiscal Year (FY) 2022 Field
+Office full-time equivalents (FTE)
+calculation, management compared
+the number of FTEs needed based
+on case intake with the staffing
+currently on board.
+
+10.03 Management of Human
+Capital:
+Effective management of an
+entity’s workforce, its human
+capital, is essential to achieving
+results and an important part of
+internal control. Only when the
+right personnel for the job are on
+board and are provided the right
+training, tools, structure,
+incentives, and responsibilities is
+operational success possible. As
+part of its human capital
+planning, management also
+
+PARTIALLY
+MEETS
+
+The “FAQs About the Staffing Chart”
+clearly identifies the human capital
+needed for the designated work;
+however, the calculation process
+does not meet the Office of
+Management and Budget guidance.
+
+1
+
+APPENDIX A
+GAO - STANDARDS
+considers how best to retain
+valuable employees, plan for their
+eventual departure, and maintain
+a continuity of needed skills and
+abilities.
+
+CONCLUSION
+
+RESULTS
+
+10.03 Controls over information
+processing:
+A variety of control activities are
+used in information processing.
+Examples include edit checks of
+data entered; accounting for
+transactions in numerical
+sequences; comparing file totals
+with control accounts; and
+controlling access to data, files,
+and programs.
+10.03 Accurate and timely
+recording of transactions:
+Transactions are promptly
+recorded to maintain their
+relevance and value to
+management in controlling
+operations and making decisions.
+This applies to the entire process
+or life cycle of a transaction or
+event from its initiation and
+authorization through its final
+classification in summary
+records. In addition, management
+designs control activities so that
+all transactions are completely
+and accurately recorded.
+
+DOES NOT
+MEET
+
+Management uses a manual process
+without internal controls to
+determine current Field Office
+staffing and does not utilize payroll
+information from the Office of
+Human Resources – a system with
+internal controls. We found:
+• Differences between the staffing
+in the Field Office staffing
+calculation and the staffing based on
+the payroll system;
+• Formula errors in the Field Office
+FTE calculation spreadsheet that
+resulted in incorrect calculations for
+three Regions; and
+• Field Office organizational charts
+were not accurate.
+
+10.03 Appropriate documentation
+of transactions and internal
+control:
+Management clearly documents
+internal control and all
+transactions and other significant
+events in a manner that allows
+the documentation to be readily
+available for examination. The
+documentation may appear in
+management directives,
+administrative policies, or
+operating manuals, in either
+paper or electronic form.
+
+PARTIALLY
+MEETS
+
+For the Field Office FTE calculation,
+management does not document and
+maintain a proper internal control
+system. We found that management
+maintains the Field Office FTE
+calculation with spreadsheets and
+the FY 2022 Field Office FTE
+calculation was approved by the
+Deputy General Counsel via an
+email; however, management did not
+maintain the supporting
+documentation.
+
+2
+
+APPENDIX A
+GAO - STANDARDS
+Documentation and records are
+properly managed and
+maintained.
+
+CONCLUSION
+
+RESULTS
+
+10.08 Management designs
+control activities for appropriate
+coverage of objectives and risks
+in the operations. Operational
+processes transform inputs into
+outputs to achieve the
+organization’s objectives.
+Management designs entity-level
+control activities, transaction
+control activities, or both
+depending on the level of
+precision needed so that the
+entity meets its objectives and
+addresses related risks.
+
+DOES NOT
+MEET
+
+Management did not design control
+activities for the Field Office FTE
+calculation. There is no
+documentation of risk analysis,
+entry-level control activities, or
+transaction control activities.
+
+12.03 Management documents in
+policies for each unit its
+responsibility for an operational
+process’s objectives and related
+risks, and control activity design,
+implementation, and operating
+effectiveness.
+
+DOES NOT
+MEET
+
+Management did not document the
+responsibilities for various units
+involved in the Field Office FTE
+calculation.
+
+12.05 Management periodically
+reviews policies, procedures, and
+related control activities for
+continued relevance and
+effectiveness in achieving the
+entity’s objectives or addressing
+related risks. If there is a
+significant change in an entity’s
+process, management reviews
+this process in a timely manner
+after the change to determine
+that the control activities are
+designed and implemented
+appropriately.
+
+DOES NOT
+MEET
+
+Management does not have Field
+Office FTE calculation policies and
+procedures to review periodically to
+ensure that the changes made to the
+control activities are updated in the
+policies and implemented
+appropriately; however, management
+did periodically review the
+methodology.
+
+13.02 Management designs a
+process that uses the entity’s
+objectives and related risks to
+identify the information
+requirements needed to achieve
+
+PARTIALLY
+MEETS
+
+To calculate Field Office FTEs,
+management uses case intake based
+on 3-year rolling average from the
+NxGen reports and current staff on
+board; however, the process does not
+address the related risks.
+
+3
+
+APPENDIX A
+GAO - STANDARDS
+the objectives and address the
+risks.
+
+CONCLUSION
+
+RESULTS
+
+13.04 Management obtains
+relevant data from reliable
+internal and external sources in a
+timely manner based on the
+identified information
+requirements. Reliable internal
+and external sources provide data
+that are reasonably free from
+error and bias and faithfully
+represent what they purport to
+represent.
+
+DOES NOT
+MEET
+
+Management does not obtain
+relevant data from reliable internal
+sources. Management uses a
+manual process to determine current
+Field Office staffing and does not
+utilize payroll information from the
+Office of Human Resources. We
+determined that the manual process
+resulted in errors.
+
+13.05 Management processes the
+obtained data into quality
+information that supports the
+internal control system.
+
+DOES NOT
+MEET
+
+Management did not use relevant
+and reliable data to process quality
+information. We found that the Field
+Office FTE calculation spreadsheet
+had formula errors that resulted in
+incorrect calculations for three
+Regions.
+
+15.03 Management
+communicates quality
+information externally through
+reporting lines so that external
+parties can help the entity
+achieve its objectives and address
+related risks. Management
+includes in these
+communications information
+relating to the entity’s events and
+activities that impact the internal
+control system.
+
+DOES NOT
+MEET
+
+The Budget Branch, Office of the
+Chief Financial Officer, relies on the
+Division of OperationsManagement's Field Office FTE
+calculation to formulate budget
+requests. The Budget Branch
+reports the number of FTE
+Requested, FTE Enacted, and Actual
+FTE for total Agency and
+Casehandling Program Activity in the
+annual Justification of Performance
+Budget for the Committee on
+Appropriations. We found that FTE
+information reported was inaccurate
+because we found errors in the Field
+Office FTE calculation and the Field
+Office FTE calculation methodology.
+
+4
+
+APPENDIX B
+
+UNITED STATES GOVERNMENT
+National Labor Relations Board
+Division of Operations-Management
+Memorandum
+TO:
+
+David P. Berry, Inspector General
+
+FROM:
+
+Joan A. Sullivan, Associate General Counsel
+
+DATE:
+
+March 16, 2024
+
+SUBJECT:
+
+OIG Report No. OIG-AMR-102-XX-XX
+
+Thank you for the opportunity to review and respond to the revised March 5,
+2024 audit report of Performance Based Staffing of the Regional Offices (the Audit).
+Below you will find that we have provided some context, have addressed your four
+recommendations, advising where there is agreement and where there is not, and have
+offered the Agency’s action plan for moving forward.
+First, Operations appreciates and wholeheartedly agrees with the following
+determinations relating to our appropriations over the Audit period:
+x
+x
+x
+x
+x
+x
+x
+x
+
+The effect of the consistent flat-lined appropriation of $274 million between FYs
+2014 and 2022 resulted in actual cuts to the Agency funding over the years.
+The Agency should have been appropriated at least $321.2 million in FY 2022 to
+maintain the same level of spending.
+During fiscal years 2014 to 2022, Field staffing declined.
+During most of the Audit period, case intake in the Field declined, but not to the
+same degree as the Field staffing.
+Case intake started to increase significantly in FY 2022.
+The impact of an insufficient budget adversely impacted Field office staffing and
+morale.
+The VERA/VSIP program implemented in FY 2018 to “reshape the workforce and
+allow for the strategic replacement of surplus positions” adversely impacted Field
+office staffing and morale.
+The impact of insufficient budget resulted in delays to C case processing caused
+by the decline in Field staffing without appropriate backfilling.
+
+Second, Operations is providing the following information for additional context:
+x
+
+Case intake for C and R cases have been increasing during the tenure of the
+current General Counsel. As noted in the Annual PARs:
+
+o FY 2021 case intake totals16,719 cases and includes 15,081 C cases and
+1,638 R cases.
+o FY 2022 case intake totals 20,509 cases and includes 17,998 C cases and
+2,511 R cases.
+o FY 2023 case intake totals 22,463 cases and includes 19,869 C cases and
+2,594 R cases.
+o The FY 2023 case intake was an increase of 10 percent over FY 2022 and a
+filing level not seen since FY 2016.
+o In FY 2023 and FY 2022, the Agency saw an increase in ULP case filings of
+10 percent and 19 percent, respectively, and in Representation case filings of
+3 percent and 53 percent, respectively.
+x
+
+x
+
+x
+
+x
+x
+x
+x
+
+x
+
+The vast majority of the unfair labor practice and representation cases filed with
+the Agency annually are resolved without the necessity of formal litigation and
+are disposed of by the Regional offices. See the annual Performance and
+Accountability Reports for FY 2014-2022.
+Based on years of experience in trying different formulas, Operations concluded
+that case intake divided by 45 cases per full-time Board agent, minus the
+Compliance Officer, who works almost exclusively on formal compliance cases
+instead of typical C and R case work, is the most effective and efficient way to
+determine the number of staff needed to handle case intake in each Region.
+Operations then considers the staffing needs for each Region by looking at the
+actual full-time and part-time employees working in each Region. A full-time
+employee is measured as 1 FTE and a part-time employee is measured based
+on the fewer number of regular hours worked as compared to a full-time
+employee.
+Operations also considers the staffing needs for each Region by excluding
+employees who are on paid or unpaid leave, as well as those on temporary reassignments, which may or may not be reflected in payroll data.
+There is no assurance that a Region will have a staffing complement
+commensurate with an established need as this depends upon the Agency’s
+overall budgetary situation.
+Starting in the latter part of FY 2021, the Office of the General Counsel started
+the first of three robust hiring surges in the Field to respond to staffing shortages.
+During the Audit period, Operations utilized both the Interregional Assistance
+Program, established in 1996 through an agreement with its Field union, and the
+Article 35 Detail Program set forth in the CBAs in effect to provide assistance to
+Regions.
+With respect to the comparison of overall Field staffing to Headquarters staffing
+during the Audit period, the following is noted:
+o The Agency formalized the Freedom of Information Branch in
+Headquarters that centralized FOIA requests for the entire Agency. This
+relieved the Field of performing FOIA work, but required additional
+professional staff in Headquarters, including those that had worked in the
+Field, to perform this work.
+2
+
+o The Agency enhanced the number of professional staff of the Ethics Office
+in Headquarters, including those that had worked in the Field. The Ethics
+Office provides a significant resource to the Field in dealing with legal and
+government ethical issues arising out of the handling of C and R cases at
+all stages.
+o The Agency created an E-Litigation Branch, which, while housed in
+Headquarters, provides a significant resource for the field, particularly as it
+relates to subpoena issues.
+o The Agency also employed Language Specialists and NxGen Program
+Assistants, who often work out of a Regional Office, but are not counted in
+the Regional staffing numbers as they work for the Agency more broadly.
+o The Agency centralized decision-writing and compliance work in
+Headquarters by utilizing cadres of field employees. Compliance officers
+and Compliance Support Assistants were removed from Regional staffing
+numbers as they worked more broadly for the Agency. Decisions writers
+remained in the staffing numbers, although their year long absence was
+considered when making hiring recommendations and decisions.
+o The Agency consolidated and closed some field offices, thus decreasing
+the overall field staff.
+o The Agency implemented a VERA/VSIP program in FY 2018 that further
+depleted the field staff to a much greater degree than in Headquarters.
+Third, the section below addresses the specific Audit recommendations as follows:
+1.
+
+Coordinate with the Office of the Chief Financial Officer to ensure its
+methodology to develop Field Office staffing requirements meets
+OMB requirements.
+
+Operations commits to collaborating with the Office of the Chief Financial Officer
+to ensure our methodology meets OMB requirements or to explain any deviation from
+that policy. We note, though, that OMB guidance differs from OMB mandates in this
+regard.
+2.
+
+Evaluate its method of determining Regional staffing levels and
+consider whether a method that evaluates the level of work associated
+with the cases in addition to the case intake is more appropriate and
+what, if any, impact the ratios of R cases to C cases may affect the
+level of work.
+
+ULP and representation case intake has consistently been used to assess Field
+staffing needs, which is calculated on a rolling basis to address fluctuations in case
+filings, as well as an annual and 36-month period. And, notably, you agreed that our
+decision to adjust for the COVID-19 pandemic period by deleting the first five quarters of
+the pandemic period from that 36-month period was a reasonable management
+decision.
+
+3
+
+Over many years, Operations had evaluated its method of determining Regional
+staffing level and had taken into account and had adjusted its calculations based on the
+following non-exhaustive factors:
+o Whether a Region had a satellite office(s).
+o Travel requirements of offices, both local and Regional, using travel
+voucher information.
+o Complexity of cases, including the categorization of a case.
+o Cases litigated administratively.
+o Cases in which injunction proceedings are initiated.
+o Cases that required subpoena enforcement proceeding.
+o Cases in which exceptions were taken to the Board.
+o Accounting for compensatory time earned by Board agents.
+o Number of managers based on case intake, including Officers-in-Charge
+and Resident Officers, and supervisors, both attorney and field examiner.
+And, having previously applied these various factors to assist with the staffing
+formula, years of experience had demonstrated that these factors did not meaningfully
+impact the determination of staffing needs of the different offices. And, in fact, various
+discussions with all Regional Directors at an RD conference during the relevant period
+resulted in an overwhelming consensus that 45 cases per full-time Board agent should
+be the standard. Accordingly, it remains Operations’ position that the C and R case
+intake at 45 cases per full-time Board agent adequately addresses the myriad of cases
+and case actions worked on by Field staff and is the most efficient and effective method
+to evaluate staffing needs at any given time.
+3.
+
+Develop a process to assess field staffing data that includes data
+quality checks.
+
+Operations agrees that data quality checks are essential when assessing field
+staffing needs. And, when new leaders in Operations took the helm in FY 2022, we
+commenced a review of the process. Based on that review, we found the three formula
+errors you mentioned and corrected them, developed a system to note changes that
+may impact staffing needs, and implemented regular updates to the staffing information.
+We continue to assess and will implement further quality checks as deemed necessary
+and appropriate.
+4.
+
+Develop an internal control process to address the findings at
+Appendix A and related NxGen data issues.
+
+Operations commits to develop and further explain internal control processes to
+address the findings set forth in Appendix A and related NxGen data issues by the end
+of First Quarter FY 2025. In so doing, Operations will review payroll data in assessing
+staffing needs to consider FTEs that are not performing work for an extended period,
+such as deployments, worker’s compensation, and disciplinary actions, and will
+establish a stated policy for extended absences.
+4
+
+Conclusion
+We trust that the foregoing is responsive to the Audit findings. We remain
+available to discuss details of our next steps at your convenience.
+Digitally signed by JOAN
+
+JOAN SULLIVAN SULLIVAN
+Date: 2024.03.18 16:43:32 -04'00'
+_____________________________
+Joan A. Sullivan
+Associate General Counsel
+Division of Operations-Management
+
+cc: Peter Sung Ohr, Deputy General Counsel and Audit Follow-Up Official
+Referenced links:
+NLRB PAR FY2023 508
+NLRB PAR FY2022 508
+NLRB PAR FY2021 508
+NLRB PAR FY2020 508 *
+NLRB PAR FY2019 *
+NLRB PAR FY2018
+NLRB PAR FY2017
+NLRB PAR FY2016
+NLRB PAR FY2015
+NLRB PAR FY2014
+
+5
+
+
