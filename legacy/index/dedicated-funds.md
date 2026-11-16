@@ -35,14 +35,15 @@ The general-fund ledger counts only general-fund money. This file follows the fu
 | SS-3 | Minimum benefit: 125% of poverty for 30 years of coverage, wage-indexed | -0.11 | +0.00 / -0.04 / -0.14 / -0.19 | -0.02 | — | proposal (D8); cost path from SSA's B5.2, the same design starting 2027, shifted to 2031 (2026 Trustees, sourced) |
 | SS-4 | CPI-E for cost-of-living adjustments | -0.33 | -0.02 / -0.21 / -0.40 / -0.51 | -0.17 | — | proposal (D8); cost path from SSA's A6, shifted to the first COLA after enactment; SSA now puts the CPI-E gap at about 0.15 points a year (2026 Trustees, sourced) |
 | SS-5 | Investment-income tax on active S-corporation holders and limited partners (closer) | +0.87 | +0.89 / +0.90 / +0.95 / +1.00 | +1.32 | — | option (recommended closer); base from SSA's F8 at ACA thresholds (2026 Trustees, sourced) |
+| IMM-EV-SS | E-Verify mandate's off-budget payroll revenue loss (IMM-4.12): wages moving off the books leave the payroll tax base | -0.03 | -0.00 / -0.04 / -0.04 / -0.04 | -0.04 | 0.02 (IMM-EV) | decided and booked (immigration); CBO and JCT's 2013 -$88B off-budget score, scaled, from immigration_path.everify()['off'] (dossiers/immigration/6-cost.md part 2), as % of payroll in funds-ss-offbudget.csv; revenue only, no matching benefit saving (CBO 2013); ledger_rows links the on-budget gain on the same convention |
 
 | Scenario | Depletion | Payable then | 75-year balance | Share of the gap closed | Sustainable solvency | Trust fund ratio 2040 / 2060 / 2080 / 2100 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Current law | 2034 | 83% | -4.45 | 0% | no | 0% / 0% / 0% / 0% |
-| D8 baseline | 2062 | 90% | -1.60 | 64% | no | 80% / 20% / 0% / 0% |
-| D8 + SS-5 | 2081 | 86% | -0.73 | 84% | no | 128% / 181% / 15% / 0% |
+| D8 baseline | 2061 | 90% | -1.63 | 63% | no | 78% / 14% / 0% / 0% |
+| D8 + SS-5 | 2080 | 86% | -0.76 | 83% | no | 127% / 175% / 4% / 0% |
 
-**Reading.** Evaluated on their face, the D8 baseline closes about 64% of the 75-year gap and moves depletion from 2034 to 2062; with SS-5 it closes 84% and depletion moves to 2081. The new taxes are large from their first year: SS-1 alone adds about 2.3% of payroll in 2031, against a current-law shortfall of about 2.6%. The trust fund ratio is the reserve at the start of a year over that year's cost; 'sustainable' means no depletion through 2100 and a ratio of at least 100% that is not falling at the end, a conservative model criterion (the Trustees require positive reserves and a stable or rising terminal ratio; the one-year minimum here is additional). These are estimates built from SSA's scores of each provision alone; an SSA score of the package would replace them. SS-10 (the bipartisan trade) is not modeled; it needs an SSA score of its pieces.
+**Reading.** Evaluated on their face, the D8 baseline closes about 63% of the 75-year gap and moves depletion from 2034 to 2061; with SS-5 it closes 83% and depletion moves to 2080. The new taxes are large from their first year: SS-1 alone adds about 2.3% of payroll in 2031, against a current-law shortfall of about 2.6%. The trust fund ratio is the reserve at the start of a year over that year's cost; 'sustainable' means no depletion through 2100 and a ratio of at least 100% that is not falling at the end, a conservative model criterion (the Trustees require positive reserves and a stable or rising terminal ratio; the one-year minimum here is additional). These are estimates built from SSA's scores of each provision alone; an SSA score of the package would replace them. SS-10 (the bipartisan trade) is not modeled; it needs an SSA score of its pieces.
 
 ## Medicare HI (summary level)
 
