@@ -119,21 +119,24 @@ def _read(path):
 
 # ---- the budget side ---------------------------------------------------------------------------------------------
 
+# The budget as it stood before the health financing booking (health_booking.py, financing()): this memo's package
+# is measured against it, so the booked package's own rows are not counted twice (frozen at origin/main c947865).
+BEFORE_BOOKING = os.path.join(HERE, "health_before_booking.json")
+
+
+def _before():
+    with open(BEFORE_BOOKING, encoding="utf-8") as f:
+        return json.load(f)
+
+
 def audit_lines():
-    """Booked rows by line and fiscal year, case `mixed` ($ billion; a cost positive)."""
-    out = {}
-    for r in _read("legacy/sources/recovery-budget-audit.csv"):
-        if r["case"] != "mixed":
-            continue
-        y = int(r["year"])
-        if 2030 <= y <= Y:
-            d = out.setdefault(r["line"], {})
-            d[y] = d.get(y, 0.0) + float(r["primary_deficit_change_bn"])
-    return out
+    """Booked rows by line and fiscal year, case `mixed` ($ billion; a cost positive), before the health booking."""
+    return {k: {int(y): v for y, v in d.items() if 2030 <= int(y) <= Y} for k, d in _before()["audit_lines"].items()}
 
 
 def paths():
-    return {int(r["year"]): r for r in _read("models/data/recovery-budget-paths.csv") if r["case"] == "mixed"}
+    """The budget model's case-mixed paths (GDP and the plan-wide gap), FY2029-40, before the health booking."""
+    return {int(y): r for y, r in _before()["paths"].items()}
 
 
 def plan_gap():
@@ -193,7 +196,7 @@ def need_path(sm=None):
     """The amount to finance by fiscal year: the booked health rows (HLT-4's health parts only) and HX, as booked and
     with the seam taken out ($ billion)."""
     L = audit_lines()
-    hlt4 = dict(zip(range(2030, 2040), HB.booking()["hlt4_path"]))
+    hlt4 = dict(zip(range(2030, 2040), HB.booking(full=False)["hlt4_path"]))
     hlt4[Y] = HLT4_HEALTH_2040
     sm = sm or seam()
     out = {}
