@@ -3633,5 +3633,3696 @@
    "dossiers/foundations/democratic-renewal/1-problem.md"
   ],
   "locator": "Table rows for 2025 and 2026"
+ },
+ {
+  "id": "EV-DEM-145",
+  "statement": "The Brennan Center estimates that automatic voter registration increased the number of people registered by 9 to 94 percent in the states it studied.",
+  "claim": "analysis",
+  "figures": [
+   "9 to 94 percent"
+  ],
+  "source": "SRC-5207",
+  "anchor": [
+   "AVR markedly increases the number of voters being registered — increases in the number of registrants ranging from 9 to 94 percent.",
+   "We ran an algorithm to match areas that implemented AVR with demographically similar jurisdictions that did not."
+  ],
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Brennan Center for Justice (advocacy think tank that campaigns for AVR), 2019. Matching of AVR jurisdictions to similar non-AVR ones on voter-file data. Measures registrations, not turnout; counts can include duplicate or deadwood records. The Brennan Center published rebuttals to later PPIC/USC and other studies that found smaller effects (links on the same page, not read).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Executive summary",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-146",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-147",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-146",
+  "statement": "A cross-sectional study of the 2018 election found people in AVR states were one percentage point more likely to vote; another specification found an insignificant association of about half a point overall, with a large positive association for young people only.",
+  "claim": "analysis",
+  "figures": [
+   "one percentage point",
+   "one half of one percentage point",
+   "2018"
+  ],
+  "source": "SRC-5208",
+  "anchor": [
+   "The results show an insignificant relationship between AVR and overall turnout of approximately one half of one percentage point. However, we find substantial heterogeneity by age: AVR has a large positive association with turnout of young individuals but is unrelated or even negatively associated with turnout of older individuals.",
+   "individuals in AVR states were one percentage point more likely to vote in 2018 than individuals in non-AVR states, a modest but statistically significant increase."
+  ],
+  "grade": "C",
+  "fact_date": "2021",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Charlotte Hill, UC Berkeley dissertation (2021), chapter 2, analysis done with Jake Grumbach; Hill was also a youth-voting advocate. Cross-sectional regression on one election, so it is an association, not a causal estimate; the abstract puts the youth figure at 6.3 points. Qualifies the Brennan Center's registration estimate: large registration gains need not mean large turnout gains.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Chapter 2, AVR section and Results (pp. 23-24)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-145",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-147",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-147",
+  "statement": "A difference-in-differences study by McGhee and Romero found AVR raised youth registration rates 5.1 points against 2.1 points for all individuals, but synthetic-control estimates by state ranged from +9.4 points in Oregon to -2.6 in Connecticut, none statistically significant.",
+  "claim": "analysis",
+  "figures": [
+   "5.1",
+   "2.1",
+   "+9.4 percentage points",
+   "-2.6 percentage points"
+  ],
+  "source": "SRC-5208",
+  "anchor": [
+   "Their diff-in-diff model finds a 5.1 percentage-point increase in registration rates for youth (compared to a 2.1 percentage-point increase for all individuals).",
+   "ranging from +9.4 percentage points in Oregon to -2.6 percentage points in Connecticut. Ten of twelve states show a positive AVR effect for young people, but no treatment effect rises to traditional levels of statistical significance."
+  ],
+  "grade": "C",
+  "fact_date": "2019",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Hill's dissertation (2021) summarizing McGhee and Romero (2019), the USC California Civic Engagement Project/PPIC line of work (McGhee is at PPIC, nonpartisan). The original report could not be fetched (pages moved or blocked), so this is a secondary account. These much smaller estimates are what the Brennan Center disputes.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Chapter 2, AVR section (p. 23)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-145",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-148",
+  "statement": "Same-day registration raised turnout of 18-24-year-olds by 3.2 to 7.3 percentage points across difference-in-differences specifications; matching estimates show a 6.3-point effect for 18-24-year-olds, almost the same as for 25-34-year-olds, and smaller effects for older groups.",
+  "claim": "analysis",
+  "figures": [
+   "3.2 to 7.3 percentage points",
+   "6.3 percentage points",
+   "18-24",
+   "25-34"
+  ],
+  "source": "SRC-5208",
+  "anchor": [
+   "same-day registration laws boost youth turnout by 3.2 to 7.3 percentage points",
+   "they are largest for the youngest voters, reaching a high of 6.3 percentage points for 18-24-year-olds.",
+   "the matching estimates show an effect for 18-24 year-olds that is virtually identical to the effect for 25-34 year-olds."
+  ],
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Grumbach and Hill, read in Hill's 2021 dissertation chapter; the peer-reviewed version is in the Journal of Politics (2022, not read). CPS turnout, difference-in-differences with state and decade fixed effects, weighted fixed effects and matching. Self-reported turnout. The headline says youth effects are largest; its own matching table shows the 18-24 and 25-34 effects are about equal.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract; chapter 2 Results and Table 2",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-149",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-003",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-149",
+  "statement": "Preregistration, which lets young people register before they are eligible to vote, raised youth turnout: 13% in a difference-in-differences model, with a 2% lower bound in a lag model, and about 8 percentage points among Florida young people who preregistered.",
+  "claim": "analysis",
+  "figures": [
+   "13%",
+   "2%",
+   "8 percentage points"
+  ],
+  "source": "SRC-5209",
+  "anchor": [
+   "From the difference-in-difference model, we find that preregistration laws increased turnout rates by 13%, with the lag model indicating a lower bound of 2%. From the regression discontinuity models, we find that, among those who comply by preregistering, voter turnout is about 8 percentage points higher than a comparable control group.",
+   "preregistration is equally effective for Democratic and Republican registrants"
+  ],
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Holbein and Hillygus (Duke), American Journal of Political Science 2016, peer-reviewed. CPS 2000-2012 and a Florida birth-date regression discontinuity. The body text reports the 13 as percentage points for 18-22-year-olds; the bracket from 2 to 13 is wide. An erratum was issued in 2017 (not read). Ages of preregistration vary by state.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Introduction, p. 365",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-148",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-150",
+  "statement": "In California, Utah and Washington counties, 1996-2018, universal vote by mail did not affect either party's share of turnout or vote share, and raised turnout by about 2% (estimates 2.1 to 2.2%) of the citizen voting-age population.",
+  "claim": "analysis",
+  "figures": [
+   "1996",
+   "2018",
+   "2%",
+   "2.1 to 2.2%"
+  ],
+  "source": "SRC-5210",
+  "anchor": [
+   "We collect data from 1996 to 2018 on all three US states that implemented universal vote-by-mail in a staggered fashion across counties",
+   "We find that 1) universal vote-by-mail does not appear to affect either party’s share of turnout, 2) universal vote-by-mail does not appear to increase either party’s vote share, and 3) universal vote-by-mail modestly increases overall average turnout rates, in line with previous estimates.",
+   "VBM causes around a 2% increase (estimates range from 2.1 to 2.2%) in the share of the citizen voting-age population that turns out to vote."
+  ],
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Thompson, Wu, Yoder and Hall (Stanford), PNAS June 2020, peer-reviewed; county difference-in-differences. Authors caution it is about normal times, not COVID-era elections, and about universal (all-mail) programs.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract; Table 3 discussion",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-151",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-152",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-153",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-151",
+  "statement": "Across counties with mandatory vote by mail, turnout rose 1.8 to 2.9 percentage points, and the most precise estimate of the effect on Democratic vote share was 0.7 points with a confidence interval from -0.7 to 2 points, not statistically significant.",
+  "claim": "analysis",
+  "figures": [
+   "1.8",
+   "2.9 percentage points",
+   "0.7 percentage points",
+   "−0.7 percentage points",
+   "2 percentage points"
+  ],
+  "source": "SRC-5211",
+  "anchor": [
+   "Depending on the specification, the effects range from 1.8 (model 1, P < 0.001) to 2.9 percentage points (model 2, P < 0.001).",
+   "Our most precise estimates (model 3) suggest that VBM increases Democratic vote shares by 0.7 percentage points; however, the 95% confidence interval extends from −0.7 percentage points to 2 percentage points."
+  ],
+  "grade": "B",
+  "fact_date": "2020",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Barber (BYU) and Holbein (Virginia), Science Advances August 2020, peer-reviewed; a different team from the PNAS study. Covers mandatory VBM counties 1992-2018. Holbein also co-wrote the preregistration study (EV-DEM-149).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Results",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-150",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-152",
+  "statement": "An Obama-campaign data analyst's studies of all-mail elections found very slight partisan advantages: Republicans gained slightly in Colorado in 2014 and Democrats slightly in Utah counties in 2016, with turnout rising most among low-propensity voters.",
+  "claim": "analysis",
+  "figures": [
+   "2014",
+   "2016"
+  ],
+  "source": "SRC-5212",
+  "anchor": [
+   "found in deeply reported studies of all-mail elections in Colorado in 2014 and Utah in 2016 that there were very slight partisan advantages in each race.",
+   "Two years later, in Utah, Democrats gained an equally slight advantage in counties that had switched to all-mail voting.",
+   "The Colorado study found that Republicans outperformed their predicted turnout in 2014 by a slightly higher margin than did Democrats."
+  ],
+  "grade": "C",
+  "fact_date": "2020-04-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "New York Times report (April 2020) on Amelia Showalter, former data analytics director of the Obama 2012 campaign; her studies are not peer-reviewed and were not read. Small effects in opposite directions, consistent with no systematic partisan tilt.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Paragraphs on Showalter",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-150",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-153",
+  "statement": "The opposing view in public debate is assertion, not a study: President Trump said that with all-mail voting no Republican would be elected again, while a Republican data consultant argued all-mail elections could favor conservatives.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5212",
+  "anchor": [
+   "President Donald Trump said that if the United States switched to all-mail voting, “you’d never have a Republican elected in this country again.”",
+   "said Republican data and voter contact programs were superior to what Democrats had, meaning all-mail elections could be advantageous for conservatives."
+  ],
+  "grade": "C",
+  "fact_date": "2020-04-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Quoted claims in a New York Times report; no method behind either. Recorded so the contested partisan question shows both sides; the peer-reviewed estimates (EV-DEM-150, EV-DEM-151) find no significant effect.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Opening paragraphs; Meyers paragraph",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-150",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-151",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-154",
+  "statement": "Strict voter ID laws had no negative effect on registration or turnout, 2008–2018: point estimates of -0.1 percentage point for both, +1.4 points for non-white turnout relative to white, while campaign contact of non-white voters rose 4.7 points; the laws had no effect on fraud.",
+  "claim": "analysis",
+  "figures": [
+   "2008–2018",
+   "-0.1 percentage point",
+   "+1.4pp",
+   "4.7 percentage points"
+  ],
+  "source": "SRC-5213",
+  "anchor": [
+   "Using a difference-in-differences design on a 1.6-billion-observations panel dataset, 2008–2018, we find that the laws have no negative effect on registration or turnout, overall or for any group defined by race, gender, age, or party affiliation.",
+   "we obtain point estimates of -0.1 percentage point for effects both on overall registration and turnout",
+   "+1.4pp for the effect on the turnout of non-white voters relative to whites",
+   "the likelihood that non-white voters were contacted by a campaign increases by 4.7 percentage points",
+   "strict ID requirements have no effect on fraud – actual or perceived."
+  ],
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Cantoni (Bologna) and Pons (Harvard Business School), Quarterly Journal of Economics 2021; anchors from the May 2021 NBER revision, panel 2008–2018. Catalist voter-file data. The 95% intervals (turnout -3.0 to 2.8 points) cannot exclude modest effects; the authors suggest party mobilization may have offset effects on minorities. Contested by GAO's two-state study.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-155",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-156",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-155",
+  "statement": "GAO estimated that after new ID requirements, 2012 turnout among eligible and registered voters fell 1.9 to 2.2 percentage points more in Kansas and 2.2 to 3.2 points more in Tennessee than in comparison states, an estimate limited to those states and that election.",
+  "claim": "analysis",
+  "figures": [
+   "1.9 to 2.2 percentage points",
+   "2.2 to 3.2 percentage points",
+   "2012"
+  ],
+  "source": "SRC-5214",
+  "anchor": [
+   "turnout among eligible and registered voters declined more in Kansas and Tennessee than it declined in comparison states",
+   "by an estimated 1.9 to 2.2 percentage points more in Kansas and 2.2 to 3.2 percentage points more in Tennessee",
+   "GAO's estimates are limited to turnout in the 2012 general election in Kansas and Tennessee"
+  ],
+  "grade": "B",
+  "fact_date": "2014-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "U.S. GAO (legislative branch), September 2014, reissued February 2015; difference-in-differences against Alabama, Arkansas, Delaware and Maine using Catalist data. The Kansas and Tennessee secretaries of state disputed it (EV-DEM-156). Quoted from the highlights page through WebFetch; the full report could not be downloaded.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "What GAO Found (highlights)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-154",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-156",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-156",
+  "statement": "The Heritage Foundation argued GAO's Kansas finding was flawed: Kansas had no Senate race in 2012 while comparison state Maine did, and Kansas turnout of the voting-eligible population was 58.3 percent in 2012 against 56.7 percent in 2000.",
+  "claim": "analysis",
+  "figures": [
+   "58.3",
+   "56.7",
+   "2012",
+   "2000"
+  ],
+  "source": "SRC-5215",
+  "anchor": [
+   "There is no evidence that the turnout of Kansas voters was suppressed or affected in a negative way by the state’s voter ID requirement.",
+   "the turnout of the Voting-Eligible Population (VEP) in 2000 was 56.7 percent in Kansas.",
+   "the VEP turnout was 58.3 percent",
+   "Maine had a U.S. Senate race in 2012 when Kansas did not."
+  ],
+  "grade": "C",
+  "fact_date": "2015-04-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Hans von Spakovsky, Heritage Foundation Issue Brief 4380 (April 2015); conservative think tank that supports voter ID. Compares raw turnout across years without a control group, a weaker design than GAO's; also argues Catalist data are partisan.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "pp. 1-2",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-155",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-154",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-157",
+  "statement": "Preclearance under the Voting Rights Act's 1975 revision increased long-run voter turnout by 4-8 percentage points through lasting gains in minority participation; Democratic support dropped sharply in covered areas, which the author attributes to white backlash.",
+  "claim": "analysis",
+  "figures": [
+   "1975",
+   "4-8 percentage points"
+  ],
+  "source": "SRC-5216",
+  "anchor": [
+   "Utilizing difference-in-differences to examine the act's 1975 revision, I provide the first estimates of the effects of \"preclearance\" oversight. I find that preclearance increased long-run voter turnout by 4-8 percentage points, due to lasting gains in minority participation.",
+   "Surprisingly, Democratic support dropped sharply in areas subject to oversight."
+  ],
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Desmond Ang (Harvard Kennedy School), AEJ: Applied Economics 2019, peer-reviewed; county difference-in-differences. Abstract only read. Preclearance has been inoperable since Shelby County (EV-DEM-011).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-011",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-158",
+  "statement": "In the 2016 election, residents of entirely-black neighborhoods waited 29% longer to vote than residents of entirely-white neighborhoods and were 74% more likely to spend more than 30 minutes at their polling place.",
+  "claim": "analysis",
+  "figures": [
+   "2016",
+   "29%",
+   "74%",
+   "30 minutes"
+  ],
+  "source": "SRC-5217",
+  "anchor": [
+   "we quantify a racial disparity in voting wait times across a nationwide sample of polling places during the 2016 U.S. presidential election.",
+   "Relative to entirely-white neighborhoods, residents of entirely-black neighborhoods waited 29% longer to vote and were 74% more likely to spend more than 30 minutes at their polling place.",
+   "This disparity holds when comparing predominantly white and black polling places within the same states and counties"
+  ],
+  "grade": "B",
+  "fact_date": "2020-10-31",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Chen (UCLA), Haggag, Pope and Rohla; arXiv v2 (October 2020), also NBER WP 26487, later in the Review of Economics and Statistics. Smartphone geolocation measures time at polling places, a proxy for waiting. Descriptive disparity; the paper discusses mechanisms but this is not a policy evaluation.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-019",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-159",
+  "statement": "The Sentencing Project estimates 4 million people were disenfranchised by a felony conviction in 2024, 1.7% of the voting eligible population, down 31% since 2016 as states restored rights and correctional populations fell; one in 22 African Americans of voting age is disenfranchised.",
+  "claim": "analysis",
+  "figures": [
+   "4 million",
+   "1.7%",
+   "31%",
+   "2016",
+   "One in 22"
+  ],
+  "source": "SRC-5218",
+  "anchor": [
+   "An estimated 4 million people are disenfranchised due to a felony conviction, a figure that has declined by 31% since 2016, as more states enacted policies to curtail this practice and state prison, probation, and parole populations declined.",
+   "One out of 59 adult citizens – 1.7% of the total U.S. voting eligible population – is disenfranchised",
+   "One in 22 African Americans of voting age is disenfranchised"
+  ],
+  "grade": "C",
+  "fact_date": "2024-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-10-31",
+  "context": "The Sentencing Project (advocates ending felony disenfranchisement), October 2024. Estimates from correctional counts and life tables with recidivism and mortality assumptions. The report says part of the decline is due to a method change. No 2026 edition found.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Overview and key findings",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-160",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-160",
+  "statement": "About 72% of people disenfranchised by a felony conviction live in their communities; 40% have fully completed their sentences and about 29% are in prison or jail.",
+  "claim": "analysis",
+  "figures": [
+   "72%",
+   "40%",
+   "29%"
+  ],
+  "source": "SRC-5218",
+  "anchor": [
+   "Approximately 72% of the disenfranchised population are living in their communities, either while supervised on felony probation or parole or after having fully completed their sentences. The largest share of the disenfranchised population (40%) has fully completed their sentence. People currently in prison and jail now represent about 29% of those disenfranchised."
+  ],
+  "grade": "C",
+  "fact_date": "2024-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-10-31",
+  "context": "Same report and method as EV-DEM-159 (advocacy organization; modeled estimates).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Figure 1 discussion",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-159",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-161",
+  "statement": "In a randomized Connecticut experiment with 6,280 people previously incarcerated on a felony, an official mailing on their eligibility raised registration by 1.8 percentage points (from 5.9 percent) and voting from 3.0 to 3.9 percent in November 2012.",
+  "claim": "analysis",
+  "figures": [
+   "6,280",
+   "1.8 percentage points",
+   "5.9 percent",
+   "3.0 percent",
+   "3.9 percent",
+   "2012"
+  ],
+  "source": "SRC-5219",
+  "anchor": [
+   "Sample: 6,280 individuals previously incarcerated on a felony",
+   "registrations rose by 1.8 percentage points, a 30 percent increase from the 5.9 percent of the comparison group who registered.",
+   "increased 30 percent, from 3.0 percent in the comparison group to 3.9 percent in the treatment group.",
+   "and actual voting for the November 2012 election."
+  ],
+  "grade": "B",
+  "fact_date": "2012-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Randomized trial (Gerber, Huber, Meredith, Biggers, Hendry) with the Connecticut Secretary of State, summarized by J-PAL; published in AJPS 2015 (not read). Shows that many people whose rights are already restored do not know it; effects were larger among those who had voted before incarceration.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Results and policy lessons",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-159",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-162",
+  "statement": "In 42 jurisdictions with large noncitizen populations, officials who tabulated 23.5 million votes in 2016 referred an estimated 30 incidents of suspected noncitizen voting, 0.0001 percent of votes; forty of the 42 reported none.",
+  "claim": "data",
+  "figures": [
+   "42",
+   "23.5 million",
+   "30 incidents",
+   "0.0001 percent",
+   "Forty"
+  ],
+  "source": "SRC-5220",
+  "anchor": [
+   "Across 42 jurisdictions, election officials who oversaw the tabulation of 23.5 million votes in the 2016 general election referred only an estimated 30 incidents of suspected noncitizen voting for further investigation or prosecution. In other words, improper noncitizen votes accounted for 0.0001 percent of the 2016 votes in those jurisdictions.",
+   "Forty of the jurisdictions — all but two of the 42 we studied — reported no known incidents of noncitizen voting in 2016."
+  ],
+  "grade": "C",
+  "fact_date": "2017-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Brennan Center (advocacy think tank opposing proof-of-citizenship rules), May 2017; interviews with 44 administrators. Counts referrals and suspicions known to officials, not a records audit, so undetected cases are outside it.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Executive summary, findings"
+ },
+ {
+  "id": "EV-DEM-163",
+  "statement": "Georgia's 2024 citizenship audit found 20 noncitizens among the 8.2 million people registered; nine had voted in earlier elections, and 156 more cases needed further investigation.",
+  "claim": "data",
+  "figures": [
+   "20",
+   "8.2 million",
+   "nine",
+   "156"
+  ],
+  "source": "SRC-5221",
+  "anchor": [
+   "a check of voter rolls found that 20 of the 8.2 million people registered to vote in the state are not U.S. citizens.",
+   "nine of the 20 had voted in previous elections and the other 11 had no record of voting.",
+   "there are 156 people whose citizenship status requires additional investigation"
+  ],
+  "grade": "C",
+  "fact_date": "2024-10-23",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Associated Press report of Georgia's Republican Secretary of State; the 20 were found partly through jury-duty affidavits. Official release not read.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Paragraphs 1-3"
+ },
+ {
+  "id": "EV-DEM-164",
+  "statement": "Utah's review of 2,069,640 voter records confirmed 27 noncitizens, of whom 13 had voted; 25 more were probable noncitizens and 5,007 could not be confirmed either way, and 99.72% were verified citizens.",
+  "claim": "data",
+  "figures": [
+   "2,069,640",
+   "27",
+   "13",
+   "25",
+   "5,007",
+   "99.72%"
+  ],
+  "source": "SRC-5222",
+  "anchor": [
+   "In total, our office reviewed 2,069,640 voter records.",
+   "my office confirmed that 99.72% of Utah’s registered voters are verifiably U.S. citizens.",
+   "During the review, we found 27 confirmed noncitizens",
+   "Additionally, there are 5,007 registrants whose citizenship status we were unable",
+   "My office also identified 25 registered voters who are probable noncitizens.",
+   "Category\nVoted\n\nYear Voted\n\nStatus/Response\nYes\n\n13"
+  ],
+  "grade": "A",
+  "fact_date": "2026-05-27",
+  "checked": "2026-11-16",
+  "recheck": "2027-05-27",
+  "context": "Utah Lieutenant Governor (Republican), final report May 27, 2026. The office warns that SAVE and driver-license data are reliable for confirming citizenship but not for showing non-citizenship, so the 5,007 are not presumed noncitizens.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Cover letter; p. 1; Confirmed Noncitizens table (p. 9)"
+ },
+ {
+  "id": "EV-DEM-165",
+  "statement": "Heritage's election-law lead testified in 2024 that noncitizens are registering and voting but that the extent is unknown because most states do not verify the citizenship of registered voters.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5223",
+  "anchor": [
+   "We know that aliens are registering and actually voting, although we do not know the extent of the problem since the vast majority of states are not verifying the citizenship of registered voters"
+  ],
+  "grade": "C",
+  "fact_date": "2024-05-16",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Hans von Spakovsky (Heritage Foundation, conservative; also a Public Interest Legal Foundation board member), testimony to the House Administration Committee, May 16, 2024. Cites cases in the Heritage Election Fraud Database (not readable: Heritage blocks automated access) and a contested 2014 survey estimate. The audits show some noncitizens did vote, in very small numbers.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "p. 3",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-162",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-164",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-166",
+  "statement": "States reported an average cost of $249,000 to build online voter registration, up from $240,000 in Pew's 2014 survey, and earlier reported spending $0.50 to $2.34 less per electronic transaction than per paper form; California saved almost $2 million in 2012.",
+  "claim": "data",
+  "figures": [
+   "$249,000",
+   "$240,000",
+   "$0.50 and $2.34",
+   "$2 million",
+   "2012",
+   "2014"
+  ],
+  "source": "SRC-5224",
+  "anchor": [
+   "In Pew’s 2014 survey, states cited an average cost of $240,000 to build and implement their systems. In this brief, with several more states reporting, the average cost increased by $9,000 to $249,000.",
+   "States reported spending between $0.50 and $2.34 less per electronic transaction compared with paper.",
+   "In 2012, California saved almost $2 million as a result of implementing online registration"
+  ],
+  "grade": "C",
+  "fact_date": "2015-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "The Pew Charitable Trusts (nonpartisan; funded election modernization work), May 2015; state self-reports, not audited. Old figures; no newer national cost survey found.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Beyond cost savings"
+ },
+ {
+  "id": "EV-DEM-167",
+  "statement": "A University of Pennsylvania study of the 2024 Pennsylvania election found mail voters were 25 percentage points more likely to have their vote counted if told of a disqualifying error before Election Day, and 10 points more likely if they could correct it before Election Day; about 20% of mail ballot requestors gave no email address for notice.",
+  "claim": "analysis",
+  "figures": [
+   "2024",
+   "25 percentage points",
+   "10 points",
+   "20%"
+  ],
+  "source": "SRC-5225",
+  "anchor": [
+   "voters were 25 percentage points more likely to have their vote counted if they were told of a disqualifying error before Election Day, and 10 points more likely to have their vote counted if they had an opportunity to correct that error before Election Day, rather than just on Election Day.",
+   "roughly 20% of mail ballot requestors didn’t provide an email address.",
+   "a new study of the 2024 election in Pennsylvania has found."
+  ],
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "Votebeat (nonprofit election news) report, June 2026, of a University of Pennsylvania study (co-author Michael Morse) using cross-county variation in cure rules; the study itself was not read. Observational across counties.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Paragraphs 4 and 9",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-018",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-168",
+  "statement": "As at 30 September 2026, 97.8% of eligible Australians were enrolled (18,470,795 people), leaving an estimated 412,971 unenrolled; the AEC's goal is at least 95%.",
+  "claim": "data",
+  "figures": [
+   "97.8%",
+   "18,470,795",
+   "412,971",
+   "95%",
+   "30 September 2026"
+  ],
+  "source": "SRC-5226",
+  "anchor": [
+   "Enrolment statistics as at 30 September 2026",
+   "18,470,795",
+   "97.8%",
+   "412,971",
+   "The AEC's goal is to ensure at least 95% of eligible Australians are on the electoral roll at all times."
+  ],
+  "grade": "A",
+  "fact_date": "2026-09-30",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-31",
+  "context": "Australian Electoral Commission, official quarterly estimate; enrolment and voting are compulsory, and the AEC enrols people directly from government data (federal direct enrolment).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Size of the electoral roll and enrolment rate"
+ },
+ {
+  "id": "EV-DEM-169",
+  "statement": "Australia's enrolment rate rose from 90.9% in 2010 to a record 98.2% for the 2025 federal election, which the AEC attributes partly to federal direct enrolment introduced in 2012; turnout of enrolled voters was 89.82% in 2022, and youth enrolment was an estimated 92% in 2025.",
+  "claim": "data",
+  "figures": [
+   "90.9%",
+   "98.2%",
+   "2010",
+   "2012",
+   "89.82%",
+   "92%",
+   "2025"
+  ],
+  "source": "SRC-5227",
+  "anchor": [
+   "Enrolment rates have increased from election to election since 2010 (90.9%), to a record high\nnationally for the 2025 federal election of 98.2%.",
+   "This includes the 2012 introduction and daily maintenance of the AEC’s federal direct\nenrolment and update program .",
+   "2022: 89.82%",
+   "For the 2025 federal election it was estimated to be 92%."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Australian Electoral Commission. Rates are official; the link to direct enrolment is the agency's own account (no independent evaluation found). Turnout is measured against the roll, so rising enrolment lowers measured turnout.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Overall enrolment rates; Youth enrolment; National voter turnout"
+ },
+ {
+  "id": "EV-DEM-170",
+  "statement": "Elections Canada's permanent register covered 96.4% of electors in the preliminary lists for the 2019 general election (accuracy 93.3%, currency 89.9%), up from 92.7% coverage in 2015.",
+  "claim": "data",
+  "figures": [
+   "96.4%",
+   "93.3%",
+   "89.9%",
+   "92.7%",
+   "2019",
+   "2015"
+  ],
+  "source": "SRC-5228",
+  "anchor": [
+   "43rd general election (2019): Coverage: 96.4% Accuracy: 93.3% Currency: 89.9%",
+   "42nd general election (2015): Coverage: 92.7% Accuracy: 90.9% Currency: 84.2%"
+  ],
+  "grade": "A",
+  "fact_date": "2019",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Elections Canada, official register quality measures (coverage = share of eligible electors on the lists). The 2025 figures are in the 45th general election report, which could not be downloaded; a committee witness said all three measures fell in a later election (not verified).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Chart long description (anchors join the listed lines)"
+ },
+ {
+  "id": "EV-DEM-171",
+  "statement": "Since 2018 the EAC has distributed over $1 billion in HAVA Election Security Grants; by August 2024 states had spent over $638 million (about 63%), about $343 million of it on voting equipment and cybersecurity. The EAC's review rests on interviews and an inventory, not on measured outcomes.",
+  "claim": "data",
+  "figures": [
+   "$1 billion",
+   "$638 million",
+   "63%",
+   "$343 million",
+   "2018"
+  ],
+  "source": "SRC-5229",
+  "anchor": [
+   "Since 2018, the EAC has distributed over $1 billion in congressionally appropriated Election Security Grants",
+   "States reported spending over $638 million (approximately 63%) of the more than $1 billion in appropriated Election Security funds.",
+   "States have spent approximately $343 million (about 56% of the Election Security funds that have been spent) on voting equipment and cybersecurity",
+   "Election officials interviewed for the report agreed that federal Election Security Grants help ensure they have the resources they need"
+  ],
+  "grade": "A",
+  "fact_date": "2024-08",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "U.S. Election Assistance Commission, published December 23, 2025 (second Trump administration, before the commissioners were removed in July 2026). Spending figures are state-reported data; the \"impact\" findings are officials' views, so no outcome evaluation of HAVA grants was found.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Key Report Findings"
+ },
+ {
+  "id": "EV-DEM-172",
+  "statement": "In Brazil's largest cities over 20 years, participatory budgeting programs were strongly associated with more health spending, more civil society organizations and lower infant mortality, and the link strengthened the longer programs lasted.",
+  "claim": "analysis",
+  "figures": [
+   "20 years"
+  ],
+  "source": "SRC-5230",
+  "anchor": [
+   "Drawing from an original database of Brazil's largest cities over the last 20 years, we assess whether adopting PB programs influences several indicators of well-being inputs, processes, and outcomes.",
+   "We find PB programs are strongly associated with increases in health care spending, increases in civil society organizations, and decreases in infant mortality rates. This connection strengthens dramatically as PB programs remain in place over longer time frames."
+  ],
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Touchton and Wampler, Comparative Political Studies 2014, peer-reviewed; observational panel (\"associated\"). The link was stronger under Workers' Party mayors, so adoption is not random. Wampler is a long-time PB scholar.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-173",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-173",
+  "statement": "Brazilian municipalities using participatory budgeting in 1990-2004 spent a larger share on sanitation and health, and this was accompanied by lower infant mortality.",
+  "claim": "analysis",
+  "figures": [
+   "1990–2004"
+  ],
+  "source": "SRC-5231",
+  "anchor": [
+   "This paper investigates whether the use of participatory budgeting in Brazilian municipalities during 1990–2004 affected the pattern of municipal expenditures and had any impact on living conditions.",
+   "channeled a larger fraction of their budgets to investments in sanitation and health services. This change is accompanied by a reduction in infant mortality rates."
+  ],
+  "grade": "B",
+  "fact_date": "2014",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Sonia Goncalves, World Development 2014, peer-reviewed; independent of Touchton and Wampler. Panel estimates with municipal fixed effects (abstract only read).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-172",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-174",
+  "statement": "Taking part in New York City's participatory budgeting raised participants' probability of voting in regular elections by an average of 8.4 percentage points against matched non-PB voters, with larger effects for groups that vote less often.",
+  "claim": "analysis",
+  "figures": [
+   "8.4 percentage points"
+  ],
+  "source": "SRC-5232",
+  "anchor": [
+   "Comparing PB voters to similar individuals who were not exposed to PB, we find that engaging with participatory budgeting increased individuals’ probability of voting by an average of 8.4 percentage points.",
+   "these effects are greater for those who often have lower probabilities of voting—young people, lower educated and lower income voters, black voters"
+  ],
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Carlson, Reynolds and Johnson, Political Behavior (online 2021, print 2023), peer-reviewed; coarsened exact matching on voter files. Self-selection into PB is a limit: people who choose to take part may already be more likely to vote. A 2026 dissertation on other North American cities reportedly found no turnout effect (not read).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-172",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-175",
+  "statement": "Ireland's Citizens' Assembly of 99 randomly selected citizens voted 87% that the constitutional abortion provision should not be retained in full, and 57% recommended replacing it with a provision letting parliament legislate.",
+  "claim": "data",
+  "figures": [
+   "99",
+   "87%",
+   "57%"
+  ],
+  "source": "SRC-5234",
+  "anchor": [
+   "99 ordinary citizens ‘ randomly selected so as to be broadly representative of Irish society ’",
+   "article 40.3.3 should not be retained in full ( 87% of members agreed).",
+   "57% of members recommended that it should be replaced with a provision authorising the Oireachtas to legislate on matters relating to termination of pregnancy."
+  ],
+  "grade": "C",
+  "fact_date": "2017-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Electoral Reform Society (UK advocacy group for deliberative reform), May 2018, restating the Assembly's June 2017 final report (not read). The referendum bill followed the repeal-and-replace route.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Paragraphs on the Assembly"
+ },
+ {
+  "id": "EV-DEM-176",
+  "statement": "In the May 2018 referendum that followed, Irish voters approved the Thirty-sixth Amendment by 1,429,981 to 723,632, with 64.13% turnout.",
+  "claim": "data",
+  "figures": [
+   "1,429,981",
+   "723,632",
+   "64.13%",
+   "2018"
+  ],
+  "source": "SRC-5233",
+  "anchor": [
+   "Votes in favour of the proposal: 1,429,981",
+   "Votes against the proposal: 723,632",
+   "Percentage Poll: 64.13%",
+   "Referendum on the Thirty-sixth Amendment of the Constitution Bill 2018"
+  ],
+  "grade": "A",
+  "fact_date": "2018-05-25",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Official result (Electoral Commission of Ireland archive). Yes share is 66.4% of valid votes (project arithmetic, not anchored).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Result Summary"
+ },
+ {
+  "id": "EV-DEM-177",
+  "statement": "The Electoral Reform Society argues that the Citizens' Assembly helped break years of political deadlock on abortion, and that the referendum bill followed the Assembly's repeal-and-replace recommendation rather than the parliamentary committee's simple repeal.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5234",
+  "anchor": [
+   "But it only took 99 ordinary citizens to help break years of political deadlock and reach a consensus on this highly polarising issue.",
+   "The final Referendum Bill , however, accorded with the ‘repeal and replace’ recommendations made by the Assembly."
+  ],
+  "grade": "C",
+  "fact_date": "2018-05-29",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Advocacy group that promotes citizens' assemblies, writing four days after the vote. Causal attribution is interpretive: party positions and public opinion were also moving. The 99 is restated from EV-DEM-175.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Closing paragraphs",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-176",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-178",
+  "statement": "Of the 149 proposals of France's Citizens' Convention for Climate, an analysis of the May 2021 climate bill found 18 included as is and 26 not included at all; the 150 members gave the government 3.3 out of 10 for implementation.",
+  "claim": "analysis",
+  "figures": [
+   "149",
+   "18",
+   "26",
+   "150",
+   "3.3 out of 10"
+  ],
+  "source": "SRC-5237",
+  "anchor": [
+   "Of the 149 proposals put forward by the Citizens' Climate Convention:",
+   "18 were included \"as is\"",
+   "26 were not included at all",
+   "a group of 150 citizens selected at random",
+   "the members of the Citizens' Climate Convention gave the government a score of 3.3 out of 10 for its implementation of their proposals."
+  ],
+  "grade": "C",
+  "fact_date": "2021-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Carbone 4 (French climate consultancy), May 17, 2021, on the bill as it stood May 4, 2021 (before the Senate). Counts depend on what is classed \"as is\"; the government then claimed most proposals were taken up in whole or part (not read).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Summary",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-179",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-179",
+  "statement": "Counting the climate and resilience bill and executive measures, 10% of the Convention's recommendations were accepted without modification, 37% were modified or watered down and 53% were rejected.",
+  "claim": "analysis",
+  "figures": [
+   "10%",
+   "37%",
+   "53%"
+  ],
+  "source": "SRC-5236",
+  "anchor": [
+   "considering the bill on ‘climate and resilience’ proposed to the Parliament as well as direct executive directives, 10% of the CCC’s recommendations were accepted by the government without modification, 37% were modified or watered down, and 53% were rejected."
+  ],
+  "grade": "C",
+  "fact_date": "2021-06-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Dimitri Courant, academic observer of the Convention, Deliberative Democracy Digest (June 2021). A failure-to-avoid case: the President promised to submit proposals \"without filters\" and did not.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Paragraph 5",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-178",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-180",
+  "statement": "The OECD collected 289 representative deliberative processes (282 in OECD countries) from 1986 to October 2019.",
+  "claim": "data",
+  "figures": [
+   "289",
+   "282",
+   "1986",
+   "October 2019"
+  ],
+  "source": "SRC-5235",
+  "anchor": [
+   "Drawing on data collected from 289 case studies (282 from OECD countries) from 1986 to October 2019"
+  ],
+  "grade": "A",
+  "fact_date": "2020",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "OECD, June 2020; database of processes commissioned by public authorities (selection depends on what was reported to the OECD).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Executive summary / Foreword"
+ },
+ {
+  "id": "EV-DEM-181",
+  "statement": "Where implementation data existed (55 cases), public authorities implemented over half of the recommendations in 76% of deliberative processes and all of them in 36%; in 11% none were implemented.",
+  "claim": "data",
+  "figures": [
+   "55",
+   "76%",
+   "36%",
+   "11%"
+  ],
+  "source": "SRC-5235",
+  "anchor": [
+   "There was data available for 55 cases",
+   "In three quarters (76%) of these cases, the public authorities implemented over half of the recommendations. In four in ten (36%) of these cases, it implemented all of them. Only in six (11%) of these 55 cases were none of the recommendations implemented.",
+   "whether there is a general tendency to ‘cherrypick’"
+  ],
+  "grade": "A",
+  "fact_date": "2020",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "OECD 2020, Figure 4.9 (13 countries plus EU, 1997-2019). Only 55 of 289 cases had data, likely the better-documented ones; the OECD itself flags possible cherry-picking.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Chapter 4, Figure 4.9"
+ },
+ {
+  "id": "EV-DEM-182",
+  "statement": "Tracking the same individuals over time, declines in local coverage of House elections between 2010 and 2014 were followed by reductions in citizens' political knowledge and participation; local papers published less, and less substantive, political news.",
+  "claim": "analysis",
+  "figures": [
+   "10,000",
+   "2010",
+   "2014"
+  ],
+  "source": "SRC-5238",
+  "anchor": [
+   "Drawing on a content analysis of more than 10,000 stories about US House campaigns in 2010 and 2014, we show that local newspapers over this period published less, and less substantive, political news.",
+   "reveals that reductions in citizens’ political knowledge and participation follow declines in coverage about congressional elections."
+  ],
+  "grade": "B",
+  "fact_date": "2018",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Hayes and Lawless, Journal of Politics 80(1), peer-reviewed; CCES panel linked to content analysis. The body text calls the effects modest.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-183",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-183",
+  "statement": "Medill counted 213 news desert counties in 2025, up from 206, and another 1,524 counties with only one local news source, so about 50 million Americans have limited or no access to local news; newspaper closures were 136 in the past year, against about 150 news desert counties twenty years earlier.",
+  "claim": "data",
+  "figures": [
+   "213",
+   "206",
+   "1,524",
+   "50 million",
+   "136",
+   "150"
+  ],
+  "source": "SRC-5239",
+  "anchor": [
+   "The number of news desert counties rose to 213 in 2025, a jump from 206 in last year's report.",
+   "In another 1,524 counties, there's only one remaining news source.",
+   "Taken together, some 50 million Americans have limited to no access to local news.",
+   "Twenty years ago, there were about 150 news desert counties",
+   "The rise in news deserts was accompanied by an increase in newspaper closures, which ticked up to 136 this past year"
+  ],
+  "grade": "C",
+  "fact_date": "2025-10-20",
+  "checked": "2026-11-16",
+  "recheck": "2026-10-31",
+  "context": "Medill School of Journalism, Northwestern University, State of Local News 2025 (release of October 20, 2025, quoted through WebFetch). The 2026 edition may already be out; check. University research project counting outlets, not an effects study.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Release text"
+ },
+ {
+  "id": "EV-DEM-184",
+  "statement": "State civics exams raise young people's civic knowledge most for those with less exposure at home, specifically Latinos and immigrants: the study finds modest support that graduation-linked exams matter more and strong support for this compensation effect.",
+  "claim": "analysis",
+  "figures": [
+   "2006",
+   "2010",
+   "18–24"
+  ],
+  "source": "SRC-5240",
+  "anchor": [
+   "We further hypothesize that civics requirements have the biggest effect on young people with less exposure to information about the U.S. political system at home, specifically Latinos and, especially, immigrants—the compensation hypothesis.",
+   "We test these hypotheses with the 2006 and 2010 National Assessment of Educational Progress (NAEP) civics test administered to high school students, and with a large national survey of 18–24 year-olds.",
+   "we find modest support for the incentive hypothesis and strong support for the compensation hypothesis."
+  ],
+  "grade": "B",
+  "fact_date": "2016",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Campbell (Notre Dame) and Niemi (Rochester), APSR 2016, peer-reviewed; cross-state comparisons of knowledge, not turnout.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-185",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-185",
+  "statement": "The civics test graduation requirement adopted by 18 states between 2016 and 2022 did not raise youth turnout: young people in those states were at most 1.5 percentage points more likely to vote, not statistically significant.",
+  "claim": "analysis",
+  "figures": [
+   "18 states",
+   "2016",
+   "2022",
+   "1.5 percentage points"
+  ],
+  "source": "SRC-5241",
+  "anchor": [
+   "Between 2016 and 2022, 18 states implemented a version of the Civics Education Initiative (CEI), which requires high school students to take or pass a standardized civics test as a condition for graduation.",
+   "young people in states requiring the civics tests for graduation were at most 1.5 percentage points more likely to vote than peers in states that didn’t have such civics requirements, which is not statistically significant."
+  ],
+  "grade": "C",
+  "fact_date": "2023-10-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Penn State news release on Jung and Gopalan, Educational Evaluation and Policy Analysis (2023, peer-reviewed; not read). Difference-in-differences on self-reported CPS turnout. Graded C because only the release was read. Test proponents say turnout was never the aim (not anchored).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Paragraphs 2 and 5",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-184",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-186",
+  "statement": "Code for America reports that 75% of Medicaid clients with a streamlined (automatic) renewal trusted the agency to often or always do the right thing for people like them, against 66% of those who went through the standard renewal, but assignment was not random.",
+  "claim": "analysis",
+  "figures": [
+   "75%",
+   "66%"
+  ],
+  "source": "SRC-5242",
+  "anchor": [
+   "We found 75% of clients with the streamlined experience trusted DHS to often or always do the right thing for people like them",
+   "in contrast to 66% of clients who had to complete the standard renewal process.",
+   "Because it wasn't random who received the more streamlined renewal process,",
+   "we can't say for certain that automatic renewals caused clients to have higher trust in their government."
+  ],
+  "grade": "C",
+  "fact_date": "2025-01-24",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "Code for America (nonprofit that builds benefit-delivery tools, so it has a stake) with the Better Government Lab, January 2025; survey, not randomized. Quoted through WebFetch, which split the sentences. Experimental evidence that better service raises trust is thin.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Findings paragraphs",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-065",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-190",
+  "statement": "Seattle gives every registered voter four $25 vouchers; a 2024 APSR study finds that those most mobilized by the vouchers belong to groups already overrepresented among donors, with a white resident 2.5% more likely than a nonwhite resident to donate in a voucher year beyond existing gaps.",
+  "claim": "analysis",
+  "figures": [
+   "$25",
+   "2.5%"
+  ],
+  "source": "SRC-5252",
+  "anchor": [
+   "all registered voters receive four $25 vouchers to donate to candidates abiding by stricter campaign finance restrictions",
+   "I find that those most mobilized by the availability of vouchers belong to groups already overrepresented within the donor pool",
+   "a white individual has an additional 2.5% higher likelihood of donating in a voucher year relative to a nonwhite individual"
+  ],
+  "grade": "B",
+  "fact_date": "2024-03",
+  "recheck": "2027-11-16",
+  "context": "Yorgason (Stanford), American Political Science Review, 2024, CC BY 4.0. Difference-in-differences on individual and block-group panels, 2005-2021, using administrative voucher and donation records. The headline matches its tables; it measures who is newly mobilized, not whether the voucher pool is more representative than the cash pool, which is where it and McCabe and Heerwig differ.",
+  "locator": "Abstract; Results (Table 4 discussion)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-191",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-192",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-191",
+  "statement": "In Seattle's first voucher election (2017), 20,727 residents used Democracy Vouchers against 10,297 cash contributors; 22 percent of voucher users came from the wealthiest quintile of neighborhoods against nearly 30 percent of cash donors, but 86 percent of voucher users were white against seventy-eight percent of registered voters.",
+  "claim": "analysis",
+  "figures": [
+   "20,727",
+   "10,297",
+   "22 percent",
+   "30 percent",
+   "86 percent"
+  ],
+  "source": "SRC-5253",
+  "anchor": [
+   "In 2017, the number of cash contributors rose to 10,297.",
+   "However, 20,727 residents used their Democracy Vouchers",
+   "only 22 percent of voucher users came from the wealthiest quintile of neighborhoods, but nearly 30 percent of cash contributors came from those communities.",
+   "Seventy-eight percent of registered voters are white, but 86 percent of voucher users are white."
+  ],
+  "grade": "C",
+  "fact_date": "2018-05-29",
+  "recheck": "2027-11-16",
+  "context": "Heerwig (SUNY Stony Brook) and McCabe (Georgetown), sociologists, writing on the Brennan Center's site (a left-of-center advocate of public financing); their peer-reviewed version is in Election Law Journal (2019, not read here). Descriptive comparison of voucher users with cash donors in one year; counts are not a causal estimate. Their own figures show the pool still unrepresentative, as their headline concedes ('more work remains').",
+  "locator": "Four key takeaways",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-190",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-192",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-192",
+  "statement": "Yorgason finds that voucher users are similarly or less representative than same-year municipal cash donors on every measure except income, where they are less wealthy, partly because less-wealthy past donors switched from cash to vouchers.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5252",
+  "anchor": [
+   "In all cases except income, voucher users are similarly representative or less representative than same-year municipal cash donors.",
+   "A potential explanation is that less-wealthy individuals substitute a cash contribution with a voucher contribution, whereas wealthier individuals continue to contribute with cash."
+  ],
+  "grade": "B",
+  "fact_date": "2024-03",
+  "recheck": "2027-11-16",
+  "context": "Same study as EV-DEM-190 (APSR, 2024). This is where it and McCabe and Heerwig agree: on income the voucher pool is less wealthy than the cash pool. They differ on race and age.",
+  "locator": "Results (Figure 2 discussion); Why might inequality persist?",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-191",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-193",
+  "statement": "Small donors to New York City's matched 2009 City Council races came from 89 percent of the city's census block groups, against 30 percent for unmatched 2010 State Assembly races; participating Council candidates raised 37 percent of private money from donors of $250 or less, against 15 percent for non-participants.",
+  "claim": "analysis",
+  "figures": [
+   "89 percent",
+   "30 percent",
+   "37 percent",
+   "15 percent",
+   "$250"
+  ],
+  "source": "SRC-5254",
+  "anchor": [
+   "less to a candidate) came from a much broader range of neighborhoods than small donors to 2010 State Assembly",
+   "Small donors who gave money to a City Council candidate came from 89 percent of the city’s census",
+   "block groups (CBGs). By contrast, the small donors in the State Assembly elections came from only 30 percent",
+   "financing system in the 2009 City Council elections raised only 15 percent of their private money from donors",
+   "who gave $250 or less. For participating candidates that figure was 37 percent."
+  ],
+  "grade": "C",
+  "fact_date": "2012",
+  "recheck": "2027-11-16",
+  "context": "Brennan Center (left-of-center advocate) with the Campaign Finance Institute (nonpartisan research; Malbin), 2012. Observational: compares city and state races in the same city, not a before-after design, so other city-state differences could contribute; the authors attribute the gap to the 6-to-1 match. Malbin and Parrott (The Forum, 2017; abstract seen only in search results, not read) report that Los Angeles's weaker match did not produce the same effect.",
+  "locator": "Executive summary; pp. 6-7",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-194",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-190",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-194",
+  "statement": "In New York State's first publicly financed legislative elections (2024), small in-district donations plus their match rose from less than 5 percent of candidates' funding in recent cycles to 45 percent, an estimated 50,800 people gave such donations, and the share from wealthy donors, corporations and PACs fell from 70 percent or more to 38 percent.",
+  "claim": "analysis",
+  "figures": [
+   "5 percent",
+   "45 percent",
+   "2024",
+   "50,800",
+   "70 percent",
+   "38 percent"
+  ],
+  "source": "SRC-5255",
+  "anchor": [
+   "Those donations shot up from less than 5 percent of overall funding in recent cycles to 45 percent in 2024 when factoring in matching funds.",
+   "the share of candidates’ funding from wealthy individuals and entities like corporations and political action committees decreased from 70 percent or more in recent elections to 38 percent in 2024.",
+   "An estimated 50,800 New Yorkers made small-dollar in-district donations, which is roughly twice as many as in 2020 or 2022."
+  ],
+  "grade": "C",
+  "fact_date": "2025-02-14",
+  "recheck": "2027-02-14",
+  "context": "Brennan Center, February 2025; it designed and campaigned for the program, so it has a stake. Before-after comparison of one cycle; the shift in funding shares mechanically includes the match itself. City & State's report on the same analysis notes it did not examine fraud, and the state program has been criticized as less stringent than New York City's. No independent evaluation found yet.",
+  "locator": "Body, paragraphs 6-7",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-193",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-190",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-195",
+  "statement": "Andrew Hall finds, from staggered adoption in five states (Minnesota, Wisconsin, Arizona, Maine, Connecticut), that public funding of state legislative elections deprives incumbents of their financial and electoral advantages but increases legislative polarization, by cutting the role of moderate access-oriented interest groups.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5256",
+  "anchor": [
+   "I find that the public funding of state legislative elections deprives incumbents of their financial and electoral advantages but increases legislative polarization.",
+   "I take advantage of the staggered implementation of public funding programs in five states: Minnesota and Wisconsin, who implemented programs in the 1970s, and Arizona, Maine, and Connecticut"
+  ],
+  "grade": "C",
+  "fact_date": "2014-05-14",
+  "recheck": "2027-11-16",
+  "context": "Andrew B. Hall, author's blog summary (LSE USAPP, 2014) of his working paper. Quasi-experimental (difference-in-differences against non-adopting states) at the chamber level. Contested by Masket and Miller's individual-legislator design and by the Brennan Center; Hall reports it holds across tests.",
+  "locator": "Paragraphs 4-6",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-196",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-197",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-198",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-196",
+  "statement": "Miller and Masket find no relationship between public funding and legislative polarization in Arizona and Maine: legislators who took full public funding are no more or less extreme than traditionally funded colleagues; they say the two studies answer different questions and that neither finds public funding reduces polarization.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5257",
+  "anchor": [
+   "we find no relationship at all between public funding and legislative polarization: Legislators who accept full public funding of their campaigns are no more or less ideologically extreme than their traditionally funded colleagues.",
+   "The most obvious explanation is that the two papers are answering different questions.",
+   "What Hall’s paper and ours have in common is the clear finding that public funding of campaigns does not produce less polarized political systems."
+  ],
+  "grade": "C",
+  "fact_date": "2015-01-22",
+  "recheck": "2027-11-16",
+  "context": "Authors' summary (Good Authority, January 2015) of Masket and Miller, State Politics & Policy Quarterly 15(1), 2015, peer-reviewed (the abstract was not reachable). Compares individual legislators within Arizona and Maine, so it cannot detect a chamber-wide shift that touches privately funded members too; the authors say so. Both studies agree public funding does not reduce polarization.",
+  "locator": "Paragraphs 2, 5 and 7",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-195",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-197",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-197",
+  "statement": "The Brennan Center argues that small donors are not more polarized than large donors and that long-running matching programs in New York City and Los Angeles, and the presidential primary match, have not worsened polarization.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5285",
+  "anchor": [
+   "The evidence doesn’t support the notion that small donors are more polarizing than the big donors that currently dominate election spending.",
+   "longstanding small donor matching programs in places like New York City and Los Angeles have not exacerbated polarization."
+  ],
+  "grade": "C",
+  "fact_date": "2020-02-12",
+  "recheck": "2027-11-16",
+  "context": "Brennan Center (left-of-center advocate of small-donor matching), February 2020, replying to Richard Pildes. A literature review with no new estimate; it concerns matching programs, not the full-funding clean-election systems Hall and Masket and Miller study.",
+  "locator": "Summary; paragraph 11",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-195",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-196",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-198",
+  "statement": "Across all state legislatures from 1976 to 2018, state-years with public financing saw 12 to 18 more candidates for legislative office, about 9%-14% of a standard deviation; the author calls this suggestive evidence.",
+  "claim": "analysis",
+  "figures": [
+   "1976",
+   "2018",
+   "12 and 18",
+   "9%–14%"
+  ],
+  "source": "SRC-5258",
+  "anchor": [
+   "data on all candidates running for state legislature across all US states between 1976 and 2018",
+   "Across all state legislatures, those state-years with public financing saw an increase\nin the number of candidates running for office by between 12 and 18 candidates.",
+   "increase of 12–18 candidates corresponds to approximately 9%–14% of a standard",
+   "This finding provides suggestive evidence\nthat public financing increases the number of candidates running for state legislative\noffice"
+  ],
+  "grade": "B",
+  "fact_date": "2022",
+  "recheck": "2027-11-16",
+  "context": "Mancinelli (Notre Dame), State Politics & Policy Quarterly, 2022, CC BY 4.0. Two-way fixed effects and inverse-probability reweighting; the reweighted estimate was not statistically significant, as the author reports. Measures candidate counts, not wins or the gender of entrants. Consistent with Hall's finding that public funding erodes incumbents' advantages.",
+  "locator": "Results (Table 2); Conclusion",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-195",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-201",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-199",
+  "statement": "Almost 85% of Connecticut state legislative candidates now use public funds under the Citizens' Election Program; participation was 75% of successful candidates in its first year (2008) and at its lowest, 71.4% of all candidates, in 2010.",
+  "claim": "data",
+  "figures": [
+   "85%",
+   "75%",
+   "2008",
+   "71.4%",
+   "2010"
+  ],
+  "source": "SRC-5258",
+  "anchor": [
+   "almost 85% of Connecticut state legislative candidates utilize public funds for their",
+   "candidates opted into the program in 2008, its very first year on the books; today,",
+   "campaign corruption,2 80% of citizens favored Clean Elections, and 75% of successful",
+   "with 71.4% of all candidates opting into public funds,",
+   "(Noble 2017; SEEC 2022a). 2010 had the lowest amount of participation since the"
+  ],
+  "grade": "B",
+  "fact_date": "2022",
+  "recheck": "2027-11-16",
+  "context": "Participation figures as Mancinelli reports them from Connecticut's State Elections Enforcement Commission (SEEC 2022a) and Noble (2017); the SEEC data were not read directly.",
+  "locator": "Section on Connecticut, p. 441 (Figure 1)",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-200",
+  "statement": "GAO found that the share of general-election candidates taking full public funding rose in Maine from 33 percent in 2000 to over 80 percent in 2006 and 2008, and in Arizona from 26 percent in 2000 to 64 percent in 2008.",
+  "claim": "data",
+  "figures": [
+   "33 percent in 2000",
+   "over 80 percent in 2006 and 2008",
+   "26 percent in 2000",
+   "64 percent in 2008"
+  ],
+  "source": "SRC-5259",
+  "anchor": [
+   "increased from 33 percent in 2000 to over 80 percent in 2006 and 2008",
+   "increased from 26 percent in 2000 to 64 percent in 2008"
+  ],
+  "grade": "A",
+  "fact_date": "2010-05",
+  "recheck": "2027-11-16",
+  "context": "GAO, May 2010 (Obama administration era; GAO is a legislative-branch agency), updating GAO-03-453. Fragments relayed by a fetch tool because gao.gov blocks automated download; verify against the report.",
+  "locator": "Highlights, What GAO Found",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-201",
+  "statement": "GAO could not attribute the one statistically significant change it found (a narrower winners' margin) to the Maine and Arizona programs, observed no changes in voter choice, and found no indication that the programs reduced perceived interest-group influence.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5259",
+  "anchor": [
+   "we could not directly attribute these changes to the programs",
+   "there were no observed changes in voter choice",
+   "no indication the programs decreased perceived interest group influence"
+  ],
+  "grade": "C",
+  "fact_date": "2010-05",
+  "recheck": "2027-11-16",
+  "context": "GAO (nonpartisan, legislative branch), 2010; before-after analysis of 1996-2008 elections plus 22 candidate and 10 interest-group interviews, without a comparison-state design, which limits attribution, as GAO says. Graded C as an agency's evaluation (analysis). Fragments relayed by a fetch tool; verify.",
+  "locator": "Highlights, What GAO Found",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-198",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-195",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-202",
+  "statement": "Each major-party presidential nominee received a $21.8 million public grant in 1976; 2008, at $84.1 million, was the last year a major-party candidate accepted the general-election grant, which stands at $123.5 million for 2024.",
+  "claim": "data",
+  "figures": [
+   "1976",
+   "$21.8 million",
+   "2008",
+   "$84.1 million",
+   "2024",
+   "$123.5 million"
+  ],
+  "source": "SRC-5260",
+  "anchor": [
+   "In 1976, each major party nominee received $21.8 million. By 2008 (the last year a major party candidate chose to accept a general election grant), that amount had grown to $84.1 million. (The general election grant for 2024 is $123.5 million.)"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "recheck": "2027-11-16",
+  "context": "FEC explainer, current for the 2024 cycle.",
+  "locator": "Public funding of presidential elections, general election paragraph",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-203",
+  "statement": "In 2008 Barack Obama became the first person elected President without accepting any public funds, and no major candidate accepted them in 2012; taxpayer checkoff designations fell from a high of 28.7% of filers in 1980 to 5.4% in 2015.",
+  "claim": "data",
+  "figures": [
+   "2008",
+   "2012",
+   "28.7%",
+   "1980",
+   "5.4%",
+   "2015"
+  ],
+  "source": "SRC-5261",
+  "anchor": [
+   "No major candidate accepted public funds\nin 2012. In 2008, then-candidate Barack Obama became the first person, since the public\nfinancing program’s inception, elected President without accepting any public funds.",
+   "Designations reached a high point in 1980, when 28.7% of filers designated",
+   "In 2015 (the\nlatest data available as of this writing), the checkoff rate was 5.4%."
+  ],
+  "grade": "A",
+  "fact_date": "2017-02-07",
+  "recheck": "2027-11-16",
+  "context": "CRS, February 2017; nonpartisan. The checkoff series ends in 2015 in this report; the FEC's checkoff chart has later years but its PDF table did not extract cleanly, so later rates are not entered.",
+  "locator": "Summary; Taxpayer designations",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-204",
+  "statement": "CRS reports a general consensus, even among supporters, that the presidential program's spending limits are too low to attract the most competitive candidates, given the rise of super PAC and other outside spending.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5261",
+  "anchor": [
+   "There is,\nhowever, a consensus even among supporters that the presidential public financing program is\nantiquated and offers insufficient benefits to attract the most competitive candidates.",
+   "there is a general consensus that the spending limits\nassociated with the current program are insufficient to attract the most\ncompetitive candidates."
+  ],
+  "grade": "C",
+  "fact_date": "2017-02-07",
+  "recheck": "2027-11-16",
+  "context": "CRS (nonpartisan), 2017, characterizing the debate; not an estimate. The FEC's own record that no major-party nominee has taken the grant since 2008 is consistent with it.",
+  "locator": "Summary; Participation discussion",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-202",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-205",
+  "statement": "In Citizens United (2010) the Court upheld the federal disclaimer and disclosure requirements as applied, calling disclosure the less restrictive alternative to more comprehensive regulation; every Justice except Thomas joined that part (Part IV).",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5262",
+  "anchor": [
+   "(b) The disclaimer and disclosure requirements are valid as applied",
+   "Roberts, C. J.). Disclosure is the less restrictive alternative to more",
+   "all but Part IV, and in which Stevens, Ginsburg, Breyer, and Sotomayor, JJ., joined as to Part IV."
+  ],
+  "grade": "A",
+  "fact_date": "2010-01-21",
+  "recheck": "2027-11-16",
+  "context": "Holding of the Court (Syllabus and line-up). The Court also said as-applied challenges remain open to groups showing a reasonable probability of threats, harassment or reprisals.",
+  "locator": "558 U.S. 310, Syllabus pp. 315-316 and opinion line-up",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-206",
+  "statement": "In Americans for Prosperity Foundation v. Bonta (July 1, 2021) the Court held California's requirement that charities file their major donors' names (Schedule B) with the state facially invalid, and held that exacting scrutiny requires disclosure rules to be narrowly tailored, though not the least restrictive means.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5263",
+  "anchor": [
+   "concluding that California’s disclosure requirement is facially invalid because it burdens donors’ First Amendment",
+   "The Court concludes that exacting scrutiny requires that a government-mandated disclosure regime be narrowly tailored to the government’s asserted interest, even if it is not the least restrictive means of",
+   "Argued April 26, 2021—Decided July 1, 2021*"
+  ],
+  "grade": "A",
+  "fact_date": "2021-07-01",
+  "recheck": "2027-11-16",
+  "context": "Holding (Roberts, C.J., for the Court except Part II-B-1). Justice Sotomayor's dissent warned that the analysis 'marks reporting and disclosure requirements with a bull's-eye'. It concerned nonprofit donor reporting to a state regulator, not electoral disclosure, but its tailoring rule applies to election disclosure laws.",
+  "locator": "Slip op., Syllabus pp. 1-3; dissent p. 1",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-207",
+  "statement": "On June 29, 2026 the Arizona Supreme Court rejected the facial challenge to Proposition 211, which requires groups spending more than $50,000 statewide or $25,000 on other campaigns to disclose original sources giving more than $5,000, but let the plaintiffs' as-applied free-speech claim proceed.",
+  "claim": "data",
+  "figures": [
+   "June 29, 2026",
+   "$50,000",
+   "$25,000",
+   "$5,000"
+  ],
+  "source": "SRC-5265",
+  "anchor": [
+   "Filed June 29, 2026",
+   "See Voters’ Right to Know Act, Proposition 211",
+   "spends more than $50,000 on campaign media for statewide campaigns or more than $25,000 on other campaigns",
+   "We hold that Plaintiffs failed to sufficiently allege that the Act is facially unconstitutional.",
+   "But because the Plaintiffs sufficiently alleged at this very early stage that the Act is unconstitutional as applied to them under the Arizona Constitution’s free-speech provision, the court erred by dismissing that claim.",
+   "$5,000 in traceable monies or in-kind contributions to the covered person"
+  ],
+  "grade": "A",
+  "fact_date": "2026-06-29",
+  "recheck": "2027-06-29",
+  "context": "Holding of a state supreme court on state constitutional claims (Timmer, C.J., for four Justices; three concurred in part and dissented in part). The as-applied claim is remanded, so the law's reach is not settled; federal challenges are separate (not read).",
+  "locator": "Opinion ¶¶ 1-8",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-208",
+  "statement": "In Arizona Free Enterprise Club v. Bennett (2011) the Court held, five Justices to four, that Arizona's trigger matching funds, which rose with a privately financed opponent's and outside groups' spending, substantially burden speech, while saying it was not questioning the wisdom of public financing itself.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5264",
+  "anchor": [
+   "Held: Arizona’s matching funds scheme substantially burdens political",
+   "We do not today call into question the wisdom of public",
+   "Roberts, C. J., delivered the opinion of the Court, in which Scalia,",
+   "opinion, in which Ginsburg, Breyer, and Sotomayor, JJ., joined, post,"
+  ],
+  "grade": "A",
+  "fact_date": "2011-06-27",
+  "recheck": "2027-11-16",
+  "context": "Holding of the Court; Kagan, J., dissented with three others. The holding concerns matching that rises with opponents' and outside groups' spending; the opinion says it does not question public financing as such.",
+  "locator": "564 U.S. 721, Syllabus p. 723; opinion p. 753",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-209",
+  "statement": "CRS found the FEC deadlocked on approximately 13% of closed enforcement matters (MURs) in 2008-2009 and 24.4% in calendar year 2014, adding that results vary with method and the kind of votes counted.",
+  "claim": "data",
+  "figures": [
+   "13%",
+   "2008-2009",
+   "24.4%",
+   "2014"
+  ],
+  "source": "SRC-5266",
+  "anchor": [
+   "CRS found that in 2008-2009, the FEC deadlocked on approximately",
+   "13% of closed MURs.",
+   "year 2014, commissioners deadlocked on 24.4% of closed MURs.",
+   "Results from other analyses\nvary based on methodology, time period, and the types of votes studied."
+  ],
+  "grade": "A",
+  "fact_date": "2015-12-22",
+  "recheck": "2027-11-16",
+  "context": "CRS (nonpartisan), 2015, counting FEC vote certifications; the FEC itself has not published deadlock statistics since 2009. A count of votes, so data; definitions of 'deadlock' differ across studies (Smith testimony).",
+  "locator": "Deadlocked Votes, pp. 9-10",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-210",
+  "statement": "CRS judges that deadlocks might or might not reflect how well enforcement works: Congress may have intended them through the six-member, four-vote design, but at least in some cases they prevent campaign finance law from being enforced.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5266",
+  "anchor": [
+   "Overall, deadlocked votes might or might not reflect the overall functioning of the enforcement\nprocess.",
+   "Congress appears to have anticipated that the commission might be unable to reach consensus in\nsome controversial cases, and perhaps intended for deadlocks to occur.",
+   "deadlocks\nprevent campaign finance law from being enforced"
+  ],
+  "grade": "C",
+  "fact_date": "2015-12-22",
+  "recheck": "2027-11-16",
+  "context": "CRS (nonpartisan), 2015; presents both readings. Smith (Institute for Free Speech) argues the design is intentional and beneficial; reform advocates argue deadlock is failure.",
+  "locator": "Deadlocked Votes, p. 10",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-211",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-209",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-211",
+  "statement": "Former FEC chairman Bradley Smith testified in 2019 that deadlocks are the exception and intentional, noting that counts range from 30 percent (Commissioner Ravel's office, 2016) to 14 percent (three Republican commissioners, first nine months of 2016), and that advisory-opinion deadlocks were 3.7 percent from 1977 through 2012.",
+  "claim": "analysis",
+  "figures": [
+   "30 percent",
+   "14 percent",
+   "3.7 percent",
+   "1977",
+   "2012"
+  ],
+  "source": "SRC-5267",
+  "anchor": [
+   "According to a report by the office of former Commissioner Ann Ravel, in 2016 the FEC",
+   "Another major study of advisory opinions found “deadlocks on just 3.7 percent of",
+   "that “deadlocks” are the exception, rather than the rule, at the FEC, that their importance, when",
+   "“deadlocked” on 30 percent of enforcement matters.6 The Ravel report came on the heels of two",
+   "“deadlocked” on just 14 percent of votes in the first 9 months of the year,9 not the 30 percent",
+   "requests from 1977 through 2012, but over six percent every year but one between 2006 and 2012,"
+  ],
+  "grade": "C",
+  "fact_date": "2019-09-25",
+  "recheck": "2027-11-16",
+  "context": "Bradley Smith, former Republican FEC chairman and chairman of the Institute for Free Speech (opposes most campaign-finance regulation), testifying to the House Administration Committee, September 2019. A view, citing other parties' counts; he concedes the higher numbers are 'not insubstantial'. The 3.7 percent is Franz (2013), quoted by Smith.",
+  "locator": "Testimony pp. 2-3 and nn. 6-9",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-209",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-210",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-212",
+  "statement": "International IDEA's database of 181 countries shows close to 70 per cent provide direct public funding to parties, 38 per cent cap party spending and 49 per cent cap candidate spending, and only 29 per cent regulate third-party spending; Canada caps registered third parties' regulated activities at CAD 602,700 a year (2024-25).",
+  "claim": "data",
+  "figures": [
+   "181",
+   "70 per cent",
+   "38 per cent",
+   "49 per cent",
+   "29 per cent",
+   "CAD 602,700"
+  ],
+  "source": "SRC-5268",
+  "anchor": [
+   "more than 25 per cent of the 181 countries in International IDEA’s Political Finance Database",
+   "Around the world close to 70 per cent of countries",
+   "In 38 per cent of countries, including Bangladesh, Honduras, North Macedonia, the Philippines, Slovenia, Thailand and the UK, political parties must adhere to a spending limit. Such caps are in place for candidates in 49 per cent of countries",
+   "regulations on third-party spending are in place in only 29 per cent of countries globally",
+   "CAD 602,700 [approximately USD 425,000] for regulated activities by third parties between 1 April 2024 and 31 March 2025"
+  ],
+  "grade": "A",
+  "fact_date": "2025-02",
+  "recheck": "2027-11-16",
+  "context": "International IDEA (intergovernmental), 2025, from its Political Finance Database as accessed February 2025; counts laws on the books, not enforcement. Canada figures are IDEA's summary of the Canada Elections Act (Box 1.7), not read from Elections Canada.",
+  "locator": "Executive summary; sections 1.2-1.3; Box 1.7",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-213",
+  "statement": "International IDEA concludes that gaps between political finance rules on paper and their enforcement are common, that spending limits can be circumvented through third parties, and that weak independence, mandates and resources of enforcement bodies are a major obstacle.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5268",
+  "anchor": [
+   "Gaps between regulations on paper and their practical enforcement are common and can significantly undermine their intended impact.",
+   "Existing spending limits on political parties and candidates can be circumvented by channelling funding through third parties.",
+   "the lack of independence, sufficient legal mandates, resources and interagency cooperation mechanisms within enforcement agencies also presents a major challenge"
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "recheck": "2027-11-16",
+  "context": "International IDEA (intergovernmental, pro-regulation of political finance), 2025; comparative review and case studies, not causal estimates. U.S. evidence on FEC deadlock is one instance of the enforcement gap it describes.",
+  "locator": "Executive summary",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-209",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-227",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-214",
+  "statement": "For the July 2024 UK general election each party could spend £54,010 per constituency contested, just over £34m for all 632 seats in Great Britain, after limits rose 80% in November 2023; non-party campaigns' share of election spending was 8.5% in 2019, up from 3.3% in 2015.",
+  "claim": "data",
+  "figures": [
+   "£54,010",
+   "£34m",
+   "632",
+   "80%",
+   "8.5%",
+   "2019",
+   "3.3%",
+   "2015"
+  ],
+  "source": "SRC-5269",
+  "anchor": [
+   "Each party can spend £54,010 for each constituency that they contest. A party that chooses to contest all 632 seats in Great Britain at the election will therefore be able to spend just over £34m.",
+   "The limits were increased in November 2023, rising 80% to account for inflation since they were instituted in 2000.",
+   "These non-party campaigns account for a growing proportion of election spending: 8.5% in 2019, up from just 3.3% in 2015."
+  ],
+  "grade": "C",
+  "fact_date": "2024",
+  "recheck": "2027-11-16",
+  "context": "Institute for Government (UK, nonpartisan) explainer restating the Political Parties, Elections and Referendums Act 2000 limits and Electoral Commission figures; the Commission's own pages blocked automated reads. The Commission is the regulator of party spending.",
+  "locator": "Party spending limits; Non-party campaigns",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-215",
+  "statement": "Ziobrowski and colleagues found that in 1993-1998 a portfolio mimicking Senators' stock purchases beat the market by 85 basis points per month, while one mimicking their sales lagged by 12 basis points.",
+  "claim": "analysis",
+  "figures": [
+   "1993–1998",
+   "85 basis points",
+   "12 basis points"
+  ],
+  "source": "SRC-5270",
+  "anchor": [
+   "We test for abnormal returns from the common stock investments of members of the U.S. Senate during the period 1993–1998. We document that a portfolio that mimics the purchases of U.S. Senators beats the market by 85 basis points per month, while a portfolio that mimics the sales of Senators lags the market by 12 basis points per month."
+  ],
+  "grade": "B",
+  "fact_date": "2004-12",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed (JFQA, 2004). Event study on synthetic portfolios built from disclosed transactions, pre-STOCK Act. Eggers and Hainmueller argue such synthetic portfolios overstate members' actual returns; later studies of the 2012-2023 period find no outperformance, while a 2025 working paper finds it for leaders.",
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-216",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-217",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-218",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-219",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-216",
+  "statement": "Eggers and Hainmueller conclude that members of Congress did not trade with an information advantage in 1985-2001 or 2004-2008, and that from 2004 to 2008 the average member would have earned higher returns in a passive index fund.",
+  "claim": "analysis",
+  "figures": [
+   "1985",
+   "2001",
+   "2004–2008",
+   "2004",
+   "2008"
+  ],
+  "source": "SRC-5271",
+  "anchor": [
+   "we reinterpret existing studies of congressional stock trading between 1985 and 2001 and conduct our own analysis of trades in the 2004–2008 period, concluding that in neither period do members of Congress trade with an information advantage.",
+   "showing that between 2004 and 2008 the average member of Congress would have earned higher returns in a passive index fund."
+  ],
+  "grade": "B",
+  "fact_date": "2013-04",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed (Journal of Politics, 2013); LSE and MIT. First analysis of actual holdings rather than synthetic portfolios. Their companion paper (2014) finds members' locally connected holdings do outperform their other holdings (not read).",
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-215",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-217",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-217",
+  "statement": "Using all reported trades from January 2012 to December 2020, after the STOCK Act, Belmont and colleagues find no evidence of superior performance; stocks House members bought underperformed by 26 basis points over six months.",
+  "claim": "analysis",
+  "figures": [
+   "2012",
+   "2020",
+   "26 basis points"
+  ],
+  "source": "SRC-5272",
+  "anchor": [
+   "We use a new and comprehensive data set of these officials’ trades of public equities from January 2012-December 2020. We find no evidence of superior investment performance whether we look in aggregate or at Senators specifically accused of informed trading. Over a six-month horizon, stocks bought by House Members underperform on average by 26 basis points"
+  ],
+  "grade": "B",
+  "fact_date": "2022-03",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed (Journal of Public Economics, 2022); Dartmouth. The authors note their methods cannot rule out some insider trades masked by averages. Shares an author with Chen and Sacerdote (2026).",
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-215",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-216",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-219",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-218",
+  "statement": "Chen and Sacerdote find that from 2012 to 2023 legislators' portfolios, including their families', underperform or at best match market benchmarks, and that their timing follows public signals such as retail-investor sentiment rather than anticipating price changes.",
+  "claim": "analysis",
+  "figures": [
+   "2012",
+   "2023"
+  ],
+  "source": "SRC-5274",
+  "anchor": [
+   "constructing a novel dataset covering the stock trading activity of all U.S. members of Congress and their immediate families from 2012 to 2023. We find that, on average, legislators’ portfolios underperform or, at best, match market benchmarks after the STOCK Act.",
+   "legislators’ observable trading behavior is more consistent with public-signal-following than with systematically profitable use of private information."
+  ],
+  "grade": "C",
+  "fact_date": "2026-04",
+  "recheck": "2027-04-30",
+  "context": "NBER working paper, April 2026, not peer-reviewed. Sacerdote is a co-author of Belmont et al. (2022), so it is not independent of that study; Eggers and Hainmueller is the independent support. It measures averages and does not address leaders specifically.",
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-216",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-217",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-219",
+    "stance": "contests"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-219",
+  "statement": "Wei and Zhou find that lawmakers who rise to congressional leadership trade like matched peers beforehand but outperform them by 47 percentage points a year afterward, with higher returns when their party controls the chamber and on donor-owned or home-state firms.",
+  "claim": "analysis",
+  "figures": [
+   "47 percentage points"
+  ],
+  "source": "SRC-5273",
+  "anchor": [
+   "we find that lawmakers who later ascend to leadership positions perform similarly to matched peers beforehand but outperform them by 47 percentage points annually after ascension.",
+   "The political influence channel is reflected in higher returns when their party controls the chamber",
+   "greater returns on donor-owned or home-state firms."
+  ],
+  "grade": "C",
+  "fact_date": "2025-11",
+  "recheck": "2027-04-30",
+  "context": "NBER working paper, November 2025; not peer-reviewed. Press coverage seen in search results (not read) says only about 20 leaders traded both before and after ascending; if so, the estimate rests on a small group. It contests the average-member null results by looking at a subgroup; the two findings can both hold.",
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-217",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-218",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-215",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-220",
+  "statement": "By January 2023 Insider and other news organizations had identified 78 members of Congress who failed to properly report trades as the STOCK Act requires; the penalty is usually $200 or waived by House or Senate ethics officials.",
+  "claim": "data",
+  "figures": [
+   "78",
+   "$200"
+  ],
+  "source": "SRC-5275",
+  "anchor": [
+   "Insider and several other news organizations have identified 78 members of Congress who've recently failed to properly report their financial trades as mandated by the Stop Trading on Congressional Knowledge Act of 2012",
+   "the penalty is usually small — $200 is the standard amount — or waived by House or Senate ethics officials"
+  ],
+  "grade": "C",
+  "fact_date": "2023-01-03",
+  "recheck": "2027-11-16",
+  "context": "Business Insider, January 3, 2023 (Conflicted Congress project). A journalists' tally from disclosure filings; no official public record of violations or fines exists, as the outlet notes. Later counts (2024-26) not read.",
+  "locator": "Opening paragraphs",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-221",
+  "statement": "Lobbyists who worked in a U.S. Senator's office suffer a 24 percent drop in the revenue they generate when that Senator leaves office, and the drop grows with the Senator's seniority and committee power.",
+  "claim": "analysis",
+  "figures": [
+   "24 percent"
+  ],
+  "source": "SRC-5276",
+  "anchor": [
+   "Lobbyists with experience in the office of a US Senator suffer a 24 percent drop in generated revenue when that Senator leaves office.",
+   "the drop in revenue is increasing in the seniority of and committee assignments power held by the exiting politician."
+  ],
+  "grade": "B",
+  "fact_date": "2012-12",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed (American Economic Review, 2012). Quasi-experimental: uses Senators' exits as shocks to ex-staff lobbyists' connections. Measures the value of access, not policy outcomes.",
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-222",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-222",
+  "statement": "Bertrand, Bombardini and Trebbi find lobbyists follow the politicians they were connected to when those politicians change committees, and a more consistent monetary premium for connections than for expertise.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5277",
+  "anchor": [
+   "we show that lobbyists follow politicians they were initially connected to when those politicians switch to new committee assignments.",
+   "However, we find a more consistent monetary premium for connections than expertise."
+  ],
+  "grade": "B",
+  "fact_date": "2014-12",
+  "recheck": "2027-11-16",
+  "context": "Peer-reviewed (American Economic Review, 2014). Also finds a group of issue experts that both parties consult, so expertise matters too.",
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-221",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-223",
+  "statement": "In FY 2025 about 13,800 staff at over 70 offices of inspector general reported potential savings of about $65.6 billion ($45 billion from audit recommendations, $20.6 billion from investigative receivables and recoveries), which CIGIE puts at about $17 for every dollar of their $3.9 billion budget.",
+  "claim": "data",
+  "figures": [
+   "13,800",
+   "70",
+   "$65.6 billion",
+   "$45 billion",
+   "$20.6 billion",
+   "$3.9 billion",
+   "$17"
+  ],
+  "source": "SRC-5278",
+  "anchor": [
+   "In fiscal year (FY) 2025, about 13,800 employees at over 70 OIGs conducted audits,",
+   "savings totaling approximately $65.6 billion:",
+   "$45 billion from audit recommendations.",
+   "$20.6 billion from investigative receivables and recoveries.",
+   "With the IG community’s aggregate FY 2025 budget of approximately $3.9 billion,1 these",
+   "potential savings represent an approximate $17 return on every dollar invested in OIGs."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "recheck": "2027-03-31",
+  "context": "CIGIE, IG community's self-reported totals, FY 2025 (second Trump administration, after the January 2025 removal of 17 IGs; see EV-DEM-036). 'Potential' savings include audit recommendations agencies may not adopt; the $17 ratio is CIGIE's framing. Hudak and Wallack explain why such ratios overstate realized returns.",
+  "locator": "Fiscal Year 2025 Results, p. 1",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-224",
+  "statement": "Brookings researchers computed a mean annual return of 13.41 and a median of 6.38 dollars per budget dollar for cabinet-agency inspectors general in 2010-2014, while noting that audit returns include questioned costs and funds put to better use and that some offices recover less than they cost.",
+  "claim": "analysis",
+  "figures": [
+   "13.41",
+   "6.38",
+   "2010-2014"
+  ],
+  "source": "SRC-5279",
+  "anchor": [
+   "From 2010-2014, the mean annual ROI for OIGs was 13.41; the median was 6.38.",
+   "Audit returns include questioned costs, recommendations for funds to be put to better use, and other administrative savings.",
+   "This is not necessarily a reflection of an OIG that is not functioning well"
+  ],
+  "grade": "C",
+  "fact_date": "2015-04",
+  "recheck": "2027-11-16",
+  "context": "Brookings (center-left), April 2015; compiles OIGs' own semiannual receivables against budgets, so it inherits their counting of potential savings. The median is half the mean, so a few large offices drive the average.",
+  "locator": "pp. 4-7",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-223",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-225",
+  "statement": "The Office of Special Counsel received 9,820 new cases in FY 2025, the most in its history, with a budget of $31,585,000 and about 123 staff; it issued 94 Hatch Act warning letters and obtained disciplinary actions in 13 Hatch Act cases.",
+  "claim": "data",
+  "figures": [
+   "9,820",
+   "$31,585,000",
+   "123",
+   "94",
+   "13"
+  ],
+  "source": "SRC-5280",
+  "anchor": [
+   "During FY 2025, OSC operated with a budget authority of $31,585,000 in appropriated funding.",
+   "The agency operated with a staff of approximately 123 full-time equivalent (FTE) employees.",
+   "OSC received 9,820 new cases in FY 2025. This is the highest in agency history",
+   "In addition, OSC issued 94 warning letters and successfully obtained\ndisciplinary actions in 13 cases against federal employees who committed Hatch Act violations."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "recheck": "2027-03-31",
+  "context": "OSC annual report under Acting Special Counsel Jamieson Greer, appointed March 21, 2025 (second Trump administration). Data are the agency's own counts; the caseload jump coincides with the 2025 workforce actions.",
+  "locator": "FY 2025 Budget and Staffing; FY 2025 Case Activity and Results",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-226",
+  "statement": "OGE's survey found 11 new prosecutions under the federal criminal conflict-of-interest statutes (18 U.S.C. 202-209) and related statutes in calendar year 2024.",
+  "claim": "data",
+  "figures": [
+   "11",
+   "202-209",
+   "2024"
+  ],
+  "source": "SRC-5281",
+  "anchor": [
+   "prosecutions involving the conflict of interest criminal statutes (18 U.S.C. §§ 202-209) and other",
+   "related statutes for calendar year 2024.",
+   "OGE received information on 11 new"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07-29",
+  "recheck": "2026-07-31",
+  "context": "OGE program advisory, July 2025 (second Trump administration); compiled from U.S. Attorneys' offices and DOJ divisions, so it counts cases reported to OGE, which may be incomplete. Includes civil settlements and deferred prosecution agreements.",
+  "locator": "p. 1",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-227",
+  "statement": "Crider and Milyo find no strong or consistent evidence that state ethics commissions reduce political corruption; their estimates suggest only very weak, and possibly perverse, effects, and ethics commissions tend to be adopted after scandals.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5282",
+  "anchor": [
+   "Overall, we found no strong or consistent support for the common claims made by political actors that state ethics commissions are important policy tools for reducing political corruption.",
+   "state ethics commissions have only very weak, and possibly perverse, effects on public corruption.",
+   "Rather, ethics commissions appear more likely to be adopted in the wake of"
+  ],
+  "grade": "C",
+  "fact_date": "2013-08-01",
+  "recheck": "2027-11-16",
+  "context": "UC Irvine Law Review symposium, 2013, self-described exploratory; state panel regressions using federal public-corruption convictions as the outcome, which measure prosecution as much as corruption. Consistent with U4's finding of thin evidence for anti-corruption bodies generally.",
+  "locator": "Section VI, Discussion",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-228",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-213",
+    "stance": "qualifies"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-228",
+  "statement": "The Anti-Corruption Resource Centre at the Chr. Michelsen Institute reports that despite the spread of anti-corruption agencies since 2003 there is little evidence on their effectiveness, or on why some work.",
+  "claim": "analysis",
+  "figures": [
+   "2003"
+  ],
+  "source": "SRC-5284",
+  "anchor": [
+   "Despite the rise in anti-corruption agencies (ACAs) since 2003, there is little evidence on their effectiveness.",
+   "Yet, there is little empirical evidence as to whether or why ACAs have been effective"
+  ],
+  "grade": "C",
+  "fact_date": "2025-06-23",
+  "recheck": "2027-11-16",
+  "context": "U4 Anti-Corruption Resource Centre (Chr. Michelsen Institute, Norway), June 2025, by Schütte and David-Barrett; proposes a grading framework against the 2012 Jakarta Principles. A statement of the evidence gap, not an estimate. Quotations relayed by a fetch tool; verify.",
+  "locator": "Summary; Introduction",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-227",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-213",
+    "stance": "supports"
+   }
+  ],
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-229",
+  "statement": "The Chief Justice acknowledged that, per the Wall Street Journal, 131 federal judges took part in 685 matters between 2010 and 2018 involving companies in which they or their families owned stock, in violation of 28 U.S.C. 455, and called for more rigorous ethics training and better conflict-checking software.",
+  "claim": "data",
+  "figures": [
+   "131",
+   "685",
+   "2010",
+   "2018",
+   "455"
+  ],
+  "source": "SRC-5283",
+  "anchor": [
+   "series of articles stating that, between 2010 and",
+   "2018, 131 federal judges participated in a total",
+   "of 685 matters involving companies in which",
+   "That was inconsistent with a federal ethics statute, 28 U.S.C. §455, which requires that a judge",
+   "Collectively, our ethics\ntraining programs need to be more rigorous."
+  ],
+  "grade": "A",
+  "fact_date": "2021-12-31",
+  "recheck": "2027-11-16",
+  "context": "2021 Year-End Report. The counts are the Wall Street Journal's (from about 700 judges' disclosures; ABA Journal summary, SRC-5286, adds that about two-thirds ruled for their financial interests on contested motions). The Chief Justice frames them as a '99.97% compliance rate', but that denominator is all 2.5 million civil cases, most of which involved no stock the judge held, so the framing understates the rate among conflicted cases.",
+  "locator": "2021 Year-End Report, pp. 2-3",
+  "checked": "2026-11-16",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-230",
+  "statement": "The Supreme Court commission found that thirty-one states and the District of Columbia set a mandatory retirement age for high court justices, most at 70, that almost all states give those justices terms of six to fifteen years, and that Rhode Island alone has neither.",
+  "claim": "data",
+  "figures": [
+   "70"
+  ],
+  "source": "SRC-5292",
+  "anchor": [
+   "moved away from life tenure for justices of their highest courts. Thirty-one states and the",
+   "District of Columbia have some form of mandatory retirement, 6 with the majority of states",
+   "setting the retirement age at 70. 7 Almost all states also establish terms for high court justices,",
+   "ranging from six to fifteen years. Though these terms are renewable through elections in many",
+   "systems. Rhode Island is the only state that currently has neither term limits nor a mandatory"
+  ],
+  "grade": "C",
+  "fact_date": "2021-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-12-31",
+  "context": "Presidential Commission on the Supreme Court (Biden administration, Executive Order 14023), bipartisan membership; the state figures are its compilation from the Book of the States and similar sources as of 2021, not a primary-law read. 'Thirty-one' is spelled out in the source. State terms are mostly renewable, so they are not term limits in the federal proposal's sense.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Chapter 3, 'The Justifications for Term Limits', p. 113 of the report (text lines 5900-5910)"
+ },
+ {
+  "id": "EV-DEM-231",
+  "statement": "The commission reports that the United States is the only major constitutional democracy with neither a retirement age nor a fixed term for its high court; at least 27 democracies limit constitutional court terms, to between five and fifteen years, and Germany's constitutional judges serve twelve-year non-renewable terms; of the states with terms for their highest court, only one exceeds twelve years.",
+  "claim": "data",
+  "figures": [
+   "27"
+  ],
+  "source": "SRC-5292",
+  "anchor": [
+   "The United States is the only major constitutional democracy in the world that has neither",
+   "democracies, at least 27 have term limits for their constitutional courts. And those that do not",
+   "impose a term limit, those limits range between five and fifteen years. 41 The German",
+   "composed of judges who serve twelve-year non-renewable terms and who must retire at age",
+   "long. Of the forty-seven states that impose term limits for their highest court judges, only one",
+   "state has a term longer than twelve years. 40 Similarly, of the twenty-seven countries that"
+  ],
+  "grade": "C",
+  "fact_date": "2021-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-12-31",
+  "context": "Commission compilation of international practice (Biden-era commission; it took no position on term limits). Note the statement's 68 is spelled 'sixty-eight' in the source and not a digit; the source counts 'forty-seven' states with terms.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Chapter 3, pp. 113 and 122-123 (text lines 5911-5914, 6307-6315)"
+ },
+ {
+  "id": "EV-DEM-232",
+  "statement": "The commission set out both sides: proponents say term limits would make the Court's membership track elections and make appointments predictable while keeping long terms, and opponents say ending life tenure would weaken judicial independence, politicize confirmations every two years, destabilize doctrine, and that state and foreign comparisons are misleading.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5292",
+  "anchor": [
+   "membership is broadly responsive to the outcome of elections over time; make appointments",
+   "that eliminating life tenure would weaken the Constitution’s express protection of judicial",
+   "and confirmation process by requiring confirmations every two years; heighten the perception",
+   "that Justices are partisan or political actors; and destabilize Court doctrine. Opponents do not",
+   "comforted by citations to foreign courts, or to the state supreme courts where judicial terms",
+   "is perilous to draw conclusions from systems that are so fundamentally different. They also"
+  ],
+  "grade": "C",
+  "fact_date": "2021-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-12-31",
+  "context": "Biden-era bipartisan commission; the report deliberately presents both positions and takes none, so it is a map of the argument, not evidence of effects. No source in this register measures term limits' effect on confirmations or doctrine in the United States; state and foreign practice (EV-DEM-230, EV-DEM-231) is the only record, and opponents dispute its relevance.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Introduction, summary of Chapter 3 (text lines 455-464); Chapter 3, arguments against term limits (lines 6146-6153)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-231",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-063",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-233",
+  "statement": "The commission's members were divided on whether Congress can create the equivalent of Supreme Court term limits by statute, with some calling it within Congress's power and others unconstitutional or unwise; its main statutory model makes Justices 'Senior Justices' after eighteen years of service.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5292",
+  "anchor": [
+   "Members of the Commission are divided about whether Congress has the power under",
+   "the Constitution to create the equivalent of term limits by statute. Some believe that a statutory",
+   "solution is within Congress’s powers. Others believe that no statutory solution is",
+   "The main focus of our analysis is the so-called Junior/Senior Justice proposal. It creates",
+   "the functional equivalent of term limits by providing that, after eighteen years of service,"
+  ],
+  "grade": "C",
+  "fact_date": "2021-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-12-31",
+  "context": "Biden-era commission; the division is itself the finding. CRS (EV-DEM-234) reads most commentators as requiring an amendment; the Brennan Center (EV-DEM-235), an advocate of statutory term limits, says statute suffices.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Chapter 3, Part IV 'Enacting Term Limits through Statute', p. 129 (text lines 6570-6590)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-234",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-235",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-234",
+  "statement": "CRS concludes that Congress can change the Court's size by ordinary legislation but that term or age limits would likely require a constitutional amendment, noting that most commentators agree while some read 'good Behaviour' as protection from partisan removal rather than a guarantee of life tenure.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5293",
+  "anchor": [
+   "Court Justices. Congress has broad authority to set or change the size of the Supreme Court through ordinary legislation, but",
+   "implementation of term or age limits would likely require a constitutional amendment. Some proposals would change the size",
+   "Supreme Court Justices without amending the Constitution.163 Some commentators dispute that",
+   "Offices for life ,” these scholars interpret the Good Behavior Clause as a protection from partisan"
+  ],
+  "grade": "C",
+  "fact_date": "2023-12-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-12-31",
+  "context": "Congressional Research Service, nonpartisan legal analysis (December 2023 version). It weighs the text, structure and Federalist history; it does not predict how this Court would rule. Contested by advocates of statutory term limits (EV-DEM-235).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Summary; 'Constitutionality of Legislation Modifying Life Tenure' (text lines 34-35, 950-956)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-233",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-235",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-235",
+  "statement": "The Brennan Center argues that the leading term-limit proposals can be implemented by statute because they do not remove Justices after a fixed term but change their duties on a fixed schedule, with 18 years of active service.",
+  "claim": "analysis",
+  "figures": [
+   "18"
+  ],
+  "source": "SRC-5294",
+  "anchor": [
+   "This legal analysis of leading proposals for term limits demonstrates that they can be implemented by statute.",
+   "these proposals do not actually remove Supreme Court Justices from office after a fixed term but rather alter their duties according to a fixed schedule.",
+   "Under the leading proposals, Justices would serve in active service on the Court for 18 years"
+  ],
+  "grade": "C",
+  "fact_date": "2026-07-14",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-31",
+  "context": "Brennan Center for Justice, center-left; an advocate of statutory term limits, so this is a legal position, not a neutral reading. CRS (EV-DEM-234) takes the opposite majority view; the Biden commission was split (EV-DEM-233).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Summary and introduction",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-234",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-233",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-236",
+  "statement": "Congress created a six-member Supreme Court in 1789, cut it to five in 1801 (repealed before any vacancy), enlarged it to 10 during the Civil War, reduced it to seven in 1866 and restored nine in 1869, where it has stayed.",
+  "claim": "data",
+  "figures": [
+   "1789",
+   "1801",
+   "10",
+   "1866",
+   "1869"
+  ],
+  "source": "SRC-5293",
+  "anchor": [
+   "Congress first exercised its authority to structure the federal courts in the Judiciary Act of 1789.45",
+   "In addition to establishing federal district and circuit courts, the 1789 act created a six-member",
+   "Supreme Court with one Chief Justice and five Associate Justices.46 In 1801, Congress reduced",
+   "Congress repealed the 1801 law before any vacancy occurred, leaving the size of the Court at six",
+   "At its largest, during the Civil War, the Court had 10 Justices.51 While some scholars assert that",
+   "agenda of combatting slavery and preserving the union.”52 In 1866, Congress reduced the size of",
+   "motivated the change.54 In 1869, under a new presidential Administration, Congress expanded the",
+   "Court to include nine Justices,55 and the size of the Court has since remained unchanged. The"
+  ],
+  "grade": "C",
+  "fact_date": "2023-12-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-12-31",
+  "context": "CRS history drawn from the statutes (Judiciary Act of 1789; Circuit Judges Act of 1869, 16 Stat. 44). CRS records that historians dispute whether the 1863 and 1866 changes were political or practical, and relays the 2021 commission's view of 'a mix of institutional and political concerns'.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "'Size of the Court' history (text lines 320-341)"
+ },
+ {
+  "id": "EV-DEM-237",
+  "statement": "In federal district courts the median time from filing to trial in civil cases was 33.7 months in the year to June 30, 2026, against 28.3 months in the year to June 30, 2021.",
+  "claim": "data",
+  "figures": [
+   "33.7",
+   "28.3"
+  ],
+  "source": "SRC-5295",
+  "anchor": [
+   "Jun 30\n2021",
+   "Jun 30\n2026",
+   "From Filing to Trial ²\n(Civil Only)\n\n28.3\n\n33.8\n\n35.7\n\n35.0\n\n34.1\n\n33.7"
+  ],
+  "grade": "A",
+  "fact_date": "2026-06-30",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-31",
+  "context": "Administrative Office of the U.S. Courts, official statistics (12-month periods). The flattened PDF lists the six years' values in column order 2021 to 2026; read the published PDF to confirm the column mapping. Trials are a small share of dispositions, so this measures the slowest cases. It is context for what new judgeships aim at, not evidence of their effect.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "National Judicial Caseload Profile, 'Median Time (Months): From Filing to Trial (Civil Only)'"
+ },
+ {
+  "id": "EV-DEM-238",
+  "statement": "The Brennan Center found that, controlling for workload, one judicial vacancy lasting 12 months was associated with a 2 percentage point increase in the share of a district's cases pending three years or more; judges and administrators in eight districts reported delays.",
+  "claim": "analysis",
+  "figures": [
+   "12",
+   "2"
+  ],
+  "source": "SRC-5296",
+  "anchor": [
+   "Delay in resolving motions and hearing trials was the most common impact cited in interviews with judges and court administrators, with eight districts reporting delays caused by vacancies.",
+   "Our analysis of court data found that having a single judicial vacancy for 12 months was associated, at a statistically significant level, with a 2 percentage point increase in the percentage of cases pending for three years or more."
+  ],
+  "grade": "C",
+  "fact_date": "2014-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Brennan Center, center-left advocacy research funded by progressive foundations, written to press for confirmations. Observational: a regression of pending-case shares on vacancy months controlling for weighted filings; it cannot exclude that vacancies cluster in courts with other problems. Vacancies are the mirror of added judgeships, so this is indirect evidence on what new seats do. Yang (EV-DEM-239) finds no delay effect in criminal cases.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Executive summary, 'Case delays' bullet",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-239",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-042",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-239",
+  "statement": "Using judge deaths and pension eligibility as instruments, Yang finds that prosecutors decline more cases during judicial vacancies and offer more favorable pleas, with no significant increase in case delays; she notes earlier work finding vacancies uncorrelated with civil delay (Dayton 1993).",
+  "claim": "analysis",
+  "figures": [
+   "1993"
+  ],
+  "source": "SRC-5297",
+  "anchor": [
+   "Using judge deaths and pension eligibility as instruments for judicial vacancies, I find that prosecutors decline more cases during vacancies.",
+   "As a result, I find no significant increase in case delays or resolution times",
+   "In the civil context, researchers have found that judicial vacancies are uncorrelated with litigation",
+   "delay in the federal courts (Dayton 1993)"
+  ],
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Academic quasi-experimental study (Harvard Law School), later published in American Economic Journal: Economic Policy (2016). Criminal cases only: the system adapts by screening and plea bargaining rather than by slowing down, so the cost of too few judges shows up in outcomes, not in time. Qualifies the Brennan Center's delay finding (EV-DEM-238).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract; introduction pp. 3-4",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-238",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-240",
+  "statement": "The Legal Services Corporation's 2022 study found that low-income Americans get no or not enough legal help for 92% of their substantial civil legal problems; 74% of low-income households had at least one problem in the past year; and LSC-funded organizations turn away 49% of requests and cannot fully help with an estimated 1.4 million problems, 71% of those brought to them.",
+  "claim": "data",
+  "figures": [
+   "92%",
+   "74%",
+   "49%",
+   "1.4 million",
+   "71%"
+  ],
+  "source": "SRC-5298",
+  "anchor": [
+   "Low-income Americans do not get any or enough legal help for 92% of their substantial civil legal problems.",
+   "3 in 4 (74%) low-income households experienced 1+ civil legal problems in the past year.",
+   "These organizations must turn away 1 out of every 2 (49%) requests they receive due to limited resources.",
+   "LSC-funded organizations are unable to provide any or enough legal help for an estimated 1.4 million civil legal problems (or 71% of problems) that are brought to their doors in a year.",
+   "a nationally representative survey of more than 5,000 adults conducted by NORC at the University of Chicago"
+  ],
+  "grade": "C",
+  "fact_date": "2022-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-30",
+  "context": "Legal Services Corporation, the federally chartered funder of civil legal aid, which has a stake in showing unmet need; the survey (NORC AmeriSpeak, 2021) defines 'substantial' problems and 'enough' help by respondents' own reports. Problem-side context for what counsel programs address.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Executive Summary"
+ },
+ {
+  "id": "EV-DEM-241",
+  "statement": "New York City's Office of Civil Justice reports that in FY2023 its funded providers helped about 43,700 households, that 84% of households represented in court whose eviction or NYCHA cases were resolved stayed in their homes, and that 50% of tenants appearing in eviction cases in the fourth quarter had lawyers.",
+  "claim": "data",
+  "figures": [
+   "43,700",
+   "84%",
+   "50%"
+  ],
+  "source": "SRC-5299",
+  "anchor": [
+   "98,000 New Yorkers in approximately 43,700 households across New York City facing housing",
+   "reported resolutions in FY2023, 84% of households represented in court by lawyers were able to",
+   "remain in their homes, preserving tenancies and promoting the preservation of affordable housing",
+   "advice to tenants who were otherwise eligible for full representation, 50% of tenants who",
+   "appeared in Housing Court for eviction cases in the fourth quarter of FY2023 were represented by"
+  ],
+  "grade": "C",
+  "fact_date": "2023-06-30",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-31",
+  "context": "The city agency that runs the program reporting provider-reported outcomes for resolved cases (Adams administration); 84% is not a causal effect, because it has no comparison group. The report notes staffing shortfalls left many eligible tenants with advice only.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "pp. 6-9 (text lines 108-110, 220-223, 416-419)"
+ },
+ {
+  "id": "EV-DEM-242",
+  "statement": "Using the ZIP-code rollout of New York's Universal Access program, Cassidy and Currie estimate that it raised representation by 12.4 percentage points and that representation cut the probability of a possessory judgment by 32.1 points and of a warrant being issued by 32.3 points, which they read as upper bounds on the effect for the average tenant.",
+  "claim": "analysis",
+  "figures": [
+   "12.4",
+   "32.1",
+   "32.3"
+  ],
+  "source": "SRC-5300",
+  "anchor": [
+   "the probability of tenant representation by 12.4 percentage points (pp), which is larger than the",
+   "has very large effects on the affected cases, reducing the probability of a possessory judgment by",
+   "32.1pp, the log judgment amount by 2.126, the probability of a warrant being issued by 32.3pp,",
+   "we argued above, then these implied percent changes should be taken as upper bounds on the",
+   "We find that tenants who gain lawyers are less likely to be subject to possessory judgments"
+  ],
+  "grade": "B",
+  "fact_date": "2022-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Princeton economists; quasi-experimental two-stage least squares on 2016-2019 court records (NBER working paper, later Journal of Public Economics, 2023). Independent of the city. It finds larger effects in poorer places and those with more noncitizens. Supports the city's outcome claims (EV-DEM-241) with a comparison group, though at smaller scale than the 84% headline implies.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Section 5, Table 2 discussion; abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-241",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-243",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-243",
+  "statement": "New York City's Comptroller reported in 2025 that the monthly representation rate for tenants facing eviction had stayed below 50% for three years, falling to 30% in March 2025, because funding and provider staffing had not kept pace after the eviction moratorium ended.",
+  "claim": "data",
+  "figures": [
+   "50%",
+   "30%",
+   "2025"
+  ],
+  "source": "SRC-5301",
+  "anchor": [
+   "management failures at City Hall and a lack of funding have limited Right to Counsel providers ability to keep up with demand and the monthly rate of representation for tenants facing evictions has hovered below 50% for the past three years, reaching a low point of just 30% in March 2025."
+  ],
+  "grade": "C",
+  "fact_date": "2025-05",
+  "checked": "2026-11-16",
+  "recheck": "2026-11-30",
+  "context": "Office of the New York City Comptroller (Brad Lander, an elected Democrat then running for mayor against the incumbent), so the framing of 'management failures' is partisan within the city; the representation rates come from court data. A failure to avoid: a right on paper outran provider capacity.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Executive Summary"
+ },
+ {
+  "id": "EV-DEM-244",
+  "statement": "The Tax Court began in 1924 as the Board of Tax Appeals, an executive-branch agency, and became an Article I court only with the Tax Reform Act of 1969; it has 19 judges appointed for 15-year terms.",
+  "claim": "data",
+  "figures": [
+   "1924",
+   "1969",
+   "19",
+   "15"
+  ],
+  "source": "SRC-5302",
+  "anchor": [
+   "created by the Revenue Act of 1924 (P.L. 68-176) as the",
+   "Board of Tax Appeals. The act established the board as an",
+   "not until the Tax Reform Act of 1969 (P.L. 91-172) that",
+   "The Tax Court consists of 19 judges, including the chief",
+   "confirmed by the Senate for a fixed term of 15 years"
+  ],
+  "grade": "C",
+  "fact_date": "2015-12-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "CRS In Focus (2015); the two-column layout splits sentences across lines. Shows the path from agency board to court that proposals for an Article I immigration court cite.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Page 1, 'History' and 'Judges'"
+ },
+ {
+  "id": "EV-DEM-245",
+  "statement": "CRS explains that Article I courts such as the Tax Court, the Court of Federal Claims and the Court of Appeals for Veterans Claims lack life tenure and salary protection, and that Congress creates them for specialized expertise, efficiency or cost, and to keep a measure of control over the court.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5303",
+  "anchor": [
+   "or “Article I courts,” enjoy neither lifetime tenure nor salary protection.",
+   "Examples of legislative courts include the U.S. Tax Court; 90 the Court of Federal Claims; 91 the Court of Appeals for Veterans Claims;",
+   "Congress has established specialized non-Article III tribunals that focus on a particular area of law, with the understanding that an expert is needed",
+   "Congress may wish to exert control over or influence the work of a court, and by establishing an Article I tribunal, Congress can establish a court housed with judges that lack life tenure and salary protections."
+  ],
+  "grade": "C",
+  "fact_date": "2015-06-01",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "CRS legal overview. The same feature that makes Article I courts flexible, judges without life tenure, is the one critics of an Article I immigration court would weigh against its independence. No outcome evaluation of Article I conversions is in the register.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "'Non-Article III or Legislative Courts Today' and 'Why Create Legislative Courts?'",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-244",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-246",
+  "statement": "One year after Trump v. CASA, CRS finds the decision has not caused systemic shifts, either widespread vacatur of nationwide injunctions or mass conversion to class or APA relief, but plaintiffs keep winning nationwide-class injunctions and APA vacatur; Justice Alito warned against certifying nationwide classes without rigorous Rule 23 scrutiny, and Congress could amend the APA or Rule 23.",
+  "claim": "analysis",
+  "figures": [
+   "23"
+  ],
+  "source": "SRC-5133",
+  "anchor": [
+   "it appears the decision has had some effect on pending nationwide injunction cases but has not led to systemic shifts in these cases",
+   "Since CASA , plaintiffs have continued to seek and win injunctions on behalf of nationwide classes and APA stays or vacatur that pause policies in their entirety.",
+   "an invitation to certify nationwide classes without scrupulous adherence to the rigors of Rule 23.",
+   "it could consider enacting legislation to either authorize or limit nationwide injunctions or amendments to the APA or Federal Rule of Civil Procedure 23, which governs class actions."
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-31",
+  "context": "CRS, nonpartisan; one-year review of its own case count. Different passages of the source behind EV-DEM-048 and EV-DEM-049. Views split: some say CASA gutted courts' check on the executive, others that class actions and vacatur give similar relief.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Summary; 'Analysis' and 'Considerations for Congress'",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-047",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-049",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-247",
+  "statement": "For FY2026 the judiciary requested $892.0 million for court security, which mostly pays the Marshals Service for court security officers, an increase of 18.9% over FY2025.",
+  "claim": "data",
+  "figures": [
+   "$892.0 million",
+   "18.9%"
+  ],
+  "source": "SRC-5304",
+  "anchor": [
+   "This account provides for protective services, security systems, and equipment needs in courthouses and other federal facilities to ensure the safety of judicial officers, employees, and visitors. Under this account, the majority of funding for court security is transferred to the U.S. Marshals Service to pay for court security officers under the Judicial Facility Security Program. The FY2026 request is $892.0 million, an increase of 18.9% over the FY2025 enacted level."
+  ],
+  "grade": "C",
+  "fact_date": "2025-05-27",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-31",
+  "context": "CRS summary of the judiciary's own request; the enacted FY2026 figure is not in the register. No evaluation linking security spending to threat outcomes was found.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "'Court Security'"
+ },
+ {
+  "id": "EV-DEM-248",
+  "statement": "The commission found that a binding disciplinary framework for the Justices would raise difficulties, but that experience elsewhere suggests adopting even an advisory code of conduct would be a positive step on its own.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5292",
+  "anchor": [
+   "and drawbacks of reforms that would impose on the Justices a code of conduct, a disciplinary",
+   "framework, or recusal review. The Chapter explores the potential difficulties presented by a",
+   "framework containing binding sanctions, but also notes that experience in other contexts",
+   "suggests that the adoption of an advisory code of conduct would be a positive step on"
+  ],
+  "grade": "C",
+  "fact_date": "2021-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-12-31",
+  "context": "Biden-era commission, written before the Court adopted its 2023 code, which has no enforcement mechanism (EV-DEM-040, EV-DEM-046). The 'experience in other contexts' is the lower courts' advisory code; no study measuring compliance under enforced and unenforced codes is in the register.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Introduction, summary of Chapter 5 (text lines 530-535)",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-046",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-249",
+  "statement": "Drutman, Cohen, Levin and Ornstein write that lower chambers in many nations roughly follow the cube root of population, which for the 2020 census population would give the House 692 seats, and that the United States has one of the largest gaps between its chamber size and that rule.",
+  "claim": "analysis",
+  "figures": [
+   "692"
+  ],
+  "source": "SRC-5305",
+  "anchor": [
+   "In many nations, the number of seats in the lower legislative chamber adheres roughly to the cube root of the population.",
+   "The cube root of 331,449,281 (the U.S. population according to the 2020 census) is 692.05.",
+   "Under the Cube Root Law, the U.S. House would have 692 seats.",
+   "In fact, the United States has one of the largest gaps between chamber size and the cube root of its population."
+  ],
+  "grade": "C",
+  "fact_date": "2023",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "American Academy of Arts and Sciences project by authors from left and right (New America; American Enterprise Institute) who advocate a larger House. Quotations taken through a page-reading tool because the site refused direct download; check them against the page. Margaritondo (EV-DEM-250) disputes the cube-root rule itself.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Part IV, 'The Cube Root Law'",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-250",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-075",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-250",
+  "statement": "Margaritondo finds that the cube-root law was not derived from its data and its fit was forced; an unrestricted fit gives an exponent of 0.45, closer to a square-root rule, and he concludes that no power law is accurate enough for political analysis.",
+  "claim": "analysis",
+  "figures": [
+   "0.45"
+  ],
+  "source": "SRC-5306",
+  "anchor": [
+   "(1) The cube-root law was not derived from its data and the",
+   "corresponding ﬁt was arbitrarily forced.",
+   "The exponent n \u0001 0.45 is actually closer to 0.5, the square-root law",
+   "its conclusions. Furthermore, the assembly size evaluation exceeds the accuracy of all",
+   "power equations, which cannot be reliably used for political analysis."
+  ],
+  "grade": "B",
+  "fact_date": "2021-01-15",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Peer-reviewed brief report by an EPFL physicist in Frontiers in Physics (CC BY). A square-root rule would imply a much larger House than the cube root, so the critique undercuts the rule's precision, not the finding that the U.S. House is small by international standards.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract; Results, Eq. 3; Conclusions",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-249",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-251",
+  "statement": "Burnett and Kogan analyzed more than 600,000 ballots from four ranked-choice local elections and found that ballot exhaustion left the winner short of a majority of all votes cast in all four; in Oakland's later mayoral race the winner had 47.2% with 24.7% of ballots exhausted.",
+  "claim": "analysis",
+  "figures": [
+   "600,000",
+   "47.2",
+   "24.7"
+  ],
+  "source": "SRC-5307",
+  "anchor": [
+   "We analyze data taken from images of more than 600,000 ballots cast by voters in four recent local elections.",
+   "As a result of ballot exhaustion, the winner in all four of our cases receives less than a majority of the total votes cast",
+   "In Oakland, however, the winning candidate appeared to secure only 47.2 percent of valid votes, with an exhaustion rate of 24.7 percent."
+  ],
+  "grade": "B",
+  "fact_date": "2015",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Peer-reviewed (Electoral Studies); the authors are skeptical of IRV's majority claim. RCV advocates answer that a top-two runoff also leaves many first-round voters out through turnout drop-off; that comparison is not in this paper. Graham-Squire and McCune (EV-DEM-252) find exhaustion the one flaw that shows up often.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract; footnote on 2014 Oakland and San Leandro results",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-252",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-253",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-252",
+  "statement": "Across 182 U.S. ranked-choice elections from 2004 to 2022, Graham-Squire and McCune find RCV's theoretical weaknesses, such as spoiler effects and monotonicity paradoxes, rarely occur, except that ballot exhaustion frequently produces winners without a majority of ballots.",
+  "claim": "analysis",
+  "figures": [
+   "182",
+   "2004-2022"
+  ],
+  "source": "SRC-5308",
+  "anchor": [
+   "We use a database of 182 American ranked-choice elections for political office from the years 2004-2022 to investigate empirically how frequently RCV's deficiencies manifest in practice.",
+   "Our general finding is that RCV's weaknesses are rarely observed in real-world elections, with the exception that ballot exhaustion frequently causes majoritarian failures."
+  ],
+  "grade": "C",
+  "fact_date": "2023-03",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Preprint (not peer reviewed in this version) by two mathematicians; descriptive count of outcomes in official cast-vote records. Independent of Burnett and Kogan and consistent with them on exhaustion.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-251",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-253",
+  "statement": "Reviewing the literature, Juelich and Coll report that voters in RCV cities rated campaigns as less negative (Donovan and others, 2016), though one study disagrees; in their own matched study of seven RCV and fourteen plurality local elections they find no difference in overall turnout but higher youth turnout under RCV.",
+  "claim": "analysis",
+  "figures": [
+   "2016"
+  ],
+  "source": "SRC-5309",
+  "anchor": [
+   "the United States. Donovan et al. (2016) and John and",
+   "Douglas (2017), find that voters in RCV cities rated cam‐",
+   "paigns as less negative, were more satisfied with cam‐",
+   "paign conduct, and perceived less criticizing between",
+   "the candidates (but see Nielson, 2017). Related, using",
+   "we find that there is no statistical difference in",
+   "voting rates between RCV and plurality cities for the general public. Yet, in line with our hypotheses, younger voters are"
+  ],
+  "grade": "B",
+  "fact_date": "2021-06-15",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Peer-reviewed (Politics and Governance, CC BY), in an issue edited by Caroline Tolbert, a coauthor of the civility studies; the civility findings rest on voter surveys (perceptions), not content analysis. The same review notes RCV voters perceived more difficulty and some studies find lower turnout for some groups.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract; section 2 literature review, p. 320",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-251",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-254",
+  "statement": "Alaska's certified November 2024 results showed 737 more votes against Ballot Measure 2, the repeal of the state's open primary and ranked-choice system, than for it.",
+  "claim": "data",
+  "figures": [
+   "737"
+  ],
+  "source": "SRC-5310",
+  "anchor": [
+   "There were 737 more votes against Ballot Measure 2 than for it, an increase of 73 votes compared with the margin when the unofficial count was completed on Nov."
+  ],
+  "grade": "C",
+  "fact_date": "2024-11-30",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "News report (Alaska Beacon, republished by Alaska Public Media) of the state's certification; a recount later put the margin at 743 (Lieutenant Governor, December 2024; not read). A second repeal measure was on the November 2026 ballot (SRC-1127, scenario dossier).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Takeaway 1"
+ },
+ {
+  "id": "EV-DEM-255",
+  "statement": "Ballotpedia reports that Ohio became the 19th state to ban ranked-choice voting on March 17, 2026, after six states enacted bans in 2025 and six in 2024; seventeen of the 19 had Republican trifectas when they acted, while Alaska, Hawaii and Maine use RCV for some statewide elections and municipalities in 14 states use it locally.",
+  "claim": "data",
+  "figures": [
+   "19th",
+   "2025",
+   "2024",
+   "19",
+   "14"
+  ],
+  "source": "SRC-5311",
+  "anchor": [
+   "On March 17, Gov. Mike DeWine (R) signed a bill making Ohio the 19th state to ban ranked-choice voting (RCV).",
+   "In 2025, six states enacted legislation prohibiting RCV. Six states also passed laws banning RCV in 2024.",
+   "Seventeen of the 19 states that prohibit RCV had Republican trifectas at the time the prohibition was enacted, including Ohio.",
+   "Alaska, Hawaii, and Maine use RCV for at least some statewide elections.",
+   "Municipalities in 14 states use RCV for local elections."
+  ],
+  "grade": "C",
+  "fact_date": "2026-03-19",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-31",
+  "context": "Ballotpedia, nonpartisan reference. Ohio's law also cuts local government fund distributions to municipalities that adopt RCV under home rule.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Article body"
+ },
+ {
+  "id": "EV-DEM-256",
+  "statement": "In New Zealand's 2011 referendum, 57.77% of valid votes chose to keep the mixed-member proportional system and 42.23% to change it; among alternatives, first past the post led with 46.66%.",
+  "claim": "data",
+  "figures": [
+   "57.77%",
+   "42.23%",
+   "46.66%"
+  ],
+  "source": "SRC-5312",
+  "anchor": [
+   "In Part A of the Referendum, 57.77 percent of valid votes were cast in favour of keeping MMP as New Zealand’s voting system.",
+   "KEEP 1,267,955 57.77% 56.17% CHANGE 926,819 42.23% 41.06%",
+   "First Past the Post (FPP) 704,117 46.66% 31.19%"
+  ],
+  "grade": "C",
+  "fact_date": "2011-12-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Official results of New Zealand's Electoral Commission, an independent Crown entity, read in a verbatim republication (Scoop). The vote was indicative; 1996 is the first MMP election (EV-DEM-257).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Official results release, Part A and Part B tables"
+ },
+ {
+  "id": "EV-DEM-257",
+  "statement": "Arseneau reports that New Zealand chose MMP 53.9% to 46.1% in the binding 1993 referendum after 84.7% rejected first past the post in 1992; in the first MMP election in 1996 women rose from 21 to 29 per cent of the House and Maori MPs from seven to 13 per cent, with more parties and a high degree of proportionality.",
+  "claim": "analysis",
+  "figures": [
+   "53.9%",
+   "46.1%",
+   "84.7%",
+   "1993",
+   "1992",
+   "1996",
+   "21",
+   "29",
+   "13"
+  ],
+  "source": "SRC-5313",
+  "anchor": [
+   "was held in 1996.",
+   "as their preferred option to replace it. In the 1993 binding ‘run-off’ referendum,",
+   "53.9% voted for a change to MMP and 46.1% to keep FPP. The first MMP election",
+   "In the 1992 indicative referendum, 84.7% of those voting rejected FPP and 70.5% chose MMP",
+   "women went from 21 per cent of the House of Representatives in the last FPP election to 29 per",
+   "cent in the first one held using MMP. Similarly the percentage of Māori MPs jumped",
+   "of parties in both Parliament and Government and a high degree of proportionality.",
+   "from seven to 13 per cent – roughly proportionate to Māori’s percentage of the"
+  ],
+  "grade": "C",
+  "fact_date": "2014-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Conference paper by a New Zealand political scientist (Australasian Study of Parliament Group, 2014), descriptive before-and-after counts, not a causal design; other change (party list rules) coincided. It notes MMP was also expected to check executive power, which it judges only partly so. 42% still voted to change the system in 2011 (EV-DEM-256).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "pp. 1-4 and Figure 1",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-256",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-258",
+  "statement": "The Fair Representation Act (H.R. 3863, 117th Congress) would require ranked-choice voting for Congress, require states with six or more Representatives to elect them from multi-member districts of three to five members, require states with five or fewer to elect them at large, mandate independent redistricting commissions, and apply from 2022.",
+  "claim": "data",
+  "figures": [
+   "3863",
+   "117th",
+   "2022"
+  ],
+  "source": "SRC-5314",
+  "anchor": [
+   "H. R. 3863",
+   "117th CONGRESS",
+   "(a) Rules for States With Six or More Representatives.--If a State",
+   "(2) The number of Representatives to be elected from any",
+   "district may not be fewer than three or greater than five.",
+   "If a State is entitled to five or fewer Representatives in Congress",
+   "to require States to conduct congressional redistricting through",
+   "to elections for Federal office held in 2022 and each succeeding year."
+  ],
+  "grade": "A",
+  "fact_date": "2021-06-14",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "Bill text as introduced by Rep. Beyer (D-VA) with seven Democratic cosponsors; not enacted. Later reintroductions are not in the register. The single-member district statute (2 U.S.C. 2c) would have to give way.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Title, secs. 201-202, effective-date section"
+ },
+ {
+  "id": "EV-DEM-259",
+  "statement": "Kogan and McGhee find that every map drawn by California's citizens commission in 2011 was more competitive than the 2001 legislative maps, by three percentage points for the Assembly to 13 points for Congress, but only the congressional gain cleared 95 percent significance, and the gains fell short of what reformers hoped.",
+  "claim": "analysis",
+  "figures": [
+   "2011",
+   "2001",
+   "13",
+   "95"
+  ],
+  "source": "SRC-5315",
+  "anchor": [
+   "All the commission’s maps are more competitive than the existing maps, with increases ranging from three percentage points",
+   "the final Assembly plan to 13 points (i.e., between six and seven additional seats)",
+   "the competitive gains only clear the 95 percent statistical significance",
+   "we show that the new process has produced important improvements",
+   "the magnitude of these gains has fallen short of what many political reformers may have hoped for.",
+   "the legislature in 2001.",
+   "important lesson from the 2011 round of redistricting"
+  ],
+  "grade": "B",
+  "fact_date": "2012-02-24",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Peer-reviewed (California Journal of Politics and Policy); McGhee is at the Public Policy Institute of California, nonpartisan. A prediction from a seat model, made before the maps were used. Contested by Henderson and coauthors' simulation study (EV-DEM-260) and supported in kind by Wang and Sippy's 2021-cycle review (EV-DEM-261).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract; 'Competitiveness', Table 7 discussion",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-260",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-261",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-260",
+  "statement": "A UCLA and Yale working paper, as reported by Reason, compared enacted 2010-cycle House maps with simulated and publicly proposed alternatives and concluded that independent commissions did not draw more competitive maps than partisan legislatures; 76 percent of commission maps were less competitive than proposed alternatives.",
+  "claim": "analysis",
+  "figures": [
+   "2010",
+   "76"
+  ],
+  "source": "SRC-5316",
+  "anchor": [
+   "To measure the relative competitiveness of various House redistricting processes in 2010, the researchers first simulated a set of counterfactual district maps based solely on equal population and geographic contiguity.",
+   "But the maps created by nonpartisan redistricting commissions were worse; 76 percent were less competitive than the proposed alternatives.",
+   "In sum, independent commissions do not draw House maps that encourage greater electoral competition any more than partisan legislature do"
+  ],
+  "grade": "C",
+  "fact_date": "2017-07-14",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Libertarian magazine reporting a working paper (Henderson, Hamel and Goldzimer; published in the Journal of Politics, 2018, not read). Competitiveness is only one goal; the paper does not measure partisan bias. Read the published article before relying on the figure.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Article body",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-259",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-261",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-261",
+  "statement": "Reviewing all fifty states' 2021-2024 maps, Wang and Sippy find that commissions with final map-drawing power, balanced membership and binding judicial review produced lower partisan bias and more competition, while advisory or one-party commissions were often undermined by legislatures.",
+  "claim": "analysis",
+  "figures": [
+   "2021",
+   "2024"
+  ],
+  "source": "SRC-5317",
+  "anchor": [
+   "Drawing on redistricting data from all fifty states between 2021 and 2024, we analyze how different commission designs affected partisan fairness, competitiveness, and adherence to traditional principles",
+   "autonomous commissions with final map-drawing authority, balanced bipartisan processes with multiple non-partisan actors, and binding judicial review consistently produced redistricting plans with lower partisan bias and higher electoral competition.",
+   "commissions serving only in an advisory role, dominated by a single party, or lacking clear judicial oversight frequently saw their work undermined by legislatures pursuing partisan advantage."
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Law-journal article by Sam Wang (Princeton Gerrymandering Project, a reform advocate; same author as SRC-0818) and a coauthor; qualitative and quantitative comparison, not a causal design. It describes design, which DEM-2's memo leaves to the lead; Michigan's and Arizona's commissions are of the autonomous type.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Abstract",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-259",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-260",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-262",
+  "statement": "In Arizona State Legislature v. Arizona Independent Redistricting Commission (2015), the Supreme Court held that the Elections Clause and 2 U.S.C. 2a(c) permit a state's voters to give congressional redistricting to an independent commission; Justice Ginsburg wrote for five Justices, and Chief Justice Roberts dissented, joined by Justices Scalia, Thomas and Alito.",
+  "claim": "data",
+  "figures": [
+   "2",
+   "2a"
+  ],
+  "source": "SRC-5318",
+  "anchor": [
+   "2. The Elections Clause and 2 U. S. C. § 2a(c) permit Arizona's use of",
+   "a commission to adopt congressional districts. Pp. 804–824.",
+   "Ginsburg, J., delivered the opinion of the Court, in which Kennedy,",
+   "Breyer, Sotomayor, and Kagan, JJ., joined. Roberts, C. J., fled a dissenting opinion, in which Scalia, Thomas, and Alito, JJ., joined, post,"
+  ],
+  "grade": "A",
+  "fact_date": "2015-06-29",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Holding of the Court (syllabus and lineup). The vote count follows from the lineup (five in the majority, four dissenting). Two of the dissenters (Thomas, Alito) and the Chief Justice still sit, which bears on how a federal commission mandate under the Elections Clause would fare; the holding concerns a state's own choice, not a congressional mandate.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Syllabus, Held 2; lineup, 576 U.S. at 791"
+ },
+ {
+  "id": "EV-DEM-263",
+  "statement": "Kousser concludes from state comparisons that legislative term limits reverse professionalization: whatever more professional legislatures produce more of, term limits reduce, often by comparable amounts, though committee behavior and bill passage rates stayed stable.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5319",
+  "anchor": [
+   "Throughout these chapters, I have found that whatever a higher level of professionalism produces more of, term limits has reduced. The scales of these effects are often comparable.",
+   "Some functions of state legislatures do not appear to shift with changes in legislative design, such as committee behavior and overall bill passage rates."
+  ],
+  "grade": "B",
+  "fact_date": "2004",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Academic monograph (Cambridge University Press, 2004) using before-and-after comparisons across term-limited and other states, including chapters on bargaining with governors. It predates two decades of later experience; an independent later study (for example NCSL's joint project or Carey and coauthors, 2006) is still needed.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Chapter 8, Conclusions, p. 203"
+ },
+ {
+  "id": "EV-DEM-264",
+  "statement": "On November 21, 2013 the Senate, by overturning a ruling of the chair on appeal, set a precedent that lets a simple majority of those voting invoke cloture on all presidential nominations except to the Supreme Court, without changing the text of Rule XXII.",
+  "claim": "data",
+  "figures": [
+   "2013"
+  ],
+  "source": "SRC-5320",
+  "anchor": [
+   "On November 21, 2013, by overturning a ruling of the chair on appeal, the Senate set a precedent that lowered the vote threshold required by Senate Standing Rule XXII for invoking cloture on most presidential nominations.",
+   "rather, the Senate established a precedent reinterpreting the provisions of Rule XXII to require only a simple majority of those voting, rather than three-fifths of the full Senate, to invoke cloture on all presidential nominations except those to the U.S. Supreme Court."
+  ],
+  "grade": "C",
+  "fact_date": "2013-11-21",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "CRS. The method (a majority-sustained point of order) is the route any legislative-filibuster change by precedent would take; this section does not reopen D2.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Summary"
+ },
+ {
+  "id": "EV-DEM-265",
+  "statement": "On April 6, 2017 the Senate extended majority cloture to Supreme Court nominations by the same method as in 2013, so cloture on any nomination now needs a majority of those voting; CRS notes such proceedings are called the 'nuclear option' because they were arguably at variance with established Senate procedure.",
+  "claim": "data",
+  "figures": [
+   "2017",
+   "2013"
+  ],
+  "source": "SRC-5321",
+  "anchor": [
+   "On April 6, 2017, the Senate reinterpreted Rule XXII to allow a majority of Senators voting, a quorum being present, to invoke cloture on nominations to the U.S. Supreme Court.",
+   "The proceedings of April 6, 2017, were similar to those of November 21, 2013, when the Senate reinterpreted the cloture rule to lower the threshold for invoking cloture for all nominations except to the Supreme Court.",
+   "Proceedings of this kind have been called “the nuclear option” because they required actions arguably at variance with established principles underlying Senate procedure.",
+   "As a result of these two precedents, the Senate can now invoke cloture on any nomination by a majority vote."
+  ],
+  "grade": "C",
+  "fact_date": "2017-04-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "CRS. Cloture on legislation still needs three-fifths; cloture counts are in EV-DEM-073.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Summary"
+ },
+ {
+  "id": "EV-DEM-266",
+  "statement": "CRS finds it unresolved whether the National Popular Vote compact needs congressional consent under the Compact Clause, since the test asks whether a compact enhances state power against the federal government; supporters cite states' plenary power over appointing electors (McPherson v. Blacker), while opponents argue the Constitution's structure bars states from turning the Electoral College into a national popular vote.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5322",
+  "anchor": [
+   "Accordingly, the central legal issue with respect to the Compact Clause is whether a given interstate compact requires the consent of Congress.",
+   "whether such an arguably hypothetical and de minimis diminishment of federal power through the NPV would be sufficient to require congressional consent under the Compact Clause is simply unresolved by the relevant case law.",
+   "Supporters of the NPV argue that the Constitution provides the legal means for states to transform the presidential election system into one where the President is elected based solely on the result of the national popular vote.",
+   "Others have argued that the structure of the Constitution and historical evidence suggest that the states do not have such vast discretion in appointing electors as to functionally transform the election for President into a national popular referendum."
+  ],
+  "grade": "C",
+  "fact_date": "2019-10-28",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "CRS (2019 version, the latest). It predates Chiafalo v. Washington (2020), which upheld states' power to bind electors and which compact supporters cite; that ruling is not in the register. Membership counts are in EV-DEM-076 (the compact's own organization).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "'The NPV Initiative and the Compact Clause' and 'The NPV Initiative and Article II'",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-076",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-267",
+  "statement": "The 2020 census counted 689545 residents in the District of Columbia, more than Vermont (643077) or Wyoming (576851).",
+  "claim": "data",
+  "figures": [
+   "689545",
+   "643077",
+   "576851"
+  ],
+  "source": "SRC-5323",
+  "anchor": [
+   "row 13 | U.S. Department of Commerce = District of Columbia",
+   "row 13 |  = 689545",
+   "row 50 | U.S. Department of Commerce = Vermont",
+   "row 50 |  = 643077",
+   "row 55 | U.S. Department of Commerce = Wyoming",
+   "row 55 |  = 576851"
+  ],
+  "grade": "A",
+  "fact_date": "2020-04-01",
+  "checked": "2026-11-16",
+  "recheck": "2031-04-30",
+  "context": "Census Bureau official count, April 1, 2020 resident population (689,545; 643,077; 576,851). Later population estimates are not in the register.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Table 2, rows 13, 50 and 55"
+ },
+ {
+  "id": "EV-DEM-268",
+  "statement": "The House passed H.R. 51, the Washington, D.C. Admission Act, on April 22, 2021 by 216 to 208, with all Democrats voting yes and all Republicans voting no.",
+  "claim": "data",
+  "figures": [
+   "51",
+   "216",
+   "208"
+  ],
+  "source": "SRC-5324",
+  "anchor": [
+   "H R 51",
+   "Passed\n22-Apr-2021",
+   "Washington, D.C. Admission Act",
+   "Republican\n0\n208",
+   "Democratic\n216\n0",
+   "Totals\n216\n208"
+  ],
+  "grade": "A",
+  "fact_date": "2021-04-22",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "Official House roll call 132, 117th Congress. The bill did not pass the Senate. The opposing legal view, that admitting the District needs a constitutional amendment given the Twenty-third Amendment, is not yet in the register.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "Roll call 132 header and totals"
+ },
+ {
+  "id": "EV-DEM-269",
+  "statement": "CRS reports opposition to an Article V convention from across the spectrum: the Heritage Foundation cautioned against one in 2011 before a noncommittal 2016 study, Eagle Forum and the John Birch Society oppose it, and the Center on Budget and Policy Priorities and Common Cause warn that states could not control its outcome and that it could become a runaway convention.",
+  "claim": "analysis",
+  "figures": [
+   "2011",
+   "2016"
+  ],
+  "source": "SRC-5154",
+  "anchor": [
+   "In 2011, the Heritage Foundation 113 cautioned against a convention:",
+   "More recently, however, a 2016 Heritage study appeared to be noncommittal on the subject, balancing concerns about a \"runaway convention\"",
+   "opposition to the Article V Convention continues to be voiced by public policy advocacy organizations representing a broad segment of the political spectrum.",
+   "that states could control the actions or outcomes of a constitutional convention. A convention would likely be extremely contentious and highly politicized, and its results impossible to predict."
+  ],
+  "grade": "C",
+  "fact_date": "2017-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-30",
+  "context": "CRS (2017), describing advocates' positions on both sides; the proponents' case and application counts are in EV-DEM-077 to EV-DEM-079. No convention has been held, so there is no record of how one would be run.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/2-what-works.md"
+  ],
+  "locator": "'Selected Article V Convention Opponent Activity'",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-078",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-077",
+    "stance": "qualifies"
+   }
+  ]
  }
 ]
