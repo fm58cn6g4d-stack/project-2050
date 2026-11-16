@@ -1,0 +1,1209 @@
+Source: https://www.govinfo.gov/content/pkg/GOVPUB-Y10-PURL-LPS72697/pdf/GOVPUB-Y10-PURL-LPS72697.pdf
+Publisher: Congressional Budget Office
+Retrieved: 2026-11-16
+Original SHA-256: 10bc113d1ac3baf28b368ad02d673648bb644f002044e669ad8af0a1db89a6ac
+Rights: public domain (U.S. government work)
+Text version made by library/fetch_public.py; passages are verbatim.
+---
+CONGRESS OF THE UNITED STATES
+CONGRESSIONAL BUDGET OFFICE
+
+A
+
+CBO
+PAPER
+JANUARY 2003
+
+JupiterImages
+
+Evaluating and
+Accounting for
+Federal Investment
+in Corporate Stocks
+and Other Private
+Securities
+
+Evaluating and Accounting for
+Federal Investment in Corporate Stocks
+and Other Private Securities
+January 2003
+
+The Congress of the United States
+Congressional Budget Office
+
+Notes
+Unless otherwise indicated, the years referred to in this paper are calendar years.
+Numbers in the text and tables may not add up to totals because of rounding.
+
+Preface
+
+Public interest has become widespread in having the federal government invest in
+private securities (such as stocks and bonds) as a way to increase the flow of
+budgetary resources to the government. This Congressional Budget Office (CBO)
+paper—prepared at the request of Senator Pete V. Domenici, in his capacity as
+Chairman of the Senate Budget Committee—discusses the key effects of such
+investment on the U.S. economy and on the government’s ability to meet its future
+obligations. The paper also describes alternative ways in which federal investment
+activity could be treated in the budget. Although some proposals call for investment to occur through individual retirement accounts, this report focuses on direct
+federal investment in private securities through the general fund of the Treasury,
+program accounts, or federal trust funds.
+Douglas Hamilton, Deborah Lucas, and Marvin Phaup of CBO prepared
+the paper under the direction of Robert Dennis and Roger Hitchner. Barry
+Anderson, Tumi Coker, Paul Cullinan, Peter Fontaine, Geoffrey Gerhardt, Arlene
+Holen, Ben Page, Robert Sunshine, and Thomas Woodward of CBO contributed
+to the report.
+Christian Spoor edited the paper, and John Skeen proofread it. Annette
+Kalicki prepared the electronic versions for CBO’s Web site (www.cbo.gov).
+
+Dan L. Crippen
+Director
+January 2003
+
+Contents
+
+Summary and Introduction ...........................................................................
+
+1
+
+The Economic and Budgetary Effects of Federal Investment
+in Private Securities ........................................................................................
+
+3
+
+How Would Government Investment Affect the Economy? ...................
+3
+Would Government Investment Improve Social Welfare? ......................
+7
+Would Government Investment Reduce the Burden of Meeting
+Future Long-Term Obligations? ........................................................ 10
+How Would Government Investment Affect Control of the
+Federal Budget? ................................................................................. 11
+Accounting for Government Purchases of Private Securities .....................
+
+12
+
+Alternative Budgetary Treatments of Federal Investment Activity ......... 13
+Evaluating the Alternatives ...................................................................... 14
+Projecting Future Budgetary Resources ................................................... 18
+The Case of the Railroad Industry Pension Fund .......................................
+
+19
+
+Table
+1.
+
+Estimated Effects on Outlays of Investing in Private Securities,
+as Authorized by H.R. 1140, Under Two Accounting Methods ..............
+
+21
+
+Boxes
+1.
+
+Reallocating Stock Market Risks and Returns Through
+Social Security .........................................................................................
+
+8
+
+2.
+
+The Equity Premium ................................................................................
+
+12
+
+3.
+
+The Railroad Retirement System .............................................................
+
+22
+
+Summary and Introduction
+Over long periods, private securities (particularly corporate stocks) have shown
+significantly higher rates of return than securities issued by the U.S. Treasury.
+Between 1926 and 2000, for example, the average annual return on large-company
+stocks (adjusted for inflation) was 7.7 percent, whereas comparable returns on
+Treasury securities were 2.2 percent for long-term bonds and 0.7 percent for shortterm bills.1 Those higher rates of return have led some observers to suggest that
+federal social-insurance programs, including Social Security, could benefit from
+investing in private securities. In 2001, the Congress took an unprecedented step
+in that direction by authorizing the Railroad Retirement system to invest its
+account balances in stocks, corporate bonds, and real estate.2
+Federal investment in private securities has both advocates and critics.
+Some proponents argue that such investments will produce higher returns than the
+traditional portfolio of government bonds and thus will ease the government’s
+burden of paying for its future obligations. Other supporters believe that investment policies can be designed so as to provide benefits to households who do not
+participate in the stock market now and implicitly improve their access to the
+returns on private securities. Opponents counter that the higher returns are illusory
+in important respects because the government will be assuming risks that are
+costly and difficult to evaluate. Some critics also worry that the government might
+become overly involved in corporate governance and that its investments could
+become politically motivated.
+This Congressional Budget Office (CBO) paper addresses those issues,
+focusing on the broader effects that government investment in private securities
+would have on the federal budget and the economy. In particular, the paper examines several questions: what are the likely effects of such investment on the
+nation’s economy; will such investment make it easier for the federal government
+to meet its long-term obligations; is the government’s involvement in securities
+markets likely to distort market signals or corporate decisions; how might such
+investment affect the Congress’s and the President’s control over the budget; and
+how should the investments themselves be treated in the budget?
+In many cases, the answers to those questions would depend on the precise
+form of a particular investment proposal. Nevertheless, CBO’s analysis yields
+some general conclusions:
+
+1.
+
+Congressional Budget Office, Social Security: A Primer (September 2001), Box 6.
+
+2.
+
+Another federal entity, the Pension Benefit Guarantee Corporation, also holds corporate stocks, which
+were worth a total of $6.3 billion at the end of fiscal year 2001. Unlike the Railroad Retirement
+investments, those holdings resulted from taking over pension plans sponsored by distressed companies
+rather than from a deliberate acquisition policy. Similarly, the federal government acquired $3.2 billion
+in securities when it took over most of the pension plans of the District of Columbia in 1997.
+
+2
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+•
+
+Government investment in private securities does not offer a free
+lunch: although it would increase the expected value of budgetary resources, it would do so at the cost of exposing the government, future
+taxpayers, and beneficiaries of federal programs to greater risk. If that
+risk was taken into account, the returns on private securities would be
+no greater than the returns on government securities.
+
+•
+
+The economic effects of such investment are ambiguous. Thus, creating a government portfolio of private securities is not a reliable way
+for the nation to increase its future resources or address the economic
+challenges of an aging population.
+
+•
+
+Unless such investment increases the size of the economy, higher returns and risks to the government come at the expense of lower returns
+and risks to someone else. Government investment is redistributive: it
+shifts risks and potential returns from private investors to the government—and ultimately to taxpayers and program beneficiaries.
+
+•
+
+Using risky investment portfolios to finance spending by government
+agencies could weaken budgetary control of federal financial resources.
+
+•
+
+Current budgetary practices were not designed to account for federal
+investments in private securities. Changes in budgetary accounting
+might be necessary to give policymakers better information about the
+costs and benefits of those investments.
+
+•
+
+The Railroad Retirement and Survivors’ Improvement Act of 2001
+(Public Law 107-90), which authorized some federal investment in private securities, illustrates some of the new hazards to which beneficiaries and taxpayers may be exposed by the pursuit of higher but riskier
+investment returns.
+
+In some respects, an analysis of government investment in private securities
+is similar to an analysis of proposals that would allow people to invest some of
+their Social Security taxes in private securities. However, such proposals, which
+would rely on private accounts, raise a number of additional issues that are beyond
+the scope of this paper.3
+3.
+
+The similarities are most obvious for proposals that would allow the government to retain a substantial
+interest in those private accounts. Under some plans, for example, people’s annual Social Security
+benefits would be reduced dollar for dollar by the amount of annual income that they received from
+their account. Consequently, many account holders would receive no net gain from having such a
+private account; they would merely be acting as investing agents for the federal government. In that
+case, the accounts would be essentially governmental. Proposals for private accounts are extremely
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+3
+
+The Economic and Budgetary Effects of Federal
+Investment in Private Securities
+The government could invest in stocks and other private securities in a variety of
+ways. For example, program administrators or their agents could make the investments—as is the case with the Railroad Retirement system—or the Treasury could
+buy a portfolio of securities on behalf of the government’s general fund. Program
+benefits that were financed from holdings of private securities could be fixed at
+the current statutory level or could be adjusted up or down depending on the
+returns from those investments.
+Those variations raise many important issues, but in all cases their effects on
+the macroeconomy, on the outlook for the federal budget, and on overall social
+welfare would depend critically on how the government raised the funds to purchase private securities and how the gains and losses from those investments were
+distributed among taxpayers and program beneficiaries.
+
+How Would Government Investment Affect the Economy?
+Federal investment in private securities affects the economy primarily by redistributing resources among people. Unless such investment expands the economy,
+higher returns (and risks) for the government imply lower returns (and risks) for
+someone else. When the government buys securities from private investors, it
+transfers their risks and returns from the people who had previously owned those
+securities to current and future taxpayers and beneficiaries of government programs. After purchasing securities, the government holds a portfolio of assets that
+are riskier—but have a higher expected return—than government securities do. As
+a result, the income that the government will realize from its portfolio may be
+higher or lower than the cost of financing that purchase with government debt
+(Treasury securities). Although the government can temporarily carry such gains
+or losses forward through time, it cannot do so forever. At some point, it must
+pass its gains on to the public through lower taxes or higher spending. And if it
+suffers losses, it eventually has to cover those losses by raising taxes or cutting
+spending.
+
+diverse, however, and other proposals are set up in different ways. Moreover, private-account plans
+raise a number of additional questions, such as: how would the accounts be integrated into the current
+Social Security system, how would they affect saving and work by the private sector and future
+budgetary decisions by the government, how much would the accounts cost to administer, and who
+would bear that cost? CBO has addressed those issues in Congressional Budget Office, Social
+Security: A Primer, and The Budgetary Treatment of Personal Retirement Accounts (March 2000).
+
+4
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+Effects of Redistributing Risks and Returns. Any substantial redistribution
+potentially affects the economy, and the implicit redistribution arising from government investment in private securities is no exception. Such investment would
+change people’s expectations about their future after-tax income, which in turn
+would influence their decisions about how much to save and work. And if the
+government’s investments were large enough, they could have a noticeable effect
+on capital accumulation, labor supply, and total income in the economy.
+Predicting whether such investment would raise or lower the growth rate of
+the economy is impossible because the answer hinges on assumptions about future
+policies and about people’s expectations and responses—all of which are uncertain. In particular, the way in which people responded would depend on what they
+thought policymakers would do with the gains or losses from the government’s
+investment portfolio. A variety of plausible scenarios exist, and each would have a
+different influence on the economy. Under some assumptions, the nation’s gross
+domestic product (GDP) could fall; but under other assumptions, it could rise.4
+One possibility is that current and future beneficiaries of federal programs
+that were financed through private securities might expect benefit payments to rise
+when the stock market did well but expect to be protected from benefit cuts when
+the market performed poorly. That view would lead them to expect a higher
+lifetime income than would otherwise be the case, which means that they would
+probably save less and consume more. Lower saving rates would reduce the
+accumulation of capital over time, slowing the growth of the economy.
+Alternatively, beneficiaries might believe that they would share both the
+gains and losses of the stock market through higher or lower benefit payments.
+With that view, some people might save more to protect themselves against the
+risk of reduced benefits, and that additional saving would increase GDP.
+Taxpayers could also have different expectations about future tax burdens,
+which could influence their decisions about saving. Although most taxpayers
+would probably not change their saving plans, some people might save more to
+hedge against the risk that the government would raise taxes in the future to cover
+stock losses. Others might save less if they thought that unexpected gains from the
+government’s stock investments would accrue to them in the form of lower taxes.
+
+4.
+
+See Andrew B. Abel, “The Effects of Investing Social Security Funds in the Stock Market When Fixed
+Costs Prevent Some Households from Holding Stocks,” American Economic Review, vol. 91, no. 1
+(March 2001), pp. 128-148; Peter Diamond and John Geanakoplos, Social Security Investment in
+Equities I: Linear Case, Working Paper No. 7103 (Cambridge, Mass.: National Bureau of Economic
+Research, April 1999); and Kent Smetters, Investing the Social Security Trust Fund in Equities: An
+Options Pricing Approach, CBO Technical Paper 1997-1 (August 1997), available at www.cbo.gov/
+tech.cfm.
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+5
+
+Government investment in the stock market could also affect the distribution
+of risks and returns—and hence investment incentives—through its effects on the
+prices of financial securities. Some models predict that a large government
+investment in the stock market would raise the price of stocks and reduce the price
+of debt. As a consequence, interest rates on government and other debt would rise,
+and returns on stocks would fall. Those results stem from the fact that for the
+government to induce private investors to buy additional government debt and sell
+stocks, interest rates on bonds would have to rise relative to the expected returns
+on stocks. Whether those relative price changes would alter overall private investment is uncertain, but there are reasons to expect that any effect would be small.
+For one thing, companies’ investment decisions depend on changes in overall
+financing costs, and those costs in turn depend on the total supply of and demand
+for investment capital, not on the cost of either debt or stocks alone.
+The Means of Financing Purchases. The way in which the government financed
+the purchase of private securities could also have consequences for the economy.
+The government could raise funds for those purchases by issuing debt, cutting
+spending, or raising taxes. Even using the tax revenues allocated to federal trust
+funds (such as the Social Security trust funds) to buy stocks would not let the
+government avoid some form of new financing because those revenues would no
+longer be available to cover other expenditures.
+Issuing debt to buy private securities would be an equal-value swap between
+the private sector and the government, so it would primarily affect the economy
+through the redistribution of risks and returns. Other means of financing would
+have additional effects. Cutting spending could raise GDP by increasing savings.
+Raising marginal tax rates, by contrast, could reduce GDP if the higher rates
+significantly discouraged people from saving or working more. Those outcomes,
+however, would depend on how taxes and spending affected overall saving and
+the labor supply—not on the fraction of stocks that the government held in its
+portfolio. Thus, those effects would be logically distinct from the government’s
+portfolio decisions.
+Regardless of how the investments were financed, there remains a fundamental difficulty in projecting how future policymakers would redistribute the
+risks and returns of the government’s investments in private securities. Thus, the
+net effects on the economy of those investments are necessarily ambiguous, as
+they depend on many types of future as well as current policy choices.
+Potential Implications for Corporate Governance. Government investing could
+also influence investment and capital accumulation through its effects on corpo-
+
+6
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+rate decisionmaking.5 Federal ownership of private stocks would give the government partial ownership of the underlying companies. Ownership conveys voting
+authority in the selection of top management. If the government exercised that
+authority, it might influence the selection of managers and thus the criteria that
+managers used to identify investment projects. Many observers have expressed the
+fear that such influence would result in less productive investments. Yet, if the
+government tried to avoid those distortions by refusing to exercise its voting
+rights, and voting power shifted in favor of insiders, corporate managers might not
+receive sufficient oversight. A related concern is the potential for government
+favoritism toward companies in which it had a large stake.
+Even if the government’s investments were spread broadly through the
+economy, large government holdings could result in some reallocation of capital.
+For example, it might be impractical for the government to buy every stock for its
+portfolio. Companies that were not included could experience a higher cost of
+capital than firms that were included. (A similar effect is evident in the tendency
+of a stock to rise in price when it is added to the Standard & Poor’s 500 index.)6
+Evidence from the states, however, suggests that although government investments are sometimes influenced by political as well as economic considerations, the overall returns on government portfolios have not been markedly affected. State pension funds held almost $1.3 trillion in corporate stocks and bonds
+in the third quarter of 2002.7 In some documented cases, investment policies
+reflected political concerns, and as a result, the funds’ portfolios suffered losses.8
+Nevertheless, the overall returns on investments in state and local pension funds
+were similar to the returns on investments in private funds (adjusted for differences in the size and composition of the portfolios).9 That result suggests that
+5.
+
+For further discussion, see Congressional Budget Office, Social Security: A Primer; the statement of
+Alan Greenspan, Chairman, Board of Governors of the Federal Reserve System, before the Senate
+Budget Committee, January 25, 2001; and General Accounting Office, Long-Term Budget Issues:
+Moving from Balancing the Budget to Balancing Fiscal Risk, GAO-01-385T (February 6, 2001).
+
+6.
+
+Roger J. Bos, Event Study: Quantifying the Effect of Being Added to an S&P Index (New York:
+McGraw-Hill, Standard & Poor’s, September 2000), available at www.spglobal.com/EventStudy.pdf.
+
+7.
+
+Federal Reserve, Flow of Funds Accounts of the United States (December 5, 2002).
+
+8.
+
+Olivia Mitchell and Ping-Lung Hsin, “Public Pension Governance and Performance,” in Salvador
+Valdés-Prieto, ed., The Economics of Pensions: Principles, Policies, and International Experience
+(Cambridge: Cambridge University Press, 1997); Alicia Munnell, “The Pitfalls of Social Investing by
+Public Pension Plans,” New England Economic Review (September/October 1983), pp. 20-37; John
+Nofsinger, “Why Targeted Investing Does Not Make Sense,” Financial Management, vol. 27, no. 3
+(Autumn 1998), pp. 87-96; and Roberta Romano, “Public Pension Fund Activism in Corporate
+Governance Reconsidered,” Columbia Law Review, vol. 93, no. 4 (May 1993), pp. 795-853.
+
+9.
+
+Alicia Munnell and Annika Sunden, “Investment Practices of State and Local Pension Funds:
+Implications for Social Security Reform” (paper presented at the Pension Research Council conference
+at the Wharton School, University of Pennsylvania, April 26-27, 1999).
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+7
+
+political considerations may not have greatly interfered with the pursuit of market
+returns for many state funds. But whether that result would apply to potentially
+much larger federal investments—with a much greater capacity to influence corporate behavior and the economy—is unclear.
+Some countries have also built up large holdings of government-owned
+private assets.10 Norway, for example, has accumulated net assets (mainly foreign
+stocks and bonds) totaling about half of its GDP in 2002. The nation’s independent central bank manages those investments, which may lessen some of the concern about portfolio choices being affected by political considerations. In addition,
+because the country is relatively small, its actions would not be expected to affect
+world financial markets to any appreciable extent. Moreover, Norway’s decision
+to invest mainly in foreign securities limits its potential scope for distorting the
+activities of its private sector. The United States, by contrast, is unlikely to have
+the option or inclination to invest solely in foreign stocks.
+
+Would Government Investment Improve Social Welfare?
+Some proponents of private investment argue that even if federal investing did not
+boost GDP, it could make some citizens better off by implicitly increasing their
+access to the returns of private securities and thereby improving the distribution of
+risks and returns in the economy. If, for example, some households do not participate in the stock market now because of government policy or market failure,
+federal investing could give them that opportunity by proxy. (For a discussion of
+reallocating the risks and returns of the stock market through the Social Security
+program, see Box 1.)
+Several reasons exist to be skeptical about those arguments. To achieve the
+benefits of risk sharing, the losses as well as the gains from government investments in private securities would have to be distributed to people, and low-income
+households could be most vulnerable in the event of such losses. Clearly, whether
+or not the government would actually distribute losses to low-income beneficiaries of federal programs is an open question—but one that is critical for assessing
+the welfare implications of an investment policy. Moreover, the government already provides implicit access to the risks and returns of the stock market because
+tax revenues are significantly affected by the performance of the market.
+
+10.
+
+General Accounting Office, Budget Surpluses: Experiences of Other Nations and Implications for the
+United States, GAO/AIMD-00-23 (November 2, 1999).
+
+8
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+Box 1.
+Reallocating Stock Market Risks and Returns Through Social Security
+Can the government make people better off by changing the distribution of stock market risks and
+returns through the Social Security system? The answer might be yes if stock market risks and
+returns were concentrated among part of the population rather than spread broadly, and if that
+situation resulted from government policy or a failure of the market. In that case, the government
+might be able to improve social welfare by redistributing small portions of the risks and returns
+of stock investments to people who do not already bear them. However, although such a result
+is logically possible, it is not clear that the necessary conditions for it now exist.
+Today, most low-income people have little savings. Social Security provides their main
+source of retirement income. Some proponents of government investment in stocks argue that if
+those people were not compelled to make payroll tax payments but could instead invest that
+money as they saw fit, they would be unlikely to invest in a portfolio consisting exclusively of
+government bonds. Rather, they would probably choose a more balanced portfolio containing a
+mixture of stocks and private bonds, which would offer a higher return in exchange for somewhat
+higher risk. That choice would spread risk more broadly, reduce the share of risk borne by current
+investors, and improve social welfare.
+More broadly, proponents argue that the current allocation of risks and returns is distorted
+because of some people’s lack of access to the stock market or because of the high costs of
+becoming informed about investing in risky assets. If the government could reduce those costs,
+it could make people better off by improving the distribution of risks and returns without having
+to increase national income and production.
+Other observers are skeptical that Social Security payroll taxes and information costs explain
+low-income people’s lack of participation in the market. The U.S. stock market is one of the most
+efficient in the world, they argue, and investors can participate inexpensively through mutual
+funds. Indeed, participation has increased over time as people’s income has risen and information
+costs have fallen. Stock market holdings are concentrated disproportionately in the portfolios of
+relatively wealthy people in part because higher income may increase the capacity to tolerate risk.
+Further, although low-income people bear little stock market risk directly, they have significant indirect exposure. For instance, the chance of becoming unemployed is correlated with a drop
+in the stock market. Exposing that group to additional stock market risk might make them worse
+off, even if the expected return on stock investments was significantly higher than the return on
+government bonds.
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+Box 1.
+Continued
+In addition, the U.S. public already implicitly shares the risks and rewards of stock market
+investments through the income tax system, including the capital gains tax. For example, when
+stock market returns are high, tax revenues rise from the tax on capital gains. But when returns
+are low, tax revenues decline. Indeed, some of the improvement in the federal budget in the late
+1990s can be traced to the rise in the stock market and revenues from capital gains realizations.
+Such variations in federal tax revenues affect beneficiaries of government programs and taxpayers. The government must eventually make up revenue shortfalls from other sources—through
+either program cuts or higher taxes, now or in the future. Thus, the government already transfers
+stock market risk to taxpayers and program beneficiaries.
+Although the government can reallocate the risk of stock holdings, it cannot eliminate it. If
+the government buys stock from private investors, it merely shifts risk from those investors to
+taxpayers and program beneficiaries. If stock prices drop, the government and the public in
+general have suffered the loss. Risk is not reduced simply because the government can borrow
+to avoid raising taxes or cutting spending in the current period. Government borrowing is a
+decision to tax or cut spending in the future rather than a means of avoiding taxation or spending
+cuts altogether. Nor is risk diminished by the government’s ability to indefinitely hold a stock
+whose price has declined. A drop in the price of a stock is not a temporary aberration; it reflects
+the market’s judgment that the value of the stock has declined permanently. An investment in
+private securities is no less risky when it is made by the government than when it is made by a
+mutual fund. Therefore, risk is costly to both the government and individuals.
+Moreover, the government can reallocate those risks and returns to various groups without
+directly purchasing individual stocks. In the case of Social Security, for example, taxes and
+benefits could be adjusted so that people paid and received exactly the same amounts as they
+would if the government invested in the stock market and financed those investments by issuing
+public debt. For instance, Social Security benefits could be linked to a stock market index such
+as the Standard & Poor’s 500. Alternatively, people could be given a choice about how closely
+they wanted their benefits to be tied to the performance of the stock market. That way, they could
+choose how much stock market exposure they wanted to assume. Similarly, Social Security tax
+rates could be automatically increased when stock market returns were low and decreased when
+returns were high. Conversely, if the government did invest in the stock market, neither Social
+Security benefits nor earmarked taxes would need to be changed in step with market returns.
+Thus, if an opportunity exists for the government to improve risk sharing through Social Security
+taxes and benefits, it can do so without the necessity of directly investing in the stock market.
+
+9
+
+10
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+Would Government Investment Reduce the Burden
+of Meeting Future Long-Term Obligations?
+Some observers have argued that federal investment in private securities could
+provide additional resources to help meet the government’s long-term obligations
+to an aging population. The theory is that if the Social Security and Medicare trust
+funds were invested in private securities, their balances would grow faster, on
+average, providing more funding for those two programs.
+That argument, however, confuses higher balances in trust fund accounts
+with greater national resources. Federal trust funds do not measure the real
+resources available for future payments; rather, they are accounting mechanisms
+designed to record program spending and collections of earmarked revenues. To
+pay program benefits, the federal government must acquire real resources from the
+private economy.
+Other things being equal, the larger the economy, the lower the burden of
+financing any given level of long-term obligations. Thus, the government’s ability
+to meet its future commitments—whether Social Security benefits or some other
+obligation—depends on the total resources of the economy and the willingness of
+taxpayers to fund those programs, not on the account balances attributed to various trust funds. However, as discussed earlier, government investment in private
+securities would have an unpredictable effect on the economy. Thus, such investment is a fairly risky approach to meeting the nation’s long-term obligations to an
+aging population.
+Even in the narrow context of trust fund accounting, investing in stocks is
+not a reliable way to increase trust fund balances. Although stocks can be
+expected to outperform bonds, on average (a difference often referred to as the
+“equity premium”), the performance of the stock market is never certain. Indeed,
+even over long periods of time, there is a chance that stocks could perform worse
+—perhaps much worse—than bonds. According to historical data, investors face
+about a 25 percent chance of realizing lower returns from holding a portfolio of
+S&P 500 stocks for 10 years than from holding 10-year government bonds over
+the same period.11
+
+11.
+
+Thomas MaCurdy and John Shoven, “Asset Allocation and Risk Allocation: Can Social Security
+Improve Its Future Solvency Problem by Investing in Private Securities?” in John Campbell and
+Martin Feldstein, eds., Risk Aspects of Investment-Based Social Security Reform (Chicago: University
+of Chicago Press, 2001).
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+11
+
+Even during the great postwar boom of the past 50 years, stocks have
+returned no more than Treasury debt in some long periods. For example, between
+1966 and 1981, the real rate of return on stocks was -0.4 percent, lower than the
+real rate of return on short-term Treasury securities (-0.2 percent).12 More recently,
+in the 12 months that ended on September 30, 2002, the S&P 500 portfolio fell by
+20.5 percent, while bonds (as measured by Barclay’s U.S. Debt Index) provided
+returns of 8.6 percent.
+It is the risk of greater potential losses that causes investors to demand a
+premium to hold stocks rather than bonds. Stocks must provide higher returns
+than bonds, on average, because otherwise no one would be willing to invest in
+them. (For the implications of that difference for government investment in private securities, see Box 2.)
+
+How Would Government Investment Affect
+Control of the Federal Budget?
+The Office of Management and Budget (OMB), the Treasury, and Members of the
+Congressional budget committees have at times expressed concern about federal
+investment in nonfederal securities, in part because of its potential to weaken the
+President’s and the Congress’s control over federal spending. One worry is that
+investment gains could accrue to specific programs, but taxpayers at large could
+be called on to absorb any significant losses. That asymmetric result could occur
+because federal programs can be granted the authority to spend investment gains,
+but they have no financial resources in their own right that would let them cover
+losses. If the value of investments declined, the programs would be unable to provide benefits or services that are specified in law without additional resources
+from the Congress. Such an unbalanced payoff structure would give program administrators an incentive to make riskier investments than might otherwise be
+considered prudent.
+Rules could be adopted, however, to limit the discretion of program administrators and to assign responsibility for investment losses. For instance, in the
+case of the legislation requiring private investment by the Railroad Retirement
+system, tax payments earmarked for the program are partially tied to investment
+returns, which may help insulate general taxpayers from investment losses. Under
+that law, most of the risk is borne by current and future railroad employees.
+
+12.
+
+Jeremy J. Siegel, Stocks for the Long Run, 2nd ed. (New York: McGraw-Hill, 1998).
+
+12
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+Box 2.
+The Equity Premium
+The difference between the expected return on equities (stocks) and the expected return on shortterm Treasury securities is the equity premium. Historically in the United States, that premium
+has been approximately 7 percent. The equity premium arises from the fact that investors are
+willing to take on the additional risk of stock investments only because the average return is
+higher than from bonds.1 An investor choosing between a risky stock portfolio and low-risk bonds
+would almost certainly choose the bonds if the expected return was the same on both. In that case,
+the price of bonds would be bid up relative to the price of stocks, until prices were such that
+investors had no preference between the two—that is, until the additional expected yield on the
+stocks exactly offset the costs to investors of the additional risk. Consequently, when returns are
+adjusted for risk, private securities carry the same returns as government securities.
+Proponents of having the government invest in private securities sometimes argue that the
+risks inherent in a higher average return on stocks do not represent a cost to the government
+because the government is better able than private investors to manage and spread risk. However,
+as noted earlier, the government can redistribute risk, not eliminate it. Risk assumed by the
+government is borne by taxpayers and program beneficiaries. Like private investors, they would
+require some compensation to voluntarily bear that risk.
+In the case of private investments by the Railroad Retirement system, when the Congressional
+Budget Office and the Office of Management and Budget make projections, they subtract the
+equity premium from the system’s expected returns—which is equivalent to using a Treasury
+rate.2 As a result, those projections are risk-adjusted using the financial markets’ valuation of the
+cost of that risk.
+
+1.
+
+Technically, the risk that investors must be compensated for is called undiversifiable risk—the risk that
+cannot be eliminated simply by diversifying one’s investments. Stock investments are the classic
+example of an undiversifiable risk because the stock market tends to have low returns just when the rest
+of the economy is also performing poorly. Even when many investors share that risk, it remains significant. (That situation is in contrast to diversifiable risk, such as the risk of one’s house burning down,
+which in theory does not require any premium because a person’s exposure is negligible if the risk is
+widely diversified through insurance markets.)
+
+2.
+
+Budget of the United States Government, Fiscal Year 2003: Analytical Perspectives, pp. 439-440.
+
+Accounting for Government Purchases
+of Private Securities
+Investment in private securities is a significant departure from traditional federal
+transactions. As such, it poses major challenges to existing budget concepts and
+practices, which were developed largely to report and control tax revenues and
+spending. Several different means of accounting for such investment in the federal
+budget have been proposed, each of which has advantages and disadvantages.
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+13
+
+The most basic question about the budgetary treatment of federal investment
+in private securities is whether the investment activity is federal and hence
+belongs in the budget. For example, a voluntary pension plan that is administered
+by the government without federal financial support is effectively private and
+should be excluded from the budget. That is the status of the Thrift Savings Plan
+for federal employees, which is administered by the government solely on behalf
+of beneficiaries and holds investments in a fiduciary capacity for private owners.
+Certain Indian tribal trust funds are similarly held and administered by the federal
+government and are not included in the federal budget. That exclusion might also
+apply to individual retirement accounts financed with payroll tax dollars, if (as
+with the Thrift Savings Plan) participation was voluntary, beneficiaries were
+entitled to the balances in those accounts, and the accounts had no explicit or implicit federal guarantee of a minimum value.13
+Under most proposals for direct federal investment in private securities, the
+investment activity would be unequivocally federal because it would be undertaken at the initiative of the government, the funds invested would be federal, and
+the gains and losses would accrue to the government. In other cases, with different
+degrees of federal control and ownership, difficult judgments would be necessary
+to determine the appropriate budgetary status of the investment activity.
+
+Alternative Budgetary Treatments of Federal Investment Activity
+Both cash and noncash bases of accounting have been proposed for federal investment activity that belongs in the U.S. budget. Currently, the budget treats most
+federal transactions on a cash basis, although it accounts for loan and loan guarantee programs on a noncash basis.
+Cash-Basis Accounting. Under the cash-basis treatment, the budget would not
+distinguish between buying private securities and spending the same amount to
+buy office supplies, an airplane, or a building. Indeed, OMB’s Circular A-11
+directs that all federal purchases of assets receive the same treatment and be
+shown as outlays. Purchases of goods and services and transfer payments are all
+recorded as outlays when the funds are disbursed. That treatment implies that
+when the government buys private securities, the budget should record an increase
+in outlays—and an equal increase in the deficit or decrease in the surplus.
+Similarly, when the government sells securities or receives interest and dividends
+from its investment holdings, the budget should record negative outlays (offsetting
+receipts) for the amount of cash received.
+13.
+
+See Congressional Budget Office, The Budgetary Treatment of Personal Retirement Accounts (March
+2000).
+
+14
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+Accrual (Non-cash-basis) Accounting. An alternative to cash-basis accounting
+for financial investments is suggested by the current budgetary treatment of federal direct loans, such as student loans and home mortgages. Those loans are not
+counted as budget outlays.14 Instead of raising the budget deficit or reducing the
+surplus, those transactions simply increase the government’s borrowing from the
+public. Similarly, loan repayments and loan sales that do not involve gains or
+losses to the government leave budget outlays, receipts, and the deficit unchanged,
+but they are shown as reducing the government’s borrowing from the public.
+However, unexpected gains and losses on loans are treated as reestimates and are
+reported as negative and positive outlays, respectively, in the year they occur.
+Whether making a direct loan or buying stocks and bonds, the government is
+acquiring a claim on uncertain future cash flows. That similarity between private
+loans, stocks, and bonds constitutes a precedent for the general noncash accrual
+approach used in accounting for federal lending (although not necessarily the specific account structure or procedures). That approach could provide an alternative
+budgetary treatment of federal investments in marketable stocks and bonds. Under
+that approach, purchases and sales of private securities would be treated as
+transactions affecting federal borrowing from the public but not outlays or the
+budget deficit. Interest income, dividends, and capital gains (or losses), however,
+would be recorded as collections, which reduce (or increase) outlays.
+If, for example, the government bought $1 million worth of stocks in the
+open market, net budget outlays would be unaffected. If, however, the market
+price of those shares later declined to $750,000, the budget would record an outlay
+of $250,000 corresponding to the government’s loss. Conversely, an increase in
+value would trigger the recognition of a gain through an increase in offsetting
+collections and a decline in outlays. Thus, the focus of measurement under that
+approach is on actual gains and losses rather than on the initial outlay of cash for
+equal-value securities.
+
+Evaluating the Alternatives
+In evaluating the two methods of accounting for purchases of private securities,
+several important criteria apply. Most analysts would agree that accounting rules
+should encourage fiscal discipline, facilitate meaningful comparisons between
+alternative uses of funds, and accurately reflect the financial effect of a purchase
+on the government, initially and over time. Unfortunately, neither alternative fully
+meets all of those criteria. Considerations of fiscal discipline and transparency
+
+14.
+
+See the Credit Reform Act of 1990, Section 13201 (Title XIII of the Omnibus Reconciliation Act of
+1990).
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+15
+
+point to cash-basis accounting, whereas the desire to accurately reflect financial
+effects favors a noncash approach.
+The Case for Cash-Basis Accounting. The government differs fundamentally
+from private companies, most significantly in its ability to compel the payment of
+taxes. With that authority, the government is not constrained in its financial transactions by the need to persuade investors to commit their capital to a particular
+enterprise. Instead, investors who buy Treasury securities lend money to the government for general purposes, confident that the debt is backed by the government’s ability to tax rather than by the financial success of any planned expenditure. The government, therefore, is exempt from a major financial check and
+balance that applies to private firms. Cash-basis accounting is a partial substitute
+for that missing market discipline. It requires policymakers and the public to
+recognize the entire amount of taxpayers’ funds placed at risk by a transaction.
+Cash-basis accounting also contributes to fiscal discipline and transparency
+by treating all expenditures identically and thus avoiding the need to make arbitrary distinctions between assets. Those distinctions can be arbitrary because in
+some cases, it is difficult to draw a clear line between capital assets and goods or
+services for consumption. Some types of current expenditures, such as inventories
+of supplies, have attributes of capital, and capital assets do provide current (and
+future) consumption benefits. Even expenditures for labor are likely to produce
+services (environmental protection, defense, health) that will yield benefits in the
+future. Applying non-cash-basis accounting to the acquisition of some assets but
+not to others that provide similar services—as some observers have proposed—
+could distort choices between various assets.15
+Proponents also argue that maintaining a cash-basis treatment of federal
+investments in private securities is consistent with the allocative purpose of the
+budget. As the central element in federal financial planning, the budget requires a
+comprehensive measure of the use of resources for alternative purposes. The full
+measure of financial resources allocated to each use is the amount of cash
+disbursed or received in every transaction. Cash-basis accounting ensures full
+recognition of the funds allocated to each activity.
+Some advocates emphasize the principle that the budget should reflect all
+potential losses from an obligation at the time it is incurred. The federal government is at risk of losing its entire investment in private securities as soon as those
+securities are acquired, since there is some chance that they will never pay off. In
+
+15.
+
+Private companies largely avoid that problem by using a balance sheet to report assets and liabilities
+and an income statement to report expenses. Using multiple statements rather than a single budget
+enables private firms to account for different types of transactions differently.
+
+16
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+that view, the budgetary cost of such an investment is the full purchase price—and
+should be recognized at purchase.
+Finally, some budget analysts have argued that cash-basis accounting helps
+preserve the link between the budget deficit or surplus and borrowing from or debt
+repayment to the public. The annual deficit or surplus is widely regarded as a
+measure of changes in total federal debt held by the public. Purchases of private
+securities increase federal borrowing from the public (or reduce debt repayment)
+just as any other purchase or transfer payment does, and that fact is reflected when
+such purchases are reported on a cash basis.16
+The Case for Accrual Accounting. The main advantage of accrual (noncash)
+accounting is that it more accurately reflects the change in the government’s economic position as a result of a security purchase, both initially and over time. The
+initial purchase of a security generally implies no change in the financial status of
+the government. Government securities are sold for cash that is exchanged for an
+asset of equal value. Equivalently, the present value of the promised cash flow
+that the government will receive in the future equals the price paid. Over time,
+however, security prices change as new information about the performance of the
+underlying companies and the economy in general becomes available. Capital
+gains and losses, whether or not they are realized, are changes in the value of
+resources available to the government. When the government holds private
+securities, its ability to meet obligations using invested funds is reduced by the
+amount of any capital losses and increased by the amount of any capital gains.
+Accounting for the purchase of securities on a cash basis fails to reflect
+those economic effects. Cash flows expected to occur within the period covered
+by the budget are not discounted for the time value of money or for uncertainty,
+and cash flows expected to occur after that period are ignored and thus assigned a
+value of zero. As a result, a security purchase (or sale) can have a significantly
+positive (or negative) effect on the budget deficit even though the financial condition of the government does not change. Furthermore, no changes in the market
+value of the security are recognized, since those changes are not an actual cash
+flow. In fact, under cash-basis accounting, if the government sold the security
+after a large fall in its value, the budget entry in the year of the sale would show a
+positive inflow that reduced outlays and the deficit because some cash would be
+received.
+
+16.
+
+There are two caveats to that viewpoint. First, because federal loans are treated under credit reform as
+a means of financing, the deficit does not precisely track changes in federal debt. Second, the deficit
+is sometimes used as a measure of economic stimulus. Accounting for securities on a cash basis
+weakens that interpretation.
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+17
+
+Another disadvantage of the cash-basis approach is that by treating investments in financial assets as equivalent to purchases of goods and services, it overstates the use of budgetary resources in the period of the purchase and understates
+the use in the period of sale. That is, if the purchase occurs in one budget period
+and the sale in another, then outlays (a proxy for the use of budgetary resources)
+will rise in the purchase period and fall in the sale period. Such a direct effect of
+purchases and sales of securities on the deficit could also tempt future policymakers to “manage” the budget’s bottom line by buying and selling securities to
+shift outlays between fiscal years.
+Adopting some features of the noncash approach now used for direct loans
+would address those issues by insulating outlays and the deficit from the cash flow
+effects of purchases and sales of private securities. Only subsequent changes in
+market value (gains and losses on investment holdings) would be included in outlays and the deficit. Excluding stock purchases from outlays avoids the implication that investing in financial assets is costly in the same way as spending for
+goods and services. It would also foreclose the possibility of manipulating the
+deficit through strategic timing of security purchases and sales. At the same time,
+requiring that gains or losses on investments be reported as negative or positive
+outlays would reflect the effect of changes in asset values on the government’s
+finances.
+Applying the current accounting method for government loan programs
+without modification, however, would only partly reflect the financial consequences of security transactions in the budget. In particular, two features of that
+method—the rule for discounting future cash flows and the exclusion of
+associated administrative costs—would result in budget entries that tended to
+understate the costs and overstate the benefits of investments in securities.
+The Credit Reform Act requires that future cash flows from loans be discounted at the government’s borrowing rate rather than at a rate that reflects the
+risk of the loan. Because stock investments are riskier than government securities,
+discounting at the government rate could result in reported valuations that significantly exceeded the economic value of those investments. Cost estimates of proposals that include guaranteed floors on investment returns would be biased
+downward under the current policy of discounting at a risk-free rate. (For more
+about risk-adjustment in discounting, see Box 2 on page 12.)
+Moreover, because most of the assets that the government would probably
+hold in its portfolio would be publicly traded, there would be less need to discount
+future cash flows to calculate the market values of the assets. The values of assets
+such as stocks are priced every day in the financial markets, and the government
+would be able to estimate the value of its portfolio without having to make assumptions about discount rates and future cash flows.
+
+18
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+The Credit Reform Act also requires that administrative costs for loan programs be treated on a cash basis. To the extent that program accounts should
+reflect all of the associated expenses for the life of the loans made in a budget
+year, that requirement tends to understate program costs. In the case of stock and
+real estate investments, where the associated administrative costs could sometimes be sizable, that treatment could misrepresent the cost of the investments.
+In evaluating the two accounting approaches, the advantage of more accurately reflecting changes in the government’s financial position under noncash accounting must be weighed against the fiscal discipline and transparency that could
+be lost from not using cash-basis accounting for security investments. As in most
+budget accounting matters, political judgment is required.17
+
+Projecting Future Budgetary Resources
+The choice between cash and noncash accounting for federal investments in
+private securities leaves unanswered the question of how to project the future budgetary resources expected from those investments, for the purposes of establishing
+a budget baseline. The main issue is how to project both the greater risks and the
+higher expected returns embodied in those investments.
+One approach is to assume that a private security will earn its expected
+return each year in the future. That expected return might be based on historical
+averages, or it could reflect the government’s current assessment of the market’s
+prospects. If government debt was used to finance the investment, the projected
+gain would depend on the difference between the expected return on the private
+securities and the government’s cost of funds. For example, consider the purchase
+of $1 billion of a stock, with an expected return of 7 percent each year, financed
+by government debt with an expected return of 3 percent each year. That difference of 4 percentage points is the equity premium required by investors to accept
+the higher risk of the private security (see Box 2 on page 12). At the end of five
+years, the stock would be projected to have a value of $1.4 billion, and the
+government debt, with accumulated interest, would total $1.16 billion. Thus, the
+transaction would net an expected gain of $240 million over five years, compared
+with the result from the current policy of investing only in government bonds.
+The most serious shortcoming of that approach is that it would allow lawmakers to create the appearance of new budgetary resources (sometimes incorrectly described as “arbitrage profits”) simply by issuing more debt and buying
+
+17.
+
+G. William Hoagland, statement to the conference on “Building a Better Budget,” Brookings Institution, May 10, 2002.
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+19
+
+risky private securities with the proceeds. The reason is that such an approach
+neglects the effect of risk on the value of securities—and hence on expected
+returns. Ignoring risk overstates the future resources available to the government
+because it fails to take into account the cost of that risk for future taxpayers (see
+Box 1 on pages 8 and 9).
+Budget analysts can avoid the appearance of arbitrage profits by using a riskadjusted interest rate to value expected gains from investments. In other words,
+they can use a Treasury rate (the standard proxy for the required return on a riskfree investment) to calculate the expected risk-adjusted returns on any investment
+portfolio. That method ensures that investments with equal current values are projected to have equal risk-adjusted values in the future. Similar adjustments for risk
+are required in accounting for private pension plans, to prevent those plans from
+setting aside too little to cover their future liabilities to beneficiaries.
+
+The Case of the Railroad Industry Pension Fund
+A decline in railroad employment has weakened the financial condition of the
+Railroad Retirement system to the point that the Railroad Retirement Board’s
+Bureau of the Actuary has characterized the system’s long-term stability as “questionable.”18 Nevertheless, the Railroad Retirement and Survivors’ Improvement
+Act of 2001 (P.L. 107-90) raised retirees’ benefits and reduced taxes as it
+authorized the new National Railroad Retirement Investment Trust to invest in
+corporate stocks, bonds, and other assets.
+Anticipating higher returns from the new investment strategy, the legislation
+intends to lower financial burdens for railroad workers and employers and to provide larger pensions for retirees. The risk is that the retirement system’s condition
+will worsen with investments in private securities and that taxes will need to be
+raised. Indeed, the Bureau of the Actuary’s report for 2002 adds “investment
+return” to the sources of uncertainty that may require future “corrective action.”
+In authorizing investment in private securities, the Congress stipulated that
+for budgetary purposes, “the purchase or sale of non-federal assets (other than
+gains or losses from such transactions) by the National Railroad Retirement Trust
+shall be treated as a means of financing”—that is, using the noncash approach. By
+directing the budgetary scoring and treatment of that activity, the Congress bypassed some of the analyses that OMB, the House and Senate budget committees,
+
+18.
+
+Railroad Retirement Board, Bureau of the Actuary, Annual Report Required by the Railroad
+Retirement Act of 1974 and Railroad Retirement Solvency Act of 1983 (June 2002), p. 7. Also see 2001
+Annual Report, p. 4.
+
+20
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+and CBO normally undertake to determine the appropriate budgetary treatment of
+a new activity. Nevertheless, important choices remained—including how to treat
+capital gains and losses and how to project the baseline. Those choices involved
+many of the considerations discussed earlier in this paper. Further, the Congress
+might not provide such direction in future legislation. Thus, the Railroad Retirement investment program offers a useful example to review the considerations
+that would guide budget analysts if they faced similar legislation and to illustrate
+the budgetary effects of using a cash versus an accrual approach.
+The Railroad Retirement system—one of the government’s oldest social
+insurance programs—is clearly a federal activity, so its investments should be
+included in the budget. (For more information about that system, see Box 3 on
+pages 22 and 23.) Moreover, it is clear that the system’s new investment activity
+will be more costly than past practices.
+The system will engage in two new types of activity that will consume
+additional budgetary resources: buying and selling securities and holding risky
+assets. First, purchasing and selling private securities will entail various transaction costs, such as payments for investment advice and for the costs of acquiring
+and disposing of the securities. Although the RRB incurred and recognized some
+such costs in the past when it invested in Treasury securities, information and
+transaction costs will increase as investment alternatives expand to include the
+wide range of private debt, stocks, and real estate.
+Second, the RRB will now hold higher-risk assets that may experience larger
+declines in value. The Treasury “market special” issues in which the RRB
+invested in the past were subject to price fluctuations because of changes in
+interest rates and, thus, could create a cost for the program. However, losses to the
+Railroad Retirement Trust Fund were offset by gains to the Treasury—so that, for
+the government as a whole, those changes net to zero. By investing in those government securities, the Railroad Retirement program was simply placing a bet
+with the Treasury about interest rates. With investments in private securities, by
+contrast, gains and losses will not be offset elsewhere in the government.
+As directed in the 2001 law, purchases and sales of securities initially produce no direct budgetary cost. They are treated as a change in the composition of
+trust fund balances that affects federal borrowing and the means of financing the
+budget deficit or surplus. However, the law did not prescribe the treatment of
+unrealized capital gains and losses on those securities. CBO and OMB agreed that
+any capital loss or gain resulting from changes in market prices will be recognized
+in the year in which the price change occurs. Similarly, interest payments and
+dividends will be recorded as offsetting receipts.
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+21
+
+Table 1.
+Estimated Effects on Outlays of Investing in Private Securities,
+as Authorized by H.R. 1140, Under Two Accounting Methods
+(By fiscal year, in millions of dollars)
+Accounting Method
+
+Cash Basis
+Accrual Basis
+(Means of financing)
+
+2002
+
+2003
+
+2004
+
+2005
+
+2006
+
+15,320
+
+-460
+
+-660
+
+-830
+
+-920
+
+0
+
+0
+
+0
+
+0
+
+0
+
+SOURCE: Congressional Budget Office.
+NOTE: H.R. 1140 is the Railroad Retirement and Survivors’ Improvement Act of 2001 (Public Law 107-90).
+
+Under that treatment, income and capital gains will reduce outlays and the
+deficit, and losses will increase them. That treatment reflects the change in real
+economic resources available to the government from fluctuations in the value of
+investments in private securities and from the actual associated cash flows. The
+means-of-financing approach, combined with this method for recognizing capital
+gains and losses, is consistent with the observation that unless the value of the
+securities changes, there is no real change in the government’s resources.
+Had the Congress not directed the accrual means-of-financing treatment for
+the Railroad Retirement system’s investments, CBO and OMB might have used
+cash-basis accounting. In fact, CBO’s cost estimate for the Railroad Retirement
+and Survivors’ Improvement Act of 2001 (when it was H.R. 1140) used a cashbasis treatment for investments in private securities. Although that treatment was
+consistent with current law and practice as specified in OMB’s Circular A-11,
+CBO noted that “because there is little precedent for the purchase of private
+securities by the federal government, alternative budget treatments are possible
+that could substantially alter the budgetary impact.”19
+The two accounting approaches discussed in this paper would produce very
+different budgetary outcomes for the Railroad Retirement investments. In CBO’s
+original cash-basis estimate, the projected initial purchases are the cash outlays to
+buy securities. Projected future returns in excess of Treasury rates, and proceeds
+from sales of securities, are shown as negative outlays in later years. The effect of
+those transactions is significant net outlays during the budget period (see Table 1).
+
+19.
+
+Congressional Budget Office, Cost Estimate for H.R. 1140, Railroad Retirement and Survivors’
+Improvement Act of 2001 (May 24, 2001), pp. 1, 5.
+
+22
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+Box 3.
+The Railroad Retirement System
+The federal government created the Railroad Retirement system during the Depression in its first effort
+to provide income security for retirees. The government began with the railroads because that industry
+had already established a retirement system, but its benefits were threatened by inadequate financing.1
+The Railroad Retirement Board operates the Railroad Retirement system, including investing trust
+fund balances and paying benefits. Those benefits consist of two parts, or tiers—a Social Security-like
+component (Tier I), funded from the budget’s Railroad Social Security Equivalent Benefit Account;
+and a supplemental defined-benefit pension plan (Tier II), funded from the budget’s Rail Industry
+Pension Fund (RIPF).2
+As the name of its account implies, Tier I of Railroad Retirement is Social Security for rail
+industry retirees under another name. Its benefits are approximately equal to those provided by Social
+Security. Benefits are based on earnings from employment in the rail industry and all other jobs
+covered by Social Security. Financing comes in part from the railroads and their employees, who pay
+the same payroll tax required for Social Security (7.65 percent each, including 1.45 percent each for
+Medicare Hospital Insurance). However, unlike the current state of Social Security, the payroll taxes
+for Railroad Retirement are insufficient to pay benefits. The shortfall is made up by transfers from the
+Social Security trust funds (see the table at right). Accordingly, Tier I is as much a federal program as
+Social Security and thus belongs in the federal budget.
+Tier II has some attributes of a private, defined-benefit, multiemployer pension plan, which could
+argue for its exclusion from the federal budget. For example, benefits are based solely on years of
+service and earnings in the rail industry and are financed by assessments on employers and workers.
+(Those assessments are 16.1 percent and 4.9 percent of payroll, respectively, on incomes up to $59,700
+in fiscal year 2001). In 2001, contributions by the railroads and their employees, plus interest earned
+on balances held in Treasury securities, were sufficient to finance Tier II benefits.
+Yet two features of Tier II confirm that it is a federal program. First, the government provides a
+direct subsidy to Tier II. The bulk of that subsidy consists of income taxes that Tier II recipients pay
+on their pension benefits, which are credited to the program’s accounts. No private pension fund
+receives such assistance. Second, and more important, Tier II contributions and benefits are specified
+in law and enforced by the federal government. Labor and management negotiate proposed revisions
+to the Tier II pension plan, but no agreement can take effect until federal law has been amended. Thus,
+the obligation of employees and employers to pay “contributions” is effectively a tax. In addition, the
+entitlement to receive Tier II benefits is granted by statute, which makes the federal government
+responsible for payment, regardless of the adequacy of industry contributions or the financial condition
+of the Railroad Retirement Trust Fund. Ultimate federal financial responsibility for benefits means that
+the Tier II program is federal and belongs in the budget.
+
+1.
+
+See David B. Schreiber, The Legislative History of the Railroad Retirement and Railroad Unemployment Insurance Systems (1978), pp. 1-5.
+
+2.
+
+For a more detailed description of the Railroad Retirement system, see Congressional Budget Office,
+Cost Estimate for H.R. 1140, Railroad Retirement and Survivors’ Improvement Act of 2001 (May 24,
+2001); Rachel W. Kelly, Railroad Retirement: Legislation in the 107th Congress (Congressional
+Research Service, August 7, 2001); and James A. Rotherham, “The Railroad Retirement Program,”
+Public Budgeting & Finance, vol. 5, no. 3 (1985), pp.40-57. In the financial statements of the Railroad
+Retirement Board, the Rail Industry Pension Fund is referred to as the Railroad Retirement Account.
+Usage here follows that of the federal budget, except that several Tier II trust funds (including the
+Windfall and Supplemental Benefit Funds) are consolidated into the RIPF. The Railroad Retirement
+and Survivors’ Improvement Act of 2001 authorized the elimination of the supplemental benefit
+account and the transfer of its balances to the National Railroad Retirement Investment Trust.
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+23
+
+Box 3.
+Continued
+The Railroad Retirement and Survivors’ Improvement Act of 2001 did not alter the federal responsibility for the Railroad Retirement system or the management role of the Railroad Retirement Board. It simply
+authorized the creation of a trust to invest balances of the Tier II program and the use of a disbursing agent
+to issue benefit checks. (The new investment policy applies only to Tier II; any positive Tier I balances
+would continue to be invested in government securities.)
+
+The law declares that the trust “is not a department, agency, or instrumentality of the government
+of the United States” and that its board members “shall not be considered officers or employees of the
+government.” However, the functions of the trust and the disbursing agent, although exempt from
+federal personnel and compensation rules, are federal in nature. For example, the law stipulates that
+the trust shall discharge its duties “solely in the interest of the Railroad Retirement Board and through
+it, the participants and beneficiaries of the programs funded under this Act.” Moneys transferred to and
+invested by the trust are derived from the federal power to tax and belong to the federal government
+until they are paid to those beneficiaries identified by, and in amounts specified by, the Railroad
+Retirement Board. The trust is directed to report its financial transactions to the Congress, with notice
+to the President, the Railroad Retirement Board, and the Office of Management and Budget. That
+accountability structure leaves no doubt that the trust and the disbursing agent are acting exclusively
+on behalf of a federal program. Consequently, their activities are indistinguishable from those of the
+Railroad Retirement Board and should be reflected in the federal budget.
+
+Cash Flows and Intragovernmental Credits of the Railroad Retirement System,
+by Program Component, Fiscal Year 2001 (In billions of dollars)
+
+Tier I
+
+Tier II
+
+Total
+
+5.2
+0
+
+3.0
+0.1
+
+8.2
+0.1
+
+Total
+
+5.2
+
+3.1
+
+8.3
+
+Payroll Tax Receipts
+
+2.0
+
+2.6
+
+4.6
+
+Net Outlays
+
+3.2
+
+0.5
+
+3.6
+
+Intragovernmental Transfers
+Income taxes
+Interest from the Treasury
+Social Security funds
+
+0.1
+0.1
+3.3
+
+0.2
+2.3
+n.a.
+
+0.3
+2.4
+3.3
+
+Outlays
+Benefits paid
+Administrative costs
+
+SOURCE: Budget of the U.S. Government, Fiscal Year 2003.
+NOTES:
+
+These numbers exclude supplemental annuities, dual (windfall) benefits, transfers to and from the federal
+Hospital Insurance Trust Fund, and repayments by Tier I to the Treasury of overestimated payments. All
+administrative expenses are attributed to Tier II.
+n.a. = not applicable.
+
+24
+
+Evaluating and Accounting for Federal Investment in Corporate Stocks and Other Private Securities
+
+Under the means-of-financing approach, in contrast, substituting private for federal securities has no direct effect on the budget totals in the year of purchase.
+Since the 2001 legislation did not stipulate how to project future cash flows
+from investments in private securities, CBO and OMB had to decide how best to
+project the budgetary effects of those investments in later years. To adjust the
+higher expected returns of private securities for their increased risk, CBO and
+OMB opted to use the rates of return on Treasury securities. Doing that is equivalent to equating the higher expected return on stocks with the higher cost to the
+government of assuming the risk. That treatment has the advantage of not requiring an explicit calculation of the cost of risk. As a result, baseline projections
+of the deficit or surplus are unaffected by the government’s policy of acquiring
+private securities for the Railroad Retirement Trust Fund.20
+
+20.
+
+CBO’s original cash-basis estimate did not include any risk adjustment, consistent with that accounting
+method’s philosophy of recording literal cash flows as they are expected to arrive. The means-offinancing approach is intended to recognize the economic neutrality of the transaction, so that neutrality is preserved by risk adjustment.
+
+This publication and others by CBO
+are available at the agency's Web site:
+www.cbo.gov
+
+

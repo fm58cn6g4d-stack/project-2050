@@ -61,21 +61,21 @@ Delaying C19b/C20 to a three-year 2033–35 phase-in forgoes $0.360T; these rece
 
 | Case | GF primary 2030–39 ($T) | Extra net receipts needed at maturity (% GDP) | FY2040 GF gap ($B) | Total debt/GDP 2056 | FY2056 extra primary adjustment for flat debt/GDP |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Education reference | 23.202 | 9.244% | 4265.9 | 364.1% | 13.06% GDP |
-| Recovery: delay C19b/C20 | 23.562 | 9.244% | 4265.9 | 365.1% | 13.06% GDP |
-| Recovery downside | 24.802 | 9.553% | 4421.2 | 373.7% | 13.43% GDP |
-| Recovery plus housing/service space | 24.063 | 9.425% | 4368.3 | 369.7% | 13.27% GDP |
-| Recovery plus housing/service space downside | 25.303 | 9.734% | 4523.6 | 378.3% | 13.64% GDP |
-| Replace C19b/C20 plus housing/service space downside | 25.776 | 9.902% | 4607.7 | 382.3% | 13.84% GDP |
+| Education reference | 3.398 | 1.788% | 689.9 | 187.8% | 4.38% GDP |
+| Recovery: delay C19b/C20 | 3.758 | 1.788% | 689.9 | 188.9% | 4.39% GDP |
+| Recovery downside | 4.998 | 2.097% | 845.3 | 197.5% | 4.76% GDP |
+| Recovery plus housing/service space | 4.259 | 1.969% | 792.4 | 193.4% | 4.60% GDP |
+| Recovery plus housing/service space downside | 5.499 | 2.278% | 947.7 | 202.0% | 4.97% GDP |
+| Replace C19b/C20 plus housing/service space downside | 5.972 | 2.446% | 1031.8 | 206.1% | 5.17% GDP |
 
 | Case | Additional net resources phased 2035–44 (% GDP at maturity) | Debt/GDP 2056 after illustrative adjustment |
 | --- | ---: | ---: |
-| Education reference | 11.53% | 148.1% |
-| Recovery: delay C19b/C20 | 11.54% | 149.0% |
-| Recovery downside | 11.86% | 151.5% |
-| Recovery plus housing/service space | 11.72% | 150.1% |
-| Recovery plus housing/service space downside | 12.05% | 152.6% |
-| Replace C19b/C20 plus housing/service space downside | 12.22% | 153.4% |
+| Education reference | 3.87% | 115.3% |
+| Recovery: delay C19b/C20 | 3.88% | 116.2% |
+| Recovery downside | 4.20% | 118.7% |
+| Recovery plus housing/service space | 4.07% | 117.3% |
+| Recovery plus housing/service space downside | 4.39% | 119.8% |
+| Replace C19b/C20 plus housing/service space downside | 4.56% | 120.6% |
 
 The second table solves for nonincreasing debt/GDP in every year 2045–56, with additional net resources phased 2035–44. These are financing requirements after any offsets and protection, not tax rates or scored receipts; SS/HI reforms are not added again. No behavior, inflation or implementation forecast is implied.
 
@@ -119,7 +119,7 @@ Social Security: D8 plus SS-5, with a 0.34-point joint-interaction haircut, need
 | Medicare HI | Depletion | Model balance (% payroll) |
 | --- | --- | ---: |
 | Current law | 2033 | -0.56 |
-| With HI's program sources | 2038 | -0.30 |
-| Half HLT6 HI savings | 2037 | -0.31 |
+| With HI's program sources | 2037 | -0.52 |
+| Half HLT6 HI savings | 2036 | -0.53 |
 
 HI baseline does not reproduce the Trustees exactly; use improvement against its own baseline, not the absolute balance as certification. Transportation is modeled only to 2046: renewal coverage then does not prove 75-year solvency. The CSV [financial inventory](../sources/fiscal-recovery-inventory.csv) preserves all 148 bill/revenue/option/dynamic rows without summing alternatives. Full assumptions, annual paths and source hashes are in the [JSON](data/fiscal-recovery-model.json).

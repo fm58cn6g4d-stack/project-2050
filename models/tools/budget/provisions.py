@@ -431,6 +431,10 @@ def deficit_path(spec, mid10, S=None, B=None):
         shapes = year_shapes()   # a component with a fiscal-years.csv row (key owner/component) takes its shape
         paths = [years_path(B, a, shapes[c["id"]], _profile(c)) if c["method"] == "years" else profile_path(B, a, _profile(c))
                  for a, c in zip(amounts, parts)]
+        # a component with fixed amounts after the window (fiscal-after.csv, keyed owner/component) takes them, as the
+        # fiscal model's row_path does (HLT-7/worker-credit, the health financing booking)
+        after = after_amounts()
+        paths = [after_path(B, p, after[c["id"]], _profile(c)) if c["id"] in after else p for p, c in zip(paths, parts)]
         return {y: sum(p[y] for p in paths) for y in range(Y0, Y1 + 1)}
     if m == "split":
         paths = [deficit_path(S[pid], share * mid10, S, B) for pid, share in read_splits()[spec["id"]]]
