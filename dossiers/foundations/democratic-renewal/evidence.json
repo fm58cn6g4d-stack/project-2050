@@ -1,1 +1,3534 @@
-[]
+[
+ {
+  "id": "EV-DEM-001",
+  "statement": "In the 2024 presidential election, 73.6% of the citizen voting-age population was registered to vote and 65.3% voted, according to the Census Bureau's Current Population Survey supplement.",
+  "claim": "data",
+  "figures": [
+   "73.6%",
+   "65.3%"
+  ],
+  "source": "SRC-5500",
+  "anchor": [
+   "73.6% (or 174 million people) of the citizen voting-age population was registered to vote and 65.3% (or 154 million people) voted"
+  ],
+  "grade": "A",
+  "fact_date": "2024-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-30",
+  "context": "Census Bureau release of 2025-04-30 (second Trump administration). CPS is a self-reported household survey; the Bureau itself warns estimates can differ from administrative data because of nonresponse and vote misreporting. The August 2026 report P20-590 says 14.1 percent of the CVAP did not answer the voting question. Headline matches the P20-590 figure (65.3 percent of the CVAP).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "first paragraph"
+ },
+ {
+  "id": "EV-DEM-002",
+  "statement": "An estimated 28.0 million Americans in the citizen voting-age population were not registered to vote in the 2024 election, and the largest share of them said they were not interested or not involved in politics (42.3 percent).",
+  "claim": "data",
+  "figures": [
+   "28.0 million",
+   "42.3 percent",
+   "2024"
+  ],
+  "source": "SRC-5501",
+  "anchor": [
+   "not do so. An estimated 28.0 million Americans in the CVAP were",
+   "not registered to vote in the 2024",
+   "in politics at 42.3 percent, followed by not meeting registration"
+  ],
+  "grade": "A",
+  "fact_date": "2024-11",
+  "checked": "2026-11-16",
+  "recheck": "2028-08-01",
+  "context": "Census P20-590, August 2026 (second Trump administration). The 28.0 million counts only respondents who said they were not registered and answered the reason question (footnote 22); it leaves out non-responders, so it is a floor and not a count of every unregistered eligible person. Self-reported. Only 9.1 percent of the unregistered said they were not eligible.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "section 'Nonparticipation in the 2024 Presidential Election', Table 3"
+ },
+ {
+  "id": "EV-DEM-003",
+  "statement": "In 2024, adults ages 18-29 made up 15.3 percent of voters but 19.6 percent of the citizen voting-age population, so they were underrepresented among voters by 4.4 percentage points.",
+  "claim": "data",
+  "figures": [
+   "15.3 percent",
+   "19.6 percent",
+   "4.4 percentage points",
+   "2024"
+  ],
+  "source": "SRC-5501",
+  "anchor": [
+   "In 2024, young adults ages 18-29",
+   "made up 15.3 percent of the voting",
+   "population and 19.6 percent of the",
+   "by 4.4 percentage points."
+  ],
+  "grade": "A",
+  "fact_date": "2024-11",
+  "checked": "2026-11-16",
+  "recheck": "2028-08-01",
+  "context": "Census P20-590, August 2026. This is a representation gap (share of voters minus share of eligible citizens), not a turnout rate; group turnout rates are in the report's table workbooks. Age groups 45-64 and 65 and older were overrepresented by 2.2 and 3.5 points.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "section 'Over- and Underrepresentation Among Voters in 2024'"
+ },
+ {
+  "id": "EV-DEM-004",
+  "statement": "Voters with only a high school credential were 23.0 percent of voters but 28.6 percent of the citizen voting-age population in 2024, underrepresented by 5.6 percentage points, and voters with family income under $50,000 were also underrepresented.",
+  "claim": "data",
+  "figures": [
+   "23.0 percent",
+   "28.6 percent",
+   "5.6 percentage points",
+   "$50,000"
+  ],
+  "source": "SRC-5501",
+  "anchor": [
+   "were 28.6 percent of the CVAP",
+   "and 23.0 percent of the voting",
+   "5.6 percentage points.",
+   "making less than $50,000 were",
+   "underrepresented and voters"
+  ],
+  "grade": "A",
+  "fact_date": "2024-11",
+  "checked": "2026-11-16",
+  "recheck": "2028-08-01",
+  "context": "Census P20-590, August 2026. Representation gaps, not turnout rates. The report gives the income gap in a figure; the text says only that voters under $50,000 were underrepresented and those at $100,000 or more overrepresented (voters at $100,000 or more were 48.8 percent of voters).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "section 'Over- and Underrepresentation Among Voters in 2024'"
+ },
+ {
+  "id": "EV-DEM-005",
+  "statement": "In 2024 Hispanic voters were underrepresented among voters by 3.1 percentage points relative to their share of eligible citizens, while non-Hispanic White voters were overrepresented by 5.1 percentage points.",
+  "claim": "data",
+  "figures": [
+   "3.1",
+   "5.1 percentage points",
+   "2024"
+  ],
+  "source": "SRC-5501",
+  "anchor": [
+   "were underrepresented by 3.1",
+   "to 5.1 percentage points in 2024."
+  ],
+  "grade": "A",
+  "fact_date": "2024-11",
+  "checked": "2026-11-16",
+  "recheck": "2028-08-01",
+  "context": "Census P20-590, August 2026. Representation gap, not turnout rate. Non-Hispanic Black voters were underrepresented in the last three presidential elections (report text, same section).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "section 'Over- and Underrepresentation Among Voters in 2024', Figure 5"
+ },
+ {
+  "id": "EV-DEM-006",
+  "statement": "A 2026 working paper estimates the 2024 turnout gap between people with and without disabilities at 7.3% using turnout checked against voter files, compared with 4.9% in the Census Bureau's self-reported data.",
+  "claim": "data",
+  "figures": [
+   "-7.3%",
+   "-4.9%",
+   "2026"
+  ],
+  "source": "SRC-5502",
+  "anchor": [
+   "January 12, 2026",
+   "-4.9% -5.5% -7.3%",
+   "The validated ACS-6 disability turnout gap is 1.8 percentage points larger"
+  ],
+  "grade": "C",
+  "fact_date": "2024-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-12",
+  "context": "ACLU and Stanford working paper, 2026-01-12, not peer reviewed; authors are ACLU staff and a Stanford researcher. Columns in Table 2 are the Census CPS estimate (-4.9%), the authors' self-reported estimate (-5.5%) and their validated estimate (-7.3%). The Census table package does not report disability, so this is the best 2024 estimate found; another summary (Rutgers-led report, November 2025) was reported as putting the gap near 10 points, but that figure was not verified against the report.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Table 2 and surrounding text, p. 15"
+ },
+ {
+  "id": "EV-DEM-007",
+  "statement": "On April 29, 2026, in Louisiana v. Callais the Supreme Court held that Section 2 of the Voting Rights Act is violated only when the evidence supports a strong inference that a state intentionally drew districts to give minority voters less opportunity because of their race.",
+  "claim": "data",
+  "figures": [
+   "April 29, 2026",
+   "2026"
+  ],
+  "source": "SRC-0546",
+  "anchor": [
+   "On April 29, 2026, the U.S. Supreme Court in Louisiana v. Callais significantly narrowed the circumstances under which a racial vote dilution challenge to a redistricting map can be made under Section 2",
+   "only when the evidence supports a strong inference that the State intentionally drew its districts to afford minority voters less opportunity because of their race"
+  ],
+  "grade": "C",
+  "fact_date": "2026-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "CRS Legal Sidebar LSB11431, 2026-05-14 (nonpartisan summary of a court holding; the opinion is primary law, vote 6-3 per the Brennan Center page). Holding stands in January 2029 unless Congress amends Section 2 or the Court revisits it; CRS lists race-neutral amendments or codifying the modified Gingles framework as options.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "first paragraph"
+ },
+ {
+  "id": "EV-DEM-008",
+  "statement": "CRS expects Callais to change how maps are drawn: existing majority-minority districts drawn to comply with Section 2 may be challenged as racial gerrymanders, and some legislatures were already modifying maps for the 2026 elections.",
+  "claim": "analysis",
+  "figures": [
+   "2026"
+  ],
+  "source": "SRC-0546",
+  "anchor": [
+   "Existing majority-minority districts that were designed to comport with Section 2 might be challenged as unconstitutional racial gerrymanders in view of Callais",
+   "some state legislatures are considering or have already enacted modifications to their redistricting maps that eliminate majority-minority districts for the upcoming 2026 congressional elections"
+  ],
+  "grade": "C",
+  "fact_date": "2026-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "CRS, 2026-05-14. The sidebar's dissent summary (Justice Kagan) says plaintiffs must now prove a race-based motive, 'nearly impossible'; the majority says the update reflects social change since 1986. Contested: the Brennan Center says the ruling will make Section 2 cases 'much harder' to win; the Manhattan Institute argued before the decision that the problem lay in the Gingles framework, not the statute.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "section 'Considerations for Congress'",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-009",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-010",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-009",
+  "statement": "The Brennan Center says Callais made three changes to the Gingles framework that together will make it much harder for voters of color to win Section 2 cases.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5528",
+  "anchor": [
+   "collectively will make it much harder for voters of color to win cases filed under Section 2 of the Voting Rights Act"
+  ],
+  "grade": "C",
+  "fact_date": "2026-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-29",
+  "context": "Brennan Center (left-leaning), updated after the decision. Agrees with CRS on direction; goes further on effect. The Brennan page also notes nearly half of all Section 2 cases since 1982 challenged at-large local elections, so local effects may be larger than the congressional-map focus suggests (not independently checked).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Brennan Center page, text beginning 'On April 29, 2026'",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-008",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-010",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-010",
+  "statement": "The Manhattan Institute argued, before the decision, that the problem in Callais lay with the Gingles framework rather than with the Voting Rights Act, which expressly disavows proportional representation.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5529",
+  "anchor": [
+   "The problem lies not with the statute but with Thornburg v. Gingles"
+  ],
+  "grade": "C",
+  "fact_date": "2025-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-29",
+  "context": "Manhattan Institute (right-leaning), written 2025-10-24 before the ruling; included as the contesting view. It says the 1982 amendment disavows any right to proportional representation. The majority in Callais adopted a similar reading of Gingles.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "first paragraph",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-008",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-009",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-011",
+  "statement": "The Supreme Court's 2013 decision in Shelby County v. Holder invalidated the Voting Rights Act coverage formula, which rendered preclearance inoperable, while the nationwide Section 2 ban on race-based voting rules remains.",
+  "claim": "data",
+  "figures": [
+   "2013"
+  ],
+  "source": "SRC-5503",
+  "anchor": [
+   "The Supreme Court's 2013 Shelby County v. Holder decision invalidated the coverage formula, thus rendering preclearance inoperable.",
+   "Section 2 of the act contains a nationwide prohibition on voting qualifications based on race, color, or language-minority status."
+  ],
+  "grade": "C",
+  "fact_date": "2013-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-03",
+  "context": "CRS R47520, updated 2026-06-03. The formula relied on 1960s and 1970s turnout data and covered mostly Southern states; a new formula would need present-day justification (CRS). Preclearance returns only if Congress enacts a new formula or a court orders 'bail-in'; no such law is enacted as of this report.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Summary"
+ },
+ {
+  "id": "EV-DEM-012",
+  "statement": "Since the 2024 election, lawmakers in 22 states have enacted 47 new restrictive voting laws, while 32 states have enacted 61 expansive voting laws, according to the Brennan Center's October 2026 tracker.",
+  "claim": "data",
+  "figures": [
+   "22",
+   "47",
+   "32",
+   "61",
+   "2024"
+  ],
+  "source": "SRC-5504",
+  "anchor": [
+   "Since the 2024 election, lawmakers in 22 states 1 have enacted 47 new restrictive laws",
+   "At least 32 states 20 enacted 61 expansive voting laws."
+  ],
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-05-01",
+  "context": "Brennan Center, October 2026 (left-leaning advocacy research; the restrictive/expansive coding is its own). Headline matches numbers: it says states 'continue to pass more laws expanding access' (61 expansive versus 47 restrictive) and that the restrictive total remains at record highs. The tracker says 38 restrictive laws were slated to be in effect for the 2026 midterms and 21 of the 47 set voter ID or show-your-papers rules.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Overview and 'Since the 2024 election' section"
+ },
+ {
+  "id": "EV-DEM-013",
+  "statement": "In October 2025 a federal district court permanently enjoined the Election Assistance Commission from implementing Section 2(a) of Executive Order No. 14,248, which directed it to require documentary proof of United States citizenship on the federal voter registration form.",
+  "claim": "data",
+  "figures": [
+   "14,248"
+  ],
+  "source": "SRC-5506",
+  "anchor": [
+   "PERMANENTLY ENJOINED from taking any action to implement or give effect to",
+   "Section 2(a) of Executive Order No. 14,248, including taking any action based on the Executive",
+   "Order to modify the content of the federal voter registration application form described in 52",
+   "Filed 10/31/25"
+  ],
+  "grade": "A",
+  "fact_date": "2025-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-31",
+  "context": "D.D.C. (Judge Kollar-Kotelly), Civil Action 25-0946, a primary court order. Statement date comes from the filing stamp. The order is a partial summary judgment; appeals and the government's cross-motion are separate. The CRS sidebar LSB11368 notes the EO was issued by the second Trump administration in March 2025 and that a Massachusetts court reached a similar view for the state plaintiffs. As of CRS IN12713 (September 2026) litigation on the EO was 'pending'.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "order pp. 2-3"
+ },
+ {
+  "id": "EV-DEM-014",
+  "statement": "CRS reports that on April 24, 2025 the D.C. district court preliminarily blocked the executive order's proof-of-citizenship direction for the federal form, and that a Massachusetts federal court likewise found the citizenship-documentation provisions likely outside the President's power.",
+  "claim": "data",
+  "figures": [
+   "April 24",
+   "2025"
+  ],
+  "source": "SRC-5505",
+  "anchor": [
+   "On April 24, the district court granted in part a preliminary injunction, pausing Sections 2(a) and 2(d) of the EO",
+   "The Massachusetts district court agreed with the LULAC decision that Sections 2(a) and 2(d) addressing new citizenship documentation requirements for registration were likely outside the President's power to impose.",
+   "On March 25, 2025, President Trump issued Executive Order (EO) 14248"
+  ],
+  "grade": "C",
+  "fact_date": "2025-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-25",
+  "context": "CRS LSB11368, 2025-09-16. The same sidebar notes the court denied injunctions on the provisions about state database access and ballot-receipt deadlines (Sections 2(b), 7(a), 7(b)) for lack of standing, not on the merits, so those provisions were not decided there. Administration position: the order only directs agencies; plaintiffs and the court read the provisions as orders.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "section 'Litigation Challenging the EO'"
+ },
+ {
+  "id": "EV-DEM-015",
+  "statement": "On February 11, 2026 the House passed the SAVE America Act 218-213 as an amendment to S. 1383; it would require documentary proof of citizenship to register and valid photo identification to vote in federal elections.",
+  "claim": "data",
+  "figures": [
+   "February 11, 2026",
+   "218-213",
+   "1383",
+   "2026"
+  ],
+  "source": "SRC-5507",
+  "anchor": [
+   "the House passed ( 218-213 ) the Safeguard American Voter Eligibility Act",
+   "passed by the House as an amendment to S. 1383 on February 11, 2026",
+   "require documentary proof of citizenship when registering to vote in federal elections",
+   "would require individuals to present \"valid photo identification\" to vote in federal elections"
+  ],
+  "grade": "A",
+  "fact_date": "2026-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-11",
+  "context": "CRS IF12902, updated 2026-02-24. House passage is a recorded vote (primary record, summarized by CRS). The earlier House bill H.R. 22 passed 220-208 on 2025-04-10 and S. 128 did not advance. The 119th Congress ends in January 2027, so a bill not enacted by then must be reintroduced; it is not law as of this report.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "text and 'House-passed bill' sections"
+ },
+ {
+  "id": "EV-DEM-016",
+  "statement": "In early June 2026 the Senate voted 48-50 against advancing an amendment that would have attached the SAVE America Act to an immigration-focused spending bill, with sixty votes needed.",
+  "claim": "data",
+  "figures": [
+   "48-50"
+  ],
+  "source": "SRC-5508",
+  "anchor": [
+   "Senators voted  48-50 against advancing an amendment that would have incorporated Trump’s top legislative priority into an  immigration-focused spending bill.",
+   "Sixty votes would have been needed to advance the amendment — the same threshold to overcome a filibuster."
+  ],
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-03",
+  "context": "States Newsroom, 2026-06-05 (the article says the vote was 'Thursday', 2026-06-04). Four Republicans voted no (Collins, McConnell, Murkowski, Tillis); a separate Lee amendment failed 50-49. Sources differ on one detail: Fox News reported the Lee amendment reached 50 votes. Republican supporters say the bill is needed to combat noncitizen voting; critics (Democrats, voting-rights groups) say it would disenfranchise eligible citizens.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "first and 'Republicans also vote no' paragraphs"
+ },
+ {
+  "id": "EV-DEM-017",
+  "statement": "Congress provided $45 million for Help America Vote Act election security grants in the fiscal year 2026 appropriations act, after $15 million in the fiscal year 2025 full-year continuing appropriations act and $55 million in fiscal year 2024.",
+  "claim": "data",
+  "figures": [
+   "$45 million",
+   "$15 million",
+   "$55 million",
+   "2026",
+   "2025",
+   "2024"
+  ],
+  "source": "SRC-5509",
+  "anchor": [
+   "$380 million, $425 million, $75 million, $75 million, $55 million, and $45 million, respectively, in the consolidated appropriations acts for FY2018 , FY2020 , FY2022 , FY2023 , FY2024 , and FY2026 ; and $15 million in the FY2025 full-year continuing appropriations act."
+  ],
+  "grade": "A",
+  "fact_date": "2026-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-20",
+  "context": "CRS IF11286, updated 2026-04-20; appropriations law, summarized by CRS. FY2026 grants come from P.L. 119-75 per a CRS search result (not anchored here). A county association (NACo, library SRC-0900, June 2026) urged Congress to protect these grants for FY2027, and press reports cite a House proposal to cut the program to $15 million (not verified).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "section on HAVA election security grants"
+ },
+ {
+  "id": "EV-DEM-018",
+  "statement": "In the 2024 general election states reported 584,463 rejected mail ballots, 1.2% of those returned, and about 25.1% of provisional ballots were rejected.",
+  "claim": "data",
+  "figures": [
+   "584,463",
+   "1.2%",
+   "25.1%"
+  ],
+  "source": "SRC-5510",
+  "anchor": [
+   "were reported as being counted and 584,463 were reported as being rejected, for a count rate of",
+   "98.8% of the mail ballots that were returned and a rejection rate of 1.2% of the mail ballots that were",
+   "were counted (either partially or fully), 25.1% were rejected, and 3% reached another outcome."
+  ],
+  "grade": "A",
+  "fact_date": "2024-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "EAC EAVS 2024, released 2025-06-30 (second Trump administration; EAC data collection ran before the July 2026 loss of commissioners). Data are state-reported; Alabama, Connecticut, Mississippi and the Northern Mariana Islands did not report returned mail ballots, and some states did not report provisional ballots. Signature problems were the top reason for rejection (about two-fifths).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Chapter on mail ballots (Table 1) and provisional ballots"
+ },
+ {
+  "id": "EV-DEM-019",
+  "statement": "More than 770,000 people served as poll workers in the 2024 general election, most of them at least 61 years old, and 47.9% of jurisdictions reported significant challenges recruiting and retaining enough poll workers.",
+  "claim": "data",
+  "figures": [
+   "770,000",
+   "61",
+   "47.9%"
+  ],
+  "source": "SRC-5510",
+  "anchor": [
+   "More than 770,000",
+   "the majority of poll workers were at least 61 years old.",
+   "47.9% of jurisdictions"
+  ],
+  "grade": "A",
+  "fact_date": "2024-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "EAC EAVS 2024. The same report says recruitment has been getting easier since 2020, and the EAC recommends dedicated federal funding for poll worker recruitment. Jurisdiction self-reports.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Executive summary and poll worker chapter"
+ },
+ {
+  "id": "EV-DEM-020",
+  "statement": "The Election Assistance Commission has had no commissioners since July 9, 2026, leaving it without the three-commissioner quorum needed to adopt new voting system guidelines or change the federal registration form.",
+  "claim": "data",
+  "figures": [
+   "July 9"
+  ],
+  "source": "SRC-5511",
+  "anchor": [
+   "On July 9, the remaining three members of the four-person commission were effectively removed from their positions.",
+   "Action on activities HAVA authorizes the commission to conduct requires approval by at least three commissioners.",
+   "authority to engage in policymaking activities like adopting new or modified VVSG and developing the federal mail voter registration form is reserved for the commissioners"
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-01",
+  "context": "CRS IN12713, updated 2026-09-01. The White House cited Trump v. Slaughter (decided 2026-06-29, SRC-0547) as precedent for the removals. CRS notes the EO 14248 directs the EAC to take actions the agency's own overview says need commissioners. Two earlier quorum gaps lasted December 2010 to January 2015 and March 2018 to February 2019. Whether commissioners are in place by January 2029 depends on nominations; none found.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "sections 'Loss of Quorum' and opening paragraph"
+ },
+ {
+  "id": "EV-DEM-021",
+  "statement": "The Justice Department has sued 29 other states and Washington, D.C. besides Michigan to compel them to share unredacted voter rolls; as of June 2026 lower courts had dismissed several of the suits and none had found for the Department, and the Sixth Circuit ruled against it in the Michigan case.",
+  "claim": "data",
+  "figures": [
+   "29"
+  ],
+  "source": "SRC-5512",
+  "anchor": [
+   "the department has sued 29 other states and Washington, D.C., to compel them to share their voter rolls.",
+   "So far, lower courts have dismissed several of those lawsuits , with none finding in favor of the Department of Justice.",
+   "A federal appeals court has ruled that Michigan does not have to turn over its unredacted voter roll to the Department of Justice"
+  ],
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-31",
+  "context": "Votebeat, 2026-06-24. Counts differ by outlet (search results elsewhere reported 30 states sued and later trial-court losses numbering in the teens or 20s by August 2026; not verified). Department of Justice position (per Votebeat): the National Voter Registration Act and Help America Vote Act entitle it to the unredacted rolls; states cite privacy and state law. Seventeen states complied voluntarily per the same report.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "paragraphs 3, 5 and 6"
+ },
+ {
+  "id": "EV-DEM-022",
+  "statement": "In the Brennan Center's 2026 survey of local election officials, 32 percent reported experiencing threats, harassment or abuse because of their job, and satisfaction with federal government support fell from 52 percent in 2024 to 45 percent.",
+  "claim": "data",
+  "figures": [
+   "32 percent",
+   "52 percent",
+   "45 percent",
+   "2024"
+  ],
+  "source": "SRC-5513",
+  "anchor": [
+   "32 percent report experiencing threats, harassment, or abuse because of their job.",
+   "Since 2024, the share of officials satisfied with federal government support has decreased from 52 percent to 45 percent."
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-13",
+  "context": "Brennan Center survey fielded 2026-01-27 to 2026-02-26, 834 respondents, margin of error plus or minus 3 percent; online survey of an emailed list (self-selection possible). Also: 75 percent of officials had not received added state or local money to replace federal cuts to election security services, and half worry about political leaders interfering. Press coverage gave other figures (38 percent in 2025); the 2026 PDF's own figure is used here.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Key Takeaways 1 and 3, p. 1-2"
+ },
+ {
+  "id": "EV-DEM-023",
+  "statement": "Presidential candidates raised $2 billion and congressional candidates $3.8 billion in the 2023-2024 cycle, while independent expenditures reported to the FEC totaled $4.4 billion.",
+  "claim": "data",
+  "figures": [
+   "$2 billion",
+   "$3.8 billion",
+   "$4.4 billion",
+   "2023-2024"
+  ],
+  "source": "SRC-5514",
+  "anchor": [
+   "Presidential candidates raised $2 billion and spent approximately $1.8 billion in the 24 months of the 2023-2024 election cycle",
+   "Congressional candidates collected approximately $3.8 billion",
+   "independent expenditures reported in this period totaled $4.4 billion"
+  ],
+  "grade": "A",
+  "fact_date": "2024-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-31",
+  "context": "FEC statistical summary, activity 2023-01-01 to 2024-12-31 (agency's official tally of filed reports; independent expenditures are those reported to the FEC, so some outside spending, such as issue ads by nonprofits, is not counted). PACs reported $15.7 billion in receipts but that includes transfers among committees, so it is not a total cost of the election. OpenSecrets projected a cycle cost of $15.9 billion in October 2024; that projection was not verified against a final figure.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "opening paragraph"
+ },
+ {
+  "id": "EV-DEM-024",
+  "statement": "Outside spending reached nearly $4.5 billion in 2024, up from $3.3 billion in 2020, with super PACs and hybrid PACs spending more than $4.1 billion of it.",
+  "claim": "data",
+  "figures": [
+   "$4.5 billion",
+   "$3.3 billion",
+   "$4.1 billion",
+   "2024",
+   "2020"
+  ],
+  "source": "SRC-5515",
+  "anchor": [
+   "By 2020, outside spending reached $3.3 billion and came close to $4.5 billion in 2024. Most of that money was spent by super PACs.",
+   "Spending by those organizations surpassed $4.1 billion in 2024."
+  ],
+  "grade": "C",
+  "fact_date": "2024-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-23",
+  "context": "OpenSecrets (nonpartisan), 2025-01-23, before year-end reports were final. Agrees with the FEC's $4.4 billion independent-expenditure figure (E-A23) within rounding.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "section on outside spending"
+ },
+ {
+  "id": "EV-DEM-025",
+  "statement": "The Brennan Center estimates that dark money groups put more than $1.9 billion into the 2024 federal cycle, nearly double the prior record of $1 billion in 2020, and that shell companies and nondisclosing nonprofits gave $1.3 billion to super PACs.",
+  "claim": "analysis",
+  "figures": [
+   "$1.9 billion",
+   "$1 billion",
+   "$1.3 billion",
+   "2020"
+  ],
+  "source": "SRC-5516",
+  "anchor": [
+   "Dark money groups, nonprofits and shell companies that spend on elections without revealing their donors, plowed more than $1.9 billion into last year’s election cycle, a dramatic increase from the prior record of $1 billion in 2020.",
+   "gave $1.3 billion to super PACs"
+  ],
+  "grade": "C",
+  "fact_date": "2024-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-05-07",
+  "context": "Brennan Center, 2025-05-07; combines FEC data, Wesleyan Media Project TV data and platform ad data, and calls the figure conservative. OpenSecrets' own count is lower ($1.4 billion in dark money contributions and spending, pending year-end reports), because the two use different definitions and data. Both agree the 2024 total was a record.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "opening paragraphs",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-026",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-026",
+  "statement": "OpenSecrets counted dark money contributions and direct spending of $1.4 billion in 2024, up from $734 million in 2020 and a $359 million peak in 2012.",
+  "claim": "analysis",
+  "figures": [
+   "$1.4 billion",
+   "$734 million",
+   "$359 million",
+   "2024",
+   "2020",
+   "2012"
+  ],
+  "source": "SRC-5515",
+  "anchor": [
+   "Through 2018, dark money contributions and direct spending were fairly steady, peaking at $359 million in 2012.",
+   "jumping to $734 million in 2020 and $1.4 billion in 2024 (pending year-end reports)"
+  ],
+  "grade": "C",
+  "fact_date": "2024-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-23",
+  "context": "OpenSecrets, 2025-01-23. Lower than the Brennan Center's $1.9 billion because Brennan adds TV and online ad data not reported to the FEC. Reasonable range for 2024 dark money: about $1.4 billion to $1.9 billion depending on method.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "section on dark money",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-025",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-027",
+  "statement": "On June 30, 2026, in NRSC v. FEC the Supreme Court invalidated the federal statutory limits on coordinated party expenditures.",
+  "claim": "data",
+  "figures": [
+   "June 30, 2026",
+   "2026"
+  ],
+  "source": "SRC-5517",
+  "anchor": [
+   "On June 30, 2026, in National Republican Senatorial Committee v. Federal Election Commission ( NRSC v. FEC ), the U.S. Supreme Court invalidated federal statutory limits on a type of political party spending known as coordinated party expenditures ."
+  ],
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "CRS IF13270, 2026-07-16. The vote was 6-3 with Justice Kavanaugh writing and Colorado II overruled, per a law-firm alert (Covington, 2026-06) and Al Jazeera; the CRS In Focus gives background only and says legal analysis is beyond its scope. The limits had been set by a formula; for 2026 the House limit in a single-district state was $130,600 and the 2024 presidential limit was about $32.4 million. The Court left party-to-candidate contribution limits ($5,000 per candidate, per election) in place.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "first paragraph"
+ },
+ {
+  "id": "EV-DEM-028",
+  "statement": "CRS says the effects of NRSC v. FEC are still in flux: unlimited coordinated party spending could help parties compete with super PACs, or could raise corruption risks in party fundraising, and the practical effect may be larger in the 2028 cycle and beyond.",
+  "claim": "analysis",
+  "figures": [
+   "2028"
+  ],
+  "source": "SRC-5517",
+  "anchor": [
+   "Some observers have argued that unlimited coordinated expenditures could help parties compete with the financial influence of super PACs or other entities making IEs. Others counter that unlimited coordinated expenditures could increase corruption risks in party fundraising.",
+   "it is possible that practical implications from the ruling could be more substantial in the 2028 election cycle and beyond."
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "CRS, 2026-07-16, presents both views without choosing. Covington (practitioner view) says party committees will become a much more attractive vehicle for campaign financing; Senate Democrats quoted by Al Jazeera call the decision an invitation for corruption.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "section 'Recent Coordinated Expenditures and IEs by the Two Major Parties, and Potential Implications'",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-029",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-030",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-029",
+  "statement": "Covington and Burling's client alert says the decision will significantly affect how federal campaigns are funded because party committees will become a much more attractive vehicle for campaign financing.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5518",
+  "anchor": [
+   "Today’s decision will significantly affect how federal campaigns are funded. Party committees will become a much more attractive vehicle for campaign financing"
+  ],
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "Law firm alert (practitioner audience), June 2026; says exact details may shift with later litigation and regulation, and notes the FEC lacked a quorum to provide guidance.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "final analysis paragraph",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-028",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-030",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-030",
+  "statement": "Senate Democrats called the NRSC v. FEC ruling a win for billionaire donors and special interests and an invitation for corruption.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5519",
+  "anchor": [
+   "win for billionaire donors and special interests who want more influence over the GOP agenda and an invitation for corruption"
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-30",
+  "context": "Al Jazeera explainer, 2026-07-01, quoting Senate Democrats' statement; the government's stated interest in the case was preventing donors from funneling unlimited money to candidates through party committees, which the Court found did not justify the limits. Grade D because it is a party statement relayed by a news outlet, offered as the contesting view.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "statement quoted in the middle of the article",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-028",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-029",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-031",
+  "statement": "As of March 2026 only two of the six Federal Election Commission seats were filled, and the Federal Election Campaign Act requires at least four agreeing votes for most policymaking, regulatory and enforcement actions.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5520",
+  "anchor": [
+   "As of this writing, two of six FEC commissioners remain in office.",
+   "FECA requires at least four agreeing votes from commissioners to take various policymaking, regulatory, and enforcement actions."
+  ],
+  "grade": "C",
+  "fact_date": "2026-03",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-02",
+  "context": "CRS R45160, updated 2026-03-02. The Washington Sun reported on 2026-11-10 that the Senate Rules Committee scheduled a hearing for the two nominees (Stow and Woodson, nominated 2026-02-11) and that the FEC has lacked a quorum since 2025-05-01, so it 'sat out' the 2026 cycle; confirmation of both would restore a quorum only until another departure. Quorum loss does not stop Justice Department criminal enforcement.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Summary"
+ },
+ {
+  "id": "EV-DEM-032",
+  "statement": "The Federal Election Commission's Democratic chair said in November 2026 that the agency had been without a quorum following a midterm election with record spending.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5521",
+  "anchor": [
+   "The FEC has been without a quorum following a midterm election with record spending."
+  ],
+  "grade": "C",
+  "fact_date": "2026-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-31",
+  "context": "Washington Sun, 2026-11-10, quoting the FEC's Democratic chair (an interested party). Used only to date the status; the underlying facts (two commissioners, hearing scheduled 2026-11-17) come from the same report. The new Congress takes office in January 2027 and the sitting Senate's nominations may lapse then (per the letter of 12 former Republican commissioners reported by the Sun).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "quoted text message from FEC chair Shana Broussard"
+ },
+ {
+  "id": "EV-DEM-033",
+  "statement": "In October 2025 New York City's matching funds program approved the final round of payments for the 2025 cycle, totaling $4,641,927 to 62 candidates.",
+  "claim": "data",
+  "figures": [
+   "$4,641,927",
+   "62",
+   "2025"
+  ],
+  "source": "SRC-5522",
+  "anchor": [
+   "the NYC Campaign Finance Board (CFB) voted to approve public matching funds payments for the November general election totaling $4,641,927 to 62 candidates . This payment is the final payment of the 2025 election cycle."
+  ],
+  "grade": "A",
+  "fact_date": "2025-10",
+  "checked": "2026-11-16",
+  "recheck": "2029-01-31",
+  "context": "NYC Campaign Finance Board press release, 2025-10-30; a city agency describing its own program. This was the last of several rounds in 2025; a cycle-wide total was not found (the CFB's Follow the Money data would settle it). Candidates must have an opponent and reach a threshold of small-dollar support. The program matches small contributions from city residents at a published ratio (reported as $8 for every $1 up to the first $175 for Council candidates; not anchored here).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "first paragraph"
+ },
+ {
+  "id": "EV-DEM-034",
+  "statement": "The House passed H.R. 7008 on July 22, 2026, which would bar Members, spouses and dependents from buying covered investments and require public notice at least 7 days before selling them, while S. 1498 was reported by a Senate committee on December 10, 2025.",
+  "claim": "data",
+  "figures": [
+   "July 22, 2026",
+   "7",
+   "December 10, 2025"
+  ],
+  "source": "SRC-5523",
+  "anchor": [
+   "On July 22, 2026, the House passed H.R. 7008 , as amended.",
+   "unless \"a notice of intent to sell the covered investment is made by the Member of Congress and publicly disclosed at least 7 calendar days",
+   "On December 10, 2025, S. 1498 was reported, as amended, by the Senate Committee on Homeland Security and Governmental Affairs."
+  ],
+  "grade": "A",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-03",
+  "context": "CRS R48641, updated 2026-07-29 (status through 2026-07-27). The House-passed bill is a purchase ban plus advance notice of sales, not a divestiture mandate; CRS also notes the version passed includes a voter photo identification requirement (section 3). Senate action beyond committee: none reported; the Senate agreed to S.Res. 708 on 2026-04-30 barring Senate members and staff from prediction market trading. The 119th Congress ends January 2027, so unpassed bills must be reintroduced.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "text and Table A-1"
+ },
+ {
+  "id": "EV-DEM-035",
+  "statement": "The House approved the Stop Insider Trading Act 232-198; critics said it falls short of a true ban because lawmakers keep stocks they already own, and the bill's Senate prospects were uncertain.",
+  "claim": "analysis",
+  "figures": [
+   "232-198"
+  ],
+  "source": "SRC-0539",
+  "anchor": [
+   "the 232-198 vote",
+   "Critics argued the legislation falls well short of a true stock trading ban because it would let lawmakers keep stocks they already own and continue selling them."
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-03",
+  "context": "AP, July 2026 (library SRC-0539; re-read 2026-11-16 to take the quotes). The AP also reports that Republicans added the voter photo identification requirement, which Democrats called a poison pill, and that the bill would exempt the president from the ban (reported by AP; CRS does not discuss this). Supporters called it the most significant congressional action yet on member stock trading. The bill's description of a ban on purchases and notice-before-sale matches CRS (E-A34).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "paragraphs 2 and 11",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-034",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-036",
+  "statement": "In September 2025 a federal district court held that President Trump violated the Inspector General Act by firing 17 inspectors general without giving Congress 30 days' notice, but declined to reinstate the eight plaintiffs for lack of irreparable harm.",
+  "claim": "data",
+  "figures": [
+   "17",
+   "30 days"
+  ],
+  "source": "SRC-5524",
+  "anchor": [
+   "Filed 09/24/25",
+   "the Trump administration fired 17 IGs en masse.",
+   "President Trump violated the IGA. That much is obvious.",
+   "provided Congress 30 days’ notice of the terminations.",
+   "case law that this Court is bound to follow, Plaintiffs must show irreparable harm."
+  ],
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-31",
+  "context": "D.D.C. (Judge Reyes), Storch v. Hegseth, Civil Action 25-cv-415, primary court record. The firings took place 2025-01-24 under the second Trump administration, which conceded it gave no 30-day notice. The court noted that reinstated IGs could be lawfully removed 30 days later with proper notice, and deferred remedies such as back pay pending Trump v. Slaughter (decided 2026-06-29). No later ruling or appeal outcome was found in a docket check; the case docket was last updated 2026-07-22.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "memorandum opinion pp. 1-3 and 17"
+ },
+ {
+  "id": "EV-DEM-037",
+  "statement": "On June 29, 2026 the Supreme Court held 6-3 in Trump v. Slaughter that for-cause removal protections for Federal Trade Commission commissioners violate the Constitution, overruling Humphrey's Executor.",
+  "claim": "data",
+  "figures": [
+   "June 29, 2026",
+   "6-3",
+   "1935"
+  ],
+  "source": "SRC-0547",
+  "anchor": [
+   "In a 6-3 decision on June 29, 2026, the Supreme Court held that statutory provisions that allow the President to remove Federal Trade Commission (FTC) commissioners only \"for cause\" violate the Constitution.",
+   "explicitly overrules the 1935 Supreme Court case Humphrey's Executor v. United States"
+  ],
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-29",
+  "context": "CRS LSB11448, 2026-07-02. Reaches commission-style agencies that wield executive power; the Court carved out the Federal Reserve (Trump v. Cook, same day) and left open inferior officers and non-Article III courts. Bears on the independence of the FEC and EAC (see E-A20, E-A31), which have bipartisan-balance requirements; the White House cited Slaughter when it removed EAC commissioners in July 2026.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "first paragraph"
+ },
+ {
+  "id": "EV-DEM-038",
+  "statement": "In February 2025 the Office of Government Ethics posted that the President was removing its director, David Huitema, whom the Senate had confirmed in December to a position that is typically a five-year term.",
+  "claim": "data",
+  "figures": [
+   "five-year",
+   "December"
+  ],
+  "source": "SRC-5527",
+  "anchor": [
+   "“OGE has been notified that the President is removing David Huitema as the Director of OGE.”",
+   "The Senate confirmed Huitema as OGE director in December. The position is typically a five-year term."
+  ],
+  "grade": "C",
+  "fact_date": "2025-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-10",
+  "context": "Federal News Network, 2025-02-10 (second Trump administration action). The same article reports the removal of Special Counsel Hampton Dellinger days earlier (he sued; a district judge reinstated him temporarily). Later acting leadership of OGE and the Office of Special Counsel, and any final court ruling on Dellinger, were not verified; see notes.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "paragraphs 5 and 8"
+ },
+ {
+  "id": "EV-DEM-039",
+  "statement": "After the 2021 change of administration, the Supreme Court vacated the Fourth Circuit's judgment in the emoluments case and remanded with instructions to dismiss it as moot.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5525",
+  "anchor": [
+   "President Biden, the Supreme Court vacated the Fourth",
+   "dismiss the case as moot."
+  ],
+  "grade": "C",
+  "fact_date": "2021-01",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-27",
+  "context": "CRS IF11086, 2021-01-27; first-term cases only. The Court acted by summary order without ruling on the merits, so the meaning of the Emoluments Clauses for a sitting President remains undecided by the Supreme Court. No ruling in any second-term emoluments suit was found; see notes.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "section 'Significant Litigation Involving the Emoluments Clauses'"
+ },
+ {
+  "id": "EV-DEM-040",
+  "statement": "The Supreme Court's November 2023 code of conduct has no enforcement mechanism of its own, and the Judicial Conduct and Disability Act does not apply to Justices.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5526",
+  "anchor": [
+   "Like the Judges’ Code of Conduct, the Justices’ Code of Conduct itself contains no enforcement",
+   "Conduct and Disability Act does not apply to Supreme Court Justices, and there is currently no other"
+  ],
+  "grade": "C",
+  "fact_date": "2023-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-17",
+  "context": "CRS LSB11078, 2023-11-17; the Court adopted the code on 2023-11-13 (CRS). Position as of that date; CRS notes Congress's power to legislate ethics rules for the Court is legally unsettled. Whether the Court adopted any enforcement step since then was not checked; see notes.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "sections on enforcement, pp. 3-4"
+ },
+ {
+  "id": "EV-DEM-041",
+  "statement": "The Judicial Conference of the United States asked Congress in March 2025 for two courts of appeals judgeships and 69 district court judgeships.",
+  "claim": "data",
+  "figures": [
+   "two",
+   "69"
+  ],
+  "source": "SRC-5531",
+  "anchor": [
+   "create two judgeships in the courts of appeals and 69 judgeships in district courts"
+  ],
+  "grade": "A",
+  "fact_date": "2025-03",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-01",
+  "context": "Judiciary's own release, 2025-03-11. The Conference recommends every two years, so the next recommendation is due about March 2027. Headline 71 in the title matches 2 plus 69. Not enacted as of 2026-11-16: the JUDGES Act of 2025 had been ordered reported by House Judiciary on 2025-03-05 (see E-D4).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-042",
+  "statement": "The judiciary reported weighted filings above 500 per judgeship in 20 of the 25 district courts it wants enlarged, and that district filings have grown 30 percent since 1990 while authorized judgeships grew only four percent since 1991.",
+  "claim": "data",
+  "figures": [
+   "500",
+   "20",
+   "25",
+   "30 percent",
+   "1990",
+   "four percent",
+   "1991"
+  ],
+  "source": "SRC-5531",
+  "anchor": [
+   "were above 500 per judgeship in 20 of the 25 district courts",
+   "District court filings have grown by 30 percent since 1990",
+   "Since 1991, the overall number of authorized district court judgeships increased by only four percent."
+  ],
+  "grade": "A",
+  "fact_date": "2025-03",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-01",
+  "context": "Judiciary's own count; interested party. Weighted filings are the Judicial Conference's workload measure (see E-D3). Fiscal year 2024 data.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-043",
+  "statement": "Across district courts the median was 411 weighted filings per authorized judgeship in the year ending September 30, 2024, with a high of 4,357 in the Northern District of Florida; the Conference generally wants more than 430 before recommending a new judgeship.",
+  "claim": "data",
+  "figures": [
+   "411",
+   "September 30, 2024",
+   "4,357",
+   "430"
+  ],
+  "source": "SRC-5530",
+  "anchor": [
+   "the median number of weighted filings across all district courts for the 12-month period ending September 30, 2024, was 411",
+   "Northern District of Florida (4,357)",
+   "the conference typically requires a court to have over 430 weighted filings per judgeship"
+  ],
+  "grade": "C",
+  "fact_date": "2024-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-01",
+  "context": "CRS compilation of Administrative Office statistics; checks against the judiciary's own release (E-D2). CRS also notes the Conference weighs other factors (senior, visiting and magistrate judges).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-044",
+  "statement": "President Biden vetoed the bipartisan JUDGES Act on December 23, 2024, which would have added judgeships in the first comprehensive bill in more than three decades.",
+  "claim": "data",
+  "figures": [
+   "Dec. 23, 2024",
+   "2024"
+  ],
+  "source": "SRC-5531",
+  "anchor": [
+   "Congress in 2024 approved a bipartisan bill to address the critical need for new judgeships throughout the federal courts, the first such comprehensive bill in more than three decades. However, President Biden vetoed the bill on Dec. 23, 2024."
+  ],
+  "grade": "A",
+  "fact_date": "2024-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-01",
+  "context": "Judiciary's release (Biden administration was the vetoing executive). CRS IN12541 confirms the veto date and that the 2025 JUDGES Act would authorize 65 new permanent and 1 temporary district judgeships (ordered reported 2025-03-05, not enacted as far as read).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-045",
+  "statement": "The CRS Insight says the House Judiciary Committee ordered reported a JUDGES Act of 2025 that would authorize, over a staggered number of years, 65 new permanent district judgeships and 1 temporary district judgeship.",
+  "claim": "data",
+  "figures": [
+   "65",
+   "1"
+  ],
+  "source": "SRC-5530",
+  "anchor": [
+   "would authorize, over a staggered number of years, 65 new permanent district court judgeships and 1 temporary district court judgeship"
+  ],
+  "grade": "C",
+  "fact_date": "2025-03",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-01",
+  "context": "Status as of CRS's April 2025 writing; whether it has since passed was not established in this read. Evidence still needed: congress.gov action history for the JUDGES Act of 2025 to January 2029 status.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-046",
+  "statement": "On November 13, 2023 the Supreme Court issued its first Justices' Code of Conduct, and CRS reports that it contains no enforcement mechanism and no formal mechanism exists to enforce it.",
+  "claim": "data",
+  "figures": [
+   "November 13, 2023",
+   "2023"
+  ],
+  "source": "SRC-5526",
+  "anchor": [
+   "On November 13, 2023, the Supreme Court issued the Justices’ Code of Conduct",
+   "Like the Judges’ Code of Conduct, the Justices’ Code of Conduct itself contains no enforcement"
+  ],
+  "grade": "C",
+  "fact_date": "2023-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-16",
+  "context": "CRS Legal Sidebar, 2023. The Judicial Conduct and Disability Act does not apply to Justices per CRS. Evidence still needed: any enforcement or disclosure changes by the Court since 2023 (not found).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-047",
+  "statement": "In Trump v. CASA (June 27, 2025) the Supreme Court held that universal injunctions likely exceed federal courts' equitable authority and granted partial stays to the extent the injunctions were broader than needed to give each plaintiff complete relief.",
+  "claim": "data",
+  "figures": [
+   "2025",
+   "June 27, 2025"
+  ],
+  "source": "SRC-4004",
+  "anchor": [
+   "Argued May 15, 2025—Decided June 27, 2025*",
+   "Held: Universal injunctions likely exceed the equitable authority that",
+   "to provide complete relief to each plaintiff with standing to sue."
+  ],
+  "grade": "A",
+  "fact_date": "2025-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-27",
+  "context": "Primary text (slip opinion syllabus). Did not decide the merits of the birthright citizenship order; the opinion's own text says it does not address whether the order violates the Citizenship Clause. Cited here by library source SRC-4004; the anchor 'Held:' line is the syllabus.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-048",
+  "statement": "CRS counted 34 nationwide injunctions against the second Trump administration through the CASA decision and 16 more first issued after it, 50 in all as of July 2026.",
+  "claim": "data",
+  "figures": [
+   "34",
+   "16",
+   "50"
+  ],
+  "source": "SRC-5533",
+  "anchor": [
+   "CRS had identified 34 cases in which federal courts had issued nationwide injunctions",
+   "CRS has identified 16 cases in which a nationwide injunction was issued for the first time after the decision in CASA , for a total of 50 nationwide injunctions"
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-07",
+  "context": "CRS's own tally with its stated definition (excludes certified class actions). The count is CRS's method; other trackers may count differently.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-049",
+  "statement": "CRS says plaintiffs have kept winning relief through nationwide class actions and APA vacatur after CASA, and that the lower pace of nationwide injunctions may reflect both CASA and that litigation strategy.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5533",
+  "anchor": [
+   "Since CASA , plaintiffs have continued to seek and win injunctions on behalf of nationwide classes and APA stays or vacatur that pause policies in their entirety.",
+   "may have functioned as intended to limit nationwide injunctions"
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-07",
+  "context": "CRS analysis, July 2026. CRS notes early reactions split between predicting profound effects on courts' ability to check the executive and predicting little change. The Court itself expressly left class actions and APA relief unaddressed (E-D10).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-050",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-050",
+  "statement": "The CASA opinion states that the Court did not decide the Citizenship Clause question and traces the modern class action to the bill of peace, not to the universal injunction.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-4004",
+  "anchor": [
+   "The bill of peace lives in modern form, but not as the universal injunction. It evolved into the modern class action,",
+   "The applications do not raise—and thus we do not address—the question whether the Executive Order violates"
+  ],
+  "grade": "A",
+  "fact_date": "2025-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-27",
+  "context": "Slip opinion text, Supreme Court of the United States; supports why class-action relief remained available (see E-D9).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-051",
+  "statement": "On June 28, 2024 the Supreme Court overruled Chevron in Loper Bright Enterprises v. Raimondo and Relentless Inc. v. Department of Commerce, ending the rule that courts defer to an agency's reasonable reading of an ambiguous statute.",
+  "claim": "data",
+  "figures": [
+   "June 28, 2024",
+   "2024"
+  ],
+  "source": "SRC-5534",
+  "anchor": [
+   "Supreme Court on June 28, 2024, overrule d Chevron U.S.A., Inc. v. Natural Resources Defense Council,",
+   "federal courts to defer to a federal agency’s reasonable interpretation of ambiguous statutory provisions"
+  ],
+  "grade": "C",
+  "fact_date": "2024-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-28",
+  "context": "CRS summary of the holding; law in force in January 2029 absent a statute or later case. The anchor is the CRS wording.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-052",
+  "statement": "In Corner Post v. Federal Reserve (July 1, 2024) the Supreme Court held that an APA claim accrues when the plaintiff is injured by final agency action, so the six-year limit under 28 U.S.C. 2401(a) can start years after a rule was issued.",
+  "claim": "data",
+  "figures": [
+   "July 1, 2024",
+   "2024",
+   "six-year",
+   "2401(a)"
+  ],
+  "source": "SRC-5535",
+  "anchor": [
+   "On July 1, 2024, the Supreme Court issued its decision in Corner Post, Inc. v. Board of Governors of the Federal Reserve System",
+   "a claim under the APA accrues when a plaintiff is injured by final agency action.",
+   "28 U.S.C. § 2401(a) sets a six-year statute of limitations"
+  ],
+  "grade": "C",
+  "fact_date": "2024-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-01",
+  "context": "CRS Legal Sidebar. Read together with Loper Bright (E-D11), challenges to older rules can be brought by newly injured plaintiffs, a consequence the sidebar itself describes as a departure from the circuit rule.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-053",
+  "statement": "In Trump v. Slaughter (June 29, 2026) the Supreme Court held 6-3 that for-cause removal protection for FTC commissioners is unconstitutional and overruled Humphrey's Executor (1935).",
+  "claim": "data",
+  "figures": [
+   "6-3",
+   "June 29, 2026",
+   "2026",
+   "1935"
+  ],
+  "source": "SRC-0547",
+  "anchor": [
+   "In a 6-3 decision on June 29, 2026, the Supreme Court held that statutory provisions that allow the President to remove Federal Trade Commission (FTC) commissioners only",
+   "explicitly overrules the 1935 Supreme Court case Humphrey"
+  ],
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-29",
+  "context": "CRS Legal Sidebar LSB11448 (library SRC-0547), written under the second Trump administration, which was the party seeking removal power. CRS says the Court addressed only the FTC but dozens of other multimember agencies have similar provisions (E-D14).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-054",
+  "statement": "CRS judges that after Slaughter the removal protections of other multimember commissions, such as the NLRB, FERC and the Federal Reserve, appear to be on precarious legal footing, though the long-term impact is difficult to predict.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-0547",
+  "anchor": [
+   "The long-term impact of the Court's decision is difficult to predict, however.",
+   "those provisions appear to be on precarious legal f"
+  ],
+  "grade": "C",
+  "fact_date": "2026-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-29",
+  "context": "CRS analysis. Contesting or qualifying view: the Court's majority limited its holding to the FTC (E-D13); whether the Federal Reserve is treated differently was not settled by Slaughter per the sidebar. Evidence still needed: an independent academic or think-tank assessment (not found in this pass).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-053",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-055",
+  "statement": "CRS relays one commentator's count that the second Trump administration filed thirty emergency applications in 2025, of which twenty-four were granted, against nineteen in the four Biden years.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5532",
+  "anchor": [
+   "Of the thirty requests filed by the second Trump Administration in that time period, twenty-four were granted and two remained pending",
+   "nineteen such applications filed during the four years of the Biden Administration"
+  ],
+  "grade": "C",
+  "fact_date": "2025-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-02",
+  "context": "CRS Legal Sidebar, 2026-02-02, reporting an outside commentator's count. A second tracker cited by CRS found 25 decisions as of Dec. 23, 2025, twenty for the government and five against, so counts differ by method; the CRS headline of 'relatively high number' matches both.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-056",
+  "statement": "Ballotpedia counted that by October 1, 2025 the Supreme Court had fully granted 19 of the Trump administration's emergency applications, 83% of the decided ones.",
+  "claim": "data",
+  "figures": [
+   "19",
+   "83%",
+   "Oct. 1, 2025",
+   "2025"
+  ],
+  "source": "SRC-5541",
+  "anchor": [
+   "As of Oct. 1, 2025, the U.S. Supreme Court had fully granted 19 of the Donald Trump (R) administration’s emergency applications for intervention in lower court cases, 83% of the decided emergency applications that the administration filed."
+  ],
+  "grade": "C",
+  "fact_date": "2025-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-02",
+  "context": "Ballotpedia's rule: counts only 'fully granted' over decided applications filed by the administration (23 decided), excluding withdrawn ones. This is the legacy file's 83% figure.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Ballotpedia News, Oct. 3, 2025, first paragraph"
+ },
+ {
+  "id": "EV-DEM-057",
+  "statement": "SCOTUSblog's August 2025 stat pack put the second Trump administration's emergency grant rate at 67%, against 31% under Biden and 46% in Trump's first term.",
+  "claim": "data",
+  "figures": [
+   "67%",
+   "31%",
+   "46%",
+   "2025"
+  ],
+  "source": "SRC-5542",
+  "anchor": [
+   "During Joe Biden’s presidency (2021-2025), the rate dropped to 31%. So far, during Trump’s second term, the grant rate is even higher at 67%.",
+   "During Trump’s first presidency (2017-2021), the court granted emergency relief of substantive emergency applications at 46%."
+  ],
+  "grade": "C",
+  "fact_date": "2025-08",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-02",
+  "context": "Window Oct. 7, 2024 to Aug. 9, 2025 and a different denominator ('substantive' applications, with partial grants counted differently) from Ballotpedia's 83% (E-D16). Counting differences, not a factual conflict: 67% (SCOTUSblog, Aug. 2025) and 83% (Ballotpedia, Oct. 2025) are from different dates, numerators and denominators.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "SCOTUSblog, Aug. 2025, 'The court is saying yes' section"
+ },
+ {
+  "id": "EV-DEM-058",
+  "statement": "In the latest term the Court ruled on only nine Trump administration applications and granted relief in five (56%), compared with 19 of 21 (90%) the term before.",
+  "claim": "data",
+  "figures": [
+   "nine",
+   "five",
+   "56%",
+   "19",
+   "21",
+   "90%"
+  ],
+  "source": "SRC-5539",
+  "anchor": [
+   "The court ruled on only nine Trump administration applications this term and granted relief in five (that is, 56%) of them. Last term it granted 19 of 21 (90% of them)."
+  ],
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-10-01",
+  "context": "SCOTUSblog stat pack, Oct. 2026; term denominators differ from the calendar-year counts (E-D15 to E-D17). Shows the administration filed less and lost more in 2025-26.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "'The Trump administration filed less and lost more'"
+ },
+ {
+  "id": "EV-DEM-059",
+  "statement": "Ballotpedia reports 46 emergency applications in cases related to the second Trump administration as of November 2, 2026, with two pending and four withdrawn.",
+  "claim": "data",
+  "figures": [
+   "46",
+   "November 2, 2026",
+   "2026"
+  ],
+  "source": "SRC-5543",
+  "anchor": [
+   "As of November 2, 2026, there have been 46 emergency applications to the court in cases related to the second Trump administration, with two pending and four withdrawn."
+  ],
+  "grade": "C",
+  "fact_date": "2026-11",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-15",
+  "context": "Weekly-updated tracker; includes applications filed by other litigants in cases touching the administration, so it does not equal the administration's own filings.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-060",
+  "statement": "Feldman finds the federal government prevailed in 27 of 33 substantive emergency applications it filed in Trump's second term, 82%, but that success by distinct controversy was about 75% under Trump I, 74% under Biden and 77% under Trump II.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5540",
+  "anchor": [
+   "During his second term, the figure rises to 27 of 33, or 82%.",
+   "At the level of distinct controversies, executive success was approximately 75% under Trump I, 74% under Biden, and 77% under Trump II."
+  ],
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-10-19",
+  "context": "Analysis, SCOTUSblog, Oct. 19, 2026. The author concludes the advantage is 'more qualified' because it depends on whether the president is asking for intervention or defending. CRS (E-D21) also cautions that government selection of cases may explain the success rate. The Ballotpedia and SCOTUSblog 2025 grant rates (E-D16, E-D17) are higher.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-061",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-056",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-058",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-061",
+  "statement": "CRS notes that the government's success on emergency applications may be due in part to its selection of cases, citing a commentator who says the administration has been very selective, while others point to the Court's own handling of the legal test.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5532",
+  "anchor": [
+   "the government's success rate may be due in part to its selection of cases",
+   "Some attribute the increase in high-profile non-merits rulings at least in part to the Court itself"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-02",
+  "context": "CRS gives both explanations without choosing. Supported by SCOTUSblog's finding that the administration's applications fell and its grant rate fell in 2025-26 (E-D18); contested by the view that the Court changed its approach.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-058",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-060",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-062",
+  "statement": "Gallup found 34% of U.S. adults approve of the Supreme Court's job in September 2026, close to the record-low 33% in July 2026, and 46% trust the judicial branch.",
+  "claim": "data",
+  "figures": [
+   "34%",
+   "33%",
+   "46%"
+  ],
+  "source": "SRC-5536",
+  "anchor": [
+   "34% of U.S. adults approve of the job the court is doing, essentially unchanged from the record-low 33% approval measured in July",
+   "34% approve of the court's job performance; 46% trust the judicial branch of federal government"
+  ],
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-09-01",
+  "context": "Gallup Governance poll Sept. 1-17, 2026; trust has been below a majority for five consecutive years per Gallup, never below 50% before 2022. Marquette's approval reading for the same month is higher (43%, E-D23) because of question and sample differences.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraphs"
+ },
+ {
+  "id": "EV-DEM-063",
+  "statement": "The Marquette Law School Poll reported in September 2026 that 89% favor enforcing a strict ethics code for the justices, 79% favor fixed terms, and approval of the Court fell from 47% to 43%.",
+  "claim": "data",
+  "figures": [
+   "89%",
+   "79%",
+   "47%",
+   "43%"
+  ],
+  "source": "SRC-5537",
+  "anchor": [
+   "“Enforcing a strict ethics code for the justices is nearly universally popular, favored by 89%,” and there is also strong support (79%)",
+   "approval of the Supreme Court fell from 47% to 43%"
+  ],
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-09-01",
+  "context": "Reported second-hand by SCOTUSblog quoting Marquette; field dates and sample size not read. Same poll found 53% for adding justices and 47% opposed, so reform support is not uniform.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Morning Reads item"
+ },
+ {
+  "id": "EV-DEM-064",
+  "statement": "The Washington Post reported that the Marshals Service investigated threats against 396 federal judges in fiscal year 2025, below 455 in 2023.",
+  "claim": "data",
+  "figures": [
+   "396",
+   "455",
+   "2025",
+   "2023"
+  ],
+  "source": "SRC-5538",
+  "anchor": [
+   "The Marshals Service investigated threats against 396 judges in fiscal year 2025",
+   "2023, when the Marshals Service investigated threats against 455 judges"
+  ],
+  "grade": "C",
+  "fact_date": "2025-09",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-01",
+  "context": "Counts judges threatened, not threats. The WaPo figures come from Marshals statistics; quote from the search summary of the article text, wording not fully verified in this pass. Same article says lower-court security funding got no increase in the shutdown-ending deal, with the judiciary having asked for 142 million dollars.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Article body"
+ },
+ {
+  "id": "EV-DEM-065",
+  "statement": "Pew found that 17% of Americans said in September 2025 that they trust the government in Washington to do what is right just about always or most of the time, down from 22% the year before.",
+  "claim": "data",
+  "figures": [
+   "17%",
+   "22%"
+  ],
+  "source": "SRC-5544",
+  "anchor": [
+   "Just 17% of Americans now say they trust the government in Washington to do what is right",
+   "it is lower than it was last year (22%)"
+  ],
+  "grade": "C",
+  "fact_date": "2025-09",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-15",
+  "context": "Pew, Dec. 4, 2025. Partisan composition shifted with the change in party control (Gallup, E-D26), so a low aggregate hides opposite movements by party. The Pew question (do what is right) differs from Gallup's trust to handle problems.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraphs"
+ },
+ {
+  "id": "EV-DEM-066",
+  "statement": "Gallup found in September 2025 that forty-five percent trust the federal government to handle international problems and 38% domestic problems, with trust in the three branches ranging from 32% to 49%.",
+  "claim": "data",
+  "figures": [
+   "Forty-five percent",
+   "38%",
+   "32%",
+   "49%"
+  ],
+  "source": "SRC-2162",
+  "anchor": [
+   "Forty-five percent of U.S. adults have a great deal or fair amount of trust in the federal government to handle international problems, and 38% trust the government to handle domestic problems.",
+   "ranges from 32% for the legislative branch to 49% for the judicial branch"
+  ],
+  "grade": "C",
+  "fact_date": "2025-09",
+  "checked": "2026-11-16",
+  "recheck": "2026-11-10",
+  "context": "Gallup Nov. 10, 2025 (library SRC-2162; quoted here from S-D17). Gallup says trust moves with party control: Republicans' trust in the executive branch rose sharply while Democrats' fell. Not the same question as Pew's (E-D25), so levels differ.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraph"
+ },
+ {
+  "id": "EV-DEM-067",
+  "statement": "The Census Bureau and AmeriCorps found 28.3% of people 16 and older formally volunteered through an organization between September 2022 and September 2023, up from 23.2% in 2021 but 1.7 points below the pre-pandemic rate.",
+  "claim": "data",
+  "figures": [
+   "28.3%",
+   "23.2%",
+   "1.7 percentage points",
+   "2021",
+   "2022",
+   "2023"
+  ],
+  "source": "SRC-5545",
+  "anchor": [
+   "Over 75.7 million or 28.3% of the U.S. population age 16 and up formally volunteered through an organization between September 2022 and September 2023",
+   "The estimated 28.3% of Americans who reported volunteering through an organization in the previous year in the latest survey is up from 23.2% in 2021.",
+   "The 2023 national volunteering rate remains 1.7 percentage points below pre-pandemic levels"
+  ],
+  "grade": "A",
+  "fact_date": "2023-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-01",
+  "context": "Official Current Population Survey supplement, Sept. 2023, released Nov. 2024. Evidence still needed: the next supplement (2025 collection) and whether AmeriCorps, which lost funding and staff in 2025, still runs it.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-068",
+  "statement": "The same survey found 54.2% of Americans helped or exchanged favors with neighbors, compared with 51.7% in 2019.",
+  "claim": "data",
+  "figures": [
+   "54.2%",
+   "51.7%",
+   "2019"
+  ],
+  "source": "SRC-5545",
+  "anchor": [
+   "An estimated 54.2% of Americans helped or exchanged favors with neighbors such as house sitting, running errands, or lending tools between September 2022 and 2023 compared to 51.7% in 2019."
+  ],
+  "grade": "A",
+  "fact_date": "2023-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-01",
+  "context": "Official survey; self-reported, so subject to social desirability bias.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-069",
+  "statement": "Ballotpedia counts at least eight 2026 ballot measures on the initiative and referendum process, the most since 2000, of which seven would add requirements or restrictions.",
+  "claim": "data",
+  "figures": [
+   "2026",
+   "2000"
+  ],
+  "source": "SRC-5546",
+  "anchor": [
+   "At least eight ballot measures in 2026 will address state initiative and referendum processes, the highest number since 2000",
+   "In 2026, voters will decide on at least eight ballot measures related to the initiative and referendum process. Seven measures would add requirements or restrictions to the process"
+  ],
+  "grade": "C",
+  "fact_date": "2026-08",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-15",
+  "context": "Ballotpedia, Aug. 26, 2026. Two of the seven were already decided: North Dakota's single-subject measure passed 66% to 34% in June and Missouri's was defeated with 80% opposed in August (so voters themselves rejected the most sweeping restriction). November results not yet read.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraph"
+ },
+ {
+  "id": "EV-DEM-070",
+  "statement": "NCSL reports more than 90 bills introduced in 2026 to change the initiative and referendum process, and at least seven legislatively referred measures on November 2026 ballots that would change it.",
+  "claim": "data",
+  "figures": [
+   "90",
+   "2026",
+   "seven"
+  ],
+  "source": "SRC-5547",
+  "anchor": [
+   "This has led to more than 90 bills introduced to change the I&R process in some way so far in 2026.",
+   "legislatures have referred at least seven measures that would change the I&R process"
+  ],
+  "grade": "C",
+  "fact_date": "2026-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-15",
+  "context": "NCSL, May 7, 2026; counts both restrictive and expansive bills; says most bills fail and many address campaign finance and foreign money. Consistent with Ballotpedia's count (E-D29) but not identical in scope.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraphs"
+ },
+ {
+  "id": "EV-DEM-071",
+  "statement": "On November 21, 2025 the U.S. District Court for the District of Rhode Island issued a permanent injunction in Rhode Island v. Trump blocking the dismantling of the Institute of Museum and Library Services and three other agencies, finding the administration acted without constitutional or statutory authority.",
+  "claim": "data",
+  "figures": [
+   "November 21, 2025",
+   "2025"
+  ],
+  "source": "SRC-5548",
+  "anchor": [
+   "Published on Friday, November 21, 2025",
+   "The Court held that the Trump Administration “acted without constitutional or statutory authority”"
+  ],
+  "grade": "C",
+  "fact_date": "2025-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-15",
+  "context": "A plaintiff state's press release; order itself not read. The ALA (April 7, 2026) reports the government withdrew its appeal and a separate ALA v. Sonderling settlement followed on April 9, 2026; settlement terms not verified from the document. Congress funded IMLS at 291.8 million dollars for FY2026 per trade press, not verified from a primary source.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "First paragraph"
+ },
+ {
+  "id": "EV-DEM-072",
+  "statement": "The American Library Association reported in April 2026 that a federal court granted the Trump administration's request to withdraw its appeal of the earlier ruling on the Institute of Museum and Library Services.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5549",
+  "anchor": [
+   "a federal court granted the Trump Administration's request to withdraw its appeal"
+  ],
+  "grade": "C",
+  "fact_date": "2026-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-15",
+  "context": "ALA is an interested plaintiff; quote taken from a summary of the page and not verified verbatim. Independent confirmation: the Rhode Island attorney general's press release for the underlying ruling (E-D31).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraph"
+ },
+ {
+  "id": "EV-DEM-073",
+  "statement": "Senate cloture motions filed per Congress were 71 in Congress 107 (2001-2002), 328 in Congress 116 (2019-2020), 336 in Congress 117 (2021-2022), 266 in Congress 118 (2023-2024) and 301 so far in Congress 119 (2025-2026).",
+  "claim": "data",
+  "figures": [
+   "71",
+   "2001-2002",
+   "328",
+   "2019-2020",
+   "336",
+   "2021-2022",
+   "266",
+   "2023-2024",
+   "301",
+   "2025-2026"
+  ],
+  "source": "SRC-5550",
+  "anchor": [
+   "107 2001-2002",
+   "71 61 34",
+   "116 2019-2020",
+   "328 298 270",
+   "117 2021-2022",
+   "336 289 270",
+   "118 2023-2024",
+   "266 241 227",
+   "119 2025-2026",
+   "301 298 251"
+  ],
+  "grade": "A",
+  "fact_date": "2026-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-15",
+  "context": "Official Senate table generated 2026-11-12; the 119th Congress is unfinished. Counts include cloture filed on nominations, so rising counts do not measure legislative filibusters alone. Cloture filed is a count of motions, not of filibusters. The 119th row shows votes on cloture 298 and cloture invoked 251.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Senate Action on Cloture Motions table, rows 119, 118, 117, 116 and 107"
+ },
+ {
+  "id": "EV-DEM-074",
+  "statement": "The House has had 435 voting members since the 63rd Congress began in 1913, apart from a temporary 437 for Alaska and Hawaii statehood.",
+  "claim": "data",
+  "figures": [
+   "435",
+   "1913",
+   "437"
+  ],
+  "source": "SRC-5551",
+  "anchor": [
+   "The size of the U.S. House of Representatives is set by federal statute at 435 Representatives",
+   "This number has been constant since the start of the 63 rd Congress in 1913",
+   "a temporary increase to 437 seats"
+  ],
+  "grade": "C",
+  "fact_date": "2025-01",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-15",
+  "context": "CRS Insight, Jan. 2025. CRS notes a larger House would generally mean less populous districts but may shift seats between states.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-075",
+  "statement": "After the 2020 census the average U.S. House district had 761,169 people, ranging from 990,837 in Delaware to 542,704 in Montana, out of an apportionment population of 331,108,434.",
+  "claim": "data",
+  "figures": [
+   "761,169",
+   "990,837",
+   "542,704",
+   "331,108,434",
+   "2020"
+  ],
+  "source": "SRC-5552",
+  "anchor": [
+   "The average congressional district population for the United States following the 2020 census was 761,169 individuals.",
+   "990,837 (Delaware a )",
+   "542,704 (Montana)",
+   "331,108,434 individuals"
+  ],
+  "grade": "C",
+  "fact_date": "2020-04",
+  "checked": "2026-11-16",
+  "recheck": "2031-04-01",
+  "context": "CRS report using Census Bureau apportionment data. Used the CRS table; the primary Census table was not separately retrieved. Next apportionment follows the 2030 census.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-076",
+  "statement": "National Popular Vote Inc. reports that the National Popular Vote Interstate Compact is enacted in 19 jurisdictions with 222 electoral votes and needs 270, so 48 more.",
+  "claim": "data",
+  "figures": [
+   "19",
+   "222",
+   "270",
+   "48"
+  ],
+  "source": "SRC-5553",
+  "anchor": [
+   "possessing 270 electoral votes",
+   "enacted into law in 19 jurisdictions possessing 222 electoral votes",
+   "The Compact will take effect when enacted by states possessing an additional 48 electoral votes."
+  ],
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-15",
+  "context": "Advocacy organization's own count; no independent tally (e.g. Ballotpedia, NCSL) read in this pass. Evidence still needed: an independent count and any 2026 enactments. Its own page names the three most plausible states of 61 electoral votes as a possible path, which is the organization's projection, not a forecast.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "'Current Status' section"
+ },
+ {
+  "id": "EV-DEM-077",
+  "statement": "Article V requires applications from two-thirds (34) of the state legislatures to call a convention, and CRS found in 2017 that no official central list of state applications exists.",
+  "claim": "data",
+  "figures": [
+   "34"
+  ],
+  "source": "SRC-5554",
+  "anchor": [
+   "called on the application of the legislatures of two-thirds (34) of the states",
+   "According to the National Archives, state applications have traditionally not been collected in a central repository"
+  ],
+  "grade": "C",
+  "fact_date": "2017-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-15",
+  "context": "CRS 2017, the latest CRS version found; the legal threshold has not changed. The lack of an official list is why counts differ by advocacy group (E-D38, E-D39).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-078",
+  "statement": "Convention of States Action says 20 states have passed its Article V application, with Kansas the 20th in January 2026.",
+  "claim": "data",
+  "figures": [
+   "20",
+   "2026"
+  ],
+  "source": "SRC-5555",
+  "anchor": [
+   "Kansas become #20 in 2026!",
+   "States that have passed the Convention of States application (20)"
+  ],
+  "grade": "C",
+  "fact_date": "2026-01",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-15",
+  "context": "Advocacy group's count of its own three-subject resolution; the group says 14 more are needed to reach 34. Not an official count.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-079",
+  "statement": "A pro-convention advocate counts 29 valid fiscal-responsibility applications and 22 for Convention of States as of April 2026, by combining plenary and multi-subject applications, arguing that Congress has little discretion over counting.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5556",
+  "anchor": [
+   "Fiscal Responsibility Amendment, 29 states",
+   "Convention of States, 22 states"
+  ],
+  "grade": "D",
+  "fact_date": "2026-04",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-15",
+  "context": "Advocate's aggregation method (counting applications on the same subject together and counting plenary ones). It contests the narrower counts: the Convention of States group's own count is 20 (E-D38), and a Deseret News report in June 2026 gave 28 states for a balanced budget amendment. CRS (E-D37) notes there is no official list. Treat all as unsettled; no application count is accepted by Congress.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-078",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-077",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-080",
+  "statement": "Congress enacted the Electoral Count Reform Act in December 2022 in Division P of Public Law 117-328, part of the FY2023 Consolidated Appropriations Act.",
+  "claim": "data",
+  "figures": [
+   "December 2022",
+   "117-328",
+   "2022"
+  ],
+  "source": "SRC-5557",
+  "anchor": [
+   "statutory change in December 2022 as part of the FY2023",
+   "Consolidated Appropriations Act (P.L. 117-328, Division P,"
+  ],
+  "grade": "C",
+  "fact_date": "2022-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-15",
+  "context": "CRS In Focus (two-column text, anchors are line fragments); the same In Focus says the law changed the electors' meeting date, clarified certificates of ascertainment and governors' roles, set judicial review procedures and addressed Congress' and the vice president's counting roles. The statute is in force and no later amendment was found. NCSL describes the same law: one-fifth of members of each chamber needed to object and the vice president's role purely administrative (E-D41).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-081",
+  "statement": "NCSL describes the Electoral Count Reform Act as setting an objection threshold of one-fifth of members of the Senate and House and defining the vice president's role as purely administrative.",
+  "claim": "data",
+  "figures": [
+   "one-fifth"
+  ],
+  "source": "SRC-5558",
+  "anchor": [
+   "it creates a new threshold for congressional members to object to a slate of electors (one-fifth of members from the Senate and House) and identifies the role of the vice president as purely administrative"
+  ],
+  "grade": "C",
+  "fact_date": "2022-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-15",
+  "context": "NCSL, a different publisher from CRS (E-D40); consistent with Ballotpedia's account that the 1887 act needed only one member of each chamber.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-082",
+  "statement": "OPM reports a net change of -258,108 federal employees since January 20, 2025, with data as of September 2026.",
+  "claim": "data",
+  "figures": [
+   "-258,108",
+   "January 20, 2025",
+   "September 2026"
+  ],
+  "source": "SRC-5559",
+  "anchor": [
+   "-258,108",
+   "Change in the number of federal employees since January 20, 2025",
+   "Updated monthly | Data as of September 2026"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-15",
+  "context": "OPM dashboard, second Trump administration; net of hires minus separations from OPM EHRI Dynamics. OPM warns some Department of War components are incomplete for September 2026. The figure moves with each monthly release (an August 2026 release showed -264,029 in a search snippet, not saved). Other counts differ by period and population: Pew (Dec 2024 to Dec 2025) finds a net of nearly 238,000 (E-G3); ACSI says about 385,000 left in the year to January 2026 (E-G48), which does not match OPM net change.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-083",
+  "statement": "OPM reports that 141,084 federal employees took the Deferred Resignation Program.",
+  "claim": "data",
+  "figures": [
+   "141,084"
+  ],
+  "source": "SRC-5559",
+  "anchor": [
+   "141,084",
+   "Federal employees took the Deferred Resignation Program (DRP)"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-15",
+  "context": "OPM dashboard, second Trump administration. The OPM definition is that individuals agreed to separate by September 30, 2025. GAO-26-108719 (E-G4) reports about 144,000 more approved for the program as of its January to June 2025 data, so counts differ by date and by who is counted.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-084",
+  "statement": "Pew Research Center, analyzing OPM data, finds the federal workforce shrank 10.3% in 2025, a net of nearly 238,000 workers.",
+  "claim": "data",
+  "figures": [
+   "10.3%",
+   "238,000",
+   "2025"
+  ],
+  "source": "SRC-5600",
+  "anchor": [
+   "The federal workforce shrank by 10.3% in 2025, or a net of nearly 238,000 workers"
+  ],
+  "grade": "C",
+  "fact_date": "2025-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-15",
+  "context": "Pew Research Center, nonpartisan, March 13, 2026. Counts December headcounts in OPM's publicly reported dataset only, so it excludes employees in agencies outside that dataset and is a calendar-year, not since-January-20, measure. Pew's page headline says 10% and its text 10.3%; both are consistent with its table (2,312,301 to 2,074,649).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraph"
+ },
+ {
+  "id": "EV-DEM-085",
+  "statement": "GAO reports that from January to June 2025 a total of 134,122 individuals separated from 23 large agencies and those agencies hired 65,953.",
+  "claim": "data",
+  "figures": [
+   "134,122",
+   "65,953"
+  ],
+  "source": "SRC-5591",
+  "anchor": [
+   "a total of 134,122 individuals separated from their agencies",
+   "hired a total of 65,953 employees"
+  ],
+  "grade": "A",
+  "fact_date": "2025-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-24",
+  "context": "GAO correspondence of February 24, 2026, using agency-reported data for 23 CFO Act agencies (the Small Business Administration did not report). Period is January to June 2025 only; it does not capture the deferred-resignation exits that took effect by September 30, 2025. GAO says about 77 percent of separations were retirements or resignations and about 6 percent reductions in force (from its Table 2, not anchored here). second Trump administration actions.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Page 3, \"Staffing Declined at Nearly All Major Federal Agencies\""
+ },
+ {
+  "id": "EV-DEM-086",
+  "statement": "OPM published the Schedule Policy/Career final rule on February 6, 2026, and the rule rescinds the 2024 regulations that guaranteed reclassified employees a right to appeal to the Merit Systems Protection Board.",
+  "claim": "data",
+  "figures": [
+   "February 6, 2026",
+   "2024"
+  ],
+  "source": "SRC-5560",
+  "anchor": [
+   "On February 6, 2026, the Office of Personnel Management (OPM) published a final rule and memorandum for the implementation of Schedule Policy/Career",
+   "The 2026 rule also formally rescinds the 2024 OPM regulations adopted during the Biden Administration that guaranteed involuntarily reclassified employees the right to appeal to the MSPB"
+  ],
+  "grade": "A",
+  "fact_date": "2026-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-06",
+  "context": "CRS Legal Sidebar LSB11412 (March 26, 2026), nonpartisan. The rule implements EO 13957 as reinstated by the second Trump administration. CRS says positions are moved by a later presidential executive order, and that NTEU and a union coalition have lawsuits pending, so the schedule is not yet populated as of the CRS date (check for the placing executive order).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ]
+ },
+ {
+  "id": "EV-DEM-087",
+  "statement": "OPM estimates that about 50,000 positions, roughly 2 percent of the federal workforce, will be moved into Schedule Policy/Career.",
+  "claim": "analysis",
+  "figures": [
+   "50,000",
+   "2 percent"
+  ],
+  "source": "SRC-5561",
+  "anchor": [
+   "OPM estimated that approximately 50,000 employees, or approximately 2 percent of the Federal"
+  ],
+  "grade": "C",
+  "fact_date": "2026-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-06",
+  "context": "OPM, second Trump administration: the agency promoting the rule wrote this estimate, and its final-rule text records that commenters called it uncertain. The count is a projection, not a measured number of reclassified positions. CRS (E-G5) says the President, not OPM, places positions by executive order.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Final rule, regulatory impact discussion",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-086",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-088",
+  "statement": "Treasury shows IRS full-time-equivalent staff of 94,095 in FY2025 and 70,829 in FY2026, with 69,031 requested for FY2027, including a cut of 4,714 FTE.",
+  "claim": "data",
+  "figures": [
+   "94,095",
+   "70,829",
+   "69,031",
+   "4,714"
+  ],
+  "source": "SRC-5564",
+  "anchor": [
+   "94,095",
+   "70,829",
+   "69,031",
+   "Staff Reductions -$777,841,000 / -4,714 FTE"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-01",
+  "context": "Treasury FY2027 Budget in Brief, second Trump administration. FY2025 FTE are actuals; the FY2026 and FY2027 columns are plan and request, so they are projections. Confirms the legacy capacity review figures (SRC-0071: 94,095 and 70,829). Total budgetary resources fall from $20.0 billion to $15.9 billion across the three years (not anchored).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Summary table of resources and FTE; Staff Reductions line"
+ },
+ {
+  "id": "EV-DEM-089",
+  "statement": "TIGTA reports that 31,273 IRS employees separated, took a deferred-resignation offer or used another incentive to leave between January 2025 and January 2026, a net staffing decrease of 28 percent after hires.",
+  "claim": "data",
+  "figures": [
+   "31,273",
+   "28 percent"
+  ],
+  "source": "SRC-5562",
+  "anchor": [
+   "The IRS reported that 31,273 employees either voluntarily separated, took a DRP offer, or",
+   "the net effect on IRS staffing was a 28 percent"
+  ],
+  "grade": "A",
+  "fact_date": "2026-01",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-09",
+  "context": "TIGTA, independent inspector general inside Treasury; June 9, 2026 report using IRS records, second Trump administration. The 28 percent net figure depends on IRS estimates of hires (about 2,000 by January 2026).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Highlights and Results of Review"
+ },
+ {
+  "id": "EV-DEM-090",
+  "statement": "TIGTA shows IRS examination and collection staff rose from 20,098 to 27,217 and then fell to 19,612 and, as of January 10, 2026, to 17,517.",
+  "claim": "data",
+  "figures": [
+   "20,098",
+   "27,217",
+   "19,612",
+   "17,517",
+   "January 10, 2026"
+  ],
+  "source": "SRC-5563",
+  "anchor": [
+   "20,098",
+   "27,217",
+   "19,612",
+   "17,517",
+   "reduction in Examination and Collection staff levels in comparison to FY 2024. As of",
+   "January 10, 2026, staffing levels had fallen even further."
+  ],
+  "grade": "A",
+  "fact_date": "2026-01",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-10",
+  "context": "TIGTA Figure 13, staffing numbers provided by IRS management, second Trump administration period. The four numbers are the totals for fiscal years 2023, 2024, 2025 and the first pay period of 2026. Confirms the legacy review (SRC-0071) figures of 27,217 and 17,517.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Figure 13 (Total Examination and Collection Staff row)"
+ },
+ {
+  "id": "EV-DEM-091",
+  "statement": "TIGTA reports IRS enforcement revenue rose to $98.7 billion in FY2024 and fell to $93.8 billion in FY2025, due in large part to a 35 percent decrease in examination revenue.",
+  "claim": "data",
+  "figures": [
+   "$98.7 billion",
+   "$93.8 billion",
+   "35 percent",
+   "FY 2024",
+   "FY 2025"
+  ],
+  "source": "SRC-5563",
+  "anchor": [
+   "FY 2023 to collecting a historic high of $98.7 billion in FY 2024 before decreasing to $93.8 billion",
+   "to FY 2025 to $93.8 billion, due in large part to a 35 percent decrease in examination revenue."
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-10",
+  "context": "TIGTA, second Trump administration period. Qualifies the legacy review wording that audit revenue \"fell from $10B to $6.5B\": that is the examination component (a 35 percent drop); total enforcement revenue fell about 5 percent, and collection revenue rose 17 percent from FY2023 to FY2025 because automated notices restarted. Total tax paid in FY2025 was a record $5.3 trillion (TIGTA), so revenue overall was not reduced.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Highlights; Figure 13 narrative"
+ },
+ {
+  "id": "EV-DEM-092",
+  "statement": "TIGTA attributes part of a 30 percent fall in IRS examination starts in FY2025 to the staffing reductions, and cautions that downstream effects are likely to become more apparent over time.",
+  "claim": "analysis",
+  "figures": [
+   "30 percent",
+   "FY 2025"
+  ],
+  "source": "SRC-5563",
+  "anchor": [
+   "reductions contributed to a 30 percent decrease in examination starts in FY 2025 compared to"
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-10",
+  "context": "TIGTA's own causal account; it hedges (\"contributed to\", effects \"likely to become more apparent\"). The IRS also had the restart of collection programs and one-off timing effects in the same years. Two outside projections point the same way but are modeled, not measured (E-G12, E-G13).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Staffing narrative following Figure 13",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-093",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-094",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-093",
+  "statement": "The Budget Lab at Yale projects that a staffing reduction of almost 28,000, like the IRS cuts of 2025, would increase the deficit by almost $600 billion over 2026 to 2035.",
+  "claim": "analysis",
+  "figures": [
+   "28,000",
+   "$600 billion",
+   "2025"
+  ],
+  "source": "SRC-5601",
+  "anchor": [
+   "reduction of almost 28,000 in staffing—mirroring cuts that occurred in 2025—increases the deficit by almost $600 billion"
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-27",
+  "context": "Yale Budget Lab, university modeling group (not partisan by charter, often cited by Democrats). Model-based and large because it applies average returns to enforcement staff; CBO and Treasury official scores do not count enforcement revenue in the same way, and the author's compliance-effect scenario ($1.9 trillion in a related Budget Lab note, not anchored) is far wider. Treat as an upper-range projection.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Summary of results",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-094",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-092",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-094",
+  "statement": "Thomson Reuters reports that CBO estimates an $11.66 billion IRS rescission will reduce revenues by $38.6 billion in 2026 to 2035 through less enforcement.",
+  "claim": "analysis",
+  "figures": [
+   "$11.66 billion",
+   "$38.6 billion",
+   "2026",
+   "2035"
+  ],
+  "source": "SRC-5602",
+  "anchor": [
+   "The Congressional Budget Office (CBO) estimates the $11.66 billion rescission will reduce revenues by $38.6 billion in 2026 – 2035."
+  ],
+  "grade": "C",
+  "fact_date": "2026",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-27",
+  "context": "Trade news report of a CBO estimate (the CBO document was not retrieved; check CBO's score of the rescission). It is a rescission, not staffing, and is far smaller than the Yale scenario; CBO's official scoring guideline excludes enforcement revenue from official scores except where it reports it as a separate estimate.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraph",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-093",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-092",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-095",
+  "statement": "TIGTA reports that through February 28, 2026 IRS assistors answered phones with an 8.2-minute average speed of answer, against 3.4 a year earlier, after the IRS lowered its service-rate goal to 70 percent from 85 percent.",
+  "claim": "data",
+  "figures": [
+   "8.2",
+   "3.4",
+   "70 percent",
+   "85 percent",
+   "2026"
+  ],
+  "source": "SRC-5565",
+  "anchor": [
+   "an 8.2-minute Average Speed of Answer",
+   "3.4",
+   "leadership reduced the Level of Service or Assistor Service Rate goal to 70 percent during the",
+   "2026 Filing Season, compared with 85 percent goal during the 2025 Filing Season."
+  ],
+  "grade": "A",
+  "fact_date": "2026-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-01",
+  "context": "TIGTA interim report, July 2026, using IRS-reported statistics, second Trump administration period. The IRS introduced a new Assistor Service Rate (73 percent) that includes live chat, so the 2025 and 2026 service measures are not strictly comparable; TIGTA's own Level of Access measure was 30 percent in 2025 and 44 percent in 2026. The IRS said it would replace this measure with enterprise metrics.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Figure 8 and surrounding text"
+ },
+ {
+  "id": "EV-DEM-096",
+  "statement": "GAO found HUD's workforce decreased by about 29 percent between December 2024 and December 2025, from about 8,800 to about 6,300 employees, with 3,188 separations.",
+  "claim": "data",
+  "figures": [
+   "29 percent",
+   "8,800",
+   "6,300",
+   "3,188",
+   "December 2024",
+   "December 2025"
+  ],
+  "source": "SRC-5566",
+  "anchor": [
+   "HUD’s workforce decreased by about 29 percent between",
+   "December 2024 and December 2025, from about 8,800 to about 6,300 employees (see",
+   "fig. 1). In total, 3,188 employees separated from HUD in 2025, according to OPM"
+  ],
+  "grade": "A",
+  "fact_date": "2025-12",
+  "checked": "2026-11-16",
+  "recheck": "2027-09-30",
+  "context": "GAO-26-108442 (September 30, 2026), built from OPM data as of February 2026 because HUD did not answer most GAO requests; second Trump administration period. Confirms the legacy figures (8,800 to 6,300; SRC-0071). The legacy note of about 5,800 by September 2026 was not found in the GAO text and remains unverified.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "\"HUD's Workforce Decreased by 29 Percent, Mostly Through Deferred Resignation\""
+ },
+ {
+  "id": "EV-DEM-097",
+  "statement": "The Education Department announced in March 2025 that it would cut its workforce to about 2,183 employees from the 4,133 it had on January 20.",
+  "claim": "data",
+  "figures": [
+   "2,183",
+   "4,133"
+  ],
+  "source": "SRC-5596",
+  "anchor": [
+   "The reductions will bring the agency’s total workforce to about 2,183 employees, the agency said, from the 4,133 who worked there when President Donald Trump took office on Jan. 20"
+  ],
+  "grade": "C",
+  "fact_date": "2025-03",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-11",
+  "context": "Education Week, trade press, reporting the department's March 11, 2025 announcement under the second Trump administration. 2,183 was the planned post-cut headcount, not a measured count. GAO's agency-reported data (E-G17) shows what had happened by June 2025, and no later official count was found.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraphs"
+ },
+ {
+  "id": "EV-DEM-098",
+  "statement": "GAO's agency-reported data show the Department of Education had 813 separations from January to June 2025, 20.8 percent of its workforce, and 168 hires.",
+  "claim": "data",
+  "figures": [
+   "813",
+   "20.8%",
+   "168"
+  ],
+  "source": "SRC-5591",
+  "anchor": [
+   "Department of Education | 813 | 20.8% | 168"
+  ],
+  "grade": "A",
+  "fact_date": "2025-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-24",
+  "context": "GAO-26-108719, Table 1; January to June 2025 only, second Trump administration period. This is the largest share of any agency in the table. It qualifies the legacy statement that Education staff \"fell\" to about 2,183: that figure is the March 2025 plan (E-G16), and the data here cover only the first half of 2025.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Table 1"
+ },
+ {
+  "id": "EV-DEM-099",
+  "statement": "GAO reports that USAID staff fell from about 13,600 worldwide in January 2025 to 241 in April 2026, and USAID terminated about 6,780 of 7,510 awards.",
+  "claim": "data",
+  "figures": [
+   "13,600",
+   "241",
+   "6,780",
+   "7,510"
+  ],
+  "source": "SRC-5597",
+  "anchor": [
+   "decreased from about 13,600 staff worldwide in January 2025 to 241 staff in April 2026",
+   "terminated approximately 6,780 of 7,510 awards"
+  ],
+  "grade": "A",
+  "fact_date": "2026-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-09-30",
+  "context": "GAO-26-108607, September 30, 2026, using USAID and government-wide data; second Trump administration actions. GAO also says State could not produce its own staffing data for the period, so the total foreign-affairs workforce change is unknown.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "What GAO Found"
+ },
+ {
+  "id": "EV-DEM-100",
+  "statement": "CRS reports that Secretary of State Rubio announced on July 1, 2025 that USAID would cease to implement foreign assistance, with State administering the programs; USAID had more than 10,000 workers at the end of FY2023.",
+  "claim": "data",
+  "figures": [
+   "July 1",
+   "10,000",
+   "FY2023"
+  ],
+  "source": "SRC-5585",
+  "anchor": [
+   "Secretary of State Marco Rubio announced on July 1",
+   "USAID's workforce totaled more than 10,000 at the end of FY2023"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-01",
+  "context": "CRS In Focus IF10261, nonpartisan; describes second Trump administration actions. CRS notes it could not access a later agency financial report.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Overview and \"Trump Administration Actions Affecting USAID\""
+ },
+ {
+  "id": "EV-DEM-101",
+  "statement": "CRS reports that in 2025 the Administration reduced NOAA staffing and proposed eliminating 2,456 positions in FY2026, and that Congress said staffing losses will affect the agency's ability to fulfill its statutory responsibilities.",
+  "claim": "data",
+  "figures": [
+   "2,456",
+   "2025",
+   "FY2026"
+  ],
+  "source": "SRC-5586",
+  "anchor": [
+   "In 2025, the Administration reduced NOAA staffing through various means as part of efforts to increase government efficiency.",
+   "The Administration proposed to eliminate 2,456 positions in FY2026."
+  ],
+  "grade": "A",
+  "fact_date": "2026-03",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-12",
+  "context": "CRS In Focus IF13024, nonpartisan, second Trump administration proposal. CRS gives no count of staff already lost. The legacy figure of about 2,200 of 13,000 NOAA staff (from E&E News staff trackers) was not found in a primary source and stays unverified.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Staffing discussion"
+ },
+ {
+  "id": "EV-DEM-102",
+  "statement": "Nextgov reported that GSA eliminated the 18F digital-service team of about 90 employees on March 1, 2025, and described the U.S. Digital Service as having been transformed into DOGE.",
+  "claim": "data",
+  "figures": [
+   "90"
+  ],
+  "source": "SRC-5598",
+  "anchor": [
+   "The General Services Administration deleted 18F",
+   "About 90 people were impacted",
+   "U.S. Digital Service, which has since been transformed into Elon Musk’s DOGE"
+  ],
+  "grade": "C",
+  "fact_date": "2025-03",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-01",
+  "context": "Trade news reporting an internal GSA email, second Trump administration. Facts rest on this report and the former team's own site; the EO that renamed USDS (EO 14158) could not be fetched from the Federal Register (bot block), so the primary text is a still-needed item. The legacy note that USDS \"became DOGE\" matches the press description.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraphs"
+ },
+ {
+  "id": "EV-DEM-103",
+  "statement": "SSA's own table shows the national 800-number average speed of answer falling from 27.6 minutes in FY2024 to 15.1 in FY2025 and 5.6 in FY2026, with the answer rate at 58.4%, 57.2% and 82.6%.",
+  "claim": "data",
+  "figures": [
+   "27.6",
+   "15.1",
+   "5.6",
+   "58.4%",
+   "57.2%",
+   "82.6%"
+  ],
+  "source": "SRC-5590",
+  "anchor": [
+   "800 Number Answer Rate 58.4% 57.2% 82.6%",
+   "800 Number Average Speed of Answer (ASA) (minutes) 27.6 15.1 5.6 -79.7%"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-01",
+  "context": "SSA self-report, second Trump administration, Commissioner Bisignano. The year-in-review cover calls the answer rate \"99%\" (a September figure); the full-year table says 82.6%. The ASA measure leaves out callback waits (E-G25). FY2025 call data for October 2024 to April 2025 count IVR responses, not calls (SSA note 1).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "\"Best Overall Performance Ever, Operations 360-View, FY 2024-2026\" table, Phones section"
+ },
+ {
+  "id": "EV-DEM-104",
+  "statement": "SSA's table shows initial disability claims pending of 1,177,974 in FY2024, 885,180 in FY2025 and 910,916 in FY2026, and hearings processing time of 342, 284 and 270 days.",
+  "claim": "data",
+  "figures": [
+   "1,177,974",
+   "885,180",
+   "910,916",
+   "342",
+   "284",
+   "270"
+  ],
+  "source": "SRC-5590",
+  "anchor": [
+   "Initial Disability Claims Pending 1,177,974 885,180 910,916 -22.7%",
+   "Hearings Processing Time (days) 342 284 270 -21.1%"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-01",
+  "context": "SSA self-report, second Trump administration. The \"23% decrease\" headline compares FY2026 with FY2024; pending claims rose about 3 percent from FY2025 to FY2026 (885,180 to 910,916), so the headline hides a reversal in the last year. Initial processing time was 231.1, 226.2 and 190.9 days (not anchored). A count of hearings pending was not found (the ssa.gov data page is blocked); the BVA analogue is in E-G32.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Operations 360-View table, Disability section"
+ },
+ {
+  "id": "EV-DEM-105",
+  "statement": "SSA's table shows total end-of-year full-time permanent staff on duty falling from 56,645 in FY2024 to 50,801 in FY2025 and 48,530 in FY2026, and field office staff from 25,845 to 22,583.",
+  "claim": "data",
+  "figures": [
+   "56,645",
+   "50,801",
+   "48,530",
+   "25,845",
+   "22,583"
+  ],
+  "source": "SRC-5590",
+  "anchor": [
+   "56,645 50,801 48,530 -14.3%",
+   "25,845 23,610 22,583 -12.6%"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-01",
+  "context": "SSA self-report, second Trump administration. Attrition excluding deferred resignation was 6.1 percent in FY2026 (7.5 percent with it). Supports the legacy note that SSA staffing is at a multi-decade low only partly: the table starts at FY2024, so the long-run comparison needs another source (SSA budget history; still needed).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Operations 360-View table, Staff section"
+ },
+ {
+  "id": "EV-DEM-106",
+  "statement": "SSA's inspector general found SSA's published phone metrics accurate, but that average speed of answer excludes callback waits, about 25 million FY2025 calls ended without service, and callers waited an average 108.6 minutes for a callback.",
+  "claim": "data",
+  "figures": [
+   "25 million",
+   "108.6",
+   "FY 2025"
+  ],
+  "source": "SRC-5578",
+  "anchor": [
+   "SSA’s publicly reported national 800-number telephone metrics were accurate and its overall",
+   "ASA does not include the time callers wait to receive callbacks.",
+   "In FY 2025, about 25 million calls ended without the callers",
+   "In FY 2025, callers waited an average 108.6 minutes to receive a callback from an SSA"
+  ],
+  "grade": "A",
+  "fact_date": "2025-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-01",
+  "context": "SSA Office of the Inspector General, independent audit of FY2025 requested by Sen. Warren, second Trump administration period. SSA changed its public metrics in summer 2025 to emphasize average speed of answer. The OIG covers FY2025 only; FY2026 callback waits are not in the SSA year-in-review.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Results of review; Appendix B"
+ },
+ {
+  "id": "EV-DEM-107",
+  "statement": "SSA's Commissioner wrote that fiscal year 2026 brought \"double-digit improvements in every service metric\" through digital-first service.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5590",
+  "anchor": [
+   "resulting in double-digit improvements in every service metric"
+  ],
+  "grade": "D",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-01",
+  "context": "SSA's own summary of its performance, written by the Commissioner appointed by the second Trump administration; promotional and comparing FY2026 with FY2024. Checked against its own table: pending initial claims rose from FY2025 to FY2026 (E-G23) and the average speed of answer leaves out callback waits (E-G25), so the \"every metric\" claim does not hold for all comparisons. Staff fell 14.3 percent over the period (E-G24).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Message from the Commissioner",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-106",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-108",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-108",
+  "statement": "Government Executive reported that SSA's claim of a record low wait time is misleading because the agency counts callers who elect a callback as having zero wait.",
+  "claim": "data",
+  "figures": [],
+  "source": "SRC-5606",
+  "anchor": [
+   "those figures are misleading for two reasons"
+  ],
+  "grade": "C",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-06-10",
+  "context": "Trade news, reporter's framing of SSA testimony (June 10, 2026); adds that a Washington Post report said an earlier draft included a total-wait metric that was removed. Reported claims, not measured data. Included as the contesting view to E-G26.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Fourth paragraph from the top of the article excerpt"
+ },
+ {
+  "id": "EV-DEM-109",
+  "statement": "SSA's table shows average field office wait time falling from 29.9 minutes in FY2024 to 22.5 in FY2025 and 20.6 in FY2026.",
+  "claim": "data",
+  "figures": [
+   "29.9",
+   "22.5",
+   "20.6"
+  ],
+  "source": "SRC-5590",
+  "anchor": [
+   "Field Office Overall Wait Time (minutes) 29.9 22.5 20.6 -31.1%"
+  ],
+  "grade": "A",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-01",
+  "context": "SSA self-report, second Trump administration; the figure counts time waiting at the office, and appointments rose from about 1.9 million to 8.7 million visits (not anchored), which changes who waits.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Operations 360-View table, Field Office section"
+ },
+ {
+  "id": "EV-DEM-110",
+  "statement": "GAO's 2025 High-Risk report lists 38 areas still on the list, with twenty on it in part because of skills gaps or too few staff.",
+  "claim": "data",
+  "figures": [
+   "38",
+   "Twenty"
+  ],
+  "source": "SRC-5567",
+  "anchor": [
+   "Further progress to narrow or remove the 38 areas remaining on the",
+   "Twenty areas are on the High-Risk List in part due to",
+   "skills gaps or an inadequate number of staff."
+  ],
+  "grade": "A",
+  "fact_date": "2025-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-01",
+  "context": "GAO, nonpartisan, issued February 25, 2025, covering the period before the 2025 workforce reductions. Strategic Human Capital Management has been on the list since 2001 (outside the anchors). The next list is due in early 2027, after the 2025 cuts.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Highlights, \"Addressing the Government's Human Capital Challenges\""
+ },
+ {
+  "id": "EV-DEM-111",
+  "statement": "GAO's 2025 High-Risk report says the federal government spends more than $100 billion annually on IT, mostly on existing systems, and in many cases runs critical missions on decades-old legacy technology.",
+  "claim": "data",
+  "figures": [
+   "$100 billion"
+  ],
+  "source": "SRC-5567",
+  "anchor": [
+   "spends more than $100 billion annually on IT, with the vast majority of this spent",
+   "with decades-old legacy technology that also carries tremendous security"
+  ],
+  "grade": "A",
+  "fact_date": "2025-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-01",
+  "context": "GAO, nonpartisan; IT acquisitions and management has been on the list since 2015. The report cites FAA, FAFSA and VA electronic health record projects as examples.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Highlights, \"Harnessing Modern Information Technology\""
+ },
+ {
+  "id": "EV-DEM-112",
+  "statement": "GAO's 2025 High-Risk report names Medicare, Medicaid, the unemployment insurance system and the Earned Income Tax Credit among programs behind about 80 percent of reported improper payments.",
+  "claim": "data",
+  "figures": [
+   "80 percent"
+  ],
+  "source": "SRC-5567",
+  "anchor": [
+   "represented about 80 percent of the total government-wide reported improper",
+   "and Medicaid—as well as the unemployment insurance system and the Earned Income"
+  ],
+  "grade": "A",
+  "fact_date": "2025-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-01",
+  "context": "GAO, nonpartisan, covering FY2024 estimates. GAO added the unemployment insurance system to the list in June 2022 (GAO-23-106696).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Highlights, improper payments discussion"
+ },
+ {
+  "id": "EV-DEM-113",
+  "statement": "Agencies reported about $186 billion in improper payments for FY2025 across 64 programs, about $24 billion more than the prior year, and GAO says the total does not capture all programs.",
+  "claim": "data",
+  "figures": [
+   "$186 billion",
+   "64",
+   "$24 billion"
+  ],
+  "source": "SRC-5592",
+  "anchor": [
+   "15 agencies reported improper payment estimates across 64 programs",
+   "about $24 billion from the prior fiscal year",
+   "the $186 billion total does not include estimates of improper payments made under HHS’s TANF program"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-15",
+  "context": "GAO analysis of agency-reported data on PaymentAccuracy.gov (OMB). Agency method: an improper payment includes overpayments, underpayments, payments of unknown propriety (lacking documentation) and technically improper payments, so it is not a measure of fraud or loss. GAO says the rise is largely programs reporting for the first time plus Medicaid redeterminations as COVID flexibilities ended; about $153 billion (82 percent) were overpayments. Treasury OIG and TIGTA review parts (SRC-0418, SRC-3682).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Highlights and \"What GAO Found\""
+ },
+ {
+  "id": "EV-DEM-114",
+  "statement": "GAO's FY2025 table shows estimated improper payments of $21.1 billion (32.7 percent) in the Earned Income Tax Credit, $10.2 billion (10.9 percent) in SNAP, $37.4 billion (6.1 percent) in Medicaid and $5.6 billion (14.9 percent) in unemployment insurance.",
+  "claim": "data",
+  "figures": [
+   "32.7",
+   "10.9",
+   "$37.4",
+   "6.1",
+   "14.9"
+  ],
+  "source": "SRC-5592",
+  "anchor": [
+   "Department of the Treasury | Earned Income Tax Credit | 21.1 | 32.7",
+   "Department of Agriculture | Supplemental Nutrition Assistance Program | 10.2 | 10.9",
+   "Department of Health and Human Services | Medicaid | $37.4 | 6.1",
+   "Federal-State Unemployment Insurance 5.6 14.9"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-04-15",
+  "context": "GAO Table 1 (dollars in billions, rate = improper amount divided by program outlays). Agency method: the EITC rate comes from IRS compliance studies and counts claims it cannot verify; TIGTA reports the same EITC figures (E-G34). EITC and SNAP rates sit next to participation rates of 78 percent and 88 percent (E-G35, E-G36), the trade-off between reach and error.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Table 1"
+ },
+ {
+  "id": "EV-DEM-115",
+  "statement": "TIGTA's FY2025 improper payment review reports the IRS estimated a 32.7 percent improper payment rate for the EITC, about $21.1 billion.",
+  "claim": "data",
+  "figures": [
+   "32.7 percent",
+   "$21.1"
+  ],
+  "source": "SRC-3682",
+  "anchor": [
+   "32.7 percent for the EITC. Figure 1 provides a breakdown of the total payment amount for each",
+   "$21.1"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-07-27",
+  "context": "TIGTA (independent inspector general), July 27, 2026, second Trump administration period; already catalogued as SRC-3682. Independent corroboration of the Treasury figure GAO reports (E-G33).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Figure 1"
+ },
+ {
+  "id": "EV-DEM-116",
+  "statement": "Treasury's Fiscal Service disbursed 87.8% of all federal payments in FY2024, nearly 1.3 billion payments totaling $5.4 trillion, at a 96.9% electronic rate.",
+  "claim": "data",
+  "figures": [
+   "87.8%",
+   "1.3 billion",
+   "$5.4",
+   "96.9%",
+   "FY 2024"
+  ],
+  "source": "SRC-5577",
+  "anchor": [
+   "disbursing 87.8% of all federal payments in FY 2024 on behalf of more than 250 federal",
+   "Fiscal Service securely disbursed nearly 1.3 billion payments totaling $5.4",
+   "trillion, at an electronic rate of 96.9%, while preventing or recovering 1.2 million improper"
+  ],
+  "grade": "A",
+  "fact_date": "2024",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-01",
+  "context": "Treasury FY2026 Budget in Brief, second Trump administration, reporting FY2024 actuals. The brief says Fiscal Service also \"prevented or recovered 1.2 million improper payments valued at $7.5 billion\". A figure of \"over 1.4 billion payments\" for later years appears in an interview with a former Treasury official (Statecraft, April 2025) but was not found in a primary document.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Disbursements paragraph"
+ },
+ {
+  "id": "EV-DEM-117",
+  "statement": "In tax year 2021 eligible taxpayers participated in the EITC at a rate of 78 percent, with a dollar participation rate of 81 percent.",
+  "claim": "data",
+  "figures": [
+   "78 percent",
+   "81 percent",
+   "2021"
+  ],
+  "source": "SRC-5576",
+  "anchor": [
+   "at a rate of 78 percent while dollar participation was 81 percent.",
+   "Overall in tax year 2021 eligible taxpayers participated in the EITC program at a rate of 78 percent"
+  ],
+  "grade": "B",
+  "fact_date": "2021",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-01",
+  "context": "IRS and Census Bureau researchers, December 2024; matches the CPS to IRS records. Tax year 2021 was modified by the American Rescue Plan (childless EITC expansion), and the same paper reports 82 percent in 2019 and 80 percent in 2020. Survey-based eligibility is imputed, so the rate has error.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Abstract"
+ },
+ {
+  "id": "EV-DEM-118",
+  "statement": "USDA estimates SNAP served 88 percent of all eligible individuals in FY2022, the highest in the nearly 50-year history of the estimate.",
+  "claim": "data",
+  "figures": [
+   "88 percent",
+   "FY 22",
+   "50-year"
+  ],
+  "source": "SRC-5575",
+  "anchor": [
+   "SNAP served 88 percent of all eligible individuals in FY 22, which is the highest in the nearly 50-year history of estimating SNAP participation rates."
+  ],
+  "grade": "A",
+  "fact_date": "2022",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-01",
+  "context": "USDA FNS, report posted in 2025. FY2022 was inside the pandemic public health emergency (emergency allotments, relaxed recertification), so it is a high point and not a steady-state rate; FY2020 covers only five pre-pandemic months. Check for a later-year report.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Report summary"
+ },
+ {
+  "id": "EV-DEM-119",
+  "statement": "In a randomized trial with 30,000 elderly people likely eligible for SNAP, 6% of the control group enrolled, against 11% given information and 18% given information plus application help.",
+  "claim": "data",
+  "figures": [
+   "6%",
+   "11%",
+   "18%"
+  ],
+  "source": "SRC-5603",
+  "anchor": [
+   "Only 6% of the control group enrolls in SNAP over the next nine months, compared to 11% of the Information Only group and 18% of the Information Plus Assistance group."
+  ],
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-16",
+  "recheck": "2027-05-02",
+  "context": "Peer-reviewed in the Quarterly Journal of Economics (Finkelstein and Notowidigdo, 2019). It also finds that those who enrolled because of the interventions had higher net income and were less sick than average enrollees, so lowering frictions reached less needy people first. Population is elderly people in one state, not all eligible households.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Abstract"
+ },
+ {
+  "id": "EV-DEM-120",
+  "statement": "Closing SSA field offices led to a persistent 16 percent decline in disability recipients nearby, while applications fell by only 10 percent.",
+  "claim": "data",
+  "figures": [
+   "16 percent",
+   "10 percent"
+  ],
+  "source": "SRC-5604",
+  "anchor": [
+   "Closings lead to a persistent 16 percent decline in the number of disability recipients in surrounding areas",
+   "Disability applications fall by only 10 percent"
+  ],
+  "grade": "B",
+  "fact_date": "2019",
+  "checked": "2026-11-16",
+  "recheck": "2027-11-01",
+  "context": "Peer-reviewed in AEJ: Economic Policy (Deshpande and Li, 2019). The working-paper version reports 13 percent and 11 percent; the published abstract is used. The authors find increased congestion at neighboring offices matters more than travel or information costs.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Abstract"
+ },
+ {
+  "id": "EV-DEM-121",
+  "statement": "Herd and Moynihan argue that administrative burdens, meaning learning, compliance and psychological costs, reduce program take-up and fall hardest on the disadvantaged.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5605",
+  "anchor": [
+   "learning costs",
+   "compliance costs",
+   "psychological costs",
+   "administrative burdens often disproportionately affect the disadvantaged"
+  ],
+  "grade": "C",
+  "fact_date": "2018",
+  "checked": "2026-11-16",
+  "recheck": "2027-12-01",
+  "context": "Book from the Russell Sage Foundation (2018), a framework built on case studies; it does not itself estimate the size of the effect on take-up. The experimental and quasi-experimental estimates are E-G38 and E-G39, which support the direction. The counter-position is that verification and documentation requirements protect program integrity (see improper payment rates in E-G33), which these studies do not measure; E-G38 also shows reducing frictions can reach less needy people.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Introduction and book description",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-119",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-120",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-114",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-122",
+  "statement": "The Board of Veterans' Appeals ended FY2024 with 200,805 appeals pending after deciding a record 116,192 appeals that year.",
+  "claim": "data",
+  "figures": [
+   "200,805",
+   "116,192",
+   "FY 2024"
+  ],
+  "source": "SRC-5580",
+  "anchor": [
+   "The overall number of pending appeals at the Board went down from 208,155 to",
+   "200,805.",
+   "During FY 2024 the Board adjudicated and dispatched a record 116,192 appeals"
+  ],
+  "grade": "A",
+  "fact_date": "2024-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-01",
+  "context": "Statutory annual report for FY2024 under the Biden administration. The Board projected about 32 months to clear its workload. A FY2025 annual report was not found.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Executive summary; workload projections"
+ },
+ {
+  "id": "EV-DEM-123",
+  "statement": "The Board of Veterans' Appeals says pending appeals dropped in each of fiscal years 2023 to 2025 and that hearing-docket wait times stand at 2.4 years.",
+  "claim": "data",
+  "figures": [
+   "2023",
+   "2025",
+   "2.4 years"
+  ],
+  "source": "SRC-5579",
+  "anchor": [
+   "pending appeals dropped during each of the past three years (FY 2023-2025)",
+   "wait times currently stand at 2.4 years and falling"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-16",
+  "recheck": "2027-03-17",
+  "context": "VA Board of Veterans' Appeals web page, second Trump administration, favorable framing of its own hiring plan; no date stamp on the quoted wait. The Direct Review docket wait is just under 7 months and the Evidence docket close to 8 months (same page, not anchored).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Decision Wait Times page"
+ },
+ {
+  "id": "EV-DEM-124",
+  "statement": "The Department of Labor's acceptable level of performance for state unemployment insurance first-payment promptness is at least 87%.",
+  "claim": "data",
+  "figures": [
+   "87%"
+  ],
+  "source": "SRC-5581",
+  "anchor": [
+   "≥87%"
+  ],
+  "grade": "A",
+  "fact_date": "2026",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-01",
+  "context": "DOL core-measure standard (14/21-day first payments). A national result for the latest 12 months was not retrieved from DOL's scorecard pages (still needed); GAO-26-108694 reports a 14.9 percent improper payment rate for unemployment insurance (E-G33).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "UI PERFORMS Core Measures table"
+ },
+ {
+  "id": "EV-DEM-125",
+  "statement": "GAO estimated that fraud in pandemic unemployment insurance programs was likely between $100 billion and $135 billion, 11 to 15 percent of benefits paid.",
+  "claim": "analysis",
+  "figures": [
+   "$100 billion",
+   "$135 billion"
+  ],
+  "source": "SRC-5593",
+  "anchor": [
+   "GAO estimates that the amount of fraud in unemployment insurance (UI) programs during the COVID-19 pandemic was likely between $100 billion and $135 billion"
+  ],
+  "grade": "C",
+  "fact_date": "2023-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-09-12",
+  "context": "GAO (September 2023, Biden administration), a statistical estimate; GAO notes DOL said the figure was likely overstated and GAO disagreed. Different method from the Labor Department inspector general, whose estimate is a larger improper (not fraud) total (E-G45).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "What GAO Found",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-126",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-126",
+  "statement": "The Department of Labor inspector general estimated at least $191 billion in pandemic unemployment payments could have been improperly paid, with a significant portion attributable to fraud.",
+  "claim": "data",
+  "figures": [
+   "$191 billion"
+  ],
+  "source": "SRC-5589",
+  "anchor": [
+   "at least $191 billion in pandemic UI payments could have been improperly paid"
+  ],
+  "grade": "B",
+  "fact_date": "2023-02",
+  "checked": "2026-11-16",
+  "recheck": "2027-02-08",
+  "context": "DOL OIG, independent inspector general, estimate reported to Congress in February 2023 by applying a 21.52 percent improper payment rate to about $888 billion in benefits. \"Improper\" is broader than fraud (GAO E-G44 estimates fraud at $100 to $135 billion), so the two numbers are not in conflict.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Oversight of the UI Program, improper payment discussion"
+ },
+ {
+  "id": "EV-DEM-127",
+  "statement": "CRS records a government-wide funding gap beginning October 1, 2025 that lasted 42 full days, a second gap of three full days beginning January 31, 2026, and a DHS gap from February 14, 2026 to April 30, 2026 that lasted 75 full days.",
+  "claim": "data",
+  "figures": [
+   "October 1",
+   "2025",
+   "42 full days",
+   "three full days",
+   "January 31, 2026",
+   "February 14, 2026",
+   "April 30, 2026",
+   "75 full days"
+  ],
+  "source": "SRC-5568",
+  "anchor": [
+   "a government-wide funding gap began on October 1. It concluded on November 12, 2025, after lasting 42 full days. A second funding gap affecting activities funded in six regular appropriations bills lasted three full days beginning January 31, 2026. A third funding gap affecting activities funded in the regular appropriations act for the Department of Homeland Security began on February 14, 2026, and concluded on April 30, 2026, after lasting 75 full days."
+  ],
+  "grade": "A",
+  "fact_date": "2026-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-30",
+  "context": "CRS RS20348, nonpartisan. News outlets count the first gap as 43 days (inclusive of both dates); CRS counts full days. The 75-day DHS gap is the longest funding gap since FY1977 on CRS's list. Whether more gaps occur after January 30, 2027 depends on FY2027 appropriations (not yet enacted when this was written).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Summary"
+ },
+ {
+  "id": "EV-DEM-128",
+  "statement": "CRS reports estimates that around 670,000 or more federal employees were furloughed at some point in the 2025 shutdown, and that federal government employment fell by 162,000 in October 2025, largely from deferred-resignation employees leaving payrolls.",
+  "claim": "data",
+  "figures": [
+   "670,000",
+   "162,000"
+  ],
+  "source": "SRC-5569",
+  "anchor": [
+   "estimates suggest that around 670,000 or more federal employees were furloughed at some point during the shutdown",
+   "Federal government employment fell by 162,000 in October and by 6,000 in November"
+  ],
+  "grade": "C",
+  "fact_date": "2025-11",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-30",
+  "context": "CRS R48832 states there is no official furlough count, so 670,000 is an estimate (from agency contingency plans); the 162,000 drop is from BLS employment data and CRS says it was unrelated to the shutdown. CRS also reports CBO's estimate that a six-week shutdown costs about $11 billion of real GDP (less than 1 percent), a temporary effect. Retroactive pay was provided by P.L. 119-37.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Labor-force discussion"
+ },
+ {
+  "id": "EV-DEM-129",
+  "statement": "ACSI reports that satisfaction with federal government services fell 2.6% to 68.6 in its 2026 study, down from 70.4 in 2025 and the first decline in five years, and that call center satisfaction fell 3% to 63.",
+  "claim": "data",
+  "figures": [
+   "68.6",
+   "70.4",
+   "63"
+  ],
+  "source": "SRC-5595",
+  "anchor": [
+   "Citizen satisfaction with the U.S. federal government is at an ACSI score of 68.6 this year, down from 70.4 in 2025.",
+   "The federal call center satisfaction index slides 3% to 63"
+  ],
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-10-20",
+  "context": "ACSI (private survey firm), October 20, 2026; 7,932 emailed surveys, so it measures users who answered an email survey. ACSI's own text says the federal workforce \"shed approximately 385,000 employees in the year ending January 2026\", which does not match OPM's net change of -258,108 since January 2025 (E-G1) and should not be used as a headcount. Same finding reported by Government Executive (SRC-2164).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Press release and Study Findings"
+ },
+ {
+  "id": "EV-DEM-130",
+  "statement": "ACSI attributes the 2026 decline in satisfaction with federal services to organizational restructuring and deep staffing reductions.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5595",
+  "anchor": [
+   "those reductions surface throughout the study in weakened customer service, complaint handling, process efficiency, and website scores"
+  ],
+  "grade": "D",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-10-20",
+  "context": "ACSI's own correlational reading in an executive summary; the survey does not measure staffing and ACSI sells analytics to agencies. The IRS phone data (E-G14) fits it, while SSA reports improved service over the same period (E-G22, E-G23). Government Executive repeats the link without independent evidence (E-G50).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Summary and Study Findings",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-095",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-107",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-131",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-131",
+  "statement": "Government Executive reported that satisfaction with public-facing federal services fell for the first time in five years, according to the American Customer Satisfaction Index.",
+  "claim": "data",
+  "figures": [
+   "five years"
+  ],
+  "source": "SRC-2164",
+  "anchor": [
+   "has fallen for the first time in five years, according to new findings released by the American Customer Satisfaction Index"
+  ],
+  "grade": "C",
+  "fact_date": "2026-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-10-27",
+  "context": "Trade news report of the ACSI release (October 27, 2026); same underlying data as E-G48, so it is not an independent measurement. It notes only State and GSA scored higher.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraph"
+ },
+ {
+  "id": "EV-DEM-132",
+  "statement": "Government Executive counted five GAO decisions finding Impoundment Control Act violations in the second Trump term as of April 2026, along with four decisions finding no violation and two with mixed results.",
+  "claim": "data",
+  "figures": [
+   "five"
+  ],
+  "source": "SRC-5599",
+  "anchor": [
+   "has determined five instances in which officials have committed violations"
+  ],
+  "grade": "C",
+  "fact_date": "2026-04",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-30",
+  "context": "Trade news tally as of April 15, 2026; the primary record is GAO's decision pages (B-337137, B-337375, B-337202, B-337203, B-337204.2). GAO has since issued B-338788 (E-G52). OMB Director Vought said he disagrees with the decisions and believes impoundment limits are unconstitutional.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Second paragraph of article excerpt"
+ },
+ {
+  "id": "EV-DEM-133",
+  "statement": "GAO concluded on September 29, 2026 that the President's special message proposing rescissions from 11 accounts does not allow funds to be withheld beyond the end of fiscal year 2026.",
+  "claim": "analysis",
+  "figures": [
+   "11",
+   "2026"
+  ],
+  "source": "SRC-5594",
+  "anchor": [
+   "special message proposing rescissions from 11 appropriation accounts",
+   "do not permit the President to withhold the appropriations beyond the end of fiscal year 2026"
+  ],
+  "grade": "C",
+  "fact_date": "2026-09",
+  "checked": "2026-11-16",
+  "recheck": "2027-09-25",
+  "context": "GAO legal decision B-338788 (nonpartisan legislative agency), with a legal reading the executive branch rejects. CRS reports that GAO and OMB reached different legal conclusions and that courts have not decided the merits of pocket rescissions. The August 28, 2025 special message sought nearly $5 billion in foreign assistance rescissions (CRS LSB11373).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Highlights",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-134",
+    "stance": "qualifies"
+   },
+   {
+    "evidence": "EV-DEM-135",
+    "stance": "contests"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-134",
+  "statement": "CRS reports that GAO and OMB have reached different legal conclusions on pocket rescissions, and that with one exception courts have not decided the merits.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5582",
+  "anchor": [
+   "courts have not decided the merits of whether the ICA permits such action",
+   "which have reached different legal conclusions"
+  ],
+  "grade": "C",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2027-09-30",
+  "context": "CRS Legal Sidebar LSB11374, nonpartisan; presents both the GAO and OMB readings of Section 1012(b) of the Impoundment Control Act.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Discussion of GAO and OMB positions",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-133",
+    "stance": "supports"
+   },
+   {
+    "evidence": "EV-DEM-135",
+    "stance": "supports"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-135",
+  "statement": "OMB's General Counsel told GAO on May 30, 2025 that OMB is in full compliance with the Impoundment Control Act because none of its actions constituted a withholding subject to the Act's special message requirements.",
+  "claim": "analysis",
+  "figures": [],
+  "source": "SRC-5583",
+  "anchor": [
+   "OMB is in full compliance with the ICA, as none of its actions constituted a withholding"
+  ],
+  "grade": "D",
+  "fact_date": "2025-05",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-30",
+  "context": "OMB letter, second Trump administration: an advocate's legal position, not neutral analysis. It also says OMB will cooperate with GAO only in a way that does not unduly impede its agenda. GAO and CRS disagree (E-G52, E-G53).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Letter, first and third paragraphs",
+  "corroboration": [
+   {
+    "evidence": "EV-DEM-133",
+    "stance": "contests"
+   },
+   {
+    "evidence": "EV-DEM-134",
+    "stance": "qualifies"
+   }
+  ]
+ },
+ {
+  "id": "EV-DEM-136",
+  "statement": "Under P.L. 119-21 the federal government pays 25% of state SNAP administrative costs from October 1, 2026, down from 50%, so states cover 75%.",
+  "claim": "data",
+  "figures": [
+   "25%",
+   "October 1, 2026",
+   "50%",
+   "75%"
+  ],
+  "source": "SRC-5571",
+  "anchor": [
+   "newly effective October 1, 2026—25% of the state's SNAP administrative costs",
+   "increasing the state cost-share for SNAP administrative costs from 50% to 75%"
+  ],
+  "grade": "A",
+  "fact_date": "2026-10",
+  "checked": "2026-11-16",
+  "recheck": "2027-10-01",
+  "context": "CRS R42505 (November 4, 2026) and R48552, nonpartisan, describing enacted law (P.L. 119-21, section 10106). The change is in effect and will still be in January 2029 unless Congress changes it.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "R42505 summary; R48552 administrative cost sharing"
+ },
+ {
+  "id": "EV-DEM-137",
+  "statement": "Beginning in FY2028, states with SNAP payment error rates of 6% to under 8%, 8% to under 10%, and 10% or more must pay 5%, 10% and 15% of SNAP benefit costs.",
+  "claim": "data",
+  "figures": [
+   "FY2028",
+   "6%",
+   "8%",
+   "10%",
+   "5%",
+   "15%"
+  ],
+  "source": "SRC-5570",
+  "anchor": [
+   "Beginning in FY2028, the enacted bill requires (1) states with error rates equal to or greater than 6% but less than 8% to contribute 5% of SNAP benefit costs, (2) states with error rates equal to or greater than 8% but less than 10% to contribute 10% of SNAP benefit costs, and (3) states with error rates equal to or greater than 10% to contribute 15% of SNAP benefit costs."
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-10-01",
+  "context": "CRS R48552, nonpartisan; enacted law (P.L. 119-21 section 10105). For FY2028 a state may elect its FY2025 or FY2026 error rate; states with very high rates get a delay to FY2029 or FY2030. The national SNAP improper payment rate for FY2025 is 10.9 percent in GAO's table (E-G33), but the state payment error rate used here is USDA's quality-control measure, so state-by-state rates are still needed.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Benefit cost sharing row"
+ },
+ {
+  "id": "EV-DEM-138",
+  "statement": "The Medicaid community engagement requirement in P.L. 119-21 takes effect December 31, 2026 or sooner at state option, with state exemptions for good-faith effort expiring no later than December 31, 2028.",
+  "claim": "data",
+  "figures": [
+   "December 31, 2026",
+   "December 31, 2028"
+  ],
+  "source": "SRC-5572",
+  "anchor": [
+   "The provision is effective beginning December 31, 2026, or sooner at state option.",
+   "to expire not later than December 31, 2028"
+  ],
+  "grade": "A",
+  "fact_date": "2025-07",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-01",
+  "context": "CRS R48633, nonpartisan; enacted law (section 71119). CMS's interim final rule of June 1, 2026 says states must generally implement by January 1, 2027 (E-G58). Because a good-faith exemption can run to the end of 2028, the January 2029 baseline is that every state is required to run the requirement, with no further exemptions.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Section 71119 discussion and Special Implementation Rule"
+ },
+ {
+  "id": "EV-DEM-139",
+  "statement": "CMS's June 1, 2026 interim final rule says states must generally implement the Medicaid work requirement no later than January 1, 2027.",
+  "claim": "data",
+  "figures": [
+   "June 1, 2026",
+   "January 1, 2027"
+  ],
+  "source": "SRC-5573",
+  "anchor": [
+   "on June 1, 2026, the Centers for Medicare & Medicaid Services (CMS) issued an interim final rule",
+   "States must generally implement this requirement no later than January 1, 2027"
+  ],
+  "grade": "A",
+  "fact_date": "2026-06",
+  "checked": "2026-11-16",
+  "recheck": "2027-01-01",
+  "context": "CMS fact sheet, second Trump administration. The rule requires states to verify 80 hours a month of work, community service, education or the income equivalent, with outreach to current enrollees before the start; how well state systems can verify is not measured here (still needed).",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Opening paragraph"
+ },
+ {
+  "id": "EV-DEM-140",
+  "statement": "In FY2025 the SNAP application processing timeliness rate ranged from 97.22 percent in Wisconsin to 61.24 percent in Georgia and 60.33 percent in Guam.",
+  "claim": "data",
+  "figures": [
+   "97.22",
+   "61.24",
+   "60.33"
+  ],
+  "source": "SRC-5574",
+  "anchor": [
+   "Wisconsin 97.22",
+   "Georgia 61.24",
+   "Guam 60.33",
+   "An application is considered processed timely if the household has an opportunity to participate within 30 days"
+  ],
+  "grade": "A",
+  "fact_date": "2025",
+  "checked": "2026-11-16",
+  "recheck": "2026-11-30",
+  "context": "USDA FNS quality-control data, second Trump administration. The standard is 30 days (7 for expedited); USDA says the measure is not a strict measure of compliance because some applicant-caused delays count as untimely. Timeliness rates swung widely between FY2024 and FY2025 in several states (for example Tennessee and New Mexico up sharply), so one year is a weak guide. State rates come before the administrative cost shift in E-G55 takes effect.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "State table"
+ },
+ {
+  "id": "EV-DEM-141",
+  "statement": "BLS reports local government employment of 15022 thousand in January 2025 and 15176 (preliminary) in October 2026.",
+  "claim": "data",
+  "figures": [
+   "15022",
+   "15176"
+  ],
+  "source": "SRC-5587",
+  "anchor": [
+   "2025 15022 15037 15048 15070 15094 15126 15146 15132 15132 15149 15145 15151",
+   "2026 15165 15159 15182 15181 15181 15191 15132 15188 15177(P) 15176(P)"
+  ],
+  "grade": "A",
+  "fact_date": "2026-10",
+  "checked": "2026-11-16",
+  "recheck": "2026-12-05",
+  "context": "BLS Current Employment Statistics, seasonally adjusted, in thousands; the last two months are preliminary and revised twice. State and local employment together is about 20.7 million, so local and state governments have not shrunk the way the federal workforce has (state government fell from 5525 to 5479 thousand over the same months, S-G30, not anchored). Employment counts say nothing about eligibility-system capacity or backlogs.",
+  "supports": [
+   "dossiers/foundations/democratic-renewal/1-problem.md"
+  ],
+  "locator": "Table rows for 2025 and 2026"
+ }
+]
