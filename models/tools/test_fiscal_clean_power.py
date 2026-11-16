@@ -110,6 +110,12 @@ class CleanPowerBooking(unittest.TestCase):
         hi = res["provisions"]["CLI-4R.01-hi"]
         self.assertAlmostEqual(float(bills["cost_hi"]), hi["fy2030_39"] / 1000, delta=0.0006)
         self.assertAlmostEqual(float(bills["cost_mid"]), prov["fy2030_39"] / 1000, delta=0.0006)
+        # the ledger books $3.0B (the $2.6B path at the ledger's $0.001T rounding) in the window, and $12B at the high end
+        self.assertEqual(float(bills["cost_mid"]), 0.003)
+        self.assertEqual(float(bills["cost_mid"]), round(sum(years) / 1000, 3))
+        self.assertEqual(float(bills["cost_lo"]), float(bills["cost_mid"]))     # no lower case is modeled
+        self.assertEqual(float(bills["cost_hi"]), round(hi["fy2030_39"] / 1000, 3))
+        self.assertEqual(float(bills["cost_hi"]), 0.012)
 
     def test_transition_share_from_fy2040_only(self):
         self.assertEqual([self.gf("C1T", y) for y in W], [0.0] * 10)
